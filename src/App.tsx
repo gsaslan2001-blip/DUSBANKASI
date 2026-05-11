@@ -117,6 +117,7 @@ export default function App() {
 
   const {
     resumeSessionData,
+    isSessionLoading,
     clearResumableSession,
     saveResumableSession,
   } = useResumableSession(user?.id);
@@ -319,9 +320,23 @@ export default function App() {
   const handleDailyExamStart = () => {
     if (!todaysDailyExam || todaysDailyExam === 'loading') return;
     const exam = todaysDailyExam as DailyExamRow;
+
+    // Eğer bu sınav için kaydedilmiş yarım oturum varsa, kaldığı yerden devam et
+    if (
+      resumeSessionData &&
+      resumeSessionData.dailyExamId === exam.id &&
+      resumeSessionData.answers.length > 0
+    ) {
+      handleResumeSession();
+      return;
+    }
+
     const idSet = new Set(exam.question_ids);
     const dailyQs = questions.filter(q => idSet.has(q.id));
-    if (dailyQs.length === 0) return;
+    if (dailyQs.length === 0) {
+      showAlert('Bugüne ait günlük deneme sınavı soruları henüz yüklenemedi. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.', 'Bilgi');
+      return;
+    }
     setExamQuestions(dailyQs);
     setMode('exam');
     setIsDailyExamSession(true);
@@ -759,9 +774,15 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               onDailyExamClick={handleDailyExamStart}
               dailyExamStatus={
                 !user ? 'no-user' :
-                todaysDailyExam === 'loading' ? 'loading' :
+                (todaysDailyExam === 'loading' || isSessionLoading) ? 'loading' :
                 todaysDailyExam === null ? 'not-ready' :
-                { dayNumber: (todaysDailyExam as DailyExamRow).day_number, questionCount: (todaysDailyExam as DailyExamRow).question_ids.length }
+                {
+                  dayNumber: (todaysDailyExam as DailyExamRow).day_number,
+                  questionCount: (todaysDailyExam as DailyExamRow).question_ids.length,
+                  resumeAt: (resumeSessionData?.dailyExamId === (todaysDailyExam as DailyExamRow).id && (resumeSessionData?.answers.length ?? 0) > 0)
+                    ? resumeSessionData!.answers.length
+                    : undefined,
+                }
               }
               onSmartStudyClick={() => {
                 const queue = buildSmartQueue(questions, loadAllStats(), { limit: 40 });
@@ -802,7 +823,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               onToggleFavorite={handleToggleFavorite}
               onEditQuestion={setEditingQuestion}
               onReportQuestion={setReportingQuestion}
-              onSaveSession={mode === 'exam' && !simTotalSeconds ? (session: ActiveSessionInfo) => {
+              onSaveSession={(mode === 'quiz' || (mode === 'exam' && !simTotalSeconds)) ? (session: ActiveSessionInfo) => {
                 saveResumableSession(session).catch(() => { });
               } : undefined}
               timedSeconds={simTotalSeconds ?? undefined}
@@ -910,7 +931,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
   );
 }
 
-type DailyExamStatus = 'loading' | 'no-user' | 'not-ready' | { dayNumber: number; questionCount: number };
+type DailyExamStatus = 'loading' | 'no-user' | 'not-ready' | { dayNumber: number; questionCount: number; resumeAt?: number };
 
 function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, dueCount, onDueClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; dueCount: number; onDueClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; theme: Theme }) {
   return (
@@ -1002,8 +1023,21 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
             {typeof dailyExamStatus === 'object' && (
               <>
                 <div className="text-lg font-black text-cyan-300 mb-0.5">{dailyExamStatus.dayNumber}. Günün Denemesi</div>
-                <div className="text-3xl sm:text-4xl font-black text-cyan-400 mb-1 tracking-tight">{dailyExamStatus.questionCount} Soru</div>
-                <div className={`${theme.subtext} text-xs mt-1`}>Hazır · Başlatmak için tıkla</div>
+                {dailyExamStatus.resumeAt !== undefined ? (
+                  <>
+                    <div className="text-3xl sm:text-4xl font-black text-cyan-400 mb-1 tracking-tight">
+                      {dailyExamStatus.resumeAt} / {dailyExamStatus.questionCount}
+                    </div>
+                    <div className={`${theme.subtext} text-xs mt-1`}>
+                      {dailyExamStatus.questionCount - dailyExamStatus.resumeAt} soru kaldı · Devam et
+                    </div>
+                  </>
+                ) : (
+                  <>
+                    <div className="text-3xl sm:text-4xl font-black text-cyan-400 mb-1 tracking-tight">{dailyExamStatus.questionCount} Soru</div>
+                    <div className={`${theme.subtext} text-xs mt-1`}>Hazır · Başlatmak için tıkla</div>
+                  </>
+                )}
               </>
             )}
           </button>

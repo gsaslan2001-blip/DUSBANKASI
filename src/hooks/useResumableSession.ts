@@ -5,6 +5,7 @@ import type { ActiveSessionInfo } from '../types/app';
 
 export type UseResumableSessionResult = {
   resumeSessionData: ActiveSessionInfo | null;
+  isSessionLoading: boolean;
   clearResumableSession: () => Promise<void>;
   saveResumableSession: (session: ActiveSessionInfo) => Promise<void>;
 };
@@ -57,10 +58,12 @@ function isValidSession(session: unknown): session is ActiveSessionInfo {
  */
 export function useResumableSession(userId?: string | null): UseResumableSessionResult {
   const [resumeSessionData, setResumeSessionData] = useState<ActiveSessionInfo | null>(null);
+  const [isSessionLoading, setIsSessionLoading] = useState(false);
   // userId değişiminde yeniden yüklemeyi tetiklemek için ref
   const lastUserIdRef = useRef<string | null | undefined>(undefined);
 
   const loadResumableSession = useCallback(async (uid?: string | null) => {
+    setIsSessionLoading(true);
     try {
       const deviceId = getDeviceId();
       // Önce user bazlı ara, yoksa device bazlı
@@ -80,6 +83,8 @@ export function useResumableSession(userId?: string | null): UseResumableSession
       }
     } catch (err) {
       console.warn('Oturum yüklenemedi:', err);
+    } finally {
+      setIsSessionLoading(false);
     }
   }, []);
 
@@ -119,6 +124,7 @@ export function useResumableSession(userId?: string | null): UseResumableSession
 
   return {
     resumeSessionData,
+    isSessionLoading,
     clearResumableSession,
     saveResumableSession,
   };

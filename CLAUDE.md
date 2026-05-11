@@ -61,18 +61,25 @@ DUSBANKASI/
 │   ├── config/learning.ts        # Öğrenme parametreleri
 │   └── theme/index.ts            # Tema tanımları
 │
-├── scripts/                      # Python soru üretim + denetim hattı
+├── scripts/                      # Python soru üretim + denetim + analiz hattı
 │   ├── notebooklm-exhaust.py     # ⭐ ANA ÜRETİM MOTORU (Gemini 2.0 Flash)
 │   ├── run_production.py         # Orkestrasyon — tüm üniteler için döngü
 │   ├── shared.py                 # OpenAI Embedding (1536-dim) + Filtreler
-│   ├── config.py                 # API anahtarları
+│   ├── config.py                 # API anahtarları + RAG sabitleri (absolute path)
 │   ├── session_keeper.py         # NotebookLM oturum canlı tutma
+│   ├── analyze_deneme_followup.py  # ⭐ Supabase hata çekici (UTC-aware, dedup, null-guard)
+│   ├── generate_deneme_rag_reports.py  # ⭐ Deneme RAG pipeline orkestratörü (async)
+│   ├── templates/
+│   │   └── s5_prompt.jinja2      # ⭐ S5 v9.0 sistem promptu (Jinja2 şablonu)
 │   ├── lib/
 │   │   ├── db_layer.py           # Asenkron DB katmanı (aiohttp + Semaphore(10))
-│   │   └── lsh_matcher.py        # MinHash LSH deduplication O(log N)
+│   │   ├── lsh_matcher.py        # MinHash LSH deduplication O(log N)
+│   │   ├── pinecone_client.py    # ⭐ Async Pinecone wrapper + global fallback
+│   │   ├── openai_client.py      # ⭐ Async OpenAI wrapper + retry + rate limit
+│   │   └── progress_sync.py      # ⭐ DUS/PROGRESS.md otomatik güncelleyici
 │   └── tools/
 │       ├── smart_audit_pipeline.py   # Otomatik denetim (LSH + Semantic Match)
-│       ├── backfill_embeddings.py    # ⚠️ BUGLU — 400/404 hatası (bkz. §6)
+│       ├── backfill_embeddings.py    # ✅ ÇÖZÜLDÜ — 10,768 satır embedding tamamlandı
 │       ├── batch_rollback.py         # Parti geri alma (3 katmanlı güvenlik)
 │       ├── bulk_quality_audit.py     # Toplu kalite denetimi
 │       ├── check_expl_dupes.py       # Açıklama kopyası tespiti
@@ -139,6 +146,30 @@ session_data jsonb NOT NULL
 updated_at timestamptz
 ```
 
+### Tablo: `daily_exams` ⭐ YENİ (2026-05-11)
+
+```sql
+id            uuid PRIMARY KEY
+user_id       uuid → auth.users(id)   -- user_id bazlı (device_id yok)
+day_number    int NOT NULL             -- 1., 2., 3. gün...
+exam_date     date NOT NULL            -- YYYY-MM-DD
+question_ids  uuid[] NOT NULL          -- seçilen soru id'leri
+breakdown     jsonb NOT NULL           -- {lesson: {new: x, review: y, ...}}
+status        text DEFAULT 'pending'   -- 'pending' | 'completed' | 'archived'
+created_at    timestamptz
+completed_at  timestamptz
+```
+
+**Atlas iş akışı:** Atlas (LLM) Supabase REST API'yi kullanarak bu tabloyu doldurur.  
+**RLS:** Kullanıcı yalnızca kendi kayıtlarını okur/yazar (`auth.uid() = user_id`).  
+**Silme yok:** Tamamlanan sınavlar `completed` olarak arşivlenir, silinmez.
+
+**Supabase fonksiyonları (`src/lib/supabase.ts`):**
+- `loadTodaysDailyExam(userId)` → bugünün `pending` sınavını getirir
+- `saveDailyExam(userId, dayNumber, questionIds, breakdown)` → Atlas tarafından kaydeder
+- `markDailyExamCompleted(examId)` → sınav bitince `completed` yap
+- `getNextDayNumber(userId)` → sıradaki gün numarasını hesapla
+
 ### Kritik RPC Fonksiyonları
 
 ```sql
@@ -185,16 +216,33 @@ q = q.or('quality_flag.is.null,quality_flag.eq.reviewed_keep');
 
 ### AppState Akışı
 
-Ana modlar: `select-lesson` → `select-unit` → `quiz` | `select-deneme` → `select-deneme-amount` → `exam` | `simulation` | `analytics` | `error-analysis` | `daily-exam-setup` → `quiz`
+Ana modlar: `select-lesson` → `select-unit` → `quiz` | `select-deneme` → `select-deneme-amount` → `exam` | `simulation` | `analytics` | `error-analysis` | `daily-plan` | `source-books`
 
-**Günün Denemesi akışı:** `select-lesson` → `daily-exam-setup` (`DailyExamSetup` komponenti) → `quiz` (exam mode)
+**Günün Denemesi akışı (Atlas-driven, 2026-05-11):**
+```
+Atlas Chat:
+  Kullanıcı → konuları yazar → Atlas REST API ile soruları çeker
+           → daily_exams tablosuna kaydeder → rapor verir
+
+Frontend:
+  Uygulama açılır → loadTodaysDailyExam() → bento kart güncellenir
+  Kullanıcı tıklar → question_ids yüklenir → exam modu başlar
+  Sınav biter → markDailyExamCompleted() → status='completed'
+```
+
+**Bento kart durumları:**
+- `no-user` — "Kullanmak için giriş yapın"
+- `not-ready` — "Henüz hazırlanmadı — Atlas'a konularını söyle"
+- `ready` — "**N. Günün Denemesi · X Soru · Başlatmak için tıkla**"
+
+**Not:** `DailyExamSetup` UI komponenti kaldırıldı. `daily-exam-setup` AppState artık yok.
 
 ### Adaptif Motor (`src/lib/adaptive.ts`)
 - **FSRS Urgency: %50** — Tekrar zamanı gelenler
 - **Weakness Score: %35** — Hata oranı yüksek konular
 - **New Exploration: %15** — Hiç görülmemiş sorular
 - **Interleaving** → Ardışık aynı ders gelmez
-- **`buildDailyExam()`** → Günün Denemesi motoru: %80 yeni + %20 hard→medium→easy fallback zinciri; `DailyExamBreakdown` tipi ile canlı önizleme sağlar
+- **`buildDailyExam()`** → Atlas'ın kullandığı motor: %80 yeni + %20 hard→medium→easy fallback; frontend'de değil, Atlas workflow'unda çağrılır
 
 ### FSRS-5 (`src/lib/fsrs.ts`)
 Kullanıcı tepkisine (Zor/Orta/Kolay) göre `stability`, `difficulty`, `scheduled_days` hesaplar.
@@ -222,6 +270,9 @@ GEMINI_API_KEY = "..."    # Gemini 2.0 Flash (üretim)
 # .env.local
 VITE_SUPABASE_URL=...
 VITE_SUPABASE_ANON_KEY=...
+PINECONE_API_KEY=...
+MYPPDFS_HOST=myppdfs-0crkhvy.svc.aped-4627-b74a.pinecone.io
+OPENAI_API_KEY=...
 ```
 
 ### Üretim Akışı
@@ -251,6 +302,62 @@ Cosine similarity > 0.85 → ikiz kabul → düşük puanlı elenecek
 
 ---
 
+## 4b. DENEME ANALİZİ & RAG PIPELINE ⭐
+
+> Deneme sınavı bittikten sonra çalıştırılan otomasyon. Supabase'deki bugünkü yanlışları alır, her biri için Pinecone'dan akademik bağlam çeker, S5 v9.0 protokolüyle MD raporu üretir.
+
+### Tam Akış
+
+```
+Supabase (question_stats)
+    │  UTC timestamp, wrong_choices null-guard, question_id dedup
+    ▼
+analyze_deneme_followup.get_today_mistakes()
+    │  lesson / unit / question_text / question_id
+    ▼
+asyncio.gather (Semaphore=3)  ←── her hata izole try/except içinde
+    │
+    ├── pinecone_client.get_rag_context()
+    │       index: myppdfs | namespace: lesson.lower() | top_k=15
+    │       rerank: bge-reranker-v2-m3 top_n=5
+    │       boş namespace → namespace'siz global fallback
+    │
+    ├── openai_client.generate_completion()
+    │       model: gpt-4o | temperature: 0.3
+    │       retry: 3× | backoff: 1s→2s→4s | 429→60s bekle
+    │
+    └── .md dosyası →
+        C:\Users\FURKAN\Desktop\DUS\Deneme Analizi\Tekrar Hataları\YYYY-MM-DD\
+        [Ders]_[Unite]_[QID].md  (ş→s, ğ→g, ü→u vb.)
+
+    ▼
+progress_sync.update_progress()
+    C:\Users\FURKAN\.claude\DUS\PROGRESS.md → "Tamamlanan Deneme Analizleri"
+```
+
+### Hata Dayanıklılığı
+
+| Senaryo | Davranış |
+|---|---|
+| Pinecone namespace boş | Global fallback; hâlâ boşsa context = "İlgili kaynak bulunamadı." |
+| OpenAI 429 | 60s bekle, 3 deneme; biterse o rapor atlanır, diğerleri devam eder |
+| Supabase join null | O kayıt loglanıp sessizce atlanır |
+| Herhangi bir exception | İzole try/except — pipeline durmaz |
+
+### S5 v9.0 Sistem Promptu (Özet)
+
+Tam prompt: `scripts/templates/s5_prompt.jinja2`
+Değişkenler: `{{ context }}`, `{{ lesson }}`, `{{ unit }}`, `{{ question_text }}`
+
+**Mutlak Yasaklar:** Kısa yanıt yasağı · Belirsizlik yasağı ("vb.", "gibi" vb.) · Mekanizma şartı (min 3 basamaklı A→B→C zinciri) · Tablo şartı (min 1 Markdown tablosu) · Kesin sayı şartı
+
+**Rapor Bölümleri:**
+1. HIGH-YIELD 20/80 ÖZÜ — Patognomonik + ayırt edici bilgiler, numaralı liste
+2. KAPSAMLI KONU ANLATIMI — 8 alt başlık (Tanım, Etyoloji, Patogenez, Klinik, Radyoloji, Tedavi, Tablo, DUS Tuzakları)
+3. 5 KLASİK DUS SORUSU — 5 şıklı, doğru cevap + mekanizma + tüm yanlış şık eliminasyonu
+
+---
+
 ## 5. KOMUT REFERANSI
 
 ```bash
@@ -268,6 +375,11 @@ python scripts/tools/batch_rollback.py --lesson Fizyoloji --since 2026-04-18
 
 # DB durum
 python scripts/tools/check_db_all.py
+
+# ⭐ Deneme Analizi RAG Pipeline (deneme bittikten sonra)
+python scripts/generate_deneme_rag_reports.py              # Tüm bugünkü yanlışlar
+python scripts/generate_deneme_rag_reports.py --limit 3   # İlk 3 (test)
+python scripts/generate_deneme_rag_reports.py --dry-run   # Listele, rapor üretme
 
 # Frontend
 npm run dev
@@ -344,6 +456,11 @@ Benzer pipeline hatası oluşursa aynı pattern'i uygula.
 | device_id → user_id migration | v2 Auth'da anonimden kullanıcıya soft geçiş |
 | pg_cron | Sunucu-side otomasyon (temizlik, flag geçişi) |
 | **%80 yeni / %20 hard (Günün Denemesi)** | **Yeni materyali kısa vadeli belleğe taşıma + zor soruları yinelemek için bilişsel yük dengeleme; hard→medium→easy fallback, sıfır boş sonuç garantisi** |
+| **Atlas-driven daily exam (UI kaldırıldı)** | **Manuel ünite seçimi UX yerine LLM chat workflow: kullanıcı konuları söyler → Atlas REST API ile soruları seçer ve `daily_exams` tablosuna kaydeder → frontend otomatik yükler. Daha esnek, daha hızlı.** |
+| **Async RAG pipeline (Semaphore=3)** | **Seri işlem yerine asyncio.gather + Semaphore(3): 30 hata ~5dk → ~1.5dk. Rate limit koruması aynı anda.** |
+| **openai_client retry (backoff 1s→2s→4s)** | **Tek hata pipeline'ı kırıyordu. İzole try/except + retry: bir soru başarısız olursa diğerleri devam eder, hiçbir rapor kaybolmaz.** |
+| **Jinja2 prompt template** | **Prompt script içine gömülüyken değiştirmek riskli ve izlenemezdi. `templates/s5_prompt.jinja2` ile prompt versiyonlanır, LLM tarafından okunabilir.** |
+| **Global Pinecone fallback** | **Ders namespace'i Pinecone'da boş olabilir (yeni eklenmiş ders). Fallback olmadan LLM'e boş context gidip halüsinasyon üretiyordu.** |
 
 ---
 
@@ -360,7 +477,18 @@ Benzer pipeline hatası oluşursa aynı pattern'i uygula.
 | Frontend quiz akışı | `src/components/quiz/QuizView.tsx` |
 | Soru sıralama algoritması | `src/lib/adaptive.ts` |
 | **Günün Denemesi motoru** | **`src/lib/adaptive.ts` → `buildDailyExam()`** |
-| **Günün Denemesi UI** | **`src/App.tsx` → `DailyExamSetup` komponenti** |
+| **Günün Denemesi DB fonksiyonları** | **`src/lib/supabase.ts` → `loadTodaysDailyExam`, `saveDailyExam`, `markDailyExamCompleted`** |
+| **Günün Denemesi bento kart** | **`src/App.tsx` → `LessonSelection` + `dailyExamStatus` prop** |
+| **Günün Denemesi DB tablosu** | **`supabase-schema.sql` → `daily_exams`** |
+| **Günün Denemesi Atlas oyun kitabı** | **`WORKFLOW_GUNUN_DENEMESI.md` — SQL şablonları, pitfall'lar, rapor formatı** |
+| **Deneme Analizi & RAG workflow** | **`WORKFLOW_DENEME_ANALIZI_RAG.md` — Tam akış, S5 prompt, parametre referansı** |
+| **Deneme RAG orkestratörü** | **`scripts/generate_deneme_rag_reports.py` → async main()** |
+| **Supabase hata çekici** | **`scripts/analyze_deneme_followup.py` → `get_today_mistakes(detailed=True)`** |
+| **Pinecone async wrapper** | **`scripts/lib/pinecone_client.py` → `get_rag_context()`, global fallback** |
+| **OpenAI async wrapper** | **`scripts/lib/openai_client.py` → `generate_completion()`, retry/backoff** |
+| **S5 sistem promptu** | **`scripts/templates/s5_prompt.jinja2` — Jinja2, `{{ context/lesson/unit/question_text }}`** |
+| **PROGRESS.md güncelleyici** | **`scripts/lib/progress_sync.py` → `update_progress()`** |
+| **RAG pipeline sabitleri** | **`scripts/config.py` → `MYPPDFS_HOST`, `LOG_DIR`, `OUTPUT_BASE_DIR`, `RAG_*`** |
 | FSRS hesaplama | `src/lib/fsrs.ts` |
 | İstatistik (local+cloud) | `src/lib/stats.ts` |
 | DB şeması | `supabase-schema.sql` |
@@ -388,9 +516,28 @@ Benzer pipeline hatası oluşursa aynı pattern'i uygula.
 - `backfill_embeddings.py` 400/404 bug çözüldü — 10,768 satır embedding tamamlandı
 - `fetchQuestions` optimize edildi: PAGE_SIZE→500, sunucu filtresi, paralel 2'li fetch, retry
 
-**Son Güncelleme:** 2026-05-11 — Günün Denemesi özelliği eklendi ve deploy edildi (bkz. `HANDOVER_REPORT_20260511.md`).
+**Son Güncelleme:** 2026-05-11 — Günün Denemesi Atlas-driven + Deneme Analizi RAG Pipeline eklendi.
 
-**Açık Görev Kalmamıştır:** Sistem tam kapasite aktiftir.
+**Değişiklikler (2026-05-11 v2):**
+- `DailyExamSetup` UI komponenti kaldırıldı (manual ünite seçimi)
+- `daily-exam-setup` AppState kaldırıldı
+- `daily_exams` Supabase tablosu eklendi (user_id bazlı, arşivleme mantığı)
+- `loadTodaysDailyExam`, `saveDailyExam`, `markDailyExamCompleted`, `getNextDayNumber` fonksiyonları eklendi
+- Bento kart: 3 durum (no-user / not-ready / ready) + tıklanınca sınavı yükle
+- Atlas workflow: kullanıcı chat'te konuları yazar → Atlas REST API → DB → frontend
+
+**Değişiklikler (2026-05-11 v3) — Deneme Analizi RAG Pipeline:**
+- `scripts/analyze_deneme_followup.py` hardened: UTC timestamp, null-guard, question_id dedup
+- `scripts/generate_deneme_rag_reports.py` yeniden yazıldı: async-first, izole try/except, Semaphore(3)
+- `scripts/lib/pinecone_client.py` eklendi: async Pinecone wrapper + global fallback
+- `scripts/lib/openai_client.py` eklendi: async OpenAI wrapper + exponential backoff + 429 handler
+- `scripts/lib/progress_sync.py` eklendi: DUS/PROGRESS.md otomatik güncelleme
+- `scripts/templates/s5_prompt.jinja2` eklendi: S5 v9.0 tam protokol, Jinja2 şablon
+- `scripts/config.py` genişletildi: absolute path env loader, RAG sabitleri
+
+**⚠️ Yapılması Gereken:** Supabase SQL Editor'de `daily_exams` tablosunu oluştur (`supabase-schema.sql` §2'deki CREATE TABLE bloğunu çalıştır).
+
+**Açık Görev Kalmamıştır:** Frontend deploy edildi. SQL migration bekliyor.
 
 ---
 
