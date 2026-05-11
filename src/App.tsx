@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
-import { importQuestions, deleteQuestionsInLesson, deleteQuestionsInUnit, renameLesson, renameUnit } from './lib/supabase';
+import { importQuestions, deleteQuestionsInLesson, deleteQuestionsInUnit, renameLesson, renameUnit, loadTodaysDailyExam, markDailyExamCompleted, type DailyExamRow } from './lib/supabase';
 import { useQuestions } from './hooks/useQuestions';
 import { useResumableSession } from './hooks/useResumableSession';
 import { useAuth } from './hooks/useAuth';
@@ -12,7 +12,7 @@ import SimulationResultView from './components/SimulationResultView';
 import type { AnswerDetail as SimAnswerDetail } from './components/SimulationResultView';
 import DailyPlanView from './components/DailyPlanView';
 import { SourceBooksView } from './components/SourceBooksView';
-import { buildSmartQueue, getForecastNextDays, buildUnitQueue, buildExamPool, buildSimulationPool, buildDailyExam, type DailyExamBreakdown } from './lib/adaptive';
+import { buildSmartQueue, getForecastNextDays, buildUnitQueue, buildExamPool, buildSimulationPool } from './lib/adaptive';
 import {
   CheckCircle2, XCircle, ArrowRight, ArrowLeft, RotateCcw, BookOpen,
   ChevronRight, ChevronLeft, RefreshCw, LayoutGrid,
@@ -112,11 +112,14 @@ export default function App() {
     flagQuestion: flagQuestionInHook,
   } = useQuestions();
 
+  // useAuth önce — useResumableSession'a userId geçmek için
+  const { user, signOut } = useAuth();
+
   const {
     resumeSessionData,
     clearResumableSession,
     saveResumableSession,
-  } = useResumableSession();
+  } = useResumableSession(user?.id);
   const [simTotalSeconds, setSimTotalSeconds] = useState<number | null>(null);
   const [simResult, setSimResult] = useState<{ details: SimAnswerDetail[]; totalSeconds: number; usedSeconds: number } | null>(null);
   const [editingQuestion, setEditingQuestion] = useState<Question | null>(null);
@@ -124,6 +127,9 @@ export default function App() {
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'done' | 'error'>('idle');
   const [showSettings, setShowSettings] = useState(false);
   const [showAuth, setShowAuth] = useState(false);
+  const [todaysDailyExam, setTodaysDailyExam] = useState<DailyExamRow | null | 'loading'>('loading');
+  const [isDailyExamSession, setIsDailyExamSession] = useState(false);
+  const [activeDailyExamId, setActiveDailyExamId] = useState<string | undefined>(undefined);
 
   // Merkezi Dialog State
   const [dialog, setDialog] = useState<{
@@ -146,8 +152,6 @@ export default function App() {
   const showPrompt = useCallback((message: string, defaultValue: string, onConfirm: (val: string) => void, title?: string) => {
     setDialog({ type: 'prompt', message, defaultValue, title, onConfirm: (val) => { if(val) onConfirm(val); setDialog(null); }, onCancel: () => setDialog(null) });
   }, []);
-
-  const { user, signOut } = useAuth();
 
   useRealtimeStats({
     userId: user?.id ?? null,
@@ -174,6 +178,14 @@ export default function App() {
   useEffect(() => {
     loadQuestions();
   }, [loadQuestions]);
+
+  useEffect(() => {
+    if (!user) { setTodaysDailyExam(null); return; }
+    setTodaysDailyExam('loading');
+    loadTodaysDailyExam(user.id)
+      .then(exam => setTodaysDailyExam(exam))
+      .catch(() => setTodaysDailyExam(null));
+  }, [user]);
 
   useEffect(() => {
     try {
@@ -210,6 +222,10 @@ export default function App() {
     if (resumeSessionData) {
       setExamQuestions(resumeSessionData.questions);
       setMode(resumeSessionData.mode);
+      if (resumeSessionData.dailyExamId) {
+        setIsDailyExamSession(true);
+        setActiveDailyExamId(resumeSessionData.dailyExamId);
+      }
       setAppState('quiz');
     }
   };
@@ -300,6 +316,19 @@ export default function App() {
     setAppState('simulation-setup');
   };
 
+  const handleDailyExamStart = () => {
+    if (!todaysDailyExam || todaysDailyExam === 'loading') return;
+    const exam = todaysDailyExam as DailyExamRow;
+    const idSet = new Set(exam.question_ids);
+    const dailyQs = questions.filter(q => idSet.has(q.id));
+    if (dailyQs.length === 0) return;
+    setExamQuestions(dailyQs);
+    setMode('exam');
+    setIsDailyExamSession(true);
+    setActiveDailyExamId(exam.id);
+    setAppState('quiz');
+  };
+
   const handleResetStats = async () => {
     showConfirm('Tüm istatistikler (FSRS, doğruluk, streak, aktivite) kalıcı olarak silinecek. Emin misiniz?', async () => {
       try {
@@ -333,6 +362,12 @@ export default function App() {
     setQuizStats({ correct, incorrect, blank, total: answers.length, details: answers });
     setAppState('result');
     clearResumableSession().catch(() => { });
+    if (isDailyExamSession && activeDailyExamId) {
+      markDailyExamCompleted(activeDailyExamId).catch(() => {});
+      setTodaysDailyExam(null);
+      setIsDailyExamSession(false);
+      setActiveDailyExamId(undefined);
+    }
   };
   const handleReturnToHome = () => { setAppState('select-lesson'); setSelectedLesson(''); setSelectedUnit(''); setMode('quiz'); setUnitQuestions([]); };
 
@@ -499,7 +534,6 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
       case 'simulation-result':
       case 'smart-study':
       case 'daily-plan':
-      case 'daily-exam-setup':
         setAppState('select-lesson');
         break;
       case 'select-deneme-amount':
@@ -697,20 +731,6 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               }}
               theme={theme}
             />
-          ) : appState === 'daily-exam-setup' ? (
-            <DailyExamSetup
-              questions={questions}
-              onStart={(units, count) => {
-                const stats = loadAllStats();
-                const { questions: dailyQs } = buildDailyExam(questions, units, stats, count);
-                setExamQuestions(dailyQs);
-                setMode('exam');
-                clearResumableSession().catch(() => {});
-                setAppState('quiz');
-              }}
-              onCancel={() => setAppState('select-lesson')}
-              theme={theme}
-            />
           ) : appState === 'select-lesson' ? (
             <LessonSelection
               questions={questions}
@@ -736,7 +756,13 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               onDueClick={handleDueReviewClick}
               onSimulationClick={handleSimulationClick}
               onDailyPlanClick={() => setAppState('daily-plan')}
-              onDailyExamClick={() => setAppState('daily-exam-setup')}
+              onDailyExamClick={handleDailyExamStart}
+              dailyExamStatus={
+                !user ? 'no-user' :
+                todaysDailyExam === 'loading' ? 'loading' :
+                todaysDailyExam === null ? 'not-ready' :
+                { dayNumber: (todaysDailyExam as DailyExamRow).day_number, questionCount: (todaysDailyExam as DailyExamRow).question_ids.length }
+              }
               onSmartStudyClick={() => {
                 const queue = buildSmartQueue(questions, loadAllStats(), { limit: 40 });
                 setExamQuestions(queue.questions);
@@ -789,6 +815,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               onExportPDF={handleExportPDF}
               theme={theme}
               settings={settings}
+              dailyExamId={isDailyExamSession ? activeDailyExamId : undefined}
             />
           ) : appState === 'result' ? (
             <ResultView stats={quizStats} onRestart={handleReturnToHome} onRetryIncorrect={handleRetryIncorrect} onExportPDF={handleExportPDF} theme={theme} />
@@ -883,7 +910,9 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
   );
 }
 
-function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, dueCount, onDueClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, onSmartStudyClick, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; dueCount: number; onDueClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; onSmartStudyClick: () => void; theme: Theme }) {
+type DailyExamStatus = 'loading' | 'no-user' | 'not-ready' | { dayNumber: number; questionCount: number };
+
+function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, dueCount, onDueClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; dueCount: number; onDueClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; theme: Theme }) {
   return (
     <div className="anim-slide-up w-full">
       <div className="mb-10 pl-2">
@@ -938,14 +967,45 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
             <div className={`${theme.subtext} text-xs mt-1`}>Karışık sorular ile kendini sına</div>
           </button>
 
-          <button onClick={onDailyExamClick} className={`stagger-item col-span-2 md:col-span-2 lg:col-span-3 row-span-2 ${theme.cardGlass} rounded-[2rem] p-6 sm:p-8 text-left card-hover group border border-cyan-500/10 hover:border-cyan-500/30 overflow-hidden relative`}>
+          <button
+            onClick={typeof dailyExamStatus === 'object' ? onDailyExamClick : undefined}
+            disabled={dailyExamStatus === 'loading' || dailyExamStatus === 'no-user' || dailyExamStatus === 'not-ready'}
+            className={`stagger-item col-span-2 md:col-span-2 lg:col-span-3 row-span-2 ${theme.cardGlass} rounded-[2rem] p-6 sm:p-8 text-left group border overflow-hidden relative transition-all
+              ${typeof dailyExamStatus === 'object' ? 'card-hover border-cyan-500/20 hover:border-cyan-500/40 cursor-pointer' : 'border-cyan-500/10 opacity-70 cursor-default'}`}
+          >
             <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-cyan-500/20 blur-3xl rounded-full"></div>
-            <div className="w-12 h-12 rounded-2xl bg-cyan-500/10 flex items-center justify-center mb-6 lg:mb-10 group-hover:scale-110 transition-transform">
-              <BookOpen size={24} className="text-cyan-400" />
+            <div className={`w-12 h-12 rounded-2xl bg-cyan-500/10 flex items-center justify-center mb-6 lg:mb-10 transition-transform ${typeof dailyExamStatus === 'object' ? 'group-hover:scale-110' : ''}`}>
+              {dailyExamStatus === 'loading'
+                ? <Loader2 size={24} className="text-cyan-400 animate-spin" />
+                : <BookOpen size={24} className="text-cyan-400" />
+              }
             </div>
             <div className="text-sm font-bold opacity-60 mb-1 uppercase tracking-wider">Bugünün Konusu</div>
-            <div className="text-3xl sm:text-4xl font-black text-cyan-400 mb-1 tracking-tight">Günün Denemesi</div>
-            <div className={`${theme.subtext} text-xs mt-1`}>%80 yeni · %20 zor soru karışımı</div>
+            {dailyExamStatus === 'loading' && (
+              <>
+                <div className="text-3xl sm:text-4xl font-black text-cyan-400 mb-1 tracking-tight">Günün Denemesi</div>
+                <div className={`${theme.subtext} text-xs mt-1`}>Yükleniyor…</div>
+              </>
+            )}
+            {dailyExamStatus === 'no-user' && (
+              <>
+                <div className="text-3xl sm:text-4xl font-black text-cyan-400 mb-1 tracking-tight">Günün Denemesi</div>
+                <div className={`${theme.subtext} text-xs mt-1`}>Kullanmak için giriş yapın</div>
+              </>
+            )}
+            {dailyExamStatus === 'not-ready' && (
+              <>
+                <div className="text-3xl sm:text-4xl font-black text-cyan-400 mb-1 tracking-tight">Günün Denemesi</div>
+                <div className={`${theme.subtext} text-xs mt-1`}>Henüz hazırlanmadı — Atlas'a konularını söyle</div>
+              </>
+            )}
+            {typeof dailyExamStatus === 'object' && (
+              <>
+                <div className="text-lg font-black text-cyan-300 mb-0.5">{dailyExamStatus.dayNumber}. Günün Denemesi</div>
+                <div className="text-3xl sm:text-4xl font-black text-cyan-400 mb-1 tracking-tight">{dailyExamStatus.questionCount} Soru</div>
+                <div className={`${theme.subtext} text-xs mt-1`}>Hazır · Başlatmak için tıkla</div>
+              </>
+            )}
           </button>
 
           {dueCount > 0 && (
@@ -1296,164 +1356,6 @@ function DenemeSelection({ questions, onNext, onCancel, isFavoritesMode, theme }
   );
 }
 
-function DailyExamSetup({ questions, onStart, onCancel, theme }: {
-  questions: Question[];
-  onStart: (units: { lesson: string; unit: string }[], count: number) => void;
-  onCancel: () => void;
-  theme: Theme;
-}) {
-  const [selected, setSelected] = useState<Set<string>>(new Set());
-  const [search, setSearch] = useState('');
-  const [count, setCount] = useState(20);
-  const [preview, setPreview] = useState<DailyExamBreakdown | null>(null);
-
-  const grouped = questions.reduce((acc, q) => {
-    if (!acc[q.lesson]) acc[q.lesson] = new Set<string>();
-    acc[q.lesson].add(q.unit);
-    return acc;
-  }, {} as Record<string, Set<string>>);
-
-  const filteredLessons = Object.entries(grouped).filter(([lesson, unitsSet]) => {
-    if (!search) return true;
-    const s = search.toLowerCase();
-    return lesson.toLowerCase().includes(s) || Array.from(unitsSet).some(u => u.toLowerCase().includes(s));
-  });
-
-  const toggleUnit = (l: string, u: string) => {
-    const key = `${l}|-|${u}`;
-    setSelected(prev => { const n = new Set(prev); if (n.has(key)) n.delete(key); else n.add(key); return n; });
-  };
-  const toggleLesson = (l: string, us: string[]) => {
-    setSelected(prev => {
-      const n = new Set(prev);
-      const all = us.every(u => n.has(`${l}|-|${u}`));
-      us.forEach(u => { if (all) n.delete(`${l}|-|${u}`); else n.add(`${l}|-|${u}`); });
-      return n;
-    });
-  };
-
-  const selectedUnits = Array.from(selected).map(k => ({ lesson: k.split('|-|')[0], unit: k.split('|-|')[1] }));
-  const poolSize = questions.filter(q => selectedUnits.some(u => u.lesson === q.lesson && u.unit === q.unit)).length;
-  const safeCount = Math.min(count, poolSize);
-
-  useEffect(() => {
-    if (selectedUnits.length === 0 || poolSize === 0) { setPreview(null); return; }
-    const stats = loadAllStats();
-    const { breakdown } = buildDailyExam(questions, selectedUnits, stats, safeCount);
-    setPreview(breakdown);
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selected, safeCount]);
-
-  return (
-    <div className="anim-slide-up w-full max-w-2xl mx-auto flex flex-col pb-4" style={{ maxHeight: 'calc(100vh - 120px)' }}>
-      <div className="flex items-center justify-between mb-4 shrink-0">
-        <div>
-          <h2 className="text-xl font-black flex items-center gap-2">
-            <BookOpen size={18} className="text-cyan-400" /> Günün Denemesi
-          </h2>
-          <p className={`${theme.subtext} text-xs mt-0.5`}>Bugün çalışacağın üniteleri seç · %80 yeni · %20 zor</p>
-        </div>
-        <button onClick={onCancel} className="btn btn-ghost btn-sm">İptal</button>
-      </div>
-
-      <div className="flex items-center gap-2 mb-3 shrink-0">
-        <input
-          type="text" value={search} onChange={e => setSearch(e.target.value)}
-          placeholder="Ders veya ünite ara…"
-          className={`flex-1 ${theme.inputBg} border ${theme.border} rounded-xl px-3 py-2 text-sm input-ring placeholder:opacity-30`}
-        />
-        <button onClick={() => {
-          const all = new Set<string>();
-          filteredLessons.forEach(([lesson, unitsSet]) => Array.from(unitsSet).forEach(u => all.add(`${lesson}|-|${u}`)));
-          setSelected(all);
-        }} className="btn btn-ghost btn-sm text-emerald-400 border border-emerald-500/20 shrink-0">Tümü</button>
-        <button onClick={() => setSelected(new Set())} className="btn btn-ghost btn-sm text-red-400 border border-red-500/20 shrink-0">Temizle</button>
-      </div>
-
-      <div className="flex-1 overflow-y-auto space-y-2 pr-1 custom-scrollbar">
-        {filteredLessons.map(([lesson, unitsSet]) => {
-          const units = Array.from(unitsSet).sort((a, b) => a.localeCompare(b, 'tr'));
-          const allS = units.every(u => selected.has(`${lesson}|-|${u}`));
-          const someS = units.some(u => selected.has(`${lesson}|-|${u}`));
-          const lessonCount = questions.filter(q => q.lesson === lesson).length;
-          return (
-            <div key={lesson} className={`${theme.card} rounded-2xl overflow-hidden`}>
-              <div className="p-3.5 flex items-center gap-3 cursor-pointer hover:bg-white/[0.03] transition-all" onClick={() => toggleLesson(lesson, units)}>
-                <div className={`w-5 h-5 rounded-md flex items-center justify-center border-2 transition-all shrink-0 ${allS ? 'bg-cyan-500 border-cyan-500' : someS ? 'bg-cyan-500/50 border-cyan-500/50' : theme.border}`}>
-                  {(allS || someS) && <CheckCircle2 size={13} />}
-                </div>
-                <span className="font-bold text-sm flex-1 truncate">{lesson}</span>
-                <span className={`${theme.subtext} text-[10px] shrink-0`}>{lessonCount} soru</span>
-              </div>
-              <div className={`border-t ${theme.divider} bg-black/10 px-1.5 pb-1.5`}>
-                {units.map(unit => {
-                  const s = selected.has(`${lesson}|-|${unit}`);
-                  const unitCount = questions.filter(q => q.lesson === lesson && q.unit === unit).length;
-                  return (
-                    <div key={unit} onClick={() => toggleUnit(lesson, unit)}
-                      className={`p-2.5 pl-9 flex items-center gap-3 cursor-pointer hover:bg-white/[0.03] rounded-xl transition-all ${s ? 'bg-cyan-500/5' : ''}`}>
-                      <div className={`w-4 h-4 rounded flex items-center justify-center border-2 transition-all shrink-0 ${s ? 'bg-cyan-500 border-cyan-500' : theme.border}`}>
-                        {s && <CheckCircle2 size={11} className="text-black" strokeWidth={3} />}
-                      </div>
-                      <span className={`text-xs flex-1 truncate ${s ? 'font-medium' : theme.subtext}`}>{unit}</span>
-                      <span className={`${theme.subtext} text-[10px] shrink-0`}>{unitCount}</span>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      {selected.size > 0 && (
-        <div className="shrink-0 mt-4 space-y-3">
-          <div>
-            <div className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest mb-2`}>SORU SAYISI</div>
-            <div className="flex items-center gap-3">
-              <input type="range" min="5" max={Math.min(100, poolSize)} value={safeCount}
-                onChange={e => setCount(Number(e.target.value))}
-                className="flex-1" />
-              <span className="text-2xl font-black w-12 text-right">{safeCount}</span>
-            </div>
-            <div className={`flex justify-between text-[10px] font-medium ${theme.subtext} mt-1`}>
-              <span>5</span><span>{Math.min(100, poolSize)} (havuz)</span>
-            </div>
-          </div>
-
-          {preview && (
-            <div className={`${theme.cardGlass} rounded-xl p-3 grid grid-cols-4 gap-2 text-center`}>
-              <div>
-                <div className="text-lg font-black text-cyan-400">{preview.newCount}</div>
-                <div className={`${theme.subtext} text-[10px]`}>Yeni</div>
-              </div>
-              <div>
-                <div className="text-lg font-black text-red-400">{preview.hardCount}</div>
-                <div className={`${theme.subtext} text-[10px]`}>Zor</div>
-              </div>
-              <div>
-                <div className="text-lg font-black text-amber-400">{preview.mediumCount}</div>
-                <div className={`${theme.subtext} text-[10px]`}>Orta</div>
-              </div>
-              <div>
-                <div className="text-lg font-black text-emerald-400">{preview.easyCount}</div>
-                <div className={`${theme.subtext} text-[10px]`}>Kolay</div>
-              </div>
-            </div>
-          )}
-
-          <button
-            onClick={() => onStart(selectedUnits, safeCount)}
-            disabled={poolSize === 0}
-            className="btn btn-primary btn-lg w-full bg-cyan-600 hover:bg-cyan-500 border-cyan-500"
-          >
-            <BookOpen size={16} /> Günün Denemesini Başlat ({safeCount} soru) <ArrowRight size={16} />
-          </button>
-        </div>
-      )}
-    </div>
-  );
-}
 
 function SimulationSetup({ questions, onStart, onCancel, theme }: {
   questions: Question[];

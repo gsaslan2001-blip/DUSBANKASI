@@ -17,7 +17,6 @@ export type AppState =
   | 'error-analysis'
   | 'smart-study'
   | 'daily-plan'
-  | 'daily-exam-setup'
   | 'source-books';
 
 export type AnswerDetail = {
@@ -40,6 +39,7 @@ export type ActiveSessionInfo = {
   answers: AnswerDetail[];
   currentIndex: number;
   mode: 'quiz' | 'exam';
+  dailyExamId?: string;
 };
 
 export type UserSettings = {
