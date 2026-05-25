@@ -32,8 +32,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "l
 
 from config import SUPABASE_URL, SUPABASE_KEY
 from lib.db_layer import batch_flag, batch_delete, fetch_all_questions
-from lib.db_layer import batch_flag, batch_delete, fetch_all_questions
-from lib.audit_logic import find_duplicates, curate_pairs, write_curation_summary, calc_quality_score
+from lib.audit_logic import find_duplicates, curate_pairs, write_curation_summary
 
 LOG_DIR    = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "logs"))
 REPORT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "raporlar"))

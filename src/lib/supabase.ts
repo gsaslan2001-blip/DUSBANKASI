@@ -41,68 +41,17 @@ export type ImportQuestion = {
   explanation: string;
 };
 
-export type QuestionMetadata = {
-  id: string;
-  lesson: string;
-  unit: string;
-  quality_flag?: string | null;
-};
-
 const SELECT_COLS = 'id,lesson,unit,question,option_a,option_b,option_c,option_d,option_e,correct_answer,explanation,created_at,is_favorite,flagged,flag_reason,quality_flag';
-const METADATA_COLS = 'id,lesson,unit,quality_flag';
 const PAGE_SIZE = 500;
 
-/**
- * Üretim ve performans krizi sonrası: Sadece metadata (ders/ünite listesi) yükler.
- * Bu sayede 140MB'lık devasa JSON yerine ~500KB veri çekilir.
- * Not: created_at toplu insertlerde aynı olduğu için pagination 'id' ile stabilize edildi.
- */
-export async function fetchQuestionMetadata(): Promise<QuestionMetadata[]> {
-  // Rely on recursive fetching instead of potentially wrong headers
-  async function fetchAll(from: number): Promise<QuestionMetadata[]> {
-    const { data, error } = await supabase
-      .from('questions')
-      .select(METADATA_COLS)
-      .order('id', { ascending: true })
-      .range(from, from + 1000 - 1);
-
-    if (error) throw error;
-    if (!data || data.length === 0) return [];
-
-    // Eğer full sayfa (1000 satır) geldiyse sonraki sayfayı da dene
-    if (data.length === 1000) {
-      const next = await fetchAll(from + 1000);
-      return [...data, ...next];
-    }
-    return data;
-  }
-
-  return fetchAll(0);
-}
-
-/**
- * Seçili ünitenin tüm detaylarını çeker (Lazy Load)
- * NOT: Supabase default'u 1000 satır — büyük üniteler için pagination zorunlu.
- */
-export async function fetchQuestionsByUnit(lesson: string, unit: string): Promise<QuestionRow[]> {
-  const all: QuestionRow[] = [];
-  let from = 0;
-  const limit = 1000;
-  while (true) {
-    const { data, error } = await supabase
-      .from('questions')
-      .select(SELECT_COLS)
-      .match({ lesson, unit })
-      .order('id', { ascending: true })
-      .range(from, from + limit - 1);
-    if (error) throw error;
-    if (!data || data.length === 0) break;
-    all.push(...(data as QuestionRow[]));
-    if (data.length < limit) break;
-    from += limit;
-  }
-  return all;
-}
+// ════════════════════════════════════════════════════════════════════════════
+// KATİ KURAL — LAZY-LOAD YASAK (İSTİSNASIZ)
+// Uygulama açılışta `fetchQuestions()` ile TÜM soruları belleğe yükler.
+// Daha önce denenen lazy-load mimarisi (metadata + ünite-bazlı dinamik çekim)
+// kullanıcının soruları görememesine yol açtığı için KALICI OLARAK kaldırıldı.
+// Yeniden eklenmesi YASAKTIR — adaptive motor, simülasyon ve interleaving tüm
+// soru havuzunun bellekte mevcut olmasına bağımlıdır.
+// ════════════════════════════════════════════════════════════════════════════
 
 const EXCLUDED_FLAGS = new Set(['kavramsal_kopya', 'auto_deleted']);
 
@@ -217,11 +166,6 @@ export async function deleteQuestionsInUnit(lesson: string, unit: string): Promi
 
 export async function deleteQuestionsInLesson(lesson: string): Promise<void> {
   const { error } = await supabase.from('questions').delete().eq('lesson', lesson);
-  if (error) throw error;
-}
-
-export async function deleteAllQuestions(): Promise<void> {
-  const { error } = await supabase.from('questions').delete().neq('id', '00000000-0000-0000-0000-000000000000');
   if (error) throw error;
 }
 

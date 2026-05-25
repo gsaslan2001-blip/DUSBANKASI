@@ -1,6 +1,6 @@
 Bu dosya projenin teknik yapısını ve hiyerarşisini açıklamak amacıyla oluşturulmuştur ve her yapılan değişiklik sonrası ilgili kısım güncel versiyon ile güncellenir, built alınır ve deploy edilir.
 
-# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v3.0)
+# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.0)
 
 Bu belge, DUSBANKASI projesinin tüm kod yapısını, veri tabanı şemasını, algoritmalarını ve veri akışlarını içeren bağlayıcı tek teknik kılavuzdur. LLM ve PAI ajanlarının sistemi sıfır hata ile anlaması, debug etmesi ve genişletmesi için tasarlanmıştır.
 
@@ -35,7 +35,7 @@ DUSBANKASI/
 │   │   ├── adaptive.ts     # Sinyal birleştirme, interleaving ve havuz planlama motoru
 │   │   ├── ai.ts           # Gemini / DeepSeek API entegrasyon katmanı
 │   │   ├── fsrs.ts         # FSRS-5 (Spaced Repetition) matematiksel motoru
-│   │   └── supabase.ts     # Supabase istemcisi, recursive fetching ve cloud sync
+│   │   └── supabase.ts     # Supabase istemcisi, full-fetch (TÜM sorular) ve cloud sync
 │   ├── types/              # Evrensel TypeScript veri tipleri
 │   ├── App.tsx             # Ana uygulama durum makinesi (State Machine)
 │   ├── index.css           # Tailwind CSS 4 giriş noktası
@@ -218,28 +218,36 @@ Rohrer & Taylor (2007) teorisine dayanan interleaving, ardışık gelen iki soru
 
 ---
 
-### 3.3. Supabase Entegrasyonu ve Performans Filtresi (`src/lib/supabase.ts`)
+### 3.3. Supabase Entegrasyonu ve Veri Yükleme (`src/lib/supabase.ts`)
 
-10.000+ soruluk devasa veri tabanında, 140MB'ı aşan soru metinlerini her oturumda client'a çekmek ciddi bellek sızıntılarına ve ağ yavaşlığına yol açıyordu. Bu sorunu çözmek için **Hibrit Lazy-Load Mimarisi** kurulmuştur.
+> ## ⛔ KATİ KURAL — LAZY-LOAD KESİNLİKLE YASAK (İSTİSNASIZ)
+> Uygulama **ilk açılışta `fetchQuestions()` ile TÜM soruları belleğe yükler.** Lazy-load
+> (metadata + ders/ünite seçildiğinde dinamik çekim) mimarisi DENENMİŞ ve **kullanıcının
+> soruları görememesine** yol açtığı için KALICI OLARAK kaldırılmıştır.
+> **Yeniden eklenmesi YASAKTIR.** Adaptive motor (`buildSmartQueue`), simülasyon havuzu
+> (`buildSimulationPool`), interleaving ve müfredat ilerleme hesabı (`getCurriculumProgress`)
+> tamamı tüm soru havuzunun aynı anda bellekte olmasına bağımlıdır; kısmi yükleme bu
+> hesapları bozar. `fetchQuestionMetadata` / `fetchQuestionsByUnit` fonksiyonları silinmiştir.
+
+#### Tam Yükleme (Full-Fetch) Mimarisi
+Açılışta `useQuestions().reload()` → `fetchQuestions()` çağrılır ve havuzun tamamı
+`questions` state'ine yüklenir (App.tsx:204 startup `useEffect`).
 
 ```
-İLK AÇILIŞ: fetchQuestionMetadata() ──► Sadece ID, Lesson, Unit, QualityFlag çeker (~500KB)
+İLK AÇILIŞ (App.tsx useEffect):
+  loadQuestions() ──► fetchQuestions() ──► TÜM sorular (~6.600 görünür satır) belleğe
                                                 │
                                                 ▼
-DERS / ÜNİTE SEÇİMİ: fetchQuestionsByUnit() ──► Sadece seçilen ünitenin detaylarını çeker (Lazy)
+                          questions state ──► adaptive / simülasyon / quiz tümü buradan beslenir
 ```
 
-#### Pagination ve Hata Toleranslı Recursive Fetching
-Supabase API'sinin varsayılan 1000 satır sınırını aşmak için, tüm metadatalar recursive (özyinelemeli) olarak çekilir:
+#### Pagination ve Hata Toleranslı Paralel Fetching
+Supabase API'sinin varsayılan 1000 satır sınırını aşmak için sorular `PAGE_SIZE=500`'lük
+sayfalarla, her turda 2 sayfa paralel (`Promise.all`) ve `withRetry(3)` koruması altında çekilir:
 ```typescript
-async function fetchAll(from: number): Promise<QuestionMetadata[]> {
-  const { data, error } = await supabase
-    .from('questions')
-    .select('id,lesson,unit,quality_flag')
-    .order('id', { ascending: true })
-    .range(from, from + 1000 - 1);
-  // data.length === 1000 ise bir sonraki sayfayı paralel değil sıralı çağırarak ağ tıkanmasını engeller
-}
+// fetchPage(from) + fetchPage(from + PAGE_SIZE) paralel → bir sayfa eksik (<500) gelene kadar döner
+const [p1, p2] = await Promise.all([fetchPage(from), fetchPage(from + PAGE_SIZE)]);
+// Timeout / 57014 hatalarında 1.2s, 2.4s backoff ile otomatik retry
 ```
 
 #### Kritik Hata Çözümü: Supabase `.or()` Filtre Kısıtı
@@ -334,7 +342,7 @@ Frontend tarafında veri akışı son derece sıkı kurallarla korunmaktadır.
 ```
                [ Supabase DB ]
                       ▲
-                      │  (Recursive & Lazy)
+                      │  (Full-Fetch — açılışta TÜM sorular belleğe; LAZY-LOAD YASAK)
                       ▼
 [ App.tsx (State Machine) ] ──► [ useQuestions hook ] ──► [ UI Components ]
          │
@@ -353,6 +361,9 @@ Uygulama üzerinde çalışırken aşağıdaki üç kural asla ihlal edilemez:
 1. **Zustand veya global state kütüphanesi eklemek yasaktır**. Tüm arayüz ve oyun motoru state'i `App.tsx` içerisindeki ana State Machine üzerinden yönetilir.
 2. **Yeni bağımlılık eklemek yasaktır**. Sadece mevcut paketler (Tailwind 4, React 19, Lucide, Supabase JS, pdfJS) kullanılacaktır.
 3. **RLS Bypass Kuralı**: frontend istemcisi anonim anahtarla çalıştığı için doğrudan yazma (`INSERT`, `UPDATE`) yetkisine sahip değildir. Tüm veri yazma operasyonları API katmanı üzerinden veya backend entegrasyonu ile yapılmalıdır.
+4. **Lazy-Load eklemek YASAKTIR**. Uygulama açılışta `fetchQuestions()` ile tüm soruları yükler (bkz. §3.3). Metadata-önce / ünite-bazlı dinamik çekim denenmiş ve sorular görünmediği için kalıcı olarak yasaklanmıştır.
+5. **Supabase `.or()` içinde `not.in` kullanmak YASAKTIR** — sorgu motorunu kilitler. Pozitif desen (`quality_flag.is.null,quality_flag.eq.reviewed_keep`) + client-side `EXCLUDED_FLAGS` filtresi kullanılır.
+6. **Python toplu yazma `_SUPABASE_WRITE_CHUNK=10`** ile 10'arlı, 0.5sn cooldown'lu yapılır; tek seferde 100+ embedding HTTP 500 verir. AI çıktısındaki `q["lesson"]`/`q["unit"]` ASLA okunmaz — script parametresi set edilir.
 
 ---
-**DUSBANKASI — TEKNİK YÖNERGE v3.1 — SON GÜNCELLEME: 2026-05-25**
+**DUSBANKASI — TEKNİK YÖNERGE v4.0 — SON GÜNCELLEME: 2026-05-25**
