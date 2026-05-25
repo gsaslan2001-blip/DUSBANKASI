@@ -35,8 +35,8 @@
 
 ```
 src/
-  App.tsx                    # Ana state makinesi (AppState: quiz/exam/sim/analytics/daily-exam-setup...)
-  lib/supabase.ts            # ⭐ DB client — fetchQuestions recursive + EXCLUDED_FLAGS
+  App.tsx                    # Ana state makinesi (AppState: quiz/exam/sim/analytics/daily-plan...)
+  lib/supabase.ts            # ⭐ DB client — fetchQuestions recursive + EXCLUDED_FLAGS + daily_exams CRUD
   lib/adaptive.ts            # Soru sıralama: FSRS%50 + Weakness%35 + New%15 + buildDailyExam()
   lib/fsrs.ts                # FSRS-5 algoritması
   lib/stats.ts               # Local + cloud istatistik senkronizasyonu
@@ -87,6 +87,25 @@ scripts/
 4. **[FAZ 3] Yapısal Kalite Kontrol (Quality Gate):** Şık sayısı, metin uzunluğu, açıklama bütünlüğü. Geçemeyenler `recovery/rejected/` a düşer.
 5. **[FAZ 4] Vektörleme ve Parçalı Yazım:** OpenAI 1536-dim embedding → 10'luk chunk insert.
 6. **[FAZ POST] Ölüm Maçı:** `smart_audit_pipeline.py` → Cosine > 0.85 ikizleri tespit → `quality_flag = 'kavramsal_kopya'`.
+
+---
+
+## 📅 Günün Denemesi — Atlas Workflow
+
+> **Tam oyun kitabı:** [WORKFLOW_GUNUN_DENEMESI.md](./WORKFLOW_GUNUN_DENEMESI.md)
+
+Kullanıcı konularını söyler, Atlas sınavı oluşturur. Kısa özet:
+
+1. **Şema doğrula** → `daily_exams` tablosu mevcut mu? (`information_schema` ile kontrol)
+2. **Veritabanı doğrula** → Kullanıcının yazdığı lesson/unit çiftlerini ILIKE ile bul, exact değerleri al
+3. **Kullanıcı + stats** → `user_id` tespit et, `day_number` hesapla, çözülmüş soruları sorgula
+4. **Soru seç** → `ROW_NUMBER() OVER (PARTITION BY lesson ORDER BY RANDOM())` ile dengeli dağılım; %80 yeni + %20 zor/orta/kolay
+5. **Kaydet** → `INSERT INTO daily_exams ... ARRAY[...]::uuid[]` (tip cast zorunlu)
+6. **Rapor ver** → Derslere göre dağılım + yeni/tekrar oranı
+
+**Kritik pitfall:** `question_ids` kolonunun tipi `uuid[]` — `text[]` gönderilirse `ERROR 42804` alırsın. Her zaman `::uuid[]` cast et.
+
+**Frontend:** Kayıt sonrası uygulama açıldığında bento kart otomatik "N. Günün Denemesi — X Soru" gösterir.
 
 ---
 
@@ -147,12 +166,17 @@ q.or('quality_flag.is.null,quality_flag.eq.reviewed_keep')
 - [x] `match_questions_semantic` RPC tam kapasite aktif
 
 ### Mayıs 2026
-- [x] **Günün Denemesi** özelliği eklendi ve production'a deploy edildi (2026-05-11)
+- [x] **Günün Denemesi v1** eklendi ve deploy edildi (2026-05-11)
   - `buildDailyExam()` motoru: %80 yeni + %20 hard→medium→easy fallback
-  - `DailyExamSetup` komponenti: ünite seçici + soru sayısı slider + canlı önizleme
-  - `'daily-exam-setup'` AppState eklendi
   - `.vercelignore` oluşturuldu (upload 468MB → 118B)
-  - Detay: `HANDOVER_REPORT_20260511.md`
+- [x] **Günün Denemesi v2 — Atlas Workflow** (2026-05-11)
+  - `DailyExamSetup` UI komponenti kaldırıldı (manuel ünite seçimi)
+  - `daily-exam-setup` AppState kaldırıldı
+  - `daily_exams` Supabase tablosu eklendi (user_id bazlı, arşivleme)
+  - `loadTodaysDailyExam`, `saveDailyExam`, `markDailyExamCompleted`, `getNextDayNumber` eklendi
+  - Bento kart: 3 durum (no-user / not-ready / ready)
+  - `WORKFLOW_GUNUN_DENEMESI.md` oyun kitabı oluşturuldu
+  - İlk gerçek çalıştırma: 684 soruluk havuz, 100 soru seçildi, Supabase MCP ile kaydedildi
 
 ## ⏳ Açık İşler
 

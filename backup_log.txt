@@ -1,0 +1,33 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 30 Nisan 2026 Perüembe 19:50:56
+   Source : C:\Users\FURKAN\Desktop\Projeler\DUSBANKASI\
+     Dest : C:\Users\FURKAN\Desktop\Projeler\DUSBANKASI_BACKUP\
+
+    Files : *.*
+	    
+ Exc Dirs : node_modules
+	    .git
+	    dist
+	    
+  Options : *.* /NDL /NFL /S /E /DCOPY:DA /COPY:DAT /PURGE /MIR /NP /R:3 /W:5 
+
+------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :       249       245         4         0         0         0
+   Files :      2349      2349         0         0         0         0
+   Bytes :  491.45 m  491.45 m         0         0         0         0
+   Times :   0:00:04   0:00:04                       0:00:00   0:00:00
+
+
+   Speed :           123.847.701 Bytes/sec.
+   Speed :              7086,622 MegaBytes/min.
+   Ended : 30 Nisan 2026 Perüembe 19:51:01
+

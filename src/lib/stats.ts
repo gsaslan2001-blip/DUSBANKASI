@@ -258,11 +258,8 @@ export function saveQuestionStat(
   updateStreak();
   // Aktivite logu güncelle
   logActivity();
-  // FIX: Anında cloud sync — hata durumunda pending flag yaz
-  syncStatsUp().catch(err => {
-    console.warn('[saveQuestionStat] Anlık sync hatası:', err);
-    localStorage.setItem(PENDING_SYNC_KEY, '1');
-  });
+  // Debounced cloud sync — her soru yerine 5 saniyede bir
+  debouncedSyncUp();
 }
 
 /** Bir sorunun istatistiğini döner */
@@ -517,17 +514,33 @@ export function mergeWrongChoices(a: WrongChoice[], b: WrongChoice[]): WrongChoi
   return out.sort((x, y) => x.timestamp.localeCompare(y.timestamp));
 }
 
-// ─── OTOMATIK SYNC YÖNETİCİSİ ──────────────────────────────────────────────
-// FIX: Debounce kaldırıldı — her saveQuestionStat anında push yapar.
-// SyncManager sadece manuel force-sync için tutuluyor.
+// ─── DEBOUNCED SYNC ─────────────────────────────────────────────────────────
+
+let syncTimer: ReturnType<typeof setTimeout> | null = null;
+
+function debouncedSyncUp(): void {
+  if (syncTimer) clearTimeout(syncTimer);
+  syncTimer = setTimeout(() => {
+    syncTimer = null;
+    syncStatsUp().catch(err => {
+      console.warn('[debouncedSyncUp] Sync hatası:', err);
+      localStorage.setItem(PENDING_SYNC_KEY, '1');
+    });
+  }, 5000);
+}
 
 class SyncManagerImpl {
-  /** Bekleyen local değişiklikleri hemen cloud'a yollar. */
   async flush(): Promise<void> {
+    if (syncTimer) {
+      clearTimeout(syncTimer);
+      syncTimer = null;
+    }
     try {
       await syncStatsUp();
+      localStorage.removeItem(PENDING_SYNC_KEY);
     } catch (err) {
       console.warn('[SyncManager] Push başarısız:', err);
+      localStorage.setItem(PENDING_SYNC_KEY, '1');
     }
   }
 }

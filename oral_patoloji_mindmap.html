@@ -1,0 +1,403 @@
+
+<div id="markmap-container" style="width:100%;height:700px;overflow:hidden;background:transparent"></div>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-view@0.17.1/dist/browser/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/markmap-lib@0.17.1/dist/browser/index.js"></script>
+<style>
+  #markmap-container svg { width:100% !important; height:100% !important; background:transparent !important; }
+  .markmap-node circle { cursor:pointer; }
+  .markmap-node text { font-family: var(--font-sans) !important; }
+  .toolbar { display:flex;gap:8px;margin-bottom:6px;align-items:center; }
+  .toolbar button { font-size:12px;padding:3px 10px;border-radius:6px;border:1px solid var(--color-border-secondary);background:var(--color-background-secondary);color:var(--color-text-primary);cursor:pointer; }
+  .toolbar button:hover { background:var(--color-background-tertiary); }
+</style>
+<div class="toolbar">
+  <button onclick="mm.fit()">⊡ Sığdır</button>
+  <button onclick="mm.rescale(1.3)">+ Yakınlaş</button>
+  <button onclick="mm.rescale(0.77)">− Uzaklaş</button>
+  <span style="font-size:11px;color:var(--color-text-secondary)">Düğümlere tıklayarak açıp kapatabilirsiniz</span>
+</div>
+<script>
+const md = `# Oral Patoloji — DUS Sınav Haritası
+
+## Dil Hastalıkları
+
+### Makroglossi → dil büyümesi, nedene göre tedavi
+
+#### Konjenital/Herediter → vasküler malformasyonlar en sık
+##### Lenfanjiyom / Hemanjiyom → en sık vasküler neden
+##### Beckwith-Wiedemann → makroglossi + organomegali + hipoglisemi
+##### Down sendromu → hipotoni + makroglossi
+##### MEN tip 2B → endokrin neoplazi + makroglossi
+##### Mukopolisakkaridozlar → glikoprotein birikimi → dil büyümesi
+
+#### Edinilmiş → sistemik hastalıkların oral yansıması
+##### Amiloidoz → dil en sık tutulan organ
+##### Akromegali → GH fazlalığı → dil + dudak büyümesi
+##### Miksödem → hipotiroidi → mukopolisakkarit birikimi
+##### ALS / Miyastenia gravis → nöromüsküler kökenli
+
+### Glossit → düzleşmiş kırmızı ağrılı dil yüzeyi
+#### Demir eksikliği anemisi → atrofik glossit
+#### Pernisiyöz anemi → B12 eksikliği
+#### Kandida → antibiyotik sonrası en sık etken
+
+### Median Romboid Glossit → orta hatta baklava kırmızı atrofi
+#### Kandida → vakaların %40'ında etken
+#### Parlak kırmızı renk → glossite işaret
+
+### Eritema Migrans (Coğrafik Dil) → yer değiştiren sarı kenarlı kırmızı lezyonlar
+#### Filiform papilla kaybı → lezyon sınırında
+#### Fissüre dil eşliği → olguların 1/3'ü
+#### Birlikte → psoriazis, atopi, Reiter, seboreik dermatit
+#### Kadınlarda daha sık
+
+### Tüylü Dil → filiform papilla hiperkeratozu → kıl benzeri görünüm
+#### En sık lokalizasyon → orta hat sirkumvallat anteriyoru
+#### Etiyoloji → sigara, antibiyotik, radyasyon
+#### Siyah kıllı dil → aspergillus birikimi
+#### Oral kandidiyazis ile karışır → papilla uzaması ayırt edici
+
+### Ankiloglossi → lingual frenulum kısa-kalın → hareket kısıtlı
+#### Ağır olgular → frenotomi / frenuloplasti
+
+## Oral Kandidiyazis → 3 klinik patern
+
+### Pamukçuk (Psödomembranöz) → kolay parçalanan beyaz krem lezyonlar
+#### Yenidoğan akut / erişkin kronik
+#### HIV araştırması → risk faktörsüz erkekte zorunlu
+
+### Eritematöz Paternler
+#### Akut eritematöz → antibiyotik stomatiti
+#### Angular şeylitis → köşe ağrısı + kızarıklık
+#### Protez stomatiti → hareketli protez altında eritem
+
+### Kronik Hiperplastik Kandidiyazis (Kandidal Lökoplaki) → premalign!
+#### Kazınmaz beyaz lezyon → friksiyonel hiperkeratozdan ayırt edici
+#### Epitel hiperplazisi + keratin artışı
+
+## Vezikülöbüllöz Hastalıklar
+
+### Herpes Simpleks → veziküller → birleşen ülserler
+#### HSV-1 oral / HSV-2 genital → bölgesel ayrım
+#### En sık herpes → herpes labialis (uçuk)
+#### Parmakta herpes → dolama (herpetik panaris)
+#### Virüs gangliyonda kalır → tekrarlayan lezyonlar
+#### Primer form → gingivostomatit (6 ay–5 yaş)
+##### LAP + ateş + bulantı + dişeti kızarıklığı
+#### Sekonder form → dudak, damak, gingiva → lokalize vezikül
+
+### Herpes Zoster (Orofasiyal) → trigeminal dermatomda tek taraflı ağrı
+#### VZV → su çiçeği latansisi → reaktivasyon
+#### Öncesinde ağrı → HSV'den ayırt (HSV: kaşıntı önce)
+#### İmmünsüprese → tehlikeli reaktivasyon riski
+
+### Ramsay-Hunt Sendromu → fasiyal sinir + HZV
+#### Triad → dış kulak yolu vezikülleri + yüz felci + dilin 2/3 ön tat kaybı
+
+### Koksaki Virüs Hastalıkları
+#### El-Ayak-Ağız → oral ülser + ekstremite vezikülleri → okul çağı çocukları
+#### Herpanjina → yumuşak damak vezikülleri → tonsillit / farenjitle karışır
+
+### Kızamık → patognomonik oral bulgular
+#### Koplik lekeleri → ortası beyaz küçük kırmızı maküller → patognomonik
+#### Whartin-Finkeldey dev hücreleri
+#### Enamel hipoplazisi
+
+### Konjenital Sifiliz → Hutchinson Triadı
+#### Kama biçimli insisivler + dut biçimli molar
+#### Keratit
+#### Sağırlık → 8. sinir tutulumu
+
+## Ülseröz Hastalıklar
+
+### Aftöz Ülserler → ağız mukozasının en sık hastalığı
+#### T hücre aracılı immünite → etiyoloji
+#### Oval, veziküller yok → herpesten ayırt edici
+#### < 0,5 cm minor; > 0,5 cm major → skar dokusu
+#### 6 haftaya kadar devam edebilir
+#### Ağız dışında görülmez
+#### Birlikte → Crohn, Behçet, AIDS, Çölyak
+
+### Travmatik Ülser
+#### Akut → ağrılı, sarı zemin kırmızı halo, 7–10 gün geriler
+#### Kronik → az ağrılı, skar dokusu → karsinom taklit eder
+
+### Noma (Cancrum Oris, Gangrenöz Stomatit)
+#### Beslenmesi bozuk zayıf çocuklar → nadir
+#### Anaerob bakteriler → gangren
+#### Yüksek doz penisilin → tedavi
+
+### Behçet Hastalığı → nötrofilik vaskülit küçük-orta damarlar
+#### Klasik triad → büyük aftöz ülserler + genital ülserler + üveit
+#### TH17 → IL-17 → nötrofil toplanması → patogenez
+#### HLA-B51 ilişkisi
+#### Vasküler anevrizma rüptürü → ölüm nedeni
+
+### Reiter Sendromu → bakteriyel enfeksiyon sonrası reaktif artrit
+#### Üretrit + konjonktivit + artrit + mukokütanöz lezyonlar
+#### HLA-B27 pozitifliği çoğu olguda
+#### Dil lezyonları → coğrafik dile benzer
+
+### Eritema Multiforme → hedef lezyonlar + oral ülserler
+#### Minör form → HSV ile ilişkili
+#### Majör form (Stevens-Johnson) → ilaç ile ilişkili
+
+### Polianjiitisli Granülomatoz (Wegener) → nekrotizan vaskülit
+#### Klasik triad → solunum yolu granülomları + vaskülit + glomerülonefrit
+#### PR3-ANCA (c-ANCA) pozitifliği → %95
+#### Çilek gingivit → oral bulgu
+#### Tedavisiz 1 yılda %80 mortalite
+#### Steroid + siklofosfamid + TNF antagonisti
+
+### Kawasaki Hastalığı → çocukluk akut febril vaskülit
+#### Anti-endotelyal hücre antikorları
+#### Hastaların %80'i → 4 yaş altı
+#### 5 gün+ ateş → major tanı kriteri
+#### Koroner arter tutulumu → primer odak
+#### Oral bulgular → kırmızı çatlak dudak + çilek dil
+#### IVIG + aspirin → erken tedavi
+
+### Midline Granülom → NK/T hücre lenfoması → nasal perforasyon yapan malignite
+#### Anjiosentrik büyüme → karakteristik
+#### Üst solunum yolu + damak + gingiva lokalizasyonu
+
+## Oral Kavitenin Beyaz Lezyonları
+
+### Löködem → etiyolojisi bilinmeyen beyaz lezyon → malignleşmez!
+#### Parakeratoz + akantoz + intrasellüler ödem
+#### Ayırıcı tanı → lökoplaki, beyaz sünger nevüs, liken planus
+
+### Beyaz Sünger Nevüs (Cannon Hastalığı) → OD kalıtım → malignleşmez!
+#### Keratin4 / Keratin13 gen mutasyonu
+#### Puberte öncesi bilateral asemptomatik beyaz lezyonlar
+#### Prickle hücreler → perinükleer eozinofilik kondensasyon
+
+### Foliküler Keratoz (Darier Hastalığı) → ATP2A2 mutasyonu → OD
+#### Desmozomal defekt → adezyon değişikliği
+#### 6–20 yaş, seboreik bölgeler → kaldırım taşı görünümü
+
+### Friksiyonel Hiperkeratoz → travmaya bağlı → displazi yok, kanserleşmez
+#### Etken yoksa reversibil
+#### Kronik hiperplastik kandidiyazisten ayırt → kazınma testi
+
+### Herediter Benign İntraepitelyal Diskeratoz (Witkop) → OD → malignleşmez!
+#### Bukkal konjünktivit + korneal limbus plak + oral beyaz lezyonlar
+
+### Kıllı Lökoplaki → EBV + AIDS → prekanseröz değil!
+#### Dilin lateral tarafında → lokalizasyon
+#### Kazınamaz → pamukçuktan ayırt edici
+#### Balon hücreleri → histoloji
+
+### Revers Smokers Palatal Lezyonu → premalign! → en önemli özellik
+### Fordyce Granülleri → ektopik sebaseöz bezler → dudak + ağız içi
+
+## Gelişimsel Anomaliler ve Kistik Lezyonlar
+
+### Diş Sayı Anomalileri
+
+#### Anadonti → hiç diş yok; hipodonti → bir/birkaç diş eksik
+##### Herediter ektodermal displazi → hipodonti/anodonti + konik dişler + kuru cilt
+##### Hipodontide en sık → 3. molar, maksiller lateral, biküspitler
+
+#### Hiperdonti → fazla diş → özellikle santral/lateral bölgede
+##### Cleidokraniyal dizostozda belirgin hiperdonti
+
+#### Geminasyon → tek tomurcuktan iki kron → diş sayısı normal
+#### Füzyon → iki diş birleşimi → diş sayısı eksik
+#### Konkressens → sement birleşimi → molar bölge sık
+
+### Diş Yapı Anomalileri
+
+#### Dens İnvaginatus → lingual çukur abartılı → kalıcı maksiller lateral
+##### Erken pulpit + çürük riski artar
+
+#### Dens Evaginatus → oklüzal anormal tüberkül → premolarda bilateral
+#### Taurodontizm → pulpa odasının aşırı genişlemesi → molar dişler
+
+### Amelogenezis İmperfekta → genetik mine anomalisi
+#### Süt + kalıcı dişlerde mine nitelik-nicelik bozukluğu
+#### OD, OR veya X'e bağlı kalıtım
+#### 4 temel tip → hipoplastik (en sık), hipomatürasyon, hipokalsifiye, taurodontizmli
+
+### Dentinogenezis İmperfekta → DSPP gen mutasyonu → OD
+#### Tip I → osteogenezis imperfekta eşliği → Tip I kollajen mutasyonu
+#### Tip II / III → sadece dentin bozukluğu → kemik normal
+
+### Kistik Lezyonlar
+
+#### Tiroglossal Kanal Kisti → dil hareketiyle yer değiştirir
+##### Boyundaki kistlerin %75'i → en sık boyun kisti
+##### Orta hat, nadiren malignite
+
+#### Brankial Kleft Kisti → boyun ön-yan → yassı epitel + lenfoid doku
+##### Malignleşme → SCC şeklinde
+
+#### Lingual Tiroid → embriyolojik göç anomalisi → dil kökünde tiroid
+
+#### Kavernöz Lenfanjiom (Kistik Higroma) → submandibuler bölge
+##### Turner sendromunda sık
+##### Spontan gerileme yok → eksizyon gerekir
+
+## Sendromlar
+
+### Melkersson-Rozental → klasik triad
+#### Tekrarlayan periferik fasiyal paralizi
+#### Ağrısız gode bırakmayan orofasiyal ödem
+#### Fissürlü dil
+
+### Plummer-Vinson (Sideropenik Disfaji)
+#### Ağrılı kırmızı dil + mukozal atrofi + demir eksikliği anemisi + özofageal web + disfaji
+#### Orta yaş kadınlar → tipik
+#### Oral + özofageal SCC riski artmış
+
+### Crouzon Sendromu → FGFR2 mutasyonu → 1/65.000
+#### Şiddetli maksiller hipoplazi + hipertelorizm
+#### Lingual çapraz kapanış yaygın
+
+### Treacher-Collins (Mandibulofasiyal Dizostoz) → TCOF1 mutasyonu
+#### Kuş/balık yüz → dar yüz, aşağı gözler, mikrognati
+#### Konduktif işitme kaybı + zigomatik hipoplazi
+#### 1. brankiyal arktan gelişen yapılar etkilenir
+
+### Pierre Robin Sekansı → triad
+#### Yarık damak + mandibular mikrognati + glossoptoz → hava yolu tıkanıklığı
+
+### Van der Woude → IRF6 gen mutasyonu
+#### Sendromik yarıklanmanın en yaygın şekli → tüm yarık vakalarının %2'si
+#### Hipodonti gözlenebilir
+
+### Papillon-Lefèvre → OR kalıtım
+#### Palmoplantar hiperkeratoz + lökosit fonksiyon bozukluğu + periodontidis
+#### Süt ve daimi dişlerde erken kayıp → hızlı periodontal yıkım
+#### Etken aktinobasillus → antibiyotiğe dirençli → sistemik retinoid
+
+### Skleroderma → sistemik fibrozis → oral yansıma
+#### Mukozal fibrozis → ağız açma güçlüğü
+#### PDL boşluğu genişlemesi → radyolojik bulgu
+
+### Eagle Sendromu → stylohyoid ligament mineralizasyonu
+#### Karotid artere + sinirlere bası → dil kökü, tonsil, TME ağrısı
+
+## Pulpa Hastalıkları
+
+### Pulpa Genel Özellikleri
+#### Şişkinlik olmaz → sert dokuyla kaplı
+#### Kollateral dolaşım oluşturamaz
+#### En sık neden → çürük
+#### Yansıyan ağrı → yanlış diş lokalizasyonu riski
+
+### Reversible Pulpit (Pulpa Hiperemi) → hafif irritasyon → damar dilatasyonu
+#### Fokal + reversibil → etken yoksa iyileşir
+
+### Akut Pulpit → nötrofil infiltrasyonu → kronik pulpitten ayırt edici
+#### Erken seröz → geç süpüratif
+#### Şiddetli nötrofil → pulpal abse (likefaksiyon nekrozu)
+
+### Kronik Pulpit → mononükleer hücre + kollajen/skar dokusu
+#### Pulpa ölümü kaçınılmaz → endodontik tedavi + ekstirpasyon
+
+### Kronik Hiperplastik Pulpit (Pulpa Polibi) → çocuk ve genç erişkin
+#### Molar dişler → süt + kalıcı
+#### Aşırı granülasyon dokusu → taşma + kabarıklık
+#### Ağız içine drene → semptom az
+#### İrreversibl → ekstirpasyon ya da çekim
+
+### Periapikal Hastalıklar
+
+#### Periapikal Granülom (Apikal Periodontitis) → granülasyon dokusu
+##### Lenfosit + makrofaj + plazma hücresi
+##### Malassez epitel artıkları proliferasyona girer
+##### Diş hassasiyeti yok! → tanı tuzağı
+
+#### Periapikal (Radiküler) Kist → Malassez artıklarından gelişir
+##### Non-keratinize skuamoz epitel
+##### Rushton cisimleri → lineer lameller kalsifikasyonlar
+##### Cerrahi eksizyon
+
+#### Periapikal Abse → yoğun bakteri + nötrofil → likefaksiyon nekrozu
+##### Kist gelişimi olmaz → likefaksiyon ortamı eritir
+##### Parulis (Gumboil) → perforasyon yerindeki granülasyon dokusu
+##### Fistülleşme → kanin + mandibüler kesici en iyi örnek
+
+## Periodontal Hastalıklar
+
+### Gingivitis → mikrobial dental plak → dişeti iltihabı
+#### Periodontal ligament + sement tutulumu YOK
+#### Reversibil → periodontitisten farkı
+
+### Periodontidis → ligament + alveolar kemik + sement tutulumu
+#### Erişkinlerde en sık diş kaybı sebebi
+#### Risk → sigara, DM, ileri yaş, düşük sosyoekonomik
+#### Ataşman kaybı → diş apikal yer değiştirir → periodontal cep
+#### Jüvenil → A. actinomycetemcomitans, 5–15 yaş
+#### Prepubertal → lökosit adezyon defekti, 4 yaş kız çocuk
+
+### Gingiva Hiperplazisi → ilaç + sistemik + lokal nedenler
+#### Fenitoin + siklosporin + Ca kanal blokerleri (nifedipin) → en önemli
+#### Herediter fibromatozis
+#### Lösemi
+#### Hormonal uyarı → östrojen, testosteron
+
+### Hormonal Gingivitis → progesteron artışı → puberte, gebelik
+### Gingival Fibromatozis → fibröz doku artışı → inflamasyon yok → eksizyon
+
+## Tümör Benzeri Lezyonlar
+
+### Pyojenik Granülom → yoğun vasküler pedinküllü ülsere lezyon
+#### Çocuk, genç erişkin, gebe kadın (gebelik tümörü)
+#### Kapiller hemanjiomun bir formu
+#### Periferal ossifiyan fibroma dönebilir
+#### Brown tümörü ile karışır
+
+### Periferal Ossifiyan Fibrom → reaktif lezyon → %15–20 rekürrens
+#### Pyojenik granülomun maturasyonu → bazı vakalar
+#### İğsi hücre + kalsifikasyon + osteoblast / sementoblast
+
+### Periferal Dev Hücreli Granülom → mavi-pembe renk, yüzeyi intakt
+#### Fibroanjiomatöz stroma içinde dev hücreler
+#### Gingiva → özellikle 1. molar anteriyoru
+#### Brown tümörü + pyojenik granülom ile karışır
+
+### Fibrom → reaktif hiperplazi
+#### İrritasyon fibromu → sürekli ısırma → bukkal mukoza
+#### Epulis fissuratum → protez kenarı fibröz hiperplazisi
+#### Dev hücreli fibrom → yıldız şekilli multinükleer fibroblast
+
+### Damağın Papiller Hiperplazisi → hareketli protez kullananlarda
+#### Sert damakta kaldırım taşı şekilli multipil eritematöz projeksiyonlar
+#### Malignite riski yok → non-keratinize akantoz
+#### Cowden sendromu + Darier hastalığı birlikteliği`;
+
+(async () => {
+  try {
+    const { Transformer } = window.markmap;
+    const { Markmap, loadCSS, loadJS } = window.markmap;
+    const transformer = new Transformer();
+    const { root, features } = transformer.transform(md);
+    const { styles, scripts } = transformer.getUsedAssets(features);
+    if (styles) loadCSS(styles);
+    if (scripts) await loadJS(scripts, { getMarkmap: () => window.markmap });
+    const svgEl = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+    svgEl.style.cssText = 'width:100%;height:100%;';
+    document.getElementById('markmap-container').appendChild(svgEl);
+    const colorFn = (node) => {
+      const palette = ['#534AB7','#0F6E56','#993C1D','#185FA5','#3B6D11','#854F0B','#993556'];
+      return palette[node.depth % palette.length];
+    };
+    window.mm = Markmap.create(svgEl, {
+      color: colorFn,
+      duration: 400,
+      maxWidth: 300,
+      zoom: true,
+      pan: true,
+      initialExpandLevel: 2,
+      paddingX: 16,
+      spacingVertical: 6,
+      spacingHorizontal: 60,
+    }, root);
+  } catch(e) {
+    document.getElementById('markmap-container').innerHTML = '<p style="color:var(--color-text-secondary);padding:1rem">Harita yüklenemedi: ' + e.message + '</p>';
+  }
+})();
+</script>

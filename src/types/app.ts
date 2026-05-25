@@ -42,6 +42,21 @@ export type ActiveSessionInfo = {
   dailyExamId?: string;
 };
 
+export type CompactAnswer = {
+  questionId: string;
+  state: 'correct' | 'incorrect' | 'blank';
+  selectedOptionKey?: string | null;
+  timeSpent?: number;
+};
+
+export type CompactSessionInfo = {
+  questionIds: string[];
+  answers: CompactAnswer[];
+  currentIndex: number;
+  mode: 'quiz' | 'exam';
+  dailyExamId?: string;
+};
+
 export type UserSettings = {
   theme: 'dark' | 'oled' | 'light';
   fontSize: 'small' | 'normal' | 'large';
