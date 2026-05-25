@@ -254,8 +254,8 @@ export async function flagQuestion(id: string, reason: string): Promise<void> {
 
 /**
  * Aktif session'ı cloud'a kaydeder.
- * FIX: Her zaman device_id bazlı conflict kullan (PK bu).
- * userId sadece metadata olarak set edilir, conflict target DEĞİLDİR.
+ * Compact format: questionIds + answer verileri (soru objeleri hariç).
+ * Retry: 3 deneme, exponential backoff.
  */
 export async function saveSessionToCloud(
   deviceId: string,
@@ -268,22 +268,23 @@ export async function saveSessionToCloud(
     session_data: sessionData,
     updated_at: new Date().toISOString(),
   };
-  const { error } = await supabase
-    .from('active_sessions')
-    .upsert(payload, { onConflict: 'device_id' });
-  if (error) throw error;
+  await withRetry(async () => {
+    const { error } = await supabase
+      .from('active_sessions')
+      .upsert(payload, { onConflict: 'device_id' });
+    if (error) throw error;
+  });
 }
 
 /**
  * Aktif session'ı cloud'dan yükler.
- * FIX: userId ile aramada birden fazla cihaz olabilir — maybeSingle yerine limit(1).
+ * userId varsa user bazlı, yoksa device bazlı arar.
  */
 export async function loadSessionFromCloud(
   deviceId: string,
   userId?: string
 ): Promise<object | null> {
   if (userId) {
-    // Önce user'a ait en güncel session'ı bul
     const { data } = await supabase
       .from('active_sessions')
       .select('session_data')
@@ -293,7 +294,6 @@ export async function loadSessionFromCloud(
       .maybeSingle();
     if (data) return data.session_data;
   }
-  // Fallback: device bazlı
   const { data } = await supabase
     .from('active_sessions')
     .select('session_data')
@@ -302,17 +302,12 @@ export async function loadSessionFromCloud(
   return data?.session_data ?? null;
 }
 
-export async function deleteSessionFromCloud(deviceId: string, userId?: string): Promise<void> {
-  // Önce device bazlı sil (her zaman çalışır)
+export async function deleteSessionFromCloud(deviceId: string): Promise<void> {
   const { error } = await supabase
     .from('active_sessions')
     .delete()
     .eq('device_id', deviceId);
   if (error) throw error;
-  // Aynı user'a ait diğer cihaz session'larını da temizle
-  if (userId) {
-    await supabase.from('active_sessions').delete().eq('user_id', userId);
-  }
 }
 
 // ─── STATS CLOUD SYNC ──────────────────────────────────────────────────────
@@ -373,24 +368,31 @@ export async function pushStatsToCloud(
   stats: Record<string, CloudStat>,
   userId?: string
 ): Promise<PushStatsResult> {
-  // Constraint ismi kullan — PostgREST composite sütun listesini tanımayabiliyor
-  const conflictTarget = 'question_stats_device_id_question_id_key';
+  const conflictTarget = 'device_id,question_id';
 
+  // user_id yalnızca giriş yapılmışsa payload'a eklenir. userId YOKSA alan tamamen
+  // dışarıda bırakılır — PostgREST merge-duplicates conflict update'inde sadece gönderilen
+  // sütunları yazdığı için mevcut user_id korunur. Aksi halde anonim/erken sync (auth
+  // henüz çözülmeden çalışan debounce) mevcut kayıtların user_id'sini null'a ezerek
+  // giriş yapan kullanıcının verisini yetim bırakırdı.
   const rows: StatRow[] = Object.entries(stats)
-    .map(([qId, s]) => ({
-      device_id: deviceId,
-      user_id: userId ?? null,
-      question_id: qId,
-      attempts: s.attempts,
-      corrects: s.corrects,
-      last_seen: s.lastSeen || new Date().toISOString(),
-      wrong_choices: s.wrongChoices ?? [],
-      stability: s.stability ?? null,
-      difficulty: s.difficulty ?? null,
-      last_review: s.lastReview ?? null,
-      scheduled_days: s.scheduledDays ?? null,
-      fsrs_reps: s.fsrsReps ?? null,
-    }));
+    .map(([qId, s]) => {
+      const row: StatRow = {
+        device_id: deviceId,
+        question_id: qId,
+        attempts: s.attempts,
+        corrects: s.corrects,
+        last_seen: s.lastSeen || new Date().toISOString(),
+        wrong_choices: s.wrongChoices ?? [],
+        stability: s.stability ?? null,
+        difficulty: s.difficulty ?? null,
+        last_review: s.lastReview ?? null,
+        scheduled_days: s.scheduledDays ?? null,
+        fsrs_reps: s.fsrsReps ?? null,
+      };
+      if (userId) row.user_id = userId;
+      return row;
+    });
   if (rows.length === 0) return { pushed: 0, total: 0, errors: [] };
 
   const errors: string[] = [];

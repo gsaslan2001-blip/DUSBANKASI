@@ -6,7 +6,7 @@ import { useAuth } from './hooks/useAuth';
 import { useRealtimeStats } from './hooks/useRealtimeStats';
 import { AuthModal } from './components/AuthModal';
 import type { Question } from './data';
-import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadStreak, getRecentActivity, getDueForReviewIds, migrateAllStatsToFSRSIfNeeded, loadAllStats, getDeviceId, resetAllStats, setSyncUserId, mergeWrongChoices } from './lib/stats';
+import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadStreak, getRecentActivity, getDueForReviewIds, migrateAllStatsToFSRSIfNeeded, loadAllStats, getDeviceId, resetAllStats, setSyncUserId, mergeWrongChoices, SyncManager } from './lib/stats';
 import ErrorAnalyticsView from './components/ErrorAnalyticsView';
 import SimulationResultView from './components/SimulationResultView';
 import type { AnswerDetail as SimAnswerDetail } from './components/SimulationResultView';
@@ -120,7 +120,8 @@ export default function App() {
     isSessionLoading,
     clearResumableSession,
     saveResumableSession,
-  } = useResumableSession(user?.id);
+    sessionSaveError,
+  } = useResumableSession(user?.id, questions);
   const [simTotalSeconds, setSimTotalSeconds] = useState<number | null>(null);
   const [simResult, setSimResult] = useState<{ details: SimAnswerDetail[]; totalSeconds: number; usedSeconds: number } | null>(null);
   const [editingQuestion, setEditingQuestion] = useState<Question | null>(null);
@@ -234,6 +235,12 @@ export default function App() {
     }
   }, []);
 
+  useEffect(() => {
+    if (sessionSaveError) {
+      showAlert('Oturum kaydedilemedi: ' + sessionSaveError + '\nLütfen internet bağlantınızı kontrol edin ve Sync butonuna basın.', 'Kaydetme Hatası');
+    }
+  }, [sessionSaveError, showAlert]);
+
   const handleToggleFavorite = async (id: string) => {
     const q = questions.find(x => x.id === id) || examQuestions.find(x => x.id === id) || unitQuestions.find(x => x.id === id);
     if (!q) return;
@@ -339,12 +346,16 @@ export default function App() {
   const handleSyncStats = async () => {
     setSyncStatus('syncing');
     try {
-      const pushResult = await syncStatsUp();   // önce local'i cloud'a push et
+      // Aktif session varsa önce onu kaydet
+      if (resumeSessionData) {
+        await saveResumableSession(resumeSessionData);
+      }
+      const pushResult = await syncStatsUp();
       if (pushResult.errors.length > 0) {
         console.error('[Sync] Push hataları:', pushResult.errors);
       }
-      await syncStatsDown(); // sonra cloud'dan pull edip merge yap
-      setStatsVersion(v => v + 1); // UI'ı tazele (loadAllStats vb. re-render)
+      await syncStatsDown();
+      setStatsVersion(v => v + 1);
       setSyncStatus('done');
       setTimeout(() => setSyncStatus('idle'), 2500);
       if (pushResult.errors.length > 0) {
@@ -428,8 +439,8 @@ export default function App() {
     setQuizStats({ correct, incorrect, blank, total: answers.length, details: answers });
     setAppState('result');
     clearResumableSession().catch(() => { });
+    SyncManager.flush().catch(() => {});
     if (isDailyExamSession && activeDailyExamId) {
-      // Faz 5: Deneme cevaplarını kalıcı olarak kaydet
       if (user) {
         saveExamAnswers(activeDailyExamId, user.id, answers).catch(() => {});
       }
@@ -444,7 +455,7 @@ export default function App() {
 
   const handleExportPDF = (selection: Question[], title: string) => {
     const printWindow = window.open('', '_blank');
-    if (!printWindow) { alert('Popup engellendi. Tarayıcı ayarlarından popup izni verin.'); return; }
+    if (!printWindow) { showAlert('Popup engellendi. Tarayıcı ayarlarından popup izni verin.', 'Hata'); return; }
     const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     const date = new Date().toLocaleDateString('tr-TR', { day: '2-digit', month: 'long', year: 'numeric' });
     const PER_PAGE = 6;
@@ -570,7 +581,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
     const dueIds = getDueForReviewIds();
     const dueQs = questions.filter(q => dueIds.includes(q.id));
     if (dueQs.length === 0) {
-      alert('Bugün tekrar edilmesi gereken soru bulunamadı. FSRS-5 algoritmasına göre zamanı gelen sorular burada görünecek.');
+      showAlert('Bugün tekrar edilmesi gereken soru bulunamadı. FSRS-5 algoritmasına göre zamanı gelen sorular burada görünecek.', 'Bilgi');
       return;
     }
     setExamQuestions(fisherYates(dueQs));
@@ -657,7 +668,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
       setAppState('quiz');
       clearResumableSession().catch(() => { });
     } catch (e) {
-      alert('Sınav havuzu oluşturulamadı: ' + errMsg(e));
+      showAlert('Sınav havuzu oluşturulamadı: ' + errMsg(e), 'Hata');
     } finally {
       setExamLoading(false);
     }
@@ -881,7 +892,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               onEditQuestion={setEditingQuestion}
               onReportQuestion={setReportingQuestion}
               onSaveSession={(mode === 'quiz' || (mode === 'exam' && !simTotalSeconds)) ? (session: ActiveSessionInfo) => {
-                saveResumableSession(session).catch(() => { });
+                saveResumableSession(session);
               } : undefined}
               timedSeconds={simTotalSeconds ?? undefined}
               onSimulationComplete={(details, usedSecs) => {
