@@ -7,11 +7,22 @@ Kullanım: python session_keeper.py [--interval 1800] [--once]
 import asyncio
 import json
 import logging
+import os
 import sys
 import argparse
 import subprocess
 from datetime import datetime
 from pathlib import Path
+
+# ─── notebooklm kütüphane yolunu sys.path'e ekle (config'teki LIB_PATH) ───
+# notebooklm-exhaust.py ile aynı bootstrap — bu olmadan `import notebooklm` çöker.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    from config import LIB_PATH
+    if LIB_PATH and os.path.isdir(LIB_PATH) and LIB_PATH not in sys.path:
+        sys.path.insert(0, LIB_PATH)
+except Exception:
+    pass
 
 logging.basicConfig(
     level=logging.INFO,

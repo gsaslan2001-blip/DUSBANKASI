@@ -41,6 +41,15 @@ from shared import (
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "tools"))
 from smart_audit_pipeline import run_audit
 
+if not os.path.isdir(LIB_PATH):
+    print(
+        "❌ NotebookLM kütüphane yolu bulunamadı:\n"
+        f"   {LIB_PATH}\n"
+        "   Doğru yolu NOTEBOOKLM_LIB_PATH ortam değişkeniyle ver, örn:\n"
+        "   setx NOTEBOOKLM_LIB_PATH \"C:\\path\\to\\notebooklm-py-main\\src\""
+    )
+    sys.exit(1)
+
 if LIB_PATH not in sys.path:
     sys.path.append(LIB_PATH)
 
@@ -580,14 +589,46 @@ def _load_queues_from_env():
     return queues
 
 
+def _natural_sort_key(f: Path):
+    """Dosya adındaki ilk sayıya göre doğal sıralama (Ünite 2 < Ünite 10)."""
+    m = re.search(r'\d+', f.name)
+    return int(m.group()) if m else 999
+
+
+def _resolve_inputs(paths):
+    """--input hedeflerini (dosya VEYA klasör) düz, sıralı PDF/MD listesine çevirir.
+
+    - Klasör → içindeki tüm .pdf/.md dosyaları (isimdeki sayıya göre doğal sıralı)
+    - Dosya  → doğrudan eklenir
+    Birden çok hedef verilebilir; sıra korunur (önce 1. hedef, sonra 2. ...).
+    """
+    resolved = []
+    for p in paths:
+        path = Path(p)
+        if path.is_dir():
+            files = [f for f in path.iterdir() if f.suffix.lower() in (".pdf", ".md")]
+            files.sort(key=_natural_sort_key)
+            if not files:
+                print(f"   ⚠️ Klasörde PDF/MD yok: {path}")
+            resolved.extend(files)
+        elif path.is_file() and path.suffix.lower() in (".pdf", ".md"):
+            resolved.append(path)
+        else:
+            print(f"   ⚠️ Atlandı (PDF/MD değil ya da bulunamadı): {p}")
+    return resolved
+
+
 async def main():
     parser = argparse.ArgumentParser(description="DUS Bankası — Exhaustive v3")
     parser.add_argument("--file", default=None, help="Tek dosya işle")
+    parser.add_argument("--input", nargs="+", default=None,
+                        help="Bir veya birden çok PDF/klasör hedefi (klasör → içindeki tüm PDF'ler sırayla işlenir). --lesson zorunlu.")
     parser.add_argument("--lesson", default=None, help="Ders adı")
     parser.add_argument("--unit", default=None, help="Ünite adı")
     parser.add_argument("--dry-run", action="store_true", help="Supabase'e yazmadan test")
     parser.add_argument("--uncovered-only", action="store_true", help="Faz 0'ı atlar, loglardan uncovered dosyasını yükleyip işler")
     parser.add_argument("--concept-file", default=None, help="Harici kavram listesi dosyası (.txt)")
+    parser.add_argument("--audit", action="store_true", help="Her ünite bitince otomatik kalite denetimi (Ölüm Maçı) çalıştır")
     args = parser.parse_args()
 
     print("\n" + "=" * 60)
@@ -597,7 +638,11 @@ async def main():
     print("=" * 60)
 
     async with await NotebookLMClient.from_storage() as client:
-        await client.refresh_auth()
+        # Fail-fast preflight: oturum geçerli değilse ünite ortasında değil, BAŞTA dur.
+        if not await ensure_auth(client):
+            print("\n🚫 NotebookLM oturumu geçersiz. Üretim başlatılmadı.")
+            print("   Çözüm: terminalde 'notebooklm login' çalıştır, sonra tekrar dene.")
+            sys.exit(1)
 
         if args.file:
             file_path = Path(args.file)
@@ -608,12 +653,41 @@ async def main():
             unit_name = args.unit if args.unit else file_path.stem
             try:
                 await process_unit_exhaustive(client, lesson, unit_name, file_path, args.dry_run, getattr(args, 'uncovered_only', False), args.concept_file)
-                # if not args.dry_run:
-                #     print(f"\n   🚀 Ünite bitti: {unit_name} için otomatik kalite denetimi (Audit) başlatılıyor...")
-                #     await run_audit(lesson, mode="flag", dry_run=False, interactive=False)
+                if args.audit and not args.dry_run:
+                    print(f"\n   🚀 Ünite bitti: {unit_name} için otomatik kalite denetimi (Audit) başlatılıyor...")
+                    await run_audit(lesson, mode="flag", dry_run=False, interactive=False, unit=unit_name)
             except FatalError as fe:
                 print(f"\n🚫 FATAL: {fe}")
                 sys.exit(1)
+            return
+
+        # ─── Çoklu hedef: klasör(ler) ve/veya birden çok PDF ───
+        if args.input:
+            lesson = args.lesson or "Bilinmeyen"
+            files = _resolve_inputs(args.input)
+            if not files:
+                print("❌ --input içinde işlenebilir PDF/MD bulunamadı.")
+                return
+
+            print(f"\n📂 {lesson}: {len(files)} dosya sıraya alındı")
+            for i, file_path in enumerate(files, 1):
+                # Tek dosya verilmişse --unit override edilebilir; çoklu hedefte ünite = dosya adı
+                unit_name = args.unit if (args.unit and len(files) == 1) else file_path.stem
+                print(f"\n[{i}/{len(files)}] {unit_name}")
+                try:
+                    await process_unit_exhaustive(client, lesson, unit_name, file_path, args.dry_run, getattr(args, 'uncovered_only', False), args.concept_file)
+                    if args.audit and not args.dry_run:
+                        print(f"\n   🚀 Ünite bitti: {unit_name} → ünite-kapsamlı kalite denetimi (Audit) başlatılıyor...")
+                        await run_audit(lesson, mode="flag", dry_run=False, interactive=False, unit=unit_name)
+                except FatalError as fe:
+                    print(f"\n🚫 FATAL: {fe}")
+                    sys.exit(1)
+
+                if i < len(files):
+                    await asyncio.sleep(COOLDOWN_BETWEEN_UNITS)
+                    try: await client.refresh_auth()
+                    except: pass
+            print("\n🎉 TAMAMLANDI!")
             return
 
         queues = _load_queues_from_env()
@@ -640,9 +714,9 @@ async def main():
                 print(f"\n[{i}/{len(files)}]", end=" ")
                 try:
                     await process_unit_exhaustive(client, lesson, unit_name, file_path, args.dry_run, getattr(args, 'uncovered_only', False), args.concept_file)
-                    # if not args.dry_run:
-                    #     print(f"\n   🚀 Ünite bitti: {unit_name} için otomatik kalite denetimi (Audit) başlatılıyor...")
-                    #     await run_audit(lesson, mode="flag", dry_run=False, interactive=False)
+                    if args.audit and not args.dry_run:
+                        print(f"\n   🚀 Ünite bitti: {unit_name} için otomatik kalite denetimi (Audit) başlatılıyor...")
+                        await run_audit(lesson, mode="flag", dry_run=False, interactive=False, unit=unit_name)
                 except FatalError as fe:
                     print(f"\n🚫 FATAL: {fe}")
                     sys.exit(1)
