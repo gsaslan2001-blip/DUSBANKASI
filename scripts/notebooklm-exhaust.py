@@ -194,11 +194,14 @@ def parse_anchor_response(text):
 
 def classify_anchors(anchors, questions):
     """
-    Her çapayı soruların KÖKLERİ üzerinden kontrol eder.
-    Şıklar (option_a..e) SAYILMAZ — sadece soru kökü + açıklama.
+    Her çapayı YALNIZCA soruların KÖKLERİ üzerinden kontrol eder.
+    Açıklama (explanation) ve şıklar (option_a..e) SAYILMAZ — bir çapa ancak
+    DOĞRUDAN bir sorunun KÖKÜNDE soruluyorsa "sorgulanmış" sayılır.
 
     Bir çapa "sorgulanmış" sayılır eğer çapadaki anlamlı kelimelerin
-    (3+ karakter) %60+'ı herhangi bir sorunun kökünde geçiyorsa.
+    (3+ karakter) %60+'ı herhangi bir sorunun KÖKÜNDE geçiyorsa. Bir kavramın
+    yalnızca bir açıklamada geçmesi onu "kapsandı" yapmaz — bu, kapsam rakamını
+    gerçeğe yaklaştırır ve doğrudan sorulmamış kavramlar için yeni soru ürettirir.
 
     Returns: (covered: list[str], uncovered: list[str])
     """
@@ -207,12 +210,11 @@ def classify_anchors(anchors, questions):
     if not questions:
         return [], list(anchors)
 
-    # Sadece soru kökleri + açıklamalar (şıklar HARİÇ!)
+    # YALNIZCA soru kökleri — açıklama ve şıklar HARİÇ.
     stem_corpus = ""
     for q in questions:
         stem = (q.get("question", "") or "").lower()
-        explanation = (q.get("explanation", "") or "").lower()
-        stem_corpus += " " + stem + " " + explanation
+        stem_corpus += " " + stem
 
     covered = []
     uncovered = []
