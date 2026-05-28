@@ -207,61 +207,108 @@ export async function flagQuestion(id: string, reason: string): Promise<void> {
 
 // ─── ACTIVE SESSION CLOUD SYNC ─────────────────────────────────────────────
 
+/** Supabase PostgrestError veya herhangi bir hatayı okunabilir stringe dönüştürür. */
+function serializeSupabaseError(err: unknown): string {
+  if (err instanceof Error) return err.message;
+  if (err && typeof err === 'object') {
+    const e = err as Record<string, unknown>;
+    if (typeof e.message === 'string') return e.message;
+    if (typeof e.details === 'string') return e.details;
+    if (typeof e.hint === 'string') return e.hint;
+    try { return JSON.stringify(e); } catch { return String(e); }
+  }
+  return String(err);
+}
+
 /**
  * Aktif session'ı cloud'a kaydeder.
  * Compact format: questionIds + answer verileri (soru objeleri hariç).
  * Retry: 3 deneme, exponential backoff.
+ *
+ * KRİTİK: device_id PRIMARY KEY'dir. userId varsa farklı cihazdan gelen yeni
+ * device_id ile upsert yapılınca PK constraint çakışır. Bu nedenle:
+ *   - Authenticated: önce user_id üzerinden UPDATE, satır yoksa INSERT
+ *   - Anonim: device_id üzerinden UPSERT (tek cihaz, PK safe)
  */
 export async function saveSessionToCloud(
   deviceId: string,
   sessionData: object,
   userId?: string
 ): Promise<void> {
-  const payload = {
-    device_id: deviceId,
-    user_id: userId ?? null,
-    session_data: sessionData,
-    updated_at: new Date().toISOString(),
-  };
-  await withRetry(async () => {
-    const { error } = await supabase
-      .from('active_sessions')
-      .upsert(payload, { onConflict: 'device_id' });
-    if (error) throw error;
-  });
+  if (userId) {
+    // Authenticated: user_id unique index üzerinden güncelle (device_id'ye dokunma)
+    await withRetry(async () => {
+      const now = new Date().toISOString();
+      // 1) Mevcut user_id satırını güncelle
+      const { data: updated, error: updateErr } = await supabase
+        .from('active_sessions')
+        .update({ session_data: sessionData, updated_at: now })
+        .eq('user_id', userId)
+        .select('user_id');
+      if (updateErr) throw new Error('[session] UPDATE: ' + serializeSupabaseError(updateErr));
+
+      // 2) Satır yoksa INSERT (henüz hiç kaydedilmemiş — ilk cihaz girişi)
+      if (!updated || updated.length === 0) {
+        const { error: insertErr } = await supabase
+          .from('active_sessions')
+          .insert({ device_id: deviceId, user_id: userId, session_data: sessionData, updated_at: now });
+        if (insertErr) throw new Error('[session] INSERT: ' + serializeSupabaseError(insertErr));
+      }
+    });
+  } else {
+    // Anonim: device_id PRIMARY KEY üzerinden UPSERT (tek cihaz, güvenli)
+    await withRetry(async () => {
+      const { error } = await supabase
+        .from('active_sessions')
+        .upsert(
+          { device_id: deviceId, user_id: null, session_data: sessionData, updated_at: new Date().toISOString() },
+          { onConflict: 'device_id' }
+        );
+      if (error) throw new Error('[session] ANON: ' + serializeSupabaseError(error));
+    });
+  }
 }
 
 /**
  * Aktif session'ı cloud'dan yükler.
- * userId varsa user bazlı, yoksa device bazlı arar.
+ * userId varsa SADECE user bazlı sorgular (cihaz bağımsız cross-device sync).
+ * userId yoksa device bazlı sorgular (anonim fallback).
+ *
+ * NOT: Authenticated kullanıcı için device_id fallback intentionally kaldırıldı.
+ * Cihaz değiştirilince farklı device_id farklı satır bulur → yanlış/boş session.
+ * user_id unique index ile tek bir bulut satırı garanti altında.
  */
 export async function loadSessionFromCloud(
   deviceId: string,
   userId?: string
 ): Promise<object | null> {
   if (userId) {
-    const { data } = await supabase
+    // Authenticated: user_id üzerinden tek satır — cihaz değişse de doğru veri gelir
+    const { data, error } = await supabase
       .from('active_sessions')
       .select('session_data')
       .eq('user_id', userId)
-      .order('updated_at', { ascending: false })
-      .limit(1)
       .maybeSingle();
-    if (data) return data.session_data;
+    if (error) console.warn('[loadSessionFromCloud] user query error:', error.message);
+    return data?.session_data ?? null;
   }
-  const { data } = await supabase
+  // Anonim: device_id bazlı
+  const { data, error } = await supabase
     .from('active_sessions')
     .select('session_data')
     .eq('device_id', deviceId)
     .maybeSingle();
+  if (error) console.warn('[loadSessionFromCloud] device query error:', error.message);
   return data?.session_data ?? null;
 }
 
-export async function deleteSessionFromCloud(deviceId: string): Promise<void> {
-  const { error } = await supabase
-    .from('active_sessions')
-    .delete()
-    .eq('device_id', deviceId);
+export async function deleteSessionFromCloud(deviceId: string, userId?: string): Promise<void> {
+  // Authenticated: user_id ile sil (cihaz bağımsız — tek satır garanti)
+  // Anonim: device_id ile sil
+  const query = supabase.from('active_sessions').delete();
+  const { error } = userId
+    ? await query.eq('user_id', userId)
+    : await query.eq('device_id', deviceId);
   if (error) throw error;
 }
 

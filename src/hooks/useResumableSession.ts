@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { loadSessionFromCloud, deleteSessionFromCloud, saveSessionToCloud } from '../lib/supabase';
+import { loadSessionFromCloud, deleteSessionFromCloud, saveSessionToCloud, supabase } from '../lib/supabase';
 import { getDeviceId } from '../lib/stats';
 import type { ActiveSessionInfo, CompactSessionInfo } from '../types/app';
 import type { Question } from '../data';
@@ -69,7 +69,10 @@ function isValidCompact(s: CompactSessionInfo): boolean {
   if (!Array.isArray(s.answers)) return false;
   if (typeof s.currentIndex !== 'number') return false;
   if (s.mode !== 'quiz' && s.mode !== 'exam') return false;
+  // Tüm sorular bitmişse session geçersiz (temizlenmeli)
   if (s.answers.length >= s.questionIds.length) return false;
+  // currentIndex sınır içinde olmalı
+  if (s.currentIndex < 0 || s.currentIndex >= s.questionIds.length) return false;
   return true;
 }
 
@@ -89,16 +92,17 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
   const [sessionSaveError, setSessionSaveError] = useState<string | null>(null);
   const loadedRef = useRef(false);
   const lastUserIdRef = useRef<string | null | undefined>(undefined);
-  const saveCountRef = useRef(0);
   const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pendingSessionRef = useRef<ActiveSessionInfo | null>(null);
+  const accessTokenRef = useRef<string | null>(null);
 
   const loadResumableSession = useCallback(async (uid?: string | null, pool?: Question[]) => {
     setIsSessionLoading(true);
     try {
       const deviceId = getDeviceId();
-      let cloud = uid ? await loadSessionFromCloud(deviceId, uid) : null;
-      if (!cloud) cloud = await loadSessionFromCloud(deviceId);
+      // loadSessionFromCloud artık: uid varsa SADECE user_id sorgular (cross-device),
+      // yoksa device_id sorgular. İkili fallback kaldırıldı.
+      const cloud = await loadSessionFromCloud(deviceId, uid ?? undefined);
 
       if (!cloud) {
         setResumeSessionData(null);
@@ -107,7 +111,7 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
 
       if (isCompactSession(cloud)) {
         if (!isValidCompact(cloud)) {
-          await deleteSessionFromCloud(deviceId).catch(() => {});
+          await deleteSessionFromCloud(deviceId, uid ?? undefined).catch(() => {});
           setResumeSessionData(null);
           return;
         }
@@ -118,14 +122,14 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
         }
         const session = fromCompact(cloud, available);
         if (!session || session.answers.length >= session.questions.length) {
-          await deleteSessionFromCloud(deviceId).catch(() => {});
+          await deleteSessionFromCloud(deviceId, uid ?? undefined).catch(() => {});
           setResumeSessionData(null);
         } else {
           setResumeSessionData(session);
         }
       } else if (isLegacySession(cloud)) {
         if (!isValidLegacy(cloud)) {
-          await deleteSessionFromCloud(deviceId).catch(() => {});
+          await deleteSessionFromCloud(deviceId, uid ?? undefined).catch(() => {});
           setResumeSessionData(null);
         } else {
           setResumeSessionData(cloud);
@@ -144,9 +148,13 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
     const poolReady = (questionPool?.length ?? 0) > 0;
     const userChanged = lastUserIdRef.current !== userId;
 
+    // Pool henüz yüklenmemişse bekle — fromCompact boş pool ile null döner ve
+    // gerçek session yüklenmemiş gibi görünür.
+    if (!poolReady) return;
+
     if (loadedRef.current && !userChanged) return;
 
-    loadedRef.current = poolReady;
+    loadedRef.current = true;
     lastUserIdRef.current = userId;
     loadResumableSession(userId, questionPool);
   }, [userId, questionPool, loadResumableSession]);
@@ -161,7 +169,18 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
       await saveSessionToCloud(getDeviceId(), compact, userId ?? undefined);
       setSessionSaveError(null);
     } catch (err) {
-      const msg = err instanceof Error ? err.message : String(err);
+      // PostgrestError instanceof Error değil — düzgün serialize et
+      let msg: string;
+      if (err instanceof Error) {
+        msg = err.message;
+      } else if (err && typeof err === 'object') {
+        const e = err as Record<string, unknown>;
+        msg = (typeof e.message === 'string' ? e.message : null)
+          ?? (typeof e.details === 'string' ? e.details : null)
+          ?? JSON.stringify(e);
+      } else {
+        msg = String(err);
+      }
       console.error('[useResumableSession] Session kaydetme hatası:', msg);
       setSessionSaveError(msg);
     }
@@ -169,27 +188,25 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
 
   const clearResumableSession = useCallback(async () => {
     pendingSessionRef.current = null;
-    saveCountRef.current = 0; // yeni oturumun ilk kaydı tekrar anında flush'lansın
     if (saveTimerRef.current) {
       clearTimeout(saveTimerRef.current);
       saveTimerRef.current = null;
     }
     try {
-      await deleteSessionFromCloud(getDeviceId());
+      await deleteSessionFromCloud(getDeviceId(), userId ?? undefined);
     } catch {
       // ignore
     }
     setResumeSessionData(null);
     setSessionSaveError(null);
-  }, []);
+  }, [userId]);
 
   const saveResumableSession = useCallback(async (session: ActiveSessionInfo) => {
     if (session.answers.length >= session.questions.length) {
       setResumeSessionData(null);
       pendingSessionRef.current = null;
-      saveCountRef.current = 0; // oturum tamamlandı — sayaç bir sonraki oturum için sıfırlanır
       try {
-        await deleteSessionFromCloud(getDeviceId());
+        await deleteSessionFromCloud(getDeviceId(), userId ?? undefined);
       } catch {
         // ignore
       }
@@ -198,49 +215,71 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
 
     setResumeSessionData(session);
     pendingSessionRef.current = session;
-    saveCountRef.current++;
 
     if (saveTimerRef.current) {
       clearTimeout(saveTimerRef.current);
+      saveTimerRef.current = null;
     }
+    await flushPendingSession();
+  }, [flushPendingSession, userId]);
 
-    // Sayaç monoton ilerler: 1, 6, 11... kaydında anında cloud flush; aradakiler 3sn debounce.
-    // Önceki sürüm flush sonrası sayacı 0'a sıfırlıyordu, bu da modulo'yu daima 1 yapıp
-    // HER cevapta anında yazma tetikleyerek debounce'u tamamen devre dışı bırakıyordu.
-    const shouldFlushNow = saveCountRef.current % 5 === 1;
-    if (shouldFlushNow) {
-      await flushPendingSession();
-    } else {
-      saveTimerRef.current = setTimeout(() => {
-        saveTimerRef.current = null;
-        flushPendingSession();
-      }, 3000);
-    }
-  }, [flushPendingSession]);
+  useEffect(() => {
+    supabase.auth.getSession()
+      .then(({ data }) => {
+        accessTokenRef.current = data.session?.access_token ?? null;
+      })
+      .catch(() => {
+        accessTokenRef.current = null;
+      });
+    const { data: listener } = supabase.auth.onAuthStateChange((_event, session) => {
+      accessTokenRef.current = session?.access_token ?? null;
+    });
+    return () => listener.subscription.unsubscribe();
+  }, []);
 
   useEffect(() => {
     const handleBeforeUnload = () => {
       if (pendingSessionRef.current) {
         const compact = toCompact(pendingSessionRef.current);
-        const payload = JSON.stringify({
-          device_id: getDeviceId(),
-          user_id: userId ?? null,
-          session_data: compact,
-          updated_at: new Date().toISOString(),
-        });
-        const url = `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/active_sessions?on_conflict=device_id`;
         const anonKey = import.meta.env.VITE_SUPABASE_ANON_KEY as string;
-        fetch(url, {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'apikey': anonKey,
-            'Authorization': `Bearer ${anonKey}`,
-            'Prefer': 'resolution=merge-duplicates',
-          },
-          body: payload,
-          keepalive: true,
-        }).catch(() => {});
+        const bearer = accessTokenRef.current ?? anonKey;
+        const baseUrl = import.meta.env.VITE_SUPABASE_URL as string;
+        const now = new Date().toISOString();
+
+        if (userId) {
+          // Authenticated: PATCH ile user_id üzerinden UPDATE (device_id dokunulmaz)
+          const url = `${baseUrl}/rest/v1/active_sessions?user_id=eq.${userId}`;
+          fetch(url, {
+            method: 'PATCH',
+            headers: {
+              'Content-Type': 'application/json',
+              'apikey': anonKey,
+              'Authorization': `Bearer ${bearer}`,
+              'Prefer': 'return=minimal',
+            },
+            body: JSON.stringify({ session_data: compact, updated_at: now }),
+            keepalive: true,
+          }).catch(() => {});
+        } else {
+          // Anonim: POST+upsert device_id üzerinden (PK safe)
+          const url = `${baseUrl}/rest/v1/active_sessions?on_conflict=device_id`;
+          fetch(url, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'apikey': anonKey,
+              'Authorization': `Bearer ${bearer}`,
+              'Prefer': 'resolution=merge-duplicates',
+            },
+            body: JSON.stringify({
+              device_id: getDeviceId(),
+              user_id: null,
+              session_data: compact,
+              updated_at: now,
+            }),
+            keepalive: true,
+          }).catch(() => {});
+        }
       }
     };
     window.addEventListener('beforeunload', handleBeforeUnload);
