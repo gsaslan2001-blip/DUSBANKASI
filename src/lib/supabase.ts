@@ -115,23 +115,34 @@ export async function fetchQuestions(flaggedOnly = false): Promise<QuestionRow[]
   return all;
 }
 
-export async function importQuestions(questions: ImportQuestion[]): Promise<number> {
-  const rows = questions.map((q) => ({
-    lesson: q.lesson,
-    unit: q.unit,
-    question: q.question,
-    option_a: q.options.A,
-    option_b: q.options.B,
-    option_c: q.options.C,
-    option_d: q.options.D,
-    option_e: q.options.E,
-    correct_answer: q.correctAnswer,
-    explanation: q.explanation,
-  }));
+export type AddQuestionsResult = {
+  accepted: number;
+  written: number;
+  rejected: { index: number; reason: string }[];
+};
 
-  const { data, error } = await supabase.from('questions').insert(rows).select('id');
-  if (error) throw error;
-  return data?.length ?? 0;
+// Kanonik ekleme yolu: manage-questions Edge Function kalite filtresi + embedding üretir.
+// Ham INSERT KULLANMA — embedding'siz/kalite filtresiz soru semantik arama ve dedup'ta görünmez.
+export async function addQuestions(questions: ImportQuestion[]): Promise<AddQuestionsResult> {
+  const { data, error } = await supabase.functions.invoke('manage-questions', {
+    body: { questions },
+  });
+  if (error) {
+    // Fonksiyon 4xx/5xx döndüyse gövdeyi okumaya çalış (kısmi yazım bilgisi için)
+    let detail = error.message;
+    try {
+      const ctx = (error as { context?: Response }).context;
+      if (ctx && typeof ctx.text === 'function') detail = await ctx.text();
+    } catch { /* yoksay */ }
+    throw new Error(detail);
+  }
+  return data as AddQuestionsResult;
+}
+
+// Geriye uyumluluk: eski çağrı yerleri (ImportView) bu imzayı kullanıyor.
+export async function importQuestions(questions: ImportQuestion[]): Promise<number> {
+  const res = await addQuestions(questions);
+  return res.written;
 }
 
 export function rowToQuestion(row: QuestionRow) {
@@ -267,12 +278,8 @@ export type StatRow = {
   corrects: number;
   last_seen: string;
   wrong_choices?: WrongChoice[];
-  // Faz 2: FSRS-5 scheduling state
-  stability?: number | null;
+  // Accuracy bazlı statik zorluk puanı (1-10)
   difficulty?: number | null;
-  last_review?: string | null;
-  scheduled_days?: number | null;
-  fsrs_reps?: number | null;
 };
 
 export type CloudStat = {
@@ -280,12 +287,7 @@ export type CloudStat = {
   corrects: number;
   lastSeen: string;
   wrongChoices?: WrongChoice[];
-  // Faz 2: FSRS-5 alanları
-  stability?: number;
   difficulty?: number;
-  lastReview?: string;
-  scheduledDays?: number;
-  fsrsReps?: number;
 };
 
 /**
@@ -304,7 +306,9 @@ export type PushStatsResult = {
 };
 
 /**
- * Local stats'ı cloud'a push eder (upsert, 500'lük batch).
+ * Local stats'ı cloud'a push eder.
+ * userId varsa → server-side GREATEST() merge RPC (race-condition-safe).
+ * userId yoksa → device_id bazlı eski upsert (anonim fallback).
  * Hata durumunda dahi kısmi başarıyı raporlar — throw etmez.
  */
 export async function pushStatsToCloud(
@@ -312,62 +316,108 @@ export async function pushStatsToCloud(
   stats: Record<string, CloudStat>,
   userId?: string
 ): Promise<PushStatsResult> {
-  const conflictTarget = 'device_id,question_id';
+  const entries = Object.entries(stats);
+  if (entries.length === 0) return { pushed: 0, total: 0, errors: [] };
 
-  // user_id yalnızca giriş yapılmışsa payload'a eklenir. userId YOKSA alan tamamen
-  // dışarıda bırakılır — PostgREST merge-duplicates conflict update'inde sadece gönderilen
-  // sütunları yazdığı için mevcut user_id korunur. Aksi halde anonim/erken sync (auth
-  // henüz çözülmeden çalışan debounce) mevcut kayıtların user_id'sini null'a ezerek
-  // giriş yapan kullanıcının verisini yetim bırakırdı.
-  const rows: StatRow[] = Object.entries(stats)
-    .map(([qId, s]) => {
-      const row: StatRow = {
+  const errors: string[] = [];
+  let pushed = 0;
+  const BATCH = 500;
+  const batchCount = Math.ceil(entries.length / BATCH);
+
+  if (userId) {
+    // ── Giriş yapılmış: RPC upsert_stats_batch (GREATEST merge, user+question unique) ──
+    for (let i = 0; i < entries.length; i += BATCH) {
+      const batchIndex = Math.floor(i / BATCH);
+      const slice = entries.slice(i, i + BATCH);
+      const rows = slice.map(([qId, s]) => ({
+        user_id: userId,
         device_id: deviceId,
         question_id: qId,
         attempts: s.attempts,
         corrects: s.corrects,
         last_seen: s.lastSeen || new Date().toISOString(),
         wrong_choices: s.wrongChoices ?? [],
-        stability: s.stability ?? null,
         difficulty: s.difficulty ?? null,
-        last_review: s.lastReview ?? null,
-        scheduled_days: s.scheduledDays ?? null,
-        fsrs_reps: s.fsrsReps ?? null,
-      };
-      if (userId) row.user_id = userId;
-      return row;
-    });
-  if (rows.length === 0) return { pushed: 0, total: 0, errors: [] };
-
-  const errors: string[] = [];
-  let pushed = 0;
-  const batchCount = Math.ceil(rows.length / 500);
-
-  for (let i = 0; i < rows.length; i += 500) {
-    const batchIndex = Math.floor(i / 500);
-    const batch = rows.slice(i, i + 500);
-    try {
-      const { error } = await supabase
-        .from('question_stats')
-        .upsert(batch, { onConflict: conflictTarget });
-      if (error) {
-        const msg = `Batch ${batchIndex + 1}/${batchCount}: ${error.message} (code: ${error.code})`;
+      }));
+      try {
+        const { error } = await supabase.rpc('upsert_stats_batch', { rows });
+        if (error) {
+          const msg = `Batch ${batchIndex + 1}/${batchCount}: ${error.message}`;
+          console.error(`[pushStatsToCloud] ${msg}`);
+          errors.push(msg);
+        } else {
+          pushed += rows.length;
+        }
+      } catch (err) {
+        const msg = `Batch ${batchIndex + 1}/${batchCount}: ${err instanceof Error ? err.message : String(err)}`;
         console.error(`[pushStatsToCloud] ${msg}`);
         errors.push(msg);
-      } else {
-        pushed += batch.length;
       }
-    } catch (err) {
-      const msg = `Batch ${batchIndex + 1}/${batchCount}: ${err instanceof Error ? err.message : String(err)}`;
-      console.error(`[pushStatsToCloud] ${msg}`);
-      errors.push(msg);
+    }
+  } else {
+    // ── Anonim: device_id bazlı eski yol ──
+    const rows: StatRow[] = entries.map(([qId, s]) => ({
+      device_id: deviceId,
+      question_id: qId,
+      attempts: s.attempts,
+      corrects: s.corrects,
+      last_seen: s.lastSeen || new Date().toISOString(),
+      wrong_choices: s.wrongChoices ?? [],
+      difficulty: s.difficulty ?? null,
+    }));
+    for (let i = 0; i < rows.length; i += BATCH) {
+      const batchIndex = Math.floor(i / BATCH);
+      const batch = rows.slice(i, i + BATCH);
+      try {
+        const { error } = await supabase
+          .from('question_stats')
+          .upsert(batch, { onConflict: 'device_id,question_id' });
+        if (error) {
+          const msg = `Batch ${batchIndex + 1}/${batchCount}: ${error.message}`;
+          console.error(`[pushStatsToCloud] ${msg}`);
+          errors.push(msg);
+        } else {
+          pushed += batch.length;
+        }
+      } catch (err) {
+        const msg = `Batch ${batchIndex + 1}/${batchCount}: ${err instanceof Error ? err.message : String(err)}`;
+        console.error(`[pushStatsToCloud] ${msg}`);
+        errors.push(msg);
+      }
     }
   }
 
-  return { pushed, total: rows.length, errors };
+  return { pushed, total: entries.length, errors };
 }
 
-const STAT_COLUMNS = 'question_id, attempts, corrects, last_seen, wrong_choices, stability, difficulty, last_review, scheduled_days, fsrs_reps';
+// ─── USER DATA (activity_log, streak, vs. JSON blobs) ───────────────────────
+
+/**
+ * Kullanıcı verisi push eder — key/value JSON, upsert (updated_at güncellenir).
+ * Giriş yapılmamışsa sessizce döner.
+ */
+export async function pushUserData(userId: string, key: string, value: unknown): Promise<void> {
+  const { error } = await supabase
+    .from('user_data')
+    .upsert({ user_id: userId, key, value, updated_at: new Date().toISOString() });
+  if (error) throw new Error(`[pushUserData] ${key}: ${error.message}`);
+}
+
+/**
+ * Kullanıcı verisini çeker. Bulunamazsa null döner.
+ */
+export async function pullUserData(userId: string, key: string): Promise<unknown | null> {
+  const { data, error } = await supabase
+    .from('user_data')
+    .select('value, updated_at')
+    .eq('user_id', userId)
+    .eq('key', key)
+    .maybeSingle();
+  if (error) throw new Error(`[pullUserData] ${key}: ${error.message}`);
+  return data?.value ?? null;
+}
+
+const STAT_COLUMNS = 'question_id, attempts, corrects, last_seen, wrong_choices, difficulty';
 
 type PulledStatRow = {
   question_id: string;
@@ -375,11 +425,7 @@ type PulledStatRow = {
   corrects: number;
   last_seen: string;
   wrong_choices?: WrongChoice[];
-  stability?: number | null;
   difficulty?: number | null;
-  last_review?: string | null;
-  scheduled_days?: number | null;
-  fsrs_reps?: number | null;
 };
 
 function rowToCloudStat(row: PulledStatRow): CloudStat {
@@ -388,11 +434,7 @@ function rowToCloudStat(row: PulledStatRow): CloudStat {
     corrects: row.corrects,
     lastSeen: row.last_seen,
     wrongChoices: row.wrong_choices ?? [],
-    stability: row.stability ?? undefined,
     difficulty: row.difficulty ?? undefined,
-    lastReview: row.last_review ?? undefined,
-    scheduledDays: row.scheduled_days ?? undefined,
-    fsrsReps: row.fsrs_reps ?? undefined,
   };
 }
 
@@ -451,12 +493,12 @@ export async function pullAllDeviceStats(userId?: string): Promise<Record<string
       merged[row.question_id] = rowToCloudStat(row);
       continue;
     }
-    // syncStatsDown ile tutarlı: last_review'e göre merge, tie-break attempts
-    const rowReview = row.last_review ?? null;
-    const existingReview = existing.lastReview ?? null;
-    if (rowReview && (!existingReview || rowReview > existingReview)) {
+    // syncStatsDown ile tutarlı: last_seen'e göre merge, tie-break attempts
+    const rowSeen = row.last_seen ?? '';
+    const existingSeen = existing.lastSeen ?? '';
+    if (rowSeen > existingSeen) {
       merged[row.question_id] = rowToCloudStat(row);
-    } else if (rowReview === existingReview && row.attempts > existing.attempts) {
+    } else if (rowSeen === existingSeen && row.attempts > existing.attempts) {
       merged[row.question_id] = rowToCloudStat(row);
     }
   }

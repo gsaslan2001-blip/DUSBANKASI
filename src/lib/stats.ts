@@ -1,17 +1,16 @@
 /**
  * DUS Bankası — Soru İstatistik Yönetimi (localStorage + Cloud Sync)
- * Per-soru: kaç kez çözüldü, kaç kez doğru, son görülme zamanı
- * + SM-2 Aralıklı Tekrar Algoritması
- * + Daily Study Streak
+ * Per-soru: kaç kez çözüldü, kaç kez doğru, son görülme zamanı, yanlış şık geçmişi.
+ *
+ * NOT: Aktif tekrar (spaced repetition) Anki/FSRS tarafında yürütülür. Burada FSRS
+ * scheduling YOKTUR — yalnızca performans takibi + accuracy bazlı statik zorluk puanı.
  */
 
-import { pushStatsToCloud, pullAllDeviceStats, clearDeviceStats, type PushStatsResult } from './supabase';
-import { initCard, reviewCard, migrateSM2Card, nextReviewDate, difficultyLabel, type FSRSCard, type FSRSGrade } from './fsrs';
+import { pushStatsToCloud, pullAllDeviceStats, clearDeviceStats, pushUserData, pullUserData, type PushStatsResult } from './supabase';
 import { todayStr, addDays } from './dateUtils';
+import type { Question } from '../data';
 
 const STATS_KEY = 'dus_question_stats';
-const STATS_SM2_BACKUP_KEY = 'dus_question_stats_sm2_backup'; // Rapor §5.2 güvenliği
-const MIGRATION_FLAG_KEY = 'dus_stats_migrated_v2';            // Bir kez çalışsın
 const DEVICE_ID_KEY = 'dus_device_id';
 const STREAK_KEY = 'dus_study_streak';
 const ACTIVITY_KEY = 'dus_activity_log';
@@ -22,20 +21,11 @@ export type WrongChoice = { selected: string; timestamp: string };
 export type QuestionStat = {
   attempts: number;
   corrects: number;
-  lastSeen: string; // ISO date
-  // Legacy SM-2 fields — FSRS migrasyonu sonrası backup amaçlı korunuyor, yeni scheduling FSRS'te
-  interval: number;
-  easeFactor: number;
-  repetitions: number;
-  nextReview: string; // ISO date (YYYY-MM-DD) — FSRS de bu alanı güncelliyor (due date)
-  // Faz 1: Hata Pattern Analizi için seçilen yanlış şıkların geçmişi
+  lastSeen: string; // ISO timestamp
+  // Hata Pattern Analizi için seçilen yanlış şıkların geçmişi
   wrongChoices?: WrongChoice[];
-  // Faz 2: FSRS-5 alanları (migrasyon sonrası tüm kartlarda mevcut)
-  stability?: number;      // gün cinsinden hafıza gücü
-  difficulty?: number;     // 1-10, yüksek = zor
-  lastReview?: string;     // ISO date
-  scheduledDays?: number;  // sonraki review'e kadar gün
-  fsrsReps?: number;       // FSRS review sayacı (attempts'ten bağımsız)
+  // Accuracy bazlı statik zorluk puanı (1 = kolay, 10 = zor). Doğruluk oranıyla ters orantılı.
+  difficulty?: number;
 };
 
 export type StatsMap = Record<string, QuestionStat>;
@@ -66,167 +56,42 @@ export function loadAllStats(): StatsMap {
   }
 }
 
-/**
- * Legacy SM-2 — FSRS migrasyonu sonrası artık scheduling için kullanılmıyor.
- * Sadece backup amacıyla history korunuyor (rollback senaryosunda).
- */
-function applySM2Legacy(stat: QuestionStat, grade: number): { interval: number; easeFactor: number; repetitions: number } {
-  let { interval, easeFactor, repetitions } = stat;
-  const newEF = Math.max(1.3, easeFactor + (0.1 - (5 - grade) * (0.08 + (5 - grade) * 0.02)));
-  let newInterval: number;
-  let newRepetitions: number;
-  if (grade < 3) {
-    newRepetitions = 0;
-    newInterval = 1;
-  } else {
-    if (repetitions === 0) newInterval = 1;
-    else if (repetitions === 1) newInterval = 6;
-    else newInterval = Math.round(interval * newEF);
-    newRepetitions = repetitions + 1;
-  }
-  return {
-    easeFactor: Math.round(newEF * 100) / 100,
-    interval: newInterval,
-    repetitions: newRepetitions,
-  };
+// ─── Accuracy Bazlı Zorluk ───────────────────────────────────────────────────
+
+/** Doğruluk oranını 1-10 arası statik zorluk puanına çevirir (düşük accuracy = yüksek zorluk). */
+export function accuracyToDifficulty(corrects: number, attempts: number): number {
+  if (attempts <= 0) return 5;
+  const rate = corrects / attempts;
+  return Math.min(10, Math.max(1, Math.round(10 - rate * 9)));
+}
+
+/** Zorluk puanından (1-10) etiket üretir (UI badge'leri için). */
+export function difficultyLabel(d: number): 'easy' | 'medium' | 'hard' {
+  if (d < 4) return 'easy';
+  if (d < 7) return 'medium';
+  return 'hard';
 }
 
 /**
- * Binary correct/incorrect UX → FSRS grade mapping.
- *   Yanlış → 1 (Again)
- *   Doğru  → 3 (Good)
- * İleride "Kolay/Zor" butonları eklenirse 2/4 de kullanılabilir.
- */
-function toFSRSGrade(isCorrect: boolean): FSRSGrade {
-  return isCorrect ? 3 : 1;
-}
-
-/**
- * Mevcut QuestionStat'ta FSRS alanları varsa onu kullanır, yoksa SM-2'den migrate eder,
- * o da yoksa yeni FSRSCard başlatır.
- */
-function ensureFSRSCard(stat: QuestionStat): FSRSCard {
-  if (stat.stability !== undefined && stat.difficulty !== undefined && stat.lastReview) {
-    return {
-      stability: stat.stability,
-      difficulty: stat.difficulty,
-      lastReview: stat.lastReview,
-      scheduledDays: stat.scheduledDays ?? stat.interval ?? 1,
-      reps: stat.fsrsReps ?? stat.repetitions ?? 1,
-    };
-  }
-  // SM-2 history varsa migrate et
-  if (stat.attempts > 0 && stat.easeFactor) {
-    return migrateSM2Card({
-      easeFactor: stat.easeFactor,
-      interval: stat.interval,
-      repetitions: stat.repetitions,
-      nextReview: stat.nextReview,
-      lastSeen: stat.lastSeen,
-    });
-  }
-  // Yeni kart
-  return initCard(3);
-}
-
-// ─── SM-2 → FSRS Toplu Migrasyon (one-time) ────────────────────────────────
-
-/**
- * Uygulama açılışında çağrılır. Zaten migrate edilmişse no-op.
- * Mevcut SM-2 state'in TAM KOPYASI backup key'e alınır (rollback için).
- * Her kart için FSRS alanları hesaplanır ve state'e yazılır.
- */
-export function migrateAllStatsToFSRSIfNeeded(): { migrated: boolean; count: number } {
-  if (localStorage.getItem(MIGRATION_FLAG_KEY) === '1') {
-    return { migrated: false, count: 0 };
-  }
-  const stats = loadAllStats();
-  const entries = Object.entries(stats);
-  if (entries.length === 0) {
-    localStorage.setItem(MIGRATION_FLAG_KEY, '1');
-    return { migrated: false, count: 0 };
-  }
-
-  // Backup: mevcut SM-2 state'in tam kopyası
-  try {
-    localStorage.setItem(STATS_SM2_BACKUP_KEY, JSON.stringify(stats));
-  } catch {
-    // Quota hatası — migrasyonu ertele, bir sonraki açılışta tekrar dene
-    return { migrated: false, count: 0 };
-  }
-
-  let migrated = 0;
-  for (const [id, stat] of entries) {
-    // Zaten FSRS alanları varsa atla
-    if (stat.stability !== undefined && stat.difficulty !== undefined) continue;
-    const fsrs = migrateSM2Card({
-      easeFactor: stat.easeFactor,
-      interval: stat.interval,
-      repetitions: stat.repetitions,
-      nextReview: stat.nextReview,
-      lastSeen: stat.lastSeen,
-    });
-    stats[id] = {
-      ...stat,
-      stability: fsrs.stability,
-      difficulty: fsrs.difficulty,
-      lastReview: fsrs.lastReview,
-      scheduledDays: fsrs.scheduledDays,
-      fsrsReps: fsrs.reps,
-      // nextReview alanını FSRS'in hesabıyla güncelle (eski SM-2 değerini overwrite et)
-      nextReview: nextReviewDate(fsrs),
-    };
-    migrated++;
-  }
-
-  localStorage.setItem(STATS_KEY, JSON.stringify(stats));
-  localStorage.setItem(MIGRATION_FLAG_KEY, '1');
-  return { migrated: true, count: migrated };
-}
-
-/** Rollback: Backup'tan SM-2 state'i geri yükler. 1 hafta FSRS doğrulama sonrası backup temizlenebilir. */
-export function rollbackToSM2Backup(): boolean {
-  const backup = localStorage.getItem(STATS_SM2_BACKUP_KEY);
-  if (!backup) return false;
-  localStorage.setItem(STATS_KEY, backup);
-  localStorage.removeItem(MIGRATION_FLAG_KEY);
-  return true;
-}
-
-/** Backup'ı kalıcı olarak siler (FSRS doğrulandıktan sonra çağrılır). */
-export function clearSM2Backup(): void {
-  localStorage.removeItem(STATS_SM2_BACKUP_KEY);
-}
-
-/**
- * Tek sorunun istatistiğini günceller (SM-2 dahil)
+ * Tek sorunun istatistiğini günceller.
  * @param selectedOption — Seçilen şık ('A'-'E'). Yanlış cevaplarda wrongChoices'a kaydedilir.
- *                         Doğru cevaplar, skip (null) ve undefined durumunda yok sayılır.
  */
 export function saveQuestionStat(
   questionId: string,
   isCorrect: boolean,
-  selectedOption?: string | null
+  selectedOption?: string | null,
+  lesson?: string,
 ): void {
   const stats = loadAllStats();
   const prev: QuestionStat = stats[questionId] || {
     attempts: 0,
     corrects: 0,
     lastSeen: '',
-    interval: 1,
-    easeFactor: 2.5,
-    repetitions: 0,
-    nextReview: todayStr(),
     wrongChoices: [] as WrongChoice[],
   };
 
-  // Faz 2: FSRS-5 scheduling (SM-2 kaldırıldı — sadece backup için eski alanlar güncelleniyor)
-  const card = ensureFSRSCard(prev);
-  const fsrsGrade = toFSRSGrade(isCorrect);
-  const updatedCard = reviewCard(card, fsrsGrade);
-
-  // Legacy SM-2 alanlarını backup amacıyla güncellemeye devam et (rollback senaryosu)
-  const sm2Legacy = applySM2Legacy(prev, isCorrect ? 5 : 1);
+  const attempts = prev.attempts + 1;
+  const corrects = prev.corrects + (isCorrect ? 1 : 0);
 
   // Hata Pattern Analizi: Sadece yanlış cevaplarda ve seçim varsa kaydet
   const prevWrong = prev.wrongChoices ?? [];
@@ -235,29 +100,18 @@ export function saveQuestionStat(
     : prevWrong;
 
   stats[questionId] = {
-    attempts: prev.attempts + 1,
-    corrects: prev.corrects + (isCorrect ? 1 : 0),
+    attempts,
+    corrects,
     lastSeen: new Date().toISOString(),
-    // SM-2 alanları (backup)
-    easeFactor: sm2Legacy.easeFactor,
-    interval: sm2Legacy.interval,
-    repetitions: sm2Legacy.repetitions,
-    // nextReview: FSRS hesaplıyor (due date source of truth)
-    nextReview: nextReviewDate(updatedCard),
-    // FSRS alanları
-    stability: updatedCard.stability,
-    difficulty: updatedCard.difficulty,
-    lastReview: updatedCard.lastReview,
-    scheduledDays: updatedCard.scheduledDays,
-    fsrsReps: updatedCard.reps,
+    difficulty: accuracyToDifficulty(corrects, attempts),
     wrongChoices: nextWrong,
   };
   localStorage.setItem(STATS_KEY, JSON.stringify(stats));
 
   // Streak güncelle
   updateStreak();
-  // Aktivite logu güncelle
-  logActivity();
+  // Aktivite logu güncelle (doğru/yanlış + ders kırılımıyla)
+  logActivity(isCorrect, lesson);
   // Debounced cloud sync — her soru yerine 5 saniyede bir
   debouncedSyncUp();
 }
@@ -269,20 +123,13 @@ export function getStatFor(questionId: string): QuestionStat | null {
 }
 
 /**
- * Zorluk seviyesi döner (FSRS difficulty bazlı — migrasyon sonrası)
- * difficulty < 4  → Easy
- * difficulty < 7  → Medium
- * difficulty >= 7 → Hard
- * FSRS alanı yoksa SM-2 easeFactor fallback.
+ * Zorluk seviyesi döner (accuracy bazlı).
+ * Hiç çözülmemişse null.
  */
 export function getDifficultyLabel(questionId: string): 'easy' | 'medium' | 'hard' | null {
   const stat = getStatFor(questionId);
   if (!stat || stat.attempts === 0) return null;
-  if (stat.difficulty !== undefined) return difficultyLabel(stat.difficulty);
-  // Fallback: SM-2 EF bazlı
-  if (stat.easeFactor >= 2.2) return 'easy';
-  if (stat.easeFactor >= 1.6) return 'medium';
-  return 'hard';
+  return difficultyLabel(accuracyToDifficulty(stat.corrects, stat.attempts));
 }
 
 /** Zayıf soruları filtreler: en az 2 deneme, doğru oranı < %50 */
@@ -294,16 +141,6 @@ export function getWeakQuestionIds(minAttempts = 2, maxCorrectRate = 0.5): strin
       return (stat.corrects / stat.attempts) < maxCorrectRate;
     })
     .sort((a, b) => (a[1].corrects / a[1].attempts) - (b[1].corrects / b[1].attempts))
-    .map(([id]) => id);
-}
-
-/** SM-2'ye göre bugün veya geçmişte tekrar edilmesi gereken soruları döner */
-export function getDueForReviewIds(): string[] {
-  const stats = loadAllStats();
-  const today = todayStr();
-  return Object.entries(stats)
-    .filter(([, stat]) => stat.attempts > 0 && stat.nextReview <= today)
-    .sort((a, b) => a[1].nextReview.localeCompare(b[1].nextReview))
     .map(([id]) => id);
 }
 
@@ -360,9 +197,32 @@ function updateStreak(): void {
 }
 
 // ─── AKTİVİTE LOGU ─────────────────────────────────────────────────────────
-// Son 30 günün günlük soru sayısını tutar
+// Her günün çözülen soru sayısı + doğru/yanlış kırılımını tutar.
+// Geriye uyumluluk: eski kayıtlar düz sayı (yalnızca toplam) olabilir.
 
-export type ActivityLog = Record<string, number>; // { 'YYYY-MM-DD': count }
+const ACTIVITY_RETENTION_DAYS = 400;
+
+export type LessonDayStat = { total: number; correct: number };
+export type DailyActivity = {
+  total: number;
+  correct: number;
+  incorrect: number;
+  // Gün-detayını zenginleştirmek için ders bazlı kırılım (geriye dönük: opsiyonel).
+  byLesson?: Record<string, LessonDayStat>;
+};
+export type ActivityLog = Record<string, number | DailyActivity>; // { 'YYYY-MM-DD': ... }
+
+/** Eski (düz sayı) veya yeni (obje) formatı tek tip DailyActivity'ye normalize eder. */
+export function normalizeActivity(v: number | DailyActivity | undefined): DailyActivity {
+  if (v == null) return { total: 0, correct: 0, incorrect: 0, byLesson: {} };
+  if (typeof v === 'number') return { total: v, correct: 0, incorrect: 0, byLesson: {} };
+  return {
+    total: v.total ?? 0,
+    correct: v.correct ?? 0,
+    incorrect: v.incorrect ?? 0,
+    byLesson: v.byLesson ?? {},
+  };
+}
 
 export function loadActivityLog(): ActivityLog {
   try {
@@ -373,29 +233,247 @@ export function loadActivityLog(): ActivityLog {
   }
 }
 
-function logActivity(): void {
+function logActivity(isCorrect: boolean, lesson?: string): void {
   const log = loadActivityLog();
   const today = todayStr();
-  log[today] = (log[today] || 0) + 1;
+  const cur = normalizeActivity(log[today]);
+  cur.total += 1;
+  if (isCorrect) cur.correct += 1;
+  else cur.incorrect += 1;
+  if (lesson) {
+    const byLesson = cur.byLesson ?? (cur.byLesson = {});
+    const ls = byLesson[lesson] ?? (byLesson[lesson] = { total: 0, correct: 0 });
+    ls.total += 1;
+    if (isCorrect) ls.correct += 1;
+  }
+  log[today] = cur;
 
-  // 30 günden eski kayıtları temizle
-  const cutoff = addDays(today, -30);
+  // Eski kayıtları temizle (uzun geçmiş trend grafikleri için geniş pencere)
+  const cutoff = addDays(today, -ACTIVITY_RETENTION_DAYS);
   for (const date of Object.keys(log)) {
     if (date < cutoff) delete log[date];
   }
   localStorage.setItem(ACTIVITY_KEY, JSON.stringify(log));
 }
 
-/** Son N günün aktivite verisini döner */
-export function getRecentActivity(days = 14): { date: string; count: number }[] {
+export type ActivityPoint = {
+  date: string;
+  count: number;
+  correct: number;
+  incorrect: number;
+  byLesson: Record<string, LessonDayStat>;
+};
+
+/** Son N günün aktivite verisini döner (count = o günün toplam çözüm sayısı). */
+export function getRecentActivity(days = 14): ActivityPoint[] {
   const log = loadActivityLog();
   const today = todayStr();
-  const result: { date: string; count: number }[] = [];
+  const result: ActivityPoint[] = [];
   for (let i = days - 1; i >= 0; i--) {
     const date = addDays(today, -i);
-    result.push({ date, count: log[date] || 0 });
+    const a = normalizeActivity(log[date]);
+    result.push({ date, count: a.total, correct: a.correct, incorrect: a.incorrect, byLesson: a.byLesson ?? {} });
   }
   return result;
+}
+
+/** Tüm zamanların aktivite özeti: aktif gün sayısı, toplam/günlük rekorları. */
+export function getActivitySummary(): {
+  activeDays: number;
+  totalSolved: number;
+  totalCorrect: number;
+  totalIncorrect: number;
+  bestDay: { date: string; count: number } | null;
+  todayCount: number;
+} {
+  const log = loadActivityLog();
+  let activeDays = 0;
+  let totalSolved = 0;
+  let totalCorrect = 0;
+  let totalIncorrect = 0;
+  let bestDay: { date: string; count: number } | null = null;
+  for (const [date, raw] of Object.entries(log)) {
+    const a = normalizeActivity(raw);
+    if (a.total > 0) activeDays++;
+    totalSolved += a.total;
+    totalCorrect += a.correct;
+    totalIncorrect += a.incorrect;
+    if (!bestDay || a.total > bestDay.count) bestDay = { date, count: a.total };
+  }
+  const todayCount = normalizeActivity(log[todayStr()]).total;
+  return { activeDays, totalSolved, totalCorrect, totalIncorrect, bestDay, todayCount };
+}
+
+// ─── KAPSAMLI İSTATİSTİK MOTORU ──────────────────────────────────────────────
+// Tüm panel görselleştirmeleri tek bir saf fonksiyondan beslenir (test edilebilir).
+
+/** Ustalık eşiği — accuracy bu değerin üstündeyse soru "ustalaşılmış" sayılır. */
+export const MASTERY_THRESHOLD = 0.8;
+/** Zayıflık eşiği — accuracy bu değerin altındaysa "zayıf". */
+export const WEAK_THRESHOLD = 0.5;
+
+export type LessonStat = {
+  lesson: string;
+  total: number;     // Bankadaki soru sayısı
+  solved: number;    // En az 1 kez çözülen benzersiz soru
+  attempts: number;  // Toplam cevaplama
+  corrects: number;  // Toplam doğru
+  accuracy: number;  // 0-100
+  coverage: number;  // 0-100 (solved / total)
+};
+
+export type UnitStat = {
+  lesson: string;
+  unit: string;
+  total: number;
+  solved: number;
+  attempts: number;
+  corrects: number;
+  accuracy: number;
+};
+
+export type OptionKey = 'A' | 'B' | 'C' | 'D' | 'E';
+
+export type OverviewStats = {
+  bankTotal: number;        // Bankadaki toplam soru
+  solvedUnique: number;     // En az 1 kez çözülen benzersiz soru
+  unsolvedUnique: number;   // Hiç çözülmemiş benzersiz soru
+  wrongEverUnique: number;  // En az 1 kez yanlış yapılan benzersiz soru
+  perfectUnique: number;    // Çözülmüş ve hiç yanlış yapılmamış soru
+  masteredUnique: number;   // accuracy >= MASTERY_THRESHOLD olan çözülmüş soru
+  totalAttempts: number;    // Toplam cevaplama (tekrarlar dahil)
+  totalCorrects: number;
+  totalIncorrects: number;
+  accuracy: number;         // 0-100 (genel doğruluk)
+  coverage: number;         // 0-100 (solvedUnique / bankTotal)
+  weakCount: number;        // En az 2 deneme & accuracy < %50
+  byLesson: LessonStat[];   // solved desc sıralı
+  topLessonBySolved: LessonStat | null;
+  topUnitBySolved: UnitStat | null;
+  difficulty: { easy: number; medium: number; hard: number }; // çözülmüş sorular arası
+  mastery: { untouched: number; weak: number; learning: number; mastered: number };
+  wrongChoiceDist: Record<OptionKey, number>; // Yanlış cevaplarda seçilen şık dağılımı
+};
+
+/**
+ * Soru bankası + istatistik haritasından kapsamlı genel bakış üretir.
+ * Saf fonksiyon — DOM/localStorage erişimi yoktur (stats parametre olarak gelir).
+ */
+export function computeOverviewStats(questions: Question[], stats: StatsMap): OverviewStats {
+  const bankTotal = questions.length;
+
+  const lessonMap = new Map<string, LessonStat>();
+  const unitMap = new Map<string, UnitStat>();
+
+  let solvedUnique = 0;
+  let wrongEverUnique = 0;
+  let perfectUnique = 0;
+  let masteredUnique = 0;
+  let totalAttempts = 0;
+  let totalCorrects = 0;
+
+  const difficulty = { easy: 0, medium: 0, hard: 0 };
+  const mastery = { untouched: 0, weak: 0, learning: 0, mastered: 0 };
+  const wrongChoiceDist: Record<OptionKey, number> = { A: 0, B: 0, C: 0, D: 0, E: 0 };
+
+  for (const q of questions) {
+    // Ders kümeleme
+    let ls = lessonMap.get(q.lesson);
+    if (!ls) {
+      ls = { lesson: q.lesson, total: 0, solved: 0, attempts: 0, corrects: 0, accuracy: 0, coverage: 0 };
+      lessonMap.set(q.lesson, ls);
+    }
+    ls.total++;
+
+    // Ünite kümeleme
+    const unitKey = `${q.lesson} ${q.unit}`;
+    let us = unitMap.get(unitKey);
+    if (!us) {
+      us = { lesson: q.lesson, unit: q.unit, total: 0, solved: 0, attempts: 0, corrects: 0, accuracy: 0 };
+      unitMap.set(unitKey, us);
+    }
+    us.total++;
+
+    const s = stats[q.id];
+    if (!s || s.attempts <= 0) {
+      mastery.untouched++;
+      continue;
+    }
+
+    // Çözülmüş soru
+    solvedUnique++;
+    totalAttempts += s.attempts;
+    totalCorrects += s.corrects;
+    ls.solved++; ls.attempts += s.attempts; ls.corrects += s.corrects;
+    us.solved++; us.attempts += s.attempts; us.corrects += s.corrects;
+
+    const incorrects = s.attempts - s.corrects;
+    const rate = s.corrects / s.attempts;
+
+    if (incorrects > 0) wrongEverUnique++;
+    else perfectUnique++;
+
+    if (rate >= MASTERY_THRESHOLD) { masteredUnique++; mastery.mastered++; }
+    else if (rate < WEAK_THRESHOLD) mastery.weak++;
+    else mastery.learning++;
+
+    // Zorluk (accuracy bazlı statik puan)
+    const label = difficultyLabel(accuracyToDifficulty(s.corrects, s.attempts));
+    difficulty[label]++;
+
+    // Yanlış şık dağılımı
+    for (const w of s.wrongChoices ?? []) {
+      const k = w.selected as OptionKey;
+      if (k in wrongChoiceDist) wrongChoiceDist[k]++;
+    }
+  }
+
+  // Ders accuracy/coverage hesapla
+  const byLesson = Array.from(lessonMap.values()).map(l => ({
+    ...l,
+    accuracy: Math.round((l.corrects / Math.max(1, l.attempts)) * 100),
+    coverage: Math.round((l.solved / Math.max(1, l.total)) * 100),
+  })).sort((a, b) => b.solved - a.solved || b.attempts - a.attempts);
+
+  const units = Array.from(unitMap.values()).map(u => ({
+    ...u,
+    accuracy: Math.round((u.corrects / Math.max(1, u.attempts)) * 100),
+  }));
+
+  const topLessonBySolved = byLesson.find(l => l.solved > 0) ?? null;
+  const topUnitBySolved = units
+    .filter(u => u.solved > 0)
+    .sort((a, b) => b.solved - a.solved || b.attempts - a.attempts)[0] ?? null;
+
+  const totalIncorrects = totalAttempts - totalCorrects;
+
+  return {
+    bankTotal,
+    solvedUnique,
+    unsolvedUnique: bankTotal - solvedUnique,
+    wrongEverUnique,
+    perfectUnique,
+    masteredUnique,
+    totalAttempts,
+    totalCorrects,
+    totalIncorrects,
+    accuracy: Math.round((totalCorrects / Math.max(1, totalAttempts)) * 100),
+    coverage: Math.round((solvedUnique / Math.max(1, bankTotal)) * 100),
+    weakCount: getWeakQuestionIdsFromMap(stats).length,
+    byLesson,
+    topLessonBySolved,
+    topUnitBySolved,
+    difficulty,
+    mastery,
+    wrongChoiceDist,
+  };
+}
+
+/** getWeakQuestionIds'in saf (parametreli) varyantı — overview için. */
+function getWeakQuestionIdsFromMap(stats: StatsMap, minAttempts = 2, maxCorrectRate = 0.5): string[] {
+  return Object.entries(stats)
+    .filter(([, stat]) => stat.attempts >= minAttempts && (stat.corrects / stat.attempts) < maxCorrectRate)
+    .map(([id]) => id);
 }
 
 // ─── CLOUD SYNC ─────────────────────────────────────────────────────────────
@@ -411,94 +489,177 @@ export function setSyncUserId(userId: string | null): void {
   currentSyncUserId = userId;
 }
 
-/** Local stats'ı cloud'a push eder (wrongChoices + FSRS alanları dahil).
- *  @returns Her soru için anında push sonucu (başarılı/başarısız batch detayı). */
+/** Pending sync varlığını kontrol eder — UI göstergesi için. */
+export function hasPendingSync(): boolean {
+  return localStorage.getItem(PENDING_SYNC_KEY) === '1';
+}
+
+/** Sync state değiştiğinde React katmanını bilgilendirmek için custom event. */
+function notifySyncStatus(): void {
+  try { window.dispatchEvent(new CustomEvent('dus:sync-status')); } catch { /* noop */ }
+}
+
+/** Local stats + activity_log + streak'i cloud'a push eder.
+ *  @returns Soru istatistikleri için push sonucu (kısmi başarı raporlanır). */
 export async function syncStatsUp(): Promise<PushStatsResult> {
   const deviceId = getDeviceId();
   const stats = loadAllStats();
-  const payload: Record<string, {
-    attempts: number; corrects: number; lastSeen: string; wrongChoices?: WrongChoice[];
-    stability?: number; difficulty?: number; lastReview?: string; scheduledDays?: number; fsrsReps?: number;
-  }> = {};
-  for (const [id, s] of Object.entries(stats)) {
-    payload[id] = {
-      attempts: s.attempts,
-      corrects: s.corrects,
-      lastSeen: s.lastSeen,
-      wrongChoices: s.wrongChoices ?? [],
-      stability: s.stability,
-      difficulty: s.difficulty,
-      lastReview: s.lastReview,
-      scheduledDays: s.scheduledDays,
-      fsrsReps: s.fsrsReps,
-    };
+  const userId = currentSyncUserId ?? undefined;
+
+  // Soru istatistikleri
+  const result = await pushStatsToCloud(deviceId, stats, userId);
+
+  // Activity log + streak — yalnızca giriş yapılmışsa
+  if (userId) {
+    await Promise.allSettled([
+      pushUserData(userId, 'activity_log', loadActivityLog()).catch(e =>
+        console.warn('[syncStatsUp] activity_log push:', e)
+      ),
+      pushUserData(userId, 'streak', loadStreak()).catch(e =>
+        console.warn('[syncStatsUp] streak push:', e)
+      ),
+    ]);
   }
-  return pushStatsToCloud(deviceId, payload, currentSyncUserId ?? undefined);
+
+  return result;
 }
 
 /** Cloud'dan TÜM stats'ı çekip localState ile birleştirir.
  *  MAX-MERGE: Her alan için cloud ve local'den en güncel/yüksek olan alınır.
- *  FSRS state için lastReview en yeni olan kazanır; tie-break: attempts.
+ *  Kazanan lastSeen en yeni olan; tie-break: attempts.
  *  Local'de olup cloud'da olmayan sorular korunur.
  */
+/**
+ * Cloud'dan TÜM verileri çekip local state ile birleştirir.
+ * Soru istatistikleri + activity_log + streak paralel olarak sync edilir.
+ * MAX-MERGE prensibi: her alan için en yüksek/en güncel değer alınır, veri kaybı sıfır.
+ */
 export async function syncStatsDown(): Promise<void> {
-  // FIX: currentSyncUserId null ise cloud pull yapma (tek kullanıcılı sistem)
   if (!currentSyncUserId) return;
 
-  // FIX: Bekleyen push varsa önce onu dene
+  // Bekleyen push varsa önce onu dene
   if (localStorage.getItem(PENDING_SYNC_KEY) === '1') {
     try {
       await syncStatsUp();
       localStorage.removeItem(PENDING_SYNC_KEY);
-    } catch {
-      // Hala başarısız — local veriyle devam et
+    } catch { /* local veriyle devam et */ }
+  }
+
+  // Tüm cloud verilerini paralel çek
+  const [cloudStatsResult, cloudActivityResult, cloudStreakResult] = await Promise.allSettled([
+    pullAllDeviceStats(currentSyncUserId),
+    pullUserData(currentSyncUserId, 'activity_log'),
+    pullUserData(currentSyncUserId, 'streak'),
+  ]);
+
+  // ── Soru istatistikleri merge ──────────────────────────────────────────────
+  if (cloudStatsResult.status === 'fulfilled') {
+    const allCloudStats = cloudStatsResult.value;
+    if (Object.keys(allCloudStats).length > 0) {
+      const localStats = loadAllStats();
+      const merged: StatsMap = { ...localStats };
+      for (const [id, cloud] of Object.entries(allCloudStats)) {
+        const local = localStats[id];
+        const cloudSeen = cloud.lastSeen ?? '';
+        const localSeen = local?.lastSeen ?? '';
+        const cloudWins = !local || cloudSeen > localSeen ||
+          (cloudSeen === localSeen && cloud.attempts > (local?.attempts ?? 0));
+        const attempts = Math.max(cloud.attempts, local?.attempts ?? 0);
+        const corrects = Math.max(cloud.corrects, local?.corrects ?? 0);
+        merged[id] = {
+          attempts,
+          corrects,
+          lastSeen: [cloudSeen, localSeen].sort().reverse()[0],
+          difficulty: (cloudWins ? cloud.difficulty : local?.difficulty) ?? accuracyToDifficulty(corrects, attempts),
+          wrongChoices: mergeWrongChoices(local?.wrongChoices ?? [], cloud.wrongChoices ?? []),
+        };
+      }
+      localStorage.setItem(STATS_KEY, JSON.stringify(merged));
+      // Fallback: cloud'da activity_log yoksa lastSeen'den tahmin et
+      if (cloudActivityResult.status === 'rejected' || cloudActivityResult.value == null) {
+        _mergeActivityFromStats(merged);
+      }
     }
   }
 
-  const allCloudStats = await pullAllDeviceStats(currentSyncUserId);
-  const localStats = loadAllStats();
-
-  // Cloud boşsa local'i koru (ilk sync, offline vb.)
-  if (Object.keys(allCloudStats).length === 0) return;
-
-  const merged: StatsMap = { ...localStats };
-  for (const [id, cloud] of Object.entries(allCloudStats)) {
-    const local = localStats[id];
-    const cloudLR = cloud.lastReview ?? '';
-    const localLR = local?.lastReview ?? '';
-
-    // lastReview bazlı kazanan seç (FSRS state bütünlüğü için)
-    const cloudWins = !local || cloudLR > localLR ||
-      (cloudLR === localLR && cloud.attempts > (local?.attempts ?? 0));
-
-    const cloudWrong = cloud.wrongChoices ?? [];
-    const localWrong = local?.wrongChoices ?? [];
-    const mergedWrong = mergeWrongChoices(localWrong, cloudWrong);
-
-    const computedNextReview = (cloudWins ? cloud.lastReview : local?.lastReview)
-      ? addDays(
-          (cloudWins ? cloud.lastReview : local?.lastReview) ?? todayStr(),
-          (cloudWins ? cloud.scheduledDays : local?.scheduledDays) ?? 1
-        )
-      : todayStr();
-
-    merged[id] = {
-      attempts: Math.max(cloud.attempts, local?.attempts ?? 0),
-      corrects: Math.max(cloud.corrects, local?.corrects ?? 0),
-      lastSeen: [cloud.lastSeen, local?.lastSeen ?? ''].sort().reverse()[0],
-      easeFactor: local?.easeFactor ?? 2.5,
-      interval: local?.interval ?? 1,
-      repetitions: local?.repetitions ?? 0,
-      nextReview: computedNextReview,
-      stability: cloudWins ? cloud.stability : local?.stability,
-      difficulty: cloudWins ? cloud.difficulty : local?.difficulty,
-      lastReview: cloudWins ? cloud.lastReview : local?.lastReview,
-      scheduledDays: cloudWins ? cloud.scheduledDays : local?.scheduledDays,
-      fsrsReps: cloudWins ? cloud.fsrsReps : local?.fsrsReps,
-      wrongChoices: mergedWrong,
-    };
+  // ── Activity log merge ─────────────────────────────────────────────────────
+  if (cloudActivityResult.status === 'fulfilled' && cloudActivityResult.value != null) {
+    const cloudLog = cloudActivityResult.value as ActivityLog;
+    const localLog = loadActivityLog();
+    const mergedLog: ActivityLog = { ...localLog };
+    for (const [date, cloudRaw] of Object.entries(cloudLog)) {
+      const cloud = normalizeActivity(cloudRaw as number | DailyActivity);
+      const local = normalizeActivity(localLog[date]);
+      // Her tarih için MAX al — iki cihazda aynı gün çalışıldıysa büyük olanı tut
+      if (cloud.total > local.total) {
+        mergedLog[date] = {
+          total: cloud.total,
+          correct: Math.max(cloud.correct, local.correct),
+          incorrect: Math.max(cloud.incorrect, local.incorrect),
+          byLesson: { ...local.byLesson, ...cloud.byLesson },
+        };
+      }
+    }
+    localStorage.setItem(ACTIVITY_KEY, JSON.stringify(mergedLog));
   }
-  localStorage.setItem(STATS_KEY, JSON.stringify(merged));
+
+  // ── Streak merge ───────────────────────────────────────────────────────────
+  if (cloudStreakResult.status === 'fulfilled' && cloudStreakResult.value != null) {
+    const cloud = cloudStreakResult.value as StreakData;
+    const local = loadStreak();
+    // En güncel lastStudyDate'i tut; longestStreak max al
+    const useCloud = !local.lastStudyDate || (cloud.lastStudyDate ?? '') >= local.lastStudyDate;
+    const merged: StreakData = {
+      currentStreak: useCloud ? cloud.currentStreak : local.currentStreak,
+      lastStudyDate: useCloud ? cloud.lastStudyDate : local.lastStudyDate,
+      longestStreak: Math.max(cloud.longestStreak ?? 0, local.longestStreak),
+    };
+    localStorage.setItem(STREAK_KEY, JSON.stringify(merged));
+  }
+}
+
+/**
+ * Soru istatistiklerinin `lastSeen` değerlerini tarayarak aktivite logunu günceller.
+ * Cross-device sync sonrasında çağrılır; yerel loga yansımayan günlerin sayacını düzeltir.
+ * Sadece artış yönünde günceller (mevcut sayıyı asla düşürmez).
+ */
+function _mergeActivityFromStats(stats: StatsMap): void {
+  const log = loadActivityLog();
+
+  // Her tarih için kaç benzersiz soru "son görüldü" — alt sınır tahmini
+  const perDate: Record<string, { total: number; wrong: number }> = {};
+  for (const s of Object.values(stats)) {
+    if (!s.lastSeen) continue;
+    const date = s.lastSeen.split('T')[0]; // YYYY-MM-DD
+    if (!perDate[date]) perDate[date] = { total: 0, wrong: 0 };
+    perDate[date].total += 1;
+  }
+
+  // wrongChoices zaman damgalarından günlük yanlış sayısını çıkar
+  for (const s of Object.values(stats)) {
+    for (const wc of s.wrongChoices ?? []) {
+      if (!wc.timestamp) continue;
+      const date = wc.timestamp.split('T')[0];
+      if (!perDate[date]) perDate[date] = { total: 0, wrong: 0 };
+      perDate[date].wrong += 1;
+    }
+  }
+
+  let modified = false;
+  for (const [date, counts] of Object.entries(perDate)) {
+    const existing = normalizeActivity(log[date]);
+    if (counts.total > existing.total) {
+      const wrong = Math.min(counts.wrong, counts.total);
+      log[date] = {
+        total: counts.total,
+        correct: Math.max(existing.correct, counts.total - wrong),
+        incorrect: Math.max(existing.incorrect, wrong),
+        byLesson: existing.byLesson,
+      };
+      modified = true;
+    }
+  }
+  if (modified) localStorage.setItem(ACTIVITY_KEY, JSON.stringify(log));
 }
 
 export function mergeWrongChoices(a: WrongChoice[], b: WrongChoice[]): WrongChoice[] {
@@ -522,10 +683,16 @@ function debouncedSyncUp(): void {
   if (syncTimer) clearTimeout(syncTimer);
   syncTimer = setTimeout(() => {
     syncTimer = null;
-    syncStatsUp().catch(err => {
-      console.warn('[debouncedSyncUp] Sync hatası:', err);
-      localStorage.setItem(PENDING_SYNC_KEY, '1');
-    });
+    syncStatsUp()
+      .then(() => {
+        localStorage.removeItem(PENDING_SYNC_KEY);
+        notifySyncStatus();
+      })
+      .catch(err => {
+        console.warn('[debouncedSyncUp] Sync hatası:', err);
+        localStorage.setItem(PENDING_SYNC_KEY, '1');
+        notifySyncStatus();
+      });
   }, 5000);
 }
 
@@ -538,20 +705,64 @@ class SyncManagerImpl {
     try {
       await syncStatsUp();
       localStorage.removeItem(PENDING_SYNC_KEY);
+      notifySyncStatus();
     } catch (err) {
       console.warn('[SyncManager] Push başarısız:', err);
       localStorage.setItem(PENDING_SYNC_KEY, '1');
+      notifySyncStatus();
     }
   }
 }
 
 export const SyncManager = new SyncManagerImpl();
 
-/** Tüm istatistikleri tamamen sıfırlar: localStorage + cloud + FSRS migration flag. */
+/**
+ * Uygulama mount'unda bir kez çağrılır.
+ * - visibilitychange: sekme gizlenince timer'daki bekleyen sync'i anında gönderir
+ * - online: ağ geri gelince pending sync'i yeniden dener
+ * Cleanup fonksiyonu döner (React useEffect return).
+ */
+export function setupSyncHandlers(): () => void {
+  const handleVisibility = () => {
+    if (document.visibilityState !== 'hidden') return;
+    // Debounce timer'ı iptal et ve anında gönder (tab kapatılma / sayfa geçişi)
+    if (syncTimer) {
+      clearTimeout(syncTimer);
+      syncTimer = null;
+      syncStatsUp()
+        .then(() => {
+          localStorage.removeItem(PENDING_SYNC_KEY);
+          notifySyncStatus();
+        })
+        .catch(() => {
+          localStorage.setItem(PENDING_SYNC_KEY, '1');
+          notifySyncStatus();
+        });
+    }
+  };
+
+  const handleOnline = () => {
+    if (localStorage.getItem(PENDING_SYNC_KEY) !== '1') return;
+    syncStatsUp()
+      .then(() => {
+        localStorage.removeItem(PENDING_SYNC_KEY);
+        notifySyncStatus();
+      })
+      .catch(() => { /* bir sonraki online event'te tekrar dener */ });
+  };
+
+  document.addEventListener('visibilitychange', handleVisibility);
+  window.addEventListener('online', handleOnline);
+
+  return () => {
+    document.removeEventListener('visibilitychange', handleVisibility);
+    window.removeEventListener('online', handleOnline);
+  };
+}
+
+/** Tüm istatistikleri tamamen sıfırlar: localStorage + cloud. */
 export async function resetAllStats(): Promise<void> {
   localStorage.removeItem(STATS_KEY);
-  localStorage.removeItem(STATS_SM2_BACKUP_KEY);
-  localStorage.removeItem(MIGRATION_FLAG_KEY);
   localStorage.removeItem(STREAK_KEY);
   localStorage.removeItem(ACTIVITY_KEY);
   await clearDeviceStats(getDeviceId(), currentSyncUserId ?? undefined);
