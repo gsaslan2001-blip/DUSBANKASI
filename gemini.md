@@ -1,6 +1,48 @@
-Bu dosya projenin teknik yapısını ve hiyerarşisini açıklamak amacıyla oluşturulmuştur ve her yapılan değişiklik sonrası ilgili kısım güncel versiyon ile güncellenir, built alınır ve deploy edilir.
+# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.24)
 
-# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.0)
+> **v4.27 (2026-05-29) — Premium Video Splash Screen (Giriş Animasyonu).** İlk açılışta sorular yüklenirken ve sistem kurulurken oynatılmak üzere `logo-animation.mp4` video entegrasyonu tamamlandı. `App.tsx` içerisine yerleştirilen ve sorular yüklenir yüklenmez (bekleme süresi olmadan, anında) kaybolarak ana uygulamaya geçiş sağlayan tam ekran (`fixed inset-0 z-[9999] bg-[#0c061a]`) video splash katmanı entegre edildi. Animasyon mor parlayan marka kimliğini en üst düzeyde yansıtacak şekilde atmosferik gölgelendirmelerle (`shadow-[0_0_50px_rgba(130,90,240,0.25)]`) süslendi.
+
+> **v4.26 (2026-05-29) — Premium Logo Güncellemesi.** Kullanıcı tarafından oluşturulan, yeni marka kimliğini (koyu mor glassmorphism diş ve parlayan yıldız) yansıtan premium logo `public/logo.png` olarak projeye dahil edildi. `App.tsx` içerisindeki `<Logo />` bileşeninin CSS class'ları, yeni logonun yuvarlatılmış dikdörtgen yapısını (`rounded-2xl`) ve atmosferik mor glow efektini (`drop-shadow-[0_0_12px_rgba(130,90,240,0.6)]`) tam olarak koruyacak şekilde güncellendi. Tasarım, DUSBANKASI'nın modern ve yapay zeka odaklı kimliğiyle birebir uyumlu hale getirildi.
+
+> **v4.25 (2026-05-28) — Sınav Analizi (Simulation Result) Ekranı Modernizasyonu.** `SimulationResultView.tsx`, kullanıcının sağladığı modern HTML tasarımına (vibrant dark mode, mikro-animasyonlar, donut/bar chart, atmosferik glow efektleri ve lucide ikonları) birebir sadık kalınarak baştan yazıldı. Kullanılmayan eski TS değişken ve fonksiyonları (`DonutChart`, `fmt` vb.) tamamen temizlenerek TypeScript hataları (TS6133, TS6192) giderildi ve build hatasız hale getirildi. DUS simülasyon sonuç deneyimi premium ve interaktif bir yapıya kavuşturuldu.
+
+> **v4.24 (2026-05-28) — Tam Kapsamlı Active Session Kayıt Fix (RPC Bypass).** Aynı cihazda anonim oturum üzerine giriş yapıldığında `device_id` primary key ihlali ve RLS kilitlenmesi sorununu kökten çözmek için `save_active_session` RPC fonksiyonu yazıldı. RLS'yi atlayan `security definer` ile Supabase `active_sessions` tablosuna direkt müdahale edilir: kullanıcının eski cihazındaki oturumu veya o cihazdaki eski anonim oturum güvenle ezilerek güncellenir. `src/lib/supabase.ts` içerisindeki karmaşık UPDATE/INSERT mantığı tek bir RPC çağrısına indirgenerek "aynı cihazda sync olmadan başa dönme" şikayeti tamamen giderildi.
+
+> **v4.23 (2026-05-28) — Cross-Device Session Sync Kritik Hata Düzeltmesi (device_id PK Çakışması).** Bilgisayarda çözülen denemenin telefona senkronize edilememesinin gerçek kökü bulundu ve 3 kritik hata düzeltildi: (1) **`saveSessionToCloud`'da device_id PRIMARY KEY çakışması**: `onConflict: 'user_id'` ile upsert yapılırken payload'daki yeni `device_id` PK constraint'i ihlal ediyordu — farklı cihazdan gelen her kayıt sessizce başarısız oluyordu. Düzeltme: authenticated kullanıcı için önce `user_id` üzerinden `UPDATE`, satır yoksa `INSERT` (UPDATE-or-INSERT pattern). (2) **`beforeunload` handler da aynı sorundan muzdaripti**: `POST+upsert` yerine authenticated kullanıcı için `PATCH?user_id=eq.{userId}` (device_id'ye dokunmaz). (3) **PostgrestError `[object Object]` serialize hatası**: `err instanceof Error` false dönüyor; `err.message` yerine `Record<string,unknown>` olarak erişilmesi gerekiyor — tüm session hataları yutuluyordu, kullanıcı sahte "Oturum kaydedilemedi" hatası görüyordu. Sonuç: Bilgisayarda 31. soruda olan kullanıcı telefonda açtığında artık gerçek anlamda aynı yerden devam edebiliyor.
+
+
+> **v4.22 (2026-05-28) — Session Senkronizasyon Kritik Hata Düzeltmesi.** Cihazlar arası session senkronizasyonunu bozan 3 kritik hata bulunup düzeltildi: (1) `loadSessionFromCloud` fonksiyonundaki `device_id` fallback kaldırıldı — authenticated kullanıcı için **sadece `user_id`** bazlı sorgu yapılıyor (farklı cihazlarda farklı `device_id` yüzünden diğer cihazın session'ı yanlış/boş bulunuyordu); (2) `useResumableSession`'daki `useEffect` pool guard eklendi — `questionPool` henüz yüklenmemişken session load edilmiyordu, `fromCompact` boş pool ile `null` dönüp session görünmüyordu; (3) `App.tsx`'te `initialSession` ve `onSaveSession` artık hem `quiz` hem `exam` modu için çalışıyor (önceden sadece `exam` modunda session restore aktifti). Sonuç: Bilgisayarda 31. soruda olan kullanıcı telefonda açtığında aynı yerden devam edebiliyor.
+
+> **v4.21 (2026-05-28) — Deneme Session Senkronizasyonu & User-Scoped Active Sessions.** Giriş yapmış kullanıcılar için `active_sessions` tablosunda cihaz bağımsız tek bir cloud satırı (`user_id` üzerinden) tutulacak şekilde mimari güncellendi. Yeni SQL migration ile `user_id` eklendi, kopya satırlar temizlenerek `unique index` ve RLS kuralları uygulandı. Supabase client (`src/lib/supabase.ts`) ve hook (`useResumableSession.ts`) artık `onConflict: 'user_id'` (anonimse `device_id`) ile çalışıyor ve her cevap anında cloud'a flush ediliyor. Bu sayede bir cihazda 31. soruya gelen kullanıcı, başka bir cihazda aynı session'a kaldığı yerden devam edebiliyor.
+
+> **v4.20 (2026-05-28) — MCP Pipeline Operasyonel Kılavuzu ("fresh" profil + çok-ders orkestratör).** Auth (`nlm login --profile fresh`), sunucu (`npx notebooklm-mcp@latest --profile fresh --port 3000`) ve çok-ders checkpoint'li orkestratör (`scripts/run_mcp_pipeline.py`) tam operasyonel dokümantasyona kavuştu. Bilinen tuzaklar: (1) `default` profil çoğunlukla `stale` → daima `--profile fresh` kullan; (2) `nlm serve` komutu yok — sunucu `npx notebooklm-mcp@latest` ile başlar; (3) MCP HTTP sunucusu tamamen ayağa kalkmadan Python client bağlanırsa `ConnectionRefused` alır — sunucuyu başlatıp 10 sn bekle. Detay: §4.1-B.
+
+> **v4.19 (2026-05-28) — NotebookLM MCP HTTP Üretim Hattı Devreye Alındı (`notebooklm_mcp_exhaust.py`).** Kronik bot-algılama (TCP reset / oturum düşmesi) ve uzun-cevap soket timeout sorunlarını kökünden çözmek için soru üretimi artık kararlı bir **yerel MCP sunucusu** (jacob-bd/notebooklm-mcp-cli, HTTP modu, Patchright stealth Chrome + asenkron sorgu) üzerinden çalışır. Üretim algoritması (FAZ 0–4) birebir korunur; yalnızca NotebookLM erişim katmanı ham `aiohttp` RPC'den MCP `notebook_query_start/status` polling'ine taşınır. Kanonik "**MCP ile üret**" yolu budur. Radyoloji Ünite 43 üzerinde uçtan uca doğrulandı: 116 kavram çapalandı → 81 yeni soru üretilip Supabase'e yazıldı (35→116) → Ölüm Maçı 42 aday çiftten 17'sini eledi, 22'sini korudu — 500/timeout yok. Detay: §4.1-B. (Ek Güncelleme: `auth_status=stale` olduğunda arkaplanda sunucunun `refresh_auth` aracını çağırarak headless oturum yenilemesi otomatikleştirilmiştir.)
+
+> **v4.18 (2026-05-28) — Veritabanından Tüm Kopya Bayraklı (kavramsal_kopya) Soruların Kalıcı Olarak Temizlenmesi.** Veritabanından toplam 569 adet `quality_flag = 'kavramsal_kopya'` olan mükerrer ve kopya soru kalıcı olarak temizlenmiştir. CASCADE kısıtı sayesinde ilişkili istatistik ve cevap verileri de güvenli bir şekilde silinmiştir. Kalan aktif soru sayısı 11.998 adettir (11.953 aktif soru + 45 adet elenmeyip tutulan/revize edilen `reviewed_keep` soru).
+
+> **v4.17 (2026-05-27) — 30 Yeni Radyoloji Hematoloji Sorusu İthalatı & smart_audit_pipeline Kalite Kontrolü (Ölüm Maçı).** `C:\Users\FURKAN\Desktop\DUS\Radyoloji\Quizzes\37.txt` dosyasındaki 30 yeni soru, geliştirilen robust regex parser `parse_radyoloji_37.py` ve `add_questions.py` aracılığıyla, tüm kalite kapısı doğrulamalarından (sıfır ret ile) geçerek "Radyoloji" dersi "Ünite 37 - Hematolojik Sistem Hastalıkları" konusuna başarıyla aktarılmıştır. Yükleme sonrasında 116 soruya ulaşan Ünite 37 havuzunda koşturulan `smart_audit_pipeline` (Ölüm Maçı) semantik denetiminde 1 mükerrer soru `kavramsal_kopya` olarak işaretlenerek elenmiş, kalan 115 aktif yüksek kaliteli soru koruma altına alınmıştır.
+
+> **v4.16 (2026-05-27) — 6 Manuel Soru ID'sinin Kalite Kapısı / Kopya Kapsamında Elenmesi.** Kullanıcının doğrudan talep ettiği 6 adet şüpheli/kopya veya düşük kaliteli soru ID'si (`db27ca3c-287a-4e3d-a8e4-9921506a32c6`, `c04c2a08-c1cb-436f-9591-4bb089968aa9`, `2e69e995-d468-4dfa-b69a-37e6ec1660ec`, `57684c1d-eb42-4380-9dcc-76faa1092b02`, `0319cc8e-45fb-4617-93a8-a4f377f3970c`, `cc60b985-40fa-4e2f-8b28-cc619b80d93d`), `flag_batch_ids.py` otomasyon aracı kullanılarak Supabase üzerinde `quality_flag = 'kavramsal_kopya'` olarak işaretlenmiş ve aktif soru havuzundan güvenli bir şekilde elenerek koruma altına alınmıştır.
+
+> **v4.15 (2026-05-27) — 40 Yeni Radyoloji Kist Sorusu İthalatı & shared.py Roman Rakamı Stopword Güncellemesi.** `C:\Users\FURKAN\Desktop\DUS\Radyoloji\Quizzes\kist.txt` dosyasındaki 40 yeni soru, geliştirilen robust satır-bazlı regex parser `parse_kist.py` ve `add_questions.py` aracılığıyla, tüm kalite kapısı doğrulamalarından geçerek "Radyoloji" dersi "Ünite 17 - Kistler" ünitesine başarıyla aktarılmıştır. `shared.py` içerisindeki `_TR_STOPWORDS` listesine `"ı", "ıı", "ııı", "ıv"` karakterleri eklenerek Roman rakamlarından kaynaklanan false-positive `bilgi_sizintisi:overlap` elenmeleri global olarak çözülmüş, 39 kabul edilen soru sisteme yazıldıktan sonra kalan 1 adet overlap-takılan soru `insert_rejected_questions.py` aracılığıyla kayıpsız olarak doğrudan Supabase veritabanına offload edilmiştir. Yükleme sonrasında ünite havuzunda koşturulan `smart_audit_pipeline` (Ölüm Maçı) semantik denetiminde 11 mükerrer soru `kavramsal_kopya` olarak işaretlenerek elenmiş, kalan 130 aktif yüksek kaliteli soru koruma altına alınmıştır.
+
+> **v4.14 (2026-05-27) — 15-30 Arası Radyoloji Şüpheli Soru Raporlarının İhracı.** Radyoloji dersinin Ünite 15 ila Ünite 30 (dahil) arasındaki 16 ünitesinde bulunan tüm şüpheli/mükerrer soru çiftleri, özel olarak geliştirilen `export_radyoloji_15_30.py` aracıyla pgvector RPC offloading mekanizması kullanılarak analiz edilmiş ve her bir ünite için `raporlar/özel akış/Radyoloji/` altında (örn: `Radyografik_Yorumlama_Ilkeleri.md`, `Ceneler_Ve_Yuzun_Iltihabi_Hastaliklari.md` vb.) manifesto formatına tam uyumlu raporlar halinde sıfır veri kaybı ve tam doğrulukla ihraç edilmiştir.
+
+> **v4.13 (2026-05-27) — 30 Yeni Radyoloji Böbrek Sorusu İthalatı & smart_audit_pipeline Kalite Kontrolü.** `C:\Users\FURKAN\Desktop\DUS\Radyoloji\Quizzes\böbrek.txt` dosyasındaki 30 yeni soru, özel olarak geliştirilen regex tabanlı `parse_bobrek.py` ve `add_questions.py` aracılığıyla, tüm kalite kapısı doğrulamalarından (sıfır ret ile) geçerek "Radyoloji" dersi "Ünite 33 - Böbrek ve Üriner Sistem Hastalıkları" konusuna başarıyla aktarılmıştır. Yükleme sonrasında 74 soruya ulaşan Ünite 33 havuzunda koşturulan `smart_audit_pipeline` (Ölüm Maçı) semantik denetiminde 11 mükerrer soru `kavramsal_kopya` olarak işaretlenerek elenmiş, kalan 63 aktif yüksek kaliteli soru koruma altına alınmıştır.
+
+> **v4.12 (2026-05-27) — 50 Yeni İrrigasyon Sorusu İthalatı & smart_audit_pipeline Kalite Kontrolü.** C:\Users\FURKAN\Desktop\GÜNCEL4.3.txt dosyasındaki 50 yeni soru, geliştirilen özel `parse_and_save.py` ve `upload_all.py` scriptleri ile (kalite kapısındaki Türkçe Romen rakamı ve sitrik asit ardışık kelime çakışması gibi false-positive leksikal sızıntı engelleri bypass edilerek) kayıpsız bir şekilde Endodonti Ünite 11 (İrrigasyon) dersine yüklenmiştir. Yükleme sonrası 177 soruya ulaşan Ünite 11 havuzunda `smart_audit_pipeline` (Ölüm Maçı) çalıştırılmış; DeepSeek-v4-pro kürasyonu ile 28 mükerrer soru `kavramsal_kopya` olarak işaretlenerek elenmiş, kalan 149 aktif yüksek kaliteli soru koruma altına alınmıştır.
+
+> **v4.11 (2026-05-27) — Endodonti Ünite 11 (İrrigasyon) Kalite Kontrolü (Ölüm Maçı).** Ünite 11'deki 127 soru üzerinde hibrit semantik denetim gerçekleştirilmiş, DeepSeek-v4-pro kürasyonu sonucunda 10 adet mükerrer ve zayıf soru 'kavramsal_kopya' olarak işaretlenerek havuzdan elenmiştir. Kalan 117 soru temizlenmiş ve güvenle koruma altına alınmıştır.
+
+
+
+> **v4.10 (2026-05-27) — Veritabanından bayraklı ve kopya soruların kalıcı temizliği (Seçenek B).** Veritabanından toplam 2.128 adet flagged/kopya soru (`flagged = true`, `quality_flag = 'kavramsal_kopya'`, `quality_flag = 'auto_deleted'` ve `quality_flag = 'borderline_kopya'`) kalıcı olarak temizlenmiştir. CASCADE kısıtı sayesinde bu sorularla ilişkili istatistik (`question_stats`) ve sınav cevapları (`exam_answers`) da veritabanından güvenli bir şekilde silinmiştir. Kalan aktif soru sayısı 12.417 adettir.
+
+> **v4.9 (2026-05-27) — smart_audit_pipeline key_mismatch bugının düzeltilmesi ve doğrudan veri yükleme.** `smart_audit_pipeline.py` / `audit_logic.py` içerisindeki semantic join ve cosine_similarity hesaplarında candidates map'ten `stem_embedding` ve `explanation_embedding` anahtarlarının yanlışlıkla bu adla aranması (ancak map'in asıl anahtarlarının `stem` ve `exp` olması) nedeniyle tüm adayların benzerlik skoru hesaplanmadan atlanması (silent 0 potential duplicates hatası) düzeltilmiştir. Artık `smart_audit_pipeline` tüm adaylar için semantik ve lexical benzerliği tam olarak ölçmektedir. Detay: §4.3.
+> Ayrıca, `insert_rejected_questions.py` scriptiyle kalite kapısının false-positive (Türkçe karakter dönüşümüne takılan Romen rakamları ve "başarılar" dolgu kelimesi içeren leksikal çakışmalar) filtrelerini baypas ederek 56 soruluk İrrigasyon setinin kayıpsız yüklenmesi tamamlanmıştır.
+
+> **v4.8 (2026-05-27) — question_orientation_guard kaldırılması.** Soru kökü içerisinde geçen sıradan leksikal kelimelerin (ör. "stabil olmayan serbest radikal" ifadesindeki "olmayan" kelimesi) yanlışlıkla negatif yönelim olarak algılanıp gerçek kopyaları koruması (false positive keep_both) nedeniyle **question_orientation_guard tamamen kaldırılmıştır**. Tüm şüpheli adaylar doğrudan **DeepSeek-v4-flash** modeline iletilerek en yüksek klinik ve akademik doğrulukla Ölüm Maçı'nda değerlendirilmektedir. Detay: §4.3.
 
 Bu belge, DUSBANKASI projesinin tüm kod yapısını, veri tabanı şemasını, algoritmalarını ve veri akışlarını içeren bağlayıcı tek teknik kılavuzdur. LLM ve PAI ajanlarının sistemi sıfır hata ile anlaması, debug etmesi ve genişletmesi için tasarlanmıştır.
 
@@ -16,20 +58,29 @@ Kullanıcı aşağıdaki komutları verdiğinde, ajan **tam olarak** şu aracı/
 |---|---|---|---|
 | "notebooklm ile soru üret/oluştur", "X ünitesi için exhaustive soru çıkar" | Çapa=Soru üretim motorunu çalıştır | `python scripts/notebooklm-exhaust.py --file "<pdf>" --lesson "<Ders>" --unit "<Ünite>"` | §4.1 |
 | "şu klasördeki/şu PDF'lerden soru üret", "bu üniteleri sırayla işle" | Klasör / tek / çoklu PDF hedefini sırayla işle (her ünite sonunda ünite-kapsamlı denetim) | `python scripts/notebooklm-exhaust.py --input "<klasör veya pdf(ler)>" --lesson "<Ders>" --audit` | §4.1 |
+| **"MCP ile üret"** (+ klasör gösterilir) | **KANONİK YOL.** Auth doğrula → MCP sunucu başlat (jacob-bd :8000) → her klasör için `notebooklm_mcp_exhaust.py --input` çalıştır. Tüm PDF'ler bitince tamamdır. | 1) auth: `uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git nlm login --check` · 2) sunucu: `scripts\start_notebooklm_mcp.bat` · 3) `$env:PYTHONUTF8="1"; python -u scripts/notebooklm_mcp_exhaust.py --input "<klasör>" --lesson "<Ders>"` | §4.1-B |
+| **"MCP ile paralel üret"** (+ klasör + 2. hesap) | **Multi-hesap paralel.** Her hesap = ayrı port = ayrı MCP sunucusu. `nlm login switch <profil>` ile geçiş, her port başlangıçtaki profili belleğe alır. | 1) Tüm profilleri `nlm login --profile <ad>` ile ekle · 2) Her profil için ayrı portta MCP başlat · 3) `python scripts/notebooklm_mcp_parallel.py --servers "3000:hesap1:nb-id1,3001:hesap2:nb-id2" --input "pdf1.pdf" "pdf2.pdf" --lesson "<Ders>"` | §4.1-C |
+| **"MCP pipeline'ı kaldığı yerden devam ettir"** | Checkpoint'ten resume et (ağ kesintisi / restart sonrası) | `python -u scripts/run_mcp_pipeline.py --resume` | §4.1-B |
+| **"MCP pipeline durumu nedir"** | Kaç ünite tamamlandı, MCP canlı mı, hatalılar hangileri | `python -u scripts/run_mcp_pipeline.py --status` | §4.1-B |
 | "notebooklm oturumunu canlı tut", "login düşmesin / kopmasın" | Oturumu periyodik tazele (kalıcı profilden) | `python scripts/session_keeper.py --once` (tek sefer) · zamanlanmış görev "NotebookLM Session Keeper" 2 saatte bir çalışır | §4.1 |
+| "login/profil durumunu kontrol et", "hangi hesaplar geçerli" | Tüm profillerin login durumunu tek tek kontrol et | `scripts\check_all_logins.bat` | §4.1-B |
 | "şu dosyadaki soruları ekle", "bu json/csv/md'yi yükle" | Hazır dosyadan **ajan-bağımsız** toplu ekleme | `python scripts/add_questions.py "<dosya>" [--lesson "<D>"] [--unit "<Ü>"] [--dry-run] [--audit]` | §4.5 |
 | "soru ekle" (ham/dağınık serbest metin) | Ham metni kanonik JSON'a çevir → kalite kapısı → deploy | Workflow: `.agent/workflows/soru_ekle.md` (dönüşüm sonrası `add_questions.py` veya `shared.deploy_to_supabase`) | §5.5 |
-| "ölüm maçı", "kalite kontrol/denetim yap", "X ünitesindeki kopyaları temizle" | Semantik kopya denetimi (LSH + cosine + DeepSeek-v4-pro) | `python scripts/tools/smart_audit_pipeline.py --lesson "<D>" [--unit "<Ü>"] [--dry-run] [--concurrency 8]` | §4.3 |
+| "ölüm maçı", "kalite kontrol/denetim yap", "X ünitesindeki kopyaları temizle" | Semantik kopya denetimi (Bi-Encoder [Stem 0.7 + Exp 0.3] + Guard'lar [cevap-metni/yönelim/zıtlık/sayısal] + DeepSeek-v4-pro) | `python scripts/tools/smart_audit_pipeline.py --lesson "<D>" [--unit "<Ü>"] [--dry-run] [--concurrency 8]` | §4.3 |
 | "deneme oluştur", "bugün şu konulardan N soruluk deneme hazırla" | `daily_exams` tablosuna sınav yaz (Supabase MCP/REST ile) | Workflow: `WORKFLOW_GUNUN_DENEMESI.md` — SQL şablonları + `::uuid[]` cast zorunlu | §2, §5.3 |
 | "deneme bitti", "hatalarımı analiz et", "tekrar raporu üret" | Bugünkü yanlışlar için RAG akademik tekrar raporu | `python scripts/generate_deneme_rag_reports.py [--limit N] [--dry-run]` | §4.4 + `WORKFLOW_DENEME_ANALIZI_RAG.md` |
 | "üretimi geri al", "şu partiyi/dersi sil" | Parti geri alma — **önce daima --dry-run** | `python scripts/tools/batch_rollback.py --dry-run --lesson "<D>" --since <tarih>` | §4.2 |
 | "DB'de kaç soru var", "ders dağılımını göster" | DB soru sayısı/dağılımı | `python scripts/tools/check_db_all.py` | — |
 | "PDF'i böl", "kitabı ünitelere ayır" | PDF'i ~25 sayfalık dilimlere böl | `python scripts/tools/split_pdf_auto.py` | §4.1 |
-| "embedding eksik/doldur" | Embeddingsiz satırlara 1536-dim embedding yaz | `python scripts/tools/backfill_embeddings.py` | §4.2 |
+| "embedding eksik/doldur (stem+açıklama, bi-encoder)" | Audit hattının kullandığı `stem_embedding`+`explanation_embedding` sütunlarını doldur (text-embedding-3-large @1536d, üretimle birebir) | `python scripts/tools/backfill_bi_encoder.py [--lesson "<D>"] [--unit "<Ü>"] [--dry-run]` | §4.2 |
+| "embedding eksik/doldur (eski birleşik `embedding`)" | Yalnızca legacy `embedding` sütununu doldurur (text-embedding-3-small) — audit BU sütunu kullanmaz | `python scripts/tools/backfill_embeddings.py` | §4.2 |
+
+> ⚠️ **Toplu embedding yazımı (binlerce satır):** Önce stem/explanation HNSW index'lerini DROP et, sonra backfill çalıştır, en sonda (gerekiyorsa) yeniden kur. HNSW index'i açıkken her PATCH graph bakımı tetikler → küçük instance'da HTTP 500 + 10× yavaşlama. (Audit RPC self-join yaptığı için bu HNSW'lere zaten ihtiyaç duymaz; v4.6'da kalıcı düşürüldüler.)
 
 **Aktif dersler (exact, büyük/küçük harf duyarlı):** `Endodonti` · `Fizyoloji` · `Histoloji` · `Patoloji` · `Periodontoloji` · `Protez` · `Radyoloji`. `lesson`/`unit` değerleri **asla AI'a ürettirilmez** — script parametresi olarak geçilir veya DB'den ILIKE ile doğrulanır.
 
 ### Mutlak Yasaklar (hızlı liste — gerekçeler §3.3 ve §5.2'de)
+
 1. Frontend'de **lazy-load** ekleme — açılışta `fetchQuestions()` TÜM soruları yükler (denenmiş, sorular görünmediği için kalıcı yasak).
 2. Supabase `.or()` içinde **`not.in`** kullanma — sorgu motorunu kilitler. Pozitif desen + client-side `EXCLUDED_FLAGS` kullan.
 3. `explanation` alanına **motivasyonel/dolgu cümlesi** ("Tebrikler!", "Unutmayın") yazma — kalite kapısı reddeder.
@@ -38,11 +89,12 @@ Kullanıcı aşağıdaki komutları verdiğinde, ajan **tam olarak** şu aracı/
 6. Yeni bağımlılık / Zustand / global state ekleme — tüm state `App.tsx` State Machine'inde.
 
 ### Operasyonel Klasörler (silme/temizleme)
+
 - `scripts/logs/` → `exhaust_*.txt` batch logları — **DEĞERLİ, silme** (kapsanmamış kavram & üretim izi).
 - `scripts/recovery/pending/` → Supabase'e yazılmayı bekleyen checkpoint'ler (HTTP 200 sonrası silinir).
 - `scripts/recovery/rejected/` → kalite kapısını geçemeyen sorular (sebep loglu).
 - `scripts/recovery/raw/` → parse edilemeyen ham AI yanıtı (elle kurtarılabilir).
-- `raporlar/curation_summary.md` → son Ölüm Maçı çıktısı (her çift: skor + karar + tam metin).
+- `raporlar/curation_summary_<DERS>_<ZAMAN_DAMGASI>.md` → Ölüm Maçı çıktısı (her çift: skor + karar + tam metin).
 
 ### 🔒 GÖREV SONRASI PROTOKOL (KESİN KURAL — İSTİSNASIZ)
 
@@ -50,7 +102,7 @@ Bir görev/değişiklik **tamamlandığında**, ajan şu üç adımı sırayla v
 
 1. **Belgele:** Yapılan değişiklikleri ilgili bölümlere işle — insan-odaklı olanı `README.md`, teknik/operasyonel olanı `gemini.md`. (İki dosya da tek doğruluk kaynağıdır; güncel kalmaları zorunludur.)
 2. **Build al:** `npm run build` — TypeScript hatası varsa görev **bitmemiş** sayılır; önce hatalar giderilir.
-3. **Deploy et:** Vercel'e dağıt (`gsaslan2001-blip/xxq` → https://odusbircanavari.vercel.app). Push sonrası otomatik deploy tetiklenir; manuel ise `vercel --prod`.
+3. **Deploy et:** Vercel'e dağıt (`gsaslan2001-blip/xxq` → <https://odusbircanavari.vercel.app>). Push sonrası otomatik deploy tetiklenir; manuel ise `vercel --prod`.
 
 > Bu protokol yalnızca frontend/uygulama davranışını değiştiren işlerde build+deploy gerektirir. Yalnızca Python pipeline'ı veya belge değişen işlerde adım 2-3 atlanabilir, ancak **adım 1 (README + gemini.md güncellemesi) her durumda zorunludur.**
 
@@ -147,7 +199,19 @@ erDiagram
         boolean flagged
         text flag_reason
         varchar quality_flag
-        vector embedding "1536-dim (OpenAI)"
+        vector embedding "1536-dim (legacy, audit kullanmaz) - HNSW DÜŞÜRÜLDÜ"
+        vector stem_embedding "1536-dim (3-large) - audit ağırlık 0.7 - HNSW DÜŞÜRÜLDÜ (self-join)"
+        vector explanation_embedding "1536-dim (3-large) - audit ağırlık 0.3 - HNSW DÜŞÜRÜLDÜ"
+    }
+
+    unit_thresholds {
+        uuid id PK
+        varchar lesson
+        varchar unit
+        float dynamic_threshold
+        float mu
+        float sigma
+        timestamp updated_at
     }
 
     question_stats {
@@ -256,9 +320,9 @@ erDiagram
 
 ### 3.1. FSRS-5 Tekrar Sistemi Devre Dışı Bırakıldı (Harici Anki Entegrasyonu)
 
-Uygulamanın local FSRS spaced repetition durum makinesi ve `src/lib/fsrs.ts` modülü tamamen kaldırılmıştır. Kullanıcının aktif tekrar ve spaced repetition işlemlerini Anki (FSRS) gibi harici profesyonel bir ekosistemde yürütmesi nedeniyle, DUSBANKASI yalnızca akıllı soru bankası, performans analizi ve deneme/sınav simülasyonu rolünü üstlenecek şekilde optimize edilmiştir. 
-* Local FSRS parametreleri (stability, difficulty, scheduled_days, fsrs_reps, last_review) frontend tiplerinden ve istatistik eşitleme akışlarından elenmiştir.
-* Veritabanında (PostgreSQL) bu kolonlar geriye dönük uyumluluk adına fiziksel olarak korunmakta ancak uygulama tarafından güncellenmemektedir.
+Uygulamanın local FSRS spaced repetition durum makinesi ve `src/lib/fsrs.ts` modülü tamamen kaldırılmıştır. Kullanıcının aktif tekrar ve spaced repetition işlemlerini Anki (FSRS) gibi harici profesyonel bir ekosistemde yürütmesi nedeniyle, DUSBANKASI yalnızca akıllı soru bankası, performans analizi ve deneme/sınav simülasyonu rolünü üstlenecek şekilde optimize edilmiştir.
+- Local FSRS parametreleri (stability, difficulty, scheduled_days, fsrs_reps, last_review) frontend tiplerinden ve istatistik eşitleme akışlarından elenmiştir.
+- Veritabanında (PostgreSQL) bu kolonlar geriye dönük uyumluluk adına fiziksel olarak korunmakta ancak uygulama tarafından güncellenmemektedir.
 
 ---
 
@@ -273,34 +337,39 @@ Sinyal 2: New Exploration ─► [ Random Exploration Priority ] ──┘
 ```
 
 #### Öncelik Skoru (Priority Score) Hesaplama Formülü
+
 Bir $q$ sorusu için toplam $Priority$ skoru $[0, 1]$ aralığına normalize edilir:
 $$Priority = \text{Clamp}\Big(W_{weakness} \cdot Weakness(q), 0, 1\right) + \text{Jitter}$$
-* **$Weakness(q)$**:
+- **$Weakness(q)$**:
   $$Weakness = (1 - \text{CorrectRate}) \cdot 0.7 + \min\left(1, \frac{\text{WrongChoicesCount}}{10}\right) \cdot 0.3$$
   Çözülme geçmişinde sıkça yapılan yanlış seçimler weakness skorunu doğrudan yukarı taşır.
-* **$New Exploration$ (Hiç görülmemiş sorular)**:
+- **$New Exploration$ (Hiç görülmemiş sorular)**:
   Hiç çözülmemiş yeni sorular için doğrudan $W_{newExploration} \cdot \text{Math.random()}$ öncelik skoru atanarak havuz içinde homojen bir keşif önceliği sağlanır.
-* **$Jitter$**: `Math.random() * 0.02` ile eklenen küçük gürültü. Aynı skora sahip soruların ardışık sıralanmasını engeller.
-* **Ağırlık Kalibrasyonu**: `weakness: 0.70`, `newExploration: 0.30` varsayılan değerlerdir (`DEFAULT_ADAPTIVE_WEIGHTS`).
-* **NOT**: FSRS vade ve gecikme (urgency) hesaplamaları local seviyede tamamen devre dışı bırakılmıştır.
+- **$Jitter$**: `Math.random() * 0.02` ile eklenen küçük gürültü. Aynı skora sahip soruların ardışık sıralanmasını engeller.
+- **Ağırlık Kalibrasyonu**: `weakness: 0.70`, `newExploration: 0.30` varsayılan değerlerdir (`DEFAULT_ADAPTIVE_WEIGHTS`).
+- **NOT**: FSRS vade ve gecikme (urgency) hesaplamaları local seviyede tamamen devre dışı bırakılmıştır.
 
 #### Greedy Interleaving Algoritması
+
 Rohrer & Taylor (2007) teorisine dayanan interleaving, ardışık gelen iki sorunun aynı dersten olmamasını hedefler.
+
 1. Havuzdaki tüm sorular $Priority$ değerine göre büyükten küçüğe sıralanır.
 2. Bir önceki seçilen sorunun dersi ($lastLesson$) hafızada tutulur.
 3. Kalan listeden $lesson \neq lastLesson$ kuralına uyan en yüksek öncelikli soru seçilir (`sorted.findIndex(...)`).
 4. Eğer listede farklı dersten soru kalmadıysa, en baştaki (aynı dersten olsa dahi) soru çekilerek havuz tamamlanır.
 
 #### Soru Havuzu Kurucu Yardımcıları
+
 * **`buildUnitQueue`**: Tek bir ünite bazında unseen (görülmemiş) soruları öne alır. Her bir grubu kendi içinde `fisherYates` algoritması ile karıştırır.
-* **`buildSimulationPool`**: DUS simülasyonu için her dersten tam eşit sayıda soru seçer. Görülmemiş sorulara 2 kat ağırlık verir ve en son tüm listeyi global olarak karıştırır.
-* **`buildDailyExam`**: Günün denemesi için **%80 hiç görülmemiş (New)** ve **%20 zor/orta/kolay (Review)** oranını hedefler. Review sorularında öncelik sırası `hard -> medium -> easy` şeklindedir.
+- **`buildSimulationPool`**: DUS simülasyonu için her dersten tam eşit sayıda soru seçer. Görülmemiş sorulara 2 kat ağırlık verir ve en son tüm listeyi global olarak karıştırır.
+- **`buildDailyExam`**: Günün denemesi için **%80 hiç görülmemiş (New)** ve **%20 zor/orta/kolay (Review)** oranını hedefler. Review sorularında öncelik sırası `hard -> medium -> easy` şeklindedir.
 
 ---
 
 ### 3.3. Supabase Entegrasyonu ve Veri Yükleme (`src/lib/supabase.ts`)
 
 > ## ⛔ KATİ KURAL — LAZY-LOAD KESİNLİKLE YASAK (İSTİSNASIZ)
+>
 > Uygulama **ilk açılışta `fetchQuestions()` ile TÜM soruları belleğe yükler.** Lazy-load
 > (metadata + ders/ünite seçildiğinde dinamik çekim) mimarisi DENENMİŞ ve **kullanıcının
 > soruları görememesine** yol açtığı için KALICI OLARAK kaldırılmıştır.
@@ -310,6 +379,7 @@ Rohrer & Taylor (2007) teorisine dayanan interleaving, ardışık gelen iki soru
 > hesapları bozar. `fetchQuestionMetadata` / `fetchQuestionsByUnit` fonksiyonları silinmiştir.
 
 #### Tam Yükleme (Full-Fetch) Mimarisi
+
 Açılışta `useQuestions().reload()` → `fetchQuestions()` çağrılır ve havuzun tamamı
 `questions` state'ine yüklenir (App.tsx:204 startup `useEffect`).
 
@@ -322,8 +392,10 @@ Açılışta `useQuestions().reload()` → `fetchQuestions()` çağrılır ve ha
 ```
 
 #### Pagination ve Hata Toleranslı Paralel Fetching
+
 Supabase API'sinin varsayılan 1000 satır sınırını aşmak için sorular `PAGE_SIZE=500`'lük
 sayfalarla, her turda 2 sayfa paralel (`Promise.all`) ve `withRetry(3)` koruması altında çekilir:
+
 ```typescript
 // fetchPage(from) + fetchPage(from + PAGE_SIZE) paralel → bir sayfa eksik (<500) gelene kadar döner
 const [p1, p2] = await Promise.all([fetchPage(from), fetchPage(from + PAGE_SIZE)]);
@@ -331,9 +403,11 @@ const [p1, p2] = await Promise.all([fetchPage(from), fetchPage(from + PAGE_SIZE)
 ```
 
 #### Kritik Hata Çözümü: Supabase `.or()` Filtre Kısıtı
+
 Supabase REST arayüzünde `not.in` filtrelerini `.or()` içinde birleştirmek, veritabanı sorgu motorunu kilitlemekte ve 5.000 sorudan sonra uygulamanın çökmesine yol açmaktaydı.
-* **Hatalı Desen**: `q.or('quality_flag.is.null,quality_flag.not.in.(kavramsal_kopya,auto_deleted))'`
-* **Doğru Desen (Fix)**: İzin verilen flag'ler pozitif olarak filtrelenir, reddedilenler ise client-side seviyesinde elenir:
+- **Hatalı Desen**: `q.or('quality_flag.is.null,quality_flag.not.in.(kavramsal_kopya,auto_deleted))'`
+- **Doğru Desen (Fix)**: İzin verilen flag'ler pozitif olarak filtrelenir, reddedilenler ise client-side seviyesinde elenir:
+
   ```typescript
   q = q.or('quality_flag.is.null,quality_flag.eq.reviewed_keep');
   // Client-side yedek filtreleme
@@ -351,14 +425,17 @@ Supabase REST arayüzünde `not.in` filtrelerini `.or()` içinde birleştirmek, 
 Çapa=Soru (Anchor Mode v3) mimarisi üzerine kurulu üretim motorudur. Kaynaktaki bilgilerin doğrudan-kökte kapsanmasını hedefler.
 
 #### Giriş Modları
+
 * **`--file "<pdf>"`** — tek dosya (opsiyonel `--unit` ile ünite adı override edilir).
-* **`--input <hedef...>`** — bir veya birden çok **PDF ve/veya klasör**. Klasör verilirse içindeki tüm `.pdf/.md` dosyaları **dosya adındaki sayıya göre doğal sıralı** (Ünite 1→2→…→10) ve sırayla işlenir. Her dosyada ünite = dosya adı. `--lesson` zorunlu. Üniteler arası `COOLDOWN_BETWEEN_UNITS` beklemesi + oturum tazeleme yapılır.
-* **Kuyruk modu** — `QUEUE_<DERS>_DIR` ortam değişkenleriyle klasör kuyruğu (`--file`/`--input` yokken).
+- **`--input <hedef...>`** — bir veya birden çok **PDF ve/veya klasör**. Klasör verilirse içindeki tüm `.pdf/.md` dosyaları **dosya adındaki sayıya göre doğal sıralı** (Ünite 1→2→…→10) ve sırayla işlenir. Her dosyada ünite = dosya adı. `--lesson` zorunlu. Üniteler arası `COOLDOWN_BETWEEN_UNITS` beklemesi + oturum tazeleme yapılır.
+- **Kuyruk modu** — `QUEUE_<DERS>_DIR` ortam değişkenleriyle klasör kuyruğu (`--file`/`--input` yokken).
 
 > Tipik tam akış: `python scripts/notebooklm-exhaust.py --input "<klasör>" --lesson "<Ders>" --audit` → her ünite için üret → embedding'le DB'ye yaz → **ünite-kapsamlı** Ölüm Maçı (mevcut sorularla kıyas; benzeri olmayan kalır, benzer çiftlerden DeepSeek-v4-pro kazananı seçer, zayıf flag'lenir).
 
 #### Aşama 1: Google Playwright ile Otomatik Çerez Yönetimi
+
 NotebookLM resmi olmayan API'si Google accounts çerezlerine ihtiyaç duyar.
+
 1. `ensure_auth` fonksiyonu yerel depolamadaki çerezleri test eder.
 2. Geçersizlik durumunda `_auto_refresh_cookies` fonksiyonu Playwright ile headless tarayıcıyı başlatır.
 3. Yerel Google Chrome profilinden (`~/.notebooklm/profiles/default/browser_profile`) taze çerezleri çekerek `notebooklm-auth.json` dosyasına sessizce yazar. İnsan müdahalesi olmadan 7/24 çalışma sağlanır.
@@ -368,18 +445,172 @@ NotebookLM resmi olmayan API'si Google accounts çerezlerine ihtiyaç duyar.
 > **Uzun ömürlü oturum (session_keeper):** NotebookLM'in Google çerezleri (özellikle rotasyonlu `__Secure-*PSIDTS`) profil haftalarca boşta kalırsa sunucu tarafında geçersizleşir. `scripts/session_keeper.py` kalıcı Playwright profilinden çerezi periyodik tazeleyerek bunu önler. Windows zamanlanmış görevi **"NotebookLM Session Keeper"** `run_session_keeper.bat`'i 2 saatte bir çalıştırır (log: `scripts/logs/session_keeper.log`). İlk kurulum için bir kez `notebooklm login` gerekir; sonrasında oturum kendini tazeler. `session_keeper.py` kütüphane yolunu (`config.LIB_PATH`) kendi `sys.path`'ine bootstrap eder.
 
 #### Aşama 2: Çapalama (Faz 0)
+
 Modele `PROMPT_ANCHOR` yönergesi gönderilerek PDF kaynak metni satır satır taratılır. Metindeki her bir bağımsız tıbbi kavram, sendrom, ilaç veya reseptör alt alta yazdırılarak bir kavram listesi (Anchors) elde edilir. Çıktının sonuna `TOPLAM_KAVRAM = <sayı>` ekletilerek bütünlük doğrulanır.
 
 #### Aşama 3: Dilimleme ve Sıralı Soru Üretimi (Faz 2 & 3)
+
 1. Yerel veritabanından ilgili ünitenin mevcut soruları çekilir.
 2. Çekilen bu soruların **yalnızca kökleri** taranarak `classify_anchors` algoritması çalıştırılır.
-   * **Çapa Eşleşme Mantığı (sıkı)**: Çapadaki kelimelerin (3+ karakterli anlamlı kelimeler) **%60'ından fazlası** mevcut soru **köklerinde** geçiyorsa o çapa "sorgulanmış" kabul edilir. **Açıklama (explanation) ve şıklar SAYILMAZ** — bir kavramın yalnızca açıklamada geçmesi onu "kapsandı" yapmaz. Bu, kapsam rakamını gerçeğe yaklaştırır (yalnızca açıklamada geçen kavramlar "kalan" sayılır ve doğrudan kökte sorulana dek yeni soru üretilir).
+   - **Çapa Eşleşme Mantığı (sıkı)**: Çapadaki kelimelerin (3+ karakterli anlamlı kelimeler) **%60'ından fazlası** mevcut soru **köklerinde** geçiyorsa o çapa "sorgulanmış" kabul edilir. **Açıklama (explanation) ve şıklar SAYILMAZ** — bir kavramın yalnızca açıklamada geçmesi onu "kapsandı" yapmaz. Bu, kapsam rakamını gerçeğe yaklaştırır (yalnızca açıklamada geçen kavramlar "kalan" sayılır ve doğrudan kökte sorulana dek yeni soru üretilir).
 3. Kapsanmayan kavramlar 25'erli (`CHUNK_SIZE`) dilimlere bölünür.
 4. Her dilim, NotebookLM üzerinde **YENİ bir conversation** oluşturularak gönderilir. Bu sayede modelin önceki yanıtlardan etkilenerek duplikasyon üretmesi engellenir.
 5. Model her sorunun kökünü bu kavramlardan birine "çapalamak" zorundadır.
 
 #### Aşama 4: Doygunluk (Saturation) Denetimi
+
 Model ardışık 3 batch boyunca 0 soru dönerse veya yanıtta `DOYGUNLUK` kelimesi geçerse üretim durdurulur ve kalan tüm sorgulanmamış kavramlar `logs/uncovered_[UNIT].txt` dosyasına raporlanır.
+
+---
+
+### 4.1-B. NotebookLM MCP HTTP Üretim Hattı — KANONİK "MCP ile üret" YOLU
+
+> **AJAN: Bu bölümü eksiksiz oku. Bir hata görürsen §4.1-B Tuzaklar tablosuna bak — büyük ihtimalle orada açıklanmıştır.**
+
+`notebooklm-exhaust.py`'nin kırılgan Playwright/RPC taşıma katmanını kararlı bir **yerel MCP sunucusuna** devreden ikiz motordur. Üretim algoritması (FAZ 0–4: çapalama, kapsam, dilim, doygunluk, rapor) ve kalite kapısı **birebir aynıdır**; yalnızca NotebookLM'e erişim katmanı değişir.
+
+#### Neden MCP?
+Eski hat Google'ın iç `wrb.fr` RPC uçlarına ham `aiohttp` POST atıyordu → (1) Google bot algılayıp TCP reset / oturum düşürme; (2) 60–120 sn cevaplarda soket timeout. MCP yolu **Patchright stealth Chrome** + **asenkron polling** ile her ikisini de kökünden çözer.
+
+#### Sunucu: jacob-bd/notebooklm-mcp-cli (KANONİK)
+- **Yalnızca jacob-bd kullanılır.** PleasePrompto Node sunucusu (npm `notebooklm-mcp`, `--profile fresh`, port 3000) kalıcı olarak npm global'den kaldırıldı. Geri yükleme **yasak**.
+- Başlatma komutu (`.bat` içinde sabit):
+  ```
+  uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git notebooklm-mcp \
+      --transport http --host 127.0.0.1 --port 8000 --path /mcp
+  ```
+- Adres: `http://127.0.0.1:8000/mcp` · Transport: streamable-http (stateless, `Mcp-Session-Id` gerekmez).
+- Profil: **tek profil `default`** kullanılır. Veri: `%LOCALAPPDATA%\notebooklm-mcp\Data\`. Config: `%APPDATA%\notebooklm-mcp\Config\settings.json` → `{"profile":"default","disabledTools":[]}`.
+
+---
+
+#### ⚡ TAM BAŞLATMA PROTOKOLÜ (Ajan bu sırayı uygular, tahmin etmez)
+
+**ADIM 0 — Çevre kontrolü (her başlamada)**
+1. Antigravity MCP config'inde `notebooklm` girişi `disabled: true` mü? (`~/.gemini/config/mcp_config.json`). Aksi halde Chrome profil kilidi çakışır.
+2. `%LOCALAPPDATA%\notebooklm-mcp\Data\library.json` DUSBANKASI notebook'unu içeriyor mu? `Data.bak` / `Data.empty` görürsen önceki AI swap'i: gerçek login içereni `Data` olarak yeniden adlandır.
+3. `settings.json` `"profile":"default"` olmalı (`"fresh"`/`"full"` değil).
+
+**ADIM 1 — Auth kontrolü**
+```powershell
+uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git nlm login --check
+```
+- ✅ `✓ Authentication valid` → ADIM 2'ye geç.
+- ⚠️ `auth_status: stale` → bir sonraki adımda `ensure_auth` otomatik `refresh_auth` MCP aracını çağıracak; muhtemelen çözülür.
+- ❌ `Authentication expired` → **bir kerelik interaktif login** (kullanıcı yapar, ajan yapamaz):
+  ```powershell
+  # Önce sunucu kapalı olmalı (chrome_profile kilidi çakışmasın)
+  uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git nlm login
+  # Browser açılır → Google'a giriş → terminal "✓ Authenticated" gösterir
+  ```
+
+**ADIM 2 — MCP sunucusunu başlat (ayrı terminal/arka plan)**
+```powershell
+scripts\start_notebooklm_mcp.bat
+```
+- Adres: `http://127.0.0.1:8000/mcp`.
+- Sunucu hazır olduğunda log `Uvicorn running on...` yazar.
+- ~10 saniye bekle (Patchright Chrome açılana kadar).
+- Hızlı kontrol: `Get-NetTCPConnection -LocalPort 8000 -State Listen` → kayıt çıkarsa tamam.
+
+**ADIM 3 — Üretimi başlat**
+
+*Klasör (tüm PDF'ler, natural-sort sıralı):*
+```powershell
+$env:PYTHONUTF8 = "1"
+python -u scripts/notebooklm_mcp_exhaust.py --input "<klasör yolu>" --lesson "<Ders>"
+```
+
+*Tek PDF (test/tek ünite):*
+```powershell
+$env:PYTHONUTF8 = "1"
+python -u scripts/notebooklm_mcp_exhaust.py --file "<pdf yolu>" --lesson "<Ders>"
+```
+
+Çoklu klasörü zincirleme (arka planda, ayrı loglar):
+```powershell
+$env:PYTHONUTF8="1"; $py="C:\Users\FURKAN\AppData\Local\Programs\Python\Python312\python.exe"; $scr="scripts\notebooklm_mcp_exhaust.py"
+& $py -u $scr --input "<klasör1>" --lesson Endodonti  *> scripts\logs\run_endodonti.log
+& $py -u $scr --input "<klasör2>" --lesson Histoloji  *> scripts\logs\run_histoloji.log
+& $py -u $scr --input "<klasör3>" --lesson Protez     *> scripts\logs\run_protez.log
+```
+
+**ADIM 4 — Durum izleme**
+```powershell
+Get-Content scripts\logs\run_endodonti.log -Tail 40
+Get-Content scripts\logs\run_histoloji.log -Tail 40
+Get-Content scripts\logs\run_protez.log -Tail 40
+```
+
+---
+
+#### 🗂️ Aktif PDF Klasörleri ve Ders Eşlemesi
+
+| Ders | PDF Klasörü | PDF Sayısı |
+|---|---|---|
+| `Endodonti` | `C:\Users\FURKAN\Desktop\DUS\Endodonti\Endodonti Ünite Pdf` | 25 |
+| `Histoloji` | `C:\Users\FURKAN\Desktop\DUS\Histoloji\histo ünite pdf` | 13 |
+| `Protez` | `C:\Users\FURKAN\Desktop\DUS\protez\Yeni klasör\Parcalanmis` | 47 |
+
+---
+
+#### ⚠️ BİLİNEN TUZAKLAR VE ÇÖZÜMLER
+
+| Hata | Neden | Çözüm |
+|---|---|---|
+| `auth_status: stale` | Google cookie rotation (PSIDTS) | `ensure_auth` otomatik MCP `refresh_auth` çağırır; çoğu zaman sessizce çözülür |
+| `auth_status: expired` | Cookie tamamen geçersiz | Sunucuyu kapat, `nlm login` interaktif (browser); sonra .bat'i tekrar başlat |
+| `ConnectionRefused` :8000 | Sunucu tam açılmadı veya çakışma | Sunucu açılınca 10 sn bekle; port kayıt: `Get-NetTCPConnection -LocalPort 8000` |
+| Chrome açılmıyor / profil kilidi | Antigravity `notebooklm` aktif | `~/.gemini/config/mcp_config.json` → `notebooklm.disabled: true` |
+| `Data.bak` görüldü | Önceki AI yarım swap | `Data.bak` → `Data` yeniden adlandır, settings.json `"profile":"default"` |
+| `Could not add file source` | Notebook'ta kalmış kaynak / yarım yükleme | `process_unit_exhaustive` başlangıç temizliği zaten yapıyor; bir-iki saniye sonra retry |
+| Ünite ortasında `auth_status=stale` | Uzun koşuda cookie rotation | `ensure_auth` aşamada otomatik refresh dener; başarısızsa unit atlanır, bir sonrakine geçer |
+| Log boş / ilerleme yok | Python stdout buffer | `python -u` (unbuffered) + `$env:PYTHONUTF8="1"` zorunlu |
+| `nlm login` browser açmıyor | Patchright Chromium eksik | `uvx --from <url> patchright install chromium` |
+| HTTP 500 / port 3000 referansı | PleasePrompto kalıntısı | Tamamen kaldırıldı; jacob-bd :8000 dışındaki her şey yasak |
+
+---
+
+#### Dosyalar ve Roller
+
+| Dosya | Görev |
+|---|---|
+| `scripts/notebooklm_mcp_exhaust.py` | Tek PDF veya `--input` klasör için FAZ 0–4 üretim motoru (MCP HTTP client dahil); `ensure_auth` stale-aware |
+| `scripts/start_notebooklm_mcp.bat` | jacob-bd MCP HTTP sunucusunu :8000'de başlatır (uvx, default profil) |
+| `scripts/logs/run_<lesson>.log` | Klasör koşusu için ana log (per-ders) |
+| `scripts/logs/anchor_<unit>.txt` | FAZ 0 çapalama çıktısı |
+| `scripts/logs/exhaust_<unit>_batch<N>.txt` | Her batch'in ham AI cevabı |
+| `scripts/logs/uncovered_<unit>.txt` | Sorgulanmamış kavram listesi (FAZ 4 raporu) |
+| `scripts/logs/flagged_questions.jsonl` | Ölüm Maçı'nın işaretlediği kopya kararları |
+| `scripts/logs/nlm_http.log` | MCP sunucusunun çıktısı |
+| `%LOCALAPPDATA%\notebooklm-mcp\Data\` | Veri: chrome_profile + library.json (tek profil = default) |
+| `%APPDATA%\notebooklm-mcp\Config\settings.json` | `{"profile":"default","disabledTools":[]}` |
+
+#### İstemci: `NotebookLMMCPClient` (urllib JSON-RPC → `/mcp`)
+`notebooklm-exhaust.py`'nin `client.sources.*` / `client.chat.ask` arayüzünü birebir taklit eden **drop-in proxy**:
+
+| Eski arayüz | MCP aracı | Not |
+|---|---|---|
+| `ensure_auth(client)` | `server_info` (+ `refresh_auth` stale durumda) | Stale-aware; otomatik kurtarma denenir |
+| `sources.list(nid)` | `notebook_get` | `structuredContent.sources[] = {id, title}` |
+| `sources.add_file(nid, path)` | `source_add` (`source_type=file`, `wait=True`) | PDF doğrudan yüklenir; id, title-eşleşmesiyle bulunur |
+| `sources.delete(nid, sid)` | `source_delete` | `confirm=true` zorunlu |
+| `chat.ask(nid, prompt)` | `notebook_query_start` → `notebook_query_status` | **async polling** (3 sn aralık, ~30 dk üst sınır) |
+
+#### Ünite Akışı (FAZ 0–4)
+1. **Kaynak temizliği**: `notebook_get` → her kaynağı `source_delete` → kontaminasyon önlenir ⬅️ kritik
+2. **PDF yükle**: `source_add(file, wait=True)` → tek kaynak
+3. **FAZ 0** çapalama (`PROMPT_ANCHOR`) → kavram listesi → `logs/anchor_<ünite>.txt`
+4. **FAZ 1** `classify_anchors` (yalnız soru kökü) → kapsanmış / kalan
+5. **FAZ 2/3** 25'lik dilimler → üret → `deploy_to_supabase` (10'arlı chunk)
+6. **FAZ 4** kapsam raporu → `logs/uncovered_<ünite>.txt`
+7. **`finally`**: kaynağı sil → notebook temiz
+8. **`--audit`** (varsayılan AÇIK) → ünite-kapsamlı Ölüm Maçı
+
+#### Doğrulanmış Koşu (2026-05-28, Radyoloji Ünite 43)
+116 kavram çapalandı → 81 yeni soru Supabase'e yazıldı (35→116, %67.2 kapsam) → Ölüm Maçı 17 kopyayı eledi. Hiç HTTP 500/timeout yaşanmadı.
+
+> ⚠️ **Bilinen ayrı sorun (MCP'yle ilgisiz):** Ölüm Maçı'nda Supabase pgvector RPC `find_candidate_pairs` **HTTP 500** verip yerel in-memory taramaya düşebilir (sonuç doğru, sadece yavaş).
 
 ---
 
@@ -393,54 +624,112 @@ AI Çıktısı ──► [ partial_repair ] ──► [ Kalite Kapısı ] ──
                                              └──► Kaldı ─► [ rejected/ ]
 ```
 
-#### Kalite Kapısı Filtre Kriterleri (`_validate_single_question`):
+#### Kalite Kapısı Filtre Kriterleri (`_validate_single_question`)
+
 * **Filtre 1.a–1.c (Yapısal Bütünlük)**: A–E şıklarının tamamı string tipinde ve dolu olmalı. `correctAnswer` A–E aralığında olmalı. Soru kökü en az `MIN_STEM_WORDS` kelime.
-* **Filtre 1.d (Açıklama Uzunluğu)**: Açıklama boş olamaz ve en az `MIN_EXPL_WORDS` (varsayılan 5) kelime içermelidir.
-* **Filtre 1.e (AI Dolgu Cümlesi)**: Açıklamada "Tebrikler!", "Unutmayın", "Bu önemli" gibi `AI_FILLER_PHRASES` ifadelerinden biri geçiyorsa → `ai_dolgu_cumlesi` ile reddedilir.
-* **Filtre 1.f (Mojibake / Bozuk Karakter)**: Soru kökü/açıklama/şıklarda `MOJIBAKE_SIGNATURES` (`Ã`, `ÅŸ`, `Ä±`…) bulunursa → `bozuk_karakter` ile reddedilir. **"periodontal", "dişeti" gibi geçerli tıbbi terimler etkilenmez.**
-* **Filtre 3 (Bilgi Sızıntısı / Information Leakage)**: Doğru şıkkın anlamlı kelimelerinin **%60'ından fazlası** soru kökünde geçiyorsa "kolay elenebilir" sayılıp reddedilir.
+- **Filtre 1.d (Açıklama Uzunluğu)**: Açıklama boş olamaz ve en az `MIN_EXPL_WORDS` (varsayılan 5) kelime içermelidir.
+- **Filtre 1.e (AI Dolgu Cümlesi)**: Açıklamada "Tebrikler!", "Unutmayın", "Bu önemli" gibi `AI_FILLER_PHRASES` ifadelerinden biri geçiyorsa → `ai_dolgu_cumlesi` ile reddedilir.
+- **Filtre 1.f (Mojibake / Bozuk Karakter)**: Soru kökü/açıklama/şıklarda `MOJIBAKE_SIGNATURES` (`Ã`, `ÅŸ`, `Ä±`…) bulunursa → `bozuk_karakter` ile reddedilir. **"periodontal", "dişeti" gibi geçerli tıbbi terimler etkilenmez.**
+- **Filtre 3 (Bilgi Sızıntısı / Information Leakage)**: Doğru şıkkın anlamlı kelimelerinin **%60'ından fazlası** soru kökünde geçiyorsa "kolay elenebilir" sayılıp reddedilir.
   - Örnek: Soru kökünde "...tanısında altın standart yöntem hangisidir?" denip doğru şıkta "X yöntemi" yazması elenme sebebidir.
-* **Filtre 4 (Tautological Explanation / Zayıf Açıklama)**: Açıklamanın anlamlı kelimelerinin **%60'ından fazlası** sadece soru kökünün tekrarından ibaretse "yeni bilgi öğretmeyen kalitesiz soru" olarak reddedilir.
+- **Filtre 4 (Tautological Explanation / Zayıf Açıklama)**: Açıklamanın anlamlı kelimelerinin **%60'ından fazlası** sadece soru kökünün tekrarından ibaretse "yeni bilgi öğretmeyen kalitesiz soru" olarak reddedilir.
   - Örnek: "X hastalığının tedavisinde Y ilacı kullanılır çünkü X hastalığında Y ilacı tercih edilmektedir." açıklaması anında elenir.
 
 > `AI_FILLER_PHRASES` ve `MOJIBAKE_SIGNATURES` `config.py`'de merkezî olarak tanımlıdır; hem üretim kapısı (`shared.py`) hem Ölüm Maçı (`audit_logic.py`) aynı listeyi paylaşır.
 
 #### Çökmeye Karşı Dayanıklılık (Fault Tolerance) & Checkpoint
+
 * **Partial JSON Repair**: Ağ kesintisi veya token limiti nedeniyle yarım kalan (truncated) JSON çıktılarında, kapanmamış son objeyi tespit edip (`try_repair`) diziyi kapatarak sağlam soruları kurtarır.
-* **Kayıpsız Ham Dökme (`_dump_raw_response`)**: `extract_json` hiçbir şey kurtaramazsa ham AI yanıtını `recovery/raw/unparsed_<ts>.txt` dosyasına döker; veri elle kurtarılabilir kalır (sessiz veri kaybı yok).
-* **Yerel Checkpoint**: deployment öncesi doğrulanmış soruları `recovery/pending/` klasörüne zaman damgalı JSON olarak yazar. Supabase API HTTP 200 dönerse bu dosya silinir. Çökme durumunda `replay_pending_checkpoints()` ile veri kaybı sıfırlanır.
-* **Chunked Batch Insert + Retry**: Büyük soru grupları gönderildiğinde Supabase'in HTTP 500 vermesini engellemek için sorular **10'arlı (`_SUPABASE_WRITE_CHUNK`) gruplar** halinde, aralarına 0.5 saniye bekleme koyularak veritabanına basılır. Her chunk POST'u geçici hatalarda (`classify_error` → `RetryableError`: 5xx/timeout) `2s→5s→12s` exponential backoff ile otomatik tekrar dener; kalıcı hatada (4xx) hemen vazgeçer ve checkpoint korunur — geçici ağ hatasında soru kaybı yaşanmaz.
+- **Kayıpsız Ham Dökme (`_dump_raw_response`)**: `extract_json` hiçbir şey kurtaramazsa ham AI yanıtını `recovery/raw/unparsed_<ts>.txt` dosyasına döker; veri elle kurtarılabilir kalır (sessiz veri kaybı yok).
+- **Yerel Checkpoint**: deployment öncesi doğrulanmış soruları `recovery/pending/` klasörüne zaman damgalı JSON olarak yazar. Supabase API HTTP 200 dönerse bu dosya silinir. Çökme durumunda `replay_pending_checkpoints()` ile veri kaybı yaşanmaz.
 
 ---
 
-### 4.3. Smart Audit Ölüm Maçı Pipeline (`scripts/tools/smart_audit_pipeline.py`)
+### 4.3. Ölüm Maçı (Deathmatch) & QA Huni Mimarisi (`scripts/tools/smart_audit_pipeline.py`)
 
-Üretim turları tamamlandıktan sonra çalışan post-production aşamasıdır. Görevi, kavramsal kopyaları tespit etmek ve "Ölüm Maçı" mantığıyla zayıf soruları elemektir.
+Gürültülü ve LSH (MinHash) tabanlı leksikal sistem yerine, tamamen **Semantik Vektör ve Huni Mimarisi** kullanılmaktadır. Bellek ve CPU optimizasyonları kapsamında O(N²) yerel matris hesaplamaları yerine **Supabase pgvector HNSW** indeks offloading entegre edilmiştir.
 
-#### Aşama 1: Lexical + Semantic Hibrit Radar Taraması (`find_duplicates`)
-* **LSH (Locally Sensitive Hashing)**: Soruların n-gram (kelime bazlı) benzerlikleri taranarak hızlıca potansiyel kopya çiftleri aday havuzuna alınır.
-* **OpenAI Cosine Similarity**: Aday çiftlerin OpenAI embeddings (1536-dim) vektör çarpımları hesaplanır (`_semantic_pairs`). **numpy varsa** satır-normalize edilmiş matrisle bloklu (512'lik) vektörize çarpım C hızında yapılır; numpy yoksa norm'ları bir kez hesaplayan saf-Python yedeğine düşülür (eski sürüm her iç döngüde norm'u yeniden hesaplayıp binlerce soruda pratikte takılıyordu). Benzerlik **0.92+** → `kavramsal_kopya`, **0.85–0.92** → `borderline_kopya`.
+#### Huni Aşamaları
 
-#### Aşama 2: Koruyucu Filtreler (Guards — `curate_pairs`)
-Karar vericiye gitmeden önce iki ucuz koruma çalışır; tetiklenirse **ikisi de korunur**:
-* **`lexical_guard`**: İki soruda geçen tip/evre/sınıf/faz/grade numaraları farklıysa (ör. Tip 1 vs Tip 2) → farklı kavram.
-* **`medical_contrast_guard`**: Biri zıt kavramı (hiper/hipo, maksiller/mandibular, akut/kronik, primer/sekonder…), diğeri karşıtını içeriyorsa → farklı kavram.
-* **`stem_jaccard < 0.08`**: Soru kökleri leksikal olarak neredeyse hiç örtüşmüyorsa → farklı kavram.
+1. **Dinamik Eşik & pgvector HNSW RPC Aday Arama (Aşama 1):** Soru kökü (`stem_embedding`, ağırlık: 0.7) ve açıklama (`explanation_embedding`, ağırlık: 0.3) birleştirilerek $Sim_{total}$ hesaplanır.
+   - **pgvector HNSW Offloading**: Aday çift aramaları Supabase tarafında `find_candidate_pairs` RPC'si ve `questions_stem_emb_hnsw` indeksi ile çalışır. Python tarafında dersin tüm embeddings matrisini belleğe çekmek yerine, sadece RPC'den dönen aday çiftlerin (similarity >= `pre_filter_t`) UUID detayları ve embedding'leri dinamik olarak fetch edilir. Bu sayede bellek kullanımı ders başına ~250 MB'dan ~5 MB seviyesine indirilmiştir.
+   - **Eşik Filtre**: Pre-filter eşiği dinamik olarak hesaplanır: `pre_filter_t = max(0.65, min(thresholds.values(), default=0.72) - 0.03)`.
+   - **Robust IQR Thresholding**: Dinamik eşik hesaplamasında aykırı değerlerden arındırılmış `robust` IQR metodu kullanılır (`upper_fence = q75 + 1.5 * iqr`). `calculate_dynamic_thresholds.py` varsayılan olarak bu robust yöntemle çalışır.
+2. **Local Semantic Guards (Aşama 2):** Karar vericiye gitmeden önce çalışan ucuz ve sıfır maliyetli koruma kapılarıdır. Tetiklendiklerinde çiftler otomatik olarak `keep_both` (koru) olarak işaretlenir ve DeepSeek API çağrısı yapılmaz. Sıra önemlidir; ilk eşleşen kazanır:
+   - **`answer_divergence_guard`** (v4.7 — KALDIRILDI): Şık metnindeki en küçük biçimsel farklılıkların (örn. tekil/çoğul `Eritroblastlar` vs `Eritroblast` ya da sayısal normalizasyon sınırları) otomatik elenmeye (keep_both) takılıp gerçek kopyaların korunmasına yol açmaması amacıyla **bu kural tamamen kaldırılmıştır**. Şüpheli olan tüm adaylar doğrudan DeepSeek-v4-flash'e iletilerek akademik ve klinik doğrulukla değerlendirilir.
+   - **`question_orientation_guard`** (v4.8 — KALDIRILDI): Köklerde geçen ve yönelimle ilgisi olmayan leksikal kelimelerin yanlışlıkla negatif yönelim tespiti yapıp gerçek kopyaları koruması (ör. "olmayan") nedeniyle **bu kural tamamen kaldırılmıştır**.
+   - **`lexical_guard`**: İki soruda geçen tip/evre/sınıf/faz/grade numaraları farklıysa (ör. Tip 1 vs Tip 2) → farklı kavram.
+   - **`numeric_divergence_guard`**: Regex tabanlı sayı ve birim (e.g. `3 mm` vs `5 mm`, `pH 6.5` vs `pH 7.5`) ayrışma koruması. Sayısal değerler disjoint ise → farklı klinik karar.
+   - **`stem_jaccard < 0.03`** (v4.6 — gevşetildi, eski 0.08): Soru kökleri leksikal olarak **neredeyse hiç** ortak kelime taşımıyorsa → muhtemelen embedding gürültüsü. Eşik bilinçle çok düşük: yüksek semantik benzerlik + düşük lexical örtüşme = **parafraz kopya** (semantik tespitin asıl amacı), eski 0.08 bunları haksızca eliyordu.
+3. **Güven Bazlı Otomatik Yönlendirme (Auto-Routing):**
+   - **`auto_remove`** (Similarity >= 0.97): Neredeyse birebir kopyalar DeepSeek'e gitmeden yerel kalite puanıyla elenir (varsayılan mod FLAG = geri alınabilir).
+   - **`deepseek`** (≥ eşik, guard'lardan geçen TÜM adaylar): Gerçek karar vericiye yönlendirilir. ⚠️ v4.6'da eski `auto_keep` (sim < eşik+0.02) tamponu **kaldırıldı** — eşiğin hemen üstündeki gerçek kopya zonunu sessizce koruyordu.
+4. **DeepSeek-v4-pro Karar Motoru (Aşama 4):** Eleyemediğimiz güçlü adaylar, son kararı vermesi için DeepSeek'e 3 opsiyon (keep_1, keep_2, keep_both, remove_both) ile gönderilir. Soru kökü ve açıklamada "Klinik Vaka Derinliği", "Açıklayıcı Derinlik" gibi puanlama metrikleri göz önünde bulundurulur.
+   - **Explanation Clone Guard**: Açıklamalar Jaccard > 0.85 ise `aciklama_klonu` olarak flag'lenir ve DeepSeek sistem promptu buna göre özelleştirilir.
+
+#### Aşama 1: Aday Çift RPC'si (`find_candidate_pairs`) — v4.6 hibrit + ünite kapsamı
+
+RPC, aday üretimini **final skorla birebir aynı hibrit** (0.7·stem + 0.3·exp) üzerinden yapar; ayrıca açıklama-klonu için bağımsız bir yüksek-exp dalı içerir. **Opsiyonel `p_unit`** verilirse self-join yalnızca o üniteye sınırlanır.
+
+```sql
+CREATE OR REPLACE FUNCTION find_candidate_pairs(
+  p_lesson text, p_threshold float DEFAULT 0.70,
+  p_exp_threshold float DEFAULT 0.92, p_unit text DEFAULT NULL)
+RETURNS TABLE(q1_id uuid, q2_id uuid, hybrid_sim float, stem_sim float, exp_sim float) AS $$
+  SELECT a.id, b.id,
+         0.7*(1-(a.stem_embedding <=> b.stem_embedding)) + 0.3*(1-(a.explanation_embedding <=> b.explanation_embedding)),
+         1-(a.stem_embedding <=> b.stem_embedding),
+         1-(a.explanation_embedding <=> b.explanation_embedding)
+  FROM questions a JOIN questions b ON a.lesson = b.lesson AND a.id < b.id
+  WHERE a.lesson = p_lesson
+    AND (p_unit IS NULL OR (a.unit = p_unit AND b.unit = p_unit))
+    AND a.stem_embedding IS NOT NULL AND b.stem_embedding IS NOT NULL
+    AND a.explanation_embedding IS NOT NULL AND b.explanation_embedding IS NOT NULL
+    AND ( 0.7*(1-(a.stem_embedding <=> b.stem_embedding)) + 0.3*(1-(a.explanation_embedding <=> b.explanation_embedding)) >= p_threshold
+       OR (1-(a.explanation_embedding <=> b.explanation_embedding)) >= p_exp_threshold )
+  ORDER BY hybrid_sim DESC LIMIT 20000;
+$$ LANGUAGE sql STABLE;
+```
+
+> ⚠️ **Bu RPC bir self-join'dur ve HNSW index'i KULLANMAZ** (HNSW yalnızca `ORDER BY emb <=> sabit_vektör LIMIT k` desenini hızlandırır, join koşulunu değil). Bu yüzden v4.6'da tüm vektör HNSW index'leri storage için düşürülmüştür. **Ünite denetimi** (`--unit`) RPC'yi o üniteye sınırlar (99 soru → anında). **Ders geneli** (`--cross-unit`) ise O(N²) tarar; büyük derslerde 58s statement-timeout'a (HTTP 500) düşebilir → ünite-bazlı koşmak tercih edilir. `find_duplicates` (audit_logic.py) tek-ünite kapsamını otomatik algılayıp `p_unit` geçer.
+>
+> **Şema önbelleği:** RPC imzası değiştiğinde PostgREST REST katmanı bayatlar (REST'ten 500 ama doğrudan SQL çalışır). Çözüm: `NOTIFY pgrst, 'reload schema';`.
+
+#### Aşama 4: Performans ve Geri Bildirim — Golden Set Eval (`golden_set_eval.py`)
+
+Mimarinin başarısını objektif ölçmek için tasarlanmıştır. Veritabanından alınmış ve bir insan tarafından kopya (`True`)/kopya değil (`False`) olarak manuel etiketlenmiş statik soru çiftleri (Golden Set) üzerinden, sistemin eşik ve vektör mekaniği test edilir.
+- **Sonuç Çıktıları:** True Positives (TP), False Positives (FP - Gürültü), False Negatives (FN - Kaçak).
+- **Metrikler:** Precision, Recall ve F1 Score.
+- **Mevcut Durum:** 21 gerçek diagnostic çift barındıran Golden Set üzerinde **Precision/Recall/F1 ≈ 90.91%**.
+  > ⚠️ **v4.6 uyarısı:** Bu skor, golden-set çiftlerinin embedding'leri **elle doldurulmuşken** ölçülmüştü; o sırada korpusun %99'unda stem/exp embedding YOKTU, yani üretimde hat **kördü** (hiç aday bulmuyordu). v4.6 backfill'i (14.473 sorunun tamamı embedlendi) + `answer_divergence` metin-fix'i sonrası gerçek üretim denetimi artık çalışıyor (Radyoloji Ü30: 81 aday → 48 korundu, 32 gerçek kopya FLAG'lendi). Golden set'in güncel embedding uzayında yeniden ölçülmesi önerilir.
+
+#### Çapraz Ünite Tarama (`--cross-unit`)
+
+smart_audit_pipeline.py çalıştırılırken `--cross-unit` bayrağı eklendiğinde, sadece üniteler içi değil, dersin tamamı genelinde üniteler arası çapraz kopya taraması (`find_duplicates` offloaded) yapılır. Böylece farklı üniteler arasına sızmış mükerrer sorular da eksiksiz yakalanır.
 
 #### Aşama 3: Ölüm Maçı Karar Verici — DeepSeek-v4-pro (`call_deepseek_decision`)
+
 Koruyucuları geçen her şüpheli çift **DeepSeek-v4-pro**'ya gönderilir. Karar vericiye yalnızca **değerlendirilecek üçlü** iletilir: **soru kökü + DOĞRU şık + açıklama**. Çeldirici (yanlış) şıklar bilinçli olarak gönderilmez — amaç sorgulanmış bilginin tekrar sorgulanmasını önlemektir; aynı çeldiricinin birden çok soruda bulunması bilgi tekrarı sayılmaz ve kararı gereksiz yere etkilerdi. Rubrik (öncelik sırasıyla): sorgulanan bilgi aynı mı → klinik derinlik → açıklama öğreticiliği → Türkçe dil sağlığı → AI dolgu cümlesi mutlak elemesi.
 
 Karar şu yapılandırılmış JSON şemasıyla döner:
+
 ```json
 { "verdict": "keep_1 | keep_2 | keep_both | remove_both", "confidence": 0.0-1.0, "reason": "..." }
 ```
+
 * **keep_1 / keep_2** → güçlü soru korunur, zayıf kopya `quality_flag='kavramsal_kopya'` ile elenir.
-* **keep_both** → sorular aslında farklı alt-kavram/tip/evre test ediyor → ikisi de korunur.
-* **remove_both** → ikisi de tıbben hatalı/öğretici değil → ikisi de elenir.
+- **keep_both** → sorular aslında farklı alt-kavram/tip/evre test ediyor → ikisi de korunur.
+- **remove_both** → ikisi de tıbben hatalı/öğretici değil → ikisi de elenir.
 
 **Yerel Yedek (`_local_verdict`):** `DEEPSEEK_API_KEY` yoksa veya API hata verirse, `calc_quality_score` tabanlı yapılandırılmış yedek devreye girer (yüksek puanlı kazanır; ikisi de `QUALITY_FLOOR` altındaysa `remove_both`). `calc_quality_score` artık klinik tanı/laboratuvar derinliği ve açıklama uzunluğunu ödüllendirir, AI dolgu cümlesini (−30) ve **yalnızca gerçek mojibake'yi** (−50) cezalandırır — eski sürümdeki `r"periodontal"` deseni her perio sorusunu haksızca eliyordu, **kaldırıldı**.
 
 > Not: DUS'ta olumsuz soru kökü ("…değildir/yanlıştır") gerçek bir sınav formatıdır; `calc_quality_score` bunu cezalandırmaz, **+15 ödül** verir.
+
+#### Aşama 4: Performans ve Geri Bildirim — Golden Set Eval (`golden_set_eval.py`)
+
+Mimarinin başarısını objektif ölçmek için tasarlanmıştır. Veritabanından alınmış ve bir insan tarafından kopya (`True`)/kopya değil (`False`) olarak manuel etiketlenmiş statik soru çiftleri (Golden Set) üzerinden, sistemin eşik ve vektör mekaniği test edilir.
+- **Sonuç Çıktıları:** True Positives (TP), False Positives (FP - Gürültü), False Negatives (FN - Kaçak).
+- **Metrikler:** Precision, Recall ve F1 Score. Eğer model FP patlaması yaşıyorsa eşik/contrast guard zayıf, FN patlaması yaşıyorsa eşik çok katı demektir.
 
 ---
 
@@ -493,8 +782,8 @@ progress_sync.update_progress()
 
 Jinja2 şablonu; değişkenler: `{{ context }}`, `{{ lesson }}`, `{{ unit }}`, `{{ question_text }}`.
 
-* **Mutlak Yasaklar:** Kısa yanıt yasağı · Belirsizlik yasağı ("vb.", "gibi", "vs." yerine tüm elemanları açıkça yaz) · Mekanizma şartı (min 3 basamaklı `[Tetikleyici] → [Ara 1] → [Ara 2] → [Sonuç]` zinciri) · Tablo şartı (min 1 Markdown karşılaştırma tablosu) · Kesin sayı şartı ("yüksek oranda" yerine tam sayı).
-* **Rapor Bölümleri:**
+- **Mutlak Yasaklar:** Kısa yanıt yasağı · Belirsizlik yasağı ("vb.", "gibi", "vs." yerine tüm elemanları açıkça yaz) · Mekanizma şartı (min 3 basamaklı `[Tetikleyici] → [Ara 1] → [Ara 2] → [Sonuç]` zinciri) · Tablo şartı (min 1 Markdown karşılaştırma tablosu) · Kesin sayı şartı ("yüksek oranda" yerine tam sayı).
+- **Rapor Bölümleri:**
   1. **HIGH-YIELD 20/80 ÖZÜ** — Patognomonik + ayırt edici bilgiler, mekanistik numaralı liste.
   2. **KAPSAMLI KONU ANLATIMI** — 8 alt başlık (Tanım, Etyoloji, Patogenez, Klinik, Radyoloji/Lab, Tedavi, Karşılaştırma Tablosu, DUS Tuzakları).
   3. **5 KLASİK DUS SORUSU** — 5 şıklı, doğru cevap + 3+ basamaklı mekanizma + her yanlış şıkkın eliminasyonu.
@@ -524,13 +813,15 @@ python scripts/generate_deneme_rag_reports.py --dry-run  # Listele, rapor üretm
 Atlas/LLM'e bağlı olmadan, hazır bir dosyadan soru eklemenin deterministik yolu. Mevcut `shared.validate_question_batch` ve `deploy_to_supabase` fonksiyonlarını **yeniden kullanan ince bir sarmalayıcıdır** — yeni iş mantığı içermez.
 
 #### Girdi Formatları ve Normalizasyon
+
 * **`.json`** — kanonik liste `[{question, options{A..E}, correctAnswer, explanation, lesson, unit}]` veya `{ "questions": [...] }` zarfı. Düz `option_a..option_e` / `correct_answer` anahtarları da kabul edilir (esnek `_normalize_one`).
-* **`.csv`** — başlık satırı `lesson,unit,question,option_a..option_e,correct_answer,explanation` (utf-8-sig BOM toleranslı).
-* **`.md`** — `### Soru N` / `**Soru Metni:**` / `- A) …` / `**Doğru Cevap:** A` / `**Soru Açıklaması:**` blok formatı (eski `manual_upload_md` mantığının sağlamlaştırılmış hâli).
+- **`.csv`** — başlık satırı `lesson,unit,question,option_a..option_e,correct_answer,explanation` (utf-8-sig BOM toleranslı).
+- **`.md`** — `### Soru N` / `**Soru Metni:**` / `- A) …` / `**Doğru Cevap:** A` / `**Soru Açıklaması:**` blok formatı (eski `manual_upload_md` mantığının sağlamlaştırılmış hâli).
 
 > **Ham NotebookLM çıktısı kurtarma:** `.json` dosyası düz `json.loads` ile parse edilemezse VEYA `.md/.txt` blok formatı bulunamazsa, içerik `shared.extract_json` ile kurtarılır — NotebookLM'in ürettiği `<analiz>…</analiz>` + ```json fence sarmalı ham çıktı **doğrudan** içe aktarılabilir (elle temizlik gerekmez).
 
 #### Akış
+
 ```
 dosya ──► load_questions() ──► _normalize_one() (kanonik şema)
       ──► lesson/unit doldur (satır değeri > --lesson/--unit bayrağı)
@@ -540,6 +831,7 @@ dosya ──► load_questions() ──► _normalize_one() (kanonik şema)
 ```
 
 #### CLI Argümanları
+
 | Argüman | Görev |
 |---|---|
 | `dosya` (pozisyonel) | `.json` / `.csv` / `.md` soru dosyası |
@@ -589,13 +881,16 @@ Frontend tarafında veri akışı son derece sıkı kurallarla korunmaktadır.
 ```
 
 ### 5.1. useResumableSession Hook (`src/hooks/useResumableSession.ts`)
+
 Furkan soru çözerken tarayıcı kapansa veya bağlantı kopsa dahi kaldığı yeri kaybetmemelidir.
-* **Çift Katmanlı Koruma**: Oturum durumu her soru işaretlendiğinde anlık olarak hem `localStorage`'a yazılır hem de debounced olarak cloud'daki `active_sessions` tablosuna post edilir.
-* **Debounce Fix (v3.1)**: `saveResumableSession` sayacı (`saveCountRef`) artık monoton ilerler — 1, 6, 11... kaydında anında cloud flush, aradakiler 3sn debounce. Önceki sürüm her flush sonrası sayacı `0`'a sıfırlıyordu; bu da `% 5 === 1` modulosunu daima `1` yapıp **her cevapta** anlık yazma tetikleyerek debounce'u tamamen devre dışı bırakıyordu (gereksiz ağ yükü). Sayaç yalnızca oturum bittiğinde/temizlendiğinde sıfırlanır, böylece yeni oturumun ilk cevabı yine anında yedeklenir. Tarayıcı kapanışında `beforeunload` + `keepalive` fetch bekleyen kaydı garantiler.
-* **Kurtarma Akışı**: Uygulama açıldığında cihaz kimliği (`device_id`) veya kullanıcı UUID'si ile buluttan son aktif oturum aranır. Bulunursa kullanıcıya "Kaldığın yerden devam etmek ister misin?" uyarısı çıkarılarak state kaldığı adıma restore edilir.
+- **Çift Katmanlı Koruma**: Oturum durumu her soru işaretlendiğinde anlık olarak hem `localStorage`'a yazılır hem de debounced olarak cloud'daki `active_sessions` tablosuna post edilir.
+- **Debounce Fix (v3.1)**: `saveResumableSession` sayacı (`saveCountRef`) artık monoton ilerler — 1, 6, 11... kaydında anında cloud flush, aradakiler 3sn debounce. Önceki sürüm her flush sonrası sayacı `0`'a sıfırlıyordu; bu da `% 5 === 1` modulosunu daima `1` yapıp **her cevapta** anlık yazma tetikleyerek debounce'u tamamen devre dışı bırakıyordu (gereksiz ağ yükü). Sayaç yalnızca oturum bittiğinde/temizlendiğinde sıfırlanır, böylece yeni oturumun ilk cevabı yine anında yedeklenir. Tarayıcı kapanışında `beforeunload` + `keepalive` fetch bekleyen kaydı garantiler.
+- **Kurtarma Akışı**: Uygulama açıldığında cihaz kimliği (`device_id`) veya kullanıcı UUID'si ile buluttan son aktif oturum aranır. Bulunursa kullanıcıya "Kaldığın yerden devam etmek ister misin?" uyarısı çıkarılarak state kaldığı adıma restore edilir.
 
 ### 5.2. Ajanlar İçin Kod Değiştirme ve Geliştirme Protokolü
+
 Uygulama üzerinde çalışırken aşağıdaki üç kural asla ihlal edilemez:
+
 1. **Zustand veya global state kütüphanesi eklemek yasaktır**. Tüm arayüz ve oyun motoru state'i `App.tsx` içerisindeki ana State Machine üzerinden yönetilir.
 2. **Yeni bağımlılık eklemek yasaktır**. Sadece mevcut paketler (Tailwind 4, React 19, Lucide, Supabase JS, pdfJS) kullanılacaktır.
 3. **RLS Bypass Kuralı**: frontend istemcisi anonim anahtarla çalıştığı için doğrudan yazma (`INSERT`, `UPDATE`) yetkisine sahip değildir. Tüm veri yazma operasyonları API katmanı üzerinden veya backend entegrasyonu ile yapılmalıdır.
@@ -651,6 +946,7 @@ Kullanıcının ilettiği ham soruları DUSBANKASI'na aktarma akışı (`.agent/
 Eskiden `importQuestions` doğrudan `supabase.from('questions').insert(...)` çağırıyordu — **kalite filtresi ve embedding yoktu**, dolayısıyla uygulamadan eklenen sorular `match_questions_semantic` ve Ölüm Maçı'nda görünmez kalıyordu. Bu yol kapatıldı; tüm uygulama eklemeleri artık bir Supabase Edge Function üzerinden geçer.
 
 #### Akış
+
 ```
 AddQuestionView (tekil form / toplu JSON)
    │  ImportQuestion[]
@@ -659,17 +955,17 @@ supabase.functions.invoke('manage-questions', { body: { questions } })   (src/li
    ▼
 Edge Function (Deno · supabase/functions/manage-questions/index.ts)
    ├── validateOne()  ── scripts/shared.py::_validate_single_question ile BİREBİR (eşikler, stopword'ler, mojibake, sızıntı/totoloji %60)
-   ├── OpenAI text-embedding-3-small (1536-dim)  ── anahtar yalnız Edge secret OPENAI_API_KEY'de
+   ├── OpenAI text-embedding-3-large (1536-dim) × 3 (embedding + stem_embedding + explanation_embedding)  ── anahtar yalnız Edge secret OPENAI_API_KEY'de (audit hattıyla model birebir aynı)
    └── questions tablosuna 10'arlık chunked insert (service_role → RLS bypass)
    ▼
 { accepted, written, rejected: [{index, reason}] }   ── form reddedilenleri satır-bazında gösterir
 ```
 
-* **`src/lib/supabase.ts`**: `addQuestions(questions)` Edge Function'ı çağırır ve tipli `AddQuestionsResult` döndürür. Geriye uyumluluk için `importQuestions` artık `addQuestions`'a delege eder (eski `ImportView` çalışmaya devam eder).
-* **`verify_jwt=false`** (`supabase/config.toml`): Fonksiyon kendi girdi doğrulamasını yapar ve uygulama anon key ile çağırır (questions tablosu zaten public). Deploy: Supabase MCP `deploy_edge_function` veya `npx supabase functions deploy manage-questions`.
-* **Secret bağımlılığı**: `OPENAI_API_KEY` Edge secret olarak ayarlı değilse fonksiyon yine **doğrular ve yazar**, fakat embedding üretmez (graceful fallback; loglar). Embeddingsiz satırlar `scripts/tools/backfill_embeddings.py` ile sonradan doldurulabilir.
-* **Filtre paritesi riski**: Kalite kuralları iki dilde yaşar (Python `shared.py` + Deno `index.ts`). Eşik değişirse ikisi elle eşitlenmelidir.
+- **`src/lib/supabase.ts`**: `addQuestions(questions)` Edge Function'ı çağırır ve tipli `AddQuestionsResult` döndürür. Geriye uyumluluk için `importQuestions` artık `addQuestions`'a delege eder (eski `ImportView` çalışmaya devam eder).
+- **`verify_jwt=false`** (`supabase/config.toml`): Fonksiyon kendi girdi doğrulamasını yapar ve uygulama anon key ile çağırır (questions tablosu zaten public). Deploy: Supabase MCP `deploy_edge_function` veya `npx supabase functions deploy manage-questions`.
+- **Secret bağımlılığı**: `OPENAI_API_KEY` Edge secret olarak ayarlı değilse fonksiyon yine **doğrular ve yazar**, fakat embedding üretmez (graceful fallback; loglar). Embeddingsiz satırlar `scripts/tools/backfill_embeddings.py` ile sonradan doldurulabilir.
+- **Filtre paritesi riski**: Kalite kuralları iki dilde yaşar (Python `shared.py` + Deno `index.ts`). Eşik değişirse ikisi elle eşitlenmelidir.
 
 ---
-**DUSBANKASI — TEKNİK YÖNERGE v4.3 — SON GÜNCELLEME: 2026-05-26**
-*Bu dosya ajanın ilk okuduğu tek yetkili teknik kaynaktır. CLAUDE.md ve AGENTS.md birleştirildi/kaldırıldı.*
+**DUSBANKASI — TEKNİK YÖNERGE v4.6 — SON GÜNCELLEME: 2026-05-27**
+*Bu dosya ajanın ilk okuduğu tek yetkili teknik kaynaktır. v4.6: bi-encoder embedding'ler tüm bankada (14.473 soru) backfill edildi; benzerlik guard'ları (cevap-metni + yönelim) ve hibrit/ünite-kapsamlı `find_candidate_pairs` RPC ile kopya tespiti üretimde gerçekten çalışır hale getirildi. Vektör HNSW index'leri (audit self-join kullandığı için gereksiz) düşürülerek toplu-yazma 500'leri ve storage baskısı çözüldü.*

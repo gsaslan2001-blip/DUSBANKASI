@@ -235,38 +235,14 @@ export async function saveSessionToCloud(
   sessionData: object,
   userId?: string
 ): Promise<void> {
-  if (userId) {
-    // Authenticated: user_id unique index üzerinden güncelle (device_id'ye dokunma)
-    await withRetry(async () => {
-      const now = new Date().toISOString();
-      // 1) Mevcut user_id satırını güncelle
-      const { data: updated, error: updateErr } = await supabase
-        .from('active_sessions')
-        .update({ session_data: sessionData, updated_at: now })
-        .eq('user_id', userId)
-        .select('user_id');
-      if (updateErr) throw new Error('[session] UPDATE: ' + serializeSupabaseError(updateErr));
-
-      // 2) Satır yoksa INSERT (henüz hiç kaydedilmemiş — ilk cihaz girişi)
-      if (!updated || updated.length === 0) {
-        const { error: insertErr } = await supabase
-          .from('active_sessions')
-          .insert({ device_id: deviceId, user_id: userId, session_data: sessionData, updated_at: now });
-        if (insertErr) throw new Error('[session] INSERT: ' + serializeSupabaseError(insertErr));
-      }
+  await withRetry(async () => {
+    const { error } = await supabase.rpc('save_active_session', {
+      p_device_id: deviceId,
+      p_user_id: userId ?? null,
+      p_session_data: sessionData
     });
-  } else {
-    // Anonim: device_id PRIMARY KEY üzerinden UPSERT (tek cihaz, güvenli)
-    await withRetry(async () => {
-      const { error } = await supabase
-        .from('active_sessions')
-        .upsert(
-          { device_id: deviceId, user_id: null, session_data: sessionData, updated_at: new Date().toISOString() },
-          { onConflict: 'device_id' }
-        );
-      if (error) throw new Error('[session] ANON: ' + serializeSupabaseError(error));
-    });
-  }
+    if (error) throw new Error('[session] RPC: ' + serializeSupabaseError(error));
+  });
 }
 
 /**

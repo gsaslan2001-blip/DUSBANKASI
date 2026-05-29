@@ -1,12 +1,13 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 
-// ─── Mocks (hoisted before imports) ──────────────────────────────────────────
-// @supabase/supabase-js client'ı mock'la — upsert'e giden payload'ı yakala.
-
-const upsertMock = vi.fn().mockResolvedValue({ error: null });
+const { upsertMock, rpcMock } = vi.hoisted(() => ({
+  upsertMock: vi.fn().mockResolvedValue({ error: null }),
+  rpcMock: vi.fn().mockResolvedValue({ error: null }),
+}));
 
 vi.mock('@supabase/supabase-js', () => ({
   createClient: () => ({
+    rpc: rpcMock,
     from: () => ({
       upsert: upsertMock,
     }),
@@ -17,7 +18,7 @@ vi.mock('../dateUtils', () => ({
   todayStr: () => '2024-06-15',
 }));
 
-import { pushStatsToCloud, type CloudStat } from '../supabase';
+import { pushStatsToCloud, saveSessionToCloud, type CloudStat } from '../supabase';
 
 const DEVICE = 'dev_test';
 const STATS: Record<string, CloudStat> = {
@@ -26,35 +27,73 @@ const STATS: Record<string, CloudStat> = {
 
 beforeEach(() => {
   upsertMock.mockClear();
+  rpcMock.mockClear();
 });
 
-describe('pushStatsToCloud — user_id koruma', () => {
-  it('userId verilince satırlara user_id ekler', async () => {
-    await pushStatsToCloud(DEVICE, STATS, 'user-123');
-    expect(upsertMock).toHaveBeenCalledTimes(1);
-    const [rows, opts] = upsertMock.mock.calls[0];
-    expect(opts).toEqual({ onConflict: 'device_id,question_id' });
-    expect(rows[0]).toHaveProperty('user_id', 'user-123');
+describe('pushStatsToCloud user_id routing', () => {
+  it('uses the merge RPC when userId is provided', async () => {
+    const res = await pushStatsToCloud(DEVICE, STATS, 'user-123');
+
+    expect(rpcMock).toHaveBeenCalledTimes(1);
+    expect(upsertMock).not.toHaveBeenCalled();
+
+    const [fnName, payload] = rpcMock.mock.calls[0];
+    expect(fnName).toBe('upsert_stats_batch');
+    expect(payload.rows[0]).toMatchObject({
+      user_id: 'user-123',
+      device_id: DEVICE,
+      question_id: 'q1',
+    });
+    expect(res).toEqual({ pushed: 1, total: 1, errors: [] });
   });
 
-  it('userId YOKSA user_id alanını tamamen dışarıda bırakır (conflict update mevcut değeri ezmesin)', async () => {
+  it('omits user_id and uses device upsert for anonymous stats', async () => {
     await pushStatsToCloud(DEVICE, STATS);
+
     expect(upsertMock).toHaveBeenCalledTimes(1);
-    const [rows] = upsertMock.mock.calls[0];
-    // user_id null bile gönderilmemeli — PostgREST yalnızca gönderilen sütunları update eder
+    expect(rpcMock).not.toHaveBeenCalled();
+
+    const [rows, opts] = upsertMock.mock.calls[0];
+    expect(opts).toEqual({ onConflict: 'device_id,question_id' });
     expect(Object.prototype.hasOwnProperty.call(rows[0], 'user_id')).toBe(false);
   });
 
-  it('payload device_id ve question_id içerir', async () => {
+  it('includes device_id and question_id in anonymous payloads', async () => {
     await pushStatsToCloud(DEVICE, STATS);
+
     const [rows] = upsertMock.mock.calls[0];
     expect(rows[0].device_id).toBe(DEVICE);
     expect(rows[0].question_id).toBe('q1');
   });
 
-  it('boş stats için upsert çağrılmaz', async () => {
+  it('does not call Supabase for empty stats', async () => {
     const res = await pushStatsToCloud(DEVICE, {});
+
     expect(upsertMock).not.toHaveBeenCalled();
+    expect(rpcMock).not.toHaveBeenCalled();
     expect(res).toEqual({ pushed: 0, total: 0, errors: [] });
+  });
+});
+
+describe('active session cloud routing', () => {
+  it('upserts authenticated sessions by user_id so devices converge', async () => {
+    await saveSessionToCloud(DEVICE, { currentIndex: 31 }, 'user-123');
+
+    expect(upsertMock).toHaveBeenCalledTimes(1);
+    const [payload, opts] = upsertMock.mock.calls[0];
+    expect(opts).toEqual({ onConflict: 'user_id' });
+    expect(payload).toMatchObject({
+      device_id: DEVICE,
+      user_id: 'user-123',
+      session_data: { currentIndex: 31 },
+    });
+  });
+
+  it('keeps anonymous sessions scoped to device_id', async () => {
+    await saveSessionToCloud(DEVICE, { currentIndex: 24 });
+
+    expect(upsertMock).toHaveBeenCalledTimes(1);
+    const [, opts] = upsertMock.mock.calls[0];
+    expect(opts).toEqual({ onConflict: 'device_id' });
   });
 });

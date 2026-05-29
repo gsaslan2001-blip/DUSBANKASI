@@ -22,7 +22,6 @@ import {
   buildExamPool,
   getWeakestUnits,
   getCurriculumProgress,
-  getForecastNextDays,
   setAdaptiveWeights,
   getAdaptiveWeights,
 } from '../adaptive';
@@ -38,8 +37,8 @@ function q(id: string, lesson: string, unit: string): Question {
   return { id, lesson, unit, question: `Q${id}`, options: { A: 'a', B: 'b', C: 'c', D: 'd', E: 'e' }, correctAnswer: 'A', explanation: '' };
 }
 
-function stat(attempts: number, corrects: number, nextReview: string, wrongChoices: { selected: string; timestamp: string }[] = []): StatsMap[string] {
-  return { attempts, corrects, lastSeen: TODAY, interval: 1, easeFactor: 2.5, repetitions: 1, nextReview, wrongChoices };
+function stat(attempts: number, corrects: number, wrongChoices: { selected: string; timestamp: string }[] = []): StatsMap[string] {
+  return { attempts, corrects, lastSeen: TODAY, wrongChoices };
 }
 
 // ─── setAdaptiveWeights / getAdaptiveWeights ──────────────────────────────────
@@ -52,15 +51,14 @@ describe('setAdaptiveWeights / getAdaptiveWeights', () => {
   });
 
   it('partially overrides weights', () => {
-    setAdaptiveWeights({ fsrsUrgency: 0.70 });
-    expect(getAdaptiveWeights().fsrsUrgency).toBe(0.70);
-    expect(getAdaptiveWeights().weakness).toBe(DEFAULT_ADAPTIVE_WEIGHTS.weakness);
+    setAdaptiveWeights({ weakness: 0.80 });
+    expect(getAdaptiveWeights().weakness).toBe(0.80);
   });
 
   it('returns a copy — mutations do not affect internal state', () => {
     const w = getAdaptiveWeights();
-    w.fsrsUrgency = 0.99;
-    expect(getAdaptiveWeights().fsrsUrgency).toBe(DEFAULT_ADAPTIVE_WEIGHTS.fsrsUrgency);
+    w.weakness = 0.99;
+    expect(getAdaptiveWeights().weakness).toBe(DEFAULT_ADAPTIVE_WEIGHTS.weakness);
   });
 });
 
@@ -89,16 +87,10 @@ describe('buildSmartQueue', () => {
     expect(breakdown.totalSelected).toBe(5);
   });
 
-  it('includes overdue cards by default', () => {
-    const stats: StatsMap = { q1: stat(3, 1, '2024-06-01') };
+  it('includes weak cards when includeWeak=true (default)', () => {
+    const stats: StatsMap = { q1: stat(5, 1) }; // %20 doğruluk → zayıf
     const { breakdown } = buildSmartQueue(questions, stats);
-    expect(breakdown.overdueCount).toBeGreaterThan(0);
-  });
-
-  it('excludes overdue cards when includeDue=false', () => {
-    const stats: StatsMap = { q1: stat(3, 1, '2024-06-01') };
-    const { breakdown } = buildSmartQueue(questions, stats, { includeDue: false });
-    expect(breakdown.overdueCount).toBe(0);
+    expect(breakdown.weakCount).toBeGreaterThan(0);
   });
 
   it('excludes new questions when includeNew=false', () => {
@@ -108,18 +100,11 @@ describe('buildSmartQueue', () => {
   });
 
   it('breakdown totals are consistent', () => {
-    const stats: StatsMap = { q1: stat(5, 1, '2024-06-01') };
+    const stats: StatsMap = { q1: stat(5, 1) };
     const { breakdown } = buildSmartQueue(questions, stats);
     expect(breakdown.totalSelected).toBe(
-      breakdown.overdueCount + breakdown.weakCount + breakdown.newCount
+      breakdown.weakCount + breakdown.newCount
     );
-  });
-
-  it('overdue card scores higher than a new card', () => {
-    // With Math.random=0.5: overdue(14d) urgency ≈ 0.35 >> new exploration ≈ 0.075
-    const stats: StatsMap = { q1: stat(3, 1, '2024-06-01') }; // 14 days overdue
-    const { questions: result } = buildSmartQueue(questions, stats, { limit: 1 });
-    expect(result[0].id).toBe('q1');
   });
 });
 
@@ -134,15 +119,15 @@ describe('getWeakestUnits', () => {
   ];
 
   it('filters units below minAttempts', () => {
-    const stats: StatsMap = { a1: stat(2, 0, TODAY) };
+    const stats: StatsMap = { a1: stat(2, 0) };
     const result = getWeakestUnits(qs, stats, 2, 10);
     expect(result).toHaveLength(0);
   });
 
   it('sorts by accuracy ascending (worst first)', () => {
     const stats: StatsMap = {};
-    ['a1','a2','a3','a4','a5'].forEach(id => { stats[id] = stat(5, 1, TODAY); }); // 20%
-    ['b1','b2','b3','b4','b5'].forEach(id => { stats[id] = stat(5, 4, TODAY); }); // 80%
+    ['a1','a2','a3','a4','a5'].forEach(id => { stats[id] = stat(5, 1); }); // 20%
+    ['b1','b2','b3','b4','b5'].forEach(id => { stats[id] = stat(5, 4); }); // 80%
     const result = getWeakestUnits(qs, stats, 2, 5);
     expect(result[0].lesson).toBe('Patoloji');
     expect(result[0].accuracy).toBe(20);
@@ -151,14 +136,14 @@ describe('getWeakestUnits', () => {
 
   it('respects topN limit', () => {
     const stats: StatsMap = {};
-    qs.forEach(({ id }) => { stats[id] = stat(10, 5, TODAY); });
+    qs.forEach(({ id }) => { stats[id] = stat(10, 5); });
     expect(getWeakestUnits(qs, stats, 1, 1)).toHaveLength(1);
   });
 
   it('includes wrongChoiceCount in the result', () => {
     const stats: StatsMap = {};
     ['a1','a2','a3','a4','a5'].forEach(id => {
-      stats[id] = stat(5, 2, TODAY, [{ selected: 'B', timestamp: '2024-06-01T10:00:00Z' }]);
+      stats[id] = stat(5, 2, [{ selected: 'B', timestamp: '2024-06-01T10:00:00Z' }]);
     });
     const result = getWeakestUnits(qs, stats, 1, 5);
     expect(result[0].wrongChoiceCount).toBeGreaterThan(0);
@@ -183,27 +168,27 @@ describe('getCurriculumProgress', () => {
   });
 
   it('solvedUnits counts units with at least 1 attempt', () => {
-    const stats: StatsMap = { q1: stat(1, 1, TODAY) };
+    const stats: StatsMap = { q1: stat(1, 1) };
     expect(getCurriculumProgress(qs, stats).solvedUnits).toBe(1);
   });
 
   it('completedUnits counts units where every question is attempted', () => {
     const stats: StatsMap = {
-      q1: stat(1, 1, TODAY), q2: stat(1, 0, TODAY), // UA complete
-      q3: stat(1, 1, TODAY),                         // UB complete
+      q1: stat(1, 1), q2: stat(1, 0), // UA complete
+      q3: stat(1, 1),                   // UB complete
     };
     expect(getCurriculumProgress(qs, stats).completedUnits).toBe(2);
   });
 
   it('nextUntouchedUnit is null when all units started', () => {
     const stats: StatsMap = {
-      q1: stat(1, 1, TODAY), q3: stat(1, 1, TODAY), q4: stat(1, 1, TODAY),
+      q1: stat(1, 1), q3: stat(1, 1), q4: stat(1, 1),
     };
     expect(getCurriculumProgress(qs, stats).nextUntouchedUnit).toBeNull();
   });
 
   it('nextUntouchedUnit picks the alphabetically first untouched unit', () => {
-    const stats: StatsMap = { q1: stat(1, 1, TODAY) }; // only Patoloji started
+    const stats: StatsMap = { q1: stat(1, 1) }; // only Patoloji started
     const { nextUntouchedUnit } = getCurriculumProgress(qs, stats);
     // Fizyoloji < Histoloji alphabetically
     expect(nextUntouchedUnit?.lesson).toBe('Fizyoloji');
@@ -212,54 +197,6 @@ describe('getCurriculumProgress', () => {
   it('nextUntouchedUnit includes questionCount', () => {
     const { nextUntouchedUnit } = getCurriculumProgress(qs, {});
     expect(nextUntouchedUnit?.questionCount).toBeGreaterThan(0);
-  });
-});
-
-// ─── getForecastNextDays ──────────────────────────────────────────────────────
-
-describe('getForecastNextDays', () => {
-  it('returns exactly `days` entries', () => {
-    expect(getForecastNextDays({}, 7)).toHaveLength(7);
-  });
-
-  it('first entry is today with isToday=true', () => {
-    const [first] = getForecastNextDays({}, 7);
-    expect(first.date).toBe(TODAY);
-    expect(first.isToday).toBe(true);
-  });
-
-  it('subsequent entries have isToday=false', () => {
-    getForecastNextDays({}, 7).slice(1).forEach(f => expect(f.isToday).toBe(false));
-  });
-
-  it('counts cards due on each specific day', () => {
-    const stats: StatsMap = {
-      q1: stat(1, 1, TODAY),
-      q2: stat(1, 1, TODAY),
-      q3: stat(1, 1, '2024-06-17'),
-    };
-    const forecast = getForecastNextDays(stats, 7);
-    expect(forecast[0].count).toBe(2); // today
-    expect(forecast[2].count).toBe(1); // 2024-06-17 = TODAY + 2
-  });
-
-  it('ignores cards with 0 attempts', () => {
-    const stats: StatsMap = { q1: stat(0, 0, TODAY) };
-    expect(getForecastNextDays(stats, 7)[0].count).toBe(0);
-  });
-
-  it('ignores cards due outside the forecast window', () => {
-    const stats: StatsMap = { q1: stat(1, 1, '2024-12-31') };
-    const total = getForecastNextDays(stats, 7).reduce((s, f) => s + f.count, 0);
-    expect(total).toBe(0);
-  });
-
-  it('label for today is Bugün', () => {
-    expect(getForecastNextDays({}, 7)[0].label).toBe('Bugün');
-  });
-
-  it('label for tomorrow is Yarın', () => {
-    expect(getForecastNextDays({}, 7)[1].label).toBe('Yarın');
   });
 });
 
@@ -283,7 +220,7 @@ describe('buildUnitQueue', () => {
   });
 
   it('unseen questions come before seen (with identity shuffle mock)', () => {
-    const stats: StatsMap = { q2: stat(3, 2, TODAY) };
+    const stats: StatsMap = { q2: stat(3, 2) };
     const result = buildUnitQueue(qs, 'Patoloji', 'UA', stats);
     const seenIndex = result.findIndex(question => question.id === 'q2');
     const unseenIndex = result.findIndex(question => question.id === 'q1');

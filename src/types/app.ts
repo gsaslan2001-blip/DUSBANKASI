@@ -6,6 +6,7 @@ export type AppState =
   | 'quiz'
   | 'result'
   | 'import'
+  | 'add-question'
   | 'select-deneme'
   | 'select-deneme-amount'
   | 'select-favorites'

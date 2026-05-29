@@ -138,7 +138,7 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
                 {formMode === 'login' ? 'Giriş Yap' : 'Hesap Oluştur'}
               </h2>
               <p className={`text-sm ${theme.subtext} mt-1`}>
-                FSRS ilerlemenini tüm cihazlarda senkronize et
+                İlerlemeni tüm cihazlarda senkronize et
               </p>
             </>
           )}

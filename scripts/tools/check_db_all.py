@@ -1,12 +1,16 @@
+import os
 import urllib.request
 import json
 import sys
 from collections import Counter
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
+from config import SUPABASE_URL, SUPABASE_KEY
+
 sys.stdout.reconfigure(encoding='utf-8')
 
-url = 'https://vblndoyjmkgaeuihydyd.supabase.co/rest/v1/questions?select=lesson,unit'
-headers = {'apikey': 'sb_publishable_O5x_kW_yqNYJRwvmwevGcA_T-JTUhD3', 'Authorization': 'Bearer sb_publishable_O5x_kW_yqNYJRwvmwevGcA_T-JTUhD3'}
+url = f"{SUPABASE_URL}/rest/v1/questions?select=lesson,unit"
+headers = {'apikey': SUPABASE_KEY, 'Authorization': f"Bearer {SUPABASE_KEY}"}
 
 data = []
 fr = 0

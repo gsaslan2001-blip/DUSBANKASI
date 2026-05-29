@@ -27,17 +27,30 @@ def _headers(extra: dict = None) -> dict:
     return base
 
 
-async def fetch_all_questions(lesson: str, session: aiohttp.ClientSession) -> list:
-    """Dersin tüm sorularını pagine ederek async olarak çeker. Retry mekanizması eklendi."""
+async def fetch_all_questions(
+    lesson: str,
+    session: aiohttp.ClientSession,
+    unit: str = None,
+) -> list:
+    """Dersin (opsiyonel olarak tek bir ünitenin) tüm sorularını pagine ederek
+    async olarak çeker. Retry mekanizması eklendi.
+
+    unit verilirse sunucu tarafında `unit=eq.<unit>` filtresi uygulanır → yalnızca
+    o ünitenin soruları çekilir (daha az veri transferi, daha küçük O(N²) tarama)."""
     all_rows = []
     limit, offset = 250, 0 # Safely reduced limit to avoid 500 timeouts
-    print(f"[db] '{lesson}' soruları çekiliyor...")
+    scope = f"'{lesson}' / '{unit}'" if unit else f"'{lesson}'"
+    print(f"[db] {scope} soruları çekiliyor...")
+
+    unit_filter = f"&unit=eq.{urllib.parse.quote(unit)}" if unit else ""
 
     async def fetch_page(off):
         params = (
-            f"select=id,unit,question,explanation,correct_answer,quality_flag,embedding"
+            f"select=id,lesson,unit,question,explanation,correct_answer,quality_flag,"
+            f"option_a,option_b,option_c,option_d,option_e"
             f"&limit={limit}&offset={off}"
             f"&lesson=eq.{urllib.parse.quote(lesson)}"
+            f"{unit_filter}"
         )
         url = f"{SUPABASE_URL}/rest/v1/questions?{params}"
         

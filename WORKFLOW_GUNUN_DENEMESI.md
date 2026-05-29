@@ -3,7 +3,7 @@
 > **Kim kullanır:** Atlas (veya Supabase MCP erişimi olan herhangi bir ajan)  
 > **Tetikleyici:** Kullanıcı sohbette konularını ve soru sayısını yazar  
 > **Çıktı:** `daily_exams` tablosuna kayıtlı hazır sınav + kullanıcıya özet rapor  
-> **Referans:** [CLAUDE.md §2 daily_exams](./CLAUDE.md) · [AGENTS.md](./AGENTS.md)
+> **Referans:** [gemini.md §2 daily_exams](./gemini.md) · [gemini.md §0 Tetikleyici→Araç](./gemini.md)
 
 ---
 

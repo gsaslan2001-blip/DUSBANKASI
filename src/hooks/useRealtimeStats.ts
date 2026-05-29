@@ -1,7 +1,7 @@
 /**
  * DUS Bankası — Realtime Stats Hook
  * Supabase Realtime ile question_stats tablosunu dinler.
- * Başka bir cihazdan gelen FSRS güncellemeleri anlık olarak callback ile iletilir.
+ * Başka bir cihazdan gelen istatistik güncellemeleri anlık olarak callback ile iletilir.
  */
 
 import { useEffect, useRef } from 'react';
@@ -16,11 +16,7 @@ type StatPayload = {
   corrects: number;
   last_seen: string;
   wrong_choices?: Array<{ selected: string; timestamp: string }>;
-  stability?: number | null;
   difficulty?: number | null;
-  last_review?: string | null;
-  scheduled_days?: number | null;
-  fsrs_reps?: number | null;
 };
 
 export type UseRealtimeStatsOptions = {
@@ -40,17 +36,13 @@ function rowToCloudStat(row: StatPayload): CloudStat {
     corrects: row.corrects,
     lastSeen: row.last_seen,
     wrongChoices: row.wrong_choices ?? [],
-    stability: row.stability ?? undefined,
     difficulty: row.difficulty ?? undefined,
-    lastReview: row.last_review ?? undefined,
-    scheduledDays: row.scheduled_days ?? undefined,
-    fsrsReps: row.fsrs_reps ?? undefined,
   };
 }
 
 /**
  * Supabase Realtime ile question_stats değişikliklerini anlık dinler.
- * Aynı kullanıcının başka cihazlarından gelen FSRS güncellemelerini yakalar.
+ * Aynı kullanıcının başka cihazlarından gelen istatistik güncellemelerini yakalar.
  *
  * Örnek kullanım:
  * ```tsx

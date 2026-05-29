@@ -74,7 +74,7 @@ export const QuizHeader = memo(function QuizHeader({
         }`}>
           {difficulty || 'YENİ'}
           <div className={`absolute top-full left-0 mt-1.5 w-44 p-2 ${theme.cardSolid} border ${theme.border} rounded-lg text-[11px] font-medium leading-normal normal-case opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-[100] shadow-xl ${theme.text}`}>
-            FSRS-5 Zorluk Seviyesi: Çözme geçmişinize göre hesaplanır.
+            Zorluk Seviyesi: Çözme geçmişinizdeki doğruluk oranına göre hesaplanır.
           </div>
         </div>
 

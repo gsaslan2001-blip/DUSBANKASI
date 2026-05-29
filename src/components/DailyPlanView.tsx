@@ -1,25 +1,27 @@
 /**
- * DUS Bankası — Günlük Çalışma Planı (Faz 4)
+ * DUS Bankası — Günlük Çalışma Planı
  *
- * Rapor §3.5: Üç bölüm:
- *   Bölüm 1 — Review zorunluluğu (FSRS kuyruğu)
- *   Bölüm 2 — Zayıf alan müdahalesi (Hata Pattern tabanlı)
- *   Bölüm 3 — Yeni materyal önerisi (müfredat ilerlemesi)
+ * Üç bölüm:
+ *   Bölüm 1 — Zayıf alan müdahalesi (Hata Pattern tabanlı)
+ *   Bölüm 2 — Yeni materyal önerisi (müfredat ilerlemesi)
+ *   Bölüm 3 — Akıllı Çalışma CTA
  *
  * Karar fatiguesini elimine eder — tek tıkla aksiyona geçiş.
+ *
+ * NOT: Aktif tekrar (spaced repetition) Anki tarafında yürütülür.
+ * Bu ekran yalnızca soru havuzu + performans analizi rolündedir.
  */
 
 import type { Question } from '../data';
 import type { StatsMap } from '../lib/stats';
-import { getForecastNextDays, getWeakestUnits, getCurriculumProgress } from '../lib/adaptive';
+import { getWeakestUnits, getCurriculumProgress } from '../lib/adaptive';
 
 interface DailyPlanViewProps {
   questions: Question[];
   stats: StatsMap;
-  dueCount: number;
-  onStartReview: () => void;           // Bugünkü FSRS review'u başlat
-  onStartWeakUnit: (lesson: string, unit: string) => void;  // Zayıf ünite quiz
-  onStartSmartStudy: () => void;        // Adaptive queue quiz
+  weakCount: number;
+  onStartWeakUnit: (lesson: string, unit: string) => void;
+  onStartSmartStudy: () => void;
   theme: {
     card: string;
     subtext: string;
@@ -41,27 +43,22 @@ function weeksUntilDUS(): number {
 export default function DailyPlanView({
   questions,
   stats,
-  dueCount,
-  onStartReview,
+  weakCount,
   onStartWeakUnit,
   onStartSmartStudy,
   theme,
 }: DailyPlanViewProps) {
   const today = new Date().toLocaleDateString('tr-TR', { weekday: 'long', day: 'numeric', month: 'long' });
-  const forecast = getForecastNextDays(stats, 7);
-  const weakUnits = getWeakestUnits(questions, stats, 2, 5);
+  const weakUnits = getWeakestUnits(questions, stats, 3, 5);
   const curriculum = getCurriculumProgress(questions, stats);
   const weeksLeft = weeksUntilDUS();
   const examPassed = weeksLeft <= 0;
-
-  // Tahmini review süresi: ortalama 45s/kart
-  const reviewMins = Math.ceil(dueCount * 45 / 60);
 
   // Müfredat hız tavsiyesi: kalan ünite / kalan hafta
   const remainingUnits = curriculum.totalUnits - curriculum.solvedUnits;
   const unitsPerWeek = weeksLeft > 0 ? Math.ceil(remainingUnits / weeksLeft) : remainingUnits;
 
-  const hasPlan = dueCount > 0 || weakUnits.length > 0 || curriculum.nextUntouchedUnit;
+  const hasPlan = weakCount > 0 || curriculum.nextUntouchedUnit;
 
   return (
     <div className="flex flex-col gap-5 anim-slide-up pb-10 max-w-3xl mx-auto w-full">
@@ -91,49 +88,20 @@ export default function DailyPlanView({
         <div className={`${theme.card} rounded-2xl p-10 text-center`}>
           <div className="text-3xl mb-3">✅</div>
           <h3 className="text-lg font-black mb-1">Bugün için plan yok</h3>
-          <p className={`${theme.subtext} text-xs mb-5`}>Review kuyruğu boş, bilinen zayıf ünite yok.</p>
+          <p className={`${theme.subtext} text-xs mb-5`}>Bilinen zayıf ünite yok, tüm üniteler başlandı.</p>
           <button onClick={onStartSmartStudy} className="btn btn-primary btn-lg">
             AKILLI ÇALIŞMA BAŞLAT
           </button>
         </div>
       ) : (
         <>
-          {/* ── Bölüm 1: FSRS Review Kuyruğu ── */}
-          <div className={`${theme.card} rounded-2xl p-5 relative overflow-hidden`}>
-            <div className="absolute top-0 left-0 w-0.5 h-full bg-violet-400/60 rounded-r" />
-            <div className="flex items-start justify-between gap-4 pl-3">
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-1.5">
-                  <span className="text-base">🔁</span>
-                  <span className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest`}>Bölüm 1 — Review</span>
-                </div>
-                <h3 className="text-lg font-black mb-0.5">
-                  {dueCount > 0 ? `${dueCount} kart vadesi geldi` : 'Review kuyruğu boş'}
-                </h3>
-                {dueCount > 0 && (
-                  <p className={`${theme.subtext} text-xs`}>
-                    ~{reviewMins} dk · FSRS tekrar zamanı
-                  </p>
-                )}
-              </div>
-              {dueCount > 0 && (
-                <button onClick={onStartReview} className="btn btn-sm shrink-0 bg-violet-500/12 text-violet-400 border border-violet-500/15 hover:bg-violet-500/20">
-                  BAŞLAT →
-                </button>
-              )}
-            </div>
-            {dueCount === 0 && (
-              <p className={`${theme.subtext} text-[11px] mt-1 pl-3`}>Yarın: {forecast[1]?.count ?? 0} kart</p>
-            )}
-          </div>
-
-          {/* ── Bölüm 2: Zayıf Alan Müdahalesi ── */}
+          {/* ── Bölüm 1: Zayıf Alan Müdahalesi ── */}
           {weakUnits.length > 0 && (
             <div className={`${theme.card} rounded-2xl p-5 relative overflow-hidden`}>
               <div className="absolute top-0 left-0 w-0.5 h-full bg-red-400/60 rounded-r" />
               <div className="flex items-center gap-2 mb-3 pl-3">
                 <span className="text-base">🎯</span>
-                <span className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest`}>Bölüm 2 — Zayıf Alan</span>
+                <span className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest`}>Bölüm 1 — Zayıf Alan</span>
               </div>
               <div className="space-y-2.5 pl-3">
                 {weakUnits.map((u, i) => (
@@ -165,13 +133,13 @@ export default function DailyPlanView({
             </div>
           )}
 
-          {/* ── Bölüm 3: Yeni Materyal ── */}
+          {/* ── Bölüm 2: Yeni Materyal ── */}
           {curriculum.nextUntouchedUnit && (
             <div className={`${theme.card} rounded-2xl p-5 relative overflow-hidden`}>
               <div className="absolute top-0 left-0 w-0.5 h-full bg-emerald-400/60 rounded-r" />
               <div className="flex items-center gap-2 mb-2 pl-3">
                 <span className="text-base">📖</span>
-                <span className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest`}>Bölüm 3 — Yeni Materyal</span>
+                <span className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest`}>Bölüm 2 — Yeni Materyal</span>
               </div>
               <div className="flex items-start justify-between gap-4 pl-3">
                 <div className="flex-1">
@@ -200,40 +168,29 @@ export default function DailyPlanView({
         </>
       )}
 
-      {/* ── 7-Günlük Forecast Mini Özet ── */}
+      {/* ── Müfredat Özeti ── */}
       <div className={`${theme.card} rounded-2xl p-5`}>
-        <h4 className="font-bold text-xs mb-3">Bu Hafta Review Yükü</h4>
-        <div className="flex items-end gap-2 h-16">
-          {forecast.map((f, i) => {
-            const max = Math.max(...forecast.map(x => x.count), 1);
-            const pct = (f.count / max) * 100;
-            return (
-              <div key={i} className="flex-1 flex flex-col items-center gap-1 group">
-                <div className="relative w-full flex items-end justify-center" style={{ height: '44px' }}>
-                  <div
-                    className={`w-full rounded-md transition-all hover:opacity-80 ${f.isToday ? 'bg-indigo-400' : 'bg-white/10'}`}
-                    style={{ height: `${Math.max(pct, 6)}%`, minHeight: f.count > 0 ? '6px' : '2px' }}
-                  />
-                  {f.count > 0 && (
-                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 text-[8px] font-bold opacity-50 group-hover:opacity-100">{f.count}</div>
-                  )}
-                  {f.count === 0 && (
-                    <div
-                      className="absolute -top-4 left-1/2 -translate-x-1/2 text-[8px] opacity-20"
-                      style={{ whiteSpace: 'nowrap' }}
-                    >
-                      –
-                    </div>
-                  )}
-                </div>
-                <span className={`text-[8px] font-medium ${f.isToday ? 'text-indigo-400' : theme.subtext}`}>{f.label}</span>
-              </div>
-            );
-          })}
+        <h4 className="font-bold text-xs mb-3">Müfredat İlerlemesi</h4>
+        <div className="grid grid-cols-3 gap-3">
+          <div className="text-center">
+            <div className="text-2xl font-black">{curriculum.totalUnits}</div>
+            <div className={`${theme.subtext} text-[9px] font-bold uppercase mt-0.5`}>Toplam Ünite</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-black text-indigo-400">{curriculum.solvedUnits}</div>
+            <div className={`${theme.subtext} text-[9px] font-bold uppercase mt-0.5`}>Başlanan</div>
+          </div>
+          <div className="text-center">
+            <div className="text-2xl font-black text-emerald-400">{curriculum.completedUnits}</div>
+            <div className={`${theme.subtext} text-[9px] font-bold uppercase mt-0.5`}>Tamamlanan</div>
+          </div>
         </div>
-        <p className={`${theme.subtext} text-[10px] mt-2`}>
-          Toplam: {forecast.reduce((a, b) => a + b.count, 0)} kart
-        </p>
+        <div className="mt-3 h-2 bg-white/[0.04] rounded-full overflow-hidden">
+          <div
+            className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-emerald-500 transition-all duration-1000"
+            style={{ width: `${curriculum.totalUnits > 0 ? Math.round((curriculum.solvedUnits / curriculum.totalUnits) * 100) : 0}%` }}
+          />
+        </div>
       </div>
     </div>
   );

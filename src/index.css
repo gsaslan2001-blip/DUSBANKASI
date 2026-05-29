@@ -1,26 +1,146 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap');
 @import "tailwindcss";
 
 @layer base {
-  :root {
+  @theme {
+    --font-sans: 'Satoshi', -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+    /* Radii */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-2xl: 24px;
+    --radius-3xl: 32px;
+
+    /* Dark Theme (default) — Ethereal Glass */
+    --color-surface-0: #030305;
+    --color-surface-1: #060608;
+    --color-surface-2: #0d0d12;
+    --color-surface-3: #111118;
+    --color-surface-4: #16161f;
+
+    --color-border-dim: rgba(255, 255, 255, 0.03);
+    --color-border-subtle: rgba(255, 255, 255, 0.05);
+    --color-border-default: rgba(255, 255, 255, 0.08);
+    --color-border-strong: rgba(255, 255, 255, 0.12);
+
+    --color-text-primary: #ececf1;
+    --color-text-secondary: #8b8b98;
+    --color-text-tertiary: #71717a;
+
+    --color-accent: #6f72f2;
+    --color-accent-soft: #8b95f6;
+    --color-accent-dim: rgba(111, 114, 242, 0.1);
+    --color-accent-glow: rgba(111, 114, 242, 0.2);
+
+    --color-correct: #34d399;
+    --color-correct-dim: rgba(52, 211, 153, 0.1);
+    --color-incorrect: #f87171;
+    --color-incorrect-dim: rgba(248, 113, 113, 0.1);
+    --color-warning: #fbbf24;
+    --color-warning-dim: rgba(251, 191, 36, 0.1);
+    --color-info: #38bdf8;
+    --color-info-dim: rgba(56, 189, 248, 0.1);
+
+    --shadow-card: inset 0 1px 0 rgba(255,255,255,0.03), 0 0 0 1px rgba(255,255,255,0.02), 0 12px 40px rgba(0,0,0,0.6);
+    --shadow-card-hover: 0 0 0 1px rgba(255,255,255,0.08), 0 12px 40px rgba(111,114,242,0.12);
+    --shadow-glass: inset 0 1px 0 rgba(255,255,255,0.05), 0 0 0 1px rgba(255,255,255,0.03);
+    --shadow-glow-sm: 0 0 12px rgba(111,114,242,0.15);
+    --shadow-glow-md: 0 0 24px rgba(111,114,242,0.2);
+
+    --blur-glass: blur(48px);
+    --blur-card: blur(24px);
+    --blur-heavy: blur(64px);
+
+    --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+    --duration-fast: 150ms;
+    --duration-normal: 300ms;
+    --duration-slow: 500ms;
+    --duration-page: 600ms;
+
     --background: #000000;
     --foreground: #f5f5f5;
     --card-bg: #0a0a0a;
-    --card-border: rgba(255,255,255,0.04);
-    --accent: #5e6ad2;
-    --accent-soft: rgba(94,106,210,0.1);
-    --radius: 12px;
-    --radius-lg: 16px;
-    --radius-xl: 20px;
+    --card-border: rgba(255,255,255,0.03);
+    --accent-css: #6f72f2;
+    --accent-soft-css: rgba(111,114,242,0.1);
+    /* legacy aliases */
+    --accent: #6f72f2;
+    --accent-soft: rgba(111,114,242,0.1);
   }
 
   .light {
+    --color-surface-0: #fcfcfc;
+    --color-surface-1: #ffffff;
+    --color-surface-2: #f8f8fb;
+    --color-surface-3: #f4f4f5;
+    --color-surface-4: #eef0f5;
+
+    --color-border-dim: rgba(0, 0, 0, 0.03);
+    --color-border-subtle: rgba(0, 0, 0, 0.05);
+    --color-border-default: rgba(0, 0, 0, 0.08);
+    --color-border-strong: rgba(0, 0, 0, 0.12);
+
+    --color-text-primary: #111113;
+    --color-text-secondary: #66666d;
+    --color-text-tertiary: #a1a1aa;
+
+    --color-accent: #434ce6;
+    --color-accent-soft: #6366f1;
+    --color-accent-dim: rgba(67, 76, 230, 0.08);
+    --color-accent-glow: rgba(67, 76, 230, 0.18);
+
+    --shadow-card: 0 0 0 1px rgba(0,0,0,0.03), 0 4px 16px rgba(0,0,0,0.02);
+    --shadow-card-hover: 0 0 0 1px rgba(0,0,0,0.05), 0 8px 32px rgba(0,0,0,0.04);
+    --shadow-glass: 0 0 0 1px rgba(0,0,0,0.04);
+    --shadow-glow-sm: 0 0 12px rgba(67,76,230,0.1);
+    --shadow-glow-md: 0 0 24px rgba(67,76,230,0.12);
+
+    --blur-glass: blur(24px);
+    --blur-card: blur(16px);
+
     --background: #ffffff;
     --foreground: #111111;
     --card-bg: #ffffff;
-    --card-border: rgba(0,0,0,0.05);
+    --card-border: rgba(0,0,0,0.04);
+    --accent-css: #111111;
+    --accent-soft-css: rgba(17,17,17,0.05);
     --accent: #434ce6;
     --accent-soft: rgba(67,76,230,0.08);
+  }
+
+  .oled {
+    --color-surface-0: #000000;
+    --color-surface-1: #000000;
+    --color-surface-2: #050505;
+    --color-surface-3: #0a0a0a;
+    --color-surface-4: #0f0f0f;
+
+    --color-border-dim: rgba(255, 255, 255, 0.05);
+    --color-border-subtle: rgba(255, 255, 255, 0.08);
+    --color-border-default: rgba(255, 255, 255, 0.10);
+    --color-border-strong: rgba(255, 255, 255, 0.15);
+
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #777777;
+    --color-text-tertiary: #555555;
+
+    --color-accent: #ffffff;
+    --color-accent-soft: #a1a1aa;
+    --color-accent-dim: rgba(255, 255, 255, 0.08);
+    --color-accent-glow: rgba(255, 255, 255, 0.12);
+
+    --shadow-card: 0 0 0 1px rgba(255,255,255,0.05);
+    --shadow-card-hover: 0 0 0 1px rgba(255,255,255,0.12), 0 12px 40px rgba(255,255,255,0.04);
+    --shadow-glass: 0 0 0 1px rgba(255,255,255,0.04);
+    --shadow-glow-sm: 0 0 12px rgba(255,255,255,0.08);
+    --shadow-glow-md: 0 0 24px rgba(255,255,255,0.1);
+
+    --blur-glass: blur(48px);
+    --blur-card: blur(32px);
   }
 
   *,
@@ -41,31 +161,32 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  letter-spacing: -0.02em;
-  line-height: 1.5;
+  font-family: 'Satoshi', -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  letter-spacing: -0.015em;
+  line-height: 1.6;
   overflow-x: hidden;
   position: relative;
 }
 
-/* Mesh gradient for dark themes (Cool Elegance) */
+/* Mesh gradient for dark themes (Luxury Deep Cool) */
 body::before {
   content: '';
   position: fixed;
   top: 0; left: 0; right: 0; bottom: 0;
   pointer-events: none;
   z-index: -1;
-  background-image: 
-    radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.08) 0px, transparent 50%),
-    radial-gradient(at 100% 0%, rgba(79, 70, 229, 0.06) 0px, transparent 50%);
+  background-image:
+    radial-gradient(at 15% 15%, rgba(111, 114, 242, 0.08) 0px, transparent 40%),
+    radial-gradient(at 85% 85%, rgba(72, 76, 194, 0.05) 0px, transparent 40%);
   background-size: cover;
   background-position: center;
   opacity: 1;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.7s ease;
 }
 
 /* Hide mesh gradient in light and OLED themes for purity */
-.light body::before, .oled body::before {
+.light body::before, .oled body::before,
+body.light::before, body.oled::before {
   opacity: 0;
 }
 
@@ -102,6 +223,12 @@ body::before {
 }
 .light .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: rgba(0,0,0,0.2);
+}
+
+/* ── Core keyframes used by Skeleton & primitives ────── */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
 }
 
 /* ── Selection ────────────────────────────────────────── */

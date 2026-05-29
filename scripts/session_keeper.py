@@ -32,7 +32,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-DEFAULT_INTERVAL = 1800  # 30 dakika
+DEFAULT_INTERVAL = 1200  # 20 dakika (Task Scheduler tetikleyicisiyle hizalı)
 NOTEBOOKLM_URL = "https://notebooklm.google.com/"
 
 

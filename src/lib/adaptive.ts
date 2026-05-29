@@ -1,20 +1,18 @@
 /**
- * DUS Bankası — Adaptive Soru Seçim Motoru (Faz 4)
+ * DUS Bankası — Adaptive Soru Seçim Motoru
  *
- * Rapor §3.3: Priority queue — 3 sinyal birleştirme
- *   Sinyal 1 — FSRS Urgency:   Gecikmiş kartlar öncelikli, gecikme gün sayısıyla orantılı ağırlık.
- *   Sinyal 2 — Weakness Score: Hata pattern + doğruluk oranı düşük sorulara ek ağırlık.
- *   Sinyal 3 — Interleaving:   Ardışık sorular farklı derslerden seçilir (discriminative learning).
+ * Priority queue — 2 sinyal birleştirme:
+ *   Sinyal 1 — Weakness Score:      Hata pattern + doğruluk oranı düşük sorulara ağırlık.
+ *   Sinyal 2 — New Exploration:     Hiç görülmemiş sorular keşif önceliği alır.
+ *   + Interleaving:                 Ardışık sorular farklı derslerden seçilir (discriminative learning).
  *
- * Ek: 7-günlük FSRS review yükü projeksiyonu (Rapor §2.4 Katman 3)
+ * NOT: Aktif tekrar (FSRS spaced repetition) Anki tarafında yürütülür — burada vade/urgency YOKTUR.
  */
 
 import type { Question } from '../data';
 import type { StatsMap } from './stats';
-import { todayStr, addDays } from './dateUtils';
 import { fisherYates } from './shuffle';
 import { DEFAULT_ADAPTIVE_WEIGHTS, type AdaptiveWeights } from '../config/learning';
-import { difficultyLabel } from './fsrs';
 
 // ─── Sabitler ──────────────────────────────────────────────────────────────
 // Ağırlıklar src/config/learning.ts'ten gelir — runtime'da override edilebilir.
@@ -30,56 +28,35 @@ export function getAdaptiveWeights(): AdaptiveWeights {
   return { ..._weights };
 }
 
-// ─── Yardımcılar ───────────────────────────────────────────────────────────
-
-function daysBetween(a: string, b: string): number {
-  const msA = new Date(a).getTime();
-  const msB = new Date(b).getTime();
-  return Math.round((msB - msA) / (1000 * 60 * 60 * 24));
-}
-
 // ─── Priority Hesaplama ────────────────────────────────────────────────────
 
 interface ScoredQuestion {
   question: Question;
   priority: number;
-  reason: 'overdue' | 'weak' | 'new';
+  reason: 'weak' | 'new';
 }
 
 /**
  * Tek soruya 0-1 arası priority skoru hesaplar.
  * Yüksek score = daha erken verilmeli.
  */
-function scoreQuestion(q: Question, stats: StatsMap, today: string): ScoredQuestion {
+function scoreQuestion(q: Question, stats: StatsMap): ScoredQuestion {
   const stat = stats[q.id];
 
-  // Yeni kart — hiç çözülmemiş
+  // Yeni soru — hiç çözülmemiş
   if (!stat || stat.attempts === 0) {
     return { question: q, priority: _weights.newExploration * Math.random(), reason: 'new' };
   }
 
-  // Sinyal 1: FSRS Urgency
-  const nextReview = stat.nextReview ?? today;
-  const overdueDays = Math.max(0, daysBetween(nextReview, today));
-  // Normalise: 0 gün gecikme → 0, 30+ gün → 1.0 (log-scale yumuşatma)
-  const urgency = overdueDays > 0
-    ? Math.min(1, Math.log1p(overdueDays) / Math.log1p(30))
-    : 0;
-
-  // Sinyal 2: Weakness Score
-  const correctRate = stat.attempts > 0 ? stat.corrects / stat.attempts : 0.5;
+  // Weakness Score: düşük doğruluk + fazla yanlış seçim kaydı → yüksek weakness
+  const correctRate = stat.corrects / stat.attempts;
   const wrongChoiceCount = stat.wrongChoices?.length ?? 0;
-  // Düşük doğruluk + fazla yanlış seçim kaydı → yüksek weakness
   const weaknessBase = 1 - correctRate; // 0-1 arası
   const wrongBonus = Math.min(1, wrongChoiceCount / 10); // 10+ yanlış → max bonus
   const weakness = Math.min(1, weaknessBase * 0.7 + wrongBonus * 0.3);
 
-  // Ağırlıklı birleştirme
-  const raw = _weights.fsrsUrgency * urgency + _weights.weakness * weakness;
-  const priority = Math.min(1, raw) + Math.random() * 0.02; // tiny jitter (tie-break)
-
-  const reason: ScoredQuestion['reason'] = overdueDays > 0 ? 'overdue' : 'weak';
-  return { question: q, priority, reason };
+  const priority = Math.min(1, _weights.weakness * weakness) + Math.random() * 0.02; // tiny jitter (tie-break)
+  return { question: q, priority, reason: 'weak' };
 }
 
 // ─── Interleaving Filter ───────────────────────────────────────────────────
@@ -109,13 +86,11 @@ function applyInterleaving(scored: ScoredQuestion[], limit: number): Question[] 
 
 export type SmartQueueOptions = {
   limit?: number;          // max soru sayısı (default 50)
-  includeDue?: boolean;    // FSRS vadesi gelmiş dahil et (default true)
   includeWeak?: boolean;   // zayıf sorular dahil et (default true)
   includeNew?: boolean;    // yeni sorular dahil et (default true)
 };
 
 export type SmartQueueStats = {
-  overdueCount: number;
   weakCount: number;
   newCount: number;
   totalSelected: number;
@@ -130,20 +105,17 @@ export function buildSmartQueue(
   stats: StatsMap,
   options: SmartQueueOptions = {}
 ): { questions: Question[]; breakdown: SmartQueueStats } {
-  const { limit = 50, includeDue = true, includeWeak = true, includeNew = true } = options;
-  const today = todayStr();
+  const { limit = 50, includeWeak = true, includeNew = true } = options;
 
   const scored: ScoredQuestion[] = [];
 
   for (const q of questions) {
-    const s = scoreQuestion(q, stats, today);
+    const s = scoreQuestion(q, stats);
 
     // Filtre: kullanıcı tercihleri
-    if (s.reason === 'overdue' && !includeDue) continue;
     if (s.reason === 'weak' && !includeWeak) continue;
     if (s.reason === 'new' && !includeNew) continue;
 
-    // Vadesi gelmemiş ve zayıf değil → düşük öncelikli yeni/tekrar soru
     scored.push(s);
   }
 
@@ -153,50 +125,12 @@ export function buildSmartQueue(
   const inSet = new Set(interleaved.map(q => q.id));
   const selected = scored.filter(s => inSet.has(s.question.id));
   const breakdown: SmartQueueStats = {
-    overdueCount: selected.filter(s => s.reason === 'overdue').length,
     weakCount: selected.filter(s => s.reason === 'weak').length,
     newCount: selected.filter(s => s.reason === 'new').length,
     totalSelected: interleaved.length,
   };
 
   return { questions: interleaved, breakdown };
-}
-
-// ─── FSRS 7-Günlük Review Yükü Projeksiyonu ───────────────────────────────
-// Rapor §2.4 Katman 3
-
-export type DayForecast = {
-  date: string;       // YYYY-MM-DD
-  label: string;      // 'Bugün', 'Yarın', 'Pzt' vb.
-  count: number;      // o gün vadesi gelen kart sayısı
-  isToday: boolean;
-};
-
-const DAY_LABELS = ['Paz', 'Pzt', 'Sal', 'Çar', 'Per', 'Cum', 'Cmt'];
-
-/**
- * FSRS `nextReview` tarihlerine bakarak gelecek `days` günün review yükünü tahmin eder.
- * NOT: Bu projeksiyon anlık bir snapshot — FSRS state değiştikçe tahmin değişir.
- */
-export function getForecastNextDays(stats: StatsMap, days = 7): DayForecast[] {
-  const today = todayStr();
-  const forecast: DayForecast[] = [];
-
-  for (let i = 0; i < days; i++) {
-    const date = addDays(today, i);
-    const dayOfWeek = new Date(date).getDay();
-    const label = i === 0 ? 'Bugün' : i === 1 ? 'Yarın' : DAY_LABELS[dayOfWeek];
-    forecast.push({ date, label, count: 0, isToday: i === 0 });
-  }
-
-  for (const stat of Object.values(stats)) {
-    if (!stat.nextReview || stat.attempts === 0) continue;
-    const nr = stat.nextReview;
-    const entry = forecast.find(f => f.date === nr);
-    if (entry) entry.count++;
-  }
-
-  return forecast;
 }
 
 // ─── Günlük Plan Orkestrasyon Yardımcıları ─────────────────────────────────
@@ -310,12 +244,87 @@ export function buildUnitQueue(
   return [...unseen, ...seen];
 }
 
+// ─── Görülme Durumuna Göre Dağılım (80 / 15 / 5) ────────────────────────────
+// Deneme, Favori, Simülasyon ve Günün Denemesi havuzları aynı seçim oranını paylaşır:
+//   %80 hiç görülmemiş · %15 daha önce en az 1 kez yanlış · %5 doğru çözülmüş.
+// Bir kova yetersizse açık, görülmemiş öncelikli olarak kalan sorulardan kapatılır.
+
+export const EXPOSURE_MIX = { unseen: 0.8, wrongBefore: 0.15, correctBefore: 0.05 } as const;
+
+/** DUS simülasyonunda havuz dışı bırakılan ders adları (normalize edilmiş). */
+function isExcludedSimLesson(lesson: string): boolean {
+  const n = lesson.trim().toLocaleLowerCase('tr');
+  return n.includes('yanlışlar') || n.includes('yanlislar');
+}
+
+type ExposureBuckets = { unseen: Question[]; wrongBefore: Question[]; correctBefore: Question[] };
+
+/** Soruları görülme/doğruluk durumuna göre 3 kovaya ayırır. */
+function partitionByExposure(qs: Question[], stats: StatsMap): ExposureBuckets {
+  const unseen: Question[] = [];
+  const wrongBefore: Question[] = [];
+  const correctBefore: Question[] = [];
+  for (const q of qs) {
+    const s = stats[q.id];
+    if (!s || s.attempts === 0) unseen.push(q);
+    else if (s.corrects < s.attempts) wrongBefore.push(q); // en az 1 kez yanlış
+    else correctBefore.push(q);                             // çözülmüş ve hep doğru
+  }
+  return { unseen, wrongBefore, correctBefore };
+}
+
+/**
+ * Bir soru havuzundan `count` adet soruyu EXPOSURE_MIX oranında seçer.
+ * wrongBefore kovası en çok yanlış yapılan önce gelecek şekilde sıralanır;
+ * diğer kovalar Fisher-Yates ile karıştırılır. Açık varsa görülmemiş → yanlış →
+ * doğru sırasıyla kalan sorulardan doldurulur. Çıktı sırası bozulmaz (çağıran shuffle eder).
+ */
+export function pickByExposureMix(qs: Question[], count: number, stats: StatsMap): Question[] {
+  if (count <= 0 || qs.length === 0) return [];
+
+  const { unseen, wrongBefore, correctBefore } = partitionByExposure(qs, stats);
+
+  const unseenShuffled = fisherYates(unseen);
+  const wrongSorted = [...wrongBefore].sort((a, b) => {
+    const sa = stats[a.id], sb = stats[b.id];
+    const wa = sa.attempts - sa.corrects;
+    const wb = sb.attempts - sb.corrects;
+    if (wb !== wa) return wb - wa; // daha çok yanlış önce
+    return (sa.corrects / sa.attempts) - (sb.corrects / sb.attempts); // doğruluk düşük önce
+  });
+  const correctShuffled = fisherYates(correctBefore);
+
+  let nUnseen = Math.round(count * EXPOSURE_MIX.unseen);
+  const nWrong = Math.round(count * EXPOSURE_MIX.wrongBefore);
+  let nCorrect = count - nUnseen - nWrong;
+  if (nCorrect < 0) { nUnseen += nCorrect; nCorrect = 0; }
+
+  const selected = [
+    ...unseenShuffled.slice(0, nUnseen),
+    ...wrongSorted.slice(0, nWrong),
+    ...correctShuffled.slice(0, nCorrect),
+  ];
+
+  if (selected.length < count) {
+    const usedIds = new Set(selected.map(q => q.id));
+    const leftovers = [
+      ...unseenShuffled.slice(nUnseen),
+      ...wrongSorted.slice(nWrong),
+      ...correctShuffled.slice(nCorrect),
+    ].filter(q => !usedIds.has(q.id));
+    selected.push(...leftovers.slice(0, count - selected.length));
+  }
+
+  return selected;
+}
+
 /**
  * DUS Simülasyon soru havuzu:
- *   - Her dersten eşit sayıda soru: Math.floor(amount / lessonCount) + remainder dağıtımı
- *   - Her derste: unseen 2× ağırlık + Fisher-Yates + dedupe
- *   - Görülmemiş ve çok yanlış yapılan sorular önceliklidir
- *   - Son global Fisher-Yates shuffle
+ *   - "YANLIŞLARIM" dersi havuz dışı bırakılır.
+ *   - Var olan derslerden eşit sayıda soru: Math.floor(amount / lessonCount) + remainder dağıtımı.
+ *   - Her derste EXPOSURE_MIX (80/15/5) oranıyla seçim yapılır.
+ *   - Bazı dersler yetersizse global açık, kalan (hariç tutulanlar dışındaki) sorulardan kapatılır.
+ *   - Son global Fisher-Yates shuffle ile sıra tamamen random hale getirilir.
  */
 export function buildSimulationPool(
   allQuestions: Question[],
@@ -324,6 +333,7 @@ export function buildSimulationPool(
 ): Question[] {
   const lessonMap = new Map<string, Question[]>();
   for (const q of allQuestions) {
+    if (isExcludedSimLesson(q.lesson)) continue; // YANLIŞLARIM hariç
     if (!lessonMap.has(q.lesson)) lessonMap.set(q.lesson, []);
     lessonMap.get(q.lesson)!.push(q);
   }
@@ -336,30 +346,28 @@ export function buildSimulationPool(
   const selected: Question[] = [];
 
   for (const [, qs] of lessonMap) {
-    const unseen = qs.filter(q => !stats[q.id] || stats[q.id].attempts === 0);
-    const seen = qs.filter(q => stats[q.id] && stats[q.id].attempts > 0);
-    const seenSorted = [...seen].sort((a, b) => {
-      const aRate = stats[a.id] ? stats[a.id].corrects / Math.max(1, stats[a.id].attempts) : 1;
-      const bRate = stats[b.id] ? stats[b.id].corrects / Math.max(1, stats[b.id].attempts) : 1;
-      return aRate - bRate;
-    });
-    const weighted = fisherYates([...unseen, ...unseen, ...seenSorted]);
-    const seenIds = new Set<string>();
-    const pool = weighted.filter(q => { if (seenIds.has(q.id)) return false; seenIds.add(q.id); return true; });
     const take = perLesson + (remainder > 0 ? 1 : 0);
     if (remainder > 0) remainder--;
-    selected.push(...pool.slice(0, Math.min(take, pool.length)));
+    selected.push(...pickByExposureMix(qs, take, stats));
+  }
+
+  // Bazı dersler yetersiz kaldıysa global açığı kapat
+  if (selected.length < amount) {
+    const usedIds = new Set(selected.map(q => q.id));
+    const rest = allQuestions.filter(q => !isExcludedSimLesson(q.lesson) && !usedIds.has(q.id));
+    selected.push(...pickByExposureMix(rest, amount - selected.length, stats));
   }
 
   return fisherYates(selected);
 }
 
 /**
- * Çoklu ünite sınav havuzu:
- *   - Her ünitede: unseen 2× ağırlık + fisherYates + dedupe → weighted pool
- *   - Üniteler arası interleave (round-robin pop)
- *   - Son global Fisher-Yates shuffle
- * (handleStartExam callsite'ında kullanılır.)
+ * Çoklu ünite sınav havuzu (Deneme / Favori modu):
+ *   - Her üniteden eşit sayıda soru: Math.floor(amount / unitCount) + remainder dağıtımı.
+ *   - Her ünitede EXPOSURE_MIX (80/15/5) oranıyla seçim yapılır.
+ *   - Bazı üniteler yetersizse açık, kalan ünite sorularından kapatılır.
+ *   - Son global Fisher-Yates shuffle ile sıra tamamen random hale getirilir.
+ *   (handleStartExam callsite'ında kullanılır; filter ile favori havuzu daraltılabilir.)
  */
 export function buildExamPool(
   allQuestions: Question[],
@@ -368,52 +376,47 @@ export function buildExamPool(
   amount: number,
   filter?: (q: Question) => boolean,
 ): Question[] {
+  if (units.length === 0) return [];
   const baseQuestions = filter ? allQuestions.filter(filter) : allQuestions;
 
-  const buildWeightedPool = (unitQs: Question[]): Question[] => {
-    const unseen = unitQs.filter(q => !stats[q.id] || stats[q.id].attempts === 0);
-    const seen   = unitQs.filter(q => stats[q.id] && stats[q.id].attempts > 0);
-    const weighted = fisherYates([...unseen, ...unseen, ...seen]);
-    const seen_ids = new Set<string>();
-    return weighted.filter(q => { if (seen_ids.has(q.id)) return false; seen_ids.add(q.id); return true; });
-  };
-
-  const pools = units.map(eu =>
-    [...buildWeightedPool(baseQuestions.filter(q => q.lesson === eu.lesson && q.unit === eu.unit))]
+  const unitPools = units.map(eu =>
+    baseQuestions.filter(q => q.lesson === eu.lesson && q.unit === eu.unit)
   );
 
-  let remainingAmount = amount;
-  const finalSelection: Question[] = [];
+  const perUnit = Math.floor(amount / units.length);
+  let remainder = amount - perUnit * units.length;
+  const selected: Question[] = [];
 
-  while (remainingAmount > 0 && pools.length > 0) {
-    for (let i = pools.length - 1; i >= 0; i--) {
-      if (remainingAmount <= 0) break;
-      if (pools[i].length > 0) {
-        finalSelection.push(pools[i].pop()!);
-        remainingAmount--;
-      } else {
-        pools.splice(i, 1);
-      }
-    }
+  for (const qs of unitPools) {
+    const take = perUnit + (remainder > 0 ? 1 : 0);
+    if (remainder > 0) remainder--;
+    selected.push(...pickByExposureMix(qs, take, stats));
   }
 
-  return fisherYates(finalSelection);
+  // Bazı üniteler yetersiz kaldıysa açığı diğer ünitelerin kalan sorularından kapat
+  if (selected.length < amount) {
+    const usedIds = new Set(selected.map(q => q.id));
+    const rest = unitPools.flat().filter(q => !usedIds.has(q.id));
+    selected.push(...pickByExposureMix(rest, amount - selected.length, stats));
+  }
+
+  return fisherYates(selected);
 }
 
 // ─── Günün Denemesi Havuzu ─────────────────────────────────────────────────
 
 export type DailyExamBreakdown = {
   totalPool: number;
-  newCount: number;
-  hardCount: number;
-  mediumCount: number;
-  easyCount: number;
+  unseenCount: number;   // hiç görülmemiş
+  wrongCount: number;    // daha önce en az 1 kez yanlış
+  correctCount: number;  // daha önce doğru çözülmüş
 };
 
 /**
  * Günün Denemesi soru havuzu:
- *   %80 yeni (hiç çözülmemiş) + %20 hard → medium → easy fallback.
- *   Eğer yeterli yeni soru yoksa kalan slot solved sorularla doldurulur.
+ *   Seçilen ünitelerden eşit dağılımla, EXPOSURE_MIX (80/15/5) oranında soru seçer
+ *   (%80 görülmemiş · %15 en az 1 yanlış · %5 doğru çözülmüş). Yetersizse görülmemiş
+ *   öncelikli olarak kalan sorulardan doldurulur.
  */
 export function buildDailyExam(
   allQuestions: Question[],
@@ -425,62 +428,18 @@ export function buildDailyExam(
     units.some(u => u.lesson === q.lesson && u.unit === q.unit)
   );
 
-  const newQs: Question[] = [];
-  const hardQs: Question[] = [];
-  const mediumQs: Question[] = [];
-  const easyQs: Question[] = [];
+  const questions = buildExamPool(allQuestions, units, stats, count);
 
-  for (const q of pool) {
-    const stat = stats[q.id];
-    if (!stat || stat.attempts === 0) {
-      newQs.push(q);
-    } else {
-      const label = difficultyLabel(stat.difficulty ?? 5);
-      if (label === 'hard') hardQs.push(q);
-      else if (label === 'medium') mediumQs.push(q);
-      else easyQs.push(q);
-    }
+  let unseenCount = 0, wrongCount = 0, correctCount = 0;
+  for (const q of questions) {
+    const s = stats[q.id];
+    if (!s || s.attempts === 0) unseenCount++;
+    else if (s.corrects < s.attempts) wrongCount++;
+    else correctCount++;
   }
 
-  const newShuffled = fisherYates([...newQs]);
-  const hardShuffled = fisherYates([...hardQs]);
-  const mediumShuffled = fisherYates([...mediumQs]);
-  const easyShuffled = fisherYates([...easyQs]);
-
-  const newTarget = Math.round(count * 0.8);
-  const reviewTarget = count - newTarget;
-
-  // Review slot: hard → medium → easy
-  const reviewSelected: Question[] = [];
-  reviewSelected.push(...hardShuffled.slice(0, reviewTarget));
-  if (reviewSelected.length < reviewTarget)
-    reviewSelected.push(...mediumShuffled.slice(0, reviewTarget - reviewSelected.length));
-  if (reviewSelected.length < reviewTarget)
-    reviewSelected.push(...easyShuffled.slice(0, reviewTarget - reviewSelected.length));
-
-  // New slot
-  const newSelected = newShuffled.slice(0, newTarget);
-
-  // Backfill: eğer toplamda count'a ulaşılamadıysa kalan solved sorular doldurur
-  const deficit = count - newSelected.length - reviewSelected.length;
-  if (deficit > 0) {
-    const usedIds = new Set([...newSelected, ...reviewSelected].map(q => q.id));
-    const remaining = [...hardShuffled, ...mediumShuffled, ...easyShuffled]
-      .filter(q => !usedIds.has(q.id));
-    reviewSelected.push(...remaining.slice(0, deficit));
-  }
-
-  const combined = fisherYates([...newSelected, ...reviewSelected]);
-
-  const selectedIds = new Set(combined.map(q => q.id));
   return {
-    questions: combined,
-    breakdown: {
-      totalPool: pool.length,
-      newCount: newSelected.filter(q => selectedIds.has(q.id)).length,
-      hardCount: hardShuffled.filter(q => selectedIds.has(q.id) && !newQs.some(n => n.id === q.id)).length,
-      mediumCount: mediumShuffled.filter(q => selectedIds.has(q.id) && !newQs.some(n => n.id === q.id)).length,
-      easyCount: easyShuffled.filter(q => selectedIds.has(q.id) && !newQs.some(n => n.id === q.id)).length,
-    },
+    questions,
+    breakdown: { totalPool: pool.length, unseenCount, wrongCount, correctCount },
   };
 }

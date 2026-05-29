@@ -19,6 +19,7 @@ import sys
 import asyncio
 import re
 import argparse
+import subprocess
 import uuid
 from pathlib import Path
 from datetime import datetime
@@ -100,19 +101,68 @@ def _auto_refresh_cookies() -> bool:
         return False
 
 
-async def ensure_auth(client) -> bool:
-    """Auth geçerliyse True döner. Bozuksa cookie yeniler, tekrar dener."""
+def _run_interactive_login() -> bool:
+    """Oturum tamamen düştüğünde GÖRÜNÜR 'notebooklm login' çalıştırır.
+
+    Bu terminalde tarayıcı açılır; kullanıcı Google'a giriş yapıp ENTER'a basar.
+    notebooklm-exhaust.py ile AYNI kütüphane kaynağını (LIB_PATH) kullanması için
+    PYTHONPATH alt sürece taşınır. True = login komutu başarıyla tamamlandı.
+    """
+    print("\n" + "=" * 60)
+    print("🔐 NotebookLM oturumu tamamen düşmüş — yeniden giriş gerekiyor.")
+    print("   Birazdan bu terminalde bir tarayıcı penceresi açılacak:")
+    print("     1) Google hesabınla giriş yap")
+    print("     2) NotebookLM ana sayfasını görene kadar bekle")
+    print("     3) BU TERMİNALE dönüp ENTER'a bas")
+    print("   Giriş tamamlanınca üretim kaldığı yerden otomatik sürer.")
+    print("=" * 60 + "\n", flush=True)
+
+    env = os.environ.copy()
+    if LIB_PATH and os.path.isdir(LIB_PATH):
+        env["PYTHONPATH"] = LIB_PATH + os.pathsep + env.get("PYTHONPATH", "")
+    try:
+        result = subprocess.run([sys.executable, "-m", "notebooklm", "login"], env=env)
+        return result.returncode == 0
+    except Exception as e:
+        print(f"   ❌ Otomatik 'notebooklm login' başlatılamadı: {e}")
+        print("   Lütfen terminalde elle 'notebooklm login' çalıştırıp tekrar dene.")
+        return False
+
+
+async def ensure_auth(client, allow_interactive: bool = True) -> bool:
+    """Auth geçerliyse True döner.
+
+    Bozuksa kademeli kurtarma: (1) sessiz headless cookie tazeleme,
+    o da olmazsa (oturum tamamen düştüyse) (2) GÖRÜNÜR 'notebooklm login'.
+    allow_interactive=False ise yalnızca sessiz tazeleme denenir.
+    """
     try:
         cookies = load_auth_from_storage(get_storage_path())
         await fetch_tokens(cookies)
         return True
     except Exception:
-        print("🔄 Auth süresi dolmuş — Chrome'dan taze cookie alınıyor...")
-        if _auto_refresh_cookies():
+        print("🔄 Auth süresi dolmuş — önce sessiz cookie tazeleme deneniyor...")
+        if await asyncio.to_thread(_auto_refresh_cookies):
             await client.refresh_auth()
-            print("✅ Oturum yenilendi.")
+            print("✅ Oturum sessizce yenilendi.")
             return True
-        print("❌ Cookie yenilenemedi. Tarayıcıda Google'a giriş yapıldığından emin ol.")
+
+        if not allow_interactive:
+            print("❌ Sessiz cookie yenileme başarısız (interaktif login kapalı).")
+            return False
+
+        # Oturum tamamen düştü → kullanıcının göreceği interaktif login
+        if await asyncio.to_thread(_run_interactive_login):
+            try:
+                cookies = load_auth_from_storage(get_storage_path())
+                await fetch_tokens(cookies)
+                await client.refresh_auth()
+                print("✅ Giriş tamamlandı — üretim kaldığı yerden sürüyor.")
+                return True
+            except Exception as e:
+                print(f"❌ Giriş sonrası oturum doğrulanamadı: {e}")
+                return False
+        print("❌ Giriş tamamlanamadı. Tarayıcıda Google oturumunu kontrol et.")
         return False
 
 if sys.platform == "win32":
@@ -548,11 +598,11 @@ async def process_unit_exhaustive(client, lesson, unit_name, file_path, dry_run=
 
             if isinstance(classified, AuthError):
                 print(f"   🔐 Auth hatası: {e}")
-                try:
-                    await client.refresh_auth()
+                # Sessiz tazeleme + gerekirse görünür login; başarılıysa üniteyi
+                # bu deneme turunda tekrar dene (finally kaynak temizliğini yapar).
+                if await ensure_auth(client):
                     continue
-                except Exception:
-                    raise FatalError(str(e))
+                raise FatalError(str(e))
 
             elif isinstance(classified, RetryableError):
                 backoff = RETRY_BACKOFF[min(attempt - 1, len(RETRY_BACKOFF) - 1)]
@@ -630,7 +680,10 @@ async def main():
     parser.add_argument("--dry-run", action="store_true", help="Supabase'e yazmadan test")
     parser.add_argument("--uncovered-only", action="store_true", help="Faz 0'ı atlar, loglardan uncovered dosyasını yükleyip işler")
     parser.add_argument("--concept-file", default=None, help="Harici kavram listesi dosyası (.txt)")
-    parser.add_argument("--audit", action="store_true", help="Her ünite bitince otomatik kalite denetimi (Ölüm Maçı) çalıştır")
+    parser.add_argument("--audit", dest="audit", action="store_true", default=True,
+                        help="Her ünite bitince otomatik kalite denetimi (Ölüm Maçı) — VARSAYILAN AÇIK")
+    parser.add_argument("--no-audit", dest="audit", action="store_false",
+                        help="Üretim sonrası kalite denetimini atla (yalnızca üretim)")
     args = parser.parse_args()
 
     print("\n" + "=" * 60)

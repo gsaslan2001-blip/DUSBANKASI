@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useHotkeys } from 'react-hotkeys-hook';
 
 export type KeyboardShortcutOptions = {
   onNext: (skip: boolean) => void;
@@ -11,31 +11,41 @@ export type KeyboardShortcutOptions = {
 };
 
 /**
- * Keyboard shortcuts for QuizView. Behavior mirrors App.tsx:1286-1302.
- * - Space / ArrowRight: next (only if answered)
- * - ArrowLeft: previous
- * - a/b/c/d/e or 1/2/3/4/5: pick option (only if not yet answered/historized)
- * - s: skip (only if not answered)
+ * Keyboard shortcuts for QuizView. Behavior preserved 1:1 with the previous
+ * useEffect+addEventListener implementation. Now powered by react-hotkeys-hook.
+ *
+ * Bindings:
+ * - Space / ArrowRight: next (only when answered)
+ * - ArrowLeft: previous (always)
+ * - a/b/c/d/e or 1/2/3/4/5: pick option (only when not yet answered/historized)
+ * - s: skip (only when not answered)
  */
 export function useKeyboardShortcuts(opts: KeyboardShortcutOptions): void {
   const { onNext, onPrev, onSkip, setSelected, isAnswered, isHistorized, enabled = true } = opts;
 
-  useEffect(() => {
-    if (!enabled) return;
-    const hk = (e: KeyboardEvent) => {
-      if (e.code === 'Space' && isAnswered) { e.preventDefault(); onNext(false); }
-      if (!isAnswered && !isHistorized) {
-        if (e.key === 'a' || e.key === '1') setSelected('A');
-        if (e.key === 'b' || e.key === '2') setSelected('B');
-        if (e.key === 'c' || e.key === '3') setSelected('C');
-        if (e.key === 'd' || e.key === '4') setSelected('D');
-        if (e.key === 'e' || e.key === '5') setSelected('E');
-      }
-      if (e.key === 'ArrowLeft') onPrev();
-      if (e.key === 'ArrowRight' && isAnswered) onNext(false);
-      if (e.key === 's' && !isAnswered) onSkip();
-    };
-    window.addEventListener('keydown', hk);
-    return () => window.removeEventListener('keydown', hk);
-  }, [onNext, onPrev, onSkip, setSelected, isAnswered, isHistorized, enabled]);
+  // Space → next
+  useHotkeys('space', (e) => { e.preventDefault(); onNext(false); }, {
+    enabled: enabled && isAnswered,
+  }, [onNext, enabled, isAnswered]);
+
+  // ArrowRight → next (only when answered)
+  useHotkeys('right', () => { onNext(false); }, {
+    enabled: enabled && isAnswered,
+  }, [onNext, enabled, isAnswered]);
+
+  // ArrowLeft → previous
+  useHotkeys('left', () => { onPrev(); }, { enabled }, [onPrev, enabled]);
+
+  // s → skip (only when not answered)
+  useHotkeys('s', () => { onSkip(); }, {
+    enabled: enabled && !isAnswered,
+  }, [onSkip, enabled, isAnswered]);
+
+  // Option pickers — only when not yet answered/historized
+  const canPick = enabled && !isAnswered && !isHistorized;
+  useHotkeys('a, 1', () => setSelected('A'), { enabled: canPick }, [setSelected, canPick]);
+  useHotkeys('b, 2', () => setSelected('B'), { enabled: canPick }, [setSelected, canPick]);
+  useHotkeys('c, 3', () => setSelected('C'), { enabled: canPick }, [setSelected, canPick]);
+  useHotkeys('d, 4', () => setSelected('D'), { enabled: canPick }, [setSelected, canPick]);
+  useHotkeys('e, 5', () => setSelected('E'), { enabled: canPick }, [setSelected, canPick]);
 }

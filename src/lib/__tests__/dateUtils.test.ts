@@ -60,10 +60,10 @@ describe('todayStr', () => {
   });
 
   it('zero-pads single-digit months and days', () => {
-    // Simulate Jan 5
-    const fakeDate = new Date(2024, 0, 5);
+    const OriginalDate = Date;
+    const fakeDate = new OriginalDate(2024, 0, 5);
     vi.spyOn(globalThis, 'Date').mockImplementation(((...args: any[]) =>
-      args.length === 0 ? fakeDate : new (Date as any)(...args)) as any
+      args.length === 0 ? fakeDate : new OriginalDate(...(args as [number, number, number]))) as any
     );
     expect(todayStr()).toBe('2024-01-05');
   });

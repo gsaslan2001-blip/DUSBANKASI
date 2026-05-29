@@ -107,6 +107,8 @@ export function saveQuestionStat(
     wrongChoices: nextWrong,
   };
   localStorage.setItem(STATS_KEY, JSON.stringify(stats));
+  localStorage.setItem(PENDING_SYNC_KEY, '1');
+  notifySyncStatus();
 
   // Streak güncelle
   updateStreak();
@@ -263,6 +265,32 @@ export type ActivityPoint = {
   incorrect: number;
   byLesson: Record<string, LessonDayStat>;
 };
+
+function mergeActivityLogs(localLog: ActivityLog, cloudLog: ActivityLog): ActivityLog {
+  const mergedLog: ActivityLog = { ...localLog };
+  for (const [date, cloudRaw] of Object.entries(cloudLog)) {
+    const cloud = normalizeActivity(cloudRaw as number | DailyActivity);
+    const local = normalizeActivity(localLog[date]);
+    if (cloud.total > local.total) {
+      mergedLog[date] = {
+        total: cloud.total,
+        correct: Math.max(cloud.correct, local.correct),
+        incorrect: Math.max(cloud.incorrect, local.incorrect),
+        byLesson: { ...local.byLesson, ...cloud.byLesson },
+      };
+    }
+  }
+  return mergedLog;
+}
+
+function mergeStreakData(local: StreakData, cloud: StreakData): StreakData {
+  const useCloud = !local.lastStudyDate || (cloud.lastStudyDate ?? '') >= local.lastStudyDate;
+  return {
+    currentStreak: useCloud ? cloud.currentStreak : local.currentStreak,
+    lastStudyDate: useCloud ? cloud.lastStudyDate : local.lastStudyDate,
+    longestStreak: Math.max(cloud.longestStreak ?? 0, local.longestStreak),
+  };
+}
 
 /** Son N günün aktivite verisini döner (count = o günün toplam çözüm sayısı). */
 export function getRecentActivity(days = 14): ActivityPoint[] {
@@ -511,11 +539,28 @@ export async function syncStatsUp(): Promise<PushStatsResult> {
 
   // Activity log + streak — yalnızca giriş yapılmışsa
   if (userId) {
+    const [cloudActivityResult, cloudStreakResult] = await Promise.allSettled([
+      pullUserData(userId, 'activity_log'),
+      pullUserData(userId, 'streak'),
+    ]);
+
+    const activityToPush =
+      cloudActivityResult.status === 'fulfilled' && cloudActivityResult.value != null
+        ? mergeActivityLogs(loadActivityLog(), cloudActivityResult.value as ActivityLog)
+        : loadActivityLog();
+    const streakToPush =
+      cloudStreakResult.status === 'fulfilled' && cloudStreakResult.value != null
+        ? mergeStreakData(loadStreak(), cloudStreakResult.value as StreakData)
+        : loadStreak();
+
+    localStorage.setItem(ACTIVITY_KEY, JSON.stringify(activityToPush));
+    localStorage.setItem(STREAK_KEY, JSON.stringify(streakToPush));
+
     await Promise.allSettled([
-      pushUserData(userId, 'activity_log', loadActivityLog()).catch(e =>
+      pushUserData(userId, 'activity_log', activityToPush).catch(e =>
         console.warn('[syncStatsUp] activity_log push:', e)
       ),
-      pushUserData(userId, 'streak', loadStreak()).catch(e =>
+      pushUserData(userId, 'streak', streakToPush).catch(e =>
         console.warn('[syncStatsUp] streak push:', e)
       ),
     ]);
@@ -538,11 +583,16 @@ export async function syncStatsDown(): Promise<void> {
   if (!currentSyncUserId) return;
 
   // Bekleyen push varsa önce onu dene
-  if (localStorage.getItem(PENDING_SYNC_KEY) === '1') {
+  const hadPendingSync = localStorage.getItem(PENDING_SYNC_KEY) === '1';
+  let pendingPushFailed = false;
+  if (hadPendingSync) {
     try {
       await syncStatsUp();
       localStorage.removeItem(PENDING_SYNC_KEY);
-    } catch { /* local veriyle devam et */ }
+      notifySyncStatus();
+    } catch {
+      pendingPushFailed = true;
+    }
   }
 
   // Tüm cloud verilerini paralel çek
@@ -556,64 +606,46 @@ export async function syncStatsDown(): Promise<void> {
   if (cloudStatsResult.status === 'fulfilled') {
     const allCloudStats = cloudStatsResult.value;
     if (Object.keys(allCloudStats).length > 0) {
-      const localStats = loadAllStats();
-      const merged: StatsMap = { ...localStats };
-      for (const [id, cloud] of Object.entries(allCloudStats)) {
-        const local = localStats[id];
-        const cloudSeen = cloud.lastSeen ?? '';
-        const localSeen = local?.lastSeen ?? '';
-        const cloudWins = !local || cloudSeen > localSeen ||
-          (cloudSeen === localSeen && cloud.attempts > (local?.attempts ?? 0));
-        const attempts = Math.max(cloud.attempts, local?.attempts ?? 0);
-        const corrects = Math.max(cloud.corrects, local?.corrects ?? 0);
-        merged[id] = {
-          attempts,
-          corrects,
-          lastSeen: [cloudSeen, localSeen].sort().reverse()[0],
-          difficulty: (cloudWins ? cloud.difficulty : local?.difficulty) ?? accuracyToDifficulty(corrects, attempts),
-          wrongChoices: mergeWrongChoices(local?.wrongChoices ?? [], cloud.wrongChoices ?? []),
-        };
+      let nextStats: StatsMap = allCloudStats;
+
+      if (pendingPushFailed) {
+        const localStats = loadAllStats();
+        nextStats = { ...localStats };
+        for (const [id, cloud] of Object.entries(allCloudStats)) {
+          const local = localStats[id];
+          const cloudSeen = cloud.lastSeen ?? '';
+          const localSeen = local?.lastSeen ?? '';
+          const cloudWins = !local || cloudSeen > localSeen ||
+            (cloudSeen === localSeen && cloud.attempts > (local?.attempts ?? 0));
+          const attempts = Math.max(cloud.attempts, local?.attempts ?? 0);
+          const corrects = Math.max(cloud.corrects, local?.corrects ?? 0);
+          nextStats[id] = {
+            attempts,
+            corrects,
+            lastSeen: [cloudSeen, localSeen].sort().reverse()[0],
+            difficulty: (cloudWins ? cloud.difficulty : local?.difficulty) ?? accuracyToDifficulty(corrects, attempts),
+            wrongChoices: mergeWrongChoices(local?.wrongChoices ?? [], cloud.wrongChoices ?? []),
+          };
+        }
       }
-      localStorage.setItem(STATS_KEY, JSON.stringify(merged));
+
+      localStorage.setItem(STATS_KEY, JSON.stringify(nextStats));
       // Fallback: cloud'da activity_log yoksa lastSeen'den tahmin et
       if (cloudActivityResult.status === 'rejected' || cloudActivityResult.value == null) {
-        _mergeActivityFromStats(merged);
+        _mergeActivityFromStats(nextStats);
       }
     }
   }
 
   // ── Activity log merge ─────────────────────────────────────────────────────
   if (cloudActivityResult.status === 'fulfilled' && cloudActivityResult.value != null) {
-    const cloudLog = cloudActivityResult.value as ActivityLog;
-    const localLog = loadActivityLog();
-    const mergedLog: ActivityLog = { ...localLog };
-    for (const [date, cloudRaw] of Object.entries(cloudLog)) {
-      const cloud = normalizeActivity(cloudRaw as number | DailyActivity);
-      const local = normalizeActivity(localLog[date]);
-      // Her tarih için MAX al — iki cihazda aynı gün çalışıldıysa büyük olanı tut
-      if (cloud.total > local.total) {
-        mergedLog[date] = {
-          total: cloud.total,
-          correct: Math.max(cloud.correct, local.correct),
-          incorrect: Math.max(cloud.incorrect, local.incorrect),
-          byLesson: { ...local.byLesson, ...cloud.byLesson },
-        };
-      }
-    }
+    const mergedLog = mergeActivityLogs(loadActivityLog(), cloudActivityResult.value as ActivityLog);
     localStorage.setItem(ACTIVITY_KEY, JSON.stringify(mergedLog));
   }
 
   // ── Streak merge ───────────────────────────────────────────────────────────
   if (cloudStreakResult.status === 'fulfilled' && cloudStreakResult.value != null) {
-    const cloud = cloudStreakResult.value as StreakData;
-    const local = loadStreak();
-    // En güncel lastStudyDate'i tut; longestStreak max al
-    const useCloud = !local.lastStudyDate || (cloud.lastStudyDate ?? '') >= local.lastStudyDate;
-    const merged: StreakData = {
-      currentStreak: useCloud ? cloud.currentStreak : local.currentStreak,
-      lastStudyDate: useCloud ? cloud.lastStudyDate : local.lastStudyDate,
-      longestStreak: Math.max(cloud.longestStreak ?? 0, local.longestStreak),
-    };
+    const merged = mergeStreakData(loadStreak(), cloudStreakResult.value as StreakData);
     localStorage.setItem(STREAK_KEY, JSON.stringify(merged));
   }
 }

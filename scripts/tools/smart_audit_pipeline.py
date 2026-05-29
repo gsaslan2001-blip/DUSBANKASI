@@ -32,7 +32,9 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "l
 
 from config import SUPABASE_URL, SUPABASE_KEY
 from lib.db_layer import batch_flag, batch_delete, fetch_all_questions
-from lib.audit_logic import find_duplicates, curate_pairs, write_curation_summary
+from lib.audit_logic import (
+    find_duplicates, curate_pairs, curate_pairs_async, write_curation_summary,
+)
 
 LOG_DIR    = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "logs"))
 REPORT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "raporlar"))
@@ -58,8 +60,15 @@ def preview_actions(ids_to_action: list, mode: str):
 # ─── Rapor Kaydetme ───────────────────────────────────────────────────────────
 
 def save_dupe_report(lesson: str, results: list) -> str:
+    import re
+    from datetime import datetime
+    
+    safe_name = re.sub(r'[^\w\s-]', '_', lesson).replace(" ", "_")
+    safe_name = re.sub(r'_+', '_', safe_name).strip('_')
+    ts = datetime.now().strftime("%Y%m%d_%H%M%S")
+    
     report_path = os.path.join(
-        REPORT_DIR, f"{lesson.lower().replace(' ', '_')}_expl_dupes.json"
+        REPORT_DIR, f"{safe_name.lower()}_expl_dupes_{ts}.json"
     )
     with open(report_path, "w", encoding="utf-8") as f:
         json.dump(
@@ -77,19 +86,27 @@ async def run_audit(
     mode: str = "flag",
     dry_run: bool = False,
     interactive: bool = False,
+    unit: str = None,
+    concurrency: int = 8,
+    cross_unit: bool = False,
 ) -> tuple[int, int]:
-    """Programatik giriş noktası. notebooklm-exhaust.py buraya çağırır."""
+    """Programatik giriş noktası. notebooklm-exhaust.py buraya çağırır.
+
+    unit verilirse yalnızca o ünitenin soruları çekilip kıyaslanır (hızlı, izole).
+    concurrency: paralel ölüm maçı eşzamanlılık limiti (interaktif modda yok sayılır)."""
+    scope = f"{lesson.upper()}" + (f" / {unit}" if unit else "") + (" [Çapraz Ünite]" if cross_unit else "")
     print(f"\n{'='*60}")
     print(f"  DUSBANKASI HYBRID PRODUCTION GATE v3")
-    print(f"  Ders: {lesson.upper()}")
+    print(f"  Kapsam: {scope}")
     print(f"  Mod : {'DRY-RUN' if dry_run else mode.upper()}"
           f"{' + INTERACTIVE' if interactive and not dry_run else ''}")
     print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"{'='*60}\n")
 
-    # Aşama 1 — Veri Çekme (async)
+    # Aşama 1 — Veri Çekme (async, opsiyonel ünite filtresi)
     async with aiohttp.ClientSession() as session:
-        questions = await fetch_all_questions(lesson, session)
+        fetch_unit = None if cross_unit else unit
+        questions = await fetch_all_questions(lesson, session, unit=fetch_unit)
 
     if len(questions) < 2:
         print("   ⚠️ Yeterli soru yok. Pipeline sonlandırıldı.")
@@ -104,12 +121,18 @@ async def run_audit(
         print("\n✅ Kopya çift bulunamadı. Veritabanı tertemiz!")
         return len(questions), 0
 
-    save_dupe_report(lesson, results)
-
     # Aşama 2 — Akıllı Kürasyon (Ölüm Maçı)
-    print(f"\n[Aşama 2] Manifesto Temelli Akıllı Kürasyon...")
-    ids_to_action, curation_log = curate_pairs(results, interactive=(interactive and not dry_run))
-    write_curation_summary(lesson, results, curation_log, REPORT_DIR)
+    report_label = f"{lesson} — {unit}" if unit else lesson
+    
+    save_dupe_report(report_label, results)
+
+    if interactive and not dry_run:
+        print(f"\n[Aşama 2] Manifesto Temelli Akıllı Kürasyon (interaktif)...")
+        ids_to_action, curation_log = curate_pairs(results, interactive=True)
+    else:
+        print(f"\n[Aşama 2] Manifesto Temelli Akıllı Kürasyon (paralel)...")
+        ids_to_action, curation_log = await curate_pairs_async(results, concurrency=concurrency)
+    write_curation_summary(report_label, results, curation_log, REPORT_DIR)
 
     if not ids_to_action:
         print("\n✅ Kürasyon tamamlandı. Tüm adaylar testten geçti.")
@@ -139,16 +162,21 @@ async def run_audit(
 def main():
     parser = argparse.ArgumentParser(description="DUSBANKASI Evrensel Hibrit Üretim Kapısı")
     parser.add_argument("--lesson", required=True)
+    parser.add_argument("--unit", default=None, help="Yalnızca bu üniteyi denetler (hızlı, izole)")
     parser.add_argument("--delete", action="store_true", help="Kopyaları kalıcı olarak siler")
     parser.add_argument("--dry-run", action="store_true", help="İşlem yapmadan sadece raporlar")
     parser.add_argument("--interactive", action="store_true", help="Her karar için onay ister")
+    parser.add_argument("--cross-unit", action="store_true", help="Ders genelinde çapraz ünite taraması yapar")
+    parser.add_argument("--concurrency", type=int, default=8,
+                        help="Paralel ölüm maçı eşzamanlılık limiti (varsayılan 8)")
     args = parser.parse_args()
 
     mode = "delete" if args.delete else "flag"
-    
+
     try:
         total_qs, total_affected = asyncio.run(
-            run_audit(args.lesson, mode, args.dry_run, args.interactive)
+            run_audit(args.lesson, mode, args.dry_run, args.interactive,
+                      unit=args.unit, concurrency=args.concurrency, cross_unit=args.cross_unit)
         )
 
         action_word = (

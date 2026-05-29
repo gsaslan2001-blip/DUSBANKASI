@@ -12,8 +12,9 @@ import urllib.parse
 from datetime import datetime
 from config import (
     SUPABASE_URL, SUPABASE_KEY, RECOVERY_DIR,
-    REJECTED_DIR, MIN_STEM_WORDS, MAX_ANSWER_OVERLAP_RATIO,
-    MAX_EXPL_OVERLAP_RATIO, OPENAI_API_KEY
+    REJECTED_DIR, MIN_STEM_WORDS, MIN_EXPL_WORDS, MAX_ANSWER_OVERLAP_RATIO,
+    MAX_EXPL_OVERLAP_RATIO, OPENAI_API_KEY,
+    AI_FILLER_PHRASES, MOJIBAKE_SIGNATURES,
 )
 
 try:
@@ -163,8 +164,24 @@ def extract_json(text):
         print(f"   ⚠️ JSON Parse Hatası: {e}")
 
     # AUDIT: K1 — parse tamamen başarısız, boş liste dön (exception raise etme)
+    # Kayıpsızlık: ham yanıtı diske dök ki veri elle kurtarılabilsin.
+    _dump_raw_response(text)
     print("   ⚠️ extract_json: JSON çıkarılamadı, boş liste dönülüyor.")
     return []
+
+
+def _dump_raw_response(text):
+    """Parse edilemeyen ham AI yanıtını recovery/raw/ altına yazar (veri kaybını önler)."""
+    try:
+        raw_dir = os.path.join(os.path.dirname(RECOVERY_DIR), "raw")
+        os.makedirs(raw_dir, exist_ok=True)
+        ts = datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+        filepath = os.path.join(raw_dir, f"unparsed_{ts}.txt")
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(text or "")
+        print(f"   💾 Ham yanıt kurtarma için kaydedildi: {filepath}")
+    except Exception as e:
+        print(f"   ⚠️ Ham yanıt kaydedilemedi: {e}")
 
 
 # ═══════════════════════════════════════════════
@@ -316,16 +333,40 @@ def _write_to_supabase(questions, lesson_name, unit_name):
         f"{q.get('question', '')} {q.get('explanation', '')}"
         for q in questions
     ]
+    stem_texts = [q.get('question', '') or " " for q in questions]
+    expl_texts = [q.get('explanation', '') or " " for q in questions]
+    
     embeddings = []
+    stem_embeddings = []
+    expl_embeddings = []
+    
     if openai_client and semantic_texts:
+        import time as _time
         try:
-            resp = openai_client.embeddings.create(
-                model="text-embedding-3-small",
-                input=semantic_texts
-            )
-            embeddings = [item.embedding for item in resp.data]
+            for chunk_idx in range(0, len(semantic_texts), 50):
+                c_sem = semantic_texts[chunk_idx:chunk_idx+50]
+                c_stem = stem_texts[chunk_idx:chunk_idx+50]
+                c_expl = expl_texts[chunk_idx:chunk_idx+50]
+
+                r_sem = openai_client.embeddings.create(
+                    model="text-embedding-3-large", input=c_sem, dimensions=1536
+                )
+                embeddings.extend([item.embedding for item in r_sem.data])
+
+                r_stem = openai_client.embeddings.create(
+                    model="text-embedding-3-large", input=c_stem, dimensions=1536
+                )
+                stem_embeddings.extend([item.embedding for item in r_stem.data])
+
+                r_expl = openai_client.embeddings.create(
+                    model="text-embedding-3-large", input=c_expl, dimensions=1536
+                )
+                expl_embeddings.extend([item.embedding for item in r_expl.data])
+
+                if chunk_idx + 50 < len(semantic_texts):
+                    _time.sleep(0.5)
         except Exception as e:
-            print(f"   ⚠️ OpenAI Embedding hatası (sorular embeddingsiz eklenecek): {e}")
+            print(f"   ⚠️ OpenAI Embedding hatası (kalan sorular embeddingsiz eklenecek): {e}")
 
     # ── Row'ları oluştur ──
     rows = []
@@ -346,20 +387,41 @@ def _write_to_supabase(questions, lesson_name, unit_name):
         }
         if embeddings and i < len(embeddings):
             row["embedding"] = embeddings[i]
+        if stem_embeddings and i < len(stem_embeddings):
+            row["stem_embedding"] = stem_embeddings[i]
+        if expl_embeddings and i < len(expl_embeddings):
+            row["explanation_embedding"] = expl_embeddings[i]
         rows.append(row)
 
-    # ── Chunked yazma (HTTP 500 engelleyici) ──
+    # ── Chunked yazma (HTTP 500 engelleyici) + geçici hata retry ──
+    # Geçici 5xx/timeout'ta chunk kaybolmasın: exponential backoff ile tekrar dene.
+    # Kalıcı hata (4xx vb.) ya da retry tükenirse False döner → checkpoint korunur.
     import time as _time
+    _WRITE_BACKOFF = [2, 5, 12]  # saniye; geçici 5xx/timeout için
     total_written = 0
     for chunk_start in range(0, len(rows), _SUPABASE_WRITE_CHUNK):
         chunk = rows[chunk_start:chunk_start + _SUPABASE_WRITE_CHUNK]
         payload = json.dumps(chunk, ensure_ascii=False).encode("utf-8")
-        req = urllib.request.Request(url, data=payload, headers=headers, method="POST")
-        try:
-            urllib.request.urlopen(req)
-            total_written += len(chunk)
-        except Exception as e:
-            print(f"   ❌ Supabase Chunk Hatası ({chunk_start}-{chunk_start+len(chunk)}): {e}")
+        wrote = False
+        for attempt in range(len(_WRITE_BACKOFF) + 1):
+            req = urllib.request.Request(url, data=payload, headers=headers, method="POST")
+            try:
+                urllib.request.urlopen(req)
+                total_written += len(chunk)
+                wrote = True
+                break
+            except Exception as e:
+                classified = classify_error(e)
+                # Yalnız geçici hatalarda tekrar dene; kalıcı hatada hemen vazgeç
+                if isinstance(classified, RetryableError) and attempt < len(_WRITE_BACKOFF):
+                    wait = _WRITE_BACKOFF[attempt]
+                    print(f"   ⏳ Supabase chunk {chunk_start}-{chunk_start+len(chunk)} geçici hata, "
+                          f"{wait}s sonra tekrar ({attempt+1}/{len(_WRITE_BACKOFF)}): {e}")
+                    _time.sleep(wait)
+                    continue
+                print(f"   ❌ Supabase Chunk Hatası ({chunk_start}-{chunk_start+len(chunk)}): {e}")
+                break
+        if not wrote:
             return False
         # Supabase rate-limit'e karşı kısa bekleme
         if chunk_start + _SUPABASE_WRITE_CHUNK < len(rows):
@@ -393,10 +455,22 @@ def _validate_single_question(q):
     if not stem or len(stem.split()) < MIN_STEM_WORDS:
         return False, f"kisa_stem:{len(stem.split())}kelime"
 
-    # Filtre 1.d — Explanation boş mu? (boş = düşük kalite)
+    # Filtre 1.d — Explanation boş mu / çok mu kısa? (boş/tek kelime = düşük kalite)
     expl = (q.get("explanation") or "").strip()
     if not expl:
         return False, "bos_explanation"
+    if len(expl.split()) < MIN_EXPL_WORDS:
+        return False, f"kisa_explanation:{len(expl.split())}kelime"
+
+    # Filtre 1.e — AI motivasyonel/dolgu cümlesi (manifesto yasağı)
+    expl_lower = expl.lower()
+    if any(phrase in expl_lower for phrase in AI_FILLER_PHRASES):
+        return False, "ai_dolgu_cumlesi"
+
+    # Filtre 1.f — Bozuk karakter / mojibake (geçerli tıbbi terimler etkilenmez)
+    raw_blob = stem + " " + expl + " " + " ".join(str(v) for v in opts.values())
+    if any(sig in raw_blob for sig in MOJIBAKE_SIGNATURES):
+        return False, "bozuk_karakter"
 
     # Filtre 3 — Asimetrik Kapsama (Bilgi Sızıntısı / Information Leakage)
     correct_text = opts.get(ca, "")
@@ -432,7 +506,8 @@ _TR_STOPWORDS = {
     "bunun", "bunlar", "şuna", "şunu", "ona", "onu", "bunları", "şunları",
     "onları", "aşağıdaki", "aşağıda", "yukarıdaki", "hangisi", "birinde",
     "birini", "birinin", "hepsi", "tüm", "tamamı",
-    "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x", 
+    "i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x",
+    "ı", "ıı", "ııı", "ıv",
 }
 
 _TR_STOPWORDS_EK = {
@@ -472,7 +547,7 @@ _ALL_STOPWORDS = _TR_STOPWORDS | _TR_STOPWORDS_EK
 
 def _tokenize(text):
     """Küçük harfe çevirir, noktalama kaldırır, rakamları ve Türkçe gürültüsünü temizler, token seti döner."""
-    text = text.lower()
+    text = text.replace('I', 'ı').replace('İ', 'i').lower()
     text = re.sub(r'[^\w\s]', ' ', text)
     text = re.sub(r'\d+', ' ', text) 
     return set(text.split()) - _ALL_STOPWORDS

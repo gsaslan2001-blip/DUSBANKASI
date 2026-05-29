@@ -1,0 +1,362 @@
+[
+  {
+    "question": "Kırk sekiz yaşındaki erkek hasta, kliniğe şiddetli göğüs ağrısı şikayetiyle başvurmuştur. Alınan anamnezde ağrının sol omuza ve dördüncü, beşinci parmak uçlarına yayıldığı öğrenilmiştir. Hastanın ağrısı 40 dakikadır devam etmekte olup, dilaltı nitrogliserin tablet uygulamasına yanıt vermemiştir. Bu klinik tablo göz önüne alındığında, hastada öncelikle aşağıdakilerden hangisinden şüphelenilmelidir?",
+    "options": {
+      "A": "Stabil anjina pektoris",
+      "B": "Koroner arter spazmı",
+      "C": "Prinzmetal anjina",
+      "D": "Miyokard infarktüsü",
+      "E": "Akut sağ kalp yetmezliği"
+    },
+    "correctAnswer": "D",
+    "explanation": "Anjina pektoris ağrısı kalıcı doku hasarı yaratmaz ve istirahat ya da dilaltı nitrogliserin ile kısa sürede geriler. Ağrının 30 dakikadan uzun sürmesi, dinlenmeyle veya nitratlarla geçmemesi, iskeminin geri dönüşümsüz doku nekrozuna ilerlediği miyokard infarktüsü (MI) tablosunun en tipik klinik göstergesidir."
+  },
+  {
+    "question": "Aşağıdaki klinik bulgulardan hangisi, sağ kalp yetmezliği gelişen bir hastanın anamnez veya fizik muayenesinde saptanması **en az olasıdır**?",
+    "options": {
+      "A": "Eforda dispne ve ortopne",
+      "B": "Alt ekstremitelerde periferal ödem",
+      "C": "Juguler venöz basıncın artışı",
+      "D": "Atriyal fibrilasyon",
+      "E": "Venöz göllenme bulguları"
+    },
+    "correctAnswer": "A",
+    "explanation": "Sağ ventrikül yetmezliğinde sistemik venöz dönüş bozulur; bu durum retrograd olarak venöz göllenmeye, juguler ven basıncı artışına ve alt ekstremitelerde ödeme yol açar. Eforda dispne ve ortopne ise, sol ventrikülün atım hacminin azalması sonucu pulmoner kapiller yatakta hidrostatik basıncın artmasıyla gelişen sol kalp yetmezliği semptomlarıdır."
+  },
+  {
+    "question": "Amerikan Kalp Derneği'nin (AHA 2008) enfektif endokardit profilaksi kılavuzuna göre, penisilin alerjisi olmayan ve ilacı oral yoldan alabilen erişkin bir hastada diş çekimi öncesi standart profilaksi rejimi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İşlemden 1 saat önce 2 g Ampisilin IM",
+      "B": "İşlemden 1 saat önce 600 mg Klindamisin oral",
+      "C": "İşlemden 1 saat önce 1 g Sefazolin IV",
+      "D": "İşlemden 1 saat önce 50 mg/kg Amoksisilin oral",
+      "E": "İşlemden 1 saat önce 2 g Amoksisilin oral"
+    },
+    "correctAnswer": "E",
+    "explanation": "Yetişkinlerde bakteriyemiye neden olabilecek dental işlemlerden kaynaklanan enfektif endokarditi önlemek için standart farmakolojik yaklaşım, penisilin alerjisi olmayanlarda yüksek serum konsantrasyonu sağlayan amoksisilindir. Amerikan Kalp Derneği (AHA 2008) protokolüne göre bu ajan, işlemden 30-60 dakika önce oral yoldan tek doz 2 gram olarak uygulanmalıdır."
+  },
+  {
+    "question": "Subakut enfektif endokardit şüphesiyle konsülte edilen hastanın fizik muayenesinde, avuç içlerinde ve ayak tabanlarında maküler yapıda, kırmızı renkli ve ağrısız lekeler saptanmıştır. Bu klinik bulgu aşağıdakilerden hangisi ile isimlendirilir?",
+    "options": {
+      "A": "Osler nodülleri",
+      "B": "Janeway lekeleri",
+      "C": "Roth lekeleri",
+      "D": "Splinter kanamalar",
+      "E": "Eritema marginatum"
+    },
+    "correctAnswer": "B",
+    "explanation": "Enfektif endokarditte septik mikroembolilerin kapiller yatağı tıkaması sonucu çeşitli kutanöz belirtiler ortaya çıkar. Avuç içi ve ayak tabanında görülen, basmakla solmayan, maküler ve ağrısız hemorajik lezyonlar spesifik olarak Janeway lekeleri olarak adlandırılırken; Osler nodülleri parmak uçlarında ağrılı şişlikler olarak izlenir."
+  },
+  {
+    "question": "Antihipertansif ilaç kullanan hastalarda dental pratik sırasında pek çok oral ve sistemik yan etkiyle karşılaşılabilir. Aşağıdakilerden hangisi hipertansiyon tedavisi için kullanılan ilaçların neden olduğu oral bulgulardan biri **değildir**?",
+    "options": {
+      "A": "Gingival hiperplazi",
+      "B": "Likenoid lezyonlar",
+      "C": "Tükürük bezi atrofisi",
+      "D": "Ağızda yanma ve parestezi",
+      "E": "Ağız kuruluğu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Antihipertansif ajanların (özellikle kalsiyum kanal blokerleri ve diüretikler) farmakolojik etkileri oral mukozada sekonder doku yanıtlarına neden olur. Tükürük bezlerinde atrofi değil, aksine ilaca bağlı büyüme ve ağrı; diş etlerinde ise (özellikle nifedipin kaynaklı) gingival hiperplazi tablosu beklenir."
+  },
+  {
+    "question": "Amerikan Kalp Derneği (AHA 2008) kriterlerine göre, non-kardiyak nedenlere bağlı olarak sekonder immünsupresyon gelişen hastalarda da dental işlemler öncesi antibiyotik profilaksisi önerilmektedir. Aşağıdakilerden hangisi bu kapsamda profilaksi yapılması gereken durumlardan biri **değildir**?",
+    "options": {
+      "A": "HIV enfeksiyonu",
+      "B": "Bifosfonat tedavisi gören hastalar",
+      "C": "Ağır kombine immün yetmezlik sendromu",
+      "D": "Tip II diyabet hastaları",
+      "E": "Nötropeni tablosu"
+    },
+    "correctAnswer": "D",
+    "explanation": "İmmün sistemin baskılandığı kronik hastalıklarda (HIV, nötropeni, radyoterapi, bifosfonat kullanımı), oral floradaki fırsatçı patojenlerin sistemik dolaşıma katılarak lokal veya uzak organ enfeksiyonu yaratma riski yüksektir. Tip I diyabet bu hücresel ve immün yetmezlik tablosuna dahil edilerek profilaksi endikasyonu sayılırken, Tip II diyabette sekonder immünsupresyon kaynaklı rutin profilaksi zorunluluğu kaynağa göre belirtilmemiştir."
+  },
+  {
+    "question": "Beş yıl önce akut eklem romatizması (AER) tanısı almış olan 14 yaşındaki erkek hastanın anamnezinde, hastalığı sekelsiz atlattığı ve güncel ekokardiyografisinde herhangi bir kapak defekti veya kardit bulgusu olmadığı öğrenilmiştir. Bu hasta için dental işlemler öncesinde uygulanması gereken en uygun yaklaşım aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İşlemden 1 saat önce 50 mg/kg amoksisilin kullandırılmalıdır",
+      "B": "Sadece kardit ve kapak defekti olanlarda profilaksi gerektiğinden antibiyotik verilmemelidir",
+      "C": "Vazokonstrüktör içeren lokal anesteziklerden kesinlikle kaçınılmalıdır",
+      "D": "Hastanın rutin tedavisindeki aspirini işlemden 1 hafta önce kesilmelidir",
+      "E": "İşlem öncesi kanama zamanı ölçülerek genel anestezi altında tedavi planlanmalıdır"
+    },
+    "correctAnswer": "B",
+    "explanation": "Akut eklem romatizması (AER) geçiren her hastada kalıcı endokardiyal hasar oluşmaz. Profilaksi kararı hastanın AER geçmişine değil, kalbinde sekonder olarak gelişen kalıcı bir kardit veya kapak defekti bulunup bulunmamasına göre verilir; izole AER öyküsü tek başına antibiyotik profilaksisi endikasyonu doğurmaz."
+  },
+  {
+    "question": "Dental tedavi esnasında koltukta miyokard infarktüsü (MI) geçirmekte olan bir hastaya, hekimin profilaktik ağrı kontrolü ve acil müdahalesi kapsamında aşağıdaki ajanlardan hangisinin uygulanması **yanlıştır**?",
+    "options": {
+      "A": "Profilaktik olarak %10'luk lidokain (4-6 mg/kg)",
+      "B": "Acil trombolitik tedavi ajanları",
+      "C": "Sadece %100 saf oksijen inhilasyonu",
+      "D": "Morfin sülfat",
+      "E": "%35'lik nitröz oksit ve oksijen karışımı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Koltukta gelişen akut MI tablosunda doku perfüzyonunu korumak ve otonomik stresi azaltmak birincil acil müdahaledir. Ağrı kontrolü ve oksijen desteği saf %100 oranında değil, miyokardiyal vazodilatasyon ve analjezi sağlamak amacıyla %35 nitröz oksit ve %65 oksijen karışımı şeklinde uygulanmalıdır."
+  },
+  {
+    "question": "Yetişkin bir hastada enfektif endokardit profilaksisi planlanmaktadır. Hastanın penisilin alerjisi olduğu ve gastrointestinal bir problem sebebiyle ilaçları oral yoldan alamadığı bildirilmiştir. AHA 2008 kılavuzuna göre bu hastaya uygulanması gereken intravenöz (IV) profilaksi rejimi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sefazolin 1 g veya Klindamisin 600 mg",
+      "B": "Azitromisin 500 mg veya Klaritromisin 500 mg",
+      "C": "Ampisilin 2 g veya Sefazolin 2 g",
+      "D": "Sefaleksin 2 g veya Seftriakson 2 g",
+      "E": "Klindamisin 20 mg/kg veya Sefazolin 50 mg/kg"
+    },
+    "correctAnswer": "A",
+    "explanation": "Gastrointestinal emilim problemi olan ve penisilin grubu ilaçlara karşı alerji reaksiyonu potansiyeli taşıyan yetişkinlerde parenteral (IV/IM) yol tercih edilmelidir. Bu durumda 1 gram Sefazolin IV veya linkozamid grubundan 600 mg Klindamisin IV uygulanması AHA protokollerinin standart alternatifleridir."
+  },
+  {
+    "question": "Enfektif endokardit riski taşıyan bir hastada, bakteriyemiye yol açma potansiyeli değerlendirildiğinde aşağıdaki dental prosedürlerden hangisi öncesinde antibiyotik profilaksisi yapılması tavsiye **edilmez**?",
+    "options": {
+      "A": "Subgingival bölgeye fiber veya strip yerleştirilmesi",
+      "B": "Apeks ötesine geçen endodontik işlemler",
+      "C": "İntraligamenter lokal anestezi",
+      "D": "Avulse dişlerin reimplantasyonu",
+      "E": "Operasyon sonrası dikiş alınması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Profilaksi rejimi, periodontal dokuların zedelendiği, belirgin kanama oluşan ve bakterilerin direkt vasküler yatağa girdiği durumlarda gereklidir. Operasyon sonrası dikiş alınması, mukoza bütünlüğünü derinlemesine bozmayan yüzeysel bir işlem olduğundan AHA tarafından profilaksi tavsiye edilmeyen uygulamalar kategorisinde sınıflandırılmıştır."
+  },
+  {
+    "question": "Enfektif endokarditin etyopatogenezinde, mikroorganizmanın virülansı ile kalp kapağının mevcut durumu arasında doğrudan bir ilişki vardır. Romatizmal kalp hastalığı veya konjenital kalp hastalığı ile önceden hasara uğramış kalp kapaklarına yerleşerek subakut bakteriyel endokardite en sık neden olan mikroorganizma grubu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Staphylococcus aureus",
+      "B": "Gram (-) basiller",
+      "C": "Alfa hemolitik streptokoklar",
+      "D": "Pnömokoklar",
+      "E": "Meningokoklar"
+    },
+    "correctAnswer": "C",
+    "explanation": "Subakut bakteriyel endokarditin patofizyolojisinde, yüksek virülanslı ajanlar (S. aureus gibi) yerine, düşük virülanslı fırsatçı patojenlerin yavaş seyirli kolonizasyonu rol oynar. Romatizmal kapak sekellerinde ortaya çıkan türbülan kan akımı alanlarına en sık yerleşen etkenler, oral floranın dominant üyelerinden olan alfa hemolitik streptokoklardır."
+  },
+  {
+    "question": "Altmış beş yaşındaki kadın hastanın rutin dental muayenesi öncesi alınan kan basıncı değerleri sistolik 185 mmHg, diastolik 110 mmHg olarak ölçülmüştür. Hipertansiyon sınıflandırma kriterlerine göre bu hasta hangi kategoriye girmektedir?",
+    "options": {
+      "A": "Normal",
+      "B": "Hipertansiyon öncesi",
+      "C": "Sınıf I",
+      "D": "Sınıf II",
+      "E": "Sınıf III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Sistemik kan basıncı ölçümlerinde sistolik ve diastolik değerlerden yüksek olan kademe baz alınarak evreleme yapılır. Sistolik basıncın 180 mmHg ve üzerinde (veya diastolik >100 mmHg) ölçülmesi, hastayı doğrudan hipertansif kriz riski taşıyan Sınıf III kategorisine sokar."
+  },
+  {
+    "question": "Akut eklem romatizması (AER) sekeli olarak gelişen kalp anomalisi olan hastalarda dental işlemler sırasında dikkat edilmesi gereken kısıtlamalar mevcuttur. Bu hastaların tedavisinde aşağıdaki anestezi ve ilaç yaklaşımlarından hangisi kesinlikle **kontrendikedir**?",
+    "options": {
+      "A": "Adrenalinsiz lokal anestezik kullanımı",
+      "B": "Genel anestezi uygulaması",
+      "C": "Amoksisilin ile profilaksi yapılması",
+      "D": "İşlem öncesi antiseptik gargara kullandırılması",
+      "E": "Aspirinin cerrahi öncesi kesilmesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "AER sekeli kardiyak anomalisi olan hastalarda vazokonstrüktör maddeler stres kontrolü için lokal anesteziklerde dikkatli kullanılmalı, adrenalinsiz ajanlar tercih edilmelidir. Ancak kalp debisindeki ani düşüşler ve solunum depresyonu riski nedeniyle, bu hastalarda genel anestezi uygulanması yaşamsal fonksiyonları riske atacağından mutlak kontrendikedir."
+  },
+  {
+    "question": "Subakut enfektif endokardit riski taşıyan hastalarda yapılacak dental işlemlerin tipi, bakteriyemi oluşturma potansiyeli açısından büyük önem taşır. Bu risk grubundaki hastalarda bakteriyemiye yol açma olasılığı en düşük olan ve \"en emin tedavi\" olarak kabul edilen dental yaklaşım aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Periodontal küretaj",
+      "B": "Gingivektomi",
+      "C": "Diş çekimi",
+      "D": "Endodontik tedaviler",
+      "E": "Profilaksi uygulamaları"
+    },
+    "correctAnswer": "D",
+    "explanation": "Bakteriyemi insidansı, dental işlemin yarattığı doku travmasının ve vasküler ekspozürün büyüklüğü ile doğru orantılıdır. Endodontik işlemler kök kanalı ile sınırlı kaldığı sürece pulpal-vasküler alandan sistemik dolaşıma mikroorganizma geçiş riski diş çekimine kıyasla yaklaşık yedi kat daha düşüktür, bu yüzden enfeksiyon açısından en güvenli yoldur."
+  },
+  {
+    "question": "Kalp atım hızının ve ritminin bozulduğu disritmiler, kalbin hemodinamik verimliliğini düşürür. Özellikle konjestif kalp yetmezliği veya iskemik kalp hastalıkları tablosunda görülen ve serbest kalarak vücudun her yerinde tıkanıklıklara (emboli) neden olabilen tablo aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Atriyal fibrilasyon",
+      "B": "Ventriküler fibrilasyon",
+      "C": "Bradikardi",
+      "D": "Ventriküler taşikardi",
+      "E": "Atriyal taşikardi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Atriyumların etkili bir şekilde kasılamadığı ve sadece titrediği atriyal fibrilasyon durumunda, intra-atriyal kan göllenmesi (staz) meydana gelir. Göllenen bu kan koagüle olarak pıhtı oluşturur ve atriyumun aniden pompa fonksiyonu göstermesiyle bu pıhtı sistemik dolaşıma serbest bir emboli olarak fırlatılır."
+  },
+  {
+    "question": "Subakut enfektif endokarditin tanısında lokal ve sistemik belirtilerin yanı sıra karakteristik periferik belirtiler de önem taşır. I. Tırnak yatağının proksimalinde düzlemsel, kırmızı-kahverengi çizgiler \nII. El ve ayak parmaklarının ön yüzünde küçük, kırmızımsı ağrılı şişlikler \nIII. Etrafı eritemli oval, soluk renkli retinal lezyonlar Yukarıda tanımlanan belirtilerin isimlendirmesi sırasıyla hangi seçenekte doğru verilmiştir?",
+    "options": {
+      "A": "Splinter kanamalar - Janeway lekeleri - Osler nodülleri",
+      "B": "Janeway lekeleri - Roth lekeleri - Splinter kanamalar",
+      "C": "Osler nodülleri - Splinter kanamalar - Janeway lekeleri",
+      "D": "Roth lekeleri - Janeway lekeleri - Osler nodülleri",
+      "E": "Splinter kanamalar - Osler nodülleri - Roth lekeleri"
+    },
+    "correctAnswer": "E",
+    "explanation": "Bakteriyel endokardit embolilerinin periferik yansımaları spesifik lokalizasyonlar gösterir. Tırnak altı mikro-hemorajiler Splinter kanamalar olarak, immün kompleks birikimine bağlı el/ayak ön yüzündeki ağrılı şişlikler Osler nodülleri olarak ve retinadaki eritemli oval eksüdalar Roth lekeleri olarak adlandırılır."
+  },
+  {
+    "question": "Yedi yaşındaki konjenital siyanotik kalp hastası bir çocuk için süt dişi çekimi planlanmıştır. Çocuğun bilinen herhangi bir ilaç alerjisi yoktur ve oral yoldan ilaç alabilmektedir. AHA 2008 kılavuzuna göre bu hastaya uygulanması gereken standart profilaksi rejimi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Oral Amoksisilin 50 mg/kg",
+      "B": "Oral Klindamisin 20 mg/kg",
+      "C": "Oral Sefaleksin 50 mg/kg",
+      "D": "Oral Azitromisin 15 mg/kg",
+      "E": "Oral Ampisilin 50 mg/kg"
+    },
+    "correctAnswer": "A",
+    "explanation": "Siyanotik konjenital kalp hastası çocuklar, yüksek enfektif endokardit morbidite riski nedeniyle mutlaka profilaksi şemsiyesi altına alınmalıdır. Penisilin alerjisi olmayan ve yutma fonksiyonu normal olan çocuklarda AHA'nın birinci basamak ilacı, kilogram başına 50 mg dozunda uygulanan oral Amoksisilindir."
+  },
+  {
+    "question": "Diş hekimi muayenehanesine başvuran hastanın rutin kan basıncı ölçümünde sistolik değeri 150 mmHg, diastolik değeri ise 95 mmHg olarak kaydedilmiştir. Bu ölçüm sonuçlarına göre hastanın hipertansiyon sınıfı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Normal",
+      "B": "Hipertansiyon öncesi",
+      "C": "Sınıf II",
+      "D": "Sınıf I",
+      "E": "Sınıf III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Hipertansiyon teşhisinde referans alınan Joint National Committee kriterleri esastır. Ölçülen 150 mmHg sistolik (140-159 aralığında) ve 95 mmHg diastolik (90-99 aralığında) basınç değerleri, vasküler direncin hafif düzeyde arttığını gösteren Sınıf I hipertansiyon ile tam uyumludur."
+  },
+  {
+    "question": "Ortodontik tedavi gören ve kalp kapağı protezi taşıyan 16 yaşındaki hastanın tedavi seanslarında enfektif endokardit profilaksisine karar verilirken işlemin niteliği değerlendirilmelidir. Aşağıdaki ortodontik prosedürlerden hangisi öncesinde AHA 2008 kılavuzuna göre antibiyotik profilaksisi uygulanması **tavsiye edilir**?",
+    "options": {
+      "A": "Braketlerin diş yüzeyine yapıştırılması",
+      "B": "Ortodontik aparey uyumlanması",
+      "C": "Ortodontik bandların ilk yerleştirilmesi",
+      "D": "Hareketli ortodontik aparey uygulanması",
+      "E": "Braketler üzerinden ölçü alınması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Ortodontik bandların diş üzerine ilk yerleştirilmesi esnasında bant kenarları subgingival bölgeye mekanik basınç uygulayarak sulkus epitelini yırtar ve geçici bakteriyemiye yol açar. Ancak braketlerin sadece mine yüzeyine yapıştırılması, aparey uyumlanması veya ölçü alınması gibi işlemler kanama yaratmadığından AHA profilaksi listesine dahil edilmemiştir."
+  },
+  {
+    "question": "Akut eklem romatizması teşhisinde kullanılan Modifiye Jones Kriterleri, majör ve minör bulgular olarak ikiye ayrılır. Aşağıdakilerden hangisi hastalığın tanısında kullanılan majör kriterlerden biri **değildir**?",
+    "options": {
+      "A": "Kardit",
+      "B": "Akut faz reaktanlarında artış",
+      "C": "Poliartrit",
+      "D": "Korea",
+      "E": "Eritema marginatum"
+    },
+    "correctAnswer": "B",
+    "explanation": "Akut eklem romatizması tanısındaki Jones Kriterlerinde, doğrudan organ sistemlerindeki ağır inflamatuar yıkım bulguları (kardit, poliartrit, korea, eritema marginatum, derialtı nodülleri) majör kriter kabul edilir. Akut faz reaktanlarındaki artış, EKG'de PR uzaması veya ateş gibi spesifik olmayan sistemik enflamasyon bulguları ise minör kriterler sınıfındadır."
+  },
+  {
+    "question": "Yetmiş iki yaşındaki erkek hastanın anamnezinden, 12 gün önce miyokard infarktüsü (MI) geçirdiği ve hastaneden yeni taburcu olduğu öğrenilmektedir. Hasta, akut pulpitis ağrısı ile acil kliniğe başvurmuştur. Bu hastanın klinik risk yönetimi açısından değerlendirildiğinde, bu dönemde karşılaşılması en muhtemel hayati risk aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çeşitli aritmiler, dolaşım yetmezliği ve trombo-embolik fenomenler",
+      "B": "Kapak defektlerine bağlı akut bakteriyel endokardit",
+      "C": "Konjenital şantların sekonder olarak açılması",
+      "D": "Akut eklem romatizması atağının tetiklenmesi",
+      "E": "Digital zehirlenmesine bağlı paroksismal nokturnal dispne"
+    },
+    "correctAnswer": "A",
+    "explanation": "Akut MI'yi takip eden ilk üç hafta, enfarktüs alanındaki miyokard dokusunun elektriksel ve mekanik instabilitesinin en yüksek olduğu kritik vulnerabl dönemdir. Bu akut periyotta diş hekimi koltuğunda oluşacak endişe ve otonomik stres; ölümcül ventriküler aritmileri, dolaşım yetmezliğini veya trombo-embolik atakları direkt tetikleyebilir."
+  },
+  {
+    "question": "Konjestif kalp yetmezliği olan hastalar, efor ve istirahat sırasındaki semptomlarına göre sınıflandırılmaktadır. Dinlenme halindeyken bile semptomatik olan, günlük aktivitelerini dahi yerine getiremeyen bir kalp yetmezliği hastası hangi sınıfa dahildir?",
+    "options": {
+      "A": "Sınıf I",
+      "B": "Sınıf II",
+      "C": "Sınıf IV",
+      "D": "Sınıf III",
+      "E": "Hiçbiri (Özel sendrom sınıfı)"
+    },
+    "correctAnswer": "C",
+    "explanation": "Konjestif kalp yetmezliğindeki sınıflandırma skalası, kalbin efor tolerans kapasitesine dayanır. İstirahat halindeyken dahi doku perfüzyonunun yeterli sağlanamaması ve hastanın günlük rutini dışında yatakta otururken bile semptomatik olması, hastalığın son ve en ağır dönemi olan Sınıf IV tablosunu tanımlar."
+  },
+  {
+    "question": "Enfektif endokardit patogenezinde rol oynayan mikroorganizmaların özellikleri ve tutulum bölgeleri farklılık gösterir. Aşağıdakilerden hangisi subakut bakteriyel endokardit gelişiminin karakteristik özelliğidir?",
+    "options": {
+      "A": "S. aureus, pnömokoklar ve gonokokların baskın etken olması",
+      "B": "Sağlam ve hasarsız kalp kapaklarını doğrudan tutabilmesi",
+      "C": "Hızlı bir başlangıçla kısa sürede yüksek kapak hasarı yaratması",
+      "D": "Genellikle gram negatif basillerin neden olduğu yüksek ateşle seyretmesi",
+      "E": "Virülansı nispeten düşük mikroorganizmaların, önceden hasara uğramış kapaklara yerleşmesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Akut endokardit sağlıklı dokuyu parçalayan agresif bir tablo iken, subakut bakteriyel endokardit çok daha sinsi ilerler. Önceden geçirilmiş romatizmal ateş gibi nedenlerle endoteli zedelenmiş ve vejetasyonlar oluşmuş hasarlı kalp kapaklarına, S. viridans gibi virülansı nispeten düşük patojenlerin tutunması patofizyolojinin temelidir."
+  },
+  {
+    "question": "Dokuz yaşındaki kız hastaya diş çekimi planlanmaktadır. Anamnezinde onarılmış ancak yerleştirilen materyallerin komşu alanlarında residüel defekt kalmış konjenital kalp hastalığı ve penisilin alerjisi olduğu öğrenilmektedir. Hastanın ilaç yutmasında bir problemi yoktur. AHA 2008 kılavuzuna göre uygulanması gereken profilaktik ilaç ve dozu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sefazolin 50 mg/kg",
+      "B": "Klindamisin 20 mg/kg",
+      "C": "Amoksisilin 50 mg/kg",
+      "D": "Azitromisin 50 mg/kg",
+      "E": "Ampisilin 50 mg/kg"
+    },
+    "correctAnswer": "B",
+    "explanation": "Ameliyat edilmiş ancak onarılan bölgenin komşuluğunda rezidüel defekt barındıran konjenital kalp anomaliesi olan çocuklar AHA yüksek risk grubundadır. Hasta oral yoldan ilaç alabildiğinden ve penisiline alerjisi bulunduğundan; tercih edilecek alternatif oral antibiyotik, çocuk dozu spesifik olarak kilogram başına 20 mg olan Klindamisindir."
+  },
+  {
+    "question": "Stres altında anjina pektoris hikayesi olan risk grubu hastalarda, dental prosedürler sırasında kriz gelişmesini önlemek amacıyla profilaktik farmakolojik yaklaşım tercih edilebilir. Bu hastalarda profilaktik olarak kullanılması en uygun ajan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İntravenöz beta-adrenerjik blokörler",
+      "B": "İntramüsküler %10'luk lidokain",
+      "C": "Dilaltı kalsiyum kanal blokeri",
+      "D": "Dilaltı isosorbid dinitrat",
+      "E": "İntravenöz morfin sülfat"
+    },
+    "correctAnswer": "D",
+    "explanation": "Kardiyak iskemik eğilimi olan hastalarda, dental prosedürün yarattığı sempatik sinir sistemi deşarjı koroner damarlarda spazma ve oksijen ihtiyacında artışa neden olur. Bu potansiyel anjina krizini önlemek (profilaksi) amacıyla, kısa sürede sistemik vazodilatasyon sağlayıp kalbin çalışma yükünü hafifleten dilaltı isosorbid dinitrat uygulanması önerilir."
+  },
+  {
+    "question": "Diş tedavileri sırasında oluşan bakteriyeminin yoğunluğu ve süresi, işlemin türüne göre değişiklik gösterir. Enfektif endokardit riski taşıyan hastalarda bakteriyemi riski kıyaslandığında, diş çekiminin endodontik uygulamalara oranla yaklaşık kaç kat daha fazla bakteriyemiye yol açtığı kabul edilmektedir?",
+    "options": {
+      "A": "2 kat",
+      "B": "4 kat",
+      "C": "7 kat",
+      "D": "10 kat",
+      "E": "15 kat"
+    },
+    "correctAnswer": "C",
+    "explanation": "Diş çekimi sırasında hem periodontal ligament geniş çapta koparılır hem de zengin vasküler kemik içi soket direkt dış ortama açılarak dolaşıma yoğun bakteri hücumu başlar. Kök kanal sistemi anatomik olarak apikal foramen ile izole bir kompartman olduğundan, endodontik işlemlerde kana bakteri geçiş potansiyeli diş çekimine göre yedi kat daha azdır."
+  },
+  {
+    "question": "Diş eti oluğu içindeki bakteriler, dental işlemler sırasında oluşan bakteriyeminin en önemli kaynağını oluşturur. Diş çekimi sonrası bakteriyemi olasılığını önemli ölçüde azaltmak için işlem öncesinde rutin olarak uygulanması önerilen yöntem aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çekim soketine lokal antibiyotik tozu uygulanması",
+      "B": "Çekimden hemen önce intraligamenter vazokonstrüktör enjeksiyonu",
+      "C": "İşlem öncesi profilaktik sistemik glukokortikoid kullanımı",
+      "D": "Sadece çekim aletlerinin sterilizasyon süresinin iki katına çıkarılması",
+      "E": "Antiseptik ağız gargarası ile ağzın 30 saniye süre ile çalkalanması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Dental işlemler sırasında veya hemen sonrasında izlenen bakteriyeminin birincil biyolojik kaynağı, diş eti oluğunda (gingival sulkus) kolonize olmuş bakteriyel plaktır. Çekim işleminden hemen önce ağzın antiseptik bir gargara ile 30 saniye boyunca çalkalanması, lokal mukoza yüzeyindeki bakteri sayısını hızla düşürerek dolaşıma girecek patojen miktarını istatistiksel olarak anlamlı ölçüde azaltır."
+  },
+  {
+    "question": "Amerikan Kalp Derneği'nin (AHA 2008) kabul ettiği enfektif endokardit profilaksi kılavuzuna göre spesifik kardiyak anomalilerde antibiyotik kullanımı zorunludur. Aşağıdakilerden hangisi AHA 2008'e göre enfektif endokardit profilaksisi yapılması **kesinlikle tavsiye edilen** hasta gruplarından biri **değildir**?",
+    "options": {
+      "A": "Tam tedavi edilmiş ve rezidüel defekt bırakmamış masum kalp üfürümü olan hastalar",
+      "B": "Kalp kapağı hastalığı olan kalp nakli geçirmiş hastalar",
+      "C": "Geçirilmiş enfektif endokardit hikayesi olan hastalar",
+      "D": "Yapay kalp kapağı taşıyan hastalar",
+      "E": "Tedavi edilmemiş siyanotik konjenital kalp hastaları"
+    },
+    "correctAnswer": "A",
+    "explanation": "AHA 2008 kılavuzunda profilaksi endikasyonları, bakteriyeminin hayati tehdit oluşturduğu, endotelizasyonun bozuk olduğu spesifik kardiyak defektlerle sınırlandırılmıştır. Tam tedavi edilmiş ve geride yapısal (rezidüel) bir bozukluk bırakmayan patolojiler veya masum (fizyolojik) kalp üfürümleri, bakteriyel tutunma riski taşımadığından profilaksi çemberinin dışında bırakılmıştır."
+  },
+  {
+    "question": "Akut eklem romatizması, çeşitli sistemleri etkileyen sistemik inflamatuar bir hastalıktır ve dental müdahale öncesi profilaksi kararlarını etkiler. Bu hastalığa zemin hazırlayan akut faringeal enfeksiyona neden olan ana etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Alfa hemolitik streptokoklar",
+      "B": "Staphylococcus aureus",
+      "C": "Haemophilus influenzae",
+      "D": "A grubu beta hemolitik streptokoklar",
+      "E": "Viridans grubu streptokoklar"
+    },
+    "correctAnswer": "D",
+    "explanation": "Akut eklem romatizması, herhangi bir bakterinin doğrudan kalp dokusunu enfekte etmesiyle oluşmaz. Çoğunlukla farenjit gibi üst solunum yolu enfeksiyonlarına neden olan A grubu beta hemolitik streptokoklara karşı bağışıklık sisteminin ürettiği antikorların, çapraz reaksiyonla hastanın kendi eklem ve kalp kapak dokusuna saldırmasıyla gelişir."
+  },
+  {
+    "question": "Ellibeş yaşındaki erkek hasta, kliniğe restoratif dental işlemler için başvurmuştur. Anamnezinde kalp kasının kasılmasını artırmak amacıyla uzun süredir \"dijital\" grubu ilaç kullandığı öğrenilmiştir. Bu hastada kullanılan kardiyak ilacın dozu aşılırsa veya diğer ilaçlarla etkileşime girerse, aşağıdaki ciddi disritmilerden hangisinin habercisi tablolara yol açma riski **en yüksektir**?",
+    "options": {
+      "A": "Sadece iyi huylu ekstrasistoller",
+      "B": "Ventriküler fibrilasyon",
+      "C": "İzole sağ dal bloğu",
+      "D": "Sinüs taşikardisi",
+      "E": "Vazovagal senkop \n\n\n\n─────────────────────────"
+    },
+    "correctAnswer": "B",
+    "explanation": "Kalbin zayıflamış atım gücünü artırmak amacıyla kullanılan dijitaller (pozitif inotrop ajanlar), çok dar bir terapötik doz indeksine sahiptir ve kalp kası hücrelerinin uyarılabilirliğini ekstrem şekilde artırır. Bu hastada ilaç dozunun aşılması veya başka ilaçlarla (örneğin kalsiyum blokerleri) etkileşime girmesi durumunda, kalbin koordine kasılmasını bozan ölümcül ventriküler fibrilasyon disritmisi riski hızla yükselir.\n\n─────────────────────────"
+  }
+]

@@ -1,0 +1,6 @@
+# Supabase proje yapılandırması (Edge Functions için minimal).
+# project_id, Supabase URL'indeki proje referansıdır (vblndoyjmkgaeuihydyd.supabase.co).
+project_id = "vblndoyjmkgaeuihydyd"
+
+[functions.manage-questions]
+verify_jwt = false

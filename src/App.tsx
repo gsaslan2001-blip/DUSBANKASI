@@ -6,17 +6,18 @@ import { useAuth } from './hooks/useAuth';
 import { useRealtimeStats } from './hooks/useRealtimeStats';
 import { AuthModal } from './components/AuthModal';
 import type { Question } from './data';
-import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadStreak, getRecentActivity, getDueForReviewIds, migrateAllStatsToFSRSIfNeeded, loadAllStats, getDeviceId, resetAllStats, setSyncUserId, mergeWrongChoices, SyncManager } from './lib/stats';
+import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadAllStats, getDeviceId, resetAllStats, setSyncUserId, mergeWrongChoices, SyncManager } from './lib/stats';
 import ErrorAnalyticsView from './components/ErrorAnalyticsView';
 import SimulationResultView from './components/SimulationResultView';
+import StatisticsView from './components/StatisticsView';
 import type { AnswerDetail as SimAnswerDetail } from './components/SimulationResultView';
 import DailyPlanView from './components/DailyPlanView';
 import { SourceBooksView } from './components/SourceBooksView';
-import { buildSmartQueue, getForecastNextDays, buildUnitQueue, buildExamPool, buildSimulationPool } from './lib/adaptive';
+import { buildSmartQueue, buildUnitQueue, buildExamPool, buildSimulationPool } from './lib/adaptive';
 import {
   CheckCircle2, XCircle, ArrowRight, ArrowLeft, RotateCcw, BookOpen,
   ChevronRight, ChevronLeft, RefreshCw, LayoutGrid,
-  Upload, Download, AlertCircle, CheckCheck, Loader2, Trash2, Pencil, Star,
+  Upload, Download, AlertCircle, Loader2, Trash2, Pencil, Star,
   AlertTriangle, FileText, Settings, BarChart3, Zap, Brain, Target, Calendar,
   UserCircle, Skull, Microscope, HeartPulse, Brush, Syringe, Hourglass, Layers, ClipboardList
 } from 'lucide-react';
@@ -42,7 +43,7 @@ function Logo() {
     <img
       src="/logo.png"
       alt="DUSBANKASI Logo"
-      className="w-9 h-9 rounded-full object-cover drop-shadow-[0_0_8px_rgba(130,90,240,0.5)]"
+      className="w-9 h-9 rounded-2xl object-cover drop-shadow-[0_0_12px_rgba(130,90,240,0.6)]"
     />
   );
 }
@@ -90,7 +91,9 @@ function CountdownWidget() {
 
 /* --- MAIN APP --- */
 export default function App() {
-  const [appState, setAppState] = useState<AppState>('select-lesson');
+  const isPreviewMode = typeof window !== 'undefined' && window.location.search.includes('preview=sim');
+
+  const [appState, setAppState] = useState<AppState>(isPreviewMode ? 'simulation-result' : 'select-lesson');
   const [mode, setMode] = useState<'quiz' | 'exam'>('quiz');
   const [selectedLesson, setSelectedLesson] = useState('');
   const [selectedUnit, setSelectedUnit] = useState('');
@@ -123,7 +126,66 @@ export default function App() {
     sessionSaveError,
   } = useResumableSession(user?.id, questions);
   const [simTotalSeconds, setSimTotalSeconds] = useState<number | null>(null);
-  const [simResult, setSimResult] = useState<{ details: SimAnswerDetail[]; totalSeconds: number; usedSeconds: number } | null>(null);
+
+  // High fidelity mock data for ?preview=sim
+  const getMockDetails = (): SimAnswerDetail[] => {
+    const mockQs: { lesson: string; unit: string }[] = [
+      { lesson: 'Radyoloji', unit: 'Radyasyon Fiziği ve Biyolojisi' },
+      { lesson: 'Radyoloji', unit: 'Radyasyon Fiziği ve Biyolojisi' },
+      { lesson: 'Radyoloji', unit: 'Radyasyon Fiziği ve Biyolojisi' },
+      { lesson: 'Radyoloji', unit: 'Kistler' },
+      { lesson: 'Radyoloji', unit: 'Kistler' },
+      { lesson: 'Radyoloji', unit: 'Kistler' },
+      { lesson: 'Periodontoloji', unit: 'Periodontal Hastalık Sınıflandırması' },
+      { lesson: 'Periodontoloji', unit: 'Periodontal Hastalık Sınıflandırması' },
+      { lesson: 'Periodontoloji', unit: 'Periodontal Hastalık Sınıflandırması' },
+      { lesson: 'Patoloji', unit: 'Hücre Hasarı ve Uyum Reaksiyonları' },
+      { lesson: 'Patoloji', unit: 'Hücre Hasarı ve Uyum Reaksiyonları' },
+      { lesson: 'Patoloji', unit: 'Hücre Hasarı ve Uyum Reaksiyonları' },
+      { lesson: 'Fizyoloji', unit: 'Sinir-Kas Fizyolojisi' },
+      { lesson: 'Fizyoloji', unit: 'Sinir-Kas Fizyolojisi' },
+      { lesson: 'Fizyoloji', unit: 'Sinir-Kas Fizyolojisi' },
+      { lesson: 'Histoloji', unit: 'Epitel Dokusu' },
+      { lesson: 'Histoloji', unit: 'Epitel Dokusu' },
+      { lesson: 'Histoloji', unit: 'Epitel Dokusu' },
+    ];
+
+    const states: ('correct' | 'incorrect' | 'blank')[] = [
+      'correct', 'correct', 'incorrect', // Radyasyon Fiziği (66% - Geliştirilmeli)
+      'correct', 'incorrect', 'blank',    // Kistler (33% - Kritik Eksik)
+      'correct', 'correct', 'correct',    // Periodontal Hastalık (100%)
+      'correct', 'incorrect', 'incorrect', // Hücre Hasarı (33% - Kritik Eksik)
+      'correct', 'correct', 'correct',    // Sinir-Kas Fizyolojisi (100%)
+      'correct', 'correct', 'incorrect'   // Epitel Dokusu (66% - Geliştirilmeli)
+    ];
+
+    return mockQs.map((q, idx) => ({
+      question: {
+        id: `mock-q-${idx}`,
+        question: `Bu bir simülasyon önizleme sorusudur #${idx + 1}`,
+        options: { A: 'Seçenek A', B: 'Seçenek B', C: 'Seçenek C', D: 'Seçenek D', E: 'Seçenek E' },
+        correctAnswer: 'A',
+        explanation: 'Detaylı klinik açıklama buraya gelecektir.',
+        lesson: q.lesson,
+        unit: q.unit,
+        is_favorite: false
+      },
+      state: states[idx],
+      selectedOptionKey: states[idx] === 'correct' ? 'A' : states[idx] === 'incorrect' ? 'B' : null,
+      timeSpent: 15
+    }));
+  };
+
+  const [simResult, setSimResult] = useState<{ details: SimAnswerDetail[]; totalSeconds: number; usedSeconds: number } | null>(() => {
+    if (isPreviewMode) {
+      return {
+        details: getMockDetails(),
+        totalSeconds: 7200,
+        usedSeconds: 4320
+      };
+    }
+    return null;
+  });
   const [editingQuestion, setEditingQuestion] = useState<Question | null>(null);
   const [reportingQuestion, setReportingQuestion] = useState<Question | null>(null);
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'done' | 'error'>('idle');
@@ -133,7 +195,6 @@ export default function App() {
   const [todaysDailyExam, setTodaysDailyExam] = useState<DailyExamRow | null | 'loading'>('loading');
   const [isDailyExamSession, setIsDailyExamSession] = useState(false);
   const [activeDailyExamId, setActiveDailyExamId] = useState<string | undefined>(undefined);
-
   // Merkezi Dialog State
   const [dialog, setDialog] = useState<{
     type: 'alert' | 'confirm' | 'prompt';
@@ -160,25 +221,17 @@ export default function App() {
     userId: user?.id ?? null,
     deviceId: getDeviceId(),
     onStatUpdate: useCallback((questionId: string, stat) => {
-      // Başka cihazdan gelen FSRS güncellemesini localStorage'a merge et
+      // Başka cihazdan gelen güncellemeyi localStorage'a merge et
       const stats = loadAllStats();
       const local = stats[questionId];
-      const localLR = local?.lastReview ?? '';
-      const cloudLR = stat.lastReview ?? '';
-      if (!local || cloudLR > localLR) {
+      const localSeen = local?.lastSeen ?? '';
+      const cloudSeen = stat.lastSeen ?? '';
+      if (!local || cloudSeen > localSeen) {
         stats[questionId] = {
           attempts: Math.max(stat.attempts, local?.attempts ?? 0),
           corrects: Math.max(stat.corrects, local?.corrects ?? 0),
           lastSeen: stat.lastSeen || local?.lastSeen || '',
-          stability: stat.stability ?? local?.stability,
           difficulty: stat.difficulty ?? local?.difficulty,
-          lastReview: stat.lastReview ?? local?.lastReview ?? '',
-          scheduledDays: stat.scheduledDays ?? local?.scheduledDays ?? 1,
-          fsrsReps: stat.fsrsReps ?? local?.fsrsReps ?? 0,
-          easeFactor: local?.easeFactor ?? 2.5,
-          interval: local?.interval ?? 1,
-          repetitions: local?.repetitions ?? 0,
-          nextReview: local?.nextReview ?? todayStr(),
           wrongChoices: mergeWrongChoices(local?.wrongChoices ?? [], stat.wrongChoices ?? []),
         };
         localStorage.setItem('dus_question_stats', JSON.stringify(stats));
@@ -224,16 +277,7 @@ export default function App() {
     return () => { cancelled = true; };
   }, [user]);
 
-  useEffect(() => {
-    try {
-      const result = migrateAllStatsToFSRSIfNeeded();
-      if (result.migrated) {
-        console.log(`[FSRS Migration] ${result.count} kart migrate edildi.`);
-      }
-    } catch (err) {
-      console.warn('[FSRS Migration] Hata:', err);
-    }
-  }, []);
+
 
   useEffect(() => {
     if (sessionSaveError) {
@@ -577,18 +621,6 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
     setAppState('quiz');
   };
 
-  const handleDueReviewClick = () => {
-    const dueIds = getDueForReviewIds();
-    const dueQs = questions.filter(q => dueIds.includes(q.id));
-    if (dueQs.length === 0) {
-      showAlert('Bugün tekrar edilmesi gereken soru bulunamadı. FSRS-5 algoritmasına göre zamanı gelen sorular burada görünecek.', 'Bilgi');
-      return;
-    }
-    setExamQuestions(fisherYates(dueQs));
-    setMode('exam');
-    setAppState('quiz');
-  };
-
   const handleRetryIncorrect = (incorrectDetails: AnswerDetail[]) => {
     const retryQs = incorrectDetails.map(d => d.question);
     setExamQuestions(fisherYates(retryQs));
@@ -681,7 +713,24 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
   const theme = themeColors[settings.theme];
 
   return (
-    <div className={`h-screen ${theme.bg} ${theme.text} selection:bg-indigo-500/20 font-sans overflow-hidden flex flex-col`}>
+    <div className={`h-screen ${theme.bg} ${theme.text} selection:bg-indigo-500/20 font-sans overflow-hidden flex flex-col relative`}>
+      {loading && (
+        <div className="fixed top-14 inset-x-0 bottom-0 z-[9999] bg-[#0c061a]/80 backdrop-blur-2xl flex flex-col items-center justify-center overflow-hidden">
+          <div className="w-full max-w-lg px-6 flex flex-col items-center gap-6">
+            <video
+              src="/logo-animation.mp4"
+              autoPlay
+              muted
+              playsInline
+              className="w-64 h-64 rounded-3xl object-cover shadow-[0_0_50px_rgba(130,90,240,0.25)] border border-white/5"
+            />
+            <div className="flex flex-col items-center gap-1.5 animate-pulse mt-4">
+              <span className="text-white text-lg font-black tracking-widest uppercase">DUSBANKASI</span>
+              <span className="text-zinc-400 text-xs font-semibold font-medium">Sistem ve sorular hazırlanıyor...</span>
+            </div>
+          </div>
+        </div>
+      )}
       <header className={`${theme.headerBg} backdrop-blur-2xl border-b ${theme.border} z-50 shrink-0`}>
         <div className="max-w-[1400px] mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
           <div className="flex items-center gap-2.5 cursor-pointer group" onClick={handleGoBack}>
@@ -770,7 +819,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               <button onClick={() => loadQuestions()} className="btn btn-secondary btn-sm mt-2">Tekrar Dene</button>
             </div>
           ) : appState === 'analytics' ? (
-            <AnalyticsDashboard questions={questions} theme={theme} />
+            <StatisticsView questions={questions} theme={theme} />
           ) : appState === 'error-analysis' ? (
           <ErrorAnalyticsView
             questions={questions}
@@ -835,8 +884,6 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               favoritesCount={questions.filter(q => q.is_favorite).length}
               weakCount={getWeakQuestionIds().length}
               onWeakClick={handleWeakQuestionsClick}
-              dueCount={getDueForReviewIds().length}
-              onDueClick={handleDueReviewClick}
               onSimulationClick={handleSimulationClick}
               onDailyPlanClick={() => setAppState('daily-plan')}
               onDailyExamClick={handleDailyExamStart}
@@ -916,8 +963,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
             <DailyPlanView
               questions={questions}
               stats={loadAllStats()}
-              dueCount={getDueForReviewIds().length}
-              onStartReview={handleDueReviewClick}
+              weakCount={getWeakQuestionIds().length}
               onStartWeakUnit={(lesson, unit) => {
                 setSelectedLesson(lesson);
                 setSelectedUnit(unit);
@@ -1005,7 +1051,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
 type DailyExamStatus = 'loading' | 'no-user' | 'not-ready' | { dayNumber: number; questionCount: number; resumeAt?: number };
 
-function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, dueCount, onDueClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; dueCount: number; onDueClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; theme: Theme }) {
+function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; theme: Theme }) {
   return (
     <div className="anim-slide-up w-full">
       <div className="mb-10 pl-2">
@@ -1113,19 +1159,6 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
               </>
             )}
           </button>
-
-          {dueCount > 0 && (
-            <button onClick={onDueClick} className={`stagger-item col-span-1 md:col-span-2 lg:col-span-2 ${theme.cardGlass} rounded-[1.5rem] p-5 text-left card-hover group border border-violet-500/10 hover:border-violet-500/30 transition-all`}>
-              <div className="flex justify-between items-center mb-3">
-                <div className="w-10 h-10 rounded-xl bg-violet-500/10 flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <RotateCcw size={20} className="text-violet-400" />
-                </div>
-                <span className="text-2xl font-black text-violet-400">{dueCount}</span>
-              </div>
-              <div className="text-sm font-bold mb-0.5">Bugün Tekrar</div>
-              <div className={`${theme.subtext} text-[10px]`}>FSRS algoritması</div>
-            </button>
-          )}
 
           {weakCount > 0 && (
             <button onClick={onWeakClick} className={`stagger-item col-span-1 md:col-span-2 lg:col-span-2 ${theme.cardGlass} rounded-[1.5rem] p-5 text-left card-hover group border border-red-500/10 hover:border-red-500/30 transition-all`}>
@@ -1591,242 +1624,11 @@ function DenemeAmountSelection({ selectedUnits, questions, loading, onStart, onC
 }
 
 
-/* ═══════════════════════════════════════════════════════════
-   RESULT VIEW & ANALYTICS DASHBOARD
-   ═══════════════════════════════════════════════════════════ */
-function AnalyticsDashboard({ questions, theme }: { questions: Question[]; theme: Theme }) {
-  const stats = loadStreak();
-  const activity = getRecentActivity(14);
-  const maxActivity = Math.max(...activity.map(a => a.count), 1);
 
-  // Kapsama için questions kullan
-  const allUnitStats = Array.from(new Set(questions.map(q => q.lesson))).map(lesson => {
-    const lessonQs = questions.filter(q => q.lesson === lesson);
-    const lessonProgress = getUnitProgress(lessonQs.map(q => q.id));
-    return { lesson, ...lessonProgress };
-  }).sort((a, b) => (b.totalCorrects / Math.max(1, b.totalAttempts)) - (a.totalCorrects / Math.max(1, a.totalAttempts)));
 
-  const totalPossible = questions.length;
-  const totalSolved = allUnitStats.reduce((a, b) => a + b.solved, 0);
-  const totalAttempts = allUnitStats.reduce((a, b) => a + b.totalAttempts, 0);
-  const totalCorrects = allUnitStats.reduce((a, b) => a + b.totalCorrects, 0);
-  const avgAccuracy = Math.round((totalCorrects / Math.max(1, totalAttempts)) * 100);
-  const overallCoverage = Math.round((totalSolved / Math.max(1, totalPossible)) * 100);
 
-  return (
-    <div className="flex flex-col gap-5 anim-slide-up pb-10">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-3 stagger-children">
-        <div className={`stagger-item ${theme.card} p-5 rounded-2xl border-l-2 border-amber-400/40`}>
-          <div className="flex items-center justify-between mb-3">
-            <span className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest`}>SERİ</span>
-            <Zap size={16} className="text-amber-400" fill="currentColor" />
-          </div>
-          <div className="text-3xl font-black">{stats.currentStreak} <span className="text-sm font-bold opacity-50">GÜN</span></div>
-          <div className={`${theme.subtext} text-[10px] mt-1`}>En yüksek: {stats.longestStreak} gün</div>
-        </div>
-        <div className={`stagger-item ${theme.card} p-5 rounded-2xl border-l-2 border-indigo-400/40`}>
-          <div className="flex items-center justify-between mb-3">
-            <span className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest`}>DOĞRULUK</span>
-            <CheckCheck size={16} className="text-indigo-400" />
-          </div>
-          <div className="text-3xl font-black">%{avgAccuracy}</div>
-          <div className={`${theme.subtext} text-[10px] mt-1`}>{totalSolved} cevaplanan</div>
-        </div>
-        <div className={`stagger-item ${theme.card} p-5 rounded-2xl border-l-2 border-emerald-400/40`}>
-          <div className="flex items-center justify-between mb-3">
-            <span className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest`}>KAPSAMA</span>
-            <BarChart3 size={16} className="text-emerald-400" />
-          </div>
-          <div className="text-3xl font-black">%{overallCoverage}</div>
-          <div className={`${theme.subtext} text-[10px] mt-1`}>{totalSolved} / {totalPossible}</div>
-        </div>
-        <div className={`stagger-item ${theme.card} p-5 rounded-2xl border-l-2 border-violet-400/40`}>
-          <div className="flex items-center justify-between mb-3">
-            <span className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest`}>FSRS KUYRUK</span>
-            <RotateCcw size={16} className="text-violet-400" />
-          </div>
-          <div className="text-3xl font-black">{getDueForReviewIds().length}</div>
-          <div className={`${theme.subtext} text-[10px] mt-1`}>Bugün tekrar</div>
-        </div>
-      </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
-        <div className={`${theme.card} p-6 rounded-2xl`}>
-          <h3 className="text-sm font-bold mb-6">Son 14 Günlük Aktivite</h3>
-          <div className="flex items-end justify-between h-36 gap-1 px-1">
-            {activity.map((a, i) => (
-              <div key={i} className="flex-1 flex flex-col items-center gap-1.5 group">
-                <div className="relative w-full bg-indigo-500/[0.05] rounded-t-md transition-all hover:bg-indigo-500/15" style={{ height: `${(a.count / maxActivity) * 100}%`, minHeight: '3px' }}>
-                  <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 bg-white text-black text-[9px] font-bold px-2 py-0.5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap shadow-lg">{a.count}</div>
-                </div>
-                <div className={`${theme.subtext} text-[7px] font-medium`}>{a.date.split('-').slice(1).reverse().join('/')}</div>
-              </div>
-            ))}
-          </div>
-        </div>
 
-        <div className={`${theme.card} p-6 rounded-2xl overflow-hidden`}>
-          <h3 className="text-sm font-bold mb-5">Ders Başarı Sıralaması</h3>
-          <div className="space-y-3.5 max-h-[360px] overflow-y-auto pr-2 custom-scrollbar">
-            {allUnitStats.map((s, i) => {
-              const acc = Math.round((s.totalCorrects / Math.max(1, s.totalAttempts)) * 100);
-              const color = acc >= 70 ? 'bg-emerald-400' : acc >= 40 ? 'bg-amber-400' : 'bg-red-400';
-              return (
-                <div key={i} className="space-y-1.5">
-                  <div className="flex justify-between text-xs font-bold"><span className="truncate pr-2">{s.lesson}</span><span className={theme.subtext}>%{acc}</span></div>
-                  <div className="h-1.5 bg-white/[0.04] rounded-full overflow-hidden"><div className={`h-full rounded-full ${color} transition-all duration-1000`} style={{ width: `${acc}%` }} /></div>
-                  <div className={`${theme.subtext} text-[10px]`}>{s.solved}/{s.total} çözüldü · {s.totalCorrects}/{s.totalAttempts} doğru</div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-
-      {/* Faz 2: Ünite Granülaritesinde Heat Map — Rapor §2.4 Katman 1 */}
-      <UnitHeatMap questions={questions} theme={theme} />
-
-      {/* Faz 4: 7-Günlük FSRS Review Yükü Projeksiyonu — Rapor §2.4 Katman 3 */}
-      <ReviewForecastChart theme={theme} />
-    </div>
-  );
-}
-
-/**
- * 7-Günlük FSRS Review Yükü Projeksiyonu — Rapor §2.4 Katman 3
- */
-function ReviewForecastChart({ theme }: { theme: Theme }) {
-  const stats = loadAllStats();
-  const forecast = getForecastNextDays(stats, 7);
-  const maxCount = Math.max(...forecast.map(f => f.count), 1);
-  const totalWeek = forecast.reduce((a, b) => a + b.count, 0);
-  const peakDay = forecast.reduce((best, f) => f.count > best.count ? f : best, forecast[0]);
-
-  return (
-    <div className={`${theme.card} p-6 rounded-2xl`}>
-      <div className="flex items-center justify-between mb-5">
-        <div>
-          <h3 className="text-sm font-bold">Bu Hafta FSRS Review Yükü</h3>
-          <p className={`${theme.subtext} text-[11px] mt-0.5`}>
-            Toplam {totalWeek} kart · Zirve: {peakDay.label} ({peakDay.count})
-          </p>
-        </div>
-        <div className={`${theme.cardGlass} px-3 py-1.5 rounded-xl text-center`}>
-          <div className="text-lg font-black text-violet-400">{totalWeek}</div>
-          <div className={`${theme.subtext} text-[8px] font-bold uppercase`}>BU HAFTA</div>
-        </div>
-      </div>
-
-      <div className="flex items-end gap-2.5 h-28">
-        {forecast.map((f, i) => {
-          const pct = (f.count / maxCount) * 100;
-          const isHeavy = f.count > totalWeek / 7 * 1.5;
-          const barColor = f.isToday ? 'bg-indigo-400' : isHeavy ? 'bg-red-400' : 'bg-violet-400/50';
-          return (
-            <div key={i} className="flex-1 flex flex-col items-center gap-1.5 group">
-              <div className="relative w-full flex flex-col items-center justify-end" style={{ height: '80px' }}>
-                {f.count > 0 && (
-                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 text-[9px] font-bold opacity-50 group-hover:opacity-100 transition-opacity">{f.count}</div>
-                )}
-                <div className={`w-full rounded-md transition-all duration-700 hover:opacity-80 ${barColor}`}
-                  style={{ height: `${Math.max(pct, f.count > 0 ? 10 : 4)}%`, minHeight: f.count > 0 ? '6px' : '2px' }} />
-              </div>
-              <span className={`text-[8px] font-medium ${f.isToday ? 'text-indigo-400' : theme.subtext}`}>{f.label}</span>
-            </div>
-          );
-        })}
-      </div>
-
-      <div className="mt-3 flex flex-wrap gap-3">
-        <div className="flex items-center gap-1.5"><div className="w-2 h-2 rounded-sm bg-indigo-400" /><span className={`${theme.subtext} text-[10px]`}>Bugün</span></div>
-        <div className="flex items-center gap-1.5"><div className="w-2 h-2 rounded-sm bg-red-400" /><span className={`${theme.subtext} text-[10px]`}>Yoğun</span></div>
-        <div className="flex items-center gap-1.5"><div className="w-2 h-2 rounded-sm bg-violet-400/50" /><span className={`${theme.subtext} text-[10px]`}>Normal</span></div>
-      </div>
-
-      {totalWeek === 0 && (
-        <p className={`${theme.subtext} text-xs mt-4 text-center`}>
-          Henüz FSRS kuyruğunda bekleyen kart yok.
-        </p>
-      )}
-    </div>
-  );
-}
-
-/**
- * Ünite Heat Map
- */
-function UnitHeatMap({ questions, theme }: { questions: Question[]; theme: Theme }) {
-  const stats = loadAllStats();
-  const lessonMap = new Map<string, Map<string, { attempts: number; corrects: number; total: number; solved: number }>>();
-  for (const q of questions) {
-    if (!lessonMap.has(q.lesson)) lessonMap.set(q.lesson, new Map());
-    const units = lessonMap.get(q.lesson)!;
-    if (!units.has(q.unit)) units.set(q.unit, { attempts: 0, corrects: 0, total: 0, solved: 0 });
-    const u = units.get(q.unit)!;
-    u.total++;
-    const s = stats[q.id];
-    if (s && s.attempts > 0) { u.solved++; u.attempts += s.attempts; u.corrects += s.corrects; }
-  }
-
-  const lessons = Array.from(lessonMap.entries()).sort((a, b) => a[0].localeCompare(b[0]));
-
-  const cellColor = (attempts: number, corrects: number): string => {
-    if (attempts === 0) return `${theme.inputBg} ${theme.subtext}`;
-    const acc = (corrects / attempts) * 100;
-    if (acc >= 75) return 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20';
-    if (acc >= 50) return 'bg-amber-500/10 text-amber-400 border border-amber-500/20';
-    return 'bg-red-500/10 text-red-400 border border-red-500/20';
-  };
-
-  return (
-    <div className={`${theme.card} p-6 rounded-2xl`}>
-      <div className="flex items-center justify-between mb-5">
-        <h3 className="text-sm font-bold">Ünite Isı Haritası</h3>
-        <div className="flex items-center gap-2.5 text-[10px] font-medium">
-          <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-sm bg-red-500/30 border border-red-500/40" />&lt;%50</span>
-          <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-sm bg-amber-500/30 border border-amber-500/40" />%50-75</span>
-          <span className="flex items-center gap-1"><span className="w-2.5 h-2.5 rounded-sm bg-emerald-500/30 border border-emerald-500/40" />&gt;%75</span>
-          <span className={`flex items-center gap-1 ${theme.subtext}`}><span className="w-2.5 h-2.5 rounded-sm bg-white/[0.06]" />Yok</span>
-        </div>
-      </div>
-      <div className="space-y-5 max-h-[480px] overflow-y-auto pr-2 custom-scrollbar">
-        {lessons.map(([lesson, units]) => {
-          const unitArr = Array.from(units.entries()).sort((a, b) => {
-            const accA = a[1].attempts > 0 ? a[1].corrects / a[1].attempts : 1;
-            const accB = b[1].attempts > 0 ? b[1].corrects / b[1].attempts : 1;
-            return accA - accB;
-          });
-          return (
-            <div key={lesson}>
-              <div className="flex items-center justify-between mb-2">
-                <span className="text-xs font-bold">{lesson}</span>
-                <span className={`${theme.subtext} text-[10px]`}>{unitArr.length} ünite</span>
-              </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1.5">
-                {unitArr.map(([unit, u]) => {
-                  const acc = u.attempts > 0 ? Math.round((u.corrects / u.attempts) * 100) : null;
-                  const title = acc !== null
-                    ? `${unit}\n%${acc} doğruluk • ${u.solved}/${u.total} çözüldü • ${u.corrects}/${u.attempts} doğru`
-                    : `${unit}\nHenüz çözülmemiş (${u.total} soru)`;
-                  return (
-                    <div key={unit} title={title}
-                      className={`${cellColor(u.attempts, u.corrects)} rounded-xl px-2.5 py-2 text-[10px] font-bold transition-all hover:scale-[1.02] cursor-default`}>
-                      <div className="truncate">{unit}</div>
-                      <div className="flex items-center justify-between mt-0.5 opacity-70">
-                        <span className="text-[9px]">{acc !== null ? `%${acc}` : '—'}</span>
-                        <span className="text-[9px]">{u.solved}/{u.total}</span>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
 
 function ResultView({ stats, onRestart, onRetryIncorrect, onExportPDF, theme }: { stats: QuizStatsType; onRestart: () => void; onRetryIncorrect: (d: AnswerDetail[]) => void; onExportPDF: (questions: Question[], title: string) => void; theme: Theme }) {
   const incorrect = stats.details.filter(d => d.state === 'incorrect');

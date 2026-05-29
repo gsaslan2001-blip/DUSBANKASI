@@ -25,9 +25,11 @@ Proje yalnızca **iki kalıcı kök belge** + işe özel workflow/skill dosyalar
 ## 1. VİZYON VE PROJENİN AMACI
 
 DUSBANKASI, geleneksel soru bankalarının "tek tip ve doğrusal" yapısını yıkarak, her adayın öğrenme durumuna ve zayıf konularına göre dinamik olarak şekillenen bir eğitim ekosistemidir. 
-* **Soru Üretiminde Tam Kapsam (Exhaustive)**: Geliştirilen Playwright destekli NotebookLM soru üretim hattı sayesinde, PDF kaynak kitaplarındaki her tıbbi kavram satır satır taranır ve her kavram **doğrudan bir sorunun kökünde** sorgulanana dek soru üretilir. Kapsam metriği bilinçli olarak sıkıdır: bir kavramın yalnızca bir açıklamada geçmesi "kapsandı" sayılmaz — böylece kapsam rakamı gerçek hakimiyeti yansıtır. Klasör / tek / çoklu PDF tek komutla (`--input`) sıraya alınır.
+* **Soru Üretiminde Tam Kapsam (Exhaustive)**: PDF kaynak kitaplarındaki her tıbbi kavram satır satır taranır ve her kavram **doğrudan bir sorunun kökünde** sorgulanana dek soru üretilir. Kapsam metriği bilinçli olarak sıkıdır: bir kavramın yalnızca bir açıklamada geçmesi "kapsandı" sayılmaz — böylece kapsam rakamı gerçek hakimiyeti yansıtır. Klasör / tek / çoklu PDF tek komutla (`--input`) sıraya alınır.
+* **Paralel Multi-Hesap Üretim (MCP Parallel)**: MCP HTTP modunda her Google hesabı ayrı bir portta çalışan ayrı MCP sunucusu üzerinden NotebookLM'e bağlanır. 6 farklı Google hesabı = 6 farklı port = 6 farklı notebook'ta tam paralel üretim. Hesap bazlı rate limit aşımı olmaz; biri düşse diğer 5 devam eder. Toplam süre sıralıya göre N'de 1'e düşer.
+* **Profil Login Denetimi (check_all_logins)**: Tüm NotebookLM profillerinin oturum durumunu tek komutla kontrol eden `scripts/check_all_logins.bat` scripti. Her profil için Geçerli/GEÇERSİZ raporu verir, hangi hesabın yeniden giriş gerektirdiğini anında gösterir.
 * **Akıllı Soru Havuzu ve Performans Analizi**: Adayın çözdüğü soruların doğruluk oranları, yanlış şık tercihleri ve zayıf konuları anlık olarak takip edilir, akıllı soru seçimi ile en zayıf olunan konular önceliklendirilerek dinamik denemeler oluşturulur.
-* **Klinik Odaklı Kürasyon (DeepSeek-v4-pro Ölüm Maçı)**: smart_audit_pipeline.py ile veritabanı kopyalardan arındırılır. Benzer soru çiftleri **DeepSeek-v4-pro** karar vericisine gönderilir; yalnızca **soru kökü + doğru şık + açıklama** üçlüsü değerlendirilir (çeldirici şıklar bilinçli olarak hariç tutulur — amaç sorgulanmış bilginin tekrarını önlemek), sorgulanan bilgi, klinik derinlik ve açıklama öğreticiliğine göre `keep_1` / `keep_2` / `keep_both` / `remove_both` kararı verilir. Böylece gerçek DUS sınavına en yakın çalışma deneyimi sunulur.
+* **Klinik Odaklı Kürasyon (DeepSeek-v4-flash Ölüm Maçı)**: smart_audit_pipeline.py ile veritabanı kopyalardan arındırılır. Benzer soru çiftleri **DeepSeek-v4-flash** karar vericisine gönderilir; yalnızca **soru kökü + doğru şık + açıklama** üçlüsü değerlendirilir (çeldirici şıklar bilinçli olarak hariç tutulur — amaç sorgulanmış bilginin tekrarını önlemek), sorgulanan bilgi, klinik derinlik ve açıklama öğreticiliğine göre `keep_1` / `keep_2` / `keep_both` / `remove_both` kararı verilir. Böylece gerçek DUS sınavına en yakın çalışma deneyimi sunulur.
 
 ---
 
@@ -72,7 +74,7 @@ Soru eklemek artık bir AI asistana (Atlas) bağlı değildir; iki deterministik
 | **Veritabanı** | Supabase (PostgreSQL 15) | Veri saklama, veri senkronizasyonu ve RLS güvenlik mimarisi. |
 | **Vektör Veritabanı**| pgvector (1536-dim) | Soruların semantik benzerlik analizi ve arama motoru. |
 | **RAG Vektör İndeksi** | Pinecone (`myppdfs`) | Akademik kaynak PDF'lerin saklanması; deneme-analizi RAG bağlam getirme + `bge-reranker-v2-m3` yeniden sıralama. |
-| **Yapay Zeka (AI)** | Gemini 2.0 Flash / OpenAI (gpt-4o + text-embedding-3-small) / DeepSeek-v4-pro | NotebookLM ile soru üretimi, gpt-4o ile deneme-analizi rapor üretimi, embedding ile vektörleme, **DeepSeek-v4-pro ile Ölüm Maçı kürasyon kararı**. |
+| **Yapay Zeka (AI)** | Gemini 2.0 Flash / OpenAI (gpt-4o + text-embedding-3-small) / DeepSeek-v4-flash | NotebookLM ile soru üretimi, gpt-4o ile deneme-analizi rapor üretimi, embedding ile vektörleme, **DeepSeek-v4-flash ile Ölüm Maçı kürasyon kararı**. |
 | **Otomasyon** | Playwright (Python 3.12) + asyncio | NotebookLM API çerez yönetimi, 7/24 kesintisiz soru üretimi ve async RAG pipeline (Semaphore=3). |
 
 ---
@@ -142,7 +144,7 @@ NOTEBOOK_ID = "your-notebook-guid"
 SUPABASE_URL = "https://your-project-id.supabase.co"
 SUPABASE_KEY = "your-service-role-key" # Yazma izni için service_role kullanılmalıdır
 DEEPSEEK_API_KEY = "sk-..."           # Ölüm Maçı karar vericisi (yoksa yerel puanlamaya düşer)
-DEEPSEEK_MODEL = "deepseek-v4-pro"    # Kürasyon kararı modeli
+DEEPSEEK_MODEL = "deepseek-v4-flash"  # Kürasyon kararı modeli
 ```
 
 > `DEEPSEEK_API_KEY` ayrıca `.env.local`'dan da okunur. Tanımlı değilse `smart_audit_pipeline.py` otomatik olarak `calc_quality_score` tabanlı yapılandırılmış yerel karar motoruna düşer (pipeline durmaz).
@@ -178,6 +180,74 @@ python scripts/add_questions.py "sorular.md" --lesson "Fizyoloji" --unit "Kalp" 
 * **Geçici hata retry:** Supabase chunk yazımı 5xx/timeout'ta otomatik olarak `2s→5s→12s` backoff ile tekrar dener — geçici hatada soru kaybı olmaz.
 * **Kayıpsız JSON:** Parse edilemeyen ham AI yanıtı `recovery/raw/` altına dökülür (elle kurtarılabilir).
 * **`--audit` bayrağı:** Ünite bitince otomatik **ünite-kapsamlı** Ölüm Maçı (`smart_audit_pipeline.py --unit`) tetiklenir — yeni sorular yalnızca o ünitedeki mevcut sorularla kıyaslanır.
+
+---
+
+### 4.2.1. NotebookLM MCP HTTP Üretim Hattı — "MCP ile üret" (KANONİK YOL)
+
+Playwright tabanlı eski hat (`notebooklm-exhaust.py`) Google'ın iç API'sine ham istek attığı için zaman zaman bot olarak algılanıp engelleniyordu, uzun cevaplarda soket kopuyordu. Bu iki kronik sorunu kökünden çözmek için **aynı üretim algoritması** (FAZ 0–4 çapalama, kalite kapısı, Ölüm Maçı) **kararlı bir yerel MCP sunucusu** üzerinden çalışır: `scripts/notebooklm_mcp_exhaust.py`.
+
+* **Stealth tarayıcı:** Sunucu (jacob-bd/notebooklm-mcp-cli) arka planda **gerçek bir Chrome** (Patchright stealth) sürerek NotebookLM'i tıpkı bir insan gibi kullanır → Google engellemez, oturum düşmez.
+* **Asenkron sorgu:** `notebook_query_start` → `notebook_query_status` polling ile uzun (2 dk) cevaplarda bile soket timeout / bağlantı kopması yok.
+* **Kontaminasyon koruması:** Her ünite başında eski kaynak otomatik silinir; ünite **yalnızca kendi PDF'iyle** sorgulanır.
+
+**Kullanım — "MCP ile üret":**
+```bash
+# 1) MCP sunucusunu başlat (ayrı pencere, açık tut)
+scripts\start_notebooklm_mcp.bat            # → http://127.0.0.1:8000/mcp
+
+# 2) Klasör için (tüm PDF'leri natural-sort ile sırayla işler):
+set PYTHONUTF8=1
+python scripts/notebooklm_mcp_exhaust.py --input "C:\...\Endodonti Ünite Pdf" --lesson "Endodonti"
+
+# veya tek dosya için:
+python scripts/notebooklm_mcp_exhaust.py --file "C:\...\Ünite 43 - ....pdf" --lesson "Radyoloji"
+```
+Her ünite sonunda kapsam raporu + uncovered log yazılır, ardından ünite-kapsamlı **Ölüm Maçı** otomatik çalışır. Görev, gösterilen klasördeki **tüm** PDF'lerden soru üretildiğinde tamamlanır.
+
+#### Kararlı Bağlantı & Auth Yönetimi — En Stabil Hâl
+
+Sistem en kararlı haline aşağıdaki kurallarla getirilir (her oturum başında kontrol edilmeli):
+
+1. **Yalnızca `jacob-bd/notebooklm-mcp-cli` kullanılır.** Önceki PleasePrompto Node sunucusu (npm `notebooklm-mcp`, `--profile fresh`, port 3000) **kalıcı olarak npm global'den kaldırıldı** ve `start_notebooklm_mcp.bat` jacob-bd komutuna sabitlendi. PleasePrompto + port 3000 + `fresh` profil kombinasyonu **yasak** — geri yükleme.
+2. **Tek profil = `default`.** Veri klasörü: `%LOCALAPPDATA%\notebooklm-mcp\Data\` (chrome_profile + library.json). Config: `%APPDATA%\notebooklm-mcp\Config\settings.json` → `{"profile": "default", "disabledTools": []}`. **Yeni profil ismi (`fresh`, `full` vs) oluşturma.** Eğer `Data.bak` ya da `Data.empty` görürsen önceki bir AI'nın yarım swap'i: gerçek login içereni (dolu `library.json` + güncel `chrome_profile/`) `Data` olarak yeniden adlandır, diğerini `.empty` yedek bırak.
+3. **Antigravity'nin `notebooklm` MCP girişi `disabled: true` olmalı** (`~/.gemini/config/mcp_config.json`). Açıksa Chrome profilini kilitler ve HTTP sunucusu tarayıcıyı açamaz (single-profile kilidi).
+4. **Auth durumu üç katmanlı otomatik kurtarmaya sahiptir:**
+   - `auth_status == "configured"` → hazır.
+   - `auth_status == "stale"` → `ensure_auth` otomatik MCP `refresh_auth` aracını çağırır (Google cookie rotation kurtarma). Genelde sessizce çözülür.
+   - `auth_status == "expired"` veya refresh sonrası hâlâ `stale` → **bir kerelik interaktif login** gerekir:
+     ```bash
+     # ÖNCE: çalışan MCP sunucusunu kapat (chrome_profile kilidi çakışmasın)
+     uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git nlm login
+     # Patchright Chrome açılır → Google'a giriş yap → "✓ Authenticated" yazınca bitti
+     # SONRA: start_notebooklm_mcp.bat'i tekrar başlat
+     ```
+5. **Anlık sağlık kontrolü:**
+   ```bash
+   uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git nlm login --check
+   # ya da sunucu çalışırken: tools/call server_info → structuredContent.auth_status
+   ```
+
+#### Aktif PDF Klasörleri (MCP üret hedefleri)
+| Ders | PDF Klasörü | PDF Sayısı |
+|---|---|---|
+| `Endodonti` | `Desktop\DUS\Endodonti\Endodonti Ünite Pdf` | 25 |
+| `Histoloji` | `Desktop\DUS\Histoloji\histo ünite pdf` | 13 |
+| `Protez` | `Desktop\DUS\protez\Yeni klasör\Parcalanmis` | 47 |
+
+#### Bilinen Tuzaklar
+| Hata | Çözüm |
+|---|---|
+| `auth_status: stale` | `ensure_auth` otomatik MCP `refresh_auth` çağırır; çözülmezse interaktif `nlm login` |
+| `auth_status: expired` | Bir kerelik interaktif `nlm login` (yukarıdaki blok) — sunucu kapalıyken |
+| `ConnectionRefused` :8000 | Sunucu başlatılmamış / çakışan port — `start_notebooklm_mcp.bat`'i kontrol et |
+| Chrome açılmıyor / profil kilidi | Antigravity'nin `notebooklm` MCP girişini `disabled: true` yap |
+| Log boş / ilerleme yok | `python -u` (unbuffered) + `PYTHONUTF8=1` kullan |
+| `Data.bak` görüldü | Önceki AI swap'i — Data.bak → Data yeniden adlandır, settings.json `default` profile |
+
+> **Doğrulanmış (2026-05-28, Radyoloji Ünite 43):** 116 kavram çapalandı → 81 yeni soru üretildi ve Supabase'e yazıldı (35→116, kapsam %67.2) → Ölüm Maçı 42 aday çiftten 17'sini `kavramsal_kopya` olarak eledi, 22'sini korudu. Hiç kopma/timeout yaşanmadı.
+>
+> ⚠️ Ayrı bilinen sorun (MCP'yle ilgisiz): Ölüm Maçı'nın Supabase pgvector RPC'si (`find_candidate_pairs`) HTTP 500 verip yerel in-memory taramaya düşebilir — sonuç doğru, sadece daha yavaş.
 
 ---
 
@@ -243,13 +313,14 @@ Supabase SQL Editor paneline girerek sırasıyla aşağıdaki iki dosyayı çal�
               ▼  (Supabase'e Chunked Yazım: 10'arlı gruplar)
         [ Supabase DB ]
               │
-              ▼  (smart_audit_pipeline.py --unit - LSH & Cosine; yeni↔mevcut kıyas)
+              ▼  (smart_audit_pipeline.py --unit - Bi-Encoder hibrit; yeni↔mevcut kıyas)
    ┌────────────────────────────────────────────────────────┐
-   │ - O ünitedeki mevcut + yeni sorular birlikte taranır    │
-   │ - 0.85+ Cosine similarity üzeri kopya adayları bulunur  │
-   │ - Koruyucular: tip/evre/sınıf farkı + tıbbi zıtlık      │
-   │ - Ölüm Maçı (DeepSeek-v4-pro): keep_1 / keep_2 /        │
-   │   keep_both (farklı kavram) / remove_both (ikisi çöp)   │
+   │ - O ünitedeki sorular hibrit skorla taranır             │
+   │   (0.7·soru kökü + 0.3·açıklama embedding benzerliği)   │
+   │ - Eşik üstü kopya adayları bulunur (find_candidate_pairs)│
+   │ - Koruyucular: tip/evre · tıbbi zıtlık · sayısal        │
+   │ - Ölüm Maçı (DeepSeek-v4-flash): keep_1 / keep_2 /      │
+   │   keep_both / remove_both                              │
    └────────────────────────────────────────────────────────┘
               │
               ▼
@@ -275,5 +346,23 @@ Bazı yetenekler arayüz yerine AI asistan (Atlas) üzerinden sohbetle çalışt
 * **Günün Denemesi Oluşturma**: Aday konularını sohbete yazar → Atlas, ders/üniteleri veritabanından doğrular, `%80 yeni + %20 zor/orta/kolay` dağılımıyla soruları seçer ve `daily_exams` tablosuna kaydeder. `question_ids` daima `::uuid[]` cast edilir. Oyun kitabı: `WORKFLOW_GUNUN_DENEMESI.md`.
 * **Manuel Soru Ekleme (`/soru-ekle`)**: Artık birincil yol **ajan-bağımsızdır** (bkz. §2.4 — `scripts/add_questions.py` CLI veya uygulama içi "Soru Ekle" formu). Atlas yalnızca **serbest-biçimli/dağınık ham metni** kanonik JSON şemasına dönüştürmek gerektiğinde devreye girer; dönüşüm sonrası aynı kalite kapısı (tam metin · 5 dolu şık · doğru cevap · yeterli açıklama · bilgi sızıntısı/totoloji · **AI dolgu cümlesi ve mojibake reddi**) ve `shared.deploy_to_supabase` (embedding + 10'arlık chunked write) kullanılır; opsiyonel `smart_audit_pipeline.py` Ölüm Maçı ile kopya kontrolü yapılır. İş akışı: `.agent/workflows/soru_ekle.md`.
 
----
-**DUSBANKASI — KULLANIM REHBERİ v4.3 — SON GÜNCELLEME: 2026-05-26**
+> **Not (2026-05-27 · v4.17):** Radyoloji "Ünite 37 - Hematolojik Sistem Hastalıkları" ünitesine `37.txt` dosyasındaki 30 yeni soru, geliştirilen robust regex parser `parse_radyoloji_37.py` ve `add_questions.py` aracılığıyla, tüm kalite kapısı doğrulamalarından (sıfır ret ile) geçerek başarıyla aktarılmıştır. Yükleme sonrasında yapılan `smart_audit_pipeline` (Ölüm Maçı) semantik denetiminde 1 mükerrer soru `kavramsal_kopya` olarak işaretlenerek elenmiş, kalan 115 aktif yüksek kaliteli soru koruma altına alınmıştır.
+> **Not (2026-05-27 · v4.16):** Kullanıcının doğrudan ilettiği 6 şüpheli/kopya veya düşük kaliteli soru ID'si (`db27ca3c-287a-4e3d-a8e4-9921506a32c6`, `c04c2a08-c1cb-436f-9591-4bb089968aa9`, `2e69e995-d468-4dfa-b69a-37e6ec1660ec`, `57684c1d-eb42-4380-9dcc-76faa1092b02`, `0319cc8e-45fb-4617-93a8-a4f377f3970c`, `cc60b985-40fa-4e2f-8b28-cc619b80d93d`), `flag_batch_ids.py` otomasyonu vasıtasıyla Supabase üzerinde `quality_flag = 'kavramsal_kopya'` şeklinde flag'lenerek aktif çalışma havuzundan elenmiştir.
+> **Not (2026-05-27 · v4.15):** Radyoloji "Ünite 17 - Kistler" ünitesine `kist.txt` dosyasındaki 40 yeni soru, robust regex parser ve shared.py Roman rakamları stopword güncellemesi ile (sıfır kayıpla) başarıyla veritabanına eklenmiştir. Yükleme sonrasında yapılan `smart_audit_pipeline` (Ölüm Maçı) semantik denetiminde 11 mükerrer soru `kavramsal_kopya` olarak işaretlenerek elenmiş, kalan 130 aktif yüksek kaliteli soru koruma altına alınmıştır.
+> **Not (2026-05-27 · v4.14):** Radyoloji Ünite 15 ila Ünite 30 (dahil) arasındaki 16 ünitenin tamamındaki şüpheli/mükerrer soru çiftleri, pgvector offloading aracıyla analiz edilerek `raporlar/özel akış/Radyoloji/` dizini altında manifesto standartlarına uygun şekilde raporlar halinde başarıyla ihraç edilmiştir.
+> **Not (2026-05-27 · v4.13):** Radyoloji Ünite 33 (Böbrek ve Üriner Sistem Hastalıkları) konusuna 30 yeni soru aktarılmış; yükleme sonrasında 74 soruya ulaşan havuzda koşturulan `smart_audit_pipeline` Ölüm Maçı semantik denetiminde 11 mükerrer soru `quality_flag = 'kavramsal_kopya'` olarak işaretlenip elenmiş, kalan 63 aktif yüksek kaliteli soru güvenceye alınmıştır.
+> **Not (2026-05-27 · v4.12):** Endodonti Ünite 11 (İrrigasyon) konusundaki 177 soru üzerinde akıllı Ölüm Maçı (smart_audit_pipeline) çalıştırılmış, DeepSeek-v4-pro kürasyonu sonucu 28 adet kavramsal kopya soru `quality_flag = 'kavramsal_kopya'` olarak işaretlenip elenmiştir. Kalan 149 soru güvence altındadır.
+> **Not (2026-05-27 · v4.10):** Veritabanından toplam 2.128 adet flagged/kopya soru (`flagged = true`, `quality_flag = 'kavramsal_kopya'`, `quality_flag = 'auto_deleted'` ve `quality_flag = 'borderline_kopya'`) kalıcı olarak temizlenmiştir. CASCADE kısıtı sayesinde bu sorulara ait istatistik ve sınav geçmişi kayıtları da otomatik olarak temizlenmiştir. Kalan aktif soru sayısı 12.417 adettir.
+> **Not (2026-05-27 · v4.8):** Benzerlik hattındaki otomatik koruma kapılarından **`answer_divergence_guard`** (v4.7) ve **`question_orientation_guard`** (v4.8) tamamen kaldırıldı. Köklerde geçen ve yönelimle ilgisi olmayan leksikal kelimelerin (ör. "stabil olmayan serbest radikal" ifadesindeki "olmayan" kelimesi) negatif yönelim gibi algılanıp gerçek kopyaları koruması veya biçimsel farklılıkların kopya elemeyi engellemesi nedeniyle, tüm karar verme sorumluluğu doğrudan **DeepSeek-v4-flash** modeline Ölüm Maçı'nda devredilmiştir. Bu sayede en yüksek klinik ve akademik doğruluk sıfır kuralsal false-positive ile sağlanır.
+
+> **Not (2026-05-28 · v4.21):** Deneme Session Senkronizasyonu & User-Scoped Active Sessions özelliği eklendi. Giriş yapmış kullanıcılar için `active_sessions` tablosunda cihaz bağımsız tek bir cloud satırı (`user_id` üzerinden) tutulacak şekilde mimari güncellendi. Yeni SQL migration uygulandı ve Supabase client / hook entegrasyonu `onConflict: 'user_id'` kurgusuyla tamamlandı. Artık bir cihazda bırakılan session'a diğer cihazdan devam edilebilir.
+
+> **Not (2026-05-28 · v4.20):** MCP pipeline tam operasyonel dokümantasyona kavuştu. **Çok-ders checkpoint'li orkestratör** (`scripts/run_mcp_pipeline.py`) eklendi: Endodonti (25 PDF) + Histoloji (13 PDF) + Protez (47 PDF) checkpoint'li şekilde sırayla işler, kaldığı yerden devam eder. Kritik kesfedilen tuzaklar belgelendi: (1) `--profile fresh` zorunlu — `default` profil gençellikle `stale`; (2) `nlm serve` komutu mevcut değil — sunucu `npx notebooklm-mcp@latest --profile fresh --port 3000` ile başlatılır; (3) sunucu tam ayaklanmadan Python client bağlanırsa `ConnectionRefused` — 10 sn bekle. Detay: §4.2.1.
+
+> **Not (2026-05-28 · v4.25):** Sınav Analizi ekranı (`SimulationResultView.tsx`), kullanıcının sağladığı modern ve atmosferik HTML tasarımına göre baştan yazıldı. Soru dağılımı grafikleri, KPI kartları, Lucide ikon güncellemeleri ve responsive grid yapısı ile post-DUS analiz deneyimi çok daha profesyonel ve premium bir görünüme kavuştu. Kullanılmayan değişken ve fonksiyon hataları temizlenerek build hatasız hale getirildi.
+
+> **Not (2026-05-29 · v4.26):** Kullanıcı tarafından oluşturulan, yeni marka kimliğini (koyu mor glassmorphism diş ve parlayan yıldız) yansıtan premium logo `public/logo.png` olarak projeye dahil edildi. `App.tsx` içerisindeki `<Logo />` bileşeninin CSS class'ları, yeni logonun yuvarlatılmış dikdörtgen yapısını (`rounded-2xl`) ve atmosferik mor glow efektini (`drop-shadow-[0_0_12px_rgba(130,90,240,0.6)]`) tam olarak koruyacak şekilde güncellendi. Tasarım, DUSBANKASI'nın modern ve yapay zeka odaklı kimliğiyle birebir uyumlu hale getirildi.
+
+> **Not (2026-05-29 · v4.27):** İlk açılışta sorular yüklenirken ve sistem kurulurken oynatılmak üzere `logo-animation.mp4` video entegrasyonu tamamlandı. `App.tsx` içerisine yerleştirilen ve sorular yüklenir yüklenmez (bekleme süresi olmadan, anında) kaybolarak ana uygulamaya geçiş sağlayan tam ekran (`fixed inset-0 z-[9999] bg-[#0c061a]`) video splash katmanı entegre edildi. Animasyon mor parlayan marka kimliğini en üst düzeyde yansıtacak şekilde atmosferik gölgelendirmelerle (`shadow-[0_0_50px_rgba(130,90,240,0.25)]`) süslendi.
+
+**DUSBANKASI — KULLANIM REHBERİ v4.27 — SON GÜNCELLEME: 2026-05-29**

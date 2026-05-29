@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 import type { Question } from '../../data';
 import type { AnswerDetail, ActiveSessionInfo, UserSettings } from '../../types/app';
 import type { Theme } from '../../theme';
@@ -11,6 +12,7 @@ import { QuestionCard } from './QuestionCard';
 import { ExplanationPanel } from './ExplanationPanel';
 import { QuizNavigation } from './QuizNavigation';
 import { AIAssistantPanel } from '../ai/AIAssistantPanel';
+import { toast } from 'sonner';
 
 export type QuizViewProps = {
   mode?: 'quiz' | 'exam';
@@ -52,6 +54,7 @@ export function QuizView({
   const answersRef = useRef<AnswerDetail[]>(initialSession ? initialSession.answers : []);
   // FIX: soru başına süre ölçümü — quiz mount'ta değil, her soru geçişinde reset
   const questionStartRef = useRef<number>(Date.now());
+  const directionRef = useRef<'forward' | 'backward'>('forward');
   const quizScrollRef = useRef<HTMLDivElement>(null);
   const explanationScrollRef = useRef<HTMLDivElement>(null);
 
@@ -90,12 +93,16 @@ export function QuizView({
         selectedOptionKey: isSkip ? null : selectedOption,
         timeSpent,
       });
-      if (!isSkip) saveQuestionStat(question.id, state === 'correct', selectedOption);
+      if (!isSkip) saveQuestionStat(question.id, state === 'correct', selectedOption, question.lesson);
     }
     answersRef.current = newAnswers;
     setAnswers(newAnswers);
-    onSaveSession?.({ questions, answers: newAnswers, currentIndex: currentIndex + 1, mode: mode ?? 'quiz', dailyExamId });
+    if (onSaveSession) {
+      onSaveSession({ questions, answers: newAnswers, currentIndex: currentIndex + 1, mode: mode ?? 'quiz', dailyExamId });
+      toast('Oturum kaydedildi', { icon: '💾' });
+    }
     if (currentIndex < questions.length - 1) {
+      directionRef.current = 'forward';
       const ni = currentIndex + 1;
       setCurrentIndex(ni);
       setSelectedOption(newAnswers[ni]?.selectedOptionKey ?? null);
@@ -111,6 +118,7 @@ export function QuizView({
 
   const handlePrevious = useCallback(() => {
     if (currentIndex > 0) {
+      directionRef.current = 'backward';
       questionStartRef.current = Date.now();
       const pi = currentIndex - 1;
       setCurrentIndex(pi);
@@ -181,48 +189,62 @@ export function QuizView({
           settings={settings}
         />
 
-        <QuestionCard
-          ref={quizScrollRef}
-          question={question}
-          selectedOption={selectedOption}
-          isAnswered={isAnswered}
-          onSelect={setSelectedOption}
-          onToggleFavorite={onToggleFavorite}
-          theme={theme}
-          settings={settings}
-        />
-
-        {/* BUG-002: pointer-events-none yalnızca açıklama içeriğine uygulanır — nav butonları her zaman tıklanabilir */}
-        <div className={`flex-1 flex flex-col ${theme.card} rounded-2xl overflow-hidden transition-all duration-500 ${isAnswered ? theme.shadow : ''}`}>
-          <div
-            className="flex-1 flex flex-col overflow-hidden"
-            style={{
-              opacity: isAnswered ? 1 : 0,
-              transform: isAnswered ? 'translateY(0)' : 'translateY(8px)',
-              pointerEvents: isAnswered ? 'auto' : 'none',
-              transition: 'opacity 0.35s ease, transform 0.35s cubic-bezier(0.16, 1, 0.3, 1)',
-            }}
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={currentIndex}
+            initial={{ opacity: 0, x: directionRef.current === 'forward' ? 30 : -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: directionRef.current === 'forward' ? -30 : 40 }}
+            transition={{ duration: 0.18, ease: [0.16, 1, 0.3, 1] }}
+            className="flex-1 flex flex-col lg:flex-row gap-3 min-w-0"
+            style={{ display: 'flex' }}
           >
-            <ExplanationPanel
-              ref={explanationScrollRef}
-              question={question}
-              isAnswered={isAnswered}
-              isCorrect={isCorrect}
-              aiLoading={ai.aiLoading}
-              aiAnswer={ai.aiAnswer}
-              onExplainAI={ai.requestAI}
-            />
-          </div>
-          {/* Nav butonları pointer-events-none dışında — ÖNCEKİ her zaman çalışır (BUG-002) */}
-          <QuizNavigation
-            currentIndex={currentIndex}
-            total={questions.length}
-            isAnswered={isAnswered}
-            onPrev={handlePrevious}
-            onSkip={handleSkip}
-            onNext={handleNextClick}
-          />
-        </div>
+            <div className="flex-1 flex flex-col min-w-0">
+              <QuestionCard
+                ref={quizScrollRef}
+                question={question}
+                selectedOption={selectedOption}
+                isAnswered={isAnswered}
+                onSelect={setSelectedOption}
+                onToggleFavorite={onToggleFavorite}
+                theme={theme}
+                settings={settings}
+              />
+            </div>
+
+            {/* BUG-002: pointer-events-none yalnızca açıklama içeriğine uygulanır — nav butonları her zaman tıklanabilir */}
+            <div className={`flex-1 flex flex-col ${theme.card} rounded-2xl overflow-hidden transition-all duration-500 ${isAnswered ? theme.shadow : ''}`}>
+              <div
+                className="flex-1 flex flex-col overflow-hidden"
+                style={{
+                  opacity: isAnswered ? 1 : 0,
+                  transform: isAnswered ? 'translateX(0)' : 'translateX(8px)',
+                  pointerEvents: isAnswered ? 'auto' : 'none',
+                  transition: 'opacity 0.18s ease, transform 0.18s cubic-bezier(0.16, 1, 0.3, 1)',
+                }}
+              >
+                <ExplanationPanel
+                  ref={explanationScrollRef}
+                  question={question}
+                  isAnswered={isAnswered}
+                  isCorrect={isCorrect}
+                  aiLoading={ai.aiLoading}
+                  aiAnswer={ai.aiAnswer}
+                  onExplainAI={ai.requestAI}
+                />
+              </div>
+              {/* Nav butonları pointer-events-none dışında — ÖNCEKİ her zaman çalışır (BUG-002) */}
+              <QuizNavigation
+                currentIndex={currentIndex}
+                total={questions.length}
+                isAnswered={isAnswered}
+                onPrev={handlePrevious}
+                onSkip={handleSkip}
+                onNext={handleNextClick}
+              />
+            </div>
+          </motion.div>
+        </AnimatePresence>
       </div>
     </div>
   );
