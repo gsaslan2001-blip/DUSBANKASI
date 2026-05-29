@@ -1,4 +1,10 @@
-# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.24)
+# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.30)
+
+> **v4.30 (2026-05-29) — Karmaşık Grafik Temizliği & Sabit Çalışma Hedefleri.** `StatisticsView.tsx` içerisindeki cluttering/karmaşık 8 grafik ("Konu İlişki Ağı", "Ders → Doğru/Yanlış Akışı", "Ders Tutarlılık Analizi (Box Plot)", "Grafik Morfingi", "Dersler Arası İlişki", "Ders Kapsama Mozaiği", "Soru Bazlı Doğruluk Dağılımı", "Ders Doğruluk Dağılımı") tamamen kaldırıldı. Bu grafiklerin getirdiği gereksiz TypeScript bağımlılıkları ve veri hesaplamaları (`marimekkoData`, `forceGraphData` vb.) temizlendi. Günlük soru hedefi `200` ve ders doğruluk hedefi `%80` olarak sisteme sabitlendi; `GoalRing`, `DifferenceChart` ve `BulletChart` bu hedefler doğrultusunda güncellenerek sade ve premium bir dashboard deneyimi sağlandı.
+
+> **v4.29 (2026-05-29) — Yüksek Seviye (High-End) Animasyon Entegrasyonu & Framer Motion.** `DUSMERKEZİ` içerisindeki 'high-end-visual-design', 'design-spells' ve 'magic-animator' skill dosyalarındaki "Double-Bezel", "Magnetic Hover", "Cubic-Bezier Physics" prensipleri projeye aktarıldı. `index.css`'e `double-bezel` sınıfı ve derin uzay (Ethereal Glass) mesh gradient güncellemeleri yapıldı. `App.tsx` içerisindeki logo manyetik hover tepkisi ile canlandırıldı. `QuestionCard.tsx` ve `SimulationResultView.tsx` ekranları `framer-motion` ile sarılarak 3D (rotateX) gecikmeli giriş ve fizik tabanlı etkileşimlerle (scale/bounce) premium bir arayüze kavuşturuldu.
+
+> **v4.28 (2026-05-29) — MCP Exhaust Sıfır-Engel Protokolü & Port/Auth Kalıcı Düzeltmeleri.** `notebooklm_mcp_exhaust.py` üretim hattındaki 2 kronik engel kalıcı olarak giderildi: (1) **Port uyumsuzluğu**: Script `MCP_URL`'yi artık `config.py`'den (`http://127.0.0.1:8000/mcp` sabit) alıyor — eski hardcode port 3000 `ConnectionRefused` hatası son buldu, env var gerekmez. (2) **Yanıltıcı `auth_status=stale` bayrağı**: `ensure_auth` zaten `refresh_auth` + canlı `notebook_get` testi yapıyor; stale görüldüğünde ajan artık durmaz. §4.1-B ajan protokolü, tetikleyici tablosu ve tuzaklar tablosu bu gerçekleri yansıtacak şekilde güncellendi. Kanonik başlatma artık iki adım: port 8000 canlılık testi → sunucu yoksa .bat başlat → çalıştır.
 
 > **v4.27 (2026-05-29) — Premium Video Splash Screen (Giriş Animasyonu).** İlk açılışta sorular yüklenirken ve sistem kurulurken oynatılmak üzere `logo-animation.mp4` video entegrasyonu tamamlandı. `App.tsx` içerisine yerleştirilen ve sorular yüklenir yüklenmez (bekleme süresi olmadan, anında) kaybolarak ana uygulamaya geçiş sağlayan tam ekran (`fixed inset-0 z-[9999] bg-[#0c061a]`) video splash katmanı entegre edildi. Animasyon mor parlayan marka kimliğini en üst düzeyde yansıtacak şekilde atmosferik gölgelendirmelerle (`shadow-[0_0_50px_rgba(130,90,240,0.25)]`) süslendi.
 
@@ -58,7 +64,7 @@ Kullanıcı aşağıdaki komutları verdiğinde, ajan **tam olarak** şu aracı/
 |---|---|---|---|
 | "notebooklm ile soru üret/oluştur", "X ünitesi için exhaustive soru çıkar" | Çapa=Soru üretim motorunu çalıştır | `python scripts/notebooklm-exhaust.py --file "<pdf>" --lesson "<Ders>" --unit "<Ünite>"` | §4.1 |
 | "şu klasördeki/şu PDF'lerden soru üret", "bu üniteleri sırayla işle" | Klasör / tek / çoklu PDF hedefini sırayla işle (her ünite sonunda ünite-kapsamlı denetim) | `python scripts/notebooklm-exhaust.py --input "<klasör veya pdf(ler)>" --lesson "<Ders>" --audit` | §4.1 |
-| **"MCP ile üret"** (+ klasör gösterilir) | **KANONİK YOL.** Auth doğrula → MCP sunucu başlat (jacob-bd :8000) → her klasör için `notebooklm_mcp_exhaust.py --input` çalıştır. Tüm PDF'ler bitince tamamdır. | 1) auth: `uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git nlm login --check` · 2) sunucu: `scripts\start_notebooklm_mcp.bat` · 3) `$env:PYTHONUTF8="1"; python -u scripts/notebooklm_mcp_exhaust.py --input "<klasör>" --lesson "<Ders>"` | §4.1-B |
+| **"MCP ile üret"** (+ klasör gösterilir) | **KANONİK YOL.** Sunucuyu canlılık testi → gerekirse başlat → çalıştır. `auth_status=stale` görürsen DURMA (script handle eder). | 1) port test: `curl -s -X POST http://127.0.0.1:8000/mcp -H "Accept: application/json, text/event-stream" -H "Content-Type: application/json" -d "{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2024-11-05\",\"capabilities\":{},\"clientInfo\":{\"name\":\"t\",\"version\":\"1\"}}}"` → `"serverInfo"` içeriyorsa sunucu HAZIR, yoksa `scripts\start_notebooklm_mcp.bat` ile başlat · 2) `$env:PYTHONUTF8="1"; python -u scripts/notebooklm_mcp_exhaust.py --input "<klasör>" --lesson "<Ders>"` | §4.1-B |
 | **"MCP ile paralel üret"** (+ klasör + 2. hesap) | **Multi-hesap paralel.** Her hesap = ayrı port = ayrı MCP sunucusu. `nlm login switch <profil>` ile geçiş, her port başlangıçtaki profili belleğe alır. | 1) Tüm profilleri `nlm login --profile <ad>` ile ekle · 2) Her profil için ayrı portta MCP başlat · 3) `python scripts/notebooklm_mcp_parallel.py --servers "3000:hesap1:nb-id1,3001:hesap2:nb-id2" --input "pdf1.pdf" "pdf2.pdf" --lesson "<Ders>"` | §4.1-C |
 | **"MCP pipeline'ı kaldığı yerden devam ettir"** | Checkpoint'ten resume et (ağ kesintisi / restart sonrası) | `python -u scripts/run_mcp_pipeline.py --resume` | §4.1-B |
 | **"MCP pipeline durumu nedir"** | Kaç ünite tamamlandı, MCP canlı mı, hatalılar hangileri | `python -u scripts/run_mcp_pipeline.py --status` | §4.1-B |
@@ -484,34 +490,28 @@ Eski hat Google'ın iç `wrb.fr` RPC uçlarına ham `aiohttp` POST atıyordu →
 
 ---
 
-#### ⚡ TAM BAŞLATMA PROTOKOLÜ (Ajan bu sırayı uygular, tahmin etmez)
+#### ⚡ TAM BAŞLATMA PROTOKOLÜ — SIFIR ENGEL (v4.28+)
 
-**ADIM 0 — Çevre kontrolü (her başlamada)**
-1. Antigravity MCP config'inde `notebooklm` girişi `disabled: true` mü? (`~/.gemini/config/mcp_config.json`). Aksi halde Chrome profil kilidi çakışır.
-2. `%LOCALAPPDATA%\notebooklm-mcp\Data\library.json` DUSBANKASI notebook'unu içeriyor mu? `Data.bak` / `Data.empty` görürsen önceki AI swap'i: gerçek login içereni `Data` olarak yeniden adlandır.
-3. `settings.json` `"profile":"default"` olmalı (`"fresh"`/`"full"` değil).
+> **KURAL #1:** `auth_status=stale` gördüğünde DURMA. Bu yanıltıcı bir bayraktır; `ensure_auth` live `notebook_get` testi yapar ve gerçekten çalışıyorsa devam eder. Yalnızca `expired` + live test de başarısızsa `nlm login` gerekir.
+>
+> **KURAL #2:** `MCP_URL` artık env var gerekmez. `config.py`'de `http://127.0.0.1:8000/mcp` olarak sabit tanımlı. Script otomatik 8000 portunu kullanır.
 
-**ADIM 1 — Auth kontrolü**
+**ADIM 1 — Sunucu canlılık testi (tek komut)**
 ```powershell
-uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git nlm login --check
+curl -s -X POST http://127.0.0.1:8000/mcp `
+  -H "Content-Type: application/json" `
+  -H "Accept: application/json, text/event-stream" `
+  -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2024-11-05","capabilities":{},"clientInfo":{"name":"t","version":"1"}}}'
 ```
-- ✅ `✓ Authentication valid` → ADIM 2'ye geç.
-- ⚠️ `auth_status: stale` → bir sonraki adımda `ensure_auth` otomatik `refresh_auth` MCP aracını çağıracak; muhtemelen çözülür.
-- ❌ `Authentication expired` → **bir kerelik interaktif login** (kullanıcı yapar, ajan yapamaz):
-  ```powershell
-  # Önce sunucu kapalı olmalı (chrome_profile kilidi çakışmasın)
-  uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git nlm login
-  # Browser açılır → Google'a giriş → terminal "✓ Authenticated" gösterir
-  ```
+- Yanıtta `"serverInfo"` varsa → sunucu **HAZIR**, ADIM 3'e geç.
+- `ConnectionRefused` veya boş yanıt → ADIM 2'ye geç.
 
-**ADIM 2 — MCP sunucusunu başlat (ayrı terminal/arka plan)**
+**ADIM 2 — Sunucuyu başlat (sunucu yoksa)**
 ```powershell
 scripts\start_notebooklm_mcp.bat
 ```
-- Adres: `http://127.0.0.1:8000/mcp`.
-- Sunucu hazır olduğunda log `Uvicorn running on...` yazar.
-- ~10 saniye bekle (Patchright Chrome açılana kadar).
-- Hızlı kontrol: `Get-NetTCPConnection -LocalPort 8000 -State Listen` → kayıt çıkarsa tamam.
+- Sunucu hazır olduğunda log `Uvicorn running on...` yazar (~10 sn Patchright Chrome için bekle).
+- ⚠️ `auth_status=expired` mesajı görürsem → sunucuyu kapat, `uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git nlm login` (browser açılır, kullanıcı giriş yapar), sonra tekrar .bat.
 
 **ADIM 3 — Üretimi başlat**
 
@@ -558,16 +558,16 @@ Get-Content scripts\logs\run_protez.log -Tail 40
 
 | Hata | Neden | Çözüm |
 |---|---|---|
-| `auth_status: stale` | Google cookie rotation (PSIDTS) | `ensure_auth` otomatik MCP `refresh_auth` çağırır; çoğu zaman sessizce çözülür |
-| `auth_status: expired` | Cookie tamamen geçersiz | Sunucuyu kapat, `nlm login` interaktif (browser); sonra .bat'i tekrar başlat |
-| `ConnectionRefused` :8000 | Sunucu tam açılmadı veya çakışma | Sunucu açılınca 10 sn bekle; port kayıt: `Get-NetTCPConnection -LocalPort 8000` |
-| Chrome açılmıyor / profil kilidi | Antigravity `notebooklm` aktif | `~/.gemini/config/mcp_config.json` → `notebooklm.disabled: true` |
-| `Data.bak` görüldü | Önceki AI yarım swap | `Data.bak` → `Data` yeniden adlandır, settings.json `"profile":"default"` |
-| `Could not add file source` | Notebook'ta kalmış kaynak / yarım yükleme | `process_unit_exhaustive` başlangıç temizliği zaten yapıyor; bir-iki saniye sonra retry |
-| Ünite ortasında `auth_status=stale` | Uzun koşuda cookie rotation | `ensure_auth` aşamada otomatik refresh dener; başarısızsa unit atlanır, bir sonrakine geçer |
+| `auth_status: stale` görünce ajan takılıyor | Yanıltıcı bayrak — gerçekte auth çalışıyor | DURMA. `ensure_auth` `refresh_auth` + canlı `notebook_get` testi yapar; gerçekten geçerliyse devam eder |
+| `auth_status: expired` (live test de başarısız) | Cookie tamamen geçersiz | Sunucuyu kapat → `nlm login` interaktif (browser açılır) → .bat'i tekrar başlat |
+| `ConnectionRefused` :8000 | Sunucu açık değil | `scripts\start_notebooklm_mcp.bat` → 10 sn bekle; `Get-NetTCPConnection -LocalPort 8000` ile doğrula |
+| Script port 3000'e bağlanıyor | `MCP_URL` env var set edilmemişti | **Kalıcı olarak çözüldü (v4.28).** `config.py`'de `MCP_URL = "http://127.0.0.1:8000/mcp"` sabit. Env var artık gerekmez. |
+| Chrome açılmıyor / profil kilidi | Antigravity `notebooklm` girişi aktif | Claude Code MCP config'inde `notebooklm` girişini devre dışı bırak (profil kilidi çakışır) |
+| `Data.bak` görüldü | Önceki AI yarım profil swap'i | `Data.bak` → `Data` yeniden adlandır; `settings.json` `"profile":"default"` |
+| `Could not add file source` | Notebook'ta kalmış kaynak / yarım yükleme | `process_unit_exhaustive` başlangıç temizliği zaten yapıyor; retry otomatik |
+| Ünite ortasında `auth_status=stale` | Uzun koşuda cookie rotation | `ensure_auth` otomatik refresh dener; başarısızsa unit atlanır, bir sonrakine geçer |
 | Log boş / ilerleme yok | Python stdout buffer | `python -u` (unbuffered) + `$env:PYTHONUTF8="1"` zorunlu |
-| `nlm login` browser açmıyor | Patchright Chromium eksik | `uvx --from <url> patchright install chromium` |
-| HTTP 500 / port 3000 referansı | PleasePrompto kalıntısı | Tamamen kaldırıldı; jacob-bd :8000 dışındaki her şey yasak |
+| `nlm login` browser açmıyor | Patchright Chromium eksik | `uvx --from git+https://github.com/jacob-bd/notebooklm-mcp-cli.git patchright install chromium` |
 
 ---
 
@@ -575,7 +575,8 @@ Get-Content scripts\logs\run_protez.log -Tail 40
 
 | Dosya | Görev |
 |---|---|
-| `scripts/notebooklm_mcp_exhaust.py` | Tek PDF veya `--input` klasör için FAZ 0–4 üretim motoru (MCP HTTP client dahil); `ensure_auth` stale-aware |
+| `scripts/notebooklm_mcp_exhaust.py` | Tek PDF veya `--input` klasör için FAZ 0–4 üretim motoru (MCP HTTP client dahil); `ensure_auth` stale-aware; `MCP_URL` config.py'den alır |
+| `scripts/config.py` | `MCP_URL = "http://127.0.0.1:8000/mcp"` sabit tanımlı — env var gerekmez |
 | `scripts/start_notebooklm_mcp.bat` | jacob-bd MCP HTTP sunucusunu :8000'de başlatır (uvx, default profil) |
 | `scripts/logs/run_<lesson>.log` | Klasör koşusu için ana log (per-ders) |
 | `scripts/logs/anchor_<unit>.txt` | FAZ 0 çapalama çıktısı |

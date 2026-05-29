@@ -365,4 +365,8 @@ Bazı yetenekler arayüz yerine AI asistan (Atlas) üzerinden sohbetle çalışt
 
 > **Not (2026-05-29 · v4.27):** İlk açılışta sorular yüklenirken ve sistem kurulurken oynatılmak üzere `logo-animation.mp4` video entegrasyonu tamamlandı. `App.tsx` içerisine yerleştirilen ve sorular yüklenir yüklenmez (bekleme süresi olmadan, anında) kaybolarak ana uygulamaya geçiş sağlayan tam ekran (`fixed inset-0 z-[9999] bg-[#0c061a]`) video splash katmanı entegre edildi. Animasyon mor parlayan marka kimliğini en üst düzeyde yansıtacak şekilde atmosferik gölgelendirmelerle (`shadow-[0_0_50px_rgba(130,90,240,0.25)]`) süslendi.
 
-**DUSBANKASI — KULLANIM REHBERİ v4.27 — SON GÜNCELLEME: 2026-05-29**
+> **Not (2026-05-29 · v4.29):** Yüksek Seviye (High-End) Animasyon Entegrasyonu & Framer Motion. `DUSMERKEZİ` içerisindeki 'high-end-visual-design', 'design-spells' ve 'magic-animator' skill dosyalarındaki prensipler projeye entegre edildi. `index.css`'e `double-bezel` sınıfı eklendi. `App.tsx` içerisindeki logo, `QuestionCard.tsx` soru kartları ve `SimulationResultView.tsx` ekranları `framer-motion` ile sarılarak manyetik hover, 3D gecikmeli giriş ve elastik fizik motoruyla (cubic-bezier) premium ve canlı bir arayüze kavuşturuldu.
+>
+> **Not (2026-05-29 · v4.30):** İstatistik ekranındaki karmaşık ve tıkanıklığa sebep olan 8 grafik ("Konu İlişki Ağı", "Ders → Doğru/Yanlış Akışı", "Ders Tutarlılık Analizi (Box Plot)", "Grafik Morfingi", "Dersler Arası İlişki", "Ders Kapsama Mozaiği", "Soru Bazlı Doğruluk Dağılımı", "Ders Doğruluk Dağılımı") tamamen temizlendi. Günlük soru hedefi `200` ve ders doğruluk hedefi `%80` olarak dashboard üzerinde sabitlendi. Böylece premium, sade ve amaca yönelik bir performans izleme deneyimi sağlandı.
+
+**DUSBANKASI — KULLANIM REHBERİ v4.30 — SON GÜNCELLEME: 2026-05-29**
