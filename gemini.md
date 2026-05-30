@@ -420,6 +420,29 @@ Supabase REST arayüzünde `not.in` filtrelerini `.or()` içinde birleştirmek, 
   const rows = data.filter(r => !EXCLUDED_FLAGS.has(r.quality_flag ?? ''));
   ```
 
+### 3.4. Sınav Hedef Projeksiyonu (`src/lib/projections.ts`)
+
+Saf, **bağımlılıksız** analitik modül — FSRS/scheduling yoktur (§3.1). Yalnızca istatistik girdisinden sınav hazırlık temposunu türetir. Test edilebilirlik için `now` ve `examDate` enjekte edilebilir; girdi yapısaldır (`activity: ReadonlyArray<{count:number}>`), böylece `stats.ts`'e bağlanmaz.
+
+- **Sabit**: `DUS_EXAM_DATE = '2026-11-01'`.
+- **`computeExamProjection(input)`** hesaplar: `daysUntilExam`, `requiredDailySolved = ceil(solvedRemaining / daysUntilExam)`, `recentDailyAvg` (son `paceWindowDays=14` gün ortalaması), `onTrackSolved`, `projectedSolvedAtExam`, `projectedCoveragePct` (banka boyutunda tavanlı), `consistencyPct` (son `consistencyWindowDays=30` günde aktif gün oranı). Varsayılan `targetSolved=10_000`.
+- **Tüketici**: `DailyPlanView.tsx` — "Günün Planı" ekranındaki **Sınav Hedef Projeksiyonu** paneli. Tüm pahalı türetmeler (`getWeakestUnits`, `getCurriculumProgress`, `solvedUnique` reduce, projeksiyon) `useMemo` ile sabitlenmiştir; bağımlılıklar `[questions, stats, activity]`.
+- **Test**: `src/lib/__tests__/projections.test.ts` (12 test) — sabit `NOW = 2026-05-30` ile gün/tempo/tavan/tutarlılık değişmezlerini kilitler.
+
+### 3.5. AI Markdown Renderer Güvenliği (`src/lib/markdown.ts`)
+
+Gemini'nin döndürdüğü Markdown'ı `dangerouslySetInnerHTML` için HTML'e çevirir. **Derinlemesine savunma**: yapısal HTML (`<strong>`, `<ul>`, başlık) üretilmeden **ÖNCE** içerik `escapeHtml` ile escape edilir (`&`→`&amp;`, `<`→`&lt;`, `>`→`&gt;`). `processBold` artık `escapeHtml(raw).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')` sırasıyla çalışır.
+
+- **Çift amaç**: (1) `<script>`/`<img onerror>` enjeksiyonu nötralize (DOMPurify'a ek ikinci kat — `AIAssistantPanel` zaten `DOMPurify.sanitize(...)` ile sarar); (2) AI yanıtındaki **gerçek** `<`/`>`/`&` karakterleri (ör. "kan pH < 7.4") etiket sanılıp kaybolmaz.
+- **Test**: `src/lib/__tests__/markdown.test.ts` (9 test) — yapı (bold/liste/başlık/boşluk) + güvenlik (script/img nötralize, `&` escape, "pH < 7.4" korunur, escape sonrası bold çalışır).
+
+### 3.6. Test Paketi (Vitest 3.2.4)
+
+Karakterizasyon + regresyon güvenlik ağı, toplam **146 test / 9 dosya** (tümü geçer). Davranışı siyah-kutu olarak kilitler; güvenli refactor ve sync-regresyon tespiti için zemin. Kritik dosyalar:
+- `sync.merge.test.ts` (8) — cross-device MAX-MERGE değişmezleri (`syncStatsDown` üzerinden): aktivite gün-bazlı max, streak `longestStreak=max`, stats GREATEST. **İlerleme asla geri gitmez** değişmezini korur.
+- `projections.test.ts` (12), `markdown.test.ts` (9) — §3.4 / §3.5.
+- `stats.test.ts` (30), `stats.compute.test.ts` (29), `adaptive.test.ts` (31), `dateUtils.test.ts` (13), `shuffle.test.ts` (8), `supabase.test.ts` (6).
+
 ---
 
 ## 4. PYTHON SORU ÜRETİM VERİ HATTI (PIPELINE)
@@ -968,5 +991,6 @@ Edge Function (Deno · supabase/functions/manage-questions/index.ts)
 - **Filtre paritesi riski**: Kalite kuralları iki dilde yaşar (Python `shared.py` + Deno `index.ts`). Eşik değişirse ikisi elle eşitlenmelidir.
 
 ---
-**DUSBANKASI — TEKNİK YÖNERGE v4.6 — SON GÜNCELLEME: 2026-05-27**
-*Bu dosya ajanın ilk okuduğu tek yetkili teknik kaynaktır. v4.6: bi-encoder embedding'ler tüm bankada (14.473 soru) backfill edildi; benzerlik guard'ları (cevap-metni + yönelim) ve hibrit/ünite-kapsamlı `find_candidate_pairs` RPC ile kopya tespiti üretimde gerçekten çalışır hale getirildi. Vektör HNSW index'leri (audit self-join kullandığı için gereksiz) düşürülerek toplu-yazma 500'leri ve storage baskısı çözüldü.*
+**DUSBANKASI — TEKNİK YÖNERGE v4.7 — SON GÜNCELLEME: 2026-05-30**
+*Bu dosya ajanın ilk okuduğu tek yetkili teknik kaynaktır. v4.7 (7 fazlık güçlendirme): test paketi 117 → **146 test** (karakterizasyon + cross-device MAX-MERGE regresyon kilidi); yeni saf `projections.ts` modülü + "Günün Planı" sınav projeksiyonu (§3.4); AI Markdown renderer XSS derinlemesine-savunması (§3.5); `DailyPlanView` memoization. **Kural #9 korundu — lazy-load/code-split eklenmedi.** Supabase güvenlik denetimi (advisor) çalıştırıldı: tek-kullanıcılı anonim cihaz-tabanlı sync mimarisi gereği permissive RLS + `SECURITY DEFINER` anon-executable RPC'ler (`upsert_stats_batch`, `save_active_session`) **kasıtlı**; DB politika değişiklikleri yüksek blast-radius olduğundan otomatik uygulanmadı, Furkan kararına bırakıldı.*
+*v4.6: bi-encoder embedding'ler tüm bankada (14.473 soru) backfill edildi; benzerlik guard'ları (cevap-metni + yönelim) ve hibrit/ünite-kapsamlı `find_candidate_pairs` RPC ile kopya tespiti üretimde gerçekten çalışır hale getirildi. Vektör HNSW index'leri (audit self-join kullandığı için gereksiz) düşürülerek toplu-yazma 500'leri ve storage baskısı çözüldü.*
