@@ -28,6 +28,7 @@ import { todayStr } from './lib/dateUtils';
 import { themeColors, type Theme } from './theme';
 import type { AppState, AnswerDetail, QuizStatsType, ActiveSessionInfo, UserSettings } from './types/app';
 import { QuizView } from './components/quiz/QuizView';
+import { useSettingsStore } from './lib/settingsStore';
 
 const errMsg = (e: unknown): string => {
   if (e instanceof Error) return e.message;
@@ -239,19 +240,8 @@ export default function App() {
     }, []),
   });
 
-  const [settings, setSettings] = useState<UserSettings>(() => {
-    try {
-      const saved = localStorage.getItem('dus_settings');
-      return saved ? JSON.parse(saved) : { theme: 'dark', fontSize: 'normal' };
-    } catch {
-      return { theme: 'dark', fontSize: 'normal' };
-    }
-  });
-
-  useEffect(() => {
-    localStorage.setItem('dus_settings', JSON.stringify(settings));
-    document.documentElement.className = settings.theme;
-  }, [settings]);
+  const settings = useSettingsStore(s => s.settings);
+  const setSettings = useSettingsStore(s => s.setSettings);
 
   useEffect(() => {
     loadQuestions();
@@ -1709,7 +1699,7 @@ function ImportView({ onDone, theme }: { onDone: () => void; theme: Theme }) {
   );
 }
 
-function SettingsModal({ settings, setSettings, onClose, theme, onExport, onImport, onSourceBooks, onResetStats }: { settings: UserSettings; setSettings: React.Dispatch<React.SetStateAction<UserSettings>>; onClose: () => void; theme: Theme; onExport: () => void; onImport: () => void; onSourceBooks: () => void; onResetStats: () => void }) {
+function SettingsModal({ settings, setSettings, onClose, theme, onExport, onImport, onSourceBooks, onResetStats }: { settings: UserSettings; setSettings: (next: UserSettings) => void; onClose: () => void; theme: Theme; onExport: () => void; onImport: () => void; onSourceBooks: () => void; onResetStats: () => void }) {
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xl anim-fade-in">
       {/* AUDIT-02: max-h + overflow-y-auto — küçük ekranlarda modal içeriği scroll edilebilir */}
