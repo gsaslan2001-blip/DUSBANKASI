@@ -12,7 +12,7 @@ export type UseResumableSessionResult = {
   sessionSaveError: string | null;
 };
 
-function toCompact(session: ActiveSessionInfo): CompactSessionInfo {
+export function toCompact(session: ActiveSessionInfo): CompactSessionInfo {
   return {
     questionIds: session.questions.map(q => q.id),
     answers: session.answers.map(a => ({
@@ -29,7 +29,7 @@ function toCompact(session: ActiveSessionInfo): CompactSessionInfo {
   };
 }
 
-function fromCompact(compact: CompactSessionInfo, questionPool: Question[]): ActiveSessionInfo | null {
+export function fromCompact(compact: CompactSessionInfo, questionPool: Question[]): ActiveSessionInfo | null {
   const qMap = new Map(questionPool.map(q => [q.id, q]));
   const questions: Question[] = [];
   for (const id of compact.questionIds) {
@@ -68,7 +68,7 @@ function isCompactSession(data: unknown): data is CompactSessionInfo {
   return !!data && typeof data === 'object' && Array.isArray((data as CompactSessionInfo).questionIds);
 }
 
-function isValidCompact(s: CompactSessionInfo): boolean {
+export function isValidCompact(s: CompactSessionInfo): boolean {
   if (!Array.isArray(s.questionIds) || s.questionIds.length === 0) return false;
   if (!Array.isArray(s.answers)) return false;
   if (typeof s.currentIndex !== 'number') return false;
@@ -80,7 +80,7 @@ function isValidCompact(s: CompactSessionInfo): boolean {
   return true;
 }
 
-function isValidLegacy(s: ActiveSessionInfo): boolean {
+export function isValidLegacy(s: ActiveSessionInfo): boolean {
   if (!Array.isArray(s.questions) || s.questions.length === 0) return false;
   if (!Array.isArray(s.answers)) return false;
   if (typeof s.currentIndex !== 'number') return false;
