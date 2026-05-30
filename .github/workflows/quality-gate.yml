@@ -1,0 +1,37 @@
+name: Quality Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  quality:
+    name: Typecheck · Test · Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      # ── Bloklayıcı kapılar: başarısızsa merge engellenir ──────────────
+      - name: Typecheck (tsc -b)
+        run: bunx tsc -b
+
+      - name: Unit tests (vitest)
+        run: bun run test
+
+      - name: Production build (vite)
+        run: bunx vite build
+
+      # ── Bilgilendirici: lint mevcut borç nedeniyle henüz bloklamıyor ──
+      - name: Lint (non-blocking)
+        run: bun run lint
+        continue-on-error: true
