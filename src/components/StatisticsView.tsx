@@ -9,7 +9,6 @@
 
 import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
 import { useSpring, animated } from 'react-spring';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
@@ -170,7 +169,6 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
   const activity90 = useMemo(() => getRecentActivity(90), []);
 
   const { difficulty, mastery } = overview;
-  const statsInView = useInView({ triggerOnce: true, threshold: 0 });
 
   // ─── KPI Trend hesaplamaları ─────────────────────────────────────────────
   const accuracyTrend = useMemo(() => {
@@ -288,7 +286,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
   }).length;
 
   return (
-    <div ref={statsInView.ref} className={`flex flex-col gap-5 pb-12 ${statsInView.inView ? 'anim-slide-up' : 'opacity-0'}`}>
+    <div className="flex flex-col gap-5 pb-12 anim-slide-up">
 
       {/* ════════════════════════════════════════════════════════════════════
          TIER 1 — EXECUTIVE SUMMARY (Above-Fold)
