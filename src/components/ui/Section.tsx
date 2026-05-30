@@ -20,10 +20,10 @@ export function Section({
       {(title || subtitle) && (
         <div className={`mb-1 ${headerClassName}`}>
           {title && (
-            <h2 className="text-lg font-black tracking-tight text-[#ececf1]">{title}</h2>
+            <h2 className="text-lg font-black tracking-tight text-[color:var(--color-text-primary)]">{title}</h2>
           )}
           {subtitle && (
-            <p className="text-[#8b8b98] text-[13px] mt-1">{subtitle}</p>
+            <p className="text-[color:var(--color-text-secondary)] text-[13px] mt-1">{subtitle}</p>
           )}
         </div>
       )}

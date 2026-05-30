@@ -14,8 +14,7 @@
     "test:ui": "vitest --ui"
   },
   "dependencies": {
-    "@google/genai": "^1.49.0",
-    "@google/generative-ai": "^0.24.1",
+    "@phosphor-icons/react": "^2.1.10",
     "@supabase/supabase-js": "^2.103.0",
     "@tanstack/react-virtual": "^3.13.24",
     "@types/d3": "^7.4.3",
@@ -27,7 +26,6 @@
     "dotenv": "^17.4.1",
     "framer-motion": "^12.40.0",
     "jspdf": "^4.2.1",
-    "lucide-react": "^0.577.0",
     "react": "^19.2.4",
     "react-circular-progressbar": "^2.2.0",
     "react-dom": "^19.2.4",

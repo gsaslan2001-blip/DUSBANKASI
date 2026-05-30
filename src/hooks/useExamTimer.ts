@@ -21,9 +21,10 @@ export function useExamTimer(
   totalSeconds: number | undefined,
   questions: Question[],
   answersRef: RefObject<AnswerDetail[]>,
-  onExpire: (finalAnswers: AnswerDetail[], usedSeconds: number) => void
+  onExpire: (finalAnswers: AnswerDetail[], usedSeconds: number) => void,
+  initialRemainingSeconds?: number
 ): UseExamTimerResult {
-  const [remainingSeconds, setRemainingSeconds] = useState(totalSeconds ?? 0);
+  const [remainingSeconds, setRemainingSeconds] = useState(initialRemainingSeconds ?? totalSeconds ?? 0);
   const simStartRef = useRef(Date.now());
 
   // Keep latest onExpire without re-running the interval effect

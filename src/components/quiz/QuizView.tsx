@@ -12,7 +12,6 @@ import { QuestionCard } from './QuestionCard';
 import { ExplanationPanel } from './ExplanationPanel';
 import { QuizNavigation } from './QuizNavigation';
 import { AIAssistantPanel } from '../ai/AIAssistantPanel';
-import { toast } from 'sonner';
 
 export type QuizViewProps = {
   mode?: 'quiz' | 'exam';
@@ -69,7 +68,7 @@ export function QuizView({
     else onComplete(finalAnswers);
   }, [onSimulationComplete, onComplete]);
 
-  const { remainingSeconds } = useExamTimer(timedSeconds, questions, answersRef, handleTimerExpire);
+  const { remainingSeconds } = useExamTimer(timedSeconds, questions, answersRef, handleTimerExpire, initialSession?.remainingSeconds);
 
   const isHistorized = currentIndex < answers.length;
   const isAnswered = selectedOption !== null || isHistorized;
@@ -93,13 +92,20 @@ export function QuizView({
         selectedOptionKey: isSkip ? null : selectedOption,
         timeSpent,
       });
-      if (!isSkip) saveQuestionStat(question.id, state === 'correct', selectedOption, question.lesson);
+      if (!isSkip) saveQuestionStat(question.id, state === 'correct', selectedOption, question.lesson, timeSpent);
     }
     answersRef.current = newAnswers;
     setAnswers(newAnswers);
     if (onSaveSession) {
-      onSaveSession({ questions, answers: newAnswers, currentIndex: currentIndex + 1, mode: mode ?? 'quiz', dailyExamId });
-      toast('Oturum kaydedildi', { icon: '💾' });
+      onSaveSession({
+        questions,
+        answers: newAnswers,
+        currentIndex: currentIndex + 1,
+        mode: mode ?? 'quiz',
+        dailyExamId,
+        remainingSeconds: timedSeconds ? remainingSeconds : undefined,
+        simTotalSeconds: timedSeconds ?? undefined,
+      });
     }
     if (currentIndex < questions.length - 1) {
       directionRef.current = 'forward';
@@ -151,7 +157,14 @@ export function QuizView({
     answersRef.current = answers;
   }, [answers]);
 
-  if (!question) return <div className="p-10 text-center">Bitti!</div>;
+  if (!question) return (
+    <div className="flex-1 flex items-center justify-center p-10">
+      <div className="text-center">
+        <p className="text-2xl font-bold mb-2">Tüm sorular tamamlandı</p>
+        <p className="text-[color:var(--color-text-secondary)] text-sm">Sonuçlar hesaplanıyor...</p>
+      </div>
+    </div>
+  );
 
   return (
     <div className="flex flex-col h-full anim-fade-in overflow-hidden relative font-sans">
@@ -177,7 +190,7 @@ export function QuizView({
         theme={theme}
       />
 
-      <div className="flex-1 flex flex-col gap-3 overflow-hidden lg:flex-row relative">
+      <div className="flex-1 flex flex-col gap-4 overflow-hidden relative">
         {/* -- AI TUTOR PANEL (Glassmorphism) -- */}
         <AIAssistantPanel
           visible={ai.showPanel}
@@ -192,10 +205,10 @@ export function QuizView({
         <AnimatePresence mode="wait">
           <motion.div
             key={currentIndex}
-            initial={{ opacity: 0, x: directionRef.current === 'forward' ? 30 : -30 }}
+            initial={{ opacity: 0, x: directionRef.current === 'forward' ? 16 : -16 }}
             animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: directionRef.current === 'forward' ? -30 : 40 }}
-            transition={{ duration: 0.18, ease: [0.16, 1, 0.3, 1] }}
+            exit={{ opacity: 0, x: directionRef.current === 'forward' ? -16 : 20 }}
+            transition={{ type: 'spring', stiffness: 700, damping: 35 }}
             className="flex-1 flex flex-col lg:flex-row gap-3 min-w-0"
             style={{ display: 'flex' }}
           >

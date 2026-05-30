@@ -76,24 +76,29 @@ describe('pushStatsToCloud user_id routing', () => {
 });
 
 describe('active session cloud routing', () => {
-  it('upserts authenticated sessions by user_id so devices converge', async () => {
+  it('calls save_active_session RPC with user_id so devices converge', async () => {
     await saveSessionToCloud(DEVICE, { currentIndex: 31 }, 'user-123');
 
-    expect(upsertMock).toHaveBeenCalledTimes(1);
-    const [payload, opts] = upsertMock.mock.calls[0];
-    expect(opts).toEqual({ onConflict: 'user_id' });
-    expect(payload).toMatchObject({
-      device_id: DEVICE,
-      user_id: 'user-123',
-      session_data: { currentIndex: 31 },
+    expect(rpcMock).toHaveBeenCalledTimes(1);
+    const [fnName, params] = rpcMock.mock.calls[0];
+    expect(fnName).toBe('save_active_session');
+    expect(params).toMatchObject({
+      p_device_id: DEVICE,
+      p_user_id: 'user-123',
+      p_session_data: { currentIndex: 31 },
     });
   });
 
-  it('keeps anonymous sessions scoped to device_id', async () => {
+  it('calls save_active_session RPC without user_id for anonymous', async () => {
     await saveSessionToCloud(DEVICE, { currentIndex: 24 });
 
-    expect(upsertMock).toHaveBeenCalledTimes(1);
-    const [, opts] = upsertMock.mock.calls[0];
-    expect(opts).toEqual({ onConflict: 'device_id' });
+    expect(rpcMock).toHaveBeenCalledTimes(1);
+    const [fnName, params] = rpcMock.mock.calls[0];
+    expect(fnName).toBe('save_active_session');
+    expect(params).toMatchObject({
+      p_device_id: DEVICE,
+      p_user_id: null,
+      p_session_data: { currentIndex: 24 },
+    });
   });
 });

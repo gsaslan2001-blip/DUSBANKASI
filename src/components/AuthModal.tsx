@@ -5,9 +5,11 @@
  */
 
 import { useState, useCallback } from 'react';
-import { X, Mail, Lock, LogIn, UserPlus, Loader2, LogOut, User } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { X, Envelope, Lock, SignIn, UserPlus, CircleNotch, SignOut, User } from '@phosphor-icons/react';
 import { signInWithGoogle, signInWithEmail, signUpWithEmail } from '../lib/auth';
 import type { User as SupabaseUser } from '@supabase/supabase-js';
+import { overlayFade, modalPop } from '../lib/motion';
 
 import type { Theme } from '../theme';
 
@@ -20,7 +22,7 @@ type Props = {
 
 type FormMode = 'login' | 'register';
 
-/** Google renk logosu (SVG inline — lucide'de Google ikonu yok) */
+/** Google renk logosu (SVG inline) */
 function GoogleLogo() {
   return (
     <svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -105,18 +107,27 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
   }, []);
 
   return (
-    <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm"
+    <AnimatePresence>
+    <motion.div
+      className="fixed inset-0 z-50 flex items-center justify-center glass-overlay"
+      variants={overlayFade}
+      initial="initial"
+      animate="animate"
+      exit="exit"
       onClick={onClose}
     >
-      <div
-        className={`relative w-full max-w-sm mx-4 ${theme.card} border ${theme.border} rounded-2xl shadow-2xl shadow-black/60 p-6`}
+      <motion.div
+        className={`relative w-full max-w-sm mx-4 glass-card border border-white/[0.08] shadow-2xl shadow-black/60 p-6`}
+        variants={modalPop}
+        initial="initial"
+        animate="animate"
+        exit="exit"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Kapat butonu */}
         <button
           onClick={onClose}
-          className={`absolute top-4 right-4 ${theme.subtext} opacity-70 hover:${theme.text} transition-colors`}
+          className="absolute top-4 right-4 text-[color:var(--color-text-secondary)] opacity-70 hover:opacity-100 hover:text-[color:var(--color-text-primary)] transition-all rounded-lg p-1 hover:bg-white/[0.06]"
           aria-label="Kapat"
         >
           <X size={18} />
@@ -176,7 +187,7 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
               disabled={loading}
               className={`w-full flex items-center justify-center gap-2 px-4 py-2.5 ${theme.surface} hover:${theme.surface} ${theme.text} hover:text-white text-sm font-medium rounded-xl transition-all disabled:opacity-50`}
             >
-              {loading ? <Loader2 size={16} className="animate-spin" /> : <LogOut size={16} />}
+              {loading ? <CircleNotch size={16} weight="thin" className="animate-spin" /> : <SignOut size={16} weight="thin" />}
               Çıkış Yap
             </button>
           </div>
@@ -190,7 +201,7 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
               className={`w-full flex items-center justify-center gap-2.5 px-4 py-2.5 ${theme.surface} hover:${theme.inputBg} ${theme.text} text-sm font-semibold rounded-xl transition-all shadow-sm border ${theme.border} disabled:opacity-50 disabled:cursor-not-allowed`}
             >
               {loading ? (
-                <Loader2 size={16} className={`animate-spin ${theme.subtext} opacity-70`} />
+                <CircleNotch size={16} weight="thin" className={`animate-spin ${theme.subtext} opacity-70`} />
               ) : (
                 <GoogleLogo />
               )}
@@ -207,7 +218,7 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
             {/* Email + Şifre Formu */}
             <form onSubmit={handleEmailSubmit} className="space-y-3">
               <div className="relative">
-                <Mail
+                <Envelope
                   size={15}
                   className={`absolute left-3 top-1/2 -translate-y-1/2 ${theme.subtext} opacity-70 pointer-events-none`}
                 />
@@ -217,8 +228,7 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Email"
                   autoComplete="email"
-                  className={`w-full ${theme.surface} border ${theme.border} rounded-xl pl-9 pr-4 py-2.5 text-sm ${theme.text} focus:outline-none focus:border-indigo-500 transition-colors`}
-                  style={{ '--tw-placeholder-color': 'rgba(156, 163, 175, 0.5)' } as any}
+                  className="w-full glass-input rounded-xl pl-9 pr-4 py-2.5 text-sm text-[color:var(--color-text-primary)] placeholder:text-[color:var(--color-text-tertiary)]"
                 />
               </div>
               <div className="relative">
@@ -232,8 +242,7 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Şifre (min. 6 karakter)"
                   autoComplete={formMode === 'login' ? 'current-password' : 'new-password'}
-                  className={`w-full ${theme.surface} border ${theme.border} rounded-xl pl-9 pr-4 py-2.5 text-sm ${theme.text} focus:outline-none focus:border-indigo-500 transition-colors`}
-                  style={{ '--tw-placeholder-color': 'rgba(156, 163, 175, 0.5)' } as any}
+                  className="w-full glass-input rounded-xl pl-9 pr-4 py-2.5 text-sm text-[color:var(--color-text-primary)] placeholder:text-[color:var(--color-text-tertiary)]"
                 />
               </div>
 
@@ -254,9 +263,9 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
                 className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold rounded-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {loading ? (
-                  <Loader2 size={16} className="animate-spin" />
+                  <CircleNotch size={16} weight="thin" className="animate-spin" />
                 ) : formMode === 'login' ? (
-                  <LogIn size={16} />
+                  <SignIn size={16} weight="thin" />
                 ) : (
                   <UserPlus size={16} />
                 )}
@@ -277,7 +286,8 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
             </p>
           </div>
         )}
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
+    </AnimatePresence>
   );
 }

@@ -26,7 +26,7 @@ export function StatCard({ label, value, sub, icon, accent, className = '' }: St
     >
       <div className={`absolute top-0 left-4 right-4 h-px ${accentBg} opacity-40`} />
       <div className="flex items-start justify-between mb-3">
-        <span className="text-[#8b8b98] text-[10px] font-bold uppercase tracking-widest">{label}</span>
+        <span className="text-[color:var(--color-text-secondary)] text-[10px] font-bold uppercase tracking-widest">{label}</span>
         <div className="p-2 rounded-xl bg-white/[0.02] group-hover:scale-110 group-hover:bg-white/[0.06] transition-all duration-500">
           {icon}
         </div>
@@ -35,7 +35,7 @@ export function StatCard({ label, value, sub, icon, accent, className = '' }: St
         {value}
       </div>
       {sub && (
-        <div className="text-[#8b8b98] text-[11px] mt-1.5 font-medium">{sub}</div>
+        <div className="text-[color:var(--color-text-secondary)] text-[11px] mt-1.5 font-medium">{sub}</div>
       )}
     </div>
   );

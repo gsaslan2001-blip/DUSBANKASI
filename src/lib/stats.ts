@@ -1,3 +1,4 @@
+
 /**
  * DUS Bankası — Soru İstatistik Yönetimi (localStorage + Cloud Sync)
  * Per-soru: kaç kez çözüldü, kaç kez doğru, son görülme zamanı, yanlış şık geçmişi.
@@ -26,6 +27,8 @@ export type QuestionStat = {
   wrongChoices?: WrongChoice[];
   // Accuracy bazlı statik zorluk puanı (1 = kolay, 10 = zor). Doğruluk oranıyla ters orantılı.
   difficulty?: number;
+  // Soru başına harcanan süreler (saniye) — histogram ve hız analizi için
+  timeSpentHistory?: number[];
 };
 
 export type StatsMap = Record<string, QuestionStat>;
@@ -81,6 +84,7 @@ export function saveQuestionStat(
   isCorrect: boolean,
   selectedOption?: string | null,
   lesson?: string,
+  timeSpent?: number,
 ): void {
   const stats = loadAllStats();
   const prev: QuestionStat = stats[questionId] || {
@@ -99,12 +103,19 @@ export function saveQuestionStat(
     ? [...prevWrong, { selected: selectedOption, timestamp: new Date().toISOString() }]
     : prevWrong;
 
+  // Süre geçmişi: son 50 kayıt tutulur (histogram ve hız analizi için)
+  const prevTimes = prev.timeSpentHistory ?? [];
+  const nextTimes = timeSpent != null && timeSpent > 0
+    ? [...prevTimes, timeSpent].slice(-50)
+    : prevTimes;
+
   stats[questionId] = {
     attempts,
     corrects,
     lastSeen: new Date().toISOString(),
     difficulty: accuracyToDifficulty(corrects, attempts),
     wrongChoices: nextWrong,
+    timeSpentHistory: nextTimes,
   };
   localStorage.setItem(STATS_KEY, JSON.stringify(stats));
   localStorage.setItem(PENDING_SYNC_KEY, '1');
@@ -625,6 +636,7 @@ export async function syncStatsDown(): Promise<void> {
             lastSeen: [cloudSeen, localSeen].sort().reverse()[0],
             difficulty: (cloudWins ? cloud.difficulty : local?.difficulty) ?? accuracyToDifficulty(corrects, attempts),
             wrongChoices: mergeWrongChoices(local?.wrongChoices ?? [], cloud.wrongChoices ?? []),
+            timeSpentHistory: mergeTimeSpentHistory(local?.timeSpentHistory ?? [], cloud.timeSpentHistory ?? []),
           };
         }
       }
@@ -705,6 +717,11 @@ export function mergeWrongChoices(a: WrongChoice[], b: WrongChoice[]): WrongChoi
     }
   }
   return out.sort((x, y) => x.timestamp.localeCompare(y.timestamp));
+}
+
+/** İki timeSpentHistory dizisini birleştirir (son 50 kayıt). */
+export function mergeTimeSpentHistory(a: number[], b: number[]): number[] {
+  return [...a, ...b].slice(-50);
 }
 
 // ─── DEBOUNCED SYNC ─────────────────────────────────────────────────────────
@@ -790,6 +807,175 @@ export function setupSyncHandlers(): () => void {
     document.removeEventListener('visibilitychange', handleVisibility);
     window.removeEventListener('online', handleOnline);
   };
+}
+
+// ─── KPI TREND ──────────────────────────────────────────────────────────────
+
+export type TrendDirection = 'up' | 'down' | 'flat';
+export type TrendResult = {
+  direction: TrendDirection;
+  delta: number;
+  deltaPct: number;
+};
+
+/**
+ * İki değer arasındaki trendi hesaplar.
+ * Örn. bu hafta 240 vs geçen hafta 200 → { direction:'up', delta:40, deltaPct:20 }
+ */
+export function computeTrend(current: number, previous: number): TrendResult {
+  const delta = current - previous;
+  const deltaPct = previous > 0 ? Math.round((delta / previous) * 100) : (current > 0 ? 100 : 0);
+  const direction: TrendDirection = delta > 0 ? 'up' : delta < 0 ? 'down' : 'flat';
+  return { direction, delta, deltaPct };
+}
+
+/** Son N gün vs önceki N gün trendi (toplam çözüm sayısı üzerinden). */
+export function computeActivityTrend(activity: ActivityPoint[], days: number): TrendResult {
+  const recent = activity.slice(-days).reduce((s, a) => s + a.count, 0);
+  const prev = activity.slice(-days * 2, -days).reduce((s, a) => s + a.count, 0);
+  return computeTrend(recent, prev);
+}
+
+// ─── KPI ALERTS ──────────────────────────────────────────────────────────────
+
+export type KpiAlertLevel = 'critical' | 'warning' | 'success';
+export type KpiAlert = {
+  level: KpiAlertLevel;
+  message: string;
+  metric: string;
+};
+
+const CRITICAL_ACCURACY = 40;
+const WARNING_ACCURACY = 55;
+const CRITICAL_COVERAGE = 20;
+const WARNING_COVERAGE = 35;
+const TARGET_DAILY = 200;
+const TARGET_ACCURACY = 80;
+const TARGET_COVERAGE = 90;
+const TARGET_MASTERED = 5000;
+const TARGET_SOLVED = 10000;
+
+/**
+ * Overview + streak + aktiviteden anlamlı KPI alert'leri üretir.
+ * Eşik bazlı: accuracy düşük dersler, coverage kritik üniteler, streak riski, hedef açığı.
+ */
+export function generateKpiAlerts(
+  overview: OverviewStats,
+  streak: StreakData,
+  activity: ActivityPoint[],
+): KpiAlert[] {
+  const alerts: KpiAlert[] = [];
+
+  // Bugünkü performans
+  const today = activity[activity.length - 1];
+  if (today && today.count > 0) {
+    const todayPct = Math.round((today.count / TARGET_DAILY) * 100);
+    if (todayPct < 50) {
+      alerts.push({
+        level: 'warning',
+        message: `Bugünkü hedefin %${todayPct}'i — ${today.count}/${TARGET_DAILY} soru`,
+        metric: 'daily_target',
+      });
+    } else if (todayPct >= 100) {
+      alerts.push({
+        level: 'success',
+        message: `Günlük hedef tamamlandı: ${today.count} soru ✓`,
+        metric: 'daily_target',
+      });
+    }
+  } else {
+    alerts.push({
+      level: 'critical',
+      message: 'Bugün henüz soru çözülmedi — seri riski!',
+      metric: 'daily_target',
+    });
+  }
+
+  // Genel doğruluk
+  if (overview.accuracy < CRITICAL_ACCURACY) {
+    alerts.push({
+      level: 'critical',
+      message: `Genel doğruluk kritik seviyede: %${overview.accuracy} (hedef: %${TARGET_ACCURACY})`,
+      metric: 'accuracy',
+    });
+  } else if (overview.accuracy < WARNING_ACCURACY) {
+    alerts.push({
+      level: 'warning',
+      message: `Genel doğruluk düşük: %${overview.accuracy} (hedef: %${TARGET_ACCURACY})`,
+      metric: 'accuracy',
+    });
+  }
+
+  // Kapsama
+  if (overview.coverage < CRITICAL_COVERAGE) {
+    alerts.push({
+      level: 'critical',
+      message: `Kapsama kritik seviyede: %${overview.coverage} — banka henüz taranmamış`,
+      metric: 'coverage',
+    });
+  } else if (overview.coverage < WARNING_COVERAGE) {
+    alerts.push({
+      level: 'warning',
+      message: `Kapsama düşük: %${overview.coverage} (hedef: %${TARGET_COVERAGE})`,
+      metric: 'coverage',
+    });
+  }
+
+  // Seri riski (dün çalışılmamışsa)
+  const yesterday = activity[activity.length - 2];
+  if (yesterday && yesterday.count === 0 && today && today.count === 0) {
+    alerts.push({
+      level: 'critical',
+      message: '2 gündür soru çözülmedi — seri kopma riski!',
+      metric: 'streak',
+    });
+  }
+
+  // Seri milestone'ları
+  if (streak.currentStreak > 0 && streak.currentStreak % 50 === 0) {
+    alerts.push({
+      level: 'success',
+      message: `Seri kilometre taşı: ${streak.currentStreak} gün! 🔥`,
+      metric: 'streak',
+    });
+  }
+
+  // Ders bazlı uyarılar (accuracy < %50 olanlar)
+  for (const l of overview.byLesson) {
+    if (l.solved > 10 && l.accuracy < CRITICAL_ACCURACY) {
+      alerts.push({
+        level: 'critical',
+        message: `${l.lesson}: Doğruluk %${l.accuracy} — acil tekrar gerekli`,
+        metric: `lesson_${l.lesson}`,
+      });
+    } else if (l.solved > 20 && l.accuracy < WARNING_ACCURACY) {
+      alerts.push({
+        level: 'warning',
+        message: `${l.lesson}: Doğruluk %${l.accuracy} — ek çalışma önerilir`,
+        metric: `lesson_${l.lesson}`,
+      });
+    }
+  }
+
+  // Hedef ilerleme durumu
+  const solvedToTarget = Math.round((overview.solvedUnique / TARGET_SOLVED) * 100);
+  if (solvedToTarget >= 90) {
+    alerts.push({
+      level: 'success',
+      message: `10.000 soru hedefinin %${solvedToTarget}'i tamamlandı!`,
+      metric: 'target_10k',
+    });
+  }
+  const masteredToTarget = Math.round((overview.masteredUnique / TARGET_MASTERED) * 100);
+  if (masteredToTarget >= 90) {
+    alerts.push({
+      level: 'success',
+      message: `5.000 uzmanlaşma hedefinin %${masteredToTarget}'i tamamlandı!`,
+      metric: 'target_5k',
+    });
+  }
+
+  return alerts.slice(0, 5); // Max 5 alert
 }
 
 /** Tüm istatistikleri tamamen sıfırlar: localStorage + cloud. */

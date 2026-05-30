@@ -30,6 +30,7 @@ export type QuestionRow = {
   flagged?: boolean;
   flag_reason?: string;
   quality_flag?: string | null;
+  image_url?: string | null;
 };
 
 export type ImportQuestion = {
@@ -41,7 +42,7 @@ export type ImportQuestion = {
   explanation: string;
 };
 
-const SELECT_COLS = 'id,lesson,unit,question,option_a,option_b,option_c,option_d,option_e,correct_answer,explanation,created_at,is_favorite,flagged,flag_reason,quality_flag';
+const SELECT_COLS = 'id,lesson,unit,question,option_a,option_b,option_c,option_d,option_e,correct_answer,explanation,created_at,is_favorite,flagged,flag_reason,quality_flag,image_url';
 const PAGE_SIZE = 500;
 
 // ════════════════════════════════════════════════════════════════════════════
@@ -162,6 +163,7 @@ export function rowToQuestion(row: QuestionRow) {
     explanation: row.explanation,
     is_favorite: row.is_favorite || false,
     quality_flag: row.quality_flag ?? null,
+    imageUrl: row.image_url ?? null,
   };
 }
 
@@ -198,6 +200,40 @@ export async function toggleFavoriteInCloud(id: string, newFavoriteStatus: boole
 export async function updateQuestion(id: string, fields: Partial<Omit<QuestionRow, 'id' | 'created_at'>>): Promise<void> {
   const { error } = await supabase.from('questions').update(fields).eq('id', id);
   if (error) throw error;
+}
+
+// ─── QUESTION IMAGES (Storage) ─────────────────────────────────────────────
+
+const QUESTION_IMAGE_BUCKET = 'question-images';
+const QUESTION_IMAGE_ALLOWED = new Set(['image/png', 'image/jpeg', 'image/webp', 'image/avif']);
+const QUESTION_IMAGE_MAX_BYTES = 8 * 1024 * 1024;
+
+export type QuestionImageUploadResult = { path: string; publicUrl: string };
+
+export async function uploadQuestionImage(file: File, questionId: string): Promise<QuestionImageUploadResult> {
+  if (!QUESTION_IMAGE_ALLOWED.has(file.type)) {
+    throw new Error('Desteklenmeyen format. PNG, JPEG, WebP veya AVIF yükleyin.');
+  }
+  if (file.size > QUESTION_IMAGE_MAX_BYTES) {
+    throw new Error('Görsel 8 MB sınırını aşıyor.');
+  }
+  const ext = file.type === 'image/jpeg' ? 'jpg' : file.type.split('/')[1];
+  const path = `${questionId}/${Date.now()}-${Math.random().toString(36).slice(2, 8)}.${ext}`;
+  const { error } = await supabase.storage
+    .from(QUESTION_IMAGE_BUCKET)
+    .upload(path, file, { contentType: file.type, upsert: false, cacheControl: '31536000' });
+  if (error) throw new Error(error.message);
+  const { data } = supabase.storage.from(QUESTION_IMAGE_BUCKET).getPublicUrl(path);
+  return { path, publicUrl: data.publicUrl };
+}
+
+export async function deleteQuestionImage(publicUrl: string): Promise<void> {
+  const marker = `/${QUESTION_IMAGE_BUCKET}/`;
+  const idx = publicUrl.indexOf(marker);
+  if (idx < 0) return;
+  const path = publicUrl.slice(idx + marker.length);
+  const { error } = await supabase.storage.from(QUESTION_IMAGE_BUCKET).remove([path]);
+  if (error) throw new Error(error.message);
 }
 
 export async function flagQuestion(id: string, reason: string): Promise<void> {
@@ -311,6 +347,7 @@ export type CloudStat = {
   lastSeen: string;
   wrongChoices?: WrongChoice[];
   difficulty?: number;
+  timeSpentHistory?: number[];
 };
 
 /**

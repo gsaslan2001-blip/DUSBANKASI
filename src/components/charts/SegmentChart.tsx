@@ -1,5 +1,6 @@
 import { useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
+import { debounce } from '../../lib/chartUtils';
 
 export interface SegmentDatum {
   label: string;
@@ -29,7 +30,7 @@ export default function SegmentChart({ segments }: Props) {
 
   useEffect(() => {
     measure();
-    const obs = new ResizeObserver(() => measure());
+    const obs = new ResizeObserver(debounce(() => measure(), 150));
     if (containerRef.current) obs.observe(containerRef.current);
     return () => obs.disconnect();
   }, [measure]);
@@ -38,6 +39,8 @@ export default function SegmentChart({ segments }: Props) {
     if (!svgRef.current) return;
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
+    svg.attr('role', 'img').attr('aria-label', 'Segment grafiği');
+    svg.append('title').text('Segment grafiği');
 
     const total = d3.sum(segments, d => d.value) || 1;
     const r = RADIUS * (svgSize / SIZE);

@@ -77,6 +77,7 @@ export function useQuestions(): UseQuestionsResult {
         option_e: edited.options.E,
         correct_answer: edited.correctAnswer,
         explanation: edited.explanation,
+        image_url: edited.imageUrl ?? null,
       });
     } catch (error) {
       setQuestions(previousState);

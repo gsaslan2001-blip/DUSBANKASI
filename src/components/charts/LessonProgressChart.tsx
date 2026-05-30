@@ -1,5 +1,6 @@
 import { useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
+import { debounce } from '../../lib/chartUtils';
 
 export interface LessonProgressDatum {
   lesson: string;
@@ -29,7 +30,7 @@ export default function LessonProgressChart({ data }: Props) {
 
   useEffect(() => {
     measure();
-    const obs = new ResizeObserver(() => measure());
+    const obs = new ResizeObserver(debounce(() => measure(), 150));
     if (containerRef.current) obs.observe(containerRef.current);
     return () => obs.disconnect();
   }, [measure]);
@@ -38,6 +39,8 @@ export default function LessonProgressChart({ data }: Props) {
     if (!svgRef.current || data.length === 0) return;
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
+    svg.attr('role', 'img').attr('aria-label', 'Ders ilerleme grafiği');
+    svg.append('title').text('Ders ilerleme grafiği');
 
     const totalH = data.length * (BAR_H + GAP) + MARGIN.top + MARGIN.bottom;
     const innerW = width - MARGIN.left - MARGIN.right;

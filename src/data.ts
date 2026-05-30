@@ -14,6 +14,7 @@ export type Question = {
   explanation: string;
   is_favorite?: boolean;
   quality_flag?: string | null;
+  imageUrl?: string | null;
 };
 
 export const sampleData: Question[] = [

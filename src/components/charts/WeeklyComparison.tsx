@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
+import { TrendUp, TrendDown, Minus } from '@phosphor-icons/react';
 
 interface DailyActivity {
   date: string;
@@ -74,7 +74,7 @@ export function WeeklyComparison({ activity, className = '' }: WeeklyComparisonP
 
   const trendColor = trend === 'up' ? 'text-emerald-400' : trend === 'down' ? 'text-red-400' : 'text-amber-400';
   const trendBg = trend === 'up' ? 'bg-emerald-500/10 border-emerald-500/20' : trend === 'down' ? 'bg-red-500/10 border-red-500/20' : 'bg-amber-500/10 border-amber-500/20';
-  const TrendIcon = trend === 'up' ? TrendingUp : trend === 'down' ? TrendingDown : Minus;
+  const TrendIcon = trend === 'up' ? TrendUp : trend === 'down' ? TrendDown : Minus;
 
   function fmt(n: number): string {
     return n.toLocaleString('tr-TR');

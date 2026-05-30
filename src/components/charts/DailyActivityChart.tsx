@@ -1,5 +1,6 @@
 import { useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
+import { debounce } from '../../lib/chartUtils';
 
 export interface DailyActivityDatum {
   date: string;
@@ -30,7 +31,7 @@ export default function DailyActivityChart({ data, onDaySelect, selectedDay }: P
 
   useEffect(() => {
     measure();
-    const obs = new ResizeObserver(() => measure());
+    const obs = new ResizeObserver(debounce(() => measure(), 150));
     if (containerRef.current) obs.observe(containerRef.current);
     return () => obs.disconnect();
   }, [measure]);
@@ -40,6 +41,8 @@ export default function DailyActivityChart({ data, onDaySelect, selectedDay }: P
 
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
+    svg.attr('role', 'img').attr('aria-label', 'Günlük aktivite çubuk grafiği');
+    svg.append('title').text('Günlük aktivite çubuk grafiği');
 
     const { width, height } = dims;
     const innerW = width - MARGIN.left - MARGIN.right;

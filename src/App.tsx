@@ -1,12 +1,13 @@
 import { useState, useEffect, useCallback } from 'react';
-import { importQuestions, deleteQuestionsInLesson, deleteQuestionsInUnit, renameLesson, renameUnit, loadTodaysDailyExam, markDailyExamCompleted, saveExamAnswers, type DailyExamRow } from './lib/supabase';
+import { importQuestions, deleteQuestionsInLesson, deleteQuestionsInUnit, renameLesson, renameUnit, loadTodaysDailyExam, markDailyExamCompleted, saveExamAnswers, uploadQuestionImage, deleteQuestionImage, type DailyExamRow } from './lib/supabase';
 import { useQuestions } from './hooks/useQuestions';
+import { motion } from 'framer-motion';
 import { useResumableSession } from './hooks/useResumableSession';
 import { useAuth } from './hooks/useAuth';
 import { useRealtimeStats } from './hooks/useRealtimeStats';
 import { AuthModal } from './components/AuthModal';
 import type { Question } from './data';
-import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadAllStats, getDeviceId, resetAllStats, setSyncUserId, mergeWrongChoices, SyncManager } from './lib/stats';
+import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadAllStats, getDeviceId, resetAllStats, setSyncUserId, mergeWrongChoices, SyncManager, getRecentActivity } from './lib/stats';
 import ErrorAnalyticsView from './components/ErrorAnalyticsView';
 import SimulationResultView from './components/SimulationResultView';
 import StatisticsView from './components/StatisticsView';
@@ -15,22 +16,18 @@ import DailyPlanView from './components/DailyPlanView';
 import { SourceBooksView } from './components/SourceBooksView';
 import { buildSmartQueue, buildUnitQueue, buildExamPool, buildSimulationPool } from './lib/adaptive';
 import {
-  CheckCircle2, XCircle, ArrowRight, ArrowLeft, RotateCcw, BookOpen,
-  ChevronRight, ChevronLeft, RefreshCw, LayoutGrid,
-  Upload, Download, AlertCircle, Loader2, Trash2, Pencil, Star,
-  AlertTriangle, FileText, Settings, BarChart3, Zap, Brain, Target, Calendar,
-  UserCircle, Skull, Microscope, HeartPulse, Brush, Syringe, Hourglass, Layers, ClipboardList
-} from 'lucide-react';
+  CheckCircle, XCircle, ArrowRight, ArrowLeft, ArrowCounterClockwise, BookOpen,
+  CaretRight, CaretLeft, ArrowsClockwise, SquaresFour,
+  Upload, Download, WarningCircle, CircleNotch, Trash, PencilSimple, Star,
+  Warning, FileText, Gear, ChartBar, Lightning, Brain, Target, Calendar,
+  UserCircle, Skull, Microscope, Heartbeat, PaintBrush, Syringe, Hourglass, Stack, ClipboardText,
+  Image, X as XIcon
+} from '@phosphor-icons/react';
 import { fisherYates } from './lib/shuffle';
 import { todayStr } from './lib/dateUtils';
 import { themeColors, type Theme } from './theme';
 import type { AppState, AnswerDetail, QuizStatsType, ActiveSessionInfo, UserSettings } from './types/app';
 import { QuizView } from './components/quiz/QuizView';
-
-// (Faz 3: window._simTotalSeconds kaldırıldı — simTotalSeconds React state'e taşındı)
-
-// Theme tipi eski yerden (App.tsx) export ediliyordu; geriye dönük uyumluluk için re-export.
-export type { Theme } from './theme';
 
 const errMsg = (e: unknown): string => {
   if (e instanceof Error) return e.message;
@@ -40,10 +37,13 @@ const errMsg = (e: unknown): string => {
 
 function Logo() {
   return (
-    <img
+    <motion.img
       src="/logo.png"
       alt="DUSBANKASI Logo"
-      className="w-9 h-9 rounded-2xl object-cover drop-shadow-[0_0_12px_rgba(130,90,240,0.6)]"
+      className="w-9 h-9 rounded-2xl object-cover drop-shadow-[0_0_12px_rgba(130,90,240,0.6)] cursor-pointer"
+      whileHover={{ scale: 1.05, rotateZ: [0, -5, 5, 0], filter: "brightness(1.2)" }}
+      whileTap={{ scale: 0.92 }}
+      transition={{ type: "spring", stiffness: 400, damping: 10 }}
     />
   );
 }
@@ -79,7 +79,7 @@ function CountdownWidget() {
     <div className="flex items-center gap-3 pr-5 pl-2.5 py-1.5 rounded-[1.25rem] bg-indigo-500/[0.08] border border-indigo-500/15 mx-4 lg:mx-8 hidden sm:flex shadow-[0_0_20px_rgba(99,102,241,0.05)] backdrop-blur-md relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/5 to-transparent blur-xl pointer-events-none" />
       <div className="w-9 h-9 rounded-xl bg-indigo-500/[0.15] flex items-center justify-center border border-indigo-400/20 shadow-lg shadow-indigo-500/20 relative z-10">
-        <Hourglass size={18} className="text-indigo-500 dark:text-indigo-400 countdown-spin filter drop-shadow-[0_0_8px_rgba(99,102,241,0.5)]" />
+        <Hourglass size={18} weight="thin" className="text-indigo-500 dark:text-indigo-400 countdown-spin filter drop-shadow-[0_0_8px_rgba(99,102,241,0.5)]" />
       </div>
       <div className="flex flex-col relative z-10">
         <span className="text-[10px] font-black tracking-widest text-indigo-600 dark:text-indigo-400 uppercase leading-[1.2] opacity-90 drop-shadow-[0_1px_10px_rgba(255,255,255,0.8)] dark:drop-shadow-none">DUS 2026/2</span>
@@ -308,7 +308,12 @@ export default function App() {
   const handleResumeSession = () => {
     if (resumeSessionData) {
       setExamQuestions(resumeSessionData.questions);
-      setMode(resumeSessionData.mode);
+      // Her zaman 'exam' moduna geç: activeQuestions examQuestions'ı kullanır
+      // ve initialSession={mode === 'exam' ? resumeSessionData : null} çalışır
+      setMode('exam');
+      if (resumeSessionData.simTotalSeconds) {
+        setSimTotalSeconds(resumeSessionData.simTotalSeconds);
+      }
       if (resumeSessionData.dailyExamId) {
         setIsDailyExamSession(true);
         setActiveDailyExamId(resumeSessionData.dailyExamId);
@@ -451,7 +456,7 @@ export default function App() {
   };
 
   const handleResetStats = async () => {
-    showConfirm('Tüm istatistikler (FSRS, doğruluk, streak, aktivite) kalıcı olarak silinecek. Emin misiniz?', async () => {
+    showConfirm('Tüm istatistikler (doğruluk, streak, aktivite) kalıcı olarak silinecek. Emin misiniz?', async () => {
       try {
         await resetAllStats();
         showAlert('Tüm istatistikler sıfırlandı.', 'Başarılı');
@@ -749,28 +754,28 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               title="Bulut Sync (Veri Yedekle)"
               disabled={syncStatus === 'syncing'}
             >
-              <RefreshCw size={18} className={syncStatus === 'syncing' ? 'animate-spin' : ''} />
+              <ArrowsClockwise size={18} weight="thin" className={syncStatus === 'syncing' ? 'animate-spin' : ''} />
             </button>
             <button
               onClick={() => setAppState('analytics')}
               className={`p-2 rounded-xl transition-all ${appState === 'analytics' ? 'text-indigo-400 bg-indigo-500/10' : `${theme.subtext} hover:bg-white/[0.06]`}`}
               title="İstatistikler"
             >
-              <BarChart3 size={18} />
+              <ChartBar size={18} weight="thin" />
             </button>
             <button
               onClick={() => setAppState('error-analysis')}
               className={`p-2 rounded-xl transition-all ${appState === 'error-analysis' ? 'text-red-400 bg-red-500/10' : `${theme.subtext} hover:bg-white/[0.06]`}`}
               title="Hata Analizi"
             >
-              <AlertTriangle size={18} />
+              <Warning size={18} weight="thin" />
             </button>
             <button
               onClick={() => setShowSettings(true)}
               className={`p-2 rounded-xl transition-all ${theme.subtext} hover:bg-white/[0.06]`}
               title="Ayarlar"
             >
-              <Settings size={18} />
+              <Gear size={18} weight="thin" />
             </button>
             <button
               onClick={() => setShowAuth(true)}
@@ -789,14 +794,14 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
             </button>
             {appState === 'select-unit' && (
               <button onClick={() => setAppState('select-lesson')} className="btn btn-secondary btn-sm ml-1">
-                <ChevronLeft size={14} /> Dersler
+                <CaretLeft size={14} weight="thin" /> Dersler
               </button>
             )}
           </div>
         </div>
       </header>
 
-      <main key={statsVersion} className="flex-1 overflow-y-auto w-full max-w-[1400px] mx-auto px-4 sm:px-6">
+      <main className="flex-1 overflow-y-auto w-full max-w-[1400px] mx-auto px-4 sm:px-6">
         <div className="min-h-full py-5 flex flex-col">
           {appState === 'import' ? (
             <ImportView onDone={handleImportDone} theme={theme} />
@@ -804,7 +809,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
             <div className="flex-1 flex items-center justify-center flex-col gap-4">
               <div className="relative">
                 <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center">
-                  <Loader2 size={24} className="animate-spin text-indigo-400" />
+                  <CircleNotch size={24} weight="thin" className="animate-spin text-indigo-400" />
                 </div>
               </div>
               <p className={`${theme.subtext} text-sm font-medium`}>Sorular yükleniyor…</p>
@@ -812,16 +817,17 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
           ) : loadError ? (
             <div className="flex-1 flex items-center justify-center flex-col gap-4">
               <div className="w-12 h-12 rounded-2xl bg-red-500/10 flex items-center justify-center">
-                <AlertCircle size={24} className="text-red-400" />
+                <WarningCircle size={24} weight="thin" className="text-red-400" />
               </div>
               <p className="text-red-400 text-sm font-bold">Bağlantı Hatası</p>
               <p className={`${theme.subtext} text-xs max-w-sm text-center`}>{loadError}</p>
               <button onClick={() => loadQuestions()} className="btn btn-secondary btn-sm mt-2">Tekrar Dene</button>
             </div>
           ) : appState === 'analytics' ? (
-            <StatisticsView questions={questions} theme={theme} />
+            <StatisticsView key={statsVersion} questions={questions} theme={theme} />
           ) : appState === 'error-analysis' ? (
           <ErrorAnalyticsView
+            key={statsVersion}
             questions={questions}
             stats={loadAllStats()}
             onStartWeakUnit={(lesson, unit) => {
@@ -931,16 +937,16 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               mode={mode}
               unit={mode === 'exam' ? (simTotalSeconds ? 'DUS Simülasyonu' : 'Deneme Sınavı') : selectedUnit}
               questions={activeQuestions}
-              initialSession={mode === 'exam' && !simTotalSeconds ? resumeSessionData : null}
+              initialSession={mode === 'exam' ? resumeSessionData : null}
               onComplete={handleComplete}
               onDeleteQuestion={handleDeleteQuestion}
               onFinishEarly={handleComplete}
               onToggleFavorite={handleToggleFavorite}
               onEditQuestion={setEditingQuestion}
               onReportQuestion={setReportingQuestion}
-              onSaveSession={(mode === 'quiz' || (mode === 'exam' && !simTotalSeconds)) ? (session: ActiveSessionInfo) => {
+              onSaveSession={(session: ActiveSessionInfo) => {
                 saveResumableSession(session);
-              } : undefined}
+              }}
               timedSeconds={simTotalSeconds ?? undefined}
               onSimulationComplete={(details, usedSecs) => {
                 if (simTotalSeconds == null) {
@@ -964,6 +970,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               questions={questions}
               stats={loadAllStats()}
               weakCount={getWeakQuestionIds().length}
+              activity={getRecentActivity(90)}
               onStartWeakUnit={(lesson, unit) => {
                 setSelectedLesson(lesson);
                 setSelectedUnit(unit);
@@ -984,12 +991,16 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               mode="exam"
               unit="Akıllı Çalışma"
               questions={examQuestions}
+              initialSession={resumeSessionData}
               onComplete={handleComplete}
               onDeleteQuestion={handleDeleteQuestion}
               onFinishEarly={handleComplete}
               onToggleFavorite={handleToggleFavorite}
               onEditQuestion={setEditingQuestion}
               onReportQuestion={setReportingQuestion}
+              onSaveSession={(session: ActiveSessionInfo) => {
+                saveResumableSession(session);
+              }}
               onExportPDF={handleExportPDF}
               theme={theme}
               settings={settings}
@@ -1056,7 +1067,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
     <div className="anim-slide-up w-full">
       <div className="mb-10 pl-2">
         <h2 className="text-4xl sm:text-5xl font-black tracking-tighter mb-2">
-          Hoş Geldin<span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500">.</span>
+          Hoş Geldin<span className="text-[color:var(--color-accent)]">.</span>
         </h2>
         <p className={`${theme.subtext} text-sm font-medium tracking-wide`}>
           {totalQuestions === 0 ? 'Henüz soru yok — Ayarlar > Import ile başla.' : `${totalQuestions} soru hazır. Seçim yapın ve odaklanın.`}
@@ -1067,7 +1078,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
         <div className={`mb-6 p-4 ${theme.cardGlass} rounded-2xl flex items-center justify-between gap-4 anim-fade-in border-l-2 border-indigo-400`}>
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-indigo-500/15 flex items-center justify-center text-indigo-400">
-              <RotateCcw size={18} className="anim-spin-slow" strokeWidth={2.5} />
+              <ArrowCounterClockwise size={18} weight="thin" className="anim-spin-slow" />
             </div>
             <div>
               <h3 className="font-bold text-sm">Yarım Kalan Deneme</h3>
@@ -1077,7 +1088,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
             </div>
           </div>
           <div className="flex items-center gap-2 shrink-0">
-            <button onClick={onResumeClear} className="btn btn-ghost btn-sm opacity-50 hover:opacity-100" title="Sil"><Trash2 size={14} /></button>
+            <button onClick={onResumeClear} className="btn btn-ghost btn-sm opacity-50 hover:opacity-100" title="Sil"><Trash size={14} weight="thin" /></button>
             <button onClick={onResumeClick} className="btn btn-primary btn-sm">DEVAM ET</button>
           </div>
         </div>
@@ -1093,7 +1104,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
             </div>
             <div className="text-sm font-bold opacity-60 mb-1 uppercase tracking-wider">Bugün</div>
             <div className="text-3xl sm:text-4xl font-black text-orange-400 mb-1 tracking-tight">Günlük Plan</div>
-            <div className={`${theme.subtext} text-xs mt-1`}>FSRS programınız ve zayıf konular</div>
+            <div className={`${theme.subtext} text-xs mt-1`}>Zayıf konularınız ve müfredat ilerlemesi</div>
           </button>
 
           <button onClick={onDenemeClick} className={`stagger-item col-span-2 md:col-span-2 lg:col-span-3 row-span-2 ${theme.cardGlass} rounded-[2rem] p-6 sm:p-8 text-left card-hover group border border-rose-500/10 hover:border-rose-500/30 overflow-hidden relative`}>
@@ -1115,7 +1126,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
             <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-cyan-500/20 blur-3xl rounded-full"></div>
             <div className={`w-12 h-12 rounded-2xl bg-cyan-500/10 flex items-center justify-center mb-6 lg:mb-10 transition-transform ${typeof dailyExamStatus === 'object' ? 'group-hover:scale-110' : ''}`}>
               {dailyExamStatus === 'loading'
-                ? <Loader2 size={24} className="text-cyan-400 animate-spin" />
+                ? <CircleNotch size={24} weight="thin" className="text-cyan-400 animate-spin" />
                 : <BookOpen size={24} className="text-cyan-400" />
               }
             </div>
@@ -1164,7 +1175,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
             <button onClick={onWeakClick} className={`stagger-item col-span-1 md:col-span-2 lg:col-span-2 ${theme.cardGlass} rounded-[1.5rem] p-5 text-left card-hover group border border-red-500/10 hover:border-red-500/30 transition-all`}>
               <div className="flex justify-between items-center mb-3">
                 <div className="w-10 h-10 rounded-xl bg-red-500/10 flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <AlertTriangle size={20} className="text-red-400" />
+                  <Warning size={20} weight="thin" className="text-red-400" />
                 </div>
                 <span className="text-2xl font-black text-red-400">{weakCount}</span>
               </div>
@@ -1184,7 +1195,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
           <button onClick={onSimulationClick} className={`stagger-item col-span-1 md:col-span-2 lg:col-span-2 ${theme.cardGlass} rounded-[1.5rem] p-5 text-left card-hover group border border-sky-500/10 hover:border-sky-500/30 transition-all`}>
             <div className="flex justify-between items-center mb-3">
               <div className="w-10 h-10 rounded-xl bg-sky-500/10 flex items-center justify-center group-hover:scale-110 transition-transform">
-                <ClipboardList size={20} className="text-sky-400" />
+                <ClipboardText size={20} weight="thin" className="text-sky-400" />
               </div>
             </div>
             <div className="text-sm font-bold mb-0.5">DUS Simülasyon</div>
@@ -1211,7 +1222,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
           >
             <div className="flex justify-between items-center mb-3">
               <div className="w-10 h-10 rounded-xl bg-indigo-500/10 flex items-center justify-center group-hover:scale-110 transition-transform">
-                <BarChart3 size={20} className="text-indigo-400" />
+                <ChartBar size={20} weight="thin" className="text-indigo-400" />
               </div>
             </div>
             <div className="text-sm font-bold mb-0.5">İstatistikler</div>
@@ -1249,7 +1260,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
               const isFiz = lesson.toLowerCase().includes('fizyoloji');
               const isPer = lesson.toLowerCase().includes('periodontoloji');
               const isEnd = lesson.toLowerCase().includes('endodonti');
-              const IconComp = isRad ? Zap : isPat ? Skull : isPro ? Layers : isHis ? Microscope : isFiz ? HeartPulse : isPer ? Brush : isEnd ? Syringe : LayoutGrid;
+              const IconComp = isRad ? Lightning : isPat ? Skull : isPro ? Stack : isHis ? Microscope : isFiz ? Heartbeat : isPer ? PaintBrush : isEnd ? Syringe : SquaresFour;
 
               return (
                 <div key={lesson} onClick={() => onSelect(lesson)} className={`stagger-item cursor-pointer group relative flex flex-col items-start p-6 ${theme.cardSolid} ${theme.cardHover} rounded-[1.5rem] transition-all overflow-hidden text-left border border-transparent hover:border-indigo-500/30`}>
@@ -1259,8 +1270,8 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
                       <IconComp size={20} className="text-indigo-400" />
                     </div>
                     <div className="flex gap-1.5 opacity-0 group-hover:opacity-100 transition-all translate-y-1 group-hover:translate-y-0">
-                      <div onClick={(e) => onRename(lesson, e)} className="p-2 rounded-xl hover:bg-white/10 text-white/40 hover:text-white transition-colors backdrop-blur-md shadow-sm bg-black/20"><Pencil size={14} /></div>
-                      <div onClick={(e) => onDelete(lesson, e)} className="p-2 rounded-xl hover:bg-red-500/20 text-white/40 hover:text-red-400 transition-colors backdrop-blur-md shadow-sm bg-black/20"><Trash2 size={14} /></div>
+                      <div onClick={(e) => onRename(lesson, e)} className="p-2 rounded-xl hover:bg-white/10 text-white/40 hover:text-white transition-colors backdrop-blur-md shadow-sm bg-black/20"><PencilSimple size={14} weight="thin" /></div>
+                      <div onClick={(e) => onDelete(lesson, e)} className="p-2 rounded-xl hover:bg-red-500/20 text-white/40 hover:text-red-400 transition-colors backdrop-blur-md shadow-sm bg-black/20"><Trash size={14} weight="thin" /></div>
                     </div>
                   </div>
                   <h3 className="text-lg font-black tracking-tight mb-3 max-w-full truncate pr-2 relative z-10">{lesson}</h3>
@@ -1361,10 +1372,10 @@ function UnitSelection({ lesson, units, questions, onSelect, onDelete, onRename,
             </div>
             <div className="flex items-center gap-1 shrink-0 opacity-0 group-hover:opacity-100 transition-opacity">
               <div onClick={(e) => { e.stopPropagation(); onExportPDF(unitQs, `${lesson} — ${unit}`); }} className="p-1.5 rounded-lg hover:bg-white/10 text-white/30 hover:text-white transition-colors" title="Ünite PDF İndir"><FileText size={13} /></div>
-              <div onClick={(e) => onRename(unit, e)} className="p-1.5 rounded-lg hover:bg-white/10 text-white/30 hover:text-white transition-colors"><Pencil size={13} /></div>
-              <div onClick={(e) => onDelete(unit, e)} className="p-1.5 rounded-lg hover:bg-red-500/15 text-white/30 hover:text-red-400 transition-colors"><Trash2 size={13} /></div>
+              <div onClick={(e) => onRename(unit, e)} className="p-1.5 rounded-lg hover:bg-white/10 text-white/30 hover:text-white transition-colors"><PencilSimple size={13} weight="thin" /></div>
+              <div onClick={(e) => onDelete(unit, e)} className="p-1.5 rounded-lg hover:bg-red-500/15 text-white/30 hover:text-red-400 transition-colors"><Trash size={13} weight="thin" /></div>
               <div className="w-7 h-7 rounded-lg flex items-center justify-center bg-white/[0.04] group-hover:bg-indigo-500 transition-all shrink-0 ml-1">
-                <ChevronRight size={14} className="group-hover:text-white" />
+                <CaretRight size={14} weight="thin" className="group-hover:text-white" />
               </div>
             </div>
           </div>
@@ -1453,7 +1464,7 @@ function DenemeSelection({ questions, onNext, onCancel, isFavoritesMode, theme }
             <div key={lesson} className={`${theme.card} rounded-2xl overflow-hidden`}>
               <div className="p-3.5 flex items-center gap-3 cursor-pointer hover:bg-white/[0.03] transition-all" onClick={() => toggleLesson(lesson, units)}>
                 <div className={`w-5 h-5 rounded-md flex items-center justify-center border-2 transition-all shrink-0 ${allS ? 'bg-indigo-500 border-indigo-500' : someS ? 'bg-indigo-500/50 border-indigo-500/50' : theme.border}`}>
-                  {(allS || someS) && <CheckCircle2 size={13} />}
+                  {(allS || someS) && <CheckCircle size={13} weight="thin" />}
                 </div>
                 <span className="font-bold text-sm flex-1 truncate">{lesson}</span>
                 <span className={`${theme.subtext} text-[10px] shrink-0`}>{lessonCount} soru</span>
@@ -1466,7 +1477,7 @@ function DenemeSelection({ questions, onNext, onCancel, isFavoritesMode, theme }
                     <div key={unit} onClick={() => toggleUnit(lesson, unit)}
                       className={`p-2.5 pl-9 flex items-center gap-3 cursor-pointer hover:bg-white/[0.03] rounded-xl transition-all ${s ? 'bg-emerald-500/5' : ''}`}>
                       <div className={`w-4 h-4 rounded flex items-center justify-center border-2 transition-all shrink-0 ${s ? 'bg-emerald-500 border-emerald-500' : theme.border}`}>
-                        {s && <CheckCircle2 size={11} className="text-black" strokeWidth={3} />}
+                        {s && <CheckCircle size={11} weight="thin" className="text-black" />}
                       </div>
                       <span className={`text-xs flex-1 truncate ${s ? 'font-medium' : theme.subtext}`}>{unit}</span>
                       <span className={`${theme.subtext} text-[10px] shrink-0`}>{unitCount}</span>
@@ -1616,7 +1627,7 @@ function DenemeAmountSelection({ selectedUnits, questions, loading, onStart, onC
         <div className="flex gap-3">
           <button onClick={onCancel} className="btn btn-secondary btn-lg flex-1">Geri</button>
           <button onClick={() => onStart(amount)} disabled={loading || max === 0} className="btn btn-primary btn-lg flex-[2]">
-            {loading ? <><Loader2 size={16} className="animate-spin" /> Yükleniyor…</> : 'BAŞLAT'}</button>
+            {loading ? <><CircleNotch size={16} weight="thin" className="animate-spin" /> Yükleniyor…</> : 'BAŞLAT'}</button>
         </div>
       </div>
     </div>
@@ -1662,7 +1673,7 @@ function ResultView({ stats, onRestart, onRetryIncorrect, onExportPDF, theme }: 
         <div className="flex flex-col gap-2.5">
           {incorrect.length > 0 && (
             <button onClick={() => onRetryIncorrect(incorrect)} className="btn btn-danger btn-lg w-full">
-              <RotateCcw size={16} /> HATALARI TEKRAR ÇÖZ ({incorrect.length})
+              <ArrowCounterClockwise size={16} weight="thin" /> HATALARI TEKRAR ÇÖZ ({incorrect.length})
             </button>
           )}
           <div className="flex gap-2.5">
@@ -1738,7 +1749,7 @@ function SettingsModal({ settings, setSettings, onClose, theme, onExport, onImpo
             </div>
             <button onClick={onSourceBooks} className="flex w-full items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold mb-2 bg-indigo-500/10 text-indigo-400 hover:bg-indigo-500/20 transition-colors border border-indigo-500/20"><BookOpen size={14} />AI Kaynak Kitaplar</button>
             <div className="mt-2">
-              <button onClick={onResetStats} className="flex w-full items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold bg-red-500/10 text-red-400 hover:bg-red-500/20 transition-colors border border-red-500/20"><RotateCcw size={14} />İstatistik Sıfırla</button>
+              <button onClick={onResetStats} className="flex w-full items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold bg-red-500/10 text-red-400 hover:bg-red-500/20 transition-colors border border-red-500/20"><ArrowCounterClockwise size={14} weight="thin" />İstatistik Sıfırla</button>
             </div>
           </div>
         </div>
@@ -1752,6 +1763,33 @@ function EditModal({ question, onSave, onClose, theme }: { question: Question; o
   const [options, setOptions] = useState(question.options);
   const [correct, setCorrect] = useState(question.correctAnswer);
   const [exp, setExp] = useState(question.explanation);
+  const [imageUrl, setImageUrl] = useState<string | null>(question.imageUrl ?? null);
+  const [imageUploading, setImageUploading] = useState(false);
+  const [imageError, setImageError] = useState<string | null>(null);
+
+  const handleImagePick = async (file: File | null) => {
+    if (!file) return;
+    setImageError(null);
+    setImageUploading(true);
+    try {
+      const { publicUrl } = await uploadQuestionImage(file, question.id);
+      // Eski görsel varsa best-effort sil
+      if (imageUrl) { try { await deleteQuestionImage(imageUrl); } catch { /* ignore */ } }
+      setImageUrl(publicUrl);
+    } catch (err) {
+      setImageError(err instanceof Error ? err.message : String(err));
+    } finally {
+      setImageUploading(false);
+    }
+  };
+
+  const handleImageRemove = async () => {
+    if (!imageUrl) return;
+    const url = imageUrl;
+    setImageUrl(null);
+    try { await deleteQuestionImage(url); } catch { /* ignore */ }
+  };
+
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xl anim-fade-in">
       <div className={`w-full max-w-2xl ${theme.cardSolid} rounded-2xl p-7 max-h-[90vh] overflow-y-auto custom-scrollbar ${theme.shadowLg} anim-scale-in`}>
@@ -1773,10 +1811,46 @@ function EditModal({ question, onSave, onClose, theme }: { question: Question; o
             </div>
           </div>
           <textarea value={exp} onChange={e => setExp(e.target.value)} className={`w-full h-28 ${theme.inputBg} p-4 rounded-xl text-sm border ${theme.border} input-ring resize-none`} />
+
+          <div>
+            <label className={`${theme.subtext} text-[10px] font-bold tracking-wider mb-1 block`}>GÖRSEL (PNG · JPEG · WEBP · AVIF · MAKS 8 MB)</label>
+            {imageUrl ? (
+              <div className={`relative rounded-xl overflow-hidden border ${theme.border}`}>
+                <img src={imageUrl} alt="Soru görseli" className="w-full max-h-72 object-contain bg-black/30" />
+                <button
+                  type="button"
+                  onClick={handleImageRemove}
+                  className="absolute top-2 right-2 w-8 h-8 rounded-lg bg-red-500/80 hover:bg-red-500 text-white flex items-center justify-center backdrop-blur-md transition-colors"
+                  title="Görseli kaldır"
+                >
+                  <XIcon size={16} weight="thin" />
+                </button>
+              </div>
+            ) : (
+              <label className={`flex items-center justify-center gap-2 ${theme.inputBg} border-2 border-dashed ${theme.border} rounded-xl py-6 cursor-pointer hover:opacity-80 transition-opacity`}>
+                {imageUploading ? <CircleNotch size={18} weight="thin" className="animate-spin" /> : <Image size={18} weight="thin" />}
+                <span className="text-xs font-bold tracking-wider">{imageUploading ? 'YÜKLENİYOR…' : 'GÖRSEL EKLE'}</span>
+                <input
+                  type="file"
+                  accept="image/png,image/jpeg,image/webp,image/avif"
+                  className="hidden"
+                  disabled={imageUploading}
+                  onChange={e => { handleImagePick(e.target.files?.[0] ?? null); e.target.value = ''; }}
+                />
+              </label>
+            )}
+            {imageError && <p className="mt-1.5 text-[11px] text-red-400">{imageError}</p>}
+          </div>
         </div>
         <div className="flex gap-2.5 mt-6">
           <button onClick={onClose} className="btn btn-secondary btn-lg flex-1">İPTAL</button>
-          <button onClick={() => onSave({ ...question, question: q, options, correctAnswer: correct, explanation: exp })} className="btn btn-primary btn-lg flex-1">KAYDET</button>
+          <button
+            disabled={imageUploading}
+            onClick={() => onSave({ ...question, question: q, options, correctAnswer: correct, explanation: exp, imageUrl })}
+            className="btn btn-primary btn-lg flex-1"
+          >
+            KAYDET
+          </button>
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { CheckCircle2, AlertTriangle, Plus, Upload } from 'lucide-react';
+import { CheckCircle, Warning, Plus, Upload } from '@phosphor-icons/react';
 import { addQuestions, type ImportQuestion, type AddQuestionsResult } from '../../lib/supabase';
 import type { Question } from '../../data';
 import type { Theme } from '../../theme';
@@ -176,7 +176,7 @@ export function AddQuestionView({
 
       {error && (
         <div className="mt-5 flex items-start gap-2 p-4 rounded-xl bg-red-500/10 border border-red-500/20">
-          <AlertTriangle size={16} className="text-red-400 mt-0.5 shrink-0" />
+          <Warning size={16} weight="thin" className="text-red-400 mt-0.5 shrink-0" />
           <p className="text-red-400 text-xs break-words">{error}</p>
         </div>
       )}
@@ -184,7 +184,7 @@ export function AddQuestionView({
       {result && (
         <div className={`mt-5 p-4 rounded-xl ${theme.cardGlass}`}>
           <div className="flex items-center gap-2 mb-2">
-            <CheckCircle2 size={16} className="text-emerald-400" />
+            <CheckCircle size={16} weight="thin" className="text-emerald-400" />
             <p className="text-sm font-bold">{result.written} soru eklendi · {result.rejected.length} reddedildi</p>
           </div>
           {result.rejected.length > 0 && (

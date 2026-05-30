@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Upload, Trash2, BookOpen, AlertCircle, Loader2, ArrowLeft } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Upload, Trash, BookOpen, WarningCircle, CircleNotch, ArrowLeft } from '@phosphor-icons/react';
 import {
   fetchReferenceSources,
   uploadReferenceSource,
@@ -8,6 +9,7 @@ import {
 } from '../lib/supabase';
 import type { Theme } from '../theme';
 import type { Question } from '../data';
+import { staggerParent, staggerChild, scaleOnHover } from '../lib/motion';
 
 const MAX_FILE_BYTES = 100 * 1024 * 1024; // 100 MB
 
@@ -116,7 +118,7 @@ export function SourceBooksView({ questions, onBack, theme }: SourceBooksViewPro
   return (
     <div className="flex-1 flex flex-col h-full anim-slide-up">
       <div className="flex items-center gap-3 mb-6">
-        <button onClick={onBack} className={`p-2 rounded-xl hover:bg-white/[0.06] transition-all ${theme.subtext}`}>
+        <button onClick={onBack} className={`p-2 rounded-xl hover:bg-[color:var(--color-surface-3)] transition-all ${theme.subtext}`}>
           <ArrowLeft size={20} />
         </button>
         <div>
@@ -207,7 +209,7 @@ export function SourceBooksView({ questions, onBack, theme }: SourceBooksViewPro
 
             {error && (
               <div className="bg-red-500/8 text-red-400 p-3 rounded-xl text-[11px] flex items-start gap-2">
-                <AlertCircle size={14} className="shrink-0 mt-0.5" />
+                <WarningCircle size={14} weight="thin" className="shrink-0 mt-0.5" />
                 <span>{error}</span>
               </div>
             )}
@@ -217,7 +219,7 @@ export function SourceBooksView({ questions, onBack, theme }: SourceBooksViewPro
               disabled={uploading || !file || !selectedLesson}
               className="btn btn-primary btn-lg w-full"
             >
-              {uploading ? <Loader2 size={16} className="animate-spin" /> : <Upload size={16} />}
+              {uploading ? <CircleNotch size={16} weight="thin" className="animate-spin" /> : <Upload size={16} weight="thin" />}
               {uploading ? 'YÜKLENİYOR...' : 'SİSTEME YÜKLE'}
             </button>
           </div>
@@ -230,7 +232,7 @@ export function SourceBooksView({ questions, onBack, theme }: SourceBooksViewPro
           <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar space-y-2">
             {loading ? (
               <div className="flex items-center justify-center h-full">
-                <Loader2 size={28} className="animate-spin text-indigo-400" />
+                <CircleNotch size={28} weight="thin" className="animate-spin text-indigo-400" />
               </div>
             ) : sources.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-full text-center p-8 opacity-40">
@@ -239,12 +241,20 @@ export function SourceBooksView({ questions, onBack, theme }: SourceBooksViewPro
                 <p className="text-[11px]">Sol panelden PDF yükleyin.</p>
               </div>
             ) : (
-              sources.map(source => {
+              <motion.div
+                variants={staggerParent}
+                initial="hidden"
+                animate="visible"
+                className="space-y-2"
+              >
+              {sources.map(source => {
                 const isDeleting = deletingIds.has(source.id);
                 return (
-                  <div
+                  <motion.div
                     key={source.id}
-                    className={`${theme.inputBg} border ${theme.border} rounded-xl p-3.5 flex items-center justify-between group hover:bg-white/[0.06] transition-colors ${isDeleting ? 'opacity-40' : ''}`}
+                    variants={staggerChild}
+                    {...scaleOnHover}
+                    className={`${theme.inputBg} border ${theme.border} rounded-xl p-3.5 flex items-center justify-between group hover:bg-[color:var(--color-surface-3)] transition-colors ${isDeleting ? 'opacity-40' : ''}`}
                   >
                     <div className="flex items-center gap-3 min-w-0">
                       <div className="w-9 h-9 rounded-lg bg-indigo-500/15 text-indigo-400 flex items-center justify-center shrink-0">
@@ -282,14 +292,15 @@ export function SourceBooksView({ questions, onBack, theme }: SourceBooksViewPro
                         title="Sil"
                       >
                         {isDeleting
-                          ? <Loader2 size={14} className="animate-spin" />
-                          : <Trash2 size={14} />
+                          ? <CircleNotch size={14} className="animate-spin" />
+                          : <Trash size={14} />
                         }
                       </button>
                     )}
-                  </div>
+                  </motion.div>
                 );
-              })
+              })}
+              </motion.div>
             )}
           </div>
         </div>

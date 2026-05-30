@@ -1,5 +1,5 @@
 import { memo, useMemo } from 'react';
-import { Sparkles, XCircle } from 'lucide-react';
+import { Sparkle, XCircle } from '@phosphor-icons/react';
 import DOMPurify, { type Config as DOMPurifyConfig } from 'dompurify';
 import { renderMarkdown } from '../../lib/markdown';
 import type { Theme } from '../../theme';
@@ -44,7 +44,7 @@ export const AIAssistantPanel = memo(function AIAssistantPanel({ visible, loadin
       )}
 
       <div
-        className={`fixed inset-x-0 bottom-0 h-[85vh] rounded-t-3xl sm:absolute sm:inset-0 sm:h-full sm:rounded-none lg:w-[420px] lg:right-0 lg:left-auto lg:h-full z-[80] ${theme.cardSolid} border ${theme.border} shadow-2xl shadow-black/30 transition-all duration-500 flex flex-col ${
+        className={`fixed inset-x-0 bottom-0 h-[85vh] rounded-t-3xl sm:absolute sm:inset-0 sm:h-full sm:rounded-none lg:w-[420px] lg:right-0 lg:left-auto lg:h-full z-[80] bg-[color:var(--color-surface-2)] opacity-100 border ${theme.border} shadow-2xl shadow-black/80 transition-all duration-500 flex flex-col ${
           visible
             ? 'translate-y-0 sm:translate-y-0 sm:translate-x-0 opacity-100 pointer-events-auto'
             : 'translate-y-full sm:translate-y-0 sm:translate-x-full opacity-0 pointer-events-none'
@@ -59,7 +59,7 @@ export const AIAssistantPanel = memo(function AIAssistantPanel({ visible, loadin
         <div className={`relative p-4 border-b ${theme.border} flex items-center justify-between shrink-0`}>
           <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-indigo-500/40 via-violet-500/40 to-transparent" />
           <div className="flex items-center gap-2 font-bold text-indigo-500 text-sm">
-            <Sparkles size={16} /> AI Öğretmen
+            <Sparkle size={16} weight="thin" /> AI Öğretmen
             {loading && <span className={`text-[10px] font-medium ${theme.subtext} opacity-50 ml-1 animate-pulse`}>yazıyor…</span>}
           </div>
           <button onClick={onClose} className={`p-1.5 hover:${theme.inputBg} rounded-lg transition-colors`}>
@@ -71,7 +71,7 @@ export const AIAssistantPanel = memo(function AIAssistantPanel({ visible, loadin
           {loading && !answer && (
             <div className="flex flex-col items-center justify-center h-full gap-4 text-center">
               <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center">
-                <Sparkles size={24} className="text-indigo-500 anim-glow" />
+                <Sparkle size={24} weight="thin" className="text-indigo-500 anim-glow" />
               </div>
               <p className={`font-bold opacity-60 text-xs ${theme.text}`}>Kitabınız taranıyor ve<br />analiz yapılıyor…</p>
             </div>

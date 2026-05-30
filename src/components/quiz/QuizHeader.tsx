@@ -1,5 +1,5 @@
 import { memo, useState } from 'react';
-import { Pencil, Flag, Trash2, FileText } from 'lucide-react';
+import { PencilSimple, Flag, Trash, FileText } from '@phosphor-icons/react';
 import type { Question } from '../../data';
 import type { AnswerDetail } from '../../types/app';
 import type { Theme } from '../../theme';
@@ -81,7 +81,7 @@ export const QuizHeader = memo(function QuizHeader({
         {/* Ders badge (exam mode) */}
         {lessonLabel && (
           <>
-            <span className="text-white/10 text-[11px] shrink-0">·</span>
+            <span className="text-[color:var(--color-border-strong)] text-[11px] shrink-0">·</span>
             <span className="text-[11px] font-extrabold uppercase tracking-widest text-indigo-400 bg-indigo-500/10 px-1.5 h-5 flex items-center rounded-md shrink-0">
               {lessonLabel}
             </span>
@@ -135,7 +135,7 @@ export const QuizHeader = memo(function QuizHeader({
                   onClick={() => { onEditQuestion(question); setMenuOpen(false); }}
                   className={`w-full text-left px-3 py-2 text-[12px] hover:${theme.inputBg} flex items-center gap-2 ${theme.subtext}`}
                 >
-                  <Pencil size={12} /> Düzenle
+                  <PencilSimple size={12} /> Düzenle
                 </button>
                 <button
                   onClick={() => { onReportQuestion(question); setMenuOpen(false); }}
@@ -148,7 +148,7 @@ export const QuizHeader = memo(function QuizHeader({
                   onClick={() => { onDeleteQuestion(question.id); setMenuOpen(false); }}
                   className="w-full text-left px-3 py-2 text-[12px] hover:bg-red-500/10 flex items-center gap-2 text-red-500"
                 >
-                  <Trash2 size={12} /> Sil
+                  <Trash size={12} /> Sil
                 </button>
               </div>
             </>

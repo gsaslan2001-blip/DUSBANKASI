@@ -20,7 +20,7 @@ export function Skeleton({ className = '', variant = 'text', width, height }: Sk
 
   return (
     <div
-      className={`bg-[#ffffff]/[0.03] overflow-hidden relative ${def.base} ${className}`}
+      className={`bg-[color:var(--color-surface-3)] overflow-hidden relative ${def.base} ${className}`}
       style={{ width: w, height: h }}
     >
       <div

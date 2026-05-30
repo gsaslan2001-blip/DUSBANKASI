@@ -41,6 +41,8 @@ export type ActiveSessionInfo = {
   currentIndex: number;
   mode: 'quiz' | 'exam';
   dailyExamId?: string;
+  remainingSeconds?: number;
+  simTotalSeconds?: number;
 };
 
 export type CompactAnswer = {
@@ -56,6 +58,8 @@ export type CompactSessionInfo = {
   currentIndex: number;
   mode: 'quiz' | 'exam';
   dailyExamId?: string;
+  remainingSeconds?: number;
+  simTotalSeconds?: number;
 };
 
 export type UserSettings = {

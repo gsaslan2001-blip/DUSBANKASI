@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect, useCallback, useReducer } from 'react';
 import type { Question } from '../data';
-import { isAIConfigured, explainWithAIStream, fetchPdfAsBase64 } from '../lib/ai';
-import { findReferenceSource, getStoragePublicUrl } from '../lib/supabase';
+import { isAIConfigured, explainWithAIStream } from '../lib/ai';
 
 export type UseAIAssistantResult = {
   aiAnswer: string | null;
@@ -55,24 +54,9 @@ export function useAIAssistant(question: Question | undefined): UseAIAssistantRe
     setShowPanel(true);
 
     try {
-      // Kaynak PDF'i bul ve indir (iptal edilebilir)
-      const ref = await findReferenceSource(question.lesson, question.unit);
-      let base64: string | null = null;
-      if (ref) {
-        try {
-          const url = getStoragePublicUrl(ref.file_path);
-          base64 = await fetchPdfAsBase64(url, controller.signal);
-        } catch (e: unknown) {
-          if ((e as { name?: string } | null)?.name === 'AbortError') return;
-          console.warn('PDF okuma hatası, genel modda devam ediliyor.', e);
-        }
-      }
-
-      if (controller.signal.aborted) return;
-
+      // PDF artık sunucuda Pinecone RAG ile çözülüyor — istemci sadece metadata gönderir.
       await explainWithAIStream(
         question,
-        base64,
         (accumulated) => {
           if (!controller.signal.aborted) setAiAnswer(accumulated);
         },

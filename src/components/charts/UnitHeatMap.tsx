@@ -1,5 +1,6 @@
 import { useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
+import { debounce } from '../../lib/chartUtils';
 
 export interface UnitMasteryDatum {
   unit: string;
@@ -35,7 +36,7 @@ export default function UnitHeatMap({ data }: Props) {
 
   useEffect(() => {
     measure();
-    const obs = new ResizeObserver(() => measure());
+    const obs = new ResizeObserver(debounce(() => measure(), 150));
     if (containerRef.current) obs.observe(containerRef.current);
     return () => obs.disconnect();
   }, [measure]);
@@ -44,6 +45,8 @@ export default function UnitHeatMap({ data }: Props) {
     if (!svgRef.current || data.length === 0) return;
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
+    svg.attr('role', 'img').attr('aria-label', 'Ünite ısı haritası — hakimiyet görünümü');
+    svg.append('title').text('Ünite ısı haritası — hakimiyet görünümü');
 
     const containerW = containerRef.current?.getBoundingClientRect().width ?? 600;
     const rows = Math.ceil(data.length / cols);

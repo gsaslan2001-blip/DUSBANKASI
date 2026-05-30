@@ -24,6 +24,8 @@ function toCompact(session: ActiveSessionInfo): CompactSessionInfo {
     currentIndex: session.currentIndex,
     mode: session.mode,
     dailyExamId: session.dailyExamId,
+    remainingSeconds: session.remainingSeconds,
+    simTotalSeconds: session.simTotalSeconds,
   };
 }
 
@@ -53,6 +55,8 @@ function fromCompact(compact: CompactSessionInfo, questionPool: Question[]): Act
     currentIndex: Math.max(0, idx),
     mode: compact.mode,
     dailyExamId: compact.dailyExamId,
+    remainingSeconds: compact.remainingSeconds,
+    simTotalSeconds: compact.simTotalSeconds,
   };
 }
 

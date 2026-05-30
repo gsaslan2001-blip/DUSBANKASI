@@ -1,8 +1,7 @@
 @import url('https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap');
 @import "tailwindcss";
 
-@layer base {
-  @theme {
+@theme {
     --font-sans: 'Satoshi', -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
@@ -70,8 +69,48 @@
     /* legacy aliases */
     --accent: #6f72f2;
     --accent-soft: rgba(111,114,242,0.1);
-  }
 
+    /* ── frontend-ui-dark-ts: Brand token aliases ── */
+    --color-brand: #6f72f2;
+    --color-brand-hover: #8485f5;
+    --color-brand-light: #9a9bf7;
+    --color-brand-subtle: rgba(111, 114, 242, 0.15);
+
+    /* ── Neutral hierarchy (aliases to surface tokens) ── */
+    --color-neutral-bg1: var(--color-surface-0);
+    --color-neutral-bg2: var(--color-surface-1);
+    --color-neutral-bg3: var(--color-surface-2);
+    --color-neutral-bg4: var(--color-surface-3);
+    --color-neutral-bg5: var(--color-surface-4);
+    --color-neutral-bg6: #1e1e2a;
+
+    /* ── Dataviz palette (D3 charts) ── */
+    --color-dv-purple: #6f72f2;
+    --color-dv-blue: #3B82F6;
+    --color-dv-green: #10B981;
+    --color-dv-yellow: #F59E0B;
+    --color-dv-red: #EF4444;
+    --color-dv-pink: #EC4899;
+    --color-dv-cyan: #06B6D4;
+
+    /* ── KPI Semantik Renkler ── */
+    --color-kpi-on-track: #34d399;
+    --color-kpi-at-risk: #fbbf24;
+    --color-kpi-critical: #f87171;
+    --color-kpi-trend-up: #34d399;
+    --color-kpi-trend-down: #f87171;
+    --color-kpi-trend-flat: #71717a;
+
+    /* ── Typography scale tokens ── */
+    --color-text-page-title: var(--color-text-primary);
+    --color-text-section-title: var(--color-text-primary);
+    --color-text-card-title: var(--color-text-primary);
+    --color-text-body: var(--color-text-secondary);
+    --color-text-caption: var(--color-text-tertiary);
+    --color-text-label: var(--color-text-secondary);
+}
+
+@layer base {
   .light {
     --color-surface-0: #fcfcfc;
     --color-surface-1: #ffffff;
@@ -184,6 +223,46 @@ body::before {
   transition: opacity 0.7s ease;
 }
 
+/* ── Grain/Noise Overlay (physical paper feel) ─────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 40;
+  opacity: 0.018;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+}
+.light body::after,
+body.light::after {
+  opacity: 0.035;
+}
+
+/* Double Bezel Architecture (High-End Visual Design) */
+.double-bezel {
+  border-radius: 2rem;
+  padding: 0.375rem;
+  background: var(--color-surface-1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 20px 40px rgba(0,0,0,0.6);
+  position: relative;
+  overflow: hidden;
+}
+.light .double-bezel {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 0 1px rgba(0, 0, 0, 0.04), 0 12px 30px rgba(0,0,0,0.06);
+}
+
+.double-bezel-inner {
+  border-radius: calc(2rem - 0.375rem);
+  background: var(--color-surface-2);
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15);
+  height: 100%;
+}
+.light .double-bezel-inner {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
 /* Hide mesh gradient in light and OLED themes for purity */
 .light body::before, .oled body::before,
 body.light::before, body.oled::before {
@@ -239,6 +318,107 @@ body.light::before, body.oled::before {
 .light ::selection {
   background: rgba(67,76,230,0.2);
   color: #000;
+}
+
+/* ── Tactile Button Feedback (design-taste-frontend Rule 5) ── */
+@layer components {
+  .btn {
+    @apply active:scale-[0.97] active:-translate-y-px;
+    transition: transform 75ms ease, opacity 150ms ease;
+  }
+
+  /* ── frontend-ui-dark-ts: Glass Utility System ──────────── */
+
+  /* Lightweight glass — badges, pills, small surfaces */
+  .glass {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+  }
+
+  /* Standard glass card — content cards, panels */
+  .glass-card {
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: var(--radius-xl);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 12px 40px rgba(0, 0, 0, 0.4);
+  }
+
+  /* Heavy glass panel — sidebars, drawers, AI panel */
+  .glass-panel {
+    backdrop-filter: blur(48px);
+    -webkit-backdrop-filter: blur(48px);
+    background: rgba(0, 0, 0, 0.40);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+  }
+
+  /* Full-screen modal backdrop */
+  .glass-overlay {
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    background: rgba(0, 0, 0, 0.65);
+  }
+
+  /* Form inputs with glass feel */
+  .glass-input {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: border-color var(--duration-fast), background var(--duration-fast);
+  }
+  .glass-input:focus {
+    outline: none;
+    border-color: var(--color-brand);
+    background: rgba(255, 255, 255, 0.07);
+  }
+
+  /* Light theme overrides for glass classes */
+  .light .glass {
+    background: rgba(255, 255, 255, 0.70);
+    border-color: rgba(0, 0, 0, 0.06);
+  }
+  .light .glass-card {
+    background: rgba(255, 255, 255, 0.75);
+    border-color: rgba(0, 0, 0, 0.06);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06), 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+  }
+  .light .glass-panel {
+    background: rgba(255, 255, 255, 0.85);
+    border-color: rgba(0, 0, 0, 0.05);
+  }
+  .light .glass-overlay {
+    background: rgba(240, 240, 245, 0.75);
+  }
+  .light .glass-input {
+    background: rgba(0, 0, 0, 0.03);
+    border-color: rgba(0, 0, 0, 0.10);
+  }
+  .light .glass-input:focus {
+    border-color: var(--color-brand);
+    background: rgba(0, 0, 0, 0.04);
+  }
+
+  /* ── KPI Alert Banner Sınıfları ── */
+  .kpi-alert-critical {
+    border-left: 3px solid var(--color-kpi-critical);
+    background: rgba(248, 113, 113, 0.08);
+    color: #fca5a5;
+  }
+  .kpi-alert-warning {
+    border-left: 3px solid var(--color-kpi-at-risk);
+    background: rgba(251, 191, 36, 0.08);
+    color: #fcd34d;
+  }
+  .kpi-alert-success {
+    border-left: 3px solid var(--color-kpi-on-track);
+    background: rgba(52, 211, 153, 0.08);
+    color: #6ee7b7;
+  }
 }
 
 /* ── FIX-012: Erişilebilirlik — Azaltılmış Hareket ───── */

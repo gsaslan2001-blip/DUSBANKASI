@@ -30,7 +30,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "tools"))
 
 from config import (
-    NOTEBOOK_ID, RETRY_BACKOFF, MAX_RETRIES,
+    NOTEBOOK_ID, MCP_URL, RETRY_BACKOFF, MAX_RETRIES,
     COOLDOWN_BETWEEN_UNITS, PROMPT_CHAR_LIMIT,
     MAX_BATCHES_PER_UNIT, SATURATION_THRESHOLD,
     MIN_ACCEPTED_PER_BATCH, INTER_BATCH_COOLDOWN,
@@ -52,7 +52,7 @@ from smart_audit_pipeline import run_audit
 
 class NotebookLMMCPClient:
     def __init__(self, mcp_url=None):
-        self.mcp_url = mcp_url or os.environ.get("MCP_URL", "http://127.0.0.1:3000/mcp")
+        self.mcp_url = mcp_url or MCP_URL
         self.session_id = None
         
     async def __aenter__(self):

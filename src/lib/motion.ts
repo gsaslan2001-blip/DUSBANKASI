@@ -153,3 +153,70 @@ export const fadeInUpItem = {
   initial: { opacity: 0, y: 12 },
   animate: { opacity: 1, y: 0, transition: { duration: 0.4, ease: [0.16, 1, 0.3, 1] } },
 };
+
+// ── frontend-ui-dark-ts: Standardised design-system variants ──────────────
+
+import type { Variants, Transition } from 'framer-motion';
+
+const _spring: Transition = { type: 'spring', stiffness: 300, damping: 20 };
+const _expo: Transition = { duration: 0.35, ease: [0.19, 1, 0.22, 1] };
+
+export const fadeIn: Variants = {
+  initial: { opacity: 0 },
+  animate: { opacity: 1, transition: { duration: 0.2 } },
+  exit:    { opacity: 0, transition: { duration: 0.15 } },
+};
+
+export const slideUp: Variants = {
+  initial: { opacity: 0, y: 16 },
+  animate: { opacity: 1, y: 0,  transition: _expo },
+  exit:    { opacity: 0, y: 12, transition: { duration: 0.2, ease: 'easeIn' } },
+};
+
+export const slideDown: Variants = {
+  initial: { opacity: 0, y: -12 },
+  animate: { opacity: 1, y: 0,   transition: _expo },
+  exit:    { opacity: 0, y: -8,  transition: { duration: 0.15 } },
+};
+
+export const scaleIn: Variants = {
+  initial: { opacity: 0, scale: 0.95 },
+  animate: { opacity: 1, scale: 1,    transition: _spring },
+  exit:    { opacity: 0, scale: 0.95, transition: { duration: 0.15 } },
+};
+
+export const cardEntrance: Variants = {
+  hidden:  { opacity: 0, scale: 0.96, y: 12 },
+  visible: { opacity: 1, scale: 1,    y: 0,  transition: _spring },
+};
+
+export const staggerParent: Variants = {
+  hidden:  { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: { staggerChildren: 0.06, delayChildren: 0.05 },
+  },
+};
+
+export const staggerChild: Variants = {
+  hidden:  { opacity: 0, y: 10 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.25, ease: [0.16, 1, 0.3, 1] } },
+};
+
+export const overlayFade: Variants = {
+  initial: { opacity: 0 },
+  animate: { opacity: 1, transition: { duration: 0.2 } },
+  exit:    { opacity: 0, transition: { duration: 0.18 } },
+};
+
+export const modalPop: Variants = {
+  initial: { opacity: 0, scale: 0.94, y: 8 },
+  animate: { opacity: 1, scale: 1,    y: 0, transition: _spring },
+  exit:    { opacity: 0, scale: 0.96, y: 4, transition: { duration: 0.15 } },
+};
+
+export const scaleOnHover = {
+  whileHover: { scale: 1.02 },
+  whileTap:   { scale: 0.97 },
+  transition: { type: 'spring', stiffness: 400, damping: 17 },
+} as const;
