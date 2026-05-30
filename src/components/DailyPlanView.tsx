@@ -15,11 +15,14 @@
 import type { Question } from '../data';
 import type { StatsMap } from '../lib/stats';
 import { getWeakestUnits, getCurriculumProgress } from '../lib/adaptive';
+import { computeExamProjection } from '../lib/projections';
 
 interface DailyPlanViewProps {
   questions: Question[];
   stats: StatsMap;
   weakCount: number;
+  /** Kronolojik günlük aktivite (hız/tutarlılık projeksiyonu için, opsiyonel). */
+  activity?: ReadonlyArray<{ count: number }>;
   onStartWeakUnit: (lesson: string, unit: string) => void;
   onStartSmartStudy: () => void;
   theme: {
@@ -32,18 +35,11 @@ interface DailyPlanViewProps {
   };
 }
 
-// DUS'a kalan hafta sayısı (1 Kasım 2026 hedef tarihi)
-const DUS_DATE = new Date('2026-11-01');
-function weeksUntilDUS(): number {
-  const now = new Date();
-  const diff = DUS_DATE.getTime() - now.getTime();
-  return Math.floor(diff / (1000 * 60 * 60 * 24 * 7)); // negatif değere izin ver
-}
-
 export default function DailyPlanView({
   questions,
   stats,
   weakCount,
+  activity,
   onStartWeakUnit,
   onStartSmartStudy,
   theme,
@@ -51,8 +47,17 @@ export default function DailyPlanView({
   const today = new Date().toLocaleDateString('tr-TR', { weekday: 'long', day: 'numeric', month: 'long' });
   const weakUnits = getWeakestUnits(questions, stats, 3, 5);
   const curriculum = getCurriculumProgress(questions, stats);
-  const weeksLeft = weeksUntilDUS();
-  const examPassed = weeksLeft <= 0;
+
+  const solvedUnique = questions.reduce((n, q) => n + ((stats[q.id]?.attempts ?? 0) > 0 ? 1 : 0), 0);
+  const projection = computeExamProjection({
+    solvedUnique,
+    bankTotal: questions.length,
+    activity: activity ?? [],
+    targetSolved: 10_000,
+  });
+  const hasActivity = (activity?.length ?? 0) > 0;
+  const weeksLeft = Math.floor(projection.daysUntilExam / 7); // negatif değere izin ver
+  const examPassed = projection.examPassed;
 
   // Müfredat hız tavsiyesi: kalan ünite / kalan hafta
   const remainingUnits = curriculum.totalUnits - curriculum.solvedUnits;
@@ -166,6 +171,41 @@ export default function DailyPlanView({
             🧠 AKILLI ÇALIŞMA BAŞLAT
           </button>
         </>
+      )}
+
+      {/* ── Sınav Hedef Projeksiyonu ── */}
+      {!examPassed && projection.solvedRemaining > 0 && (
+        <div className={`${theme.card} rounded-2xl p-5 relative overflow-hidden`}>
+          <div className="absolute top-0 left-0 w-0.5 h-full bg-indigo-400/60 rounded-r" />
+          <div className="flex items-center gap-2 mb-3 pl-3">
+            <span className="text-base">🎯</span>
+            <span className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest`}>Hedef Hızı — 10.000 Soru</span>
+          </div>
+          <div className="grid grid-cols-3 gap-3 pl-3">
+            <div>
+              <div className="text-2xl font-black text-indigo-400">{projection.requiredDailySolved}</div>
+              <div className={`${theme.subtext} text-[9px] font-bold uppercase mt-0.5`}>Gün/Soru Gerekli</div>
+            </div>
+            <div>
+              <div className="text-2xl font-black">{projection.solvedRemaining.toLocaleString('tr-TR')}</div>
+              <div className={`${theme.subtext} text-[9px] font-bold uppercase mt-0.5`}>Kalan Soru</div>
+            </div>
+            <div>
+              <div className="text-2xl font-black text-emerald-400">{projection.daysUntilExam}</div>
+              <div className={`${theme.subtext} text-[9px] font-bold uppercase mt-0.5`}>Gün Kaldı</div>
+            </div>
+          </div>
+          {hasActivity && (
+            <div className="mt-4 pl-3 flex items-center gap-3 flex-wrap">
+              <span className={`text-[11px] font-bold px-2.5 py-1 rounded-lg ${projection.onTrackSolved ? 'bg-emerald-500/10 text-emerald-400' : 'bg-amber-500/10 text-amber-400'}`}>
+                {projection.onTrackSolved ? '✓ Hedef temposunda' : `⚠ Tempo düşük (${projection.recentDailyAvg}/gün)`}
+              </span>
+              <span className={`${theme.subtext} text-[11px]`}>
+                Sınavda tahmini kapsama: %{projection.projectedCoveragePct} · Tutarlılık: %{projection.consistencyPct}
+              </span>
+            </div>
+          )}
+        </div>
       )}
 
       {/* ── Müfredat Özeti ── */}
