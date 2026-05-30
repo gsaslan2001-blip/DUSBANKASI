@@ -12,6 +12,7 @@
  * hata pattern'inden, yeni materyal önerisi müfredat kapsamından türetilir.
  */
 
+import { useMemo } from 'react';
 import type { Question } from '../data';
 import type { StatsMap } from '../lib/stats';
 import { getWeakestUnits, getCurriculumProgress } from '../lib/adaptive';
@@ -45,16 +46,22 @@ export default function DailyPlanView({
   theme,
 }: DailyPlanViewProps) {
   const today = new Date().toLocaleDateString('tr-TR', { weekday: 'long', day: 'numeric', month: 'long' });
-  const weakUnits = getWeakestUnits(questions, stats, 3, 5);
-  const curriculum = getCurriculumProgress(questions, stats);
+  const weakUnits = useMemo(() => getWeakestUnits(questions, stats, 3, 5), [questions, stats]);
+  const curriculum = useMemo(() => getCurriculumProgress(questions, stats), [questions, stats]);
 
-  const solvedUnique = questions.reduce((n, q) => n + ((stats[q.id]?.attempts ?? 0) > 0 ? 1 : 0), 0);
-  const projection = computeExamProjection({
-    solvedUnique,
-    bankTotal: questions.length,
-    activity: activity ?? [],
-    targetSolved: 10_000,
-  });
+  const solvedUnique = useMemo(
+    () => questions.reduce((n, q) => n + ((stats[q.id]?.attempts ?? 0) > 0 ? 1 : 0), 0),
+    [questions, stats],
+  );
+  const projection = useMemo(
+    () => computeExamProjection({
+      solvedUnique,
+      bankTotal: questions.length,
+      activity: activity ?? [],
+      targetSolved: 10_000,
+    }),
+    [solvedUnique, questions.length, activity],
+  );
   const hasActivity = (activity?.length ?? 0) > 0;
   const weeksLeft = Math.floor(projection.daysUntilExam / 7); // negatif değere izin ver
   const examPassed = projection.examPassed;
