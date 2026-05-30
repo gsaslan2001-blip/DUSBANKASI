@@ -3,14 +3,23 @@
  * Gemini'nin döndürdüğü Markdown çıktısını güvenli HTML'e çevirir.
  * Desteklenen yapılar: **bold**, - bullet listeler, ## başlıklar, paragraflar.
  * dangerouslySetInnerHTML ile kullanılır; AI çıktısı dışında kullanılmamalı.
+ *
+ * GÜVENLİK: Metin içeriği yapısal HTML üretilmeden ÖNCE escape edilir. Bu hem
+ * derinlemesine savunma sağlar (tüketici DOMPurify ile ikinci kez sanitize eder)
+ * hem de AI yanıtındaki gerçek `<`, `>`, `&` karakterlerinin (ör. "pH < 7.4")
+ * etiket sanılıp kaybolmasını engeller.
  */
+const escapeHtml = (s: string): string =>
+  s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
 export function renderMarkdown(text: string): string {
   const lines = text.split('\n');
   let html = '';
   let inList = false;
 
-  const processBold = (line: string): string =>
-    line.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  // `**bold**` → <strong>. escapeHtml'den SONRA çalışır; `*` escape edilmez.
+  const processBold = (raw: string): string =>
+    escapeHtml(raw).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
   for (const line of lines) {
     if (line.startsWith('- ')) {
