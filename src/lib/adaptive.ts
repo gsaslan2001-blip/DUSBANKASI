@@ -6,7 +6,7 @@
  *   Sinyal 2 — New Exploration:     Hiç görülmemiş sorular keşif önceliği alır.
  *   + Interleaving:                 Ardışık sorular farklı derslerden seçilir (discriminative learning).
  *
- * NOT: Aktif tekrar (FSRS spaced repetition) Anki tarafında yürütülür — burada vade/urgency YOKTUR.
+ * NOT: Uygulama tamamen istatistik bazlıdır — vade/urgency/scheduling YOKTUR.
  */
 
 import type { Question } from '../data';

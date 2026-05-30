@@ -2,8 +2,8 @@
  * DUS Bankası — Öğrenme Algoritması Konfigürasyonu
  * Adaptive Engine ağırlıkları buradan yönetilir.
  *
- * NOT: Aktif tekrar (spaced repetition) Anki/FSRS tarafında yürütülür. Bu uygulama
- * yalnızca soru havuzu + performans analizi rolünü üstlenir; FSRS scheduling YOKTUR.
+ * NOT: Uygulama tamamen istatistik bazlıdır — vade/scheduling YOKTUR. Bu ağırlıklar
+ * yalnızca "Günlük Plan" zayıf-konu önceliklendirmesini ve soru havuzu seçimini besler.
  */
 
 export type AdaptiveWeights = {

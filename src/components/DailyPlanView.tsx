@@ -8,8 +8,8 @@
  *
  * Karar fatiguesini elimine eder — tek tıkla aksiyona geçiş.
  *
- * NOT: Aktif tekrar (spaced repetition) Anki tarafında yürütülür.
- * Bu ekran yalnızca soru havuzu + performans analizi rolündedir.
+ * NOT: Tamamen istatistik bazlı — vade/scheduling yoktur. Zayıf konular accuracy +
+ * hata pattern'inden, yeni materyal önerisi müfredat kapsamından türetilir.
  */
 
 import type { Question } from '../data';
