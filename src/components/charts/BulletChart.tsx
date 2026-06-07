@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -18,7 +18,9 @@ const ROW_H = 36;
 const MARGIN = { top: 8, right: 16, bottom: 4, left: 100 };
 const TOOLTIP_OFFSET = 10;
 
-export default function BulletChart({ data, height }: Props) {
+export default memo(BulletChart);
+
+function BulletChart({ data, height }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);

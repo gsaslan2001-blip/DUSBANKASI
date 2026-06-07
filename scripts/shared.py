@@ -311,7 +311,7 @@ def get_questions_for_unit(lesson_name, unit_name):
 _SUPABASE_WRITE_CHUNK = 10
 
 
-def _write_to_supabase(questions, lesson_name, unit_name):
+def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
     """Saf HTTP yazma — checkpoint yönetimi yapmaz. Başarılıysa True döner.
     
     FIX: Büyük batch'lerde oluşan HTTP 500 hatasını engellemek için
@@ -391,6 +391,8 @@ def _write_to_supabase(questions, lesson_name, unit_name):
             row["stem_embedding"] = stem_embeddings[i]
         if expl_embeddings and i < len(expl_embeddings):
             row["explanation_embedding"] = expl_embeddings[i]
+        if quality_flag:
+            row["quality_flag"] = quality_flag
         rows.append(row)
 
     # ── Chunked yazma (HTTP 500 engelleyici) + geçici hata retry ──
@@ -616,7 +618,7 @@ def validate_question_batch(questions, lesson_name, unit_name):
     return accepted, rejected
 
 
-def deploy_to_supabase(questions, lesson_name, unit_name):
+def deploy_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
     """Checkpoint wrapper: kalite gate → yerel yedek → Supabase yazımı."""
     # Faz 1: Kalite gate — düşük kalite soruları deploy öncesi filtrele
     accepted, _rejected = validate_question_batch(questions, lesson_name, unit_name)
@@ -625,7 +627,7 @@ def deploy_to_supabase(questions, lesson_name, unit_name):
         return
 
     checkpoint_path = save_checkpoint(accepted, lesson_name, unit_name)
-    if _write_to_supabase(accepted, lesson_name, unit_name):
+    if _write_to_supabase(accepted, lesson_name, unit_name, quality_flag):
         if checkpoint_path:
             clear_checkpoint(checkpoint_path)
     else:

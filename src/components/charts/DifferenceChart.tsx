@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { TOOLTIP_STYLE, debounce } from '../../lib/chartUtils';
 
@@ -22,7 +22,9 @@ const TOOLTIP_OFFSET = 10;
  * green where actual > target, red where actual < target.
  * Uses two clipPath regions to split the gradient fill correctly.
  */
-export default function DifferenceChart({ data, height = 180 }: Props) {
+export default memo(DifferenceChart);
+
+function DifferenceChart({ data, height = 180 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);

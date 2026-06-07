@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { memo, useMemo } from 'react';
 import { TrendUp, TrendDown, Minus } from '@phosphor-icons/react';
 
 interface DailyActivity {
@@ -37,7 +37,9 @@ function getWeekStats(data: DailyActivity[]): WeekStats {
   };
 }
 
-export function WeeklyComparison({ activity, className = '' }: WeeklyComparisonProps) {
+export const WeeklyComparison = memo(WeeklyComparisonBase);
+
+function WeeklyComparisonBase({ activity, className = '' }: WeeklyComparisonProps) {
   const { thisWeek, lastWeek, diff, trend } = useMemo(() => {
     const today = new Date();
     const dayOfWeek = today.getDay();

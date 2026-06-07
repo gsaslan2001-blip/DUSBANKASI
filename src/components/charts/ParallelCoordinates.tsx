@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -76,7 +76,9 @@ function buildAxes(data: ParallelCoordinatesDatum[]): AxisDef[] {
 const MARGIN = { top: 28, right: 20, bottom: 8, left: 20 };
 const TOOLTIP_OFFSET = 10;
 
-export function ParallelCoordinates({ data, height = 260 }: Props) {
+export const ParallelCoordinates = memo(ParallelCoordinatesBase);
+
+function ParallelCoordinatesBase({ data, height = 260 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);

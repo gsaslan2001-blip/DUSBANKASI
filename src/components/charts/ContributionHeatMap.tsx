@@ -1,4 +1,4 @@
-import { useRef, useEffect, useMemo } from 'react';
+import { memo, useRef, useEffect, useMemo } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -20,7 +20,9 @@ const COLOR_SCALE = d3.scaleThreshold<number, string>()
   .domain([1, 10, 30, 60, 100])
   .range(['#0d0d12', '#1a1848', '#2d2870', '#4a3f96', '#6960c4', '#8b95f6']);
 
-export function ContributionHeatMap({ data, weeks = 20, width: propWidth, height = 140 }: ContributionHeatMapProps) {
+export const ContributionHeatMap = memo(ContributionHeatMapBase);
+
+function ContributionHeatMapBase({ data, weeks = 20, width: propWidth, height = 140 }: ContributionHeatMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);

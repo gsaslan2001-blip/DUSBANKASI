@@ -31,6 +31,7 @@ export type QuizViewProps = {
   theme: Theme;
   settings: UserSettings;
   dailyExamId?: string;
+  disableStats?: boolean;
 };
 
 /**
@@ -41,7 +42,7 @@ export function QuizView({
   mode, unit, questions, initialSession,
   onComplete, onDeleteQuestion, onFinishEarly, onToggleFavorite,
   onEditQuestion, onReportQuestion, onSaveSession, onExportPDF,
-  timedSeconds, onSimulationComplete, theme, settings, dailyExamId,
+  timedSeconds, onSimulationComplete, theme, settings, dailyExamId, disableStats,
 }: QuizViewProps) {
   const [currentIndex, setCurrentIndex] = useState<number>(initialSession ? initialSession.currentIndex : 0);
   const [selectedOption, setSelectedOption] = useState<string | null>(
@@ -92,7 +93,7 @@ export function QuizView({
         selectedOptionKey: isSkip ? null : selectedOption,
         timeSpent,
       });
-      if (!isSkip) saveQuestionStat(question.id, state === 'correct', selectedOption, question.lesson, timeSpent);
+      if (!disableStats && !isSkip) saveQuestionStat(question.id, state === 'correct', selectedOption, question.lesson, timeSpent);
     }
     answersRef.current = newAnswers;
     setAnswers(newAnswers);
@@ -120,7 +121,7 @@ export function QuizView({
     } else {
       onComplete(newAnswers);
     }
-  }, [selectedOption, question, currentIndex, answers, questions, mode, onSaveSession, onComplete, dailyExamId]);
+  }, [selectedOption, question, currentIndex, answers, questions, mode, onSaveSession, onComplete, dailyExamId, disableStats]);
 
   const handlePrevious = useCallback(() => {
     if (currentIndex > 0) {

@@ -12,6 +12,8 @@ Kullanım:
     python scripts/add_questions.py sorular.csv --lesson Fizyoloji --unit "Kalp Fizyolojisi"
     python scripts/add_questions.py sorular.md  --lesson Fizyoloji --unit "Kalp" --dry-run
     python scripts/add_questions.py sorular.json --audit
+    python scripts/add_questions.py sorular.json --lesson Fizyoloji --unit "Kalp" --high-yield
+    python scripts/add_questions.py sorular.txt --lesson Radyoloji --unit "Ünite 38" --quality-flag high_yield
 
 Kanonik soru şeması (.agent/workflows/soru_ekle.md ile birebir):
     {
@@ -33,6 +35,7 @@ import os
 import re
 import subprocess
 import sys
+import difflib
 from collections import defaultdict
 
 # scripts/ klasörünü import yoluna ekle (config / shared)
@@ -172,6 +175,72 @@ def _load_md(path: str) -> list:
     return questions
 
 
+def _load_dus_konu_testi_txt(path: str) -> list:
+    """DUS KONU TESTİ özel txt formatını (çözümleri altta olan yapı) ayrıştırır."""
+    with open(path, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    parts = content.split("═══ TÜM SORULARIN DETAYLI ÇÖZÜMLERİ ═══")
+    top_part = parts[0]
+    bottom_part = parts[1] if len(parts) > 1 else ""
+
+    questions = {}
+
+    q_matches = list(re.finditer(r'^(\d+)\.\s', top_part, re.MULTILINE))
+    
+    for i in range(len(q_matches)):
+        start_idx = q_matches[i].end()
+        q_num = q_matches[i].group(1)
+        end_idx = q_matches[i+1].start() if i + 1 < len(q_matches) else len(top_part)
+        
+        block = top_part[start_idx:end_idx].strip()
+        
+        opt_start = re.search(r'(?:^|\s)A\)\s', block)
+        if opt_start:
+            q_text = block[:opt_start.start()].strip()
+            options_text = block[opt_start.start():].strip()
+            
+            opts = {}
+            opt_matches = list(re.finditer(r'(?:^|\s)([A-E])\)\s', options_text))
+            for j in range(len(opt_matches)):
+                o_letter = opt_matches[j].group(1)
+                o_start = opt_matches[j].end()
+                o_end = opt_matches[j+1].start() if j + 1 < len(opt_matches) else len(options_text)
+                
+                opt_str = options_text[o_start:o_end].strip()
+                cleanup_match = re.search(r'═══', opt_str)
+                if cleanup_match:
+                    opt_str = opt_str[:cleanup_match.start()].strip()
+                    
+                opts[o_letter] = opt_str
+            
+            questions[q_num] = {
+                "question": q_text,
+                "options": opts
+            }
+
+    ans_blocks = re.split(r'▸ \*\*Soru (\d+)', bottom_part)
+    for i in range(1, len(ans_blocks), 2):
+        q_num = ans_blocks[i]
+        block = ans_blocks[i+1]
+        
+        c_match = re.search(r'Doğru:\s*([A-E])', block)
+        c_ans = c_match.group(1) if c_match else ""
+        
+        n_match = re.search(r'Neden [A-E]:\s*(.*?)(?=\nAnahtar:|\Z)', block, re.DOTALL)
+        explanation = n_match.group(1).strip() if n_match else ""
+        
+        if q_num in questions:
+            questions[q_num]["correctAnswer"] = c_ans
+            questions[q_num]["explanation"] = explanation
+
+    output = []
+    for q_num, q_data in sorted(questions.items(), key=lambda x: int(x[0])):
+        output.append(_normalize_one(q_data))
+
+    return output
+
+
 def load_questions(path: str) -> list:
     ext = os.path.splitext(path)[1].lower()
     if ext == ".json":
@@ -179,19 +248,26 @@ def load_questions(path: str) -> list:
     if ext == ".csv":
         return _load_csv(path)
     if ext in (".md", ".markdown", ".txt"):
+        with open(path, "r", encoding="utf-8") as f:
+            content = f.read()
+        if "TÜM SORULARIN DETAYLI ÇÖZÜMLERİ" in content:
+            return _load_dus_konu_testi_txt(path)
         return _load_md(path)
-    raise ValueError(f"Desteklenmeyen dosya türü: {ext} (JSON / CSV / MD bekleniyor)")
+    raise ValueError(f"Desteklenmeyen dosya türü: {ext} (JSON / CSV / MD / TXT bekleniyor)")
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Dosyadan toplu soru ekleme (ajan-bağımsız). JSON / CSV / Markdown destekler."
+        description="Dosyadan toplu soru ekleme (ajan-bağımsız). JSON / CSV / Markdown / TXT destekler."
     )
-    parser.add_argument("dosya", help="Soru dosyası yolu (.json / .csv / .md)")
+    parser.add_argument("dosya", help="Soru dosyası yolu (.json / .csv / .md / .txt)")
     parser.add_argument("--lesson", help="Ders adı (dosyada yoksa varsayılan olarak uygulanır)")
     parser.add_argument("--unit", help="Ünite adı (dosyada yoksa varsayılan olarak uygulanır)")
     parser.add_argument("--dry-run", action="store_true", help="Yalnız doğrula + rapor; Supabase'e yazma")
     parser.add_argument("--audit", action="store_true", help="Bitince smart_audit_pipeline.py --lesson çalıştır")
+    parser.add_argument("--high-yield", action="store_true", help="Soruları high_yield bayrağıyla ekle (Ölüm maçından kaçınır)")
+    parser.add_argument("--quality-flag", help="Sorulara eklenecek özel kalite etiketi (örn. high_quality, high_yield)")
+    parser.add_argument("--force-new-unit", action="store_true", help="Eğer ünite bulunamazsa sormadan yeni ünite olarak oluştur")
     args = parser.parse_args()
 
     if not os.path.exists(args.dosya):
@@ -228,6 +304,27 @@ def main() -> int:
     for q in questions:
         groups[(q["lesson"], q["unit"])].append(q)
 
+    # ── YENİ: Ünite Adı Doğrulama ve Güvenlik Kilidi ──
+    if not args.force_new_unit and not args.dry_run:
+        lessons_needed = list(set(lesson for lesson, _ in groups.keys()))
+        for lesson in lessons_needed:
+            existing_units = shared.get_existing_units(lesson)
+            existing_unit_names = list(existing_units.keys())
+            
+            for unit in set(u for l, u in groups.keys() if l == lesson):
+                if unit not in existing_unit_names:
+                    close_matches = difflib.get_close_matches(unit, existing_unit_names, n=3, cutoff=0.3)
+                    print(f"\n❌ HATA: '{lesson}' dersinde '{unit}' adında bir ünite bulunamadı.")
+                    if close_matches:
+                        print("Bunu mu demek istediniz?")
+                        for m in close_matches:
+                            print(f"   - {m}")
+                    else:
+                        print(f"Mevcut ünitelerden hiçbiriyle eşleşmedi.")
+                    print("\nLütfen doğru ünite adını girerek komutu tekrar çalıştırın.")
+                    print("Eğer GERÇEKTEN yepyeni bir ünite oluşturmak istiyorsanız, komuta '--force-new-unit' bayrağını ekleyin.")
+                    return 1
+
     print(f"📦 {len(questions)} soru, {len(groups)} ders/ünite grubu yüklendi: {os.path.basename(args.dosya)}")
 
     total_accepted = 0
@@ -249,7 +346,8 @@ def main() -> int:
             continue
 
         # deploy_to_supabase kendi içinde tekrar validate eder; checkpoint + embedding + chunked write yapar
-        shared.deploy_to_supabase(accepted, lesson, unit)
+        quality_flag = args.quality_flag if args.quality_flag else ("high_yield" if args.high_yield else None)
+        shared.deploy_to_supabase(accepted, lesson, unit, quality_flag)
         units_touched.add((lesson, unit))
 
     print(

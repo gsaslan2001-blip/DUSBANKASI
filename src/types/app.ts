@@ -12,13 +12,13 @@ export type AppState =
   | 'select-favorites'
   | 'weak-questions'
   | 'analytics'
-  | 'due-review'
   | 'simulation-setup'
   | 'simulation-result'
   | 'error-analysis'
   | 'smart-study'
   | 'daily-plan'
-  | 'source-books';
+  | 'source-books'
+  | 'select-highyield-unit';
 
 export type AnswerDetail = {
   question: Question;

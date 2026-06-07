@@ -28,7 +28,7 @@ export const QuestionCard = memo(forwardRef<HTMLDivElement, QuestionCardProps>(f
   const [favSparkle, setFavSparkle] = useState(false);
 
   const cleanedQuestion = useMemo(() => {
-    let cleanText = question.question.split('\n').filter(l => !OPTION_LINE_RE.test(l.trim())).join('\n');
+    const cleanText = question.question.split('\n').filter(l => !OPTION_LINE_RE.test(l.trim())).join('\n');
     const romanNumeralRe = /(?:\s|^)(I{1,3}|IV|V|VI{1,3}|IX|X)\.\s/g;
     return cleanText.replace(romanNumeralRe, (_, p1) => `\n\n${p1}. `).trim();
   }, [question.question]);

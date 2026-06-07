@@ -1,4 +1,4 @@
-import { useRef, useEffect, useMemo } from 'react';
+import { memo, useRef, useEffect, useMemo } from 'react';
 import * as d3 from 'd3';
 
 export interface DayCount {
@@ -13,7 +13,9 @@ interface CountSparklineProps {
   days?: number;
 }
 
-export function CountSparkline({ data, width: propWidth, height = 60, days = 30 }: CountSparklineProps) {
+export const CountSparkline = memo(CountSparklineBase);
+
+function CountSparklineBase({ data, width: propWidth, height = 60, days = 30 }: CountSparklineProps) {
   const svgRef = useRef<SVGSVGElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 

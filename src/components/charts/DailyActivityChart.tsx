@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -17,7 +17,9 @@ interface Props {
 const MARGIN = { top: 8, right: 8, bottom: 28, left: 36 };
 const TOOLTIP_OFFSET = 10;
 
-export default function DailyActivityChart({ data, onDaySelect, selectedDay }: Props) {
+export default memo(DailyActivityChart);
+
+function DailyActivityChart({ data, onDaySelect, selectedDay }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);

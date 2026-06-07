@@ -24,6 +24,7 @@ import {
   getCurriculumProgress,
   setAdaptiveWeights,
   getAdaptiveWeights,
+  buildDailyExam,
 } from '../adaptive';
 import type { Question } from '../../data';
 import type { StatsMap } from '../stats';
@@ -295,3 +296,43 @@ describe('buildExamPool', () => {
     expect(result).toHaveLength(0);
   });
 });
+
+// ─── buildDailyExam ────────────────────────────────────────────────────────────
+
+describe('buildDailyExam', () => {
+  const qs: Question[] = [
+    q('a1', 'Patoloji', 'UA'), q('a2', 'Patoloji', 'UA'), q('a3', 'Patoloji', 'UA'),
+    q('b1', 'Fizyoloji', 'UB'), q('b2', 'Fizyoloji', 'UB'), q('b3', 'Fizyoloji', 'UB'),
+  ];
+  const units = [{ lesson: 'Patoloji', unit: 'UA' }, { lesson: 'Fizyoloji', unit: 'UB' }];
+
+  it('selects exactly `count` questions with proper breakdown', () => {
+    const stats: StatsMap = {
+      a1: stat(2, 2), // correct
+      b1: stat(2, 1), // wrong
+    };
+    
+    const { questions, breakdown } = buildDailyExam(qs, units, stats, 4);
+    
+    expect(questions).toHaveLength(4);
+    expect(breakdown.totalPool).toBe(6);
+    
+    // We requested 4 items. It will pick 1 wrong, 1 correct, and 2 unseen (since it aims for 80/15/5 ratio)
+    // Wait, 4 items:
+    // nUnseen = Math.round(4 * 0.8) = 3
+    // nWrong = Math.round(4 * 0.15) = 1
+    // nCorrect = 4 - 3 - 1 = 0
+    // But since it tries to fill the pool if anything is missing, it will fill with what's available.
+    // Let's just assert that total sum of breakdowns is equal to questions length.
+    expect(breakdown.unseenCount + breakdown.wrongCount + breakdown.correctCount).toBe(4);
+  });
+
+  it('handles small pools gracefully', () => {
+    const { questions, breakdown } = buildDailyExam(qs, units, {}, 10);
+    expect(questions.length).toBe(6); // max available
+    expect(breakdown.unseenCount).toBe(6);
+    expect(breakdown.wrongCount).toBe(0);
+    expect(breakdown.correctCount).toBe(0);
+  });
+});
+

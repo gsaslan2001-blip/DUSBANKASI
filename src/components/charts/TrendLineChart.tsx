@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -23,7 +23,9 @@ const SERIES = [
   { key: 'incorrect' as const, label: 'Yanlış', color: '#f87171', strokeWidth: 1.5 },
 ];
 
-export default function TrendLineChart({ data, height = 220 }: Props) {
+export default memo(TrendLineChart);
+
+function TrendLineChart({ data, height = 220 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);

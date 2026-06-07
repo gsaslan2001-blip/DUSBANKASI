@@ -1,5 +1,10 @@
 import { createClient } from '@supabase/supabase-js';
 import { todayStr } from './dateUtils';
+import {
+  getCachedSkeletons, saveSkeletonsToCache, deleteSkeletonsFromCache,
+  getQuestionsFromContentCache, saveQuestionsToContentCache,
+  getCachedQuestions, saveQuestionsToCache, deleteQuestionsFromCache,
+} from './idb';
 
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL as string;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY as string;
@@ -25,6 +30,7 @@ export type QuestionRow = {
   correct_answer: 'A' | 'B' | 'C' | 'D' | 'E';
   explanation: string;
   created_at: string;
+  updated_at?: string;
   is_favorite?: boolean;
   // AUDIT-03: DB şemasındaki flag alanları TypeScript type'a eklendi
   flagged?: boolean;
@@ -42,16 +48,35 @@ export type ImportQuestion = {
   explanation: string;
 };
 
-const SELECT_COLS = 'id,lesson,unit,question,option_a,option_b,option_c,option_d,option_e,correct_answer,explanation,created_at,is_favorite,flagged,flag_reason,quality_flag,image_url';
+/**
+ * Hafif iskelet tip — açılışta 12.000 adet yüklenir (~250 KB).
+ * Adaptif motor, istatistik ekranları ve soru sayaçları için yeterli.
+ */
+export type SkeletonRow = {
+  id: string;
+  lesson: string;
+  unit: string;
+  quality_flag?: string | null;
+  is_favorite?: boolean;
+  updated_at?: string;
+};
+
+const SELECT_COLS = 'id,lesson,unit,question,option_a,option_b,option_c,option_d,option_e,correct_answer,explanation,created_at,updated_at,is_favorite,flagged,flag_reason,quality_flag,image_url';
+const SELECT_SKELETON_COLS = 'id,lesson,unit,quality_flag,is_favorite,updated_at';
 const PAGE_SIZE = 500;
 
 // ════════════════════════════════════════════════════════════════════════════
-// KATİ KURAL — LAZY-LOAD YASAK (İSTİSNASIZ)
-// Uygulama açılışta `fetchQuestions()` ile TÜM soruları belleğe yükler.
-// Daha önce denenen lazy-load mimarisi (metadata + ünite-bazlı dinamik çekim)
-// kullanıcının soruları görememesine yol açtığı için KALICI OLARAK kaldırıldı.
-// Yeniden eklenmesi YASAKTIR — adaptive motor, simülasyon ve interleaving tüm
-// soru havuzunun bellekte mevcut olmasına bağımlıdır.
+// MİMARİ: Skelet + İçerik Ayrımı (v4.31)
+//
+// Açılışta: fetchSkeletons() — sadece id/lesson/unit/quality_flag (~250 KB)
+// Sınav anında: fetchQuestionsByIds() — sadece seçilen N sorunun tam metni
+//
+// Önceki tek-çekimli (full fetch, ~14 MB) mimarisi PostgREST egress kotasını
+// tüketerek aylık 5 GB limitini dolduruyordu. Skelet mimarisi bu yükü ~20×
+// azaltır.
+//
+// NOT: Adaptif motor, simülasyon ve istatistikler SkeletonRow ile çalışır.
+// Soru metni (question, options, explanation) yalnızca sınav ekranında lazım.
 // ════════════════════════════════════════════════════════════════════════════
 
 const EXCLUDED_FLAGS = new Set(['kavramsal_kopya', 'auto_deleted']);
@@ -69,7 +94,206 @@ async function withRetry<T>(fn: () => Promise<T>, retries = 3): Promise<T> {
   throw lastErr;
 }
 
+// ─── SKELETON FETCH (açılış — ~250 KB) ─────────────────────────────────────
+
+/**
+ * Açılışta çağrılır. Sadece id/lesson/unit/quality_flag/is_favorite çeker.
+ * Delta Sync: son senkronizasyondan beri değişenleri günceller.
+ * Full fetch: ~250 KB (12.000 satır × 5 kolon, gzip ~40 KB)
+ */
+export async function fetchSkeletons(): Promise<SkeletonRow[]> {
+  const cached = await getCachedSkeletons();
+  const lastSyncStr = localStorage.getItem('skeletons_last_sync');
+
+  // Cache boşsa tam çekimi yap
+  if (cached.length === 0) {
+    const all = await fetchAllSkeletons();
+    await saveSkeletonsToCache(all);
+    localStorage.setItem('skeletons_last_sync', new Date().toISOString());
+    return all;
+  }
+
+  // Delta Sync: sadece değişen/eklenen/silinen iskeletleri güncelle
+  try {
+    const lastSync = lastSyncStr || new Date(0).toISOString();
+
+    const { data: updatedData, error: updateError } = await supabase
+      .from('questions')
+      .select(SELECT_SKELETON_COLS)
+      .gt('updated_at', lastSync)
+      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield');
+
+    if (updateError) throw new Error(updateError.message);
+
+    const updatedRows = ((updatedData ?? []) as SkeletonRow[]).filter(
+      r => !EXCLUDED_FLAGS.has(r.quality_flag ?? '')
+    );
+
+    const { data: deletedData, error: delError } = await supabase
+      .from('deleted_records')
+      .select('record_id')
+      .eq('table_name', 'questions')
+      .gt('deleted_at', lastSync);
+
+    if (delError) throw new Error(delError.message);
+    const deletedIds = (deletedData ?? []).map((r: { record_id: string }) => r.record_id);
+
+    const finalSkeletons = cached.filter(s => !deletedIds.includes(s.id));
+    for (const row of updatedRows) {
+      const idx = finalSkeletons.findIndex(s => s.id === row.id);
+      if (idx >= 0) finalSkeletons[idx] = row;
+      else finalSkeletons.push(row);
+    }
+
+    if (updatedRows.length > 0 || deletedIds.length > 0) {
+      if (deletedIds.length > 0) await deleteSkeletonsFromCache(deletedIds);
+      if (updatedRows.length > 0) await saveSkeletonsToCache(updatedRows);
+      localStorage.setItem('skeletons_last_sync', new Date().toISOString());
+    }
+
+    return finalSkeletons.sort((a, b) => a.id.localeCompare(b.id));
+  } catch (err) {
+    console.error('[fetchSkeletons] Delta sync failed, returning cache:', err);
+    return cached;
+  }
+}
+
+async function fetchAllSkeletons(): Promise<SkeletonRow[]> {
+  async function fetchPage(from: number): Promise<{ rows: SkeletonRow[]; full: boolean }> {
+    return withRetry(async () => {
+      const { data, error } = await supabase
+        .from('questions')
+        .select(SELECT_SKELETON_COLS)
+        .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield')
+        .order('id', { ascending: true })
+        .range(from, from + PAGE_SIZE - 1);
+      if (error) throw new Error(error.message);
+      const rows = ((data ?? []) as SkeletonRow[]).filter(
+        r => !EXCLUDED_FLAGS.has(r.quality_flag ?? '')
+      );
+      return { rows, full: (data?.length ?? 0) === PAGE_SIZE };
+    });
+  }
+
+  const all: SkeletonRow[] = [];
+  let from = 0;
+  while (true) {
+    const [p1, p2] = await Promise.all([fetchPage(from), fetchPage(from + PAGE_SIZE)]);
+    all.push(...p1.rows);
+    if (!p1.full) break;
+    all.push(...p2.rows);
+    if (!p2.full) break;
+    from += 2 * PAGE_SIZE;
+  }
+  return all;
+}
+
+// ─── ON-DEMAND CONTENT FETCH (sınav anı — sadece seçilen N soru) ────────────
+
+/**
+ * Verilen ID listesi için tam soru metinlerini çeker.
+ * Önce IndexedDB contentCache'e bakar; cache miss olan ID'leri Supabase'den çeker
+ * ve bulduklarını cache'e kaydeder. Bir soru bir kez indirildikten sonra
+ * offline çalışır.
+ *
+ * @param ids - Çekilecek soru ID'leri
+ * @returns QuestionRow[] — tam soru metni + şıklar + açıklama
+ */
+export async function fetchQuestionsByIds(ids: string[]): Promise<QuestionRow[]> {
+  if (ids.length === 0) return [];
+
+  // 1. Cache'den bak
+  const cached = await getQuestionsFromContentCache(ids);
+  const cachedIdSet = new Set(cached.map(q => q.id));
+  const missingIds = ids.filter(id => !cachedIdSet.has(id));
+
+  if (missingIds.length === 0) return cached; // %100 cache hit
+
+  // 2. Eksikleri Supabase'den çek (batch'ler halinde, IN query)
+  const BATCH = 200; // PostgREST URL uzunluğu sınırı
+  const fetched: QuestionRow[] = [];
+
+  for (let i = 0; i < missingIds.length; i += BATCH) {
+    const batch = missingIds.slice(i, i + BATCH);
+    const { data, error } = await supabase
+      .from('questions')
+      .select(SELECT_COLS)
+      .in('id', batch);
+    if (error) throw new Error(`[fetchQuestionsByIds] ${error.message}`);
+    fetched.push(...((data ?? []) as QuestionRow[]));
+  }
+
+  // 3. Yeni gelenleri contentCache'e yaz
+  if (fetched.length > 0) {
+    await saveQuestionsToContentCache(fetched);
+  }
+
+  // 4. Orijinal ID sırasını koru
+  const all = [...cached, ...fetched];
+  const byId = new Map(all.map(q => [q.id, q]));
+  return ids.map(id => byId.get(id)).filter(Boolean) as QuestionRow[];
+}
+
+// ─── LEGACY FETCH (geriye uyumluluk — kota açısından kaçınılmalı) ─────────
+
+/**
+ * @deprecated Yeni kod fetchSkeletons() + fetchQuestionsByIds() kullanmalı.
+ * Bu fonksiyon geriye uyumluluk için tutulmaktadır (Admin, test, script).
+ * Her çağrısı ~14 MB egress harcar.
+ */
 export async function fetchQuestions(flaggedOnly = false): Promise<QuestionRow[]> {
+  // IndexedDB'den local cache ve meta bilgiyi al
+  const cached = await getCachedQuestions();
+  const lastSyncStr = localStorage.getItem('questions_last_sync');
+
+  // Eğer hiç cache yoksa veya flaggedOnly istendiyse tümünü çek
+  if (cached.length === 0 || flaggedOnly) {
+    const all = await fetchAllQuestions(flaggedOnly);
+    if (!flaggedOnly) {
+      await saveQuestionsToCache(all);
+      localStorage.setItem('questions_last_sync', new Date().toISOString());
+    }
+    return all;
+  }
+
+  // Delta Sync: Sadece değişenleri ve silinenleri çek
+  try {
+    const lastSync = lastSyncStr || new Date(0).toISOString();
+    const { data: updatedData, error: updateError } = await supabase
+      .from('questions')
+      .select(SELECT_COLS)
+      .gt('updated_at', lastSync)
+      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield');
+    if (updateError) throw new Error(updateError.message);
+    const updatedRows = ((updatedData ?? []) as QuestionRow[]).filter(
+      r => !EXCLUDED_FLAGS.has(r.quality_flag ?? '')
+    );
+    const { data: deletedData, error: delError } = await supabase
+      .from('deleted_records')
+      .select('record_id')
+      .eq('table_name', 'questions')
+      .gt('deleted_at', lastSync);
+    if (delError) throw new Error(delError.message);
+    const deletedIds = (deletedData ?? []).map((r: { record_id: string }) => r.record_id);
+    const finalQuestions = cached.filter(q => !deletedIds.includes(q.id));
+    for (const row of updatedRows) {
+      const idx = finalQuestions.findIndex(q => q.id === row.id);
+      if (idx >= 0) finalQuestions[idx] = row;
+      else finalQuestions.push(row);
+    }
+    if (updatedRows.length > 0 || deletedIds.length > 0) {
+      if (deletedIds.length > 0) await deleteQuestionsFromCache(deletedIds);
+      if (updatedRows.length > 0) await saveQuestionsToCache(updatedRows);
+      localStorage.setItem('questions_last_sync', new Date().toISOString());
+    }
+    return finalQuestions.sort((a, b) => a.id.localeCompare(b.id));
+  } catch (err) {
+    console.error('Delta sync failed, returning cache:', err);
+    return cached;
+  }
+}
+
+async function fetchAllQuestions(flaggedOnly: boolean): Promise<QuestionRow[]> {
   async function fetchPage(from: number): Promise<{ rows: QuestionRow[]; full: boolean }> {
     return withRetry(async () => {
       let q = supabase
@@ -77,42 +301,51 @@ export async function fetchQuestions(flaggedOnly = false): Promise<QuestionRow[]
         .select(SELECT_COLS)
         .order('id', { ascending: true })
         .range(from, from + PAGE_SIZE - 1);
-
-      if (flaggedOnly) {
-        q = q.eq('quality_flag', 'kavramsal_kopya');
-      } else {
-        // is.null + eq. çalışır; not.in. içindeki .or() broken (bkz. CLAUDE.md §8)
-        q = q.or('quality_flag.is.null,quality_flag.eq.reviewed_keep');
-      }
-
+      if (flaggedOnly) q = q.eq('quality_flag', 'kavramsal_kopya');
+      else q = q.or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield');
       const { data, error } = await q;
       if (error) throw new Error(error.message);
-
       const rows = ((data ?? []) as QuestionRow[]).filter(
         r => flaggedOnly || !EXCLUDED_FLAGS.has(r.quality_flag ?? '')
       );
       return { rows, full: (data?.length ?? 0) === PAGE_SIZE };
     });
   }
-
   const all: QuestionRow[] = [];
   let from = 0;
-
   while (true) {
-    const [p1, p2] = await Promise.all([
-      fetchPage(from),
-      fetchPage(from + PAGE_SIZE),
-    ]);
-
+    const [p1, p2] = await Promise.all([fetchPage(from), fetchPage(from + PAGE_SIZE)]);
     all.push(...p1.rows);
     if (!p1.full) break;
-
     all.push(...p2.rows);
     if (!p2.full) break;
-
     from += 2 * PAGE_SIZE;
   }
+  return all;
+}
 
+/**
+ * High-yield soruları on-demand çeker ve IndexedDB contentCache'e ekler.
+ * fetchSkeletons() çalıştıktan sonra high_yield iskeletleri zaten gelmiş olur;
+ * bu fonksiyon tam metinleri çeker.
+ */
+export async function fetchHighYieldQuestions(): Promise<QuestionRow[]> {
+  const all: QuestionRow[] = [];
+  let from = 0;
+  while (true) {
+    const { data, error } = await supabase
+      .from('questions')
+      .select(SELECT_COLS)
+      .eq('quality_flag', 'high_yield')
+      .order('id', { ascending: true })
+      .range(from, from + PAGE_SIZE - 1);
+    if (error) throw new Error(error.message);
+    const rows = (data ?? []) as QuestionRow[];
+    all.push(...rows);
+    if (rows.length < PAGE_SIZE) break;
+    from += PAGE_SIZE;
+  }
+  if (all.length > 0) await saveQuestionsToContentCache(all);
   return all;
 }
 

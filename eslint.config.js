@@ -26,6 +26,21 @@ export default defineConfig([
         'error',
         { argsIgnorePattern: '^_', varsIgnorePattern: '^_', caughtErrorsIgnorePattern: '^_' },
       ],
+      // React Compiler (eslint-plugin-react-hooks v7) opt-in kuralları. Proje
+      // React Compiler kullanmıyor (vite'da babel-plugin yok); bu pattern'ler
+      // çalışan kod — runtime hatası değil. Bilgi amaçlı `warn`.
+      'react-hooks/set-state-in-effect': 'warn',
+      'react-hooks/refs': 'warn',
+      'react-hooks/purity': 'warn',
+      // d3 selection/datum tipleri için `any` pratik gereklilik (grafik katmanı).
+      '@typescript-eslint/no-explicit-any': 'warn',
+    },
+  },
+  {
+    // Test mock'ları dinamik tiplidir (Supabase chain stub'ları); `any` burada meşru.
+    files: ['**/*.test.{ts,tsx}', '**/__tests__/**/*.{ts,tsx}'],
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
     },
   },
 ])

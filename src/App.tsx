@@ -1,27 +1,28 @@
 import { useState, useEffect, useCallback } from 'react';
-import { importQuestions, deleteQuestionsInLesson, deleteQuestionsInUnit, renameLesson, renameUnit, loadTodaysDailyExam, markDailyExamCompleted, saveExamAnswers, uploadQuestionImage, deleteQuestionImage, type DailyExamRow } from './lib/supabase';
+import { importQuestions, fetchQuestionsByIds, deleteQuestionsInLesson, deleteQuestionsInUnit, renameLesson, renameUnit, loadTodaysDailyExam, markDailyExamCompleted, saveExamAnswers, uploadQuestionImage, deleteQuestionImage, rowToQuestion, type DailyExamRow } from './lib/supabase';
 import { useQuestions } from './hooks/useQuestions';
 import { motion } from 'framer-motion';
 import { useResumableSession } from './hooks/useResumableSession';
 import { useAuth } from './hooks/useAuth';
 import { useRealtimeStats } from './hooks/useRealtimeStats';
 import { AuthModal } from './components/AuthModal';
-import type { Question } from './data';
-import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadAllStats, getDeviceId, resetAllStats, setSyncUserId, mergeWrongChoices, SyncManager, getRecentActivity } from './lib/stats';
+import type { Question, QuestionSkeleton } from './data';
+import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadAllStats, getDeviceId, resetAllStats, setSyncUserId, mergeWrongChoices, SyncManager, getRecentActivity, setupSyncHandlers } from './lib/stats';
 import ErrorAnalyticsView from './components/ErrorAnalyticsView';
 import SimulationResultView from './components/SimulationResultView';
 import StatisticsView from './components/StatisticsView';
 import type { AnswerDetail as SimAnswerDetail } from './components/SimulationResultView';
 import DailyPlanView from './components/DailyPlanView';
 import { SourceBooksView } from './components/SourceBooksView';
+import { AddQuestionView } from './components/admin/AddQuestionView';
 import { buildSmartQueue, buildUnitQueue, buildExamPool, buildSimulationPool } from './lib/adaptive';
 import {
   CheckCircle, XCircle, ArrowRight, ArrowLeft, ArrowCounterClockwise, BookOpen,
   CaretRight, CaretLeft, ArrowsClockwise, SquaresFour,
-  Upload, Download, WarningCircle, CircleNotch, Trash, PencilSimple, Star,
+  Upload, Download, WarningCircle, CircleNotch, Trash, PencilSimple, Star, Plus,
   Warning, FileText, Gear, ChartBar, Lightning, Brain, Target, Calendar,
   UserCircle, Skull, Microscope, Heartbeat, PaintBrush, Syringe, Hourglass, Stack, ClipboardText,
-  Image, X as XIcon
+  Image, X as XIcon, Link
 } from '@phosphor-icons/react';
 import { fisherYates } from './lib/shuffle';
 import { todayStr } from './lib/dateUtils';
@@ -102,19 +103,30 @@ export default function App() {
   const [examQuestions, setExamQuestions] = useState<Question[]>([]);
   const [unitQuestions, setUnitQuestions] = useState<Question[]>([]);
   const [isFavoritesExam, setIsFavoritesExam] = useState(false);
+  const [isHighYieldMode, setIsHighYieldMode] = useState(false);
+  const [hyLoading, setHyLoading] = useState(false);
   const [examLoading, setExamLoading] = useState(false);
   const [quizStats, setQuizStats] = useState<QuizStatsType>({ correct: 0, incorrect: 0, blank: 0, total: 0, details: [] });
   const {
-    questions,
+    questions: rawQuestions,
     setQuestions,
     loading,
     loadError,
     reload: loadQuestions,
+    loadHighYield,
     updateQuestion: updateQuestionInHook,
     deleteQuestion: deleteQuestionInHook,
     toggleFavorite: toggleFavoriteInHook,
     flagQuestion: flagQuestionInHook,
   } = useQuestions();
+
+  // `questions` — ders kartı, istatistik ve adaptif motor için kullanılan QuestionSkeleton dizisi.
+  // Bileşen prop tipleriyle uyum için Question[] olarak cast edilir; kullanılan alanlar
+  // (id, lesson, unit, quality_flag, is_favorite) her iki tipte de mevcut.
+  const questions = rawQuestions as unknown as Question[];
+
+  // Sınav soruları on-demand yüklenirken gösterilecek loading state
+  const [contentLoading, setContentLoading] = useState(false);
 
   // useAuth önce — useResumableSession'a userId geçmek için
   const { user, signOut } = useAuth();
@@ -125,7 +137,7 @@ export default function App() {
     clearResumableSession,
     saveResumableSession,
     sessionSaveError,
-  } = useResumableSession(user?.id, questions);
+  } = useResumableSession(user?.id, questions as unknown as any[]);
   const [simTotalSeconds, setSimTotalSeconds] = useState<number | null>(null);
 
   // High fidelity mock data for ?preview=sim
@@ -247,14 +259,24 @@ export default function App() {
     loadQuestions();
   }, [loadQuestions]);
 
+  // B1: visibilitychange (sekme kapanınca anında flush) ve online (ağ geri gelince retry)
+  // dinleyicilerini kurar. Cleanup React unmount'ta otomatik çalışır.
+  useEffect(() => setupSyncHandlers(), []);
+
   // userId değişiminde sync sistemine bildir (tüm push/pull işlemleri user bazlı olur)
   useEffect(() => {
     setSyncUserId(user?.id ?? null);
-    // Giriş yapıldığında cloud'dan güncel veriyi çek (merge sonrası localStorage'ı tazele)
     if (user) {
-      syncStatsDown()
-        .then(() => setStatsVersion(v => v + 1))
-        .catch(() => {});
+      // B4: Anonim oturumda çözülen sorular user_id'siz cloud'a yazılır.
+      // Giriş anında ÖNCE local'i user_id'li olarak push edip sahiplen,
+      // SONRA cloud'dan çek — böylece anonim dönem verisi kaybolmaz.
+      syncStatsUp()
+        .catch(() => {})
+        .finally(() => {
+          syncStatsDown()
+            .then(() => setStatsVersion(v => v + 1))
+            .catch(() => {});
+        });
     }
   }, [user]);
 
@@ -394,6 +416,8 @@ export default function App() {
         console.error('[Sync] Push hataları:', pushResult.errors);
       }
       await syncStatsDown();
+      // Soru havuzunu da tazele — yeni eklenen/silinen sorular UI'a yansısın
+      await loadQuestions(true);
       setStatsVersion(v => v + 1);
       setSyncStatus('done');
       setTimeout(() => setSyncStatus('idle'), 2500);
@@ -414,7 +438,7 @@ export default function App() {
     setAppState('simulation-setup');
   };
 
-  const handleDailyExamStart = () => {
+  const handleDailyExamStart = async () => {
     if (isSessionLoading) {
       showAlert('Oturum bilgisi yükleniyor, lütfen bekleyin...', 'Bilgi');
       return;
@@ -433,16 +457,25 @@ export default function App() {
     }
 
     const idSet = new Set(exam.question_ids);
-    const dailyQs = questions.filter(q => idSet.has(q.id));
-    if (dailyQs.length === 0) {
-      showAlert('Bugüne ait günlük deneme sınavı soruları henüz yüklenemedi. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.', 'Bilgi');
-      return;
+    // Sınav sorularını on-demand çek (contentCache veya Supabase)
+    try {
+      setContentLoading(true);
+      const dailyRows = await fetchQuestionsByIds(exam.question_ids);
+      const dailyQs = dailyRows.map(rowToQuestion).filter(q => idSet.has(q.id));
+      if (dailyQs.length === 0) {
+        showAlert('Bugüne ait günlük deneme sınavı soruları henüz yüklenemedi. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.', 'Bilgi');
+        return;
+      }
+      setExamQuestions(dailyQs);
+      setMode('exam');
+      setIsDailyExamSession(true);
+      setActiveDailyExamId(exam.id);
+      setAppState('quiz');
+    } catch (e) {
+      showAlert('Sorular yüklenemedi: ' + errMsg(e), 'Hata');
+    } finally {
+      setContentLoading(false);
     }
-    setExamQuestions(dailyQs);
-    setMode('exam');
-    setIsDailyExamSession(true);
-    setActiveDailyExamId(exam.id);
-    setAppState('quiz');
   };
 
   const handleResetStats = async () => {
@@ -462,13 +495,24 @@ export default function App() {
   const handleLessonSelect = (lesson: string) => { setSelectedLesson(lesson); setAppState('select-unit'); };
   const handleUnitSelect = async (unit: string) => {
     setSelectedUnit(unit);
-    const allStats = loadAllStats();
-    const unitQs = questions.filter(q => q.unit === unit && q.lesson === selectedLesson);
-    const unseen = fisherYates(unitQs.filter(q => !allStats[q.id] || allStats[q.id].attempts === 0));
-    const seen   = fisherYates(unitQs.filter(q => allStats[q.id] && allStats[q.id].attempts > 0));
-    setUnitQuestions([...unseen, ...seen]);
-    setMode('quiz');
-    setAppState('quiz');
+    // Skeleton'dan ID'leri al, tam metni on-demand çek
+    const unitSkeletons = questions.filter(q => q.unit === unit && q.lesson === selectedLesson);
+    try {
+      setContentLoading(true);
+      const ids = unitSkeletons.map(s => s.id);
+      const rows = await fetchQuestionsByIds(ids);
+      const fullQs = rows.map(rowToQuestion);
+      const allStats = loadAllStats();
+      const unseen = fisherYates(fullQs.filter(q => !allStats[q.id] || allStats[q.id].attempts === 0));
+      const seen   = fisherYates(fullQs.filter(q => allStats[q.id] && allStats[q.id].attempts > 0));
+      setUnitQuestions([...unseen, ...seen]);
+      setMode('quiz');
+      setAppState('quiz');
+    } catch (e) {
+      showAlert('Sorular yüklenemedi: ' + errMsg(e), 'Hata');
+    } finally {
+      setContentLoading(false);
+    }
   };
 
   const handleComplete = (answers: AnswerDetail[]) => {
@@ -489,7 +533,17 @@ export default function App() {
       setActiveDailyExamId(undefined);
     }
   };
-  const handleReturnToHome = () => { setIsDailyExamSession(false); setActiveDailyExamId(undefined); setAppState('select-lesson'); setSelectedLesson(''); setSelectedUnit(''); setMode('quiz'); setUnitQuestions([]); };
+  const handleReturnToHome = () => {
+    SyncManager.flush().catch(() => {});
+    setIsDailyExamSession(false);
+    setActiveDailyExamId(undefined);
+    setAppState('select-lesson');
+    setSelectedLesson('');
+    setSelectedUnit('');
+    setMode('quiz');
+    setUnitQuestions([]);
+    setIsHighYieldMode(false);
+  };
 
 
   const handleExportPDF = (selection: Question[], title: string) => {
@@ -604,16 +658,30 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
   };
 
 
-  const handleWeakQuestionsClick = () => {
+  const handleWeakQuestionsClick = async () => {
     const weakIds = getWeakQuestionIds();
-    const weakQs = questions.filter(q => weakIds.includes(q.id));
-    if (weakQs.length === 0) {
+    if (weakIds.length === 0) {
       showAlert('Henüz zayıf soru bulunamadı. En az 2 kez çözülmüş ve %50 altı doğru oranlı sorular burada görünecek.', 'Bilgi');
       return;
     }
-    setExamQuestions(fisherYates(weakQs));
-    setMode('exam');
-    setAppState('quiz');
+    // Skeleton'da mevcut olanlarla kesiştir (deleted olabilir)
+    const validIds = weakIds.filter(id => questions.some(s => s.id === id));
+    if (validIds.length === 0) {
+      showAlert('Zayıf soru bulunamadı.', 'Bilgi');
+      return;
+    }
+    try {
+      setContentLoading(true);
+      const rows = await fetchQuestionsByIds(validIds);
+      const weakQs = rows.map(rowToQuestion);
+      setExamQuestions(fisherYates(weakQs));
+      setMode('exam');
+      setAppState('quiz');
+    } catch (e) {
+      showAlert('Sorular yüklenemedi: ' + errMsg(e), 'Hata');
+    } finally {
+      setContentLoading(false);
+    }
   };
 
   const handleRetryIncorrect = (incorrectDetails: AnswerDetail[]) => {
@@ -625,18 +693,22 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
   const handleGoBack = useCallback(() => {
     switch (appState) {
-      case 'quiz':
+      case 'quiz': {
+        SyncManager.flush().catch(() => {});  // quiz ortasında çıkışta pending sync'i gönder
         setUnitQuestions([]);
         setIsDailyExamSession(false);
         setActiveDailyExamId(undefined);
-        setAppState(mode === 'exam' ? 'select-lesson' : 'select-unit');
+        const backTarget = isHighYieldMode ? 'select-highyield-unit' : mode === 'exam' ? 'select-lesson' : 'select-unit';
+        setIsHighYieldMode(false);
+        setAppState(backTarget);
         break;
+      }
       case 'select-unit':
+      case 'select-highyield-unit':
       case 'select-deneme':
       case 'select-favorites':
       case 'weak-questions':
       case 'analytics':
-      case 'due-review':
       case 'import':
       case 'result':
       case 'error-analysis':
@@ -644,6 +716,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
       case 'simulation-result':
       case 'smart-study':
       case 'daily-plan':
+        setIsHighYieldMode(false);
         setAppState('select-lesson');
         break;
       case 'select-deneme-amount':
@@ -680,16 +753,21 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
     URL.revokeObjectURL(url);
   };
 
-  const handleStartExam = (amount: number) => {
+  const handleStartExam = async (amount: number) => {
     setExamLoading(true);
     try {
-      const pool = buildExamPool(
-        questions,
+      // buildExamPool skeleton (QuestionSkeleton[]) ile çalışır — sadece id/lesson/unit kullanır
+      const skeletonPool = buildExamPool(
+        questions as any, // QuestionSkeleton[] → Question[] (id/lesson/unit alanları uyumlu)
         examUnits,
         loadAllStats(),
         amount,
-        isFavoritesExam ? (q: Question) => !!q.is_favorite : undefined,
+        isFavoritesExam ? (q: QuestionSkeleton) => !!q.is_favorite : undefined,
       );
+      // Sadece seçilen N sorunun tam metni on-demand çekiliyor
+      const ids = skeletonPool.map((s: QuestionSkeleton) => s.id);
+      const rows = await fetchQuestionsByIds(ids);
+      const pool = ids.map(id => rows.find(r => r.id === id)).filter(Boolean).map(r => rowToQuestion(r!));
       setExamQuestions(pool);
       setMode('exam');
       setAppState('quiz');
@@ -722,6 +800,18 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
             <div className="flex flex-col items-center gap-1.5 animate-pulse mt-4">
               <span className="text-white text-lg font-black tracking-widest uppercase">DUSBANKASI</span>
               <span className="text-zinc-400 text-xs font-semibold font-medium">Sistem ve sorular hazırlanıyor...</span>
+            </div>
+          </div>
+        </div>
+      )}
+      {/* On-demand soru yüklenirken mini overlay */}
+      {contentLoading && (
+        <div className="fixed inset-0 z-[9998] bg-black/40 backdrop-blur-sm flex items-center justify-center">
+          <div className={`${theme.card} rounded-2xl px-8 py-6 flex flex-col items-center gap-4 shadow-2xl border border-indigo-500/20`}>
+            <CircleNotch size={36} weight="thin" className="animate-spin text-indigo-400" />
+            <div className="flex flex-col items-center gap-1">
+              <span className="text-sm font-bold">Sorular hazırlanıyor</span>
+              <span className={`${theme.subtext} text-xs`}>İçerik önbellekten veya ağdan yükleniyor…</span>
             </div>
           </div>
         </div>
@@ -787,6 +877,11 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                 <CaretLeft size={14} weight="thin" /> Dersler
               </button>
             )}
+            {appState === 'select-highyield-unit' && (
+              <button onClick={() => { setIsHighYieldMode(false); setAppState('select-lesson'); }} className="btn btn-secondary btn-sm ml-1">
+                <CaretLeft size={14} weight="thin" /> Ana Menü
+              </button>
+            )}
           </div>
         </div>
       </header>
@@ -795,6 +890,8 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
         <div className="min-h-full py-5 flex flex-col">
           {appState === 'import' ? (
             <ImportView onDone={handleImportDone} theme={theme} />
+          ) : appState === 'add-question' ? (
+            <AddQuestionView questions={questions} onDone={handleImportDone} theme={theme} />
           ) : loading ? (
             <div className="flex-1 flex items-center justify-center flex-col gap-4">
               <div className="relative">
@@ -814,30 +911,53 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               <button onClick={() => loadQuestions()} className="btn btn-secondary btn-sm mt-2">Tekrar Dene</button>
             </div>
           ) : appState === 'analytics' ? (
-            <StatisticsView key={statsVersion} questions={questions} theme={theme} />
+            // A1: high-yield sorular ayrı on-demand modunda — normal bankTotal hesabını
+            // bozmamak için istatistik ekranlarına high-yield dışı soru listesi gönderilir.
+            <StatisticsView key={statsVersion} questions={questions.filter(q => q.quality_flag !== 'high_yield')} theme={theme} />
           ) : appState === 'error-analysis' ? (
           <ErrorAnalyticsView
             key={statsVersion}
-            questions={questions}
+            questions={questions.filter(q => q.quality_flag !== 'high_yield')}
             stats={loadAllStats()}
-            onStartWeakUnit={(lesson, unit) => {
-              setSelectedLesson(lesson);
-              setSelectedUnit(unit);
-              setUnitQuestions(questions.filter(q => q.unit === unit && q.lesson === lesson));
-              setMode('quiz');
-              setAppState('quiz');
+            onStartWeakUnit={async (lesson, unit) => {
+              const unitSkeletons = questions.filter(q => q.unit === unit && q.lesson === lesson);
+              try {
+                setContentLoading(true);
+                const rows = await fetchQuestionsByIds(unitSkeletons.map(s => s.id));
+                setSelectedLesson(lesson);
+                setSelectedUnit(unit);
+                setUnitQuestions(rows.map(rowToQuestion));
+                setMode('quiz');
+                setAppState('quiz');
+              } catch (e) {
+                showAlert('Sorular yüklenemedi: ' + errMsg(e), 'Hata');
+              } finally {
+                setContentLoading(false);
+              }
             }}
             theme={theme}
           />
           ) : appState === 'simulation-setup' ? (
             <SimulationSetup
               questions={questions}
-              onStart={(qs, totalSecs) => {
-                setExamQuestions(qs);
-                setMode('exam');
-                setSimResult(null);
-                setSimTotalSeconds(totalSecs);
-                setAppState('quiz');
+              onStart={async (qs, totalSecs) => {
+                // qs: buildSimulationPool'un döndürdüğü Question[] (skeleton cast ile geldi)
+                // On-demand: sadece seçilen soruların tam metnini çek
+                try {
+                  setContentLoading(true);
+                  const ids = qs.map(q => q.id);
+                  const rows = await fetchQuestionsByIds(ids);
+                  const fullQs = ids.map(id => rows.find(r => r.id === id)).filter(Boolean).map(r => rowToQuestion(r!));
+                  setExamQuestions(fullQs);
+                  setMode('exam');
+                  setSimResult(null);
+                  setSimTotalSeconds(totalSecs);
+                  setAppState('quiz');
+                } catch (e) {
+                  showAlert('Simülasyon soruları yüklenemedi: ' + errMsg(e), 'Hata');
+                } finally {
+                  setContentLoading(false);
+                }
               }}
               onCancel={() => setAppState('select-lesson')}
               theme={theme}
@@ -895,13 +1015,79 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                     : undefined,
                 }
               }
-              onSmartStudyClick={() => {
-                const queue = buildSmartQueue(questions, loadAllStats(), { limit: 40 });
-                setExamQuestions(queue.questions);
-                setMode('exam');
-                setAppState('smart-study');
+              onSmartStudyClick={async () => {
+                try {
+                  setContentLoading(true);
+                  const queue = buildSmartQueue(questions as any, loadAllStats(), { limit: 40 });
+                  const ids = queue.questions.map((s: QuestionSkeleton) => s.id);
+                  const rows = await fetchQuestionsByIds(ids);
+                  const fullQs = ids.map(id => rows.find(r => r.id === id)).filter(Boolean).map(r => rowToQuestion(r!));
+                  setExamQuestions(fullQs);
+                  setMode('exam');
+                  setAppState('smart-study');
+                } catch (e) {
+                  showAlert('Akıllı çalışma soruları yüklenemedi: ' + errMsg(e), 'Hata');
+                } finally {
+                  setContentLoading(false);
+                }
               }}
+              onHighYieldClick={async () => {
+                if (hyLoading) return;
+                const existing = questions.filter(q => q.quality_flag === 'high_yield');
+                if (existing.length > 0) {
+                  setIsHighYieldMode(true);
+                  setAppState('select-highyield-unit');
+                  return;
+                }
+                setHyLoading(true);
+                try {
+                  await loadHighYield();
+                  setIsHighYieldMode(true);
+                  setAppState('select-highyield-unit');
+                } catch {
+                  showAlert('High-yield sorular yüklenemedi. İnternet bağlantınızı kontrol edin.', 'Hata');
+                } finally {
+                  setHyLoading(false);
+                }
+              }}
+              highYieldCount={questions.filter(q => q.quality_flag === 'high_yield').length}
+              hyLoading={hyLoading}
               theme={theme}
+            />
+          ) : appState === 'select-highyield-unit' ? (
+            <HighYieldUnitSelection
+              questions={questions}
+              theme={theme}
+              onSelect={async (lesson, unit) => {
+                const hySkeletons = questions.filter(q => q.quality_flag === 'high_yield' && q.lesson === lesson && q.unit === unit);
+                try {
+                  setContentLoading(true);
+                  const rows = await fetchQuestionsByIds(hySkeletons.map(s => s.id));
+                  setSelectedUnit(unit);
+                  setExamQuestions(fisherYates(rows.map(rowToQuestion)));
+                  setMode('exam');
+                  setAppState('quiz');
+                } catch (e) {
+                  showAlert('High-yield sorular yüklenemedi: ' + errMsg(e), 'Hata');
+                } finally {
+                  setContentLoading(false);
+                }
+              }}
+              onSelectAll={async () => {
+                const hySkeletons = questions.filter(q => q.quality_flag === 'high_yield');
+                try {
+                  setContentLoading(true);
+                  const rows = await fetchQuestionsByIds(hySkeletons.map(s => s.id));
+                  setSelectedUnit('Tümü');
+                  setExamQuestions(fisherYates(rows.map(rowToQuestion)));
+                  setMode('exam');
+                  setAppState('quiz');
+                } catch (e) {
+                  showAlert('High-yield sorular yüklenemedi: ' + errMsg(e), 'Hata');
+                } finally {
+                  setContentLoading(false);
+                }
+              }}
             />
           ) : appState === 'source-books' ? (
             <SourceBooksView questions={questions} onBack={() => setAppState('select-lesson')} theme={theme} />
@@ -925,7 +1111,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
           ) : appState === 'quiz' ? (
             <QuizView
               mode={mode}
-              unit={mode === 'exam' ? (simTotalSeconds ? 'DUS Simülasyonu' : 'Deneme Sınavı') : selectedUnit}
+              unit={isHighYieldMode ? `High-Yield — ${selectedUnit}` : mode === 'exam' ? (simTotalSeconds ? 'DUS Simülasyonu' : 'Deneme Sınavı') : selectedUnit}
               questions={activeQuestions}
               initialSession={mode === 'exam' ? resumeSessionData : null}
               onComplete={handleComplete}
@@ -1001,7 +1187,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
       {editingQuestion && <EditModal question={editingQuestion} onSave={handleSaveEdit} onClose={() => setEditingQuestion(null)} theme={theme} />}
       {reportingQuestion && <ReportModal questionId={reportingQuestion.id} onSave={handleSaveReport} onClose={() => setReportingQuestion(null)} theme={theme} />}
-      {showSettings && <SettingsModal settings={settings} setSettings={setSettings} onClose={() => setShowSettings(false)} theme={theme} onExport={handleExport} onImport={() => { setAppState('import'); setShowSettings(false); }} onSourceBooks={() => { setAppState('source-books'); setShowSettings(false); }} onResetStats={handleResetStats} />}
+      {showSettings && <SettingsModal settings={settings} setSettings={setSettings} onClose={() => setShowSettings(false)} theme={theme} onExport={handleExport} onImport={() => { setAppState('import'); setShowSettings(false); }} onAddQuestion={() => { setAppState('add-question'); setShowSettings(false); }} onSourceBooks={() => { setAppState('source-books'); setShowSettings(false); }} onResetStats={handleResetStats} />}
       {showAuth && <AuthModal user={user} onClose={() => setShowAuth(false)} onSignOut={signOut} theme={theme} />}
       
       {dialog && (
@@ -1052,7 +1238,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
 type DailyExamStatus = 'loading' | 'no-user' | 'not-ready' | { dayNumber: number; questionCount: number; resumeAt?: number };
 
-function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; theme: Theme }) {
+function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onHighYieldClick, highYieldCount, hyLoading, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onHighYieldClick: () => void; highYieldCount: number; hyLoading?: boolean; theme: Theme }) {
   return (
     <div className="anim-slide-up w-full">
       <div className="mb-10 pl-2">
@@ -1182,6 +1368,22 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
              <div className={`${theme.subtext} text-[10px]`}>Motor destekli seçim</div>
           </button>
 
+          <button onClick={onHighYieldClick} disabled={hyLoading} className={`stagger-item col-span-1 md:col-span-2 lg:col-span-2 ${theme.cardGlass} rounded-[1.5rem] p-5 text-left card-hover group border border-fuchsia-500/10 hover:border-fuchsia-500/30 transition-all disabled:opacity-70 disabled:cursor-wait`}>
+             <div className="flex justify-between items-center mb-3">
+               <div className="w-10 h-10 rounded-xl bg-fuchsia-500/10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                 {hyLoading
+                   ? <CircleNotch size={20} className="text-fuchsia-400 animate-spin" />
+                   : <Lightning size={20} weight="fill" className="text-fuchsia-400" />
+                 }
+               </div>
+               {highYieldCount > 0 && (
+                 <span className="text-2xl font-black text-fuchsia-400">{highYieldCount}</span>
+               )}
+             </div>
+             <div className="text-sm font-bold mb-0.5">High-Yield</div>
+             <div className={`${theme.subtext} text-[10px]`}>{hyLoading ? 'Sorular yükleniyor…' : 'En iyi sorularla çalış'}</div>
+          </button>
+
           <button onClick={onSimulationClick} className={`stagger-item col-span-1 md:col-span-2 lg:col-span-2 ${theme.cardGlass} rounded-[1.5rem] p-5 text-left card-hover group border border-sky-500/10 hover:border-sky-500/30 transition-all`}>
             <div className="flex justify-between items-center mb-3">
               <div className="w-10 h-10 rounded-xl bg-sky-500/10 flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -1250,7 +1452,8 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
               const isFiz = lesson.toLowerCase().includes('fizyoloji');
               const isPer = lesson.toLowerCase().includes('periodontoloji');
               const isEnd = lesson.toLowerCase().includes('endodonti');
-              const IconComp = isRad ? Lightning : isPat ? Skull : isPro ? Stack : isHis ? Microscope : isFiz ? Heartbeat : isPer ? PaintBrush : isEnd ? Syringe : SquaresFour;
+              const isOrt = lesson.toLowerCase().includes('ortodonti');
+              const IconComp = isRad ? Lightning : isPat ? Skull : isPro ? Stack : isHis ? Microscope : isFiz ? Heartbeat : isPer ? PaintBrush : isEnd ? Syringe : isOrt ? Link : SquaresFour;
 
               return (
                 <div key={lesson} onClick={() => onSelect(lesson)} className={`stagger-item cursor-pointer group relative flex flex-col items-start p-6 ${theme.cardSolid} ${theme.cardHover} rounded-[1.5rem] transition-all overflow-hidden text-left border border-transparent hover:border-indigo-500/30`}>
@@ -1280,6 +1483,67 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
           </div>
         </>
       )}
+    </div>
+  );
+}
+
+function HighYieldUnitSelection({ questions, theme, onSelect, onSelectAll }: {
+  questions: Question[];
+  theme: Theme;
+  onSelect: (lesson: string, unit: string) => void;
+  onSelectAll: () => void;
+}) {
+  const hyQs = questions.filter(q => q.quality_flag === 'high_yield');
+
+  const lessonMap = new Map<string, Map<string, number>>();
+  for (const q of hyQs) {
+    if (!lessonMap.has(q.lesson)) lessonMap.set(q.lesson, new Map());
+    const unitMap = lessonMap.get(q.lesson)!;
+    unitMap.set(q.unit, (unitMap.get(q.unit) || 0) + 1);
+  }
+  const lessons = Array.from(lessonMap.entries()).sort((a, b) => a[0].localeCompare(b[0], 'tr'));
+
+  return (
+    <div className="anim-slide-up max-w-2xl">
+      <div className="flex items-center justify-between mb-6">
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-xl bg-fuchsia-500/15 flex items-center justify-center">
+            <Star size={18} className="text-fuchsia-400" weight="fill" />
+          </div>
+          <div>
+            <h2 className="text-xl font-black tracking-tight">High-Yield Çalış</h2>
+            <p className={`${theme.subtext} text-xs font-medium`}>{hyQs.length} soru · {lessons.length} ders</p>
+          </div>
+        </div>
+        <button
+          onClick={onSelectAll}
+          className="btn btn-sm bg-fuchsia-500/15 text-fuchsia-400 border border-fuchsia-500/20 hover:bg-fuchsia-500/25 transition-colors"
+        >
+          <Star size={13} weight="fill" /> Tümünü Başlat
+        </button>
+      </div>
+
+      <div className="space-y-5 stagger-children">
+        {lessons.map(([lesson, unitMap]) => (
+          <div key={lesson} className="stagger-item">
+            <p className={`${theme.subtext} text-[10px] font-black uppercase tracking-widest mb-2 px-1`}>{lesson}</p>
+            <div className="space-y-1.5">
+              {Array.from(unitMap.entries())
+                .sort((a, b) => a[0].localeCompare(b[0], 'tr'))
+                .map(([unit, count]) => (
+                  <button
+                    key={unit}
+                    onClick={() => onSelect(lesson, unit)}
+                    className={`w-full flex items-center justify-between p-3.5 ${theme.card} ${theme.cardHover} rounded-2xl transition-all text-left group card-hover`}
+                  >
+                    <span className="text-sm font-bold group-hover:translate-x-0.5 transition-transform truncate pr-4">{unit}</span>
+                    <span className="badge bg-fuchsia-500/15 text-fuchsia-400 border border-fuchsia-500/20 shrink-0">{count} soru</span>
+                  </button>
+                ))}
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
@@ -1699,7 +1963,7 @@ function ImportView({ onDone, theme }: { onDone: () => void; theme: Theme }) {
   );
 }
 
-function SettingsModal({ settings, setSettings, onClose, theme, onExport, onImport, onSourceBooks, onResetStats }: { settings: UserSettings; setSettings: (next: UserSettings) => void; onClose: () => void; theme: Theme; onExport: () => void; onImport: () => void; onSourceBooks: () => void; onResetStats: () => void }) {
+function SettingsModal({ settings, setSettings, onClose, theme, onExport, onImport, onSourceBooks, onResetStats, onAddQuestion }: { settings: UserSettings; setSettings: (next: UserSettings) => void; onClose: () => void; theme: Theme; onExport: () => void; onImport: () => void; onSourceBooks: () => void; onResetStats: () => void; onAddQuestion: () => void }) {
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xl anim-fade-in">
       {/* AUDIT-02: max-h + overflow-y-auto — küçük ekranlarda modal içeriği scroll edilebilir */}
@@ -1737,6 +2001,7 @@ function SettingsModal({ settings, setSettings, onClose, theme, onExport, onImpo
               <button onClick={onExport} className={`flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold transition-colors ${theme.inputBg} hover:bg-white/10 ${theme.text}`}><Download size={14} />Yedekle</button>
               <button onClick={onImport} className={`flex items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold transition-colors ${theme.inputBg} hover:bg-white/10 ${theme.text}`}><Upload size={14} />İçe Aktar</button>
             </div>
+            <button onClick={onAddQuestion} className="flex w-full items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold mb-2 bg-emerald-500/10 text-emerald-400 hover:bg-emerald-500/20 transition-colors border border-emerald-500/20"><Plus size={14} />Soru Ekle</button>
             <button onClick={onSourceBooks} className="flex w-full items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold mb-2 bg-indigo-500/10 text-indigo-400 hover:bg-indigo-500/20 transition-colors border border-indigo-500/20"><BookOpen size={14} />AI Kaynak Kitaplar</button>
             <div className="mt-2">
               <button onClick={onResetStats} className="flex w-full items-center justify-center gap-2 py-2.5 rounded-xl text-xs font-bold bg-red-500/10 text-red-400 hover:bg-red-500/20 transition-colors border border-red-500/20"><ArrowCounterClockwise size={14} weight="thin" />İstatistik Sıfırla</button>

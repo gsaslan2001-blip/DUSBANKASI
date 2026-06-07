@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -17,7 +17,9 @@ interface Props {
 const MARGIN = 40;
 const LEVELS = 5;
 
-export default function RadarChart({ data, size = 280, color = '#818cf8', fillOpacity = 0.18 }: Props) {
+export default memo(RadarChart);
+
+function RadarChart({ data, size = 280, color = '#818cf8', fillOpacity = 0.18 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);

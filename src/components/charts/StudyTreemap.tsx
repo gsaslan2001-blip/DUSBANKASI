@@ -1,5 +1,5 @@
 
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -31,7 +31,9 @@ function lessonColor(name: string): string {
   return BASE_COLORS[name] ?? '#818cf8';
 }
 
-export default function StudyTreemap({ data, width = 600, height = 300, minOpacity = 0.35, maxOpacity = 0.85 }: Props) {
+export default memo(StudyTreemap);
+
+function StudyTreemap({ data, width = 600, height = 300, minOpacity = 0.35, maxOpacity = 0.85 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
@@ -61,13 +63,15 @@ export default function StudyTreemap({ data, width = 600, height = 300, minOpaci
     const { width: w, height: h } = dims;
     svg.attr('width', w).attr('height', h).attr('viewBox', `0 0 ${w} ${h}`);
 
-    const root = d3.treemap<any>()
+    const layout = d3.treemap<any>()
       .size([w, h])
       .padding(2)
-      .round(true)
-      (d3.hierarchy<any>({ children: data })
+      .round(true);
+    const root = layout(
+      d3.hierarchy<any>({ children: data })
         .sum((d: any) => d.value || 1)
-        .sort((a: any, b: any) => (b.value ?? 0) - (a.value ?? 0)));
+        .sort((a: any, b: any) => (b.value ?? 0) - (a.value ?? 0))
+    );
 
     const leaves = root.leaves();
 

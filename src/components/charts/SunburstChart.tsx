@@ -1,5 +1,5 @@
 
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -36,7 +36,9 @@ function getLessonColor(name: string): string {
   return LESSON_COLORS[name] ?? '#818cf8';
 }
 
-export default function SunburstChart({ data, size = 320 }: Props) {
+export default memo(SunburstChart);
+
+function SunburstChart({ data, size = 320 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);

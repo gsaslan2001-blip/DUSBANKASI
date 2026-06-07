@@ -1,5 +1,5 @@
 
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -17,7 +17,9 @@ const MARGIN = { top: 16, right: 12, bottom: 36, left: 40 };
 const BAR_WIDTH_RATIO = 0.55;
 const TOOLTIP_OFFSET = 10;
 
-export default function WaterfallChart({ data, height = 220 }: Props) {
+export default memo(WaterfallChart);
+
+function WaterfallChart({ data, height = 220 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);

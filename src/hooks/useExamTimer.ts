@@ -4,7 +4,6 @@ import type { Question } from '../data';
 
 export type UseExamTimerResult = {
   remainingSeconds: number;
-  startedAt: number;
 };
 
 /**
@@ -25,7 +24,9 @@ export function useExamTimer(
   initialRemainingSeconds?: number
 ): UseExamTimerResult {
   const [remainingSeconds, setRemainingSeconds] = useState(initialRemainingSeconds ?? totalSeconds ?? 0);
-  const simStartRef = useRef(Date.now());
+  // Render sırasında Date.now() çağrısı saf değildir (react-hooks/purity); gerçek
+  // başlangıç anı timer effect'inde, sayaç fiilen başladığında damgalanır.
+  const simStartRef = useRef(0);
 
   // Keep latest onExpire without re-running the interval effect
   const onExpireRef = useRef(onExpire);
@@ -36,6 +37,7 @@ export function useExamTimer(
 
   useEffect(() => {
     if (!totalSeconds || totalSeconds <= 0) return;
+    if (simStartRef.current === 0) simStartRef.current = Date.now();
     const tick = setInterval(() => {
       setRemainingSeconds(prev => {
         if (prev <= 1) {
@@ -55,5 +57,5 @@ export function useExamTimer(
     return () => clearInterval(tick);
   }, [totalSeconds, answersRef]);
 
-  return { remainingSeconds, startedAt: simStartRef.current };
+  return { remainingSeconds };
 }

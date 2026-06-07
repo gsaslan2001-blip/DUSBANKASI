@@ -1,5 +1,5 @@
 
-import { useRef, useEffect, useState } from 'react';
+import { memo, useRef, useEffect, useState } from 'react';
 
 interface Props {
   value: number;
@@ -13,7 +13,9 @@ const ARC_START = -135;
 const ARC_END = 135;
 const ARC_SPAN = ARC_END - ARC_START;
 
-export default function GaugeChart({ value, max, size = 180, color: _color = '#818cf8', label }: Props) {
+export default memo(GaugeChart);
+
+function GaugeChart({ value, max, size = 180, color: _color = '#818cf8', label }: Props) {
   const needleRef = useRef<SVGGElement>(null);
   const [displayValue, setDisplayValue] = useState(0);
 

@@ -60,9 +60,10 @@ export function useRealtimeStats({
   enabled = true,
 }: UseRealtimeStatsOptions): void {
   const channelRef = useRef<RealtimeChannel | null>(null);
-  // Stale closure önlemi — callback her render'da güncel kalır
+  // Stale closure önlemi — callback güncel kalır. Ref mutasyonu render'da değil
+  // effect'te yapılır (react-hooks/refs: render sırasında ref'e yazma yasak).
   const callbackRef = useRef(onStatUpdate);
-  callbackRef.current = onStatUpdate;
+  useEffect(() => { callbackRef.current = onStatUpdate; }, [onStatUpdate]);
   // Retry state — exponential backoff
   const retryCountRef = useRef(0);
   const retryTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);

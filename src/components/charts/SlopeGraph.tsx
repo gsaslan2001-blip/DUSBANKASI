@@ -1,4 +1,4 @@
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -41,7 +41,9 @@ function lessonColor(lesson: string): string {
   return LESSON_FILL_COLORS[lesson] ?? '#6b7280';
 }
 
-export default function SlopeGraph({ leftPeriod, rightPeriod, leftLabel = 'Geçen Ay', rightLabel = 'Bu Ay' }: Props) {
+export default memo(SlopeGraph);
+
+function SlopeGraph({ leftPeriod, rightPeriod, leftLabel = 'Geçen Ay', rightLabel = 'Bu Ay' }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);

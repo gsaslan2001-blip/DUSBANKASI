@@ -9,7 +9,6 @@
 
 import { useMemo, useState } from 'react';
 import { motion } from 'framer-motion';
-import { useSpring, animated } from 'react-spring';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import type { Question } from '../data';
@@ -27,9 +26,13 @@ import {
   type ActivityPoint,
 } from '../lib/stats';
 import {
+  computeMomentum, computeLessonConsistency, computePredictionBand,
+  type UnitAccuracy, type MomentumResult, type LessonConsistency,
+} from '../lib/metrics';
+import {
   BookOpen, TrendUp, Gauge, CheckCircle, XCircle,
   Crown, Flame, Trophy, Stack, Target, Crosshair, GitBranch,
-  Pulse, Clock, GitDiff,
+  Pulse, Clock, GitDiff, Rocket, Scales, ChartLineUp,
 } from '@phosphor-icons/react';
 import {
   DailyActivityChart, AnimatedCounter, CountSparkline, ContributionHeatMap,
@@ -75,14 +78,6 @@ function SectionTitle({ title, right, mb = 'mb-8', eyebrow }: { title: string; r
   );
 }
 
-function SpringNumber({ value }: { value: number }) {
-  const { number } = useSpring({
-    from: { number: 0 }, number: value, delay: 200,
-    config: { mass: 1, tension: 20, friction: 10 },
-  });
-  return <animated.span>{number.to((n) => Math.floor(n).toLocaleString('tr-TR'))}</animated.span>;
-}
-
 /* ─── KPI Big Card (Trend destekli) ─────────────────────────────────────── */
 
 function KpiCard({ theme, label, value, sub, icon, accentBorder, accentText, trend, className }: {
@@ -94,8 +89,7 @@ function KpiCard({ theme, label, value, sub, icon, accentBorder, accentText, tre
   return (
     <motion.div
       initial={{ opacity: 0, y: 16 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: '-60px' }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ type: 'spring', stiffness: 400, damping: 35 }}
       className={`relative ${theme.card} rounded-xl overflow-hidden group transition-all duration-300 ${className ?? ''}`}
     >
@@ -119,6 +113,90 @@ function KpiCard({ theme, label, value, sub, icon, accentBorder, accentText, tre
         </div>
       </div>
     </motion.div>
+  );
+}
+
+/* ─── FAZ 7.5 — İleri İçgörü Şeridi ─────────────────────────────────────── */
+
+const MOMENTUM_META: Record<MomentumResult['label'], { text: string; color: string; bg: string }> = {
+  accelerating: { text: 'Hızlanıyor', color: 'text-emerald-400', bg: 'bg-emerald-500/10 border-emerald-500/20' },
+  steady: { text: 'Sabit tempo', color: 'text-sky-400', bg: 'bg-sky-500/10 border-sky-500/20' },
+  slowing: { text: 'Yavaşlıyor', color: 'text-amber-400', bg: 'bg-amber-500/10 border-amber-500/20' },
+  idle: { text: 'Durağan', color: 'text-[#8b8b98]', bg: 'bg-white/[0.03] border-white/[0.06]' },
+};
+
+function InsightCard({ theme, icon, label, children, delay }: {
+  theme: Theme; icon: React.ReactNode; label: string; children: React.ReactNode; delay: number;
+}) {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 16 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ type: 'spring', stiffness: 400, damping: 35, delay }}
+      className={`${theme.card} rounded-xl p-5 flex flex-col gap-2`}
+    >
+      <div className="flex items-center gap-2">
+        <span className="text-indigo-400">{icon}</span>
+        <span className={`${theme.subtext} text-xs font-bold uppercase tracking-widest`}>{label}</span>
+      </div>
+      {children}
+    </motion.div>
+  );
+}
+
+function InsightStrip({ theme, momentum, leastConsistent, weeklyForecast, forecastConfidence, forecastDaily }: {
+  theme: Theme;
+  momentum: MomentumResult;
+  leastConsistent: LessonConsistency | null;
+  weeklyForecast: number;
+  forecastConfidence: number;
+  forecastDaily: number;
+}) {
+  const mm = MOMENTUM_META[momentum.label];
+  return (
+    <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+      {/* Momentum */}
+      <InsightCard theme={theme} icon={<Rocket size={16} weight="thin" />} label="Momentum" delay={0}>
+        <div className="flex items-baseline gap-2">
+          <span className={`text-3xl font-black leading-none ${mm.color}`}>
+            {momentum.score > 0 ? '+' : ''}{momentum.score}
+          </span>
+          <span className={`px-2 py-0.5 rounded-lg border text-[10px] font-bold ${mm.bg} ${mm.color}`}>{mm.text}</span>
+        </div>
+        <span className={`${theme.subtext} text-xs`}>
+          Hacim {momentum.recentAvg}/gün · Doğruluk %{momentum.recentAccuracy}
+          {momentum.accuracyDelta !== 0 && ` (${momentum.accuracyDelta > 0 ? '+' : ''}${momentum.accuracyDelta}p)`}
+        </span>
+      </InsightCard>
+
+      {/* Ders-içi tutarlılık */}
+      <InsightCard theme={theme} icon={<Scales size={16} weight="thin" />} label="En Dengesiz Ders" delay={0.05}>
+        {leastConsistent ? (
+          <>
+            <div className="flex items-baseline gap-2">
+              <span className="text-2xl font-black leading-none truncate">{leastConsistent.lesson}</span>
+            </div>
+            <span className={`${theme.subtext} text-xs`}>
+              Tutarlılık <span className={accColor(leastConsistent.consistency)}>%{leastConsistent.consistency}</span>
+              {' · '}ort. %{leastConsistent.meanAccuracy} · ±{leastConsistent.stdDev}
+            </span>
+          </>
+        ) : (
+          <span className={`${theme.subtext} text-sm`}>Yeterli ünite verisi yok</span>
+        )}
+      </InsightCard>
+
+      {/* 7 günlük tahmin */}
+      <InsightCard theme={theme} icon={<ChartLineUp size={16} weight="thin" />} label="7 Günlük Tahmin" delay={0.1}>
+        <div className="flex items-baseline gap-2">
+          <span className="text-3xl font-black leading-none text-indigo-400">{fmt(weeklyForecast)}</span>
+          <span className={`${theme.subtext} text-xs`}>soru</span>
+        </div>
+        <span className={`${theme.subtext} text-xs`}>
+          {forecastDaily}/gün eğilim · güven %{forecastConfidence}
+        </span>
+      </InsightCard>
+    </div>
   );
 }
 
@@ -270,6 +348,30 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
 
   const areaStreamData = useMemo(() => buildAreaStreamData(activity90), [activity90]);
 
+  // ─── Chart prop stabilizasyonu — inline .map() yerine memoize ────────────
+  // Bu diziler eskiden JSX'te inline üretiliyordu; her parent render'da yeni
+  // referans = React.memo'lu D3 chart'ların useEffect'i gereksiz yere redraw
+  // ediyordu (range/selectedDay değişiminde jank). Memoize → stabil props.
+  const dailyActivityData = useMemo(() =>
+    activity.map(a => ({ date: a.date, correct: a.correct, incorrect: a.incorrect })),
+  [activity]);
+
+  const trendLineData = useMemo(() =>
+    activity90.slice(-42).map(a => ({ date: a.date, correct: a.correct, incorrect: a.incorrect, total: a.count })),
+  [activity90]);
+
+  const heatMapData = useMemo(() =>
+    activity90.map(a => ({ date: a.date, count: a.count })),
+  [activity90]);
+
+  const sparklineData = useMemo(() =>
+    activity90.slice(-30).map(a => ({ date: a.date, count: a.count })),
+  [activity90]);
+
+  const weeklyCompareData = useMemo(() =>
+    activity90.slice(-14).map(a => ({ date: a.date, count: a.count, correct: a.correct, incorrect: a.incorrect })),
+  [activity90]);
+
   const parallelData = useMemo(() =>
     overview.byLesson.filter(l => l.solved > 0).slice(0, 8).map(l => ({
       lesson: l.lesson, difficulty: l.accuracy < 50 ? 8 : l.accuracy < 75 ? 5 : 3,
@@ -278,6 +380,33 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
   [overview]);
 
   const dailyGoal = 200;
+
+  // ─── FAZ 7.5 — Türetilmiş ileri metrikler (saf modül) ─────────────────
+  const unitAccuracyData = useMemo<UnitAccuracy[]>(() => {
+    const map = new Map<string, { lesson: string; corrects: number; attempts: number }>();
+    for (const q of questions) {
+      const s = stats[q.id];
+      if (!s || s.attempts === 0) continue;
+      const key = `${q.lesson}␟${q.unit}`;
+      const e = map.get(key) ?? { lesson: q.lesson, corrects: 0, attempts: 0 };
+      e.corrects += s.corrects; e.attempts += s.attempts;
+      map.set(key, e);
+    }
+    return Array.from(map.values()).map(e => ({
+      lesson: e.lesson,
+      accuracy: e.attempts > 0 ? Math.round((e.corrects / e.attempts) * 100) : 0,
+      attempts: e.attempts,
+    }));
+  }, [questions, stats]);
+
+  const momentum = useMemo(() => computeMomentum(activity90, 7), [activity90]);
+  const lessonConsistency = useMemo(() => computeLessonConsistency(unitAccuracyData), [unitAccuracyData]);
+  const predictionBand = useMemo(() => computePredictionBand(activity90, 7, 14), [activity90]);
+  const weeklyForecast = useMemo(
+    () => predictionBand.projection.reduce((s, p) => s + p.expected, 0),
+    [predictionBand],
+  );
+  const leastConsistent = lessonConsistency[0] ?? null;
 
   // ─── Collapsible section summary hesaplamaları ────────────────────────
   const improvingLessons = slopeData.right.filter(r => {
@@ -301,6 +430,16 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
 
       {/* A3: Alert Banner Row (en üstte — hemen dikkat çekmeli) */}
       <KpiAlertBanner alerts={alerts} />
+
+      {/* A4: İleri İçgörü Şeridi — Momentum · Tutarlılık · 7 Günlük Tahmin */}
+      <InsightStrip
+        theme={theme}
+        momentum={momentum}
+        leastConsistent={leastConsistent}
+        weeklyForecast={weeklyForecast}
+        forecastConfidence={predictionBand.confidence}
+        forecastDaily={predictionBand.dailyAverage}
+      />
 
       {/* A1: Big 4 Executive KPI Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -329,7 +468,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
 
       {/* A1b: İkincil KPI Kartları — Soru Bankası, Doğru, Yanlış, Rekor */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ type: 'spring', stiffness: 400, damping: 35 }}
+        <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 35 }}
           className={`relative ${theme.card} rounded-xl overflow-hidden group transition-all duration-300`}>
           <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-sky-400/50" />
           <div className="p-5 sm:p-6 pl-6">
@@ -342,14 +481,14 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
                 <CircularProgressbar value={overview.coverage} text={`${overview.coverage}%`}
                   styles={buildStyles({ pathColor: '#38bdf8', textColor: '#ececf1', trailColor: 'rgba(255,255,255,0.05)', textSize: '22px' })} />
               </div>
-              <div><div className="text-2xl sm:text-3xl font-black"><SpringNumber value={overview.bankTotal} /></div>
+              <div><div className="text-2xl sm:text-3xl font-black"><AnimatedCounter value={overview.bankTotal} /></div>
                 <div className={`${theme.subtext} text-[10px]`}>Toplam soru</div></div>
             </div>
             <div className="mt-3"><div className="flex justify-between text-[10px] mb-1"><span className={theme.subtext}>Kapsama Hedefi: %90</span><span className={theme.subtext}>%{Math.round((overview.coverage / 90) * 100)}</span></div>
               <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden"><div className="h-full bg-sky-400 rounded-full transition-all duration-1000" style={{ width: `${Math.min(100, Math.round((overview.coverage / 90) * 100))}%` }} /></div></div>
           </div>
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ type: 'spring', stiffness: 400, damping: 35, delay: 0.05 }}
+        <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 35, delay: 0.05 }}
           className={`relative ${theme.card} rounded-xl overflow-hidden group transition-all duration-300`}>
           <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-emerald-500/50" />
           <div className="p-5 sm:p-6 pl-6">
@@ -361,7 +500,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
             <div className="mt-2"><div className="h-1.5 w-full bg-white/5 rounded-full overflow-hidden"><div className="h-full bg-emerald-500 rounded-full transition-all duration-1000" style={{ width: `${overview.accuracy}%` }} /></div></div>
           </div>
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ type: 'spring', stiffness: 400, damping: 35, delay: 0.1 }}
+        <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 35, delay: 0.1 }}
           className={`relative ${theme.card} rounded-xl overflow-hidden group transition-all duration-300`}>
           <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-red-400/50" />
           <div className="p-5 sm:p-6 pl-6">
@@ -373,7 +512,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
             <span className={`${theme.subtext} text-[10px]`}>{fmt(overview.wrongEverUnique)} soru en az 1 kez yanlış</span>
           </div>
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-60px' }} transition={{ type: 'spring', stiffness: 400, damping: 35, delay: 0.15 }}
+        <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 35, delay: 0.15 }}
           className={`relative ${theme.card} rounded-xl overflow-hidden group transition-all duration-300`}>
           <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-rose-400/50" />
           <div className="p-5 sm:p-6 pl-6">
@@ -392,8 +531,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
       {/* A2: Quick Stats Strip */}
       <motion.div
         initial={{ opacity: 0, y: 8 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: '-60px' }}
+        animate={{ opacity: 1, y: 0 }}
         className={`${theme.card} rounded-xl px-5 py-3 flex flex-wrap items-center gap-x-6 gap-y-1.5 text-xs`}
       >
         <span className="font-bold">Bugün: <span className="text-indigo-400">{activitySummary.todayCount}</span> soru</span>
@@ -411,13 +549,13 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
 
       {/* A4: Hedef Ring + Kapsama Gauge + Radar */}
       <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-12 gap-4">
-        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl flex flex-col items-center justify-center md:col-span-1 lg:col-span-2`}>
+        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl flex flex-col items-center justify-center md:col-span-1 lg:col-span-2`}>
           <GoalRing value={activitySummary.todayCount} target={dailyGoal} label="Bugün" suffix="soru" />
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl flex flex-col items-center justify-center md:col-span-1 lg:col-span-2`}>
+        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl flex flex-col items-center justify-center md:col-span-1 lg:col-span-2`}>
           <GaugeChart value={overview.coverage} max={100} label="Kapsama" />
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl md:col-span-3 lg:col-span-8`}>
+        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl md:col-span-3 lg:col-span-8`}>
           <SectionTitle title="Ders Performans Radarı" eyebrow="Multi-Boyut" right={<Crosshair size={16} weight="thin" className="text-indigo-400" />} mb="mb-4" />
           <RadarChart data={radarData} size={220} />
         </motion.div>
@@ -428,7 +566,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
          ════════════════════════════════════════════════════════════════════ */}
 
       {/* Günlük Aktivite + Seçili Gün Detayı */}
-      <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl`}>
+      <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl`}>
         <SectionTitle title="Günlük Çözüm Aktivitesi" eyebrow="Aktivite"
           right={<div className="flex items-center gap-4 text-xs">
             <div className="flex items-center gap-1.5"><span className="w-3 h-3 rounded-sm bg-emerald-500" /><span className={theme.subtext}>Doğru</span></div>
@@ -438,7 +576,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
                 <button key={r} onClick={() => { setRange(r); setSelectedDay(null); }}
                   className={`px-2.5 py-1 rounded-lg transition-all ${range === r ? 'bg-indigo-500/20 text-indigo-300' : `${theme.subtext} hover:bg-white/[0.06]`}`}>{r}G</button>))}
             </div></div>} />
-        <DailyActivityChart data={activity.map(a => ({ date: a.date, correct: a.correct, incorrect: a.incorrect }))}
+        <DailyActivityChart data={dailyActivityData}
           onDaySelect={setSelectedDay} selectedDay={selectedDay} />
         {selectedDay && (() => {
           const selected = activity.find(a => a.date === selectedDay);
@@ -466,11 +604,11 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
 
       {/* Trend Çizgi + Fark */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
-        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl lg:col-span-7`}>
+        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl lg:col-span-7`}>
           <SectionTitle title="Çözüm Trendi" eyebrow="Trend" right={<Pulse size={16} weight="thin" className="text-indigo-400" />} />
-          <TrendLineChart data={activity90.slice(-42).map(a => ({ date: a.date, correct: a.correct, incorrect: a.incorrect, total: a.count }))} />
+          <TrendLineChart data={trendLineData} />
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl lg:col-span-5`}>
+        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl lg:col-span-5`}>
           <SectionTitle title="Hedef vs Gerçekleşen" eyebrow="Sapma" right={<Target size={16} weight="thin" className="text-rose-400" />} />
           <DifferenceChart data={diffData} />
         </motion.div>
@@ -478,13 +616,13 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
 
       {/* Heatmap + Özet (Tactical seviyesinde önemli) */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
-        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl lg:col-span-8`}>
+        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl lg:col-span-8`}>
           <SectionTitle title="Aktivite Yoğunluğu" eyebrow="Heatmap" mb="mb-6"
             right={<div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-wider" style={{ color: '#8b8b98' }}>
               <span>AZ</span><div className="flex gap-1"><div className="w-3 h-3 rounded-sm bg-white/5" /><div className="w-3 h-3 rounded-sm bg-emerald-900" /><div className="w-3 h-3 rounded-sm bg-emerald-700" /><div className="w-3 h-3 rounded-sm bg-emerald-500" /></div><span>ÇOK</span></div>} />
-          <ContributionHeatMap data={activity90.map(a => ({ date: a.date, count: a.count }))} />
+          <ContributionHeatMap data={heatMapData} />
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} whileInView={{ opacity: 1, y: 0, filter: 'blur(0px)' }} viewport={{ once: true, margin: '-60px' }} transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl lg:col-span-4`}>
+        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl lg:col-span-4`}>
           <SectionTitle title="Özet Bilgiler" eyebrow="Özet" mb="mb-6" />
           <div className="space-y-0">
             {[['Mevcut Seri', `${streak.currentStreak} GÜN`, 'text-orange-500'], ['En Uzun Seri', `${streak.longestStreak} GÜN`, ''], ['Aktif Gün', `${activitySummary.activeDays} GÜN`, ''], ['Günlük Ort.', `${activitySummary.activeDays > 0 ? Math.round(activitySummary.totalSolved / activitySummary.activeDays) : 0}`, ''], ['Genel Doğru', fmt(overview.totalCorrects), 'text-emerald-400'], ['Genel Yanlış', fmt(overview.totalIncorrects), 'text-red-400']]
@@ -521,11 +659,11 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
             <div className={`${theme.surface} rounded-xl p-5 lg:col-span-7`}>
               <SectionTitle title="30 Günlük Başarı Trendi" eyebrow="Sparkline" mb="mb-4" />
-              <CountSparkline data={activity90.slice(-30).map(a => ({ date: a.date, count: a.count }))} />
+              <CountSparkline data={sparklineData} />
             </div>
             <div className={`${theme.surface} rounded-xl p-5 lg:col-span-5`}>
               <SectionTitle title="Haftalık Soru Karşılaştırması" eyebrow="Haftalık" mb="mb-4" />
-              <WeeklyComparison activity={activity90.slice(-14).map(a => ({ date: a.date, count: a.count, correct: a.correct, incorrect: a.incorrect }))} />
+              <WeeklyComparison activity={weeklyCompareData} />
             </div>
           </div>
         </div>
@@ -622,7 +760,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
       <CollapsibleSection theme={theme} title="Öne Çıkanlar & Ünite Haritası" summary={`En iyi ders: ${overview.topLessonBySolved?.lesson ?? '—'} · Detaylı ünite ısı haritası`}>
         <div className="space-y-4">
           <div className="grid grid-cols-1 md:grid-cols-5 lg:grid-cols-12 gap-4">
-            <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className={`${theme.card} rounded-xl p-5 sm:p-8 relative overflow-hidden group md:col-span-2 lg:col-span-5`}>
+            <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} className={`${theme.card} rounded-xl p-5 sm:p-8 relative overflow-hidden group md:col-span-2 lg:col-span-5`}>
               <div className="absolute top-0 right-0 w-48 h-48 bg-emerald-500/10 rounded-full -mr-24 -mt-24 blur-3xl group-hover:scale-110 transition-transform pointer-events-none" />
               <div className="relative z-10 flex items-center gap-6 sm:gap-8">
                 <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-emerald-500/20 border border-emerald-400/20 flex items-center justify-center shrink-0"><BookOpen size={36} className="text-emerald-400" /></div>
@@ -636,7 +774,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
                         <div><div className={`${theme.subtext} text-xs`}>Tamamlanma</div><div className="text-xl font-bold">%{Math.round((overview.topLessonBySolved.solved / Math.max(1, overview.topLessonBySolved.total)) * 100)}</div></div>
                       </div></>) : <div className={`${theme.subtext} text-sm`}>Henüz veri yok</div>}
                 </div></div></motion.div>
-            <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className={`${theme.card} rounded-xl p-5 sm:p-8 relative overflow-hidden group md:col-span-3 lg:col-span-7`}>
+            <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }} className={`${theme.card} rounded-xl p-5 sm:p-8 relative overflow-hidden group md:col-span-3 lg:col-span-7`}>
               <div className="absolute top-0 right-0 w-48 h-48 bg-primary/10 rounded-full -mr-24 -mt-24 blur-3xl group-hover:scale-110 transition-transform pointer-events-none" />
               <div className="relative z-10 flex items-center gap-6 sm:gap-8">
                 <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-2xl bg-indigo-500/20 border border-indigo-400/20 flex items-center justify-center shrink-0"><Stack size={36} className="text-indigo-400" /></div>
@@ -651,7 +789,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
                       </div></>) : <div className={`${theme.subtext} text-sm`}>Henüz veri yok</div>}
                 </div></div></motion.div>
           </div>
-          <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
+          <motion.div initial={{ opacity: 0, y: 24 }} animate={{ opacity: 1, y: 0 }}>
             <UnitHeatMap questions={questions} stats={stats} theme={theme} />
           </motion.div>
         </div>

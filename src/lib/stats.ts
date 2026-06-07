@@ -59,6 +59,36 @@ export function loadAllStats(): StatsMap {
   }
 }
 
+/**
+ * Stats haritasını localStorage'a güvenli yazar.
+ * QuotaExceededError durumunda lastSeen bazlı en eski %20'yi budayarak tekrar dener.
+ * Son çare olarak da başarısız olursa sessizce loglar (veri localStorage'dan kaybolur ama
+ * çalışma durur — cloud'daki kopyası kalır).
+ */
+function safeWriteStats(stats: StatsMap): void {
+  const json = JSON.stringify(stats);
+  try {
+    localStorage.setItem(STATS_KEY, json);
+  } catch (e) {
+    if (e instanceof DOMException && (e.name === 'QuotaExceededError' || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')) {
+      console.warn('[stats] localStorage kota doldu, eski kayıtlar budanıyor…');
+      const entries = Object.entries(stats).sort(
+        (a, b) => (a[1].lastSeen ?? '').localeCompare(b[1].lastSeen ?? '')
+      );
+      // En eski %20'yi at
+      const trimmed = Object.fromEntries(entries.slice(Math.ceil(entries.length * 0.2)));
+      try {
+        localStorage.setItem(STATS_KEY, JSON.stringify(trimmed));
+        console.warn(`[stats] ${entries.length - Object.keys(trimmed).length} eski kayıt silindi.`);
+      } catch (e2) {
+        console.error('[stats] Budama sonrası da yazılamadı:', e2);
+      }
+    } else {
+      console.error('[stats] setItem hatası:', e);
+    }
+  }
+}
+
 // ─── Accuracy Bazlı Zorluk ───────────────────────────────────────────────────
 
 /** Doğruluk oranını 1-10 arası statik zorluk puanına çevirir (düşük accuracy = yüksek zorluk). */
@@ -97,10 +127,11 @@ export function saveQuestionStat(
   const attempts = prev.attempts + 1;
   const corrects = prev.corrects + (isCorrect ? 1 : 0);
 
-  // Hata Pattern Analizi: Sadece yanlış cevaplarda ve seçim varsa kaydet
+  // Hata Pattern Analizi: Sadece yanlış cevaplarda ve seçim varsa kaydet.
+  // Son 20 kayıt tutulur — sınırsız büyüme → localStorage kota taşması riskini önler.
   const prevWrong = prev.wrongChoices ?? [];
   const nextWrong = (!isCorrect && selectedOption)
-    ? [...prevWrong, { selected: selectedOption, timestamp: new Date().toISOString() }]
+    ? [...prevWrong, { selected: selectedOption, timestamp: new Date().toISOString() }].slice(-20)
     : prevWrong;
 
   // Süre geçmişi: son 50 kayıt tutulur (histogram ve hız analizi için)
@@ -117,7 +148,9 @@ export function saveQuestionStat(
     wrongChoices: nextWrong,
     timeSpentHistory: nextTimes,
   };
-  localStorage.setItem(STATS_KEY, JSON.stringify(stats));
+
+  // Güvenli yazma: localStorage kota aşarsa en eski %20 kaydı at, tekrar dene
+  safeWriteStats(stats);
   localStorage.setItem(PENDING_SYNC_KEY, '1');
   notifySyncStatus();
 
@@ -540,7 +573,18 @@ function notifySyncStatus(): void {
 
 /** Local stats + activity_log + streak'i cloud'a push eder.
  *  @returns Soru istatistikleri için push sonucu (kısmi başarı raporlanır). */
-export async function syncStatsUp(): Promise<PushStatsResult> {
+
+// Race condition guard: aynı anda birden fazla syncStatsUp çağrısını birleştirir.
+// activity_log/streak için "pull→merge→push" akışı paralel çalışırsa lost-update riski.
+let _syncUpInFlight: Promise<PushStatsResult> | null = null;
+
+export function syncStatsUp(): Promise<PushStatsResult> {
+  if (_syncUpInFlight) return _syncUpInFlight;
+  _syncUpInFlight = _doSyncStatsUp().finally(() => { _syncUpInFlight = null; });
+  return _syncUpInFlight;
+}
+
+async function _doSyncStatsUp(): Promise<PushStatsResult> {
   const deviceId = getDeviceId();
   const stats = loadAllStats();
   const userId = currentSyncUserId ?? undefined;
@@ -636,16 +680,16 @@ export async function syncStatsDown(): Promise<void> {
             lastSeen: [cloudSeen, localSeen].sort().reverse()[0],
             difficulty: (cloudWins ? cloud.difficulty : local?.difficulty) ?? accuracyToDifficulty(corrects, attempts),
             wrongChoices: mergeWrongChoices(local?.wrongChoices ?? [], cloud.wrongChoices ?? []),
-            timeSpentHistory: mergeTimeSpentHistory(local?.timeSpentHistory ?? [], cloud.timeSpentHistory ?? []),
+            // Kazananın geçmişini al — birleştirme yerine, aynı oturum verilerinin
+            // kat kat çoğalmasını (her sync'te ikiye katlanma) önler.
+            timeSpentHistory: cloudWins
+              ? (cloud.timeSpentHistory ?? [])
+              : (local?.timeSpentHistory ?? []),
           };
         }
       }
 
-      localStorage.setItem(STATS_KEY, JSON.stringify(nextStats));
-      // Fallback: cloud'da activity_log yoksa lastSeen'den tahmin et
-      if (cloudActivityResult.status === 'rejected' || cloudActivityResult.value == null) {
-        _mergeActivityFromStats(nextStats);
-      }
+      safeWriteStats(nextStats);
     }
   }
 
@@ -653,6 +697,14 @@ export async function syncStatsDown(): Promise<void> {
   if (cloudActivityResult.status === 'fulfilled' && cloudActivityResult.value != null) {
     const mergedLog = mergeActivityLogs(loadActivityLog(), cloudActivityResult.value as ActivityLog);
     localStorage.setItem(ACTIVITY_KEY, JSON.stringify(mergedLog));
+  }
+
+  // G4 fix: activity max-merge aynı günde iki cihaz çözmesi durumunda sayaç düşürür.
+  // _mergeActivityFromStats her zaman çalıştırılır; stat lastSeen'lerinden türetilen
+  // gerçek çözüm sayısı alt sınır olarak mevcut activity'ye uygulanır (asla düşürmez).
+  const latestStats = loadAllStats();
+  if (Object.keys(latestStats).length > 0) {
+    _mergeActivityFromStats(latestStats);
   }
 
   // ── Streak merge ───────────────────────────────────────────────────────────

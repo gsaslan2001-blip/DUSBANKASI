@@ -1,5 +1,5 @@
 
-import { useRef, useEffect, useCallback, useState } from 'react';
+import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 
@@ -15,7 +15,9 @@ interface Props {
 
 const MARGIN = { top: 12, right: 16, bottom: 36, left: 48 };
 
-export default function TimeHistogram({
+export default memo(TimeHistogram);
+
+function TimeHistogram({
   data,
   bins = 15,
   height = 200,

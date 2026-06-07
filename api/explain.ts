@@ -1,5 +1,5 @@
 /**
- * DUS Bankası — AI Özel Ders API (Vercel Serverless, Node runtime)
+ * DUS Bankası — AI Özel Ders API (Vercel Edge runtime)
  *
  * Akış:
  *  1) Tarayıcı: { question, options, lesson, unit, correctAnswer } gönderir (~1 KB).
