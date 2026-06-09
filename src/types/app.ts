@@ -18,7 +18,8 @@ export type AppState =
   | 'smart-study'
   | 'daily-plan'
   | 'source-books'
-  | 'select-highyield-unit';
+  | 'select-highyield-unit'
+  | 'select-highyield-karma';
 
 export type AnswerDetail = {
   question: Question;

@@ -320,6 +320,11 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
     AI modelinin q["lesson"] / q["unit"] alanları IGNORED — bu sayede
     modelin serbest ürettiği lesson/unit string'leri DB'ye asla yazmaz.
     """
+    VALID_QUALITY_FLAGS = {'high_yield', 'reviewed_keep', 'kavramsal_kopya', 'auto_deleted'}
+    if quality_flag and quality_flag not in VALID_QUALITY_FLAGS:
+        print(f"   ⚠️ KRİTİK UYARI: Geçersiz quality_flag '{quality_flag}' kullanıldı. Geçerli değerler: {VALID_QUALITY_FLAGS}")
+        # Hata fırlatmıyoruz ancak logda belirgin olması için uyarıyoruz.
+        
     url = f"{SUPABASE_URL}/rest/v1/questions"
     headers = {
         "apikey": SUPABASE_KEY,

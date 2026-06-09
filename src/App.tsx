@@ -22,7 +22,7 @@ import {
   Upload, Download, WarningCircle, CircleNotch, Trash, PencilSimple, Star, Plus,
   Warning, FileText, Gear, ChartBar, Lightning, Brain, Target, Calendar,
   UserCircle, Skull, Microscope, Heartbeat, PaintBrush, Syringe, Hourglass, Stack, ClipboardText,
-  Image, X as XIcon, Link
+  Image, X as XIcon, Link, Shuffle
 } from '@phosphor-icons/react';
 import { fisherYates } from './lib/shuffle';
 import { todayStr } from './lib/dateUtils';
@@ -103,6 +103,7 @@ export default function App() {
   const [examQuestions, setExamQuestions] = useState<Question[]>([]);
   const [unitQuestions, setUnitQuestions] = useState<Question[]>([]);
   const [isFavoritesExam, setIsFavoritesExam] = useState(false);
+  const [isHighYieldExam, setIsHighYieldExam] = useState(false);
   const [isHighYieldMode, setIsHighYieldMode] = useState(false);
   const [hyLoading, setHyLoading] = useState(false);
   const [examLoading, setExamLoading] = useState(false);
@@ -417,7 +418,8 @@ export default function App() {
       }
       await syncStatsDown();
       // Soru havuzunu da tazele — yeni eklenen/silinen sorular UI'a yansısın
-      await loadQuestions(true);
+      // forceSync=false: syncStatsDown() az önce çalıştı, tekrar çalıştırma (double-push engeli)
+      await loadQuestions(false);
       setStatsVersion(v => v + 1);
       setSyncStatus('done');
       setTimeout(() => setSyncStatus('idle'), 2500);
@@ -720,7 +722,10 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
         setAppState('select-lesson');
         break;
       case 'select-deneme-amount':
-        setAppState(isFavoritesExam ? 'select-favorites' : 'select-deneme');
+        setAppState(isHighYieldExam ? 'select-highyield-karma' : isFavoritesExam ? 'select-favorites' : 'select-deneme');
+        break;
+      case 'select-highyield-karma':
+        setAppState('select-highyield-unit');
         break;
       default:
         setAppState('select-lesson');
@@ -762,7 +767,8 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
         examUnits,
         loadAllStats(),
         amount,
-        isFavoritesExam ? (q: QuestionSkeleton) => !!q.is_favorite : undefined,
+        isFavoritesExam ? (q: QuestionSkeleton) => !!q.is_favorite : 
+        isHighYieldExam ? (q: QuestionSkeleton) => q.quality_flag === 'high_yield' : undefined,
       );
       // Sadece seçilen N sorunun tam metni on-demand çekiliyor
       const ids = skeletonPool.map((s: QuestionSkeleton) => s.id);
@@ -1058,6 +1064,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
             <HighYieldUnitSelection
               questions={questions}
               theme={theme}
+              onSelectKarma={() => setAppState('select-highyield-karma')}
               onSelect={async (lesson, unit) => {
                 const hySkeletons = questions.filter(q => q.quality_flag === 'high_yield' && q.lesson === lesson && q.unit === unit);
                 try {
@@ -1092,11 +1099,13 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
           ) : appState === 'source-books' ? (
             <SourceBooksView questions={questions} onBack={() => setAppState('select-lesson')} theme={theme} />
           ) : appState === 'select-deneme' ? (
-            <DenemeSelection questions={questions} onNext={(units) => { setExamUnits(units); setIsFavoritesExam(false); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-lesson')} isFavoritesMode={false} theme={theme} />
+            <DenemeSelection questions={questions} onNext={(units) => { setExamUnits(units); setIsFavoritesExam(false); setIsHighYieldExam(false); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-lesson')} isFavoritesMode={false} theme={theme} />
           ) : appState === 'select-favorites' ? (
-            <DenemeSelection questions={questions.filter(q => q.is_favorite)} onNext={(units) => { setExamUnits(units); setIsFavoritesExam(true); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-lesson')} isFavoritesMode={true} theme={theme} />
+            <DenemeSelection questions={questions.filter(q => q.is_favorite)} onNext={(units) => { setExamUnits(units); setIsFavoritesExam(true); setIsHighYieldExam(false); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-lesson')} isFavoritesMode={true} theme={theme} />
+          ) : appState === 'select-highyield-karma' ? (
+            <DenemeSelection questions={questions.filter(q => q.quality_flag === 'high_yield')} onNext={(units) => { setExamUnits(units); setIsHighYieldExam(true); setIsFavoritesExam(false); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-highyield-unit')} isHighYieldMode={true} theme={theme} />
           ) : appState === 'select-deneme-amount' ? (
-            <DenemeAmountSelection selectedUnits={examUnits} questions={isFavoritesExam ? questions.filter(q => q.is_favorite) : questions} loading={examLoading} onStart={handleStartExam} onCancel={() => setAppState('select-deneme')} theme={theme} />
+            <DenemeAmountSelection selectedUnits={examUnits} questions={isHighYieldExam ? questions.filter(q => q.quality_flag === 'high_yield') : isFavoritesExam ? questions.filter(q => q.is_favorite) : questions} loading={examLoading} onStart={handleStartExam} onCancel={() => setAppState(isHighYieldExam ? 'select-highyield-karma' : isFavoritesExam ? 'select-favorites' : 'select-deneme')} theme={theme} />
           ) : appState === 'select-unit' ? (
             <UnitSelection 
               lesson={selectedLesson} 
@@ -1487,11 +1496,12 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
   );
 }
 
-function HighYieldUnitSelection({ questions, theme, onSelect, onSelectAll }: {
+function HighYieldUnitSelection({ questions, theme, onSelect, onSelectAll, onSelectKarma }: {
   questions: Question[];
   theme: Theme;
   onSelect: (lesson: string, unit: string) => void;
   onSelectAll: () => void;
+  onSelectKarma: () => void;
 }) {
   const hyQs = questions.filter(q => q.quality_flag === 'high_yield');
 
@@ -1515,12 +1525,20 @@ function HighYieldUnitSelection({ questions, theme, onSelect, onSelectAll }: {
             <p className={`${theme.subtext} text-xs font-medium`}>{hyQs.length} soru · {lessons.length} ders</p>
           </div>
         </div>
-        <button
-          onClick={onSelectAll}
-          className="btn btn-sm bg-fuchsia-500/15 text-fuchsia-400 border border-fuchsia-500/20 hover:bg-fuchsia-500/25 transition-colors"
-        >
-          <Star size={13} weight="fill" /> Tümünü Başlat
-        </button>
+        <div className="flex gap-2">
+          <button
+            onClick={onSelectKarma}
+            className="btn btn-sm bg-fuchsia-500/15 text-fuchsia-400 border border-fuchsia-500/20 hover:bg-fuchsia-500/25 transition-colors"
+          >
+            <Shuffle size={13} weight="fill" /> Karma Mod
+          </button>
+          <button
+            onClick={onSelectAll}
+            className="btn btn-sm bg-fuchsia-500/15 text-fuchsia-400 border border-fuchsia-500/20 hover:bg-fuchsia-500/25 transition-colors"
+          >
+            <Star size={13} weight="fill" /> Tümünü Başlat
+          </button>
+        </div>
       </div>
 
       <div className="space-y-5 stagger-children">
@@ -1639,11 +1657,12 @@ function UnitSelection({ lesson, units, questions, onSelect, onDelete, onRename,
   );
 }
 
-function DenemeSelection({ questions, onNext, onCancel, isFavoritesMode, theme }: {
+function DenemeSelection({ questions, onNext, onCancel, isFavoritesMode, isHighYieldMode, theme }: {
   questions: Question[];
   onNext: (units: { lesson: string; unit: string }[]) => void;
   onCancel: () => void;
-  isFavoritesMode: boolean;
+  isFavoritesMode?: boolean;
+  isHighYieldMode?: boolean;
   theme: Theme;
 }) {
   const [selected, setSelected] = useState<Set<string>>(new Set());
@@ -1689,7 +1708,7 @@ function DenemeSelection({ questions, onNext, onCancel, isFavoritesMode, theme }
     <div className="anim-slide-up w-full max-w-2xl mx-auto flex flex-col pb-4" style={{ maxHeight: 'calc(100vh - 120px)' }}>
       <div className="flex items-center justify-between mb-4 shrink-0">
         <div>
-          <h2 className="text-xl font-black">{isFavoritesMode ? 'Favoriler — Ünite Seç' : 'Deneme — Ünite Seç'}</h2>
+          <h2 className="text-xl font-black">{isHighYieldMode ? 'High-Yield — Ünite Seç' : isFavoritesMode ? 'Favoriler — Ünite Seç' : 'Deneme — Ünite Seç'}</h2>
           <p className={`${theme.subtext} text-xs mt-0.5`}>İstediğin ders ve üniteleri seç</p>
         </div>
         <button onClick={onCancel} className="btn btn-ghost btn-sm">İptal</button>

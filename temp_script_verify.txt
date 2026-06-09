@@ -1,0 +1,10 @@
+ks:
+        ablock = ablock.strip()
+        if not ablock: continue
+        
+        c_match = re.search(r'Do(?:ğ|.)ru:\s*\**([A-E])\**', ablock)
+        if c_match:
+            correct = c_match.group(1)
+            
+            exp_match = re.search(r'(Neden [A-E]:.*)', ablock, re.DOTALL)
+        

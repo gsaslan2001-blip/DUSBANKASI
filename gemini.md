@@ -1,4 +1,8 @@
-# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.30)
+# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.32)
+
+> **v4.32 (2026-06-07) — Supabase Egress Kriz Çözümü (PostgREST + Realtime).** **(1)** `scripts/lib/audit_logic.py`: In-memory embedding fallback kaldırıldı → `_lexical_only_fallback()` eklendi (RPC timeout'ta 0 byte egress, bellekteki metin üzerinden Jaccard). `find_duplicates_chunked()` eklendi — ders geneli taramayı otomatik ünite-bazlı böler, RPC timeout riskini düşürür. `scripts/tools/smart_audit_pipeline.py`: `--unit` verilmezse `find_duplicates_chunked()` kullanır. **(2)** `src/hooks/useRealtimeStats.ts`: Anonim kullanıcılarda Realtime kanalı hiç açılmaz; sekme arka plana geçince kanal kapatılır (`visibilitychange`), öne gelince `subscribeRef` ile otomatik yeniden bağlanılır. İstatistikler, session, anlık düzeltmeler, soru sayıları tamamen korundu.
+
+> **v4.31 (2026-05-30) — Skeleton + On-Demand İçerik Mimarisi (Egress %98 azalma).** Açılışta `fetchSkeletons()` (~250 KB, sadece id/lesson/unit/quality_flag) çekilir; sınav anında `fetchQuestionsByIds()` ile yalnızca seçilen soruların tam metni çekilir ve IndexedDB contentCache'e yazılır. Böylece 14 MB → 250 KB egress düştü. Adaptif motor, filtreleme, istatistikler Skeleton üzerinden çalışır. 7 kritik exam entry point'e `await fetchQuestionsByIds()` eklendi. Eski tam yükleme mimarisi `@deprecated fetchQuestions()` olarak tutuldu.
 
 > **v4.30 (2026-05-29) — Karmaşık Grafik Temizliği & Sabit Çalışma Hedefleri.** `StatisticsView.tsx` içerisindeki cluttering/karmaşık 8 grafik ("Konu İlişki Ağı", "Ders → Doğru/Yanlış Akışı", "Ders Tutarlılık Analizi (Box Plot)", "Grafik Morfingi", "Dersler Arası İlişki", "Ders Kapsama Mozaiği", "Soru Bazlı Doğruluk Dağılımı", "Ders Doğruluk Dağılımı") tamamen kaldırıldı. Bu grafiklerin getirdiği gereksiz TypeScript bağımlılıkları ve veri hesaplamaları (`marimekkoData`, `forceGraphData` vb.) temizlendi. Günlük soru hedefi `200` ve ders doğruluk hedefi `%80` olarak sisteme sabitlendi; `GoalRing`, `DifferenceChart` ve `BulletChart` bu hedefler doğrultusunda güncellenerek sade ve premium bir dashboard deneyimi sağlandı.
 
@@ -71,6 +75,7 @@ Kullanıcı aşağıdaki komutları verdiğinde, ajan **tam olarak** şu aracı/
 | "notebooklm oturumunu canlı tut", "login düşmesin / kopmasın" | Oturumu periyodik tazele (kalıcı profilden) | `python scripts/session_keeper.py --once` (tek sefer) · zamanlanmış görev "NotebookLM Session Keeper" 2 saatte bir çalışır | §4.1 |
 | "login/profil durumunu kontrol et", "hangi hesaplar geçerli" | Tüm profillerin login durumunu tek tek kontrol et | `scripts\check_all_logins.bat` | §4.1-B |
 | "şu dosyadaki soruları ekle", "bu json/csv/md'yi yükle" | Hazır dosyadan **ajan-bağımsız** toplu ekleme | `python scripts/add_questions.py "<dosya>" [--lesson "<D>"] [--unit "<Ü>"] [--dry-run] [--audit]` | §4.5 |
+| "high yield soruları yükle", "highyield olarak ekle" | High Yield (özel çalışma havuzu) sorularının yüklenmesi | Workflow: `.agents/workflows/WORKFLOW_HIGH_YIELD_EKLEME.md` (Ajan, flag olarak KESİNLİKLE `high_yield` kullanmalıdır) | — |
 | "soru ekle" (ham/dağınık serbest metin) | Ham metni kanonik JSON'a çevir → kalite kapısı → deploy | Workflow: `.agent/workflows/soru_ekle.md` (dönüşüm sonrası `add_questions.py` veya `shared.deploy_to_supabase`) | §5.5 |
 | "ölüm maçı", "kalite kontrol/denetim yap", "X ünitesindeki kopyaları temizle" | Semantik kopya denetimi (Bi-Encoder [Stem 0.7 + Exp 0.3] + Guard'lar [cevap-metni/yönelim/zıtlık/sayısal] + DeepSeek-v4-pro) | `python scripts/tools/smart_audit_pipeline.py --lesson "<D>" [--unit "<Ü>"] [--dry-run] [--concurrency 8]` | §4.3 |
 | "deneme oluştur", "bugün şu konulardan N soruluk deneme hazırla" | `daily_exams` tablosuna sınav yaz (Supabase MCP/REST ile) | Workflow: `WORKFLOW_GUNUN_DENEMESI.md` — SQL şablonları + `::uuid[]` cast zorunlu | §2, §5.3 |
@@ -87,7 +92,7 @@ Kullanıcı aşağıdaki komutları verdiğinde, ajan **tam olarak** şu aracı/
 
 ### Mutlak Yasaklar (hızlı liste — gerekçeler §3.3 ve §5.2'de)
 
-1. Frontend'de **lazy-load** ekleme — açılışta `fetchQuestions()` TÜM soruları yükler (denenmiş, sorular görünmediği için kalıcı yasak).
+1. Frontend'de **metadata lazy-load** ekleme — açılışta `fetchSkeletons()` TÜM skeleton'ları (id/lesson/unit/quality_flag) yükler; filtreler, sayaçlar, adaptif motor bunlara bağımlıdır. Soru **içeriği** (metin/şıklar/açıklama) sınav anında on-demand çekilebilir; bu lazy-load değildir. Eski tam-içerik yüklemesi `@deprecated fetchQuestions()` kullanılmaz.
 2. Supabase `.or()` içinde **`not.in`** kullanma — sorgu motorunu kilitler. Pozitif desen + client-side `EXCLUDED_FLAGS` kullan.
 3. `explanation` alanına **motivasyonel/dolgu cümlesi** ("Tebrikler!", "Unutmayın") yazma — kalite kapısı reddeder.
 4. `batch_rollback.py`'yi **`--dry-run` olmadan** çalıştırma.
@@ -127,6 +132,7 @@ DUSBANKASI/
 ├── scripts/                # Soru üretim, kürasyon ve deneme-analizi veri hattı (Python)
 │   ├── tools/              # Kalite denetimi, embedding backfill ve veri kurtarma araçları
 │   ├── lib/                # Asenkron servis sarmalayıcıları (RAG pipeline çekirdeği)
+│   │   ├── audit_logic.py      # ⭐ Kopya tespiti iş mantığı: find_duplicates / find_duplicates_chunked / _lexical_only_fallback / curate_pairs_async
 │   │   ├── db_layer.py         # Asenkron DB katmanı (aiohttp + Semaphore(10))
 │   │   ├── lsh_matcher.py      # MinHash LSH deduplication O(log N)
 │   │   ├── pinecone_client.py  # Async Pinecone wrapper + global fallback
@@ -159,10 +165,12 @@ DUSBANKASI/
 │   │   └── SourceBooksView.tsx # AI referans PDF kitapları yönetim arayüzü
 │   ├── config/             # Uygulama varsayılan ayarları (Adaptif ağırlıklar)
 │   ├── hooks/              # Optimizasyon ve veri yönetim sarmalayıcıları (hooks)
+│   │   └── useRealtimeStats.ts # ⭐ Realtime stats (sadece giriş yapılmış kullanıcı; sekme arka planda kapalı)
 │   ├── lib/                # Temel algoritmalar ve API istemcileri
 │   │   ├── adaptive.ts     # Sinyal birleştirme, interleaving ve havuz planlama motoru
 │   │   ├── ai.ts           # Gemini / DeepSeek API entegrasyon katmanı
-│   │   └── supabase.ts     # Supabase istemcisi, full-fetch (TÜM sorular) ve cloud sync
+│   │   │   ├── supabase.ts     # ⭐ Supabase istemcisi: fetchSkeletons / fetchQuestionsByIds / cloud sync / session / stats
+│   │   └── idb.ts          # IndexedDB: skeletonCache + contentCache + legacy questionsCache
 │   ├── types/              # Evrensel TypeScript veri tipleri
 │   ├── App.tsx             # Ana uygulama durum makinesi (State Machine)
 │   ├── index.css           # Tailwind CSS 4 giriş noktası
@@ -283,6 +291,7 @@ erDiagram
 
 1. **`questions.quality_flag`**: Kalite denetiminden geçen veya kalan soruları işaretler.
    - `null` veya `'reviewed_keep'`: Çalışma havuzuna dahil edilir.
+   - `'high_yield'`: Kullanıcıların istatistiklere yansımadan çözebileceği özel, yüksek verimli sorular (NOT: Yazılışı tam olarak alt tirelidir).
    - `'kavramsal_kopya'`: Post-production LSH denetiminde kopya bulunan sorulardır. Client-side filtre ile anında gizlenir.
    - `'auto_deleted'`: Her Pazar koşan `pg_cron` ile kalıcı olarak silinmek üzere bekletilen kayıtlar.
 2. **`question_stats` Composite Unique Key**:
@@ -374,36 +383,45 @@ Rohrer & Taylor (2007) teorisine dayanan interleaving, ardışık gelen iki soru
 
 ### 3.3. Supabase Entegrasyonu ve Veri Yükleme (`src/lib/supabase.ts`)
 
-> ## ⛔ KATİ KURAL — LAZY-LOAD KESİNLİKLE YASAK (İSTİSNASIZ)
+> ## ⛔ KATİ KURAL — METADATA LAZY-LOAD KESİNLİKLE YASAK
 >
-> Uygulama **ilk açılışta `fetchQuestions()` ile TÜM soruları belleğe yükler.** Lazy-load
-> (metadata + ders/ünite seçildiğinde dinamik çekim) mimarisi DENENMİŞ ve **kullanıcının
-> soruları görememesine** yol açtığı için KALICI OLARAK kaldırılmıştır.
-> **Yeniden eklenmesi YASAKTIR.** Adaptive motor (`buildSmartQueue`), simülasyon havuzu
-> (`buildSimulationPool`), interleaving ve müfredat ilerleme hesabı (`getCurriculumProgress`)
-> tamamı tüm soru havuzunun aynı anda bellekte olmasına bağımlıdır; kısmi yükleme bu
-> hesapları bozar. `fetchQuestionMetadata` / `fetchQuestionsByUnit` fonksiyonları silinmiştir.
+> Uygulama **ilk açılışta `fetchSkeletons()` ile TÜM skeleton'ları belleğe yükler** (id/lesson/unit/quality_flag/is_favorite, ~250 KB). Metadata lazy-load (ders/ünite seçilince o üniteye ait metadata dinamik çekim) mimarisi DENENMİŞ ve **kullanıcının sorularını görememesine** yol açtığı için KALICI OLARAK kaldırılmıştır. Adaptive motor (`buildSmartQueue`), simülasyon havuzu, interleaving ve soru sayaçları **TÜM skeleton'ların aynı anda bellekte olmasına bağımlıdır**. Kısmi yükleme bu hesapları bozar.
+>
+> Soru **içeriği** (metin/şıklar/açıklama) sınav anında `fetchQuestionsByIds()` ile on-demand çekilir — bu YASAK değildir. `@deprecated fetchQuestions()` (14 MB tam yükleme) yeni kodda kullanılmaz.
 
-#### Tam Yükleme (Full-Fetch) Mimarisi
-
-Açılışta `useQuestions().reload()` → `fetchQuestions()` çağrılır ve havuzun tamamı
-`questions` state'ine yüklenir (App.tsx:204 startup `useEffect`).
+#### Skeleton + On-Demand İçerik Mimarisi (v4.31+)
 
 ```
-İLK AÇILIŞ (App.tsx useEffect):
-  loadQuestions() ──► fetchQuestions() ──► TÜM sorular (~6.600 görünür satır) belleğe
+İLK AÇILIŞ (App.tsx startup useEffect):
+  loadQuestions() ──► fetchSkeletons() ──► TÜM skeleton'lar (~250 KB, ~12.000 satır)
                                                 │
                                                 ▼
-                          questions state ──► adaptive / simülasyon / quiz tümü buradan beslenir
+                   questions state (SkeletonRow[]) ──► adaptive / simülasyon / sayaç / filtre
+                                                         (soru metni gerekmez)
+
+SINAV BAŞLIYOR (handleUnitSelect / handleWeakQuestionsClick / vb.):
+  fetchQuestionsByIds(pool.map(q => q.id))
+    ├─► IndexedDB contentCache HIT → anında döner (offline çalışır)
+    └─► Cache MISS → Supabase'den 200'lük batch IN query → contentCache'e yaz
+```
+
+**8 kritik entry point:** `handleUnitSelect`, `handleDailyExamStart`, `handleWeakQuestionsClick`, `handleStartExam`, `onSmartStudyClick`, `HighYieldUnitSelection.onSelect/onSelectAll`, `SimulationSetup.onStart` — her birinde `await fetchQuestionsByIds(ids)` çağrısı zorunludur. **Yeni sınav modu eklenirken** bu çağrı unutulursa ekranda soru metni `undefined` görünür.
+
+#### Delta Sync (Skeleton)
+
+```typescript
+// Açılışta: skeletons_last_sync'ten beri değişen/eklenen/silinen satırları güncelle
+const lastSync = localStorage.getItem('skeletons_last_sync');
+// Değişenler: updated_at > lastSync → upsert
+// Silinenler: deleted_records tablosundan çek → IDB'den kaldır
 ```
 
 #### Pagination ve Hata Toleranslı Paralel Fetching
 
-Supabase API'sinin varsayılan 1000 satır sınırını aşmak için sorular `PAGE_SIZE=500`'lük
+Supabase API'sinin varsayılan 1000 satır sınırını aşmak için skeleton'lar `PAGE_SIZE=500`'lük
 sayfalarla, her turda 2 sayfa paralel (`Promise.all`) ve `withRetry(3)` koruması altında çekilir:
 
 ```typescript
-// fetchPage(from) + fetchPage(from + PAGE_SIZE) paralel → bir sayfa eksik (<500) gelene kadar döner
 const [p1, p2] = await Promise.all([fetchPage(from), fetchPage(from + PAGE_SIZE)]);
 // Timeout / 57014 hatalarında 1.2s, 2.4s backoff ile otomatik retry
 ```

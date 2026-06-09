@@ -248,7 +248,7 @@ Sistem en kararlı haline aşağıdaki kurallarla getirilir (her oturum başınd
 
 > **Doğrulanmış (2026-05-28, Radyoloji Ünite 43):** 116 kavram çapalandı → 81 yeni soru üretildi ve Supabase'e yazıldı (35→116, kapsam %67.2) → Ölüm Maçı 42 aday çiftten 17'sini `kavramsal_kopya` olarak eledi, 22'sini korudu. Hiç kopma/timeout yaşanmadı.
 >
-> ⚠️ Ayrı bilinen sorun (MCP'yle ilgisiz): Ölüm Maçı'nın Supabase pgvector RPC'si (`find_candidate_pairs`) HTTP 500 verip yerel in-memory taramaya düşebilir — sonuç doğru, sadece daha yavaş.
+> ✅ Önceden bilinen sorun (v4.32'de kalıcı olarak çözüldü): Ölüm Maçı'nın Supabase pgvector RPC'si (`find_candidate_pairs`) timeout'a düştüğünde artık sıfır byte egress harcayan leksikal fallback devreye girer — embedding indirmez.
 
 ---
 
@@ -372,4 +372,9 @@ Bazı yetenekler arayüz yerine AI asistan (Atlas) üzerinden sohbetle çalışt
 >
 > **Not (2026-05-30 · v4.31):** 7 fazlık güçlendirme operasyonu (güvenlik ağı → temizlik → istatistik → sync → AI → performans → dokümantasyon). **(1)** Karakterizasyon + regresyon test paketi 117 → **146 test** (tümü geçiyor): cross-device MAX-MERGE değişmezleri (`sync.merge.test.ts`, 8 test), markdown güvenliği (`markdown.test.ts`, 9 test) ve sınav projeksiyonu (`projections.test.ts`, 12 test) siyah-kutu olarak kilitlendi. **(2)** Yeni saf analitik modül `src/lib/projections.ts` — bağımlılıksız, enjekte edilebilir `now`/`examDate` ile test edilebilir; "Günün Planı" ekranına **Sınav Hedef Projeksiyonu** (10.000 soru hedefine günlük gerekli hız + tempo/kapsama/tutarlılık) bağlandı. **(3)** AI Markdown renderer'ı (`src/lib/markdown.ts`) XSS derinlemesine-savunması için sertleştirildi: yapısal HTML üretilmeden önce içerik escape edilir (`<script>`/`onerror` nötralize, "pH < 7.4" gibi gerçek karşılaştırma metni korunur) — DOMPurify ile ikinci kat sanitizasyona ek. **(4)** `DailyPlanView` pahalı türetmeleri `useMemo` ile sabitlendi. **Kural #9 korundu — lazy-load/code-split eklenmedi.** Tüm değişiklikler `tsc --noEmit` + production build temiz.
 
-**DUSBANKASI — KULLANIM REHBERİ v4.31 — SON GÜNCELLEME: 2026-05-30**
+> **Not (2026-06-07 · v4.32):** Supabase Egress Kriz Çözümü — İki kritik aylık egress katili kapatıldı. **(1) PostgREST:** `scripts/lib/audit_logic.py` içindeki Ölüm Maçı in-memory embedding fallback'i kaldırıldı; RPC (`find_candidate_pairs`) timeout'a düşünce artık tüm soruların embedding'lerini indirmek yerine (120 MB/çalıştırma) **0 byte egress** harcayan saf leksikal Jaccard fallback (`_lexical_only_fallback`) devreye girer. Ek olarak `find_duplicates_chunked()` fonksiyonu eklendi — ders geneli taramalarda (`smart_audit_pipeline.py --lesson`) otomatik ünite-bazlı bölme yapar, RPC timeout riskini düşürür. **(2) Realtime:** `src/hooks/useRealtimeStats.ts` anonim kullanıcılarda (giriş yapılmamışsa) Realtime kanalını hiç açmıyor; sekme arka plana geçince channel kapatılıyor, öne gelince otomatik yeniden bağlanılıyor. İstatistikler, soru sayıları, session kayıt/devam ve sınav sırasında anlık doğrulama **tamamen korundu** — bu mekanizmalar Realtime'a değil REST API'ye bağlı.
+
+**DUSBANKASI — KULLANIM REHBERİ v4.32 — SON GÜNCELLEME: 2026-06-07**
+
+ >   * * N o t   ( 2 0 2 6 - 0 6 - 0 9   "   v 4 . 3 3 ) : * *   H i g h   Y i e l d   S o r u   Y � k l e m e   S t a n d a r d i z a s y o n u .   q u a l i t y _ f l a g   e n u m   l i s t e s i n e   K E S 0N   o l a r a k   ' h i g h _ y i e l d '   e k l e n d i   ( a l t   t i r e l i ) .   D o r u d a n   p a r s e   i _l e m i   y a p 1l a r a k   b u   f l a g   a t a n 1r   v e   f r o n t e n d ' d e   i s t a t i s t i k l e r e   y a n s 1m a y a n   � z e l   b i r   h a v u z   o l a r a k   f i l t r e l e n i r .  
+ 

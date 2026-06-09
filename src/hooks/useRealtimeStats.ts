@@ -2,6 +2,10 @@
  * DUS Bankası — Realtime Stats Hook
  * Supabase Realtime ile question_stats tablosunu dinler.
  * Başka bir cihazdan gelen istatistik güncellemeleri anlık olarak callback ile iletilir.
+ *
+ * Egress Optimizasyonları (v4.32):
+ * - Anonim kullanıcılarda subscription açılmaz (çok cihaz sync anlamsız, egress boşa gider).
+ * - Sekme arka plana geçince channel kapatılır, öne gelince otomatik yeniden bağlanılır.
  */
 
 import { useEffect, useRef } from 'react';
@@ -44,14 +48,8 @@ function rowToCloudStat(row: StatPayload): CloudStat {
  * Supabase Realtime ile question_stats değişikliklerini anlık dinler.
  * Aynı kullanıcının başka cihazlarından gelen istatistik güncellemelerini yakalar.
  *
- * Örnek kullanım:
- * ```tsx
- * useRealtimeStats({
- *   userId: user?.id ?? null,
- *   deviceId: getDeviceId(),
- *   onStatUpdate: (qId, stat) => { ... localStorage güncelle ... },
- * });
- * ```
+ * NOT: Yalnızca giriş yapmış kullanıcılar için aktif olur.
+ * Sekme arka planda iken bağlantı otomatik kapatılır (egress tasarrufu).
  */
 export function useRealtimeStats({
   userId,
@@ -60,35 +58,26 @@ export function useRealtimeStats({
   enabled = true,
 }: UseRealtimeStatsOptions): void {
   const channelRef = useRef<RealtimeChannel | null>(null);
-  // Stale closure önlemi — callback güncel kalır. Ref mutasyonu render'da değil
-  // effect'te yapılır (react-hooks/refs: render sırasında ref'e yazma yasak).
+  // Stale closure önlemi — callback ref'te tutulur.
   const callbackRef = useRef(onStatUpdate);
   useEffect(() => { callbackRef.current = onStatUpdate; }, [onStatUpdate]);
-  // Retry state — exponential backoff
+
   const retryCountRef = useRef(0);
   const retryTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // subscribeRef: asıl bağlantı kurma fonksiyonu. Visibility handler'ı da çağırabilir.
+  const subscribeRef = useRef<(() => void) | null>(null);
+
+  // ── Ana subscription effect ─────────────────────────────────────────────────
   useEffect(() => {
-    if (!enabled) return;
+    // Anonim kullanıcıda Realtime açma: çok cihaz sync anlamlı değil, egress boşa gider.
+    if (!userId) { subscribeRef.current = null; return; }
+    if (!enabled) { subscribeRef.current = null; return; }
 
-    // Önceki timer varsa temizle
-    if (retryTimerRef.current) {
-      clearTimeout(retryTimerRef.current);
-      retryTimerRef.current = null;
-    }
-
-    // Önceki channel varsa temizle
-    if (channelRef.current) {
-      supabase.removeChannel(channelRef.current);
-      channelRef.current = null;
-    }
-
-    // user_id varsa user bazlı filtrele; yoksa device_id bazlı
-    const filter = userId
-      ? `user_id=eq.${userId}`
-      : `device_id=eq.${deviceId}`;
-
-    const channelName = `stats-${userId ?? deviceId}`;
+    // device_id=neq filtresi sunucu tarafında kendi cihazımızdan gelen
+    // eventleri keser — client-side ignore yetmiyordu, veri yine gönderiliyordu.
+    const filter = `user_id=eq.${userId}&device_id=neq.${deviceId}`;
+    const channelName = `stats-${userId}`;
 
     const handlePayload = (payload: { new: unknown }) => {
       const row = payload.new as StatPayload;
@@ -99,81 +88,75 @@ export function useRealtimeStats({
       }
     };
 
-    /** CHANNEL_ERROR'da exponential backoff ile retry (max 3: 2sn, 4sn, 8sn) */
     const attemptRetry = () => {
       if (retryCountRef.current >= 3) {
-        console.error(`[Realtime] ${channelName} — 3 retry denemesi başarısız, kalıcı hata`);
+        console.error(`[Realtime] ${channelName} — 3 retry başarısız, kalıcı hata`);
         return;
       }
       retryCountRef.current += 1;
-      const delayMs = Math.pow(2, retryCountRef.current) * 1000; // 2, 4, 8 sn
-      console.log(
-        `[Realtime] ${channelName} — ${delayMs / 1000}sn sonra retry (${retryCountRef.current}/3)`
-      );
+      const delayMs = Math.pow(2, retryCountRef.current) * 1000;
+      console.log(`[Realtime] ${channelName} — ${delayMs / 1000}sn sonra retry (${retryCountRef.current}/3)`);
 
       retryTimerRef.current = setTimeout(() => {
-        // Eski channel'ı temizle
         if (channelRef.current) {
           supabase.removeChannel(channelRef.current);
+          channelRef.current = null;
         }
-        // Yeni channel oluştur ve bağlan
-        channelRef.current = supabase
-          .channel(channelName)
-          .on(
-            'postgres_changes',
-            { event: 'INSERT', schema: 'public', table: 'question_stats', filter },
-            handlePayload
-          )
-          .on(
-            'postgres_changes',
-            { event: 'UPDATE', schema: 'public', table: 'question_stats', filter },
-            handlePayload
-          )
-          .subscribe((status) => {
-            if (status === 'SUBSCRIBED') {
-              console.log(`[Realtime] Stats kanalı aktif → ${channelName}`);
-              retryCountRef.current = 0; // Başarılı bağlantıda sayacı sıfırla
-            } else if (status === 'CHANNEL_ERROR') {
-              console.warn(`[Realtime] Kanal hatası → ${channelName}`);
-              attemptRetry();
-            }
-          });
+        subscribeRef.current?.();
       }, delayMs);
     };
 
-    const channel = supabase
-      .channel(channelName)
-      .on(
-        'postgres_changes',
-        { event: 'INSERT', schema: 'public', table: 'question_stats', filter },
-        handlePayload
-      )
-      .on(
-        'postgres_changes',
-        { event: 'UPDATE', schema: 'public', table: 'question_stats', filter },
-        handlePayload
-      )
-      .subscribe((status) => {
-        if (status === 'SUBSCRIBED') {
-          console.log(`[Realtime] Stats kanalı aktif → ${channelName}`);
-          retryCountRef.current = 0; // Başarılı bağlantıda sayacı sıfırla
-        } else if (status === 'CHANNEL_ERROR') {
-          console.warn(`[Realtime] Kanal hatası → ${channelName}`);
-          attemptRetry();
-        }
-      });
+    const subscribe = () => {
+      if (channelRef.current) return; // zaten bağlı
+      // Sekme gizliyse bağlanma — görünür olunca visibility handler tetikler.
+      if (document.visibilityState === 'hidden') return;
 
-    channelRef.current = channel;
+      channelRef.current = supabase
+        .channel(channelName)
+        .on('postgres_changes', { event: 'INSERT', schema: 'public', table: 'question_stats', filter }, handlePayload)
+        .on('postgres_changes', { event: 'UPDATE', schema: 'public', table: 'question_stats', filter }, handlePayload)
+        .subscribe((status) => {
+          if (status === 'SUBSCRIBED') {
+            console.log(`[Realtime] Stats kanalı aktif → ${channelName}`);
+            retryCountRef.current = 0;
+          } else if (status === 'CHANNEL_ERROR') {
+            console.warn(`[Realtime] Kanal hatası → ${channelName}`);
+            if (channelRef.current) { supabase.removeChannel(channelRef.current); channelRef.current = null; }
+            attemptRetry();
+          }
+        });
+    };
+
+    subscribeRef.current = subscribe;
+    subscribe();
 
     return () => {
-      if (retryTimerRef.current) {
-        clearTimeout(retryTimerRef.current);
-        retryTimerRef.current = null;
-      }
-      if (channelRef.current) {
-        supabase.removeChannel(channelRef.current);
-        channelRef.current = null;
-      }
+      subscribeRef.current = null;
+      if (retryTimerRef.current) { clearTimeout(retryTimerRef.current); retryTimerRef.current = null; }
+      if (channelRef.current) { supabase.removeChannel(channelRef.current); channelRef.current = null; }
     };
   }, [userId, deviceId, enabled]);
+
+  // ── Visibility effect: arka planda kapat, öne gelince yeniden bağlan ────────
+  useEffect(() => {
+    if (!userId) return;
+
+    const handleVisibility = () => {
+      if (document.visibilityState === 'hidden') {
+        if (retryTimerRef.current) { clearTimeout(retryTimerRef.current); retryTimerRef.current = null; }
+        if (channelRef.current) {
+          supabase.removeChannel(channelRef.current);
+          channelRef.current = null;
+          console.log('[Realtime] Sekme arka planda — kanal kapatıldı.');
+        }
+      } else if (document.visibilityState === 'visible') {
+        console.log('[Realtime] Sekme öne geldi — yeniden bağlanılıyor...');
+        retryCountRef.current = 0;
+        subscribeRef.current?.();
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibility);
+    return () => document.removeEventListener('visibilitychange', handleVisibility);
+  }, [userId]);
 }

@@ -491,23 +491,78 @@ def supabase_post(endpoint, payload):
         return None
 
 
+def _lexical_only_fallback(questions: list, threshold: float, thresholds: dict = None) -> list:
+    """
+    RPC timeout durumunda çağrılır. Embedding indirmez (0 byte PostgREST egress).
+    Sadece bellekteki soru metni üzerinden Jaccard benzerliği hesaplar.
+    Semantik fallback'e kıyasla parafraz kopyaları kaçırabilir; asıl yol RPC'dir.
+    """
+    if thresholds is None:
+        thresholds = {}
+
+    tokenized = []
+    for q in questions:
+        tokens = _tokenize(q.get("question", ""))
+        if tokens:
+            tokenized.append((q["id"], q, tokens))
+
+    results_map = {}
+    n = len(tokenized)
+    for i in range(n):
+        q1_id, q1, t1 = tokenized[i]
+        for j in range(i + 1, n):
+            q2_id, q2, t2 = tokenized[j]
+            union = t1 | t2
+            if not union:
+                continue
+            sim = len(t1 & t2) / len(union)
+            u1 = q1.get("unit", "")
+            u2 = q2.get("unit", "")
+            t_thresh = min(thresholds.get(u1, threshold), thresholds.get(u2, threshold))
+            if sim >= t_thresh:
+                p_key = tuple(sorted((q1_id, q2_id)))
+                if p_key not in results_map:
+                    results_map[p_key] = {
+                        "question_1_id": q1_id,
+                        "question_2_id": q2_id,
+                        "overlap_ratio": sim,
+                        "source": "Lexical-Fallback",
+                        "flag_type": "kavramsal_kopya",
+                        "question_1_text": q1.get("question", ""),
+                        "question_2_text": q2.get("question", ""),
+                        "question_1_expl": q1.get("explanation", ""),
+                        "question_2_expl": q2.get("explanation", ""),
+                        "pair_threshold": t_thresh,
+                        "q1_raw": q1,
+                        "q2_raw": q2,
+                    }
+
+    results = list(results_map.values())
+    results.sort(key=lambda x: x["overlap_ratio"], reverse=True)
+    print(f"  Leksikal fallback tamamlandı: {len(results)} aday çift (0 byte egress).")
+    return results
+
+
 def find_duplicates(questions: list) -> list:
     """
     OpenAI Semantic Hybrid Radar (Bi-Encoder).
     Huni Mimarisi 1. Aşama: Dinamik Eşik + Multi-Vector (text-embedding-3-large 1536d)
     Offloaded to Supabase HNSW pgvector and dynamically fetched candidate details.
+
+    RPC başarısız olursa → _lexical_only_fallback() — 0 byte egress, embedding indirmez.
     """
     if not questions:
         return []
-        
+
     lesson_name = questions[0].get("lesson", "")
     if not lesson_name:
         return []
-        
+
     from shared import supabase_get
     import urllib.parse
     import json
-    
+    import math
+
     # 1. Fetch Thresholds
     thresholds = {}
     encoded_lesson = urllib.parse.quote(lesson_name)
@@ -517,10 +572,10 @@ def find_duplicates(questions: list) -> list:
             thresholds[row['unit']] = float(row['dynamic_threshold'])
     except Exception:
         pass
-        
+
     # Calculate pre_filter_t dynamically
     pre_filter_t = max(0.65, min(thresholds.values(), default=0.72) - 0.03)
-    
+
     # Tek ünite kapsamındaysak RPC'yi o üniteye sınırla: aksi halde RPC tüm dersi
     # (binlerce soru) O(N²) hibrit self-join ile tarar ve statement timeout'a (500) düşer.
     units_in_scope = {q.get("unit") for q in questions if q.get("unit")}
@@ -534,44 +589,41 @@ def find_duplicates(questions: list) -> list:
     if scope_unit:
         payload["p_unit"] = scope_unit
     candidate_pairs = supabase_post("rpc/find_candidate_pairs", payload)
-    
+
     # Map questions by ID for easy lookup
     q_map = {q["id"]: q for q in questions}
-    
-    valid_candidates = None
-    unique_ids = set()
-    
+
+    # ── EGRESS-SAFE FALLBACK: RPC timeout → leksikal (0 byte) ─────────────────
     if candidate_pairs is None:
-        print(f"  ⚠️ Supabase pgvector RPC başarısız (Timeout/500). Yerel In-Memory (O(N²)) taramaya geçiliyor... ({len(questions)} soru)")
-        unique_ids = set(q_map.keys())
-    else:
-        if not candidate_pairs:
-            print("  Supabase pgvector: Hiç aday çift bulunamadı.")
-            return []
-            
-        print(f"  Supabase pgvector: {len(candidate_pairs):,} potansiyel aday çift döndü.")
-        valid_candidates = []
-        for pair in candidate_pairs:
-            q1_id = pair.get("q1_id")
-            q2_id = pair.get("q2_id")
-            if q1_id in q_map and q2_id in q_map:
-                valid_candidates.append(pair)
-                unique_ids.add(q1_id)
-                unique_ids.add(q2_id)
-                
-        if not valid_candidates:
-            print("  Filtrelenmiş aday çift kalmadı.")
-            return []
-        
+        print(f"  ⚠️ RPC timeout. Embedding indirmeden leksikal fallback çalışıyor ({len(questions)} soru)...")
+        return _lexical_only_fallback(questions, pre_filter_t, thresholds)
+    # ──────────────────────────────────────────────────────────────────────────
+
+    if not candidate_pairs:
+        print("  Supabase pgvector: Hiç aday çift bulunamadı.")
+        return []
+
+    print(f"  Supabase pgvector: {len(candidate_pairs):,} potansiyel aday çift döndü.")
+    valid_candidates = []
+    unique_ids = set()
+    for pair in candidate_pairs:
+        q1_id = pair.get("q1_id")
+        q2_id = pair.get("q2_id")
+        if q1_id in q_map and q2_id in q_map:
+            valid_candidates.append(pair)
+            unique_ids.add(q1_id)
+            unique_ids.add(q2_id)
+
+    if not valid_candidates:
+        print("  Filtrelenmiş aday çift kalmadı.")
+        return []
+
     print(f"  Çözülecek benzersiz soru sayısı: {len(unique_ids):,}")
-    
-    # 3. Dynamically fetch stem & explanation embeddings only for these unique candidate IDs
+
+    # 3. Sadece aday çiftlerin embedding'lerini indir (RPC başarılı → küçük set)
     embeddings_map = {}
     id_list = list(unique_ids)
-    
-    import json
-    import math
-    
+
     for chunk_start in range(0, len(id_list), 100):
         chunk = id_list[chunk_start:chunk_start+100]
         ids_str = ",".join(chunk)
@@ -580,17 +632,16 @@ def find_duplicates(questions: list) -> list:
             for row in res:
                 stem = row.get("stem_embedding")
                 exp = row.get("explanation_embedding")
-                
-                # Pre-parse strings and pre-compute magnitudes
+
                 if isinstance(stem, str): stem = json.loads(stem)
                 if isinstance(exp, str): exp = json.loads(exp)
-                
+
                 if stem:
                     stem = [float(x) for x in stem]
                     stem_mag = math.sqrt(sum(x*x for x in stem))
                 else:
                     stem_mag = 0.0
-                    
+
                 if exp:
                     exp = [float(x) for x in exp]
                     exp_mag = math.sqrt(sum(x*x for x in exp))
@@ -603,73 +654,40 @@ def find_duplicates(questions: list) -> list:
                 }
         except Exception as e:
             print(f"   ⚠️ Aday embedding'leri çekilirken hata: {e}")
-            
-    # In-Memory Fallback Candidate Generation
-    if valid_candidates is None:
-        valid_candidates = []
-        for i in range(len(id_list)):
-            q1_id = id_list[i]
-            emb1 = embeddings_map.get(q1_id)
-            if not emb1 or not emb1["stem"] or not emb1["exp"]: continue
-            
-            s1, sm1 = emb1["stem"], emb1["stem_mag"]
-            e1, em1 = emb1["exp"], emb1["exp_mag"]
-            
-            for j in range(i + 1, len(id_list)):
-                q2_id = id_list[j]
-                emb2 = embeddings_map.get(q2_id)
-                if not emb2 or not emb2["stem"] or not emb2["exp"]: continue
-                
-                s2, sm2 = emb2["stem"], emb2["stem_mag"]
-                e2, em2 = emb2["exp"], emb2["exp_mag"]
-                
-                sim_stem = sum(x*y for x,y in zip(s1, s2)) / (sm1 * sm2) if sm1 and sm2 else 0.0
-                sim_exp = sum(x*y for x,y in zip(e1, e2)) / (em1 * em2) if em1 and em2 else 0.0
-                
-                sim = (0.7 * sim_stem) + (0.3 * sim_exp)
-                
-                if sim >= pre_filter_t:
-                    valid_candidates.append({
-                        "q1_id": q1_id,
-                        "q2_id": q2_id
-                    })
-        print(f"  In-Memory tarama sonucu {len(valid_candidates)} potansiyel aday bulundu.")
-            
-    results_map = {}
-    
+
     # 4. Calculate exact hybrid similarity (0.7 stem + 0.3 exp) in Python
+    results_map = {}
     for pair in valid_candidates:
         q1_id = pair["q1_id"]
         q2_id = pair["q2_id"]
-        
+
         q1 = q_map[q1_id]
         q2 = q_map[q2_id]
-        
+
         emb1 = embeddings_map.get(q1_id)
         emb2 = embeddings_map.get(q2_id)
-        
+
         if not emb1 or not emb2:
             continue
-            
+
         stem1 = emb1.get("stem")
         stem2 = emb2.get("stem")
         exp1 = emb1.get("exp")
         exp2 = emb2.get("exp")
-        
+
         if not stem1 or not stem2 or not exp1 or not exp2:
             continue
-            
+
         sim_stem = cosine_similarity(stem1, stem2)
         sim_exp = cosine_similarity(exp1, exp2)
         sim = (0.7 * sim_stem) + (0.3 * sim_exp)
-        
+
         u1 = q1.get("unit", "")
         u2 = q2.get("unit", "")
         t1 = thresholds.get(u1, 0.75)
         t2 = thresholds.get(u2, 0.75)
         t = min(t1, t2)
-        
-        # Check against target dynamic threshold
+
         if sim >= t:
             p_key = tuple(sorted((q1_id, q2_id)))
             if p_key not in results_map:
@@ -687,10 +705,45 @@ def find_duplicates(questions: list) -> list:
                     "q1_raw": q1,
                     "q2_raw": q2
                 }
-                
+
     results = list(results_map.values())
     results.sort(key=lambda x: x["overlap_ratio"], reverse=True)
     return results
+
+
+def find_duplicates_chunked(questions: list) -> list:
+    """
+    Çoklu-ünite listesi için otomatik ünite-bazlı bölme.
+    Her ünite ayrı RPC çağrısıyla işlenir → timeout riski düşer, egress azalır.
+    Tek ünite gelirse doğrudan find_duplicates()'e delege eder.
+    """
+    from collections import defaultdict
+
+    units: dict = defaultdict(list)
+    for q in questions:
+        units[q.get("unit", "")].append(q)
+
+    if len(units) <= 1:
+        return find_duplicates(questions)
+
+    print(f"  Çoklu ünite tespit edildi ({len(units)} ünite) → Ünite bazlı bölme aktif.")
+    all_results = []
+    seen_pairs: set = set()
+
+    for unit_name, unit_questions in units.items():
+        if not unit_name:
+            continue
+        print(f"  [{unit_name}] {len(unit_questions)} soru taranıyor...")
+        results = find_duplicates(unit_questions)
+        for r in results:
+            p_key = tuple(sorted((r.get("question_1_id", ""), r.get("question_2_id", ""))))
+            if p_key not in seen_pairs:
+                seen_pairs.add(p_key)
+                all_results.append(r)
+
+    all_results.sort(key=lambda x: x["overlap_ratio"], reverse=True)
+    print(f"  Toplam: {len(all_results)} benzersiz aday çift.")
+    return all_results
 
 # ─── Kürasyon ─────────────────────────────────────────────────────────────────
 

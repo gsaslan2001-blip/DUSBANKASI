@@ -33,7 +33,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "l
 from config import SUPABASE_URL, SUPABASE_KEY
 from lib.db_layer import batch_flag, batch_delete, fetch_all_questions
 from lib.audit_logic import (
-    find_duplicates, curate_pairs, curate_pairs_async, write_curation_summary,
+    find_duplicates, find_duplicates_chunked, curate_pairs, curate_pairs_async, write_curation_summary,
 )
 
 LOG_DIR    = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "logs"))
@@ -113,8 +113,11 @@ async def run_audit(
         return 0, 0
 
     # Aşama 1 — Hibrit Çapraz Tarama (Lexical + Semantic)
+    # Ünite belirtilmişse zaten tek-ünite sorgu geldi → find_duplicates yeterli.
+    # Ünite belirtilmemişse (ders geneli) → otomatik ünite bölümlemesi yap; her ünite
+    # ayrı RPC çağrısı alır → RPC timeout riski ve embedding indirme hacmi düşer.
     print(f"\n[Aşama 1] Hibrit Radar Taraması ({len(questions):,} soru)...")
-    results = find_duplicates(questions)
+    results = find_duplicates(questions) if unit else find_duplicates_chunked(questions)
     print(f"   🎯 Potansiyel kopya/zayıf çift: {len(results)}")
 
     if not results:
