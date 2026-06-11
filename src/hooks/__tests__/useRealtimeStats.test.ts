@@ -16,19 +16,24 @@ vi.mock('react', () => ({
 }));
 
 describe('useRealtimeStats', () => {
-  let effectCallback: any;
+  // Hook has 3 useEffect calls:
+  //   [0] callbackRef sync  (useEffect(() => { callbackRef.current = ... }))
+  //   [1] subscription      (useEffect(() => { subscribe logic ... }))
+  //   [2] visibility        (useEffect(() => { visibilitychange ... }))
+  let effectCallbacks: any[] = [];
   let refs: any[] = [];
   let refIndex = 0;
 
   beforeEach(() => {
     vi.clearAllMocks();
+    effectCallbacks = [];
     refs = [];
     refIndex = 0;
-    
+
     vi.mocked(React.useEffect).mockImplementation((cb) => {
-      effectCallback = cb;
+      effectCallbacks.push(cb);
     });
-    
+
     vi.mocked(React.useRef).mockImplementation((init) => {
       if (refIndex >= refs.length) {
         refs.push({ current: init });
@@ -46,10 +51,11 @@ describe('useRealtimeStats', () => {
 
   it('should not subscribe if enabled is false', () => {
     useRealtimeStats({ userId: 'u1', deviceId: 'd1', onStatUpdate: vi.fn(), enabled: false });
-    
-    expect(effectCallback).toBeDefined();
-    effectCallback();
-    
+
+    const subscribeEffect = effectCallbacks[1];
+    expect(subscribeEffect).toBeDefined();
+    subscribeEffect();
+
     expect(supabase.channel).not.toHaveBeenCalled();
   });
 
@@ -61,14 +67,15 @@ describe('useRealtimeStats', () => {
     vi.mocked(supabase.channel).mockReturnValue(mockChannel as any);
 
     useRealtimeStats({ userId: 'u1', deviceId: 'd1', onStatUpdate: vi.fn() });
-    const cleanup = effectCallback();
+    const subscribeEffect = effectCallbacks[1];
+    const cleanup = subscribeEffect();
 
     expect(supabase.channel).toHaveBeenCalledWith('stats-u1');
     expect(mockChannel.on).toHaveBeenCalledTimes(2);
     expect(mockChannel.on).toHaveBeenCalledWith('postgres_changes', expect.objectContaining({
-      event: 'INSERT', filter: 'user_id=eq.u1'
+      event: 'INSERT', filter: 'user_id=eq.u1&device_id=neq.d1'
     }), expect.any(Function));
-    
+
     cleanup();
     expect(supabase.removeChannel).toHaveBeenCalledWith(mockChannel);
   });
@@ -81,12 +88,10 @@ describe('useRealtimeStats', () => {
     vi.mocked(supabase.channel).mockReturnValue(mockChannel as any);
 
     useRealtimeStats({ userId: null, deviceId: 'd2', onStatUpdate: vi.fn() });
-    effectCallback();
+    effectCallbacks[1]();
 
-    expect(supabase.channel).toHaveBeenCalledWith('stats-d2');
-    expect(mockChannel.on).toHaveBeenCalledWith('postgres_changes', expect.objectContaining({
-      event: 'INSERT', filter: 'device_id=eq.d2'
-    }), expect.any(Function));
+    // userId is null → hook returns early, no subscription opened
+    expect(supabase.channel).not.toHaveBeenCalled();
   });
 
   it('should ignore payload from same device and process from other device', () => {
@@ -102,7 +107,7 @@ describe('useRealtimeStats', () => {
 
     const onStatUpdate = vi.fn();
     useRealtimeStats({ userId: 'u1', deviceId: 'd1', onStatUpdate });
-    effectCallback();
+    effectCallbacks[1]();
 
     expect(insertCallback).toBeDefined();
     
@@ -144,7 +149,7 @@ describe('useRealtimeStats', () => {
     vi.mocked(supabase.channel).mockReturnValue(mockChannel as any);
 
     useRealtimeStats({ userId: 'u1', deviceId: 'd1', onStatUpdate: vi.fn() });
-    effectCallback();
+    effectCallbacks[1]();
 
     expect(subscribeCallback).toBeDefined();
     

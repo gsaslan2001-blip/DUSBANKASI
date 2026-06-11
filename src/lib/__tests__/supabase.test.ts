@@ -72,7 +72,9 @@ vi.mock('../dateUtils', () => ({
 
 vi.mock('../idb', () => ({
   getCachedQuestions: vi.fn().mockResolvedValue([]),
+  getQuestionsFromContentCache: vi.fn().mockResolvedValue([]),
   saveQuestionsToCache: vi.fn().mockResolvedValue(undefined),
+  saveQuestionsToContentCache: vi.fn().mockResolvedValue(undefined),
   deleteQuestionsFromCache: vi.fn().mockResolvedValue(undefined),
 }));
 
@@ -265,7 +267,7 @@ describe('Pagination & Fetch functions (fetchQuestions, fetchHighYieldQuestions)
     expect(c2._query).toContainEqual(['range', [500, 999]]);
     
     expect(res.length).toBe(510);
-    expect(idb.saveQuestionsToCache).toHaveBeenCalledWith(res);
+    expect(idb.saveQuestionsToContentCache).toHaveBeenCalledWith(res);
   });
 
   it('fetchQuestions without cache uses Promise.all pagination for fetchAllQuestions', async () => {
