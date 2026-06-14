@@ -287,7 +287,9 @@ describe('getRecentActivity', () => {
 // ─── syncStatsDown merge logic ────────────────────────────────────────────────
 
 describe('syncStatsDown', () => {
-  it('uses cloud stats as authoritative when there is no pending local sync', async () => {
+  it('max-merge: bekleyen push olmasa bile local ilerleme geri gitmez (stale cloud kazanamaz)', async () => {
+    // Local TODAY=920 attempts, cloud YESTERDAY=600. Eski hatalı davranış cloud'u
+    // "otoriter" sayıp 600'e düşürüyordu (veri kaybı). Doğru davranış: max-merge.
     const localStats: StatsMap = {
       q1: { attempts: 920, corrects: 700, lastSeen: TODAY, wrongChoices: [] },
     };
@@ -299,7 +301,8 @@ describe('syncStatsDown', () => {
 
     await syncStatsDown();
 
-    expect(loadAllStats().q1.attempts).toBe(600);
+    expect(loadAllStats().q1.attempts).toBe(920); // max(920, 600), local lastSeen daha güncel
+    expect(loadAllStats().q1.corrects).toBe(700);
   });
 
   it('preserves local stats when pending push fails', async () => {

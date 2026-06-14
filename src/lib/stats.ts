@@ -649,6 +649,17 @@ async function _doSyncStatsUp(all: boolean): Promise<PushStatsResult> {
 export async function syncStatsDown(): Promise<void> {
   if (!currentSyncUserId) return;
 
+  // ── BİR KEZLİK İYİLEŞTİRME (v4.35) ──────────────────────────────────────────
+  // Önceki delta-merge regresyonu (B10): delta çekim, local stats'ı SİLİP yalnızca
+  // değişen alt küme ile değiştiriyordu → "1098 çözüldü" göstergesi delta boyutuna
+  // (örn. 12) düştü. Düzeltme yayıldığında, etkilenen her istemci stats_last_pull'u
+  // bir kez sıfırlayarak TAM çekim yapsın ve eksiksiz geçmişini cloud'dan geri alsın.
+  const HEAL_KEY = 'dus_stats_heal_v1';
+  if (!localStorage.getItem(HEAL_KEY)) {
+    localStorage.removeItem('stats_last_pull');
+    localStorage.setItem(HEAL_KEY, '1');
+  }
+
   // Bekleyen push varsa önce onu dene
   const hadPendingSync = localStorage.getItem(PENDING_SYNC_KEY) === '1';
   let pendingPushFailed = false;
@@ -676,37 +687,38 @@ export async function syncStatsDown(): Promise<void> {
   ]);
 
   // ── Soru istatistikleri merge ──────────────────────────────────────────────
+  // KRİTİK: MAX-MERGE her zaman local ÜSTÜNE uygulanır, asla local'i değiştirmez.
+  // pullAllDeviceStats delta (pullSince) modunda yalnızca DEĞİŞEN alt kümeyi döner;
+  // bunu doğrudan yazmak (eski `nextStats = allCloudStats`) tüm geçmişi delta boyutuna
+  // indirirdi (regresyon: 1098 → 12). Bu yüzden cloud sonucu — delta olsun, tam olsun —
+  // her durumda mevcut local map'in üzerine birleştirilir. Local'de olup cloud'da
+  // olmayan kayıtlar (henüz push edilmemiş) korunur.
   if (cloudStatsResult.status === 'fulfilled') {
     const allCloudStats = cloudStatsResult.value;
     if (Object.keys(allCloudStats).length > 0) {
-      let nextStats: StatsMap = allCloudStats;
-
-      if (pendingPushFailed) {
-        const localStats = loadAllStats();
-        nextStats = { ...localStats };
-        for (const [id, cloud] of Object.entries(allCloudStats)) {
-          const local = localStats[id];
-          const cloudSeen = cloud.lastSeen ?? '';
-          const localSeen = local?.lastSeen ?? '';
-          const cloudWins = !local || cloudSeen > localSeen ||
-            (cloudSeen === localSeen && cloud.attempts > (local?.attempts ?? 0));
-          const attempts = Math.max(cloud.attempts, local?.attempts ?? 0);
-          const corrects = Math.max(cloud.corrects, local?.corrects ?? 0);
-          nextStats[id] = {
-            attempts,
-            corrects,
-            lastSeen: [cloudSeen, localSeen].sort().reverse()[0],
-            difficulty: (cloudWins ? cloud.difficulty : local?.difficulty) ?? accuracyToDifficulty(corrects, attempts),
-            wrongChoices: mergeWrongChoices(local?.wrongChoices ?? [], cloud.wrongChoices ?? []),
-            // Kazananın geçmişini al — birleştirme yerine, aynı oturum verilerinin
-            // kat kat çoğalmasını (her sync'te ikiye katlanma) önler.
-            timeSpentHistory: cloudWins
-              ? (cloud.timeSpentHistory ?? [])
-              : (local?.timeSpentHistory ?? []),
-          };
-        }
+      const localStats = loadAllStats();
+      const nextStats: StatsMap = { ...localStats };
+      for (const [id, cloud] of Object.entries(allCloudStats)) {
+        const local = localStats[id];
+        const cloudSeen = cloud.lastSeen ?? '';
+        const localSeen = local?.lastSeen ?? '';
+        const cloudWins = !local || cloudSeen > localSeen ||
+          (cloudSeen === localSeen && cloud.attempts > (local?.attempts ?? 0));
+        const attempts = Math.max(cloud.attempts, local?.attempts ?? 0);
+        const corrects = Math.max(cloud.corrects, local?.corrects ?? 0);
+        nextStats[id] = {
+          attempts,
+          corrects,
+          lastSeen: [cloudSeen, localSeen].sort().reverse()[0],
+          difficulty: (cloudWins ? cloud.difficulty : local?.difficulty) ?? accuracyToDifficulty(corrects, attempts),
+          wrongChoices: mergeWrongChoices(local?.wrongChoices ?? [], cloud.wrongChoices ?? []),
+          // Kazananın geçmişini al — birleştirme yerine, aynı oturum verilerinin
+          // kat kat çoğalmasını (her sync'te ikiye katlanma) önler.
+          timeSpentHistory: cloudWins
+            ? (cloud.timeSpentHistory ?? [])
+            : (local?.timeSpentHistory ?? []),
+        };
       }
-
       safeWriteStats(nextStats);
     }
   }

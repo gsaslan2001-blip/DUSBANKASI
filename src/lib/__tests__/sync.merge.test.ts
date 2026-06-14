@@ -139,6 +139,32 @@ describe('streak MERGE', () => {
   });
 });
 
+describe('delta çekim local stats\'ı SİLMEZ (regresyon kilidi — 1098 → 12 hatası)', () => {
+  it('bekleyen push YOKKEN, delta cloud alt kümesi local\'i değiştirmez, üstüne birleşir', async () => {
+    // Local'de 3 soru var (geçmiş ilerleme). Cloud delta yalnızca q1\'i döndürür.
+    localStorage.setItem(STATS_KEY, JSON.stringify({
+      q1: { attempts: 1, corrects: 1, lastSeen: YESTERDAY, wrongChoices: [] },
+      q2: { attempts: 4, corrects: 3, lastSeen: YESTERDAY, wrongChoices: [] },
+      q3: { attempts: 2, corrects: 0, lastSeen: YESTERDAY, wrongChoices: [] },
+    }));
+    // PENDING_SYNC ayarlanmadı → pendingPushFailed = false (normal yol)
+    vi.mocked(pullAllDeviceStats).mockResolvedValueOnce({
+      q1: { attempts: 3, corrects: 2, lastSeen: TODAY } as never,
+    });
+
+    await syncStatsDown();
+
+    const stats = loadAllStats();
+    // q2 ve q3 KORUNUR (eski hata bunları siliyordu → toplam 1\'e düşüyordu)
+    expect(Object.keys(stats).sort()).toEqual(['q1', 'q2', 'q3']);
+    expect(stats.q2.attempts).toBe(4);
+    expect(stats.q3.attempts).toBe(2);
+    // q1 cloud ile max-merge edilir
+    expect(stats.q1.attempts).toBe(3); // max(1, 3)
+    expect(stats.q1.corrects).toBe(2); // max(1, 2)
+  });
+});
+
 describe('soru istatistiği GREATEST (bekleyen push başarısızsa)', () => {
   it('attempts ve corrects iki cihazın maksimumunu alır', async () => {
     localStorage.setItem(STATS_KEY, JSON.stringify({
