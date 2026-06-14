@@ -1,6 +1,6 @@
 """
-Semantik benzerlik >= 0.80 olan kopya sorulardan yenisini sil.
-Önce log kaydı alır, sonra toplu siler.
+DEPRECATED: Bu araç legacy 'embedding' sütununu kullanıyor (v4.33'te DB'den düşürüldü).
+Kopya silme için scripts/tools/smart_audit_pipeline.py kullanın.
 """
 import os, sys, asyncio, aiohttp, json
 from datetime import datetime

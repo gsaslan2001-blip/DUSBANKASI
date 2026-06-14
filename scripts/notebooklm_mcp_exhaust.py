@@ -386,21 +386,37 @@ def parse_anchor_response(text):
     return lines, reported_total
 
 
+def _tokenize_stem(text: str) -> set:
+    """Türkçe küçük harfe çevirir, noktalama ayıklar, token set döner."""
+    import re as _re
+    text = text.lower()
+    # Türkçe karakter normalizasyonu
+    tr_map = str.maketrans("İIÇŞĞÜÖ", "içşğüö".lower() + "iicsğüö")
+    text = text.translate(tr_map)
+    tokens = _re.split(r'[^a-zçşğüöı]+', text)
+    return {t for t in tokens if len(t) >= 3}
+
+
 def classify_anchors(anchors, questions):
     """
     Her çapayı YALNIZCA soruların KÖKLERİ üzerinden kontrol eder.
     Açıklama (explanation) ve şıklar (option_a..e) SAYILMAZ — bir çapa ancak
     DOĞRUDAN bir sorunun KÖKÜNDE soruluyorsa "sorgulanmış" sayılır.
+
+    B11: Kelime düzeyinde token eşleşme (önceki substring araması "kas" →
+    "vasküler" false-positive'ini engeller). Gövde+ek toleransı: w==token
+    veya token.startswith(w) şeklinde kontrol edilir.
     """
     if not anchors:
         return [], []
     if not questions:
         return [], list(anchors)
 
-    stem_corpus = ""
+    # Tüm soru köklerinden birleşik token seti
+    corpus_tokens: set = set()
     for q in questions:
         stem = (q.get("question", "") or "").lower()
-        stem_corpus += " " + stem
+        corpus_tokens |= _tokenize_stem(stem)
 
     covered = []
     uncovered = []
@@ -411,7 +427,10 @@ def classify_anchors(anchors, questions):
             uncovered.append(anchor)
             continue
 
-        match_count = sum(1 for w in words if w in stem_corpus)
+        def _word_in_corpus(w: str) -> bool:
+            return any(w == t or t.startswith(w) for t in corpus_tokens)
+
+        match_count = sum(1 for w in words if _word_in_corpus(w))
         match_ratio = match_count / len(words)
 
         if match_ratio >= 0.60:

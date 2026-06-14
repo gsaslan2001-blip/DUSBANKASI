@@ -1,6 +1,9 @@
 """
-test_patch.py — Backfill PATCH teşhis aracı
-=============================================
+DEPRECATED: Bu araç legacy 'embedding' sütununu kullanıyor (v4.33'te DB'den düşürüldü).
+Sütun artık mevcut değil; bu script çalıştırılırsa 400 hatası verecektir.
+
+test_patch.py — Backfill PATCH teşhis aracı (ARTIK KULLANILAMAZ)
+=================================================================
 Tek bir soru üzerinde tam embedding → PATCH döngüsünü çalıştırır.
 Hata varsa tam HTTP yanıtını yazdırır, başarılıysa round-trip süresini gösterir.
 

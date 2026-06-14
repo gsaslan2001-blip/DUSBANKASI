@@ -754,7 +754,7 @@ export async function pullStatsFromCloud(
 /** TÜM cihazların cloud stats'ını çeker ve her soru için en yüksek attempts olanı döner.
  *  @param userId — Giriş yapılmışsa sadece o kullanıcının verisini çeker; yoksa tüm cihazları.
  */
-export async function pullAllDeviceStats(userId?: string): Promise<Record<string, CloudStat>> {
+export async function pullAllDeviceStats(userId?: string, sinceIso?: string): Promise<Record<string, CloudStat>> {
   let allData: PulledStatRow[] = [];
   let from = 0;
   const limit = 1000;
@@ -769,6 +769,11 @@ export async function pullAllDeviceStats(userId?: string): Promise<Record<string
     // Giriş yapılmışsa sadece kullanıcının kendi verisini çek
     if (userId) {
       query = query.eq('user_id', userId);
+    }
+
+    // B10: delta çekim — yalnızca son çekimden beri güncellenenler
+    if (sinceIso) {
+      query = query.gt('updated_at', sinceIso);
     }
 
     const { data, error } = await query;
@@ -1054,7 +1059,7 @@ export async function fetchExamWrongAnswers(
       is_correct,
       time_spent,
       question_order,
-      questions!inner(*)
+      questions!inner(${SELECT_COLS})
     `)
     .eq('exam_id', examId)
     .eq('user_id', userId)

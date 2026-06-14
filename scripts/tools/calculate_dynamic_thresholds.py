@@ -92,33 +92,28 @@ def compute_threshold_for_unit(lesson, unit, method="gaussian", k=1.5, percentil
     encoded_lesson = urllib.parse.quote(lesson)
     encoded_unit = urllib.parse.quote(unit)
     
-    endpoint = f"questions?select=id,stem_embedding,explanation_embedding,embedding&lesson=eq.{encoded_lesson}&unit=eq.{encoded_unit}&limit=200"
+    endpoint = f"questions?select=id,stem_embedding,explanation_embedding&lesson=eq.{encoded_lesson}&unit=eq.{encoded_unit}&limit=200"
     questions = supabase_get(endpoint)
-    
+
     if not questions:
         return None
-        
+
     similarities = []
-    
+
     for i in range(len(questions)):
         for j in range(i + 1, len(questions)):
             q1 = questions[i]
             q2 = questions[j]
-            
+
             if q1.get('stem_embedding') and q2.get('stem_embedding') and q1.get('explanation_embedding') and q2.get('explanation_embedding'):
                 v1_stem = parse_vector(q1['stem_embedding'])
                 v2_stem = parse_vector(q2['stem_embedding'])
                 v1_exp = parse_vector(q1['explanation_embedding'])
                 v2_exp = parse_vector(q2['explanation_embedding'])
-                
+
                 sim_stem = cosine_similarity(v1_stem, v2_stem)
                 sim_exp = cosine_similarity(v1_exp, v2_exp)
                 sim_total = (0.7 * sim_stem) + (0.3 * sim_exp)
-                similarities.append(sim_total)
-            elif q1.get('embedding') and q2.get('embedding'):
-                v1 = parse_vector(q1['embedding'])
-                v2 = parse_vector(q2['embedding'])
-                sim_total = cosine_similarity(v1, v2)
                 similarities.append(sim_total)
                 
     if not similarities:

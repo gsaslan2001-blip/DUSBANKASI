@@ -333,30 +333,19 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
         "Prefer": "return=minimal"
     }
 
-    # ── Embedding al (tüm batch için tek istekte) ──
-    semantic_texts = [
-        f"{q.get('question', '')} {q.get('explanation', '')}"
-        for q in questions
-    ]
+    # ── Embedding al (tüm batch için tek istekte — yalnızca audit vektörleri) ──
     stem_texts = [q.get('question', '') or " " for q in questions]
     expl_texts = [q.get('explanation', '') or " " for q in questions]
-    
-    embeddings = []
+
     stem_embeddings = []
     expl_embeddings = []
-    
-    if openai_client and semantic_texts:
+
+    if openai_client and stem_texts:
         import time as _time
         try:
-            for chunk_idx in range(0, len(semantic_texts), 50):
-                c_sem = semantic_texts[chunk_idx:chunk_idx+50]
+            for chunk_idx in range(0, len(stem_texts), 50):
                 c_stem = stem_texts[chunk_idx:chunk_idx+50]
                 c_expl = expl_texts[chunk_idx:chunk_idx+50]
-
-                r_sem = openai_client.embeddings.create(
-                    model="text-embedding-3-large", input=c_sem, dimensions=1536
-                )
-                embeddings.extend([item.embedding for item in r_sem.data])
 
                 r_stem = openai_client.embeddings.create(
                     model="text-embedding-3-large", input=c_stem, dimensions=1536
@@ -368,7 +357,7 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
                 )
                 expl_embeddings.extend([item.embedding for item in r_expl.data])
 
-                if chunk_idx + 50 < len(semantic_texts):
+                if chunk_idx + 50 < len(stem_texts):
                     _time.sleep(0.5)
         except Exception as e:
             print(f"   ⚠️ OpenAI Embedding hatası (kalan sorular embeddingsiz eklenecek): {e}")
@@ -390,8 +379,6 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
             "correct_answer": q.get("correctAnswer", ""),
             "explanation": q.get("explanation", "")
         }
-        if embeddings and i < len(embeddings):
-            row["embedding"] = embeddings[i]
         if stem_embeddings and i < len(stem_embeddings):
             row["stem_embedding"] = stem_embeddings[i]
         if expl_embeddings and i < len(expl_embeddings):

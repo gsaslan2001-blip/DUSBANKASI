@@ -88,15 +88,7 @@ def main():
 
         # Generate embeddings
         try:
-            # 1. full embedding
-            emb_resp = client.embeddings.create(
-                model="text-embedding-3-large",
-                input=[semantic_text],
-                dimensions=1536
-            )
-            emb = emb_resp.data[0].embedding
-
-            # 2. stem embedding
+            # stem embedding
             stem_resp = client.embeddings.create(
                 model="text-embedding-3-large",
                 input=[question_text],
@@ -104,7 +96,7 @@ def main():
             )
             stem_emb = stem_resp.data[0].embedding
 
-            # 3. explanation embedding
+            # explanation embedding
             expl_resp = client.embeddings.create(
                 model="text-embedding-3-large",
                 input=[explanation_text],
@@ -114,7 +106,6 @@ def main():
 
             # Patch to DB
             payload = {
-                "embedding": emb,
                 "stem_embedding": stem_emb,
                 "explanation_embedding": expl_emb
             }

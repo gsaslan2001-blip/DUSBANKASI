@@ -4,10 +4,9 @@ import { useQuestions } from './hooks/useQuestions';
 import { motion } from 'framer-motion';
 import { useResumableSession } from './hooks/useResumableSession';
 import { useAuth } from './hooks/useAuth';
-import { useRealtimeStats } from './hooks/useRealtimeStats';
 import { AuthModal } from './components/AuthModal';
 import type { Question, QuestionSkeleton } from './data';
-import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadAllStats, getDeviceId, resetAllStats, setSyncUserId, mergeWrongChoices, SyncManager, getRecentActivity, setupSyncHandlers } from './lib/stats';
+import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadAllStats, resetAllStats, setSyncUserId, SyncManager, getRecentActivity, setupSyncHandlers } from './lib/stats';
 import ErrorAnalyticsView from './components/ErrorAnalyticsView';
 import SimulationResultView from './components/SimulationResultView';
 import StatisticsView from './components/StatisticsView';
@@ -231,27 +230,13 @@ export default function App() {
     setDialog({ type: 'prompt', message, defaultValue, title, onConfirm: (val) => { if (val && val.trim()) onConfirm(val.trim()); setDialog(null); }, onCancel: () => setDialog(null) });
   }, []);
 
-  useRealtimeStats({
-    userId: user?.id ?? null,
-    deviceId: getDeviceId(),
-    onStatUpdate: useCallback((questionId: string, stat) => {
-      // Başka cihazdan gelen güncellemeyi localStorage'a merge et
-      const stats = loadAllStats();
-      const local = stats[questionId];
-      const localSeen = local?.lastSeen ?? '';
-      const cloudSeen = stat.lastSeen ?? '';
-      if (!local || cloudSeen > localSeen) {
-        stats[questionId] = {
-          attempts: Math.max(stat.attempts, local?.attempts ?? 0),
-          corrects: Math.max(stat.corrects, local?.corrects ?? 0),
-          lastSeen: stat.lastSeen || local?.lastSeen || '',
-          difficulty: stat.difficulty ?? local?.difficulty,
-          wrongChoices: mergeWrongChoices(local?.wrongChoices ?? [], stat.wrongChoices ?? []),
-        };
-        localStorage.setItem('dus_question_stats', JSON.stringify(stats));
-      }
-    }, []),
-  });
+  // Sekmeye dönünce diğer cihazın verisini çek (Realtime yerine focus-pull)
+  useEffect(() => {
+    if (!user) return;
+    const onVisible = () => { if (document.visibilityState === 'visible') syncStatsDown(); };
+    document.addEventListener('visibilitychange', onVisible);
+    return () => document.removeEventListener('visibilitychange', onVisible);
+  }, [user]);
 
   const settings = useSettingsStore(s => s.settings);
   const setSettings = useSettingsStore(s => s.setSettings);
@@ -271,7 +256,7 @@ export default function App() {
       // B4: Anonim oturumda çözülen sorular user_id'siz cloud'a yazılır.
       // Giriş anında ÖNCE local'i user_id'li olarak push edip sahiplen,
       // SONRA cloud'dan çek — böylece anonim dönem verisi kaybolmaz.
-      syncStatsUp()
+      syncStatsUp({ all: true })
         .catch(() => {})
         .finally(() => {
           syncStatsDown()
@@ -730,7 +715,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
       default:
         setAppState('select-lesson');
     }
-  }, [appState, mode, isFavoritesExam]);
+  }, [appState, mode, isFavoritesExam, isHighYieldExam]);
 
   useEffect(() => {
     if (appState !== 'select-lesson') {
@@ -745,17 +730,23 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
   const handleImportDone = () => { loadQuestions(); setAppState('select-lesson'); setMode('quiz'); };
 
-  const handleExport = () => {
-    const dataStr = JSON.stringify(questions, null, 2);
-    const blob = new Blob([dataStr], { type: 'application/json' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.download = `dus_bankasi_yedek_${todayStr()}.json`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    URL.revokeObjectURL(url);
+  const handleExport = async () => {
+    const count = questions.length;
+    if (!window.confirm(`${count} sorunun tam metni indirilecek (~25 MB). Devam edilsin mi?`)) return;
+    try {
+      const rows = await fetchQuestionsByIds(questions.map(q => q.id));
+      const blob = new Blob([JSON.stringify(rows, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `dus_bankasi_yedek_${todayStr()}.json`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+    } catch (e) {
+      alert('Yedek indirme başarısız: ' + String(e));
+    }
   };
 
   const handleStartExam = async (amount: number) => {
@@ -829,7 +820,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               <ArrowLeft size={20} strokeWidth={2} className="text-indigo-400 group-hover:-translate-x-0.5 transition-transform" />
             )}
             <Logo />
-            <h1 className="text-xl font-black tracking-tighter hidden lg:block text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">DUSBANKASI<sup className="text-[10px] font-bold text-zinc-300 ml-0.5">®</sup></h1>
+            <h1 className={`text-xl font-black tracking-tighter hidden lg:block ${theme.text} drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]`}>DUSBANKASI<sup className="text-[10px] font-bold text-zinc-300 ml-0.5">®</sup></h1>
           </div>
           
           <CountdownWidget />
@@ -1058,6 +1049,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               }}
               highYieldCount={questions.filter(q => q.quality_flag === 'high_yield').length}
               hyLoading={hyLoading}
+              onAnalyticsClick={() => setAppState('analytics')}
               theme={theme}
             />
           ) : appState === 'select-highyield-unit' ? (
@@ -1247,7 +1239,8 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
 type DailyExamStatus = 'loading' | 'no-user' | 'not-ready' | { dayNumber: number; questionCount: number; resumeAt?: number };
 
-function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onHighYieldClick, highYieldCount, hyLoading, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onHighYieldClick: () => void; highYieldCount: number; hyLoading?: boolean; theme: Theme }) {
+function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onHighYieldClick, highYieldCount, hyLoading, onAnalyticsClick, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onHighYieldClick: () => void; highYieldCount: number; hyLoading?: boolean; onAnalyticsClick: () => void; theme: Theme }) {
+  const _lessonStats = loadAllStats();
   return (
     <div className="anim-slide-up w-full">
       <div className="mb-10 pl-2">
@@ -1415,10 +1408,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
           </button>
 
           <button
-            onClick={() => {
-              const el = document.querySelector('button[title="İstatistikler"]');
-              if (el) (el as HTMLElement).click();
-            }}
+            onClick={() => onAnalyticsClick()}
             className={`stagger-item col-span-2 md:col-span-2 lg:col-span-2 ${theme.cardGlass} rounded-[1.5rem] p-5 text-left card-hover group border border-indigo-500/10 hover:border-indigo-500/30 transition-all`}
           >
             <div className="flex justify-between items-center mb-3">
@@ -1451,7 +1441,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 stagger-children">
             {lessons.map((lesson) => {
               const l_qs = questions.filter(q => q.lesson === lesson);
-              const { total, solved } = getUnitProgress(l_qs.map(q => q.id));
+              const { total, solved } = getUnitProgress(l_qs.map(q => q.id), _lessonStats);
               const pct = total > 0 ? Math.round((solved / total) * 100) : 0;
               
               const isRad = lesson.toLowerCase().includes('radyoloji');
@@ -1569,10 +1559,11 @@ function HighYieldUnitSelection({ questions, theme, onSelect, onSelectAll, onSel
 function UnitSelection({ lesson, units, questions, onSelect, onDelete, onRename, onExportPDF, theme }: { lesson: string; units: string[]; questions: Question[]; onSelect: (u: string) => void; onDelete: (u: string, e: React.MouseEvent) => void; onRename: (u: string, e: React.MouseEvent) => void; onExportPDF: (selection: any[], title: string) => void; theme: Theme }) {
   const [search, setSearch] = useState('');
   const [sortBy, setSortBy] = useState<'name' | 'progress' | 'count'>('name');
+  const _unitStats = loadAllStats();
 
   const unitData = units.map(unit => {
     const unitQs = questions.filter(q => q.lesson === lesson && q.unit === unit);
-    const progress = getUnitProgress(unitQs.map(q => q.id));
+    const progress = getUnitProgress(unitQs.map(q => q.id), _unitStats);
     const pct = progress.total > 0 ? Math.round((progress.solved / progress.total) * 100) : 0;
     const acc = progress.solved > 0 ? progress.correct / progress.solved : 0;
     const barColor = acc >= 0.7 ? 'bg-emerald-400' : acc >= 0.3 ? 'bg-amber-400' : pct > 0 ? 'bg-red-400' : 'bg-white/10';

@@ -2,9 +2,9 @@
 //
 // App içi "Soru Ekle" akışının kanonik backend'i. Kalite filtreleri scripts/shared.py
 // (_validate_single_question) ile BİREBİR aynıdır; kabul edilen sorulara OpenAI
-// text-embedding-3-large (1536-dim) ile 3 embedding (embedding + stem_embedding +
-// explanation_embedding — audit hattıyla model birebir aynı) üretir ve questions
-// tablosuna 10'arlık chunk'lar hâlinde yazar.
+// text-embedding-3-large (1536-dim) ile stem_embedding + explanation_embedding üretir
+// (combined/legacy 'embedding' sütunu DB'den düşürüldü, v4.33) ve questions tablosuna
+// 10'arlık chunk'lar hâlinde yazar.
 //
 // OPENAI_API_KEY yalnızca Edge secret'tan okunur — frontend bundle'ına asla girmez.
 //   npx supabase secrets set OPENAI_API_KEY=sk-...
@@ -197,23 +197,19 @@ Deno.serve(async (req: Request) => {
     });
   }
 
-  // ── Embedding (kabul edilenler için) ──
-  let embeddings: number[][] = [];
+  // ── Embedding (kabul edilenler için — yalnızca audit vektörleri) ──
   let stemEmbeddings: number[][] = [];
   let explEmbeddings: number[][] = [];
-  
+
   if (OPENAI_API_KEY) {
     try {
-      const combinedTexts = accepted.map((q) => `${q.question || ""} ${q.explanation || ""}`);
       const stemTexts = accepted.map((q) => q.question || "");
       const explTexts = accepted.map((q) => q.explanation || "");
-      
-      const [embRes, stemRes, explRes] = await Promise.all([
-          embedBatch(combinedTexts, OPENAI_API_KEY, 1536, "text-embedding-3-large"),
+
+      const [stemRes, explRes] = await Promise.all([
           embedBatch(stemTexts, OPENAI_API_KEY, 1536, "text-embedding-3-large"),
           embedBatch(explTexts, OPENAI_API_KEY, 1536, "text-embedding-3-large")
       ]);
-      embeddings = embRes;
       stemEmbeddings = stemRes;
       explEmbeddings = explRes;
     } catch (e) {
@@ -233,7 +229,6 @@ Deno.serve(async (req: Request) => {
       correct_answer: ca,
       explanation: (q.explanation || "").trim(),
     };
-    if (embeddings.length > i) row.embedding = embeddings[i];
     if (stemEmbeddings.length > i) row.stem_embedding = stemEmbeddings[i];
     if (explEmbeddings.length > i) row.explanation_embedding = explEmbeddings[i];
     return row;

@@ -203,13 +203,12 @@ export function QuizView({
           settings={settings}
         />
 
-        <AnimatePresence mode="wait">
+        <AnimatePresence mode="popLayout">
           <motion.div
             key={currentIndex}
-            initial={{ opacity: 0, x: directionRef.current === 'forward' ? 16 : -16 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: directionRef.current === 'forward' ? -16 : 20 }}
-            transition={{ type: 'spring', stiffness: 700, damping: 35 }}
+            initial={{ opacity: 0, x: directionRef.current === 'forward' ? 8 : -8 }}
+            animate={{ opacity: 1, x: 0, transition: { duration: 0.12, ease: [0.16, 1, 0.3, 1] } }}
+            exit={{ opacity: 0, transition: { duration: 0.06 } }}
             className="flex-1 flex flex-col lg:flex-row gap-3 min-w-0"
             style={{ display: 'flex' }}
           >

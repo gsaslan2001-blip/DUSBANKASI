@@ -194,13 +194,13 @@ export const staggerParent: Variants = {
   hidden:  { opacity: 0 },
   visible: {
     opacity: 1,
-    transition: { staggerChildren: 0.06, delayChildren: 0.05 },
+    transition: { staggerChildren: 0.03, delayChildren: 0 },
   },
 };
 
 export const staggerChild: Variants = {
   hidden:  { opacity: 0, y: 10 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.25, ease: [0.16, 1, 0.3, 1] } },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.15, ease: [0.16, 1, 0.3, 1] } },
 };
 
 export const overlayFade: Variants = {

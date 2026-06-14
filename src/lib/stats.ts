@@ -17,6 +17,9 @@ const STREAK_KEY = 'dus_study_streak';
 const ACTIVITY_KEY = 'dus_activity_log';
 const PENDING_SYNC_KEY = 'dus_pending_sync';
 
+// B2: Yalnızca bu oturumda değişen sorular cloud'a push edilir (delta sync)
+const _dirtyIds = new Set<string>();
+
 export type WrongChoice = { selected: string; timestamp: string };
 
 export type QuestionStat = {
@@ -151,6 +154,7 @@ export function saveQuestionStat(
 
   // Güvenli yazma: localStorage kota aşarsa en eski %20 kaydı at, tekrar dene
   safeWriteStats(stats);
+  _dirtyIds.add(questionId);
   localStorage.setItem(PENDING_SYNC_KEY, '1');
   notifySyncStatus();
 
@@ -179,8 +183,8 @@ export function getDifficultyLabel(questionId: string): 'easy' | 'medium' | 'har
 }
 
 /** Zayıf soruları filtreler: en az 2 deneme, doğru oranı < %50 */
-export function getWeakQuestionIds(minAttempts = 2, maxCorrectRate = 0.5): string[] {
-  const stats = loadAllStats();
+export function getWeakQuestionIds(minAttempts = 2, maxCorrectRate = 0.5, preloadedStats?: StatsMap): string[] {
+  const stats = preloadedStats ?? loadAllStats();
   return Object.entries(stats)
     .filter(([, stat]) => {
       if (stat.attempts < minAttempts) return false;
@@ -191,8 +195,8 @@ export function getWeakQuestionIds(minAttempts = 2, maxCorrectRate = 0.5): strin
 }
 
 /** Bir ünitenin istatistik özetini döner */
-export function getUnitProgress(questionIds: string[]): { solved: number; correct: number; total: number; totalAttempts: number; totalCorrects: number } {
-  const stats = loadAllStats();
+export function getUnitProgress(questionIds: string[], preloadedStats?: StatsMap): { solved: number; correct: number; total: number; totalAttempts: number; totalCorrects: number } {
+  const stats = preloadedStats ?? loadAllStats();
   let solved = 0;
   let correct = 0;
   let totalAttempts = 0;
@@ -578,16 +582,21 @@ function notifySyncStatus(): void {
 // activity_log/streak için "pull→merge→push" akışı paralel çalışırsa lost-update riski.
 let _syncUpInFlight: Promise<PushStatsResult> | null = null;
 
-export function syncStatsUp(): Promise<PushStatsResult> {
+export function syncStatsUp(opts?: { all?: boolean }): Promise<PushStatsResult> {
   if (_syncUpInFlight) return _syncUpInFlight;
-  _syncUpInFlight = _doSyncStatsUp().finally(() => { _syncUpInFlight = null; });
+  _syncUpInFlight = _doSyncStatsUp(opts?.all ?? false).finally(() => { _syncUpInFlight = null; });
   return _syncUpInFlight;
 }
 
-async function _doSyncStatsUp(): Promise<PushStatsResult> {
+async function _doSyncStatsUp(all: boolean): Promise<PushStatsResult> {
   const deviceId = getDeviceId();
-  const stats = loadAllStats();
+  const allStats = loadAllStats();
   const userId = currentSyncUserId ?? undefined;
+
+  // Delta sync: giriş/full-push dışında yalnızca bu oturumda değişen soruları gönder
+  const stats: Record<string, ReturnType<typeof loadAllStats>[string]> = all
+    ? allStats
+    : Object.fromEntries([..._dirtyIds].filter(id => allStats[id]).map(id => [id, allStats[id]]));
 
   // Soru istatistikleri
   const result = await pushStatsToCloud(deviceId, stats, userId);
@@ -621,6 +630,9 @@ async function _doSyncStatsUp(): Promise<PushStatsResult> {
     ]);
   }
 
+  // Başarılı push sonrası dirty set'i temizle (hata varsa set korunur, sonraki flush tekrar dener)
+  if (result.errors.length === 0) _dirtyIds.clear();
+
   return result;
 }
 
@@ -650,9 +662,15 @@ export async function syncStatsDown(): Promise<void> {
     }
   }
 
+  // B10: delta çekim — son başarılı pull'dan bu yana güncellenenler
+  const STATS_LAST_PULL_KEY = 'stats_last_pull';
+  const lastPull = localStorage.getItem(STATS_LAST_PULL_KEY) ?? undefined;
+  const pullSince = lastPull && !pendingPushFailed ? lastPull : undefined; // push hatası varsa tam çekim yap
+  const pullTimestamp = new Date().toISOString();
+
   // Tüm cloud verilerini paralel çek
   const [cloudStatsResult, cloudActivityResult, cloudStreakResult] = await Promise.allSettled([
-    pullAllDeviceStats(currentSyncUserId),
+    pullAllDeviceStats(currentSyncUserId, pullSince),
     pullUserData(currentSyncUserId, 'activity_log'),
     pullUserData(currentSyncUserId, 'streak'),
   ]);
@@ -711,6 +729,11 @@ export async function syncStatsDown(): Promise<void> {
   if (cloudStreakResult.status === 'fulfilled' && cloudStreakResult.value != null) {
     const merged = mergeStreakData(loadStreak(), cloudStreakResult.value as StreakData);
     localStorage.setItem(STREAK_KEY, JSON.stringify(merged));
+  }
+
+  // B10: başarılı pull → zaman damgasını kaydet (bir sonraki pull'da delta kullanılır)
+  if (cloudStatsResult.status === 'fulfilled') {
+    localStorage.setItem(STATS_LAST_PULL_KEY, pullTimestamp);
   }
 }
 

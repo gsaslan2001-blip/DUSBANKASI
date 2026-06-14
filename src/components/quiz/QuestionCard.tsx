@@ -49,13 +49,13 @@ export const QuestionCard = memo(forwardRef<HTMLDivElement, QuestionCardProps>(f
 
   const handleOptionSelect = useCallback((key: string) => {
     if (isAnswered) return;
-    if (key === question.correctAnswer) {
+    if (key === question.correctAnswer && !window.matchMedia('(pointer: coarse)').matches) {
       confetti({
-        particleCount: 60,
+        particleCount: 30,
         spread: 55,
         origin: { y: 0.7 },
         colors: ['#34d399', '#6f72f2', '#fbbf24'],
-        ticks: 80,
+        ticks: 50,
         gravity: 1.2,
       });
     }
@@ -63,11 +63,8 @@ export const QuestionCard = memo(forwardRef<HTMLDivElement, QuestionCardProps>(f
   }, [isAnswered, question.correctAnswer, onSelect]);
 
   return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 10, scale: 0.99 }}
-      animate={{ opacity: 1, y: 0, scale: 1 }}
-      transition={{ type: 'spring', stiffness: 600, damping: 32 }}
+    <div
+      ref={ref as React.RefObject<HTMLDivElement>}
       className="double-bezel flex-1 flex flex-col w-full max-h-full"
       style={{ perspective: 1200 }}
     >
@@ -145,7 +142,7 @@ export const QuestionCard = memo(forwardRef<HTMLDivElement, QuestionCardProps>(f
                     className="absolute inset-0 rounded-xl pointer-events-none"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: [0, 0.12, 0] }}
-                    transition={{ duration: 1.2, repeat: 1 }}
+                    transition={{ duration: 0.6, repeat: 0 }}
                     style={{ background: '#f87171' }}
                   />
                 )}
@@ -157,6 +154,6 @@ export const QuestionCard = memo(forwardRef<HTMLDivElement, QuestionCardProps>(f
           })}
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }));

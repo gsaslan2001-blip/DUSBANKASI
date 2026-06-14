@@ -2,6 +2,7 @@ import { useState, useCallback, useRef } from 'react';
 import {
   fetchSkeletons,
   fetchHighYieldQuestions,
+  fetchQuestionsByIds,
   deleteQuestion as deleteQuestionRemote,
   toggleFavoriteInCloud,
   updateQuestion as updateQuestionRemote,
@@ -59,6 +60,7 @@ function rowToSkeleton(row: SkeletonRow): QuestionSkeleton {
  */
 export function useQuestions(): UseQuestionsResult {
   const [skeletons, setSkeletons] = useState<QuestionSkeleton[]>([]);
+  const skeletonsRef = useRef<QuestionSkeleton[]>([]);
   const [loadStatus, setLoadStatus] = useState<LoadingState>('idle');
   const [loadError, setLoadError] = useState('');
   const isFirstLoad = useRef(true);
@@ -69,7 +71,9 @@ export function useQuestions(): UseQuestionsResult {
     try {
       // Açılışta sadece iskelet (~250 KB) çekilir
       const rows = await fetchSkeletons();
-      setSkeletons(rows.map(rowToSkeleton));
+      const mapped = rows.map(rowToSkeleton);
+      skeletonsRef.current = mapped;
+      setSkeletons(mapped);
       setLoadStatus('loaded');
       if (isFirstLoad.current || forceSync) {
         syncStatsDown().catch(() => { });
@@ -89,22 +93,25 @@ export function useQuestions(): UseQuestionsResult {
   }, []);
 
   const loadHighYield = useCallback(async () => {
-    // High-yield iskeletleri zaten fetchSkeletons() ile gelmiş olur (quality_flag='high_yield')
-    // Bu fonksiyon sadece tam metinleri contentCache'e ön-yükler
-    const rows = await fetchHighYieldQuestions();
-    const newSkeletons = rows.map(r => rowToSkeleton({
-      id: r.id,
-      lesson: r.lesson,
-      unit: r.unit,
-      quality_flag: r.quality_flag ?? 'high_yield',
-      is_favorite: r.is_favorite,
-      updated_at: r.updated_at,
-    }));
-    setSkeletons(prev => {
-      const existingIds = new Set(prev.map(s => s.id));
-      const toAdd = newSkeletons.filter(s => !existingIds.has(s.id));
-      return toAdd.length > 0 ? [...prev, ...toAdd] : prev;
-    });
+    // Cache-first: skeleton'lardan HY id'lerini al, contentCache'e bak, eksikleri ağdan çek
+    const hyIds = skeletonsRef.current.filter(s => s.quality_flag === 'high_yield').map(s => s.id);
+    if (hyIds.length > 0) {
+      await fetchQuestionsByIds(hyIds); // cache-hit'ler ağa gitmez
+    } else {
+      // İlk kurulum: skeleton henüz yüklenmemiş, ağdan tam çekim yap
+      const rows = await fetchHighYieldQuestions();
+      const newSkeletons = rows.map(r => rowToSkeleton({
+        id: r.id, lesson: r.lesson, unit: r.unit,
+        quality_flag: r.quality_flag ?? 'high_yield',
+        is_favorite: r.is_favorite, updated_at: r.updated_at,
+      }));
+      skeletonsRef.current = [...skeletonsRef.current, ...newSkeletons];
+      setSkeletons(prev => {
+        const existingIds = new Set(prev.map(s => s.id));
+        const toAdd = newSkeletons.filter(s => !existingIds.has(s.id));
+        return toAdd.length > 0 ? [...prev, ...toAdd] : prev;
+      });
+    }
   }, []);
 
   const updateQuestion = useCallback(async (edited: Question) => {

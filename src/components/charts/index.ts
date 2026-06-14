@@ -18,7 +18,7 @@ export { WeeklyComparison } from './WeeklyComparison';
 export { RechartsWeeklyBar } from './RechartsWeeklyBar';
 export type { RechartsWeeklyDatum } from './RechartsWeeklyBar';
 
-// Yeni: Zaman Serisi
+// Zaman Serisi
 export { default as AreaStreamGraph } from './AreaStreamGraph';
 export type { StreamLessonSeries } from './AreaStreamGraph';
 export { default as SlopeGraph } from './SlopeGraph';
@@ -26,40 +26,28 @@ export type { SlopeDatum } from './SlopeGraph';
 export { default as DifferenceChart } from './DifferenceChart';
 export type { DifferenceDatum } from './DifferenceChart';
 
-// Yeni: Dağılım
-export { default as ConsistencyBoxPlot } from './ConsistencyBoxPlot';
-export type { BoxPlotDatum } from './ConsistencyBoxPlot';
-export { default as ViolinPlot } from './ViolinPlot';
-export type { ViolinDatum } from './ViolinPlot';
-export { default as BeeswarmPlot } from './BeeswarmPlot';
-export type { BeeswarmDatum } from './BeeswarmPlot';
+// Dağılım
 export { default as TimeHistogram } from './TimeHistogram';
 export type { TimeHistogramDatum } from './TimeHistogram';
 
-// Yeni: Çok Boyutlu
+// Çok Boyutlu
 export { ParallelCoordinates } from './ParallelCoordinates';
 export type { ParallelCoordinatesDatum } from './ParallelCoordinates';
 export { default as DersScatterPlot } from './DersScatterPlot';
 export type { DersScatterDatum } from './DersScatterPlot';
 
-// Yeni: Hiyerarşi
+// Hiyerarşi
 export { default as SunburstChart } from './SunburstChart';
 export type { SunburstDatum } from './SunburstChart';
-export { default as MarimekkoChart } from './MarimekkoChart';
-export type { MarimekkoDatum } from './MarimekkoChart';
 export { default as WaterfallChart } from './WaterfallChart';
 export type { WaterfallDatum } from './WaterfallChart';
 
-// Yeni: Hedef & İlişki
+// Hedef
 export { default as GaugeChart } from './GaugeChart';
 export { default as BulletChart } from './BulletChart';
 export type { BulletDatum } from './BulletChart';
-export { default as ForceGraph } from './ForceGraph';
-export type { ForceNode, ForceLink } from './ForceGraph';
-export { default as SankeyDiagram } from './SankeyDiagram';
-export { default as ChordDiagram } from './ChordDiagram';
 
-// Yeni: Diğer
+// Diğer
 export { default as RadarChart } from './RadarChart';
 export type { RadarDatum } from './RadarChart';
 export { default as TrendLineChart } from './TrendLineChart';
@@ -68,8 +56,6 @@ export { default as GoalRing } from './GoalRing';
 export type { GoalRingProps } from './GoalRing';
 export { default as StudyTreemap } from './StudyTreemap';
 export type { TreemapDatum } from './StudyTreemap';
-export { default as MorphingChart } from './MorphingChart';
-export type { MorphSegment } from './MorphingChart';
 
 // KPI Dashboard Components
 export { default as TrendIndicator } from './TrendIndicator';
