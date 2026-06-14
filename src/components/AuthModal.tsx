@@ -117,7 +117,7 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
       onClick={onClose}
     >
       <motion.div
-        className={`relative w-full max-w-sm mx-4 glass-card border border-white/[0.08] shadow-2xl shadow-black/60 p-6`}
+        className={`relative w-full max-w-sm mx-4 glass-card border border-[color:var(--color-border-default)] shadow-2xl shadow-black/40 p-6`}
         variants={modalPop}
         initial="initial"
         animate="animate"
@@ -127,7 +127,7 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
         {/* Kapat butonu */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 text-[color:var(--color-text-secondary)] opacity-70 hover:opacity-100 hover:text-[color:var(--color-text-primary)] transition-all rounded-lg p-1 hover:bg-white/[0.06]"
+          className="absolute top-4 right-4 text-[color:var(--color-text-secondary)] opacity-70 hover:opacity-100 hover:text-[color:var(--color-text-primary)] transition-all rounded-lg p-1 hover:bg-[color:var(--color-surface-2)]"
           aria-label="Kapat"
         >
           <X size={18} />
@@ -178,7 +178,7 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
               </div>
             </div>
 
-            <div className={`${theme.accentSoft} border border-indigo-800/30 rounded-xl px-4 py-3 text-xs text-indigo-300 text-center`}>
+            <div className={`${theme.accentSoft} border border-[color:var(--color-accent-dim)] rounded-xl px-4 py-3 text-xs text-[color:var(--color-accent-soft)] text-center`}>
               ✓ İstatistikler tüm cihazlarda otomatik senkronize ediliyor
             </div>
 
