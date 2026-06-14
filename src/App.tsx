@@ -50,41 +50,66 @@ function Logo() {
 }
 
 function CountdownWidget() {
-  const [daysLeft, setDaysLeft] = useState(0);
+  const [daysLeft, setDaysLeft] = useState<number | null>(null);
+  const [isExamDay, setIsExamDay] = useState(false);
+
   useEffect(() => {
+    const EXAM_DATE = '2026-11-01';
+    const TARGET = new Date(`${EXAM_DATE}T00:00:00`).getTime();
     const calc = () => {
-      const TARGET_DATE = new Date('2026-11-01T00:00:00').getTime();
-      setDaysLeft(Math.max(0, Math.floor((TARGET_DATE - Date.now()) / (1000 * 60 * 60 * 24))));
+      const today = new Date().toISOString().slice(0, 10);
+      setIsExamDay(today === EXAM_DATE);
+      setDaysLeft(Math.max(0, Math.floor((TARGET - Date.now()) / 86_400_000)));
     };
     calc();
-    const interval = setInterval(calc, 60000); // 1 dk
-    return () => clearInterval(interval);
+    const id = setInterval(calc, 60_000);
+    return () => clearInterval(id);
   }, []);
-  
-  if (daysLeft === 0) {
+
+  if (daysLeft === null) return null;
+
+  // Sınav günü
+  if (isExamDay) {
     return (
-      <div className="flex items-center gap-3 pr-5 pl-2.5 py-1.5 rounded-[1.25rem] bg-emerald-500/[0.08] border border-emerald-500/15 mx-4 lg:mx-8 hidden sm:flex shadow-[0_0_20px_rgba(16,185,129,0.05)] backdrop-blur-md relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 to-transparent blur-xl pointer-events-none" />
-        <div className="w-9 h-9 rounded-xl bg-emerald-500/[0.15] flex items-center justify-center border border-emerald-400/20 shadow-lg shadow-emerald-500/20 relative z-10">
-          <span className="text-emerald-500 dark:text-emerald-400 font-black text-xs">✓</span>
+      <div className="flex items-center gap-3 pr-5 pl-2.5 py-1.5 rounded-[1.25rem] bg-amber-500/[0.08] border border-amber-500/15 mx-4 lg:mx-8 hidden sm:flex shadow-[0_0_20px_rgba(245,158,11,0.05)] backdrop-blur-md relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-amber-500/5 to-transparent blur-xl pointer-events-none" />
+        <div className="w-9 h-9 rounded-xl bg-amber-500/[0.15] flex items-center justify-center border border-amber-400/20 shadow-lg shadow-amber-500/20 relative z-10">
+          <span className="text-amber-500 font-black text-xs">★</span>
         </div>
         <div className="flex flex-col relative z-10">
-          <span className="text-[10px] font-black tracking-widest text-emerald-600 dark:text-emerald-400 uppercase leading-[1.2] opacity-90 drop-shadow-[0_1px_10px_rgba(255,255,255,0.8)] dark:drop-shadow-none">TEBRİKLER</span>
-          <span className="text-sm font-black text-slate-800 dark:text-zinc-100 leading-none drop-shadow-[0_2px_12px_rgba(255,255,255,1)] dark:drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">Sınav Tamamlandı</span>
+          <span className="text-[10px] font-black tracking-widest text-amber-500 uppercase leading-[1.2] opacity-90">DUS 2026/2</span>
+          <span className="text-sm font-black leading-none" style={{ color: 'var(--color-text-primary)' }}>BUGÜN SINAV!</span>
         </div>
       </div>
     );
   }
 
+  // Sınav geçti
+  if (daysLeft === 0) {
+    return (
+      <div className="flex items-center gap-3 pr-5 pl-2.5 py-1.5 rounded-[1.25rem] bg-emerald-500/[0.08] border border-emerald-500/15 mx-4 lg:mx-8 hidden sm:flex shadow-[0_0_20px_rgba(16,185,129,0.05)] backdrop-blur-md relative overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/5 to-transparent blur-xl pointer-events-none" />
+        <div className="w-9 h-9 rounded-xl bg-emerald-500/[0.15] flex items-center justify-center border border-emerald-400/20 shadow-lg shadow-emerald-500/20 relative z-10">
+          <span className="text-emerald-500 font-black text-xs">✓</span>
+        </div>
+        <div className="flex flex-col relative z-10">
+          <span className="text-[10px] font-black tracking-widest text-emerald-500 uppercase leading-[1.2] opacity-90">TEBRİKLER</span>
+          <span className="text-sm font-black leading-none" style={{ color: 'var(--color-text-primary)' }}>Sınav Tamamlandı</span>
+        </div>
+      </div>
+    );
+  }
+
+  // Geri sayım
   return (
     <div className="flex items-center gap-3 pr-5 pl-2.5 py-1.5 rounded-[1.25rem] bg-indigo-500/[0.08] border border-indigo-500/15 mx-4 lg:mx-8 hidden sm:flex shadow-[0_0_20px_rgba(99,102,241,0.05)] backdrop-blur-md relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/5 to-transparent blur-xl pointer-events-none" />
       <div className="w-9 h-9 rounded-xl bg-indigo-500/[0.15] flex items-center justify-center border border-indigo-400/20 shadow-lg shadow-indigo-500/20 relative z-10">
-        <Hourglass size={18} weight="thin" className="text-indigo-500 dark:text-indigo-400 countdown-spin filter drop-shadow-[0_0_8px_rgba(99,102,241,0.5)]" />
+        <Hourglass size={18} weight="thin" className="text-indigo-400 countdown-spin filter drop-shadow-[0_0_8px_rgba(99,102,241,0.5)]" />
       </div>
       <div className="flex flex-col relative z-10">
-        <span className="text-[10px] font-black tracking-widest text-indigo-600 dark:text-indigo-400 uppercase leading-[1.2] opacity-90 drop-shadow-[0_1px_10px_rgba(255,255,255,0.8)] dark:drop-shadow-none">DUS 2026/2</span>
-        <span className="text-sm font-black text-slate-800 dark:text-zinc-100 leading-none drop-shadow-[0_2px_12px_rgba(255,255,255,1)] dark:drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">{daysLeft} Gün Kaldı</span>
+        <span className="text-[10px] font-black tracking-widest text-indigo-400 uppercase leading-[1.2] opacity-90">DUS 2026/2</span>
+        <span className="text-sm font-black leading-none" style={{ color: 'var(--color-text-primary)' }}>{daysLeft} Gün Kaldı</span>
       </div>
     </div>
   );
@@ -95,15 +120,19 @@ export default function App() {
   const isPreviewMode = typeof window !== 'undefined' && window.location.search.includes('preview=sim');
 
   const [appState, setAppState] = useState<AppState>(isPreviewMode ? 'simulation-result' : 'select-lesson');
-  const [mode, setMode] = useState<'quiz' | 'exam'>('quiz');
   const [selectedLesson, setSelectedLesson] = useState('');
   const [selectedUnit, setSelectedUnit] = useState('');
   const [examUnits, setExamUnits] = useState<{ lesson: string; unit: string }[]>([]);
   const [examQuestions, setExamQuestions] = useState<Question[]>([]);
   const [unitQuestions, setUnitQuestions] = useState<Question[]>([]);
-  const [isFavoritesExam, setIsFavoritesExam] = useState(false);
-  const [isHighYieldExam, setIsHighYieldExam] = useState(false);
   const [isHighYieldMode, setIsHighYieldMode] = useState(false);
+
+  // T11: 6 mod bayrağı tek activeExam nesnesine indirgendi
+  type ExamVariant = 'normal' | 'favorites' | 'high_yield' | 'daily' | 'simulation' | 'retry' | 'weak';
+  type ActiveExam = { variant: ExamVariant; dailyExamId?: string; simTotalSeconds?: number } | null;
+  const [activeExam, setActiveExam] = useState<ActiveExam>(null);
+  // Deneme başlamadan önce seçilen filtre (select-deneme-amount ekranında gerekli)
+  const [pendingExamVariant, setPendingExamVariant] = useState<ExamVariant>('normal');
   const [hyLoading, setHyLoading] = useState(false);
   const [examLoading, setExamLoading] = useState(false);
   const [quizStats, setQuizStats] = useState<QuizStatsType>({ correct: 0, incorrect: 0, blank: 0, total: 0, details: [] });
@@ -138,7 +167,7 @@ export default function App() {
     saveResumableSession,
     sessionSaveError,
   } = useResumableSession(user?.id, questions as unknown as any[]);
-  const [simTotalSeconds, setSimTotalSeconds] = useState<number | null>(null);
+  // simTotalSeconds → activeExam.simTotalSeconds (T11)
 
   // High fidelity mock data for ?preview=sim
   const getMockDetails = (): SimAnswerDetail[] => {
@@ -206,8 +235,7 @@ export default function App() {
   const [showSettings, setShowSettings] = useState(false);
   const [showAuth, setShowAuth] = useState(false);
   const [todaysDailyExam, setTodaysDailyExam] = useState<DailyExamRow | null | 'loading'>('loading');
-  const [isDailyExamSession, setIsDailyExamSession] = useState(false);
-  const [activeDailyExamId, setActiveDailyExamId] = useState<string | undefined>(undefined);
+  // isDailyExamSession + activeDailyExamId → activeExam (T11)
   // Merkezi Dialog State
   const [dialog, setDialog] = useState<{
     type: 'alert' | 'confirm' | 'prompt';
@@ -293,7 +321,7 @@ export default function App() {
       setUnitQuestions(prev => prev.map(x => x.id === id ? { ...x, is_favorite: newStatus } : x));
       setExamQuestions(prev => {
         const updated = prev.map(x => x.id === id ? { ...x, is_favorite: newStatus } : x);
-        if (!newStatus && isFavoritesExam) return updated.filter(x => x.id !== id);
+        if (!newStatus && activeExam?.variant === 'favorites') return updated.filter(x => x.id !== id);
         return updated;
       });
     } catch (e) { console.error("Buluta kaydedilemedi", e); }
@@ -306,15 +334,12 @@ export default function App() {
   const handleResumeSession = () => {
     if (resumeSessionData) {
       setExamQuestions(resumeSessionData.questions);
-      // Her zaman 'exam' moduna geç: activeQuestions examQuestions'ı kullanır
-      // ve initialSession={mode === 'exam' ? resumeSessionData : null} çalışır
-      setMode('exam');
-      if (resumeSessionData.simTotalSeconds) {
-        setSimTotalSeconds(resumeSessionData.simTotalSeconds);
-      }
       if (resumeSessionData.dailyExamId) {
-        setIsDailyExamSession(true);
-        setActiveDailyExamId(resumeSessionData.dailyExamId);
+        setActiveExam({ variant: 'daily', dailyExamId: resumeSessionData.dailyExamId });
+      } else if (resumeSessionData.simTotalSeconds) {
+        setActiveExam({ variant: 'simulation', simTotalSeconds: resumeSessionData.simTotalSeconds });
+      } else {
+        setActiveExam({ variant: 'normal' });
       }
       setAppState('quiz');
     }
@@ -454,9 +479,7 @@ export default function App() {
         return;
       }
       setExamQuestions(dailyQs);
-      setMode('exam');
-      setIsDailyExamSession(true);
-      setActiveDailyExamId(exam.id);
+      setActiveExam({ variant: 'daily', dailyExamId: exam.id });
       setAppState('quiz');
     } catch (e) {
       showAlert('Sorular yüklenemedi: ' + errMsg(e), 'Hata');
@@ -493,7 +516,7 @@ export default function App() {
       const unseen = fisherYates(fullQs.filter(q => !allStats[q.id] || allStats[q.id].attempts === 0));
       const seen   = fisherYates(fullQs.filter(q => allStats[q.id] && allStats[q.id].attempts > 0));
       setUnitQuestions([...unseen, ...seen]);
-      setMode('quiz');
+      setActiveExam(null);
       setAppState('quiz');
     } catch (e) {
       showAlert('Sorular yüklenemedi: ' + errMsg(e), 'Hata');
@@ -510,24 +533,22 @@ export default function App() {
     setAppState('result');
     clearResumableSession().catch(() => { });
     SyncManager.flush().catch(() => {});
-    if (isDailyExamSession && activeDailyExamId) {
+    if (activeExam?.variant === 'daily' && activeExam.dailyExamId) {
       if (user) {
-        saveExamAnswers(activeDailyExamId, user.id, answers).catch(() => {});
+        saveExamAnswers(activeExam.dailyExamId, user.id, answers).catch(() => {});
       }
-      markDailyExamCompleted(activeDailyExamId).catch(() => {});
+      markDailyExamCompleted(activeExam.dailyExamId).catch(() => {});
       setTodaysDailyExam(null);
-      setIsDailyExamSession(false);
-      setActiveDailyExamId(undefined);
+      setActiveExam(null);
     }
   };
   const handleReturnToHome = () => {
     SyncManager.flush().catch(() => {});
-    setIsDailyExamSession(false);
-    setActiveDailyExamId(undefined);
+    setActiveExam(null);
+    setPendingExamVariant('normal');
     setAppState('select-lesson');
     setSelectedLesson('');
     setSelectedUnit('');
-    setMode('quiz');
     setUnitQuestions([]);
     setIsHighYieldMode(false);
   };
@@ -662,7 +683,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
       const rows = await fetchQuestionsByIds(validIds);
       const weakQs = rows.map(rowToQuestion);
       setExamQuestions(fisherYates(weakQs));
-      setMode('exam');
+      setActiveExam({ variant: 'weak' });
       setAppState('quiz');
     } catch (e) {
       showAlert('Sorular yüklenemedi: ' + errMsg(e), 'Hata');
@@ -674,7 +695,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
   const handleRetryIncorrect = (incorrectDetails: AnswerDetail[]) => {
     const retryQs = incorrectDetails.map(d => d.question);
     setExamQuestions(fisherYates(retryQs));
-    setMode('exam');
+    setActiveExam({ variant: 'retry' });
     setAppState('quiz');
   };
 
@@ -683,9 +704,9 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
       case 'quiz': {
         SyncManager.flush().catch(() => {});  // quiz ortasında çıkışta pending sync'i gönder
         setUnitQuestions([]);
-        setIsDailyExamSession(false);
-        setActiveDailyExamId(undefined);
-        const backTarget = isHighYieldMode ? 'select-highyield-unit' : mode === 'exam' ? 'select-lesson' : 'select-unit';
+        setActiveExam(null);
+        setPendingExamVariant('normal');
+        const backTarget = isHighYieldMode ? 'select-highyield-unit' : activeExam !== null ? 'select-lesson' : 'select-unit';
         setIsHighYieldMode(false);
         setAppState(backTarget);
         break;
@@ -707,7 +728,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
         setAppState('select-lesson');
         break;
       case 'select-deneme-amount':
-        setAppState(isHighYieldExam ? 'select-highyield-karma' : isFavoritesExam ? 'select-favorites' : 'select-deneme');
+        setAppState(pendingExamVariant === 'high_yield' ? 'select-highyield-karma' : pendingExamVariant === 'favorites' ? 'select-favorites' : 'select-deneme');
         break;
       case 'select-highyield-karma':
         setAppState('select-highyield-unit');
@@ -715,7 +736,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
       default:
         setAppState('select-lesson');
     }
-  }, [appState, mode, isFavoritesExam, isHighYieldExam]);
+  }, [appState, activeExam, pendingExamVariant, isHighYieldMode]);
 
   useEffect(() => {
     if (appState !== 'select-lesson') {
@@ -728,7 +749,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
     return () => window.removeEventListener('popstate', onPopState);
   }, [appState, handleGoBack]);
 
-  const handleImportDone = () => { loadQuestions(); setAppState('select-lesson'); setMode('quiz'); };
+  const handleImportDone = () => { loadQuestions(); setAppState('select-lesson'); setActiveExam(null); };
 
   const handleExport = async () => {
     const count = questions.length;
@@ -758,15 +779,15 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
         examUnits,
         loadAllStats(),
         amount,
-        isFavoritesExam ? (q: QuestionSkeleton) => !!q.is_favorite : 
-        isHighYieldExam ? (q: QuestionSkeleton) => q.quality_flag === 'high_yield' : undefined,
+        pendingExamVariant === 'favorites' ? (q: QuestionSkeleton) => !!q.is_favorite :
+        pendingExamVariant === 'high_yield' ? (q: QuestionSkeleton) => q.quality_flag === 'high_yield' : undefined,
       );
       // Sadece seçilen N sorunun tam metni on-demand çekiliyor
       const ids = skeletonPool.map((s: QuestionSkeleton) => s.id);
       const rows = await fetchQuestionsByIds(ids);
       const pool = ids.map(id => rows.find(r => r.id === id)).filter(Boolean).map(r => rowToQuestion(r!));
       setExamQuestions(pool);
-      setMode('exam');
+      setActiveExam({ variant: pendingExamVariant });
       setAppState('quiz');
       clearResumableSession().catch(() => { });
     } catch (e) {
@@ -776,7 +797,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
     }
   };
 
-  const activeQuestions = mode === 'exam'
+  const activeQuestions = activeExam !== null
     ? examQuestions
     : (unitQuestions.length > 0 ? unitQuestions : questions.filter(q => q.unit === selectedUnit && q.lesson === selectedLesson));
 
@@ -924,7 +945,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                 setSelectedLesson(lesson);
                 setSelectedUnit(unit);
                 setUnitQuestions(rows.map(rowToQuestion));
-                setMode('quiz');
+                setActiveExam(null);
                 setAppState('quiz');
               } catch (e) {
                 showAlert('Sorular yüklenemedi: ' + errMsg(e), 'Hata');
@@ -946,9 +967,8 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                   const rows = await fetchQuestionsByIds(ids);
                   const fullQs = ids.map(id => rows.find(r => r.id === id)).filter(Boolean).map(r => rowToQuestion(r!));
                   setExamQuestions(fullQs);
-                  setMode('exam');
+                  setActiveExam({ variant: 'simulation', simTotalSeconds: totalSecs });
                   setSimResult(null);
-                  setSimTotalSeconds(totalSecs);
                   setAppState('quiz');
                 } catch (e) {
                   showAlert('Simülasyon soruları yüklenemedi: ' + errMsg(e), 'Hata');
@@ -970,7 +990,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                   .filter(d => d.state === 'incorrect')
                   .map(d => d.question);
                 setExamQuestions(incorrectQs);
-                setMode('exam');
+                setActiveExam({ variant: 'retry' });
                 setSimResult(null);
                 setAppState('quiz');
               }}
@@ -1020,7 +1040,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                   const rows = await fetchQuestionsByIds(ids);
                   const fullQs = ids.map(id => rows.find(r => r.id === id)).filter(Boolean).map(r => rowToQuestion(r!));
                   setExamQuestions(fullQs);
-                  setMode('exam');
+                  setActiveExam({ variant: 'normal' });
                   setAppState('smart-study');
                 } catch (e) {
                   showAlert('Akıllı çalışma soruları yüklenemedi: ' + errMsg(e), 'Hata');
@@ -1064,7 +1084,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                   const rows = await fetchQuestionsByIds(hySkeletons.map(s => s.id));
                   setSelectedUnit(unit);
                   setExamQuestions(fisherYates(rows.map(rowToQuestion)));
-                  setMode('exam');
+                  setActiveExam({ variant: 'high_yield' });
                   setAppState('quiz');
                 } catch (e) {
                   showAlert('High-yield sorular yüklenemedi: ' + errMsg(e), 'Hata');
@@ -1079,7 +1099,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                   const rows = await fetchQuestionsByIds(hySkeletons.map(s => s.id));
                   setSelectedUnit('Tümü');
                   setExamQuestions(fisherYates(rows.map(rowToQuestion)));
-                  setMode('exam');
+                  setActiveExam({ variant: 'high_yield' });
                   setAppState('quiz');
                 } catch (e) {
                   showAlert('High-yield sorular yüklenemedi: ' + errMsg(e), 'Hata');
@@ -1091,13 +1111,13 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
           ) : appState === 'source-books' ? (
             <SourceBooksView questions={questions} onBack={() => setAppState('select-lesson')} theme={theme} />
           ) : appState === 'select-deneme' ? (
-            <DenemeSelection questions={questions} onNext={(units) => { setExamUnits(units); setIsFavoritesExam(false); setIsHighYieldExam(false); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-lesson')} isFavoritesMode={false} theme={theme} />
+            <DenemeSelection questions={questions} onNext={(units) => { setExamUnits(units); setPendingExamVariant('normal'); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-lesson')} isFavoritesMode={false} theme={theme} />
           ) : appState === 'select-favorites' ? (
-            <DenemeSelection questions={questions.filter(q => q.is_favorite)} onNext={(units) => { setExamUnits(units); setIsFavoritesExam(true); setIsHighYieldExam(false); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-lesson')} isFavoritesMode={true} theme={theme} />
+            <DenemeSelection questions={questions.filter(q => q.is_favorite)} onNext={(units) => { setExamUnits(units); setPendingExamVariant('favorites'); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-lesson')} isFavoritesMode={true} theme={theme} />
           ) : appState === 'select-highyield-karma' ? (
-            <DenemeSelection questions={questions.filter(q => q.quality_flag === 'high_yield')} onNext={(units) => { setExamUnits(units); setIsHighYieldExam(true); setIsFavoritesExam(false); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-highyield-unit')} isHighYieldMode={true} theme={theme} />
+            <DenemeSelection questions={questions.filter(q => q.quality_flag === 'high_yield')} onNext={(units) => { setExamUnits(units); setPendingExamVariant('high_yield'); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-highyield-unit')} isHighYieldMode={true} theme={theme} />
           ) : appState === 'select-deneme-amount' ? (
-            <DenemeAmountSelection selectedUnits={examUnits} questions={isHighYieldExam ? questions.filter(q => q.quality_flag === 'high_yield') : isFavoritesExam ? questions.filter(q => q.is_favorite) : questions} loading={examLoading} onStart={handleStartExam} onCancel={() => setAppState(isHighYieldExam ? 'select-highyield-karma' : isFavoritesExam ? 'select-favorites' : 'select-deneme')} theme={theme} />
+            <DenemeAmountSelection selectedUnits={examUnits} questions={pendingExamVariant === 'high_yield' ? questions.filter(q => q.quality_flag === 'high_yield') : pendingExamVariant === 'favorites' ? questions.filter(q => q.is_favorite) : questions} loading={examLoading} onStart={handleStartExam} onCancel={() => setAppState(pendingExamVariant === 'high_yield' ? 'select-highyield-karma' : pendingExamVariant === 'favorites' ? 'select-favorites' : 'select-deneme')} theme={theme} />
           ) : appState === 'select-unit' ? (
             <UnitSelection 
               lesson={selectedLesson} 
@@ -1111,10 +1131,10 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
             />
           ) : appState === 'quiz' ? (
             <QuizView
-              mode={mode}
-              unit={isHighYieldMode ? `High-Yield — ${selectedUnit}` : mode === 'exam' ? (simTotalSeconds ? 'DUS Simülasyonu' : 'Deneme Sınavı') : selectedUnit}
+              mode={activeExam !== null ? 'exam' : 'quiz'}
+              unit={isHighYieldMode ? `High-Yield — ${selectedUnit}` : activeExam !== null ? (activeExam.simTotalSeconds ? 'DUS Simülasyonu' : 'Deneme Sınavı') : selectedUnit}
               questions={activeQuestions}
-              initialSession={mode === 'exam' ? resumeSessionData : null}
+              initialSession={activeExam !== null ? resumeSessionData : null}
               onComplete={handleComplete}
               onDeleteQuestion={handleDeleteQuestion}
               onFinishEarly={handleComplete}
@@ -1124,21 +1144,21 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               onSaveSession={(session: ActiveSessionInfo) => {
                 saveResumableSession(session);
               }}
-              timedSeconds={simTotalSeconds ?? undefined}
+              timedSeconds={activeExam?.simTotalSeconds ?? undefined}
               onSimulationComplete={(details, usedSecs) => {
-                if (simTotalSeconds == null) {
+                const total = activeExam?.simTotalSeconds;
+                if (total == null) {
                   console.error('Simülasyon süresi alınamadı');
                   return;
                 }
-                const total = simTotalSeconds;
-                setSimTotalSeconds(null);
+                setActiveExam(null);
                 setSimResult({ details: details as SimAnswerDetail[], totalSeconds: total, usedSeconds: usedSecs });
                 setAppState('simulation-result');
               }}
               onExportPDF={handleExportPDF}
               theme={theme}
               settings={settings}
-              dailyExamId={isDailyExamSession ? activeDailyExamId : undefined}
+              dailyExamId={activeExam?.variant === 'daily' ? activeExam.dailyExamId : undefined}
             />
           ) : appState === 'result' ? (
             <ResultView stats={quizStats} onRestart={handleReturnToHome} onRetryIncorrect={handleRetryIncorrect} onExportPDF={handleExportPDF} theme={theme} />
@@ -1152,13 +1172,13 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                 setSelectedLesson(lesson);
                 setSelectedUnit(unit);
                 setUnitQuestions(buildUnitQueue(questions, lesson, unit, loadAllStats()));
-                setMode('quiz');
+                setActiveExam(null);
                 setAppState('quiz');
               }}
               onStartSmartStudy={() => {
                 const queue = buildSmartQueue(questions, loadAllStats(), { limit: 40 });
                 setExamQuestions(queue.questions);
-                setMode('exam');
+                setActiveExam({ variant: 'normal' });
                 setAppState('smart-study');
               }}
               theme={theme}
