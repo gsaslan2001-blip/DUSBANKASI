@@ -1,9 +1,9 @@
 # Anki Cloze Kart Üretim Pipeline'ı — Tam Referans Rehberi
 
-> **Son güncelleme:** 2026-06-04
-> **Versiyon:** v3.0 (Prompt minimizasyonu + FAZ 4 uncovered tekrar turları)
-> **Durum:** Tüm kritik bug'lar düzeltildi. Prompt mimarisi yeniden tasarlandı. FAZ 4 uncovered akışı eklendi. Dry-run testi: %98.7 kapsam (239 kavram → 236 kartlaştırıldı).
-> **Plan:** `CLOZE_PIPELINE_IMPLEMENTATION_PLAN.md` — Faz 1-4 uygulandı, Faz 5 isteğe bağlı.
+> **Son güncelleme:** 2026-07-04
+> **Versiyon:** v4.0 (Prompt mimarisi tamamen yeniden yazıldı + FAZ 5 kendi NotebookLM defterine taşındı)
+> **Durum:** Cloze sistem promptu v4'e, karşılaştırma sistem promptu v3'e yükseltildi (bkz. BÖLÜM I). All-c1 simetrik gizleme, erken-DOYGUNLUK önyargısının tersine çevrilmesi ve "ayırt edici boyut tüketimi" netleştirmesi bu sürümde landı. **FAZ 5 artık bağımsız bir NotebookLM defterinde çalışıyor** — aynı deftere runtime "override" hack'i yok, kalıcı kendi sistem promptu var (bkz. BÖLÜM L). Eski/yedek prompt dosyaları temizlendi (bkz. BÖLÜM B, BÖLÜM S).
+> **Plan:** `CLOZE_PIPELINE_IMPLEMENTATION_PLAN.md` — Faz 1-4 uygulandı, FAZ 5 karşılaştırma turu v3.1'de eklendi, v4.0'da ayrı deftere taşındı.
 
 ---
 
@@ -27,7 +27,7 @@ DUSBANKASI içindeki `notebooklm_mcp_exhaust.py` akışı, PDF'lerden **anahtar 
 | Embedding | OpenAI `text-embedding-3-small` (1536) | OpenAI `text-embedding-3-large` (3072) |
 | Uncovered işleme | FAZ 5 ek turlar | FAZ 4 ek turlar (zorlama prompt'u ile) |
 
-### A1.2 Üretim Süreci Özeti (6 Adım — v3.0)
+### A1.2 Üretim Süreci Özeti (7 Adım — v3.1)
 
 ```
 1. PDF → NotebookLM'e yükle (source_add)
@@ -36,7 +36,10 @@ DUSBANKASI içindeki `notebooklm_mcp_exhaust.py` akışı, PDF'lerden **anahtar 
 4. FAZ 2 → Kapsanmamış kavramları chunk'la → her chunk için cloze kart üret
 5. FAZ 3 → İlk tur raporu (kapsam oranı, batch özeti)
 6. FAZ 4 → Kapsanmayan kavramlar için zorlama turları → %98+ kapsam hedefi
+7. FAZ 5 → Karşılaştırma turu: aynı çapalardan eş-hiyerarşi kontrast kartları (BAĞIMSIZ)
 ```
+
+İki katman: FAZ 0-4 = atomik cloze fact base (spot geri çağırma), FAZ 5 = ayrım refleksi (eş-hiyerarşideki komşuyla kıyas). Karşılaştırma katmanı DUS klinik-vignette sorularının gerçekte test ettiği ayrımı kurar.
 
 ### A1.3 v3.0'daki Kritik Mimari Değişiklikler (2026-06-04)
 
@@ -60,10 +63,13 @@ DUSBANKASI içindeki `notebooklm_mcp_exhaust.py` akışı, PDF'lerden **anahtar 
 |---|---|---|---|
 | `cloze_shared.py` | `scripts/cloze_shared.py` | ~900 | Pinecone anki CRUD, TSV parse, cloze validasyon, anchor kapsam, embedding, 3 prompt, TSV consolidate, recovery |
 | `notebooklm_mcp_cloze.py` | `scripts/notebooklm_mcp_cloze.py` | ~850 | Ana pipeline — MCP client, checkpoint/resume, 4-fazlı kart üretimi + FAZ 4 uncovered, session raporu, CLI + `--status` |
-| `config.py` | `scripts/config.py` | ~112 | Konfigürasyon sabitleri (Pinecone, OpenAI, cloze pipeline, recovery) |
-| `notebooklm_cloze_system_prompt_v3.md` | `notebooklm_cloze_system_prompt_v3.md` | ~135 satır | **NotebookLM defterine kopyalanan sistem prompt'u** — tüm kart kurallarının kanonik kaynağı |
+| `config.py` | `scripts/config.py` | ~130 | Konfigürasyon sabitleri (Pinecone, OpenAI, cloze pipeline, recovery, **iki NotebookLM defter ID'si**) |
+| `notebooklm_cloze_system_prompt_v4.md` | `notebooklm_cloze_system_prompt_v4.md` | ~135 satır | **Cloze NotebookLM defterine kopyalanan sistem prompt'u (v4)** — tüm cloze kart kurallarının kanonik kaynağı |
+| `ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT_v3.txt` | proje kökü | ~110 satır | **Karşılaştırma NotebookLM defterine kopyalanan sistem prompt'u (v3)** — tüm kıyas kart kurallarının kanonik kaynağı |
 | `CLOZE_PIPELINE_IMPLEMENTATION_PLAN.md` | `CLOZE_PIPELINE_IMPLEMENTATION_PLAN.md` | ~972 | 5 fazlık uygulama planı |
 | `Cloze Üretim Rehber.md` | `Cloze Üretim Rehber.md` | bu dosya | Tam referans rehberi |
+
+> ⚠️ **v4.0 dosya temizliği:** `ANKİ ÜRETİM NOTEBOOKLM MASTERPROMPT.txt`, `ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT.txt` (v3.txt öncesi), `notebooklm_cloze_system_prompt_v3.md` ve `karşılaştırma soruları.txt` (eski iki-blok mimarisi) silindi — hepsi yukarıdaki v4/v3 dosyalarıyla değiştirildi. `karşılaştırma örnek.txt` kalite referansı olarak korundu (format artık güncel değil, içerik hâlâ örnek niteliğinde).
 
 ## B2. Yardımcı / Referans Dosyalar
 
@@ -332,10 +338,12 @@ OPENAI_API_KEY=<openai_api_key>
 # 3. Python paketleri
 pip install openai python-dotenv
 
-# 4. NotebookLM sistem prompt'u deftere kopyalanmış olmalı
-# Defter ID: config.py → NOTEBOOK_ID
-# Prompt dosyası: notebooklm_cloze_system_prompt_v3.md
-# ⚠️ BU ADIM KRİTİK: Sistem prompt'u olmadan kart kalitesi düşer
+# 4. NotebookLM sistem prompt'ları HER İKİ deftere de kopyalanmış olmalı (v4.0 — iki ayrı defter)
+# Cloze defteri ID:         config.py → NOTEBOOK_ID          | Prompt: notebooklm_cloze_system_prompt_v5.md
+# Karşılaştırma defteri ID: config.py → CONTRAST_NOTEBOOK_ID | Prompt: ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT_v4.txt
+# ⚠️ v5/v4 (2026-07-04): tek-cevap (adalet) kapısı + çeldirici yönelimi + T6 klinik ters-yön kartı eklendi.
+#    Her iki yeni promptu ilgili NotebookLM defterine YENİDEN YAPIŞTIR (eski v4/v3 üzerine).
+# ⚠️ BU ADIM KRİTİK: Sistem promptu eksik olan defterde kart kalitesi ciddi düşer
 ```
 
 ### E1.1 MCP Sunucusu Başlatma (güncel — 2026-06-04)
@@ -417,7 +425,8 @@ python scripts/notebooklm_mcp_cloze.py \
 | `RETRY_BACKOFF` | `[30, 60, 120]` | Exponential backoff süreleri |
 | `MAX_RETRIES` | 3 | Maks yeniden deneme |
 | `PROMPT_CHAR_LIMIT` | 9500 | NotebookLM API güvenli sınır (artık aşılmıyor) |
-| `NOTEBOOK_ID` | `a6570b2e-...` | NotebookLM defter ID'si |
+| `NOTEBOOK_ID` | `a6570b2e-...` | Cloze (FAZ 0-4) NotebookLM defter ID'si |
+| `CONTRAST_NOTEBOOK_ID` | `b9e92a15-...` | **YENİ v4.0** — Karşılaştırma (FAZ 5) NotebookLM defter ID'si, cloze defterinden ayrı |
 | `MCP_URL` | `http://127.0.0.1:8000/mcp` | MCP sunucu adresi |
 
 ---
@@ -763,39 +772,67 @@ Maliyet:      ~$0.00013/embedding (3072-dim)
 
 ---
 
-# BÖLÜM I: NOTEBOOKLM SİSTEM PROMPTU (v3.0)
+# BÖLÜM I: NOTEBOOKLM SİSTEM PROMPTU (v4.0 — İKİ AYRI DEFTER)
 
-## I1. Konum
+## I0. v4.0 Mimari Değişikliği: Tek Defterden İki Deftere
 
-```
-C:\Users\FURKAN\Desktop\Projeler\DUSBANKASI\notebooklm_cloze_system_prompt_v3.md
-```
+v3.1'e kadar hem cloze (FAZ 0-4) hem karşılaştırma (FAZ 5) **aynı** NotebookLM defterini kullanıyordu; FAZ 5 runtime prompt'u ("BU TUR CLOZE ÜRETİMİ DEĞİL") ile o anki konuşma içinde cloze sistem promptunu **override etmeye** çalışıyordu. Bu kırılgan bir mimariydi — model bazen override'ı tam uygulamıyor, cloze alışkanlıklarına kayabiliyordu.
 
-⚠️ **BU DOSYA `notebooklm_cloze_system_prompt.txt` DEĞİLDİR.** Eski `.txt` dosyası silinmiştir. Güncel sistem prompt'u `.md` uzantılıdır.
+v4.0'da her tur kendi kalıcı sistem promptu olan **kendi NotebookLM defterinde** çalışır. Kod tarafında bu, `config.py`'de iki ayrı `NOTEBOOK_ID` sabitiyle ve `notebooklm_mcp_cloze.py`'nin FAZ 5 bloğunun kaynağı **ayrıca** karşılaştırma defterine yükleyip kendi ID'sine sorgu atmasıyla karşılanır (bkz. BÖLÜM L2).
 
-## I2. NotebookLM Defteri
+## I1. Konum — Cloze Sistem Promptu
 
 ```
-Notebook ID: a6570b2e-36e5-4a84-8438-8460ad0329f8
-URL: https://notebooklm.google.com/notebook/28b067b0-76eb-40de-b417-445dfc138c1b?authuser=1
+C:\Users\FURKAN\Desktop\Projeler\DUSBANKASI\notebooklm_cloze_system_prompt_v4.md
 ```
 
-## I3. Prompt Yapısı (11 Bölüm)
+⚠️ Eski `v3.md` ve `.txt` sürümleri silinmiştir. Güncel sistem prompt'u `v4.md`'dir.
+
+## I1.1 Konum — Karşılaştırma Sistem Promptu
+
+```
+C:\Users\FURKAN\Desktop\Projeler\DUSBANKASI\ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT_v3.txt
+```
+
+⚠️ Eski (v3 öncesi, sürüm numarasız) `.txt` ve `karşılaştırma soruları.txt` (iki-blok mimarisi) silinmiştir.
+
+## I2. NotebookLM Defterleri (İKİ AYRI DEFTER — v4.0)
+
+**Cloze defteri (FAZ 0-4):**
+```
+Notebook ID (config.py → NOTEBOOK_ID): a6570b2e-36e5-4a84-8438-8460ad0329f8
+URL: https://notebooklm.google.com/notebook/28b067b0-76eb-40de-b417-445dfc138c1b?authuser=2
+Sistem promptu: notebooklm_cloze_system_prompt_v4.md
+```
+
+**Karşılaştırma defteri (FAZ 5):**
+```
+Notebook ID (config.py → CONTRAST_NOTEBOOK_ID): b9e92a15-fccb-4da0-9836-e9c57960be67
+URL: https://notebooklm.google.com/notebook/b9e92a15-fccb-4da0-9836-e9c57960be67?authuser=2
+Sistem promptu: ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT_v3.txt
+```
+
+⚠️ **ID/URL uyuşmazlığı uyarısı:** Cloze defterinde config'teki `NOTEBOOK_ID` (`a6570b2e...`) ile tarayıcı URL slug'ı (`28b067b0...`) FARKLI değerlerdir — NotebookLM'in API'nin kullandığı iç `notebook_id` ile tarayıcıda görünen URL slug'ı aynı ID uzayında olmayabilir. Karşılaştırma defteri için config'e şimdilik URL slug'ı (`b9e92a15...`) yazıldı; ilk gerçek (non-dry-run) çalıştırmadan önce `notebooklm list` veya `notebooklm metadata -n b9e92a15` ile doğrulanması, gerekirse config'in gerçek API ID'siyle güncellenmesi önerilir.
+
+## I3. Prompt Yapısı — Cloze v4.0 (9 Bölüm)
 
 | # | Bölüm | İçerik |
 |---|---|---|
-| 0 | ROL | DUS Anki cloze kart tasarım uzmanı, tüm diş hekimliği branşlarına hakim |
-| 1 | GİZLİ ANALİZ | `<analiz>` etiketi — 9 adımlı planlama (kullanıcı görmez) |
-| 2 | STRATEJİK FİLTRE | Zorunlu yakalanacaklar vs Yasaklı free-recall. Üst tavan YOK |
-| 3 | KART TİPLERİ | 5 tip: T1 Terim/İsim, T2 Spot/Sayı, T3 Kıyas, T4 Klinik Karar, T5 Liste Üyesi |
-| 4 | BAŞLIK SIZINTI | Mekanik algoritma + 2 worked example (A: sızıntı, B: sızıntı yok) |
-| 5 | LİSTE ATOMİKLİK | Saydırma YASAK, N üye → N kart, 2 istisna (bölünemez spot, kıyas) |
-| 6 | CLOZE & SEMANTİK | Cloze kuralları + semantik sızıntı testi + kaynak sadakati |
-| 7 | ÖZ-DENETİM | 12 maddeli checklist (her kart TSV yazılmadan önce) |
-| 8 | ÇIKTI FORMATI | TSV: #separator:tab, Text[TAB]Başlık[TAB]Extra + 7 few-shot örnek |
-| 9 | YASAKLAR-ZORUNLULUKLAR | 11 yasak + 4 zorunluluk |
-| 10 | ÇAPA MODU | Her kavram birincil konu, listede olmayanı birincil yapma |
-| 11 | DOYGUNLUK SİNYALİ | Son satıra DOYGUNLUK yaz, pipeline okur |
+| 0 | ROL VE ZİHNİYET | DUS Anki cloze kart tasarım uzmanı, tüm diş hekimliği branşlarına hakim |
+| 1 | ÜRETİM PROSEDÜRÜ | `<analiz>` etiketi — 6 adımlı planlama (kullanıcı görmez) |
+| 2 | NEYİ KARTLAŞTIR — NEYİ ATLA | Zorunlu yakalanacaklar vs Yasaklı free-recall. Üst tavan YOK |
+| 3 | KART TİPLERİ | 5 tip: T1 Terim/İsim, T2 Spot/Sayı, T3 İkili Kıyas (all-c1), T4 Klinik Karar, T5 Liste Üyesi |
+| 4 | CLOZE MEKANİĞİ | Atomiklik, all-c1 kıyas kuralı, çekim ekleri, ada testi |
+| 5 | SIZINTI KAPILARI | Tek yerde toplanmış 4 sızıntı türü: başlık, semantik, tautoloji, döngüsel tanım |
+| 6 | ALANLAR | TSV alan kuralları + komşu köprüsü |
+| 7 | ÖZ-DENETİM | Tek satırlık checklist (her kart TSV yazılmadan önce) |
+| 8 | ÇIKTI FORMATI | TSV: #separator:tab, Text[TAB]Başlık[TAB]Extra + few-shot + yanlış→doğru |
+| 9 | DOYGUNLUK | **v4.0 değişikliği:** varsayılan "devam et", DOYGUNLUK yalnızca tam tükenme testinden geçince |
+
+**v4.0'da neyin değiştiği (bkz. BÖLÜM S için tam gerekçe):**
+- T3 kıyas artık **all-c1** — eski "maks 2 farklı c numarası" ifadesi kaldırıldı (c1+c2, Anki'de bir kutbu açık bırakıp tanıma testine dönüşüyordu).
+- 4 sızıntı türü (başlık/semantik/tautoloji/döngüsel) tek §5 altında toplandı; önceden §2/§4/§6'ya dağınıktı.
+- DOYGUNLUK varsayılanı tersine çevrildi: "kaynak tükendi" değil "kaynak tükenmedi, devam et" — erken durma (V3-02 bug'ının kök nedeni) promptta doğrudan hedeflendi.
 
 ## I4. Örnek Çıktı Formatı
 
@@ -807,30 +844,35 @@ Kök kanal tedavisinde çalışma boyu, radyografik apeksten {{c1::0,5-1 mm}} k�
 Kart sayısı: 2
 ```
 
-## I5. Prompt Mimarisi (v3.0 — Sistem Prompt'u Merkezli)
+## I5. Prompt Mimarisi (v4.0 — Sistem Prompt'u Merkezli + İki Defter)
 
-v3.0'da prompt mimarisi kökten değişti. Eski sistemde iki prompt aynı kuralları tekrar ediyordu:
+v3.0'dan beri prompt mimarisi sistem-prompt-merkezli: iki prompt aynı kuralları tekrar etmiyor.
 
-| Seviye | Konum | v2.0 (Eski) | v3.0 (Yeni) |
-|---|---|---|---|
-| **Sistem Prompt'u** | `notebooklm_cloze_system_prompt_v3.md` (defterde) | Tüm kurallar | Tüm kurallar (tek kaynak) |
-| **Runtime Prompt** | `cloze_shared.py` → `PROMPT_CLOZE_MASTER` | ~5.000 char, kuralları tekrar | ~150 char, sadece operasyonel |
-| **Runtime Prompt** | `cloze_shared.py` → `PROMPT_CLOZE_UNCOVERED` | — (yoktu) | ~250 char, FAZ 4 zorlama |
+| Seviye | Konum | İçerik |
+|---|---|---|
+| **Cloze Sistem Prompt'u** | `notebooklm_cloze_system_prompt_v4.md` (cloze defterinde) | Tüm cloze kart kuralları (tek kaynak) |
+| **Karşılaştırma Sistem Prompt'u** | `ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT_v3.txt` (karşılaştırma defterinde) | Tüm kıyas kart kuralları (tek kaynak, **artık ayrı defterde — override hack'i yok**) |
+| **Runtime Prompt** | `cloze_shared.py` → `PROMPT_CLOZE_MASTER` | ~150 char, sadece operasyonel (anchor listesi + ders/ünite) |
+| **Runtime Prompt** | `cloze_shared.py` → `PROMPT_CLOZE_UNCOVERED` | ~250 char, FAZ 4 zorlama |
+| **Runtime Prompt** | `cloze_shared.py` → `PROMPT_CONTRAST` | ~2.6K + çapalar, FAZ 5 — artık kendi defterine gidiyor, cloze promptunu override etmesi gerekmiyor |
 
-**v3.0 felsefesi:** Sistem prompt'u tüm kalite kurallarının tek ve kanonik kaynağıdır. Runtime prompt'lar sadece "hangi batch'teyiz, hangi kavramları hedefliyoruz" bilgisini taşır. Bu sayede:
-- Prompt boyutu ~7.600 char → ~1.500 char düştü
-- Google API `INVALID_ARGUMENT` hatası tamamen çözüldü
-- Sistem prompt'u tek bir yerden güncelleniyor (`.md` dosyası → deftere kopyala)
-- Kart kalitesi düşmedi (sistem prompt'u aynı kuralları içeriyor)
+**Felsefe (v3.0'dan beri sabit):** Sistem prompt'u tüm kalite kurallarının tek ve kanonik kaynağıdır. Runtime prompt'lar sadece "hangi batch'teyiz, hangi kavramları hedefliyoruz" bilgisini taşır. Bu sayede prompt boyutu Google API `INVALID_ARGUMENT` limitinin (~4-5K char) rahat altında kalır ve sistem promptu tek bir yerden güncellenir.
+
+**v4.0'ın eklediği:** FAZ 5 artık ayrı bir defterde çalıştığı için `PROMPT_CONTRAST`'ın "BU TUR CLOZE ÜRETİMİ DEĞİL" override cümlesine güvenmesi gerekmiyor — karşılaştırma defterinin kendi kalıcı sistem promptu zaten yalnızca kıyas kartı üretiyor. Override cümlesi geriye dönük uyumluluk için runtime promptta korunabilir ama artık kritik değil.
 
 ### I5.1 Prompt Güncelleme Protokolü
 
-Sistem prompt'unda değişiklik yapmak için:
-
-1. `notebooklm_cloze_system_prompt_v3.md` dosyasını düzenle
-2. NotebookLM defterine (a6570b2e) kopyala
+**Cloze sistem promptunda değişiklik:**
+1. `notebooklm_cloze_system_prompt_v4.md` dosyasını düzenle
+2. Cloze NotebookLM defterine (`NOTEBOOK_ID` → a6570b2e) kopyala
 3. Pipeline'ı yeniden başlat — yeni prompt hemen aktif olur
 4. Runtime prompt'lara (`PROMPT_CLOZE_MASTER`, `PROMPT_CLOZE_UNCOVERED`) dokunma — onlar sadece operasyonel bağlam taşır
+
+**Karşılaştırma sistem promptunda değişiklik:**
+1. `ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT_v3.txt` dosyasını düzenle
+2. Karşılaştırma NotebookLM defterine (`CONTRAST_NOTEBOOK_ID` → b9e92a15) kopyala
+3. Pipeline'ı yeniden başlat
+4. `PROMPT_CONTRAST`'a (cloze_shared.py) dokunma — sadece operasyonel bağlam taşır
 
 ---
 
@@ -907,7 +949,7 @@ FatalError: "Notebook temizlenemedi ({unit_name}). Manuel temizlik gerekiyor."
 Sebep: Runtime prompt ~7.600 char → Google API limitini aşıyor.
 Çözüm (v3.0): PROMPT_CLOZE_MASTER ~150 char'a indirildi.
               Tüm kurallar sistem prompt'unda.
-Hâlâ olursa: notebooklm_cloze_system_prompt_v3.md deftere kopyalandı mı kontrol et.
+Hâlâ olursa: notebooklm_cloze_system_prompt_v4.md ilgili deftere kopyalandı mı kontrol et.
 ```
 
 ---
@@ -1000,9 +1042,11 @@ Yeni bir ajan/oturum bu pipeline'ı çalıştırmak istediğinde:
 - [ ] `--status` ile namespace'leri kontrol et
 - [ ] Hedef namespace mevcut mu? (ilk upsert'te otomatik oluşur)
 
-## L3. NotebookLM Sistemi
-- [ ] `notebooklm_cloze_system_prompt_v3.md` deftere kopyalandı mı? ⚠️ KRİTİK
-- [ ] Doğru defter ID'si kullanılıyor mu? (`config.py` → `NOTEBOOK_ID`)
+## L3. NotebookLM Sistemi (v4.0 — iki defter)
+- [ ] `notebooklm_cloze_system_prompt_v4.md` cloze defterine kopyalandı mı? ⚠️ KRİTİK
+- [ ] `ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT_v3.txt` karşılaştırma defterine kopyalandı mı? ⚠️ KRİTİK
+- [ ] Doğru defter ID'leri kullanılıyor mu? (`config.py` → `NOTEBOOK_ID`, `CONTRAST_NOTEBOOK_ID`)
+- [ ] `CONTRAST_NOTEBOOK_ID` gerçek API ID'si mi doğrulandı mı? (`notebooklm list` ile — URL slug'dan farklı olabilir, bkz. BÖLÜM I2)
 - [ ] MCP auth durumu kontrolü: `nlm login --force` gerekebilir
 
 ## L4. Kuru Çalıştırma
@@ -1049,6 +1093,7 @@ Tüm bilinen sorunlar, etkileri ve çözümleri:
 | **V3-01** | **PROMPT_CLOZE_MASTER ~7.600 char → Google INVALID_ARGUMENT** | **🔴 KRİTİK** | **2** | **✅ v3.0'da ÇÖZÜLDÜ** |
 | **V3-02** | **Model erken DOYGUNLUK bildirip kavram atlıyor** | **🟠 YÜKSEK** | **2** | **✅ FAZ 4 ile ÇÖZÜLDÜ** |
 | **V3-03** | **MCP başlatma: `nlm serve` komutu kaldırıldı** | **🟠 YÜKSEK** | **0** | **✅ `notebooklm-mcp --transport http`** |
+| **V5-01** | **Validator rule 5 altın-standart kartları hatalı reddediyordu** (yönlendirici kelime "dezavantajı/avantajı" cloze'dan önce gelince, cevap SOMUT değer olsa bile `semantik_sizinti_suphesi`) | **🟠 YÜKSEK** | **3** | **✅ v5'te ÇÖZÜLDÜ — yalnızca cevap YARGI/tautoloji ise reddedilir (`EVALUATIVE_ANSWER_RE`)** |
 
 ---
 
@@ -1098,7 +1143,7 @@ Tüm bilinen sorunlar, etkileri ve çözümleri:
 
 1. **MCP bağımlılığı:** Pipeline sadece NotebookLM MCP sunucusu çalışırken kullanılabilir. MCP sunucusu `notebooklm-mcp --transport http` ile başlatılır (eski `nlm serve` kaldırıldı).
 
-2. **Sistem prompt'u zorunlu:** `notebooklm_cloze_system_prompt_v3.md` deftere kopyalanmazsa kart kalitesi ciddi düşer. Tüm kalite kuralları sistem prompt'undadır.
+2. **Sistem promptu zorunlu (v5 — iki defter):** `notebooklm_cloze_system_prompt_v5.md` cloze defterine, `ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT_v4.txt` karşılaştırma defterine kopyalanmazsa ilgili turun kart kalitesi ciddi düşer. Tüm kalite kuralları sistem promptlarındadır.
 
 3. **Embedding maliyeti:** Her upsert öncesi OpenAI embedding API'si çağrılır. Tipik bir ünite ~$0.05-0.15 arası maliyet üretir.
 
@@ -1214,4 +1259,150 @@ Bu script üretim tamamlanana dek arkada sessizce çalışır ve çıkan tüm de
 
 ---
 
-*Rehber sonu. v3.1 — Prompt minimizasyonu, FAZ 4 uncovered akışı ve Otomatik Anki Yükleyicisi (Auto Importer).*
+# BÖLÜM L: FAZ 5 — KARŞILAŞTIRMA (KONTRAST) TURU (v4.0 — AYRI DEFTER)
+
+## L1. Amaç ve Felsefe
+
+Cloze turu (FAZ 0-4) **atomik spot bilgiyi** kartlaştırır: "en sık premalign lezyon lökoplaki". Ama DUS'un asıl test ettiği şey bu değil — **eş-hiyerarşideki komşuyla ayırt etme**dir: verrüköz mü eritro mu, CCD mi CMOS mu, Th1 mi Th2 mi. FAZ 5, cloze fact base'i kurulduktan **sonra**, aynı çapaları kullanarak bu ayrım refleksini kartlaştırır. Cloze turundan **tamamen bağımsızdır**; kendi promptu, kendi kart tipi, kendi TSV dosyası vardır.
+
+Pedagojik temel: **girişim altında geri çağırma** (retrieval under interference). İki co-hyponym'i aynı boyutta, aynı anda gizleyerek öğrenci "X, Y değildir"i üretmek zorunda kalır — spot ezberin veremediği ayrım.
+
+## L2. Akış (v4.0 — Ayrı Defter + Kaynak Yükleme)
+
+```
+FAZ 4 biter (cloze MERGED TSV üretildi)
+    │
+    ▼
+FAZ 5 (CONTRAST_ENABLED=True ve anchors doluysa):
+  ① Karşılaştırma defteri (CONTRAST_NOTEBOOK_ID) temizlenir (3 deneme retry)
+  ② Aynı PDF (file_path) karşılaştırma defterine YENİDEN yüklenir
+     (cloze defterinden AYRI bir defter olduğu için kaynağı da ayrıca taşımak gerekir)
+     Yükleme başarısızsa → FAZ 5 atlanır, hata loglanır, pipeline cloze sonucuyla devam eder
+    │
+    ▼
+  anchors → CONTRAST_CHUNK_SIZE (30) dilimler
+  her dilim:
+    build_contrast_prompt(chunk) → PROMPT_CONTRAST (artık override'a gerek yok — defterin kendi
+                                     kalıcı sistem promptu zaten sadece kıyas kartı üretir)
+    client.chat.ask(CONTRAST_NOTEBOOK_ID, prompt) → parse_cloze_response(kind="karsilastirma")
+    validate_cloze_cards (kind-aware: 2-4 simetrik c1 KABUL)
+    deploy_cards_to_pinecone (kart_tipi="karsilastirma" metadata)
+    save_cloze_tsv(tag="KIYAS") → cloze_output/{Ders}_{Ünite}_KIYAS_{ts}.tsv
+  doygunluk/max-batch kontrolü
+    │
+    ▼
+  consolidate_unit_tsv(tag="KIYAS") → {Ders}_{Ünite}_KIYAS_MERGED_{ts}.tsv
+    │
+    ▼
+  ③ finally: karşılaştırma defterindeki kaynak silinir (cloze defterindeki source
+     silme ile simetrik, aynı deneme/hata toleransı)
+```
+
+## L3. Kritik Tasarım Kararları
+
+| Karar | Sebep |
+|---|---|
+| **Ayrı NotebookLM defteri (v4.0)** | Aynı deftere runtime "override" cümlesiyle güvenmek kırılgandı; ayrı kalıcı sistem promptu daha tutarlı. |
+| Karşılaştırma kartları **all-c1** (tüm kutuplar `{{c1::...}}`) | Tek kart, kutuplar aynı anda gizli → eşzamanlı ayrım. c1/c2 olsaydı Anki bir kutbu açıkta bırakır = tanıma testi. |
+| `<denetim>` **internal** (çıktıya sızmaz) | Kullanıcının DENETİM-blok exhaustiveness zorlaması korunur ama TSV temiz kalır. Parser `<denetim>...</denetim>` bloklarını atar. |
+| Ayrı TSV (`_KIYAS_`) | Cloze konsolidasyonu KIYAS dosyalarını yutmaz; karşılaştırma kartları ayrı takip/deste. |
+| Aynı namespace, `kart_tipi="karsilastirma"` | Cross-run dedup korunur, kart tipi Pinecone'da ayırt edilebilir. |
+| FAZ 5 varsayılan AÇIK, `CONTRAST_ENABLED` ile kapatılabilir | Geriye dönük uyumluluk; sadece cloze isteyen için tek bayrak. |
+| Kaynak yükleme başarısızsa FAZ 5 sessizce atlanır | Karşılaştırma defteri erişilemezse tüm pipeline'ı FatalError ile durdurmak yerine cloze sonucu korunur. |
+
+## L4. Config Sabitleri (`config.py`)
+
+| Sabit | Değer | Açıklama |
+|---|---|---|
+| `CONTRAST_NOTEBOOK_ID` | `b9e92a15-...` | **YENİ v4.0** — Karşılaştırma defterinin ID'si, `NOTEBOOK_ID`'den ayrı |
+| `CONTRAST_ENABLED` | `True` | FAZ 5 ana bayrağı |
+| `CONTRAST_CHUNK_SIZE` | 30 | Karşılaştırma çapa dilimi (cloze'dan büyük — çiftler üniteye yayılır) |
+| `CONTRAST_MAX_BATCHES` | 8 | Ünite başına maks karşılaştırma turu |
+| `CONTRAST_SATURATION_THRESHOLD` | 2 | Ardışık düşük-verimli tur → dur |
+| `CONTRAST_MIN_CARDS_PER_BATCH` | 2 | Bu sayı altında = düşük verimli |
+
+## L5. Promptlar
+
+- **Manuel (NotebookLM karşılaştırma defterine yapıştır):** `ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT_v3.txt` (7.144 char, ≤10K limit). Tam kontrast kuralları + few-shot + yanlış→doğru örnekler.
+- **Pipeline runtime:** `cloze_shared.PROMPT_CONTRAST` (~2.6K + çapalar). Artık ayrı deftere gittiği için cloze sistem promptunu override etmesi gerekmiyor (defterin kendi kalıcı promptu zaten yalnızca kıyas üretir); internal `<denetim>`, saf TSV.
+
+## L6. Validasyon Farkı (kind-aware)
+
+`validate_cloze_cards` karttaki `kart_tipi`'ne bakar:
+- `kart_tipi="karsilastirma"`: 2-4 simetrik cloze **KABUL** (kıyasın doğası). Tek cloze → `kiyas_tek_cloze` (red, kıyas değil). 5+ kutup → `kiyas_asiri_kutup` (red, liste saydırma).
+- `kart_tipi="cloze"` (varsayılan): eski davranış aynen — 3+ farklı c red, 3+ c1 şüpheli.
+
+## L7. Auto Importer ile Etkileşim
+
+`anki_auto_importer.py` `_MERGED_` içeren tüm dosyaları izler. `{Ders}_{Ünite}_KIYAS_MERGED_...tsv` dosyaları da otomatik import edilir; dosya adındaki `KIYAS`, deste adının ünite kısmına düşerek karşılaştırma kartlarını **ayrı bir desteye** koyar (spot cloze'lardan izole çalışılabilir). Ayrı deste istenmiyorsa importer'ın parse regex'i ayarlanabilir.
+
+---
+
+# BÖLÜM S: v4.0 DEĞİŞİKLİK KAYDI (2026-07-04)
+
+## S1. Prompt Yeniden Yazımı — Gerekçeler
+
+Her iki sistem promptu (cloze + karşılaştırma) sıfırdan yeniden yazıldı. Değişmeyen çekirdek: iki katmanlı mimari (atomik spot + ayrım refleksi), gizli `<analiz>`/`<denetim>` protokolü, mekanik başlık-sızıntı algoritması, YANLIŞ→DOĞRU few-shot format. Değişenler:
+
+| # | Sorun (v3.1 ve öncesi) | v4.0 Düzeltmesi |
+|---|---|---|
+| 1 | Cloze T3 "maks 2 farklı c numarası" diyordu ama few-shot'lar hep tek c1 kullanıyordu — kendi içinde çelişkiliydi. c1+c2 pedagojik olarak yanlış: Anki iki karta böler, bir kutup açıkken diğerini sorar (tanıma testi). | Her iki promptta da kıyaslar **all-c1** olarak netleştirildi, gerekçesiyle birlikte. |
+| 2 | Erken DOYGUNLUK (bilinen bug V3-02) — model kaynak bitmeden "yeterli" diyordu; FAZ 4 zorlaması bunu telafi ediyordu ama kök neden promptta kalıyordu. | DOYGUNLUK varsayılanı tersine çevrildi: "tükendi" değil "tükenmedi, devam et"; DOYGUNLUK yalnızca açık bir tükenme testinden geçince yazılır. |
+| 3 | Karşılaştırma TÜKETİM kuralı, iki üyenin paylaştığı HER boyut için kart zorluyordu — trivial/karıştırılmayan boyutlar dahil, gereksiz kart şişmesi. | "Ayırt edici boyut tüketimi": yalnızca karıştırılan/sınav-değeri boyutlar tüketilir, trivial ortak boyut atlanır. |
+| 4 | Sızıntı kuralları (başlık/semantik/tautoloji/döngüsel) cloze promptunda §2/§4/§6'ya dağılmıştı, tekrar vardı. | Tek "§5 Sızıntı Kapıları" altında toplandı — her kart TSV'ye yazılmadan geçmesi gereken 4 kapı. |
+| 5 | Türkçe ondalık virgül, çekim ekinin cloze dışında kalması gibi mikro-kurallar dağınıktı. | §4 Cloze Mekaniği altında sabitlendi; T3 kapsamı "yalnızca bariz ikili kıyas — sistematik çok-boyutlu kıyas karşılaştırma turuna bırakılır" diye netleştirildi (katmanlar arası çakışmayı önler). |
+
+Sonuç: her iki prompt da eskisinden kısa/yüksek sinyal (cloze 7.862 char, karşılaştırma 7.144 char — limit 10.000), bilinen iki bug'ı (c1+c2 tanıma testi, erken DOYGUNLUK) kaynağında kapatıyor.
+
+## S2. Mimari Değişikliği — FAZ 5 Ayrı Defter
+
+**Önce:** FAZ 5, cloze ile AYNI NotebookLM defterini kullanıyordu; runtime prompt "BU TUR CLOZE ÜRETİMİ DEĞİL" cümlesiyle o konuşma içinde cloze sistem promptunu override etmeye çalışıyordu.
+
+**Sonra:** Karşılaştırma turu için ayrı bir NotebookLM defteri açıldı (`b9e92a15-fccb-4da0-9836-e9c57960be67`), kendi kalıcı sistem promptu (`ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT_v3.txt`) o deftere yapıştırıldı. Kod tarafında (`notebooklm_mcp_cloze.py`, FAZ 5 bloğu):
+- Yeni `contrast_source` değişkeni ve `config.CONTRAST_NOTEBOOK_ID` importu eklendi.
+- FAZ 5 başlamadan önce aynı ünite PDF'i karşılaştırma defterine ayrıca yüklenir (cleanup + `add_file`, cloze defterindeki adım 0 ile simetrik).
+- Kaynak yükleme başarısız olursa FAZ 5 sessizce atlanır (pipeline'ın geri kalanı FatalError almaz) — cloze sonucu korunur.
+- `client.chat.ask(...)` çağrısı artık `CONTRAST_NOTEBOOK_ID` hedefler (önceden `NOTEBOOK_ID` idi).
+- `finally` bloğunda karşılaştırma defterindeki kaynak da temizlenir.
+
+`config.py`'ye `CONTRAST_NOTEBOOK_ID` sabiti eklendi (env override + varsayılan URL slug değeri). **Doğrulanmamış nokta:** NotebookLM'in API `notebook_id`'si ile tarayıcı URL slug'ı aynı ID uzayında olmayabilir (mevcut `NOTEBOOK_ID` örneğinde config'teki değer `a6570b2e...` iken URL `28b067b0...`dir — iki farklı UUID). `CONTRAST_NOTEBOOK_ID` şimdilik URL slug'ı ile ayarlandı; ilk gerçek (non-dry-run) çalıştırmadan önce `notebooklm list` veya `notebooklm metadata -n b9e92a15` ile doğrulanması önerilir — dry-run/gerçek ilk deneme bu ID yanlışsa `source_add`/`chat.ask` adımında açıkça hata verir (sessiz başarısızlık riski yok).
+
+## S3. Dosya Temizliği
+
+Silinen (v4.0/v3 dosyalarıyla değiştirildi, içerik kaybı yok — hepsi yeni dosyalarda daha iyi haliyle mevcut):
+- `ANKİ ÜRETİM NOTEBOOKLM MASTERPROMPT.txt` (eski cloze sistem promptunun birebir kopyası)
+- `ANKİ KARŞILAŞTIRMA NOTEBOOKLM MASTERPROMPT.txt` (v3.txt öncesi karşılaştırma promptu)
+- `notebooklm_cloze_system_prompt_v3.md` (v4.md ile değiştirildi)
+- `karşılaştırma soruları.txt` (eski iki-blok DENETİM+İÇE AKTARIM mimarisi — v3.txt tek-blok, internal `<denetim>` mimarisiyle değiştirildi)
+
+Korunan: `karşılaştırma örnek.txt` — eski iki-blok formatında ama kart kalitesi hâlâ referans niteliğinde; silinmedi.
+
+---
+
+# BÖLÜM T: v5 DEĞİŞİKLİK KAYDI (2026-07-04, Fable 5)
+
+## T1. Prompt Güçlendirme (Görev A)
+| # | Değişiklik | Dosya |
+|---|---|---|
+| 1 | **TEK-CEVAP KAPISI (§5-E)** — sızıntının aynası: görünür kök tek savunulabilir cevaba kısıtlanmalı; değilse kısıt/ipucu/yön-çevirme. Haksız-zor (belirsiz) kartı eler. | `notebooklm_cloze_system_prompt_v5.md` |
+| 2 | **Çeldirici (distraktör) yönelimi** — §0/§6/few-shot: her kart DUS'un karıştırdığı noktayı hedefler; çeldirici Extra'ya (Text'e değil — sızdırır). | v5 cloze + v4 kıyas |
+| 3 | **T6 Klinik Uygulama (ters yön)** — kaynak bulgu→tanı/karar haritası verdiğinde tanıyı gizle (vignette refleksi, TELOS P2). Guardrail: uydurma yasak. | v5 cloze |
+| 4 | **§5-B netleştirme** — eksen adı (dezavantajı/avantajı) değeri belirlemiyorsa sızıntı DEĞİL; altın kart deseni korunur. | v5 cloze |
+| 5 | Karşılaştırma promptuna **TEK-CEVAP TESTİ** + çeldirici tuzağı Extra'da. | `..._v4.txt` |
+
+Karakter: cloze v5 = 9084 (≤9500), kıyas v4 = 7031. c1+c2 yasağı + all-c1 doktrini + atomiklik korundu.
+**Aksiyon:** v5/v4 promptlarını ilgili NotebookLM defterlerine YENİDEN YAPIŞTIR (eski v4/v3 üzerine).
+
+## T2. Pipeline Paralelleştirme (Görev B)
+FAZ 5 (karşılaştırma) artık FAZ 0'dan hemen sonra `asyncio.create_task` ile başlatılıp FAZ 2-4 (cloze) ile **eşzamanlı** çalışır; ünite bitmeden `await` ile toplanır.
+- Yeni fonksiyon: `_run_contrast_phase(...)` — bağımsız coroutine, kendi cleanup/upload/temizlik, HİÇBİR hata sızdırmaz (0 döner).
+- Guard: retry sırasında ikinci kez başlatmamak için `contrast_task is None`.
+- Eşzamanlılık güvenli: `client._post` senkron+atomik (içinde await yok), iki faz ayrı `notebook_id`. Örtüşme kazancı `chat.ask` polling boşluklarında + Google'ın iki defteri sunucu tarafında paralel üretmesinde. Retry/hata yönetimi davranışı korundu.
+- **Not:** `_post` hâlâ bloklayan `urllib`; gelecekte `asyncio.to_thread` sarımıyla örtüşme daha da sıkılaştırılabilir (F5-05).
+
+## T3. Bug Düzeltmesi (Görev C — V5-01)
+`cloze_shared.py` validator rule 5, "dezavantajı/avantajı {{c1::SOMUT DEĞER}}" altın-standart kartlarını hatalı reddediyordu. Artık yalnızca cevabın kendisi kaliteyle-eş-anlamlı bir yargıysa (`EVALUATIVE_ANSWER_RE`: "daha az etkili" vb.) reddedilir; "daha kalın ve sert", "kablosuz", "%50" gibi somut değerler geçer. Birim testi: 4 karttan yalnız gerçek tautoloji reddedildi.
+
+---
+
+*Rehber sonu. v5 (Fable 5) — prompt güçlendirme (tek-cevap kapısı, çeldirici yönelimi, T6 vignette), FAZ 5 paralelleştirmesi, validator V5-01 bug düzeltmesi. Önceki: v4.0 — prompt yeniden yazımı, FAZ 5 ayrı defter.*

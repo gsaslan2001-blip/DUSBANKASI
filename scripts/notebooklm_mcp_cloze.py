@@ -30,14 +30,17 @@ from datetime import datetime
 sys.path.insert(0, os.path.dirname(__file__))
 
 from config import (
-    NOTEBOOK_ID, MCP_URL, RETRY_BACKOFF, MAX_RETRIES,
+    NOTEBOOK_ID, CONTRAST_NOTEBOOK_ID, MCP_URL, RETRY_BACKOFF, MAX_RETRIES,
     COOLDOWN_BETWEEN_UNITS, PROMPT_CHAR_LIMIT,
     CLOZE_MAX_BATCHES, CLOZE_SATURATION_THRESHOLD,
     CLOZE_MIN_CARDS_PER_BATCH, INTER_BATCH_COOLDOWN,
+    CONTRAST_ENABLED, CONTRAST_CHUNK_SIZE, CONTRAST_MAX_BATCHES,
+    CONTRAST_SATURATION_THRESHOLD, CONTRAST_MIN_CARDS_PER_BATCH,
     LOG_DIR as _LOG_DIR,
 )
 from cloze_shared import (
     PROMPT_ANCHOR, build_cloze_prompt, build_cloze_uncovered_prompt,
+    build_contrast_prompt,
     parse_anchor_response, classify_anchors_pinecone,
     parse_cloze_response, deploy_cards_to_pinecone,
     get_existing_card_texts, get_namespace_count,
@@ -376,6 +379,171 @@ def _save_progress(lesson: str, completed_units: set):
         print(f"   ⚠️ Progress kaydedilemedi: {e}")
 
 
+async def _run_contrast_phase(client, lesson, unit_name, file_path, anchors,
+                              namespace, dry_run=False):
+    """
+    FAZ 5 — Karşılaştırma (kontrast) turu. AYRI NotebookLM defterinde çalışır.
+
+    FAZ 0'ın ürettiği `anchors` dışında cloze üretimine (FAZ 2-4) bağımlılığı yok;
+    bu yüzden cloze ile PARALEL çalışacak şekilde bağımsız bir coroutine.
+    Kendi kaynağını yükler, üretir, temizler. HİÇBİR hata dışarı sızmaz — başarısızlık
+    yalnızca loglanır ve 0 döner (cloze sonucu korunur). Döner: yazılan kart sayısı.
+
+    Eşzamanlılık: `client._post` senkron ve atomik (içinde await yok) olduğu için
+    asyncio tek-thread modelinde cloze ile çakışmaz; iki faz ayrı notebook_id'ye
+    gider. Örtüşme kazancı `chat.ask` içindeki `asyncio.sleep` polling boşluklarında
+    oluşur — Google iki defterin yanıtını sunucu tarafında paralel üretir.
+    """
+    if not (CONTRAST_ENABLED and anchors):
+        return 0
+
+    contrast_source = None
+    contrast_total = 0
+    try:
+        print(f"\n   {'='*50}")
+        print(f"   ⚖️  FAZ 5 (PARALEL): Karşılaştırma turu — {len(anchors)} çapa")
+        print(f"   ⚖️  Hedef defter: {CONTRAST_NOTEBOOK_ID} (ayrı sistem promptu)")
+        print(f"   {'='*50}")
+
+        # ─── Karşılaştırma defterine aynı kaynağı yükle (cleanup + add_file) ───
+        try:
+            for cleanup_attempt in range(3):
+                try:
+                    c_existing = await client.sources.list(CONTRAST_NOTEBOOK_ID)
+                    if not c_existing:
+                        break
+                    for s in c_existing:
+                        try:
+                            await client.sources.delete(CONTRAST_NOTEBOOK_ID, s.id)
+                        except Exception as de:
+                            print(f"      ⚠ (kıyas) silinemedi ({s.title}): {de}")
+                    c_remaining = await client.sources.list(CONTRAST_NOTEBOOK_ID)
+                    if not c_remaining:
+                        break
+                    await asyncio.sleep(5)
+                except Exception as ce:
+                    print(f"   ⚠️ Kıyas defteri cleanup hata (deneme {cleanup_attempt+1}/3): {ce}")
+                    await asyncio.sleep(5)
+
+            contrast_source = await asyncio.wait_for(
+                client.sources.add_file(CONTRAST_NOTEBOOK_ID, file_path, wait=True, wait_timeout=1500),
+                timeout=1600
+            )
+            print(f"   ✅ Kıyas defteri kaynağı hazır: {contrast_source.id}")
+        except Exception as upload_err:
+            print(f"   ⚠️ Kıyas defterine kaynak yüklenemedi — FAZ 5 atlanıyor: {upload_err}")
+            return 0
+
+        contrast_chunks = list(chunk_list(anchors, CONTRAST_CHUNK_SIZE))
+        contrast_batch = 0
+        contrast_dry = 0
+
+        for c_idx, c_chunk in enumerate(contrast_chunks):
+            if contrast_batch >= CONTRAST_MAX_BATCHES:
+                print(f"   ⚠️ Karşılaştırma maks batch ({CONTRAST_MAX_BATCHES}). Durduruluyor.")
+                break
+            if contrast_dry >= CONTRAST_SATURATION_THRESHOLD:
+                print(f"   ⚠️ Karşılaştırma doygunluk eşiği ({CONTRAST_SATURATION_THRESHOLD} ardışık düşük). Durduruluyor.")
+                break
+
+            contrast_batch += 1
+            print(f"\n   ┌─ KIYAS BATCH {contrast_batch}/{CONTRAST_MAX_BATCHES} (Dilim {c_idx + 1}/{len(contrast_chunks)}) ────")
+            print(f"   │  Odak çapalar: {len(c_chunk)} adet")
+
+            prompt = build_contrast_prompt(c_chunk, lesson=lesson, unit=unit_name)
+            print(f"   │  Prompt: {len(prompt)} char")
+            print(f"   │  ⚖️  NotebookLM'e gönderiliyor (karşılaştırma)...")
+
+            res = await asyncio.wait_for(
+                client.chat.ask(CONTRAST_NOTEBOOK_ID, prompt),
+                timeout=600
+            )
+
+            saturated = check_saturation(res.answer)
+            cards = parse_cloze_response(res.answer, kind="karsilastirma")
+
+            if not cards:
+                _dump_raw_response(res.answer)
+
+            print(f"   │  📦 Üretilen: {len(cards)} karşılaştırma kartı")
+
+            try:
+                log_path = os.path.join(
+                    LOG_DIR,
+                    f"kiyas_{_safe_filename(unit_name)}_batch{contrast_batch}.txt"
+                )
+                with open(log_path, 'w', encoding='utf-8') as f:
+                    f.write(f"KIYAS Batch: {contrast_batch}\nDilim: {c_idx + 1}/{len(contrast_chunks)}\n")
+                    f.write(f"Odak: {len(c_chunk)}\nKart: {len(cards)}\n\n")
+                    f.write("--- ODAK ÇAPALAR ---\n")
+                    for c in c_chunk:
+                        f.write(f"- {c}\n")
+                    f.write("\n--- ANSWER ---\n")
+                    f.write(res.answer or '(empty)')
+            except Exception:
+                pass
+
+            if not cards:
+                contrast_dry += 1
+                print(f"   │  ⚠️ 0 kart (düşük: {contrast_dry}/{CONTRAST_SATURATION_THRESHOLD})")
+                print(f"   └──────────────────────────────────────")
+                if saturated:
+                    print(f"   │  🏁 Model DOYGUNLUK bildirdi (karşılaştırma).")
+                    break
+                await asyncio.sleep(INTER_BATCH_COOLDOWN)
+                continue
+
+            wrote = deploy_cards_to_pinecone(cards, lesson, unit_name, namespace=namespace, dry_run=dry_run)
+            contrast_total += wrote
+
+            if cards and not dry_run:
+                try:
+                    save_cloze_tsv(cards, lesson, unit_name, tag="KIYAS")
+                except Exception as tsv_err:
+                    print(f"   ⚠️ KIYAS TSV kaydedilemedi: {tsv_err}")
+
+            if wrote < CONTRAST_MIN_CARDS_PER_BATCH:
+                contrast_dry += 1
+                print(f"   │  ⚠️ Düşük verim ({wrote} < {CONTRAST_MIN_CARDS_PER_BATCH}): {contrast_dry}/{CONTRAST_SATURATION_THRESHOLD}")
+            else:
+                contrast_dry = 0
+
+            print(f"   │  ⚖️  Yazılan karşılaştırma kartı: {wrote} (toplam: {contrast_total})")
+            print(f"   └──────────────────────────────────────")
+
+            if saturated:
+                print(f"   🏁 Model DOYGUNLUK bildirdi (karşılaştırma) — tur bitiriliyor.")
+                break
+
+            await asyncio.sleep(INTER_BATCH_COOLDOWN)
+
+        print(f"\n   ⚖️  FAZ 5 tamamlandı: {contrast_total} karşılaştırma kartı, {contrast_batch} tur.")
+
+        if not dry_run and contrast_total > 0:
+            try:
+                kiyas_merged = consolidate_unit_tsv(lesson, unit_name, tag="KIYAS")
+                if kiyas_merged:
+                    print(f"   📦 KIYAS MERGED TSV: {kiyas_merged}")
+            except Exception as merge_err:
+                print(f"   ⚠️ KIYAS MERGED TSV oluşturulamadı: {merge_err}")
+
+        return contrast_total
+
+    except asyncio.CancelledError:
+        print(f"   ⚠️ FAZ 5 iptal edildi.")
+        raise
+    except Exception as e:
+        # Kıyas turu HİÇBİR koşulda cloze sonucunu bozmaz — yalnızca loglanır.
+        print(f"   ⚠️ FAZ 5 (paralel) beklenmeyen hata — atlanıyor: {e}")
+        return contrast_total
+    finally:
+        if contrast_source and getattr(contrast_source, 'id', None):
+            try:
+                await client.sources.delete(CONTRAST_NOTEBOOK_ID, contrast_source.id)
+            except Exception as del_err:
+                print(f"   ⚠️ Kıyas defteri source silme: {del_err}")
+
+
 async def process_unit_cloze(client, lesson, unit_name, file_path, dry_run=False):
     """Tek bir üniteyi Çapa=Kart modunda işler — Pinecone hedefli."""
     print(f"\n{'='*60}")
@@ -393,6 +561,7 @@ async def process_unit_cloze(client, lesson, unit_name, file_path, dry_run=False
     source = None
     total_produced = 0
     batch_results = []
+    contrast_task = None  # FAZ 5 paralel görevi — FAZ 0 sonrası bir kez başlatılır
 
     for attempt in range(1, MAX_RETRIES + 1):
         try:
@@ -450,6 +619,19 @@ async def process_unit_cloze(client, lesson, unit_name, file_path, dry_run=False
                         f.write(f"{i}. {a}\n")
             except:
                 pass
+
+            # ─── FAZ 5'İ PARALEL BAŞLAT ───
+            # FAZ 5'in tek bağımlılığı FAZ 0'ın ürettiği `anchors`. Ayrı defterde
+            # çalıştığı için FAZ 2-4 (cloze) ile eşzamanlı ilerleyebilir. Retry
+            # sırasında ikinci kez başlatmamak için `contrast_task is None` guard'ı.
+            if CONTRAST_ENABLED and anchors and contrast_task is None:
+                print(f"   ⚖️  FAZ 5 paralel görev başlatılıyor (cloze ile eşzamanlı)...")
+                contrast_task = asyncio.create_task(
+                    _run_contrast_phase(
+                        client, lesson, unit_name, file_path, anchors,
+                        namespace, dry_run=dry_run
+                    )
+                )
 
             # ─── FAZ 1: Pinecone kapsam kontrolü ───
             print(f"\n   📊 FAZ 1: Pinecone kapsam kontrolü")
@@ -717,6 +899,19 @@ async def process_unit_cloze(client, lesson, unit_name, file_path, dry_run=False
                 except Exception as merge_err:
                     print(f"   ⚠️ MERGED TSV oluşturulamadı: {merge_err}")
 
+            # ─── FAZ 5: Paralel karşılaştırma turunu bekle ───
+            # FAZ 5 FAZ 0'dan hemen sonra başlatıldı ve FAZ 2-4 ile eşzamanlı çalıştı;
+            # ünite tamamlanmadan önce burada toplanır. Hata sızdırmaz (0 döner).
+            if contrast_task is not None:
+                print(f"\n   ⚖️  FAZ 5 (paralel) tamamlanması bekleniyor...")
+                try:
+                    contrast_written = await contrast_task
+                    print(f"   ⚖️  FAZ 5 sonucu: {contrast_written} karşılaştırma kartı yazıldı.")
+                except Exception as ce:
+                    print(f"   ⚠️ FAZ 5 beklenirken hata (yok sayıldı): {ce}")
+                finally:
+                    contrast_task = None
+
             print(f"   {'='*50}")
             return True
 
@@ -748,6 +943,15 @@ async def process_unit_cloze(client, lesson, unit_name, file_path, dry_run=False
                     await client.sources.delete(NOTEBOOK_ID, source.id)
                 except Exception as del_err:
                     print(f"   ⚠️ Source silme: {del_err}")
+            # Kıyas defteri kaynağının temizliği _run_contrast_phase içindedir.
+
+    # Tüm denemeler başarısız (return True'ya ulaşılmadı): paralel FAZ 5 görevi
+    # hâlâ çalışıyor olabilir — orphan bırakmadan topla.
+    if contrast_task is not None:
+        try:
+            await contrast_task
+        except Exception as ce:
+            print(f"   ⚠️ FAZ 5 (paralel) artık görev toplanırken hata: {ce}")
 
     return False
 

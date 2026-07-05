@@ -429,6 +429,15 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
 #  KALİTE GATE (Faz 1: Structural Validation)
 # ═══════════════════════════════════════════════
 
+# Kaynak sızıntısı: soru kökü/şık/açıklama "metne göre" bağımlı olmamalı; her soru
+# sınavda kaynak olmadan tek başına sorulabilir biçimde bağımsız olmalı. Gerçek DUS
+# (2024+2025) sorularında yanlış-pozitif vermez (test edildi).
+_SOURCE_LEAK_RE = re.compile(
+    r"(?i)(kaynak\s*metn|metne g[öo]re|metinde\b|metinden\b|verilen bilgi|"
+    r"bu kaynak|yukar[ıi]daki metin|tabloda belirtil|şekilde belirtil|paragrafa g[öo]re)"
+)
+
+
 def _validate_single_question(q):
     """
     Bir soruyu kalite filtrelerinden geçirir.
@@ -465,6 +474,10 @@ def _validate_single_question(q):
     raw_blob = stem + " " + expl + " " + " ".join(str(v) for v in opts.values())
     if any(sig in raw_blob for sig in MOJIBAKE_SIGNATURES):
         return False, "bozuk_karakter"
+
+    # Filtre 1.g — Kaynak sızıntısı ("kaynak/metne göre" → soru bağımsız değil)
+    if _SOURCE_LEAK_RE.search(raw_blob):
+        return False, "kaynak_sizintisi"
 
     # Filtre 3 — Asimetrik Kapsama (Bilgi Sızıntısı / Information Leakage)
     correct_text = opts.get(ca, "")

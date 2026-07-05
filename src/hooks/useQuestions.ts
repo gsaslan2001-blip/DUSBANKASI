@@ -3,7 +3,6 @@ import {
   fetchSkeletons,
   fetchHighYieldQuestions,
   fetchQuestionsByIds,
-  deleteQuestion as deleteQuestionRemote,
   toggleFavoriteInCloud,
   updateQuestion as updateQuestionRemote,
   flagQuestion as flagQuestionRemote,
@@ -11,6 +10,7 @@ import {
   type SkeletonRow,
 } from '../lib/supabase';
 import { syncStatsDown } from '../lib/stats';
+import { enqueuePendingDelete, getPendingDeletes } from '../lib/pendingDeletes';
 import type { Question, QuestionSkeleton } from '../data';
 
 export type LoadingState = 'idle' | 'loading' | 'loaded' | 'error';
@@ -71,7 +71,10 @@ export function useQuestions(): UseQuestionsResult {
     try {
       // Açılışta sadece iskelet (~250 KB) çekilir
       const rows = await fetchSkeletons();
-      const mapped = rows.map(rowToSkeleton);
+      // Bekleyen (henüz DB'den silinmemiş) soruları gizle — flush edilene kadar
+      // tekrar belirmesinler.
+      const pendingDel = new Set(getPendingDeletes());
+      const mapped = rows.filter(r => !pendingDel.has(r.id)).map(rowToSkeleton);
       skeletonsRef.current = mapped;
       setSkeletons(mapped);
       setLoadStatus('loaded');
@@ -143,15 +146,13 @@ export function useQuestions(): UseQuestionsResult {
   }, []);
 
   const deleteQuestion = useCallback(async (id: string) => {
+    // Ertelenmiş silme: kuyruğa al + iskeletten optimistic düş.
+    // Gerçek DB silme flushPendingDeletes() ile sync / test bitişi / yeniden
+    // bağlanma anında yapılır. Burada AĞA GİDİLMEZ ve reload TETİKLENMEZ —
+    // böylece aktif soru-çözme oturumu unmount olup başa dönmez (kaldığı yerde kalır).
+    enqueuePendingDelete(id);
     setSkeletons(prev => prev.filter(s => s.id !== id));
-    try {
-      await deleteQuestionRemote(id);
-    } catch (error) {
-      // Rollback zor (orijinal satır kayıp), reload tetikle
-      await reload();
-      throw error;
-    }
-  }, [reload]);
+  }, []);
 
   const toggleFavorite = useCallback(async (id: string, newStatus: boolean) => {
     setSkeletons(prev => prev.map(s => s.id === id ? { ...s, is_favorite: newStatus } : s));

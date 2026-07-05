@@ -121,7 +121,7 @@ export async function fetchSkeletons(): Promise<SkeletonRow[]> {
       .from('questions')
       .select(SELECT_SKELETON_COLS)
       .gt('updated_at', lastSync)
-      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield');
+      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield,quality_flag.eq.cikmis');
 
     if (updateError) throw new Error(updateError.message);
 
@@ -164,7 +164,7 @@ async function fetchAllSkeletons(): Promise<SkeletonRow[]> {
       const { data, error } = await supabase
         .from('questions')
         .select(SELECT_SKELETON_COLS)
-        .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield')
+        .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield,quality_flag.eq.cikmis')
         .order('id', { ascending: true })
         .range(from, from + PAGE_SIZE - 1);
       if (error) throw new Error(error.message);
@@ -263,7 +263,7 @@ export async function fetchQuestions(flaggedOnly = false): Promise<QuestionRow[]
       .from('questions')
       .select(SELECT_COLS)
       .gt('updated_at', lastSync)
-      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield');
+      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield,quality_flag.eq.cikmis');
     if (updateError) throw new Error(updateError.message);
     const updatedRows = ((updatedData ?? []) as QuestionRow[]).filter(
       r => !EXCLUDED_FLAGS.has(r.quality_flag ?? '')
@@ -302,7 +302,7 @@ async function fetchAllQuestions(flaggedOnly: boolean): Promise<QuestionRow[]> {
         .order('id', { ascending: true })
         .range(from, from + PAGE_SIZE - 1);
       if (flaggedOnly) q = q.eq('quality_flag', 'kavramsal_kopya');
-      else q = q.or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield');
+      else q = q.or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield,quality_flag.eq.cikmis');
       const { data, error } = await q;
       if (error) throw new Error(error.message);
       const rows = ((data ?? []) as QuestionRow[]).filter(
@@ -1090,6 +1090,57 @@ export async function fetchExamsByDate(
   if (error) throw error;
   return (data ?? []) as DailyExamRow[];
 }
+/**
+ * İstatistik sayfası için deneme geçmişi: tamamlanmış daily_exams + cevap özetleri.
+ * examAnalytics.buildExamResults ile uyumlu shape döner.
+ */
+export async function fetchExamHistory(userId: string, limit = 30): Promise<Array<{
+  id: string;
+  name: string;
+  exam_date: string;
+  question_ids: string[];
+  answers: { questionId: string; isCorrect: boolean; timeSpent?: number; selectedAnswer?: string; correctAnswer?: string }[];
+}>> {
+  const { data: exams, error } = await supabase
+    .from('daily_exams')
+    .select('id, day_number, exam_date, question_ids')
+    .eq('user_id', userId)
+    .eq('status', 'completed')
+    .order('exam_date', { ascending: false })
+    .limit(limit);
+  if (error) throw error;
+  if (!exams || exams.length === 0) return [];
+
+  const examIds = exams.map(e => e.id as string);
+  const { data: answers, error: ansError } = await supabase
+    .from('exam_answers')
+    .select('exam_id, question_id, is_correct, time_spent, selected_answer, correct_answer')
+    .eq('user_id', userId)
+    .in('exam_id', examIds);
+  if (ansError) throw ansError;
+
+  const byExam = new Map<string, { questionId: string; isCorrect: boolean; timeSpent?: number; selectedAnswer?: string; correctAnswer?: string }[]>();
+  for (const a of answers ?? []) {
+    const list = byExam.get(a.exam_id as string) ?? [];
+    list.push({
+      questionId: a.question_id as string,
+      isCorrect: a.is_correct as boolean,
+      timeSpent: (a.time_spent as number | null) ?? undefined,
+      selectedAnswer: (a.selected_answer as string | null) ?? undefined,
+      correctAnswer: a.correct_answer as string,
+    });
+    byExam.set(a.exam_id as string, list);
+  }
+
+  return exams.map(e => ({
+    id: e.id as string,
+    name: `Gün ${e.day_number}`,
+    exam_date: e.exam_date as string,
+    question_ids: (e.question_ids as string[]) ?? [],
+    answers: byExam.get(e.id as string) ?? [],
+  }));
+}
+
 /** Kullanıcının toplam daily exam sayısını döner — bir sonraki day_number için. */
 export async function getNextDayNumber(userId: string): Promise<number> {
   const { count, error } = await supabase

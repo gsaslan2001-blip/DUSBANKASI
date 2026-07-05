@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { importQuestions, fetchQuestionsByIds, deleteQuestionsInLesson, deleteQuestionsInUnit, renameLesson, renameUnit, loadTodaysDailyExam, markDailyExamCompleted, saveExamAnswers, uploadQuestionImage, deleteQuestionImage, rowToQuestion, type DailyExamRow } from './lib/supabase';
 import { useQuestions } from './hooks/useQuestions';
+import { flushPendingDeletes } from './lib/pendingDeletes';
 import { motion } from 'framer-motion';
 import { useResumableSession } from './hooks/useResumableSession';
 import { useAuth } from './hooks/useAuth';
@@ -277,6 +278,15 @@ export default function App() {
   // dinleyicilerini kurar. Cleanup React unmount'ta otomatik çalışır.
   useEffect(() => setupSyncHandlers(), []);
 
+  // Ertelenmiş soru-silmelerini uygula: açılışta (yeniden bağlanma) ve ağ geri
+  // gelince. Oturum sırasında biriken silme kuyruğu burada DB'ye işlenir.
+  useEffect(() => {
+    flushPendingDeletes().catch(() => {});
+    const onOnline = () => { flushPendingDeletes().catch(() => {}); };
+    window.addEventListener('online', onOnline);
+    return () => window.removeEventListener('online', onOnline);
+  }, []);
+
   // userId değişiminde sync sistemine bildir (tüm push/pull işlemleri user bazlı olur)
   useEffect(() => {
     setSyncUserId(user?.id ?? null);
@@ -422,6 +432,9 @@ export default function App() {
       if (resumeSessionData) {
         await saveResumableSession(resumeSessionData);
       }
+      // Bekleyen soru-silmelerini önce DB'ye işle — sonraki skeleton çekiminde
+      // (loadQuestions) silinen sorular geri gelmesin.
+      await flushPendingDeletes();
       const pushResult = await syncStatsUp();
       if (pushResult.errors.length > 0) {
         console.error('[Sync] Push hataları:', pushResult.errors);
@@ -533,6 +546,7 @@ export default function App() {
     setAppState('result');
     clearResumableSession().catch(() => { });
     SyncManager.flush().catch(() => {});
+    flushPendingDeletes().catch(() => {}); // test bitti — bekleyen silmeleri DB'ye işle
     if (activeExam?.variant === 'daily' && activeExam.dailyExamId) {
       if (user) {
         saveExamAnswers(activeExam.dailyExamId, user.id, answers).catch(() => {});
@@ -544,6 +558,7 @@ export default function App() {
   };
   const handleReturnToHome = () => {
     SyncManager.flush().catch(() => {});
+    flushPendingDeletes().catch(() => {}); // oturumdan çıkış — bekleyen silmeleri işle
     setActiveExam(null);
     setPendingExamVariant('normal');
     setAppState('select-lesson');
@@ -703,6 +718,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
     switch (appState) {
       case 'quiz': {
         SyncManager.flush().catch(() => {});  // quiz ortasında çıkışta pending sync'i gönder
+        flushPendingDeletes().catch(() => {}); // oturumdan çıkış — bekleyen silmeleri işle
         setUnitQuestions([]);
         setActiveExam(null);
         setPendingExamVariant('normal');

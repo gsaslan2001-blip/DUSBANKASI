@@ -67,3 +67,130 @@ export type UserSettings = {
   theme: 'dark' | 'oled' | 'light';
   fontSize: 'small' | 'normal' | 'large';
 };
+
+// ─── v6: DUS Skor ve Tahmin ───────────────────────────────────────────────
+
+export type DusScoreEstimate = {
+  estimatedNet: number;
+  confidenceInterval: [number, number];
+  estimatedRank: number;
+  estimatedPercentile: number;
+  targetProbability: number;
+  aspirationZone: 'target' | 'competitive' | 'safe' | 'below_threshold';
+};
+
+export type TargetProbability = {
+  chance: number;
+  requiredDailyNet: number;
+  daysUntilExam: number;
+};
+
+// ─── v6: Hedef Sistemi ────────────────────────────────────────────────────
+
+export type UserGoals = {
+  dailyQuestions: number;
+  weeklyQuestions: number;
+  targetAccuracy: number;
+  targetCoverage: number;
+  targetMastered: number;
+  targetStreak: number;
+  targetDusNet: number;
+  customGoals: CustomGoal[];
+};
+
+export type CustomGoal = {
+  id: string;
+  title: string;
+  target: number;
+  current: number;
+  unit: string;
+  createdAt: string;
+  targetDate?: string;
+};
+
+export type GoalProgress = {
+  goalKey: string;
+  label: string;
+  current: number;
+  target: number;
+  pct: number;
+  onTrack: boolean;
+  icon: string;
+};
+
+export type Milestone = {
+  type: string;
+  message: string;
+  reachedAt: string;
+};
+
+export type GoalAlert = {
+  level: 'critical' | 'warning' | 'success';
+  message: string;
+  goalKey: string;
+};
+
+// ─── v6: Öneri Sistemi ────────────────────────────────────────────────────
+
+export type LessonPriority = {
+  lesson: string;
+  priority: number;
+  reason: string;
+  suggestedDailyQuestions: number;
+};
+
+export type UnitFocusItem = {
+  lesson: string;
+  unit: string;
+  coverage: number;
+  accuracy: number;
+  priority: number;
+};
+
+export type DailyRecommendation = {
+  focusLesson: string;
+  suggestedQuestionCount: number;
+  focusUnits: string[];
+  message: string;
+};
+
+export type ErrorPattern = {
+  lesson: string;
+  pattern: string;
+  frequency: number;
+  description: string;
+};
+
+// ─── v6: Deneme Analizi ───────────────────────────────────────────────────
+
+export type ExamResult = {
+  examId: string;
+  examName: string;
+  examDate: string;
+  totalQuestions: number;
+  correct: number;
+  incorrect: number;
+  blank: number;
+  score: number;
+  timeSpent: number;
+  lessonBreakdown: Record<string, { correct: number; total: number }>;
+};
+
+export type ExamTrendData = {
+  exams: { date: string; score: number; label: string }[];
+  trend: 'up' | 'down' | 'flat';
+  bestScore: number;
+  avgScore: number;
+  improvement: number;
+};
+
+export type SpeedAccuracyPoint = {
+  timeSpent: number;
+  accuracy: number;
+  lesson: string;
+};
+
+export type OrderEffectData = {
+  positionBuckets: { start: number; end: number; accuracy: number }[];
+  fatigueScore: number;
+};

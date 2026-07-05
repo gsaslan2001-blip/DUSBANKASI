@@ -287,7 +287,7 @@ describe('Pagination & Fetch functions (fetchQuestions, fetchHighYieldQuestions)
     
     const c1 = globalThis.__chains[0];
     expect(c1._query).toContainEqual(['range', [0, 499]]);
-    expect(c1._query).toContainEqual(['or', ['quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield']]);
+    expect(c1._query).toContainEqual(['or', ['quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield,quality_flag.eq.cikmis']]);
     
     const c2 = globalThis.__chains[1];
     expect(c2._query).toContainEqual(['range', [500, 999]]);

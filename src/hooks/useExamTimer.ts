@@ -24,9 +24,6 @@ export function useExamTimer(
   initialRemainingSeconds?: number
 ): UseExamTimerResult {
   const [remainingSeconds, setRemainingSeconds] = useState(initialRemainingSeconds ?? totalSeconds ?? 0);
-  // Render sırasında Date.now() çağrısı saf değildir (react-hooks/purity); gerçek
-  // başlangıç anı timer effect'inde, sayaç fiilen başladığında damgalanır.
-  const simStartRef = useRef(0);
 
   // Keep latest onExpire without re-running the interval effect
   const onExpireRef = useRef(onExpire);
@@ -37,7 +34,6 @@ export function useExamTimer(
 
   useEffect(() => {
     if (!totalSeconds || totalSeconds <= 0) return;
-    if (simStartRef.current === 0) simStartRef.current = Date.now();
     const tick = setInterval(() => {
       setRemainingSeconds(prev => {
         if (prev <= 1) {
@@ -47,7 +43,10 @@ export function useExamTimer(
           for (let i = finalAnswers.length; i < qs.length; i++) {
             finalAnswers.push({ question: qs[i], state: 'blank', selectedOptionKey: null, timeSpent: 0 });
           }
-          const used = Math.round((Date.now() - simStartRef.current) / 1000);
+          // Resume-safe: süre dolduğunda tahsis edilen tüm süre geçmiştir.
+          // Önceki mount'ta harcanan süreyi kaybetmemek için Date.now() deltası
+          // yerine totalSeconds kullan (resume edilmiş simülasyonda doğru).
+          const used = totalSeconds;
           onExpireRef.current(finalAnswers, used);
           return 0;
         }

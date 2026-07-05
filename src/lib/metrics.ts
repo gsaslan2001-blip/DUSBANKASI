@@ -154,7 +154,33 @@ export function computeLessonConsistency(units: UnitAccuracy[]): LessonConsisten
   return result.sort((a, b) => a.consistency - b.consistency);
 }
 
-// ─── 3. TAHMİN BANDI (projeksiyon + güven aralığı) ────────────────────────────
+// ─── 3. DOĞRULUK VOLATİLİTESİ ──────────────────────────────────────────────────
+
+/**
+ * Son N günün doğruluk standart sapmasını hesaplar.
+ * Prediksiyon güven aralığı için kullanılır.
+ * Düşük volatilite = istikrarlı performans, yüksek = dalgalı.
+ */
+export function computeAccuracyVolatility(
+  activity: { correct: number; incorrect: number }[],
+  window = 14,
+): number {
+  const recent = activity.slice(-window);
+  const rates: number[] = [];
+  for (const a of recent) {
+    const total = a.correct + a.incorrect;
+    if (total > 0) rates.push(a.correct / total);
+  }
+  if (rates.length < 2) return 5;
+
+  const mean = rates.reduce((s, r) => s + r, 0) / rates.length;
+  const variance = rates.reduce((s, r) => s + (r - mean) ** 2, 0) / rates.length;
+  const stdDev = Math.sqrt(variance) * 100;
+
+  return Math.round(stdDev * 10) / 10;
+}
+
+// ─── 4. TAHMİN BANDI (projeksiyon + güven aralığı) ────────────────────────────
 
 export type PredictionPoint = {
   date: string;

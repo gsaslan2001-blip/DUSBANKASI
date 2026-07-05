@@ -348,18 +348,28 @@ TOPLAM_KAVRAM = <sayı>
 # İlk batch: Master Prompt'un kendi ağırlık merkezleri
 PROMPT_BATCH_1 = r"""Sistem ayarlarındaki Master Prompt kuralları aynen geçerlidir.
 
-Lütfen o ayarlardaki TÜM kalite kurallarına, <analiz> protokolüne ve spesifik JSON çıktısına harfiyen uyarak, sadece sana verdiğim bu kaynaktan ilk 30 soruluk ağırlık merkezleri (Batch 1, 2, 3) setini üret.
+Bu kaynaktan ilk 30 soruluk seti (ağırlık merkezleri: Batch 1-2-3) üret. <analiz> protokolüne, JSON çıktısına ve TÜM kalite kurallarına harfiyen uy.
+
+KRİTİK HATIRLATMA (ihlal = geçersiz soru):
+1) Soru kökü, şıklar ve açıklamada "kaynak", "metne göre", "metinde", "verilen bilgiye göre" KESİNLİKLE YASAK — her soru kaynaksız, sınavda tek başına sorulabilecek biçimde bağımsız olmalı.
+2) Kavramı tanıtan sahte önsöz cümlesi ("...incelendiğinde", "...bilinmektedir") YASAK; doğrudan soruya geç, kök kısa olsun.
+3) Açıklama: önce doğru şıkkı mekanizmayla kur, sonra DİĞER 4 ŞIKKI TEK TEK çürüt, son olarak ayırt edici noktayı yaz.
+4) Çeldiriciler, doğru cevapla EN ÇOK KARIŞTIRILAN komşu kavramlardan seçilir; soru DUS zorluğunda olmalı.
 """
 
 # Sonraki batch'ler: SADECE kavram listesi + minimal yönerge
 # Master Prompt zaten tüm format/kalite kurallarını hallediyor
 PROMPT_CHUNK_TEMPLATE = r"""ÇAPA MODU — Batch {BATCH_NUM}
 
-Aşağıdaki kavramları birincil test nesnesi olarak sorgula. Her kavram en az bir sorunun BİRİNCİL konusu olmalı. Listedeki tüm kavramları kapsamaya çalış:
+Aşağıdaki kavramları birincil test nesnesi yap; listedeki HER kavram en az bir sorunun BİRİNCİL konusu olsun:
 
 {KAVRAM_LISTESI}
 
-Master Prompt kuralları (JSON formatı, zorluk dağılımı, analiz protokolü) aynen geçerlidir.
+Master Prompt kuralları (JSON, zorluk dağılımı, analiz protokolü) aynen geçerlidir. KRİTİK:
+1) "kaynak / metne göre / metinde" YASAK — sorular bağımsız, sınavda tek başına sorulabilir olmalı.
+2) Sahte tanıtıcı önsöz YASAK; kök kısa ve doğrudan.
+3) Açıklama 4 çeldiriciyi TEK TEK çürütür + ayırt edici nokta.
+4) Çeldiriciler en çok karıştırılan komşu kavramlardan; DUS zorluğunda.
 """
 
 
@@ -389,10 +399,9 @@ def parse_anchor_response(text):
 def _tokenize_stem(text: str) -> set:
     """Türkçe küçük harfe çevirir, noktalama ayıklar, token set döner."""
     import re as _re
-    text = text.lower()
-    # Türkçe karakter normalizasyonu
-    tr_map = str.maketrans("İIÇŞĞÜÖ", "içşğüö".lower() + "iicsğüö")
-    text = text.translate(tr_map)
+    # Türkçe büyük→küçük normalizasyonu ÖNCE yapılır: Python .lower() "I"→"i" yaparak
+    # Türkçe ı/i ayrımını bozar; bu yüzden önce maketrans (I→ı, İ→i ...), sonra lower().
+    text = text.translate(str.maketrans("İIÇŞĞÜÖ", "iıçşğüö")).lower()
     tokens = _re.split(r'[^a-zçşğüöı]+', text)
     return {t for t in tokens if len(t) >= 3}
 
@@ -952,7 +961,11 @@ def _smart_unit_match(pdf_stem: str, existing_units: list[str]) -> str:
             best_score = combined
             best_match = unit
 
-    if best_score >= 0.45:
+    # Eşik 0.45 → 0.60: char-tabanlı SequenceMatcher tek ortak kelimeden
+    # ("Dişlerin Gelişim Anomalileri" ↔ "Ünite 1 - Dişlerin Oluşum Dönemleri")
+    # YANLIŞ birleşme üretip soruları sessizce yanlış üniteye yazıyordu.
+    # Eşleşme zayıfsa GÖRÜNÜR biçimde yeni ünite açmak, sessiz veri bozulmasından güvenlidir.
+    if best_score >= 0.60:
         if best_match != cleaned:
             print(f"      🧠 Akıllı eşleme: '{pdf_stem}' → '{best_match}' (skor: {best_score:.2f})")
         return best_match

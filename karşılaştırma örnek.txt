@@ -1,0 +1,31 @@
+DENETİM
+Çift 1: Natal diş vs Neo-natal diş → boyutlar: [Sürme zamanı] = 1 kart
+Çift 2: Maksilla vs Mandibula (Maymun Diasteması) → boyutlar: [Lokalizasyon] = 1 kart
+Çift 3: Mesial step vs Flush terminal vs Distal step → boyutlar: [Mandibular 2. moların pozisyonu] = 1 kart
+Çift 4: Süt dentisyon vs Daimi dentisyon → boyutlar: [Ark formu] = 1 kart
+Çift 5: Maksilla vs Mandibula (İncisor Liability) → boyutlar: [Miktar] = 1 kart
+Çift 6: Erken mezializasyon vs Geç mezializasyon → boyutlar: [Kullanılan boşluk, Gerçekleşme zamanı, Tetikleyen diş grubu] = 3 kart
+Çift 7: Maksilla vs Mandibula (Leeway Yer Rezervi) → boyutlar: [Miktar] = 1 kart
+Çift 8: Maksiller vs Mandibular İnterkanin Mesafe → boyutlar: [Yaşla değişim paterni] = 1 kart
+Çift 9: Maksiller vs Mandibular Ark Derinliği → boyutlar: [Karma dentisyona geçişteki değişim] = 1 kart
+Çift 10: Maksiller vs Mandibular Ark Çevresi → boyutlar: [Karmadan daimiye geçişteki değişim] = 1 kart
+TOPLAM HEDEF: 12 kart
+
+---
+
+=== İÇE AKTARILACAK BLOK AŞAĞIDADIR ===
+#separator:tab
+#html:false
+Doğumda ağızda bulunan dişlere {{c1::natal}} diş denirken doğumdan hemen sonra sürenlere {{c1::neo-natal}} diş denir.	Ortodonti - Natal vs Neo-natal Diş - Sürme Zamanı	İkisi de normal sürme zamanından sapmaları ifade eder.
+Maymun diastemaları (primate space) maksillada süt kanin dişinin {{c1::mesialinde}} bulunurken mandibulada süt kanin dişinin {{c1::distalinde}} bulunur.	Ortodonti - Maksilla vs Mandibula - Maymun Diasteması Lokalizasyonu	Mandibuladaki maymun diastemaları kesici dişler için yer sağlayabilir.
+Süt dentisyonda maksiller 2. molara göre mandibular 2. moların konumu; mesial stepte daha {{c1::mesialde}}, flush terminalde {{c1::aynı çizgi üzerinde}} ve distal stepte daha {{c1::distalde}} yer alır.	Ortodonti - Süt Molar Kapanış Tipleri - Mandibular 2. Molar Konumu	Flush terminal, süt dentisyonda olması istenen kapanış şeklidir.
+Ark formu süt dentisyonda {{c1::ovoidal (anteriorda daralan dairesel)}} şekilde iken daimi dentisyonda {{c1::parabolik}} şekildedir.	Ortodonti - Süt vs Daimi Dentisyon - Ark Formu	
+Karma dentisyon döneminde incisor liability (kesici farkı) maksillada yaklaşık {{c1::7,6 mm}} iken mandibulada {{c1::6,0 mm}} civarındadır.	Ortodonti - Maksilla vs Mandibula - İncisor Liability (Kesici Farkı) Miktarı	Kesici dişlerde 2 mm'ye kadar olan geçici çapraşıklıklar tedavi gerektirmez.
+Sınıf 1 oklüzyona ulaşırken erken mezializasyon {{c1::maymun diastemalarını}} kullanarak gerçekleşirken geç mezializasyon {{c1::leeway yer rezervlerini}} kullanarak gerçekleşir.	Ortodonti - Erken vs Geç Mezializasyon - Kullanılan Boşluk	Diğer kıyas boyutları: gerçekleşme yaşı, tetikleyen diş grubu
+Sınıf 1 oklüzyona ulaşırken erken mezializasyon ortalama {{c1::6-7}} yaşlarında gerçekleşirken geç mezializasyon ortalama {{c1::9-12}} yaşları arasında gerçekleşir.	Ortodonti - Erken vs Geç Mezializasyon - Gerçekleşme Yaşı	Diğer kıyas boyutları: kullanılan boşluk, tetikleyen diş grubu
+Sınıf 1 oklüzyona ulaşma sürecinde erken mezializasyon {{c1::daimi molar}} dişlerin sürmesiyle tetiklenirken geç mezializasyon {{c1::daimi kanin ve premolar}} dişlerin sürmesiyle tetiklenir.	Ortodonti - Erken vs Geç Mezializasyon - Tetikleyici Diş Grubu	Geç mezializasyonda molarlar öne doğru taşınmış olur.
+Geç karma dentisyonda leeway yer rezervi maksillada toplam {{c1::1,8 mm}} iken mandibulada toplam {{c1::3,4 mm}}'dir.	Ortodonti - Maksilla vs Mandibula - Leeway Yer Rezervi Miktarı	Maksillada 0.9x2, mandibulada 1.7x2 mm olarak hesaplanır.
+Gelişim sürecinde yaşam boyu artış gösteren boyut {{c1::maksiller interkanin}} mesafe iken, 3-13 yaş arası artıp sonrasında 45 yaşına kadar azalan boyut {{c1::mandibular interkanin}} mesafedir.	Ortodonti - Maksiller vs Mandibular İnterkanin Mesafe - Yaşla Değişim Paterni	Mandibuladaki interkanin mesafede azalma süturun olmayışı ile açıklanır.
+Karma dentisyona geçişte maksiller ark derinliği {{c1::önce azalıp sonra artarken}}, mandibular ark derinliği genel olarak {{c1::azalma}} gösterir.	Ortodonti - Maksiller vs Mandibular Ark Derinliği - Karma Dentisyona Geçişteki Değişim	Maksillada en son leeway kullanıldığında tekrar azalma izlenir.
+Karmadan daimiye geçişte maksiller ark çevresi {{c1::artış}} gösterirken mandibular ark çevresi yaklaşık 3,5-4,5 mm {{c1::azalma}} gösterir.	Ortodonti - Maksiller vs Mandibular Ark Çevresi - Karmadan Daimiye Geçişteki Değişim	Ark çevresi, santral fossalardan ve insizal kenarlardan geçer.
+Kart sayısı: 12

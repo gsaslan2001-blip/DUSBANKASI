@@ -205,7 +205,7 @@ def upsert_to_pinecone(cards: list[dict], namespace: str) -> int:
             "guid": guid,
             "ders": card.get("ders", ""),
             "unite": card.get("unite", ""),
-            "kart_tipi": "cloze",
+            "kart_tipi": card.get("kart_tipi", "cloze"),
             "baslik": card.get("baslik", ""),
             "extra": card.get("extra", ""),
             "text_clean": card.get("text_clean", card["vektorlenecek_metin"]),
@@ -319,6 +319,18 @@ def get_namespace_count(namespace: str) -> int:
 
 CLOZE_RE = re.compile(r"\{\{c\d+::([^:}]+)(?:::.*?)?\}\}")
 
+# Yönlendirici kelime (dezavantaj/avantaj...) + cloze cevabı YARGI ise gerçek sızıntı.
+# "en önemli dezavantajı {{c1::daha az etkili}}" → tautoloji (reddet).
+# "en önemli dezavantajı {{c1::daha kalın ve sert}}" → SOMUT değer (kabul et, altın kart deseni).
+# Yalnızca cevabın kendisi kaliteyle-eş-anlamlı bir yargıysa eşleşir; ölçülen yön/değer
+# (daha düşük, artar, %50, üçgen...) eşleşmez.
+EVALUATIVE_ANSWER_RE = re.compile(
+    r"^\s*(daha\s+)?(az\s+|çok\s+|en\s+)?"
+    r"(etkili|etkisiz|iyi|kötü|üstün|zayıf|yeterli|yetersiz|"
+    r"avantajlı|dezavantajlı|başarılı|başarısız|güvenli|güvensiz)\b",
+    re.IGNORECASE,
+)
+
 
 def clean_cloze(text: str) -> str:
     """{{c1::X}} → X, {{c1::X::ipucu}} → X"""
@@ -327,7 +339,7 @@ def clean_cloze(text: str) -> str:
     return CLOZE_RE.sub(r"\1", text).strip()
 
 
-def parse_cloze_response(text: str) -> list[dict]:
+def parse_cloze_response(text: str, kind: str = "cloze") -> list[dict]:
     """
     NotebookLM'den gelen TSV yanıtını kart listesine çevirir.
     Format:
@@ -336,6 +348,12 @@ def parse_cloze_response(text: str) -> list[dict]:
         Text[TAB]Baslik[TAB]Extra
         ...
         Kart sayisi: N
+
+    kind: "cloze" (varsayılan) veya "karsilastirma" (FAZ 5). Karttaki
+    kart_tipi alanına yazılır; validasyon ve TSV ayrımı bu alana bakar.
+    <denetim>...</denetim> / <analiz>...</analiz> internal blokları TSV
+    dışıdır — parser yalnızca TAB'lı gerçek kart satırlarını alır, bloklar
+    doğal olarak elenir (TAB içermez / cloze içermez).
     """
     if not text or not text.strip():
         return []
@@ -343,11 +361,32 @@ def parse_cloze_response(text: str) -> list[dict]:
     lines = text.strip().split("\n")
     cards = []
     header_seen = False
+    in_internal_block = False  # <denetim>/<analiz> bloklarını tamamen atla
 
     for line in lines:
         line = line.strip()
         if not line:
             continue
+
+        # Internal reasoning blokları (çıktıya sızarsa) — satır bazında ele
+        low = line.lower()
+        if low.startswith("<denetim") or low.startswith("<analiz"):
+            in_internal_block = True
+            continue
+        if in_internal_block:
+            if low.startswith("</denetim") or low.startswith("</analiz"):
+                in_internal_block = False
+                continue
+            # Güvenlik: model kapanış etiketini unutursa gerçek başlık/kart
+            # satırı da bloğu kapatır → TSV kartları yutulmaz.
+            is_header = (low.startswith("#separator") or low.startswith("# separator")
+                         or low.startswith("#html") or low.startswith("# html"))
+            is_card = ("\t" in line and "{{c" in line)
+            if is_header or is_card:
+                in_internal_block = False
+                # bu satır normal akışta işlensin (fall-through)
+            else:
+                continue
 
         # Başlık satırlarını tespit et (boşluklu ve boşluksuz her iki format)
         if (line.startswith("#separator") or line.startswith("# separator")
@@ -383,12 +422,12 @@ def parse_cloze_response(text: str) -> list[dict]:
                 "baslik": baslik,
                 "extra": extra,
                 "vektorlenecek_metin": vektorlenecek,
-                "kart_tipi": "cloze",
+                "kart_tipi": kind,
             })
 
     # Eğer header görülmediyse ama kart benzeri satırlar varsa (esnek parse)
     if not header_seen and not cards:
-        cards = _parse_loose_cloze(text)
+        cards = _parse_loose_cloze(text, kind=kind)
 
     # F3-02: Kart sayısı doğrulama — model N bildirip daha az kart döndü mü?
     reported_count_match = re.search(
@@ -406,7 +445,7 @@ def parse_cloze_response(text: str) -> list[dict]:
     return cards
 
 
-def _parse_loose_cloze(text: str) -> list[dict]:
+def _parse_loose_cloze(text: str, kind: str = "cloze") -> list[dict]:
     """
     Esnek parse: TSV formatı bozuksa {{c1::...}} içeren satırları tekil kart olarak al.
     """
@@ -414,6 +453,10 @@ def _parse_loose_cloze(text: str) -> list[dict]:
     for line in text.strip().split("\n"):
         line = line.strip()
         if not line or line.startswith("#") or line.startswith("Kart sayısı"):
+            continue
+        low = line.lower()
+        if low.startswith("<denetim") or low.startswith("</denetim") \
+                or low.startswith("<analiz") or low.startswith("</analiz"):
             continue
         if "{{c" not in line:
             continue
@@ -436,7 +479,7 @@ def _parse_loose_cloze(text: str) -> list[dict]:
             "baslik": baslik,
             "extra": extra,
             "vektorlenecek_metin": vektorlenecek,
-            "kart_tipi": "cloze",
+            "kart_tipi": kind,
         })
 
     return cards
@@ -506,25 +549,40 @@ def validate_cloze_cards(cards: list[dict]) -> tuple[list[dict], list[dict]]:
                     continue
                 break
 
-        # 4. Çoklu cloze saydırma (liste saydırma yasağı)
+        # 4. Çoklu cloze — kart tipine göre kural (liste saydırma yasağı)
         cloze_matches = CLOZE_RE.findall(text_raw)
         unique_c_nums = set(re.findall(r'\{\{(c\d+)::', text_raw))
-        if len(unique_c_nums) > 2:
-            # 3+ farklı c numarası → kesinlikle liste saydırma
-            reasons.append("coklu_cloze_saydirma")
-        elif len(cloze_matches) >= 3 and len(unique_c_nums) == 1:
-            # Tüm cloze'lar c1 ama 3+ tane → liste saydırma riski
-            reasons.append("tek_c_cok_cloze_saydirma_suphesi")
+        kart_tipi = card.get("kart_tipi", "cloze")
+        if kart_tipi == "karsilastirma":
+            # Karşılaştırma kartı doğası gereği ≥2 kutbu AYNI ANDA gizler
+            # (kullanıcı deseni: tüm kutuplar c1). Simetrik gizleme kıyasın çekirdeği.
+            if len(cloze_matches) < 2:
+                # Tek cloze → kıyas değil, spot; cloze turunun işi
+                reasons.append("kiyas_tek_cloze")
+            elif len(cloze_matches) >= 5:
+                # 5+ kutup → gerçek kıyas değil, liste saydırma
+                reasons.append("kiyas_asiri_kutup")
+        else:
+            if len(unique_c_nums) > 2:
+                # 3+ farklı c numarası → kesinlikle liste saydırma
+                reasons.append("coklu_cloze_saydirma")
+            elif len(cloze_matches) >= 3 and len(unique_c_nums) == 1:
+                # Tüm cloze'lar c1 ama 3+ tane → liste saydırma riski
+                reasons.append("tek_c_cok_cloze_saydirma_suphesi")
 
-        # 5. Anlamsal sızıntı: "dezavantaj" vb. yönlendirici + bağlam
-        directing_words = ["dezavantaj", "avantaj", "risk", "neden", "komplikasyon"]
+        # 5. Anlamsal sızıntı (tautoloji-yönlü): yönlendirici kelime cloze'dan
+        #    hemen önce VE gizli cevap kaliteyle-eş-anlamlı bir YARGI ise sızıntı.
+        #    Somut değerler ("daha kalın ve sert", "%50", "üçgen") sızıntı DEĞİLDİR
+        #    — bunlar altın-standart kart deseni. Yalnızca "daha az etkili" gibi
+        #    yönlendiriciyle tautolojik cevaplar reddedilir. (Eski kural, geçerli
+        #    avantaj/dezavantaj→somut-değer kartlarını hatalı reddediyordu.)
+        directing_words = ("dezavantaj", "avantaj", "risk", "neden", "komplikasyon")
         text_lower = text_raw.lower()
-        for dw in directing_words:
-            if dw in text_lower and "{{c" in text_lower:
-                # Basit kontrol: yönlendirici cloze'dan hemen önce geliyorsa uyar
-                if dw in text_lower.split("{{c")[0][-50:]:
-                    reasons.append(f"semantik_sizinti_suphesi:{dw}")
-                    break
+        pre_cloze = text_lower.split("{{c")[0][-50:] if "{{c" in text_lower else ""
+        if any(dw in pre_cloze for dw in directing_words):
+            first_ans = cloze_matches[0] if cloze_matches else ""
+            if EVALUATIVE_ANSWER_RE.search(first_ans):
+                reasons.append("semantik_sizinti_suphesi")
 
         # 6. AI dolgu/motivasyon ifadesi
         ai_fillers = [
@@ -665,11 +723,12 @@ Bu kaynağı satır satır tara. İçerdiği her bağımsız test edilebilir kav
 numaralı liste halinde alt alta yaz.
 
 KURALLAR:
-- Benzer görünen iki kavram (ör: Karyoliz / Karyoreksis) → her biri AYRI satır.
+- Benzer görünen iki kavram (ör: Karyoliz / Karyoreksis; CCD / CMOS; K file / H file) → her biri AYRI satır.
+- Eş-hiyerarşideki (aynı üst kategorinin üyesi) karıştırılabilir kavramları EKSİKSİZ listele — hiçbirini "vs" içinde birleştirme, her üye kendi satırında. Bu üyeler sonraki karşılaştırma turunun ham maddesidir.
 - Her satır MAX 12 kelime. Açıklama yapma, sadece kavram adını/kısa tanımını yaz.
 - Sentez, yorum veya klinik bağlantı YAPMA.
 - Sadece bu kaynakta bulunan kavramları listele, dış bilgi YASAK.
-- Tablolardaki her satırı ayrı kavram olarak say.
+- Tablolardaki her satırı ayrı kavram olarak say (tablo genelde eş-hiyerarşi üyelerini yan yana verir → hepsini çıkar).
 - Her sayısal değer (yüzde, yaş, süre, eşik, oran) kendi satırına: "Kavram: değer" formatında.
 - Spot bilgiler (en sık/en az/patognomonik/altın standart) bağlamıyla birlikte ayrı satır.
 
@@ -737,6 +796,49 @@ def build_cloze_prompt(anchors: list[str], lesson: str = "", unit: str = "") -> 
 def build_cloze_uncovered_prompt(anchors: list[str], lesson: str = "", unit: str = "") -> str:
     """FAZ 4 uncovered temizleme için zorlama prompt'u (DOYGUNLUK sinyali yok)."""
     return _inject_anchors(PROMPT_CLOZE_UNCOVERED, anchors, lesson, unit)
+
+
+# FAZ 5 karşılaştırma (kontrast) runtime prompt'u.
+# Notebook'taki cloze sistem promptunu AÇIKÇA override eder: bu tur cloze değil,
+# yalnızca eş-hiyerarşi karşılaştırma kartı üretir. Kompakt (~2.6K + anchor).
+PROMPT_CONTRAST = r"""MOD DEĞİŞTİR — BU TUR CLOZE ÜRETİMİ DEĞİL. Önceki cloze/spot kurallarını UYGULAMA.
+Bu tur YALNIZCA karşılaştırma (kontrast) kartı üretir: eş-hiyerarşideki karıştırılabilir kavramların ayrım eksenlerini test eder.
+
+ÇIKTI: Yalnızca ham TSV. Giriş/kapanış/yorum YASAK. Denetim düşünceni <denetim>...</denetim> içine yaz (çıktıya YAZMA, sadece TSV kalsın).
+
+ODAK KAVRAMLAR (çiftleri bunların çevresinde ara — kaynağın tamamı kullanılabilir):
+{ANCHOR_LIST}
+
+Ders: {LESSON} | Ünite: {UNIT}
+
+NE ÜRET:
+Eş-hiyerarşideki (aynı üst kategorinin üyesi) kavram çiftleri/üçlüleri bul (ör: CCD vs CMOS, K file vs H file, Th1 vs Th2, maksilla vs mandibula).
+Kaynağın HER İKİ üyeye de değer atadığı HER kıyas boyutu için ayrı kart üret. Tek üyenin değeri varsa o boyutu ATLA (uydurma YASAK).
+
+<denetim> içinde: her çift → boyut listesi → toplam hedef kart sayısı. Sonra kartları yaz.
+
+KART KURALLARI:
+① ATOMİKLİK: 1 kart = 1 kıyas boyutu. "ve/ile" ile birleşen iki olgu → iki kart.
+② SİMETRİK GİZLEME: Her iki (üç) kutup AYNI ANDA gizli ve HEPSİ {{c1::...}}. Tek kutbu gizleyip diğerini açıkta bırakma (=tanıma testi, YASAK).
+③ DELME YÖNÜ: Değerler kısa/ayrık (tek kelime/sayı/var-yok) → değerleri gizle, kavram adları açık. Değer 3-4 kelimeyi aşıyorsa → yönü çevir: özelliği köke al, kavram adlarını gizle. Cümlecik ASLA gizlenmez.
+④ SEMANTİK SIZINTI YASAK: Kök gizli cevabı vermemeli. ("Hücresel immünite {{c1::Th1}}" → "hücresel" sızdırır; onun yerine "Th1 {{c1::makrofaj}} aktive ederken Th2 {{c1::B lenfosit}} aktive eder").
+⑤ MUĞLAK REFERANS YASAK: "bu file, öbür reseptör" değil, her kutbun adını açıkça yaz.
+⑥ SİMETRİK SPESİFİKLİK: İki gizli değer aynı düzeyde (biri "IFN-γ" diğeri "interlökin" olmaz).
+
+SATIR FORMATI (alan ayırıcı gerçek TAB, alan içinde TAB yok):
+Text TAB Başlık TAB Extra
+- Text kalıbı: [A bağlamı] {{c1::A değeri}} iken [B bağlamı] {{c1::B değeri}}'dir
+- Başlık: Ders - A vs B - Kıyas Boyutu   (deletion cevabını İÇERMEZ)
+- Extra (≤30 kelime, opsiyonel): diğer kıyas boyutları / kıyas tuzağı / sayısal değer.
+
+İlk iki satır sabit (boşluksuz): #separator:tab / #html:false. Son satır: Kart sayısı: N.
+Yeni karşılaştırılabilir boyut kalmadıysa son satırlar: DOYGUNLUK / Kart sayısı: N.
+"""
+
+
+def build_contrast_prompt(anchors: list[str], lesson: str = "", unit: str = "") -> str:
+    """FAZ 5 karşılaştırma turu için PROMPT_CONTRAST'a çapaları enjekte eder."""
+    return _inject_anchors(PROMPT_CONTRAST, anchors, lesson, unit)
 
 
 # ═══════════════════════════════════════════════
@@ -808,19 +910,25 @@ def _dump_failed_cards(cards: list[dict], lesson: str, unit: str):
         print(f"   ⚠️ Recovery yazılamadı: {e}")
 
 
-def consolidate_unit_tsv(lesson: str, unit_name: str, output_dir: str = None) -> str | None:
+def consolidate_unit_tsv(lesson: str, unit_name: str, output_dir: str = None, tag: str = "") -> str | None:
     """
     Bir üniteye ait tüm batch TSV'lerini tek dosyaya birleştirir.
+    tag="" → cloze kartları (KIYAS ve MERGED dosyaları hariç tutulur).
+    tag="KIYAS" → yalnızca karşılaştırma batch dosyaları birleştirilir.
     Returns: birleşik dosya yolu.
     """
     if output_dir is None:
         output_dir = os.path.join(os.path.dirname(__file__), "cloze_output")
 
     safe = re.sub(r'[^\w\s-]', '', f"{lesson}_{unit_name}").replace(" ", "_")
-    pattern = os.path.join(output_dir, f"{safe}_*.tsv")
+    pattern = os.path.join(output_dir, f"{safe}_{tag}_*.tsv" if tag else f"{safe}_*.tsv")
 
     import glob
     batch_files = sorted(glob.glob(pattern))
+    # Önceki MERGED çıktısını asla tekrar yutma; cloze turu KIYAS dosyalarını dışlar
+    batch_files = [p for p in batch_files if "_MERGED_" not in os.path.basename(p)]
+    if not tag:
+        batch_files = [p for p in batch_files if "_KIYAS_" not in os.path.basename(p)]
     if not batch_files:
         return None
 
@@ -834,7 +942,8 @@ def consolidate_unit_tsv(lesson: str, unit_name: str, output_dir: str = None) ->
                 all_card_lines.append(line)
 
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    merged_path = os.path.join(output_dir, f"{safe}_MERGED_{ts}.tsv")
+    merged_name = f"{safe}_{tag}_MERGED_{ts}.tsv" if tag else f"{safe}_MERGED_{ts}.tsv"
+    merged_path = os.path.join(output_dir, merged_name)
     with open(merged_path, "w", encoding="utf-8") as f:
         f.write("#separator:tab\n#html:false\n")
         for line in all_card_lines:
@@ -845,9 +954,10 @@ def consolidate_unit_tsv(lesson: str, unit_name: str, output_dir: str = None) ->
     return merged_path
 
 
-def save_cloze_tsv(cards: list[dict], lesson: str, unit_name: str, output_dir: str = None) -> str:
+def save_cloze_tsv(cards: list[dict], lesson: str, unit_name: str, output_dir: str = None, tag: str = "") -> str:
     """
     Kartları Anki'ye import edilebilir TSV dosyası olarak kaydeder.
+    tag="KIYAS" → dosya adına eklenir, konsolidasyonda cloze'dan ayrışır.
     Returns: dosya yolu.
     """
     if output_dir is None:
@@ -856,7 +966,7 @@ def save_cloze_tsv(cards: list[dict], lesson: str, unit_name: str, output_dir: s
 
     safe = re.sub(r'[^\w\s-]', '', f"{lesson}_{unit_name}").replace(" ", "_")
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filepath = os.path.join(output_dir, f"{safe}_{ts}.tsv")
+    filepath = os.path.join(output_dir, f"{safe}_{tag}_{ts}.tsv" if tag else f"{safe}_{ts}.tsv")
 
     with open(filepath, "w", encoding="utf-8") as f:
         f.write("#separator:tab\n")

@@ -383,6 +383,35 @@ export function getActivitySummary(): {
 // ─── KAPSAMLI İSTATİSTİK MOTORU ──────────────────────────────────────────────
 // Tüm panel görselleştirmeleri tek bir saf fonksiyondan beslenir (test edilebilir).
 
+// v6: DUS ders ağırlıkları (circular dependency önlemek için stats.ts içinde)
+const DUS_WEIGHTS: Record<string, number> = {
+  'Endodonti': 0.0442, 'Protez': 0.0442, 'Ağız Diş Çene Cerrahisi': 0.0442,
+  'Ortodonti': 0.0442, 'Periodontoloji': 0.0442, 'Restoratif Diş Tedavisi': 0.0442,
+  'Pedodonti': 0.0442, 'Oral Diagnoz ve Radyoloji': 0.0442,
+  'Temel Tıp Bilimleri': 0.0735, 'Klinik Bilimler': 0.0735,
+  'Protetik Diş Tedavisi': 0.0442, 'Diş Hastalıkları ve Tedavisi': 0.0442,
+  'Patoloji': 0.05, 'Farmakoloji': 0.05, 'Mikrobiyoloji': 0.04,
+  'Anatomi': 0.05, 'Fizyoloji': 0.04, 'Biyokimya': 0.04, 'Histoloji Embriyoloji': 0.04,
+};
+
+function computeDusWeightedAccuracy(byLesson: LessonStat[]): number {
+  let weightedSum = 0;
+  let totalWeight = 0;
+  for (const l of byLesson) {
+    const key = Object.keys(DUS_WEIGHTS).find(
+      k => k.toLowerCase() === l.lesson.toLowerCase() ||
+           l.lesson.toLowerCase().includes(k.toLowerCase()) ||
+           k.toLowerCase().includes(l.lesson.toLowerCase())
+    );
+    const w = key ? DUS_WEIGHTS[key] : 0.03;
+    if (l.attempts > 0) {
+      weightedSum += (l.accuracy / 100) * w;
+      totalWeight += w;
+    }
+  }
+  return totalWeight > 0 ? Math.round((weightedSum / totalWeight) * 100) : 0;
+}
+
 /** Ustalık eşiği — accuracy bu değerin üstündeyse soru "ustalaşılmış" sayılır. */
 export const MASTERY_THRESHOLD = 0.8;
 /** Zayıflık eşiği — accuracy bu değerin altındaysa "zayıf". */
@@ -429,6 +458,7 @@ export type OverviewStats = {
   difficulty: { easy: number; medium: number; hard: number }; // çözülmüş sorular arası
   mastery: { untouched: number; weak: number; learning: number; mastered: number };
   wrongChoiceDist: Record<OptionKey, number>; // Yanlış cevaplarda seçilen şık dağılımı
+  dusWeightedAccuracy: number; // v6: DUS ders ağırlıklı doğruluk (0-100)
 };
 
 /**
@@ -523,6 +553,9 @@ export function computeOverviewStats(questions: Question[], stats: StatsMap): Ov
 
   const totalIncorrects = totalAttempts - totalCorrects;
 
+  // v6: DUS ağırlıklı doğruluk
+  const dusWeightedAccuracy = computeDusWeightedAccuracy(byLesson);
+
   return {
     bankTotal,
     solvedUnique,
@@ -542,6 +575,7 @@ export function computeOverviewStats(questions: Question[], stats: StatsMap): Ov
     difficulty,
     mastery,
     wrongChoiceDist,
+    dusWeightedAccuracy,
   };
 }
 

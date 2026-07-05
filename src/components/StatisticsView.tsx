@@ -1,16 +1,14 @@
 
 /**
- * DUS Bankası — KPI Dashboard v5 (3-Tier Hiyerarşi)
+ * DUS Bankası — KPI Dashboard v6 (3-Tier Hiyerarşi + DUS Tahmin + Hedef + Öneri)
  *
- * Tier 1 (Above-Fold): Executive Summary — Big 4 KPI + Alert Banner + Hedef Ring
- * Tier 2 (First Scroll):  Tactical — Günlük Aktivite, Trend, Heatmap, Ders Karşılaştırma
- * Tier 3 (Deep Dive):    Operational — 25 Grafik 5 Collapsible Kategoride
+ * Tier 1 (Above-Fold): Executive Summary — Big 4 KPI + DUS Score + Goal Tracker + Alert Banner
+ * Tier 2 (First Scroll):  Tactical — Günlük Aktivite, Trend, Heatmap, Ders Karşılaştırma, Öneriler
+ * Tier 3 (Deep Dive):    Operational — Collapsible kategorilerde derin analiz + Deneme Geçmişi
  */
 
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
-import 'react-circular-progressbar/dist/styles.css';
 import type { Question } from '../data';
 import type { Theme } from '../theme';
 import {
@@ -21,7 +19,6 @@ import {
   computeOverviewStats,
   generateKpiAlerts,
   computeTrend,
-  computeActivityTrend,
   type StatsMap,
   type ActivityPoint,
 } from '../lib/stats';
@@ -40,8 +37,25 @@ import {
   DersScatterPlot, WaterfallChart, BulletChart,
   GaugeChart, SunburstChart, AreaStreamGraph, SlopeGraph, DifferenceChart,
   ParallelCoordinates, TimeHistogram,
-  TrendIndicator, KpiAlertBanner, CollapsibleSection,
+  KpiAlertBanner, CollapsibleSection, KpiStatCard,
 } from './charts';
+// v6: Yeni section'lar
+import DusScorePanel from './sections/DusScorePanel';
+import GoalTracker from './sections/GoalTracker';
+import RecommendationFeed from './sections/RecommendationFeed';
+import ExamHistoryTimeline from './sections/ExamHistoryTimeline';
+import WhatIfSimulator from './sections/WhatIfSimulator';
+import ExportModal from './sections/ExportModal';
+import GoalEditorModal from './sections/GoalEditorModal';
+// v6: Yeni lib modülleri
+import { estimateDusNet } from '../lib/dusScoring';
+import { computeLessonPriority, computeDailyRecommendation } from '../lib/recommendations';
+import { saveGoals, computeGoalProgress, detectMilestones } from '../lib/goals';
+import { computeExamTrend, buildExamResults } from '../lib/examAnalytics';
+import { fetchExamHistory } from '../lib/supabase';
+import { useAuth } from '../hooks/useAuth';
+// v6: Store
+import { useGoals } from '../store/useAppStore';
 
 /* ─── Yardımcılar ────────────────────────────────────────────────────────── */
 
@@ -75,44 +89,6 @@ function SectionTitle({ title, right, mb = 'mb-8', eyebrow }: { title: string; r
       </div>
       {right}
     </div>
-  );
-}
-
-/* ─── KPI Big Card (Trend destekli) ─────────────────────────────────────── */
-
-function KpiCard({ theme, label, value, sub, icon, accentBorder, accentText, trend, className }: {
-  theme: Theme; label: string; value: React.ReactNode; sub?: React.ReactNode;
-  icon: React.ReactNode; accentBorder: string; accentText: string;
-  trend?: { current: number; previous: number; format?: 'number' | 'percent' | 'days' };
-  className?: string;
-}) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 16 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ type: 'spring', stiffness: 400, damping: 35 }}
-      className={`relative ${theme.card} rounded-xl overflow-hidden group transition-all duration-300 ${className ?? ''}`}
-    >
-      <div className={`absolute left-0 top-0 bottom-0 w-1.5 ${accentBorder}`} />
-      <div className="p-5 sm:p-6 pl-6">
-        <div className="flex items-start justify-between mb-4">
-          <span className={`${theme.subtext} text-xs font-bold uppercase tracking-widest`}>{label}</span>
-          <span className={accentText}>{icon}</span>
-        </div>
-        <div className="text-3xl sm:text-4xl font-black leading-none mb-1">{value}</div>
-        <div className="flex items-center gap-2 mt-1 flex-wrap">
-          {sub != null && <span className={`${theme.subtext} text-xs`}>{sub}</span>}
-          {trend && (
-            <TrendIndicator
-              current={trend.current}
-              previous={trend.previous}
-              format={trend.format ?? 'number'}
-              period="7G"
-            />
-          )}
-        </div>
-      </div>
-    </motion.div>
   );
 }
 
@@ -259,7 +235,9 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
     return { current: curr, previous: prev };
   }, [activity90]);
 
-  const solvedTrend = useMemo(() => computeActivityTrend(activity90, 7), [activity90]);
+  // Net 7G-vs-önceki-7G hacim karşılaştırması (eski karmaşık/bozuk ifade yerine).
+  const solvedLast7 = useMemo(() => activity90.slice(-7).reduce((s, a) => s + a.count, 0), [activity90]);
+  const solvedPrev7 = useMemo(() => activity90.slice(-14, -7).reduce((s, a) => s + a.count, 0), [activity90]);
   const masteredTrend = useMemo(() => {
     // Basitleştirilmiş: son 7 günde ustalaşılan sayısı (accuracy > %80'e ulaşan)
     const recent7 = activity90.slice(-7).reduce((s, a) => s + Math.round(a.correct * 0.3), 0);
@@ -305,6 +283,80 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
     }
     return result;
   }, [questions, stats]);
+
+  // ═══ v6: YENİ STATE VE HESAPLAMALAR ═══════════════════════════════════════
+
+  const [showExport, setShowExport] = useState(false);
+  const [showGoalEditor, setShowGoalEditor] = useState(false);
+
+  // v6: Hedefler (Zustand store'dan)
+  const goals = useGoals();
+
+  // v6: DUS Skor Tahmini
+  const dusScore = useMemo(() => {
+    if (overview.totalAttempts < 10) return null;
+    return estimateDusNet(overview, activity90);
+  }, [overview, activity90]);
+
+  // v6: Hedef ilerleme
+  const goalProgress = useMemo(() =>
+    computeGoalProgress(goals, overview, activity90, dusScore),
+  [goals, overview, activity90, dusScore]);
+
+  // v6: Milestone tespiti (celebrate triggers)
+  const milestones = useMemo(() =>
+    detectMilestones(overview, streak.currentStreak),
+  [overview, streak.currentStreak]);
+  // Confetti sadece bir kez, render dışında tetiklenir (eskiden her render'da patlıyordu)
+  const confettiFired = useRef(false);
+  useEffect(() => {
+    if (milestones.length === 0 || confettiFired.current) return;
+    confettiFired.current = true;
+    import('canvas-confetti').then(m => m.default({ particleCount: 100, spread: 70, origin: { y: 0.6 } }));
+  }, [milestones]);
+
+  // v6: Akıllı öneriler (consistency bağımsız — mevcut hesaplama sonradan gelir)
+  const lessonPriorities = useMemo(() =>
+    computeLessonPriority(overview, []),
+  [overview]);
+  const dailyRec = useMemo(() =>
+    computeDailyRecommendation(overview, activity90, goals),
+  [overview, activity90, goals]);
+
+  // v6.1: Deneme geçmişi — Supabase'deki tamamlanmış denemelerden (daily_exams + exam_answers)
+  const { user } = useAuth();
+  const [exams, setExams] = useState<import('../types/app').ExamResult[]>([]);
+  useEffect(() => {
+    if (!user) { setExams([]); return; }
+    let cancelled = false;
+    fetchExamHistory(user.id)
+      .then(rows => { if (!cancelled) setExams(buildExamResults(rows)); })
+      .catch(err => console.warn('[Stats] Deneme geçmişi yüklenemedi:', err));
+    return () => { cancelled = true; };
+  }, [user]);
+  const examTrend = useMemo(() => computeExamTrend(exams), [exams]);
+
+  // v6: Export handlers
+  const handleExportPDF = () => { window.print(); };
+  const handleExportCSV = () => {
+    const rows = ['Ders,Çözülen,Doğruluk,Kapsama'];
+    for (const l of overview.byLesson) {
+      rows.push(`${l.lesson},${l.solved},%${l.accuracy},%${l.coverage}`);
+    }
+    const csv = rows.join('\n');
+    const blob = new Blob([csv], { type: 'text/csv' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a'); a.href = url; a.download = 'DUSBANKASI_istatistik.csv'; a.click();
+    URL.revokeObjectURL(url);
+  };
+  const handleShare = () => {
+    const text = `DUSBANKASI İstatistik Özeti:\n` +
+      `Toplam Çözüm: ${fmt(overview.totalAttempts)} | Doğruluk: %${overview.accuracy}\n` +
+      `Kapsama: %${overview.coverage} | Seri: ${streak.currentStreak} gün\n` +
+      `Uzmanlaşılan: ${fmt(overview.masteredUnique)} soru\n` +
+      (dusScore ? `Tahmini DUS Net: ${dusScore.estimatedNet} | Hedef Olasılığı: %${dusScore.targetProbability}` : '');
+    navigator.clipboard.writeText(text);
+  };
 
   const sunburstData = useMemo(() => {
     const lessonMap = new Map<string, Map<string, { value: number; total: number }>>();
@@ -423,9 +475,23 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
 
       {/* Sayfa Başlığı */}
       <div className="mb-2">
-        <span className="rounded-full px-3 py-1 text-[10px] uppercase tracking-[0.2em] font-medium bg-indigo-500/10 text-indigo-400 border border-indigo-500/15 inline-block mb-3">Performans Paneli</span>
-        <h1 className="text-[56px] font-black leading-none tracking-tight">İstatistikler</h1>
-        <p className={`${theme.subtext} text-sm mt-2`}>KPI odaklı performans analizi ve 25 görselleştirme.</p>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+          <div>
+            <span className="rounded-full px-3 py-1 text-[10px] uppercase tracking-[0.2em] font-medium bg-indigo-500/10 text-indigo-400 border border-indigo-500/15 inline-block mb-3">Performans Paneli v6</span>
+            <h1 className="text-[56px] font-black leading-none tracking-tight">İstatistikler</h1>
+            <p className={`${theme.subtext} text-sm mt-2`}>DUS tahmini, KPI odaklı analiz ve derinlemesine görselleştirme.</p>
+          </div>
+          <div style={{ display: 'flex', gap: 8 }}>
+            <button onClick={() => setShowGoalEditor(true)}
+              style={{ padding: '8px 16px', borderRadius: 10, border: `1px solid ${theme.border}`, background: 'transparent', color: theme.subtext, fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>
+              Hedefler
+            </button>
+            <button onClick={() => setShowExport(true)}
+              style={{ padding: '8px 16px', borderRadius: 10, border: 'none', background: 'linear-gradient(135deg, #6f72f2, #484cc2)', color: '#fff', fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>
+              Dışa Aktar
+            </button>
+          </div>
+        </div>
       </div>
 
       {/* A3: Alert Banner Row (en üstte — hemen dikkat çekmeli) */}
@@ -443,89 +509,65 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
 
       {/* A1: Big 4 Executive KPI Cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <KpiCard theme={theme} label="Genel Doğruluk" accentBorder="bg-emerald-400/50" accentText="text-emerald-400"
-          icon={<Gauge size={16} weight="thin" />}
-          value={<span className={accColor(overview.accuracy)}>%{overview.accuracy}</span>}
+        <KpiStatCard theme={theme} label="Genel Doğruluk" accent="emerald" delay={0}
+          icon={<Gauge size={18} weight="duotone" />}
+          value={<>%{overview.accuracy}</>}
+          valueClassName={accColor(overview.accuracy)}
           sub={<>Hedef: %80</>}
+          progress={{ pct: Math.round((overview.accuracy / 80) * 100), label: 'Hedefe ilerleme', right: `%${Math.min(100, Math.round((overview.accuracy / 80) * 100))}` }}
           trend={{ current: accuracyTrend.current, previous: accuracyTrend.previous, format: 'percent' }} />
-        <KpiCard theme={theme} label="Aktif Seri" accentBorder="bg-orange-400/50" accentText="text-orange-400"
-          icon={<Flame size={16} weight="thin" />}
+        <KpiStatCard theme={theme} label="Aktif Seri" accent="orange" delay={0.05}
+          icon={<Flame size={18} weight="duotone" />}
           value={<>{streak.currentStreak} <span className="text-sm font-bold opacity-50">GÜN</span></>}
           sub={<>Hedef: 150 Gün</>}
           trend={{ current: streakTrend.current, previous: streakTrend.previous, format: 'days' }} />
-        <KpiCard theme={theme} label="Toplam Çözüm" accentBorder="bg-violet-400/50" accentText="text-violet-400"
-          icon={<TrendUp size={16} weight="thin" />}
+        <KpiStatCard theme={theme} label="Toplam Çözüm" accent="violet" delay={0.1}
+          icon={<TrendUp size={18} weight="duotone" />}
           value={<AnimatedCounter value={overview.totalAttempts} />}
           sub={<>{fmt(overview.solvedUnique)} benzersiz</>}
-          trend={{ current: solvedTrend.delta + (solvedTrend.direction === 'up' ? solvedTrend.delta : 0) || solvedTrend.delta,
-            previous: activity90.slice(-14, -7).reduce((s, a) => s + a.count, 0), format: 'number' }} />
-        <KpiCard theme={theme} label="Ustalaşılan" accentBorder="bg-amber-400/50" accentText="text-amber-400"
-          icon={<Crown size={16} weight="thin" />}
+          trend={{ current: solvedLast7, previous: solvedPrev7, format: 'number' }} />
+        <KpiStatCard theme={theme} label="Ustalaşılan" accent="amber" delay={0.15}
+          icon={<Crown size={18} weight="duotone" />}
           value={<AnimatedCounter value={overview.masteredUnique} />}
           sub={<>{fmt(overview.masteredUnique)} / 5.000 hedef</>}
+          progress={{ pct: Math.round((overview.masteredUnique / 5000) * 100), right: `%${Math.min(100, Math.round((overview.masteredUnique / 5000) * 100))}` }}
           trend={{ current: masteredTrend.delta, previous: 0, format: 'number' }} />
+      </div>
+
+      {/* v6: DUS Skor + Hedef Paneli (Tier 1 genişletilmiş) */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-4">
+        <DusScorePanel score={dusScore} theme={theme} />
+        <GoalTracker
+          progress={goalProgress}
+          theme={theme}
+          onEditGoals={() => setShowGoalEditor(true)}
+        />
       </div>
 
       {/* A1b: İkincil KPI Kartları — Soru Bankası, Doğru, Yanlış, Rekor */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 35 }}
-          className={`relative ${theme.card} rounded-xl overflow-hidden group transition-all duration-300`}>
-          <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-sky-400/50" />
-          <div className="p-5 sm:p-6 pl-6">
-            <div className="flex items-start justify-between mb-4">
-              <span className={`${theme.subtext} text-xs font-bold uppercase tracking-widest`}>Soru Bankası</span>
-              <span className="text-sky-400"><BookOpen size={16} weight="thin" /></span>
-            </div>
-            <div className="flex items-center gap-3">
-              <div style={{ width: 48, height: 48 }}>
-                <CircularProgressbar value={overview.coverage} text={`${overview.coverage}%`}
-                  styles={buildStyles({ pathColor: '#38bdf8', textColor: '#ececf1', trailColor: 'rgba(255,255,255,0.05)', textSize: '22px' })} />
-              </div>
-              <div><div className="text-2xl sm:text-3xl font-black"><AnimatedCounter value={overview.bankTotal} /></div>
-                <div className={`${theme.subtext} text-[10px]`}>Toplam soru</div></div>
-            </div>
-            <div className="mt-3"><div className="flex justify-between text-[10px] mb-1"><span className={theme.subtext}>Kapsama Hedefi: %90</span><span className={theme.subtext}>%{Math.round((overview.coverage / 90) * 100)}</span></div>
-              <div className="h-1 w-full bg-white/5 rounded-full overflow-hidden"><div className="h-full bg-sky-400 rounded-full transition-all duration-1000" style={{ width: `${Math.min(100, Math.round((overview.coverage / 90) * 100))}%` }} /></div></div>
-          </div>
-        </motion.div>
-        <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 35, delay: 0.05 }}
-          className={`relative ${theme.card} rounded-xl overflow-hidden group transition-all duration-300`}>
-          <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-emerald-500/50" />
-          <div className="p-5 sm:p-6 pl-6">
-            <div className="flex items-start justify-between mb-4">
-              <span className={`${theme.subtext} text-xs font-bold uppercase tracking-widest`}>Doğru Cevap</span>
-              <span className="text-emerald-400"><CheckCircle size={16} weight="thin" /></span>
-            </div>
-            <div className="text-3xl sm:text-4xl font-black leading-none mb-1"><AnimatedCounter value={overview.totalCorrects} /></div>
-            <div className="mt-2"><div className="h-1.5 w-full bg-white/5 rounded-full overflow-hidden"><div className="h-full bg-emerald-500 rounded-full transition-all duration-1000" style={{ width: `${overview.accuracy}%` }} /></div></div>
-          </div>
-        </motion.div>
-        <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 35, delay: 0.1 }}
-          className={`relative ${theme.card} rounded-xl overflow-hidden group transition-all duration-300`}>
-          <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-red-400/50" />
-          <div className="p-5 sm:p-6 pl-6">
-            <div className="flex items-start justify-between mb-4">
-              <span className={`${theme.subtext} text-xs font-bold uppercase tracking-widest`}>Yanlış Cevap</span>
-              <span className="text-red-400"><XCircle size={16} weight="thin" /></span>
-            </div>
-            <div className="text-3xl sm:text-4xl font-black leading-none mb-1 text-red-400"><AnimatedCounter value={overview.totalIncorrects} /></div>
-            <span className={`${theme.subtext} text-[10px]`}>{fmt(overview.wrongEverUnique)} soru en az 1 kez yanlış</span>
-          </div>
-        </motion.div>
-        <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', stiffness: 400, damping: 35, delay: 0.15 }}
-          className={`relative ${theme.card} rounded-xl overflow-hidden group transition-all duration-300`}>
-          <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-rose-400/50" />
-          <div className="p-5 sm:p-6 pl-6">
-            <div className="flex items-start justify-between mb-4">
-              <span className={`${theme.subtext} text-xs font-bold uppercase tracking-widest`}>Günlük Rekor</span>
-              <span className="text-rose-400"><Trophy size={16} weight="thin" /></span>
-            </div>
-            {activitySummary.bestDay ? (
-              <><div className="text-3xl sm:text-4xl font-black leading-none mb-1 text-rose-400"><AnimatedCounter value={activitySummary.bestDay.count} /></div>
-                <span className={`${theme.subtext} text-[10px]`}>{trDate(activitySummary.bestDay.date)}</span></>
-            ) : <div className={`${theme.subtext} text-sm`}>Henüz veri yok</div>}
-          </div>
-        </motion.div>
+        <KpiStatCard theme={theme} label="Soru Bankası" accent="sky" delay={0}
+          icon={<BookOpen size={18} weight="duotone" />}
+          value={<AnimatedCounter value={overview.bankTotal} />}
+          sub={<>Toplam soru · kapsama %{overview.coverage}</>}
+          progress={{ pct: Math.round((overview.coverage / 90) * 100), label: 'Kapsama Hedefi: %90', right: `%${Math.round((overview.coverage / 90) * 100)}` }} />
+        <KpiStatCard theme={theme} label="Doğru Cevap" accent="emerald" delay={0.05}
+          icon={<CheckCircle size={18} weight="duotone" />}
+          value={<AnimatedCounter value={overview.totalCorrects} />}
+          valueClassName="text-emerald-400"
+          progress={{ pct: overview.accuracy, label: 'Doğruluk oranı', right: `%${overview.accuracy}` }} />
+        <KpiStatCard theme={theme} label="Yanlış Cevap" accent="red" delay={0.1}
+          icon={<XCircle size={18} weight="duotone" />}
+          value={<AnimatedCounter value={overview.totalIncorrects} />}
+          valueClassName="text-red-400"
+          sub={<>{fmt(overview.wrongEverUnique)} soru en az 1 kez yanlış</>} />
+        <KpiStatCard theme={theme} label="Günlük Rekor" accent="rose" delay={0.15}
+          icon={<Trophy size={18} weight="duotone" />}
+          value={activitySummary.bestDay
+            ? <AnimatedCounter value={activitySummary.bestDay.count} />
+            : <span className={`${theme.subtext} text-lg`}>Henüz veri yok</span>}
+          valueClassName={activitySummary.bestDay ? 'text-rose-400' : ''}
+          sub={activitySummary.bestDay ? trDate(activitySummary.bestDay.date) : undefined} />
       </div>
 
       {/* A2: Quick Stats Strip */}
@@ -613,6 +655,13 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
           <DifferenceChart data={diffData} />
         </motion.div>
       </div>
+
+      {/* v6: Akıllı Öneri Feed'i */}
+      <RecommendationFeed
+        priorities={lessonPriorities}
+        dailyRec={dailyRec}
+        theme={theme}
+      />
 
       {/* Heatmap + Özet (Tactical seviyesinde önemli) */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
@@ -794,6 +843,46 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
           </motion.div>
         </div>
       </CollapsibleSection>
+
+      {/* ═══ v6: YENİ TIER 3 KOLLEKSİYONLARI ═══════════════════════════════ */}
+
+      {/* What-If Simülasyonu */}
+      <CollapsibleSection title="Simülasyon: Ne Olurdu?" theme={theme}>
+        <WhatIfSimulator
+          activity={activity90}
+          solvedUnique={overview.solvedUnique}
+          bankTotal={overview.bankTotal}
+          theme={theme}
+        />
+      </CollapsibleSection>
+
+      {/* Deneme Sınavı Geçmişi */}
+      <CollapsibleSection title="Deneme Sınavı Geçmişi" theme={theme}
+        summary={exams.length > 0 ? `${exams.length} deneme` : undefined}>
+        <ExamHistoryTimeline trend={examTrend} exams={exams} theme={theme} />
+      </CollapsibleSection>
+
+      {/* v6: Modals */}
+      <ExportModal
+        isOpen={showExport}
+        onClose={() => setShowExport(false)}
+        theme={theme}
+        onExportPDF={handleExportPDF}
+        onExportCSV={handleExportCSV}
+        onShare={handleShare}
+      />
+      <GoalEditorModal
+        isOpen={showGoalEditor}
+        onClose={() => setShowGoalEditor(false)}
+        goals={goals}
+        onSave={(g) => {
+          import('../store/useAppStore').then(m => {
+            m.useAppStore.getState().setGoals(g);
+          });
+          saveGoals(g);
+        }}
+        theme={theme}
+      />
 
     </div>
   );

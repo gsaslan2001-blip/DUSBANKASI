@@ -219,12 +219,12 @@ def _load_dus_konu_testi_txt(path: str) -> list:
                 "options": opts
             }
 
-    ans_blocks = re.split(r'▸ \*\*Soru (\d+)', bottom_part)
+    ans_blocks = re.split(r'▸ (?:\*\*)?Soru (\d+)', bottom_part)
     for i in range(1, len(ans_blocks), 2):
         q_num = ans_blocks[i]
         block = ans_blocks[i+1]
         
-        c_match = re.search(r'Doğru:\s*([A-E])', block)
+        c_match = re.search(r'Doğru:\s*(?:\*\*)?([A-E])(?:\*\*)?', block)
         c_ans = c_match.group(1) if c_match else ""
         
         n_match = re.search(r'Neden [A-E]:\s*(.*?)(?=\nAnahtar:|\Z)', block, re.DOTALL)
