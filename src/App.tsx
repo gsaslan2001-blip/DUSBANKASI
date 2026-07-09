@@ -3,6 +3,11 @@ import { importQuestions, fetchQuestionsByIds, deleteQuestionsInLesson, deleteQu
 import { useQuestions } from './hooks/useQuestions';
 import { flushPendingDeletes } from './lib/pendingDeletes';
 import { motion } from 'framer-motion';
+import { viewTransitions } from './lib/motion';
+import { getViewConfig } from './config/viewRegistry';
+import { recomputeKernel } from './lib/kernel';
+import { useAppStore } from './store/useAppStore';
+import VitalsStrip from './components/cockpit/VitalsStrip';
 import { useResumableSession } from './hooks/useResumableSession';
 import { useAuth } from './hooks/useAuth';
 import { AuthModal } from './components/AuthModal';
@@ -269,6 +274,19 @@ export default function App() {
 
   const settings = useSettingsStore(s => s.settings);
   const setSettings = useSettingsStore(s => s.setSettings);
+
+  // Stats Kernel (Faz 2): tüm türetilmiş istatistik Worker'da hesaplanır.
+  // Skeleton havuzu veya sync sonrası statsVersion değişince yeniden hesapla.
+  // Veri FETCH davranışına dokunmaz — yalnızca bellekteki verinin türetilmesidir.
+  useEffect(() => {
+    if (rawQuestions.length === 0) return;
+    recomputeKernel({
+      questions: rawQuestions,
+      stats: loadAllStats(),
+      activity: getRecentActivity(90),
+      goals: useAppStore.getState().goals,
+    });
+  }, [rawQuestions, statsVersion]);
 
   useEffect(() => {
     loadQuestions();
@@ -546,6 +564,13 @@ export default function App() {
     setAppState('result');
     clearResumableSession().catch(() => { });
     SyncManager.flush().catch(() => {});
+    // Kernel'i tazele — HUD ve kokpit yeni oturumu anında yansıtsın
+    recomputeKernel({
+      questions: rawQuestions,
+      stats: loadAllStats(),
+      activity: getRecentActivity(90),
+      goals: useAppStore.getState().goals,
+    });
     flushPendingDeletes().catch(() => {}); // test bitti — bekleyen silmeleri DB'ye işle
     if (activeExam?.variant === 'daily' && activeExam.dailyExamId) {
       if (user) {
@@ -818,6 +843,8 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
     : (unitQuestions.length > 0 ? unitQuestions : questions.filter(q => q.unit === selectedUnit && q.lesson === selectedLesson));
 
   const theme = themeColors[settings.theme];
+  // Faz 1: View Registry — geçiş preset'i + HUD politikası (sterile cockpit kuralı)
+  const viewCfg = getViewConfig(appState);
 
   return (
     <div className={`h-screen ${theme.bg} ${theme.text} selection:bg-indigo-500/20 font-sans overflow-hidden flex flex-col relative`}>
@@ -920,8 +947,23 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
         </div>
       </header>
 
+      {/* Glass Cockpit HUD (Faz 3) — sterile view'larda (quiz vb.) hiç render edilmez */}
+      {!loading && viewCfg.hudMode !== 'sterile' && (
+        <VitalsStrip theme={theme} compact={viewCfg.hudMode === 'compact'} />
+      )}
+
       <main className="flex-1 overflow-y-auto w-full max-w-[1400px] mx-auto px-4 sm:px-6">
-        <div className="min-h-full py-5 flex flex-col">
+        {/* Faz 1: kök view geçişi — key={appState} her view değişiminde giriş
+            animasyonunu tetikler (preset viewRegistry'den). Exit animasyonu bilinçli
+            yok: mode="wait" motion v12'de view swap'ını kilitleyebiliyor (canlıda
+            doğrulandı) — giriş spring'i premium hissi tek başına taşır. */}
+        <motion.div
+          key={appState}
+          variants={viewTransitions[viewCfg.transition]}
+          initial="initial"
+          animate="animate"
+          className="min-h-full py-5 flex flex-col"
+        >
           {appState === 'import' ? (
             <ImportView onDone={handleImportDone} theme={theme} />
           ) : appState === 'add-question' ? (
@@ -1219,7 +1261,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               settings={settings}
             />
           ) : null}
-        </div>
+        </motion.div>
       </main>
 
       {editingQuestion && <EditModal question={editingQuestion} onSave={handleSaveEdit} onClose={() => setEditingQuestion(null)} theme={theme} />}

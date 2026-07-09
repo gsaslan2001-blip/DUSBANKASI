@@ -22,6 +22,13 @@ interface WeekStats {
   accuracy: number;
 }
 
+/** 'YYYY-MM-DD' -> yerel Date. `new Date(isoString)` UTC yorumlar; UTC+3'te
+ * 00:00-03:00 arası bir gün geri kayar (bkz. lib/dateUtils.ts). */
+function parseLocalDate(iso: string): Date {
+  const [y, m, d] = iso.split('-').map(Number);
+  return new Date(y, m - 1, d);
+}
+
 function getWeekStats(data: DailyActivity[]): WeekStats {
   const total = data.reduce((s, d) => s + d.count, 0);
   const correct = data.reduce((s, d) => s + d.correct, 0);
@@ -55,7 +62,7 @@ function WeeklyComparisonBase({ activity, className = '' }: WeeklyComparisonProp
     const lastWeekData: DailyActivity[] = [];
 
     for (const d of activity) {
-      const date = new Date(d.date);
+      const date = parseLocalDate(d.date);
       if (date >= thisMonday) {
         thisWeekData.push(d);
       } else if (date >= lastMonday && date < thisMonday) {

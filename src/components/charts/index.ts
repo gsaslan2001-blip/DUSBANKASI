@@ -63,3 +63,4 @@ export { default as ExamTimelineChart } from './ExamTimelineChart';
 export { default as GoalProgressTimeline } from './GoalProgressTimeline';
 export { default as WhatIfLineChart } from './WhatIfLineChart';
 export { default as RecommendationPriorityChart } from './RecommendationPriorityChart';
+export { default as ChartFrame } from './ChartFrame';

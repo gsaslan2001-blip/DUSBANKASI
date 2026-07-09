@@ -10,7 +10,6 @@ import type {
   UserGoals, GoalProgress, Milestone, GoalAlert, CustomGoal,
 } from '../types/app';
 import type { OverviewStats, ActivityPoint } from './stats';
-import type { DusScoreEstimate } from '../types/app';
 
 const GOALS_KEY = 'dus_user_goals';
 const MILESTONE_KEY = 'dus_milestones_seen';
@@ -68,7 +67,6 @@ export function computeGoalProgress(
   goals: UserGoals,
   overview: OverviewStats,
   activity: ActivityPoint[],
-  dusScore?: DusScoreEstimate | null,
 ): GoalProgress[] {
   const today = activity[activity.length - 1];
   const todayCount = today?.count ?? 0;
@@ -129,15 +127,6 @@ export function computeGoalProgress(
       pct: Math.min(100, Math.round((streak / goals.targetStreak) * 100)),
       onTrack: streak >= goals.targetStreak * 0.8,
       icon: 'Flame',
-    },
-    {
-      goalKey: 'targetDusNet',
-      label: 'DUS Net Hedefi',
-      current: dusScore?.estimatedNet ?? 0,
-      target: goals.targetDusNet,
-      pct: Math.min(100, Math.round(((dusScore?.estimatedNet ?? 0) / goals.targetDusNet) * 100)),
-      onTrack: (dusScore?.targetProbability ?? 0) >= 50,
-      icon: 'Gauge',
     },
   ];
 

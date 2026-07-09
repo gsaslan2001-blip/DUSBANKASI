@@ -12,6 +12,17 @@ interface ContributionHeatMapProps {
   weeks?: number;
   width?: number;
   height?: number;
+  onDaySelect?: (date: string) => void;
+  selectedDay?: string | null;
+}
+
+/** Yerel Date -> 'YYYY-MM-DD'. `Date#toISOString()` UTC döner; UTC+3'te
+ * 00:00-03:00 arası bir gün ileri kayabilir (bkz. lib/dateUtils.ts). */
+function toLocalDateStr(d: Date): string {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
 }
 
 const DAY_LABELS = ['Pzt', '', 'Çar', '', 'Cum', '', 'Paz'];
@@ -22,7 +33,7 @@ const COLOR_SCALE = d3.scaleThreshold<number, string>()
 
 export const ContributionHeatMap = memo(ContributionHeatMapBase);
 
-function ContributionHeatMapBase({ data, weeks = 20, width: propWidth, height = 140 }: ContributionHeatMapProps) {
+function ContributionHeatMapBase({ data, weeks = 20, width: propWidth, height = 140, onDaySelect, selectedDay }: ContributionHeatMapProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
@@ -43,7 +54,7 @@ function ContributionHeatMapBase({ data, weeks = 20, width: propWidth, height = 
     let prevMonth = '';
 
     while (d <= endDate) {
-      const dateStr = d.toISOString().slice(0, 10);
+      const dateStr = toLocalDateStr(d);
       const weekNum = Math.floor((d.getTime() - startDate.getTime()) / (7 * 86400000));
       const dayNum = d.getDay() === 0 ? 6 : d.getDay() - 1;
       const month = d.toLocaleDateString('tr-TR', { month: 'short' });
@@ -114,10 +125,11 @@ function ContributionHeatMapBase({ data, weeks = 20, width: propWidth, height = 
         .attr('rx', 3)
         .attr('ry', 3)
         .attr('fill', d => COLOR_SCALE(d.count))
-        .attr('stroke', 'rgba(255,255,255,0.03)')
-        .attr('stroke-width', 0.5)
+        .attr('stroke', d => d.date === selectedDay ? 'rgba(129,140,248,0.9)' : 'rgba(255,255,255,0.03)')
+        .attr('stroke-width', d => d.date === selectedDay ? 2 : 0.5)
+        .style('cursor', onDaySelect ? 'pointer' : 'default')
         .on('mouseenter', function (_event, d) {
-          d3.select(this).attr('stroke', 'rgba(255,255,255,0.3)').attr('stroke-width', 1.5);
+          if (d.date !== selectedDay) d3.select(this).attr('stroke', 'rgba(255,255,255,0.3)').attr('stroke-width', 1.5);
           const tooltip = d3.select(tooltipRef.current);
           tooltip.style('display', 'block').html(`
             <div class="text-[11px] font-bold">${d.date}</div>
@@ -130,9 +142,12 @@ function ContributionHeatMapBase({ data, weeks = 20, width: propWidth, height = 
             .style('left', `${mx + 12}px`)
             .style('top', `${my - 40}px`);
         })
-        .on('mouseleave', function () {
-          d3.select(this).attr('stroke', 'rgba(255,255,255,0.03)').attr('stroke-width', 0.5);
+        .on('mouseleave', function (_event, d) {
+          if (d.date !== selectedDay) d3.select(this).attr('stroke', 'rgba(255,255,255,0.03)').attr('stroke-width', 0.5);
           d3.select(tooltipRef.current).style('display', 'none');
+        })
+        .on('click', function (_event, d) {
+          onDaySelect?.(d.date === selectedDay ? '' : d.date);
         });
 
       // Month labels
@@ -191,7 +206,7 @@ function ContributionHeatMapBase({ data, weeks = 20, width: propWidth, height = 
     const obs = new ResizeObserver(debounce(draw, 120));
     if (containerRef.current) obs.observe(containerRef.current);
     return () => obs.disconnect();
-  }, [cellData, propWidth, height, weeks]);
+  }, [cellData, propWidth, height, weeks, selectedDay, onDaySelect]);
 
   return (
     <div ref={containerRef} className="relative">

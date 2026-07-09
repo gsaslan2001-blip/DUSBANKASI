@@ -18,7 +18,9 @@ export default memo(GoalTracker);
 function GoalTracker({ progress, theme, onEditGoals }: Props) {
   const [viewMode, setViewMode] = useState<'rings' | 'bars'>('rings');
 
-  const topGoals = progress.slice(0, 4);
+  // Eskiden ilk 4'e kesiliyordu — Seri/Uzmanlaşma gibi hedefler hiç görünmüyordu.
+  // Özel hedefler çok fazlaysa (>8) grid taşmasın diye üst sınır konuldu.
+  const topGoals = progress.slice(0, 8);
 
   return (
     <motion.div
@@ -75,9 +77,9 @@ function GoalTracker({ progress, theme, onEditGoals }: Props) {
               color={p.onTrack ? '#34d399' : p.pct >= 50 ? '#818cf8' : '#fbbf24'}
             />
           ))}
-          {progress.length > 4 && (
+          {progress.length > 8 && (
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', color: theme.subtext, fontSize: 11 }}>
-              +{progress.length - 4} hedef daha
+              +{progress.length - 8} hedef daha
             </div>
           )}
         </div>

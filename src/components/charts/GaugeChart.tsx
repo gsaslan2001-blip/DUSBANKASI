@@ -7,6 +7,8 @@ interface Props {
   size?: number;
   color?: string;
   label?: string;
+  /** Gerçek hedef değeri (ör. kullanıcının kapsama hedefi). Verilmezse max gösterilir. */
+  target?: number;
 }
 
 const ARC_START = -135;
@@ -15,7 +17,7 @@ const ARC_SPAN = ARC_END - ARC_START;
 
 export default memo(GaugeChart);
 
-function GaugeChart({ value, max, size = 180, color: _color = '#818cf8', label }: Props) {
+function GaugeChart({ value, max, size = 180, color: _color = '#818cf8', label, target }: Props) {
   const needleRef = useRef<SVGGElement>(null);
   const [displayValue, setDisplayValue] = useState(0);
 
@@ -88,6 +90,20 @@ function GaugeChart({ value, max, size = 180, color: _color = '#818cf8', label }
               stroke="rgba(255,255,255,0.12)" strokeWidth={1} />
           );
         })}
+        {/* Hedef işareti */}
+        {target !== undefined && target > 0 && (() => {
+          const targetPct = Math.min(1, Math.max(0, target / safeMax));
+          const ta = ARC_START + targetPct * ARC_SPAN;
+          const trad = (ta * Math.PI) / 180;
+          const ir = r - strokeW * 0.9;
+          const outr = r + strokeW * 0.9;
+          return (
+            <line
+              x1={cx + ir * Math.cos(trad)} y1={cy + ir * Math.sin(trad)}
+              x2={cx + outr * Math.cos(trad)} y2={cy + outr * Math.sin(trad)}
+              stroke="#fff" strokeWidth={2} strokeLinecap="round" opacity={0.85} />
+          );
+        })()}
         {/* Needle */}
         <g ref={needleRef} transform={`rotate(${currentAngle}, ${cx}, ${cy})`}
           style={{ transition: 'transform 0.8s cubic-bezier(0.16, 1, 0.3, 1)' }}>
@@ -102,7 +118,7 @@ function GaugeChart({ value, max, size = 180, color: _color = '#818cf8', label }
         </text>
       </svg>
       {label && <div style={{ fontSize: 12, fontWeight: 700, color: '#ececf1', marginTop: -4 }}>{label}</div>}
-      <div style={{ fontSize: 10, color: '#8b8b98' }}>hedef {max}</div>
+      <div style={{ fontSize: 10, color: '#8b8b98' }}>{target !== undefined ? `hedef %${target}` : `ölçek 0–${max}`}</div>
     </div>
   );
 }
