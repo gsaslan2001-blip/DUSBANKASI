@@ -4,8 +4,10 @@
 import { memo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, FloppyDisk } from '@phosphor-icons/react';
+import { Button } from '../ui/Button';
 import type { Theme } from '../../theme';
 import type { UserGoals } from '../../types/app';
+import { useModalA11y } from '../../hooks/useModalA11y';
 
 interface Props {
   isOpen: boolean;
@@ -42,6 +44,8 @@ function GoalEditorModal({ isOpen, onClose, goals, onSave, theme }: Props) {
     onClose();
   };
 
+  const dialogRef = useModalA11y<HTMLDivElement>(onClose, isOpen);
+
   return (
     <AnimatePresence>
       {isOpen && (
@@ -57,6 +61,11 @@ function GoalEditorModal({ isOpen, onClose, goals, onSave, theme }: Props) {
           onClick={onClose}
         >
           <motion.div
+            ref={dialogRef}
+            role="dialog"
+            aria-modal="true"
+            aria-label="Hedefleri Düzenle"
+            tabIndex={-1}
             initial={{ scale: 0.95, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.95, opacity: 0 }}
@@ -66,9 +75,14 @@ function GoalEditorModal({ isOpen, onClose, goals, onSave, theme }: Props) {
           >
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 20 }}>
               <span style={{ fontSize: 16, fontWeight: 700, color: theme.text }}>Hedefleri Düzenle</span>
-              <button onClick={onClose} style={{ background: 'none', border: 'none', cursor: 'pointer', color: theme.subtext }}>
+              <Button
+                onClick={onClose}
+                variant="unstyled"
+                aria-label="Kapat"
+                style={{ background: 'none', border: 'none', cursor: 'pointer', color: theme.subtext }}
+              >
                 <X size={20} />
-              </button>
+              </Button>
             </div>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
@@ -101,17 +115,19 @@ function GoalEditorModal({ isOpen, onClose, goals, onSave, theme }: Props) {
             </div>
 
             <div style={{ display: 'flex', gap: 10, marginTop: 20 }}>
-              <button
+              <Button
                 onClick={onClose}
+                variant="unstyled"
                 style={{
                   flex: 1, padding: '10px 0', borderRadius: 10, border: `1px solid ${theme.border}`,
                   background: 'transparent', color: theme.subtext, fontSize: 13, fontWeight: 600, cursor: 'pointer',
                 }}
               >
                 İptal
-              </button>
-              <button
+              </Button>
+              <Button
                 onClick={handleSave}
+                variant="unstyled"
                 style={{
                   flex: 1, padding: '10px 0', borderRadius: 10, border: 'none',
                   background: 'linear-gradient(135deg, #6f72f2, #484cc2)',
@@ -121,7 +137,7 @@ function GoalEditorModal({ isOpen, onClose, goals, onSave, theme }: Props) {
               >
                 <FloppyDisk size={16} />
                 Kaydet
-              </button>
+              </Button>
             </div>
           </motion.div>
         </motion.div>

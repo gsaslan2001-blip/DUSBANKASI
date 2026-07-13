@@ -11,6 +11,8 @@
 import { useState, useEffect, useMemo } from 'react';
 import { Checks, Clock, ChartBar, Warning, Brain, Microscope, ArrowRight, Medal, GraduationCap } from '@phosphor-icons/react';
 import { motion } from 'framer-motion';
+import { Button } from './ui/Button';
+import { GlassPanel } from './ui/GlassPanel';
 import type { Question } from '../data';
 import { getPlacementForNet } from '../lib/dusPlacement';
 
@@ -131,7 +133,7 @@ export default function SimulationResultView({
 
 
   return (
-    <div className="w-full relative min-h-screen pb-32 pt-8">
+    <div className="w-full relative min-h-dvh pb-32 pt-8">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-12 w-full anim-fade-in">
         <div className="mb-10 pl-1">
           <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-[color:var(--color-accent-soft)]">Sınav Analizi</h2>
@@ -183,15 +185,15 @@ export default function SimulationResultView({
                     </div>
                     <div>
                       <p className="text-indigo-300 text-xs font-black tracking-widest uppercase mb-1">DUS Yerleştirme Simülasyonu</p>
-                      <h3 className="text-2xl md:text-3xl font-black text-white tracking-tight flex items-center gap-2">
+                      <h3 className="text-2xl md:text-3xl font-black text-[color:var(--color-text-primary)] tracking-tight flex items-center gap-2">
                         Tahmini Sıralama: <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400 font-mono">#{placement.rank}</span>
                       </h3>
-                      <p className="text-[#8b8b98] text-xs font-medium mt-1">Son DUS sınav yerleştirme verilerine göre hesaplanan ortalama başarı derecesi.</p>
+                      <p className="text-[color:var(--color-text-secondary)] text-xs font-medium mt-1">Son DUS sınav yerleştirme verilerine göre hesaplanan ortalama başarı derecesi.</p>
                     </div>
                   </div>
 
                   <div className="w-full md:w-auto shrink-0 relative z-10 flex flex-col gap-2">
-                    <p className="text-[#8b8b98] text-[10px] font-black uppercase tracking-wider text-center md:text-left">
+                    <p className="text-[color:var(--color-text-secondary)] text-[10px] font-black uppercase tracking-wider text-center md:text-left">
                       Girilebilecek En Yüksek Üniversiteler
                     </p>
                     <div className="flex flex-wrap gap-2 justify-center md:justify-start">
@@ -214,7 +216,7 @@ export default function SimulationResultView({
                       <h3 className="text-2xl md:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-amber-400 tracking-tight">
                         BARAJI GEÇEMEDİNİZ
                       </h3>
-                      <p className="text-[#8b8b98] text-xs font-medium mt-1">DUS yerleştirme tercih hakkı kazanabilmek için en az 50 Net yapmanız gerekmektedir.</p>
+                      <p className="text-[color:var(--color-text-secondary)] text-xs font-medium mt-1">DUS yerleştirme tercih hakkı kazanabilmek için en az 50 Net yapmanız gerekmektedir.</p>
                     </div>
                   </div>
                   <div className="w-full md:w-auto shrink-0 relative z-10">
@@ -236,11 +238,11 @@ export default function SimulationResultView({
         >
           <motion.div variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0, transition: { ease: "easeOut" } } }} className="double-bezel group hover:scale-[1.02] transition-transform duration-300 cursor-default">
             <div className="double-bezel-inner p-6 flex items-center gap-5">
-              <div className="w-12 h-12 rounded-2xl bg-[#8b95f6]/10 flex items-center justify-center text-[#8b95f6]">
+              <div className="w-12 h-12 rounded-2xl bg-[color:var(--color-accent-soft)]/10 flex items-center justify-center text-[color:var(--color-accent-soft)]">
                 <Checks size={24} />
               </div>
               <div>
-                <p className="text-[#8b8b98] text-sm font-medium">Net Sayısı</p>
+                <p className="text-[color:var(--color-text-secondary)] text-sm font-medium">Net Sayısı</p>
                 <p className="text-2xl font-bold">{netScore.toFixed(2)}</p>
               </div>
             </div>
@@ -248,11 +250,11 @@ export default function SimulationResultView({
 
           <motion.div variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0, transition: { ease: "easeOut" } } }} className="double-bezel group hover:scale-[1.02] transition-transform duration-300 cursor-default">
             <div className="double-bezel-inner p-6 flex items-center gap-5">
-              <div className="w-12 h-12 rounded-2xl bg-[#fbbf24]/10 flex items-center justify-center text-[#fbbf24]">
+              <div className="w-12 h-12 rounded-2xl bg-[color:var(--color-warning)]/10 flex items-center justify-center text-[color:var(--color-warning)]">
                 <Clock size={24} />
               </div>
               <div>
-                <p className="text-[#8b8b98] text-sm font-medium">Süre</p>
+                <p className="text-[color:var(--color-text-secondary)] text-sm font-medium">Süre</p>
                 <p className="text-2xl font-bold">{Math.round(usedSeconds / 60)} DK</p>
               </div>
             </div>
@@ -264,8 +266,8 @@ export default function SimulationResultView({
                 <ChartBar size={24} weight="thin" />
               </div>
               <div>
-                <p className="text-[#8b8b98] text-sm font-medium">Doğruluk</p>
-                <p className="text-2xl font-bold">%{accuracy} <span className="text-sm text-[#8b8b98] font-normal">/ {answered.length} cevap</span></p>
+                <p className="text-[color:var(--color-text-secondary)] text-sm font-medium">Doğruluk</p>
+                <p className="text-2xl font-bold">%{accuracy} <span className="text-sm text-[color:var(--color-text-secondary)] font-normal">/ {answered.length} cevap</span></p>
               </div>
             </div>
           </motion.div>
@@ -279,44 +281,44 @@ export default function SimulationResultView({
           {/* Results Donut Chart Column */}
           <motion.div variants={{ hidden: { opacity: 0, rotateX: 10, y: 30, scale: 0.95 }, show: { opacity: 1, rotateX: 0, y: 0, scale: 1, transition: { type: "spring", damping: 20 } } }} style={{ perspective: 1000 }} className="lg:col-span-4 double-bezel flex flex-col items-center">
             <div className="double-bezel-inner w-full flex flex-col items-center p-8">
-              <h3 className="w-full text-lg font-bold mb-8 text-[#ececf1]">Soru Dağılımı</h3>
+              <h3 className="w-full text-lg font-bold mb-8 text-[color:var(--color-text-primary)]">Soru Dağılımı</h3>
               <div className="relative w-48 h-48 mb-8">
                 <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
                   <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="rgba(255,255,255,0.05)" strokeWidth="4"></circle>
                   {/* Boş */}
-                  <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="#71717a" strokeDasharray={`${(blank / total) * 100} 100`} strokeDashoffset="0" strokeWidth="4"></circle>
+                  <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="var(--color-kpi-trend-flat)" strokeDasharray={`${(blank / total) * 100} 100`} strokeDashoffset="0" strokeWidth="4"></circle>
                   {/* Yanlış */}
-                  <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="#f87171" strokeDasharray={`${((incorrect) / total) * 100} 100`} strokeDashoffset={`-${(blank / total) * 100}`} strokeWidth="4"></circle>
+                  <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="var(--color-incorrect)" strokeDasharray={`${((incorrect) / total) * 100} 100`} strokeDashoffset={`-${(blank / total) * 100}`} strokeWidth="4"></circle>
                   {/* Doğru */}
-                  <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="#34d399" strokeDasharray={`${(correct / total) * 100} 100`} strokeDashoffset={`-${((blank + incorrect) / total) * 100}`} strokeWidth="4"></circle>
+                  <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="var(--color-correct)" strokeDasharray={`${(correct / total) * 100} 100`} strokeDashoffset={`-${((blank + incorrect) / total) * 100}`} strokeWidth="4"></circle>
                 </svg>
                 <div className="absolute inset-0 flex flex-col items-center justify-center">
-                  <span className="text-3xl font-black text-[#ececf1]">{total}</span>
-                  <span className="text-[10px] text-[#8b8b98] uppercase tracking-widest font-bold">Toplam Soru</span>
+                  <span className="text-3xl font-black text-[color:var(--color-text-primary)]">{total}</span>
+                  <span className="text-[10px] text-[color:var(--color-text-secondary)] uppercase tracking-widest font-bold">Toplam Soru</span>
                 </div>
               </div>
 
               <div className="w-full space-y-4">
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-3">
-                    <span className="w-3 h-3 rounded-full bg-[#34d399]"></span>
-                    <span className="text-[#8b8b98]">Doğru</span>
+                    <span className="w-3 h-3 rounded-full bg-[color:var(--color-correct)]"></span>
+                    <span className="text-[color:var(--color-text-secondary)]">Doğru</span>
                   </div>
-                  <span className="font-bold text-[#ececf1]">{correct}</span>
+                  <span className="font-bold text-[color:var(--color-text-primary)]">{correct}</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-3">
-                    <span className="w-3 h-3 rounded-full bg-[#f87171]"></span>
-                    <span className="text-[#8b8b98]">Yanlış</span>
+                    <span className="w-3 h-3 rounded-full bg-[color:var(--color-incorrect)]"></span>
+                    <span className="text-[color:var(--color-text-secondary)]">Yanlış</span>
                   </div>
-                  <span className="font-bold text-[#ececf1]">{incorrect}</span>
+                  <span className="font-bold text-[color:var(--color-text-primary)]">{incorrect}</span>
                 </div>
                 <div className="flex justify-between items-center">
                   <div className="flex items-center gap-3">
-                    <span className="w-3 h-3 rounded-full bg-[#71717a]"></span>
-                    <span className="text-[#8b8b98]">Boş</span>
+                    <span className="w-3 h-3 rounded-full bg-[color:var(--color-kpi-trend-flat)]"></span>
+                    <span className="text-[color:var(--color-text-secondary)]">Boş</span>
                   </div>
-                  <span className="font-bold text-[#ececf1]">{blank}</span>
+                  <span className="font-bold text-[color:var(--color-text-primary)]">{blank}</span>
                 </div>
               </div>
             </div>
@@ -325,23 +327,23 @@ export default function SimulationResultView({
           {/* Ders Bazlı Başarı Column */}
           <motion.div variants={{ hidden: { opacity: 0, rotateX: 10, y: 30, scale: 0.95 }, show: { opacity: 1, rotateX: 0, y: 0, scale: 1, transition: { type: "spring", damping: 20 } } }} style={{ perspective: 1000 }} className="lg:col-span-8 double-bezel">
             <div className="double-bezel-inner p-8">
-              <h3 className="text-lg font-bold mb-8 text-[#ececf1]">Ders Bazlı Başarı</h3>
+              <h3 className="text-lg font-bold mb-8 text-[color:var(--color-text-primary)]">Ders Bazlı Başarı</h3>
               <div className="space-y-6">
                 {byLesson.map((l) => (
                   <div key={l.lesson} className="space-y-2 group">
                     <div className="flex justify-between items-center text-sm">
-                      <span className="font-semibold text-[#ececf1]">{l.lesson}</span>
-                      <span className={`font-bold ${l.accuracy >= 70 ? 'text-[#34d399]' : l.accuracy >= 50 ? 'text-[#fbbf24]' : 'text-[#f87171]'}`}>{l.accuracy}%</span>
+                      <span className="font-semibold text-[color:var(--color-text-primary)]">{l.lesson}</span>
+                      <span className={`font-bold ${l.accuracy >= 70 ? 'text-[color:var(--color-correct)]' : l.accuracy >= 50 ? 'text-[color:var(--color-warning)]' : 'text-[color:var(--color-incorrect)]'}`}>{l.accuracy}%</span>
                     </div>
                     <div className="h-2 w-full bg-white/5 rounded-full overflow-hidden">
                       <motion.div
                         initial={{ width: 0 }}
                         animate={{ width: `${l.accuracy}%` }}
                         transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-                        className={`h-full rounded-full ${l.accuracy >= 70 ? 'bg-[#34d399]' : l.accuracy >= 50 ? 'bg-[#fbbf24]' : 'bg-[#f87171]'}`}
+                        className={`h-full rounded-full ${l.accuracy >= 70 ? 'bg-[color:var(--color-correct)]' : l.accuracy >= 50 ? 'bg-[#fbbf24]' : 'bg-[color:var(--color-incorrect)]'}`}
                       ></motion.div>
                     </div>
-                    <div className="flex justify-end gap-2 text-[10px] text-[#8b8b98] font-medium opacity-0 group-hover:opacity-100 transition-opacity">
+                    <div className="flex justify-end gap-2 text-[10px] text-[color:var(--color-text-secondary)] font-medium opacity-0 group-hover:opacity-100 transition-opacity">
                       <span className="text-emerald-400/80">{l.correct} D</span> • <span className="text-red-400/80">{l.incorrect} Y</span> • <span>{l.blank} B</span>
                     </div>
                   </div>
@@ -354,35 +356,35 @@ export default function SimulationResultView({
         {/* Zayıf Ünite Spotlight */}
         {weakUnits.length > 0 && (
           <section className="mt-12">
-            <h3 className="text-lg font-bold mb-6 flex items-center gap-3 text-[#ececf1]">
-              <Warning weight="thin" className="text-[#fbbf24]" size={20} />
+            <h3 className="text-lg font-bold mb-6 flex items-center gap-3 text-[color:var(--color-text-primary)]">
+              <Warning weight="thin" className="text-[color:var(--color-warning)]" size={20} />
               Zayıf Olduğun Konular
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {weakUnits.map((wu, i) => (
-                <div key={`${wu.lesson}-${wu.unit}`} className={`bg-[#0d0d12]/60 backdrop-blur-[24px] p-6 border-l-4 ${i === 0 ? 'border-[#f87171]' : 'border-[#fbbf24]'} rounded-3xl rounded-l-none relative overflow-hidden group`}>
+                <GlassPanel as="div" variant="heavy" key={`${wu.lesson}-${wu.unit}`} className={`p-6 border-l-4 ${i === 0 ? 'border-[color:var(--color-incorrect)]' : 'border-[color:var(--color-warning)]'} rounded-l-none relative overflow-hidden group`}>
                   <div className="absolute top-0 right-0 p-4 opacity-10">
-                    {i === 0 ? <Brain size={64} className="text-[#f87171]" /> : <Microscope size={64} className="text-[#fbbf24]" />}
+                    {i === 0 ? <Brain size={64} className="text-[color:var(--color-incorrect)]" /> : <Microscope size={64} className="text-[color:var(--color-warning)]" />}
                   </div>
                   <div className="flex justify-between items-start mb-4 relative z-10">
                     <div>
-                      <p className={`text-[10px] ${i === 0 ? 'text-[#f87171]' : 'text-[#fbbf24]'} font-black uppercase tracking-widest mb-1`}>
+                      <p className={`text-[10px] ${i === 0 ? 'text-[color:var(--color-incorrect)]' : 'text-[color:var(--color-warning)]'} font-black uppercase tracking-widest mb-1`}>
                         {i === 0 ? 'Kritik Eksik' : 'Geliştirilmeli'}
                       </p>
-                      <h4 className="text-xl font-bold text-[#ececf1] max-w-[80%]">{wu.unit}</h4>
-                      <p className="text-[#8b8b98] text-xs mt-1">{wu.lesson}</p>
+                      <h4 className="text-xl font-bold text-[color:var(--color-text-primary)] max-w-[80%]">{wu.unit}</h4>
+                      <p className="text-[color:var(--color-text-secondary)] text-xs mt-1">{wu.lesson}</p>
                     </div>
-                    <span className={`${i === 0 ? 'bg-[#f87171]/10 text-[#f87171]' : 'bg-[#fbbf24]/10 text-[#fbbf24]'} text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap`}>
+                    <span className={`${i === 0 ? 'bg-[color:var(--color-incorrect)]/10 text-[color:var(--color-incorrect)]' : 'bg-[color:var(--color-warning)]/10 text-[color:var(--color-warning)]'} text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap`}>
                       %{wu.accuracy} Başarı
                     </span>
                   </div>
-                  <button onClick={() => {
+                  <Button onClick={() => {
                     // Kullanıcı Hemen Çalış dediğinde, sadece bu üniteyi çalıştırabiliriz veya onRestart ile ana ekrana dönebilir
                     onRestart();
-                  }} className="w-full bg-white/5 hover:bg-white/10 text-[#ececf1] font-semibold py-3 rounded-xl transition-all flex items-center justify-center gap-2 relative z-10 mt-6">
+                  }} variant="unstyled" className="w-full bg-white/5 hover:bg-white/10 text-[color:var(--color-text-primary)] font-semibold py-3 rounded-xl transition-all flex items-center justify-center gap-2 relative z-10 mt-6">
                     Hemen Çalış <ArrowRight size={16} />
-                  </button>
-                </div>
+                  </Button>
+                </GlassPanel>
               ))}
             </div>
           </section>
@@ -390,20 +392,20 @@ export default function SimulationResultView({
       </div>
 
       {/* Bottom Action Bar */}
-      <div className="fixed bottom-0 right-0 left-0 lg:left-[240px] z-40 bg-[#08080a]/80 backdrop-blur-[24px] border-t border-white/5 p-6">
+      <div className="fixed bottom-0 right-0 left-0 lg:left-[240px] z-40 bg-[color:var(--color-surface-1)]/80 backdrop-blur-[24px] border-t border-[color:var(--color-border-subtle)] p-6">
         <div className="max-w-[1280px] mx-auto flex flex-col sm:flex-row gap-4 justify-between items-center">
           <div className="hidden sm:block">
-            <p className="text-[#8b8b98] text-sm font-medium">Bu deneme sınavını {new Date().toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })} tarihinde tamamladın.</p>
+            <p className="text-[color:var(--color-text-secondary)] text-sm font-medium">Bu deneme sınavını {new Date().toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })} tarihinde tamamladın.</p>
           </div>
           <div className="flex gap-4 w-full sm:w-auto">
             {incorrect > 0 && onRetryIncorrect && (
-              <button onClick={onRetryIncorrect} className="flex-1 sm:flex-none px-8 py-3 rounded-xl border border-white/10 font-bold hover:bg-white/5 transition-all active:scale-95 text-[#ececf1]">
+              <Button onClick={onRetryIncorrect} variant="unstyled" className="flex-1 sm:flex-none px-8 py-3 rounded-xl border border-white/10 font-bold hover:bg-white/5 transition-all active:scale-95 text-[color:var(--color-text-primary)]">
                 Yanlışları Tekrar Çöz
-              </button>
+              </Button>
             )}
-            <button onClick={onRestart} className="flex-1 sm:flex-none px-8 py-3 rounded-xl bg-[#6f72f2] text-white font-bold shadow-lg shadow-[#6f72f2]/20 hover:scale-[1.02] active:scale-95 transition-all">
+            <Button onClick={onRestart} variant="unstyled" className="flex-1 sm:flex-none px-8 py-3 rounded-xl bg-[#6f72f2] text-white font-bold shadow-lg shadow-[#6f72f2]/20 hover:scale-[1.02] active:scale-95 transition-all">
               Ana Ekrana Dön
-            </button>
+            </Button>
           </div>
         </div>
       </div>

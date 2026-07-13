@@ -10,6 +10,8 @@ import { X, Envelope, Lock, SignIn, UserPlus, CircleNotch, SignOut, User } from 
 import { signInWithGoogle, signInWithEmail, signUpWithEmail } from '../lib/auth';
 import type { User as SupabaseUser } from '@supabase/supabase-js';
 import { overlayFade, modalPop } from '../lib/motion';
+import { Button } from './ui/Button';
+import { useModalA11y } from '../hooks/useModalA11y';
 
 import type { Theme } from '../theme';
 
@@ -106,6 +108,8 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
     setSuccessMsg(null);
   }, []);
 
+  const dialogRef = useModalA11y<HTMLDivElement>(onClose);
+
   return (
     <AnimatePresence>
     <motion.div
@@ -117,6 +121,11 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
       onClick={onClose}
     >
       <motion.div
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label={user ? 'Hesap' : 'Giriş / Kayıt'}
+        tabIndex={-1}
         className={`relative w-full max-w-sm mx-4 glass-card border border-[color:var(--color-border-default)] shadow-2xl shadow-black/40 p-6`}
         variants={modalPop}
         initial="initial"
@@ -125,13 +134,14 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
         onClick={(e) => e.stopPropagation()}
       >
         {/* Kapat butonu */}
-        <button
+        <Button
           onClick={onClose}
+          variant="unstyled"
           className="absolute top-4 right-4 text-[color:var(--color-text-secondary)] opacity-70 hover:opacity-100 hover:text-[color:var(--color-text-primary)] transition-all rounded-lg p-1 hover:bg-[color:var(--color-surface-2)]"
           aria-label="Kapat"
         >
           <X size={18} />
-        </button>
+        </Button>
 
         {/* Başlık */}
         <div className="text-center mb-6">
@@ -182,22 +192,24 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
               ✓ İstatistikler tüm cihazlarda otomatik senkronize ediliyor
             </div>
 
-            <button
+            <Button
               onClick={handleSignOut}
               disabled={loading}
+              variant="unstyled"
               className={`w-full flex items-center justify-center gap-2 px-4 py-2.5 ${theme.surface} hover:${theme.surface} ${theme.text} hover:text-white text-sm font-medium rounded-xl transition-all disabled:opacity-50`}
             >
               {loading ? <CircleNotch size={16} weight="thin" className="animate-spin" /> : <SignOut size={16} weight="thin" />}
               Çıkış Yap
-            </button>
+            </Button>
           </div>
         ) : (
           /* ── Giriş yapılmamış: login/register formu ── */
           <div className="space-y-4">
             {/* Google OAuth */}
-            <button
+            <Button
               onClick={handleGoogleSignIn}
               disabled={loading}
+              variant="unstyled"
               className={`w-full flex items-center justify-center gap-2.5 px-4 py-2.5 ${theme.surface} hover:${theme.inputBg} ${theme.text} text-sm font-semibold rounded-xl transition-all shadow-sm border ${theme.border} disabled:opacity-50 disabled:cursor-not-allowed`}
             >
               {loading ? (
@@ -206,7 +218,7 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
                 <GoogleLogo />
               )}
               Google ile Giriş Yap
-            </button>
+            </Button>
 
             {/* Ayırıcı */}
             <div className="flex items-center gap-3">
@@ -247,19 +259,20 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
               </div>
 
               {error && (
-                <p className={`text-xs text-red-500 bg-red-500/10 border border-red-500/20 rounded-lg px-3 py-2 leading-relaxed`}>
+                <p role="alert" className={`text-xs text-red-500 bg-red-500/10 border border-red-500/20 rounded-lg px-3 py-2 leading-relaxed`}>
                   {error}
                 </p>
               )}
               {successMsg && (
-                <p className={`text-xs text-emerald-500 bg-emerald-500/10 border border-emerald-500/20 rounded-lg px-3 py-2 leading-relaxed`}>
+                <p role="status" className={`text-xs text-emerald-500 bg-emerald-500/10 border border-emerald-500/20 rounded-lg px-3 py-2 leading-relaxed`}>
                   {successMsg}
                 </p>
               )}
 
-              <button
+              <Button
                 type="submit"
                 disabled={loading || !email.trim() || !password.trim()}
+                variant="unstyled"
                 className="w-full flex items-center justify-center gap-2 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold rounded-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 {loading ? (
@@ -270,19 +283,20 @@ export function AuthModal({ user, onClose, onSignOut, theme }: Props) {
                   <UserPlus size={16} />
                 )}
                 {formMode === 'login' ? 'Giriş Yap' : 'Hesap Oluştur'}
-              </button>
+              </Button>
             </form>
 
             {/* Mod geçişi */}
             <p className={`text-center text-xs ${theme.subtext} opacity-70`}>
               {formMode === 'login' ? 'Hesabın yok mu?' : 'Zaten hesabın var mı?'}{' '}
-              <button
+              <Button
                 type="button"
                 onClick={() => switchMode(formMode === 'login' ? 'register' : 'login')}
+                variant="unstyled"
                 className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors"
               >
                 {formMode === 'login' ? 'Kayıt Ol' : 'Giriş Yap'}
-              </button>
+              </Button>
             </p>
           </div>
         )}

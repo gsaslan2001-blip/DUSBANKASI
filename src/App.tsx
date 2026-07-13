@@ -10,6 +10,7 @@ import { recomputeKernel } from './lib/kernel';
 import { useAppStore } from './store/useAppStore';
 import VitalsStrip from './components/cockpit/VitalsStrip';
 import { useResumableSession } from './hooks/useResumableSession';
+import { useModalA11y } from './hooks/useModalA11y';
 import { useAuth } from './hooks/useAuth';
 import { AuthModal } from './components/AuthModal';
 import type { Question, QuestionSkeleton } from './data';
@@ -886,7 +887,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
   const viewCfg = getViewConfig(appState);
 
   return (
-    <div className={`h-screen ${theme.bg} ${theme.text} selection:bg-indigo-500/20 font-sans overflow-hidden flex flex-col relative`}>
+    <div className={`h-dvh ${theme.bg} ${theme.text} selection:bg-indigo-500/20 font-sans overflow-hidden flex flex-col relative`}>
       {loading && (
         <div className="fixed top-14 inset-x-0 bottom-0 z-[9999] bg-[#0c061a]/80 backdrop-blur-2xl flex flex-col items-center justify-center overflow-hidden">
           <div className="w-full max-w-lg px-6 flex flex-col items-center gap-6">
@@ -2160,10 +2161,18 @@ function ImportView({ onDone, theme }: { onDone: () => void; theme: Theme }) {
 }
 
 function SettingsModal({ settings, setSettings, onClose, theme, onExport, onImport, onSourceBooks, onResetStats, onAddQuestion }: { settings: UserSettings; setSettings: (next: UserSettings) => void; onClose: () => void; theme: Theme; onExport: () => void; onImport: () => void; onSourceBooks: () => void; onResetStats: () => void; onAddQuestion: () => void }) {
+  const dialogRef = useModalA11y<HTMLDivElement>(onClose);
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xl anim-fade-in">
       {/* AUDIT-02: max-h + overflow-y-auto — küçük ekranlarda modal içeriği scroll edilebilir */}
-      <div className={`w-full max-w-md ${theme.cardSolid} rounded-2xl p-7 ${theme.shadowLg} relative max-h-[90vh] overflow-y-auto custom-scrollbar anim-scale-in`}>
+      <div
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Ayarlar"
+        tabIndex={-1}
+        className={`w-full max-w-md ${theme.cardSolid} rounded-2xl p-7 ${theme.shadowLg} relative max-h-[90vh] overflow-y-auto custom-scrollbar anim-scale-in`}
+      >
         <div className="flex justify-between items-center mb-7">
           <h3 className="text-lg font-black">Ayarlar</h3>
           <Button onClick={onClose} variant="unstyled" aria-label="Kapat" className="p-1.5 hover:bg-white/[0.06] rounded-xl transition-colors"><XCircle size={20} className="opacity-50" /></Button>
@@ -2243,9 +2252,18 @@ function EditModal({ question, onSave, onClose, theme }: { question: Question; o
     try { await deleteQuestionImage(url); } catch { /* ignore */ }
   };
 
+  const dialogRef = useModalA11y<HTMLDivElement>(onClose);
+
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xl anim-fade-in">
-      <div className={`w-full max-w-2xl ${theme.cardSolid} rounded-2xl p-7 max-h-[90vh] overflow-y-auto custom-scrollbar ${theme.shadowLg} anim-scale-in`}>
+      <div
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Soruyu Düzenle"
+        tabIndex={-1}
+        className={`w-full max-w-2xl ${theme.cardSolid} rounded-2xl p-7 max-h-[90vh] overflow-y-auto custom-scrollbar ${theme.shadowLg} anim-scale-in`}
+      >
         <h3 className="text-lg font-black mb-5">Soruyu Düzenle</h3>
         <div className="space-y-3">
           <textarea value={q} onChange={e => setQ(e.target.value)} className={`w-full h-28 ${theme.inputBg} p-4 rounded-xl text-sm border ${theme.border} input-ring resize-none`} />
@@ -2294,7 +2312,7 @@ function EditModal({ question, onSave, onClose, theme }: { question: Question; o
                 />
               </label>
             )}
-            {imageError && <p className="mt-1.5 text-[11px] text-red-400">{imageError}</p>}
+            {imageError && <p role="alert" className="mt-1.5 text-[11px] text-red-400">{imageError}</p>}
           </div>
         </div>
         <div className="flex gap-2.5 mt-6">
@@ -2316,9 +2334,17 @@ function EditModal({ question, onSave, onClose, theme }: { question: Question; o
 
 function ReportModal({ questionId, onSave, onClose, theme }: { questionId: string; onSave: (id: string, reason: string) => void; onClose: () => void; theme: Theme }) {
   const [r, setR] = useState('Hatalı Bilgi');
+  const dialogRef = useModalA11y<HTMLDivElement>(onClose);
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-xl anim-fade-in">
-      <div className={`w-full max-w-sm ${theme.cardSolid} rounded-2xl p-7 ${theme.shadowLg} anim-scale-in`}>
+      <div
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Soruyu Raporla"
+        tabIndex={-1}
+        className={`w-full max-w-sm ${theme.cardSolid} rounded-2xl p-7 ${theme.shadowLg} anim-scale-in`}
+      >
         <h3 className="text-lg font-black mb-5">Raporla</h3>
         <select value={r} onChange={e => setR(e.target.value)} className={`w-full ${theme.inputBg} p-3.5 rounded-xl text-sm mb-5 border ${theme.border}`}>
           {(['Hatalı Bilgi', 'Yazım Yanlışı', 'Eksik Seçenek', 'Resim Hatası']).map(k => <option key={k} value={k}>{k}</option>)}
