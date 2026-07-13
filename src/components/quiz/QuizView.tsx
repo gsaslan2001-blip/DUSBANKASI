@@ -162,6 +162,9 @@ export function QuizView({
     isHistorized,
     onToggleFavorite: handleFavoriteShortcut,
     onToggleHelp: handleToggleHelp,
+    // Yardım overlay'i açıkken alttaki soruya 1-5/A-E/←→/S sızmasın —
+    // overlay kendi Escape dinleyicisiyle kapanır.
+    enabled: !helpOpen,
   });
 
   // Sync answersRef whenever answers state changes (e.g., from initialSession)

@@ -1,7 +1,8 @@
-import { memo, useEffect } from 'react';
+import { memo } from 'react';
 import { X } from '@phosphor-icons/react';
 import { Button } from '../ui/Button';
 import type { Theme } from '../../theme';
+import { useModalA11y } from '../../hooks/useModalA11y';
 
 export type KeyboardShortcutsHelpProps = {
   open: boolean;
@@ -21,12 +22,7 @@ const SHORTCUTS: { keys: string; label: string }[] = [
 
 /** Klavye kısayolları yardım overlay'i — `?` tuşuyla açılır. */
 export const KeyboardShortcutsHelp = memo(function KeyboardShortcutsHelp({ open, onClose, theme }: KeyboardShortcutsHelpProps) {
-  useEffect(() => {
-    if (!open) return;
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [open, onClose]);
+  const dialogRef = useModalA11y<HTMLDivElement>(onClose, open);
 
   if (!open) return null;
 
@@ -34,11 +30,13 @@ export const KeyboardShortcutsHelp = memo(function KeyboardShortcutsHelp({ open,
     <div
       className="fixed inset-0 z-[200] flex items-center justify-center p-6 bg-black/70 backdrop-blur-md anim-fade-in"
       onClick={onClose}
-      role="dialog"
-      aria-modal="true"
-      aria-label="Klavye kısayolları"
     >
       <div
+        ref={dialogRef}
+        role="dialog"
+        aria-modal="true"
+        aria-label="Klavye kısayolları"
+        tabIndex={-1}
         className={`w-full max-w-sm ${theme.cardSolid} border ${theme.border} rounded-2xl p-5 shadow-2xl anim-scale-in`}
         onClick={(e) => e.stopPropagation()}
       >

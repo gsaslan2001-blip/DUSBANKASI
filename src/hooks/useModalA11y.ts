@@ -3,6 +3,21 @@ import { useEffect, useRef, type RefObject } from 'react';
 const FOCUSABLE_SELECTOR =
   'a[href], button:not([disabled]), textarea:not([disabled]), input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
+// Referans sayaçlı body-scroll kilidi: iki modal (örn. quiz + üstünde
+// EditModal) aynı anda açıkken biri kapansa da diğeri açıkken arka plan
+// scroll'u tekrar açılmasın.
+let scrollLockCount = 0;
+let scrollLockPrevOverflow = '';
+function lockBodyScroll() {
+  if (scrollLockCount === 0) scrollLockPrevOverflow = document.body.style.overflow;
+  scrollLockCount++;
+  document.body.style.overflow = 'hidden';
+}
+function unlockBodyScroll() {
+  scrollLockCount = Math.max(0, scrollLockCount - 1);
+  if (scrollLockCount === 0) document.body.style.overflow = scrollLockPrevOverflow;
+}
+
 /**
  * Faz 7 — modal a11y sözleşmesi: ESC ile kapanış + Tab focus-trap +
  * açılışta ilk odaklanabilir elemana focus. `ExplanationPanel`'in görsel
@@ -51,12 +66,11 @@ export function useModalA11y<T extends HTMLElement = HTMLDivElement>(
     };
 
     document.addEventListener('keydown', onKeyDown);
-    const prevOverflow = document.body.style.overflow;
-    document.body.style.overflow = 'hidden';
+    lockBodyScroll();
 
     return () => {
       document.removeEventListener('keydown', onKeyDown);
-      document.body.style.overflow = prevOverflow;
+      unlockBodyScroll();
       prevActiveEl?.focus?.();
     };
   }, [active, onClose]);
