@@ -1,5 +1,6 @@
 import { forwardRef, memo, useMemo, useCallback, useState } from 'react';
 import { Star } from '@phosphor-icons/react';
+import { Button } from '../ui/Button';
 import { motion } from 'framer-motion';
 import { toast } from 'sonner';
 import confetti from 'canvas-confetti';
@@ -28,13 +29,13 @@ export const QuestionCard = memo(forwardRef<HTMLDivElement, QuestionCardProps>(f
   const [favSparkle, setFavSparkle] = useState(false);
 
   const cleanedQuestion = useMemo(() => {
-    const cleanText = question.question.split('\n').filter(l => !OPTION_LINE_RE.test(l.trim())).join('\n');
+    const cleanText = (question.question ?? '').split('\n').filter(l => !OPTION_LINE_RE.test(l.trim())).join('\n');
     const romanNumeralRe = /(?:\s|^)(I{1,3}|IV|V|VI{1,3}|IX|X)\.\s/g;
     return cleanText.replace(romanNumeralRe, (_, p1) => `\n\n${p1}. `).trim();
   }, [question.question]);
 
   const optionEntries = useMemo(
-    () => Object.entries(question.options) as [string, string][],
+    () => Object.entries(question.options ?? {}) as [string, string][],
     [question.options],
   );
 
@@ -49,7 +50,11 @@ export const QuestionCard = memo(forwardRef<HTMLDivElement, QuestionCardProps>(f
 
   const handleOptionSelect = useCallback((key: string) => {
     if (isAnswered) return;
-    if (key === question.correctAnswer && !window.matchMedia('(pointer: coarse)').matches) {
+    if (
+      key === question.correctAnswer &&
+      !window.matchMedia('(pointer: coarse)').matches &&
+      !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    ) {
       confetti({
         particleCount: 30,
         spread: 55,
@@ -62,6 +67,10 @@ export const QuestionCard = memo(forwardRef<HTMLDivElement, QuestionCardProps>(f
     onSelect(key);
   }, [isAnswered, question.correctAnswer, onSelect]);
 
+  if (!question.question || !question.options) {
+    return <div className="p-6 text-center text-sm opacity-70">Soru içeriği yüklenemedi. Ana menüye dönüp tekrar deneyin.</div>;
+  }
+
   return (
     <div
       ref={ref as React.RefObject<HTMLDivElement>}
@@ -73,8 +82,11 @@ export const QuestionCard = memo(forwardRef<HTMLDivElement, QuestionCardProps>(f
           <p className={`${fontSizes[settings.fontSize]} leading-relaxed font-medium transition-[font-size,line-height] duration-300 whitespace-pre-line`}>
             {cleanedQuestion}
           </p>
-          <button
+          <Button
             onClick={handleFavoriteClick}
+            variant="unstyled"
+            aria-label={question.is_favorite ? 'Favorilerden çıkar' : 'Favorilere ekle'}
+            aria-pressed={question.is_favorite}
             className={`p-3 rounded-xl transition-all duration-300 shrink-0 ${
               question.is_favorite
                 ? `${semanticColors.gold.bg} ${semanticColors.gold.text} scale-105 shadow-lg shadow-amber-400/10`
@@ -82,7 +94,7 @@ export const QuestionCard = memo(forwardRef<HTMLDivElement, QuestionCardProps>(f
             } ${favSparkle ? 'animate-[gold-sparkle_0.6s_ease-in-out]' : ''}`}
           >
             <Star size={20} className={question.is_favorite ? 'fill-current' : ''} />
-          </button>
+          </Button>
         </div>
 
         <div className="space-y-3">

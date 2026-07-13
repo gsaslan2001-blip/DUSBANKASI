@@ -1,5 +1,6 @@
 import { memo, useState } from 'react';
-import { PencilSimple, Flag, Trash, FileText } from '@phosphor-icons/react';
+import { PencilSimple, Flag, Trash, FileText, Warning, Timer } from '@phosphor-icons/react';
+import { Button } from '../ui/Button';
 import type { Question } from '../../data';
 import type { AnswerDetail } from '../../types/app';
 import type { Theme } from '../../theme';
@@ -48,13 +49,20 @@ export const QuizHeader = memo(function QuizHeader({
 
         {/* Simülasyon countdown — only when timed */}
         {timedSeconds && timedSeconds > 0 && (
-          <div className={`px-2 h-5 rounded-md border flex items-center gap-1 font-sans shrink-0 ${
-            remainingSeconds <= 600
-              ? 'bg-red-500/10 border-red-500/20 text-red-400 animate-pulse'
-              : 'bg-indigo-500/10 border-indigo-500/15 text-indigo-400'
-          }`}>
-            <span className="text-[11px] font-bold tracking-widest uppercase font-mono">
-              ⏱ {Math.floor(remainingSeconds / 60)}:{String(remainingSeconds % 60).padStart(2, '0')}
+          <div
+            role={remainingSeconds <= 60 ? 'timer' : undefined}
+            aria-live={remainingSeconds <= 60 ? 'assertive' : undefined}
+            className={`px-2 h-5 rounded-md border flex items-center gap-1 font-sans shrink-0 ${
+              remainingSeconds <= 10
+                ? 'bg-red-500/20 border-red-500/40 text-red-300 animate-pulse scale-105'
+                : remainingSeconds <= 60
+                ? 'bg-red-500/10 border-red-500/20 text-red-400 animate-pulse'
+                : 'bg-indigo-500/10 border-indigo-500/15 text-indigo-400'
+            }`}
+          >
+            {remainingSeconds <= 60 ? <Warning size={11} weight="fill" /> : <Timer size={11} weight="bold" />}
+            <span className="text-[11px] font-bold tracking-widest uppercase font-mono tabular-nums">
+              {Math.floor(remainingSeconds / 60)}:{String(remainingSeconds % 60).padStart(2, '0')}
             </span>
           </div>
         )}
@@ -100,56 +108,70 @@ export const QuizHeader = memo(function QuizHeader({
       {/* ── RIGHT: action buttons ────────────────────────────── */}
       <div className="flex gap-1 items-center shrink-0 relative">
         {mode === 'exam' && (
-          <button
+          <Button
             onClick={() => onFinishEarly(answers)}
-            className="btn btn-sm bg-red-500/10 text-red-400 border border-red-500/15 hover:bg-red-500/20 h-6 px-2 text-[10px]"
+            variant="unstyled"
+            size="sm"
+            className="bg-red-500/10 text-red-400 border border-red-500/15 hover:bg-red-500/20 h-6 px-2 text-[10px]"
           >
             BİTİR
-          </button>
+          </Button>
         )}
-        
+
         {/* Tek overflow menü butonu */}
         <div className="relative">
-          <button
+          <Button
             onClick={() => setMenuOpen(v => !v)}
+            variant="unstyled"
+            aria-label="Soru işlemleri menüsü"
+            aria-haspopup="menu"
+            aria-expanded={menuOpen}
             className={`p-1.5 hover:${theme.inputBg} rounded-md opacity-40 hover:opacity-100 transition-all ${theme.text}`}
           >
             ⋯
-          </button>
-          
+          </Button>
+
           {menuOpen && (
             <>
               {/* Backdrop */}
               <div className="fixed inset-0 z-40" onClick={() => setMenuOpen(false)} />
               {/* Menü */}
-              <div className={`absolute right-0 top-full mt-1 z-50 ${theme.cardSolid} border ${theme.border} rounded-xl shadow-xl shadow-black/10 py-1 min-w-[140px]`}>
+              <div className={`absolute right-0 top-full mt-1 z-50 ${theme.cardSolid} border ${theme.border} rounded-xl shadow-xl shadow-black/10 py-1 min-w-[140px]`} role="menu">
                 {onExportPDF && mode === 'exam' && (
-                  <button
+                  <Button
                     onClick={() => { onExportPDF(questions, 'Deneme Sınavı'); setMenuOpen(false); }}
-                    className={`w-full text-left px-3 py-2 text-[12px] hover:${theme.inputBg} flex items-center gap-2 ${theme.subtext}`}
+                    variant="unstyled"
+                    role="menuitem"
+                    className={`w-full justify-start text-left px-3 py-2 text-[12px] hover:${theme.inputBg} flex items-center gap-2 ${theme.subtext}`}
                   >
                     <FileText size={12} /> PDF İndir
-                  </button>
+                  </Button>
                 )}
-                <button
+                <Button
                   onClick={() => { onEditQuestion(question); setMenuOpen(false); }}
-                  className={`w-full text-left px-3 py-2 text-[12px] hover:${theme.inputBg} flex items-center gap-2 ${theme.subtext}`}
+                  variant="unstyled"
+                  role="menuitem"
+                  className={`w-full justify-start text-left px-3 py-2 text-[12px] hover:${theme.inputBg} flex items-center gap-2 ${theme.subtext}`}
                 >
                   <PencilSimple size={12} /> Düzenle
-                </button>
-                <button
+                </Button>
+                <Button
                   onClick={() => { onReportQuestion(question); setMenuOpen(false); }}
-                  className={`w-full text-left px-3 py-2 text-[12px] hover:${theme.inputBg} flex items-center gap-2 ${theme.subtext}`}
+                  variant="unstyled"
+                  role="menuitem"
+                  className={`w-full justify-start text-left px-3 py-2 text-[12px] hover:${theme.inputBg} flex items-center gap-2 ${theme.subtext}`}
                 >
                   <Flag size={12} /> Bildir
-                </button>
+                </Button>
                 <div className={`my-1 border-t ${theme.border}`} />
-                <button
+                <Button
                   onClick={() => { onDeleteQuestion(question.id); setMenuOpen(false); }}
-                  className="w-full text-left px-3 py-2 text-[12px] hover:bg-red-500/10 flex items-center gap-2 text-red-500"
+                  variant="unstyled"
+                  role="menuitem"
+                  className="w-full justify-start text-left px-3 py-2 text-[12px] hover:bg-red-500/10 flex items-center gap-2 text-red-500"
                 >
                   <Trash size={12} /> Sil
-                </button>
+                </Button>
               </div>
             </>
           )}

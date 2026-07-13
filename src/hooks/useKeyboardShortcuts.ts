@@ -7,6 +7,8 @@ export type KeyboardShortcutOptions = {
   setSelected: (key: string) => void;
   isAnswered: boolean;
   isHistorized: boolean;
+  onToggleFavorite?: () => void;
+  onToggleHelp?: () => void;
   enabled?: boolean;
 };
 
@@ -19,9 +21,11 @@ export type KeyboardShortcutOptions = {
  * - ArrowLeft: previous (always)
  * - a/b/c/d/e or 1/2/3/4/5: pick option (only when not yet answered/historized)
  * - s: skip (only when not answered)
+ * - f: toggle favorite (always, if handler given)
+ * - ?: toggle keyboard-shortcuts help overlay (always, if handler given)
  */
 export function useKeyboardShortcuts(opts: KeyboardShortcutOptions): void {
-  const { onNext, onPrev, onSkip, setSelected, isAnswered, isHistorized, enabled = true } = opts;
+  const { onNext, onPrev, onSkip, setSelected, isAnswered, isHistorized, onToggleFavorite, onToggleHelp, enabled = true } = opts;
 
   // Space → next
   useHotkeys('space', (e) => { e.preventDefault(); onNext(false); }, {
@@ -48,4 +52,15 @@ export function useKeyboardShortcuts(opts: KeyboardShortcutOptions): void {
   useHotkeys('c, 3', () => setSelected('C'), { enabled: canPick }, [setSelected, canPick]);
   useHotkeys('d, 4', () => setSelected('D'), { enabled: canPick }, [setSelected, canPick]);
   useHotkeys('e, 5', () => setSelected('E'), { enabled: canPick }, [setSelected, canPick]);
+
+  // f → toggle favorite
+  useHotkeys('f', () => { onToggleFavorite?.(); }, {
+    enabled: enabled && !!onToggleFavorite,
+  }, [onToggleFavorite, enabled]);
+
+  // ? → toggle keyboard shortcuts help overlay (react-hotkeys-hook matches
+  // physical KeyboardEvent.code by default, so the "/" key is named "slash").
+  useHotkeys('shift+slash', () => { onToggleHelp?.(); }, {
+    enabled: enabled && !!onToggleHelp,
+  }, [onToggleHelp, enabled]);
 }

@@ -11,6 +11,7 @@ import { QuizHeader } from './QuizHeader';
 import { QuestionCard } from './QuestionCard';
 import { ExplanationPanel } from './ExplanationPanel';
 import { QuizNavigation } from './QuizNavigation';
+import { KeyboardShortcutsHelp } from './KeyboardShortcutsHelp';
 import { AIAssistantPanel } from '../ai/AIAssistantPanel';
 
 export type QuizViewProps = {
@@ -44,11 +45,14 @@ export function QuizView({
   onEditQuestion, onReportQuestion, onSaveSession, onExportPDF,
   timedSeconds, onSimulationComplete, theme, settings, dailyExamId, disableStats,
 }: QuizViewProps) {
-  const [currentIndex, setCurrentIndex] = useState<number>(initialSession ? initialSession.currentIndex : 0);
+  const [currentIndex, setCurrentIndex] = useState<number>(
+    initialSession ? Math.min(initialSession.currentIndex, Math.max(questions.length - 1, 0)) : 0
+  );
   const [selectedOption, setSelectedOption] = useState<string | null>(
     initialSession?.answers?.[initialSession.currentIndex]?.selectedOptionKey ?? null
   );
   const [answers, setAnswers] = useState<AnswerDetail[]>(initialSession ? initialSession.answers : []);
+  const [helpOpen, setHelpOpen] = useState(false);
 
   // AUDIT-01: answers'ın güncel kopyasını timer closure'dan ulaşmak için ref
   const answersRef = useRef<AnswerDetail[]>(initialSession ? initialSession.answers : []);
@@ -143,6 +147,11 @@ export function QuizView({
   const handleFinishEarlyAdapter = useCallback((a: unknown[]) => onFinishEarly(a as AnswerDetail[]), [onFinishEarly]);
   const setShowAIPanel = ai.setShowPanel;
   const handleAIPanelClose = useCallback(() => setShowAIPanel(false), [setShowAIPanel]);
+  const handleFavoriteShortcut = useCallback(() => {
+    if (question) onToggleFavorite(question.id);
+  }, [question, onToggleFavorite]);
+  const handleToggleHelp = useCallback(() => setHelpOpen(v => !v), []);
+  const handleCloseHelp = useCallback(() => setHelpOpen(false), []);
 
   useKeyboardShortcuts({
     onNext: handleNext,
@@ -151,6 +160,8 @@ export function QuizView({
     setSelected: setSelectedOption,
     isAnswered,
     isHistorized,
+    onToggleFavorite: handleFavoriteShortcut,
+    onToggleHelp: handleToggleHelp,
   });
 
   // Sync answersRef whenever answers state changes (e.g., from initialSession)
@@ -191,6 +202,8 @@ export function QuizView({
         theme={theme}
       />
 
+      <KeyboardShortcutsHelp open={helpOpen} onClose={handleCloseHelp} theme={theme} />
+
       <div className="flex-1 flex flex-col gap-4 overflow-hidden relative">
         {/* -- AI TUTOR PANEL (Glassmorphism) -- */}
         <AIAssistantPanel
@@ -206,9 +219,9 @@ export function QuizView({
         <AnimatePresence mode="popLayout">
           <motion.div
             key={currentIndex}
-            initial={{ opacity: 0, x: directionRef.current === 'forward' ? 8 : -8 }}
-            animate={{ opacity: 1, x: 0, transition: { duration: 0.12, ease: [0.16, 1, 0.3, 1] } }}
-            exit={{ opacity: 0, transition: { duration: 0.06 } }}
+            initial={{ opacity: 0, x: directionRef.current === 'forward' ? 16 : -16 }}
+            animate={{ opacity: 1, x: 0, transition: { duration: 0.2, ease: [0.16, 1, 0.3, 1] } }}
+            exit={{ opacity: 0, transition: { duration: 0.1 } }}
             className="flex-1 flex flex-col lg:flex-row gap-3 min-w-0"
             style={{ display: 'flex' }}
           >
@@ -231,9 +244,11 @@ export function QuizView({
                 className="flex-1 flex flex-col overflow-hidden"
                 style={{
                   opacity: isAnswered ? 1 : 0,
-                  transform: isAnswered ? 'translateX(0)' : 'translateX(8px)',
+                  transform: isAnswered ? 'translateY(0)' : 'translateY(12px)',
                   pointerEvents: isAnswered ? 'auto' : 'none',
-                  transition: 'opacity 0.18s ease, transform 0.18s cubic-bezier(0.16, 1, 0.3, 1)',
+                  transitionProperty: 'opacity, transform',
+                  transitionDuration: isAnswered ? '200ms' : '140ms',
+                  transitionTimingFunction: isAnswered ? 'cubic-bezier(0.16, 1, 0.3, 1)' : 'ease-in',
                 }}
               >
                 <ExplanationPanel
