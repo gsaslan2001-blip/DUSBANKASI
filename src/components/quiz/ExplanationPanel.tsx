@@ -4,6 +4,7 @@ import { CheckCircle, XCircle, Sparkle, CircleNotch, X } from '@phosphor-icons/r
 import type { Question } from '../../data';
 import { semanticColors } from '../../theme';
 import { staggerParent, staggerChild } from '../../lib/motion';
+import { Button } from '../ui/Button';
 
 export type ExplanationPanelProps = {
   question: Question;
@@ -73,9 +74,11 @@ export const ExplanationPanel = memo(forwardRef<HTMLDivElement, ExplanationPanel
 
           {imageUrl && (
             <motion.div variants={staggerChild} className="mt-6 overflow-visible">
-              <button
+              <Button
                 type="button"
                 onClick={() => setZoomOpen(true)}
+                variant="unstyled"
+                aria-label="Görseli büyüt"
                 className="group block w-full focus:outline-none"
                 title="Görseli büyüt"
               >
@@ -85,7 +88,7 @@ export const ExplanationPanel = memo(forwardRef<HTMLDivElement, ExplanationPanel
                   loading="lazy"
                   className="w-full h-auto max-h-[420px] object-contain rounded-2xl bg-black/30 border border-white/10 shadow-lg origin-center transition-transform duration-300 ease-out group-hover:scale-[1.3] group-hover:shadow-2xl will-change-transform cursor-zoom-in"
                 />
-              </button>
+              </Button>
             </motion.div>
           )}
         </motion.div>
@@ -99,14 +102,15 @@ export const ExplanationPanel = memo(forwardRef<HTMLDivElement, ExplanationPanel
           role="dialog"
           aria-modal="true"
         >
-          <button
+          <Button
             type="button"
             onClick={(e) => { e.stopPropagation(); setZoomOpen(false); }}
+            variant="unstyled"
             className="absolute top-5 right-5 w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center backdrop-blur-md transition-colors"
             aria-label="Kapat"
           >
             <X size={20} />
-          </button>
+          </Button>
           <img
             src={imageUrl}
             alt="Soru görseli — büyük"

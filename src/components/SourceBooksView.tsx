@@ -10,6 +10,8 @@ import {
 import type { Theme } from '../theme';
 import type { Question } from '../data';
 import { staggerParent, staggerChild, scaleOnHover } from '../lib/motion';
+import { Button } from './ui/Button';
+import { Skeleton } from './ui/Skeleton';
 
 const MAX_FILE_BYTES = 100 * 1024 * 1024; // 100 MB
 
@@ -118,9 +120,9 @@ export function SourceBooksView({ questions, onBack, theme }: SourceBooksViewPro
   return (
     <div className="flex-1 flex flex-col h-full anim-slide-up">
       <div className="flex items-center gap-3 mb-6">
-        <button onClick={onBack} className={`p-2 rounded-xl hover:bg-[color:var(--color-surface-3)] transition-all ${theme.subtext}`}>
+        <Button onClick={onBack} variant="unstyled" aria-label="Geri dön" className={`p-2 rounded-xl hover:bg-[color:var(--color-surface-3)] transition-all ${theme.subtext}`}>
           <ArrowLeft size={20} />
-        </button>
+        </Button>
         <div>
           <h2 className="text-2xl font-black tracking-tight">AI Kaynak Kitaplar</h2>
           <p className={`${theme.subtext} text-xs mt-0.5`}>PDF yükleyerek AI Asistanı eğitin.</p>
@@ -214,14 +216,16 @@ export function SourceBooksView({ questions, onBack, theme }: SourceBooksViewPro
               </div>
             )}
 
-            <button
+            <Button
               onClick={handleUpload}
               disabled={uploading || !file || !selectedLesson}
-              className="btn btn-primary btn-lg w-full"
+              variant="primary"
+              size="lg"
+              className="w-full"
             >
               {uploading ? <CircleNotch size={16} weight="thin" className="animate-spin" /> : <Upload size={16} weight="thin" />}
               {uploading ? 'YÜKLENİYOR...' : 'SİSTEME YÜKLE'}
-            </button>
+            </Button>
           </div>
         </div>
 
@@ -231,8 +235,16 @@ export function SourceBooksView({ questions, onBack, theme }: SourceBooksViewPro
 
           <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar space-y-2">
             {loading ? (
-              <div className="flex items-center justify-center h-full">
-                <CircleNotch size={28} weight="thin" className="animate-spin text-indigo-400" />
+              <div className="space-y-2">
+                {[0, 1, 2, 3].map(i => (
+                  <div key={i} className={`${theme.inputBg} border ${theme.border} rounded-xl p-3.5 flex items-center gap-3`}>
+                    <Skeleton variant="circular" width={36} height={36} className="shrink-0" />
+                    <div className="flex-1 space-y-1.5">
+                      <Skeleton variant="text" height={11} width="60%" />
+                      <Skeleton variant="text" height={9} width="35%" />
+                    </div>
+                  </div>
+                ))}
               </div>
             ) : sources.length === 0 ? (
               <div className="flex flex-col items-center justify-center h-full text-center p-8 opacity-40">
@@ -271,31 +283,35 @@ export function SourceBooksView({ questions, onBack, theme }: SourceBooksViewPro
                     </div>
                     {confirmDeleteId === source.id ? (
                       <div className="flex items-center gap-1.5 shrink-0">
-                        <button
+                        <Button
                           onClick={() => handleDelete(source)}
+                          variant="unstyled"
                           className="px-2 py-1 rounded-md bg-red-500/20 text-red-400 text-[11px] font-bold hover:bg-red-500/30 transition-all"
                         >
                           Sil
-                        </button>
-                        <button
+                        </Button>
+                        <Button
                           onClick={() => setConfirmDeleteId(null)}
+                          variant="unstyled"
                           className={`px-2 py-1 rounded-md ${theme.inputBg} text-[11px] font-medium transition-all`}
                         >
                           İptal
-                        </button>
+                        </Button>
                       </div>
                     ) : (
-                      <button
+                      <Button
                         onClick={() => handleDelete(source)}
                         disabled={isDeleting}
+                        variant="unstyled"
                         className="p-2 rounded-lg bg-red-500/8 text-red-400 opacity-0 group-hover:opacity-100 transition-all hover:bg-red-500/20 shrink-0 disabled:cursor-not-allowed"
                         title="Sil"
+                        aria-label="Kaynağı sil"
                       >
                         {isDeleting
                           ? <CircleNotch size={14} className="animate-spin" />
                           : <Trash size={14} />
                         }
-                      </button>
+                      </Button>
                     )}
                   </motion.div>
                 );

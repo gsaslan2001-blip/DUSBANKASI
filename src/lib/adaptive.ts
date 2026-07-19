@@ -181,6 +181,52 @@ export function getWeakestUnits(
     .slice(0, topN);
 }
 
+// ─── Unutma Riski (Forgetting Risk) ────────────────────────────────────────
+// Faz 3 §3.3 — FSRS/scheduling YOK (gemini.md §3.1); basit eşik kuralı:
+// 30+ gündür görülmemiş VE accuracy < %80 olan sorular ders bazında gruplanır.
+
+export type ForgettingRiskGroup = {
+  lesson: string;
+  count: number;
+  questionIds: string[];
+};
+
+const FORGETTING_RISK_DAYS = 30;
+const FORGETTING_RISK_MAX_ACCURACY = 0.8;
+
+/**
+ * "30+ gündür görülmemiş && accuracy < %80" sorularını ders bazında gruplar.
+ * Her grup, `buildSmartQueue`'ya beslenecek soru ID listesiyle birlikte döner.
+ */
+export function computeForgettingRisk(
+  questions: Question[],
+  stats: StatsMap,
+  nowMs: number = Date.now(),
+): ForgettingRiskGroup[] {
+  const thresholdMs = FORGETTING_RISK_DAYS * 24 * 60 * 60 * 1000;
+  const groups = new Map<string, { count: number; questionIds: string[] }>();
+
+  for (const q of questions) {
+    const s = stats[q.id];
+    if (!s || s.attempts === 0 || !s.lastSeen) continue;
+
+    const lastSeenMs = Date.parse(s.lastSeen);
+    if (Number.isNaN(lastSeenMs) || nowMs - lastSeenMs < thresholdMs) continue;
+
+    const accuracy = s.corrects / s.attempts;
+    if (accuracy >= FORGETTING_RISK_MAX_ACCURACY) continue;
+
+    if (!groups.has(q.lesson)) groups.set(q.lesson, { count: 0, questionIds: [] });
+    const g = groups.get(q.lesson)!;
+    g.count++;
+    g.questionIds.push(q.id);
+  }
+
+  return Array.from(groups.entries())
+    .map(([lesson, g]) => ({ lesson, count: g.count, questionIds: g.questionIds }))
+    .sort((a, b) => b.count - a.count);
+}
+
 /**
  * Müfredat ilerleme özeti: hangi ünitelerin hiç çözülmediğini döner.
  * DailyPlanView Bölüm 3 (yeni materyal önerisi) için kullanılır.

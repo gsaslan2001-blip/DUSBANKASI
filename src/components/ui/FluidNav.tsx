@@ -1,6 +1,7 @@
 import { useState, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from '@phosphor-icons/react';
+import { Button } from './Button';
 import type { Theme } from '../../theme';
 
 export type FluidNavProps = {
@@ -40,8 +41,9 @@ export function FluidNav({ theme, links }: FluidNavProps) {
   return (
     <>
       {/* Floating pill — mobile only */}
-      <button
+      <Button
         onClick={toggle}
+        variant="unstyled"
         className={`lg:hidden fixed top-3 left-1/2 -translate-x-1/2 z-[100] px-5 py-2.5 rounded-full backdrop-blur-2xl border border-white/[0.08] bg-[#0d0d12]/90 shadow-[0_0_0_1px_rgba(255,255,255,0.04),0_8px_32px_rgba(0,0,0,0.6)] flex items-center gap-2.5 active:scale-[0.97] transition-transform duration-200`}
         aria-label={open ? 'Menüyü kapat' : 'Menüyü aç'}
       >
@@ -58,7 +60,7 @@ export function FluidNav({ theme, links }: FluidNavProps) {
             transition={{ duration: 0.3, ease: [0.16, 1, 0.3, 1] }}
           />
         </div>
-      </button>
+      </Button>
 
       {/* Full-screen overlay */}
       <AnimatePresence>
@@ -71,12 +73,14 @@ export function FluidNav({ theme, links }: FluidNavProps) {
             className="lg:hidden fixed inset-0 z-[99] bg-black/85 backdrop-blur-3xl flex flex-col items-center justify-center gap-3 px-6 origin-top"
           >
             {/* Close button */}
-            <button
+            <Button
               onClick={close}
+              variant="unstyled"
+              aria-label="Menüyü kapat"
               className="absolute top-6 right-6 w-10 h-10 rounded-full bg-white/[0.06] border border-white/[0.08] flex items-center justify-center text-white/60 hover:text-white hover:bg-white/[0.12] transition-all"
             >
               <X size={18} weight="thin" />
-            </button>
+            </Button>
 
             <div className="flex flex-col items-center gap-1 w-full max-w-xs">
               {links.map((link, i) => (

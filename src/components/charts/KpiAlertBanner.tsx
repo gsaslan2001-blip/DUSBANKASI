@@ -10,6 +10,7 @@ import { X, Warning, CheckCircle, WarningCircle, Bell } from '@phosphor-icons/re
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { KpiAlert, KpiAlertLevel } from '../../lib/stats';
+import { Button } from '../ui/Button';
 
 const ICON_MAP: Record<KpiAlertLevel, typeof Warning> = {
   critical: WarningCircle,
@@ -93,14 +94,14 @@ export default function KpiAlertBanner({ alerts }: Props) {
               >
                 <Icon size={14} weight="bold" className="shrink-0" />
                 <span className="flex-1 leading-snug">{alert.message}</span>
-                <button
-                  type="button"
+                <Button
+                  variant="unstyled"
                   onClick={() => setDismissed(prev => new Set(prev).add(i))}
                   className="opacity-40 hover:opacity-100 transition-opacity shrink-0"
                   aria-label="Uyarıyı kapat"
                 >
                   <X size={12} weight="bold" />
-                </button>
+                </Button>
               </motion.div>
             );
           })}

@@ -7,8 +7,11 @@
  *   3. Hata trendi — son N günde doğruluk değişimi
  */
 
+import { ChartBar } from '@phosphor-icons/react';
 import type { Question } from '../data';
 import type { StatsMap } from '../lib/stats';
+import { Button } from './ui/Button';
+import { EmptyState } from './ui/EmptyState';
 
 interface ErrorAnalyticsViewProps {
   questions: Question[];
@@ -127,15 +130,13 @@ export default function ErrorAnalyticsView({ questions, stats, onStartWeakUnit, 
 
   if (!hasData) {
     return (
-      <div className="flex-1 flex items-center justify-center flex-col gap-4 anim-fade-in">
-        <div className={`${theme.card} rounded-2xl p-10 text-center max-w-md`}>
-          <div className="text-3xl mb-3">📊</div>
-          <h2 className="text-lg font-black mb-2">Veri Birikimi Bekleniyor</h2>
-          <p className={`${theme.subtext} text-xs leading-relaxed`}>
-            Hata Pattern Analizi için yeterli yanlış cevap kaydı yok.<br />
-            Birkaç quiz çözdükten sonra burası dolmaya başlayacak.
-          </p>
-        </div>
+      <div className="flex-1 flex items-center justify-center anim-fade-in">
+        <EmptyState
+          icon={<ChartBar size={40} weight="thin" />}
+          title="Veri Birikimi Bekleniyor"
+          description="Hata Pattern Analizi için yeterli yanlış cevap kaydı yok. Birkaç quiz çözdükten sonra burası dolmaya başlayacak."
+          className="max-w-md"
+        />
       </div>
     );
   }
@@ -214,12 +215,13 @@ export default function ErrorAnalyticsView({ questions, stats, onStartWeakUnit, 
                     <div className={`${theme.subtext} text-[10px] flex items-center justify-between`}>
                       <span>{u.wrongs} yanlış / {u.attempts} deneme</span>
                       {onStartWeakUnit && (
-                        <button
+                        <Button
+                          variant="unstyled"
                           onClick={() => onStartWeakUnit(u.lesson, u.unit)}
                           className="px-2 py-1 rounded-md bg-indigo-500/10 text-indigo-400 hover:bg-indigo-500/20 transition-all font-bold"
                         >
                           Bu Üniteden Çöz →
-                        </button>
+                        </Button>
                       )}
                     </div>
                   </div>

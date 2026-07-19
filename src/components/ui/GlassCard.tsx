@@ -20,12 +20,12 @@ export function GlassCard({
   const Component = as;
 
   const base =
-    'bg-[#08080a]/60 backdrop-blur-2xl border border-white/[0.03] rounded-2xl shadow-[inset_0_1px_0_rgba(255,255,255,0.03),0_0_0_1px_rgba(255,255,255,0.02),0_8px_32px_rgba(0,0,0,0.4)] relative overflow-hidden';
+    'bg-[color:var(--color-surface-1)]/60 backdrop-blur-2xl border border-[color:var(--color-border-dim)] rounded-2xl shadow-[inset_0_1px_0_rgba(255,255,255,0.03),0_0_0_1px_rgba(255,255,255,0.02),0_8px_32px_rgba(0,0,0,0.4)] relative overflow-hidden';
   const sweepClass = (hover === 'glow' || hover === 'both') ? 'light-sweep' : '';
 
   const hoverLift =
     hover === 'lift' || hover === 'both'
-      ? 'hover:-translate-y-1 hover:bg-[#0c0c10]/80 transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] will-change-transform cursor-pointer'
+      ? 'hover:-translate-y-1 hover:bg-[color:var(--color-surface-2)]/80 transition-all duration-500 ease-[cubic-bezier(0.23,1,0.32,1)] will-change-transform cursor-pointer'
       : '';
 
   const hoverGlow =

@@ -1,4 +1,4 @@
-import { create } from 'zustand';
+import { createStore } from './createStore';
 import type { UserSettings } from '../types/app';
 
 const STORAGE_KEY = 'dus_settings';
@@ -34,7 +34,7 @@ const initial = loadInitial();
 persist(initial);
 
 /** Global kullanıcı ayarları (tema + font boyutu) — localStorage'a persist edilir. */
-export const useSettingsStore = create<SettingsState>(set => ({
+export const useSettingsStore = createStore<SettingsState>(set => ({
   settings: initial,
   setSettings: next => {
     persist(next);

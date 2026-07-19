@@ -27,6 +27,7 @@ export { ParallelCoordinates } from './ParallelCoordinates';
 export type { ParallelCoordinatesDatum } from './ParallelCoordinates';
 export { default as DersScatterPlot } from './DersScatterPlot';
 export type { DersScatterDatum } from './DersScatterPlot';
+export { default as SpeedAccuracyQuadrant } from './SpeedAccuracyQuadrant';
 
 // Hiyerarşi
 export { default as SunburstChart } from './SunburstChart';

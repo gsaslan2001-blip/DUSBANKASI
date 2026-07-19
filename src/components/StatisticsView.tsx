@@ -9,6 +9,7 @@
 
 import { useMemo, useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
+import { Button } from './ui/Button';
 import type { Question } from '../data';
 import type { Theme } from '../theme';
 import {
@@ -29,14 +30,14 @@ import {
 import {
   BookOpen, TrendUp, Gauge, CheckCircle, XCircle,
   Crown, Flame, Trophy, Stack, Target, Crosshair, GitBranch,
-  Pulse, Rocket, Scales, ChartLineUp,
+  Pulse, Rocket, Scales, ChartLineUp, Brain,
 } from '@phosphor-icons/react';
 import {
   DailyActivityChart, AnimatedCounter, CountSparkline, ContributionHeatMap,
   WeeklyComparison, RadarChart, TrendLineChart, GoalRing, StudyTreemap,
   DersScatterPlot, WaterfallChart, BulletChart,
   GaugeChart, SunburstChart, AreaStreamGraph, DifferenceChart,
-  ParallelCoordinates,
+  ParallelCoordinates, SpeedAccuracyQuadrant,
   KpiAlertBanner, CollapsibleSection, KpiStatCard,
 } from './charts';
 import ChartFrame from './charts/ChartFrame';
@@ -45,11 +46,22 @@ import GoalTracker from './sections/GoalTracker';
 import WhatIfSimulator from './sections/WhatIfSimulator';
 import ExportModal from './sections/ExportModal';
 import GoalEditorModal from './sections/GoalEditorModal';
+import ExamHistoryTimeline from './sections/ExamHistoryTimeline';
 // v6: Yeni lib modülleri
 import { estimateDusNet } from '../lib/dusScoring';
 import { saveGoals, computeGoalProgress, detectMilestones } from '../lib/goals';
+import { computeForgettingRisk } from '../lib/adaptive';
+import { computeLessonPriority, computeDailyRecommendation } from '../lib/recommendations';
+import RecommendationFeed from './sections/RecommendationFeed';
+import {
+  computeExamTrend, computeSpeedAccuracyTradeoff, aggregateSpeedAccuracyByLesson, buildExamResults,
+} from '../lib/examAnalytics';
+import { fetchExamHistory } from '../lib/supabase';
+import { useAuth } from '../hooks/useAuth';
+import type { ExamResult } from '../types/app';
 // v6: Store
 import { useGoals } from '../store/useAppStore';
+import { CURRICULUM_ORDER, getCurriculumOrderIndex } from '../config/curriculum';
 
 /* ─── Yardımcılar ────────────────────────────────────────────────────────── */
 
@@ -199,28 +211,49 @@ function buildAreaStreamData(activity90: ActivityPoint[]) {
   }));
 }
 
-const LESSON_ORDER = [
-  'Endodonti', 'Protez', 'Periodontoloji', 'Radyoloji', 'Patoloji', 'Histoloji',
-  'Fizyoloji', 'Cerrahi', 'Biyokimya', 'Ortodonti', 'Restoratif', 'Pedodonti',
-  'Mikrobiyoloji', 'Farmakoloji',
-];
-
 function getLessonColor(lesson: string): string {
-  const idx = LESSON_ORDER.indexOf(lesson);
-  const i = idx >= 0 ? idx : Math.abs(lesson.split('').reduce((a, c) => a + c.charCodeAt(0), 0)) % LESSON_ORDER.length;
-  return `hsl(${Math.round((i * 360) / LESSON_ORDER.length)}, 55%, 58%)`;
+  const idx = getCurriculumOrderIndex(lesson);
+  const i = idx >= 0 ? idx : Math.abs(lesson.split('').reduce((a, c) => a + c.charCodeAt(0), 0)) % CURRICULUM_ORDER.length;
+  return `hsl(${Math.round((i * 360) / CURRICULUM_ORDER.length)}, 55%, 58%)`;
 }
 
 /* ═══════════════════════════════════════════════════════════════════════════
    ANA BİLEŞEN
    ═══════════════════════════════════════════════════════════════════════════ */
 
-export default function StatisticsView({ questions, theme }: { questions: Question[]; theme: Theme }) {
+export default function StatisticsView({ questions, theme, onStartQuestionIds }: { questions: Question[]; theme: Theme; onStartQuestionIds?: (ids: string[]) => void }) {
   const [range, setRange] = useState<14 | 30 | 90>(30);
   const [selectedDay, setSelectedDay] = useState<string | null>(null);
   const [selectedHeatmapDay, setSelectedHeatmapDay] = useState<string | null>(null);
+
+  // v6 Faz 3: Deneme geçmişi — orta-boy bir alt sistem (fetchExamHistory → buildExamResults →
+  // computeSpeedAccuracyTradeoff/computeExamTrend) tanımlıydı ama hiçbir view'a bağlı değildi
+  // (ExamHistoryTimeline de dahil). Burada uçtan uca bağlanır.
+  const { user } = useAuth();
+  const [examHistoryState, setExamHistoryState] = useState<{ status: 'loading' | 'error' | 'ready'; exams: ExamResult[] }>({ status: 'loading', exams: [] });
+  useEffect(() => {
+    if (!user?.id) { setExamHistoryState({ status: 'ready', exams: [] }); return; }
+    let cancelled = false;
+    setExamHistoryState(s => ({ ...s, status: 'loading' }));
+    const lessonById = new Map(questions.map(q => [q.id, q.lesson]));
+    fetchExamHistory(user.id, 30)
+      .then(rows => {
+        if (cancelled) return;
+        const exams = buildExamResults(rows, id => lessonById.get(id));
+        setExamHistoryState({ status: 'ready', exams });
+      })
+      .catch(() => { if (!cancelled) setExamHistoryState({ status: 'error', exams: [] }); });
+    return () => { cancelled = true; };
+  }, [user?.id, questions]);
+  const examTrend = useMemo(() => computeExamTrend(examHistoryState.exams), [examHistoryState.exams]);
+  const speedAccuracyData = useMemo(
+    () => aggregateSpeedAccuracyByLesson(computeSpeedAccuracyTradeoff(examHistoryState.exams)),
+    [examHistoryState.exams],
+  );
+
   const stats = useMemo(() => loadAllStats(), []);
   const overview = useMemo(() => computeOverviewStats(questions, stats), [questions, stats]);
+  const forgettingRisk = useMemo(() => computeForgettingRisk(questions, stats), [questions, stats]);
   const streak = useMemo(() => loadStreak(), []);
   const activitySummary = useMemo(() => getActivitySummary(), []);
   const activity = useMemo(() => getRecentActivity(range), [range]);
@@ -436,6 +469,14 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
     [predictionBand],
   );
   const leastConsistent = lessonConsistency[0] ?? null;
+  const lessonPriorities = useMemo(
+    () => computeLessonPriority(overview, lessonConsistency),
+    [overview, lessonConsistency],
+  );
+  const dailyRec = useMemo(
+    () => computeDailyRecommendation(overview, activity90, goals),
+    [overview, activity90, goals],
+  );
 
   // ─── Collapsible section summary hesaplamaları ────────────────────────
   const improvingLessons = slopeData.right.filter(r => {
@@ -459,14 +500,14 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
             <p className={`${theme.subtext} text-sm mt-2`}>DUS tahmini, KPI odaklı analiz ve derinlemesine görselleştirme.</p>
           </div>
           <div style={{ display: 'flex', gap: 8 }}>
-            <button onClick={() => setShowGoalEditor(true)}
+            <Button onClick={() => setShowGoalEditor(true)} variant="unstyled"
               style={{ padding: '8px 16px', borderRadius: 10, border: `1px solid ${theme.border}`, background: 'transparent', color: theme.subtext, fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>
               Hedefler
-            </button>
-            <button onClick={() => setShowExport(true)}
+            </Button>
+            <Button onClick={() => setShowExport(true)} variant="unstyled"
               style={{ padding: '8px 16px', borderRadius: 10, border: 'none', background: 'linear-gradient(135deg, #6f72f2, #484cc2)', color: '#fff', fontSize: 12, fontWeight: 600, cursor: 'pointer' }}>
               Dışa Aktar
-            </button>
+            </Button>
           </div>
         </div>
       </div>
@@ -586,9 +627,18 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
         <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl flex flex-col items-center justify-center md:col-span-1 lg:col-span-2`}>
           <GaugeChart value={overview.coverage} max={100} target={goals.targetCoverage} label="Kapsama" />
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl md:col-span-3 lg:col-span-8`}>
-          <SectionTitle title="Ders Performans Radarı" eyebrow="Multi-Boyut" right={<Crosshair size={16} weight="thin" className="text-indigo-400" />} mb="mb-4" />
-          <RadarChart data={radarData} size={220} />
+        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }} className="md:col-span-3 lg:col-span-8">
+          <ChartFrame
+            theme={theme}
+            title="Ders Performans Radarı"
+            eyebrow="Multi-Boyut"
+            right={<Crosshair size={16} weight="thin" className="text-indigo-400" />}
+            isEmpty={radarData.length === 0}
+            emptyMessage="Henüz çözülmüş soru yok — radar burada oluşacak."
+            summary="Derslerin doğruluk oranını çok boyutlu bir radar grafiğinde karşılaştırır."
+          >
+            <RadarChart data={radarData} size={220} />
+          </ChartFrame>
         </motion.div>
       </div>
 
@@ -645,21 +695,44 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
 
       {/* Trend Çizgi + Fark */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
-        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl lg:col-span-7`}>
-          <SectionTitle title="Çözüm Trendi" eyebrow="Trend" right={<Pulse size={16} weight="thin" className="text-indigo-400" />} />
-          <TrendLineChart data={trendLineData} />
+        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className="lg:col-span-7">
+          <ChartFrame
+            theme={theme}
+            title="Çözüm Trendi"
+            eyebrow="Trend"
+            right={<Pulse size={16} weight="thin" className="text-indigo-400" />}
+            isEmpty={trendLineData.every(d => d.total === 0)}
+            summary="Son 42 günün doğru/yanlış çözüm sayısını çizgi grafikte gösterir."
+          >
+            <TrendLineChart data={trendLineData} />
+          </ChartFrame>
         </motion.div>
-        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl lg:col-span-5`}>
-          <SectionTitle title="Hedef vs Gerçekleşen" eyebrow="Sapma" right={<Target size={16} weight="thin" className="text-rose-400" />} />
-          <DifferenceChart data={diffData} />
+        <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }} className="lg:col-span-5">
+          <ChartFrame
+            theme={theme}
+            title="Hedef vs Gerçekleşen"
+            eyebrow="Sapma"
+            right={<Target size={16} weight="thin" className="text-rose-400" />}
+            isEmpty={diffData.every(d => d.actual === 0)}
+            summary="Günlük hedef ile gerçekleşen çözüm sayısı arasındaki farkı gösterir."
+          >
+            <DifferenceChart data={diffData} />
+          </ChartFrame>
         </motion.div>
       </div>
 
       {/* Heatmap — güne tıklayınca o günün detayı açılır */}
-      <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }} className={`${theme.card} p-6 sm:p-8 rounded-xl`}>
-        <SectionTitle title="Aktivite Yoğunluğu" eyebrow="Heatmap" mb="mb-6"
-          right={<div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-wider" style={{ color: '#8b8b98' }}>
-            <span>AZ</span><div className="flex gap-1"><div className="w-3 h-3 rounded-sm bg-white/5" /><div className="w-3 h-3 rounded-sm bg-emerald-900" /><div className="w-3 h-3 rounded-sm bg-emerald-700" /><div className="w-3 h-3 rounded-sm bg-emerald-500" /></div><span>ÇOK</span></div>} />
+      <motion.div initial={{ opacity: 0, y: 24, filter: 'blur(4px)' }} animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }} transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}>
+      <ChartFrame
+        theme={theme}
+        title="Aktivite Yoğunluğu"
+        eyebrow="Heatmap"
+        isEmpty={heatMapData.every(d => d.count === 0)}
+        emptyMessage="Henüz aktivite verisi yok."
+        summary="Son 90 günün günlük çözüm yoğunluğunu ısı haritası olarak gösterir."
+        right={<div className="flex items-center gap-2 text-[10px] font-bold uppercase tracking-wider" style={{ color: '#8b8b98' }}>
+          <span>AZ</span><div className="flex gap-1"><div className="w-3 h-3 rounded-sm bg-white/5" /><div className="w-3 h-3 rounded-sm bg-emerald-900" /><div className="w-3 h-3 rounded-sm bg-emerald-700" /><div className="w-3 h-3 rounded-sm bg-emerald-500" /></div><span>ÇOK</span></div>}
+      >
         <ContributionHeatMap data={heatMapData} onDaySelect={(d) => setSelectedHeatmapDay(d || null)} selectedDay={selectedHeatmapDay} />
         {selectedHeatmapDay && (() => {
           const selected = activity90.find(a => a.date === selectedHeatmapDay);
@@ -683,6 +756,7 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
             </div>);
         })()}
         {!selectedHeatmapDay && <p className={`${theme.subtext} text-[11px] mt-4 text-center`}>Detay için bir güne tıkla</p>}
+      </ChartFrame>
       </motion.div>
 
       {/* ════════════════════════════════════════════════════════════════════
@@ -698,22 +772,26 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
       {/* 1. Zaman Bazlı */}
       <CollapsibleSection theme={theme} title="Zaman Bazlı Analizler" summary={`${activity90.slice(-30).filter(a => a.count > 0).length} aktif gün · ${activity90.slice(-30).reduce((s, a) => s + a.count, 0)} son 30 gün çözüm`} defaultOpen>
         <div className="space-y-4">
-          <div className={`${theme.surface} rounded-xl p-5`}>
-            <SectionTitle title="Ders Bazlı Çözüm Hacmi Akışı" eyebrow="Hacim" mb="mb-4" />
+          <ChartFrame theme={theme} flat title="Ders Bazlı Çözüm Hacmi Akışı" eyebrow="Hacim"
+            isEmpty={areaStreamData.length === 0} summary="En çok çalışılan 8 dersin son 42 gündeki çözüm hacmini alan grafiğinde gösterir.">
             <AreaStreamGraph data={areaStreamData} />
-          </div>
-          <div className={`${theme.surface} rounded-xl p-5`}>
-            <SectionTitle title="Haftalık Çözüm Değişimi" eyebrow="Waterfall" mb="mb-4" />
+          </ChartFrame>
+          <ChartFrame theme={theme} flat title="Haftalık Çözüm Değişimi" eyebrow="Waterfall"
+            isEmpty={weeklyData.length === 0} summary="Hafta hafta çözüm sayısındaki değişimi şelale grafiğinde gösterir.">
             <WaterfallChart data={weeklyData} />
-          </div>
+          </ChartFrame>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
-            <div className={`${theme.surface} rounded-xl p-5 lg:col-span-7`}>
-              <SectionTitle title="30 Günlük Başarı Trendi" eyebrow="Sparkline" mb="mb-4" />
-              <CountSparkline data={sparklineData} />
+            <div className="lg:col-span-7">
+              <ChartFrame theme={theme} flat title="30 Günlük Başarı Trendi" eyebrow="Sparkline"
+                isEmpty={sparklineData.length === 0} summary="Son 30 günün doğru çözüm sayısını sparkline ile gösterir.">
+                <CountSparkline data={sparklineData} />
+              </ChartFrame>
             </div>
-            <div className={`${theme.surface} rounded-xl p-5 lg:col-span-5`}>
-              <SectionTitle title="Haftalık Soru Karşılaştırması" eyebrow="Haftalık" mb="mb-4" />
-              <WeeklyComparison activity={weeklyCompareData} />
+            <div className="lg:col-span-5">
+              <ChartFrame theme={theme} flat title="Haftalık Soru Karşılaştırması" eyebrow="Haftalık"
+                isEmpty={weeklyCompareData.every(d => d.count === 0)} summary="Son 14 günün günlük çözüm sayısını karşılaştırır.">
+                <WeeklyComparison activity={weeklyCompareData} />
+              </ChartFrame>
             </div>
           </div>
         </div>
@@ -723,19 +801,32 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
       <CollapsibleSection theme={theme} title="Karşılaştırmalı Analizler" summary={`${improvingLessons} ders trendde yükselişte ▲`}>
         <div className="space-y-4">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
-            <div className={`${theme.surface} rounded-xl p-5 lg:col-span-5`}>
-              <SectionTitle title="Ders Dağılım Grafiği" eyebrow="Scatter" mb="mb-4" />
-              <DersScatterPlot data={scatterData} />
+            <div className="lg:col-span-5">
+              <ChartFrame theme={theme} flat title="Ders Dağılım Grafiği" eyebrow="Scatter"
+                isEmpty={scatterData.length === 0} summary="Dersleri çözülen soru sayısı ve doğruluğa göre saçılım grafiğinde konumlar.">
+                <DersScatterPlot data={scatterData} />
+              </ChartFrame>
             </div>
-            <div className={`${theme.surface} rounded-xl p-5 lg:col-span-7`}>
-              <SectionTitle title="Ders Hedef Karşılaştırması" eyebrow="Hedef" right={<Target size={16} weight="thin" className="text-rose-400" />} mb="mb-4" />
-              <BulletChart data={bulletData} />
+            <div className="lg:col-span-7">
+              <ChartFrame theme={theme} flat title="Ders Hedef Karşılaştırması" eyebrow="Hedef" right={<Target size={16} weight="thin" className="text-rose-400" />}
+                isEmpty={bulletData.length === 0} summary="Her dersin doğruluğunu %80 hedefiyle karşılaştırır.">
+                <BulletChart data={bulletData} />
+              </ChartFrame>
             </div>
           </div>
-          <div className={`${theme.surface} rounded-xl p-5`}>
-            <SectionTitle title="Çok Boyutlu Ders Analizi" eyebrow="Parallel" right={<GitBranch size={16} weight="thin" className="text-indigo-400" />} mb="mb-4" />
+          <ChartFrame theme={theme} flat title="Hız × Doğruluk Kadranı" eyebrow="Deneme"
+            loading={examHistoryState.status === 'loading'}
+            error={examHistoryState.status === 'error' ? 'Deneme geçmişi yüklenemedi.' : null}
+            isEmpty={examHistoryState.status === 'ready' && speedAccuracyData.length === 0}
+            emptyMessage={user ? 'Henüz tamamlanmış deneme yok — deneme çözdükçe burada oluşacak.' : 'Bu grafik için giriş yapmalısın.'}
+            summary="Denemelerde ders başına ortalama soru süresi ve doğruluğu kadranlarda gösterir; sağ-alt kadran (yavaş+yanlış) kırmızı vurgulu.">
+            <SpeedAccuracyQuadrant data={speedAccuracyData} />
+          </ChartFrame>
+          <ChartFrame theme={theme} flat title="Çok Boyutlu Ders Analizi" eyebrow="Parallel" right={<GitBranch size={16} weight="thin" className="text-indigo-400" />}
+            isEmpty={parallelData.length === 0} summary="Dersleri zorluk, doğruluk ve süre eksenlerinde çok boyutlu karşılaştırır.">
             <ParallelCoordinates data={parallelData} />
-          </div>
+          </ChartFrame>
+          <RecommendationFeed priorities={lessonPriorities} dailyRec={dailyRec} theme={theme} />
         </div>
       </CollapsibleSection>
 
@@ -791,13 +882,17 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
       {/* 4. Hiyerarşi & Kapsam */}
       <CollapsibleSection theme={theme} title="Hiyerarşi & Kapsam Görünümü" summary={`${overview.byLesson.filter(l => l.solved > 0).length} aktif ders · Treemap + Sunburst`}>
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4">
-          <div className={`${theme.surface} rounded-xl p-5 lg:col-span-5`}>
-            <SectionTitle title="Ders Kapsama Haritası" eyebrow="Treemap" mb="mb-4" />
-            <StudyTreemap data={treemapData} />
+          <div className="lg:col-span-5">
+            <ChartFrame theme={theme} flat title="Ders Kapsama Haritası" eyebrow="Treemap"
+              isEmpty={treemapData.length === 0} summary="Ders başına çözülen soru hacmini alan büyüklüğüyle gösterir.">
+              <StudyTreemap data={treemapData} />
+            </ChartFrame>
           </div>
-          <div className={`${theme.surface} rounded-xl p-5 lg:col-span-7`}>
-            <SectionTitle title="Ders-Ünite Hiyerarşisi" eyebrow="Sunburst" mb="mb-4" />
-            <SunburstChart data={sunburstData} />
+          <div className="lg:col-span-7">
+            <ChartFrame theme={theme} flat title="Ders-Ünite Hiyerarşisi" eyebrow="Sunburst"
+              isEmpty={sunburstData.length === 0} summary="Ders ve ünite hiyerarşisini iç içe halkalarla gösterir.">
+              <SunburstChart data={sunburstData} />
+            </ChartFrame>
           </div>
         </div>
       </CollapsibleSection>
@@ -842,6 +937,48 @@ export default function StatisticsView({ questions, theme }: { questions: Questi
       </CollapsibleSection>
 
       {/* ═══ v6: YENİ TIER 3 KOLLEKSİYONLARI ═══════════════════════════════ */}
+
+      {/* Unutma Riski — 30+ gündür görülmemiş && accuracy < %80 sorular */}
+      {forgettingRisk.length > 0 && (
+        <CollapsibleSection
+          theme={theme}
+          title="Unutma Riski"
+          summary={`${forgettingRisk.reduce((s, g) => s + g.count, 0)} soru · ${forgettingRisk.length} derste 30+ gündür tekrar edilmedi`}
+        >
+          <div className="space-y-2">
+            {forgettingRisk.map(g => (
+              <div key={g.lesson} className={`${theme.card} rounded-xl p-4 flex items-center justify-between gap-4`}>
+                <div className="flex items-center gap-3 min-w-0">
+                  <div className="w-9 h-9 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
+                    <Brain size={18} weight="thin" />
+                  </div>
+                  <div className="min-w-0">
+                    <div className="font-bold text-sm truncate">{g.lesson}</div>
+                    <div className={`${theme.subtext} text-[11px]`}>{g.count} soru · 30+ gündür görülmedi</div>
+                  </div>
+                </div>
+                {onStartQuestionIds && (
+                  <Button
+                    onClick={() => onStartQuestionIds(g.questionIds)}
+                    variant="unstyled"
+                    size="sm"
+                    className="px-3 py-1.5 rounded-lg bg-amber-500/10 text-amber-400 hover:bg-amber-500/20 transition-all font-bold shrink-0"
+                  >
+                    Çöz
+                  </Button>
+                )}
+              </div>
+            ))}
+          </div>
+        </CollapsibleSection>
+      )}
+
+      {/* Deneme Geçmişi — plan §Faz3 Tier-3 listesinde vardı ama hiçbir view'a bağlı değildi (bkz. devir raporu) */}
+      {user && (
+        <CollapsibleSection theme={theme} title="Deneme Geçmişi" summary={`${examHistoryState.exams.length} tamamlanmış deneme`}>
+          <ExamHistoryTimeline trend={examTrend} exams={examHistoryState.exams} theme={theme} />
+        </CollapsibleSection>
+      )}
 
       {/* What-If Simülasyonu */}
       <CollapsibleSection title="Simülasyon: Ne Olurdu?" theme={theme}>
@@ -949,7 +1086,8 @@ function UnitHeatMap({ questions, stats, theme }: { questions: Question[]; stats
                   const key = `${lesson}|||${unit}`, isOpen = expanded === key;
                   const acc = u.attempts > 0 ? Math.round((u.corrects / u.attempts) * 100) : null;
                   return (
-                    <button key={unit} type="button" onClick={() => setExpanded(isOpen ? null : key)}
+                    <Button key={unit} type="button" variant="unstyled" onClick={() => setExpanded(isOpen ? null : key)}
+                      aria-expanded={isOpen}
                       className={`${coverageCellColor(u.solved, u.total)} text-left rounded-xl px-2.5 py-2 text-[10px] font-bold transition-all hover:scale-[1.02] cursor-pointer ${isOpen ? 'ring-2 ring-indigo-400/60' : ''}`}>
                       <div className="truncate">{unit}</div><div className="flex items-center justify-end mt-0.5 opacity-80"><span className="text-[9px]">{u.solved}/{u.total}</span></div>
                       {isOpen && (
@@ -959,7 +1097,7 @@ function UnitHeatMap({ questions, stats, theme }: { questions: Question[]; stats
                           <div className="flex justify-between"><span className="opacity-70">Doğru</span><span>{u.corrects}/{u.attempts}</span></div>
                           <div className="flex justify-between"><span className="opacity-70">Son çözüm</span><span>{u.solved > 0 ? new Date(u.lastSeen).toLocaleDateString('tr-TR', { day: '2-digit', month: 'long', year: 'numeric' }) : '—'}</span></div>
                         </div>)}
-                    </button>);
+                    </Button>);
                 })}
               </div>
             </div>);

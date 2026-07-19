@@ -1,5 +1,6 @@
 import { memo } from 'react';
 import { ArrowRight } from '@phosphor-icons/react';
+import { Button } from '../ui/Button';
 
 export type QuizNavigationProps = {
   currentIndex: number;
@@ -26,14 +27,14 @@ function Kbd({ children }: { children: React.ReactNode }) {
 export const QuizNavigation = memo(function QuizNavigation({ currentIndex, total, isAnswered, onPrev, onSkip, onNext }: QuizNavigationProps) {
   return (
     <div className="p-4 sm:p-5 pt-0 flex flex-col sm:flex-row gap-2 shrink-0 pb-safe sticky bottom-0 z-20">
-      <button onClick={onPrev} disabled={currentIndex === 0} className="btn btn-secondary btn-lg flex-1 disabled:opacity-30 disabled:pointer-events-none transition-opacity">
+      <Button onClick={onPrev} disabled={currentIndex === 0} variant="secondary" size="lg" className="flex-1 transition-opacity">
         <span className="inline-flex items-center gap-1.5">ÖNCEKİ<Kbd>←</Kbd></span>
-      </button>
-      <button onClick={onSkip} disabled={isAnswered} className="btn btn-lg flex-1 bg-red-500/12 text-red-400 border border-red-500/15 hover:bg-red-500/20 disabled:opacity-30 disabled:pointer-events-none">
+      </Button>
+      <Button onClick={onSkip} disabled={isAnswered} variant="unstyled" size="lg" className="flex-1 bg-red-500/12 text-red-400 border border-red-500/15 hover:bg-red-500/20">
         <span className="inline-flex items-center gap-1.5">BOŞ GEÇ<Kbd>S</Kbd></span>
-      </button>
-      <button onClick={onNext} disabled={!isAnswered}
-        className="group btn btn-primary btn-lg flex-[2] disabled:opacity-30 disabled:pointer-events-none shadow-lg shadow-indigo-500/15 active:scale-[0.98] transition-transform duration-150"
+      </Button>
+      <Button onClick={onNext} disabled={!isAnswered} variant="primary" size="lg"
+        className="group flex-[2] shadow-lg shadow-indigo-500/15 active:scale-[0.98] transition-transform duration-150"
       >
         <span className="flex items-center gap-2">
           {currentIndex < total - 1 ? 'SONRAKİ' : 'BİTİR'}
@@ -42,7 +43,7 @@ export const QuizNavigation = memo(function QuizNavigation({ currentIndex, total
             <ArrowRight size={14} weight="bold" />
           </span>
         </span>
-      </button>
+      </Button>
     </div>
   );
 });

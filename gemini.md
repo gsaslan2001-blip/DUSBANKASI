@@ -1,4 +1,6 @@
-# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.40)
+# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.41)
+
+> **v4.41 (2026-07-08) — "Glass Cockpit" güçlendirmesi: Stats Kernel (Web Worker) + ViewRegistry geçişleri + Döner Bezel + zustand kaldırıldı + FSRS YASAK kuralı.** **Faz 1 — ViewRegistry:** `src/config/viewRegistry.ts` (her AppState için transition preset + hudMode politikası), `lib/motion.ts`'e `SPRING` token seti + `viewTransitions`; `App.tsx` main içeriği `key={appState}`'li tek motion.div ile yön-farkındalıklı giriş animasyonu alır (NOT: `AnimatePresence mode="wait"` motion v12'de view swap'ını kilitledi — canlıda tespit edildi, exit animasyonu bilinçli yok). **Faz 2 — Stats Kernel:** saf istatistik çekirdeği `lib/overview.ts`'e çıkarıldı (stats.ts `export *` ile re-export eder, API kırılmaz); `lib/kernel/{core,worker,index}.ts` — tüm türetilmiş veri (overview+projection+dusScore+vitals+pareto) Web Worker'da hesaplanır, `useSyncExternalStore` snapshot store'dan okunur; worker chunk'ı 13 KB ve supabase'siz (saf import zinciri doğrulandı). **zustand SİLİNDİ:** `lib/createStore.ts` (~40 satır el yazımı store); `settingsStore`, `store/useAppStore` (persist formatı zustand-persist ile uyumlu — mevcut kayıtlı hedefler korunur) göç etti; ölü `lib/chartBrushStore.ts` silindi. **Faz 3 — Glass Cockpit (`components/cockpit/`):** `GlideslopeIndicator` (gerekli hız vs mevcut hız iğnesi + tahmini net güven-aralığı bandı), `VitalsStrip` (4 yaşamsal sinyal HUD'u, header altı, `md:` üstü; sterile cockpit: quiz view'larında hudMode='sterile' → hiç render edilmez), `ParetoQueue` (zayıflık × DUS ders ağırlığı, deterministik, tek tık quiz başlatır — `handleStartPareto` on-demand fetch'le). İstatistik sekmesinin tepesine `CockpitPanel` eklendi. **Faz 4 — ChartFrame + Döner Bezel:** `charts/ChartFrame.tsx` (double-bezel sarmalayıcı + drag/tık/ok-tuşu ile dönen zaman-aralığı kadranı, detent'li) + `hooks/useD3Canvas.ts` (ortak ResizeObserver); Günlük Aktivite bölümü ChartFrame'e geçti, 14G/30G/90G bezel kadranıyla scrub edilir (canlıda tık ile 30G→90G doğrulandı). **FSRS YASAK:** §3.1 kalıcı yasak kuralına çevrildi; DESIGN.txt/DUSBANKASI.txt'teki hatalı FSRS iddiaları düzeltildi. **Veri yükleme davranışı DEĞİŞMEDİ** (skeleton full-fetch + içerik on-demand aynen; §3.3 netleştirildi: içerik lazy-load'u Edge limitleri gereği zorunlu ve korunmalı). **Test:** 196/196 vitest yeşil · `tsc -b` + `vite build` exit 0 · dev preview'da kokpit/bezel/HUD canlı doğrulandı (console/network hatasız, 20.530 soru gerçek veriyle).
 
 > **v4.40 (2026-07-05) — İstatistik sayfası: FSRS/ölü kod temizliği + Deneme Geçmişi gerçek veriye bağlandı + quiz klavye ipuçları.** `StatisticsView.tsx` FSRS bloğu tamamen kaldırıldı — DUS akışında FSRS zamanlama kullanılmıyordu; silinen dosyalar: `src/lib/fsrsVisual.ts`, `src/components/sections/FsrsHealthPanel.tsx`, `src/components/charts/{FsrsRetentionChart,FsrsDifficultyGrid}.tsx`. `types/app.ts`'ten `FsrsDistribution`/`FsrsHealth` düşürüldü. **Ölü chart temizliği:** hiçbir yerden import edilmeyen `ErrorPatternSankey`, `SprintVelocityChart`, `StudySessionSparkline`, `SegmentChart`, `LessonProgressChart`, `RechartsWeeklyBar` ve karşılık gelen `charts/index.ts` export'ları silindi; kullanılmayan `detectErrorPatterns` importu kaldırıldı. **Duplicate "DUS Skor Analizi" collapsible bölümü kaldırıldı** (Tier 1'de `DusScorePanel` zaten var). **BUG-FIX — milestone confetti:** render gövdesinde koşulsuz `import('canvas-confetti')` her render'da patlıyordu → `useRef` guard'lı `useEffect`'e taşındı (yalnız bir kez). **Deneme Sınavı Geçmişi artık gerçek Supabase verisi:** `supabase.ts`'e `fetchExamHistory(userId)` eklendi (`daily_exams` status=completed + `exam_answers` aggregate → `examAnalytics.buildExamResults` shape'i); `StatisticsView` `useAuth` ile kullanıcıyı alıp `useEffect`'te fetch eder (eski boş placeholder kaldırıldı). **UI/UX — quiz ergonomisi:** `QuizNavigation.tsx` butonlarına premium keycap rozetleri eklendi (←, S, Space; `sm:` altında gizli). **Test:** 196/196 vitest yeşil · `tsc -b` + `vite build` exit 0 · prod deploy (`npx vercel --prod`) HTTP 200 · preview araçlarıyla İstatistik/Hata Analizi/Quiz sekmeleri canlı doğrulandı (console/network hatasız).
 
@@ -253,8 +255,8 @@ erDiagram
         integer corrects
         timestamp last_seen
         jsonb wrong_choices "Array: {selected, timestamp}"
-        float stability "Legacy FSRS stability (Unused)"
-        float difficulty "Legacy FSRS difficulty (Unused)"
+        float stability "Legacy scheduling (Unused, bkz. 3.1)"
+        float difficulty "Legacy scheduling (Unused, bkz. 3.1)"
         timestamp last_review "Legacy (Unused)"
         integer scheduled_days "Legacy (Unused)"
         integer fsrs_reps "Legacy (Unused)"
@@ -349,11 +351,11 @@ erDiagram
 
 ## 3. ALGORİTMALAR VE CORE KÜTÜPHANELER
 
-### 3.1. FSRS-5 Tekrar Sistemi Devre Dışı Bırakıldı (Harici Anki Entegrasyonu)
+### 3.1. ⛔ FSRS YASAK — Spaced Repetition Bu Uygulamada Yoktur
 
-Uygulamanın local FSRS spaced repetition durum makinesi ve `src/lib/fsrs.ts` modülü tamamen kaldırılmıştır. Kullanıcının aktif tekrar ve spaced repetition işlemlerini Anki (FSRS) gibi harici profesyonel bir ekosistemde yürütmesi nedeniyle, DUSBANKASI yalnızca akıllı soru bankası, performans analizi ve deneme/sınav simülasyonu rolünü üstlenecek şekilde optimize edilmiştir.
-- Local FSRS parametreleri (stability, difficulty, scheduled_days, fsrs_reps, last_review) frontend tiplerinden ve istatistik eşitleme akışlarından elenmiştir.
-- Veritabanında (PostgreSQL) bu kolonlar geriye dönük uyumluluk adına fiziksel olarak korunmakta ancak uygulama tarafından güncellenmemektedir.
+**FSRS ve her türlü spaced-repetition/scheduling kodu, tipi, görselleştirmesi ve planı DUSBANKASI'nda KALICI OLARAK YASAKTIR.** Tekrar işi tamamen harici Anki ekosisteminde yürütülür; DUSBANKASI yalnızca akıllı soru bankası, performans analizi ve deneme/sınav simülasyonudur. Motor tamamen istatistik bazlıdır (doğruluk, deneme sayısı, hata kaydı) — vade/urgency/retrievability kavramları kullanılmaz.
+- Veritabanındaki legacy scheduling kolonları (stability, difficulty, scheduled_days, fsrs_reps, last_review) geriye dönük uyumluluk adına fiziksel olarak durur; uygulama bunları **asla okumaz ve yazmaz**.
+- Bu kurala aykırı her özellik önerisi (retansiyon tahmini, unutma eğrisi, tekrar zamanlama vb.) reddedilir.
 
 ---
 
@@ -378,7 +380,7 @@ $$Priority = \text{Clamp}\Big(W_{weakness} \cdot Weakness(q), 0, 1\right) + \tex
   Hiç çözülmemiş yeni sorular için doğrudan $W_{newExploration} \cdot \text{Math.random()}$ öncelik skoru atanarak havuz içinde homojen bir keşif önceliği sağlanır.
 - **$Jitter$**: `Math.random() * 0.02` ile eklenen küçük gürültü. Aynı skora sahip soruların ardışık sıralanmasını engeller.
 - **Ağırlık Kalibrasyonu**: `weakness: 0.70`, `newExploration: 0.30` varsayılan değerlerdir (`DEFAULT_ADAPTIVE_WEIGHTS`).
-- **NOT**: FSRS vade ve gecikme (urgency) hesaplamaları local seviyede tamamen devre dışı bırakılmıştır.
+- **NOT**: Vade/gecikme (urgency/scheduling) hesabı yoktur — motor tamamen istatistik bazlıdır (bkz. §3.1).
 
 #### Greedy Interleaving Algoritması
 
@@ -403,7 +405,7 @@ Rohrer & Taylor (2007) teorisine dayanan interleaving, ardışık gelen iki soru
 >
 > Uygulama **ilk açılışta `fetchSkeletons()` ile TÜM skeleton'ları belleğe yükler** (id/lesson/unit/quality_flag/is_favorite, ~250 KB). Metadata lazy-load (ders/ünite seçilince o üniteye ait metadata dinamik çekim) mimarisi DENENMİŞ ve **kullanıcının sorularını görememesine** yol açtığı için KALICI OLARAK kaldırılmıştır. Adaptive motor (`buildSmartQueue`), simülasyon havuzu, interleaving ve soru sayaçları **TÜM skeleton'ların aynı anda bellekte olmasına bağımlıdır**. Kısmi yükleme bu hesapları bozar.
 >
-> Soru **içeriği** (metin/şıklar/açıklama) sınav anında `fetchQuestionsByIds()` ile on-demand çekilir — bu YASAK değildir. `@deprecated fetchQuestions()` (14 MB tam yükleme) yeni kodda kullanılmaz.
+> Soru **içeriği** (metin/şıklar/açıklama) sınav anında `fetchQuestionsByIds()` ile on-demand (lazy) çekilir — bu içerik lazy-load'u Supabase Edge/egress limitleri nedeniyle **ZORUNLUDUR ve KORUNMALIDIR**; kaldırılırsa tüm soru içeriği her sayfa yenilemede tekrar iner. `@deprecated fetchQuestions()` (14 MB tam yükleme) yeni kodda kullanılmaz.
 
 #### Skeleton + On-Demand İçerik Mimarisi (v4.31+)
 
@@ -456,7 +458,7 @@ Supabase REST arayüzünde `not.in` filtrelerini `.or()` içinde birleştirmek, 
 
 ### 3.4. Sınav Hedef Projeksiyonu (`src/lib/projections.ts`)
 
-Saf, **bağımlılıksız** analitik modül — FSRS/scheduling yoktur (§3.1). Yalnızca istatistik girdisinden sınav hazırlık temposunu türetir. Test edilebilirlik için `now` ve `examDate` enjekte edilebilir; girdi yapısaldır (`activity: ReadonlyArray<{count:number}>`), böylece `stats.ts`'e bağlanmaz.
+Saf, **bağımlılıksız** analitik modül — spaced-repetition/scheduling yoktur (§3.1). Yalnızca istatistik girdisinden sınav hazırlık temposunu türetir. Test edilebilirlik için `now` ve `examDate` enjekte edilebilir; girdi yapısaldır (`activity: ReadonlyArray<{count:number}>`), böylece `stats.ts`'e bağlanmaz.
 
 - **Sabit**: `DUS_EXAM_DATE = '2026-11-01'`.
 - **`computeExamProjection(input)`** hesaplar: `daysUntilExam`, `requiredDailySolved = ceil(solvedRemaining / daysUntilExam)`, `recentDailyAvg` (son `paceWindowDays=14` gün ortalaması), `onTrackSolved`, `projectedSolvedAtExam`, `projectedCoveragePct` (banka boyutunda tavanlı), `consistencyPct` (son `consistencyWindowDays=30` günde aktif gün oranı). Varsayılan `targetSolved=10_000`.

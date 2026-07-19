@@ -2,6 +2,7 @@ import { memo, useMemo } from 'react';
 import { Sparkle, XCircle } from '@phosphor-icons/react';
 import DOMPurify, { type Config as DOMPurifyConfig } from 'dompurify';
 import { renderMarkdown } from '../../lib/markdown';
+import { Button } from '../ui/Button';
 import type { Theme } from '../../theme';
 import type { UserSettings } from '../../types/app';
 
@@ -62,9 +63,14 @@ export const AIAssistantPanel = memo(function AIAssistantPanel({ visible, loadin
             <Sparkle size={16} weight="thin" /> AI Öğretmen
             {loading && <span className={`text-[10px] font-medium ${theme.subtext} opacity-50 ml-1 animate-pulse`}>yazıyor…</span>}
           </div>
-          <button onClick={onClose} className={`p-1.5 hover:${theme.inputBg} rounded-lg transition-colors`}>
+          <Button
+            onClick={onClose}
+            variant="unstyled"
+            aria-label="Kapat"
+            className={`p-1.5 hover:${theme.inputBg} rounded-lg transition-colors`}
+          >
             <XCircle size={16} className={`${theme.text} opacity-40`} />
-          </button>
+          </Button>
         </div>
         <div className={`p-5 flex-1 overflow-y-auto custom-scrollbar text-sm leading-relaxed ${settings.theme === 'light' ? 'prose-light text-black' : 'text-white'}`}>
           {/* Yükleniyor — henüz hiç chunk gelmedi */}
@@ -82,12 +88,14 @@ export const AIAssistantPanel = memo(function AIAssistantPanel({ visible, loadin
               <strong className="block mb-1 text-xs">Hata:</strong>
               <span className="text-xs">{error}</span>
               {onRetry && (
-                <button
+                <Button
                   onClick={onRetry}
-                  className="mt-3 btn btn-sm bg-red-500/15 text-red-400 hover:bg-red-500/25"
+                  variant="unstyled"
+                  size="sm"
+                  className="mt-3 bg-red-500/15 text-red-400 hover:bg-red-500/25"
                 >
                   Tekrar Dene
-                </button>
+                </Button>
               )}
             </div>
           )}

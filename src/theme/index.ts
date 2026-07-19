@@ -108,11 +108,35 @@ export const semanticColors = {
   gold:     { bg: 'bg-[#fcd34d]/10', text: 'text-[#fcd34d]', border: 'border-[#fcd34d]/20', solid: 'bg-[#fcd34d]' },
 } as const;
 
-/* Font sizes — Satoshi has slightly wider letterforms, so we adjust down */
+/* Font sizes — Satoshi has slightly wider letterforms, so we adjust down.
+   Skala (Faz 1): xs/sm/base gövde metni, lg-display başlık/istatistik kademeleri.
+   CSS karşılığı: src/index.css @theme --text-* token'ları. */
 export const fontSizes = {
   small:  'text-[12px]',
   normal: 'text-[14px]',
   large:  'text-[16px]',
+  xs: 'text-xs',
+  sm: 'text-sm',
+  base: 'text-base',
+  lg: 'text-lg',
+  xl: 'text-xl',
+  '2xl': 'text-2xl',
+  '3xl': 'text-3xl',
+  display: 'text-display',
 } as const;
 
 export type FontSizeKey = keyof typeof fontSizes;
+
+/* ── Motion token'ları (Faz 1) — src/lib/motion.ts bunu re-export eder.
+   Tek yerden tüketim: yeni component'ler ham stiffness/duration yazmaz. */
+export const motion = {
+  durations: { micro: 150, enter: 200, exit: 140, page: 300 },
+  easings: {
+    enter: [0.19, 1, 0.22, 1] as const,
+    exit: 'easeIn' as const,
+    spring: { type: 'spring', stiffness: 300, damping: 20 } as const,
+  },
+} as const;
+
+/* ── İkon ağırlık standardı (Faz 1) — veri-yoğun UI'da tek weight kararı. */
+export const iconWeight = 'regular' as const;

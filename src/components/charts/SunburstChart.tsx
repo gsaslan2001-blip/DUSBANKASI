@@ -2,6 +2,7 @@
 import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
+import { TooltipPortal } from './TooltipPortal';
 
 export interface SunburstDatum {
   name: string;
@@ -219,21 +220,23 @@ function SunburstChart({ data, size = 320 }: Props) {
       style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center' }}
     >
       <svg ref={svgRef} style={{ display: 'block' }} />
-      <div
-        ref={tooltipRef}
-        style={{
-          display: 'none',
-          position: 'fixed',
-          pointerEvents: 'none',
-          background: 'rgba(8,8,10,0.95)',
-          border: '1px solid rgba(255,255,255,0.1)',
-          borderRadius: '10px',
-          padding: '8px 12px',
-          zIndex: 100,
-          backdropFilter: 'blur(12px)',
-          boxShadow: '0 8px 24px rgba(0,0,0,0.6)',
-        }}
-      />
+      <TooltipPortal>
+        <div
+          ref={tooltipRef}
+          style={{
+            display: 'none',
+            position: 'fixed',
+            pointerEvents: 'none',
+            background: 'rgba(8,8,10,0.95)',
+            border: '1px solid rgba(255,255,255,0.1)',
+            borderRadius: '10px',
+            padding: '8px 12px',
+            zIndex: 9999,
+            backdropFilter: 'blur(12px)',
+            boxShadow: '0 8px 24px rgba(0,0,0,0.6)',
+          }}
+        />
+      </TooltipPortal>
     </div>
   );
 }

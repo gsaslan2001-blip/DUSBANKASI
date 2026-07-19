@@ -1,5 +1,11 @@
 import { useRef, useCallback, useEffect, useState } from 'react';
 import { useMotionValue, useSpring } from 'framer-motion';
+import { motion as motionTokens, iconWeight } from '../theme';
+
+// ── Merkezi motion token'ları (Faz 1) — src/theme/index.ts'te tanımlı,
+// burada tek kaynaktan tüketim için re-export edilir.
+export const MOTION = motionTokens;
+export { iconWeight };
 
 /**
  * Manyetik hover efekti — imleci element'e çeker.
@@ -220,3 +226,37 @@ export const scaleOnHover = {
   whileTap:   { scale: 0.97 },
   transition: { type: 'spring', stiffness: 400, damping: 17 },
 } as const;
+
+// ── SPRING token seti (Faz 1) ──────────────────────────────────────────────
+// Tüm uygulama aynı fizikle hareket eder. Yeni animasyonlarda ham
+// stiffness/damping yazmak yerine bu preset'lerden biri kullanılır.
+
+export const SPRING = {
+  /** Buton/ikon mikro-tepkileri — hızlı ve net. */
+  snappy: { type: 'spring', stiffness: 400, damping: 30 } as Transition,
+  /** Kart giriş/çıkışları — yumuşak yerleşme. */
+  gentle: { type: 'spring', stiffness: 260, damping: 26 } as Transition,
+  /** layoutId morph / view geçişleri — ağır, premium his. */
+  morph:  { type: 'spring', stiffness: 200, damping: 28 } as Transition,
+  /** Sayaç/gauge iğneleri — hafif salınımlı. */
+  needle: { type: 'spring', stiffness: 120, damping: 16 } as Transition,
+} as const;
+
+/** View geçiş preset'leri — viewRegistry.transition tarafından seçilir. */
+export const viewTransitions: Record<'slide' | 'fade' | 'scale', Variants> = {
+  slide: {
+    initial: { opacity: 0, y: 14 },
+    animate: { opacity: 1, y: 0, transition: _expo },
+    exit:    { opacity: 0, y: -10, transition: { duration: 0.16, ease: 'easeIn' } },
+  },
+  fade: {
+    initial: { opacity: 0 },
+    animate: { opacity: 1, transition: { duration: 0.22 } },
+    exit:    { opacity: 0, transition: { duration: 0.14 } },
+  },
+  scale: {
+    initial: { opacity: 0, scale: 0.985, y: 8 },
+    animate: { opacity: 1, scale: 1, y: 0, transition: SPRING.gentle },
+    exit:    { opacity: 0, scale: 0.99, transition: { duration: 0.15 } },
+  },
+};

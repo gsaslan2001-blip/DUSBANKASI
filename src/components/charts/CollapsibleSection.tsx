@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { CaretDown } from '@phosphor-icons/react';
 import { useState, type ReactNode } from 'react';
 import type { Theme } from '../../theme';
+import { Button } from '../ui/Button';
 
 type Props = {
   title: string;
@@ -20,9 +21,10 @@ export default function CollapsibleSection({ title, summary, defaultOpen = false
 
   return (
     <div className={`${theme.card} rounded-xl overflow-hidden`}>
-      <button
-        type="button"
+      <Button
+        variant="unstyled"
         onClick={() => setOpen(prev => !prev)}
+        aria-expanded={open}
         className="w-full flex items-center justify-between p-5 sm:p-6 hover:bg-white/[0.02] transition-colors text-left"
       >
         <div className="flex flex-col gap-0.5 min-w-0">
@@ -36,7 +38,7 @@ export default function CollapsibleSection({ title, summary, defaultOpen = false
         >
           <CaretDown size={16} weight="bold" />
         </motion.span>
-      </button>
+      </Button>
       <AnimatePresence initial={false}>
         {open && (
           <motion.div

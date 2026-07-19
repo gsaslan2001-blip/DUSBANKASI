@@ -13,6 +13,7 @@
  */
 
 import { useMemo } from 'react';
+import { Button } from './ui/Button';
 import type { Question } from '../data';
 import type { StatsMap } from '../lib/stats';
 import { getWeakestUnits, getCurriculumProgress } from '../lib/adaptive';
@@ -101,9 +102,9 @@ export default function DailyPlanView({
           <div className="text-3xl mb-3">✅</div>
           <h3 className="text-lg font-black mb-1">Bugün için plan yok</h3>
           <p className={`${theme.subtext} text-xs mb-5`}>Bilinen zayıf ünite yok, tüm üniteler başlandı.</p>
-          <button onClick={onStartSmartStudy} className="btn btn-primary btn-lg">
+          <Button onClick={onStartSmartStudy} variant="primary" size="lg">
             AKILLI ÇALIŞMA BAŞLAT
-          </button>
+          </Button>
         </div>
       ) : (
         <>
@@ -133,12 +134,14 @@ export default function DailyPlanView({
                         />
                       </div>
                     </div>
-                    <button
+                    <Button
                       onClick={() => onStartWeakUnit(u.lesson, u.unit)}
-                      className="btn btn-sm shrink-0 bg-red-500/10 text-red-400 border border-red-500/15 hover:bg-red-500/20"
+                      variant="unstyled"
+                      size="sm"
+                      className="shrink-0 bg-red-500/10 text-red-400 border border-red-500/15 hover:bg-red-500/20"
                     >
                       GİT →
-                    </button>
+                    </Button>
                   </div>
                 ))}
               </div>
@@ -163,20 +166,22 @@ export default function DailyPlanView({
                     {curriculum.solvedUnits}/{curriculum.totalUnits} ünite · Hafta {unitsPerWeek} ünite önerisi
                   </p>
                 </div>
-                <button
+                <Button
                   onClick={() => onStartWeakUnit(curriculum.nextUntouchedUnit!.lesson, curriculum.nextUntouchedUnit!.unit)}
-                  className="btn btn-sm shrink-0 bg-emerald-500/10 text-emerald-400 border border-emerald-500/15 hover:bg-emerald-500/20"
+                  variant="unstyled"
+                  size="sm"
+                  className="shrink-0 bg-emerald-500/10 text-emerald-400 border border-emerald-500/15 hover:bg-emerald-500/20"
                 >
                   BAŞLA →
-                </button>
+                </Button>
               </div>
             </div>
           )}
 
           {/* ── Akıllı Çalışma CTA ── */}
-          <button onClick={onStartSmartStudy} className="btn btn-primary btn-lg w-full shadow-lg shadow-indigo-500/15">
+          <Button onClick={onStartSmartStudy} variant="primary" size="lg" className="w-full shadow-lg shadow-indigo-500/15">
             🧠 AKILLI ÇALIŞMA BAŞLAT
-          </button>
+          </Button>
         </>
       )}
 

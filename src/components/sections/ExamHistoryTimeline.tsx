@@ -3,7 +3,9 @@
  */
 import { memo } from 'react';
 import { motion } from 'framer-motion';
+import { CalendarBlank } from '@phosphor-icons/react';
 import { ExamTimelineChart } from '../charts';
+import { EmptyState } from '../ui/EmptyState';
 import type { Theme } from '../../theme';
 import type { ExamTrendData, ExamResult } from '../../types/app';
 
@@ -18,10 +20,11 @@ export default memo(ExamHistoryTimeline);
 function ExamHistoryTimeline({ trend, exams, theme }: Props) {
   if (exams.length === 0) {
     return (
-      <div className={theme.card} style={{ padding: 20, borderRadius: 20, textAlign: 'center' }}>
-        <div style={{ color: theme.subtext, fontSize: 13 }}>Henüz deneme sınavı verisi yok</div>
-        <div style={{ color: '#8b8b9860', fontSize: 11, marginTop: 4 }}>Deneme çözdükçe performans grafiğin burada oluşacak</div>
-      </div>
+      <EmptyState
+        icon={<CalendarBlank size={40} weight="thin" />}
+        title="Henüz deneme sınavı verisi yok"
+        description="Deneme çözdükçe performans grafiğin burada oluşacak."
+      />
     );
   }
 

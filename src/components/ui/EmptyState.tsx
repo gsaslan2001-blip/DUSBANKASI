@@ -1,5 +1,6 @@
 import React from 'react';
 import { GlassPanel } from './GlassPanel';
+import { Button } from './Button';
 
 interface EmptyStateProps {
   icon: React.ReactNode;
@@ -22,15 +23,12 @@ export function EmptyState({ icon, title, description, action, className = '' }:
         <div className="absolute bottom-2 right-2 w-4 h-4 rotate-45 border border-indigo-500/30 animate-float" style={{ animationDelay: '-2s' }} />
         <div className="relative z-10 scale-110 opacity-70">{icon}</div>
       </div>
-      <h3 className="text-xl font-bold text-[#ececf1] mb-2">{title}</h3>
-      <p className="text-[#8b8b98] text-sm max-w-sm mx-auto leading-relaxed mb-6">{description}</p>
+      <h3 className="text-xl font-bold text-[color:var(--color-text-primary)] mb-2">{title}</h3>
+      <p className="text-[color:var(--color-text-secondary)] text-sm max-w-sm mx-auto leading-relaxed mb-6">{description}</p>
       {action && (
-        <button
-          onClick={action.onClick}
-          className="btn btn-primary btn-md"
-        >
+        <Button onClick={action.onClick} variant="primary" size="md">
           {action.label}
-        </button>
+        </Button>
       )}
     </GlassPanel>
   );

@@ -3,6 +3,7 @@ import { CheckCircle, Warning, Plus, Upload } from '@phosphor-icons/react';
 import { addQuestions, type ImportQuestion, type AddQuestionsResult } from '../../lib/supabase';
 import type { Question } from '../../data';
 import type { Theme } from '../../theme';
+import { Button } from '../ui/Button';
 
 type Tab = 'single' | 'bulk';
 const OPT_KEYS = ['A', 'B', 'C', 'D', 'E'] as const;
@@ -100,18 +101,20 @@ export function AddQuestionView({
       </p>
 
       <div className="flex gap-2 mb-6">
-        <button
+        <Button
           onClick={() => { setTab('single'); setResult(null); setError(null); }}
+          variant="unstyled"
           className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-colors ${tab === 'single' ? theme.accentSoft : `${theme.inputBg} ${theme.subtext}`}`}
         >
           <Plus size={14} /> Tekil
-        </button>
-        <button
+        </Button>
+        <Button
           onClick={() => { setTab('bulk'); setResult(null); setError(null); }}
+          variant="unstyled"
           className={`flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-bold transition-colors ${tab === 'bulk' ? theme.accentSoft : `${theme.inputBg} ${theme.subtext}`}`}
         >
           <Upload size={14} /> Toplu JSON
-        </button>
+        </Button>
       </div>
 
       {tab === 'single' ? (
@@ -137,14 +140,15 @@ export function AddQuestionView({
           <div className="space-y-2">
             {OPT_KEYS.map((k) => (
               <div key={k} className="flex items-center gap-2">
-                <button
+                <Button
                   type="button"
                   onClick={() => setCorrect(k)}
                   title="Doğru cevap olarak işaretle"
+                  variant="unstyled"
                   className={`w-9 h-9 shrink-0 rounded-lg text-xs font-black transition-colors ${correct === k ? 'bg-emerald-500 text-black' : `${theme.inputBg} ${theme.subtext}`}`}
                 >
                   {k}
-                </button>
+                </Button>
                 <input value={opts[k]} onChange={(e) => setOpts({ ...opts, [k]: e.target.value })} className={inputCls} placeholder={`Şık ${k}`} />
               </div>
             ))}
@@ -156,9 +160,9 @@ export function AddQuestionView({
             <textarea value={explanation} onChange={(e) => setExplanation(e.target.value)} className={`${inputCls} h-28 resize-none`} placeholder="Kök neden + klinik bağlam (motivasyonel dil yok)…" />
           </div>
 
-          <button onClick={submitSingle} disabled={loading} className="btn btn-primary btn-lg w-full">
+          <Button onClick={submitSingle} disabled={loading} variant="primary" size="lg" className="w-full">
             {loading ? 'Ekleniyor…' : 'SORUYU EKLE'}
-          </button>
+          </Button>
         </div>
       ) : (
         <div className="space-y-4">
@@ -168,9 +172,9 @@ export function AddQuestionView({
             placeholder='[{"lesson":"Fizyoloji","unit":"Kalp","question":"…","options":{"A":"…","B":"…","C":"…","D":"…","E":"…"},"correctAnswer":"A","explanation":"…"}]'
             className={`w-full h-72 ${theme.inputBg} p-5 rounded-2xl font-mono text-xs resize-none border ${theme.border} input-ring`}
           />
-          <button onClick={submitBulk} disabled={loading} className="btn btn-primary btn-lg w-full">
+          <Button onClick={submitBulk} disabled={loading} variant="primary" size="lg" className="w-full">
             {loading ? 'Ekleniyor…' : 'YÜKLE'}
-          </button>
+          </Button>
         </div>
       )}
 
@@ -194,7 +198,7 @@ export function AddQuestionView({
               ))}
             </ul>
           )}
-          <button onClick={onDone} className="btn btn-secondary btn-sm mt-4 w-full">Bitir ve Ana Sayfaya Dön</button>
+          <Button onClick={onDone} variant="secondary" size="sm" className="mt-4 w-full">Bitir ve Ana Sayfaya Dön</Button>
         </div>
       )}
     </div>

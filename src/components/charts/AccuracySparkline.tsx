@@ -1,6 +1,7 @@
 import { memo, useRef, useEffect, useMemo } from 'react';
 import * as d3 from 'd3';
 import { TOOLTIP_STYLE } from '../../lib/chartUtils';
+import { TooltipPortal } from './TooltipPortal';
 
 export interface DayCount {
   date: string;
@@ -189,7 +190,7 @@ function CountSparklineBase({ data, width: propWidth, height = 60, days = 30 }: 
   return (
     <div ref={containerRef} className="relative">
       <svg ref={svgRef} width="100%" height={height} />
-      <div ref={tooltipRef} style={TOOLTIP_STYLE} />
+      <TooltipPortal><div ref={tooltipRef} style={TOOLTIP_STYLE} /></TooltipPortal>
     </div>
   );
 }

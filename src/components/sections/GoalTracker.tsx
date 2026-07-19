@@ -4,6 +4,7 @@
 import { memo, useState } from 'react';
 import { motion } from 'framer-motion';
 import { GoalRing, GoalProgressTimeline } from '../charts';
+import { Button } from '../ui/Button';
 import type { Theme } from '../../theme';
 import type { GoalProgress } from '../../types/app';
 
@@ -33,8 +34,9 @@ function GoalTracker({ progress, theme, onEditGoals }: Props) {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
         <span style={{ fontSize: 13, fontWeight: 700, color: theme.text }}>Hedefler</span>
         <div style={{ display: 'flex', gap: 6 }}>
-          <button
+          <Button
             onClick={() => setViewMode('rings')}
+            variant="unstyled"
             style={{
               padding: '4px 10px', borderRadius: 8, border: 'none', cursor: 'pointer',
               background: viewMode === 'rings' ? `${theme.accent}20` : 'transparent',
@@ -42,9 +44,10 @@ function GoalTracker({ progress, theme, onEditGoals }: Props) {
             }}
           >
             Halka
-          </button>
-          <button
+          </Button>
+          <Button
             onClick={() => setViewMode('bars')}
+            variant="unstyled"
             style={{
               padding: '4px 10px', borderRadius: 8, border: 'none', cursor: 'pointer',
               background: viewMode === 'bars' ? `${theme.accent}20` : 'transparent',
@@ -52,16 +55,17 @@ function GoalTracker({ progress, theme, onEditGoals }: Props) {
             }}
           >
             Bar
-          </button>
-          <button
+          </Button>
+          <Button
             onClick={onEditGoals}
+            variant="unstyled"
             style={{
               padding: '4px 10px', borderRadius: 8, border: `1px solid ${theme.border}`,
               background: 'transparent', color: theme.subtext, fontSize: 11, fontWeight: 600, cursor: 'pointer',
             }}
           >
             Düzenle
-          </button>
+          </Button>
         </div>
       </div>
 

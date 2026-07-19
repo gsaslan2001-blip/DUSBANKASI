@@ -105,7 +105,15 @@ export function computeQuestionOrderEffect(exams: ExamResult[]): OrderEffectData
 
 // ─── Yardımcılar ──────────────────────────────────────────────────────────
 
-/** Ham exam_answers verisinden ExamResult dizisi oluşturur. */
+/**
+ * Ham exam_answers verisinden ExamResult dizisi oluşturur.
+ *
+ * `getLesson` opsiyoneldir (geriye uyumluluk) — verilmezse tüm cevaplar 'Genel'
+ * dersine düşer (eski davranış). Faz 3: hız×doğruluk kadranı ders bazlı gerçek
+ * kırılım gerektirdiği için StatisticsView artık `questions`'tan bir id→lesson
+ * lookup üretip buraya geçiyor — kök nedende (ingestion) düzeltildi, çağıran
+ * tarafta veri uydurmak yerine.
+ */
 export function buildExamResults(
   exams: {
     id: string;
@@ -114,6 +122,7 @@ export function buildExamResults(
     question_ids: string[];
     answers?: { questionId: string; isCorrect: boolean; timeSpent?: number; selectedAnswer?: string; correctAnswer?: string }[];
   }[],
+  getLesson?: (questionId: string) => string | undefined,
 ): ExamResult[] {
   return exams.map(e => {
     const answers = e.answers ?? [];
@@ -127,7 +136,7 @@ export function buildExamResults(
 
     const lessonBreakdown: Record<string, { correct: number; total: number }> = {};
     for (const a of answers) {
-      const lesson = 'Genel'; // Lesson bilgisi question'dan gelir
+      const lesson = getLesson?.(a.questionId) ?? 'Genel';
       if (!lessonBreakdown[lesson]) lessonBreakdown[lesson] = { correct: 0, total: 0 };
       lessonBreakdown[lesson].total++;
       if (a.isCorrect) lessonBreakdown[lesson].correct++;
@@ -146,4 +155,26 @@ export function buildExamResults(
       lessonBreakdown,
     };
   });
+}
+
+// ─── Hız-Doğruluk — ders bazlı toplulaştırma (chart tüketimi için) ─────────
+
+export type SpeedAccuracyLessonPoint = { lesson: string; avgTimeSpent: number; accuracy: number; sampleCount: number };
+
+/** Ham (deneme, ders) noktalarını ders bazında ortalayarak kadran chart'ına uygun hale getirir. */
+export function aggregateSpeedAccuracyByLesson(points: SpeedAccuracyPoint[]): SpeedAccuracyLessonPoint[] {
+  const byLesson = new Map<string, { timeSum: number; accSum: number; n: number }>();
+  for (const p of points) {
+    const e = byLesson.get(p.lesson) ?? { timeSum: 0, accSum: 0, n: 0 };
+    e.timeSum += p.timeSpent;
+    e.accSum += p.accuracy;
+    e.n += 1;
+    byLesson.set(p.lesson, e);
+  }
+  return Array.from(byLesson.entries()).map(([lesson, e]) => ({
+    lesson,
+    avgTimeSpent: Math.round(e.timeSum / e.n),
+    accuracy: Math.round(e.accSum / e.n),
+    sampleCount: e.n,
+  }));
 }

@@ -1,6 +1,7 @@
 import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { TOOLTIP_STYLE, debounce } from '../../lib/chartUtils';
+import { TooltipPortal } from './TooltipPortal';
 
 /** Günlük hedef vs gerçekleşen verisi */
 export interface DifferenceDatum {
@@ -250,7 +251,7 @@ function DifferenceChart({ data, height = 180 }: Props) {
   return (
     <div ref={containerRef} style={{ position: 'relative', width: '100%' }}>
       <svg ref={svgRef} style={{ display: 'block', width: '100%' }} />
-      <div ref={tooltipRef} style={TOOLTIP_STYLE} />
+      <TooltipPortal><div ref={tooltipRef} style={TOOLTIP_STYLE} /></TooltipPortal>
     </div>
   );
 }
