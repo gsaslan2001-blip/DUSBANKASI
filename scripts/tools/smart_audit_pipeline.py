@@ -31,7 +31,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "lib")))
 
 from config import SUPABASE_URL, SUPABASE_KEY
-from lib.db_layer import batch_flag, batch_delete, fetch_all_questions
+from lib.db_layer import batch_flag, batch_delete, fetch_all_questions, create_session
 from lib.audit_logic import (
     find_duplicates, find_duplicates_chunked, curate_pairs, curate_pairs_async, write_curation_summary,
 )
@@ -104,7 +104,7 @@ async def run_audit(
     print(f"{'='*60}\n")
 
     # Aşama 1 — Veri Çekme (async, opsiyonel ünite filtresi)
-    async with aiohttp.ClientSession() as session:
+    async with create_session() as session:
         fetch_unit = None if cross_unit else unit
         questions = await fetch_all_questions(lesson, session, unit=fetch_unit)
 

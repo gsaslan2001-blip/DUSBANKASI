@@ -32,41 +32,64 @@ const { SYSTEM_PROMPT, buildUserPrompt } = promptModule;
 const samples = JSON.parse(await readFile(path.join(ROOT, 'eklenecek', 'Radyoloji_30.json'), 'utf8'));
 
 // pick a few distinct types
-const picks = [samples[0], samples[3], samples[4], samples[9]];
+const sampleCount = Math.max(1, Math.min(4, Number(process.env.AI_PROMPT_SAMPLE_COUNT ?? 4)));
+const picks = [samples[0], samples[3], samples[4], samples[9]].slice(0, sampleCount);
 
-const MODEL = process.env.GEMINI_MODEL_AI ?? 'gemini-2.5-flash';
-const KEY = process.env.GEMINI_API_KEY;
-if (!KEY) throw new Error('GEMINI_API_KEY missing');
+const models = (process.env.GEMINI_MODELS_AI ?? process.env.GEMINI_MODEL_AI ?? 'gemini-3.7-flash,gemini-3.6-flash,gemini-3.5-flash,gemini-3.1-flash-lite,gemini-3-flash-preview')
+  .split(',').map((value) => value.trim()).filter(Boolean);
+const keys = [];
+for (let i = 1; i <= 10; i++) {
+  const key = process.env[`GEMINI_API_KEY_${i}`];
+  if (key && !keys.includes(key)) keys.push(key);
+}
+if (process.env.GEMINI_API_KEY && !keys.includes(process.env.GEMINI_API_KEY)) keys.push(process.env.GEMINI_API_KEY);
+if (keys.length === 0) throw new Error('GEMINI_API_KEY_* missing');
 
 async function callGemini(systemInstruction, userText) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent?key=${KEY}`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      systemInstruction: { parts: [{ text: systemInstruction }] },
-      contents: [{ role: 'user', parts: [{ text: userText }] }],
-      generationConfig: { temperature: 0.4, topP: 0.95 },
-    }),
-  });
-  if (!res.ok) throw new Error(`Gemini ${res.status}: ${await res.text()}`);
-  const j = await res.json();
-  return j?.candidates?.[0]?.content?.parts?.map((p) => p.text).join('') ?? '';
+  const errors = [];
+  for (const model of models) {
+    for (let i = 0; i < keys.length; i++) {
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'x-goog-api-key': keys[i] },
+        body: JSON.stringify({
+          systemInstruction: { parts: [{ text: systemInstruction }] },
+          contents: [{ role: 'user', parts: [{ text: userText }] }],
+          generationConfig: { maxOutputTokens: 8192, thinkingConfig: { thinkingLevel: 'high' } },
+        }),
+      });
+      if (!res.ok) {
+        errors.push(`${model}#${i + 1}:${res.status}`);
+        continue;
+      }
+      const j = await res.json();
+      const text = j?.candidates?.[0]?.content?.parts?.map((p) => p.text ?? '').join('') ?? '';
+      if (text.trim()) return { model, text };
+      errors.push(`${model}#${i + 1}:empty`);
+    }
+  }
+  throw new Error(`Tüm Gemini denemeleri başarısız: ${errors.join(', ')}`);
 }
 
 for (let i = 0; i < picks.length; i++) {
   const q = picks[i];
+  const forcedKey = /^[A-E]$/.test(process.env.AI_PROMPT_FORCE_KEY ?? '')
+    ? process.env.AI_PROMPT_FORCE_KEY
+    : null;
+  const answerKey = forcedKey ?? q.correctAnswer;
   const userPrompt = buildUserPrompt({
     question: q.question,
     options: q.options,
     lesson: 'Kardiyoloji',
     unit: 'Acil',
-    correctAnswer: q.correctAnswer,
+    correctAnswer: answerKey,
     context: [],
   });
   process.stdout.write(`\n\n================ SORU ${i + 1} ================\n`);
-  process.stdout.write(`Q: ${q.question.slice(0, 120)}...\nCorrect: ${q.correctAnswer}\n\n`);
+  process.stdout.write(`Q: ${q.question.slice(0, 120)}...\nAnswer key under audit: ${answerKey}\n\n`);
   const out = await callGemini(SYSTEM_PROMPT, userPrompt);
-  process.stdout.write(out);
+  process.stdout.write(`Model: ${out.model}\n\n`);
+  process.stdout.write(out.text);
   process.stdout.write('\n');
 }

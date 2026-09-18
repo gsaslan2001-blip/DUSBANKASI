@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, lazy, Suspense } from 'react';
+import { useState, useEffect, useCallback, useMemo, lazy, Suspense } from 'react';
 import { importQuestions, fetchQuestionsByIds, deleteQuestionsInLesson, deleteQuestionsInUnit, renameLesson, renameUnit, loadTodaysDailyExam, markDailyExamCompleted, saveExamAnswers, uploadQuestionImage, deleteQuestionImage, rowToQuestion, type DailyExamRow } from './lib/supabase';
 import { ensureFullContent } from './lib/resumeGuards';
 import { useQuestions } from './hooks/useQuestions';
@@ -43,6 +43,14 @@ import { Button } from './components/ui/Button';
 import { EmptyState } from './components/ui/EmptyState';
 import { compareByCurriculumOrder, getCurriculumWeight } from './config/curriculum';
 import { getLessonIcon } from './config/curriculumIcons';
+import { toast } from 'sonner';
+import { UnitQuestionAmountSelection } from './components/UnitQuestionAmountSelection';
+import {
+  getOrCreateDailyStudyQueue,
+  selectUnitQuestionIds,
+  type StudyQueueManifest,
+  type UnitQuestionSelection,
+} from './lib/studyQueue';
 
 const errMsg = (e: unknown): string => {
   if (e instanceof Error) return e.message;
@@ -142,7 +150,7 @@ export default function App() {
   const [isHighYieldMode, setIsHighYieldMode] = useState(false);
 
   // T11: 6 mod bayrağı tek activeExam nesnesine indirgendi
-  type ExamVariant = 'normal' | 'favorites' | 'high_yield' | 'daily' | 'simulation' | 'retry' | 'weak';
+  type ExamVariant = 'normal' | 'favorites' | 'high_yield' | 'daily' | 'simulation' | 'retry' | 'weak' | 'sprint';
   type ActiveExam = { variant: ExamVariant; dailyExamId?: string; simTotalSeconds?: number } | null;
   const [activeExam, setActiveExam] = useState<ActiveExam>(null);
   // Deneme başlamadan önce seçilen filtre (select-deneme-amount ekranında gerekli)
@@ -282,6 +290,20 @@ export default function App() {
 
   const settings = useSettingsStore(s => s.settings);
   const setSettings = useSettingsStore(s => s.setSettings);
+  const sprintManifest = useMemo(() => {
+    if (rawQuestions.length === 0 || typeof window === 'undefined') return null;
+    return getOrCreateDailyStudyQueue({
+      questions: rawQuestions,
+      stats: loadAllStats(),
+      date: todayStr(),
+      budget: settings.sprintBudget,
+    }, window.localStorage);
+  }, [rawQuestions, settings.sprintBudget, statsVersion]);
+  const sprintResumeAt = sprintManifest && resumeSessionData
+    && resumeSessionData.questions.length === sprintManifest.questionIds.length
+    && resumeSessionData.questions.every((question, index) => question.id === sprintManifest.questionIds[index])
+      ? resumeSessionData.answers.length
+      : undefined;
 
   // Stats Kernel (Faz 2): tüm türetilmiş istatistik Worker'da hesaplanır.
   // Skeleton havuzu veya sync sonrası statsVersion değişince yeniden hesapla.
@@ -423,7 +445,15 @@ export default function App() {
 
   const handleDeleteQuestion = async (id: string) => {
     showConfirm('Bu soruyu silmek istediğinize emin misiniz?', async () => {
-      try { await deleteQuestionInHook(id); } catch (err: unknown) { showAlert(errMsg(err), 'Hata'); }
+      try {
+        await deleteQuestionInHook(id);
+        setQuestions(prev => prev.filter(q => q.id !== id));
+        setUnitQuestions(prev => prev.filter(q => q.id !== id));
+        setExamQuestions(prev => prev.filter(q => q.id !== id));
+        toast.success('Soru silindi');
+      } catch (err: unknown) {
+        showAlert(errMsg(err), 'Hata');
+      }
     }, 'Soruyu Sil');
   };
 
@@ -456,6 +486,12 @@ export default function App() {
       setUnitQuestions(prev => prev.map(q => q.id === edited.id ? edited : q));
       setEditingQuestion(null);
     } catch (err: unknown) { showAlert("Güncellenemedi: " + errMsg(err), 'Hata'); }
+  };
+
+  const handleSaveAIExplanation = async (edited: Question) => {
+    await updateQuestionInHook(edited);
+    setExamQuestions(prev => prev.map(q => q.id === edited.id ? edited : q));
+    setUnitQuestions(prev => prev.map(q => q.id === edited.id ? edited : q));
   };
 
   const handleSaveReport = async (id: string, reason: string) => {
@@ -556,25 +592,69 @@ export default function App() {
 
   const availableLessons = Array.from(new Set(questions.map((q) => q.lesson))).sort(compareByCurriculumOrder);
   const unitsForLesson = Array.from(new Set(questions.filter((q) => q.lesson === selectedLesson).map((q) => q.unit)));
+  const selectedUnitSkeletons = appState === 'select-unit-amount'
+    ? questions.filter((question) => question.lesson === selectedLesson && question.unit === selectedUnit)
+    : [];
+  const unitSelectionStats = appState === 'select-unit-amount' ? loadAllStats() : {};
+  const selectedUnitUnseenCount = selectedUnitSkeletons.filter((question) => {
+    const stat = unitSelectionStats[question.id];
+    return !stat || stat.attempts === 0;
+  }).length;
 
   const handleLessonSelect = (lesson: string) => { setSelectedLesson(lesson); setAppState('select-unit'); };
-  const handleUnitSelect = async (unit: string) => {
+  const handleUnitSelect = (unit: string) => {
     setSelectedUnit(unit);
-    // Skeleton'dan ID'leri al, tam metni on-demand çek
-    const unitSkeletons = questions.filter(q => q.unit === unit && q.lesson === selectedLesson);
+    setAppState('select-unit-amount');
+  };
+
+  const handleStartUnitQuiz = async (selection: UnitQuestionSelection) => {
+    // Önce hafif skeleton ID'lerini seç; tam içerik yalnız seçilen ID'ler için çekilir.
+    const unitSkeletons = questions.filter(q => q.unit === selectedUnit && q.lesson === selectedLesson);
     try {
       setContentLoading(true);
-      const ids = unitSkeletons.map(s => s.id);
+      const ids = selectUnitQuestionIds(unitSkeletons, loadAllStats(), selection);
+      if (ids.length === 0) {
+        showAlert('Bu seçim için uygun soru bulunamadı.', 'Soru Yok');
+        return;
+      }
       const rows = await fetchQuestionsByIds(ids);
       const fullQs = rows.map(rowToQuestion);
-      const allStats = loadAllStats();
-      const unseen = fisherYates(fullQs.filter(q => !allStats[q.id] || allStats[q.id].attempts === 0));
-      const seen   = fisherYates(fullQs.filter(q => allStats[q.id] && allStats[q.id].attempts > 0));
-      setUnitQuestions([...unseen, ...seen]);
+      setUnitQuestions(fullQs);
       setActiveExam(null);
       setAppState('quiz');
     } catch (e) {
       showAlert('Sorular yüklenemedi: ' + errMsg(e), 'Hata');
+    } finally {
+      setContentLoading(false);
+    }
+  };
+
+  const handleStartSprint = async () => {
+    if (!sprintManifest || sprintManifest.questionIds.length === 0) {
+      showAlert('Bugünün sprinti için uygun soru bulunamadı.', 'Soru Yok');
+      return;
+    }
+    if (sprintResumeAt !== undefined && sprintResumeAt > 0) {
+      await handleResumeSession();
+      setActiveExam({ variant: 'sprint' });
+      setSelectedUnit('70 Gün Sprint');
+      return;
+    }
+    try {
+      setContentLoading(true);
+      const rows = await fetchQuestionsByIds(sprintManifest.questionIds);
+      const fullQuestions = rows.map(rowToQuestion);
+      if (fullQuestions.length === 0) {
+        showAlert('Sprint soruları yüklenemedi.', 'Soru Yok');
+        return;
+      }
+      await clearResumableSession();
+      setExamQuestions(fullQuestions);
+      setSelectedUnit('70 Gün Sprint');
+      setActiveExam({ variant: 'sprint' });
+      setAppState('quiz');
+    } catch (error) {
+      showAlert('Sprint yüklenemedi: ' + errMsg(error), 'Hata');
     } finally {
       setContentLoading(false);
     }
@@ -808,6 +888,9 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
         setIsHighYieldMode(false);
         setAppState('select-lesson');
         break;
+      case 'select-unit-amount':
+        setAppState('select-unit');
+        break;
       case 'select-deneme-amount':
         setAppState(pendingExamVariant === 'high_yield' ? 'select-highyield-karma' : pendingExamVariant === 'favorites' ? 'select-favorites' : 'select-deneme');
         break;
@@ -988,6 +1071,11 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                 <CaretLeft size={14} weight="thin" /> Dersler
               </Button>
             )}
+            {appState === 'select-unit-amount' && (
+              <Button onClick={() => setAppState('select-unit')} variant="secondary" size="sm" className="ml-1">
+                <CaretLeft size={14} weight="thin" /> Üniteler
+              </Button>
+            )}
             {appState === 'select-highyield-unit' && (
               <Button onClick={() => { setIsHighYieldMode(false); setAppState('select-lesson'); }} variant="secondary" size="sm" className="ml-1">
                 <CaretLeft size={14} weight="thin" /> Ana Menü
@@ -1117,6 +1205,9 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               lessons={availableLessons}
               onSelect={handleLessonSelect}
               totalQuestions={questions.length}
+              sprintManifest={sprintManifest}
+              sprintResumeAt={sprintResumeAt}
+              onSprintClick={handleStartSprint}
               onDelete={handleDeleteLesson}
               onRename={handleRenameLesson}
               onDenemeClick={() => setAppState('select-deneme')}
@@ -1233,6 +1324,16 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
             <DenemeSelection questions={questions.filter(q => q.quality_flag === 'high_yield')} onNext={(units) => { setExamUnits(units); setPendingExamVariant('high_yield'); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-highyield-unit')} isHighYieldMode={true} theme={theme} />
           ) : appState === 'select-deneme-amount' ? (
             <DenemeAmountSelection selectedUnits={examUnits} questions={pendingExamVariant === 'high_yield' ? questions.filter(q => q.quality_flag === 'high_yield') : pendingExamVariant === 'favorites' ? questions.filter(q => q.is_favorite) : questions} loading={examLoading} onStart={handleStartExam} onCancel={() => setAppState(pendingExamVariant === 'high_yield' ? 'select-highyield-karma' : pendingExamVariant === 'favorites' ? 'select-favorites' : 'select-deneme')} theme={theme} />
+          ) : appState === 'select-unit-amount' ? (
+            <UnitQuestionAmountSelection
+              unit={selectedUnit}
+              totalCount={selectedUnitSkeletons.length}
+              unseenCount={selectedUnitUnseenCount}
+              loading={contentLoading}
+              onStart={handleStartUnitQuiz}
+              onCancel={() => setAppState('select-unit')}
+              theme={theme}
+            />
           ) : appState === 'select-unit' ? (
             <UnitSelection 
               lesson={selectedLesson} 
@@ -1247,7 +1348,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
           ) : appState === 'quiz' ? (
             <QuizView
               mode={activeExam !== null ? 'exam' : 'quiz'}
-              unit={isHighYieldMode ? `High-Yield — ${selectedUnit}` : activeExam !== null ? (activeExam.simTotalSeconds ? 'DUS Simülasyonu' : 'Deneme Sınavı') : selectedUnit}
+              unit={isHighYieldMode ? `High-Yield — ${selectedUnit}` : activeExam?.variant === 'sprint' ? '70 Gün Sprint' : activeExam !== null ? (activeExam.simTotalSeconds ? 'DUS Simülasyonu' : 'Deneme Sınavı') : selectedUnit}
               questions={activeQuestions}
               initialSession={activeExam !== null ? resumeSessionData : null}
               onComplete={handleComplete}
@@ -1256,6 +1357,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               onToggleFavorite={handleToggleFavorite}
               onEditQuestion={setEditingQuestion}
               onReportQuestion={setReportingQuestion}
+              onSaveAIExplanation={handleSaveAIExplanation}
               onSaveSession={(session: ActiveSessionInfo) => {
                 saveResumableSession(session);
               }}
@@ -1310,6 +1412,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               onToggleFavorite={handleToggleFavorite}
               onEditQuestion={setEditingQuestion}
               onReportQuestion={setReportingQuestion}
+              onSaveAIExplanation={handleSaveAIExplanation}
               onSaveSession={(session: ActiveSessionInfo) => {
                 saveResumableSession(session);
               }}
@@ -1377,7 +1480,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
 type DailyExamStatus = 'loading' | 'no-user' | 'not-ready' | { dayNumber: number; questionCount: number; resumeAt?: number };
 
-function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onHighYieldClick, highYieldCount, hyLoading, onAnalyticsClick, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onHighYieldClick: () => void; highYieldCount: number; hyLoading?: boolean; onAnalyticsClick: () => void; theme: Theme }) {
+function LessonSelection({ lessons, questions, onSelect, totalQuestions, sprintManifest, sprintResumeAt, onSprintClick, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onHighYieldClick, highYieldCount, hyLoading, onAnalyticsClick, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; sprintManifest: StudyQueueManifest | null; sprintResumeAt?: number; onSprintClick: () => void; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onHighYieldClick: () => void; highYieldCount: number; hyLoading?: boolean; onAnalyticsClick: () => void; theme: Theme }) {
   const _lessonStats = loadAllStats();
   return (
     <div className="anim-slide-up w-full">
@@ -1412,6 +1515,40 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
 
       {totalQuestions > 0 && (
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 mb-10 stagger-children bento-grid">
+
+          {sprintManifest && sprintManifest.questionIds.length > 0 && (
+            <Button
+              onClick={onSprintClick}
+              variant="unstyled"
+              aria-label={`70 Gün Sprint — Bugünün ${sprintManifest.budget}'ü`}
+              className={`stagger-item col-span-2 md:col-span-4 lg:col-span-6 ${theme.cardGlass} rounded-[2rem] p-6 sm:p-8 text-left card-hover group border border-violet-500/20 hover:border-violet-400/40 overflow-hidden relative`}
+            >
+              <div className="absolute -top-16 right-0 w-52 h-52 bg-violet-500/20 blur-3xl rounded-full" />
+              <div className="relative flex flex-col sm:flex-row sm:items-center justify-between gap-5">
+                <div className="flex items-center gap-4">
+                  <div className="w-12 h-12 rounded-2xl bg-violet-500/15 flex items-center justify-center group-hover:scale-110 transition-transform">
+                    <Lightning size={24} weight="fill" className="text-violet-400" />
+                  </div>
+                  <div>
+                    <div className="text-[11px] font-black uppercase tracking-[0.2em] text-violet-400">70 Gün Sprint</div>
+                    <div className="text-3xl sm:text-4xl font-black tracking-tight mt-1">Bugünün {sprintManifest.budget}'ü</div>
+                  </div>
+                </div>
+                <div className="sm:text-right">
+                  {sprintResumeAt !== undefined && sprintResumeAt > 0 ? (
+                    <div className="text-lg font-black text-violet-300">{sprintResumeAt} / {sprintManifest.questionIds.length} · Devam et</div>
+                  ) : (
+                    <div className="text-sm font-bold text-violet-300">
+                      {sprintManifest.breakdown.unseen} yeni · {sprintManifest.breakdown.wrong} yanlış · {sprintManifest.breakdown.favoriteCorrect} doğru favori
+                    </div>
+                  )}
+                  <div className={`${theme.subtext} text-xs mt-1`}>
+                    Yalnız görülmemiş, yanlış ve doğru favoriler · sabit günlük liste
+                  </div>
+                </div>
+              </div>
+            </Button>
+          )}
           
           <Button onClick={onDailyPlanClick} variant="unstyled" className={`stagger-item col-span-2 md:col-span-2 lg:col-span-3 row-span-2 ${theme.cardGlass} rounded-[2rem] p-6 sm:p-8 text-left card-hover group border border-orange-500/10 hover:border-orange-500/30 overflow-hidden relative`}>
             <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-orange-500/20 blur-3xl rounded-full"></div>
@@ -2198,6 +2335,22 @@ function SettingsModal({ settings, setSettings, onClose, theme, onExport, onImpo
                   variant="unstyled"
                   className={`py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-wider transition-all ${settings.fontSize === s ? 'bg-emerald-500 text-black shadow-md shadow-emerald-500/20' : `${theme.inputBg} ${theme.subtext} hover:bg-white/[0.08]`}`}>
                   {s === 'small' ? 'KÜÇÜK' : s === 'normal' ? 'ORTA' : 'BÜYÜK'}
+                </Button>
+              ))}
+            </div>
+          </div>
+          <div>
+            <label className={`${theme.subtext} text-[10px] font-bold tracking-widest uppercase block mb-3`}>70 GÜN SPRINT · GÜNLÜK SORU</label>
+            <div className="grid grid-cols-3 gap-2">
+              {([100, 150, 200] as const).map(budget => (
+                <Button
+                  key={budget}
+                  onClick={() => setSettings({ ...settings, sprintBudget: budget })}
+                  variant="unstyled"
+                  aria-pressed={settings.sprintBudget === budget}
+                  className={`py-2.5 rounded-xl text-[10px] font-bold uppercase tracking-wider transition-all ${settings.sprintBudget === budget ? 'bg-violet-500 text-white shadow-md shadow-violet-500/20' : `${theme.inputBg} ${theme.subtext} hover:bg-white/[0.08]`}`}
+                >
+                  {budget}
                 </Button>
               ))}
             </div>

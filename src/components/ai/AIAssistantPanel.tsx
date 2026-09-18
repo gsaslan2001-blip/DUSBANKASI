@@ -1,5 +1,5 @@
 import { memo, useMemo } from 'react';
-import { Sparkle, XCircle } from '@phosphor-icons/react';
+import { CheckCircle, CircleNotch, PlusCircle, Sparkle, XCircle } from '@phosphor-icons/react';
 import DOMPurify, { type Config as DOMPurifyConfig } from 'dompurify';
 import { renderMarkdown } from '../../lib/markdown';
 import { Button } from '../ui/Button';
@@ -13,6 +13,9 @@ export type AIAssistantPanelProps = {
   answer: string | null;
   onClose: () => void;
   onRetry?: () => void;
+  onAddToExplanation?: () => void;
+  addingToExplanation?: boolean;
+  addedToExplanation?: boolean;
   theme: Theme;
   settings: UserSettings;
 };
@@ -24,11 +27,15 @@ export type AIAssistantPanelProps = {
  */
 // AUDIT: G1 — izin verilen HTML etiketleri kümesi (script/iframe/object yasak)
 const PURIFY_CONFIG: DOMPurifyConfig = {
-  ALLOWED_TAGS: ['p', 'strong', 'em', 'ul', 'ol', 'li', 'code', 'pre', 'h1', 'h2', 'h3', 'br', 'span', 'blockquote'],
+  ALLOWED_TAGS: ['p', 'strong', 'em', 'ul', 'ol', 'li', 'code', 'pre', 'h1', 'h2', 'h3', 'br', 'span', 'blockquote', 'div'],
   ALLOWED_ATTR: ['class'],
 };
 
-export const AIAssistantPanel = memo(function AIAssistantPanel({ visible, loading, error, answer, onClose, onRetry, theme, settings }: AIAssistantPanelProps) {
+export const AIAssistantPanel = memo(function AIAssistantPanel({
+  visible, loading, error, answer, onClose, onRetry,
+  onAddToExplanation, addingToExplanation = false, addedToExplanation = false,
+  theme, settings,
+}: AIAssistantPanelProps) {
   // AUDIT: G1 — dangerouslySetInnerHTML öncesi DOMPurify sanitize
   const html = useMemo(() => {
     if (!answer) return '';
@@ -104,6 +111,30 @@ export const AIAssistantPanel = memo(function AIAssistantPanel({ visible, loadin
             <div className="prose-custom" dangerouslySetInnerHTML={{ __html: html }} />
           )}
         </div>
+        {answer && onAddToExplanation && (
+          <div className={`p-4 border-t ${theme.border} shrink-0 bg-[color:var(--color-surface-2)]`}>
+            <Button
+              onClick={onAddToExplanation}
+              disabled={loading || addingToExplanation || addedToExplanation}
+              variant="unstyled"
+              className={`w-full py-3 px-4 rounded-xl flex items-center justify-center gap-2 text-xs font-black tracking-wide transition-all ${
+                addedToExplanation
+                  ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/20'
+                  : 'bg-indigo-500 text-white hover:bg-indigo-600 shadow-lg shadow-indigo-500/15'
+              } disabled:cursor-not-allowed disabled:opacity-70`}
+            >
+              {addingToExplanation ? (
+                <><CircleNotch size={17} className="animate-spin" /> AÇIKLAMAYA EKLENİYOR…</>
+              ) : addedToExplanation ? (
+                <><CheckCircle size={17} weight="bold" /> AÇIKLAMAYA EKLENDİ</>
+              ) : loading ? (
+                <><CircleNotch size={17} className="animate-spin" /> YANIT TAMAMLANIYOR…</>
+              ) : (
+                <><PlusCircle size={17} weight="bold" /> AÇIKLAMAYA EKLE</>
+              )}
+            </Button>
+          </div>
+        )}
       </div>
     </>
   );

@@ -16,6 +16,14 @@ from config import SUPABASE_URL, SUPABASE_KEY
 # Eşzamanlı Supabase isteği limiti (rate limit koruması)
 _SEMAPHORE_LIMIT = 10
 
+def create_session() -> aiohttp.ClientSession:
+    """DNS çözümleme hatalarını (ARES_ECONNREFUSED) önlemek için aiodns (c-ares) yerine 
+    ThreadedResolver zorlayarak bir ClientSession döndürür."""
+    from aiohttp.resolver import ThreadedResolver
+    connector = aiohttp.TCPConnector(resolver=ThreadedResolver())
+    return aiohttp.ClientSession(connector=connector)
+
+
 
 def _headers(extra: dict = None) -> dict:
     base = {
@@ -129,7 +137,7 @@ async def batch_flag(lesson: str, items: list, log_path: str) -> tuple[int, int]
     ok = 0
     errors = 0
 
-    async with aiohttp.ClientSession() as session:
+    async with create_session() as session:
 
         async def _flag_one(item: dict):
             nonlocal ok, errors
@@ -171,7 +179,7 @@ async def batch_delete(lesson: str, items: list, log_path: str) -> tuple[int, in
     ok = 0
     errors = 0
 
-    async with aiohttp.ClientSession() as session:
+    async with create_session() as session:
 
         async def _delete_one(item: dict):
             nonlocal ok, errors

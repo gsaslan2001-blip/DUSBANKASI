@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect, useCallback, useReducer } from 'react';
+import { useState, useRef, useEffect, useCallback } from 'react';
 import type { Question } from '../data';
 import { isAIConfigured, explainWithAIStream } from '../lib/ai';
 
@@ -22,17 +22,17 @@ export function useAIAssistant(question: Question | undefined): UseAIAssistantRe
   const [aiError, setAiError] = useState<string | null>(null);
   const [showPanel, setShowPanel] = useState(false);
   // AUDIT: R1 — retry sayacı
-  const [retryCount, incRetry] = useReducer((n: number) => n + 1, 0);
+  const [retryCount, setRetryCount] = useState(0);
 
   // PDF fetch + streaming iptali için ref
   const aiAbortRef = useRef<AbortController | null>(null);
 
-  const requestAI = useCallback(async () => {
+  const runRequest = useCallback(async (force: boolean) => {
     if (!question) return;
 
     // Panel zaten açıksa ve cevap varsa sadece göster
     // AUDIT: R1 — aiError durumunda erken return kaldırıldı, retry mümkün olsun
-    if (aiAnswer || aiLoading) {
+    if (aiLoading || (!force && aiAnswer)) {
       setShowPanel(true);
       return;
     }
@@ -71,14 +71,18 @@ export function useAIAssistant(question: Question | undefined): UseAIAssistantRe
     }
   }, [question, aiAnswer, aiLoading]);
 
+  const requestAI = useCallback(async () => {
+    await runRequest(false);
+  }, [runRequest]);
+
   // AUDIT: R1 — retry: aiError temizle, sayacı artır, tekrar çağır
   const retryAI = useCallback(async () => {
     if (retryCount >= MAX_RETRY) return;
     setAiError(null);
     setAiAnswer(null);
-    incRetry();
-    await requestAI();
-  }, [retryCount, requestAI]);
+    setRetryCount((count) => count + 1);
+    await runRequest(true);
+  }, [retryCount, runRequest]);
 
   // Soru değişiminde (id veya referans değişimi) mevcut isteği iptal et
   const questionId = question?.id;
@@ -89,6 +93,7 @@ export function useAIAssistant(question: Question | undefined): UseAIAssistantRe
     setAiAnswer(null);
     setAiError(null);
     setAiLoading(false);
+    setRetryCount(0);
   }, [questionId]);
 
   return { aiAnswer, aiLoading, aiError, retryCount, showPanel, setShowPanel, requestAI, retryAI };

@@ -15,27 +15,48 @@ const escapeHtml = (s: string): string =>
 export function renderMarkdown(text: string): string {
   const lines = text.split('\n');
   let html = '';
-  let inList = false;
+  let listType: 'ul' | 'ol' | null = null;
 
   // `**bold**` → <strong>. escapeHtml'den SONRA çalışır; `*` escape edilmez.
   const processBold = (raw: string): string =>
     escapeHtml(raw).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 
+  const closeList = () => {
+    if (!listType) return;
+    html += `</${listType}>`;
+    listType = null;
+  };
+
+  const openList = (type: 'ul' | 'ol') => {
+    if (listType === type) return;
+    closeList();
+    html += type === 'ul'
+      ? '<ul class="space-y-2 my-3 ml-1 list-none">'
+      : '<ol class="space-y-2 my-3 ml-5 list-decimal">';
+    listType = type;
+  };
+
   for (const line of lines) {
     if (line.startsWith('- ')) {
-      if (!inList) { html += '<ul class="space-y-2 my-3 ml-1 list-none">'; inList = true; }
+      openList('ul');
       html += `<li class="leading-relaxed flex gap-2"><span class="text-[#0a84ff] shrink-0">▸</span><span>${processBold(line.slice(2))}</span></li>`;
+    } else if (/^\d+\.\s+/.test(line)) {
+      openList('ol');
+      html += `<li class="leading-relaxed pl-1">${processBold(line.replace(/^\d+\.\s+/, ''))}</li>`;
     } else if (/^#{1,3} /.test(line)) {
-      if (inList) { html += '</ul>'; inList = false; }
+      closeList();
       html += `<p class="font-black mt-5 mb-2 text-sm opacity-70 tracking-widest uppercase">${processBold(line.replace(/^#{1,3} /, ''))}</p>`;
+    } else if (/^\s*---+\s*$/.test(line)) {
+      closeList();
+      html += '<div class="my-4 border-t border-white/10"></div>';
     } else if (line.trim() === '') {
-      if (inList) { html += '</ul>'; inList = false; }
+      closeList();
       html += '<div class="h-2"></div>';
     } else {
-      if (inList) { html += '</ul>'; inList = false; }
+      closeList();
       html += `<p class="leading-relaxed my-1">${processBold(line)}</p>`;
     }
   }
-  if (inList) html += '</ul>';
+  closeList();
   return html;
 }

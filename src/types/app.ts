@@ -3,6 +3,7 @@ import type { Question } from '../data';
 export type AppState =
   | 'select-lesson'
   | 'select-unit'
+  | 'select-unit-amount'
   | 'quiz'
   | 'result'
   | 'import'
@@ -66,6 +67,7 @@ export type CompactSessionInfo = {
 export type UserSettings = {
   theme: 'dark' | 'oled' | 'light';
   fontSize: 'small' | 'normal' | 'large';
+  sprintBudget: 100 | 150 | 200;
 };
 
 // ─── v6: DUS Skor ve Tahmin ───────────────────────────────────────────────

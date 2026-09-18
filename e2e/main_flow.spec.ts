@@ -77,6 +77,7 @@ test.describe('Main Flow - Login, Select Lesson, Start Quiz', () => {
     // 3. Ünite seçimi (Sinir Sistemi)
     await expect(page.getByText('Sinir Sistemi')).toBeVisible({ timeout: 10000 });
     await page.locator('text=Sinir Sistemi').first().click();
+    await page.getByRole('button', { name: /BAŞLA · 1 SORU/ }).click();
 
     // 4. Quiz görünümüne geçtiğini doğrula
     // Seçenek butonları render olmalı

@@ -62,6 +62,7 @@ export const FontSizeSchema = z.enum(['small', 'normal', 'large']);
 export const UserSettingsSchema = z.object({
   theme: ThemeSchema,
   fontSize: FontSizeSchema,
+  sprintBudget: z.union([z.literal(100), z.literal(150), z.literal(200)]).default(200),
 });
 
 /* ─── AnswerDetail ─────────────────────────────────────────────────────── */

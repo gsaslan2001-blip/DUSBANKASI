@@ -11,6 +11,7 @@ import {
 } from '../lib/supabase';
 import { syncStatsDown } from '../lib/stats';
 import { enqueuePendingDelete, getPendingDeletes } from '../lib/pendingDeletes';
+import { getQuestionsFromContentCache, saveQuestionsToContentCache } from '../lib/idb';
 import type { Question, QuestionSkeleton } from '../data';
 
 export type LoadingState = 'idle' | 'loading' | 'loaded' | 'error';
@@ -135,6 +136,31 @@ export function useQuestions(): UseQuestionsResult {
         explanation: edited.explanation,
         image_url: edited.imageUrl ?? null,
       });
+      // On-demand içerik cache'i aksi halde eski açıklamayı süresiz döndürür.
+      // DB yazımından sonra mevcut ham satırı aynı biçimde güncelle.
+      try {
+        const [cached] = await getQuestionsFromContentCache([edited.id]);
+        if (cached) {
+          await saveQuestionsToContentCache([{
+            ...cached,
+            lesson: edited.lesson,
+            unit: edited.unit,
+            question: edited.question,
+            option_a: edited.options.A,
+            option_b: edited.options.B,
+            option_c: edited.options.C,
+            option_d: edited.options.D,
+            option_e: edited.options.E,
+            correct_answer: edited.correctAnswer,
+            explanation: edited.explanation,
+            is_favorite: edited.is_favorite,
+            quality_flag: edited.quality_flag,
+            image_url: edited.imageUrl ?? null,
+          }]);
+        }
+      } catch (cacheError) {
+        console.warn('[useQuestions] Güncellenen soru içerik cache\'ine yazılamadı:', cacheError);
+      }
     } catch (error) {
       // Rollback: önceki state'e dön
       setSkeletons(prev => prev.map(s => s.id === edited.id

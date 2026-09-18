@@ -18,6 +18,17 @@ describe('renderMarkdown — yapı', () => {
     expect(renderMarkdown('## Özet')).toContain('uppercase');
   });
 
+  it('numaralı spotlar → <ol><li>', () => {
+    const html = renderMarkdown('1. İlk spot\n2. İkinci spot');
+    expect(html).toContain('<ol');
+    expect((html.match(/<li/g) ?? []).length).toBe(2);
+    expect(html).toContain('</ol>');
+  });
+
+  it('markdown ayıracı görsel çizgi üretir', () => {
+    expect(renderMarkdown('önce\n---\nsonra')).toContain('border-t');
+  });
+
   it('boş satır boşluk div üretir', () => {
     expect(renderMarkdown('a\n\nb')).toContain('<div class="h-2">');
   });

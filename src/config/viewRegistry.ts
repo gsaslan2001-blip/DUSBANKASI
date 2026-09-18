@@ -27,6 +27,7 @@ export type ViewConfig = {
 export const VIEW_REGISTRY: Record<AppState, ViewConfig> = {
   'select-lesson':          { title: 'Ana Menü',            transition: 'slide', hudMode: 'full' },
   'select-unit':            { title: 'Ünite Seçimi',        transition: 'slide', hudMode: 'compact' },
+  'select-unit-amount':     { title: 'Soru Sayısı',         transition: 'scale', hudMode: 'compact' },
   'quiz':                   { title: 'Soru Çözümü',         transition: 'scale', hudMode: 'sterile' },
   'result':                 { title: 'Sonuç',               transition: 'scale', hudMode: 'compact' },
   'import':                 { title: 'İçe Aktar',           transition: 'fade',  hudMode: 'sterile' },

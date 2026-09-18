@@ -81,11 +81,14 @@ def _normalize_one(raw: dict) -> dict:
     ca = raw.get("correctAnswer") or raw.get("correct_answer") or ""
     ca = str(ca).strip().upper()
 
+    raw_expl = str(raw.get("explanation") or raw.get("aciklama") or raw.get("açıklama") or "").strip()
+    clean_expl = shared.clean_explanation_meta(raw_expl)
+
     return {
         "question": str(raw.get("question") or raw.get("soru") or "").strip(),
         "options": options,
         "correctAnswer": ca,
-        "explanation": str(raw.get("explanation") or raw.get("aciklama") or raw.get("açıklama") or "").strip(),
+        "explanation": clean_expl,
         "lesson": (str(raw.get("lesson") or raw.get("ders") or "").strip() or None),
         "unit": (str(raw.get("unit") or raw.get("ünite") or raw.get("unite") or "").strip() or None),
     }
@@ -252,6 +255,10 @@ def load_questions(path: str) -> list:
             content = f.read()
         if "TÜM SORULARIN DETAYLI ÇÖZÜMLERİ" in content:
             return _load_dus_konu_testi_txt(path)
+        # Eğer dosya içinde <questions... etiketi veya JSON array varsa öncelikle extract_json dene
+        recovered = shared.extract_json(content)
+        if recovered:
+            return [_normalize_one(item) for item in recovered if isinstance(item, dict)]
         return _load_md(path)
     raise ValueError(f"Desteklenmeyen dosya türü: {ext} (JSON / CSV / MD / TXT bekleniyor)")
 
@@ -261,8 +268,8 @@ def main() -> int:
         description="Dosyadan toplu soru ekleme (ajan-bağımsız). JSON / CSV / Markdown / TXT destekler."
     )
     parser.add_argument("dosya", help="Soru dosyası yolu (.json / .csv / .md / .txt)")
-    parser.add_argument("--lesson", help="Ders adı (dosyada yoksa varsayılan olarak uygulanır)")
-    parser.add_argument("--unit", help="Ünite adı (dosyada yoksa varsayılan olarak uygulanır)")
+    parser.add_argument("--lesson", help="Ders adı (verilirse dosyadaki değeri ezer)")
+    parser.add_argument("--unit", help="Ünite adı (verilirse dosyadaki değeri ezer)")
     parser.add_argument("--dry-run", action="store_true", help="Yalnız doğrula + rapor; Supabase'e yazma")
     parser.add_argument("--audit", action="store_true", help="Bitince smart_audit_pipeline.py --lesson çalıştır")
     parser.add_argument("--high-yield", action="store_true", help="Soruları high_yield bayrağıyla ekle (Ölüm maçından kaçınır)")
@@ -284,11 +291,11 @@ def main() -> int:
         print("⚠️ Dosyada soru bulunamadı.")
         return 1
 
-    # lesson/unit doldur: satır değeri > CLI bayrağı
+    # lesson/unit doldur: CLI bayrağı (varsa) > satır değeri
     for q in questions:
-        if not q.get("lesson"):
+        if args.lesson:
             q["lesson"] = args.lesson
-        if not q.get("unit"):
+        if args.unit:
             q["unit"] = args.unit
 
     missing = [i for i, q in enumerate(questions) if not q.get("lesson") or not q.get("unit")]

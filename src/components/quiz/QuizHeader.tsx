@@ -106,17 +106,27 @@ export const QuizHeader = memo(function QuizHeader({
       </div>
 
       {/* ── RIGHT: action buttons ────────────────────────────── */}
-      <div className="flex gap-1 items-center shrink-0 relative">
-        {mode === 'exam' && (
-          <Button
-            onClick={() => onFinishEarly(answers)}
-            variant="unstyled"
-            size="sm"
-            className="bg-red-500/10 text-red-400 border border-red-500/15 hover:bg-red-500/20 h-6 px-2 text-[10px]"
-          >
-            BİTİR
-          </Button>
-        )}
+      <div className="flex gap-1.5 items-center shrink-0 relative">
+        <Button
+          onClick={() => onFinishEarly(answers)}
+          variant="unstyled"
+          size="sm"
+          className="bg-red-500/10 text-red-400 border border-red-500/15 hover:bg-red-500/20 h-6 px-2 text-[10px]"
+        >
+          BİTİR
+        </Button>
+
+        {/* Doğrudan dışarı taşınan SİL butonu */}
+        <Button
+          onClick={() => onDeleteQuestion(question.id)}
+          variant="unstyled"
+          aria-label="Soruyu sil"
+          title="Soruyu Sil"
+          className="flex items-center gap-1 h-6 px-2 rounded-md bg-red-500/10 text-red-400 border border-red-500/20 hover:bg-red-500/20 hover:border-red-500/40 hover:text-red-300 transition-all text-[11px] font-bold tracking-wider uppercase font-sans cursor-pointer active:scale-95"
+        >
+          <Trash size={12} weight="bold" />
+          <span>Sil</span>
+        </Button>
 
         {/* Tek overflow menü butonu */}
         <div className="relative">
@@ -162,15 +172,6 @@ export const QuizHeader = memo(function QuizHeader({
                   className={`w-full justify-start text-left px-3 py-2 text-[12px] hover:${theme.inputBg} flex items-center gap-2 ${theme.subtext}`}
                 >
                   <Flag size={12} /> Bildir
-                </Button>
-                <div className={`my-1 border-t ${theme.border}`} />
-                <Button
-                  onClick={() => { onDeleteQuestion(question.id); setMenuOpen(false); }}
-                  variant="unstyled"
-                  role="menuitem"
-                  className="w-full justify-start text-left px-3 py-2 text-[12px] hover:bg-red-500/10 flex items-center gap-2 text-red-500"
-                >
-                  <Trash size={12} /> Sil
                 </Button>
               </div>
             </>

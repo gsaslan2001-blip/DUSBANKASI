@@ -778,12 +778,43 @@ def _verdict_targets(verdict: str, r: dict) -> list:
     return [(id2, t2, e2, id1, t1)]  # keep_1 (varsayılan)
 
 
+_ROUTER_CACHE = None
+
+def _get_smart_dedup_router():
+    global _ROUTER_CACHE
+    if _ROUTER_CACHE is not None:
+        return _ROUTER_CACHE
+    smart_dedup_dir = r"C:\Users\FURKAN\AppData\Roaming\Anki2\addons21\smart_dedup_addon"
+    if os.path.exists(smart_dedup_dir):
+        if smart_dedup_dir not in sys.path:
+            sys.path.insert(0, smart_dedup_dir)
+        try:
+            import providers
+            cfg_path = os.path.join(smart_dedup_dir, "config.json")
+            if os.path.exists(cfg_path):
+                with open(cfg_path, "r", encoding="utf-8") as f:
+                    cfg = json.load(f)
+                _ROUTER_CACHE = providers.DecisionRouter(
+                    gemini_keys=cfg.get("gemini_api_keys", []),
+                    gemini_models=cfg.get("gemini_models", ["gemini-3.1-flash-lite", "gemini-3.5-flash"]),
+                    deepseek_key=cfg.get("deepseek_api_key", ""),
+                    deepseek_model=cfg.get("deepseek_model", "deepseek-v4-flash"),
+                    enable_gemini=True,
+                    enable_deepseek=True
+                )
+                return _ROUTER_CACHE
+        except Exception as e:
+            print(f"   ⚠️ Smart Dedup Addon router yüklenemedi: {e}")
+    return None
+
+
 def _apply_decision(r, decision, seen_ids, ids_to_action, curation_log) -> tuple[int, int]:
-    """Bir çiftin DeepSeek kararını yapı listelerine işler.
+    """Bir çiftin DeepSeek/Gemini kararını yapı listelerine işler.
     Döndürür: (kept_both_delta, eliminated_delta)."""
     verdict = decision.get("verdict", "keep_1")
     conf = decision.get("confidence", 0.0)
-    reason = f"deepseek-v4-pro [{verdict} | güven={conf:.2f}]: {decision.get('reason', '')}"
+    source = decision.get("source", "deepseek-v4-pro")
+    reason = f"{source} [{verdict} | güven={conf:.2f}]: {decision.get('reason', '')}"
 
     if verdict == "keep_both":
         curation_log.append({
@@ -953,23 +984,35 @@ async def curate_pairs_async(results: list, concurrency: int = 8) -> tuple[list,
         print(f"  İkisi de korunan: {kept_both} | Elenen: {eliminated} (koruma kapıları tüm çiftleri filtreledi)")
         return ids_to_action, curation_log
 
-    # Faz B — paralel DeepSeek ölüm maçları
-    client = AsyncOpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com/v1") if DEEPSEEK_API_KEY else None
-    semaphore = asyncio.Semaphore(concurrency)
-    print(f"  ⚔️ {len(to_match)} çift paralel ölüm maçına giriyor (eşzamanlılık={concurrency})...")
+    # Faz B — paralel Gemini / DeepSeek ölüm maçları
+    router = _get_smart_dedup_router()
+    if router and router.gemini_alive():
+        print(f"  ⚔️ {len(to_match)} çift Gemini Staged Router (smart_dedup_addon) ile ölüm maçına giriyor...")
+        async def _eval_one(r):
+            q1 = r.get("q1_raw", {})
+            q2 = r.get("q2_raw", {})
+            is_expl_clone = (r.get("flag_type") == "aciklama_klonu")
+            sim = r.get("overlap_ratio")
+            return await asyncio.to_thread(router.decide, q1, q2, is_expl_clone, None, sim)
 
-    decisions = await asyncio.gather(*[
-        call_deepseek_decision_async(
-            r.get("q1_raw", {}), 
-            r.get("q2_raw", {}), 
-            client, 
-            semaphore, 
-            is_expl_clone=(r.get("flag_type") == "aciklama_klonu")
-        )
-        for r in to_match
-    ])
-    if client is not None:
-        await client.close()
+        decisions = await asyncio.gather(*[_eval_one(r) for r in to_match])
+    else:
+        client = AsyncOpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com/v1") if DEEPSEEK_API_KEY else None
+        semaphore = asyncio.Semaphore(concurrency)
+        print(f"  ⚔️ {len(to_match)} çift paralel DeepSeek ölüm maçına giriyor (eşzamanlılık={concurrency})...")
+
+        decisions = await asyncio.gather(*[
+            call_deepseek_decision_async(
+                r.get("q1_raw", {}), 
+                r.get("q2_raw", {}), 
+                client, 
+                semaphore, 
+                is_expl_clone=(r.get("flag_type") == "aciklama_klonu")
+            )
+            for r in to_match
+        ])
+        if client is not None:
+            await client.close()
 
     # Faz C — sıralı (belirlenimci) dedup işleme
     for r, decision in zip(to_match, decisions):

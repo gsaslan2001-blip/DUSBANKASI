@@ -1,10 +1,17 @@
-import { forwardRef, memo, useEffect, useState } from 'react';
+import { forwardRef, memo, useEffect, useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { CheckCircle, XCircle, Sparkle, CircleNotch, X } from '@phosphor-icons/react';
 import type { Question } from '../../data';
 import { semanticColors } from '../../theme';
 import { staggerParent, staggerChild } from '../../lib/motion';
 import { Button } from '../ui/Button';
+import DOMPurify, { type Config as DOMPurifyConfig } from 'dompurify';
+import { renderMarkdown } from '../../lib/markdown';
+
+const EXPLANATION_PURIFY_CONFIG: DOMPurifyConfig = {
+  ALLOWED_TAGS: ['p', 'strong', 'em', 'ul', 'ol', 'li', 'code', 'pre', 'h1', 'h2', 'h3', 'br', 'span', 'blockquote', 'div'],
+  ALLOWED_ATTR: ['class'],
+};
 
 export type ExplanationPanelProps = {
   question: Question;
@@ -24,6 +31,10 @@ export const ExplanationPanel = memo(forwardRef<HTMLDivElement, ExplanationPanel
   ref,
 ) {
   const [zoomOpen, setZoomOpen] = useState(false);
+  const explanationHtml = useMemo(
+    () => String(DOMPurify.sanitize(renderMarkdown(question.explanation ?? ''), EXPLANATION_PURIFY_CONFIG)),
+    [question.explanation],
+  );
 
   useEffect(() => {
     if (!zoomOpen) return;
@@ -59,7 +70,11 @@ export const ExplanationPanel = memo(forwardRef<HTMLDivElement, ExplanationPanel
             {isCorrect ? <CheckCircle size={24} weight="thin" /> : <XCircle size={24} weight="thin" />}
             <div className="text-sm tracking-wide font-black uppercase text-opacity-90">{isCorrect ? 'HARİKA' : `YANLIŞ: ${question.correctAnswer}`}</div>
           </motion.div>
-          <motion.div variants={staggerChild} className="prose-custom opacity-90 leading-relaxed font-medium">{question.explanation}</motion.div>
+          <motion.div
+            variants={staggerChild}
+            className="prose-custom opacity-90 leading-relaxed font-medium"
+            dangerouslySetInnerHTML={{ __html: explanationHtml }}
+          />
           <motion.button
             variants={staggerChild}
             onClick={onExplainAI}

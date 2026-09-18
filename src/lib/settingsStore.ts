@@ -2,7 +2,7 @@ import { createStore } from './createStore';
 import type { UserSettings } from '../types/app';
 
 const STORAGE_KEY = 'dus_settings';
-const DEFAULTS: UserSettings = { theme: 'dark', fontSize: 'normal' };
+const DEFAULTS: UserSettings = { theme: 'dark', fontSize: 'normal', sprintBudget: 200 };
 
 function loadInitial(): UserSettings {
   try {
@@ -33,7 +33,7 @@ const initial = loadInitial();
 // Tema sınıfını ilk yüklemede uygula (eski App.tsx mount effect'inin yerine).
 persist(initial);
 
-/** Global kullanıcı ayarları (tema + font boyutu) — localStorage'a persist edilir. */
+/** Global kullanıcı ayarları (tema + font boyutu + sprint bütçesi) — localStorage'a persist edilir. */
 export const useSettingsStore = createStore<SettingsState>(set => ({
   settings: initial,
   setSettings: next => {

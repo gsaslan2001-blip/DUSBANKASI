@@ -2,9 +2,11 @@
  * Gemini — Edge-uyumlu streaming istemcisi (çoklu key + model fallback).
  *
  * Öncelik sırası (varsayılan, ENV ile override edilebilir):
- *   1) gemini-3.5-flash
- *   2) gemini-3.1-flash-lite
- *   3) gemini-3-flash-preview
+ *   1) gemini-3.7-flash
+ *   2) gemini-3.6-flash
+ *   3) gemini-3.5-flash
+ *   4) gemini-3.1-flash-lite
+ *   5) gemini-3-flash-preview
  *
  * Key havuzu (sırayla denenir):
  *   GEMINI_API_KEY_1, GEMINI_API_KEY_2, GEMINI_API_KEY_3, ...
@@ -14,13 +16,19 @@
  * stream içi hata olursa sıradakine geçilir. İlk başarılı stream tüketilir.
  */
 
-const DEFAULT_MODELS = ['gemini-3.5-flash', 'gemini-3.1-flash-lite', 'gemini-3-flash-preview'];
+export const DEFAULT_MODELS = [
+  'gemini-3.7-flash',
+  'gemini-3.6-flash',
+  'gemini-3.5-flash',
+  'gemini-3.1-flash-lite',
+  'gemini-3-flash-preview',
+] as const;
 const BASE = 'https://generativelanguage.googleapis.com/v1beta';
 
 function getModels(): string[] {
   const env = process.env.GEMINI_MODELS_AI ?? process.env.GEMINI_MODEL_AI;
   if (env && env.trim()) return env.split(',').map((s) => s.trim()).filter(Boolean);
-  return DEFAULT_MODELS;
+  return [...DEFAULT_MODELS];
 }
 
 function getKeys(): string[] {
@@ -41,15 +49,23 @@ async function openStream(
   systemInstruction: string,
   userText: string,
 ): Promise<ReadableStreamDefaultReader<Uint8Array>> {
-  const url = `${BASE}/models/${model}:streamGenerateContent?alt=sse&key=${apiKey}`;
+  const url = `${BASE}/models/${model}:streamGenerateContent?alt=sse`;
   const body = {
     systemInstruction: { parts: [{ text: systemInstruction }] },
     contents: [{ role: 'user', parts: [{ text: userText }] }],
-    generationConfig: { temperature: 0.4, topP: 0.95 },
+    generationConfig: {
+      maxOutputTokens: 8192,
+      // Tıbbi soru denetiminde hızdan çok gerekçe kalitesi önceliklidir.
+      // Gemini 3.x'te eski temperature/topP yerine thinkingLevel kullanılır.
+      thinkingConfig: { thinkingLevel: 'high' },
+    },
   };
   const res = await fetch(url, {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      'Content-Type': 'application/json',
+      'x-goog-api-key': apiKey,
+    },
     body: JSON.stringify(body),
   });
   if (!res.ok || !res.body) {

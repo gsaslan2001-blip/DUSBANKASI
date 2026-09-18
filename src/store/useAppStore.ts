@@ -41,7 +41,7 @@ type AppStore = {
   setStatsFilters: (f: StatsFilters | ((prev: StatsFilters) => StatsFilters)) => void;
 };
 
-const DEFAULT_SETTINGS: UserSettings = { theme: 'dark', fontSize: 'normal' };
+const DEFAULT_SETTINGS: UserSettings = { theme: 'dark', fontSize: 'normal', sprintBudget: 200 };
 const DEFAULT_FILTERS: StatsFilters = { dateRange: '30d', selectedLessons: [] };
 
 type PersistedSlice = { settings: UserSettings; goals: UserGoals; statsFilters: StatsFilters };

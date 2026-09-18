@@ -221,6 +221,7 @@ test.describe('1. Misafir Deneme Akışı (Guest Quiz Critical Path)', () => {
     // "Sinir Sistemi" ünitesini seç → quiz başlar
     // Ünite listesinde ilk üniteye tıkla
     await page.locator('text=Sinir Sistemi').first().click();
+    await page.getByRole('button', { name: /BAŞLA · 2 SORU/ }).click();
 
     // QuizView yüklenmeli
     await page.waitForTimeout(1000);
@@ -538,14 +539,11 @@ test.describe('6. Soru Kartı Etkileşimleri (Favoriye Alma & Hata Bildirimi)', 
     await page.locator('h3', { hasText: 'Fizyoloji' }).click();
     await page.waitForTimeout(500);
     await page.locator('text=Sinir Sistemi').first().click();
+    await page.getByRole('button', { name: /BAŞLA · 2 SORU/ }).click();
     await page.waitForTimeout(1000);
 
-    // Soru kartındaki Star (favori) butonunu bul — Phosphor Star icon
-    const starBtn = page.locator('button').filter({ has: page.locator('svg') }).first();
-    const starBtnInCard = page.locator('.double-bezel-inner button').first();
-    const favBtn = (await starBtnInCard.isVisible({ timeout: 3000 }).catch(() => false))
-      ? starBtnInCard
-      : starBtn;
+    // Başlıktaki SİL gibi başka ikonlu butonlara kaymamak için erişilebilir favori adını kullan.
+    const favBtn = page.getByRole('button', { name: /Favorilere ekle|Favorilerden çıkar/ });
 
     if (await favBtn.isVisible({ timeout: 5000 }).catch(() => false)) {
       await favBtn.click();
@@ -565,9 +563,9 @@ test.describe('6. Soru Kartı Etkileşimleri (Favoriye Alma & Hata Bildirimi)', 
         await reportOpt.click();
         await page.waitForTimeout(500);
 
-        // Report modalı açılmalı — içinde sebep seçimi olmalı
-        // "Vazgeç" butonu (genellikle kapatma) — ya da kapatmak için X icon
-        const closeBtn = page.locator('[aria-label="Kapat"], button:has-text("İptal"), button:has-text("Vazgeç")').first();
+        // Yalnız rapor modalının kendi iptal düğmesini hedefle; arkadaki overlay düğmelerini değil.
+        const reportDialog = page.getByRole('dialog', { name: 'Soruyu Raporla' });
+        const closeBtn = reportDialog.getByRole('button', { name: 'İPTAL' });
         if (await closeBtn.isVisible({ timeout: 3000 }).catch(() => false)) {
           await closeBtn.click();
         } else {

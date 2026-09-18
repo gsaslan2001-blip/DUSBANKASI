@@ -5,7 +5,23 @@ Bu iş akışı, kullanıcının ilettiği ham soruları yapılandırılmış JS
 ## 📥 Giriş
 Kullanıcı bir veya birden fazla soruyu metin veya dosya formatında iletir.
 
-## 🛠️ İşlem Adımları
+---
+
+### ⚡ HIZLI YOL (FAST TRACK) — Hazır Dosya / NotebookLM Çıktısı Varsa
+Eğer kullanıcı bir dosya yolu verdiyse (`.md`, `.txt`, `.json`, `.csv`) veya NotebookLM ham çıktısı söz konusuysa:
+**ASLA özel / geçici scratch import scripti yazma!** `scripts/add_questions.py` aracı tüm formatları, markdown kaçışlarını (`<questions\_json>`, `**[**` vb.) ve açıklama içi yapay zeka meta-yorumlarını ("metinde belirtildiği üzere...") otomatik temizleyip 1536d çift vektörle yazar.
+
+```bash
+# 1. Adım: Dry-run ile kontrol et (sıfır yazma)
+python scripts/add_questions.py "<DOSYA_YOLU>" --lesson "<DERS>" --unit "<ÜNİTE>" --dry-run
+
+# 2. Adım: Gerçek aktarım (yeni ünite ise --force-new-unit; ölüm maçı istenmiyorsa --audit ekleme)
+python scripts/add_questions.py "<DOSYA_YOLU>" --lesson "<DERS>" --unit "<ÜNİTE>" --force-new-unit
+```
+
+---
+
+## 🛠️ Manuel Metin İşlem Adımları (Dosya Yoksa / Serbest Sohbet Metni İse)
 
 ### Adım 1: JSON Dönüşümü
 Gelen metin aşağıdaki şemaya uygun bir listeye çevrilir:
@@ -43,7 +59,7 @@ tarafından otomatik uygulanır — geçemeyen sorular `recovery/rejected/`'a lo
 
 ### Adım 3: 🚀 İçe Aktarma (Import)
 Kontrol listesini geçen sorular, projedeki `shared.deploy_to_supabase` fonksiyonu kullanılarak
-sisteme eklenir (OpenAI 1536-dim embedding + 10'arlık chunked write).
+sisteme eklenir (OpenAI 1536-dim embedding + 10'arlık chunked write, `quality_flag = NULL`).
 
 ### Adım 4: ⚔️ Ölüm Maçı (Post-Production, OTOMATİK)
 Bir ünite için soru ekleme/üretim talebi geldiğinde akış şudur: **üretim hattı çalışır →

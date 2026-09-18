@@ -10,6 +10,11 @@
       "env": {
         "API_KEY": "YENİ_ANAHTARIN"
       }
+    },
+    "notebooklm": {
+      "type": "stdio",
+      "command": "C:\\Users\\FURKAN\\.local\\bin\\notebooklm-mcp.exe",
+      "args": []
     }
   }
 }

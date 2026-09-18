@@ -79,6 +79,7 @@ test.describe('Question Management API and UI flows', () => {
     
     await expect(page.getByText('Hücre')).toBeVisible({ timeout: 10000 });
     await page.locator('text=Hücre').first().click();
+    await page.getByRole('button', { name: /BAŞLA · 1 SORU/ }).click();
 
     // Verify Quiz loaded
     await expect(page.locator('text=/1 \\/ 1/').first()).toBeVisible({ timeout: 10000 });

@@ -5,7 +5,7 @@
  *  1) Tarayıcı: { question, options, lesson, unit, correctAnswer } gönderir (~1 KB).
  *  2) Bu fonksiyon: lesson → Pinecone `myppdfs` namespace.
  *  3) Pinecone Integrated Inference (E5 1024) + bge-reranker-v2-m3 → en alakalı 5 pasaj.
- *  4) Gemini 2.5 Flash'a sadece pasajlar + soru gönderilir (PDF YOK).
+ *  4) En yeni erişilebilir Gemini 3.x modeline yalnızca pasajlar + soru gönderilir (PDF YOK).
  *  5) Yanıt SSE-benzeri text/plain stream olarak tarayıcıya akar.
  */
 
@@ -16,7 +16,7 @@ import { SYSTEM_PROMPT, buildUserPrompt } from './_lib/prompt.js';
 
 export const config = { runtime: 'edge' };
 
-type Body = {
+export type ExplainBody = {
   question: string;
   options: { A: string; B: string; C: string; D: string; E: string };
   lesson: string;
@@ -24,9 +24,13 @@ type Body = {
   correctAnswer: 'A' | 'B' | 'C' | 'D' | 'E';
 };
 
-function buildSearchQuery(b: Body): string {
-  const correctText = b.options[b.correctAnswer] ?? '';
-  return `${b.question}\nDoğru: ${correctText}`;
+export function buildSearchQuery(b: ExplainBody): string {
+  const optionBlock = Object.entries(b.options)
+    .map(([key, value]) => `${key}) ${value}`)
+    .join('\n');
+  // Retrieval cevap anahtarıyla yönlendirilmez. Böylece RAG, yanlış bir
+  // veritabanı anahtarını doğrulayacak pasajları seçmeye zorlanmaz.
+  return `${b.question}\n${optionBlock}`;
 }
 
 export default async function handler(req: Request): Promise<Response> {
@@ -34,9 +38,9 @@ export default async function handler(req: Request): Promise<Response> {
     return new Response('Method Not Allowed', { status: 405 });
   }
 
-  let body: Body;
+  let body: ExplainBody;
   try {
-    body = (await req.json()) as Body;
+    body = (await req.json()) as ExplainBody;
   } catch {
     return new Response('Geçersiz JSON gövde.', { status: 400 });
   }

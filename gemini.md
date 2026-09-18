@@ -1,6 +1,26 @@
-# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.41)
+# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.50)
+
+> **v4.50 (2026-09-04) — Oral Patoloji 1 Ünitesi İthalatı (32 Soru + 1536d Vektörleştirme).** `C:\Users\FURKAN\Desktop\DUS\patoloji\pato ünite pdf\Yeni klasör\Oral Patoloji 1 .md` dosyasındaki 32 soru parse edildi; açıklamalardaki gereksiz meta-yorum ve sızıntı ifadeleri ("metinde belirtildiği üzere" vb.) temizlendi. OpenAI `text-embedding-3-large` (1536d) modeli kullanılarak her sorunun soru kökü (`stem_embedding`) ve açıklama (`explanation_embedding`) vektörleri oluşturuldu. Sorular Patoloji dersi `9.oral patoloji 1` ünitesi altında, `quality_flag = NULL` ile Supabase veritabanına aktarıldı (`scripts/import_oral_patoloji_1.py`). Kullanıcı talimatı doğrultusunda ölüm maçı (smart audit) çalıştırılmadı. Canlı probe ile 32/32 sorunun çift vektörlü ve eksiksiz olarak kaydedildiği doğrulandı.
+
+> **v4.49 (2026-08-17) — Günün Denemesi v3 Supabase Entegrasyonu & Service Role Key Devreye Alındı.** (1) **Konfigürasyon:** `SUPABASE_SERVICE_ROLE_KEY` `.env.local` ve `scripts/config.py` içerisine entegre edildi. (2) **Seed:** 14 Ana dersi 6 güne dağıtan 24 satırlık haftalık kural seti `daily_exam_config` tablosuna başarıyla yazıldı. (3) **Canlı Üretim:** Bugünün (`2026-08-17`, 39. Gün) 100 soruluk Günün Denemesi (`Karma Deneme — 17.08.2026`, ID: `adf0c607-f440-4cde-8cd7-56d4d270db09`, Periodontoloji: 25, Fizyoloji: 25, Endodonti: 25, Anatomi: 25) başarıyla üretildi ve veritabanında aktif `pending` statüsüne alındı. (4) **Test:** 201/201 vitest yeşil.
+
+> **v4.48 (2026-08-15) — Soru Silme Butonu Ergonomisi & Günün Denemesi v3 (4 Ders x 25 Soru + Pazar Haftanın Yanlışları).** (1) **UI/UX Soru Silme:** Quiz ekranındaki 3-nokta menüsü içine gizlenmiş "Sil" butonu doğrudan dışarı, soru kutucuğunun üstündeki aksiyon çubuğuna taşındı (`QuizHeader.tsx`); tıklandığında optimistic state filtresi (`setQuestions`, `setUnitQuestions`, `setExamQuestions`) ve toast bildirimi ile anında soru havuzundan kaldırılıyor. (2) **Günün Denemesi v3:** 14 Ana ders referans alındı (`Anatomi`, `Biyokimya`, `Cerrahi`, `Endodonti`, `Fizyoloji`, `Histoloji`, `Mikrobiyoloji`, `Ortodonti`, `Patoloji`, `Pedodonti`, `Periodontoloji`, `Protez`, `Radyoloji`, `Restoratif`); yan dersler (`ÇIKMIŞ SORULAR`, `Pedodonti Cikmis`, `Yanlışlarım`) kalıcı olarak dışlandı. Pazartesi-Cumartesi: günde 4 ana ders x 25 soru = 100 soru (20 yeni + 5 tekrar/zor). Pazar: "Haftanın Yanlışları" — son 7 günde kullanıcının yanlış yaptığı sorular sınırsız sayıda deneme olarak atanır. CLI otomasyonu: `python scripts/generate_daily_exam.py` ve migration: `20260815000100_gunun_denemesi_v3_haftanin_yanlislari.sql`.
+
+> **v4.47 (2026-07-31) — `quality_flag = NULL` Güvencesi & Dokümantasyon Güncellemesi.** DB sütun varsayılanı (`high_quality`) sebebiyle Supabase süzgecine takılan Mikrobiyoloji ünitelerindeki 77 soru `quality_flag = NULL` olarak düzeltildi ve görünür kılındı. (1) `scripts/shared.py` içerisindeki `_write_to_supabase` fonksiyonu güncellendi: `quality_flag` None olduğunda artık açıkça JSON `null` gönderilerek DB default'u olan `high_quality` eziliyor. (2) `GEMINI.md` (§0 Mutlak Yasaklar kural 7) ve `.agents/workflows/` altındaki soru ekleme kılavuzlarına (`WORKFLOW_HIGH_YIELD_EKLEME.md`, `WORKFLOW_CIKMIS_SORU_EKLEME.md`) `quality_flag` görünürlük tablosu ve kati kuralları eklendi.
+
+> **v4.46 (2026-07-31) — İmmünoloji Üniteleri İthalatı (186 Soru + 390 Anki Kartı).** `C:\Users\FURKAN\Desktop\DUS\Mikrobiyoloji\konu pdf\2 - İmmunoloji` altındaki 4 PDF dosyasından üretilen çıktılar Mikrobiyoloji dersi ünite sırasının kaldığı yer olan **06. Üniteden** başlatılarak aktarıldı. (1) **Supabase:** 4 üniteye ait 186 soru `quality_flag = NULL` ile veritabanına yazıldı (`scripts/import_immunoloji.py`). Dağılım: `06 - İmmünoloji Giriş` (42), `07 - Kompleman Sistemi` (45), `08 - Aşırı Duyarlılık Reaksiyonları` (39), `09 - İmmünoloji ve Neoplazi` (60). (2) **Anki:** `Cloze-MAXXİNG` not tipi ile `Text`, `Başlık`, `Terimler` alan eşlemesi kullanılarak 390 Cloze kartı `DUS::Mikrobiyoloji::006-009` destelerine %100 başarıyla eklendi.
+
+> **v4.45 (2026-07-30) — Mikrobiyoloji Dersinin İthalatı (241 Soru).** Kullanıcı talimatı doğrultusunda `C:\Users\FURKAN\Desktop\Projeler\gemini soru üretim\Çıktı` klasöründeki 5 farklı üniteye ait 241 soru, ölüm maçı ve eleme (kürasyon/silme) yapılmaksızın sıfır kayıpla Supabase veritabanına aktarıldı (`scripts/import_mikrobiyoloji.py`). Soru dağılımı: `01 - Bakteri Genel Özellikleri` (45), `02 - Bakterilerin Çoğalması ve Metabolizması` (50), `03 - Aşılar` (49), `04 - Mikroorganizmaları Boyama Yöntemleri` (45), `05 - Antimikrobiyaller` (52). Sorular `quality_flag = NULL` ile yazılarak uygulamada anında erişilebilir hale getirildi.
+
+> **v4.44 (2026-07-29) — Kopya İşaretli 632 Sorunun Veritabanından Kalıcı Temizlenmesi.** Kullanıcı talimatıyla veritabanındaki tüm kopya işaretli (`quality_flag IN ('kavramsal_kopya', 'auto_deleted', 'borderline_kopya')`) toplam 632 soru önce `scripts/recovery/pending/deleted_flagged_backup_20260729_100229.json` dosyasına tam güvenlik yedeği olarak kaydedildi, ardından Supabase veritabanından kalıcı olarak silindi. Kalan toplam aktif temiz soru sayısı 22.109'dur.
+
+
+> **v4.43 (2026-07-29) — Gemini Anatomi Çıktıları İthalatı & Ölüm Maçı Kopya Ayıklaması.** `C:\Users\FURKAN\Desktop\Projeler\gemini soru üretim\Çıktı` klasöründe yer alan 10 Anatomi ünitesine ait sorular parse edildi. `smart_audit_pipeline.py` (Ölüm Maçı) hibrit semantik taraması ve DeepSeek-v4-pro / Gemini-3.5-flash akıllı kürasyonu Anatomi üniteleri üzerinde koşturuldu. Çıkan mükerrer sorular `quality_flag = 'kavramsal_kopya'` olarak işaretlendi. Temiz kaliteli Anatomi soruları aktif kullanıma alındı.
+
+> **v4.42 (2026-07-19) — Çıkmış DUS Soruları İthalat Altyapısı & Parser v2 Entegrasyonu.** **(1) shared.py Kalite Kapısı Bypassing:** `_validate_single_question` ve `validate_question_batch` fonksiyonları güncellenerek `quality_flag == 'cikmis'` (veya ders adında 'cikmis'/'çıkmış' geçmesi) durumunda `bilgi_sizintisi`, `zayif_aciklama`, `ai_dolgu_cumlesi`, `kisa_stem` ve `kaynak_sizintisi` gibi katı filtrelerin otomatik bypass edilmesi sağlandı. **(2) Parser v2 Entegrasyonu:** NotebookLM'in kalın başlık, çok satırlı soru kökleri, Romen rakamlı sıralama ve `O)` / `□)` gibi OCR/markdown hatalarını esnek şekilde parse eden yeni `parse_cikmis_response` (v2) algoritması `import_cikmis_pedo.py` ve `shared.py` formatlarına yedirildi. **(3) Pedodonti Çıkmış Soruları:** Pedodonti dersinin 22 ünitesine ait toplam 173 çıkmış soru, Supabase sıfırlanıp yerel log dosyaları üzerinden %100 başarıyla ve sıfır kayıpla veritabanına aktarıldı. **(4) Yeni İş Akışı:** `.agents/workflows/WORKFLOW_CIKMIS_SORU_EKLEME.md` oluşturularak çıkmış soru çıkarma, temizleme ve aktarma protokolü standartlaştırıldı.
 
 > **v4.41 (2026-07-08) — "Glass Cockpit" güçlendirmesi: Stats Kernel (Web Worker) + ViewRegistry geçişleri + Döner Bezel + zustand kaldırıldı + FSRS YASAK kuralı.** **Faz 1 — ViewRegistry:** `src/config/viewRegistry.ts` (her AppState için transition preset + hudMode politikası), `lib/motion.ts`'e `SPRING` token seti + `viewTransitions`; `App.tsx` main içeriği `key={appState}`'li tek motion.div ile yön-farkındalıklı giriş animasyonu alır (NOT: `AnimatePresence mode="wait"` motion v12'de view swap'ını kilitledi — canlıda tespit edildi, exit animasyonu bilinçli yok). **Faz 2 — Stats Kernel:** saf istatistik çekirdeği `lib/overview.ts`'e çıkarıldı (stats.ts `export *` ile re-export eder, API kırılmaz); `lib/kernel/{core,worker,index}.ts` — tüm türetilmiş veri (overview+projection+dusScore+vitals+pareto) Web Worker'da hesaplanır, `useSyncExternalStore` snapshot store'dan okunur; worker chunk'ı 13 KB ve supabase'siz (saf import zinciri doğrulandı). **zustand SİLİNDİ:** `lib/createStore.ts` (~40 satır el yazımı store); `settingsStore`, `store/useAppStore` (persist formatı zustand-persist ile uyumlu — mevcut kayıtlı hedefler korunur) göç etti; ölü `lib/chartBrushStore.ts` silindi. **Faz 3 — Glass Cockpit (`components/cockpit/`):** `GlideslopeIndicator` (gerekli hız vs mevcut hız iğnesi + tahmini net güven-aralığı bandı), `VitalsStrip` (4 yaşamsal sinyal HUD'u, header altı, `md:` üstü; sterile cockpit: quiz view'larında hudMode='sterile' → hiç render edilmez), `ParetoQueue` (zayıflık × DUS ders ağırlığı, deterministik, tek tık quiz başlatır — `handleStartPareto` on-demand fetch'le). İstatistik sekmesinin tepesine `CockpitPanel` eklendi. **Faz 4 — ChartFrame + Döner Bezel:** `charts/ChartFrame.tsx` (double-bezel sarmalayıcı + drag/tık/ok-tuşu ile dönen zaman-aralığı kadranı, detent'li) + `hooks/useD3Canvas.ts` (ortak ResizeObserver); Günlük Aktivite bölümü ChartFrame'e geçti, 14G/30G/90G bezel kadranıyla scrub edilir (canlıda tık ile 30G→90G doğrulandı). **FSRS YASAK:** §3.1 kalıcı yasak kuralına çevrildi; DESIGN.txt/DUSBANKASI.txt'teki hatalı FSRS iddiaları düzeltildi. **Veri yükleme davranışı DEĞİŞMEDİ** (skeleton full-fetch + içerik on-demand aynen; §3.3 netleştirildi: içerik lazy-load'u Edge limitleri gereği zorunlu ve korunmalı). **Test:** 196/196 vitest yeşil · `tsc -b` + `vite build` exit 0 · dev preview'da kokpit/bezel/HUD canlı doğrulandı (console/network hatasız, 20.530 soru gerçek veriyle).
+
 
 > **v4.40 (2026-07-05) — İstatistik sayfası: FSRS/ölü kod temizliği + Deneme Geçmişi gerçek veriye bağlandı + quiz klavye ipuçları.** `StatisticsView.tsx` FSRS bloğu tamamen kaldırıldı — DUS akışında FSRS zamanlama kullanılmıyordu; silinen dosyalar: `src/lib/fsrsVisual.ts`, `src/components/sections/FsrsHealthPanel.tsx`, `src/components/charts/{FsrsRetentionChart,FsrsDifficultyGrid}.tsx`. `types/app.ts`'ten `FsrsDistribution`/`FsrsHealth` düşürüldü. **Ölü chart temizliği:** hiçbir yerden import edilmeyen `ErrorPatternSankey`, `SprintVelocityChart`, `StudySessionSparkline`, `SegmentChart`, `LessonProgressChart`, `RechartsWeeklyBar` ve karşılık gelen `charts/index.ts` export'ları silindi; kullanılmayan `detectErrorPatterns` importu kaldırıldı. **Duplicate "DUS Skor Analizi" collapsible bölümü kaldırıldı** (Tier 1'de `DusScorePanel` zaten var). **BUG-FIX — milestone confetti:** render gövdesinde koşulsuz `import('canvas-confetti')` her render'da patlıyordu → `useRef` guard'lı `useEffect`'e taşındı (yalnız bir kez). **Deneme Sınavı Geçmişi artık gerçek Supabase verisi:** `supabase.ts`'e `fetchExamHistory(userId)` eklendi (`daily_exams` status=completed + `exam_answers` aggregate → `examAnalytics.buildExamResults` shape'i); `StatisticsView` `useAuth` ile kullanıcıyı alıp `useEffect`'te fetch eder (eski boş placeholder kaldırıldı). **UI/UX — quiz ergonomisi:** `QuizNavigation.tsx` butonlarına premium keycap rozetleri eklendi (←, S, Space; `sm:` altında gizli). **Test:** 196/196 vitest yeşil · `tsc -b` + `vite build` exit 0 · prod deploy (`npx vercel --prod`) HTTP 200 · preview araçlarıyla İstatistik/Hata Analizi/Quiz sekmeleri canlı doğrulandı (console/network hatasız).
 
@@ -74,7 +94,7 @@
 
 Bu belge, DUSBANKASI projesinin tüm kod yapısını, veri tabanı şemasını, algoritmalarını ve veri akışlarını içeren bağlayıcı tek teknik kılavuzdur. LLM ve PAI ajanlarının sistemi sıfır hata ile anlaması, debug etmesi ve genişletmesi için tasarlanmıştır.
 
-> **Ajan, bu projede ilk olarak bu dosyayı okur.** İnsan-odaklı tanıtım ve "proje ne yapar" sorusu için → [README.md](./README.md). Bu dosya "ne, nerede, hangi tetikleyicide hangi araç" sorusunun tek yetkili cevabıdır. Eski `CLAUDE.md` ve `AGENTS.md` kaldırıldı; içerikleri bu dosyaya ve README'ye taşındı.
+> **Ajan Yönlendirmesi:** Hızlı soğuk başlangıç ve pratik operasyonel adımlar için ilk olarak [AGENTS.md](./AGENTS.md) referans alınır. Kapsamlı sistem mimarisi, derin veri akışları ve tetikleyici haritası için bu dosya (`gemini.md`) bağlayıcı tek teknik kaynaktır. İnsan-odaklı genel tanıtım için ise [README.md](./README.md) geçerlidir.
 
 ---
 
@@ -92,11 +112,11 @@ Kullanıcı aşağıdaki komutları verdiğinde, ajan **tam olarak** şu aracı/
 | **"MCP pipeline durumu nedir"** | Kaç ünite tamamlandı, MCP canlı mı, hatalılar hangileri | `python -u scripts/run_mcp_pipeline.py --status` | §4.1-B |
 | "notebooklm oturumunu canlı tut", "login düşmesin / kopmasın" | Oturumu periyodik tazele (kalıcı profilden) | `python scripts/session_keeper.py --once` (tek sefer) · zamanlanmış görev "NotebookLM Session Keeper" 2 saatte bir çalışır | §4.1 |
 | "login/profil durumunu kontrol et", "hangi hesaplar geçerli" | Tüm profillerin login durumunu tek tek kontrol et | `scripts\check_all_logins.bat` | §4.1-B |
-| "şu dosyadaki soruları ekle", "bu json/csv/md'yi yükle" | Hazır dosyadan **ajan-bağımsız** toplu ekleme | `python scripts/add_questions.py "<dosya>" [--lesson "<D>"] [--unit "<Ü>"] [--dry-run] [--audit]` | §4.5 |
+| "şu dosyadaki soruları ekle", "bu json/csv/md'yi yükle", "dosyadan soru aktar" | Hazır dosyadan **ajan-bağımsız** toplu ekleme (Markdown/NotebookLM escape'leri ve meta-yorumlar otomatik temizlenir) | `python scripts/add_questions.py "<dosya>" --lesson "<D>" --unit "<Ü>" [--force-new-unit] [--audit] [--dry-run]` | §4.5 |
 | "high yield soruları yükle", "highyield olarak ekle" | High Yield (özel çalışma havuzu) sorularının yüklenmesi | Workflow: `.agents/workflows/WORKFLOW_HIGH_YIELD_EKLEME.md` (Ajan, flag olarak KESİNLİKLE `high_yield` kullanmalıdır) | — |
 | "soru ekle" (ham/dağınık serbest metin) | Ham metni kanonik JSON'a çevir → kalite kapısı → deploy | Workflow: `.agent/workflows/soru_ekle.md` (dönüşüm sonrası `add_questions.py` veya `shared.deploy_to_supabase`) | §5.5 |
 | "ölüm maçı", "kalite kontrol/denetim yap", "X ünitesindeki kopyaları temizle" | Semantik kopya denetimi (Bi-Encoder [Stem 0.7 + Exp 0.3] + Guard'lar [cevap-metni/yönelim/zıtlık/sayısal] + DeepSeek-v4-pro) | `python scripts/tools/smart_audit_pipeline.py --lesson "<D>" [--unit "<Ü>"] [--dry-run] [--concurrency 8]` | §4.3 |
-| "deneme oluştur", "bugün şu konulardan N soruluk deneme hazırla" | `daily_exams` tablosuna sınav yaz (Supabase MCP/REST ile) | Workflow: `WORKFLOW_GUNUN_DENEMESI.md` — SQL şablonları + `::uuid[]` cast zorunlu | §2, §5.3 |
+| "deneme oluştur", "günün denemesini hazırla", "bugün şu konulardan N soruluk deneme hazırla" | Günün denemesini üret (Pzt-Cmt: 4 ana ders x 25 = 100 soru; Paz: Haftanın Yanlışları sınırsız soru) | `python scripts/generate_daily_exam.py [--date YYYY-MM-DD] [--force] [--dry-run]` | §2, §5.3 + `WORKFLOW_GUNUN_DENEMESI.md` |
 | "deneme bitti", "hatalarımı analiz et", "tekrar raporu üret" | Bugünkü yanlışlar için RAG akademik tekrar raporu | `python scripts/generate_deneme_rag_reports.py [--limit N] [--dry-run]` | §4.4 + `WORKFLOW_DENEME_ANALIZI_RAG.md` |
 | "üretimi geri al", "şu partiyi/dersi sil" | Parti geri alma — **önce daima --dry-run** | `python scripts/tools/batch_rollback.py --dry-run --lesson "<D>" --since <tarih>` | §4.2 |
 | "DB'de kaç soru var", "ders dağılımını göster" | DB soru sayısı/dağılımı | `python scripts/tools/check_db_all.py` | — |
@@ -106,7 +126,7 @@ Kullanıcı aşağıdaki komutları verdiğinde, ajan **tam olarak** şu aracı/
 
 > ⚠️ **Toplu embedding yazımı (binlerce satır):** Önce stem/explanation HNSW index'lerini DROP et, sonra backfill çalıştır, en sonda (gerekiyorsa) yeniden kur. HNSW index'i açıkken her PATCH graph bakımı tetikler → küçük instance'da HTTP 500 + 10× yavaşlama. (Audit RPC self-join yaptığı için bu HNSW'lere zaten ihtiyaç duymaz; v4.6'da kalıcı düşürüldüler.)
 
-**Aktif dersler (exact, büyük/küçük harf duyarlı):** `Endodonti` · `Fizyoloji` · `Histoloji` · `Patoloji` · `Periodontoloji` · `Protez` · `Radyoloji`. `lesson`/`unit` değerleri **asla AI'a ürettirilmez** — script parametresi olarak geçilir veya DB'den ILIKE ile doğrulanır.
+**Aktif dersler (14 Ana Ders, exact, büyük/küçük harf duyarlı):** `Anatomi` · `Biyokimya` · `Cerrahi` · `Endodonti` · `Fizyoloji` · `Histoloji` · `Mikrobiyoloji` · `Ortodonti` · `Patoloji` · `Pedodonti` · `Periodontoloji` · `Protez` · `Radyoloji` · `Restoratif`. `lesson`/`unit` değerleri **asla AI'a ürettirilmez** — script parametresi olarak geçilir veya DB'den ILIKE ile doğrulanır.
 
 ### Mutlak Yasaklar (hızlı liste — gerekçeler §3.3 ve §5.2'de)
 
@@ -116,6 +136,7 @@ Kullanıcı aşağıdaki komutları verdiğinde, ajan **tam olarak** şu aracı/
 4. `batch_rollback.py`'yi **`--dry-run` olmadan** çalıştırma.
 5. Python toplu yazımı **`_SUPABASE_WRITE_CHUNK=10`** ile yap — 100+ embedding tek seferde HTTP 500 verir.
 6. Yeni bağımlılık / Zustand / global state ekleme — tüm state `App.tsx` State Machine'inde.
+7. Soru eklerken **`quality_flag` alanını DB varsayılanı olan `high_quality` olarak bırakma**. Ön yüz (`src/lib/supabase.ts`), sadece `quality_flag IS NULL`, `reviewed_keep`, `high_yield` ve `cikmis` bayraklarını çeker (`high_quality` süzgeçten elenir ve uygulamada görünmez!). Normal kaliteli sorular için `quality_flag = None` (`NULL`), çıkmış sorular için `'cikmis'`, özel sorular için `'high_yield'` geçilmelidir. `scripts/shared.py` içerisindeki `_write_to_supabase` artık `None` geldiğinde açıkça JSON `null` göndererek bu hatayı engellemektedir.
 
 ### Operasyonel Klasörler (silme/temizleme)
 
@@ -876,30 +897,31 @@ Atlas/LLM'e bağlı olmadan, hazır bir dosyadan soru eklemenin deterministik yo
 
 * **`.json`** — kanonik liste `[{question, options{A..E}, correctAnswer, explanation, lesson, unit}]` veya `{ "questions": [...] }` zarfı. Düz `option_a..option_e` / `correct_answer` anahtarları da kabul edilir (esnek `_normalize_one`).
 - **`.csv`** — başlık satırı `lesson,unit,question,option_a..option_e,correct_answer,explanation` (utf-8-sig BOM toleranslı).
-- **`.md`** — `### Soru N` / `**Soru Metni:**` / `- A) …` / `**Doğru Cevap:** A` / `**Soru Açıklaması:**` blok formatı (eski `manual_upload_md` mantığının sağlamlaştırılmış hâli).
+- **`.md` / `.txt`** — Hem `### Soru N` insan formatı hem de NotebookLM çıktısı (`<questions_json>`, `<questions\_json>`, `**[**` veya ```json code block) otomatik desteklenir.
 
-> **Ham NotebookLM çıktısı kurtarma:** `.json` dosyası düz `json.loads` ile parse edilemezse VEYA `.md/.txt` blok formatı bulunamazsa, içerik `shared.extract_json` ile kurtarılır — NotebookLM'in ürettiği `<analiz>…</analiz>` + ```json fence sarmalı ham çıktı **doğrudan** içe aktarılabilir (elle temizlik gerekmez).
+> **Ham NotebookLM çıktısı ve Markdown Kaçış Onarımı:** NotebookLM çıktılarında sıkça rastlanan `<questions\_json>` kaçışlı etiketler, satır başlarındaki `**[**`, `\[`, `\]`, `\"option\_a\"` ve `\*` bozuklukları `shared.sanitize_raw_json` ile otomatik onarılır. Ayrıca açıklama metinlerindeki "metinde belirtildiği üzere...", "metin kuralı:" gibi yapay zeka meta-yorumları `shared.clean_explanation_meta` ile ayıklanarak gereksiz retler (false-positive kaynak sızıntısı) önlenir.
 
 #### Akış
 
 ```
-dosya ──► load_questions() ──► _normalize_one() (kanonik şema)
-      ──► lesson/unit doldur (satır değeri > --lesson/--unit bayrağı)
+dosya ──► load_questions() ──► sanitize_raw_json() ──► clean_explanation_meta()
+      ──► _normalize_one() (kanonik şema) ──► lesson/unit doğrulaması
       ──► (lesson,unit) bazında grupla
       ──► her grup: validate_question_batch() ──► [--dry-run? rapor : deploy_to_supabase()]
-      ──► [--audit? deploy edilen her (ders,ünite) için smart_audit_pipeline.py --unit --dry-run önizleme]
+      ──► [--audit verildiyse: smart_audit_pipeline.py tetikle]
 ```
 
 #### CLI Argümanları
 
 | Argüman | Görev |
 |---|---|
-| `dosya` (pozisyonel) | `.json` / `.csv` / `.md` soru dosyası |
+| `dosya` (pozisyonel) | `.json` / `.csv` / `.md` / `.txt` soru dosyası |
 | `--lesson` / `--unit` | Dosyada satır-bazında yoksa varsayılan ders/ünite |
-| `--dry-run` | Yalnız doğrula + kabul/ret raporu; Supabase'e yazma yok |
-| `--audit` | Bitince deploy edilen her **(ders, ünite)** için **ünite-kapsamlı** Ölüm Maçı önizlemesi tetikle (`--unit`) |
+| `--force-new-unit` | Ünite veritabanında henüz mevcut değilse yeni ünite oluşturulmasına izin verir (emniyet kilidi) |
+| `--dry-run` | Yalnız doğrula + kabul/ret raporu; Supabase'e yazma yapmaz |
+| `--audit` | Bitince deploy edilen her **(ders, ünite)** için **ünite-kapsamlı** Ölüm Maçı çalıştırır (varsayılan: kapalı) |
 
-> Kalite kapısı üretim hattıyla **birebir aynıdır** (`_validate_single_question`). Reddedilenler `recovery/rejected/`'a loglanır; embedding üretimi ve chunked-write `deploy_to_supabase` içinde olduğu gibi korunur (§4.2).
+> ⚡ **SOĞUK BAŞLANGIÇ YASASI:** DUSBANKASI'na hazır bir dosyadan soru aktarırken **ASLA geçici/ad-hoc Python ithalat scripti (`import_xxx.py`) yazma!** `add_questions.py` aracını kullan; tüm doğrulamalar, 1536-dim çift vektörler ve chunked Supabase aktarımı bu araçta yerleşiktir.
 
 ---
 

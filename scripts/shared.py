@@ -100,13 +100,38 @@ def extract_json(text):
         print("   ⚠️ extract_json: Yanıt yalnızca <analiz> etiketi içeriyor.")
         return []
 
+    def sanitize_raw_json(raw_str):
+        """Markdown / NotebookLM escape artıklarını temizler."""
+        lines = []
+        for line in raw_str.splitlines():
+            l = line.strip()
+            if not l:
+                continue
+            if l.startswith("**") and l.endswith("**") and len(l) >= 4:
+                l = l[2:-2].strip()
+            elif l.startswith("**"):
+                l = l[2:].strip()
+            elif l.endswith("**"):
+                l = l[:-2].strip()
+            l = l.replace("\xa0", " ")
+            lines.append(l)
+        s = "\n".join(lines)
+        s = re.sub(r'\\\[', '[', s)
+        s = re.sub(r'\\\]', ']', s)
+        s = re.sub(r'\"option\\_([a-eA-E])\"', r'"option_\1"', s)
+        s = re.sub(r'\"correct\\_answer\"', '"correct_answer"', s)
+        s = re.sub(r'\\(\*)', r'\1', s)
+        return s
+
     def clean_and_parse(json_str):
+        json_str = sanitize_raw_json(json_str)
         # trailing comma fix
         json_str = re.sub(r',\s*([\]}])', r'\1', json_str)
         return json.loads(json_str)
 
     def try_repair(json_str):
         """Truncated JSON'da kapanmamış objeleri kaldırır."""
+        json_str = sanitize_raw_json(json_str)
         # Son kapanmamış { veya [ bul ve orada kes
         depth_brace = 0
         depth_bracket = 0
@@ -129,6 +154,25 @@ def extract_json(text):
         return None
 
     try:
+        # 0. <questions_json> etiketli blokları (tek veya çoklu, markdown-escaped dahil) ara
+        q_blocks = re.findall(r'<\s*questions[\\_]*json\s*>(.*?)<\s*/\s*questions[\\_]*json\s*>', text, re.DOTALL | re.IGNORECASE)
+        if q_blocks:
+            combined = []
+            for b in q_blocks:
+                b_clean = b.strip()
+                try:
+                    parsed = clean_and_parse(b_clean)
+                except Exception:
+                    parsed = try_repair(b_clean)
+                if isinstance(parsed, list):
+                    combined.extend(parsed)
+                elif isinstance(parsed, dict):
+                    qs = parsed.get("questions", parsed.get("items", []))
+                    if isinstance(qs, list):
+                        combined.extend(qs)
+            if combined:
+                return combined
+
         # 1. Markdown bloğunu ara
         match = re.search(r'```(?:json)?\s*\n([\s\S]*?)\n```', text)
         if match:
@@ -320,7 +364,7 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
     AI modelinin q["lesson"] / q["unit"] alanları IGNORED — bu sayede
     modelin serbest ürettiği lesson/unit string'leri DB'ye asla yazmaz.
     """
-    VALID_QUALITY_FLAGS = {'high_yield', 'reviewed_keep', 'kavramsal_kopya', 'auto_deleted'}
+    VALID_QUALITY_FLAGS = {'high_yield', 'reviewed_keep', 'kavramsal_kopya', 'auto_deleted', 'cikmis'}
     if quality_flag and quality_flag not in VALID_QUALITY_FLAGS:
         print(f"   ⚠️ KRİTİK UYARI: Geçersiz quality_flag '{quality_flag}' kullanıldı. Geçerli değerler: {VALID_QUALITY_FLAGS}")
         # Hata fırlatmıyoruz ancak logda belirgin olması için uyarıyoruz.
@@ -383,8 +427,8 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
             row["stem_embedding"] = stem_embeddings[i]
         if expl_embeddings and i < len(expl_embeddings):
             row["explanation_embedding"] = expl_embeddings[i]
-        if quality_flag:
-            row["quality_flag"] = quality_flag
+        # DAİMA quality_flag değerini açıkça gönder (None ise JSON null olarak gider ve Supabase DB varsayılanı olan 'high_quality'yi ezer)
+        row["quality_flag"] = quality_flag
         rows.append(row)
 
     # ── Chunked yazma (HTTP 500 engelleyici) + geçici hata retry ──
@@ -429,6 +473,21 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
 #  KALİTE GATE (Faz 1: Structural Validation)
 # ═══════════════════════════════════════════════
 
+def clean_explanation_meta(text: str) -> str:
+    """Açıklamadaki yapay zeka meta-yorum kalıplarını ('metinde belirtildiği üzere' vb.) temizler."""
+    if not text:
+        return ""
+    t = text
+    t = re.sub(r'(?i)\bmetinde belirtildiği üzere\b\s*', '', t)
+    t = re.sub(r'(?i)\bmetinde açıkça\b\s*', '', t)
+    t = re.sub(r'(?i)\bmetinde kesin bir dille belirtildiği üzere\b\s*', '', t)
+    t = re.sub(r'(?i)\bmetin kuralı:\s*', '', t)
+    t = re.sub(r'(?i)\btüm öncüller metinle birebir uyumludur\.?', 'Tüm öncüller doğrudur.', t)
+    t = re.sub(r'(?i)\büç öncül de metinle tam uyumludur\.?', 'Tüm öncüller doğrudur.', t)
+    t = re.sub(r'(?i)\büç öncül de metinle tam örtüşür\.?', 'Tüm öncüller doğrudur.', t)
+    return t.strip()
+
+
 # Kaynak sızıntısı: soru kökü/şık/açıklama "metne göre" bağımlı olmamalı; her soru
 # sınavda kaynak olmadan tek başına sorulabilir biçimde bağımsız olmalı. Gerçek DUS
 # (2024+2025) sorularında yanlış-pozitif vermez (test edildi).
@@ -438,11 +497,14 @@ _SOURCE_LEAK_RE = re.compile(
 )
 
 
-def _validate_single_question(q):
+def _validate_single_question(q, quality_flag=None):
     """
     Bir soruyu kalite filtrelerinden geçirir.
     Döner: (is_valid: bool, reason: str | None)
     """
+    if not quality_flag:
+        quality_flag = q.get("quality_flag")
+
     # Filtre 1.a — 5 şık tam mı?
     opts = q.get("options") or {}
     if not all(k in opts and isinstance(opts[k], str) and opts[k].strip() for k in ("A", "B", "C", "D", "E")):
@@ -456,7 +518,8 @@ def _validate_single_question(q):
     # Filtre 1.c — Soru kökü minimum kelime
     stem = (q.get("question") or "").strip()
     if not stem or len(stem.split()) < MIN_STEM_WORDS:
-        return False, f"kisa_stem:{len(stem.split())}kelime"
+        if quality_flag != 'cikmis':
+            return False, f"kisa_stem:{len(stem.split())}kelime"
 
     # Filtre 1.d — Explanation boş mu / çok mu kısa? (boş/tek kelime = düşük kalite)
     expl = (q.get("explanation") or "").strip()
@@ -468,7 +531,8 @@ def _validate_single_question(q):
     # Filtre 1.e — AI motivasyonel/dolgu cümlesi (manifesto yasağı)
     expl_lower = expl.lower()
     if any(phrase in expl_lower for phrase in AI_FILLER_PHRASES):
-        return False, "ai_dolgu_cumlesi"
+        if quality_flag != 'cikmis':
+            return False, "ai_dolgu_cumlesi"
 
     # Filtre 1.f — Bozuk karakter / mojibake (geçerli tıbbi terimler etkilenmez)
     raw_blob = stem + " " + expl + " " + " ".join(str(v) for v in opts.values())
@@ -477,7 +541,8 @@ def _validate_single_question(q):
 
     # Filtre 1.g — Kaynak sızıntısı ("kaynak/metne göre" → soru bağımsız değil)
     if _SOURCE_LEAK_RE.search(raw_blob):
-        return False, "kaynak_sizintisi"
+        if quality_flag != 'cikmis':
+            return False, "kaynak_sizintisi"
 
     # Filtre 3 — Asimetrik Kapsama (Bilgi Sızıntısı / Information Leakage)
     correct_text = opts.get(ca, "")
@@ -488,7 +553,8 @@ def _validate_single_question(q):
         intersection = len(ca_tokens & stem_tokens)
         overlap_ratio = intersection / len(ca_tokens)
         if overlap_ratio > MAX_ANSWER_OVERLAP_RATIO:
-            return False, f"bilgi_sizintisi:overlap_{overlap_ratio:.2f}"
+            if quality_flag != 'cikmis':
+                return False, f"bilgi_sizintisi:overlap_{overlap_ratio:.2f}"
 
     # Filtre 4 — Zayıf Açıklama (Tautological Explanation)
     # Eğer açıklamada kendi anlamlı olan kelimelerin çoğu (örn >%50) zaten soru kökünden ibaretse,
@@ -498,9 +564,11 @@ def _validate_single_question(q):
         intersection_expl = len(expl_tokens & stem_tokens)
         expl_overlap_ratio = intersection_expl / len(expl_tokens)
         if expl_overlap_ratio > MAX_EXPL_OVERLAP_RATIO:
-            return False, f"zayif_aciklama:overlap_{expl_overlap_ratio:.2f}"
+            if quality_flag != 'cikmis':
+                return False, f"zayif_aciklama:overlap_{expl_overlap_ratio:.2f}"
 
     return True, None
+
 
 
 _TR_STOPWORDS = {
@@ -572,7 +640,7 @@ def _asymmetric_similarity(a_tokens, b_tokens):
 # Kullanım: python scripts/tools/smart_audit_pipeline.py --lesson <DersAdi>
 
 
-def validate_question_batch(questions, lesson_name, unit_name):
+def validate_question_batch(questions, lesson_name, unit_name, quality_flag=None):
     """
     Soru setini YAPISAL kalite filtrelerinden geçirir. Reddedilenleri REJECTED_DIR'a yazar.
 
@@ -589,12 +657,16 @@ def validate_question_batch(questions, lesson_name, unit_name):
     accepted = []
     rejected = []
 
+    is_cikmis = (quality_flag == 'cikmis') or ('cikmis' in lesson_name.lower()) or ('çıkmış' in lesson_name.lower())
+    q_flag = 'cikmis' if is_cikmis else quality_flag
+
     for q in questions:
-        ok, reason = _validate_single_question(q)
+        ok, reason = _validate_single_question(q, q_flag)
         if not ok:
             rejected.append({"question": q, "reason": reason})
             continue
         accepted.append(q)
+
 
     if rejected:
         safe_name = re.sub(r'[^\w\s-]', '', f"{lesson_name}_{unit_name}")
@@ -629,14 +701,16 @@ def deploy_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
     accepted, _rejected = validate_question_batch(questions, lesson_name, unit_name)
     if not accepted:
         print(f"   ⚠️ Hiçbir soru kalite gate'i geçemedi — deploy atlandı: [{unit_name}]")
-        return
+        return False
 
     checkpoint_path = save_checkpoint(accepted, lesson_name, unit_name)
     if _write_to_supabase(accepted, lesson_name, unit_name, quality_flag):
         if checkpoint_path:
             clear_checkpoint(checkpoint_path)
+        return True
     else:
         if checkpoint_path:
             print(f"   💾 Sorular yerel checkpoint'te korunuyor: {checkpoint_path}")
         else:
             print(f"   ⚠️ Supabase yazımı başarısız ve checkpoint kaydedilemedi: [{unit_name}]")
+        return False

@@ -7,12 +7,19 @@ import { saveQuestionStat, getDifficultyLabel } from '../../lib/stats';
 import { useAIAssistant } from '../../hooks/useAIAssistant';
 import { useExamTimer } from '../../hooks/useExamTimer';
 import { useKeyboardShortcuts } from '../../hooks/useKeyboardShortcuts';
+import { appendAIExplanation } from '../../lib/questionExplanation';
 import { QuizHeader } from './QuizHeader';
 import { QuestionCard } from './QuestionCard';
 import { ExplanationPanel } from './ExplanationPanel';
 import { QuizNavigation } from './QuizNavigation';
 import { KeyboardShortcutsHelp } from './KeyboardShortcutsHelp';
 import { AIAssistantPanel } from '../ai/AIAssistantPanel';
+import { toast } from 'sonner';
+
+function answerForQuestion(answers: AnswerDetail[], questionId: string | undefined): AnswerDetail | undefined {
+  if (!questionId) return undefined;
+  return answers.find((answer) => answer.question.id === questionId);
+}
 
 export type QuizViewProps = {
   mode?: 'quiz' | 'exam';
@@ -25,6 +32,7 @@ export type QuizViewProps = {
   onToggleFavorite: (id: string) => void;
   onEditQuestion: (q: Question) => void;
   onReportQuestion: (q: Question) => void;
+  onSaveAIExplanation: (q: Question) => Promise<void>;
   onSaveSession?: (session: ActiveSessionInfo) => void;
   onExportPDF?: (qs: Question[], label: string) => void;
   timedSeconds?: number;
@@ -42,17 +50,21 @@ export type QuizViewProps = {
 export function QuizView({
   mode, unit, questions, initialSession,
   onComplete, onDeleteQuestion, onFinishEarly, onToggleFavorite,
-  onEditQuestion, onReportQuestion, onSaveSession, onExportPDF,
+  onEditQuestion, onReportQuestion, onSaveAIExplanation, onSaveSession, onExportPDF,
   timedSeconds, onSimulationComplete, theme, settings, dailyExamId, disableStats,
 }: QuizViewProps) {
   const [currentIndex, setCurrentIndex] = useState<number>(
     initialSession ? Math.min(initialSession.currentIndex, Math.max(questions.length - 1, 0)) : 0
   );
   const [selectedOption, setSelectedOption] = useState<string | null>(
-    initialSession?.answers?.[initialSession.currentIndex]?.selectedOptionKey ?? null
+    answerForQuestion(
+      initialSession?.answers ?? [],
+      questions[initialSession?.currentIndex ?? 0]?.id,
+    )?.selectedOptionKey ?? null
   );
   const [answers, setAnswers] = useState<AnswerDetail[]>(initialSession ? initialSession.answers : []);
   const [helpOpen, setHelpOpen] = useState(false);
+  const [aiExplanationState, setAIExplanationState] = useState<'idle' | 'adding' | 'added'>('idle');
 
   // AUDIT-01: answers'ın güncel kopyasını timer closure'dan ulaşmak için ref
   const answersRef = useRef<AnswerDetail[]>(initialSession ? initialSession.answers : []);
@@ -63,6 +75,8 @@ export function QuizView({
   const explanationScrollRef = useRef<HTMLDivElement>(null);
 
   const question = questions[currentIndex];
+  const questionId = question?.id;
+  const currentAnswer = answerForQuestion(answers, question?.id);
 
   // AI assistant hook
   const ai = useAIAssistant(question);
@@ -75,10 +89,10 @@ export function QuizView({
 
   const { remainingSeconds } = useExamTimer(timedSeconds, questions, answersRef, handleTimerExpire, initialSession?.remainingSeconds);
 
-  const isHistorized = currentIndex < answers.length;
+  const isHistorized = currentAnswer !== undefined;
   const isAnswered = selectedOption !== null || isHistorized;
   const isCorrect = question
-    ? (isHistorized ? answers[currentIndex].state === 'correct' : selectedOption === question.correctAnswer)
+    ? (isHistorized ? currentAnswer.state === 'correct' : selectedOption === question.correctAnswer)
     : false;
   const difficulty = question ? getDifficultyLabel(question.id) : null;
 
@@ -87,7 +101,7 @@ export function QuizView({
     const timeSpent = Math.round((Date.now() - questionStartRef.current) / 1000);
     questionStartRef.current = Date.now();
     const newAnswers = [...answers];
-    if (currentIndex >= answers.length) {
+    if (!currentAnswer) {
       const state: AnswerDetail['state'] = isSkip
         ? 'blank'
         : (selectedOption === question.correctAnswer ? 'correct' : 'incorrect');
@@ -116,7 +130,7 @@ export function QuizView({
       directionRef.current = 'forward';
       const ni = currentIndex + 1;
       setCurrentIndex(ni);
-      setSelectedOption(newAnswers[ni]?.selectedOptionKey ?? null);
+      setSelectedOption(answerForQuestion(newAnswers, questions[ni]?.id)?.selectedOptionKey ?? null);
       requestAnimationFrame(() => {
         if (quizScrollRef.current) quizScrollRef.current.scrollTop = 0;
         if (explanationScrollRef.current) explanationScrollRef.current.scrollTop = 0;
@@ -125,7 +139,7 @@ export function QuizView({
     } else {
       onComplete(newAnswers);
     }
-  }, [selectedOption, question, currentIndex, answers, questions, mode, onSaveSession, onComplete, dailyExamId, disableStats]);
+  }, [selectedOption, question, currentIndex, currentAnswer, answers, questions, mode, onSaveSession, onComplete, dailyExamId, disableStats]);
 
   const handlePrevious = useCallback(() => {
     if (currentIndex > 0) {
@@ -133,14 +147,14 @@ export function QuizView({
       questionStartRef.current = Date.now();
       const pi = currentIndex - 1;
       setCurrentIndex(pi);
-      setSelectedOption(answers[pi]?.selectedOptionKey ?? null);
+      setSelectedOption(answerForQuestion(answers, questions[pi]?.id)?.selectedOptionKey ?? null);
       requestAnimationFrame(() => {
         if (quizScrollRef.current) quizScrollRef.current.scrollTop = 0;
         if (explanationScrollRef.current) explanationScrollRef.current.scrollTop = 0;
         window.scrollTo(0, 0);
       });
     }
-  }, [currentIndex, answers]);
+  }, [currentIndex, answers, questions]);
 
   const handleSkip = useCallback(() => handleNext(true), [handleNext]);
   const handleNextClick = useCallback(() => handleNext(false), [handleNext]);
@@ -152,6 +166,26 @@ export function QuizView({
   }, [question, onToggleFavorite]);
   const handleToggleHelp = useCallback(() => setHelpOpen(v => !v), []);
   const handleCloseHelp = useCallback(() => setHelpOpen(false), []);
+  const handleAddAIToExplanation = useCallback(async () => {
+    if (!question || !ai.aiAnswer || ai.aiLoading || aiExplanationState !== 'idle') return;
+
+    const mergedExplanation = appendAIExplanation(question.explanation, ai.aiAnswer);
+    if (mergedExplanation === question.explanation.trim()) {
+      setAIExplanationState('added');
+      return;
+    }
+
+    setAIExplanationState('adding');
+    try {
+      await onSaveAIExplanation({ ...question, explanation: mergedExplanation });
+      setAIExplanationState('added');
+      toast.success('AI yanıtı açıklamaya eklendi');
+    } catch (error) {
+      setAIExplanationState('idle');
+      const message = error instanceof Error ? error.message : String(error);
+      toast.error(`Açıklama kaydedilemedi: ${message}`);
+    }
+  }, [question, ai.aiAnswer, ai.aiLoading, aiExplanationState, onSaveAIExplanation]);
 
   useKeyboardShortcuts({
     onNext: handleNext,
@@ -171,6 +205,39 @@ export function QuizView({
   useEffect(() => {
     answersRef.current = answers;
   }, [answers]);
+
+  // Seçim ve cevap geçmişi soru kimliğine aittir, liste indexine değil.
+  // Bir soru silindiğinde aynı indexe kayan sonraki soruya eski seçim taşınmasın.
+  useEffect(() => {
+    setSelectedOption(answerForQuestion(answers, questionId)?.selectedOptionKey ?? null);
+    questionStartRef.current = Date.now();
+  }, [questionId, answers]);
+
+  useEffect(() => {
+    setAIExplanationState('idle');
+  }, [questionId]);
+
+  // Silinen soruların geçmiş cevaplarını da oturumdan düşür. Aksi halde
+  // currentIndex ile answers dizisi yeniden hizalandığında başka sorular
+  // historize edilmiş gibi görünebilir.
+  useEffect(() => {
+    const validIds = new Set(questions.map((item) => item.id));
+    setAnswers((previous) => {
+      const next = previous.filter((answer) => validIds.has(answer.question.id));
+      if (next.length === previous.length) return previous;
+      answersRef.current = next;
+      return next;
+    });
+  }, [questions]);
+
+  // Soru silindiğinde veya liste değiştiğinde index ve seçimi senkronize et
+  useEffect(() => {
+    if (questions.length > 0 && currentIndex >= questions.length) {
+      const nextIdx = Math.max(0, questions.length - 1);
+      setCurrentIndex(nextIdx);
+      setSelectedOption(answerForQuestion(answers, questions[nextIdx]?.id)?.selectedOptionKey ?? null);
+    }
+  }, [questions, currentIndex, answers]);
 
   if (!question) return (
     <div className="flex-1 flex items-center justify-center p-10">
@@ -215,6 +282,10 @@ export function QuizView({
           error={ai.aiError}
           answer={ai.aiAnswer}
           onClose={handleAIPanelClose}
+          onRetry={ai.retryAI}
+          onAddToExplanation={handleAddAIToExplanation}
+          addingToExplanation={aiExplanationState === 'adding'}
+          addedToExplanation={aiExplanationState === 'added'}
           theme={theme}
           settings={settings}
         />
