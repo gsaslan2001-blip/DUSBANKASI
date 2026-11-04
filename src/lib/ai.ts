@@ -1,9 +1,8 @@
 /**
  * DUS Bankası — AI İstemci
  *
- * Tarayıcı doğrudan Gemini'ye PDF göndermez; Vercel `/api/explain`
- * endpoint'ine sadece soru metadata'sını POST'lar ve stream'i okur.
- * (Eski PDF-base64 yolu kaldırıldı — hız 20×, mobil veri 5000×, key gizli.)
+ * `/api/explain` üzerinden yalnızca soru ve şıkları Gemini'ye gönderir.
+ * API anahtarları sunucuda kalır.
  */
 
 import type { Question } from '../data';
@@ -20,10 +19,10 @@ export async function explainWithAIStream(
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       question: question.question,
-      options: question.options,
-      lesson: question.lesson,
-      unit: question.unit,
-      correctAnswer: question.correctAnswer,
+      options: {
+        A: question.options.A, B: question.options.B, C: question.options.C,
+        D: question.options.D, E: question.options.E,
+      },
     }),
     signal,
   });

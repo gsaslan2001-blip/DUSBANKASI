@@ -36,6 +36,7 @@ import re
 import subprocess
 import sys
 import difflib
+import unicodedata
 from collections import defaultdict
 
 # scripts/ klasörünü import yoluna ekle (config / shared)
@@ -53,6 +54,60 @@ if sys.platform == "win32":
 
 
 _OPTION_KEYS = ("A", "B", "C", "D", "E")
+_CATALOG_PATH = os.path.join(_SCRIPT_DIR, "canonical_units.json")
+
+
+def _load_canonical_units():
+    with open(_CATALOG_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _resolve_fast_unit(lesson, requested_unit):
+    """Katalogdan exact veya tekil substring eşleşmesi yapar; yeni ünite açmaz."""
+    def fold(value):
+        return "".join(
+            char for char in unicodedata.normalize("NFKD", value.casefold())
+            if not unicodedata.combining(char)
+        )
+
+    catalog = _load_canonical_units()
+    lesson_match = next((name for name in catalog if fold(name) == fold(lesson)), None)
+    if lesson_match is None:
+        raise ValueError(f"Ders katalogda yok: {lesson}. Mevcut dersler: {', '.join(catalog)}")
+
+    units = catalog[lesson_match]
+    exact = next((u for u in units if fold(u) == fold(requested_unit)), None)
+    if exact:
+        return lesson_match, exact
+
+    candidates = [u for u in units if fold(requested_unit) in fold(u)]
+    if len(candidates) == 1:
+        print(f"   ↪ Ünite eşleştirildi: '{requested_unit}' → '{candidates[0]}'")
+        return lesson_match, candidates[0]
+    if len(candidates) > 1:
+        raise ValueError(f"Ünite belirsiz: {requested_unit}. Adaylar: {' | '.join(candidates)}")
+    raise ValueError(
+        f"Ünite katalogda bulunamadı: {requested_unit}. "
+        f"{lesson_match} mevcut üniteleri: {' | '.join(units)}"
+    )
+
+
+def _fast_format_errors(questions):
+    """Hızlı modun tek kalite sınırı: parse edilebilir kanonik soru biçimi."""
+    errors = []
+    for index, q in enumerate(questions, 1):
+        opts = q.get("options") if isinstance(q.get("options"), dict) else {}
+        missing = [letter for letter in _OPTION_KEYS if not str(opts.get(letter, "")).strip()]
+        answer = str(q.get("correctAnswer", "")).strip().upper()
+        if not str(q.get("question", "")).strip():
+            errors.append(f"{index}: soru kökü boş")
+        if missing:
+            errors.append(f"{index}: eksik şık: {','.join(missing)}")
+        if answer not in _OPTION_KEYS:
+            errors.append(f"{index}: doğru cevap A-E değil: {answer!r}")
+        if not str(q.get("explanation", "")).strip():
+            errors.append(f"{index}: açıklama boş")
+    return errors
 
 
 def _normalize_one(raw: dict) -> dict:
@@ -255,6 +310,22 @@ def load_questions(path: str) -> list:
             content = f.read()
         if "TÜM SORULARIN DETAYLI ÇÖZÜMLERİ" in content:
             return _load_dus_konu_testi_txt(path)
+        # Aynı NotebookLM çıktısında birden fazla sorular_json batch'i olabilir.
+        # Tek bir extract_json çağrısı yalnızca ilk diziyi alacağından tüm
+        # işaretli batch'leri birleştir.
+        batch_blocks = re.findall(
+            r"<questions_json>\s*(.*?)\s*</questions_json>",
+            content,
+            re.DOTALL | re.IGNORECASE,
+        )
+        if batch_blocks:
+            all_items = []
+            for block in batch_blocks:
+                batch = shared.extract_json(block)
+                if isinstance(batch, list):
+                    all_items.extend(item for item in batch if isinstance(item, dict))
+            if all_items:
+                return [_normalize_one(item) for item in all_items]
         # Eğer dosya içinde <questions... etiketi veya JSON array varsa öncelikle extract_json dene
         recovered = shared.extract_json(content)
         if recovered:
@@ -267,7 +338,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="Dosyadan toplu soru ekleme (ajan-bağımsız). JSON / CSV / Markdown / TXT destekler."
     )
-    parser.add_argument("dosya", help="Soru dosyası yolu (.json / .csv / .md / .txt)")
+    parser.add_argument("dosya", nargs="?", help="Soru dosyası yolu (.json / .csv / .md / .txt)")
     parser.add_argument("--lesson", help="Ders adı (verilirse dosyadaki değeri ezer)")
     parser.add_argument("--unit", help="Ünite adı (verilirse dosyadaki değeri ezer)")
     parser.add_argument("--dry-run", action="store_true", help="Yalnız doğrula + rapor; Supabase'e yazma")
@@ -275,7 +346,21 @@ def main() -> int:
     parser.add_argument("--high-yield", action="store_true", help="Soruları high_yield bayrağıyla ekle (Ölüm maçından kaçınır)")
     parser.add_argument("--quality-flag", help="Sorulara eklenecek özel kalite etiketi (örn. high_quality, high_yield)")
     parser.add_argument("--force-new-unit", action="store_true", help="Eğer ünite bulunamazsa sormadan yeni ünite olarak oluştur")
+    parser.add_argument("--skip-existing", action="store_true", help="Aynı ders/ünitede soru kökü zaten varsa yeniden ekleme")
+    parser.add_argument("--fast", action="store_true", help="Yalnızca JSON/soru/şık/doğru cevap biçimini doğrula; embedding ve kalite filtresi yapma")
+    parser.add_argument("--list-units", action="store_true", help="Kayıtlı ders ve ünite kataloğunu yazdır")
     args = parser.parse_args()
+
+    if args.list_units:
+        catalog = _load_canonical_units()
+        for lesson, units in catalog.items():
+            print(f"\n{lesson} ({len(units)} ünite)")
+            for unit in units:
+                print(f"  - {unit}")
+        return 0
+
+    if not args.dosya:
+        parser.error("dosya yolu gerekli (veya yalnızca katalog için --list-units kullanın)")
 
     if not os.path.exists(args.dosya):
         print(f"❌ Dosya bulunamadı: {args.dosya}")
@@ -298,6 +383,19 @@ def main() -> int:
         if args.unit:
             q["unit"] = args.unit
 
+    if args.fast:
+        if not args.lesson or not args.unit:
+            print("❌ --fast için --lesson ve --unit zorunludur; yeni ünite oluşturulmaz.")
+            return 1
+        try:
+            resolved_lesson, resolved_unit = _resolve_fast_unit(args.lesson, args.unit)
+        except ValueError as e:
+            print(f"❌ {e}")
+            return 1
+        for q in questions:
+            q["lesson"] = resolved_lesson
+            q["unit"] = resolved_unit
+
     missing = [i for i, q in enumerate(questions) if not q.get("lesson") or not q.get("unit")]
     if missing:
         print(
@@ -305,6 +403,36 @@ def main() -> int:
             f"   İlk eksik indeks: {missing[0]}"
         )
         return 1
+
+    if args.skip_existing:
+        existing_stems = set()
+        for lesson, unit in set((q["lesson"], q["unit"]) for q in questions):
+            existing = shared.get_questions_for_unit(lesson, unit)
+            existing_stems.update(str(row.get("question") or "").strip() for row in existing)
+        before = len(questions)
+        questions = [q for q in questions if q["question"].strip() not in existing_stems]
+        print(f"   ♻️ Mevcut soru kökü atlandı: {before - len(questions)}")
+        if not questions:
+            print("   ℹ️ Yeni soru yok — işlem sonlandırıldı.")
+            return 0
+
+    if args.fast:
+        format_errors = _fast_format_errors(questions)
+        if format_errors:
+            print(f"❌ Hızlı format doğrulaması başarısız: {len(format_errors)} hata")
+            for error in format_errors[:20]:
+                print(f"   - {error}")
+            return 1
+        print(f"⚡ HIZLI MOD: {len(questions)} soru biçimsel olarak doğrulandı; kalite/embedding atlanıyor.")
+        if args.dry_run:
+            print("   🔎 DRY-RUN: Supabase'e yazma yapılmadı.")
+            return 0
+        ok = shared.write_fast_to_supabase(questions, resolved_lesson, resolved_unit)
+        if not ok:
+            return 1
+        visible = shared.get_questions_for_unit(resolved_lesson, resolved_unit)
+        print(f"   🔎 Canlı ünite görünürlüğü: {len(visible)} soru")
+        return 0
 
     # (lesson, unit) bazında grupla — deploy_to_supabase tek ders/ünite alır
     groups = defaultdict(list)

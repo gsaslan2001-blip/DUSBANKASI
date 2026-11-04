@@ -45,6 +45,7 @@ export const VIEW_REGISTRY: Record<AppState, ViewConfig> = {
   'source-books':           { title: 'Kaynak Kitaplar',     transition: 'fade',  hudMode: 'compact' },
   'select-highyield-unit':  { title: 'High-Yield',          transition: 'slide', hudMode: 'compact' },
   'select-highyield-karma': { title: 'High-Yield Karma',    transition: 'slide', hudMode: 'compact' },
+  'select-cikmis':          { title: 'Çıkmış Sorular',      transition: 'slide', hudMode: 'compact' },
 };
 
 export function getViewConfig(state: AppState): ViewConfig {

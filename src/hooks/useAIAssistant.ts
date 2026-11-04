@@ -15,7 +15,7 @@ export type UseAIAssistantResult = {
 
 const MAX_RETRY = 3;
 
-/** AI streaming + PDF fetch + AbortController orchestration for QuizView. */
+/** Gemini yanıtı ve istek iptalini yönetir. */
 export function useAIAssistant(question: Question | undefined): UseAIAssistantResult {
   const [aiAnswer, setAiAnswer] = useState<string | null>(null);
   const [aiLoading, setAiLoading] = useState(false);
@@ -24,7 +24,7 @@ export function useAIAssistant(question: Question | undefined): UseAIAssistantRe
   // AUDIT: R1 — retry sayacı
   const [retryCount, setRetryCount] = useState(0);
 
-  // PDF fetch + streaming iptali için ref
+  // İstek iptali için ref
   const aiAbortRef = useRef<AbortController | null>(null);
 
   const runRequest = useCallback(async (force: boolean) => {
@@ -54,7 +54,7 @@ export function useAIAssistant(question: Question | undefined): UseAIAssistantRe
     setShowPanel(true);
 
     try {
-      // PDF artık sunucuda Pinecone RAG ile çözülüyor — istemci sadece metadata gönderir.
+      // Yalnızca soru ve A–E şıkları gönderilir.
       await explainWithAIStream(
         question,
         (accumulated) => {

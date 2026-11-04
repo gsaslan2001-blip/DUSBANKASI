@@ -37,7 +37,7 @@ export type DailyStudyQueueInput = {
 
 export type UnitQuestionSelection =
   | { kind: 'count'; count: number }
-  | { kind: 'all-unseen' };
+  | { kind: 'all' };
 
 const ELIGIBLE_QUALITY_FLAGS = new Set([null, 'reviewed_keep', 'high_yield', 'cikmis']);
 
@@ -229,22 +229,49 @@ export function selectUnitQuestionIds(
     seenIds.add(question.id);
     return true;
   });
-  const unseen = uniqueCandidates.filter((question) => !stats[question.id] || stats[question.id].attempts === 0);
-  const previousWrong = uniqueCandidates.filter((question) => {
-    const stat = stats[question.id];
-    return stat && stat.attempts > 0 && stat.corrects < stat.attempts;
-  });
-  const favoriteCorrect = uniqueCandidates.filter((question) => {
-    const stat = stats[question.id];
-    return stat
-      && stat.attempts > 0
-      && stat.corrects === stat.attempts
-      && question.is_favorite;
-  });
-  const ordered = [...unseen, ...previousWrong, ...favoriteCorrect];
+  if (selection.kind === 'all') return uniqueCandidates.map((question) => question.id);
 
-  if (selection.kind === 'all-unseen') return unseen.map((question) => question.id);
-  return ordered.slice(0, Math.max(0, selection.count)).map((question) => question.id);
+  type Bucket = 'favoriteCorrect' | 'wrong' | 'favoriteWrong' | 'unseen' | 'correct';
+  const buckets: Record<Bucket, QuestionSkeleton[]> = {
+    favoriteCorrect: [], wrong: [], favoriteWrong: [], unseen: [], correct: [],
+  };
+  for (const question of uniqueCandidates) {
+    const stat = stats[question.id];
+    const bucket: Bucket = !stat || stat.attempts === 0
+      ? 'unseen'
+      : stat.corrects < stat.attempts
+        ? question.is_favorite ? 'favoriteWrong' : 'wrong'
+        : question.is_favorite ? 'favoriteCorrect' : 'correct';
+    buckets[bucket].push(question);
+  }
+  // Her başlangıçta havuz içinden rastgele, tekrarsız seçim.
+  for (const bucket of Object.values(buckets)) {
+    for (let i = bucket.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [bucket[i], bucket[j]] = [bucket[j], bucket[i]];
+    }
+  }
+
+  // Her tam onluda 1 doğru favori / 2 yanlış / 3 yanlış favori / 4 yeni.
+  // Kısmi onlularda da aynı dağılıma yakın, iç içe bir sıra kullanılır.
+  const pattern: Bucket[] = [
+    'unseen', 'favoriteWrong', 'wrong', 'unseen', 'favoriteCorrect',
+    'favoriteWrong', 'unseen', 'wrong', 'favoriteWrong', 'unseen',
+  ];
+  const count = Math.min(uniqueCandidates.length, Math.max(0, Math.floor(selection.count)));
+  const slots = Array.from({ length: count }, (_, i) => buckets[pattern[i % 10]].pop());
+
+  // Önce kontenjanları ayır; eksik bir grup başka grubun kontenjanını çalmasın.
+  const fallback = [
+    ...buckets.favoriteWrong,
+    ...buckets.favoriteCorrect,
+    ...buckets.unseen.filter(q => q.is_favorite),
+    ...buckets.wrong,
+    ...buckets.unseen.filter(q => !q.is_favorite),
+    ...buckets.correct,
+  ];
+  let offset = 0;
+  return slots.map(q => q ?? fallback[offset++]).filter((q): q is QuestionSkeleton => !!q).map(q => q.id);
 }
 
 export function getOrCreateDailyStudyQueue(

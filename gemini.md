@@ -1,4 +1,6 @@
-# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.50)
+# DUSBANKASI — Teknik Mimarisi & Kod Hiyerarşisi (v4.51)
+
+> **v4.51 (2026-11-04) — Çıkmış Modu Entegrasyonu (14 Ana Ders & Tüm Kanonik Üniteler).** Kullanıcı talimatı doğrultusunda uygulamaya "Çıkmış Modu" (`select-cikmis`) eklendi. (1) **Kanonik Müfredat Kataloğu (`src/config/canonicalUnits.ts`):** 14 Ana ders + Farmakoloji'nin tüm resmi ünite katalogları tanımlandı; `Pedodonti Cikmis` ve `ÇIKMIŞ SORULAR` dersleri kanonik ders ve ünite isimleriyle otomatik eşleştirildi. (2) **Ana Menü Bento-Grid Kartı (`LessonSelection`):** Ana ekrana prestijli altın/amber renkli "Çıkmış Modu" kartı ve anlık soru sayısı göstergesi eklendi. (3) **Çıkmış Modu Ekranı (`CikmisSelectionView.tsx`):** Kullanıcı tüm dersleri sekmelerden seçebilir; seçilen dersin normal moddaki TÜM ünite isimleri, her ünitedeki çıkmış soru adetleri, arama çubuğu, "Tüm [Ders] Çıkmış Soruları" ve "Karma Çıkmış Sınavı" butonları yer alır. Soru bulunan ünitelerde anında quiz başlatılırken, henüz soru eklenmemiş ünitelerde kullanıcıya nazik bilgilendirme sunulur. (4) **Test & Build:** 20 test dosyasında 254 testin tamamı yeşil; `tsc -b && vite build` sıfır hatayla başarıyla tamamlandı.
 
 > **v4.50 (2026-09-04) — Oral Patoloji 1 Ünitesi İthalatı (32 Soru + 1536d Vektörleştirme).** `C:\Users\FURKAN\Desktop\DUS\patoloji\pato ünite pdf\Yeni klasör\Oral Patoloji 1 .md` dosyasındaki 32 soru parse edildi; açıklamalardaki gereksiz meta-yorum ve sızıntı ifadeleri ("metinde belirtildiği üzere" vb.) temizlendi. OpenAI `text-embedding-3-large` (1536d) modeli kullanılarak her sorunun soru kökü (`stem_embedding`) ve açıklama (`explanation_embedding`) vektörleri oluşturuldu. Sorular Patoloji dersi `9.oral patoloji 1` ünitesi altında, `quality_flag = NULL` ile Supabase veritabanına aktarıldı (`scripts/import_oral_patoloji_1.py`). Kullanıcı talimatı doğrultusunda ölüm maçı (smart audit) çalıştırılmadı. Canlı probe ile 32/32 sorunun çift vektörlü ve eksiksiz olarak kaydedildiği doğrulandı.
 
@@ -145,6 +147,10 @@ Kullanıcı aşağıdaki komutları verdiğinde, ajan **tam olarak** şu aracı/
 - `scripts/recovery/rejected/` → kalite kapısını geçemeyen sorular (sebep loglu).
 - `scripts/recovery/raw/` → parse edilemeyen ham AI yanıtı (elle kurtarılabilir).
 - `raporlar/curation_summary_<DERS>_<ZAMAN_DAMGASI>.md` → Ölüm Maçı çıktısı (her çift: skor + karar + tam metin).
+
+### Ünite soru seçimi (2026-10-04)
+
+`selectUnitQuestionIds` (`src/lib/studyQueue.ts`) her tam 10 soruda 1 doğru favori, 2 yanlış favorisiz, 3 yanlış favori ve 4 görülmemiş seçer. Havuzlar benzersiz ID ile ayrılır ve kendi içlerinde karıştırılır. Yanlış grubu en az bir yanlış denemesi olanları kapsar (`corrects < attempts`). Önce grup kontenjanları ayrılır; eksikler favorili, yanlış, görülmemiş, en son doğru favorisiz sırasıyla tamamlanır. `{ kind: 'all' }` ünitenin tüm sorularını getirir. Seçim ekranında Hızlı 20, Standart 40, Karma 100, Hepsini çalış ve özel sayı bulunur. `App.tsx`, içerik cache'inden dönen kayıtları seçilen ID sırasına dizer. Doğrulama: 28 seçim/sprint testi ve 3 Chromium ünite akışı testi.
 
 ### 🔒 GÖREV SONRASI PROTOKOL (KESİN KURAL — İSTİSNASIZ)
 

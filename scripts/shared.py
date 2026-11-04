@@ -121,6 +121,10 @@ def extract_json(text):
         s = re.sub(r'\"option\\_([a-eA-E])\"', r'"option_\1"', s)
         s = re.sub(r'\"correct\\_answer\"', '"correct_answer"', s)
         s = re.sub(r'\\(\*)', r'\1', s)
+        # JSON içindeki LaTeX/Markdown kaçışları (ör. \%, \_, \[, \()`
+        # Python json.loads için geçerli kaçışlar değildir; bunları literal
+        # backslash olarak koruyarak parse edilebilir hale getir.
+        s = re.sub(r'\\(?!["\\/bfnrtu])', r'\\\\', s)
         return s
 
     def clean_and_parse(json_str):
@@ -466,6 +470,48 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
             _time.sleep(0.5)
 
     print(f"   ✅ {total_written} soru Supabase'e yazıldı → [{unit_name}]")
+    return True
+
+
+def write_fast_to_supabase(questions, lesson_name, unit_name):
+    """Hızlı aktarım: embedding/kalite/semantik işlem yapmadan kanonik satırları yazar."""
+    url = f"{SUPABASE_URL}/rest/v1/questions"
+    headers = {
+        "apikey": SUPABASE_KEY,
+        "Authorization": f"Bearer {SUPABASE_KEY}",
+        "Content-Type": "application/json",
+        "Prefer": "return=minimal",
+    }
+    rows = []
+    for q in questions:
+        opts = q.get("options", {})
+        rows.append({
+            "lesson": lesson_name.strip(),
+            "unit": unit_name.strip(),
+            "question": q.get("question", ""),
+            "option_a": opts.get("A", ""),
+            "option_b": opts.get("B", ""),
+            "option_c": opts.get("C", ""),
+            "option_d": opts.get("D", ""),
+            "option_e": opts.get("E", ""),
+            "correct_answer": q.get("correctAnswer", ""),
+            "explanation": q.get("explanation", ""),
+            "quality_flag": None,
+        })
+
+    # Embeddingsiz satırlar çok daha küçük olduğu için hızlı modda 50'li paketler.
+    chunk_size = 50
+    for chunk_start in range(0, len(rows), chunk_size):
+        chunk = rows[chunk_start:chunk_start + chunk_size]
+        payload = json.dumps(chunk, ensure_ascii=False).encode("utf-8")
+        req = urllib.request.Request(url, data=payload, headers=headers, method="POST")
+        try:
+            urllib.request.urlopen(req)
+        except Exception as e:
+            print(f"   ❌ Hızlı Supabase yazımı başarısız ({chunk_start}-{chunk_start + len(chunk)}): {e}")
+            return False
+
+    print(f"   ✅ HIZLI: {len(rows)} soru Supabase'e yazıldı → [{unit_name}] (embedding yok)")
     return True
 
 

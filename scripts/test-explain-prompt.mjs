@@ -1,95 +1,54 @@
-// Quick offline tester for SYSTEM_PROMPT / buildUserPrompt
-// Calls Gemini directly (no Pinecone context). Streams to stdout.
+// Gerçek Gemini smoke testi; aynı üretim handler'ını ve master prompt'u kullanır.
+import { readFile, mkdir, writeFile } from 'node:fs/promises';
+import { config } from 'dotenv';
+import { handler } from '../api/explain.ts';
+import { getKeys } from '../api/_lib/gemini.ts';
 
-import { readFile } from 'node:fs/promises';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.resolve(__dirname, '..');
-
-const envPath = path.join(ROOT, '.env.local');
-const envText = await readFile(envPath, 'utf8').catch(() => '');
-for (const line of envText.split(/\r?\n/)) {
-  const m = /^([A-Z0-9_]+)\s*=\s*"?([^"\r\n]*)"?\s*$/.exec(line);
-  if (m && !process.env[m[1]]) process.env[m[1]] = m[2];
-}
-
-const promptModule = await import(
-  'file://' + path.join(ROOT, 'api', '_lib', 'prompt.ts').replace(/\\/g, '/')
-).catch(async () => {
-  // tsx not loaded — read & evaluate manually
-  const ts = await readFile(path.join(ROOT, 'api', '_lib', 'prompt.ts'), 'utf8');
-  const stripped = ts
-    .replace(/export\s+const\s+SYSTEM_PROMPT\s*=\s*`/, 'globalThis.__SYS=`')
-    .replace(/export\s+function\s+buildUserPrompt/, 'globalThis.__BUILD=function buildUserPrompt');
-  eval(stripped);
-  return { SYSTEM_PROMPT: globalThis.__SYS, buildUserPrompt: globalThis.__BUILD };
+config({ path: '.env.local', quiet: true });
+const samples = JSON.parse(await readFile('eklenecek/Radyoloji_30.json', 'utf8'));
+const sample = samples[0];
+const request = new Request('http://localhost/api/explain', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ question: sample.question, options: sample.options }),
 });
-
-const { SYSTEM_PROMPT, buildUserPrompt } = promptModule;
-
-const samples = JSON.parse(await readFile(path.join(ROOT, 'eklenecek', 'Radyoloji_30.json'), 'utf8'));
-
-// pick a few distinct types
-const sampleCount = Math.max(1, Math.min(4, Number(process.env.AI_PROMPT_SAMPLE_COUNT ?? 4)));
-const picks = [samples[0], samples[3], samples[4], samples[9]].slice(0, sampleCount);
-
-const models = (process.env.GEMINI_MODELS_AI ?? process.env.GEMINI_MODEL_AI ?? 'gemini-3.7-flash,gemini-3.6-flash,gemini-3.5-flash,gemini-3.1-flash-lite,gemini-3-flash-preview')
-  .split(',').map((value) => value.trim()).filter(Boolean);
-const keys = [];
-for (let i = 1; i <= 10; i++) {
-  const key = process.env[`GEMINI_API_KEY_${i}`];
-  if (key && !keys.includes(key)) keys.push(key);
-}
-if (process.env.GEMINI_API_KEY && !keys.includes(process.env.GEMINI_API_KEY)) keys.push(process.env.GEMINI_API_KEY);
-if (keys.length === 0) throw new Error('GEMINI_API_KEY_* missing');
-
-async function callGemini(systemInstruction, userText) {
-  const errors = [];
-  for (const model of models) {
-    for (let i = 0; i < keys.length; i++) {
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`;
-      const res = await fetch(url, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', 'x-goog-api-key': keys[i] },
-        body: JSON.stringify({
-          systemInstruction: { parts: [{ text: systemInstruction }] },
-          contents: [{ role: 'user', parts: [{ text: userText }] }],
-          generationConfig: { maxOutputTokens: 8192, thinkingConfig: { thinkingLevel: 'high' } },
-        }),
-      });
-      if (!res.ok) {
-        errors.push(`${model}#${i + 1}:${res.status}`);
-        continue;
-      }
-      const j = await res.json();
-      const text = j?.candidates?.[0]?.content?.parts?.map((p) => p.text ?? '').join('') ?? '';
-      if (text.trim()) return { model, text };
-      errors.push(`${model}#${i + 1}:empty`);
-    }
+const originalFetch = globalThis.fetch;
+const attempts = [];
+const keys = getKeys();
+globalThis.fetch = async (url, init) => {
+  const model = String(url).split('/models/')[1]?.split(':')[0];
+  const key = keys.indexOf(init.headers['x-goog-api-key']) + 1;
+  const started = Date.now();
+  const record = { model, key };
+  attempts.push(record);
+  console.log(JSON.stringify({ model, key, phase: 'start' }));
+  try {
+    const response = await originalFetch(url, init);
+    Object.assign(record, { status: response.status, seconds: (Date.now() - started) / 1000 });
+    console.log(JSON.stringify(record));
+    const readJSON = response.json.bind(response);
+    response.json = async () => {
+      const data = await readJSON();
+      record.finish = data.candidates?.[0]?.finishReason;
+      return data;
+    };
+    return response;
+  } catch (error) {
+    Object.assign(record, { error: error.name, seconds: (Date.now() - started) / 1000 });
+    console.log(JSON.stringify(record));
+    throw error;
   }
-  throw new Error(`Tüm Gemini denemeleri başarısız: ${errors.join(', ')}`);
-}
-
-for (let i = 0; i < picks.length; i++) {
-  const q = picks[i];
-  const forcedKey = /^[A-E]$/.test(process.env.AI_PROMPT_FORCE_KEY ?? '')
-    ? process.env.AI_PROMPT_FORCE_KEY
-    : null;
-  const answerKey = forcedKey ?? q.correctAnswer;
-  const userPrompt = buildUserPrompt({
-    question: q.question,
-    options: q.options,
-    lesson: 'Kardiyoloji',
-    unit: 'Acil',
-    correctAnswer: answerKey,
-    context: [],
-  });
-  process.stdout.write(`\n\n================ SORU ${i + 1} ================\n`);
-  process.stdout.write(`Q: ${q.question.slice(0, 120)}...\nAnswer key under audit: ${answerKey}\n\n`);
-  const out = await callGemini(SYSTEM_PROMPT, userPrompt);
-  process.stdout.write(`Model: ${out.model}\n\n`);
-  process.stdout.write(out.text);
-  process.stdout.write('\n');
-}
+};
+const start = Date.now();
+const response = await handler(request);
+const text = await response.text();
+await mkdir('scratch', { recursive: true });
+await writeFile('scratch/ai-explanation-smoke.md', text);
+const result = {
+  status: response.status, elapsedSeconds: (Date.now() - start) / 1000,
+  characters: text.length, attempts,
+  optionsExplained: ['A', 'B', 'C', 'D', 'E'].every(letter => text.includes(letter + ')')),
+};
+console.log(JSON.stringify(result, null, 2));
+await writeFile('scratch/ai-explanation-smoke.json', JSON.stringify(result, null, 2));
+if (response.status !== 200 || !result.optionsExplained) process.exitCode = 1;

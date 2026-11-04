@@ -68,7 +68,7 @@ export const AIAssistantPanel = memo(function AIAssistantPanel({
           <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-indigo-500/40 via-violet-500/40 to-transparent" />
           <div className="flex items-center gap-2 font-bold text-indigo-500 text-sm">
             <Sparkle size={16} weight="thin" /> AI Öğretmen
-            {loading && <span className={`text-[10px] font-medium ${theme.subtext} opacity-50 ml-1 animate-pulse`}>yazıyor…</span>}
+            {loading && <span className={`text-[10px] font-medium ${theme.subtext} opacity-50 ml-1 animate-pulse`}>hazırlanıyor…</span>}
           </div>
           <Button
             onClick={onClose}
@@ -86,7 +86,7 @@ export const AIAssistantPanel = memo(function AIAssistantPanel({
               <div className="w-12 h-12 rounded-2xl bg-indigo-500/10 flex items-center justify-center">
                 <Sparkle size={24} weight="thin" className="text-indigo-500 anim-glow" />
               </div>
-              <p className={`font-bold opacity-60 text-xs ${theme.text}`}>Kitabınız taranıyor ve<br />analiz yapılıyor…</p>
+              <p className={`font-bold opacity-60 text-xs ${theme.text}`}>Soru ve şıklar değerlendiriliyor.<br />Çözüm hazırlanıyor…</p>
             </div>
           )}
           {/* Hata — AUDIT: R1 retry butonu */}

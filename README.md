@@ -8,6 +8,12 @@ Bu dosya projenin yeteneklerini ve kullanımını açıklamak amacıyla oluştur
 
 ---
 
+## Ünite Çalışma Seçimi (2026-10-04)
+
+Her 10 soruda 1 doğru yapılmış favorili, 2 yanlış yapılmış favorisiz, 3 yanlış yapılmış favorili ve 4 hiç görülmemiş soru seçilir. Yeterli soru yoksa eksikler favorili → yanlış yapılmış → görülmemiş önceliğiyle tamamlanır; doğru yapılmış favorisiz sorular diğer havuzlar tükenince seçilir. En az bir yanlış denemesi olan soru yanlış grubunda değerlendirilir. Havuzların içinden rastgele ve tekrarsız seçim yapılır.
+
+Hızlı 20, Standart 40, Karma 100 veya özel sayı seçilebilir. **Hepsini çalış**, görülmüş ve doğru yapılmış favorisiz sorular dahil ünitenin tüm sorularını açar.
+
 ## 0. BELGE HARİTASI (NEREDE NE VAR)
 
 Proje yalnızca **iki kalıcı kök belge** + işe özel workflow/skill dosyalarıyla yönetilir (eski `CLAUDE.md` ve `AGENTS.md` kaldırıldı; içerikleri buraya ve gemini.md'ye taşındı):

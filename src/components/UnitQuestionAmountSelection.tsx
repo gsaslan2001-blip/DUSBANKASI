@@ -17,7 +17,7 @@ type UnitQuestionAmountSelectionProps = {
 const COUNT_PRESETS = [
   { label: 'Hızlı 20', count: 20 },
   { label: 'Standart 40', count: 40 },
-  { label: 'Görülmemişlerden 100', count: 100 },
+  { label: 'Karma 100', count: 100 },
 ] as const;
 
 export function UnitQuestionAmountSelection({
@@ -31,8 +31,8 @@ export function UnitQuestionAmountSelection({
 }: UnitQuestionAmountSelectionProps) {
   const [selection, setSelection] = useState<UnitQuestionSelection>({ kind: 'count', count: 40 });
   const [customCount, setCustomCount] = useState(Math.min(40, totalCount));
-  const selectedCount = selection.kind === 'all-unseen'
-    ? unseenCount
+  const selectedCount = selection.kind === 'all'
+    ? totalCount
     : Math.min(selection.count, totalCount);
 
   return (
@@ -66,17 +66,17 @@ export function UnitQuestionAmountSelection({
           })}
 
           <Button
-            onClick={() => setSelection({ kind: 'all-unseen' })}
+            onClick={() => setSelection({ kind: 'all' })}
             variant="unstyled"
-            aria-pressed={selection.kind === 'all-unseen'}
+            aria-pressed={selection.kind === 'all'}
             className={`justify-between rounded-xl border px-4 py-3 text-sm transition-colors ${
-              selection.kind === 'all-unseen'
+              selection.kind === 'all'
                 ? 'border-indigo-400/60 bg-indigo-500/15 text-indigo-300'
                 : `${theme.border} ${theme.inputBg} ${theme.text}`
             }`}
           >
-            <span>Tüm görülmemişler</span>
-            {selection.kind === 'all-unseen' && <CheckCircle size={16} weight="fill" />}
+            <span>Hepsini çalış</span>
+            {selection.kind === 'all' && <CheckCircle size={16} weight="fill" />}
           </Button>
         </div>
 
@@ -99,7 +99,9 @@ export function UnitQuestionAmountSelection({
         </label>
 
         <p className={`${theme.subtext} text-[11px] text-center mt-5`}>
-          Önce görülmemişler; gerekirse yanlışlar ve doğru favoriler seçilir.
+          Her 10 soruda: 1 doğru favori, 2 yanlış favorisiz, 3 yanlış favori, 4 görülmemiş.
+          {' '}Eksikler favorili → yanlış → görülmemiş sırasıyla tamamlanır; doğru favorisizler en son seçilir.
+          {' '}Hepsini çalış, ünitenin tüm sorularını içerir.
         </p>
 
         <div className="flex gap-3 mt-6">

@@ -20,7 +20,8 @@ export type AppState =
   | 'daily-plan'
   | 'source-books'
   | 'select-highyield-unit'
-  | 'select-highyield-karma';
+  | 'select-highyield-karma'
+  | 'select-cikmis';
 
 export type AnswerDetail = {
   question: Question;

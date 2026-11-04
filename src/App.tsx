@@ -24,6 +24,8 @@ const StatisticsView = lazy(() => import('./components/StatisticsView'));
 const DailyPlanView = lazy(() => import('./components/DailyPlanView'));
 const SourceBooksView = lazy(() => import('./components/SourceBooksView').then(m => ({ default: m.SourceBooksView })));
 const AddQuestionView = lazy(() => import('./components/admin/AddQuestionView').then(m => ({ default: m.AddQuestionView })));
+const CikmisSelectionView = lazy(() => import('./components/sections/CikmisSelectionView').then(m => ({ default: m.CikmisSelectionView })));
+import { isCikmisQuestion } from './config/canonicalUnits';
 import { buildSmartQueue, buildUnitQueue, buildExamPool, buildSimulationPool } from './lib/adaptive';
 import {
   CheckCircle, XCircle, ArrowRight, ArrowLeft, ArrowCounterClockwise, BookOpen,
@@ -31,7 +33,7 @@ import {
   Upload, Download, WarningCircle, CircleNotch, Trash, PencilSimple, Star, Plus,
   Warning, FileText, Gear, ChartBar, Lightning, Brain, Target, Calendar,
   UserCircle, Hourglass, ClipboardText,
-  Image, X as XIcon, Shuffle
+  Image, X as XIcon, Shuffle, GraduationCap
 } from '@phosphor-icons/react';
 import { fisherYates } from './lib/shuffle';
 import { todayStr } from './lib/dateUtils';
@@ -148,6 +150,7 @@ export default function App() {
   const [examQuestions, setExamQuestions] = useState<Question[]>([]);
   const [unitQuestions, setUnitQuestions] = useState<Question[]>([]);
   const [isHighYieldMode, setIsHighYieldMode] = useState(false);
+  const [isCikmisMode, setIsCikmisMode] = useState(false);
 
   // T11: 6 mod bayrağı tek activeExam nesnesine indirgendi
   type ExamVariant = 'normal' | 'favorites' | 'high_yield' | 'daily' | 'simulation' | 'retry' | 'weak' | 'sprint';
@@ -590,7 +593,9 @@ export default function App() {
     }, 'İstatistikleri Sıfırla');
   };
 
-  const availableLessons = Array.from(new Set(questions.map((q) => q.lesson))).sort(compareByCurriculumOrder);
+  const EXCLUDED_LESSONS = new Set(['ÇIKMIŞ SORULAR', 'Pedodonti Cikmis', 'Yanlışlarım']);
+  const availableLessons = Array.from(new Set(questions.filter((q) => !EXCLUDED_LESSONS.has(q.lesson)).map((q) => q.lesson))).sort(compareByCurriculumOrder);
+  const cikmisCount = questions.filter(isCikmisQuestion).length;
   const unitsForLesson = Array.from(new Set(questions.filter((q) => q.lesson === selectedLesson).map((q) => q.unit)));
   const selectedUnitSkeletons = appState === 'select-unit-amount'
     ? questions.filter((question) => question.lesson === selectedLesson && question.unit === selectedUnit)
@@ -618,7 +623,11 @@ export default function App() {
         return;
       }
       const rows = await fetchQuestionsByIds(ids);
-      const fullQs = rows.map(rowToQuestion);
+      const rowsById = new Map(rows.map(row => [row.id, row]));
+      const fullQs = ids.flatMap(id => {
+        const row = rowsById.get(id);
+        return row ? [rowToQuestion(row)] : [];
+      });
       setUnitQuestions(fullQs);
       setActiveExam(null);
       setAppState('quiz');
@@ -695,6 +704,7 @@ export default function App() {
     setSelectedUnit('');
     setUnitQuestions([]);
     setIsHighYieldMode(false);
+    setIsCikmisMode(false);
   };
 
 
@@ -867,11 +877,16 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
         setUnitQuestions([]);
         setActiveExam(null);
         setPendingExamVariant('normal');
-        const backTarget = isHighYieldMode ? 'select-highyield-unit' : activeExam !== null ? 'select-lesson' : 'select-unit';
+        const backTarget = isCikmisMode ? 'select-cikmis' : isHighYieldMode ? 'select-highyield-unit' : activeExam !== null ? 'select-lesson' : 'select-unit';
         setIsHighYieldMode(false);
+        setIsCikmisMode(false);
         setAppState(backTarget);
         break;
       }
+      case 'select-cikmis':
+        setIsCikmisMode(false);
+        setAppState('select-lesson');
+        break;
       case 'select-unit':
       case 'select-highyield-unit':
       case 'select-deneme':
@@ -900,7 +915,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
       default:
         setAppState('select-lesson');
     }
-  }, [appState, activeExam, pendingExamVariant, isHighYieldMode]);
+  }, [appState, activeExam, pendingExamVariant, isHighYieldMode, isCikmisMode]);
 
   useEffect(() => {
     if (appState !== 'select-lesson') {
@@ -1074,6 +1089,11 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
             {appState === 'select-unit-amount' && (
               <Button onClick={() => setAppState('select-unit')} variant="secondary" size="sm" className="ml-1">
                 <CaretLeft size={14} weight="thin" /> Üniteler
+              </Button>
+            )}
+            {appState === 'select-cikmis' && (
+              <Button onClick={() => { setIsCikmisMode(false); setAppState('select-lesson'); }} variant="secondary" size="sm" className="ml-1">
+                <CaretLeft size={14} weight="thin" /> Ana Menü
               </Button>
             )}
             {appState === 'select-highyield-unit' && (
@@ -1276,7 +1296,82 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               highYieldCount={questions.filter(q => q.quality_flag === 'high_yield').length}
               hyLoading={hyLoading}
               onAnalyticsClick={() => setAppState('analytics')}
+              onCikmisClick={() => {
+                setIsCikmisMode(true);
+                setAppState('select-cikmis');
+              }}
+              cikmisCount={cikmisCount}
               theme={theme}
+            />
+          ) : appState === 'select-cikmis' ? (
+            <CikmisSelectionView
+              questions={questions}
+              theme={theme}
+              showAlert={showAlert}
+              onBack={() => {
+                setIsCikmisMode(false);
+                setAppState('select-lesson');
+              }}
+              onSelectUnit={async (lesson, unit, questionIds) => {
+                try {
+                  setContentLoading(true);
+                  const rows = await fetchQuestionsByIds(questionIds);
+                  if (rows.length === 0) {
+                    showAlert('Sorular yüklenemedi.', 'Hata');
+                    return;
+                  }
+                  setSelectedLesson(lesson);
+                  setSelectedUnit(unit);
+                  setExamQuestions(fisherYates(rows.map(rowToQuestion)));
+                  setActiveExam({ variant: 'normal' });
+                  setIsCikmisMode(true);
+                  setAppState('quiz');
+                } catch (e) {
+                  showAlert('Çıkmış sorular yüklenemedi: ' + errMsg(e), 'Hata');
+                } finally {
+                  setContentLoading(false);
+                }
+              }}
+              onSelectAllForLesson={async (lesson, questionIds) => {
+                try {
+                  setContentLoading(true);
+                  const rows = await fetchQuestionsByIds(questionIds);
+                  if (rows.length === 0) {
+                    showAlert('Sorular yüklenemedi.', 'Hata');
+                    return;
+                  }
+                  setSelectedLesson(lesson);
+                  setSelectedUnit(`${lesson} Çıkmış Sorular`);
+                  setExamQuestions(fisherYates(rows.map(rowToQuestion)));
+                  setActiveExam({ variant: 'normal' });
+                  setIsCikmisMode(true);
+                  setAppState('quiz');
+                } catch (e) {
+                  showAlert('Çıkmış sorular yüklenemedi: ' + errMsg(e), 'Hata');
+                } finally {
+                  setContentLoading(false);
+                }
+              }}
+              onSelectKarmaAll={async (questionIds) => {
+                try {
+                  setContentLoading(true);
+                  const rows = await fetchQuestionsByIds(questionIds);
+                  if (rows.length === 0) {
+                    showAlert('Sorular yüklenemedi.', 'Hata');
+                    return;
+                  }
+                  setSelectedLesson('Karma Çıkmış');
+                  setSelectedUnit('Tüm Çıkmış Sorular');
+                  setExamQuestions(fisherYates(rows.map(rowToQuestion)));
+                  setActiveExam({ variant: 'normal' });
+                  setIsCikmisMode(true);
+                  setAppState('quiz');
+                } catch (e) {
+                  showAlert('Karma çıkmış sorular yüklenemedi: ' + errMsg(e), 'Hata');
+                } finally {
+                  setContentLoading(false);
+                }
+              }}
             />
           ) : appState === 'select-highyield-unit' ? (
             <HighYieldUnitSelection
@@ -1480,7 +1575,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
 type DailyExamStatus = 'loading' | 'no-user' | 'not-ready' | { dayNumber: number; questionCount: number; resumeAt?: number };
 
-function LessonSelection({ lessons, questions, onSelect, totalQuestions, sprintManifest, sprintResumeAt, onSprintClick, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onHighYieldClick, highYieldCount, hyLoading, onAnalyticsClick, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; sprintManifest: StudyQueueManifest | null; sprintResumeAt?: number; onSprintClick: () => void; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onHighYieldClick: () => void; highYieldCount: number; hyLoading?: boolean; onAnalyticsClick: () => void; theme: Theme }) {
+function LessonSelection({ lessons, questions, onSelect, totalQuestions, sprintManifest, sprintResumeAt, onSprintClick, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onHighYieldClick, highYieldCount, hyLoading, onAnalyticsClick, onCikmisClick, cikmisCount, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; sprintManifest: StudyQueueManifest | null; sprintResumeAt?: number; onSprintClick: () => void; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onHighYieldClick: () => void; highYieldCount: number; hyLoading?: boolean; onAnalyticsClick: () => void; onCikmisClick: () => void; cikmisCount: number; theme: Theme }) {
   const _lessonStats = loadAllStats();
   return (
     <div className="anim-slide-up w-full">
@@ -1644,6 +1739,19 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, sprintM
              </div>
              <div className="text-sm font-bold mb-0.5">Akıllı Çalışma</div>
              <div className={`${theme.subtext} text-[10px]`}>Motor destekli seçim</div>
+          </Button>
+
+          <Button onClick={onCikmisClick} variant="unstyled" className={`stagger-item col-span-1 md:col-span-2 lg:col-span-2 ${theme.cardGlass} rounded-[1.5rem] p-5 text-left card-hover group border border-amber-500/15 hover:border-amber-400/40 transition-all`}>
+             <div className="flex justify-between items-center mb-3">
+               <div className="w-10 h-10 rounded-xl bg-amber-500/15 flex items-center justify-center group-hover:scale-110 transition-transform">
+                 <GraduationCap size={20} weight="fill" className="text-amber-400" />
+               </div>
+               {cikmisCount > 0 && (
+                 <span className="text-2xl font-black text-amber-400">{cikmisCount}</span>
+               )}
+             </div>
+             <div className="text-sm font-bold mb-0.5">Çıkmış Modu</div>
+             <div className={`${theme.subtext} text-[10px]`}>ÖSYM DUS soruları</div>
           </Button>
 
           <Button onClick={onHighYieldClick} disabled={hyLoading} variant="unstyled" className={`stagger-item col-span-1 md:col-span-2 lg:col-span-2 ${theme.cardGlass} rounded-[1.5rem] p-5 text-left card-hover group border border-fuchsia-500/10 hover:border-fuchsia-500/30 transition-all disabled:opacity-70 disabled:cursor-wait`}>
