@@ -1,7 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 import { todayStr } from './dateUtils';
 import {
-  getCachedSkeletons, saveSkeletonsToCache, deleteSkeletonsFromCache,
+  getCachedSkeletons, saveSkeletonsToCache, deleteSkeletonsFromCache, clearAllSkeletonsCache,
   getQuestionsFromContentCache, saveQuestionsToContentCache,
   getCachedQuestions, saveQuestionsToCache, deleteQuestionsFromCache,
 } from './idb';
@@ -102,6 +102,14 @@ async function withRetry<T>(fn: () => Promise<T>, retries = 3): Promise<T> {
  * Full fetch: ~250 KB (12.000 satır × 5 kolon, gzip ~40 KB)
  */
 export async function fetchSkeletons(): Promise<SkeletonRow[]> {
+  const PURGE_HEAL_KEY = 'dus_purge_heal_v458_1';
+  if (!localStorage.getItem(PURGE_HEAL_KEY)) {
+    // 19.780 soruluk büyük temizlik sonrası istemci IndexedDB önbelleğini tamamen sıfırla
+    await clearAllSkeletonsCache().catch(() => {});
+    localStorage.removeItem('skeletons_last_sync');
+    localStorage.setItem(PURGE_HEAL_KEY, 'true');
+  }
+
   const cached = await getCachedSkeletons();
   const lastSyncStr = localStorage.getItem('skeletons_last_sync');
 
@@ -129,14 +137,23 @@ export async function fetchSkeletons(): Promise<SkeletonRow[]> {
       r => !EXCLUDED_FLAGS.has(r.quality_flag ?? '')
     );
 
-    const { data: deletedData, error: delError } = await supabase
-      .from('deleted_records')
-      .select('record_id')
-      .eq('table_name', 'questions')
-      .gt('deleted_at', lastSync);
+    // Silinen kayıtları 1000 limitine takılmadan sayfalayarak topla
+    const deletedIds: string[] = [];
+    let delFrom = 0;
+    while (true) {
+      const { data: delPage, error: delError } = await supabase
+        .from('deleted_records')
+        .select('record_id')
+        .eq('table_name', 'questions')
+        .gt('deleted_at', lastSync)
+        .range(delFrom, delFrom + PAGE_SIZE - 1);
 
-    if (delError) throw new Error(delError.message);
-    const deletedIds = (deletedData ?? []).map((r: { record_id: string }) => r.record_id);
+      if (delError) throw new Error(delError.message);
+      if (!delPage || delPage.length === 0) break;
+      deletedIds.push(...delPage.map((r: { record_id: string }) => r.record_id));
+      if (delPage.length < PAGE_SIZE) break;
+      delFrom += PAGE_SIZE;
+    }
 
     const finalSkeletons = cached.filter(s => !deletedIds.includes(s.id));
     for (const row of updatedRows) {

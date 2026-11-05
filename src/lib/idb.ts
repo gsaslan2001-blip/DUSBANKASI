@@ -76,6 +76,17 @@ export async function deleteSkeletonsFromCache(ids: string[]): Promise<void> {
   });
 }
 
+export async function clearAllSkeletonsCache(): Promise<void> {
+  const db = await getDb();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(SKELETON_STORE, 'readwrite');
+    const store = tx.objectStore(SKELETON_STORE);
+    const req = store.clear();
+    req.onsuccess = () => resolve();
+    req.onerror = () => reject(req.error);
+  });
+}
+
 // ─── CONTENT CACHE (tam soru metni) ────────────────────────────────────────
 
 export async function getQuestionsFromContentCache(ids: string[]): Promise<QuestionRow[]> {
