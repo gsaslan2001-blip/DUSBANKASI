@@ -102,7 +102,7 @@ function CountdownWidget() {
           <span className="text-amber-500 font-black text-xs">★</span>
         </div>
         <div className="flex flex-col relative z-10">
-          <span className="text-[10px] font-black tracking-widest text-amber-500 uppercase leading-[1.2] opacity-90">DUS 2026/2</span>
+          <span className="text-[10px] font-black tracking-widest text-amber-500 uppercase leading-[1.2] opacity-90">DUS 2027</span>
           <span className="text-sm font-black leading-none" style={{ color: 'var(--color-text-primary)' }}>BUGÜN SINAV!</span>
         </div>
       </div>
@@ -133,7 +133,7 @@ function CountdownWidget() {
         <Hourglass size={18} weight="thin" className="text-indigo-400 countdown-spin filter drop-shadow-[0_0_8px_rgba(99,102,241,0.5)]" />
       </div>
       <div className="flex flex-col relative z-10">
-        <span className="text-[10px] font-black tracking-widest text-indigo-400 uppercase leading-[1.2] opacity-90">DUS 2026/2</span>
+        <span className="text-[10px] font-black tracking-widest text-indigo-400 uppercase leading-[1.2] opacity-90">DUS 2027</span>
         <span className="text-sm font-black leading-none" style={{ color: 'var(--color-text-primary)' }}>{daysLeft} Gün Kaldı</span>
       </div>
     </div>
