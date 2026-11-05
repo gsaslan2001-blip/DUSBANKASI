@@ -82,7 +82,7 @@ import {
   pushStatsToCloud, saveSessionToCloud, type CloudStat,
   loadTodaysDailyExam, saveDailyExam, markDailyExamCompleted, getNextDayNumber,
   loadSessionFromCloud, deleteSessionFromCloud,
-  fetchQuestions, fetchHighYieldQuestions
+  fetchQuestions
 } from '../supabase';
 
 import * as idb from '../idb';
@@ -245,30 +245,7 @@ describe('daily_exams integration tests', () => {
   });
 });
 
-describe('Pagination & Fetch functions (fetchQuestions, fetchHighYieldQuestions)', () => {
-  it('fetchHighYieldQuestions uses pagination and stops when row count < PAGE_SIZE', async () => {
-    // Return 500 rows on first call (full page)
-    const page1 = Array.from({ length: 500 }).map((_, i) => ({ id: `q${i}` }));
-    // Return 10 rows on second call (last page)
-    const page2 = Array.from({ length: 10 }).map((_, i) => ({ id: `q50${i}` }));
-    
-    globalThis.__supabaseMockQueue.push({ data: page1, error: null });
-    globalThis.__supabaseMockQueue.push({ data: page2, error: null });
-    
-    const res = await fetchHighYieldQuestions();
-    
-    expect(globalThis.__chains.length).toBe(2);
-    
-    const c1 = globalThis.__chains[0];
-    expect(c1._query).toContainEqual(['range', [0, 499]]);
-    expect(c1._query).toContainEqual(['eq', ['quality_flag', 'high_yield']]);
-    
-    const c2 = globalThis.__chains[1];
-    expect(c2._query).toContainEqual(['range', [500, 999]]);
-    
-    expect(res.length).toBe(510);
-    expect(idb.saveQuestionsToContentCache).toHaveBeenCalledWith(res);
-  });
+describe('Pagination & Fetch functions (fetchQuestions)', () => {
 
   it('fetchQuestions without cache uses Promise.all pagination for fetchAllQuestions', async () => {
     // Cached is empty -> fetchAllQuestions -> Promise.all([page1, page2])
@@ -287,7 +264,7 @@ describe('Pagination & Fetch functions (fetchQuestions, fetchHighYieldQuestions)
     
     const c1 = globalThis.__chains[0];
     expect(c1._query).toContainEqual(['range', [0, 499]]);
-    expect(c1._query).toContainEqual(['or', ['quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield,quality_flag.eq.cikmis']]);
+    expect(c1._query).toContainEqual(['or', ['quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.cikmis']]);
     
     const c2 = globalThis.__chains[1];
     expect(c2._query).toContainEqual(['range', [500, 999]]);

@@ -1,8 +1,6 @@
 import { useState, useCallback, useRef } from 'react';
 import {
   fetchSkeletons,
-  fetchHighYieldQuestions,
-  fetchQuestionsByIds,
   toggleFavoriteInCloud,
   updateQuestion as updateQuestionRemote,
   flagQuestion as flagQuestionRemote,
@@ -31,8 +29,6 @@ export type UseQuestionsResult = {
   loadStatus: LoadingState;
   loadError: string;
   reload: (forceSync?: boolean, flaggedOnly?: boolean) => Promise<void>;
-  /** High-yield soruları on-demand çeker, skeleton state'e (is_favorite/quality_flag) merge eder. */
-  loadHighYield: () => Promise<void>;
   updateQuestion: (edited: Question) => Promise<void>;
   deleteQuestion: (id: string) => Promise<void>;
   toggleFavorite: (id: string, newStatus: boolean) => Promise<void>;
@@ -93,28 +89,6 @@ export function useQuestions(): UseQuestionsResult {
         : raw;
       setLoadError(msg);
       setLoadStatus('error');
-    }
-  }, []);
-
-  const loadHighYield = useCallback(async () => {
-    // Cache-first: skeleton'lardan HY id'lerini al, contentCache'e bak, eksikleri ağdan çek
-    const hyIds = skeletonsRef.current.filter(s => s.quality_flag === 'high_yield').map(s => s.id);
-    if (hyIds.length > 0) {
-      await fetchQuestionsByIds(hyIds); // cache-hit'ler ağa gitmez
-    } else {
-      // İlk kurulum: skeleton henüz yüklenmemiş, ağdan tam çekim yap
-      const rows = await fetchHighYieldQuestions();
-      const newSkeletons = rows.map(r => rowToSkeleton({
-        id: r.id, lesson: r.lesson, unit: r.unit,
-        quality_flag: r.quality_flag ?? 'high_yield',
-        is_favorite: r.is_favorite, updated_at: r.updated_at,
-      }));
-      skeletonsRef.current = [...skeletonsRef.current, ...newSkeletons];
-      setSkeletons(prev => {
-        const existingIds = new Set(prev.map(s => s.id));
-        const toAdd = newSkeletons.filter(s => !existingIds.has(s.id));
-        return toAdd.length > 0 ? [...prev, ...toAdd] : prev;
-      });
     }
   }, []);
 
@@ -210,7 +184,6 @@ export function useQuestions(): UseQuestionsResult {
     loadStatus,
     loadError,
     reload,
-    loadHighYield,
     updateQuestion,
     deleteQuestion,
     toggleFavorite,

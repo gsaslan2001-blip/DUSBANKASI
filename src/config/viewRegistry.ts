@@ -43,8 +43,6 @@ export const VIEW_REGISTRY: Record<AppState, ViewConfig> = {
   'smart-study':            { title: 'Akıllı Çalışma',      transition: 'scale', hudMode: 'sterile' },
   'daily-plan':             { title: 'Günlük Plan',         transition: 'slide', hudMode: 'full' },
   'source-books':           { title: 'Kaynak Kitaplar',     transition: 'fade',  hudMode: 'compact' },
-  'select-highyield-unit':  { title: 'High-Yield',          transition: 'slide', hudMode: 'compact' },
-  'select-highyield-karma': { title: 'High-Yield Karma',    transition: 'slide', hudMode: 'compact' },
   'select-cikmis':          { title: 'Çıkmış Sorular',      transition: 'slide', hudMode: 'compact' },
 };
 

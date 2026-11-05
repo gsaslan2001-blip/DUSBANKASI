@@ -37,25 +37,65 @@ interface ScoredQuestion {
 }
 
 /**
- * Tek soruya 0-1 arası priority skoru hesaplar.
- * Yüksek score = daha erken verilmeli.
+ * Yakın tarihte yapılan yanlışlar için recency bonusu hesaplar.
+ * Son 3 gün: +0.30, son 7 gün: +0.22, son 14 gün: +0.15, son 30 gün: +0.08.
  */
-function scoreQuestion(q: Question, stats: StatsMap): ScoredQuestion {
+function getRecencyBonus(lastSeenStr?: string, nowMs = Date.now()): number {
+  if (!lastSeenStr) return 0;
+  const dateMs = Date.parse(lastSeenStr);
+  if (Number.isNaN(dateMs)) return 0;
+  const daysDiff = Math.max(0, (nowMs - dateMs) / (1000 * 60 * 60 * 24));
+  if (daysDiff <= 3) return 0.30;
+  if (daysDiff <= 7) return 0.22;
+  if (daysDiff <= 14) return 0.15;
+  if (daysDiff <= 30) return 0.08;
+  return 0.02;
+}
+
+/**
+ * Soru öncelik puanı hesaplama:
+ * - Temel/klinik ayrımı YOKTUR; tüm derslerin ağırlığı eşittir (1.0).
+ * - Favorilenmiş sorular: +0.35 öncelik bonusu.
+ * - En az 2 kez yanlış yapılmış sorular (kronik hata): +0.30 öncelik bonusu.
+ * - Yeni tarihte yanlış yapılmış sorular: Recency bonusu (+0.08 .. +0.30).
+ */
+export function scoreQuestion(q: Question, stats: StatsMap, nowMs = Date.now()): ScoredQuestion {
   const stat = stats[q.id];
 
-  // Yeni soru — hiç çözülmemiş
+  // 1. Yeni soru (hiç çözülmemiş)
   if (!stat || stat.attempts === 0) {
-    return { question: q, priority: _weights.newExploration * Math.random(), reason: 'new' };
+    let p = _weights.newExploration * (0.3 + Math.random() * 0.2);
+    if (q.is_favorite) {
+      p += 0.35; // Henüz çözülmemiş olsa dahi favorilenmiş soru öncelik alır
+    }
+    return { question: q, priority: p, reason: 'new' };
   }
 
-  // Weakness Score: düşük doğruluk + fazla yanlış seçim kaydı → yüksek weakness
+  // 2. Çözülmüş soru analizi
+  const wrongCount = Math.max(0, stat.attempts - stat.corrects);
   const correctRate = stat.corrects / stat.attempts;
-  const wrongChoiceCount = stat.wrongChoices?.length ?? 0;
-  const weaknessBase = 1 - correctRate; // 0-1 arası
-  const wrongBonus = Math.min(1, wrongChoiceCount / 10); // 10+ yanlış → max bonus
-  const weakness = Math.min(1, weaknessBase * 0.7 + wrongBonus * 0.3);
+  const isWrongAtLeastTwice = wrongCount >= 2;
 
-  const priority = Math.min(1, _weights.weakness * weakness) + Math.random() * 0.02; // tiny jitter (tie-break)
+  // Temel zayıflık skoru (0-1)
+  const weaknessBase = 1 - correctRate;
+  const wrongChoicesBonus = Math.min(0.2, (stat.wrongChoices?.length ?? 0) * 0.04);
+
+  // Kronik hata bonusu: En az 2 kez yanlış yapılmış sorular
+  const chronicWrongBonus = isWrongAtLeastTwice ? 0.30 : (wrongCount === 1 ? 0.10 : 0);
+
+  // Recency bonusu: Daha yeni tarihte yanlış yapılmış sorular
+  const recencyBonus = wrongCount > 0 ? getRecencyBonus(stat.lastSeen, nowMs) : 0;
+
+  // Favori bonusu: Favorilenmiş sorular
+  const favoriteBonus = q.is_favorite ? 0.35 : 0;
+
+  // Toplam zayıflık önceliği (tüm dersler eşit ağırlıklıdır)
+  const priority = (_weights.weakness * (weaknessBase * 0.5 + wrongChoicesBonus))
+    + chronicWrongBonus
+    + recencyBonus
+    + favoriteBonus
+    + (Math.random() * 0.02); // tiny tie-break jitter
+
   return { question: q, priority, reason: 'weak' };
 }
 
@@ -85,9 +125,11 @@ function applyInterleaving(scored: ScoredQuestion[], limit: number): Question[] 
 // ─── Public API ────────────────────────────────────────────────────────────
 
 export type SmartQueueOptions = {
-  limit?: number;          // max soru sayısı (default 50)
+  limit?: number;          // max soru sayısı (default 40)
   includeWeak?: boolean;   // zayıf sorular dahil et (default true)
   includeNew?: boolean;    // yeni sorular dahil et (default true)
+  lesson?: string;         // belirli bir ders seçilmişse yalnız o dersin soruları (ders bazlı mod)
+  nowMs?: number;          // test edilebilir timestamp
 };
 
 export type SmartQueueStats = {
@@ -98,19 +140,22 @@ export type SmartQueueStats = {
 
 /**
  * Adaptive soru kuyruğu oluşturur.
- * Döner: seçilen sorular (interleaved sırada) + özet istatistikler.
+ * Döner: seçilen sorular (interleaved sırada veya ders bazlı) + özet istatistikler.
  */
 export function buildSmartQueue(
   questions: Question[],
   stats: StatsMap,
   options: SmartQueueOptions = {}
 ): { questions: Question[]; breakdown: SmartQueueStats } {
-  const { limit = 50, includeWeak = true, includeNew = true } = options;
+  const { limit = 40, includeWeak = true, includeNew = true, lesson, nowMs } = options;
 
   const scored: ScoredQuestion[] = [];
 
   for (const q of questions) {
-    const s = scoreQuestion(q, stats);
+    // Eğer belirli bir ders seçildiyse diğer dersleri atla
+    if (lesson && q.lesson !== lesson) continue;
+
+    const s = scoreQuestion(q, stats, nowMs);
 
     // Filtre: kullanıcı tercihleri
     if (s.reason === 'weak' && !includeWeak) continue;
@@ -119,19 +164,23 @@ export function buildSmartQueue(
     scored.push(s);
   }
 
-  const interleaved = applyInterleaving(scored, limit);
+  // Belirli bir ders seçilmişse interleaving yerine doğrudan priority sıralı al
+  const selectedQuestions = lesson
+    ? scored.sort((a, b) => b.priority - a.priority).slice(0, limit).map(s => s.question)
+    : applyInterleaving(scored, limit);
 
   // Breakdown hesapla
-  const inSet = new Set(interleaved.map(q => q.id));
+  const inSet = new Set(selectedQuestions.map(q => q.id));
   const selected = scored.filter(s => inSet.has(s.question.id));
   const breakdown: SmartQueueStats = {
     weakCount: selected.filter(s => s.reason === 'weak').length,
     newCount: selected.filter(s => s.reason === 'new').length,
-    totalSelected: interleaved.length,
+    totalSelected: selectedQuestions.length,
   };
 
-  return { questions: interleaved, breakdown };
+  return { questions: selectedQuestions, breakdown };
 }
+
 
 // ─── Günlük Plan Orkestrasyon Yardımcıları ─────────────────────────────────
 // Rapor §3.5

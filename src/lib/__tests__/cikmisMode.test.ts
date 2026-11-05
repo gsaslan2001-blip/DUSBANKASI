@@ -28,7 +28,7 @@ describe('Çıkmış Modu — Kanonik Müfredat ve Eşleme Testleri', () => {
     expect(isCikmisQuestion({ lesson: 'Pedodonti Cikmis', quality_flag: null })).toBe(true);
     expect(isCikmisQuestion({ lesson: 'ÇIKMIŞ SORULAR', quality_flag: null })).toBe(true);
     expect(isCikmisQuestion({ lesson: 'Anatomi', quality_flag: null })).toBe(false);
-    expect(isCikmisQuestion({ lesson: 'Biyokimya', quality_flag: 'high_yield' })).toBe(false);
+    expect(isCikmisQuestion({ lesson: 'Biyokimya', quality_flag: 'reviewed_keep' })).toBe(false);
   });
 
   it('getCikmisCanonicalLesson farklı ders adlarını kanonik derslere eşler', () => {
@@ -57,7 +57,7 @@ describe('Çıkmış Modu — Kanonik Müfredat ve Eşleme Testleri', () => {
     expect(isNormalQuestion({ lesson: 'Pedodonti Cikmis', quality_flag: null })).toBe(false);
     expect(isNormalQuestion({ lesson: 'ÇIKMIŞ SORULAR', quality_flag: null })).toBe(false);
     // High-yield sorular normal modda yer alamaz
-    expect(isNormalQuestion({ lesson: 'Biyokimya', quality_flag: 'high_yield' })).toBe(false);
+
     // Standart normal sorular normal modda yer alır
     expect(isNormalQuestion({ lesson: 'Anatomi', quality_flag: null })).toBe(true);
     expect(isNormalQuestion({ lesson: 'Protez', quality_flag: undefined })).toBe(true);

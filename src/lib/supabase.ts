@@ -129,7 +129,7 @@ export async function fetchSkeletons(): Promise<SkeletonRow[]> {
       .from('questions')
       .select(SELECT_SKELETON_COLS)
       .gt('updated_at', lastSync)
-      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield,quality_flag.eq.cikmis');
+      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.cikmis');
 
     if (updateError) throw new Error(updateError.message);
 
@@ -181,7 +181,7 @@ async function fetchAllSkeletons(): Promise<SkeletonRow[]> {
       const { data, error } = await supabase
         .from('questions')
         .select(SELECT_SKELETON_COLS)
-        .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield,quality_flag.eq.cikmis')
+        .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.cikmis')
         .order('id', { ascending: true })
         .range(from, from + PAGE_SIZE - 1);
       if (error) throw new Error(error.message);
@@ -280,7 +280,7 @@ export async function fetchQuestions(flaggedOnly = false): Promise<QuestionRow[]
       .from('questions')
       .select(SELECT_COLS)
       .gt('updated_at', lastSync)
-      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield,quality_flag.eq.cikmis');
+      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.cikmis');
     if (updateError) throw new Error(updateError.message);
     const updatedRows = ((updatedData ?? []) as QuestionRow[]).filter(
       r => !EXCLUDED_FLAGS.has(r.quality_flag ?? '')
@@ -319,7 +319,7 @@ async function fetchAllQuestions(flaggedOnly: boolean): Promise<QuestionRow[]> {
         .order('id', { ascending: true })
         .range(from, from + PAGE_SIZE - 1);
       if (flaggedOnly) q = q.eq('quality_flag', 'kavramsal_kopya');
-      else q = q.or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.high_yield,quality_flag.eq.cikmis');
+      else q = q.or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.cikmis');
       const { data, error } = await q;
       if (error) throw new Error(error.message);
       const rows = ((data ?? []) as QuestionRow[]).filter(
@@ -341,30 +341,7 @@ async function fetchAllQuestions(flaggedOnly: boolean): Promise<QuestionRow[]> {
   return all;
 }
 
-/**
- * High-yield soruları on-demand çeker ve IndexedDB contentCache'e ekler.
- * fetchSkeletons() çalıştıktan sonra high_yield iskeletleri zaten gelmiş olur;
- * bu fonksiyon tam metinleri çeker.
- */
-export async function fetchHighYieldQuestions(): Promise<QuestionRow[]> {
-  const all: QuestionRow[] = [];
-  let from = 0;
-  while (true) {
-    const { data, error } = await supabase
-      .from('questions')
-      .select(SELECT_COLS)
-      .eq('quality_flag', 'high_yield')
-      .order('id', { ascending: true })
-      .range(from, from + PAGE_SIZE - 1);
-    if (error) throw new Error(error.message);
-    const rows = (data ?? []) as QuestionRow[];
-    all.push(...rows);
-    if (rows.length < PAGE_SIZE) break;
-    from += PAGE_SIZE;
-  }
-  if (all.length > 0) await saveQuestionsToContentCache(all);
-  return all;
-}
+
 
 export type AddQuestionsResult = {
   accepted: number;

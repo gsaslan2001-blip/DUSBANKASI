@@ -39,7 +39,7 @@ export type UnitQuestionSelection =
   | { kind: 'count'; count: number }
   | { kind: 'all' };
 
-const ELIGIBLE_QUALITY_FLAGS = new Set([null, 'reviewed_keep', 'high_yield', 'cikmis']);
+const ELIGIBLE_QUALITY_FLAGS = new Set([null, 'reviewed_keep', 'cikmis']);
 
 type SprintBucket = 'unseen' | 'wrong' | 'favoriteCorrect';
 
@@ -75,7 +75,7 @@ function sprintBucketFor(question: QuestionSkeleton, stats: StatsMap): SprintBuc
   const attempted = !!stat && stat.attempts > 0;
   if (isWrongLane(question) || (attempted && stat.corrects < stat.attempts)) return 'wrong';
   if (attempted && stat.corrects === stat.attempts && question.is_favorite) return 'favoriteCorrect';
-  if (!attempted && question.quality_flag !== 'high_yield' && !isPastExam(question)) return 'unseen';
+  if (!attempted && !isPastExam(question)) return 'unseen';
   return null;
 }
 

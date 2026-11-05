@@ -336,3 +336,52 @@ describe('buildDailyExam', () => {
   });
 });
 
+// ─── Akıllı Çalışma Önceliklendirme ve Ders Bazlı Seçim Testleri ────────────
+
+describe('Akıllı Çalışma Özel Önceliklendirme Kuralları', () => {
+  const baseTime = Date.parse('2026-11-05T12:00:00Z');
+
+  it('favorilenmiş soruları standart sorulara göre daha öncelikli seçer', () => {
+    const qNormal = q('q_norm', 'Anatomi', 'U1');
+    const qFav = { ...q('q_fav', 'Periodontoloji', 'U2'), is_favorite: true };
+
+    const { questions: res } = buildSmartQueue([qNormal, qFav], {}, { limit: 1, nowMs: baseTime });
+    expect(res[0].id).toBe('q_fav');
+  });
+
+  it('en az 2 kez yanlış yapılmış soruları tek yanlışlı sorulara göre öne alır', () => {
+    const qSingleWrong = q('q_single', 'Anatomi', 'U1');
+    const qDoubleWrong = q('q_double', 'Periodontoloji', 'U2');
+
+    const stats: StatsMap = {
+      q_single: { attempts: 1, corrects: 0, lastSeen: '2026-10-01T00:00:00Z' },
+      q_double: { attempts: 2, corrects: 0, lastSeen: '2026-10-01T00:00:00Z' },
+    };
+
+    const { questions: res } = buildSmartQueue([qSingleWrong, qDoubleWrong], stats, { limit: 1, nowMs: baseTime });
+    expect(res[0].id).toBe('q_double');
+  });
+
+  it('daha yeni tarihte yanlış yapılmış sorular eski yanlışlara göre önceliklidir', () => {
+    const qOldWrong = q('q_old', 'Anatomi', 'U1');
+    const qRecentWrong = q('q_recent', 'Periodontoloji', 'U2');
+
+    const stats: StatsMap = {
+      q_old: { attempts: 2, corrects: 0, lastSeen: '2026-09-01T00:00:00Z' }, // 60+ gün önce
+      q_recent: { attempts: 2, corrects: 0, lastSeen: '2026-11-04T12:00:00Z' }, // dün
+    };
+
+    const { questions: res } = buildSmartQueue([qOldWrong, qRecentWrong], stats, { limit: 1, nowMs: baseTime });
+    expect(res[0].id).toBe('q_recent');
+  });
+
+  it('ders filtresi verildiğinde yalnızca o dersten soru seçer', () => {
+    const q1 = q('q1', 'Anatomi', 'U1');
+    const q2 = q('q2', 'Periodontoloji', 'U2');
+    const q3 = q('q3', 'Anatomi', 'U3');
+
+    const { questions: res } = buildSmartQueue([q1, q2, q3], {}, { lesson: 'Anatomi', limit: 10, nowMs: baseTime });
+    expect(res.every(item => item.lesson === 'Anatomi')).toBe(true);
+    expect(res).toHaveLength(2);
+  });
+});

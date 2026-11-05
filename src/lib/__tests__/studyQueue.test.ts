@@ -145,7 +145,7 @@ describe('getOrCreateDailyStudyQueue', () => {
     expect(manifest.picks.map((pick) => pick.unit)).toEqual(Array(5).fill('Hiç Kapsanmayan'));
   });
 
-  it('çıkmış/high-yield etiketlerini tek başına seçmez; yalnız kullanıcı etkileşimi varsa alır', () => {
+  it('çıkmış etiketlerini tek başına seçmez; yalnız kullanıcı etkileşimi varsa alır', () => {
     const ordinary = Array.from({ length: 15 }, (_, index) => ({
       id: `ordinary-${index + 1}`,
       lesson: 'Fizyoloji',
@@ -162,10 +162,10 @@ describe('getOrCreateDailyStudyQueue', () => {
       ...ordinary,
       ...wrong,
       {
-        id: 'unseen-high-yield',
+        id: 'unseen-past-exam-flagged',
         lesson: 'Fizyoloji',
         unit: 'Sinir Sistemi',
-        quality_flag: 'high_yield',
+        quality_flag: 'cikmis',
       },
       {
         id: 'unseen-past-exam',
@@ -174,10 +174,10 @@ describe('getOrCreateDailyStudyQueue', () => {
         quality_flag: null,
       },
       {
-        id: 'wrong-high-yield',
+        id: 'wrong-past-exam',
         lesson: 'Fizyoloji',
         unit: 'Sinir Sistemi',
-        quality_flag: 'high_yield',
+        quality_flag: 'cikmis',
       },
       {
         id: 'favorite-correct-past-exam',
@@ -193,7 +193,7 @@ describe('getOrCreateDailyStudyQueue', () => {
         corrects: 0,
         lastSeen: '2026-08-18T00:00:00.000Z',
       }])),
-      'wrong-high-yield': {
+      'wrong-past-exam': {
         attempts: 2,
         corrects: 1,
         lastSeen: '2026-08-18T00:00:00.000Z',
@@ -213,9 +213,9 @@ describe('getOrCreateDailyStudyQueue', () => {
     }, createMemoryStore());
 
     expect(manifest.breakdown).toMatchObject({ unseen: 15, wrong: 4, favoriteCorrect: 1 });
-    expect(manifest.questionIds).toContain('wrong-high-yield');
+    expect(manifest.questionIds).toContain('wrong-past-exam');
     expect(manifest.questionIds).toContain('favorite-correct-past-exam');
-    expect(manifest.questionIds).not.toContain('unseen-high-yield');
+    expect(manifest.questionIds).not.toContain('unseen-past-exam-flagged');
     expect(manifest.questionIds).not.toContain('unseen-past-exam');
   });
 
@@ -282,7 +282,7 @@ describe('getOrCreateDailyStudyQueue', () => {
   });
 
   it('kalite nedeniyle dışlanan soruları manifest dışında tutar', () => {
-    const flags = [null, 'reviewed_keep', 'high_yield', 'cikmis', 'kavramsal_kopya', 'aciklama_klonu', 'auto_deleted'] as const;
+    const flags = [null, 'reviewed_keep', 'cikmis', 'kavramsal_kopya', 'aciklama_klonu', 'auto_deleted'] as const;
     const questions: QuestionSkeleton[] = flags.map((flag, index) => ({
       id: `flag-${index}`,
       lesson: 'Fizyoloji',
