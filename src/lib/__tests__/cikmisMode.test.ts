@@ -3,6 +3,7 @@ import {
   CANONICAL_LESSONS,
   CANONICAL_UNITS,
   isCikmisQuestion,
+  isNormalQuestion,
   getCikmisCanonicalLesson,
   getCikmisCanonicalUnit,
   PEDO_CIKMIS_TO_CANONICAL,
@@ -48,5 +49,17 @@ describe('Çıkmış Modu — Kanonik Müfredat ve Eşleme Testleri', () => {
     for (const canonicalTarget of Object.values(PEDO_CIKMIS_TO_CANONICAL)) {
       expect(pedoUnits.has(canonicalTarget)).toBe(true);
     }
+  });
+
+  it('isNormalQuestion çıkmış ve high-yield soruları dışlar, normal soruları kabul eder', () => {
+    // Çıkmış sorular normal modda yer alamaz
+    expect(isNormalQuestion({ lesson: 'Patoloji', quality_flag: 'cikmis' })).toBe(false);
+    expect(isNormalQuestion({ lesson: 'Pedodonti Cikmis', quality_flag: null })).toBe(false);
+    expect(isNormalQuestion({ lesson: 'ÇIKMIŞ SORULAR', quality_flag: null })).toBe(false);
+    // High-yield sorular normal modda yer alamaz
+    expect(isNormalQuestion({ lesson: 'Biyokimya', quality_flag: 'high_yield' })).toBe(false);
+    // Standart normal sorular normal modda yer alır
+    expect(isNormalQuestion({ lesson: 'Anatomi', quality_flag: null })).toBe(true);
+    expect(isNormalQuestion({ lesson: 'Protez', quality_flag: undefined })).toBe(true);
   });
 });

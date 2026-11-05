@@ -319,6 +319,11 @@ export const PEDO_CIKMIS_TO_CANONICAL: Record<string, string> = {
   'SUT VE SUREKLI DISLERIN SURMESI': '2 DİŞ SÜRME EVRELERİ',
 };
 
+/** Bir sorunun normal mod sorusu olup olmadığını belirler (çıkmış ve high-yield sorular normal modda listelenmez) */
+export function isNormalQuestion(q: { lesson: string; quality_flag?: string | null }): boolean {
+  return !isCikmisQuestion(q) && q.quality_flag !== 'high_yield';
+}
+
 /** Bir sorunun çıkmış sorusu olup olmadığını belirler */
 export function isCikmisQuestion(q: { lesson: string; quality_flag?: string | null }): boolean {
   if (q.quality_flag === 'cikmis') return true;
