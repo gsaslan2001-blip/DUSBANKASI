@@ -1,0 +1,682 @@
+[
+  {
+    "q_num": 401,
+    "question": "Sjögren sendromu ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hipersalivasyon görülebilir.",
+      "B": "Otoimmün bir hastalıktır.",
+      "C": "Gözlerde kuruluk hissi olabilir.",
+      "D": "Keratokonjunktivit görülür.",
+      "E": "Sistemik lupus eritematozus ile birlikte görülebilir."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sjögren sendromu ekzokrin salgı bezlerini (başta tükürük ve gözyaşı bezleri) etkileyen kronik otoimmün bir bozukluktur. Tükürük bezi asiner dokusunun lenfositik infiltrasyonla yıkımı sonucunda hipersalivasyon değil, şiddetli ağız kuruluğu (kserostomi / hiposalivasyon) gelişir.\n**Çeldiriciler:**\n- B) Ekzokrin bezlerin duktuslarına karşı otoantikor gelişimiyle seyreden kronik, otoimmün ve enflamatuar bir hastalıktır.\n- C) Gözyaşı bezlerinin etkilenmesine bağlı olarak gözlerde belirgin kuruluk hissi (kseroftalmi) ortaya çıkar.\n- D) Gözyaşı salgısının azalması sonucunda kornea ve konjunktiva epitelinde hasar gelişerek keratokonjunktivitis sikka tablosu oluşur.\n- E) Romatoid artrit, sistemik lupus eritematozus, skleroderma veya dermatomiyozit gibi bağ dokusu hastalıklarına eşlik ettiğinde sekonder Sjögren sendromu adını alır.\n---",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 402,
+    "question": "I. Kserostomi\nII. Raynaud fenomeni\nIII. Bilateral parotis küçülmesi\n\nYukarıdakilerden hangisi ya da hangileri Sjögren sendromunda izlenen özelliklerdendir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sjögren sendromunda ekzokrin bez yıkımına bağlı ağız kuruluğu (kserostomi) ve vasküler reaktiviteye bağlı Raynaud fenomeni karakteristik bulgulardır.\n**Öncüllerin Analizi:**\n- I. Doğru: Tükürük bezlerinin etkilenmesi sonucunda gelişen kserostomi (ağız kuruluğu), hastalığın tanımlayıcı ve öncü bulgusudur.\n- II. Doğru: Sjögren sendromlu hastaların yaklaşık %20'sinde soğuk veya stresle tetiklenen vazospazm tablosu olan Raynaud fenomeni görülür.\n- III. Yanlış: Olguların yaklaşık %50'sinde parotis bezlerinde küçülme değil, lenfositik infiltrasyona bağlı bilateral parotis büyümesi (şişliği) ortaya çıkar.\n**Çeldiriciler:** B, C ve D şıkları yanlış olan III. öncülü içerdiği veya doğru öncüllerden birini dışarıda bıraktığı için; E şıkkı ise temel bulgu olan I. öncülü dışladığı için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 403,
+    "question": "Aşağıdakilerden hangisi Mikulicz sendromuna yol açan başlıca hastalıklardan birisi değildir?",
+    "options": {
+      "A": "Skuamöz hücreli karsinoma",
+      "B": "Lösemi infiltrasyonu",
+      "C": "Sjögren sendromu",
+      "D": "Sarkoidozis",
+      "E": "Lenfoma"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Mikulicz sendromu, tükürük ve gözyaşı bezlerinde bilateral simetrik şişme ve kserostomi ile karakterize klinik bir tablodur. Altta yatan sistemik veya lenfoproliferatif hastalıklar sonucunda gelişir; mukozal yüzey epitelinden köken alan skuamöz hücreli karsinoma bu sendroma yol açan etkenler arasında yer almaz.\n**Çeldiriciler:**\n- B) Lösemi infiltrasyonu tükürük ve lakrimal bezlerde diffüz büyümeye neden olarak Mikulicz sendromu tablosu oluşturur.\n- C) Sjögren sendromu, bez dokusunda yoğun lenfoplazmositik infiltrasyon ve duktal skuamöz metaplazi yaratarak bu klinik tabloya yol açar.\n- D) Sarkoidozis, bez parankiminde non-kazeifiye granülomlar oluşturarak tükürük ve gözyaşı bezi şişliği (Mikulicz tablosu) yapar.\n- E) Lenfoma, bez içerisindeki lenfoid dokunun malign proliferasyonu yoluyla Mikulicz sendromuna neden olan başlıca hastalıklardandır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 404,
+    "question": "Yaklaşık 4 yıl önce 46 nolu diş çekimi yapılan ve o günden itibaren şiddetli ağrı şikâyeti olan postmenopozal hasta, son iki yıldır ağzında metalik tat ve kuruluk olduğunu belirtiyor. Ağrının yanağına ve dudağına doğru yayıldığını ifade eden hastanın klinik, radyolojik veya laboratuvar değerlendirmesinde herhangi bir bulgu saptanmıyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sjögren sendromu",
+      "B": "Trigeminal nevralji",
+      "C": "Ağız yanması sendromu",
+      "D": "Miyofasiyal ağrı",
+      "E": "Alveolitis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Ağız yanması sendromu (burning mouth syndrome), sıklıkla 50 yaş üstü postmenopozal kadınlarda görülen, klinik ve laboratuvar olarak hiçbir organik patoloji saptanmamasına rağmen dil, dudak ve mukozada yanma, subjektif kuruluk hissi ve disgezi (metalik veya acı tat) ile karakterize tablodur.\n**Çeldiriciler:**\n- A) Sjögren sendromunda objektif tükürük azalması, laboratuvarda otoantikor pozitifliği vardır ve hastalar metalik-acı tat hissinden şikâyetçi olmazlar.\n- B) Trigeminal nevralji, tetik noktalarının uyarılmasıyla başlayan, saniyeler süren şimşek çakar tarzda keskin ağrılarla karakterizedir; sürekli yanma ve tat bozukluğu yapmaz.\n- D) Miyofasiyal ağrı, çiğneme kaslarındaki tetik noktalardan kaynaklanan künt ağrı ve fonksiyon kısıtlılığı yapar; mukozal yanma veya metalik tat görülmez.\n- E) Alveolitis, diş çekimini takiben 2-4. günlerde ortaya çıkan, çekim soketinde pıhtı yıkımı ve çıplak kemik yüzeyi ile karakterize akut bir tablodur; yıllarca sürmez ve klinik muayenede bulgu verir.\n---",
+    "flag_reason": "Sonbahar 2017 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 406,
+    "question": "Aşağıdaki hastalıklardan hangisinde otoimmünitenin varlığından söz edilebilir?",
+    "options": {
+      "A": "Ağız yanması sendromu",
+      "B": "Trigeminal nevralji",
+      "C": "Sjögren sendromu",
+      "D": "TME Disfonksiyonu",
+      "E": "Alveolitis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sjögren sendromu, immün sistemin tükürük ve gözyaşı bezleri gibi ekzokrin bezlerin duktuslarına karşı antikor ürettiği, kadınlarda 10 kat fazla izlenen otoimmün bir hastalıktır.\n**Çeldiriciler:**\n- A) Ağız yanması sendromu nöropatik, psikojenik veya hormonal faktörlerle ilişkili olup otoimmün bir mekanizmaya sahip değildir.\n- B) Trigeminal nevralji genellikle trigeminal sinir kökünün vasküler kompresyonu veya demiyelinizasyonu sonucu gelişir; otoimmün değildir.\n- D) TME disfonksiyonu oklüzal travma, parafonksiyonel alışkanlıklar ve eklem içi mekanik düzensizliklerden kaynaklanır.\n- E) Alveolitis, çekim soketindeki fibrinolitik aktivite artışına bağlı kan pıhtısının kaybıyla oluşan lokalize enflamatuar bir komplikasyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 466,
+    "question": "Aşağıdaki durumlardan hangisi tükürük salgısında artışa neden olmaz?",
+    "options": {
+      "A": "Uyumsuz dolgu ve protezler",
+      "B": "İlaç intoksikasyonları",
+      "C": "Difteri",
+      "D": "Aftöz ülserler",
+      "E": "Tütün kullanımı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Tütün kullanımı ve zehirlenmesi, tükürük salgısının arttığı (sialore/pityalizm) durumlar arasında değil, tükürük salgısının azaldığı (kserostomi) durumlar arasında yer alır.\n**Çeldiriciler:**\n- A) Çürük dişler, uyumsuz dolgu ve protezler mekanik irritasyon ve yabancı cisim etkisiyle tükürük salgısını artırır.\n- B) İlaç ve ağır metal (kurşun, bakır, kolinerjikler) intoksikasyonları sialoreye yol açar.\n- C) Difteri ve kuduz gibi enfeksiyonlarda orofaringeal irritasyon ve yutma güçlüğüne bağlı sialore görülür.\n- D) Aftöz ülserler ve stomatitler ağrılı uyaranlarla refleks tükürük artışına sebep olur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 467,
+    "question": "Aşağıdakilerden hangisi, hastanın sistemik kullandığı ilaçlara bağlı olarak ağızda görülmez?",
+    "options": {
+      "A": "Herpanjina",
+      "B": "Yaygın gingival hiperplaziler",
+      "C": "Ülserasyonlar",
+      "D": "Kserostomi",
+      "E": "Likenoid reaksiyonlar"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Herpanjina, Coxsackie A veya B virüsünün neden olduğu, fekal-oral ve damlacık yoluyla bulaşan, özellikle çocuklarda yumuşak damak ve tonsil bölgesinde vezikül ve ülserlerle seyreden akut viral bir enfeksiyondur; sistemik ilaç kullanımıyla hiçbir ilişkisi yoktur.\n**Çeldiriciler:**\n- B) Yaygın gingival hiperplaziler; fenitoin (antiepileptik), siklosporin A (immünosüpresif) ve nifedipin (kalsiyum kanal blokörü) kullanımına bağlı olarak gelişir.\n- C) Oral ülserasyonlar; metotreksat gibi kemoterapötikler, D-penisilamin, altın tuzları ve NSAİİ kullanımına bağlı olarak ortaya çıkabilir.\n- D) Kserostomi; antikolinerjikler, antihistaminikler, trisiklik antidepresanlar ve antihipertansif ilaçların en sık görülen oral yan etkisidir.\n- E) Likenoid reaksiyonlar; antihipertansifler (beta-blokörler, diüretikler, ACE inhibitörleri), NSAİİ ve oral hipoglisemik ilaçlara bağlı gelişebilir.\n---",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 468,
+    "question": "Aşağıdakilerden hangisi anjiyotensin dönüştürücü enzim (ACE) inhibitörlerinin oral mukozada görülen etkilerinden biri değildir?",
+    "options": {
+      "A": "Herpanjina",
+      "B": "Tat bozukluğu",
+      "C": "Likenoid reaksiyonlar",
+      "D": "Pemfigoid lezyonlar",
+      "E": "Kserostomi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Herpanjina, ilaç yan etkisi değil, Coxsackie virüslerinin neden olduğu bulaşıcı bir üst solunum yolu ve orofarinks enfeksiyonudur.\n**Çeldiriciler:**\n- B) ACE inhibitörleri (örneğin kaptopril) çinko metabolizmasını etkileyerek disgezi/agezi (tat bozukluğu) yapabilir.\n- C) ACE inhibitörleri oral mukozada liken planusu taklit eden ilaç ilişkili likenoid reaksiyonlara yol açar.\n- D) ACE inhibitörleri epitel-bağ dokusu sınırında otoimmün benzeri yanıt tetikleyerek pemfigus/pemfigoid benzeri büllöz lezyonlar oluşturabilir.\n- E) Diğer antihipertansifler gibi ACE inhibitörleri de tükürük akışını azaltarak kserostomiye neden olur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 469,
+    "question": "Aşağıdakilerden hangisi Coxsackie A etyolojisinde çocuklarda sıklıkla yumuşak damakta herpetiform lezyonlarla karakterize durumdur?",
+    "options": {
+      "A": "Herpanjina",
+      "B": "Likenoid reaksiyonlar",
+      "C": "Ülserasyonlar",
+      "D": "Kserostomi",
+      "E": "Yaygın gingival hiperplaziler"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Herpanjina, Coxsackie A (veya B) virüsü kaynaklı, çocuklarda ateş ve boğaz ağrısı ile başlayan, oral mukozada özellikle yumuşak damak, uvula ve tonsil ön plikalarında herpetiform vezikül ve ülserlerle karakterize viral enfeksiyondur.\n**Çeldiriciler:**\n- B) Likenoid reaksiyonlar ilaçlara veya dental restoratif materyallere karşı gelişen aşırı duyarlılık lezyonlarıdır.\n- C) Non-spesifik ülserasyonlar travma veya ilaçlara bağlı gelişir; yumuşak damakta çocukluk çağı viral salgınları yapmaz.\n- D) Kserostomi tükürük azalması olup viral veziküler bir lezyon değildir.\n- E) Yaygın gingival hiperplaziler ilaçlara, lösemiye veya kalıtsal fibromatozise bağlı gelişen diş eti büyümeleridir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 470,
+    "question": "Dilin özellikle 1/3 arka dorsalinde, orta hatta sıklıkla nodüler kırmızı veya pembe renkte görülen, papillaların olmadığı asemptomatik lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fissürlü dil",
+      "B": "Coğrafik dil",
+      "C": "Yarık dil",
+      "D": "Kıllı dil",
+      "E": "Median rhomboid glossit"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Median rhomboid glossit, dil dorsumunun 1/3 arka kısmında, orta hatta, sirkumvallat papillaların hemen önünde yerleşen, filiform papillaların bulunmadığı (atrofik), oval veya eşkenar dörtgen (baklava) biçimli, pembe-kırmızı renkli, sıklıkla Candida albicans ile ilişkili asemptomatik lezyondur.\n**Çeldiriciler:**\n- A) Fissürlü dil, dil sırtının tamamına yayılan çok sayıda derin oluk ve yarıklarla karakterize gelişimsel bir durumdur.\n- B) Coğrafik dil, dil sırtında ve yanlarında zamanla yer değiştiren, beyaz sınırlarla çevrili çoklu eritematöz depapille alanlardır; orta hatta sabit değildir.\n- C) Yarık (bifid) dil, dilin ön kısmındaki lateral lingual tüberküllerin birleşememesi sonucu dil ucunun ikiye ayrık olmasıdır.\n- D) Kıllı dil, filiform papillaların atrofiye uğraması değil, aksine deskuame olamayarak aşırı uzaması ve kahverengi-siyah boyanmasıdır.\n---",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 471,
+    "question": "I. Ağrılı dil daha çok kadınlarda izlenir.\nII. Tersiyer sifilizde dilde nekroz izlenebilir.\nIII. Coğrafik dil haritaya benzeyen eritematöz lezyondur.\nIV. Kıllı dil yoğun sigara içenlerde görülebilir.\nV. Median romboid glossitis dil tabanında görülür.\n\nDil lezyonları ile ilgili yukarıda verilenlerden hangisi veya hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "III, IV ve V",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** İlk dört öncül dil patolojileri açısından doğru bilgileri içerirken, V. öncül anatomik yerleşim açısından yanlıştır.\n**Öncüllerin Analizi:**\n- I. Doğru: Ağrılı/yanan dil (glossodini / ağız yanması sendromu ve atrofik glossit) özellikle postmenopozal ve anemik kadınlarda çok daha sık izlenir.\n- II. Doğru: Tersiyer sifilizde gelişen gom (gumma) lezyonu dilde santral koagülasyon nekrozu ve derin ülserasyon oluşturabilir.\n- III. Doğru: Coğrafik dil (eritema migrans), filiform papilla kaybına bağlı haritaya benzeyen eritematöz bir lezyondur.\n- IV. Doğru: Kıllı dil; yoğun sigara içenlerde, kötü ağız hijyeninde ve geniş spektrumlu antibiyotik kullananlarda filiform papillaların uzamasıyla görülür.\n- V. Yanlış: Median romboid glossitis dil tabanında (ventralinde) değil, dil sırtında (dorsumunda) orta hatta sirkumvallat papillaların önünde görülür.\n**Çeldiriciler:** A, B ve C şıkları doğru olan IV. öncülü dışladığı için, D şıkkı ise yanlış olan V. öncülü içerdiği için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 472,
+    "question": "Dil dorsumunda bulunan filiform papillaların yavaş deskuame olması ve saç tipine yakın keratin üretmesiyle karakterize durum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Median rhomboid glossit",
+      "B": "Fissürlü dil",
+      "C": "Coğrafik dil",
+      "D": "Yarık dil",
+      "E": "Kıllı dil"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kıllı dil (lingua villosa), dil dorsumundaki filiform papillaların normalden yavaş deskuame olması (dökülmemesi) ve saç tipine yakın aşırı keratin üretmesi sonucunda yarım santime kadar uzamasıyla karakterizedir; kromojenik bakteriler, mantarlar, tütün veya demir preparatlarıyla kahverengi-siyah renk alabilir.\n**Çeldiriciler:**\n- A) Median rhomboid glossitte filiform papillalar uzamaz, aksine orta hatta tamamen silinmiştir (atrofiktir).\n- B) Fissürlü dilde epitel yüzeyinde derin katlantılar ve yarıklar mevcuttur; keratin uzaması yoktur.\n- C) Coğrafik dilde filiform papillaların bölgesel olarak kaybı (deskuamasyonu) sonucu kırmızı harita benzeri alanlar oluşur.\n- D) Yarık dil, embriyolojik birleşme hatasına bağlı dilin orta hatta ikiye ayrılmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 473,
+    "question": "Bilinen sistemik bir hastalığı olmayan 42 yaşındaki kadın hasta rutin kontrol için başvuruyor. Hastanın ağız içi muayenesinde dil dorsumunda multipl, belirgin sarımsı beyaz sınırları olan kırmızı alanlar saptanıyor. Yakından bakıldığında bu alanlarda filiform papillaların olmadığı görülüyor. Herhangi bir semptomu olmayan hastanın takibine karar veriliyor. Üç hafta sonraki kontrolde kırmızı alanların normal görünümüne kavuştuğu, bununla birlikte dil dorsumunda farklı alanlarda benzer lezyonların geliştiği tespit ediliyor.\n\nBu hasta için en olası ön tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Skuamöz hücreli karsinom",
+      "B": "Median rhomboid glossit",
+      "C": "Atrofik kandidiyazis",
+      "D": "Eritroplaki",
+      "E": "Coğrafik dil"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dil dorsumunda filiform papillaların silinmesiyle oluşan, çevresi belirgin sarımsı-beyaz kıvrımlı sınırlarla çevrili kırmızı (eritematöz) alanların bulunması ve bu alanların zaman içinde iyileşerek dilin farklı bölgelerinde yeniden ortaya çıkması (yer değiştirmesi / benign migratuar glossit) coğrafik dil için tanı koydurucudur.\n**Çeldiriciler:**\n- A) Skuamöz hücreli karsinom dilin yan-alt kenarlarında yerleşen, kendiliğinden iyileşip yer değiştirmeyen invaziv malign bir tümördür.\n- B) Median rhomboid glossit dil sırtı orta hatta tek ve sabit bir lezyon olup çevresinde sarı-beyaz sınır içermez ve yer değiştirmez.\n- C) Atrofik kandidiyazis yanma ağrısı yapar, sarı-beyaz keratotik sınırlar göstermez ve antifungal tedavi olmadan yer değiştirerek kendiliğinden düzelmez.\n- D) Eritroplaki genellikle dil ventrali ve ağız tabanında görülen sabit, kadifemsi kırmızı premalign bir lezyondur.\n---",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 474,
+    "question": "Dil yüzeyinde ortaya çıkan, sınırları keskin ve beyaz, zaman içinde şekil ve yer değiştiren, asemptomatik, eritemlere neden olan lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kıllı dil",
+      "B": "Lökoplaki",
+      "C": "Glossitis",
+      "D": "Liken planus",
+      "E": "Coğrafik dil"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Coğrafik dil (eritema migrans), filiform papillaların silinmesi ve subepitelyal enflamasyon nedeniyle ortaya çıkan, keskin sarı-beyaz sınırları olan ve zaman içinde şekil/yer değiştiren (hareketli kızarıklık) harita benzeri lezyondur.\n**Çeldiriciler:**\n- A) Kıllı dil, filiform papillaların hipertrofisi ve uzamasıyla oluşan kahverengi-siyah tablodur; göç edici eritem yapmaz.\n- B) Lökoplaki, sabit yerleşimli premalign beyaz keratotik plaktır.\n- C) Glossitis, anemi veya vitamin eksikliklerine bağlı dilin tamamında izlenen diffüz kızarıklık, yanma ve papilla atrofisidir.\n- D) Liken planus kronik seyirli olup günler-haftalar içinde dil üzerinde yer değiştiren harita benzeri göç edici davranış göstermez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 475,
+    "question": "Aşağıdaki sistemik hastalık ve sendromlardan hangisinde makroglossi görülmesi beklenmez?",
+    "options": {
+      "A": "Akromegali",
+      "B": "Diyabet",
+      "C": "Down sendromu",
+      "D": "Konjenital hipotiroidizm",
+      "E": "Hipertiroidi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Makroglossi; akromegali, Beckwith-Wiedemann sendromu, konjenital hipotiroidizm (kretinizm), diyabet, Down sendromu, lenfanjioma/hemanjioma, mukopolisakkaridozis ve primer amiloidozisde görülür. Hipertiroidide ise dil büyümesi (makroglossi) beklenmez.\n**Çeldiriciler:**\n- A) Akromegalide aşırı büyüme hormonu etkisiyle dilde edinsel makroglossi gelişir.\n- B) Diyabette (ve diyabetik anne bebeklerinde) metabolik ve vasküler değişikliklerle ilişkili makroglossi görülebilir.\n- C) Down sendromunda doğumsal sendromik makroglossi izlenir.\n- D) Konjenital hipotiroidizmde dil dokusunda miksödem birikimine bağlı makroglossi tipiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 476,
+    "question": "Ağız tabanında, boğazda ve dil kökünde ağrısı olan hastada, kulak bölgesinde, öksürme ve yutkunma sırasında şiddetli ağrıya sebep olan hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "TME artriti",
+      "B": "Trigeminal nevralji",
+      "C": "Migren nevraljisi",
+      "D": "Post herpetik nevralji",
+      "E": "Glossofarengeal nevralji"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Glossofarengeal nevralji, 9. kraniyal sinirin (N. glossopharyngeus) dağılım alanında (dilin 1/3 arka kök kısmı, tonsil loju, farinks/boğaz ve orta kulak) yutkunma, öksürme, çiğneme veya konuşma ile tetiklenen, şimşek çakar tarzda kısa süreli çok şiddetli ağrı atakları ile karakterizedir.\n**Çeldiriciler:**\n- A) TME artritinde ağrı preauriküler bölgede ve çiğneme sırasında oluşan künt/sürekli karakterdedir; boğaz ve dil kökünde elektrik çarpar tarzda ağrı yapmaz.\n- B) Trigeminal nevralji 5. kraniyal sinirin dallarında (yüz, dudak, dişler, dilin 2/3 ön kısmı) ağrı yapar; tonsil, farinks ve yutkunma refleksiyle başlayan boğaz ağrısı tipik değildir.\n- C) Migren nevraljisi (küme baş ağrısı), orbital ve temporal bölgede dakikalar-saatler süren, göz yaşarması ve burun tıkanıklığının eşlik ettiği vasküler ağrıdır.\n- D) Post herpetik nevralji, geçirilmiş zona enfeksiyonu sonrasında ilgili dermatomda veziküller iyileştikten sonra aylarca devam eden sürekli yanıcı ağrıdır.\n---",
+    "flag_reason": "DUS Nisan 2014 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 477,
+    "question": "Glossofaringeal nevralji tanısı alan bir hastada aşağıdaki anatomik bölgelerden hangisinde ağrı olması beklenmez?",
+    "options": {
+      "A": "Tonsil bölgesi",
+      "B": "Dil",
+      "C": "Farinks",
+      "D": "Kulak",
+      "E": "Alt dudak"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Alt dudak duyusunu 5. kraniyal sinirin (N. trigeminus) mandibular dalının mental sinir uç dalı alır. Bu nedenle 9. kraniyal sinir patolojisi olan glossofaringeal nevraljide alt dudakta ağrı olması beklenmez.\n**Çeldiriciler:**\n- A) Tonsil bölgesi N. glossopharyngeus'un duyusal alanında yer alır ve ağrının en sık başladığı bölgelerdendir.\n- B) Dilin 1/3 arka (kök/dip) kısmı glossofaringeal sinir tarafından innerve edildiği için şiddetli ağrı burada hissedilir.\n- C) Farinks (yutak) ve geniz bölgesi glossofaringeal sinirin ana dağılım alanıdır.\n- D) Timpanik dalı (Jacobson siniri) orta kulağı innerve ettiği için ağrı karakteristik olarak kulağın içine doğru yayılır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 478,
+    "question": "Aşağıdaki hastalıklardan hangisinde dil, farinks, özefagus, kulak ve tonsilde şiddetli şimşek çakar tarzda kısa süreli ağrı izlenir?",
+    "options": {
+      "A": "TME artriti",
+      "B": "Migren nevraljisi",
+      "C": "Trigeminal nevralji",
+      "D": "Post herpetik nevralji",
+      "E": "Glossofarengeal nevralji"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dil kökü, farinks, üst özefagus, kulak ve tonsilde yutma veya öksürme ile tetiklenen, birkaç saniye ile birkaç dakika süren, şimşek çakar veya elektrik çarpar tarzda şiddetli ağrı glossofarengeal nevraljinin klasik klinik tablosudur.\n**Çeldiriciler:**\n- A) TME artriti eklem kapsülü enflamasyonuna bağlı hareketle artan lokalize eklem ağrısı yapar.\n- B) Migren nevraljisi periorbital yerleşimli otonomik bulgulu vasküler baş ağrısıdır.\n- C) Trigeminal nevralji yüzün ön kısmında, maksiller ve mandibular diş/dudak bölgelerinde ağrı yapar; farinks ve tonsili tutmaz.\n- D) Post herpetik nevralji zona sonrası gelişen kronik sürekli nöropatik ağrıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 479,
+    "question": "I. Prekanseröz bir lezyondur\nII. Sigara kullanımı ile sıklığı artar.\nIII. Yaş ile birlikte görülme olasılığı azalır.\n\nYukarıdakilerden hangisi/hangileri lökoplazi ile ilgili doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Lökoplazi (lökoplaki), sigara kullananlarda sık görülen ve oral mukozanın en sık rastlanan prekanseröz (premalign) lezyonudur.\n**Öncüllerin Analizi:**\n- I. Doğru: Lökoplazi, skuamöz hücreli karsinoma dönüşme potansiyeli taşıyan prekanseröz bir lezyondur.\n- II. Doğru: Tütün ve sigara kullanımı lökoplazi gelişimindeki en önemli etiyolojik faktör olup kullanım arttıkça lezyon sıklığı artar.\n- III. Yanlış: Lökoplazi gençlerde enderdir; yaş ilerledikçe görülme olasılığı azalmaz, aksine orta ve ileri yaşlarda (40-70 yaş) belirgin şekilde artar.\n**Çeldiriciler:** A şıkkı doğru olan II. öncülü dışladığı için; C, D ve E şıkları ise yanlış olan III. öncülü içerdiği için yanlıştır.\n---",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 480,
+    "question": "Aşağıda verilen bilgilerden hangisi lökoplaziler için doğru değildir?",
+    "options": {
+      "A": "Etyolojik faktör kesin olarak bilinmemektedir.",
+      "B": "Sigara kullanan bireylerde görülmez.",
+      "C": "Oral mukozada sık görülen premalign bir lezyonudur.",
+      "D": "Orta yaş ve üzeri bireylerde izlenir.",
+      "E": "En fazla vermilyonda, bukkal mukozada ve dişetinde ortaya çıkar."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Lökoplazi sigara kullanan bireylerde görülmez ifadesi tamamen yanlıştır; aksine hastaların büyük çoğunluğu tütün/sigara kullanan bireylerdir ve sigara en güçlü predispozan faktördür.\n**Çeldiriciler:**\n- A) Kesin ve tek bir etiyolojik faktör tanımlanamadığı için gerçek lökoplakiler idiyopatik olarak da adlandırılır.\n- C) Lökoplazi, ağız mukozasının en sık karşılaşılan premalign (potansiyel malign) lezyonudur.\n- D) Karakteristik olarak 40 yaş üzerindeki orta ve ileri yaş bireylerde izlenir.\n- E) Anatomik lokalizasyon olarak en sık dudak vermilyonunda, bukkal mukozada ve alveoler/diş eti mukozasında ortaya çıkar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 481,
+    "question": "I. Dil\nII. Ağız tabanı\nIII. Bukkal mukoza\n\nYukarıdaki bölgelerden hangisinde veya hangilerinde lökoplaziler daha çok malignite riski taşırlar?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Lökoplazi lezyonlarında epitelyal displazi ve invaziv karsinoma dönüşüm (malignite) riskinin en yüksek olduğu bölgeler dil ve ağız tabanıdır.\n**Öncüllerin Analizi:**\n- I. Doğru: Dilde (özellikle lateral ve ventral yüzeylerde) gelişen lökoplakiler çok yüksek malignite riski taşır.\n- II. Doğru: Ağız tabanında ortaya çıkan lökoplakiler en az görülmesine karşın yaklaşık %40 oranında displazi/karsinom riski taşır.\n- III. Yanlış: Bukkal mukoza, lökoplakinin en sık görüldüğü bölgelerden biri olmasına rağmen maligniteye dönüşüm riskinin en düşük olduğu alanlardandır.\n**Çeldiriciler:** A şıkkı ağız tabanını dışladığı için; C, D ve E şıkları ise düşük riskli bukkal mukozayı içerdiği için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 482,
+    "question": "Aşağıdakilerden hangisi oral beyaz lezyonların ayırıcı tanısında yer almaz?",
+    "options": {
+      "A": "Löködem",
+      "B": "Fordyce spotları",
+      "C": "Darier hastalığı",
+      "D": "Friksiyon keratozu",
+      "E": "Albright sendromu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** McCune-Albright sendromu; poliostotik fibröz displazi, endokrin hiperfonksiyon (erken puberte) ve deride/mukozada kahverengi maküllerle (café-au-lait lekeleri) karakterizedir. Beyaz mukozal lezyon oluşturmaz, pigmentli (kahverengi) lezyonların ayırıcı tanısında yer alır.\n**Çeldiriciler:**\n- A) Löködem, yanak mukozasında grimsi-beyaz görünüm veren gelişimsel bir beyaz lezyondur.\n- B) Fordyce spotları sarımsı-beyaz ektopik yağ bezleri olup klasik olarak oral beyaz-sarı lezyonların ayırıcı tanısında yer alır.\n- C) Darier hastalığı (keratozis follikülaris), damak ve alveoler krette beyazımsı hiperkeratotik papüller oluşturur.\n- D) Friksiyon keratozu, kronik mekanik sürtünmeye bağlı hiperkeratoz sonucu oluşan reaktif beyaz bir lezyondur.\n---",
+    "flag_reason": "DUS Nisan 2014 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 483,
+    "question": "Aşağıdakilerden hangisi Albright Sendromu hakkında doğru bilgi değildir?",
+    "options": {
+      "A": "Çenelerde poliostatik fibröz diplazi lezyonları mevcuttur.",
+      "B": "Bazı endokrin bezlerin hiperfonksiyonu izlenebilir.",
+      "C": "Erken seksüel gelişim mevcuttur.",
+      "D": "Deride café au lait lekeleri izlenir.",
+      "E": "Çoğunlukla erkeklerde izlenir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Albright sendromu (McCune-Albright sendromu) çoğunlukla erkeklerde değil, karakteristik olarak kız çocuklarında (kadınlarda) izlenen genetik bir sendromdur.\n**Çeldiriciler:**\n- A) İskelet sisteminde ve çene kemiklerinde çoklu (poliostotik) fibröz displazi lezyonları mevcuttur.\n- B) GNAS gen mutasyonuna bağlı olarak hipofiz, tiroid, adrenal ve gonadlar gibi endokrin bezlerin otonom hiperfonksiyonu görülür.\n- C) Özellikle kız çocuklarında gonadotropin bağımsız erken seksüel gelişim (prekoks puberte) en önemli endokrin bulgusudur.\n- D) Deride ve bazen mukozada kenarları düzensiz (Maine sahili görünümünde) sütlü kahve rengi (café-au-lait) maküller izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 484,
+    "question": "Aşağıdakilerden hangisi oral beyaz lezyonların ayırıcı tanısında yer almaz?",
+    "options": {
+      "A": "Friksiyon keratozu",
+      "B": "Witkop Hastalığı",
+      "C": "Löködem",
+      "D": "Fordyce spotları",
+      "E": "Albright sendromu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Albright sendromu, poliostotik fibröz displazi, endokrinopatiler ve melanin artışına bağlı kahverengi café-au-lait lekeleri ile seyreder; oral kavitede beyaz lezyon oluşturmaz.\n**Çeldiriciler:**\n- A) Friksiyon keratozu kronik travmaya sekonder gelişen reaktif beyaz lezyondur.\n- B) Witkop hastalığı (herediter benign intraepitelyal diskeratoz) oral mukoza ve konjunktivada kalın beyaz plaklar yapan kalıtsal bir beyaz lezyondur.\n- C) Löködem bukkal mukozada gelişimsel grimsi-beyaz opalesans yapan bir durumdur.\n- D) Fordyce spotları mukozada sarı-beyaz papüller şeklinde izlenen ektopik sebase bezlerdir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 485,
+    "question": "Yutkunma güçlüğü olan kadın hastada, glossit ve angular şelitis izlenmektedir. Demir eksikliği anemisi de saptanan hastada, aşağıdaki hastalıklardan hangisi düşünülmelidir?",
+    "options": {
+      "A": "Peutz-Jegher sendromu",
+      "B": "Plummer-Vinson sendromu",
+      "C": "Pemfigus vulgaris",
+      "D": "Reiter sendromu",
+      "E": "Raynaud sendromu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Plummer-Vinson sendromu (Paterson-Kelly sendromu / sideropenik disfaji), özellikle orta yaşlı kadınlarda görülen; demir eksikliği anemisi, üst özefageal web (mukozal ağ/atrofi) oluşumuna bağlı disfaji (yutkunma güçlüğü) ve atrofik glossit / anguler şelitis triadı ile karakterize premalign bir sendromdur.\n**Çeldiriciler:**\n- A) Peutz-Jeghers sendromu intestinal hamartomatöz polipler ve perioral melanotik maküllerle seyreder; demir eksikliği ve özefageal atrofi triadı değildir.\n- C) Pemfigus vulgaris otoimmün akantolitik büllöz bir hastalıktır; demir eksikliği anemisine bağlı sideropenik disfaji tablosu değildir.\n- D) Reiter sendromu (reaktif artrit); artrit, üretrit ve konjunktivit triadı ile karakterizedir.\n- E) Raynaud sendromu, soğuk ve stresle parmak uçlarında gelişen vazospastik iskemi ataklarıdır.\n---",
+    "flag_reason": "DUS Nisan 2014 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 486,
+    "question": "Otuz yaşında kadın hasta kliniğe yutkunma güçlüğü şikâyetiyle başvuruyor. Klinik muayenesinde dilde glossit görünümüne, dudak kenarlarında ise angular cheilitis bulgularına rastlanılıyor. Ayrıca hastanın sistemik olarak demir eksikliği anemisi olduğu öğreniliyor.\n\nBu hasta için olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Raynaud sendromu",
+      "B": "Plummer-Vinson sendromu",
+      "C": "Peutz-Jegher sendromu",
+      "D": "Reiter sendromu",
+      "E": "Pemfigus vulgaris"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kadın hastada demir eksikliği anemisi, atrofik glossit/anguler şelitis ve özefagus mukozasındaki atrofiye bağlı disfaji (yutkunma güçlüğü) birlikteliği Plummer-Vinson (Paterson-Kelly) sendromunu tanımlar.\n**Çeldiriciler:**\n- A) Raynaud sendromu ekstremite uçlarında vazospazm ve hissizlik yapan vasküler bir tablodur.\n- C) Peutz-Jegher sendromu mukokutanöz pigmentasyon ve gastrointestinal polipozis sendromudur.\n- D) Reiter sendromu enfeksiyon sonrası gelişen artrit, üretrit, konjunktivit ve harita dil benzeri oral lezyonlarla seyreder.\n- E) Pemfigus vulgaris intraepitelyal vezikülobüllöz otoimmün bir hastalıktır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 487,
+    "question": "Aşağıdakilerden hangisi sideropenik disfaji hastalığının bulgularından biri değildir?",
+    "options": {
+      "A": "Demir eksikliği anemisi",
+      "B": "Oral mukozada hiperplazi",
+      "C": "Disfaji",
+      "D": "Atrofik glossit",
+      "E": "Özefagus epitel atrofisi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sideropenik disfajide (Plummer-Vinson sendromu) demir eksikliğine bağlı olarak epitel yenilenmesi bozulur; bu nedenle oral mukozada hiperplazi (kalınlaşma) değil, tam aksine belirgin epitel atrofisi (incelme) gelişir.\n**Çeldiriciler:**\n- A) Kronik demir eksikliği anemisi (hipokrom mikrositer anemi) sendromun temel bileşenidir.\n- C) Üst özefagusta oluşan mukozal ağlar (web) ve atrofi nedeniyle disfaji (yutma güçlüğü) gelişir.\n- D) Dil üzerindeki filiform ve fungiform papillaların kaybına bağlı düz, kırmızı ve ağrılı atrofik glossit izlenir.\n- E) Özefagus ve oral mukoza epitelinde atrofi mevcuttur ve bu atrofik zemin skuamöz hücreli karsinom gelişimi açısından premalign özellik taşır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 488,
+    "question": "Aşağıdaki sistemik durumlardan hangisinde ağız kuruluğu görülmez?",
+    "options": {
+      "A": "Sjögren sendromu",
+      "B": "Sarkoidoz",
+      "C": "Hipotiroidi",
+      "D": "Diabetus İnsipidus",
+      "E": "HIV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Klasik sınav müfredatı kapsamında; Sjögren sendromu, sarkoidoz, diabetes insipidus ve HIV/AIDS gerçek kserostomi (ağız kuruluğu) nedenleri arasında kabul edilirken, hipotiroidide bazal metabolizma yavaşlamasına bağlı tükürük miktarında hafif azalma olsa da bu durum klinik kserostomi olarak değerlendirilmez.\n**Çeldiriciler:**\n- A) Sjögren sendromu, tükürük bezlerini doğrudan tahrip eden otoimmün bir hastalık olup kserostominin en önemli nedenidir.\n- B) Sarkoidozda parotis ve diğer tükürük bezlerinin granülomatöz tutulumu (Mikulicz/Heerfordt sendromu) belirgin kserostomi yapar.\n- D) Diabetes insipidusta antidiüretik hormon (ADH) eksikliğine bağlı aşırı sıvı kaybı (poliüri) ve dehidratasyon sonucu şiddetli kserostomi gelişir.\n- E) HIV enfeksiyonunda diffüz infiltratif lenfositoz sendromu tükürük bezlerini tutarak ağız kuruluğuna yol açar.\n---",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 489,
+    "question": "Aşağıdaki sistemik durumlardan hangisinde ağız kuruluğu görülmez?",
+    "options": {
+      "A": "Sjögren sendromu",
+      "B": "Sarkoidoz",
+      "C": "Down sendromu",
+      "D": "Diabetus İnsipidus",
+      "E": "AIDS"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Down sendromu, serebral palsi, Parkinson hastalığı ve mental retardasyon gibi nöromusküler kontrol bozukluğu olan durumlarda ağız kuruluğu değil, tükürük sekresyonunda artış ve yutma koordinasyonsuzluğuna bağlı sialore (salya akması) görülür (Not: Hipotonik açık ağız solunumu sekonder kuruluk hissi yaratabilse de bez sekresyonu açısından sialore grubunda sınıflandırılır).\n**Çeldiriciler:**\n- A) Sjögren sendromunda otoimmün bez yıkımına bağlı şiddetli ağız kuruluğu vardır.\n- B) Sarkoidozda tükürük bezi parankiminin granülomlarla tutulması sonucu kserostomi izlenir.\n- D) Diabetes insipidusta poliüri ve dehidratasyona sekonder belirgin kserostomi oluşur.\n- E) AIDS hastalarında HIV ilişkili tükürük bezi hastalığı ve kullanılan antiretroviral ilaçlara bağlı kserostomi görülür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 490,
+    "question": "Aşağıdaki durumlardan hangisinde ağız kuruluğu görülmez?",
+    "options": {
+      "A": "Sjögren sendromu",
+      "B": "Sialadenozis",
+      "C": "Serebral palsy",
+      "D": "Diabetus insipidus",
+      "E": "Radyoterapi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Serebral palsi (cerebral palsy), nöromusküler koordinasyon bozukluğu nedeniyle hastanın tükürüğünü yutamadığı ve ağızdan salya akmasının (sialore / drooling) görüldüğü bir tablodur; ağız kuruluğu yapmaz.\n**Çeldiriciler:**\n- A) Sjögren sendromu ekzokrin bez yıkımı ile kserostomi yapar.\n- B) Sialadenozis (sialozis), endokrin/metabolik/nörojenik nedenlerle asiner hipertrofi ve sekresyon azalması (kserostomi) yapan non-enflamatuar tükürük bezi büyümesidir.\n- D) Diabetes insipidus aşırı su kaybı nedeniyle ağız kuruluğu oluşturur.\n- E) Baş-boyun radyoterapisi seröz tükürük bezi asiner hücrelerinde geri dönüşümsüz atrofi ve fibrozis yaparak çok şiddetli kserostomiye yol açar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 491,
+    "question": "Aşağıdakilerden hangisi mukoselin en sık görüldüğü yerdir?",
+    "options": {
+      "A": "Yanak mukozası",
+      "B": "Dil",
+      "C": "Alt dudak",
+      "D": "Ağız tabanı",
+      "E": "Damak"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Mukosel (müköz ekstravazasyon fenomeni), minör tükürük bezi boşaltım kanalının mekanik travma (ısırma) sonucu yırtılarak müsinin bağ dokusu içine sızmasıyla oluşan bir psödokisttir. Isırılma travmasına en açık bölge olduğu için vakaların %80'inden fazlası alt dudak mukozasında (özellikle orta hattın lateralinde) görülür.\n**Çeldiriciler:**\n- A) Yanak mukozası ısırma travmasına maruz kalabilse de mukosel görülme sıklığı alt dudağa göre çok daha düşüktür.\n- B) Dilde (özellikle Blandin-Nuhn bezlerinden kaynaklanan ventral yüzeyde) mukosel gelişebilir ancak en sık lokalizasyon değildir.\n- D) Ağız tabanında sublingual bezden kaynaklanan mukosellere ranula denir ve alt dudak mukosellerine göre daha az sıklıktadır.\n- E) Sert damağın ön yarısında ve diş etinde minör tükürük bezi bulunmadığı için buralarda mukosel gelişmez; arka damakta ise nadirdir.\n---",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 492,
+    "question": "Aşağıdakilerden hangisi mukosel hakkında doğru değildir?",
+    "options": {
+      "A": "Tükürük bezi hasarı ya da kanal tıkanıklığı sonucu gelişir.",
+      "B": "Palpasyonda yumuşak, ağrısız kitledir.",
+      "C": "Sıklıkla parotis ve submandibular bezde rastlanılır.",
+      "D": "Retansiyon kist formu, kanal tıkanıklığına bağlı gelişir.",
+      "E": "Ağız tabanında gelişen formuna ranula adı verilir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Mukoseller majör tükürük bezlerinden (parotis ve submandibular bez) değil, karakteristik olarak minör tükürük bezlerinden (en sık alt dudak) köken alan lezyonlardır (ağız tabanındaki ranula ise sublingual bez veya minör bez kaynaklıdır).\n**Çeldiriciler:**\n- A) Kanalın travmatik yırtılması (ekstravazasyon) veya kanalın tıkanması (retansiyon) sonucu gelişir.\n- B) Klinik olarak mukoza altında mavimsi veya normal mukoza renginde, palpasyonda fluktuan, yumuşak ve ağrısız bir şişliktir.\n- D) Mukoselin iki alt tipinden biri olan müköz retansiyon kisti, duktus epitelinin tıkanıklık nedeniyle genişlemesiyle oluşan gerçek epitel döşeli kisttir.\n- E) Ağız tabanında sublingual bez kanallarından gelişen kurbağa karnı görünümündeki mukosellere ranula adı verilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 493,
+    "question": "I. Parotis\nII. Sublingual bez\nIII. Submandibular bez\nIV. Palatal mukozadaki minör tükürük bezleri\n\nAşağıdaki bölgelerden hangisinde veya hangilerinde ranula oluşumu görülür?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Ranula, karakteristik olarak ağız tabanında ortaya çıkan bir tür mukosel olup; sublingual bez, submandibular bez (Wharton kanalı) veya ağız tabanındaki minör tükürük bezi kanallarında müsin birikimi kaynaklıdır.\n**Öncüllerin Analizi:**\n- I. Yanlış: Parotis bezi yanak bölgesinde yer alır ve Stensen kanalı üst 2. molar diş hizasına açılır; ağız tabanında ranula oluşturmaz.\n- II. Doğru: Ranulanın en sık köken aldığı yapı ağız tabanındaki sublingual tükürük bezidir (Rivinus kanalları veya Bartholin kanalı).\n- III. Doğru: Ağız tabanına açılan submandibular bez kanalının (Wharton kanalı) travma veya tıkanıklığı da ranula oluşumuna yol açar.\n- IV. Yanlış: Palatal mukozadaki minör bezler damakta yer alır; ağız tabanı lezyonu olan ranulayı oluşturmaz.\n**Çeldiriciler:** A, D ve E şıkları parotis veya palatal bezleri içerdiği için; B şıkkı ise submandibular bezi dışladığı için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 494,
+    "question": "Sistemik hastalığı bulunmayan 40 yaşındaki erkek hasta damak mukozasında şişlik nedeniyle kliniğe başvuruyor. Öyküsünden günde 1 paket sigara kullandığı ve lezyonun üç hafta önce ilgili bölgeye uygulanan lokal anestezi sonrasında geliştiği öğreniliyor. Klinik muayenede sert damakta ağrılı, yüzeyi ülsere, çevresi eritemli 2 cm boyutunda fokal bir lezyon saptanıyor. Biyopsi materyalinin histopatolojik incelemesi sonucunda nekroze alanlar, granülasyon dokusu, mikst inflamatuvar hücre infiltratı, mukoza epitelinde psödoepitelyomatöz hiperplazi ve duktus yapısında skuamöz metaplazi olduğu ancak malign hücre proliferasyonu bulunmadığı gözleniyor.\n\nBu hasta için en olası ön tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Adenokistik karsinom",
+      "B": "Cheilitis glandularis",
+      "C": "Kaposi sarkomu",
+      "D": "Nekrozitan sialometaplazi",
+      "E": "Sjögren sendromu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Nekrotizan sialometaplazi; çoğunlukla sigara içen erkeklerde, sert damak mukozasına yapılan lokal anestezi enjeksiyonu veya travma sonrası gelişen lokal iskemiye bağlı minör tükürük bezi asiner infarktüsüdür. Klinik olarak krater şeklinde derin ülseriyle, histolojik olarak ise duktuslarda skuamöz metaplazi ve yüzeyde psödoepitelyomatöz hiperplazi ile maligniteyi (skuamöz hücreli veya mukoepidermoid karsinomu) taklit eder ancak benign olup birkaç haftada kendiliğinden iyileşir.\n**Çeldiriciler:**\n- A) Adenokistik karsinom malign hücre proliferasyonu ve kribriform/tübüler patern gösteren invaziv bir tükürük bezi kanseridir.\n- B) Cheilitis glandularis sert damakta değil, alt dudak minör tükürük bezlerinde şişlik ve müköz-pürülan sekresyonla seyreden bir tablodur.\n- C) Kaposi sarkomu HHV-8 ilişkili vasküler endotelyal malign bir tümör olup iğsi hücre proliferasyonu ve eritrosit ekstravazasyonu gösterir.\n- E) Sjögren sendromu sistemik otoimmün ekzokrinopati olup sert damakta lokal anestezi sonrası gelişen fokal nekrotik ülser yapmaz.\n---",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 495,
+    "question": "I. Erkeklerde daha sık görülür\nII. Genellikle sublingual tükürük bezinde görülür\nIII. Anestezik injeksiyonu, biyopsi gibi invaziv girişimler sonrası gelişebilir.\n\nYukarıda nekrozitan sialometaplazi ile ilgili verilen bilgilerden hangisi veya hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Nekrotizan sialometaplazi, çoğunlukla sigara içen erkeklerde invaziv damak girişimleri sonrası sert damakta gelişen iskemik bir tükürük bezi lezyonudur.\n**Öncüllerin Analizi:**\n- I. Doğru: Olguların çoğunluğu orta yaşlı ve sigara kullanan erkek hastalardır.\n- II. Yanlış: Sublingual tükürük bezinde değil, vakaların %75'inden fazlasında sert damaktaki palatinal minör tükürük bezlerinde görülür.\n- III. Doğru: Damak mukozasına uygulanan vazokonstriktörlü lokal anestezik enjeksiyonu, biyopsi veya cerrahi travma gibi lokal kan akımını bozan girişimleri takiben gelişir.\n**Çeldiriciler:** B, C ve E şıkları yanlış olan II. öncülü içerdiği için, A şıkkı ise doğru olan III. öncülü dışladığı için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 496,
+    "question": "Aşağıdaki özelliklerden hangisi Kuttner Tümörü (Kronik Sklerozan Sialadenit) ile ilgili doğru bir ifade içerir?",
+    "options": {
+      "A": "Genellikle parotis bezinde görülür ve sıklıkla çocuklarda ortaya çıkar.",
+      "B": "Genellikle ağrılı, yumuşak, serbest hareket edebilen bir kitle olarak klinik bulgu verir.",
+      "C": "Submandibular bezde daha sık görülür ve genellikle sıvı bir kitle şeklinde ortaya çıkar.",
+      "D": "IgG4 üreten plazma hücrelerinin infiltrasyonu, Kuttner tümörü tanısında önemli bir bulgudur.",
+      "E": "Bu hastalık, genellikle genç bireylerde ve akut inflamasyonla karakterizedir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Küttner tümörü (kronik sklerozan sialadenit), IgG4 ilişkili hastalık spektrumunda yer alan, submandibular bezde yoğun IgG4-pozitif plazma hücre infiltrasyonu ve ilerleyici periduktal skleroz (fibrozis) ile karakterize benign enflamatuar bir durumdur; sert kıvamı nedeniyle klinik olarak gerçek bir tümörü taklit eder.\n**Çeldiriciler:**\n- A) Parotis bezinde ve çocuklarda değil; karakteristik olarak submandibular bezde ve orta-ileri yaş erişkinlerde görülür.\n- B) Yumuşak değil, yoğun fibrozis nedeniyle palpasyonda oldukça sert (tümör benzeri) bir kitle olarak bulgu verir.\n- C) Submandibular bezde görülmesi doğrudur ancak sıvı/fluktuan bir kitle değil, sert fibrotik bir kitledir.\n- E) Genç bireylerde ve akut enflamasyonla değil, orta-ileri yaşta ve kronik sklerozan enflamasyonla karakterizedir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 497,
+    "question": "Otuz beş yaşındaki erkek hastadan dental implant tedavisi öncesi konik ışınlı bilgisayarlı tomografi görüntüleri alınıyor. Hastanın tomografi görüntülerinde sağ maksiller sinüste total opasifikasyon ile birlikte, ilgili sinüsün ostiumunun kapalı olduğu ve sağ maksiller sinüsün boyutlarının sola göre daha az olduğu gözleniyor. Hastada enoftalmi ve hipoglobus görülüyor ve hasta bu iki durumun son birkaç yıl içerisinde geliştiğini belirtiyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Maksiller sinüs mukoseli",
+      "B": "Mukus retansiyon kisti",
+      "C": "Maksiller sinüs hipoplazisi",
+      "D": "Sinonasal polipozis",
+      "E": "Sessiz sinüs sendromu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Sessiz (silent) sinüs sendromu; maksiller sinüs ostiumunun kronik tıkanması sonucu sinüs içinde negatif basınç ve atelektazi gelişmesi, sinüs hacminin küçülmesi (duvarlarının içe çökmesi) ve orbita tabanının aşağı doğru çekilmesiyle hastada ağrısız, ilerleyici enoftalmi (göz küresinin geriye kaçması) ve hipoglobus (göz küresinin aşağı inmesi) oluşmasıyla karakterizedir.\n**Çeldiriciler:**\n- A) Maksiller sinüs mukoselinde sinüs hacmi küçülmez, aksine iç basınç artışıyla sinüs duvarlarında dışa doğru ekspansiyon ve yıkım (ve gözde ekzoftalmi) gelişir.\n- B) Mukus retansiyon kisti sinüs tabanında kubbe şeklinde sınırlı bir radyoopasite yapar; ostiumu tıkamaz, sinüs hacmini küçültmez ve enoftalmi yapmaz.\n- C) Maksiller sinüs hipoplazisi doğumsal bir gelişim anomalisi olup yetişkin yaşta son birkaç yıl içinde gelişen ilerleyici enoftalmi ve hipoglobus oluşturmaz.\n- D) Sinonasal polipozis burun ve sinüs boşluklarını dolduran yumuşak doku kitleleri olup kemik duvarlarda içe çökme ve negatif basınçlı atelektazi yapmaz.\n---",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 498,
+    "question": "I. Maksiller sinüste total opasifikasyon\nII. Göz küresinin orbitada geriye gitmesi\nIII. Normalden daha küçük göz\n\nAşağıdakilerden hangisi veya hangileri Sessiz sinüs sendromunda izlenen bulgulardandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sessiz sinüs sendromunda ostium tıkanıklığına bağlı sinüste total opasifikasyon/atelektazi ve orbita tabanının aşağı çökmesine bağlı enoftalmi (göz küresinin geriye gitmesi) izlenir.\n**Öncüllerin Analizi:**\n- I. Doğru: Ostiumun tıkanması ve sekresyon birikimi nedeniyle etkilenen maksiller sinüste total opasifikasyon ve hacim azalması görülür.\n- II. Doğru: Orbita tabanının sinüs içine doğru aşağı çökmesi sonucu göz küresi orbita içinde geriye doğru yer değiştirir (enoftalmus).\n- III. Yanlış: Göz küresinin kendi boyutu normaldir (mikroftalmi yoktur); sadece orbita hacmi genişlediği için göz küresi aşağı (hipoglobus) ve geriye (enoftalmus) doğru yer değiştirmiştir. (Not: Kaynakta dizgi hatası olarak E yazılmış olsa da tıbbi ve metinsel açıklama gereği göz küresi küçülmez, enoftalmus ve hipoglobus gelişir; I ve II doğrudur).\n**Çeldiriciler:** A şıkkı enoftalmiyi dışladığı için; C, D ve E şıkları ise mikroftalmiyi ifade eden III. öncülü içerdiği için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 499,
+    "question": "Sinüs ostiumunun tıkanması sonucunda oluşan, genişleyici ve destrüksif bir lezyon olan mukosel aşağıdaki sinüslerden hangilerinde daha sık görülür?",
+    "options": {
+      "A": "Maksiller ve sfenoid sinüste",
+      "B": "Maksiller ve frontal sinüste",
+      "C": "Frontal ve sfenoid sinüste",
+      "D": "Etmoid ve maksiller sinüste",
+      "E": "Etmoid ve frontal sinüste"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Paranazal sinüs mukoselleri, sinüs ostiumunun tıkanması sonucunda oluşan genişleyici ve kemik duvarlarda destrüksiyon yapan lezyonlardır. Olguların yaklaşık %90'ı frontal sinüste ve etmoid sinüste görülür; maksiller ve sfenoid sinüste ise nadiren izlenir.\n**Çeldiriciler:**\n- A) Hem maksiller hem de sfenoid sinüs, mukosellerin en nadir görüldüğü (%10'un altında) paranazal sinüslerdir.\n- B) Frontal sinüste sık görülmesine rağmen maksiller sinüste gerçek destrüktif mukosel nadirdir (maksiller sinüste retansiyon psödokisti sıktır).\n- C) Sfenoid sinüs mukoselleri oldukça nadir görülür.\n- D) Etmoid sinüste sık görülürken maksiller sinüste nadir izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 500,
+    "question": "Elli beş yaşındaki erkek hasta sol yanak bölgesinde dolgunluk ve ağrı şikâyetiyle başvuruyor. İntraoral muayenede total dişsizlik görülüyor. Panoramik radyografta sol maksiller sinüsü tamamıyle kaplayan radyoopasite dikkat çekiyor. İlgili bölgenin konik ışınlı bilgisayarlı tomografi koronal kesitlerinde sol maksiller sinüsün tamamını kaplayan uniform radyoopasite ve sinüs ostiumunda tıkanıklık ile birlikte orbitanın inferior kortikal sınırında yıkım belirleniyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Retansiyon psödokisti",
+      "B": "Mukosel",
+      "C": "Antrolit",
+      "D": "Sinüzit",
+      "E": "Mukosit"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sinüs mukoseli; sinüs ostiumunun tıkanması sonucu tüm sinüs boşluğunu tamamen dolduran uniform radyoopasite veren, iç basınç artışıyla sinüs çevresindeki kemik duvarlarda (örneğin orbita tabanı inferior kortikal sınırında) incelme, ekspansiyon ve yıkıma (destrüksiyona) neden olan lezyondur.\n**Çeldiriciler:**\n- A) Retansiyon psödokisti sinüs tabanında kubbe şeklinde sınırlı bir yumuşak doku opasitesidir; tüm sinüsü doldurup kortikal kemik duvarlarında yıkım yapmaz.\n- C) Antrolit, sinüs içinde nidus etrafında kalsiyum tuzlarının çökelmesiyle oluşan fokal, yoğun kalsifiye kitledir; tüm sinüsü kaplayan uniform yumuşak doku opasitesi değildir.\n- D) Klasik odontojenik veya rinolojik sinüzitte hava-sıvı seviyesi veya mukozal kalınlaşma görülür; kemik duvarlarda basınç erozyonu ve ekspansif yıkım mukosele özgüdür.\n- E) Mukosit, sinüs tabanı mukozasının lokalize enflamatuar kalınlaşması olup tüm sinüsü doldurmaz ve orbita tabanında kemik yıkımı yapmaz.\n---",
+    "flag_reason": "DUS 2022 Orijinal",
+    "unit": "Ünite 25 - Tükürük Bezi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

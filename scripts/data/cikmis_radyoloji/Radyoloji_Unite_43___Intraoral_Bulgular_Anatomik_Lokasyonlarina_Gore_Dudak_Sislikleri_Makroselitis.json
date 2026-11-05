@@ -1,0 +1,138 @@
+[
+  {
+    "q_num": 512,
+    "question": "Aşağıdakilerden hangisi tekrarlayan herpetik enfeksiyonların predispozan faktörlerinden biri değildir?",
+    "options": {
+      "A": "Yüksek ateş",
+      "B": "Güneş ışınları",
+      "C": "İmmünsupresyon",
+      "D": "Sigara",
+      "E": "Travma"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Trigeminal ganglionda latent kalan HSV-1'in reaktive olarak tekrarlayan herpes labialis (uçuk) oluşturmasını tetikleyen faktörler arasında ateşli enfeksiyonlar, ultraviyole/güneş ışınları, immünsupresyon, mekanik travma, stres ve menstrüasyon yer alır; sigara kullanımı ise herpes reaktivasyonunun predispozan faktörlerinden biri değildir.\n**Çeldiriciler:**\n- A) Yüksek ateş ve soğuk algınlığı (febril hastalıklar) latent virüsü aktive eder (\"fever blisters\").\n- B) Güneş ışınları (UV radyasyon) lokal mukokutanöz immüniteyi baskılayarak dudakta uçuk reaktivasyonunu tetikler.\n- C) İmmünsupresyon ve hücresel bağışıklık yetmezliği viral reaktivasyon sıklığını ve şiddetini belirgin şekilde artırır.\n- E) Dudak ve ağız bölgesine yönelik mekanik travmalar (dental işlemler dahil) sinir uçlarını uyararak reaktivasyona yol açar.\n---",
+    "flag_reason": "Sonbahar 2015 Orijinal",
+    "unit": "Ünite 43 - Intraoral Bulgular Anatomik Lokasyonlarına Göre Dudak Şişlikleri (Makroşelitis)",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 513,
+    "question": "Aşağıdakilerden hangisi herpes labialis (uçuk) oluşumuna neden olan faktörlerden birisi değildir?",
+    "options": {
+      "A": "Menstruasyon",
+      "B": "Güneş ışını",
+      "C": "Yüksek ateş",
+      "D": "Sigara",
+      "E": "Travma"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sigara kullanımı oral kavitede pek çok patolojiye yol açmakla birlikte, herpes labialis (uçuk) ve rekürrent aftöz stomatit gelişiminden sorumlu tutulamaz.\n**Çeldiriciler:**\n- A) Menstrüasyon ve gebelik gibi hormonal değişimler HSV reaktivasyonunu kolaylaştırır.\n- B) Güneş ışını (ultraviyole maruziyeti) özellikle alt ve üst dudak vermilyonunda herpes labialisi tetikleyen en güçlü dış etkenlerdendir.\n- C) Yüksek ateşle seyreden üst solunum yolu enfeksiyonları latent HSV'yi aktive eder.\n- E) Lokal mekanik travma, soğuk, rüzgar ve emosyonel stres bilinen klasik tetikleyicilerdir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 43 - Intraoral Bulgular Anatomik Lokasyonlarına Göre Dudak Şişlikleri (Makroşelitis)",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 519,
+    "question": "Aşağıdaki sendromların hangisi orofasiyal granülomatozisin ayırıcı tanısında yer alır?",
+    "options": {
+      "A": "Sjögren sendromu",
+      "B": "Gorlin-Goltz sendromu",
+      "C": "Melkersson-Rosenthal sendromu",
+      "D": "Peutz-Jeghers sendromu",
+      "E": "Patterson-Kelly sendromu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Orofasiyal granülomatozis, dudaklar başta olmak üzere ağız-yüz yumuşak dokularında non-kazeifiye granülomlara bağlı kalıcı şişlikler yapan bir tablodur. Ayırıcı tanısında benzer histopatolojik ve klinik görünüm veren Melkersson-Rosenthal sendromu, Crohn hastalığı, sarkoidozis ve şeylitis granülomatoza yer alır.\n**Çeldiriciler:**\n- A) Sjögren sendromu tükürük ve gözyaşı bezlerinin lenfositik infiltrasyonu ve kurulukla seyreden otoimmün bir hastalıktır.\n- B) Gorlin-Goltz sendromu çenelerde multipl odontojenik keratokistler ve deride bazal hücreli karsinomlarla seyreder.\n- D) Peutz-Jeghers sendromu perioral melanotik maküller ve intestinal poliplerle karakterizedir.\n- E) Patterson-Kelly (Plummer-Vinson) sendromu demir eksikliği anemisi, disfaji ve atrofik glossit sendromudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 43 - Intraoral Bulgular Anatomik Lokasyonlarına Göre Dudak Şişlikleri (Makroşelitis)",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 523,
+    "question": "I. Sistemik lupus eritematozus\nII. Mitral kapak darlığı\nIII. El-ayak-ağız hastalığı\n\nYukarıdaki durumlardan hangisinde ya da hangilerinde ekstraoral muayenede malar bölgede döküntü izlenmesi en olasıdır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Ekstraoral muayenede malar (elmacık kemiği/yanak) bölgede karakteristik kızarıklık/döküntü izlenen iki klasik durum sistemik lupus eritematozus ve mitral kapak darlığıdır.\n**Öncüllerin Analizi:**\n- I. Doğru: Sistemik lupus eritematozusta burun sırtı ve malar bölgede fotosensitif kelebek eritem (malar raş) izlenir.\n- II. Doğru: Mitral kapak darlığında düşük kardiyak debi ve pulmoner hipertansiyona bağlı olarak yanaklarda (malar bölgede) pembemsi-mor kızarıklık (\"mitral facies\" / al yanak-mor dudak) görülür.\n- III. Yanlış: El-ayak-ağız hastalığında ekstraoral veziküler döküntüler malar bölgede değil, el ayasında ve ayak tabanında izlenir.\n**Çeldiriciler:** A ve B şıkları doğru öncüllerden birini dışladığı için; D ve E şıkları ise yanlış olan III. öncülü içerdiği için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 43 - Intraoral Bulgular Anatomik Lokasyonlarına Göre Dudak Şişlikleri (Makroşelitis)",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 525,
+    "question": "Sistemik lupus eritematozus ile ilgili aşağıda verilen bilgilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Erkeklerde sık görülür",
+      "B": "Genellikle multisistemdir",
+      "C": "Oral mukozada eritematöz veya ülsere lezyonlar vardır",
+      "D": "En sık tutulum vermilion, bukkal mukoza, diş etlerinde izlenir",
+      "E": "Malar bölgede fotosensitivite gösteren kelebek şeklinde eritemler izlenir."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sistemik lupus eritematozus erkeklerde sık görülmez; aksine doğurganlık çağındaki kadınlarda erkeklere kıyasla 9-10 kat daha fazla görülen bir hastalıktır.\n**Çeldiriciler:**\n- B) Deri, mukoza, eklem, böbrek, kan ve seröz membranları aynı anda etkileyen multisistemik bir hastalıktır.\n- C) Hastaların yaklaşık dörtte birinde oral mukozada eritematöz, keratotik veya ülsere lezyonlar saptanır.\n- D) Ağız içinde en sık tutulan bölgeler dudak vermilyonu, bukkal mukoza, sert damak ve diş etleridir.\n- E) Burun ve yanaklarda güneş ışığıyla (UV) şiddetlenen (fotosensitivite) kelebek tarzı malar eritem karakteristik bulgusudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 43 - Intraoral Bulgular Anatomik Lokasyonlarına Göre Dudak Şişlikleri (Makroşelitis)",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 527,
+    "question": "Otuz altı yaşındaki kadın hasta ağız açıklığında kısıtlılık ve ağız kuruluğu şikâyetiyle kliniğe başvuruyor. Hastanın klinik muayenesinde Raynaud fenomeni ve ellerini açmada zorluk olduğu gözleniyor. Panoramik radyografik muayenesinde angulus mandibula ve koronoid çıkıntı bölgelerinde bilateral ve keskin sınırlı erozyonlar izleniyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sistemik lupus eritematozus",
+      "B": "Pemfigus vulgaris",
+      "C": "Sarkoidoz",
+      "D": "Romatoid artrit",
+      "E": "Skleroderma"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Skleroderma (progresif sistemik skleroz), deri ve bağ dokusunda aşırı kollajen birikimi (fibrozis) ile karakterizedir. Ellerde sklerodaktili (elleri açmada zorluk), Raynaud fenomeni, perioral fibrozise bağlı ağız açmada kısıtlılık (mikrostomi), sekonder Sjögren'e bağlı ağız kuruluğu ve panoramik radyografide çiğneme kaslarının yapışma yerleri olan angulus mandibula, koronoid çıkıntı ve kondilde bilateral erozyonlar (ve periodontal ligament aralığında genişleme) hastalığın tipik bulgularıdır.\n**Çeldiriciler:**\n- A) Sistemik lupus eritematozusta malar raş ve mukozal ülserler görülür; mikrostomi ve angulus/koronoid kemik erozyonları yapmaz.\n- B) Pemfigus vulgaris vezikülobüllöz bir hastalık olup el fibrozisi, Raynaud fenomeni veya mandibula kemik erozyonu oluşturmaz.\n- C) Sarkoidoz granülomatöz bir hastalık olup kas yapışma yerlerinde osteoliz ve sklerodaktili yapmaz.\n- D) Romatoid artrit TME kondilinde erozyon (\"kalem ucu\" deformitesi) yapabilir ancak angulus mandibula ve koronoid çıkıntıda kas basısına bağlı rezorpsiyon ve dudak/el derisi fibrozisi sklerodermaya özgüdür.\n---",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "unit": "Ünite 43 - Intraoral Bulgular Anatomik Lokasyonlarına Göre Dudak Şişlikleri (Makroşelitis)",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 528,
+    "question": "Skleroderma hastasında aşağıdaki klinik ve radyografik bulgulardan hangisinin görülmesi beklenmez?",
+    "options": {
+      "A": "Ağız açmada ve dil hareketlerinde kısıtlılık",
+      "B": "Dokularda aşırı kollajen birikimi",
+      "C": "Parmak uçlarında vazospazma bağlı hissizlik",
+      "D": "Mandibulada kas yapışma bölgelerinde erozyonlar",
+      "E": "Tükürük sekresyonunda artış"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Skleroderma hastalarında tükürük bezlerinin fibrozisi ve sıklıkla eşlik eden sekonder Sjögren sendromu nedeniyle tükürük sekresyonunda artış (sialore) değil, belirgin ağız kuruluğu (kserostomi) ve buna bağlı yaygın diş çürükleri görülür.\n**Çeldiriciler:**\n- A) Dudak, yanak ve dil altı mukozasındaki fibrozis nedeniyle ağız açmada (mikrostomi) ve dil hareketlerinde kısıtlılık oluşur.\n- B) Hastalığın temel patogenezi deri, mukoza ve iç organlarda aşırı kollajen birikimi (skleroz) olmasıdır.\n- C) Hastaların hemen hepsinde parmak uçlarında vazospazma bağlı solukluk, siyanoz ve hissizlik (Raynaud fenomeni) bulunur.\n- D) Fibrotik ve gergin kasların iskeletsel çekmesi ve iskemisi sonucunda mandibulada kas yapışma bölgeleri olan angulus, kondil, koronoid proses ve digastrik fossada kemik erozyonları izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 43 - Intraoral Bulgular Anatomik Lokasyonlarına Göre Dudak Şişlikleri (Makroşelitis)",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 530,
+    "question": "Otozomal dominant geçiş gösteren, perioral ve intraoral bölgede asemptomatik, mavimsi kahverengi, yüzeyden kabarık olmayan melanotik maküller ve gastrointestinal sistemde hamartomlar ile karakterize en olası hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sistemik lupus eritematozus",
+      "B": "Non-Hodgkin lenfoma",
+      "C": "Diskoid lupus eritematozus",
+      "D": "Peutz-Jeghers sendromu",
+      "E": "Plummer-Vinson sendromu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Peutz-Jeghers sendromu, STK11/LKB1 gen mutasyonuyla ilişkili otozomal dominant geçişli bir sendromdur. Ağız çevresi (dudak vermilyonu, perioral deri), burun ve oral mukozada çok sayıda çil benzeri mavimsi-kahverengi melanotik maküller ve mide-ince bağırsakta çok sayıda hamartomatöz polipler (intussusepsiyon riski) ile karakterizedir.\n**Çeldiriciler:**\n- A) Sistemik lupus eritematozus otoimmün bir hastalık olup malar eritem ve mukozal ülser yapar; melanotik makül ve intestinal polip oluşturmaz.\n- B) Non-Hodgkin lenfoma lenfoid sistemin malign tümörüdür.\n- C) Diskoid lupus eritematozus deri ve mukozada atrofik-keratotik plaklar yapan lokalize otoimmün bir hastalıktır.\n- E) Plummer-Vinson sendromu demir eksikliği anemisi, disfaji ve atrofik glossit ile seyreder.\n---",
+    "flag_reason": "DUS 2019 Orijinal",
+    "unit": "Ünite 43 - Intraoral Bulgular Anatomik Lokasyonlarına Göre Dudak Şişlikleri (Makroşelitis)",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

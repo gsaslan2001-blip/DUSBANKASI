@@ -1,0 +1,699 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi piezocerrahinin avantajlarından biri değildir?",
+    "options": {
+      "A": "Mineralize dokularda selektif çalışabilme",
+      "B": "Cerrahide maksimum görüş sağlama",
+      "C": "Kemik kesilerini klasik testere sistemlerinden daha hızlı tamamlama",
+      "D": "Başlığa verilen kuvvet azaltılarak keside maksimum kontrol sağlama",
+      "E": "Kemik dokularında hızlı iyileşme *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Avantajdır):** Piezocerrahinin en önemli klinik avantajlarından biri, sadece mineralize sert dokularda (kemik) kesi yapabilmesi ve sinir, damar, mukoza gibi çevre yumuşak dokulara temas ettiğinde zarar vermemesidir (selektif kesim özelliği).\n  * **B şıkkı (Avantajdır):** Yalnızca kemik preparasyon başlığına titreşim verilmesi, kavitasyon etkisi ve etkili irrigasyon sayesinde operasyon alanında kansız, temiz ve maksimum görüş alanı sunar.\n  * **C şıkkı (Dezavantajdır / Doğru Cevap):** Piezocerrahi, konvansiyonel döner aletler ve mikromotorlu kemik testere sistemlerine kıyasla **daha yavaştır**. Kemik kesilerini daha hızlı tamamlama gibi bir avantajı kesinlikle yoktur; cerrahi süreyi uzatması sistemin temel dezavantajıdır.\n  * **D şıkkı (Avantajdır):** Yüksek frekanslı ultrasonik mikro-titreşimler kesiyi sağladığından, cerrahın başlığa ekstra el kuvveti (baskı) uygulamasına gerek kalmaz; bu da kesi hattında maksimum hassasiyet ve kontrol sağlar.\n  * **E şıkkı (Avantajdır):** Dönen frezlerin yarattığı termal travma ve mikro çatlaklar yerine mikrometrik, düzgün kesi hatları oluşturulduğundan osteosit canlılığı korunur, kemik nekrozu riski en aza iner ve dokuda hızlı iyileşme gerçekleşir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 1,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Piezocerrahi sistemleri ile ilgili olarak aşağıda verilen ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Ultrasonik ses dalgaları ile osteotomi yapmayı sağlar.",
+      "B": "Soğutma ve irrigasyon konvansiyonel sistemlere göre büyük önem taşır.",
+      "C": "Dokuyu keserken oluşturduğu mikroçatlaklar nedeniyle iyileşme bozulabilir.",
+      "D": "Osteotomi hızı konvansiyonel sistemlere göre düşüktür.",
+      "E": "Kemik kesileri esas olarak başlığa iletilen yük sayesinde gerçekleşir. *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A şıkkı:** Ultrasonik titreşimler mikrometrik kesi yapar; ancak sorunun odaklandığı karşılaştırmalı parametre kesim hızıdır.\n  * **B şıkkı (Yanlış):** Dönme sürtünmesi olmaması ve kavitasyon etkisi sayesinde kemik aşırı ısınmaz; soğutma ve irrigasyon konvansiyonel yüksek hızlı frez/testere sistemlerinde çok daha kritik ve zordur.\n  * **C şıkkı (Yanlış):** Piezocerrahi dokuda mikroçatlak oluşturmaz; aksine mikroçatlak oluşumunu önlediği için kemik dokusunun rejenerasyonu hızlanır.\n  * **D şıkkı (Doğru):** Piezocerrahi konvansiyonel mekanik testerelere göre daha yavaştır; osteotomi hızının düşük olması sistemin en belirgin klinik kısıtlılığıdır.\n  * **E şıkkı (Yanlış):** Kemik kesimi cerrahın uyguladığı baskı kuvvetiyle (yükle) değil, ultrasonik mikrometrik titreşimlerin mikromekanik kesici etkisiyle gerçekleşir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 2,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Piezocerrahi sistemleri aşağıda verilen cerrahi işlemlerden hangisinde tercih edilmez?",
+    "options": {
+      "A": "Periradiküler cerrahi",
+      "B": "Mesnetsiz doku eksizyonu",
+      "C": "Simfizden onlay greft alımı",
+      "D": "Mandibulada kret split osteoplasti",
+      "E": "Komplikasyonlu (açık) maksiller molar diş çekimi *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Kullanılır):** Apikal rezeksiyon ve kök ucu retrograd kavite preparasyonunda anatomik yapılara (sinir, sinüs) zarar vermeden güvenli kemik penceresi açılmasını sağlar.\n  * **B şıkkı (Tercih Edilmez / Doğru Cevap):** Mesnetsiz doku (flabby ridge), kret rezorpsiyonu veya protez irritasyonu sonucu oluşan hareketli fibröz yumuşak dokudur. Piezocerrahi yalnızca mineralize sert dokuları kestiği için yumuşak doku eksizyonunda kullanılamaz; bistüri veya elektrokoter gerekir.\n  * **C şıkkı (Kullanılır):** Simfiz veya ramus bölgesinden blok/onlay kemik grefti çıkarılırken komşu anatomik yapılara zarar vermemek adına idealdir.\n  * **D şıkkı (Kullanılır):** Atrofik kretlerde kret ayırma (kret split/expansion) işlemlerinde kemik korteksinin kontrollü kesilmesi için piezocerrahi mükemmel bir endikasyondur.\n  * **E şıkkı (Kullanılır):** Maksiller sinüse komşu ya da ankiloze molar dişlerin açık cerrahi çekiminde çevre kortikal kemik kaldırılması ve kök seperasyonunda güvenle tercih edilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 3,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Oral mukoza flepleri ile ilgili olarak aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Flep nekrozundan korunmak için flebin tabanı insizyon kenarından geniş olmalıdır.",
+      "B": "Flebi kaldırabilmek için yapılacak vertikal insizyon dik açılı olmalı ve diş eti papilinin üzerinde yer almalıdır.",
+      "C": "Tam kalınlıktaki flepler sadece tüm mukozayı içine alan fleplerdir.",
+      "D": "Yara iyileşmesini kolaylaştırmak için flep mümkün olduğunca dar açılmalıdır.",
+      "E": "Yarı yuvarlak insizyon yapılarak kaldırılan flep, gömülü dişlerin çıkartılmasında en rahat görüşü sağlar. *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Doğru):** Flep tabanının genişliği (kanlanan taban), serbest insizyon kenarından (apeks) daha geniş olmalıdır (taban > serbest kenar). Bu kural, flebin yeterli beslenmesini sağlayarak iskemik flep nekrozunu önler.\n  * **B şıkkı (Yanlış):** Vertikal gevşetme kesileri asla interdental papilin tam ortasından geçmemelidir; aksi halde geri dönüşümsüz papil nekrozu ve diş eti çekilmesi oluşur. Kesi papil sınırından veya dişin açıortayından geçmelidir.\n  * **C şıkkı (Yanlış):** Tam kalınlıklı (mukoperiosteal) flep sadece mukozayı değil, periostu da içine alır ve kemik yüzeyi tamamen açığa çıkarılır.\n  * **D şıkkı (Yanlış):** Yetersiz görüşe yol açan dar insizyonlar flebin gerilmesine, yırtılmasına ve iyileşmenin bozulmasına neden olur; flep geniş ve rahat görüş sağlayacak boyutta açılmalıdır.\n  * **E şıkkı (Yanlış):** Gömülü üçüncü molar dişlerin çıkarılmasında en geniş görüşü ve konforlu cerrahi sahayı sağlayan tasarım \"zarf (envelope) flep\" ya da üçgen fleptir; semilunar (yarı yuvarlak) flepler periapikal cerrahiye özgüdür.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 4,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "x: Flebin tabanının genişliği, y: Flebin apeksinin genişliği, z: Flebin uzunluğu olarak tanımlandığında, ideal flep dizaynı ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "x > y",
+      "B": "z > x",
+      "C": "x = z / 2",
+      "D": "y = z / 2",
+      "E": "z = y / 2 *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Doğru):** Temel flep kuralı gereğince flep taban genişliği (x), serbest kenar/apeks genişliğinden (y) daima büyük olmalıdır (x > y). Böylece apikalden gelen kan damarları flebin uç noktasına kadar perfüzyon sağlar.\n  * **B şıkkı (Yanlış):** Flep uzunluğu (z), taban genişliğinden (x) büyük olursa flebin uç kısmı iskemik kalır ve nekroza gider (uzunluk hiçbir zaman tabanın 2 katını geçmemelidir).\n  * **C, D, E şıkları (Yanlış):** Flep geometrisinde ideal kural flep uzunluğunun taban genişliğinin en fazla iki katı (idealde uzunluk ≤ taban) olması ve tabanın apeksden geniş tasarlanmasıdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 5,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen flep dizaynı sırasında sağlanması gereken koşullardan hangisinin amacı diğerlerinden farklıdır?",
+    "options": {
+      "A": "Flep mukoperiosteal olarak kaldırılmalıdır.",
+      "B": "Flep kenarları sağlıklı kemik üzerinde olmalıdır.",
+      "C": "Flep yerine gerilimsiz biçimde yerleştirilmelidir.",
+      "D": "Yetersiz görüşe neden olan kısa insizyonlar yapılmamalıdır.",
+      "E": "Flebin tabanı ekartörle aşırı miktarda döndürülmemelidir. *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C, D şıkları (Yırtılma ve Dehisensi Önleme):** Flebin periostla birlikte tam kat kaldırılması, kesi sınırlarının sağlam kemik desteğine oturtulması, gerilimsiz sütüre edilmesi ve yeterli görüş sağlayan uzunlukta açılması; flep kenarlarında açılma (dehisens) ve yırtılmaları engellemek içindir.\n  * **E şıkkı (Nekrozu Önleme / Doğru Cevap):** Flep tabanının ekartör veya forseps ile aşırı kıvrılması, gerilmesi veya burulması damarsal kan akımını keserek **flep nekrozuna** neden olur. Amacı dehisensi değil, doğrudan doku nekrozunu engellemektir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 6,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İnsizyonel biyopsiyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "İnsizyonel biyopsi mümkün olduğu kadar küçük alınmalıdır.",
+      "B": "Biyopsi, geniş ve sığ şekilde alınmalıdır.",
+      "C": "Farklı lokalizasyonlarda, farklı karakterler gösteren büyük lezyonlarda bir bölgeden biyopsi almak yeterlidir.",
+      "D": "İnsizyonel biyopsi yaparken lezyonla birlikte normal dokudan da bir miktar alınmalıdır.",
+      "E": "Boyut olarak 1 cm'den küçük polip, papillom gibi lezyonlarda öncelikle insizyonel biyopsi düşünülmelidir. *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A şıkkı (Yanlış):** İnsizyonel biyopsi materyali patoloğun incelemesine imkan verecek yeterli boyut ve derinlikte olmalıdır; aşırı küçük örnekler artefakta ve tanı hatasına yol açar.\n  * **B şıkkı (Yanlış):** Biyopsi sığ değil, lezyonun tüm doku katmanlarını (epitel ve lamina propriayı) içeren derinlikte ve kama (wedge) şeklinde alınmalıdır.\n  * **C şıkkı (Yanlış):** Heterojen veya geniş lezyonlarda farklı bölgeler farklı histolojik karakterler sergileyebileceğinden mutlaka birden fazla odaktan örnekleme yapılmalıdır.\n  * **D şıkkı (Doğru):** İnsizyonel biyopside patoloğun patolojik doku ile sağlıklı çevre doku arasındaki sınır geçişini görebilmesi için lezyon sınırından hem lezyonlu hem de sağlam dokuyu içeren örnek alınmalıdır.\n  * **E şıkkı (Yanlış):** Çapı 1 cm'den küçük ve benign şüpheli lezyonlarda (polip, papillom) tercih edilen yöntem insizyonel değil, lezyonun tamamının çıkarıldığı eksizyonel biyopsidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2020 Orijinal",
+    "q_num": 7,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Biyopsi yapılırken dikkat edilmesi gerekenlerle ilgili olarak aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sığ örnekler kabul edilemez.",
+      "B": "Büyük lezyonlarda, lezyon farklı yerlerde farklı karakter gösterebileceğinden birden fazla yerden biyopsi alınmalıdır.",
+      "C": "Çapı 1 cm'den küçük ve benign olduğu düşünülen lezyonlarda eksizyonel biyopsi yapılmalıdır.",
+      "D": "İnsizyonel biyopside sadece lezyona ait dokudan almak yeterlidir.",
+      "E": "Eksizyonel biyopside lezyonun tamamı, etrafındaki 2-3 mm'lik sağlam dokuyla birlikte çıkarılır. *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A şıkkı (Doğru kural):** Sadece yüzeyel epitel içeren sığ biyopsiler lezyonun bazal membran ilişkisini ve derin invazyonunu göstermez, bu nedenle kabul edilmez.\n  * **B şıkkı (Doğru kural):** Büyük kistik ya da tümöral lezyonlarda malign transformasyon odaklarını atlamamak için multipl alanlardan örnek alınmalıdır.\n  * **C şıkkı (Doğru kural):** 1 cm altı benign lezyonlarda tek seansta hem tanı hem kesin tedavi sağlayan eksizyonel biyopsi kuraldır.\n  * **D şıkkı (Yanlış / Aranan Cevap):** Sadece lezyon dokusu almak histopatolojik sınır karşılaştırmasını imkansız kılar; lezyon ile normal doku sınırı birlikte çıkarılmalıdır.\n  * **E şıkkı (Doğru kural):** Eksizyonel biyopside cerrahi sınır emniyeti için lezyon periferindeki 2-3 mm sağlam çevre doku ile blok halinde rezeke edilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 8,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aspirasyon biyopsisiyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Rutin aspirasyon biyopsisi erken tanı sağlar.",
+      "B": "Kemik içi lezyonlarda ince iğne aspirasyon biyopsisi yapılır.",
+      "C": "Rutin aspirasyon biyopsisinde patolojik tanı için hücreler aspire edilir.",
+      "D": "Rutin aspirasyon biyopsisi lezyonun solid içerikli olup olmadığını anlamada yararlıdır.",
+      "E": "İnce iğne aspirasyon biyopsisi vasküler bir durumun varlığını ekarte etmek amacıyla yapılır. *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A şıkkı (Yanlış):** Rutin aspirasyon biyopsisi histopatolojik kesin/erken tanı vermez; kavite içeriğinin fiziksel niteliğini (kist sıvısı, hava, kan, püy) gösterir.\n  * **B şıkkı (Yanlış):** Kemik içi sert lezyonlarda ince iğne aspirasyonu (İİAB) uygulanamaz; İİAB boyun kitleleri ve tükürük bezleri gibi yumuşak doku lezyonlarında tercih edilir.\n  * **C şıkkı (Yanlış):** Sitopatolojik inceleme için hücre aspire eden yöntem İİAB'dir. Rutin aspirasyonda sıvı/içerik kontrolü yapılır.\n  * **D şıkkı (Doğru):** Kalın lümenli enjektörle yapılan rutin aspirasyon biyopsisi, lezyondan sıvı aspire edilip edilemediğini belirleyerek lezyonun kistik mi yoksa solid mi olduğunu anlamada en pratik yöntemdir.\n  * **E şıkkı (Yanlış):** Vasküler lezyon şüphesinde (arteriyovenöz malformasyon, anevrizmal kemik kisti) kanama riskini ekarte etmek amacıyla kalın iğneli rutin aspirasyon yapılır; İİAB vasküler ayırıcı tanı için kullanılmaz.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 9,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sütür prensipleri ile ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sütür iğnesi dokuya dik olarak girmeli ve dokudan eğimine uygun geçmelidir.",
+      "B": "Sütür iğnesi hareketli dokudan sabit olana doğru geçmelidir.",
+      "C": "Yara dudakları farklı kalınlıkta ise sütür iğnesi ince olandan kalın olana doğru geçmelidir.",
+      "D": "Sütür düğümü tam kesi hattının üstünde konumlandırılmalıdır.",
+      "E": "Sütür iğnesi insizyon kenarının her iki tarafından eşit derinlikte ve genişlikte geçmelidir. *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A şıkkı (Doğru kural):** İğne dokuya 90 derecelik dik açıyla girmeli ve kendi kurvaturuna uygun dairesel hareketle doku içinden ilerletilmelidir; böylece doku yırtılması önlenir.\n  * **B şıkkı (Doğru kural):** İğne daima serbest ve hareketli olan flep kenarından batırılıp, kemiğe yapışık sabit dokuya doğru geçirilmelidir.\n  * **C şıkkı (Doğru kural):** Yara kenarlarının kalınlığı eşit değilse, ince olan flep yırtılmaya daha hassas olduğundan iğne önce ince dokudan geçirilmeli, ardından kalın dokuya yönlendirilmelidir.\n  * **D şıkkı (Yanlış / Aranan Cevap):** Sütür düğümü asla insizyon hattı üzerinde bırakılmamalıdır. Kesi hattı üzerindeki düğüm yara kenarlarını ezer, beslenmeyi bozar ve bakteriyel plak retansiyonuna yol açarak iyileşmeyi geciktirir; düğüm daima sağlam doku tarafına yatırılmalıdır.\n  * **E şıkkı (Doğru kural):** Yara kenarlarının karşılıklı simetrik ve eversiyon halinde birleşmesi için iğne her iki kenardan da eşit derinlik ve mesafede (en az 2-3 mm) geçirilmelidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 10,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. İğne, yara dudaklarına en az 3 mm uzaktan ve eşit derinlikten geçmelidir.  \nII. Doku kalınlıkları farklı ise kalından inceye doğru sütür atılır.  \nIII. Önce köşeler ve papillalar, daha sonra vertikal ve horizontal insizyonlar dikilir.  \nIV. Yara dudaklarının biri sabit diğeri hareketli ise, düğüm sabit dokuda yer alır.  \n**Sütür prensipleri ile ilgili yukarıda belirtilenlerden hangisi / hangileri yanlıştır?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve IV",
+      "C": "Yalnız II",
+      "D": "I ve III",
+      "E": "Yalnız IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I. öncül (Doğru):** İğnenin yara kenarından en az 3 mm mesafeden ve bilateral simetrik derinlikten geçmesi doku yırtılmasını ve basamak oluşumunu engeller.\n  * **II. öncül (Yanlış / Aranan Öncül):** Doku kalınlıkları farklı olduğunda sütür kalından inceye değil, doku kontrolünü sağlamak ve ince dokunun travmatizasyonunu azaltmak için **inceden kalına doğru** geçirilmelidir.\n  * **III. öncül (Doğru):** Flep yerine adapte edilirken önce anatomik referans noktaları olan köşeler ve interdental papillalar dikilerek yerine oturtulur, ardından düz hatlar kapatılır.\n  * **IV. öncül (Doğru):** Düğüm gerilim altında açılmaması ve dokuyu hareketlendirmemesi için sabit doku tarafında konumlandırılır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 11,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda 2 cm'lik bir sütürasyonda, sütür tekniğine göre düğüm sayıları ile ilgili eşleştirmeler verilmiştir. Buna göre aşağıdaki eşleştirmelerden hangisi doğrudur?",
+    "options": {
+      "A": "Basit - 5",
+      "B": "Basit - 6",
+      "C": "Devamlı - 6",
+      "D": "Subkutiküler - 5",
+      "E": "Subkutiküler - 21 *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Doğru):** Basit tek tek sütür tekniğinde dikişler ortalama 4-5 mm aralıklarla atılır. 1 cm'lik insizyonda yaklaşık 3 düğüm, 2 cm'lik bir hatta ise kenar başlangıç ve bitişleriyle birlikte toplam 5 adet bağımsız düğüm yer alır.\n  * **B şıkkı (Yanlış):** 2 cm'lik mesafede 6 basit dikiş aşırı sıktır ve mikrosirkülasyonu bozarak iskemiye neden olur.\n  * **C şıkkı (Yanlış):** Devamlı sütür tekniğinde uzunluk ne olursa olsun yalnızca 1 adet başlangıçta ve 1 adet sonda olmak üzere toplam 2 düğüm bulunur.\n  * **D ve E şıkları (Yanlış):** Subkutiküler dikişte cilt altından kesintisiz ilerlenir ve yine sadece başta ve sonda olmak üzere toplam 2 düğüm atılır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 12,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi koagülasyon testleri arasında yer almaz?",
+    "options": {
+      "A": "Protrombin zamanı",
+      "B": "Pıhtılaşma zamanı",
+      "C": "Lenfosit sayısı",
+      "D": "Parsiyel tromboplastin zamanı",
+      "E": "Kanama zamanı *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Koagülasyon Testidir):** Protrombin zamanı (PT/INR), hemostazın ekstrinsek ve ortak pıhtılaşma yollarını (Faktör VII, X, V, II, Fibrinojen) değerlendirir.\n  * **B şıkkı (Koagülasyon Testidir):** Tam kanda fibrinin oluşumuna kadar geçen süreyi ölçerek genel koagülasyon mekanizmasını gösterir (normali 3-11 dk).\n  * **C şıkkı (Bağışıklık Parametresidir / Doğru Cevap):** Lenfosit sayısı hücresel/hümoral immün sistemin ve beyaz küre profilinin bir göstergesidir; hemostaz ve pıhtılaşma mekanizmalarıyla doğrudan ilişkisi yoktur.\n  * **D şıkkı (Koagülasyon Testidir):** Parsiyel tromboplastin zamanı (aPTT), intrensek pıhtılaşma kaskadını (Faktör XII, XI, IX, VIII ve ortak yol) kontrol eder.\n  * **E şıkkı (Hemostaz Testidir):** Kanama zamanı (Duke/Ivy yöntemi), mikrovasküler hasar sonrası primer hemostatik tıkacın (trombosit fonksiyonu ve damar duvarı) süresini ölçer.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 13,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kanama diyatezi bulunan hastalardan oral cerrahi işlemler öncesi istenecek laboratuvar tetkiklerinden biri değildir?",
+    "options": {
+      "A": "Trombosit sayımı",
+      "B": "Eritrosit sayımı",
+      "C": "Kanama zamanı",
+      "D": "Protrombin zamanı",
+      "E": "Parsiyel tromboplastin zamanı *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (İstenir):** Trombositopeni varlığını belirlemek için trombosit sayısı kritiktir (normal: 150.000 - 450.000 /mm³; 50.000 altı cerrahi kanama riski taşır).\n  * **B şıkkı (İstenmez / Doğru Cevap):** Eritrosit sayımı anemiler ve polisitemi hakkında bilgi verir; primer ya da sekonder kanama-pıhtılaşma kaskadı bozukluklarının tanısında doğrudan bir koagülasyon parametresi değildir.\n  * **C şıkkı (İstenir):** Primer hemostaz ve trombosit agregasyon kabiliyetini ölçmek için rutin istenir.\n  * **D ve E şıkları (İstenir):** Ekstrinsek (PT) ve intrensek (aPTT) koagülasyon faktörlerinin sentez ve işlev yeterliliğini gösterir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 14,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Diş çekiminin ardından iki saat sonra kanama şikayetiyle kliniğe gelen hastada kanamanın nedeninin aşağıdakilerden hangisinin olması daha az olasıdır?",
+    "options": {
+      "A": "Tansiyon değişiklikleri",
+      "B": "Hastanın tükürmesi",
+      "C": "Hastanın sigara içmesi",
+      "D": "Çekim bölgesinin enfekte olması",
+      "E": "Lokal anestezinin etkisinin geçmesi *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **Primer (Erken) Kanama Nedenleri (A, B, C, E):** Çekimden sonraki ilk birkaç saat içinde görülen kanamalar primer kanamadır. Reaksiyonel tansiyon artışı, lokal anestezik içindeki epinefrinin vazokonstrüktör etkisinin geçip vazodilatasyon başlaması, hastanın negatif basınç yaratarak sık tükürmesi ve sigara dumanı pıhtıyı erkenden yerinden oynatarak primer kanamaya yol açar.\n  * **Sekonder (Geç) Kanama Nedeni (D şıkkı / Doğru Cevap):** Çekim soketinin enfekte olması pıhtının bakteriyel enzimlerle lizise uğramasına yol açar; bu durum çekimden **1 ila 3 gün sonra (geç dönemde)** ortaya çıkan tipik bir sekonder kanama nedenidir. İki saat sonraki erken kanamada enfeksiyon rol oynamaz.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 15,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "INR (International Normalized Ratio) değeri aşağıdakilerden hangisini belirlemede kullanılır?",
+    "options": {
+      "A": "Warfarin kullanan hastalarda koagülasyon durumunun belirlenmesi",
+      "B": "Karaciğer nakli yapılmış hastalarda bilirubin seviyesinin belirlenmesi",
+      "C": "Beta blokör kullanan hastalarda kalp ritminin değerlendirilmesi",
+      "D": "Böbrek fonksiyonları bozulmuş hastalarda idrarla atılan protein miktarının belirlenmesi",
+      "E": "Anemik bireylerde hemoglobin seviyesinin belirlenmesi *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Doğru Cevap):** INR, hastanın protrombin zamanının uluslararası referans tromboplastin indeksine göre normalize edilmiş oranıdır. K vitamini antagonisti olan oral antikoagülan (Warfarin / Coumadin) kullanan hastaların kanama riskini ve antikoagülasyon düzeyini takip etmede altın standart parametredir.\n  * **B, C, D, E şıkları (Yanlış):** Karaciğer fonksiyonlarında bilirubin/AST/ALT, ritim değerlendirmesinde EKG/Holter, böbrekte proteinüri/kreatinin klirensi, anemide ise Hemoglobin/Hematokrit değerleri incelenir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 16,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aspirin tedavisi gören hastalarda hangi laboratuvar değerinin yükselmesi beklenir?",
+    "options": {
+      "A": "Sedimentasyon değeri",
+      "B": "Hemoglobin değeri",
+      "C": "Kanama zamanı",
+      "D": "Protrombin zamanı",
+      "E": "Trombosit sayısı *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D, E şıkları (Etkilenmez):** Aspirin trombosit sayısını azaltmaz (trombositopeni yapmaz), PT veya PTT sürelerini uzatmaz, sedimentasyon veya hemoglobini doğrudan yükseltmez.\n  * **C şıkkı (Doğru Cevap):** Aspirin (asetilsalisilik asit), trombosit siklooksijenaz (COX-1) enzimini irreversibl asetilleyerek Tromboksan A2 (TXA2) sentezini bloke eder. Trombosit agregasyonu bozulduğu için primer hemostazın göstergesi olan **kanama zamanı** belirgin şekilde uzar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 17,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kliniğe başvuran 55 yaşındaki kronik böbrek yetmezliği hastasının diyalize girdiği ve heparin tedavisi aldığı öğreniliyor. Çekim öncesi hekimin öncelikle istemesi gereken kanama testi hangisidir?",
+    "options": {
+      "A": "Kanama zamanı",
+      "B": "Trombosit sayısı",
+      "C": "Pıhtılaşma zamanı",
+      "D": "Protrombin zamanı",
+      "E": "Aktive parsiyel tromboplastin zamanı (aPTT) *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C, D şıkları (Uygun Değildir):** PT/INR Warfarin takibinde kullanılır. Kanama zamanı primer hemostazı gösterir.\n  * **E şıkkı (Doğru Cevap):** Heparin, Antitrombin III aktivitesini artırarak özellikle intrensek yol faktörlerini (Faktör XII, XI, IX, X, II) inhibe eder. Bu nedenle heparinin antikoagülan etkisini ve güvenli cerrahi sınırını izlemede **aPTT (Aktive Parsiyel Tromboplastin Zamanı)** testi istenir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 18,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Nazolabial flep aşağıdaki arterlerden hangisiyle beslenir?",
+    "options": {
+      "A": "Torakoakromiyal arter",
+      "B": "Anterior ve posterior derin temporal arter",
+      "C": "Anguler arter",
+      "D": "Oksipital dallar ve superior tiroid arter",
+      "E": "Fasiyal arter *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D şıkları (İlgisizdir):** Torakoakromiyal göğüste, derin temporal şakakta, superior tiroid boyundadır.\n  * **C şıkkı (Doğru Cevap):** Nazolabial (melolabial) flep, burun kanadı ve nazolabial oluk boyunca uzanan lokal transpozisyonel/aksiyel bir fleptir. Ağız tabanı, alt dudak ve burun defektlerinde kullanılır. Bu flebin aksiyel ve temel besleyici damarı fasiyal arterin terminal uzantısı olan **arteria angularis (anguler arter)** ve dallarıdır.\n  * *(Not: Kaynak analizinde anguler arter C şıkkında verilmiştir ve primer besleyici damardır).*",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS Sonbahar 2023 Orijinal",
+    "q_num": 64,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Fasiyal arter  \nII. Mental arter  \nIII. İnfraorbital arter  \nIV. Temporal superfisiyal arter  \n**Yukarıdaki arterlerden hangisi ya da hangileri nazolabial flebin beslenmesine katkıda bulunur?**",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız III",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I. öncül (Katkıda Bulunur):** Fasiyal arter flebin inferior tabanlı tasarımında doğrudan kan akımını sağlar ve anguler arteri verir.\n  * **II ve IV. öncüller (Katkıda Bulunmaz):** Mental arter alt çene simfizinde, yüzeyel temporal arter ise preauriküler ve temporal sahadadır; nazolabial hatta uzanmazlar.\n  * **III. öncül (Katkıda Bulunur):** İnfraorbital arter nazolabial oluğun süperiorunda fasiyal/anguler arter anastomozlarıyla zengin beslenme sağlar (süperior tabanlı flep beslenmesinde kritiktir).\n  * Dolayısıyla doğru seçenek **I ve III** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 65,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dudak yaralanmaları ve tedavileri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Üst dudak yaralanmalarında infraorbital sinir bloğu tercih edilir.",
+      "B": "Başlangıçta vermilion hattına tek bir sütür atılır.",
+      "C": "Mukoza 4-0 kalınlıkta sütür ile kapatılmalıdır.",
+      "D": "Cilt 3-0 kalınlıkta sütür ile kapatılmalıdır.",
+      "E": "Dudağın dörtte birinden küçük avülsif defektler primer olarak kapatılabilir. *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A şıkkı (Doğrudur):** Yara kenarlarına lokal infiltrasyon yapılması anatomik hatları distorsiyone ederek doğru dikimi zorlaştırır; bu nedenle rejyonel sınır blokları (üst dudakta infraorbital, alt dudakta mental blok) tercih edilir.\n  * **B şıkkı (Doğrudur):** Estetik başarının en kritik basamağı vermilion-deri sınırının kusursuz birleşmesidir. 1 mm\\'lik kayma dahi belirgin kozmetik asimetri yaratır; bu yüzden ilk sütür daima vermilion hattına konur.\n  * **C şıkkı (Doğrudur):** Mukoza ve kas tabakaları rezorbe olabilen 3-0 veya 4-0 sütürlerle kat kat kapatılır.\n  * **D şıkkı (Yanlıştır / Aranan Seçenek):** Yüz ve dudak cildinde iz (skar) kalmasını önlemek için 3-0 gibi kalın sütürler kesinlikle kullanılmaz; cilt kapatılmasında atravmatik **5-0 veya 6-0** monofilament sütürler tercih edilir.\n  * **E şıkkı (Doğrudur):** Dudak elastik bir dokudur; tam kat doku kaybı dudağın 1/4\\'ünden (bazı kaynaklarda 1/3\\'e kadar) az ise primer olarak dikilebilir; daha büyük defektlerde lokal flepler (Abbe, Estlander, Karapandzic) gerekir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 66,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Nekrotik doku, yabancı cisim ve iskemik dokuların yaradan uzaklaştırılmasına ne ad verilir?",
+    "options": {
+      "A": "Debridman",
+      "B": "Dekortikasyon",
+      "C": "Dekontaminasyon",
+      "D": "Asepsi",
+      "E": "Dekompresyon *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Doğru Cevap):** Yarada iyileşmeyi geciktiren, enfeksiyona zemin hazırlayan devitalize/nekrotik dokuların, yabancı cisimlerin ve kirliliklerin cerrahi olarak temizlenmesi işlemine **debridman** denir.\n  * **B şıkkı (Dekortikasyon):** Osteomiyelit gibi kemik enfeksiyonlarında kanlanmayı artırmak ve medüller boşluğa drenaj sağlamak amacıyla sklerotik dış kortikal kemik tabakasının frezlenerek kaldırılmasıdır.\n  * **C şıkkı (Dekontaminasyon):** Bir nesne veya yüzeydeki mikroorganizmaların, kimyasalların veya radyoaktif maddelerin arındırılması işlemidir.\n  * **D şıkkı (Asepsi):** Canlı dokularda veya cerrahi alanda patojen mikroorganizmaların bulunmaması durumunu ve bunu sağlama yöntemlerini ifade eder.\n  * **E şıkkı (Dekompresyon):** Kist veya doku içi basıncın lümene pencere açılarak boşaltılması ve düşürülmesi işlemidir (marsupyalizasyon prensibi).",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2015 Orijinal",
+    "q_num": 100,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Patojen mikroorganizmaların bir hastadan diğer hastalara, personele ve personelden diğer bireylere geçişinin önlenmesine verilen ad aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sterilizasyon",
+      "B": "Asepsi",
+      "C": "Antisepsi",
+      "D": "Dezenfeksiyon",
+      "E": "Debridman *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Sterilizasyon):** Bir maddenin, aletin veya ortamın üzerinde veya içinde bulunan sporlu ve sporsuz tüm canlı mikroorganizmaların tamamen yok edilmesi işlemidir. Patojenlerin çapraz bulaşmasının genel önlenme konseptini değil, mutlak mikropsuzlaştırma metodunu tanımlar.\n  * **B şıkkı (Asepsi - Doğru Cevap):** Patojen mikroorganizmaların temiz bir alana, canlı dokuya, cerrahi sahaya, hastaya veya personele ulaşmasını ve bulaşmasını (çapraz enfeksiyonu) engellemek amacıyla alınan tüm önlemler ve oluşturulan koruyucu kurallar bütünüdür.\n  * **C şıkkı (Antisepsi):** Canlı dokular (deri, mukoza, yara yüzeyi) üzerindeki patojen mikroorganizmaların kimyasal maddeler (antiseptikler) kullanılarak sayıca azaltılması veya yok edilmesidir.\n  * **D şıkkı (Dezenfeksiyon):** Cansız nesneler ve yüzeyler üzerindeki patojen mikroorganizmaların (bakteri sporları hariç) kimyasal veya fiziksel yöntemlerle elimine edilmesidir.\n  * **E şıkkı (Debridman):** Yara bölgesindeki yabancı cisimlerin, enfekte, iskemik ve nekrotik dokuların cerrahi/mekanik olarak temizlenmesi işlemidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 101,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Geçirilmiş miyokard enfarktüsü (MI) öyküsü olan bir hastada elektif cerrahi girişimler için en güvenli bekleme süresi ne kadardır?",
+    "options": {
+      "A": "En az 1 ay",
+      "B": "En az 3 ay",
+      "C": "En az 6 ay",
+      "D": "En az 1 yıl",
+      "E": "En az 2 yıl *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Miyokard enfarktüsünü takip eden ilk 6 ayda yeniden enfarktüs (re-enfarktüs) geçirme riski %30'ların üzerindedir. 6 aydan sonra bu risk bazal düzeye (%5 civarına) iner. Bu nedenle kardiyovasküler kılavuzlara göre elektif cerrahi işlemler için klasik altın kural **en az 6 ay beklenmesidir** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 381,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Sütür alma  \nII. Diş taşı temizliği  \nIII. Endodontik cerrahi  \nIV. Rutin infiltratif anestezi  \n**Yukarıdaki dental işlemlerden hangileri yüksek riskli kardiyak hastalarda infektif endokardit profilaksisi gerektirir?**",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I ve IV",
+      "D": "II ve IV",
+      "E": "III ve IV *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Amerikan Kalp Cemiyeti (AHA) yönergelerine göre gingival dokunun manipülasyonunu, periapikal bölgenin cerrahisini veya oral mukoza perforasyonunu içeren kanamalı işlemler profilaksi gerektirir.\n  * **II (Diş taşı temizliği)** ve **III (Endodontik cerrahi)** belirgin bakteriyemiye yol açtığı için profilaksi gerektirir.\n  * I (Sütür alma), IV (Enfekte olmayan dokuya rutin infiltratif anestezi) ve radyografi çekimi profilaksi gerektirmez. Doğru seçenek **II ve III** (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 382,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki medikal acil durumlardan hangisinde hastanın Trendelenburg (baş aşağı, ayaklar yukarı) pozisyonuna getirilmesi kesinlikle kontrendikedir?",
+    "options": {
+      "A": "Vazovagal senkop",
+      "B": "Ortostatik hipotansiyon",
+      "C": "Hiperventilasyon sendromu",
+      "D": "Hafif hipotansiyon",
+      "E": "Geçici serebral iskemi atağı *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Vazovagal senkopta ve ortostatik hipotansiyonda beyin kan akımını artırmak için Trendelenburg pozisyonu hayat kurtarıcıdır.\n  * **C şıkkı (Hiperventilasyon Sendromu / Kontrendikedir):** Hiperventilasyon anksiyete kaynaklı nefes darlığı hissidir. Hasta sırtüstü veya Trendelenburg pozisyonuna getirilirse batın organları diyaframa bası yaparak göğüs kafesi ekspansiyonunu zorlaştırır ve anksiyeteyi tırmandırır. Bu hastalar **dik veya yarı oturur (Fowler) pozisyonda** tutulmalı, sakinleştirilip CO2 retansiyonu sağlanmalıdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 383,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hiperventilasyon sendromu gelişen bir hastada aşağıdaki bulgu ve belirtilerden hangisi gözlenmez?",
+    "options": {
+      "A": "El ve ayak parmaklarında uyuşukluk (parestezi)",
+      "B": "Artmış anksiyete",
+      "C": "Baş dönmesi",
+      "D": "Sık nefes alıp verme (taşipne)",
+      "E": "Ağızdan artmış sekresyon ve tükürük artışı *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * Aşırı ve hızlı solunum sonucu kanda CO2 düzeyi hızla düşer (hipokapni) ve **respiratuar alkaloz** gelişir. İyonize kalsiyumun düşmesine bağlı perioral ve ekstremite parestezileri, karpopedal spazm, tetani, baş dönmesi ve taşipne görülür. Hızlı ağız solunumu mukozayı kurutur; **ağız kuruluğu (kserostomi)** oluşur. Tükürük artışı (siyalore) gözlenmez (E şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2022 Orijinal",
+    "q_num": 384,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi lokal anestezi enjeksiyonu sonrasında trismus oluşmasına neden olması beklenmez?",
+    "options": {
+      "A": "İntramusküler enjeksiyon",
+      "B": "İrritan madde enjeksiyonu",
+      "C": "İğnenin doku içi kanamaya neden olması",
+      "D": "Steril şartlarda yapılmayan enjeksiyon",
+      "E": "Vücut sıcaklığında solüsyon kullanılması *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * Kasa enjeksiyon miyotoksisite yapar (A), irritan solüsyonlar kimyasal nekroz yaratır (B), hematom kas içi bası oluşturur (C), enfeksiyon spazmı tetikler (D).\n  * **E şıkkı (Beklenmez):** Vücut sıcaklığında solüsyon kullanılması fizyolojiktir, doku irritasyonunu ve spazmı azaltır; trismus nedeni değildir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 385,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Yapay kalp kapağı  \nII. Cerrahi onarılmamış siyanotik konjenital kalp defekti  \nIII. Tamir görmüş ASD/VSD (ilk 6 aydan sonra)  \nIV. Kalp nakli yapılmış ve kapak hastalığı gelişmiş hasta  \n**Yukarıdaki durumlardan hangilerinde oral cerrahi işlemler öncesinde infektif endokardit profilaksisi gereklidir?**",
+    "options": {
+      "A": "I ve II",
+      "B": "I, II ve IV",
+      "C": "II ve III",
+      "D": "I, III ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * AHA kılavuzuna göre mutlak profilaksi gereken yüksek risk grubu:\n    1. Yapay kalp kapakları veya kapak onarımında protez materyali olanlar (I)\n    2. Cerrahi onarılmamış veya rezidüel defekti olan siyanotik konjenital kalp hastaları (II)\n    3. Kalp nakli sonrası kapak patolojisi gelişen hastalar (IV)\n    4. Geçirilmiş infektif endokardit öyküsü olanlar.\n  * **III. öncül (Gerekmez):** Rezidüel defekt bırakılmadan tamir edilmiş ASD/VSD'lerde ameliyattan 6 ay sonra endotelizasyon tamamlandığı için profilaksi gerekmez. Doğru seçenek **I, II ve IV** (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 386,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Akut dentoalveoler apse gelişmiş, hamileliğinin üçüncü trimesterinde olan bir hasta için aşağıdaki antibiyotik - analjezik ikililerinden hangisi en uygundur?",
+    "options": {
+      "A": "Tetrasiklin - Aspirin",
+      "B": "Penisilin V / Amoksisilin - Parasetamol",
+      "C": "Siprofloksasin - İbuprofen",
+      "D": "Klindamisin - Naproksen",
+      "E": "Klaritromisin - Ketoprofen *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **B şıkkı (Doğru Cevap):** Gebelikte en güvenli antibiyotikler **Beta-laktamlar (Penisilin V, Amoksisilin - Kategori B)**'dır. Gebelikte en güvenli analjezik/antipiretik ise **Parasetamol (Asetaminofen - Kategori B)**'dir.\n  * **Diğer şıklar:** Tetrasiklin kemik/diş renklenmesi yapar (Kategori D). Aspirin ve NSAİİ'ler (İbuprofen, Naproksen) 3. trimesterde *ductus arteriosus*'un erken kapanmasına, pulmoner hipertansiyona ve doğum eyleminin gecikmesine yol açtığı için kesinlikle kontrendikedir (Kategori D).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 387,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir ilacın hayvan deneylerinde teratojenik etkisi saptanmamış ancak gebe kadınlarda yapılmış kontrollü klinik çalışma bulunmuyorsa, bu ilaç FDA sınıflamasına göre hangi gebelik kategorisinde yer alır?",
+    "options": {
+      "A": "Kategori A",
+      "B": "Kategori B",
+      "C": "Kategori C",
+      "D": "Kategori D",
+      "E": "Kategori X *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **Kategori A:** İnsanlarda kontrollü çalışmalarla fetal risk olmadığı kanıtlanmış ilaçlar.\n  * **Kategori B (Doğru Cevap):** Hayvan üreme çalışmalarında risk gösterilmemiş ancak gebe kadınlarda kontrollü çalışma yoksa veya hayvanlarda risk çıkmış ama insanlarda doğrulanmamışsa Kategori B'dir.\n  * **Kategori C:** Hayvanlarda olumsuz etki saptanmış, insanlarda çalışma yok.\n  * **Kategori D:** İnsanda pozitif fetal risk kanıtı var ama hayati riskte kullanılabilir.\n  * **Kategori X:** Fetal anomali kesin; gebelikte mutlak kontrendikedir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 388,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hastalıklardan hangisinde ciltte halkalar şeklinde tipik olarak \"hedef tahtası (target / iris)\" benzeri lezyonlar gözlenir?",
+    "options": {
+      "A": "Liken planus",
+      "B": "Pemfigus vulgaris",
+      "C": "Eritema multiforme",
+      "D": "Lupus eritematozus",
+      "E": "Skleroderma *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **C şıkkı (Eritema Multiforme / Doğru Cevap):** Akut, hipersensitivite reaksiyonudur. En karakteristik patognomonik lezyonu ekstremite ekstansör yüzeylerinde görülen konsantrik halkalı **\"hedef tahtası (hedef / iris)\"** lezyonlarıdır. Dudaklarda hemorajik krutlanma ile seyreder. En sık tetikleyici ajan **Herpes Simpleks Virüs (HSV)** enfeksiyonudur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS İlkbahar 2023 Orijinal",
+    "q_num": 389,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Eritema multiformeyi en sık tetikleyen enfeksiyöz etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Epstein-Barr virüsü (EBV)",
+      "B": "Sitomegalovirüs (CMV)",
+      "C": "Herpes Simpleks Virüsü (HSV)",
+      "D": "İnsan Papilloma Virüsü (HPV)",
+      "E": "Varisella Zoster Virüsü (VZV) *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Eritema multiforme vakalarının %50-70'inde etiyolojik tetikleyici rekürrent **Herpes Simpleks Virüs (özellikle HSV Tip 1)** enfeksiyonudur. İlaç kaynaklı olanlarda ise sulfonamidler ve antikonvülzanlar öne çıkar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 390,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki sistemik hastalıklardan hangisi rekürrent aftöz stomatit etiyolojisinde rol oynamaz?",
+    "options": {
+      "A": "Behçet hastalığı",
+      "B": "Pemfigus vegetans",
+      "C": "Reaktif artrit (Reiter)",
+      "D": "MAGIC sendromu",
+      "E": "Siklik nötropeni *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **B şıkkı (Pemfigus Vegetans / Doğru Cevap):** Pemfigus büllöz bir hastalıktır; lezyonları aftöz ülser değil, intraepitelyal bül rüptürlerine bağlı erozyon ve vejetasyonlardır.\n  * **A, C, D, E şıkları:** Behçet (oral/genital aftlar), Reiter, Siklik nötropeni (periyodik nötropenik aftlar) ve MAGIC sendromu aftöz ülserlerle doğrudan ilişkilidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 446,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Oral kavitede melanin pigmentasyonunun fizyolojik (ırksal) artışında histopatolojik temel özellik nedir?",
+    "options": {
+      "A": "Melanosit sayısının dramatik olarak artması ve tümör oluşturması",
+      "B": "Melanosit sayısı normal iken bazal tabakadaki hücrelerin melanin pigmenti üretiminin artması",
+      "C": "Mukozada kalsiyum tuzlarının birikmesi",
+      "D": "Damar endotelinin parçalanması",
+      "E": "Demir moleküllerinin epitele sızması *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Fizyolojik pigmentasyonda melanosit proliferasyonu (neoplazi) yoktur; bazal keratinositlere transfer edilen melanin granüllerinin metabolik miktarı fazladır [278].",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 542,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Adrenal korteks yetmezliği (Addison hastalığı) olan bir hastada oral mukozada yaygın bronz/kahverengi hiperpigmentasyon maküllerinin oluşma mekanizması nedir?",
+    "options": {
+      "A": "Kortizol eksikliğine sekonder hipofizden aşırı ACTH ve MSH (Melanosit Stimüle Edici Hormon) salgılanması",
+      "B": "Bakterilerin melanin salgılaması",
+      "C": "Tükürük akışının durması",
+      "D": "Doku içine eritrosit kanaması",
+      "E": "Demir zehirlenmesi *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Negatif feedback ortadan kalktığı için pro-opiomelanokortin türevi olan ACTH ve MSH aşırı salgılanır ve oral melanositleri hiperaktive eder [278].",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 543,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anti-HIV testi pozitif hastanın cerrahi tedavisi yapılırken enjektör iğnesi diş hekiminin eline batıyor. Bu diş hekimi için aşağıdaki yaklaşımlardan hangisi en uygundur?",
+    "options": {
+      "A": "İlk 72 saat içinde temas sonrası antiretroviral profilaksi (PEP) başlanır ve 4 hafta sürdürülür",
+      "B": "7-10 gün sonra profilaksiye başlanır",
+      "C": "Sadece antiseptik solüsyon sürülür, ilaç verilmez",
+      "D": "Yaralanma 6 ay sonra değerlendirilir",
+      "E": "Diş hekiminde HIV pozitifleşirse tedaviye başlanır *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Mesleki maruziyetlerde (iğne batması) HIV bulaşma riski yaklaşık %0.3'tür [282]. Temas sonrası profilaksinin (PEP) etkinliği zamanla yarışır; ideal olarak ilk 2 saat içinde, en geç **ilk 72 saat içinde** başlanmalı ve 28 gün (4 hafta) boyunca sürdürülmelidir [282].",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS Sonbahar 2023 Orijinal",
+    "q_num": 553,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Maruziyet sahası hemen bol su ve sabunla yıkanmalı, yara sıkılarak doku travmatize edilmemelidir.  \nII. Temas sonrası profilaktik antiretroviral tedaviye ilk 72 saat içinde başlanmalıdır.  \nIII. Hekim 6. hafta, 3. ay ve 6. aylarda HIV antikor/antijen serolojisi ile takip edilmelidir.  \n**HIV pozitif kanla iğne batması yaralanmasında yukarıdaki basamaklardan hangileri protokol gereğidir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * Lokal temizlik, 72 saat içinde profilaktik üçlü ART rejimi ve 6 aya kadar serolojik takip kılavuzların standart basamaklarıdır [282].",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 554,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki sistemik hastalıklardan hangisi rekürrent aftöz stomatit etiyolojisinde rol oynamaz?",
+    "options": {
+      "A": "Behçet hastalığı",
+      "B": "Pemfigus vegetans",
+      "C": "Reaktif artrit (Reiter sendromu)",
+      "D": "MAGIC sendromu",
+      "E": "Siklik nötropeni *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A, C, D, E şıkları (Aftöz Lezyon Görülenler):** Behçet hastalığı (oral aftlar zorunlu kriterdir); Reaktif artrit; MAGIC sendromu (Mouth and Genital Ulcers with Inflamed Cartilage); Siklik nötropeni (nötrosit düşüş dönemlerinde şiddetli rekürrent majör aftlar) aftöz stomatitle doğrudan ilişkilidir [285, 286].\n  * **B şıkkı (Doğru Cevap / Aranan Seçenek):** Pemfigus vegetans, pemfigus vulgarisin verruko-vejetatif bir varyantıdır; primer olarak büllöz-eroziv lezyonlar ve kıvrım yerlerinde granülasyonlu plaklar yapar; rekürrent aft etiyolojisinde yer almaz [285, 286].",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 565,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Crohn hastalığı ve Çölyak hastalığı  \nII. Liken planus  \nIII. Siklik nötropeni  \nIV. Behçet hastalığı  \n**Yukarıda verilen hastalıklardan hangilerinde oral mukozada tekrarlayan aftöz ülserler tipik bir bulgudur?**",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "I ve II",
+      "C": "I, III ve IV",
+      "D": "II ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Malabsorpsiyon tabloları (Crohn, Çölyak), Siklik nötropeni ve Behçet hastalığında oral aftlar ana patolojidir [285, 286]. Liken planus ise büllöz-retiküler otoimmün dermatozdur, rekürrent aftöz lezyon grubunda yer almaz [285]. Doğru seçenek **I, III ve IV** (C şıkkı) [286].",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 566,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Sigara içenlerde aftöz ülser görülme sıklığı sigara içmeyenlere göre daha azdır (tütünün keratinizasyonu artırıcı etkisi).  \nII. Premenstrüel dönemde hormonal dalgalanmalar aft oluşum sıklığını artırabilir.  \nIII. Çölyak hastalığında glutensiz diyete geçilmesi aftöz lezyonları geriletebilir.  \nIV. Pemfigus vulgaris aftöz stomatitin en hafif formudur.  \n**Aftöz ülserler ile ilgili yukarıdaki ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "II ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Sigaranın mukozayı kalınlaştırıp keratinize etmesi aft insidansını düşürür; hormonal döngüler ve malabsorpsiyon aftı tetikler (I, II, III doğrudur) [285]. Pemfigus aftöz bir hastalık değildir (IV yanlıştır) [282, 285]. Doğru seçenek **I, II ve III** (C şıkkı) [285].",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 567,
+    "unit": "1 CERRAHİYE GİRİŞ",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,852 @@
+[
+  {
+    "q_num": 191,
+    "question": "Aşağıdakilerden hangisi sigara kullanımın rejeneratif periodontal tedavi sonuçlarına etkilerinden değildir?",
+    "options": {
+      "A": "Klinik ataşman kazancı miktarı azalır.",
+      "B": "Periodontal defektlerin kemik dolum düzeyi etkilenmez.",
+      "C": "Bariyer membranın erken dönemde ekspoze olma (açığa çıkma) riski artar.",
+      "D": "Dişeti çekilmesi artar",
+      "E": "Cerrahi sonrası antibiyotik ihtiyacı artar"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sigara kullanımı, kanlanmayı azaltması ve osteoblast ile fibroblast fonksiyonlarını bozması nedeniyle rejeneratif periodontal tedavilerde (YDR ve kemik grefti uygulamalarında) **periodontal defektlerin kemik dolum düzeyini ve cep derinliğindeki azalma miktarını belirgin şekilde düşürür**. Kemik dolum düzeyinin etkilenmediği ifadesi yanlıştır.\n**Çeldiriciler:**\n- A) Sigara içen hastalarda yönlendirilmiş doku rejenerasyonu sonrasında elde edilen klinik ataşman kazancı içmeyenlere göre daha düşüktür.\n- C) Bozulmuş yara iyileşmesi ve flep nekrozu/çekilmesi nedeniyle bariyer membranın ağız ortamına açılma (ekspozisyon) oranı artar.\n- D) Cerrahi işlemler sonrasında sigara kullanan bireylerde postoperatif dişeti çekilmesi miktarı artar.\n- E) Azalmış konak savunması, bozulmuş nötrofil fonksiyonu ve artmış membran ekspozisyonu nedeniyle cerrahi sonrası enfeksiyon riski ve antibiyotik ihtiyacı artar.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 192,
+    "question": "Yirmi yedi yaşında herhangi bir sistemik rahatsızlığı bulunmayan, günlük 20 adet sigara kullanan kadın hasta ağrı, dişeti kanaması, kötü ağız kokusu olmadan rutin muayene amaçlı kliniğe başvuruyor. Alınan radyograflarda alveolar kemik kaybı görülüyor. Oral muayenede birçok dişinde 4-10 mm arasında değişen periodontal ceplerin varlığına rağmen düşük yoğunluklu plak tespit ediliyor.\n\nYukarıda tarif edilen hasta için olası tanısı ve sebebi hakkındaki eşleştirmelerden hangisi doğrudur? (1999 sınıflaması)",
+    "options": {
+      "A": "Lokalize kronik periodontitis – Plak",
+      "B": "Nekrotizan ülseratif periodontitis – Stres",
+      "C": "Generalize agresif periodontitis – Plak",
+      "D": "Generalize kronik periodontitis – Sigara",
+      "E": "Lokalize agresif periodontitis – Sigara"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** 1999 Periodontal Hastalıklar Sınıflamasına göre; sistemik olarak sağlıklı ve **30 yaşın altında (27 yaşında)** olan bir hastada, **düşük yoğunluklu mikrobiyal plak miktarı ile uyumsuz derecede şiddetli ataçman ve kemik yıkımının** (4-10 mm cepler) **birçok dişte yaygın olarak** görülmesi **Generalize agresif periodontitis** tanı kriteridir. Tüm agresif ve kronik periodontitis formlarının birincil (primer) etiyolojik nedeni mikrobiyal dental **plaktır** (patojenik biyofilm); sigara ise hastalığın birincil nedeni değil, şiddetini artıran modifiye edici bir risk faktörüdür.\n**Çeldiriciler:**\n- A) Hastanın genç yaşı ve plak miktarıyla uyumsuz hızlı yıkım göstermesi kronik değil agresif periodontitisi; yıkımın birçok dişte olması ise lokalize değil generalize formu gösterir.\n- B) Hastada şiddetli ağrı, spontan dişeti kanaması, krater tarzı papil nekrozu ve kötü ağız kokusu (halitozis) bulunmadığı için nekrotizan ülseratif periodontitis değildir.\n- D) Plak miktarının azlığına rağmen 27 yaşında 10 mm'ye ulaşan cepler kronik değil agresif periodontitisi gösterir; ayrıca hastalığın primer sebebi sigara değil plaktır.\n- E) Yıkım yalnızca birinci molar ve kesicilerle sınırlı olmayıp birçok dişi etkilediği için lokalize değil generalize formdur ve primer etiyolojik etken sigara değil plaktır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 193,
+    "question": "Diyabet-periodontal hastalık ilişkisi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kontrolsüz ya da zayıf kontrollü diyabet hastalarında periodontitis dâhil olmak üzere enfeksiyona yatkınlık artar.",
+      "B": "Zayıf kontrollü diyabette nötrofillerde kemotaksis ve fagositoz bozukluğu vardır.",
+      "C": "Diyabetik hastaların serum IgA, IgG ve IgM'si yükselmiştir.",
+      "D": "Birikmiş glikasyon son ürünleri (AGE) diyabetin komplikasyonlarında ve periodontitisin ilerlemesinde önemli rol oynar.",
+      "E": "Zayıf kontrollü diyabetik hastalarda tükürük akışı azalmaktadır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Diyabet hastalarında savunma sistemindeki temel bozukluk hümoral bağışıklıkta (antikor düzeylerinde) değil, polimorfonükleer lökositlerin (nötrofillerin) fonksiyonlarındadır. Diyabetik hastalarda **serum IgA, IgG ve IgM düzeylerinde anlamlı bir değişiklik görülmez**.\n**Çeldiriciler:**\n- A) Kontrolsüz diyabette bozulmuş konak savunması ve mikrovasküler değişiklikler nedeniyle enfeksiyonlara yatkınlık artar ve periodontitis diyabetin 6. komplikasyonu olarak kabul edilir.\n- B) Zayıf kontrollü diyabet hastalarında nötrofillerin kemotaksis (göç), adhezyon (tutunma) ve fagositoz (yutma) fonksiyonları belirgin şekilde bozulmuştur.\n- D) Kronik hiperglisemi sonucunda protein ve lipidlerin non-enzimatik glikozilasyonu ile oluşan ileri glikasyon son ürünleri (AGE), kollajen metabolizmasını bozarak ve monositlerden proinflamatuvar sitokin salınımını artırarak periodontal yıkımı hızlandırır.\n- E) Kontrolsüz/zayıf kontrollü diyabette poliüri ve sıvı kaybına bağlı olarak tükürük akış hızı azalır (kserostomi), ağız kuruluğu ve yanma hissi görülür.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 194,
+    "question": "I- Periodontitis prevelansı\nII- Nötrofillerde kemotaksis\nIII- IgA, IgG ve IgM\n\nKontrolsüz ya da zayıf kontrollü diyabet hastalarında verilenlerden hangi ya da hangileri değişmez?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yalnız I",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kontrolsüz veya zayıf kontrollü diyabet hastalarında periodontitis prevalansı ve şiddeti belirgin şekilde artarken (I değişir), nötrofillerin kemotaksis, adhezyon ve fagositoz yetenekleri azalır (II değişir). Buna karşılık hümoral immünitenin göstergesi olan serum **IgA, IgG ve IgM immünoglobulin seviyelerinde bir değişiklik görülmez (III değişmez)**.\n**Çeldiriciler:**\n- B) Kontrolsüz diyabette periodontitis prevalansı sabit kalmaz, belirgin şekilde artar.\n- C) Hem periodontitis prevalansı (artar) hem de nötrofil kemotaksisi (azalır) diyabetten doğrudan etkilenerek değişir.\n- D) I. öncüldeki periodontitis prevalansı diyabette artış gösterdiği için yanlıştır.\n- E) I ve II numaralı parametreler kontrolsüz diyabette belirgin şekilde değişmektedir.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Kontrolsüz diyabette periodontitis prevalansı ve yıkım hızı artar; değişmemesi söz konusu değildir (Yanlış).\n- **II. Öncül:** Diyabette nötrofillerin kemotaksis, adhezyon ve fagositoz fonksiyonları bozulur/azalır (Yanlış).\n- **III. Öncül:** Diyabet hastalarında serum IgA, IgG ve IgM düzeylerinde değişiklik görülmez (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 195,
+    "question": "Hiperparatiroid hastasının oral bölgesinde aşağıdaki durumlardan hangisinin görülmesi beklenmez?",
+    "options": {
+      "A": "Malokluzyon",
+      "B": "Diş mobilitesi artışı",
+      "C": "Alveoler osteoporoz",
+      "D": "Periodontal aralıkta daralma",
+      "E": "Lamina dura kaybı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Paratiroid hormonunun (PTH) aşırı salgılanması (hiperparatiroidizm), kemiklerden kalsiyum çekilmesine ve osteoklastik kemik rezorpsiyonuna yol açar. Oral bölgede alveoler kemiğin demineralize olması ve lamina duranın rezorbe olması sonucunda radyografik olarak **periodontal ligament aralığında daralma değil, aksine belirgin bir genişleme** görülür.\n**Çeldiriciler:**\n- A) Çene kemiklerindeki demineralizasyon, kemik içi kistik lezyonlar (brown tümörler) ve dişlerin patolojik göçü sonucunda maloklüzyon gelişir.\n- B) Alveoler kemik desteğinin azalması ve periodontal aralığın genişlemesi nedeniyle dişlerde mobilite artışı görülür.\n- C) PTH fazlalığı çene kemiklerinde trabeküler yapının kaybına ve buzlu cam görünümünde alveoler osteoporoza yol açar.\n- E) Soketin iç duvarını döşeyen kompakt kemiğin (lamina dura) kısmen veya tamamen kaybı, hiperparatiroidizmin en karakteristik radyografik oral bulgusudur.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 196,
+    "question": "I. Nötrofillerde fonksiyon defekti\nII. Mental retardasyon\nIII. Katepsin C geninde mutasyon\nIV. Eklemlerde artmış hareketlilik\n\nYaygın ve şiddetli periodontitis ile birlikte el, dirsek, ayak tabanları ve dizlerinde artmış keratinizasyon görülen 10 yaşındaki çocuk hastada yukarıdakilerden hangilerinin görülmesi beklenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Çocukluk çağında (hem süt hem daimi dentisyonda) yaygın ve şiddetli periodontitis, erken diş kayıpları ve el avuç içleri ile ayak tabanlarında, diz ve dirseklerde aşırı keratinizasyon (palmoplantar hiperkeratoz) ile karakterize otozomal resesif sendrom **Papillon-Lefèvre sendromudur**. Bu sendromda 11. kromozomda yer alan lizozomal proteaz enzimi **Katepsin C (CTSC) geninde mutasyon (III)** vardır ve buna bağlı olarak **nötrofillerde (PMN) kemotaksis, fagositoz ve bakterisidal fonksiyon defektleri (I)** görülür.\n**Çeldiriciler:**\n- A) Hastalığın temel genetik nedeni olan Katepsin C gen mutasyonunu (III) içermediği için eksiktir.\n- B) II. öncüldeki mental retardasyon Papillon-Lefèvre sendromunda değil, Down sendromunda görülür.\n- D) Mental retardasyon (Down sendromu) ve eklemlerde artmış hareketlilik (Ehlers-Danlos sendromu) bu hastalıkta bulunmaz.\n- E) IV. öncüldeki eklem hipermobilitesi Papillon-Lefèvre sendromunun değil, Ehlers-Danlos ve Haim-Munk sendromlarının özelliğidir.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Papillon-Lefèvre sendromunda serin proteazların aktive edilememesine bağlı nötrofil fonksiyon defektleri mevcuttur (Doğru).\n- **II. Öncül:** Bu sendromda zeka gelişimi normaldir; mental retardasyon görülmez (Yanlış).\n- **III. Öncül:** Hastalığın doğrudan genetik etiyolojisi Katepsin C genindeki mutasyondur (Doğru).\n- **IV. Öncül:** Eklemlerde artmış hareketlilik (hipermobilite) Ehlers-Danlos sendromunun karakteristik bulgusudur (Yanlış).\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 197,
+    "question": "On üç yaşında çoklu diş kayıpları var olan, derin cepler ve vertikal mobiliteye sahip dişler ile kliniğe başvuran hastadan alınan anamnezde bir genetik rahatsızlığı olduğu öğreniliyor. Ekstraoral muayenesinde parmaklarda, avuç içlerinde ve eklemlerde hiperkeratozlar izleniyor.\n\nYukarıda tarif edilen hasta için aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Otozomal resesif geçişli bir genetik rahatsızlıktır.",
+      "B": "Primer dentisyondaki dişlerini 5-6 yaşlarında kaybetmiştir.",
+      "C": "Lökosit fonksiyon bozukluğuna bağlı piyojenik deri enfeksiyonları görülür.",
+      "D": "NADPH oksidaz enziminin bazı komponentlerinde genetik defekt bulunur.",
+      "E": "Sekonder dentisyonun tamamını muhtemelen birkaç yıl içerisinde kaybedecektir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Tarif edilen vaka; palmoplantar hiperkeratoz ve erken yaşta şiddetli periodontal yıkımla seyreden **Papillon-Lefèvre sendromudur**. Bu hastalıkta genetik defekt **Katepsin C** genindedir. Fagositlerde solunum patlamasını sağlayan **NADPH oksidaz** enziminin komponentlerindeki genetik defekt ise Papillon-Lefèvre sendromunda değil, **Kronik Granülomatöz Hastalıkta (CGD)** görülür.\n**Çeldiriciler:**\n- A) Papillon-Lefèvre sendromu, ebeveynler arası akraba evlilikleriyle sık ilişkili olan otozomal resesif geçişli bir hastalıktır.\n- B) Süt dişleri sürdükten hemen sonra şiddetli periodontal yıkım başlar ve hasta süt dişlerinin tamamını 4-6 yaşları civarında kaybeder.\n- C) Katepsin C mutasyonuna bağlı nötrofil fonksiyon bozukluğu nedeniyle hastalarda tekrarlayan piyojenik deri enfeksiyonları ve iç organ apseleri görülebilir.\n- E) Daimi dişlerin sürmesiyle birlikte periodontal yıkım yeniden alevlenir ve tedavi edilmezse 14-15 yaşlarına kadar tüm daimi dişler (3. molarlar hariç) kaybedilir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 198,
+    "question": "Eklemlerde esneklik ve cilt hipereksensibilitesi, skarlaşma ve morarma ile karakterize bağ dokusu bozukluğudur. Periodontal dokuları etkileyen alt tipi otozomal dominanttır. Çocuklarda geniş diş eti iltihabı görülür ve genç yaşlarda periodontitis ile ataçman ve diş kayıplarına yol açar. Arteriyel veya gastrointestinal rüptürler de dahil olmak üzere ciddi komplikasyonlar bildirilmiştir.\n\nYukarıda tarif edilen genetik bozukluk aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Papilon le fevre",
+      "B": "Ehler danlos sendromu",
+      "C": "Haim-Munk syndrome",
+      "D": "Kindler syndrome",
+      "E": "Down sendromu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kollajen sentezindeki ve kompleman C1r/C1s genlerindeki bozukluklardan kaynaklanan; eklemlerde aşırı esneklik (hipermobilite), ciltte aşırı uzayabilirlik (hiperekstensibilite), kolay morarma, atipik skarlaşma ve hayati tehlike oluşturan arteriyel/gastrointestinal rüptürlerle karakterize bağ dokusu hastalığı **Ehlers-Danlos sendromudur (EDS)**. Özellikle periodontal alt tipi (eski sınıflamada Tip VIII, güncel sınıflamada pEDS) otozomal dominant geçişlidir ve erken yaşta şiddetli periodontitis ve diş kayıplarına neden olur.\n**Çeldiriciler:**\n- A) Papillon-Lefèvre sendromu otozomal resesif geçişlidir ve eklem/cilt elastikiyeti ile değil, avuç içi ve ayak tabanı hiperkeratozu ile karakterizedir.\n- C) Haim-Munk sendromu, Katepsin C mutasyonu sonucu gelişen, palmoplantar hiperkeratoz, onikogripozis (tırnak deformitesi) ve araknodaktili ile seyreden otozomal resesif bir sendromdur.\n- D) Kindler sendromu, fermitin-1 (kindlin-1) gen mutasyonuna bağlı olarak ciltte bül oluşumu, fotosensitivite, poikiloderma ve birleşim epiteli defektiyle seyreden otozomal resesif bir hastalıktır.\n- E) Down sendromu, Trizomi 21 kaynaklı mental retardasyon ve karakteristik yüz görünümü ile seyreden kromozomal bir anomalidir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 199,
+    "question": "Sistemik olarak enfeksiyöz hastalıklara yatkınlıkla birlikte şiddetli periodontal harabiyet izlenen Chediak-Higashi sendromuyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Saç ve deride pigmentasyon anomalileri görülebilir.",
+      "B": "Otozomal resesif genetik hastalıktır.",
+      "C": "Nötrofil fonksiyonları bozulmuştur.",
+      "D": "Hastalığın nedeni C1R ve C1S genlerinde defekt olmasıdır.",
+      "E": "Lizozomlarda yapısal sorunlar bulunmaktadır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Kompleman sistemine ait **C1R ve C1S** genlerindeki mutasyonlar Chediak-Higashi sendromunun değil, **Periodontal Ehlers-Danlos sendromunun (Tip VIII EDS)** genetik nedenidir. Chediak-Higashi sendromunun genetik nedeni ise lizozomal trafiği düzenleyen **LYST (CHS1)** genindeki mutasyondur.\n**Çeldiriciler:**\n- A) Melanozomların taşınmasındaki bozukluğa bağlı olarak saç, göz ve deride kısmi okülokütanöz albinizm (gümüşi saç rengi, pigmentasyon azlığı) görülür.\n- B) Chediak-Higashi sendromu nadir görülen, otozomal resesif kalıtılan genetik bir immün yetmezlik sendromudur.\n- C) Lökositlerde mikrotübül düzenlenmesi bozuk olduğu için nötrofil kemotaksisi ve fagolizozom birleşmesi (degranülasyon) bozulmuş, mikrobisidal aktivite gecikmiştir.\n- E) Hücre içi veziküler taşıma bozukluğu nedeniyle nötrofiller ve diğer lökositler içerisinde dev (defektif) lizozomal granüller oluşur.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 200,
+    "question": "I. Otozomal dominanttır\nII. El ve ayaklarda hiperkeratotik deri lezyonları bulunur\nIII. Albinizm görülür\nIV. Şiddetli periodontal harabiyete yol açar\n\nVerilen özelliklerden hangileri Chediak-Higashi hastalığına ait değildir?",
+    "options": {
+      "A": "I-II",
+      "B": "II-III",
+      "C": "II-IV",
+      "D": "I-II-III",
+      "E": "I-II-IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Chediak-Higashi sendromu; melanozom ve lizozom fonksiyon bozukluğu sonucunda kısmi albinizm (III), tekrarlayan piyojenik enfeksiyonlar ve erken yaşta şiddetli periodontal harabiyet (IV) ile seyreden genetik bir hastalıktır. Bu sendrom otozomal dominant değil, **otozomal resesif** geçişlidir (I ait değildir). El ve ayaklarda hiperkeratotik deri lezyonları (palmoplantar hiperkeratoz) ise Chediak-Higashi sendromuna değil, **Papillon-Lefèvre sendromuna** ait bir bulgudur (II ait değildir).\n**Çeldiriciler:**\n- B) III. öncüldeki albinizm Chediak-Higashi sendromunun karakteristik bir özelliğidir.\n- C) IV. öncüldeki şiddetli periodontal harabiyet hastalığın temel oral bulgusudur.\n- D) Hastalığa ait olan III. öncülü (albinizm) içerdiği için yanlıştır.\n- E) Hastalığa ait olan IV. öncülü (şiddetli periodontal yıkım) içerdiği için yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Chediak-Higashi sendromu otozomal dominant değil, otozomal resesif kalıtılır (Hastalığa ait değildir).\n- **II. Öncül:** El ve ayaklarda hiperkeratotik lezyonlar Papillon-Lefèvre sendromunda görülür (Hastalığa ait değildir).\n- **III. Öncül:** Melanin granüllerinin defektif taşınmasına bağlı olarak albinizm görülür (Hastalığa aittir).\n- **IV. Öncül:** Ağır nötrofil kemotaksis ve degranülasyon bozukluğu nedeniyle şiddetli periodontal yıkıma ve erken diş kaybına yol açar (Hastalığa aittir).\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 201,
+    "question": "Aşağıdakilerden hangisi immün bozukluklara ve periodontal harabiyete neden olan genetik hastalıklardan değildir?",
+    "options": {
+      "A": "Metabolik sendrom",
+      "B": "Down sendromu",
+      "C": "Siklik nötropeni",
+      "D": "Papillon-Lefèvre sendromu",
+      "E": "Chediak-Higashi hastalığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Metabolik sendrom; obezite, insülin direnci, dislipidemi ve hipertansiyon gibi durumların bir araya geldiği edinsel ağırlıklı endokrin/metabolik bir tablodur. Doğrudan konjenital immün/nötrofil defekti yaratarak şiddetli periodontal yıkıma yol açan tek gen veya kromozom hastalıkları grubunda yer almaz.\n**Çeldiriciler:**\n- B) Down sendromu (Trizomi 21), PMN kemotaksisi ve fagositozundaki defektler nedeniyle şiddetli periodontal yıkıma yol açan genetik bir hastalıktır.\n- C) Siklik nötropeni, periyodik nötrofil düşüşleri ile karakterize, immün bozukluğa ve erken dönem periodontal harabiyete neden olan genetik bir hastalıktır.\n- D) Papillon-Lefèvre sendromu, katepsin C gen mutasyonu sonucu nötrofil fonksiyon defekti ve şiddetli periodontitis oluşturan otozomal resesif bir hastalıktır.\n- E) Chediak-Higashi sendromu, lizozomal trafik bozukluğu ve kusurlu nötrofil kemotaksisi/degranülasyonu ile karakterize, şiddetli periodontal yıkım yapan otozomal resesif genetik bir hastalıktır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 202,
+    "question": "Konjenital plazminojen eksikliği ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Solunum yolu ve genitoüriner sistem tutulumu gözlenebilir.",
+      "B": "Diş etlerinde yumuşak kıvamlı büyümeler görülebilir.",
+      "C": "Plazma hücreleri sayısında artışa bağlı olarak diş etleri parlak kırmızı renklidir.",
+      "D": "Histopatolojik olarak dokularda fibrin birikimi gözlenir.",
+      "E": "Şiddetli periodontal hastalığa ve diş kaybına neden olabilir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Plazma hücreleri sayısındaki yoğun artışa bağlı olarak diş etlerinin parlak kırmızı, kadifemsi ve kolay kanayan bir görünüm alması konjenital plazminojen eksikliğinin değil, alerjik kökenli bir tablo olan Plazma Hücreli Gingivitisin karakteristik özelliğidir. Konjenital plazminojen eksikliğinde (lignöz gingivitis/periodontitis) ise fibrin yıkımı gerçekleşemediği için diş etlerinde sarı-beyazımsı, kalın, sert ve \"odunsu (lignöz)\" membranöz büyümeler izlenir.\n**Çeldiriciler:**\n- A) Hastalık sadece diş etlerini değil; konjonktiva (lignöz konjonktivit), solunum yolu ve genitoüriner sistem gibi diğer mukozal yüzeyleri de tutabilir.\n- B) Mukozalarda ve diş etlerinde başlangıçta şişlikler, ülserasyonlar ve büyümeler meydana gelebilir.\n- D) Plazminojen fibrinolitik sistemin ana bileşeni olduğundan, eksikliğinde ekstravasküler fibrin birikimi histopatolojik olarak karakteristiktir.\n- E) Lignöz diş eti iltihabı ilerleyerek hızlı ve şiddetli alveoler kemik yıkımına (lignöz periodontitis) ve erken diş kayıplarına yol açabilir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 203,
+    "question": "I. Tip I plazminojen eksikliği olan hastalarda görülür.\nII. Deskuamatif gingivitis tablosuna yol açar.\nIII. Dişetlerinde kalın ve odunsu görünüm vardır.\n\nYukarıda verilenlerden hangisi/hangileri lignöz periodontitis hastalığı için doğrudur?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I-II",
+      "C": "II-III",
+      "D": "I-III",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Lignöz periodontitis, Tip I konjenital plazminojen eksikliği bulunan bireylerde gelişen ve diş etlerinde fibrin birikimine bağlı kalın, odunsu (lignöz) büyümelerle karakterize nadir bir otozomal resesif hastalıktır.\n- **I. Öncül (Doğru):** Fibrinolitik sistemde merkezi rol oynayan plazminojenin Tip I eksikliğinde mukoz membranlarda fibrin birikimi sonucu bu tablo ortaya çıkar.\n- **II. Öncül (Yanlış):** Deskuamatif gingivitis; liken planus, mukoz membran pemfigoidi ve pemfigus vulgaris gibi mukokütanöz hastalıklarda görülen epitel soyulması tablosudur, lignöz periodontitiste ise psödomembranöz odunsu fibrin plakları vardır.\n- **III. Öncül (Doğru):** Yıkılamayan fibrin birikimi diş etlerinde kalın, sert ve odunsu (lignöz) bir klinik görünüme neden olur.\n**Çeldiriciler:**\n- A, B, C) II. öncül deskuamatif lezyonları ifade ettiği için yanlıştır.\n- E) I. öncül de doğru olduğu için eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 204,
+    "question": "Tip I plazminojen eksikliğine bağlı fibrin birikimi nedeniyle dişetlerinde kalın ve odunsu görünüm meydana gelen klinik durum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Herediter gingival fibromatozis",
+      "B": "Periferal ossifiye fibroma",
+      "C": "Plazma hücreli gingivitis",
+      "D": "Lignöz periodontitis",
+      "E": "Pyojenik granülom"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Otozomal resesif geçişli Tip I plazminojen eksikliğinde fibrinoliz mekanizması bozulur. Mukozal dokularda ve diş etinde biriken fibrin ağları nedeniyle diş etinde ülserasyonlar, kalınlaşma ve odunsu (lignöz) bir kıvam oluşur; bu durum alveoler kemik yıkımıyla seyrettiğinde lignöz periodontitis olarak adlandırılır.\n**Çeldiriciler:**\n- A) Herediter gingival fibromatozis, plazminojen eksikliğiyle değil, yoğun kollajen birikimiyle karakterize genetik diş eti büyümesidir.\n- B) Periferal ossifiye fibroma, periodontal ligamentten köken alan ve içerisinde kalsifiye odaklar barındıran reaktif bir diş eti büyümesidir.\n- C) Plazma hücreli gingivitis, alerjenlere karşı gelişen ve bağ dokusunda yoğun plazma hücresi infiltrasyonu gösteren eritematöz bir tablodur.\n- E) Pyojenik granülom, lokal irritasyon veya hormonal değişimlere yanıt olarak gelişen, vaskülaritesi yüksek reaktif bir büyümedir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 205,
+    "question": "Periodontitisin kardiyovasküler hastalık açısından risk oluşturmasında aşağıdakilerden hangisinin rolü yoktur?",
+    "options": {
+      "A": "Bakterilerin trombositler üzerine direkt etkisi",
+      "B": "Bakterilerin endotelyal hücreleri invazyonu",
+      "C": "Proinflamatuvar mediyatörlerin vasküler dokuda endokrin benzeri etki göstermesi",
+      "D": "Otoimmün cevaplar",
+      "E": "Birikmiş glikasyon son ürünlerinin dokularda yüksek seviyede bulunması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Birikmiş ileri glikasyon son ürünlerinin (AGE) dokularda yüksek seviyede bulunması, kronik hiperglisemiye yani diyabete özgü patolojik bir mekanizmadır. Periodontitisin tek başına kardiyovasküler hastalık gelişimine yol açan doğrudan mekanizmalarından biri değildir.\n**Çeldiriciler:**\n- A) *P. gingivalis* ve *S. sanguinis* gibi oral bakteriler yüzeylerindeki PAAP (platelet agregasyonu ilişkili protein) ile trombositleri doğrudan aktive ederek tromboz riskini artırır.\n- B) Periodontal patojenler bakteriyemi yoluyla dolaşıma katılarak koroner endotel hücrelerini doğrudan invaze edebilir ve aterogenezi başlatabilir.\n- C) Periodontal dokularda üretilen IL-1, IL-6, TNF-alfa gibi proinflamatuvar sitokinler sistemik dolaşıma geçerek karaciğerden CRP salınımını uyarır ve vasküler endotelde endokrin benzeri yıkıcı etki gösterir.\n- D) Bakteriyel ısı şok proteinleri (HSP) ile konak endotel hücrelerindeki HSP'ler arasındaki çapraz reaksiyonlar (moleküler taklit) otoimmün yanıtları tetikleyerek damar duvarı hasarına katkıda bulunur.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 206,
+    "question": "\"Periodontal hastalık ve koroner kalp hastalığı (KKH) ve Aterosklerozis\" ilişkisi ile ilgili ifadelerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Akut miyokard enfarktüsü geçirmiş olan veya koroner arter hastalığı olan hastalarda diş sağlığı (periodontitis, periapikal lezyonlar, çürükler, perikoronitis) kontrol bireylerine göre daha kötü olarak tespit edilmiştir.",
+      "B": "Koroner arter hastalıkları ve kronik periodontitis; sigara içme, diyabet ve düşük sosyo-ekonomik durum gibi birçok ortak risk faktörüne sahiptir.",
+      "C": "Bakteriyel enfeksiyonlar; endotelyal hücreler, kanın pıhtılaşması, lipid metabolizması ve monosit/makrofaj sistemi üzerine etkilidirler.",
+      "D": "Sistemik enfeksiyonlar kanama zamanının uzamasını arttırır.",
+      "E": "Oral mikroorganizmalar, koroner trombogeneziste etkili olabilirler."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sistemik ve periodontal enfeksiyonlar kanama zamanını uzatmaz; aksine fibrinojen, CRP ve von Willebrand faktör düzeylerini artırıp trombosit agregasyonunu uyararak hiperkoagülasyona (pıhtılaşma eğilimine) ve kan viskozitesinin artmasına neden olur. Bu durum trombüs formasyonu riskini artırarak majör iskemik kalp hastalığı ve felç gelişimine zemin hazırlar.\n**Çeldiriciler:**\n- A) Epidemiyolojik araştırmalarda akut miyokard enfarktüsü geçiren bireylerin oral ve periodontal sağlık durumlarının sağlıklı kontrollere kıyasla belirgin şekilde daha kötü olduğu saptanmıştır.\n- B) Her iki hastalık da yaş, erkek cinsiyet, sigara kullanımı, diyabet, stres ve düşük sosyoekonomik düzey gibi ortak risk faktörlerini ve determinantlarını paylaşır.\n- C) Gram-negatif bakteriyel LPS ve sitokinler endotel disfonksiyonuna, hiperkoagülasyona, LDL oksidasyonuna ve monosit/makrofaj aktivasyonuna yol açarak aterom plağı gelişimini hızlandırır.\n- E) *S. sanguinis* ve *P. gingivalis* gibi bakteriler trombosit agregasyonunu tetikleyerek koroner trombogeneziste doğrudan rol oynayabilir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 207,
+    "question": "\"Periodontal hastalık - Diyabet ilişkisi\" ile ilgili ifadelerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Zayıf glisemik kontrolü olan diyabet hastalarında periodontal hastalığın artmış prevalansı ve şiddetinin tipik olarak görülmesi, periodontitisin diyabetin 6. komplikasyonu olarak görülmesine yol açmıştır.",
+      "B": "Periodontitisi olan hastalarda, periodontal tedavi glisemik kontrol üzerinde olumlu etki yapar.",
+      "C": "Tetrasiklinler, proteinlerin glikasyonuna engel olarak matriks metalloproteinazları inhibe ederek diyabetin metabolik kontrolüne olumlu etki yapar.",
+      "D": "Periodontitis glisemik kontrolü olumsuz etkiler.",
+      "E": "Mekanik periodontal tedavi glisemik kontrolü tek başına sağlar."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Zayıf glisemik kontrollü ve şiddetli periodontitisi olan hastalarda yalnızca mekanik periodontal tedavi (diş taşı temizliği ve kök yüzeyi düzleştirmesi) glisemik kontrolü tek başına sağlamada yeterli olmaz; mekanik temizlikten arta kalan bakterileri elimine etmek ve antienzim/antiglikasyon etkilerinden faydalanmak için tedaviye ek olarak sistemik antibiyotik (özellikle doksisiklin) kullanımı önerilmektedir.\n**Çeldiriciler:**\n- A) Kontrolsüz diyabette periodontal yıkımın sıklığı ve şiddeti o kadar belirgindir ki periodontitis diyabetin 6. majör komplikasyonu olarak kabul edilmiştir.\n- B) Diyabet ve periodontitis arasındaki ilişki çift yönlüdür; başarılı periodontal tedavi inflamatuvar yükü azaltarak HbA1c değerlerinde düşüş ve glisemik kontrolde iyileşme sağlar.\n- C) Tetrasiklinler (ve doksisiklin) hem MMP'leri inhibe eder hem de proteinlerin non-enzimatik glikasyonunu engelleyerek metabolik kontrole katkı sunar.\n- D) Periodontitis kaynaklı sistemik TNF-alfa ve IL-6 artışı, insülin reseptör fosforilasyonunu bozarak insülin direncini artırır ve glisemik kontrolü zorlaştırır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 208,
+    "question": "Periodontitis, aşağıdaki durumlardan hangisi için risk faktörü değildir?",
+    "options": {
+      "A": "Kardiyovasküler hastalıklar",
+      "B": "Kronik obstrüktif akciğer hastalığı",
+      "C": "Dermatozlar",
+      "D": "Diyabet",
+      "E": "Düşük doğum ağırlığı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dermatozlar (liken planus, pemfigus, pemfigoid vb.) ağız içerisinde deskuamatif gingivitis benzeri lezyonlar oluşturabilir; ancak periodontitisin kendisi dermatolojik hastalıkların gelişimi için tanımlanmış bir risk faktörü değildir.\n**Çeldiriciler:**\n- A) Periodontitis; bakteriyemi ve sistemik inflamasyon yoluyla ateroskleroz, miyokard enfarktüsü ve felç gibi kardiyovasküler hastalıklar için risk oluşturur.\n- B) Oral patojenlerin alt solunum yollarına aspirasyonu ve mukozal savunmanın bozulması nedeniyle periodontitis, KOAH alevlenmeleri ve bakteriyel pnömoni için risk faktörüdür.\n- D) Periodontitis kaynaklı sistemik proinflamatuvar sitokinler insülin direncini artırarak diyabetin metabolik kontrolünü bozar ve tip 2 diyabet gelişim riskini artırır.\n- E) Periodontal cepteki Gram-negatif bakterilerin ürünlerinin (LPS) ve PGE2, IL-1beta, TNF-alfa gibi mediyatörlerin plasentaya ulaşması erken doğum ve düşük doğum ağırlıklı bebek riskini artırır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 209,
+    "question": "I. Diyabet\nII. Dermatoz\nIII. KOAH\nIV. Bakteriyel vaginozis\nV. Bacillary angiomatozis\n\nPeriodontitis, aşağıdaki durumlardan hangisi için risk faktörüdür?",
+    "options": {
+      "A": "I-II-III",
+      "B": "I-III-IV",
+      "C": "II-III-IV",
+      "D": "II-III-V",
+      "E": "III-IV-V"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Periodontitis; diyabet, solunum sistemi hastalıkları (KOAH) ve üreme sistemiyle ilişkili olumsuz gebelik sonuçları/enfeksiyonları için risk oluşturur.\n- **I. Öncül (Doğru):** Periodontitis, sistemik inflamatuvar mediyatörler aracılığıyla insülin direncini artırarak diyabet için risk faktörü oluşturur.\n- **II. Öncül (Yanlış):** Dermatozlar mukokütanöz hastalıklardır; periodontitis dermatoz gelişimi için bir risk faktörü değildir.\n- **III. Öncül (Doğru):** Periodontal patojenlerin aspirasyonu kronik obstrüktif akciğer hastalığı (KOAH) ve pnömoni için risk faktörüdür.\n- **IV. Öncül (Doğru):** Bakteriyel vaginozis ve buna bağlı amniyon sıvısı enfeksiyonları (erken doğum/düşük doğum ağırlığı) *F. nucleatum* gibi periodontal patojenlerle ve periodontitisle ilişkilidir.\n- **V. Öncül (Yanlış):** Basiller anjiyomatozis, HIV pozitif bireylerde *Bartonella henselae* enfeksiyonuna bağlı gelişen vasküler proliferatif bir lezyondur; periodontitis bu durum için bir risk faktörü değildir.\n**Çeldiriciler:**\n- A, C, D, E) Dermatoz (II) ve basiller anjiyomatozis (V) periodontitisin risk faktörü olduğu sistemik tablolar arasında yer almaz.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 210,
+    "question": "Dental plakta bulunan aşağıdaki bakterilerden hangisi trombosit agregasyonu ile ilişkili protein (PAAP) eksprese eder?",
+    "options": {
+      "A": "P. gingivalis",
+      "B": "A. actinomycetemcomitans",
+      "C": "P. intermedia",
+      "D": "Spiroketler",
+      "E": "Candida"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Supragingival plağın erken kolonizörlerinden olan *Streptococcus sanguinis* ve subgingival plağın önemli kırmızı kompleks patojeni olan *Porphyromonas gingivalis*, hücre yüzeylerinde trombosit agregasyonu ile ilişkili protein (PAAP) eksprese eder. Bu bakteriler bakteriyemi sırasında dolaşımdaki trombositlere seçici olarak bağlanarak akut tromboembolik olayları ve koroner trombogenezisi tetikleyebilir.\n**Çeldiriciler:**\n- B) *A. actinomycetemcomitans* lökotoksin ve endotoksin gibi virülans faktörlerine sahiptir ancak PAAP eksprese etmez.\n- C) *P. intermedia* turuncu kompleks bakterisidir, PAAP ekspresyonu ile karakterize değildir.\n- D) Spiroketler (*T. denticola*) doku invazyonu ve proteolitik enzimlerle etkinlik gösterir, PAAP taşımazlar.\n- E) *Candida* türleri fungal fırsatçı patojenlerdir, bakteriyel bir yüzey proteini olan PAAP bulundurmazlar.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 211,
+    "question": "Aşağıdaki hücrelerden hangisinin hiperinflamatuvar tipi, periodontal ve kardiyovasküler hastalıklar için risk olan proinflamatuvar sitokinleriเชsalgıladığı düşünülmektedir?",
+    "options": {
+      "A": "Keratinosit",
+      "B": "Mast hücresi",
+      "C": "Monosit/Makrofaj",
+      "D": "T hücresi",
+      "E": "Fibroblastlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Bazı bireylerde genetik veya çevresel (yüksek serum LDL düzeyi, diyabet vb.) faktörlere bağlı olarak hiperinflamatuvar monosit/makrofaj fenotipi ($M\\Phi^+$) bulunur. Bu hücreler bakteriyel lipopolisakkarit (LPS) uyarısına karşı normal bireylere kıyasla aşırı miktarda IL-1beta, TNF-alfa ve PGE2 salgılar. Bu ortak patogenetik mekanizma hem şiddetli periodontal yıkıma hem de ateromatöz plak oluşumu ile kardiyovasküler hastalıklara yatkınlık yaratır.\n**Çeldiriciler:**\n- A) Keratinositler epitel bariyerini oluşturur ve sitokin üretebilirler ancak sistemik kardiyovasküler ve periodontal ortak hiperinflamatuvar fenotipin ana hücresi değillerdir.\n- B) Mast hücreleri histamin ve vazoaktif aminler salgılayarak erken vasküler yanıtta ve alerjide rol oynar.\n- D) T hücreleri hücresel adaptif immün yanıtı düzenler; LPS'ye yanıt olarak aşırı proinflamatuvar mediyatör salgılayan $M\\Phi^+$ fenotipini temsil etmez.\n- E) Fibroblastlar bağ dokusunun ana matriks sentezleyen hücresidir; inflamasyonda MMP üretseler de bahsedilen hiperinflamatuvar fagositik fenotip monosit/makrofajlara aittir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 212,
+    "question": "Aşağıdaki hücrelerden hangisi, agresif periodontitis ve tip 1 diyabeti olan hastalarda hiperinflamatuvar fenotipe sahiptir?",
+    "options": {
+      "A": "Keratinosit",
+      "B": "Mast hücresi",
+      "C": "Monosit/Makrofaj",
+      "D": "T hücresi",
+      "E": "Fibroblastlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Agresif periodontitisli ve Tip 1 diyabetli bireylerde hiperinflamatuvar monosit/makrofaj fenotipi ($M\\Phi^+$) saptanmıştır. Bu fenotipe sahip monosit ve makrofajlar, endotoksin (LPS) ile karşılaştıklarında normalden katbekat fazla IL-1, TNF-alfa ve PGE2 gibi yıkıcı mediyatörler salgılayarak hızlı doku ve kemik yıkımına yol açarlar.\n**Çeldiriciler:**\n- A) Keratinositler gingival epitelin temel hücresidir, $M\\Phi^+$ fenotipi göstermez.\n- B) Mast hücreleri bağ dokusunda bulunan granüllü savunma hücreleridir, bu spesifik hiperinflamatuvar fenotiple tanımlanmazlar.\n- D) T lenfositler spesifik immünitede görev alır, LPS kaynaklı monositik hiper-yanıtın ana hücresi değildir.\n- E) Fibroblastlar bağ dokusu liflerini ve ara maddesini sentezleyen hücrelerdir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 213,
+    "question": "Glikolizasyon son ürünlerindeki artış (AGE) periodontitis ile ilişkili olarak aşağıdaki durumlardan hangisine sebep olmaz?",
+    "options": {
+      "A": "Floranın patojeniteye kaymasını sağlar",
+      "B": "Kollajen metabolizmasını bozar",
+      "C": "Oksijen ürünleri ve pro-inflamatuvar sitokinlerin salgısını arttırır",
+      "D": "Fibroblast ve osteoblastların apoptozuna neden olur",
+      "E": "İnflamatuvar hücrelerin adezyonunu ve migrasyonunu arttırır"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** İleri glikasyon son ürünleri (AGE), kronik hiperglisemide protein ve lipidlerin non-enzimatik glikozilasyonu sonucu dokularda biriken moleküllerdir. AGE'ler konak dokularını, hücrelerini ve immün yanıtı doğrudan etkiler; ancak subgingival mikrobiyal floranın patojeniteye kaymasına doğrudan sebep olmaz. Diyabetlilerde plak miktarı veya bakteriyel profil sağlıklı bireylerle benzer olsa dahi, konak yanıtındaki bozulma (AGE-RAGE etkileşimi) yıkımı şiddetlendirir.\n**Çeldiriciler:**\n- B) AGE'ler kollajen lifleri arasında anormal çapraz bağlar oluşturarak kollajenin çözünürlüğünü azaltır ve doku tamirini/metabolizmasını bozar.\n- C) Monosit ve makrofajlar üzerindeki RAGE reseptörlerine bağlanan AGE'ler, reaktif oksijen türlerinin (ROS) ve proinflamatuvar sitokinlerin (IL-1, TNF-alfa) salınımını artırır.\n- D) AGE birikimi, doku tamirinden sorumlu olan fibroblastların ve kemik yapımından sorumlu osteoblastların apoptozunu (programlı hücre ölümünü) tetikler.\n- E) Endotel hücrelerinde adezyon moleküllerinin ekspresyonunu artırarak inflamatuvar hücrelerin periodontal dokulara adezyonunu ve göçünü artırır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 214,
+    "question": "Aşağıdakilerden hangisi dişeti oluğundaki konak savunma mekanizmalarından değildir?",
+    "options": {
+      "A": "Keratinizasyon",
+      "B": "Yüksek düzeyde doku \"Turn overı\"",
+      "C": "Nötrofil migrasyonu",
+      "D": "Dişeti oluğu sıvısı akışı",
+      "E": "Sağlıkta epiteliyal ataçman"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dişeti oluğunu (gingival sulkus) döşeyen sulkuler epitel ve oluğun tabanını oluşturan birleşim epiteli, histolojik olarak non-keratinize çok katlı yassı epitel yapısındadır. Bu bölgede keratinizasyon bulunmadığı için, keratinizasyon dişeti oluğundaki savunma mekanizmalarından biri olamaz.\n**Çeldiriciler:**\n- B) Sulkuler epitel ve özellikle birleşim epitelinin çok yüksek düzeyde yenilenme hızına (turn-over) sahip olması, bakterilerin tutunduğu yüzeyel hücrelerin sürekli dökülmesini (deskuamasyon) sağlayarak güçlü bir savunma oluşturur.\n- C) Birleşim epitelinin geniş hücreler arası boşluklarından sulkusa sürekli göç eden nötrofiller (PMN), bakterileri fagosite ederek ilk savunma hattını kurar.\n- D) Dişeti oluğu sıvısı (DOS), sulkusu mekanik olarak yıkayarak bakterileri uzaklaştırır ve içerdiği antikorlar, kompleman ve antimikrobiyal peptitlerle savunmaya katılır.\n- E) Sağlıklı ve bütünlüğü bozulmamış bir epitelyal ataçman, mikroorganizmaların bağ dokusuna geçişini engelleyen fiziksel bir bariyerdir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 215,
+    "question": "I. Turn-over\nII. Nötrofil migrasyonu\nIII. DOS akışı\nIV. Sağlıklı epitelyal ataçman\n\nYukarıdakilerden hangisi ya da hangileri dişeti oluğundaki konak savunma mekanizmalarındandır?",
+    "options": {
+      "A": "II-IV",
+      "B": "II-III",
+      "C": "II-III-IV",
+      "D": "I-III-IV",
+      "E": "I-II-III-IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dişeti oluğu (gingival sulkus) bölgesinde mikrobiyal saldırılara karşı konağı koruyan mekanizmalar arasında hızlı epitel yenilenmesi, lökosit göçü, oluk sıvısı akışı ve sağlam epitelyal bariyerin tamamı yer alır.\n- **I. Öncül (Doğru):** Yüksek epitel turn-over hızı ve deskuamasyon bakteriyel kolonizasyonu sınırlar.\n- **II. Öncül (Doğru):** Birleşim epitelinden oluğa göç eden nötrofiller fagositoz yoluyla savunma sağlar.\n- **III. Öncül (Doğru):** DOS akışı hem mekanik yıkama yapar hem de immünglobulinler içerir.\n- **IV. Öncül (Doğru):** Sağlıklı epitelyal ataçman subgingival alana bakteri invazyonunu önleyen fiziksel bariyerdir.\n**Çeldiriciler:**\n- A, B, C, D) Verilen dört mekanizmanın tamamı dişeti oluğu savunmasında aktif rol oynadığı için diğer seçenekler eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 216,
+    "question": "Dişeti oluğu sıvısına (DOS) ait özelliklerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bazal membrandan birleşim epiteline, oradan da sulkusa sızan bir sıvıdır",
+      "B": "Sıvı sağlıkta çok az miktardadır ve transuda niteliğindedir, iltihapla artar ve eksuda niteliği kazanır",
+      "C": "Dişeti oluğu sıvısı içeriğinde bağ dokusu, epitel, iltihabi hücreler, serum ve mikrobiyal flora bileşenleri bulunur",
+      "D": "DOS mekanik yıkama etkisi ile sulkustan materyal temizler",
+      "E": "DOS antimikrobiyal özelliklere sahiptir, antikor aktivitesi göstermez"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dişeti oluğu sıvısı (DOS) hem doğal antimikrobiyal özelliklere sahiptir hem de yoğun bir spesifik antikor (özellikle IgG, ayrıca IgA ve IgM) aktivitesi gösterir. Serum kaynaklı bir sıvı olduğu için plazma hücreleri tarafından üretilen immünglobulinleri sulkusa taşıyarak dişeti savunmasında aktif humoral bağışıklık sağlar.\n**Çeldiriciler:**\n- A) DOS, bağ dokusu damar pleksusundan sızarak bazal membranı ve birleşim epitelini geçip dişeti oluğuna ulaşır.\n- B) Sağlıklı dişetinde fizyolojik bir transuda olarak çok az miktarda bulunurken, inflamasyon varlığında vasküler permeabilite artışıyla miktarı artar ve inflamatuvar eksudaya dönüşür.\n- C) İçeriğinde deskuame epitel hücreleri, lökositler (PMN, lenfosit, monosit), serum proteinleri, elektrolitler ve bakteriyel ürünler yer alır.\n- D) Oluğun içerisinden ağız boşluğuna doğru olan dışa akış yönü sayesinde sulkustaki bakterileri ve yabancı maddeleri mekanik olarak yıkar.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 217,
+    "question": "Diş eti cep sıvısı ile ilgili olarak aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Periodontal cerrahi sonrası iyileşme periyodunda üretimi azalır.",
+      "B": "Sağlıklı diş etinde cep sıvısı çok az miktarda bulunur ya da hiç yoktur.",
+      "C": "Hamilelik, ovulasyon ve doğum kontrol hapları kullanıldığında cep sıvısı akışı azalır.",
+      "D": "İçeriğinde epitel, lökosit ve lenfosit gibi hücresel elemanlar bulunmaz.",
+      "E": "İçeriğinde spesifik antikor ve antijenler bulunmaz."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Tamamen sağlıklı bir diş etinde dişeti oluğu sıvısı (DOS) transuda karakterinde olup çok az miktarda bulunur veya klinik olarak ölçülemeyecek düzeydedir. İnflamasyonun başlamasıyla birlikte miktarı belirgin şekilde artar.\n**Çeldiriciler:**\n- A) Periodontal cerrahi sonrası iyileşme periyodunda doku rejenerasyonu ve artmış vaskülarite nedeniyle DOS üretiminde belirgin bir artış oluşur.\n- C) Hamilelik, ovulasyon ve oral kontraseptif kullanımı gibi kadın seks hormonlarının (östrojen, progesteron) arttığı durumlarda vasküler permeabilite arttığı için DOS akışı azalmaz, aksine artar.\n- D) DOS hücresel elemanlardan zengindir; deskuame epitel hücreleri, PMN'ler, lenfositler ve monositler içerir.\n- E) DOS içeriğinde konak savunmasına ait spesifik antikorlar (IgG, IgA, IgM) ve bakteriyel antijenler bulunur.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 218,
+    "question": "I. Periodontal cerrahi\nII. Diş fırçalamak\nIII. Oklüzal travma\n\nYukarıda verilenlerden hangi ya da hangileri DOS sıvısında artışa sebep olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Dişeti oluğu sıvısı (DOS) akış miktarı vasküler permeabiliteyi ve kan akışını etkileyen lokal ve sistemik faktörlerle artış gösterir; ancak oklüzal travma dişeti marjininde inflamasyon oluşturmadığı için DOS miktarını etkilemez.\n- **I. Öncül (Doğru):** Periodontal cerrahi sonrası iyileşme döneminde artan vasküler aktiviteye bağlı olarak DOS miktarında belirgin artış olur.\n- **II. Öncül (Doğru):** Diş fırçalama, çiğneme ve dişeti masajı gibi mekanik stimülasyonlar damar geçirgenliğini geçici olarak artırarak DOS akışını artırır.\n- **III. Öncül (Yanlış):** Oklüzal travma supracrestal bağ dokusunu ve birleşim epitelini etkilemez; lezyon periodontal ligament ve alveol kemiği düzeyindedir, bu nedenle DOS akışını artırmaz.\n**Çeldiriciler:**\n- A) Diş fırçalama da mekanik stimülasyonla DOS'u artırdığı için eksiktir.\n- C, D, E) Oklüzal travma (III) DOS artışına neden olmaz.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 219,
+    "question": "I. Sodyum\nII. Potasyum\nIII. Çinko\nIV. Kalsiyum\nV. Demir\n\nDiş eti cep sıvısı başlıca elektrolitleri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I-II-III",
+      "B": "I-II-IV",
+      "C": "II-III-IV",
+      "D": "II-III-V",
+      "E": "III-IV-V"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Dişeti oluğu sıvısı (DOS) içerisinde büyük oranda bulunan başlıca ana elektrolitler sodyum, potasyum ve kalsiyumdur.\n- **I. Öncül (Doğru):** Sodyum ($Na^+$), DOS'taki en temel ekstraselüler katyonlardan biridir.\n- **II. Öncül (Doğru):** Potasyum ($K^+$), özellikle doku yıkımı ve hücre lizisi ile miktarı artan ana elektrolitlerdendir.\n- **III. Öncül (Yanlış):** Çinko, DOS'un ana elektrolitlerinden biri değildir.\n- **IV. Öncül (Doğru):** Kalsiyum ($Ca^{2+}$), DOS'ta yüksek oranda bulunan ve supragingival/subgingival diş taşı mineralizasyonunda da rol oynayan ana elektrolittir.\n- **V. Öncül (Yanlış):** Demir, DOS'un başlıca elektrolitleri arasında yer almaz.\n**Çeldiriciler:**\n- A, C, D, E) Çinko (III) ve demir (V) eser element niteliğinde olup DOS'un başlıca elektrolit grubunu oluşturmaz.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 220,
+    "question": "Diş eti oluğu sıvısı (DOS) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Artmış oklüzal kuvvetler varlığında DOS artar.",
+      "B": "Diş fırçalama DOS üretimini artırır.",
+      "C": "Kadın cinsiyet hormonları DOS akışını artırır.",
+      "D": "DOS miktarı inflamasyon varlığında daha fazladır.",
+      "E": "Periodontal cerrahi sonrası iyileşme periyodu sırasında DOS üretimi artar."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Artmış oklüzal kuvvetler (oklüzal travma) periodontal ligament ve alveoler kemikte adaptif veya patolojik değişimler yaratır; ancak dişeti oluğu ve birleşim epiteli bölgesindeki vasküler pleksusta inflamasyon başlatmadığı için DOS miktarında artışa neden olmaz.\n**Çeldiriciler:**\n- B) Diş fırçalama ve sert gıdaların çiğnenmesi gibi mekanik stimülasyonlar gingival mikrosirkülasyonu uyararak DOS üretimini artırır.\n- C) Östrojen ve progesteron gibi kadın cinsiyet hormonları damar geçirgenliğini artırarak hamilelik, ovulasyon ve oral kontraseptif kullanımında DOS akışını artırır.\n- D) Gingival inflamasyonun şiddeti arttıkça vasküler permeabilite artar ve DOS miktarı yükselir.\n- E) Periodontal cerrahiyi takip eden iyileşme haftalarında artmış anjiyogenez ve doku tamiri nedeniyle DOS üretimi artar.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 221,
+    "question": "DOS örneklerinin alınmasında ve değerlendirilmesinde aşağıdakilerden hangisi kullanılmaz?",
+    "options": {
+      "A": "Periotron",
+      "B": "Ninhidrin",
+      "C": "Mikropipet",
+      "D": "Periotest",
+      "E": "Paper strip"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Periotest, dişeti oluğu sıvısını (DOS) toplamak veya ölçmek için değil, dişin veya dental implantın üzerine elektronik olarak kontrol edilen bir uçla perküsyon uygulayarak frekans/zaman analizi üzerinden mobiliteyi ve osseointegrasyonu ölçmek için kullanılan biyomekanik bir cihazdır.\n**Çeldiriciler:**\n- A) Periotron, filtre kağıdı şeritlerine (paper strip) emdirilen DOS'un hacmini elektronik kapasitans yöntemiyle hassas bir şekilde ölçen cihazdır.\n- B) Ninhidrin, filtre kağıdına toplanan DOS'un içerdiği aminoasitleri mavi/mor renge boyayarak sıvının yayıldığı alanın planimetrik olarak ölçülmesini sağlayan kimyasal bir ajandır.\n- C) Mikropipetler (kapiller tüpler), oluk içerisine yerleştirilerek kapiller çekim gücüyle saf DOS örneği toplamak için kullanılır.\n- E) Paper strip (filtre kağıdı şeritleri), sulkus ağzına veya içerisine yerleştirilerek DOS emdirilmesinde en yaygın kullanılan toplama aracıdır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 222,
+    "question": "I. PgE2\nII. Lipoksin\nIII. IL-1\n\nDüşük doğum ağırlıklı bebeği olan bir annenin, DOS'taki değerlerinden hangilerinin yüksek olması daha ihtimallidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Periodontal hastalık varlığında artan ve sistemik dolaşımla plasentaya geçerek uterus kontraksiyonlarını tetikleyen, böylece erken doğum ve düşük doğum ağırlıklı bebek (PLBW) riskini artıran başlıca mediyatörler proinflamatuvar sitokinler (IL-1, IL-6, TNF-alfa) ve prostaglandinlerdir (PGE2).\n- **I. Öncül (Doğru):** PGE2 hem periodontal kemik yıkımında hem de doğum eyleminin (servikal olgunlaşma ve uterus kasılması) başlamasında rol oynayan anahtar mediyatördür; DOS ve amniyon sıvısında yüksek bulunur.\n- **II. Öncül (Yanlış):** Lipoksinler proinflamatuvar değil, inflamasyonun çözülmesini (rezolüsyonunu) sağlayan antiinflamatuvar/pro-rezolüsyon lipid mediyatörleridir; yıkıcı patolojilerde azalmaları beklenir.\n- **III. Öncül (Doğru):** IL-1 (özellikle IL-1beta), periodontal patolojilerde DOS'ta yoğunluğu artan ve plasental bariyeri etkileyerek erken doğumu tetikleyen temel proinflamatuvar sitokindir.\n**Çeldiriciler:**\n- A) IL-1 de yüksek olacağı için eksiktir.\n- B, D, E) Lipoksin (II) inflamasyonu baskılayan koruyucu bir mediyatördür.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 223,
+    "question": "DOS ile serum hakkında aşağıdaki karşılaştırmalardan hangisi yanlıştır?",
+    "options": {
+      "A": "Glukoz seviyeleri serumdan 2-3 kat yüksektir.",
+      "B": "Protein içeriği seruma göre çok daha düşüktür.",
+      "C": "Gingival inflamasyon ile protein içeriği arasında anlamlı ilişki yoktur.",
+      "D": "Kan glukoz seviyeleri ile DOS arasında korelasyon vardır.",
+      "E": "DOS'ta T/B lenfosit oranı 1/3 kanda ise tersidir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Kan glukoz seviyeleri ile dişeti oluğu sıvısı (DOS) glukoz seviyeleri arasında doğrudan bir korelasyon bulunmaz. DOS içerisindeki glukoz konsantrasyonu kan serumundakinden 3-4 kat daha fazladır; çünkü bu glukoz sadece serumdan sızan miktarı değil, aynı zamanda cebe komşu dokuların lokal metabolik aktivitesini ve subgingival mikrobiyal floranın fonksiyonlarını da yansıtır.\n**Çeldiriciler:**\n- A) Lokal doku ve bakteri metabolizmasının etkisiyle DOS glukoz düzeyi serumun yaklaşık 3-4 katı (2-3 katından fazla) düzeyindedir.\n- B) Sağlıklı veya inflamasyonlu DOS'un toplam protein konsantrasyonu kan serumuna göre daha düşüktür.\n- C) DOS sıvısının toplam protein seviyesi ile gingivitisin şiddeti, cep derinliği veya kemik kaybı arasında anlamlı bir korelasyon saptanmamıştır.\n- E) Periferik kanda T lenfositlerin B lenfositlere oranı yaklaşık 3:1 iken, periodontal cep ve DOS içerisinde plazma/B hücresi baskınlığı nedeniyle T/B lenfosit oranı yaklaşık 1:3'tür.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 224,
+    "question": "Aşağıdakilerden hangisi dişeti oluğu sıvısı miktarını artırmaz?",
+    "options": {
+      "A": "Diş fırçalama",
+      "B": "Dişeti masajı",
+      "C": "Ovulasyon",
+      "D": "Hormonal kontraseptifler",
+      "E": "Okluzal travma"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Oklüzal travma, dişeti kenarında veya sulkuler epitel altında vasküler bir inflamasyon yaratmadığı için dişeti oluğu sıvısı (DOS) yapımını ve akış miktarını artırmaz.\n**Çeldiriciler:**\n- A) Basınçlı diş fırçalama mekanik stimülasyon yaratarak DOS akışını artırır.\n- B) Dişeti masajı mikrosirkülasyonu ve endotel geçirgenliğini uyararak DOS miktarını artırır.\n- C) Ovulasyon döneminde artan kadın seks hormonları vasküler permeabiliteyi yükselterek DOS üretimini artırır.\n- D) Hormonal kontraseptiflerin kullanımı östrojen/progesteron etkisiyle damar geçirgenliğini ve DOS akışını artırır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 251,
+    "question": "Sistemik olarak sağlıklı 12 yaşındaki kız hasta, diş etlerinde kanama ve büyüme şikâyetleriyle getiriliyor. Diş etinin özellikle bukkal yüzeylerde yaygın olarak ödemli, kırmızı, sondlamada kanamalı olduğu izleniyor ve interproksimal alanlarda diş eti büyümeleri saptanıyor. Ağrı şikâyeti olmayan hastada 3-5 mm arasında cep derinlikleri tespit ediliyor. Radyografisinde kemik kaybı olmadığı görülüyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Herediter gingival fibromatozis",
+      "B": "Puberteye bağlı diş eti büyümesi",
+      "C": "Fenitoine bağlı diş eti büyümesi",
+      "D": "Wegener granülomatozu",
+      "E": "Akut periodontal apse"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** 12 yaşındaki (puberte dönemindeki) bir hastada sistemik hastalık veya ilaç kullanımı olmaksızın, özellikle fasiyal/bukkal yüzeylerde ve interproksimal alanlarda belirgin, ödemli, kırmızı, kanamalı bulböz papil büyümelerinin ve kemik kaybı olmaksızın 3-5 mm psödoceplerin görülmesi, puberteye bağlı diş eti büyümesi (puberte gingivitisi) için tipiktir. Bu dönemde artan seks hormonları mevcut plağa karşı konak cevabını şiddetlendirir.\n**Çeldiriciler:**\n- A) Herediter gingival fibromatoziste diş etleri ödemli ve kırmızı değil; sert, fibrotik, soluk pembe renklidir ve hem bukkal hem lingual/palatinal yüzeyleri diffüz olarak tutar.\n- C) Hastanın sistemik olarak sağlıklı olduğu (epilepsi ve ilaç kullanım öyküsü olmadığı) belirtilmiştir.\n- D) Wegener granülomatozunda sistemik vaskülit bulguları, \"çilek dişeti\" görünümü ve hızlı alveoler kemik yıkımı/diş mobilitesi görülür.\n- E) Akut periodontal apse tek bir bölgede lokalize, şiddetli ağrılı, pürülan akıntılı ve kemik yıkımıyla ilişkili akut bir lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 254,
+    "question": "Sistemik olarak sağlıklı 25 yaşındaki kadın hasta, diş etinde aniden gelişen ağrılı bir şişlik nedeniyle başvuruyor. Hastanın ağız içi muayenesinde; maksiller sağ lateral dişin bukkalinde diş etiyle sınırlı, yumuşak ve yüzeyi parlak olan kırmızı bir şişlik gözleniyor. Lezyona dokunulduğunda içindeki iltihabi sıvı kendiliğinden boşalıyor. Cep derinliği 3 mm olarak ölçülüyor ve radyografik değerlendirmede, interdental kemik kaybı olmadığı görülüyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Periodontal apse",
+      "B": "Perikoronal apse",
+      "C": "Gingival apse",
+      "D": "İlaca bağlı diş eti büyümesi",
+      "E": "İdiyopatik gingival fibromatozis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Daha önceden periodontal cep veya kemik kaybı bulunmayan sağlıklı bir bölgede (cep derinliği 3 mm, radyografik kemik kaybı yok), genellikle diş fırçası kılı veya sert gıda parçacığı gibi yabancı bir cismin dişetine batması sonucu marjinal veya papiller dişeti ile sınırlı olarak aniden gelişen, ağrılı, parlak kırmızı ve pürülan sıvı içeren lokalize şişlik gingival apsedir.\n**Çeldiriciler:**\n- A) Periodontal apse derin bir periodontal cep, furkasyon tutulumu ve radyografik alveoler kemik yıkımı bulunan dişlerde gelişir.\n- B) Perikoronal apse tam sürememiş veya yarı gömülü dişlerin (özellikle alt 3. molarların) kuronunu örten operkulum dokusunda meydana gelir.\n- D) İlaca bağlı diş eti büyümesi kronik, ağrısız, fibrotik ve yaygın bir büyümedir; pürülan sıvı içermez.\n- E) İdiyopatik gingival fibromatozis yavaş gelişen, ağrısız, sert ve diffüz bir diş eti büyümesidir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 255,
+    "question": "I. Dişeti ile sınırlı lokalize şişliktir.\nII. Kızarık ve parlak yüzeyli lezyon.\nIII. 24-48 saat içerisinde spontan olarak rüptüre olabilir.\nIV. Alveoler kemik kaybı görülmez.\n\nYukarıda özellikleri verilen lezyon için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lateral apse",
+      "B": "Perikoronal apse",
+      "C": "Gingival apse",
+      "D": "İlaca bağlı dişeti büyümesi",
+      "E": "İdiopatik dişeti büyümesi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sadece marjinal veya interdental dişeti ile sınırlı olan, alveoler kemik kaybı veya önceden var olan periodontal cep bulundurmayan, yabancı cisim batmasıyla akut gelişen ve 24-48 saatte fluktuasyon verip kendiliğinden drene (rüptüre) olabilen lezyon gingival apsedir.\n- **I. Öncül (Doğru):** Derin destek dokuları tutmaz, marjinal/papiller dişeti ile sınırlıdır.\n- **II. Öncül (Doğru):** Akut ödem ve vaskülarite nedeniyle kızarık, gergin ve parlak yüzeylidir.\n- **III. Öncül (Doğru):** Genellikle 24-48 saat içinde fluktan hale gelip bir noktadan kendiliğinden yırtılarak boşalır.\n- **IV. Öncül (Doğru):** Sağlıklı periodonsiyumda yabancı cisim reaksiyonu olarak geliştiği için radyografik kemik kaybı görülmez.\n**Çeldiriciler:**\n- A) Lateral (periodontal) apse mevcut bir periodontal cebin derinliklerinde gelişir ve alveoler kemik kaybı ile karakterizedir.\n- B) Perikoronal apse yarı gömülü dişlerin etrafındaki perikoronal dokuda oluşur.\n- D, E) İlaca bağlı ve idiyopatik büyümeler pürülan olmayan, kronik ve rüptüre olmayan hiperplastik dokulardır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 256,
+    "question": "Periodontal apse nedenlerinden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Endodontik tedavi sırasında kök perforasyonları",
+      "B": "İnflamasyonun periodontal cebin iç yüzeyinden bağ dokusuna doğru yayılması ve drenajın bozulması",
+      "C": "Cep ağzının büzülmesi drenajın sağlanamaması",
+      "D": "Zayıf diyabetik kontrol",
+      "E": "Diş çürükleri"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Diş çürükleri ilerlediğinde pulpa nekrozuna ve kök ucunda periapikal (pulpal) apse oluşumuna neden olur; doğrudan periodontal apse etiyolojisinde yer almaz.\n**Çeldiriciler:**\n- A) Kanal tedavisi veya post hazırlığı sırasında kökün lateral duvarında oluşan perforasyonlar periodontal ligamente enfeksiyon yayarak periodontal apse oluşturabilir.\n- B) Derin ve dolambaçlı periodontal ceplerde inflamasyonun bağ dokusuna yayılması ve cep ağzından drenajın tıkanması en klasik periodontal apse nedenidir.\n- C) Tam olmayan diş taşı temizliği (yalnızca koronal diş taşlarının alınıp apikalde taş bırakılması) sonrası koronal dişetinin iyileşip büzülmesi, apikaldeki enfeksiyonun drenajını engelleyerek apseye yol açar.\n- D) Kontrolsüz diyabet, nötrofil fonksiyonlarını bozarak hastayı sık ve çoklu periodontal apse oluşumuna yatkın hale getirir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 284,
+    "question": "Otuz yaşında, sistemik lupus eritematosus teşhisi konmuş bir bayan hasta, dişetlerinde yanma, dokunmada ağrı şikayetleri ile kliniğe başvuruyor. Klinik muayenede alt ve üst anterior bölgelerde dişeti kenarından alveoler mukozaya kadar uzanan yaygın kırmızılık ve palpasyonda aşırı hassasiyet tespit edilirken pseudomembran oluşumu gözlenmiyor. Ataçman kaybı ve radyolojik kemik kaybı yok.\n\nBu hasta için olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "ANUG",
+      "B": "NUP",
+      "C": "Kimyasal yaralanma",
+      "D": "Deskuamatif gingivitis",
+      "E": "Gingival apse"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sistemik lupus eritematosus (SLE) gibi otoimmün bir mukokütanöz hastalığa sahip kadın hastada; dişeti kenarından başlayıp tüm yapışık dişetini içine alarak alveoler mukozaya kadar uzanan diffüz, parlak kırmızılık (eritem), yanma hissi ve palpasyonda aşırı hassasiyet bulunması, SLE'nin oral yansıması olan deskuamatif gingivitis tablosunu gösterir.\n**Çeldiriciler:**\n- A, B) ANUG ve NUP'ta interdental papil kraterleri, gri psödomembran ve hızlı doku/kemik yıkımı görülür; bu vakada psödomembran ve kemik kaybı yoktur.\n- C) Kimyasal yanıklarda etken madde temas öyküsü ve yüzeyde beyaz koagülasyon nekrozu/sloughing bulunur.\n- E) Gingival apse yabancı cisim batmasına bağlı gelişen tek, lokalize ve fluktuasyon veren pürülan bir şişliktir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 304,
+    "question": "I. Mobilitede artış\nII. Gingivitis\nIII. Periodontal apse oluşumunda artış\nIV. Patolojik migrasyon\nV. Alveoler kemik yoğunluğunda artış\n\nYukarıdakilerden hangileri okluzal travmanın klinik ve radyolojik belirtilerindendir?",
+    "options": {
+      "A": "I, II, III",
+      "B": "I, II, IV",
+      "C": "I, III, IV",
+      "D": "I, IV, V",
+      "E": "I, III, IV, V"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Okluzal travma tek başına dişeti iltihabına (gingivitis) yol açmaz; ancak periodontal destek dokularda mobilite artışına, patolojik diş migrasyonuna, kompanzasyon amaçlı alveoler kemik yoğunluğu artışına (hipersementoz ve osteoskleroz) ve akut travmatik durum ortadan kaldırılmazsa nekroz ve periodontal apse gelişimine zemin hazırlayabilir.\n**Öncüllerin Analizi:**\n- I. Mobilitede artış: Periodontal ligament liflerinin yıkımı ve aralığın genişlemesi sonucu klinik olarak en sık görülen bulgudur (Doğru).\n- II. Gingivitis: Okluzal travma supragingival plak varlığı olmadan marjinal dişeti dokusunda inflamasyon (gingivitis) başlatmaz (Yanlış).\n- III. Periodontal apse oluşumunda artış: Akut okluzal travma düzeltilmezse veya derin ceplerle kombine olursa doku nekrozu ve periodontal apse oluşumu tetiklenebilir (Doğru).\n- IV. Patolojik migrasyon: Anormal okluzal kuvvetler dişleri fizyolojik konumunda tutan dengeyi bozarak patolojik migrasyona neden olur (Doğru).\n- V. Alveoler kemik yoğunluğunda artış: Artmış fonksiyonel veya travmatik kuvvetlere adaptasyon sürecinde alveoler kemikte aşırı yoğunlaşma (kondensasyon) görülebilir (Doğru).\n**Çeldiriciler:**\n- A) Gingivitis öncülünü içerdiği ve IV ile V. öncülleri dışladığı için yanlıştır.\n- B) Gingivitis öncülünü içerdiği için yanlıştır.\n- C) Radyolojik bulgu olan alveoler kemik yoğunluğunda artışı (V) içermediği için eksiktir.\n- D) Akut travmanın komplikasyonlarından olan apse oluşumunu (III) dışladığı için eksiktir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 316,
+    "question": "I. A.a seviyesi\nII. Ailesel geçiş\nIII. Yüksek plak yavaş kemik kaybı\n\nYukarıdakilerden hangi ya da hangileri agresif periodontitisi düşündüren özelliklerden değildir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I-II",
+      "D": "I-III",
+      "E": "II-III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Yüksek miktarda plak birikimi ve buna eşlik eden yavaş kemik kaybı kronik periodontitisin karakteristik özelliğidir; agresif periodontitiste ise düşük plak miktarına rağmen çok hızlı kemik yıkımı görülür.\n**Öncüllerin Analizi:**\n- I. A.a seviyesi: Subgingival plakta yüksek oranda *Aggregatibacter actinomycetemcomitans* (A.a) bulunması agresif periodontitisin ikincil tanı kriterlerindendir (Agresif periodontitisi düşündürür).\n- II. Ailesel geçiş: Hastalığın bireyin ailesinde de görülmesi birincil tanı kriterlerindendir (Agresif periodontitisi düşündürür).\n- III. Yüksek plak yavaş kemik kaybı: Kronik periodontitisi tanımlayan bir bulgudur (Agresif periodontitisi düşündürmez).\n**Çeldiriciler:**\n- A) I. öncül agresif periodontitisin tipik bir özelliğidir.\n- C) I ve II. öncüllerin her ikisi de agresif periodontitisi düşündürür.\n- D) I. öncülü yanlış kabul ettiği için hatalıdır.\n- E) II. öncülü yanlış kabul ettiği için hatalıdır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 318,
+    "question": "HIV pozitif bir hastanın oral muayenesinde, yoğun olarak dilin lateralinde ve daha az sıklıkla retromolar bölgede, ağız tabanı ve damağı tutan bilateral, asemptomatik, düzenli sınırı olmayan keratotik lezyonlar gözlemleniyor. Yapılan histolojik inceleme sonrası etiyolojisinde Epstein-Barr virus olduğu tespit ediliyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kaposi sarkomu",
+      "B": "Linear gingival eritem",
+      "C": "Kıllı lökoplaki",
+      "D": "Non-Hodgkin lenfoma",
+      "E": "Oral kandidiyazis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Oral kıllı lökoplaki (Oral Hairy Leukoplakia), HIV pozitif bireylerde şiddetli immünsüpresyon ve AIDS'e geçişin önemli bir göstergesi olan, Epstein-Barr virüsü (EBV) kaynaklı fırsatçı bir lezyondur. Klinik olarak en sık dilin lateral kenarlarında çift taraflı, kazınamayan, yüzeyi kurutulduğunda kıllı/tüylü veya oluklu görünüm veren beyaz hiperkeratotik plaklar şeklinde izlenir.\n**Çeldiriciler:**\n- A) Kaposi sarkomu; HHV-8 (KSHV) etiyolojili, özellikle damak ve dişetinde kırmızı-mor makül veya nodüller şeklinde görülen vasküler malignitedir.\n- B) Linear gingival eritem; serbest dişeti kenarı boyunca uzanan 2-3 mm'lik parlak kırmızı eritematöz bant ile karakterize fungal/kandidal ilişkili lezyondur.\n- D) Non-Hodgkin lenfoma; dişeti ve damakta hızla büyüyen, ülsere olabilen sert şişlikler ve alveoler kemik yıkımı ile seyreden lenfoproliferatif malignitedir.\n- E) Oral kandidiyazis; *Candida albicans* kaynaklı, mukozadan kazınabilen beyaz psödomembranlar veya atrofik kırmızı alanlarla karakterize mantar enfeksiyonudur.\n\n---",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 319,
+    "question": "Oral Kıllı Lökoplaki ile ilgili verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Etkeni Epstein-Barr virüsüdür.",
+      "B": "Kıllı Lökoplaki'li hastaların tamamı en sonunda AIDS olur.",
+      "C": "Dilin tek tarafında eritemli alanlar olarak gözükür.",
+      "D": "Tedavisinde lazer veya konvansiyonel cerrahi kullanılır.",
+      "E": "Lezyonların yüzeyi kurutulduğunda tüylü bir görünüm alır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Oral kıllı lökoplaki dilin tek tarafında eritemli alanlar şeklinde değil, sıklıkla dilin lateral sınırlarında çift taraflı (bilateral) yerleşen, beyaz, hiperkeratotik ve girintili çıkıntılı lezyonlar olarak görülür.\n**Çeldiriciler:**\n- A) Lezyonun etiyolojik ajanı epitel hücreleri içinde çoğalan Epstein-Barr virüsüdür (EBV).\n- B) Biyopsi ile kesinleşmiş oral kıllı lökoplaki vakaları ağır immün yetmezlik göstergesidir ve tedavi edilmeyen vakaların tamamına yakını AIDS tablosuna ilerler.\n- D) Asemptomatik olmakla birlikte estetik veya fonksiyonel rahatsızlık durumunda lazer, konvansiyonel cerrahi veya topikal/sistemik antivirallerle (zidovudin, asiklovir vb.) elimine edilebilir.\n- E) Geniş yassı beyaz plakların üzerindeki dikey yarık ve uzantılar nedeniyle mukoza yüzeyi kurutulduğunda karakteristik \"kıllı/tüylü\" görünüm ortaya çıkar.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 320,
+    "question": "I. Kaposi sarkom\nII. Oral hairy lökoplaki\nIII. Melanin pigmentasyonunda azalma\n\nYukarıdaki klinik durumlardan hangisi/hangileri HIV(+) hastalarda görülen oral bulgulardandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I-II",
+      "D": "I-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** HIV(+) hastalarda immünsüpresyona ve kullanılan antiretroviral ilaçlara (zidovudin vb.) bağlı olarak Kaposi sarkomu ve oral kıllı lökoplaki sıklıkla görülürken, oral melanin pigmentasyonunda azalma değil, tam tersine artış (oral hiperpigmentasyon) izlenir.\n**Öncüllerin Analizi:**\n- I. Kaposi sarkom: HIV(+) hastalarda en sık görülen malign vasküler tümördür (Doğru).\n- II. Oral hairy lökoplaki: EBV kaynaklı olarak HIV(+) bireylerde dilin yan kenarlarında gelişen karakteristik lezyondur (Doğru).\n- III. Melanin pigmentasyonunda azalma: HIV enfeksiyonunda adrenal korteks etkilenimi ve antiviral ilaç kullanımı nedeniyle oral hiperpigmentasyon (artış) görülür (Yanlış).\n**Çeldiriciler:**\n- A) II. öncülü dışladığı için eksiktir.\n- B) I. öncülü dışladığı için eksiktir.\n- D) Yanlış olan III. öncülü içerdiği için hatalıdır.\n- E) Yanlış olan III. öncülü içerdiği için hatalıdır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 323,
+    "question": "Nabers sondu; Furkasyon lezyonlarının değerlendirilmesi için kullanılan sond çeşididir. Naber's sondu üzerindeki aralıklar kaç mm olarak kodlanmıştır?",
+    "options": {
+      "A": "1 mm",
+      "B": "2 mm",
+      "C": "3 mm",
+      "D": "3.5 mm",
+      "E": "5 mm"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Furkasyon defektlerinin horizontal yöndeki derinliğini ölçmek amacıyla kullanılan kıvrımlı ve künt uçlu Nabers sondu, 3'er mm'lik aralıklarla (3-6-9-12 mm) alternatif açık ve koyu renk bantları şeklinde kalibre edilmiştir.\n**Çeldiriciler:**\n- A) 1 mm'lik aralıklar Williams ve UNC-15 gibi düz periodontal sondlarda bulunur.\n- B) 2 mm'lik standart bir renk kodlaması Nabers sondunda yer almaz.\n- D) 3.5 mm işareti (0.5 mm topuz + 3 mm) Dünya Sağlık Örgütü (WHO/CPITN) sonduna aittir.\n- E) 5'er mm'lik renk kodlaması (5-10-15 mm) UNC-15 sondunun özelliğidir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 345,
+    "question": "I. Yumuşak doku duvarının tamamında benzer patolojik değişimler gözlenir.\nII. Yıkım alanlarında, bakterilerin semente penetre olduğu alanlar mevcuttur.\nIII. Cebin diş yüzeyinde atake olan ve olmayan bakteri tabakaları gözlenir.\nIV. Sement yüzeyinde yıkım görülse de dentin yüzeyinde rezorpsiyon gözlenmez.\n\nPeriodontitis sonucunda oluşan bir periodontal cebin yumuşak ve sert doku duvarları ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "II, III ve IV",
+      "B": "Yalnız II",
+      "C": "Yalnız IV",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Periodontal cebin kök yüzeyi duvarında bakteriler semente ve hatta dentin tübüllerine kadar penetre olabilir ve cep içerisinde hem diş yüzeyine tutunan (atake) hem de serbest (tutunmayan) bakteri tabakaları yer alır.\n**Öncüllerin Analizi:**\n- I. Yumuşak doku duvarının tamamında benzer patolojik değişimler gözlenir: Cep yan duvarı boyunca dejeneratif ve proliferatif değişimler farklılık gösterir; özellikle lateral duvardaki değişimler cep tabanındakinden çok daha şiddetlidir (Yanlış).\n- II. Yıkım alanlarında, bakterilerin semente penetre olduğu alanlar mevcuttur: Sharpey liflerinin dejenerasyonu sonucu sement ağız ortamına açılır ve bakteriler semente penetre olur (Doğru).\n- III. Cebin diş yüzeyinde atake olan ve olmayan bakteri tabakaları gözlenir: Diş ile ilişkili tutunan plak ve yumuşak doku ile ilişkili gevşek/tutunmayan plak tabakaları bir arada bulunur (Doğru).\n- IV. Sement yüzeyinde yıkım görülse de dentin yüzeyinde rezorpsiyon gözlenmez: Bakteri penetrasyonu mine-sement ve sement-dentin birleşimini aşarak dentin tübüllerine kadar uzanabilir ve dentin yıkımına/kök çürüğüne yol açabilir (Yanlış).\n**Çeldiriciler:**\n- A) Yanlış olan IV. öncülü içerdiği için hatalıdır.\n- B) Doğru olan III. öncülü dışladığı için eksiktir.\n- C) Yalnızca yanlış olan IV. öncülü içerdiği için hatalıdır.\n- E) Yanlış olan I. öncülü içerdiği için hatalıdır.\n\n---",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 349,
+    "question": "Aşağıdakilerden hangisi furkasyon lezyonlarının değerlendirilmesi için kullanılan sond çeşididir?",
+    "options": {
+      "A": "William sondu",
+      "B": "Michigan \"O\" sondu",
+      "C": "Naber's sondu",
+      "D": "University of North Carolina 15 sondu",
+      "E": "World Health Organization sondu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Nabers sondu, furkasyon lezyonlarının teşhisi ve sınıflandırılması amacıyla özel olarak üretilmiş, 3'er mm aralıklarla (3-6-9-12 mm) kalibre edilmiş kıvrımlı bir sonddur.\n**Çeldiriciler:**\n- A) Williams sondu; 1-2-3-5-7-8-9-10 mm kalibrasyonlu düz cep ölçüm sondudur.\n- B) Michigan \"O\" sondu; 3-6-8 mm kalibrasyonlu düz periodontal sonddur.\n- D) UNC-15 sondu; 1'er mm aralıklı ve 5-10-15 mm'de renk kodlu düz periodontal sonddur.\n- E) WHO sondu; ucunda 0.5 mm kürecik bulunan ve 3.5-5.5-8.5-11.5 mm kalibrasyonlu epidemiyolojik tarama sondudur.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 351,
+    "question": "Aşağıdakilerden hangisi, periodontitisin tipik radyolojik bulgularından biri değildir?",
+    "options": {
+      "A": "Kök rezorpsiyonu",
+      "B": "Lamina durada silikleşme veya kaybolma",
+      "C": "Periodontal aralıkta genişleme",
+      "D": "Alveol kemik kaybı",
+      "E": "Alveol kretinin yüksekliğinde azalma"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kök rezorpsiyonu; aşırı ortodontik kuvvetler, travma, periapikal lezyonlar, kistler veya tümörler sonucunda gelişen bir durumdur; kronik veya agresif periodontitisin tipik radyolojik bulguları arasında yer almaz.\n**Çeldiriciler:**\n- B) İnterdental septumun koronalindeki krestal lamina duranın silikleşmesi veya devamlılığının bozulması periodontitisin en erken radyolojik bulgusudur.\n- C) Krestal bölgede periodontal ligament aralığının kama/üçgen şeklinde genişlemesi (triangulasyon) erken dönem periodontitis bulgusudur.\n- D) İnflamasyonun ilerlemesiyle destek alveol kemiğinde horizontal veya vertikal kayıplar izlenir.\n- E) Yıkıcı değişiklikler kretin ötesine uzandığında interdental alveol kret yüksekliği apikale doğru azalır.\n\n---",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 352,
+    "question": "Kırk beş yaşında sistemik olarak diyabetik rahatsızlığı olduğu tespit edilen hastanın radyolojik tetkiklerinde;\nI. Kökün apikalinde rezorbsiyon\nII. Lamina durada silikleşme\nIII. Furkasyon bölgesinde radyolüsensi\nIV. Horizontal alveoler kemik kaybı görülüyor\n\nKlinik ve radyografik hikaye birleştirildiğinde hastaya kronik periodontitis teşhisi konuluyor. Yukarıda verilen radyolojik görüntülerden hangisi/leri kronik periodontitis kaynaklı değildir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-II",
+      "C": "I-II-III",
+      "D": "II-III-IV",
+      "E": "III-IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kronik periodontitiste alveoler kemikte yıkım görülür ancak diş kökünün apikalinde eksternal kök rezorpsiyonu meydana gelmez.\n**Öncüllerin Analizi:**\n- I. Kökün apikalinde rezorbsiyon: Periodontitis kaynaklı değildir; periapikal patolojiler, travma veya aşırı kuvvetlerle ilişkilidir (Kronik periodontitis kaynaklı değildir).\n- II. Lamina durada silikleşme: Krestal lamina duranın bütünlüğünün bozulması periodontitisin başlangıç radyolojik bulgusudur (Periodontitis kaynaklıdır).\n- III. Furkasyon bölgesinde radyolüsensi: Çok köklü dişlerde ataçman ve kemik kaybının furkasyona ulaşmasıyla oluşan tipik periodontitis bulgusudur (Periodontitis kaynaklıdır).\n- IV. Horizontal alveoler kemik kaybı: Kronik periodontitiste en sık görülen kemik yıkım paternidir (Periodontitis kaynaklıdır).\n**Çeldiriciler:**\n- B) II. öncül periodontitisin tipik bulgusudur.\n- C) II ve III. öncüller periodontitis bulgusudur.\n- D) II, III ve IV. öncüllerin tamamı periodontitise bağlı gelişir.\n- E) III ve IV. öncüller periodontitisin klasik radyolojik bulgularıdır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 353,
+    "question": "Aşağıdaki radyografik değişiklerden hangisi oklüzal travma kaynaklı değildir?",
+    "options": {
+      "A": "Periodontal aralıkta genişleme",
+      "B": "Kök rezorbsiyonları",
+      "C": "Hipersementozis",
+      "D": "Alveolar kemikte aşırı yoğunlaşmalar",
+      "E": "Radyoopak dikensi çıkıntılar"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dişlerin proksimal yüzeylerinde radyografide izlenen radyoopak dikensi çıkıntılar, okluzal travmaya ait bir bulgu olmayıp mineralize olmuş subgingival diştaşlarının (kalkulus) radyografik görüntüsüdür.\n**Çeldiriciler:**\n- A) Okluzal travmaya bağlı adaptasyon sürecinde periodontal ligament aralığında genişleme görülür.\n- B) Şiddetli ve uzun süreli travmatik okluzal kuvvetler kök yüzeyinde rezorpsiyonlara yol açabilir.\n- C) Artmış okluzal kuvvetlere karşı kök yüzey alanını artırmak amacıyla apikal bölgede hipersementozis gelişebilir.\n- D) Travmatik kuvvetlere yanıt olarak alveoler kemikte osteoskleroz (aşırı yoğunlaşma) veya radyolüsensi görülebilir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontitis ve Formları",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -11,8 +11,8 @@ const NOW = new Date('2026-05-30T12:00:00'); // hafıza: bugün 2026-05-30
 describe('computeExamProjection', () => {
   it('sınava kalan günü gün sınırına yuvarlar', () => {
     const p = computeExamProjection({ solvedUnique: 0, bankTotal: 100, activity: [], now: NOW });
-    // 2026-05-30 → 2026-11-01
-    expect(p.daysUntilExam).toBe(155);
+    // 2026-05-30 → 2026-10-27
+    expect(p.daysUntilExam).toBe(150);
     expect(p.examPassed).toBe(false);
   });
 
@@ -40,15 +40,15 @@ describe('computeExamProjection', () => {
 
   it('gereken günlük hız = kalan / kalan gün (yukarı yuvarlama)', () => {
     const p = computeExamProjection({ solvedUnique: 0, bankTotal: 10000, activity: [], targetSolved: 10000, now: NOW });
-    // 10000 / 155 = 64.5 → 65
-    expect(p.requiredDailySolved).toBe(65);
+    // 10000 / 150 = 66.66 → 67
+    expect(p.requiredDailySolved).toBe(67);
   });
 
   it('mevcut hız gereken hızı karşılıyorsa onTrackSolved=true', () => {
     const activity = flat(100, 14); // ortalama 100
     const p = computeExamProjection({ solvedUnique: 0, bankTotal: 10000, activity, targetSolved: 10000, now: NOW });
     expect(p.recentDailyAvg).toBe(100);
-    expect(p.requiredDailySolved).toBe(65);
+    expect(p.requiredDailySolved).toBe(67);
     expect(p.onTrackSolved).toBe(true);
   });
 
@@ -61,8 +61,8 @@ describe('computeExamProjection', () => {
   it('projekte çözüm = mevcut + hız * kalan gün', () => {
     const activity = flat(50, 14);
     const p = computeExamProjection({ solvedUnique: 1000, bankTotal: 10000, activity, now: NOW });
-    // 1000 + 50 * 155 = 8750
-    expect(p.projectedSolvedAtExam).toBe(8750);
+    // 1000 + 50 * 150 = 8500
+    expect(p.projectedSolvedAtExam).toBe(8500);
   });
 
   it('kapsama yüzdeleri 0-100 ve banka ile sınırlı', () => {
@@ -86,9 +86,9 @@ describe('computeExamProjection', () => {
   });
 
   it('DUS_EXAM_DATE sabiti varsayılan olarak kullanılır', () => {
-    expect(DUS_EXAM_DATE).toBe('2026-11-01');
+    expect(DUS_EXAM_DATE).toBe('2026-10-27');
     const withDefault = computeExamProjection({ solvedUnique: 0, bankTotal: 100, activity: [], now: NOW });
-    const withExplicit = computeExamProjection({ solvedUnique: 0, bankTotal: 100, activity: [], examDate: '2026-11-01', now: NOW });
+    const withExplicit = computeExamProjection({ solvedUnique: 0, bankTotal: 100, activity: [], examDate: '2026-10-27', now: NOW });
     expect(withDefault.daysUntilExam).toBe(withExplicit.daysUntilExam);
   });
 });

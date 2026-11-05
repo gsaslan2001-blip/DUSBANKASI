@@ -1,0 +1,1746 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi nükleozid yapılı bir moleküldür?",
+    "options": {
+      "A": "Adenin",
+      "B": "Guanozin",
+      "C": "Sitozin",
+      "D": "Hipoksantin",
+      "E": "Dihidrourasil"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Adenin:** Yanlış. Adenin bir pürin azotu bazıdır (sadece organik bazdır).\n- **B) Guanozin:** Doğru. Guanin bazı ile riboz şekerinin N-glikozidik bağ ile bağlanması sonucu oluşan yapının adı \"Guanozin\" olup bir nükleoziddir (Baz + Şeker = Nükleozid).\n- **C) Sitozin:** Yanlış. Sitozin bir pirimidin azotlu bazıdır.\n- **D) Hipoksantin:** Yanlış. Hipoksantin bir pürin türevi azotlu bazdır.\n- **E) Dihidrourasil:** Yanlış. Modifiye bir pirimidin bazıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 DUS"
+  },
+  {
+    "question": "Fizyolojik pH'de, nükleotidlerin hangi bileşeni negatif yük taşır?",
+    "options": {
+      "A": "Deoksiriboz",
+      "B": "Riboz",
+      "C": "Fosfat grupları",
+      "D": "Urasil",
+      "E": "Adenin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A ve B) Deoksiriboz / Riboz:** Yanlış. Pentoz şekerleri nötral moleküllerdir, elektrik yükü taşımazlar.\n- **C) Fosfat grupları:** Doğru. Fosfat grupları pKa değerleri düşük (asidik) olan ve fizyolojik pH'da (7.4) iyonize olarak negatif (-) yük kazandıran bileşenlerdir. DNA ve RNA'nın asidik karakterini ve negatif yükünü fosfat grubu verir.\n- **D ve E) Urasil / Adenin:** Yanlış. Azotlu bazlar fizyolojik pH'da yüksüzdür veya zayıf bazik özelliktelerdir, negatif yük oluşturmazlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "DNA yapısındaki iki zinciri bir arada tutan bağlar, aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hidrojen bağları",
+      "B": "Fosfodiester bağları",
+      "C": "N-glikozidik bağlar",
+      "D": "Disülfit bağları",
+      "E": "Peptid bağları"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Hidrojen bağları:** Doğru. Çift sarmallı DNA'da iki zıt zincirdeki komplementer bazlar arasında hidrojen bağları kurulur (A ile T arasında 2, G ile C arasında 3 zayıf hidrojen bağı bulunur).\n- **B) Fosfodiester bağları:** Yanlış. Aynı zincirdeki ardışık nükleotidleri birbirine bağlayan kovalent bağlardır (omurgayı oluşturur).\n- **C) N-glikozidik bağlar:** Yanlış. Azotlu baz ile pentoz şekeri arasındaki kovalent bağdır.\n- **D) Disülfit bağları:** Yanlış. Proteinlerin tersiyer/kuarterner yapısında sisteinler arası oluşan bağdır.\n- **E) Peptid bağları:** Yanlış. Proteinlerde aminoasitleri birbirine bağlayan bağdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar DUS"
+  },
+  {
+    "question": "Rekombinant DNA çalışmalarında kullanılan aşağıdaki enzimlerden hangisi fosfodiester bağını hidroliz eder?",
+    "options": {
+      "A": "DNA ligaz",
+      "B": "Ekzonükleaz III",
+      "C": "Revers transkriptaz",
+      "D": "DNA polimeraz I",
+      "E": "Terminal transferaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) DNA ligaz:** Yanlış. Kesilmiş fosfodiester bağlarını birleştiren (oluşturan) enzimdir.\n- **B) Ekzonükleaz III:** Doğru. Nükleik asit zincirlerinin uçlarından (3' ucundan) nükleotidleri fosfodiester bağlarını hidroliz ederek koparan nükleaz enzimidir.\n- **C) Revers transkriptaz:** Yanlış. RNA'dan cDNA sentezleyen DNA polimerazdır (fosfodiester bağı oluşturur).\n- **D) DNA polimeraz I:** Yanlış. DNA sentezi yapan polimerazdır (5'->3' polimeraz aktivitesi ile fosfodiester bağı kurar).\n- **E) Terminal transferaz:** Yanlış. Kalıp zincir olmadan 3' ucuna nükleotid ekleyen polimerazdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "I. Restriksiyon endonükleaz\nII. DNA ligaz\nIII. Telomeraz\nYukarıdaki enzimlerden hangileri rekombinant DNA elde etmek için gereklidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **I. Öncül (Restriksiyon endonükleaz):** Doğru. DNA'yı belirli spesifik dizilerden (palindromik) keserek hedef geni ve vektörü hazırlar. Rekombinant teknoloji için zorunludur.\n- **II. Öncül (DNA ligaz):** Doğru. Kesilen hedef gen parçası ile vektör DNA'sını fosfodiester bağı kurarak yapıştırır/birleştirir. Rekombinant DNA yapımında zorunludur.\n- **III. Öncül (Telomeraz):** Yanlış. Ökaryotik kromozom uçlarındaki telomerleri uzatan bir ters transkriptazdır; rekombinant DNA vektör klonlamasında rutin olarak kullanılmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi rekombinant DNA teknolojisinin gelişmesinde temel aşamayı oluşturur?",
+    "options": {
+      "A": "Ekzonükleaz",
+      "B": "DNA polimeraz",
+      "C": "Restriksiyon endonükleaz",
+      "D": "Giraz",
+      "E": "Topoizomeraz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Ekzonükleaz:** Yanlış. Zincir uçlarından sindirim yapar, spesifik gen kesimi ve klonlama sağlayamaz.\n- **B) DNA polimeraz:** Yanlış. DNA replikasyonu yapar, geni belirli noktadan cıkarma yeteneği yoktur.\n- **C) Restriksiyon endonükleaz:** Doğru. DNA'yı çift zincirli spesifik palindromik dizilerinden kesme yeteneği sayesinde moleküler klonlamanın ve rekombinant DNA teknolojisinin temelini atmıştır.\n- **D ve E) Giraz / Topoizomeraz:** Yanlış. DNA süper sarmallarını çözen enzimlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Restriksiyon enzimi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Bakteriler tarafından üretilir.",
+      "B": "DNA'yı özgül dizilerden tanıyıp kesebilir.",
+      "C": "DNA okuma yönü 5' - 3' dür.",
+      "D": "Moleküler klonlamada kullanılır.",
+      "E": "Fosfodiester bağlarını kurarak DNA bağlanmasını sağlar."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Bakteriler tarafından üretilir:** Doğru. Bakterilerin kendilerini viral (faj) DNA'sına karşı korumak için ürettiği savunma enzimleridir.\n- **B) DNA'yı özgül dizilerden tanıyıp kesebilir:** Doğru. Palindromik 4-8 bazlık spesifik dizileri tanır.\n- **C) DNA okuma yönü 5' - 3' dür:** Doğru. Tanıma dizilerini 5'->3' yönünde okurlar.\n- **D) Moleküler klonlamada kullanılır:** Doğru. Vektör ve insert kesiminde temel araçtır.\n- **E) Fosfodiester bağlarını kurarak DNA bağlanmasını sağlar:** Yanlış. Bağ kuran enzim DNA ligazdır. Restriksiyon enzimleri fosfodiester bağlarını keser/kırar (hidroliz eder).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Başlama ve sonlanma kodonları dâhil olmak üzere 600 nükleotidden oluşan bir DNA molekülü, en fazla kaç amino asitlik bir proteini kodlar?",
+    "options": {
+      "A": "200",
+      "B": "199",
+      "C": "101",
+      "D": "100",
+      "E": "99"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Çift zincirli DNA'nın mRNAS'sı 600 nükleotid içeriyorsa; 3 nükleotid = 1 kodon.\n- 600 / 3 = 200 kodon bulunur.\n- Kodonlardan 1 tanesi sonlanma (durma/stop) kodonudur (UAA, UAG veya UGA) ve aminoasit kodlamaz!\n- Başlama kodonu (AUG) ise Metionin aminoasidini kodlar ve hesaba katılır.\n- Bu durumda aminoasit kodlayan kodon sayısı: 200 - 1 (stop kodonu) = 199 aminoasittir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi sadece deoksiribonükleotidlerin sentezinde görev alır?",
+    "options": {
+      "A": "Fosforibozil pirofosfat sentaz",
+      "B": "Fosforibozil pirofosfat glutamil amidotransferaz",
+      "C": "Aspartat transkarbamoilaz",
+      "D": "Ribonükleotid redüktaz",
+      "E": "Karbamoil fosfat sentaz II"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A, B, C ve E) PRPP Sentaz, PRPP Amidotransferaz, ATKaz, CPS II:** Yanlış. Bu enzimler hem RNA hem DNA sentezinin ortak öncülleri olan ribonükleotidlerin (NTP'ler) de novo sentezinde görev alırlar.\n- **D) Ribonükleotid redüktaz:** Doğru. Ribonükleozid difosfatları (NDP: ADP, GDP, CDP, UDP) indirgeyerek deoksiribonükleozid difosfatlara (dNDP) dönüştürür. Sadece deoksiribonükleotid sentezine özgü hız kısıtlayıcı kilit enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi deoksiribonükleotidlerin sentez reaksiyonlarında yer almaz?",
+    "options": {
+      "A": "Tiyoredoksin",
+      "B": "NADPH",
+      "C": "Ribonükleotid redüktaz",
+      "D": "Ribonükleozid difosfat",
+      "E": "Ribonükleozid trifosfat"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Ribonükleotid redüktaz enzimi substrat olarak **Ribonükleozid difosfatları (NDP)** (ADP, GDP, CDP, UDP) kullanır. Reaksiyonda elektron vericisi **Tiyoredoksin**, tiyoredoksini tekrar indirgeyen **NADPH** ve **Tiyoredoksin redüktaz** rol alır. Substrat olarak trifosfatlar (NTP) kullanılmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Ribonükleozid difosfatları, 2-deoksiribonükleozid difosfatlara dönüştüren ribonükleotid redüktazın koenziminin rejenerasyonunda aşağıdaki enzimlerden hangisi görev alır?",
+    "options": {
+      "A": "Dihidrofolat redüktaz",
+      "B": "Ksantin oksidaz",
+      "C": "NADPH oksidaz",
+      "D": "Sitokrom c oksidaz",
+      "E": "Tiyoredoksin redüktaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Ribonükleotid redüktaz reaksiyon esnasında yükseltgenir. İnaktif hale geçen Tiyoredoksin (okside), NADPH'tan aldığı elektronlarla **Tiyoredoksin redüktaz** enzimi sayesinde rejenere edilerek tekrar aktif kofaktör haline getirilir. (Alternatif olarak glutaredoksin/glutatyon sistemi de kullanılabilir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Deoksiribonükleotid sentezini katalizleyen ribonükleotid redüktaz enzimi aşağıdakilerden hangisini substrat olarak kullanabilir?",
+    "options": {
+      "A": "AMP",
+      "B": "GMP",
+      "C": "UDP",
+      "D": "ATP",
+      "E": "CTP"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- Ribonükleotid redüktaz sadece **difosfat** formundaki ribonükleotidleri (ADP, GDP, CDP, UDP) indirgeyebilir.\n- Monofosfatlar (AMP, GMP) veya Trifosfatlar (ATP, CTP) bu enzimin doğrudan indirgeme substratı olamazlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Bazı kanser tiplerinde ilaç olarak kullanılan hidroksiüre, nükleotid metabolizmasında yer alan aşağıdaki enzimlerden hangisini inhibe eder?",
+    "options": {
+      "A": "IMP dehidrogenaz",
+      "B": "Dihidrofolat redüktaz",
+      "C": "Ribonükleotid redüktaz",
+      "D": "CTP sentetaz",
+      "E": "Ksantin oksidaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) IMP dehidrogenaz:** Mikofenolik asit ve Ribavirin tarafından inhibe edilir.\n- **B) Dihidrofolat redüktaz:** Metotreksat, Trimetoprim tarafından inhibe edilir.\n- **C) Ribonükleotid redüktaz:** Doğru. Hidroksiüre, Gemsitabin ve dATP ribonükleotid redüktaz enzimini güçlü şekilde inhibe ederek dNTP havuzunu kurutur ve DNA sentezini (S fazını) durdurur.\n- **E) Ksantin oksidaz:** Allopürinol ve Febuksostat tarafından inhibe edilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi pürin halkasının sentezine hem karbon hem de azot vericisi olarak katılır?",
+    "options": {
+      "A": "Aspartat",
+      "B": "Glutamat",
+      "C": "Glutamin",
+      "D": "Glisin",
+      "E": "N10-formil-tetrahidrofolat"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **Glisin:** Pürin halkasının 4, 5 numaralı Karbonlarını ve 7 numaralı Azotunu (C4, C5, N7) elverişli tek molekül halinde tümüyle halkanın yapısına katar. Yani **hem C hem N vericisi** olan yegane aminoasittir.\n- **Aspartat:** Sadece N verir (N1).\n- **Glutamin:** Sadece N verir (N3 ve N9).\n- **N10-formil-THF:** Sadece C verir (C2 ve C8).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Pirimidin halkasının iskelet yapısında hem azot hem de karbon kaynağı olan amino asit aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aspartat",
+      "B": "Asparajin",
+      "C": "Glutamin",
+      "D": "Glutamat",
+      "E": "Glisin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- Pirimidin halkasında:\n  - **Aspartat:** Halkanın C4, C5, C6 karbonlarını ve N1 azotunu sağlar (yani **hem C hem N kaynağıdır**).\n  - **Glutamin:** N3 azotunu sağlar (sadece N kaynağı).\n  - **Karbondioksit (HCO3-):** C2 karbonunu sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Pürin bazlarının halka yapısında bulunan karbon atomu sayısı kaçtır?",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7",
+      "E": "8"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Pürin halkası (Adenin, Guanin) 9 üyeli çift halkalı (pirimidin + imidazol) yapıdır. Bu halkanın yapısında **5 Karbon (C)** ve **4 Azot (N)** atomu bulunur.\n- Pirimidin halkasında ise **4 Karbon** ve **2 Azot** atomu vardır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "De novo pürin halkası sentezinde aşağıdakilerden hangisi sadece karbon (C) vericisi olarak kullanılır?",
+    "options": {
+      "A": "N5-metil-tetrahidrofolat",
+      "B": "Aspartat",
+      "C": "Glutamin",
+      "D": "Glisin",
+      "E": "N10-formil-tetrahidrofolat"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- De novo pürin sentezinde C2 ve C8 karbonları **N10-formil-tetrahidrofolat** (Folat türevi) tarafından verilir. Bu molekül yapısına azot katmaz, sadece karbon (C) kaynağıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Pürin ve pirimidin nükleotidlerinin \"de novo\" biyosentezinde yer alan aşağıdaki moleküllerden hangisi sadece pürin yapısında bulunur?",
+    "options": {
+      "A": "Glutamin",
+      "B": "Aspartat",
+      "C": "Glisin",
+      "D": "Karbondioksit",
+      "E": "Fosforibozil pirofosfat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Glutamin, Aspartat, Karbondioksit ve PRPP:** Hem pürin hem de pirimidin biyosentezinde ortak olarak kullanılan bileşenlerdir.\n- **Glisin:** Sadece pürin halkasının yapısına katılır; pirimidin halkasında glisin yer almaz!",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "De novo pürin nükleotid biyosentezi sırasında tam olarak oluşan ilk nükleotid aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İnozin monofosfat (IMP)",
+      "B": "Guanozin monofosfat (GMP)",
+      "C": "Adenozin monofosfat (AMP)",
+      "D": "Ksantozin monofosfat (XMP)",
+      "E": "Adenilosüksinat"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- De novo pürin sentezinde PRPP üzerine halka inşa edilir ve ilk sentezlenen tam pürin nükleotidi **İnozin Monofosfat (IMP)**'tır. IMP daha sonra AMP veya GMP'ye dönüştürülür.\n- (Not: Pirimidin sentezinde oluşan ilk nükleotid ise Orotidin monofosfat - OMP'dir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki ara ürünlerden hangisi de novo pirimidin sentezinde oluşan ilk nükleotiddir?",
+    "options": {
+      "A": "Karbamoil aspartat",
+      "B": "Dihidroorotat",
+      "C": "Orotidin 5'-monofosfat (OMP)",
+      "D": "Orotat",
+      "E": "Üridin 5'-monofosfat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- Pirimidin sentezinde önce serbest pirimidin halkası (Orotat) sentezlenir, ardından PRPP eklenerek ilk nükleotid olan **Orotidin 5'-monofosfat (OMP)** elde edilir. OMP dekarboksile olarak UMP'ye dönüşür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin pürin nükleotidlerinin de novo sentezinin kontrolünde düzenleyici rolü yoktur?",
+    "options": {
+      "A": "AMP",
+      "B": "GDP",
+      "C": "CMP",
+      "D": "ADP",
+      "E": "GMP"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- Pürin de novo sentezi feedback olarak pürin nükleotidleri (AMP, ADP, ATP, GMP, GDP, GTP, IMP) tarafından inhibe edilir. **CMP** ise bir pirimidin nükleotidi olduğu için pürin biyosentez enzimleri (PRPP sentaz ve PRPP amidotransferaz) üzerinde doğrudan geri-beslemeli düzenleyici etki göstermez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "De novo ATP ve GTP sentezinin allosterik regülasyonunda aşağıdaki enzimlerden hangisi inhibe edilmez?",
+    "options": {
+      "A": "Fosforibozil pirofosfat sentetaz",
+      "B": "Fosforibozil pirofosfat glutamil amidotransferaz",
+      "C": "İnozin monofosfat dehidrogenaz",
+      "D": "Adenilosüksinat sentetaz",
+      "E": "Adenilosüksinat liyaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Pürin yolundaki düzenleyici allosterik enzimler: PRPP sentetaz, PRPP amidotransferaz, IMP dehidrogenaz (GMP inhibe eder) ve Adenilosüksinat sentetazdır (AMP inhibe eder). **Adenilosüksinat liyaz** ise bir düzenleyici basamak enzimi değildir, ürün inhibisyonu gösteren basit bir liyaz enzimidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  },
+  {
+    "question": "Hücre döngüsünün S fazındaki T ve B lenfositlerini içeren iki ayrı hücre kültürü besiyeri ortamına mikofenolik asit ilave ediliyor. Bu enzimlerden hangisinin aktivitesi mikofenolik asit tarafından inhibe edilir?",
+    "options": {
+      "A": "İnozitol monofosfat (IMP) dehidrogenaz",
+      "B": "Adenilosüksinat sentetaz",
+      "C": "Adenilosüksinat liyaz",
+      "D": "PRPP glutamil amidotransferaz",
+      "E": "Glisinamid ribonükleotid (GAR) sentetaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **Mikofenolik asit** (ve Ribavirin), IMP'nin XMP'ye dönüşümünü sağlayan **IMP dehidrogenaz** enzimini reversibl inhibe eder. Bu durum GMP sentezini baskılayarak T ve B lenfosit proliferasyonunu engeller (immünosüpresif etki).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki vitaminlerden hangisi pirimidinlerin sentezinde timidilat sentaz enziminin katalizlediği basamakta yer alır?",
+    "options": {
+      "A": "Biotin",
+      "B": "Folik asit",
+      "C": "Niasin",
+      "D": "Tiamin",
+      "E": "Siyanokobalamin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- dUMP'den dTMP sentezleyen **Timidilat sentaz** enzimi metil grubu vericisi olarak **N5,N10-metilen tetrahidrofolat (Folik asit türevi)** kullanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar DUS"
+  },
+  {
+    "question": "İnozin monofosfatın guanozin monofosfata dönüşüm reaksiyonlarında hangisi yer almaz?",
+    "options": {
+      "A": "Fumarat",
+      "B": "NAD",
+      "C": "Glutamin",
+      "D": "ATP",
+      "E": "Ksantozin monofosfat (XMP)"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- IMP -> GMP yolu:\n  1. IMP (IMP Dehidrogenaz + NAD) -> XMP (Ksantozin monofosfat)\n  2. XMP (GMP Sentaz + Glutamin + ATP) -> GMP\n- **Fumarat** çıkışı ise IMP -> AMP (Adenilosüksinat liyaz basamağı) yolunda görülür. IMP -> GMP yolunda Fumarat açığa çıkmaz!",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi pürin nükleotidlerinin hem de novo sentezi hem de salvage (kurtarma) yolunda kullanılır?",
+    "options": {
+      "A": "5-fosforibozil-1-pirofosfat (PRPP)",
+      "B": "Tiyoredoksin",
+      "C": "Adenilosüksinat",
+      "D": "Karbamoil fosfat",
+      "E": "N10-formil-tetrahidrofolat"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **PRPP (5-Fosforibozil-1-pirofosfat):** Hem de novo pürin/pirimidin sentezinde riboz-5-fosfat kaynağı ve hız kısıtlayıcı substrat olarak hem de APRT ve HGPRT enzimleriyle serbest bazlardan nükleotid kurtarma (salvage) yolunda ortak ve zorunlu kullanılan aktivatör moleküldür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "De novo pürin nükleotid biyosentezi ile oluşan inozin monofosfatın yapısında aşağıdaki bazlardan hangisi bulunur?",
+    "options": {
+      "A": "Adenin",
+      "B": "Guanin",
+      "C": "Hipoksantin",
+      "D": "Adenilosüksinat",
+      "E": "7-metilguanin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- İnozin monofosfat (IMP) nükleotidinin yapısındaki azotlu pürin bazı **Hipoksantin**'dir. (Hipoksantin + Riboz + Fosfat = IMP).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  },
+  {
+    "question": "İki yaşındaki çocuk mental retardasyon, spastisite, tekrarlayan böbrek taşı öyküsü ve kronik böbrek hasarı ile getiriliyor. Serum ürik asit düzeyleri artmış bulunuyor. Bu hastada aşağıdaki reaksiyonlardan hangisini katalizleyen enzimin defekt olması en olasıdır?",
+    "options": {
+      "A": "Guanin + PRPP -> GMP + PPi",
+      "B": "Adenin + PRPP -> AMP + PPi",
+      "C": "Timin + Deoksiriboz-1-fosfat -> Deoksitimidin + Pi",
+      "D": "Urasil + Riboz-1-fosfat -> Üridin + Pi",
+      "E": "IMP + NAD -> XMP + NADH"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- Olguda **Lesch-Nyhan Sendromu** (X'e bağlı geçiş, HGPRT enzim eksikliği) tanımlanmaktadır.\n- **HGPRT (Hipoksantin-Guanin Fosforiboziltransferaz)** enzimi Guanin + PRPP -> GMP ve Hipoksantin + PRPP -> IMP reaksiyonlarını katalizler. Eksikliğinde pürin salvage yolu çalışmaz, PRPP birikir, de novo sentez aşırı uyarılır ve şiddetli hiperürisemi, self-mutilasyon, spastisite ve böbrek taşları görülür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "Lesch-Nyhan sendromu ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "X kromozomuna bağlı kalıtım gösterir.",
+      "B": "Kurtarma (salvage) yolunda IMP ve GMP sentezi azalır.",
+      "C": "Hücre içi fosforibozilpirofosfat (PRPP) düzeyi azalır.",
+      "D": "De novo pürin nükleotid sentezi hızlanır.",
+      "E": "Sinoviyal sıvıda ve idrarda ürat kristallerinin oluşumunda artış görülebilir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- HGPRT enzimi kullanılamadığı için hücresel **PRPP düzeyi azalmaz, aksine aşırı ARTAR!** Biriken PRPP, de novo pürin sentezinin ilk enzimi olan PRPP amidotransferazı aşırı aktive eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi insanlarda pürin nükleotidlerinin son katabolik ürünüdür?",
+    "options": {
+      "A": "Üre",
+      "B": "Ürik asit",
+      "C": "İnozin",
+      "D": "Ksantin",
+      "E": "Allantoin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- İnsanlarda ve primatlarda **Ürat Oksidaz (Ürikaz)** enzimi genetik olarak bulunmadığı için pürin katabolizmasının son ürünü **Ürik Asit**'tir. (Diğer memelilerde ürat oksidaz ile allantoin'e yıkılır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 EUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi AMP ve GMP'nin yıkımı sırasında yapıdan riboz-1-fosfatın ayrılmasını katalizler?",
+    "options": {
+      "A": "5'-nükleotidaz",
+      "B": "Adenozin deaminaz",
+      "C": "Guanaz",
+      "D": "Pürin nükleozid fosforilaz",
+      "E": "Adenin fosforibozil transferaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) 5'-nükleotidaz:** Nükleotidlerden fosfat grubunu (Pi) kopararak nükleozid (Adenozin, İnozin, Guanozin) oluşturur.\n- **B) Adenozin deaminaz (ADA):** Adenozini deamine ederek İnozin'e dönüştürür.\n- **D) Pürin nükleozid fosforilaz (PNP):** Doğru. İnozin ve Guanozin nükleozidlerini inorganik fosfat ($P_i$) kullanarak yarar ve purin bazını (Hipoksantin, Guanin) serbestleştirirken **Riboz-1-fosfat** açığa çıkarır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Adenozin deaminaz eksikliği ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Otozomal resesif kalıtım gösterir.",
+      "B": "Adenozin nükleozidinin hipoksantine dönüşümü azalır.",
+      "C": "Kombine immün yetmezlik görülür.",
+      "D": "dATP düzeyi artar.",
+      "E": "Ribonükleotid redüktaz aktivitesinde artış görülür."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **ADA eksikliği** otozomal resesif ağır kombine immün yetmezlik (SCID) nedenidir. Adenozin/deoksiadenozin birikir. Biriken deoksiadenozin dATP'ye dönüşür.\n- Toksik düzeyde artan **dATP, Ribonükleotid Redüktaz enzimini güçlü bir şekilde İNHİBE EDER** (artırmaz!). Böylece dNTP havuzu kurur, lenfositlerde DNA sentezi ve bölünme durur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde hiperürisemi veya gut hastalığı görülmesi en az olasıdır?",
+    "options": {
+      "A": "PRPP sentetaz aktivitesinde artma",
+      "B": "Hipoksantin-guanin fosforibozil transferaz eksikliği",
+      "C": "Glukoz-6-fosfataz eksikliği",
+      "D": "Organik asitlerin aşırı yapımı",
+      "E": "Adenozin deaminaz eksikliği"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- PRPP sentetaz aşırı çalışması, HGPRT eksikliği (Lesch-Nyhan), G-6-Paz eksikliği (Von Gierke) ve Laktik asidoz/organik asidüriler pürin sentezini uyararak veya böbrekten atılımı engelleyerek **hiperürisemiye/guta** yol açar.\n- **E) Adenozin deaminaz (ADA) eksikliğinde:** Pürin yıkım yolu durduğu için ürik asit üretilemez. Kan ürik asit düzeyi düşer (**hipoürisemi** görülür).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hastalıklardan hangisi pirimidin metabolizmasındaki bozukluk nedeniyle ortaya çıkar?",
+    "options": {
+      "A": "Orotik asidüri",
+      "B": "Gut",
+      "C": "Lesch-Nyhan sendromu",
+      "D": "Hipoürisemi",
+      "E": "Von Gierke hastalığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Orotik asidüri:** Pirimidin de novo sentezindeki bifonksiyonel UMP Sentaz enzimi (Orotat fosforiboziltransferaz ve Orotidilat dekarboksilaz) eksikliği sonucu gelişen pirimidin metabolizma hastalığıdır.\n- **B, C, D ve E) Gut, Lesch-Nyhan, Hipoürisemi, Von Gierke:** Pürin metabolizması veya ilişkili glikojen depo bozukluklarıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin eksikliği pirimidin sentez bozukluğuna yol açar?",
+    "options": {
+      "A": "Hipoksantin-guanin fosforibozil transferaz",
+      "B": "Adenozin deaminaz",
+      "C": "Ksantin oksidaz",
+      "D": "Orotidilat dekarboksilaz",
+      "E": "Karbamoil fosfat sentetaz I"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Orotidilat dekarboksilaz:** Pirimidin de novo sentezinde OMP'yi UMP'ye çeviren UMP sentaz kompleksinin üyesidir. Eksikliğinde **Herediter Orotik Asidüri** tablosu (Megaloblastik anemi, büyüme geriliği, idrarda orotik asit) oluşur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Timidilat sentaz reaksiyonuyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Substrat olarak deoksiüridin monofosfat (dUMP) kullanılır.",
+      "B": "Pürin bazındaki metil grubunun kaynağıdır.",
+      "C": "5-florourasil tarafından inhibe edilir.",
+      "D": "Reaksiyon sonucunda dihidrofolat açığa çıkar.",
+      "E": "Oluşan ürün timin nükleotidi monofosfat yapısındadır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Timidilat sentaz: dUMP + N5,N10-Metilen-THF $\\rightarrow$ dTMP + DHF reaksiyonunu katalizler.\n- **B seçeneği yanlıştır:** Timidilat sentaz bir **pirimidin** nükleotidi olan dTMP sentezinde görev alır; pürin bazlarına metil aktarmaz!",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Mutasyona açık DNA bölgeleri aşağıdaki dizilerden hangisini yüksek oranda içerir?",
+    "options": {
+      "A": "Adenin-Adenin",
+      "B": "Sitozin-Timin",
+      "C": "Sitozin-Guanin",
+      "D": "Timin-Adenin",
+      "E": "Guanin-Adenin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- DNA'da **CpG (Sitozin-Guanin)** adacıkları metillenmeye (epigenetik) en açık bölgelerdir. 5-metilsitozin spontan deaminasyon ile kolayca **Timin**'e dönüşür ve bu durum tamir mekanizmalarından kaçarak nokta mutasyonlarına (C $\\rightarrow$ T geçişleri) neden olur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "I. Denatürasyon sonucu DNA'nın 260 nm'deki UV absorbansı artar.\nII. Guanin-sitozin eşleşmelerinin oranı arttıkça Tm değeri yükselir.\nIII. Denatürasyon sonucu fosfodiester bağları kopar.\nB-DNA'nın denatürasyonu ve \"melting temperature\" (Tm) ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **I. Öncül:** Doğru. DNA denatüre olup zincirler ayrılınca gizlenmiş bazlar açığa çıkar ve 260 nm UV ışığı emilimi artar (Hiperkromik etki).\n- **II. Öncül:** Doğru. G-C çiftleri 3 hidrojen bağı içerdiği için A-T çiftlerine (2 bağ) göre daha dayanıklıdır; G-C oranı arttıkça erime sıcaklığı ($T_m$) yükselir.\n- **III. Öncül:** Yanlış. Denatürasyon esnasında sadece zayıf hidrojen bağları kopar; kovalent olan **fosfodiester omurga bağları kopmaz, korunur**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi DNA topoizomeraz inhibitörü değildir?",
+    "options": {
+      "A": "Siprofloksasin",
+      "B": "Doksorubisin",
+      "C": "Eliptisin",
+      "D": "Etopozid",
+      "E": "Sikloheksimid"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **Siprofloksasin (Giriş inhibitörü), Doksorubisin, Etopozid, Eliptisin, İrinotekan, Topotekan:** DNA topoizomeraz I veya II (Giraz) inhibitörleridir.\n- **E) Sikloheksimid:** Ökaryotik protein translasyonunda peptidil transferazı inhibe eden bir **protein sentez inhibitörüdür**; topoizomerazı inhibe etmez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "DNA replikasyon çatalının önünde oluşan süper sarmalların tekrar katlanmasını engelleyen enzim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Helikaz",
+      "B": "Topoizomeraz",
+      "C": "DNA polimeraz",
+      "D": "Primaz",
+      "E": "Ligaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **Topoizomerazlar (Ökaryotlarda Topo I/II, Prokaryotlarda DNA Giraz):** Helikazın DNA zincirlerini açması esnasında çatalın önünde biriken pozitif süper sarmalları (baskıyı) kesip yeniden bağlayarak gevşeten enzimlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, kromozomlarda kardeş kromatidleri fiziksel olarak bir arada tutan yapıdır?",
+    "options": {
+      "A": "Telomer",
+      "B": "Solenoid",
+      "C": "Sentromer",
+      "D": "Nükleozom",
+      "E": "Histon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Sentromer:** Hücre bölünmesi sırasında mitoz/mayoz iğ ipliklerinin (kinetokor) bağlandığı ve iki kardeş kromatidi bir arada tutan daralmış kromozomal bölgedir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kromatin paketlenmesini başlatır?",
+    "options": {
+      "A": "Telomer dizileri",
+      "B": "Kaspaz enzimler",
+      "C": "Fosfodiester bağları",
+      "D": "Lamin proteinleri",
+      "E": "Histon proteinleri"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Ökaryotik DNA'nın negatif yüklü yapısı, pozitif yüklü bazik **Histon proteinleri** ($H_2A, H_2B, H_3, H_4$ oktameri ve $H_1$) etrafında sarılarak nükleozom yapısını ve kromatin paketlenmesini başlatır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Nükleozom yapısında aşağıdaki histon proteinlerinden hangisi bulunmaz?",
+    "options": {
+      "A": "H1",
+      "B": "H2A",
+      "C": "H2B",
+      "D": "H3",
+      "E": "H4"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- Nükleozom kor (çekirdek) yapısı: İkişer adet **H2A, H2B, H3, H4** içeren bir histon oktamerinden ve etrafına sarılan 146 bç DNA'dan oluşur.\n- **H1 histonu** ise nükleozomların arasında (bağlayıcı histon / linker histon) yer alır, çekirdek nükleozom kompleksinin içinde bulunmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 EUS"
+  },
+  {
+    "question": "Histonlar ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "H1, H2A, H2B, H3 ve H4 olmak üzere beş gruba ayrılırlar.",
+      "B": "DNA'ya kovalent olarak bağlanırlar.",
+      "C": "Oluşturdukları nükleozom yapısında H1 histonu bulunmaz.",
+      "D": "Lizin ve arjininden zengin oldukları için fizyolojik pH'de pozitif yük taşırlar.",
+      "E": "Geri dönüşümlü kovalent histon modifikasyonları, kromatin yapısı ve işlevinde rol oynarlar."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Histonlar pozitif yüklüdür, DNA ise fosfatları nedeniyle negatif yüklüdür. Histonlar DNA'ya kovalent bağlarla değil, **zayıf elektrostatik (iyonik) non-kovalent bağlarla** bağlanırlar! (Böylece kolayca açılıp modifiye edilebilirler).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Histon asetiltransferaz, histon proteinlerinde aşağıdaki amino asitlerden hangisini asetilleyerek gevşek kromatin yapısını oluşturur?",
+    "options": {
+      "A": "Asparajin",
+      "B": "Histidin",
+      "C": "Lösin",
+      "D": "Lizin",
+      "E": "Glutamin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- Histon Asetiltransferaz (HAT) enzimi, histonların kuyruğundaki **Lizin (K)** aminoasitlerinin pozitif yüklü $\\epsilon$-amino grubunu asetiller. Lizinin pozitif yükü nötrleşir, DNA ile iyonik tutunması gevşer ve **Ökromatin (Aktif gen ekspresyonu)** formu oluşur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Metillenebilme özelliğinden dolayı genlerin fonksiyonlarının düzenlenmesi ve epigenetik değişikliklerde rol oynayan nükleotid aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Adenin",
+      "B": "Guanin",
+      "C": "Sitozin",
+      "D": "Timin",
+      "E": "Urasil"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- Ökaryotlarda epigenetik gen susturulmasında en temel mekanizma **Sitozin** bazının CpG adacıklarında DNA Metiltransferaz (DNMT) ile **5-Metilsitozin** haline getirilerek genin susturulmasıdır (transkripsiyonel inaktivasyon).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar DUS"
+  },
+  {
+    "question": "Tetrasiklinler aşağıdaki mekanizmalardan hangisiyle bakteri ribozomunda A bölgesini bloke ederek protein sentezini inhibe eder?",
+    "options": {
+      "A": "80S ribozomun peptidil transferaz aktivitesini engelleyerek",
+      "B": "Genetik kodun hatalı okunmasına neden olarak",
+      "C": "Protein sentezinin başlamasını inhibe ederek",
+      "D": "Aminoaçil-tRNA'ların bağlanmasını engelleyerek",
+      "E": "Peptid bağı oluşumuna katılıp prematür polipeptid oluşumuna neden olarak"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **Tetrasiklinler:** Bakteriyel 30S küçük ribozom alt birimine bağlanır ve **aminoaçil-tRNA'ların ribozomun A (aminoaçil) bölgesine girmesini ve bağlanmasını fiziksel olarak engeller**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "RNA'dan DNA sentezleyen enzim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Topoizomeraz",
+      "B": "DNA polimeraz",
+      "C": "Ligaz",
+      "D": "Revers transkriptaz",
+      "E": "RNA polimeraz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **Revers transkriptaz (RNA bağımlı DNA Polimeraz):** Tek zincirli RNA kalıbını kullanarak ona komplementer çift zincirli cDNA (komplementer DNA) sentezleyen enzimdir (Retrovirüslerde ve Telomeraz yapısında bulunur).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 EUS"
+  },
+  {
+    "question": "Kromozomların telomer bölgelerinin özellikleriyle ilgili hangisi yanlıştır?",
+    "options": {
+      "A": "Kromozomların 3' ucunda tekrar eden kısa dizilerdir.",
+      "B": "Telomeraz, telomer uzunluğunun korunmasını sağlar.",
+      "C": "Kromozomların stabilizasyonunda rol alırlar.",
+      "D": "Telomer adenin-sitozinden zengin tekrarlardan oluşur.",
+      "E": "Telomer uzunluğu hücre bölünmesi ve yaşlanmayla ilişkilidir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- İnsan telomerleri 3' ucunda **Guanin ve Timinden (G-zengin)** oluşan **5'-TTAGGG-3'** hexanükleotid tekrarlarından oluşur. Adenin-Sitozinden zengin değildir!",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Ökaryot hücrelerde revers transkriptaz özelliği gösteren enzim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Telomeraz",
+      "B": "DNA polimeraz",
+      "C": "DNA ligaz",
+      "D": "DNA metilaz",
+      "E": "DNA primaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **Telomeraz:** Kendi yapısında bir RNA şablonu (TERC) barındıran ve bu RNA'yı kalıp alarak DNA ucuna TTAGGG dizilerini ekleyen bir **Revers Transkriptaz (TERT)** enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin yapısında protein ile birlikte RNA molekülü de bulunur?",
+    "options": {
+      "A": "DNA polimeraz",
+      "B": "RNA polimeraz",
+      "C": "Telomeraz",
+      "D": "Helikaz",
+      "E": "Topoizomeraz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Telomeraz:** Bir ribonükleoprotein kompleksidir; yapısında katalitik protein alt birimi (TERT) ve kalıp olarak kullanılan RNA molekülü (TERC) birlikte bulunur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "I. Büyüme faktörü reseptörü\nII. Transkripsiyon faktörü\nIII. Hücre döngüsünü baskılayan protein\nHangileri proto-onkojenlerin ürünü olabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Proto-onkojenler:** Hücre büyümesini, çoğalmasını ve sağkalımını pozitif yönde uyaran genlerdir. Ürünleri: Büyüme faktörleri (EGF, PDGF), Büyüme faktör reseptörleri (HER2/neu, EGFR), Sinyal ileticiler (RAS, ABL) ve Transkripsiyon faktörleridir (MYC, JUN, FOS). (I ve II proto-onkojendir).\n- **III. Öncül:** Hücre döngüsünü baskılayan genler ise **Tümör Süpresör Genlerdir** (p53, Rb).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 DUS"
+  },
+  {
+    "question": "I. Büyüme faktörü reseptörünü kodlayan gen\nII. Hücre siklusu düzenleyici siklin proteinini kodlayan gen\nIII. DNA hasar tamir proteinini kodlayan gen\nHangileri tümör süpresör genlerdir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Tümör süpresör genler:** Hücre bölünmesini frenleyen, apoptozu indükleyen veya DNA tamirini sağlayan genlerdir (p53, Rb, BRCA1/2, APC).\n- I ve II (Reseptörler ve Siklinler) hücre çoğalmasını başlattığı için Proto-onkojendir. **III (DNA tamir genleri)** ise Tümör Süpresör gendir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 EUS"
+  },
+  {
+    "question": "DNA'da aşağıdaki bölgelerden hangisi bulunmaz?",
+    "options": {
+      "A": "Ekzon",
+      "B": "Antikodon",
+      "C": "İntron",
+      "D": "Promotor bölge",
+      "E": "Transkripsiyon başlama bölgesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Ekzon, İntron, Promotor ve Transkripsiyon başlama bölgeleri DNA üzerindeki gen yapısında yer alır.\n- **Antikodon** ise sadece **tRNA (Taşıyıcı RNA)** molekülü üzerinde bulunan 3 nükleotidlik özel triplet dizisidir; DNA'da yer almaz!",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "I. İnsan genomundaki genlerin tamamı protein kodlar.\nII. Çekirdek genomu antiparalel olarak yerleşmiş çift iplikli DNA'dan oluşur.\nIII. 23 çift kromozom ve mitokondri içerisindeki DNA dizilerinin tamamı insan genomunu teşkil eder.\nİnsan genomu ile ilgili hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve III",
+      "C": "Yalnız II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **I. Öncül:** Yanlış. İnsan genomunun sadece yaklaşık %1-2'lik kısmı protein kodlayan ekzonlardan oluşur. Geri kalan büyük kısmı r-RNA, t-RNA, mi-RNA gibi kodlamayan RNA'lar, intronlar ve tekrarlayan dizilerdir.\n- **II. Öncül:** Doğru. Çekirdek genomu antiparalel çift sarmallı DNA'dır.\n- **III. Öncül:** Doğru. İnsan genomu 23 çift nükleer kromozom ile dairesel mitokondriyal DNA'nın (mtDNA) toplamından oluşur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar DUS"
+  },
+  {
+    "question": "DNA replikasyonu hücre döngüsünün hangi evresinde gerçekleşir?",
+    "options": {
+      "A": "G0",
+      "B": "G1",
+      "C": "S",
+      "D": "G2",
+      "E": "M"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- İnterfazın **S (Sentez) evresinde** genomik DNA tamamen ve bir kez replike edilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 EUS"
+  },
+  {
+    "question": "DNA hasarı durumunda hücre döngüsünün G1 fazında durdurulmasından sorumlu olan protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "CDK2/4",
+      "B": "Rb",
+      "C": "p53",
+      "D": "Siklin D",
+      "E": "E2F"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- DNA'da çift zincir kırığı veya hasar oluştuğunda **p53 (Genomun Bekçisi)** sentezlenip aktifleşir. p53, **p21**'i uyarır. p21 ise G1/S Siklin-CDK komplekslerini inhibe ederek hücre döngüsünü **G1 fazında durdurur** ve tamire zaman kazandırır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar DUS"
+  },
+  {
+    "question": "Hücre döngüsünde aşağıdaki protein komplekslerinden hangisi metafaz-anafaz geçişini sağlar?",
+    "options": {
+      "A": "APC/C",
+      "B": "G1 siklinleri-Cdk",
+      "C": "G1/S siklinleri-Cdk",
+      "D": "S siklinleri-Cdk",
+      "E": "M siklinleri-Cdk"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **APC/C (Anaphase-Promoting Complex / Cyclosome):** Bir ubikuitin ligaz kompleksidir. Kardeş kromatidleri tutan sekurin proteinini yıktırarak ayırıcı (separaz) enzimi serbest bırakır ve hücrenin metafazdan anafaza geçmesini sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki kolorektal karsinogenez ile ilişkili genler ve görevleri eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "K-ras - Tirozin kinaz sinyal iletiminde rol alır.",
+      "B": "$\\beta$-katenin - Epitel dokuların integrasyonunu sağlar.",
+      "C": "APC - WNT sinyal iletimini antagonize eder.",
+      "D": "CDC4 - Ubikuitin bağımlı proteolizde görevlidir.",
+      "E": "BAX - Apoptozu inhibe eder."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **BAX:** Pro-apoptotik bir proteindir (apoptozu uyarır/tetikler). **Apoptozu inhibe etmez, tam aksine indükler!** (Apoptozu inhibe eden anti-apoptotik protein ise Bcl-2'dir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "DNA replikasyonuyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Primer gerekir.",
+      "B": "Halkasal DNA'da her iki yönde devam eder.",
+      "C": "Yeni DNA zincirinin sentezi 5'-3' yönündedir.",
+      "D": "Okazaki fragmentleri her iki DNA zinciri sentezinde oluşur.",
+      "E": "Kalıp zincir (leading strand) 3'-5' yönünde okunur."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D seçeneği yanlıştır:** Okazaki fragmentleri (kesikli sentez), sadece 5' $\\rightarrow$ 3' yönünde kesintisiz sentezlenemeyen **geciken (lagging) zincirde** sentezlenir. Kesintisiz (leading) zincirde Okazaki parçacıkları oluşmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "I. Primaz\nII. Helikaz\nIII. Peptidil transferaz\nHangilerinin DNA replikasyonunda işlevi vardır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **I (Primaz) ve II (Helikaz):** DNA replikasyonunda hidrojen bağlarını açan (Helikaz) ve RNA primeri sentezleyen (Primaz) temel enzimlerdir.\n- **III (Peptidil transferaz):** Translasyon esnasında (protein sentezinde) aminoasitler arasında peptid bağı kuran ribozimdir; DNA replikasyonunda işlevi yoktur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 EUS"
+  },
+  {
+    "question": "Prokaryotik hücrelerde DNA replikasyonunun başlaması için gerekli olan RNA primerleri aşağıdaki enzimlerden hangisi tarafından sentezlenir?",
+    "options": {
+      "A": "DNA polimeraz I",
+      "B": "Telomeraz",
+      "C": "DNA primaz",
+      "D": "Topoizomeraz",
+      "E": "DNA polimeraz gama"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- DNA polimerazlar sıfırdan zincir başlatamadıkları için serbest 3'-OH ucuna ihtiyaç duyarlar. Bu serbest ucu sağlayan RNA primerlerini sentezleyen enzim **DNA Primaz (DnaG)**'dır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar DUS"
+  },
+  {
+    "question": "DNA replikasyonunda görev alan aşağıdaki enzimlerden hangisi ekzonükleaz aktivitesi ile hatalı okumanın düzeltilmesinde (proofreading) rol alır?",
+    "options": {
+      "A": "DNA helikaz",
+      "B": "Topoizomeraz",
+      "C": "Primaz",
+      "D": "DNA ligaz",
+      "E": "DNA polimeraz I (ve III)"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **DNA polimeraz I ve III (ve ökaryotik Pol $\\delta$, Pol $\\epsilon$):** Kendilerine ait **3' $\\rightarrow$ 5' ekzonükleaz** aktiviteleri sayesinde yanlış eşleşen nükleotidleri geriye dönük okuyup keserek düzeltme (proofreading) yaparlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Mitokondriyal DNA sentezinden sorumlu DNA polimeraz aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Alfa ($\\alpha$)",
+      "B": "Beta ($\\beta$)",
+      "C": "Gama ($\\gamma$)",
+      "D": "Delta ($\\delta$)",
+      "E": "Epsilon ($\\epsilon$)"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- Ökaryotik DNA Polimerazlar:\n  - **Pol $\\alpha$:** Primaz aktivitesi gösterir, başlangıç RNA/DNA primerini sentezletir.\n  - **Pol $\\beta$:** Baz kesim tamirinde (BER) görev alır.\n  - **Pol $\\gamma$:** Doğru cevap. Mitokondriyal DNA'nın (mtDNA) replikasyonu ve tamirinden sorumludur.\n  - **Pol $\\delta$:** Geciken (lagging) zincir sentezi ve tamir.\n  - **Pol $\\epsilon$:** Kesintisiz (leading) zincir sentezi.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Hatalı aminoasitin protein sentezine katıldığı mutasyon tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Anlamsız (Nonsense)",
+      "B": "Yanlış anlamlı (Missense)",
+      "C": "Delesyon",
+      "D": "İnsersiyon",
+      "E": "Çerçeve kayması (Frameshift)"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **Yanlış anlamlı (Missense) mutasyon:** Bir baz değişıklığı sonucunda kodonun farklı bir aminoasidi şifrelemesi durumudur (Örn: Orak hücreli anemide Glutamat yerine Valin girmesi).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "mRNA'daki AAA nükleotid diziliminde olan bir kodon, mutasyon sonucu AAG nükleotid dizilimine dönüşmüştür. Her iki kodon da lizin amino asitini şifrelemektedir. Bu mutasyon tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Yanlış anlamlı mutasyon",
+      "B": "Anlamsız mutasyon",
+      "C": "Sessiz (Silent) mutasyon",
+      "D": "Dinamik mutasyon",
+      "E": "Çerçeve kayması mutasyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Sessiz (Silent) mutasyon:** Baz değişmesine rağmen yeni kodonun da **aynı aminoasidi** şifrelemesidir. Proteinin yapısında ve diziliminde hiçbir değişiklik meydana gelmez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 DUS"
+  },
+  {
+    "question": "Protein kodlayan bir gende meydana gelen nokta mutasyonu sonucunda, açık okuma çerçevesinde yeni bir dur kodonu oluşmuştur. Protein sentezinin erken sonlanmasına neden olan bu mutasyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çerçeve kayması mutasyonu",
+      "B": "Anlamsız (Nonsense) mutasyon",
+      "C": "Yanlış anlamlı (Missense) mutasyon",
+      "D": "Kırpılma hatası mutasyonu",
+      "E": "Sessiz mutasyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **Anlamsız (Nonsense) mutasyon:** Aminoasit kodlayan bir kodonun nokta mutasyonu ile erken bir stop (dur) kodonuna (UAA, UAG, UGA) dönüşmesidir. Protein sentezi erken kesilir (güdük protein).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde DNA tamir mekanizmaları etkisizdir?",
+    "options": {
+      "A": "Depürinasyon",
+      "B": "Replikasyon hataları",
+      "C": "Timin dimerleri oluşumu",
+      "D": "Deaminasyon",
+      "E": "Kromozom translokasyonu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Depürinasyon/Deaminasyon (Baz kesim tamiri), Replikasyon hataları (Yanlış eşleşme tamiri - Mismatch repair) ve Timin dimerleri (Nükleotid kesim tamiri - NER) hücresel DNA tamir enzimleri tarafından düzeltilebilir.\n- **E) Kromozom translokasyonu:** Kromozom segmentlerinin yer değiştirdiği büyük ölçekli yapısal kromozom anomalisidir; standart DNA nokta tamir sistemleri tarafından düzeltilemez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "DNA'da deaminasyona uğramış bazları uzaklaştırarak tamirin başlamasına yardımcı olan enzim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "DNA ligaz",
+      "B": "Ekzonükleaz",
+      "C": "DNA polimeraz",
+      "D": "DNA glikozilaz",
+      "E": "Endonükleaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- Baz Kesim Tamirinde (BER) ilk adım, deaminasyona uğramış veya hasarlı bazı N-glikozidik bağını kırarak uzaklaştıran **DNA Glikozilaz** enzimidir. Geride AP (apurinik/apirimidinik) alan bırakır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi DNA tamir yolaklarında sitozin deaminasyonu sonrası rol alan enzimdir?",
+    "options": {
+      "A": "Adenin DNA glikozilaz",
+      "B": "Urasil DNA glikozilaz",
+      "C": "Sitozin DNA glikozilaz",
+      "D": "Timin DNA glikozilaz",
+      "E": "Guanin DNA glikozilaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Sitozin spontan deaminasyona uğradığında **Urasil**'e dönüşür. DNA yapısında urasil bulunmaması gerektiğinden bu anormal bazı tanıyan ve koparan enzim **Urasil DNA Glikozilaz**'dır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar DUS"
+  },
+  {
+    "question": "DNA baz-kesim tamirinde aşağıdaki enzimlerden hangisi rol oynamaz?",
+    "options": {
+      "A": "DNA glikozilaz",
+      "B": "Endonükleaz",
+      "C": "DNA metilaz",
+      "D": "DNA polimeraz I (veya Pol $\\beta$)",
+      "E": "DNA ligaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- Baz kesim tamirinde (BER) sırasıyla: 1) DNA Glikozilaz, 2) AP Endonükleaz, 3) DNA Polimeraz ve 4) DNA Ligaz görev yapar. **DNA metilaz** ise tamir enzimi değildir, epiginetik modifikasyon yapar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "DNA hasarlarının çok önemli bir kısmının onarılmasında rol oynayan ve eksikliği Kseroderma Pigmentozum hastalığına yol açan DNA onarım yolu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Baz kesip-çıkarma onarım yolu",
+      "B": "Nükleotid kesip-çıkarma onarım yolu (NER)",
+      "C": "Post-replikasyonel onarım yolu",
+      "D": "Yanlış eşleşmiş nükleotidlerin onarım yolu",
+      "E": "Doğrudan hasar onarım yolu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- UV ışınları sonucu oluşan **Timin (pirimidin) dimerleri**, **Nükleotid Kesip-Çıkarma Onarımı (NER)** mekanizması (ABC eksinükleaz) ile düzeltilir. NER mekanizmasındaki mutasyonlar güneşe aşırı duyarlılık ve cilt kanserleri ile seyreden **Kseroderma Pigmentozum** hastalığına neden olur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar DUS"
+  },
+  {
+    "question": "Çocuk sağlığı ve hastalıkları polikliniğine getirilen 9 aylık bir bebeğin fizik muayenesinde; güneşe maruz kalan deri alanlarında hiperpigmentasyon, ülseratif deri lezyonları saptanıyor. Genetik analizler sonucunda nükleotid eksizyon onarımı defekti tanısı konuluyor. Bu semptomlara yol açabilecek en olası DNA hasarı hangisidir?",
+    "options": {
+      "A": "Tranzisyon mutasyonu",
+      "B": "İnsersiyon ve delesyon",
+      "C": "Pirimidin dimerlerinin oluşumu",
+      "D": "Baz metilasyonu",
+      "E": "DNA çift zincir kırıkları"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- Güneşin UV radyasyonu yan yana duran pirimidin bazları (özellikle iki timin) arasında kovalent bağlar kurarak **Pirimidin (Timin-Timin) Dimerleri** oluşturur. Bu hasar NER (nükleotid eksizyon onarımı) ile tamir edilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "İntron bölgelerinin çıkartılmasında işlev gören RNA molekülü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "mRNA",
+      "B": "tRNA",
+      "C": "rRNA",
+      "D": "siRNA",
+      "E": "snRNA"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Ökaryotik hnRNA (pre-mRNA) yapısındaki intronların kesilip ekzonların birleştirilmesi (Splicing / Kırpılma) işlemi çekirdekte **snRNA (küçük nükleer RNA)** ve protein bileşimi olan **snRNP (splisozom)** tarafından gerçekleştirilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ökaryotlarda RNA polimeraz I tarafından sentezlenir?",
+    "options": {
+      "A": "mRNA",
+      "B": "miRNA",
+      "C": "snRNA",
+      "D": "tRNA",
+      "E": "rRNA (5.8S, 18S, 28S)"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Ökaryotik RNA Polimerazlar:\n  - **RNA Polimeraz I:** Çekirdekçikte büyük **rRNA** öncüllerini (5.8S, 18S, 28S rRNA) sentezler.\n  - **RNA Polimeraz II:** **mRNA, snRNA, miRNA** sentezler (a-amanitin'e çok duyarlı).\n  - **RNA Polimeraz III:** **tRNA ve 5S rRNA** sentezler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki RNA tiplerinden hangisi gen ifadesini baskılama (RNA girişim / RNAi) özelliğine sahiptir?",
+    "options": {
+      "A": "tRNA",
+      "B": "rRNA",
+      "C": "miRNA / siRNA",
+      "D": "Pre-mRNA",
+      "E": "hnRNA"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **miRNA (mikroRNA) ve siRNA (küçük müdahaleci RNA):** Hedef mRNA dizilerine komplementer olarak bağlanıp mRNA'nın yıkımını indükler veya translasyonunu bloklayarak post-transkripsiyonel düzeyde **gen ifadesini baskılarlar (gen susturma)**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 EUS"
+  },
+  {
+    "question": "RNA sentezi ile ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "RNA polimerazların 3'-5' ekzonükleaz aktivitesi yoktur.",
+      "B": "DNA replikasyonu ve transkripsiyondaki hata oranı yaklaşık aynıdır.",
+      "C": "Promotor, RNA polimerazın bağlandığı DNA bölgesidir.",
+      "D": "Ökaryotlarda farklı RNA'lar, farklı RNA polimerazlar tarafından sentezlenir.",
+      "E": "Ökaryotlarda mRNA sentezini polimeraz II katalizler."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B seçeneği yanlıştır:** RNA polimerazların 3' $\\rightarrow$ 5' ekzonükleaz (proofreading) aktivitesi bulunmadığı için transkripsiyondaki hata oranı, DNA replikasyonuna kıyasla **çok daha yüksektir** ($10^{-4}$ civarı).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki DNA bölgelerinin hangisinde TATA dizisi yer alır?",
+    "options": {
+      "A": "İntron",
+      "B": "Promotor",
+      "C": "Ekzon",
+      "D": "3'-UTR",
+      "E": "5'-UTR"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Transkripsiyon başlama noktasının yaklaşık 25 nükleotid gerisinde (-25) yer alan **TATA kutusu (Hogness kutusu)**, RNA Polimeraz II ve genel transkripsiyon faktörlerinin bağlandığı **Promotor** bölgesinde bulunur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi mRNA'nın olgunlaşma sürecinde gerçekleşen değişikliklerden biri değildir?",
+    "options": {
+      "A": "Poli-adenin (Poli-A) kuyruğu takılması",
+      "B": "7-metil guanin şapka takılması",
+      "C": "İntronların kesilerek çıkarılması",
+      "D": "Ekzonların birleştirilmesi",
+      "E": "mRNA'nın miRNA ile etkileşmesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Post-transkripsiyonel mRNA olgunlaşması (çekirdekte): 5' Şapka (7-metilguanozin), 3' Poli-A kuyruğu eklenmesi ve İntron kırpılmasıdır (Splicing).\n- **E) miRNA ile etkileşim:** Olgun mRNA sitoplazmaya çıktıktan sonra gerçekleşen gen susturma sürecidir, mRNA olgunlaşma aşaması değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki bölgelerden hangisi pre-mRNA'da aminoasit dizisini kodlayan gen bölgelerini içermemektedir?",
+    "options": {
+      "A": "Poliadenilasyon dizileri",
+      "B": "İntron",
+      "C": "Ekzon",
+      "D": "Promotor",
+      "E": "CpG adaları"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **İntronlar:** Transkribe edilen ancak olgunlaşma sırasında kesilip atılan ve **protein/aminoasit şifresi taşımayan** kodlamayan dizilerdir. (Ekzonlar ise protein şifresi taşır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar DUS"
+  },
+  {
+    "question": "Ökaryotik hücrelerde protein sentezi her zaman aşağıdaki aminoasitlerden hangisi ile başlar?",
+    "options": {
+      "A": "Metionin",
+      "B": "Arjinin",
+      "C": "Histidin",
+      "D": "Triptofan",
+      "E": "Lizin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- Başlama kodonu **AUG**'dir. Ökaryotlarda translasyon her zaman serbest **Metionin** ile başlar. (Prokaryotlarda ise Formil-metionin - fMet kullanılır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ökaryot hücrelerdeki dur kodonlarından biridir?",
+    "options": {
+      "A": "AUG",
+      "B": "UGA",
+      "C": "CCA",
+      "D": "GUA",
+      "E": "ACC"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Genetik kodda 3 adet stop (durma/sonlanma) kodonu vardır: **UAA, UAG ve UGA**. (AUG ise başlama kodonudur).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar DUS"
+  },
+  {
+    "question": "Protein sentezinde antikodon aşağıdaki moleküllerin hangisinde yer alır?",
+    "options": {
+      "A": "Ribozom",
+      "B": "DNA",
+      "C": "rRNA",
+      "D": "tRNA",
+      "E": "mRNA"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **tRNA (Taşıyıcı RNA):** Üzerinde mRNA'daki kodon ile antiparalel ve komplementer baz eşleşmesi yapan 3 nükleotidlik **Antikodon kolunu** taşır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 DUS"
+  },
+  {
+    "question": "Protein sentezinde başlangıç kodonuna uygun amino asit tRNA'ya bağlanırken aşağıdakilerden hangisine ihtiyaç yoktur?",
+    "options": {
+      "A": "Metionil tRNA sentetaz",
+      "B": "tRNA",
+      "C": "GTP",
+      "D": "ATP",
+      "E": "Metionin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- Aminoaçil-tRNA sentetaz enzimi aminoasidi tRNA'ya bağlarken (aminoasit aktivasyonu) **ATP** harcar ($ATP \\rightarrow AMP + PP_i$). Bu basamakta **GTP kullanılmaz**. (GTP translasyonun uzama ve kayma/translokasyon aşamalarında kullanılır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi protein sentezinde amino asitlerin aktivasyonundan sorumlu aminoaçil-tRNA sentetazın katalizlediği reaksiyonda kullanılan yüksek enerjili fosfat bileşiğidir?",
+    "options": {
+      "A": "ATP",
+      "B": "CTP",
+      "C": "GTP",
+      "D": "UTP",
+      "E": "TTP"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- Aminoaçil-tRNA sentetaz reaksiyonu:\n  1. Aminoasit + ATP $\\rightarrow$ Aminoaçil-AMP + PPi\n  2. Aminoaçil-AMP + tRNA $\\rightarrow$ Aminoaçil-tRNA + AMP\n- Bu süreçte harcanan enerji **ATP** tarafından sağlanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 DUS"
+  },
+  {
+    "question": "Protein sentezinde enerji kaynağı olarak doğrudan kullanılan nükleotidler hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "ATP - CTP",
+      "B": "GTP - CTP",
+      "C": "GTP - UTP",
+      "D": "ATP - UTP",
+      "E": "GTP - ATP"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Protein sentezinde (translasyon):\n  - Aminoasitlerin şarj edilmesinde (tRNA'ya bağlanması) **ATP** kullanılır.\n  - İnisiasyon, Elongasyon (A bölgesine giriş ve Translokasyon) ve Terminasyon adımlarında **GTP** kullanılır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Translasyon sırasında amino asitler arasında bağ yapımından sorumlu enzim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Peptidil transferaz",
+      "B": "DNA polimeraz",
+      "C": "Revers transkriptaz",
+      "D": "RNA polimeraz",
+      "E": "Topoizomeraz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- Ribozomun büyük alt biriminde (Prokaryotlarda 23S rRNA, Ökaryotlarda 28S rRNA) yer alan **Peptidil Transferaz** enzimi (bir ribozom katalizörü/ribozimdir) P ve A bölgelerindeki aminoasitler arasında peptid bağını oluşturur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 EUS"
+  },
+  {
+    "question": "Protein sentezinde yer alan aminoaçil-tRNA sentetaz ile ilgili hangisi yanlıştır?",
+    "options": {
+      "A": "\"Proofreading\" özelliği ile doğru amino asit, spesifik tRNA'ya bağlanır.",
+      "B": "Reaksiyon gerçekleşirken ATP, AMP ve PP'ye ayrışır.",
+      "C": "Amino asitler spesifik tRNA'nın 3' ucundaki adenin nükleotidine bağlanır.",
+      "D": "tRNA'daki nükleotidin ribozu ile amino asit arasında ester bağı oluşur.",
+      "E": "Aminoaçil-tRNA oluşumu tek aşamada gerçekleşir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Aminoaçil-tRNA sentetaz reaksiyonu **iki aşamalıdır**:\n  1. Aşama (Aktivasyon): $Aminoasit + ATP \\rightarrow Aminoaçil-AMP + PP_i$\n  2. Aşama (Transfer): $Aminoaçil-AMP + tRNA \\rightarrow Aminoaçil-tRNA + AMP$\n  Dolayısıyla tek aşamada değil, iki ayrı basamakta gerçekleşir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Genetik kod ve kodon kavramıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Genetik kod dört farklı nükleotidin üçünün kombinasyonu ile oluşur.",
+      "B": "Bir kodon dizisi üç nükleotidden oluşur.",
+      "C": "Bir amino asit farklı kodonlarca kodlanabilir.",
+      "D": "Bir kodon birden fazla amino asidi kodlayabilir.",
+      "E": "Bazı kodonların amino asit karşılığı yoktur."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- Genetik kod **Spesifiktir (Özgüldür)**: Belli bir kodon **yalnızca tek bir spesifik aminoasidi** şifreler. Asla bir kodon birden fazla farklı aminoasidi kodlayamaz!\n- (Bir aminoasidin birden fazla kodonu olmasına ise *Degeneracy/Degenerelik* denir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde RNA görev almaz?",
+    "options": {
+      "A": "Amino asitlerin aktivasyonunda",
+      "B": "Protein sentezinin başlamasında",
+      "C": "Amino asit zincirinin uzamasında",
+      "D": "Protein sentezinin sonlanmasında",
+      "E": "Sentez sonrası protein modifikasyonunda"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- A) Aminoasitlerin aktivasyonunda t-RNA, B) Başlamada m-RNA ve t-RNA, C) Uzamada r-RNA (peptidil transferaz), D) Sonlanmada m-RNA görev yapar.\n- **E) Sentez sonrası protein modifikasyonunda (Post-translasyonel modifikasyonlar):** Proteinlerin glikozilasyonu, fosforilasyonu, hidroksilasyonu vb. işlemler tamamen hücresel **enzimler** (kinaz, transferazlar) tarafından yürütülür; RNA rol almaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, protein sentezi sonrasında gerçekleşen modifikasyonlardan biri değildir?",
+    "options": {
+      "A": "Hidroksilasyon",
+      "B": "Palmitolasyon",
+      "C": "Fosforilasyon",
+      "D": "Poliadenilasyon",
+      "E": "Glikozilasyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- Hidroksilasyon, Açilasyon/Palmitolasyon, Fosforilasyon ve Glikozilasyon proteinlere uygulanan post-translasyonel modifikasyonlardır.\n- **D) Poliadenilasyon (Poli-A kuyruğu eklenmesi):** Çekirdekte pre-mRNA'ya uygulanan **post-transkripsiyonel (RNA olgunlaşma)** modifikasyonudur, protein modifikasyonu değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin ökaryotik hücrelerde görülen epigenetik mekanizmalarla ilişkili olması en az olasıdır?",
+    "options": {
+      "A": "DNA metilasyonu",
+      "B": "DNA fosforilasyonu",
+      "C": "Histon asetilasyonu",
+      "D": "Histon metilasyonu",
+      "E": "miRNA işlevi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Epigenetik mekanizmalar: DNA metilasyonu (Sitozin metilasyonu), Histon modifikasyonları (Asetilasyon, Metilasyon, Ubikuitinasyon) ve non-coding RNA'lardır (miRNA/siRNA).\n- **DNA fosforilasyonu:** İnsan genetik kuralında epingenetik gen anlatım düzenlenmesi mekanizması olarak tanımlanmamıştır (Fosforilasyon proteinlere uygulanan bir modifikasyondur).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi gen ifadesinin kontrolünde etkili değildir?",
+    "options": {
+      "A": "Genin kontrol bölgesindeki CpG adalarında bulunan sitozinlerin metillenmesi",
+      "B": "DNA sarımı ile etkileşen histon proteinlerine ait kuyrukların kimyasal modifikasyonları",
+      "C": "Dokuya özgü transkripsiyon faktörleri",
+      "D": "Transkripsiyonu yapılacak genin uzunluğu",
+      "E": "miRNA molekülleri"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- DNA metilasyonu, histon modifikasyonları, transkripsiyon faktörleri ve miRNA'lar gen ifadesini (transkripsiyonel veya post-transkripsiyonel) belirleyen ana düzenleyicilerdir.\n- **Genin uzunluğu:** Genin anlatım (ekspresyon) düzeyini veya aktif/pasif durumunu belirleyen bir gen düzenleme mekanizması değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, hücre genomunda yer alan belirli bir bölgede CpG adacıklarında yaygın metilasyon gözlenmesi durumunun işlevsel bir sonucudur?",
+    "options": {
+      "A": "DNA diziliminin bozulması",
+      "B": "Transkripsiyonun baskılanması",
+      "C": "mRNA sentezinin aktive olması",
+      "D": "Kromozomda replikasyon hasarı oluşması",
+      "E": "Aminoasitlerin polipeptid zincirine eklenmesinde bozulma"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Promotor CpG adamlarındaki sitozinlerin metillenmesi, transkripsiyon faktörlerinin bağlanmasını engelleyip kromatini sıkılaştırarak (heterokromatin) **transkripsiyonun baskılanmasına (genin susturulmasına)** neden olur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 DUS"
+  },
+  {
+    "question": "Gen ekspresyonunun, ebeveynden kaynaklanan allele göre farklılık göstermesine ne ad verilir?",
+    "options": {
+      "A": "İzodisomi",
+      "B": "Heterodisomi",
+      "C": "Genomik imprinting",
+      "D": "Azalmış penetrans",
+      "E": "Epigenetik"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Genomik Imprinting (Genetik Damgalama):** Belli genlerin sadece anneden gelen kopyasının (maternal) ya da sadece babadan gelen kopyasının (paternal) ifade edilmesi, diğer alelin ise DNA metilasyonu ile susturulması durumudur (Örn: Prader-Willi ve Angelman sendromları).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar DUS"
+  },
+  {
+    "question": "Genomik imprinting ve nesilden nesile geçerken üçlü nükleotid tekrar hastalıklarında hastalığın şiddetinin artmasına (antisipasyon) neden olan mekanizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "DNA metilasyonu / Dinamik mutasyon",
+      "B": "Histon modifikasyonu",
+      "C": "Translokasyon",
+      "D": "Mikrodelesyon",
+      "E": "Baz mutasyonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- Nesiller boyunca trinükleotid tekrar sayılarının artmasıyla klinik semptomların daha erken yaşta ve daha ağır ortaya çıkması durumuna **Antisipasyon (Dinamik Mutasyon)** denir (Örn: Huntington hastalığı, Frajil X sendromu, Miyotonik distrofi).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 DUS"
+  },
+  {
+    "question": "Prokaryot hücrelerin operon sisteminde represör proteini aşağıdaki yapılardan hangisine bağlanır?",
+    "options": {
+      "A": "RNA polimeraz",
+      "B": "Ekzon",
+      "C": "Operatör",
+      "D": "Promotor",
+      "E": "Regülatör"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- Prokaryotik operonlarda (örn. Lac operonu), regülatör gen tarafından üretilen **represör protein**, DNA üzerindeki **Operatör** dizisine bağlanarak RNA polimerazın ilerlemesini fiziksel olarak engeller ve transkripsiyonu durdurur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar DUS"
+  },
+  {
+    "question": "Down sendromlu bir kız çocuğunun karyotipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "45, XX, -22",
+      "B": "46, XX / 47, XX, +15",
+      "C": "47, XX, +13",
+      "D": "47, XX, +18",
+      "E": "47, XX, +21"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **Down Sendromu (Trizomi 21):** 21. kromozomun 3 adet bulunması durumudur. Kız çocuk karyotipi: **47, XX, +21** (Erkek çocuk: 47, XY, +21).\n- (47, XX, +13: Patau sendromu; 47, XX, +18: Edwards sendromudur).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi sayısal kromozom anomalilerine örnek değildir?",
+    "options": {
+      "A": "Down sendromu",
+      "B": "Klinefelter sendromu",
+      "C": "Turner sendromu",
+      "D": "Cri-du-chat sendromu",
+      "E": "Trizomi 18"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- Down (Trizomi 21), Klinefelter (47,XXY), Turner (45,X) ve Trizomi 18 (Edwards) kromozom sayısındaki değişime bağlı **sayısal (aneuploidi)** anomalilerdir.\n- **D) Cri-du-chat (Kedi miyavlaması) sendromu:** 5. kromozomun kısa kolundaki (5p) parçanın kaybı sonucu oluşan **yapısal bir kromozom anomalisidir (delesyon)**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Turner sendromunda görülen kromozomal bozukluktur?",
+    "options": {
+      "A": "Monozomi",
+      "B": "Trizomi",
+      "C": "Tetraploidi",
+      "D": "Triploidi",
+      "E": "İzodisomi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **Turner Sendromu:** Cinsiyet kromozomlarından birinin eksikliği (**45, X**) ile seyreden klasik bir **cinsiyet kromozomu monozomisidir**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 DUS"
+  },
+  {
+    "question": "Babadan kalıtılamayan, sadece anneden kalıtılıp hem kız hem erkek çocuklara geçebilen bir hastalığın kalıtım şekli hangisidir?",
+    "options": {
+      "A": "Otozomal dominant",
+      "B": "Otozomal resesif",
+      "C": "Mitokondriyal kalıtım",
+      "D": "X'e bağlı resesif",
+      "E": "X'e bağlı dominant"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Maternal (Mitokondriyal) Kalıtım:** Zigotun tüm mitokondrileri yumurta hücresinden (anneden) geldiği için mitokondriyal hastalıklar **sadece anne aracılığıyla** tüm çocuklara (kız ve erkek) aktarılır. Hasta babadan çocuklarına aktarım olmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar DUS"
+  },
+  {
+    "question": "I. Anne ve babanın ikisi de taşıyıcıysa hasta çocuk olasılığı %25'tir.\nII. Anne ve babanın biri hasta, diğeri taşıyıcıysa hasta çocuk olasılığı %75'tir.\nIII. Anne ve babanın biri taşıyıcı, diğeri sağlıklıysa hasta çocuk olasılığı yoktur.\nOtozomal resesif bir hastalıkla ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **I. Öncül:** İki heterozigot taşıyıcı (Aa x Aa) evliliğinde: %25 AA (sağlıklı), %50 Aa (taşıyıcı), **%25 aa (hasta)** oluşur. (Doğru).\n- **II. Öncül:** Biri hasta (aa), diğeri taşıyıcı (Aa) evliliğinde: %50 Aa (taşıyıcı), **%50 aa (hasta)** oluşur (%75 değil!). (Yanlış).\n- **III. Öncül:** Biri taşıyıcı (Aa), diğeri sağlıklı (AA) evliliğinde: %50 AA, %50 Aa oluşur; **hasta çocuk (aa) oluşma şansı %0'dır**. (Doğru).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar DUS"
+  },
+  {
+    "question": "Aynı bireyde tek bir zigottan kaynaklanan farklı genetik yapının bir arada bulunmasına ne ad verilir?",
+    "options": {
+      "A": "Mozaiklik",
+      "B": "Uniparental dizomi",
+      "C": "Kimerizm",
+      "D": "Eksik penetrans",
+      "E": "Antisipasyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **Mozaiklik:** Tek bir zigottan gelişen organizmada, post-zigotik mitotik mutasyon veya nondisjunction sonucu iki veya daha fazla farklı karyotipe/genotipe sahip hücre hattının bulunmasıdır. (Farklı zigotlardan köken alma durumuna ise Kimerizm denir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi prenatal genetik tanı testi olarak kullanılmaz?",
+    "options": {
+      "A": "Amniyosentez materyali",
+      "B": "Koryonik villus materyali",
+      "C": "Vajinal smear materyali",
+      "D": "Annenin periferal kan örneği",
+      "E": "Kordosentez materyali"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- Amniyosentez, CVS, Kordosentez ve Annenin kanından serbest fetal DNA analizi (NIPT) doğum öncesi tanı testleridir. **Vajinal smear materyali** ise servikal sitoloji/enfeksiyon taramalarında kullanılır, fetal genetik materyal sağlamaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 DUS"
+  },
+  {
+    "question": "Aşağıdaki genetik patolojilerin hangisinde, karyotip analizi yapılırken, kromozomlarda sayısal ya da yapısal bir anomali gözlenmez?",
+    "options": {
+      "A": "Delesyon",
+      "B": "Uniparental dizomi",
+      "C": "Ring kromozom",
+      "D": "Triploidi",
+      "E": "Translokasyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **Uniparental Dizomi (UPD):** Bireyin belli bir kromozom çiftinin her iki üyesini de tek bir ebeveynden alması durumudur (örn. 15. kromozomun ikisinin de anneden gelmesi). Karyotip bakıldığında kromozom sayısı (46) ve mikroskobik yapısı tamamen normal görünür; standart karyotip analiziyle ayırt edilemez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 DUS"
+  },
+  {
+    "question": "Psödogenler ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Dizileri fonksiyonel gene benzerlik gösterir.",
+      "B": "Yüksek oranda translasyona uğrarlar.",
+      "C": "Gen duplikasyonları ile oluşurlar.",
+      "D": "Ekzon, intron ya da her ikisini de içerebilirler.",
+      "E": "Dizide pek çok mutasyon barındırırlar."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **Psödogenler (Yalancı genler):** İşlevsel genlerin duplikasyonu ile oluşan ancak evrimsel süreçte biriken mutasyonlar nedeniyle transkripsiyon veya translasyon yeteneğini yitirmiş **non-fonksiyonel (protein kodlamayan)** gen kopyalarıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 DUS"
+  },
+  {
+    "question": "Mitoz bölünme ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Bir eşitlik bölünmesi olup somatik hücrelerde gerçekleşir.",
+      "B": "Bölünme sonunda genetik yapısı aynı iki hücre oluşur.",
+      "C": "Anafaz safhasında homolog kromozomlar kutuplara çekilir.",
+      "D": "Profaz safhasında homolog kromozomlar arasında gen alışverişi olmaz.",
+      "E": "Zigotun oluşumundan canlının ölümüne kadar gerçekleşebilir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C seçeneği yanlıştır:** Mitozun anafazında **kardeş kromatidler** (kardeş sentromerlerin ayrılmasıyla) zıt kutuplara çekilir. Homolog kromozomların ayrılması ise **Mayoz I'in Anafaz I** safhasında gerçekleşir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Canlılarda genetik çeşitliliğin artışına neden olan rekombinasyon, hücre bölünmesinin hangi safhasında meydana gelir?",
+    "options": {
+      "A": "Mayoz I profazında",
+      "B": "Mayoz I metafazında",
+      "C": "Mayoz II profazında",
+      "D": "Mayoz II metafazında",
+      "E": "Mayoz I anafazında"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- Krossing-over (genetik rekombinasyon) **Mayoz I'in Profaz I (Pakiten)** evresinde homolog kromozomların kardeş olmayan kromatidleri arasında gerçekleşir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 DUS"
+  },
+  {
+    "question": "Memelilerde bir nesilden diğerine aktarılan genetik çeşitliliğin birincil nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Erken embriyo gelişiminde meydana gelen epigenetik düzenlenmeler",
+      "B": "Erken embriyo gelişiminde meydana gelen somatik mutasyonlar",
+      "C": "İkinci mayoz bölünme sırasında meydana gelen ayrılmama",
+      "D": "Gamet oluşumunda meydana gelen \"alternative splicing\"",
+      "E": "Birinci mayoz bölünme sırasında meydana gelen \"crossing-over\""
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Mayoz bölünmenin Profaz I aşamasında gerçekleşen **Krossing-over (Crossing-over)**, maternal ve paternal alellerin yeniden harmanlanmasını sağlayarak kuşaktan kuşağa aktarılan genetik çeşitliliğin en temel mekanizmasıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 10 - GENETİK Nükleotidler ve Genom",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 DUS"
+  }
+]

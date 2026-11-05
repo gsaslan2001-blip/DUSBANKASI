@@ -1,0 +1,1838 @@
+[
+  {
+    "q_num": 354,
+    "question": "Periodontal tedavi fazlarından hangisinde endodontik tedavi uygulanır?",
+    "options": {
+      "A": "Faz I tedavi",
+      "B": "Faz II tedavi",
+      "C": "Faz III tedavi",
+      "D": "Faz IV tedavi",
+      "E": "Öncelikli faz tedavi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Klasik periodontal tedavi planlamasında periodontal cerrahi işlemler, implant yerleştirilmesi ve bunlarla ilişkili endodontik tedaviler Faz II (Cerrahi Faz) tedavi basamağı içerisinde yer alır (acil ağrılı pulpal durumlar ise Başlangıç/Acil Fazda ele alınabilir).\n**Çeldiriciler:**\n- A) Faz I (Cerrahi Olmayan / Etiyotropik Faz); plak kontrolü, diştaşı temizliği, kök yüzeyi düzleştirmesi, çürük kontrolü ve taşkın restorasyonların düzeltilmesini kapsar.\n- C) Faz III (Restoratif Faz); kalıcı sabit ve hareketli protetik restorasyonların yapıldığı fazdır.\n- D) Faz IV (İdame Fazı / Destekleyici Periodontal Tedavi); periyodik kontrollerin, plak/diştaşı kontrolünün ve oklüzyon takibinin yapıldığı fazdır.\n- E) Öncelikli (Acil) faz; akut apse drenajı veya umutsuz dişlerin acil çekimi gibi acil müdahaleleri içerir.\n\n---",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 355,
+    "question": "Aşağıdakilerden hangisi Faz I tedavi uygulamalarındandır?",
+    "options": {
+      "A": "Endodontik tedavi",
+      "B": "Final restorasyonlar",
+      "C": "Flap operasyonu",
+      "D": "Serbest dişeti grefti",
+      "E": "Geçici splint uygulamaları"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Faz I (Cerrahi olmayan) periodontal tedavi aşamasında; diştaşı temizliği ve kök yüzeyi düzleştirmesi, çürük temizliği, antimikrobiyal tedavi, okluzal uyumlama, minör ortodontik hareketler ve mobil dişlerin stabilizasyonu için geçici protetik uygulamalar ile splintler yapılır.\n**Çeldiriciler:**\n- A) Endodontik tedavi Faz II (cerrahi) tedavi aşamasında yer alır.\n- B) Final restorasyonlar Faz III (restoratif) tedavi aşamasında uygulanır.\n- C) Flap operasyonu Faz II (cerrahi) tedavi aşamasındadır.\n- D) Serbest dişeti grefti mukogingival bir cerrahi işlem olup Faz II tedavi kapsamındadır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 356,
+    "question": "I. Ağrıyan dişe kanal tedavisi yapılması\nII. Mevcut dişeti çekilmelerinin cerrahi olarak tedavi edilmesi\nIII. Kanal tedavisi yapılmış dişe daimi restorasyon yapılması\nIV. Prematür kontaktların giderilmesi\n\nKliniğimize başvuran 25 yaşında erkek hastanın muayenesi sonucunda yukarıda belirtilen tedavilerin uygulanması gerektiğine karar verilmiştir. Bu tedavilerin en doğru uygulanma sırası nasıl olmalıdır?",
+    "options": {
+      "A": "I-II-III-IV",
+      "B": "I-III-IV-II",
+      "C": "I-IV-II-III",
+      "D": "IV-I-III-II",
+      "E": "II-I-III-IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Tedavi planlamasında sırasıyla; önce Acil/Başlangıç Faz (I), ardından Faz I cerrahi olmayan tedavi (IV), sonrasında Faz II cerrahi tedavi (II) ve en son Faz III restoratif tedavi (III) uygulanmalıdır. Dolayısıyla doğru sıralama I - IV - II - III şeklindedir.\n**Öncüllerin Analizi:**\n- I. Ağrıyan dişe kanal tedavisi yapılması: Akut ağrının giderilmesi acil (başlangıç) faz işlemidir ve ilk sırada yapılır (1. sıra).\n- II. Mevcut dişeti çekilmelerinin cerrahi olarak tedavi edilmesi: Mukogingival cerrahi bir işlem olup Faz II (cerrahi faz) kapsamındadır (3. sıra).\n- III. Kanal tedavisi yapılmış dişe daimi restorasyon yapılması: Kalıcı restorasyonlar Faz III (restoratif faz) kapsamındadır ve cerrahi iyileşme tamamlandıktan sonra yapılır (4. sıra).\n- IV. Prematür kontaktların giderilmesi: Okluzal terapi Faz I (cerrahi olmayan faz) işlemidir ve cerrahi fazdan önce uygulanır (2. sıra).\n**Çeldiriciler:**\n- A) Cerrahi ve restoratif işlemleri Faz I okluzal uyumlamadan (IV) önceye aldığı için yanlıştır.\n- B) Daimi restorasyonu (Faz III) cerrahi fazdan (Faz II) önceye koyduğu için yanlıştır.\n- D) Acil ağrılı durumu (I) okluzal uyumlamadan sonraya bıraktığı için yanlıştır.\n- E) Elektif mukogingival cerrahiyi (II) acil ağrı tedavisinin önüne koyduğu için yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 357,
+    "question": "Aşağıdakilerden hangisi \"Restoratif Faz (Faz III tedavi)\" içerisinde yer almaz?",
+    "options": {
+      "A": "Sabit protetik uygulamalar",
+      "B": "Endodontik tedavi",
+      "C": "Hareketli protetik uygulamalar",
+      "D": "Restoratif işlemler sonrası oluşan doku cevabının değerlendirilmesi",
+      "E": "Periodontal muayene"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Endodontik tedavi uygulamaları Restoratif Faz (Faz III) içerisinde değil, Cerrahi Faz (Faz II) veya akut durumlarda Acil Faz içerisinde yer alır.\n**Çeldiriciler:**\n- A) Sabit protetik restorasyonların yapımı Faz III tedavinin ana unsurudur.\n- C) Hareketli bölümlü veya tam protez uygulamaları Faz III kapsamındadır.\n- D) Yapılan final restorasyonlara karşı dişeti ve periodonsiyumun verdiği cevabın değerlendirilmesi Faz III içerisinde yapılır.\n- E) Restoratif işlemler tamamlandıktan sonra idame fazına geçmeden önce kapsamlı periodontal muayene Faz III sonunda gerçekleştirilir.\n\n---",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 358,
+    "question": "Aşağıdakilerden hangisi faz II tedavi uygulamalarındandır?",
+    "options": {
+      "A": "Endodontik tedavi",
+      "B": "Geçici splint uygulaması",
+      "C": "Diştaşı temizliği ve kök yüzey düzleştirilmesi",
+      "D": "Taşkın dolguların düzeltilmesi",
+      "E": "Dişsiz boşlukların protetik tedavisi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Periodontal cerrahi girişimler, implant cerrahisi ve endodontik tedaviler Faz II tedavi basamağında gerçekleştirilir.\n**Çeldiriciler:**\n- B) Geçici splint uygulaması Faz I (cerrahi olmayan) tedavi aşamasındadır.\n- C) Diştaşı temizliği ve kök yüzeyi düzleştirmesi (SRP) Faz I tedavinin temel işlemidir.\n- D) Plak retansiyonu yaratan taşkın dolguların düzeltilmesi Faz I tedavi kapsamındadır.\n- E) Dişsiz boşlukların kalıcı protetik tedavisi Faz III (restoratif) aşamasında yapılır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 359,
+    "question": "Aşağıdakilerden hangisi Faz I tedavi uygulamalarındandır?",
+    "options": {
+      "A": "Protez ve dolgulardaki olumsuzlukları düzeltmek",
+      "B": "Endodontik tedavi",
+      "C": "İmplant uygulamaları",
+      "D": "Final restorasyonlar",
+      "E": "Radyolojik kontroller"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Faz I (etiyotropik/cerrahi olmayan) tedavinin amacı gingival ve periodontal inflamasyona yol açan tüm lokal etiyolojik ve retantif faktörleri ortadan kaldırmaktır; bu kapsamda mevcut protez ve dolgulardaki taşkınlıklar ve uyumsuzluklar düzeltilir.\n**Çeldiriciler:**\n- B) Endodontik tedavi Faz II kapsamında yer alır.\n- C) Dental implantların cerrahi olarak yerleştirilmesi Faz II kapsamındadır.\n- D) Final (kalıcı) restorasyonlar Faz III kapsamındadır.\n- E) Periyodik klinik ve radyolojik kontroller Faz IV (idame fazı) kapsamındadır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 360,
+    "question": "Aşağıdakilerden hangisi periodontal tedavinin cerrahi fazını temsil eder?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Periodontal tedavi protokolünde Faz II, Cerrahi Fazı temsil eder. Faz I tedaviden sonra yapılan yeniden değerlendirmede cerrahi endikasyonu konulan bölgelere bu fazda müdahale edilir.\n**Çeldiriciler:**\n- A) Faz I; başlangıç (etiyotropik / cerrahi olmayan) periodontal tedavi fazıdır.\n- C) Faz III; restoratif ve protetik tedavi fazıdır.\n- D) Faz IV; destekleyici periodontal tedavi (idame/koruyucu) fazıdır.\n- E) Standart periodontal tedavi sınıflamasında Faz V adında bir basamak bulunmamaktadır.\n\n---",
+    "flag_reason": "DUS 2016 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 361,
+    "question": "Aşağıdakilerden hangisi Faz III tedavi uygulamalarındandır?",
+    "options": {
+      "A": "Endodontik tedavi",
+      "B": "Topikal flor uygulamaları",
+      "C": "Minör ortodontik tedaviler",
+      "D": "Hareketli protetik uygulamalar",
+      "E": "Scaling, root planning"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Faz III (Restoratif Faz); periodontal dokular sağlığına kavuşturulduktan sonra fonksiyon ve estetiğin iadesi amacıyla final restorasyonların, sabit ve hareketli protetik uygulamaların yapıldığı fazdır.\n**Çeldiriciler:**\n- A) Endodontik tedavi Faz II kapsamındadır.\n- B) Çürük kontrolü ve topikal flor uygulamaları Faz I kapsamındadır.\n- C) Minör ortodontik diş hareketleri Faz I kapsamındadır.\n- E) Scaling ve root planing (diştaşı temizliği ve kök yüzeyi düzleştirmesi) Faz I kapsamındadır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 363,
+    "question": "Aşağıdakilerden hangisi Faz 1 periodontal tedavi (başlangıç tedavisi) uygulamaları arasında yer almaz?",
+    "options": {
+      "A": "Fremitus bulgusu görülen maksiller orta kesici dişlerin minör oklüzal uyumlaması",
+      "B": "Hastaya klorheksidin içeren gargara reçete edilmesi",
+      "C": "Diş taşı temizliği ve kök yüzeyi düzleştirilmesi",
+      "D": "Serbest diş eti grefti operasyonu",
+      "E": "Mandibular sağ 1. premolar dişte kole dolgusunun subgingival taşkınlığının düzeltilmesi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Serbest dişeti grefti (SDG) operasyonu, yapışık dişeti genişliğini artırmak veya kök yüzeyi örtülmesi sağlamak amacıyla yapılan periodontal plastik (mukogingival) bir cerrahi işlemdir ve Faz II (Cerrahi Faz) tedavi kapsamında yer alır.\n**Çeldiriciler:**\n- A) Okluzal travma ve fremitus varlığında yapılan minör okluzal uyumlamalar Faz I tedavide yer alır.\n- B) Plak kontrolünü desteklemek amacıyla antimikrobiyal gargaraların reçete edilmesi Faz I tedavidir.\n- C) Diştaşı temizliği ve kök yüzeyi düzleştirmesi Faz I tedavinin ana basamağıdır.\n- E) İatrojenik lokal irritasyon faktörü olan subgingival taşkın dolguların düzeltilmesi Faz I tedavidir.\n\n---",
+    "flag_reason": "DUS 2019 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 366,
+    "question": "I. Periodontal ligamentte inflamasyon\nII. Yüksek frenulum\nIII. Antagonist diş eksikliği\nIV. Hamilelik\nV. Okluzal travma\n\nYukarıdaki durumlardan hangileri diş mobilitesinde artışa neden olur?",
+    "options": {
+      "A": "II ve V",
+      "B": "I, III ve V",
+      "C": "II, III ve IV",
+      "D": "I, II, IV ve V",
+      "E": "I, III, IV ve V"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Periodontal ligamentin inflamasyonu, hipofonksiyona ve uzamaya yol açan antagonist diş eksikliği, hormonal değişimlerle vaskülarite ve bağ dokusu gevşemesi yaratan hamilelik ve okluzal travma diş mobilitesini artırırken; yüksek frenulum ataçmanı sadece dişeti çekilmesine ve keratinize doku azalmasına yol açar, mobilite artışı yapmaz.\n**Öncüllerin Analizi:**\n- I. Periodontal ligamentte inflamasyon: Dişetinden veya apeksten yayılan inflamasyon lif bütünlüğünü bozarak mobiliteyi artırır (Doğru).\n- II. Yüksek frenulum: Marjinal dişetini çekerek mukogingival problem yaratır ancak dişte mobilite artışına neden olmaz (Yanlış).\n- III. Antagonist diş eksikliği: Hipofonksiyon ve dişin okluzale doğru sürmesi (ekstrüzyonu) nedeniyle mobilite artışı beklenir (Doğru).\n- IV. Hamilelik: Artan seks steroidleri periodontal ligamentte sıvı artışına ve fizyolojik mobilite artışına yol açar (Doğru).\n- V. Okluzal travma: Periodontal ligament aralığının genişlemesi ve kemik yıkımı ile doğrudan mobiliteyi artırır (Doğru).\n**Çeldiriciler:**\n- A) Yanlış olan II. öncülü içerdiği için hatalıdır.\n- B) Doğru olan IV. öncülü (hamilelik) dışladığı için eksiktir.\n- C) Yanlış olan II. öncülü içerdiği için hatalıdır.\n- D) Yanlış olan II. öncülü içerdiği için hatalıdır.\n\n---",
+    "flag_reason": "DUS 2022 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 367,
+    "question": "Aşağıdaki durumlardan hangisi diş mobilitesinde artışa neden olmaz?",
+    "options": {
+      "A": "Periodontal ligamentte inflamasyon",
+      "B": "Yüksek frenulum",
+      "C": "Antagonist diş eksikliği",
+      "D": "Hamilelik",
+      "E": "Okluzal travma"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Yüksek frenulum ataçmanı, yapışık dişeti genişliğinin azalmasına, dişeti çekilmesine ve plak kontrolünün zorlaşmasına yol açabilen mukogingival bir etkendir; ancak doğrudan diş mobilitesinde artışa neden olan faktörlerden biri değildir.\n**Çeldiriciler:**\n- A) Periodontal ligament aralığına yayılan inflamasyon lif yıkımı ve ödem nedeniyle mobiliteyi artırır.\n- C) Antagonist dişin olmaması dişte hipofonksiyona ve bir miktar sürmeye (uzamaya) yol açarak mobiliteyi artırır.\n- D) Hamilelik, menstrüasyon ve oral kontraseptif kullanımı hormonal etkilerle mobiliteyi artırır.\n- E) Okluzal travmanın yaralanma ve remodelasyon evrelerinde periodontal aralık genişler ve mobilite artar.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 368,
+    "question": "Kırk beş yaşında Evre IV derece B periodontitis hastası, maksilla anterior dişlerinde sonradan oluşan diastemalar şikayetiyle kliniğe başvuruyor. Oral muayenesinde yukarıdaki gibi görünen durumu hangisi en iyi tanımlar?",
+    "options": {
+      "A": "Sınıf II divisyon 2",
+      "B": "Patolojik migrasyon",
+      "C": "Artmış okluzal kuvvetler",
+      "D": "Fremitus",
+      "E": "Pasif erüpsiyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Patolojik migrasyon; dişi fizyolojik konumunda tutan kuvvetler ile periodontal destek dokular arasındaki dengenin ileri periodontal yıkım (Evre IV periodontitis) nedeniyle bozulması sonucunda dişlerin yer değiştirmesi, vestibüle doğru eğilmesi (flaring) ve aralarında diastemalar oluşmasıdır.\n**Çeldiriciler:**\n- A) Sınıf II divisyon 2; üst kesicilerin retroklinasyonu ve derin kapanış ile karakterize iskeletsel/dişsel ortodontik maloklüzyondur.\n- C) Artmış okluzal kuvvetler patolojik migrasyona katkıda bulunan bir etken olabilir ancak oluşan klinik tablonun adı değildir.\n- D) Fremitus; çene kapatma veya fonksiyonel hareketler sırasında dişte oluşan titreşimin palpasyonla hissedilmesidir.\n- E) Pasif erüpsiyon; dişeti kenarının mine-sement sınırına doğru apikale göç etmesiyle klinik kuronun açığa çıkması sürecidir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 369,
+    "question": "Periodontal hastalık için klinik risk değerlendirmesi yapılırken kullanılan aşağıdaki parametre - kategori eşleşmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Mikrobiyal dental plak – Risk faktörü",
+      "B": "Cinsiyet – Risk determinantı",
+      "C": "Stres – Risk belirteçleri (indicator)",
+      "D": "Sondlamada kanama – Risk işaretleri (marker/predictor)",
+      "E": "Geçirilmiş periodontal hastalık – Risk işaretleri (marker/predictor)"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Stres; genetik faktörler, yaş, cinsiyet ve sosyoekonomik durum ile birlikte \"risk determinantları (belirleyicileri)\" kategorisinde yer alır. Risk göstergeleri (indicators) ise kesitsel çalışmalarla ilişkisi gösterilen HIV/AIDS, osteoporoz ve düzensiz diş hekimi ziyaretleri gibi durumlardır.\n**Çeldiriciler:**\n- A) Mikrobiyal dental plak, patojenik bakteriler, sigara ve diyabet nedensel ilişkisi longitudinal çalışmalarla kanıtlanmış gerçek risk faktörleridir.\n- B) Cinsiyet, yaş ve genetik gibi değiştirilemeyen arka plan özellikleri risk determinantlarıdır.\n- D) Sondlamada kanama, mevcut hastalık aktivitesini ve gelecekteki yıkımı öngören bir risk işaretidir (marker/predictor).\n- E) Geçirilmiş periodontal hastalık öyküsü (mevcut ataçman kaybı), gelecekteki hastalık ilerlemesinin en güçlü risk işaretidir (marker/predictor).\n\n---",
+    "flag_reason": "DUS 2022 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 370,
+    "question": "Stresin periodontal hastalıklar ile ilişkisi için aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Nekrotizan ülseratif gingivitiste etkendir.",
+      "B": "Psikosomatik hastalıklara sahip bireyler periodonsiyum için travmatik alışkanlıklara sahip olabilirler.",
+      "C": "Stresli bireylerde kortizol seviyelerinin azalması sonucu immün yanıtta şiddetlenme görülür.",
+      "D": "Stresli bireylerde periodontal yıkım artar.",
+      "E": "Periodontal hastalık için risk determinantıdır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Stresli bireylerde hipotalamo-hipofizer-adrenal aksın uyarılması sonucunda kortizol seviyeleri azalmaz, aksine artar. Artan kortizol seviyeleri de proinflamatuar sitokinleri ve bağışıklık hücrelerini baskılayarak immünsüpresyona (immün yanıtın zayıflamasına) yol açar.\n**Çeldiriciler:**\n- A) Akut stres, kortizol artışı ve mikrosirkülasyon bozukluğu yoluyla nekrotizan ülseratif gingivitisin (NUG) en önemli predispozan etkenlerinden biridir.\n- B) Psikolojik stres ve psikosomatik bozukluklar bruksizm, diş sıkma ve tırnak yeme gibi travmatik parafonksiyonel alışkanlıkları tetikler.\n- D) Stres hem immün yanıtı bozarak hem de bireyin oral hijyen alışkanlıklarını azaltıp sigara kullanımını artırarak periodontal yıkımı artırır.\n- E) Stres, sosyoekonomik durum ve yaş gibi faktörlerle birlikte risk determinantları (belirleyicileri) arasında sınıflandırılır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 371,
+    "question": "I. Keystone bakteri özelliklerini taşıması\nII. Tedavi ile hastalıklı bölgelerde elimine olması veya azalması\nIII. Deney hayvanı modellerinde hastalık oluşturabilme\nIV. Virülans faktörleri olması\n\nYukarıdakilerde hangi ya da hangileri (Sokransky Kriterleri) bir mikroorganizmanın periodontal patojen olması için taşıması gereken kriterlerdendir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve IV",
+      "C": "II, III ve IV",
+      "D": "I, II ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Socransky tarafından Koch postülatlarının periodontal hastalıklara uyarlanmasıyla oluşturulan kriterler; organizmanın hastalıklı bölgelerde artması, tedavi ile azalması/elimine olması, konakta spesifik immün yanıt oluşturması, hayvan modellerinde hastalık yapabilmesi ve doku yıkımından sorumlu virülans faktörlerine sahip olmasıdır. \"Keystone (kilit taşı) patojen\" kavramı ise çok daha sonra Hajishengallis tarafından tanımlanmıştır ve Socransky kriterlerinde yer almaz.\n**Öncüllerin Analizi:**\n- I. Keystone bakteri özelliklerini taşıması: Düşük sayıdayken bile mikrobiyotayı disbiyozise uğratma özelliğidir; Socransky kriterlerinden biri değildir (Yanlış).\n- II. Tedavi ile hastalıklı bölgelerde elimine olması veya azalması: Başarılı periodontal tedavi sonrası patojen sayısının düşmesi temel Socransky kriteridir (Doğru).\n- III. Deney hayvanı modellerinde hastalık oluşturabilme: Deneysel modellerde patojenite gösterilmesi Socransky kriteridir (Doğru).\n- IV. Virülans faktörleri olması: Periodontal doku tahribatına yol açan kanıtlanabilir virülans faktörlerine sahip olması Socransky kriteridir (Doğru).\n**Çeldiriciler:**\n- A) Yanlış olan I. öncülü içerdiği için hatalıdır.\n- B) Doğru olan III. öncülü dışladığı için eksiktir.\n- D) Yanlış olan I. öncülü içerdiği için hatalıdır.\n- E) Yanlış olan I. öncülü içerdiği için hatalıdır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 372,
+    "question": "\"Risk faktörü\" bir bireyde hastalık geliştirme olasılığını artıran, nedensel etkileşime sahip faktörlerin genel tanımıdır.\n\nBu tanıma göre \"periodontal hastalıkta rol oynayan risk faktörleri\" ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kontrol altında olmayan diabetes mellitus, periodontitis için risk faktörüdür.",
+      "B": "Risk faktörü olarak tanımlanan etkenin, periodontal hastalık gelişiminden önce var olması gereklidir.",
+      "C": "Risk faktörlerinin gösterilmesi için uygun örneklem büyüklüğü ile yapılmış kesitsel (cross-sectional) çalışmalar yeterlidir.",
+      "D": "Risk faktörlerinin etkileri uygun yaklaşımlar ile modifiye edilebilir.",
+      "E": "Sigara kullanımı, dental biofilm içerisinde periodontopatojenlerin kolonize olmalarına ve çoğalmalarına neden olan bir risk faktörüdür."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Bir etkenin gerçek \"risk faktörü\" olarak kabul edilebilmesi ve nedensellik ilişkisinin kanıtlanabilmesi için kesitsel (cross-sectional) çalışmalar yeterli değildir; etkenin hastalıktan önce var olduğunu ortaya koyan ileriye dönük (longitudinal/kohort) çalışmalarla kanıtlanmış olması gerekir. Kesitsel çalışmalarla saptanan olası etkenler ancak \"risk göstergesi (indicator)\" olarak adlandırılır.\n**Çeldiriciler:**\n- A) Kontrolsüz diyabet, periodontitisin şiddetini ve prevalansını nedensel olarak artıran kanıtlanmış bir risk faktörüdür.\n- B) Nedensellik ilkesi gereği risk faktörünün hastalık ortaya çıkmadan önce mevcut olması şarttır.\n- D) Risk faktörleri (sigaranın bırakılması, glisemik kontrolün sağlanması, biyofilmin uzaklaştırılması gibi) müdahalelerle modifiye edilebilir özelliktedir.\n- E) Sigara kullanımı hem konak yanıtını bozan hem de subgingival biyofilmde periodontopatojen kolonizasyonunu artıran majör bir risk faktörüdür.\n\n---",
+    "flag_reason": "İlkbahar 2023 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 373,
+    "question": "I. Bazen risk faktörü yerine kullanılsa da sadece o bireye ait modifiye edilemeyen risk faktörlerini kapsar.\nII. Bireyin hastalığa yakalanma olasılığını artıran çevresel, davranışsal veya biyolojik faktörlerdir. Longitudinal çalışmalarla hastalıkla direkt olarak ilişkili oldukları kanıtlanmıştır.\nIII. Hastalığa sebep olmayan ancak hastalık riskinin artmasıyla ilişkisi olan risk elemanlarıdır.\n\nRisk elemanlarına ilişkin yukarıda verilen tanımlamalarla ilgili aşağıdaki eşleşmelerden hangisi doğrudur?",
+    "options": {
+      "A": "RİSK FAKTÖRÜ: I – RİSK BELİRLEYİCİSİ: II – RİSK İŞARETİ: III",
+      "B": "RİSK FAKTÖRÜ: I – RİSK BELİRLEYİCİSİ: III – RİSK İŞARETİ: II",
+      "C": "RİSK FAKTÖRÜ: II – RİSK BELİRLEYİCİSİ: I – RİSK İŞARETİ: III",
+      "D": "RİSK FAKTÖRÜ: II – RİSK BELİRLEYİCİSİ: III – RİSK İŞARETİ: I",
+      "E": "RİSK FAKTÖRÜ: III – RİSK BELİRLEYİCİSİ: II – RİSK İŞARETİ: I"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Longitudinal çalışmalarla nedenselliği kanıtlanmış ve genellikle modifiye edilebilen etkenler \"Risk Faktörü\" (II); bireye ait genetik, yaş ve cinsiyet gibi modifiye edilemeyen özellikler \"Risk Belirleyicisi / Determinantı\" (I); hastalığa doğrudan sebep olmayan ancak gelecekteki hastalık artışı ile ilişkili olan bulgular (sondlamada kanama, geçmiş hastalık öyküsü) ise \"Risk İşareti / Markerı\" (III) olarak tanımlanır.\n**Öncüllerin Analizi:**\n- I. Bireye ait modifiye edilemeyen faktörler: Risk belirleyicisi (determinantı) tanımıdır.\n- II. Longitudinal çalışmalarla direkt ilişkisi kanıtlanmış çevresel/davranışsal/biyolojik faktörler: Risk faktörü tanımıdır.\n- III. Hastalığa sebep olmayan ancak riskin artmasıyla ilişkili olan elemanlar: Risk işareti (marker/predictor) tanımıdır.\n**Çeldiriciler:**\n- A) Risk faktörü ile risk belirleyicisinin tanımlarını birbiriyle karıştırmıştır.\n- B) Tüm tanımları yanlış kategorilerle eşleştirmiştir.\n- D) Risk belirleyicisi ile risk işaretinin yerlerini ters vermiştir.\n- E) Risk faktörü ve risk işareti tanımlarını ters eşleştirmiştir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 374,
+    "question": "Periodontal hastalık ve risk belirleyicileri açısından aşağıdaki bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Genetik faktörler periodontal hastalık görülme sıklığı ve şiddetini etkiler.",
+      "B": "Erkeklerde ortalama ataçman kaybı kadınlardan daha fazladır.",
+      "C": "Aynı miktar periodontal yıkım görülen bir genç ve bir yaşlı bireyden, yaşlı olanı daha fazla risk altındadır.",
+      "D": "Sosyo-ekonomik durumun düşüklüğü tek başına periodontitis şiddetini arttırmaz ancak ağız hijyeni yetersizliği ve diş hekimine gitme sıklığında azalmaya sebep olarak arttırabilir.",
+      "E": "Emosyonel stres normal immun fonksiyonların bozulmasına sebep olabilir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Aynı miktarda periodontal yıkım (ataçman kaybı) görülen iki bireyden yaşlı olanı değil, genç olanı çok daha fazla risk altındadır. Çünkü genç birey aynı miktardaki doku yıkımına çok daha kısa sürede ulaşmıştır (yıkım hızı/derecesi yüksektir) ve hastalığa neden olan faktörlere kalan yaşamı boyunca maruz kalma süresi daha uzun olacaktır.\n**Çeldiriciler:**\n- A) Genetik polimorfizmler ve kalıtsal sendromlar konağın inflamatuar yanıtını değiştirerek hastalık sıklığını ve şiddetini etkiler.\n- B) Epidemiyolojik çalışmalarda erkeklerde ağız hijyenine verilen önemin daha az, plak ve diştaşı miktarının daha fazla olmasına bağlı olarak ortalama ataçman kaybı kadınlardan yüksek bulunmuştur.\n- D) Düşük sosyoekonomik durum yetersiz plak kontrolü ve diş hekimi hizmetlerine erişim kısıtlılığı üzerinden gingivitis ve periodontitis riskini artırır.\n- E) Emosyonel stres dolaşımdaki kortizol düzeyini artırarak immün fonksiyonlarla etkileşime girer ve konak savunmasını zayıflatır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 375,
+    "question": "Aşağıdakilerden hangisi Amerikan Kalp Derneği (American Heart Association)'nin 2008 yılındaki önerilerine göre, enfektif endokardit riski için antibiyotik profilaksisi gerektiren hastalık veya durumlardan biridir?",
+    "options": {
+      "A": "Kalp kapağı protezi taşıyanlar",
+      "B": "Hipertrofik kardiyomiyopati",
+      "C": "Mitral kapak prolapsusu",
+      "D": "Anjina",
+      "E": "Kalp pili taşıyanlar"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Amerikan Kalp Derneği (AHA) kılavuzuna göre enfektif endokardit (İE) açısından en yüksek risk taşıyan ve sondlama dahil dişeti/periapikal bölgeyi manipüle eden tüm dental işlemlerde antibiyotik profilaksisi gerektiren durumlar; protez kalp kapağı veya kapak onarımında protez materyali bulunanlar, daha önce İE geçirmiş olanlar, belirli konjenital (doğumsal) kalp hastalıkları ve kardiyak valvulopati gelişmiş kalp transplantasyonu hastalarıdır.\n**Çeldiriciler:**\n- B) Hipertrofik kardiyomiyopati yüksek risk grubunda yer almaz ve antibiyotik profilaksisi gerektirmez.\n- C) Mitral kapak prolapsusu (yetmezlik olsun veya olmasın) güncel kılavuzlarda profilaksi endikasyonlarından çıkarılmıştır.\n- D) Anjina pektoris koroner arter hastalığı bulgusudur; endokardit profilaksisi gerektirmez.\n- E) Kardiyak pacemaker (kalp pili) veya defibrilatör taşıyan hastalarda dental işlemler öncesi antibiyotik profilaksisi önerilmez.\n\n---",
+    "flag_reason": "DUS 2015 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 376,
+    "question": "İnfektif endokardit riski olan hastaların periodontal tedavilerinde aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "Periodontal sondlama için profilaksi prosedüre ihtiyaç yoktur",
+      "B": "Aynı hafta içinde tekrar tedavilerde aynı profilaksi prosedürleri kullanılır",
+      "C": "Seanslarda birden fazla işlemin yapılması önerilir",
+      "D": "İleri derece periodontal kaybı olan dişlerin ağızda tutulmaya çalışılmalıdır",
+      "E": "Oral patojenlerin infektif endokardit üzerinde etkisi yoktur"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Enfektif endokardit riski taşıyan hastalarda, hastanın ihtiyacına ve dayanma gücüne göre mümkün olduğunca çok sayıda dental/periodontal işlemin aynı seansta tamamlanması önerilir; böylece tekrarlayan profilaktik antibiyotik uygulama gereksinimi ve antibiyotik direnci gelişme riski azaltılır.\n**Çeldiriciler:**\n- A) Periodontal sondlama bakteriyemiye neden olabildiği için yüksek riskli hastalarda sondlama dahil bütün periodontal girişimlerde antibiyotik profilaksisi gereklidir.\n- B) Tedavi seansları arasında tercihen 10-14 gün (en az 7 gün) beklenmelidir; 7 gün içinde tekrar işlem yapılacaksa dirençli suşlar nedeniyle aynı antibiyotik değil, farklı gruptan alternatif bir antibiyotik rejimi seçilmelidir.\n- D) Ciddi periodontal problemi olan ve prognozu iyi olmayan dişler kronik bakteriyemi odağı oluşturmaması için ağızda tutulmamalı, çekilmelidir.\n- E) Viridans streptokoklar ve periodontopatojenler dahil oral bakteriler dental işlemler sırasında kan dolaşımına geçerek enfektif endokardite doğrudan neden olabilir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 377,
+    "question": "I. Hamilelik\nII. Miyokard enfarktüsü\nIII. Serebrovasküler atak\n\nYukarıdaki hasta gruplarından hangilerine ilk altı ay periodontal tedavi uygulanması önerilmez?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I-II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Yakın zamanda miyokard enfarktüsü (kalp krizi) veya serebrovasküler atak (inme/felç) geçirmiş hastalarda kardiyovasküler instabilite ve tekrarlayan tromboembolik olay riski nedeniyle ilk 6 ay boyunca elektif periodontal tedavi uygulanması önerilmez. Hamilelikte ise kısıtlama ilk 6 ay değil, organogenezin gerçekleştiği ilk 3 ay (1. trimester) ve 3. trimesterin son yarısı içindir; 2. trimester (3-6. aylar arası) dental tedaviler için en güvenli dönemdir.\n**Öncüllerin Analizi:**\n- I. Hamilelik: İlk 3 ay (1. trimester) elektif tedavi önerilmez, ancak 3. ve 6. aylar arasındaki 2. trimester tedavi için en uygun dönemdir (Yanlış).\n- II. Miyokard enfarktüsü: Enfazktüs sonrası ilk 6 ay içinde elektif periodontal işlemler kontrendikedir (Doğru).\n- III. Serebrovasküler atak: İnme sonrası ilk 6 ay içinde elektif periodontal işlemler önerilmez (Doğru).\n**Çeldiriciler:**\n- A) III. öncülü dışladığı için eksiktir.\n- B) Yanlış olan I. öncülü içerdiği için hatalıdır.\n- C) Yanlış olan I. öncülü içerdiği ve II. öncülü dışladığı için hatalıdır.\n- E) Yanlış olan I. öncülü içerdiği için hatalıdır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 378,
+    "question": "Aşağıdakilerden hangisinin hamilelik sırasında artan hormonal seviyeye karşı verilen artmış gingival yanıtın nedenlerinden biri olması en az olasıdır?",
+    "options": {
+      "A": "CD4/CD8 oranının artması",
+      "B": "Nötrofil kemotaksisinin azalması",
+      "C": "Antikor ve T-hücre cevabının baskılanması",
+      "D": "Subgingival plak kompozisyonunda anaerobik/aerobik oranının artışı",
+      "E": "Artmış *Prevotella intermedia* konsantrasyonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Hamilelik sırasında yarı-allogreft durumda olan fetüsün anne vücudu tarafından reddedilmesini önlemek amacıyla maternal immün sistem baskılanır; bu süreçte monosit sayısı artarken yardımcı/baskılayıcı T lenfosit oranı olan CD4/CD8 oranı artmaz, tam tersine azalır. İmmün cevaptaki bu azalma hamilelerde dişeti iltihabının daha kolay ve şiddetli ortaya çıkmasına neden olur.\n**Çeldiriciler:**\n- B) Hamilelikte artan seks hormonlarına bağlı olarak nötrofil kemotaksisi ve fagositozu azalır.\n- C) Hücresel immünite, T-hücre yanıtı ve B-hücre/antikor (IgG, T3, T4) seviyeleri hamilelikte baskılanır.\n- D) Subgingival biyofilmde anaerobik mikroorganizmaların aerobik mikroorganizmalara oranı belirgin şekilde artar.\n- E) Seks hormonlarını (östrojen ve progesteron) K vitamini yerine büyüme faktörü olarak kullanan *Prevotella intermedia* (ve *B. melaninogenicus*) konsantrasyonu en çok artan bakteridir.\n\n---",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 379,
+    "question": "I. Hamilelik döneminde aerob/anaerob oranı artar.\nII. Hamilelikte oranı en çok artan mikroorganizma *Prevotella intermedia*'dır.\nIII. Hamilelerde CD4/CD8 oranı artar.\n\nHamilelikte görülen değişimlerle ilgili verilen bilgilerden hangisi/hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yalnız II",
+      "C": "Yalnız I",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hamilelik döneminde östrojen ve progesteron seviyelerindeki artışa paralel olarak subgingival plakta *Prevotella intermedia* oranı en fazla artış gösteren mikroorganizmadır.\n**Öncüllerin Analizi:**\n- I. Hamilelik döneminde aerob/anaerob oranı artar: Aerob/anaerob oranı değil, tam tersine anaerob/aerob oranı artar (Yanlış).\n- II. Hamilelikte oranı en çok artan mikroorganizma *Prevotella intermedia*'dır: Steroid hormonları besin kaynağı olarak kullandığından en çok artan türdür (Doğru).\n- III. Hamilelerde CD4/CD8 oranı artar: Maternal immünsüpresyon nedeniyle CD4/CD8 oranı azalır (Yanlış).\n**Çeldiriciler:**\n- A) Yanlış olan III. öncülü doğru kabul ettiği için hatalıdır.\n- C) Yanlış olan I. öncülü doğru kabul ettiği için hatalıdır.\n- D) Yanlış olan I. öncülü içerdiği için hatalıdır.\n- E) Yanlış olan III. öncülü içerdiği için hatalıdır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 380,
+    "question": "Hamilelik döneminde ağızda aşağıdaki mikroorganizmalardan hangi ikisinin en çok artması beklenir?",
+    "options": {
+      "A": "S. micros – P. micros",
+      "B": "S. salivarius – B. melaninogenicus",
+      "C": "Human Herpes Virüs-8 – P. intermedia",
+      "D": "Aggregatibacter actinomycetemcomitans – P. gingivalis",
+      "E": "P. intermedia – B. melaninogenicus"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Hamilelik döneminde dişeti oluğu sıvısına geçen yüksek seviyedeki östrojen ve progesteron hormonları, K vitamini (naftokinon) benzeri büyüme faktörü görevi görerek siyah pigmente anaerobik bakterilerden *Prevotella intermedia* ve *Bacteroides melaninogenicus* (*Prevotella melaninogenica*) türlerinin oranlarında belirgin artışa yol açar (21. ve 27. haftalarda *P. gingivalis* de bunlara eşlik eder).\n**Çeldiriciler:**\n- A) *Peptostreptococcus micros* (*Parvimonas micra*) hamilelik hormonlarıyla spesifik olarak en çok artan ikili arasında yer almaz.\n- B) *Streptococcus salivarius* fakültatif/aerobik bir kommensaldir, hamilelikte anaeroblar baskın hale gelir.\n- C) HHV-8 Kaposi sarkomu etkeni olan bir virüstür, hamilelik gingivitisi florasında yer almaz.\n- D) *A. actinomycetemcomitans* hamilelikte hormonal artış gösteren spesifik bakterilerden değildir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 381,
+    "question": "Hamilelikte subgingival plak içeriğinde sayısında en fazla artış görülen mikroorganizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Porphyromonas gingivalis",
+      "B": "Eikenella corrodens",
+      "C": "Prevotella intermedia",
+      "D": "Tannerella forsythia",
+      "E": "Aggregatibacter actinomycetemcomitans"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Hamileliğin özellikle 2. ve 8. ayları arasında artan seks steroidlerini (progesteron ve östrojen) naftokinon (K vitamini) yerine koyarak metabolize edebilen *Prevotella intermedia*, subgingival plakta sayısında en fazla artış görülen mikroorganizmadır.\n**Çeldiriciler:**\n- A) *Porphyromonas gingivalis* hamileliğin ilerleyen haftalarında artış gösterse de en fazla artan ve hamilelik gingivitisi ile en doğrudan ilişkili bakteri *P. intermedia*'dır.\n- B) *Eikenella corrodens* hamilelikte en fazla artan spesifik patojen değildir.\n- D) *Tannerella forsythia* özellikle sigara içen bireylerde ve kronik periodontitiste artış gösterir.\n- E) *Aggregatibacter actinomycetemcomitans* lokalize agresif periodontitis (molar-kesici paterni) ile ilişkilidir.\n\n---",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 382,
+    "question": "I. Nug\nII. Puberteye bağlı büyüme\nIII. Lokalize agresif periodontitis\nIV. Hamilelik\nV. Down Sendromu\n\n*Prevotella intermedia*'nın artış görüldüğü durumların tamamı aşağıdakilerden hangisinde verilmiştir?",
+    "options": {
+      "A": "I-II-III",
+      "B": "I-II-V",
+      "C": "II-III-IV",
+      "D": "II-III-V",
+      "E": "I-II-IV-V"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** *Prevotella intermedia*; nekrotizan ülseratif gingivitiste (NUG) spiroketler ve füziformlarla birlikte, hormonal değişimlerin yaşandığı puberte ve hamilelik dönemlerinde ve Down sendromlu çocukların subgingival florasında belirgin artış gösterir. Lokalize agresif periodontitiste ise baskın ve karakteristik bakteri *Aggregatibacter actinomycetemcomitans*'tır.\n**Öncüllerin Analizi:**\n- I. NUG: *Treponema* türleri ve *Fusobacterium* ile birlikte *P. intermedia* sayısında belirgin artış vardır (Doğru).\n- II. Puberteye bağlı büyüme: Hormonal değişimlerle *Capnocytophaga*, *P. intermedia* ve *P. nigrescens* artar (Doğru).\n- III. Lokalize agresif periodontitis: Karakteristik patojeni *A. actinomycetemcomitans*'tır (Yanlış).\n- IV. Hamilelik: Seks steroidlerinin artışıyla en fazla *P. intermedia* artar (Doğru).\n- V. Down Sendromu: Down sendromlu çocukların ağızlarında da en fazla artan mikroorganizmalar arasındadır (Doğru).\n**Çeldiriciler:**\n- A) Yanlış olan III. öncülü içerdiği ve IV ile V'i dışladığı için hatalıdır.\n- B) Doğru olan IV. öncülü (hamilelik) dışladığı için eksiktir.\n- C) Yanlış olan III. öncülü içerdiği için hatalıdır.\n- D) Yanlış olan III. öncülü içerdiği ve I ile IV'ü dışladığı için hatalıdır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 383,
+    "question": "Çocuklarda dişeti kanamasıyla ilişkilendirilen, sigara içenlerde içmeyenlere göre 2.3 kat sayıca fazla olan bakteri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "P. Gingivalis",
+      "B": "P. İntermedia",
+      "C": "A. Actynomycetemcomitans",
+      "D": "T. Forsythia",
+      "E": "T. denticola"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** *Tannerella forsythia* (eski adıyla *Bacteroides forsythus*), çocuklarda dişeti kanamasından sorumlu tutulan önemli bir patojen olmasının yanı sıra, sigara içen bireylerin periodontal ceplerinde içmeyenlere göre yaklaşık 2.3 kat (2-3 kat) daha yüksek oranda kolonize olan mikroorganizmadır.\n**Çeldiriciler:**\n- A) *P. gingivalis* kırmızı kompleks üyesidir ancak soruda tanımlanan spesifik 2.3 kat sigara artışı ve çocuk dişeti kanaması ilişkisi *T. forsythia*'ya aittir.\n- B) *P. intermedia* hamilelik ve puberte gingivitisi ile ilişkilidir.\n- C) *A. actinomycetemcomitans* lokalize agresif periodontitisin ana etkenidir.\n- E) *T. denticola* kırmızı komplekste yer alan hareketli bir spirokettir, nekrotizan hastalıklarda ve derin ceplerde bulunur.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 384,
+    "question": "Periodontal apse tedavisinde aşağıdakilerden hangisi tedavi seçeneklerinden değildir?",
+    "options": {
+      "A": "Antienflematuvar kullanımı",
+      "B": "Detertraj kök düzeltmesi",
+      "C": "Çekim",
+      "D": "Eksudanın drenajı",
+      "E": "Periodontal cerrahi tedavi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Periodontal apse tedavisinde temel prensip cep içerisinden veya eksternal insizyon ile pürülan eksudanın drenajı, diştaşı temizliği ve kök yüzeyi düzleştirmesi (SRP), kronik aşamada periodontal cerrahi, sistemik yayılım bulgusu varsa sistemik antibiyotik kullanımı ve prognozu umutsuz olan dişlerde çekimdir. Tek başına antienflamatuar kullanımı apse tedavisinin bir seçeneği değildir (yalnızca semptomatik ağrı kesici olarak destek sağlayabilir, enfeksiyonu tedavi etmez).\n**Çeldiriciler:**\n- B) Detertraj ve kök yüzeyi düzleştirmesi, apseye neden olan yabancı cisim ve kalkulusun uzaklaştırılması için temel tedavidir.\n- C) İleri destek kaybı ve umutsuz prognoz varlığında dişin çekimi kesin tedavi seçeneğidir.\n- D) Akut apse tedavisinde ilk basamak cep içerisinden veya fluktuasyon veren bölgeden insizyon ile eksudanın drene edilmesidir.\n- E) Akut tablo geçtikten sonra derin rezidüel ceplerin ve defektlerin eliminasyonu için periodontal cerrahi uygulanır.\n\n---",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 385,
+    "question": "I. Sistemik antibiyotik kullanımı\nII. Bölgeye sıcak uygulama\nIII. Diş çekimi\nIV. Drenaj\n\nYukarıda verilenlerden hangi ya da hangileri periodontal apse tedavisi seçeneklerindendir?",
+    "options": {
+      "A": "I-IV",
+      "B": "I-II",
+      "C": "I-II-IV",
+      "D": "I-III-IV",
+      "E": "I-II-III-IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Periodontal apse tedavisinde eksudanın drenajı, sistemik tutulum/lenfadenopati/ateş varlığında sistemik antibiyotik kullanımı ve umutsuz dişlerde diş çekimi yer alır. Ancak akut apseli bölgeye sıcak uygulama yapılması enfeksiyonun çevre fasiyal boşluklara yayılmasına (selülit) yol açabileceğinden tedavi seçeneği değildir.\n**Öncüllerin Analizi:**\n- I. Sistemik antibiyotik kullanımı: Ateş, lenfadenopati, selülit veya immünsüpresyon varlığında endikedir (Doğru).\n- II. Bölgeye sıcak uygulama: Akut pürülan enfeksiyonun yayılımını hızlandıracağı için uygulanmaz (Yanlış).\n- III. Diş çekimi: Prognozu ümitsiz dişlerde uygulanan radikal tedavidir (Doğru).\n- IV. Drenaj: Akut periodontal apsenin birincil acil tedavisidir (Doğru).\n**Çeldiriciler:**\n- A) Doğru olan III. öncülü (diş çekimi) dışladığı için eksiktir.\n- B) Yanlış olan II. öncülü içerdiği için hatalıdır.\n- C) Yanlış olan II. öncülü içerdiği için hatalıdır.\n- E) Yanlış olan II. öncülü içerdiği için hatalıdır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 386,
+    "question": "Periodontal ve periapikal apselerin karşılaştırılması hakkında aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Ağrı: Periapikal apse (Şiddetli) – Periodontal apse (Hafif)",
+      "B": "Ödem: Periapikal apse (Mukobukkal katlantıda) – Periodontal apse (Yapışık diş etinde)",
+      "C": "Sondlama: Periapikal apse (Tek noktadan sondlanır) – Periodontal apse (Geniş bir alandan sondlanır)",
+      "D": "Radyolusensi: Periapikal apse (Apikal bölgede dar) – Periodontal apse (Apikal bölgede geniş)",
+      "E": "Vitalite: Periapikal apse (Genellikle devital) – Periodontal apse (Genellikle vital)"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Periapikal apsede radyolüsensi kök apeksinde lokalize iken, periodontal apsede radyolüsensi apikal bölgede geniş olarak değil, kökün lateral yüzeyleri boyunca uzanan açısal (vertikal) kemik kaybı ve çok köklü dişlerde furkasyon radyolüsensisi şeklinde görülür.\n**Çeldiriciler:**\n- A) Periapikal apsede ağrı şiddetli, zonklayıcı ve lokalize edilmesi zorken; periodontal apsede ağrı daha hafif, künt (donuk) ve lokalizedir.\n- B) Periapikal apsede şişlik apikalde ve mukobukkal katlantıda (vestibül derinliğinde) yer alırken; periodontal apsede şişlik genellikle yapışık dişeti ve gingival dokuda sınırlıdır.\n- C) Periapikal apse periodontal aralıktan drene oluyorsa dar ve tek bir fistül hattı şeklinde sondlanırken; periodontal apse mevcut geniş bir periodontal cep ile ilişkilidir.\n- E) Periapikal apsede pulpa nekrotiktir (diş devitaldir); saf periodontal apsede ise pulpa genellikle canlıdır (diş vitaldir).\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 387,
+    "question": "Periodontal apse tedavisinde, aşağıdaki durumların hangisinde antibiyotik endike değildir?",
+    "options": {
+      "A": "Ulaşılması zor ve drene edilemeyen cep varlığı",
+      "B": "Selülit varlığı",
+      "C": "Fistül oluşumu",
+      "D": "Lenfadenopati",
+      "E": "Kontrolsüz diyabete eşlik etmesi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Fistül yolunun oluşmuş olması, apsenin ağız ortamına kendiliğinden drene olabildiğini ve tablonun kronikleştiğini gösterir. Drenaj sağlandığı ve sistemik yayılım bulgusu olmadığı için fistülize olmuş periodontal apselerde sistemik antibiyotik kullanımına gerek yoktur; mekanik tedavi yeterlidir.\n**Çeldiriciler:**\n- A) Drenajın sağlanamadığı derin ve kıvrımlı ceplerde enfeksiyonu kontrol altına almak için antibiyotik endikedir.\n- B) Enfeksiyonun fasiyal boşluklara yayıldığını gösteren yaygın ve drene olmayan selülit varlığında antibiyotik şarttır.\n- D) Bölgesel lenfadenopati ve ateş gibi sistemik tutulum bulgularında antibiyotik endikedir.\n- E) Kontrolsüz diyabet veya immünsüpresyon gibi konak savunmasının azaldığı hastalarda sistemik antibiyotik desteği gereklidir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 388,
+    "question": "Diş taşı oluşumunu azaltması veya kontrol etmesi için diş macununun içeriğinde aşağıdakilerden hangisi olmalıdır?",
+    "options": {
+      "A": "Alüminyum oksit",
+      "B": "Sodyum lauril sülfat",
+      "C": "Silikon oksit",
+      "D": "Pirofosfat",
+      "E": "Polivinil klorür"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Diş macunlarının içeriğinde bulunan çözünür pirofosfat tuzları (ve çinko sitrat/klorür bileşikleri), kalsiyum fosfat kristallerinin büyümesini ve hidroksiapatite dönüşümünü (mineralizasyonunu) engelleyerek supragingival diştaşı (tartar/kalkulus) oluşumunu azaltan antikalkulus ajanlardır.\n**Çeldiriciler:**\n- A) Alüminyum oksit; diş yüzeyindeki lekeleri ve pelikılı mekanik olarak uzaklaştıran aşındırıcı (abraziv) bir maddedir.\n- B) Sodyum lauril sülfat (SLS); köpürmeyi ve yağların parçalanmasını sağlayan yüzey aktif (deterjan) maddedir.\n- C) Silikon oksit (silika); diş macunlarında kullanılan aşındırıcı ajanlardandır.\n- E) Polivinil klorür sentetik bir plastik polimerdir, diş macunu bileşeni değildir.\n\n---",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 389,
+    "question": "Pirofosfat aşağıdakilerden hangi etkisi nedeniyle diş macunlarının içeriğinde bulunur?",
+    "options": {
+      "A": "Tatlandırıcı etki",
+      "B": "Nemlendirici etki",
+      "C": "Köpürtücü etki",
+      "D": "Koku verici etki",
+      "E": "Anticalculus etki"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Pirofosfat tuzları kristal gelişimini inhibe ederek plak mineralizasyonunu önleyen ve yeni diştaşı oluşumunu baskılayan antikalkulus (antitartar) etki amacıyla diş macunlarına eklenir.\n**Çeldiriciler:**\n- A) Tatlandırıcı etki için sakarin, ksilitol veya sorbitol kullanılır.\n- B) Nemlendirici (humektan) etki için gliserin, sorbitol, mannitol ve propilen glikol kullanılır.\n- C) Köpürtücü (deterjan/yüzey aktif) etki için sodyum lauril sülfat veya sodyum lauril sarkosinat kullanılır.\n- D) Koku ve ferahlık verici etki için mentol, ökaliptol veya meyve esansları kullanılır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 390,
+    "question": "I. Aşındırıcı diş macunu\nII. Asitli içecekler\nIII. Diş gıcırdatma\n\nYukarıdaki etyolojik faktörlerin sebep olduğu diş yıpranmalarına ait aşağıdaki eşleşmelerden hangisi doğrudur?",
+    "options": {
+      "A": "ATRİZYON: I – ABRAZYON: II – EROZYON: III",
+      "B": "ATRİZYON: II – ABRAZYON: I – EROZYON: III",
+      "C": "ATRİZYON: II – ABRAZYON: III – EROZYON: I",
+      "D": "ATRİZYON: III – ABRAZYON: I – EROZYON: II",
+      "E": "ATRİZYON: III – ABRAZYON: II – EROZYON: I"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Çürüksüz diş sert doku kayıplarından atrizyon dişlerin birbirleriyle teması ve diş gıcırdatma (III) sonucu; abrazyon yabancı cisimler ve aşındırıcı diş macunu/sert fırçalama (I) sonucu; erozyon ise bakteri içermeyen kimyasal asitler ve asitli içecekler (II) sonucu meydana gelir.\n**Öncüllerin Analizi:**\n- I. Aşındırıcı diş macunu: Yabancı maddelerin mekanik sürtünmesiyle oluşan doku kaybı olduğu için \"Abrazyon\"a neden olur.\n- II. Asitli içecekler: Kimyasal asit çözünmesiyle oluşan doku kaybı olduğu için \"Erozyon\"a neden olur.\n- III. Diş gıcırdatma: Karşılıklı dişlerin sürtünmesiyle okluzal/insizal yüzeylerde oluşan aşınma olduğu için \"Atrizyon\"a neden olur.\n**Çeldiriciler:**\n- A) Tüm aşınma tiplerini yanlış etkenlerle eşleştirmiştir.\n- B) Atrizyon ile erozyonun etkenlerini birbiriyle karıştırmıştır.\n- C) Tüm aşınma tiplerini yanlış etkenlerle eşleştirmiştir.\n- E) Abrazyon ile erozyonun etkenlerini ters eşleştirmiştir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 391,
+    "question": "Aşağıdakilerden hangisi diş macunlarında bulunan aşındırıcı ajanlardan değildir?",
+    "options": {
+      "A": "Kalsiyum karbonat",
+      "B": "Gliserin",
+      "C": "Dikalsiyum fosfat",
+      "D": "Silikat",
+      "E": "Alüminyum"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Gliserin; sorbitol, mannitol ve propilen glikol ile birlikte diş macununun tüp içerisinde kuruyup sertleşmesini önlemek amacıyla (%5-45 oranında) kullanılan bir nemlendirici (humektan) ajandır; aşındırıcı özelliği yoktur.\n**Çeldiriciler:**\n- A) Kalsiyum karbonat ($\\text{CaCO}_3$); diş macunlarında yaygın kullanılan aşındırıcı (abraziv) bir ajandır.\n- C) Dikalsiyum fosfat ($\\text{CaHPO}_4$); pelikıl ve lekeleri uzaklaştıran aşındırıcı bir maddedir.\n- D) Silikat (alüminyum silikat, zirkonyum silikat, koloidal silika); aşındırıcı ajanlar grubundadır.\n- E) Alüminyum oksit ($\\text{Al}_2\\text{O}_3$) ve alüminyum bileşikleri aşındırıcı olarak kullanılır.\n\n---",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 392,
+    "question": "Diş macunlarının içeriğinde bulunan ajanlar ve etkileri ile ilgili eşleştirmelerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Silika – Aşındırıcı",
+      "B": "Pirofosfat – Anticalculus etki",
+      "C": "Sodyum lauril sülfat – Yüzey aktif madde",
+      "D": "Benzoik asit – Nemlendirici",
+      "E": "Hidrojen selüloz – Bağlayıcı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Benzoik asit diş macunlarında nemlendirici olarak değil, macun içeriğinin mikrobiyal bozulmasını önleyen \"koruyucu\" madde olarak bulunur. Nemlendirici (humektan) olarak gliserin, sorbitol, mannitol ve propilen glikol kullanılır.\n**Çeldiriciler:**\n- A) Silika diş yüzeyindeki renklenmeleri uzaklaştıran aşındırıcı bir ajandır.\n- B) Pirofosfat diştaşı oluşumunu engelleyen antikalkulus ajandır.\n- C) Sodyum lauril sülfat deterjan özellikli yüzey aktif maddedir.\n- E) Hidrojen selüloz, karboksimetil selüloz ve metil selüloz macunun katı ve sıvı fazlarının ayrışmasını önleyen bağlayıcı (kıvam artırıcı) ajanlardır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 393,
+    "question": "I. Aliminyum oksit\nII. Triclosan\nIII. Kalsiyum karbonat\nIV. Benzoik asid\nV. Sodyum lauril sarkosinat\n\nAşağıdakilerden hangisi diş macunlarında bulunan aşındırıcı ajanlardan değildir?",
+    "options": {
+      "A": "I-II-III",
+      "B": "I-II-IV",
+      "C": "II-III-IV",
+      "D": "II-III-V",
+      "E": "II-IV-V"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Alüminyum oksit ve kalsiyum karbonat diş macunlarındaki aşındırıcı ajanlar iken; triklosan antibakteriyel/antiplak ajan, benzoik asit koruyucu ajan, sodyum lauril sarkosinat ise yüzey aktif (deterjan) maddedir. Dolayısıyla II, IV ve V numaralı maddeler aşındırıcı değildir.\n**Öncüllerin Analizi:**\n- I. Alüminyum oksit ($\\text{Al}_2\\text{O}_3$): Aşındırıcı bir ajandır.\n- II. Triclosan: Geniş spektrumlu antimikrobiyal ve antiinflamatuar aktif maddedir (Aşındırıcı değildir).\n- III. Kalsiyum karbonat ($\\text{CaCO}_3$): Aşındırıcı bir ajandır.\n- IV. Benzoik asit: Koruyucu bir maddedir (Aşındırıcı değildir).\n- V. Sodyum lauril sarkosinat: Yüzey aktif (köpürtücü/deterjan) maddedir (Aşındırıcı değildir).\n**Çeldiriciler:**\n- A) I ve III aşındırıcı ajanlardır.\n- B) I numaralı öncül aşındırıcı ajandır.\n- C) III numaralı öncül aşındırıcı ajandır.\n- D) III numaralı öncül aşındırıcı ajandır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 394,
+    "question": "Diş macunlarında, aşağıdakilerden hangisi diştaşı oluşumunu önlemek amacıyla kullanılır?",
+    "options": {
+      "A": "Sorbitol",
+      "B": "Florid",
+      "C": "Kalsiyum karbonat",
+      "D": "Pirofosfat",
+      "E": "Silika"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Pirofosfat tuzları, kalsiyum ve fosfat iyonlarının diş yüzeyinde kristalize olarak diştaşı (tartar) oluşturmasını önlemek amacıyla diş macunlarına katılan antikalkulus ajandır.\n**Çeldiriciler:**\n- A) Sorbitol; diş macununun kurumasını önleyen nemlendirici ve tatlandırıcı bir maddedir.\n- B) Florid; mine remineralizasyonunu sağlayan antikaryojenik (çürük önleyici) ajandır.\n- C) Kalsiyum karbonat; mekanik temizlik sağlayan aşındırıcı maddedir.\n- E) Silika; aşındırıcı (abraziv) maddedir.\n\n---",
+    "flag_reason": "Sonbahar 2017 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 395,
+    "question": "Diş macunlarının içeriğinde bulunan ajanlar ve etkileri ile ilgili eşleştirmelerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Silika – Aşındırıcı",
+      "B": "Pirofosfat – Anticalculus etki",
+      "C": "Triklosan – Yüzey aktif madde",
+      "D": "Benzoik asit – Koruyucu",
+      "E": "Metil sellülöz – Bağlayıcı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Triklosan yüzey aktif bir madde (deterjan) değil, fenol grubundan bisfenolik yapıda geniş spektrumlu antimikrobiyal ve antiplak bir etken maddedir. Yüzey aktif maddeler ise sodyum lauril sülfat ve sodyum lauril sarkosinattır.\n**Çeldiriciler:**\n- A) Silika aşındırıcı (abraziv) olarak görev yapar.\n- B) Pirofosfat tartar oluşumunu önleyen antikalkulus etkiye sahiptir.\n- D) Benzoik asit macunun raf ömrünü koruyan koruyucu maddedir.\n- E) Metil selüloz macunun homojenitesini koruyan bağlayıcı ajandır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 396,
+    "question": "Aşağıdakilerden hangisi diş macunları içeriğinde nemlendirici amacıyla bulunan bileşiklerden değildir?",
+    "options": {
+      "A": "Gliserin",
+      "B": "Sorbitol",
+      "C": "Ökaliptol",
+      "D": "Mannitol",
+      "E": "Propilen glikol"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Ökaliptol; timol, mentol ve metil salisilat ile birlikte ağız gargaralarında (örneğin Listerine) ve macunlarda kullanılan antimikrobiyal/koku verici bir esansiyel yağdır; nemlendirici (humektan) özelliği yoktur.\n**Çeldiriciler:**\n- A) Gliserin diş macununun tüp içinde kurumasını önleyen temel nemlendiricidir.\n- B) Sorbitol nemlendirici olarak kullanılan bir şeker alkolüdür.\n- D) Mannitol diş macunlarında nemlendirici olarak yer alır.\n- E) Propilen glikol diş macunlarında nemlendirici olarak kullanılan bileşiklerden biridir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 397,
+    "question": "Aşağıdakilerden hangisi oral maladorun teşhisinde altın standarttır?",
+    "options": {
+      "A": "Elektronik burun",
+      "B": "Organoleptik yöntem",
+      "C": "Gaz Kromotografi",
+      "D": "Halimeter",
+      "E": "Karanlık Alan Faz Kontrast Mikroskopisi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Ağız kokusu (oral malodor / halitozis) teşhisinde geliştirilen birçok analitik cihaza rağmen, bu konuda özel eğitim almış bir klinisyenin hastanın ağız ve burun havasını yaklaşık 10 cm mesafeden doğrudan koklayarak puanladığı \"organoleptik ölçüm yöntemi\" halen altın standart kabul edilmektedir.\n**Çeldiriciler:**\n- A) Elektronik burun (Breathtron vb.) yardımcı bir cihazdır, altın standart değildir.\n- C) Gaz kromatografisi uçucu sülfür bileşiklerini ayrı ayrı ve hassas ölçebilen objektif bir yöntemdir ancak klinik pratikte altın standart organoleptik ölçümdür.\n- D) Halimeter toplam uçucu sülfür bileşiklerini (özellikle hidrojen sülfürü) ölçen taşınabilir sülfür monitörüdür; diğer koku bileşiklerini algılayamaz.\n- E) Karanlık alan mikroskopisi hareketli bakterileri ve spiroketleri incelemek için kullanılır, koku ölçümü yapmaz.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 398,
+    "question": "Aşağıdaki tanım ve eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Gerçek halitozis; nesnel olarak doğrulabilen kötü kokudur",
+      "B": "Fizyolojik halitozis; geçici olan ve gıda veya sigara gibi fizyolojik faktörlerin neden olduğu kötü kokudur",
+      "C": "Oral malodor; Ekstraoral ve intraoral sebepler ile oral kavitedeki kötü kokudur",
+      "D": "Pseudo Halitozis; Hasta ağız kokusunun olduğunu düşünmesi ancak belirgin bir ağız kokusu saptanmaması durumudur",
+      "E": "Halitofobia; Gerçek ağız kokusu tedavi edilmiş veya pseudo halitozis teşhisi koyulmuşsa ancak hasta hala ağız kokusunun olduğunu düşündüğü durumdur."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** \"Oral malodor\" (intraoral halitozis) terimi, ekstraoral sebepleri değil, spesifik olarak yalnızca ağız boşluğundan (dil sırtı kaplaması, periodontal cepler vb. intraoral kaynaklardan) kaynaklanan belirgin kötü kokuyu ifade eder.\n**Çeldiriciler:**\n- A) Gerçek (genuine) halitozis; sosyal kabul edilebilirliğin ötesinde, objektif olarak tespit edilebilen ağız kokusudur.\n- B) Fizyolojik halitozis; sistemik veya patolojik bir hastalık olmaksızın sabah uyanınca, açlıkta veya sarımsak/sigara tüketimi sonrası dil dorsumundan kaynaklanan geçici kokudur.\n- D) Psödohalitozis; ortada gerçek bir ağız kokusu olmamasına rağmen hastanın ağzının koktuğuna inanmasıdır (eğitim ve ölçüm sonuçlarının gösterilmesiyle hasta ikna edilebilir).\n- E) Halitofobi; gerçek halitozis veya psödohalitozis tedavi edilip hiçbir koku bulgusu kalmamasına rağmen hastanın ağzının koktuğu yönündeki sabit fikrinin devam ettiği psikolojik durumdur.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 399,
+    "question": "Aşağıdakilerden hangisi horizontal şekilde diş fırçalama tekniğidir?",
+    "options": {
+      "A": "Scrub tekniği",
+      "B": "Stilman tekniği",
+      "C": "Bass tekniği",
+      "D": "Roll tekniği",
+      "E": "Charters tekniği"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Scrub (ovma) tekniği, fırça kıllarının diş yüzeyine dik yerleştirilip ileri-geri horizontal (yatay) hareketlerle uygulandığı en yaygın ancak dişeti çekilmesi ve abrazyon riski taşıyan fırçalama yöntemidir.\n**Çeldiriciler:**\n- B) Stillman tekniği; fırça kıllarının apikale doğru 45 derece açıyla kısmen dişetine kısmen dişe yerleştirildiği vibrasyon (titreşim) hareketli bir yöntemdir.\n- C) Bass tekniği; fırça kıllarının sulkus içerisine 45 derece açıyla yerleştirilip kısa ileri-geri titreşim (vibrasyon) uygulandığı sulkuler temizlik yöntemidir.\n- D) Roll tekniği; fırçanın dişeti üzerinden kurona doğru döndürülerek süpürüldüğü yuvarlak (dönme) hareketli bir yöntemdir.\n- E) Charters tekniği; fırça kıllarının kurona/okluzale doğru 45 derece açıyla yerleştirildiği vibrasyon (titreşim) hareketli bir yöntemdir.\n\n---",
+    "flag_reason": "DUS 2015 Orijinal",
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 400,
+    "question": "Yönlerine göre diş fırçalama metodları eşleştirmelerinden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Roll – Bass",
+      "B": "Vibratory – Stilman",
+      "C": "Circular – Fones",
+      "D": "Vertikal – Leonard",
+      "E": "Horizontal – Scrub"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Bass metodu yuvarlak/döndürme (Roll) hareketli bir fırçalama tekniği değil, Stillman ve Charters teknikleri ile birlikte \"vibrasyon (titreşim / vibratory)\" hareketine dayanan bir fırçalama tekniğidir. Yuvarlak (Roll) hareketli yöntemler ise Roll metodu ve Modifiye Stillman metodudur.\n**Çeldiriciler:**\n- B) Stillman metodu vibrasyon (titreşim) hareketi ile uygulanan bir tekniktir.\n- C) Fones metodu dişler kapanışta iken dairesel (circular/sirküler) hareketlerle uygulanan tekniktir.\n- D) Leonard metodu aşağı-yukarı dikey (vertikal) hareketlerle uygulanan tekniktir.\n- E) Scrub metodu ileri-geri yatay (horizontal) hareketlerle uygulanan tekniktir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 401,
+    "question": "I. Fırça kıllarının doğrudan sulkus içine girmesi amaçlanır. Bu özelliğiyle \"Hedeflenen hijyen\"in sağlanması için en sık önerilen yöntemdir.\nII. Fırça kılları marjine, dişin apeksine doğru 45° olarak yerleştirilir, yumuşak fırça kullanılır.\nIII. Fırça kıl uçları sulkusun içinden ayrılmadan, ileri-geri kısa darbelerle hareket ettirilir.\n\nTarif edilen fırçalama yöntemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Roll metodu",
+      "B": "Leonard metodu",
+      "C": "Scrub metodu",
+      "D": "Bass metodu",
+      "E": "Charters metodu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Bass metodunda yumuşak bir fırçanın kılları dişin uzun aksına ve apikale doğru 45° açıyla dişeti oluğuna (sulkus içine) yerleştirilir ve kıl uçları sulkustan çıkmadan ileri-geri kısa vibrasyon (titreşim) hareketleri yapılır. Doğrudan sulkuler plağı hedeflediği için rutin profilakside en sık önerilen tekniktir.\n**Çeldiriciler:**\n- A) Roll metodunda fırça kılları apikale yönlendirilip kuron yönünde döndürülerek (yuvarlama hareketiyle) süpürme yapılır; sulkus içi vibrasyon içermez.\n- B) Leonard metodunda dişler kapanışta iken fırça kılları diş yüzeyine 90° dik tutularak aşağı-yukarı vertikal hareketler uygulanır.\n- C) Scrub metodunda fırça kılları diş yüzeyine dik konumlandırılarak ileri-geri geniş horizontal (yatay) kazıma hareketleri yapılır.\n- E) Charters metodunda fırça kılları apikale değil, kuron (oklüzal/insizal) yönüne doğru 45° açıyla yerleştirilir ve interproksimal alanları temizlemek amacıyla vibrasyon yapılır.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Bass tekniği doğrudan gingival sulkusu temizlemeyi hedefler.\n- **II. Öncül (Doğru):** Dokuya travma vermemek adına yumuşak fırça kullanılır ve kıllar apikale doğru 45° açıyla konumlandırılır.\n- **III. Öncül (Doğru):** Kıl uçları sulkus içinde sabit kalarak kısa ileri-geri titreşim darbeleriyle plağı mekanik olarak uzaklaştırır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 402,
+    "question": "Aşağıdaki fırçalama tekniklerinden hangisi titreşim hareketi ile yapılır?",
+    "options": {
+      "A": "Fones tekniği",
+      "B": "Leonard tekniği",
+      "C": "Roll tekniği",
+      "D": "Scrub tekniği",
+      "E": "Stillman tekniği"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Titreşim (vibrasyon) hareketi ile uygulanan temel diş fırçalama yöntemleri Bass, Stillman ve Charters teknikleridir. Stillman tekniğinde fırça kılları kısmen servikal diş yüzeyine, kısmen de yapışık dişetine 45° açıyla yerleştirilerek hafif basınç altında kısa titreşim hareketleri uygulanır.\n**Çeldiriciler:**\n- A) Fones tekniği, dişler kapanışta iken fırçanın geniş dairesel (sirküler) hareketlerle uygulandığı bir yöntemdir.\n- B) Leonard tekniği, dikey (vertikal) aşağı-yukarı hareketlerle uygulanır.\n- C) Roll tekniği, bilekten yapılan döndürme (yuvarlak/süpürme) hareketine dayanır.\n- D) Scrub tekniği, yatay (horizontal) ileri-geri fırçalama hareketiyle gerçekleştirilir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 403,
+    "question": "I. Stillman metodu\nII. Fones metodu\nIII. Scrub metodu\n\nYukarıda verilen fırçalama metotlarından hangi ya da hangileri horizontal şekilde diş fırçalama tekniklerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I-II",
+      "E": "II-III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Scrub metodu, fırça kıllarının diş yüzeyine dik yerleştirilip yatay (horizontal) yönde ileri-geri hareket ettirildiği fırçalama tekniğidir.\n**Çeldiriciler:**\n- A) Stillman metodu horizontal değil, vibrasyon (titreşim) esaslı bir tekniktir.\n- B) Fones metodu horizontal değil, sirküler (dairesel) hareket esaslıdır.\n- D) I. ve II. öncüllerin her ikisi de horizontal fırçalama kategorisinde yer almaz.\n- E) II. öncüldeki Fones metodu dairesel hareketle uygulandığından bu seçenek yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül (Yanlış):** Stillman metodu vibrasyon (titreşim) hareketiyle yapılır.\n- **II. Öncül (Yanlış):** Fones metodu sirküler (dairesel) hareketle yapılır.\n- **III. Öncül (Doğru):** Scrub metodu doğrudan horizontal (yatay) hareketle uygulanır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 404,
+    "question": "Stillman diş fırçalama tekniğinin uygulama hareket yönü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Roll",
+      "B": "Titreşim",
+      "C": "Circular",
+      "D": "Horizontal",
+      "E": "Vertikal"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Stillman tekniği; Bass ve Charters metotları ile birlikte titreşim (vibrasyon) hareketi paternine dayanan bir fırçalama yöntemidir. Dişeti stimülasyonu ve servikal plak kontrolü amacıyla kısa titreşimlerle uygulanır.\n**Çeldiriciler:**\n- A) Roll (yuvarlama) hareketi, Roll metodu ve Modifiye Stillman metodunun tamamlayıcı aşamasında kullanılır; klasik Stillman tekniğinin temel hareketi titreşimdir.\n- C) Circular (dairesel) hareket, Fones metodunun uygulama yönüdür.\n- D) Horizontal (yatay) hareket, Scrub metodunun uygulama yönüdür.\n- E) Vertikal (dikey) hareket, Leonard metodunun uygulama yönüdür.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 405,
+    "question": "Diş fırçası sertliğine etki eden faktörlerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kılın çapı",
+      "B": "Kılın boyu",
+      "C": "Fırça sapı uzunluğu",
+      "D": "Demetteki sayı",
+      "E": "Ham maddenin esneme katsayısı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Fırça sapının uzunluğu veya ergonomik tasarımı hekimin/hastanın fırçayı kavrama ve manipülasyon kolaylığını etkiler; ancak fırça kıllarının fiziksel sertlik derecesi üzerinde hiçbir etkisi yoktur.\n**Çeldiriciler:**\n- A) Kılın çapı arttıkça esneklik azalır ve fırça sertliği doğrudan artar.\n- B) Kılın boyu kısaldıkça bükülme direnci artacağından fırça daha sert karakter kazanır.\n- C) Demetteki kıl sayısı (ve demetlerin sıklığı) arttıkça kıllar birbirini destekleyerek fırça sertliğini artırır.\n- E) Kılın üretildiği ham maddenin (naylon veya polyester) elastikiyet/esneme katsayısı fırça sertliğini belirleyen temel fiziksel faktörlerdendir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 406,
+    "question": "I. Keratinizasyon\nII. Gingival sirkülasyon\nIII. Alveoler kemik\n\nDiş fırçalamak periodonsiyumda yukarıdaki değişikliklerden hangi ya da hangilerinde artış sağlar?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Düzenli ve doğru mekanik diş fırçalama, plak eliminasyonunun yanı sıra dişeti dokusuna sağladığı mekanik stimülasyonla oral epitelin keratinizasyon derecesini artırır, dişeti bağ dokusundaki kapiller kan dolaşımını (sirkülasyonu) hızlandırır ve fonksiyonel uyarımla alveoler kemik kortikal kalınlığını/yoğunluğunu destekler.\n**Çeldiriciler:**\n- A) Yalnızca keratinizasyonu değil, vasküler sirkülasyonu ve kemik yapısını da olumlu etkiler.\n- B) III. öncüldeki alveoler kemik kalınlaşması/yoğunluk artışı da gerçekleştiğinden eksiktir.\n- C) II. öncüldeki gingival kan dolaşımı artışı göz ardı edilmiştir.\n- D) I. öncüldeki epitel keratinizasyonu artışı eksik bırakılmıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Mekanik uyarı oral epitelin keratinizasyonunu artırır.\n- **II. Öncül (Doğru):** Fırçalama masajı dişetindeki kan sirkülasyonunu ve doku direncini artırır.\n- **III. Öncül (Doğru):** Sağlıklı fonksiyon ve stimülasyon alveoler kemiği kalınlaştırarak destekler.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 407,
+    "question": "I. Travma\nII. Yetersiz diştaşı temizliği\nIII. Diş fırçalamak\n\nYukarıdakilerden hangi ya da hangileri periodontal apseye sebep olabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Periodontal apse; derin periodontal ceplerin varlığında veya diş근/kök yüzeyine gelen travmalar (perforasyonlar, yabancı cisim batması) ve yetersiz diştaşı temizliği sonrası cep ağzının büzülerek apikalde kalan enfeksiyonun drene olamaması sonucunda gelişir. Diş fırçalama sırasında oluşan yüzeyel travmalar ise derin ceple ilişkili olmayıp marjinal dişetinde sınırlı \"gingival apse\"ye neden olur.\n**Çeldiriciler:**\n- A) Yetersiz diştaşı temizliği (II. öncül) de klasik bir periodontal apse etiyolojisidir.\n- C) Diş fırçalama (III. öncül) periodontal apseye değil, gingival apseye yol açar.\n- D) Travma (I. öncül) eksik bırakılmış, diş fırçalama (III. öncül) hatalı olarak dahil edilmiştir.\n- E) III. öncül periodontal apse etiyolojisinde yer almaz.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Dişe gelen travma veya endodontik/iyatrojenik kök perforasyonları periodontal apse oluşturabilir.\n- **II. Öncül (Doğru):** Derin ceplerde apikaldeki diştaşları temizlenmeden koronal dokunun iyileşip büzülmesi drenajı kapatarak periodontal apseye neden olur.\n- **III. Öncül (Yanlış):** Diş fırçası kılı batması gibi fırçalama travmaları sağlıklı dişetinde lokalize \"gingival apse\" oluşturur, periodontal cep kaynaklı apse yapmaz.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 408,
+    "question": "Fırça kılları dişin uzun aksına 45° lik açı ile yerleştirildiği ve fırça kıllarının bir kısmı yapışık diş eti, bir kısmı diş üzerinde olduğu fırçaya antero-posterior ve mesial distal yönde çok hafif titreşimler verilerek fırça koronal yönde aşağı doğru çekilen diş fırçalama tekniği aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Modifiye Stillman",
+      "B": "Charter",
+      "C": "Roll",
+      "D": "Scrub",
+      "E": "Leonard"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Klasik Stillman tekniğinde fırça kılları apikale 45° açıyla kısmen dişeti kısmen dişin servikaline yerleştirilerek hafif titreşim uygulanır. Bu titreşim hareketinin sonunda fırçanın bilekten döndürülerek koronal yönde (oklüzale/insizale doğru) süpürülmesi işlemine Modifiye Stillman tekniği adı verilir.\n**Çeldiriciler:**\n- B) Charters tekniğinde fırça kılları apikale değil, kuron yönüne doğru 45° açıyla yerleştirilir ve koronal süpürme içermez.\n- C) Roll tekniğinde başlangıçta titreşim hareketi yapılmaz, yalnızca apikalden koronale döndürerek süpürme uygulanır.\n- D) Scrub tekniğinde fırça 90° dik tutularak yatay ileri-geri hareket ettirilir.\n- E) Leonard tekniğinde dişler kapanışta iken dikey aşağı-yukarı hareketler yapılır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 409,
+    "question": "Kırk beş yaşındaki erkek hastada, maksiller sağ ikinci premolar dişin distalinde ödematöz diş eti, 5 mm derinliğinde periodontal cep ve kökün servikal üçlüsünde konkavite varlığı tespit ediliyor. Hastaya cerrahisiz periodontal tedavi başarılı bir şekilde uygulanıyor. Tedavi sonucunda diş etinin fibrotik hale geldiği görülüyor. Cep derinliği 2 mm olarak ölçülüyor. Hasta, günlük plak kontrolünü istenen düzeyde gerçekleştiriyor.\n\nBu tabloya göre ilgili dişin distalindeki alanın temizlenmesi için en uygun oral hijyen aracı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kürdan",
+      "B": "Arayüz fırçası",
+      "C": "Diş ipi",
+      "D": "Manuel diş fırçası",
+      "E": "Otomatik diş fırçası"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Başarılı periodontal tedavi sonrası ödemin çözülmesiyle interdental bölgede çekilme (Tip II embrazür) oluşur ve premolar dişin servikal kök yüzeyindeki konkavite (içbükeylik) açığa çıkar. Konkav kök yüzeylerine ve genişlemiş interdental alanlara en iyi adapte olup biyofilmi mekanik olarak temizleyebilen araç arayüz (interdental) fırçasıdır.\n**Çeldiriciler:**\n- A) Kürdan, üçgen kesitli yapısıyla konkav kök yüzeylerinin derinliklerine tam adapte olamaz ve arayüz fırçası kadar etkin plak temizliği sağlayamaz.\n- C) Diş ipi, iki nokta arasında düz bir hat boyunca gerildiğinden kök yüzeyindeki içbükey (konkav) çukurluğun tabanına temas edemez (Tip I embrazürde tercih edilir).\n- D) Manuel diş fırçasının kılları interproksimal alana ve kök konkavitesine ulaşamaz.\n- E) Otomatik diş fırçaları fasiyal ve lingual/palatinal yüzeylerde etkilidir; arayüz konkavitelerini temizleyemez.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 410,
+    "question": "Periodontal hastalığa bağlı parsiyel papil kaybının olduğu ve fibrotik dişeti yapısının bulunduğu embrasurlerde arayüz temizliğinde aşağıdaki uygulamalardan hangisi uygundur?",
+    "options": {
+      "A": "Kürdan",
+      "B": "Diş ipi",
+      "C": "Arayüz fırçası",
+      "D": "Manuel diş fırçası",
+      "E": "Otomatik diş fırçası"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Parsiyel papil kaybının bulunduğu durumlar Tip II embrazür olarak sınıflandırılır. Dişeti çekilmesiyle birlikte köklerin içbükey aproksimal yüzeyleri açığa çıktığı için bu boşluklarda en etkin plak kontrolü arayüz (interdental) fırçaları ile sağlanır.\n**Çeldiriciler:**\n- A) Kürdanlar arayüz fırçasının giremediği dar alanlarda veya furkasyon girişlerinde yardımcı olabilir ancak Tip II embrazürde altın standart arayüz fırçasıdır.\n- B) Diş ipi, interdental papilin interproksimal boşluğu tamamen doldurduğu sağlıklı (Tip I embrazür) vakalarda endikedir; papil kaybı ve kök konkavitesi varlığında etkinliği düşer.\n- D) Manuel diş fırçası interdental embrazür boşluğunu temizleyemez.\n- E) Otomatik diş fırçası aproksimal yüzeylerin iç kısımlarına penetre olamaz.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 411,
+    "question": "Kırk beş yaşında hasta 25 nolu diş çevresinde kızarıklık şikayeti ile başvuruyor. Alınan anamnezde 8 ay önce serebrovasküler hastalık sebebiyle motor fonksiyonlarında zayıflama olduğu öğreniliyor. Hastanın ilgili dişinde ataçman kaybına rastlanmıyor. Papiller üzerinde diş ipi kaynaklı travma izlerine olduğu görülüyor.\n\nHastaya gereken periodontal tedaviler tamamlandıktan sonra ilgili bölgenin interproksimal yüzeylerinin temizliği için aşağıdaki araçlardan hangisi tavsiye edilir?",
+    "options": {
+      "A": "Elektrikli fırça",
+      "B": "Kıl fırça",
+      "C": "Kürdan",
+      "D": "Ağız duşu",
+      "E": "Superfloss"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Geçirilmiş serebrovasküler atağa bağlı motor fonksiyon kısıtlılığı olan hasta, ince motor beceri gerektiren diş ipini doğru manipüle edememekte ve papillerini travmatize etmektedir. Ataçman kaybı olmadığı için (Tip I embrazür) arayüz fırçası da giremeyeceğinden, bu hastada manipülasyonu en kolay olan ve interdental bölgede diş ipine alternatif olarak biyofilm/gıda birikimini güvenle uzaklaştıran araç ağız duşudur (oral irrigatör).\n**Çeldiriciler:**\n- A) Elektrikli fırça hastanın genel diş fırçalamasını kolaylaştırsa da interproksimal temas noktalarının altını tek başına temizleyemez.\n- B) Kıl fırça (manuel fırça) arayüz temizliğini sağlayamaz ve motor kısıtlılığı olan hastada kullanımı zordur.\n- C) Kürdan kullanımı hem ince el becerisi gerektirir hem de ataçman kaybı olmayan (papilin dolu olduğu) bölgede papil travmasını artırır.\n- E) Superfloss da tıpkı klasik diş ipi gibi iki elle hassas manipülasyon gerektirir; motor bozukluğu olan hastada travma riskini devam ettirir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 412,
+    "question": "Klorheksidin'in yan etkilerinden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Supragingival diştaşı artışı",
+      "B": "Parotiste şişme",
+      "C": "Dişlerde lekelenme",
+      "D": "Oral mukozal erozyon",
+      "E": "Fırsatçı mantar enfeksiyonları"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Klorheksidin diglukonat; Gram(+) ve Gram(-) bakterilerin yanı sıra mayalar ve mantarlar (özellikle *Candida albicans*) üzerinde de güçlü antifungal etkiye sahip geniş spektrumlu bir bisbiguanid antiseptiktir. Dolayısıyla kullanımı sonucunda fırsatçı mantar enfeksiyonlarına yol açmaz; aksine oral kandidiyazis tedavisinde destekleyici olarak kullanılır.\n**Çeldiriciler:**\n- A) Ölü bakterilerin pelikıl üzerine çökelmesi ve tükürük proteinleriyle etkileşimi sonucu supragingival diştaşı oluşumunu artırır.\n- B) Nadir görülen yan etkilerinden biri de parotis bezinde tek veya çift taraflı geçici şişmedir (sialadenit).\n- C) En sık görülen yan etkisi; diyetle alınan kromojenlerin (çay, kahve vb.) klorheksidin ile reaksiyona girmesi sonucu dişlerde, dilde ve restorasyonlarda sarı-kahverengi dışsal lekelenme yapmasıdır.\n- D) Uzun süreli veya yüksek konsantrasyonlu kullanımlarda oral mukozada deskuamasyon ve ağrılı eroziv lezyonlara sebep olabilir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 413,
+    "question": "I. Parotiste şişlik\nII. Mukozada deskuamasyon\nIII. Diştaşı oluşumunu azaltma\n\nYukarıdakilerden hangileri Klorheksidin'in özelliklerinden değildir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Klorheksidin etkili bir antiplak ajan olmasına rağmen, diş yüzeyinde parçalanan bakteri hücrelerinin kalsifikasyon çekirdeği oluşturması nedeniyle supragingival diştaşı (kalkulus) oluşumunu azaltmaz, aksine artırır.\n**Çeldiriciler:**\n- A) Parotiste şişlik klorheksidinin bilinen nadir yan etkilerindendir.\n- C) Hem parotis şişliği hem de mukozal deskuamasyon klorheksidinin gerçek yan etkileridir.\n- D) I. öncül klorheksidinin bir özelliğidir.\n- E) I. ve II. öncüller klorheksidinin yan etkileri arasında yer alır.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Parotis bezinde geçici şişlik yapabilir.\n- **II. Öncül (Doğru):** Epitel hücreleri üzerindeki sitotoksik etkisiyle mukozal deskuamasyona neden olabilir.\n- **III. Öncül (Yanlış):** Diştaşı oluşumunu azaltmaz, supragingival kalkulus birikimini artırır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 414,
+    "question": "Klorheksidin için aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Nötr pH'ta katyonik özellik gösterir.",
+      "B": "Ortamda asit varlığında etkisi azalır.",
+      "C": "Sitoplazma içeriklerini koagüle ederek veya hücre membranının bütünlüğünü bozarak antibakteriyel etkisini gösterir.",
+      "D": "Ağız boşluğundaki yüzeylere kuvvetlice bağlanır ve yavaş salınımla etkisi devam eder.",
+      "E": "Diştaşı oluşumunu azaltır."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Klorheksidin güçlü bir antiplak ve antigingivitis ajanıdır; ancak pelikıl yapısını değiştirerek inorganik tuzların çökelmesini kolaylaştırdığı için supragingival diştaşı oluşumunu azaltmaz, artırır.\n**Çeldiriciler:**\n- A) Fizyolojik/nötr pH değerlerinde pozitif yüklü (katyonik) bir moleküldür; bu sayede negatif yüklü bakteri duvarına ve oral yüzeylere bağlanır.\n- B) Asidik ortamlarda veya anyonik deterjanların (SLS gibi) varlığında katyonik yükü nötralize olduğundan etkinliği azalır.\n- C) Düşük konsantrasyonlarda bakteri hücre membran geçirgenliğini bozarak (bakteriostatik), yüksek konsantrasyonlarda ise sitoplazmayı çökeltip koagüle ederek (bakterisidal) etki gösterir.\n- D) Yüksek substantiviteye (kalıcılığa) sahiptir; oral mukozaya ve diş yüzeyine bağlanarak 8-12 saat boyunca yavaş salınımla etkinliğini sürdürür.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 415,
+    "question": "İçerisinde 2,5 mg Klorheksidin glukonat içeren hidrolize jelatin matrix sistemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Periotest",
+      "B": "Periotemp",
+      "C": "Periochip",
+      "D": "Periodontometer",
+      "E": "PerioCline"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** PerioChip; periodontal cep içerisine lokal olarak yerleştirilen, biyolojik olarak rezorbe olabilen hidrolize jelatin matriks yapısında ve 2,5 mg klorheksidin diglukonat içeren subgingival kontrollü salınım sistemidir.\n**Çeldiriciler:**\n- A) Periotest, dişlerin veya implantların mobilitesini/osseointegrasyonunu elektronik olarak ölçen bir cihazdır.\n- B) Periotemp, periodontal cep içindeki sıcaklığı ölçerek subgingival inflamasyonu değerlendiren diagnostik bir cihazdır.\n- D) Periodontometer, diş mobilitesini mekanik olarak ölçmek için kullanılan bir araştırma aletidir.\n- E) PerioCline, klorheksidin değil, %2,1 oranında minosiklin içeren jel formunda lokal bir antibiyotik preparatıdır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 416,
+    "question": "Aşağıdakilerden hangisi, ağız gargaralarında kullanılan bitki kökenli etken maddelerden biridir?",
+    "options": {
+      "A": "Setilpiridinyum klorit",
+      "B": "Triklosan",
+      "C": "Delmopinol",
+      "D": "Sanguinarin",
+      "E": "Hidrojen peroksit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sanguinarin, *Sanguinaria canadensis* (kan otu) bitkisinin köklerinden elde edilen katyonik bir bitkisel alkaloiddir. Ağız gargaraları ve diş macunlarında antiplak ajan olarak kullanılmıştır.\n**Çeldiriciler:**\n- A) Setilpiridinyum klorit (CPC), sentetik bir kuaterner amonyum bileşiğidir.\n- B) Triklosan, sentetik ve non-iyonik bir bisfenol türevidir.\n- C) Delmopinol, bakteri koagregasyonunu önleyen sentetik bir morfolinoetanol türevidir.\n- E) Hidrojen peroksit, inorganik yapıda oksijen salan kimyasal bir antiseptiktir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 417,
+    "question": "I. Sanguinaria Canadensis adlı bitkiden elde edilen alkaloid\nII. Çinko klorid ile kombine formları plak ve gingivitisi azaltmada daha etkilidir\nIII. Ağız gargarası hem de diş macunu formu vardır\nIV. Kullanımı oral lökoplaki ile ilişkili bulunmuştur\n\nSanguinarin ile ilgili özelliklerden doğru olan/olanlar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II-III",
+      "C": "III-IV",
+      "D": "I-II-III",
+      "E": "I-II-III-IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Sanguinarin hakkındaki tüm öncüller doğrudur. Bitkisel bir alkaloid olup çinko ile sinerjik etki gösterir, gargara ve macun formları üretilmiştir; ancak maksiller vestibül mukozada \"sanguinarin ilişkili lökoplaki\" (prekanseröz lezyon) gelişimiyle bağlantılı bulunması nedeniyle güncel kullanımı terk edilmiştir.\n**Çeldiriciler:**\n- A) III. ve IV. öncüller de doğru olduğu için eksiktir.\n- B) I. ve IV. öncüller eksik bırakılmıştır.\n- C) I. ve II. öncüller eksik bırakılmıştır.\n- D) IV. öncüldeki oral lökoplaki ilişkisi de doğru bir bilgidir.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** *Sanguinaria canadensis* bitkisinden ekstrakte edilen bir alkaloiddir.\n- **II. Öncül (Doğru):** Çinko tuzları eklendiğinde antiplak ve antigingivitis etkinliği belirgin şekilde artar.\n- **III. Öncül (Doğru):** Hem gargara hem de diş macunu formülasyonlarında yer almıştır.\n- **IV. Öncül (Doğru):** Düzenli kullanımının özellikle maksiller vestibül dişeti ve alveoler mukozada oral lökoplaki riskini artırdığı kanıtlanmıştır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 418,
+    "question": "Sanguinarin aşağıdakilerden hangi grup antiseptik ajanlardandır?",
+    "options": {
+      "A": "Bisbiguanid",
+      "B": "Bitki esaslı",
+      "C": "Fenolik bileşik",
+      "D": "Oksijenize edici",
+      "E": "Metal tuzları"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sanguinarin, *Sanguinaria canadensis* adlı bitkiden elde edilen doğal, katyonik, bitki esaslı (fitoterapötik/alkaloid) bir antiseptik ajandır.\n**Çeldiriciler:**\n- A) Bisbiguanid grubunun en önemli temsilcisi klorheksidin ve aleksidindir.\n- C) Fenolik bileşikler arasında triklosan ve esansiyel yağlar (timol, ökaliptol vb.) yer alır.\n- D) Oksijenize edici ajanlar hidrojen peroksit ve sodyum perborattır.\n- E) Metal tuzları çinko, kalay (stannöz) ve bakır tuzlarını içerir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 419,
+    "question": "Aşağıdakilerden hangisi antiplak ajanların kullanımını gerektirecek endikasyonlardan biri değildir?",
+    "options": {
+      "A": "Çok sayıda diş içeren sabit restorasyonların varlığı",
+      "B": "Ortodontik tedavi gören hastalar",
+      "C": "A.a. nın kolonizasyonunu engellemek için 1. Molarların sürdüğü yaş aralığındaki çocuklar",
+      "D": "Ağızda splint varlığı",
+      "E": "Overdenture protez kullanan hastalar"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sağlıklı çocuklarda sadece 1. büyük azı dişlerinin sürme döneminde *Aggregatibacter actinomycetemcomitans* (*A.a.*) kolonizasyonunu önlemek amacıyla rutin kimyasal antiplak ajan (gargara vb.) kullanılması şeklinde bir profilaksi endikasyonu yoktur.\n**Çeldiriciler:**\n- A) Geniş sabit protezleri olan hastalarda mekanik plak kontrolü zorlaştığı için kimyasal antiplak ajanlar endikedir.\n- B) Sabit ortodontik ataşmanlar plak retansiyonunu artırdığından yardımcı antiplak ajan kullanımı önerilir.\n- D) İntraoral fiksasyon veya periodontal splint varlığında arayüz temizliği kısıtlandığı için antiplak gargaralar endikedir.\n- E) Overdenture dayanaklarının ve implant üstü protezlerin çevresinde plak birikimini önlemek amacıyla antiplak ajanlardan yararlanılır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 420,
+    "question": "I. Çinko iyonları uçucu sülfür içeren bileşikleri baskılayarak ağız kokusunu azaltır.\nII. Triklosan araşidonik asit metabolitlerini baskılayarak antiinflamatuvar etki gösterir.\nIII. Klorheksidinin dişte boyanma, tat alma bozukluğu gibi yan etkileri vardır.\n\nAntiseptik ajanlar ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Verilen her üç ifade de ağız bakım ürünlerinde kullanılan antiseptik ve kimyasal ajanların farmakolojik etkilerini doğru şekilde tanımlamaktadır.\n**Çeldiriciler:**\n- A) II. ve III. öncüller de doğrudur.\n- B) I. ve III. öncüller de doğrudur.\n- C) I. öncül eksik bırakılmıştır.\n- D) II. öncül eksik bırakılmıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Çinko (+2) iyonları, negatif yüklü sülfür radikallerine bağlanarak uçucu sülfür bileşiklerini (VSC) nötralize eder ve halitozisi azaltır.\n- **II. Öncül (Doğru):** Triklosan, antibakteriyel etkisinin yanı sıra siklooksijenaz (COX) ve lipoksijenaz (LOX) yolaklarını inhibe ederek PGE2 ve lökotrien sentezini azaltır; böylece doğrudan antiinflamatuvar etki gösterir.\n- **III. Öncül (Doğru):** Klorheksidin kullanımı dişlerde/dilde kahverengi boyanma ve geçici tat alma bozukluğu (disgezi) yapar.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 421,
+    "question": "Antiseptik ajanlar ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Çinko iyonları uçucu sülfür içeren bileşikleri baskılayarak ağız kokusunu azaltır.",
+      "B": "Triklosan araşidonik asit metabolitlerini baskılayarak antiinflamatuvar etki gösterir.",
+      "C": "Klorheksidinin dişte boyanma, tat alma bozukluğu gibi yan etkileri vardır.",
+      "D": "Sodyum benzoat, diş fırçalamadan önce, fırçalamanın etkinliğini arttırmak için kullanılır.",
+      "E": "Chlorine Dioksit tükürük akışını azaltarak ağız kokusunda artışa yol açar."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Klor dioksit (Chlorine dioxide), güçlü oksitleyici özelliği sayesinde uçucu sülfür bileşiklerini (VSC) okside ederek parçalayan ve ağız kokusunu (halitozisi) gidermek amacıyla gargaralarda kullanılan bir ajandır; tükürük akışını azaltıp ağız kokusunu artırmaz.\n**Çeldiriciler:**\n- A) Çinko iyonları sülfür gazlarıyla şelat oluşturarak halitozisi baskılar.\n- B) Triklosan COX ve LOX enzimlerini baskılayarak antiinflamatuvar özellik sergiler.\n- C) Klorheksidin ekstrinsik diş renkleşmesi ve tat duyusunda geçici azalma yapar.\n- D) Sodyum benzoat, fırçalama öncesi gargaralarda plağın yapısını gevşetip fırçalamayla uzaklaştırılmasını kolaylaştırmak için kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 422,
+    "question": "Williams periodontal sondunun ölçüm ucunda işaretli olan milimetreler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "1-2-3-5-7-8-9-10",
+      "B": "3-6-9-12",
+      "C": "1-2-3-4-5-6-7-8-9-10-11-12-13-14-15",
+      "D": "0,5-3,5-8,5-11,5",
+      "E": "1-2-3-6-9-12"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Williams periodontal sondunda 4. ve 6. milimetre çizgileri okuma kolaylığı sağlamak ve karışıklığı önlemek amacıyla boş bırakılmıştır; bu nedenle kalibrasyonu 1-2-3-5-7-8-9-10 mm şeklindedir.\n**Çeldiriciler:**\n- B) 3-6-9-12 mm kalibrasyonu Marquis renk kodlu sonda ve Nabers furkasyon sonduna aittir.\n- C) 1'den 15'e kadar her milimetrenin işaretli olduğu sond UNC-15 sondudur.\n- D) Ucunda 0,5 mm topuz bulunan ve 3,5-5,5-8,5-11,5 mm kalibrasyonlu sond WHO (CPITN) sondudur.\n- E) 1-2-3-6-9-12 şeklinde standart bir periodontal sond kalibrasyonu bulunmamaktadır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 423,
+    "question": "Bir diş hekimi, klinik için malzeme siparişi verirken 1-2-3-5-7-8-9-10 mm kalibrasyona sahip, kör uçlu, açılandırılmış ancak düz uçlu bir periodontal sond almak istiyorsa, aşağıdaki sondlardan hangisini tercih etmelidir?",
+    "options": {
+      "A": "Michigan \"O\" sondu",
+      "B": "Michigan \"O\" sondu (Williams işaretli)",
+      "C": "Nabers sondu",
+      "D": "WHO sondu",
+      "E": "UNC-15 sondu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** 1-2-3-5-7-8-9-10 mm milimetrik dizilimi Williams işaretlemesini ifade eder; dolayısıyla düz, kör uçlu ve bu kalibrasyona sahip olan sond Williams işaretli Michigan \"O\" sondudur (Williams sondu).\n**Çeldiriciler:**\n- A) Standart Michigan \"O\" sondu yalnızca 3, 6 ve 8. milimetrelerde işaretlemeye sahiptir.\n- C) Nabers sondu düz değil, furkasyon lezyonlarını ölçmek için özel olarak kıvrımlı (eğri) tasarlanmış ve 3-6-9-12 mm kalibrasyonlu bir sonddur.\n- D) WHO sondu ucunda 0,5 mm çapında küresel bir topuz bulundurur ve 3,5-5,5-8,5-11,5 mm kalibrasyonludur.\n- E) UNC-15 sondu 1'den 15 mm'ye kadar kesintisiz her milimetrede işaretlemeye sahiptir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 424,
+    "question": "University of North Carolina (UNC)-15 sondunun kalibrasyonu milimetre olarak aşağıdaki seçeneklerin hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "1-2-3-5-7-8-9-10",
+      "B": "3-6-9-12",
+      "C": "1-2-3-4-5-6-7-8-9-10-11-12-13-14-15",
+      "D": "0,5-3,5-5,5-8,5-11,5",
+      "E": "3-6-8"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** UNC-15 sondu, 15 mm uzunluğunda olup her bir milimetresi tek tek işaretlenmiş (1'den 15'e kadar) ve 5., 10. ve 15. milimetrelerinde kalın siyah renk kodları bulunan hassas bir periodontal sonddur.\n**Çeldiriciler:**\n- A) 1-2-3-5-7-8-9-10 mm kalibrasyonu Williams sonduna aittir.\n- B) 3-6-9-12 mm kalibrasyonu Marquis ve Nabers sondlarına aittir.\n- D) 0,5-3,5-5,5-8,5-11,5 mm kalibrasyonu WHO (CPITN) sonduna aittir.\n- E) 3-6-8 mm kalibrasyonu standart Michigan \"O\" sonduna aittir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 425,
+    "question": "Periodontal sondlarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "UNC 15 sondu; 15 mm uzunluğunda, her mm için işaretleri olan ve 5., 10. ve 15. mm işaretlerinde renkli alana sahip bir sonddur.",
+      "B": "Marquis renkli işaretli periodontal sondu; her 5 mm'si renkli olarak işaretlenmiş bir sonddur.",
+      "C": "CPITN/WHO sondu; 0,5 mm'lik yuvarlak ucu olan ve 3,5; 5,5; 8,5 ve 11,5 mm'de ölçüm işaretlerine sahip bir sonddur.",
+      "D": "Michigan Üniversitesi periodontal \"O\" sondu (Williams); 1, 2, 3, 5, 7, 8, 9 ve 10 mm'de ölçüm işaretlerine sahip bir sonddur.",
+      "E": "Michigan \"O\" sondu; 3, 6 ve 8 mm'de ölçüm işaretlerine sahip bir sonddur."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Marquis renk kodlu periodontal sondda işaretlemeler 5'er mm değil, 3'er mm aralıklarla (3-6-9-12 mm) alternatif açık ve koyu renkli bantlar halinde yapılmıştır.\n**Çeldiriciler:**\n- A) UNC-15 sondu 15 mm boyunca her milimetrede çizgiye ve 5-10-15. mm'lerde renk koduna sahiptir.\n- C) WHO/CPITN sondu 0,5 mm'lik topuz uca ve 3,5-5,5-8,5-11,5 mm işaretlerine sahiptir.\n- D) Williams işaretli Michigan sondunda 4 ve 6. mm'ler atlanarak 1-2-3-5-7-8-9-10 mm işaretlemesi yapılmıştır.\n- E) Standart Michigan \"O\" sondu 3, 6 ve 8. milimetrelerde işaretlemeler içerir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 426,
+    "question": "Michigan \"O\" sondunun kalibrasyonu aşağıdaki seçeneklerin hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "3, 6, 9, 12 mm",
+      "B": "5, 10, 15 mm",
+      "C": "1, 2, 3, 5, 7, 8, 9, 10 mm",
+      "D": "3.5, 5.5, 8.5, 11.5 mm",
+      "E": "3, 6, 8 mm"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Standart Michigan \"O\" sondu, üzerinde yalnızca 3, 6 ve 8. milimetreleri gösteren üç adet çentik/işaret bulunduran periodontal sonddur.\n**Çeldiriciler:**\n- A) 3, 6, 9, 12 mm kalibrasyonu Marquis ve Nabers sondlarına aittir.\n- B) 5, 10, 15 mm renk kodlaması UNC-15 sondunun ana bantlarını ifade eder.\n- C) 1, 2, 3, 5, 7, 8, 9, 10 mm kalibrasyonu Williams sonduna aittir.\n- D) 3.5, 5.5, 8.5, 11.5 mm kalibrasyonu WHO (CPITN) sonduna aittir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 427,
+    "question": "Aşağıdakilerden hangisi bir periodontal sond çeşidi değildir?",
+    "options": {
+      "A": "WHO",
+      "B": "Nabers",
+      "C": "Michigan \"O\"",
+      "D": "UNB-15",
+      "E": "Langer"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Langer bir periodontal sond değil; standart Gracey küretlerin boyun açılanması ile üniversal küretlerin 90° bilenmiş çift kesici kenarlı bıçak yapısını birleştiren özel bir küret (kazıyıcı) çeşididir.\n**Çeldiriciler:**\n- A) WHO sondu, epidemiyolojik taramalarda (CPITN) kullanılan topuz uçlu bir periodontal sonddur.\n- B) Nabers sondu, furkasyon defektlerinin horizontal derinliğini ölçen eğri uçlu bir periodontal sonddur.\n- C) Michigan \"O\" sondu, cep derinliği ölçümünde kullanılan düz bir periodontal sonddur.\n- D) UNC-15 (UNB-15), 15 mm kalibrasyonlu milimetrik bir periodontal sonddur.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 428,
+    "question": "Aşağıdaki Gracey küretlerden hangisi, posterior dişlerin mezial yüzeylerinde kullanmak üzere dizayn edilmiştir?",
+    "options": {
+      "A": "Gracey 5-6",
+      "B": "Gracey 7-8",
+      "C": "Gracey 9-10",
+      "D": "Gracey 11-12",
+      "E": "Gracey 13-14"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Standart Gracey küret setinde 11-12 numaralı küret, çift açılı boyun yapısıyla özel olarak posterior dişlerin (premolar ve molarların) mezial yüzeylerine adapte olmak üzere tasarlanmıştır.\n**Çeldiriciler:**\n- A) Gracey 5-6, anterior dişler ve premolar dişlerin tüm yüzeylerinde kullanılır.\n- B) Gracey 7-8, posterior dişlerin fasiyal (bukkal) ve lingual/palatinal yüzeylerinde kullanılır.\n- C) Gracey 9-10, tıpkı 7-8 gibi posterior dişlerin fasiyal ve lingual yüzeyleri için tasarlanmıştır.\n- E) Gracey 13-14, posterior dişlerin distal yüzeylerinde kullanılmak üzere daha keskin boyun açılanmasıyla dizayn edilmiştir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 429,
+    "question": "Gracey küretlerin kullanım bölgelerine göre eşleştirmelerinden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Gracey 1-2 – Anterior dişler",
+      "B": "Gracey 3-4 – Premolar dişler",
+      "C": "Gracey 7-8 – Posterior dişlerin fasial/lingual yüzeyleri",
+      "D": "Gracey 11-12 – Posterior dişlerin mesial yüzeyleri",
+      "E": "Gracey 13-14 – Posterior dişlerin distal yüzeyleri"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Gracey 3-4 numaralı küret, Gracey 1-2 ile aynı şekilde yalnızca anterior (ön) dişlerin temizliği için tasarlanmıştır. Premolar dişlerde de kullanılabilen küret Gracey 5-6'dır.\n**Çeldiriciler:**\n- A) Gracey 1-2, kısa ve düz boyun yapısıyla anterior dişlerde kullanılır.\n- C) Gracey 7-8, orta açılı boynuyla posterior dişlerin fasiyal ve lingual yüzeylerine uyum sağlar.\n- D) Gracey 11-12, posterior dişlerin mezial yüzeylerinde kullanılır.\n- E) Gracey 13-14, posterior dişlerin distal yüzeylerinde kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 430,
+    "question": "I. Boyutları değerlendirmek için sondlar ve Explorer ile yapılan yavaş \"hissetme\" hareketidir.\nII. Hem supragingival hem de subgingival taşların çıkarılması için bıçaklı aletlerle kullanılan kısa, güçlü bir çekme hareketidir.\nIII. Kök yüzeyinin pürüzsüzleştirilmesi için kullanılan orta ile hafif bir çekme darbesidir.\n\nYukarıda tanımları verilen subgingival hareketlerin tanımları ile eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Scaling: I / Root planning: II / Keşif hareketi: III",
+      "B": "Scaling: I / Root planning: III / Keşif hareketi: II",
+      "C": "Scaling: II / Root planning: I / Keşif hareketi: III",
+      "D": "Scaling: II / Root planning: III / Keşif hareketi: I",
+      "E": "Scaling: III / Root planning: II / Keşif hareketi: I"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Cep derinliğini ve diştaşı топоgrafisini anlamak için yapılan hafif temaslı hareket keşif (exploratory) hareketidir (I). Diştaşını kırmak için uygulanan kısa ve güçlü çekme darbesi diştaşı temizliği (scaling) hareketidir (II). Kök yüzeyini pürüzsüzleştirmek için uygulanan daha uzun, orta-hafif kuvvetli çekme hareketi ise kök yüzeyi düzleştirme (root planing) hareketidir (III).\n**Çeldiriciler:**\n- A) Tanımların tamamı yanlış hareket türleriyle eşleştirilmiştir.\n- B) Keşif hareketi ile scaling hareketinin yerleri karıştırılmıştır.\n- C) Root planing ve keşif hareketlerinin numaraları ters verilmiştir.\n- E) Scaling ve root planing tanımları birbiriyle karıştırılmıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Sond ve muayene sondu (explorer) ile yapılan taktil \"hissetme\" işlemi **Keşif hareketi**dir.\n- **II. Öncül:** Taşları uzaklaştırmak için uygulanan kısa ve kuvvetli çekme işlemi **Scaling hareketi**dir.\n- **III. Öncül:** Rezidüel taşları ve nekrotik sementi uzaklaştırıp pürüzsüz yüzey elde etmek için yapılan orta-hafif çekme işlemi **Root planing hareketi**dir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 431,
+    "question": "Aşağıdakilerden hangisi alan spesifik küretlerden değildir?",
+    "options": {
+      "A": "Universal küret",
+      "B": "After five küret",
+      "C": "Langer ve mini langer küretler",
+      "D": "Mine five küret",
+      "E": "Gracey küret"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Üniversal küretler; bıçağın alt yüzünün gövdeyle 90° açı yaptığı, her iki kesici kenarının da kullanıldığı ve tek bir küretle ağzın tüm bölgelerindeki diş yüzeylerinde çalışılabilen genel amaçlı küretlerdir; alan spesifik (bölgeye özgü) değillerdir.\n**Çeldiriciler:**\n- B) After Five küretler, standart Gracey küretlerin boyun kısmının 3 mm uzatılmış alan spesifik modifikasyonudur.\n- C) Langer küretler, üniversal bıçak açısına sahip olsalar da standart Gracey (5-6, 11-12, 13-14) boyun dizaynını taşıdıkları için farklı bölgelere özgü (anterior, mandibula posterior, maksilla posterior) 3 ayrı tipte üretilen alan spesifik küretlerdir.\n- D) Mini Five küretler, After Five küretlerin bıçak uzunluğunun yarıya indirildiği alan spesifik Gracey modifikasyonudur.\n- E) Gracey küretler, bıçağın gövdeyle 60-70° açı yaptığı (offset blade) ve her numarasının belirli diş/yüzeyler için tasarlandığı klasik alan spesifik küretlerdir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 432,
+    "question": "I. Gracey küret\nII. Periodontal idame küretleri\nIII. Mini blade küretler\nIV. Universal küretler\n\nYukarıdakilerden hangi ya da hangileri bölgeye özgü küretlerdendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-III",
+      "C": "I-II-III",
+      "D": "I-II-IV",
+      "E": "I-II-III-IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Gracey küretler ve onların modifikasyonları olan periodontal idame küretleri ile mini blade (Mini Five vb.) küretler, farklı diş gruplarına ve yüzeylerine özel açılarla üretilmiş bölgeye özgü (alan spesifik) aletlerdir. Üniversal küretler ise tüm bölgelerde tek tip olarak kullanılır.\n**Çeldiriciler:**\n- A) II. ve III. öncüllerdeki Gracey modifikasyonları da bölgeye özgü numaralandırmaya sahiptir.\n- B) II. öncüldeki periodontal idame küretleri eksik bırakılmıştır.\n- D) IV. öncüldeki üniversal küretler bölgeye özgü değildir.\n- E) IV. öncül hatalı olarak dahil edilmiştir.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Gracey küretler bölgeye özgü (alan spesifik) küretlerin prototipidir.\n- **II. Öncül (Doğru):** Periodontal idame küretleri Gracey küretlerin inceltilmiş/modifiye edilmiş bölgeye özgü formlarıdır.\n- **III. Öncül (Doğru):** Mini blade küretler dar ve derin cepler için geliştirilmiş bölgeye özgü Gracey modifikasyonlarıdır.\n- **IV. Öncül (Yanlış):** Üniversal küretler bölgeye özgü olmayıp ağzın her bölgesinde kullanılabilen genel küretlerdir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 433,
+    "question": "Aşağıdakilerden hangisi universal ve gracey küretlerin farklarından değildir?",
+    "options": {
+      "A": "Gracey küretler spesifik alan ve yüzeylere göre tasarlanmıştır.",
+      "B": "Universal küretlerin bıçaklarının iki yönü de kesicidir.",
+      "C": "Universal küretlerde bıçaklar gövdeye tek düzlemde açı yapar.",
+      "D": "Gracey küretlerin bıçakları gövdeye 60 derece açılıdır.",
+      "E": "Gracey küretler daha derin cepler için tasarlanmıştır."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Standart Gracey küretler ile üniversal küretler arasında cep derinliği kapasitesi açısından bir tasarım farkı yoktur. Daha derin cepler (>5 mm) için özel olarak tasarlanan aletler standart Gracey küretler değil, boynu 3 mm uzatılmış \"After Five\" küretlerdir.\n**Çeldiriciler:**\n- A) Gracey küretler alan spesifiktir; üniversal küretler ise tüm alanlarda kullanılır.\n- B) Üniversal küretlerde bıçağın her iki kenarı da kesicidir; Gracey küretlerde ise yalnızca dış (alt) kenar kesicidir.\n- C) Üniversal küretlerin bıçağı sadece tek düzlemde eğimlidir; Gracey küretlerin bıçağı ise iki düzlemde (hem yukarı hem yana doğru) eğimlidir.\n- D) Üniversal küretlerde bıçak gövdeye 90° dik açı yaparken, Gracey küretlerde bıçak gövdeye 60-70° eğimli (offset) açı yapar.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 434,
+    "question": "I. Arkansas\nII. Seramik\nIII. India\nIV. Carborundum\n\nYukarıda verilen periodontal aletlerin keskinleştirilmesinde kullanılan bileme taşlarında hangileri sentetik değildir?",
+    "options": {
+      "A": "I-II",
+      "B": "I-III",
+      "C": "II-IV",
+      "D": "I-II-III",
+      "E": "I-III-IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Periodontal aletlerin bilenmesinde kullanılan taşlardan Arkansas taşı ve India taşı doğadan çıkarılan doğal (sentetik olmayan) abraziv taşlardır. Seramik (alüminyum oksit) ve Carborundum (silisyum karbür) taşları ise yapay olarak üretilen sentetik bileme taşlarıdır.\n**Çeldiriciler:**\n- A) Seramik (II) sentetik bir taştır.\n- C) II ve IV numaralı taşların her ikisi de sentetiktir.\n- D) II numaralı seramik taşı doğal değildir.\n- E) IV numaralı Carborundum taşı doğal değil, sentetiktir.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Arkansas taşı, ince grenli doğal bir mineral taştır (sentetik değildir).\n- **II. Öncül (Yanlış):** Seramik taşlar sentetik olarak üretilir.\n- **III. Öncül (Doğru):** India taşı, doğal abraziv taşlar grubunda yer alır (sentetik değildir).\n- **IV. Öncül (Yanlış):** Carborundum (silisyum karbür) sentetik bir bileme taşıdır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 435,
+    "question": "Periodontolojide kullanılan sonik ve ultrasonik kazıyıcı sistemler ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Kistik fibrozis ve pnömoni gibi kronik pulmoner hastalıkların varlığında kullanımları kontrendikedir.",
+      "B": "Manuel el aletleriyle karşılaştırıldıklarında kök yüzeyinde sement kaybına sebep olma riskleri daha fazladır.",
+      "C": "Sonik ve ultrasonik aletlerde çalışma prensibi depozitlerin apikalinden koronaline doğru uygulama yapılmasıdır.",
+      "D": "Tedavi öncesinde antimikrobiyallerle ağız çalkalatılması, uygulama ile oluşan biyoaerosoller üzerine etkili değildir.",
+      "E": "Sonik ve ultrasonik kazıyıcı sistemlerin kullanımı sırasında hekim uygulama kuvvetini artırdıkça alet ucu etkinliği artmaktadır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sonik ve ultrasonik kazıyıcılar çalışma esnasında yoğun su spreyi ve kontamine biyoaerosol oluştururlar. Bu aerosollerin ve su damlacıklarının aspirasyonu ciddi solunum yolu enfeksiyonlarına yol açabileceğinden; kistik fibrozis, şiddetli astım, amfizem, pnömoni ve yutkunma bozukluğu olan hastalarda kullanımları kontrendikedir.\n**Çeldiriciler:**\n- B) Sonik ve ultrasonik aletler, el aletlerine (küretlere) kıyasla kök yüzeyinden daha az sement kaldırır ve daha az doku kaybına yol açar.\n- C) Bu cihazlarla çalışırken diştaşı kütleleri apikalden koronale değil, koronal kenarından apikale doğru aşamalı olarak kırılıp uzaklaştırılır.\n- D) İşlem öncesi klorheksidin vb. antimikrobiyal gargaralarla ağzın çalkalanması, oluşan biyoaerosoldeki canlı bakteri yükünü önemli ölçüde azaltır.\n- E) Alet ucuna uygulanan lateral basınç/kuvvet artırıldığında uçtaki titreşim genliği sönümlenir (azalır); bu durum kazıma etkinliğini düşürürken termal hasar riskini artırır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 436,
+    "question": "I. Kronik pulmoner hastalık varlığı\nII. Yutkunma bozukluğu olan hastalar\nIII. Ortodontik yapıştırıcıların kaldırılması gereken durumlar\n\nYukarıda verilen durumlardan hangisi ya da hangileri diştaşı temizliği yapılacak bir hastada sonik ve ultrasonik cihazların kullanımı için kontrendikasyon oluşturur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kronik pulmoner hastalığı olanlarda ve yutkunma/öğürme refleksi bozulmuş hastalarda ultrasonik cihazların oluşturduğu kontamine su spreyi ve aerosolün akciğerlere aspire edilme riski bulunduğundan bu cihazların kullanımı kontrendikedir. Ortodontik siman ve yapıştırıcıların sökülmesi ise kontrendikasyon değil, bu cihazların endikasyonlarından biridir.\n**Çeldiriciler:**\n- A) Yutkunma bozukluğu (II) da aspirasyon pnömonisi riski nedeniyle kesin kontrendikasyondur.\n- C) III. öncül kontrendikasyon değil, endikasyondur.\n- D) III. öncül hatalı alınmış, II. öncül dışarıda bırakılmıştır.\n- E) III. öncül kontrendikasyon oluşturmaz.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Astım, amfizem, kistik fibrozis gibi kronik pulmoner hastalıklarda kontamine aerosol inhalasyonu riski nedeniyle kontrendikedir.\n- **II. Öncül (Doğru):** Yutkunma bozukluğu olan hastalarda soğutma suyunun solunum yoluna kaçma riski nedeniyle kontrendikedir.\n- **III. Öncül (Yanlış):** Ortodontik yapıştırıcıların (debonding sonrası rezidüel rezinlerin) uzaklaştırılması ultrasonik cihazların kullanım endikasyonlarındandır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 437,
+    "question": "Aşağıda periodontal tedavide kullanılan bazı aletlerin tanımı verilmiştir.\n\nI. Diştaşı kütlelerini ve çıkıntılarını kürete etmek için kullanılan, dişe iki noktadan temas sağlayan, 99° eğimli bıçağa sahip aletlerdir.\nII. Çift taraflı ve yüksek mıknatıs özelliği bulunan, periodontal cep içerisinde çalışırken kırılan aletlerin uçlarını çıkarmak için tasarlanmış aletlerdir.\nIII. Proksimal alaşım ve rezin restorasyonların taşkın konturlarını düzeltmek için tasarlanmış aletlerdir.\n\nTanımlanan aletlerin isimleri ile ilgili aşağıdaki eşleştirmelerden hangisi doğrudur?",
+    "options": {
+      "A": "I: Hoe kretuar / II: Schwarz Periotrievers / III: Eva Sistem",
+      "B": "I: Hoe kretuar / II: Eva Sistem / III: Schwarz Periotrievers",
+      "C": "I: Eva Sistem / II: Hoe kretuar / III: Schwarz Periotrievers",
+      "D": "I: Eva Sistem / II: Schwarz Periotrievers / III: Hoe kretuar",
+      "E": "I: Schwarz Periotrievers / II: Hoe kretuar / III: Eva Sistem"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Gövdeye 99° açıyla birleşen, dişe iki noktadan temas ederek kaba diştaşı kütlelerini kıran çapa şeklindeki alet Hoe kretuardır (I). Cep içinde kırılan küret/sond uçlarını çıkarmaya yarayan manyetik uçlu alet Schwarz Periotrievers'tır (II). İnterproksimal taşkın restorasyon kenarlarını aşındırıp düzeltmeye yarayan elmas kaplı kama uçlu motorize sistem ise Eva Sistem'dir (III).\n**Çeldiriciler:**\n- B) II ve III numaralı aletlerin isimleri birbiriyle karıştırılmıştır.\n- C) I ve II numaralı tanımların karşılıkları hatalı verilmiştir.\n- D) I ve III numaralı aletlerin yerleri ters eşleştirilmiştir.\n- E) I ve II numaralı aletler ters eşleştirilmiştir.\n**Öncüllerin Analizi:**\n- **I. Öncül:** 99° bıçak eğimi ve iki nokta temasıyla büyük taş kütlelerini uzaklaştıran alet **Hoe (Çapa) kretuar**dır.\n- **II. Öncül:** Cep içinde kırılan metal alet uçlarını mıknatıs özelliğiyle yakalayan alet **Schwarz Periotrievers**'tır.\n- **III. Öncül:** İnterproksimal taşkın dolguları düzeltmek için kullanılan motorlu elmas eğe ünitesi **Eva Sistem**'dir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 438,
+    "question": "Periodontal ve peri-implant hastalıkların tedavisinde air flow (air polishing) cihazların kullanımı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Subgingival alanda düşük abraziv etkili tozların kullanımı uygundur.",
+      "B": "Glisin, düşük abraziv etkili olduğundan dental biyofilmin uzaklaştırılmasında etkili değildir.",
+      "C": "Eritritol toz, implant yüzeyinin temizliği için uygun abrazivlerden biridir.",
+      "D": "Bikarbonat toz kullanımı kök yüzeyinde ve restorasyonlarda madde kaybına neden olabilir.",
+      "E": "Air flow kullanımı, diş eti üzerinde düşük düzeyde ve geçici hasara neden olabilir."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Glisin tozu, düşük partikül boyutu ve düşük aşındırıcılığı (abrazivitesi) sayesinde kök yüzeyine, yumuşak dokuya ve titanyum implant yüzeylerine zarar vermeden hem supragingival hem de subgingival dental biyofilmi son derece etkili bir şekilde uzaklaştırır.\n**Çeldiriciler:**\n- A) Subgingival alanda sement ve dentini aşındırmamak için glisin veya eritritol gibi düşük abraziv tozlar tercih edilir.\n- C) Eritritol, çok küçük partikül çapı ve antimikrobiyal/antibiyofilm katkısıyla titanyum implant yüzeylerinin dekontaminasyonunda güvenle kullanılır.\n- D) Geleneksel sodyum bikarbonat tozu yüksek abraziviteye sahiptir; açık kök yüzeylerinde (sement/dentin) ve kompozit/amalgam restorasyonlarda ciddi madde kaybı ve pürüzlülük oluşturur.\n- E) Basınçlı hava-toz-su spreyi dişeti epitelinde yüzeyel ve birkaç gün içinde tamamen iyileşen geçici erozyonlara yol açabilir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 439,
+    "question": "I. Sodyum bikarbonat\nII. Alüminyum trihidroksit\nIII. Glisin\n\nDüşük abrazyona sebep olmaları ve subgingival biyofilmi kaldırabilme kabiliyetleri sebebiyle implant yüzeylerinde hava püskürtmeli cihazlar ile güvenli uygulanabilen tozlar yukarıdakilerden hangi ya da hangileridir?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Hava püskürtmeli (air polishing) sistemlerde kullanılan tozlardan glisin (ve eritritol), düşük sertlik derecesi sayesinde titanyum implant yüzeyini çizmeden ve kök yüzeyinde madde kaybı yapmadan subgingival biyofilmi güvenle uzaklaştırır. Sodyum bikarbonat ve alüminyum trihidroksit ise sert ve yüksek aşındırıcı tozlar olup implant ve kök yüzeylerinde kontrendikedir.\n**Çeldiriciler:**\n- B) I ve II numaralı tozlar yüksek abraziviteye sahiptir ve implant yüzeyine zarar verir.\n- C) Sodyum bikarbonat (I) subgingival alanda ve implant çevresinde güvenli değildir.\n- D) Alüminyum trihidroksit (II) yüksek aşındırıcı bir tozdur.\n- E) I ve II numaralı öncüller yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül (Yanlış):** Sodyum bikarbonat büyük ve sert partiküllüdür; sadece sağlam mine üzerindeki dışsal lekelerde kullanılır, kök ve implant yüzeyini aşındırır.\n- **II. Öncül (Yanlış):** Alüminyum trihidroksit yüksek abraziv etkili olup sement, dentin ve implant yüzeylerinde madde kaybı ve pürüzlülük yapar.\n- **III. Öncül (Doğru):** Glisin, suda çözünebilen bir aminoasit tozu olup düşük abrazivitesiyle subgingival alanda ve implant yüzeylerinde güvenle kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 440,
+    "question": "I. Genellikle florür ile kombinasyon halinde kullanılır\nII. Biyofilmin daha az tutunmasını sağlar\nIII. Sağlıklı floraya katkısı yoktur\n\nYukarıdakilerden hangi ya da hangileri diş macunları içerisinde kullanılan argininin özelliklerinden değildir?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Arginin aminoasidi, ağızdaki arginolitik (faydalı/kommensal) bakteriler tarafından metabolize edilerek amonyak üretilmesini sağlar. Bu sayede plak pH'sını yükselterek asidojenik/karyojenik bakterileri baskılar ve sağlıklı oral mikrofloranın korunmasına doğrudan katkıda bulunur. Dolayısıyla \"sağlıklı floraya katkısı yoktur\" ifadesi yanlıştır.\n**Çeldiriciler:**\n- B) I. ve II. öncüller argininin doğru özellikleridir.\n- C) I. öncül doğru bir özelliktir.\n- D) II. öncül doğru bir özelliktir.\n- E) I. ve II. öncüller doğrudur.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Arginin, antikaryojenik ve hassasiyet giderici etkinliği artırmak amacıyla diş macunlarında genellikle florür ve kalsiyum karbonat ile kombine kullanılır.\n- **II. Öncül (Doğru):** Biyofilm matriks yapısını modifiye ederek biyofilmin diş yüzeyine daha az yapışkan (daha az tutunabilir) hale gelmesini sağlar.\n- **III. Öncül (Yanlış):** Arginin, alkali üretimiyle sağlıklı mikrobiyomu aktif olarak destekler ve patojenik kaymayı önler.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 441,
+    "question": "Periodontal hastalıkların tedavisinde yaygın bir şekilde kullanılan tetrasiklinlerle ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Konsantrasyonları diş eti oluğu sıvısında, serumdakinden 2 - 10 kat daha fazladır.",
+      "B": "Antikollajenaz etki gösterip doku yıkımını inhibe edebilir ve kemik rejenerasyonuna yardımcı olabilirler.",
+      "C": "Gram negatif bakterilerden çok gram pozitif bakterilere etkilidirler.",
+      "D": "Geniş antibakteriyel spektrumu ile sentetik penisilinlerdir.",
+      "E": "Diş eti oluğu sıvısında düşük konsantrasyonlarda bile birçok patojene karşı oldukça etkilidirler."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Tetrasiklinler penisilin grubu (beta-laktam) antibiyotiklerden değildir; *Streptomyces* türlerinden doğal veya yarı-sentetik (semisentetik) olarak elde edilen, bakteri ribozomlarının 30S alt birimine bağlanarak protein sentezini inhibe eden bakteriostatik etkili ayrı bir antibiyotik ailesidir.\n**Çeldiriciler:**\n- A) Tetrasiklinler dişeti oluğu sıvısında (DOS) kan serumuna oranla 2 ila 10 kat daha yüksek konsantrasyona ulaşma özelliğine sahiptir.\n- B) İki değerlikli katyonları (Ca, Zn) şelatlayarak konak kaynaklı matriks metalloproteinazları (MMP/kollajenaz) inhibe eder ve bağ dokusu/kemik yıkımını durdurur.\n- C) Geniş spektrumlu olmakla birlikte Gram(+) bakteriler üzerindeki etkinlikleri Gram(-) bakterilere kıyasla daha yüksektir.\n- E) DOS içerisindeki yüksek konsantrasyonları sayesinde düşük sistemik dozlarda dahi pek çok periodontopatojene karşı etkilidirler.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 442,
+    "question": "I. Penisilin\nII. Tetrasiklin\nIII. Azitromisin\nIV. Metronidazol\n\nYukarıdaki antibiyotiklerden hangisi veya hangileri dişeti oluğu sıvısı (DOS)'tan atılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sistemik olarak alındığında dişeti oluğu sıvısına (DOS) yüksek oranda geçen ve cep içerisine aktif olarak salgılanarak (atılarak) periodontal tedavide önemli avantaj sağlayan iki temel antibiyotik grubu tetrasiklinler ve metronidazoldür.\n**Çeldiriciler:**\n- A) Penisilinler DOS'ta özel bir konsantrasyon artışı veya öncelikli atılım göstermezler.\n- B) I. öncüldeki penisilin bu gruba dahil değildir.\n- C) Azitromisin doğrudan sıvı fazdan ziyade fibroblast ve fagositlerin (PMNL/makrofaj) içine penetre olarak inflamasyon bölgesine taşınır.\n- E) III. öncül nedeniyle yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül (Yanlış):** Penisilin DOS yoluyla spesifik konsantrasyon gösteren ilaçlardan değildir.\n- **II. Öncül (Doğru):** Tetrasiklinler DOS'tan serumun 2-10 katı yoğunlukta atılır.\n- **III. Öncül (Yanlış):** Azitromisin fagositik hücreler aracılığıyla dokuya taşınır.\n- **IV. Öncül (Doğru):** Metronidazol DOS içerisine etkin şekilde geçerek anaerobik cep florasına etki eder.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 443,
+    "question": "DOS'ta yeterli konsantrasyonlarda bulunmadığı için periodontal tedavide kullanımı önerilmeyen antibiyotik hangisidir?",
+    "options": {
+      "A": "Spiramisin",
+      "B": "Metranidazol",
+      "C": "Klindamisin",
+      "D": "Eritromisin",
+      "E": "Siprofloksasin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Makrolid grubunun prototipi olan eritromisin, dişeti oluğu sıvısında (DOS) etkili terapötik konsantrasyonlara ulaşamadığı ve bilinen periodontopatojenlerin çoğuna karşı etkisiz kaldığı için periodontal hastalıkların tedavisinde önerilmez.\n**Çeldiriciler:**\n- A) Spiramisin, tükürük bezlerinde ve dişeti dokusunda yüksek konsantrasyona ulaşabilen bir makroliddir.\n- B) Metronidazol, DOS'ta yüksek düzeyde bulunur ve zorunlu anaerob periodontopatojenlere karşı çok etkilidir.\n- C) Klindamisin, DOS'a ve özellikle alveoler kemik dokusuna yüksek penetrasyon gösterir.\n- E) Siprofloksasin, DOS'a etkin geçiş gösteren ve özellikle *A. actinomycetemcomitans* eliminasyonunda kullanılan bir florokinolondur.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 444,
+    "question": "Fibroblast ve fagositler penetre olup içerisinde ekstrasellüler sıvıdan 100-200 kat daha yüksek konsantrasyonlarda bulunabilen periodontal tedavilerde kullanılan antibiyotik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Penisilin",
+      "B": "Penisilin+ klavuronik asit",
+      "C": "Metranidazol",
+      "D": "Tetrasiklin",
+      "E": "Azitromisin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Azitromisin (azalid sınıfı makrolid), fibroblastların ve fagositlerin (nötrofil, makrofaj) içerisine aktif olarak penetre olur ve hücre içinde ekstrasellüler sıvıdan 100-200 kat daha yüksek konsantrasyona ulaşır. Fagositlerin kemotaksisle inflamasyon bölgesine göçü ve fagositoz sırasında rüptüre olmasıyla doğrudan periodontal lezyon sahasına yüksek dozda salınır.\n**Çeldiriciler:**\n- A) Penisilin hücre içine bu düzeyde penetre olmaz ve ekstrasellüler sıvıda dağılır.\n- B) Amoksisilin + klavulanik asit hücre içi fagositik taşınma mekanizmasına sahip değildir.\n- C) Metronidazol düşük molekül ağırlığıyla pasif difüzyonla dağılır; fagosit içinde 100-200 kat yoğunlaşmaz.\n- D) Tetrasiklinler DOS'ta serumdan 2-10 kat fazla bulunur ancak fagosit içi 100-200 kat yoğunlaşma ve hedefli taşınma özelliği azitromisine özgüdür.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 445,
+    "question": "Aşağıdakilerden hangisi periodontitis tedavisinde kullanılan bir kombine antibiyotik uygulaması değildir?",
+    "options": {
+      "A": "Metranidazol+Amoksisilin",
+      "B": "Metranidazol+Amoksisilin klavulonat",
+      "C": "Metranidazol+Doksisiklin",
+      "D": "Metranidazol+Siprofloksasin",
+      "E": "Metranidazol+Sefuroksimaksetil"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kombine antibiyotik tedavisinin temel farmakolojik kuralı, bakterisid (öldürücü) bir antibiyotik ile bakteriostatik (üremeyi durdurucu) bir antibiyotiğin birlikte kullanılmamasıdır. Metronidazol DNA sentezini bozan bakterisid bir ilaçken, doksisiklin (tetrasiklin türevi) protein sentezini baskılayan bakteriostatik bir ilaçtır; birlikte kullanımları antagonist etki yaratacağından kombine edilmezler.\n**Çeldiriciler:**\n- A) Metronidazol (bakterisid) + Amoksisilin (bakterisid) kombinasyonu, periodontal tedavide en sık ve en başarılı kullanılan sinerjik kombinasyondur.\n- B) Metronidazol + Amoksisilin/klavulanat, her ikisi de bakterisid olduğu için dirençli vakalarda güvenle kombine edilir.\n- D) Metronidazol + Siprofloksasin (her ikisi de bakterisid), özellikle *A.a.* ve anaerobların mikst enfeksiyonlarında kullanılan etkili bir kombinasyondur.\n- E) Metronidazol + Sefuroksim aksetil (her ikisi de bakterisid), penisilin alerjisi olan hastalarda amoksisilin yerine tercih edilebilen geçerli bir kombinasyondur.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 446,
+    "question": "Aşağıdakilerden hangisi periodontitis tedavisinde kullanılan kombine antibiyotik uygulamasında diğerleriyle birlikte uygulanamaz?",
+    "options": {
+      "A": "Metranidazol",
+      "B": "Doksisiklin",
+      "C": "Amoksisilin",
+      "D": "Siprofloksasin",
+      "E": "Sefiroksimaktesil"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Seçeneklerde yer alan metronidazol, amoksisilin, siprofloksasin ve sefuroksim aksetil bakterisid (bakteri öldürücü) etkili antibiyotiklerdir ve birbirleriyle uygun protokollerle kombine edilebilirler. Doksisiklin ise bakteriostatik etkili bir tetrasiklin türevidir; bakterisid ilaçların çoğalan bakteriler üzerindeki etkinliğini azaltacağı için diğerleriyle kombine uygulanamaz.\n**Çeldiriciler:**\n- A) Metronidazol; amoksisilin, siprofloksasin veya sefuroksim aksetil ile kombine edilebilir.\n- C) Amoksisilin, metronidazol ile kombine edilerek *A.a.* ve kırmızı kompleks patojenlere karşı kullanılır.\n- D) Siprofloksasin, metronidazol ile kombine olarak kullanılabilir.\n- E) Sefuroksim aksetil, metronidazol ile kombine olarak kullanılabilir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 447,
+    "question": "I. Metranidazol\nII. Klindamisin\nIII. Penisilin\nIV. Tetrasiklin\nV. Eritromisin\n\nGingival Crevicular Fluid'de tespit edilen antibiyotikler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I-II",
+      "B": "I-III",
+      "C": "II-III",
+      "D": "I-IV",
+      "E": "II-IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Dişeti oluğu sıvısından (Gingival Crevicular Fluid - GCF / DOS) yüksek konsantrasyonda atılan ve cep sıvısında karakteristik olarak tespit edilip subgingival floraya karşı avantaj sağlayan iki temel antibiyotik metronidazol ve tetrasiklindir.\n**Çeldiriciler:**\n- A) Klindamisin kemik dokusuna penetrasyonuyla öne çıkar.\n- B) Penisilin GCF'den özel olarak atılan bir ajan değildir.\n- C) II ve III numaralı öncüller yanlıştır.\n- E) I. öncül yerine II. öncül alındığı için yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Metronidazol cep sıvısından (GCF) atılan başlıca antibiyotiklerdendir.\n- **II. Öncül (Yanlış):** Klindamisin öncelikle kemik penetrasyonu ile karakterizedir.\n- **III. Öncül (Yanlış):** Penisilin GCF'de spesifik yoğunlaşma göstermez.\n- **IV. Öncül (Doğru):** Tetrasiklin GCF'de serumun 2-10 katı yoğunlukta tespit edilir ve buradan atılır.\n- **V. Öncül (Yanlış):** Eritromisin GCF'ye yeterli düzeyde geçemez.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 448,
+    "question": "I. Periodontal tedavide sistemik antibiyotik kullanımı, mekanik tedaviyle biyofilm yapısının bozulduğu dönemde uygulanırsa antibakteriyel etkinlik artar.\nII. Metronidazol türevi antibiyotikler DNA sentezini baskılayarak bakterisid etki gösterir.\nIII. Klindamisin kemik dokusuna yüksek penetrasyon gösterir ve anaerob bakterilere karşı etkilidir.\nIV. Penisilin ve doksisiklinin birlikte kullanımı en etkili kombine antibiyotik uygulamasıdır.\n\nPeriodontal tedavide sistemik antibiyotiklerin kullanımıyla ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve III",
+      "B": "II ve IV",
+      "C": "II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** organize dental biyofilm içerisindeki bakteriler antibiyotiklere karşı 1000 kata kadar dirençlidir; bu nedenle mekanik debridmanla (SRP) biyofilm parçalandığında sistemik antibiyotiklerin etkinliği artar (I). Metronidazol DNA sentezini bozarak bakterisid etki gösterir (II) ve klindamisin kemiğe yüksek oranda geçerek anaeroblara etki eder (III). Ancak bakterisid olan penisilin ile bakteriostatik olan doksisiklin birbirinin etkisini antagonize edeceğinden birlikte kullanılmaz (IV yanlış).\n**Çeldiriciler:**\n- A) II. öncül de doğrudur.\n- B) IV. öncül kesinlikle yanlıştır.\n- C) I. öncül eksik bırakılmıştır.\n- D) IV. öncül hatalı olduğu için yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül (Doğru):** Mekanik tedaviyle biyofilm bütünlüğünün bozulması antibiyotiğin bakterilere ulaşmasını sağlar.\n- **II. Öncül (Doğru):** Metronidazol nükleik asit (DNA) sentezini inhibe ederek bakterisid etki yapar.\n- **III. Öncül (Doğru):** Klindamisin kemik dokusuna mükemmel penetre olur ve anaerobik enfeksiyonlarda etkilidir.\n- **IV. Öncül (Yanlış):** Bakterisid (penisilin) ve bakteriostatik (doksisiklin) antibiyotikler kombine edilmez; en etkili kombinasyon amoksisilin + metronidazoldür.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 449,
+    "question": "Periodontal tedavide sistemik antibiyotik kullanımı için aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Periodontal tedavide sistemik antibiyotik kullanımı, mekanik tedaviyle biyofilm yapısının bozulduğu dönemde uygulanırsa antibakteriyel etkinlik artar.",
+      "B": "Metronidazol türevi antibiyotikler DNA sentezini baskılayarak bakterisid etki gösterir.",
+      "C": "Klindamisin kemik dokusuna yüksek penetrasyon gösterir ve anaerob bakterilere karşı etkilidir.",
+      "D": "Penisilin ve doksisiklin birlikte kullanımı en etkili kombine antibiyotik uygulamasıdır.",
+      "E": "Azitromisin inflamasyon bölgesine fagositler aracılığıyla taşınır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Penisilin hücre duvarı sentezini bozarak yalnızca aktif bölünen bakterileri öldüren bakterisid bir ilaçtır; doksisiklin ise protein sentezini durdurarak bakteri bölünmesini engelleyen bakteriostatik bir ilaçtır. Doksisiklin varlığında bakteriler bölünemeyeceği için penisilin etkisiz kalır; bu nedenle bu iki ilaç kombine edilmez.\n**Çeldiriciler:**\n- A) Biyofilm bariyeri mekanik olarak dağıtıldığında antibiyotikler planktonik hale geçen bakterilere çok daha yüksek etki gösterir.\n- B) Metronidazol anaerob bakterilerde DNA sarmalını kırarak bakterisid etki oluşturur.\n- C) Klindamisin kemik penetrasyonu yüksek olan ve anaerobik spektrumu güçlü bir linkozamiddir.\n- E) Azitromisin fagositlerin içine yüksek oranda girerek kemotaksis yoluyla doğrudan inflamasyon sahasına taşınır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 450,
+    "question": "Periodontal tedavide kullanılan siprofloksasin için aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kafein ile birlikte kullanımlarında toksisite gelişebilir.",
+      "B": "Tüm aggregatibacter actinomycetemcomitans sujlarına etkilidir.",
+      "C": "Metronidazol ile birlikte kombine kullanılabilir.",
+      "D": "Streptokok türlerine karşı yüksek etkinliğe sahiptir.",
+      "E": "Warfarin ve diğer antikoagülanların etkisini arttırır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Siprofloksasin, fakültatif ve gram-negatif çomaklara karşı çok etkili bir florokinolondur; ancak periodontal sağlıkla ilişkili olan Gram(+) *Streptococcus* türlerine karşı etkinliği minimaldir. Bu özelliği aslında bir avantajdır çünkü patojenleri elimine ederken sağlıklı mikrofloranın (streptokokların) yeniden kolonizasyonunu destekler.\n**Çeldiriciler:**\n- A) Karaciğerde sitokrom P450 enzimlerini inhibe ederek teofilin ve kafein metabolizmasını yavaşlatır, toksisiteye yol açabilir.\n- B) Tüm *Aggregatibacter actinomycetemcomitans* (*A.a.*) suşlarının duyarlı olduğu bilinen tek sistemik antibiyotiktir.\n- C) Her ikisi de bakterisid olduğundan anaerob spektrumu tamamlamak için metronidazol ile kombine edilebilir.\n- E) Oral antikoagülanların (warfarin) metabolizmasını baskılayarak kanama riskini ve antikoagülan etkiyi artırır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 451,
+    "question": "Periodontal tedavide konak modülasyonu hangi amaçla yapılır?",
+    "options": {
+      "A": "Mikrobiyal dental plağı elimine etmek",
+      "B": "Konakta hastalığı modifiye eden genetik yapıyı belirlemek",
+      "C": "İmmun-inflamatuvar cevabın yıkıcı etkisini azaltmak",
+      "D": "Bakterilerin patojenik özelliklerini modifiye etmek",
+      "E": "Kök yüzeyine periodontal ligament hücrelerinin repopülasyonunu sağlamak"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Periodontal doku yıkımının büyük bir kısmı bakterilere karşı gelişen aşırı konak immün-inflamatuvar yanıtından (MMP'ler, proinflamatuvar sitokinler, prostaglandinler) kaynaklanır. Konak modülasyonu tedavisinin temel amacı; konağın savunma cevabının bu yıkıcı yönünü baskılamak (elimine etmek) ve koruyucu/yapıcı mekanizmalarını desteklemektir.\n**Çeldiriciler:**\n- A) Mikrobiyal dental plağı elimine etmek mekanik periodontal tedavinin (SRP) ve antiseptiklerin amacıdır.\n- B) Genetik yapıyı belirlemek diagnostik/genetik tarama testlerinin konusudur.\n- D) Konak modülasyonu bakterilerin virülansını değil, konağın verdiği biyolojik yanıtı hedef alır (antimikrobiyal dozda değildir).\n- E) Kök yüzeyine PDL hücrelerinin repopülasyonunu sağlamak yönlendirilmiş doku rejenerasyonunun (YDR) amacıdır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 452,
+    "question": "Periodontal tedavide konak modülasyonu tedavisi amaçlarından yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Antiinflamatuar mediyatör düzeylerini arttırmak",
+      "B": "Bozulan pro-enflamatuar/anti-enflamatuar dengesini sağlamak",
+      "C": "Konağa hasar verecek yıkıcı ürünlerin oluşumunu engellemek",
+      "D": "Konak-bakteri etkileşimin konak tarafını desteklemek",
+      "E": "Mikroorganizmaların biyofilme tutunmasının engellenmesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Mikroorganizmaların pelikıla veya biyofilme tutunmasını (adezyonunu) engellemek antiplak/antimikrobiyal ajanların görevidir. Konak modülasyonu ajanları doğrudan bakterileri veya biyofilm oluşumunu hedef almaz; konak dokusunun inflamatuvar ve enzimatik yanıtını düzenler.\n**Çeldiriciler:**\n- A) IL-4, IL-10, lipoksin ve resolvinler gibi antiinflamatuvar/çözücü mediyatörlerin düzeyini artırmak konak modülasyonunun amaçlarındandır.\n- B) Doku homeostazı için bozulan proinflamatuvar ve antiinflamatuvar sitokin dengesini yeniden kurmayı hedefler.\n- C) MMP'ler, serbest oksijen radikalleri (ROS) ve PGE2 gibi konağa zarar veren yıkıcı ürünlerin sentezini/aktivitesini engeller.\n- D) Konak-bakteri etkileşiminde doğrudan konak yanıtını regüle ederek doku direncini destekler.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 453,
+    "question": "Aşağıda verilen lokal antibiyotik ve preparatı eşleştirmelerden yanlış olan hangisidir?",
+    "options": {
+      "A": "Actisite – Tetrasiklin",
+      "B": "Periochip – Chlorhexidine",
+      "C": "Atridox – Doksisiklin",
+      "D": "Arestin – Minosiklin",
+      "E": "Elyzol – Moxifloxacin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Elyzol, moksifloksasin içermez; içerisinde %25 oranında **metronidazol** bulunduran ve subgingival alana uygulanan jel formunda lokal bir antimikrobiyal preparattır.\n**Çeldiriciler:**\n- A) Actisite, 12,7 mg tetrasiklin hidroklorür içeren rezorbe olmayan etilen vinil asetat fiber sistemidir.\n- B) PerioChip, 2,5 mg klorheksidin glukonat içeren rezorbe olabilen jelatin çiptir.\n- C) Atridox, %10 doksisiklin hiklat içeren biyobozunur jel sistemidir.\n- D) Arestin, %2 minosiklin içeren mikrosferül (toz/jel) formunda lokal antibiyotik preparatıdır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 454,
+    "question": "Aşağıdakilerden hangisi konak modülasyonunda lokal olarak kullanılan ajanlardan değildir?",
+    "options": {
+      "A": "Mine matriks türevleri",
+      "B": "Kemik morfogenetik proteinler",
+      "C": "Bifosfanat",
+      "D": "Trombositten zengin fibrin",
+      "E": "Ketorolak"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Bifosfonatlar, osteoklast fonksiyonunu inhibe ederek kemik rezorpsiyonunu baskılayan ve konak modülasyonunda **sistemik** olarak kullanılan (ancak çene kemiklerinde osteonekroz - MRONJ riski taşıyan) ilaçlardır; lokal konak modülasyonu ajanları arasında yer almazlar.\n**Çeldiriciler:**\n- A) Mine matriks türevleri (EMD), rejeneratif yönde konak hücre cevabını modüle etmek için defekt içine lokal olarak uygulanır.\n- B) Kemik morfogenetik proteinler (BMP), lokal olarak uygulanarak osteoindüksiyon ve konak rejenerasyonunu uyarır.\n- D) Trombositten zengin fibrin (PRF), lokal büyüme faktörü salınımıyla yara iyileşmesini modüle eder.\n- E) Ketorolak (ve flurbiprofen, triklosan), lokal gargara/jel formunda uygulanarak gingival dokuda PGE2 sentezini baskılayan lokal NSAİİ uygulamalarındandır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 455,
+    "question": "Osteoklastlar ve matriks metalloproteinazlar üzerine etkili olan ve cerrahisiz periodontal tedavi ile birlikte konak modülasyonu amacı ile uzun dönem sistemik kullanımı önerilen en uygun biyolojik ajan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mine matriks türevleri",
+      "B": "Bisfosfonatlar",
+      "C": "BMP-2",
+      "D": "Subantimikrobiyal doz doksisiklin",
+      "E": "Non-steroidal antiinflamatuvarlar"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Subantimikrobiyal doz doksisiklin (SDD - günde 2 kez 20 mg, Periostat), antibakteriyel etki göstermeksizin doğrudan matriks metalloproteinazları (özellikle MMP-8 ve MMP-9), proinflamatuvar sitokinleri ve osteoklast aktivitesini inhibe eder. SRP'ye ek olarak uzun dönem sistemik konak modülasyonu amacıyla kullanımı FDA tarafından onaylanmış tek ilaçtır.\n**Çeldiriciler:**\n- A) Mine matriks türevleri sistemik değil, cerrahi sırasında kök yüzeyine lokal olarak uygulanan rejeneratif ajanlardır.\n- B) Bifosfonatlar çene kemiği osteonekrozu (MRONJ) riski nedeniyle rutin periodontal konak modülasyonunda önerilmez.\n- C) BMP-2 lokal olarak uygulanan rekombinant bir büyüme faktörüdür; sistemik kullanılmaz.\n- E) NSAİİ'ler uzun dönem sistemik kullanıldıklarında ciddi gastrointestinal ve renal yan etkilere yol açarlar ve ilaç kesildiğinde \"rebound\" (hızlı geri dönüş) kemik yıkımı görülür.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 456,
+    "question": "I. Bakterilerin protein sentezi inhibisyonu\nII. Matriks metalloproteinazların inhibisyonu\nIII. Kollajenaz aktivitesinin artırılması\n\nYukarıdakilerden hangisi ya da hangileri konak modülasyonu için kullanılan subantimikrobiyal doz doksisiklin (SDD)'nin etkileri arasındadır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Subantimikrobiyal doz doksisiklin (20 mg), bakteriler üzerinde protein sentezini inhibe edecek minimum inhibitör konsantrasyona (MİK) ulaşmaz; dolayısıyla antibakteriyel etkisi yoktur (I yanlış). Temel etkisi konak kaynaklı matriks metalloproteinazları (MMP/kollajenaz) inhibe ederek (II doğru, III yanlış) bağ dokusu ve kemik yıkımını önlemektir.\n**Çeldiriciler:**\n- A) 20 mg'lık düşük dozda bakteriyel protein sentezi inhibisyonu gerçekleşmez.\n- C) I. öncül terapötik (100 mg) dozun etkisidir, SDD'nin etkisi değildir.\n- D) Hem I. hem de III. öncül yanlıştır.\n- E) SDD kollajenaz aktivitesini artırmaz, aksine baskılar.\n**Öncüllerin Analizi:**\n- **I. Öncül (Yanlış):** SDD dozunda antibakteriyel etki (bakteri protein sentezi inhibisyonu) görülmez, böylece antibiyotik direnci gelişmez.\n- **II. Öncül (Doğru):** Kalsiyum ve çinko şelasyonu yoluyla MMP'lerin (kollajenazların) aktivitesini ve sentezini inhibe eder.\n- **III. Öncül (Yanlış):** Kollajenaz aktivitesini artırmaz, tam tersine azaltır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 457,
+    "question": "Orijinal formülünde Ökaliptol, mentol, metil salisilat ve timol ile alkol bulunur. Hücre duvarı bozulması, bakteriyel enzimlerin inhibisyonu, Gram-negatif bakterilerin lipopolisakkarit'den (LPS) türetilen endotoksinlerin ekstraksiyonu ve antioksidan aktiviteye dayalı anti-inflamatuar etki gibi çok sayıda etki mekanizma ile kimyasal plak kontrolüne katkı sunar. Ağızda yanma hissi ve dişlerde boyanma gibi yan etkileri vardır.\n\nÖzellikleri belirtilen kimyasal plak kontrolü ajanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Esansiyel yağlar",
+      "B": "Ağır metal tuzları",
+      "C": "Triklosan",
+      "D": "Bisbiguanidler",
+      "E": "Dörtlü amonyum bileşikleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Timol, ökaliptol, mentol ve metil salisilat bileşenlerinden oluşan ağız gargaraları (örn. Listerine) \"esansiyel yağlar\" grubunda yer alır. Bakteri hücre duvarını bozarak, LPS ekstraksiyonu yaparak ve serbest oksijen radikallerini süpürerek (antioksidan/antiinflamatuvar etki) plak ve gingivitisi azaltırlar. ADA onaylıdırlar.\n**Çeldiriciler:**\n- B) Ağır metal tuzları çinko, kalay ve bakır içerir; uçucu yağ içermezler.\n- C) Triklosan tek başına bir bisfenol bileşiğidir; timol veya ökaliptol kombinasyonu değildir.\n- D) Bisbiguanidler klorheksidin ve aleksidini kapsar.\n- E) Dörtlü (kuaterner) amonyum bileşikleri setilpiridinyum klorit (CPC) ve benzalkonyum klorürü içerir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 458,
+    "question": "Diş etlerinde büyüme şikâyeti olan 32 yaşındaki erkek hastadan alınan anamnez sonucu herhangi bir sistemik hastalığı ve kullandığı ilacı bulunmadığı, günde en fazla 10 adet sigara içtiği öğreniliyor. Hastanın klinik muayenesinde maksiller anterior dişlerin vestibülünde 5 dişi etkileyen fibrotik diş eti büyümeleri olduğu gözleniyor. Bu bölgede yapışık diş eti genişliği en az 6 mm, sondlama cep derinlikleri ise 5-7 mm ölçülüyor. Radyografik olarak da ilgili dişlerde herhangi bir kemik kaybı ya da kemik içi defekt olmadığı tespit ediliyor.\n\nBu hasta için aşağıdaki cerrahi tedavilerden hangisi en uygundur?",
+    "options": {
+      "A": "Apikale pozisyone flep",
+      "B": "Yönlendirilmiş doku rejenerasyonu",
+      "C": "Rezektif osseoz cerrahi",
+      "D": "Gingivektomi",
+      "E": "Rekonstrüktif osseoz cerrahi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hastada kemik kaybı veya kemik içi defekt bulunmaması, mevcut 5-7 mm'lik ceplerin tamamen dişeti büyümesine bağlı \"yalancı cep\" (psödocep / kemik üstü cep) olduğunu gösterir. Bölgede yeterli genişlikte (en az 6 mm) keratinize/yapışık dişeti bulunduğu ve büyüme karakteri fibrotik olduğu için, fazla dişeti dokusunu eksternal bevel insizyonla eksize ederek cep eliminasyonu sağlayan en uygun cerrahi yöntem gingivektomidir.\n**Çeldiriciler:**\n- A) Apikale pozisyone flep, yapışık dişeti genişliğinin yetersiz (<3 mm) olduğu veya kemik cerrahisi gereken gerçek ceplerde tercih edilir.\n- B) Yönlendirilmiş doku rejenerasyonu, dikey (kemik içi/angüler) kemik defektlerinin ve furkasyon lezyonlarının rejenerasyonu için uygulanır; hastada kemik kaybı yoktur.\n- C) Rezektif osseoz cerrahi, alveoler kemikte şekillendirme (osteoplasti/ostektomi) gerektiren kemik defektlerinde uygulanır.\n- E) Rekonstrüktif osseoz cerrahi, kemik kaybı olan defektleri greft vb. materyallerle onarmak için yapılır; bu vakada kemik sağlamdır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 459,
+    "question": "Aşağıdakilerden hangisi gingivektominin endikasyonlarından biridir?",
+    "options": {
+      "A": "Kemik cerrahisi gereken durumlar",
+      "B": "Mukogingival birleşim altına uzanan ceplerin varlığı",
+      "C": "Yetersiz keratinize diş eti varlığı",
+      "D": "Kemik üstü periodontal apse tedavisi",
+      "E": "Kemik içi cep tedavisi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Gingivektominin temel endikasyonları; fibröz duvarlı kemik üstü (suprabony) ceplerin eliminasyonu, dişeti büyümelerinin eksizyonu, klinik kuron boyu uzatma ve kemik üstü periodontal apselerin cerrahi tedavisidir.\n**Çeldiriciler:**\n- A) Kemik dokusuna müdahale (osteoplasti/ostektomi) gerekiyorsa gingivektomi kontrendikedir; periodontal flep kaldırılmalıdır.\n- B) Cep tabanı mukogingival birleşimin apikalinde ise gingivektomi yapıldığında tüm keratinize doku kaybedileceğinden kontrendikedir.\n- C) Yetersiz keratinize/yapışık dişeti varlığında dokuyu eksize eden gingivektomi kontrendikedir; apikale pozisyone flep tercih edilir.\n- D) Kemik içi (infrabony) ceplerin tedavisinde gingivektomi kontrendikedir; flep operasyonları ve rejeneratif yöntemler uygulanır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 547,
+    "question": "Aşağıda verilen lazer tipleri ve dalga boyları eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "$\\text{CO}_2$: 10.600 nm – Diode: 2940 nm – Er:YAG: 800 nm",
+      "B": "$\\text{CO}_2$: 800 nm – Diode: 10.600 nm – Er:YAG: 2940 nm",
+      "C": "$\\text{CO}_2$: 10.600 nm – Diode: 800 nm – Er:YAG: 2940 nm",
+      "D": "$\\text{CO}_2$: 2940 nm – Diode: 800 nm – Er:YAG: 10.600 nm",
+      "E": "$\\text{CO}_2$: 800 nm – Diode: 2940 nm – Er:YAG: 10.600 nm"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Diş hekimliğinde kullanılan temel lazerlerin karakteristik dalga boyları; $\\text{CO}_2$ lazer için 10.600 nm, Diode lazer için 800-980 nm (800 nm) ve Er:YAG lazer için 2940 nm'dir.\n**Çeldiriciler:**\n- A) Diode ve Er:YAG lazerlerin dalga boyları birbiriyle ters verilmiştir.\n- B) $\\text{CO}_2$ ve Diode lazerlerin dalga boyları birbiriyle ters verilmiştir.\n- D) $\\text{CO}_2$ ve Er:YAG lazerlerin dalga boyları birbiriyle ters verilmiştir.\n- E) Üç lazer sisteminin de dalga boyları yanlış eşleştirilmiştir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 548,
+    "question": "I. Düşük doz lazer terapisi, iyileşmeyi stimüle eder.\nII. Düşük doz lazer terapisi, ağrıyı azaltmak amacıyla kullanılabilir.\nIII. Düşük doz lazer terapisi, inflamasyonu azaltarak yara iyileşmesini kolaylaştırır.\n\nDüşük doz lazer terapisi ile ilgili yukarıda verilenlerden hangisi/hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "I - II ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Düşük doz lazer terapisi (DDLT / Fotobiyomodülasyon), 600-1070 nm dalga boyunda termal hasar oluşturmadan dokuları hücresel düzeyde uyaran bir tedavi yöntemidir ve verilen üç etkiyi de gerçekleştirir.\n**Çeldiriciler:** Öncüllerin tamamı doğru olduğu için eksik öncül içeren A, B, C ve E seçenekleri yanlıştır.\n- **I. Öncül (Doğru):** DDLT; granülasyon dokusu oluşumunu, epitelizasyonu, fibroblast proliferasyonunu ve kollajen matriks sentezini uyararak doku iyileşmesini stimüle eder.\n- **II. Öncül (Doğru):** Sinir iletimini modüle ederek ve nörovaskülarizasyonu etkileyerek postoperatif ağrıyı ve dentin hassasiyetini azaltmak amacıyla kullanılır.\n- **III. Öncül (Doğru):** Proinflamatuar sitokinleri ve ödemi azaltıp antiinflamatuar etki göstererek yara iyileşmesini hızlandırır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 549,
+    "question": "I. Düşük enerji düzeyine sahip lazer ve fotosensitize edici ajanın birlikte kullanıldığı bir tedavi yöntemidir.\nII. Serbest oksijen radikallerinin açığa çıkmasını sağlayarak lazerin antibakteriyel etkinliğini artırır.\nIII. Periodontitis tedavisi için altın standart olarak kabul edilir.\n\nFotodinamik terapi ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Antimikrobiyal fotodinamik terapi (aPDT), düşük güçlü lazer ışığı ile ışığa duyarlı bir boyanın (fotosensitizer) kombine edildiği ve reaktif oksijen türleri üreterek bakterileri öldüren yardımcı bir yöntemdir.\n**Çeldiriciler:** III. öncülü içeren veya I. ve II. öncüllerden birini dışlayan A, B, C ve E seçenekleri yanlıştır.\n- **I. Öncül (Doğru):** Fotodinamik terapi, hedef mikroorganizmalara bağlanan fotosensitize edici bir ajan (örn. metilen mavisi, toluidin mavisi) ve bunu aktive eden uygun dalga boyundaki düşük enerjili lazerin birlikte kullanılmasına dayanır.\n- **II. Öncül (Doğru):** Lazer ışığı ile uyarılan fotosensitizer ajan, ortamdaki oksijenle reaksiyona girerek singlet oksijen ve serbest oksijen radikallerinin açığa çıkmasını sağlar; bu radikaller bakteri hücre duvarını ve DNA'sını tahrip ederek antibakteriyel etkinliği artırır.\n- **III. Öncül (Yanlış):** Periodontitis tedavisinde altın standart yöntem mekanik diş yüzeyi temizliği ve kök yüzeyi düzleştirmesidir (SRP); fotodinamik terapi altın standart değil, SRP'ye ek olarak araştırılan yardımcı bir uygulamadır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 550,
+    "question": "Aşağıdakilerden hangisi periodontolojide kullanılan fotodinamik terapi için yanlıştır?",
+    "options": {
+      "A": "Düşük enerjili lazerle uygulanır.",
+      "B": "Fotosensitize edici ajanlar kullanılır.",
+      "C": "Periodontal hastalığa spesifik mikroorganizmaların ölmesini sağlar.",
+      "D": "Periodontitis tedavisi için altın standart olarak kabul edilmektedir.",
+      "E": "Serbest oksijen radikalleri açığa çıkararak antibakteriyel etkinliği arttırır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Periodontitis tedavisinde altın standart yöntem, biyofilm ve diş taşlarını mekanik olarak uzaklaştıran diş yüzeyi temizliği ve kök yüzeyi düzleştirmesi (scaling ve root planing - SRP) işlemidir. Fotodinamik terapi tek başına altın standart olarak kabul edilmez.\n**Çeldiriciler:**\n- A) Dokuda termal yıkım yapmayan düşük enerjili (düşük doz) diyot lazerlerle uygulanır.\n- B) Bakteri membranına bağlanan metilen mavisi veya indosiyanin yeşili gibi fotosensitize edici boyalar kullanılır.\n- C) Boyanın bakterilere seçici bağlanması sayesinde konağa zarar vermeden periodontal patojenlerin ölmesini sağlar.\n- E) Işık aktivasyonu sonucunda oluşan singlet oksijen ve serbest oksijen radikalleri aracılığıyla bakterisidal etki gösterir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 551,
+    "question": "Özellikle LANAP'de (Lazer destekli yeni ataşman prosedürü) kullanılan dalga boyu 1064 nm olan lazer türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "ER: YAG",
+      "B": "Diode",
+      "C": "Er, Cr: YSGG",
+      "D": "ND: YAG",
+      "E": "Argon"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** LANAP (Laser-Assisted New Attachment Procedure) protokolünde spesifik olarak kullanılan, 1064 nm dalga boyuna sahip, cep içerisindeki hastalıklı epiteli seçici olarak uzaklaştırıp pigmente periodontopatojenleri etkileyen ve fibrin pıhtısı stabilizasyonu sağlayan lazer türü Nd:YAG lazerdir.\n**Çeldiriciler:**\n- A) Er:YAG lazer; 2940 nm dalga boyuna sahiptir ve sert doku/diş taşı uzaklaştırmada etkilidir.\n- B) Diode lazer; 655-980 nm dalga boyu aralığında çalışır.\n- C) Er,Cr:YSGG lazer; 2780 nm dalga boyuna sahiptir.\n- E) Argon lazer; 488-514 nm dalga boyuna sahiptir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Tedavi Planlaması",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  }
+]

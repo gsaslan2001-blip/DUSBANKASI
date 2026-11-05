@@ -1,0 +1,1618 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi bir proteinin primer yapısını belirleyen kimyasal bağdır?",
+    "options": {
+      "A": "Peptid bağı",
+      "B": "Fosfodiester bağı",
+      "C": "Disülfid bağı",
+      "D": "Hidrojen bağı",
+      "E": "Van der Waals kuvvetleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Peptid bağı (DOĞRU):** Proteinin primer yapısı, aminoasitlerin $\\alpha$-karboksil grupları ile $\\alpha$-amino grupları arasında kovalent kovalent bir kovalent bağ olan peptid (amid) bağlarıyla bağlanmasıyla oluşan lineer aminoasit dizilimidir. Proteinin spesifik aminoasit sırasını ve primer yapısını belirler. Kısmi çift bağ özelliğine sahiptir ve trans konfigürasyonundadır.\n- **B) Fosfodiester bağı (YANLIŞ):** Nükleik asitlerin (DNA ve RNA) omurgasında nükleotidleri birbirine bağlayan kovalent bağdır.\n- **C) Disülfid bağı (YANLIŞ):** İki sistein molekülünün -SH (sülfhidril) gruplarının oksidasyonu ile oluşan kovalent bağdır; primer yapıyı değil, tersiyer ve kuarterner yapıyı stabilize eder.\n- **D) Hidrojen bağı (YANLIŞ):** Zayıf kovalent olmayan bağlardır; sekonder yapıların ($\\alpha$-heliks, $\\beta$-kıvrım) ve tersiyer yapının oluşumunda rol oynar.\n- **E) Van der Waals kuvvetleri (YANLIŞ):** Apolar moleküller ve yan zincirler arasındaki çok zayıf elektrostatik çekim kuvvetleridir; tersiyer yapının hidrofobik çekirdeğinde etkilidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 DUS"
+  },
+  {
+    "question": "Proteinlerin sekonder yapısının oluşumundan sorumlu en önemli bağ hangisidir?",
+    "options": {
+      "A": "Glikozidik bağlar",
+      "B": "Hidrojen bağları",
+      "C": "Disülfit bağları",
+      "D": "İyonik bağlar",
+      "E": "Hidrofobik etkileşimler"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Glikozidik bağlar (YANLIŞ):** Karbonhidratlarda monosakkarit birimlerini birbirine bağlayan veya glikoproteinlerde şeker zincirlerini proteine bağlayan bağlardır.\n- **B) Hidrojen bağları (DOĞRU):** Sekonder yapı, polipeptid omurgasındaki peptid bağlarının karbonil oksijeni (C=O) ile amide hidrojeni (N-H) arasında kurulan düzenli hidrojen bağları sayesinde şekillenir ($\\alpha$-heliks ve $\\beta$-kırma kırma yapılar).\n- **C) Disülfit bağları (YANLIŞ):** Sisteinler arasında oluşan kovalent bağlar olup primer veya sekonder yapıyı değil, tersiyer/kuarterner konformasyonu stabilize eder.\n- **D) İyonik bağlar (YANLIŞ):** Zıt yüklü aminoasit yan zincirleri (örn. Aspartat ve Lizin) arasında oluşur ve tersiyer yapıda rol alır.\n- **E) Hidrofobik etkileşimler (YANLIŞ):** Apolar yan zincirlerin su ortamından kaçarak iç kısımda toplanmasıdır; tersiyer yapının katlanmasındaki ana itici güçtür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Hangisinin yan zinciri, oluşturduğu kovalent bağ ile proteinlerin tersiyer yapısının stabilizasyonunu sağlar?",
+    "options": {
+      "A": "Valin",
+      "B": "Glutamat",
+      "C": "Histidin",
+      "D": "Asparajin",
+      "E": "Sistein"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Valin (YANLIŞ):** Apolar yan zincire sahiptir, kovalent bağ oluşturamaz; hidrofobik etkileşimlerle tersiyer yapıya katılır.\n- **B) Glutamat (YANLIŞ):** Negatif yüklü asidik bir aminoasittir; iyonik bağ (tuz köprüsü) ve hidrojen bağı kurar, kovalent bağ kurmaz.\n- **C) Histidin (YANLIŞ):** Bazik ve halkalı yan zincire sahiptir; iyonik bağ ve koordinat kovalent/hidrojen bağları kurabilir ancak disülfit gibi kovalent çapraz bağ oluşturmaz.\n- **D) Asparajin (YANLIŞ):** Polar yüksüz bir aminoasittir; hidrojen bağı veya N-glikozid bağı oluşturabilir, kovalent terziyer bağ kurmaz.\n- **E) Sistein (DOĞRU):** Yan zincirinde kükürt (-SH, sülfhidril) içeren sisteinin iki molekülü oksitlenerek kovalent yapılı disülfit bağlarını (S-S) oluşturur. Disülfit bağları, proteinlerin 3 boyutlu tersiyer ve kuarterner yapısını kovalent olarak stabilize eden en güçlü bağdır (kıran ajan performik asittir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisinin proteinlerin $\\alpha$-heliks yapısını bozması en az olasılıktır?",
+    "options": {
+      "A": "Prolin",
+      "B": "Glisin",
+      "C": "Glutamat",
+      "D": "Lizin",
+      "E": "Alanin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Prolin (YANLIŞ):** İminoasit yapısı nedeniyle rijit halkaya sahiptir ve N-H grubunda serbest hidrojen bulunmadığı için hidrojen bağı kuramaz; $\\alpha$-heliks yapısını en güçlü bozan (helix breaker) aminoasittir.\n- **B) Glisin (YANLIŞ):** En küçük yan zincire (sadece H) sahip olup aşırı esneklik sağladığı için $\\alpha$-heliksi destabilize eder, heliksi bozar.\n- **C) Glutamat (YANLIŞ):** Yan yana geldiğinde aynı yüklü (negatif) gruplar itme kuvveti oluşturarak heliksi bozar.\n- **D) Lizin (YANLIŞ):** Yan yana geldiğinde pozitif yüklerin itişmesi sonucu heliks yapısını bozar.\n- **E) Alanin (DOĞRU):** Küçük ve nötral yan zinciri ($ -CH_3 $) sayesinde $\\alpha$-heliks yapısını en fazla tercih eden ve helikse en yüksek eğilimi gösteren (helix former) aminoasittir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Proteinlerin tersiyer yapısının stabilizasyonunda, treoninin yan zinciri aşağıdakilerden hangi bağ tiplerinden hangisinin oluşumuna katılır?",
+    "options": {
+      "A": "Disülfit bağı",
+      "B": "Hidrofobik bağ",
+      "C": "İyonik bağ",
+      "D": "Hidrojen bağı",
+      "E": "Peptid bağı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Disülfit bağı (YANLIŞ):** Sadece Sistein aminoasitleri arasında kovalent olarak kurulur.\n- **B) Hidrofobik bağ (YANLIŞ):** Apolar hidrokarbon yan zincirleri (Val, Leu, Ile, Phe vb.) arasında kurulur.\n- **C) İyonik bağ (YANLIŞ):** Yüklü aminoasitler (Aspartat, Glutamat ile Lizin, Arjinin, Histidin) arasında oluşur.\n- **D) Hidrojen bağı (DOĞRU):** Treonin, yapısında hidroksil (-OH) grubu taşıyan polar bir aminoasittir. Yan zincirindeki -OH grubu sayesinde diğer polar aminoasitlerle (Serin, Tirozin, Asparajin, Glutamin) hidrojen bağı kurarak tersiyer yapının stabilizasyonuna ve proteinin suda çözünürlüğünün artmasına katkıda bulunur.\n- **E) Peptid bağı (YANLIŞ):** Yan zincir ile değil, ana omurgadaki $\\alpha$-karboksil ve $\\alpha$-amino grupları arasında kurulur (primer yapı).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi proteinlerin tersiyer yapısına, R yan zinciri ile hidrojen bağı oluşturarak katkıda bulunur?",
+    "options": {
+      "A": "Asparajin",
+      "B": "İzolösin",
+      "C": "Valin",
+      "D": "Metionin",
+      "E": "Alanin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Asparajin (DOĞRU):** Yan zincirinde polar amide grubu ($-CO-NH_2$) içerir. Bu polar yan zincir (R grubu), su molekülleriyle veya diğer polar aminoasitlerle hidrojen bağı oluşturarak proteinin tersiyer yapısını stabilize eder.\n- **B) İzolösin (YANLIŞ):** Dallı zincirli apolar bir aminoasittir; tersiyer yapıda hidrofobik etkileşimlere katılır.\n- **C) Valin (YANLIŞ):** Apolar hidrokarbon yan zincirine sahiptir; hidrofobik etkileşim yapar.\n- **D) Metionin (YANLIŞ):** Kükürt içeren apolar bir aminoasittir; hidrojen bağı oluşturamaz, hidrofobik etkileşim yapar.\n- **E) Alanin (YANLIŞ):** Apolar metil yan zincirine sahiptir; hidrofobik etkileşimlere katılır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Proteinlerin tersiyer yapısındaki hidrofobik bağların oluşumuna katılan aminoasitler aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Aspartat - Lizin",
+      "B": "Serin - Glutamat",
+      "C": "Valin - Lösin",
+      "D": "Tirozin - Aspartat",
+      "E": "Sistein - Sistein"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Aspartat - Lizin (YANLIŞ):** Biri negatif (asidik), diğeri pozitif (bazik) yüklüdür; aralarında iyonik bağ (tuz köprüsü) kurulur.\n- **B) Serin - Glutamat (YANLIŞ):** Serin polar -OH içerir, Glutamat negatif yüklüdür; hidrojen bağı kurarlar.\n- **C) Valin - Lösin (DOĞRU):** Her ikisi de dallı zincirli apolar (hidrofobik) aminoasitlerdir. Protein katlanması sırasında sulu ortamdan kaçarak proteinin iç kısmına yönelirler ve hidrofobik etkileşimlerle (etkileşimler/bağlar) tersiyer yapının çekirdeğini oluştururlar.\n- **D) Tirozin - Aspartat (YANLIŞ):** Tirozin fenolik -OH, Aspartat karboksil taşır; hidrojen bağı kurabilirler.\n- **E) Sistein - Sistein (YANLIŞ):** İki sisteinin -SH grupları arasında kovalent disülfit bağı oluşur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "I. Alanin - Valin\nII. İzolösin - Metionin\nIII. Serin - Treonin\nYukarıdaki amino asit çiftlerinden hangilerinin yan zincirleri arasında hidrofobik etkileşim gözlenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Öncül I - Alanin ve Valin (DOĞRU):** Alanin (metil yan zincirli) ve Valin (dallı zincirli) apolar (hidrofobik) aminoasitlerdir. Yan zincirleri arasında hidrofobik etkileşim kurulur.\n- **Öncül II - İzolösin ve Metionin (DOĞRU):** İzolösin (dallı apolar) ve Metionin (tiyoeter apolar) apolar aminoasitlerdir. Yan zincirleri arasında hidrofobik etkileşim gerçekleşir.\n- **Öncül III - Serin ve Treonin (YANLIŞ):** Her ikisi de hidroksil (-OH) grubu içeren polar aminoasitlerdir. Yan zincirleri hidrofobik değil, hidrojen bağı oluşturur.\nBu nedenle I ve II doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, insan prion-ilişkili proteininin özelliklerinden biri değildir?",
+    "options": {
+      "A": "Beyin dokusunda bol bulunması",
+      "B": "Monomer olması",
+      "C": "$\\beta$ tabaka bakımından zengin olması",
+      "D": "Glikoprotein olması",
+      "E": "Proteazlara duyarlı olması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Beyin dokusunda bol bulunması (DOĞRU):** Hücresel prion proteini ($PrP^c$), özellikle beyin ve nöral dokularda yüksek düzeyde eksprese edilir.\n- **B) Monomer olması (DOĞRU):** Normal hücresel formu ($PrP^c$), $\\alpha$-heliks yapıda monomerik bir glikoproteindir.\n- **C) $\\beta$ tabaka bakımından zengin olması (DOĞRU):** Patojenik prion formu ($PrP^{sc}$ veya scrapie formu), normal $\\alpha$-heliks yapısının $\\beta$-kırma tabakalı yapıya dönüşmesiyle oluşur ve oligomerleşir.\n- **D) Glikoprotein olması (DOĞRU):** Prion proteini, hücre yüzeyine GPI (glikozilfosfatidilinositol) çıpasıyla bağlı bir monomerik glikoproteindir.\n- **E) Proteazlara duyarlı olması (YANLIŞ - CEVAP):** Normal $PrP^c$ proteazlara hassas iken, patojenik $PrP^{sc}$ formu proteazlara (Proteinaz K) ve ısı/deterjan gibi denatüranlara son derece dirençlidir; suda çözünmez ve beyinde birikerek spongiform ensefalopatilere yol açar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "$\\beta$-amiloid protein düzeyinin artması ve bu proteinin $\\alpha$-helikten $\\beta$-tabakalı yapıya geçerek beyinde birikimiyle ortaya çıkan hastalık hangisidir?",
+    "options": {
+      "A": "Wilson hastalığı",
+      "B": "Alzheimer hastalığı",
+      "C": "Menkes sendromu",
+      "D": "Krabbe hastalığı",
+      "E": "Metakromatik lökodistrofi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Wilson hastalığı (YANLIŞ):** ATP7B gen mutasyonu sonucu bakırın safra ile atılamaması ve karaciğer, beyinde (bazal ganglionlar) bakır birikimidir.\n- **B) Alzheimer hastalığı (DOĞRU):** Amiloid Prekürsör Proteininin (APP) anormal sekresyonu/kesimi sonucu üretilen $\\beta$-amiloid peptidlerinin $\\alpha$-heliks konformasyonundan $\\beta$-tabaka zengin proteazlara dirençli amiloid plaklara dönüşerek nöron dışı birikimi ile karakterize en sık demans nedenidir (Ayrıca Tau hiperfosforilasyonu nörofibriler yumaklar oluşturur).\n- **C) Menkes sendromu (YANLIŞ):** ATP7A gen mutasyonu sonucu bağırsaktan bakır emilim bozukluğudur.\n- **D) Krabbe hastalığı (YANLIŞ):** Galaktoserebrosidaz eksikliğinde psikozin ve galaktoserebrosit birikimidir.\n- **E) Metakromatik lökodistrofi (YANLIŞ):** Arilsülfataz A eksikliğinde sülfatid birikimidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi agregat birikimiyle seyreden protein katlanma bozukluklarından biri değildir?",
+    "options": {
+      "A": "Alzheimer hastalığı",
+      "B": "Parkinson hastalığı",
+      "C": "Hirschsprung hastalığı",
+      "D": "Huntington hastalığı",
+      "E": "Creutzfeldt-Jakob hastalığı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Alzheimer hastalığı (YANLIŞ):** $\\beta$-amiloid ve hiperfosforile Tau proteinlerinin yanlış katlanarak birikmesiyle seyreden proteopatik bir bozukluktur.\n- **B) Parkinson hastalığı (YANLIŞ):** $\\alpha$-sinüklein proteininin yanlış katlanıp kümeleşmesiyle Lewy cisimcikleri oluşur.\n- **C) Hirschsprung hastalığı (DOĞRU - CEVAP):** Nöral krest hücrelerinin distal kolona göç edememesi sonucu oluşan doğumsal aganglionik megakolondur; misfolded protein agregat birikimi ile ilgili bir katlanma hastalığı değildir.\n- **D) Huntington hastalığı (YANLIŞ):** Huntingtin proteinindeki politrimetil (CAG) nükleotid tekrarları sonucu hatalı katlanmış huntingtin protein birikimidir.\n- **E) Creutzfeldt-Jakob hastalığı (YANLIŞ):** Prion proteininin ($PrP^{sc}$) hatalı katlanarak beyinde birikmesiyle giden bulaşıcı spongiform ensefalopatidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "I. Hatalı $\\beta$-tabakalı yapı oluşumu\nII. $\\alpha$-heliks yapının üçlü heliks yapıya dönüşümü\nIII. $\\beta$-tabakalı yapının $\\alpha$-heliks ve üçlü heliks yapıya dönüşümü\nIV. $\\beta$-tabakalı yapının açılması\nYukarıdaki protein yapı değişimlerinden hangileri amiloidoza neden olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "Yalnız IV",
+      "D": "I ve II",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **Öncül I - Hatalı $\\beta$-tabakalı yapı oluşumu (DOĞRU):** Amiloidozis, normalde çözünebilir özellikte olan proteinlerin hatalı katlanarak (mis-folding) proteazlara dirençli, insolubl ve çözünmeyen $\\beta$-kırma tabakadan zengin fibriler yapılara (amiloid) dönüşüp dokularda birikmesi durumudur.\n- **Öncül II (YANLIŞ):** $\\alpha$-heliksin üçlü helikse dönüşümü amiloidoz değildir; üçlü heliks kollajenin fizyolojik yapısıdır.\n- **Öncül III (YANLIŞ):** $\\beta$-tabakanın $\\alpha$-helikse dönüşümü amiloidoz yapmaz, tam tersine $\\alpha$-heliksin $\\beta$-tabakaya dönüşümü amiloidoz tetikler.\n- **Öncül IV (YANLIŞ):** $\\beta$-tabakalı yapının açılması amiloid fibrili oluşturmaz.\nBu nedenle yanıt Yalnız I'dir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, kollajenin hücre içinde geçirdiği değişimlerden biri değildir?",
+    "options": {
+      "A": "Sinyal peptidin ayrılması",
+      "B": "Hidroksiprolin oluşumu",
+      "C": "Karbonhidrat takısı eklenmesi",
+      "D": "Amino ve karboksil ucundaki propeptidlerin kesilmesi",
+      "E": "Üçlü heliks yapı oluşumu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Sinyal peptidin ayrılması (Hücre İçi):** Granüllü ER'de preprokollajenin sinyal sekansı kesilerek prokollajen oluşturulur.\n- **B) Hidroksiprolin oluşumu (Hücre İçi):** GER lümeninde Prolil ve Lizil hidroksilaz enzimleri tarafından C vitamini, $Fe^{2+}$, $O_2$ ve $\\alpha$-ketoglutarat varlığında prolin ve lizinler hidroksillenir.\n- **C) Karbonhidrat takısı eklenmesi (Hücre İçi):** GER ve Golgi'de hidroksilizin rezidülerine glukoz ve galaktoz eklenir (O-glikozilasyon).\n- **D) Amino ve karboksil ucundaki propeptidlerin kesilmesi (EKSTRASELLÜLER - CEVAP):** Prokollajen hücre dışına (ekstrasellüler aralığa) salgılandıktan sonra N-prokollajen peptidaz (ADAMTS2) ve C-prokollajen peptidaz (BMP1) enzimleri tarafından propeptid uçları kesilerek tropokollajen oluşturulur. Bu işlem hücre içinde gerçekleşmez!\n- **E) Üçlü heliks yapı oluşumu (Hücre İçi):** Hücre içinde C-terminalde disülfit bağları kurulur ve ER'de HSP47 şaperonu yardımıyla üçlü heliks (prokollajen) tamamlanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, kollajenin ekstrasellüler alandaki modifikasyonudur?",
+    "options": {
+      "A": "Sinyal peptid ayrılması",
+      "B": "Prolin hidroksilasyonu",
+      "C": "Glikozilasyon",
+      "D": "N ve C terminal propeptidlerin ayrılması",
+      "E": "Üçlü sarmal oluşumu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Sinyal peptid ayrılması (İntrasellüler):** Granüllü ER lümeninde gerçekleşir.\n- **B) Prolin hidroksilasyonu (İntrasellüler):** GER'de prolil hidroksilaz ile yürütülür.\n- **C) Glikozilasyon (İntrasellüler):** GER ve Golgi organelinde gerçekleşir.\n- **D) N ve C terminal propeptidlerin ayrılması (EKSTRASELLÜLER - DOĞRU):** Hücreden salgılanan prokollajen, ekstrasellüler matrikste spesifik aminopeptidaz ve karboksipeptidazlarca kesilerek tropokollajene dönüştürülür. Ayrıca ekstrasellüler alanda Lizil Oksidaz enzimi ile kovalent çapraz bağlar (aldol/piridinium) oluşturulur.\n- **E) Üçlü sarmal oluşumu (İntrasellüler):** GER'de HSP47 eşliğinde 3 adet $\\alpha$-zincirinin birleşmesiyle prokaryonik üçlü heliks kurulur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi kollajen lifleri arasında kovalent çapraz bağların oluşumu için gereklidir?",
+    "options": {
+      "A": "Molibden",
+      "B": "Bakır",
+      "C": "Selenyum",
+      "D": "Çinko",
+      "E": "Magnezyum"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Molibden (YANLIŞ):** Ksantin oksidaz, Sülfit oksidaz ve Aldehit oksidaz enzimlerinin kofaktörüdür.\n- **B) Bakır (DOĞRU):** Kollajen ve elastin moleküllerinin ekstrasellüler alanda kovalent çapraz bağlarla sağlamlaştırılmasını sağlayan **Lizil Oksidaz** enziminin zorunlu kofaktörü Bakırdır ($Cu^{2+}$). Bakır eksikliğinde (örneğin Menkes hastalığı) lizil oksidaz çalışamaz; damar, kemik ve bağ dokusunda ciddi yırtılmalar ve kırılganlıklar görülür.\n- **C) Selenyum (YANLIŞ):** Glutatyon peroksidaz, Tiyoredoksin redüktaz ve Tip I/II/III deiyodinaz enzimlerinin kofaktörüdür.\n- **D) Çinko (YANLIŞ):** Karbonik anhidraz, Karboksipeptidaz A/B, Alkalen fosfataz, Alkol dehidrogenaz ve Matrix Metalloproteinazların (MMP) kofaktörüdür.\n- **E) Magnezyum (YANLIŞ):** Kinaz enzimlerinin ve ATP harcayan tüm reaksiyonların kofaktörüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi kollajenin çapraz bağlarının oluşumunu sağlayan lizil oksidazın aktivatörüdür?",
+    "options": {
+      "A": "Molibden",
+      "B": "Mangan",
+      "C": "Bakır",
+      "D": "Çinko",
+      "E": "Selenyum"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Molibden (YANLIŞ):** Pürin yıkım enzimleri kofaktörüdür.\n- **B) Mangan (YANLIŞ):** Mitokondriyal Süperoksit Dismutaz (Mn-SOD) ve Pirüvat karboksilaz kofaktörüdür.\n- **C) Bakır (DOĞRU):** Ekstrasellüler lizil oksidaz enzimi, lizin ve hidroksilizinlerin rezidülerini oksidatif deaminasyona uğratarak reaktif alizin/hidroksializin aldehitlerine dönüştürür. Bu adımda lizil oksidaz kofaktör olarak Bakır ($Cu^{2+}$) kullanır.\n- **D) Çinko (YANLIŞ):** Kolajenaz ve jelatinaz gibi kollajen yıkan MMP enzimlerinin kofaktörüdür.\n- **E) Selenyum (YANLIŞ):** Selenoproteinlerin (GPx) kofaktörüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 DUS"
+  },
+  {
+    "question": "Kollajen sentezi sırasında, lizin ve hidroksilizin rezidülerini oksidatif deaminasyona uğratarak çapraz bağlanma oluşturmak üzere reaktif aldehitlere çeviren enzim hangisidir?",
+    "options": {
+      "A": "Lizil oksidaz",
+      "B": "Lizil hidroksilaz",
+      "C": "Prolil oksidaz",
+      "D": "Prolil hidroksilaz",
+      "E": "Prokollajen peptidaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Lizil oksidaz (DOĞRU):** Tropokollajen monomerleri arasında ekstrasellüler alanda kovalent çapraz bağlar oluşturan kilit enzimdir. Lizin ve hidroksilizinlerin $\\epsilon$-amino gruplarını oksidatif deamine ederek alizin ve hidroksializine dönüştürür.\n- **B) Lizil hidroksilaz (YANLIŞ):** GER lümeninde lizin rezidülerine -OH grubu ekleyen hücre içi enzimdir; C vitamini ve $Fe^{2+}$ kullanır.\n- **C) Prolil oksidaz (YANLIŞ):** Prolin katabolizmasında görev alan enzimdir.\n- **D) Prolil hidroksilaz (YANLIŞ):** GER'de prolinlere -OH ekleyen hücre içi enzimdir.\n- **E) Prokollajen peptidaz (YANLIŞ):** Hücre dışına çıkan prokollajenin N ve C propeptid uçlarını kesen peptidazdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Skorbüt hastalığına bağlı gelişen diş eti kanamalarında kollajen molekülünde aşağıdakı modifikasyonların hangisinde aksama olmuştur?",
+    "options": {
+      "A": "Glikozilasyon",
+      "B": "Metilasyon",
+      "C": "Asetilasyon",
+      "D": "Hidroksilasyon",
+      "E": "Fosforilasyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Glikozilasyon (YANLIŞ):** Hidroksilizinlere şeker eklenmesidir, C vitamini eksikliğinde birincil etkilenen adım değildir.\n- **B) Metilasyon (YANLIŞ):** Kollajen sentezinde kritik bir basamak değildir.\n- **C) Asetilasyon (YANLIŞ):** Histon modifikasyonudur, kollajen sentez basamağı değildir.\n- **D) Hidroksilasyon (DOĞRU):** C vitamini (askorbik asit), prolil hidroksilaz ve lizil hidroksilaz enzimlerinin aktif merkezindeki demiri $Fe^{2+}$ (ferröz) formda tutan essential indirgeyici koenzimdir. C vitamini eksikliğinde (Skorbüt) prolin ve lizinlerin hidroksilasyonu gerçekleşemez; hidrojen bağları zayıf kalır, sağlam üçlü heliks kurulamaz ve damar kırılganlığı, diş eti kanamaları, yara iyileşmesinde gecikme ortaya çıkar.\n- **E) Fosforilasyon (YANLIŞ):** Kollajenin yapısını stabilize eden bir modifikasyon değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, kollajen sentezinde, prolin ve lizin amino asitlerinin hidroksilasyon reaksiyonlarında koenzim olarak kullanılır?",
+    "options": {
+      "A": "Biotin",
+      "B": "Askorbik asit",
+      "C": "$\\alpha$-tokoferol",
+      "D": "Riboflavin",
+      "E": "$\\beta$-karoten"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Biotin (B7) (YANLIŞ):** Karboksilasyon (CO2 ekleme) reaksiyonlarının koenzimidir (Pirüvat karboksilaz, Asetil-KoA karboksilaz vb.).\n- **B) Askorbik asit (C vitamini) (DOĞRU):** İntrasellüler ortamda prolin ve lizinlerin hidroksillenmesini sağlayan Prolil hidroksilaz ve Lizil hidroksilaz enzimlerinin kofaktörüdür/koenzimidir.\n- **C) $\\alpha$-tokoferol (E vitamini) (YANLIŞ):** Yağda çözünen en güçlü antioksidan vitamindir.\n- **D) Riboflavin (B2) (YANLIŞ):** FAD ve FMN nükleotidlerinin öncülüdür.\n- **E) $\\beta$-karoten (YANLIŞ):** A vitamininin provitamin öncülüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde askorbik asit eksikliğine bağlı olarak kollajen yapısında bozukluk görülür?",
+    "options": {
+      "A": "Skorbüt",
+      "B": "Ehlers-Danlos sendromu",
+      "C": "Menkes hastalığı",
+      "D": "Epidermolizis bülloza",
+      "E": "Alport sendromu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Skorbüt (DOĞRU):** Besinsel Askorbik asit (C vitamini) eksikliği sonucu prolin ve lizin hidroksilasyonunun aksamasıyla ortaya çıkan tablodur.\n- **B) Ehlers-Danlos sendromu (YANLIŞ):** Tip III veya Tip I kollajen geni mutasyonları veya lizil hidroksilaz/prokollajen peptidaz genetik enzim eksiklikleriyle giden kalıtsal doku kırılganlığıdır.\n- **C) Menkes hastalığı (YANLIŞ):** ATP7A gen mutasyonuna bağlı bağırsaktan bakır emilim bozukluğudur; Bakır eksikliği nedeniyle lizil oksidaz enzimi çalışamaz.\n- **D) Epidermolizis bülloza (YANLIŞ):** Tip VII kollajen gen defektine bağlı travma ile ciltte büller oluşmasıdır.\n- **E) Alport sendromu (YANLIŞ):** Tip IV kollajen $\\alpha-5$ zincir geni ($COL4A5$) mutasyonu sonucu böbrek glomerül bazal membran bozukluğu, hematüri ve işitme kaybı ile seyreden X'e bağlı genetik hastalıktır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Kollajen ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İnsan vücudunda çok bulunan fibröz yapıda bir proteindir.",
+      "B": "Tip IV kollajen deride bulunan ana bağ dokusu proteinidir.",
+      "C": "Yapısında bulunan üç polipeptid zinciri birbirleri etrafında dönerek üçlü heliks oluşturur.",
+      "D": "Polipeptid yapısında her üç amino asitten biri glisindir.",
+      "E": "Prokollajendeki prolin ve lizinlerin bir kısmı C vitamini gerektiren bir tepkimeyle hidroksillenir."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) İnsan vücudunda çok bulunan fibröz yapıda bir proteindir (DOĞRU):** Kollajen, vücutta toplam protein kütlesinin yaklaşık %25-30'unu oluşturan en bol fibröz proteindir.\n- **B) Tip IV kollajen deride bulunan ana bağ dokusu proteinidir (YANLIŞ - CEVAP):** Deri, kemik, tendon ve korneada bulunan ana bağ dokusu protein Tip I kollajendir (kemik ve derinin %90'ı). Tip IV kollajen ise fibril oluşturmaz, bazal membranlarda (bazal lamina) ağsı/ağ yapıda bulunur.\n- **C) Yapısında bulunan üç polipeptid zinciri birbirleri etrafında dönerek üçlü heliks oluşturur (DOĞRU):** Kollajen, sağ el yönlü sol el sarmallı 3 adet $\\alpha$-zincirinin oluşturduğu Tropokollajen üçlü heliks yapısındadır.\n- **D) Polipeptid yapısında her üç amino asitten biri glisindir (DOĞRU):** Üçlü heliksin sıkıca sarılabilmesi için iç merkezde tek sığabilen aminoasit olan Glisin bulunur ($Gly-X-Y$ tekrarı, $X$ sıklıkla Prolin, $Y$ sıklıkla Hidroksiprolindir).\n- **E) Prokollajendeki prolin ve lizinlerin bir kısmı C vitamini gerektiren bir tepkimeyle hidroksillenir (DOĞRU):** ER lümeninde Prolil ve Lizil hidroksilaz enzimleri C vitamini (Askorbik asit) kullanarak hidroksilasyon yapar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Kollajenle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Tipik bir kollajen molekülü üç polipeptid zincirinden oluşan üçlü heliks yapısına sahiptir.",
+      "B": "Glikozilasyonu hücre içinde gerçekleşir.",
+      "C": "Polipeptid zincirindeki her üç amino asitten biri lösindir.",
+      "D": "Yapısında hidroksiprolin ve hidroksilizin bulunur.",
+      "E": "Ehlers-Danlos sendromu, kollajenin biyosentezindeki defekt sonucu ortaya çıkan herediter bir bozukluktur."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Tipik bir kollajen molekülü üç polipeptid zincirinden oluşan üçlü heliks yapısına sahiptir (DOĞRU):** 3 adet $\\alpha$-zinciri birleşerek trodokollajen üçlü sarmalını oluşturur.\n- **B) Glikozilasyonu hücre içinde gerçekleşir (DOĞRU):** GER ve Golgi organelinde hidroksilizin rezidülerine glukoz ve galaktoz molekülleri eklenir.\n- **C) Polipeptid zincirindeki her üç amino asitten biri lösindir (YANLIŞ - CEVAP):** Kollajen polipeptid zincirindeki her üç aminoasitten biri Lösin değil, **Glisindir** ($Gly-X-Y$). Glisin en küçük aminoasit olduğu için sterik engel oluşturmadan üçlü heliksin merkezinde yer alır.\n- **D) Yapısında hidroksiprolin ve hidroksilizin bulunur (DOĞRU):** Translasyon sonrası modifikasyonla oluşturulan bu modifiye aminoasitler hidrojen bağları ve şeker eklenmesi için şarttır.\n- **E) Ehlers-Danlos sendromu, kollajenin biyosentezindeki defekt sonucu ortaya çıkan herediter bir bozukluktur (DOĞRU):** Kollajen sentez ve işlenme genlerindeki mutasyonlar sonucu cilt esnekliğinde artış ve eklem hipermobilitesi ile karakterizedir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 DUS"
+  },
+  {
+    "question": "Fibröz protein kollajen yapısında aşağıdakilerden hangisi bulunmaz?",
+    "options": {
+      "A": "Monosakkarit",
+      "B": "Hidroksilizin",
+      "C": "Hidroksiprolin",
+      "D": "Peptit zincirlerinde glisin-X-Y üçlü aminoasit dizi tekrarı",
+      "E": "Desmozin çapraz bağları"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Monosakkarit (BULUNUR):** Kollajen bir glikoproteindir; hidroksilizinlere bağlı Glukoz ve Galaktoz monosakkaritleri bulunur.\n- **B) Hidroksilizin (BULUNUR):** Lizinlerin hidroksillenmesiyle oluşan özel aminoasittir.\n- **C) Hidroksiprolin (BULUNUR):** Prolinlerin hidroksillenmesiyle oluşan ve üçlü heliksin hidrojen bağlarıyla stabilitesini sağlayan aminoasittir.\n- **D) Peptit zincirlerinde glisin-X-Y üçlü aminoasit dizi tekrarı (BULUNUR):** Primer diziliminin temel karakteristiğidir.\n- **E) Desmozin çapraz bağları (BULUNMAZ - CEVAP):** Desmozin ve izodesmozin çapraz bağları kollajende değil, **Elastin** proteininde bulunur. 4 adet lizin rezidüsünün birleşmesiyle oluşur ve elastine sarı rengini ve esneklik özelliğini kazandırır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar DUS"
+  },
+  {
+    "question": "Kollajenin posttranslasyonel modifikasyonları sırasında glukozil veya galaktozil grupları aşağıdaki amino asitlerden hangisinin yan zincirine eklenir?",
+    "options": {
+      "A": "Hidroksilizin",
+      "B": "Glisin",
+      "C": "Prolin",
+      "D": "Valin",
+      "E": "Alanin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Hidroksilizin (DOĞRU):** GER ve Golgi'de gerçekleşen kollajen glikozilasyonunda, Glukozil transferaz ve Galaktozil transferaz enzimleri glukoz ve galaktoz birimlerini spesifik olarak **Hidroksilizin** rezidülerinin -OH yan zincirine kovalent olarak bağlar (O-glikozid bağı).\n- **B) Glisin (YANLIŞ):** Yan zinciri sadece H atomudur, glikozilasyon geçiremez.\n- **C) Prolin (YANLIŞ):** Hidroksiprolin oluşturur fakat doğrudan şeker eklenme bölgesi değildir.\n- **D) Valin (YANLIŞ):** Apolar hidrokarbon yan zincirine sahiptir.\n- **E) Alanin (YANLIŞ):** Apolar metil yan zincirine sahiptir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "I. Yüksek çözünürlüğe sahip bir proteindir.\nII. Yapısındaki peptid zincirleri desmozinlerle bağlanır.\nIII. Karbonhidrat birimleri içermez.\nElastin ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **Öncül I - Yüksek çözünürlüğe sahip bir proteindir (YANLIŞ):** Elastin, yapısında bol miktarda apolar küçük aminoasitler (glisin, alanin, valin) içerdiği için son derece hidrofobiktir ve **suda çözünmez** (insolubl) bir proteindir.\n- **Öncül II - Yapısındaki peptid zincirleri desmozinlerle bağlanır (DOĞRU):** Liozil oksidaz etkisiyle 3 adet alizin ve 1 adet lizinin kovalent birleşmesi sonucu oluşan Desmozin çapraz bağları elastini bir arada tutar ve kauçuk benzeri esneklik sağlar.\n- **Öncül III - Karbonhidrat birimleri içermez (DOĞRU):** Kollajenin aksine elastin yapısında hidroksilizin ve şeker (karbonhidrat) modifikasyonları bulunmaz.\nBu nedenle II ve III öncülleri doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar DUS"
+  },
+  {
+    "question": "Elastinle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sentezi için lizil oksidaza gereksinim vardır.",
+      "B": "Üçlü heliks yapısındadır.",
+      "C": "Akciğerler, kan damarları ve ligamentlerde bulunur.",
+      "D": "Yapısında karbonhidrat bulunmaz.",
+      "E": "Desmozin çapraz bağları içerir."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Sentezi için lizil oksidaza gereksinim vardır (DOĞRU):** Tropoelastin moleküllerinin ekstrasellüler alanda çapraz bağlanarak elastin oluşturması için Bakır bağımlı Lizil oksidaz gereklidir.\n- **B) Üçlü heliks yapısındadır (YANLIŞ - CEVAP):** Elastin kollajen gibi düzenli üçlü heliks (triple helix) yapısına **sahip değildir**; rastgele kıvrımlı (random coil) konformasyondadır, bu sayede gerilip tekrar eski haline dönebilir.\n- **C) Akciğerler, kan damarları ve ligamentlerde bulunur (DOĞRU):** Esneklik gerektiren dokularda (aort, büyük arterler, akciğer parenkimi, cilt, ligamentum nuchae) bolca bulunur.\n- **D) Yapısında karbonhidrat bulunmaz (DOĞRU):** Glikozilasyona uğramaz.\n- **E) Desmozin çapraz bağları içerir (DOĞRU):** Yapısındaki lizin türevi desmozin bağları elastik kovalent ağı kurar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 DUS"
+  },
+  {
+    "question": "Elastin proteininde bulunan, elastik dokulara dayanıklılık ve elastik özellik kazandıran amino asit türevi yapı hangisidir?",
+    "options": {
+      "A": "Kreatinin",
+      "B": "Arjinin",
+      "C": "Karnitin",
+      "D": "Prolin",
+      "E": "Desmozin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Kreatinin (YANLIŞ):** Kaslarda kreatin fosfatın non-enzimtik yıkım ürünüdür.\n- **B) Arjinin (YANLIŞ):** Üre döngüsü ve NO sentezinde görev alan bazik aminoasittir.\n- **C) Karnitin (YANLIŞ):** Uzun zincirli yağ asitlerini mitokondriye taşıyan bir bileşiktir.\n- **D) Prolin (YANLIŞ):** İminoasit yapısındadır, esneklik sağlamaz.\n- **E) Desmozin (DOĞRU):** 4 adet lizin rezidüsünün (3 tanesi lizil oksidazla alizine çevrilmiş) bir araya gelerek oluşturduğu piridinium halkalı özel çapraz bağ molekülüdür. Elastin ağını kovalent tutarak dokuya uzama ve eski haline dönme esnekliği kazandırır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki amino asitlerin hangisinden elastindeki desmozin çapraz bağları oluşur?",
+    "options": {
+      "A": "Lösin",
+      "B": "Lizin",
+      "C": "Glisin",
+      "D": "Prolin",
+      "E": "Sistein"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Lösin (YANLIŞ):** Dallı zincirli apolar aminoasittir.\n- **B) Lizin (DOĞRU):** Desmozin ve izodesmozin çapraz bağlarının tamamı **4 adet Lizin** rezidüsünün ekstrasellüler alanda etkileşimiyle sentezlenir. Bu lizinlerin 3 tanesi lizil oksidaz enzimi ile deamine edilip alizine çevrilir, ardından 1 adet katılmamış lizin ile birleşerek piridinium halkası (desmozin) oluşturur.\n- **C) Glisin (YANLIŞ):** En küçük aminoasittir, desmozin yapısına katılmaz.\n- **D) Prolin (YANLIŞ):** İminoasittir, desmozin yapısına girmez.\n- **E) Sistein (YANLIŞ):** Disülfit bağı oluşturur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar TUS"
+  },
+  {
+    "question": "Marfan sendromuna neden olan en olası patoloji/bozukluk hangisidir?",
+    "options": {
+      "A": "Prolin ve lizinlerin hidroksilasyonunda bozukluk",
+      "B": "Hidroksilizinlerin glikozilasyonunda bozukluk",
+      "C": "Elastin geninde mutasyon",
+      "D": "Fibrillin-1 geninde mutasyon",
+      "E": "Laminin geninde mutasyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Prolin ve lizinlerin hidroksilasyonunda bozukluk (YANLIŞ):** C vitamini eksikliği (Skorbüt) tablosudur.\n- **B) Hidroksilizinlerin glikozilasyonunda bozukluk (YANLIŞ):** Bazı kollajenopati tiplerinde görülür.\n- **C) Elastin geninde mutasyon (YANLIŞ):** Elastin gen defekti Williams sendromu ve Cutis Laxa'ya neden olur.\n- **D) Fibrillin-1 geninde mutasyon (DOĞRU):** Marfan sendromu, 15. kromozomdaki **Fibrillin-1 (FBN1)** gen mutasyonu sonucu otozomal dominant kalıtılan bir bağ dokusu hastalığıdır. Fibrillin, elastik liflerin çevresini saran mikrofibrillerin ana komponentidir. Eksikliğinde mikrofibril ağı bozulur; klinik olarak aor anevrizması/diseksiyonu, araknodaktili (uzun parmaklar), lens subluksasyonu (yukarı dışa) ve uzun boy görülür.\n- **E) Laminin geninde mutasyon (YANLIŞ):** Progeria (erken yaşlanma) veya bazı epidermolizis bülloza tiplerinde etkilenir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki kollajen tiplerinden hangisi fibril yapıda değildir?",
+    "options": {
+      "A": "Tip I",
+      "B": "Tip II",
+      "C": "Tip III",
+      "D": "Tip IV",
+      "E": "Tip V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Tip I (YANLIŞ):** Fibril oluşturan (fibriller) kollajendir; kemik, deri, tendon ve korneada bulunur.\n- **B) Tip II (YANLIŞ):** Fibril oluşturan kollajendir; kıkırdak, vitreus ve nükleus pulposusta bulunur.\n- **C) Tip III (YANLIŞ):** Fibril oluşturan kollajendir; damar duvarı, retiküler lifler ve yara iyileşmesinin erken döneminde (granülasyon dokusu) bulunur.\n- **D) Tip IV (DOĞRU):** Fibril oluşturmayan, **ağ oluşturan (network-forming)** kollajendir. Glisin-X-Y tekrarları kesintilidir, bu yüzden esnek bir ağ yapısı kurarak organların bazal membranında (bazal lamina) yer alır.\n- **E) Tip V (YANLIŞ):** Fibril oluşturan kollajendir; Tip I ile birlikte dokularda bulunur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Prolil hidroksilaz ve lizil hidroksilaz enzimleri, hangisinin oluşmasında rol oynar?",
+    "options": {
+      "A": "Aktin",
+      "B": "Miyozin",
+      "C": "Albümin",
+      "D": "Pıhtılaşma proteini",
+      "E": "Kollajen"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Aktin (YANLIŞ):** Hücre iskeleti ve kas proteini olup hidroksiprolin içermez.\n- **B) Miyozin (YANLIŞ):** Kas kontraksiyon proteini.\n- **C) Albümin (YANLIŞ):** Plazma onkotik basınç ve taşıyıcı proteini.\n- **D) Pıhtılaşma proteini (YANLIŞ):** Fibrinojen/Trombin gibi proteinlerdir, kalsiyum bağlamak için $\\gamma$-karboksiglutamat içerirler.\n- **E) Kollajen (DOĞRU):** Prolil hidroksilaz ve Lizil hidroksilaz enzimleri, kollajen sentezi sırasında GER lümeninde prolin ve lizin rezidülerini hidroksilleyerek Hidroksiprolin ve Hidroksilizin oluşturur. Bu işlem kollajenin üçlü heliks yapısının ısıya dayanıklılığını ve glikozilasyonunu sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Kemik yapımını gösteren biyokimyasal belirteçler hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "İdrar hidroksiprolini, asit fosfataz",
+      "B": "İdrar hidroksiprolini, osteokalsin",
+      "C": "Osteokalsin, kemik alkalen fosfatazı",
+      "D": "Kemik alkalen fosfatazı, deoksipiridinolin",
+      "E": "Deoksipiridinolin, idrar hidroksiprolini"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) İdrar hidroksiprolini, asit fosfataz (YANLIŞ):** Her ikisi de osteoklastik yıkım (kemik yıkımı) belirteçleridir.\n- **B) İdrar hidroksiprolini, osteokalsin (YANLIŞ):** Hidroksiprolin yıkım, Osteokalsin yapım belirtecidir.\n- **C) Osteokalsin, kemik alkalen fosfatazı (DOĞRU):** Osteoblastlar tarafından sentezlenen **Osteokalsin**, **Kemik Spesifik Alkalen Fosfataz (bALP)** ve **Prokollajen Tip 1 N/C terminal propeptidleri (P1NP, P1CP)** kemik **yapımını (formasyonunu)** gösteren temel biyokimyasal belirteçlerdir.\n- **D) Kemik alkalen fosfatazı, deoksipiridinolin (YANLIŞ):** bALP yapım, Deoksipiridinolin (DPD) kemik yıkım belirtecidir.\n- **E) Deoksipiridinolin, idrar hidroksiprolini (YANLIŞ):** Her ikisi de osteoklastik kemik yıkım belirtecidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki kemik turnover belirteçlerinden hangisinin serum düzeyindeki değişikliği, kemik yapımı yönünde değerlendirilir?",
+    "options": {
+      "A": "Prokollajen 1 karboksi-terminal ekstansiyon peptid (P1CP)",
+      "B": "Deoksipiridinolin",
+      "C": "C-telopeptid (CTX)",
+      "D": "Tip 1 kollajen cross-linked C-telopeptid (ICTP)",
+      "E": "Tartarata dirençli asit fosfataz (TRAP)"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Prokollajen 1 karboksi-terminal ekstansiyon peptid (P1CP) (DOĞRU):** Osteoblastlarda Tip I kollajen sentezlenirken salgılanan propeptid uçlarının kesilmesiyle kana verilen P1CP ve P1NP, kemik **yapımının (formasyonunun)** doğrudan biyokimyasal göstergesidir.\n- **B) Deoksipiridinolin (YANLIŞ):** Kollajen çapraz bağ yıkım ürünüdür, kemik yıkım belirtecidir.\n- **C) C-telopeptid (CTX) (YANLIŞ):** Tip I kollajenin osteoklastlarca yıkımı sonucu açığa çıkan kemik yıkım belirtecidir.\n- **D) Tip 1 kollajen cross-linked C-telopeptid (ICTP) (YANLIŞ):** Patolojik kemik yıkım belirtecidir.\n- **E) Tartarata dirençli asit fosfataz (TRAP) (YANLIŞ):** Osteoklast enzimi olup kemik resorpsiyonu (yıkımı) belirtecidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar TUS"
+  },
+  {
+    "question": "Prenatal USG'de kol ve bacak kırıkları saptanan, COL1A1 mutasyonu olan bebekte belirteçlerden hangisinin düzeyinin azalması en olasıdır?",
+    "options": {
+      "A": "Prokollajen-1 karboksi-terminal ekstansiyon peptidi (P1CP)",
+      "B": "Alkalen fosfataz",
+      "C": "Kalsiyum",
+      "D": "Piridinolin",
+      "E": "C-telopeptid (CTX)"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Prokollajen-1 karboksi-terminal ekstansiyon peptidi (P1CP) (DOĞRU):** Tablo Anne karnında kırıklarla seyreden **Osteogenesis İmperfekta (Cam Kemik Hastalığı)** tipidir. COL1A1 veya COL1A2 gen mutasyonuna bağlı Tip I prokollajen sentezi belirgin şekilde azalır. Dolayısıyla osteoblastik Tip I kollajen sentezinin doğrudan göstergesi olan **P1CP düzeyi kan ve amniyotik sıvıda azalır**.\n- **B) Alkalen fosfataz (YANLIŞ):** Kırık iyileşmesi ve reaktif osteoblast aktivitesi nedeniyle sekonder olarak artabilir.\n- **C) Kalsiyum (YANLIŞ):** Serum kalsiyumu genellikle normal sınırlar içerisindedir.\n- **D) Piridinolin (YANLIŞ):** Yıkım ürünüdür.\n- **E) C-telopeptid (CTX) (YANLIŞ):** Yıkım ürünüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi RANK-ligand'ın RANK'a bağlanmasını azaltarak osteoklast matürasyonunu engeller?",
+    "options": {
+      "A": "Osteoprotegerin",
+      "B": "Osteokalsin",
+      "C": "Fibroblast büyüme faktörü-23",
+      "D": "RANK",
+      "E": "Makrofaj koloni uyaran faktör (M-CSF)"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Osteoprotegerin (OPG) (DOĞRU):** Osteoblastlardan salgılanan ve RANKL'ye (RANK-ligand) bağlanan bir tuzak/yalancı reseptördür (decoy receptor). OPG, RANKL'ye bağlanarak onun osteoklast yüzeyindeki RANK reseptörünü uyarmasını engeller; böylece osteoklast diferansiyasyonunu ve kemik yıkımını inhibe eder (kemiği korur).\n- **B) Osteokalsin (YANLIŞ):** Kalsiyum ve hidroksiapatiti kemik matriksine bağlayan osteoblastik yapım proteinidir.\n- **C) Fibroblast büyüme faktörü-23 (FGF-23) (YANLIŞ):** Böbrekten fosfat atılımını artıran ve D vitamini aktifleşmesini inhibe eden fosfatürik hormondur.\n- **D) RANK (YANLIŞ):** Osteoklast prekürsörlerindeki gerçek reseptördür; RANKL bağlanınca osteoklast aktifleşir.\n- **E) Makrofaj koloni uyaran faktör (M-CSF) (YANLIŞ):** RANKL ile birlikte osteoklast gelişimini uyaran faktördür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar TUS"
+  },
+  {
+    "question": "I. Elastaz\nII. Tripsin\nIII. Lipaz\nIV. Amilaz\nV. Kimotripsin\nYukarıdaki enzimlerden hangileri pankreastan proenzim (zimojen) olarak salgılanır?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I, II ve V",
+      "C": "I, IV ve V",
+      "D": "II, III ve IV",
+      "E": "III, IV ve V"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **I. Elastaz (DOĞRU):** Proteolitik bir endopeptidazdır; pankreastan inaktif **Proelastaz** zimojeni olarak salgılanır.\n- **II. Tripsin (DOĞRU):** Proteolitik endopeptidazdır; pankreastan inaktif **Tripsinojen** zimojeni olarak salgılanır.\n- **III. Lipaz (YANLIŞ):** Yağ sindirim enzimidir; aktif salgılanır (kolipaz varlığında çalışır).\n- **IV. Amilaz (YANLIŞ):** Karbonhidrat sindirim enzimidir; zimojen değildir, pankreastan direkt **aktif** formda salgılanır.\n- **V. Kimotripsin (DOĞRU):** Proteolitik endopeptidazdır; pankreastan inaktif **Kimotripsinojen** zimojeni olarak salgılanır.\nBu nedenle proteolitik proenzimler I, II ve V'tir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi inaktif formdaki pankreatik proteolitik proenzimleri aktif forma dönüştürür?",
+    "options": {
+      "A": "Kimotripsin",
+      "B": "Tripsin",
+      "C": "Elastaz",
+      "D": "Karboksipeptidaz",
+      "E": "Lipaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Kimotripsin (YANLIŞ):** Tripsinin kendisini aktifleştirdiği bir proteazdır.\n- **B) Tripsin (DOĞRU):** İnce bağırsak fırçamsı kenarında yer alan **Enterokinaz (Enteropeptidaz)** enzimi, pankreastan gelen inaktif Tripsinojeni keserek **Tripsine** dönüştürür. Oluşan aktif Tripsin otokatalitik olarak hem diğer tripsinojenleri hem de tüm diğer proteolitik proenzimleri (Kimotripsinojen, Proelastaz, Prokarboksipeptidaz A/B) kesip aktif formlarına dönüştüren ana orkestra şefidir.\n- **C) Elastaz (YANLIŞ):** Tripsin tarafından aktifleştirilen proteazdır.\n- **D) Karboksipeptidaz (YANLIŞ):** Tripsin tarafından aktifleştirilen ekzopeptidazdır.\n- **E) Lipaz (YANLIŞ):** Lipid hidroliz enzimidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kompleman sistemini aktive eder?",
+    "options": {
+      "A": "a1-antitripsin",
+      "B": "Seruloplazmin",
+      "C": "a1-asit glikoprotein",
+      "D": "C-reaktif protein",
+      "E": "Tümör nekrozis faktör"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) a1-antitripsin (YANLIŞ):** Serin proteaz inhibitörüdür (özellikle nötrofil elastazını inhibe eder).\n- **B) Seruloplazmin (YANLIŞ):** Bakır taşıyan ve ferrooksidaz aktivitesi gösteren akut faz reaktanıdır.\n- **C) a1-asit glikoprotein (YANLIŞ):** Orosomukoid olarak da bilinir; bazik ilaçları taşır.\n- **D) C-reaktif protein (CRP) (DOĞRU):** Karaciğerde IL-6 uyarısıyla sentezlenen en hızlı yükselen pozitif akut faz reaktanıdır. Bakteri ve ölü hücre duvarındaki fosfokoline bağlanarak **Kompleman C1q'yu aktive eder** ve klasik kompleman yolağını tetikler, opsonizasyonu sağlar.\n- **E) Tümör nekrozis faktör (YANLIŞ):** Sitokindir, protein yapıda kompleman aktivatörü plazma proteini değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "İkinci trimester üçlü tarama testinde aşağıdaki plazma proteinlerinden hangisi yer alır?",
+    "options": {
+      "A": "Karsinoembriyonik antijen",
+      "B": "a-fetoprotein",
+      "C": "b2-mikroglobulin",
+      "D": "Serum amiloid A protein",
+      "E": "a1-antitripsin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Karsinoembriyonik antijen (CEA) (YANLIŞ):** Kolorektal kanser ve GİS tümör tümör belirtecidir.\n- **B) a-fetoprotein (AFP) (DOĞRU):** İkinci trimester maternal üçlü taranma testinde ölçülen parametreler **MSAFP (Maternal Serum Alfa-Fetoprotein)**, **hCG** ve **Ankonjuge Estriol ($uE_3$)**'tür. (Dörtlü testte bunlara İnhibin A eklenir). AFP, fetal karaciğerde sentezlenen, erişkindeki albüminin fetal eşdeğeridir. Nöral tüp defektinde yükselir, Down sendromunda düşer.\n- **C) b2-mikroglobulin (YANLIŞ):** MHC Class I ağır zinciri bileşenidir; böbrek tübüler işlev ve miyelom takip belirtecidir.\n- **D) Serum amiloid A protein (YANLIŞ):** Akut faz reaktanıdır.\n- **E) a1-antitripsin (YANLIŞ):** Proteaz inhibitörüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Fizyolojik sıvılarda az çözünen ve daha çok hidrofobik R grubu olan aminoasitler içeren yapısal proteinler hangisidir?",
+    "options": {
+      "A": "Globüler proteinler",
+      "B": "Fibröz proteinler",
+      "C": "Şaperonlar",
+      "D": "İmmünoglobulinler",
+      "E": "Protein yapıdaki hormonlar"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Globüler proteinler (YANLIŞ):** Küresel yapıdadır; apolar aminoasitler içe, polar aminoasitler dışa yerleşmiştir. Suda yüksek çözünürlüğe sahiptirler (örn. Albümin, Hemoglobin, Enzimler).\n- **B) Fibröz proteinler (DOĞRU):** Uzun aksiyel zincirli, destek ve koruma görevi gören, yapılarında yüksek oranda hidrofobik (apolar) aminoasitler içeren ve **suda çözünmeyen (veya çok az çözünen)** dirençli proteinlerdir (örneğin Kollajen, Elastin, Keratin).\n- **C) Şaperonlar (YANLIŞ):** Protein katlanmasını sağlayan suda çözünür globüler proteinlerdir (HSP70, HSP90).\n- **D) İmmünoglobulinler (YANLIŞ):** Suda çözünen globüler glikoprotein yapıda antikorlardır.\n- **E) Protein yapıdaki hormonlar (YANLIŞ):** Suda çözünerek kan plazmasında serbestçe taşınırlar (İnsülin, Büyüme hormonu vb.).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi plazma proteinlerinin görevlerinden biri değildir?",
+    "options": {
+      "A": "İnflamasyona yanıt",
+      "B": "Enfeksiyonlardan korunma",
+      "C": "Asit-baz dengesi",
+      "D": "Suda çözünmeyen bileşiklerin taşınması",
+      "E": "Yüksek enerjili bileşiklerin sentezi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) İnflamasyona yanıt (GÖREVİDİR):** Pozitif akut faz reaktanı proteinler (CRP, Fibrinojen, Serum amiloid A, a1-antitripsin) inflamasyon yanıtını yürütür.\n- **B) Enfeksiyonlardan korunma (GÖREVİDİR):** İmmünoglobulinler (antikorlar) ve Kompleman proteinleri hümoral bağışıklık ve obsonizasyon sağlar.\n- **C) Asit-baz dengesi (GÖREVİDİR):** Tamponlama kapasiteleri (özellikle histidin rezidülerinin imidazol halkaları sayesinde) plazma pH'ını dengeler.\n- **D) Suda çözünmeyen bileşiklerin taşınması (GÖREVİDİR):** Albümin (serbest yağ asitleri, bilirubin, steroidler) ve spesifik taşıyıcı globulinler (havuz lipidleri için Lipoproteinler, demir için Transferrin) suda çözünmeyen maddeleri taşır.\n- **E) Yüksek enerjili bileşiklerin sentezi (GÖREVİ DEĞİLDİR - CEVAP):** ATP, GTP gibi yüksek enerjili bileşiklerin sentezi hücre içinde (mitokondri ve sitozolde) metabolik enzimlerle gerçekleşir; plazma proteinlerinin görevi değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "İnsan metabolizmasının son ürünlerinden biri olan karbondioksit, aşağıdaki tampon sistemlerinin hangisinde öncüldür?",
+    "options": {
+      "A": "Fosfat tampon sistemi",
+      "B": "Organik asitlerin oluşturduğu tampon sistemi",
+      "C": "Protein tampon sistemi",
+      "D": "Hemoglobin tampon sistemi",
+      "E": "Bikarbonat tampon sistemi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Fosfat tampon sistemi (YANLIŞ):** $HPO_4^{2-} / H_2PO_4^-$ çiftidir; hücresel ve böbrek tübüler tamponlamada ana sistemdir.\n- **B) Organik asitlerin oluşturduğu tampon sistemi (YANLIŞ):** Laktat ve asetoasetat gibi zayıf organik asit çiftleridir.\n- **C) Protein tampon sistemi (YANLIŞ):** Hücre içi sıvıda ve plazmada histidin aminoasitleri üzerinden etkindir.\n- **D) Hemoglobin tampon sistemi (YANLIŞ):** Eritrosit içinde $H^+$ iyonlarını bağlama kapasitesi yüksek ana tampon sistemdir.\n- **E) Bikarbonat tampon sistemi (DOĞRU):** Hücrelerde üretilen $CO_2$, eritrositlerde **Karbonik Anhidraz** enzimi aracılığıyla su ile birleşerek karbonik asiti ($H_2CO_3$), o da desosiasyona uğrayarak $H^+$ ve $HCO_3^-$ (bikarbonat) oluşturur. Ekstrasellüler plazma sıvısının **en önemli ve en yüksek kapasiteli tampon sistemidir**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Demiri bağlayarak antimikrobiyal etki yapan ve tükürükte de bulunan protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ferritin",
+      "B": "Transferrin",
+      "C": "Laktoferrin",
+      "D": "Ferroportin",
+      "E": "Hemosiderin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Ferritin (YANLIŞ):** Hücre içinde demiri $Fe^{3+}$ formunda depolayan temel proteindir.\n- **B) Transferrin (YANLIŞ):** Plazmada demiri $Fe^{3+}$ formunda dokulara taşıyan β1-globulindir.\n- **C) Laktoferrin (DOĞRU):** Tükürük, anne sütü, gözyaşı, mukozal salgılar ve nötrofil granüllerinde bulunan demir bağlayıcı bir glikoproteindir. Demiri çok yüksek afiniteyle bağlayıp bakterilerin çoğalmak için ihtiyaç duyduğu serbest demiri ortamdan uzaklaştırarak **bakteriyostatik/antimikrobiyal etki** gösterir.\n- **D) Ferroportin (YANLIŞ):** Enterosit ve makrofajlardan demiri dışarı pompalayan Transmembran kanaldır.\n- **E) Hemosiderin (YANLIŞ):** Aşırı demir yüklenmesinde lizozomlarda biriken erimez demir kompleksidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Pıhtılaşma sürecinde aşağıdaki basamakların hangisinde trombinin etkisi yoktur?",
+    "options": {
+      "A": "Fibrinojenin fibrine dönüşümü",
+      "B": "Faktör V'in faktör Va'ya dönüşümü",
+      "C": "Faktör VIII'in faktör VIIIa'ya dönüşümü",
+      "D": "Plazminojenin plazmine dönüşümü",
+      "E": "Protein C'nin protein Ca'ya dönüşümü"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Fibrinojenin fibrine dönüşümü (ETKİSİ VAR):** Trombin (Faktör IIa), fibrinojenin A ve B fibrinopeptidlerini keserek fibrin monomerlerini oluşturur.\n- **B) Faktör V'in faktör Va'ya dönüşümü (ETKİSİ VAR):** Pozitif geri bildirimle Faktör V'i aktifleştirir.\n- **C) Faktör VIII'in faktör VIIIa'ya dönüşümü (ETKİSİ VAR):** Pozitif geri bildirimle Faktör VIII'i aktifleştirir.\n- **D) Plazminojenin plazmine dönüşümü (ETKİSİ YOKtur - CEVAP):** Fibrin pıhtısını eriten plazminojenin aktif plazmine dönüşümü **tPA (doku plazminojen aktivatörü)**, **Ürokinaz** ve **Streptokinaz** tarafından gerçekleştirilir. Trombinin bu dönüşümde katalitik aktivatör etkisi yoktur.\n- **E) Protein C'nin protein Ca'ya dönüşümü (ETKİSİ VAR):** Trombin, endotelial Trombomodulin ile kompleks oluşturarak Protein C'yi aktif Protein Ca'ya çevirir (antikoagülan etki).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Transglutaminaz enzim aktivitesi gösteren ve fibrin stabilizatörü olarak bilinen pıhtılaşma faktörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Faktör V",
+      "B": "Faktör VII",
+      "C": "Faktör IX",
+      "D": "Faktör XI",
+      "E": "Faktör XIII"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Faktör V (YANLIŞ):** Protrombinaz kompleksinin kofaktörüdür.\n- **B) Faktör VII (YANLIŞ):** Ekstrinsik pıhtılaşma yolağının serin proteazıdır.\n- **C) Faktör IX (YANLIŞ):** İntrinsik pıhtılaşma yolağının serin proteazıdır (Hemofili B).\n- **D) Faktör XI (YANLIŞ):** İntrinsik pıhtılaşma yolağının aktörüdür.\n- **E) Faktör XIII (DOĞRU):** **Fibrin Stabilize Edici Faktör (Faktör XIIIa)**, pıhtılaşma şelalesindeki zimoje proteaz olmayan tek enzimdir; bir **transglutaminazdır**. Fibrin monomerlerinin glutamin ve lizin rezidüleri arasında kovalent isopeptid bağları kurarak çözünmeyen sağlam fibrin pıhtısını oluşturur. Eksikliğinde göbek bağı geç düşer ve geç kanamalar görülür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 DUS"
+  },
+  {
+    "question": "Aşağıdaki protein ve sınıf eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Albümin - Glikoprotein",
+      "B": "Süksinat dehidrogenaz - Flavoprotein",
+      "C": "Sitokrom oksidaz - Metalloprotein",
+      "D": "Katalaz - Hemoprotein",
+      "E": "İmmünoglobulin G - Glikoprotein"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Albümin - Glikoprotein (YANLIŞ - CEVAP):** Albümin, plazmada karaciğer tarafından sentezlenen en bol proteindir ancak **yapısında karbonhidrat içermez**, bir glikoprotein **değildir** (Saf proteindir). Plazma proteinlerinin hemen hemen tümü glikoprotein iken Albümin ve Prealbümin istisnadır.\n- **B) Süksinat dehidrogenaz - Flavoprotein (DOĞRU):** Kovalent bağlı FAD içerdiği için flavoproteindir (ETZ Kompleks II).\n- **C) Sitokrom oksidaz - Metalloprotein (DOĞRU):** Bakır ($Cu^{2+}$) ve demir içerdiği için metalloproteindir (ETZ Kompleks IV).\n- **D) Katalaz - Hemoprotein (DOĞRU):** Yapısında $Fe^{3+}$ içeren hem grubu bulunduran bir hemoproteindir.\n- **E) İmmünoglobulin G - Glikoprotein (DOĞRU):** Antikorlar oligosakkarit zinciri içeren glikoproteinlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi protein elektroforezinde alfa-2 bandında yer alır?",
+    "options": {
+      "A": "Kompleman C3",
+      "B": "Haptoglobin",
+      "C": "Transferrin",
+      "D": "C-reaktif protein",
+      "E": "a-fetoprotein"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Kompleman C3 (YANLIŞ):** Elektroforezde **Beta ($\\beta$)** bandında göç eder.\n- **B) Haptoglobin (DOĞRU):** Serum protein elektroforezinde **$\\alpha_2$-globulin** fraksiyonunda yer alan temel proteinlerdir: **Haptoglobin**, **$\\alpha_2$-Makroglobulin**, **Seruloplazmin** ve **Protrombin**.\n- **C) Transferrin (YANLIŞ):** **Beta ($\\beta$)** bandında yer alır.\n- **D) C-reaktif protein (YANLIŞ):** Yavaş **Gamma ($\\gamma$)** veya geç beta bandına göç eder.\n- **E) a-fetoprotein (YANLIŞ):** **$\\alpha_1$-globulin** fraksiyonunda göç eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Serum protein elektroforezinde haptoglobin hangisinde bulunur?",
+    "options": {
+      "A": "Alfa-1",
+      "B": "Alfa-2",
+      "C": "Beta-1",
+      "D": "Beta-2",
+      "E": "Gamma"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Alfa-1 (YANLIŞ):** $\\alpha_1$-antitripsin, $\\alpha_1$-asit glikoprotein (orosomukoid), $\\alpha$-fetoprotein (AFP) ve $\\alpha_1$-antikimotripsin bulunur.\n- **B) Alfa-2 (DOĞRU):** Serbest hemoglobini bağlayan **Haptoglobin**, panproteaz inhibitörü olan **$\\alpha_2$-Makroglobulin** ve bakır taşıyıcısı **Seruloplazmin** $\\alpha_2$ bant bölgesinde yer alır.\n- **C) Beta-1 (YANLIŞ):** Transferrin ve hemopeksin bulunur.\n- **D) Beta-2 (YANLIŞ):** Kompleman C4, Fibrinojen ve $\\beta_2$-mikroglobulin bulunur.\n- **E) Gamma (YANLIŞ):** İmmünoglobulinler (IgG, IgA, IgM, IgD, IgE) yer alır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "I. Seruloplazmin\nII. C-reaktif protein\nIII. Haptoglobin\nIV. Transferrin\nYukarıdaki proteinlerden hangileri serum protein elektroforezinde alfa-2 bandına göç eder?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II, III ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **I. Seruloplazmin (DOĞRU):** $\\alpha_2$-globulin bandında yer alan bakır bağlayıcı akut faz reaktanıdır.\n- **II. C-reaktif protein (YANLIŞ):** Yavaş gamma veya beta bölgesine göç eder.\n- **III. Haptoglobin (DOĞRU):** $\\alpha_2$-globulin bandında göç eden serbest hemoglobin bağlayıcı proteindir.\n- **IV. Transferrin (YANLIŞ):** Beta ($\\beta$) bandında göç eden demir taşıyıcı proteindir.\nBu nedenle I ve III (Seruloplazmin ve Haptoglobin) $\\alpha_2$ bandındadır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki serum proteinlerinden hangisi elektroforezde beta bandında yer alır?",
+    "options": {
+      "A": "Transtiretin",
+      "B": "Haptoglobin",
+      "C": "Serülolezmin",
+      "D": "Transferrin",
+      "E": "Orosomukoid"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Transtiretin (Prealbümin) (YANLIŞ):** Elektroforezde **Albüminin önünde (Pre-albümin)** en hızlı göç eden proteindir.\n- **B) Haptoglobin (YANLIŞ):** **$\\alpha_2$** bandındadır.\n- **C) Serüloplazmin (YANLIŞ):** **$\\alpha_2$** bandındadır.\n- **D) Transferrin (DOĞRU):** Serum protein elektroforezinde **Beta ($\\beta$)** bandında göç eden ana proteindir (Ayrıca Hemopeksin, C3, C4, Fibrinojen ve $\\beta_2$-mikroglobulin de beta bölgesindedir).\n- **E) Orosomukoid ($\\alpha_1$-asit glikoprotein) (YANLIŞ):** **$\\alpha_1$** bandındadır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki plazma proteinlerinden hangisi retinolu bağlar?",
+    "options": {
+      "A": "Prealbümin",
+      "B": "a1-antitripsin",
+      "C": "b2-makroglobulin",
+      "D": "Haptoglobin",
+      "E": "Transferrin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Prealbümin (Transtiretin - TTR) (DOĞRU):** Prealbümin, tiroksini ($T_4$) ve Retinol Bağlayıcı Protein (RBP-4) ile kompleks oluşturarak **Retinolu (A vitamini)** bağlayıp taşıyan proteindir. Karaciğerde sentezlenir, çinko gerektirir ve yarı ömrü çok kısa olduğu için beslenme ve akut malnütrisyon takibinde en duyarlı göstergedir.\n- **B) a1-antitripsin (YANLIŞ):** Serin proteaz inhibitörüdür.\n- **C) b2-makroglobulin (YANLIŞ):** B hücre ve lenfoma izleminde kullanılan proteindir.\n- **D) Haptoglobin (YANLIŞ):** Serbest hemoglobini bağlar.\n- **E) Transferrin (YANLIŞ):** Demiri ($Fe^{3+}$) bağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Plazma proteinleri ve işlevsel özellikleri eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Prealbümin - A vitamini transportu",
+      "B": "a1-antitripsin - Proteaz inhibisyonu",
+      "C": "b-lipoprotein - Lipid transportu",
+      "D": "Haptoglobin - Hemoglobin bağlama",
+      "E": "İmmünoglobulin G - Hipersensitivite reaksiyonları"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Prealbümin - A vitamini transportu (DOĞRU):** RBP ile birlikte Retinolu (A vitamini) ve $T_4$'ü taşır.\n- **B) a1-antitripsin - Proteaz inhibisyonu (DOĞRU):** Nötrofil elastazını inhibe eden antiproteazdır.\n- **C) b-lipoprotein - Lipid transportu (DOĞRU):** LDL (b-lipoprotein) kolesterol taşır.\n- **D) Haptoglobin - Hemoglobin bağlama (DOĞRU):** İntravasküler hemolizde serbest hemoglobini bağlayarak böbrekten demir kaybını önler.\n- **E) İmmünoglobulin G - Hipersensitivite reaksiyonları (YANLIŞ - CEVAP):** Tip I aşırı duyarlılık (anafilaksi, allerji, astım, ürtiker) ve mast hücresi/bazofil degranülasyonundan sorumlu olan immünoglobulin **IgG değil, IgE'dir**. IgG ise sekonder hümoral immün yanıt ve plasentayı geçen tek antikordur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki plazma proteinlerinden hangisinin tayini akut intravasküler hemoliz tanısı için en değerlidir?",
+    "options": {
+      "A": "Transferrin",
+      "B": "Albümin",
+      "C": "Haptoglobin",
+      "D": "Seruloplazmin",
+      "E": "Prealbümin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Transferrin (YANLIŞ):** Demiri taşır, hemolizde serbest proteini doğrudan tükenmez.\n- **B) Albümin (YANLIŞ):** Methemalbümin oluşturabilir ancak ilk tükenen duyarlı gösterge değildir.\n- **C) Haptoglobin (DOĞRU):** İntravasküler hemoliz sırasında eritrositlerin parçalanmasıyla kana salınan serbest Hemoglobin stokiometrik olarak birebir **Haptoglobin** tarafından sıkıca bağlanır ($Hb-Haptoglobin$ kompleksi). Bu kompleks RES (retiküloendoteliyal sistem) hücrelerince hızla temizlendiği için plazmada **serbest Haptoglobin seviyesi düşer / sıfırlanır**. Bu nedenle akut intravasküler hemolizin en duyarlı laboratuvar göstergesidir.\n- **D) Seruloplazmin (YANLIŞ):** Bakır taşır.\n- **E) Prealbümin (YANLIŞ):** Beslenme göstergesidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Damar içi hemoliz göstergesi olan laboratuvar bulgusu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "a1-asit glikoprotein yüksekliği",
+      "B": "Haptoglobin düşüklüğü",
+      "C": "Hemopeksin yüksekliği",
+      "D": "Karbonhidrat-eksik transferrin yüksekliği",
+      "E": "Prealbümin düşüklüğü"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) a1-asit glikoprotein yüksekliği (YANLIŞ):** Pozitif akut faz reaktanıdır.\n- **B) Haptoglobin düşüklüğü (DOĞRU):** Damar içi (intravasküler) hemolizde açığa çıkan serbest hemoglobin haptoglobini bağlar ve kompleks karaciğer/RES tarafından yıkılır. Serbest plazma Haptoglobin seviyesinin düşmesi damar içi hemolizin klasik tanısal bulgusudur.\n- **C) Hemopeksin yüksekliği (YANLIŞ):** Hemopeksin serbest hemi bağlar ve seviyesi hemolizde *düşer* (yükselmez).\n- **D) Karbonhidrat-eksik transferrin yüksekliği (YANLIŞ):** Kronik alkol kullanımı belirtecidir.\n- **E) Prealbümin düşüklüğü (YANLIŞ):** Malnütrisyon belirtecidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi oksidasyona uğramış ve serbest halde hem molekülünü bağlayan bir plazma proteinidir?",
+    "options": {
+      "A": "Transferrin",
+      "B": "Haptoglobin",
+      "C": "Ferritin",
+      "D": "Hemopeksin",
+      "E": "Hepsidin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Transferrin (YANLIŞ):** $Fe^{3+}$ iyonunu bağlar, hem halkasını bağlamaz.\n- **B) Haptoglobin (YANLIŞ):** Serbest **Hemoglobin** molekülünü bağlar (Hem'i değil).\n- **C) Ferritin (YANLIŞ):** Hücre içi demir depo proteinidir.\n- **D) Hemopeksin (DOĞRU):** Şiddetli hemolizde haptoglobin kapasitesi aşılınca, hemoglobin methemoglobine ($Fe^{3+}$) oksitlenir ve ayrışarak serbest **Hem** açığa çıkar. Plazmada serbest hem molekülünü bağlayıp karaciğere taşıyarak demir kaybını ve hem toksisitesini önleyen $\\beta$-globulin **Hemopeksin**dir.\n- **E) Hepsidin (YANLIŞ):** Karaciğerden salgılanan ve ferroportini yıkarak demir emilimini baskılayan ana düzenleyici hormondur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "On sekiz aylık erkek bebek; huzursuzluk, takipne ve yüksek ateş şikayetleriyle getiriliyor... Glukoz-6-fosfat dehidrogenaz eksikliğinden şüphelenilen bu hastanın laboratuvar bulgularında yukarıdakilerden hangileri beklenebilir?\nI. İndirekt hiperbilirubinemi\nII. Haptoglobin düzeyinde artış\nIII. Retikülositoz",
+    "options": {
+      "A": "I ve III",
+      "B": "I ve II",
+      "C": "Yalnız II",
+      "D": "I, II ve III",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **I. İndirekt hiperbilirubinemi (BEKLENİR - DOĞRU):** G6PD eksikliğinde bakla veya enfeksiyon tetiklemesiyle akut hemolitik anemi gelişir. Yıkılan eritrositlerden açığa çıkan hem, indirekt bilirubine dönüşür ve kanda indirekt bilirubin artar.\n- **II. Haptoglobin düzeyinde artış (BEKLENMEZ - YANLIŞ):** Hemolizde serbest hemoglobin bağlandığı ve yıkıldığı için serum Haptoglobin düzeyi **azalır/düşer** (artmaz).\n- **III. Retikülositoz (BEKLENİR - DOĞRU):** Kemik iliği hemolitik anemiye yanıt olarak kana genç eritrositleri (retikülosit) salar, retikülosit sayısı artar.\nBu nedenle yanıt I ve III'tür (A seçeneği).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar TUS"
+  },
+  {
+    "question": "Akut faz cevabında aşağıdakilerden hangisinin plazmadaki düzeyi artmaz?",
+    "options": {
+      "A": "Albümin",
+      "B": "Seruloplazmin",
+      "C": "a1-antitripsin",
+      "D": "C-reaktif protein",
+      "E": "Fibrinojen"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Albümin (ARTMAZ - CEVAP):** Albümin, inflamasyon ve akut doku hasarında karaciğerdeki sentezi azalan en önemli **Negatif Akut Faz Reaktanıdır** (diğer negatif AFR'ler: Prealbümin, Transferrin, RBP).\n- **B) Seruloplazmin (ARTAR):** Pozitif akut faz reaktanıdır.\n- **C) a1-antitripsin (ARTAR):** Pozitif akut faz reaktanıdır.\n- **D) C-reaktif protein (ARTAR):** En hızlı yükselen pozitif akut faz reaktanıdır.\n- **E) Fibrinojen (ARTAR):** Pozitif akut faz reaktanıdır (ESR/Sedimentasyonu artırır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 EUS"
+  },
+  {
+    "question": "Doku zedelenmesini takiben plazmada aşağıdaki proteinlerden hangisi artmaz?",
+    "options": {
+      "A": "Transferrin",
+      "B": "Haptoglobin",
+      "C": "a1-antitripsin",
+      "D": "Fosfolipaz A2",
+      "E": "Plazminojen"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Transferrin (ARTMAZ - CEVAP):** Transferrin bir **Negatif Akut Faz Reaktanıdır**; enfeksiyon ve doku hasarında karaciğer sentezi düşer (bakterilerin demire ulaşmasını zorlaştırmak için).\n- **B) Haptoglobin (ARTAR):** Pozitif akut faz reaktanıdır.\n- **C) a1-antitripsin (ARTAR):** Pozitif akut faz reaktanıdır.\n- **D) Fosfolipaz A2 (ARTAR):** İnflamasyonda düzeyi artan reaktan/enzimdir.\n- **E) Plazminojen (ARTAR):** Pozitif akut faz reaktanıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Anne sütüyle geçen ve çocuğu enfeksiyonlara karşı koruyan immünoglobulin aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "IgA",
+      "B": "IgD",
+      "C": "IgE",
+      "D": "IgG",
+      "E": "IgM"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) IgA (DOĞRU):** Mukozal yüzeylerde (solunum, GİS) ve dış salgılarda (anne sütü, kolostrum, tükürük, gözyaşı) bulunan ana immünoglobulindir. Anne sütündeki **Salgısal IgA (Dimerik IgA + J zinciri + sekretuvar komponent)** yenidoğanın bağırsağını patojenlere karşı pasif olarak korur.\n- **B) IgD (YANLIŞ):** B hücresi yüzeyinde antikor reseptörü olarak görev yapar.\n- **C) IgE (YANLIŞ):** Allerji ve parazit enfeksiyonlarında görevlidir.\n- **D) IgG (YANLIŞ):** Plasentayı geçen tek antikordur (FcRn reseptörü ile), anne sütünde baskın değildir.\n- **E) IgM (YANLIŞ):** Primer hümoral yanıtta sentezlenen pentamerik antikordur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Transplasental geçişi ve opsonizasyon özelliği olmayan, kompleman fiksasyonunda yer almayan, monomerik yapıda ve H zincir yapısı epsilon ($\\epsilon$) ile gösterilen immünoglobulin hangisidir?",
+    "options": {
+      "A": "IgA",
+      "B": "IgD",
+      "C": "IgG",
+      "D": "IgE",
+      "E": "IgM"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) IgA (YANLIŞ):** Ağır zinciri $\\alpha$ (alfa)'dır.\n- **B) IgD (YANLIŞ):** Ağır zinciri $\\delta$ (delta)'dır.\n- **C) IgG (YANLIŞ):** Ağır zinciri $\\gamma$ (gamma)'dır, plasentayı geçer ve opsonizasyon yapar.\n- **D) IgE (DOĞRU):** Ağır zinciri **$\\epsilon$ (epsilon)** simgesiyle gösterilir. Monomerik yapıdadır; Tip I aşırı duyarlılık (allerji, anafilaksi) ve helmintik parazit yanıtında mast hücresi/bazofil Fc reseptörlerine ($Fc\\epsilon R$) bağlanır. Plasentadan geçmez, opsonizasyon yapmaz ve komplemanı klasik yoldan aktive etmez.\n- **E) IgM (YANLIŞ):** Ağır zinciri $\\mu$ (mü)'dür, pentamerik yapıdadır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi Hageman faktör olarak bilinir?",
+    "options": {
+      "A": "Faktör I",
+      "B": "Faktör III",
+      "C": "Faktör V",
+      "D": "Faktör X",
+      "E": "Faktör XII"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Faktör I (YANLIŞ):** Fibrinojen olarak bilinir.\n- **B) Faktör III (YANLIŞ):** Doku Faktörü (Tromboplastin) olarak bilinir.\n- **C) Faktör V (YANLIŞ):** Proakselerin / Labil faktör olarak bilinir.\n- **D) Faktör X (YANLIŞ):** Stuart-Prower faktörü olarak bilinir.\n- **E) Faktör XII (DOĞRU):** İntrinsik pıhtılaşma yolağını başlatan ve cam/yabancı yüzey temasıyla aktifleşen pıhtılaşma faktörü **Hageman Faktör (Faktör XII)**'dir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 DUS"
+  },
+  {
+    "question": "Protein C antikoagülan etkisini pıhtılaşma faktörlerinden hangisini inaktive ederek göstermektedir?",
+    "options": {
+      "A": "F7 ve F10",
+      "B": "F5 ve F8",
+      "C": "F7 ve F9",
+      "D": "F5 ve F10",
+      "E": "F8 ve F10"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) F7 ve F10 (YANLIŞ):** Doku faktörü yolu inhibitörü (TFPI) tarafından düzenlenir.\n- **B) F5 ve F8 (DOĞRU):** Trombomodulin-Trombin kompleksi tarafından aktifleştirilen **Aktif Protein C (APC)**, kofaktörü Protein S ile birlikte pıhtılaşma şelalesinin kilit kofaktörleri olan **Faktör Va (F5) ve Faktör VIIIa (F8)**'i spesifik olarak proteolitik kesimle inaktive ederek güçlü antikoagülan etki gösterir (Faktör V Leiden mutasyonunda APC direnci gelişir ve tromboz riski artar).\n- **C) F7 ve F9 (YANLIŞ):** Protein C'nin doğrudan inaktivasyon hedefi değildir.\n- **D) F5 ve F10 (YANLIŞ):** F10 kofaktör değil serin proteazdır; Antitrombin III tarafından engellenir.\n- **E) F8 ve F10 (YANLIŞ):** F10 kofaktör değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 EUS"
+  },
+  {
+    "question": "Eksikliği amfizeme neden olan ve nötrofil elastazını inhibe eden protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "a1-antitripsin",
+      "B": "Albümin",
+      "C": "Seruloplazmin",
+      "D": "Kollajen",
+      "E": "Tripsinojen"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) a1-antitripsin (AAT) (DOĞRU):** Karaciğerde sentezlenen ve plazmada $\\alpha_1$-globulin bandının %90'ını oluşturan en önemli serin proteaz (serpin) inhibitörüdür. Akciğerlerde nötrofillerden salınan **nötrofil elastaz** enzimini inhibe ederek alveol duvarındaki elastinin yıkılmasını önler. Eksikliğinde inhibe edilemeyen nötrofil elastazı akciğer elastik dokusunu yıkarak genç yaşta **panasiner amfizem** ve karaciğerde hatalı katlanmış AAT birikimiyle **infantil hepatit/siroz** oluşturur.\n- **B) Albümin (YANLIŞ):** Onkotik basınç proteinidir.\n- **C) Seruloplazmin (YANLIŞ):** Bakır taşıyıcısı ve ferrooksidazdır.\n- **D) Kollajen (YANLIŞ):** Ekstrasellüler bağ dokusu proteinidir.\n- **E) Tripsinojen (YANLIŞ):** Pankreatik inaktif zimojendir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Büyüme geriliği, tekrarlayan akciğer enfeksiyonu ve alfa-1 bandı olmayan serum protein elektroforezi saptanan hastada en olası eksik protein hangisidir?",
+    "options": {
+      "A": "Alfa-1 asit glikoprotein",
+      "B": "Alfa-lipoprotein",
+      "C": "Alfa-1 antikimotripsin",
+      "D": "Gc-globulin",
+      "E": "Alfa-1 antitripsin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Alfa-1 asit glikoprotein (YANLIŞ):** $\\alpha_1$ bandında bulunur ancak eksikliği amfizem/akciğer tablosu yapmaz.\n- **B) Alfa-lipoprotein (HDL) (YANLIŞ):** Tangier hastalığında eksiktir.\n- **C) Alfa-1 antikimotripsin (YANLIŞ):** Kimotripsini inhibe eder, $\\alpha_1$ bandının %90'ını oluşturmaz.\n- **D) Gc-globulin (YANLIŞ):** D vitamini taşıyıcı proteindir.\n- **E) Alfa-1 antitripsin (DOĞRU):** Serum protein elektroforezinde $\\alpha_1$ fraksiyonunun yaklaşık %90'ını tek başına **$\\alpha_1$-antitripsin** oluşturur. Elektroforezde $\\alpha_1$ bandının tamamen yokluğu/silinmesi doğrudan $\\alpha_1$-antitripsin eksikliğinin (PiZZ fenotipi) patognomonik elektroforez bulgusudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  },
+  {
+    "question": "40 yaşındaki erkek hasta kronik öksürük ve egzersiz yaparken aşırı yorgunluk şikayetleriyle başvuruyor... 5 yıldır bıraktığı öğreniliyor. amfizem... en olası eksiklik hangisidir?",
+    "options": {
+      "A": "Seruloplazmin",
+      "B": "b2-mikroglobulin",
+      "C": "a2-makroglobulin",
+      "D": "a1-antitripsin",
+      "E": "Haptoglobin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Seruloplazmin (YANLIŞ):** Wilson hastalığında düşer.\n- **B) b2-mikroglobulin (YANLIŞ):** Renal tübüler hasar ve miyelom belirtecidir.\n- **C) a2-makroglobulin (YANLIŞ):** Nefrotik sendromda artar.\n- **D) a1-antitripsin (DOĞRU):** Genç yaşta, sigara içmeyen veya az içmiş bireyde gelişen panlobüler/sentriasiner amfizem vakalarında akla gelmesi gereken ilk kalıtsal metabolik bozukluk **$\\alpha_1$-antitripsin eksikliği**dir. AAT'nin aktif merkezinde metionin bulunur; sigara dumanı bu metionini oksitleyerek AAT'yi inaktive eder ve tabloyu ağırlaştırır.\n- **E) Haptoglobin (YANLIŞ):** Hemolizde düşer.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar DUS"
+  },
+  {
+    "question": "Sağlıklı bir bireye ait serum protein elektroforez grafiği verilmiştir. Buna göre aşağıdakilerden hangisi nefrotik sendromlu bir hastanın serum protein elektroforezi ile uyumludur?",
+    "options": {
+      "A": "Grafik A",
+      "B": "Grafik B",
+      "C": "Grafik C",
+      "D": "Grafik D",
+      "E": "Grafik E"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **Nefrotik Sendrom Elektroforez Özellikleri:** Nefrotik sendromda glomerül bazal membran geçirgenliği bozulur. Düşük molekül ağırlıklı proteinler (başta **Albümin**, $\\alpha_1$-antitripsin, IgG) idrarla masif olarak kaybedilir. Karaciğer kaybedilen proteinleri telafi etmek ve plazma onkotik basıncını korumak için yüksek molekül ağırlıklı proteinlerin sentezini artırır. Çok büyük moleküllü bir panproteaz inhibitörü olan **$\\alpha_2$-Makroglobulin (720 kDa)** glomerülden süzülemediği için kanda birikir.\n- **Grafik Değerlendirmesi:** Elektroforezde **Albümin bandı çökmüş (belirgin düşük)**, **$\\alpha_2$ bandı ise devasa yükselmiş (pik yapmış)** olan grafik D seçeneğidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Nefrotik sendromda serum protein elektroforezinde tipik olarak görülen a2-globulin fraksiyonundaki artıştan sorumlu olan plazma proteini aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kompleman C3",
+      "B": "Serülolezmin",
+      "C": "a2-makroglobulin",
+      "D": "Transferrin",
+      "E": "CRP"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Kompleman C3 (YANLIŞ):** Beta bandındadır.\n- **B) Serülolezmin (YANLIŞ):** $\\alpha_2$'dedir ancak nefrotik sendromdaki devasa seçici artıştan sorumlu ana molekül değildir.\n- **C) a2-makroglobulin (DOĞRU):** Nefrotik sendromda karaciğerin kompenzatuvar sentez artışı ve devasa boyutu (720 kDa) nedeniyle böbrekten kaçamaması sonucu kanda seviyesi 4-5 katına çıkan ve elektroforezde $\\alpha_2$ pikini oluşturan ana plazma proteini **$\\alpha_2$-makroglobulin**dir.\n- **D) Transferrin (YANLIŞ):** Beta bandındadır, nefrotikte idrarla kaybedilir.\n- **E) CRP (YANLIŞ):** Akut faz reaktanıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Serum protein elektroforezinde oluşabilen beta-gamma köprüleşmesi aşağıdaki patolojilerin hangisinde görülür?",
+    "options": {
+      "A": "Karaciğer sirozu",
+      "B": "Multipl miyelom",
+      "C": "Akut inflamasyon",
+      "D": "Nefrotik sendrom",
+      "E": "a1-antitripsin eksikliği"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Karaciğer sirozu (DOĞRU):** Karaciğer sirozunda karaciğer sentez fonksiyonu bozulduğu için Albümin sentezi düşer (albümin piki çöker). Aynı zamanda retiküloendoteliyal sistem uyarısıyla mukoza ve plazmada **IgA üretimi masif artar**. IgA elektroforezde hem beta hem gamma bölgesine yayıldığı için beta ile gamma bantları arasındaki çukur dolar ve iki bant birleşir. Bu tipik görünüme **Beta-Gamma Köprüleşmesi ($\\beta-\\gamma$ bridging)** denir.\n- **B) Multipl miyelom (YANLIŞ):** Gamma bölgesinde dar tabanlı sivri bir M piki (monoklonal gamopati) oluşturur.\n- **C) Akut inflamasyon (YANLIŞ):** $\\alpha_1$ ve $\\alpha_2$ bantlarında genişleme artış yapar.\n- **D) Nefrotik sendrom (YANLIŞ):** Albümin düşük, $\\alpha_2$-makroglobulin yüksek görülür.\n- **E) a1-antitripsin eksikliği (YANLIŞ):** $\\alpha_1$ bandı silinir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki proteinlerden hangisi serumda bulunmayıp beyin omurilik sıvısında patolojik durumlarda ortaya çıkar?",
+    "options": {
+      "A": "Prealbümin",
+      "B": "IgA",
+      "C": "Tau protein",
+      "D": "Haptoglobin",
+      "E": "IgG"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Prealbümin (YANLIŞ):** Hem serumda hem BOS'ta fizyolojik olarak bulunur.\n- **B) IgA (YANLIŞ):** Serumda bol miktarda bulunan temel immünoglobulindir.\n- **C) Tau protein (DOĞRU):** Tau proteini, nöronlarda mikrotübülleri stabilize eden hücre içi aksonal bir proteindir. Normal şartlarda kan serumunda bulunmaz. Alzheimer hastalığı, Creutzfeldt-Jakob hastalığı ve akut travmatik beyin hasarı gibi nörodejeneratif süreçlerde hasar gören nöronlardan k体系 dışına salınarak **Beyin Omurilik Sıvısına (BOS)** geçer ve BOS'ta patolojik olarak düzeyi yükselir.\n- **D) Haptoglobin (YANLIŞ):** Plazmada $\\alpha_2$ bandında bulunan serum proteinidir.\n- **E) IgG (YANLIŞ):** Serumda en bol bulunan antikordur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, demirin bağırsak epitel hücresi bazal membranından kan dolaşımına geçmesini sağlayan taşıyıcı proteindir?",
+    "options": {
+      "A": "Transferrin",
+      "B": "Hemosiderin",
+      "C": "Ferritin",
+      "D": "Hepsidin",
+      "E": "Ferroportin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Transferrin (YANLIŞ):** Kan dolaşımında demiri $Fe^{3+}$ formunda dokulara taşıyan proteindir.\n- **B) Hemosiderin (YANLIŞ):** Hücre içi çözünmeyen demir depolama kompleksidir.\n- **C) Ferritin (YANLIŞ):** Enterosit ve hücre içinde demiri depolayan proteindir.\n- **D) Hepsidin (YANLIŞ):** Karaciğerden salgılanan ve ferroportini yıkan düzenleyici hormondur.\n- **E) Ferroportin (DOĞRU):** Duodenum enterositlerinin bazolateral membranında yer alan tek demir ihracat (export) kanalıdır. Hücre içindeki $Fe^{2+}$ demirini enterositten çıkarıp kan dolaşımına aktarır. Karaciğerden salgılanan Hepsidin, ferroportine bağlanarak onu endositoza uğratır ve yıkar; böylece kana demir geçişini engeller.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Enterositlerden dolaşıma verilmek üzere demiri +2'den +3'e oksitleyen protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ferritin",
+      "B": "Transferrin",
+      "C": "Hephaestin",
+      "D": "Metallotionein",
+      "E": "Aprotinin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Ferritin (YANLIŞ):** Demir depolama proteinidir.\n- **B) Transferrin (YANLIŞ):** Demiri plazmada taşır; demiri kendisi oksitlemez, ferrooksidazların yüklediği $Fe^{3+}$'ü bağlar.\n- **C) Hephaestin (DOĞRU):** Duodenum enterositlerinin bazolateral membranında ferroportin kanalıyla eşleşmiş halde bulunan bir **bakır bağımlı ferrooksidaz** proteinidir. Kana çıkacak olan $Fe^{2+}$ (ferröz) demiri $Fe^{3+}$ (ferrik) formuna oksitler; çünkü plazma taşıyıcısı olan Transferrin demiri sadece $Fe^{3+}$ formunda bağlayabilir. (Plazmadaki sistemik ferrooksidaz eşdeğeri ise Seruloplazmindir).\n- **D) Metallotionein (YANLIŞ):** Hücre içinde çinko ve bakır bağlayan proteindir.\n- **E) Aprotinin (YANLIŞ):** Serin proteaz (plazmin) inhibitörüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Total demir bağlama kapasitesi testi aşağıdakilerden hangisinin fonksiyonel ferröz/ferrik iyon bağlama bölgesi hakkında bilgi verir?",
+    "options": {
+      "A": "Miyoglobin",
+      "B": "Ferritin",
+      "C": "Transferrin",
+      "D": "Hemopeksin",
+      "E": "Hemosiderin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Miyoglobin (YANLIŞ):** Kas içi oksijen depolayan tek hem içeren proteindir.\n- **B) Ferritin (YANLIŞ):** Demir deponuzu gösterir.\n- **C) Transferrin (DOĞRU):** Plazmada Total Demir Bağlama Kapasitesi (TIBC / TDBK), dolaşımdaki **Transferrin** proteininin demir bağlama alanlarının toplam kapasitesini yansıtan biyokimyasal testtir. Transferrin molekülü başına 2 adet $Fe^{3+}$ iyonu bağlar. Demir eksikliği anemisinde karaciğer transferrin sentezini artırır ve TIBC yüksek çıkar.\n- **D) Hemopeksin (YANLIŞ):** Serbest hem bağlar.\n- **E) Hemosiderin (YANLIŞ):** Erimez demir deposudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Osteosit ve osteoblastlardan salgılanan, proksimal tübülde sodyum-fosfat kotransporterini ve 25(OH) kolekalsiferol 1a-hidroksilazı inhibe ederek fosfatürik etki oluşturan molekül hangisidir?",
+    "options": {
+      "A": "Fibroblast büyüme faktörü 23 (FGF-23)",
+      "B": "Tümör nekrozis faktör alfa (TNF-a)",
+      "C": "RANK-ligand",
+      "D": "Osteopontin",
+      "E": "Osteoprotegerin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Fibroblast büyüme faktörü 23 (FGF-23) (DOĞRU):** Osteosit ve osteoblastlardan yükselen kan fosfatına yanıt olarak salgılanan ana fosfatürik hormondur. Böbrek proksimal tübülünde **NPT2 (Sodyum-Fosfat Kotransporteri)** kanallarını inhibe ederek idrarla fosfat atılımını artırır (hipofosfatemi yapar). Aynı zamanda böbrekte **1$\\alpha$-hidroksilaz** enzimini inhibe ederek aktif D vitamini ($1,25(OH)_2D_3$) sentezini baskılar.\n- **B) Tümör nekrozis faktör alfa (YANLIŞ):** Proinflamatuvar sitokindir.\n- **C) RANK-ligand (YANLIŞ):** Osteoklastları aktifleyen faktördür.\n- **D) Osteopontin (YANLIŞ):** Kemik matriks proteini.\n- **E) Osteoprotegerin (YANLIŞ):** RANKL tuzak reseptörüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hemoglobinlerin hangisinde oksijenin hemoglobine bağlanması değişmez?",
+    "options": {
+      "A": "Sulfhemoglobin",
+      "B": "Fetal hemoglobin",
+      "C": "Methemoglobin",
+      "D": "Glikozile hemoglobin",
+      "E": "Karboksi hemoglobin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Sulfhemoglobin (YANLIŞ):** Hem yapısına kükürt katılmasıyla oluşur, oksijen taşıma ve bağlama kapasitesi bozulur.\n- **B) Fetal hemoglobin (HbF) (YANLIŞ):** 2,3-BPG'yi zayıf bağladığı için oksijen afinitesi HbA'ya göre daha **yüksektir** (bağlanma değişmiştir).\n- **C) Methemoglobin (YANLIŞ):** Demirin $Fe^{3+}$ formuna oksitlenmesidir; oksijen bağlayamaz, kalan zincirlerin $O_2$ afinitesini artırıp dokuya salınımı engeller.\n- **D) Glikozile hemoglobin (HbA1c) (DOĞRU):** Glukozun hemoglobinin $\\beta$-zincir N-terminal valin aminoasidine non-enzimatik kovalent bağlanmasıyla oluşur. Bu glikasyon işlemi **hemoglobini fonksiyonel olarak bozmaz ve oksijen bağlama afinitesini DEĞİŞTİRMEZ**. Diyabet takibinde son 2-3 aylık kan şekeri kontrolünü gösterir.\n- **E) Karboksi hemoglobin (YANLIŞ):** CO bağlanmasıdır; $O_2$ afinitesini aşırı artırarak eğriyi sola kaydırır ve doku hipoksisine yol açar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Hemoglobindeki hem demirine oksijenden daha yüksek afiniteyle bağlananlar hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "FeO ve CO",
+      "B": "SO2 ve CO",
+      "C": "NO2 ve CO2",
+      "D": "CO ve NO",
+      "E": "CO2 ve NO"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **CO (Karbonmonoksit) ve NO (Nitrik Oksit) (DOĞRU):** Karbonmonoksit (CO), hemoglobinin $Fe^{2+}$ demirine oksijenden yaklaşık **220 kat daha yüksek** afinite ile bağlanır ve Karboksihemoglobin oluşturur. Nitrik Oksit (NO) de benzer şekilde yüksek afiniteyle bağlanır.\n- **$CO_2$ (Karbondioksit) (YANLIŞ):** Karbondioksit hem demirine bağlanmaz! $CO_2$, globin zincirlerinin N-terminal amino gruplarına bağlanarak **Karbaminohemoglobin** oluşturur.\n- Dolayısıyla hem demirine oksijenden yüksek afiniteyle bağlanan gazlar CO ve NO'dur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki kimyasal gruplardan hangisi, porfirinlerin yapısındaki pirol halkalarına bağlanmaz?",
+    "options": {
+      "A": "Asetat",
+      "B": "Propiyonat",
+      "C": "Vinil",
+      "D": "Bütiril",
+      "E": "Metil"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- Porfirin halkası, metenil ($=CH-$) köprüleriyle bağlı 4 adet pirol halkasından (Tetrapirol) oluşur. Bu pirol halkalarının yan zincirlerine bağlanan kimyasal gruplar şunlardır:\n  1. **Asetat** (A: $-CH_2-COO^-$)\n  2. **Propiyonat** (P: $-CH_2-CH_2-COO^-$)\n  3. **Metil** (M: $-CH_3$)\n  4. **Vinil** (V: $-CH=CH_2$)\n- **D) Bütiril (BAGLANMAZ - CEVAP):** Bütiril grubu ($4$ karbonlu açil grubu) porfirin pirol halkalarının yan zincirlerinde **bulunmaz**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Porfirin sentezi bozukluklarında aşağıdaki proteinlerden hangisinin fonksiyonunda bozulma beklenmez?",
+    "options": {
+      "A": "Ribonükleotid redüktaz",
+      "B": "Hemoglobin",
+      "C": "Katalaz",
+      "D": "Miyoglobin",
+      "E": "Sitokrom P450"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- Porfirin (Hem) sentezi bozulduğunda, yapısında **Hem (Protoporfirin IX + $Fe^{2+}$)** bulunduran **Hemoproteinlerin** sentezi ve fonksiyonu aksar.\n- Hemoprotein örnekleri: **Hemoglobin**, **Miyoglobin**, **Sitokrom P450**, **Katalaz**, **NO sentetaz**, **Sitokrom c**, **Triptofan pirolaz**.\n- **A) Ribonükleotid redüktaz (BEKLENMEZ - CEVAP):** Ribonükleotid redüktaz bir hemoprotein **değildir**; yapısında demir-kükürt merkezi ve selenoprotein/tiyoredoksin bileşenleri taşır ancak porfirin/hem içermez. Bu nedenle porfirin sentez bozukluğundan etkilenmez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Miyoglobindeki ferröz demirin oksijenle yaptığı bağı stabilize eden amino asit hangisidir?",
+    "options": {
+      "A": "Valin",
+      "B": "Serin",
+      "C": "Histidin",
+      "D": "Lizin",
+      "E": "Glutamat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Valin (YANLIŞ):** Apolar yan zincirlidir.\n- **B) Serin (YANLIŞ):** Polar hidroksillidir.\n- **C) Histidin (DOĞRU):** Miyoglobin ve Hemoglobinde hem halkasındaki $Fe^{2+}$ demiri 6 koordinasyon bağı kurar (4'ü pirol azotu ile). 5. koordinasyon bağı **Proksimal Histidin (F8)** rezidüsüne bağlıdır. Oksijenin bağlandığı 6. bölgede ise **Distal Histidin (E7)** yer alır. Distal histidin, demir-oksijen bağını $121^\\circ$'lik açılanmayla elektrostatik olarak **stabilize eder** ve CO'nun dik açıyla bağlanmasını zorlaştırarak CO toksisitesini engeller.\n- **D) Lizin (YANLIŞ):** Bazik aminoasittir.\n- **E) Glutamat (YANLIŞ):** HbS mutasyonunda etkilenen aminoasittir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Hemoglobin A ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İki alfa ve iki beta olmak üzere toplam dört alt birimden meydana gelir.",
+      "B": "Dört oksijen molekülü taşıyabilir.",
+      "C": "Oksijen disosiasyon eğrisi sigmoidal şekildedir.",
+      "D": "Artmış pCO2'de oksijene olan afinitesi artar.",
+      "E": "2,3-bisfosfogliserat varlığında oksijene olan afinitesi azalır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) İki alfa ve iki beta olmak üzere toplam dört alt birimden meydana gelir (DOĞRU):** Adult Hemoglobin ($HbA_1$), $\\alpha_2\\beta_2$ tetramer yapısındadır.\n- **B) Dört oksijen molekülü taşıyabilir (DOĞRU):** Her bir hem grubu 1 molekül $O_2$ bağlar (toplam 4 $O_2$).\n- **C) Oksijen disosiasyon eğrisi sigmoidal şekildedir (DOĞRU):** Alt birimler arası kooperatif bağlanma (cooperativity) nedeniyle eğri sigmoidaldır. (Miyoglobininki ise hiperboliktir).\n- **D) Artmış pCO2'de oksijene olan afinitesi artar (YANLIŞ - CEVAP):** **Bohr Etkisi** uyarınca, dokularda $pCO_2$ artışı, $H^+$ (asidoz) artışı, sıcaklık artışı ve 2,3-BPG artışı hemoglobini **T (tight/deoksi) formuna sokar** ve oksijene olan afinitesini **AZALTIR** (eğriyi sağa kaydırır, oksijeni dokuya bırakır).\n- **E) 2,3-bisfosfogliserat varlığında oksijene olan afinitesi azalır (DOĞRU):** 2,3-BPG $\\beta$-zincirleri arasına bağlanarak T formunu stabilize eder ve O2 afinitesini düşürür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 EUS"
+  },
+  {
+    "question": "Eritrositlerde 2,3-bisfosfogliserat ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Deoksihemoglobinede bağlanır ve oksijene ilgiyi azaltır.",
+      "B": "Hemoglobinde, pozitif yüklü amino asitlerden zengin bir yere bağlanır.",
+      "C": "Kronik hipoksiye cevap olarak eritrositlerde düzeyi azalır.",
+      "D": "HbF, HbA'ya göre 2,3-bisfosfogliserata daha zayıf bağlandığı için HbF'nin oksijene ilgisi daha fazladır.",
+      "E": "Glikolizin ara ürünü olan 1,3-bisfosfogliserattan sentezlenir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Deoksihemoglobinede bağlanır ve oksijene ilgiyi azaltır (DOĞRU):** Deoksi (T) formundaki merkez boşluğa bağlanır.\n- **B) Hemoglobinde, pozitif yüklü amino asitlerden zengin bir yere bağlanır (DOĞRU):** Negatif yüklü 2,3-BPG, $\\beta$-zincirlerindeki pozitif yüklü **Histidin** ve **Lizin** rezidülerine iyonik bağlanır.\n- **C) Kronik hipoksiye cevap olarak eritrositlerde düzeyi azalır (YANLIŞ - CEVAP):** Yüksek irtifa, kronik obstrüktif akciğer hastalığı (KOAH) ve anemilerde gelişen kronik hipoksiye yanıt olarak eritrositlerde 2,3-BPG sentezi **ARTAR** (azalmaz); böylece oksijen dokulara daha kolay bırakılır.\n- **D) HbF, HbA'ya göre 2,3-bisfosfogliserata daha zayıf bağlandığı için HbF'nin oksijene ilgisi daha fazladır (DOĞRU):** HbF'nin $\\gamma$-zincirinde histidin yerine nötral Serin bulunur; 2,3-BPG'yi tutamaz ve afinitesi artar.\n- **E) Glikolizin ara ürünü olan 1,3-bisfosfogliserattan sentezlenir (DOĞRU):** Rapoport-Luebering şantında 1,3-BPG Mutaz ile sentezlenir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Karbaminohemoglobin ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hemoglobin zincirlerinin N-terminal amino gruplarına CO2 bağlanmasıyla oluşur.",
+      "B": "CO2'nin bağlanması, hemoglobini deoksi (T) formunu stabilize eder.",
+      "C": "Oksijen disosiasyon eğrisinin sola kaymasına yol açar.",
+      "D": "CO2'nin bağlanması, hemoglobin alt birimleri arasında tuz köprülerinin oluşmasına katkı sağlar.",
+      "E": "Metabolizma tarafından üretilen CO2'nin büyük kısmı bikarbonat olarak taşınır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Hemoglobin zincirlerinin N-terminal amino gruplarına CO2 bağlanmasıyla oluşur (DOĞRU):** Karbondioksit, globin zincirlerinin yüksüz N-terminal $\\alpha$-amino gruplarına kovalent bağlanarak karbamat gruplarını ve Karbaminohemoglobini oluşturur.\n- **B) CO2'nin bağlanması, hemoglobini deoksi (T) formunu stabilize eder (DOĞRU):** Karbamat grupları negatif yük taşıyarak alt birimler arası tuz köprülerini kuvvetlendirir ve T (deoksi) formunu stabilize eder.\n- **C) Oksijen disosiasyon eğrisinin sola kaymasına yol açar (YANLIŞ - CEVAP):** $CO_2$ bağlanması (Bohr etkisi) dokularda $O_2$ afinitesini düşürür ve oksijen disosiasyon eğrisini **SAĞA kaydırır** (sola kaydırmaz); böylece oksijen dokulara serbestçe bırakılır.\n- **D) CO2'nin bağlanması, hemoglobin alt birimleri arasında tuz köprülerinin oluşmasına katkı sağlar (DOĞRU):** T formu iyonik bağlarla/tuz köprüleriyle stabilize edilir.\n- **E) Metabolizma tarafından üretilen CO2'nin büyük kısmı bikarbonat olarak taşınır (DOĞRU):** Dokulardaki $CO_2$'nin %70'i bikarbonat ($HCO_3^-$), %20'si karbaminohemoglobin ve %10'u çözünmüş gaz olarak akciğerlere taşınır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hemoglobine bağlanan bir ligand değildir?",
+    "options": {
+      "A": "Amonyak",
+      "B": "2,3-difosfogliserat",
+      "C": "Karbondioksit",
+      "D": "H+ iyonları",
+      "E": "Karbonmonoksit"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Amonyak ($NH_3$) (EĞİLDİR - CEVAP):** Amonyak plazmada toksik bir bileşiktir ve glutamin/alanin üzerinden karaciğere taşınır; hemoglobini allosterik veya direkt bağlayan spesifik bir alosterik ligand değildir.\n- **B) 2,3-difosfogliserat (2,3-BPG) (LİGANDDIR):** Deoksihemoglobinin merkez boşluğuna bağlanan negatif allosterik efektördür.\n- **C) Karbondioksit ($CO_2$) (LİGANDDIR):** N-terminal amino uçlarına bağlanan allosterik efektördür.\n- **D) H+ iyonları (LİGANDDIR):** $\\beta$-zincirindeki Histidin-146'ya bağlanarak Bohr etkisini ve T formunu oluşturan allosterik liganddır.\n- **E) Karbonmonoksit (CO) (LİGANDDIR):** Hem demirine bağlanan yarışmalı liganddır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "On sekiz yaşındaki erkek hasta ağır egzersiz sonrası karın ağrısı ağırlıklı olmak üzere tüm vücutta yaygın ağrı şikayetiyle başvuruyor. Kanda anemi ve hemoglobin beta zincirinde mutasyon saptanıyor. Bacak ağrılarının (Orak hücreli anemi) nedeni olan patoloji ile ilgili hangisi doğrudur?",
+    "options": {
+      "A": "Deoksijenize durumda hemoglobin molekülleri arasındaki hidrofobik interaksiyonlar artar.",
+      "B": "Deoksijenize durumda hemoglobin molekülleri arasında fosforilasyon artar.",
+      "C": "Oksijenize durumda hemoglobin molekülleri arasındaki hidrofobik interaksiyonlar artar.",
+      "D": "Oksijenize durumda hemoglobin molekülleri arasındaki iyonik interaksiyonlar artar.",
+      "E": "Deoksijenize durumda hemoglobin molekülleri arasındaki iyonik interaksiyonlar artar."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Deoksijenize durumda hemoglobin molekülleri arasındaki hidrofobik interaksiyonlar artar (DOĞRU):** Orak hücreli anemide ($HbS$), $\\beta$-globin geninin 6. pozisyonundaki hidrofilik glutamat yerine apolar hidrofobik **Valin** geçer (nokta mutasyonu). Oksijen seviyesi düştüğünde (**deoksijenize ortamda**), mutant valin molekülün dış yüzeyine maruz kalır. Farklı HbS moleküllerinin valinleri birbiriyle **hidrofobik etkileşime** girerek çözünmeyen rijit fibroz polimerleşme ve agregat oluşturur. Bu da eritrositleri oraklaştırır ve mikrovasküler vazooklüzyon ile krizlere yol açar.\n- **B, C, D, E (YANLIŞ):** Agregasyon oksijenize değil deoksijenize formda ve iyonik/fosforilasyon değil hidrofobik bağlar üzerinden gerçekleşir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "I. $\\alpha$ zinciri yerine $\\beta$ zinciri geçmiştir.\nII. $\\beta$ hemoglobin zincirinde primer yapı hatalıdır.\nIII. Hemoglobinin hidrofobik amino asit sayısı artmıştır.\nIV. Hemoglobinin deoksi formunun çözünürlüğü artmıştır.\nOrak hücreli anemi ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "II ve IV",
+      "D": "III ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **Öncül I (YANLIŞ):** Zincir değişimi yoktur; $\\alpha_2\\beta_2$ yapısı korunur, sadece $\\beta$ zincirinde tek bir aminoasit değişmiştir.\n- **Öncül II (DOĞRU):** $\\beta$ zincirinin 6. pozisyonunda Glutamat $\\rightarrow$ Valin nokta mutasyonu olduğu için primer aminoasit sırası/yapısı hatalıdır.\n- **Öncül III (DOĞRU):** Yüzeydeki hidrofilik Glutamat yerine hidrofobik Valin geldiği için molekülün hidrofobik aminoasit sayısı ve yüzeyi artmıştır.\n- **Öncül IV (YANLIŞ):** Deoksi HbS formunun çözünürlüğü artmaz, aksine çökerek Polimerleştiği için **çözünürlüğü azalır**.\nBu nedenle II ve III öncülleri doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hem katabolizmasının bir ürünü değildir?",
+    "options": {
+      "A": "Bilirubin",
+      "B": "Porfobilinojen",
+      "C": "Ürobilinojen",
+      "D": "Sterkobilin",
+      "E": "Biliverdin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Bilirubin (YIKIM ÜRÜNÜDÜR):** Hem yıkımında biliverdinin indirgenmesiyle oluşan üründür.\n- **B) Porfobilinojen (PBJ) (YIKIM ÜRÜNÜ DEĞİLDİR - CEVAP):** Porfobilinojen, Hem **sentez yolağındaki** ilk pirol bileşiğidir (2 molekül ALA'nın ALA dehidrataz ile birleşmesiyle sentezlenir). Katabolizma/yıkım ürünü değildir!\n- **C) Ürobilinojen (YIKIM ÜRÜNÜDÜR):** Bağırsakta bilirubin yıkım ürünüdür.\n- **D) Sterkobilin (YIKIM ÜRÜNÜDÜR):** Dışkıya rengini veren son bilirubin yıkım ürünüdür.\n- **E) Biliverdin (YIKIM ÜRÜNÜDÜR):** Hem oksijenaz ile hem halkasının açılmasıyla oluşan yeşil renkli ilk yıkım ürünüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Bilirubin, aşağıdaki moleküllerden hangisinin yıkımı sonucunda meydana gelir?",
+    "options": {
+      "A": "Steroid çekirdeği",
+      "B": "Pürin bazı",
+      "C": "Nikotinamid",
+      "D": "İndol halkası",
+      "E": "Hem halkası"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Steroid çekirdeği (YANLIŞ):** İnsanda halka yapısı yıkılamaz, safra asitleri olarak atılır.\n- **B) Pürin bazı (YANLIŞ):** Yıkım ürünü ürik asittir.\n- **C) Nikotinamid (YANLIŞ):** N1-metilnikotinamid olarak idrarla atılır.\n- **D) İndol halkası (YANLIŞ):** Triptofan yıkım yoludur.\n- **E) Hem halkası (DOĞRU):** Yaşlanmış eritrositlerin makrofajlarda yıkılmasıyla açığa çıkan **Hem (Protoporfirin IX)** halkası, Hem Oksijenaz ile Biliverdine, o da Biliverdin Redüktaz ile **Bilirubine** dönüştürülür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 DUS"
+  },
+  {
+    "question": "Hem molekülünün senteziyle ilgili hangisi yanlıştır?",
+    "options": {
+      "A": "Hem molekülünün tüm azot ve karbonları, glisin ve süksinil-KoA'dan sağlanır.",
+      "B": "İki molekül aminolevülinatın birleşmesiyle hidroksimetilbilan oluşur.",
+      "C": "Piridoksal fosfat, d-aminolevülinat sentazın koenzimidir.",
+      "D": "Koproporfirinogen III'ün dekarboksilasyonuyla protoporfirinogen IX oluşur.",
+      "E": "Hem demirinin oksidasyonu sonucunda hemin meydana gelir."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Hem molekülünün tüm azot ve karbonları, glisin ve süksinil-KoA'dan sağlanır (DOĞRU):** 8 Glisin + 8 Süksinil-KoA birleşir.\n- **B) İki molekül aminolevülinatın birleşmesiyle hidroksimetilbilan oluşur (YANLIŞ - CEVAP):** 2 molekül $\\delta$-aminolevülinatın (ALA) birleşmesiyle **Porfobilinojen (PBJ)** oluşur (Enzim: ALA dehidrataz). Hidroksimetilbilan ise **4 molekül Porfobilinojenin** birleşmesiyle (Enzim: Üroporfirinojen I sentaz / PBJ deaminaz) oluşur.\n- **C) Piridoksal fosfat, d-aminolevülinat sentazın koenzimidir (DOĞRU):** Mitokondriyal ALA sentaz B6 vitamini (PLP) kullanır.\n- **D) Koproporfirinogen III'ün dekarboksilasyonuyla protoporfirinogen IX oluşur (DOĞRU):** Enzim Koproporfirinojen oksidazdır.\n- **E) Hem demirinin oksidasyonu sonucunda hemin meydana gelir (DOĞRU):** $Fe^{2+}$ oksidasyonla $Fe^{3+}$ olunca Hemin/Hemin oluşur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Bir mol \"hem\" sentezi için kaç mol glisin gerekir?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "6",
+      "E": "8"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Hem biyosentezinin ilk basamağında 1 mol Glisin ile 1 mol Süksinil-KoA birleşerek 1 mol $\\delta$-ALA oluşturur.\n- 1 mol Porfobilinojen (PBJ) için 2 mol ALA (2 Glisin) gerekir.\n- 1 mol Hem molekülü 4 pirol halkasından (4 PBJ) oluştuğu için toplamda **8 mol Glisin ve 8 mol Süksinil-KoA** kullanılır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Porfirin biyosentezinde dört pirol halkasının birleşmesi ve siklizasyonuyla açığa çıkan ilk kapalı halkalı ara ürün aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Porfobilinojen",
+      "B": "Üroporfirinojen III",
+      "C": "Koproporfirinojen I",
+      "D": "Koproporfirinojen III",
+      "E": "Protoporfirinojen IX"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Porfobilinojen (YANLIŞ):** Tek pirol halkalı moleküldür (monopirol).\n- **B) Üroporfirinojen III (DOĞRU):** 4 adet Porfobilinojen önce lineer tetrapirol olan Hidroksimetilbilana çevrilir. Ardından **Üroporfirinojen III Kosentaz** enzimi ile halkanın çevrilip kapatılması sonucu oluşan **ilk siklik (halkalı) tetrapirol ara ürün Üroporfirinojen III**'tür.\n- **C, D, E (YANLIŞ):** Üroporfirinojen III'ten sonra oluşan ileriki basamak ürünleridir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Hangisinin eksikliği sonucu gaita ve eritrositte protoporfirin IX düzeyi artar?",
+    "options": {
+      "A": "ALA sentaz",
+      "B": "Ferroşelataz",
+      "C": "Üroporfirinojen dekarboksilaz",
+      "D": "Koproporfirinojen oksidaz",
+      "E": "ALA dehidrataz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) ALA sentaz (YANLIŞ):** Sideroblastik anemi yapar.\n- **B) Ferroşelataz (DOĞRU):** Mitokondriyal **Ferroşelataz** enzimi, Protoporfirin IX'a $Fe^{2+}$ ekleyerek Hem oluşturur. Ferroşelataz eksikliğinde (Eritropoietik Protoporfiriya - EPP) substratı olan **Protoporfirin IX kanda, eritrositlerde ve gaitada aşırı birikir**.\n- **C) Üroporfirinojen dekarboksilaz (YANLIŞ):** Porfiriya Kutanea Tarda yapar (idrarda üroporfirin artar).\n- **D) Koproporfirinojen oksidaz (YANLIŞ):** Herediter Koproporfiriya yapar.\n- **E) ALA dehidrataz (YANLIŞ):** İdrarda ALA artar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Ferroşelataz enziminin eksik olduğu porfiriya hastalığının tam adı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Porfiriya kutanea tarda",
+      "B": "Eritropoietik protoporfiriya",
+      "C": "Konjenital eritropoietik porfiriya",
+      "D": "Herediter koproporfiriya",
+      "E": "Variegate porfiriya"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Porfiriya kutanea tarda (YANLIŞ):** Üroporfirinojen dekarboksilaz eksikliğidir.\n- **B) Eritropoietik protoporfiriya (EPP) (DOĞRU):** Hem sentezinin son enzimi olan **Ferroşelataz** (Heme sentaz) eksikliği sonucu gelişen porfiriya tipidir. Ciltte şiddetli ağrılı fotosensitivite ve karaciğer fonksiyon bozukluğu ile karakterizedir.\n- **C) Konjenital eritropoietik porfiriya (Günther) (YANLIŞ):** Üroporfirinojen III kosentaz eksikliğidir.\n- **D) Herediter koproporfiriya (YANLIŞ):** Koproporfirinojen oksidaz eksikliğidir.\n- **E) Variegate porfiriya (YANLIŞ):** Protoporfirinojen oksidaz eksikliğidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar DUS"
+  },
+  {
+    "question": "Hem biyosentezinde enzim kusuruna bağlı olarak ortaya çıkan porfiriada hangisinde fotosensitivite yoktur?",
+    "options": {
+      "A": "Eritropoietik protoporfiriya",
+      "B": "Porfiriya kutanea tarda",
+      "C": "Konjenital eritropoietik porfiriya",
+      "D": "Akut intermittan porfiriya",
+      "E": "Variegate porfiriya"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- Porfiriada fotosensitivitenin (ışığa duyarlılık/cilt lezyonları) görülebilmesi için dokularda halkalı porfirinogen/porfirin birikmesi gerekir. Porfobilinojen (PBJ) ve ALA henüz halkanın oluşmadığı zincir formlar olduğu için **ışık hassasiyeti oluşturmazlar**.\n- **D) Akut intermittan porfiriya (AİP) (Cilt bulgusu YOKTUR - CEVAP):** Üroporfirinojen I sentaz (PBJ deaminaz) eksikliğidir. Biriken maddeler ALA ve Porfobilinojen (PBJ)'dir. Bu iki madde tetrapirol halkası içermediği için **AİP hastalarında FOTOSENSİTİVİTE / CİLT LEZYONLARI GÖRÜLMEZ** (Sadece şiddetli nöropsikiyatrik ataklar ve karın ağrısı görülür).\n- **A, B, C, E (FOTOSENSİTİVİTE VARDIR):** Halka yapılı porfirin biriktiği için güneş ışığında reaktif oksijen türleri üreterek ciltte ağrılı büller ve yanıklar oluştururlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Bilirubin metabolizması ile ilgili doğru sıralama hangisidir?\nI. Albümine bağlanarak taşınma\nII. Glutatyon-S transferaz ile bağlanma\nIII. Biliverdin redüktaz ile indirgenme\nIV. Hepatositlere alınma\nV. UDP-glukuronil transferaz ile konjugasyon",
+    "options": {
+      "A": "II-I-IV-III-V",
+      "B": "III-III-I-IV-V",
+      "C": "III-III-II-IV-V",
+      "D": "III-I-IV-II-V",
+      "E": "IV-V-II-I-III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\nBilirubin metabolizma adımlarının kronolojik sırası:\n1. **III. Biliverdin redüktaz ile indirgenme:** Makrofajda hem açıldıktan sonra oluşan yeşil biliverdin, NADPH kullanılarak indirgenip suda çözünmeyen indirekt bilirubine çevrilir.\n2. **I. Albümine bağlanarak taşınma:** İndirekt bilirubin plazmada Albümine kovalent olmayan bağlarla tutunup karaciğere taşınır.\n3. **IV. Hepatositlere alınma:** Bilirubin karaciğer bazolateral membranındaki taşıyıcılar (OATP1B1/OATP1B3) ile hepatosit içine girer.\n4. **II. Glutatyon-S transferaz (Ligandin) ile bağlanma:** Sitoplazmada çökelmeyi önlemek ve geri kaçışı engellemek için Ligandin (Glutatyon S-transferaz) ve Protein Z'ye bağlanır.\n5. **V. UDP-glukuronil transferaz ile konjugasyon:** Düz ER'de 2 molekül UDP-glukuronik asit eklenerek konjuge (direkt) bilirubine dönüştürülür.\nSıralama **III - I - IV - II - V** şeklindedir (D seçeneği).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "Karaciğer hücresine alınan bilirubinin bağlandığı sitoplazmik protein hangisidir?",
+    "options": {
+      "A": "Ubikitin",
+      "B": "Perilipin",
+      "C": "Albümin",
+      "D": "Karnitin",
+      "E": "Ligandin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Ubikitin (YANLIŞ):** Proteazomda yıkılacak proteinleri işaretleyen küçük proteindir.\n- **B) Perilipin (YANLIŞ):** Yağ dokusundaki TAG damlacıklarını kaplayan proteindir.\n- **C) Albümin (YANLIŞ):** Bilirubini kanda/plazmada taşıyan proteindir; hücre içi sitoplazmik protein değildir.\n- **D) Karnitin (YANLIŞ):** Yağ asidi taşıyıcısıdır.\n- **E) Ligandin (DOĞRU):** Karaciğer hücresine giren indirekt bilirubin, hepatosit sitozolünde **Ligandin (Glutatyon S-transferaz B)** ve **Protein Z** adlı sitoplazmik proteinlere bağlanır. Bu bağlanma bilirubinin tekrar kan dolaşımına geri kaçmasını engeller ve ER'deki konjugasyon alanına iletilmesini sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, indirekt bilirubinin konjugasyonunda kullanılır?",
+    "options": {
+      "A": "Stearik asit",
+      "B": "Propiyonik asit",
+      "C": "Glukonik asit",
+      "D": "Glukuronik asit",
+      "E": "Aspartik asit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Stearik asit (YANLIŞ):** 18 karbonlu doymuş yağ asididir.\n- **B) Propiyonik asit (YANLIŞ):** 3 karbonlu yağ asididir.\n- **C) Glukonik asit (YANLIŞ):** Glukozun C1 oksidasyon ürünüdür.\n- **D) Glukuronik asit (DOĞRU):** Karaciğer Düz Endoplazmik Retikulumunda, **UDP-Glukuronil Transferaz (UGT1A1)** enzimi kullanılarak indirekt bilirubinin propiyonik asit yan zincirlerine **2 molekül Glukuronik asit (UDP-glukuronik asit)** eklenir. Böylece polaritesi artan suda çözünür Direkt Bilirubin (Bilirubin diglukuronid) oluşturulur.\n- **E) Aspartik asit (YANLIŞ):** Aminoasittir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar DUS"
+  },
+  {
+    "question": "İnsan vücudunda karbonmonoksitin açığa çıktığı metabolik yol aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Karbonhidrat metabolizması",
+      "B": "Hem metabolizması",
+      "C": "Lipid metabolizması",
+      "D": "Nükleotid metabolizması",
+      "E": "Amino asit metabolizması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- İnsan vücudunda endojen olarak karbonmonoksit ($CO$) üreten **tek** fizyolojik tepkime **Hem katabolizması / metabolizmasıdır**.\n- Makrofajlarda **Hem Oksijenaz** enzimi, hem halkasını açarken $\\alpha$-metenil köprüsündeki karbonu **Karbonmonoksit ($CO$)** şeklinde serbest bırakır. Açığa çıkan endojen CO sinyal transdüksiyonunda ve vazodilatasyonda düzenleyici mesajcı molekül olarak görev yapar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin katalizlediği reaksiyonda karbonmonoksit çıkışı olur?",
+    "options": {
+      "A": "Biliverdin redüktaz",
+      "B": "Hem oksijenaz",
+      "C": "Beta glukuronidaz",
+      "D": "UDP-glukoz dehidrogenaz",
+      "E": "UDP-glukuroniltransferaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Biliverdin redüktaz (YANLIŞ):** Biliverdini bilirubine indirger (NADPH harcar, CO çıkmaz).\n- **B) Hem oksijenaz (DOĞRU):** Hız kısıtlayıcı hem yıkım enzimidir. NADPH ve $O_2$ kullanarak $Fe^{2+}$ demirini serbest bırakır, hem halkasını kırar; açığa **Biliverdin, $Fe^{3+}$ ve $CO$ (karbonmonoksit)** çıkar.\n- **C) Beta glukuronidaz (YANLIŞ):** Bağırsak bakterilerinin konjuge bilirubini dekonjuge ettiği enzimdir.\n- **D) UDP-glukoz dehidrogenaz (YANLIŞ):** UDP-glukozdan UDP-glukuronik asit sentezler.\n- **E) UDP-glukuroniltransferaz (YANLIŞ):** Bilirubini glukuronid ile konjuge eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "\"Hem\" yıkımı sırasında makrofajlarda oluşan, membrandan kolayca geçebilen ve sinyal transdüksiyonundan sorumlu olan mesajcı molekül hangisidir?",
+    "options": {
+      "A": "NADP",
+      "B": "Karbonmonoksit",
+      "C": "Fe2+",
+      "D": "Biliverdin",
+      "E": "Bilirubin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Karbonmonoksit (CO) (DOĞRU):** Hem oksijenaz reaksiyonu sonucu oluşan endojen CO, gaz yapıda olduğu için biyolojik membranlardan serbestçe difüze olur. Tıpkı Nitrik Oksit (NO) gibi cGMP düzeylerini artırarak nörotransmisyon, anti-inflamatuvar yanıt ve düz kas gevşemesinde ikinci mesajcı olarak işlev görür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Gözlerinde sararma ve halsizlik şikayetleri ile başvuran 23 yaşındaki kadın hastanın bir haftadır aralıklı açlık diyeti uyguladığı öğreniliyor... Laboratuvar sonuçlarında; açlık kan glukozu normal, açlık bilirubin sonuçlarında total bilirubin 2,5 mg/dL, direkt bilirubin 0,2 mg/dL (indirekt bilirubin yüksek), idrarda bilirubin negatif... Bu hastada bilirubin artışına yol açan enzim eksikliği hangisidir?",
+    "options": {
+      "A": "Spektrin",
+      "B": "Biliverdin redüktaz",
+      "C": "UDP-glukuroniltransferaz",
+      "D": "Glukoz-6-fosfat dehidrogenaz",
+      "E": "ABCC2 taşıyıcı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Klinik Değerlendirme:** Genç erişkinde stres, enfeksiyon veya **uzamış açlık** sonrasında ortaya çıkan, karaciğer enzimlerinin (ALT, AST) ve kan sayımının normal olduğu, idrarda bilirubinin bulunmadığı (çünkü indirekt bilirubin suda çözünmez, idrara geçmez) hafif **izole indirekt hiperbilirubinemi** tablosu **Gilbert Sendromu**dur.\n- **Enzim Defekti:** Gilbert sendromu, **UDP-glukuroniltransferaz (UGT1A1)** enzim aktivitesinin genetik promoter mutasyonu nedeniyle hafif düzeyde (yaklaşık %30 seviyesine) azalması sonucu oluşur. Benign seyirlidir. (Çok daha ağır olan formu Crigler-Najjar sendromudur).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi konjuge hiperbilirubinemi nedenlerinden biridir?",
+    "options": {
+      "A": "Crigler-Najjar sendromu tip I",
+      "B": "Hemolitik anemi",
+      "C": "Rotor sendromu",
+      "D": "Yenidoğanın fizyolojik sarılığı",
+      "E": "Gilbert sendromu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **İndirekt (Ankonjuge) Hiperbilirubinemi Nedenleri:** Hemolitik anemiler, Yenidoğan fizyolojik sarılığı, Gilbert sendromu, Crigler-Najjar sendromu Tip I ve Tip II.\n- **Direkt (Konjuge) Hiperbilirubinemi Nedenleri:**\n  1. Safra yolu tıkanıklıkları (Koledok taşı, Tümör, Kolanjit).\n  2. **Dubin-Johnson Sendromu:** Safra kanalı kanaliküler organik anyon taşıyıcısı ($ABCC2 / MRP2$) mutasyonu. Karaciğer siyah renklidir.\n  3. **Rotor Sendromu:** Karaciğerde konjuge bilirubinin depolanma ve kanda tekrar alım bozukluğudur ($OATP1B1 / OATP1B3$ eksikliği). Karaciğer rengi normaldir.\nBu nedenle Rotor sendromu konjuge (direkt) hiperbilirubinemi nedenidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Karaciğerde bilirubin metabolizmasında hangisinin doğrudan rolü yoktur?",
+    "options": {
+      "A": "Sitokrom P450",
+      "B": "Ligandin",
+      "C": "UTP",
+      "D": "Glukuronik asit",
+      "E": "Glukuronil transferaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Sitokrom P450 (ROLÜ YOKTUR - CEVAP):** Karaciğerde ilaç/ksenobiyotik faz I metabolizmasında ve kseroid/safra asidi sentezinde görev alır; bilirubinin karaciğerdeki alımı, konjugasyonu ve atılım süreçlerinde doğrudan görev yapmaz.\n- **B) Ligandin (ROLÜ VAR):** Indirekt bilirubini hepatosit sitozolünde bağlar.\n- **C) UTP (ROLÜ VAR):** Konjugasyonda kullanılan UDP-glukuronik asit sentezi için UTP harcanır.\n- **D) Glukuronik asit (ROLÜ VAR):** Indirekt bilirubine eklenen şeker türevidir.\n- **E) Glukuronil transferaz (ROLÜ VAR):** Bilirubini konjuge eden ER enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 5 - PROTEİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  }
+]

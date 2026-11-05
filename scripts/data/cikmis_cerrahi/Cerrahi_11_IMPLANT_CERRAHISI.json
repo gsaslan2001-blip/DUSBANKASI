@@ -1,0 +1,257 @@
+[
+  {
+    "question": "İmplant uygulamalarında kemik dansitesinin değerlendirilmesinde kullanılan D1, D2, D3 ve D4 sınıflamasına göre aşağıdakilerden hangisi söylenemez?",
+    "options": {
+      "A": "D1 kemik yüklemelere elverişlidir.",
+      "B": "D1 kemikte implant yerleştirirken soğutmaya daha fazla önem verilmelidir.",
+      "C": "Anterior mandibulada çoğunlukla D3 kemik mevcuttur.",
+      "D": "D4 kemikte mümkün olduğunca uzun ve geniş implant kullanılmalıdır.",
+      "E": "D4 kemik uzun dönem dişsiz kalmış posterior maksillada görülür. *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Söylenir):** D1 kemik neredeyse tamamen yoğun kortikal kemikten oluşur; mükemmel primer stabilite sağlar ve hemen (immediat) yüklemeye en elverişli kemiktir.\n  * **B şıkkı (Söylenir):** Yoğun korteks nedeniyle frezleme sırasında aşırı sürtünme ısısı açığa çıkar; 47 °C üzerindeki ısılarda osteosit nekrozu gelişeceğinden bol serumlu dış ve iç soğutma şarttır.\n  * **C şıkkı (Söylenemez / Doğru Cevap):** Anterior mandibula insan çenesinin en yoğun kemik bölgesidir ve çoğunlukla **D1 (veya D2)** kemik yapısındadır. İnce korteks ve gevşek trabekülden oluşan D3 kemik burada değil, ön maksillada ve posterior mandibulada izlenir.\n  * **D şıkkı (Söylenir):** D4 kemik çok ince korteks ve süngerimsi yumuşak trabeküllerden ibarettir; zayıf kemik-implant temas alanını artırmak için mümkün olan en geniş çaplı ve uzun implantlar seçilmelidir.\n  * **E şıkkı (Söylenir):** Posterior maksilla anatomik olarak sinüs pnömatizasyonu ve çiğneme kuvvetlerinin eksikliğiyle en gevşek (D4) kemik kalitesine sahiptir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "q_num": 67,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. D1 kemik immediat yüklemeler için güvenilir bir bölgedir.  \nII. Primer stabilitenin en iyi olduğu bölge D4 kemiktir.  \nIII. D2 ve D3 kemik implant yerleştirilmesi için kompozisyon açısından ideal bölgelerdir.  \nIV. D4 kemik uzun dönem dişsiz kalmış posterior mandibulada görülür.  \n**İmplant uygulamalarında kemik dansitesinin değerlendirilmesinde kullanılan sınıflamaya göre yukarıda verilenlerden hangisi ya da hangileri yanlıştır?**",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "Yalnız II",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "II ve IV (veya varyant) *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **I. öncül (Doğru):** D1 kemik yüksek mekanik tutuculuğuyla anında yüklemeye elverişlidir.\n  * **II. öncül (Yanlış):** Primer stabilitenin en yüksek olduğu kemik D1\\'dir; D4 kemik trabeküler yapısı zayıf olduğu için primer stabilitenin en zor elde edildiği kemiktir.\n  * **III. öncül (Doğru):** D2 ve D3 kemik hem yeterli kortikal kalınlığa hem de iyi kanlanan trabeküler iliğe sahip oldukları için osseointegrasyon başarısı en ideal kemik tipleridir.\n  * **IV. öncül (Yanlış):** D4 kemik posterior mandibulada değil, tipik olarak posterior maksillada görülür (mandibula posteriorunda çoğunlukla D2-D3 kemik bulunur).\n  * Yanlış olanlar **II ve IV** (D şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 68,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kemik yoğunluğu sınıflamasına göre aşağıdakilerden hangisinde ısı eliminasyonunda zorluk nedeniyle kemik nekrozlarına neden olur?",
+    "options": {
+      "A": "D1",
+      "B": "D2",
+      "C": "D3",
+      "D": "D4",
+      "E": "D5 *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (D1 Kemik / Doğru Cevap):** D1 kemik tamamen kompakt kortikal kemikten oluşur; vaskülarizasyonu düşüktür ve termal iletkenliği zayıftır. Frezleme esnasında oluşan aşırı friksiyonel ısının ortamdan uzaklaştırılması çok zordur; bu da termal osteonekroza ve implant başarısızlığına en sık yol açan kemik tipidir.\n  * **B, C, D şıkları:** Gözenekli trabeküler yapı ve medüller boşluklar arttıkça sürtünme azalır, kanlanma ve irrigasyonla ısının uzaklaştırılması kolaylaşır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 69,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çene kemikleri yoğunluklarına göre sınıflandırıldığında D4 yoğunluğuna sahip kemik çoğunlukla aşağıdaki bölgelerden hangisinde bulunur?",
+    "options": {
+      "A": "Mandibula posterior",
+      "B": "Maksilla posterior",
+      "C": "Maksilla anterior",
+      "D": "Mandibula anterior",
+      "E": "Mandibula ramus *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Mandibula posterior):** Genellikle D2 ve D3 kemik yapısındadır.\n  * **B şıkkı (Maksilla posterior / Doğru Cevap):** Maksiller sinüsün hemen altında yer alan tüber ve molar sahası, ince bir kabuk korteks altında geniş ilik boşluklu yumuşak trabeküller içerir (Misch D4 kemik prototipidir).\n  * **C şıkkı (Maksilla anterior):** Çoğunlukla D3 (bazen D2) kalitesindedir.\n  * **D ve E şıkları (Mandibula anterior ve ramus):** Neredeyse tamamen kortikal D1 veya kalın korteksli D2 kemiktir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 70,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Çok ince bir kortikal tabakaya sahiptir.  \nII. Çoğunlukla maksilla anterior bölgede görülür.  \nIII. İmplant osteotomisinde kemiğin sıkıştırılması yerine \"drillenmesi\" tercih edilir.  \nIV. Kalın implantlar tercih edilir.  \n**Yukarıdakilerden hangisi ya da hangileri D4 (Tip 4) kemik için doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve IV",
+      "E": "III ve IV *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **I. öncül (Doğru):** D4 kemiğin dış korteksi yumurta kabuğu gibi son derece incedir.\n  * **II. öncül (Yanlış):** Maksilla anteriorda değil, posterior maksillada görülür.\n  * **III. öncül (Yanlış):** D4 kemikte kemik talaşı kaldırarak lümeni boşaltan konvansiyonel frezleme yerine, trabekülleri yana doğru iterek kemik dansitesini artıran osteotomlarla kemik kondensasyonu (sıkıştırma) tercih edilir.\n  * **IV. öncül (Doğru):** Zayıf kemik desteğini kompanse etmek ve primer stabiliteyi yakalamak için geniş çaplı (kalın) ve olabildiğince uzun implantlar kullanılır.\n  * Doğru öncüller **I ve IV** (D şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 71,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kemiğin dansitesi  \nII. İmplantın geometrik formu  \nIII. Hastanın sigara içmesi  \nIV. Baş boyun radyoterapisi  \n**Yukarıdakilerden hangileri implantın primer stabilitesini etkiler?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "III ve IV",
+      "D": "I, II ve IV",
+      "E": "II, III ve IV *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **Primer Stabilite (Mekanik):** İmplantın yerleştirildiği anda kemiğe mekanik olarak kilitlenmesidir. Bunu doğrudan kemiğin kalitesi/dansitesi (I), implantın yiv ve konik geometrik dizaynı (II) ve cerrahın uyguladığı frezleme tekniği belirler.\n  * **Sekonder Stabilite (Biyolojik):** İmplant-kemik ara yüzeyinde hücresel kemik apozisyonu ve remodeling ile kazanılan biyolojik tutunmadır. Sigara kullanımı (III) ve radyoterapi (IV) kemik hücre canlılığını bozarak primer stabiliteyi değil, **sekonder (biyolojik) stabiliteyi ve osseointegrasyonu** olumsuz etkiler.\n  * Dolayısıyla primer stabiliteyi etkileyenler **I ve II** (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 72,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dental implant uygulamalarında posterior maksilla bölgesinde kullanılan ideal implantlarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İmplant boyutu doğal diş boyutuna uymalıdır.",
+      "B": "İmplant komşu dişten en az 1,5 mm uzak mesafede olmalıdır.",
+      "C": "Parafonksiyonel alışkanlıklar varlığında implant sayısı azaltılmalıdır.",
+      "D": "İmplant komşu implanttan en az 3 mm uzak mesafede olmalıdır.",
+      "E": "İmplant en az 4 mm çapında olmalıdır. *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D, E şıkları (Doğrudur):** Çiğneme kuvvetlerini dağıtmak için implant doğal molar diş hacmine yakın seçilmeli, marjinal kemik rezorpsiyonunu ve papil kaybını önlemek için diş-implant arası en az 1.5 mm, iki implant arası en az 3 mm bırakılmalı ve molar sahadaki D4 kemikte implant çapı en az 4 mm (idealde 5 mm) olmalıdır.\n  * **C şıkkı (Yanlıştır / Aranan Seçenek):** Bruksizm ve sıkma gibi parafonksiyonel alışkanlıklarda okluzal kuvvetler normalin katbekat üzerindedir. Bu aşırı yükleri yumuşak D4 kemiğe dağıtabilmek için implant sayısı azaltılmaz; tam aksine **implant sayısı artırılmalı** (örneğin tek molar eksikliğinde 2 adet implant planlanmalı) ve okluzal tabla daraltılmalıdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 73,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Posterior maksilla bölgesine dental implant uygulamaları ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Mandibulaya oranla daha problemlidir.",
+      "B": "Parafonksiyonel alışkanlıklar varlığında implant sayısı artırılmalıdır.",
+      "C": "Spongiyöz kemik miktarı fazla olduğu için primer stabilitenin sağlanması güçtür.",
+      "D": "Osteotom ile kemiğin drillenmesi yerine sıkıştırılması tercih edilir.",
+      "E": "Birinci ayda yükleme yapılabilir. *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C, D şıkları (Doğrudur):** Posterior maksillada D4 kemik mevcuttur, spongiyöz doku boldur, primer stabilite zordur, parafonksiyonda implant sayısı artırılmalıdır ve kemik kondensasyonu osteotomlarla sıkıştırılarak yapılır.\n  * **E şıkkı (Yanlıştır / Aranan Seçenek):** D4 kemikte primer mekanik tutuculuk düşüktür ve kemik trabeküllerinin olgun kemik dokusuna dönüşmesi uzun sürer. Bu bölgede birinci ayda erken/immediat yükleme yapılması mikromobiliteye ve fibröz kapsüllenmeyle implant kaybına yol açar. Posterior maksillada klasik bekleme süresi en az 4 ila 6 aydır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 74,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Flepsiz dental implant cerrahisi ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Uygulama öncesinde, ideal olarak volumetrik tomografi ile rezidüel kemik miktarı belirlenmelidir.",
+      "B": "İşlem sırasında önceden hazırlanan bir rehber modelle implant bölgeleri doğru belirlenmelidir.",
+      "C": "İşlem sırasında en uygun yaklaşım, kemik destekli rehber modellerle sağlanır.",
+      "D": "Konvansiyonel yöntemlere göre daha az invaziv ve kısa süreli bir uygulamadır.",
+      "E": "İşlem sonrasında hastada ağrı ve şişlik miktarı daha az olur. *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D, E şıkları (Doğrudur):** Flepsiz cerrahide kemik direkt görülmediği için 3 boyutlu CBCT zorunludur; cerrahi kılavuz plaklar (stentler) kullanılır; mukoperiosteal flep kaldırılmadığı ve periost kanlanması bozulmadığı için operasyon sonrası ağrı, ödem ve kanama minimum düzeydedir.\n  * **C şıkkı (Yanlıştır / Aranan Seçenek):** Kemik destekli rehber modellerin kemik yüzeyine tam adapte edilebilmesi için **geniş bir flep kaldırılması şarttır**. Flepsiz cerrahide flep açılmadığı için kemik destekli rehberler kullanılamaz; sadece **mukoza destekli** veya mevcut dişler üzerine oturan **diş destekli** cerrahi rehberler kullanılır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 75,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Rezidüel kret yüksekliğinin en az 4-5 mm olması  \nII. Bölgede kemik dansitesinin yeterli olması  \nIII. Maksiller sinüs içerisinde patoloji veya enfeksiyon bulunmaması  \nIV. Kret genişliğinin 6 mm'den fazla olması  \n**Yukarıdakilerden hangileri sinüs greftleme işlemiyle aynı seansda implant uygulaması yapılabilmesi için gereken ideal koşullardandır?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "I, II ve IV",
+      "E": "I, III ve IV *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Sinüs lifting ile **aynı seansta (immediat) implant** yerleştirebilmenin yegane teknik şartı **primer mekanik stabilite** elde edebilmektir.\n  * **I. öncül (Şarttır):** İmplantın apikal kısmı greft içinde kalırken boyun kısmının kemiğe kilitlenmesi için tabanda en az 4-5 mm rezidüel kemik yüksekliği gereklidir.\n  * **II. öncül (Şarttır):** Kemiğin süngerimsi yumuşak olmaması (dansitesinin yeterli olması) implantın rotasyonel stabilitesini sağlar.\n  * **IV. öncül (Şarttır):** Standart 4 mm çaplı bir implantın yerleştirilebilmesi ve çevresinde en az 1-1.5 mm kemik kalması için kret genişliğinin en az 6 mm olması şarttır.\n  * *(III. öncül operasyonun genel kontrendikasyon kriteridir; ancak aynı seans implantasyonun primer stabiliteye yönelik anatomik koşulları I, II ve IV'tür).*",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 85,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller sinüs ogmentasyonunda rezidüel kemik yüksekliği 1-3 mm olan atrofik bir krette aşağıdaki cerrahi yaklaşımlardan hangisi en uygundur?",
+    "options": {
+      "A": "Yalnızca krestal osteotom tekniği ve immediat implantasyon",
+      "B": "Lateral pencere tekniği ile greftleme ve 4-6 ay sonra gecikmiş implantasyon",
+      "C": "Kısa implant (4 mm) uygulaması",
+      "D": "Zigoma implantı uygulamadan implantasyondan vazgeçilmesi",
+      "E": "Yalnızca yumuşak doku ogmentasyonu *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Yanlış):** Krestal osteotom tekniği kapalı bir yöntemdir ve ancak tabanda en az 5-6 mm kemik olduğunda 2-3 mm ek yükseklik kazanmak için uygulanır; 1-3 mm kemikte uygulanamaz.\n  * **B şıkkı (Doğru Cevap):** Rezidüel kemik yüksekliği 4 mm'nin altında (1-3 mm) olduğunda primer stabilite sağlanamayacağı için **lateral pencere (açık sinüs lift)** tekniği ile sinüs boşluğu greftlenir; implantlar aynı seansta konmaz, greftin olgunlaşması için 4-6 ay beklenip iki aşamalı (gecikmiş) implantasyon yapılır.\n  * **C, D, E şıkları:** 1-3 mm kemikte standart kısa implant tutunamaz; kemik ogmentasyonu mümkünken protezden vazgeçilmez.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 86,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Greft kullanılabilme  \nII. Membran perforasyon riski  \nIII. Aynı seans implant yerleştirilebilme  \nIV. 1-2 mm vertikal kazanım sağlayabilme  \n**Yukarıda verilenlerden hangisi/hangileri krestal ve lateral sinüs lifting tekniklerinin her ikisi için de ortaktır?**",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "I, III ve IV",
+      "E": "Hepsi *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. Greft kullanımı:** Her iki teknikte de Schneider membranı altına otojen, allogreft veya ksenogreft yerleştirilebilir.\n  * **II. Membran perforasyonu:** Lateralde direkt görerek, krestalde ise körlemesine çalışıldığı için her iki yöntemde de en sık komplikasyon membran yırtılmasıdır.\n  * **III. Aynı seans implantasyon:** Rezidüel kemik primer stabiliteye izin veriyorsa her iki teknikte de implant eş zamanlı yerleştirilebilir.\n  * **IV. Vertikal kazanım:** Her iki yöntem de en az 1-2 mm vertikal kemik kazanımı sağlar (krestal 2-4 mm, lateral ise 8-10 mm'ye kadar artış sağlayabilir).\n  * Tüm maddeler ortak olduğu için doğru cevap **Hepsi** (E şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 87,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Rezidüel kret yüksekliği 4 mm'nin altındaysa lateral pencere tekniği kullanımı önerilir.  \nII. Krestal teknikte osteotomlar yardımıyla sinüs tabanı kırılarak membran eleve edilir.  \nIII. Lateral teknikte hazırlanan kemik pencere sinüs lümenine devrilebilir veya tamamen çıkarılabilir.  \nIV. Krestal teknik esnasında osteotom kullanımı operasyon sonrası benign paroksismal pozisyonel vertigoya (BPPV) yol açabilir.  \n**Maksiller sinüs tabanı ogmentasyonuyla ilgili yukarıdaki ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "I ve IV",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "III ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. öncül (Doğrudur):** Rezidüel kemik <4 mm ise kapalı teknik yetersiz kalır, direkt görüş sağlayan açık lateral pencere tekniği şarttır.\n  * **II. öncül (Doğrudur):** Krestal (Summers) teknikte frez ile sinüs tabanına 1 mm kala durulur ve kemik tavanı osteotom vuruşlarıyla \"yeşil ağaç\" kırığı oluşturularak yukarı itilir.\n  * **III. öncül (Doğrudur):** Lateral pencere hazırlanırken osteotomi hattı tamamlandıktan sonra kemik ada içeri doğru tavan gibi devrilebilir (hinge/trough tekniği) veya tamamen alınıp partiküle greft olarak kullanılabilir.\n  * **IV. öncül (Doğrudur):** Osteotom üzerine cerrahi çekiçle vurulması iç kulaktaki otolitleri yerinden oynatarak operasyon sonrası hastalarda baş dönmesi ve BPPV tablosuna yol açabilmektedir.\n  * Dört öncül de doğru olduğundan yanıt **E şıkkıdır**.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "q_num": 88,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller sinüs ogmentasyonunda lateral pencere osteotomisinde kemik pencerenin sınırları belirlenirken aşağıdaki anatomik yapılardan hangisine dikkat edilmesi gerekmez?",
+    "options": {
+      "A": "İnfraorbital foramen ve sinir",
+      "B": "Sinüs tabanı seviyesi",
+      "C": "Posterior superior alveolar arter kanalı",
+      "D": "Mandibular foramen",
+      "E": "Anterior sinüs duvarı açılanması *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Mandibular foramen alt çene ramusu iç yüzeyinde yer alır; maksiller sinüs cerrahisiyle hiçbir anatomik ilişkisi yoktur. İnfraorbital foramen üst sınırda, PSAA lateral kemik duvarı içinde, sinüs tabanı ise pencerenin alt sınırında doğrudan cerrahiyi ilgilendirir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 89,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Anterior superior alveoler arter  \nII. Middle superior alveoler arter  \nIII. Posterior superior alveoler arter  \nIV. Nazopalatin arter  \n**Açık sinüs lift operasyonu sırasında karşılaşılan intraoperatif kanama yukarıdaki damarlardan hangisi ya da hangilerinin bütünlüğünün bozulması ile gelişebilir?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve IV",
+      "E": "II, III ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Açık sinüs lift operasyonunda maksillanın anterolateral duvarına kemik pencere açılır.\n  * Bu lateral kemik duvarının içinden veya kemik zarı boyunca **arteria alveolaris superior posterior (PSAA)** ve mevcut olduğu olgularda **arteria alveolaris superior media (MSAA)** anastomoz dalları geçer.\n  * Frezleme sırasında bu arter dallarının kesilmesi şiddetli intraoperatif kanamalara ve görüş kaybına neden olur.\n  * Anterior dal ön bölgede, nazopalatin arter ise damaktadır. Doğru cevap **II ve III** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 90,
+    "unit": "11 İMPLANT CERRAHİSİ",
+    "quality_flag": "cikmis"
+  }
+]

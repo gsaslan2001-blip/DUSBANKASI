@@ -1,0 +1,36 @@
+[
+  {
+    "question": "Sabit bölümlü protezlerde; dayanak dişlerin kök yüzey alanının, gövde boşluğundaki eksik dişlerin kök yüzey alanına eşit veya daha büyük olması aşağıdakilerden hangisiyle tanımlanır?",
+    "options": {
+      "A": "Tylman kanunu",
+      "B": "Kuron-kök oranı",
+      "C": "Pier dayanak",
+      "D": "Ante kanunu",
+      "E": "Jepsen kanunu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Tylman kanunu (Yanlış):** Gövde esnemesi ve bükülme miktarıyla ilgili mekanik kuraldır.\n* **B) Kuron-kök oranı (Yanlış):** Dişin klinik kuron boyunun kemik içindeki kök boyuna oranıdır.\n* **C) Pier dayanak (Yanlış):** İki dişsiz boşluk arasındaki orta dayanak diştir.\n* **D) Ante kanunu (Doğru):** \"Gövde ile değiştirilecek kayıp dişlerin toplam kök yüzey alanı, dayanak dişlerin toplam kök yüzey alanına eşit veya ondan az olmalıdır\" kuralıdır.\n* **E) Jepsen kanunu (Yanlış):** Periodontal destek kaybı oranlarıyla ilgili spesifik kuraldır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2015 Orijinal",
+    "q_num": 236,
+    "unit": "08-Periodontal Olarak Zayıf Dişlerin Preparasyonu",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Doğal diş - implant bağlantısı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Doğal diş - implant bağlantısı tüm koşullarda kontrendikedir.",
+      "B": "Pier dayanak olarak doğal diş kullanıldığında her durumda periodontal splintleme amaçlanır.",
+      "C": "Doğal diş ile implantın esneklik (farklı rijitlik) modülleri birbirinden farklıdır; doğal dişte periodontal ligament varken implant kemiğe ankilozdur.",
+      "D": "Periodontal problemli dişleri splintlemenin en iyi yolu doğal diş-implant bağlantısıdır.",
+      "E": "Doğal diş ile implant her zaman rijit olarak bağlanmalıdır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Doğal diş ile implantın esneklik modülleri birbirinden farklıdır (Doğru):** Doğal diş periyodontal ligament sayesinde $28-100\\,\\mu\text{m}$ dikey esneme yaparken, implant kemiğe ankiloze olduğu için sadece $2-3\\,\\mu\text{m}$ esner. Bu biyomekanik davranış farkı bağlantıda önemli stresler yaratır.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 330,
+    "unit": "08-Periodontal Olarak Zayıf Dişlerin Preparasyonu",
+    "quality_flag": "cikmis"
+  }
+]

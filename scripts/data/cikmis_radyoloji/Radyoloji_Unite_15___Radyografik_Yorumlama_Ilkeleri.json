@@ -1,0 +1,359 @@
+[
+  {
+    "q_num": 102,
+    "question": "Karakteristik eğri ile ilgili aşağıdaki verilenlerden hangisi doğru değildir?",
+    "options": {
+      "A": "Penetrometre ile oluşturulur",
+      "B": "Film kontrastı hakkında bilgi verir",
+      "C": "Film hızı ile ilgili bilgi verir",
+      "D": "Işınlama süresinden etkilenmez",
+      "E": "Film latitütü ile ilgili bilgi verir"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Karakteristik eğri (Hurter-Driffield eğrisi), radyografik dansite ile ekspoz faktörleri (ışınlama süresi/dozu) arasındaki ilişkiyi gösteren grafiktir. Yatay eksende ışınlama süresi (veya ekspoz logaritması), dikey eksende ise filmin optik dansitesi yer alır; ışınlama süresi arttıkça dansite logaritmik bir artış gösterir. Dolayısıyla karakteristik eğrinin ışınlama süresinden etkilenmediği ifadesi yanlıştır.\n**Çeldiriciler:**\n- A) Karakteristik eğriyi oluşturmak ve farklı dansite basamaklarını elde etmek için alüminyum basamaklardan oluşan penetrometre (step-wedge) cihazları kullanılır.\n- B) Eğrinin düz kısmının eğimi (gamma açısı) filmin kontrastı hakkında doğrudan bilgi verir; eğim dikleştikçe kontrast artar.\n- C) Eğrinin yatay eksendeki konumu (belirli bir dansiteyi oluşturmak için gereken ekspoz miktarı) film hızı (duyarlılığı) hakkında bilgi verir.\n- E) Yararlı dansite aralığına karşılık gelen ekspoz aralığı, filmin latitütü (toleransı) hakkında geniş bilgi sunar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 117,
+    "question": "Destekleyici kemikle çevrili kök ve kron arasındaki bölge daha az oranda x-ışınlarını absorbe etmesi sonucu dişi çevreleyen radyolusent bir bant ya da mesial veya distal yüzeyde üçgen bir radyolusensi oluşumuna verilen ad aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Servikal burnout",
+      "B": "Optik illüzyon",
+      "C": "Mach band etkisi",
+      "D": "Yumurta kabuğu etkisi",
+      "E": "Topuk etkisi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dişin mineyle kaplı kuronu ile alveol kemiğiyle çevrili kökü arasında kalan servikal (kole) bölgesi, hem mine hem de kemik desteğinden yoksun olduğu için X-ışınlarını daha az absorbe eder. Bunun sonucunda radyografta dişin boyun kısmında çürükle karıştırılabilen kama veya üçgen şeklinde radyolusent bir alan izlenir; bu fenomene \"servikal burnout\" (kole yanığı) denir.\n**Çeldiriciler:**\n- B) Optik illüzyon, hatalı horizontal açılama sonucu aproksimal yüzeylerin birbiri üzerine süperpoze olması veya genel görsel yanılsama durumlarını ifade eder.\n- C) Mach band etkisi, farklı optik dansiteye sahip iki komşu alanın sınırında insan gözünün retina yapısından kaynaklanan, sınırda gerçekte olmayan koyu veya açık çizgi algılama yanılsamasıdır.\n- D) Yumurta kabuğu etkisi, eğimli kortikal kemik yüzeylerinin periferinden teğet geçen fotonların daha fazla atenüasyona uğrayarak iki boyutlu radyografta ince opak bir sınır (lamina dura vb.) oluşturmasıdır.\n- E) Topuk etkisi (Heel effect), açılı yerleştirilen anotta X-ışını yoğunluğunun anot tarafında katot tarafına göre daha az olmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 247,
+    "question": "Yavaş gelişen lezyonlarla ilgili aşağıda verilen özelliklerden hangisi doğru değildir?",
+    "options": {
+      "A": "Yavaş büyüyen lezyonlar dış kortikal kemikte yeni kemik oluşumu ve remodelasyona izin verirler",
+      "B": "Yavaş gelişen lezyonların baskısı ile anormal nörolojik belirtilerden daha çok anestezi görülür.",
+      "C": "Ekstraoral şişlik olan hastaların radyografilerinde kortikal kemik harabiyeti olmaksızın radyolusent lezyon varsa yavaş gelişen benign lezyonlar düşünülür.",
+      "D": "Radyolusent görüntü veren lezyonun dış kısmındaki mukoza ve deri incelenir ödem varsa yavaş gelişen lezyon düşünülmelidir.",
+      "E": "Radyolusent görüntü veren lezyonun dış kısmındaki mukoza ve deride ülserasyon varsa yavaş gelişen lezyon düşünülmelidir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Radyolusent görüntü veren bir kemik lezyonunun dış kısmındaki mukoza ve deride **ülserasyon** (doku bütünlüğünün bozulması ve invazyon) varsa bu durum yavaş gelişen benign bir lezyonu değil, korteksi perfore ederek yumuşak dokuyu infiltre eden **hızlı gelişen (malign/agresif) bir lezyonu** düşündürmelidir.\n**Çeldiriciler:**\n- **A) Yavaş büyüyen lezyonlar dış kortikal kemikte yeni kemik oluşumu ve remodelasyona izin verirler:** Yavaş büyüyen benign lezyonlar ve kistler korteksi yıkmadan periostun yeni kemik yapmasına fırsat tanıyarak kortikal ekspansiyona yol açarlar.\n- **B) Yavaş gelişen lezyonların baskısı ile anormal nörolojik belirtilerden daha çok anestezi görülür:** Yavaş büyüyen lezyonlar siniri invaze etmeyip uzun süreli mekanik bası oluşturduklarında ağrı/dizesteziden ziyade iletim bloğuna (his azalması/anestezi) yol açabilirler.\n- **C) Ekstraoral şişlik olan hastaların radyografilerinde kortikal kemik harabiyeti olmaksızın radyolusent lezyon varsa yavaş gelişen benign lezyonlar düşünülür:** Kortikal bütünlüğün korunarak kemiğin ekspansiyon göstermesi yavaş gelişen benign süreçlerin karakteristiğidir.\n- **D) Radyolusent görüntü veren lezyonun dış kısmındaki mukoza ve deri incelenir ödem varsa yavaş gelişen lezyon düşünülmelidir:** Ülserasyon olmaksızın sadece mukoza ve deride ödem/şişlik bulunması yavaş gelişen lezyonlarla uyumludur.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 248,
+    "question": "Maksiller molar bölgede diş ağrısıyla başvuran 23 yaşındaki erkek hastanın panoramik görüntüsünde; mandibular premolar alanda, periapikal bölgeden interradiküler bölgeye doğru girinti-çıkıntı yaparak uzanan, düzenli sınırlı, semptom vermeyen radyolusent görüntü saptanıyor. Klinisyen lezyona ulaştığında, kavitenin hemen hemen boş olduğunu görüyor. Bu lezyon için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Anevrizmal kemik kisti",
+      "B": "Basit kemik kisti",
+      "C": "Rezidüel kist",
+      "D": "Fokal osteoporotik kemik iliği defekti",
+      "E": "Stafne kemik kavitesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Basit (travmatik/hemorajik) kemik kisti; epitel döşemesi bulunmayan bir psödokisttir. Sıklıkla yaşamın 2. ve 3. dekatlarında, mandibulada görülür. Asemptomatiktir, diş kökleri arasına girinti-çıkıntı (skallop/festonlu sınır) yaparak uzanır ve cerrahi eksplorasyonda kavitenin boş veya az miktarda seröz/kanlı sıvı içerdiği görülür.\n**Çeldiriciler:**\n- A) Anevrizmal kemik kisti: Hızlı büyüyen, ağrılı/hassas şişlik yapan, balonlaşma tarzı ekspansiyon gösteren ve kavitesi kanla dolu reaktif bir lezyondur.\n- C) Rezidüel kist: Çekilmiş devital bir dişin ardından kalan, gerçek epitel döşemeli radiküler kisttir; dişsiz alanda yuvarlak/oval kortike radyolusensi verir.\n- D) Fokal osteoporotik kemik iliği defekti: Genellikle orta yaşlı kadınlarda mandibular posterior dişsiz alanlarda görülen, hematopoetik doku içeren radyolusensidir; kavite boş değildir.\n- E) Stafne kemik kavitesi: Mandibular kanalın altında, angulus-bazis arasında yerleşen, submandibular tükürük bezi depresyonuna bağlı gelişimsel konkavitedir; diş kökleri arasına uzanmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 249,
+    "question": "Basit kemik kisti için aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Genellikle 2. dekatta ve erkeklerde görülür.",
+      "B": "Çok ağrılı bir lezyondur.",
+      "C": "İçeriği boş veya sıvı dolu olabilir.",
+      "D": "Hemen hemen tüm lezyonlar mandibuladadır.",
+      "E": "Sekonder enfeksiyon yoksa, sıklıkla asemptomatiktirler."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Basit kemik kisti (travmatik kemik kisti), sekonder bir enfeksiyon gelişmediği sürece ağrısız ve asemptomatik seyreder; çoğunlukla rutin radyografik muayenede tesadüfen saptanır.\n**Çeldiriciler:**\n- A) Tek lezyonlar sıklıkla 2. dekatta (10-20 yaş arası) ve genç bireylerde tespit edilir.\n- C) Epitel içermeyen bu kavitelerin içi cerrahi olarak açıldığında genellikle boş ya da az miktarda seröz/seröhemorajik sıvı içeriklidir.\n- D) Çenelerdeki basit kemik kistlerinin tamamına yakını mandibulada (özellikle premolar-molar bölgede) yerleşir.\n- E) Klinik olarak şişlik veya ağrı oluşturmazlar; sekonder enfeksiyon olmadıkça asemptomatik seyirlidirler.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 250,
+    "question": "Aşağıdakilerden hangisi gerçek bir kisttir?",
+    "options": {
+      "A": "Stafne kemik kisti",
+      "B": "Rezidüel kist",
+      "C": "Travmatik kemik kisti",
+      "D": "Müköz retansiyon kisti",
+      "E": "Anevrizmal kemik kisti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Gerçek kistler, lümeni epitel ile döşeli patolojik kavitelerdir. Rezidüel kist, çekim sonrası kemik içinde kalan radiküler (periapikal) kist olup, Malassez epitel artıklarından köken alan çok katlı yassı epitel ile döşeli gerçek bir odontojenik kisttir.\n**Çeldiriciler:**\n- A) Stafne kemik kisti: Submandibular tükürük bezi lojuna ait anatomik bir kemik depresyonudur; epitel içermez, gerçek kist değildir.\n- C) Travmatik kemik kisti: Kemik içinde bağ dokusu ile çevrili fakat epitel döşemesi olmayan psödokisttir.\n- D) Müköz retansiyon kisti (psödokisti): Sinüs mukozası altında salgı birikimiyle oluşan, epitel ile çevrili olmayan yalancı kisttir.\n- E) Anevrizmal kemik kisti: Epitel içermeyen, fibröz bağ dokusu septaları ve kan dolu sinüzoidal boşluklardan oluşan reaktif kemik lezyonudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 253,
+    "question": "Aşağıdakilerden hangisi bifosfonat osteonekrozunun klinik ve radyolojik özelliklerinden biri değildir?",
+    "options": {
+      "A": "Sekestr",
+      "B": "Halitozis",
+      "C": "Periodontal aralıkta genişleme",
+      "D": "Diffüz radyolusent alan",
+      "E": "Lamina durada kayıp"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Bifosfonatlar osteoklast fonksiyonunu baskılayarak kemik rezorpsiyonunu engeller. Bu nedenle bifosfonat osteonekrozunda lamina dura kaybı değil, aksine lamina durada skleroz ve kalınlaşma izlenir.\n**Çeldiriciler:**\n- A) Sekestr: Kronikleşen osteonekroz olgularında nekrotik kemiğin sağlam kemikten ayrılmasıyla sekestr oluşumu görülür.\n- B) Halitozis: Ekspoze nekrotik kemiğin sekonder enfeksiyonu, mukoza ülserasyonu ve fistülleşmeye bağlı kötü ağız kokusu (halitozis) tipiktir.\n- C) Periodontal aralıkta genişleme: Lamina dura kalınlaşması ile birlikte periodontal ligament aralığında genişleme radyolojik bulgular arasındadır.\n- D) Diffüz radyolusent alan: Hastalık ilerledikçe osteolizise bağlı sınırları belirsiz (diffüz) radyolusent yıkım alanları ortaya çıkar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 254,
+    "question": "Otuz beş yaşındaki kadın hastanın mandibular sol 3. molar dişinde kronik perikoronitis tespit ediliyor. Hastadan alınan panoramik radyografi kesitinde ilgili dişin distal ve apikal komşuluğundaki kortikal sınırın dış yüzeyinde çizgisel radyoopak yeni kemik oluşumu izleniyor. Bu oluşum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Periost reaksiyonu",
+      "B": "Sekestr",
+      "C": "Fraktür hattı",
+      "D": "Kondensing osteitis",
+      "E": "Korteksin double imajı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kronik perikoronitis gibi enflamatuar uyaranların periostun iç (endosteal/osteojenik) yüzeyindeki osteoprojenitör hücreleri uyarması sonucu kortikal sınırın dış yüzeyinde oluşan tabakalı/çizgisel yeni kemik yapımına periost reaksiyonu denir.\n**Çeldiriciler:**\n- B) Sekestr: Nekrotik kemik parçasının çevresinde radyolusent bir sınırla ana kemikten ayrılmasıdır.\n- C) Fraktür hattı: Kemik bütünlüğünün ve kortikal devamlılığın radyolusent bir çizgiyle bozulmasıdır.\n- D) Kondensing osteitis: Kemiğin dış yüzeyinde değil, spongioz kemik içinde periapikal bölgede trabeküllerin kalınlaşmasıyla oluşan fokal sklerozdur.\n- E) Korteksin double imajı: Çekim sırasındaki hareket artefaktına bağlı olarak tüm anatomik yapıların çift sınırlı izlenmesidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 255,
+    "question": "Aşağıdakilerden hangisi kemiğin kortikal sınırının endosteal iç yüzeyinin kronik enflamasyon, kist veya tümör gibi uyaranlarla uyarılması sonucu radyograflarda kortikal sınırın dış yüzeyinde radyoopak olarak izlenmesini tanımlar?",
+    "options": {
+      "A": "Periost reaksiyonu",
+      "B": "Enostozis",
+      "C": "Kondensing osteitis",
+      "D": "Ekzostoz",
+      "E": "Sekestr"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kemiğin kortikal tabakasını çevreleyen periostun osteojenik tabakasının kronik inflamasyon, travma, kist veya tümör gibi süreçlerle uyarılması sonucunda kortikal sınırın dış yüzeyinde radyoopak yeni kemik katmanları oluşması periost reaksiyonu olarak tanımlanır.\n**Çeldiriciler:**\n- B) Enostozis: Spongioz (medüller) kemik içerisinde gelişen, inflamasyonla ilişkisi olmayan idiyopatik kompakt kemik adasıdır.\n- C) Kondensing osteitis: Kronik pulpal/periapikal inflamasyona bağlı olarak medüller kemik içindeki trabeküllerin kalınlaşmasıdır.\n- D) Ekzostoz: Kemiğin dış yüzeyinde gelişen, reaktif inflamatuar süreçten ziyade gelişimsel/fonksiyonel karakterli lokalize lobüle kemik büyümeleridir (torus vb.).\n- E) Sekestr: Canlılığını yitirmiş nekrotik kemik dokusunun sağlam kemikten ayrılmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 258,
+    "question": "I. Radyolüsent alanın merkezinde radyoopasiteler izlenir.\nII. Çenede en az iki kadranda izlenir.\nIII. Perikoronal yerleşim gösterir.\nIV. İlgili dişler devitaldir.\n\nFlorid semento-osseöz displazi ile ilgili yukarıda verilenlerden hangisi veya hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve III",
+      "C": "II ve IV",
+      "D": "III ve IV",
+      "E": "I ve II"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** I ve II numaralı öncüller doğrudur.\n- I. Doğru: Olgunlaşma sürecinde düzenli radyolusent alanın (yumuşak doku kapsülü) merkezinde sement benzeri pamuksu/lobüler radyoopasiteler oluşur.\n- II. Doğru: Bilateral ve simetrik olarak en az iki (sıklıkla 3 veya 4) kadranda yerleşim gösterir.\n- III. Yanlış: Perikoronal değil, diş köklerinin apeksleriyle ilişkili (periapikal) ve mandibular kanalın üzerinde yerleşim gösterir.\n- IV. Yanlış: Lezyonla ilişkili dişler vitaldir.\n**Çeldiriciler:**\n- A) II. öncül de doğru olduğu için eksiktir.\n- B) III. öncül yanlıştır.\n- C) IV. öncül yanlıştır.\n- D) III. ve IV. öncüller yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 260,
+    "question": "Kısa sürede gelişmiş, yüzey düzgünlüğü bozulmamış, hem serbest hem de yapışık diş etini kapsayan hacim artışı, ağrı ve bu alandaki dişlerde lüksasyonun izlendiği bir hastanın boyun muayenesinde, lenfadenopati (+++) saptanıyor. Şiddetli gece terlemesi olan hastada hızlı kilo kaybı olduğu öğreniliyor ve ateş 38 °C'nin üzerinde tespit ediliyor. Radyolojik incelemede baş-boyun bölgesinde lenfadenopatiler dışında kitle lezyonu saptanmıyor. Diş eti mukozasından tanısal amaçlı biyopsi alınmasına karar veriliyor. Histopatolojik incelemede mukoza altında diffüz olarak dağılan monoton görünümlü ve immünohistokimyasal olarak CD20 eksprese eden hücrelerin yoğun olarak yer tuttuğu görülüyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Anjiyosarkom",
+      "B": "Ewing sarkomu",
+      "C": "Osteosarkom",
+      "D": "Multipl miyelom",
+      "E": "Non-Hodgkin lenfoma"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Gece terlemesi, 38 °C üzeri ateş ve hızlı kilo kaybı (\"B semptomları\"), belirgin servikal lenfadenopati, kemikte solid bir kitle oluşturmaksızın yumuşak doku/diş eti infiltrasyonu ve B-lenfosit belirteci olan CD20 pozitif monoton hücre proliferasyonu Non-Hodgkin lenfoma (B hücreli) tanısını koydurur.\n**Çeldiriciler:**\n- A) Anjiyosarkom: Endotel hücre kökenli vasküler malignitedir; CD31/CD34 pozitiftir, CD20 eksprese etmez.\n- B) Ewing sarkomu: Kemikte solid yıkım ve soğan kabuğu periost reaksiyonu yapan, CD99 pozitif küçük yuvarlak hücreli tümördür.\n- C) Osteosarkom: Kemik içinde radyoopak/mikst kitle ve güneş ışını periost reaksiyonu oluşturan, osteoid üreten mezenşimal malignitedir.\n- D) Multipl miyelom: Plazma hücrelerinin malignitesidir; zımba deliği osteolitik kemik lezyonları yapar ve tipik olarak CD138/CD38 pozitiftir, klasik CD20 ekspresyonu beklenmez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 261,
+    "question": "Aşağıdaki patolojilerden hangisi gerçek bir solid kitle oluşturmadan, sadece lenf nodu tutulumu ile seyredebilir?",
+    "options": {
+      "A": "Skuamöz hücreli karsinom",
+      "B": "Burkitt lenfoma",
+      "C": "Santral mukoepidermoid karsinoma",
+      "D": "Multiple myeloma",
+      "E": "Non-hodgkin lenfoma"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Non-Hodgkin lenfoma, lenforetiküler sistemin malignitesi olup vücutta veya çenelerde primer bir solid kemik/organ kitlesi oluşturmaksızın yalnızca patolojik lenfadenopati (lenf nodu tutulumu) ve diffüz mukoza/lenfoid infiltrasyon ile seyredebilir.\n**Çeldiriciler:**\n- A) Skuamöz hücreli karsinom: Epitelyal kökenli olup primer bölgede ülsere-vejetan solid kitle ve kemik invazyonu oluşturur.\n- B) Burkitt lenfoma: Çenelerde hızla büyüyen, dişleri deplase eden agresif solid tümör kitleleri ile karakterizedir.\n- C) Santral mukoepidermoid karsinoma: Çene kemiği içinde multiloküler/uniloküler ekspansif solid-kistik tümöral kitle oluşturur.\n- D) Multiple myeloma: Kemik iliğinde plazma hücre proliferasyonu ile multipl litik kemik defektleri veya plazmasitom kitlesi yapar; primer lenf nodu hastalığı değildir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 262,
+    "question": "Altmış iki yaşındaki erkek hasta kliniğe üst total protezinin tutuculuğunun bozulması şikâyeti ile başvuruyor. Hastanın alınan anamnezinde ağrı şikâyetinin olmadığı, halsizlik, son zamanlarda kilo kaybı, gece terlemesi olduğunu belirtiyor. Boyun bölgesinde lenfadenopati belirlenen hastadan alınan ağız içi muayenede palatal bölgede ülsere-nekrotik şişlik ve koronal kesit Konik Işınlı Bilgisayarlı Tomografi (KIBT) görüntüsünde maksiller sinüs tabanı ile sert damakta geniş kemik yıkımı izleniyor. Hastanın rahatsızlığının en olası nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Protez stomatiti",
+      "B": "Multiple myeloma",
+      "C": "Osteosarkom",
+      "D": "Epulis fissuratum",
+      "E": "Non-hodgkin lenfoma"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** İleri yaş hastada kilo kaybı, gece terlemesi ve halsizlik (B semptomları), boyunda ağrısız lenfadenopati ve sert damak/maksiller sinüs bölgesinde protez uyumunu bozan ekspansif-ülseronekrotik yumuşak doku kitlesi ile kemik yıkımı (oranazal/orosantral defekt) ekstranodal Non-Hodgkin lenfoma için tipiktir.\n**Çeldiriciler:**\n- A) Protez stomatiti: Palatal mukozada sınırlı eritematöz kandidal lezyondur; kemik yıkımı, lenfadenopati veya B semptomları yapmaz.\n- B) Multiple myeloma: Zımba deliği tarzında kemik yıkımları, kemik ağrısı ve Bence-Jones proteinürisi ile seyreder; palatal yumuşak doku kitlesi ve lenfadenopati ön planda değildir.\n- C) Osteosarkom: Genellikle mandibulada ağrılı şişlik, tümöral yeni kemik yapımı ve güneş ışını periost reaksiyonu ile seyreder; lenfadenopati ve B semptomları beklenmez.\n- D) Epulis fissuratum: Protez kenar vuruklarına bağlı gelişen benign fibröz hiperplazidir; kemik yıkımı ve sistemik semptom oluşturmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 263,
+    "question": "Temporomandibular eklem boşluğuna kontrast radyoopak ajanın enjekte edilmesiyle uygulanan, eklem içindeki fibröz adezyonların ve perforasyonların saptanmasında kullanılan görüntüleme yöntemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Transkraniyal projeksiyon",
+      "B": "Artrografi",
+      "C": "Reverse-Towne projeksiyon",
+      "D": "Lateral oblik projeksiyon",
+      "E": "Transfarengeal projeksiyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Artrografi, alt ve/veya üst temporomandibular eklem boşluklarına radyoopak kontrast madde enjekte edilerek yapılan invaziv görüntüleme yöntemidir; kontrast maddenin bir boşluktan diğerine geçişi ile disk perforasyonları ve akış kısıtlılığı ile fibröz adezyonlar saptanır.\n**Çeldiriciler:**\n- A) Transkraniyal projeksiyon: Kontrast madde kullanılmadan kondil başının lateral kutbunu ve kemik yüzeylerini gösteren konvansiyonel radyografidir.\n- C) Reverse-Towne projeksiyon: Kondil boynu kırıklarını ve kondil başlarını frontal düzlemde değerlendiren kontrastsız düz radyografidir.\n- D) Lateral oblik projeksiyon: Mandibula ramus ve korpusunu değerlendiren ekstraoral kontrastsız projeksiyondur.\n- E) Transfarengeal projeksiyon (Parma): Ağız açıkken kondil başının sagittal görüntüsünü veren, kontrast madde kullanılmayan konvansiyonel tekniktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 264,
+    "question": "Aşağıdaki görüntüleme tekniklerinden hangisi invaziv olarak kabul edilir?",
+    "options": {
+      "A": "Konik ışınlı bilgisayarlı tomografi",
+      "B": "Artrografi",
+      "C": "Manyetik rezonans görüntüleme",
+      "D": "Ultrasonografi",
+      "E": "Panoramik radyografi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** İnvaziv görüntüleme teknikleri, hastaya girişimsel bir işlem (enjeksiyon, kateterizasyon vb.) uygulanmasını gerektiren yöntemlerdir. Artrografide eklem kapsülü içerisine iğne ile girilerek kontrast madde enjekte edildiği için invaziv bir yöntemdir.\n**Çeldiriciler:**\n- A) Konik ışınlı bilgisayarlı tomografi (KIBT): Herhangi bir girişimsel enjeksiyon yapılmadan X-ışını ile 3 boyutlu kemik görüntülemesi sağlayan non-invaziv tekniktir.\n- C) Manyetik rezonans görüntüleme: Standart çekimde manyetik alan ve radyo dalgaları kullanan non-invaziv yumuşak doku görüntüleme yöntemidir.\n- D) Ultrasonografi: Yüksek frekanslı ses dalgaları ile yüzeyel yumuşak dokuları görüntüleyen non-invaziv yöntemdir.\n- E) Panoramik radyografi: Çenelerin 2 boyutlu genel görüntüsünü sağlayan non-invaziv konvansiyonel radyografidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 265,
+    "question": "I. Sialografi\nII. Artrografi\nIII. Anjiyografi\nIV. Bilgisayarlı tomografi (BT)\nV. Manyetik rezonans görüntüleme (MRG)\n\nAşağıdaki görüntüleme yöntemlerinden hangisi veya hangilerinde kontrast madde kullanılabilir?",
+    "options": {
+      "A": "I, II, III",
+      "B": "I, II, III, IV ve V",
+      "C": "IV ve V",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Verilen tüm görüntüleme yöntemlerinde (I, II, III, IV ve V) kontrast madde kullanılabilir.\n- I. Doğru: Sialografide tükürük bezi kanallarına iyotlu kontrast madde verilerek duktal sistem görüntülenir.\n- II. Doğru: Artrografide eklem boşluklarına kontrast madde enjekte edilerek disk ve kapsül değerlendirilir.\n- III. Doğru: Anjiyografide damar içine kontrast madde verilerek vasküler lümen görüntülenir.\n- IV. Doğru: Bilgisayarlı tomografide vasküler yapıları ve yumuşak doku patolojilerini ayırt etmek için intravenöz iyotlu kontrast madde kullanılabilir.\n- V. Doğru: MRG çekimlerinde lezyon kanlanmasını ve inflamasyonu değerlendirmek amacıyla gadolinyum içerikli kontrast maddeler kullanılabilir.\n**Çeldiriciler:**\n- A) IV ve V numaralı yöntemlerde de kontrastlı çekim yapılabildiği için eksiktir.\n- C) I, II ve III numaralı yöntemler zaten zorunlu olarak kontrast madde ile yapılır.\n- D) Diğer dört yöntemde de kontrast madde kullanılır.\n- E) Diğer dört yöntemde de kontrast madde kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 268,
+    "question": "Aşağıdaki rahatsızlıklardan hangisinde kas ve kemik ağrısı görülmez?",
+    "options": {
+      "A": "Hipertiroidi",
+      "B": "Talasemi",
+      "C": "Lösemi",
+      "D": "Osteomalazi",
+      "E": "Orak hücreli anemi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Hipertiroidide bazal metabolizma hızında artış, taşikardi, kilo kaybı, terleme ve dişlerde erken sürme görülür; doğrudan kas ve kemik ağrısı karakteristik bir bulgu değildir.\n**Çeldiriciler:**\n- B) Talasemi: Şiddetli eritroid hiperplaziye bağlı kemik iliği genişlemesi kemik ve kas ağrılarına neden olur.\n- C) Lösemi: Malign hematopoetik hücrelerin kemik iliğini infiltre edip genişletmesi sonucunda belirgin kemik ve eklem/kas ağrıları görülür.\n- D) Osteomalazi: Kemik mineralizasyonunun bozulması ve kalsiyum eksikliği yaygın kemik ağrısı ve proksimal kas güçsüzlüğü/ağrısı yapar.\n- E) Orak hücreli anemi: Vazo-oklüziv krizler ve kemik iliği enfarktları şiddetli kemik ve kas ağrılarına yol açar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 272,
+    "question": "Yirmi yaşındaki kadın hastanın radyolojik incelemesinde, maksiller kanin bölgesinde, içinde küçük radyoopak odak bulunan, belirgin sınırlı ve ekspansif radyolusent lezyon tesadüfi olarak saptanıyor. Klinik muayenede, lezyon bölgesindeki dişlerin vitalite bulguları pozitif olup hastada ağrı olmadığı belirleniyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Adenomatoid odontojenik tümör",
+      "B": "Radiküler kist",
+      "C": "Anevrizmal kemik kisti",
+      "D": "Osteoid osteom",
+      "E": "Kompound odontom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Adenomatoid odontojenik tümör (AOT); sıklıkla 2. dekatta genç kadınlarda, maksilla anterior (özellikle kanin) bölgede görülen, gömülü dişi kron ve kökün bir kısmıyla birlikte içine alan, iyi sınırlı, ağrısız ve merkezinde kar tanesi/küçük kalsifiye radyoopak odaklar barındıran mikst bir tümördür (\"2/3 tümörü\").\n**Çeldiriciler:**\n- B) Radiküler kist: Devital dişin apeksinde gelişir ve tamamen radyolusenttir; soruda dişlerin vital olduğu ve lezyonun radyoopak odak içerdiği belirtilmiştir.\n- C) Anevrizmal kemik kisti: Çenelerin posteriorunda (özellikle mandibulada) yerleşir, ağrılı/hassas şişlik yapar ve kalsifiye odak içermez.\n- D) Osteoid osteom: Genç erkeklerde, özellikle gece artan ve asetilsalisilik asitle (aspirin) geçen şiddetli ağrı ile karakterize, radyoopak niduslu kemik tümörüdür.\n- E) Kompound odontom: Radyolusent bir kapsül içinde çok sayıda küçük diş benzeri (dentikül) yoğun radyoopak yapılar içerir; geniş radyolusent kistik görünümde değildir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 273,
+    "question": "Aşağıda adenomatoid odontojenik tümör ile ilgili verilen özelliklerden hangisi doğru değildir?",
+    "options": {
+      "A": "Sıklıkla periradiküler yerleşir.",
+      "B": "Sıklıkla maksilla premolar bölgede izlenir.",
+      "C": "Kortikal ekspansiyon yapar.",
+      "D": "Epitelyal benign bir tümördür.",
+      "E": "Kalsifiye odakları lezyon merkezinde konumlanır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Adenomatoid odontojenik tümör (AOT) periradiküler (apikal) değil, çoğunlukla gömülü bir dişle (özellikle üst kanin) ilişkili olarak perikoronal yerleşim gösterir. Dentigeröz kistten farklı olarak mine-sement sınırında durmaz, apikale uzanarak dişin hem kronunu hem de kökünün bir kısmını içine alır.\n**Çeldiriciler:**\n- B) Vakaların yaklaşık %75'i maksillada, kesici-kanin-premolar bölgede izlenir.\n- C) Yavaş büyüyerek kortikal kemikte ekspansiyona ve fasiyal asimetriye neden olur.\n- D) Odontojenik epitel kaynaklı benign bir tümördür.\n- E) Vakaların üçte ikisinde lezyonun merkezinde küçük radyoopak kalsifikasyon odakları bulunur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 274,
+    "question": "Aşağıdaki patolojilerden hangisinin maksillada gelişme ihtimali diğer seçenektekilerden daha fazladır?",
+    "options": {
+      "A": "Adenomatoid odontojenik tümör",
+      "B": "Glandular odontojenik kist",
+      "C": "Lateral periodontal kist",
+      "D": "Ossifying fibroma",
+      "E": "Odontojenik miksoma"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Adenomatoid odontojenik tümörlerin yaklaşık %75'i maksillada (özellikle anterior kesici-kanin-premolar bölgede) gelişir.\n**Çeldiriciler:**\n- B) Glandular odontojenik kist: Sıklıkla mandibula anterior bölgede gelişen, orta hattı geçebilen agresif kisttir.\n- C) Lateral periodontal kist: En sık mandibula kanin-premolar bölgede köklerin lateral yüzeyinde izlenir.\n- D) Ossifying fibroma: Çenelerde çoğunlukla (%70-80) mandibula premolar-molar bölgede görülür.\n- E) Odontojenik miksoma: Mandibulayı maksillaya göre 3 kat daha sık tutar (özellikle mandibular premolar-molar bölge).\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 275,
+    "question": "Alt çene premolar dişlerin kökleri arasında yerleşimli, yuvarlak ve düzgün kortike sınırlı uniloküler radyolusent lezyon, klinik olarak asemptomatik izlenmektedir ve ilgili dişlerin vital olduğu tespit edilmiştir. Bu lezyon için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Basit kemik kisti",
+      "B": "Skuamöz hücreli karsinom",
+      "C": "Lateral periodontal kist",
+      "D": "Santral dev hücreli granülom",
+      "E": "Radiküler kist"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Lateral periodontal kist; gelişimsel odontojenik bir kist olup en sık mandibular kanin-premolar bölgede, vital dişlerin kökleri arasında (interradiküler/lateral), asemptomatik, yuvarlak veya damla şeklinde, iyi sınırlı ve kortike uniloküler radyolusensi olarak izlenir.\n**Çeldiriciler:**\n- A) Basit kemik kisti: Genellikle daha geniş boyutlu olup kökler arasına skallop (girintili-çıkıntılı) uzanım gösterir; keskin yuvarlak kortike kist görünümü vermez.\n- B) Skuamöz hücreli karsinom: Kemikte güve yeniği tarzında düzensiz, kötü sınırlı, kortikasyonu olmayan osteolitik yıkım yapar.\n- D) Santral dev hücreli granülom: Genellikle kaba ve silik septalar içeren multiloküler radyolusensi verir, kortike sınırı yoktur ve ekspansiyon yapar.\n- E) Radiküler kist: Lateral radiküler kist de benzer konumda olabilir ancak mutlaka devital bir dişle ilişkilidir; soruda ilgili dişlerin vital olduğu belirtilmiştir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 15 - Radyografik Yorumlama İlkeleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

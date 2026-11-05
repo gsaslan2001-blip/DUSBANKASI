@@ -25,7 +25,8 @@ const DailyPlanView = lazy(() => import('./components/DailyPlanView'));
 const SourceBooksView = lazy(() => import('./components/SourceBooksView').then(m => ({ default: m.SourceBooksView })));
 const AddQuestionView = lazy(() => import('./components/admin/AddQuestionView').then(m => ({ default: m.AddQuestionView })));
 const CikmisSelectionView = lazy(() => import('./components/sections/CikmisSelectionView').then(m => ({ default: m.CikmisSelectionView })));
-import { isCikmisQuestion } from './config/canonicalUnits';
+import { isCikmisQuestion, CANONICAL_UNITS, CANONICAL_LESSONS } from './config/canonicalUnits';
+import { DUS_EXAM_DATE } from './lib/projections';
 import { buildSmartQueue, buildUnitQueue, buildExamPool, buildSimulationPool } from './lib/adaptive';
 import {
   CheckCircle, XCircle, ArrowRight, ArrowLeft, ArrowCounterClockwise, BookOpen,
@@ -78,7 +79,7 @@ function CountdownWidget() {
   const [isExamDay, setIsExamDay] = useState(false);
 
   useEffect(() => {
-    const EXAM_DATE = '2026-11-01';
+    const EXAM_DATE = DUS_EXAM_DATE;
     const TARGET = new Date(`${EXAM_DATE}T00:00:00`).getTime();
     const calc = () => {
       const today = new Date().toISOString().slice(0, 10);
@@ -594,9 +595,14 @@ export default function App() {
   };
 
   const EXCLUDED_LESSONS = new Set(['ÇIKMIŞ SORULAR', 'Pedodonti Cikmis', 'Yanlışlarım']);
-  const availableLessons = Array.from(new Set(questions.filter((q) => !EXCLUDED_LESSONS.has(q.lesson)).map((q) => q.lesson))).sort(compareByCurriculumOrder);
+  const questionLessons = questions.filter((q) => !EXCLUDED_LESSONS.has(q.lesson)).map((q) => q.lesson);
+  const availableLessons = Array.from(new Set([...CANONICAL_LESSONS, ...questionLessons]))
+    .filter((l) => !EXCLUDED_LESSONS.has(l))
+    .sort(compareByCurriculumOrder);
   const cikmisCount = questions.filter(isCikmisQuestion).length;
-  const unitsForLesson = Array.from(new Set(questions.filter((q) => q.lesson === selectedLesson).map((q) => q.unit)));
+  const canonicalUnitsForLesson = CANONICAL_UNITS[selectedLesson] || [];
+  const questionUnitsForLesson = Array.from(new Set(questions.filter((q) => q.lesson === selectedLesson).map((q) => q.unit)));
+  const unitsForLesson = Array.from(new Set([...canonicalUnitsForLesson, ...questionUnitsForLesson]));
   const selectedUnitSkeletons = appState === 'select-unit-amount'
     ? questions.filter((question) => question.lesson === selectedLesson && question.unit === selectedUnit)
     : [];
@@ -608,6 +614,11 @@ export default function App() {
 
   const handleLessonSelect = (lesson: string) => { setSelectedLesson(lesson); setAppState('select-unit'); };
   const handleUnitSelect = (unit: string) => {
+    const unitCount = questions.filter((q) => q.lesson === selectedLesson && q.unit === unit).length;
+    if (unitCount === 0) {
+      toast.info(`"${unit}" ünitesinde henüz soru bulunmuyor. Yeni sorular yakında eklenecektir.`);
+      return;
+    }
     setSelectedUnit(unit);
     setAppState('select-unit-amount');
   };

@@ -1,0 +1,1311 @@
+[
+  {
+    "q_num": 61,
+    "question": "*(Görsel: Osteoblast ve prematür osteoklast arasındaki RANK / RANKL / OPG etkileşimini ve aktif osteoklasta diferansiyasyonu gösteren şema. Osteoblast üzerindeki molekül \"I\", prematür osteoklast üzerindeki reseptör \"II\", \"I\" numaralı moleküle bağlanarak inhibe eden çözünür molekül \"III\" olarak işaretlenmiştir.)*\n**Periodontal hastalıklarda kemik yapım yıkım dengesinde önemli rol oynayan rank/rankl/opg nin doğru eşleştirmesi aşağıdakilerden hangisidir?**",
+    "options": {
+      "A": "RANK — RANKL — Osteoprogerin",
+      "B": "RANKL — Osteoprogerin — RANK",
+      "C": "Osteoprogerin — RANK — RANKL",
+      "D": "RANK — Osteoprogerin — RANKL",
+      "E": "RANKL — RANK — Osteoprogerin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Şemadaki mekanizma incelendiğinde:\n* **I (RANKL):** Osteoblastların (ve stromal hücrelerin/lenfositlerin) yüzeyinde eksprese edilen veya salgıladıkları ligand **RANKL**'dır.\n* **II (RANK):** Prematür (öncül) osteoklastların yüzeyinde bulunan reseptör **RANK**'tır. RANKL, RANK ile birleşerek osteoklastların farklılaşmasını ve aktifleşmesini (kemik rezorpsiyonunu) sağlar.\n* **III (Osteoprotegerin - OPG):** Osteoblastlar tarafından salgılanan tuzak reseptör **Osteoprotegerin (OPG)** ise RANKL'a bağlanarak onun RANK ile birleşmesini bloke eder ve osteoklast farklılaşmasını inhibe eder.\nDoğru eşleştirme: **I: RANKL, II: RANK, III: Osteoprogerin (E şıkkı)**.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 62,
+    "question": "Diş eti bağ dokusu ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Lamina propriada yer alan retiküler tabaka, alveoler kemiğin periosteumu ile ilişkilidir.",
+      "B": "Ara maddesi (ground substance) liflerin ve hücrelerin arasını dolduran, amorf, çok miktarda su içeren bir yapıdır.",
+      "C": "İçeriğindeki oksitalan lifler, kollajen liflerden biridir.",
+      "D": "Fibröz bir yapıya sahiptir.",
+      "E": "Esas hücresi fibroblasttır."
+    },
+    "correctAnswer": "C",
+    "explanation": "* **A) (Doğru):** Lamina proprianın derin katmanı olan retiküler tabaka, alveoler kemiğin periosteumu ile komşudur ve doğrudan ilişkilidir.\n* **B) (Doğru):** Ara madde, lifler ve hücrelerin arasındaki boşlukları dolduran, proteoglikan ve glikoproteinlerden oluşan, yüksek su içeriğine sahip amorf bir yapıdır.\n* **C) (Yanlış):** Bağ dokusu lifleri 3 tiptir: Kollajen, retiküler ve elastik lifler. **Oksitalan lifler kollajen liflerden biri değildir; elaunin ve elastin fibrillerle birlikte \"elastik lif\" sistemine ait** immatür liflerdir.\n* **D) (Doğru):** Hacminin %60'ını kollajen lifler oluşturduğu için yoğun fibröz bir yapıya sahiptir.\n* **E) (Doğru):** Diş eti bağ dokusunun esas hücresi, lifleri ve ara maddeyi sentezleyen **fibroblasttır**.\n\n---",
+    "flag_reason": "Sonbahar 2023 Orijinal",
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 63,
+    "question": "I. Ara maddesi (ground substance) liflerin ve hücrelerin arasını dolduran, amorf, çok miktarda su içeren bir yapıdır.\nII. İçeriğindeki oksitalan lifler, kollajen liflerden biridir.\nIII. En fazla bulunan komponenti fibroblastlardır.\n\n**Diş eti bağ dokusu ile ilgili yukarıdaki ifadelerden hangi ya da hangileri yanlıştır?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "* **I. Öncül (Doğru):** Ara madde liflerin ve hücrelerin arasını dolduran, yüksek su içeriğine sahip amorf yapıdır.\n* **II. Öncül (Yanlış):** Oksitalan lifler kollajen lif değil, **elastik lif** grubundandır.\n* **III. Öncül (Yanlış):** Diş eti bağ dokusunda hacimce en fazla bulunan komponent fibroblastlar (%5) değil, **kollajen fibrillerdir (%60)** (Fibroblast en fazla bulunan *hücredir*, komponent değildir).\nYanlış olan öncüller: **II ve III (E şıkkı)**.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 91,
+    "question": "I. Plazma hücreleri predominant hücredir\nII. Kronik gingivitis tablosu mevcuttur\nIII. Periodontal cep formasyonu oluşmuştur\n\n**Gingival inflamasyonun evrelerinden biri olan yerleşmiş lezyon ile ilgili yukarıdaki ifadelerden hangisi ya da hangileri doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "* **I. Öncül (Doğru):** Yerleşmiş lezyonda bağ dokusunda baskın hücre plazma hücreleridir.\n* **II. Öncül (Doğru):** Klinik olarak kronik gingivitis tablosu mevcuttur.\n* **III. Öncül (Yanlış):** Ataçman ve kemik kaybı olmadığı için gerçek **periodontal cep bu aşamada görülmez** (İlerlemiş lezyonda oluşur).\nDoğru cevap: **I ve II (B şıkkı)**.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 92,
+    "question": "Gingival inflamasyonun evrelerinden biri olan yerleşmiş lezyon ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Birleşim epiteli cep epiteline dönüşmeye başlar",
+      "B": "Birleşim epitelinden dominant hücre nötrofillerdir",
+      "C": "Dominant hücre plazma hücreleridir",
+      "D": "Tüm lezyonlar periodontitise geçmeden önce yıllarca bu aşamada kalır",
+      "E": "Venöz dolaşım bozulmuştur"
+    },
+    "correctAnswer": "D",
+    "explanation": "* **A) (Doğru):** Birleşim epiteli prolifere olarak cep epiteline dönüşmeye başlar (ataçman kaybı olmadan).\n* **B) (Doğru):** Bağ dokusunda plazma hücreleri baskınken, **sulkuler epitel ve birleşim epiteli özelinde göç eden baskın hücre nötrofillerdir (PMN)**.\n* **C) (Doğru):** Bağ dokusundaki genel inflamatuar infiltratta dominant hücre plazma hücreleridir.\n* **D) (Yanlış):** İki tip yerleşmiş lezyon davranışı vardır: Bazıları stabil kalıp aylarca/yıllarca ilerlemezken, bazıları ise hızla aktifleşip ilerleyen yıkıcı lezyona (periodontitise) dönüşür. Yani **\"tüm lezyonlar\"** yıllarca bu aşamada kalmaz veya her gingivitis periodontitise dönüşmez.\n* **E) (Doğru):** Damarlarda kan akımı yavaşlamış ve venöz dolaşım bozulmuştur (klinik olarak siyanoze/mavimsi renk değişimine neden olur).\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 93,
+    "question": "**Gingivitisin gelişimi ile ilgili bir araştırmaya sistemik olarak sağlıklı bireyler dahil ediliyor. Lokalize veya generalize gingivitisi olan bireylere cerrahi olmayan periodontal tedavi ve polisaj işlemi uygulandıktan sonra diş etleri klinik olarak tamamen sağlıklı duruma geliyor. Daha sonra bu bireylerden herhangi bir oral hijyen uygulamasında bulunmamaları isteniyor ve diş etindeki değişimler klinik ve histopatolojik olarak değerlendiriliyor.**\n**Bu tabloya göre oral hijyen uygulanmayan dönemde 4-7. gün arasına ait incelemelerde aşağıdaki bulgulardan hangisinin görülmesi en az olasıdır?**",
+    "options": {
+      "A": "Vasküler proliferasyona bağlı olarak diş eti eritemli görünür.",
+      "B": "Birleşim epitelinin atrofik alanlarında rete peg oluşumları görülür.",
+      "C": "Plazma hücreleri, bu evredeki predominant immün hücrelerdir.",
+      "D": "Hücre infiltratı çevresinde kollajen yıkımı izlenir.",
+      "E": "Klinik olarak sondlamada kanama gözlenir."
+    },
+    "correctAnswer": "C",
+    "explanation": "Plak birikimini takiben **4-7. gün** arasındaki dönem Page ve Schroeder sınıflamasına göre **Erken Lezyon (Early Lesion)** evresidir:\n* **A) (Yanlış - Görülür):** Kapiller vazodilatasyon, vasküler proliferasyon ve artan mikrosirkülasyon sebebiyle diş eti klinik olarak eritemli (kızarık) görünür.\n* **B) (Yanlış - Görülür):** Birleşim epiteli bazal hücrelerinin apikale/laterale proliferasyonu başlar ve bağ dokusuna doğru *rete peg* (rete ridge) oluşumları görülür.\n* **C) (Doğru - Görülmesi en az olasıdır):** Erken lezyonda (4-7. gün) bağ dokusunda predominant (baskın) immün hücreler plazma hücreleri değil, **lenfositlerdir (primer olarak T lenfositler)**. Plazma hücrelerinin predominant olması 14-21. günlerdeki **Yerleşmiş Lezyonun** özelliğidir.\n* **D) (Yanlış - Görülür):** Fibroblastlar dejenere olur ve hücre infiltratı çevresinde (özellikle sirküler ve dentogingival liflerde) MMP'lerin etkisiyle kollajen yıkımında (%60-70'e varan) artış görülür.\n* **E) (Yanlış - Görülür):** İlk klinik bulgular olan eritem ve **sondlamada kanama** erken lezyonda gözlenir.\n\n---",
+    "flag_reason": "DUS 2020 Orijinal",
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 94,
+    "question": "I. Vasküler proliferasyon görünür.\nII. Plazma hücreleri dominanttır.\nIII. Klinik görüntüsü kronik gingivitistir.\n\n**Yukarıdakilerden hangi ya da hangileri gingival inflamasyonun erken lezyon safhasına ait bir özellik değildir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I-II",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "D",
+    "explanation": "* **I. Öncül (Erken lezyon özelliğidir):** Erken lezyonda (4-7 gün) kapiller proliferasyon ve vazodilatasyon görülür.\n* **II. Öncül (Değildir):** Erken lezyonda **lenfositler** dominanttır; plazma hücreleri **yerleşmiş lezyonda** dominanttır.\n* **III. Öncül (Değildir):** Klinik görüntüsü kronik gingivitis olan evre erken lezyon değil, **yerleşmiş lezyondur**.\nErken lezyona ait olmayanlar: **II ve III (D şıkkı)**.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 95,
+    "question": "Aşağıdakilerden hangisi radyografik değişikliklerin görüldüğü gingival inflamasyon safhasıdır?",
+    "options": {
+      "A": "Başlangıç",
+      "B": "Erken",
+      "C": "Yerleşik",
+      "D": "Sekonder",
+      "E": "İlerlemiş"
+    },
+    "correctAnswer": "E",
+    "explanation": "* **A, B, C) Başlangıç, Erken ve Yerleşik lezyonlar (Yanlış):** Bu ilk üç aşama **gingivitis** evreleridir; yıkım yumuşak doku ile sınırlıdır, alveoler kemik kaybı ve radyografik değişiklik yoktur.\n* **D) Sekonder (Yanlış):** Böyle bir evre sınıflamada yer almaz.\n* **E) İlerlemiş lezyon (Doğru):** Artık **periodontitis** lezyonudur. Kollajen yıkımı periodontal ligament ve alveoler kemiğe ulaşmıştır, osteoklastik kemik rezorpsiyonu başlar, birleşim epiteli apikale migre olarak gerçek periodontal cep oluşur. Dolayısıyla **ataçman kaybı ve radyografik kemik değişiklikleri yalnızca İlerlemiş Lezyon aşamasında görülür.**\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 96,
+    "question": "Periodontal hastalıklarda, osteoklast aktivasyonunda aşağıdakilerden hangisi rol oynamaz?",
+    "options": {
+      "A": "Tümör nekrozis faktör-$\\alpha$",
+      "B": "İnterlökin-6",
+      "C": "Prostaglandin E2",
+      "D": "İnterferon gama",
+      "E": "RANKL"
+    },
+    "correctAnswer": "D",
+    "explanation": "Kemik rezorpsiyon mediatörleri \"stimülatörler (osteoklast aktivatörleri)\" ve \"inhibitörler\" olarak ikiye ayrılır:\n* **A) Tümör nekrozis faktör-$\\alpha$ (TNF-$\\alpha$) (Yanlış):** Güçlü bir osteoklast aktivatörü ve kemik rezorpsiyon stimülatörüdür.\n* **B) İnterlökin-6 (IL-6) (Yanlış):** Osteoklast formasyonunu ve kemik rezorpsiyonunu stimüle eder.\n* **C) Prostaglandin E2 (PGE2) (Yanlış):** Araşidonik asit metaboliti olup osteoklastları aktive ederek alveoler kemik rezorpsiyonunu uyarır.\n* **D) İnterferon gama (IFN-$\\gamma$) (Doğru):** Osteoklast aktivasyonunda rol oynamaz; tam aksine osteoprotegerin (OPG), östrojen, androjen, kalsitonin ve siklosporin ile birlikte **kemik rezorpsiyonunun (osteoklast aktivasyonunun) inhibitörüdür.**\n* **E) RANKL (Yanlış):** Prematür osteoklast üzerindeki RANK reseptörüne bağlanarak osteoklast farklılaşmasını ve aktivasyonunu doğrudan başlatan ana moleküldür.\n\n---",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 97,
+    "question": "Aşağıdakilerden hangisi periodontal hastalıklıkta pro-inflamatuar rol oynamaz?",
+    "options": {
+      "A": "Tümör nekrozis faktör-$\\alpha$",
+      "B": "İnterlökin-6",
+      "C": "Prostaglandin E2",
+      "D": "İnterferon gama",
+      "E": "RANKL"
+    },
+    "correctAnswer": "D",
+    "explanation": "*(Soru 96'nın alternatif versiyonudur)*\n* **A, B, C, E (Yanlış):** TNF-$\\alpha$, IL-6, PGE2 ve RANKL periodontal hastalıkta doku yıkımını ve osteoklastik kemik rezorpsiyonunu uyaran pro-inflamatuar / rezorptif mediatörlerdir.\n* **D) İnterferon gama (Doğru):** RANKL sinyal yolağını baskılayarak osteoklastogenezi ve kemik rezorpsiyonunu **inhibe eden** mediatörler tablosunda yer alır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 98,
+    "question": "Aşağıdakilerden hangisi matriks metalloproteinazların inhibitörlerinden değildir?",
+    "options": {
+      "A": "$\\alpha$1-antitripsin",
+      "B": "$\\alpha$2-macroglobulin",
+      "C": "TIMP",
+      "D": "Katepsin G",
+      "E": "Tetrasiklin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Matriks metalloproteinazlar (MMP'ler), ekstrasellüler matriks proteinlerini (kollajen, jelatin, elastin) yıkan proteolitik enzim ailesidir.\n* **A) $\\alpha$1-antitripsin (Yanlış):** Serum kaynaklı doğal bir proteaz/MMP inhibitörüdür.\n* **B) $\\alpha$2-makroglobulin (Yanlış):** Serum ve DOS'ta bulunan majör plazma kaynaklı MMP inhibitörüdür.\n* **C) TIMP (Yanlış):** *Tissue Inhibitors of Metalloproteinases* (MMP'lerin doku inhibitörleri), dokuda lokal olarak üretilen en önemli spesifik MMP inhibitörleridir.\n* **D) Katepsin G (Doğru):** MMP inhibitörü değildir; nötrofillerden salınan bir serin proteazdır ve inaktif (latent/pro-enzim) formda sentezlenen **MMP'leri parçalayarak \"aktive eden\"** bir enzimdir.\n* **E) Tetrasiklin (Yanlış):** Kalsiyum ve çinko katyonlarını şelatlayarak MMP'leri farmakolojik olarak inhibe eden antibiyotik grubudur.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 99,
+    "question": "Periodontal hastalıklarda osteoklast aktivasyonunda etkin olan ve alveoler kemik yıkımını inhibe eden mediatör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Osteoprotegerin",
+      "B": "Tümör nekrozis faktör alfa",
+      "C": "Matrix metallo proteinaz",
+      "D": "İnterlökin 11",
+      "E": "İnterlökin 17"
+    },
+    "correctAnswer": "A",
+    "explanation": "* **A) Osteoprotegerin (OPG) (Doğru):** Osteoblastlar tarafından salgılanan çözünür bir **tuzak reseptördür**. RANKL'a bağlanarak onun prematür osteoklastlar üzerindeki RANK reseptörü ile birleşmesini engeller; böylece **osteoklast farklılaşmasını, aktivasyonunu ve alveoler kemik yıkımını inhibe eder.**\n* **B) Tümör nekrozis faktör alfa (TNF-$\\alpha$) (Yanlış):** Kemik yıkımını inhibe etmez, şiddetle stimüle eder.\n* **C) Matrix metalloproteinaz (MMP) (Yanlış):** Kollajen ve organik matriks yıkımından sorumlu proteolitik enzimdir.\n* **D) İnterlökin 11 (Yanlış):** Kemik rezorpsiyonunun ana fizyolojik tuzak reseptör inhibitörü OPG'dir.\n* **E) İnterlökin 17 (Yanlış):** Th17 hücrelerinden salınan, RANKL ekspresyonunu ve kemik yıkımını artıran proinflamatuvar bir sitokindir.\n\n---",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 100,
+    "question": "Aşağıdakilerden hangisi osteoblastların salgıladığı Rankl'a bağlanarak osteoklastların farklılaşmasını engeller?",
+    "options": {
+      "A": "Rank",
+      "B": "Tümör nekrozis faktör alfa",
+      "C": "Matrix metallo proteinaz",
+      "D": "İnterlökin 11",
+      "E": "Osteoprotegerin"
+    },
+    "correctAnswer": "E",
+    "explanation": "* **A) RANK (Yanlış):** Prematür osteoklast yüzeyindeki reseptördür; RANKL'a bağlandığında osteoklast farklılaşmasını engellemez, tam aksine **başlatır ve aktifleşmesini sağlar**.\n* **B) Tümör nekrozis faktör alfa (Yanlış):** Proinflamatuvar sitokindir, osteoklastogenezi uyarır.\n* **C) Matrix metallo proteinaz (Yanlış):** Kollajen yıkıcı enzim ailesidir.\n* **D) İnterlökin 11 (Yanlış):** RANKL'a bağlanan tuzak reseptör değildir.\n* **E) Osteoprotegerin (OPG) (Doğru):** Osteoblastların salgıladığı tuzak reseptördür; **RANKL'a bağlanarak** RANK-RANKL etkileşimini bloke eder ve **osteoklastların farklılaşmasını/aktifleşmesini engeller.**\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 101,
+    "question": "I. Asit fosfataz ve katepsin gibi enzimlerin salınımıyla organik matriksin parçalanıp aminoasit bileşenlerine ayrılması\nII. Mineral iyonlarının ve amino asitlerin osteoklastın içine alınması\nIII. Osteoklastların kemiğin mineralize yüzeyine ataçmanları\nIV. Proton pompanın işleviyle asidik izole bir alan oluşturulup kemiğin demineralize edilmesi\n\nRezorbsiyon sırasında gerçekleşen olayların doğru sıralaması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I-IV-III-II",
+      "B": "II-III-IV-I",
+      "C": "III-I-IV-II",
+      "D": "III-II-IV-I",
+      "E": "III-IV-I-II"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kemik rezorpsiyonu sürecinde ilk olarak osteoklastlar kemiğin mineralize yüzeyine tutunarak sızdırmaz bir bölge oluştururlar (III). Ardından proton pompalarının (H+-ATPaz) aktifleşmesiyle bu izole alanda asidik bir mikroçevre yaratılır ve kemiğin inorganik (mineral) yapısı demineralize edilir (IV). İnorganik yapı uzaklaştırıldıktan sonra açığa çıkan organik matriks, asit fosfataz ve katepsin K gibi lizozomal enzimlerin salınımıyla parçalanarak aminoasit bileşenlerine ayrılır (I). Son aşamada ise serbestleşen mineral iyonları ve aminoasitler endositoz/transsitoz yoluyla osteoklastın içine alınır (II). Doğru sıralama III - IV - I - II şeklindedir.\n**Çeldiriciler:**\n- A) Organik matriksin enzimatik yıkımı (I), osteoklastın yüzeye tutunmasından (III) ve inorganik matriksin asitle çözünmesinden (IV) önce gerçekleşemez.\n- B) Yıkım ürünlerinin hücre içine alınması (II) rezorpsiyonun başlangıç değil, en son basamağıdır.\n- C) Kemiğin demineralize edilmesi (IV) gerçekleşmeden kolajen ve diğer organik matriks bileşenleri enzimatik olarak parçalanamaz (I).\n- D) Hücre içine iyon ve aminoasit alımı (II), demineralizasyon (IV) ve organik yıkım (I) tamamlandıktan sonra meydana gelir.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Demineralizasyon sonrası açığa çıkan organik matriksin katepsin ve asit fosfataz ile yıkıldığı üçüncü aşamadır.\n- **II. Öncül:** Parçalanan inorganik iyonların ve organik aminoasitlerin osteoklast içine alındığı dördüncü ve son aşamadır.\n- **III. Öncül:** Osteoklastların integrinlari aracılığıyla mineralize kemik yüzeyine bağlandığı ilk aşamadır.\n- **IV. Öncül:** Proton pompası aracılığıyla ortam pH'sının düşürülerek hidroksiapatit kristallerinin çözündüğü ikinci aşamadır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 102,
+    "question": "Periodontal iltihapta enfeksiyon bölgesine nötrofil kemotaksisi sağlayan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İnterlökin 2",
+      "B": "İnterlökin 4",
+      "C": "İnterlökin 6",
+      "D": "İnterlökin 8",
+      "E": "İnterlökin 10"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** İnterlökin 8 (IL-8 / CXCL8), enfeksiyon ve inflamasyon süreçlerinde birleşim epiteli hücreleri, makrofajlar, endotel hücreleri ve fibroblastlar tarafından salgılanan güçlü bir kemokindir. Temel görevi, dolaşımdaki polimorfonükleer lökositlerin (nötrofillerin), monositlerin ve T hücrelerinin doku hasarının ve bakteriyel birikimin olduğu periodontal cep bölgesine doğru kemotaktik göçünü ve aktivasyonunu sağlamaktır.\n**Çeldiriciler:**\n- A) İnterlökin 2 (IL-2), esas olarak T lenfositlerin proliferasyonunu ve farklılaşmasını uyaran bir sitokindir; nötrofil kemotaksisinde doğrudan ana kemokin değildir.\n- B) İnterlökin 4 (IL-4), Th2 yanıtını destekleyen ve B lenfositlerin IgE üretmesini uyaran antiinflamatuvar karakterli bir sitokindir.\n- C) İnterlökin 6 (IL-6), akut faz proteinlerinin sentezini uyaran, B hücre farklılaşmasını ve osteoklastogenezi destekleyen proinflamatuvar bir sitokindir.\n- E) İnterlökin 10 (IL-10), makrofaj ve dendritik hücre fonksiyonlarını baskılayan temel antiinflamatuvar sitokinlerden biridir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 103,
+    "question": "Aşağıdakilerden hangisi nötrofillerin periodontal cebe kemotaksisinde rol oynamaz?",
+    "options": {
+      "A": "IL-8 (CXCL-8)",
+      "B": "CCL2",
+      "C": "CCL5",
+      "D": "ICAM-1",
+      "E": "IL-4"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** İnterlökin-4 (IL-4), antiinflamatuvar özellik gösteren ve Th2 immün yanıtında görev alan bir sitokindir. Proinflamatuvar sitokinlerin (IL-1, TNF-α) ve kemokinlerin üretimini baskılar; nötrofillerin periodontal cebe kemotaksisinde uyarıcı bir rol oynamaz.\n**Çeldiriciler:**\n- A) IL-8 (CXCL-8), nötrofillerin damar dışına çıkarak cep epiteline ve sulkusa göçünü sağlayan en güçlü kemotaktik faktördür.\n- B) CCL2 (MCP-1), monosit kemotaktik protein-1 olarak bilinir ve inflamasyon sahasına lökosit göçünü düzenleyen kemokin ağının bir parçasıdır.\n- C) CCL5 (RANTES), inflamatuvar hücrelerin enfeksiyon bölgesine toplanmasında görev alan kemotaktik bir sitokindir.\n- D) ICAM-1 (İnterselüler Adezyon Molekülü-1), endotel ve birleşim epiteli hücrelerinde eksprese edilerek nötrofillerin tutunmasını ve cebe doğru transendotelyal/transepitelyal göçünü sağlar.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 104,
+    "question": "Th1/Th2 periodontal hastalığın ilerlemesi konsepti hakkında aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Stabil periodontal lezyonda Th1 daha baskındır.",
+      "B": "Dengeyi kontrol eden temel sitokinin IL-12 olduğu düşünülmektedir.",
+      "C": "IL-12 artışı Th2 yanıtını baskın hale getirir.",
+      "D": "Th2, B lenfositlerinin aktivasyonunu sağlar.",
+      "E": "Periodontal hastalığın ilerlemesini açıklamakta tek başına yeterli değildir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Doku makrofajları ve dendritik hücreler tarafından güçlü bir doğal immün yanıt sonucunda üretilen IL-12, naif T hücrelerinin Th1 yönünde farklılaşmasını uyarır ve hücresel bağışıklığı güçlendirir. IL-12'nin artması Th2 yanıtını değil, Th1 yanıtını baskın hale getirir; Th2 yanıtının baskınlaşması ise IL-12 düzeylerinin azalması ve IL-4 varlığı ile ilişkilidir.\n**Çeldiriciler:**\n- A) Th1/Th2 hipotezine göre erken ve stabil kalan periodontal lezyonlarda koruyucu hücresel bağışıklığı sağlayan Th1 hücre yanıtı daha baskındır.\n- B) Doğal bağışıklık ile kazanılmış bağışıklık arasındaki geçişte Th1/Th2 dengesini belirleyen anahtar düzenleyici sitokin IL-12'dir.\n- D) Th2 hücreleri salgıladıkları IL-4, IL-5, IL-6 ve IL-10 gibi sitokinlerle B lenfositlerinin proliferasyonunu, aktivasyonunu ve plazma hücrelerine dönüşerek antikor üretmesini sağlar.\n- E) Günümüzde Th17 ve Treg hücre alt gruplarının da keşfedilmesiyle, yalnız başına Th1/Th2 dikotomisi (ikiliği) periodontal hastalığın karmaşık patogenezini ve ilerlemesini açıklamakta tek başına yeterli görülmemektedir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 105,
+    "question": "Matriks metalloproteinazlar ailesi aşağıdaki dokulardan hangisinin yıkımından sorumludur?",
+    "options": {
+      "A": "Kemik",
+      "B": "Sement",
+      "C": "Epitel",
+      "D": "Kollajen",
+      "E": "Dentin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Matriks metalloproteinazlar (MMP); periodontal bağ dokusunun ve kemiğin organik matriksinin ana yapısal proteini olan kollajeni, jelatini ve elastini parçalayan (degrade eden) çinko ve kalsiyum bağımlı proteolitik enzim ailesidir. Periodontal hastalıkta bağ dokusu ataşman kaybının en temel nedeni MMP-8 ve MMP-1 gibi kollajenazlar tarafından gerçekleştirilen kollajen yıkımıdır.\n**Çeldiriciler:**\n- A) Kemik dokusunun mineralize (inorganik) yapısının yıkımı MMP'ler tarafından değil, osteoklastların salgıladığı hidrojen iyonları (asit ortam) ile gerçekleşir.\n- B) Sement dokusu mineralize bir sert dokudur; yıkımı odontoklastlar/sementoklastlar tarafından öncelikle demineralizasyon yoluyla başlatılır.\n- C) Epitel dokusu hücresel bir tabakadır; MMP'ler doğrudan epitel hücrelerini değil, hücre dışı matriks proteinlerini ve bazal laminadaki kollajenleri (Tip IV kollajen) hedef alır.\n- E) Dentin yüksek oranda mineralize bir dokudur; MMP'ler yalnız demineralize olmuş dentin matriksindeki organik kollajen ağını parçalayabilir, doğrudan bütün haldeki dentini yıkamaz.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 106,
+    "question": "Matriks metalloproteinazlar ile ilgili özelliklerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Proteolitik enzim ailesidir",
+      "B": "Kollajen, gelatin ve elastin gibi ekstrasellüler matriks proteinlerini degrade eder",
+      "C": "Nötrofil, makrofaj, fibroblast, epitel hücreler, osteoblast ve osteoklastlar tarafından üretilebilirler",
+      "D": "α1-antitripsin, α2-makroglobulin ve özellikle MMP'lerin doku inhibitörleri (TIMP) gibi proteaz inhibitörleri tarafından inhibe edilirler",
+      "E": "Penisilinler MMP'leri inhibe edebilir"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Matriks metalloproteinazları (MMP) farmakolojik olarak şelasyon yoluyla inhibe etme özelliğine sahip olan antibiyotik grubu penisilinler değil, tetrasiklinler (özellikle doksisiklin) grubudur. Penisilinler bakteriyel hücre duvarı sentezini inhibe eder ve konak MMP enzimleri üzerinde herhangi bir inhibisyon etkisi göstermez.\n**Çeldiriciler:**\n- A) MMP'ler, ekstraselüler matriks bileşenlerindeki peptit bağlarını parçalayan çinko bağımlı endopeptidaz (proteolitik enzim) ailesidir.\n- B) Başta fibriler ve bazal lamina kollajenleri olmak üzere jelatin, elastin, fibronektin ve proteoglikan gibi hücre dışı matriks proteinlerini yıkarlar.\n- C) Periodonsiyumda nötrofiller (MMP-8, MMP-9), fibroblastlar (MMP-1), makrofajlar, keratinositler, osteoblastlar ve osteoklastlar tarafından sentezlenip salgılanabilirler.\n- D) Plazma kaynaklı α1-antitripsin ve α2-makroglobulin ile lokal doku kaynaklı TIMP'ler (doku metalloproteinaz inhibitörleri) MMP'lerin doğal endojen inhibitörleridir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 107,
+    "question": "Aşağıdakilerden hangisi periodontal yıkımın ilerlemesi için anahtar role sahip inflamatuar mediyatörlerden değildir?",
+    "options": {
+      "A": "IL-1β",
+      "B": "IL-1RA",
+      "C": "PGE2",
+      "D": "MMP8",
+      "E": "MMP9"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** IL-1RA (İnterlökin-1 Reseptör Antagonisti), IL-1 reseptörlerine yarışmalı olarak bağlanıp biyolojik sinyal iletimini engelleyen antiinflamatuvar bir moleküldür. IL-1β'nın proinflamatuvar ve kemik yıkıcı etkilerini bloke ettiği için periodontal yıkımın ilerlemesine değil, önlenmesine ve sınırlandırılmasına katkıda bulunur.\n**Çeldiriciler:**\n- A) IL-1β, periodontal inflamatuvar yanıtları upregüle eden, MMP üretimini ve osteoklastik kemik rezorpsiyonunu doğrudan uyaran anahtar proinflamatuvar sitokindir.\n- C) Prostaglandin E2 (PGE2), araşidonik asit metaboliti olup vazodilatasyonu, MMP sentezini ve osteoklast aktivasyonunu uyararak alveoler kemik yıkımında kritik rol oynar.\n- D) MMP-8 (nötrofil kollajenazı), periodontal dokulardan göç eden nötrofiller tarafından salınan ve Tip I ile Tip III kollajen yıkımında başrol oynayan enzimdir.\n- E) MMP-9 (jelatinaz B), nötrofil ve makrofajlardan salınarak bazal lamina kollajenlerini (Tip IV) ve denatüre kollajenleri parçalayan yıkıcı bir mediyatördür.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 108,
+    "question": "Aşağıdaki mediatörlerden hangisi inflamasyonun çözülmesinde nötrofil infiltrasyonunun baskılanmasını sağlar?",
+    "options": {
+      "A": "İnterlökin-8",
+      "B": "İnterlökin-1",
+      "C": "Lipoksin A4",
+      "D": "İnterlökin-6",
+      "E": "Matriks metalloproteinaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Lipoksin A4 (ve Lipoksin B4), araşidonik asitten lipoksijenaz yoluyla sentezlenen endojen pro-resolving (çözünmeyi sağlayıcı) lipid mediyatörleridir. Nötrofillerin inflamasyon bölgesine kemotaksisini, endotel hücrelerine adezyonunu ve transmigrasyonunu baskılayarak, ayrıca apoptotik nötrofillerin makrofajlarca fagositozunu (efferozitoz) uyararak inflamasyonun aktif olarak çözülmesini sağlar.\n**Çeldiriciler:**\n- A) İnterlökin-8, nötrofil infiltrasyonunu baskılamak yerine enfeksiyon bölgesine nötrofil göçünü uyaran en güçlü kemotaktik sitokindir.\n- B) İnterlökin-1, endotel hücrelerinde adezyon moleküllerinin ekspresyonunu artırarak lökosit infiltrasyonunu ve doku yıkımını şiddetlendirir.\n- D) İnterlökin-6, akut faz yanıtını ve B hücre farklılaşmasını tetikleyen proinflamatuvar bir sitokindir.\n- E) Matriks metalloproteinazlar, hücre dışı matriks proteinlerini parçalayan yıkıcı enzimlerdir; inflamasyonun çözülmesini sağlamazlar.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 109,
+    "question": "I. Lipoksin A4\nII. Maresin\nIII. PgE2\nIV. IL-6\n\nYukarıdakilerden hangi ya da hangileri inflamasyonun baskılanmasında rol oynar?",
+    "options": {
+      "A": "I-II",
+      "B": "I-III",
+      "C": "II-IV",
+      "D": "I-II-III",
+      "E": "I-III-IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** İnflamasyonun sonlandırılması ve doku homeostazına geri dönülmesi (rezolüsyon), lipoksinler (Lipoksin A4, Lipoksin B4), resolvinler, protektinler ve maresinler gibi özelleşmiş pro-resolving lipid mediyatörleri tarafından yürütülür. Bu moleküller nötrofil infiltrasyonunu durdurur ve proinflamatuvar sitokin üretimini baskılar. PGE2 ve IL-6 ise inflamasyonu ve doku yıkımını artıran proinflamatuvar mediyatörlerdir.\n**Çeldiriciler:**\n- B) III. öncüldeki PGE2 proinflamatuvar ve kemik rezorpsiyonunu uyarıcı bir mediyatör olduğundan yanlıştır.\n- C) IV. öncüldeki IL-6 proinflamatuvar bir sitokin olup osteoklastogenezi uyardığından yanlıştır.\n- D) III. öncül inflamasyonu baskılamaz, aksine vazodilatasyon ve kemik yıkımını uyarır.\n- E) Hem III. hem de IV. öncüller inflamasyonun şiddetlenmesinde görev alan proinflamatuvar etkenlerdir.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Lipoksin A4, araşidonik asit türevi bir lipid mediyatörü olup nötrofil göçünü durdurarak inflamasyonun çözülmesinde rol oynar (Doğru).\n- **II. Öncül:** Maresinler, dokosaheksaenoik asit (DHA) türevi makrofaj kaynaklı mediyatörler olup inflamasyonun çözülmesinde ve doku rejenerasyonunda görev alır (Doğru).\n- **III. Öncül:** PGE2, siklooksijenaz yoluyla üretilen ve periodontal doku yıkımını tetikleyen proinflamatuvar bir eikosanoiddir (Yanlış).\n- **IV. Öncül:** IL-6, T ve B hücre aktivasyonunu ve kemik yıkımını destekleyen proinflamatuvar bir sitokindir (Yanlış).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 110,
+    "question": "Aşağıdakilerden hangisi periodontal dokularda doğal bağışıklıkta rol almaz?",
+    "options": {
+      "A": "Nötrofiller",
+      "B": "Salya",
+      "C": "Epitel dokusu",
+      "D": "Dişeti oluğu sıvısı",
+      "E": "T lenfositler"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** T lenfositler (ve B lenfositler ile bunların ürettiği spesifik antikorlar), antijen sunumu sonrasında aktive olan, antijene özgü (spesifik) ve immünolojik hafıza oluşturan kazanılmış (adaptif) bağışıklık sisteminin temel elemanlarıdır; doğal (non-spesifik) bağışıklıkta yer almazlar.\n**Çeldiriciler:**\n- A) Nötrofiller, fagositoz ve antimikrobiyal peptit salınımı ile patojenlere karşı ilk savunma hattını oluşturan doğal bağışıklık hücreleridir.\n- B) Salya; içerdiği lizozim, laktoferrin, histatin ve müsinler ile fiziksel yıkama etkisi sayesinde doğal bağışıklığın önemli bir bileşenidir.\n- C) Epitel dokusu, mikroorganizmaların bağ dokusuna invazyonunu önleyen fiziksel ve kimyasal (defensinler) bir doğal bariyerdir.\n- D) Dişeti oluğu sıvısı (DOS), sulkusu mekanik olarak yıkaması ve kompleman bileşenleri ile nötrofilleri taşıması nedeniyle doğal savunmada doğrudan rol alır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 111,
+    "question": "Aşağıdaki oranlardan hangisi, periodontal dokularda kemik yıkım-yapım dengesinin bir göstergesidir?",
+    "options": {
+      "A": "IL-1β / IL-6",
+      "B": "RANKL / Osteoprotegerin",
+      "C": "BMP-2 / BMP-7",
+      "D": "IL-4 / IL-10",
+      "E": "Osteopontin / TNF-α"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Periodontal hastalıklarda alveoler kemik metabolizması (yapım-yıkım dengesi) RANK / RANKL / Osteoprotegerin (OPG) aksı tarafından düzenlenir. RANKL, öncül osteoklastlar üzerindeki RANK reseptörüne bağlanarak osteoklast farklılaşmasını ve kemik yıkımını başlatırken; OPG bir tuzak reseptör olarak RANKL'a bağlanıp bu etkileşimi bloke eder ve kemiği korur. Dolayısıyla dokudaki ve dişeti oluğu sıvısındaki RANKL / OPG oranı, kemik yıkım-yapım dengesinin doğrudan biyolojik göstergesidir.\n**Çeldiriciler:**\n- A) IL-1β ve IL-6'nın her ikisi de kemik yıkımını uyaran proinflamatuvar sitokinlerdir; birbirlerine oranı yapım-yıkım dengesini göstermez.\n- C) BMP-2 ve BMP-7'nin her ikisi de kemik yapımını (osteogenezi) uyaran kemik morfogenetik proteinleridir.\n- D) IL-4 ve IL-10'un her ikisi de antiinflamatuvar sitokinlerdir; doğrudan kemik yıkım-yapım oranını temsil etmezler.\n- E) Osteopontin kemik matriksinde hücre tutunmasını sağlayan yapısal bir glikoprotein, TNF-α ise proinflamatuvar bir sitokindir; aralarında doğrudan bir reseptör-antagonist yıkım/yapım dengesi yoktur.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 112,
+    "question": "I. Tümör nekrozis faktör / İnterferon-γ\nII. İnterleukin 1 / İnterferon-γ\nIII. RANKL / Osteoprotegerin\nIV. İnterleukin 1 / İnterleukin 6\nV. Osteoprotegerin / İnterferon-γ\n\nPeriodontal dokularda kemik yıkım-yapım dengesinin göstergeleri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I-II-III",
+      "B": "II-III-IV",
+      "C": "III-IV-V",
+      "D": "I-III-IV",
+      "E": "I-IV-V"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kemik metabolizmasında yıkım-yapım dengesi, kemik rezorpsiyonunu stimüle eden faktörler ile rezorpsiyonu inhibe eden faktörlerin birbirine oranlanmasıyla değerlendirilir. Tümör nekrozis faktör (TNF), İnterlökin-1 (IL-1) ve RANKL güçlü kemik rezorpsiyonu stimülatörleridir. Buna karşılık İnterferon-γ (IFN-γ) ve Osteoprotegerin (OPG) osteoklastik kemik rezorpsiyonunun inhibitörleridir. Dolayısıyla bir stimülatörün bir inhibitöre oranlandığı I, II ve III numaralı ifadeler kemik yıkım-yapım dengesini doğru yansıtır.\n**Çeldiriciler:**\n- B) IV. öncülde yer alan IL-1 ve IL-6'nın her ikisi de kemik rezorpsiyonunu uyaran stimülatörlerdir.\n- C) IV. öncül iki stimülatörü, V. öncül ise iki inhibitörü (OPG ve IFN-γ) birbirine oranladığı için denge göstergesi olamaz.\n- D) IV. öncüldeki her iki sitokin de osteoklast aktivasyonunu artıran yıkım mediyatörleridir.\n- E) IV. öncül iki yıkım uyaranını, V. öncül ise iki yıkım baskılayıcısını içerdiğinden yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** TNF bir kemik rezorpsiyon stimülatörü, IFN-γ ise rezorpsiyon inhibitörüdür; oranları yıkım-yapım dengesini gösterir (Doğru).\n- **II. Öncül:** IL-1 güçlü bir rezorpsiyon stimülatörü, IFN-γ ise inhibitördür; oranları yıkım-yapım dengesini gösterir (Doğru).\n- **III. Öncül:** RANKL osteoklast farklılaşmasını uyaran ana ligant, OPG ise onu bloke eden tuzak reseptördür; oranları kemik yıkım-yapım dengesinin temel göstergesidir (Doğru).\n- **IV. Öncül:** Hem IL-1 hem de IL-6 kemik rezorpsiyonunu uyaran sitokinlerdir (Yanlış).\n- **V. Öncül:** Hem OPG hem de IFN-γ osteoklastik kemik yıkımını inhibe eden faktörlerdir (Yanlış).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 113,
+    "question": "IL-1β'nın periodontal hastalıklardaki rolü hakkında aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Endotelyal hücrelerin ICAM-1 ve IL-8 ekspresyonlarını arttırır",
+      "B": "PGE2 ile kemik rezorbsiyonunda sinerji gösterir",
+      "C": "Periodontal hastalığın şiddetiyle DOS'taki konsantrasyonları paralellik gösterir",
+      "D": "Periodontal hastalığın patolojisinde temel rol oynar",
+      "E": "IL-1Ra, aynı reseptör üzerinden proinflamatuar sitokinlerin salgısını arttırır"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** IL-1Ra (İnterlökin-1 reseptör antagonisti), IL-1β ile aynı hücre yüzeyi reseptörlerine bağlanarak yarışmalı (kompetitif) inhibisyon yapar. Ancak reseptöre bağlandığında hücre içi sinyal iletimini başlatmaz; böylece proinflamatuvar sitokinlerin salgısını artırmak yerine IL-1β'nın biyolojik etkinliğini bloke ederek antiinflamatuvar özellik gösterir.\n**Çeldiriciler:**\n- A) IL-1β, damar endotel hücrelerinde ICAM-1 gibi adezyon moleküllerinin ve IL-8 kemokininin sentezini artırarak lökositlerin inflamasyon bölgesine göçünü hızlandırır.\n- B) IL-1β hem doğrudan osteoklastları uyarır hem de PGE2 sentezini artırarak alveoler kemik rezorpsiyonunda PGE2 ile sinerjik yıkıcı etki gösterir.\n- C) Dişeti oluğu sıvısındaki (DOS) IL-1β seviyeleri, periodontal inflamasyonun ve doku yıkımının klinik şiddetiyle doğru orantılı olarak yükselir ve başarılı tedaviyle düşer.\n- D) Monositler, makrofajlar, nötrofiller ve keratinositler tarafından üretilen IL-1β, MMP salınımını ve kemik yıkımını başlatarak periodontitis patogenezinde merkezi rol oynar.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 114,
+    "question": "Periodontal hastalık patogenezinde rol oynayan matriks metalloproteinaz (MMP)'lar ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "MMP'ler latent formda salgılanırlar.",
+      "B": "Fibroblastlar ve keratinositler MMP salgılanmasında rol alırlar.",
+      "C": "α2-makroglobulin MMP'lerin etkinliğini arttırır.",
+      "D": "Nötrofiller, MMP-8 salgılarlar.",
+      "E": "Doksisiklin MMP aktivitesini inhibe eder."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** α2-makroglobulin, serum kaynaklı büyük bir plazma glikoproteinidir ve MMP'leri tuzak mekanizmasıyla bağlayarak inaktive eden temel endojen proteaz inhibitörlerinden biridir. MMP'lerin etkinliğini artırmaz, aksine doku yıkımını sınırlandırmak üzere onları inhibe eder.\n**Çeldiriciler:**\n- A) MMP'ler hücrelerden inaktif (latent) pro-enzim (zimojen) formunda salgılanır ve hücre dışında katepsin G, plazmin veya serbest oksijen radikalleri aracılığıyla aktif forma dönüştürülür.\n- B) Bağ dokusunda fibroblastlar (özellikle MMP-1) ve epitelde keratinositler, inflamatuvar uyaranlara yanıt olarak MMP sentezleyen önemli konak hücreleridir.\n- D) Periodontal cep bölgesindeki başlıca kollajenaz olan MMP-8 (kollajenaz-2), ağırlıklı olarak polimorfonükleer lökositler (nötrofiller) tarafından salgılanır.\n- E) Bir tetrasiklin türevi olan doksisiklin, MMP enzimlerinin aktif bölgesindeki kalsiyum ve çinko iyonlarını bağlayarak (şelasyon) enzim aktivitesini doğrudan inhibe eder.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 115,
+    "question": "I. Katepsin G\nII. Tetrasiklinler\nIII. α2-makroglobulin\n\nYukarıdakilerden hangisi ya da hangileri matriks metalloproteinazları inhibe eder?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II, III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Matriks metalloproteinazlar (MMP); doku metalloproteinaz inhibitörleri (TIMP), serum kaynaklı α1-antitripsin ve α2-makroglobulin gibi endojen proteaz inhibitörleri ile tetrasiklin grubu farmakolojik ajanlar tarafından inhibe edilir. Katepsin G ise inaktif (latent) formda salgılanan MMP'lerin pro-peptit kısmını keserek onları aktive eden bir serin proteazdır.\n**Çeldiriciler:**\n- A) Katepsin G, MMP'leri inhibe etmez; aksine latent MMP'leri aktif forma dönüştürür.\n- B) I. öncüldeki katepsin G bir MMP aktivatörü olduğu için bu seçenek yanlıştır.\n- C) I. öncül MMP'leri aktive ederken yalnız III. öncül inhibe eder.\n- E) I. öncülün inhibitör değil aktivatör olması nedeniyle yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Katepsin G, nötrofil azurofilik granüllerinde bulunan ve inaktif MMP zimojenlerini parçalayarak aktif hale getiren bir proteazdır (Yanlış).\n- **II. Öncül:** Tetrasiklinler, antimikrobiyal etkilerinden bağımsız olarak katyon şelasyonu yoluyla MMP'leri inhibe eder (Doğru).\n- **III. Öncül:** α2-makroglobulin, plazmada ve dişeti oluğu sıvısında bulunan güçlü bir endojen MMP inhibitörüdür (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 116,
+    "question": "Matriks metalloproteinazlar için aşağıda verilen bilgilerden hangisi doğrudur?",
+    "options": {
+      "A": "İnflamasyonda role sahip araşidonik asit metaboliti lipid yapılı moleküllerdir",
+      "B": "Hedef hücrelerde spesifik reseptörlere bağlanarak mesaj iletiminde rol oynayan çözülebilir proteinlerdir",
+      "C": "İnflamasyonun çözülmesinde role sahip lipid medyatörleridir",
+      "D": "Fibroblastlar tarafından üretilebilirler",
+      "E": "α2-makroglobulin tarafından aktive edilirler"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Matriks metalloproteinazlar (MMP), ekstraselüler matriks proteinlerini parçalayan proteolitik enzimlerdir ve periodontal dokularda fibroblastlar, nötrofiller, makrofajlar, epitel hücreleri, osteoblastlar ve osteoklastlar tarafından üretilebilirler.\n**Çeldiriciler:**\n- A) İnflamasyonda rol oynayan araşidonik asit metaboliti lipid yapılı moleküller MMP'ler değil, prostaglandinler ve lökotrienlerdir.\n- B) Hedef hücrelerdeki spesifik reseptörlere bağlanarak hücreler arası mesaj iletimini sağlayan çözünür proteinler sitokinlerdir.\n- C) İnflamasyonun çözülmesinde görev alan lipid mediyatörleri lipoksinler, resolvinler, protektinler ve maresinlerdir.\n- E) α2-makroglobulin MMP'leri aktive etmez, aksine onları bağlayarak inhibe eden bir plazma proteinidir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 118,
+    "question": "I. Resolvin\nII. Lipoksin\nIII. Maresin\n\nYukarıdakilerden hangi ya da hangileri inflamasyonun çözülme aşamasında görev alan endojen lipid proteinlerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** İnflamasyonun çözülmesi (rezolüsyon) pasif bir süreç olmayıp, endojen olarak sentezlenen özelleşmiş lipid mediyatörleri tarafından aktif şekilde yönetilir. Araşidonik asit türevi olan lipoksinler ile omega-3 yağ asitleri (EPA ve DHA) türevi olan resolvinler, protektinler ve maresinler bu grubun temel üyeleridir; tamamı lökosit trafiğini sınırlandırarak inflamasyonun çözülmesini sağlar.\n**Çeldiriciler:**\n- A) Yalnızca resolvinleri içerip aynı göreve sahip lipoksin ve maresinleri dışladığı için eksiktir.\n- B) Yalnızca lipoksinleri kapsadığı için eksiktir.\n- C) Makrofaj kaynaklı pro-resolving mediyatör olan maresinleri (III) içermediği için eksiktir.\n- D) Çözünme sürecinin ana mediyatörlerinden olan resolvinleri (I) dışladığı için eksiktir.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Resolvinler, omega-3 yağ asitlerinden türeyen ve nötrofil göçünü baskılayarak inflamasyonun çözülmesini sağlayan lipid mediyatörleridir (Doğru).\n- **II. Öncül:** Lipoksinler (Lipoksin A4 ve B4), araşidonik asitten sentezlenen ve inflamasyonun çözülmesini başlatan endojen lipid mediyatörleridir (Doğru).\n- **III. Öncül:** Maresinler, makrofajlar tarafından DHA'dan sentezlenen, inflamasyonun çözülmesini ve doku onarımını sağlayan lipid mediyatörleridir (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 119,
+    "question": "Aşağıdakilerden hangi ya da hangileri doğal bağışıklık yanıtın bileşenlerinden değildir?",
+    "options": {
+      "A": "Toll like reseptörler",
+      "B": "Nötrofiller",
+      "C": "Mukoza",
+      "D": "Antibodiler",
+      "E": "Salya"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Antibodiler (antikorlar / immünoglobulinler), B lenfositlerin antijenle karşılaşması ve plazma hücrelerine farklılaşması sonucunda spesifik patojenlere karşı üretilen hümoral kazanılmış (adaptif) bağışıklık yanıtı elemanlarıdır; doğal (non-spesifik) bağışıklık bileşeni değildirler.\n**Çeldiriciler:**\n- A) Toll-benzeri reseptörler (TLR), patojen ilişkili moleküler kalıpları (PAMP) tanıyan ve doğal immün yanıtı başlatan patern tanıma reseptörleridir.\n- B) Nötrofiller, enfeksiyon bölgesine ilk göç eden ve fagositoz yapan doğal bağışıklık sistemi hücreleridir.\n- C) Oral mukoza, mikroorganizmaların dokulara girişini engelleyen fiziksel ve mekanik bir doğal bağışıklık bariyeridir.\n- E) Salya, içerdiği antimikrobiyal peptitler (lizozim, laktoferrin, histatin) ve yıkama fonksiyonu ile doğal bağışıklığın bir parçasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 120,
+    "question": "Periodontal hastalıkta bağ dokusu yıkımında önemli rol oynayan matriks metalloproteinaz (MMP)'lar ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Fibroblastlar, MMP üreten hücrelerdendir.",
+      "B": "Makrofajlar, doku kaynaklı MMP inhibitörlerini üreten hücrelerdendir.",
+      "C": "Periodontitiste diş eti oluğu sıvısında MMP seviyesi artar.",
+      "D": "Serum kaynaklı MMP inhibitörleri, bağ dokusu yıkımının engellenmesinde rol oynamaz.",
+      "E": "MMP-8 nötrofil kaynaklı bir kollajenazdır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Serum kaynaklı proteaz inhibitörleri olan α2-makroglobulin ve α1-antitripsin, doku kaynaklı inhibitörler (TIMP'ler) ile birlikte aktif MMP'leri bağlayıp inaktive ederek periodontal bağ dokusu yıkımının sınırlandırılmasında ve engellenmesinde doğrudan önemli bir koruyucu rol oynar.\n**Çeldiriciler:**\n- A) Gingival ve periodontal ligament fibroblastları, özellikle interstisyel kollajenaz olan MMP-1 üretiminden sorumlu başlıca hücrelerdir.\n- B) Makrofajlar, fibroblastlar ve endotel hücreleri, MMP aktivitesini lokal olarak dengeleyen doku metalloproteinaz inhibitörlerini (TIMP) sentezler.\n- C) Periodontitis varlığında artan nötrofil ve makrofaj infiltrasyonuna bağlı olarak dişeti oluğu sıvısındaki (DOS) MMP-8 ve MMP-9 seviyeleri belirgin şekilde yükselir.\n- E) MMP-8 (kollajenaz-2), esas olarak polimorfonükleer lökositlerin (nötrofillerin) spesifik granüllerinde depolanan ve salgılanan bir kollajenazdır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 121,
+    "question": "Aşağıdakilerden hangisi periodontal hastalıkta bağ dokusu yıkımında önemli rol oynayan matriks metalloproteinaz (MMP)'ların inhibitörlerinden değildir?",
+    "options": {
+      "A": "α1-antitripsin",
+      "B": "α2-makroglobulin",
+      "C": "TIMP",
+      "D": "Doksisiklin",
+      "E": "Katepsin G"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Katepsin G, nötrofillerin azurofilik granüllerinden salınan bir serin proteazdır. MMP'leri inhibe etmez; tam aksine hücre dışına inaktif (latent) formda salgılanan pro-MMP'leri keserek onları aktif MMP formuna dönüştürür.\n**Çeldiriciler:**\n- A) α1-antitripsin, plazmada bulunan ve proteolitik enzimler ile MMP'leri baskılayan endojen bir inhibitördür.\n- B) α2-makroglobulin, serumda ve dişeti oluğu sıvısında aktif MMP'leri yakalayarak inaktive eden majör plazma inhibitörüdür.\n- C) TIMP (Doku Metalloproteinaz İnhibitörleri), dokularda MMP'lerin aktif bölgelerine 1:1 oranında bağlanarak enzimatik yıkımı durduran spesifik lokal inhibitörlerdir.\n- D) Doksisiklin, çinko ve kalsiyum katyonlarını bağlayarak MMP'leri farmakolojik olarak inhibe eden tetrasiklin türevi bir ajandır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 122,
+    "question": "Konak modülasyonu ajanlarının periodontitisi etkilediği düşünülen mekanizmalar ile olan eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Periostat - Antimikrobiyal",
+      "B": "Periostat - Osteoklast",
+      "C": "NSİİ - TNF-α",
+      "D": "Bifosfonat - PgE2",
+      "E": "NSİİ - MMP"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Periostat (sub-antimikrobiyal doz doksisiklin - 20 mg), antimikrobiyal etki göstermeksizin konak modülasyonu sağlayan bir ajandır. Kollajenaz (MMP) aktivitesini, proinflamatuvar sitokinleri ve reaktif oksijen radikallerini baskılamasının yanı sıra osteoklast aktivitesini azaltarak kemik rezorpsiyonunu inhibe eder ve osteoblast aktivitesini uyarır.\n**Çeldiriciler:**\n- A) Periostat, bakteriler üzerinde minimum inhibitör konsantrasyonun (MİK) altında (20 mg) kullanıldığı için antimikrobiyal etki göstermez.\n- C) Non-steroid antiinflamatuvar ilaçlar (NSİİ), doğrudan TNF-α'yı değil, siklooksijenaz (COX) enzimini inhibe ederek araşidonik asitten PGE2 sentezini bloke eder.\n- D) Bifosfonatlar PGE2 sentezini değil, doğrudan osteoklastların fonksiyonunu bozarak ve apoptozunu tetikleyerek kemik rezorpsiyonunu inhibe eder.\n- E) NSİİ'lerin birincil hedefi MMP inhibisyonu değil, siklooksijenaz yolu ve prostaglandin (PGE2) sentezinin baskılanmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 123,
+    "question": "Diş temizlendikten sonra üzerine ilk yerleşen mikroorganizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Eubacterium",
+      "B": "Stafilokok",
+      "C": "Streptokok",
+      "D": "Camplobacter",
+      "E": "Fusobakterium"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Diş yüzeyi temizlendikten saniyeler sonra oluşan kazanılmış pelikıl üzerine ilk tutunan (primer kolonize olan) mikroorganizmalar Gram-pozitif fakültatif koklar ve çomaklardır. Bunlar arasında en baskın ve ilk yerleşen türler *Streptococcus sanguinis* (*S. sanguis*), *Streptococcus mitis* ve *Streptococcus oralis* gibi streptokok türleri ile *Actinomyces viscosus* gibi aktinomiçeslerdir.\n**Çeldiriciler:**\n- A) *Eubacterium* türleri, biyofilm olgunlaştıktan ve ortam anaerobikleştikten sonra yerleşen Gram-pozitif anaerobik çomaklardır.\n- B) Stafilokoklar deri ve burun florasının baskın elemanları olup dental plak biyofilminin öncül kolonizörleri arasında yer almazlar.\n- C) *Campylobacter* türleri (ör. *C. rectus*), turuncu komplekste yer alan ve plak gelişiminin ilerleyen aşamalarında yerleşen sekonder kolonizörlerdir.\n- E) *Fusobacterium nucleatum*, primer kolonizörler yerleştikten sonra onlara tutunarak geç kolonizörler ile köprü kuran ara (sekonder) kolonizör bir bakteridir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 124,
+    "question": "I. Streptokok\nII. Actinomyces\nIII. T. denticola\n\nBiyofilm oluşurken erken kolonize olan mikrobiyal türler yukarıdakilerden hangisi/hangileridir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Dental biyofilm oluşumunun başlangıcında kazanılmış pelikıl yüzeyindeki reseptörlere adhezinleri ile doğrudan bağlanabilen erken (primer) kolonizörler, ağırlıklı olarak *Streptococcus* (*S. sanguinis, S. mitis*) ve *Actinomyces* (*A. viscosus, A. naeslundii*) türleridir. *Treponema denticola* ise kırmızı komplekste yer alan, olgun ve anaerobik subgingival plağa en son katılan geç (sekonder) kolonizör bir spirokettir.\n**Çeldiriciler:**\n- A) Erken kolonizasyonun diğer ana grubu olan *Actinomyces* türlerini (II) içermediği için eksiktir.\n- C) III. öncüldeki *T. denticola* erken değil, geç kolonize olan bir periodontopatojendir.\n- D) I. öncülü dışlayıp geç kolonizör olan III. öncülü içerdiği için yanlıştır.\n- E) Kırmızı kompleks bakterisi olan *T. denticola*'yı (III) erken kolonizör kabul ettiği için yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Streptokoklar, diş yüzeyindeki pelikıla ilk tutunan ve erken plak biyofilminin çoğunluğunu oluşturan bakterilerdir (Doğru).\n- **II. Öncül:** *Actinomyces* türleri, streptokoklarla birlikte pelikıla erken dönemde tutunan primer kolonizörlerdir (Doğru).\n- **III. Öncül:** *Treponema denticola*, pelikıla doğrudan tutunamayan, ancak olgunlaşmış anaerobik biyofilmde yer alan geç kolonizör bir bakteridir (Yanlış).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 129,
+    "question": "I. Fakültatif anaerop, kapnofil, hareketsiz ve ufak gram negatif çomaktır.\nII. LAP'de etken olduğu kanıtlanmıştır.\nIII. Tedavi başarılı olduğunda sayıca azalır veya saptanamayacak düzeye geriler.\nIV. Virülans faktörleri; lökotoksin, kollagenaz, endotoksin, protease\n\nYukarıda özellikleri belirtilen mikroorganizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aggregatibacter actinomycetemcomitans",
+      "B": "Fusobacterium nucleatum",
+      "C": "Prevotella intermedia",
+      "D": "Campylobacter rectus",
+      "E": "Eubacterium"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Küçük, hareketsiz, Gram-negatif, fakültatif anaerob ve kapnofil (CO2 seven) bir kokobasil/çomak olan *Aggregatibacter actinomycetemcomitans* (A.a), lokalize agresif periodontitisin (yeni sınıflamada molar-kesici paternli Evre III/IV Derece C periodontitis) birincil patojenidir. Epitel hücrelerine invaze olabilir ve en önemli virülans faktörü nötrofilleri parçalayan lökotoksindir. Başarılı periodontal tedavi sonrasında lezyon bölgesindeki sayısı belirgin şekilde azalır.\n**Çeldiriciler:**\n- B) *Fusobacterium nucleatum*, zorunlu anaerobik, iğ (fuziform) şekilli Gram-negatif bir çomaktır; lökotoksin üretmez.\n- C) *Prevotella intermedia*, siyah pigmentli zorunlu anaerobik bir çomak olup özellikle gebelik gingivitisi ve nekrotizan periodontal hastalıklarla ilişkilidir.\n- D) *Campylobacter rectus*, hareketli (motil) bir виbriyo/çomak olup turuncu komplekste yer alır; hareketsiz değildir.\n- E) *Eubacterium* türleri Gram-negatif değil, Gram-pozitif zorunlu anaerobik çomaklardır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 130,
+    "question": "Dental plakta mikroorganizmaların pellicle tutunmasını sağlayan moleküllere ne ad verilir?",
+    "options": {
+      "A": "Glikokaliks",
+      "B": "Adezin",
+      "C": "Fimbria",
+      "D": "Lipopolisakkarit",
+      "E": "Lökosit"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Primer kolonize olan bakterilerin kazanılmış pelikıl (pellicle) üzerindeki tamamlayıcı reseptörlere (ör. prolin-zengin proteinler, staterin) spesifik ve kalıcı olarak bağlanmasını sağlayan bakteri yüzeyi moleküllerine adezin adı verilir. Adezinler, bakterinin konak yüzeylerine veya diğer bakterilere tutunmasını kolaylaştıran önemli virülans bileşenleridir.\n**Çeldiriciler:**\n- A) Glikokaliks, bakteriyi dış etkenlerden ve fagositozdan koruyan, hücre dışı polisakkarit ve glikoproteinlerden oluşan kapsüler örtü tabakasıdır.\n- C) Fimbria, bakteri yüzeyinden uzanan ipliksi protein uzantılarıdır; adezin molekülleri çoğu zaman fimbriaların uç kısmında taşınsa da doğrudan özgül bağlanma molekülünün adı adezindir.\n- D) Lipopolisakkarit (LPS), Gram-negatif bakterilerin dış membranında bulunan ve endotoksin özelliği gösteren yapısal moleküldür.\n- E) Lökosit, konağın savunma sistemine ait beyaz kan hücresidir; bakteriyel bir tutunma molekülü değildir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 131,
+    "question": "Aşağıdaki m.o'lardan hangisi adhezinleri aracılığıyla pelikıla bağlanabilir?",
+    "options": {
+      "A": "P. gingivalis",
+      "B": "S. Sangius",
+      "C": "P. İntermedia",
+      "D": "T. Forsytia",
+      "E": "T. Denticola"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kazanılmış pelikıl yüzeyindeki reseptörlere adhezinleri aracılığıyla doğrudan bağlanabilen mikroorganizmalar primer (erken) kolonizörlerdir. Sarı komplekste yer alan *Streptococcus sanguinis* (*S. sanguis*), diş yüzeyindeki pelikıla ilk ve doğrudan tutunan öncül bakterilerdendir.\n**Çeldiriciler:**\n- A) *Porphyromonas gingivalis* kırmızı komplekste yer alan bir geç (sekonder) kolonizördür; pelikıla doğrudan bağlanamaz, öncül bakterilere koagregasyonla tutunur.\n- C) *Prevotella intermedia* turuncu komplekste yer alan sekonder kolonizör bir bakteridir ve pelikıla ilk tutunan türlerden değildir.\n- D) *Tannerella forsythia* kırmızı kompleks üyesi bir geç kolonizör olup biyofilme olgunlaşma aşamasında katılır.\n- E) *Treponema denticola* kırmızı komplekste yer alan hareketli bir spirokettir ve yalnızca öncül ve ara kolonizörler yerleştikten sonra biyofilme bağlanabilir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 132,
+    "question": "Erken kolonize olan bakterilerle geç kolonize olan bakteriler arasında köprü görevi gören bakteri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Capnocytophaga",
+      "B": "F. Nucleatum",
+      "C": "P. Gingivalis",
+      "D": "P. İntermedia",
+      "E": "A.A"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Turuncu komplekste yer alan *Fusobacterium nucleatum*, yüzeyinde taşıdığı çok sayıda spesifik adezin sayesinde hem pelikıla tutunmuş olan erken (primer) kolonizörlerle hem de birbirlerine doğrudan bağlanamayan geç (sekonder/kırmızı kompleks) kolonizörlerle koagregasyon yapabilme yeteneğine sahiptir. Bu özelliğiyle dental biyofilm gelişiminde anahtar \"köprü organizma\" görevini üstlenir.\n**Çeldiriciler:**\n- A) *Capnocytophaga* türleri yeşil komplekste yer alan erken kolonizör bakterilerdir; geç kolonizörlerle ana köprü organizma değildirler.\n- C) *Porphyromonas gingivalis* kırmızı komplekste yer alan geç kolonizör bir periodontopatojendir; biyofilme *F. nucleatum* aracılığıyla katılır.\n- D) *Prevotella intermedia* turuncu komplekste yer alan ikincil bir kolonizördür ancak biyofilmin temel koagregasyon köprüsü *F. nucleatum*'dur.\n- E) *Aggregatibacter actinomycetemcomitans* diğer bakterilerle koagregasyon yeteneği sınırlı olan, kendine özgü bir kolonizasyon paterni gösteren bakteridir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 135,
+    "question": "Aşağıdaki mikroorganizmalardan hangisi pelikıla adhezinler aracılığıyla kalıcı bir bağlanma oluşturamaz?",
+    "options": {
+      "A": "Veillonella",
+      "B": "Haemophilus",
+      "C": "Actinomyces",
+      "D": "Streptococcus",
+      "E": "Prevotella"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kazanılmış pelikıla adhezinleri aracılığıyla doğrudan ve kalıcı bağlanma oluşturabilen bakteriler primer (erken) kolonizörlerdir. *Prevotella* türleri (ör. *P. intermedia*) turuncu komplekste yer alan sekonder (geç) kolonizör bakterilerdir; pelikıla doğrudan bağlanamazlar, ancak primer kolonizörler yerleştikten sonra onlara koagregasyon yoluyla tutunabilirler.\n**Çeldiriciler:**\n- A) *Veillonella* türleri mor komplekste yer alan ve biyofilm oluşumunun ilk aşamasında pelikıla tutunan primer kolonizörlerdir.\n- B) *Haemophilus* türleri erken plak oluşumunda pelikıl reseptörlerine doğrudan bağlanabilen primer kolonizörlerdendir.\n- C) *Actinomyces* türleri, fimbrial adhezinleriyle pelikıldaki prolin-zengin proteinlere doğrudan bağlanan ana primer kolonizörlerdendir.\n- D) *Streptococcus* türleri, diş yüzeyindeki pelikıla ilk tutunan ve erken plağın en büyük kısmını oluşturan primer kolonizörlerdir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 136,
+    "question": "Dental biyofilm ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Dental plaktan tamamen farklı özellikler taşır.",
+      "B": "Polisakkaritler, proteinler ve nükleik asitler gibi ekstraselüler polimerik yapılar içinde yer alan mikroorganizmalardan oluşur.",
+      "C": "Dental biyofilm içindeki bakteriler, planktonik bakterilere göre antimikrobiyal ajanlara karşı daha dirençlidirler.",
+      "D": "Dental biyofilm içindeki bakteriler arasında DNA transferi vardır.",
+      "E": "Dental biyofilm içindeki bakteriler arasında besin alışverişi görülür."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Mikrobiyal dental plak, diş ve restorasyon yüzeylerinde şekillenen klasik bir biyofilmdir. Dental plak ile dental biyofilm birbirinden farklı yapılar değil, aynı mikrobiyal organizasyonun iki farklı adlandırmasıdır; dolayısıyla tamamen aynı biyolojik ve yapısal özellikleri taşırlar.\n**Çeldiriciler:**\n- B) Dental biyofilm, hacminin büyük kısmını oluşturan polisakkarit, protein, lipid ve hücre dışı nükleik asitlerden (ekstraselüler polimerik matriks) ve bunun içine gömülü bakteri mikrokolonilerinden oluşur.\n- C) Biyofilm içindeki bakteriler, matriksin difüzyon bariyeri oluşturması ve yavaş üreme hızları sayesinde serbest yüzen (planktonik) bakterilere kıyasla antimikrobiyal ajanlara yaklaşık 1000 kata kadar daha dirençlidir.\n- D) Biyofilmde yakın temasta bulunan bakteriler arasında konjugasyon ve transformasyon yoluyla yatay gen (DNA) transferi gerçekleşir ve bu yolla antibiyotik direnci aktarılabilir.\n- E) Biyofilmde metabolik işbirliği (sinerjizm) vardır; bir bakteri türünün metabolik atık ürünü diğer bir tür tarafından besin ve enerji kaynağı olarak kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 137,
+    "question": "Dental biyofilm ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Polisakkaritler, proteinler ve nükleik asitler gibi ekstraselüler polimerik yapılar içinde yer alan mikroorganizmalardan oluşan biyofilm yapısındadır",
+      "B": "Quorum sensing sistemi sayesinde yapısındaki mikroorganizmalar birbirleriyle iletişim kurarlar",
+      "C": "Dental biyofilm içindeki bakteriler arasında gen transferi gerçekleşir",
+      "D": "İçerdiği bakterilerin büyüme hızı artarak antibiyotik direnci sağlar",
+      "E": "Biyofilm içindeki bakteriler antimikrobiyal moleküller salgılayabilirler"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Dental biyofilmin derin tabakalarında yer alan bakterilerde besin ve oksijen kısıtlılığı nedeniyle metabolizma ve büyüme (çoğalma) hızı artmaz, aksine belirgin şekilde yavaşlar. Birçok antibiyotik (ör. penisilinler, tetrasiklinler) yalnızca aktif olarak bölünen ve hızlı çoğalan bakteriler üzerinde etkili olduğundan, biyofilmdeki bakterilerin büyüme hızının yavaşlaması (düşmesi) onlara antibiyotiklere karşı direnç kazandırır.\n**Çeldiriciler:**\n- A) Dental plak; polisakkarit, protein ve nükleik asitlerden oluşan intermikrobiyal matriks içine yerleşmiş bakteri topluluklarından oluşan gerçek bir biyofilmdir.\n- B) Biyofilmdeki bakteriler, hücre yoğunluğuna bağlı kimyasal sinyal molekülleri aracılığıyla (Quorum sensing sistemi) birbirleriyle haberleşerek gen ekspresyonlarını ve virülanslarını düzenlerler.\n- C) Biyofilm içerisindeki bakteriler birbirlerine çok yakın konumlandıkları için plazmitler aracılığıyla aralarında gen transferi yaparak direnç genlerini paylaşabilirler.\n- E) Biyofilmdeki bazı bakteriler, komşu türlerle besin ve yaşam alanı için yarışmak amacıyla bakteriyosin ve hidrojen peroksit gibi antimikrobiyal moleküller salgılayabilirler.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 138,
+    "question": "I. Dental plak, biyofilm yapısına örnektir\nII. İçeriğindeki mikroorganizmalar sadece birbirine fayda sağlayan etkileşimler gösterir\nIII. Besinleri taşıyan ve atıkları toplayan su kanalı sistemi içerir\n\nDental biyofilm ile ilgili aşağıdaki ifadelerden hangisi ya da hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Mikrobiyal dental plak, katı diş yüzeyi üzerinde sıvı ortamda gelişen tipik bir biyofilmdir (I). Yapısında bakteri mikrokolonilerinin arasına giren, derin tabakalara besin taşıyan ve metabolik atıkları uzaklaştıran ilkel bir dolaşım sistemi görünümünde su kanalları mevcuttur (III). Biyofilm içindeki mikroorganizmalar arasında sadece yardımlaşma (sinerjizm) değil, aynı zamanda bakteriyosin ve hidrojen peroksit üretimiyle gerçekleşen bir rekabet (antagonizma) de vardır (II yanlıştır).\n**Çeldiriciler:**\n- A) Biyofilmin karakteristik yapısal özelliği olan su kanalı sistemini (III) dışladığı için eksiktir.\n- B) II. öncüldeki \"sadece birbirine fayda sağlar\" ifadesi bakteriler arası rekabeti yok saydığı için yanlıştır.\n- D) I. öncülü dışlayıp yanlış olan II. öncülü içerdiği için hatalıdır.\n- E) Bakteriler arasında antagonistik (yarışmacı) etkileşimlerin de bulunduğunu göz ardı eden II. öncülü içerdiği için yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Dental plak, ekstraselüler matriks içine gömülü organize mikroorganizmalardan oluşan bir biyofilmdir (Doğru).\n- **II. Öncül:** Biyofilmdeki bakteriler birbirlerine metabolik fayda sağlayabildikleri gibi, birbirleriyle yarışmak için antimikrobiyal maddeler de salgılarlar; etkileşim sadece fayda yönünde değildir (Yanlış).\n- **III. Öncül:** Biyofilm içerisinde mikrokolonilerin arasında besin ve atık alışverişini sağlayan su kanalları bulunur (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 139,
+    "question": "Aşağıdakilerden hangisi periodontal hastalık ile ilişkili olan kırmızı kompleks bakterilerden biridir?",
+    "options": {
+      "A": "Prevotella intermedia",
+      "B": "Aggregatibacter actinomycetemcomitans",
+      "C": "Fusobacterium nucleatum",
+      "D": "Treponema denticola",
+      "E": "Campylobacter rectus"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Socransky'nin subgingival mikrobiyal kompleks sınıflamasına göre, derin periodontal ceplerle ve sondlamada kanama ile en güçlü ilişkiyi gösteren, geç kolonize olan \"kırmızı kompleks\" bakterileri üç tanedir: *Porphyromonas gingivalis*, *Tannerella forsythia* ve *Treponema denticola*.\n**Çeldiriciler:**\n- A) *Prevotella intermedia*, kırmızı kompleksten hemen önce kolonize olan turuncu kompleks bakterilerindendir.\n- B) *Aggregatibacter actinomycetemcomitans* (serotip a yeşil komplekste, serotip b ise herhangi bir komplekse dahil olmadan bağımsız grupta yer alır) kırmızı kompleks üyesi değildir.\n- C) *Fusobacterium nucleatum*, erken ve geç kolonizörler arasında köprü kuran turuncu kompleks bakterisidir.\n- E) *Campylobacter rectus*, turuncu komplekste yer alan hareketli bir bakteridir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 140,
+    "question": "I. Treponema denticola\nII. Aggregatibacter actinomycetemcomitans\nIII. Prevotella intermedia\nIV. Fusobacterium nucleatum\nV. Porphyromonas gingivalis\n\nYukarıdakilerden hangileri periodontal hastalık ile ilişkili kırmızı kompleks bakterilerdendir?",
+    "options": {
+      "A": "I-II-III",
+      "B": "I-IV",
+      "C": "I-III ve V",
+      "D": "II-III",
+      "E": "I-V"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Periodontitisin şiddeti, cep derinliği ve sondlamada kanama ile doğrudan ilişkili olan kırmızı kompleks bakterileri; *Porphyromonas gingivalis* (V), *Treponema denticola* (I) ve *Tannerella forsythia*'dır. Dolayısıyla verilen öncüllerden I ve V kırmızı komplekse aittir.\n**Çeldiriciler:**\n- A) II. öncül (*A. actinomycetemcomitans*) ve III. öncül (*P. intermedia* - turuncu kompleks) kırmızı komplekste yer almaz.\n- B) IV. öncüldeki *F. nucleatum* turuncu kompleksin anahtar köprü bakterisidir.\n- C) III. öncüldeki *P. intermedia* turuncu kompleks üyesidir.\n- D) Her iki öncül de kırmızı kompleks dışında yer alan bakterilerdir.\n**Öncüllerin Analizi:**\n- **I. Öncül:** *Treponema denticola*, kırmızı komplekste yer alan anaerobik bir spirokettir (Doğru).\n- **II. Öncül:** *Aggregatibacter actinomycetemcomitans*, kırmızı kompleks üyesi değildir (Yanlış).\n- **III. Öncül:** *Prevotella intermedia*, turuncu komplekste yer alan bir bakteridir (Yanlış).\n- **IV. Öncül:** *Fusobacterium nucleatum*, turuncu komplekste yer alan bir bakteridir (Yanlış).\n- **V. Öncül:** *Porphyromonas gingivalis*, kırmızı kompleksin en önemli periodontopatojen üyesidir (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 141,
+    "question": "Bazı oral mikroorganizmalar, yüzeylerinde platelet agregasyonuyla ilişkili protein (PAAP) içerir ve koroner trombogeneziste etkili olabilir.\n\nAşağıdakilerden hangisi bu özelliğe sahip periodontitisin patolojisinde aktif rol alan bir mikroorganizmadır?",
+    "options": {
+      "A": "S. sangius",
+      "B": "P. Gingivalis",
+      "C": "A. Actinomycetemcomitans",
+      "D": "P. İntermedia",
+      "E": "F. Nucleatum"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Oral mikroorganizmalardan *Streptococcus sanguinis* (*S. sanguis*) ve *Porphyromonas gingivalis*, hücre yüzeylerinde trombositlerin (plateletlerin) seçici olarak bağlanıp kümeleşmesini tetikleyen \"platelet agregasyonuyla ilişkili protein\" (PAAP) eksprese ederler. Bu iki bakteriden periodontitisin patogenezinde ve yıkımında aktif rol oynayan majör periodontopatojen *Porphyromonas gingivalis*'tir.\n**Çeldiriciler:**\n- A) *Streptococcus sanguinis* yüzeyinde PAAP bulundurmasına rağmen, periodontitis patolojisinde aktif yıkıcı rol oynayan bir patojen değil, sağlıklı dönemle ilişkili erken kolonizör bir bakteridir.\n- C) *A. actinomycetemcomitans* agresif periodontitis patojenidir ancak PAAP aracılı doğrudan trombosit agregasyonu özelliği *P. gingivalis* ve *S. sanguinis*'e özgüdür.\n- D) *Prevotella intermedia* turuncu kompleks patojenidir ancak yüzeyinde PAAP eksprese etmez.\n- E) *Fusobacterium nucleatum* koagregasyon köprüsü kuran bir bakteridir; PAAP ekspresyonu ile karakterize değildir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 142,
+    "question": "I. Sarı\nII. Yeşil\nIII. Turuncu\nIV. Kırmızı\nV. Mor\n\nGeç kolonize mikrobiyal kompleksler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I-II",
+      "B": "II-III",
+      "C": "III-IV",
+      "D": "II-III-IV",
+      "E": "III-IV-V"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Socransky'nin mikrobiyal kompleks sınıflamasında sarı (streptokoklar), yeşil (*Capnocytophaga, Eikenella*) ve mor (*Veillonella, Actinomyces odontolyticus*) kompleksler pelikıla erken dönemde tutunan primer kolonizörleri oluşturur. Turuncu kompleks (*F. nucleatum, P. intermedia, C. rectus*) ve ardından ona bağlanan kırmızı kompleks (*P. gingivalis, T. forsythia, T. denticola*) ise biyofilme sonradan katılan geç (sekonder) kolonize mikrobiyal komplekslerdir.\n**Çeldiriciler:**\n- A) Sarı (I) ve yeşil (II) komplekslerin her ikisi de erken kolonize olan gruplardır.\n- B) Yeşil kompleks (II) erken kolonize olan bakterileri içerir.\n- D) II. öncüldeki yeşil kompleks erken kolonizör olduğundan yanlıştır.\n- E) V. öncüldeki mor kompleks erken kolonize olan bakterilerden oluşur.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Sarı kompleks, pelikıla ilk tutunan streptokok türlerini içeren erken kolonizör gruptur (Yanlış).\n- **II. Öncül:** Yeşil kompleks, erken kolonize olan *E. corrodens* ve *Capnocytophaga* türlerini içerir (Yanlış).\n- **III. Öncül:** Turuncu kompleks, öncül bakterilerin üzerine yerleşen ve kırmızı komplekse zemin hazırlayan geç/ara kolonizör gruptur (Doğru).\n- **IV. Öncül:** Kırmızı kompleks, biyofilm olgunlaştığında en son yerleşen geç kolonizör patojen grubudur (Doğru).\n- **V. Öncül:** Mor kompleks, erken dönemde kolonize olan *V. parvula* ve *A. odontolyticus*'u içerir (Yanlış).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 143,
+    "question": "Gingipainler ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Porphyromonas gingivalis'in fimbriasının sentezinde rol oynayan bir proteindir.",
+      "B": "Diş eti fibroblastlarınca sentezlenen, ağrı hissine neden olan bir proteindir.",
+      "C": "Gram negatif bakterilerin dış membranında bulunan lipopolisakkarit sentezinde rol oynayan bir enzimdir.",
+      "D": "Prevotella intermedia tarafından sentezlenir ve bu bakterinin dokulara invazyonunu sağlar.",
+      "E": "Porphyromonas gingivalis kaynaklıdır, konağın proinflamatuvar sitokin üretimini artıran bir proteazdır."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Gingipainler (arginin-spesifik ve lizin-spesifik), *Porphyromonas gingivalis* tarafından üretilen en önemli virülans faktörü olup sistein proteaz yapısında enzimlerdir. CD14 gibi reseptörleri, kompleman bileşenlerini ve sitokinleri parçalayabildikleri gibi, aynı zamanda konak hücrelerindeki proteazla aktive olan reseptörleri (PAR) uyararak konağın proinflamatuvar sitokin ve enzim üretimini artıran ekzotoksin benzeri işlev görürler ve doğrudan doku yıkımına yol açarlar.\n**Çeldiriciler:**\n- A) *P. gingivalis*'in fimbriasının en önemli yapısal alt birimi FimA proteinidir; gingipain ise fimbria sentez proteini değil, proteolitik bir yıkım enzimidir.\n- B) Gingipainler konak dişeti fibroblastları tarafından değil, *P. gingivalis* bakterisi tarafından sentezlenir.\n- C) Gingipainler LPS biyosentez enzimi değil, konak proteinlerini ve ekstraselüler matriksi parçalayan sistein proteazlardır.\n- D) Gingipainler *Prevotella intermedia* tarafından değil, özgül olarak *Porphyromonas gingivalis* tarafından üretilir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 145,
+    "question": "Porphyromonas gingivalis için aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İmmün-inflamatuar yanıtın ortaya çıkmasına sebep olan endotoksinler içerir",
+      "B": "IL-10'u inhibe ederek kemokin paralizi yapar",
+      "C": "Hücre yüzey polisakkaritleri sayesinde komplemana dirençlidir",
+      "D": "TLR-2, TLR-4 ve TLR-9'u uyarabilir",
+      "E": "Hücrelere invaze olabilir"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** *Porphyromonas gingivalis*, epitel hücrelerine tutunduğunda ve invaze olduğunda nötrofil kemotaksisini sağlayan IL-8'in sentezini ve salınımını baskılayarak \"lokal kemokin paralizi\" oluşturur. Bu mekanizmada inhibe edilen sitokin antiinflamatuvar olan IL-10 değil, kemotaktik bir kemokin olan IL-8'dir.\n**Çeldiriciler:**\n- A) Gram-negatif bir bakteri olduğu için dış membranında immün-inflamatuvar yanıtı ve kemik yıkımını uyaran lipopolisakkarit (endotoksin) barındırır.\n- C) Kapsül ve hücre yüzeyi polisakkaritleri ile gingipain enzimleri sayesinde kompleman sisteminin bakterisidal etkisine karşı dirençlidir.\n- D) Yüzeyindeki fimbria, LPS ve CpG DNA yapıları aracılığıyla konak hücrelerindeki TLR-2, TLR-4 ve TLR-9 reseptörlerini uyarabilir.\n- E) Fimbriaları aracılığıyla dişeti epitel hücrelerindeki β1 integrinlere bağlanarak hücre içine invaze olabilir ve hücre içinde çoğalabilir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 146,
+    "question": "I. Gram (-) anaerob bir bakteridir.\nII. Fimbriaları mevcuttur.\nIII. Ürettikleri gingipainler ile doku yıkımına neden olurlar.\n\nPorphyromonas gingivalis ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kırmızı kompleksin anahtar patojeni olan *Porphyromonas gingivalis*; zorunlu anaerobik, hareketsiz, asakkarolitik, siyah pigmentli Gram-negatif bir çomaktır (I). Yüzeyinde konak hücrelerine tutunmayı, invazyonu ve TLR-2 uyarımını sağlayan fimbriaları (FimA) bulunur (II). Ayrıca ürettiği güçlü sistein proteazlar olan gingipainler ile kollajen ve konak proteinlerini parçalayarak şiddetli periodontal doku yıkımına neden olur (III).\n**Çeldiriciler:**\n- A) Bakterinin önemli virülans faktörleri olan fimbria (II) ve gingipainleri (III) dışladığı için eksiktir.\n- B) Yalnızca fimbria varlığını içerip diğer doğru özellikleri kapsamadığı için eksiktir.\n- C) Bakterinin en önemli yıkıcı enzimi olan gingipainleri (III) içermediği için eksiktir.\n- D) Bakterinin temel mikrobiyolojik tanımı olan Gram (-) anaerob özelliğini (I) dışladığı için eksiktir.\n**Öncüllerin Analizi:**\n- **I. Öncül:** *P. gingivalis*, Gram-negatif, zorunlu anaerob ve hareketsiz bir çomaktır (Doğru).\n- **II. Öncül:** Yüzeyinde adezyon, invazyon ve immün modülasyonda görev alan fimbriaları mevcuttur (Doğru).\n- **III. Öncül:** Salgıladığı arginin ve lizin spesifik gingipain proteazları ile doğrudan bağ dokusu ve immün protein yıkımı yapar (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 147,
+    "question": "Aşağıdaki seçeneklerin hangisi Porphyromonas gingivalis için yanlıştır?",
+    "options": {
+      "A": "Periodontitis patogenezinde önem taşır.",
+      "B": "Gram-negatif anaerob bakteri.",
+      "C": "Gingipain adı verilen proteaz enzimleri ile doku yıkımına yol açarlar.",
+      "D": "Fimbriaları bulunur.",
+      "E": "Hareketlidir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** *Porphyromonas gingivalis*, zorunlu anaerobik, Gram-negatif ve hareketsiz (non-motil) bir çomaktır; flagellası veya aksiyalpeptid filamenti bulunmadığı için aktif hareket yeteneği yoktur.\n**Çeldiriciler:**\n- A) Kırmızı komplekste yer alan ve disbiyozise geçişi başlatan anahtar (keystone) patojen olarak periodontitis patogenezinde birinci derecede önem taşır.\n- B) Hücre duvarı yapısıyla Gram-negatif ve oksijensiz ortamda yaşayan zorunlu anaerob bir bakteridir.\n- C) En önemli virülans faktörü olan gingipain proteazları ile konak savunma proteinlerini ve ekstraselüler matriksi yıkar.\n- D) Konak epitel hücrelerine tutunmasını ve hücre içine invazyonunu sağlayan FimA yapısal proteininden oluşan fimbriaları vardır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 148,
+    "question": "I. Gram negatif anaerop ve hareketsiz bir çomaktır.\nII. Kronik periodontitis ile kuvvetle ilişkili olan bir patojendir.\nIII. Ağızda saptanması hastalığın gelecekteki ilerleme riskinin artacağını gösteren bir göstergedir.\nIV. Virülans faktörleri; kollajenaz, endotoksin, proteolitik tripsin benzeri aktivite, fibrinolizin, hemolizin, gingipain.\n\nYukarıda özellikleri belirtilen mikroorganizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Porphyromonas gingivalis",
+      "B": "Fusobacterium nucleatum",
+      "C": "Prevotella intermedia",
+      "D": "Campylobacter rectus",
+      "E": "Eubacterium"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Zorunlu anaerob, hareketsiz, Gram-negatif bir çomak olan, kronik (erişkin tip) periodontitis ile en güçlü ilişkiyi gösteren, subgingival plakta saptanması gelecekteki ataçman kaybı ve hastalık ilerlemesi için güçlü bir risk indikatörü kabul edilen ve gingipain (tripsin benzeri proteolitik aktivite), kollajenaz, LPS, fimbria, kapsül ve α-hemolizin gibi virülans faktörlerine sahip olan mikroorganizma *Porphyromonas gingivalis*'tir.\n**Çeldiriciler:**\n- B) *Fusobacterium nucleatum* iğ şekilli bir ara kolonizördür; gingipain üretmez.\n- C) *Prevotella intermedia* turuncu kompleks bakterisidir; gingipain sentezlemez ve gelecekteki hastalık ilerlemesi için en spesifik indikatör değildir.\n- D) *Campylobacter rectus* hareketsiz değil, polar flagellası ile aktif hareketli olan bir bakteridir.\n- E) *Eubacterium* türleri Gram-negatif değil, Gram-pozitif anaerobik çomaklardır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 149,
+    "question": "Erken doğum yapan kadınlarda amnion sıvısı ile subgingival plaktaki benzer mikroorganizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aa",
+      "B": "F. nucleatum",
+      "C": "P. gingivalis",
+      "D": "P. intermedia",
+      "E": "Spiroketler"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** *Fusobacterium nucleatum*, subgingival biyofilmde bol bulunan Gram-negatif anaerobik bir çomaktır. Gebelik sırasında dişeti inflamasyonu varlığında geçici bakteriyemi yoluyla hematojen olarak plasentaya ulaşabilir; erken doğum ve düşük doğum ağırlığı görülen kadınların amniyon sıvısında ve bakteriyel vajinoziste en sık izole edilen oral kaynaklı mikroorganizmadır.\n**Çeldiriciler:**\n- A) *Aggregatibacter actinomycetemcomitans* (Aa), lokalize agresif periodontitis ile ilişkilidir; amniyon sıvısında en sık saptanan oral bakteri değildir.\n- C) *Porphyromonas gingivalis* sistemik inflamasyonu artırabilse de amniyon sıvısı kültürlerinde en sık izole edilen oral tür *F. nucleatum*'dur.\n- D) *Prevotella intermedia* gebelik döneminde östrojen ve progesteron artışıyla subgingival plakta en çok artan türdür ancak amniyon sıvısında en sık izole edilen bakteri *F. nucleatum*'dur.\n- E) Spiroketler (ör. *T. denticola*) nekrotizan hastalıklar ve derin ceplerle ilişkilidir; amniyon sıvısında karakteristik olarak izole edilmezler.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 150,
+    "question": "I. Biyofilm içerisinde bulunan bakterilerin çoğalma hızının azalmış olması\nII. Beta-laktamaz gibi antibiyotik inhibitörlerinin biyofilm içerisinde yüksek konsantrasyonda bulunması\nIII. Biyofilm içerisindeki bakterilerin intersellüler DNA değişimi ile sahip oldukları antibiyotik direncini diğer bakterilere aktarması\n\nYukarıdakilerden hangileri dental biyofilm içerisinde yer alan bakterilerin, planktonik bakterilere kıyasla çok daha yüksek (yaklaşık 1000 kat) antibiyotik direnci gösterebilmesinin nedenlerindendir?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "Yalnız I",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dental biyofilmdeki bakterilerin planktonik olanlara göre 1000 kata kadar daha yüksek antibiyotik direnci göstermesinin temel nedenleri şunlardır: Biyofilmin derinliklerinde bakterilerin daha yavaş çoğalması ve hızlı bölünen hücreleri hedef alan antibiyotiklerden etkilenmemesi (I); beta-laktamaz gibi ilaç yıkan hücre dışı enzimlerin polisakkarit matrikste yüksek konsantrasyonda birikerek antibiyotikleri etkisizleştirmesi (II); yakın temas halindeki bakterilerin konjugasyon/transformasyon yoluyla birbirlerine direnç genlerini (DNA) aktarması (III), ayrıca matriksin fiziksel bariyer oluşturması ve bakteriyel dışa atım (efflux) pompalarıdır.\n**Çeldiriciler:**\n- A) Yalnızca gen transferini içerip yavaş büyüme hızı (I) ve enzimatik inaktivasyonu (II) dışladığı için eksiktir.\n- B) Bakteriler arası DNA değişimiyle direnç aktarımını (III) kapsamadığı için eksiktir.\n- C) Biyofilm direncinin en önemli mekanizmalarından biri olan düşük çoğalma hızını (I) dışladığı için eksiktir.\n- D) II ve III numaralı doğru mekanizmaları içermediği için eksiktir.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Biyofilmde bakterilerin büyüme hızının düşmesi, bölünen hücrelere etki eden antibiyotiklerin etkinliğini azaltır (Doğru).\n- **II. Öncül:** Beta-laktamaz gibi hücre dışı enzimler matriks içinde yoğunlaşarak antibiyotikleri hedefe ulaşmadan parçalar (Doğru).\n- **III. Öncül:** Biyofilm ortamı, bakteriler arasında yatay gen transferi ile antibiyotik direnç genlerinin paylaşılmasını kolaylaştırır (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 151,
+    "question": "Aşağıdakilerden hangisi dental biyofilmin antibiyotik direnci göstermesini sağlayan özelliklerden değildir?",
+    "options": {
+      "A": "Biyofilmin kendisi",
+      "B": "Büyüme hızı",
+      "C": "Bakterilerdeki ilaçları dışarı pompalayan sistem",
+      "D": "Bakteri enzimleri",
+      "E": "Redoks potansiyeli"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Redoks potansiyeli (Eh), dokudaki veya biyofilmdeki oksijenlenme düzeyini (oksidasyon-redüksiyon durumunu) ifade eder ve zorunlu anaerob bakterilerin ortamda yaşayıp çoğalabilmesini belirleyen ekolojik bir faktördür; bakterilerin antibiyotiklere karşı geliştirdiği doğrudan bir direnç mekanizması değildir.\n**Çeldiriciler:**\n- A) Biyofilmin ekstraselüler polimerik matriksi (biyofilmin kendisi), özellikle pozitif yüklü hidrofilik antibiyotiklerin derin tabakalara difüzyonunu engelleyen fiziksel ve elektrostatik bir bariyer oluşturur.\n- B) Biyofilm içinde bakterilerin büyüme hızının yavaşlaması, hızlı çoğalan bakterileri hedef alan antibiyotiklere karşı direnç sağlar.\n- C) Bakteri membranında yer alan dışa atım (efflux) pompaları, hücre içine giren antibiyotik moleküllerini aktif olarak dışarı pompalayarak direnç oluşturur.\n- D) Biyofilm matriksinde biriken beta-laktamaz, formaldehit liyaz ve dehidrogenaz gibi bakteri enzimleri antibiyotikleri kimyasal olarak etkisiz hale getirir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 152,
+    "question": "Aşağıdakilerden hangisi bakterilerin kendilerini konak savunmasından koruyabilme yöntemlerinden değildir?",
+    "options": {
+      "A": "Büyüme hızı",
+      "B": "Lökotoksin",
+      "C": "Keystone patojen olmak",
+      "D": "Quorum sensing",
+      "E": "Biyofilm"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** \"Keystone (kilit taşı) patojen olmak\", ortamda düşük miktarda bulunsa dahi konağın immün yanıtını manipüle ederek simbiyotik (dengeli) mikrobiyotayı disbiyotik (patojenik) hale dönüştüren belirli bakteri türlerini (ör. *P. gingivalis*) tanımlayan ekolojik bir kavramdır; bakterilerin kendilerini konak savunmasından korumak için kullandıkları genel bir savunma mekanizması değildir.\n**Çeldiriciler:**\n- A) Bakterilerin biyofilm içerisinde büyüme ve metabolizma hızlarını düşürmeleri, konak savunma faktörlerinden ve antimikrobiyallerden korunmalarını sağlar.\n- B) Lökotoksin (ve bakteri tarafından üretilen proteazlar gibi enzimler), konak nötrofillerini ve lenfositlerini doğrudan yok ederek bakteriyi fagositozdan korur.\n- D) Quorum sensing, bakterilerin hücre yoğunluğuna bağlı kimyasal iletişim kurarak virülans ve savunma genlerini eşzamanlı aktive etmelerini sağlayan koruyucu bir sistemdir.\n- E) Biyofilm oluşturma, bakterileri konak fagositlerinin (nötrofil ve makrofajların) erişiminden, antikorlardan ve kompleman sisteminden koruyan fiziksel bir kalkandır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 154,
+    "question": "Sağlıklı durumdan periodontitise geçişte mikrobiyotada aşağıdakilerden hangisi gerçekleşmez?",
+    "options": {
+      "A": "Gram(+) ten gram (-) kayma",
+      "B": "Kok bakterilerden rod bakterilere geçiş",
+      "C": "Non-motil organizmalardan motil organizmalara geçiş",
+      "D": "Zorunlu anaeroblardan fakültatif anaeroblara geçiş",
+      "E": "Fermantatif türlerden proteolitik türlere geçiş"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sağlıklı sulkusta oksijen düzeyi nispeten daha yüksek olduğu için Gram-pozitif fakültatif anaerobik bakteriler baskındır. Periodontitise geçişte ise cep derinleşir, oksijen-redoks potansiyeli düşer ve mikroflora fakültatif anaeroblardan zorunlu (obligat) anaeroblara doğru kayar; D şıkkında bu geçiş tam tersi şekilde ifade edildiği için yanlıştır.\n**Çeldiriciler:**\n- A) Sağlıktan periodontitise geçişte, sağlıklı floraya hakim olan Gram-pozitif türlerden Gram-negatif periodontopatojenlere doğru belirgin bir kayma olur.\n- B) Sağlıklı sulkusta baskın olan yuvarlak (kok) formdaki bakterilerin yerini, hastalık geliştiğinde çomak (rod/basil) ve sarmal (spiroket) formdaki bakteriler alır.\n- C) Sağlıklı dönemde hareketsiz (non-motil) bakteriler çoğunluktayken, periodontitiste hareketli (motil) basiller ve spiroketler baskın hale gelir.\n- E) Sağlıklı dönemde şekerleri fermente eden (fermentatif) türler baskınken, dişeti oluğu sıvısı ve kanamanın arttığı periodontitiste proteinleri parçalayan (proteolitik) türlere geçiş gerçekleşir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 155,
+    "question": "Periodontal hastalıkların gelişiminde \"faydalı\" türlerin rolü daha az belirgin olsa da bu bakteriler, patojenik türleri farklı şekillerde etkileyebilir ve böylece hastalık sürecini değiştirebilirler.\n\nAşağıdakilerden hangi ya da hangileri faydalı türlerin periodontal patojenlere etkilerinden değildir?",
+    "options": {
+      "A": "Patojenler tarafından kolonize edilebilecek bir nişi pasif olarak işgal ederek",
+      "B": "Patojenin uygun doku yüzeylerine yapışma kabiliyetini aktif olarak sınırlandırarak",
+      "C": "Patojenin canlılığını veya büyümesini olumsuz yönde etkileyerek",
+      "D": "Patojenin virülans faktörleri üretme yeteneğini etkileyerek",
+      "E": "Patojen tarafından üretilip biriken metabolik artıkları parçalayarak"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Faydalı (kommensal) bakteriler, patojenlerin ürettiği metabolik artıkları parçalayarak ortamı onlar için temizlemez; tam aksine patojenlerin kendileri tarafından üretilen yıkıcı virülans faktörlerini (enzim ve toksinleri) parçalayarak (degrade ederek) konağı korurlar. Ayrıca bazen streptokokların ürettiği laktik asidi patojenlerin besin olarak kullanması gibi karmaşık besinsel etkileşimler olabilir, ancak patojenin metabolik atıklarını parçalama şeklinde bir koruyucu mekanizma söz konusu değildir.\n**Çeldiriciler:**\n- A) Faydalı bakteriler subgingival bölgedeki ekolojik nişleri önceden pasif olarak işgal ederek patojenlerin yerleşmesine yer bırakmazlar.\n- B) Patojenlerin konak doku yüzeylerindeki reseptörlere tutunma (adezyon) kabiliyetini yarışmalı veya aktif olarak sınırlandırırlar.\n- C) Hidrojen peroksit (H2O2) ve bakteriyosin gibi maddeler üreterek patojenlerin (ör. *S. sanguinis*'in *A. actinomycetemcomitans* üzerinde yaptığı gibi) canlılığını ve büyümesini baskılarlar.\n- D) Patojenik bakterilerin virülans faktörleri sentezleme yeteneğini olumsuz etkileyerek veya üretilen virülans faktörlerini parçalayarak hastalık sürecini hafifletirler.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 156,
+    "question": "Ağzında 28 diş olan, sigara içmeyen ve medikal bir problemi olmayan 70 yaşındaki kadın hastanın alt anterior ve üst molar bölgede yer alan toplam 6 dişinde interdental klinik ataşman kaybı 6 mm, sondlamada cep derinliği 7 mm ve radyografik alveoler kemik kaybı %50 olarak ölçülüyor. Klinik ve radyografik muayene sonrasında herhangi bir dişinin periodontal sebeple çekim endikasyonu olmadığı belirleniyor.\n\nGüncel periodontal hastalıklar sınıflandırması (2017 EFP kılavuzu) referans alındığında bu hasta için en uygun periodontitis teşhisi nedir?",
+    "options": {
+      "A": "Evre II, Derece A",
+      "B": "Evre II, Derece B",
+      "C": "Evre II, Derece C",
+      "D": "Evre III, Derece B",
+      "E": "Evre III, Derece C"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** 2017 Periodontal Hastalıklar Sınıflamasına göre evreleme yapılırken; interdental klinik ataşman kaybının 6 mm (≥ 5 mm), sondlama derinliğinin 7 mm (≥ 6 mm) ve radyografik kemik kaybının %50 (kökün orta/apikal üçlüsüne uzanan, >%33) olması şiddetli periodontitisi (Evre III veya IV) gösterir. Periodontal sebepli diş kaybının olmaması ve çiğneme disfonksiyonu/bite kollaps gibi kompleks rehabilitasyon ihtiyaçlarının bulunmaması nedeniyle hastalık **Evre III** olarak sınıflandırılır. Dereceleme için direkt kanıt olmadığından indirekt kriter olan \"% kemik kaybı / yaş\" oranı hesaplanır: 50 / 70 = 0,71. Bu değer 0,25 ile 1,0 arasında yer aldığı ve hastada dereceyi modifiye edecek sigara veya diyabet öyküsü bulunmadığı için **Derece B** olarak belirlenir.\n**Çeldiriciler:**\n- A) Evre II'de ataçman kaybı 3-4 mm ve kemik kaybı %15-33 arasındadır; Derece A'da ise kemik kaybı/yaş oranı < 0,25 olmalıdır.\n- B) Hastadaki 6 mm ataçman kaybı ve %50 kemik kaybı Evre II sınırlarını aşmaktadır.\n- C) Hem evre (Evre II değil Evre III) hem de derece (oran 1'den büyük olmadığı ve risk faktörü bulunmadığı için Derece C değil Derece B) yanlıştır.\n- E) Hastanın kemik kaybı/yaş oranı 0,71 (< 1,0) olduğu, sigara içmediği ve diyabeti olmadığı için Derece C değil, Derece B'dir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 157,
+    "question": "I. Periodontal sebepli 5 ten fazla diş kaybı\nII. 6 mm'den derin sondlamada cep derinliği\nIII. Radyografik olarak %50 kemik kaybı\nIV. HbA1c ≥ 7\n\nYukarıdakilerden hangi ya da hangileri Evre III Derece B bir hastada görülebilir?",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** 2017 sınıflamasına göre Evre III periodontitiste; interdental klinik ataşman kaybı ≥ 5 mm'dir, radyografik kemik kaybı kökün orta veya apikal üçlüsüne (%33'ün üzerine, örneğin %50'ye) uzanır (III) ve sondlama cep derinliği ≥ 6 mm'dir (II). Periodontal sebepli diş kaybı ise en fazla 4 diştir (≤ 4 diş); 5 veya daha fazla diş kaybı (I) Evre IV'ü gösterir. Diyabetli bir hastada HbA1c değerinin ≥ %7 olması (IV) ise dereceyi doğrudan Derece C'ye yükseltir; Derece B'de HbA1c < %7 olmalıdır.\n**Çeldiriciler:**\n- A) HbA1c ≥ 7 olması Derece B'de değil, Derece C'de görülür.\n- B) I. öncüldeki 5'ten fazla periodontal diş kaybı Evre III'te değil, Evre IV'te yer alır.\n- D) IV. öncül hastanın derecesini C'ye modifiye edeceği için Derece B bir hastada bulunamaz.\n- E) I. öncül Evre IV kriteri olduğu için Evre III hastada görülmez.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Periodontal kaynaklı ≥ 5 diş kaybı Evre IV periodontitis kriteridir; Evre III'te diş kaybı ≤ 4 diştir (Yanlış).\n- **II. Öncül:** 6 mm ve üzeri sondlama cep derinliği Evre III kompleksite kriterlerindendir (Doğru).\n- **III. Öncül:** Kökün ortasına uzanan (%50) radyografik kemik kaybı Evre III şiddet kriterlerindendir (Doğru).\n- **IV. Öncül:** HbA1c ≥ %7 olan kontrolsüz diyabet varlığı Derece C modifiye edici kriteridir; Derece B'de HbA1c < %7'dir (Yanlış).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 158,
+    "question": "Bir santral kesici dişte fasiyal yüzeyde 4 mm, komşu interproksimal yüzeylerde ise 2 mm ve 5 mm klinik ataçman kaybı ile birlikte mukogingival birleşimi aşan dişeti çekilmesi izlenmektedir.\n\nTarif edilen vakanın güncel (2017) ve Miller dişeti çekilmesi sınıflamasına göre doğru eşleştirmesi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Güncel: Dişeti çekilmesi tip 1 — Miller: Sınıf 1",
+      "B": "Güncel: Dişeti çekilmesi tip 2 — Miller: Sınıf 2",
+      "C": "Güncel: Dişeti çekilmesi tip 2 — Miller: Sınıf 3",
+      "D": "Güncel: Dişeti çekilmesi tip 3 — Miller: Sınıf 3",
+      "E": "Güncel: Dişeti çekilmesi tip 3 — Miller: Sınıf 4"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Cairo'nun 2017 güncel dişeti çekilmesi sınıflamasına göre; interproksimal ataçman kaybı ile birlikte görülen çekilmelerde, eğer interproksimal ataçman kaybı (vakada 5 mm) bukkal/fasiyal ataçman kaybından (vakada 4 mm) daha fazla ise bu durum **Tip 3 çekilme (RT3)** olarak tanımlanır. Miller (1985) sınıflamasına göre ise mukogingival birleşime uzanan veya onu aşan dişeti çekilmesine ek olarak interdental bölgede kemik ve/veya yumuşak doku (ataçman) kaybının bulunması **Miller Sınıf 3** (veya ileri yıkımda Sınıf 4) ile karşılık bulur. Verilen ölçülerde bir yüzeyde 2 mm, diğerinde 5 mm interdental kayıp olması ve fasiyal kaybı (4 mm) aşması nedeniyle güncel sınıflamada Tip 3, Miller sınıflamasında Sınıf 3 olarak eşleştirilir.\n**Çeldiriciler:**\n- A) Tip 1 (RT1) ve Miller Sınıf 1'de interproksimal bölgede hiç ataçman ve kemik kaybı yoktur.\n- B) Miller Sınıf 2'de çekilme mukogingival birleşimi aşar ancak interdental bölgede kemik veya ataçman kaybı bulunmaz.\n- C) Güncel sınıflamada Tip 2 (RT2) olabilmesi için interproksimal ataçman kaybının bukkal ataçman kaybına eşit veya ondan daha az olması gerekir; oysa vakada 5 mm interproksimal kayıp 4 mm bukkal kayıptan fazladır.\n- E) Vakada bir interproksimal alanda kaybın daha sınırlı (2 mm) olması nedeniyle tüm interdental papillaların tamamen yıkıldığı Miller Sınıf 4 yerine Miller Sınıf 3 karşılığı esas alınır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 159,
+    "question": "Sigara kullanım öyküsü olmayan 45 yaşındaki kadın hastanın anamnezinden beş yıl önce tip II diyabet teşhisi aldığı ve HbA1c değerinin %7,8 olduğu ve başka bir sistemik sağlık probleminin olmadığı öğreniliyor. Klinik periodontal ölçümlerinde yaygın klinik ataşman kaybı (KAK) olduğu, en derin KAK değerinin 4 mm olarak ölçüldüğü, sondlamada cep derinliğinin en fazla 5 mm olduğu saptanıyor. Özellikle posterior bölgelerin lingual ve interproksimal yüzeyleri olmak üzere yaygın inflamasyon ve sondlamada kanama oranının %80 olduğu tespit ediliyor. Plak skorları %90 düzeyinde olan hastada furkasyon problemi bulunmuyor. Radyografik kemik kaybı %30 olarak hesaplanıyor.\n\nGüncel periodontal hastalıklar sınıflandırması, 2017 EFP kılavuzu referans alındığında bu hasta için en uygun periodontitis teşhisi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Evre III, Derece B",
+      "B": "Evre I, Derece C",
+      "C": "Evre II, Derece B",
+      "D": "Evre II, Derece C",
+      "E": "Evre III, Derece C"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hastanın evresini belirlemek için şiddet ve kompleksite kriterlerine bakıldığında; en fazla interdental klinik ataşman kaybının 4 mm (3-4 mm aralığında), radyografik kemik kaybının %30 (koronal üçlüde, %15-33 aralığında), maksimum sondlama derinliğinin 5 mm (≤ 5 mm) olması ve furkasyon tutulumunun bulunmaması doğrudan **Evre II** (orta şiddetli periodontitis) teşhisini koydurur. Dereceleme için kemik kaybı yüzdesi / yaş oranı (30 / 45 = 0,66) başlangıçta Derece B'yi işaret etse de, dereceyi modifiye eden risk faktörlerinden diyabet hastası olan bireyde **HbA1c değerinin %7,8 (≥ %7,0)** olması hastanın derecesini doğrudan **Derece C**'ye yükseltir.\n**Çeldiriciler:**\n- A) Ataçman kaybı 5 mm'nin altında ve kemik kaybı %33'ün altında olduğu için Evre III değildir; ayrıca HbA1c ≥ %7 olduğu için Derece B olamaz.\n- B) Evre I'de maksimum ataçman kaybı 1-2 mm ve radyografik kemik kaybı <%15'tir; hastanın değerleri Evre II ile uyumludur.\n- C) Hastanın evresi Evre II olarak doğru olmakla birlikte, HbA1c değerinin %7'nin üzerinde (%7,8) olması dereceyi B'den C'ye modifiye eder.\n- E) Derece C doğru olmakla birlikte, hastada ≥ 5 mm ataçman kaybı, ≥ 6 mm cep derinliği veya furkasyon problemi olmadığı için Evre III değildir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 160,
+    "question": "2017 Periodontal ve peri-implant hastalık sınıflamasına göre Evre-1 periodontitis ve Evre-2 periodontitiste en fazla kaybın görüldüğü alandaki interdental klinik ataçman kaybı seviyeleri aşağıdakilerden hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "Evre-1: 3-4 mm — Evre-2: > 5 mm",
+      "B": "Evre-1: 1-2 mm — Evre-2: 3-4 mm",
+      "C": "Evre-1: > 5 mm — Evre-2: 3-4 mm",
+      "D": "Evre-1: 1-2 mm — Evre-2: > 5 mm",
+      "E": "Evre-1: 3-4 mm — Evre-2: 1-2 mm"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** 2017 Periodontal Hastalıklar Sınıflamasında periodontitis şiddeti dört evrede değerlendirilir. En fazla kaybın görüldüğü bölgedeki interdental klinik ataçman kaybı (CAL) seviyeleri; başlangıç/hafif şiddetteki **Evre-1 periodontitiste 1-2 mm**, orta şiddetteki **Evre-2 periodontitiste 3-4 mm**, şiddetli olan Evre-3 ve Evre-4 periodontitiste ise ≥ 5 mm'dir.\n**Çeldiriciler:**\n- A) 3-4 mm Evre-2'nin, ≥ 5 mm ise Evre-3 ve Evre-4'ün ataçman kaybı kriteridir.\n- C) Evre-1 en hafif evre olup > 5 mm gibi şiddetli bir ataçman kaybı içermez.\n- D) Evre-1 doğru verilmiş ancak Evre-2 için verilen > 5 mm değeri Evre-3/4 kriteridir.\n- E) Evre-1 ve Evre-2'nin ataçman kaybı değerleri birbiriyle ters olarak eşleştirilmiştir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 161,
+    "question": "2017 sınıflamasına göre, aşağıdakilerden hangisi periodontitis derecesini modifiye eden faktörlerdendir?",
+    "options": {
+      "A": "Geçirilmiş periodontal hastalık",
+      "B": "Yaş",
+      "C": "Cinsiyet",
+      "D": "Sosyo-ekonomik durum",
+      "E": "Sigara"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** 2017 Periodontal Hastalıklar Sınıflamasında periodontitisin ilerleme hızını gösteren derece (Grade A, B, C), başlangıçta direkt veya indirekt (% kemik kaybı/yaş) kanıtlarla belirlenir; ardından iki temel risk faktörü olan **sigara kullanımı** ve **diyabet (HbA1c düzeyi)** varlığına göre modifiye edilir. Günde < 10 adet sigara içimi Derece B, ≥ 10 adet sigara içimi ise Derece C modifiye edici kriteridir.\n**Çeldiriciler:**\n- A) Geçirilmiş periodontal hastalık bir risk işareti (marker/predictor) olup kemik kaybı miktarıyla evrelemeyi ve indirekt derecelemeyi etkiler, ancak \"dereceyi modifiye eden\" iki spesifik risk faktöründen biri değildir.\n- B) Yaş, indirekt progresyon kanıtının (% kemik kaybı / yaş oranı) hesaplanmasında kullanılan primer bir değişkendir; modifiye edici risk faktörü değildir.\n- C) Cinsiyet, bireysel bir risk determinantıdır; 2017 dereceleme tablosunda dereceyi modifiye eden bir kriter olarak yer almaz.\n- D) Sosyo-ekonomik durum bir risk determinantıdır; dereceleme sisteminde modifiye edici faktör olarak kullanılmaz.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 163,
+    "question": "En son diş hekimi ziyareti 4 yıl önce olan 29 yaşında kadın hasta, 8 yıl önce teşhis edilen Tip I diyabet için ilaç kullanmaktadır ve en son 2 ay önce alınan hemoglobin A1c değeri 7.8% ölçülmüştür. Radyografilerde birkaç dişinin kök uzunluğunun üçte birini etkileyen kemik kayıpları gözlenmektedir. Tam ağız sondlamada kanama yüzdesi %59, sondlamada cep derinlikleri 1-5 mm ve 10 dişinde 3-4 mm arasında interproksimal ataşman kaybı ölçülmüştür. Her iki arktaki maksiller birinci molar, mandibular sol birinci molar dişinde sınıf I furkasyon defekti tespit edilmiştir.\n\nHastanın verilen bilgileri göz önüne alındığında en doğru teşhis aşağıdakilerden hangisidir? (2017 periodontal ve periimplant hastalıkları ve durumları sınıflandırmasına göre yanıtlayınız)",
+    "options": {
+      "A": "Evre I Derece C",
+      "B": "Evre II Derece A",
+      "C": "Evre II Derece B",
+      "D": "Evre II Derece C",
+      "E": "Evre III Derece C"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hastanın en fazla kayıp görülen dişlerindeki interproksimal ataşman kaybı 3-4 mm arasındadır, radyografik kemik kaybı kökün koronal üçte birinde (%15-33) sınırlıdır, sondlama cep derinliği maksimum 5 mm'dir ve furkasyon tutulumu yalnızca Sınıf I düzeyindedir (Sınıf II veya III değildir). Bu bulgular hastanın **Evre II** periodontitise sahip olduğunu gösterir. Hastanın diyabetik olması ve **HbA1c değerinin %7,8 (≥ %7,0)** olarak ölçülmesi (ayrıca % kemik kaybı / yaş oranının ~33/29 > 1 olması), dereceyi doğrudan **Derece C** olarak belirler.\n**Çeldiriciler:**\n- A) 3-4 mm ataçman kaybı ve kökün üçte birine ulaşan kemik kaybı Evre I değil, Evre II kriteridir.\n- B) HbA1c değeri ≥ %7,0 olan ve 29 yaşında kökün 1/3'ünde kemik kaybı bulunan bir hasta Derece A (yavaş ilerleme) olamaz.\n- C) HbA1c değerinin %7,0 sınırının üzerinde (%7,8) olması, dereceyi B'den C'ye modifiye eder.\n- E) Sınıf I furkasyon tutulumu Evre III için kompleksite kriteri değildir (Evre III'te Sınıf II veya III furkasyon tutulumu ve ≥ 5 mm CAL aranır).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 164,
+    "question": "19 yaşında sağlık sorunu bulunmayan ve sigara kullanmayan erkek hasta dişeti hastalığı sebebiyle periodontoloji kliniğine yönlendirilmiştir. Alınan anamnezde hastanın annesinin \"diş eti hastalığı\" dişsizlikleri olduğunu bildirmiştir. Ağzın tüm periapikal radyografileri incelendiğinde molar dişlerinde koronal üçlüsünün ötesine uzanan açısal kemik defektlerinin dışındaki diğer tüm alanlarda interproksimal kemik seviyeleri normal (mine sement sınırına göre 2 mm uzakta) görülmüştür. Birinci sağ ve birinci sol mandibular molar dişlerin mezial yüzeyinde 10 mm'lik sondalama cep derinliği ve 8 mm klinik ataşman kaybı ölçülmüştür. Bu iki diş haricinde 3 mm'den büyük sondlamada cep derinliği ve klinik ataşman kaybı tespit edilmemiştir.\n\nHastanın verilen bilgileri göz önüne alındığında en doğru teşhis aşağıdakilerden hangisidir? (2017 periodontal ve periimplant hastalıkları ve durumları sınıflandırmasına göre yanıtlayınız)",
+    "options": {
+      "A": "Evre II Derece B",
+      "B": "Evre II Derece C",
+      "C": "Evre III Derece B",
+      "D": "Evre III Derece C",
+      "E": "Evre IV Derece B"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hastanın birinci molar dişlerinde 8 mm klinik ataşman kaybı (≥ 5 mm), 10 mm sondlama cep derinliği (≥ 6 mm) ve kökün koronal üçlüsünün ötesine uzanan açısal (vertikal) kemik defektlerinin bulunması, buna karşılık periodontal sebepli diş kaybı veya Evre IV kompleksite kriterlerinin olmaması **Evre III** (molar-kesici paternli/lokalize) periodontitisi gösterir. Hastanın 19 yaşında olması ve kemik kaybının koronal üçlüyü aşması (>%33) nedeniyle \"% kemik kaybı / yaş\" oranı 1'in çok üzerindedir (>1,0); ayrıca mevcut biyofilme göre yıkımın çok fazla olması ve erken başlangıçlı molar-kesici paterni göstermesi doğrudan **Derece C** (hızlı ilerleme) teşhisini koydurur.\n**Çeldiriciler:**\n- A) 8 mm ataçman kaybı ve 10 mm cep derinliği Evre II sınırlarını (3-4 mm CAL, ≤ 5 mm cep) aşmaktadır; ayrıca 19 yaşındaki bu şiddetli yıkım Derece B olamaz.\n- B) Derece C doğru olmakla birlikte, 8 mm ataçman kaybı ve koronal üçlüyü aşan dikey kemik defektleri Evre II değil Evre III'tür.\n- C) Evre III doğrudur ancak 19 yaşında koronal üçlüyü aşan kemik yıkımında kemik kaybı/yaş oranı > 1 olduğu için derece B değil C'dir.\n- E) Hastada diş kaybı, çiğneme disfonksiyonu veya sekonder oklüzal travma bulunmadığı için Evre IV değildir ve ilerleme hızı Derece B değil C'dir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 166,
+    "question": "Altmış yaşında kadın hasta dişeti kanamaları ve dişeti çekilmeleri şikayeti ile kliniğe başvuruyor. Alınan anamnezde hastanın sigara içmediği ve diyabet hastası olduğu (HbA1c: 6) öğreniliyor. Yapılan oral muayenede periodontal sebeple 2 dişinin çekildiği, 3-7 mm arasında değişen sondlama derinlikleri ve maksimum interdental ataçman kaybının 7 mm olduğu, sondlamada kanamanın %60 alanda ölçüldüğü görülüyor. Hastanın ağzındaki dişlerin %70'inde ataçman kaybı görülüyor.\n\n2017 Periodontal ve Periimplant Hastalıklar Sınıflaması'na göre bu hastanın teşhisi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Generalize gingivitis",
+      "B": "Generalize kronik periodontitis",
+      "C": "Evre 2, Derece A periodontitis",
+      "D": "Evre 3 Derece A periodontitis",
+      "E": "Evre 3 Derece B periodontitis"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Hastanın dişlerinin %70'inde ataçman kaybı bulunması, maksimum interdental ataçman kaybının 7 mm (≥ 5 mm) ve cep derinliğinin 7 mm (≥ 6 mm) olması, ayrıca periodontal sebeple 2 dişini (≤ 4 diş) kaybetmiş olması **Evre 3** (generalize) periodontitisi gösterir. Hasta diyabet hastası olduğu için HbA1c değeri %6 (< %7,0) ile kontrol altında olsa dahi, diyabet varlığı dereceyi modifiye ederek hastanın Derece A olmasını engeller ve **Derece B** olarak sınıflandırılmasını sağlar.\n**Çeldiriciler:**\n- A) Hastada yaygın klinik ataçman kaybı (7 mm) ve periodontal diş kaybı bulunduğu için tablo gingivitis değil, periodontitistir.\n- B) 2017 sınıflamasında \"kronik periodontitis\" terimi kaldırılmış, yerine evre ve derece sistemi getirilmiştir.\n- C) 7 mm ataçman kaybı ve periodontal diş kaybı Evre 2 sınırlarını aşar; ayrıca diyabetli bir hasta Derece A olamaz.\n- D) Evre 3 doğrudur ancak 2017 sınıflamasına göre normoglisemik olmayan (diyabet tanısı bulunan, HbA1c < 7 olan) hastalar Derece A değil, Derece B'de yer alır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 167,
+    "question": "Evre-1 periodontitis ve Evre-2 periodontitiste en fazla kaybın görüldüğü alandaki interdental klinik ataçman kaybı seviyeleri aşağıdakilerden hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "Evre-1: 3-4 mm — Evre-2: ≥ 5 mm",
+      "B": "Evre-1: 1-2 mm — Evre-2: 3-4 mm",
+      "C": "Evre-1: ≥ 5 mm — Evre-2: 3-4 mm",
+      "D": "Evre-1: 1-2 mm — Evre-2: ≥ 5 mm",
+      "E": "Evre-1: 3-4 mm — Evre-2: 1-2 mm"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** 2017 Periodontal Hastalıklar Sınıflamasında evrelemenin birincil şiddet kriteri olan en fazla kaybın görüldüğü bölgedeki interdental klinik ataçman kaybı (CAL); **Evre-1 periodontitiste 1-2 mm**, **Evre-2 periodontitiste 3-4 mm**, Evre-3 ve Evre-4 periodontitiste ise ≥ 5 mm'dir.\n**Çeldiriciler:**\n- A) 3-4 mm Evre-2'nin, ≥ 5 mm ise Evre-3 ve Evre-4'ün ataçman kaybı değeridir.\n- C) Evre-1 başlangıç düzeyindeki periodontitistir; ≥ 5 mm ataçman kaybı şiddetli periodontitisi (Evre-3/4) gösterir.\n- D) Evre-2 orta şiddetli periodontitistir ve ataçman kaybı ≥ 5 mm değil, 3-4 mm'dir.\n- E) Evre-1 ve Evre-2'ye ait klinik ataçman kaybı değerleri ters verilmiştir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 172,
+    "question": "Periodonsiyumu etkileyen durumlardan hangi ya da hangileri ile \"Fusobacterium Nucleatum\" un ilişkisi en azdır?",
+    "options": {
+      "A": "Nekrotizan Gingivitis",
+      "B": "Periodontitis",
+      "C": "Bakteriyel vaginozis",
+      "D": "Lineer IgA hastalığı",
+      "E": "Ehler Danlos Sendromu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Lineer IgA hastalığı, bazal membran bölgesinde çizgisel IgA birikimi ve subepitelyal bül oluşumu ile karakterize otoimmün vezikülobüllöz (mukokütanöz) bir hastalıktır. Klinik olarak deskuamatif gingivitis tablosuna yol açar; bakteriyel biyofilm veya *Fusobacterium nucleatum* kaynaklı bir enfeksiyon değildir.\n**Çeldiriciler:**\n- A) Nekrotizan gingivitiste spiroketlerle birlikte sayıca en çok artan ve ülser sahasını istila eden ana bakteri fuziform basillerdir (*Fusobacterium nucleatum*).\n- B) *F. nucleatum*, turuncu kompleksin anahtar köprü bakterisi olarak periodontitis gelişiminde doğrudan rol oynar.\n- C) Bakteriyel vajinoziste ve buna bağlı erken doğum yapan kadınların amniyon sıvısında en sık izole edilen oral bakteri *F. nucleatum*'dur.\n- E) Ehlers-Danlos sendromunda gelişen şiddetli periodontitiste subgingival florada sayısında en fazla artış görülen mikroorganizmalardan biri *F. nucleatum*'dur.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 174,
+    "question": "I. Monozigotik ve dizigotik ikizlerde, periodontitis dağılımını inceleyerek genetik ve çevresel faktörlerin etki oranının belirlenmesine yönelik \"ikiz çalışmaları\"\nII. Aile içinde farklı jenerasyonların birlikte değerlendirilmesi ile ailesel geçişte resesif ve dominant yatkınlık genlerinin araştırıldığı \"segregasyon analizi\"\nIII. Periodontitisli ve sağlıklı bireylerde periodontitis patogenezinde rol oynayabileceği öngörülen aday genlerin incelenmesi için \"aday gen analizi\"\n\nYukarıdaki araştırma yöntemlerinden hangileri, periodontal hastalık patogenezinde genetik faktörlerin rolünü belirlemek için kullanılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Periodontal hastalıkların patogenezinde genetik faktörlerin rolünü ve kalıtım paternini araştırmak amacıyla kullanılan başlıca yöntemler; ikiz çalışmaları (I), segregasyon analizleri (II), aday gen analizleri (III), ailesel agregasyon çalışmaları, bağlantı (linkage) analizleri ve genom çapında ilişkilendirme çalışmalarıdır (GWAS). Verilen her üç araştırma yöntemi de doğru tanımlanmıştır ve periodontal genetik araştırmalarında aktif olarak kullanılır.\n**Çeldiriciler:**\n- A) Yalnızca ikiz çalışmalarını içerip segregasyon (II) ve aday gen (III) analizlerini dışladığı için eksiktir.\n- B) Yalnızca aday gen analizini kapsadığı için eksiktir.\n- C) Aile içi kalıtım kalıbını inceleyen segregasyon analizini (II) içermediği için eksiktir.\n- D) Spesifik gen polimorfizmlerini araştıran aday gen analizini (III) dışladığı için eksiktir.\n**Öncüllerin Analizi:**\n- **I. Öncül:** İkiz çalışmaları, monozigotik ve dizigotik ikizleri karşılaştırarak fenotipteki genetik ve çevresel varyansı belirlemek için kullanılır (Doğru).\n- **II. Öncül:** Segregasyon analizi, aile soyağaçlarında hastalığın kuşaklar arası geçişini inceleyerek otozomal dominant veya resesif kalıtım modelini saptamak için kullanılır (Doğru).\n- **III. Öncül:** Aday gen analizleri, patogenezde rolü olduğu bilinen (ör. IL-1, TNF-α, FcγR) genlerdeki polimorfizmleri hasta ve sağlıklı gruplarda karşılaştırmak için kullanılır (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 175,
+    "question": "Aşağıdaki araştırma yöntemlerinden hangisi periodontal hastalık patogenezinde genetik faktörlerin rolünü belirlemek için kullanılmaz?",
+    "options": {
+      "A": "İkiz çalışmaları",
+      "B": "Segregasyon analiz",
+      "C": "Aday gen analizi",
+      "D": "Ailesel agregasyon ve risk analizleri",
+      "E": "Meta Analiz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Meta-analiz, belirli bir konuda birbirinden bağımsız olarak yapılmış çok sayıdaki klinik veya deneysel çalışmanın sonuçlarını istatistiksel yöntemlerle birleştirerek kanıt düzeyi en yüksek ortak bir sonuca ulaşmayı sağlayan genel bir literatür sentez yöntemidir; genetik faktörleri saptamaya özgü spesifik bir genetik araştırma yöntemi değildir.\n**Çeldiriciler:**\n- A) İkiz çalışmaları, tek ve çift yumurta ikizlerinde hastalık uyumunu inceleyerek genetik kalıtılabilirlik oranını belirleyen özgül genetik çalışmalardır.\n- B) Segregasyon analizi, aile bireylerinde hastalığın geçiş modelini (dominant/resesif) belirleyen genetik analiz yöntemidir.\n- C) Aday gen analizi, hastalık patogeneziyle ilişkili olabileceği düşünülen spesifik gen bölgelerindeki polimorfizmleri inceleyen genetik yöntemdir.\n- D) Ailesel agregasyon analizleri, bir hastalığın aile bireylerinde genel popülasyona göre daha sık kümelenip kümelenmediğini araştıran genetik çalışmalardır.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 177,
+    "question": "Periodontal sağlıktan hastalığa geçişte mikrobiyotadaki değişimler rol oynamaktadır. Porphyromonas gingivalis'in disbiyozise geçişte anahtar (keystone) bakteri olduğu hipotezi yaygın olarak savunulmaktadır.\n\nAşağıdaki mekanizmalardan hangisi Porphyromonas gingivalis'in disbiyozise geçişe neden olan özelliklerinden değildir?",
+    "options": {
+      "A": "IL-8'i inhibe ederek nötrofillerin migrasyonunu engeller.",
+      "B": "Kompleman sistemini etkileyerek doğal immün yanıtı bozar.",
+      "C": "Lokal kemokin paralizisine yol açarak konak yanıtını bozar.",
+      "D": "Hızlı çoğalarak biyofilm içinde en fazla bulunan bakteri hâline gelir.",
+      "E": "TLR-4 yanıtını manipüle ederek immün yanıtı değiştirir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** \"Keystone (kilit taşı) patojen\" kavramının temel tanımı, bir mikroorganizmanın ortamda **çok düşük sayı ve oranda bulunsa dahi** konağın immün sistemini manipüle ederek tüm simbiyotik mikrobiyotayı disbiyotik (hastalıklı) hale dönüştürebilmesidir. *Porphyromonas gingivalis* hızlı çoğalarak biyofilmde sayıca en baskın bakteri haline gelmez; aksine düşük miktarlarda kalarak bozduğu konak yanıtı üzerinden diğer kommensal/fırsatçı bakterilerin aşırı çoğalmasına ve disbiyozise yol açar.\n**Çeldiriciler:**\n- A) *P. gingivalis*, epitel hücrelerinden IL-8 salınımını baskılayarak nötrofillerin cep bölgesine göçünü (migrasyonunu) engeller.\n- B) Gingipain enzimleri ile kompleman bileşenlerini (C3 ve C5) parçalayıp C5a reseptörü ile TLR-2 arasında çapraz etkileşim kurarak kompleman sistemini ve doğal bağışıklığı bozar.\n- C) Serin fosfataz (SerB) enzimi aracılığıyla epitel hücrelerinde IL-8 transkripsiyonunu bloke ederek \"lokal kemokin paralizisi\" oluşturur.\n- E) Ortamdaki hemin (demir) konsantrasyonuna göre LPS yapısını değiştirerek TLR-4'ün agonisti veya antagonisti gibi davranır ve konak immün yanıtını manipüle eder.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 178,
+    "question": "I. IL-8 inhibisyonu ile nötrofil migrasyonunu engeller.\nII. Kompleman sistemine müdahale eder.\nIII. TLR-4 yanıtını manipüle eder.\nIV. Hızlı çoğalarak biyofilm içindeki en çok bulunan bakteri olur.\n\nYukarıda verilen mekanizmalardan hangi/leri P. Gingivalis'in keystone bakteri niteliği kazandıran özelliklerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I-II-III",
+      "D": "I-III-IV",
+      "E": "II-III-IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** *Porphyromonas gingivalis*'e \"keystone (kilit taşı) patojen\" niteliği kazandıran üç temel mekanizma vardır: 1) IL-8 sentezini durdurarak (lokal kemokin paralizisi) nötrofil migrasyonunu engellemesi (I), 2) Kompleman sistemine müdahale ederek doğal immün yanıtı bozması (II) ve 3) Ortamdaki demir miktarına bağlı olarak TLR-4 agonisti veya antagonisti şeklinde davranıp TLR-4 yanıtını yönlendirmesi (III). Keystone patojenler biyofilmde sayıca çok düşük oranlarda bulunmalarına rağmen bu etkileri gösterirler; biyofilmde en çok bulunan bakteri haline gelmezler (IV yanlıştır).\n**Çeldiriciler:**\n- A) II ve III numaralı temel keystone mekanizmalarını dışladığı için eksiktir.\n- B) I ve II numaralı mekanizmaları içermediği için eksiktir.\n- D) Keystone patojen tanımına ters düşen IV. öncülü içerdiği için yanlıştır.\n- E) IV. öncülü içerip I. öncülü dışladığı için yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** IL-8 inhibisyonu (kemokin paralizisi) ile nötrofil göçünü bozması temel keystone mekanizmasıdır (Doğru).\n- **II. Öncül:** Gingipainler aracılığıyla kompleman sistemini manipüle etmesi keystone özelliğidir (Doğru).\n- **III. Öncül:** LPS modifikasyonu ile TLR-4 yanıtını yönlendirmesi keystone özelliğidir (Doğru).\n- **IV. Öncül:** Keystone patojenler biyofilmde en fazla bulunan bakteri olmazlar, düşük sayılarda bile disbiyozisi başlatırlar (Yanlış).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 180,
+    "question": "Aşağıdakilerden hangisi bir mikroorganizmanın periodontal patojen olması için taşıması gereken kriterlerden (Socransky Kriterleri) değildir?",
+    "options": {
+      "A": "Hastalıkla ilişkilendirilmek ve hastalıklı bölgelerdeki organizmanın sayısında artış olması",
+      "B": "Tedavi ile hastalıklı bölgelerde elimine olması veya azalması",
+      "C": "Keystone bakteri özelliklerini taşıması",
+      "D": "Deney hayvanı modellerinde hastalık oluşturabilme",
+      "E": "Mikroorganizmanın periodontal dokuların tahribatına neden olmasını sağlamaktan sorumlu olan kanıtlanabilir virülans faktörleri olması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Socransky tarafından Koch postülatlarının periodontal hastalıklara uyarlanmasıyla oluşturulan kriterlerde bir mikroorganizmanın \"potansiyel periodontal patojen\" kabul edilmesi için 5 temel şart tanımlanmıştır. \"Keystone bakteri özelliklerini taşıması\" Socransky kriterlerinden biri değildir; çünkü her periodontal patojen (ör. *A. actinomycetemcomitans, T. denticola*) bir keystone patojen olmak zorunda değildir ve keystone kavramı Socransky kriterlerinden çok daha sonra tanımlanmıştır.\n**Çeldiriciler:**\n- A) İlişki kriteri: Mikroorganizmanın hastalıklı bölgelerde sağlıklı bölgelere göre sayıca artmış olması Socransky'nin 1. kriteridir.\n- B) Eliminasyon kriteri: Başarılı tedavi ile hastalığın gerilemesi sonucunda bakterinin bölgeden elimine olması veya azalması 2. kriterdir.\n- D) Hayvan modeli kriteri: Mikroorganizmanın deney hayvanı modellerinde benzer periodontal hastalık ve kemik yıkımı oluşturabilmesi 4. kriterdir (3. kriter ise konağın hücresel veya hümoral immün yanıt oluşturmasıdır).\n- E) Virülans faktörleri kriteri: Bakterinin periodontal doku yıkımına yol açabilecek kanıtlanabilir virülans faktörlerine (toksin, enzim vb.) sahip olması 5. kriterdir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 189,
+    "question": "Sigara içenlerin ağızlarında sayısında en fazla artış görülen mikroorganizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "P. İntermedia",
+      "B": "A. Actynomicemcomitans",
+      "C": "P. Gingivalis",
+      "D": "B. forsythus",
+      "E": "A. viscousos"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sigara içen bireylerin periodontal ceplerinde oksijen geriliminin düşmesi ve lokal konak savunmasının baskılanması sonucunda subgingival patojenlerin kolonizasyonu artar. Çalışmalarda sigara içen bireylerde içmeyenlere kıyasla sayısında en belirgin artış (2-3 kat daha fazla) görülen mikroorganizmanın **Bacteroides forsythus (güncel adıyla Tannerella forsythia)** olduğu gösterilmiştir.\n**Çeldiriciler:**\n- A) *Prevotella intermedia* özellikle seks steroid hormonlarının arttığı gebelik ve puberte dönemlerinde en fazla artan bakteridir.\n- B) *Aggregatibacter actinomycetemcomitans* lokalize agresif periodontitis ile ilişkilidir; sigara içenlerde spesifik olarak en çok artan tür değildir.\n- C) *Porphyromonas gingivalis* sigara içenlerde artış gösterse de oransal olarak en fazla artış gösteren spesifik tür *B. forsythus* (*T. forsythia*)'dur.\n- E) *Actinomyces viscosus* hastalıkla değil, periodontal sağlıkla ve erken plak oluşumuyla ilişkili Gram-pozitif bir bakteridir.\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 190,
+    "question": "I. Klinik ataşman kazancı miktarı azalır.\nII. Periodontal defektlerin kemik dolum düzeyi etkilenmez.\nIII. Bariyer membranın erken dönemde ekspoze olma (açığa çıkma) riski artar.\n\nSigara kullanımının, rejeneratif periodontal tedavi sonuçlarına etkileriyle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I, II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Sigara kullanımı; fibroblast fonksiyonlarını, kollajen sentezini, revaskülarizasyonu ve osteoblastik aktiviteyi baskılayarak cerrahi ve rejeneratif periodontal tedavi sonuçlarını ciddi şekilde olumsuz etkiler. Yönlendirilmiş doku rejenerasyonu (YDR) ve kemik grefti uygulamaları sonrasında sigara içenlerde **klinik ataşman kazancı miktarı azalır (I)**, **kemik dolum düzeyi azalır (II yanlıştır)**, dişeti çekilmesi ve bozulmuş yara iyileşmesine bağlı olarak **bariyer membranın erken dönemde ekspoze olma (açığa çıkma) riski belirgin şekilde artar (III)**.\n**Çeldiriciler:**\n- A) Sigaranın membran ekspozisyonu riskini artırdığını belirten doğru III. öncülü içermediği için eksiktir.\n- B) Klinik ataşman kazancının azaldığını belirten doğru I. öncülü dışladığı için eksiktir.\n- C) Sigara içenlerde kemik içi defektlerin kemik dolum düzeyi de belirgin olarak azaldığı için II. öncül yanlıştır.\n- D) Yanlış olan II. öncülü içerdiği için hatalıdır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** YDR ve rejeneratif cerrahiler sonrasında sigara içenlerde elde edilen klinik ataşman kazancı içmeyenlere göre anlamlı derecede daha azdır (Doğru).\n- **II. Öncül:** Sigara kullanımı vaskülarizasyonu ve osteogenezi bozduğu için periodontal defektlerin kemik dolum düzeyini azaltır; etkilenmemesi söz konusu değildir (Yanlış).\n- **III. Öncül:** Sigara içenlerde flep kanlanmasının bozulması ve dişeti çekilmesi artışı nedeniyle bariyer membranın açığa çıkma oranı yükselir (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Patoloji ve Mikrobiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  }
+]

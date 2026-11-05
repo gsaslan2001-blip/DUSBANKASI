@@ -1,0 +1,223 @@
+[
+  {
+    "q_num": 362,
+    "question": "I. Periodontal idame\nII. Cerrahi olmayan tedavi\nIII. Cerrahi tedavi\nIV. Periodontal değerlendirme\nV. Yeniden değerlendirme\n\nPeriodontal tedavi sırasında hangi sıralama takip edilir?",
+    "options": {
+      "A": "I-II-IV-III-V",
+      "B": "II-IV-III-V-I",
+      "C": "II-V-III-IV-I",
+      "D": "IV-II-III-V-I",
+      "E": "IV-II-V-III-I"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Doğru bir periodontal tedavi akışında önce kapsamlı periodontal değerlendirme ve teşhis (IV) yapılır, ardından Faz I cerrahi olmayan tedavi (II) uygulanır. Doku iyileşmesi beklendikten sonra yeniden değerlendirme (V) yapılarak Faz II cerrahi tedavi (III) ihtiyacına karar verilir ve aktif tedavi bitiminde hasta Faz IV periodontal idame (I) programına alınır (IV - II - V - III - I).\n**Öncüllerin Analizi:**\n- I. Periodontal idame: Aktif tedavi tamamlandıktan sonra elde edilen sağlığın korunması için en son aşamada uygulanır (5. sıra).\n- II. Cerrahi olmayan tedavi: İlk muayene ve teşhisten hemen sonra uygulanan etiyotropik fazdır (2. sıra).\n- III. Cerrahi tedavi: Yeniden değerlendirme sonucunda rezidüel cepler veya defektler kalmışsa uygulanır (4. sıra).\n- IV. Periodontal değerlendirme: Tedavi planı oluşturmak için en başta yapılan muayenedir (1. sıra).\n- V. Yeniden değerlendirme: Faz I tedavinin etkinliğini görmek ve cerrahi kararı vermek için Faz I ile Faz II arasında yapılır (3. sıra).\n**Çeldiriciler:**\n- A) İdame fazını en başa koyduğu için yanlıştır.\n- B) Muayene ve değerlendirmeyi tedaviden sonraya koyduğu için yanlıştır.\n- C) İlk değerlendirmeyi (IV) cerrahi tedaviden sonraya bıraktığı için yanlıştır.\n- D) Faz I tedavi sonrası yeniden değerlendirme (V) yapmadan doğrudan cerrahi tedaviye (III) geçtiği için yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 364,
+    "question": "Aşağıdakilerden hangisi faz IV uygulamalarından değildir?",
+    "options": {
+      "A": "Plak ve diştaşı temizliği",
+      "B": "Periodontal değerlendirme",
+      "C": "Oklüzal değerlendirme",
+      "D": "Antimikrobiyal terapi",
+      "E": "Oral hijyen prosedürlerinin hatırlatılması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Lokal veya sistemik antimikrobiyal terapi, aktif enfeksiyonun kontrol altına alındığı Faz I (cerrahi olmayan) veya Faz II (cerrahi) tedavi aşamalarında uygulanır; periyodik kontrolleri içeren Faz IV (idame) aşamasının rutin bir parçası değildir.\n**Çeldiriciler:**\n- A) İdame seanslarında yeniden biriken plak ve diştaşlarının profesyonel temizliği yapılır.\n- B) Cep derinlikleri, ataçman seviyesi ve inflamasyon durumu idame fazında periyodik olarak değerlendirilir.\n- C) Okluzyon ve diş mobilitesindeki değişimler Faz IV kontrollerinde incelenir.\n- E) Hastanın motivasyonunu sürdürmek için oral hijyen eğitimi idame seanslarında tekrarlanır.\n\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 365,
+    "question": "I. Ailede periodontal hastalık hikayesi varlığı\nII. Devam eden ortodontik tedavi\nIII. Hastanın yaşlı olması\n\nYukarıdakilerden hangisi ya da hangileri idame randevularının sıklaştırılmasını gerektiren faktörler arasındadır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** İdame aralıkları standart olarak ilk yıl 3 ayda bir düzenlenmekle birlikte; hastanın genetik yatkınlığı (aile hikayesi) ve plak retansiyonunu artıran devam eden ortodontik tedavi varlığında randevular sıklaştırılır. İleri yaş ise tek başına hastalık aktivitesini veya riski artıran bir faktör değildir (aynı yıkım miktarına sahip genç hasta yaşlı hastadan daha yüksek risk altındadır).\n**Öncüllerin Analizi:**\n- I. Ailede periodontal hastalık hikayesi varlığı: Genetik yatkınlığı gösterir ve daha sık takip gerektirir (Doğru).\n- II. Devam eden ortodontik tedavi: Apareyler plak kontrolünü güçleştirdiği ve okluzal kuvvetler uygulandığı için sık idame gerektirir (Doğru).\n- III. Hastanın yaşlı olması: Yaşlılık tek başına idame sıklığını artıran bir risk faktörü değildir (Yanlış).\n**Çeldiriciler:**\n- A) II. öncülü dışladığı için eksiktir.\n- C) Yanlış olan III. öncülü içerdiği için hatalıdır.\n- D) Yanlış olan III. öncülü içerdiği ve I. öncülü dışladığı için hatalıdır.\n- E) Yanlış olan III. öncülü içerdiği için hatalıdır.\n\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 564,
+    "question": "Aşağıdakilerden hangisi peri-implantit oluşumu için risk faktörlerinden biri değildir?",
+    "options": {
+      "A": "Kötü ağız hijyeni",
+      "B": "Periodontit hikayesi olması",
+      "C": "Diyabet",
+      "D": "Alkol kullanımı",
+      "E": "Kısa implant kullanımı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kısa implant kullanımı biyomekanik açıdan kron/implant oranını etkileyebilir ancak bakteriyel plak kaynaklı enflamatuar bir yıkım olan peri-implantitis gelişimi için bir risk faktörü değildir.\n**Çeldiriciler:**\n- A) Kötü ağız hijyeni; mikrobiyal biyofilm birikimine neden olarak peri-implantitis gelişiminde en önemli lokal risk faktörünü oluşturur.\n- B) Geçmiş veya mevcut periodontitis hikayesi; ortak periodontopatojen flora ve yatkın konak yanıtı nedeniyle peri-implantitis için kanıtlanmış en güçlü risk faktörlerindendir.\n- C) Kontrolsüz diyabet; bozulmuş nötrofil fonksiyonu ve artmış AGE düzeyleri ile yara iyileşmesini bozarak peri-implantitis riskini artırır.\n- D) Sigara ve aşırı alkol kullanımı; konak savunmasını ve kemik metabolizmasını olumsuz etkileyerek peri-implantitis riskini yükseltir.\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 565,
+    "question": "I. İmplant markası\nII. Periodontit hikayesi olması\nIII. Kısa implant kullanımı\nIV. Diyabet\n\nAşağıdakilerden hangisi/hangileri peri-implantit oluşumu için risk faktörlerinden değildir?",
+    "options": {
+      "A": "I-II",
+      "B": "I-III",
+      "C": "II-III",
+      "D": "II-IV",
+      "E": "III-IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Peri-implantitis gelişimi biyofilm birikimi, hastanın sistemik durumu ve geçmiş periodontal hastalık öyküsü ile doğrudan ilişkili iken; standartlara uygun üretilmiş implantın markası ve boyu (kısa olması) peri-implantitis risk faktörü olarak kabul edilmez.\n**Çeldiriciler:** II. ve IV. öncüllerin yer aldığı A, C, D ve E seçenekleri yanlıştır.\n- **I. Öncül (Doğru - Risk Faktörü Değildir):** İmplantın ticari markası peri-implantitis gelişimi için bir risk faktörü değildir.\n- **II. Öncül (Yanlış - Risk Faktörüdür):** Hastada periodontitis hikayesi bulunması, peri-implantitis gelişimi için en temel risk faktörlerinden biridir.\n- **III. Öncül (Doğru - Risk Faktörü Değildir):** Kısa implant kullanımı peri-implantitis oluşumu için risk faktörü değildir.\n- **IV. Öncül (Yanlış - Risk Faktörüdür):** Diyabet (özellikle zayıf glisemik kontrol), peri-implantitis gelişim riskini artıran sistemik bir faktördür.\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 566,
+    "question": "Aşağıdakilerden hangisi, kısmi dişsiz bireylere uygulanan implantların başarısızlık riskini en az etkiler?",
+    "options": {
+      "A": "İmplant uygulanacak bölgede vertikal yönde kemik yetersizliği",
+      "B": "Gingivitis varlığı",
+      "C": "Günde 12 tane sigara içilmesi",
+      "D": "İnterlökin-1 gen polimorfizminin varlığı",
+      "E": "Kötü ağız bakımı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Gingivitis, destek kemik yıkımı yapmayan ve geri dönüşümlü olan yüzeyel bir diş eti inflamasyonudur. Aktif veya geçmiş periodontitis varlığı implant başarısızlığı için çok güçlü bir risk oluştururken, ataşman ve kemik yıkımına yol açmamış basit bir gingivitis varlığı diğer faktörlere kıyasla implant başarısızlık riskini en az etkileyen durumdur.\n**Çeldiriciler:**\n- A) Vertikal yönde kemik yetersizliği; primer stabiliteyi, uygun boyutta implant yerleşimini ve kron/implant oranını bozarak başarısızlık riskini ciddi şekilde artırır.\n- C) Günde 10 adetten fazla (12 adet) sigara içilmesi; kanlanmayı bozarak osseointegrasyon kaybı ve peri-implantitis riskini önemli ölçüde yükseltir.\n- D) İnterlökin-1 (IL-1) gen polimorfizmi; hiperinflamatuar konak yanıtına ve hızlı marjinal kemik yıkımına neden olarak implant başarısızlık riskini artırır.\n- E) Kötü ağız bakımı; yoğun biyofilm birikimi sonucu peri-implantitis gelişimine ve implant kaybına doğrudan zemin hazırlar.\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 567,
+    "question": "I. Kötü oral hijyen\nII. Periodontitis\nIII. Kısa ve dar implantlar\nIV. Yıllık 0.1 mm'lik kemik kaybı\n\nYukarıda verilenlerden hangi yada hangileri kısmi dişsiz bireylere uygulanan implantların başarısızlık riskini en az etkiler?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve IV",
+      "C": "III ve IV",
+      "D": "I-II-IV",
+      "E": "II-III-IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** İmplant başarısızlığında en belirleyici etkenler enfeksiyon ve bozulmuş konak yanıtı iken; uygun endikasyonda kullanılan kısa/dar implantlar ve fizyolojik sınırlar içindeki yıllık kemik değişimi başarısızlık riskini en az etkileyen unsurlardır.\n**Çeldiriciler:** I. ve II. öncüllerin yer aldığı A, B, D ve E seçenekleri yanlıştır.\n- **I. Öncül (Yanlış):** Kötü oral hijyen, peri-implantitis ve geç dönem implant kaybının birincil nedenidir.\n- **II. Öncül (Yanlış):** Mevcut dişlerdeki periodontitis, bakteriyel translokasyon yoluyla implant çevresini enfekte ederek başarısızlık riskini çok yükseltir.\n- **III. Öncül (Doğru):** Güncel yüzey özelliklerine sahip kısa ve dar implantların uygun protetik planlama ile kullanılması, enfektif faktörlere göre başarısızlık riskini çok az etkiler.\n- **IV. Öncül (Doğru):** Albrektsson ve Zarb başarı kriterlerine göre ilk yıldan sonraki yıllarda yıllık 0,2 mm'den az kemik kaybı olması tamamen normal (başarılı) kabul edilir; dolayısıyla yıllık 0,1 mm'lik kayıp fizyolojik sınırlar içindedir ve başarısızlık göstergesi değildir.\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 569,
+    "question": "İmplant uygulamalarının biyolojik komplikasyonlarından yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İnflamasyon, proliferasyon",
+      "B": "Hemoraji",
+      "C": "Dehissence/çekilme",
+      "D": "Alveoler kemik nekrozu",
+      "E": "İmplant kaybı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hemoraji (kanama); implant yuvasının hazırlanması veya flep kaldırılması sırasında damar yaralanmalarına bağlı olarak gelişen **intraoperatif (cerrahi) bir komplikasyondur**, implantın iyileşme veya fonksiyon sürecinde gelişen biyolojik komplikasyonlardan biri değildir.\n**Çeldiriciler:**\n- A) İnflamasyon ve mukozal proliferasyon (peri-implant mukozitis/hiperplazi); biyofilme karşı gelişen biyolojik komplikasyonlardır.\n- C) Yumuşak doku dehissensi ve mukoza çekilmesi; iyileşme veya fonksiyon döneminde görülen biyolojik doku komplikasyonlarıdır.\n- D) Alveoler kemik nekrozu ve rezorpsiyonu; aşırı ısınma veya enfeksiyona bağlı gelişen biyolojik bir komplikasyondur.\n- E) Osseointegrasyonun sağlanamaması veya sonradan yıkılması sonucu oluşan implant kaybı majör biyolojik komplikasyondur.\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 570,
+    "question": "Alt çenesinde diş eksikliği olmayan hastanın üst çenesinde tüm dişlerini kaybettiği tespit ediliyor. Üst çenede 6 implant üzeri sabit restorasyon ile tedavi edilen hastanın durumu aşağıdaki gibi raporlanıyor.\n\nI. 10 yıldır günde 15 adet sigara kullanımı\nII. Üst çene dişlerinin periodontal hastalık nedeniyle kaybedilmiş olması\nIII. İmplant yerleşimi sırasında 2 mm'lik bukkal kemik varlığı\nIV. Kontrol altında olan diyabet varlığı (HbA1c %5,9)\n\nBu hastada yukarıdakilerden hangileri peri-implantitis riskini artıran durum veya faktörlerdendir?",
+    "options": {
+      "A": "I ve IV",
+      "B": "I, II ve IV",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Peri-implantitis gelişimi için en güçlü sistemik ve davranışsal/çevresel risk faktörleri arasında sigara kullanımı ve geçmiş periodontitis öyküsü yer alır.\n**Çeldiriciler:** III. ve IV. öncüllerin yer aldığı A, B, D ve E seçenekleri yanlıştır.\n- **I. Öncül (Doğru):** Uzun süreli ve günde 10 adetten fazla (15 adet) sigara kullanımı, vaskülarizasyonu ve immün yanıtı bozarak peri-implantitis riskini belirgin şekilde artırır.\n- **II. Öncül (Doğru):** Dişlerin periodontal hastalık nedeniyle kaybedilmiş olması (geçmiş periodontitis öyküsü), alt çenedeki mevcut dişlerden periodontopatojenlerin translokasyonu ve konak yatkınlığı nedeniyle peri-implantitis riskini artırır.\n- **III. Öncül (Yanlış):** İmplant yerleştirildiğinde bukkal kemik kalınlığının en az 1,5 - 2 mm olması, bukkal kretin rezorpsiyonunu önleyen **koruyucu ve ideal** bir anatomik durumdur, risk faktörü değildir.\n- **IV. Öncül (Yanlış):** Peri-implantitis için risk oluşturan durum \"kontrolsüz diyabet\"tir; HbA1c değerinin %5,9 olması hastanın metabolik olarak tam kontrol altında (normoglisemik düzeyde) olduğunu gösterir ve ek bir risk oluşturmaz.\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 571,
+    "question": "Aşağıdakilerden hangisi peri-implantitis riskini arttıran faktör veya durumlardan değildir?",
+    "options": {
+      "A": "Sigara kullanımı",
+      "B": "HbA1C değerinin %7.3 olması",
+      "C": "Geçmiş periodontal hastalık öyküsü olması",
+      "D": "İmplant yuvası hazırlığı esnasında kemikte aşırı ısı artışı olması",
+      "E": "İmplant-doğal diş arasında 4 mm mesafe bulunması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** İmplant ile komşu doğal diş arasındaki yatay mesafenin **en az 1,5 mm** olması interdental kemik kretinin ve papilin korunması için şarttır. Bu mesafenin 4 mm olması yetersiz değil, aksine kemik beslenmesi ve hijyen açısından oldukça yeterli ve güvenli bir mesafedir; dolayısıyla peri-implantitis riskini artırmaz, implant başarısını destekler.\n**Çeldiriciler:**\n- A) Sigara kullanımı; doku kanlanmasını ve konak savunmasını bozarak peri-implantitis riskini artırır.\n- B) HbA1c değerinin %7'nin üzerinde (%7,3) olması; zayıf glisemik kontrolü (kontrolsüz diyabeti) gösterir ve peri-implant yıkım riskini artırır.\n- C) Geçmiş periodontal hastalık öyküsü; peri-implantitis için kanıt düzeyi en yüksek olan risk faktörlerinden biridir.\n- D) Osteotomi sırasında kemikte aşırı ısı artışı (>47 °C); kemik nekrozuna ve erken dönem kemik kaybına zemin hazırlayarak peri-implant yıkımı kolaylaştırır.\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 572,
+    "question": "Altı sene önce yaptırdığı implant bölgesinde ağrı şikayeti ile kliniğe başvuran hastadan alınan anamnezde hastanın herhangi bir sistemik hastalığı olmadığı öğreniliyor. 42 yaşındaki kadın hastanın yapılan klinik ve radyografik muayenesinde; implant çevresinde 7 mm cep, sondalamada kanama, püy çıkışı ve implantın apeksine ulaşan kemik kaybı gözleniyor.\n\nBu hastada aşağıda verilen tedavilerden hangisi en uygundur?",
+    "options": {
+      "A": "Başlangıç periodontal tedavi yeterlidir",
+      "B": "Hastaya oral hijyen eğitimi verilmesi yeterlidir",
+      "C": "Kemik kaybı fazla olduğu için implantın sökümü gerekmektedir",
+      "D": "İmplant bölgesine lokal antibiyotik uygulaması yeterlidir",
+      "E": "Mekanik temizlik ve klorheksidin irrigasyonu ardından yüzey detoksifikasyonunu sağlamak için flap cerrahisi uygulanmalıdır"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** İmplant çevresi hastalıkların tedavisinde kullanılan Kümülatif İnterseptif Destekleyici Tedavi (CIST / Lang protokolü) kriterlerine göre; kemik kaybı implant uzunluğunun %50'sini aşmışsa veya vakada belirtildiği gibi **implantın apeksine kadar ulaşmışsa**, osseointegrasyon tamamen veya tama yakın kaybedilmiş demektir. Bu aşamada (Protokol 4) rejeneratif veya rezektif cerrahilerle implantı kurtarmak mümkün olmadığından **implantın sökümü (eksplantasyon)** gerekmektedir.\n**Çeldiriciler:**\n- A) Başlangıç periodontal tedavi; sadece mukozitis veya çok erken dönem kayıplarda ilk basamaktır, apeksine kadar kemik kaybetmiş implantta etkisizdir.\n- B) Oral hijyen eğitimi tek başına ileri kemik yıkımını ve enfeksiyonu ortadan kaldıramaz.\n- D) Lokal antibiyotik uygulaması; 2 mm'den az kemik kaybı olan >5 mm ceplerde mekanik temizliğe ek olarak düşünülür, terminal dönemdeki bir implantta yeterli değildir.\n- E) Flep cerrahisi ve yüzey detoksifikasyonu; kemik kaybının implant boyunun %50'sinden az olduğu orta/ileri peri-implantitis vakalarında uygulanır; kemik kaybı apekse ulaştığında cerrahi debridman değil eksplantasyon endikedir.\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 573,
+    "question": "Aşağıdakilerden hangisi, fonksiyon hâlindeki implantların etrafındaki yumuşak dokuda gelişen iltihabi bir durumdur?",
+    "options": {
+      "A": "Periimplantitis",
+      "B": "Periodontitis",
+      "C": "Gingivitis",
+      "D": "Gingival apse",
+      "E": "Periimplant mukozitis"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Fonksiyon halindeki bir dental implantı çevreleyen mukoza (yumuşak doku) içerisinde sınırlı kalan, sondlamada kanama, kızarıklık ve ödem ile karakterize olan, ancak destek alveol kemiğinde herhangi bir kayıp bulunmayan geri dönüşümlü iltihabi duruma \"peri-implant mukozitis\" adı verilir (doğal dişteki gingivitisin karşılığıdır).\n**Çeldiriciler:**\n- A) Peri-implantitis; iltihabın sadece yumuşak dokuda kalmayıp implantı destekleyen alveol kemiğinde de yıkıma yol açtığı tablodur.\n- B) Periodontitis; implantların değil, doğal dişlerin destek dokularında gelişen yıkıcı iltihabi hastalıktır.\n- C) Gingivitis; doğal dişleri çevreleyen diş etinin (gingivanın) iltihabıdır.\n- D) Gingival apse; doğal dişin marjinal veya interdental diş etinde yabancı cisim batması sonucu oluşan akut pürülan lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 574,
+    "question": "Periimplantitis tanımı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İmplantı çevreleyen yumuşak doku iltihabı",
+      "B": "İmplantı destekleyen dokuların iltihabı",
+      "C": "İmplant ile kemik arasındaki rijit bağlantı",
+      "D": "İmplantın yerleştirildiği andaki stabilite",
+      "E": "Asemptomatik rijit bağlantı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Peri-implantitis; fonksiyon halindeki bir implantın çevresindeki mukozada görülen inflamatuar lezyona, implantı destekleyen alveol kemiğinin ilerleyici kaybının eşlik ettiği, yani \"implantı destekleyen dokuların iltihabı\" ile karakterize patolojik durumdur.\n**Çeldiriciler:**\n- A) İmplantı çevreleyen yumuşak doku iltihabı; kemik yıkımı içermeyen \"peri-implant mukozitis\"in tanımıdır.\n- C) İmplant ile kemik arasındaki rijit bağlantı; \"osseointegrasyon\"u ifade eder.\n- D) İmplantın yerleştirildiği andaki mekanik stabilite; \"primer stabilite\"nin tanımıdır.\n- E) Asemptomatik rijit bağlantı; sağlıklı bir \"osseointegrasyon\" durumunu tanımlar.\n---",
+    "flag_reason": null,
+    "unit": "Destekleyici Periodontal Tedavi",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  }
+]

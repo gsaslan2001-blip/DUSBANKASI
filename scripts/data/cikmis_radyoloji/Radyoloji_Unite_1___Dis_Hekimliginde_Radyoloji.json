@@ -1,0 +1,427 @@
+[
+  {
+    "q_num": 1,
+    "question": "Aşağıdaki x-ışını tüpünde yer alan parça – parçanın bulunduğu bölüm – parçanın görevi eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Filament – Katot – Elektron kaynağı",
+      "B": "Fokal spot – Anot – Elektron kaynağı",
+      "C": "Filament – Anot – X-ışını fotonu oluşumu",
+      "D": "Target – Katot – X-ışını fotonu oluşumu",
+      "E": "Target – Anot – Elektron kaynağı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** X-ışını tüpünde elektron kaynağı, negatif yüklü katot bölümünde yer alan tungsten filamenttir. Filament ısıtıldığında termoiyonik emisyon yoluyla elektron üretir ve tüpteki elektronların temel kaynağını oluşturur.\n**Çeldiriciler:**\n- B) Fokal spot anot üzerinde yer alır ancak elektron kaynağı değildir; katottan hızlandırılarak gelen elektronların çarptığı ve X-ışını fotonlarının oluştuğu hedef alandır.\n- C) Filament anotta değil katotta bulunur ve görevi doğrudan X-ışını fotonu oluşturmak değil, elektron üretmektir.\n- D) Target (hedef) X-ışını fotonu oluşumunun gerçekleştiği kısımdır ancak katotta değil, pozitif yüklü anotta yer alır.\n- E) Target anot bölümünde bulunur fakat görevi elektron kaynağı olmak değil, hızlandırılmış elektronları durdurarak kinetik enerjilerini X-ışını fotonlarına ve ısıya dönüştürmektir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 2,
+    "question": "X-ışını tüpünde yer alan filament ile ilgili aşağıdaki ifadelerden hangisi doğru değildir?",
+    "options": {
+      "A": "Tungsten filament elektron salınımını azaltmak amacıyla %1 oranında toryum içerir",
+      "B": "Tungsten atomunun dış yörüngelerinden, filamentin sıcaklığı oranında elektronları yaymasına \"termoiyonik emisyon\" denir.",
+      "C": "Filament, molibdenden yapılmış, şapka ya da abajur şeklinde bir \"focusing cup\" ile çevrelenmiştir",
+      "D": "0,2 cm çaplı, 1 cm veya daha az uzunlukta tungsten telden yapılmış bir bobindir",
+      "E": "Katotta bulunur."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Tungsten filamentin yapısına eklenen %1 oranındaki toryum, elektron salınımını azaltmak için değil, tam aksine elektron salınım kapasitesini (termoiyonik emisyon verimini) artırmak ve filamentin kullanım ömrünü uzatmak amacıyla kullanılır.\n**Çeldiriciler:**\n- B) Isıtılan filamentin sıcaklığıyla doğru orantılı olarak tungsten atomlarının dış yörüngelerinden elektronların serbestleşerek ayrılması olayına termoiyonik emisyon adı verilir.\n- C) Filament, üretilen elektron bulutunu dar bir demet halinde anottaki hedefe yönlendiren konkav reflektör görevindeki molibden yapılı negatif yüklü odaklayıcı blok (focusing cup) ile çevrilidir.\n- D) Filament, yaklaşık 0,2 cm çapında ve 1 cm veya daha kısa uzunlukta olan sarmal tungsten telden üretilmiş bir bobin yapısındadır.\n- E) Filament, X-ışını tüpünün negatif kutbu olan katot kısmında konumlanır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 3,
+    "question": "Aşağıdakilerden hangisi foton-madde etkileşimlerinden birisi olan penetrasyonun bağlı olduğu faktörlerden birisi değildir?",
+    "options": {
+      "A": "mA",
+      "B": "X-ışınının dalga boyu",
+      "C": "Radyografisi alınan cismin atom ağırlığı",
+      "D": "Cismin yoğunluğu",
+      "E": "Fokal spot-obje mesafesi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Penetrasyon, X-ışınlarının dokulardan geçebilme ve delicilik gücüdür. Miliamper (mA) katotta birim zamanda oluşan elektron sayısını ve dolayısıyla üretilen X-ışını fotonlarının miktarını (kantitesini) belirler; fotonların enerjisi, dalga boyu veya delicilik gücü (penetrasyonu) üzerinde herhangi bir etkisi yoktur.\n**Çeldiriciler:**\n- B) X-ışınının dalga boyu kısaldıkça foton enerjisi artar, oluşan ışın sertleşir ve dokulardaki penetrasyon gücü yükselir.\n- C) Radyografisi alınan cismin atom ağırlığı (atom numarası) arttıkça X-ışını absorbsiyonu artar ve penetrasyon düşer.\n- D) İncelenen cismin yoğunluğu ve kalınlığı arttıkça ışının dokuyu geçmesi zorlaşır ve penetrasyon azalır.\n- E) Fokal spot-obje mesafesi arttıkça birim alana ulaşan ışın şiddeti ters kare kanununa bağlı olarak azalır ve penetrasyon etkilenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 4,
+    "question": "I. Yüksek hızdaki elektronların tungsten targete çarpması\nII. Isınan filamentten elektronların ayrılması\nIII. Anot ve katot arasındaki potansiyel farkının artırılması\n\nDental röntgen cihazında x-ışınlarının oluşum aşamalarının sıralaması aşağıdakilerin hangisinde verilmiştir?",
+    "options": {
+      "A": "I-II-III",
+      "B": "II-I-III",
+      "C": "II-III-I",
+      "D": "III-I-II",
+      "E": "III-II-I"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dental röntgen cihazında X-ışını üretimi sırasıyla katottaki filamentin ısınarak elektron salması (II), yüksek voltaj (potansiyel farkı) uygulanarak bu elektronların anota doğru hızlandırılması (III) ve yüksek hızdaki elektronların anottaki tungsten hedefe (target) çarpması (I) aşamalarıyla gerçekleşir.\n**Öncüllerin Analizi:**\n- I. Yüksek hızdaki elektronların tungsten targete çarpması: Son aşamadır; kinetik enerjiye sahip elektronların hedefte aniden durdurulmasıyla X-ışını fotonları ve ısı açığa çıkar.\n- II. Isınan filamentten elektronların ayrılması: İlk aşamadır; cihaz açıldığında düşük voltaj devresiyle tungsten filament ısınır ve termoiyonik emisyonla serbest elektron bulutu oluşur.\n- III. Anot ve katot arasındaki potansiyel farkının artırılması: İkinci aşamadır; tüp uçları arasındaki yüksek potansiyel farkı (kVp) sayesinde serbest elektronlar katottan anota doğru yüksek hızla ivmelendirilir.\n**Çeldiriciler:**\n- A, B, D, E) Elektronlar henüz filamentten ayrılmadan potansiyel farkla hızlandırılamaz ve hızlandırılmadan hedefe çarpamaz; dolayısıyla II-III-I dışındaki tüm sıralamalar fiziksel oluşum sırasına aykırıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 5,
+    "question": "I. Tüp içinde bir elektron kaynağı (filament).\nII. Elektronları tüp içinde karşıdan karşıya hızlandırmak için yüksek voltaj.\nIII. Elektronları durdurmak için bir target.\n\nX-ışınları oluşturmak için bir röntgen tüpünde yukarıda verilenlerden hangisi veya hangilerinin olması şarttır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Bir röntgen tüpünde X-ışını fotonlarının elde edilebilmesi için elektron üretecek bir kaynak (I), bu elektronlara yüksek kinetik enerji kazandıracak yüksek voltaj (II) ve hızlanan elektronları aniden durdurarak enerjilerini X-ışınına dönüştürecek bir hedef materyal (III) eksiksiz olarak bulunmalıdır.\n**Öncüllerin Analizi:**\n- I. Tüp içinde bir elektron kaynağı (filament): Katotta yer alan tungsten filament olmadan serbest elektron bulutu oluşturulamaz.\n- II. Elektronları tüp içinde karşıdan karşıya hızlandırmak için yüksek voltaj: Katot ile anot arasında yüksek potansiyel farkı olmadan elektronlar hedefe yeterli kinetik enerjiyle ulaşamaz.\n- III. Elektronları durdurmak için bir target: Hızlandırılmış elektronların çarpıp frenleneceği yüksek atom numaralı bir hedef (target) olmadan kinetik enerji elektromanyetik radyasyona dönüştürülemez.\n**Çeldiriciler:**\n- A, B, D, E) Bu üç temel bileşenden herhangi birinin eksikliği durumunda X-ışını üretimi gerçekleşemeyeceğinden diğer kombinasyonlar yetersizdir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 6,
+    "question": "X-ışını cihazlarının kalite kontrolünde aşağıdaki testlerden hangisi yapılmaz?",
+    "options": {
+      "A": "Fokal spot boyutu testi",
+      "B": "Kolimasyon testi",
+      "C": "Kon boyu testi",
+      "D": "Yarım-değer tabakası testi",
+      "E": "Zamanlayıcı testi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dental röntgen cihazlarında kon boyu üretim aşamasında sabitlenmiş fiziksel bir uzunluktur (kısa kon 20 cm, uzun kon 40 cm). Zamanla değişen veya arızalanan bir çıkış parametresi olmadığından yıllık kalite kontrol testleri arasında kon boyu testi yer almaz.\n**Çeldiriciler:**\n- A) Fokal spot boyutu testi: Hedefin aşınmasına bağlı olarak efektif fokal spotun büyüyüp büyümediğini ve görüntü netliğini değerlendirmek için yıllık olarak yapılır.\n- B) Kolimasyon testi: Işın demetinin hizalanmasını ve kolimatörün alanı doğru sınırlayıp sınırlamadığını kontrol etmek amacıyla uygulanır.\n- D) Yarım-değer tabakası testi: X-ışını demetinin penetrasyonunu ve filtrasyon yeterliliğini (HVL) ölçmek için yapılan kalite kontrol testidir.\n- E) Zamanlayıcı testi: Işınlama süresini belirleyen zamanlayıcının doğruluğunu ve tekrarlanabilirliğini denetlemek için gerçekleştirilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 7,
+    "question": "Dental ışınlamalarda en fazla oluşan X ışını-madde etkileşimi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Koherent saçılma",
+      "B": "Fotoelektrik etki",
+      "C": "Compton saçılması",
+      "D": "Etkileşim olmaması",
+      "E": "Frenleme radyasyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dental radyolojide kullanılan enerji seviyelerinde doku ile gerçekleşen foton-madde etkileşimlerinin en büyük kısmını (%57) Compton saçılması oluşturur. Gelen foton atomun dış orbitalindeki gevşek bağlı bir elektronu yerinden sökerek iyonizasyona yol açar ve kendisi de enerjisinin bir kısmını kaybedip yön değiştirerek saçılır.\n**Çeldiriciler:**\n- A) Koherent (klasik) saçılma: Doku düzeyindeki etkileşimlerin yalnızca %7'sini oluşturur ve iyonizasyona neden olmadan sadece fotonun yön değiştirmesiyle sonuçlanır.\n- B) Fotoelektrik etki: Dental ışınlamalarda doku etkileşimlerinin %27'sini oluşturur; gelen foton tüm enerjisini iç yörünge elektronuna aktararak tamamen absorbe olur.\n- D) Etkileşim olmaması: Primer fotonların dokuda hiçbir atomla etkileşime girmeden doğrudan geçerek reseptöre ulaşmasıdır ve tüm fotonların yaklaşık %9'unu kapsar.\n- E) Frenleme radyasyonu: Foton-madde etkileşimi değil, röntgen tüpü içerisinde anota çarpan elektronların çekirdek çevresinde yavaşlamasıyla X-ışını üretilmesi mekanizmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 8,
+    "question": "I. Koherent saçılma\nII. Fotoelektrik etki\nIII. Compton saçılması\nIV. Pass through (Etkileşim olmaması)\n\nDental ışınlamalarda oluşan X ışını-madde etkileşimlerinden en fazladan en aza sıralama aşağıdakilerden hangi seçenekte doğru verilmiştir?",
+    "options": {
+      "A": "I-II-III-IV",
+      "B": "II-III-IV-I",
+      "C": "III-II-IV-I",
+      "D": "IV-III-II-I",
+      "E": "III-II-I-IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dental radyolojide tanısal ışınlama esnasında fotonların hasta dokularıyla etkileşim oranları büyükten küçüğe doğru; Compton saçılması (%57), fotoelektrik absorbsiyon (%27), etkileşim olmadan geçiş (%9) ve koherent saçılma (%7) şeklindedir. Bu durum III - II - IV - I sıralamasına karşılık gelir.\n**Öncüllerin Analizi:**\n- I. Koherent saçılma: %7 oranıyla en az gerçekleşen etkileşimdir; düşük enerjili fotonların enerji kaybetmeden yön değiştirmesidir.\n- II. Fotoelektrik etki: %27 oranıyla ikinci sırada yer alır; fotonun iç yörünge elektronunu sökerek tamamen soğurulmasıdır.\n- III. Compton saçılması: %57 oranıyla en fazla görülen etkileşimdir; dış yörünge elektronunun koparılması ve fotonun saçılmasıdır.\n- IV. Pass through (Etkileşim olmaması): %9 oranıyla üçüncü sıradadır; primer fotonların dokudan hiçbir etkileşime girmeden geçmesidir.\n**Çeldiriciler:**\n- A, B, D, E) Etkileşim yüzdeleri sırasıyla %57 (III), %27 (II), %9 (IV) ve %7 (I) olduğundan diğer şıklardaki sıralamalar yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 9,
+    "question": "Diagnostik görüntü oluşumuna birincil derecede katkısı olan foton-madde etkileşimi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Koherent saçılma",
+      "B": "Frenleme radyasyonu",
+      "C": "Fotoelektrik etki",
+      "D": "Compton saçılması",
+      "E": "Etkileşim olmaması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Fotoelektrik absorbsiyonda gelen X-ışını fotonu tüm enerjisini harcayarak iç yörüngeden bir elektronu söker ve kendisi tamamen yok olur. Dokuların atom numarasına ve yoğunluğuna göre farklı oranlarda gerçekleşen bu tam absorbsiyon, radyografide radyoopak ve radyolüsent alanlar arasındaki kontrast farkını yaratarak diagnostik görüntü oluşumuna birincil derecede katkı sağlar.\n**Çeldiriciler:**\n- A) Koherent saçılma: Fotonların enerji kaybetmeden rastgele yön değiştirmesine yol açarak film üzerinde görüntü kalitesini düşürür.\n- B) Frenleme radyasyonu: Dokuda gerçekleşen bir foton-madde etkileşimi değil, röntgen tüpünde X-ışını üretim mekanizmasıdır.\n- D) Compton saçılması: Oluşan saçılmış fotonlar farklı yönlerden filme ulaşarak fog (sislenme) meydana getirir, kontrastı azaltır ve tanısal görüntü kalitesini bozar.\n- E) Etkileşim olmaması: Dokulardan doğrudan geçen fotonlar filmde koyu (radyolüsent) alanları oluştursa da doku farklılıklarını ayırt ettiren esas etkileşim fotoelektrik absorbsiyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 10,
+    "question": "I. Frenleme radyasyonu\nII. Saçılma radyasyonu\nIII. Karakteristik radyasyon\n\nDental röntgen cihazında elektronların kinetik enerjisinin X-ışını fotonlarına dönüşümünde yukarıdakilerden hangileri oluşur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I, II ve III",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Röntgen tüpü içerisinde katottan hızlandırılarak gelen elektronların kinetik enerjisinin anottaki hedef atomlarıyla etkileşerek X-ışını fotonlarına dönüşmesi iki yolla gerçekleşir: Frenleme (Bremsstrahlung) radyasyonu (I) ve karakteristik radyasyon (III).\n**Öncüllerin Analizi:**\n- I. Frenleme radyasyonu: Katottan gelen hızlı elektronların hedefteki tungsten çekirdeğinin çekim alanından geçerken yavaşlayıp yön değiştirmesi ve kaybettikleri kinetik enerjinin X-ışını fotonuna dönüşmesidir.\n- II. Saçılma radyasyonu: Elektronların X-ışınına dönüşümü sırasında değil, tüpten çıkan primer X-ışını fotonlarının maddeye çarparak yön değiştirmesi sonucunda sekonder olarak oluşur.\n- III. Karakteristik radyasyon: Hızlı elektronların tungsten atomunun iç yörüngesinden bir elektronu koparması ve dış yörüngeden bu boşluğa geçen elektronun enerji farkını X-ışını fotonu olarak salmasıdır (70 kVp ve üzeri güçte oluşur).\n**Çeldiriciler:**\n- A) Karakteristik radyasyonu dışladığı için eksiktir.\n- B, C, D) Saçılma (skatter) radyasyonu elektron-hedef etkileşimiyle değil, foton-madde etkileşimiyle oluştuğundan II. öncülü içeren şıklar yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 11,
+    "question": "Aşağıdakilerden hangisi dental röntgen cihazlarında X ışınının oluşumu ile ilgili doğru değildir?",
+    "options": {
+      "A": "X ışını fokal spotta oluşur.",
+      "B": "Oluşan X ışını tüpü berilyum pencereden terk eder.",
+      "C": "Cihazın gücü 70 kVp'den düşük ise frenleme radyasyonu oluşur.",
+      "D": "Cihazın gücü 70 kVp'den yüksek ise karakteristik radyasyon oluşur.",
+      "E": "Cihazın gücü 70 kVp'den yüksek ise skatter radyasyon oluşur."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Skatter (saçılma) radyasyonu röntgen tüpünde X-ışını üretimi aşamasında elektronların hedefe çarpmasıyla oluşan bir primer radyasyon türü değildir; tüpü terk eden primer ışın demetinin hasta dokusu gibi bir cisme çarpıp yön değiştirmesiyle meydana gelen sekonder radyasyondur ve sadece 70 kVp sınırına bağlı değildir.\n**Çeldiriciler:**\n- A) Yüksek voltaj devresiyle hızlandırılan elektronların anotta çarptığı ve X-ışınlarının üretildiği özel alana fokal spot denir.\n- B) Röntgen tüpü içerisinde oluşan X-ışınları, kurşun muhafaza üzerindeki ince berilyum pencereden geçerek dışarı çıkar.\n- C) 70 kVp'nin altında çalışan dental röntgen cihazlarında elektronlar tungstenin K yörüngesinden elektron koparamadığı için yalnızca frenleme radyasyonu üretilir.\n- D) Cihazın gücü 70 kVp'nin üzerinde olduğunda tungsten atomunun iç yörünge bağlanma enerjisi aşıldığından frenleme radyasyonuna ek olarak karakteristik radyasyon da üretilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 12,
+    "question": "I. Frenleme radyasyon\nII. Karakteristik radyasyon\nIII. Korpüsküler radyasyon\n\nMaksimum gücü 80 kVp olan bir röntgen cihazında, yukarıdaki radyasyon çeşitlerinden hangisi veya hangileri oluşabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I ve II"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dental röntgen cihazlarında üretilen X-ışınları elektromanyetik radyasyondur. Maksimum gücü 80 kVp olan bir cihazda 70 kVp eşiği aşıldığı için hem frenleme radyasyonu (I) hem de karakteristik radyasyon (II) oluşabilir; ancak korpüsküler (parçacıklı) radyasyon (III) oluşmaz.\n**Öncüllerin Analizi:**\n- I. Frenleme radyasyon: Dental röntgen cihazlarında üretilen X-ışınlarının büyük çoğunluğunu oluşturan temel elektromanyetik radyasyon türüdür ve tüm kVp değerlerinde meydana gelir.\n- II. Karakteristik radyasyon: Tungsten hedeften elektron koparılması için gereken 70 kVp'nin üzerindeki cihazlarda (80 kVp gibi) oluşan elektromanyetik radyasyondur.\n- III. Korpüsküler radyasyon: Alfa, beta, proton ve nötron gibi kütleli atom altı parçacıklardan oluşan radyasyondur; röntgen cihazlarında üretilmez.\n**Çeldiriciler:**\n- A, B) 80 kVp güçte hem frenleme hem de karakteristik radyasyon birlikte üretildiğinden tek başına I veya II eksiktir.\n- C, D) Röntgen cihazları korpüsküler radyasyon üretmediği için III. öncülü içeren seçenekler yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 13,
+    "question": "Röntgen tüpünde döner anot kullanımıyla aşağıdakilerden hangisi sağlanır?",
+    "options": {
+      "A": "Fokal spot üzerinde oluşan ısının daha geniş alana dağıtılması",
+      "B": "Daha fazla sayıda elektron elde edilmesi",
+      "C": "Sekonder radyasyonun azaltılması",
+      "D": "X-ışını gücünün artırılması",
+      "E": "Görüntü artifaktlarının azaltılması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Röntgen tüpünde elektron bombardımanı sırasında kinetik enerjinin %99,8'i ısıya dönüşür. Döner anot sistemleri, yüksek mA değerlerinin ve uzun ışınlama sürelerinin kullanıldığı cihazlarda hedefi döndürerek fokal spotta açığa çıkan yüksek ısıyı daha geniş bir yüzey alanına dağıtır ve targetin erimesini ya da aşınmasını önler.\n**Çeldiriciler:**\n- B) Elektron sayısı anotun dönmesiyle değil, katot filamentinden geçen mA ve ışınlama süresiyle kontrol edilir.\n- C) Sekonder radyasyonun azaltılması kolimasyon ve filtrasyon gibi yöntemlerle sağlanır; döner anotun saçılma üzerinde etkisi yoktur.\n- D) X-ışını gücü (penetrasyonu) anot hareketiyle değil, tüpe uygulanan kilovoltaj (kVp) değeriyle artırılır.\n- E) Döner anot tamamen termal yönetimi sağlamak ve hedef ömrünü korumak içindir; görüntü artifaktlarını azaltmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 14,
+    "question": "I. Isıyı geniş bir alana yaymak\nII. Targetin aşınmasını azaltmak\nIII. Fokal spotu küçültmek\nIV. Foton sayısını arttırmak\n\nYukarıda verilenlerden hangileri röntgen tüpünde döner anot kullanımının amaçlarındandır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "I ve IV",
+      "D": "II ve III",
+      "E": "II ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Döner anot sistemlerinin temel kullanım amacı, elektron bombardımanı sonucu targette açığa çıkan aşırı ısıyı geniş bir alana yaymak (I) ve böylece yüksek sıcaklığa bağlı target aşınmasını azaltmaktır (II).\n**Öncüllerin Analizi:**\n- I. Isıyı geniş bir alana yaymak: Anot diskinin dönmesiyle elektron demeti sürekli farklı ve soğuk bir yüzeyle karşılaşır, böylece ısı tek bir noktada birikmeyip geniş bir halka boyunca yayılır.\n- II. Targetin aşınmasını azaltmak: Isının geniş alana dağılması lokal aşırı ısınmayı engelleyerek hedef materyalin (tungsten) erimesini ve aşınmasını önler.\n- III. Fokal spotu küçültmek: Efektif fokal spotun küçültülmesi döner anotla değil, target materyalin belirli bir açıyla konumlandırıldığı çizgi fokus (line-focus) kuralıyla sağlanır.\n- IV. Foton sayısını arttırmak: Tüpte oluşan foton sayısı mA, süre ve kVp parametreleriyle kontrol edilir; döner anot doğrudan foton üretmez.\n**Çeldiriciler:**\n- B, C, D, E) III. öncül çizgi fokus prensibinin, IV. öncül ise elektrik parametrelerinin (mA ve kVp) işlevi olduğundan bu öncülleri içeren şıklar yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 15,
+    "question": "I. Döner anot\nII. Eğimli fokal spot\nIII. Anotun bakır kısmı\n\nYukarıdakilerden hangisi ya da hangileri mA değerinin arttırılmasına yardımcı olur?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "Yalnız III",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Röntgen tüpünde mA değerinin artırılmasının önündeki en büyük engel, artan elektron sayısının targette aşırı ısı oluşturarak hedefi tahrip etmesidir. Isının dağıtılmasını ve uzaklaştırılmasını sağlayan döner anot (I), eğimli fokal spot (II) ve anotun bakır gövdesi (III) tüpün termal kapasitesini yükselterek daha yüksek mA değerlerinin kullanılabilmesine yardımcı olur.\n**Öncüllerin Analizi:**\n- I. Döner anot: Targeti döndürerek ısının çok daha geniş bir yüzeye yayılmasını ve kolay soğumasını sağlar, böylece yüksek mA kullanımına olanak tanır.\n- II. Eğimli fokal spot: Çizgi fokus kuralı gereği açılı yerleştirilen fokal spot, efektif alanı küçük tutarken gerçek temas alanını genişleterek ısıyı yayar ve soğumaya yardım eder.\n- III. Anotun bakır kısmı: Tungsten targetin gömülü olduğu yüksek termal iletkenliğe sahip bakır blok, oluşan ısıyı hızla soğutucu yağlara ileterek mA'in artırılmasına katkıda bulunur.\n**Çeldiriciler:**\n- B, C, D, E) Her üç yapı da röntgen tüpünde ısı eliminasyonuna doğrudan katkı sağlayıp yüksek mA kullanımına imkan verdiği için diğer şıklar eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 16,
+    "question": "Röntgen tüpünde döner anot kullanılması ile aşağıdakilerden hangisinin miktarında azalma hedeflenmiş olur?",
+    "options": {
+      "A": "Katot-anot arası elektron hızı",
+      "B": "Anot ısısı",
+      "C": "Termoiyonik emisyon",
+      "D": "Anotta oluşan X-ışını miktarı",
+      "E": "Penumbra"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Röntgen tüpünde yüksek mA değerlerinde çok sayıda elektronun hedefe çarpması aşırı sıcaklık üretir ve sabit anodu tahrip eder. Döner anot kullanılmasıyla hedef yüzey sürekli değiştirilerek birim alanda biriken anot ısısının azaltılması ve ısının geniş bir alana dağıtılması hedeflenir.\n**Çeldiriciler:**\n- A) Katot-anot arası elektron hızı kVp ile belirlenir ve X-ışını oluşumu için yüksek olması istenir; azaltılması hedeflenmez.\n- C) Termoiyonik emisyon katottaki filamentten elektron salınımıdır ve mA ile kontrol edilir; döner anotla azaltılması söz konusu değildir.\n- D) Anotta oluşan X-ışını miktarının azaltılması değil, yüksek ısıya dayanıklı bir sistemle yeterli miktarda X-ışını elde edilmesi amaçlanır.\n- E) Penumbra (görüntü bulanıklığı) efektif fokal spotun küçültülmesi ve projeksiyon geometrisiyle azaltılır; döner anotun doğrudan penumbrayı azaltma işlevi yoktur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 17,
+    "question": "Aşağıdaki röntgen cihazlarından hangisinde döner anot sistemi kullanılmaz?",
+    "options": {
+      "A": "Panoramik radyografi",
+      "B": "İntraoral dental röntgen cihazı",
+      "C": "Sefalometrik üniteler",
+      "D": "Konik ışınlı bilgisayarlı tomografi",
+      "E": "Multidedektör bilgisayarlı tomografi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** İntraoral dental röntgen cihazlarında düşük mA değerleri (genellikle 15 mA'den az) ve çok kısa ışınlama süreleri kullanıldığı için oluşan ısı miktarı sabit anot tarafından tolere edilebilir düzeydedir; bu nedenle intraoral cihazlarda döner anot sistemi kullanılmaz, anot daima sabittir.\n**Çeldiriciler:**\n- A) Bazı panoramik radyografi ünitelerinde uzun ışınlama süresi boyunca oluşan ısıyı dağıtmak amacıyla döner anot sistemi bulunur.\n- C) Sefalometrik ünitelerde nadiren de olsa yüksek güç gerektiren durumlarda döner anot sistemleri kullanılabilir.\n- D) Konik ışınlı bilgisayarlı tomografi (KIBT) cihazlarında genellikle döner anot tercih edilir.\n- E) Uzun süre kesintisiz ve yüksek mA ile ışınlama gerektiren multidedektör bilgisayarlı tomografi (MDBT) cihazlarında döner anot standart olarak daima kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 18,
+    "question": "I. kVp\nII. mA\nIII. Süre\n\nYukarıdaki parametrelerden hangisi veya hangileri oluşan elektron sayısını artırır?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Röntgen tüpünün katodunda oluşan serbest elektron sayısı, düşük voltaj devresinden geçen akım şiddeti (mA) ve bu akımın uygulanma süresinin çarpımı (mAs) ile doğru orantılıdır. Bu nedenle yalnızca mA (II) ve süre (III) oluşan elektron sayısını doğrudan artırır.\n**Öncüllerin Analizi:**\n- I. kVp: Yüksek voltaj devresini kontrol eder ve katotta oluşmuş olan elektronların anota doğru hızlandırılmasını (kinetik enerjisini) sağlar; katotta elektron oluşumu üzerinde hiçbir etkisi yoktur.\n- II. mA: Filamentin sıcaklığını artırarak birim zamanda termoiyonik emisyonla açığa çıkan serbest elektron sayısını doğrudan artırır.\n- III. Süre: Filamentten elektron salınımının devam ettiği zamanı belirlediği için toplam elektron sayısını doğrudan artırır.\n**Çeldiriciler:**\n- A, C, D) kVp elektron sayısını değil elektronların hızını etkilediğinden I. öncülü içeren seçenekler yanlıştır.\n- E) Süre parametresi de toplam elektron miktarını (mAs) belirlediği için yalnız II eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 19,
+    "question": "I. Yüksek atom numarası\nII. Düşük erime noktası\nIII. Düşük buharlaşma basıncı\nIV. Düşük termal iletkenlik\n\nYukarıdakilerden hangileri X-ışını tüpündeki target (hedef) materyalinin sahip olması gereken özelliklerdendir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "III ve IV",
+      "D": "I ve III",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** X-ışını tüpünde ideal bir target (hedef) materyali, X-ışını üretim verimini artırmak için yüksek atom numarasına (I) ve tüp içindeki vakum ortamının bozulmaması için yüksek sıcaklıklarda düşük buharlaşma basıncına (III) sahip olmalıdır.\n**Öncüllerin Analizi:**\n- I. Yüksek atom numarası: Çarpan elektronların çekirdek tarafından daha güçlü frenlenmesini sağlayarak X-ışını oluşum verimini artırır.\n- II. Düşük erime noktası: Yanlıştır; elektron bombardımanında açığa çıkan çok yüksek ısıya dayanabilmesi için target materyalinin yüksek erime (ergime) noktasına sahip olması gerekir.\n- III. Düşük buharlaşma basıncı: Yüksek sıcaklıklarda hedefin buharlaşarak tüpün vakumunu bozmasını önlemek için buharlaşma basıncı düşük olmalıdır.\n- IV. Düşük termal iletkenlik: Yanlıştır; fokal spotta oluşan ısının hızla uzaklaştırılabilmesi için target materyalinin yüksek termal iletkenliğe sahip olması şarttır.\n**Çeldiriciler:**\n- A, B, C, E) İdeal hedef materyalinde erime noktası ve termal iletkenlik düşük değil yüksek olması gerektiğinden II ve IV. öncülleri içeren şıklar yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 20,
+    "question": "Aşağıdakilerden hangisi ideal target materyalinin taşıması gereken özelliklerden biridir?",
+    "options": {
+      "A": "Küçük atom numarası",
+      "B": "Düşük erime noktası",
+      "C": "Düşük termal iletkenlik",
+      "D": "Düşük buharlaşma basıncı",
+      "E": "Yüksek esneklik"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** İdeal bir target (hedef) materyali (örneğin tungsten), ışınlama sırasında oluşan aşırı sıcaklıklarda buharlaşıp röntgen tüpünün vakum özelliğini bozmamak için yüksek sıcaklıklarda düşük buharlaşma basıncına sahip olmalıdır.\n**Çeldiriciler:**\n- A) X-ışını üretim etkinliğinin yüksek olması için atom numarası küçük değil, yüksek olmalıdır.\n- B) Elektronların çarpmasıyla oluşan yüksek ısıda erimemesi için erime noktası düşük değil, yüksek olmalıdır.\n- C) Oluşan ısının bakır gövdeye hızla aktarılabilmesi için termal iletkenliği düşük değil, yüksek olmalıdır.\n- E) Yüksek esneklik, hedef materyalinin radyasyon fiziği açısından taşıması gereken temel özelliklerden biri değildir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 21,
+    "question": "I. Stator\nII. Target\nIII. Rotor\n\nYukarıda verilen döner anot sistemine ait komponentlerden hangisi veya hangileri x-ışını tüpünün içerisinde yer alır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "II ve III",
+      "E": "I ve II"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Döner anotlu röntgen tüplerinde elektronların çarptığı target (II) ve anodu döndüren motorun armatür kısmı olan rotor (III) havası alınmış cam X-ışını tüpünün içerisinde yer alırken, stator bobinleri (I) cam tüpün dışında konumlanır.\n**Öncüllerin Analizi:**\n- I. Stator: Rotoru elektromanyetik indüksiyonla dakikada yaklaşık 3000 dönüşe çıkaran elektromıknatıs bobinleridir ve cam X-ışını tüpünün dış kısmında yer alır.\n- II. Target: Anot diski üzerinde yer alan tungsten hedef kısmıdır ve doğrudan cam tüpün içerisindedir.\n- III. Rotor: Anot diskine bağlı olan ve döner hareketi sağlayan motor bileşenidir; cam tüpün içerisinde bulunur.\n**Çeldiriciler:**\n- A, E) Stator cam tüpün dışında yer aldığı için I. öncülü içeren şıklar yanlıştır.\n- B, C) Hem target hem de rotor cam tüpün içinde yer aldığından yalnız II veya yalnız III eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 22,
+    "question": "Aşağıdakilerden hangisinin radyasyon sensitivitesi diğerlerine göre daha yüksektir?",
+    "options": {
+      "A": "Kemik iliği",
+      "B": "Tükürük bezleri",
+      "C": "Karaciğer",
+      "D": "Kas dokusu",
+      "E": "Nöronlar"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Mitoz bölünme hızı yüksek ve farklılaşma düzeyi düşük olan hücre ve dokuların radyasyona duyarlılığı (radyosensitivitesi) en yüksektir. Kemik iliği; lenfoid organlar, testisler, bağırsaklar ve müköz membranlarla birlikte yüksek radyosensitivite grubunda yer alır.\n**Çeldiriciler:**\n- B) Tükürük bezleri orta derecede radyosensitivite gösteren organlar grubundadır.\n- C) Karaciğer orta derecede radyosensitiviteye sahip bir organdır.\n- D) Kas dokusu bölünme hızı çok düşük ve ileri derecede farklılaşmış olduğu için düşük radyosensitivite grubunda yer alır.\n- E) Nöronlar bölünme yetenekleri olmadığından radyasyona en dirençli (düşük radyosensitiviteli) hücrelerdendir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 23,
+    "question": "I. Testis\nII. Kılcal damar\nIII. Nöron\n\nYukarıdaki organların radyosensitiviteleri açısından yüksekten düşüğe sıralaması aşağıdakilerden hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "I - II - III",
+      "B": "II - I - III",
+      "C": "I - III - II",
+      "D": "II - III - I",
+      "E": "III - II - I"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Doku ve organların radyasyona duyarlılıkları yüksek, orta ve düşük olarak sınıflandırıldığında; testis yüksek radyosensitivite, kılcal damar orta radyosensitivite ve nöron düşük radyosensitivite grubunda yer alır. Dolayısıyla yüksekten düşüğe doğru sıralama I - II - III şeklindedir.\n**Öncüllerin Analizi:**\n- I. Testis: Sürekli ve hızlı mitotik aktivite gösteren germ hücreleri içerdiğinden radyosensitivitesi en yüksek organlardandır.\n- II. Kılcal damar: Endotel hücreleri orta düzeyde yenilenme hızına sahip olduğundan büyüyen kıkırdak, kemik, tükürük bezleri, akciğer, böbrek ve karaciğer ile birlikte orta radyosensitivite grubundadır.\n- III. Nöron: Mitoz bölünme göstermeyen, tam farklılaşmış hücrelerden oluştuğu için kas dokusuyla birlikte radyosensitivitesi en düşük gruptadır.\n**Çeldiriciler:**\n- B, C, D, E) Hücresel mitoz hızı ve farklılaşma derecesine dayanan yüksek-orta-düşük duyarlılık sırasına uymadıkları için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 24,
+    "question": "Aşağıdaki doku/organlardan hangisinin radyosensitivitesi diğerlerinden daha yüksektir?",
+    "options": {
+      "A": "Müköz membran",
+      "B": "Akciğer",
+      "C": "Böbrek",
+      "D": "Karaciğer",
+      "E": "Kas"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Müköz membran bazal tabakasında hızlı bölünen radyosensitif kök hücreler barındırdığı için lenfoid organlar, kemik iliği, testisler ve bağırsaklarla birlikte radyosensitivitesi en yüksek doku/organlar grubunda yer alır.\n**Çeldiriciler:**\n- B) Akciğer dokusu orta derecede radyosensitivite gösteren organlardandır.\n- C) Böbrek orta radyosensitivite grubunda yer alır.\n- D) Karaciğer orta radyosensitiviteye sahip organlardandır.\n- E) Kas dokusu düşük radyosensitivite gösteren dokular arasındadır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 25,
+    "question": "Aşağıdakilerden hangisi radyasyonun somatik stokastik etkisidir?",
+    "options": {
+      "A": "Mukositis",
+      "B": "Katarakt",
+      "C": "Lösemi",
+      "D": "Kserostomi",
+      "E": "Tat değişikliği"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Stokastik etkiler, herhangi bir eşik dozu olmaksızın sub-letal DNA hasarı ve gen mutasyonları sonucunda ortaya çıkma olasılığı doza bağlı olan değişikliklerdir. Lösemi (ve diğer kanserler), radyasyona maruz kalan bireyin kendi vücut hücrelerinde gelişen somatik stokastik bir etkidir.\n**Çeldiriciler:**\n- A) Mukositis: Belirli bir eşik dozun aşılmasıyla bazal tabaka hücrelerinin ölümüne bağlı gelişen deterministik (non-stokastik) bir etkidir.\n- B) Katarakt: Göz lensinde doza ve hücre kaybına bağlı olarak ortaya çıkan deterministik bir etkidir.\n- C) D) Kserostomi: Tükürük bezi parankim hücrelerinin radyoterapi dozuna bağlı yıkımıyla oluşan deterministik bir etkidir.\n- E) Tat değişikliği: Tat papillalarındaki atrofi ve hücre ölümüne bağlı olarak gelişen deterministik bir etkidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 1 - Diş Hekimliğinde Radyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,257 @@
+[
+  {
+    "question": "I. Hinge-axis'in lokasyonu**\n**II. Pantograf kaydı**\n**III. İnteroklüzal kayıt**\n\n**Yukarıdakilerden hangisi ya da hangileri tam ayarlanabilir artikülatörde kullanılacak kayıt için gerekli işlemler arasında yer alır?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* Tam ayarlanabilir bir artikülatörü hastanın çene hareketlerine tam olarak adapte edebilmek için 3 temel işlem yapılır:\n  1. Hinge-axis (terminal menteşe aksı) tespiti ve yüz arkı transferi\n  2. Pantografik kayıt (üç düzlemde sınır hareketlerinin kaydı)\n  3. İnteroklüzal sentrik ve eksantrik kayıtlar.\n* Bu nedenle I, II ve III hepsi gereklidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 227,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Artikülatörlerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Yarı ayarlanabilir artikülatörler kondiler rehberlik açısının ayarlanmasına izin verir.",
+      "B": "Non-arkon artikülatörlerde üst ve alt çene modelleri ayrıldığında kondiler eğim açısı değişmez.",
+      "C": "Arkon artikülatörlerde üst çene rehberliği insan anatomisine benzer.",
+      "D": "Basit artikülatörler (oklüzörler) sadece dikey açma-kapama hareketi yapabilir.",
+      "E": "Yarı ayarlanabilir artikülatörlerde yüz arkı transferi yapılabilir."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A, C, D, E (Doğru):** Yarı ayarlanabilir ve arkon aygıtlar klinik standartları karşılar. Oklüzörler ise sadece dikey yönlü hareket eder.\n* **B) Non-arkon artikülatörlerde üst ve alt çene modelleri ayrıldığında kondiler eğim açısı değişmez (Yanlış / Cevap B):** Non-arkon artikülatörlerde dikey boyut değiştirildiğinde veya üst gövde açıldığında kondil elemanı ile fossa arasındaki açısal ilişki değişir (değişmez ifadesi yanlıştır).",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 228,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yukarıdaki görselde aynı artikülatörün açık ve kapalı halde iken maksiller dişlerin oklüzal düzlemi ile kondiller eğim arasındaki açı değeri a1 ve a2 olarak gösterilmektedir. Bu iki açı değerinin birbirine eşit olduğu ölçüldüğüne göre, resimde yer alan artikülatör tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ayarlanamayan artikülatör",
+      "B": "Oklüzör",
+      "C": "Yarı-ayarlanabilir artikülatör (Arkon tipi)",
+      "D": "Non-arkon artikülatör",
+      "E": "Menteşeli oklüzör"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* Artikülatörün üst üyesi açılıp kapandığında veya dikey boyutu değiştirildiğinde oklüzal düzlem ile kondil yolu arasındaki açının (a1 = a2) sabit kaldığı artikülatörler **Arkon tipi yarı ayarlanabilir / tam ayarlanabilir artikülatörlerdir**. Non-arkon tipi artikülatörlerde bu açı dikey boyut değişiminde değişkenlik gösterir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 230,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Atipik mandibüler hareketleri olan bir hastanın maksiller ve mandibüler tüm posterior kuadrantlarındaki dişlerinin eş zamanlı olarak sabit bölümlü protezlerle restore edilmesi planlanıyor. Böyle bir hastanın tedavisi sırasında aşağıdaki artikülatörlerden hangisinin kullanımı en uygundur?",
+    "options": {
+      "A": "Ayarlanamayan basit artikülatör",
+      "B": "Oklüzör",
+      "C": "Arkon tipi yarı ayarlanabilir artikülatör",
+      "D": "Non-arkon tipi yarı ayarlanabilir artikülatör",
+      "E": "Tam ayarlanabilir artikülatör"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* Kompleks, tüm ağız oklüzal rehabilitasyonlarında ve atipik çene hareketleri olan hastalarda tüm çene hareket boyutlarını birebir taklit edebilen **Tam ayarlanabilir artikülatörler** tercih edilmelidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 303,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protezler altında görülen protez stomatiti ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Candida albicans türü mantarlar etken olabilirler.",
+      "B": "Alt dişsiz alanda görülür, üst çenede görülmez.",
+      "C": "Angular şeilitis (dudak köşesi yaraları) ile ilişkili olabilirler.",
+      "D": "Hastanın protezlerinin geceleri klorheksidin solüsyonunda saklanması önerilir.",
+      "E": "Tip 1, 2 ve 3 olarak sınıflandırılırlar."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Candida albicans etkenidir (Yanlış - Doğru İfadedir):** Birincil patojendir.\n* **B) Alt çenede görülür, üst çenede görülmez (Doğru - Yanlış İfadedir):** Protez stomatiti tam tersine doku kapanması ve vakum alanının genişliği nedeniyle EN SIK üst çenede (sert damakta) görülür. \"Üst çenede görülmez\" ifadesi tamamen yanlıştır.\n* **C) Angular şeilitis ile ilişkilidir (Yanlış - Doğru İfadedir):** C Vitami eksikliği ve dikey boyut kaybıyla birlikte mantar yayılımı dudak kenarlarında angular şeilitis yapar.\n* **D) Klorheksidinde saklama (Yanlış - Doğru İfadedir):** Antifungal temizlik protokolüdür.\n* **E) Tip 1, 2, 3 sınıflaması (Yanlış - Doğru İfadedir):** Newton sınıflamasıdır.",
+    "lesson": "Protez",
+    "flag_reason": "2015 DUS Orijinal",
+    "q_num": 439,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Herbst testleri sırasında, ıslık çalma ve emme hareketlerinde hastanın alt protezinde hareketlenme varsa aşağıdaki bölgelerden hangisi yapılır / kısaltılır?",
+    "options": {
+      "A": "Dil frenulumu bölgesi kısaltılır.",
+      "B": "Vestibül ön kenarı ve dudak frenulumu kısaltılır.",
+      "C": "Yanak vestibülü ve yanak frenulumları kısaltılır.",
+      "D": "Molarlar hizasında dil altı bölgesi kısaltılır.",
+      "E": "Sol ve sağ taraftan kanin ve küçük molarlar hizasında kısaltma yapılır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Dil frenulumu (Yanlış):** Dil çıkarma hareketinde sınırlandırılır.\n* **B) Vestibül ön kenarı ve dudak frenulumu (Doğru):** Herbst fonksiyonel testlerinde, \"ıslık çalma ve emme\" hareketleri doğrudan dudak kaslarını (M. orbicularis oris) ve ön vestibül alanını çalıştırır. Bu hareket sırasında protez oynuyorsa, alt protezin ön vestibül kenarları veya labial/dudak frenulumu uzun demektir ve burası kısaltılmalıdır.\n* **C) Yanak vestibülü (Yanlış):** Yanak üfleme hareketlerinde bakılır.\n* **D) Molarlar hizası (Yanlış):** Yutkunma ve ağız açmada kontrol edilir.\n* **E) Kanin bölgesi (Yanlış):** Yan yalama hareketindedir.",
+    "lesson": "Protez",
+    "flag_reason": "2012 Sonbahar DUS Orijinal",
+    "q_num": 450,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kombinasyon sendromunun (Kelly Sendromu) bulgularından biri değildir?",
+    "options": {
+      "A": "Tüberlerde sarkma / hiperplazi",
+      "B": "Labil alveol kret (yaprak kret)",
+      "C": "Alt dişsiz bölgede rezorpsiyon",
+      "D": "Dikey boyut artışı",
+      "E": "Alt ön dişlerde uzama (ekstrüzyon)"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Kombinasyon Sendromu Tanımı:** Üst çenede tam protez, alt çenede ise sadece ön dişlerin mevcut olduğu (Kennedy I) vakalarda oluşur.\n* **A) Tüberlerde sarkma (Yanlış - Bulgusudur):** Negatif basınçla tüberler sarkar.\n* **B) Labil alveol kret (Yanlış - Bulgusudur):** Üst anterior kemik erir, yerini flabby mukoza alır.\n* **C) Alt posterior rezorpsiyon (Yanlış - Bulgusudur):** Alt arka kret erir.\n* **D) Dikey boyut artışı (Doğru - Bulgusu Değildir):** Kombinasyon sendromunda kret rezorpsiyonu ve diş aşınmaları nedeniyle dikey boyut artmaz, aksine DİKEY BOYUT KAYBI (azalması) görülür.\n* **E) Alt ön dişlerde uzama (Yanlış - Bulgusudur):** Alt ön dişler proteze çarparak uzar.",
+    "lesson": "Protez",
+    "flag_reason": "2016 DUS Orijinal",
+    "q_num": 455,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "**Alt ve üst çenesine tam protez yapılmış bir hasta kontrol randevusunda, protezlerini taktığında artan öğürme refleksinden şikâyetçi oluyorsa, yukarıdaki hatalardan hangileri yapılmış olabilir?**\n\nI. Maksiller dişler olması gerekenden daha palatinale yerleştirilmiştir.\nII. Oklüzyon dikey boyutu olması gerekenden yüksek yapılmıştır.\nIII. Protezin posterior sınırı kalın yapılmıştır.\nIV. Mandibular dişler olması gerekenden daha linguale yerleştirilmiştir.",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I, III ve IV",
+      "C": "II ve III",
+      "D": "III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Üst dişlerin palatinale dizimi (Doğru):** Dili arkaya iterek öğürmeyi tetikler.\n* **II. Yüksek dikey boyut (Doğru):** Kas kasılması ve damak temasıyla öğürme yaratır.\n* **III. Kalın posterior sınır (Doğru):** Yumuşak damağı irite ederek öğürme refleksi başlatır.\n* **IV. Alt dişlerin linguale dizimi (Doğru):** Dil hacmini daraltarak dili boğaza iter ve öğürme yapar.\n* **Sonuç:** Bütün hatalar (I, II, III ve IV) öğürme refleksini artırır. Bu nedenle cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "2023 İlkbahar DUS Orijinal",
+    "q_num": 456,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksillektomi ameliyatı sonrası obturatör protez yapılan bir hastada, obturatörün içi boş (hollow-bulb) olarak tasarlanmasının temel klinik amacı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Protezin ağırlığını azaltmak, tutuculuğu ve hastanın konforunu artırmak",
+      "B": "Protezin döküm maliyetini düşürmek",
+      "C": "Protezin dikey boyutunu yükseltmek",
+      "D": "Çiğneme kuvvetlerini tamamen ortadan kaldırmak",
+      "E": "Yapay dişlerin dizimini kolaylaştırmak"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Protez ağırlığını azaltmak ve tutuculuğu artırmak (Doğru):** Obturatör protezlerde defekt içerisine uzanan \"Bulb\" (hazne) kısmı masif (dolu) yapılırsa protez çok ağırlaşır ve yerçekimi etkisiyle aşağı düşer. Bu bölümün içi boş (hollow-bulb) üretilmesi protezin ağırlığını %30-50 azaltarak tutuculuk, stabilite ve hasta konforunu maksimuma çıkarır.\n* **B) Maliyet düşürme (Yanlış):** İçi boş üretmek işçiliği ve maliyeti artırır.\n* **C) Dikey boyut yükseltme (Yanlış):** Dikey boyut şablonlarla saptanır.\n* **D) Çiğneme kuvvetini kaldırma (Yanlış):** Biyomekanik kural değildir.\n* **E) Diş dizimi (Yanlış):** Bulb parçası diş diziminden bağımsızdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 462,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protezlerde dikey boyutun (Vertikal boyut) belirlenmesinde kullanılan yöntemlerden biri olan \"İnteroklüzal Dinlenme Mesafesi\" (Free-way space) ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Dinlenme dikey boyutu (VDR) ile oklüzyon dikey boyutu (VDO) arasındaki farktır ve sağlıklı bireylerde ortalama 2 - 4 mm'dir.",
+      "B": "Dinlenme dikey boyutu her zaman oklüzyon dikey boyutundan daha küçüktür.",
+      "C": "Free-way space sıfır (0 mm) olduğunda çiğneme kasları tamamen rahatlar.",
+      "D": "Dikey boyut tespiti sadece panoramik röntgenle yapılır.",
+      "E": "Yaşlandıkça free-way space miktarı tamamen kaybolur."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) VDR - VDO farkıdır ve 2-4 mm'dir (Doğru):** İnteroklüzal dinlenme mesafesi (Free-way space) = Dinlenme Dikey Boyutu (VDR) - Oklüzyon Dikey Boyutu (VDO) formülüyle bulunur. Alt çene dinlenme konumundayken dişler arasında kalan bu boşluk ortalama 2 - 4 mm olmalıdır.\n* **B) VDR küçükdür (Yanlış):** Dinlenme boyutu (VDR) her zaman oklüzyon boyutundan (VDO) 2-4 mm daha BÜYÜKTÜR (VDR = VDO + 2-4 mm).\n* **C) Sıfır olduğunda kaslar rahatlar (Yanlış):** Sıfır olduğunda dişler birbirine çarpar, kas yorgunluğu oluşur.\n* **D) Sadece panoramik röntgen (Yanlış):** Yüz ölçümleri (Willis, Niswonger) ve fonetik testlerle saptanır.\n* **E) Yaşlandıkça kaybolur (Yanlış):** Fizyolojik olarak korunur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 468,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protezlerde oklüzyon dikey boyutunun gereğinden DÜŞÜK (azalmış VDO) belirlenmesi durumunda hastada gözlenen klinik bulgu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Alt yüz yüksekliğinin azalması, dudakların incelerek içe çökmesi ve yaşlı yüz görünümü",
+      "B": "Konuşurken dişlerin birbirine çarpma sesi çıkarması",
+      "C": "Çiğneme kaslarında gerginlik",
+      "D": "Yutkunma zorluğu ve ağzın kapanamaması",
+      "E": "Dikey boyutun yüksekliğine bağlı tüber ağrısı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Alt yüz yüksekliği azalır, yaşlı görünüm oluşur (Doğru):** Dikey boyut düşük yapıldığında hasta çenesini fazla kapatır (over-closure). Alt yüz yüksekliği kısalır, nasolabial oluklar derinleşir, dudak kırmızılığı kaybolur ve yaşlı bir yüz profili ile angular şeilitis tablosu oluşur.\n* **B) Dişlerin çarpması (Yanlış):** Yüksek VDO belirtisidir.\n* **C) Kas gerginliği (Yanlış):** Yüksek VDO belirtisidir.\n* **D) Ağzın kapanamaması (Yanlış):** Yüksek VDO belirtisidir.\n* **E) Tüber ağrısı (Yanlış):** Yüksek VDO belirtisidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 470,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir hastaya teslim edilen yeni tam protez sonrasında hastanın \"yanak ısırma\" şikayetiyle kliniğe başvurması durumunda olası teknik hata aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Posterior dişlerin yatay overjet (yatay örtücülük) miktarının yetersiz olması veya dişlerin baş başa dizilmesi",
+      "B": "Dikey boyutun çok düşük yapılması",
+      "C": "Ön dişlerin çok uzun seçilmesi",
+      "D": "Protez kenarlarının kısa yapılması",
+      "E": "Damağa rölyef yapılmaması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Overjet yetersizliği / baş başa dizim (Doğru):** Arka arka azı dişlerin diziminde üst bukkal tüberküller alt bukkal tüberküllerin dışında kalacak şekilde yeterli \"Horizonal Overjet\" (yatay örtücülük) verilmezse veya dişler baş başa dizilirse, çiğneme esnasında yanak mukozası dişlerin arasına sıkışır ve yanak ısırma şikayeti oluşur.\n* **B) Dikey boyut düşüklüğü (Yanlış):** Angular şeilitis yapar.\n* **C) Ön diş uzunluğu (Yanlış):** Fonetik hata yapar.\n* **D) Kenar kısalığı (Yanlış):** Tutuculuk düşürür.\n* **E) Damağa rölyef (Yanlış):** Vuruk yapar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 477,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hasta yeni tam protezini taktıktan sonra dilini ısırdığını ifade ediyorsa, diş diziminde yapılan hata aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Alt posterior dişlerin olması gerekenden daha linguale dizilmiş olması",
+      "B": "Üst ön dişlerin çok uzun olması",
+      "C": "Protezin posterior sınırının kısa kalması",
+      "D": "Dikey boyutun yüksek olması",
+      "E": "Tüberlerin geniş olması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Alt posterior dişlerin fazla linguale dizilmesi (Doğru):** Alt azı dişleri kavisin lingualine (içeriye) doğru fazla dizildiğinde dilin hareket alanı daralır. Çiğneme sırasında dil dişlerin arasına kayar ve \"dil ısırma\" şikayeti meydana gelir.\n* **B) Üst ön diş uzunluğu (Yanlış):** Dudak teması hatasıdır.\n* **C) Sınır kısalığı (Yanlış):** Tutuculuk kaybıdır.\n* **D) Dikey boyut yüksekliği (Yanlış):** Tıklama yapabilir.\n* **E) Tüber genişliği (Yanlış):** Yapısal durumdur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 478,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protez yapımında hastanın dikey boyutu belirlenirken fonetik testlerde \"S\", \"Z\", \"C\" gibi ıslıklı sesler söylettirildiğinde ön dişler arasında kalan en küçük mesafeye ne ad verilir?",
+    "options": {
+      "A": "İnteroklüzal dinlenme mesafesi",
+      "B": "En küçük konuşma mesafesi (Closest speaking space)",
+      "C": "Serbest sonlanma mesafesi",
+      "D": "Maksimum açılım mesafesi",
+      "E": "Bennet mesafesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) İnteroklüzal dinlenme mesafesi (Yanlış):** Dinlenme konumundaki boşluktur (Free-way space).\n* **B) En küçük konuşma mesafesi (Closest speaking space) (Doğru):** Silverman tarafından tanımlanan bu testte, hasta \"S\", \"Z\", \"C\" (örneğin \"Sivas\", \"Sixty-six\") seslerini söylerken üst ve alt ön dişlerin birbirine en çok yaklaştığı ancak temas etmediği 1 - 2 mm'lik aralığa \"En küçük konuşma mesafesi\" denir.\n* **C) Serbest sonlanma mesafesi (Yanlış):** Dişsiz alan tanımıdır.\n* **D) Maksimum açılım (Yanlış):** Ağız açma sınırıdır.\n* **E) Bennet mesafesi (Yanlış):** Yan kayma miktarıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 485,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sabit veya hareketli protezlerin laboratuvar yapım aşamalarında ve klinik provasında marjinal uyum, proksimal kontaklar, oklüzyon ve estetik kontrol edilir. Klinik provada hasta ağzında İLK olarak kontrol edilmesi gereken unsur aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Oklüzal temaslar",
+      "B": "Proksimal kontaklar (komşu diş temasları)",
+      "C": "Protezin rengi ve estetiği",
+      "D": "Protezin dikey boyutu",
+      "E": "Yüzey cilası"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Oklüzal temaslar (Yanlış):** Proksimal sıkı ise restorasyon yerine oturmaz, oklüzyon yüksek görünür.\n* **B) Proksimal kontaklar (Doğru):** Hasta ağzındaki klinik provada İLK bakılması gereken yer proksimal kontaklardır. Eğer proksimal temaslar aşırı sıkı ise restorasyon yerine tam oturmaz; yerine oturmayan restorasyonda marjinal uyum veya oklüzyon kontrol edilemez. Önce proksimal uyumlanmalı, ardından marjinal oturma, oklüzyon ve estetik bakılmalıdır.\n* **C) Protez rengi (Yanlış):** En son estetik aşamadır.\n* **D) Dikey boyut (Yanlış):** Oturmadan bakılamaz.\n* **E) Yüzey cilası (Yanlış):** Laboratuvar bitim aşamasıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 487,
+    "unit": "33-Çene İlişkilerinin Kaydı",
+    "quality_flag": "cikmis"
+  }
+]

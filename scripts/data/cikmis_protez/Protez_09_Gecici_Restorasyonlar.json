@@ -1,0 +1,121 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi ideal geçici kuron-köprü restorasyonlarında bulunması gereken özelliklerden biri değildir?",
+    "options": {
+      "A": "Oklüzal fonksiyonun devam ettirilmesi",
+      "B": "Periodontal sağlığın korunması",
+      "C": "Pozisyonal stabilitenin sağlanması",
+      "D": "Estetiğin gerekli olmaması",
+      "E": "Pulpanın korunması"
+    },
+    "correctAnswer": "D",
+    "explanation": "İdeal bir geçici restorasyon kısa süreli kullanılsa dahi daimi restorasyon kadar fonksiyonel, biyolojik ve estetik gereksinimleri karşılamalıdır.\n- **A) Oklüzal fonksiyon:** Çiğneme fonksiyonunun idamesi ve karşıt dişin uzamasını (ekstrüzyonunu) önlemek için şarttır.\n- **B) Periodontal sağlık:** Taşkın kenarsız, iyi cilalı marjinler diş eti sağlığını korur.\n- **C) Pozisyonal stabilite:** Komşu dişlerin devrilmesini ve karşıt dişin uzamasını engeller.\n- **D) Estetiğin gerekli olmaması:** YANLIŞTIR. Özellikle anterior bölgede hastanın fonetik, sosyal ve psikolojik konforu için geçici restorasyonun estetik olması ŞARTTIR.\n- **E) Pulpanın korunması:** Preparasyon sonrası açıkta kalan dentin tübüllerini termal ve kimyasal irritanlardan korur.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2017 Orijinal",
+    "q_num": 16,
+    "unit": "09-Geçici Restorasyonlar",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Çiğnemeye yardımcı olma  \nII. Estetik yapıda olma  \nIII. Kolay temizlenme özelliği  \n\n**Yukarıda verilenlerden hangisi ya da hangileri geçici amaçlı yapılan bir kronda olması beklenen özelliklerdendir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Geçici kronlar hastanın tedavi sürecinde yaşam kalitesini korur.\n- **I. Çiğnemeye yardımcı olma:** Oklüzal yükleri karşılayıp fonksiyonu sürdürmelidir.\n- **II. Estetik yapıda olma:** Renk ve form olarak doğal dişi taklit etmelidir.\n- **III. Kolay temizlenme:** Plak tutulumunu önleyerek diş eti inflamasyonunu engellemelidir.\n- Bütün öncüller (I, II, III) ideal geçici restorasyon özellikleri olduğundan cevap E şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 17,
+    "unit": "09-Geçici Restorasyonlar",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Metal destekli porselen kron yapımı için prepare edilen vital 36 numaralı dişe geçici restorasyon teslim edilmiştir. Hastaya kalıcı restorasyonun provası için bir hafta sonraya randevu verildiğine göre, bu süre içerisinde hastada görülmesi beklenen en olası klinik durum aşağıdakilerden hangisinde doğru olarak gösterilmiştir?",
+    "options": {
+      "A": "Yumuşak gıdaları çiğneyememe",
+      "B": "Sıcak-soğuk hassasiyeti",
+      "C": "Estetik memnuniyetsizlik",
+      "D": "25 numaralı dişte uzama",
+      "E": "37 numaralı dişte devrilme"
+    },
+    "correctAnswer": "B",
+    "explanation": "Hatalı veya marjini tam oturmayan, basamak bölgesinde açıklık bulunan geçici kronlarda açıkta kalan dentin tübülleri sıvı hareketine (hidrodinamik teori) neden olur.\n- **B) Sıcak-soğuk hassasiyeti:** Uyumsuz veya basamağı açıkta bırakan geçici restorasyon teslim edilen vital dişte en sık ve en erken gözlenen klinik şikayet sıcak-soğuk uyarılara karşı gelişen hassasiyettir.\n- **A, C, D, E Şıkları:** Marjin uyumsuzluğu öncelikle tübül açıklarına bağlı termal hassasiyet tablosu oluşturur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 18,
+    "unit": "09-Geçici Restorasyonlar",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki kuron-köprü protezlerinde kullanılan geçici restorasyon materyallerinden hangisinin dayanıklılığı en fazladır?",
+    "options": {
+      "A": "Polivinilmetakrilat",
+      "B": "İzobütil metakrilat",
+      "C": "Polimetilmetakrilat",
+      "D": "Polietilmetakrilat",
+      "E": "Otopolimerizan Bis-GMA kompozit rezin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Geçici kron materyalleri akrilik ve rezin türevi olarak sınıflanır:\n- **C) Polimetilmetakrilat (PMMA):** Eğilme ve çekme direnci yüksek, yatay ve dikey yöndeki kuvvetlere karşı dayanıklılığı en fazla olan, en sık kullanılan geçici materyaldir.\n- **A, B, D) Polivinil / Polietil metakrilatlar:** Düşük polimerizasyon ısısına sahip olmalarına karşın kırılgan ve mekanik dirençleri PMMA'ya göre düşüktür.\n- **E) Bis-GMA kompozit:** Marjinal uyumu iyi olmakla birlikte darbe altında kırılgan davranış sergiler.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2017 Orijinal",
+    "q_num": 19,
+    "unit": "09-Geçici Restorasyonlar",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İlgili dişin vital olduğu göz önüne alındığında, aşağıdaki materyallerden hangisinin geçici restorasyon yapımında kullanılması önerilmez?",
+    "options": {
+      "A": "Bis-akril kompozit rezin",
+      "B": "Üretan dimetakrilat rezin",
+      "C": "Polimetilmetakrilat",
+      "D": "Polietilmetakrilat",
+      "E": "Polivinil etil metakrilat"
+    },
+    "correctAnswer": "C",
+    "explanation": "Vital dişlerde geçici restorasyon yapılırken açığa çıkan polimerizasyon ısısı (ekzotermik reaksiyon) ve salınan serbest monomer pulpa iritasyonuna/nekrozuna neden olabilir.\n- **A, B, D, E) Bis-akril, Üretan dimetakrilat, PEMA, PVEMA:** Düşük ekzotermik reaksiyon ısısına ve düşük monomer salınımına sahip olduklarından vital dişlerde güvenle tercih edilirler.\n- **C) Polimetilmetakrilat (PMMA):** Sertleşme sırasında çok yüksek ekzotermik ısı açığa çıkarır ve pulpaya toksik etkili serbest monomer salımı fazladır. Bu nedenle vital dişlerde doğrudan (direkt) ağız içi geçici kron yapımında kullanılması önerilmez veya pulpayı koruyucu önlem alınmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 21,
+    "unit": "09-Geçici Restorasyonlar",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Prefabrik geçici sabit kron protezlerin yapımında aşağıdaki materyallerden hangisinin kullanımı en az olasıdır?",
+    "options": {
+      "A": "Selüloz asetat",
+      "B": "Alüminyum",
+      "C": "Polikarbonat",
+      "D": "Paslanmaz çelik",
+      "E": "Feldspatik porselen"
+    },
+    "correctAnswer": "E",
+    "explanation": "Prefabrik geçici kronlar; hazır tüp/kabuk şeklinde üretilen ve klinik ortamında adapte edilen geçici yapılardır.\n- **A) Selüloz asetat:** Şeffaf prefabrik kron formlarıdır.\n- **B) Alüminyum:** Posterior geçici metal kron olarak üretilir.\n- **C) Polikarbonat:** Anterior hazır geçici kron yapımında sık kullanılır.\n- **D) Paslanmaz çelik:** Çocuk diş hekimliğinde ve geçici kronlarda hazır prefabrik formu yaygındır.\n- **E) Feldspatik porselen:** Geçici restorasyon materyali değildir; daimi tam seramik ve metal-seramik restorasyonların estetik üst yapısında laboratuvar ortamında işlenen bir malzemedir.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2023 Orijinal",
+    "q_num": 25,
+    "unit": "09-Geçici Restorasyonlar",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "\"İyi marjinal uyum, iyi parlatılabilme ve yatay/dikey yöndeki kuvvetlere dayanıklılık gibi avantajları olmasına rağmen; düşük aşınma direnci, yüksek hacimsel büzülme ve pulpa için toksik olan serbest monomer içerme gibi dezavantajlara da sahiptir.\"**\n\n**Yukarıda özellikleri verilen geçici restorasyon materyali aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bis-akril kompozit rezin",
+      "B": "Işıkla sertleşen üretan dimetakrilat",
+      "C": "Poli etil metakrilat",
+      "D": "Polivinil etil metakrilat",
+      "E": "Poli metil metakrilat"
+    },
+    "correctAnswer": "E",
+    "explanation": "- **E) Polimetilmetakrilat (PMMA):** Mükemmel marjinal uyumu, dikey/yatay kuvvetlere dayanıklılığı ve parlatılabilirliği ile bilinir. Ancak yüksek ekzoterm reaksiyon ısısı, serbest monomer toksisitesi ve polimerizasyon büzülmesi en belirgin dezavantajlarıdır.\n- **A, B, C, D Şıkları:** PMMA'nın dayanıklılık avantajına veya spesifik monomer dezavantaj tanımına uymayan diğer rezin çeşitleridir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 27,
+    "unit": "09-Geçici Restorasyonlar",
+    "quality_flag": "cikmis"
+  }
+]

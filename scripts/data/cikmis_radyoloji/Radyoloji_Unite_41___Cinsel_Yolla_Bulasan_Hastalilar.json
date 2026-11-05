@@ -1,0 +1,87 @@
+[
+  {
+    "q_num": 442,
+    "question": "Ekstraoral muayenede lenfadenopati ile karıştırılabilen hastalık hangisidir?",
+    "options": {
+      "A": "Tiroglossal kist",
+      "B": "Lenfoblastoma",
+      "C": "Viral enfeksiyonlar",
+      "D": "Tüberküloz",
+      "E": "İmmün yetmezlik"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Tiroglossal kanal kisti, brankiyal yarık kisti, dermoid kist ve majör tükürük bezi büyümeleri gerçek bir lenf bezi patolojisi olmamasına rağmen boyundaki anatomik yerleşimleri nedeniyle ekstraoral palpasyonda lenfadenopati ile karıştırılabilen durumlardır.\n**Çeldiriciler:**\n- B) Lenfoblastoma lenfadenopati ile karışan bir kist değil, doğrudan gerçek patolojik lenfadenopati yapan malign bir lenfoid tümördür.\n- C) Viral enfeksiyonlar lenf düğümlerinde reaktif hiperplazi yaparak gerçek lenfadenopati oluşturur.\n- D) Tüberküloz, servikal lenf nodlarında granülomatöz enfeksiyon (skrofula) yaparak doğrudan gerçek lenfadenopatiye yol açar.\n- E) İmmün yetmezlik durumları (örneğin HIV) persistan generalize lenfadenopati gelişiminin doğrudan nedenidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 41 - Cinsel Yolla Bulaşan Hastalılar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 449,
+    "question": "Genellikle alt dudakta güneşin etkisine bağlı olarak gelişen ve premalign kabul edilen lezyon için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Post inflamatuvar hiperpigmentasyon",
+      "B": "Verrüköz lökoplaki",
+      "C": "Aktinik şelitis",
+      "D": "Oral submuköz fibrozis",
+      "E": "Kondiloma akuminatum"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Aktinik (solar) şelitis, açık havada çalışanlarda (çiftçi, balıkçı, gemici) kronik ultraviyole (güneş) ışığı maruziyetine bağlı olarak alt dudak vermilyonunda gelişen keratotik, atrofik ve ülsere olabilen premalign bir lezyondur; skuamöz hücreli karsinoma dönüşebilir.\n**Çeldiriciler:**\n- A) Post inflamatuvar hiperpigmentasyon, enflamasyon sonrası melanin artışına bağlı gelişen benign renk değişikliğidir; premalign değildir.\n- B) Verrüköz lökoplaki ağız içi mukozada (diş eti, yanak) görülen premalign bir lezyon olup güneş ışığına bağlı bir dudak lezyonu değildir.\n- D) Oral submuköz fibrozis, areka cevizi (betel nut) çiğnenmesine bağlı ağız içi mukozada kollajen birikimi ve trismusla seyreden premalign durumdur.\n- E) Kondiloma akuminatum, HPV-6 ve 11 kaynaklı benign epitelyal bir hiperplazidir; güneşle ilişkisi yoktur ve premalign kabul edilmez.\n---",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "unit": "Ünite 41 - Cinsel Yolla Bulaşan Hastalılar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 451,
+    "question": "AIDS hastalarında genital ve oral mukozada görülme sıklığı artan, genital siğil olarak da bilinen, HPV lezyonları gibi papillomatöz yapıda fakat birkaç cm çapa kadar büyük olabilen, histolojik olarak koilositik hücreler izlenebilen, oral wartlara göre epitelde parakeratoz ve akantozun daha sık izlendiği premalign olmayan lezyon için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Oral skuamöz papillom",
+      "B": "Fokal epitelyal hiperplazi",
+      "C": "Kondiloma aküminatum",
+      "D": "Verrüsiform ksantoma",
+      "E": "Keratoakantoma"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kondiloma aküminatum, HPV-6 ve 11 kaynaklı olup genital siğil olarak bilinen, AIDS hastalarında görülme sıklığı artan, sapsız ve geniş tabanlı, birkaç cm çapa ulaşabilen, histolojisinde koilositler, parakeratoz ve akantoz izlenen benign papillomatöz lezyondur.\n**Çeldiriciler:**\n- A) Oral skuamöz papillom genellikle saplı, karnabahar görünümünde, 0.5-1 cm'den küçük soliter lezyonlardır; genital siğil olarak adlandırılmaz.\n- B) Fokal epitelyal hiperplazi (Heck hastalığı), HPV-13 ve 32 kaynaklı olup özellikle çocuklarda çoklu, düz yüzeyli küçük papüller şeklinde görülür.\n- D) Verrüsiform ksantoma, HPV ile ilişkisi olmayan, bağ dokusu papillalarında lipid yüklü köpük hücrelerinin (ksantom hücreleri) birikimiyle karakterize lezyondur.\n- E) Keratoakantoma, güneş gören deride (ve dudakta) hızla büyüyen, merkezinde keratin tıkacı bulunan ve skuamöz hücreli karsinomu taklit eden bir lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 41 - Cinsel Yolla Bulaşan Hastalılar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 455,
+    "question": "Yirmi sekiz yaşındaki erkek hasta 2 senedir tekrarlayan ağız içi aftları şikâyetiyle başvuruyor. Öyküsünden karın ve eklem ağrısı, kilo kaybı ve diyaresi olduğu öğreniliyor. Hastanın muayenesinde oral mukozada aftöz lezyonların yanı sıra alt bukkal sulkus mukozasında mukozal katlantılar, gingivitis, angüler şelitis ve granülomatöz şelitis saptanıyor.\n\nYukarıdaki tarif edilen hasta için en olası ön tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Wegener granülomatozu",
+      "B": "Crohn hastalığı",
+      "C": "Behçet hastalığı",
+      "D": "Sifiliz",
+      "E": "Sistemik lupus eritematozus"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Karın ağrısı, kronik diyare ve kilo kaybı gibi gastrointestinal semptomlara; ağız içinde tekrarlayan aftöz ülserler, bukkal sulkusta hiperplastik mukozal katlantılar (kaldırım taşı/epulis fissuratum benzeri lobülasyonlar), granülomatöz şelitis ve malabsorpsiyona bağlı angüler şelitisin eşlik etmesi Crohn hastalığı için tipiktir.\n**Çeldiriciler:**\n- A) Wegener granülomatozunda üst/alt solunum yolu nekrotizan granülomları, glomerülonefrit ve diş etinde çilek gingivitisi görülür.\n- C) Behçet hastalığında oral ve genital ülserler, üveit ve paterji pozitifliği vardır; granülomatöz şelitis ve mukozal katlantılar (cobblestone) tipik değildir.\n- D) Sifilizde şankr, müköz plaklar veya gom görülür; kronik diyare ve granülomatöz şelitis tablosu oluşturmaz.\n- E) Sistemik lupus eritematozusta malar raş, artrit, nefrit ve damakta/yanakta diskoid-ülsere lezyonlar izlenir; granülomatöz bağırsak ve dudak tutulumu beklenmez.\n---",
+    "flag_reason": "DUS 2022 Orijinal",
+    "unit": "Ünite 41 - Cinsel Yolla Bulaşan Hastalılar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 458,
+    "question": "• Artralji\n• Pozitif paterji testi\n• Skarla iyileşen rekürrent genital ülserler\n• Retinal vaskülit\n\nYukarıdaki bilgilere göre en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Herpes zoster enfeksiyonu",
+      "B": "Behçet hastalığı",
+      "C": "HIV",
+      "D": "Crohn hastalığı",
+      "E": "Çölyak hastalığı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Tekrarlayan oral aftöz ülserlere eşlik eden skarla iyileşen rekürrent genital ülserler, oküler tutulum (üveit, retinal vaskülit), eklem ağrısı (artralji) ve deri hiperreaktivitesini gösteren pozitif paterji testi Behçet hastalığının majör tanı kriterleridir.\n**Çeldiriciler:**\n- A) Herpes zoster enfeksiyonu tek taraflı dermatomal veziküllerle seyreder; paterji pozitifliği, retinal vaskülit veya rekürrent genital ülser yapmaz.\n- C) HIV enfeksiyonunda fırsatçı enfeksiyonlar (kandidiyazis, kıllı lökoplaki) ve Kaposi sarkomu görülür; pozitif paterji testi Behçet hastalığına özgüdür.\n- D) Crohn hastalığında gastrointestinal semptomlar ve mukozal kaldırım taşı görünümü ön plandadır; paterji pozitifliği ve retinal vaskülit tipik değildir.\n- E) Çölyak hastalığı gluten enteropatisi olup malabsorpsiyon, mine hipoplazileri ve aftöz stomatitle seyreder; genital skar bırakan ülser ve retinal vaskülit yapmaz.\n---",
+    "flag_reason": "İlkbahar 2023 Orijinal",
+    "unit": "Ünite 41 - Cinsel Yolla Bulaşan Hastalılar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

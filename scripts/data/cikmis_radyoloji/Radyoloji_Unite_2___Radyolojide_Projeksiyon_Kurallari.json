@@ -1,0 +1,512 @@
+[
+  {
+    "q_num": 46,
+    "question": "Aşağıdakilerden hangisi mA'nın elektronların üzerine etkisidir?",
+    "options": {
+      "A": "Katoda elektronların yönlendirilmesini sağlamak",
+      "B": "Elektronların gücünü belirlemek",
+      "C": "Katotda serbest elektronları arttırır",
+      "D": "Elektronların hızını etkiler",
+      "E": "Elektronların anota çarpma hızı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Miliamper (mA), röntgen tüpünün katot kısmındaki tungsten filamentten geçen akımı düzenler. mA artışı filamentin ısısını yükselterek termoiyonik emisyonla katotta oluşan serbest elektron bulutunun sayısını (kantitesini) artırır.\n**Çeldiriciler:**\n- A) Elektronlar katoda değil, katottan anota doğru yönlendirilir ve bu odaklama molibden focusing cup ile sağlanır.\n- B) Elektronların gücünü ve enerjisini mA değil, kVp belirler.\n- D) Elektronların tüp içindeki hareket hızını etkileyen parametre mA değil, kVp'dir.\n- E) Elektronların anota çarpma hızı iki kutup arasındaki potansiyel farka (kVp) bağlıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 47,
+    "question": "Aşağıdakilerden hangisi dental röntgen tüpünde kVp artışının etkisi değildir?",
+    "options": {
+      "A": "Dalga boyu kısalır",
+      "B": "Skatter artar",
+      "C": "Katotta serbest elektronları artırır",
+      "D": "Anotta foton sayısını artırır",
+      "E": "Fotonların ortalama-maksimum enerjisi artar."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Katotta oluşan serbest elektron bulutunun sayısı kVp ile değil, düşük voltaj devresindeki mA ve ışınlama süresi ile kontrol edilen bir parametredir. kVp artışı katottaki serbest elektron sayısını değiştirmez, mevcut elektronların anota çarpma hızını artırır.\n**Çeldiriciler:**\n- A) kVp arttıkça üretilen X-ışınlarının frekansı artar ve dalga boyu kısalır.\n- B) kVp arttıkça yüksek enerjili fotonlar dokuda daha fazla Compton etkileşimine girerek skatter (saçılma) radyasyonu artırır.\n- D) kVp artışı elektronların hedefe çarpma enerjisini yükselttiği için anotta dönüşüm verimini ve oluşan foton sayısını da artırır.\n- E) kVp arttıkça oluşan X-ışını fotonlarının hem ortalama hem de maksimum enerjisi ve penetrasyon gücü artar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 48,
+    "question": "I. Işınlama süresi\nII. Hasta hareketi olasılığı\nIII. Kontrast\nIV. Densite\n\nDental röntgen cihazında mA arttırılırsa yukarıdaki parametrelerden hangisi ya da hangileri azalır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "III ve IV",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dental röntgen cihazında mA artırıldığında gerekli ışınlama süresi (I), buna bağlı olarak hasta hareketi olasılığı (II) ve aşırı koyulaşma nedeniyle görüntü kontrastı (III) azalırken; film densitesi (IV) artar.\n**Öncüllerin Analizi:**\n- I. Işınlama süresi: Aynı radyografik yoğunluğu elde etmek için mA artırıldığında, mAs dengesini korumak adına gereken ışınlama süresi azalır.\n- II. Hasta hareketi olasılığı: mA artışıyla ışınlama süresi kısaldığı için çekim esnasında hastanın hareket etme olasılığı azalır.\n- III. Kontrast: Diğer faktörler sabitken mA artırılırsa filme ulaşan foton sayısı artar, film genel olarak koyulaşır ve alanlar arasındaki fark (kontrast) azalır.\n- IV. Densite: mA ne kadar fazla ise oluşan X-ışını miktarı ve radyografik densite (koyuluk) o kadar yüksek olur; yani azalmaz, artar.\n**Çeldiriciler:**\n- A, B, E) Eksik öncül içerdikleri için yanlıştır.\n- D) mA artırıldığında densite azalmayıp arttığı için IV. öncülü içeren seçenek yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 49,
+    "question": "I. Foton sayısının artması\nII. Işının penetrasyon gücünün artması\nIII. Görüntünün densitesinin artması\n\nYukarıdakilerden hangileri röntgen cihazının kilovoltajı (kVp) artırıldığında görülebilecek etkilerdendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I, II ve III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Röntgen cihazında kilovoltaj (kVp) artırıldığında hem üretilen foton sayısı (I) hem ışının penetrasyon gücü (II) hem de filme ulaşan fotonların artışına bağlı olarak görüntünün densitesi (III) artar.\n**Öncüllerin Analizi:**\n- I. Foton sayısının artması: kVp artışı elektronların kinetik enerjisini yükselterek anotta X-ışını üretim verimini ve oluşan foton sayısını artırır.\n- II. Işının penetrasyon gücünün artması: kVp arttıkça oluşan X-ışınlarının dalga boyu kısalır, frekansı ve enerjisi yükselir; böylece delicilik ve penetrasyon gücü artar.\n- III. Görüntünün densitesinin artması: Hem foton sayısının hem de dokuyu geçip filme ulaşan ışın oranının (penetrasyonun) artması sonucunda radyografik densite (koyuluk) artar.\n**Çeldiriciler:**\n- A, B, D, E) Verilen üç etkinin tamamı kVp artışının doğrudan sonucu olduğundan diğer şıklar eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 50,
+    "question": "Röntgen cihazındaki kilovoltaj (kVp) ve miliamperin beraber etkilediği parametre aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Elektron sayısı",
+      "B": "Elektronların hızı",
+      "C": "Foton sayısı",
+      "D": "Fotonların total enerjisi",
+      "E": "Oluşan ışının dalga boyu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Miliamper (mA) katottaki elektron sayısını artırarak, kilovoltaj (kVp) ise bu elektronların hızını ve anottaki X-ışınına dönüşüm verimini artırarak üretilen foton sayısını etkiler. Dolayısıyla her iki parametrenin ortak olarak etkilediği faktör foton sayısıdır.\n**Çeldiriciler:**\n- A) Elektron sayısı yalnızca mA (ve süre) tarafından kontrol edilir, kVp'nin etkisi yoktur.\n- B) Elektronların hızı yalnızca kVp tarafından belirlenir, mA'in etkisi yoktur.\n- D) Fotonların maksimum ve ortalama enerjisi kVp tarafından belirlenir.\n- E) Oluşan ışının dalga boyu yalnızca kVp'ye bağlıdır; mA dalga boyunu değiştirmez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 51,
+    "question": "Dental radyoloji cihazının tabii (doğal) filtrasyonunun eşdeğer olduğu alüminyum kalınlığı minimum ve maksimum değeri aşağıdaki seçeneklerden hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "Minimum: 0,1 mm – Maksimum: 0,5 mm",
+      "B": "Minimum: 0,5 mm – Maksimum: 1 mm",
+      "C": "Minimum: 0,5 mm – Maksimum: 2 mm",
+      "D": "Minimum: 1 mm – Maksimum: 2,5 mm",
+      "E": "Minimum: 1,5 mm – Maksimum: 2,5 mm"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Tabii (doğal) filtrasyon; X-ışını tüpünün camı, cam etrafındaki madeni soğutucu yağlar ve bunları çevreleyen muhafaza/pencere tarafından kendiliğinden oluşturulan süzme işlemidir. Bir dental röntgen cihazının kendi doğal filtrasyonu minimum 0,5 mm ile maksimum 2 mm alüminyum (Al) kalınlığına eşdeğerdir.\n**Çeldiriciler:**\n- A, B, D) Doğal filtrasyonun alüminyum eşdeğeri aralığını (0,5 - 2 mm) doğru yansıtmamaktadır.\n- E) 1,5 mm ve 2,5 mm Al değerleri doğal filtrasyonu değil, doğal ve ilave filtrasyonun toplamı olan total filtrasyon sınırlarını (70 kVp altında 1,5 mm Al; 70 kVp üstünde 2,5 mm Al) ifade eder.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 52,
+    "question": "Diğer tüm ışınlama parametrelerinin sabit tutulduğu, sadece kVp değerinin azaltıldığı durumda radyografik densite ve kontrastta meydana gelecek değişikliklerle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Densite azalır, kontrast azalır.",
+      "B": "Densite artar, kontrast azalır.",
+      "C": "Densite artar, kontrast artar.",
+      "D": "Densite azalır, kontrast artar.",
+      "E": "Densite azalır, kontrast değişmez."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** kVp değeri azaltıldığında oluşan ışınların penetrasyon gücü ve foton sayısı düşer, filme daha az ışın ulaştığı için radyografik densite (koyuluk) azalır. Aynı zamanda düşük kVp değerinde fotoelektrik etki baskın hale gelir, ara gri tonlar azalır, radyoopak ve radyolüsent alanlar arasındaki geçiş keskinleşir (kısa skala) ve görüntü kontrastı artar.\n**Çeldiriciler:**\n- A, E) kVp azaltıldığında kontrast azalmaz veya sabit kalmaz; düşük kVp yüksek kontrast (kısa skala) oluşturur.\n- B, C) kVp azaltıldığında penetrasyon ve foton sayısı düştüğü için densite artmaz, azalır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 53,
+    "question": "Aşağıda kVp ile ilgili eşleştirmelerden hangisi doğru değildir?",
+    "options": {
+      "A": "kVp arttıkça, densite artar",
+      "B": "kVp arttıkça, kontrast azalır",
+      "C": "kVp arttıkça, skatter artar",
+      "D": "kVp arttıkça, oluşan elektron sayısı artar",
+      "E": "kVp arttıkça, penetrasyon artar"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Katotta oluşan elektron sayısının kVp ile hiçbir bağlantısı yoktur. Oluşan elektron sayısı yalnızca düşük voltaj devresindeki mA ve süre ile ilintilidir; kVp bu elektronların hızını ve enerjisini artırır.\n**Çeldiriciler:**\n- A) kVp arttıkça foton sayısı ve penetrasyon arttığından filme ulaşan ışın miktarı ve densite artar.\n- B) kVp arttıkça ara gri tonların sayısı artar (uzun skala) ve görüntü kontrastı azalır.\n- C) kVp arttıkça yüksek enerjili fotonların dokuda saçılma (skatter) oranı artar.\n- E) kVp arttıkça ışının dalga boyu kısalır ve dokulardaki penetrasyon (delicilik) gücü artar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 54,
+    "question": "Kontrastı etkileyen faktörlerden hangisi doğru değildir?",
+    "options": {
+      "A": "Cihazın kVp'si arttıkça kontrast düşer.",
+      "B": "mA ve ışınlama süresi arttıkça kontrast düşer.",
+      "C": "Film kontrastı, filmin farklı densiteleri gösterebilme kapasitesine bağlıdır; yüksek çözünürlüklü filmlerde kontrast artar.",
+      "D": "Scatter radyasyon, foga sebep olacağı için kontrastı artırır.",
+      "E": "1. banyonun süresi veya sıcaklığı arttıkça kontrast artar."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Scatter (saçılmış) radyasyon film üzerinde istenmeyen homojen koyulaşmaya yani foga (sislenmeye) sebep olur. Fog, açık ve koyu alanlar arasındaki yoğunluk farkını maskelediği için görüntü kontrastını artırmaz, tam tersine düşürür.\n**Çeldiriciler:**\n- A) Cihazın kVp değeri arttıkça penetrasyon ve saçılma artar, gri ton skalası uzar ve kontrast düşer.\n- B) mA ve ışınlama süresi gereğinden fazla arttığında aşırı koyu radyograflar oluşur ve kontrast azalır.\n- C) Film kontrastı filmin yapısal kapasitesine bağlıdır ve yüksek çözünürlüklü filmlerde kontrast daha yüksektir.\n- E) Birinci banyonun (geliştirici) süresi veya optimum sınırlar içindeki sıcaklığı arttıkça metalik gümüş indirgenmesi artar, gri tonlar azalır ve kontrast yükselir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 55,
+    "question": "Aşağıdakilerden hangisi doğal radyasyon kaynağı değildir?",
+    "options": {
+      "A": "Toryum",
+      "B": "Stronsiyum",
+      "C": "Potasyum",
+      "D": "Radon",
+      "E": "Uranyum"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Doğada bulunan stronsiyum radyoaktif bir madde değildir (radyoaktif izotopu olan Stronsiyum-90 nükleer reaksiyonlar ve serpintilerle oluşan yapay bir kaynaktır). Diğer seçeneklerdeki elementler ise yerkabuğunda, havada veya gıdalarda doğal olarak bulunan radyoaktif kaynaklardır.\n**Çeldiriciler:**\n- A) Toryum, yerkabuğunda doğal olarak bulunan eksternal doğal radyasyon kaynaklarındandır.\n- C) Potasyum (Potasyum-40), gıdalarla vücuda alınan internal doğal radyasyon kaynaklarındandır.\n- D) Radon, yerkabuğundaki radyumun bozunmasıyla oluşan ve solunumla alınan en önemli doğal radyasyon kaynağıdır.\n- E) Uranyum, doğada bulunan ve çeşitli alt maddelere bölünerek doğal radyoaktivite gösteren bir elementtir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 56,
+    "question": "Aşağıdakiler hangisi yapay radyasyon kaynağı değildir?",
+    "options": {
+      "A": "Bilgisayarlı tomografi",
+      "B": "Gıdalarla alınan radyasyon",
+      "C": "Nükleer güç santralleri",
+      "D": "Radyoaktif serpintiler",
+      "E": "Konik ışınlı bilgisayarlı tomografi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Gıdalarla alınan radyasyon (vücutta bulunan potasyum-40, karbon-14, radyum, trityum ve polonyum gibi radyoaktif elementler), yapay değil internal doğal radyasyon kaynağıdır.\n**Çeldiriciler:**\n- A) Bilgisayarlı tomografi, tıbbi teşhis amacıyla kullanılan yapay radyasyon kaynağıdır.\n- C) Nükleer güç santralleri, insan yapımı yapay radyasyon kaynakları arasındadır.\n- D) Radyoaktif serpintiler, nükleer denemeler ve kazalar sonucu oluşan yapay radyasyon kaynaklarıdır.\n- E) Konik ışınlı bilgisayarlı tomografi, diş hekimliği teşhisinde kullanılan yapay radyasyon kaynağıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 57,
+    "question": "Aşağıda verilen medikal radyasyon kaynaklarındaki iyonize radyasyonun efektif dozunun yıllık ortalamaları eşleştirmelerinden sırasıyla en çok - en az orana sahip olanlar hangi seçenekte doğru verilmiştir?",
+    "options": {
+      "A": "Konvansiyonel radyografi - dental",
+      "B": "Bilgisayarlı tomografi - dental",
+      "C": "Bilgisayarlı tomografi - girişimsel radyoloji ve floroskopi",
+      "D": "Nükleer tıp - dental",
+      "E": "Nükleer tıp - tüketim malları"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Medikal radyasyon kaynakları içerisinde yıllık ortalama efektif doza en fazla katkıyı Bilgisayarlı Tomografi (1,5 mSv) sağlarken, en az orana sahip olan uygulama ise dental radyografidir (0,07 mSv).\n**Çeldiriciler:**\n- A) Konvansiyonel radyografi ve floroskopinin yıllık ortalama dozu (0,3 mSv), bilgisayarlı tomografiden (1,5 mSv) çok daha düşüktür.\n- C) Girişimsel radyoloji ve floroskopi (0,4 mSv) en düşük orana sahip medikal kaynak değildir; dental uygulamalar çok daha düşüktür.\n- D) Nükleer tıp (0,8 mSv) yüksek doz içerse de bilgisayarlı tomografinin (1,5 mSv) gerisindedir.\n- E) Nükleer tıp en yüksek kaynak olmadığı gibi, tüketim malları da medikal radyasyon kategorisinde değerlendirilmez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 58,
+    "question": "Aşağıdakilerden hangisi radyasyondan korumada etkili değildir?",
+    "options": {
+      "A": "Film hızı",
+      "B": "Obje-film mesafesi",
+      "C": "Kolimasyon tipi",
+      "D": "Filtrasyon",
+      "E": "Film tutucu kullanılması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Obje-film mesafesinin kısa olması magnifikasyonu ve penumbrayı azaltarak görüntü detayını (netliğini) artırır; ancak hastanın veya uygulayıcının radyasyondan korunmasında herhangi bir etkisi yoktur.\n**Çeldiriciler:**\n- A) Hızlı filmlerin (örneğin E veya F hızı) kullanılması, görüntü elde etmek için gereken ışınlama süresini kısaltarak hasta dozunu azaltır.\n- C) Dikdörtgen kolimasyon kullanımı, dairesel kolimatöre göre ışınlanan doku hacmini ve saçılan radyasyonu azaltarak hasta dozunu büyük ölçüde düşürür.\n- D) Filtrasyon, görüntü oluşturmaya yetmeyecek uzun dalga boylu X-ışınlarını süzerek hastanın gereksiz radyasyon almasını önler.\n- E) Film tutucu kullanılması, hem hastanın parmağının ışınlanmasını önler hem de cone-cut gibi hatalara bağlı tekrar çekimleri azaltarak radyasyondan korur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 59,
+    "question": "I. Kurşun önlük ve yakalık kullanımı\nII. Uygun tekniğin seçimi\nIII. Tekrar filmlerin alınması\n\nHastanın radyasyondan korunmasında yukarıdakilerden hangisi veya hangileri etkilidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hastanın radyasyondan korunmasında tiroid ve gonadları koruyan kurşun önlük/yakalık kullanımı (I) ile doğru endikasyon ve uygun çekim tekniğinin seçilmesi (II) etkiliyken, tekrar filmlerin alınması (III) hastanın aldığı radyasyon dozunu artırır.\n**Öncüllerin Analizi:**\n- I. Kurşun önlük ve yakalık kullanımı: Saçılan radyasyonun tiroid bezi ve üreme organları gibi radyosensitif dokulara ulaşmasını engelleyerek hastayı korur.\n- II. Uygun tekniğin seçimi: Doğru teknik ve düzgün açılamalarla tek seferde tanısal görüntü elde edilmesini sağlayarak gereksiz doz alımını önler.\n- III. Tekrar filmlerin alınması: Radyasyondan korunma ilkelerine aykırıdır; hastanın kümülatif radyasyon dozunu artıracağından tekrar çekimlerden kaçınılmalıdır.\n**Çeldiriciler:**\n- A) Uygun teknik seçimini dışladığı için eksiktir.\n- C, D, E) Tekrar film alınması radyasyon dozunu artıran bir durum olduğundan III. öncülü içeren seçenekler yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 60,
+    "question": "I. Alüminyum\nII. Bizmut\nIII. Bakır\n\nYukarıdakilerden hangisi veya hangileri son yıllarda radyasyondan korunma için geliştirilen kurşunsuz önlüklerde kullanılan malzemelerdendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Son yıllarda kurşunun ağırlık ve toksisite dezavantajlarını gidermek amacıyla geliştirilen kurşunsuz koruyucu önlüklerde, X-ışını atenüasyonunu sağlamak için antimon, kalay, tungsten veya bizmut (II) gibi yüksek atom numaralı malzemeler kullanılır.\n**Öncüllerin Analizi:**\n- I. Alüminyum: Düşük atom numaralı bir metaldir ve koruyucu önlüklerde değil, röntgen tüpünde filtrasyon amacıyla kullanılır.\n- II. Bizmut: Yüksek atom numaralı bir elementtir; antimon, kalay ve tungsten ile birlikte kurşunsuz önlüklerin yapısında X-ışınlarını tutmak için kullanılır.\n- III. Bakır: Yüksek ısı iletkenliği nedeniyle röntgen tüpünün anot gövdesinde ısıyı uzaklaştırmak için kullanılır; kurşunsuz önlük materyali değildir.\n**Çeldiriciler:**\n- A, C, D, E) Alüminyum filtrede, bakır ise anot soğutmasında kullanıldığı için I ve III. öncülleri içeren şıklar yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 61,
+    "question": "Periapikal film çekiminde operatörün ayrı bir odaya ya da koruyucu bir bariyer arkasına geçme imkânı yok ise izlenmesi gereken pozisyon mesafe kuralında merkezi ışın-hasta-operatör açısı ve hasta-operatör mesafesi sırasıyla ne olmalıdır?",
+    "options": {
+      "A": "45 ile 90 derece ve 1,5 metre",
+      "B": "90 ile 135 derece ve 1,2 metre",
+      "C": "90 ile 180 derece ve 2 metre",
+      "D": "90 ile 135 derece ve 2 metre",
+      "E": "135 ile 180 derece ve 2 metre"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Koruyucu bariyerin bulunmadığı durumlarda uygulanan pozisyon ve mesafe kuralına göre operatör; merkezi ışın demetine 90 ile 135 derecelik açı alanı içinde ve hastadan en az 6 feet (180-200 cm, yani yaklaşık 2 metre) uzaklıkta durmalıdır. Bu pozisyon hem ters kare kanunundan yararlanmayı sağlar hem de saçılan radyasyonun en büyük kısmının hasta başı tarafından absorbe edildiği güvenli bölgeye karşılık gelir.\n**Çeldiriciler:**\n- A) 45-90 derece açıda geri saçılma fazladır ve 1,5 metre mesafe yetersizdir.\n- B) 90-135 derece açı doğru olmakla birlikte 1,2 metre mesafe güvenli sınır olan 2 metrenin (6 feet) altındadır.\n- C, E) 180 derece merkezi ışının tam karşısına (primer ışın yoluna) denk geldiğinden radyasyondan korunma açısından kesinlikle tehlikelidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 62,
+    "question": "Radyografi çekimi sırasında dental radyoloji uygulayıcısının korunması ile ilgili aşağıda verilen ifadelerden hangisi doğru değildir?",
+    "options": {
+      "A": "Uygulayıcı ışınlama sırasında, radyasyonun etkili bölgesi içinde durmamalıdır.",
+      "B": "Işınlama sırasında tüp uygulayıcı tarafından elle tutulmamalıdır.",
+      "C": "Koruyucu bariyer yoksa merkezi ışına 90 - 135° lik açı alanı içinde ve 2 metre uzaklıkta durmalıdır.",
+      "D": "Uygulayıcı filmi hastanın ağzında kendisi tutmalıdır.",
+      "E": "Uygulayıcının maksimum müsaade dozlarını aşıp aşmadığı periyodik olarak izlenmelidir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Uygulayıcı kesinlikle filmi hastanın ağzında kendi eliyle tutmamalıdır; aksi takdirde doğrudan primer X-ışını demetine maruz kalır. İdeal olan film tutucu apareylerin kullanılması, bu mümkün değilse filmin hasta veya refakatçisi tarafından tutulmasıdır.\n**Çeldiriciler:**\n- A) Uygulayıcı ışınlama esnasında radyasyonun etkili alanı dışında, koruyucu bir bariyer veya duvar arkasında durmalıdır.\n- B) Işınlama sırasında tüp başlığı sızıntı radyasyonu riski nedeniyle hasta ya da uygulayıcı tarafından elle tutulmamalıdır.\n- C) Bariyer imkanı yoksa pozisyon ve mesafe kuralı gereği merkezi ışına 90-135° açıda ve en az 2 metre (6 feet) mesafede durulmalıdır.\n- E) Uygulayıcının aldığı doz miktarı yakasında taşıdığı dozimetre ile periyodik olarak (2 ayda bir, yılda 6 periyot) izlenmeli ve müsaade edilen doz sınırları denetlenmelidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 63,
+    "question": "Radyografi çekimi sırasında hastanın korunması ile ilgili aşağıda verilen ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Olabilecek en yüksek doz kullanılmalıdır.",
+      "B": "Kurşun önlük, yakalık giydirilmemelidir.",
+      "C": "Hamilelerde diş tedavisinin evrelerini izlemek için film kontrolü tercih edilmelidir.",
+      "D": "Çocuk ve gençlerde film endikasyonu olabildiğince azaltılmalıdır.",
+      "E": "Işınlama alanı olabildiğince büyük tutulmalıdır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Çocuk ve gençlerde hücresel mitotik aktivite yüksek olduğundan dokuların radyosensitivitesi erişkinlere göre çok daha fazladır; bu nedenle çocuk ve genç hastalarda radyografi endikasyonu olabildiğince azaltılmalıdır.\n**Çeldiriciler:**\n- A) ALARA prensibi gereği en yüksek doz değil, tanısal görüntü sağlayacak olabilecek en düşük doz kullanılmalıdır.\n- B) Hastayı saçılan radyasyondan korumak amacıyla kurşun (veya kurşunsuz) önlük ve tiroid yakalığı mutlaka giydirilmelidir.\n- C) Hamilelerde yalnızca çok zorunlu acil durumlarda tüm koruyucu önlemler alınarak film çekilebilir; rutin diş tedavisinin evrelerini izlemek için film kontrolü tercih edilmemelidir.\n- E) Işınlama alanı büyük değil, köşeli (dikdörtgen) kolimatör kullanılarak olabildiğince küçük tutulmalıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 64,
+    "question": "X ışınının dokudan geçerken absorbsiyon ve saçılma ile yoğunluğunun azalması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Compton",
+      "B": "Atenuasyon",
+      "C": "Skatter",
+      "D": "Fotoelektrik",
+      "E": "Filtrasyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** X-ışını demetinin madde veya dokudan geçerken hem absorbsiyon (soğurulma) hem de saçılma (skatter) etkileşimlerinin toplamı sonucunda yoğunluğunun (şiddetinin) azalmasına atenuasyon (zayıflama) denir.\n**Çeldiriciler:**\n- A) Compton, fotonun dış yörünge elektronuna çarparak enerjisinin bir kısmını kaybedip saçıldığı tekil bir etkileşim türüdür.\n- C) Skatter, yalnızca ışınların yön değiştirerek saçılmasını ifade eder; absorbsiyonu kapsamaz.\n- D) Fotoelektrik etki, fotonun iç yörünge elektronunu sökerek tamamen soğurulduğu tekil etkileşim mekanizmasıdır.\n- E) Filtrasyon, röntgen tüpü çıkışında düşük enerjili uzun dalga boylu ışınların metal bariyerlerle (alüminyum) elimine edilmesi işlemidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 65,
+    "question": "Aşağıdaki durumlardan hangisinde fotonun sahip olduğu enerjide değişiklik izlenmez?",
+    "options": {
+      "A": "Kompton saçılması",
+      "B": "Koherent saçılma",
+      "C": "Fotoelektrik etki",
+      "D": "Atenuasyon",
+      "E": "Skatter"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Koherent (klasik/Thomson) saçılmada düşük enerjili gelen foton, atomun elektronlarıyla etkileşerek onları titreştirir ancak elektron koparamaz (iyonizasyon oluşmaz). Atom çekim kuvvetinden dolayı foton sadece yön değiştirir; dalga boyunda ve sahip olduğu enerjide hiçbir değişiklik izlenmez.\n**Çeldiriciler:**\n- A) Kompton saçılmasında foton dış yörünge elektronunu koparmak için enerjisinin bir kısmını harcar ve daha düşük enerjili (daha uzun dalga boylu) bir foton olarak saçılır.\n- C) Fotoelektrik etkide gelen foton tüm enerjisini elektrona aktarır ve tamamen yok olur.\n- D) Atenuasyon, ışın demetinin dokudan geçerken absorbsiyon ve saçılma ile toplam enerji ve yoğunluk kaybetmesidir.\n- E) Skatter genel saçılma kavramıdır ve büyük çoğunluğunu oluşturan Kompton saçılmasında foton enerjisi azalır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 66,
+    "question": "I. mA\nII. kVp\nIII. Kolimatör\nIV. Fokal spot-film mesafesi\n\nYukarıdaki parametrelerden hangisi veya hangileri skatter radyasyon üzerinde etkilidir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II, III ve IV",
+      "C": "II ve III",
+      "D": "Yalnız II",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Dokuda oluşan skatter (saçılma) radyasyonu; foton enerjisini belirleyen kVp (II), ışınlanan doku hacmini sınırlayan kolimatör (III) ve ışın demetinin yayılımını düzenleyen fokal spot-film mesafesi (IV) tarafından etkilenir.\n**Öncüllerin Analizi:**\n- I. mA: Sadece üretilen foton sayısını belirler; fotonların enerjisi veya ışınlanan doku hacmiyle ilgili olmadığı için saçılma oranı üzerinde etkili değildir.\n- II. kVp: kVp arttıkça foton enerjisi yükselir ve Compton etkileşimiyle oluşan skatter radyasyon artar.\n- III. Kolimatör: Tüpten çıkışta dar saha sağlayan dikdörtgen kolimatör kullanımı ışınlanan doku hacmini küçülterek skatter radyasyonu azaltır.\n- IV. Fokal spot-film mesafesi: Mesafenin artırılması (uzun kon kullanımı) daha paralel ışın demeti sağlayarak ışınlanan doku hacmini ve saçılmayı azaltır.\n**Çeldiriciler:**\n- A, E) mA artışı foton enerjisini değiştirmediğinden I. öncülü içeren seçenekler yanlıştır.\n- C, D) Fokal spot-film mesafesi ve kolimasyon da ışınlanan hacim üzerinden skatter radyasyonu doğrudan etkilediği için eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 67,
+    "question": "Dijital görüntülemede kontrast çözünürlüğü aşağıdakilerden hangisiyle ifade edilir?",
+    "options": {
+      "A": "Bit derinliği",
+      "B": "Voksel büyüklüğü",
+      "C": "Piksel büyüklüğü",
+      "D": "Milimetredeki çizgi çifti sayısı",
+      "E": "Dedektör genişliği"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Bir radyograf üzerindeki farklı yoğunlukları (densiteleri) ve gri ton farklarını ayırt edebilme özelliğine kontrast çözünürlüğü denir. Dijital görüntülemede bir pikselin alabileceği gri ton sayısı ikinin kuvveti olan bit derinliği ($2^n$) ile ifade edilir (örneğin 8 bit = 256 gri ton, 16 bit = 65.536 gri ton).\n**Çeldiriciler:**\n- B) Voksel büyüklüğü, üç boyutlu dijital görüntülerde uzaysal çözünürlüğü belirleyen en küçük hacim birimidir.\n- C) Piksel büyüklüğü, iki boyutlu dijital görüntülerde uzaysal çözünürlüğü (detayı) belirleyen en küçük görüntü elemanıdır.\n- D) Milimetredeki çizgi çifti sayısı (lp/mm), kontrast çözünürlüğünün değil, uzaysal çözünürlüğün ölçü birimidir.\n- E) Dedektör genişliği, görüntülenebilen alanın (FOV) fiziksel boyutunu ifade eder.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 68,
+    "question": "Bir dijital radyografi üzerindeki farklı densiteleri ayırt edebilme özelliği aşağıdakilerden hangisi ile ifade edilir?",
+    "options": {
+      "A": "Bit derinliği",
+      "B": "Milimetrede izlenebilen çizgi çifti",
+      "C": "Fokal spot büyüklüğü",
+      "D": "Dedektör latitude",
+      "E": "Dedektör hassasiyeti"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dijital radyografide farklı densiteleri (gri tonlarını) birbirinden ayırt edebilme kapasitesi kontrast çözünürlüğüdür ve dijital dedektörlerin yakalayabildiği veri derinliği olan bit derinliği (8, 10, 12 veya 16 bit) ile ifade edilir.\n**Çeldiriciler:**\n- B) Milimetrede izlenebilen çizgi çifti (lp/mm), görüntüdeki ince detayları ayırt edebilme kapasitesi olan uzaysal çözünürlüğün ölçü birimidir.\n- C) Fokal spot büyüklüğü, geometrik bulanıklığı (penumbra) ve uzaysal çözünürlüğü etkileyen bir faktördür.\n- D) Dedektör latitude, görüntü reseptörünün farklı yoğunlukta ekspozüre neden olan fotonları doygunluğa ulaşmadan yakalayabilme (dinamik aralık) kapasitesidir.\n- E) Dedektör hassasiyeti (duyarlılığı veya hızı), dedektörün az miktarda radyasyonla tanısal görüntü oluşturabilme yeteneğidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 69,
+    "question": "I. Fokal spot büyüklüğü\nII. Fokal spot-obje mesafesi\nIII. Obje-film mesafesi\n\nYukarıdakilerden hangisi veya hangileri uzaysal çözünürlüğün bağlı olduğu faktörlerdendir?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Uzaysal çözünürlük, bir görüntüdeki küçük detayları ve kenar keskinliğini ayırt edebilme kapasitesidir. Projeksiyon geometrisini belirleyen fokal spot büyüklüğü (I), fokal spot-obje mesafesi (II) ve obje-film mesafesi (III) görüntü netliğini ve penumbrayı doğrudan etkileyerek uzaysal çözünürlüğü belirler.\n**Öncüllerin Analizi:**\n- I. Fokal spot büyüklüğü: Fokal spot küçüldükçe penumbra (yarı gölge) azalır ve uzaysal çözünürlük artar.\n- II. Fokal spot-obje mesafesi: Bu mesafe arttıkça magnifikasyon ve bulanıklık azalır, uzaysal çözünürlük yükselir.\n- III. Obje-film mesafesi: Obje reseptöre ne kadar yakın olursa magnifikasyon ve penumbra o kadar az olur, uzaysal çözünürlük artar.\n**Çeldiriciler:**\n- B, C, D, E) Her üç geometrik faktör de uzaysal çözünürlüğün doğrudan belirleyicisi olduğu için diğer şıklar eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 70,
+    "question": "I. Fokal spot-obje mesafesi kısa olmalıdır.\nII. Obje ve reseptör birbirine paralel olmalıdır.\nIII. Fokal spot küçük olmalıdır.\n\nProjeksiyon geometrisinin temel prensipleriyle ilgili yukarıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "I, II ve III",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** İdeal projeksiyon geometrisinde minimum magnifikasyon ve minimum distorsiyonla net görüntü elde edebilmek için obje ve reseptör birbirine paralel olmalı (II) ve cihazın fokal spotu olabildiğince küçük olmalıdır (III).\n**Öncüllerin Analizi:**\n- I. Fokal spot-obje mesafesi kısa olmalıdır: Yanlıştır; fokal spot-obje mesafesi kısa olursa ışınların diverjansı nedeniyle görüntü magnifiye olur ve penumbra artar. Bu mesafe mümkün olduğunca uzun olmalıdır.\n- II. Obje ve reseptör birbirine paralel olmalıdır: Doğrudur; şekil bozulmasını (distorsiyonu) önlemek için obje ile film/reseptör düzlemi birbirine paralel ve yakın konumlandırılmalıdır.\n- III. Fokal spot küçük olmalıdır: Doğrudur; radyografta penumbra (yarı gölge) oluşumunu en aza indirmek ve keskinliği artırmak için fokal spot küçük olmalıdır.\n**Çeldiriciler:**\n- A, B, D) Fokal spot-obje mesafesi kısa değil uzun olması gerektiğinden I. öncülü içeren seçenekler yanlıştır.\n- E) III. öncül de doğru bir prensip olduğundan yalnız II eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 71,
+    "question": "Aşağıdakilerden hangisi ideal projeksiyon geometrisini sağlamak için yapılması gereken düzenlemelerden birisi değildir?",
+    "options": {
+      "A": "Minimum magnifikasyon",
+      "B": "Minimum distorsiyon",
+      "C": "Kısa fokal spot-obje mesafesi",
+      "D": "Küçük fokal spot",
+      "E": "Birbirine paralel ve yakın obje-reseptör"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** İdeal projeksiyon geometrisini sağlamak için fokal spot-obje mesafesi kısa değil, mümkün olduğunca uzun olmalıdır. Kısa fokal spot-obje mesafesi görüntünün büyümesine (magnifikasyona) ve penumbranın artmasına yol açar.\n**Çeldiriciler:**\n- A) Gerçek boyutlara en yakın görüntüyü elde etmek için minimum magnifikasyon hedeflenir.\n- B) Objenin gerçek şeklini korumak için minimum distorsiyon sağlanmalıdır.\n- D) Küçük fokal spot kullanımı geometrik bulanıklığı (penumbrayı) azaltarak görüntü netliğini artırır.\n- E) Obje ve reseptörün birbirine paralel olması distorsiyonu, birbirine yakın olması ise magnifikasyonu önler.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 72,
+    "question": "Aşağıdakilerden hangisi radyograftaki penumbra oluşumunun temel nedenidir?",
+    "options": {
+      "A": "Target-obje mesafesinin uzun olması",
+      "B": "Obje-film mesafesinin uzun olması",
+      "C": "Fokal spotun büyük olması",
+      "D": "Hastanın hareket etmesi",
+      "E": "Açılı yerleştirilmiş target materyal"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Penumbra, gerçek görüntüyü (umbra) çevreleyen ve görüntü keskinliğini bozan yarı gölge (bulanıklık) alanıdır. X-ışınlarının noktasal bir kaynaktan değil, belirli bir yüzeye sahip fokal spottan çıkması nedeniyle oluşur; dolayısıyla penumbra oluşumunun temel nedeni fokal spotun büyük olmasıdır.\n**Çeldiriciler:**\n- A) Target-obje mesafesinin uzun olması penumbrayı oluşturmaz, aksine mevcut penumbrayı azaltarak netliği artırır.\n- B) Obje-film mesafesinin uzun olması var olan penumbrayı artırır ancak penumbra oluşumunun temel kaynağı değildir.\n- D) Hastanın hareket etmesi hareket bulanıklığına (motion unsharpness) yol açar; geometrik penumbranın temel nedeni değildir.\n- E) Target materyalin açılı yerleştirilmesi (çizgi fokus prensibi) efektif fokal spotu küçülterek penumbrayı azaltmak amacıyla yapılan bir düzenlemedir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 73,
+    "question": "Aynı objenin farklı zamanlarda standardizasyon ile alınmış radyografik görüntülerinin birbiri üzerine çakıştırılması sonucu, ilgilenilen bölgelerde densite farklılığına bağlı olarak daha koyu ya da daha açık yerler üzerinden doku kaybı veya kazanımı gibi değerlendirmelerin yapıldığı en olası yöntem aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kseroradyografi",
+      "B": "Le Master tekniği",
+      "C": "Artrografi tekniği",
+      "D": "Floroskopi tekniği",
+      "E": "Dijital subtraksiyon radyografisi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dijital subtraksiyon radyografisinde (DSR), standardizasyon kurallarına uyularak farklı zamanlarda elde edilmiş periapikal radyograflar bilgisayar ortamında üst üste çakıştırılır ve değişmeyen anatomik arka plan birbirinden çıkarılır. Böylece çıplak gözle fark edilemeyecek kadar küçük alveoler kemik yoğunluğu kayıpları veya kazanımları net olarak ortaya konur.\n**Çeldiriciler:**\n- A) Kseroradyografi, film yerine elektrostatik yüklü selenyum plakların ve toner tozlarının kullanıldığı eski bir görüntüleme yöntemidir.\n- B) Le Master tekniği, üst molar bölgede zigomatik ark süperpozisyonunu önlemek için palatinal mukozaya pamuk rulo yerleştirilerek uygulanan periapikal çekim tekniğidir.\n- C) Artrografi tekniği, temporomandibular eklem boşluklarına kontrast madde verilerek eklem diskinin incelendiği yöntemdir.\n- D) Floroskopi tekniği, X-ışınları ve floresan ekran yardımıyla hareketli yapıların gerçek zamanlı (dinamik) olarak görüntülendiği yöntemdir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 74,
+    "question": "I. Standart koşullarda alınmış farklı zamanlardaki periapikal filmler bilgisayar ortamında üst üste çakıştırılarak birbirinden çıkarılır.\nII. Bu yöntem, kemikte çıplak gözle farkedilemeyecek kadar küçük densite değişikliklerini ortaya çıkarır.\nIII. Periodontal hastalıkların radyolojik takibinde de kullanılır.\n\nDijital Subtraksiyon Radyografi (DSR) ile ilgili yukarıdaki öncüllerden hangisi ya da hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dijital Subtraksiyon Radyografisi (DSR); standart projeksiyon ve ekspoz koşullarında farklı zamanlarda alınan radyografların bilgisayarda çakıştırılıp birbirinden çıkarılmasına dayanan (I), bu sayede kemikteki çok küçük mineral değişimlerini saptayabilen (II) ve periodontal tedavi sonrası kemik iyileşmesinin veya kaybının takibinde kullanılan (III) bir yöntemdir.\n**Öncüllerin Analizi:**\n- I. Standart koşullarda alınmış farklı zamanlardaki periapikal filmler bilgisayar ortamında üst üste çakıştırılarak birbirinden çıkarılır: Doğrudur; yöntemin temel çalışma prensibi sabit yapıların görüntüsünü sıfırlayarak yalnızca değişen alanları görünür kılmaktır.\n- II. Bu yöntem, kemikte çıplak gözle farkedilemeyecek kadar küçük densite değişikliklerini ortaya çıkarır: Doğrudur; konvansiyonel radyograflarda kemik kaybının görülmesi için %30-50 mineral kaybı gerekirken DSR %5'lik küçük değişimleri bile saptayabilir.\n- III. Periodontal hastalıkların radyolojik takibinde de kullanılır: Doğrudur; alveoler kret yüksekliği ve yoğunluğundaki değişimleri izlemede oldukça hassastır.\n**Çeldiriciler:**\n- A, B, C, D) Verilen üç öncülün tamamı DSR yöntemi için doğru olduğundan diğer seçenekler eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 75,
+    "question": "Aşağıdakilerden hangisi, Periodontolojide Konik Işınlı Bilgisayarlı Tomografinin (KIBT) avantajlarından birisidir?",
+    "options": {
+      "A": "Rutin periodontal değerlendirmede ilk tercih olması",
+      "B": "Düşük maliyetli bir görüntüleme yöntemi olması",
+      "C": "Metalik restorasyonların görüntülenmesinde artefakt oluşturmaması",
+      "D": "Konvansiyonel radyografilere göre daha düşük hasta radyasyon dozu içermesi",
+      "E": "Kompleks vertikal kemik defektlerinin değerlendirilmesinde konvansiyonel yöntemlere göre daha detaylı bilgi sunması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Konik Işınlı Bilgisayarlı Tomografi (KIBT), üç boyutlu görüntü sağladığı için süperpozisyonları ortadan kaldırır; kompleks vertikal kemik defektlerinin, kraterlerin, furkasyon defektlerinin ve bukkal ya da lingual yüzeylerdeki kemik kayıplarının değerlendirilmesinde iki boyutlu konvansiyonel yöntemlere göre çok daha detaylı bilgi sunar.\n**Çeldiriciler:**\n- A) Rutin periodontal değerlendirmede ilk tercih KIBT değil, paralel teknikle alınan periapikal ve bite-wing radyograflardır.\n- B) KIBT, konvansiyonel intraoral ve panoramik radyografilere göre yüksek maliyetli bir yöntemdir.\n- C) Metalik restorasyonların, postların ve implantların bulunduğu bölgelerde KIBT görüntülerinde belirgin metal (streaking) ve ışın sertleşmesi artefaktları oluşur.\n- D) KIBT, konvansiyonel intraoral radyografilere oranla daha yüksek hasta radyasyon dozu içerir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 2 - Radyolojide Projeksiyon Kuralları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

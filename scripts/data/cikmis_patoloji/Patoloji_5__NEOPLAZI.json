@@ -1,0 +1,1478 @@
+[
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 142,
+    "question": "Küçük hücreli akciğer karsinomu olan bir hastada gelişen, tümör hücrelerinin Parathormon İlişkili Peptit (PTHrP) salgılaması sonucu ortaya çıkan klinik durum ne tür bir paraneoplastik sendrom örneğidir?",
+    "options": {
+      "A": "Paraneoplastik Hiperkalsemi",
+      "B": "Cushing Sendromu",
+      "C": "Uygunsuz ADH Salınımı (SIADH)",
+      "D": "Lambert-Eaton Miyastenik Sendromu",
+      "E": "Karsinoid Sendrom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Paraneoplastik hiperkalsemi, kemik metastazı olmaksızın tümörün sistemik olarak PTHrP (veya IL-1, TNF) salgılamasıyla serum kalsiyumunun yükselmesidir. En sık akciğer yassı hücreli karsinomunda ve renal hücreli karsinomda izlenir.\n**Çeldiriciler:**\n- B) Cushing sendromu ektopik ACTH salınımı ile oluşur (küçük hücreli akciğer Ca).\n- C) SIADH ektopik ADH salınımı sonucu hiponatremi ile seyreder.\n- D) Lambert-Eaton otoantikorların nöromüsküler kavşakta voltaj kapılı kalsiyum kanallarını bloke etmesidir.\n- E) Karsinoid sendrom karsinoid tümörlerden serotonin salınımıyla ateş basması ve diyare yapmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 143,
+    "question": "Aflatoksin B1 küf toksinine kronik maruziyet sonucu p53 geninin 249. kodonunda spesifik mutasyon gelişmesiyle ilişkilendirilen malign organ tümörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hepatosellüler Karsinom",
+      "B": "Akciğer Adenokarsinomu",
+      "C": "Mesane Yassı Hücreli Karsinomu",
+      "D": "Mide Taşlı Yüzük Hücreli Karsinom",
+      "E": "Kolon Adenokarsinomu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Aflatoksin B1 (Aspergillus flavus mantar toksini), kontamine tahıl ve fıstıklarda bulunur. Karaciğerde metabolize olarak p53 geni 249. kodonda (G:C -> T:A) transversiyon mutasyonuna yol açar ve Hepatosellüler Karsinom (HCC) riskini kat kat artırır.\n**Çeldiriciler:**\n- B) Akciğer kanseri sigara ve asbest maruziyeti ile ilişkilidir.\n- C) Mesane kanseri anilin boyaları ve sigara ile ilişkilidir.\n- D) Mide kanseri Helicobacter pylori ve nitrozaminler ile ilişkilidir.\n- E) Kolon kanseri APC gen mutasyonları ve beslenme ile ilişkilidir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 144,
+    "question": "Damar duvarında trombüs oluşumunda rol oynayan Virchow Üçlüsü (Virchow's Triad) aşağıdakilerden hangilerini kapsar?",
+    "options": {
+      "A": "Endotel hasarı - Staz/Türbülanslı kan akımı - Hiperkoagülabilite",
+      "B": "Hipertansiyon - Hiperkolesterolemi - Sigara",
+      "C": "Ateroskleroz - Vaskülit - Anevrizma",
+      "D": "Staz - Anemi - Trombositopeni",
+      "E": "Endotel zedelenmesi - Vazodilatasyon - Hipoksi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Virchow triad'ı, tromboz gelişimindeki 3 temel patojenetik faktörü tanımlar: 1) Endotel zedelenmesi/hasarı, 2) Kan akımında staz (yavaşlama) veya türbülans, 3) Kanın pıhtılaşmaya eğiliminin artması (Hiperkoagülabilite).\n**Çeldiriciler:**\n- B) Hipertansiyon ve hiperkolesterolemi ateroskleroz risk faktörleridir.\n- C) Ateroskleroz damar hastalığıdır, triad bileşeni değildir.\n- D) Trombositopeni kanama eğilimini artırır, trombozu değil.\n- E) Vazodilatasyon ve hipoksi iltihap ve iskemi bulgularıdır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 48,
+    "question": "Özofagusta görülen aşağıdaki kanserlerden hangisinin Barrett özofagusu zemininde gelişmesi en olasıdır?",
+    "options": {
+      "A": "Skuamöz hücreli karsinom",
+      "B": "Gastrointestinal stromal tümör",
+      "C": "Adenokarsinom",
+      "D": "Nöroendokrin tümör",
+      "E": "Lenfoma"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Barrett özofagusunda gelişen intestinal metaplazi (Goblet hücreli kolumnar epitel), zamanla displazi ve nihayetinde Adenokarsinom gelişimine zemin hazırlar.\n**Çeldiriciler:**\n- A) Skuamöz hücreli karsinom: Sigara ve alkol kaynaklı normal katlı yassı epitelden gelişir.\n- B) GIST: Özofagus duvarındaki Cajal hücrelerinden gelişen mezenkimal tümördür.\n- D) Nöroendokrin tümör: Nöroendokrin hücrelerden köken alır.\n- E) Lenfoma: MALT dokusundan köken alır.\n---",
+    "flag_reason": "TUS 2017 Sonbahar",
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 68,
+    "question": "Tümör nekrozis faktörün reseptörüne bağlanması ile RIP protein kompleksini oluştururken Kaspaz 8 aktive olamamakta, hücre içi ATP azalmakta, reaktif oksijen türleri açığa çıkmakta ve hücre membran kaybı ile hücre ölmektedir. Bu programlanmış hücre ölümü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Apoptoz",
+      "B": "Otofaji",
+      "C": "Pyroptoz",
+      "D": "Nekroz",
+      "E": "Nekroptoz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** TNF reseptör uyarısında Kaspaz 8 inaktif kaldığında RIP1 ve RIP3 kinase kompleksi (nekrozom) aktifleşir ve MLKL ile zarı deler; bu Kaspaz bağımsız programlı nekroza Nekroptoz adı verilir.\n**Çeldiriciler:**\n- A) Apoptoz: Kaspaz bağımlı, membran bütünlüğü korunan ölümdür.\n- B) Otofaji: Hücrenin kendi organellerini sindirmesidir.\n- C) Pyroptoz: Kaspaz-1/Gasdermin-D bağımlı ateşli ölümdür.\n- D) Nekroz: Programlanmamış rastgele kaza sonucu ölümdür.\n---",
+    "flag_reason": "TUS 2022 Sonbahar",
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 236,
+    "question": "Benzen, aşağıdaki neoplazmlardan hangisinin etiyolojisinde rol oynar?",
+    "options": {
+      "A": "Lösemi",
+      "B": "Akciğer kanseri",
+      "C": "Deri kanseri",
+      "D": "Nazofarenks kanseri",
+      "E": "Karaciğer kanseri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Benzen maruziyeti, kemik iliği toksisitesi ve kromozomal hasar üzerinden özellikle Akut Miyeloid Lösemi (AML) ve diğer lösemilerin etiyolojisinde kanıtlanmış bir kimyasal karsinojendir.\n**Çeldiriciler:** Akciğer kanseri (B) sigara/asbest; Deri kanseri (C) UV ışını; Nazofarenks kanseri (D) EBV virüsü; Karaciğer kanseri (E) aflatoksin/HBV ile ilişkilidir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 237,
+    "question": "Von Hippel Lindau hastalığında, santral sinir sisteminde görülmesi beklenen tümör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Subependimal dev hücreli astrositom",
+      "B": "Schwannom",
+      "C": "Hemanjiyoblastom",
+      "D": "Menenjiyom",
+      "E": "Nörositom"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Von Hippel-Lindau (VHL) sendromunda VHL gen mutasyonu sonucu HIF-1alfa birikir. Bu tablo SSS'de (özellikle serebellumda) Hemanjiyoblastom, renal hücreli karsinom ve feokromasitoma ile karakterizedir.\n**Çeldiriciler:** Subependimal dev hücreli astrositom (A) Tüberoz Sklerozda; Schwannom (B) NF-2 sendromunda; Menenjiyom (D) NF-2 sendromunda görülür.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 238,
+    "question": "Aynı meme veya her iki memede birden çok odaklı olarak görülebilen ve sıklıkla E-cadherin kaybı gösteren karsinom aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Duktal karsinom",
+      "B": "Lobüler karsinom",
+      "C": "Medüller karsinom",
+      "D": "Kolloidal karsinom",
+      "E": "Tübüler karsinom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Memenin İnvaziv Lobüler Karsinomunda E-cadherin (CDH1) hücre adezyon molekülünün kaybı karakteristiktir. Bu kayıp nedeniyle tümör hücreleri kohezyonu kaybeder, diziler halinde yayılır ve sıklıkla multifokal/bilateral tutulum gösterir.\n**Çeldiriciler:** Duktal karsinom (A), Medüller karsinom (C), Kolloidal karsinom (D) ve Tübüler karsinom (E) tiplerinde E-cadherin ekspresyonu genellikle korunmuştur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 239,
+    "question": "İnsan Herpes virüs 8 aşağıdaki lenfoma tiplerinden hangisinin gelişiminde rol oynar?",
+    "options": {
+      "A": "Primer efüzyon lenfoması",
+      "B": "Afrika tipi Burkitt",
+      "C": "Lenfoplazmasitik",
+      "D": "Marjinal zon",
+      "E": "Mikozis fungoides"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** İnsan Herpes Virüs 8 (HHV-8), Kaposi sarkomunun yanı sıra immunsuprese bireylerde plevra ve periton gibi vücut boşluklarında solid kitle oluşturmadan sıvı içinde gelişen Primer Efüzyon Lenfoması etiyolojisinden sorumludur.\n**Çeldiriciler:** Afrika tipi Burkitt (B) ve Marjinal zon (D) EBV ile; Lenfoplazmasitik (C) IgM artışıyla; Mikozis fungoides (E) T hücreli deri lenfoması olup virüsle ilişkili değildir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 240,
+    "question": "Aşağıdakilerden hangisi proapoptotik proteinlerden biridir?",
+    "options": {
+      "A": "BCL-2",
+      "B": "BCL-XL",
+      "C": "BAX",
+      "D": "MCL-1",
+      "E": "FLIP"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** BAX (ve BAK, BAD, BID, BIM, NOXA, PUMA), mitokondri dış membran geçirgenliğini artırarak sitokrom-c salınımını ve apoptozu indükleyen pro-apoptotik gruptadır.\n**Çeldiriciler:** BCL-2 (A), BCL-XL (B), MCL-1 (D) ve FLIP (E) mitokondri membranını koruyarak veya kaspazları engellererek hücreyi apoptozdan koruyan anti-apoptotik proteinlerdir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 241,
+    "question": "Aşağıdaki virüslerden hangisinin p53 proteinini inaktive ederek kanser gelişimine katkıda bulunduğu bilinmektedir?",
+    "options": {
+      "A": "HBV",
+      "B": "HPV E6",
+      "C": "EBV",
+      "D": "HTLV-1",
+      "E": "HHV-8"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Yüksek riskli HPV tiplerinin (16, 18) ürettiği E6 onkoproteini, p53 tümör süpresör proteinine bağlanarak onun ubiquitine edilmesini ve proteazomlarda parçalanmasını sağlar.\n**Çeldiriciler:** HBV (A) HBx proteini ile; EBV (C) LMP-1 ile; HTLV-1 (D) TAX proteini ile etkileşir. HPV E7 proteini ise p53'ü değil RB proteinini inaktive eder.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 242,
+    "question": "Tümör hücrelerinin ekstraselüler matriksi geçerek invazyon yapmasında rol oynayan temel matriks metalloproteinaz (MMP) aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "MMP-1",
+      "B": "MMP-2 ve MMP-9",
+      "C": "MMP-3",
+      "D": "Elastaz",
+      "E": "Katepsin D"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Bazal membran temel olarak Tip IV kolajenden zengindir. Tümör hücrelerinin bazal membranı yıkıp invazyon ve metastaz yapmasını sağlayan ana enzimler Tip IV kolajenaz aktivitesine sahip olan MMP-2 ve MMP-9 (jelatinazlar)'dur.\n**Çeldiriciler:** MMP-1 (A) interstitial kolajenazdır; MMP-3 (C) stromelizindir; Elastaz (D) ve Katepsin D (E) lizozomal proteazlardır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 243,
+    "question": "Aşağıdaki sendromlardan hangisinde, DNA onarım gen hasarı vardır ve poliple ilişkisiz herediter kolon kanserleri görülür?",
+    "options": {
+      "A": "Lynch sendromu",
+      "B": "Peutz-Jeghers sendromu",
+      "C": "Cowden sendromu",
+      "D": "Multipl endokrin neoplazi tip 1",
+      "E": "Li-Fraumeni sendromu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Lynch Sendromu (Herediter Non-Polipozis Kolorektal Kanser - HNPCC), DNA uyumsuzluk onarım (Mismatch Repair: MLH1, MSH2, MSH6, PMS2) genlerindeki mutasyonlar sonucu gelişir ve polipozis olmaksızın kolon ve endometriyum kanserlerine yol açar.\n**Çeldiriciler:** Peutz-Jeghers (B) STK11 mutasyonlu hamartomatöz polipozistir; Cowden (C) PTEN mutasyonlu hamartom sendromudur; MEN-1 (D) MEN1 mutasyonlu endokrin tümörlerdir; Li-Fraumeni (E) p53 mutasyonlu sarkom/meme kanseri sendromudur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 244,
+    "question": "Aşağıdaki lenfomalardan hangisi, immünohistokimyasal olarak siklin D1 pozitifliği gösterir?",
+    "options": {
+      "A": "Ekstranodal NK/T hücreli lenfoma",
+      "B": "Marjinal zon lenfoması",
+      "C": "Burkitt lenfoma",
+      "D": "Mantle hücreli lenfoma",
+      "E": "Anaplastik büyük hücreli lenfoma"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Mantle Hücreli Lenfomada t(11;14) translokasyonu sonucu 11. kromozomdaki Siklin D1 geni aşırı eksprese olur ve immünohistokimyada güçlü Siklin D1 pozitifliği saptanır.\n**Çeldiriciler:** Ekstranodal NK/T (A) CD56 pozitif; Marjinal zon (B) CD20+ Siklin D1 negative; Burkitt (C) c-MYC pozitif; Anaplastik büyük hücreli lenfoma (E) ALK ve CD30 pozifliği gösterir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 245,
+    "question": "Aşağıdaki tümörlerden hangisinde RET protoonkojen mutasyonu görülme sıklığı yüksektir?",
+    "options": {
+      "A": "Akciğer küçük hücreli karsinomu",
+      "B": "Tiroidin medüller karsinomu",
+      "C": "Memenin bazal benzeri invaziv karsinomu",
+      "D": "Ailesel nonpolipozis kolon adenokarsinomu",
+      "E": "Gastrointestinal stromal tümör"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Tiroidin Medüller Karsinomu, kalsitonin salgılayan parafolliküler C hücrelerinden köken alır ve hem nörotik hem de familial MEN 2A/2B sendromları zemininde %90'ın üzerinde RET protoonkojen mutasyonu taşır.\n**Çeldiriciler:** Akciğer küçük hücreli ca (A) p53 ve RB mutasyonu; Memenin bazal karsinomu (C) BRCA1/p53 mutasyonu; HNPCC (D) MMR gen mutasyonu; GİST (E) c-KIT (CD117) mutasyonu içerir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 246,
+    "question": "Aşağıdakilerden hangisi Hodgkin lenfomanın klasik formlarından biri değildir?",
+    "options": {
+      "A": "Nodüler lenfosit baskın",
+      "B": "Lenfosit zengin",
+      "C": "Karışık hücreli",
+      "D": "Nodüler sklerozan",
+      "E": "Lenfosit fakir"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Klasik Hodgkin Lenfoma 4 alt tipe ayrılır: Nodüler sklerozan, Karışık hücreli, Lenfosit zengin ve Lenfosit fakir. Nodüler Lenfosit Baskın Hodgkin Lenfoma (NLPHL) ise biyolojik ve immünofenotipik olarak Klasik Hodgkin Lenfomadan ayrı bir gruptur.\n**Çeldiriciler:** Lenfosit zengin (B), Karışık hücreli (C), Nodüler sklerozan (D) ve Lenfosit fakir (E) Klasik Hodgkin Lenfoma alt tipleridir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 247,
+    "question": "İn-situ karsinomu invaziv karsinomdan ayıran özellik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Polarite kaybı",
+      "B": "Bazal membranın sağlam olması",
+      "C": "Artmış mitotik indeks",
+      "D": "Atipik hücreler",
+      "E": "Nükleer pleomorfizm"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** İn-situ karsinom tanım gereği epitelin tüm katlarını tutan şiddetli displazidir ancak altındaki bazal membranı henüz delip geçmemiştir (bazal membran sağlamdır). Bazal membran aşıldığında invaziv karsinom adını alır.\n**Çeldiriciler:** Polarite kaybı (A), artmış mitoz (C), atipik hücreler (D) ve nükleer pleomorfizm (E) hem in-situ hem de invaziv karsinomlarda ortak görülen anaplastik/displastik özelliklerdir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 248,
+    "question": "Aşağıdakilerden hangisi, DNA tamir mekanizmalarındaki bozukluktan kaynaklanan ailevi bir kanser sendromudur?",
+    "options": {
+      "A": "Nörofibromatozis",
+      "B": "Turcot sendromu",
+      "C": "Tüberoskleroz",
+      "D": "Kseroderma pigmentozum",
+      "E": "Von Hippel Lindau hastalığı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Kseroderma Pigmentozum, UV ışınlarının oluşturduğu pirimidin dimerlerini onaran Nükleotid Eksizyon Tamir (NER) mekanizmasındaki genetik defekt nedeniyle gelişen ve erken yaşta cilt kanserlerine yol açan bir tablodur.\n**Çeldiriciler:** Nörofibromatozis (A) NF1/NF2 tümör süpresör gen mutasyonudur; Tüberoskleroz (C) TSC1/TSC2 mutasyonudur; VHL (E) VHL gen mutasyonudur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 249,
+    "question": "Philadelphia kromozomundaki BCR-ABL translokasyonu [t(9;22)] aşağıdakilerden hangisine yol açarak onkojenik sinyal oluşturur?",
+    "options": {
+      "A": "Büyüme faktörü gibi davranarak",
+      "B": "Tirozin kinaz aktivitesi göstererek",
+      "C": "Transkripsiyon faktörü gibi davranarak",
+      "D": "Büyüme faktörü reseptörü gibi davranarak",
+      "E": "Apoptozu inhibe ederek"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** t(9;22) sonucu oluşan BCR-ABL füzyon geni, sürekli aktif sitoplazmik bir tirozin kinaz enzimi sentezler. Bu sürekli tirozin kinaz aktivitesi hücreye durmaksızın bölünme emri vererek Kronik Miyeloid Lösemiye (KML) yol açar.\n**Çeldiriciler:** BCR-ABL bir büyüme faktörü (A, D) veya transkripsiyon faktörü (C) değildir; hücresel etkisi tirozin kinaz sinyal yolağının sürekli aktif kalmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 250,
+    "question": "Aşağıdakilerden hangisi bir transkripsiyon faktörüdür?",
+    "options": {
+      "A": "JAK",
+      "B": "RAS",
+      "C": "c-MYC",
+      "D": "cAMP",
+      "E": "Hepatosit büyüme faktörü"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** c-MYC, çekirdeğe girerek DNA'daki spesifik dizilere bağlanan ve hücre siklusunu ilerleten temel bir protoonkojenik transkripsiyon faktörüdür.\n**Çeldiriciler:** JAK (A) sitoplazmik tirozin kinazdır; RAS (B) membran ilişkili GTPaz proteinidir; cAMP (D) ikinci habercidir; HGF (E) hücre dışı bir büyüme faktörü ligandidir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 251,
+    "question": "Sinonazal papillom etyolojisinde aşağıdakilerden hangi rol oynar?",
+    "options": {
+      "A": "Human papilloma virüs",
+      "B": "Sitomegalovirüs",
+      "C": "İnsan T hücreli lösemi virüsü",
+      "D": "Adenovirüs",
+      "E": "Human herpes virüs"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sinonazal papillomlar (Schneiderian papillom), solunum epiteli kökenli benign neoplazmlar olup etiyolojilerinde Human Papilloma Virüs (HPV tip 6 ve 11) yer alır.\n**Çeldiriciler:** CMV (B), HTLV-1 (C), Adenovirüs (D) ve HHV (E) sinonazal papillom etiyolojisinde yer almaz.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 252,
+    "question": "Aşağıdakilerden hangisi hücre içi sinyal yolu inhibisyonu yapan süpresör baskılayıcı genlerden biridir?",
+    "options": {
+      "A": "BRAF",
+      "B": "RET",
+      "C": "APC",
+      "D": "Siklin-D",
+      "E": "KRAS"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** APC (Adenomatöz Polipozis Koli) geni, Wnt sinyal yolağında Beta-Katenin yıkımını sağlayarak hücre çoğalmasını baskılayan temel bir tümör süpresör gendir.\n**Çeldiriciler:** BRAF (A), RET (B), Siklin-D (D) ve KRAS (E) hücresel çoğalmayı uyaran protoonkojenlerdir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 253,
+    "question": "I. Nodüler sklerozan\nII. Mikst selüler\nIII. Lenfositten zengin\nIV. Lenfositten fakir\nV. Nodüler lenfosit baskın\nEpstein-Barr Virüsü ile belirgin bir ilişkisi olmayan Hodgkin lenfomalar aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "I ve III",
+      "B": "III ve IV",
+      "C": "II ve IV",
+      "D": "I ve V",
+      "E": "III ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Klasik Hodgkin lenfomalardan Nodüler Sklerozan tip (I) ve Klasik dışı olan Nodüler Lenfosit Baskın Hodgkin Lenfoma (V) genellikle EBV negatif olup EBV ile belirgin ilişkileri yoktur. Buna karşın Karışık Hücreli (II) ve Lenfosit Fakir (IV) tipler güçlü EBV pozitifliği gösterir.\n**Çeldiriciler:** Mikst selüler (II) ve Lenfosit fakir (IV) tipler yüksek oranda EBV ile ilişkili olduğundan II ve IV içeren B, C, E seçenekleri elenir.\nÖncül Analizi:\n- Öncül I (Nodüler sklerozan): En sık görülen tip olup EBV ilişkisi düşüktür/yoktur.\n- Öncül II (Mikst selüler): %70-80 EBV pozitiftir.\n- Öncül III (Lenfosit zengin): Ilımlı EBV ilişkisi mevcuttur.\n- Öncül IV (Lenfosit fakir): %90'ın üzerinde güçlü EBV ilişkisi vardır.\n- Öncül V (Nodüler lenfosit baskın): Klasik dışı form olup EBV negatiftir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 254,
+    "question": "Aşağıdaki neoplazmlardan hangisinin gelişiminde, viral ajan etiyolojik faktör olarak rol alır?",
+    "options": {
+      "A": "Hepatik anjiyosarkom",
+      "B": "Retinoblastom",
+      "C": "Glioblastom",
+      "D": "Erişkin T-hücreli lösemi/lenfoma",
+      "E": "Prostat adenokarsinomu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Erişkin T-Hücreli Lösemi/Lenfoma (ATLL), Human T-lymphotropic Virus Type 1 (HTLV-1) infeksiyonu ve viral TAX proteininin uyarımı sonucu gelişen malign bir retroviral neoplazmdır.\n**Çeldiriciler:** Hepatik anjiyosarkom (A) vinil klorit/toryum dioksit maruziyetiyle; Retinoblastom (B) RB1 gen mutasyonuyla; Glioblastom (C) ve Prostat Ca (E) genetik/çevresel faktörlerle gelişir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 255,
+    "question": "Kırk beş yaşındaki kadın hasta genellikle öğleden sonra göz kaslarında başlayan ve giderek artan kas güçsüzlüğü şikayetiyle başvuruyor. Çizgili kas biyopsisi normal olarak saptanıyor. Hastaya verilen antikolinesteraz ilaçların geçici de olsa şikayetleri azalttığı görülüyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dermatomiyozit",
+      "B": "Musküler distrofi",
+      "C": "Miyastenia gravis",
+      "D": "Mitokondriyal miyopati",
+      "E": "Denervasyon atrofisi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Miyastenia Gravis, nöromusküler kavşaktaki postsinaptik asetilkolin (ACh) reseptörlerine karşı oluşan otoantikorlar nedeniyle gelişir. Egzersizle artan kas güçsüzlüğü, ptozis/diplopi ve antikolinesteraz yanıtı karakteristik klinik tablodur.\n**Çeldiriciler:** Dermatomiyozit (A) perimisyal inflamatuvar kas hastalığıdır; Musküler distrofi (B) distrofin gen kusurudur; Mitokondriyal miyopati (D) kırmızımbırak liflerle giden genetik tablodur; Denervasyon atrofisi (E) sinir kesisi sonucudur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 256,
+    "question": "Human papilloma virusu tarafından üretilen aşağıdaki proteinlerden hangisi p53 proteini ile etkileşerek kanser gelişimine yol açar?",
+    "options": {
+      "A": "E1",
+      "B": "E2",
+      "C": "E4",
+      "D": "E5",
+      "E": "E6"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Yüksek riskli HPV tiplerinde (16, 18) üretilen E6 proteini, p53 tümör süpresör proteinine bağlanarak onun proteazomlarda yıkılmasına ve etkisizleşmesine yol açar. (E7 proteini ise RB proteinini inaktive eder).\n**Çeldiriciler:** E1 (A) ve E2 (B) viral DNA replikasyon ve transkripsiyon düzenleyicileridir; E4 (C) ve E5 (D) viral salınım ve büyüme faktörü reseptör uyarımında rol alır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 257,
+    "question": "Yetmiş iki yaşındaki HIV (-) erkek hastanın sağ ayağında 1 yıldır var olan 3 adet mor nodüler lezyondan biyopsi alınıyor. Histolojik incelemede dermiste iğsi hücre proliferasyonu, bu hücreler arasında eritrosit içeren yarıklar ve çok sayıda eozinofilik hiyalin cisimcikler görülüyor. İmmünohistokimyasal incelemede iğsi hücrelerde HHV-8 ve CD31 pozitifliği saptanıyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Anjiyosarkom",
+      "B": "Basiller anjiyomatozis",
+      "C": "Kaposi sarkomu",
+      "D": "Epiteloid hemanjiyoendotelioma",
+      "E": "İğsi hücreli hemanjiyom"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Endotel kökenli olan Kaposi Sarkomu, HHV-8 enfeksiyonu ile ilişkilidir. Mikroskobide dermiste iğsi hücre proliferasyonu, eritrosit dolu yarık benzeri damar boşlukları, hiyalin globüller ve CD31/HHV-8 pozitifliği Klasik (Akdeniz tipi) Kaposi Sarkomunun tipik bulgularıdır.\n**Çeldiriciler:** Anjiyosarkom (A) atipik endotel ve belirgin pleomorfizm gösterir; Basiller anjiyomatozis (B) Bartonella henselae ile oluşan nötrofilli lezyondur; Epiteloid hemanjiyoendotelioma (D) ve İğsi hemanjiyom (E) HHV-8 ile ilişkisizdir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 258,
+    "question": "Güneşten gelen ultraviyole (UVB) ışınlarının DNA zincirinde pürüz oluşturarak en sık yol açtığı spesifik mutasyonel lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çift zincir kırıkları",
+      "B": "Pirimidin (Timin) dimerleri",
+      "C": "Çerçeve kayması mutasyonu",
+      "D": "Tek zincir kırığı",
+      "E": "Purin delesyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Ultraviyole (UVB) radyasyonu, DNA zincirinde yan yana duran iki pirimidin bazının (en sık Timin-Timin) anormal kovalent bağ kurarak Pirimidin (Timin) Dimerleri oluşturmasına neden olur.\n**Çeldiriciler:** Çift zincir kırıkları (A) ve tek zincir kırıkları (D) iyonizan radyasyon (X-ışını, gama) sonucunda gelişir; Çerçeve kayması (C) ve Purin delesyonu (E) kimyasal karsinojenlerin eklenmesiyle oluşur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 259,
+    "question": "İn-situ karsinom tanısı alan bir lezyonun eksizyonel biyopsi örneğinde aşağıdakilerden hangisinin görülmesi beklenmez?",
+    "options": {
+      "A": "Epitel hücrelerinin belirgin pleomorfizm göstermesi",
+      "B": "Mitotik figürlerin çok sayıda olması",
+      "C": "Atipik hücrelerin bazal membranı penetre etmesi",
+      "D": "Apoptotik hücrelerin çok sayıda olması",
+      "E": "Epitel hücrelerinin dizilimlerinin belirgin bozulması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** İn-situ karsinomda epiteli döşeyen tüm hücrelerde anaplastik ve displastik değişiklikler mevcuttur ancak bazal membran tamamen sağlamdır. Atipik hücrelerin bazal membranı penetre etmesi (delmesi) invaziv karsinomun göstergesidir.\n**Çeldiriciler:** Pleomorfizm (A), artmış mitoz (B), artmış apoptoz (D) ve epitel mimarisinin/polaritesinin bozulması (E) in-situ karsinomda epitel katları içerisinde yaygın olarak izlenir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 260,
+    "question": "Lynch sendromu olduğu düşünülen bir hastada, aşağıdaki mutasyonlardan hangisinin görülmesi diğerlerinden daha olasıdır?",
+    "options": {
+      "A": "MSH2",
+      "B": "PTEN",
+      "C": "KRAS",
+      "D": "APC",
+      "E": "SMAD4"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Lynch Sendromu (HNPCC), DNA uyumsuzluk onarım (Mismatch Repair - MMR) genlerindeki kalıtsal mutasyonlardan kaynaklanır. Bu grupta en sık mutasyona uğrayan genler MSH2 ve MLH1'dir.\n**Çeldiriciler:** PTEN (B) Cowden sendromunda; KRAS (C) sporadik kolon kanserinde; APC (D) Familial Adenomatöz Polipoziste (FAP); SMAD4 (E) Juvenil polipozis sendromunda mutasyona uğrar.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 261,
+    "question": "Aşağıdaki tümör tiplerinden hangisi, genellikle bir germ hücresi tabakasından kaynaklanan ve birden fazla neoplastik hücre tipi içeren bir malign neoplazmdır?",
+    "options": {
+      "A": "Mezotelyoma",
+      "B": "Koryokarsinom",
+      "C": "Malign melanom",
+      "D": "Leiomiyosarkom",
+      "E": "Wilms tümörü"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Wilms Tümörü (Nefroblastom), tek bir mezenşimal germ tabakasından köken almasına rağmen mikroskobide blastemal, epitelyal ve stroman bileşenleri birlikte içeren bifazik/trifazik bir mikst tümördür.\n**Çeldiriciler:** Mezotelyoma (A), Koryokarsinom (B), Malign melanom (C) ve Leiomiyosarkom (D) tek tip neoplastik hücre proliferasyonu gösteren neoplazmlardır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 262,
+    "question": "Aşağıdakilerden hangisi nöroendokrin tümörlerin histopatolojik tanısında kullanılan immünhistokimyasal belirteçlerden biri değildir?",
+    "options": {
+      "A": "Kromogranin A",
+      "B": "Sinaptofizin",
+      "C": "Nöron spesifik enolaz",
+      "D": "Napsin A",
+      "E": "5-hidroksitriptamin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Napsin A, akciğer adenokarsinomları ve böbreğin berrak hücreli karsinomlarında pozitif olan epiteliyal bir surfaktan protein belirtecidir; nöroendokrin tümör belirteci değildir.\n**Çeldiriciler:** Kromogranin A (A), Sinaptofizin (B), Nöron spesifik enolaz (NSE) (C) ve 5-HT (Serotonin) (E) nöroendokrin tümörlerin tanısında kullanılan temel markerlardır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 263,
+    "question": "Epitel kökenli kanserlerde, hücrelerin birbirleriyle olan bağlantılarının bozulması aşağıdakilerden hangisiyle en fazla ilişkilidir?",
+    "options": {
+      "A": "Tip IV kolajenaz aktivitesinin artması",
+      "B": "Laminin fonksiyon kaybı",
+      "C": "İntegrin fonksiyon kaybı",
+      "D": "Matriks metalloproteinaz aktivitesinin artması",
+      "E": "E-kaderin fonksiyon kaybı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Epitel hücrelerinin birbirine tutunmasını sağlayan ana adezyon molekülü E-kaderindir. E-kaderin fonksiyon veya gen kaybı (mutasyonu), epitel hücrelerinin bir arada kalma özelliğini bozarak invazyon ve metastazı başlatır.\n**Çeldiriciler:** MMP artışı (A, D) ve laminin/integrin değişiklikleri (B, C) hücresel yapışmanın kaybından ziyade bazal membran ve stroma ile olan etkileşimlerde rol oynar.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 264,
+    "question": "Aşağıdakilerden hangisi, solid tümörlerin metastazı sırasında intravasküler tümöral hücrelerin lenf düğümü ve diğer metastatik alanlara yayılımını kolaylaştıran adezyon molekülüdür?",
+    "options": {
+      "A": "MMP-2",
+      "B": "E-kaderin",
+      "C": "EGFR",
+      "D": "CD44",
+      "E": "IGF"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** CD44 adezyon molekülü (hyalüronan reseptörü), tümör hücrelerinin damar endoteline ve ekstraselüler matrikse tutunup dokulara ekstravazasyonunu ve lenf düğümü metastazını kolaylaştıran temel adezyon molekülüdür.\n**Çeldiriciler:** MMP-2 (A) matriks yıkan enzimdir; E-kaderin (B) intercellular yapışmayı sağlayan moleküldür; EGFR (C) ve IGF (E) büyüme faktörü reseptörleridir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 265,
+    "question": "DNA replikasyonu hücre döngüsünün hangi evresinde gerçekleşir?",
+    "options": {
+      "A": "G0",
+      "B": "G1",
+      "C": "S",
+      "D": "G2",
+      "E": "M"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Hücre döngüsünde DNA sentezi ve genomun eksiksiz kopyalanması (replikasyon) S (Sentez) evresinde gerçekleşir.\n**Çeldiriciler:** G0 (A) dinlenme evresidir; G1 (B) RNA/protein sentez ve büyüme evresidir; G2 (D) mitoz öncesi kontrol evresidir; M (E) mitoz ve hücre bölünmesi evresidir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 266,
+    "question": "Çizgili kaslarda nikotinik asetilkolin reseptörlerine karşı gelişen otoantikorlar nedeniyle ortaya çıkan kas hastalığı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Miyastenia gravis",
+      "B": "Akinezi",
+      "C": "Multipl skleroz",
+      "D": "Spastisite",
+      "E": "Lupus eritematozus"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Miyastenia Gravis, motor uç plaktaki postsinaptik nikotinik asetilkolin reseptörlerine karşı oluşan otoantikorların reseptörleri bloklaması ve yıkması sonucu gelişen bir kas güçsüzlüğü hastalığıdır.\n**Çeldiriciler:** Akinezi (B) hareket yokluğudur; Multipl skleroz (C) SSS demiyelinizan hastalığıdır; Spastisite (D) üst motor nöron bulgusudur; Lupus (E) multisistemik otoimmün bağ dokusu hastalığıdır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 267,
+    "question": "Aşağıdaki kanserlerden hangisinin venöz yol ile metastaz yapma olasılığı diğerlerine göre daha fazladır?",
+    "options": {
+      "A": "Tiroidin papiller karsinomu",
+      "B": "Meme tübüler karsinomu",
+      "C": "Renal hücreli karsinom",
+      "D": "Dil skuamöz hücreli karsinomu",
+      "E": "Prepubertal testiküler matür teratom"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Karsinomlar kural olarak lenfatik yolla yayılırken; Renal Hücreli Karsinom (RCC), Hepatoselüler Karsinom (HCC), Tiroid Folliküler Karsinomu ve Koryokarsinom istisnai olarak primer venöz (hematojen) invazyon gösterir.\n**Çeldiriciler:** Tiroid papiller karsinomu (A), Meme tübüler karsinomu (B) ve Dil SCC (D) karsinom olmaları nedeniyle öncelikle lenfatik yolla metastaz yapar; Matür teratom (E) ise benign karakterdedir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 268,
+    "question": "Mide adenokarsinomu nedeniyle distal subtotal gastrektomi yapılan bir hastanın tümör dışı mide mukoza örneklerinin birinde; submukozal yerleşimli, normal hücresel komponentlerinin tümü bulunan, duktal ve asiner yapılarında sitolojik atipi içermeyen iyi gelişmiş pankreas dokusu tesadüfen fark ediliyor. Bu lezyon için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Teratom",
+      "B": "Hamartom",
+      "C": "Pankreatik adenom",
+      "D": "Hiperplastik polip",
+      "E": "Koristom"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Koristom (Ektopi / Heterotopi), histolojik olarak tamamen normal bir dokunun vücutta normalde bulunmaması gereken farklı bir anatomik bölgede yer almasıdır (örneğin mide duvarında normal pankreas dokusu).\n**Çeldiriciler:** Teratom (A) 3 germ yaprağı içeren neoplazmdır; Hamartom (B) ait olduğu organda dizilim bozukluğu gösteren benign dokudur; Pankreatik adenom (C) neoplazmdır; Hiperplastik polip (D) mukozal reaktif gelişimdi.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 269,
+    "question": "Yumuşak doku tümörleri ve bu tümörlerin farklılaştıkları hücrelere ilişkin;\nI. Desmoid tümör - Fibroblast\nII. Ewing sarkomu - Endotel\nIII. Kaposi sarkomu - Düz kas\neşleştirmelerinden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Desmoid tümör (I) lokal agresif seyirli fibroblastik bir proliferasyondur. Ewing sarkomu (II) primitif nöroektodermal kökenlidir (endotel değildir). Kaposi sarkomu (III) ise vasküler endotel kökenlidir (düz kas değildir).\n**Çeldiriciler:** Ewing sarkomu ve Kaposi sarkomunun köken aldığı hücreler yanlış verildiği için II ve III içeren seçenekler elenir.\nÖncül Analizi:\n- Öncül I: Doğrudur; Desmoid tümör fibroblast kökenlidir.\n- Öncül II: Yanlıştır; Ewing sarkomu primitif nöroektodermal hücrelerden köken alır.\n- Öncül III: Yanlıştır; Kaposi sarkomu endotel hücresi kökenlidir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 270,
+    "question": "I. Siklin D\nII. CDH1\nIII. CDK4\nIV. p21\nYukarıdaki proteinlerden hangilerinin oluşturduğu kompleks RB proteininin hiperfosforilasyonunu sağlayarak hücrenin proliferasyonuna yol açar?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve IV",
+      "C": "III ve IV",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hücre siklusunda G1'den S fazına geçişte Siklin D (I) ile CDK4 (III) [veya CDK6] bir kompleks oluşturur. Bu kompleks retinoblastom (RB) proteinini hiperfosforile ederek E2F transkripsiyon faktörünü serbest bırakır ve hücre bölünmesini başlatır.\n**Çeldiriciler:** CDH1 (II) E-kaderin geni olup adezyon molekülüdür; p21 (IV) ise Siklin-CDK komplekslerini engelleyen tümör süpresör pıhtılaşma inhibitörüdür.\nÖncül Analizi:\n- Öncül I (Siklin D): Hücre dışı uyarana yanıt olarak sentezlenen regülatör proteindir.\n- Öncül II (CDH1): Hücre adezyon molekülüdür, siklus kompleksiyle ilgisi yoktur.\n- Öncül III (CDK4): Siklin D'nin katalitik partneri olan kinazdır.\n- Öncül IV (p21): CDK inhibitörü olup RB fosforilasyonunu engeller.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 271,
+    "question": "I. Vücut boşluklarına direkt implantasyon - Over kanseri\nII. Lenfatikler yoluyla yayılım - Meme kanseri\nIII. Hematojen yol ile yayılım - Beyin tümörü\nKanserin yayılım yolları ile ilgili yukarıdaki eşleştirmelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Over kanseri (I) periton boşluğuna tohumlama (implantasyon) yoluyla yayılır. Meme karsinomu (II) bir karsinom olarak öncelikle lenfatik yolla bölgesel lenf nodlarına gider. Beyin tümörleri (III) ise SSS dışına hematojen veya lenfatik metastaz yapmaz, lokal invazivdir.\n**Çeldiriciler:** Primer beyin tümörleri (glioblastom vb.) kural olarak sistemik metastaz yapmadığı için III içeren B, D ve E seçenekleri elenir.\nÖncül Analizi:\n- Öncül I: Doğrudur; Over kanserleri periton boşluğuna implantasyonla saçılır.\n- Öncül II: Doğrudur; Meme karsinomları aksiller lenf nodlarına lenfatik yolla yayılır.\n- Öncül III: Yanlıştır; Primer beyin tümörleri SSS dışına hematojen metastaz yapmaz.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 272,
+    "question": "Öyküsünde bilinen herhangi bir hastalığı olmayan 74 yaşındaki erkek hastanın bacak derisinde izlenen mor renkli maküler lezyondan alınan biyopside dilate, düzensiz şekilli ve açılı, sayıca artmış damar yapıları izleniyor. Stromada inflamatuvar hücreler, ekstravaze eritrositler ve hemosiderin pigmenti görülüyor. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Basiller anjiyomatozis",
+      "B": "Kaposi sarkomu",
+      "C": "Hemanjiyoperisitom",
+      "D": "Anjiyosarkom",
+      "E": "Hemanjiyoendotelyoma"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Yaşlı erkek hastada alt ekstremitede görülen mor renkli lezyon (Yama/Plak evresi Kaposi Sarkomu) mikroskobisinde dermiste dilate, vasküler yapılar, iğsi hücreler, ekstravaze eritrositler ve hemosiderin pigmenti ile karakterizedir.\n**Çeldiriciler:** Basiller anjiyomatozis (A) immünsuprese bireylerde nötrofil birikimiyle seyredir; Hemanjiyoperisitom (C) geyik boynuzu damarları içerir; Anjiyosarkom (D) belirgin sitolojik atipi ve nekroz gösterir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 273,
+    "question": "Aşağıdaki ifadelerden hangisi anaplaziyi en iyi tanımlar?",
+    "options": {
+      "A": "Fonksiyonel benzerlik",
+      "B": "Proliferatif aktivite",
+      "C": "Metaplastik değişim",
+      "D": "Korunmuş polarite",
+      "E": "Farklılaşma (diferansiyasyon) kaybı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Anaplazi, neoplastik hücrelerin köken aldığı olgun hücresel yapı ve fonksiyonel özelliklerini kaybetmesi, yani tam bir diferansiyasyon kaybıdır.\n**Çeldiriciler:** Fonksiyonel benzerlik (A), prolifetatif aktivite (B), metaplazi (C) ve korunmuş polarite (D) anaplazi tanımını karşılamayan durumlardır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 274,
+    "question": "Feokromasitoma ve renal hücreli karsinom birlikteliği olan 43 yaşındaki hastada aşağıdaki tümörlerden hangisinin bunlara eşlik etmesi en olasıdır?",
+    "options": {
+      "A": "Serebellar hemanjiyoblastom",
+      "B": "Serebellar pilositik astrositom",
+      "C": "Optik sinir gliomu",
+      "D": "Tiroid papiller karsinomu",
+      "E": "Kolon adenokarsinomu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Von Hippel-Lindau (VHL) sendromunda klasik triad: Serebellar Hemanjiyoblastom, Renal Hücreli Karsinom ve Feokromasitomadır.\n**Çeldiriciler:** Pilositik astrositom (B) ve Optik gliom (C) Nörofibromatozis Tip 1 sendromunda izlenir; Tiroid karsinomu (D) ve Kolon ca (E) VHL sendromunun karakteristik bileşenleri değildir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 275,
+    "question": "Doku tamir mekanizmaları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hasarlı dokunun tamiri, rejenerasyon ve/veya skar oluşumu adı verilen bağ doku birikimi yoluyla gerçekleşir.",
+      "B": "Rejenerasyon, hasar gören dokuda hücrelerin çoğalması ve hasarlı alanı onarması şeklinde olur.",
+      "C": "Rejenerasyondaki hücre çoğalması; büyüme faktörleri, ekstraselüler matriks ve doku kök hücrelerinin uyumlu çalışması ile sağlanır.",
+      "D": "Skar oluşumunun ilk basamağında; fibroblastların çoğalması ve gevşek bağ dokusu oluşumu ile karakterize granülasyon dokusu görülür.",
+      "E": "Skar oluşumu ile tamir mekanizmasında, ölü dokuyu ortadan kaldıran makrofajlar kritik role sahiptir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Skar oluşumunun ilk aşamasında yara alanında yeni damar oluşumu (anjiyogenez) ve ödem ile karakterize granülasyon dokusu oluşur. Fibroblastların çoğalması ve koljen depolanması granülasyon dokusunu takip eden daha geç basamaktır.\n**Çeldiriciler:** Hasarlı doku rejenerasyon veya skar ile iyileşir (A); Rejenerasyon hücre çoğalmasıdır (B); Büyüme faktörleri ve ECM uyumu şarttır (C); Makrofajlar nekrotik dokuyu temizleyerek iyileşmeyi yönetir (E).\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 276,
+    "question": "HIF-1alfa artışı yoluyla tümör vaskülaritesinin oluşumunda aşağıdaki genlerden hangisinin fonksiyon kaybı mutasyonu öncelikle etkilidir?",
+    "options": {
+      "A": "NF-1",
+      "B": "PTEN",
+      "C": "VHL",
+      "D": "PTCH",
+      "E": "BRAF"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Normal oksijen varlığında HIF-1alfa proteini VHL proteini tarafından tanınarak proteazomlarda yıkılır. VHL geninde fonksiyon kaybı mutasyonu olduğunda HIF-1alfa yıkılamaz, birikir ve VEGF sentezini artırarak tümör anjiyogenezini tetikler.\n**Çeldiriciler:** NF-1 (A) Nörofibromin eksikliği yapar; PTEN (B) PI3K yolağını baskılar; PTCH (D) Hedgehog yolağını denetler; BRAF (E) MAP-kinaz yolağında protoonkojendir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 277,
+    "question": "Neoplazinin benign-malign ayrımında;\nI. Mitotik figürler\nII. Hücresel polarite\nIII. Sitoplazma boyanma yoğunluğu\nMorfolojik özelliklerinden hangileri dikkate alınır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Benign-malign ayrımında atipik ve çok sayıda mitotik figürler (I) ile hücrelerin bazale oryantasyonunun bozulması (hücresel polarite kaybı) (II) temel anaplastik kriterlerdendir. Sitoplazmanın boyanma yoğunluğu (III) ayrımda spesifik bir malignite kriteri değildir (sitoplazma değil çekirdek hiperkromazisi önemlidir).\n**Çeldiriciler:** Sitoplazma boyanma yoğunluğu tek başına kriter olmadığı için III içeren D ve E seçenekleri elenir.\nÖncül Analizi:\n- Öncül I (Mitotik figürler): Sayıca artış ve özellikle atipik (tri polar/tetrapolar) mitoz varlığı malignite lehinedir.\n- Öncül II (Hücresel polarite): Benign dokularda hücrelerin düzenli dizilimi korunurken malign neoplazmlarda polarite kaybolur.\n- Öncül III (Sitoplazma boyanma yoğunluğu): Malign neoplazmlarda spesifik ayrım kriteri değildir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 278,
+    "question": "Malign neoplazmların invazyon ve metastaz biyolojisinde aşağıdakilerden hangisi diğerlerinden önce gelişir?",
+    "options": {
+      "A": "Konak immünitesinden kaçma",
+      "B": "Enzimatik yetenek kazanıp ekstraselüler matriksi parçalama",
+      "C": "Ekstraselüler matriks elemanlarına adezyon yapma",
+      "D": "Bağ dokusu içinde lokomosyon",
+      "E": "Hücreler arası bağlantının kaybı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Tümör hücresinin metastaz basamaklarındaki İLK olay, epitel hücrelerini bir arada tutan E-kaderin bağlantılarının kopması (hücreler arası bağlantının kaybı) durumudur.\n**Çeldiriciler:** Hücreler arası adezyon koptuktan sonra sırasıyla matriks metalloproteinazlarla ECM parçalanır (B), laminin/fibronektine adezyon sağlanır (C), stroma içinde lokomosyon gerçekleşir (D) ve damara girilerek konak immünitesinden kaçılır (A).\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 279,
+    "question": "İyonize radyasyonun biyolojik etkileri ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "İyonize radyasyon RNA üzerinde hasar oluşturur.",
+      "B": "Hızlı bölünen hücreler hasara daha dayanıklıdır.",
+      "C": "p53 ekspresyonu azalır.",
+      "D": "Hücre siklus arresti görülür.",
+      "E": "Vasküler hasar ilk haftalarda görülür."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** İyonize radyasyon DNA'da kırıklar oluşturduğunda p53 proteini aktifleşir. p53, p21 üzerinden hücre döngüsünü durdurarak (hücre siklus arresti) DNA tamirine zaman kazandırır veya ağır hasarda apoptozu tetikler.\n**Çeldiriciler:** İyonize radyasyon RNA'yı değil DNA'yı hedefler (A); Hızlı bölünen hücreler radyasyona son derece duyarlıdır (B); p53 ekspresyonu azalmaz, aksine artar (C); Vasküler doku hasarı erken dönemde değil aylar-yıllar sonra gelişen geç etkidir (E).\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 280,
+    "question": "Neoplastik bir hücrede diferansiyasyonu belirlemek için hücredeki keratin intermediyer filamanının varlığının gösterilebilmesi amacıyla aşağıdaki yöntemlerden hangisi daha sık kullanılır?",
+    "options": {
+      "A": "Floresan in situ hibridizasyon",
+      "B": "Southern blotting",
+      "C": "İmmünhistokimya",
+      "D": "Yeni nesil sekanslama",
+      "E": "Revers transkriptaz polimeraz zincir reaksiyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kötü diferansiye bir tümörün epitel kökenli (karsinom) olduğunu doğrulamak için hücre içindeki keratin (sitokeratin) proteinlerini saptamada altın standart yöntem İmmünhistokimya (İHK)'dır.\n**Çeldiriciler:** FISH (A) gen translokasyonlarını saptar; Southern blotting (B) DNA fragmanlarını inceler; NGS (D) genetik mutasyon dizilemesidir; RT-PCR (E) RNA ekspresyon düzeyini veya viral yükü ölçer.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 281,
+    "question": "Aşağıdakilerin hangisinde immünhistokimyasal incelemenin yeri yoktur?",
+    "options": {
+      "A": "Tümör hücre genomundaki DNA'nın yeniden dizilenmesini saptama",
+      "B": "Farklılaşma göstermeyen malign tümörlerde hücre kökenini belirleme",
+      "C": "Tümör hücrelerinin proliferasyon oranının belirlenmesi",
+      "D": "Prognostik ve terapötik önemi olan bazı moleküllerin araştırılması",
+      "E": "Metastatik tümörlerde tümörün köken aldığı organı saptama"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** İmmünhistokimya (İHK) protein düzeyindeki antijen-antikor etkileşimlerini inceler. DNA düzeyindeki delesyon, translokasyon veya dizilenme değişikliklerini (A) doğrudan gösteremez; bunun için FISH, PCR veya NGS gereklidir.\n**Çeldiriciler:** İHK; tümörün kökenini belirlemede (B), Ki-67 ile proliferasyon indeksini ölçmede (C), HER2 veya ER/PR gibi terapötik markerları araştırmada (D) ve primer organ odağını bulmada (E) yaygın olarak kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 282,
+    "question": "Timusun foliküler hiperplazisi aşağıdaki durumlardan hangisine en sık eşlik eder?",
+    "options": {
+      "A": "Graves hastalığı",
+      "B": "Romatoid artrit",
+      "C": "Miyastenia gravis",
+      "D": "Multipl skleroz",
+      "E": "Sistemik lupus eritematozus"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Miyastenia Gravis hastalarının yaklaşık %65-75'inde timusta B hücreli germinal merkezlerin bulunduğu timik foliküler hiperplazi saptanır (%15 olguda ise timoma izlenir).\n**Çeldiriciler:** Graves (A), Romatoid artrit (B), Multipl skleroz (D) ve SLE (E) otoimmün hastalıklar olmasına rağmen timik foliküler hiperplazi ile en karakteristik ilişkili tablo Miyastenia Gravis'tir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 283,
+    "question": "Üç yaşındaki kız çocuğunun fizik muayenesinde intraabdominal kitle saptanıyor. Radyolojik incelemede kitlenin sağ böbrekten köken aldığı belirleniyor. Kitlenin histopatolojik incelemesinde değişen oranlarda blastem, epitel hücrelerinin oluşturduğu tübül yapıları ve iğsi hücrelerden oluşan stromal bileşen izleniyor. Kemoterapi uygulanan hastada oldukça iyi yanıt alınıyor. Bu hastada saptanan kitle için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Berrak hücreli sarkom",
+      "B": "Anjiyomiyolipom",
+      "C": "Rabdoid tümör",
+      "D": "Leiomiyosarkom",
+      "E": "Wilms tümörü"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Pediatrik yaş grubunda böbrekte yerleşen, histolojisinde blastemal, epitelyal ve mezenşimal (stromal) unsurların birlikte izlendiği klasik trifazik görünüm gösteren tümör Wilms Tümörü (Nefroblastom)'dür.\n**Çeldiriciler:** Berrak hücreli sarkom (A) monomorfik berrak hücrelidir; Anjiyomiyolipom (B) damar, düz kas ve yağ dokusu içerir; Rabdoid tümör (C) RINI mutasyonlu agresif monomorfik tümördür; Leiomiyosarkom (D) erişkin düz kas malignitesidir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 284,
+    "question": "Burun tıkanıklığı ve kanaması şikâyetleriyle hastaneye getirilen 5 yaşındaki erkek çocuğun nazal kavitesinde üzüm tanesi şeklinde çok sayıda polip saptanıyor. Biyopsi materyalinin mikroskobik incelemesinde gevşek ödemli stroma ya sahip polipler ve yüzey epitelinin altında yoğunlaşan hiperkromatik çekirdekli, indiferansiye, asidofilik sitoplazmalı, küçük yuvarlak ve iğsi hücreler görülüyor. Tariflenen klinik ve patolojik tablo için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nazal polipozis",
+      "B": "Nazofaringeal anjiyofibrom",
+      "C": "Sinonazal papillom",
+      "D": "Olfaktör nöroblastom",
+      "E": "Embriyonal rabdomiyosarkom"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Çocuklarda mukozal boşluklarda üzüm salkımı şeklinde (botriyoid varyant) gelişen ve mukozal epitel altında cambium tabakası (hiperkromatik hücre yoğunlaşması) oluşturan tümör Embriyonal Rabdomiyosarkom'dur.\n**Çeldiriciler:** Nazal polipozis (A) reaktif ödemli yapıdır, atipik hücresel tabakalanma içermez; Nazofaringeal anjiyofibrom (B) ergen erkeklerde kanamalı vasküler tümördür; Sinonazal papillom (C) epiteliyal benign neoplazmdır; Olfaktör nöroblastom (D) koku epiteli tümörüdür.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 285,
+    "question": "Aşağıdaki kanserlerin histolojik tiplerinin belirlenmesinde kullanılan immünhistokimyasal belirteç eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Akciğer adenokarsinomu - TTF1",
+      "B": "Testisin seminomu - OCT3/4",
+      "C": "Overin şeffaf hücreli karsinomu - Napsin A",
+      "D": "Koryokarsinom - hCG",
+      "E": "Prostat kanseri - CEA"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Prostat kanserinin tanısal ve spesifik immünhistokimyasal belirteci PSA (Prostat Spesifik Antijen) ve PSMA'dır. CEA ise gastrointestinal ve kolorektal karsinomlarda pozitif olan karsinoembriyonik antijendir.\n**Çeldiriciler:** TTF1 (A) akciğer adenokarsinomunda; OCT3/4 (B) testis seminomunda; Napsin A (C) over berrak hücreli karsinomunda; hCG (D) koryokarsinomda spesifik olarak kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 286,
+    "question": "Oral mukozada saptanan bir lezyon ile ilgili patoloji raporunda yer alan \"karsinoma in-situ\" tanısı aşağıdakilerden hangisini ifade eder?",
+    "options": {
+      "A": "Epitelde hiperparakeratoz bulunduğunu",
+      "B": "Epitelin metaplastik olduğunu",
+      "C": "Malign epitel hücrelerinin submukozaya invazyon yaptığını",
+      "D": "Epitelin tüm katlarını tutan şiddetli displazi olduğunu",
+      "E": "Damar içinde karsinom hücrelerinin bulunduğunu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Karsinoma in-situ, bazal membran aşılmaksızın epitelin tüm katlarını tutan tam kat şiddetli displazi (anaplazi) durumunu ifade eder.\n**Çeldiriciler:** Hiperparakeratoz (A) çekirdekli keratin tabakası artışıdır; Metaplazi (B) hücre tipinin değişmesidir; Submukoza invazyonu (C) invaziv karsinomdur; Damar içi karsinom (E) vasküler invazyondur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 287,
+    "question": "Dokuz yaşındaki erkek hastanın çenesinden hızlı gelişmiş kitleden alınan biyopsinin histopatolojik incelemesinde, lezyonun atipik B lenfosit hücrelerinden oluştuğu izleniyor. Moleküler test incelemeleri sonucunda, lezyonun t(8;14) translokasyonu sergileyen bir non-Hodgkin lenfoma olduğu saptanıyor. Aşağıdaki onkojenik virüslerden hangisinin bu hastadaki neoplazma yol açması en olasıdır?",
+    "options": {
+      "A": "HCV",
+      "B": "HPV",
+      "C": "HTLV-1",
+      "D": "HHV-8",
+      "E": "EBV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Çocuklarda çenede kitle oluşturan ve t(8;14) c-MYC translokasyonu sergileyen Burkitt Lenfoma etiyolojisinde Epstein-Barr Virüsü (EBV) %90'ın üzerinde belirgin rol oynar.\n**Çeldiriciler:** HCV (A) HCC yapar; HPV (B) skuamöz karsinom yapar; HTLV-1 (C) erişkin T hücreli lösemi yapar; HHV-8 (D) Kaposi sarkomu ve primer efüzyon lenfoması yapar.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 288,
+    "question": "Gastrointestinal sistem, over, serozal yüzeyler ve leptomeninksler metastaz eğilimi olan ve CDH1 geninde mutasyon saptanabilen meme tümörü için en olası histolojik alt tip aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İnvaziv duktal karsinom",
+      "B": "Müsinöz karsinom",
+      "C": "Papiller karsinom",
+      "D": "Metaplastik karsinom",
+      "E": "İnvaziv lobüler karsinom"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Memenin İnvaziv Lobüler Karsinomu, CDH1 (E-kaderin) mutasyonuna bağlı adhezyon kaybı gösterir ve karsinomlardan farklı olarak over, gastrointestinal sistem mukozası, serozal yüzeyler ve leptomeninkslere metastaz yapma eğilimindedir.\n**Çeldiriciler:** İnvaziv duktal (A), Müsinöz (B), Papiller (C) ve Metaplastik (D) karsinom tiplerinde E-kaderin korunmuştur ve metastaz paternleri lenf nodu ve parankimal organlar şeklindedir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 289,
+    "question": "Burun tıkanıklığı ve burun kanaması şikâyeti olan 25 yaşındaki erkek hastanın muayenesinde nazofarenkste kitle saptanıyor. Alınan biyopside sinsityal adalar oluşturan, yuvarlak-oval veziküler nükleuslu, belirgin nükleollü, geniş sitoplazmalı atipik epitelyal hücrelerden oluşan tümöral doku ve tümör adalarını infiltre eden matür lenfositler görülüyor. Bu tümörün gelişiminde rol oynayan en olası etiyolojik faktör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Herpes simpleks virus",
+      "B": "Epstein-Barr virus",
+      "C": "İnsan immün yetmezlik virusu",
+      "D": "İnsan papilloma virusu",
+      "E": "Varicella-zoster virus"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Nazofarenks Karsinomu (özellikle lenfoepitelyoma tipi), belirgin lenfositik stroma ve atipik epitel adaları ile karakterize olup etiyolojisinde Epstein-Barr Virüsü (EBV) doğrudan rol alır.\n**Çeldiriciler:** HSV (A), HIV (C), HPV (D) ve VZV (E) nazofarenks karsinomunun primer etiyolojik ajanı değildir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 290,
+    "question": "Malign tümörlerin histopatolojik incelemesinde tümörün biyolojik davranış, prognoz ve tedavi planlamasında aşağıdaki bulgulardan hangisi en öneme sahiptir?",
+    "options": {
+      "A": "Tümörün farklılaşma derecesi",
+      "B": "Tümörün histolojik tipi",
+      "C": "Tümörün boyutu",
+      "D": "Polipoid yapıda olması",
+      "E": "Lenfovasküler invazyon yapması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Histolojik tip ve evrelemenin ötesinde, tümörün biyolojik davranışını, prognozunu ve tedavi yanıtını belirleyen en kritik histopatolojik parametre tümörün diferansiyasyon derecesidir (tümörün kaynak aldığı dokuya ne kadar benzediği).\n**Çeldiriciler:** Malign tümörün polipoid yapıda olması (D) yalnızca makroskobik büyüme şeklidir; biyolojik davranış ve metastaz potansiyeli üzerinde belirleyici etkisi yoktur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 291,
+    "question": "Aşağıdakilerden hangisi labil hücrelere örnek verilemez?",
+    "options": {
+      "A": "Böbrek parankim hücreleri",
+      "B": "Oral kavite skuamöz epitel hücreleri",
+      "C": "Üriner sistem transizyonel epitel hücreleri",
+      "D": "Kemik iliği hematopoetik hücreleri",
+      "E": "Uterus kolumnar epitel hücreleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Böbrek parankim hücreleri (hepatositler ve tübül epiteli gibi) G0 evresinde bekleyen ve uyaran geldiğinde bölünmeye başlayan Stabil (sessiz) hücrelerdir.\n**Çeldiriciler:** Oral skuamöz epitel (B), üriner transizyonel epitel (C), kemik iliği hematopoetik hücreleri (D) ve uterus epitel hücreleri (E) hayat boyu sürekli bölünen Labil hücrelerdir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 292,
+    "question": "Altmış yaşındaki erkek hastanın lenf nodu biyopsisinde; normal lenf nodu yapısını ortadan kaldıran, belli belirsiz nodüller bir paternde lenfoid proliferasyon izleniyor. Yapılan incelemelerde bu proliferasyonun CD20+, CD5+ ve siklin D1 pozitifliği gösteren hücrelerden oluştuğu saptanıyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Küçük lenfositik lenfoma",
+      "B": "Mantle hücreli lenfoma",
+      "C": "Foliküler lenfoma",
+      "D": "Plazmasitom",
+      "E": "Lenfoplazmasitik lenfoma"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** CD20+, CD5+ ve belirgin Siklin D1 pozitifliği gösteren nodüler/diffüz B hücreli proliferasyon Mantle Hücreli Lenfoma için patognomoniktir.\n**Çeldiriciler:** Küçük lenfositik lenfoma (A) CD5+ fakat Siklin D1 negatiftir; Foliküler lenfoma (C) CD10+ ve BCL-2+ dir; Plazmasitom (D) CD138+ ve antikor üreten plazma hücreleridir; Lenfoplazmasitik lenfoma (E) IgM salgılayan Siklin D1- tümördür.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 293,
+    "question": "Kanser tedavisinde tümörün oluşumunda rol oynayan onkoproteinlere yönelik terapi modellerinin uygulandığı hastalık-mutasyon eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Malign melanom - BRAF mutasyonu",
+      "B": "Endometriyum kanseri - Rb mutasyonu",
+      "C": "Kronik miyeloid lösemi - BCR-ABL füzyonu",
+      "D": "Küçük hücreli dışı akciğer kanseri - EGFR mutasyonu",
+      "E": "Akut promiyelositik lösemi - PML-RARA füzyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Malign melanomda BRAF mutasyonu (A), KML'de BCR-ABL (C), NSCLC'de EGFR (D) ve APL'de PML-RARA (E) spesifik hedefe yönelik tedavilerin uygulandığı onkoprotein eşleşmeleridir. Endometriyum karsinomunda Rb mutasyonu primer hedeflenebilir sürücü mutasyon eşleşmesi değildir.\n**Çeldiriciler:** A, C, D ve E seçeneklerinde verilen genetik bozukluklar güncel hedefe yönelik biyolojik/onkolojik tedavilerin temel hedefleridir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 294,
+    "question": "Duodenal polipoid lezyon ön tanısı ile endoskopik biyopsi yapılan hastanın hematoksilen-eozin boyalı kesitlerinde duodenum mukozası yanı sıra iyi sınırlı oksintik tip mide glandları dikkati çekiyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Gastrik metaplazi",
+      "B": "Gastrik hamartom",
+      "C": "Gastrik heterotopi",
+      "D": "Gastrik karsinom",
+      "E": "Gastrik polip"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Gastrik Heterotopi (Koristom), histolojik olarak tamamen normal mide mukozasının duodenum veya özefagus gibi farklı bir organda ektopik olarak yer alması durumudur.\n**Çeldiriciler:** Gastrik metaplazi (A) kronik irritasyon sonucu epitel tipinin değişmesidir; Hamartom (B) ait olduğu organ dokusunun düzensiz büyümesidir; Karsinom (D) malign neoplazmdır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 295,
+    "question": "Özellikle uzun ekstremiteleri, bilateral lens ektopisi, mitral valv prolapsusu ve aort dilatasyonu bulunan bir hastanın genetik incelemesinde fibrillin-1 geninde mutasyon saptanmıştır. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ehlers-Danlos sendromu",
+      "B": "Marfan sendromu",
+      "C": "Alfa1 antitripsin eksikliği",
+      "D": "Von Hippel-Lindau hastalığı",
+      "E": "Niemann-Pick hastalığı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Marfan Sendromu, 15. kromozomdaki Fibrillin-1 (FBN1) gen mutasyonu sonucu gelişen otosomal dominant bağ dokusu hastalığıdır. İskelet bulguları (uzun ekstremiteler, araknodaktili), bilateral yukarı lens lüksasyonu ve aort anevrizması/dilatasyonu ile karakterizedir.\n**Çeldiriciler:** Ehlers-Danlos (A) kollajen sentez kusurudur; Alfa1 antitripsin eksikliği (C) serpin eksikliğiyle amfizem yapar; VHL (D) tümör süpresör mutasyonudur; Niemann-Pick (E) lizozomal sfingomiyelinaz eksikliğidir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 296,
+    "question": "Aşağıdakilerden hangisi, CTG trinükleotid tekrar mutasyonu nedeniyle ortaya çıkan bir hastalıktır?",
+    "options": {
+      "A": "Duchenne musküler distrofi",
+      "B": "Guillain-Barré sendromu",
+      "C": "Mitokondriyal miyopatiler",
+      "D": "Miyotonik distrofi",
+      "E": "Konjenital musküler distrofi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Miyotonik Distrofi (DMPK geni), DMPK geninin 3' utr bölgesindeki CTG trinükleotid tekrar sayısının artması (dinamik mutasyon) sonucu gelişen otosomal dominant kas hastalığıdır.\n**Çeldiriciler:** Fragile-X (CGG), Huntington (CAG), Friedreich ataksisi (GAA) tekrarları ile oluşur. Duchenne (A) distrofin gen delesyonudur; Guillain-Barré (B) otoimmün nöropatidir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 297,
+    "question": "Tekrarlayan enfeksiyonlara sekonder gelişen kronik hastalık nedeniyle ölen 3 yaşındaki çocuğa otopsi yapılıyor. Otopside pankreas ve tükürük bezindeki duktuslarda dilatasyon, döşeyici epitel hücrelerinde skuamöz metaplazi ve fibrozis saptanıyor. Karaciğerde ise steatoz ve biliyer siroz görülüyor. Bu hasta için en olası patolojik tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hemokromatoz",
+      "B": "Kistik fibrozis",
+      "C": "Glikojen depo hastalığı",
+      "D": "Wilson hastalığı",
+      "E": "Tirozinemi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kistik Fibrozis (CFTR mutasyonu), ekzokrin bez kanal sekretlerinin klor ve su transport bozukluğu nedeniyle koyulaşıp tıkanmasıyla karakterizedir. Pankreas ve tükürük bezi kanallarında tıkanma, dilatasyon, skuamöz metaplazi ve fibrozis ile karaciğerde fokal biliyer siroz oluşturur.\n**Çeldiriciler:** Hemokromatoz (A) demir birikimidir; Glikojen depo (C) enzim eksikliğiyle glikojen birikimidir; Wilson (D) bakır birikimidir; Tirozinemi (E) böbrek ve karaciğer tübüler enzim bozukluğudur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 298,
+    "question": "Bir buçuk yaşındaki çocuğun EKG'sinde, ventrikül ve atriumlarda çok sayıda kitle görülüyor. Büyük kardeşinde de benzer bir öykü olduğu öğrenilen çocuğa uygulanan genetik testler sonucu, çocukta TSC2 (tüberin) gen mutasyonu saptanıyor. Bu hastadan alınan biyopsilerin histopatolojik incelemesinde, aşağıdaki lezyon tiplerinden hangisinin saptanması en olasıdır?",
+    "options": {
+      "A": "Papiller fibroelastom",
+      "B": "Rabdomiyom",
+      "C": "Atrial miksoma",
+      "D": "Anjiyosarkom",
+      "E": "Lipom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Tüberoz Skleroz (TSC1/TSC2 mutasyonu) hastalarında süt çocukluğu ve erken çocukluk döneminde kalpte en sık görülen primer benign tümör Kardiyak Rabdomiyom'dur.\n**Çeldiriciler:** Papiller fibroelastom (A) kapaklarda görülür; Atrial miksoma (C) erişkinlerde sol atriumda en sık tümördür; Anjiyosarkom (D) erişkinde en sık malign kardiyak tümördür; Lipom (E) yağ tümörüdür.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 299,
+    "question": "Aşağıdaki genetik hastalıklar ve nedenleri ile ilgili eşleştirmelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Down sendromu - 21. kromozom trizomisi",
+      "B": "Orak hücreli anemi - Hemoglobin beta zinciri gen mutasyonu",
+      "C": "Kistik fibrozis - Klor kanalları gen mutasyonu",
+      "D": "Fenilketonüri - Mitokondriyal DNA mutasyonu",
+      "E": "Frajil X sendromu - X kromozomunda gen mutasyonu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Fenilketonüri, 12. kromozom üzerinde yer alan fenilalanin hidroksilaz (PAH) genindeki mutasyon sonucu gelişen otosomal resesif bir metabolik hastalıktır; mitokondriyal DNA mutasyonu değildir.\n**Çeldiriciler:** Down sendromu (A) Trizomi 21; Orak hücreli anemi (B) HbS beta gen mutasyonu; Kistik fibrozis (C) CFTR klor kanalı mutasyonu; Frajil X (E) FMR1 CGG trinükleotid tekrar mutasyonudur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 300,
+    "question": "Aşağıdakilerden hangisi, çizgili kas liflerinde bazal membran ile hücre iskeleti miyofibrilleri arasındaki bağlantı kompleksinde bulunan sitoplazmik bir proteinin defektiyle karakterizedir?",
+    "options": {
+      "A": "Marfan sendromu",
+      "B": "Ehlers-Danlos sendromu",
+      "C": "Becker musküler distrofi",
+      "D": "Amyotrofik lateral skleroz",
+      "E": "Miyotonik distrofi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Becker Musküler Distrofi (ve Duchenne), çizgili kas liflerinde hücre iskeleti aktin liflerini ekstraselüler matrikse bağlayan sitoplazmik bir yapı proteini olan Distrofin eksikliği/bozukluğu sonucu gelişir.\n**Çeldiriciler:** Marfan (A) fibrillin-1; Ehlers-Danlos (B) koljen; ALS (D) motor nöron kaybı; Miyotonik distrofi (E) CTG tekrarı ile karakterizedir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 306,
+    "question": "Hücresel zedelenme sürecinde nekroz ve apoptoz farklı mekanizmalar ve morfolojik bulgular ile gerçekleşir.\n\nAşağıdakilerden hangisi apoptozun nekrozdan ayrılan temel özelliklerinden biridir?",
+    "options": {
+      "A": "Hücre hacminin artması ve şişme (onkoz)",
+      "B": "Plazma zarının bütünlüğünün erken dönemde bozulması",
+      "C": "Çevre dokuda belirgin akut iltihabi reaksiyon gelişmesi",
+      "D": "Hücresel DNA'nın internükleozomal internükleazlar ile düzenli parçalanması",
+      "E": "Lizozomal enzimlerin sızarak otofaji ve hücre dışı sindirim yapması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Apoptozda kaspaz ile aktifleşen endonükleazlar DNA'yı oligonükleozomal (180-200 baz çifti ve katları) merdiven paterni oluşturacak şekilde düzenli parçalara ayırır. Nekrozda ise DNA rastgele (rastgele parçalanma) yıkılır.\n**Çeldiriciler:**\n- A) Hücre hacminin artması (şişme) nekrozun özelliğidir; apoptozda hücre büzülür (shrinkage).\n- B) Zar bütünlüğünün bozulması ve içerik sızması nekrozda görülür; apoptozda zar bütünlüğü apoptotik cisimcikler oluşana kadar korunur.\n- C) Çevre dokuda iltihap reaksiyonu nekrozda kuraldır; apoptozda iltihabi yanıt gelişmez.\n- E) Lizozomal enzimlerin çevreye salınımı nekrozda gerçekleşir; apoptozda fagositoz ile temizlenme olur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 307,
+    "question": "Malign neoplazilerin evrelemesinde (staging) TNM sistemi kullanılmaktadır. \n\nTNM evreleme sistemiyle ilgili verilen aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "T (Tumor), primer tümörün boyutunu ve lokal yayılım derinliğini ifade eder.",
+      "B": "N (Node), bölgesel lenf nodu tutulumunun varlığını ve sayısını gösterir.",
+      "C": "M (Metastasis), uzak organ metastazı varlığını tanımlar.",
+      "D": "Evreleme (Staging), tümörün diferansiyasyon derecesini ve miotik figür sayısını derecelendiren (grading) histolojik parametredir.",
+      "E": "Tümörün klinik evresi, tedavi seçiminde ve prognoz tayininde derecelendirmeye (grading) göre genellikle daha belirleyicidir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Evreleme (Staging), tümörün vücuttaki anatomik yayılımını (TNM) değerlendirir. Diferansiyasyon derecesi, anaplazi ve miotik figür sayısı ise derecelendirme (Grading) kapsamındadır. Bu nedenle D şıkkı hatalı bir tanımdır.\n**Çeldiriciler:**\n- A) T değeri tümörün çapını, derinliğini ve komşu doku invazyonunu tanımlar (Doğru ifade).\n- B) N değeri bölgesel lenf nodu tutulum derecesini ve metastatik nod sayısını verir (Doğru ifade).\n- C) M değeri (M0 veya M1) uzak metastaz durumunu açıklar (Doğru ifade).\n- E) Çoğu solid tümörde klinik/patolojik evre (stage), histolojik dereceden (grade) daha güçlü bir prognostik göstergedir (Doğru ifade).\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 27,
+    "question": "Oral skuamöz hücreli karsinomların ve orofaringeal kanserlerin etiyolojisinde en önemli onkogenik role sahip HPV tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tip 2",
+      "B": "Tip 4",
+      "C": "Tip 6",
+      "D": "Tip 11",
+      "E": "Tip 16"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** HPV Tip 16, E6 (p53 inhibisyonu) ve E7 (Rb inhibisyonu) onkoproteinleri aracılığıyla orofarinks ve oral skuamöz hücreli karsinom etiyolojisinde baş rolü oynar.\n**Çeldiriciler:**\n- **A)** Tip 2 verruca vulgaris etkenidir.\n- **B)** Tip 4 deri siğillerinde görülür.\n- **C)** Tip 6 kondiloma aküminatum ve laringeal papillamatoz yapar.\n- **D)** Tip 11 benign genital ve oral papillomlarda izlenir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 29,
+    "question": "NF2 (merlin) tümör baskılayıcı geninin mutasyonu sonucu bilateral akustik nöronomlar ve kranial tümörlerle seyreden sendromda görülen MSS tümörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tiroid papiller karsinomu",
+      "B": "Meningiom",
+      "C": "Retinoblastom",
+      "D": "Kolon karsinomu",
+      "E": "Uterus leyomiyomu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Nörofibromatozis Tip 2 (NF2), 22. kromozomdaki Merlin gen mutasyonuna bağlı gelişir ve bilateral schwannomlar (akustik nöronom) ile meningiom ve spinal epandimom riski oluşturur.\n**Çeldiriciler:**\n- **A)** Tiroid karsinomu RET mutasyonu ile ilişkilidir.\n- **C)** Retinoblastom RB1 mutasyonu ile gelişir.\n- **D)** Kolon karsinomu APC veya MMR gen bozuklukları ile seyreder.\n- **E)** Uterus leyomiyomu MED12 mutasyonu içerir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 30,
+    "question": "Aşağıdaki polipozis sendromlarından hangisi PTEN gen mutasyonu sonucu gelişir ve oral mukozada çok sayıda trikillemmoma ve papillomlarla karakterizedir?",
+    "options": {
+      "A": "Gardner sendromu",
+      "B": "Juvenil polipozis",
+      "C": "Peutz-Jeghers sendromu",
+      "D": "Ailevi adenomatöz polipozis",
+      "E": "Cowden sendromu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Cowden sendromu, PTEN tümör supresör gen mutasyonu ile karakterize, oral mukozada papillomatöz lezyonlar, yüzde trikillemmomalar, meme ve tiroid kanseri riski ile seyreden hamartomatöz sendromdur.\n**Çeldiriciler:**\n- **A)** Gardner sendromu APC geni mutasyonu sonucu osteomlar ve epidermoid kistler oluşturur.\n- **B)** Juvenil polipozis SMAD4 mutasyonu içerir.\n- **C)** Peutz-Jeghers sendromu STK11 mutasyonu ve perioral hiperpigmentasyon gösterir.\n- **D)** FAP APC gen mutasyonudur, %100 kolorektal kanserleşme riski taşır.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 32,
+    "question": "Ağızda görülen yassı epitel hücreli karsinomlar (SCC), aşağıdaki lokalizasyonların hangisinde daha iyi prognoza sahiptir?",
+    "options": {
+      "A": "Diş eti",
+      "B": "Damak",
+      "C": "Dil",
+      "D": "Ağız tabanı",
+      "E": "Alt dudak"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Alt dudak SCC lezyonları Güneş (UV) ışığı kaynaklı aktinik şeilit zemininde gelişir, erken fark edilir ve lenfatik drenajı öngörülebilir olduğu için en iyi prognoza sahiptir.\n**Çeldiriciler:**\n- **A)** Diş eti karsinomları kemik invazyonu riski taşır.\n- **B)** Damak karsinomları derin doku yayılan agresif seyirli olabilir.\n- **C)** Dil karsinomları zengin vasküler/lenfatik ağ nedeniyle erken metastaz yapar.\n- **D)** Ağız tabanı karsinomları en kötü prognozlu oral SCC lokalizasyonudur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 33,
+    "question": "Primer kronik adrenokortikal yetmezlik sonucu cildin güneş görmeyen yerlerinde ve oral mukozada hiperpigmentasyon ile karakterize tablo aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hiperkortizolizm",
+      "B": "Primer hiperaldosteronizm",
+      "C": "Primer kronik adrenokortikal yetmezlik",
+      "D": "Adenomatöz kortikal hiperplazi",
+      "E": "Primer akut adrenokortikal yetmezlik"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Addison hastalığı (primer kronik adrenokortikal yetmezlik), adrenal korteks yıkımı sonucu ACTH ve POMC türevi MSH hormonunun aşırı üretimiyle deride ve oral mukozada bronz/kahverengi hiperpigmentasyona yol açar.\n**Çeldiriciler:**\n- **A)** Hiperkortizolizm (Cushing) pigmentasyon değil santripetal obezite yapar.\n- **B)** Primer hiperaldosteronizm (Conn) hipertansiyon ve hipokalemi yapar.\n- **D)** Adenomatöz hiperplazi Cushing sendromuna neden olur.\n- **E)** Akut yetmezlik (Waterhouse-Friderichsen) şok ve apopleksi tablosudur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 34,
+    "question": "Aktinik keratozun aşağıdaki deri kanserlerinden hangisine dönüşme olasılığı en fazladır?",
+    "options": {
+      "A": "Sebaseöz karsinom",
+      "B": "Melanom",
+      "C": "Merkel hücreli karsinom",
+      "D": "Bazal hücreli karsinom",
+      "E": "Yassı epitel hücreli karsinom"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Aktinik keratoz, kronik güneş maruziyetine bağlı gelişen ve zamanla yassı epitel hücreli karsinoma (SCC) dönüşme potansiyeli gösteren prekanseröz kutanöz lezyondur.\n**Çeldiriciler:**\n- **A)** Sebaseöz karsinom sebase bezlerden köken alır.\n- **B)** Melanom melanositlerden türer.\n- **C)** Merkel hücreli karsinom nöroendokrin kaynaklıdır.\n- **D)** Bazal hücreli karsinom (BCC) de novo olarak sağlam deriden gelişme meylindedir.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 35,
+    "question": "Yeni doğmuş kız çocuğunun ön maksiller bölge alveolünde pembe renkli, düzgün yüzeyli polipoid kitle saptanıyor. Histolojisinde pseudoepitelyomatöz hiperplazi yapmayan S100 (-) granüler hücreler görülen en olası tanı nedir?",
+    "options": {
+      "A": "Konjenital epulis",
+      "B": "Periferal dev hücreli granülom",
+      "C": "Granüler hücreli tümör",
+      "D": "Mukosel",
+      "E": "Piyojenik granülom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Konjenital epulis (Yenidoğanın granüler hücreli tümörü), neredeyse sadece kız bebeklerde maksilla anterior alveoler krestte görülen, S100 (-) ve örtücü epiteli atrofik olan benign lezyondur.\n**Çeldiriciler:**\n- **B)** Periferal dev hücreli granülom osteoklastik dev hücreler içerir.\n- **C)** Granüler hücreli tümör S100 (+)'tir ve belirgin psödoepitelyomatöz hiperplazi yapar.\n- **D)** Mukosel tükürük sızıntı kistidir.\n- **E)** Piyojenik granülom vasküler granülasyon dokusudur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 36,
+    "question": "Yaşlı bir hastada aniden çok sayıda seboreik keratoz lezyonunun ortaya çıkması (Leser-Trelat bulgusu) en sık hangi maligniteye işaret eder?",
+    "options": {
+      "A": "Aktinik keratoz",
+      "B": "Displastik nevus",
+      "C": "Solar lentigo",
+      "D": "Seboreik keratoz",
+      "E": "Skuamöz papillom"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Leser-Trelat işareti, aniden ortaya çıkan çok sayıda seboreik keratoz gelişimidir ve sıklıkla GİS (özellikle mide/kolon) adenokarsinomlarının paraneoplastik bir bulgusudur.\n**Çeldiriciler:**\n- **A)** Aktinik keratoz prekanseröz lezyondur.\n- **B)** Displastik nevus melanom öncülüdür.\n- **C)** Solar lentigo benekli pigmentasyondur.\n- **E)** Skuamöz papillom HPV ilişkili benign epitelyal lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 37,
+    "question": "Yüzde deriden kabarık, koyu kahverengi, üzeri pürtüklü lezyonun biyopsisinde epidermiste kalınlaşma, keratin tıkaçları ve psödohorn kistleri izleniyor. En olası tanı nedir?",
+    "options": {
+      "A": "Keratoakantom",
+      "B": "Verruca vulgaris",
+      "C": "Bazal hücreli karsinom",
+      "D": "Seboreik keratoz",
+      "E": "Lentigo maligna"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Seboreik keratoz histopatolojisinde bazaloid hücre proliferasyonu, hiperkeratoz ve belirgin intrabazal psödohorn (keratin) kistleri karakteristiktir.\n**Çeldiriciler:**\n- **A)** Keratoakantom krater tarzında keratin tıkacı barındıran hızlı büyüyen lezyondur.\n- **B)** Verruca vulgaris koilositler ve hipergranüloz gösterir.\n- **C)** Bazal hücreli karsinom periferik palizadlanma gösteren bazaloid adalar içerir.\n- **E)** Lentigo maligna melanom in situ formudur.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 39,
+    "question": "Gebelikte hormonların etkisiyle diş etinde büyüyen, kırmızı-mor renkli, dokunmakla kolayca kanayan reaktif lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kavernöz hemanjiyom",
+      "B": "Piyojenik granülom",
+      "C": "Lenfanjiyom",
+      "D": "Basiler anjiyomatozis",
+      "E": "Hemanjiyoendotelyom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Piyojenik granülom (Granuloma gravidarum / Gebelik tümörü), östrojen/progesteron etkisiyle lokal irritanlara karşı aşırı kapiller granülasyon dokusu yanıtıdır.\n**Çeldiriciler:**\n- **A)** Kavernöz hemanjiyom büyük kan damarı boşluklarından oluşan gerçek vasküler malformasyondur.\n- **C)** Lenfanjiyom lenf damarı malformasyonudur.\n- **D)** Basiler anjiyomatozis Bartonella enfeksiyonudur.\n- **E)** Hemanjiyoendotelyom ara malign vasküler tümördür.\n---",
+    "flag_reason": null,
+    "unit": "5- NEOPLAZİ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  }
+]

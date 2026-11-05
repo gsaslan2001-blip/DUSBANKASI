@@ -1,0 +1,155 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi sabit bölümlü protezde dayanak diş seçim kriterleri için doğru değildir?",
+    "options": {
+      "A": "Dişlerin çevresindeki dokular sağlıklı ve inflamasyonsuz olmalıdır.",
+      "B": "Tek köklü dişlerde konik köke sahip dişler, kök ucu eğimli dişlere tercih edilir.",
+      "C": "Çok köklü dişlerde köklerin ayrık olması tercih edilir.",
+      "D": "İdeal kuron/kök oranı 2/3'tür.",
+      "E": "Tek köklü dişlerde kök formu dairesel olanlara göre bukkolingual boyutu büyük olanlar tercih edilir."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A, C, D, E (Doğru ifadeler):** Sağlıklı periyodontiyum, ayrık kökler, 2/3 oranı ve yassı kökler retansiyon ve destek açısından avantajlıdır.\n* **B) Tek köklü dişlerde konik köke sahip dişler, kök ucu eğimli dişlere tercih edilir (Yanlış / Cevap B):** Kök ucu eğimli veya çengelli olan dişler kemik içinde ilave andırkat ve tutuculuk sağladığı için düz konik köklere **tercih edilir** (Düz konik kökler kuvvete karşı daha zayıf direnç gösterir).",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 243,
+    "unit": "06-Diş Preparasyon Prensipleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi 13-17 numaralı köprü tasarımında ayak olarak kullanılması düşünülen 17 numaralı dişte olması istenen özelliklerden değildir?",
+    "options": {
+      "A": "Kron/kök oranının 2/3 olması",
+      "B": "Ayrık köklerin varlığı",
+      "C": "Kalın köklerin olması",
+      "D": "Kısa kron boyu",
+      "E": "Kortikal kemikle kaplanması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* Uzun gövdeli (13-17) geniş köprülerde dayanak dişlerin klinik kuron boyunun yeterli uzunlukta olması istenirse tutuculuk (retansiyon) artar. Kısa kron boyu retansiyon yetersizliğine yol açacağından istenen bir özellik değildir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 245,
+    "unit": "06-Diş Preparasyon Prensipleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Veneer-metal restorasyonlarda aşağıdaki diş eti bitiş çizgisi tiplerinden hangisi en az gerilim yaratır?",
+    "options": {
+      "A": "Chamfer",
+      "B": "Shoulder",
+      "C": "Bizotajlı shoulder",
+      "D": "Knife-edge",
+      "E": "Radyal shoulder"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Chamfer (Doğru):** Yuvarlatılmış iç açısı sayesinde stres konsantrasyonunu en aza indiren ve metal destekli seramik kronların aksiyal/lingual basamaklarında önerilen diş eti bitiş çizgisidir.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "q_num": 267,
+    "unit": "06-Diş Preparasyon Prensipleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Aşırı konturlu restorasyonların oluşma riski**\n**II. İnce restorasyon kenarlarının deforme olma olasılığı**\n**III. Dişten az madde kaybına yol açması**\n\n**Yukarıda verilenlerden hangisi ya da hangileri bıçak sırtı (knife-edge) basamağın tam kron restorasyonlarda kullanılması sonucunda meydana gelecek klinik dezavantajlardandır?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yalnız I",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **I ve II (Dezavantajdır):** Bıçak sırtı kesimde diş eti kenarında belirgin basamak olmadığı için teknisyen fazla porselen yığarak restorasyonu aşırı konturlu (overcontoured) yapabilir veya marjin çok ince kaldığından döküm/pişirme esnasında deforme olabilir.\n* **III (Avantajdır):** Dişten az madde kaybına yol açması bir avantajdır, dezavantaj değildir.\n* Dolayısıyla I ve II klinik dezavantajlardandır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 269,
+    "unit": "06-Diş Preparasyon Prensipleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tam seramik restorasyonlarda insizal/oklüzal preparasyon miktarını doğru olarak gösterir?",
+    "options": {
+      "A": "0,5 mm",
+      "B": "0,5 - 1 mm",
+      "C": "1,5 - 2 mm",
+      "D": "2,5 - 2,7 mm",
+      "E": "3 - 3,5 mm"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* Tam seramik restorasyonlarda kırılmayı önlemek ve ışık geçirgenliği ile estetiği yakalamak için kesim miktarları:\n* **İnsizal / oklüzal bölgede 1,5 - 2,0 mm**,\n* **Aksiyal duvarlarda 1,0 - 1,5 mm** olmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2016 Orijinal",
+    "q_num": 273,
+    "unit": "06-Diş Preparasyon Prensipleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam seramik kron preparasyonunda marjin genişliği (basamak derinliği) en az kaç mm olmalıdır?",
+    "options": {
+      "A": "0,2 mm",
+      "B": "0,5 mm",
+      "C": "0,8 mm",
+      "D": "1,0 mm",
+      "E": "2,0 mm"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* Tam seramik kronlarda servikalde basamak kırılmalarını ve stres birikimini önlemek için en az **1,0 mm genişliğinde dik açılı shoulder (veya radyal shoulder)** basamak hazırlanmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 275,
+    "unit": "06-Diş Preparasyon Prensipleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bölümlü kron restorasyonların avantajlarından biri değildir?",
+    "options": {
+      "A": "Periodontal irritasyon ihtimalinin az olması.",
+      "B": "Marjinal adaptasyonun kolay izlenmesi.",
+      "C": "Diş dokusunun korunması.",
+      "D": "Vitalometre yardımıyla pulpa testi yapılabilmesi.",
+      "E": "Full kron kadar retansiyona sahip olması."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D (Bölümlü kron avantajlarıdır):** Dişin tüm yüzeyleri kesilmediği için mine korunur, kenar sızıntısı ve vitalite kontrolü kolaydır.\n* **E) Full kron kadar retansiyona sahip olması (Yanlış / Cevap E):** Bölümlü (3/4 veya 7/8) kronların en önemli **dezavantajı**, tüm yüzeyleri kapsayan tam (full) kronlara göre **retansiyonunun (tutuculuğunun) daha AZ olmasıdır**.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 276,
+    "unit": "06-Diş Preparasyon Prensipleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tersine 3/4 kron tasarımında dişin preparat edilmeden bırakılan yüzeyi aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Bukkal",
+      "B": "Lingual",
+      "C": "Mezial",
+      "D": "Distal",
+      "E": "Oklüzal"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Standart 3/4 kronlarda bukkal yüzey estetik amacıyla kesilmeden bırakılır. Alt çene premolar/molarlarda görülen \"Tersine 3/4 kron\" tasarımında ise **sağlıklı lingual yüzey kesilmeden bırakılır**, bukkal ve oklüzal yüzeyler restore edilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 278,
+    "unit": "06-Diş Preparasyon Prensipleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi rezin bağlı (Maryland) sabit bölümlü protezlerin avantajlarından biri değildir?",
+    "options": {
+      "A": "Diş dokusu kaybının az olması",
+      "B": "Anestezi gereksiniminin az olması",
+      "C": "Supragingival kenar kullanıldığı için periodontal dokulara zarar vermemesi",
+      "D": "Geri dönüşümsüz (reversibl) kesim olması",
+      "E": "Desimante olduğunda yeniden simante edilme şansının olması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A, B, C, E (Advandajlardır):** Minimal preparasyon, doku dostu olması ve simantasyon kolaylığı avantajdır.\n* **D) Geri dönüşümsüz (reversibl) kesim olması (Yanlış / Cevap D):** Maryland köprüler minede minimal de olsa geri dönüşümsüz tırnak ve rehber düzlem kesimleri gerektirir. \"Geri dönüşümsüz\" bir özellik avantaj olarak ifade edilemez (aynı zamanda minede yapılan kesim nispeten konservatiftir).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 299,
+    "unit": "06-Diş Preparasyon Prensipleri",
+    "quality_flag": "cikmis"
+  }
+]

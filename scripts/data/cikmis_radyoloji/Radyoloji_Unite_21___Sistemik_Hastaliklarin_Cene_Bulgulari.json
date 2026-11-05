@@ -1,0 +1,155 @@
+[
+  {
+    "q_num": 341,
+    "question": "Aşağıdaki sistemik hastalık-bulgu eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Osteoporozis - Kemik dansitesinde azalma",
+      "B": "Renal osteodistrofi - Dişlerde hipokalsifikasyon",
+      "C": "Hipotiroidizm - Gecikmiş diş erüpsiyonu",
+      "D": "Hiperparatiroidizm - Lamina dura kaybı",
+      "E": "Rickets - Kemik dansitesinde artma"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Rickets (raşitizm), bebek ve çocuklarda D vitamini/kalsiyum eksikliğine bağlı gelişen mineralizasyon bozukluğudur. Kemik matriksinin kalsifiye olamaması nedeniyle kemik dansitesinde artma değil, belirgin azalma (osteopeni), kortikal incelme ve dişlerde hipoplazi/hipokalsifikasyon görülür.\n**Çeldiriciler:**\n- A) Osteoporoziste kemik trabeküllerinin sayı ve kalınlığının azalmasına bağlı kemik dansitesinde azalma izlenir.\n- B) Çocuklukta başlayan kronik böbrek yetmezliğinde (renal osteodistrofi) kalsiyum-fosfat metabolizması bozulduğu için gelişmekte olan dişlerde mine hipoplazisi ve hipokalsifikasyon görülür.\n- C) Hipotiroidizmde metabolik yavaşlamaya bağlı olarak süt dişlerinin düşmesi ve daimi dişlerin erüpsiyonu gecikir.\n- D) Hiperparatiroidizmde artmış osteoklastik rezorpsiyon nedeniyle lamina dura kaybı ve buzlu cam görünümü oluşur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 21 - Sistemik Hastalıkların Çene Bulguları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 342,
+    "question": "I. Hiperparatiroidizmde kemik dansitesi etkilenmez\nII. Orak hücreli anemide kemik dansitesi artar\nIII. Cushing sendromunda kemik dansitesi etkilenmez\nIV. Hipotiroidizmde kemik dansitesi azalır\nV. Ricketste kemik dansitesi azalır\n\nYukarıda verilen sistemik hastalık-kemik dansite ilişkilerinden hangisi doğrudur?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** V numaralı öncül doğrudur; Rickets (raşitizm) hastalığında yetersiz kalsiyum/D vitamini nedeniyle osteoid mineralize olamaz ve kemik dansitesi azalır.\n- I. Yanlış: Hiperparatiroidizmde kemikten kalsiyum çözünmesi arttığı için kemik dansitesi belirgin şekilde azalır.\n- II. Yanlış: Orak hücreli anemide kemik iliği hiperplazisi nedeniyle trabeküller incelir ve genel kemik dansitesi azalır.\n- III. Yanlış: Cushing sendromunda kortizol fazlalığı osteoporoz yaparak kemik dansitesini azaltır.\n- IV. Yanlış: Hipotiroidizmde kemik döngüsü yavaşladığı için kemik dansitesi azalmaz (normaldir veya hafif sklerotik olabilir).\n**Çeldiriciler:**\n- A) Hiperparatiroidizmde dansite azalır.\n- B) Orak hücreli anemide dansite azalır.\n- C) Cushing sendromunda dansite azalır.\n- D) Hipotiroidizmde dansite azalmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 21 - Sistemik Hastalıkların Çene Bulguları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 343,
+    "question": "I. Cushing Sendrom\nII. Hiperparatiroidizm\nIII. Osteopetrozis\nIV. Renal osteodistrofi\n\nAşağıdaki sistemik hastalıklardan hangisinde veya hangilerinde çeneler normalden daha büyüktür?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** III ve IV numaralı hastalıklarda çene kemiklerinde büyüme/genişleme izlenebilir.\n- I. Yanlış: Cushing sendromunda yumuşak dokuda \"aydede yüzü\" oluşsa da çene kemiklerinin boyutlarında artış olmaz (osteoporoz görülür).\n- II. Yanlış: Primer hiperparatiroidizmde lokalize Brown tümörü ekspansiyon yapabilse de genel çene boyutlarında büyüme beklenmez.\n- III. Doğru: Osteopetroziste osteoklastik rezorpsiyon ve yeniden şekillenme (remodelling) bozulduğu için çene kemiklerinde bilateral hacimsel genişleme/büyüme görülür.\n- IV. Doğru: Renal osteodistrofide (özellikle şiddetli sekonder hiperparatiroidizme bağlı fibröz osteodistrofi / leontiazis ossea tablosunda) çenelerde kortikal-medüller sınırın kaybıyla birlikte belirgin simetrik çene büyümesi gelişir.\n**Çeldiriciler:**\n- A) I. öncül yanlıştır.\n- B) II. öncül yanlıştır.\n- C) IV. öncül de doğrudur.\n- D) I. öncül yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 21 - Sistemik Hastalıkların Çene Bulguları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 514,
+    "question": "Sigara kullanımı aşağıdakilerden hangisinin gelişiminden sorumlu değildir?",
+    "options": {
+      "A": "Oral kanser",
+      "B": "Mukozal pigmentasyon",
+      "C": "Diş taşı oluşumu",
+      "D": "Herpes labialis",
+      "E": "Kıllı dil"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sigara kullanımı oral kavitede görülen iki önemli tablodan sorumlu tutulamaz: Bunlardan birincisi viral reaktivasyonla oluşan herpes labialis, ikincisi ise mukozal keratinizasyon artışıyla sıklığı azalan rekürrent aftöz stomatittir.\n**Çeldiriciler:**\n- A) Sigara içerdiği karsinojenlerle lökoplaki ve oral skuamöz hücreli karsinomun (oral kanser) birincil etiyolojik nedenidir.\n- B) Sigara dumanındaki kimyasallar melanositleri uyararak özellikle ön diş etinde \"smoker's melanosis\" adı verilen mukozal pigmentasyona neden olur.\n- C) Sigara kullanımı plak birikimini ve tükürük pH/mineral değişimini etkileyerek diş taşı (kalkulus) oluşumunu artırır.\n- E) Yoğun sigara kullanımı filiform papillaların deskuamasyonunu yavaşlatarak ve keratinleri boyayarak siyah kıllı dil gelişimine yol açar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 21 - Sistemik Hastalıkların Çene Bulguları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 515,
+    "question": "Herpes labialis vezikülüne çıplak elle temas edildiğinde özellikle parmaklarda herpetik lezyon gelişimine neden olan hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Herpes zoster enfeksiyonu",
+      "B": "Herpetik panaris",
+      "C": "Herpetik stomatit",
+      "D": "El, ayak ve ağız hastalığı",
+      "E": "Pemfigus vulgaris"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Aktif herpes labialis veya herpetik stomatit lezyonlarındaki HSV'nin çıplak elle temas sonucu (çocuklarda parmak emme veya diş hekimlerinde eldivensiz çalışma ile) parmak derisindeki çatlaklardan inoküle olmasıyla gelişen ağrılı, vezikülopüstüler çapraz enfeksiyona herpetik panaris (herpetic whitlow / paronşi / dolama) denir.\n**Çeldiriciler:**\n- A) Herpes zoster enfeksiyonu VZV reaktivasyonu sonucu dermatomal gelişir; parmakla temas sonucu oluşan HSV inokülasyonu değildir.\n- C) Herpetik stomatit ağız içi mukozanın primer HSV enfeksiyonudur; parmakta gelişen lezyonu tanımlamaz.\n- D) El, ayak ve ağız hastalığı HSV ile değil, Coxsackie A virüsü ile damlacık/fekal-oral yoldan bulaşan sistemik viral bir enfeksiyondur.\n- E) Pemfigus vulgaris bulaşıcı olmayan otoimmün vezikülobüllöz bir hastalıktır.\n---",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "unit": "Ünite 21 - Sistemik Hastalıkların Çene Bulguları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 516,
+    "question": "Parmakların HSV ile kontamine olması sonucu meydana gelen lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aftöz Stomatit",
+      "B": "Paronşi",
+      "C": "Streptokokal Farenjit",
+      "D": "Eritema Multiforme",
+      "E": "ANUG"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Parmakların Herpes simpleks virüsü (HSV) ile kontamine olması sonucu parmak uçlarında ve tırnak çevresinde meydana gelen ağrılı herpetik çapraz enfeksiyona herpetik panaris (paronşi / herpetic whitlow / dolama) adı verilir.\n**Çeldiriciler:**\n- A) Aftöz stomatit viral olmayan, ağız mukozasında görülen tekrarlayan ülserlerdir.\n- C) Streptokokal farenjit A grubu beta-hemolitik streptokokların neden olduğu bakteriyel boğaz enfeksiyonudur.\n- D) Eritema multiforme HSV enfeksiyonu sonrası gelişebilen immün aracılı mukokutanöz bir aşırı duyarlılık reaksiyonudur; parmağın doğrudan viral inokülasyonu değildir.\n- E) ANUG (akut nekrotizan ülseratif gingivitis), fuzospiroket bakterilerin neden olduğu nekrotizan diş eti enfeksiyonudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 21 - Sistemik Hastalıkların Çene Bulguları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 517,
+    "question": "I. Veziküllerden önce şiddetli ağrının olması\nII. Stomatitle birlikte deri lezyonlarının bulunması\nIII. Lezyonların orta hattı geçecek şekilde çift taraflı dağılması\n\nAşağıdaki hangisi veya hangileri trigeminal zonadaki stomatitin herpetik stomatitten ayrılan karakteristik özelliklerindendir?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve II",
+      "C": "Yalnız I",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Trigeminal (orofasiyal) zona, prodromal şiddetli ağrısı, aynı dermatomdaki yüz derisi döküntüleri ve orta hattı geçmeyen tek taraflı dağılımı ile herpetik stomatitten ayrılır.\n**Öncüllerin Analizi:**\n- I. Doğru: Trigeminal zonada veziküller çıkmadan önce ilgili sinir trasesinde diş ağrısını da taklit edebilen çok şiddetli prodromal ağrı vardır.\n- II. Doğru: Zonada ağız içi mukozal lezyonlarla birlikte tutulan trigeminal dalın (V1, V2 veya V3) innerve ettiği yüz derisinde de veziküler lezyonlar bulunur.\n- III. Yanlış: Trigeminal zona lezyonları orta hattı geçecek şekilde çift taraflı dağılmaz; tam aksine sinir trasesini izlediği için orta hattı kesinlikle geçmeyen tek taraflı (unilateral) dağılım göstermesi herpetik stomatitten en önemli farkıdır.\n**Çeldiriciler:** A, D ve E şıkları yanlış olan III. öncülü içerdiği için; C şıkkı ise doğru olan II. öncülü dışladığı için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 21 - Sistemik Hastalıkların Çene Bulguları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 526,
+    "question": "I. Sarkoidoz\nII. Lösemi\nIII. Lenfoma\n\nYukarıdakilerden hangisi veya hangileri Mikulicz's sendromunun Sjögren Sendromu dışındaki nedenlerindendir?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Tükürük ve gözyaşı bezlerinde bilateral simetrik şişme ve kserostomi ile karakterize olan Mikulicz sendromuna yol açan başlıca altta yatan hastalıklar; Sjögren sendromu, sarkoidozis, lösemi infiltrasyonu ve lenfomadır.\n**Öncüllerin Analizi:**\n- I. Doğru: Sarkoidozis, lakrimal ve tükürük bezlerinde granülomatöz infiltrasyon yaparak Mikulicz sendromuna neden olur.\n- II. Doğru: Lösemi infiltrasyonu bez parankiminde bilateral şişlik yaratarak bu sendroma yol açar.\n- III. Doğru: Lenfoma, bez içi lenfoid dokuyu tutarak bilateral bez büyümesi (Mikulicz tablosu) oluşturur.\n**Çeldiriciler:** B, C, D ve E şıkları her üç etiyolojik nedeni bir arada içermediği için eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 21 - Sistemik Hastalıkların Çene Bulguları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 529,
+    "question": "Aşağıdaki hastalıklardan hangisinde osteoporoz görülmesi beklenmez?",
+    "options": {
+      "A": "Cushing",
+      "B": "Rickets",
+      "C": "Hipofosfatazya",
+      "D": "Orak hücreli anemi",
+      "E": "Osteopetrozis"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Osteopetrozis (Albers-Schönberg / mermer kemik hastalığı), osteoklast fonksiyon bozukluğu sonucu kemik rezorpsiyonunun durması ve tüm iskelette yaygın, homojen kemik yoğunluğu artışı (osteoskleroz) gelişmesiyle karakterizedir; osteoporoz (kemik yoğunluğunda azalma) görülmez.\n**Çeldiriciler:**\n- A) Cushing hastalığında aşırı glukokortikoid etkisiyle osteoblastik aktivite baskılanır ve belirgin osteoporoz gelişir.\n- B) Rickets (raşitizm) D vitamini/kalsiyum eksikliğine bağlı osteoid mineralizasyon bozukluğu olup radyografik olarak kemik densitesinde azalma (osteopeni/osteoporoz görünümü) verir.\n- C) Hipofosfatazyada alkalen fosfataz eksikliğine bağlı kemik mineralizasyonu bozulur ve radyolojik osteopeni/osteoporoz görülür.\n- D) Orak hücreli anemide kemik iliği hiperplazisine bağlı medüller boşluklar genişler, trabeküller azalır ve sekonder osteoporoz izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 21 - Sistemik Hastalıkların Çene Bulguları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

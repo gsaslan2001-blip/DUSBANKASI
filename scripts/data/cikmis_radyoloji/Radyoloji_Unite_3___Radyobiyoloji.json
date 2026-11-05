@@ -1,0 +1,342 @@
+[
+  {
+    "q_num": 26,
+    "question": "Aşağıda radyasyona bağlı ortaya çıkan değişiklikler ile stokastik/non-stokastik olma durumları eşleştirmelerinden hangisi doğru verilmiştir?",
+    "options": {
+      "A": "Sub-lethal DNA hasarı – non-stokastik",
+      "B": "Osteoradyonekroz – stokastik",
+      "C": "Lösemi – stokastik",
+      "D": "Kalıtımsal hastalıklar – non-stokastik",
+      "E": "Fetal gelişim geriliği – stokastik"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Lösemi, tiroid kanseri ve tükürük bezi tümörleri gibi maligniteler belirli bir eşik dozu bulunmayan, mutasyona uğramış hücrelerin replikasyonu sonucu gelişen stokastik etkilerdir.\n**Çeldiriciler:**\n- A) Sub-lethal DNA hasarı hücreyi öldürmeyip gen mutasyonlarına yol açtığı için non-stokastik değil, stokastik etkilerin temel mekanizmasıdır (non-stokastik etkide letal DNA hasarı vardır).\n- B) Osteoradyonekroz, yüksek doz radyasyona bağlı damar ve kemik hücresi yıkımıyla oluşan non-stokastik (deterministik) bir etkidir.\n- D) Kalıtımsal hastalıklar üreme hücrelerindeki gen mutasyonlarıyla gelecek nesillere aktarılan stokastik etkilerdir.\n- E) Fetal gelişim geriliği, eşik dozun üzerinde hücre ölümü ve organ fonksiyonlarında azalma ile seyreden non-stokastik (deterministik) bir etkidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 27,
+    "question": "Aşağıdakilerden hangisi radyasyonun deterministik etkilerinin değerlendirilmesindeki kriterlerden birisidir?",
+    "options": {
+      "A": "Bir eşik dozu olmaksızın ortaya çıkması",
+      "B": "Sub-lethal DNA hasarının olması",
+      "C": "Atrofiye öncülük eden doku hipoplazisi",
+      "D": "Mutasyon hücrelerinin replikasyonu",
+      "E": "Gen mutasyonlarına neden olması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Deterministik (non-stokastik) etkiler belirli bir eşik dozun üzerinde letal DNA hasarı ve hücre ölümüyle gerçekleşir. Çok sayıda hücrenin ölmesi sonucunda doku hipoplazisi (hücre kaybı) gelişir, bu durum dokuda atrofiye ve organ fonksiyonlarında azalmaya öncülük eder.\n**Çeldiriciler:**\n- A) Eşik dozu olmaksızın ortaya çıkma deterministik etkilerin değil, stokastik etkilerin özelliğidir; deterministik etkilerde mutlaka bir eşik doz vardır.\n- B) Sub-lethal DNA hasarı stokastik etkilere özgüdür; deterministik etkilerde letal DNA hasarı meydana gelir.\n- D) Mutasyon hücrelerinin replikasyonu kanserleşmeye yol açan stokastik bir süreçtir.\n- E) Gen mutasyonlarına neden olma stokastik ve kalıtımsal etkilerin değerlendirme kriteridir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 28,
+    "question": "Aşağıdakilerden hangisi radyasyonun biyolojik dokular üzerinde oluşturduğu stokastik etkilerdendir?",
+    "options": {
+      "A": "Subletal DNA hasarı",
+      "B": "Hücre ölümü",
+      "C": "Kserostomi",
+      "D": "Katarakt gelişimi",
+      "E": "Osteoradyonekroz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Radyasyonun biyolojik dokular üzerindeki stokastik etkileri, hücrenin ölümüne yol açmayan ancak genetik yapıyı bozan subletal DNA hasarı, gen mutasyonları ve mutasyonlu hücrelerin replikasyonu şeklinde gerçekleşir.\n**Çeldiriciler:**\n- B) Hücre ölümü, letal DNA hasarı sonucu ortaya çıkan deterministik bir etkidir.\n- C) Kserostomi, tükürük bezlerinde hücre ölümüne ve fonksiyon kaybına bağlı gelişen deterministik bir etkidir.\n- D) Katarakt gelişimi, eşik doz bağımlı hücre hasarıyla oluşan deterministik bir etkidir.\n- E) Osteoradyonekroz, yüksek doz radyasyon sonrası kemik dokusunda nekrozla seyreden deterministik bir etkidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 29,
+    "question": "I. Subletal DNA hasarı\nII. Hücre ölümü\nIII. Tat kaybı\nIV. Fetal gelişim geriliği\n\nYukarıda verilenlerden hangisi/hangilerinin radyasyonun doku ve organ üzerindeki herhangi bir eşik doz olmaksızın açığa çıkma olasılığı olan stokastik etkisi sonucu gelişmesi beklenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "I, II ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Herhangi bir eşik doz olmaksızın açığa çıkma olasılığı bulunan stokastik etki mekanizması, verilen öncüller arasında yalnızca subletal DNA hasarıdır (I). Diğer öncüller eşik doza bağlı deterministik etkilerdir.\n**Öncüllerin Analizi:**\n- I. Subletal DNA hasarı: Stokastik etkinin hücresel temelidir; eşik doz gerektirmez ve mutasyonlu hücre çoğalmasıyla kanser veya kalıtımsal hastalıklara yol açar.\n- II. Hücre ölümü: Eşik dozun aşılmasıyla oluşan letal DNA hasarının bir sonucudur ve deterministik etkidir.\n- III. Tat kaybı: Tat tomurcuklarındaki hücre yıkımına bağlı gelişen deterministik bir etkidir.\n- IV. Fetal gelişim geriliği: Gelişmekte olan fetüste hücre ölümü ve doku hipoplazisi sonucu oluşan deterministik bir etkidir.\n**Çeldiriciler:**\n- B, C, D, E) Hücre ölümü, tat kaybı ve fetal gelişim geriliği eşik doza bağımlı deterministik etkiler olduğundan II, III ve IV. öncülleri içeren seçenekler yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 30,
+    "question": "Radyasyonun deterministik ve stokastik etkileri ile ilgili verilen örneklerden hangisi doğru değildir?",
+    "options": {
+      "A": "Pityalizm deterministik etki sonucu oluşur",
+      "B": "Osteoradyonekroz deterministik etki sonucu oluşur",
+      "C": "Fetal gelişim geriliği deterministik etki sonucu oluşur",
+      "D": "Tat kaybı deterministik etki sonucu oluşur",
+      "E": "Lösemi stokastik etki sonucu oluşur"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Pityalizm (siyalore), tükürük salgısının aşırı artması demektir. Radyasyonun tükürük bezleri üzerindeki deterministik etkisi tükürük artışına (pityalizm) değil, parankim dokusunun hasar görmesine bağlı olarak tükürük salgısının azalmasına ve ağız kuruluğuna (kserostomi) neden olur.\n**Çeldiriciler:**\n- B) Osteoradyonekroz, radyasyonun kemik ve damar dokusu üzerindeki hücre öldürücü deterministik etkisi sonucu gelişir.\n- C) Fetal gelişim geriliği, belirli bir eşik dozun üzerindeki radyasyonun oluşturduğu deterministik bir etkidir.\n- D) Tat kaybı, radyasyona duyarlı tat tomurcuklarının hasar görmesiyle oluşan deterministik bir etkidir.\n- E) Lösemi, eşik dozdan bağımsız olarak DNA mutasyonları sonucu gelişen stokastik bir etkidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 31,
+    "question": "Radyasyonun deterministik etkisi sonucu aşağıdakilerden hangisinin ortaya çıkması daha olasıdır?",
+    "options": {
+      "A": "Lösemi",
+      "B": "Sub-lethal DNA hasarı",
+      "C": "Tükürük bezi tümörleri",
+      "D": "Katarakt",
+      "E": "Tiroid kanseri"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Katarakt; kserostomi, osteoradyonekroz, mukozit ve fetal gelişim geriliği ile birlikte radyasyonun eşik doza bağlı olarak hücre ölümü ve doku fonksiyon kaybı yoluyla oluşturduğu deterministik etkilerinden biridir.\n**Çeldiriciler:**\n- A) Lösemi, radyasyonun stokastik etkisi sonucu gelişen bir malignitedir.\n- B) Sub-lethal DNA hasarı, stokastik etkilerin başlangıç mekanizmasıdır; deterministik etkilerde letal DNA hasarı görülür.\n- C) Tükürük bezi tümörleri, gen mutasyonları sonucu ortaya çıkan stokastik etkilerdendir.\n- E) Tiroid kanseri, eşik doz olmaksızın gelişebilen stokastik bir etkidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 32,
+    "question": "Aşağıda verilen radyasyon etkisi-dokularda neden olduğu değişiklik eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Stokastik etki - Kserostomi",
+      "B": "Deterministik etki - Lösemi",
+      "C": "Stokastik etki - Osteoradyonekroz",
+      "D": "Deterministik etki - Katarakt",
+      "E": "Stokastik etki - Fetal gelişim geriliği"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Deterministik etkilerde eşik doz vardır, letal DNA hasarı ve hücre ölümü gerçekleşir; göz merceğinde gelişen katarakt deterministik etkinin klasik bir örneğidir.\n**Çeldiriciler:**\n- A) Kserostomi stokastik değil, tükürük bezi hücrelerinin yıkımına bağlı deterministik bir etkidir.\n- B) Lösemi deterministik değil, somatik stokastik bir etkidir.\n- C) Osteoradyonekroz stokastik değil, deterministik bir etkidir.\n- E) Fetal gelişim geriliği stokastik değil, deterministik bir etkidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 33,
+    "question": "Radyasyonun oral kavitedeki etkileri ile ilgili aşağıdakilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Radyoterapi sonrası iyileşen mukoza atrofik, ince ve avasküler olma eğilimindedir.",
+      "B": "Radyoterapiye bağlı tat kaybı reversible olup 60-120 gün içerisinde düzelme olur.",
+      "C": "Majör tükürük bezlerinden parotis radyasyona diğer bezlere göre daha sensitiftir.",
+      "D": "Oral kavite lezyonlarının radyoterapisinde radyasyonun büyük dozlarda ve az sıklıkla verilmesi tavsiye edilir.",
+      "E": "Radyoterapiye maruz kalan bölgedeki dişlerin kök gelişimi gecikebilir veya durabilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Oral kavitedeki skuamöz hücreli karsinom gibi malign lezyonların radyoterapisinde normal dokuları korumak ve tümör hücrelerini en duyarlı evrede yakalamak amacıyla radyasyonun büyük ve az defada verilmesi yerine, fraksiyone edilerek küçük dozlarda ve daha sık aralıklarla verilmesi tavsiye edilir.\n**Çeldiriciler:**\n- A) Radyoterapi bitiminden yaklaşık 2 ay sonra mukozada iyileşme izlenir ancak iyileşen bu mukoza atrofik, ince ve avasküler yapıdadır.\n- B) Tat tomurcukları radyasyona duyarlıdır ve tükürük azalması da tat kaybına katkıda bulunur; ancak bu etki geri dönüşümlüdür (reversible) ve 60-120 gün içinde düzelir.\n- C) Tamamen seröz asiner hücrelerden oluşan parotis bezi, diğer majör tükürük bezlerine göre radyasyona çok daha hassastır.\n- E) Radyasyon dişlerin kalsifikasyon ve gelişim dönemine denk gelirse hücresel diferansiyasyonu bozar; kök gelişiminin gecikmesine, cüce köklere, mikrodontiye veya dişin gelişmemesine yol açabilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 34,
+    "question": "Absorbe edilen radyasyon miktarını gösteren birim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Coulomb/kilogram (C/kg)",
+      "B": "Sievert (Sv)",
+      "C": "Becquerel (Bq)",
+      "D": "Röntgen (R)",
+      "E": "Gray (Gy)"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dokular tarafından soğurulan (absorbe edilen) radyasyon dozu birimi, geleneksel sistemde Rad (radiation absorbed dose) iken uluslararası SI birim sisteminde Gray (Gy) olarak adlandırılır (1 Gy = 100 rad).\n**Çeldiriciler:**\n- A) Coulomb/kilogram (C/kg), SI birim sisteminde havadaki iyonizasyonu ifade eden ışınlama (ekspozur) dozu birimidir.\n- B) Sievert (Sv), SI birim sisteminde farklı radyasyon türlerinin biyolojik etkisini hesaba katan doz eşdeğeri birimidir (eski adı Rem).\n- C) Becquerel (Bq), SI sisteminde radyoaktif bir maddenin birim zamandaki bozunma sayısını gösteren aktivite birimidir (eski adı Curie).\n- D) Röntgen (R), geleneksel sistemde ışınlama (ekspozur) dozu birimidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 35,
+    "question": "Radyasyonun ışınlama dozunu gösteren birim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Curie",
+      "B": "Sievert",
+      "C": "Becquerel",
+      "D": "Gray",
+      "E": "Coulomb/kg"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Belirli bir hacimdeki havada X veya gama ışınlarının oluşturduğu elektrik yükü miktarını ifade eden ışınlama (ekspozur) dozu birimi, geleneksel sistemde Röntgen (R), SI birim sisteminde ise Coulomb/kilogramdır (C/kg).\n**Çeldiriciler:**\n- A) Curie (Ci), radyoaktif izotopların bozunma hızını gösteren eski aktivite birimidir.\n- B) Sievert (Sv), radyasyonun biyolojik etkisini ölçen SI doz eşdeğeri birimidir.\n- C) Becquerel (Bq), radyoaktif maddeler için kullanılan SI aktivite birimidir.\n- D) Gray (Gy), dokuda soğurulan radyasyon miktarını gösteren SI absorbe doz birimidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 36,
+    "question": "Radyasyon birimleri ile ilgili aşağıdakilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Bir bölgeye belirli bir zamanda verilen röntgen ışını miktarına ekspozur dozu denir",
+      "B": "Aktivite birimi daha çok radyoaktif izotoplar için kullanılır",
+      "C": "Becquerel aktivite birimidir",
+      "D": "Coulomb/kg ışınlama dozu birimidir",
+      "E": "Gray doz eşdeğeri birimidir"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Gray (Gy), doz eşdeğeri birimi değil, soğrulmuş (absorbe edilen) radyasyon dozu birimidir. Doz eşdeğeri birimi geleneksel sistemde Rem, SI sisteminde ise Sievert (Sv) olarak geçer.\n**Çeldiriciler:**\n- A) Belirli bir zamanda belirli bir alana ulaşan X-ışını miktarına ekspozur (ışınlama) dozu adı verilir.\n- B) Aktivite, radyoaktif çekirdeklerin birim zamandaki parçalanma sayısını ifade ettiğinden radyoaktif izotoplar için kullanılır.\n- C) Becquerel (Bq), Curie'nin yerini alan güncel SI aktivite birimidir.\n- D) Coulomb/kg, Röntgen biriminin yerini alan güncel SI ışınlama dozu birimidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 37,
+    "question": "Aşağıdakilerden hangileri X-ışını oluşumu sırasında tüp içerisinde ortaya çıkan yüksek ısıyı etkisiz hâle getirmek için kullanılır?",
+    "options": {
+      "A": "Bakır blok - Yağ",
+      "B": "Bakır blok - Molibden",
+      "C": "Yağ - Molibden",
+      "D": "Alüminyum - Bakır blok",
+      "E": "Molibden - Alüminyum"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Röntgen tüpü içerisinde hızlandırılan elektronların anotta durdurulmasıyla enerjinin %99,8'i ısıya, yalnızca %0,2'si X-ışınına dönüşür. Açığa çıkan bu yüksek ısı, tungsten targetin gömülü olduğu yüksek ısı iletkenliğine sahip bakır blok ve cam tüp ile metal muhafaza arasında bulunan madeni koruyucu yağlar tarafından ortamdan uzaklaştırılır.\n**Çeldiriciler:**\n- B, C, E) Molibden anotta ısıyı uzaklaştırmak için değil, katotta elektron bulutunu hedefe odaklayan focusing cup (odaklayıcı blok) yapımında kullanılır.\n- D) Alüminyum ısı soğutma sisteminin bir parçası değildir; uzun dalga boylu düşük enerjili X-ışınlarını süzmek (filtrasyon) amacıyla tüp çıkışında kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 38,
+    "question": "I. Bakır blok\nII. Yağ\nIII. Molibden\nIV. Alüminyum\n\nRöntgen cihazında yüksek voltaj devresi ile kinetik enerji kazanan elektron bulutunun aniden durdurulması sonucu açığa çıkan ısı yukarıdakilerden hangileri ile ortamdan uzaklaştırılır?",
+    "options": {
+      "A": "I-II",
+      "B": "I-III",
+      "C": "I-IV",
+      "D": "II-III",
+      "E": "II-IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Elektronların anottaki hedefe çarparak aniden durdurulmasıyla oluşan yüksek ısı, targetin içine yerleştirildiği bakır blok (I) aracılığıyla tüp çevresindeki madeni yağa (II) iletilerek ortamdan uzaklaştırılır.\n**Öncüllerin Analizi:**\n- I. Bakır blok: Tungsten hedefi çevreleyen anot gövdesini oluşturur ve yüksek termal iletkenliği sayesinde fokal spotta oluşan ısıyı hızla dışarıya aktarır.\n- II. Yağ: Cam tüp ile metal tüp başlığı (muhafaza) arasındaki boşluğu doldurarak hem elektriksel yalıtım sağlar hem de bakır bloktan gelen ısıyı soğutur.\n- III. Molibden: Katotta filamentin çevresindeki odaklayıcı kap (focusing cup) materyalidir; anot soğutmasında görev almaz.\n- IV. Alüminyum: X-ışını demetindeki düşük enerjili fotonları absorbe eden filtre materyalidir; ısı uzaklaştırma görevi yoktur.\n**Çeldiriciler:**\n- B, C, D, E) Molibden (III) elektron odaklamada, alüminyum (IV) ise filtrasyonda kullanıldığından bu öncülleri içeren şıklar yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 39,
+    "question": "Aşağıdakilerden hangisi fokal spotta birim alanda açığa çıkan ısı artışına neden olmaz?",
+    "options": {
+      "A": "Bakır blok",
+      "B": "kVp artışı",
+      "C": "mA artışı",
+      "D": "Target açısı azalması",
+      "E": "Fokal spotun küçük olması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Tungsten targetin gömülü olduğu bakır blok, oluşan sıcaklığı soğutucu madeni yağlara aktararak ısının eliminasyonunda görev alır; fokal spotta ısı oluşumuna veya birim alandaki ısı artışına neden olmaz.\n**Çeldiriciler:**\n- B) kVp artışı elektronların kinetik enerjisini ve birim zamanda hedefe çarpan elektronların enerjisini artırarak oluşan ısı miktarını yükseltir.\n- C) mA artışı katotta üretilen ve hedefe çarpan elektron sayısını artırdığı için fokal spotta açığa çıkan ısıyı artırır.\n- D) Target açısının azalması elektronların çarptığı alanı daraltacağı için birim alanda biriken ısı artışına yol açar.\n- E) Fokal spot küçüldükçe görüntü keskinliği artar ancak elektronlar daha dar bir alana çarptığı için birim alanda açığa çıkan ısı artar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 40,
+    "question": "Dilde lokalize skuamöz hücreli karsinom tedavisi için radyoterapi görmüş olan bir hastada, aşağıdaki oral komplikasyonlardan hangisinin görülmesi beklenmez?",
+    "options": {
+      "A": "Mukozit",
+      "B": "Tat duyusunda azalma",
+      "C": "Pityalizm",
+      "D": "Trismus",
+      "E": "Osteoradyonekroz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Pityalizm (siyalore), aşırı tükürük sekresyonu anlamına gelir. Baş-boyun radyoterapisi gören hastalarda tükürük bezi parankimi radyasyona son derece duyarlı olduğundan tükürük salgısı artmaz; tam tersine seröz asiner hücrelerin yıkımıyla tükürük akışı belirgin şekilde azalır ve kserostomi (ağız kuruluğu) gelişir.\n**Çeldiriciler:**\n- A) Mukozit: Oral mukozanın bazal tabakasındaki radyosensitif hücrelerin ölümüne bağlı olarak radyoterapinin 2. haftasından itibaren kızarıklık, inflamasyon ve psödomembranlarla karakterize mukozit gelişir.\n- B) Tat duyusunda azalma: Radyasyona duyarlı tat tomurcuklarının hasar görmesi ve tükürük azalması nedeniyle tat kaybı (hipogezi/agezi) görülür.\n- D) Trismus: Çiğneme kaslarında gelişen fibrozis ve kontraksiyon sonucunda ağız açıklığında kısıtlılık (trismus) meydana gelir.\n- E) Osteoradyonekroz: Radyoterapiye bağlı damarsal hasar (hipovaskülarite, hiposelülarite, hipoksi) sonucunda özellikle mandibulada osteoradyonekroz gelişebilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 41,
+    "question": "Aşağıdakilerden hangisi radyoterapi sonrası görülen rampant çürüklerin etyolojik faktörlerinden biri değildir?",
+    "options": {
+      "A": "Tükürükte azalan pH",
+      "B": "Azalan tamponlama kapasitesi",
+      "C": "Artan tükürük akış hızı",
+      "D": "Artan tükürük viskozitesi",
+      "E": "Bozulan oral flora"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Radyoterapi sonrasında tükürük bezlerinin hasar görmesiyle tükürük akış hızı artmaz, ilk birkaç haftadan itibaren belirgin şekilde azalır. Tükürük akış hızının azalması yıkama ve temizleme fonksiyonunu ortadan kaldırarak radyasyon (rampant) çürüklerine zemin hazırlar.\n**Çeldiriciler:**\n- A) Tükürük pH'ı normal bireylerde 6,5 civarında iken radyasyona maruz kalmış kişilerde 5,5'e kadar düşer ve bu asidik ortam demineralizasyonu hızlandırır.\n- B) Tükürükteki bikarbonat konsantrasyonunun azalmasına bağlı olarak tamponlama kapasitesi düşer.\n- D) Radyasyon etkisiyle önce seröz sekresyon kaybedilir, geriye müsin tipte koyu bir salgı kaldığından tükürük viskozitesi artar.\n- E) Tükürükteki IgA miktarının ve koruyucu elektrolitlerin azalmasıyla oral flora karyojenik bakteriler lehine bozulur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 42,
+    "question": "I. Erken sürme\nII. Malformasyonlar\nIII. Bir veya birkaç diş noksanlığı\nIV. Kök formasyonunda gecikme\n\nAşağıdakilerden hangisi veya hangileri yüksek doz radyasyonun dişler üzerindeki etkilerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II, III ve IV",
+      "D": "III ve IV",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Gelişim dönemindeki dişlerin yüksek doz radyasyona maruz kalması sonucunda dişlerde malformasyonlar (II), bir veya birkaç dişin gelişmemesi/noksanlığı (III) ve kök formasyonunda gecikme veya durma (IV) görülür; ancak erken sürme (I) meydana gelmez.\n**Öncüllerin Analizi:**\n- I. Erken sürme: Dişlerin sürme mekanizması radyasyona karşı dirençlidir ve yüksek doz radyasyon erken sürmeye neden olmaz; aksine kök gelişimi bozulduğu için sürme gecikebilir.\n- II. Malformasyonlar: Kalsifikasyon sonrası dönemde radyasyon uygulanırsa hücresel diferansiyasyon etkilenerek mikrodonti ve kuron-kök malformasyonları oluşur.\n- III. Bir veya birkaç diş noksanlığı: Kalsifikasyon öncesinde tomurcuk aşamasında alınan radyasyon diş jermini harap ederek ageneziye (diş noksanlığına) yol açabilir.\n- IV. Kök formasyonunda gecikme: Gelişmekte olan dişlerin kök uzaması gecikebilir veya tamamen durabilir.\n**Çeldiriciler:**\n- A, B) Yüksek doz radyasyon erken sürmeye yol açmadığı için I. öncülü içeren şıklar yanlıştır.\n- D, E) II, III ve IV. öncüllerin tamamı radyasyonun dental gelişimsel etkileri arasında yer aldığından diğer seçenekler eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 43,
+    "question": "Aşağıdakilerden hangisi, elektromanyetik radyasyon özelliğinde değildir?",
+    "options": {
+      "A": "X-ışınları",
+      "B": "Radyo dalgaları",
+      "C": "Nötron",
+      "D": "Gama ışınları",
+      "E": "Ultraviyole dalgaları"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Nötron, elektromanyetik radyasyon değildir; alfa, beta, elektron ve proton gibi kütle ve belirli bir hıza sahip atom altı parçacıklardan oluşan korpüsküler (parçacıklı) radyasyon grubunda yer alır.\n**Çeldiriciler:**\n- A) X-ışınları, kütlesi ve elektrik yükü olmayan, ışık hızında yayılan yüksek enerjili elektromanyetik radyasyondur.\n- B) Radyo dalgaları, elektromanyetik spektrumun en uzun dalga boylu ve düşük enerjili elektromanyetik radyasyon türüdür.\n- D) Gama ışınları, atom çekirdeğinden kaynaklanan çok kısa dalga boylu elektromanyetik radyasyondur.\n- E) Ultraviyole dalgaları, görünür ışık ile X-ışınları arasında yer alan elektromanyetik radyasyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 44,
+    "question": "Aşağıdakilerden hangisi elektromanyetik radyasyondur?",
+    "options": {
+      "A": "Alfa ışınları",
+      "B": "Beta ışınları",
+      "C": "Gama ışını",
+      "D": "Proton",
+      "E": "Nötron"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Gama ışını; X-ışınları, ultraviyole, görünür ışık, infrared, mikrodalga ve radyo dalgaları ile birlikte kütlesiz enerji paketlerinden (fotonlardan) oluşan elektromanyetik radyasyon grubundadır.\n**Çeldiriciler:**\n- A) Alfa ışınları, iki proton ve iki nötrondan oluşan helyum çekirdekleridir ve korpüsküler radyasyondur.\n- B) Beta ışınları, yüksek hızda hareket eden elektron veya pozitron parçacıkları olup korpüsküler radyasyondur.\n- D) Proton, pozitif yüklü atom altı parçacıktan oluşan korpüsküler radyasyondur.\n- E) Nötron, yüksüz atom altı parçacıktan oluşan korpüsküler radyasyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 45,
+    "question": "I. X-ışını\nII. İnfrare ışık\nIII. UV ışınlar\nIV. Radyo dalgaları\n\nVerilen enerji çeşitlerinin dalga boylarına göre büyükten küçüğe doğru sıralamaları aşağıdaki şıklardan hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "II - III - IV - I",
+      "B": "III - II - IV - I",
+      "C": "IV - II - III - I",
+      "D": "IV - III - II - I",
+      "E": "IV - II - I - III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Elektromanyetik spektrumda enerjisi en düşük olan ışımanın dalga boyu en büyüktür. Verilen ışımaların dalga boylarına göre büyükten küçüğe doğru sıralaması; Radyo dalgaları (IV) - İnfrare ışık (II) - Ultraviyole ışınlar (III) - X-ışını (I) şeklindedir.\n**Öncüllerin Analizi:**\n- I. X-ışını: Gama ışınlarıyla birlikte spektrumun en yüksek enerjili ve en küçük (nanometre altı) dalga boylu ışımasıdır.\n- II. İnfrare ışık: Görünür ışıktan daha uzun, radyo dalgalarından daha kısa dalga boyuna sahiptir.\n- III. UV ışınlar: Görünür ışık ve infrare ışıktan daha kısa, X-ışınlarından ise daha uzun dalga boyuna sahiptir.\n- IV. Radyo dalgaları: Metrelerle ölçülen dalga boyuyla verilenler arasında en büyük dalga boyuna sahip olan enerji çeşididir.\n**Çeldiriciler:**\n- A, B, D, E) Elektromanyetik spektrumdaki dalga boyu dizilimi (Radyo > İnfrare > Görünür ışık > UV > X-ışını ve Gama) kuralına uymadıkları için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 3 - Radyobiyoloji",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

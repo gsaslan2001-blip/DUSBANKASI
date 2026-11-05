@@ -1,0 +1,452 @@
+[
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 66,
+    "question": "Dejeneratif eklem hastalığı (Osteoartrit) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İleri yaşlarda ve kadınlarda daha sıktır.",
+      "B": "Ağrı hareketle artar, dinlenmeyle azalır.",
+      "C": "Subkondral skleroz ve Heberden nodülleri izlenir.",
+      "D": "Otoimmün mekanizmalı bir inflamasyondur.",
+      "E": "Eklemlerde asimetrik tutulum gösterir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Osteoartrit otoimmün değil, mekanik aşınma ve eklem kıkırdağının intrensek dejeneratif hastalığıdır (Otoimmün olan Romatoid Artrittir).\n**Çeldiriciler:**\n- **A)** İleri yaş ve obezite ana risk faktörüdür.\n- **B)** Yük binen eklemlerde hareketle artan ağrı tipiktir.\n- **C)** DIP eklemlerinde Heberden nodülleri oluşur.\n- **E)** Asimetrik eklem tutulumu gösterir.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 67,
+    "question": "Aşağıdaki kemik matriks proteinlerinden hangisi osteoblast kaynaklı değildir?",
+    "options": {
+      "A": "Osteokalsin",
+      "B": "Trombospondin",
+      "C": "Osteonektin",
+      "D": "Tip 1 kollajen",
+      "E": "Beta-2 mikroglobulin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Beta-2 mikroglobulin, MHC Sınıf I moleküllerinin hafif zinciri olup çekirdekli tüm hücrelerin yüzeyinde bulunur; osteoblasta özgü kemik matriks proteini değildir.\n**Çeldiriciler:**\n- **A)** Osteokalsin osteoblast tarafından sentezlenir.\n- **B)** Trombospondin kemik matrikse salgılanır.\n- **C)** Osteonektin osteoblastik salgıdır.\n- **D)** Tip 1 kollajen kemik matriksin %90 organik kısmıdır.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 68,
+    "question": "Aşağıdaki vitamin eksikliklerinin hangisinde genellikle santral sinir sistemi bozuklukları izlenmez?",
+    "options": {
+      "A": "Tiamin (B1)",
+      "B": "C vitamini (Askorbik asit)",
+      "C": "B12 vitamini",
+      "D": "Niasin (B3)",
+      "E": "Piridoksin (B6)"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** C vitamini eksikliği (Skorbüt), kollajen lizin/prolin hidroksilasyon kusuru yaparak damar kırılganlığı ve kanamalara yol açar; SSS bulgusu oluşturmaz.\n**Çeldiriciler:**\n- **A)** Tiamin eksikliği Wernicke-Korsakoff sendromu ve ataksi yapar.\n- **C)** B12 eksikliği Subakut kombine dejenerasyon yapar.\n- **D)** Niasin eksikliği Pellagra (Demans) yapar.\n- **E)** Piridoksin eksikliği konvülsiyonlar yapar.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 70,
+    "question": "Altmış yaşında erkek hastada kafa kemiklerinde büyüme, dişlerin aralanması, serum ALP yüksekliği ve radyolojide 'pamuk atılmış' kemik görünümü ile karakterize tablo nedir?",
+    "options": {
+      "A": "Paget hastalığı",
+      "B": "Hiperparatiroidizm",
+      "C": "Osteomalazi",
+      "D": "Osteoporoz",
+      "E": "Osteopetrozis"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Paget hastalığı (Osteitis deformans), kemik rezorsiyonu ve yapımının kontrolsüz artışı, mozaik kemik histolojisi, serum ALP yüksekliği ve röntgende pamuk atılmış opasitelerle karakterizedir.\n**Çeldiriciler:**\n- **B)** Hiperparatiroidizm tuz-biber kafatası ve Brown tümör yapar.\n- **C)** Osteomalazi Looser hatları yapar.\n- **D)** Osteoporoz kemik kütlesi azalmasıdır.\n- **E)** Osteopetrozis mermer kemik görünümüdür.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 71,
+    "question": "On dokuz yaşındaki hastanın femur distalinde korteksi destrükte eden, periostu kaldırarak Codman üçgeni ve 'güneş ışınsal' (sunburst) radyopak alanlar oluşturan malign tümör nedir?",
+    "options": {
+      "A": "Dev hücreli kemik tümörü",
+      "B": "Ewing sarkomu",
+      "C": "Kondrosarkom",
+      "D": "Osteosarkom",
+      "E": "Metastatik karsinom"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Osteosarkom, malign mezenkimal hücrelerin doğrudan immature kemik (osteoid) üretmesiyle karakterize en sık primer malign kemik tümörüdür (Codman üçgeni, Sunburst).\n**Çeldiriciler:**\n- **A)** Dev hücreli tümör epifiz yerleşimli sabun köpüğü lezyonudur.\n- **B)** Ewing sarkomu soğan zarı periost reaksiyonu gösterir.\n- **C)** Kondrosarkom noktasal kalsifikasyonlar içerir.\n- **E)** Metastatik karsinom ileri yaşta görülür.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 72,
+    "question": "Tibia diyafizinde soğan zarı (onion-skin) periost reaksiyonu gösteren, t(11;22) translokasyonu ve CD99 (+) küçük yuvarlak mavi hücreli tümör nedir?",
+    "options": {
+      "A": "Ewing sarkomu",
+      "B": "Kondroblastom",
+      "C": "Lenfoma",
+      "D": "Osteosarkom",
+      "E": "Dev hücreli kemik tümörü"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Ewing sarkomu, t(11;22) EWSR1-FLI1 füzyonu gösteren, CD99 (+) küçük yuvarlak hücreli oldukça agresif nöroektodermal kemik tümörüdür.\n**Çeldiriciler:**\n- **B)** Kondroblastom epifiz kıkırdak tümörüdür.\n- **C)** Lenfoma CD45 (+)'tir.\n- **D)** Osteosarkom osteoid üretir.\n- **E)** Dev hücreli tümör RANKL salgılayan osteoklastik lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 73,
+    "question": "Kafa kemiklerinde 'zımba deliği' litik lezyonlar oluşturan, elektron mikroskopta Birbeck granülleri (tenis raketi) içeren immünohistokimyasal CD1a (+) hastalık nedir?",
+    "options": {
+      "A": "CD30",
+      "B": "LCA",
+      "C": "CD15",
+      "D": "Langerhans hücreli histiyositoz (CD1a)",
+      "E": "CD3"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Langerhans Hücreli Histiyositoz (LCH), elektron mikroskopta Birbeck granülleri ve surface CD1a / CD207 (Langerin) pozitifliği ile patognomoniktir.\n**Çeldiriciler:**\n- **A)** CD30 Hodgkin lenfoma göstergesidir.\n- **B)** LCA genel lökosit antijenidir.\n- **C)** CD15 Reed-Sternberg hücresinde aktiftir.\n- **E)** CD3 T-lenfosit belirtecidir.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 74,
+    "question": "Çene kemiklerinde rezorpsiyon, kahverengi kitleler (Brown tümör), kalsiyum yüksekliği ve lamina dura kaybı yapan hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hiperparatiroidizm",
+      "B": "Nörofibramatozis",
+      "C": "Langerhans hücreli histiyositoz",
+      "D": "Dev hücreli kemik tümörü",
+      "E": "Paget hastalığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Hiperparatiroidizm (Recklinghausen kemik hastalığı), aşırı PTH salgısına bağlı osteoklastik kemik yıkımı, lamina dura kaybı ve Brown tümör oluşumu ile seyreder.\n**Çeldiriciler:**\n- **B)** Nörofibramatozis neurofibromlar ve café-au-lait lekeleri yapar.\n- **C)** Langerhans histiyositoz Zımba deliği lezyonları yapar.\n- **D)** Dev hücreli kitle lokal neoplazmdır, PTH yüksekliği yapmaz.\n- **E)** Paget hastalığı ALP yüksekliği ve kemik genişlemesi yapar.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 75,
+    "question": "Femur korteksinde nükleusu (nidus) olan, gece ağrısı oluşturan ve aspirin/NSAİİ ile ağrısı hafifleyen benign osteoblastik lezyon hangisidir?",
+    "options": {
+      "A": "Osteoid osteom",
+      "B": "Osteoblastom",
+      "C": "Osteokondrom",
+      "D": "Enkondrom",
+      "E": "Osteosarkom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Osteoid osteom, yüksek prostaglandin E2 (PGE2) salgılayan nidus içeren, gece ağrısı tipik olan ve aspirin ile belirgin rahatlayan benign tümördür (< 2 cm).\n**Çeldiriciler:**\n- **B)** Osteoblastom 2 cm'den büyüktür ve aspirin ile ağrısı geçmez.\n- **C)** Osteokondrom kıkırdak şapkalı ekzostozdur.\n- **D)** Enkondrom medüller kıkırdak tümörüdür.\n- **E)** Osteosarkom malign kemik kanseridir.\n---",
+    "flag_reason": "nidus",
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 76,
+    "question": "Tüberküloz osteomiyeliti (Pott hastalığı) ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Piyojenik osteomiyelite göre daha kısa sürer.",
+      "B": "Kemik tüberkülozu açık kırıkla bulaşır.",
+      "C": "Vertebra, diz ve kalça kemik tutulumu en sıktır.",
+      "D": "Komşu eklem tutulumu çok nadirdir.",
+      "E": "Sekel bırakmadan iyileşir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Tüberküloz basili hematojen yolla sıklıkla vertebra korpuslarına (Pott hastalığı) ve kalça/diz eklemlerine yerleşir.\n**Çeldiriciler:**\n- **A)** Tüberküloz kronik seyirlidir, aylarca sürer.\n- **B)** Bulaş travma ile değil akciğer odaklı hematojen yayılımladır.\n- **D)** Komşu eklem aralığını yıkmayı çok sever.\n- **E)** Kifoz (Gibbus deformitesi) gibi kalıcı sekel bırakır.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 77,
+    "question": "Erişkin dönemde D vitamini eksikliği sonucu kemik matriksinin mineralize olamaması ile gelişen kemik yumuşaması tablosu hangisidir?",
+    "options": {
+      "A": "Raşitizm",
+      "B": "Renal osteodistrofi",
+      "C": "Osteomalazi",
+      "D": "Osteogenezis imperfekta",
+      "E": "Osteopetrozis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Erişkinlerde D vitamini eksikliği sonucu osteoid matriksin kalsifiye olamaması durumuna Osteomalazi denir (büyüme plağı kapalı olduğu için raşitizmden ayrılır).\n**Çeldiriciler:**\n- **A)** Raşitizm çocukluk çağında büyüme plakları açıkken görülen formdur.\n- **B)** Renal osteodistrofi kronik böbrek yetmezliğinde sekonder gelişir.\n- **D)** Osteogenezis imperfekta tip 1 kollajen sentez hatasıdır.\n- **E)** Osteopetrozis osteoklast disfonksiyonu sonucu aşırı sertleşmedir.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 79,
+    "question": "Mandibula posteriorunda ışınsal tarzda kalsifikasyonlar gösteren ve histolojisinde atipik mezenkimal hücrelerin neoplastik osteoid ürettiği lezyon hangisidir?",
+    "options": {
+      "A": "Osteoid osteom",
+      "B": "Osteoblastom",
+      "C": "Ewing sarkomu",
+      "D": "Osteosarkom",
+      "E": "Multipl miyelom"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Çenelerde görülen Osteosarkom, atipik osteoblastların doğrudan neoplastik immatür osteoid matriks üretmesi ile karakterize primer malign kemik tümörüdür.\n**Çeldiriciler:**\n- **A)** Osteoid osteom PGE2 üreten nidus lezyonudur.\n- **B)** Osteoblastom benign karakterli agresif görünümlü tümördür.\n- **C)** Ewing sarkomu matrix üretmeyen nöroektodermal neoplazmdır.\n- **E)** Multipl miyelom plazma hücre proliferasyonudur.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 80,
+    "question": "Biyokimyasal ve mekanik stresle eklem kıkırdağının yıkımı, osteofitler ve Heberden nodülleri oluşturan dejeneratif eklem hastalığı nedir?",
+    "options": {
+      "A": "Romatoid artrit",
+      "B": "Psöriatik artrit",
+      "C": "Kristal artropatisi",
+      "D": "Osteoartrit",
+      "E": "Reaktif artrit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Osteoartrit, eklem kıkırdağının aşınması, subkondral skleroz ve kıkırdak döküntülerine sekonder gelişen non-inflamatuvar dejeneratif eklem hastalığıdır.\n**Çeldiriciler:**\n- **A)** Romatoid artrit pannus oluşumu ve simetrik tutulum gösteren otoimmün hastalıktır.\n- **B)** Psöriatik artrit sedefe eşlik eder.\n- **C)** Kristal artropatisi Gut / Yalancı Gut tablosudur.\n- **E)** Reaktif artrit enfeksiyon sonrası gelişir.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 81,
+    "question": "Langerhans hücreli histiyositoz (LCH) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Birbeck granülleri elektron mikroskopta tenis raketine benzer.",
+      "B": "CD1a ve S100 immunoperoksidaz boyanması pozitiftir.",
+      "C": "Neoplastik hücreler melanositlerden köken alır.",
+      "D": "Kafa ve çene kemiklerinde 'zımba deliği' lezyonları yapar.",
+      "E": "BRAF V600E mutasyonu gösterir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Langerhans hücreleri melanosit kökenli değil, kemik iliği miyeloid öncül hücrelerinden köken alan antijen sunucu hücrelerdir.\n**Çeldiriciler:**\n- **A)** Birbeck granülleri LCH için patognomonik sitoplazmik organellerdir.\n- **B)** CD1a, CD207 ve S100 (+) boyanır.\n- **D)** Radyolojide keskin sınırlı litik Zımba deliği lezyonları oluşturur.\n- **E)** Vakaların %50'sinden fazlasında BRAF V600E mutasyonu mevcuttur.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 82,
+    "question": "Tekrarlayan kemik kırıkları, mavi sklera ve işitme kaybı olan çocukta en olası kalıtım paterni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mitozomopati",
+      "B": "X'e bağlı resesif",
+      "C": "X'e bağlı dominant",
+      "D": "Otozomal resesif",
+      "E": "Otozomal dominant"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Osteogenezis imperfekta Tip 1 (en sık görülen form), otozomal dominant kalıtılan COL1A1/COL1A2 gen defektidir.\n**Çeldiriciler:**\n- **A)** Mitozomopati mitokondriyal kalıtımdır.\n- **B)** X'e bağlı resesif hemofili gibi durumlardır.\n- **C)** X'e bağlı dominant Rett sendromudur.\n- **D)** Otozomal resesif OI Tip 2 ve Tip 3 ağır formlarıdır.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 83,
+    "question": "Çocuk hastada kafa kemiğinde zımba deliği litik lezyon oluşturan LCH'nin en hafif ve lokalize formu hangisidir?",
+    "options": {
+      "A": "Multipl miyelom",
+      "B": "Ewing sarkomu",
+      "C": "Eozinofilik granülom",
+      "D": "Metastatik nöroblastom",
+      "E": "Metastatik böbrek kanseri"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Eozinofilik granülom, LCH'nin kemiğe sınırlı soliter veya multifokal izlenen en hafif ve iyi huylu formudur.\n**Çeldiriciler:**\n- **A)** Multipl miyelom yaşlı hastaların plazma hücre neoplazmıdır.\n- **B)** Ewing sarkomu agresif kemik kanseridir.\n- **D)** Metastatik nöroblastom çocukta metastaz yapar fakat LCH değildir.\n- **E)** Böbrek kanseri erişkin tümörüdür.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 84,
+    "question": "FGFR3 geninde fonksiyon kazandıran (gain-of-function) mutasyon sonucu gelişen orantısız cücelik tablosu nedir?",
+    "options": {
+      "A": "Osteopetrozis",
+      "B": "Akondroplazi",
+      "C": "Osteogenezis imperfekta",
+      "D": "Osteitis deformans",
+      "E": "Fibröz displazi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Akondroplazi, FGFR3 geninin aşırı aktifleşmesi sonucu endokondral kemikleşmenin baskılanması ile oluşan en sık orantısız cücelik nedenidir.\n**Çeldiriciler:**\n- **A)** Osteopetrozis mermer kemik hastalığıdır.\n- **C)** Osteogenezis imperfekta Tip 1 kollajen hatasıdır.\n- **D)** Osteitis deformans Paget hastalığıdır.\n- **E)** Fibröz displazi GNAS gen mutasyonudur.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 85,
+    "question": "Uyluk kemiğinde medüller boşluğu dolduran, korteksi yıkan, periost reaksiyonu oluşturan ve neoplastik osteoid üreten tümörde ne görülür?",
+    "options": {
+      "A": "Kemik iliğini işgal eden atipik plazma hücreleri",
+      "B": "Osteoid matriks üreten anaplastik hücreler",
+      "C": "Matür kıkırdak dokusu",
+      "D": "Kortikal kemik yapımı",
+      "E": "Malign epitelyal hücreler"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Osteosarkom tanısının olmazsa olmaz kriteri, malign mezenkimal hücrelerin doğrudan osteoid (immatür kemik matriksi) üretmesidir.\n**Çeldiriciler:**\n- **A)** Plazma hücre infiltrasyonu Multipl Miyelomda görülür.\n- **C)** Kıkırdak dokusu Kondrosarkom özelliğidir.\n- **D)** Kortikal kemik yapımı benign reaktif süreçtir.\n- **E)** Malign epitelyal hücreler karsinom metastazıdır.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 86,
+    "question": "Stromal hücrelerinde yüksek düzeyde RANKL eksprese ederek çok sayıda osteoklastı bölgeye çeken ve 'sabun köpüğü' lezyonu oluşturan kemik tümörü hangisidir?",
+    "options": {
+      "A": "Fibröz displazi",
+      "B": "Osteoblastom",
+      "C": "Osteokondrom",
+      "D": "Dev hücreli kemik tümörü",
+      "E": "Osteosarkom"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Dev Hücreli Kemik Tümörü (Osteoklastom), mononükleer stromal hücrelerin aşırı RANKL salgılayarak osteoklastik dev hücreleri bölgeye çekmesiyle gelişir (Denosumab tedavide kullanılır).\n**Çeldiriciler:**\n- **A)** Fibröz displazi buzlu cam görüntüsü verir.\n- **B)** Osteoblastom nidus benzeri osteoid tümördür.\n- **C)** Osteokondrom kıkırdak şapkalı tümördür.\n- **E)** Osteosarkom osteoid üretir.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 88,
+    "question": "Kemiklerde litik 'zımba deliği' lezyonları, hiperkalsemi, böbrek yetmezliği ve serumda M-spike (monoklonal immünoglobulin) ile seyreden hastalık nedir?",
+    "options": {
+      "A": "Kanda yüksek ürik asit düzeyi",
+      "B": "Serumda yüksek PSA",
+      "C": "Protein elektroforezinde M-spike varlığı",
+      "D": "İdrarda hematüri",
+      "E": "Ultrasonografide böbrek kisti"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Multiple Miyelom, kemik iliğinde monoklonal plazma hücresi proliferasyonu, serum elektroforezinde M-protein yüksekliği (M-spike) ve litik kemik lezyonları ile karakterizedir.\n**Çeldiriciler:**\n- **A)** Ürik asit yüksekliği Gut hastalığıdır.\n- **B)** PSA yüksekliği Prostat kanseridir.\n- **D)** İdrar sedimenti spesifik değildir.\n- **E)** Böbrek kisti neoplazm göstergesi değildir.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 89,
+    "question": "Ewing sarkomu ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "En sık dördüncü dekattan sonra görülür.",
+      "B": "B-lenfosit kökenlidir.",
+      "C": "Etiyolojide kromozom translokasyonu (t(11;22)) etkilidir.",
+      "D": "Mezenkimal hücrelerin osteoid yapımıyla karakterizedir.",
+      "E": "Sistemik amiloidoz ile birlikteliği tipiktir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Ewing sarkomunun moleküler genetiğinde t(11;22)(q12;q12) translokasyonu sonucu oluşan EWSR1-FLI1 geni etiyolojiden sorumludur.\n**Çeldiriciler:**\n- **A)** Çocuk ve gençlerde (10-20 yaş) görülür.\n- **B)** Primitif nöroektodermal kökenlidir.\n- **D)** Osteoid yapımı göstermez, osteosarkom üretir.\n- **E)** Amiloidoz Multiple Miyelom ile ilişkilidir.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 91,
+    "question": "Brown tümörü görülen bir hiperparatiroidizm olgusunda aşağıdakilerden hangisinin görülme olasılığı en düşüktür?",
+    "options": {
+      "A": "Osteitis fibroza sistika",
+      "B": "Nefrokalsinozis",
+      "C": "Osteoporoz",
+      "D": "Metastatik kalsifikasyon",
+      "E": "Tetani"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Hiperparatiroidizmde PTH yüksekliği sonucu ciddi hiperkalsemi görülür. Tetani ise kanda kalsiyum düşüklüğünde (hipokalsemi) görülen nöromüsküler uyarılma tablosudur.\n**Çeldiriciler:**\n- **A)** Osteitis fibroza sistika kemiklerin kistik fibröz yıkımıdır.\n- **B)** Nefrokalsinozis hiperkalsemiye bağlı böbreklerde kalsiyum çökmesidir.\n- **C)** Osteoporoz PTH yüksekliğine bağlı jeneralize kemik kaybıdır.\n- **D)** Metastatik kalsifikasyon yüksek kalsiyumun yumuşak dokulara çökmesidir.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 92,
+    "question": "Oral mukozada en sık görülen, duktus travması sonucu müsinin doku içerisine sızmasıyla oluşan kistik lezyon (Mukosel) en sık nereye yerleşir?",
+    "options": {
+      "A": "Dil laterali",
+      "B": "Damak",
+      "C": "Alt dudak",
+      "D": "Yanak",
+      "E": "Ağız tabanı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Mukus ekstravazasyon fenomeni (Mukosel), travmaya bağlı minör tükürük bezi kanalının kopması sonucu gelişir ve %80'den fazla alt dudak lateralinde izlenir.\n**Çeldiriciler:**\n- **A)** Dil lateralinde mukosel nadirdir.\n- **B)** Damakta minör tükürük bezi tümörleri sık izlenir.\n- **D)** Yanak mukozasında görülme oranı düşüktür.\n- **E)** Ağız tabanında yerleşen mukosele Ranula adı verilir.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 93,
+    "question": "İki yaşındaki erkek çocukta hepatosplenomegali, yaygın lenfadenopati, deride ve kemikte litik lezyonlar ile CD1a (+) LCH saptanıyor. En ağır bu klinik form hangisidir?",
+    "options": {
+      "A": "Granülositik sarkom",
+      "B": "Diffüz büyük B hücreli lenfoma",
+      "C": "Miyelom",
+      "D": "Mastositoz",
+      "E": "Langerhans hücreli histiyositoz (Letterer-Siwe)"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Letterer-Siwe hastalığı, 2 yaşından küçük çocuklarda multisistem tutulum (deri, kemik, karaciğer, dalak, lenf nodu) gösteren LCH'nin en ağır ve Kötü prognozlu klinik formudur.\n**Çeldiriciler:**\n- **A)** Granülositik sarkom akut miyeloid lösemi kitle lezyonudur.\n- **B)** B hücreli lenfoma erişkin tümörüdür.\n- **C)** Miyelom plazma hücre neoplazmıdır.\n- **D)** Mastositoz mast hücresi birikimidir.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 94,
+    "question": "Aşağıdaki kemik tümörlerinin hangisinin tedavisinde RANKL inhibitörü monoklonal antikor (Denosumab) kullanılır?",
+    "options": {
+      "A": "Kondroblastom",
+      "B": "Kondrosarkom",
+      "C": "Dev hücreli kemik tümörü",
+      "D": "Osteosarkom",
+      "E": "Enkondrom"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dev Hücreli Kemik Tümörü (DHKT), neoplastik stromal hücrelerinden aşırı RANKL sentezlenmesi ile geliştiği için tedavisinde RANKL antagonisti olan Denosumab kullanılır.\n**Çeldiriciler:**\n- **A)** Kondroblastom kıkırdak tümörüdür.\n- **B)** Kondrosarkom malign kıkırdak tümörüdür.\n- **D)** Osteosarkom osteoid üreten kanserdir.\n- **E)** Enkondrom kıkırdak neoplazmıdır.\n---",
+    "flag_reason": null,
+    "unit": "8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  }
+]

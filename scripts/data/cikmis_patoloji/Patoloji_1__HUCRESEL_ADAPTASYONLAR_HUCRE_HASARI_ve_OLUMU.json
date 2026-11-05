@@ -1,0 +1,1856 @@
+[
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 106,
+    "question": "Barrett özofagusunda özofagusun çok katlı yassı epitelinin mukus salgılayan silindirik epitele dönüşmesi patolojik olarak hangi hücresel adaptasyon mekanizması ile açıklanır?",
+    "options": {
+      "A": "Atrofi",
+      "B": "Hipertrofi",
+      "C": "Hiperplazi",
+      "D": "Metaplazi",
+      "E": "Displazi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Metaplazi, diferansiye olmuş bir erişkin hücre tipinin (örneğin çok katlı yassı epitel), kronik uyarana veya iritasyona daha dayanıklı başka bir erişkin hücre tipine (örneğin mukus salgılayan goblet hücreli silindirik epitel) dönüşmesidir.\n**Çeldiriciler:**\n- A) Atrofi, hücre hacminin ve organ boyutunun küçülmesidir.\n- B) Hipertrofi, hücre sayısında artış olmaksızın hücre hacminin büyümesidir.\n- C) Hiperplazi, hücre sayısının artmasıyla organ boyutunun büyümesidir.\n- E) Displazi, neoplastik dönüşüm öncesi hücrelerde görülen atasal ve mimari olgunlaşma bozukluğudur (prekanseröz durumtur, adaptasyon sayılmaz).\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 107,
+    "question": "İskemik doku hasarında reoksijenasyon (reperfüzyon) sonrası doku yıkımının daha da şiddetlenmesine yol açan temel serbest radikal türevi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Süperoksit anyonu (O2•-)",
+      "B": "Reaktif Oksijen Türleri (ROS)",
+      "C": "Nitrik Oksit (NO)",
+      "D": "Hidrojen Peroksit (H2O2)",
+      "E": "Kalsiyum iyonları"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Reperfüzyon hasarında, iskemik dokuya aniden oksijen girmesiyle nötrofillerin ve parankim hücrelerinin faaliyeti sonucu aşırı miktarda Reaktif Oksijen Türleri (ROS) üretilir. ROS (süperoksit, hidroksil radikali, H2O2), membran lipid peroksidasyonuna, protein katlanma bozukluğuna ve DNA hasarına yol açarak hücresel nekrozu daha da şiddetlendirir.\n**Çeldiriciler:**\n- A) Süperoksit anyonu ROS türlerinden biridir ancak reperfüzyondaki hasarın genel adı ROS toplanmasıdır.\n- C) Nitrik oksit damar dilatasyonu sağlar, endotelden salınır ve tek başına primer toksik ROS kaynağı değildir.\n- D) H2O2 hücre içinde katalaz veya miyeloperoksidaz ile nötralize edilebilir, en reaktif radikal değildir.\n- E) Kalsiyum iyonları serbest radikal değil, hücre içi enzim aktive edici katyondur.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 108,
+    "question": "Metastaz sürecinde neoplastik hücrelerin primer tümör kütlesinden ayrılmasını sağlayan ve hücresel adhezyonun kaybolmasına neden olan temel moleküler değişiklik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "E-kaderin ekspresyonunun azalması",
+      "B": "MMP-9 aktivasyonunun engellenmesi",
+      "C": "Integrin sentezinin artması",
+      "D": "Laminin reseptörlerinin kaybı",
+      "E": "Kollajenaz inhibisyonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** E-kaderin, epitel hücrelerinin birbirine tutunmasını sağlayan ana adhezyon molekülüdür. Tümör hücrelerinin invazyon ve metastaz yapabilmesi için ilk adım E-kaderin ekspresyonunun inhibisyonu veya kaybıdır (Epitelyal-Mesenkimal Geçiş - EMT).\n**Çeldiriciler:**\n- B) Matriks metalloproteinazların (MMP-9, MMP-2) aktivasyonu artar, engellenmez; böylece bazal membran yıkılır.\n- C) Integrinlerin değişimi adhezyon değil matriks ile etkileşimi modüle eder.\n- D) Laminin reseptörlerinin artması tümör hücrelerinin bazal mebrana tutunmasını ve invazyonu kolaylaştırır.\n- E) Kollajenaz enzimleri tümör tarafından indüklenerek ekstraselüler matris yıkılır.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 109,
+    "question": "Genomik stabilitenin koruyucusu olarak bilinen, DNA hasarı varlığında cell cycle'ı G1/S kontrol noktasında durduran veya apoptozu indükleyen tümör baskılayıcı gen aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "RAS",
+      "B": "TP53",
+      "C": "MYC",
+      "D": "HER2/neu",
+      "E": "BCL2"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** TP53 geni (p53 proteini), 'genomun koruyucusu' olarak adlandırılır. DNA hasarı saptandığında p21 üzerinden hücre döngüsünü G1/S aşamasında durdurarak onarım için zaman kazandırır. Onarım başarısız olursa BAX/BAK üzerinden apoptozu indükler.\n**Çeldiriciler:**\n- A) RAS, sitoplazmik GTPaz aktivitesine sahip güçlü bir proto-onkogendir.\n- C) MYC, hücre çoğalması ve nükleer transkripsiyonu uyaran bir proto-onkogendir.\n- D) HER2/neu (ERBB2), reseptör tirozin kinaz yapısında proto-onkogendir (meme kanserinde artar).\n- E) BCL2, anti-apoptotik prototiptir, hücre ölümünü engeller.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 110,
+    "question": "Distrofik kalsifikasyon ile metastatik kalsifikasyon arasındaki temel farklar göz önüne alındığında, distrofik kalsifikasyona ait karakteristik özellik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Serum kalsiyum düzeyinin hiperkalsemik olması",
+      "B": "Sağlıklı ve canlı dokularda birikim yapması",
+      "C": "Serum kalsiyum düzeyinin normal olması ve nekrotik dokularda görülmesi",
+      "D": "Böbrek yetmezliğine ikincil gelişmesi",
+      "E": "Parathormon (PTH) yüksekliği ile seyretmesi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Distrofik kalsifikasyon; serum kalsiyum düzeyi tamamen NORMAL iken ölü, nekrotik veya dejenere dokularda (örnek: aterom plakları, kazeöz nekroz odakları, eski kalp kapakçıkları) kalsiyum tuzu çökmesidir. Metastatik kalsifikasyon ise HİPERKALSEMİ varlığında canlı ve sağlıklı dokularda gerçekleşir.\n**Çeldiriciler:**\n- A) Serum kalsiyum düzeyinin yüksek (hiperkalsemik) olması metastatik kalsifikasyonun özelliğidir.\n- B) Canlı ve sağlıklı dokularda çökme metastatik kalsifikasyona aittir.\n- D) Böbrek yetmezliğindeki sekonder hiperparatiroidizm metastatik kalsifikasyona yol açar.\n- E) Parathormon yüksekliği hiperkalsemi yaparak metastatik kalsifikasyon nedeni oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 1,
+    "question": "İmmotil silia sendromu aşağıdaki hücre organellerinden hangisinin bozukluğuna bağlıdır?",
+    "options": {
+      "A": "Hücre membranı",
+      "B": "Golgi kompleksi",
+      "C": "Mikrotübüller",
+      "D": "Lizozom",
+      "E": "Mitokondri"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** İmmotil silia sendromunda (Primer Siliyer Diskinezi), silyaların yapısında bulunan ve hareketi sağlayan dynein proteininin fonksiyon bozukluğu mevcuttur. Dynein, mikrotübül iskeletinin bir parçasıdır.\n**Çeldiriciler:**\n- A) Hücre membranı: Siliyer sarsılma ve hareket mekanizmasını doğrudan yürütmez.\n- B) Golgi kompleksi: Hücre içi salgı paketlemesinden sorumludur, siliyer motor proteinleri oluşturmaz.\n- D) Lizozom: Hücre içi sindirim organelidir; siliyer hareket bozukluğuyla doğrudan ilişkili değildir.\n- E) Mitokondri: Hücrenin enerji santralidir; siliyer yapının mikrotübül/dynein motor bileşenini meydana getirmez.\n---",
+    "flag_reason": "TUS 2010 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 3,
+    "question": "Aşağıdakilerden hangisi hücre adezyon protein gruplarından biri değildir?",
+    "options": {
+      "A": "İmmünoglobulin",
+      "B": "Kaderin",
+      "C": "İntegrin",
+      "D": "Fibrillin",
+      "E": "Selektin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Fibrillin bir hücre adezyon molekülü (CAM) değildir; ekstraselüler matrikste (ECM) yer alan mikrofibrillerin yapısını oluşturan yapısal bir glikoproteindir (mutasyonu Marfan Sendromuna yol açar).\n**Çeldiriciler:**\n- A) İmmünoglobulin süper ailesi: ICAM ve VCAM gibi temel hücre adezyon moleküllerini kapsar.\n- B) Kaderinler: Kalsiyuma bağımlı hücre-hücre adezyonunu (desmozom, zonula adherens) sağlayan temel sınıftır.\n- C) İntegrinler: Hücrenin bazal membran ve ekstraselüler matrikse tutunmasını sağlayan reseptör ailesidir.\n- E) Selektinler: Lökositlerin endotel duvarında yuvarlanmasını sağlayan adezyon proteinleridir.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 5,
+    "question": "Nükleozomun yapısında aşağıdaki histon proteinlerinden hangisi bulunmaz? (EUS 2021)",
+    "options": {
+      "A": "H1",
+      "B": "H2A",
+      "C": "H2B",
+      "D": "H3",
+      "E": "H4"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Nükleozom çekirdek (oktamer) yapısında H2A, H2B, H3 ve H4 histon proteinleri çifter halde bulunur. H1 histonu ise nükleozom çekirdeğinin içinde değil, dışarıda yer alıp nükleozomları birbirine bağlayan 'linker DNA' bölgesinde yer alır.\n**Çeldiriciler:**\n- B) H2A: Nükleozom oktamerik çekirdeğinde yer alan temel histon proteinidir.\n- C) H2B: Nükleozom oktamerik çekirdeğinde yer alan temel histon proteinidir.\n- D) H3: Nükleozom oktamerik çekirdeğinde yer alan temel histon proteinidir.\n- E) H4: Nükleozom oktamerik çekirdeğinde yer alan temel histon proteinidir.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 6,
+    "question": "Şaperon proteininin işlevi aşağıdakilerden hangisidir? (EUS 2022)",
+    "options": {
+      "A": "Proteinin doğru katlanmasına yardımcı olmak",
+      "B": "Proteinlerin peptid bağlarını parçalamak",
+      "C": "Protein sentezinin başlaması için gerekli olmak",
+      "D": "Proteinlerin yıkımı için işaretlemek",
+      "E": "Proteinler üzerine kimyasal modifikasyon yapmak"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Şaperonlar (ısı şok proteinleri vb.), yeni sentezlenen polipeptid zincirlerinin 3 boyutlu doğru konformasyonda katlanmasına yardımcı olur ve yanlış katlanıp çökmelerini engeller.\n**Çeldiriciler:**\n- B) Proteinlerin peptid bağlarını parçalamak: Proteolitik enzimlerin (proteazlar) işlevidir.\n- C) Protein sentezinin başlaması için gerekli olmak: Translasyon başlatma faktörlerinin (eIF) işlevidir.\n- D) Proteinlerin yıkımı için işaretlemek: Ubikitin proteininin görevidir (ubikitinasyon).\n- E) Proteinler üzerine kimyasal modifikasyon yapmak: Post-translasyonel modifikasyon enzimlerinin görevidir.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 7,
+    "question": "Aşağıdaki hücrelerden hangisinin proliferasyon potansiyeli daha fazladır?",
+    "options": {
+      "A": "Keratinosit",
+      "B": "Hepatosit",
+      "C": "Osteoblast",
+      "D": "Böbrek tüp epiteli",
+      "E": "Endotel"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Keratinositler labil (sürekli bölünen) hücre grubundadır; yaşam boyu kesintisiz bölünme ve kendini yenileme kapasitesine sahiptir.\n**Çeldiriciler:**\n- B) Hepatosit: Stabil (sakin) hücre grubundadır; normalde bölünmez, parankim kaybında G0 fazından siklusa girer.\n- C) Osteoblast: Stabil hücre grubundadır, sürekli rejeneratif bölünme yapmaz.\n- D) Böbrek tüp epiteli: Stabil hücre grubundadır, zedelenme halinde sınırlı rejenerasyon gösterir.\n- E) Endotel: Stabil hücre grubundadır, anjiyogenetik uyaran varlığında bölünür.\n---",
+    "flag_reason": "TUS 2023 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 9,
+    "question": "Endojen ve ekzojen uyarılara karşı hücrenin canlılığını koruyarak, olgun bir hücre tipinin bir başka olgun hücre tipine dönüşümü ile kendini gösteren adaptif patolojik değişim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hiperplazi",
+      "B": "Nekroz",
+      "C": "Atrofi",
+      "D": "Metaplazi",
+      "E": "Apoptoz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Metaplazi, stresi tolere edemeyen diferansiye olgun bir hücre tipinin yerini, aynı germ yaprağından köken alan ve strese daha dayanıklı başka bir olgun hücre tipine bırakmasıdır.\n**Çeldiriciler:**\n- A) Hiperplazi: Organ veya dokuda hücre sayısının artmasıdır.\n- B) Nekroz: Hücre zarının parçalanmasıyla giden patolojik hücre ölümüdür.\n- C) Atrofi: Hücre hacminin ve içeriklerinin azalmasıyla seyreden küçülmedir.\n- E) Apoptoz: Programlı, iltihapsız hücresel intihar mekanizmasıdır.\n---",
+    "flag_reason": "TUS 2010 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 10,
+    "question": "Aşağıdakilerin hangisinde metastatik kalsifikasyon gelişebilir?",
+    "options": {
+      "A": "Yağ nekrozu",
+      "B": "Nekrozlu tüberküloz granülomu",
+      "C": "Ateroskleroz",
+      "D": "Multipl miyelom",
+      "E": "Hasarlı kalp kapakçıkları"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Metastatik kalsifikasyon, kanda kalsiyum düzeyinin yüksek (hiperkalsemi) olduğu durumlarda sağlıklı dokularda kalsiyum çökmesidir. Multipl miyelomda kemik yıkımına bağlı hiperkalsemi geliştiğinden metastatik kalsifikasyon izlenir.\n**Çeldiriciler:**\n- A) Yağ nekrozu: Serum kalsiyumu normal iken ölü yağ dokusunda kalsiyum sabunlaşmasıyla gelişen distrofik kalsifikasyondur.\n- B) Nekrozlu tüberküloz granülomu: Kazeifikasyon nekrozu alanında gelişen distrofik kalsifikasyondur.\n- C) Ateroskleroz: Hasarlı damar duvarında gelişen distrofik kalsifikasyondur.\n- E) Hasarlı kalp kapakçıkları: Normal serum kalsiyumu varlığında kalsifiye olan distrofik süreçtir.\n---",
+    "flag_reason": "TUS 2010 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 11,
+    "question": "Altmış yaşında diyabeti ve deride yaygın pigmentasyonu olan bir erkek hastada hepatomegali nedeniyle yapılan karaciğer biyopsisinde siroz ve hepatosit sitoplazmalarında yoğun demir birikimi saptanmıştır. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Wilson hastalığı",
+      "B": "Hemakromatozis",
+      "C": "Alfa1-antitripsin eksikliği",
+      "D": "Steatohepatit",
+      "E": "Biliyer siroz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hemakromatozis, demir metabolizmasının bozulması sonucu dokularda (karaciğer, pankreas, deri vb.) aşırı hemosiderin birikimi ile karakterizedir. Klasik triad: Siroz, Diyabet ve Bronz deri hiperpigmentasyonudur.\n**Çeldiriciler:**\n- A) Wilson hastalığı: Bakır metabolizması bozukluğudur, dokularda bakır birikir.\n- C) Alfa1-antitripsin eksikliği: Karaciğerde PAS pozitif katlanmamış protein birikimidir.\n- D) Steatohepatit: Karaciğerde nötral yağ (trigliserit) birikimi ve inflamasyondur.\n- E) Biliyer siroz: Safra yolları tıkanıklığı ve safra stazı ile seyreder.\n---",
+    "flag_reason": "TUS 2010 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 12,
+    "question": "Hipoksiye bağlı hücre zedelenmesinde aşağıdakilerden hangisi gözlenmez?",
+    "options": {
+      "A": "Mitokondrilerde enerji üretiminin azalması",
+      "B": "Hücre membranında sodyum pompasının çalışmasının bozulması",
+      "C": "Hücre içi pH'nın yükselmesi",
+      "D": "Endoplazmik retikulumun dilatasyonu",
+      "E": "Miyelin cisimciklerinin oluşumu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Hipopside oksijen yokluğunda anaerobik glikoliz artar ve laktik asit birikir. Laktik asit birikimi hücre içi pH'nın DÜŞMESİNE (asidoz) neden olur, pH yükselmez.\n**Çeldiriciler:**\n- A) Mitokondrilerde enerji üretimi: Oksidatif fosforilasyon durduğundan ATP üretimi azalır.\n- B) Sodyum pompası: ATP azalmasıyla Na+/K+ ATPaz çalışamaz, hücre içi Na ve su birikir.\n- D) ER dilatasyonu: Hücre içi osmotik sıvı birikimi ile endoplazmik retikulum genişler.\n- E) Miyelin cisimcikleri: Zar membran lipidlerinin ayrışmasıyla biriken spiral yapılardır.\n---",
+    "flag_reason": "TUS 2010 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 13,
+    "question": "Sternum arkasında ağrı ve yanma yakınmaları olan 55 yaşındaki kadın hastada endoskopide Z çizgisinde düzensizlik saptanıyor. Biyopside yüzeyel erozif değişiklikler, displastik kolumnar epitel ve inkomplet intestinal metaplazi görülüyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Herpes özofajiti",
+      "B": "Barrett özofagusu",
+      "C": "Akalazya",
+      "D": "Chagas hastalığı",
+      "E": "Candida özofajiti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kronik gastroözofageal reflüde (GÖRH) özofagusun katlı yassı epitelinin asite dayanıklı kolumnar/intestinal metaplaziye (Goblet hücreli epitel) dönüşmesi Barrett Özofagusu olarak adlandırılır.\n**Çeldiriciler:**\n- A) Herpes özofajiti: HSV enfeksiyonuna bağlı zımba deliği ülserler ve inklüzyon cisimleridir.\n- C) Akalazya: Özofagus alt sfinkterinin gevşeyememesiyle giden motilite bozukluğudur.\n- D) Chagas hastalığı: Trypanosoma cruzi kökenli pleksus harabiyeti ve megamiyopattir.\n- E) Candida özofajiti: Beyaz psödomembran plakları oluşturan fungal enfeksiyondur.\n---",
+    "flag_reason": "TUS 2010 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 14,
+    "question": "Alkole ikincil karaciğer zedelenmesinde aşağıdaki bulgulardan hangisinin görülmesi karakteristik değildir?",
+    "options": {
+      "A": "PAS pozitif intrasitoplazmik granüller",
+      "B": "Mallory cisimcikleri",
+      "C": "Nötrofil infiltrasyonu",
+      "D": "Fibrozis",
+      "E": "Yağ infiltrasyonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Alkollü karaciğer hastalığında steatoz (yağlanma), Mallory cisimcikleri (sitokeratin birikimi), nötrofil infiltrasyonu ve fibrozis görülür. Diastaz dirençli PAS pozitif intrasitoplazmik granüller ise Alfa-1 Antitripsin Eksikliğinde görülür.\n**Çeldiriciler:**\n- B) Mallory cisimcikleri: Alkolik hepatitte hasarlı sitokeratin ara filamentlerin birikimidir.\n- C) Nötrofil infiltrasyonu: Alkolik hepatit aşamasında parankimde görülen iltihap hücreleridir.\n- D) Fibrozis: Santral ven çevresinde başlayan pericentral/perisinüzoidal fibrozistir.\n- E) Yağ infiltrasyonu: Alkolün ilk ve en sık morfolojik bulgusu olan makroveziküler steatozdur.\n---",
+    "flag_reason": "TUS 2010 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 15,
+    "question": "Aşağıdakilerden hangisi temel olarak apoptozis yoluyla gelişen bir patolojik durum değildir?",
+    "options": {
+      "A": "Viral enfeksiyonlarda hücre ölümü",
+      "B": "Embriyonun gelişimi sürecindeki organogenez",
+      "C": "Kastrasyon sonrası prostat atrofisi",
+      "D": "Menstrüel siklusta endometrial hücre yıkımı",
+      "E": "Koroner arter tıkanması sonucu miyokart hücresi ölümü"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Koroner arter tıkanması sonucu gelişen miyokart enfarktüsü akut iskemik nekrozdur (Koagülasyon nekrozu). Apoptoz değildir.\n**Çeldiriciler:**\n- A) Viral enfeksiyonlarda hücre ölümü: Sitotoksik T hücreleri aracılı patolojik apoptozdur.\n- B) Embriyolojik organogenez: Dokuların şekillenmesinde fizyolojik apoptozdur.\n- C) Kastrasyon sonrası prostat atrofisi: Hormon yokluğuna bağlı fizyolojik/patolojik apoptozdur.\n- D) Menstrüel siklus endometrial yıkımı: Hormon çekilmesine bağlı fizyolojik apoptozdur.\n---",
+    "flag_reason": "TUS 2011 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 16,
+    "question": "Çocukluk çağında boyun bölgesine radyasyon almış 16 yaşındaki bir çocukta sağ servikal bölge lenf nodunda yapılan ince iğne aspirasyon biyopsisinde şeffaf nükleuslu hücreler ve psammom cisimcikleri görülmüştür. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nazofarenks kanseri",
+      "B": "Papiller tiroid kanseri",
+      "C": "Hodgkin lenfoma",
+      "D": "Anaplastik büyük hücreli lenfoma",
+      "E": "Skuamöz hücreli karsinom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Radyasyon maruziyeti öyküsü, şeffaf buzlu cam nükleus (Orphan Annie) ve Psammom cisimcikleri (konsantrik distrofik kalsifikasyonlar) Papiller Tiroid Karsinomunun patognomonik özellikleridir.\n**Çeldiriciler:**\n- A) Nazofarenks kanseri: EBV ilişkili, lenfoid stroma içeren ve konsantrik kalsifikasyon yapmayan tümördür.\n- C) Hodgkin lenfoma: Reed-Sternberg hücreleri içeren lenfoid malignitedir.\n- D) Anaplastik büyük hücreli lenfoma: Pleomorfik CD30+ T hücreli lenfomadır.\n- E) Skuamöz hücreli karsinom: Keratin incileri ve interselüler köprüler gösteren malignitedir.\n---",
+    "flag_reason": "TUS 2011 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 17,
+    "question": "Hücre zedelenmesinde ilk görülen değişiklik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Apoptoz",
+      "B": "Hücre şişmesi",
+      "C": "Yağlanma",
+      "D": "Atrofi",
+      "E": "Nekroz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hipoksi ve enerji yetersizliğinde Na+/K+ ATPaz pompasının durması sonucu hücreye su ve sodyum girer. Geri dönüşümlü (reversible) hücre hasarının ilk morfolojik bulgusu Hücre Şişmesidir (Hidropik dejenerasyon).\n**Çeldiriciler:**\n- A) Apoptoz: İleri düzeyde hücre ölümü mekanizmasıdır, ilk erken değişiklik değildir.\n- C) Yağlanma: Rereversible zedelenmenin hidrofik şişmeden sonraki daha ileri aşamasıdır.\n- D) Atrofi: Uzun süreli stresse uyum sağlayan hücrelsen adaptasyondur.\n- E) Nekroz: Irreversible hücre ölümünün son noktasıdır.\n---",
+    "flag_reason": "TUS 2011 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 18,
+    "question": "Hücre içi protein yapımında artış, hücrelsen adaptasyon mekanizmalarından hangisinin gelişiminde ana etken olarak rol alır?",
+    "options": {
+      "A": "Metaplazi",
+      "B": "Displazi",
+      "C": "Hiperplazi",
+      "D": "Atrofi",
+      "E": "Hipertrofi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Hipertrofi, hücre bölünmesi gerçekleşmeksizin (hücre sayısı sabit kalarak) hücre içi yapısal protein ve organel sentezinin artması sonucu hücre hacminin büyümesidir.\n**Çeldiriciler:**\n- A) Metaplazi: Hücre tipinin başka bir olgun hücre tipine dönüşmesidir.\n- B) Displazi: Premalign atipik üreme ve organizasyon kaybıdır.\n- C) Hiperplazi: Bölünebilen dokularda hücre sayısının artmasıdır.\n- D) Atrofi: Hücre protein ve organellerinin azalmasıyla küçülmesidir.\n---",
+    "flag_reason": "TUS 2011 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 19,
+    "question": "Bakteriyal enfeksiyona bağlı apse odaklarında görülebilen nekroz tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kazeifikasyon nekrozu",
+      "B": "Likefaksiyon nekrozu",
+      "C": "Yağ nekrozu",
+      "D": "Koagülasyon nekrozu",
+      "E": "Fibrinoid nekroz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Bakteriyel ve fungal enfeksiyonlarda nötrofillerin salgıladığı güçlü hidrolitik enzimler dokuyu sindirerek eritir ve irin/apse odağı (Likefaksiyon / Sıvılaşma nekrozu) oluşturur.\n**Çeldiriciler:**\n- A) Kazeifikasyon nekrozu: Tüberküloz granülomlarında görülen peynirimsi nekrozdur.\n- C) Yağ nekrozu: Akut pankreatit veya travma sonucu yağ asitlerinin kalsiyumla birleşmesidir.\n- D) Koagülasyon nekrozu: Beyin hariç organların iskemik infarktlarında görülür.\n- E) Fibrinoid nekroz: Vaskülitlerde damar duvarında biriken nekroz tipidir.\n---",
+    "flag_reason": "DUS 2012 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 20,
+    "question": "Apoptotik hücrenin makrofajlarca ortadan kaldırılmasında, ölü hücrenin yüzeyinde oluşan aşağıdaki reseptörlerden hangisi kullanılır?",
+    "options": {
+      "A": "Fosfatidilserin",
+      "B": "Kompleman",
+      "C": "Toll benzeri",
+      "D": "Mannoz",
+      "E": "Fc"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Apoptotik süreçte zarın iç yaprağından dış yaprağına kayan Fosfatidilserin, fagositik makrofajlar tarafından spagetti sinyali gibi tanınarak fagositozu sağlar.\n**Çeldiriciler:**\n- B) Kompleman: Opsonize olmuş bakterilerin fagositozunda rol oynar.\n- C) Toll benzeri reseptörler: Patojen mikrobiyal yapıları tanıyan doğuştan immünite reseptörüdür.\n- D) Mannoz reseptörü: Bakteri duvarındaki şeker gruplarını tanır.\n- E) Fc reseptörü: Antikorla kaplı antijenlerin fagositozunu sağlar.\n---",
+    "flag_reason": "TUS 2012 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 21,
+    "question": "Yirmi beş yaşında erkek hasta hematüri şikâyetiyle başvuruyor. Yapılan böbrek biyopsisinde vasküler yapılarda nekrotizan inflamasyon saptanıyor. İleri tetkikler ile hasta poliarteritis nodosa tanısı alıyor. Bu hastada vasküler yapılarda saptanan nekroz tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Koagülasyon nekrozu",
+      "B": "Gangrenöz nekroz",
+      "C": "Fibrinoid nekroz",
+      "D": "Kazeifikasyon nekrozu",
+      "E": "Likefaksiyon nekrozu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Poliarteritis nodosa gibi vaskülitlerde ve immün kompleks reaksiyonlarında damar duvarına fibrin ve antikor çökmesiyle pembe eozinofilik Fibrinoid nekroz oluşur.\n**Çeldiriciler:**\n- A) Koagülasyon nekrozu: Doku iskemisi sonucu gelişir.\n- B) Gangrenöz nekroz: Ekstremitelerde koagülasyon ve sıvılaşma kombinasyonudur.\n- D) Kazeifikasyon nekrozu: Tüberküloz enfeksiyonlarına özgüdür.\n- E) Likefaksiyon nekrozu: Apse odakları ve beyin infarktında izlenir.\n---",
+    "flag_reason": "TUS 2012 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 22,
+    "question": "Hücre yaralanmasında, hücre içi enzimleri aktive ederek geri dönüşsüz yaralanmanın oluşmasında aşağıdakilerden hangisi etkilidir?",
+    "options": {
+      "A": "Sodyum",
+      "B": "Kalsiyum",
+      "C": "Magnezyum",
+      "D": "Potasyum",
+      "E": "Klor"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sitozole aşırı Kalsiyum girişi (Ca2+); Fosfolipaz, Proteaz, Endonükleaz ve ATPaz enzimlerini aktive ederek hücre zarı, iskeleti, DNA'sı ve enerjisini imha edip irreversible hasara yol açar.\n**Çeldiriciler:**\n- A) Sodyum: Hücre içi su çekip şişmeye yol açar, yıkıcı enzimleri doğrudan masif aktive etmez.\n- C) Magnezyum: Birçok enzimin kofaktörüdür, hücre içi yıkımı tetikleyici ana sitozolik katyon değildir.\n- D) Potasyum: Temel hücre içi katyonudur, hücre hasarında dışarı kaçar.\n- E) Klor: Pasif iyon hareketlerine katılır, yıkıcı enzimleri tetiklemez.\n---",
+    "flag_reason": "TUS 2012 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 23,
+    "question": "İskemik hücre hasarında pH düşmesi sonucu aşağıdakilerden hangisi gelişir?",
+    "options": {
+      "A": "Mikrovillus kaybı",
+      "B": "Nükleer kromatinde kümeleşme",
+      "C": "Lipid birikimi",
+      "D": "Endoplazmik retikulumda şişme",
+      "E": "Protein sentezinde azalma"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** İskemide oksijensizlik anaerobik glikoliz ve laktik asit birikimine neden olur. pH'nın düşmesi (asidoz) nükleer kromatinin kondanse olmasına (kümeleşmesine) yol açar.\n**Çeldiriciler:**\n- A) Mikrovillus kaybı: Na+/K+ pompasının durması ve hücre şişmesi sonucudur.\n- C) Lipid birikimi: Yağ açığa çıkması ve apoprotein sentez bozukluğu sonucudur.\n- D) ER şişmesi: İyon ve su birikimi sonucudur.\n- E) Protein sentezinde azalma: Ribozomların pürüzsüz ER'den ayrılması sonucudur.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 24,
+    "question": "Apoptozun ekstrensek yolunda, sinyal iletiminde görev alan başlatıcı kaspaz aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kaspaz 2",
+      "B": "Kaspaz 3",
+      "C": "Kaspaz 6",
+      "D": "Kaspaz 8",
+      "E": "Kaspaz 9"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Ekstrensek (ölüm reseptörlü) apoptoz yolunda FasL/TNF reseptör bağlanması FADD adaptörü üzerinden Kaspaz 8 (ve Kaspaz 10)'i aktive eder.\n**Çeldiriciler:**\n- A) Kaspaz 2: Sitotoksik streste uyarılan ikincil kaspazdır.\n- B) Kaspaz 3: Ortak uygulayıcı (cellat) kaspazdır.\n- C) Kaspaz 6: Uygulayıcı (cellat) kaspazdır.\n- E) Kaspaz 9: İntrensek (mitokondriyal) yolun başlatıcı kaspazıdır.\n---",
+    "flag_reason": "TUS 2012 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 25,
+    "question": "Aşağıdakilerden hangisi, hücresel apoptozun morfolojik özelliklerinden biridir?",
+    "options": {
+      "A": "Hücrenin enzimatik sindirim ile dağılması",
+      "B": "Plazma membranında bozulma",
+      "C": "Hücre boyutunun artması",
+      "D": "Çevrede iltihabi yanıt",
+      "E": "Hücresel fragmantasyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Apoptozda hücre büzülür, kromatini yoğunlaşır ve zarı parçalanmadan apoptotik cisimciklere bölünür (hücresel fragmantasyon).\n**Çeldiriciler:**\n- A) Enzimatik sindirimle dağılma: Nekrozun (özellikle likefaksiyon) özelliğidir.\n- B) Plazma membran bozulması: Nekrozun erken ve temel özelliğidir.\n- C) Hücre boyutunun artması: Nekroz öncesi hücresel şişmedir.\n- D) Çevrede iltihabi yanıt: Nekroza özgüdür; apoptozda iltihabi yanıt oluşmaz.\n---",
+    "flag_reason": "TUS 2013 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 26,
+    "question": "Karaciğerde görülen kahverengi pigmentin, demir olduğuna karar vermek için pozitif reaksiyon vermesi gereken boya aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kongo kırmızısı",
+      "B": "Fontana",
+      "C": "Prusya mavisi",
+      "D": "Papanicolaou",
+      "E": "Masson trikrom"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Karaciğerdeki kahverengi pigmentler (Hemosiderin, Lipofuksin, Melanin) arasından demiri (Hemosiderin) spesifik mavi renge boyayarak doğrulayan yöntem Prusya Mavisi (Perls) boyasıdır.\n**Çeldiriciler:**\n- A) Kongo kırmızısı: Amiloid birikimini boyar.\n- B) Fontana-Masson: Melanin pigmentini boyar.\n- D) Papanicolaou: Sitolojik yaymaları değerlendirmede kullanılır.\n- E) Masson trikrom: Bağ dokusu kollajen liflerini mavi/yeşil boyar.\n---",
+    "flag_reason": "TUS 2013 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 27,
+    "question": "Koroner arterlerden birinin tıkanmasına bağlı miyokart enfarktüsü sonucu öldüğü düşünülen bir kişinin otopsisinde, enfarkt alanından alınan örnekte aşağıdaki nekroz tiplerinden hangisi görülebilir?",
+    "options": {
+      "A": "Koagülasyon nekrozu",
+      "B": "Likefaksiyon nekrozu",
+      "C": "Gangrenöz nekroz",
+      "D": "Kazeöz nekroz",
+      "E": "Fibrinoid nekroz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kalp kası iskemisi (miyokart enfarktüsü) protein denatürasyonunun hakim olduğu Koagülasyon nekrozuna yol açar (beyin hariç tüm solid organ iskemileri koagülasyondur).\n**Çeldiriciler:**\n- B) Likefaksiyon nekrozu: Iskemik beyin dokusunda veya apselerde izlenir.\n- C) Gangrenöz nekroz: Ekstremite tıkanıklıklarında gelişir.\n- D) Kazeöz nekroz: Tüberküloz enfeksiyonunda izlenir.\n- E) Fibrinoid nekroz: Vaskülit damar duvarlarında izlenir.\n---",
+    "flag_reason": "TUS 2013 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 28,
+    "question": "Safra kanallarında taş iritasyonu sonucu kolumnar epitelin yerine çok katlı yassı epitelin geçmesi, aşağıdaki hücresel adaptasyon mekanizmalarından hangisine örnektir?",
+    "options": {
+      "A": "Hiperplazi",
+      "B": "Hipertrofi",
+      "C": "Metaplazi",
+      "D": "Atrofi",
+      "E": "Displazi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kronik mekanik taş irritasyonuna bağlı kolumnar epitelin daha dayanıklı çok katlı yassı epitele dönüşmesi Epitelyal Metaplazi örneğidir.\n**Çeldiriciler:**\n- A) Hiperplazi: Hücre sayısının artmasıdır.\n- B) Hipertrofi: Hücre hacminin artmasıdır.\n- D) Atrofi: Hücre hacim ve sayısının küçülmesidir.\n- E) Displazi: Premalign atipik hücre çoğalmasıdır.\n---",
+    "flag_reason": "TUS 2013 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 29,
+    "question": "Aşağıdakilerden hangisinde gereksinim halinde adaptif yanıt olarak hipertrofi görülür?",
+    "options": {
+      "A": "Kalp",
+      "B": "Beyin",
+      "C": "Endometrium",
+      "D": "Sürrenal",
+      "E": "Tiroid"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kalp kası (ve çizgili kaslar) kalıcı (permanent) hücre yapısında olduğundan bölünemez; yük artışına sadece hücre içi protein ve hacmini artırarak Hipertrofi ile yanıt verir.\n**Çeldiriciler:**\n- B) Beyin: Nöronlar bölünmez ancak fonksiyonel hipertrofi/hiperplazi yanıtı vermez.\n- C) Endometrium: Hormon uyarısıyla bölünüp hiperplazi yapar.\n- D) Sürrenal: ACTH uyarısıyla bölünüp hiperplazi yapar.\n- E) Tiroid: TSH uyarısıyla bölünüp hiperplazi yapar.\n---",
+    "flag_reason": "TUS 2013 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 30,
+    "question": "Aşağıdakilerden hangisi hücre zedelenmesinde sitozolik kalsiyum artışında rol oynamaz?",
+    "options": {
+      "A": "Membran hasarının oluşması",
+      "B": "ATP kaybının hızlanması",
+      "C": "Yapısal proteinlerin parçalanması",
+      "D": "Mitokondriyal geçirgenliğin azalması",
+      "E": "Genetik materyalin parçalanması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sitozolik Ca2+ yüksekliği mitokondriyal geçirgenlik geçiş gözeneğini (MPT) açarak mitokondri membran geçirgenliğini ARTIRIR (azaltmaz).\n**Çeldiriciler:**\n- A) Membran hasarı: Kalsiyumun Fosfolipazı aktive etmesi sonucu gelişir.\n- B) ATP kaybı: Kalsiyumun ATPaz enzimini aktive etmesi sonucu gelişir.\n- C) Yapısal protein parçalanması: Kalsiyumun Proteazları aktive etmesi sonucu gelişir.\n- E) Genetik materyal parçalanması: Kalsiyumun Endonükleazları aktive etmesi sonucu gelişir.\n---",
+    "flag_reason": "TUS 2013 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 31,
+    "question": "Hücre zedelenmesinde izlenen morfolojik veya ultrastruktürel değişikliklerin hangisi geri dönüşsüzdür?",
+    "options": {
+      "A": "Ribozomlardan ayrılma",
+      "B": "Yağlı değişiklik",
+      "C": "Plazma membranında balonlaşma",
+      "D": "Karyoreksis",
+      "E": "Endoplazmik retikulumda genişleme"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Karyoreksis (çekirdeğin fragmante olması), piknozis ve karyolizis irreversible (geri dönüşsüz) hücre ölümünün (nekroz) nükleer göstergesidir.\n**Çeldiriciler:**\n- A) Ribozom ayrılması: Reversible (geri dönüşlü) zedelenme bulgusudur.\n- B) Yağlı değişiklik: Reversible zedelenme bulgusudur.\n- C) Plazma membranında balonlaşma (blebbing): Reversible zedelenme bulgusudur.\n- E) ER genişlemesi: Reversible hücresel şişme bulgusudur.\n---",
+    "flag_reason": "DUS 2014 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 32,
+    "question": "Sistemik hipertansiyonu olan bir hastada kalp kasında gözlenen değişiklik aşağıdakilerden hangisi ile ifade edilir?",
+    "options": {
+      "A": "Patolojik atrofi",
+      "B": "Patolojik hipertrofi",
+      "C": "Patolojik hiperplazi",
+      "D": "Fizyolojik hiperplazi",
+      "E": "Fizyolojik atrofi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hipertansiyonda artan basınca karşı sol ventrikül miyositlerinin bölünmeden hacimce büyümesi Patolojik Hipertrofi örneğidir.\n**Çeldiriciler:**\n- A) Patolojik atrofi: Hücre hacim kaybıdır.\n- C) Patolojik hiperplazi: Bölünebilen dokularda hücre sayı artışıdır.\n- D) Fizyolojik hiperplazi: Gebelik uterusu veya laktasyon memesindeki sayı artışıdır.\n- E) Fizyolojik atrofi: Nöron veya notokordun yaşlanmayla küçülmesidir.\n---",
+    "flag_reason": "TUS 2014 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 33,
+    "question": "Talasemi nedeni ile tekrarlayan kan transfüzyonu yapılan hastanın karaciğer enzimlerinde yükseklik olmuştur. Yapılan karaciğer biyopsisinde hepatositlerde altın sarısı-kahverengi pigment birikimi görülmüştür. Görüler bu pigment aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lipofuksin",
+      "B": "Glikojen",
+      "C": "Hemosiderin",
+      "D": "Lipit",
+      "E": "Karbon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Aşırı kan transfüzyonu sonucu vücutta biriken demir, hepatositlerde altın sarısı-kahverengi Hemosiderin pigmenti şeklinde depolanır.\n**Çeldiriciler:**\n- A) Lipofuksin: Yaşlılık ve serbest radikal peroksidasyon pigmentidir.\n- B) Glikojen: Berrak PAS pozitif depodur, kahverengi değildir.\n- D) Lipit: Şeffaf vakuoller şeklinde yağlanmadır.\n- E) Karbon: Akciğer ve lenf nodunda siyah antrakotik pigmenttir.\n---",
+    "flag_reason": "TUS 2014 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 34,
+    "question": "Hipoksik hücre hasarında aşağıdakilerden hangisi sürecin geri dönüşümsüz olduğunu gösterir?",
+    "options": {
+      "A": "Mikrovillus kaybı",
+      "B": "Hücre şişmesi",
+      "C": "Endoplazmik retikulum şişmesi",
+      "D": "Hücre içi lipit birikimi",
+      "E": "Stoplazmik membranının ağır hasarlanması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Plazma membran bütünlüğünün ağır hasarlanması ve kaybolması, hücre içi enzimlerin dışarı sızmasına ve geri dönüşümsüz hücre ölümüne yol açar.\n**Çeldiriciler:**\n- A) Mikrovillus kaybı: Reversible hücre zedelenmesi bulgusudur.\n- B) Hücre şişmesi: Reversible hücre zedelenmesinin ilk bulgusudur.\n- C) ER şişmesi: Reversible hücre zedelenmesi bulgusudur.\n- D) Lipit birikimi: Reversible yağlı dejenerasyon bulgusudur.\n---",
+    "flag_reason": "TUS 2014 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 35,
+    "question": "Kırk iki yaşında bayan hasta erizipel tanısı ile izlenmekte subkutan dokuda fluktasyon veren şişlik gelişiyor. Morfolojik olarak apse ile uyumlu olan dokuda gözlenen nekroz aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Yağ nekrozu",
+      "B": "Kazeifikasyon nekrozu",
+      "C": "Likefaksiyon nekrozu",
+      "D": "Koagülasyon nekrozu",
+      "E": "Gangrenoz nekroz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Bakteriyel enfeksiyonlarda gelişen apse ve flüktüasyon veren irin birikimi nötrofillerin dokuyu eritmesiyle oluşan Likefaksiyon (sıvılaşma) nekrozudur.\n**Çeldiriciler:**\n- A) Yağ nekrozu: Pankreatit veya meme travmasında görülür.\n- B) Kazeifikasyon nekrozu: Tüberküloz granülomunda görülür.\n- D) Koagülasyon nekrozu: Organ iskemisinde görülür.\n- E) Gangrenoz nekroz: Ekstremite iskemisinde görülür.\n---",
+    "flag_reason": "TUS 2014 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 36,
+    "question": "Aşağıdakilerden hangisinde distrofik kalsifikasyon görülür?",
+    "options": {
+      "A": "Sarkoidoz",
+      "B": "Tiroid papiller kanseri",
+      "C": "Renal osteodistrofi",
+      "D": "Multipl miyelom",
+      "E": "D vitamini intoksikasyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Tiroid papiller kanserindeki Psammom cisimcikleri tümör nekroz/papilla odaklarında gelişen distrofik kalsifikasyondur (serum Ca normaldir).\n**Çeldiriciler:**\n- A) Sarkoidoz: 1-alfa hidroksilaz üretimi ve hiperkalsemi ile metastatik kalsifikasyon yapar.\n- C) Renal osteodistrofi: Sekonder hiperparatiroidizm ve hiperkalsemi ile metastatik kalsifikasyon yapar.\n- D) Multipl miyelom: Kemik yıkımı ve hiperkalsemi ile metastatik kalsifikasyon yapar.\n- E) D vit intoksikasyonu: Aşırı kalsiyum emilimi ve hiperkalsemi ile metastatik kalsifikasyon yapar.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 37,
+    "question": "Geri dönüşümlü hücre zedelenmesinde hücrede ilk görülen değişiklik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Plazma membranında parçalanma",
+      "B": "Hücresel şişme",
+      "C": "Piknozis",
+      "D": "Karyolizis",
+      "E": "Karyoreksis"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** ATP azalmasına bağlı Na+/K+ pompasının çalışmaması sonucu hücre içine su dolması (Hücresel şişme / hidropik dejenerasyon) ilk erken reversible değişikliktir.\n**Çeldiriciler:**\n- A) Plazma membran parçalanması: Geri dönüşsüz hücre ölümünde izlenir.\n- C) Piknozis: Irreversible nükleer büzülmedir.\n- D) Karyolizis: Irreversible nükleer erimedir.\n- E) Karyoreksis: Irreversible nükleer parçalanmadır.\n---",
+    "flag_reason": "DUS 2015",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 38,
+    "question": "Gebelik süresince uterusun belirgin bir şekilde büyümesi esas olarak aşağıdaki hücresel adaptasyonlardan hangisinin sonucunda oluşur?",
+    "options": {
+      "A": "Hiperplazi",
+      "B": "Hipertrofi",
+      "C": "Atrofi",
+      "D": "Metaplazi",
+      "E": "Apoptozis"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Gebelikte uterus büyümesinde hem hiperplazi hem hipertrofi olsa da, duvardaki düz kas hücrelerinin hacimce büyümesini sağlayan esas mekanizma Hipertrofidir.\n**Çeldiriciler:**\n- A) Hiperplazi: Gebelikte ikincil olarak eşlik eder ancak esas büyüme faktörü hipertrofidir.\n- C) Atrofi: Gebelik sonrası uyarının çekilmesiyle gelişen küçülmedir.\n- D) Metaplazi: Epitel hücre tipinin değişmesidir.\n- E) Apoptozis: Doğum sonrası düz kas hücrelerinin elenmesinde rol oynar.\n---",
+    "flag_reason": "TUS 2015 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 39,
+    "question": "Aşağıdakilerden hangisinde lipofuskin granüllerinin görülmesi karakteristiktir?",
+    "options": {
+      "A": "Atrofi",
+      "B": "Hipertrofi",
+      "C": "Hiperplazi",
+      "D": "Metaplazi",
+      "E": "Displazi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Atrofiye uğrayan organlarda (kahverengi atrofi) lipid peroksidasyonu ve otofaji kalıntısı olan perinükleer kahverengi Lipofuskin pigmenti birikir.\n**Çeldiriciler:**\n- B) Hipertrofi: Hücre için protein birikimidir, yıpranma pigmenti birikmez.\n- C) Hiperplazi: Sayıca artıştır, lipofuskin ile karakterize değildir.\n- D) Metaplazi: Hücre dönüşümüdür.\n- E) Displazi: Premalign pleomorfik hücre çoğalmasıdır.\n---",
+    "flag_reason": "TUS 2015 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 40,
+    "question": "Aşağıdakilerden hangisi hücresel yaşlanma nedenlerinden biri değildir?",
+    "options": {
+      "A": "Serbest radikaller",
+      "B": "DNA tamir mekanizması bozuklukları",
+      "C": "Telomer kısalması",
+      "D": "Kalori kısıtlılığı",
+      "E": "Protein homeostaz bozukluğu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Kalori kısıtlılığı SIRT1 (Sirtuin) genlerini uyararak hücresel yaşlanmayı GECİKTİRİR; yaşlanmaya neden olmaz.\n**Çeldiriciler:**\n- A) Serbest radikaller: Oksidatif stres yaratarak yaşlanmayı hızlandırır.\n- B) DNA tamir bozuklukları: Mutasyon birikimine ve erken yaşlanmaya yol açar.\n- C) Telomer kısalması: Çoğalma kapasitesini sınırlayarak replikatif senesense yol açar.\n- E) Protein homeostaz bozukluğu: Hatalı katlanmış proteinlerin birikmesine yol açar.\n---",
+    "flag_reason": "DUS 2016",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 41,
+    "question": "Elli beş yaşındaki bir erkeğin otopsisinde karaciğer büyük, homojen, soluk sarı renkli ve yumuşak kıvamlı izleniyor. Bu karaciğerden alınan örneğin mikroskobik incelemesinde görülmesi beklenen en olası bulgu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hepatosit sitoplazmalarında lipid vakuolleri",
+      "B": "İnterstisyumda amiloid birikimi",
+      "C": "Kupffer hücrelerinde hemosiderin birikimi",
+      "D": "Hepatositlerde lipofuskin birikimi",
+      "E": "Hepatositlerde glikojen birikimi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Makroskobik olarak sarı, büyük, yumuşak karaciğer görünümü Steatoz (yağlanma) için tipiktir. Mikroskopide hepatosit sitoplazmasında makroveziküler lipid vakuolleri görülür.\n**Çeldiriciler:**\n- B) İnterstisyumda amiloid birikimi: Karaciğere sert, balmumu benzeri görünüm verir.\n- C) Kupffer hücrelerinde hemosiderin birikimi: Kahverengi kırma pigment birikimidir, soluk sarı renk yapmaz.\n- D) Lipofuskin birikimi: Kahverengi atrofi yapar, organı küçültür.\n- E) Glikojen birikimi: Berrak görünüm verir, homojen soluk sarı yağlı karaciğer tablosu yapmaz.\n---",
+    "flag_reason": "TUS 2016 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 42,
+    "question": "Aşağıdakilerden hangisi apoptoziste görülmeyen morfolojik özelliklerden biridir?",
+    "options": {
+      "A": "Nükleus periferinde kromatin birikimi",
+      "B": "Sitoplazmik balonlaşma",
+      "C": "Apoptotik cisimlerin oluşumu",
+      "D": "Apoptotik cisimlerin fagositozu",
+      "E": "İnflamatuvar yanıt oluşumu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Apoptozda hücre zarı bütünlüğü korunduğu için hücre içeriği dışarı sızmaz ve çevre dokuda İnflamatuvar yanıt oluşmaz.\n**Çeldiriciler:**\n- A) Nükleus periferinde kromatin birikimi: Apoptozdaki kromatin kondensasyonunun bulgusudur.\n- B) Sitoplazmik balonlaşma (blebbing): Apoptotik cisimciklerin oluşum öncesi tomurcuklanmasıdır.\n- C) Apoptotik cisimlerin oluşumu: Apoptozun temel morfolojik sonucudur.\n- D) Apoptotik cisimlerin fagositozu: Çevre hücre ve makrofajlarca sessizce temizlenmesidir.\n---",
+    "flag_reason": "TUS 2016 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 43,
+    "question": "Wilson hastalığında dokuda biriken maddeyi belirlemede aşağıdaki histokimyasal boyalardan hangisi kullanılır?",
+    "options": {
+      "A": "Kristal viyole",
+      "B": "Prusya mavisi",
+      "C": "Rodanin",
+      "D": "Alsiyen mavisi",
+      "E": "Metilen mavisi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Wilson hastalığı bakır atılım bozukluğudur; karaciğer biyopsisinde biriken bakırı göstermede Rodanin ve Orsein boyaları kullanılır.\n**Çeldiriciler:**\n- A) Kristal viyole: Amiloid boyamasında metakromazi için kullanılır.\n- B) Prusya mavisi: Demir (hemosiderin) birikimini boyar.\n- D) Alsiyen mavisi: Asidik müsinleri maviye boyar.\n- E) Metilen mavisi: Genel sitolojik ve bakteriyolojik zemin boyasıdır.\n---",
+    "flag_reason": "TUS 2016 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 44,
+    "question": "I. BCL2 II. BAX III. BCL-XL IV. BAK V. MCL1 Yukarıdaki moleküllerden hangilerinin proapoptotik etkisi vardır?",
+    "options": {
+      "A": "I ve IV",
+      "B": "I ve V",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** BAX ve BAK, mitokondri dış zarında delik açarak sitokrom-c salınımını sağlayan ve apoptozu tetikleyen temel PROAPOPTOTİK moleküllerdir.\n**Çeldiriciler:**\n- A) I ve IV: BCL2 anti-apoptotiktir.\n- B) I ve V: BCL2 ve MCL1 anti-apoptotiktir.\n- C) II ve III: BCL-XL anti-apoptotiktir.\n- E) III ve V: BCL-XL ve MCL1 anti-apoptotiktir.\n---",
+    "flag_reason": "TUS 2017 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 45,
+    "question": "Kaşıntılı nodüler lezyonları olan bir hastadan alınan deri biyopsisinde, dermiste yoğun mast hücre infiltrasyonu saptanıyor. Bu hastada aşağıdaki histokimyasal boyalardan hangisi tanının teyidi için kullanılır?",
+    "options": {
+      "A": "Masson trikrom",
+      "B": "Metilen mavisi",
+      "C": "Toluidin mavisi",
+      "D": "Alsiyen mavisi",
+      "E": "Periyodik asit-Schiff"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Mast hücre granüllerindeki heparin metakromatik özellik gösterdiği için Toluidin Mavisi ile mavi-mor/menekşe renkte spesifik olarak boyanır.\n**Çeldiriciler:**\n- A) Masson trikrom: Kollajen lifleri boyar.\n- B) Metilen mavisi: Metakromazi teyidi için Toluidin mavisi kadar spesifik değildir.\n- D) Alsiyen mavisi: Müsinleri boyar.\n- E) PAS: Karbonhidrat ve glikojen bağlarını boyar.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 46,
+    "question": "Seksen yaşındaki erkek hastanın karaciğer iğne biyopsisinin histopatolojik incelemesinde; hepatositlerin sitoplazmasında, serbest radikal kökenli lipid-protein kompleksinden oluşan kahverengi pigmentli materyal birikimi izleniyor. Bu hastada hepatositlerde saptanması en olası materyal aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Melanin",
+      "B": "Hemosiderin",
+      "C": "Lipofuskin",
+      "D": "Antrakotik pigment",
+      "E": "Safra"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Yaşlılık pigmenti olan Lipofuskin, serbest radikal hasarı ve lipid peroksidasyonu sonucu lizozomlarda biriken eozinofilik-kahverengi komplekslerdir.\n**Çeldiriciler:**\n- A) Melanin: Melanositlerce üretilen kahverengi pigmenttir, karaciğerde yaşlanmayla birikmez.\n- B) Hemosiderin: Demir birikim pigmentidir, Prusya mavisi ile pozitifleşir.\n- D) Antrakotik pigment: Dış hava kirliliği/sigara kaynaklı akciğer ve lenf nodu birikimidir.\n- E) Safra: Kanaliküllerde ve hepatositlerde yeşil-kahverengi pigment birikimidir.\n---",
+    "flag_reason": "TUS 2017 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 47,
+    "question": "Poliarteritis nodosada damar duvarlarında aşağıdaki nekroz tiplerinden hangisi görülür?",
+    "options": {
+      "A": "Fibrinoid",
+      "B": "Likefaksiyon",
+      "C": "Kazeifikasyon",
+      "D": "Koagülasyon",
+      "E": "Gangrenöz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Poliarteritis nodosa (PAN) küçük ve orta boy arterleri tutan nekrotizan bir vaskülittir; damar duvarında pembe eozinofilik Fibrinoid nekroz ile karakterizedir.\n**Çeldiriciler:**\n- B) Likefaksiyon: Apselerde görülür.\n- C) Kazeifikasyon: Tüberkülozda görülür.\n- D) Koagülasyon: Organ iskemilerinde görülür.\n- E) Gangrenöz: Ekstremite tıkanmalarında görülür.\n---",
+    "flag_reason": "TUS 2017 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 49,
+    "question": "İnterdental diş eti bölgesinde apse ve püy akışı olan bir hastadan alınan biyopsi materyalinin histopatolojik incelemesinde nekroz saptanıyor. Bu hastadaki nekrozun apse oluşumu ve püy akışı şeklinde izlenmesinin temel nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bölgedeki yağ dokusunun sindirim enzimlerine maruz kalması",
+      "B": "Granülomatöz inflamasyon gelişmesi",
+      "C": "Proteolizin gecikmesi",
+      "D": "Antijen-antikor komplekslerinin birikmesi",
+      "E": "Lökositlerin ölü hücreleri çok hızlı yıkması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Apse ve püy akışının (likefaksiyon nekrozu) temel nedeni ortama gelen nötrofil ve lökositlerin salgıladığı güçlü hidrolitik enzimlerle ölü hücreleri çok hızlı eritip sıvılaştırmasıdır.\n**Çeldiriciler:**\n- A) Yağ dokusu sindirimi: Pankreatit kökenli yağ nekrozunun mekanizmasıdır.\n- B) Granülomatöz inflamasyon: TBC veya yabancı cisim reaksiyonu gibi kronik süreçlerdir.\n- C) Proteolizin gecikmesi: Koagülasyon nekrozunun tanımıdır.\n- D) Antijen-antikor birikimi: Fibrinoid nekrozun mekanizmasıdır.\n---",
+    "flag_reason": "DUS 2018",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 50,
+    "question": "Aşağıdakilerin hangisinde hücre içinde kolesterol ve kolesterol esterlerinin birikmesi en az olasıdır?",
+    "options": {
+      "A": "Ksantom",
+      "B": "Kolesterolozis",
+      "C": "Steatozis",
+      "D": "Niemann-Pick hastalığı tip C",
+      "E": "Aterosklerozis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Steatozis (karaciğer yağlanması vb.) hücre içinde nötral yağ olan Trigliserit birikimidir; kolesterol birikimi değildir.\n**Çeldiriciler:**\n- A) Ksantom: Deri ve tendonlarda kolesterol dolu köpüksü makrofaj birikimidir.\n- B) Kolesterolozis: Safra kesesi mukoza makrofajlarında kolesterol birikimidir.\n- D) Niemann-Pick tip C: Lizozomal kolesterol taşınma bozukluğudur.\n- E) Aterosklerozis: Damar intima tabakasındaki düz kas ve makrofajlarda kolesterol birikimidir.\n---",
+    "flag_reason": "TUS 2018 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 52,
+    "question": "Doku kesitlerinde fungusları göstermek için aşağıdakilerden hangisinin kullanılması diğerlerine göre daha uygundur?",
+    "options": {
+      "A": "Gram boyası",
+      "B": "Giemsa boyası",
+      "C": "Periyodik asit-Schiff",
+      "D": "Asit-fast boyası",
+      "E": "Toluidin mavisi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Mantar duvarları yüksek oranda polisakkarit (kitin, glukan) içerdiğinden Periyodik Asit-Schiff (PAS) boyası ile pembe-kırmızı renkte spesifik olarak gösterilir.\n**Çeldiriciler:**\n- A) Gram boyası: Bakterilerin hücre duvar yapısını ayırt eder.\n- B) Giemsa boyası: Kan hücreleri ve Leishmania/Plasmodium gösterir.\n- D) Asit-fast (EZN): Tüberküloz ve nokardia gibi aside dirençli basilleri boyar.\n- E) Toluidin mavisi: Mast hücre granüllerini boyar.\n---",
+    "flag_reason": "TUS 2018 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 53,
+    "question": "Kronik sigara içicisi olan 50 yaşındaki erkek hasta, balgam çıkarma şikayetiyle başvuruyor. Hastanın balgam sitolojisinde, atipik olmayan keratinize yassı epitel hücreleri görülüyor. Bu hastadaki sitolojik bulgu aşağıdakilerden hangisiyle en iyi açıklanır?",
+    "options": {
+      "A": "Metaplazi",
+      "B": "Atrofi",
+      "C": "Displazi",
+      "D": "Hipertrofi",
+      "E": "Hiperplazi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Bronşlardaki silyalı yalancı çok katlı kolumnar epitelin sigara dumanı irritasyonuna dayanmak için yassı (skuamöz) epitele dönüşmesi Skuamöz Metaplazi örneğidir.\n**Çeldiriciler:**\n- B) Atrofi: Hücre küçülmesidir.\n- C) Displazi: Premalign pleomorfik atipik üremedir (soruda atipik olmayan denmiştir).\n- D) Hipertrofi: Hücre hacim artışıdır.\n- E) Hiperplazi: Hücre sayı artışıdır.\n---",
+    "flag_reason": "TUS 2019 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 54,
+    "question": "Aşağıdakilerden hangisi atrofi patogenezinde rol oynayan temel yolaktır?",
+    "options": {
+      "A": "Mitokondriyal ölüm reseptörü yolağı",
+      "B": "Ubikitin-proteozom yolağı",
+      "C": "Siklooksijenaz yolağı",
+      "D": "Lektin yolağı",
+      "E": "Lipoksijenaz yolağı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Atrofide protein sentezi azalırken, hücresel proteinlerin yıkımında temel olarak Ubikitin-Proteozom yolağı ve otolojik sindirim (otofaji) görev alır.\n**Çeldiriciler:**\n- A) Mitokondriyal ölüm yolağı: İntrensek apoptozun yoludur.\n- C) Siklooksijenaz yolağı: Araşidonik asitten prostaglandin sentez yoludur.\n- D) Lektin yolağı: Kompleman aktivasyon yoludur.\n- E) Lipoksijenaz yolağı: Lökotrien sentez yoludur.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 55,
+    "question": "Hücresel adaptasyon mekanizmalarıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Gebelikte uterus kaslarında görülen büyüme, baskın olarak hiperplazi sonucu oluşur.",
+      "B": "Tükürük bezi boşaltım kanallarında uzun süreli taş varlığı, kanal döşeyici epitelinde metaplaziye neden olur.",
+      "C": "Hipertansiyona bağlı olarak kalp kasında izlenen büyüme hiperplazi sonucu oluşur.",
+      "D": "Parsiyel hepatektomi olgularında, kalan karaciğerde baskın olarak hipertrofi görülür.",
+      "E": "Menopoz sonrası östrojen stimülasyonunun azalmasına bağlı olarak vajinal epitelde metaplazi izlenir."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Tükürük bezi veya safra kanallarında taş varlığı mekanik irritasyon yaratarak kanal kolumnar epitelinin yassı epitele dönüşmesine (Metaplazi) neden olur.\n**Çeldiriciler:**\n- A) Gebelik uterusu: Esas olarak hipertrofi baskındır.\n- C) Hipertansiyonda kalp: Bölünemeyen kalp kasında hipertrofi gelişir.\n- D) Parsiyel hepatektomi: Kalan karaciğerde hiperplazi baskındır.\n- E) Menopozda vajinal epitel: Östrojen çekilmesiyle atrofi izlenir.\n---",
+    "flag_reason": "TUS 2019 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 56,
+    "question": "Zedelenmiş bir hücrede BAX gen ifadesinin artması durumunda aşağıdakilerden hangisinin gerçekleşmesi beklenir?",
+    "options": {
+      "A": "Hücre içi ATP üretiminin artması",
+      "B": "Hücre içi pH değerinin artması",
+      "C": "Mitokondri membran geçirgenliğinin artması",
+      "D": "Kaspazların inaktivasyonu",
+      "E": "Hücre içi Ca2+ konsantrasyonunun azalması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Proapoptotik BAX ve BAK proteinleri mitokondri dış zarına yerleşerek MPT delikleri açar ve mitokondri membran geçirgenliğini artırarak Sitokrom-c sızmasını sağlar.\n**Çeldiriciler:**\n- A) ATP üretimi artmaz, tam tersine mitokondri hasarıyla durur.\n- B) pH yükselmez, apoptoz/hasar sürecinde düşer.\n- D) Kaspazlar inaktive olmaz, Sitokrom-c çıkışıyla aktive olur.\n- E) Sitozolik kalsiyum azalmaz, artar.\n---",
+    "flag_reason": "TUS 2020 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 57,
+    "question": "Stabil olmayan angina tanılı 56 yaşındaki erkek hasta akut miyokardiyal enfarktüs tablosuyla acil servise getiriliyor. Hastaya doku plazminojen aktivatörü ile trombolitik tedavi uygulanıyor. Kısa bir süre sonra serum kreatin kinaz (CK) düzeyinin yükseldiği görülüyor. Serum CK artışının en olası nedeni miyokardiyal hücrelerde olabilecek aşağıdaki değişimlerden hangisidir?",
+    "options": {
+      "A": "Anormal protein birikmesi",
+      "B": "Serbest radikallerin artması",
+      "C": "[ATP] / [ADP] oranının artması",
+      "D": "Steatozis",
+      "E": "Ca2+ düzeyinin düşmesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Trombolitik tedavi ile tıkalı damar açıldığında dokuya hızla bol O2 girmesi Reperfüzyon Hasarına neden olur. Bu süreçte masif serbest radikal (ROS) patlaması hücre zarlarını yıkar ve CK dışarı sızar.\n**Çeldiriciler:**\n- A) Anormal protein birikmesi: Akut reperfüzyonda birincil doku yıkan etken değildir.\n- C) [ATP]/[ADP] oranı: İskemide ve reperfüzyon hasarında ATP çöker, oran artmaz.\n- D) Steatozis: Kronik süreçtir, akut CK fırlamasının nedeni değildir.\n- E) Ca2+ düzeyi: Reperfüzyonda sitozolik kalsiyum fırlar, düşmez.\n---",
+    "flag_reason": "TUS 2020 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 58,
+    "question": "Altmış beş yaşındaki multipl miyelom hastasında; kemik iliği biyopsisinin mikroskobik incelemesinde plazma hücrelerinde homojen eozinofilik, PAS pozitif birikimler tespit ediliyor. Bu birikimler hücrenin hangi organelinde yoğun olarak bulunur?",
+    "options": {
+      "A": "Mitokondri",
+      "B": "Sitoplazmik serbest ribozom",
+      "C": "Nükleus",
+      "D": "Fagozom",
+      "E": "Granüllü endoplazmik retikulum"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Multipl miyelom plazma hücrelerinde sentezlenen ancak dışarı salınamayan immünoglobulinlerin Granüllü Endoplazmik Retikulum (GER) içinde birikmesiyle Russell Cisimcikleri oluşur.\n**Çeldiriciler:**\n- A) Mitokondri: İmmünoglobulin depolama yeri değildir.\n- B) Serbest ribozomlar: Hücrenin kendi içinde kullanılacağı proteinleri üretir, salgı proteini üretmez.\n- C) Nükleus: Nükleusta birikirse Dutcher cisimciği adını alır; GER'de eozinofilik küreler Russell cisimciğidir.\n- D) Fagozom: Sindirim kofuludur.\n---",
+    "flag_reason": "TUS 2020 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 59,
+    "question": "Aşağıdaki hücresel adaptasyon tiplerinden hangisinin oluşum mekanizmasında otofaji temel bir etkendir?",
+    "options": {
+      "A": "Metaplazi",
+      "B": "Fizyolojik hiperplazi",
+      "C": "Patolojik hiperplazi",
+      "D": "Atrofi",
+      "E": "Hipertrofi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Atrofi sürecinde besinsiz ve uyarısız kalan hücre, hayatta kalabilmek için kendi organellerini otolitik olarak lizozomlarda sindirir (Otofaji).\n**Çeldiriciler:**\n- A) Metaplazi: Gen ekspresyon reprogramlamasıdır.\n- B) Fizyolojik hiperplazi: Büyüme faktörü uyarısıyla hücre bölünmesidir.\n- C) Patolojik hiperplazi: Aşırı hormon/uyaranla bölünmedir.\n- E) Hipertrofi: Protein ve organel sentezinin artmasıdır.\n---",
+    "flag_reason": "DUS 2021",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 60,
+    "question": "İskelet ve kalp kası harabiyeti için tanısal önemi olan enzim aşağıdakilerden hangisidir? (EUS 2021)",
+    "options": {
+      "A": "Tripsinojen",
+      "B": "Glutamat dehidrogenaz",
+      "C": "Kreatin kinaz",
+      "D": "Asit fosfataz",
+      "E": "Amilaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kreatin Kinaz (CK-MM iskelet kasında, CK-MB kalp kasında) kas dokusu hasarında kana sızan temel tanısal enzimdir.\n**Çeldiriciler:**\n- A) Tripsinojen: Pankreas ekzokrin enzim zimojenidir.\n- B) Glutamat dehidrogenaz: Karaciğer mitokondriyal enzimdir.\n- D) Asit fosfataz: Prostat ve lizozom enzimdir.\n- E) Amilaz: Pankreas ve tükürük bezi enzimdir.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 61,
+    "question": "Aşağıdaki birikimlerden hangisi, hücre fonksiyonlarına belirgin zarar vermemekle birlikte serbest radikal hasarını göstermektedir?",
+    "options": {
+      "A": "Alfa 1-antitripsin",
+      "B": "Amiloid",
+      "C": "Lipofuskin",
+      "D": "Hemosiderin",
+      "E": "Kolesterol"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Lipofuskin (yaşlılık pigmenti), serbest radikal lipid peroksidasyonu sonucu oluşan, hücre fonksiyonlarına doğrudan zarar vermeyen zarsız aşınma pigmentidir.\n**Çeldiriciler:**\n- A) Alfa 1-antitripsin: Karaciğerde birikirse siroza yol açabilir.\n- B) Amiloid: Dokularda birikerek organ yetmezliğine ve bası atrofisine yol açar.\n- D) Hemosiderin: Aşırı birikimi (hemonkromatosis) doku hasarı ve siroz yapar.\n- E) Kolesterol: Ateroskleroz ve hücre içi birikimle fonksiyon bozar.\n---",
+    "flag_reason": "TUS 2021 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 62,
+    "question": "Timusta 'self' reaktif lenfositlerin negatif seleksiyon ile ölmesi aşağıdakilerden hangisi aracılığıyla olur?",
+    "options": {
+      "A": "Nekroz",
+      "B": "Makrofaj fagositozu",
+      "C": "Nekroptoz",
+      "D": "Apoptoz",
+      "E": "Piroptoz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Timus eğitiminde kendi doku antijenlerine aşırı bağlanan otoreaktif T lenfositlerin elenmesi (negatif seleksiyon) Fizyolojik Apoptoz aracılığıyla gerçekleşir.\n**Çeldiriciler:**\n- A) Nekroz: Doku patolojisindeki iltihaplı ölümdür.\n- B) Makrofaj fagositozu: Ölen hücrenin temizlenme aşamasıdır, ölüm mekanizması değildir.\n- C) Nekroptoz: RIP1/RIP3 uyarılı programlı nekrozdur.\n- E) Piroptoz: İnflamazom ve Kaspaz-1 uyarılı ateşli hücre ölümüdür.\n---",
+    "flag_reason": "TUS 2021 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 63,
+    "question": "Aşağıdakilerden hangisi intrensek ve ekstrensek apoptoz yolakları için ortak olan faktördür?",
+    "options": {
+      "A": "BCL-2",
+      "B": "Caspase 3",
+      "C": "FAS",
+      "D": "BAX",
+      "E": "TNF-R1"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kaspaz 3 (ve Kaspaz 6, 7), hem intrensek hem ekstrensek yolakların birleştiği temel uygulayıcı (cellat) kaspazdır.\n**Çeldiriciler:**\n- A) BCL-2: Yalnızca intrensek yolu düzenleyen anti-apoptotik proteinidir.\n- C) FAS: Yalnızca ekstrensek yolu başlatan ölüm reseptörüdür.\n- D) BAX: Yalnızca intrensek yolda mitokondri zarını delan proapoptotik proteinidir.\n- E) TNF-R1: Yalnızca ekstrensek yolu başlatan ölüm reseptörüdür.\n---",
+    "flag_reason": "TUS 2021 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 64,
+    "question": "Seksen yaşındaki erkek hastada son 10 yıldır giderek kötüleşen hafıza kaybı mevcuttur... Otopsi sonucu beyinde nöritik plak ve nörofibriler yumaklar izleniyor. Bu hastalığın patogenezinden hangisinin birikimi sorumludur?",
+    "options": {
+      "A": "Patolojik prion protein birikimi",
+      "B": "IDH1 ve IDH2 mutasyonları",
+      "C": "Dopamin eksikliği",
+      "D": "Orta serebral arterde tromboemboli",
+      "E": "Beta-amiloid protein birikimi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Alzheimer hastalığı nörodejeneratif bir amiloidozis olup, ekstraselüler alanda Beta-Amiloid (A-beta) plakları ve intraselüler alanda hiperfosforile Tau protein yumakları birikir.\n**Çeldiriciler:**\n- A) Prion proteini: Creutzfeldt-Jakob hastalığında birikir.\n- B) IDH mutasyonları: Gliomlarda izlenir.\n- C) Dopamin eksikliği: Parkinson hastalığının temelidir.\n- D) Tromboemboli: Vasküler demans nedenidir.\n---",
+    "flag_reason": "TUS 2022 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 65,
+    "question": "Hemolitik anemisi olan bir hastanın dalağında tespit edilen sarı-kahverengi birikimler aşağıdaki histokimyasal boyalardan hangisiyle spesifik olarak gösterilebilir?",
+    "options": {
+      "A": "Kongo kırmızısı",
+      "B": "Prusya mavisi",
+      "C": "Oil red O",
+      "D": "Masson trikrom",
+      "E": "Periyodik asit-Schiff"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hemolitik anemide eritrosit yıkımı sonucu dalağın makrofajlarında biriken demir (Hemosiderin), Prusya Mavisi (Perls) boyası ile koyu mavi renkte gösterilir.\n**Çeldiriciler:**\n- A) Kongo kırmızısı: Amiloid boyasıdır.\n- C) Oil Red O: Yağ/lipid birikimi boyasıdır.\n- D) Masson trikrom: Bağ dokusu kollajen boyasıdır.\n- E) PAS: Glikojen ve mantar duvar boyasıdır.\n---",
+    "flag_reason": "TUS 2022 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 66,
+    "question": "Dağcılığa meraklı 30 yaşındaki erkek sporcu... 3000 metre yükseklikte kalırken kemik iliğinde hangisinin gerçekleşmesi en olasıdır?",
+    "options": {
+      "A": "Hipertrofi",
+      "B": "Atrofi",
+      "C": "Metaplazi",
+      "D": "Hiperplazi",
+      "E": "Displazi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Yüksek irtifadaki hipoksi, böbreklerden Eritropoetin (EPO) salınımını uyarır; EPO kemik iliğindeki eritroid öncül hücrelerde bölünmeyi uyararak Kompenzatuar Hiperplazi yapar.\n**Çeldiriciler:**\n- A) Hipertrofi: Bölünemeyen kas dokularının büyümesidir.\n- B) Atrofi: Dokunun küçülmesidir.\n- C) Metaplazi: Epitel hücre dönüşümüdür.\n- E) Displazi: Premalign düzensiz üremedir.\n---",
+    "flag_reason": "TUS 2022 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 67,
+    "question": "Patolojik kalsifikasyonlar ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Biriken materyalde kalsiyum tuzları yanında demir, magnezyum ve diğer mineral tuzları da saptanabilir.",
+      "B": "Distrofik kalsifikasyon nekroz alanlarında ortaya çıkabilir.",
+      "C": "Distrofik kalsifikasyon kemik dokusu rezorpsiyonu ile seyreden hastalıklarda ortaya çıkabilir.",
+      "D": "Psammom cisimcikleri, distrofik kalsifikasyona örnektir.",
+      "E": "Metastatik kalsifikasyon hiperparatiroidizm ile ilişkili olarak ortaya çıkabilir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kemik doku rezorpsiyonu kanda kalsiyum düzeyini yükseltir (hiperkalsemi); hiperkalsemi varlığında gelişen kalsifikasyon ise Distrofik değil Metastatik kalsifikasyondur.\n**Çeldiriciler:**\n- A) Mineral tuzları: Kalsifikasyon odağında kalsiyum fosfat yanında magnezyum ve demir de bulunur.\n- B) Distrofik kalsifikasyon: Ölü ve nekrotik dokularda serum Ca normal iken gelişir.\n- D) Psammom cisimcikleri: Papiller kanserlerde nekroz alanında distrofik kalsifikasyondur.\n- E) Metastatik kalsifikasyon: Hiperparatiroidizm gibi hiperkalsemik durumlarda gelişir.\n---",
+    "flag_reason": "TUS 2022 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 69,
+    "question": "Metaplazi ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Diferansiye bir hücre tipinden diğer bir hücre tipine olan geri dönüşümsüz değişimdir.",
+      "B": "Metaplaziye yol açan etki, süreğen olması durumunda metaplastik epitelde malign transformasyona da neden olabilir.",
+      "C": "Özofageal skuamöz epitel yerine çıkan intestinal tip kolumnar hücre metaplazisi zemininde en sık skuamöz hücreli karsinom gelişimi görülür.",
+      "D": "Mezenkimal dokular yönündeki metaplastik değişiklikten kanser gelişme riski oldukça yüksektir.",
+      "E": "Metaplazi en sık olarak skuamöz hücreden kolumnar hücreye doğru görülür."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Metaplaziye sebep olan kronik irritan uyaran ortadan kaldırılmazsa süreç zamanla displaziye ve ardından kansere (malign transformasyon) ilerleyebilir.\n**Çeldiriciler:**\n- A) Metaplazi geri dönüşümlüdür (reversible).\n- C) Barrett özofagusunda (kolumnar metaplazi) en sık Adenokarsinom gelişir.\n- D) Epitelyal metaplazilerde kanser riski mezenkimal metaplazilere göre belirgin yüksektir.\n- E) Metaplazi en sık kolumnar epitelden skuamöz mepitele doğru görülür (Skuamöz metaplazi).\n---",
+    "flag_reason": "TUS 2023 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 70,
+    "question": "Aşağıdakilerden hangisi hücresel hipertrofi için örnek oluşturan klinik bir durumdur?",
+    "options": {
+      "A": "Aort kapak hastalığına bağlı ortaya çıkan kardiyomiyopati",
+      "B": "Karaciğer segmentektomi sonrası rezidüel karaciğer dokusunun büyümesi",
+      "C": "Uygunsuz östrojen salınımına bağlı ortaya çıkan endometrial kalınlık artışı",
+      "D": "Menapoz döneminde meme asinuslarında görülen değişiklikler",
+      "E": "Radius kırığı nedeniyle yapılan alçı sonrası ön kol çizgili kaslarında ortaya çıkan küçülme"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Aort kapak darlığında sol ventrikül kas liflerinin bölünmeden hacimce büyümesi Patolojik Hipertrofi örneğidir.\n**Çeldiriciler:**\n- B) Karaciğer rezeksiyonu sonrası büyüme: Hepatositlerin bölünmesiyle oluşan Kompenzatuar Hiperplazidir.\n- C) Östrojenle endometrial kalınlaşma: Hormonal Hiperplazidir.\n- D) Menopozda meme asinusları: Östrojen çekilmesiyle gelişen Atrofidir.\n- E) Alçıda kas küçülmesi: Hareketsizliğe bağlı Disuse Atrofisidir.\n---",
+    "flag_reason": "TUS 2023 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 71,
+    "question": "Aşağıdaki patolojilerin hangisinde metastatik kalsifikasyon görülür?",
+    "options": {
+      "A": "Yağ nekrozu alanı",
+      "B": "Geçirilmiş tüberküloz odağı",
+      "C": "Tiroid papiller karsinomu",
+      "D": "Sarkoidoz",
+      "E": "Aterosklerozda damar duvarı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sarkoidoz granülomlarındaki makrofajlar 1-alfa hidroksilaz üreterek aktif Vitamin D sentezini artırır; bu da kanda kalsiyum fırlatarak (hiperkalsemi) Metastatik Kalsifikasyona yol açar.\n**Çeldiriciler:**\n- A) Yağ nekrozu: Normal kalsiyum varlığında distrofik kalsifikasyondur.\n- B) Tüberküloz odağı: Kazeifikasyon nekrozunda distrofik kalsifikasyondur.\n- C) Tiroid papiller kanseri: Psammom cisimcikleri distrofik kalsifikasyondur.\n- E) Ateroskleroz: Damar plağında distrofik kalsifikasyondur.\n---",
+    "flag_reason": "TUS 2023 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 72,
+    "question": "Kronik alkol tüketimi olan bir hastanın karaciğer biyopsi örneği patolog tarafından inceleniyor ve makroveziküler yağlanma bulgusu saptanıyor. Bu morfolojik değişikliğin ve zedelenmenin patogenezinde aşağıdakilerden hangisinin rolü yoktur?",
+    "options": {
+      "A": "Trigliserid sentezinin artması",
+      "B": "NADH düzeyinin artması",
+      "C": "Lipoprotein oluşumu ve salınımının azalması",
+      "D": "Dolaşımdaki serbest yağ asitlerinin artması",
+      "E": "Glutatyon düzeyinin artması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Alkol metabolizması sırasında açığa çıkan serbest radikaller hücrenin en büyük antioksidan kalkanı olan Glutatyonu tüketir ve DÜŞÜRÜR (artırmaz).\n**Çeldiriciler:**\n- A) Trigliserid sentezi: NADH artışı beta-oksidasyonu bozarak trigliserid sentezini artırır.\n- B) NADH düzeyi: Alkol dehidrogenaz enzimi NAD tüketip NADH düzeyini artırır.\n- C) Lipoprotein salınımı: Alkol apoprotein sentezini bozarak VLDL salınımını azaltır.\n- D) Serbest yağ asitleri: Periferden karaciğere serbest yağ asidi akışı artar.\n---",
+    "flag_reason": "TUS 2023 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 73,
+    "question": "A vitamini eksikliğinde epitelyal dokularda ilk olarak gelişecek en olası değişiklik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Atrofi",
+      "B": "Skuamöz metaplazi",
+      "C": "Hipertrofi",
+      "D": "Goblet hücre metaplazisi",
+      "E": "Ülserasyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** A vitamini epitel diferansiyasyonu için gereklidir; eksikliğinde solunum yolları ve gözde salgı yapan silindirik epitel yerini Skuamöz Metaplaziye bırakır.\n**Çeldiriciler:**\n- A) Atrofi: Skuamöz dönüşümden sonraki ikincil süreçtir.\n- C) Hipertrofi: Hücre büyümesidir, A vit eksikliği metaplazi yapar.\n- D) Goblet hücre metaplazisi: GÖRH'te görülür.\n- E) Ülserasyon: Doku kaybıdır.\n---",
+    "flag_reason": "TUS 2023 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 74,
+    "question": "Yirmi yıldır hipertansiyonu olan kadın hastanın radyolojik görüntülemesinde kalp boyutlarında artış saptanıyor. Kardiyak protein sentezindeki artışa bağlı olarak gelişen kalp büyümesini aşağıdakilerden hangisi tanımlar?",
+    "options": {
+      "A": "Metaplazi",
+      "B": "Hiperplazi",
+      "C": "Atrofi",
+      "D": "Hipertrofi",
+      "E": "Fibrozis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hipertansiyonda kalp kasında protein sentezi ve organel artışı ile izlenen büyüme Patolojik Hipertrofidir.\n**Çeldiriciler:**\n- A) Metaplazi: Doku tipinin dönüşümüdür.\n- B) Hiperplazi: Kalp kası bölünemediği için hiperplazi yapamaz.\n- C) Atrofi: Hücre küçülmesidir.\n- E) Fibrozis: Bağ dokusu birikimidir.\n---",
+    "flag_reason": "TUS 2023 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 75,
+    "question": "Unutkanlık ve bunama şikayetleriyle getirilen 85 yaşındaki kadın hastanın nörolojik muayenesinde bilişsel yetkinliklerin bozulduğu saptanıyor... MRG'de beyin parankiminde saptanan muhtemel görüntü aşağıdakilerden hangisiyle en çok ilişkilidir?",
+    "options": {
+      "A": "Hiperplazi",
+      "B": "Aplazi",
+      "C": "Atrofi",
+      "D": "Displazi",
+      "E": "Hipertrofi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** 85 yaşındaki Alzheimer/senil demans hastasında nöron kaybı ve kan akımı azalmasına bağlı Patolojik/Senil Beyin Atrofisi (sulcuslarda genişleme, giruslarda incelme) izlenir.\n**Çeldiriciler:**\n- A) Hiperplazi: Nöronlar bölünemez.\n- B) Aplazi: Doğuştan organ gelişmemesidir.\n- D) Displazi: Malign atipik üremedir.\n- E) Hipertrofi: Hücre büyümesidir.\n---",
+    "flag_reason": "DUS 2024 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 76,
+    "question": "Ağız tabanında, submandibular bezin Wharton kanalı ağzına yakın yerleşimli tükürük bezi taşı saptanan olgunun histopatolojik incelemesinde tükürük bezi duktusunun skuamöz epitel ile döşeli olduğu izleniyor. Bu olguda epitelde oluşan değişiklik hangi tip adaptasyon ile uyumludur?",
+    "options": {
+      "A": "Hiperplazi",
+      "B": "Hipertrofi",
+      "C": "Atrofi",
+      "D": "Displazi",
+      "E": "Metaplazi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Wharton kanalında taş irritasyonuna maruz kalan prizmatik kanal epitelinin basınca dayanıklı çok katlı yassı epitele dönüşmesi Skuamöz Metaplazi örneğidir.\n**Çeldiriciler:**\n- A) Hiperplazi: Hücre sayısının artmasıdır.\n- B) Hipertrofi: Hücre hacminin artmasıdır.\n- C) Atrofi: Hücre küçülmesidir.\n- D) Displazi: Premalign üremedir.\n---",
+    "flag_reason": "DUS 2024 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 77,
+    "question": "Aşağıdaki morfolojik özelliklerden hangisinin apoptoziste görülmesi en az olasıdır?",
+    "options": {
+      "A": "Hücre boyutunda küçülme",
+      "B": "Kromatin kondensasyonu",
+      "C": "Membranöz bleb oluşumu",
+      "D": "Plazma membranının parçalanması",
+      "E": "Eozinofilik sitoplazma"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Apoptozda plazma zarı bütünlüğü son ana kadar korunur ve parçalanmaz. Plazma membranının parçalanması Nekrozun özelliğidir.\n**Çeldiriciler:**\n- A) Hücre boyutunda küçülme: Apoptozun temel fiziksel bulgusudur.\n- B) Kromatin kondensasyonu: Çekirdek kromatini zar altında kümeleşir.\n- C) Membranöz bleb oluşumu: Apoptotik cisimcik tomurcuklanmasıdır.\n- E) Eozinofilik sitoplazma: Sitoplazma büzüştüğü için pembeleşir.\n---",
+    "flag_reason": "DUS 2025 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 78,
+    "question": "Aşağıdakilerden hangisi hücresel adaptasyon tiplerinden biri değildir?",
+    "options": {
+      "A": "Metaplazi",
+      "B": "Displazi",
+      "C": "Hiperplazi",
+      "D": "Hipertrofi",
+      "E": "Atrofi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Displazi hücresel bir adaptasyon mekanizması değildir; neoplastik sürece gidişte atipik, düzensiz ve premalign bir üreme bozukluğudur.\n**Çeldiriciler:**\n- A) Metaplazi: Temel adaptasyon tipidir.\n- C) Hiperplazi: Temel adaptasyon tipidir.\n- D) Hipertrofi: Temel adaptasyon tipidir.\n- E) Atrofi: Temel adaptasyon tipidir.\n---",
+    "flag_reason": "DUS 2025 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 79,
+    "question": "Aşağıdaki bulgulardan hangisi geri dönüşümsüz hücre hasarının en olası göstergesidir?",
+    "options": {
+      "A": "Miyelin figürler",
+      "B": "Hücresel şişme",
+      "C": "Yağlı değişiklik",
+      "D": "Piknozis",
+      "E": "Blep formasyonu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Piknozis (nükleer büzülme), karyoreksis ve karyolizis geri dönüşsüz hücre ölümünün (irreversible hasar) çekirdek bulgularıdır.\n**Çeldiriciler:**\n- A) Miyelin figürler: Reversible aşamada da görülebilen zar lipid birikimleridir.\n- B) Hücresel şişme: Reversible zedelenmenin ilk bulgusudur.\n- C) Yağlı değişiklik: Reversible zedelenme bulgusudur.\n- E) Blep formasyonu: Reversible zar tomurcuklanmasıdır.\n---",
+    "flag_reason": "TUS 2025 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 82,
+    "question": "Aşağıdakilerden hangisi damar geçirgenliğini artıran maddelerden biri değildir?",
+    "options": {
+      "A": "C5a",
+      "B": "Bradikinin",
+      "C": "Lökotrien E4",
+      "D": "Katyonik proteinler",
+      "E": "C3b"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** C3b bir opsonindir; bakterilerin üzerini kaplayarak fagositozu kolaylaştırır, damar geçirgenliğini artırmaz.\n**Çeldiriciler:**\n- A) C5a: Anafilatoksin olup damar geçirgenliğini artırır.\n- B) Bradikinin: Güçlü vasküler permeabilite artışı ve ağrı yapar.\n- C) Lökotrien E4: Vasküler permeabiliteyi belirgin artırır.\n- D) Katyonik proteinler: Nötrofil granül kaynaklı permeabilite artırıcılardır.\n---",
+    "flag_reason": "TUS 2010 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 84,
+    "question": "Alfa-1 antitripsin eksikliği olan bir hastada aşağıdaki amfizem tiplerinden hangisi görülür?",
+    "options": {
+      "A": "Paraseptal amfizem",
+      "B": "Panlobüler amfizem",
+      "C": "Sentriasiner amfizem",
+      "D": "İrregüler amfizem",
+      "E": "Büllöz amfizem"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Alfa-1 Antitripsin eksikliğinde nötrofil elastazı inhibe edilemez ve akciğerin alt loblarını tutan Panlobüler (panasiner) amfizem gelişir.\n**Çeldiriciler:**\n- A) Paraseptal amfizem: Asetat/subplevral alanları tutar, gençlerde pnomotoraks yapar.\n- C) Sentriasiner amfizem: Sigara içicilerinde üst loblarda izlenen amfizem tipidir.\n- D) İrregüler amfizem: Skar dokusu çevresinde düzensiz gelişir.\n- E) Büllöz amfizem: Büyük hava kabarcıkları oluşturan komplikasyondur.\n---",
+    "flag_reason": "TUS 2011 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 85,
+    "question": "Aşağıdaki iltihap mediyatörlerinden hangisi, deriye enjekte edildiğinde ağrı meydana getirir?",
+    "options": {
+      "A": "Trombin",
+      "B": "Plazmin",
+      "C": "Fibrin",
+      "D": "Bradikinin",
+      "E": "Nitrik oksit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Bradikinin (ve Prostaglandin E2) sinir uçlarını doğrudan uyararak akut iltihapta ağrı duyusunu oluşturan temel mediyatördür.\n**Çeldiriciler:**\n- A) Trombin: Fibrinojeni fibrine dönüştürür.\n- B) Plazmin: Fibrini eriten fibrinolitik enzimdir.\n- C) Fibrin: Pıhtı ağını oluşturan proteindir.\n- E) Nitrik oksit: Vazodilatasyon sağlar.\n---",
+    "flag_reason": "DUS 2012 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 86,
+    "question": "Akut inflamasyonda lökositlerin endotele sıkı yapışmasında, lökosit yüzeyindeki hangi adezyon molekülü rol oynar?",
+    "options": {
+      "A": "İntegrin",
+      "B": "P-selektin",
+      "C": "Proteoglikan",
+      "D": "Sialyl-Lewis X",
+      "E": "Fibronektin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sıkı yapışma (adezyon) aşamasında lökosit üzerindeki İntegrinler (LFA-1, Mac-1, VLA-4), endoteldeki ICAM-1 ve VCAM-1 ile güçlü bağ kurar.\n**Çeldiriciler:**\n- B) P-selektin: Endotelde bulunup yuvarlanma (rolling) aşamasını sağlar.\n- C) Proteoglikan: Hücre dışı matriks bileşenidir.\n- D) Sialyl-Lewis X: Lökosit yüzeyinde bulunup selektinlere bağlanarak yuvarlanmayı sağlar.\n- E) Fibronektin: Ekstraselüler matriks glikoproteinidir.\n---",
+    "flag_reason": "DUS 2012 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 87,
+    "question": "Aşağıdakilerden hangisi, akut inflamasyonda rol oynayan, plazma proteinleri kaynaklı mediyatördür?",
+    "options": {
+      "A": "Histamin",
+      "B": "Prostaglandin",
+      "C": "Reaktif oksit türevleri",
+      "D": "Lipoksin",
+      "E": "Bradikinin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Bradikinin (Kinin sistemi), Kompleman elemanları ve Pıhtılaşma faktörleri karaciğerde sentezlenip plazmada inaktif gezen Plazma Kaynaklı mediyatörlerdir.\n**Çeldiriciler:**\n- A) Histamin: Mast hücresi ve bazofillerde depo edilen hücre kaynaklı mediyatördür.\n- B) Prostaglandin: Hücre zarından sentezlenen hücre kaynaklı mediyatördür.\n- C) Reaktif oksit türevleri: Nötrofil ve makrofajlarca üretilen hücre kaynaklı mediyatördür.\n- D) Lipoksin: Lökosit ve trombosit işbirliğiyle sentezlenen hücre kaynaklı mediyatördür.\n---",
+    "flag_reason": "TUS 2012 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 88,
+    "question": "Akut inflamasyonda lökositlerin damar lümeni ile interstisyel doku arasındaki hareketinin aşamaları aşağıdakilerin hangisinde doğru sıralanmıştır?",
+    "options": {
+      "A": "Marjinasyon - yuvarlanma - adezyon - göç - kemotaksi",
+      "B": "Yuvarlanma - kemotaksi - marjinasyon - göç - adezyon",
+      "C": "Adezyon - yuvarlanma - kemotaksi - göç - marjinasyon",
+      "D": "Kemotaksi - marjinasyon - adezyon - göç - yuvarlanma",
+      "E": "Göç - kemotaksi - yuvarlanma - adezyon - marjinasyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Lökosit ekstravazasyonu sırasıyla: 1. Marjinasyon (kenara yanaşma) 2. Yuvarlanma (Rolling/Selektin) 3. Adezyon (Sıkı tutunma/İntegrin) 4. Göç (Diapedez/PECAM-1) 5. Kemotaksi (dokuda ilerleme) şeklindedir.\n**Çeldiriciler:**\n- B, C, D, E seçenekleri fizyolojik sıralamayı bozmaktadır.\n---",
+    "flag_reason": "TUS 2012 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 89,
+    "question": "Yara iyileşmesinde yaranın kontraksiyonunu sağlayan hücre aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Makrofaj",
+      "B": "Mast hücreleri",
+      "C": "Endotel hücresi",
+      "D": "Epitel hücresi",
+      "E": "Miyofibroblast"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Yara kontraksiyonunu, TGF-beta uyarısıyla düz kas aktin filamentleri kazanan doku Miyofibroblastları büzülerek sağlar.\n**Çeldiriciler:**\n- A) Makrofaj: Yara iyileşmesinin orkestra şefidir, büyüme faktörleri salgılar ama büzülmeyi bizzat yapmaz.\n- B) Mast hücreleri: Histamin salgılayıp vasküler yanıtı başlatır.\n- C) Endotel hücresi: Anjiyogenezde damar oluşturur.\n- D) Epitel hücresi: Reepitelizasyonu sağlar.\n---",
+    "flag_reason": "TUS 2012 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 90,
+    "question": "Aşağıdakilerden hangisi, akut inflamasyonun morfolojik paternlerinden biri değildir?",
+    "options": {
+      "A": "Seroz inflamasyon",
+      "B": "Fibrinöz inflamasyon",
+      "C": "Supuratif inflamasyon",
+      "D": "Ülser",
+      "E": "Granülomatöz inflamasyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Granülomatöz inflamasyon Kronik inflamasyonun özel bir morfolojik paternidir; akut inflamasyon paterni değildir.\n**Çeldiriciler:**\n- A) Seröz inflamasyon: Hücreden fakir akışkan sıvı birikimidir (örneğin su kabarcığı).\n- B) Fibrinöz inflamasyon: Zarlarda fibrin birikimidir (örneğin ekmek arası tereyağı pericarditis).\n- C) Supuratif inflamasyon: Nötrofil ve irinle giden akut iltihaptır.\n- D) Ülser: Epitel ve mukoza kaybıyla seyreden akut/kronik lokal hasardır.\n---",
+    "flag_reason": "DUS 2013 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 91,
+    "question": "Yara iyileşmesindeki anjiyogenezde, yaralanma bölgesindeki damarların dilatasyonundan sonraki aşamada öncelikle hangisi gerçekleşir?",
+    "options": {
+      "A": "Mevcut damarların bazal membranlarının parçalanması",
+      "B": "Periendotelyal hücrelerin oluşması",
+      "C": "Endotel hücrelerinin matür hale gelmesi",
+      "D": "Endotel hücrelerinin yaralanma bölgesine geçmesi",
+      "E": "Düz kas hücrelerinin proliferasyon göstermesi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Anjiyogenez basamakları: 1. NO ile vazodilatasyon 2. Perisitlerin ayrılması ve Bazal Membran Yıkımı 3. Endotel göçü ve proliferasyonudur.\n**Çeldiriciler:**\n- B) Periendotelyal hücrelerin toplanması: Anjiyogenezin geç matürasyon aşamasıdır.\n- C) Endotel hücre matürasyonu: Yeni damar oluştuktan sonraki aşamadır.\n- D) Endotel göçü: Bazal membran yıkıldıktan sonra gerçekleşir.\n- E) Düz kas proliferasyonu: Damar duvarı stabilizasyonunda en son gerçekleşir.\n---",
+    "flag_reason": "DUS 2013 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 92,
+    "question": "Aşağıdakilerden hangisinin vazodilatasyon yapıcı etkisi yoktur?",
+    "options": {
+      "A": "Prostasiklin",
+      "B": "Nitrik oksit",
+      "C": "Platelet aktive edici faktör",
+      "D": "Lökotrien C4",
+      "E": "Histamin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Lökotrien C4 (LTD4 ve LTE4 ile birlikte) damarlarda güçlü vazokonstrüksiyon ve bronşlarda spazm yapar; vazodilatasyon yapmaz.\n**Çeldiriciler:**\n- A) Prostasiklin (PGI2): Güçlü vazodilatördür.\n- B) Nitrik oksit: Düz kası gevşeten güçlü vazodilatördür.\n- C) PAF: Düşük dozlarda güçlü vazodilatördür.\n- E) Histamin: Arterirollerde vazodilatasyon yapar.\n---",
+    "flag_reason": "TUS 2013 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 93,
+    "question": "Aşağıdakilerden hangisi vasküler düz kas hücrelerinin migrasyon ve proliferatif aktivitelerinin inhibitorüdür?",
+    "options": {
+      "A": "Trombin",
+      "B": "Endotelin-I",
+      "C": "Platelet kaynaklı büyüme faktörü",
+      "D": "Heparan sülfat",
+      "E": "Fibroblast büyüme faktörü"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Endotel ve ECM yapısındaki Heparan Sülfat (proteoglikan), damar düz kas hücrelerinin proliferasyon ve migrasyonunu inhibe ederek damarı stabil tutar.\n**Çeldiriciler:**\n- A) Trombin: Düz kas mitojenidir, proliferasyonu uyarır.\n- B) Endotelin-1: Güçlü vazokonstrüktör ve düz kas mitojenidir.\n- C) PDGF: Düz kas migrasyon ve proliferasyonunun en güçlü uyaranıdır.\n- E) FGF: Düz kas ve endotel proliferasyonunu uyarır.\n---",
+    "flag_reason": "TUS 2013 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 94,
+    "question": "Araşidonik asit metabolizmasında asetilsalisilik asit, aşağıdakilerden hangisini inhibe ederek inflamasyonu azaltır?",
+    "options": {
+      "A": "5-lipoksijenaz",
+      "B": "Fosfolipaz A2",
+      "C": "Lökotrien A4",
+      "D": "Lökotrien C4",
+      "E": "Siklooksijenaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Aspirin (asetilsalisilik asit), COX-1 ve COX-2 (Siklooksijenaz) enzimlerini kovalent asetilasyon ile irreversible inhibe eder.\n**Çeldiriciler:**\n- A) 5-lipoksijenaz: Zileuton ile inhibe edilen LOX enzimdir.\n- B) Fosfolipaz A2: Steroidler (glukokortikoidler) ile inhibe edilen üst enzimdir.\n- C) Lökotrien A4: LOX yolu ara ürünüdür.\n- D) Lökotrien C4: Bronkokonstrüktör lipid mediyatördür.\n---",
+    "flag_reason": "DUS 2014 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 95,
+    "question": "Transforme edici büyüme faktörü-alfa'nın aşırı salınması ile oluşan hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Zollinger-Ellison sendromu",
+      "B": "Fundik gastrik polip",
+      "C": "Gastritis sistika",
+      "D": "Peptik ülser",
+      "E": "Menetrier hastalığı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Mide mukozasında TGF-alfa'nın aşırı ekspresyonu foveolar epitel hiperplazisine, dev mide mukoza kıvrımlarına (cerebriform) ve Menetrier Hastalığına yol açar.\n**Çeldiriciler:**\n- A) Zollinger-Ellison: Gastrinoma kaynaklı aşırı gastrin salınımı ve peptik ülserlerdir.\n- B) Fundik polip: Proton pompası inhibitörü kullanımında görülen benign glandüler lezyondur.\n- C) Gastritis sistika: Polipoid intramukozal kistik mukozal hasardır.\n- D) Peptik ülser: H. pylori veya NSAİİ kaynaklı mukoza defektidir.\n---",
+    "flag_reason": "TUS 2014 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 96,
+    "question": "Aşağıdaki inflamasyon mediyatörlerinden hangisi plazma protein kaynaklı olup, hücrelerden salınmaz?",
+    "options": {
+      "A": "Kompleman protein sistemi",
+      "B": "Sitokinler",
+      "C": "Vazoaktif aminler",
+      "D": "Araşidonik asit metabolitleri",
+      "E": "Lizozomal enzimler"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kompleman proteinleri karaciğerde sentezlenip plazmada inaktif dolaşan Plazma Kaynaklı mediyatörlerdir.\n**Çeldiriciler:**\n- B) Sitokinler: Makrofaj, endotel ve T hücrelerinden salınan hücre kaynaklı mediyatördür.\n- C) Vazoaktif aminler: Mast hücresi ve trombositten salınan hücre kaynaklı mediyatördür.\n- D) Araşidonik asit metabolitleri: Membran fosfolipidlerinden sentezlenen hücre kaynaklı mediyatördür.\n- E) Lizozomal enzimler: Nötrofil ve makrofaj granüllerinden salınır.\n---",
+    "flag_reason": "TUS 2014 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 99,
+    "question": "AIDS hastasında, akciğer ve gastrointestinal mukozada makrofajlar içinde asit-fast pozitif basillerin saptandığı enfeksiyon aşağıdaki mikroorganizmalardan hangisiyle gelişir?",
+    "options": {
+      "A": "Mycobacterium avium intracellulare komplex",
+      "B": "Pseudomonas aeruginosa",
+      "C": "Yersinia enterocolitica",
+      "D": "Pneumocystis jiroveci",
+      "E": "Bordetella pertussis"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** İleri derece immünsüprese (CD4 < 50) AIDS hastalarında M. avium intracellulare complex (MAC) makrofajlar içinde aşırı asit-fast pozitif basil birikimi ile giden yaygın enfeksiyon yapar.\n**Çeldiriciler:**\n- B) Pseudomonas: Gram negatif çomaktır, ARB pozitif değildir.\n- C) Yersinia: Gram negatif çomaktır.\n- D) Pneumocystis jiroveci: Fungal yapıda trofozoit oluşturur, kistler yapar.\n- E) Bordetella pertussis: Boğmaca etkeni Gram negatif çomaktır.\n---",
+    "flag_reason": "TUS 2014 Sonbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 100,
+    "question": "Aşağıdakilerden hangisi anjiyogenezi inhibe eden faktörlerden biridir?",
+    "options": {
+      "A": "Vasküler endotelyal büyüme faktörü",
+      "B": "Fibroblast büyüme faktörü",
+      "C": "Trombospondinler",
+      "D": "Anjiyopoietinler",
+      "E": "HIF-1alfa"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Trombospondinler (Trombospondin-1 vb.), Anjiyostatin ve Endostatin ile birlikte anjiyogenezi baskılayan (inhibe eden) endogenous anti-anjiyogenetik faktörlerdir.\n**Çeldiriciler:**\n- A) VEGF: Anjiyogenezin en güçlü uyarıcı faktörüdür.\n- B) FGF: Endotel ve fibroblast proliferasyonunu uyaran anjiyogenetik faktördür.\n- D) Anjiyopoietinler: Damar tomurcuklanması ve stabilizasyonunu sağlayan uyarılardır.\n- E) HIF-1alfa: Hipokside VEGF salgılatıp anjiyogenezi başlatan transkripsiyon faktörüdür.\n---",
+    "flag_reason": "TUS 2015 İlkbahar",
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 21,
+    "question": "Kronik sinüzit, hemoptizi ve akciğerde nodüler vaskülit lezyonları olan hastada tanıyı doğrulayan serolojik test aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Anti-bazal membran antikoru",
+      "B": "Anti-proteinaz 3 antikoru",
+      "C": "Anti-Scl70 antikoru",
+      "D": "Anti-mitokondriyal antikor",
+      "E": "Anti-fosfolipid antikoru"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Wegener granülomatozunda (GPA) tanısal değeri en yüksek spesifik antikor c-ANCA hedefi olan Anti-proteinaz 3 (Anti-PR3) antikorudur.\n**Çeldiriciler:**\n- **A)** Anti-bazal membran antikoru Goodpasture sendromunda pozitifleşir.\n- **C)** Anti-Scl70 antikoru Sistemik Skleroz tanısında anlamlıdır.\n- **D)** Anti-mitokondriyal antikor (AMA) Primer Biliyer Kolanjitte yüksektir.\n- **E)** Anti-fosfolipid antikoru Antifosfolipid Sendromunda tromboz riski oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 22,
+    "question": "Histolojisinde granülom saptanması temelinde değerlendirildiğinde aşağıdakilerden hangisi orofasiyal granülomatozis tanısında yer almaz?",
+    "options": {
+      "A": "Pyojenik granülom",
+      "B": "Crohn hastalığı",
+      "C": "Sarkoidoz",
+      "D": "Tüberküloz",
+      "E": "Melkersson-Rosenthal sendromu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Pyojenik granülom gerçek bir granülom veya neoplazi değildir; bol kapiller damar ve granülasyon dokusu içeren reaktif bir lezyondur.\n**Çeldiriciler:**\n- **B)** Crohn hastalığı non-kazeifiye granülomatöz inflamasyon içerir.\n- **C)** Sarkoidoz çıplak (naked) kazeifiye olmayan granülomlar gösterir.\n- **D)** Tüberküloz merkezinde kazeifikasyon nekrozu içeren granülomlar yapar.\n- **E)** Melkersson-Rosenthal sendromu (fasiyal felç + yarık dil + dudak şişliği) histolojisinde non-kazeifiye granülomlar barındırır.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 24,
+    "question": "Akciğer biyopsisinde kazeifikasyon nekrozu ve Langhans tipi dev hücreler içeren granülomatöz inflamasyon saptanan olguda en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sarkoidoz",
+      "B": "Tüberküloz",
+      "C": "Wegener granülomatozu",
+      "D": "Histoplazmozis",
+      "E": "Aktinomikoz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kazeifikasyon nekrozu ve çeperinde at nalı şeklinde dizilmiş çekirdekleri olan Langhans tipi dev hücrelerin varlığı Tüberküloz granülomunun patognomonik özelliğidir.\n**Çeldiriciler:**\n- **A)** Sarkoidoz non-kazeifiye (nekrozsuz) granülomlar gösterir.\n- **C)** Wegener granülomatozu coğrafik nekroz ve vaskülit gösterir.\n- **D)** Histoplazmozis makrofaj içi küçük mayalar barındırır.\n- **E)** Aktinomikoz sülfür granülleri içeren apse odakları oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 25,
+    "question": "Oral prekanseröz lezyonlar arasında malign dönüşüm riski en yüksek olan lökoplaki tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kalın lökoplaki",
+      "B": "Granüler lökoplaki",
+      "C": "İnce lökoplaki",
+      "D": "Proliferatif verüköz lökoplaki",
+      "E": "Liken planus"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Proliferatif verüköz lökoplaki (PVL), multifokal yayılım gösteren, eksizyon sonrası yüksek nüks oranına sahip ve %70-90 oranında SCC'ye dönüşme riski taşıyan en agresif prekanseröz tiptir.\n**Çeldiriciler:**\n- **A)** Kalın lökoplaki homojen tip olup malignite riski düşüktür (%1-7).\n- **B)** Granüler lökoplaki eritrolökoplaki varyantı olup orta-yüksek risklidir.\n- **C)** İnce lökoplaki nadiren displazi gösterir.\n- **E)** Liken planus premalign potansiyele sahip olsa da riski %1-2 civarındadır.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 26,
+    "question": "Dermal fibrozis yanı sıra yüksek derecede dendritik ve melanin yüklü melanositlerin dermal infiltrasyonu ile karakterize benign lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bileşke nevus",
+      "B": "Mavi nevus (Blue nevus)",
+      "C": "Spitz nevus",
+      "D": "Halo nevus",
+      "E": "Displastik nevus"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Mavi nevus (Blue nevus), dermis derinliklerinde uzanan dendritik, yoğun melanin pigmentli melanositlerin dermal fibrozis ile birlikte oluşturduğu benign lezyondur.\n**Çeldiriciler:**\n- **A)** Bileşke (junksiyonal) nevus dermoepitelyal bileşkede yuvalanma gösterir.\n- **C)** Spitz nevus çocuklarda görülen iğsi ve epiteloit hücreli nevüstür.\n- **D)** Halo nevus çevresinde lenfositik infiltrasyon gösterir.\n- **E)** Displastik nevus koalesan intraepidermal yuvalar ve sitolojik atipi barındırır.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 28,
+    "question": "Diş etinde veya dişsiz krestte yerleşen, histolojisinde bol miktarda multinükleer osteoklast benzeri dev hücreler ve hemosedirin pigmenti barındıran reaktif lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Periferal dev hücreli granülom",
+      "B": "Pyojenik granülom",
+      "C": "İrritasyon fibromu",
+      "D": "Periferal ossifiye fibrom",
+      "E": "İnflamatuvar papiller hiperplazi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Periferal dev hücreli granülom (PDHG), yalnızca gingiva ve alveolar mukozada görülen, bağ dokusu içinde çok çekirdekli osteoklastik dev hücreler ve ekstravaze eritrosit/hemosedirin içeren reaktif lezyondur.\n**Çeldiriciler:**\n- **B)** Pyojenik granülom lobüler kapiller proliferasyondur, dev hücre içermez.\n- **C)** İrritasyon fibromu olgun kollojen bağ dokusundan oluşur.\n- **D)** Periferal ossifiye fibrom mineralize kemik/sement adacıkları içerir.\n- **E)** İnflamatuvar papiller hiperplazi damakta protez vuruğu sonucu gelişen epitel hiperplazisidir.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 31,
+    "question": "Aşağıdaki makroskobik görünümlerden hangisi derinin malign melanomu için en yüksek riski taşır?",
+    "options": {
+      "A": "Simetrik, tek renkli, düzensiz konturlu",
+      "B": "Asimetrik, çeşitli renkli, düzensiz konturlu",
+      "C": "Simetrik, renksiz, düzenli konturlu",
+      "D": "Simetrik, renkli, düzensiz konturlu",
+      "E": "Asimetrik, tek renkli, düzensiz konturlu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Malign melanom ABCDE kriterlerinde Asimetri (A), Border/Sınır düzensizliği (B), Color/Renk çeşitliliği (C), Diameter/Çap artışı (D) ve Evolution/Değişim (E) belirleyicidir.\n**Çeldiriciler:**\n- **A)** Simetrik ve tek renkli olması benign nevüs bulgusudur.\n- **C)** Düzenli kontur ve simetri malignite riskini düşürür.\n- **D)** Simetrik lezyonlar melanom açısından düşük risk taşır.\n- **E)** Tek renkli olması homojen yapı göstergesidir.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 38,
+    "question": "Çocukluk çağında dudak mukozasında çok sayıda semptomsuz papüller oluşturan, HPV 13 ve 32 etiyolojisine sahip Heck hastalığının diğer adı nedir?",
+    "options": {
+      "A": "Hiperkeratotik papillom",
+      "B": "Kondiloma aküminatum",
+      "C": "Keratoakantom",
+      "D": "Verruca vulgaris",
+      "E": "Fokal epitelyal hiperplazi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Fokal epitelyal hiperplazi (Heck hastalığı), HPV 13 ve 32 tarafından oluşturulan, çocuk ve gençlerde oral mukozada nodüler/papüler kabarık lezyonlarla seyreden benign tablodur.\n**Çeldiriciler:**\n- **A)** Hiperkeratotik papillom soliter saplı lezyondur.\n- **B)** Kondiloma aküminatum HPV 6 ve 11 ile oluşan anogenital/oral siğildir.\n- **C)** Keratoakantom güneşe maruz deride gelişir.\n- **D)** Verruca vulgaris HPV 2 ve 4 ile oluşan vulgar siğildir.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 40,
+    "question": "Kondiloma aküminatum lezyonunda virüs etkisiyle büzüşmüş koyu hiperkromatik çekirdek ve etrafında şeffaf perinükleer halo içeren epidermal hücrelere ne ad verilir?",
+    "options": {
+      "A": "Poikilosit",
+      "B": "Molluscum cismi",
+      "C": "Koilosit",
+      "D": "Civatte hücresi",
+      "E": "Guarnieri hücresi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** HPV enfeksiyonunun sitopatik etkisi sonucu oluşan, perinükleer halo ve düzensiz nükleus içeren hücrelere 'Koilosit' adı verilir.\n**Çeldiriciler:**\n- **A)** Poikilosit farklı şekilli eritrosittir.\n- **B)** Molluscum cismi Molluscum contagiosum virüs inklüzyonudur.\n- **D)** Civatte hücresi liken planusta apoptoza giden keratinosittir.\n- **E)** Guarnieri hücresi poxvirüs inklüzyon cismidir.\n---",
+    "flag_reason": null,
+    "unit": "1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  }
+]

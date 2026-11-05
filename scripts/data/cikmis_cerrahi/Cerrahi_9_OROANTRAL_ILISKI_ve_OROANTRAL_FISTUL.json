@@ -1,0 +1,240 @@
+[
+  {
+    "question": "Bichat yağ dokusu transpozisyonu ile oro-antral açıklık kapatmayı planlayan bir cerrah, aşağıdaki anatomik yapılardan hangisini diseke etmelidir?",
+    "options": {
+      "A": "Musculus masseter",
+      "B": "Musculus orbicularis oris",
+      "C": "Musculus buccinator",
+      "D": "Glandula parotidea",
+      "E": "Glandula submandibularis *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D, E şıkları:** Masseter kası ramus dışındadır; parotis bezi fasiyal sinir dallarıyla birliktedir; orbikülaris ağız çevresindedir.\n  * **C şıkkı (M. buccinator / Doğru Cevap):** Bichat'nın bukkal yağ dokusu (corpus adiposum buccae), **m. buccinator kasının lateralinde, m. masseter'in ise anteriorunda ve derininde** yer alır. İntraoral yolla bukkal yağ dokusuna ulaşmak ve oro-antral fistül defektine transpoze edebilmek için üst molar dişler hizasında mukoperiosteal flep kaldırıldıktan sonra **musculus buccinator lifleri künt olarak diseke edilip (kesilip/aralanıp)** yağ dokusu açığa çıkarılır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2018 Orijinal",
+    "q_num": 205,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sağ üst ikinci molar dişin çekimi ve periapikal kistin enükleasyonu sonrasında hastada 1 aydır var olan oro-antral fistülün kapatılması amacıyla bukkal yağ dokusu kullanılacaktır. Aşağıda verilen anatomik yapılardan hangisinin diseke edilmesi Bichat dokusunun serbestleşmesini sağlar?",
+    "options": {
+      "A": "Musculus levator labii superioris",
+      "B": "Musculus lateralis pterygoideus",
+      "C": "Musculus buccinator",
+      "D": "Musculus mentalis",
+      "E": "Glandula sublingualis *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Yağ pedini örten anatomik kas katmanı m. buccinatordur; bu kasın horizontal insizyonu ve liflerinin aralanması yağ lobunun cerrahi sahaya herniye olmasını sağlar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 206,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi oro-antral fistül kapatma tekniklerinden biri değildir?",
+    "options": {
+      "A": "Caldwell-Luc operasyonu",
+      "B": "Bukkal kaydırma flebi (Rehrmann tekniği)",
+      "C": "Palatinal ada veya rotasyon flebi",
+      "D": "Bichat bukkal yağ dokusu flebi",
+      "E": "Dil flebi veya kompozit serbest greftler *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Doğru Cevap):** Caldwell-Luc operasyonu, maksiller sinüs içerisindeki yabancı cisim, polip veya kronik enfeksiyonları temizlemek amacıyla fossa kaninadan sinüs ön duvarına açılan bir cerrahi fenestrasyondur; tek başına **bir fistül ağzını kapatma yöntemi değildir** (aksine sinüse cerrahi giriş yöntemidir).\n  * Diğer şıklar (B, C, D, E) açıklığı yumuşak doku ile örten klasik fistül kapatma flepleridir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 207,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bichat bukkal yağ dokusu flebinin oro-antral fistül cerrahisinde sağladığı en büyük avantaj aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Vestibül derinliği sığlaştırmaması ve zengin kan dolaşımına sahip olması",
+      "B": "Kemik oluşumunu doğrudan indüklemesi",
+      "C": "Hiçbir insizyon gerektirmemesi",
+      "D": "Sinüs mukozasını tamamen rejenere etmesi",
+      "E": "Operasyon sonrası yüzde kalıcı çöküntü oluşturmaması nedeniyle estetik olması *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Rehrmann bukkal kaydırma flebinin en büyük dezavantajı vestibül sulkusu tamamen düzleştirmesidir (protez tutuculuğunu bozar). **Bichat flebi ise** sulkusu sığlaştırmaz, zengin aksiyel ve kapiller kanlanması sayesinde enfekte sahada bile hızla granüle olup üzeri 2-3 haftada epitelize olur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 208,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller sinüste en sık rastlanan, sinüs tabanında kubbe şeklinde düzgün sınırlı radyoopasite veren asemptomatik psödokist aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mukosel",
+      "B": "Antral psödokist (İnflamatuvar mukozal kist)",
+      "C": "Kolesteatom",
+      "D": "Odontojenik keratokist",
+      "E": "Dermoid kist *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **B şıkkı (Antral Psödokist / Doğru Cevap):** Sinüs periostu ile kemik taban arasında subepitelyal inflamatuvar eksuda toplanmasıdır; epitelyal astarı yoktur (bu yüzden psödokisttir). Panoramik radyografta kubbe şeklinde (dome-shaped) radyoopak görünüm verir. Sinüs ostiumunu tıkamadıkça veya implant cerrahisine engel olmadıkça tedavi gerektirmez.\n  * **A şıkkı (Mukosel):** Gerçek kisttir, ostium tıkandığında sinüsü tamamen doldurur ve kemik duvarları ekspanse edip eritir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 209,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller sinüs mukoseli ile antral psödokist arasındaki en belirgin fark aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mukoselin epitel astarının olmaması",
+      "B": "Antral psödokistin sinüs duvarlarını eriten ekspansif karakteri",
+      "C": "Mukoselin kavitary epitel astarlı olması ve sinüs duvarlarında kemik destrüksiyonu yapabilmesi",
+      "D": "Antral psödokistin sadece çocuklarda görülmesi",
+      "E": "Mukoselin asla cerrahi tedavi gerektirmemesi *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Antral psödokist kemik destrüksiyonu yapmaz, kendi kendini sınırlar. Mukosel ise gerçek mukus birikimi olup sinüs içi basıncı artırarak kemik sınırları yıkar (agresif seyreder) ve cerrahi drenaj/eksizyon şarttır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 210,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller sinüsün odontojenik kaynaklı enfeksiyonları en sık hangi dişlerin periapikal/periodontal patolojilerinden köken alır?",
+    "options": {
+      "A": "Üst santral ve lateral kesiciler",
+      "B": "Üst kanin dişler",
+      "C": "Üst 1. ve 2. molar ile 2. premolar dişler",
+      "D": "Alt molar dişler",
+      "E": "Yalnızca gömülü 20 yaş dişleri *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Maksiller sinüs tabanına kök apeksleri anatomik olarak en yakın dişler **üst 1. molar, 2. molar ve 2. premolar** dişlerdir. Kökleri sıklıkla sinüs tabanını yükseltir veya doğrudan ince bir korteksle komşudur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 211,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller sinüzitlerin etiyolojisi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Tüm maksiller sinüzit vakalarının yaklaşık %10-12'si odontojenik kökenlidir.",
+      "B": "Non-odontojenik sinüzitlerde en sık etkenler *S. pneumoniae*, *H. influenzae* ve *M. catarrhalis*tir.",
+      "C": "Odontojenik sinüzitlerde aerobik bakteriler baskındır, anaeroblar izlenmez.",
+      "D": "Odontojenik sinüzitler sıklıkla tek taraflıdır (unilateral).",
+      "E": "Diş çekimi sırasında sinüs tabanının perfore edilmesi sinüzite zemin hazırlar. *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Non-odontojenik sinüzitler nazofarenks kaynaklı olup aerob ağırlıklıdır. Ancak **odontojenik sinüzitler** diş çürüğü ve periodontal cepten kaynaklandığı için **polimikrobiyaldir ve anaerob bakteriler (Bacteroides, Peptostreptococcus, Fusobacterium) son derece baskındır**. Dolayısıyla C şıkkı yanlıştır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 212,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Caldwell-Luc operasyonunun kesin endikasyonlarından biridir?",
+    "options": {
+      "A": "Akut kataral sinüzitin ilk atağı",
+      "B": "Maksiller sinüs içerisine kaçan diş kökünün çıkarılması",
+      "C": "Mandibula kondil kırığının fiksasyonu",
+      "D": "Fossa kaninada basit submuköz apse",
+      "E": "Rekürrent aftöz stomatit *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Caldwell-Luc operasyonu (ön duvardan sinüse pencere açılması), sinüs içine kaçan kök veya implantların çıkarılmasında, sinüs içi benign tümör/kistlerin enükleasyonunda ve medikal tedaviye dirençli kronik hipertrofik sinüzitlerde kullanılır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 213,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Caldwell-Luc cerrahisinde sinüs ön duvarına yapılan kemik penceresi preparasyonu sırasında hasar görme riski en yüksek olan duyu siniri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nervus lingualis",
+      "B": "Nervus mentalis",
+      "C": "Nervus infraorbitalis",
+      "D": "Nervus facialis",
+      "E": "Nervus glossopharyngeus *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Kemik pencere fossa kaninaya (apekslerin üstüne) açılır. Bu sahanın hemen süperiorunda **foramen infraorbitale ve içinden çıkan n. infraorbitalis** yer alır. Aşırı traksiyon veya yüksek kesiler üst dudak, burun kanadı ve alt göz kapağında uyuşukluğa (infraorbital parestezi) yol açar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 214,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Oro-antral açıklık şüphesi olan bir hastada muayenehane ortamında yapılabilecek en pratik klinik test aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Rinomanometri",
+      "B": "Valsalva manevrası (Burun üfleme testi)",
+      "C": "Schirmer testi",
+      "D": "Sialografi",
+      "E": "Elektromiyografi *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Hastanın burnu hekim tarafından kapatılır ve hastadan burnundan hafifçe hava üflemesi istenir (**Valsalva manevrası**). Çekim soketinde hava kabarcıkları, kan köpürmesi veya ıslık sesi duyulması oro-antral açıklığın kesin klinik kanıtıdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 215,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Diş çekimi esnasında oluşan ve çapı 2 mm'den küçük olan taze bir oro-antral perforasyonda en uygun tedavi yaklaşımı nedir?",
+    "options": {
+      "A": "Acil Caldwell-Luc operasyonu",
+      "B": "Bichat yağ dokusu transpozisyonu",
+      "C": "Soket içinde kan pıhtısının stabilize edilmesi, sekonder enfeksiyonu önleyici önlemler ve takip",
+      "D": "Hemen palatinal ada flebi çevrilmesi",
+      "E": "Soketin içine kemik tozu ve otojen greft doldurulması *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **2 mm'den küçük** perforasyonlar sağlıklı sinüs varlığında ve sokette sağlam bir pıhtı oluşturulup (gerekirse sekiz sütür ile) hastaya burun sümkürmeme talimatı verildiğinde **spontan olarak kendiliğinden primer iyileşir**. Cerrahi flep gerektirmez.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 216,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çapı 2-6 mm arasında olan oro-antral açıklıklarda soket içi pıhtının stabilizasyonunu sağlamak amacıyla soket ağzına konulabilecek en uygun hemostatik bariyer materyal hangisidir?",
+    "options": {
+      "A": "Jelatin sünger (Spongostan) veya okside rejenere selüloz (Surgicel)",
+      "B": "Carnoy solüsyonu",
+      "C": "Çinko oksit öjenol siman",
+      "D": "Gümüş nitrat",
+      "E": "Polimetilmetakrilat kemik çimentosu *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * 2-6 mm arası açıklıklarda pıhtının sinüse kaçmasını önlemek için rezorbe olabilen hemostatik kolajen süngerler (Surgicel/Spongostan) soket ağzına yerleştirilip üzerine horizontal matris sütür atılır. Kostik maddeler (Carnoy, gümüş nitrat) dokuyu nekroze eder.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 217,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çapı 6 mm'den büyük olan ve kendiliğinden kapanma ihtimali bulunmayan oro-antral defektlerde tercih edilecek cerrahi tedavi nedir?",
+    "options": {
+      "A": "Hastanın hiçbir müdahale yapılmadan 3 ay bekletilmesi",
+      "B": "Primer cerrahi fleplerle (Bukkal kaydırma, Palatinal flep veya Bichat flebi) hermetik kapatma",
+      "C": "Sadece antibiyotik reçete edilmesi",
+      "D": "Dişetinin koterize edilmesi",
+      "E": "Defektin içine amalgam dolgu sıkıştırılması *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * 6 mm üzerindeki geniş defektler kalıcı epitelize fistüle dönüşür. Bekletilmeden bukkal kaydırma (Rehrmann), palatinal rotasyon veya Bichat bukkal yağ flebi gibi lokal vaskülarize fleplerle gerilimsiz ve sızdırmaz (hermetik) olarak kapatılmalıdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 218,
+    "unit": "9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL",
+    "quality_flag": "cikmis"
+  }
+]

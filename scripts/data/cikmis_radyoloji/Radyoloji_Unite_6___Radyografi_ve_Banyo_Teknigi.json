@@ -1,0 +1,308 @@
+[
+  {
+    "q_num": 101,
+    "question": "I. kVp'nin düşürülmesi\nII. mA'in azaltılması\nIII. Kısa kon ile görüntülenmesi\nIV. Işınlama süresinin arttırılması\nV. Grid kullanılması\n\nDens objelerin optimum diagnostik dansitede görüntülerinin elde edilebilmesi için banyo koşulları sabit tutulmak şartıyla yukarıda verilenlerden hangisi/hangilerinin uygulanması doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve IV",
+      "D": "III ve IV",
+      "E": "IV ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Radyografik dansiteyi artırmak için kVp, mA, ışınlama süresi ve birinci banyo süresi artırılmalı; fokal spot-film mesafesi ise azaltılmalıdır (kısa kon kullanımı). Kalın ve dens yapıya sahip objelerde foton atenüasyonu fazla olduğundan dansite düşer; bunu telafi edip optimum diagnostik dansite elde etmek için fokal spot-film mesafesini azaltan kısa kon kullanımı ve ışınlama süresinin artırılması uygundur.\n**Çeldiriciler:**\n- A) kVp'nin düşürülmesi ışının penetrasyon gücünü ve filme ulaşan foton sayısını azaltarak dansiteyi daha da düşürür.\n- B) Hem kVp'nin düşürülmesi hem de mA'in azaltılması radyografik dansiteyi azaltıcı etki gösterir.\n- C) Işınlama süresinin artırılması dansiteyi artırsa da mA'in azaltılması üretilen elektron ve foton sayısını düşürerek dansiteyi azaltır.\n- E) Grid kullanımı sekonder (saçılan) radyasyonu bloke ederek filme ulaşan toplam foton miktarını ve dolayısıyla dansiteyi azaltır.\n\n**Öncüllerin Analizi:**\n- I. Yanlıştır; kVp'nin düşürülmesi foton enerjisini ve penetrasyonu azaltarak dansiteyi düşürür.\n- II. Yanlıştır; mA'in azaltılması birim zamanda üretilen X-ışını fotonu miktarını azaltarak dansiteyi düşürür.\n- III. Doğrudur; kısa kon kullanımı fokal spot-film mesafesini kısaltır ve ters kare kanunu gereği filme ulaşan ışın yoğunluğunu artırarak dansiteyi yükseltir.\n- IV. Doğrudur; ışınlama süresinin artırılması filme ulaşan toplam foton sayısını artırarak dansiteyi yükseltir.\n- V. Yanlıştır; ekstraoral görüntülemede sekonder ışın filtresi olarak kullanılan gridler saçılan ışınları tuttuğu için toplam dansiteyi azaltır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 103,
+    "question": "I. İkinci banyo süresinin artması, dansiteyi azaltır.\nII. kVp değerinin artması, dansiteyi artırır.\nIII. Fokal spot-film mesafesinin azalması, dansiteyi azaltır.\n\nDental filmlerle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "Yalnız I",
+      "C": "II ve III",
+      "D": "Yalnız III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** İkinci banyo (fiksaj) süresinin gereğinden fazla uzaması, film üzerindeki redükte edilmiş metalik gümüşleri de çözerek görüntünün açılmasına ve dansitenin azalmasına neden olur. kVp değerinin artırılması ise ışınların penetrasyon gücünü ve filme ulaşan foton miktarını artırarak dansiteyi yükseltir.\n**Çeldiriciler:**\n- B) Birinci öncülün yanı sıra kVp artışının dansiteyi artırdığını belirten ikinci öncül de doğrudur.\n- C) Üçüncü öncül yanlıştır; fokal spot-film mesafesinin azalması birim alana düşen foton yoğunluğunu artırarak dansiteyi yükseltir.\n- D) Yalnızca birinci ve ikinci öncüller doğrudur, üçüncü öncül ters bir ilişki kurduğu için yanlıştır.\n- E) Üçüncü öncül yanlış olduğundan tüm öncüllerin doğru olduğu söylenemez.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; ikinci banyoda (sabitleyici) uzun süre kalan filmlerde gümüş iyonları erimeye başlar ve radyografik dansite azalır.\n- II. Doğrudur; kVp artışı kısa dalga boylu, yüksek enerjili ve yüksek penetrasyonlu ışınlar üreterek filme ulaşan foton sayısını ve dansiteyi artırır.\n- III. Yanlıştır; fokal spot-film mesafesi azaltıldığında ışın kaynağının filme yaklaşması nedeniyle ışın yoğunluğu ve dansite artar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 104,
+    "question": "Dental filmlerde densiteyi artırmak için aşağıdakilerden hangisinin yapılması doğru değildir?",
+    "options": {
+      "A": "Fokal spot- film mesafesini artırmak",
+      "B": "Film-screen hızını artırmak",
+      "C": "Birinci banyo süresini artırmak",
+      "D": "kVp değerini artırmak",
+      "E": "mA değerini artırmak"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Fokal spot-film mesafesinin artırılması, ters kare kanunu gereği birim alana ulaşan X-ışını fotonu yoğunluğunu azaltır ve bunun sonucunda radyografik densite düşer. Densiteyi artırmak için bu mesafenin artırılması değil, azaltılması gerekir.\n**Çeldiriciler:**\n- B) Film veya kullanılan ranforsatör (screen) hızının artırılması, daha az radyasyonla daha yüksek kararma (densite) elde edilmesini sağlar.\n- C) Birinci banyo (geliştirici) süresinin artırılması, daha fazla gümüş bromid kristalinin metalik gümüşe indirgenmesini sağlayarak densiteyi artırır.\n- D) kVp değerinin artırılması, üretilen fotonların enerjisini ve dokuyu geçip filme ulaşma oranını artırarak densiteyi yükseltir.\n- E) mA değerinin artırılması, katotta üretilen elektron ve dolayısıyla anotta oluşan X-ışını fotonu sayısını artırarak densiteyi yükseltir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 105,
+    "question": "Işınlanmamış bir filmin banyosu yapıldığında az miktarda da olsa densite gösterir.\n\nYukarıdaki ifadede açıklanan durumu tanımlayan kavram aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Baz kaynaklı fog",
+      "B": "Karakteristik eğri",
+      "C": "Kontrast",
+      "D": "Çizgi fokus kuralı",
+      "E": "İdeal densite aralığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Hiç ışın almamış (ekspoz edilmemiş) bir radyografik filmin banyo işlemi yapıldığında ortalama 0,1-0,2 civarında doğal bir densite göstermesine baz kaynaklı fog (base plus fog) denir. Bu durum baz tabakanın kendi densitesinden, tabakaya eklenen boyalardan ve ışın almamış bazı gümüş bromid kristallerinin banyoda kendiliğinden tepkimeye girmesinden kaynaklanır.\n**Çeldiriciler:**\n- B) Karakteristik eğri, ekspoz miktarı ile radyografik dansite arasındaki logaritmik ilişkiyi gösteren grafiktir.\n- C) Kontrast, bir radyograf üzerindeki farklı bölgeler arasındaki densite (koyuluk-açıklık) farkıdır.\n- D) Çizgi fokus kuralı, anottaki hedef (target) materyale açı verilerek ısıyı geniş alana yayarken efektif fokal spot boyutunu küçültme prensibidir.\n- E) İdeal densite aralığı, tanısal radyolojide kabul gören 0,5 ile 2,5 arasındaki optik kararma değerleridir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 106,
+    "question": "Aşağıdakilerden hangisi ikinci banyo solüsyonu içinde bulunan maddelerden biri değildir?",
+    "options": {
+      "A": "Asetik asit",
+      "B": "Su",
+      "C": "Alüminyum sülfat",
+      "D": "Hidrokinon",
+      "E": "Amonyum tiosülfat"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hidrokinon (parahidroksi benzen), ikinci banyo (fiksaj/sabitleyici) solüsyonunda değil, birinci banyo (developer/geliştirici) solüsyonunda bulunan ana indirgeyici (redükleyici) ajandır. Gümüş bromid kristallerinden metalik gümüşü ayırarak radyografik kontrastı oluşturur.\n**Çeldiriciler:**\n- A) Asetik asit ikinci banyoda bulunur; ortamın asiditesini sağlar ve film üzerinde kalan geliştirici ajanı nötralize eder.\n- B) Su her iki banyo solüsyonunda da çözücü (eritici) madde olarak yer alır.\n- C) Alüminyum sülfat (veya potasyum alum) ikinci banyoda bulunur ve jelatin emülsiyon tabakasını sertleştirerek büzüştürür.\n- E) Amonyum tiosülfat (veya sodyum tiosülfat) ikinci banyonun ana temizleyici ajanıdır; ışın almamış gümüş bromid kristallerini filmden çözer ve uzaklaştırır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 107,
+    "question": "Birinci banyo solüsyon bileşikleri ve fonksiyonları ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Elon gri tonlarını geliştirir",
+      "B": "Sodyum karbonat ortam alkalitesinden sorumludur",
+      "C": "Potasyum bromid sıcaklığa bağlı fog oluşumunu engeller",
+      "D": "Hidrokinon detayı ortaya çıkarır",
+      "E": "Sodyum sülfit solüsyon ömrünü uzatır"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Birinci banyo solüsyonunda bulunan hidrokinon, yüksek kontrast oluşumundan (siyah-beyaz alanların belirginleşmesinden) sorumludur ve sıcaklığa duyarlıdır. Filmin gölgeli alanlarını, ara gri tonlarını geliştiren ve radyografik detayı ortaya çıkaran madde hidrokinon değil, elon (metol / paraamino fenol sülfat) bileşiğidir.\n**Çeldiriciler:**\n- A) Elon (metol), indirgeme işlemini hızla başlatarak filmin gri tonlarını ve detayını geliştirir.\n- B) Sodyum karbonat (aktivatör), solüsyonun bazik (alkali) olmasını sağlar ve jelatin emülsiyonu şişirerek indirgeyici ajanların kristallere nüfuz etmesini kolaylaştırır.\n- C) Potasyum bromid (kısıtlayıcı/restrainer), ışınlanmamış gümüş bromid kristallerinin banyo tarafından indirgenmesini önleyerek kimyasal fog oluşumunu engeller.\n- E) Sodyum sülfit (koruyucu/prezervatif), geliştirici ajanların (elon ve hidrokinon) havadaki oksijenle okside olmasını engelleyerek solüsyonun kullanım ömrünü uzatır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 108,
+    "question": "Aşağıdakilerden hangisi banyo işleminde redüksiyondan sorumludur?",
+    "options": {
+      "A": "Asetik asit",
+      "B": "Su",
+      "C": "Sodyum sülfit",
+      "D": "Hidrokinon",
+      "E": "Sodyum tiosülfat"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hidrokinon, birinci banyo (geliştirici) solüsyonunda yer alan redükleyici (indirgeyici) maddedir. Ekspoz olmuş gümüş bromid tuzlarındaki gümüş iyonlarını metalik siyah gümüşe indirgeyerek (redükte ederek) radyografta kontrast oluşumunu sağlar.\n**Çeldiriciler:**\n- A) Asetik asit ikinci banyoda ortam asiditesini sağlayan ve birinci banyodan taşınan alkali geliştiriciyi nötralize eden maddedir.\n- B) Su her iki banyoda da kimyasalların çözünmesini sağlayan eritici ortamdır.\n- C) Sodyum sülfit solüsyonların oksidasyonunu önleyen koruyucu (prezervatif) maddedir.\n- E) Sodyum tiosülfat ikinci banyoda bulunan ve ekspoz olmamış gümüş bromid kristallerini emülsiyondan uzaklaştıran sabitleyici (fiksatif) ajandır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 109,
+    "question": "Aşağıdakilerden hangisi radyograf kontrastını etkileyen faktörlerden biri değildir?",
+    "options": {
+      "A": "Objenin kalınlığı",
+      "B": "Objenin dansitesi",
+      "C": "Objenin atom numarası",
+      "D": "Banyo solüsyonunun sıcaklığı",
+      "E": "Radyografi çekim tekniği"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Radyografi çekim tekniğinin (örneğin paralel teknik veya açıortay tekniği kullanılmasının) radyografik kontrast üzerinde hiçbir etkisi yoktur. Aynı ekspoz ve banyo koşullarında farklı çekim teknikleriyle alınan filmlerin kontrastları arasında fark gözlenmez; çekim tekniği yalnızca geometrik özellikleri ve detayı etkiler.\n**Çeldiriciler:**\n- A) Objenin kalınlığı X-ışınlarının atenüasyon oranını değiştirerek obje kontrastını doğrudan etkiler.\n- B) Objenin fiziksel dansitesi (yoğunluğu) fotonların absorpsiyon miktarını belirleyerek kontrast üzerine etki eder.\n- C) Objenin atom numarası fotoelektrik absorpsiyon olasılığını belirlediği için radyografik kontrastı doğrudan etkiler.\n- D) Birinci banyo solüsyonunun sıcaklığı (özellikle sıcaklığa duyarlı olan hidrokinonun aktivitesi üzerinden) film kontrastını doğrudan değiştirir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 110,
+    "question": "Radyografik kontrast aşağıdakilerden hangisine bağlı değildir?",
+    "options": {
+      "A": "Voltaj değeri",
+      "B": "Işınlama süresi",
+      "C": "Devrelerdeki akım",
+      "D": "Objenin yoğunluğu",
+      "E": "Radyografi çekim tekniği"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Radyografik kontrast; ışın kalitesine (kVp), ışın miktarına (mA ve süre), objenin özelliklerine, film özelliklerine ve banyo şartlarına bağlıdır. Radyografi çekim tekniği ise projeksiyon geometrisini ve görüntü netliğini etkiler, kontrastı etkilemez.\n**Çeldiriciler:**\n- A) Voltaj değeri (kVp) kontrast üzerinde primer etkiye sahiptir; kVp arttıkça penetrasyon ve saçılma artar, kontrast düşer (uzun skala oluşur).\n- B) Işınlama süresi aşırı artırıldığında veya azaltıldığında optimal dansite aralığından çıkılacağı için kontrast azalır.\n- C) Devrelerdeki akım (mA) miktarı filmin genel kararma derecesini değiştirerek dolaylı yoldan kontrastı etkiler.\n- D) Objenin yoğunluğu (dansitesi), X-ışınlarının farklı bölgelerde farklı oranlarda tutulmasını sağlayarak kontrastı oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 111,
+    "question": "Radyograf kontrastını etkileyen faktörlerle ilgili aşağıdaki seçeneklerden hangisi doğru değildir?",
+    "options": {
+      "A": "Filmlerin saklanma koşulları kontrastı etkiler.",
+      "B": "Banyo özellikleri kontrastı etkiler.",
+      "C": "Fog kontrastı düşürür.",
+      "D": "Skatter radyasyon kontrastı düşürür.",
+      "E": "Cihazın kVp'si arttıkça kontrast artar."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Cihazın kVp değeri arttıkça oluşan X-ışınlarının dalga boyu kısalır, penetrasyon gücü ve Compton saçılması (skatter) artar. Bunun sonucunda radyografta çok sayıda gri ara ton (uzun skala) oluşur ve radyografik kontrast artmaz, aksine düşer. Yüksek kontrast (kısa skala) düşük kVp değerlerinde elde edilir.\n**Çeldiriciler:**\n- A) Filmlerin uygun olmayan sıcak ve nemli koşullarda saklanması fog oluşumuna yol açarak kontrastı düşürür.\n- B) Banyo solüsyonlarının süresi, sıcaklığı ve tazeliği (özellikle birinci banyodaki hidrokinon aktivitesi) kontrastı doğrudan etkiler.\n- C) Fog, film üzerinde istenmeyen homojen bir dansite artışına (grileşmeye) yol açarak kontrastı düşürür.\n- D) Skatter (saçılma) radyasyonu filmi rastgele etkileyip foga neden olduğu için görüntü kontrastını azaltır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 112,
+    "question": "Ağız içi radyografi tekniklerinden biri olan paralel teknikle ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Diş ve film birbirine paralel olmalıdır.",
+      "B": "X-ışınları, film ve dişe dik olarak gönderilmelidir.",
+      "C": "Işın kaynağı-diş arası mesafe mümkün olduğu kadar kısa olmalıdır.",
+      "D": "Diş-film mesafesi mümkün olduğu kadar kısa olmalıdır.",
+      "E": "Fokal spot küçük olmalıdır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** İdeal projeksiyon geometrisini sağlayan paralel teknikte, ışınların birbirine daha paralel olan merkezi kısmını kullanmak ve magnifikasyonu (görüntü büyümesini) önlemek amacıyla ışın kaynağı (fokal spot) ile diş (obje) arasındaki mesafe kısa değil, mümkün olduğu kadar uzun (40 cm'lik uzun kon) olmalıdır.\n**Çeldiriciler:**\n- A) Şekil bozukluğunu (distorsiyonu) önlemek için dişin uzun ekseni ile film düzlemi birbirine paralel yerleştirilmelidir.\n- B) Merkezi X-ışını hem dişin uzun eksenine hem de film düzlemine dik (90 derece) gelecek şekilde yönlendirilmelidir.\n- D) Görüntü büyümesini (magnifikasyonu) ve penumbrayı en aza indirmek için diş ile film arasındaki mesafe anatomik olarak mümkün olduğunca yakın tutulmalıdır.\n- E) Penumbra (yarı gölge) oluşumunu azaltıp görüntü netliğini (detayı) artırmak için cihazın fokal spotu mümkün olduğunca küçük olmalıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 113,
+    "question": "İntra-oral radyografi tekniği olan paralel teknik için aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "30 cm'lik kon kullanılır.",
+      "B": "Merkezi ışın diş-film arasındaki açının açı-ortayına dik olarak gönderilir.",
+      "C": "Fokal spot küçük olmalıdır.",
+      "D": "Fokal spot- film mesafesi kısa olmalıdır.",
+      "E": "Obje- film mesafesi uzun olmalıdır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Paralel teknikte yüksek geometrik çözünürlük ve netlik elde etmek, penumbra (bulanıklık) oluşumunu önlemek için X-ışını tüpündeki fokal spot boyutu mümkün olduğunca küçük olmalıdır.\n**Çeldiriciler:**\n- A) Paralel teknikte 30 cm'lik değil, 40 cm'lik uzun kon kullanılır (kısa kon 20 cm'dir).\n- B) Merkezi ışının diş ve film arasındaki açının açıortayına dik gönderilmesi paralel tekniğin değil, açıortay (bisecting angle) tekniğinin kuralıdır.\n- D) Magnifikasyonu engellemek için fokal spot-film mesafesi kısa değil, uzun olmalıdır.\n- E) Görüntü netliğini korumak ve büyümeyi azaltmak için obje-film mesafesi mümkün olduğunca kısa olmalıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 114,
+    "question": "Üst molar bölgede zygoma süperpozisyonunu önlemek için gerçekleştirilen intraoral görüntüleme tekniğe ne ad verilir?",
+    "options": {
+      "A": "Açıortay Tekniği",
+      "B": "Paralel Teknik",
+      "C": "Le-Master Tekniği",
+      "D": "Donovan Tekniği",
+      "E": "Bite-wing Tekniği"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Üst molar bölgeden açıortay tekniği ile periapikal radyografi alınırken kullanılan dikey açılama nedeniyle zigomatik ark ve maksiller sinüs tabanı molar diş kökleri üzerine süperpoze olur. Bunu önlemek için filmin kuron kısmına (palatinal mukozaya) pamuk rulo yerleştirilerek filmin dişe paralelliği artırılır ve dikey açı azaltılarak merkezi ışın filme dik verilir; bu modifikasyona Le-Master tekniği denir.\n**Çeldiriciler:**\n- A) Açıortay tekniği standart periapikal çekim yöntemidir ve üst molar bölgede yüksek dikey açı gerektirdiği için zigoma süperpozisyonuna neden olur.\n- B) Paralel teknik tüm ağız içi periapikal çekimlerde kullanılan temel standart yöntemdir, pamuk rulo ile yapılan özel modifikasyonun adı değildir.\n- D) Donovan tekniği, alt gömülü 20 yaş dişlerinin vestibül-lingual konumunu belirlemek için filmin angulusla 45 derece açı yapacak şekilde yerleştirildiği oklüzal/periapikal modifikasyondur.\n- E) Bite-wing (ısırma kanatlı) tekniği, maksilla ve mandibuladaki arka dişlerin kuronlarını ve alveol kret tepelerini görüntülemek için kullanılır, apeksleri göstermez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 115,
+    "question": "Açıortay tekniği ile periapikal bir radyograf alınırken merkezi ışın filme dik gelirse aşağıdakilerden hangisi olur?",
+    "options": {
+      "A": "Kökler kısa görünür.",
+      "B": "Migrasyon oluşur.",
+      "C": "Radyoopak görüntü oluşur.",
+      "D": "Radyolusent görüntü oluşur.",
+      "E": "Kökler uzun görünür."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Açıortay tekniğinde merkezi ışın, dişin uzun ekseni ile film düzlemi arasındaki açının açıortayına dik yönlendirilmelidir. Eğer merkezi ışın açıortay yerine doğrudan filme dik verilirse (dikey açı gereğinden fazla artırılırsa), dişin görüntüsü gerçek boyutundan daha kısa (foreshortening / köklerin kısa görünmesi) oluşur.\n**Çeldiriciler:**\n- B) Migrasyon dişlerin fizyolojik veya patolojik olarak çene kemiği içinde yer değiştirmesidir, projeksiyon hatası değildir.\n- C) Radyoopak görüntü oluşumu ışın açısıyla değil, objenin yoğunluğu veya düşük ekspoz/banyo parametreleriyle ilgilidir.\n- D) Radyolusent görüntü oluşumu aşırı ekspoz veya düşük doku yoğunluğu ile ilgilidir, dikey açı hatasıyla oluşmaz.\n- E) Köklerin uzun görünmesi (elongasyon), merkezi ışının filme değil, dişin uzun eksenine dik gelmesi (dikey açının yetersiz verilmesi) sonucunda meydana gelir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 116,
+    "question": "Aşağıdakilerden hangisi periapikal bir radyografta izlenebilecek çekim tekniğine bağlı artifaktlardan biri değildir?",
+    "options": {
+      "A": "Retikülasyon",
+      "B": "Köklerin uzun izlenmesi",
+      "C": "Köklerin kısa izlenmesi",
+      "D": "Süperpozisyonlar",
+      "E": "Distorsiyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Retikülasyon çekim tekniğine bağlı bir hata değil, banyo (processing) hatasıdır. Birinci ve ikinci banyo solüsyonları (veya yıkama suyu) arasındaki sıcaklık farkının çok yüksek olması sonucunda filmdeki jelatin emülsiyon tabakasının ani genleşme ve büzülmeye uğrayarak çatlaması (portakal kabuğu görünümü) olayıdır.\n**Çeldiriciler:**\n- B) Köklerin uzun izlenmesi (elongasyon), açıortay tekniğinde merkezi ışının dişe dik verilmesi (yetersiz dikey açı) sonucu oluşan bir çekim hatasıdır.\n- C) Köklerin kısa izlenmesi (foreshortening), açıortay tekniğinde merkezi ışının filme dik verilmesi (aşırı dikey açı) sonucu oluşan bir çekim hatasıdır.\n- D) Süperpozisyonlar, merkezi ışının dişlerin aproksimal yüzeylerine paralel (dik) geçmemesi (hatalı yatay açılama) sonucu oluşan çekim artifaktıdır.\n- E) Distorsiyon, ışınlama sırasında filmin hasta ağzında aşırı bükülmesi veya film-obje ilişkisinin bozulması sonucu oluşan çekim tekniği hatasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 118,
+    "question": "Mandibular lingual bölgede bulunan yabancı bir cismin lokalizasyonunun tespit edilmesi amacıyla alınan periapikal radyograftan sonra, tüp distalden açılandırılarak ikinci bir radyograf alınacak olursa, yabancı cismin ikinci görüntüdeki yer değişimi nasıl olur?",
+    "options": {
+      "A": "Distale doğru hareket eder.",
+      "B": "Meziale doğru hareket eder.",
+      "C": "Sabit kalır.",
+      "D": "Superiora doğru hareket eder.",
+      "E": "İnferiora doğru hareket eder."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Paralaktik (Clark / SLOB - Same Lingual Opposite Buccal) tekniğe göre, ışın kaynağına (tüpe) uzak olan yani lingual veya palatinal tarafta yer alan objeler, ikinci radyografide tüpün hareket ettirildiği yön ile aynı yönde yer değiştirir. Yabancı cisim lingual bölgede olduğu için tüp distale kaydırıldığında cisim de ikinci radyografta distale doğru hareket eder.\n**Çeldiriciler:**\n- B) Meziale doğru (tüpün tersi yönünde) hareket etmesi için yabancı cismin lingualde değil, tüpe yakın olan vestibül (bukkal) bölgede bulunması gerekir.\n- C) Cismin sabit kalması için referans alınan diş kökü ile tamamen aynı bukko-lingual düzlemde yer alması gerekir.\n- D) Tüp yatay (horizontal) düzlemde distale kaydırıldığı için cisimde superior yönlü dikey bir yer değişimi gözlenmez.\n- E) İnferiora doğru hareket dikey (vertikal) shift-sketch yöntemlerinde izlenir, yatay kaydırmada oluşmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 119,
+    "question": "I. Distale doğru\nII. Mesiale doğru\nIII. İnferiora doğru\nIV. Superiora doğru\n\nKök-kanal tedavisi yapılan maksiller I. premolar dişin palatinal kökünde taşkınlık olup olmadığının anlaşılması için alınan ikinci radyografta tüp konumunun aşağıdakilerden hangi şekillerde değiştirilmesi uygundur?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "II ve IV",
+      "D": "III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Bukkal ve palatinal olmak üzere iki köke sahip olan maksiller birinci premolar dişin köklerinin birbirine süperpozisyonunu ortadan kaldırmak için horizontal paralaktik teknik (Clark / SLOB yöntemi) kullanılır. Bunun için tüp yatay düzlemde mesiale veya distale kaydırılarak ışınlama yapılır; tüp mesiale kaydırıldığında palatinal kök mesialde, distale kaydırıldığında ise distalde ayrı olarak izlenir.\n**Çeldiriciler:**\n- B) Üçüncü öncüldeki inferiora kaydırma dikey açıyı değiştirir, bukkal ve palatinal kökleri yatayda birbirinden ayırmaz.\n- C) Dördüncü öncüldeki superiora kaydırma dikey düzlemde gerçekleştiği için üst üste çakışan bukkal-palatinal kökleri ayırmada etkisizdir.\n- D) İnferior ve superior yönlü hareketler vertikal shift yöntemi olup mandibular kanal-kök ilişkisi gibi dikey komşulukları incelemede kullanılır.\n- E) Üçüncü ve dördüncü öncüller yatay süperpozisyonu çözmediği için doğru değildir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; tüpün distale kaydırılması horizontal açıyı değiştirerek palatinal kökün distale doğru ayrılmasını sağlar.\n- II. Doğrudur; tüpün mesiale kaydırılması horizontal açıyı değiştirerek palatinal kökün mesiale doğru ayrılmasını sağlar.\n- III. Yanlıştır; tüpün inferiora hareket ettirilmesi dikey açıyı değiştirir ve kök boylarında uzamaya yol açar, kökleri yan yana ayırmaz.\n- IV. Yanlıştır; tüpün superiora hareket ettirilmesi dikey açıyı artırarak kök boylarında kısalmaya yol açar, süperpozisyonu gidermez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 120,
+    "question": "Vertikal shift-sketch yöntemi ile alt 8 nolu dişin köklerinin mandibular kanal ile ilişkisinin belirlenmesinde, kanal tüpe uzaksa yani köklerin lingualinde ise, birinci ile kıyaslandığında ikinci radyografta (x ışını okluzal planın -25° altından verildiğinde) kanal durumu nasıl değişir?",
+    "options": {
+      "A": "Kanal aşağı doğru hareket eder.",
+      "B": "Kanal yukarı doğru hareket eder.",
+      "C": "Kanal ilk radyografle aynı yerde izlenir.",
+      "D": "Vertikal değil, horizontal yöntem kullanılmalıdır.",
+      "E": "Kökler ikinci radyografta izlenmez."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Vertikal shift-sketch (Richards / Frank) metodunda ilk film oklüzal plana paralel (0°) ışınlama ile, ikinci film ise tüp oklüzal planın -25° altına (inferiora) indirilerek alınır. SLOB (Same Lingual Opposite Buccal) kuralı dikey düzlemde de geçerlidir: Tüp aşağı (-25°) hareket ettirildiğinde, tüpe uzak (lingualde) olan mandibular kanal da tüple aynı yönde yani aşağı (inferiora) doğru hareket eder.\n**Çeldiriciler:**\n- B) Kanalın yukarı (tüpün tersi yönde) hareket etmesi için mandibular kanalın köklerin lingualinde değil, tüpe yakın olan bukkalinde yer alması gerekir.\n- C) Kanalın ilk radyografla aynı yerde izlenmesi, kanalın köklerin tam arasından (aynı bukko-lingual düzlemden) geçtiğini gösterir.\n- D) Mandibular kanal yatay olarak uzanan bir yapı olduğundan köklerle olan bukko-lingual ilişkisini belirlemek için horizontal değil, vertikal shift yöntemi kullanılmalıdır.\n- E) -25° açılama ile alınan ikinci radyografta hem diş kökleri hem de mandibular kanal net şekilde izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 6 - Radyografi ve Banyo Tekniği",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,393 @@
+[
+  {
+    "q_num": 136,
+    "question": "Aşağıdakilerden hangisi filmin yapısının dıştan içe doğru sıralanmasıdır?",
+    "options": {
+      "A": "Koruyucu tabaka-emülsiyon tabakası-baz tabakası",
+      "B": "Emülsiyon tabakası-baz tabakası-koruyucu tabaka",
+      "C": "Koruyucu tabaka-baz tabakası-emülsiyon tabakası",
+      "D": "Emülsiyon tabakası-koruyucu tabaka-baz tabakası",
+      "E": "Baz tabakası-emülsiyon tabakası-koruyucu tabaka"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** İntraoral radyografik filmin en iç (merkez) kısmında filme dayanıklılık veren şeffaf plastik baz tabakası (base) yer alır. Baz tabakasının her iki yüzüne yapıştırıcı tabaka aracılığıyla gümüş bromid kristalleri içeren jelatin emülsiyon tabakası sürülmüştür. En dışta ise emülsiyonu mekanik hasarlardan ve banyo sırasındaki aşınmalardan koruyan ince koruyucu tabaka bulunur.\n**Çeldiriciler:**\n- B) Emülsiyon tabakası en dışta yer almaz, koruyucu tabakanın altında bulunur; baz tabakası ise en içtedir.\n- C) Baz tabakası ortada değil en içtedir; emülsiyon tabakası baz ile koruyucu tabaka arasında yer alır.\n- D) En dışta emülsiyon değil koruyucu tabaka bulunur.\n- E) Verilen sıralama dıştan içe değil, içten dışa doğru yapılmıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 137,
+    "question": "I. Baz tabaka\nII. Emülsiyon tabakası\nIII. Koruyucu tabaka\n\nYukarıdakiler hangisi veya hangileri intraoral filmin yapısında bulunur?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "II ve III",
+      "C": "I ve II",
+      "D": "Yalnız II",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** İntraoral röntgen filminin yapısında en içte destek sağlayan baz tabakası, onun iki yüzünde ışığa ve X-ışınına duyarlı kristalleri barındıran emülsiyon tabakası ve en dışta tüm bu yapıları fiziksel etkilere karşı saran koruyucu jelatin tabaka yer alır.\n**Çeldiriciler:**\n- B) Filmin temel taşıyıcı iskeleti olan baz tabakası eksik bırakılmıştır.\n- C) Emülsiyonu çizilme ve banyo hasarlarından koruyan en dıştaki koruyucu tabaka eksik bırakılmıştır.\n- D) Sadece emülsiyon tabakası tek başına bir film oluşturamaz; baz ve koruyucu tabakalar da mevcuttur.\n- E) Sadece baz tabakası ışına duyarlı değildir; emülsiyon ve koruyucu tabakalar da filmin yapısında bulunur.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; baz tabaka filmin merkezinde yer alan ve emülsiyonu taşıyan bükülmez/dayanıklı polyester tabakadır.\n- II. Doğrudur; emülsiyon tabakası jelatin matriks içinde homojen dağılmış gümüş halid (AgBr) kristallerini içeren aktif tabakadır.\n- III. Doğrudur; koruyucu tabaka emülsiyonun iki yüzünü en dıştan örterek fiziksel koruma sağlar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 139,
+    "question": "Fokal spot açısı azaltılırsa oluşan X ışınlarının yoğunluğu anot tarafında daha az olur.\n\nBu durum aşağıdakilerden hangisiyle tanımlanır?",
+    "options": {
+      "A": "Topuk etkisi",
+      "B": "Çizgi fokus",
+      "C": "Hedef açısı",
+      "D": "Efektif fokal spot",
+      "E": "Rektifikasyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Açılı yerleştirilen hedef (target) materyalde oluşan X-ışını fotonlarının bir kısmı anot materyalinin kendi yapısı içinde yol alırken atenüasyona (absorpsiyona) uğrar. Bunun sonucunda ışın demetinin yoğunluğu anot tarafında katot tarafına göre daha düşük olur; bu fenomene \"Topuk etkisi\" (Heel effect) adı verilir.\n**Çeldiriciler:**\n- B) Çizgi fokus, hedef açısının küçültülmesiyle gerçek fokal spot geniş tutulurken efektif fokal spot alanının küçültülmesi prensibidir.\n- C) Hedef açısı, tungsten target yüzeyinin merkezi X-ışını demetiyle (veya dikey düzlemle) yaptığı açıdır.\n- D) Efektif fokal spot, açılı yerleştirilmiş gerçek fokal spotun film düzlemi üzerindeki dik izdüşümüdür.\n- E) Rektifikasyon, röntgen tüpünde alternatif akımın doğru akıma dönüştürülmesi işlemidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 140,
+    "question": "Aşağıdakilerden hangisi radyografta detayı olumsuz etkiler?",
+    "options": {
+      "A": "Topuk etkisi",
+      "B": "Fokal spotun küçük olması",
+      "C": "Fokal spot- obje mesafesinin fazla olması",
+      "D": "Filmin emülsiyon kısmındaki gümüş bromid kristalleri küçük olması",
+      "E": "Filmin emülsiyon kısmındaki gümüş bromidin dağılımının homojen olması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Açılı yerleştirilen fokal spotta anot tarafında katettikleri mesafe nedeniyle fotonların atenüasyona uğrayıp yoğunluğunun azalması olan topuk etkisi (heel effect), ışın demetinin homojenliğini bozarak radyografik detayı olumsuz etkiler.\n**Çeldiriciler:**\n- B) Fokal spotun küçük olması penumbra (yarı gölge) oluşumunu azaltarak detayı olumlu etkiler.\n- C) Fokal spot-obje mesafesinin fazla olması ışınların diverjansını azaltarak magnifikasyonu önler ve detayı artırır.\n- D) Emülsiyondaki gümüş bromid kristallerinin küçük olması çözünürlüğü ve görüntü detayını artırır.\n- E) Gümüş bromid kristallerinin emülsiyonda homojen dağılması keskinliği ve detayı iyileştirir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 141,
+    "question": "I. Büyüklüğü\nII. Dağılımı\nIII. Şekli\n\nDental filmdeki gümüş bromid kristaline ait yukarıdaki özelliklerden hangisi ya da hangileri hem film hızı hem de detaya etki eder?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Film emülsiyonundaki gümüş bromid (AgBr) kristallerinin ortalama büyüklüğü hem film hızında hem de görüntü detayında doğrudan etkilidir. Kristallerin büyüklüğü arttıkça film hızlanır (daha az doz gerektirir) ancak görüntü detayı (netliği) bozulur; kristaller küçüldükçe detay artar fakat film hızı düşer.\n**Çeldiriciler:**\n- B) Kristallerin dağılımı yalnızca görüntü detayı üzerinde etkilidir, film hızına etkisi yoktur.\n- C) İkinci öncül film hızını etkilemediği için her iki özelliği birden etkileyenler arasında yer almaz.\n- D) Üçüncü öncüldeki kristal şekli hem hızı hem detayı belirleyen temel ortak parametre olarak kabul edilmez.\n- E) Yalnızca birinci öncül hem hız hem de detay üzerinde eşzamanlı etkiye sahiptir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; gümüş bromid kristallerinin büyüklüğü arttıkça film hızı artar, görüntü detayı ise azalır.\n- II. Yanlıştır; kristallerin homojen dağılımı sadece detayı olumlu etkiler, film hızına etki etmez.\n- III. Yanlıştır; esas belirleyici olan kristalin ortalama büyüklüğüdür, şekli bu kapsamda değerlendirilmez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 142,
+    "question": "Radyografik detayla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Fokal spot-obje mesafesi arttıkça detay artar.",
+      "B": "Fokal spot büyüklüğü arttıkça detay artar.",
+      "C": "Gümüş bromid kristallerinin boyutu arttıkça detay artar.",
+      "D": "Objenin kalınlığı arttıkça detay artar.",
+      "E": "Işınlama süresi arttıkça detay artar."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Fokal spot (ışın kaynağı) ile obje arasındaki mesafe arttıkça, objeye ulaşan X-ışınları birbirine daha paralel hale gelir; böylece penumbra (kenar bulanıklığı) ve magnifikasyon azalarak radyografik detay artar.\n**Çeldiriciler:**\n- B) Fokal spot büyüklüğü arttıkça penumbra (yarı gölge) artar ve görüntü detayı bozulur.\n- C) Gümüş bromid kristallerinin boyutu arttıkça film hızı artar ancak çözünürlük ve detay azalır.\n- D) Objenin kalınlığı arttıkça saçılma (skatter) ve obje-film mesafesi artacağı için detay azalır.\n- E) Işınlama süresi arttıkça hastanın veya tüpün hareket etme olasılığı yükseldiği için hareket bulanıklığı gelişir ve detay bozulur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 143,
+    "question": "Radyografik detayı azaltan faktörler ile ilgili aşağıdakilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Işınlama süresinin azalması",
+      "B": "Çift emülsiyon kullanımı",
+      "C": "Ranforsatör kullanımı",
+      "D": "Radyosensitif boya kullanımı",
+      "E": "Ekstraoral film kasetlerinin arka kapaklarının ince olması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Işınlama süresinin azalması detayı azaltmaz; aksine çekim sırasında hastanın, filmin veya röntgen tüpünün hareket etme ihtimalini en aza indirdiği için hareket bulanıklığını önler ve radyografik detayı korur. Detayı azaltan durum ışınlama süresinin uzamasıdır.\n**Çeldiriciler:**\n- B) Çift emülsiyonlu filmlerde baz tabakasının iki yüzündeki görüntülerin hafif paralaks yaratması nedeniyle tek emülsiyona göre detay azalır.\n- C) Ranforsatör (güçlendirici screen) kullanımı, X-ışınlarının görünür ışığa dönüşümü sırasında ışık saçılmasına yol açarak detayı azaltır.\n- D) Emülsiyona radyosensitif boya eklenmesi film hızını artırırken radyografik detayı azaltır.\n- E) Ekstraoral kasetlerin arka kapaklarının ince olması ışığın geriye yansımasına (halasyon artifaktına) neden olarak detayı olumsuz etkiler.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 144,
+    "question": "I. Işın kaynağı-obje mesafesinin artması\nII. Işın kaynağı-film mesafesinin azalması\nIII. Obje-film mesafesinin azalması\n\nYukarıdakilerden hangileri, periapikal bir radyografta görüntü netliğinin artmasında etkili olan faktörlerdendir?",
+    "options": {
+      "A": "I ve III",
+      "B": "II ve III",
+      "C": "I ve II",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Periapikal radyografta görüntü netliğini ve geometrik keskinliği artırmak için ışın kaynağı ile obje arasındaki mesafe artırılmalı (uzun kon kullanılmalı) ve obje ile film arasındaki mesafe mümkün olduğunca kısaltılmalıdır.\n**Çeldiriciler:**\n- B) İkinci öncül yanlıştır; ışın kaynağı-film mesafesinin azalması magnifikasyonu ve penumbrayı artırarak netliği bozar.\n- C) İkinci öncül netliği azaltıcı etki gösterir.\n- D) Birinci öncülün yanı sıra üçüncü öncül de netliği artıran temel geometrik kurallardandır.\n- E) İkinci öncül yanlış bir ifadedir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; ışın kaynağı-obje mesafesinin artması ışın diverjansını azaltarak görüntü netliğini artırır.\n- II. Yanlıştır; ışın kaynağı-film mesafesinin azalması bulanıklığı (penumbrayı) artırarak netliği düşürür.\n- III. Doğrudur; obje ile film arasındaki mesafenin azaltılması görüntünün büyümesini ve bulanıklaşmasını önleyerek netliği artırır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 146,
+    "question": "I. Görüntü için ranforsatör gerekir.\nII. Ekstraoral radyografide kullanılır.\nIII. Görünür ışıkla ekspoz olur.\n\nScreen filmler ile ilgili olarak yukarıdakilerden hangisi ya da hangileri doğrudur?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "II ve III",
+      "C": "I ve III",
+      "D": "I ve II",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Diş hekimliğinde ekstraoral görüntüleme yöntemlerinde (panoramik, sefalometrik vb.) hasta dozunu azaltmak için ranforsatör (intensifying screen) kasetleri ile birlikte screen filmler kullanılır. Ranforsatörler X-ışınına maruz kaldığında görünür ışık (floresans) yayar ve screen filmler esas olarak bu görünür ışık ile ekspoz olur.\n**Çeldiriciler:**\n- B) Birinci öncül de doğrudur; screen filmler tek başına X-ışınına yeterince duyarlı olmadığından görüntü oluşumu için ranforsatör gerektirir.\n- C) İkinci öncül de doğrudur; bu filmler kasetler içinde ekstraoral radyografide kullanılır.\n- D) Üçüncü öncül de doğrudur; ranforsatörden yayılan mavi veya yeşil görünür ışıkla ekspoz olurlar.\n- E) İkinci ve üçüncü öncüller de doğru ifadelerdir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; screen filmlerin ekspoz olabilmesi için X-ışınını görünür ışığa çeviren ranforsatörlere (intensifying screen) ihtiyaç vardır.\n- II. Doğrudur; kaset sistemleri içinde ekstraoral radyografi tekniklerinde kullanılırlar.\n- III. Doğrudur; doğrudan X-ışınından ziyade ranforsatördeki lüminifor maddelerin yaydığı görünür ışıkla ekspoz olurlar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 147,
+    "question": "Aşağıdakilerden hangisinde screen filmlerin nonscreen filmlerden primer farkı doğru olarak verilmiştir?",
+    "options": {
+      "A": "Görünür ışık ile ekspoz olması",
+      "B": "Işınlama süresinin uzun olması",
+      "C": "X-ışını ile ekspoz olması",
+      "D": "Baz tabakasının olması",
+      "E": "Kalın emülsiyon tabakası"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** İntraoral (nonscreen) filmler doğrudan X-ışını fotonlarının etkisiyle ekspoz olurken, ekstraoral kasetlerde kullanılan screen filmler güçlendirici skrin (ranforsatör) yapısındaki lüminifor maddelerin X-ışınını görünür ışığa çevirmesi sayesinde görünür ışıkla ekspoz olurlar.\n**Çeldiriciler:**\n- B) Screen filmlerde ranforsatör kullanıldığı için ışınlama süresi nonscreen filmlere göre uzun değil, çok daha kısadır.\n- C) Doğrudan X-ışını ile ekspoz olma özelliği screen filmlerin değil, nonscreen (intraoral) filmlerin primer özelliğidir.\n- D) Baz tabakası hem screen hem de nonscreen filmlerin yapısında ortak olarak bulunur.\n- E) Screen filmler daha ince emülsiyon yapısına sahiptir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 148,
+    "question": "I. Işığın güçlü olması\nII. Filmlerin saklandığı ortamın sıcak olması\nIII. Banyo sıcaklıklarının fazla olması\n\nYukarıdakilerin hangisi radyografide sisli görüntüye neden olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Radyografide \"sisli, puslu görüntü\" oluşmasına fog denir ve kontrastı düşürür. Karanlık odadaki emniyet ışığının çok güçlü/parlak olması (ışık fogu), filmlerin sıcak ortamda saklanması ve banyo solüsyonlarının sıcaklıklarının yüksek olması (kimyasal fog) filmde sisli görüntüye yol açar.\n**Çeldiriciler:**\n- A) Emniyet ışığının güçlü olmasının yanı sıra ikinci ve üçüncü öncüllerdeki sıcaklık artışları da foga neden olur.\n- B) Üçüncü öncüldeki yüksek banyo sıcaklığı da kimyasal fog oluşturur.\n- C) İkinci öncüldeki uygunsuz ve sıcak saklama koşulları da foga yol açar.\n- D) Birinci öncüldeki güçlü ışık faktörü de ışık foguna sebep olur.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; karanlık odadaki kırmızı emniyet ışığının çok parlak/güçlü olması veya filme çok yakın olması ışık fogu oluşturur.\n- II. Doğrudur; filmlerin sıcak ve nemli ortamlarda saklanması gümüş bromid kristallerini etkileyerek sisli görüntüye neden olur.\n- III. Doğrudur; banyo solüsyonlarının sıcaklığının fazla olması ışınlanmamış kristallerin de indirgenmesine yol açarak kimyasal fog oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 149,
+    "question": "I. Kırmızı ışığın yakın olması\nII. Film paketinin tükürük sızdırması\nIII. Sıcak banyo solüsyonları\n\nYukarıdaki durumlardan hangisi ya da hangileri radyografta sisli görüntü oluşumuna sebep olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Karanlık odada kırmızı emniyet ışığının çalışma alanına çok yakın olması (1,2 metreden yakın) ışık foguna, banyo solüsyonlarının sıcak olması ise kimyasal foga (sisli görüntüye) neden olur. Film paketinin ağızda tükürük sızdırması ise fog yapmaz; siyah kağıdın filme yapışmasına ve lokalize radyoopak/siyah lekelere yol açar.\n**Çeldiriciler:**\n- A) Birinci öncülün yanı sıra sıcak banyo solüsyonlarını belirten üçüncü öncül de sisli görüntüye sebep olur.\n- B) İkinci öncüldeki tükürük sızdırması genel bir sisli görüntü (fog) değil, lokalize leke artifaktı oluşturur.\n- C) Üçüncü öncüle ek olarak birinci öncül de ışık foguna neden olur.\n- D) İkinci öncül fog nedeni olmadığı için doğru kabul edilemez.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; kırmızı ışığın filme yakın olması ışık fogu yaratarak sisli görüntüye neden olur.\n- II. Yanlıştır; film paketinin tükürük sızdırması fog oluşturmaz, sadece lokalize radyoopak/koyu lekelere sebep olur.\n- III. Doğrudur; sıcak banyo solüsyonları aşırı aktivite göstererek filmde sisli görüntü (fog) oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 150,
+    "question": "I. Film içinde kurşun levha olmaması\nII. Karanlık odada yeşil ışık kullanılması\nIII. Banyo solüsyonlarının eski olması\nIV. Karanlık odada akkor ampul kullanılması\n\nYukarıdakilerden hangisi ya da hangileri filmde sisli görüntüye sebep olur?",
+    "options": {
+      "A": "I ve III",
+      "B": "II ve III",
+      "C": "I, II, III, IV",
+      "D": "II, III ve IV",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Film paketinin içinde kurşun levha (folyo) bulunmaması dokudan geriye saçılan (back-scatter) ışınların filmi etkileyerek skatter fogu oluşturmasına; karanlık odada kırmızı yerine dalga boyu kısa olan yeşil/mavi ışık kullanılması ışık foguna; banyo solüsyonlarının bayat/eski olması ise kimyasal foga neden olur. Karanlık odada emniyet filtresi altında akkor ampul kullanılması ise doğru uygulamadır (floresan ampul kullanılırsa \"after glow\" ışık fogu gelişir).\n**Çeldiriciler:**\n- A) İkinci öncüldeki yeşil ışık kullanımı da filme hızla etki ederek ışık fogu oluşturur.\n- B) Birinci öncüldeki kurşun levha eksikliği de skatter foguna yol açar.\n- C) Dördüncü öncül hata değil, karanlık odada yapılması gereken doğru uygulamadır.\n- D) Dördüncü öncül fog sebebi değildir, birinci öncül ise eksik bırakılmıştır.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; film içindeki kurşun plak dokudan saçılan ışınların filme ulaşmasını engeller, plak olmazsa skatter fogu oluşur.\n- II. Doğrudur; mavi ve yeşil ışık filme kırmızı ışıktan çok daha hızlı etki ederek ışık fogu oluşturur.\n- III. Doğrudur; banyo solüsyonlarının eski ve bayat olması filmde kimyasal fog oluşumunu tetikler.\n- IV. Yanlıştır; karanlık odada emniyet ışığı olarak zaten düşük güçlü (7,5-15 W) akkor ampul kullanılması gerekir, floresan ampul kullanılırsa kapandıktan sonra da ışıma (after glow) yaparak foga neden olur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 391,
+    "question": "Filmin içindeki kurşun yaprak hakkında aşağıdakilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Balık sırtı şeklinde artifakt yapabilir",
+      "B": "Filme sertlik verir",
+      "C": "Film ters yerleştirildiğinde densiteyi düşürebilir",
+      "D": "Filmi saçılmadan korur",
+      "E": "Skrin film kasetinde daha kalındır"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kurşun yaprak (folyo), intraoral (periapikal, bite-wing, oklüzal) film paketlerinin içinde filmin arka tarafında yer alır; ekstraoral skrin film kasetlerinin içinde kurşun yaprak bulunmaz (kasetin arka kapağı ağır metal/kurşun içerebilir ancak film paketi kavramındaki kurşun yaprak intraoral filmlere özgüdür).\n**Çeldiriciler:**\n- A) Film ağız içine ters yerleştirildiğinde X-ışınları kurşun yapraktaki kabartma deseninden geçerek film üzerinde \"balık sırtı\" (herringbone) veya lastik izi şeklinde radyoopak artefakt oluşturur.\n- B) İntraoral film paketine belirli bir rijidite (sertlik) kazandırarak ağız içinde aşırı bükülmesini önler.\n- C) Film ters konulduğunda X-ışınlarının büyük kısmı kurşun yaprak tarafından absorbe edildiği için filme ulaşan ışın azalır ve görüntü densitesi düşer (açık/soluk çıkar).\n- D) Filmin arkasındaki dokulardan geri yansıyan sekonder (saçılan) radyasyonu absorbe ederek görüntüde sislenmeyi (fog) önler ve hasta dokularını gereksiz radyasyondan korur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 392,
+    "question": "Aşağıdakilerden hangisi başarısız bir implantasyonda görülmez?",
+    "options": {
+      "A": "Sabitleyicinin kırılması",
+      "B": "İmplant çevresinde radyolusent bir çizgi",
+      "C": "İlk yıl içerisinde marjinal kemik kaybı oranı 0.8 mm",
+      "D": "Krestal kemikte kayıp",
+      "E": "İmplant etrafında apikale doğru migrasyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Başarılı bir dental implantasyonda yükleme sonrası ilk 1 yıl içerisinde 1-1.5 mm'ye (veya 1-2 mm'ye) kadar, takip eden yıllarda ise yıllık 0.1-0.2 mm marjinal kemik kaybı fizyolojik/normal kabul edilir. Dolayısıyla ilk yıl içinde 0.8 mm'lik marjinal kemik kaybı başarısızlık kriteri değildir.\n**Çeldiriciler:**\n- A) İmplant gövdesinin veya vida/sabitleyicinin kırılması mekanik başarısızlık göstergesidir.\n- B) İmplant yüzeyini çepeçevre saran ince radyolusent çizgi osseointegrasyonun gerçekleşmediğini (fibröz enkapsülasyonu) gösterir.\n- D) Fizyolojik sınırları aşan progresif krestal/marjinal kemik kaybı peri-implantitis ve başarısızlık bulgusudur.\n- E) Kemik ataşmanının apikale doğru migrasyonu (cep derinleşmesi ve kemik erimesi) başarısızlık bulgusudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 393,
+    "question": "Aşağıdakilerden hangisi implant radyolojisinde periapikal radyografinin avantajlarından birisi değildir?",
+    "options": {
+      "A": "Kolay erişilebilir olması",
+      "B": "Yüksek görüntü çözünürlüğü",
+      "C": "Geniş görüntüleme alanı",
+      "D": "Minimal distorsiyon",
+      "E": "Düşük radyasyon dozu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Periapikal radyografi yalnızca 2-4 dişlik sınırlı bir dentoalveoler bölgeyi görüntüler; geniş görüntüleme alanına sahip değildir (geniş görüntüleme alanı panoramik radyografi ve KIBT'nin avantajıdır).\n**Çeldiriciler:**\n- A) Her diş hekimliği kliniğinde bulunan röntgen cihazıyla kolayca uygulanabilir.\n- B) Tüm radyografik yöntemler arasında en yüksek uzaysal görüntü çözünürlüğüne (detay gücüne) sahiptir; peri-implant kemik trabeküllerini en net gösterir.\n- D) Paralel teknikle çekildiğinde geometrik distorsiyon ve magnifikasyon minimaldir.\n- E) Hasta açısından efektif radyasyon dozu ve maliyeti en düşük görüntüleme yöntemidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 394,
+    "question": "I. Mesio-distal genişlik\nII. Vertikal boyut\nIII. Bukko-lingual genişlik\n\nİmplant yerleştirilmesi aşamasında paralel teknikle alınmış radyografilerde alveoler kemik hakkında yukarıdakilerden hangisi ya da hangileri değerlendirilebilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "Yalnız III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Paralel teknikle alınan periapikal radyografiler 2 boyutlu görüntü sağladığı için yalnızca I ve II numaralı boyutlar değerlendirilebilir.\n- I. Doğru: Dişsiz boşluğun ve komşu kökler arası mesafenin mesio-distal genişliği ölçülebilir.\n- II. Doğru: Alveoler kret tepesi ile mandibular kanal veya maksiller sinüs tabanı arasındaki vertikal kemik yüksekliği değerlendirilebilir.\n- III. Yanlış: X-ışını bukko-lingual yönde geçtiği için kemiğin 3. boyutu olan bukko-lingual (vestibülo-palatinal) kalınlığı ve korono-apikal eğimi periapikal radyografide belirlenemez (bunun için KIBT gereklidir).\n**Çeldiriciler:**\n- A) II. öncül de değerlendirilebilir.\n- B) I. öncül de değerlendirilebilir.\n- D) III. öncül 2 boyutlu filmde ölçülemez.\n- E) III. öncül 2 boyutlu filmde ölçülemez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 395,
+    "question": "I. Servikal burn-out\nII. Hipoplazik fissürler\nIII. Atrizyon kaynaklı madde kaybı\nIV. Cam iyonomer siman dolgular\nV. Mine incileri\n\nYukarıdakilerden hangileri, radyografik tanıda çürükle karıştırılabilir görüntüye sahip değildir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve V",
+      "C": "II ve IV",
+      "D": "III ve IV",
+      "E": "IV ve V"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Çürük lezyonları mineral kaybı nedeniyle radyografide radyolusent izlenir. IV ve V numaralı yapılar ise radyoopak görüntü verdikleri için çürükle karıştırılmazlar.\n- I. Karışır: Servikal burn-out, kole bölgesinde X-ışını absorpsiyonunun azalmasına bağlı oluşan radyolusent gölge olup kök/aproksimal çürükle sık karışır.\n- II. Karışır: Hipoplazik fissürler ve çukurcuklar radyolusent görünüm vererek oklüzal/yüzey çürüğünü taklit eder.\n- III. Karışır: Atrizyon, abrazyon ve erozyon gibi sert doku kayıpları radyolusent alan oluşturarak çürükle karışabilir.\n- IV. Karışmaz: Günümüzdeki cam iyonomer siman dolgular radyoopasite veren ajanlar içerdiğinden radyoopak görünür ve çürükle karışmaz (eski nesil silikat/kalsiyum hidroksit veya radyoopak olmayan kompozitler karışır).\n- V. Karışmaz: Mine incileri (enameloma) molar furkasyon veya kök yüzeyinde oluşan ektopik mine topları olup yoğun radyoopak görüntü verirler; radyolusent çürükle karışmazlar.\n**Çeldiriciler:**\n- A) I ve II radyolusent oldukları için çürükle karışır.\n- B) I (servikal burn-out) çürükle en sık karışan artefakttır.\n- C) II radyolusent olduğu için çürükle karışır.\n- D) III madde kaybı olduğu için radyolusent görünür ve çürükle karışabilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 396,
+    "question": "Çürük radyolojisi için aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Mine-dentin sınırı boyunca genişleyen okluzal çürük radyolüsent çizgi olarak izlenir",
+      "B": "Erken arayüz çürüğü tepesi pulpaya bakan üçgen şeklinde radyolusent sahadır",
+      "C": "Çürük lezyonunun radyografta izlenebilmesi için %30-40 demineralizasyon gerekir",
+      "D": "Servikal burnout kök çürüğüyle karışabilir",
+      "E": "Aproksimal çürükler genellikle dişeti marjini altında başlar"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Aproksimal (arayüz) çürükleri dişeti marjininin altında değil, komşu dişlerin birbirine değdiği kontak noktasının hemen altında (veya üzerinde) ve serbest dişeti marjininin üzerindeki (koronalindeki) bölgede başlar. Dişeti marjininin altında, sement yüzeyinde başlayanlar kök çürükleridir veya servikal burn-out görüntüsüdür.\n**Çeldiriciler:**\n- A) Oklüzal çürükler mineyi geçip mine-dentin sınırına ulaştığında bu sınır boyunca yayılarak ince radyolusent bir çizgi/taban oluşturur.\n- B) Erken aproksimal mine çürüğü, dentinoenamel birleşime doğru ilerlerken tabanı dişin dış yüzeyinde, tepesi mine-dentin sınırına (pulpaya) bakan üçgen/kama şeklinde radyolusensi verir.\n- C) Bir çürük lezyonunun konvansiyonel radyografide seçilebilmesi için sert dokuda en az %30-40 oranında kalsiyum/fosfat (mineral) kaybı oluşmalıdır.\n- D) Dişin kole bölgesinde ışınların az tutulmasıyla oluşan servikal burn-out radyolusensisi klinik/radyografik olarak kök çürükleriyle sık karıştırılır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 397,
+    "question": "Merkezi ışın interproksimal aralıklardan dik olarak geçmez ise aşağıdakilerden hangisi oluşur?",
+    "options": {
+      "A": "Servikal burnout",
+      "B": "After glow",
+      "C": "Distorsiyon",
+      "D": "Statik elektrik",
+      "E": "Optik illüzyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Merkezi X-ışını komşu dişlerin kontak yüzeylerinden (interproksimal aralıktan) teğet/dik olarak geçmezse (yatay açılama hatası), komşu dişlerin mine tabakaları birbiri üzerine süperpoze olur. Süperpoze olan yüksek densiteli beyaz alanın komşuluğundaki alanlarda görsel yanılgı (Mach band etkisi / optik illüzyon) oluşur ve arayüz çürüklerinin teşhisi maskelenir veya yanlış yorumlanır.\n**Çeldiriciler:**\n- A) Servikal burnout: Yatay açılama hatasıyla değil, kole bölgesinin anatomik konkavitesi ve doku kalınlığının az olmasıyla oluşur.\n- B) After glow: Karanlık odadaki floresan ampul kaynaklı ışık sızıntısı hatasıdır.\n- C) Distorsiyon: Filmin bükülmesi veya dikey açılama hatalarına bağlı boy uzaması/kısalmasıdır.\n- D) Statik elektrik: Film paketinin kuru ortamda hızlı açılmasıyla oluşan ağaç dalı şeklindeki siyah çizgilerdir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 398,
+    "question": "Dişlerin distal ya da meziyal yüzeylerinde, kole bölgesinde mine ile alveoler kret arasında x-ışınlarının absorpsiyonunun azalmasıyla ortaya çıkan radyolusent görüntü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Servikal burn-out",
+      "B": "Cone-cut",
+      "C": "Match-band etkisi",
+      "D": "Arayüz çürüğü",
+      "E": "Sement çürüğü"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dişin servikal (kole) bölgesinde, kron kısmındaki yoğun minenin bittiği ve apikaldeki alveoler kemik kretinin henüz başlamadığı alanda doku kalınlığı ve yoğunluğu daha azdır. Bu bölgenin X-ışınlarını üstteki mine ve alttaki kemiğe göre daha az absorbe etmesi sonucunda mesial ve distal kolelerde oluşan fizyolojik üçgen/bant tarzı radyolusent görüntüye \"servikal burn-out\" denir.\n**Çeldiriciler:**\n- B) Cone-cut: Kolimatörün filmi tam kapsamaması sonucu oluşan ışınlanmamış radyoopak (beyaz) alandır.\n- C) Mach-band etkisi: Farklı densitedeki iki komşu alanın sınırında insan gözünün algıladığı optik kontrast yanılgısıdır.\n- D) Arayüz çürüğü: Kolede değil, kontak noktasının hemen altında mine yüzeyinde başlayan patolojik demineralizasyondur.\n- E) Sement (kök) çürüğü: Alveoler kemik kaybı ve dişeti çekilmesi sonrası açığa çıkan kök yüzeyinde oluşan, dış kök konturunun devamlılığını bozan çanak şekilli patolojik radyolusensidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 399,
+    "question": "Periapikal radyografide sağlam dişlerin mesial ve distal kole bölgelerinde, mine-sement sınırı ile alveoler kret tepesi arasında, dış kök konturunun bütünlüğünü bozmayan üçgen şekilli radyolusent görüntüler izlenmektedir. Bu oluşum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Servikal burn-out",
+      "B": "Proksimal çürük",
+      "C": "Kök çürüğü",
+      "D": "Diş taşı",
+      "E": "Mine incisi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Mine sınırı ile alveoler kret tepesi arasındaki servikal bölgede X-ışını absorpsiyonunun azalmasına bağlı olarak izlenen, dişin sağlam dış kenar sınırının korunduğu kama/üçgen şekilli radyolusensi servikal burn-out'tur.\n**Çeldiriciler:**\n- B) Proksimal çürük: Kolede değil, interproksimal kontak noktasında veya hemen altında mine tabakasında yer alır.\n- C) Kök çürüğü: Alveoler kemik kaybı olan bölgede görülür ve kökün sağlam dış konturu kaybolmuş olup diffüz sınırlı çanak şeklinde izlenir.\n- D) Diş taşı: Radyolusent değil, interproksimal kole bölgesinde diş yüzeyinden dışa uzanan dikensi/nodüler radyoopak birikim olarak izlenir.\n- E) Mine incisi: Furkasyon veya kök yüzeyinde yuvarlak yoğun radyoopak görüntü verir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 400,
+    "question": "Dental çürüğün radyografik olarak ayırıcı tanısı aşağıdakilerden hangisi ile yapılmaz?",
+    "options": {
+      "A": "Mine hiperplazisi",
+      "B": "Atrizyon",
+      "C": "Abrazyon",
+      "D": "İnternal rezorbsiyon",
+      "E": "Eksternal rezorbsiyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dental çürükler mineral kaybı nedeniyle radyografide radyolusent görünüm verir; bu nedenle çürüğün radyografik ayırıcı tanısı radyolusent görünüm veren diğer durumlarla (mine hipoplazisi, abrazyon, atrizyon, erozyon, servikal burn-out, internal/eksternal rezorpsiyon ve radyolusent dolgu materyalleri) yapılır. Mine hiperplazisi (mine incisi/fazlalığı) ise radyoopak olduğu için çürükle karışmaz (çürükle karışan durum mine hipoplazisidir).\n**Çeldiriciler:**\n- B) Atrizyon: İnsizal/oklüzal aşınma sonucu dentin açığa çıktığında radyografide radyolusent gölge oluşturarak çürükle karışabilir.\n- C) Abrazyon: Özellikle servikal bölgedeki fırça abrazyonları radyolusent görünüm vererek kök/kole çürüğünü taklit eder.\n- D) İnternal rezorbsiyon: Pulpa odası veya kök kanalında düzgün sınırlı balonlaşma tarzı radyolusensi yaparak oklüzal/bukkal çürük süperpozisyonu ile karışır.\n- E) Eksternal rezorbsiyon: Kökün dış yüzeyinde oluşan düzensiz radyolusent madde kaybı kök çürüğü ile ayırıcı tanıya girer.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 5 - Film İle Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

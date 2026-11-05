@@ -1,0 +1,359 @@
+[
+  {
+    "q_num": 501,
+    "question": "Aşağıdaki lezyonlardan hangisinin maksiller sinüs duvarında yıkım yapması beklenir?",
+    "options": {
+      "A": "Antrolit",
+      "B": "Mukosel",
+      "C": "Sinüzit",
+      "D": "Mukoza kalınlaşması",
+      "E": "Retansiyon psödokisti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Maksiller sinüs duvarında kemik yıkımı (destrüksiyon) yapan başlıca patolojiler; mukosel, polip, skuamöz hücreli karsinom, adenokistik karsinom ve psödotümör (fungal sinüzit) olup şıklar arasında kemik duvarında yıkım yapması beklenen lezyon mukoseldir.\n**Çeldiriciler:**\n- A) Antrolit sinüs lümeni içinde yer alan distrofık/idiyopatik taş oluşumu olup sinüs kemik duvarlarını yıkmaz.\n- C) Basit akut veya kronik bakteriyel sinüzit kemik duvarlarda hafif skleroz yapabilir ancak kortikal yıkım beklenmez.\n- D) Mukoza kalınlaşması sinüs tabanında sınırlı yumuşak doku artışıdır; kemik destrüksiyonu yapmaz.\n- E) Retansiyon psödokisti çevre kemik yapılara hiçbir bası veya yıkıcı etki göstermeyen kendiliğinden gerileyebilen bir lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 502,
+    "question": "Yukarıda kırpılmış panoramik radyografisi verilen 45 yaşındaki erkek hastanın alınan anamnezinde metal sanayiinde çalıştığı, tekrarlayan sinüziti olduğu, burnundan rahat nefes alamadığı, ara sıra sebepsiz yere burnunun kanadığı, sol üst çene arka bölgede ağrısının olduğu öğreniliyor. Hastanın yapılan muayenesinde fasiyal parestezi ve ağız içerisinde maksiller molar dişsiz bölgede yumuşak doku kitlesi tespit ediliyor.\n\nBu hastadaki lezyon için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fibröz displazi",
+      "B": "Maksiller sinüsten gelişen skuamoz hücreli karsinoma",
+      "C": "Periapikal semental displazi",
+      "D": "Odontojenik miksoma",
+      "E": "Osteoma"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Metal/ahşap sanayiinde (nikel, krom, izopropil yağları) çalışma öyküsü olan hastada; tek taraflı nazal obstrüksiyon, epistaksis (sebepsiz burun kanaması), fasiyal parestezi, maksiller sinüs duvarlarının yıkımı ve alveoler kreti harap ederek ağız içine uzanan yumuşak doku kitlesi maksiller sinüsten gelişen skuamöz hücreli karsinoma için tipiktir.\n**Çeldiriciler:**\n- A) Fibröz displazi genç yaşta başlar, buzlu cam görünümü verir, epistaksis, parestezi ve ülseratif ağız içi yumuşak doku kitlesi yapmaz.\n- C) Periapikal semental displazi vital alt ön dişlerin apeksinde görülen küçük fibro-osseöz bir lezyondur.\n- D) Odontojenik miksoma çene kemiği içinde tenis raketi görünümü veren benign odontojenik bir tümördür; mesleki metal tozu maruziyeti ve epistaksisle ilişkili değildir.\n- E) Osteoma iyi sınırlı, yoğun radyoopak benign kemik tümörüdür; kemik duvarlarını yıkıp parestezi ve burun kanaması yapmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 503,
+    "question": "Aşağıdaki durumlardan hangisinde koagülasyon bozukluğuna bağlı kanama beklenmez?",
+    "options": {
+      "A": "Hemofili A",
+      "B": "von Willebrand hastalığı",
+      "C": "K vitamini eksikliği",
+      "D": "Herediter hemorajik telanjiektazi",
+      "E": "Kumadin kullanımı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Herediter hemorajik telanjiektazi (Osler-Weber-Rendu sendromu), otozomal dominant geçişli bir damar duvarı (vasküler) anomalisidir; deri ve mukozalarda dilate kapiller ve venüllerin (telanjiektazilerin) kırılganlığına bağlı kanama olur. Hastaların pıhtılaşma faktörleri ve koagülasyon kaskadı tamamen normaldir.\n**Çeldiriciler:**\n- A) Hemofili A, Faktör VIII eksikliğine bağlı X'e bağlı resesif geçişli kalıtsal bir koagülasyon bozukluğudur.\n- B) von Willebrand hastalığı, hem trombosit adezyonunu hem de Faktör VIII taşınmasını bozan kalıtsal bir kanama ve koagülasyon bozukluğudur.\n- C) K vitamini eksikliğinde karaciğerde Faktör II (protrombin), VII, IX ve X sentezlenemediği için edinsel koagülasyon bozukluğu gelişir.\n- E) Kumadin (varfarin), K vitamini epoksit redüktaz enzimini inhibe ederek pıhtılaşma faktörlerinin sentezini bozar ve koagülasyonu engeller.\n---",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 504,
+    "question": "I. Faktör VII yetersizliği\nII. K vitamini yetersizliği\nIII. Kronik karaciğer hastalığı\n\nYukarıdakilerden hangisi veya hangileri pıhtılaşma bozukluğuna bağlı kanamalara neden olabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Hem pıhtılaşma faktörlerinin tekil eksiklikleri hem de bu faktörlerin sentezini bozan K vitamini eksikliği ve kronik karaciğer hastalıkları koagülasyon bozukluğuna bağlı kanamalara yol açar.\n**Öncüllerin Analizi:**\n- I. Doğru: Faktör VII ekstrinsik koagülasyon yolunun temel faktörü olup yetersizliğinde PT/INR uzar ve pıhtılaşma bozukluğu kanamaları görülür.\n- II. Doğru: K vitamini yetersizliğinde Faktör II, VII, IX ve X'un gama-karboksilasyonu gerçekleşemez ve kanama diyatezi oluşur.\n- III. Doğru: Pıhtılaşma faktörlerinin büyük çoğunluğu karaciğerde sentezlendiğinden, kronik karaciğer hastalıklarında (siroz vb.) ağır pıhtılaşma bozukluğu gelişir.\n**Çeldiriciler:** A, B, C ve D şıkları öncüllerin tamamını içermediği için eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 505,
+    "question": "Aşağıdakilerden hangisi kutanöz telenjektazi ve arteriovenöz malformasyonlar ile karakterize otozomal dominant geçişli bir hastalıktır?",
+    "options": {
+      "A": "Raynaud fenomeni",
+      "B": "Ramsay-Hunt sendromu",
+      "C": "von Willebrand Hastalığı",
+      "D": "Herediter hemorajik telenjektazi",
+      "E": "Melkersson-Rosenthal Sendromu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Herediter hemorajik telenjektazi (Osler-Weber-Rendu hastalığı), otozomal dominant geçişli olup dudak, dil, oral/nazal mukoza ve deride çoklu noktasal telenjektaziler, iç organlarda arteriovenöz malformasyonlar ve tekrarlayan şiddetli epistaksis/oral kanamalarla karakterizedir.\n**Çeldiriciler:**\n- A) Raynaud fenomeni soğukta parmak uçlarında gelişen vazospastik renk değişimidir; vasküler malformasyon sendromu değildir.\n- B) Ramsay-Hunt sendromu fasiyal sinir ganglionunun Varicella Zoster virüsü ile enfeksiyonu sonucu gelişen yüz felci ve kulak vezikülleridir.\n- C) von Willebrand hastalığı vWF eksikliğine bağlı kalıtsal kanama bozukluğudur; arteriovenöz malformasyon yapmaz.\n- E) Melkersson-Rosenthal sendromu fasiyal paralizi, fissürlü dil ve orofasiyal ödemle seyreden granülomatöz bir hastalıktır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 506,
+    "question": "Oral viral infeksiyonlar için aşağıdaki bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Herpes simpleks virüs tip 1 infeksiyonunda gelişen ülserler keratinize mukozada; damak, yapışık dişeti, dil dorsumunda olabilir.",
+      "B": "Herpes simpleks virüs tip 1 infeksiyonunda gelişen ülserler nonkeratinize mukozada; bukkal ve labial mukoza, yumuşak damakta olabilir.",
+      "C": "El-Ayak-Ağız hastalığının etkeni koksaki A virusdur.",
+      "D": "Koksaki A virüs infeksiyonunda yaygın ülserasyonlar olduğunda primer herpetik gingivostomatiti andırır.",
+      "E": "El-Ayak-Ağız hastalığında ülserler dişetinde başlar."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** El-Ayak-Ağız hastalığında oral vezikül ve ülserler diş etinde başlamaz; karakteristik olarak yanak mukozası, dil ve damakta başlar. Diş etinin (gingivanın) ödemli, kızarık ve ülsere olarak tutulması primer herpetik gingivostomatitin ayırt edici özelliğidir.\n**Çeldiriciler:**\n- A) Primer HSV-1 enfeksiyonunda (ve rekürrent intraoral herpeste) ülserler sert damak, yapışık diş eti ve dil dorsumu gibi keratinize mukozada görülür.\n- B) Primer herpetik gingivostomatitte vezikül ve ülserler hem keratinize hem de bukkal/labial mukoza gibi non-keratinize mukozanın her yerinde ortaya çıkabilir.\n- C) El-Ayak-Ağız hastalığının en sık etkeni enterovirüs ailesinden Coxsackie A (özellikle A16) virüsüdür.\n- D) Coxsackie A enfeksiyonunda ağız içi ülserler yaygın olduğunda klinik tablo primer herpetik gingivostomatiti andırır (ancak diş eti tutulumunun olmaması ve el-ayak döküntüleriyle ayrılır).\n---",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 507,
+    "question": "Damlacık infeksiyonu ve fekal-oral yolla bulaşan, ekstremitelerde veziküler döküntüler ve ağızda ülserasyonla karakterli, okul çocukları arasında endemik olarak izlenebilen, etkeni genellikle coxsackie A virüs olan hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kızamık",
+      "B": "Kızamıkçık",
+      "C": "Sifiliz",
+      "D": "Zona",
+      "E": "El- Ayak- Ağız hastalığı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Coxsackie A virüsü kaynaklı, damlacık ve fekal-oral yolla hızla bulaşıp okul çocuklarında salgınlar yapan, el ayası, ayak tabanı ve oral mukozada vezikül ve ülserlerle seyreden ve 1-2 haftada kendiliğinden iyileşen hastalık El-Ayak-Ağız hastalığıdır.\n**Çeldiriciler:**\n- A) Kızamık (rubeola), paramiksovirüs kaynaklı olup yanak mukozasında Koplik lekeleri ve tüm vücutta makülopapüler döküntü yapar.\n- B) Kızamıkçık (rubella), togavirüs kaynaklı olup yumuşak damakta Forchheimer lekeleri ve hafif makülopapüler döküntü ile seyreder.\n- C) Sifiliz, Treponema pallidum bakterisinin neden olduğu cinsel veya konjenital yolla bulaşan kronik bir enfeksiyondur.\n- D) Zona, Varicella Zoster virüsünün latent reaktivasyonu olup genellikle erişkinlerde tek taraflı dermatomal veziküller yapar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 508,
+    "question": "Aşağıdakilerden hangisi kızamığın komplikasyonlarından birisi değildir?",
+    "options": {
+      "A": "Otitis media",
+      "B": "Bronkopnömoni",
+      "C": "Trombositopenik purpura",
+      "D": "Ensefalit",
+      "E": "Dişeti hiperplazisi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kızamık (measles / rubeola) enfeksiyonunun dental komplikasyonu diş eti hiperplazisi değil, yüksek ateş ve epitelyal hasara bağlı olarak gelişmekte olan daimi dişlerde oluşan mine (enamel) hipoplazisidir (ayrıca ağır malnütrisyonlu çocuklarda Noma'ya zemin hazırlayabilir).\n**Çeldiriciler:**\n- A) Otitis media, kızamıkta solunum yolu epitel hasarına sekonder gelişen en sık bakteriyel komplikasyonlardandır.\n- B) Bronkopnömoni, kızamıkta mortalitenin en önemli nedenlerinden biri olan ağır alt solunum yolu komplikasyonudur.\n- C) Akut trombositopenik purpura, viral enfeksiyon sonrası gelişebilen hematolojik bir kızamık komplikasyonudur.\n- D) Akut ensefalit (ve yıllar sonra gelişebilen SSPE), kızamığın en korkulan santral sinir sistemi komplikasyonudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 509,
+    "question": "Fasiyal sinirin Herpes zoster tarafından tutulumu sonucu, boğazda ağrı ve yüz felci ile seyreden vezikülleri tek taraflı olarak dış kulak yolu, farinks ve yüzde görülen hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Melkersson-Rosenthal sendromu",
+      "B": "Postherpetik nevralji",
+      "C": "Ramsey-Hunt sendromu",
+      "D": "Glossofaringeal nevralji",
+      "E": "Plummer-Vinson sendromu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Ramsay-Hunt sendromu (Herpes zoster oticus), genikulat ganglionda latent kalan Varicella Zoster virüsünün (Herpes zoster) reaktivasyonu sonucu 7. ve 8. kraniyal sinirlerin tutulmasıdır. Tek taraflı fasiyal paralizi (yüz felci), şiddetli kulak ağrısı ve dış kulak yolu, kulak kepçesi, farinks ile dilin 2/3 ön kısmında tek taraflı veziküler döküntülerle karakterizedir.\n**Çeldiriciler:**\n- A) Melkersson-Rosenthal sendromunda yüz felcine dudak ödemi ve fissürlü dil eşlik eder; viral veziküler döküntü yoktur.\n- B) Postherpetik nevralji, zona vezikülleri iyileştikten sonra aylarca süren kronik ağrı tablosudur; akut yüz felci ve vezikül sendromu değildir.\n- D) Glossofaringeal nevralji 9. sinir dağılımında şimşek çakar tarzda ağrı yapar; vezikül veya fasiyal paralizi görülmez.\n- E) Plummer-Vinson sendromu demir eksikliği anemisi, disfaji ve atrofik glossit ile seyreden premalign bir tablodur.\n---",
+    "flag_reason": "Sonbahar 2015 Orijinal",
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 510,
+    "question": "Elli yaşındaki erkek hasta yüz felci ve boğaz ağrısı şikâyeti ile kliniğe başvuruyor. Felçli bölge ile aynı tarafta dış kulak yolu ve farinksde herpes zostere bağlı veziküler döküntüler saptanıyor.\n\nYukarıdaki hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Melkersson-Rosenthal sendromu",
+      "B": "Postherpetik nevralji",
+      "C": "Ramsay-Hunt sendromu",
+      "D": "Plummer-Vinson sendromu",
+      "E": "Trigeminal nevralji"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Fasiyal sinirin genikulat ganglionunun Varicella Zoster virüsü tarafından tutulması sonucu aynı tarafta yüz felci (fasiyal paralizi) ve dış kulak yolu/farinkste veziküler döküntülerin görülmesi Ramsay-Hunt sendromudur.\n**Çeldiriciler:**\n- A) Melkersson-Rosenthal sendromu granülomatöz şelitis, fissürlü dil ve fasiyal paralizi triadıdır; herpes zoster vezikülleri bulunmaz.\n- B) Postherpetik nevralji döküntüler geçtikten sonra kalan nöropatik ağrıdır.\n- D) Plummer-Vinson sendromu sideropenik disfaji ve demir eksikliği anemisi sendromudur.\n- E) Trigeminal nevralji 5. kraniyal sinirin paroksismal ağrısı olup motor yüz felci veya dış kulak yolunda vezikül yapmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 545,
+    "question": "Kırk beş yaşındaki kadın hasta ağız kokusu şikâyeti ile kliniğe başvuruyor. Panoramik radyografisinde mandibula ramus bölgesinde küçük, çok sayıda, iyi sınırlı kalsifikasyonlar tespit ediliyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Miyositis ossifikans",
+      "B": "Tonsillolit",
+      "C": "Antrolit",
+      "D": "Flebolit",
+      "E": "Sistiserkozis"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Tonsillolit (tonsil taşı), kronik tonsillit sonucu tonsil kriptalarında biriken bakteri, ölü epitel ve besin artıklarının distrofik kalsifikasyonudur. Klinik olarak kötü ağız kokusuna (halitozis) ve yutkunmada yabancı cisim hissine yol açar; panoramik radyografide ise karakteristik olarak orofaringeal hava yolunun mandibular ramus orta kısmını çaprazladığı bölgede ramus üzerine süperpoze olan küçük, çoklu, iyi sınırlı radyoopasiteler şeklinde izlenir.\n**Çeldiriciler:**\n- A) Miyositis ossifikans kas içinde çizgisel/psödotrabeküler kemikleşme yapar, trismusa yol açar ancak halitozis yapmaz.\n- C) Antrolit mandibular ramusta değil, üst çenede maksiller sinüs boşluğu içinde görülür.\n- D) Flebolit yanak/korpus bölgesinde hedef tahtası görünümü verir ve ağız kokusuna neden olmaz.\n- E) Sistiserkozis paraziter kas kalsifikasyonu olup ağız kokusu şikâyeti oluşturmaz.\n---",
+    "flag_reason": "Sonbahar 2023 Orijinal",
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 553,
+    "question": "Aşağıdaki yumuşak doku kalsifikasyonlarından hangisinin, ideal çekilen panoramik radyografide çeneler üzerine süperpoze olması beklenmez?",
+    "options": {
+      "A": "Flebolit",
+      "B": "Antrolit",
+      "C": "Larinks kartilajlarının kalsifikasyonu",
+      "D": "Kalsifiye Aterosklerotik plak",
+      "E": "Tonsil kalsifikasyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Larinks kartilajlarının (tiroid ve tritiseöz kıkırdaklar) kalsifikasyonu C4-C6 servikal vertebraların hemen önünde, panoramik filmin en alt-yan köşelerinde yer alır; ideal çekilen bir panoramik radyografide alt veya üst çene kemikleri üzerine süperpoze olması beklenmez.\n**Çeldiriciler:**\n- A) Yanak ve dudak yumuşak dokusundaki flebolitler sıklıkla mandibula korpusu üzerine süperpoze olur.\n- B) Maksiller sinüs içindeki antrolitler panoramik radyografide maksilla arka bölge üzerine süperpoze olur.\n- D) Fasiyal arter içerisindeki kalsifiye aterosklerotik plaklar mandibula molar/korpus bölgesi üzerine süperpoze olabilir.\n- E) Tonsil kalsifikasyonları karakteristik olarak mandibula ramusu üzerine süperpoze olur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 554,
+    "question": "İçeriğinde kalsiyum karbonat florohidroksiapatit kristalleri olan, sıklıkla hemanjiyomalarla ilişkilendirilen ve radyografide radyoopasite gösteren yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kalsifiye ateromatöz plak",
+      "B": "Kalsifiye lenf nodu",
+      "C": "Antrolit",
+      "D": "Flebolit",
+      "E": "Osteoma kutis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Flebolitler; venöz damarlar veya kavernöz hemanjiyomlar içerisindeki organize trombüslerin kalsiyum fosfat, kalsiyum karbonat ve florohidroksiapatit kristalleriyle mineralize olması sonucu oluşan, radyografide konsantrik halkalı \"boğa gözü / hedef\" görünümü veren ve sıklıkla hemanjiyomlarla ilişkilendirilen kalsifikasyonlardır.\n**Çeldiriciler:**\n- A) Kalsifiye ateromatöz plak arterlerin intima tabakasında oluşur; hemanjiyomlarla ilişkisi yoktur.\n- B) Kalsifiye lenf nodu geçirilmiş tüberküloz veya granülomatöz lenfadenit sonucu oluşur; vasküler hemanjiyomlarla ilişkili değildir.\n- C) Antrolit maksiller sinüs içinde oluşan taş olup hemanjiyomla ilişkisi yoktur.\n- E) Osteoma kutis dermis içinde oluşan gerçek kemik dokusu olup vasküler malformasyonlarla ilişkili değildir.\n---",
+    "flag_reason": "Sonbahar 2017 Orijinal",
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 555,
+    "question": "Sturge-Weber sendromu olan hastada aşağıdaki kalsifikasyonlardan hangisinin görülmesi en olasıdır?",
+    "options": {
+      "A": "Flebolit",
+      "B": "Kalsifiye lenf nodu",
+      "C": "Antrolit",
+      "D": "Arteriosklerozis",
+      "E": "Osteoma kutis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sturge-Weber sendromu (ensefalotrigeminal anjiyomatozis), trigeminal sinir dağılımında porto şarabı lekesi (nevus flammeus) ve leptomeningeal anjiyomlarla karakterizedir. İntrakraniyal arterlerde/kortekste birbirine paralel çift çizgi (\"tren rayı / tram-track\") şeklinde izlenen kalsifikasyonlar arteriosklerozis (Mönckeberg medial kalsinozu benzeri vasküler duvar kalsifikasyonu) ile ilişkilidir.\n**Çeldiriciler:**\n- A) Flebolit yumuşak doku kavernöz hemanjiyomlarında görülür ancak Sturge-Weber sendromunun karakteristik intrakraniyal tren rayı kalsifikasyonu arteriosklerozis başlığı altında sınıflandırılır.\n- B) Kalsifiye lenf nodu granülomatöz enfeksiyonlara bağlı servikal bölgede görülür.\n- C) Antrolit maksiller sinüs içi kalsifikasyondur.\n- E) Osteoma kutis deride görülen heterotopik kemikleşmedir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 557,
+    "question": "Yukarıdaki radyografta verilen, nazal kavite içerisinde gözlenen ve radyoopak görüntü veren kalsifiye yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Antrolit",
+      "B": "Psödokist",
+      "C": "Polip",
+      "D": "Mukosel",
+      "E": "Rinolit"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Nazal kavite (burun boşluğu) içerisinde genellikle eksojen bir yabancı cisim veya endojen pıhtı/mukus nidusu etrafında mineral tuzlarının çökelmesiyle oluşan ve radyografide nazal kavite tabanı üzerinde radyoopak görüntü veren kalsifiye yapıya rinolit (burun taşı) denir.\n**Çeldiriciler:**\n- A) Antrolit nazal kavite içerisinde değil, maksiller sinüs (antrum) içerisinde oluşan kalsifiye yapıdır.\n- B) Psödokist (retansiyon psödokisti) kalsifiye bir taş olmayıp maksiller sinüs tabanında kubbe şeklinde hafif radyoopasite veren yumuşak doku lezyonudur.\n- C) Polip, sinüs veya burun mukozasının enflamatuar yumuşak doku katlantısı olup kalsifiye yapı değildir.\n- D) Mukosel, sinüs ostiumunun tıkanmasıyla gelişen ekspansif yumuşak doku/sıvı birikimi olup kalsifiye taş yapısı değildir.\n---",
+    "flag_reason": "Sonbahar 2017 Orijinal",
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 558,
+    "question": "Yukarıdaki lateral oklüzal radyografta verilen, nazal kavite tabanının üzerinde izlenen ve radyoopak görüntü veren kalsifiye yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Antrolit",
+      "B": "Psödokist",
+      "C": "Polip",
+      "D": "Mukosel",
+      "E": "Rinolit"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Nazal kavite tabanının üzerinde yerleşen ve radyografide yoğun radyoopak görüntü veren kalsifiye oluşum rinolittir.\n**Çeldiriciler:**\n- A) Antrolit maksiller sinüs boşluğu içindeki kalsifikasyondur.\n- B) Psödokist sinüs mukozası altında sıvı birikimiyle oluşan kalsifiye olmayan kubbe şekilli lezyondur.\n- C) Polip mukozal kalınlaşmadan köken alan yumuşak doku kitlesidir.\n- D) Mukosel sinüsü tamamen doldurup kemik duvarlarını yıkan sıvı/mukus dolu lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 560,
+    "question": "I. Rhinolit\nII. Retansiyon pseudokist\nIII. Mukozal kalınlaşma\n\nYukarıdaki patolojilerden hangileri maksiller sinüsler içerisinde gelişir ve konvansiyonel teknik ile alınan radyografilerde radyoopak olarak izlenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Maksiller sinüs içerisinde gelişerek normalde hava dolu (radyolusent) olan sinüs boşluğunda göreceli olarak radyoopak görüntü veren oluşumlar retansiyon psödokisti ve mukozal kalınlaşmadır.\n**Öncüllerin Analizi:**\n- I. Yanlış: Rhinolit radyoopak olmakla birlikte maksiller sinüs içerisinde değil, nazal kavite (burun boşluğu) içerisinde gelişir (maksiller sinüsteki karşılığı antrolittir).\n- II. Doğru: Retansiyon pseudokisti en sık maksiller sinüs tabanında gelişir ve hava dolu sinüs içinde kubbe şeklinde homojen radyoopak olarak izlenir.\n- III. Doğru: Mukozal kalınlaşma, odontojenik veya sinüzitik enflamasyona bağlı maksiller sinüs tabanı mukozasının kalınlaşması olup sinüs içinde şerit halinde radyoopak izlenir.\n**Çeldiriciler:** A, C ve E şıkları nazal kavitede yerleşen rhinoliti (I. öncülü) içerdiği için; B şıkkı ise mukozal kalınlaşmayı dışladığı için yanlıştır.\n---",
+    "flag_reason": "Sonbahar 2015 Orijinal",
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 561,
+    "question": "I. Rhinolit\nII. Retansiyon pseudokist\nIII. Mukozal kalınlaşma\n\nYukarıdaki patolojilerden hangisi ya da hangileri maksiller sinüs kaynaklı olup, Waters projeksiyonunda radyoopak görüntü verir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Maksiller sinüsleri değerlendirmede en ideal konvansiyonel ekstraoral grafi olan Waters projeksiyonunda, maksiller sinüs kaynaklı olup radyoopasite veren patolojiler retansiyon pseudokisti ve mukozal kalınlaşmadır.\n**Öncüllerin Analizi:**\n- I. Yanlış: Rhinolit maksiller sinüs kaynaklı değil, nazal kavite kaynaklı bir kalsifikasyondur.\n- II. Doğru: Retansiyon pseudokisti maksiller sinüs kaynaklıdır ve Waters grafisinde sinüs tabanında kubbe şeklinde radyoopak görülür.\n- III. Doğru: Mukozal kalınlaşma maksiller sinüs mukozasından kaynaklanır ve Waters grafisinde sinüs duvarları boyunca radyoopak bant şeklinde izlenir.\n**Çeldiriciler:** A, C ve E şıkları I. öncülü içerdiği için; B şıkkı ise III. öncülü dışladığı için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 562,
+    "question": "Yirmi yaşında erkek hasta rutin dental muayene için kliniğe başvuruyor. Panoramik radyografide sol maksiller sinüs tabanına yapışık yuvarlatılmış görünüme sahip, normal sinüse göre uniform radyoopak izlenen, çevre dokuda herhangi bir değişiklik yaratmayan oluşum izleniyor.\n\nBu durum için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Osteoma",
+      "B": "Antrolit",
+      "C": "Mukositle",
+      "D": "Retansiyon pseudokisti",
+      "E": "Diş kökü"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Retansiyon pseudokisti (müköz retansiyon kisti), en sık maksiller sinüs tabanında izlenen, asemptomatik olup rutin panoramik radyografilerde tesadüfen saptanan, kortike sınırı olmayan, düzgün kubbe şeklinde (yuvarlatılmış), homojen/uniform radyoopak görünüme sahip ve çevre kemik dokuda hiçbir yıkım veya değişiklik yaratmayan lezyondur.\n**Çeldiriciler:**\n- A) Osteoma en sık frontal ve etmoid sinüste görülür ve yumuşak doku densitesinde değil, kortikal kemik yoğunluğunda çok keskin radyoopak görüntü verir.\n- B) Antrolit kubbe şeklinde uniform yumuşak doku gölgesi değil, düzensiz ve çok yoğun (taş densitesinde) kalsifiye kitledir.\n- C) Mukosel tüm sinüsü tamamen doldurur ve çevre kemik duvarlarda incelme ve yıkım (destrüksiyon) yaratır.\n- E) Diş kökü dentin densitesinde olup içinde radyolüsent kök kanalı barındırır; kubbe şeklinde geniş tabanlı yumuşak doku gölgesi vermez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 566,
+    "question": "Yemek yeme sırasında yanak bölgesinde ağrı ve şişlik şikâyeti olan hastanın panoramik radyografisinde ramus bölgesine süperpoze olan yuvarlak-oval radyoopasite izleniyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Flebolit",
+      "B": "Kalsifiye lenf nodu",
+      "C": "Tonsillolit",
+      "D": "Antrolit",
+      "E": "Sialolit"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Yemek yeme sırasında (tükürük salgısı uyarıldığında) tükürüğün tıkalı kanaldan geçememesine bağlı olarak ilgili bez bölgesinde (burada parotis bezinde / yanakta) oluşan ağrı ve şişlik (\"mealtime syndrome\") sialolitiyazis (tükürük taşı / sialolit) için patognomoniktir. Parotis bezi sialolitleri panoramik radyografide mandibular ramus üst-arka bölgesine süperpoze olarak izlenebilir.\n**Çeldiriciler:**\n- A) Flebolit vasküler bir kalsifikasyon olup yemek yeme sırasında ağrı ve şişlik oluşturmaz.\n- B) Kalsifiye lenf nodu genellikle asemptomatiktir; yemeklerle ilişkili ağrı ve şişlik yapmaz.\n- C) Tonsillolit yutkunma güçlüğü ve ağız kokusu yapabilir ancak yemek yerken yanakta şişlik ve kolik ağrı oluşturmaz.\n- D) Antrolit maksiller sinüs içindedir; ramus üzerine süperpoze olmaz ve yemekle ilişkili şişlik yapmaz.\n---",
+    "flag_reason": "Sonbahar 2016 Orijinal",
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 570,
+    "question": "Rutin muayene için kliniğe gelen 54 yaşındaki erkek hastadan alınan panoramik radyografta sol mandibula korpus ve ramusu çaprazlayan tren rayı şeklinde kalsifiye yapı izleniyor. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Arteriosklerozis",
+      "B": "Myositis ossificans",
+      "C": "Tonsil kalsifikasyonu",
+      "D": "Osteoma kutis",
+      "E": "Antrolit"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Fasiyal arterin mandibula alt kenarından korpus ve ramusa doğru uzanımı boyunca tunika media tabakasının kalsifiye olması sonucu panoramik radyografide \"tren rayı\" veya \"pipet\" tarzında paralel çift çizgi radyoopasitesi olarak izlenen tablo arteriosklerozisdir (Mönckeberg medial kalsinozu).\n**Çeldiriciler:**\n- B) Myositis ossificans kas lifleri yönünde uzanan psödotrabeküler kemik kitlesi görüntüsü verir.\n- C) Tonsil kalsifikasyonu ramus üzerinde tekli veya çoklu küçük yuvarlak opasiteler (pirinç/salkım benzeri) olarak izlenir.\n- D) Osteoma kutis yanakta 1 mm - 5 cm çapında küçük yuvarlak opasiteler verir.\n- E) Antrolit üst çenede maksiller sinüs içinde yer alan düzensiz kalsifiye kitledir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 22 - Paranazal Sinüsler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

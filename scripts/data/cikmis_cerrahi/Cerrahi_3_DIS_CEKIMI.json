@@ -1,0 +1,104 @@
+[
+  {
+    "question": "Aşağıdaki radyografik bulgulardan hangisinin olması hâlinde diş çekiminde zorlukla karşılaşma olasılığı en düşüktür?",
+    "options": {
+      "A": "Kök dilaserasyonu",
+      "B": "Endodontik tedavi uygulanmış olması",
+      "C": "Kemik yoğunluğunun az olması",
+      "D": "Geniş restorasyonlu olması",
+      "E": "Kök sayısının fazla olması *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D, E şıkları (Zorluğu Artırır):** Dilasere kökler çekim yolunda kilitlenir; endodontik tedavili dişler pulpa beslenmesi kesildiği için aşırı kırılgandır; geniş restorasyonlu dişlerde kron kırılma riski yüksektir; fazla kök sayısı tutuculuğu ve kırılma ihtimalini belirgin şekilde artırır.\n  * **C şıkkı (Zorluğu Azaltır / Doğru Cevap):** Kemik dansitesinin düşük (spongiyöz kemik miktarının fazla, kortikal tabakanın ince) olması alveol soketinin elastikiyetini artırır; lüksasyon kuvvetleriyle soket rahatça genişlediği için diş çekimi oldukça kolaylaşır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS İlkbahar 2023 Orijinal",
+    "q_num": 19,
+    "unit": "3 DİŞ ÇEKİMİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Hastanın ileri yaşta olması  \nII. Dişin tek köklü olması  \nIII. Hipersementez varlığı  \nIV. Geniş çürük varlığı  \n**Yukarıdaki durumlardan hangisi ya da hangileri açık diş çekimi ihtimalini artıran faktörlerdendir?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "I ve IV",
+      "D": "I ve III",
+      "E": "I, III ve IV *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. öncül (Artırır):** Yaş ilerledikçe kemik elastisitesi azalır, kemik yoğun ve sklerotik hale gelir, periodontal aralık daralır ve diş sokete adeta kaynar; kırılma riski arttığından açık çekim gerekir.\n  * **II. öncül (Azaltır):** Tek ve düz köklü dişler rotasyon ve lüksasyonla kolayca çıkarılır; cerrahi çekim riskini düşürür.\n  * **III. öncül (Artırır):** Hipersementez kök apeksinde ampul şeklinde kalınlaşma yarattığından kök soket çıkış çapından geniştir; kemik kaldırılmadan kapalı çekilemez.\n  * **IV. öncül (Artırır):** Geniş çürük dişte davyenin tutunabileceği sağlam kron dokusu bırakmaz ve diş hafif kuvvette bile parçalanır; cerrahi flep açılmasını zorunlu kılar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 20,
+    "unit": "3 DİŞ ÇEKİMİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Davye apikale konumlandırılır. Önce bukkale doğru ardından linguale doğru lüksasyon yaptırılır. Rotasyon yaptırılarak diş gevşetilir. Bukko-okluzal yönde traksiyon yapılarak çekim tamamlanır. Yukarıda çekim aşamaları belirtilen diş aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Üst 1. premolar",
+      "B": "Üst lateral",
+      "C": "Alt molar",
+      "D": "Alt keser",
+      "E": "Alt premolar *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A şıkkı (Üst 1. premolar):** Çoğunlukla iki köklüdür (bukkal ve palatinal); kesinlikle rotasyon hareketi uygulanamaz, kök kırılır. Çıkartma yönü bukkale değil okluzodistal/bukkaldir ve karşıt yön palatinaldir (lingual değil).\n  * **B ve D şıkları (Kesici dişler):** Anterior grupta ilk hareket bukkale değil labiyale doğrudur. Alt kesiciler meziodistal yassı köklü olduğundan rotasyon kontrendikedir.\n  * **C şıkkı (Alt molar):** İki köklü (mezial ve distal) ve anatomik olarak ayrık köklü olduklarından rotasyon asla uygulanamaz.\n  * **E şıkkı (Alt premolar / Doğru Cevap):** Mandibuler premolarlar konik, düz ve tek köklüdür. Bukkal-lingual yönde lüksasyonu takiben rotasyon hareketini mükemmel tolere ederler ve çekimleri bu hareket kombinasyonu ile tamamlanır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 21,
+    "unit": "3 DİŞ ÇEKİMİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çok sayıda diş çekimi yapılacağı zaman diş çekimine en önce nereden başlanmalıdır?",
+    "options": {
+      "A": "Üst çene posterior dişler",
+      "B": "Üst çene anterior dişler",
+      "C": "Alt çene posterior dişler",
+      "D": "Alt çene anterior dişler",
+      "E": "Kanin dişler *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Doğru Cevap):** Çoklu diş çekimlerinde temel kural **üst çene posterior dişlerden** başlamaktır. Nedenleri:  \n    1) Üst çenede infiltrasyon anestezisi kemiğin gözenekli yapısı nedeniyle hızla etki eder ancak alt çene blok anestezisine göre etkisi daha çabuk geçer.  \n    2) Üst dişler önce çekilirse kan, kemik kırıntıları ve kırık parçaların alt çene açık çekim soketlerine kaçması önlenir.  \n    3) Üst molar çekiminde lüksasyon kuvvetleri bukkale yönlendirilir, vertikal traksiyon az kullanılır; üst dişler çekilince alt çene çekimleri için vertikal çalışma mesafesi açılır.\n  * **B, C, D şıkları (Daha Sonra Çekilir):** Sıralama: Üst posterior -> Üst anterior -> Alt posterior -> Alt anterior şeklindedir.\n  * **E şıkkı (En Son Çekilir):** Kanin dişler uzun kökleri ve kanin kabarıklığı nedeniyle arkın kilit taşlarıdır ve çekimi en zor dişlerdir; komşu dişler çekilerek alveol kemiği esnetildikten sonra her segmentte en son çekilmelidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS Sonbahar 2023 Orijinal",
+    "q_num": 22,
+    "unit": "3 DİŞ ÇEKİMİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Mandibular 2. molar  \nII. Maksiller kanin  \nIII. Maksiller 1. molar  \nIV. Maksiller lateral  \n**Aynı anda çekimi planlanan yukarıdaki dişlerin çekim sırası aşağıdakilerden hangisinde doğru olarak verilmiştir? (önce -> sonra)**",
+    "options": {
+      "A": "II > III > I > IV",
+      "B": "V > I > III > II",
+      "C": "III > IV > II > I",
+      "D": "III > II > IV > I",
+      "E": "III > I > IV > II *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Kural: Önce üst çene dişleri çekilir (kanin hariç olmak üzere önce posterior, sonra anterior, en son kanin), ardından alt çene dişlerine geçilir.\n  * Verilen dişlerin sıralaması:\n    1. **Maksiller 1. molar (III):** Üst posterior grup olarak ilk çekilir.\n    2. **Maksiller lateral (IV):** Üst anterior grup olarak kaninden önce çekilir.\n    3. **Maksiller kanin (II):** Üst çenede en zor diş olduğu için üst arkın en sonunda çekilir.\n    4. **Mandibular 2. molar (I):** Üst çene tamamlandıktan sonra alt çene posterioruna geçilir.\n  * Doğru dizilim: **III > IV > II > I** şeklindedir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 23,
+    "unit": "3 DİŞ ÇEKİMİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki durumlardan hangisinin açık çekim endikasyonu oluşturması en az olasıdır?",
+    "options": {
+      "A": "Hipersementez",
+      "B": "Geniş çürüğü olan dişler",
+      "C": "Geniş restorasyonu olan dişler",
+      "D": "Kısa ve tek köklü dişler",
+      "E": "Yoğun bukkal kortekse sahip dişler *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A şıkkı (Açık Çekim Endikasyonudur):** Kök ucundaki sement birikimi apikal çapı genişleterek mekanik kilitlenme yaratır.\n  * **B ve C şıkları (Açık Çekim Endikasyonudur):** Kron harabiyeti nedeniyle davye dişi kavrayamaz ve kontrolsüz kuvvet kemik kırığına yol açar.\n  * **D şıkkı (En Az Olası / Doğru Cevap):** Kısa, konik ve tek köklü dişler periodontal ataşman alanı az olduğu ve kemik içinde mekanik direnç göstermediği için basit (kapalı) çekim forsepsi veya elevatör ile son derece kolay ve atravmatik çıkarılır; cerrahi açmaya ihtiyaç duyulmaz.\n  * **E şıkkı (Açık Çekim Endikasyonudur):** Kalın kortikal kemik soketin esnemesini engeller; zorlandığında alveol kemik duvarının blok halinde kırılmasına yol açacağından kontrollü kemik kaldırılması gerekir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 24,
+    "unit": "3 DİŞ ÇEKİMİ",
+    "quality_flag": "cikmis"
+  }
+]

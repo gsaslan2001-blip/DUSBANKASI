@@ -1,0 +1,1746 @@
+[
+  {
+    "question": "Yağ asitleri, aşağıdaki moleküllerden hangisinin yapısında bulunmaz?",
+    "options": {
+      "A": "Fosfolipid",
+      "B": "Sfingolipid",
+      "C": "Trigliserid",
+      "D": "Kolesterol",
+      "E": "Glikolipid"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Fosfolipid:** Gliserol veya sfingozin omurgasına bağlı yağ asitleri ve fosfat grubu içerir.\n- **B) Sfingolipid:** Sfingozin omurgasına seramid bağı ile bağlanmış yağ asidi içerir.\n- **C) Trigliserid (TriAçilGliserol):** 1 molekül gliserole ester bağı ile bağlanmış 3 adet yağ asidi içerir.\n- **D) Kolesterol (Doğru Cevap):** 27 karbonlu, 4 halkalı (siklopentanoperhidrofenantren) izopren türevi bir steroldür. Esterleşmemiş serbest formunda yapısında yağ asidi bulunmaz.\n- **E) Glikolipid:** Seramid omurgasına bağlı karbonhidrat zinciri ve yağ asidi içerir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki fosfolipidlerden hangisi gliserol içermez?",
+    "options": {
+      "A": "Lesitin",
+      "B": "Gangliozidler",
+      "C": "Plazmalojen",
+      "D": "Kardiyolipin",
+      "E": "Fosfatidilinositol"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Lesitin (Fosfatidilkolin):** Gliserol omurgalı ana membran gliserofosfolipididir.\n- **B) Gangliozidler (Doğru Cevap):** Gliserol içermezler! Sfingozin omurgalı, sialik asit (NANA) içeren kompleks glikosfingolipidlerdir.\n- **C) Plazmalojen:** Gliserolün C1 pozisyonında α,β-doymamış alkil grubu ile eter bağı içeren gliserofosfolipiddir.\n- **D) Kardiyolipin (Difosfatidilgliserol):** Yapısında 3 adet gliserol ve 2 adet fosfatidik asit taşır.\n- **E) Fosfatidilinositol:** Gliserol ve inositol içeren gliserofosfolipiddir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki fosfolipidlerden hangisinin yapısında 2 adet fosfatidik asit bulunur?",
+    "options": {
+      "A": "Fosfatidilserin",
+      "B": "Fosfatidilkolin",
+      "C": "Kardiyolipin",
+      "D": "Fosfatidiletanolamin",
+      "E": "Sfingomiyelin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A) Fosfatidilserin:** 1 adet fosfatidik asit ve serin amino asidi içerir.\n- **B) Fosfatidilkolin:** 1 adet fosfatidik asit ve kolin içerir.\n- **C) Kardiyolipin (Doğru Cevap):** Kimyasal adı difosfatidilgliseroldür. İki molekül fosfatidik asidin bir gliserol molekülüyle bağlanmasıyla oluşur (3 gliserol, 2 fosfat, 4 yağ asidi taşır). Mitokondri iç zarına özgüdür.\n- **D) Fosfatidiletanolamin:** 1 adet fosfatidik asit ve etanolamin içerir.\n- **E) Sfingomiyelin:** Gliserol ve fosfatidik asit içermez, sfingozin omurgalıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, esansiyel, üç çift bağı olan ve 18 karbonlu omega-3 yağ asididir?",
+    "options": {
+      "A": "Linoleik asit",
+      "B": "α-Linolenik asit",
+      "C": "Araşidonik asit",
+      "D": "Oleik asit",
+      "E": "Palmitoleik asit"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Linoleik asit:** 18:2 (Δ9,12) ω-6 (omega-6) yapısında, 2 çift bağlı esansiyel yağ asididir.\n- **B) α-Linolenik asit (Doğru Cevap):** 18:3 (Δ9,12,15) ω-3 (omega-3) yapısında, 18 karbonlu ve 3 çift bağlı esansiyel yağ asididir.\n- **C) Araşidonik asit:** 20:4 (Δ5,8,11,14) ω-6 yapısında, 20 karbonlu ve 4 çift bağlı yarı-esansiyel yağ asididir.\n- **D) Oleik asit:** 18:1 (Δ9) ω-9 yapısında tek doymamış non-esansiyel yağ asididir.\n- **E) Palmitoleik asit:** 16:1 (Δ9) ω-7 yapısında 16 karbonlu doymamış yağ asididir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, omega-3 yağ asididir?",
+    "options": {
+      "A": "Palmitik asit",
+      "B": "Palmitoleik asit",
+      "C": "Linoleik asit",
+      "D": "α-Linolenik asit",
+      "E": "Araşidonik asit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Palmitik asit:** 16:0 doymuş (sature) yağ asididir.\n- **B) Palmitoleik asit:** 16:1 ω-7 yağ asididir.\n- **C) Linoleik asit:** 18:2 ω-6 (omega-6) yağ asididir.\n- **D) α-Linolenik asit (Doğru Cevap):** 18:3 ω-3 (omega-3) esansiyel yağ asididir (EPA ve DHA öncülüdür).\n- **E) Araşidonik asit:** 20:4 ω-6 (omega-6) yağ asididir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki yağ asitlerinden hangisi omega-3 yağ asididir?",
+    "options": {
+      "A": "16:1 (Δ9)",
+      "B": "18:2 (Δ9,12)",
+      "C": "18:3 (Δ6,9,12)",
+      "D": "18:3 (Δ9,12,15)",
+      "E": "20:4 (Δ5,8,11,14)"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\nOmega (ω) değeri = Toplam Karbon Sayısı - Son Çift Bağın Karbon Numarası:\n- **A) 16:1 (Δ9):** 16 - 9 = ω-7 yağ asidi (Palmitoleik asit).\n- **B) 18:2 (Δ9,12):** 18 - 12 = ω-6 yağ asidi (Linoleik asit).\n- **C) 18:3 (Δ6,9,12):** 18 - 12 = ω-6 yağ asidi (γ-Linolenik asit).\n- **D) 18:3 (Δ9,12,15) (Doğru Cevap):** 18 - 15 = ω-3 (omega-3) yağ asididir (α-Linolenik asit).\n- **E) 20:4 (Δ5,8,11,14):** 20 - 14 = ω-6 yağ asididir (Araşidonik asit).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kolesterolden sentezlenen moleküllerden biri değildir?",
+    "options": {
+      "A": "Safra asitleri",
+      "B": "D vitamini",
+      "C": "Östrojen",
+      "D": "Trigliseridler",
+      "E": "Progesteron"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Safra asitleri:** Karaciğerde kolesterolden 7α-hidroksilaz enzimi ile sentezlenir.\n- **B) D vitamini:** Deride 7-dehidrokolesterolden UV ışığı ile sentezlenir.\n- **C) Östrojen:** Ovaryumda kolesterolden sentezlenen steroid hormondur.\n- **D) Trigliseridler (Doğru Cevap):** Gliserol-3-fosfat ve yağ açil-KoA'lardan sentezlenir, kolesterol yapısı veya türevi değildir.\n- **E) Progesteron:** Adrenal ve gonadal kolesterolden sentezlenen steroid hormondur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kolesterolden sentezlenmez?",
+    "options": {
+      "A": "Kalsitriol",
+      "B": "Kolik asit",
+      "C": "Östron",
+      "D": "Adrenalin",
+      "E": "Aldosteron"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Kalsitriol:** D vitamininin aktif formu olup kolesterol türevidir.\n- **B) Kolik asit:** Karaciğerde sentezlenen primer safra asididir (kolesterol türevi).\n- **C) Östron:** Steroid bir cinsiyet hormonudur (kolesterol türevi).\n- **D) Adrenalin (Doğru Cevap):** Adrenal medullada L-Tirozin amino asidinden sentezlenen katekolamindir; kolesterol ile ilişkisizdir.\n- **E) Aldosteron:** Adrenal kortekste kolesterolden sentezlenen mineralokortikoid hormondur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki yapılardan hangisi, izopren bileşiği veya türevi değildir?",
+    "options": {
+      "A": "E vitamini",
+      "B": "K vitamini",
+      "C": "Ubikinon",
+      "D": "Dolikol",
+      "E": "C vitamini"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A) E vitamini (Tokoferol):** Yağda eriyen izoprenoid yapılı bir vitamindir.\n- **B) K vitamini:** İzoprenoid yan zincir içeren yağda eriyen vitamindir.\n- **C) Ubikinon (Koenzim Q):** ETZ'de elektron taşıyan izopren türevi bileşiktir.\n- **D) Dolikol:** N-glikozilasyonda görev alan uzun zincirli izoprenoid polialkoldür.\n- **E) C vitamini (Doğru Cevap):** Karaciğer/sitoplazmada glukozdan (üronik asit yolu) sentezlenen suda eriyen bir vitamindir, izopren türevi değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin yapısında beş karbonlu izopren üniteleri bulunmaz?",
+    "options": {
+      "A": "Seramid",
+      "B": "Dolikol",
+      "C": "A vitamini",
+      "D": "E vitamini",
+      "E": "K vitamini"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Seramid (Doğru Cevap):** Sfingozin amino alkolüne bir yağ asidinin bağlanmasıyla oluşur; izopren ünitesi veya türevi içermez.\n- **B) Dolikol:** Çok sayıda 5C izopren ünitesinden oluşan doymamış alkoldür.\n- **C, D, E) A, E, K vitaminleri:** Yağda çözünen izoprenoid türevi vitaminlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki moleküllerden hangisi, izopren türevi lipidlerden biri değildir?",
+    "options": {
+      "A": "Safra asitleri",
+      "B": "Kardiyolipin",
+      "C": "Aldosteron",
+      "D": "D vitamini",
+      "E": "Kortizol"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A, C, D, E) Safra asitleri, Aldosteron, D vitamini, Kortizol:** Hepsi mevalonat/izopren yolundan sentezlenen kolesterol veya steroid halkası içeren izoprenoid türevleridir.\n- **B) Kardiyolipin (Doğru Cevap):** Gliserofosfolipid ailesindendir (difosfatidilgliserol), izopren türevi değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki fosfolipidlerden hangisinin yapısında 2 adet fosfatidik asit bulunur?",
+    "options": {
+      "A": "Fosfatidilserin",
+      "B": "Fosfatidilkolin",
+      "C": "Kardiyolipin",
+      "D": "Fosfatidiletanolamin",
+      "E": "Sfingomiyelin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A, B, D) Fosfatidilserin, Fosfatidilkolin, Fosfatidiletanolamin:** Tek fosfatidik asit omurgası içeren mono-fosfotid yapıdadırlar.\n- **C) Kardiyolipin (Doğru Cevap):** Difosfatidilgliseroldür. İki fosfatidik asit bir gliserol ile bağlıdır. Ökaryotlarda sadece mitokondri iç zarında bulunur ve antijeniktir.\n- **E) Sfingomiyelin:** Sfingozin tabanlıdır, fosfatidik asit içermez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hem triaçilgliserol hem de kardiyolipin biyosentezinde rol alır?",
+    "options": {
+      "A": "Sfinganin",
+      "B": "Fosfatidik asit",
+      "C": "Fosfatidilgliserol 3-fosfat",
+      "D": "CDP-diaçilgliserol",
+      "E": "Fosfatidilserin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Sfinganin:** Sfingolipid sentez ara maddesidir.\n- **B) Fosfatidik asit (Doğru Cevap):** Hem TriAçilGliserol (TAG) sentez yolunun hem de Kardiyolipin ve diğer gliserofosfolipidlerin sentezinde kavşak noktası olan ortak prekürsör moleküldür.\n- **C, D, E) CDP-diaçilgliserol, Fosfatidilgliserol 3-fosfat, Fosfatidilserin:** Sadece spesifik fosfolipid yollarına özgü ara ürünlerdir, TAG sentezinde yer almazlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Eksikliği prematüre yenidoğanlarda respiratuvar distress sendromuna neden olan surfaktan maddesinin temel bileşeni hangisidir?",
+    "options": {
+      "A": "Dipalmitoil lesitin",
+      "B": "Fosfatidil inozitol",
+      "C": "Fosfatidil kolin",
+      "D": "Difosfatidil gliserol",
+      "E": "Lizofosfatidil kolin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Dipalmitoil lesitin (Dipalmitoilfosfatidilkolin) (Doğru Cevap):** Akciğer alveollerinde yüzey gerilimini düşürerek kolapsı önleyen surfaktan maddesinin ana bileşenidir (%80). Eksikliğinde Prematüre RDS (Hyalen Membran Hastalığı) gelişir.\n- **B, C, D, E) Fosfatidilinozitol, genel Fosfatidilkolin, Difosfatidilgliserol, Lizofosfatidilkolin:** Surfaktta daha düşük oranlarda bulunurlar ancak surfaktanın spesifik baskın bileşeni Dipalmitoil lesitindir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Doğal yağ asitleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Doymuş veya doymamış olabilirler.",
+      "B": "Palmitik asit 16 karbon atomuna sahiptir.",
+      "C": "Oleik asit esansiyel yağ asitlerinden biridir.",
+      "D": "Çift bağ sayısı arttıkça erime noktaları düşer.",
+      "E": "Karbon sayıları arttıkça erime noktaları yükselir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A) Doymuş/Doymamış olma:** Doğal yağ asitleri çift bağ içermeyen doymuş veya tek/çok çift bağlı doymamış yapıda olabilir. (Doğru)\n- **B) Palmitik asit:** 16:0 yapısında en yaygın doymuş yağ asididir. (Doğru)\n- **C) Oleik asit (Doğru Cevap - Yanlış İfade):** Oleik asit 18:1 (Δ9) ω-9 yapısındadır ve insan vücudunda Δ9 desatüraz ile sentezlenebilir, esansiyel değildir! Esansiyel olanlar Linoleik (ω-6) ve α-Linolenik (ω-3) asittir.\n- **D) Çift bağ etkisi:** Çift bağ (cis konfigürasyonu) yapıyı büker, moleküller arası van der Waals bağlarını zayıflatır ve erime noktasını düşürür. (Doğru)\n- **E) Karbon zinciri etkisi:** Karbon sayısı arttıkça hidrofobik van der Waals etkileşimleri artar ve erime noktası yükselir. (Doğru)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar DUS"
+  },
+  {
+    "question": "Uzun zincirli serbest yağ asitleri, plazmada aşağıdaki moleküllerden hangisine bağlı olarak taşınır?",
+    "options": {
+      "A": "Albümin",
+      "B": "Transferrin",
+      "C": "Şilomikron",
+      "D": "VLDL",
+      "E": "HDL"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Albümin (Doğru Cevap):** Adipoz dokudan salınan uzun zincirli serbest (esterleşmemiş) yağ asitleri plazmada hidrofobik oldukları için Albümine non-kovalent bağlanarak dokulara taşınırlar.\n- **B) Transferrin:** Demiri (Fe3+) taşıyan plazma proteinidir.\n- **C, D, E) Şilomikron, VLDL, HDL:** Esterleşmiş nötral yağları (TriAçilGliserol ve Kolesterol Esteri) taşıyan lipoprotein küreleridir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Plazmalojenlerin yapısında aşağıdaki bağlardan hangisi bulunur?",
+    "options": {
+      "A": "Amid bağı",
+      "B": "Fosfodiester bağı",
+      "C": "O-glikozid bağı",
+      "D": "Eter bağı",
+      "E": "Peptid bağı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Amid bağı:** Sfingolipidlerde sfingozin ile yağ asidini bağlar.\n- **B) Fosfodiester bağı:** Nükleik asitlerde ve fosfolipid baş gruplarında bulunur.\n- **C) O-glikozid bağı:** Karbonhidrat monomerlerini bağlar.\n- **D) Eter bağı (Doğru Cevap):** Plazmalojenler, gliserolün C1 pozisyonunda eter bağı (alkenil eter) içeren özel ether-gliserofosfolipidledir (peroksizomlarda sentezlenirler).\n- **E) Peptid bağı:** Proteinlerde amino asitleri bağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki fosfolipidlerden hangisi, akciğer surfaktanının yapısında bulunan lesitindir?",
+    "options": {
+      "A": "Fosfatidiletanolamin",
+      "B": "Fosfatidilkolin",
+      "C": "Fosfatidilgliserol",
+      "D": "Sfingomiyelin",
+      "E": "Fosfatidilinozitol"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Fosfatidiletanolamin:** Kefalin olarak bilinen zarsal fosfolipiddir.\n- **B) Fosfatidilkolin (Doğru Cevap):** Lesitinin sistematik adıdır. Akciğer surfaktanının en önemli bileşenidir (Dipalmitoilfosfatidilkolin).\n- **C, D, E) Fosfatidilgliserol, Sfingomiyelin, Fosfatidilinozitol:** Diğer zar ve surfaktan bileşenleridir ancak lesitin değillerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi intraselüler sinyal iletiminde görev alan bir fosfolipiddir?",
+    "options": {
+      "A": "Fosfatidilserin",
+      "B": "Fosfatidiletanolamin",
+      "C": "Fosfatidilkolin",
+      "D": "Fosfatidilinozitol",
+      "E": "Difosfatidilgliserol"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Fosfatidilserin:** Hücre zarının iç yaprağında bulunur, apoptozda dışa döner.\n- **B, C) Fosfatidiletanolamin, Fosfatidilkolin:** Membran yapısal fosfolipidledir.\n- **D) Fosfatidilinozitol (Doğru Cevap):** Fosfatidilinozitol-4,5-bisfosfat (PIP2) şeklinde sinyal iletiminde Fosfolipaz C tarafından kesilerek IP3 ve DAG ikinci haberilerini oluşturur.\n- **E) Difosfatidilgliserol:** Kardiyolipindir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Gliserofosfolipid molekülünden fosfolipaz A2 etkisi ile bir molekül yağ asidi ayrıldığında hangisi oluşur?",
+    "options": {
+      "A": "Fosfatidik asit",
+      "B": "Plazmalojen",
+      "C": "Lizofosfolipid",
+      "D": "Seramid",
+      "E": "Sülfatid"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A) Fosfatidik asit:** Fosfolipidlerin baş grubunun ayrılmasıyla oluşur.\n- **B) Plazmalojen:** Eter bağlı fosfolipiddir.\n- **C) Lizofosfolipid (Doğru Cevap):** Fosfolipaz A1 veya Fosfolipaz A2 etkisiyle tek bir yağ asidi hidroliz edildiğinde geriye kalan tek yağ asitli yapıya 'Lizofosfolipid' (örneğin Lizofosfatidilkolin) denir.\n- **D) Seramid:** Sfingozin + Yağ asididir.\n- **E) Sülfatid:** Sülfat grubu içeren galaktoserebroziddir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Seramid biyosentezinin başlangıç basamağında gereken moleküller aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Palmitoil-KoA - Serin",
+      "B": "Propionil-KoA - Serin",
+      "C": "Süksinil-KoA - Serin",
+      "D": "Süksinil-KoA - Glisin",
+      "E": "Asetil-KoA - Gliserol-3-fosfat"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Palmitoil-KoA - Serin (Doğru Cevap):** Sfingozin ve dolayısıyla Seramid sentezinin ilk basamağında Palmitoil-KoA ile Serin amino asidi, PFL (Pridoksal fosfat / B6 vitamini) kofaktörlüğünde kondanse olarak 3-ketosfinganin oluşturur.\n- **B, C, D, E) Diğer çiftler:** Seramid sentezinin başlangıç substratı değillerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Sfingolipidlerde bulunan ortak yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "N-asetilnöraminik asit",
+      "B": "Fosfatidik asit",
+      "C": "Seramid",
+      "D": "Fosfatidilkolin",
+      "E": "Fosfatidiletanolamin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A) N-asetilnöraminik asit (Sialik asit):** Sadece gangliozid yapısında bulunur.\n- **B) Fosfatidik asit:** Gliserofosfolipidlerin temel kök yapısıdır.\n- **C) Seramid (Doğru Cevap):** Sfingozin ve ona bağlı bir yağ asidinden oluşur. Bütün sfingolipidlerin (sfingomiyelin, serebrozid, gangliozid, globozid, sülfatid) ortak hidrofobik temel yapısıdır.\n- **D, E) Fosfatidilkolin, Fosfatidiletanolamin:** Gliserofosfolipiddirler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi gliserofosfolipid yapısındaki bileşiklerden biri değildir?",
+    "options": {
+      "A": "Fosfatidilkolin",
+      "B": "Fosfatidilserin",
+      "C": "Fosfatidilinozitol bisfosfat",
+      "D": "Kardiyolipin",
+      "E": "Gangliozidler"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, D) Fosfatidilkolin, Fosfatidilserin, PIP2, Kardiyolipin:** Gliserol omurgasına sahip gliserofosfolipid ailesi üyeleridir.\n- **E) Gangliozidler (Doğru Cevap):** Gliserol ve fosfat içermezler! Sfingozin omurgalı, şeker ve sialik asit içeren kompleks glikosfingolipidlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Gangliozidler ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Gangliozid GM2 kolera toksini için reseptör fonksiyonu görür.",
+      "B": "Tay-Sachs hastalığında esas biriken gangliozid GM3'tür.",
+      "C": "GM1 en basit gangliozid olup bir molekül glukoz, bir molekül galaktoz ve bir molekül nöraminik asit içerir.",
+      "D": "Basit glikosfingolipidler olup pentozamin rezidüleri içerirler.",
+      "E": "Deprotonize sialik asit nötral pH'da gangliozidlere negatif yük kazandırarak globozidlerden ayrımını sağlar."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A) Kolera toksini reseptörü:** Kolera toksininin hücre yüzeyinde bağlandığı spesifik reseptör GM1 gangliozididir (GM2 değil). (Yanlış)\n- **B) Tay-Sachs hastalığı:** Hexosaminidase A eksikliği sonucu GM2 gangliozidi birikir (GM3 değil). (Yanlış)\n- **C) En basit gangliozid:** En basit gangliozid GM3'tür. (Yanlış)\n- **D) Yapısal Özellik:** Kompleks glikosfingolipidlerdir ve eksojen oligosakkarit zinciri içerirler. (Yanlış)\n- **E) Yük Özelliği (Doğru Cevap):** Gangliozidlerin yapısındaki sialik asit (NANA) fizyolojik pH'da deprotonize olarak (-1) net negatif yük kazandırır. Bu özellik yüksüz/nötral olan globozidlerden ayırt edilmelerini sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Hücre zarındaki fosfolipidlerden fosfolipaz A2 enzimi aracılığıyla açığa çıkan ve prostaglandinler, lökotriyenler, tromboksanlar gibi eikozanoidlerin öncülü olan yağ asidi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Palmitoleik asit",
+      "B": "Stearik asit",
+      "C": "Miristik asit",
+      "D": "Araşidonik asit",
+      "E": "Oleik asit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, E) Palmitoleik, Stearik, Miristik, Oleik asit:** Eikozanoid sentezinin doğrudan öncülü değillerdir.\n- **D) Araşidonik asit (Doğru Cevap):** 20:4 (ω-6) yapısında poliansatüre yağ asididir. Membran fosfolipidlerinin C2 pozisyonunda bulunur, Fosfolipaz A2 (PLA2) ile serbestleştirilerek COX ve LOX yollarında eikozanoidlere (PG, TX, LT) dönüşür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 EUS"
+  },
+  {
+    "question": "Sfingolipidlerin yıkımında rol almaz?",
+    "options": {
+      "A": "Glikozil transferaz",
+      "B": "b-heksosaminidaz A",
+      "C": "b-galaktozidaz",
+      "D": "b-glukozidaz",
+      "E": "Seramidaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Glikozil transferaz (Doğru Cevap):** Endoplazmik retikulum ve Golgi'de glikolipid ve glikoprotein SENTEZİNDE görev yapar. Lizozomal katabolizmada/yıkımda rol almaz.\n- **B) β-heksosaminidaz A:** GM2 gangliozidi yıkar (eksikliğinde Tay-Sachs).\n- **C) β-galaktozidaz:** GM1 gangliozid ve galaktoserebrozidi yıkar (eksikliğinde GM1 gangliosidoz / Krabbe).\n- **D) β-glukozidaz (Glukoserebrozidaz):** Glukoserebrozidi yıkar (eksikliğinde Gaucher).\n- **E) Seramidaz:** Seramidi sfingozin ve yağ asidine yıkar (eksikliğinde Farber).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Niemann-Pick hastalığı aşağıdaki enzimlerden hangisinin eksikliğinde ortaya çıkar?",
+    "options": {
+      "A": "Heksosaminidaz A",
+      "B": "Alfa-galaktozidaz",
+      "C": "Kolesterol esteraz",
+      "D": "Sfingomiyelinaz",
+      "E": "Seramidaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Heksosaminidaz A eksikliği:** Tay-Sachs hastalığı (GM2 gangliozid birikir, cherry-red spot, HSM yok).\n- **B) Alfa-galaktozidaz eksikliği:** Fabry hastalığı (X'e bağlı geçiş, angiokeratomlar, böbrek yetmezliği).\n- **C) Kolesterol esteraz eksikliği:** Wolman hastalığı / Kolesterol ester depo hastalığı.\n- **D) Sfingomiyelinaz eksikliği (Doğru Cevap):** Niemann-Pick hastalığı (sfingomiyelin birikir, belirgin Hepatosplenomegali, köpüksü makrofajlar, cherry-red spot).\n- **E) Seramidaz eksikliği:** Farber hastalığı (Ağrılı eklem nodülleri, kaba ses).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisinin eksikliği, metakromatik lökodistrofi hastalığına neden olur?",
+    "options": {
+      "A": "Beta-galaktozidaz",
+      "B": "Sfingomiyelinaz",
+      "C": "Seramidaz",
+      "D": "Beta-glukozidaz",
+      "E": "Arilsülfataz A"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A) Beta-galaktozidaz eksikliği:** Krabbe hastalığı / GM1 gangliosidoz.\n- **B) Sfingomiyelinaz eksikliği:** Niemann-Pick hastalığı.\n- **C) Seramidaz eksikliği:** Farber hastalığı.\n- **D) Beta-glukozidaz eksikliği:** Gaucher hastalığı.\n- **E) Arilsülfataz A eksikliği (Doğru Cevap):** Sülfatid (Serebrozid sülfat) birikimi sonucu Metakromatik Lökodistrofi oluşur. Santral ve periferik demyelinizasyon, ataksi ve demans ile karakterizedir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Gaucher hastalığında aşağıdaki enzimlerden hangisi eksiktir?",
+    "options": {
+      "A": "Heksosaminidaz A",
+      "B": "Karnitin açil transferaz I",
+      "C": "Beta-glukozidaz",
+      "D": "Glikojen fosforilaz",
+      "E": "Alfa galaktozidaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A) Heksosaminidaz A:** Tay-Sachs hastalığında eksiktir.\n- **B) Karnitin açil transferaz I:** Yağ asidi mitokondriye giriş inhibitör/taşıyıcısıdır.\n- **C) Beta-glukozidaz (Glukoserebrozidaz) eksikliği (Doğru Cevap):** En sık görülen lizozomal depo hastalığıdır. Glukoserebrozid birikir, hepatosplenomegali, kemik ağrıları, Erlenmeyer flask deformitesi ve 'buruşuk kağıt' görünümlü Gaucher hücreleri saptanır.\n- **D) Glikojen fosforilaz:** McArdle / Hers hastalığı enzimidir.\n- **E) Alfa galaktozidaz:** Fabry hastalığı enzimidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Son üç aydır göğüs ağrısı olan 45 yaşındaki erkek hastanın fizik muayenesinde tendon ksantomaları saptanıyor. Laboratuvar incelemesinde total kolesterol 380 mg/dL, LDL kolesterol 305 mg/dL, trigliserid 120 mg/dL bulunuyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tip I hiperlipoproteinemi",
+      "B": "Tip IIa hiperlipoproteinemi",
+      "C": "Tip III hiperlipoproteinemi",
+      "D": "Tip IV hiperlipoproteinemi",
+      "E": "Tip V hiperlipoproteinemi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Tip I Hiperlipoproteinemi:** LPL veya Apo C-II eksikliğidir; Şilomikron ve belirgin Trigliserid (TAG > 1000) artar, eruptif ksantomlar ve pankreatit görülür.\n- **B) Tip IIa Hiperlipoproteinemi (Familial Hiperkolesterolemi) (Doğru Cevap):** LDL reseptör defektine bağlıdır. Plazmada izole LDL ve Kolesterol çok yüksektir. Karakteristik olarak Tendon Ksantomları (Aşil tendonu) ve erken koroner arter hastalığı görülür.\n- **C) Tip III Hiperlipoproteinemi (Disbetalipoproteinemi):** Apo E eksikliğidir; IDL ve Şilomikron kalıntıları artar, Palmar Ksantomlar görülür.\n- **D) Tip IV Hiperlipoproteinemi:** VLDL artışına bağlı izole endojen hipertrigliseridemidir.\n- **E) Tip V Hiperlipoproteinemi:** Şilomikron + VLDL yüksekliğidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "Gliseroneogenez aşağıdakilerin hangisinde en aktiftir?",
+    "options": {
+      "A": "Yağ dokusu",
+      "B": "Kalp dokusu",
+      "C": "Kas dokusu",
+      "D": "Beyin",
+      "E": "Karaciğer"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Yağ dokusu (Adipoz doku) (Doğru Cevap):** Yağ dokusunda Gliserol Kinaz enzimi bulunmaz. Açlıkta TAG sentezi için gereken Gliserol-3-fosfat, pirüvattan gliseroneogenez yoluyla (sitozolik PEP karboksikinaz anahtar enzimdir) sentezlenir. Gliseroneogenezin en aktif olduğu doku yağ dokusudur.\n- **B, C, D) Kalp, Kas, Beyin:** Gliseroneogenez baskın değildir.\n- **E) Karaciğer:** Karaciğerde Gliserol Kinaz enzimi aktif olduğundan doğrudan serbest gliserolden Gliserol-3-fosfat sentezleyebilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Adipositlerde yağ depolanabilmesi için aşağıdaki glikoliz metabolitlerinden hangisine gereksinim vardır?",
+    "options": {
+      "A": "Fosfoenolpirüvat",
+      "B": "Dihidroksiaseton fosfat",
+      "C": "Fruktoz-6-fosfat",
+      "D": "Glukoz-6-fosfat",
+      "E": "Pirüvat"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A, C, D, E) Fosfoenolpirüvat, Fruktoz-6-P, Glukoz-6-P, Pirüvat:** Doğrudan Gliserol-3-fosfat oluşturmak içinGliserol-3-fosfat dehidrogenazın doğrudan substratı değillerdir.\n- **B) Dihidroksiaseton fosfat (DHAP) (Doğru Cevap):** Adipositlerde Gliserol Kinaz bulunmadığı için glukozun glikoliz ara ürünü olan DHAP, sitozolik Gliserol-3-fosfat dehidrogenaz enzimi ile NADH kullanılarak Gliserol-3-fosfata indirgenir ve TAG esterleşmesinde kullanılır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "Asetil-KoA karboksilaz ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Epinefrin tarafından fosforile ve inaktive edilir.",
+      "B": "Sitrat tarafından allosterik olarak aktive edilir.",
+      "C": "Uzun zincirli yağ açil-KoA tarafından allosterik olarak inhibe edilir.",
+      "D": "İnsülinin protein fosfatazı inhibe etmesiyle inaktif hâle geçer.",
+      "E": "AMP ile aktive olan protein kinaz (AMPK) tarafından fosforile edilerek inaktif hâle geçer."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Epinefrin/Glukagon etkisi:** PKA ve AMPK aracılığıyla ACC'yi fosforilleyerek İNAKTİVE eder. (Doğru)\n- **B) Sitrat etkisi:** Sitrat, Asetil-KoA karboksilazın en önemli allosterik AKTİVATÖRÜDÜR, protomerleri polimerize eder. (Doğru)\n- **C) Yağ açil-KoA etkisi:** Palmitoil-KoA (son ürün) ACC'yi depolimerize ederek allosterik İNHİBE eder. (Doğru)\n- **D) İnsülin etkisi (Doğru Cevap - Yanlış İfade):** İnsülin Protein Fosfatazı İNHİBE ETM EZ, AKTİVE EDER! Defosforilasyon yoluyla ACC'yi AKTİF hâle getirir.\n- **E) AMPK etkisi:** Enerji düşüklüğünde AMPK, ACC'yi fosforilleyerek inaktive eder ve yağ sentezini durdurur. (Doğru)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi lipogenezin kontrol mekanizmalarından biri değildir?",
+    "options": {
+      "A": "Asetil-KoA karboksilaz enziminin sitrat tarafından aktivasyonu",
+      "B": "Asetil-KoA karboksilaz enziminin palmitoil-KoA tarafından inhibisyonu",
+      "C": "Mitokondriyal ATP/ADP taşıyıcısının açil-KoA tarafından inhibisyonu",
+      "D": "Mitokondriyal trikarboksilat taşıyıcısının palmitoil-KoA tarafından inhibisyonu",
+      "E": "Asetil-KoA karboksilaz enziminin insülin tarafından inhibisyonu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A) Sitrat aktivasyonu:** Toklukta artan sitrat ACC'yi allosterik aktive eder. (Doğru kontrol)\n- **B) Palmitoil-KoA inhibisyonu:** Uzun zincirli açil-KoA ACC'yi geriye dönük (feedback) inhibe eder. (Doğru kontrol)\n- **C) ATP/ADP taşıyıcı inhibisyonu:** Açil-KoA mitokondriyal adenin nükleotid translokazı inhibe eder. (Doğru kontrol)\n- **D) Trikarboksilat taşıyıcı inhibisyonu:** Palmitoil-KoA sitratın mitokondriden sitozole çıkışını engeller. (Doğru kontrol)\n- **E) İnsülin etkisi (Doğru Cevap - Yanlış İfade):** İnsülin lipogenezin ana uyarısıdır! İnsülin ACC'yi defosforile ederek uyarır ve aktivasyonunu sağlar (inhibe etmez).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin katalizlediği reaksiyon ile elde edilen asetil-KoA, yağ asidi sentezi için kullanılır?",
+    "options": {
+      "A": "Pirüvat karboksilaz",
+      "B": "Pirüvat dehidrogenaz",
+      "C": "Pirüvat kinaz",
+      "D": "Fosfoenolpirüvat karboksikinaz",
+      "E": "Laktat dehidrogenaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Pirüvat karboksilaz:** Pirüvattan okzaloasetat oluşturur (karboksilasyon).\n- **B) Pirüvat dehidrogenaz (PDH) (Doğru Cevap):** Mitokondride pirüvatı Asetil-KoA'ya dönüştürür. Oluşan Asetil-KoA sitrat şeklinde sitozole taşınarak Yağ Asidi ve Kolesterol sentezinde ana substrat olarak kullanılır.\n- **C) Pirüvat kinaz:** Glikolizde PEP'ten pirüvat sentezler.\n- **D) PEP karboksikinaz:** Glukoneogenezde okzaloasetattan PEP oluşturur.\n- **E) Laktat dehidrogenaz:** Laktat-pirüvat interkonversiyonunu katalizler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Yağ asidi biyosentezinde rol alan aşağıdaki enzimlerden hangisi yağ asidi sentaz sisteminde bulunmaz?",
+    "options": {
+      "A": "Enoil redüktaz",
+      "B": "Keto asil redüktaz",
+      "C": "Malonil-KoA transaçilaz",
+      "D": "Asetil-KoA karboksilaz",
+      "E": "Asetil-KoA asetiltransaçilaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, E) Enoil redüktaz, Ketoaçil redüktaz, Malonil transaçilaz, Asetil transaçilaz:** Hepsi dimerik Yağ Asidi Sentaz (FAS / Tip I) multienzim kompleksinin domain/aktivite merkezleridir.\n- **D) Asetil-KoA karboksilaz (ACC) (Doğru Cevap):** Yağ asidi sentezinin ilk ve hız kısıtlayıcı basamağını katalizleyen (Asetil-KoA -> Malonil-KoA) müstakil, ayrı bir enzimdir; FAS kompleksinin üyesi değildir!",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Yağ asidi sentaz kompleksinde, açil taşıyıcı proteine bağlı malonil grubunu asetil grubu ile kondanse eden ve bu sırada karbondioksit çıkışına yol açan enzimatik aktivite hangisidir?",
+    "options": {
+      "A": "Tiyoesteraz",
+      "B": "Enoil redüktaz",
+      "C": "Ketoaçil redüktaz",
+      "D": "Malonil-asetil transaçilaz",
+      "E": "Ketoaçil sentaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A) Tiyoesteraz:** 16C Palmitat oluştuktan sonra ürünü kompleksten salan enzimdir.\n- **B) Enoil redüktaz:** Çift bağı indirgeyen (NADPH harcayan) alandır.\n- **C) Ketoaçil redüktaz:** C3 keto grubunu -OH grubuna indirgeyen alandır.\n- **D) Transaçilazlar:** Substratları ACP veya Cys-SH grubuna aktaran domainlerdir.\n- **E) Ketoaçil sentaz (β-Ketoaçil sentaz / Kondansasyon enzimi) (Doğru Cevap):** Malonil-ACP ile Asetil (veya büyümekte olan açil) grubunu kondanse ederek 1 molekül CO2 çıkışını sağlayan ve C4 β-ketoaçil yapısını oluşturan enzim alanıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Palmitat sentezinde kullanılan NADPH, pentoz fosfat yolu dışında hangi enzimin katalizlediği reaksiyonla elde edilir?",
+    "options": {
+      "A": "Pirüvat dehidrogenaz",
+      "B": "a-ketoglutarat dehidrogenaz",
+      "C": "Malik enzim",
+      "D": "ATP-sitrat liyaz",
+      "E": "Malonil asetil transaçilaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A, B) PDH ve α-KGDH:** Mitokondride NADH üretirler.\n- **C) Malik enzim (NADP+-bağlı Malat Dehidrogenaz) (Doğru Cevap):** Sitozolda Malatı Pirüvata çevirirken NADP+'yi NADPH'ye indirger ve CO2 çıkarır. Sitozolik NADPH gereksiniminin (yağ asidi sentezi için) yaklaşık %40'ını sağlar (ger kalanı HMY).\n- **D) ATP-sitrat liyaz:** Sitrat + ATP + KoA -> Asetil-KoA + Okzaloasetat reaksiyonunu yapar (NADPH üretmez).\n- **E) FAS kompleks alanıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, yağ asidi sentezi için gereken redüktif (indirgen) koenzimleri üreten enzimlerden biridir?",
+    "options": {
+      "A": "Malik enzim",
+      "B": "Pirüvat dehidrogenaz",
+      "C": "Asetil-KoA karboksilaz",
+      "D": "Sitrat liyaz",
+      "E": "Süksinat dehidrogenaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Malik enzim (Doğru Cevap):** Malatın pirüvata dekarboksilatif dehidrogenasyonunda NADP+ kullanarak NADPH sentezler. NADPH, yağ asidi sentezinde redüktif basamaklar için (ketoaçil redüktaz ve enoil redüktaz) şarttır.\n- **B) PDH:** NADH üretir.\n- **C) ACC:** Malonil-KoA üretir, NADPH üretmez.\n- **D) Sitrat liyaz:** Asetil-KoA üretir.\n- **E) Süksinat dehidrogenaz:** FADH2 üretir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi HMG-KoA redüktazı inhibe eder?",
+    "options": {
+      "A": "Düşük mevalonat düzeyi",
+      "B": "Yüksek AMP düzeyi",
+      "C": "Yüksek insülin düzeyi",
+      "D": "Düşük kolesterol düzeyi",
+      "E": "Enzimin defosforilasyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Düşük mevalonat:** Ürün azlığında inhibisyon çözülür.\n- **B) Yüksek AMP düzeyi (Doğru Cevap):** Enerji azlığında (yüksek AMP) AMPK aktifleşir ve HMG-KoA redüktazı fosforilleyerek İNHİBE EDER.\n- **C) Yüksek insülin:** Protein fosfatazı aktifleyerek enzimi defosforile eder ve AKTİVE EDER.\n- **D) Düşük kolesterol:** SREBP-2'yi uyararak enzimin gen ekspresyonunu artırır.\n- **E) Defosforilasyon:** Enzimin aktif formudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Kolesterol senteziyle ilgili hangi ifade yanlıştır?",
+    "options": {
+      "A": "Kolesterol sentezinin regülasyonunda hız sınırlayıcı enzim HMG-KoA redüktazdır.",
+      "B": "HMG-KoA redüktaz enziminin ekspresyonu SREBP-2 transkripsiyon faktörüyle kontrol edilir.",
+      "C": "HMG-KoA redüktaz enziminin aktivitesi fosforilasyon-defosforilasyon ile düzenlenir.",
+      "D": "İnsülin, HMG-KoA redüktaz enziminin gen ekspresyonunu azaltır.",
+      "E": "Statin türevi ilaçlar, HMG-KoA redüktaz enziminin kompetitif inhibitörleridir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Hız sınırlayıcı enzim:** HMG-KoA redüktaz Düz ER zarında kolesterol sentezinin ana hız kısıtlayıcı basamağıdır. (Doğru)\n- **B) SREBP-2 regülasyonu:** Hücre içi kolesterol azaldığında SREBP-2 çekirdeğe geçerek geni uyarır. (Doğru)\n- **C) Kovalent modifikasyon:** Enzim defosforile halde aktif, fosforile halde inaktiftir. (Doğru)\n- **D) İnsülin etkisi (Doğru Cevap - Yanlış İfade):** İnsülin HMG-KoA redüktazın hem gen ekspresyonunu hem de defosforilasyon ile enzim aktivitesini ARTIRIR (azaltmaz!).\n- **E) Statinler:** Statinler HMG-KoA redüktazı yarışmalı (kompetitif) inhibe eden ilaçlardır. (Doğru)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Kolesterol sentezinde, statinler aşağıdaki süreçlerden hangisini doğrudan inhibe eder?",
+    "options": {
+      "A": "Asetoasetil-KoA - HMG-KoA",
+      "B": "HMG-KoA - Mevalonat",
+      "C": "Geranil pirofosfat - Skualen",
+      "D": "Skualen - Lanosterol",
+      "E": "Lanosterol - Kolesterol"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Asetoasetil-KoA -> HMG-KoA:** HMG-KoA sentaz tarafından katalizlenir.\n- **B) HMG-KoA -> Mevalonat (Doğru Cevap):** Kolesterol sentezinin hız kısıtlayıcı bu basamağını HMG-KoA redüktaz katalizler. Statinler bu basamağı direkt ve kompetitif olarak inhibe eder.\n- **C, D, E) Sonraki izoprenoid ve halkalanma basamakları:** Statinlerin doğrudan hedefi değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 DUS"
+  },
+  {
+    "question": "Kolesterol sentezinde aşağıdakilerden hangisinin iki molekülünün birleşmesi ile 30 karbonlu izoprenoid yapıda ürün oluşur?",
+    "options": {
+      "A": "5-pirofosfomevalonat",
+      "B": "Dimetilallil pirofosfat",
+      "C": "Geranil pirofosfat",
+      "D": "Farnesil pirofosfat",
+      "E": "Skualen"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C) 5-pirofosfomevalonat, Dimetilallil PP (5C), Geranil PP (10C):** 30C yapı oluşturmak için doğrudan ikili kondansasyona girmezler.\n- **D) Farnesil pirofosfat (15C) (Doğru Cevap):** İki molekül Farnesil pirofosfat (15C + 15C), Skualen Sentaz enzimi ile NADPH kullanılarak baş-başa yoğuşur ve 30 karbonlu düz zincirli alifatik izoprenoid olan Skualen'i oluşturur.\n- **E) Skualen:** Bu basamak sonucu oluşan 30C üründür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki bileşiklerden hangisi kolesterol sentezinde yer alan ara ürünlerden biri değildir?",
+    "options": {
+      "A": "Mevalonik asit",
+      "B": "Skualen",
+      "C": "Fosfatidik asit",
+      "D": "İzopentenil pirofosfat",
+      "E": "Desmosterol"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A, B, D, E) Mevalonik asit, Skualen, İzopentenil pirofosfat, Desmosterol:** Hepsi kolesterol biyosentez yolunun (Asetil-KoA -> HMG-KoA -> Mevalonat -> IPP -> GPP -> FPP -> Skualen -> Lanosterol -> Desmosterol -> Kolesterol) ardışık ara ürünleridir.\n- **C) Fosfatidik asit (Doğru Cevap):** Gliserofosfolipid ve TriAçilGliserol (TAG) sentez yolu ara maddesidir; kolesterol sentez yolunda kesinlikle bulunmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar TUS"
+  },
+  {
+    "question": "Kolesterol sentezinin düzenlenmesi ile ilgili ifadelerden hangileri doğrudur? (2022 Sonbahar TUS)\nI. HMG-KoA redüktaz fosforilasyonu için AMP gerekir.\nII. INSIG proteini HMG-KoA redüktaz yıkımını baskılar.\nIII. HMG-KoA redüktaz ubikitin-proteozom sistemiyle degrade edilir.",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **Öncül I (Doğru):** Düşük hücre içi enerjide artan AMP, AMP-aktive Protein Kinazı (AMPK) aktifler; AMPK, HMG-KoA redüktazı fosforilleyerek inaktive eder.\n- **Öncül II (Yanlış):** Yüksek kolesterol/lanosterol varlığında INSIG proteini HMG-KoA redüktaza bağlanır ve onun ubikitinlenmesini uyararak yıkımını BAŞLATIR (baskılamaz!).\n- **Öncül III (Doğru):** Hücre içi kolesterol yükseldiğinde INSIG aracılığıyla HMG-KoA redüktaz ER zarında ubikitinlenir ve proteozomlarda parçalanarak hızlıca yıkarılır.\n- **Sonuç:** I ve III doğrudur (Cevap C).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Asetil-KoA'dan başlayarak 1 mol palmitat sentezlemek için kaç mol NADPH ve ATP kullanılır?",
+    "options": {
+      "A": "7 mol NADPH ve 7 mol ATP",
+      "B": "14 mol NADPH ve 14 mol ATP",
+      "C": "14 mol NADPH ve 7 mol ATP",
+      "D": "16 mol NADPH ve 16 mol ATP",
+      "E": "8 mol NADPH ve 7 mol ATP"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- Palmitat (16C) sentezinin stokiyometrik denklemi:\n  1 Asetil-KoA + 7 Malonil-KoA + 14 NADPH + 14 H+ -> Palmitat + 7 CO2 + 6 H2O + 8 KoA + 14 NADP+\n- 7 Malonil-KoA oluşturmak için Asetil-KoA Karboksilaz reaksiyonunda 7 ATP harcanır.\n- Dolayısıyla net kullanım: **14 mol NADPH** ve **7 mol ATP**'dir (Cevap C).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Doymamış yağ asitleri sentezi ve elongasyonunda aşağıdaki vitaminlerden hangisinin rolü yoktur?",
+    "options": {
+      "A": "Biotin",
+      "B": "Pantoteik asit",
+      "C": "Nikotinik asit",
+      "D": "Tiamin",
+      "E": "Riboflavin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Biotin:** ACC (Asetil-KoA karboksilaz) kofaktörüdür (karboksilasyon).\n- **B) Pantotenik asit (B5):** Koenzim A ve ACP (Açil Taşıyıcı Protein) yapısındadır.\n- **C) Nikotinik asit (B3/Niasin):** Desatürasyon ve elongasyonda indirgen koenzim NADPH ve NADH yapısındadır.\n- **D) Tiamin (B1) (Doğru Cevap):** Yağ asidi sentezi, uzatılması (elongasyon) veya çift bağ eklenmesi (desatürasyon) basamaklarında doğrudan kofaktör rolü üstlenmez.\n- **E) Riboflavin (B2):** Düz ER desatüraz sistemindeki Sitokrom b5 redüktazın FAD yapısındadır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, safra asitlerinin konjugasyonunda kullanılan bir amino asittir?",
+    "options": {
+      "A": "Lösin",
+      "B": "Tirozin",
+      "C": "Alanin",
+      "D": "Valin",
+      "E": "Glisin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, D) Lösin, Tirozin, Alanin, Valin:** Safra asitlerinin konjugasyonunda kullanılmazlar.\n- **E) Glisin (Doğru Cevap):** Karaciğerde kolesterolden sentezlenen primer safra asitleri (Kolik asit ve Kenodeoksikolik asit) peroksizomlarda Glisin veya Taurin ile amide bağlanarak konjuge safra tuzlarını (Glikokolik asit, Taurokolik asit) oluştururlar. Glisin en sık kullanılan amino asittir (3:1 oranı).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "I. Deoksikolik asit II. Kolik asit III. Kenodeoksikolik asit\nYukarıdakilerden hangileri üçüncü ve yedinci pozisyonlarında iki adet hidroksil grubu içeren primer safra asitlerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "Yalnız II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **I. Deoksikolik asit:** Bağırsakta kolik asidin 7α-dehidroksilasyonu ile oluşan SEKONDER safra asididir (3,12 C-OH). (Yanlış)\n- **II. Kolik asit:** Karaciğerde sentezlenen PRIMER safra asididir ancak 3 adet hidroksil grubu (3,7,12 C-OH) içerir. (Yanlış)\n- **III. Kenodeoksikolik asit (Doğru):** Karaciğerde sentezlenen PRIMER safra asididir ve sadece 3. ve 7. karbonlarında 2 adet hidroksil grubu (3,7 C-OH) taşır.\n- **Sonuç:** Yalnız III (Cevap B).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin kolesterol düşürücü etkisi yoktur?",
+    "options": {
+      "A": "HMG-KoA redüktaz enzimini aktive etmek",
+      "B": "Safra asitlerinin sentezini aktive etmek",
+      "C": "Safra tuzlarının geri emilimini önlemek",
+      "D": "Kolesterol emilimini önleyici reçineler kullanmak",
+      "E": "Kolesterolün intestinal transportunu baskılamak"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) HMG-KoA redüktazı aktive etmek (Doğru Cevap):** HMG-KoA redüktaz kolesterol sentezleyen ana enzimdir; aktivasyonu kanda kolesterolü DÜŞÜRMEZ, AKSİNE YÜKSELTİR. Statinler bu enzimi inhibe ederek kolesterolü düşürür.\n- **B, C, D) Safra asit sentezini uyararak veya reçinelerle (Kolestiramin) safra tuzlarının emilimini engellemek:** Karaciğeri daha fazla kolesterolü safra asidine çevirmeye zorlar ve plazma kolesterolünü düşürür.\n- **E) İntestinal transportu (NPC1L1) baskılamak:** Ezetimib diyetsel kolesterol emilimini önleyerek kan kolesterolünü düşürür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin pankreas kökenli proenzim formunun aktivasyonu için tripsin ve safra tuzları gereklidir?",
+    "options": {
+      "A": "Fosfolipaz A1",
+      "B": "Fosfolipaz A2",
+      "C": "Fosfolipaz B",
+      "D": "Fosfolipaz C",
+      "E": "Fosfolipaz D"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A, C, D, E) Fosfolipaz A1, B, C, D:** Pankreastan bu spesifik Tripsin + Safra Tuzu aktivasyonu mekanizması ile salınmazlar.\n- **B) Fosfolipaz A2 (Doğru Cevap):** Pankreastan inaktif profosfolipaz A2 olarak salınır. İnce bağırsakta Tripsin tarafından peptid bağı kesilerek ve aktivite için Safra Tuzları ile Ca2+ varlığında tam aktif forma dönüşür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki moleküllerden hangisi, membran fosfolipidlerini parçalayan fosfolipaz A2 enzimin etkisiyle ortaya çıkar?",
+    "options": {
+      "A": "Seramid",
+      "B": "Araşidonik asit",
+      "C": "N-asetil nöraminik asit",
+      "D": "Sfingomiyelin",
+      "E": "Fosfatidil etanolamin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A, C, D, E) Seramid, NANA, Sfingomiyelin, Fosfatidiletanolamin:** PLA2 enziminin serbestleştirdiği yağ asidi değillerdir.\n- **B) Araşidonik asit (Doğru Cevap):** Hücre zarındaki fosfolipidlerin C2 pozisyonunda esterleşmiş olarak bulunur ve Fosfolipaz A2 (PLA2) ile hidroliz edilerek serbestleştirilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Eikozanoidler aşağıdaki yağ asitlerinin hangisinden sentezlenir?",
+    "options": {
+      "A": "Palmitik asit",
+      "B": "Palmitoleik asit",
+      "C": "Oleik asit",
+      "D": "Araşidonik asit",
+      "E": "Stearik asit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, E) Palmitik (16C), Palmitoleik (16C), Oleik (18C), Stearik (18C):** 20 karbonlu eikozanoidlerin doğrudan kök maddesi değillerdir.\n- **D) Araşidonik asit (Doğru Cevap):** 20 karbonlu doymamış bir yağ asididir ve prostaglandinler, tromboksanlar ile lökotriyenlerin (eikozanoidlerin) ana sentez precursor'üdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi prostaglandin sentezinin öncül molekülüdür?",
+    "options": {
+      "A": "Stearik asit",
+      "B": "Oleik asit",
+      "C": "Palmitik asit",
+      "D": "Palmitoleik asit",
+      "E": "Araşidonik asit"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, D) Stearik, Oleik, Palmitik, Palmitoleik asit:** Prostaglandin sentezinin öncülü değillerdir.\n- **E) Araşidonik asit (Doğru Cevap):** Siklooksijenaz (COX) enzimi ile PGG2 ve PGH2'ye dönüşerek 2 serisi prostaglandinlerin (PGE2, PGD2, PGF2α, PGI2) direkt öncülü olarak işlev görür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar DUS"
+  },
+  {
+    "question": "5-lipoksijenaz enzimi inhibe edildiğinde, aşağıdaki araşidonik asit ürünlerinden hangisi sentezlenmez?",
+    "options": {
+      "A": "Prostasilin",
+      "B": "Prostaglandin H2",
+      "C": "Tromboksan A2",
+      "D": "Lökotriyen A4",
+      "E": "Prostaglandin E2"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, E) Prostasilin (PGI2), PGH2, Tromboksan A2 (TXA2), PGE2:** Hepsi Siklooksijenaz (COX) yolunun ürünleridir; 5-LOX inhibisyonundan etkilenmezler.\n- **D) Lökotriyen A4 (LTA4) (Doğru Cevap):** 5-Lipoksijenaz (5-LOX) enzim yolunun ana ürünüdür. 5-LOX inhibisyonunda (örneğin Zileuton ilacı ile) LTA4 ve takip eden tüm lökotriyenlerin sentezi durur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi lipoksijenaz ve siklooksijenaz metabolik yollarında araşidonik asitten sentezlenmez?",
+    "options": {
+      "A": "Lökotriyen A3",
+      "B": "Tromboksan A2",
+      "C": "Prostaglandin E2",
+      "D": "Prostaglandin I2",
+      "E": "Lökotriyen B4"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Lökotriyen A3 (Doğru Cevap):** Araşidonik asitten (C20:4 ω-6) sentezlenmez! LTA3, eikosatrienoik asitten sentezlenir. Araşidonik asitten COX ile 2 serisi (PGE2, PGI2, TXA2) ve LOX ile 4 serisi (LTA4, LTB4, LTC4) sentezlenir.\n- **B, C, D, E) TXA2, PGE2, PGI2, LTB4:** Hepsi araşidonik asit türevleridir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki lökotriyenlerden hangisinin yapısında glutatyon tripeptidi bulunur?",
+    "options": {
+      "A": "Lökotriyen A",
+      "B": "Lökotriyen B",
+      "C": "Lökotriyen C",
+      "D": "Lökotriyen D",
+      "E": "Lökotriyen E"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A) LTA4:** Epoksit yapılı prekürsör lökotriyendir.\n- **B) LTB4:** Nötrofil kemotaksisi sağlayan dihidroksi türevidir.\n- **C) Lökotriyen C4 (LTC4) (Doğru Cevap):** LTA4'e Glutatyon S-transferaz ile tam Glutatyon (Glutamat-Sistein-Glisin) tripeptidinin eklenmesiyle oluşan ilk peptidoleukotriene'dir (SRS-A).\n- **D) LTD4:** Glutamatın ayrılmasıyla oluşan sisteinil-glisin yapılı peptidolökotriyendir.\n- **E) LTE4:** Glisinin de ayrılmasıyla oluşan tek sisteinli peptidolökotriyendir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aspirinin indüklediği astımda görülen semptomların nedeni aşağıdakilerden hangisi ile en iyi açıklanır?",
+    "options": {
+      "A": "CFTR aktivitesinin inhibisyonu",
+      "B": "Siklooksijenaz inhibisyonu sonrası lökotriyen sentezine kayma",
+      "C": "PGH2 sentezinin artması",
+      "D": "Fosfolipaz aktivasyonu ile alveol kollapsı",
+      "E": "Fosfolipaz A2 inhibisyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A, C, D, E) CFTR, PGH2 artışı, PLA2 inhibisyonu:** Aspirin astımının biyokimyasal nedeni değillerdir.\n- **B) COX inhibisyonu ve LOX yoluna kayma (Doğru Cevap):** Aspirin COX-1 enzimini serin rezidüsünü asetilleyerek irreversible inhibe eder. Substrat araşidonik asit ortamda birikir ve 5-LOX yoluna kayarak aşırı Peptidolökotriyen (LTC4, LTD4, LTE4) sentezine yol açar. Bu güçlü bronkokonstriktörler duyarlı kişilerde astım krizini indükler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  },
+  {
+    "question": "Elektroforetik mobilitesi nedeniyle pre-beta lipoprotein olarak bilinen lipoprotein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Şilomikron",
+      "B": "VLDL",
+      "C": "LDL",
+      "D": "IDL",
+      "E": "HDL"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Şilomikron:** Elektroforezde orijinde (yükleme noktasında) çakılı kalır.\n- **B) VLDL (Doğru Cevap):** Elektroforezde pre-beta bandında (alfa ile beta arasında) göç eder.\n- **C) LDL:** Elektroforezde beta bandında göç eder.\n- **D) IDL:** Broad-beta (geniş beta) bandında yer alır.\n- **E) HDL:** Elektroforezde anoda en yakın alfa bandında göç eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde lipoproteinler içerdikleri fosfolipid miktarı açısından çoktan aza doğru sıralanmıştır?",
+    "options": {
+      "A": "Şilomikron, VLDL, LDL, HDL",
+      "B": "HDL, LDL, VLDL, Şilomikron",
+      "C": "LDL, IDL, VLDL, HDL",
+      "D": "HDL, VLDL, Şilomikron, IDL",
+      "E": "Şilomikron, HDL, LDL, VLDL"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\nLipoproteinlerin yüzey tabakasında bulunan fosfolipid oransal miktarları:\n- **HDL:** En yüksek fosfolipid yüzdesine (%25-30) sahiptir.\n- **LDL:** İkinci sıradadır (%20-22).\n- **VLDL:** Üçüncü sıradadır (%15-18).\n- **Şilomikron:** En düşük fosfolipid yüzdesine (%7-9) sahiptir.\n- **Sıralama (Çoktan aza):** HDL > LDL > VLDL > Şilomikron (Cevap B).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Serum apolipoprotein A-1 ölçümü öncelikle aşağıdaki lipoproteinlerden hangisinin konsantrasyonu hakkında bilgi verir?",
+    "options": {
+      "A": "HDL",
+      "B": "IDL",
+      "C": "LD",
+      "D": "Şilomikron",
+      "E": "VLDL"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) HDL (Doğru Cevap):** Apo A-I, HDL'nin ana yapısal apolipoproteinidir ve LCAT enziminin aktivatörüdür. Kanda Apo A-I düzeyi doğrudan HDL miktarını ve koruyucu kapasitesini gösterir.\n- **B, C, E) IDL, LDL, VLDL:** Apo B-100 içerirler.\n- **D) Şilomikron:** Apo B-48 taşır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki apolipoproteinlerden hangisi, HDL yapısında bulunmaz?",
+    "options": {
+      "A": "Apo AI",
+      "B": "Apo AII",
+      "C": "Apo B48",
+      "D": "Apo E",
+      "E": "Apo D"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A, B, D, E) Apo A-I, Apo A-II, Apo E, Apo D:** HDL yapısında değişken oranlarda yer alan apolipoproteinlerdir.\n- **C) Apo B48 (Doğru Cevap):** Yalnızca ince bağırsakta sentezlenir ve Şilomikron ile Şilomikron kalıntılarının yapısında bulunur. HDL'de kesinlikle bulunmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Plazmadaki lipoproteinlerin ana kaynağı aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Yağ dokusu - Kas dokusu",
+      "B": "Karaciğer - İnce bağırsak",
+      "C": "İnce bağırsak - Beyin",
+      "D": "Karaciğer - Böbrek",
+      "E": "Karaciğer - Yağ dokusu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A, C, D, E) Yağ dokusu, Kas, Beyin, Böbrek:** Plazma lipoproteinlerinin sentezlendiği ana organlar değillerdir.\n- **B) Karaciğer - İnce bağırsak (Doğru Cevap):** İnce bağırsak diyetle alınan eksojen lipidleri paketleyerek Şilomikron üretir. Karaciğer ise endojen sentezlenen lipidleri paketleyerek VLDL ve nascent HDL üretir. Dolaşımdaki tüm lipoproteinlerin birincil sentez kaynağı bu iki organdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Karaciğerde sentezlenen ve temel fonksiyonu karaciğerden periferik dokulara TAG taşımak olan lipoprotein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Şilomikron",
+      "B": "VLDL",
+      "C": "LDL",
+      "D": "IDL",
+      "E": "HDL"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Şilomikron:** İnce bağırsakta sentezlenir, eksojen (diyet) TAG taşır.\n- **B) VLDL (Çok Düşük Dansiteli Lipoprotein) (Doğru Cevap):** Karaciğerde sentezlenir ve temel görevi endojen (karaciğerde yapılan) TriAçilGliserolleri periferik dokulara (kas, adipoz) taşımaktır. Apo B-100 taşır.\n- **C) LDL:** Temel görevi kolesterol taşımaktır.\n- **D) IDL:** VLDL yıkım ara ürünüdür.\n- **E) HDL:** Periferden karaciğere kolesterol taşır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi endojen trigliseritleri karaciğerden periferik dokulara taşır?",
+    "options": {
+      "A": "Şilomikron",
+      "B": "VLDL",
+      "C": "IDL",
+      "D": "LDL",
+      "E": "HDL"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Şilomikron:** Eksojen (diyet kaynaklı) trigliseritleri taşır.\n- **B) VLDL (Doğru Cevap):** Karaciğerde sentezlenen endojen trigliseridleri periferik dokulara taşıyan başlıca lipoproteindir.\n- **C, D, E) IDL, LDL, HDL:** Trigliserid taşıyıcısı lipoproteinler değildirler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 DUS"
+  },
+  {
+    "question": "Aşağıdaki lipoproteinlerden hangisinin okside formu, makrofajların çöpçü (scavenger) reseptörleri tarafından tutulur?",
+    "options": {
+      "A": "Şilomikronlar",
+      "B": "Çok düşük dansiteli lipoproteinler",
+      "C": "Ara dansiteli lipoproteinler",
+      "D": "Düşük dansiteli lipoproteinler",
+      "E": "Yüksek dansiteli lipoproteinler"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, E) Şilomikron, VLDL, IDL, HDL:** Aterom plağındaki köpük hücre oluşumunun ana kaynağı değillerdir.\n- **D) Düşük dansiteli lipoproteinler (LDL) (Doğru Cevap):** Kanda uzun süre kalan LDL oksitlenerek okside-LDL'ye dönüşür. Okside-LDL, makrofaj yüzeyindeki Çöpçü Reseptörler (SR-A, CD36) tarafından denetimsiz biçimde hücre içine alınır ve makrofajlar kolesterolle dolarak 'Köpük Hücrelere' (Foam cells) ve ateroskleroza yol açar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar DUS"
+  },
+  {
+    "question": "Proprotein konvertaz subtilizin/keksin (PCSK9) aşağıdaki mekanizmalardan hangisiyle kan kolesterol düzeyini yükseltir?",
+    "options": {
+      "A": "LDL reseptörlerinin sayısını azaltarak LDL alımını azaltır.",
+      "B": "Bağırsaklardan kolesterol emilimini artırır.",
+      "C": "VLDL'nin sentez ve sekresyonunu artırarak kanda LDL oluşumunu artırır.",
+      "D": "HMG-KoA redüktazı aktive eder.",
+      "E": "Karaciğerde kolesterolün safra asitlerine dönüşümünü engeller."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) LDL reseptör sayısını azaltmak (Doğru Cevap):** PCSK9, karaciğer yüzeyindeki LDL reseptörüne bağlanarak reseptörün lizozomda yıkımına neden olur. Reseptör sayısı azaldığı için kandan LDL alımı düşer ve plazma LDL/kolesterol düzeyi yükselir. (PCSK9 inhibitörü Alirocumab bu nedenle LDL'yi güçlü şekilde düşürür).\n- **B, C, D, E) Diğer mekanizmalar:** PCSK9'un doğrudan etki mekanizması değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "LDL molekülünün hücre içine alınmasında ve yıkımında aşağıdakilerden hangisinin rolü yoktur?",
+    "options": {
+      "A": "Apo B100",
+      "B": "Apo B48",
+      "C": "LDL reseptörü",
+      "D": "Lizozom",
+      "E": "Klatrin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Apo B100:** LDL'nin tek integral apolipoproteinidir ve LDL reseptörüne bağlanmayı sağlayan liganddır.\n- **B) Apo B48 (Doğru Cevap):** Şilomikronlarda bulunur, LDL yapısında veya reseptör etkileşiminde yeri yoktur.\n- **C) LDL reseptörü:** LDL'yi hücre içine alan reseptördür.\n- **D) Lizozom:** Reseptörle içeri alınan LDL'yi kolesterol esteri ve amino asitlere hidroliz eder.\n- **E) Klatrin:** LDL reseptör kompleksinin reseptör aracılı endositozla içeri alınmasını sağlayan kılıf proteinidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki apolipoproteinlerden hangisi, LDL'nin reseptör aracılı endositozunda görev yapar?",
+    "options": {
+      "A": "Apo A-I",
+      "B": "Apo B-48",
+      "C": "Apo B-100 / Apo E",
+      "D": "Apo C-II",
+      "E": "Apo D"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A) Apo A-I:** HDL apolipoproteinidir.\n- **B) Apo B-48:** Şilomikron apolipoproteinidir.\n- **C) Apo B-100 / Apo E (Doğru Cevap):** Karaciğerdeki LDL reseptörü (Apo B-100/Apo E reseptörü) LDL üzerindeki Apo B-100'ü veya IDL/Şilomikron kalıntısındaki Apo E'yi tanıyarak endositozu başlatır.\n- **D) Apo C-II:** LPL aktivatörüdür.\n- **E) Apo D:** HDL yapısındadır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki apoproteinlerden hangisi, integral yapı özelliği göstermesi nedeniyle lipoproteinler arasında transfer edilemez?",
+    "options": {
+      "A": "Apo E",
+      "B": "Apo CII",
+      "C": "Apo B100",
+      "D": "Apo CI",
+      "E": "Apo CIII"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A, B, D, E) Apo E, Apo C-I, Apo C-II, Apo C-III:** Periferik (amfipatik) apolipoproteinlerdir ve HDL ile diğer lipoproteinler arasında kolayca transfer edilebilirler.\n- **C) Apo B100 (ve Apo B48) (Doğru Cevap):** İntegral apolipoproteinlerdir. Sentezlendikleri lipoproteine (VLDL/LDL) sıkıca gömülüdürler ve dolaşımda diğer lipoproteinlere asla transfer edilemezler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Yüksek dansiteli lipoproteinlerin (HDL) fonksiyonu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Eksojen triaçil gliserolleri taşımak",
+      "B": "Endojen triaçil gliserolleri taşımak",
+      "C": "Apo Cll enzimini aktive etmek",
+      "D": "Dokudan karaciğere kolesterol taşımak",
+      "E": "LDL sentezini başlatmak"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Eksojen TAG:** Şilomikronların görevidir.\n- **B) Endojen TAG:** VLDL'nin görevidir.\n- **C) Apo C-II:** Lipoprotein Lipaz (LPL) aktivatörüdür, HDL'nin kendisi bir enzim değildir.\n- **D) Dokudan karaciğere kolesterol taşımak (Doğru Cevap):** HDL'nin en temel fizyolojik görevi 'Ters Kolesterol Taşınımı'dır (Reverse Cholesterol Transport). Periferik dokulardaki fazla kolesterolü toplayıp atılmak üzere karaciğere taşır.\n- **E) LDL sentezi:** VLDL -> IDL -> LDL yıkım yoluyla gerçekleşir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Ters kolesterol taşınımı ile ilgili hangisi doğrudur?",
+    "options": {
+      "A": "Periferik dokulardan pre-HDL'ye kolesterol alımına SR-B1 ve ABCG1 aracılık eder.",
+      "B": "LCAT aktivitesi ApoA-II ile ilişkilidir.",
+      "C": "Kolesterol karaciğere trigliseridden zengin HDL3 ile taşınır.",
+      "D": "HDL3'e kolesterol alımına ABCA1 aracılık eder.",
+      "E": "CETP eksikliğinde kolesterol esterleri karaciğere SR-B1 ile doğrudan taşınabilir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A) Pre-HDL'ye alım:** Pre-β HDL'ye (nascent HDL) kolesterol alımını ABCA1 pompası sağlar. (Yanlış)\n- **B) LCAT aktivatörü:** LCAT'ın ana aktivatörü Apo A-I'dir (Apo A-II değil). (Yanlış)\n- **C) HDL yapısı:** HDL kolesterol esterinden zengindir, TAG'den fakirdir. (Yanlış)\n- **D) HDL3'e alım:** Olgun doku kolesterolünün HDL3'e alımına ABCG1 ve SR-B1 aracılık eder (ABCA1 nascent HDL içindir). (Yanlış)\n- **E) CETP eksikliği (Doğru Cevap):** Kolesterol Ester Transfer Proteini (CETP) eksik olduğunda HDL'deki kolesterol esterleri VLDL/LDL'ye aktarılamaz; dev HDL2 tanecikleri kolesterol esterlerini doğrudan karaciğerdeki SR-B1 reseptörüne teslim eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "Lesitin: kolesterol-açiltransferazın (LCAT) aktivatörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Apo B-100",
+      "B": "Apo A-I",
+      "C": "Apo C-III",
+      "D": "Apo D",
+      "E": "Apo E"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Apo B-100:** LDL reseptör ligandıdır.\n- **B) Apo A-I (Doğru Cevap):** Plazmada HDL yüzeyinde bulunan LCAT (Lesitin:Kolesterol Açil Transferaz) enziminin en güçlü apolipoprotein aktivatörüdür. Serbest kolesterolü kolesterol esterine çevirir.\n- **C) Apo C-III:** LPL inhibitörüdür.\n- **D) Apo D:** CETP ile ilişkili apolipoproteindir.\n- **E) Apo E:** LRP-1 ve LDL reseptör ligandıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi dokulardan karaciğere kolesterol taşınmasında görev yapan lipoproteinin yapısında bulunan ve lesitin kolesterol açil transferaz enziminin aktivatörü kabul edilen apolipoproteindir?",
+    "options": {
+      "A": "ApoA-I",
+      "B": "ApoA-II",
+      "C": "ApoB-48",
+      "D": "ApoC-II",
+      "E": "ApoE"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) ApoA-I (Doğru Cevap):** HDL yapısında yer alır, dokulardan kolesterolün toplanmasını ve LCAT enziminin aktive edilerek kolesterolün esterleştirilip HDL çekirdeğine hapsedilmesini sağlar.\n- **B, C, D, E) ApoA-II, ApoB-48, ApoC-II, ApoE:** LCAT enziminin birincil aktivatörü değillerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangi şilomikronların özelliklerinden biri değildir?",
+    "options": {
+      "A": "Bağırsakta sentezlenmeleri",
+      "B": "Protein içeriği en yüksek lipoprotein olmaları",
+      "C": "Trigliserid içeriği en fazla lipoprotein olmaları",
+      "D": "Yoğunluğu en düşük lipoprotein olmaları",
+      "E": "Başlıca apolipoproteinlerinin Apo B48 olması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Sentez yeri:** İnce bağırsak mukozasında diyet lipidlerinden sentezlenirler. (Doğru)\n- **B) Protein Oranı (Doğru Cevap - Yanlış İfade):** Şilomikronlar protein içeriği en DÜŞÜK (%1-2) lipoproteindir! Protein içeriği en yüksek olan HDL'dir (%45-55).\n- **C) Trigliserid oranı:** Trigliserid içeriği en yüksek (%85-90) lipoproteindir. (Doğru)\n- **D) Yoğunluk:** Lipit oranı çok yüksek olduğu için dansitesi en düşük (<0.95 g/mL) lipoproteindir. (Doğru)\n- **E) Apolipoprotein:** Yapısal özgün apolipoproteini Apo B48'dir. (Doğru)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki apolipoproteinlerden hangisi, şilomikron kalıntılarının karaciğere reseptör aracılığıyla alınmasını sağlar?",
+    "options": {
+      "A": "Apo AI",
+      "B": "Apo AII",
+      "C": "Apo CII",
+      "D": "Apo D",
+      "E": "Apo E"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A, B) Apo A-I, Apo A-II:** HDL apolipoproteinleridir.\n- **C) Apo C-II:** Damar endotelindeki Lipoprotein Lipazı (LPL) aktifler.\n- **D) Apo D:** Lipid transfer proteinidir.\n- **E) Apo E (Doğru Cevap):** LPL ile TAG'ları boşalan Şilomikron Kalıntısı (Remnant) üzerindeki Apo E, karaciğerdeki LRP-1 (LDL Reseptör İlişkili Protein-1) ve LDL reseptörleri tarafından tanınarak kalıntının karaciğere endositozunu sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Bir hastada serum total kolesterol düzeyi 240 mg/dL, serum HDL-kolesterol düzeyi 36 mg/dL ve serum trigliserid düzeyi 260 mg/dL saptanıyor. Friedewald formülüne göre yapılan hesaplama sonucunda bulunan serum LDL-kolesterol düzeyi kaç mg/dL'dir?",
+    "options": {
+      "A": "130",
+      "B": "152",
+      "C": "160",
+      "D": "178",
+      "E": "180"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **Friedewald Formülü:** \n  LDL Kolesterol = Total Kolesterol - HDL Kolesterol - (Trigliserid / 5)\n  *(Not: Trigliserid < 400 mg/dL olduğunda geçerlidir).*\n- **Hesaplama:**\n  VLDL Kolesterol = Trigliserid / 5 = 260 / 5 = 52 mg/dL\n  LDL Kolesterol = 240 - 36 - 52 = **152 mg/dL** (Cevap B).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Ateroskleroz riski olup düzenli olarak statin kullanan bir hastada, bu tedaviye bağlı en olası etki aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Azalmış LDL reseptör aktivitesi",
+      "B": "Azalmış koenzim Q sentezi",
+      "C": "Artmış protein prenilasyonu",
+      "D": "Artmış mevalonat düzeyleri",
+      "E": "Azalmış HMG-KoA düzeyleri"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) LDL reseptör etki:** Statinler karaciğerde kolesterolü düşürdüğü için LDL reseptör sentezini ARTIRIR (up-regülasyon). (Yanlış)\n- **B) Koenzim Q etkisi (Doğru Cevap):** Statinler HMG-KoA redüktazı inhibe edince Mevalonat ve devamında Farnesil Pirofosfat oluşumu engellenir. Farnesil PP'den sentezlenen **Koenzim Q (Ubikinon)** sentezi de düşer. Bu durum statin kullananlarda görülen myopati/rabdomiyoliz tablosunun biyokimyasal nedenidir.\n- **C, D, E) Prenilasyon, Mevalonat, HMG-KoA:** Mevalonat azalır, HMG-KoA birikir, prenilasyon azalır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar TUS"
+  },
+  {
+    "question": "Ailesel hiperkolesteroleminin başlıca nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "LCAT eksikliği",
+      "B": "Kolesterol esteraz eksikliği",
+      "C": "Apo C-II eksikliği",
+      "D": "LDL reseptör eksikliği",
+      "E": "Kolesterol esterleri transfer proteini eksikliği"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) LCAT eksikliği:** Balık gözü hastalığı ve ailevi LCAT eksikliğine yol açar.\n- **B) Kolesterol esteraz eksikliği:** Wolman hastalığına yol açar.\n- **C) Apo C-II eksikliği:** Tip I Hiperlipoproteinemiye (hipertrigliseridemi) yol açar.\n- **D) LDL reseptör eksikliği (Doğru Cevap):** Tip IIa Ailesel Hiperkolesterolemi (Otozomal Dominant), LDL reseptör gen mutasyonu/eksikliğidir. Dolaşımdan LDL alınamadığı için belirgin hiperkolesterolemi ve ksantomlar gelişir.\n- **E) CETP eksikliği:** Yüksek HDL düzeyleri ile seyreder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Abetalipoproteinemi tanısı alan bir hastada aşağıdaki vitaminlerden hangisinin eksikliğinin görülmesi en olasıdır?",
+    "options": {
+      "A": "B1 vitamini",
+      "B": "B5 vitamini",
+      "C": "B6 vitamini",
+      "D": "D vitamini",
+      "E": "E vitamini"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C) B grubu vitaminler:** Suda eriyen vitaminler olup emilimleri lipoproteinlere bağımlı değildir.\n- **D, E) Yağda eriyen vitaminler:** Mikrozomal Trigliserid Transfer Protein (MTP) eksikliğinde Apo B içeren Şilomikron ve VLDL sentezlenemez. Şilomikron yokluğunda bağırsaktan yağda eriyen vitaminlerin emilimi bozulur.\n- **E vitamini (Tokoferol) (Doğru Cevap):** Abetalipoproteinemide en ağır klinik eksikliği görülen vitamindir. Eksikliğinde spinserebellar ataksi, eritrosit membran harabiyeti (akantositoz) ve retinitis pigmentosa gelişir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi karaciğere şilomikronlarla taşınır?",
+    "options": {
+      "A": "Tiamin",
+      "B": "Biotin",
+      "C": "Folik asit",
+      "D": "Kobalamin",
+      "E": "Retinol esterleri"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, D) Tiamin, Biotin, Folik asit, B12 (Kobalamin):** Suda çözünen vitaminlerdir, portal kanla taşınırlar.\n- **E) Retinol esterleri (A vitamini) (Doğru Cevap):** Diyetle alınan A vitamini bağırsakta esterleştirilerek Şilomikronların hidrofobik çekirdeğine paketlenir, lenf ve kan yoluyla karaciğere taşınarak depolanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Yağ asitlerinin metabolizması ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Plazmadaki serbest yağ asitlerinin kaynağı lipoprotein lipaz ve hormona duyarlı lipazdır.",
+      "B": "Hücre zarını pasif difüzyonla geçerler.",
+      "C": "ATP ve Koenzim A kullanılarak aktive edilirler.",
+      "D": "Aktivasyon yeri mitokondridir.",
+      "E": "Mitokondriye karnitin bağımlı translokasyon ile geçerler."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Serbest yağ asidi kaynakları:** Doku TAG'larından HSL ile, dolaşım lipoproteinlerinden LPL ile salınırlar. (Doğru)\n- **B) Membran geçişi:** Lipofilik oldukları için hücre zarından pasif difüzyonla geçerler. (Doğru)\n- **C) Aktivasyon gereksinimi:** Yağ asiti + ATP + KoA -> Açil-KoA + AMP + PPi (Açil-KoA sentetaz / Tiokinaz). (Doğru)\n- **D) Aktivasyon yeri (Doğru Cevap - Yanlış İfade):** Yağ asitlerinin aktivasyonu MİTOKONDİRİ MATRİKSİNDE DEĞİL, **sitozolde veya mitokondri dış zarında** gerçekleşir!\n- **E) Mitokondriye giriş:** Uzun zincirli açil-KoA'lar mitokondri iç zarını Karnitin mekiği (CPT-1, Karnitin-Açilkarnitin translokaz, CPT-2) ile geçerler. (Doğru)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Yağ asitlerinin katabolize edilmeden önce aktivasyonunu sağlayan enzim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Açil-KoA dehidrogenaz",
+      "B": "Süksinat tiyokinaz",
+      "C": "Tiyolaz",
+      "D": "Açil-KoA sentetaz",
+      "E": "Enoil-KoA hidrataz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Açil-KoA dehidrogenaz:** β-oksidasyonun ilk reaksiyonunu yapar (FADH2 üretir).\n- **B) Süksinat tiyokinaz:** Krebs döngüsünde GTP/ATP üreten enzimdir.\n- **C) Tiyolaz:** β-oksidasyonda Asetil-KoA koparan son adımdır.\n- **D) Açil-KoA sentetaz (Tiokinaz) (Doğru Cevap):** Yağ asitlerini ATP harcayarak (2 yüksek enerjili fosfat bağı) yüksek enerjili tiyoester bağı ile Açil-KoA'ya dönüştürüp aktive eden enzimdir.\n- **E) Enoil-KoA hidrataz:** β-oksidasyonda su ekleme adımıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, yağ asitlerinin β-oksidasyonunun gerçekleştiği organellerden biridir?",
+    "options": {
+      "A": "Çekirdekçik",
+      "B": "Ribozom",
+      "C": "Golgi aygıtı",
+      "D": "Peroksizom",
+      "E": "Lizozom"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, E) Çekirdekçik, Ribozom, Golgi, Lizozom:** Yağ asidi oksidasyon organelleri değillerdir.\n- **D) Peroksizom (Doğru Cevap):** İnsan hücresinde yağ asitlerinin β-oksidasyonu **Mitokondri matriksinde** ve **Peroksizomlarda** gerçekleşir. Çok uzun zincirli yağ asitleri (C ≥ 22) ve dallı zincirli yağ asitleri oksidasyona peroksizomda başlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 DUS"
+  },
+  {
+    "question": "Yağ asitlerinin β-oksidasyonuyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Karnitin, uzun zincirli açil gruplarının taşıyıcısıdır.",
+      "B": "Düşük insülin ve yüksek glukagon düzeyleriyle tetiklenir.",
+      "C": "Koenzim olarak NAD ve FAD kullanılır.",
+      "D": "Reaksiyonlar sitozolde gerçekleşir.",
+      "E": "Açlık durumunda ve diabetes mellitusta artar."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Karnitin:** C>12 uzun zincirli yağ asitlerinin mitokondri matriksine taşınmasını sağlar. (Doğru)\n- **B) Hormonal kontrol:** Açlıkta düşen insülin/yükselen glukagon lipolizi ve β-oksidasyonu tetikler. (Doğru)\n- **C) Koenzim kullanımı:** Açil-KoA DH reaksiyonunda FAD, 3-Hidroksiaçil-KoA DH reaksiyonunda NAD+ kullanılır. (Doğru)\n- **D) Yerleşime (Doğru Cevap - Yanlış İfade):** β-oksidasyon **sitozolda değil, mitokondri matriksinde** gerçekleşir! (Sitozol sentez yeridir).\n- **E) Klinik durumlar:** Açlık ve insülin eksikliği olan tip 1 diyabette β-oksidasyon hızı ivmelenir. (Doğru)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 EUS"
+  },
+  {
+    "question": "Mitokondrideki karnitin mekiği ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Dış membranda yer alan açil-KoA sentetaz, yağ asitlerini aktive eder.",
+      "B": "Dış membranda yer alan karnitin açiltransferaz I, açil gruplarını karnitine transfer eder.",
+      "C": "Yağ açil karnitin esterleri, açilkarnitin translokaz ile mitokondri matriksine geçer.",
+      "D": "Karnitin, kısa zincirli yağ asitlerini mitokondrinin matriksine taşır.",
+      "E": "İç membranda yer alan karnitin açiltransferaz II ile serbestleşen karnitin tekrar kullanılır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Dış membran açil-KoA sentetaz:** Yağ asitlerini dış zarda aktive eder. (Doğru)\n- **B) CPT-I (CAT-I):** Dış zarda Açil-KoA'daki açil grubunu karnitine aktararak Açilkarnitin oluşturur (hız kısıtlayıcı basamak). (Doğru)\n- **C) Translokaz:** İç zardaki antiporter ile Açilkarnitin matrikse geçerken serbest karnitin sitozole çıkar. (Doğru)\n- **D) Kısa zincirli yağ asitleri (Doğru Cevap - Yanlış İfade):** Kısa ve orta zincirli yağ asitleri (< 12 C) karnitine gerek duymadan mitokondri zarını serbestçe geçerler! Karnitin mekiği **uzun zincirli (C > 12)** yağ asitleri içindir.\n- **E) CPT-II:** İç zarda matrikse bakan yüzde Açilkarnitini tekrar Açil-KoA ve serbest karnitine dönüştürür. (Doğru)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Yağ asidi sentezinde oluşan Malonil-KoA aşağıdaki enzimlerden hangisini kontrol eder?",
+    "options": {
+      "A": "Sitrat liyaz",
+      "B": "Tiyokinaz",
+      "C": "Pirüvat karboksilaz",
+      "D": "Karnitin açil transferaz I",
+      "E": "Propionil-KoA karboksilaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A, B, C, E) Sitrat liyaz, Tiokinaz, Pirüvat karboksilaz, Propionil-KoA karboksilaz:** Malonil-KoA tarafından allosterik olarak inhibe edilmezler.\n- **D) Karnitin açil transferaz I (CPT-1) (Doğru Cevap):** Toklukta yağ asidi sentezi sırasında oluşan Malonil-KoA, CPT-1 (CAT-1) enzimini allosterik olarak güçlü bir şekilde inhibe eder. Böylece yeni sentezlenen yağ asitlerinin yıkılmak üzere mitokondriye girmesini (futile cycle) engeller.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 DUS"
+  },
+  {
+    "question": "Tokluk durumunda, aşağıdakilerden hangisinin artışı, karnitin palmitoiltransferaz-I enzimini inhibe ederek β-oksidasyonunu baskılar?",
+    "options": {
+      "A": "Sitrat",
+      "B": "Malonil-KoA",
+      "C": "Süksinil-KoA",
+      "D": "Pirüvat",
+      "E": "NADP"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Sitrat:** Asetil-KoA karboksilazı uyarır.\n- **B) Malonil-KoA (Doğru Cevap):** Toklukta insülin etkisiyle aktifleşen ACC'nin ürettiği Malonil-KoA, CPT-1'i (Karnitin palmitoiltransferaz-1) inhibe ederek β-oksidasyonu baskılar.\n- **C, D, E) Süksinil-KoA, Pirüvat, NADP:** CPT-1 fizyolojik inhibitörü değillerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi yağ asidi yıkımını inhibe eder?",
+    "options": {
+      "A": "Propionil-KoA",
+      "B": "Malonil-KoA",
+      "C": "Asetil-KoA",
+      "D": "Asetoasetil-KoA",
+      "E": "Palmitoil-KoA"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A, C, D, E) Propionil-KoA, Asetil-KoA, Asetoasetil-KoA, Palmitoil-KoA:** CPT-1'i inhibe ederek yıkımı spesifik durduran fizyolojik regülatörler değillerdir.\n- **B) Malonil-KoA (Doğru Cevap):** Yağ asidi biyosentezinin ilk ürünü olup CPT-1'i inhibe ederek yağ asitlerinin β-oksidasyon yıkımını engeller.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 DUS"
+  },
+  {
+    "question": "Yağ dokusunda, lipid damlacığında yerleşmiş ve lipoliz sırasında hormona duyarlı lipazla etkileşen protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Protein kinaz A",
+      "B": "Apo C-II",
+      "C": "Perilipin",
+      "D": "G protein",
+      "E": "Termogenin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A) Protein kinaz A (PKA):** Perilipini ve HSL'yi fosforilleyen sinyal ikincil kinazdır.\n- **B) Apo C-II:** Dolaşımda LPL aktivatörüdür.\n- **C) Perilipin (Doğru Cevap):** Adipositlerde lipid damlacığını kaplayan koruyucu zarsı proteindir. Bazal durumda HSL'nin TAG'e ulaşmasını engeller. Glukagon/Epinefrin uyarısıyla PKA tarafından fosforillendiğinde yapısı değişir ve HSL'nin lipid damlacığına bağlanarak lipolizi başlatmasına izin verir.\n- **D) G protein:** Reseptör sinyal iletim elemanıdır.\n- **E) Termogenin (UCP-1):** Kahverengi yağ dokusu mitokondri iç zarı ayrıştırıcı (uncoupler) proteinidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "I. Adipositlerde lipaz enzimlerinin depolanan TAG'lara erişimini engelleyerek lipolizi inhibe eder.\nII. Protein kinaz A ile fosforilasyonu hormona duyarlı lipazın lipid damlacığına bağlanmasını zorlaştırır.\nIII. Sentezinde azalma bazal lipoliz düzeyinde artışa neden olur.\nIV. Perilipin-1 ağırlıklı olarak yağ dokusunda eksprese edilirken perilipin-3 ince bağırsak ve karaciğerde yüksektir.\nPerilipinler ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve III",
+      "B": "II ve IV",
+      "C": "I, III ve IV",
+      "D": "I ve II",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **Öncül I (Doğru):** Perilipin bazal durumda TAG damlacığının etrafını kaplayarak HSL'nin erişimini engeller ve bazal lipolizi baskılar.\n- **Öncül II (Yanlış):** PKA ile fosforillenme HSL'nin lipid damlacığına bağlanmasını ZORLAŞTIRMAZ, AKSİNE KOLAYLAŞTIRIR ve uyarır.\n- **Öncül III (Doğru):** Perilipin sentezi azaldığında lipid damlacığı 'çıplak' kalır ve bazal lipoliz düzeyi artar.\n- **Öncül IV (Doğru):** Perilipin-1 yağ dokusuna özgü iken Perilipin-2/3 karaciğer, bağırsak gibi organlarda şilomikron/VLDL yapımıyla ilişkilidir.\n- **Sonuç:** I, III ve IV doğrudur (Cevap C).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "Mitokondride yağ asidi beta-oksidasyonunda asetil-KoA oluşumuna kadar görev alan enzimler sırasıyla aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Dehidrogenaz - Hidrataz - Tiyolaz - Dehidrogenaz",
+      "B": "Hidrataz - Dehidrogenaz - Tiyolaz - Dehidrogenaz",
+      "C": "Dehidrogenaz - Hidrataz - Dehidrogenaz - Tiyolaz",
+      "D": "Dehidrogenaz - Dehidrogenaz - Tiyolaz - Hidrataz",
+      "E": "Hidrataz - Tiyolaz - Dehidrogenaz - Dehidrogenaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\nβ-oksidasyon döngüsünün 4 ardışık reaksiyon basamağı ve enzimleri:\n1. **Açil-KoA Dehidrogenaz:** Çift bağ oluşturur (FAD -> FADH2).\n2. **Enoil-KoA Hidrataz:** Çift bağa su ekler (H2O girer).\n3. **L-3-Hidroksiaçil-KoA Dehidrogenaz:** -OH grubunu keto grubuna yükseltger (NAD+ -> NADH).\n4. **Tiyolaz (β-Ketotiolaz):** KoA-SH kullanarak 2C'lu Asetil-KoA'yı koparır.\n- **Sıralama:** Dehidrogenaz -> Hidrataz -> Dehidrogenaz -> Tiyolaz (Cevap C).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tek sayıda karbon içeren yağ asitlerinin oksidasyonunda, asetil-KoA ile birlikte son ürün olarak açığa çıkar?",
+    "options": {
+      "A": "Propionil-KoA",
+      "B": "Ketoaçil-KoA",
+      "C": "Metilmalonil-KoA",
+      "D": "Formik asit",
+      "E": "Enoil-KoA"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Propionil-KoA (Doğru Cevap):** Tek sayıda karbon içeren yağ asitleri β-oksidasyona uğradığında son türe kadar 2C Asetil-KoA'lar ayrılır. Son turda geriye kalan 5C'lu yapı kırıldığında 1 molekül Asetil-KoA (2C) ve 1 molekül 3C'lu **Propionil-KoA** oluşur.\n- **B, C, D, E) Ketoaçil-KoA, Metilmalonil-KoA, Formik asit, Enoil-KoA:** Doğrudan son kırılma ürünü değillerdir (Metilmalonil-KoA Propionil-KoA'nın sonraki dönüşüm ara ürünüdür).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin metabolizması sonucu asetil-KoA oluşmaz?",
+    "options": {
+      "A": "Lösin",
+      "B": "Palmitat",
+      "C": "Asetoasetat",
+      "D": "Propionil-KoA",
+      "E": "Etanol"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Lösin:** Katabolizmasında Asetil-KoA ve Asetoasetat oluşur (saf ketojenik).\n- **B) Palmitat:** β-oksidasyonla 8 molekül Asetil-KoA verir.\n- **C) Asetoasetat:** Periferde tiyoforazla Asetoasetil-KoA'ya, o da tiyolazla 2 Asetil-KoA'ya dönüşür.\n- **D) Propionil-KoA (Doğru Cevap):** 3C'lu Propionil-KoA, Biotinli karboksilaz ve B12'li mutaz ile **Süksinil-KoA**'ya (4C) dönüştürülerek Krebs döngüsüne girer; Asetil-KoA oluşturmaz.\n- **E) Etanol:** Alkol DH ve Aldehit DH ile Asetata, ardından Asetil-KoA'ya dönüşür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Açlıkta, hormona duyarlı lipaz aktivitesindeki artışa bağlı olarak aşağıdakilerden hangisinin plazma düzeyi yükselir?",
+    "options": {
+      "A": "Keton cisimleri",
+      "B": "Trigliserid",
+      "C": "Laktat",
+      "D": "Pirüvat",
+      "E": "Serbest kolesterol"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Keton cisimleri (Doğru Cevap):** Açlıkta HSL aktifleşince adipoz dokudan plazmaya Serbest Yağ Asitleri verilir. Karaciğere gelen yağ asitleri β-oksidasyonla Asetil-KoA'ya yıkılır. Asetil-KoA miktarı Krebs kapasitesini aşınca karaciğerde Keton Cisimleri (Asetoasetat, β-hidroksibütirat) sentezlenir ve kanda seviyeleri belirgin yükselir.\n- **B) Trigliserid:** Açlıkta VLDL/TAG sentezi düşer.\n- **C, D, E) Laktat, Pirüvat, Serbest kolesterol:** HSL artışının birincil plazma sonucu değillerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, sadece karaciğerde sentezlenip karaciğer dokusu dışında enerji kaynağı olarak kullanılır?",
+    "options": {
+      "A": "Asetil-KoA",
+      "B": "Aseton",
+      "C": "b-hidroksi bütirat",
+      "D": "Gliserol-3-fosfat",
+      "E": "Okzaloasetat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A, D, E) Asetil-KoA, Gliserol-3-P, Okzaloasetat:** Tüm hücrelerde sentezlenebilir ve karaciğer dâhil hücre içinde kullanılırlar.\n- **B) Aseton:** Enerji değeri olmayan, nefesle atılan spontan yıkım ürünüdür.\n- **C) β-hidroksibütirat (Doğru Cevap):** Keton cisimidir. Sadece karaciğer mitokondrisinde sentezlenir. Karaciğerde **Tiyoforaz (β-ketoaçil-KoA transferaz)** enzimi bulunmadığı için karaciğer tarafından enerji olarak KULLANILAMAZ; kana verilerek ekstrahepatik dokulara (kas, beyin, böbrek) taşınır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Keton cisimleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Vücut sıvılarında çözünebilir.",
+      "B": "Kan-beyin bariyerini geçebilir.",
+      "C": "Yağ asidi oksidasyonu ile oluşan Asetil-KoA'lardan sentezlenir.",
+      "D": "Beyin ve karaciğer için önemli yakıt kaynağıdır.",
+      "E": "Kontrolsüz diabetes mellitus'ta aşırı üretimi ketoasidoza yol açabilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\n- **A) Suda çözünürlük:** Suda çözünürler, plazmada taşıyıcı proteine ihtiyaç duymazlar. (Doğru)\n- **B) BBB geçişi:** Monokarboksilat taşıyıcıları ile kan-beyin bariyerini geçerler. (Doğru)\n- **C) Sentez:** β-oksidasyondan türeyen Asetil-KoA'lardan sentezlenirler. (Doğru)\n- **D) Yakıt Özelliği (Doğru Cevap - Yanlış İfade):** Keton cisimleri beyin için açlıkta ana yakıttır fakat **karaciğer Tiyoforaz enzimi içermediği için keton cisimlerini kendisi yakıt olarak KULLANAMAZ!**\n- **E) Diyabetik ketoasidoz:** İnsülin yokluğunda aşırı ketogenez ketoasidoza neden olur. (Doğru)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 DUS"
+  },
+  {
+    "question": "Uzamış açlık durumunda enerji sağlamak için kandaki düzeyi artan ve yakıt olarak beyin tarafından da kullanılan bileşik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Keton cisimleri",
+      "B": "Triasilgliserol",
+      "C": "Asetil-KoA",
+      "D": "Esansiyel amino asit",
+      "E": "Gliserol"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) Keton cisimleri (Doğru Cevap):** Uzamış açlıkta (2-3 günden sonra) kanda keton düzeyi çok yükselir. Beyin glukoz koruyucu adaptasyon ile enerji ihtiyacının yaklaşık %60-70'ini keton cisimlerinden (özellikle β-hidroksibütirat) karşılamaya başlar.\n- **B) Triasilgliserol:** Kan-beyin bariyerini geçemez.\n- **C) Asetil-KoA:** Hücre içi metabolittir, kanda serbest dolaşmaz.\n- **D, E) Esansiyel amino asit, Gliserol:** Beynin birincil ana yakıt kaynağı değillerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi karaciğer dokusunun kendi enerji gereksiniminde yakıt kaynağı olarak kullanılmaz?",
+    "options": {
+      "A": "Glukoz",
+      "B": "Keton cisimleri",
+      "C": "Amino asitler",
+      "D": "Yağ asitleri",
+      "E": "Laktat"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A, C, D, E) Glukoz, Amino asitler, Yağ asitleri, Laktat:** Karaciğer tarafından enerji üretimi için yıkılabilen substratlardır.\n- **B) Keton cisimleri (Doğru Cevap):** Karaciğer keton cisimlerini sentezleyen tek organ olmasına rağmen, ketonları yıkıp Asetil-KoA'ya çeviren **Tiyoforaz (β-ketoaçil-KoA transferaz)** enziminden yoksun olduğu için kendi ürettiği keton cisimlerini enerji kaynağı olarak tüketemez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi, ketogenez sırasında, 2 mol asetil-KoA'dan asetoasetil-KoA oluşumunu katalizler?",
+    "options": {
+      "A": "Asetil-KoA karboksilaz",
+      "B": "HMG-KoA sentaz",
+      "C": "Tiyolaz",
+      "D": "Tiyoforaz",
+      "E": "B-hidroksibütirat dehidrogenaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A) ACC:** Asetil-KoA'dan Malonil-KoA sentezler.\n- **B) HMG-KoA sentaz:** Asetoasetil-KoA'ya 3. Asetil-KoA'yı ekleyerek HMG-KoA oluşturur.\n- **C) Tiyolaz (Asetoasetil-KoA tiyolaz) (Doğru Cevap):** Ketogenezin ilk basamağında 2 molekül Asetil-KoA'yı kondanse ederek Asetoasetil-KoA ve 1 KoA-SH oluşturur.\n- **D) Tiyoforaz:** Periferde keton yıkım enzimidir.\n- **E) β-hidroksibütirat dehidrogenaz:** Asetoasetatı β-hidroksibütirata indirger.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "I. Tiyolaz\nII. b-ketoaçil-KoA transferaz\nIII. HMG-KoA liyaz\nIV. b-hidroksibütirat dehidrogenaz\nYukarıdaki enzimlerden hangileri keton cisimlerinin karaciğerde sentezi ve periferik dokularda yıkımında kullanılır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "Yalnız II",
+      "E": "Yalnız IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **I. Tiyolaz:** Hem karaciğerde keton SENTEZİNDE (2 Asetil-KoA -> Asetoasetil-KoA) hem de periferde keton YIKIMINDA (Asetoasetil-KoA -> 2 Asetil-KoA) **ortak** olarak kullanılır. (Doğru)\n- **II. β-ketoaçil-KoA transferaz (Tiyoforaz):** Yalnızca periferik dokularda keton YIKIMINDA görev yapar; karaciğerde yoktur.\n- **III. HMG-KoA liyaz:** Yalnızca karaciğer mitokondrisinde keton SENTEZİNDE (HMG-KoA -> Asetoasetat) görev yapar; yıkımda kullanılmaz.\n- **IV. β-hidroksibütirat dehidrogenaz:** Hem karaciğerde SENTEZDE (Asetoasetat -> β-hidroksibütirat) hem de periferde YIKIMDA (β-hidroksibütirat -> Asetoasetat) **ortak** olarak kullanılır. (Doğru)\n- **Sonuç:** I ve IV (Cevap B).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hem kolesterol hem de keton cisimcikleri sentezinde yer alır?",
+    "options": {
+      "A": "b-hidroksi-b-metilglutaril-KoA",
+      "B": "İzopentenil pirofosfat",
+      "C": "b-hidroksibütirat",
+      "D": "Skualen",
+      "E": "Farnesil pirofosfat"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n**Açıklama:**\n- **A) β-hidroksi-β-metilglutaril-KoA (HMG-KoA) (Doğru Cevap):** Hem Kolesterol biyosentez yolunun (sitozolda HMG-KoA Redüktaz ile mevalonata yönelir) hem de Keton cisimleri biyosentez yolunun (karaciğer mitokondrisinde HMG-KoA Liyaz ile asetoasetata yönelir) ORTAK ara ürünüdür.\n- **B, D, E) IPP, Skualen, FPP:** Sadece kolesterol sentez yoluna özgüdür.\n- **C) β-hidroksibütirat:** Sadece ketogenez/keton yıkım ürünüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Keton cisimleriyle ilgili ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Karaciğerde asetil-KoA'dan sentezlenir.",
+      "B": "Kanda taşıyıcıya gerek duymazlar.",
+      "C": "Asetoasetatın oksidasyonuyla 3-hidroksibütirat oluşur.",
+      "D": "Aseton, metabolize olmadan akciğerlerden atılır.",
+      "E": "Periferik dokularda asetoasetat, asetil-KoA'lara dönüştürülerek yıkılır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A) Sentez:** Karaciğer mitokondrisinde Asetil-KoA'lardan sentezlenirler. (Doğru)\n- **B) Taşınma:** Suda çözünür hidrofilik yapıda olduklarından kanda albümin veya lipoprotein taşıyıcıya ihtiyaç duymazlar. (Doğru)\n- **C) Dönüşüm (Doğru Cevap - Yanlış İfade):** Asetoasetatın OKSİDASYONUYLA DEĞİL, **REDÜKSİYONUYLA (NADH harcanarak)** β-hidroksibütirat (3-hidroksibütirat) oluşur! (Enzim: β-hidroksibütirat dehidrogenaz).\n- **D) Aseton:** Asetoasetatın spontan dekarboksilasyonuyla oluşan uçucu aseton akciğerlerden solunumla atılır (meyvemsi koku). (Doğru)\n- **E) Yıkım:** Periferde Asetoasetat -> Asetoasetil-KoA -> 2 Asetil-KoA olarak Krebs döngüsünde yakılır. (Doğru)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Asetoasetik asit ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Mitokondrisi olan bütün hücrelerde sentezlenir.",
+      "B": "Ortama proton vererek pH'nin azalmasına neden olur.",
+      "C": "Sentezi insülin tarafından uyarılır.",
+      "D": "Glukoneogenezde substrat olarak kullanılır.",
+      "E": "Eritrositler için başlıca enerji kaynağıdır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **A) Sentez yeri:** Sadece HMG-KoA Liyaz enzimine sahip karaciğer mitokondrisinde sentezlenir. (Yanlış)\n- **B) Asit özelliği (Doğru Cevap):** Asetoasetat pKa ~3.5 olan organik bir zayıf asittir. Kan pH'sında deprotonize olarak H+ iyonu salar ve ortama proton verip kan pH'sını düşürerek **Ketoasidoza** neden olur.\n- **C) İnsülin etkisi:** İnsülin lipolizi ve ketogenezi güçlü şekilde İNHİBE EDER. (Yanlış)\n- **D) Glukoneogenez:** Yağ asidi/asetil-KoA türevleri insanlarda glukoza dönüşemez (glukoneogenetik substrat değillerdir). (Yanlış)\n- **E) Eritrosit kullanımı:** Eritrositlerin mitokondrisi olmadığı için keton cisimlerini tüketemezler. (Yanlış)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Asetoasetatın periferal dokularda kullanımı için aşağıdaki moleküllerden hangisiyle reaksiyona girmesi gerekir?",
+    "options": {
+      "A": "Asetil-KoA",
+      "B": "Propionil-KoA",
+      "C": "Süksinil-KoA",
+      "D": "Açil-KoA",
+      "E": "Palmitoil-KoA"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n**Açıklama:**\n- **A, B, D, E) Asetil-KoA, Propionil-KoA, Açil-KoA, Palmitoil-KoA:** Tiyoforaz reaksiyonunun KoA vericisi değillerdir.\n- **C) Süksinil-KoA (Doğru Cevap):** Periferik dokularda Asetoasetatın aktifleşerek yıkıma girebilmesi için **Tiyoforaz (β-ketoaçil-KoA transferaz)** enzimi aracılığıyla **Süksinil-KoA**'dan KoA alarak Asetoasetil-KoA ve Süksinat oluşturması gerekir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Hipoglisin A (2-metilensiklopropilalanin) zehirmesine bağlı gelişebilecek durumlar ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Orta veya kısa zincirli açil-KoA dehidrogenazları inhibe eder.",
+      "B": "KoA ve karnitin ile metabolize edilemeyen esterler oluşturarak havuzları tüketir.",
+      "C": "Beta oksidasyonun azalmasına bağlı yağ asidi düzeyleri artar.",
+      "D": "Keton cismi sentezi artar.",
+      "E": "Omega oksidasyon artışına bağlı idrarda dikarboksilik asit atılımı artar."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\nJamaika Kusma Hastalığı (Jamaican vomiting sickness):\n- **A) Mekanizma:** Olgunlaşmamış Akee meyvesindeki Hipoglisin A, Açil-KoA dehidrogenaz enzimini inhibe eder. (Doğru)\n- **B) Havuz tüketimi:** Serbest KoA ve karnitin bağlayarak tükenmesine yol açar. (Doğru)\n- **C) Yağ asiti birikimi:** β-oksidasyon durduğu için kanda serbest yağ asitleri birikir. (Doğru)\n- **D) Ketogenez etkisi (Doğru Cevap - Yanlış İfade):** β-oksidasyon durduğu için Asetil-KoA üretilemez. Bu nedenle keton cismi sentezi **ARTMAZ, AKSİNE DÜŞER!** Hastalık **Non-ketotik Hipoglisemi** ile karakterizedir.\n- **E) Kompansasyon:** Alternatif ω-oksidasyon artar ve idrarda dakarboksilik asitler atılır. (Doğru)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kronik alkol tüketimi sonrasında gelişen metabolik bir sonuçtur?",
+    "options": {
+      "A": "Yağ asidi oksidasyonunun aktivasyonu",
+      "B": "Laktik asidoz gelişimi",
+      "C": "Ketogenezin inhibisyonu",
+      "D": "NAD/NADH oranının artması",
+      "E": "Glukoneogenezin artması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- Etanol metabolizmasında (Alkol DH ve Aldehit DH): Etanol -> Asetaldehit -> Asetat reaksiyonlarında masif miktarda **NADH** üretilir.\n- **A) Yağ asidi oksidasyonu:** Yüksek NADH β-oksidasyonu baskılar. (Yanlış)\n- **B) Laktik asidoz (Doğru Cevap):** Yüksek NADH/NAD+ oranı Pirüvatı Laktat Dehidrogenaz ile **Laktat**'a kaydırır; kanda laktat birikerek Laktik Asidoza neden olur.\n- **C) Ketogenez:** Asetil-KoA birikerek ketogenezi artırır. (Yanlış)\n- **D) NAD/NADH:** NAD/NADH oranı düşer (NADH artar). (Yanlış)\n- **E) Glukoneogenez:** Pirüvat ve okzaloasetat tüketildiği için glukoneogenez İNHİBE OLUR (hipoglisemi). (Yanlış)",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "I. Laktik asidoz gelişimi\nII. Yağlı karaciğer oluşumu\nIII. Hiperürisemi gelişimi\nIV. Üremi gelişimi\nYukarıdakilerden hangileri etanol metabolizmasının toksik etkilerindendir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "III ve IV",
+      "D": "I, II ve III",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n**Açıklama:**\nEtanol metabolizmasında yüksek NADH/NAD+ oranının toksik sonuçları:\n- **Öncül I (Doğru):** Pirüvat -> Laktat kayması Laktik Asidoza yol açar.\n- **Öncül II (Doğru):** β-oksidasyon inhibe olur, Asetil-KoA'dan yağ asiti ve TAG sentezi artarak Yağlı Karaciğer (Steatoz) oluşturur.\n- **Öncül III (Doğru):** Artan laktat, böbrek tübüllerinde ürik asit atılımı ile yarışır; kanda ürik asit birikerek Hiperürisemiye (Gut krizi) yol açar.\n- **Öncül IV (Yanlış):** Üremi etanolün birincil toksik metabolik sonucu değildir.\n- **Sonuç:** I, II ve III doğrudur (Cevap D).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  },
+  {
+    "question": "I. Metanolün formaldehide dönüşmesi toksisiteye neden olur.\nII. Tedavi hedefindeki enzim, alkol dehidrogenazdır.\nIII. Tedavide verilen etanol, hedefteki enzimin nonkompetitif inhibitörüdür.\nMetanol zehirlenmesinin biyokimyasal temeliyle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n**Açıklama:**\n- **Öncül I (Doğru):** Metanol kendisi nispeten toksik değilken Alkol Dehidrogenaz (ADH) ile toksik Formaldehid ve Formik aside dönüşerek körlük ve ölüme yol açar.\n- **Öncül II (Doğru):** Tedavide amaç ADH enzimini inhibe ederek metanolün toksik formaldehide dönüşümünü engellemektir (Fomepizol veya Etanol verilir).\n- **Öncül III (Yanlış):** Etanol, Alkol Dehidrogenaz enzimi için metanol ile yarışan **KOMPETİTİF (yarışmalı) substrattır / inhibitördür** (nonkompetitif değildir). ADH'nin etanole afinitesi metanolden çok daha yüksektir.\n- **Sonuç:** I ve II doğrudur (Cevap B).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 2 LİPİDLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  }
+]

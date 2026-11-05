@@ -1,0 +1,359 @@
+[
+  {
+    "q_num": 276,
+    "question": "Aşağıdaki seçeneklerden hangisinde yetişkinlerde görülen gingival kistin kemik içi varyantı doğru olarak verilmiştir?",
+    "options": {
+      "A": "Dentigeröz kist",
+      "B": "Bukkal bifurkasyon kisti",
+      "C": "Lateral periodontal kist",
+      "D": "Statik kemik kisti",
+      "E": "Basit kemik kisti"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Lateral periodontal kist, dental lamina artıklarından (Serres artıkları) köken alır ve histopatolojik/embriyolojik olarak yetişkinlerin yumuşak dokuda görülen gingival kistinin kemik içi (intraosseöz) karşılığıdır. Multikistik formuna ise botryoid odontojenik kist denir.\n**Çeldiriciler:**\n- A) Dentigeröz kist: Gömülü diş kronunu çevreleyen, birleşik mine epitelinden köken alan gelişimsel kisttir.\n- B) Bukkal bifurkasyon kisti: Çocuklarda mandibular 1. veya 2. molar dişin bukkal furkasyonunda görülen inflamatuar odontojenik kisttir.\n- D) Statik kemik kisti (Stafne): Tükürük bezi depresyonuna bağlı oluşan anatomik kemik kavitesidir.\n- E) Basit kemik kisti: Epitel döşemesi olmayan travmatik/hemorajik psödokisttir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 277,
+    "question": "Aşağıdaki odontojen patolojilerden hangisinin üzerinden skuamöz hücreli karsinom gelişme olasılığı diğerlerinden daha azdır?",
+    "options": {
+      "A": "Odontojenik keratokist",
+      "B": "İnflamatuar periapikal patolojiler",
+      "C": "Lateral periodontal kist",
+      "D": "Dentigeröz kist",
+      "E": "Rezidüel kist"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Odontojenik kistlerin epitel döşemesinden primer intraosseöz skuamöz hücreli karsinom gelişebilir. Bu malign transformasyon en sık rezidüel kist, inflamatuar periapikal (radiküler) kist, dentigeröz kist ve odontojenik keratokist üzerinden gelişir; lateral periodontal kistten malign dönüşüm olasılığı oldukça düşüktür.\n**Çeldiriciler:**\n- A) Odontojenik keratokist: Yüksek mitotik aktiviteye sahip epitelinden skuamöz hücreli karsinom gelişebilir.\n- B) İnflamatuar periapikal patolojiler (radiküler kist): Kronik inflamasyon zemininde epitelinden malign dönüşüm gelişebilen başlıca kistlerdendir.\n- D) Dentigeröz kist: Uzun süre tedavi edilmeyen olgularda kist epitelinden ameloblastoma, mukoepidermoid karsinom veya skuamöz hücreli karsinom gelişebilir.\n- E) Rezidüel kist: Kist duvarından skuamöz hücreli karsinom gelişiminin en sık bildirildiği odontojenik kisttir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 278,
+    "question": "Kırk beş yaşında kadın hastanın periapikal radyografında mandibular anterior dişlerin apekslerinde sınırları belirgin radyolusent-mikst lezyonlar izlenmekte olup ilgili dişler vitaldir. Ağrı ve hassasiyeti olmayan bu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Periapikal semental displazi",
+      "B": "Apikal apse",
+      "C": "Periapikal granülom",
+      "D": "Radiküler kist",
+      "E": "Kondensing osteit"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Periapikal semental (semento-osseöz) displazi; orta yaşlı kadınlarda, mandibular anterior dişlerin apekslerinde görülen, asemptomatik bir fibro-osseöz lezyondur. Erken (osteolitik) evrede periapikal radyolusensi verir ancak ilgili dişlerin vital olması ile periapikal inflamatuar lezyonlardan ayırt edilir.\n**Çeldiriciler:**\n- B) Apikal apse: Şiddetli ağrı, perküsyon hassasiyeti ve devital diş ile karakterize akut inflamatuar tablodur.\n- C) Periapikal granülom: Nekrotik/devital pulpalı dişin apeksinde gelişen kronik inflamatuar granülasyon dokusudur; diş vital değildir.\n- D) Radiküler kist: Devital diş apeksinde gelişen inflamatuar odontojenik kisttir; vital dişte oluşmaz.\n- E) Kondensing osteit: Genellikle mandibular molar bölgede devital/kronik pulpitli diş apeksinde tamamen radyoopak skleroz olarak izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 279,
+    "question": "Çene kemiklerinde izlenen periapikal segmental displazi için aşağıdakilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Lezyonlar radyolüsenttir ve dik açılı septalarla bölünmüş olarak izlenir.",
+      "B": "Geniş lezyonlar ekspansiyona neden olabilir.",
+      "C": "Etkilenen dişler vitaldir.",
+      "D": "Alt ön dişlerde daha sıktır, herhangi bir dişte de görülebilir.",
+      "E": "Asemptomatiktir, radyografik incelemeler sırasında tesadüfen görülür."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Periapikal semental displazi uniloküler olup başlangıçta radyolusent, ikinci evrede mikst, olgun evrede ise çevresi ince radyolusent bantla sarılı radyoopak görünüm verir. Dik açılı ince septalarla bölünmüş multiloküler (tenis raketi/merdiven) görünüm bu lezyona değil, odontojenik miksomaya aittir.\n**Çeldiriciler:**\n- B) Genellikle küçük boyutlu olmakla birlikte genişleyen lezyonlar lokalize kortikal ekspansiyona yol açabilir.\n- C) Pulpa patolojisi kaynaklı olmadığı için ilgili dişler vitaldir.\n- D) En sık mandibular anterior (kesici) dişlerin apekslerinde görülür.\n- E) Ağrı veya hassasiyet yapmaz; rutin radyografik muayenede tesadüfen saptanır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 280,
+    "question": "Aşağıdakilerden hangisi periapikal semental displazinin 3. evresi hakkında doğru değildir?",
+    "options": {
+      "A": "Periapikal rarefiye osteitis gibidir.",
+      "B": "Lezyonun tamamı matüre olur.",
+      "C": "Dens radyoopak görüntü verir.",
+      "D": "Kemikten ince radyolüsent bir çizgiyle ayrılır.",
+      "E": "Lezyon 1 cm'den küçüktür."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Periapikal rarefiye osteitis (periapikal granülom/kist) tamamen radyolusent bir görünümdedir ve periapikal semental displazinin 3. (olgun) evresiyle değil, 1. (osteolitik/matürasyon) evresiyle karışır. 3. evrede lezyon yoğun radyoopaktır.\n**Çeldiriciler:**\n- B) 3. faz (olgun faz), fibröz dokunun tamamen kalsifiye olarak matüre olduğu evredir.\n- C) Sement ve kemik birikimi nedeniyle merkezde dens (yoğun) radyoopak görüntü verir.\n- D) Yoğun radyoopak kitlenin çevresi sağlam kemikten ince radyolusent bir bağ dokusu kapsülü (hattı) ile ayrılır.\n- E) Periapikal semental displazi lezyonları sınırlı büyüme potansiyeline sahiptir ve çapları genellikle 1 cm'den küçüktür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 281,
+    "question": "Elli beş yaşındaki erkek hasta üst çenesinde gelişen şişlik ve yanma şikâyetiyle başvuruyor. İntraoral muayenede palatinal mukozada yüzeye yakın mavi renkte fluktuan şişlik gözleniyor ve bölgedeki komşu dişlerin vital olduğu saptanıyor. Radyolojik incelemede santral dişlerin kökleri hizasında, düzgün sınırlı, yuvarlak bir radyolusensi izleniyor. Bu hasta için en olası ön tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Basit kemik kisti",
+      "B": "Radiküler kist",
+      "C": "Nazopalatin kanal kisti",
+      "D": "Nazolabial kist",
+      "E": "Tiroglossal kanal kisti"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Nazopalatin kanal (insiziv kanal) kisti; en sık görülen non-odontojenik gelişimsel kisttir. Orta-ileri yaş erkeklerde sık görülür. Palatinal papil arkasında fluktuan (yüzeyelse mavimsi) şişlik, sinir basısına bağlı yanma/uyuşukluk ve radyografide vital üst santral kesici kökleri arasında yuvarlak, oval veya kalp şeklinde (anterior nazal spina süperpozisyonuyla) kortike radyolusensi verir.\n**Çeldiriciler:**\n- A) Basit kemik kisti: Neredeyse tamamen mandibulada görülen, palatinal yumuşak dokuda fluktuan şişlik yapmayan psödokisttir.\n- B) Radiküler kist: İlgili dişin devital olmasını gerektirir; soruda santral dişler vitaldir.\n- D) Nazolabial kist: Tamamen yumuşak dokuda (üst dudak/burun kanadı tabanında) yerleşir, konvansiyonel radyografide kemik içi radyolusensi vermez.\n- E) Tiroglossal kanal kisti: Boyun orta hattında dil kökü (foramen caecum) ile tiroid bezi arasında gelişen yumuşak doku kistidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 282,
+    "question": "Periapikal radyografide maksilla orta hattında, santral kesiciler arasında kalp şeklinde, düzgün sınırlı radyolusent bir görüntü izleniyor. Yapılan vitalite testinde ilgili bölgedeki dişlerin vital olduğu tespit ediliyor. Tipik radyografik görünüm aşağıdaki lezyonlardan hangisine aittir?",
+    "options": {
+      "A": "Periapikal apseler",
+      "B": "Radiküler kist",
+      "C": "Nazopalatin kanal kisti",
+      "D": "Travmatik kemik kisti",
+      "E": "Adenomatoid odontojenik tümör"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Maksilla orta hatta, vital santral kesici dişlerin kökleri arasında yerleşen nazopalatin kanal kistinin üzerine radyoopak anterior nazal spinanın süperpoze olmasıyla oluşan karakteristik radyografik görünüm \"kalp şekli\"dir.\n**Çeldiriciler:**\n- A) Periapikal apseler: Sınırları belirsiz (diffüz) radyolusensi verir, şiddetli ağrılıdır ve ilgili diş devitaldir.\n- B) Radiküler kist: Devital dişin apeksinde gelişir; vital dişler arasında gelişmez.\n- D) Travmatik kemik kisti: Mandibula posterior bölgede diş kökleri arasına skallop uzanım gösteren psödokisttir.\n- E) Adenomatoid odontojenik tümör: Genellikle gömülü üst kanin diş kronunu çevreleyen ve içinde kalsifiye odaklar barındıran tümördür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 283,
+    "question": "Aşağıdaki özelliklerden hangisi Nazolabial kist ile ilgili doğru değildir?",
+    "options": {
+      "A": "Kadınlarda erkeklere göre üç kat daha fazla görülür.",
+      "B": "Büyük lezyonlar burun tabanında çıkıntı yapabilir.",
+      "C": "Daima bilateral olarak izlenir.",
+      "D": "Kist genellikle komşu kemik dokuda erozyona yol açar.",
+      "E": "Genellikle yumuşak doku lezyonu olup, tanı için BT veya MR incelemesi gereklidir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Nazolabial (nazoalveolar) kist çoğunlukla unilateral (tek taraflı) olarak izlenir; bilateral görülmesi oldukça nadirdir (%10 civarı).\n**Çeldiriciler:**\n- A) Kadınlarda erkeklere oranla yaklaşık 3:1 oranında daha sık görülür.\n- B) Nazolabial sulkusu siler, üst dudakta şişlik ve burun tabanında/deliğinde elevasyon ve obstrüksiyon yapabilir.\n- D) Kemik içi bir kist olmamasına rağmen uzun süreli basıya bağlı olarak maksilla ön yüzünde kortikal kemik erozyonu (çukurcuklanma) oluşturabilir.\n- E) Yumuşak doku kisti olduğu için standart iki boyutlu radyograflarda izlenmez; görüntülemede BT (yumuşak doku penceresi) veya MRG tercih edilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 284,
+    "question": "Otuz iki yaşında bir erkek hastanın radyografında; gömülü kalmış daimi üst kanin dişin kuronunu çevreleyen, uniloküler radyolusent, çevresi radyoopak ve belirgin sınırlı bir lezyon izlenmektedir. Bu patolojik oluşum aşağıdakilerden hangisi olamaz?",
+    "options": {
+      "A": "Odontojenik keratokist",
+      "B": "Ameloblastik fibrom",
+      "C": "Hiperplastik folikül",
+      "D": "Kompleks odontom",
+      "E": "Dentigeröz kist"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Kompleks odontoma; olgun evrede tamamen radyolusent olmayıp, ince radyolusent bir kapsülle çevrili düzensiz mine ve dentin kitlelerinden oluşan yoğun radyoopak (veya mikst) bir odontojenik malformasyondur. Ayrıca üst kaninden ziyade mandibular posterior bölgede sık görülür.\n**Çeldiriciler:**\n- A) Odontojenik keratokist: Gömülü diş kronu çevresinde perikoronal yerleştiğinde dentigeröz kisti taklit eden iyi sınırlı uniloküler radyolusensi verebilir.\n- B) Ameloblastik fibrom: Gömülü diş kronunu çevreleyen, kortike sınırlı uniloküler radyolusent görüntü verebilen mikst odontojenik tümördür.\n- C) Hiperplastik folikül: Gömülü diş kronu etrafında 3-5 mm'ye kadar genişlemiş, düzgün sınırlı radyolusensi veren dental foliküldür.\n- E) Dentigeröz kist: Gömülü dişin mine-sement sınırına tutunarak kronunu çevreleyen, iyi sınırlı kortike uniloküler radyolusent kisttir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 286,
+    "question": "I. Benign sementoblastoma\nII. Bukkal bifurkasyon kisti\nIII. Dentigeröz kist\n\nAşağıdaki lezyonlardan hangisi veya hangilerine sıklıkla mandibular 1. Molar diş bölgesinde rastlanılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** I ve II numaralı patolojiler karakteristik olarak mandibular 1. molar dişi tutar.\n- I. Doğru: Benign sementoblastoma olgularının büyük çoğunluğu mandibular 1. molar ve 2. premolar diş köklerinde gelişir.\n- II. Doğru: Bukkal bifurkasyon kisti (paradental kistin çocukluk formu) en sık sürmekte olan mandibular 1. molar dişin bukkal furkasyonunda görülür.\n- III. Yanlış: Dentigeröz kist gömülü dişlerle ilişkili olup en sık mandibular 3. molar, maksiller kanin ve maksiller 3. molar diş etrafında görülür.\n**Çeldiriciler:**\n- A) II. öncül de doğrudur.\n- B) I. öncül de doğrudur.\n- C) III. öncül yanlıştır.\n- E) III. öncül yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 288,
+    "question": "Bukkal bifurkasyon kisti ile ilgili aşağıda verilen klinik ve radyolojik bulgulardan hangisi doğru değildir?",
+    "options": {
+      "A": "En sık mandibular 1. molar diş etkilenir",
+      "B": "En belirgin klinik özelliği ilgili dişin sürmesinde gecikmedir",
+      "C": "Daima unilateral görülür",
+      "D": "Daima etkilenen dişin bukkal taraf furkasyon bölgesinde yer alır",
+      "E": "Sıklıkla iyi ve kortike sınırlı radyolüsent lezyonlardır"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Bukkal bifurkasyon kisti daima unilateral değildir; olguların yaklaşık üçte birinde bilateral (her iki mandibular 1. molarda simetrik) olarak izlenebilir.\n**Çeldiriciler:**\n- A) En sık mandibular 1. molar dişi, daha az sıklıkla 2. molar dişi etkiler.\n- B) Etkilenen molar dişin sürmesinde gecikme veya parsiyel sürme (sadece lingual tüberküllerin görünmesi) en önemli klinik bulgusudur.\n- D) Karakteristik olarak dişin bukkal furkasyon bölgesinde gelişir ve kronu bukkale, kökleri linguale yatırır.\n- E) Radyografide sirküler/oval, iyi sınırlı ve kortike uniloküler radyolusensi verir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 289,
+    "question": "I. Ameloblastoma\nII. Skuamoz hücreli karsinoma\nIII. Mukoepidermoid karsinom\n\nDentigeröz kist epitelinden aşağıdaki lezyonlardan hangisi ya da hangileri gelişebilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dentigeröz kistin multipotansiyel odontojenik epitel döşemesinden I, II ve III numaralı neoplazmların tamamı gelişebilir.\n- I. Doğru: Kist duvarındaki odontojenik epitelden mural/luminal proliferasyonla ameloblastoma (özellikle unikistik ameloblastoma) gelişebilir.\n- II. Doğru: Kist epitelinin displastik dönüşümüyle primer intraosseöz skuamöz hücreli karsinom gelişebilir.\n- III. Doğru: Dentigeröz kist epitelinde bulunan müköz hücrelerin metaplazisi ve malign transformasyonu ile santral mukoepidermoid karsinom gelişebilir.\n**Çeldiriciler:**\n- A) II ve III de gelişebilir.\n- B) III de gelişebilir.\n- D) II de gelişebilir.\n- E) I de gelişebilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 290,
+    "question": "Aşağıdakilerin hangisinde multipl osteom görülür?",
+    "options": {
+      "A": "Gorlin sendromu",
+      "B": "Ehlers-Danlos sendromu",
+      "C": "Hand-Schüller-Christian hastalığı",
+      "D": "Gardner sendromu",
+      "E": "Eozinofilik granülom"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Gardner sendromu (ailesel adenomatöz polipozis varyantı); otozomal dominant geçişli olup çene ve yüz kemiklerinde multipl osteomlar, enostozlar, odontomalar, süpernümerer/gömülü dişler, deride epidermoid kistler, desmoid tümörler ve kalın bağırsakta yüksek malignite potansiyelli multipl adenomatöz polipler ile karakterizedir.\n**Çeldiriciler:**\n- A) Gorlin sendromu (Bazal hücreli nevüs sendromu): Çenelerde multipl odontojenik keratokistler, bazal hücreli karsinomlar ve falx cerebri kalsifikasyonu ile seyreder.\n- B) Ehlers-Danlos sendromu: Kollajen sentez bozukluğuna bağlı eklem hipermobilitesi, deri hiperelastisitesi ve пульpa taşları ile karakterizedir.\n- C) Hand-Schüller-Christian hastalığı: Langerhans hücreli histiyositozun kronik dissemine formu olup zımba deliği litik kemik lezyonları, ekzoftalmi ve diabetes insipidus triadı gösterir.\n- E) Eozinofilik granülom: Langerhans hücreli histiyositozun lokalize kemik formu olup osteolitik yıkım ve \"havada yüzen diş\" görünümü yapar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 291,
+    "question": "Desmoplastik fibromanın aşağıdaki sendromlardan hangisi ile ilişkili olma ihtimali en yüksektir?",
+    "options": {
+      "A": "Gorlin sendromu",
+      "B": "Down sendromu",
+      "C": "Albright sendromu",
+      "D": "Gardner sendromu",
+      "E": "Kleidokraniyal displazi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Desmoplastik fibroma, yumuşak dokudaki desmoid tümörün (agresif fibromatozis) kemik içi karşılığıdır; kollajen fibril üretimiyle karakterize lokal agresif bir tümör olup Gardner sendromunun bir bileşeni olarak ortaya çıkabilir.\n**Çeldiriciler:**\n- A) Gorlin sendromu: Multipl odontojenik keratokistler ve bazal hücreli karsinomlarla ilişkilidir.\n- B) Down sendromu: Trizomi 21 olup makroglossi, fissürlü dil, mikrodonti ve erken başlangıçlı şiddetli periodontitis ile ilişkilidir.\n- C) Albright sendromu (McCune-Albright): Poliostotik fibröz displazi, café-au-lait pigmentasyonu ve endokrinopati (erken puberte) ile karakterizedir.\n- E) Kleidokraniyal displazi: Klavikula hipoplazisi/aplazisi, açık fontaneller ve çok sayıda gömülü süpernümerer diş ile karakterizedir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 292,
+    "question": "Aşağıdaki kemiklerden hangisinde Gardner sendromuyla ilişkili osteomalara diğer seçeneklerdekiler kadar sık rastlanılmaz?",
+    "options": {
+      "A": "Frontal",
+      "B": "Maksillar",
+      "C": "Mandibular",
+      "D": "Oksipital",
+      "E": "Sfenoid"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Gardner sendromunda osteomalar en sık frontal kemik, mandibula (özellikle angulus bölgesi), maksilla ve paranazal sinüslerde (frontal, etmoid, maksiller ve sfenoid sinüsler) izlenir; oksipital kemikte görülmesi nadirdir.\n**Çeldiriciler:**\n- A) Frontal kemik ve frontal sinüs, osteomaların en sık yerleştiği kraniyofasiyal bölgedir.\n- B) Maksilla ve maksiller sinüste osteomalara sık rastlanır.\n- C) Mandibula (özellikle korpus ve angulus), yüz iskeletinde osteomaların en sık görüldüğü kemiktir.\n- E) Sfenoid kemik ve sinüs, Gardner sendromunda osteomların sık yerleştiği bölgeler arasındadır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 293,
+    "question": "Yüz ve boyunda açık kahverengimsi papüller olan, hafif hidrosefali ve hipertelorizm gözlenen 16 yaşındaki hastanın radyolojik incelemesinde birçok kadranda belirgin sınırlı radyolusent kistik lezyonlar görülüyor. Hastanın over tümörü nedeniyle ameliyat olacağı öğreniliyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Gardner sendromu",
+      "B": "Addison hastalığı",
+      "C": "Ehlers-Danlos sendromu",
+      "D": "Gorlin-Goltz sendromu",
+      "E": "Sturge-Weber sendromu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Gorlin-Goltz (nevoid bazal hücreli karsinom) sendromu; PTCH1 gen mutasyonu sonucu gelişen otozomal dominant bir hastalıktır. Çenelerde multipl odontojenik keratokistler, deride çok sayıda bazal hücreli karsinom (kahverengimsi papüller), hipertelorizm, bifid kosta, falx cerebri kalsifikasyonu ve over fibromu/medulloblastom gibi tümörlerle karakterizedir.\n**Çeldiriciler:**\n- A) Gardner sendromu: Çenelerde kistik radyolusensiler değil, radyoopak multipl osteomlar ve odontomalar ile intestinal polipler görülür.\n- B) Addison hastalığı: Adrenal korteks yetmezliğidir; deri ve oral mukozada bronz/kahverengi maküler hiperpigmentasyon yapar, çene kistleri görülmez.\n- C) Ehlers-Danlos sendromu: Bağ dokusu hastalığı olup deri hiperelastisitesi ve eklem hipermobilitesi yapar.\n- E) Sturge-Weber sendromu: Ensefalotrigeminal anjiyomatozistir; yüzde porto şarabı lekesi, intrakraniyal tramvay yolu kalsifikasyonları ve ipsilateral vasküler malformasyonlarla seyreder.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 294,
+    "question": "Aşağıda verilen sendromlardan hangisinde çenelerde multifokal kistik lezyonlar ve falks serebri kalsifikasyonu izlenmesi beklenir?",
+    "options": {
+      "A": "Gardner sendromu",
+      "B": "Kleidokraniyal displazi",
+      "C": "Nörofibromatozis",
+      "D": "Bazal cell nevus sendromu",
+      "E": "Goldenhar sendromu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Bazal cell nevus sendromunda (Gorlin-Goltz sendromu) çenelerin farklı kadranlarında multifokal odontojenik keratokistler ve posteroanterior kafa grafilerinde orta hatta radyoopak bir çizgi şeklinde izlenen erken dönem falx cerebri (dura mater) kalsifikasyonu patognomonik bulgulardır.\n**Çeldiriciler:**\n- A) Gardner sendromu: Multipl osteom, enostoz ve odontoma gibi radyoopak lezyonlarla karakterizedir.\n- B) Kleidokraniyal displazi: Klavikula aplazisi/hipoplazisi ve multipl gömülü süpernümerer dişlerle karakterizedir.\n- C) Nörofibromatozis: Café-au-lait lekeleri, multipl nörofibromlar ve mandibular kanalda genişleme ile seyreder.\n- E) Goldenhar sendromu (oküloaurikülovertebral spektrum): Hemifasiyal mikrozomi, preauriküler deri uzantıları, epibulbar dermoidler ve vertebra anomalileri ile karakterizedir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 296,
+    "question": "Yirmi beş yaşındaki erkek hasta, kontrol amacıyla kliniğe başvuruyor. Panoramik radyografta sağ ve sol ramus ile sol maksiller posterior bölgelerde sınırları belirgin, kortike, multipl radyolusent lezyonlar tespit ediliyor. Konik ışınlı bilgisayarlı tomografi görüntülerinde ise lezyonların anteroposterior yönde uzanım gösterdiği ve kemikte ekspansiyona neden olmadığı gözleniyor. Hastanın ekstraoral muayenesinde ise yüzde kahverengimsi papüller, palmar keratozis, geniş burun köprüsü ve hipertelorizm bulguları göze çarpıyor. Hasta cilt bulguları açısından dermatoloji kliniğine konsülte ediliyor. Bu hastanın dermatoloji kliniğine konsülte edilmesini gerektiren en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Addison hastalığı",
+      "B": "Cushing hastalığı",
+      "C": "Mikulicz sendromu",
+      "D": "Basal Cell Nevus sendromu",
+      "E": "Hipertiroidizm"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Çenelerde kemik içinde ekspansiyon yapmadan anteroposterior (medüller boşluk boyunca) büyüyen multipl kortike radyolusent lezyonlar odontojenik keratokisttir. Multipl keratokistlere eşlik eden hipertelorizm, geniş burun köprüsü, palmar/plantar çukurcuklar (keratozis) ve derideki nevoid bazal hücreli karsinomlar (kahverengimsi papüller) Basal Cell Nevus (Gorlin-Goltz) sendromunu gösterir; bazal hücreli karsinomlar nedeniyle dermatoloji konsültasyonu şarttır.\n**Çeldiriciler:**\n- A) Addison hastalığı: Adrenal yetmezliğe bağlı mukokutanöz hiperpigmentasyon yapar; çenelerde multipl keratokist veya iskeletsel anomali görülmez.\n- B) Cushing hastalığı: Aydede yüzü, buffalo hörgücü ve osteoporoz ile seyreder; multipl çene kisti ve palmar keratozis yapmaz.\n- C) Mikulicz sendromu: Tükürük ve gözyaşı bezlerinin simetrik şişliği ve kserostomi ile karakterizedir.\n- E) Hipertiroidizm: Kemik yaşı ilerlemesi, erken diş sürmesi ve osteopeni yapar; kistik çene lezyonları ve bazal hücreli nevüslerle ilişkisi yoktur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 297,
+    "question": "I. Multipl keratokistler izlenir\nII. Deride multifokal nevoid basal cell karsinoma lezyonları görülür\nIII. Merkezi sinir sistemi anomalisi olarak Falks serebri kalsifikasyonu izlenir\n\nYukarıda Gorlin-Goltz Sendromu ile ilgili verilen bilgilerden hangisi ya da hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "I, II ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Gorlin-Goltz (Bazal hücreli nevüs) sendromu için I, II ve III numaralı öncüllerin tamamı doğrudur.\n- I. Doğru: Çenelerde erken yaşta ortaya çıkan ve nüks eğilimi yüksek multipl odontojenik keratokistler sendromun en önemli oral bulgusudur.\n- II. Doğru: Deride özellikle güneş gören bölgelerde çok sayıda nevoid bazal hücreli karsinom gelişir.\n- III. Doğru: Kafa grafilerinde falks serebri ve tentoryum serebellide lameller kalsifikasyon görülmesi majör tanı kriterlerindendir.\n**Çeldiriciler:**\n- A) II ve III de doğrudur.\n- B) III de doğrudur.\n- C) II de doğrudur.\n- E) I de doğrudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 298,
+    "question": "Yirmi iki yaşındaki erkek hasta, kontrol amacıyla kliniğe başvuruyor. Panoramik radyografta sağ ve sol angulus mandibula bölgelerinde ve sağ maksiller sinüste osteomalar ile dört kadranda da enostozlar tespit ediliyor. 46 nolu diş bölgesinde de odontoma tespit edilen hastanın dermatolojide ense bölgesinde epidermoid kist tanısı konulduğu öğreniliyor. Hastanın gastroenteroloji kliniğine konsülte edilmesine karar veriliyor. Bu hastanın gastroenteroloji kliniğine konsülte edilmesini gerektiren en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Addison hastalığı",
+      "B": "Cushing hastalığı",
+      "C": "Mikulicz sendromu",
+      "D": "Gardner sendromu",
+      "E": "Basal cell nevus sendromu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Çenelerde multipl osteomlar, enostozlar, odontoma ve deride epidermoid kistlerin birlikteliği Gardner sendromunu tanımlar. Sendromun en hayati bileşeni kolonda gelişen ve tedavi edilmezse %100'e yakın oranda adenokarsinoma dönüşen multipl intestinal polipler olduğu için hasta mutlaka gastroenteroloji kliniğine konsülte edilmelidir.\n**Çeldiriciler:**\n- A) Addison hastalığı: Primer adrenal yetmezliktir; osteom, odontom veya kolon polipleri ile ilişkisi yoktur.\n- B) Cushing hastalığı: Hiperkortizolizm tablosudur; kemikte osteoporoz yapar, radyoopak kitleler oluşturmaz.\n- C) Mikulicz sendromu: Lakrimal ve tükürük bezi büyümeleriyle seyreder.\n- E) Basal cell nevus sendromu: Multipl radyolusent keratokistler ve deri bazal hücreli karsinomlarıyla seyreder; dermatoloji konsültasyonu gerektirir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 304,
+    "question": "Aşağıdakilerden hangisi Mandibulofasiyal Dizostozis (Treacher Collins Sendromu) için yanlıştır?",
+    "options": {
+      "A": "Zigomatik kemiklerin hipoplazisi nedeniyle palpebral fissürlerde aşağı eğilme görülebilir.",
+      "B": "Radyolojik olarak maksiller sinüs gelişiminde azalma ya da yokluk izlenebilir.",
+      "C": "Dış kulak yolunun oluşmaması, işitme kaybına neden olabilir.",
+      "D": "Mandibula hipoplazisi sonucu anterior açık kapanış (open bite) görülebilir.",
+      "E": "Maksilla ve mandibula genellikle normal gelişim gösterir, çene kemiklerinde defekt beklenmez."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Treacher Collins sendromunda (mandibulofasiyal dizostozis) 1. ve 2. brankiyal ark yapılarını etkileyen TCOF1 gen mutasyonu nedeniyle maksilla, zigoma ve mandibula belirgin derecede hipoplaziktir (kuş yüzü görünümü); çene kemiklerinin normal gelişim göstermesi söz konusu değildir.\n**Çeldiriciler:**\n- A) Zigomatik kemik hipoplazisi/aplazisi nedeniyle lateral kantuslar aşağı doğru çekiktir (antimongoloid eğim).\n- B) Maksilla hipoplazisine bağlı olarak maksiller sinüsler hipoplazik veya aplaziktir.\n- C) Aurikula malformasyonları, dış kulak yolu atrezisi ve orta kulak kemikçik anomalilerine bağlı iletim tipi işitme kaybı sık görülür.\n- D) Mandibula kondil ve ramus hipoplazisi ile antegonial çentik belirginleşmesi sonucunda dik yön yüz yüksekliği artar ve anterior açık kapanış gelişir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 17 - Kistler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

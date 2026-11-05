@@ -1,0 +1,410 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi distraksiyon osteogenezisinin avantajlarından biridir?",
+    "options": {
+      "A": "İkinci bir cerrahi operasyonuna ihtiyaç duyulmaması",
+      "B": "Kemikle beraber yumuşak dokuda da adaptasyon oluşması",
+      "C": "Hasta konforunun yüksek olması",
+      "D": "Maliyetinin diğer tekniklere göre çok düşük olması",
+      "E": "Hasta takibinin kısa süreli olması *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Dezavantajdır):** Distraksiyon osteogenezinde distraktörün yerleştirilmesi (birinci ameliyat) ve kemik iyileşmesi tamamlandıktan sonra çıkarılması (ikinci ameliyat) olmak üzere en az iki cerrahi girişim gerekir.\n  * **B şıkkı (Doğru Cevap / Temel Avantaj):** Distraksiyon osteogenezisi kemik segmentlerini dereceli olarak uzaklaştırırken kemikle eş zamanlı olarak çevre kas, damar, sinir ve mukoza dokusunun da kademeli olarak uzamasını sağlar. Bu biyolojik olguya **distraksiyon histogenezi** denir ve klasik ortognatik cerrahideki relapsın önlenmesinde en büyük üstünlüktür.\n  * **C, D, E şıkları (Dezavantajlardır):** Ağızda veya yüzde distraktör aygıtı bulunması hasta konforunu düşürür, distraktör aygıtları yüksek maliyetlidir ve latent, aktivasyon ile konsolidasyon evreleri nedeniyle hasta takibi aylar sürer.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 79,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki durumlardan hangisinde konvansiyonel ortognatik cerrahiye kıyasla öncelikli olarak distraksiyon osteogenezi tercih edilir?",
+    "options": {
+      "A": "Küçük miktarda ilerletme gerektiğinde",
+      "B": "Büyük miktarda ilerletme gerektiğinde",
+      "C": "İntermaksiller fiksasyona gerek kalmaması istendiğinde",
+      "D": "Tedavinin çok kısa sürede yapılması gerektiğinde",
+      "E": "Distraksiyon osteogenezi her durumda daha önceliklidir *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Yanlış):** Küçük miktardaki (örn. 3-6 mm) çene ilerletmelerinde konvansiyonel ortognatik cerrahi osteotomileri çok daha hızlı, konforlu ve pratiktir.\n  * **B şıkkı (Doğru Cevap):** 10 mm ve üzerindeki büyük iskeletsel ilerletmelerde klasik ortognatik cerrahi yumuşak doku gerginliğini tolere edemez ve yüksek oranda relaps görülür. Distraksiyon osteogenezisi yumuşak dokuyu da adapte edebildiği için **büyük miktarda ilerletme gerektiğinde** primer endikasyona sahiptir.\n  * **C, D, E şıkları (Yanlış):** Distraksiyon süreci uzundur, hasta kooperasyonu gerektirir ve rutin her vakada ilk tercih değildir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 80,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Crouzon sendromlu erişkin bir hastada orta yüzün ilerletilmesi amacıyla distraktör yerleştiriliyor. Bu hastada olması gereken günlük ideal distraksiyon hızı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "0,5 mm x 1",
+      "B": "0,25 mm x 2",
+      "C": "0,5 mm x 2",
+      "D": "0,25 mm x 4",
+      "E": "1 mm x 1 *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Erişkin bir bireyde distraksiyon osteogenezisinde günlük ideal kemik uzatma hızı **1 mm**'dir.\n  * Bu 1 mm'lik açılmanın tek seferde (1 mm x 1) yapılması dokularda ani gerilim yaratır; dörde bölünmesi ise hasta uyumunu zorlaştırır.\n  * Biyolojik olarak en uygun ritim, günde iki kez 0.5 mm aktivasyon yapılarak (12 saatte bir 0.5 mm açılması = **0.5 mm x 2**) günlük 1 mm'ye ulaşılmasıdır. Hız 0.5 mm'nin altına düşerse erken kemik kaynaması, 1-1.5 mm'nin üzerine çıkarsa psödoartroz (fibröz kaynamama) gelişir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 81,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kortikotomi işlemi  \nII. Aktivasyon periyodu  \nIII. Konsolidasyon periyodu  \nIV. Latent periyot  \n**Distraksiyon osteogenezi cerrahi protokolünün basamakları aşağıdakilerden hangisinde sırayla verilmiştir?**",
+    "options": {
+      "A": "I - II - III - IV",
+      "B": "I - IV - III - II",
+      "C": "I - IV - II - III",
+      "D": "I - II - IV - III",
+      "E": "I - III - II - IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I. Kortikotomi / Osteotomi:** Kemiğin cerrahi olarak kesilmesi ve distraktör aygıtının fikse edilmesi aşamasıdır (1. adım).\n  * **IV. Latent periyot:** Cerrahi sonrası kemik uçları arasında tamir kallusunun oluşması ve yumuşak dokuların toparlanması için beklenilen dinlenme evresidir (erişkinlerde 5-7 gün) (2. adım).\n  * **II. Aktivasyon (distraksiyon) periyodu:** Distraktör vidasının günlük 1 mm hızla açılarak kemik segmentlerinin birbirinden uzaklaştırıldığı evredir (3. adım).\n  * **III. Konsolidasyon periyodu:** İstenen uzunluğa ulaşıldığında yeni oluşan osteoid dokunun kalsifiye olup matür kemiğe dönüşmesi için distraktörün hareketsiz tutulduğu bekleme evresidir (aktivasyon süresinin yaklaşık 2-3 katı) (4. adım).\n  * Doğru kronolojik sıra **I - IV - II - III** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2020 Orijinal",
+    "q_num": 82,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki seçeneklerden hangisinde distraksiyon osteogenezi cerrahi protokolünün basamakları doğru sırayla verilmiştir?",
+    "options": {
+      "A": "Latent dönem - osteotomi - distraksiyon dönemi - konsolidasyon dönemi",
+      "B": "Latent dönem - osteotomi - konsolidasyon dönemi - distraksiyon dönemi",
+      "C": "Konsolidasyon dönemi - osteotomi - latent dönem - distraksiyon dönemi",
+      "D": "Osteotomi - latent dönem - distraksiyon dönemi - konsolidasyon dönemi",
+      "E": "Osteotomi - konsolidasyon dönemi - distraksiyon dönemi - latent dönem *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Birinci adım cerrahi kemik kesisi olan **Osteotomi**; ikinci adım kallus oluşumu için beklenen **Latent dönem**; üçüncü adım segmentlerin çekildiği **Distraksiyon (Aktivasyon) dönemi**; dördüncü adım ise kemiğin sertleştiği **Konsolidasyon dönemi**dir. Doğru sıralama D şıkkındadır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 83,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi maksillofasiyal alanda uygulanan distraksiyon osteogenezisinin dezavantajlarının arasında yer almaz?",
+    "options": {
+      "A": "Yüksek maliyetlidir.",
+      "B": "Distraksiyon vektörü bazı durumlarda kontrol edilemez.",
+      "C": "Ortognatik cerrahi gibi konvansiyonel tekniklere göre tedavi süresi uzundur.",
+      "D": "Bütün distraksiyon periyodu boyunca hasta uyumu gerektirir.",
+      "E": "Yalnızca iskeletsel büyümesi tamamlanmış hastalarda uygulanabilir. *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C, D şıkları (Gerçek Dezavantajlardır):** Pahalı aygıtlar gerektirmesi, kas çekmesiyle vektör sapmaları olabilmesi, tedavi ve konsolidasyonun aylar sürmesi ve hastanın her gün vidayı çevirme zorunluluğu yöntemin temel dezavantajlarıdır.\n  * **E şıkkı (Yanlış İfade / Doğru Cevap):** Distraksiyon osteogenezisi yalnızca erişkinlerde değil; kraniofasiyal sendromlu (Pierre Robin, Crouzon, Treacher Collins vb.) **büyüme çağındaki çocuklarda ve hatta yenidoğanlarda** ciddi hava yolu obstrüksiyonunu gidermek için hayat kurtarıcı olarak uygulanabilir. Bu nedenle E seçeneği bir kısıtlama veya dezavantaj değildir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 84,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksillanın vertikal ve horizontal düzensizliği ile birlikte çene ucunun geride olduğu (retrognati) bir hastada maksilla ve çene ucuna yönelik aynı seansta planlanan kombine ortognatik cerrahi osteotomi ikilisi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Le Fort I osteotomisi, Genioplasti",
+      "B": "Sagital split ramus osteotomisi, Le Fort I",
+      "C": "Sagital split ramus osteotomisi, Genioplasti",
+      "D": "Sagital split ramus osteotomisi, Le Fort III",
+      "E": "Le Fort III, Genioplasti *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Maksillanın konumsal bozuklukları (gummy smile, vertikal maksiller fazlalık veya maksiller yetersizlik) **Le Fort I osteotomisi** ile 3 boyutlu olarak düzeltilir. Mandibula gövdesini ve diş dizilimini değiştirmeden sadece çene ucu konturunu ileri, yukarı veya aşağı taşımak için yapılan horizontal kesi ise **horizontal simfizis osteotomisidir (Genioplasti)**. Bu iki prosedürün kombinasyonu Le Fort I ve genioplastidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2017 Orijinal",
+    "q_num": 316,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibulanın yükselen ramusunun sagital düzlemde ikiye ayrılmasını sağlayan, ramusun medialinde lingulanın üzerinden başlayıp eksternal oblik hat boyunca aşağı inerek 1. ve 2. molar seviyesinde alt kenara vertikal kesiyle bağlanan popüler ortognatik cerrahi prosedür hangisidir?",
+    "options": {
+      "A": "Vertikal subkondiler osteotomi",
+      "B": "Ters L osteotomisi",
+      "C": "Sagital split ramus osteotomisi (BSSO / Obwegeser-Dal Pont)",
+      "D": "Wassmund osteotomisi",
+      "E": "Anterior segmental osteotomi *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Tarif edilen kesi hattı **Bilateral Sagital Split Ramus Osteotomisi (BSSO)** tekniğidir. Ramus mediyal korteks, anterior kenar ve korpus lateral korteks boyunca dilimlenir. N. alveolaris inferior distal (dişli) segmentte kalırken, kondil proksimal segmentte bırakılır. Mandibulanın hem ilerletilmesinde (advancement) hem de geri alınmasında (setback) kullanılır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 317,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Le Fort I osteotomisinin endikasyonlarından biri değildir?",
+    "options": {
+      "A": "Maksiller transvers ve vertikal yetersizlikler",
+      "B": "İskeletsel Sınıf III anomalilerde maksiller retrüzyon",
+      "C": "Obstrüktif uyku apnesi sendromunda hava yolunu genişletmek için maksillanın ilerletilmesi",
+      "D": "Farenks ve kafa tabanı tümörlerine cerrahi erişim sağlanması",
+      "E": "İzole uvula yarığı bulunan hastada konuşma bozukluğunu düzeltmek için maksillanın öne ilerletilmesi *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C ve D şıkları:** Maksillayı öne, yukarı veya aşağı konumlandırmak, kafa tabanına basamak oluşturmak ve uyku apnesinde hava yolunu açmak Le Fort I endikasyonlarıdır.\n  * **E şıkkı (Doğru Cevap):** İzole uvula yarığı veya submuköz damak yarığı olan olgularda Le Fort I ile maksillanın öne alınması, yumuşak damak ile farenks arka duvarı arasındaki mesafeyi açar; bu durum var olan velofarengeal sfinkteri bozar ve hastada **ağır velofarengeal yetmezlik ve hipernazal konuşma** yaratır. Bu olgularda maksiller ilerletme kontrendikedir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 318,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Obstrüktif uyku apnesi sendromu (OSAS) olan bir hastaya aşağıdaki ortognatik cerrahi uygulamalardan hangisinin yapılması hastalığın seyrini olumsuz etkiler?",
+    "options": {
+      "A": "Maksiller genişletme",
+      "B": "Gap artroplastisi",
+      "C": "Mandibular ilerletme",
+      "D": "Maksiller ilerletme",
+      "E": "Mandibular setback (Mandibulanın cerrahi olarak geriye alınması) *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **C ve D şıkları (İlerletmeler):** Maksilla ve mandibulanın öne ilerletilmesi (Maksillomandibular ilerletme - MMA) dil kökünü ve hyoid kemiği öne çekerek farengeal hava yolu çapını dramatik şekilde genişletir ve apneyi iyileştirir.\n  * **E şıkkı (Mandibular Setback / Doğru Cevap):** İskeletsel Sınıf III maloklüzyonu düzeltmek amacıyla mandibula geriye alındığında dil kökü hipofarenkse ve arka duvara doğru sıkışır; bu da retroglossal farengeal hava yolunu daraltarak obstrüktif uyku apnesini tetikler veya mevcut apneyi **ölümcül derecede ağırlaştırır**.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 319,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibular prognati şikayeti ile başvuran 35 yaşındaki erkek hastanın anamnezinde obstrüktif uyku apnesi sendromu olduğu öğreniliyor. Bu hastada oklüzyonu ve yüz profilini düzeltirken hava yolunu korumak için en uygun ortognatik cerrahi strateji hangisidir?",
+    "options": {
+      "A": "Yalnızca mandibulayı izole olarak 10 mm geriye almak (Setback)",
+      "B": "Maksillayı ilerletmek ve mandibulayı geriye almaktan kaçınmak (veya kombine bimaksiller cerrahide mandibula setback miktarını minimumda tutarak maksiller advancement yapmak)",
+      "C": "Koronoidotomi",
+      "D": "Lingual sinir nörektomisi",
+      "E": "Sublingual bez eksizyonu *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Uyku apneli Sınıf III hastalarda mandibulanın tek başına geriye alınması solunumu bloke eder. İdeal yaklaşım, oklüzyonu sağlamak için üst çeneyi ileri taşımak (maksiller ilerletme) ve gerekiyorsa rotasyonlarla hava yolu hacmini korumaktır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 320,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibulaya yönelik olarak uygulanan aşağıdaki osteotomi tekniklerinden hangisinde, postoperatif olarak çene ucunun (mentonun) anatomik konumu değişmez?",
+    "options": {
+      "A": "Vertikal subkondiler osteotomi",
+      "B": "Ters C osteotomisi",
+      "C": "Basamak osteotomisi",
+      "D": "Blair gövde osteotomisi",
+      "E": "Total alveolar subapikal osteotomi *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C ve D şıkları:** Mandibula bazal kemiğini ve ramusunu kesip mandibulayı bir bütün olarak öne veya arkaya kaydıran işlemlerdir; mentonun pozisyonu doğrudan değişir.\n  * **E şıkkı (Total Alveolar Subapikal Osteotomi / Doğru Cevap):** Kesi hattı diş köklerinin apikalinden geçer ve sadece dişleri taşıyan alveol kemiği hareket ettirilir. Mandibulanın alt kenarı ve bazal simfizisi kesilmediği için **çene ucunun (menton) konumu kesinlikle değişmez**.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 321,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki operasyonların hangisinde kemik ve yumuşak doku nekroz riski en fazladır?",
+    "options": {
+      "A": "Sagital split ramus osteotomisi",
+      "B": "Wassmund segmental osteotomi",
+      "C": "LeFort I osteotomisi",
+      "D": "LeFort II osteotomisi",
+      "E": "Mandibuler korpus osteotomisi *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A ve E şıkları:** Mandibulada arteria alveolaris inferior ve çevreleyen masif mastikatör kas örtüsü mükemmel kan akımı sağlar; nekroz son derece nadirdir.\n  * **C ve D şıkları:** Le Fort osteotomilerinde inen palatinal damarlar ve asendan faringeal/palatinal anastomozlar korunur.\n  * **B şıkkı (Wassmund Segmental Osteotomi / Doğru Cevap):** Anterior maksiller segmental osteotomide premolar dişler çekilerek sadece ön 6 dişi içeren maksilla bloğu mobilize edilir. Wassmund tekniğinde hem labialden hem de palatinalden geniş tünelleme yapılır; segmenti besleyen tek vasküler pedikül dar bir palatinal mukoza köprüsüdür. Bu köprü cerrahi sırasında zedelenirse veya aşırı gerilirse segmentin tüm kanlanması çöker; bu nedenle ortognatik cerrahide **kemik ve diş nekroz riski en yüksek osteotomi Wassmund'dur**.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 322,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller segmental ortognatik cerrahilerde kan desteğinin bozulması sonucu gelişen osteonekrozu önlemek için segmentin hangi doku bağlantısı azami özenle korunmalıdır?",
+    "options": {
+      "A": "Bukkal yapışık diş eti",
+      "B": "Palatinal mukoperiosteal pedikül",
+      "C": "İnsiziv papil",
+      "D": "Dudak derisi",
+      "E": "Schneider membranı *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Mobilize edilen maksiller anterior kemik parçasının canlı kalabilmesi için geriye kalan tek kan kaynağı **palatinal mukoperiosteumdur** (A. palatina major dalları). Bu pedikülün koparılması avasküler nekrozla sonuçlanır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 323,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Subapikal ve segmental ortognatik osteotomilerde diş köklerinin ve marjinal periodonsiyumun yaralanmasını önlemek için iki komşu diş kökü arasında ve diş kök apeksleri ile osteotomi kesi hattı arasında bırakılması gereken minimum güvenlik mesafeleri sırasıyla ne kadardır?",
+    "options": {
+      "A": "1 mm - 2 mm",
+      "B": "2 mm - 3 mm",
+      "C": "3 mm - 5 mm",
+      "D": "5 mm - 10 mm",
+      "E": "6 mm - 8 mm *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * İnterdental vertikal osteotomide köklerin ve interdental kret kemiğinin nekroze olmaması için iki diş kökü arasında **en az 3 mm** kemik mesafesi olmalıdır. Apikal yatay osteotomide ise pulpa revaskülarizasyonunu korumak ve apeksleri kesmemek için apekslerin **en az 5 mm** yukarısından/aşağısından geçilmelidir (**3 mm - 5 mm**).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 324,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Frey Sendromu (Aurikulotemporal sendrom) aşağıdaki sinirlerden hangisinin dağılım alanında görülür?",
+    "options": {
+      "A": "N. buccalis",
+      "B": "N. nasopalatinus",
+      "C": "N. alveolaris inferior",
+      "D": "N. lingualis",
+      "E": "N. auriculotemporalis *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * Parotis bezi cerrahisi, TME cerrahisi veya BSSO/vertikal ramus osteotomileri sırasında **N. auriculotemporalis** hasar görür. İyileşme döneminde parotis bezine tükürük salgılatması gereken parasempatik sekretomotor lifler hatalı rejenere olarak cildin ter bezlerine ve yüzeyel damarlarına bağlanır (aberan rejenerasyon). Sonuç olarak hasta yemek yerken veya koku alırken ilgili preauriküler ve temporal cilt sahasında **aşırı terleme ve kızarıklık (gustatuar terleme)** meydana gelir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 325,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Vertikal subkondiler osteotomi  \nII. Sagital split ramus osteotomisi  \nIII. Mandibular korpus osteotomisi  \nIV. Le Fort I osteotomisi  \n**Yukarıdaki ortognatik osteotomilerden hangilerinde aurikulotemporal sinir hasarı ve sekonder Frey sendromu gelişme riski mevcuttur?**",
+    "options": {
+      "A": "I ve II",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "III ve IV",
+      "E": "I, II ve IV *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * N. auriculotemporalis mandibula boynunun hemen arkasından ve kondilin mediyalinden yukarıya doğru seyreder. Bu nedenle kondil ve ramus bölgesini içeren **vertikal subkondiler osteotomi (I)** ve **BSSO (II)** sırasında ekartör basısı veya kesiyle hasarlanabilir. Korpus ve Le Fort I bölgeleri bu sinirden uzaktır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 326,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen maksiller ortognatik cerrahi hareketlerden hangisinde operasyon sonrası nüks (relaps) oranı en yüksektir ve stabilitesi en zayıftır?",
+    "options": {
+      "A": "Maksillanın süperiora alınması (Gömme / İmpaksiyon)",
+      "B": "Maksillanın öne ilerletilmesi (Advancement)",
+      "C": "Maksillanın rotasyonu",
+      "D": "Maksillanın transversal genişletilmesi (Ekspansiyon)",
+      "E": "Maksillanın inferiora konumlandırılması *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Proffit'in ortognatik stabilite piramidine göre:\n  * **En stabil:** Maksillanın yukarı gömülmesi (impaksiyon) ve mandibulanın öne ilerletilmesidir.\n  * **Orta stabilite:** Maksiller ilerletme ve mandibuler setback.\n  * **En instabil (Nüks riski en yüksek):** **Maksillanın transversal cerrahi genişletilmesi** ve maksillanın aşağı indirilmesidir (inferior repozisyon). Damak mukozasının elastik direnci ve çiğneme kuvvetleri transversal genişletmede çok yüksek oranda relaps yaratır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 327,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aurikulotemporal sendromun (Frey sendromu) medikal tedavisinde günümüzde altın standart kabul edilen en uygun yaklaşım aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Artrosentez yapılması",
+      "B": "Nervus aurikulotemporalisin cerrahi eksizyonu",
+      "C": "Etkilenen cilt alanına Botulinum toksin (Botoks) tip A enjeksiyonu",
+      "D": "Kondilektomi uygulanması",
+      "E": "Oklüzal splint tedavisi *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **C şıkkı (Botulinum Toksini / Doğru Cevap):** Botoks presinaptik kolinerjik sinir uçlarından asetilkolin salınımını bloke eder. Ter bezleri kolinerjik sempatik/parasempatik uyarıyla çalıştığı için, gustatuar terleme olan cilt sahasına subkutan mikrodoloz botoks enjeksiyonu yapılması terlemeyi ve vazodilatasyonu 6-12 ay süreyle tamamen durdurur; non-invaziv altın standarttır.\n  * **B şıkkı:** Nörektomi agresiftir ve kısa sürede nüks eder.\n  * **A, D ve E şıkları:** TME eklem içi tedavileridir, kutanöz otonomik bozuklukla ilgisi yoktur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 328,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Rekürrent eklem dislokasyonu  \nII. Trigeminal nevralji  \nIII. Bruksizm  \nIV. Frey sendromu  \n**Yukarıda verilen klinik durumlardan hangisi veya hangilerinde botulinum toksin enjeksiyonu tedavi protokolünde yer alır?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "II ve IV",
+      "C": "I, III ve IV",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Botulinum toksini kas spazmını çözmek için bruksizmde (masseter/temporal kasa) (III), eklem lüksasyonunu önlemek için lateral pterigoid kasa (I) ve terlemeyi kesmek için Frey sendromunda cilt altına (IV) uygulanır. Trigeminal nevraljide birinci basamak farmakoterapi karbamazepindir; botoks rutin ilk tercih değildir. Doğru öncüller **I, III ve IV** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 329,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Frey sendromunun objektif klinik tanısında etkilenen cilt sahasına sürülüp hastaya limon veya yiyecek verilerek terlemenin mor-siyah renk değişimiyle tespit edildiği klasik tanı testi hangisidir?",
+    "options": {
+      "A": "Minor'ün nişasta-iyot testi",
+      "B": "Schirmer testi",
+      "C": "Tensilon testi",
+      "D": "Valsalva testi",
+      "E": "Halo testi *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Minor nişasta-iyot testinde preauriküler cilde önce tentürdiyot sürülüp kurutulur, üzerine nişasta tozu serpilir. Hastaya ekşi/tatlı uyaran verildiğinde ter damlaları nişasta ve iyotla kimyasal reaksiyona girerek mor-siyah renk alır; böylece botoks yapılacak alan haritalanır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 330,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ortognatik cerrahi sırasında veya sonrasında gelişebilecek aşağıdaki komplikasyonlardan hangisi acil trakeostomi veya acil endotrakeal entübasyon gerektirebilecek hava yolu tehlikesi oluşturur?",
+    "options": {
+      "A": "Postoperatif bulantı ve kusma",
+      "B": "Ağız tabanı ve parafarengeal alanda gelişen masif hematom",
+      "C": "Dudak komisüründe gerilmeye bağlı ragad",
+      "D": "Frey sendromu",
+      "E": "Geçici infraorbital hipoestezi *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Mandibular osteotomiler sırasında arteria facialis, sublingual arter veya lingual damarların yaralanmasıyla ağız tabanında masif hematom toplanabilir. Bu hematom dili yukarı ve arkaya doğru iterek farenks girişini ve larenksi dakikalar içinde tıkar; Ludwig anjini benzeri akut asfiksi yaratarak acil cerrahi hava yolu müdahalesi gerektirir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 331,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Le Fort I osteotomisinde pterigomaksiller bileşkenin ayrılması (pterigoid disjonksiyon) sırasında osteotomun aşırı süperiora ve mediyale yönlendirilmesi halinde yırtılarak masif kanamaya yol açabilecek en riskli majör arter hangisidir?",
+    "options": {
+      "A": "Arteria facialis",
+      "B": "Arteria lingualis",
+      "C": "Arteria maxillaris (ve dalları olan sfenopalatin/infratemporal dallar)",
+      "D": "Arteria temporalis superficialis",
+      "E": "Arteria thyroidea superior *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Pterigomaksiller ayrımda kavisli keski pterigoid fissürün en alt kenarına yerleştirilmelidir. Keski yukarıya kaçarsa pterigopalatin fossada seyreden ana gövde **Arteria maxillaris** veya dalları zedelenir; cerrahi sahada kontrolü son derece güç masif arteriyel fışkırma meydana gelir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 332,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "BSSO ameliyatı ile mandibulası 10 mm geriye alınan (setback) bir hastada operasyon sonrasında boyun rotasyonunda şiddetli ağrı, yutkunma güçlüğü ve kulak bölgesinde batma şikayeti gelişiyor. Tomografide styloid prosesin fraktüre olduğu saptanıyor. Bu durum aşağıdaki klinik tablolardan hangisinin oluşum mekanizmasıyla örtüşür?",
+    "options": {
+      "A": "Bell paralizisi",
+      "B": "Eagle sendromu",
+      "C": "Trigeminal nevralji",
+      "D": "Horner sendromu",
+      "E": "Ramsay Hunt sendromu *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Mandibula aşırı geriye itildiğinde ramus stiloid prosese ve stilomandibular ligamana mekanik bası uygular, ligaman gerilir veya proses fraktüre olur. Bu irritasyon glossofarengeal sinir ve karotis kılıfı üzerinde **Eagle sendromu** tablosunu (yutkunurken batma, servikal ağrı) tetikler.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 333,
+    "unit": "13 ORTOGNATİK CERRAHİ",
+    "quality_flag": "cikmis"
+  }
+]

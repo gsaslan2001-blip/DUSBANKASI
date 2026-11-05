@@ -1,0 +1,121 @@
+[
+  {
+    "question": "Laminate veneer restorasyon yapımında kullanılmayan tam seramik materyali aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Feldspatik seramik",
+      "B": "Dökülebilir seramik",
+      "C": "Isı ve basınçla preslenen seramik",
+      "D": "Zirkonyum oksit seramik",
+      "E": "Cam infiltre alümina seramik"
+    },
+    "correctAnswer": "E",
+    "explanation": "Laminate veneer restorasyonlar minik preparasyon gerektiren, son derece ince ve yüksek estetik beklentisi olan yapılardır.\n- **A, B, C, D) Feldspatik, Dökülebilir, Preslenen ve Zirkonyum:** Şeffaflığı ve estetik uyumu yüksek cam seramikler laminat yapımına uygundur.\n- **E) Cam infiltre alümina seramik (In-Ceram Alumina):** Yüksek çekirdek opaklığına ve yüksek alümina içeriğine sahip olduğundan estetik ışık geçirgenliği zayıftır ve son derece opaktır. Bu nedenle estetik laminate veneer yapımında tercih edilmez.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 51,
+    "unit": "17-Laminate Veneerler",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çözünürlüğü son derece düşük olan, yüksek adeziv bağlanma ile diş yapısına bağlanan ve porselen vener/inley simantasyonunda kullanımı gerekli siman türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çinko fosfat siman",
+      "B": "Çinko öjenol siman",
+      "C": "Çinko polikarboksilat siman",
+      "D": "Cam iyonomer siman",
+      "E": "Rezin siman"
+    },
+    "correctAnswer": "E",
+    "explanation": "Porselen laminate vener, inley/onley ve tam seramiklerin yapıştırılmasında suda çözünmeyen, mikromekanik ve adeziv monomerlerle yüksek bağlanma sağlayan **Rezin simanlar** zorunludur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 86,
+    "unit": "17-Laminate Veneerler",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Laminate veneer restorasyonların kesiminde önerilen diş eti basamak türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Shoulder",
+      "B": "Chamfer",
+      "C": "Bizotajlı shoulder",
+      "D": "Knife-edge",
+      "E": "Radyal shoulder"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Laminate venerlerde minede basamak oluştururken hassas uyum sağlayan ve mikro sızıntıyı önleyen **Chamfer (hafif oluklu)** basamak tercih edilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 268,
+    "unit": "17-Laminate Veneerler",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "11 numaralı dişte Sınıf IV genişlikte, eski bir kompozit restorasyonu olan hasta, ilgili dişin komşusu olan 21 numaralı diş ile renk uyumsuzluğu şikayetini bildirmektedir. Hastanın estetik beklentisinin karşılanması adına yapılması en uygun olan restorasyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Porselen laminate veneer",
+      "B": "Inley",
+      "C": "Tam seramik kron",
+      "D": "Metal destekli porselen kron",
+      "E": "Cam iyonomer dolgu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* Geniş Sınıf IV madde kaybı olan vakalarda porselen laminate vener tutuculuk için yetersiz kalır. Renk uyumunu ve estetiği mükemmel sağlamak, aynı zamanda kronu tamamen kapsayarak direnç kazandırmak için en uygun seçenek **Tam seramik kron (empress/zirkonya)** restorasyonudur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 272,
+    "unit": "17-Laminate Veneerler",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "**Cam seramiklerden üretilen porselen laminate veneer restorasyonların simantasyonu ile ilgili yukarıdaki ifadelerden hangileri doğrudur?**\nI. Restorasyonun iç yüzeyi simantasyon öncesi ortofosforik asit kullanılarak pürüzlendirilmelidir.\nII. Restorasyonun iç yüzeyine adeziv simantasyon öncesi silan uygulanmalıdır.\nIII. Restorasyonlar adeziv rezin simanlar ile simante edilmelidir.",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Öncül I (Yanlış):** Cam seramiklerin (laminate) iç yüzeyi ortofosforik asitle DEĞİL, **%5-9.5'lik Hidroflorik asit (HF)** ile pürüzlendirilir. (Ortofosforik asit minede kullanılır).\n* **Öncül II (Doğru):** Cam seramik iç yüzeyine silan bağlayıcı ajan (silanizasyon) uygulanarak kimyasal bağlanma sağlanır.\n* **Öncül III (Doğru):** Laminate venerler adeziv rezin simanlar (dualkür veya light-cure) ile simante edilir.\n* Bu nedenle II ve III ifadeleri doğrudur.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2019 Orijinal",
+    "q_num": 296,
+    "unit": "17-Laminate Veneerler",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Porselen laminate veneer restorasyonların simantasyonunda porselen iç yüzeyi ile diş yüzeyine uygulanan asitle pürüzlendirme ajanları aşağıdakilerden hangisinde sırasıyla ve doğru olarak eşleştirilmiştir?",
+    "options": {
+      "A": "Ortofosforik asit - Hidroflorik asit",
+      "B": "Ortofosforik asit - Sülfürik asit",
+      "C": "Hidroflorik asit - Ortofosforik asit",
+      "D": "Sülfürik asit - Hidroflorik asit",
+      "E": "Tartarik asit - Hidroflorik asit"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Hidroflorik asit - Ortofosforik asit (Doğru):** Porselen iç yüzeyi cam matrisini eritmek için **%5'lik Hidroflorik asit (HF)** ile, diş preparasyon yüzeyi (mine/dentin) ise **%37'lik Ortofosforik asit** ile pürüzlendirilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 297,
+    "unit": "17-Laminate Veneerler",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "11 numaralı dişine laminate veneer restorasyon yapılması planlanan 29 yaşındaki kadın hasta için aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Renk seçiminden önce dişler pomza ile temizlenmelidir.",
+      "B": "Diş eti bitim sınırı knife-edge şeklinde olmalıdır.",
+      "C": "Kron boyu insizalde uzatılacak ise preparasyon insizalden linguale dönmelidir.",
+      "D": "Restorasyon renkte fazla değişiklik yapmayacak ise interproksimal kontağı kaldırmaya gerek yoktur.",
+      "E": "Preparasyon minede sınırlandırılmalıdır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **B) Diş eti bitim sınırı knife-edge şeklinde olmalıdır (Yanlış / Cevap B):** Laminate vener kesiminde diş eti servikal bitim sınırı knife-edge (bıçak sırtı) DEĞİL, net bir oturma basamağı sağlayan **0,3 - 0,5 mm'lik Chamfer (oluklu)** basamak şeklinde hazırlanmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 298,
+    "unit": "17-Laminate Veneerler",
+    "quality_flag": "cikmis"
+  }
+]

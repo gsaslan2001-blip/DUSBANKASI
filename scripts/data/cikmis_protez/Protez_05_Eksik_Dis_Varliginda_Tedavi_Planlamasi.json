@@ -1,0 +1,1600 @@
+[
+  {
+    "question": "**Mandibulanın hareketleriyle ilgili yukarıdaki ifadelerden hangileri doğrudur?**\nI. Mandibulanın horizontal eksendeki hareketi sagittal düzlemde gerçekleşir.\nII. Mandibulanın horizontal düzlemdeki hareketi vertikal eksen etrafında gerçekleşir.\nIII. Mandibula sağa laterale hareket ettiğinde, sol kondil ileri doğru hareket eder.\nIV. Mandibulanın horizontal düzlemdeki hareketi sırasında, rotasyon merkezi çalışan taraf kondilinden geçer.",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Öncül I (Doğru):** Menteşe ekseni (horizontal eksen) etrafındaki açma-kapama rotasyonu sagittal düzlemde görülür.\n* **Öncül II (Doğru):** Yatay (horizontal) düzlemdeki sağa-sola kayma hareketi düşey (vertikal) eksen etrafında döner.\n* **Öncül III (Doğru):** Sağa lateral harekette sol kondil dengeleyen (orbiting) kondildir ve öne-aşağıya-içe (ileri) hareket eder.\n* **Öncül IV (Doğru):** Lateral harekette rotasyon merkezi çalışan taraf kondilinin merkezidir.\n* Dolayısıyla tüm öncüller (I, II, III, IV) doğrudur.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2017 Orijinal",
+    "q_num": 192,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibüler hareket paterni ile ilgili olarak aşağıdakilerden hangi bilgi doğru değildir?",
+    "options": {
+      "A": "Mandibulanın vertikal eksendeki hareketi frontal düzlemde gerçekleşir.",
+      "B": "Mandibulanın horizontal eksendeki hareketi sagittal düzlemde gerçekleşir.",
+      "C": "Mandibulanın horizontal düzlemdeki hareketi vertikal eksen etrafında gerçekleşir.",
+      "D": "Mandibula sağa laterale hareket ettiğinde, sol kondil ileri doğru hareket eder.",
+      "E": "Mandibulanın horizontal düzlemdeki hareketi sırasında, rotasyon merkezi çalışan taraf kondilinden geçer."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Mandibulanın vertikal eksendeki hareketi frontal düzlemde gerçekleşir (Yanlış / Cevap A):** Vertikal eksen etrafındaki rotasyon hareketi horizontal (yatay) düzlemde gerçekleşir. Frontal düzlemdeki hareket ise sagittal eksen etrafındaki rotasyondur.\n* **B) Mandibulanın horizontal eksendeki hareketi sagittal düzlemde gerçekleşir (Doğru):** Menteşe hareketi sagittalde izlenir.\n* **C) Mandibulanın horizontal düzlemdeki hareketi vertikal eksen etrafında gerçekleşir (Doğru):** Sağa-sola dönüşler vertikal eksendedir.\n* **D) Mandibula sağa laterale hareket ettiğinde, sol kondil ileri doğru hareket eder (Doğru):** Sol dengeleyen kondil öne kayar.\n* **E) Mandibulanın horizontal düzlemdeki hareketi sırasında, rotasyon merkezi çalışan taraf kondilinden geçer (Doğru):** Çalışan kondil merkezdir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 193,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lateral hareket yapan bir hastanın mandibulası değerlendirildiğinde, sağ taraf kondilinde yana, dışarı ve geriye doğru bir hareket izlenmektedir. Buna göre bu taraftaki kondil ve hareket tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çalışan taraf kondili - Laterotrüziv hareket",
+      "B": "Dengeleyen taraf kondili - Mediotrüziv hareket",
+      "C": "Çalışan taraf kondili - Mediotrüziv hareket",
+      "D": "Dengeleyen taraf kondili - Laterotrüziv hareket",
+      "E": "Orbiting kondil - Protrüziv hareket"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Çalışan taraf kondili - Laterotrüziv hareket (Doğru):** Çenenin kaydığı taraftaki kondil çalışan (rotating) kondildir. Bu kondilin yaptığı yana, dışarı ve geriye olan harekete laterotrüziv hareket denir.\n* **B) Dengeleyen taraf kondili - Mediotrüziv hareket (Yanlış):** Karşı taraftaki (dengeleyen) kondil öne, aşağıya ve içe (mediotrüziv) kayar.\n* **C) Çalışan taraf kondili - Mediotrüziv hareket (Yanlış):** Mediotrüziv hareket dengeleyen kondile aittir.\n* **D) Dengeleyen taraf kondili - Laterotrüziv hareket (Yanlış):** Dengeleyen kondil laterotrüziv hareket yapmaz.\n* **E) Orbiting kondil - Protrüziv hareket (Yanlış):** Orbiting kondil dengeleyen kondilin diğer adıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 194,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibulanın sagittal düzlemdeki sınır hareketlerini gösteren Posselt diyagramında, başlangıç rotasyonel açılışından sonra maksimum ağız açılmasına giden sınır hareketi hattı (posterior açılış sınır hareketi) üzerinde rotasyondan translasyona geçiş noktasından sonraki alt hat kaç numara ile gösterilir?",
+    "options": {
+      "A": "Tipik fonksiyonel hareketler",
+      "B": "Anteriyör açılış sınır hareketi",
+      "C": "Posterior açılış sınır hareketi (translasyon bileşeni)",
+      "D": "Süperiyor temas sınır hareketi",
+      "E": "Sağ lateral süperiyor sınır hareketi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Tipik fonksiyonel hareketler (Yanlış):** Diyagramın iç bölgesinde (çiğneme alanı) yer alan damla şeklindeki alandır.\n* **B) Anteriyör açılış sınır hareketi (Yanlış):** Maksimum açmadan maksimum protrüzyona doğru giden ön sınır hattıdır.\n* **C) Posterior açılış sınır hareketi (Doğru):** Menteşe eksenindeki ilk 20-25 mm'lik saf rotasyondan sonra kondillerin öne-aşağıya translasyonu ile maksimum açmaya giden arka sınır hattıdır.\n* **D) Süperiyor temas sınır hareketi (Yanlış):** Dişlerin temas halinde sentrik ilişkiden maksimum protrüzyona kaydığı en üst sınır çizgisidir.\n* **E) Sağ lateral süperiyor sınır hareketi (Yanlış):** Sagittal düzlemde değil frontal/horizontal düzlemde izlenir.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 195,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yukarıda içerdiği mandibüler hareket paternleri numaralarla ifade edilen Posselt diyagramı aracılığıyla aşağıdakilerden hangisini incelemek mümkün değildir?",
+    "options": {
+      "A": "Tipik fonksiyonel hareketler",
+      "B": "Anteriyör açılış sınır hareketi",
+      "C": "Posterior açılış sınır hareketi",
+      "D": "Süperiyor temas sınır hareketi",
+      "E": "Sağ lateral süperiyor sınır hareketi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D seçenekleri (Mümkündür):** Posselt diyagramı mandibulanın **sagittal (yan) düzlemdeki** sınır hareketlerini gösterir. Saf rotasyon, translasyon, maksimum açma, anteriör temas ve çiğneme alanları bu diyagramda incelenir.\n* **E) Sağ lateral süperiyor sınır hareketi (Mümkün değildir / Cevap E):** Lateral (yan) çene hareketleri sagittal düzlemde değil, frontal ve horizontal düzlemlerde incelenebilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 196,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Horizontal düzlemde, mandibulanın çalışan tarafa doğru yaptığı gövdesel harekete ne ad verilir?",
+    "options": {
+      "A": "Translasyon",
+      "B": "Mediotrüzyon",
+      "C": "Ekskürsiv hareket",
+      "D": "Posselt hareketi",
+      "E": "Bennett hareketi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Translasyon (Yanlış):** Bir cismin tüm noktalarının aynı yönde ve hızda kayma hareketidir.\n* **B) Mediotrüzyon (Yanlış):** Dengeleyen kondilin içe doğru kayma hareketidir.\n* **C) Ekskürsiv hareket (Yanlış):** Sentrik konumdan uzaktaki tüm çene kayma hareketlerinin genel adıdır.\n* **D) Posselt hareketi (Yanlış):** Sagittal düzlemdeki sınır hareketleri diyagramıdır.\n* **E) Bennett hareketi (Doğru):** Lateral çene hareketi sırasında çalışan taraf kondilinin ve mandibulanın gövdesel olarak yana kayma hareketidir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2017 Orijinal",
+    "q_num": 198,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Görselde ok ile gösterilen yönde kütlesel/gövdesel hareket yapan mandibulanın gerçekleştirdiği hareketin adı aşağıdakilerden hangisinde doğru olarak verilmektedir?",
+    "options": {
+      "A": "Translasyon",
+      "B": "Mediotrüzyon",
+      "C": "Ekskürsiv hareket",
+      "D": "Bennett hareketi",
+      "E": "Posselt hareketi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Bennett Hareketi (Doğru):** Çalışan taraf kondilinin bütünlüğüyle çalışan tarafa doğru yana yer değiştirmesidir. Lateral hareketlerin %86'sında görülür ve ortalama 0,5 - 3 mm kadardır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 199,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibulanın gerçekleştirdiği Bennett hareketinin ve Bennett açısının lokalizasyonu aşağıdakilerden hangisinde doğru olarak gösterilmektedir?",
+    "options": {
+      "A": "Bennett hareketi: Çalışan kondil / Bennett açısı: Dengeleyen kondil",
+      "B": "Bennett hareketi: Dengeleyen kondil / Bennett açısı: Çalışan kondil",
+      "C": "Bennett hareketi: Dengeleyen kondil / Bennett açısı: Dengeleyen kondil",
+      "D": "Bennett hareketi: Orbiting kondil / Bennett açısı: Rotating kondil",
+      "E": "Bennett hareketi: Hem çalışan hem dengeleyen kondil"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Bennett hareketi: Çalışan kondil / Bennett açısı: Dengeleyen kondil (Doğru):** Bennett hareketi çalışan (rotating) kondilde yana kayma şeklinde gerçekleşir. Bennett açısı ise dengeleyen (orbiting) kondilin öne-içe kayarken sagittal düzlemle oluşturduğu açıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 200,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt çenenin öne hareketi sırasında, alt anteriör dişlerin kesici kenarlarının, üst anteriör dişlerin lingual yüzeyleri boyunca öne ve aşağı hareket etmesine ne ad verilir?",
+    "options": {
+      "A": "Anteriör rehberlik",
+      "B": "Molar disoklüzyon",
+      "C": "Kondiler rehberlik",
+      "D": "Protrüziv kondil yolu eğimi",
+      "E": "Protrüzyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Anteriör rehberlik (Doğru):** Alt ön dişlerin kesici kenarlarının üst ön dişlerin palatinal/lingual yüzeylerinde kayarak çene hareketini yönlendirmesidir.\n* **B) Molar disoklüzyon (Yanlış):** Ön rehberlik esnasında arka dişlerin temasının kesilmesi olgusudur (Christensen fenomeni).\n* **C) Kondiler rehberlik (Yanlış):** Kondilin glenoid fossadaki anatomik yolunun yönlendirmesidir.\n* **D) Protrüziv kondil yolu eğimi (Yanlış):** Kondilin sagittal düzlemde izlediği yolun açısıdır.\n* **E) Protrüzyon (Yanlış):** Çenenin öne kayma hareketinin genel adıdır.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 204,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt çenenin öne hareketi sırasında alt anteriör dişlerin kesici kenarlarının üst anteriör dişlerin lingual yüzeyleri boyunca öne ve aşağı hareketi sonucu posterior dişlerin ayrılmasına ne ad verilir?",
+    "options": {
+      "A": "Molar disoklüzyon",
+      "B": "Anteriör rehberlik",
+      "C": "Kondiler rehberlik",
+      "D": "Protrüziv kondil yolu eğimi",
+      "E": "Laterotrüzyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Molar disoklüzyon (Doğru):** Ön dişlerin temasıyla çene öne kayarken arka (molar) dişlerin birbirinden ayrılmasına disoklüzyon (veya Christensen fenomeni) denir.\n* **B) Anteriör rehberlik (Yanlış):** Ön dişlerin temas kayma hareketinin kendisidir.\n* **C) Kondiler rehberlik (Yanlış):** Eklem içi yönlendirmedir.\n* **D) Protrüziv kondil yolu eğimi (Yanlış):** Eklem yolu açısıdır.\n* **E) Laterotrüzyon (Yanlış):** Yana kayma hareketidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 205,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anteriör rehberlik hareketi ile ortaya çıkan protrüziv kesici yolu eğiminin değeri aşağıdakilerden hangisinde doğru olarak verilmektedir?",
+    "options": {
+      "A": "5-10 derece",
+      "B": "15-20 derece",
+      "C": "40-50 derece",
+      "D": "50-70 derece",
+      "E": "90 derece"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* Protrüziv kesici yolu eğimi, protrüziv kesici yolu ile yatay referans düzlemi arasındaki açıdır ve normal sağlıklı bireylerde **50 - 70 derece** arasındadır. (Kondil yolu eğimi ise ortalama 30-40 derecedir; yani kesici yolu eğimi kondil yoluna göre 5-10 derece daha diktir).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 206,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anteriör rehberlik ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Alt ön dişlerin kesici kenarlarının maksimum kapanıştan başa baş diş teması oluncaya kadar izlediği yol protrüziv kesici yoludur.",
+      "B": "Anteriör dişler arasındaki yatay örtüm arttıkça tüberkül yükseklikleri kısalır.",
+      "C": "Sağlıklı dentisyonda sagittal düzlemde kondil yolu eğimi anteriör rehberlikten 5-10° daha diktir.",
+      "D": "Anteriör rehberlik parametrik posterior tüberküller yükselir.",
+      "E": "Alt çenenin öne hareketi sırasında alt kesicilerin kesici kenarları üst kesicilerin lingual fossalarında öne ve aşağı doğru hareket eder."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A, B, D, E (Doğru ifadeler):** Ön dişlerin teması, overjet/overbite oranları ve arka dişlerin ayrışması biyomekanik kurallara uygundur.\n* **C) Sağlıklı dentisyonda sagittal düzlemde kondil yolu eğimi anteriör rehberlikten 5-10° daha diktir (Yanlış / Cevap C):** Tam tersine, sağlıklı bir oklüzyonda **anteriör rehberlik açısı (50-70°), sagittal kondil yolu eğiminden (30-40°) yaklaşık 5-10° daha DİKTİR.** Bu durum protrüzyonda arka dişlerin hemen ayrışmasını (molar disoklüzyon) sağlar.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 207,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anteriör rehberlik ve posterior rehberlik mekanizmasıyla ilgili olarak ön dişler ve arka dişlerin birbirini koruma prensibi hangisidir?",
+    "options": {
+      "A": "Protrüziv ve lateral hareketlerde ön dişler arka dişleri korur (disoklüzyon); vertikal yönde gelen yüklerde arka dişler ön dişleri korur.",
+      "B": "Ön dişler her zaman arka dişleri korur.",
+      "C": "Arka dişler her zaman ön dişleri korur.",
+      "D": "Çiğneme esnasında sadece kaninler koruyucudur.",
+      "E": "Çene hareketlerinde eklem dişleri korur."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Mutlu/karşılıklı koruyucu oklüzyon (mutually protected occlusion) prensibine göre: Eksantrik (lateral ve protrüziv) hareketlerde ön dişler temas ederek arka dişleri eğici yatay kuvvetlerden korur. Sentrik kapanışta ve dikey yüklerde ise arka dişler temas ederek ön dişlere aşırı dikey yük gelmesini önler.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 208,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anteriör rehberliği oluşturan diş yüzeyleri kombinasyonu aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Alt kesicilerin kesici kenarları - Üst kesicilerin lingual fossaları",
+      "B": "Üst kesicilerin kesici kenarları - Alt kesicilerin labial yüzeyleri",
+      "C": "Alt kaninlerin tüberkül tepeleri - Üst premolarların palatinal yüzeyleri",
+      "D": "Alt kesicilerin labial yüzeyleri - Üst kesicilerin labial yüzeyleri",
+      "E": "Üst kaninlerin palatinal tüberkülleri - Alt kaninlerin lingual fossaları"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Alt kesicilerin kesici kenarları - Üst kesicilerin lingual fossaları (Doğru):** Anteriör rehberlik, alt ön kesicilerin insizal kenarlarının üst ön kesicilerin palatinal/lingual iç bükey fossalarında kaymasııyla şekillenir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 209,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anteriör rehberlik açısı ve overbite/overjet ilişkisiyle ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "Dikey örtüm (overbite) arttıkça anteriör rehberlik açısı artar; yatay örtüm (overjet) arttıkça anteriör rehberlik açısı azalır.",
+      "B": "Overjet arttıkça anteriör rehberlik açısı artar.",
+      "C": "Overbite azaldıkça anteriör rehberlik açısı artar.",
+      "D": "Overjet ve overbite anteriör rehberliği etkilemez.",
+      "E": "Anteriör rehberlik sadece kondil açısına bağlıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Dikey örtüm (overbite) arttıkça anteriör rehberlik açısı artar; yatay örtüm (overjet) arttıkça anteriör rehberlik açısı azalır (Doğru):** Derin kapanışta (yüksek overbite) alt çene öne kayarken dik bir yol izler (açı artar). Aşırı overjet varlığında ise alt çene öne doğru uzun süre düz kayar (açı azalır).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 210,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kanin koruyuculu oklüzyonun temel özelliğidir?",
+    "options": {
+      "A": "Lateral hareketlerde çalışan tarafta sadece kaninlerin temas etmesi, diğer tüm dişlerin disoklüze olması.",
+      "B": "Lateral hareketlerde çalışan taraftaki tüm premolar ve molarların temas etmesi.",
+      "C": "Protrüziv harekette tüm molarların temas etmesi.",
+      "D": "Dengeleyen tarafta tüberkül teması olması.",
+      "E": "Sentrik ilişkide sadece kaninlerin temas etmesi."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Lateral hareketlerde çalışan tarafta sadece kaninlerin temas etmesi, diğer tüm dişlerin disoklüze olması (Doğru):** Kanin koruyuculu oklüzyonda (organik oklüzyon), lateral çene kaymasında sadece kanin diş temas eder ve hem çalışan hem dengeleyen taraftaki tüm posterior dişleri disoklüze eder.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 211,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki vakalardan hangisine yapılacak olan bir protetik rehabilitasyonda tek taraflı dengeli oklüzyon (grup fonksiyonu) sağlanması uygun değildir?",
+    "options": {
+      "A": "Kanin dişinin eksikliğini içeren sabit restorasyon",
+      "B": "Çapraz kapanışa sahip bireyde yapılacak full mouth restorasyon",
+      "C": "Kombinasyon sendromu olan hareketli protez vakası",
+      "D": "Sınıf III maloklüzyon",
+      "E": "Sınıf II artmış overbite"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Kombinasyon sendromu olan hareketli protez vakası (Cevap C):** Kombinasyon sendromunda (üst tam protez, alt anterior dişler var) ve tam protezlerde protez stabilitesini korumak için **bilateral (çift taraflı) dengeli oklüzyon** zorunludur. Tek taraflı dengeli oklüzyon (grup fonksiyonu) sabit protezlerde tercih edilir, tam protezde kaidenin devrilmesine yol açar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 212,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller sağ kanin dişi eksik olan bir hastaya yapılan sabit protezde lateral harekette yükün tek bir dişe gelmesini önlemek amacıyla hangi oklüzyon konsepti tercih edilmelidir?",
+    "options": {
+      "A": "Grup fonksiyonlu oklüzyon",
+      "B": "Kanin koruyuculu oklüzyon",
+      "C": "Bilateral dengeli oklüzyon",
+      "D": "Lingualize oklüzyon",
+      "E": "Monoplane oklüzyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Destek dişleri ve köprü gövdesini korumak amacıyla lateral kuvvetler premolar ve molar dişlerin tüberküllerine paylaştırılır. Bu konsept **Grup fonksiyonlu oklüzyon**dur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 214,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kanin dişlerin ağızda ve periodontal olarak sağlıklı olduğu belirlenen hastanın tüm çene sabit bölümlü protez tedavisinde kullanılması gereken ideal oklüzyon türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kanin koruyuculu oklüzyon",
+      "B": "Grup fonksiyonlu oklüzyon",
+      "C": "Bilateral dengeli oklüzyon",
+      "D": "Monoplane oklüzyon",
+      "E": "Lingualize oklüzyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Doğal kanin dişleri uzun ve güçlü kök yapısına, yüksek propriyoseptif duyuya sahip oldukları için lateral yükleri en iyi tolere eden dişlerdir. Kaninler sağlıklıysa tercih edilen ideal oklüzyon **Kanin koruyuculu oklüzyon**dur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 215,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi grup fonksiyonlu oklüzyonun (tek taraflı dengeli oklüzyon) özelliklerinden biridir?",
+    "options": {
+      "A": "Lateral hareket sırasında çalışan tarafta kanin, premolar ve molar dişlerin bukkal tüberkülleri temas ederken, dengeleyen tarafta hiçbir temas olmaması.",
+      "B": "Lateral hareket sırasında dengeleyen tarafta tüberkül temasının olması.",
+      "C": "Protrüzyonda posterior dişlerin temas etmesi.",
+      "D": "Sadece kanin dişinin temas etmesi.",
+      "E": "Sentrik ilişkide ön dişlerin aşırı temas etmesi."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Lateral hareket sırasında çalışan tarafta kanin, premolar ve molar dişlerin bukkal tüberkülleri temas ederken, dengeleyen tarafta hiçbir temas olmaması (Doğru):** Grup fonksiyonunun tanımıdır. Çalışan taraftaki dış/fonksiyonel tüberküller yükü paylaşır, dengeleyen tarafta ise erken temas (interferens) olmamalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 216,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bilateral dengeli oklüzyonun (çift taraflı dengeli oklüzyon) temel kullanım alanıdır?",
+    "options": {
+      "A": "Tam protezler",
+      "B": "Tek üye porselen kronlar",
+      "C": "Bölgesel laminate venerler",
+      "D": "Sağlıklı doğal dişli bireyler",
+      "E": "Tek taraflı kanin köprüleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Tam protezler (Doğru):** Dokudan destek alan tam protezlerde lateral ve protrüziv çene hareketlerinde protez kaidesinin devrilmesini önlemek için ağızdaki tüm alanlarda (hem çalışan hem dengeleyen tarafta) eş zamanlı temaslar (bilateral balans) zorunludur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 217,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Okeson tarafından belirtilen optimum oklüzyon kriterlerinden biri değildir?",
+    "options": {
+      "A": "Kapanışta, kondil en süperoanteriör konumda bulunmalı.",
+      "B": "Kuvvetler dişlerin uzun aksı boyunca iletilmeli.",
+      "C": "Protrüziv hareketlerde anteriör dişler temas ederken posterior dişlerde temassızlık olmalı.",
+      "D": "Posterior dişler temas ederken anteriör dişlerde hafif ya da hiç temas olmamalı.",
+      "E": "Lateral hareketler sırasında hem çalışan hem de dengeleyen tarafta temas olmalıdır."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D (Optimum oklüzyon ilkeleridir):** Sentrik oturuş, eksensel yükleme ve eksantrik hareketlerde disoklüzyon esastır.\n* **E) Lateral hareketler sırasında hem çalışan hem de dengeleyen tarafta temas olmalıdır (Yanlış / Cevap E):** Doğal dişli veya sabit protezli bireylere dengeleyen tarafta temas olması yıkıcı bir **çatışmadır (interferens)**. Dengeleyen tarafta temas olmamalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 218,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Oklüzal uyumlama esnasında dengeleyen taraftaki erken temasların (non-working side interference) kaldırılması için hangi tüberkül eğimlerinden aşındırma yapılmalıdır?",
+    "options": {
+      "A": "Üst fonksiyonel tüberküllerin bukkal eğimleri ile alt fonksiyonel tüberküllerin lingual eğimlerinden",
+      "B": "Üst fonksiyonel tüberküllerin palatinal eğimleri ile alt fonksiyonel tüberküllerin bukkal eğimlerinden",
+      "C": "Üst non-fonksiyonel tüberküllerin bukkal eğimlerinden",
+      "D": "Alt non-fonksiyonel tüberküllerin lingual eğimlerinden",
+      "E": "Sadece insizal kenarlardan"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Dengeleyen taraf (non-working) temasları:** Üst palatinal tüberkülün iç (bukkal) eğimi ile alt bukkal tüberkülün iç (lingual) eğimi arasında oluşur.\n* Bu erken temasları gidermek için **BULL kuralı değil**, ilgili **fonksiyonel tüberküllerin iç eğimlerinden (üst palatinal tüberkülün bukkal eğimi veya alt bukkal tüberkülün lingual eğimi)** dikkatlice aşındırma yapılır (tüberkül tepesi korunur).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 219,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kron restorasyonunun ağız içi uyumlaması sırasında restorasyonun üst çene distal eğimlerindeki erken temaslarının kaldırılması için hangi tüberkül eğimlerinden aşındırma yapılması gerekir?",
+    "options": {
+      "A": "Üst posterior dişlerin mezial, alt posterior dişlerin distal eğimlerinden",
+      "B": "Üst posterior dişlerin distal, alt posterior dişlerin mezial eğimlerinden",
+      "C": "Üst fonksiyonel tüberküllerin bukkal, alt fonksiyonel tüberküllerin lingual eğimlerinden",
+      "D": "Üst fonksiyonel tüberküllerin lingual, alt fonksiyonel tüberküllerin bukkal eğimlerinden",
+      "E": "Üst fonksiyonel tüberküllerin mezial, alt fonksiyonel tüberküllerin distal eğimlerinden"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* MÖAD (MDUA) kuralı uyarınca:\n* Protrüziv erken temaslarda **MÖAD (Maksiller Öne/Meziale, Mandibuler Arkaya/Distale)** prensibiyle aşındırma yapılır.\n* Sentrik erken temaslarda ise **Maksiller Distal, Mandibuler Mezial (MDAM)** eğimler aşındırılır.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2016 Orijinal",
+    "q_num": 220,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "**Oklüzal uyumlama esnasında dengeleyen taraftaki (non-working side) erken temasların kaldırılması için aşağıdakilerden hangileri aşındırılmalıdır?**\nI. Üst fonksiyonel tüberküllerin bukkal eğimi\nII. Üst fonksiyonel tüberküllerin lingual eğimi\nIII. Alt fonksiyonel tüberküllerin bukkal eğimi\nIV. Alt fonksiyonel tüberküllerin lingual eğimi",
+    "options": {
+      "A": "I ve IV",
+      "B": "II ve III",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Dengeleyen taraftaki erken temaslar, üst palatinal tüberkülün iç (bukkal) eğimi ile alt bukkal tüberkülün iç (lingual) eğimi arasında meydana gelir.\n* Bu çatışmaları gidermek için **üst fonksiyonel tüberkülün bukkal eğimi (I)** veya **alt fonksiyonel tüberkülün lingual eğimi (IV)** aşındırılır. Bu nedenle doğru cevap A şıkkıdır (I ve IV).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 221,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çalışmayan taraf (dengeleyen taraf) interferensleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Yüklerin, dişlerin uzun eksenlerinin dışına iletilmesine neden olurlar.",
+      "B": "Alt çenenin yan hareketleri sırasında gerçekleşir.",
+      "C": "Hareket yönündeki alt ve üst arka dişlerin oklüzal tüberkül temaslarıdır.",
+      "D": "Normal kas aktivitesinin kesilmesine ve eklem yüklenmesine neden olur.",
+      "E": "Çiğneme sisteminde en yıkıcı karakterde olan oklüzal temaslardır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A, B, D, E (Doğru ifadeler):** Çalışmayan taraf temasları yan hareketlerde çenenin kaydığı tarafta DEĞİL, aksi (karşı) tarafta oluşan yıkıcı ve kas-eklem sistemini bozan temaslardır.\n* **C) Hareket yönündeki alt ve üst arka dişlerin oklüzal tüberkül temaslarıdır (Yanlış / Cevap C):** Hareket yönündeki temaslar **çalışan taraf (working side)** temaslarıdır. Çalışmayan taraf temasları hareket yönünün **aksine** kalan tarafta meydana gelir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2015 Orijinal",
+    "q_num": 222,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Protrüziv hareket esnasında posterior dişlerde oluşan erken temasların kaldırılmasında geçerli olan aşındırma kuralı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "MÖAD (Maksiller Öne/Meziale, Mandibuler Arkaya/Distale)",
+      "B": "BULL kuralı",
+      "C": "MDAM (Maksiller Distal, Mandibuler Mezial)",
+      "D": "Sadece alt tüberkül tepeleri",
+      "E": "Sadece üst santral dişler"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) MÖAD kuralı (Doğru):** Protrüziv harekette posterior dişlerdeki erken temaslar giderilirken üst (maksiller) posterior dişlerin mezial eğimlerinden ve alt (mandibuler) posterior dişlerin distal eğimlerinden (MÖAD / MDUA) aşındırma yapılır.\n* **B) BULL kuralı (Yanlış):** Çalışan taraf (working side) temaslarının düzeltilmesinde kullanılır (Bukkal Upper, Lingual Lower).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 223,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Artikülatörlerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Arkon artikülatörlerde kondil parçaları artikülatörün alt kısmında yer alır.",
+      "B": "Arkon artikülatörlerde mekanik fossa artikülatörün üst parçasında yer alır.",
+      "C": "Non-arkon artikülatörlerde glenoid fossayı temsil eden mekanizma artikülatörün üst parçasında yer alır.",
+      "D": "Non-arkon artikülatörlerde kondil elemanı üst parçada bulunur.",
+      "E": "Arkon artikülatörler insan eklem anatomisine uygun tasarımdadır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A, B, D, E (Doğru ifadeler):** Arkon (Articulator + Condyle) cihazlarda kondil alt gövdede, fossa üst gövdededir (insan eklem anatomisi gibidir). Non-arkon cihazlarda ise tersine kondil elemanı üst gövdede, fossa elemanı alt gövdededir.\n* **C) Non-arkon artikülatörlerde glenoid fossayı temsil eden mekanizma artikülatörün üst parçasında yer alır (Yanlış / Cevap C):** Non-arkon artikülatörlerde fossa mekanizması üst parçada değil, **alt parçada** yer alır.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 224,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Arkon artikülatörlerde mekanik fossa artikülatörün üst parçasında yer alır.**\n**II. Non-arkon artikülatörlerde glenoid fossayı temsil eden kondil yolları artikülatörün alt parçasında yer alır.**\n**III. Arkon artikülatörler tam protez yapımında yaygın olarak kullanılır.**\n\n**Yukarıda verilen ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I (Doğru):** Arkon artikülatörlerde mekanik fossa üst üyededir.\n* **II (Doğru):** Non-arkon artikülatörlerde mekanik fossa alt üyededir.\n* **III (Doğru):** Arkon artikülatörler doğal çene anatomisini simüle ettiği için sabit ve hareketli protezlerde (tam protez dahil) güvenle ve yaygın olarak kullanılır.\n* Dolayısıyla I, II ve III ifadelerinin tümü doğrudur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 225,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam ayarlanabilir artikülatörlerle ilgili olarak aşağıdakilerden hangi bilgi doğru bir bilgi değildir?",
+    "options": {
+      "A": "Mandibüler hareketleri, kondil yolunun açısını ve kurvatürünü mükemmel kaydeder.",
+      "B": "Tüm oklüzyonun yeniden şekillendirileceği kapsamlı tedavilerde kullanılır.",
+      "C": "Kayıt için 3 işlem gereklidir: Terminal menteşe aksının lokasyonu, Pantograf kaydı, İnteroklüzal kayıt.",
+      "D": "İnterkondiler mesafe ayarlanamaz, sabittir.",
+      "E": "Rotasyon yapan kondilin rotasyon dışında yaptığı lateral hareketleri (Bennett hareketi) kaydedebilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A, B, C, E (Doğru ifadeler):** Tam ayarlanabilir artikülatörler tüm çene hareket boyutlarını, condyle path kurvatürünü ve Bennett hareketlerini eksiksiz taklit eder.\n* **D) İnterkondiler mesafe ayarlanamaz, sabittir (Yanlış / Cevap D):** Tam ayarlanabilir artikülatörlerde interkondiler mesafe hastanın anatomisine göre birebir **ayarlanabilir**.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 226,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Arkon artikülatörlerde mekanik fossa artikülatörün üst parçasında yer alır.**\n**II. Non-arkon artikülatörlerde glenoid fossayı temsil eden kondil yolları artikülatörün alt parçasında yer alır.**\n**III. Arkon artikülatörler tam protez yapımında yaygın olarak kullanılır.**\n\n**Yukarıda verilenlerden hangileri arkon artikülatörlerin avantajları arasındadır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* Arkon artikülatörlerde kondil başının alt üyede, mekanik fossanın üst üyede olması insan anatomisini doğrudan yansıtır. Dikey boyut değiştirildiğinde kondil eğim açısı sabit kalır. Bu da protetik laboratuvar işlemlerinde ve model analizinde büyük avantaj sağlar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 229,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst çenedeki dişlerin kök yüzey alanları karşılaştırıldığında en yüksek kök yüzey alanına sahip diş aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lateral",
+      "B": "Kanin",
+      "C": "Birinci molar",
+      "D": "İkinci premolar",
+      "E": "Santral"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* Üst çene dişlerinin periodontal ligament / kök yüzey alanlarının büyükten küçüğe doğru sıralaması şöyledir:\n* **Birinci Molar (en büyük) > İkinci Molar > Kanin > Birinci Premolar > İkinci Premolar > Santral > Lateral (en küçük).**\n* Dolayısıyla en yüksek kök yüzey alanına sahip diş üst 1. molardır.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 231,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Taşıyabileceği fonksiyonel yükler açısından düşünüldüğünde, aşağıdaki maksiller dişlerden hangisi köprü ayağı olma açısından en avantajlıdır?",
+    "options": {
+      "A": "Kanin",
+      "B": "Lateral",
+      "C": "İkinci premolar",
+      "D": "Birinci molar",
+      "E": "Santral"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* Üst birinci molar diş (en geniş 3 köklü yapı ve yüksek kök yüzey alanı nedeniyle) sabit protezlerde çiğneme kuvvetlerini ve köprü yüklerini taşımada en avantajlı ayağı oluşturur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 232,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sabit bölümlü protez yapılması düşünülen bir hastanın maksiller dişleri periodontal yüzey alanı açısından en avantajlı ve en dezavantajlı olacak şekilde aşağıdakilerden hangisinde doğru olarak eşleştirilmiştir?",
+    "options": {
+      "A": "İkinci molar - lateral",
+      "B": "Birinci molar - lateral",
+      "C": "İkinci molar - santral",
+      "D": "Birinci molar - santral",
+      "E": "Kanin - lateral"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Üst çenede en geniş kök yüzey alanına sahip diş **Birinci molar (en avantajlı)** iken, en küçük kök yüzey alanına sahip diş **Lateral kesici (en dezavantajlı)** diştir. Bu nedenle tek başına lateral dişin uzun gövdeli köprülerde tek ayak olarak kullanılması önerilmez.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 233,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Açıksal Sınıf I oklüzyon ilişkisine sahip ve mandibulasındaki tüm posterior dişlerini 15 yıl önce kaybetmiş 50 yaşındaki kadın hastanın ağız içi muayenesinde aşağıdakilerden hangisinin görülme olasılığı en azdır?",
+    "options": {
+      "A": "Maksiller posterior dişlerin mandibuladaki boşluğa doğru uzaması",
+      "B": "Maksiller anteriör dişlerin aşınma sonucu kuron boylarının kısalması",
+      "C": "Maksiller anteriör dişlerin periodontal harabiyet sonucu palatinale eğilmesi",
+      "D": "Dişsiz boşluğa komşu dişlerde rotasyon olması",
+      "E": "Mandibüler kaninlerin dişsiz boşluğa hareketi sonucu komşu diş ile temaslarının kaybolması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A, B, D, E (Beklenen durumlardır):** Arka dişler kaybolduğunda ön dişler tüm çiğneme yükünü üstlenir (anterior yüklenme). Arka dişler boşluğa doğru uzar (sürme), ön dişler aşınır, boşluğa komşu dişler devrilir/rotasyona uğrar.\n* **C) Maksiller anteriör dişlerin periodontal harabiyet sonucu palatinale eğilmesi (En az olasılık / Cevap C):** Aşırı yük binen üst anterior dişler palatinal kuvvet almaz; tam tersine alt anterior dişlerin vurmasıyla **labiale doğru yelpazelenir (flaring/labiale eğilme)**. Palatinale eğilme görülmez.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2019 Orijinal",
+    "q_num": 234,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "10 yıl önce geçirdiği bir trafik kazası sonucunda alt posterior dişlerinin tümünü kaybeden, bunun dışındaki diş ve çevre dokuları herhangi bir zarar görmeyen; ancak diş kayıpları herhangi bir protezle yerine konmamış Angle Sınıf 1 oklüzyona sahip erkek hastada, intraoral muayene sırasında aşağıdakilerden hangisinin görülme olasılığı en azdır?",
+    "options": {
+      "A": "Maksiller anteriör dişlerin periodontal desteğini kaybederek palatinale yer değiştirmesi",
+      "B": "Maksiller posterior dişlerin alt çenedeki mevcut boşluğa doğru uzaması",
+      "C": "Maksiller anteriör dişlerin gelen kuvvetlerle aşınması ve kuron boylarının kısalması",
+      "D": "Mandibuladaki dişsiz boşluğa komşu dişlerde rotasyon olması",
+      "E": "Mandibüler kaninlerin dişsiz boşluğa migrasyonu sonucu komşu diş temaslarının kaybolması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Anterior dişlere aşırı dikey ve eksantrik yük yüklendiğinde üst anterior dişler dışa (labiale) doğru sürüklenir. Palatinale değil labiale doğru yer değiştirirler.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 235,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sabit bölümlü bir protez tasarımında, eksik dişlerin periodontal alanları ile dayanak olacak dişlerin periodontal alanları toplanıp karşılaştırıldığına göre, aşağıdaki kurallardan hangisi referans alınıyor demektir?",
+    "options": {
+      "A": "Tylman kanunu",
+      "B": "Kuron-kök oranı",
+      "C": "Ante kanunu",
+      "D": "Pier dayanak",
+      "E": "Jepsen kanunu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* Periodontal ligament alanlarının (kök yüzey alanlarının) kıyaslanmasına dayanan temel sabit protez biyomekanik kuralı **Ante Kanunu**dur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 237,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi sabit protez biyomekaniğinde köprü gövdesinin uzunluğu arttıkça esneme (defleksiyon) miktarının uzunluğun küpü ile doğru orantılı olarak artacağını belirten kuraldır?",
+    "options": {
+      "A": "Tylman kanunu",
+      "B": "Ante kanunu",
+      "C": "Kuron-kök oranı",
+      "D": "Jepsen kanunu",
+      "E": "Dawson kuralı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Tylman Kanunu:** Köprü gövdesinin uzunluğu 2 katına çıkarsa esneme $2^3 = 8$ kat artar; gövde uzunluğu 3 katına çıkarsa esneme $3^3 = 27$ kat artar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 238,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Balanslı oklüzyon elde edilmesi amaçlanan bir tam protez dizaynında Tylman formülü kullanılmaktadır. Buna göre, ilgili protezde anteriör rehberlik arttırılırsa, diğer rehberliklerle ilgili olarak aşağıdakilerden hangisi yapılmalıdır?",
+    "options": {
+      "A": "Kondiler eğim arttırılmalıdır veya oklüzal düzlem/kasp eğimi düzenlenmelidir.",
+      "B": "Oklüzal düzlem eğimi arttırılmalıdır.",
+      "C": "Kasp eğimi arttırılmalıdır.",
+      "D": "Kompanzasyon eğrisinin derinliği arttırılmalıdır.",
+      "E": "Kondiler eğim azaltılmalıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Hanau Beşlisi (Tylman/Hanau oklüzyon formülü):\n* $\text{Kondil Eğimi} \times \text{Anteriör Rehberlik} = \text{Oklüzal Düzlem} \times \text{Kasp Eğimi} \times \text{Kompanzasyon Eğrisi}$\n* Formülün sol tarafındaki faktörler arttığında, dengenin korunabilmesi için sağ taraftaki oklüzal bileşenler de uygun şekilde düzenlenmelidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 239,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, sabit protez desteği için kullanılan minimum kuron/kök oranıdır?",
+    "options": {
+      "A": "1/1",
+      "B": "1/2",
+      "C": "1/3",
+      "D": "1/4",
+      "E": "1/5"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) 1/1 (Doğru):** Normal klinik koşullarda bir dişin sabit proteze dayanak olabilmesi için kabul edilebilir **en düşük (minimum) kuron/kök oranı 1/1'dir.** (Klinik kuron boyu kemik içindeki kök boyuna eşit olmalıdır).\n* İdeal kuron/kök oranı ise **2/3**'tür.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 240,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. 1/1**\n**II. 1/2**\n**III. 2/1**\n\n**Yukarıda verilenlerden hangisi ya da hangileri sabit bölümlü proteze dayanak olarak kullanılabilecek olan dişin sahip olabileceği kabul edilebilir kuron/kök oranıdır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **I (1/1):** Kabul edilebilir minimum orandır (Doğru).\n* **II (1/2):** Kök boyu kuronun 2 katıdır, mükemmel bir destektir (Doğru).\n* **III (2/1):** Kuron boyu kökün 2 katıdır; alveolar kemik desteği yetersizdir, dayanak olamaz (Yanlış).\n* Bu nedenle I ve II kabul edilebilir oranlardır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 241,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sabit bölümlü protezde dayanak olarak kullanılması planlanan dişin ideal kuron/kök oranı aşağıdakilerden hangisinde doğru olarak gösterilmektedir?",
+    "options": {
+      "A": "1/1",
+      "B": "2/1",
+      "C": "1/2",
+      "D": "2/3",
+      "E": "3/4"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **D) 2/3 (Doğru):** Sabit protez biyomekaniğinde dayanak diş için **ideal kuron/kök oranı 2/3** kabul edilir (Klinik kuron 2 birim, kemik içindeki kök 3 birimdir). Minimum sınır ise 1/1'dir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 242,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Dişlerin çevresindeki dokuların inflamasyonsuz olması**\n**II. Tek köklü dişlerin konik köklü olması**\n**III. Çok köklü dişlerin ayrık köklü olması**\n\n**Yukarıda verilenlerden hangisi ya da hangilerinin sabit bölümlü protezde kullanılacak dayanak dişte olması beklenir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız I",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **I (Doğru):** Periodontal dokular sağlıklı olmalıdır.\n* **II (Yanlış):** Düz konik kökler değil, geniş/eğimli/yassı kökler tercih edilir.\n* **III (Doğru):** Çok köklü dişlerde köklerin ayrık olması yük dağılımını iyileştirir.\n* Bu nedenle I ve III beklenir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 244,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi pier abutment (ara dayanak) tanımını doğru olarak tanımlar?",
+    "options": {
+      "A": "Hem mezial hem distalde dişsiz boşluğun bulunduğu orta dayanaktır.",
+      "B": "Proksimal yarım kronla restore edilen distal dayanaktır.",
+      "C": "Distaline kantilever yapılan dayanaktır.",
+      "D": "Meziale devrilmiş dayanak diştir.",
+      "E": "Kuvvet kırıcı uygulanan distal dayanaktır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Hem mezial hem distalde dişsiz boşluğun bulunduğu orta dayanaktır (Doğru):** Pier abutment (ara dayanak), iki dişsiz boşluğun arasında tek başına yer alan dayanak diştir. Çiğneme esnasında bir kaldıraç/tahterevalli merkezi oluşturduğu için biyomekanik risk taşır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2016 Orijinal",
+    "q_num": 246,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yukarıdaki görselde yer alan 25 numaralı dişi tanımlayan terim aşağıdakilerden hangisinde doğru verilmektedir?",
+    "options": {
+      "A": "Kantilever",
+      "B": "Pier dayanak",
+      "C": "Non-rijit konnektör",
+      "D": "Konnektör",
+      "E": "Pontik"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Hem mezialinde hem de distalinde diş eksikliği bulunan ara dayanak dişe **Pier dayanak (Pier abutment)** adı verilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 247,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi pier dayanak varlığında kullanılacak sabit protetik tedavi elemanıdır?",
+    "options": {
+      "A": "Proksimal yarım kron",
+      "B": "Teleskop kron",
+      "C": "Non-rijit konnektör",
+      "D": "Çapraz pin ve kanat",
+      "E": "Teleskop koping"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* Pier dayanakta oluşan tahterevalli hareketini ve dayanak dişteki kemik kaybını/çimento çözünmesini önlemek için köprünün bir gövde bağlantısına **Non-rijit konnektör (kuvvet kırıcı / hassas bağlantı)** yerleştirilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 248,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksillada kanin, 2. premolar ve 2. molar doğal dişlerin dayanak olduğu 5 üyeli bir sabit parsiyel protez yapıldığında, fonksiyon sırasında ortadaki (pier) dayanak üzerinde tahterevalli hareketi oluşur. Bu hareketin önlenebilmesi için 2. premolar dayağa yerleştirilecek ataşman, bu dişin hangi yüzeyinde ve ne tipte olmalıdır?",
+    "options": {
+      "A": "Distal yüzeyine, rijit ataşman",
+      "B": "Distal yüzeyine, rijit olmayan ataşman",
+      "C": "Mezial yüzeyine, rijit ataşman",
+      "D": "Mezial yüzeyine, rijit olmayan ataşman",
+      "E": "Lingual yüzeyine, rijit olmayan ataşman"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Pier dayanağın (2. premolar) **distal yüzeyine rijit olmayan bir konnektör (ataşman / erkek-dişi parça)** yerleştirildiğinde occlusal yükler kuvvet kırıcı mekanizmayla nötralize edilir ve tahterevalli hareketi önlenir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2020 Orijinal",
+    "q_num": 249,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kliniğimize başvuran 30 yaşındaki kadın hastanın, üst çene 14, 16, 18 numaralı dişlerinin eksik olduğu tespit edilmiştir. Hastanın üst çenesine 13, 15, 17 numaralar dayanak alınarak sabit bölümlü protez yapılması planlanmaktadır. Yukarıdaki vakada tahterevalli hareketi sebebiyle oluşabilecek pier (orta) destekte kemik kaybının önlenmesi için aşağıdakilerden hangisinin yapılması uygundur?",
+    "options": {
+      "A": "15 numaralı dişin distaline rijit ataşman yerleştirilmesi",
+      "B": "15 numaralı dişin distaline rijit olmayan ataşman yerleştirilmesi",
+      "C": "15 numaralı dişin mezialine rijit ataşman yerleştirilmesi",
+      "D": "15 numaralı dişin mezialine rijit olmayan ataşman yerleştirilmesi",
+      "E": "15 numaralı dişin lingualine rijit ataşman yerleştirilmesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* 15 numaralı ara dayanak (pier abutment) üzerindeki zararlı kaldıraç kuvvetlerini kırmak için 15 numaralı dişin **distal yüzeyine rijit olmayan konnektör** uygulanmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 250,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hastada, birinci premolar ve birinci molar dişlerin eksikliğinde kanin, ikinci premolar ve ikinci molar dişlerin desteği olarak alınarak yapılacak sabit restorasyon için hangisi doğru değildir?",
+    "options": {
+      "A": "Orta (pier) dayanak oluşur.",
+      "B": "Ortadaki dişin distaline non-rijit konnektör konulabilir.",
+      "C": "İkinci premolar dişte belirgin bir mobilite varsa konnektör tasarımları rijit yapmak daha uygundur.",
+      "D": "Kuvvet kırıcı kullanılırsa, erkek parça dayanak dişte, dişi parça gövdede olacaktır.",
+      "E": "Kemikte ilave stresler ikinci premolar dişin distalinde yoğunlaşma eğiliminde olacaktır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A, B, C, E (Doğru ifadeler):** Biyomekanik prensiplere uygundur.\n* **D) Kuvvet kırıcı kullanılırsa, erkek parça dayanak dişte, dişi parça gövdede olacaktır (Yanlış / Cevap D):** Non-rijit konnektör tasarımında **dişi parça (patris/keyway) ara dayanak dişin rest/kron bünyesinde**, **erkek parça (matris/key) ise distal gövdenin (pontik) ucunda** yer alır. D seçeneğindeki yerleşme tanımı terstir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 251,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tüm alt kesici dişlerin eksikliğinde planlanan sabit bir restorasyonda dayanak alınan dişler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Alt kaninler",
+      "B": "Alt kaninler ve birinci premolarlar",
+      "C": "Alt kaninler ve premolarlar",
+      "D": "Alt kaninler ve sağ birinci premolar",
+      "E": "Alt kaninler ve sol birinci premolar"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Alt kaninler (Doğru):** Alt çenede 4 adet kesici diş eksik olduğunda (31, 32, 41, 42), kavis düz veya hafif kavisli olduğu için sadece sağ ve sol **alt kanin dişler (33 ve 43)** dayanak alınarak köprü güvenle yapılabilir.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 252,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tüm üst kesici dişlerin eksikliğinde planlanan sabit bir restorasyonda dayanak alınan dişler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Üst kaninler",
+      "B": "Üst kaninler ve birinci premolarlar",
+      "C": "Üst kaninler ve premolarlar",
+      "D": "Üst kaninler ve sağ birinci premolar",
+      "E": "Üst kaninler ve sol birinci premolar"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **B) Üst kaninler ve birinci premolarlar (Doğru):** Üst çenede 4 kesici diş eksikliğinde (11, 12, 21, 22), üst çene kavisi geniş ve öne doğru çıkıntılı olduğundan köprüye gelen devirici kuvvetler çok yüksektir. Sadece kaninler yetersiz kalır; bu nedenle **her iki üst kanin ve her iki üst 1. premolar diş (13, 14, 23, 24)** birlikte dayanak alınmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 253,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller iki santralin eksikliğinde (11 ve 21) yapılması planlanan sabit bir restorasyonda destek alınan dişler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "12 - 22",
+      "B": "13 - 12 - 22",
+      "C": "13 - 12 - 22 - 23",
+      "D": "12 - 22 - 23",
+      "E": "14 - 13 - 12 - 22 - 23"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) 13 - 12 - 22 - 23 (Doğru):** Üst çenede iki orta kesici eksik olduğunda (11 ve 21), sadece lateral dişleri (12 ve 22) ayak almak periodontal alan yetersizliği nedeniyle risklidir. Bu nedenle lateral dişlerin yanındaki **sağ ve sol kanin dişler de (13 ve 23)** köprüye dahil edilmelidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 254,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibüler kanin ve mandibüler birinci premolar dişlerin eksikliği durumunda yapılacak diş destekli sabit bölümlü protezde destek olarak alınması gereken dişler hangi seçenekte doğru olarak verilmiştir?",
+    "options": {
+      "A": "Lateral ve ikinci premolar",
+      "B": "Santral, lateral ve ikinci premolar",
+      "C": "Santral, lateral, ikinci premolar ve birinci molar",
+      "D": "Her iki santral, lateral ve ikinci premolar",
+      "E": "Her iki santral, lateral, ikinci premolar ve birinci molar"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Alt çenede kanin ve 1. premolar yan yana eksik olduğunda (köşe vakası), yükü dağıtmak için anterior yönde **santral ve lateral kesiciler**, posterior yönde ise **ikinci premolar (ve gerekirse 1. molar)** birlikte köprü dayağı olarak hazırlanmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 255,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt çenede kanin ve bir komşu dişin (1. premolar) eksikliğinde yapılacak köprü tasarımında ayak olması gereken dişler aşağıdakilerden hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "Santral, lateral ve ikinci premolar",
+      "B": "Lateral ve ikinci premolar",
+      "C": "Santral, lateral, ikinci premolar ve birinci molar",
+      "D": "Her iki santral, lateral ve ikinci premolar",
+      "E": "Her iki santral, lateral, ikinci premolar ve birinci molar"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Mandibüler kanin ve 1. premolar yan yana eksik olduğunda (köşe eksikliği), çiğneme kuvvetlerinin dönme etkisini telafi etmek için anterior tarafta **santral ve lateral kesiciler (31, 32 veya 41, 42)**, posterior tarafta ise **ikinci premolar (35 veya 45)** köprü ayağı olarak dahil edilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 256,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "13 ve 14 numaralı dişlerin eksikliği durumunda yapılması planlanan köprüye ayak olacak dişler aşağıdakilerden hangisinde doğru olarak gösterilmektedir?",
+    "options": {
+      "A": "11 - 12 - 15",
+      "B": "21 - 11 - 12 - 15",
+      "C": "11 - 12 - 15 - 16",
+      "D": "12 - 15 - 16",
+      "E": "21 - 11 - 12 - 15 - 16"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) 11 - 12 - 15 - 16 (Doğru):** Üst çenede kanin (13) ile birlikte komşu premolar (14) eksik olduğunda anteriordan **11 ve 12**, posteriordan **15 ve 16** numaralı dişler çifte dayanak (splint) yapılarak köprüye dahil edilmelidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 257,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "25 yaşındaki kadın hasta 13 numaralı diş eksikliği ile başvuruyor. Anamnezinden hastanın sistemik bir hastalığının olmadığı öğreniliyor. Radyolojik muayene sonucunda 13 numaralı diş bölgesinde yeterli kemik desteğinin mevcut olduğu görülüyor ve çeşitli tedavi planlamaları yapılıyor.**\nI. Santral, lateral ve birinci premolar dişin dahil olduğu metal destekli porselen köprü protezi\nII. Kanin dişi bölgesine tek üye implant destekli sabit restorasyon\nIII. Lateral ve birinci premolar dişin dahil edildiği rezin bağlı köprü\n\n**Yukarıdaki planlamalardan hangileri bu hasta için uygun tedavi seçeneklerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* Tek diş kanin eksikliğinde:\n* **I. Geleneksel sabit köprü (11, 12, 14 ayak alınarak) (Doğru):** Klinik olarak geçerli konvansiyonel seçenektir.\n* **II. Tek üye implant (Doğru):** Yeterli kemik varsa en koruyucu ve ideal birinci seçenektir.\n* **III. Rezin bağlı / kanatlı köprü (Doğru):** Diş dokusuna en az müdahale eden muhafazakar seçenektir.\n* Dolayısıyla I, II ve III hepsi hasta için uygun tedavi alternatifleridir.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "q_num": 258,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "27 yaşındaki erkek hasta 23 numaralı diş eksikliği şikayeti ile kliniğe başvuruyor. Anamnezinden hastanın sistemik bir hastalığı olmadığı öğreniliyor. Radyolojik muayenede 23 numaralı diş bölgesinde yeterli kemik olmadığı görülüyor. Buna göre aşağıda verilen tedavi planlamalarından hangisi bu hasta için en uygun tedavi seçeneğidir?",
+    "options": {
+      "A": "Santral ve lateral dişin dahil edildiği kantilever köprü protezi",
+      "B": "Lateral ve birinci premolar dişin dahil edildiği rezin bağlı köprü protezi",
+      "C": "Lateral ve birinci premolar dişin dahil edildiği metal destekli porselen köprü protezi",
+      "D": "Santral, lateral ve birinci premolar dişin dahil edildiği metal destekli porselen köprü protezi",
+      "E": "Birinci ve ikinci premolar dişin dahil edildiği kantilever köprü protezi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* Üst kanin dişi eksik olduğunda ve implant yapılamadığında (kemik yetersizliği), kanin ark kavisinin tam köşesinde yer aldığı için yüksek devirici ve lateral kuvvetlere maruz kalır. Bu nedenle geleneksel sabit köprüde anteriordan **santral ve lateral (21, 22)**, posteriordan **birinci premolar (24)** destek olarak dahil edilmelidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 259,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki verilen FDA notasyon sistemine göre numaralandırılmış olan diş eksikliklerinin hangisinin mevcudiyetinde geleneksel köprü protezlerinin uygulanması uygundur?",
+    "options": {
+      "A": "22-23-24",
+      "B": "11-12-13",
+      "C": "33-34-35",
+      "D": "44-45-46",
+      "E": "14-15-16-17"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **D) 44-45-46 (Doğru):** 44 (1. premolar), 45 (2. premolar) ve 46 (1. molar) eksikliğinde anteriorda 43 (kanin), posteriorda 47 (2. molar) güçlü dayanaklar olarak kullanılarak geleneksel sabit köprü güvenle yapılabilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 260,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sabit protezlerde dayanak olarak kullanılacak dişlerin kök yüzey alanı aşağıdakilerden hangisinde büyükten küçüğe doğru olacak şekilde verilmiştir?",
+    "options": {
+      "A": "Üst dişler için: 1. molar, 1. premolar, kanin, 2. premolar",
+      "B": "Üst dişler için: 2. molar, 2. premolar, kanin, santral",
+      "C": "Alt dişler için: 1. molar, kanin, 2. molar, 2. premolar",
+      "D": "Üst dişler için: 1. molar, kanin, 1. premolar, santral",
+      "E": "Alt dişler için: 1. molar, 1. premolar, 2. premolar, kanin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* Üst dişlerin kök yüzey alanı büyüklük sırası:\n* **1. Molar > 2. Molar > Kanin > 1. Premolar > 2. Premolar > Santral > Lateral.**\n* D seçeneğinde verilen sıralama (1. molar > kanin > 1. premolar > santral) bu doğru sıralamaya tam uymaktadır.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 261,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller kısmı dişsizliği olan 45 yaşındaki hastaya sabit bölümlü protez yapılması planlanmaktadır. İlgili arktaki dişlerin fonksiyon altındaki yük taşıma kapasiteleri göz önüne alındığında, en fazla ve en az yük taşıyabilen dişler sırasıyla ve doğru olarak verilmiştir?",
+    "options": {
+      "A": "1. molar - kanin",
+      "B": "1. molar - lateral",
+      "C": "Lateral - 1. molar",
+      "D": "1. molar - santral",
+      "E": "2. molar - lateral"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Üst arktaki en büyük periodontal alana ve yük taşıma kapasitesine sahip diş **1. molar**, en az alana sahip diş ise **lateral** diştir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 262,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibüler arka diş destekli ve tam ark sabit bölümlü bir protez yapılması halinde, mevcut dişlerin strese taşıyabilme miktarları büyükten küçüğe doğru sıralandığında aşağıdakilerden hangisi söylenebilir?",
+    "options": {
+      "A": "Birinci molar > İkinci molar > Kanin > İkinci premolar > Birinci premolar > Lateral > Santral",
+      "B": "İkinci molar > Birinci molar > Kanin > İkinci premolar > Birinci premolar > Lateral > Santral",
+      "C": "Birinci molar > İkinci molar > Kanin > Birinci premolar > İkinci premolar > Lateral > Santral",
+      "D": "Birinci molar > İkinci molar > Kanin > İkinci premolar > Birinci premolar > Santral > Lateral",
+      "E": "İkinci molar > Birinci molar > Kanin > Birinci premolar > İkinci premolar > Lateral > Santral"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Alt çene dişlerinin periodontal alan (stres taşıma) sıralaması:\n* **1. Molar > 2. Molar > Kanin > 2. Premolar > 1. Premolar > Lateral > Santral.**\n* Alt 1. premolar diş kron ve kök hacmi olarak 2. premolardan küçüktür; alt santral ise tüm ağzın en küçük dişidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 263,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Metal destekli seramik kuronlar için dişlerin fonksiyonel tüberküllerinde en az kaç mm'lik indirgeme (kesim) yapılmalıdır?",
+    "options": {
+      "A": "1,0 mm",
+      "B": "1,5 mm",
+      "C": "2,0 mm",
+      "D": "2,5 mm",
+      "E": "3,0 mm"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* Metal destekli seramik restorasyonlarda oklüzal yükleri karşılayabilmek ve yeterli metal + seramik kalınlığı sağlamak için:\n* **Fonksiyonel tüberküllerde (üst palatinal, alt bukkal) 2,0 mm**,\n* **Non-fonksiyonel tüberküllerde ise 1,5 mm** kesim yapılmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 264,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. 1,0 mm**\n**II. 1,5 mm**\n**III. 2,0 mm**\n\n**Yukarıdakilerden hangisi ya da hangileri metal destekli porselen kron uygulanması planlanan posterior dişlerde yapılacak kesim miktarıdır?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* Posterior dişlerde non-fonksiyonel tüberküllerde **1,5 mm (II)**, fonksiyonel tüberküllerde ise **2,0 mm (III)** kesim yapılır. (Aksiyal duvarlarda ise 1,2 - 1,5 mm kesim yeterlidir).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 265,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Metal destekli porselen restorasyonların metal altyapı tasarımında aşağıdakilerden hangisine dikkat edilmelidir?",
+    "options": {
+      "A": "Metal-porselen birleşim çizgisi oklüzal temas noktalarının en az 1,0 mm uzağına yerleştirilmelidir.",
+      "B": "Metal-porselen birleşimi tam oklüzal temas noktası üzerine konulmalıdır.",
+      "C": "Porselen kalınlığı 3 mm'den fazla olmalıdır.",
+      "D": "Keskin köşe ve açılar korunmalıdır.",
+      "E": "Altyapı kalınlığı 0,1 mm yapılmalıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Metal-porselen birleşim çizgisi oklüzal temas noktalarının en az 1,0 mm uzağına yerleştirilmelidir (Doğru):** Çiğneme kuvvetleri tam birleşim sınırına geldiğinde porselende kırılma ve atma (chipping) oluşur. Bu nedenle sınır temas noktasından en az 1 mm uzakta olmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 266,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, metal-seramik kuron kontrendikasyonlarından biri değildir?",
+    "options": {
+      "A": "Geniş pulpa odasına sahip genç bireyler",
+      "B": "Sağlam bukkal duvarlara sahip dişler",
+      "C": "Tedavi edilmemiş periodontal hastalıklar",
+      "D": "Estetik beklentisi yüksek olan hastalar",
+      "E": "Aktif çürüğe sahip bireyler"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A, B, C, E (Kontrendikasyonlardır):** Geniş pulpa odasında perforasyon riski vardır; sağlam duvarlı dişe tam kron kesimi aşırı feda etmektir; enfekte diş eti ve aktif çürük varlığında sabit protez yapılmaz.\n* **D) Estetik beklentisi yüksek olan hastalar (Kontrendikasyon değildir / Cevap D):** Metal-seramik kronlar estetik beklentiyi karşılamak amacıyla sıklıkla endike olan restorasyonlardır (tam seramikler kadar olmasa da estetik istek kontrendikasyon oluşturmaz).",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 270,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Geniş pulpa odasına sahip genç bireyler**\n**II. Sağlam bukkal duvarlara sahip dişler**\n**III. Tedavi edilmemiş periodontal hastalıklar**\n\n**Yukarıdakilerden hangisi ya da hangilerinin varlığında metal destekli porselen kron yapımı önerilmemektedir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* Geniş pulpa odasında pulpa devitalizasyon riski, sağlam bukkal duvarda gereksiz madde kaybı, tedavi edilmemiş periodontal hastalıkta ise destek kemik yıkım riski nedeniyle metal destekli porselen kron önerilmez. All üç durum da kontrendikasyondur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 271,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde tam seramik kron preparasyonu yaparken insizal kenara açılan oryantasyon oluğu derinliği doğru olarak verilmektedir?",
+    "options": {
+      "A": "0,5 mm",
+      "B": "1 mm",
+      "C": "1,5 mm",
+      "D": "2 mm",
+      "E": "2,5 mm"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* Tam seramik kron yapımında insizal kenardan yapılan kesim derinliğini kontrol etmek için açılan yönlendirme oluklarının derinliği **2,0 mm** olmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 274,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bölümlü kronun, tam krona göre iki önemli dezavantajı aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Kesiminin zor olması ve retansiyonunun daha az olması",
+      "B": "Estetiğinin kötü olması ve maliyetinin yüksek olması",
+      "C": "Diş dokusunu aşırı tahrip etmesi ve pulpa irritasyonu",
+      "D": "Kenar adaptasyonunun izlenememesi ve plak birikimi",
+      "E": "Laboratuvar aşamasının olmaması ve dayanıksızlığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Kesiminin zor olması ve retansiyonunun daha az olması (Doğru):** Bölümlü kronlarda hassas oluklar ve paralel tutucu çizgiler açmak teknik olarak zordur (hassas kesim gerektirir) ve tutuculuğu tam krona göre daha düşüktür.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 277,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. İlave tip silikonlar**\n**II. Kondensasyon silikonları**\n**III. Polieter**\n**IV. Polisülfit**\n\n**Elastomerik ölçü maddelerinden hangisi ya da hangileri ölçü bozulmadan çoklu model elde etmek amacıyla kullanılabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve III",
+      "C": "II ve IV",
+      "D": "I, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* İlave tip silikon (A-tipi) ve Polieter ölçü maddeleri yan ürün çıkarmadıkları veya çok yüksek boyutsal stabilite gösterdikleri için ölçü bozulmadan mükemmel şekilde çoklu model elde edilmesine olanak tanırlar. (Kondensasyon silikonu ve polisülfit ise yan ürün çıkardığı için ilk saatlerde dökülmelidir).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 282,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ölçü maddelerinin çizgisel büzülme oranlarına göre küçükten büyüğe doğru sıralanması hangi seçenekte en doğru şekilde verilmiştir?",
+    "options": {
+      "A": "İlave tip silikon < Polieter < Polisülfit < Kondensasyonel silikon",
+      "B": "Polisülfit < Polieter < Kondensasyonel silikon < İlave tip silikon",
+      "C": "Polieter < İlave tip silikon < Polisülfit < Kondensasyonel silikon",
+      "D": "Kondensasyonel silikon < Polisülfit < Polieter < İlave tip silikon",
+      "E": "Polisülfit < İlave tip silikon < Polieter < Kondensasyonel silikon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Elastomerik ölçü maddelerinin polymerization büzülme (çizgisel büzülme) miktarları en az olandan en fazla olana doğru sıralaması:\n* **İlave tip silikon (%0,05) < Polieter (%0,1) < Polisülfit (%0,3) < Kondensasyonel silikon (%0,6).**\n* Dolayısıyla doğru sıralama A seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 283,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, polieter ölçü maddelerinin dezavantajlarından biridir?",
+    "options": {
+      "A": "Islanabilirlik özellikleri zayıftır.",
+      "B": "Model elde edilmesi sırasında ölçü yüzeyine sürfaktan uygulaması gerektirir.",
+      "C": "Ölçü alındıktan sonra hızlıca dökülmelidir.",
+      "D": "Nemli bir ortamda saklanması su emilimine neden olur.",
+      "E": "Yüzey netliği azdır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Polieter ölçü maddeleri hidrofiliktir (suyu sever).**\n* **A, B (Yanlış):** Hidrofilik olduğu için ıslanabilirliği çok yüksektir ve sürfaktan gerektirmez.\n* **C (Yanlış):** Boyutsal stabilitesi yüksek olduğu için hemen dökülme zorunluluğu yoktur.\n* **D) Nemli bir ortamda saklanması su emilimine neden olur (Dezavantaj / Cevap D):** Hidrofilik yapısı nedeniyle nemli ortamda dışarıdan su emerek (imbibisyon) genleşir ve ölçü distorsiyona uğrar. Bu yüzden kuru ortamda saklanmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2021 Orijinal",
+    "q_num": 284,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Nemli ortamda saklanırsa su emer.**\n**II. Yüzeyine sürfaktan uygulandıktan sonra dökülmelidir.**\n**III. Ölçü alındıktan sonra hızlıca dökülmelidir.**\n\n**Yukarıda verilenlerden hangisi ya da hangileri polieter ölçü maddesinin dezavantajlarındandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Polieter hidrofilik olduğu için nemli ortamda su emip bozulur (dezantaj I). Suyu sevdiği için sürfaktan uygulamasına gerek yoktur ve hemen dökülme zorunluluğu bulunmaz. Yalnız I doğrudur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 285,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Boyutsal stabilitesi çok iyi olan, hidrofobik, kokusuz, tatsız ve lateks eldivenlerle karıştırılmaması gereken ölçü materyali aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aljinat",
+      "B": "Agar",
+      "C": "Polisülfit",
+      "D": "Polieter",
+      "E": "Polivinil siloksan (A-tipi silikon)"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **E) Polivinil siloksan (A-tipi ilave silikon) (Doğru):** Lateks eldivenlerin yapısındaki kükürt (sülfür) bileşikleri A-tipi silikonun platin katalizörünü zehirleyerek polimerizasyonunu engeller. Bu yüzden lateks eldivenle karıştırılmamalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 286,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller daimi, birinci molar dişizliği yapılması planlanan sabit protetik bir restorasyonda kuvvetlerin, dişin uzun aksına paralel olarak yönlendirilebilmesi için aşağıdakilerden hangisinin yapılması uygundur?",
+    "options": {
+      "A": "İnterkaspal pozisyonda, restorasyonun meziopalatinal tüberkül tepesinin mandibular daimi birinci molar dişin santral fossasına tripodizasyon şeklinde oturması",
+      "B": "İnterkaspal pozisyonda, mandibular daimi birinci molar dişin bukkal tüberkül tepelerinin, maksiller daimi birinci molar dişin labial tüberküllerinin palatinal eğimleri üzerinde konumlandırılması",
+      "C": "İnterkaspal pozisyonda, fonksiyonel tüberkül temaslarının kesilmesi ve disoklüzyon oluşturulması",
+      "D": "Laterotrüziv hareket sırasında; temasın sadece maksiller daimi birinci molar ve mandibular daimi birinci molar dişler arasında olmasının sağlanması",
+      "E": "İnterkaspal pozisyonda, non-fonksiyonel tüberkül temaslarının karşılıklı eğimli yüzeyler üzerinde oluşturulması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Tripodizasyon teması (Doğru):** Çiğneme kuvvetlerinin dişin uzun aksına paralel (aksiyal) iletilebilmesi için fonksiyonel tüberkül tepesinin (üst meziopalatinal tüberkül) karşıt çenedeki fossaya 3 noktadan temas edecek şekilde (tripodizasyon) oturması en ideal oklüzal ilişkidir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2021 Orijinal",
+    "q_num": 287,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çiğneme kuvvetlerinin dişin uzun aksına paralel yönlendirilebilmesi amacıyla oluşturulan tüberkül-fossa ilişkisinin temel özelliği aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tüberkül tepesinin çukura 3 noktadan temas etmesi (Tripodizasyon)",
+      "B": "Tüberkül tepesinin çukur tabanına tek noktadan sertçe vurması",
+      "C": "Tüberküllerin birbirine sürtünmesi",
+      "D": "Sadece marjinal sırta temas etmesi",
+      "E": "İnterkaspal temassızlık sağlanması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Tripodizasyon:** Tüberkül tepesi fossa tabanına tam oturmaz, çukurun yan duvarlarına 3 ayrı noktadan temas eder. Bu sayede yatay bileşenler sıfırlanır ve yük dik olarak uzun akstan iletilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 288,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir diş hekiminin metal destekli porselen kron yapım sürecinde hastaya farklı ışık kaynakları (gün ışığı, floresan, halojen) altında renk seçimi yapmasının temel klinik nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Metalin alttan yansımasını önlemek",
+      "B": "İnsizal kenarların şeffaflığını ölçmek",
+      "C": "Metamerizm olgusunun önüne geçmek",
+      "D": "Diş renginin parlaklığını artırmak",
+      "E": "Porselenin fırınlanma ısısını ayarlamak"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Metamerizm olgusunun önüne geçmek (Doğru):** İki nesnenin tek bir ışık kaynağı altında aynı renkte görünürken, farklı bir ışık kaynağı altında farklı renkte algılanması durumuna metamerizm denir. Hekim farklı ışık ortamlarında renk kontrolü yaparak restorasyonun her ortamda doğal görünmesini sağlar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 292,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi gülüş tasarımında öncelikli olarak değerlendirilen parametrelerden biri değildir?",
+    "options": {
+      "A": "Gingival marjin ve dudak çizgisi arasında görünen gingival dokunun mesafesi",
+      "B": "Maksiller dişlerin zenith noktaları",
+      "C": "Mandibüler orta hat çizgisi",
+      "D": "İnterproksimal kontak nokta ve yüzeyleri",
+      "E": "Bukkal koridor alanı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A, B, D, E (Öncelikli parametrelerdir):** Üst çene estetiğinde diş eti görünürlüğü, zenith noktaları, interproksimal kontaklar ve bukkal koridor genişliği gülüş estetiğini doğrudan etkiler.\n* **C) Mandibüler orta hat çizgisi (Öncelikli değildir / Cevap C):** Gülüş tasarımında estetiği belirleyen temel referans **Maksiller (üst çene) dental orta hat çizgisi** ile yüz orta hattının çakışmasıdır. Mandibüler (alt çene) orta hat konuşma ve gülüş sırasında nadiren göründüğü için öncelikli değerlendirilmez.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "q_num": 293,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gülüş tasarımı uygulamalarında dikkate alınan kriterlerle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Estetik bir gülüş tasarımı için bukkal koridorların varlığı korunmalıdır.",
+      "B": "İnterproksimal kontaklar üst santral dişten kanin dişinin distaline doğru gittikçe diş etine yaklaşmalıdır.",
+      "C": "Üst santral dişin zenith noktası labial yüzeyinin ortasından geçen çizginin 1 mm mesialinde yer almalıdır.",
+      "D": "Maksiller dental orta hat çizgisi yüz orta hattı ile çakıştırılmalıdır.",
+      "E": "Gülüş esnasında gingival marjin ile dudak arasında görünen gingival dokunun mesafesi aşırı arttırılmamalıdır (Gummy smile önlenmelidir)."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Üst santral dişin zenith noktası labial yüzeyinin ortasından geçen çizginin 1 mm mesialinde yer almalıdır (Yanlış / Cevap C):** Üst santral dişin en yüksek diş eti noktası (zenith noktası), dişin uzun aksının (uzun ekseninin) 1 mm **DISTALİNDE** yer alır. Mezialinde yer alması estetik kurallara aykırıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 294,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dental porselenlerin yapısı ve pişirilmesi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Porselenler amorf (camsı) ve kristalin fazlardan oluşur.",
+      "B": "Camsı faz şeffaflığı ve estetiği sağlarken, kristalin faz mekanik direnci sağlar.",
+      "C": "Dental porselenler gözeneksiz yapıda olup su absorbe etmezler.",
+      "D": "Fırınlama sayısı arttıkça porselenin devitrifikasyonu (kristalleşmesi) artar ve amorf camsı yapı kaybolur.",
+      "E": "Porselenler asidik ağız ortamında çözünerek aşırı madde kaybına uğrarlar."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **E) Porselenler asidik ağız ortamında çözünerek aşırı madde kaybına uğrarlar (Yanlış / Cevap E):** Dental porselenler kimyasal olarak son derece inert (dirençli) materyallerdir. Ağız içi pH değişikliklerinden, tükürükten ve asitlerden etkilenmezler ve çözünmezler.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 295,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sabit bölümlü protez uygulamalarında kullanılan gövde çeşitlerinden hangisinin doku inflamasyonuna neden olma riski en yüksektir?",
+    "options": {
+      "A": "Hijyenik gövde",
+      "B": "Konik gövde",
+      "C": "Modifiye ridge-lap gövde",
+      "D": "Saddle (eyer) gövde",
+      "E": "Modifiye hijyenik gövde"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **D) Saddle (eyer) gövde (Doğru):** Saddle (eyer) gövde kretin hem bukkal hem lingual yüzeylerini tamamen örterek dokuyla geniş bir temas alanı oluşturur. Gövde altının diş ipi veya arayüz fırçası ile temizlenmesi imkansız olduğundan **doku inflamasyonuna ve mukozal ülserasyona neden olma riski en yüksek** olan gövde tipidir. Günümüzde kullanımı önerilmez.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2019 Orijinal",
+    "q_num": 300,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hem estetik hem de temizlenebilirlik açısından sabit bölümlü protez dizaynlarında en sık kullanılan gövde tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Konik gövde",
+      "B": "Hijyenik gövde",
+      "C": "Modifiye ridge-lap gövde",
+      "D": "Saddle gövde",
+      "E": "Modifiye hijyenik gövde"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Modifiye ridge-lap gövde (Doğru):** Dışta (bukkalde) kretle temas ederek doğal diş görünümü sağlayan, içte (lingualde) ise kretle teması kesilerek temizlenmeye olanak tanıyan **Modifiye kret adaptasyonlu (modified ridge-lap)** gövde estetik bölgelerde en sık tercih edilen tiptir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 301,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Proksimal kontakların kontrolü**\n**II. Restorasyon kenarlarının kontrolü**\n**III. Oklüzyonun kontrolü**\n**IV. Konturlar ve estetiğin kontrolü**\n\n**Sabit protetik tedavide, porselen prova sırasında yapılacak işlemler hangi seçenekte doğru sırayla verilmiştir?",
+    "options": {
+      "A": "I - II - III - IV",
+      "B": "II - I - IV - III",
+      "C": "III - I - II - IV",
+      "D": "II - III - I - IV",
+      "E": "III - I - IV - II"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Ağızda restoran prova sırası:\n  1. **Proksimal kontaklar** (Restorasyon yerine tam oturmalı)\n  2. **Restorasyon kenarları (marjinal uyum)**\n  3. **Oklüzyon kontrolü (erken temaslar)**\n  4. **Konturlar ve estetik**\n* Bu sıra bozulursa restorasyon oklüzyonu veya kenarları yanlış değerlendirilir. Sıralama I - II - III - IV şeklindedir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 302,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller ana bağlayıcıların diş eti marjinlerinden en az kaç mm uzakta konumlandırılması gerekir?",
+    "options": {
+      "A": "2 mm",
+      "B": "3 mm",
+      "C": "4 mm",
+      "D": "5 mm",
+      "E": "6 mm"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **E) 6 mm (Doğru):** Üst çene (maksiller) ana bağlayıcıları serbest diş eti marjininden en az **6 mm** uzakta sonlanmalıdır. Mandibulada ise bu mesafe en az **3 - 4 mm** olmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 308,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yumuşak damağa kadar uzanan ve opere edilemeyen maksiller torus varlığında aşağıdaki ana bağlayıcı tiplerinden hangisi kullanılır?",
+    "options": {
+      "A": "Palatal plak",
+      "B": "Palatal bar",
+      "C": "Palatal U plak",
+      "D": "Palatal H bar",
+      "E": "Labial bar"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Palatal U plak (At nalı) (Doğru):** Opere edilemeyen ve damağın ortasından arkaya kadar uzanan büyük torus varlığında, torus bölgesini açıkta bırakan **U şekilli (at nalı) palatal plak** tercih edilir.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "q_num": 310,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bölümlü protezlerde kullanılan palatal plak endikasyonlarından biri değildir?",
+    "options": {
+      "A": "Bazı damak yarıklı vakalar",
+      "B": "Torus palatinus olan vakalar",
+      "C": "Sert damağın anatomik formunun düzleşmiş olduğu vakalar",
+      "D": "Rezorbe kretlerde ciddi rezorbsiyonun oluştuğu vakalar",
+      "E": "Doğal dişlerin periodontal desteklerinin büyük bir kısmını kaybettiği vakalar"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **B) Torus palatinus olan vakalar (Değildir / Cevap B):** Palatal plak damağın büyük kısmını örter. Sert damak ortasında torus palatinus olan vakalarda palatal plak bası yapacağı için KONTRENDİKEDİR (Bunun yerine U-plak kullanılır).",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2019 Orijinal",
+    "q_num": 311,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki ana bağlayıcılardan hangisi aynı zamanda indirekt tutucu özelliğine de sahiptir?",
+    "options": {
+      "A": "Palatal bant",
+      "B": "Çift damak barı",
+      "C": "Sublingual bar",
+      "D": "Lingual plak",
+      "E": "Lingual bar"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **D) Lingual plak (Doğru):** Lingual plak, ön dişlerin singulumlarına ve lingual yüzeylerine genişçe oturduğu için dikey gömülmeyi ve devrilmeyi önleyerek **ana bağlayıcı olmasının yanında mükemmel bir indirekt tutucu** görevi görür.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 322,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi metal kaidelerin avantajlarından biri değildir?",
+    "options": {
+      "A": "Dokulara net uyumu",
+      "B": "Yüksek ısı iletkenliği",
+      "C": "Hafif olması",
+      "D": "Kolay temizlenmesi",
+      "E": "Yapay dişlerin bağlanmasında üstünlük"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D (Metal kaide avantajlarıdır):** Rijittir, incedir, termal iletkenliği yüksektir, hijyeniktir.\n* **E) Yapay dişlerin bağlanmasında üstünlük (Dezavantajdır / Cevap E):** Akrilik yapay dişler akrilik kaideye kimyasal olarak bağlanır. Metal kaideye ise akrilik dişlerin mekanik tutunması daha zordur (bağlanma zayıftır).",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 326,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İmplant destekli sabit protez uygulamalarında görülebilecek mekanik komplikasyonlardan biri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dayanak vidasında gevşeme veya kırık",
+      "B": "Erken dönem osseointegrasyon kaybı",
+      "C": "Peri-implantitis",
+      "D": "Bakteriyel kontaminasyon",
+      "E": "Flap açılması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Dayanak (abutment) vidasında gevşeme veya kırık (Doğru):** Proteze gelen oklüzal yükler ve yorulma sonucu ortaya çıkan **mekanik** bir komplikasyondur. Diğer seçenekler biyolojik komplikasyonlardır.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 329,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "**Yukarıdaki implant parçalarından hangileri implant üstü protetik restorasyonların laboratuvar yapım aşamasında aktif olarak kullanılır?**\nI. İyileşme başlığı (Healing abutment)\nII. Kapama vidası (Cover screw)\nIII. İmplant analoğu (Implant analog)\nIV. Ölçü postu (Impression coping)\nV. Dayanak (Abutment)",
+    "options": {
+      "A": "III, IV ve V",
+      "B": "I, II ve III",
+      "C": "I, IV ve V",
+      "D": "II, III ve IV",
+      "E": "I, II ve V"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Protez yapım ve laboratuvar aşamasında: **Ölçü postu (IV)** ile ağızdan ölçü alınır, ölçünün içine **İmplant analoğu (III)** takılarak alçı model elde edilir ve üzerine **Dayanak / Abutment (V)** işlenerek porselen kron hazırlanır.\n* İyileşme başlığı (I) ve kapama vidası (II) ise cerrahi aşama elemanlarıdır.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2023 Orijinal",
+    "q_num": 331,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protezler altında görülen protez stomatiti ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Candida albicans türü mantarlar etken olabilirler.",
+      "B": "Alt dişsiz alanda görülür, üst çenede görülmez.",
+      "C": "Angular şeilitisler stomatitlerle ilişkili olabilir.",
+      "D": "Hastanın protezlerinin geceleri kuru veya %0,2 - 2'lik klorheksidin solüsyonunda saklanması önerilir.",
+      "E": "Tip 1, 2 ve 3 olarak sınıflandırılırlar."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **B) Alt dişsiz alanda görülür, üst çenede görülmez (Yanlış / Cevap B):** Protez stomatiti vakalarının büyük çoğunluğu (%90'dan fazlası) **ÜST ÇENEDE** (üst tam protez kaidesinin altındaki sert damak mukozasında) görülür. \"Üst çenede görülmez\" ifadesi tamamen yanlıştır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2015 Orijinal",
+    "q_num": 332,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Arkasında tutuculuk bulunmayan dişsiz kretlerin kişisel ölçü kaşığıyla fonksiyonel ölçüsünü almada, aşağıdaki ölçü maddelerinden hangisinin kullanımı en uygundur?",
+    "options": {
+      "A": "Çinko oksit öjenol",
+      "B": "Polieter",
+      "C": "Polisülfit",
+      "D": "Aljinat",
+      "E": "Geri dönüşümsüz hidrokolloid"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Çinko oksit öjenol (Doğru):** Andırkat bulunmayan (düz/rezorbe) tam protez kretlerinde ince tabaka halinde aksiyon gösteren ve mucostatic/fonksiyonel detayları mükemmel kaydeden mukostatik ölçü maddesidir. (Andırkat varlığında ise polisülfit/polieter tercih edilir).",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 333,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi alt tam protez ölçüsü alınırken göz önünde bulundurulması gereken yapılardan biridir?",
+    "options": {
+      "A": "Tüber maksilla",
+      "B": "Palatinal ruga",
+      "C": "İnsiziv papil",
+      "D": "Mylohyoid sırt",
+      "E": "Titreşim hattı (Ah hattı)"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A, B, C, E:** Üst çeneye (maksillaya) ait anatomik yapılardır.\n* **D) Mylohyoid sırt (Doğru):** Alt çenenin (mandibulanın) lingual kenar sınırını oluşturan anatomik yapıdır.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 334,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Midsagittal düzlem**\n**II. Pupiller düzlem**\n**III. Camper düzlemi**\n\n**Yukarıdakilerden hangileri oklüzal düzlemin tespitinde referans olarak alınan düzlemlerdendir?",
+    "options": {
+      "A": "II ve III",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Tam protez yapımında mum şablonların oklüzal düzlemini ayarlarken:\n* **Ön bölgede:** Pupiller arası çizgiye (Pupiller düzlem - II) paralellik aranır.\n* **Yan (posterior) bölgede:** Ala-tragus çizgisine (Camper düzlemi - III) paralellik sağlanır.\n* Bu nedenle II ve III doğrultusunda oryantasyon yapılır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2018 Orijinal",
+    "q_num": 335,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, modiolus'u oluşturan kaslardan biri değildir?",
+    "options": {
+      "A": "Musculus buccinator",
+      "B": "Musculus zygomaticus major",
+      "C": "Musculus orbicularis oris",
+      "D": "Musculus risorius",
+      "E": "Musculus temporalis"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* Ağız köşesinin 1-2 cm lateralinde yer alan ve mimik kaslarının kesiştiği modiolus yapısına M. buccinator, M. zygomaticus major, M. orbicularis oris, M. risorius, M. levator anguli oris ve M. depressor anguli oris katılır.\n* **E) Musculus temporalis (Katlmaz / Cevap E):** M. temporalis bir çiğneme kasıdır ve şakak bölgesinden başlayıp koronoid çıkıntıya tutunur, modiolusa katılmaz.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 336,
+    "unit": "05-Eksik Diş Varlığında Tedavi Planlaması",
+    "quality_flag": "cikmis"
+  }
+]

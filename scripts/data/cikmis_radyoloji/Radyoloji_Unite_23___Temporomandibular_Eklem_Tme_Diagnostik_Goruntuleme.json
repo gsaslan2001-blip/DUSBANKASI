@@ -1,0 +1,223 @@
+[
+  {
+    "q_num": 205,
+    "question": "Aşağıdaki görüntüleme yöntemlerinin hangisi Temporomandibuler eklem (TME) disk adezyonu ve perforasyonu görüntülenmesinde idealdir?",
+    "options": {
+      "A": "Manyetik rezonans görüntüleme",
+      "B": "Konvansiyonel tomografi",
+      "C": "Lateral sefalogram",
+      "D": "Waters projeksiyon",
+      "E": "Artrografi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Artrografi, TME eklem boşluklarına radyoopak kontrast madde verilerek yapılan inceleme olup, bir eklem kompartmanına verilen kontrast maddenin diğer kompartmana geçmesiyle **disk perforasyonunu** ve kapsül/disk içindeki dolum defektleriyle **disk adezyonunu** (yapışıklıklarını) göstermede en ideal yöntemdir.\n**Çeldiriciler:**\n- **A) Manyetik rezonans görüntüleme:** TME yumuşak doku komponentlerinin ve disk deplasmanlarının görüntülenmesinde altın standart olsa da, disk perforasyonunu ve fibröz adezyonları göstermede dinamik artrografi kadar hassas değildir.\n- **B) Konvansiyonel tomografi:** Yalnızca TME'nin kemik komponentlerini görüntüler, disk patolojilerini gösteremez.\n- **C) Lateral sefalogram:** Ortodontik ve ortognatik amaçla kraniyofasiyal kemik ve yumuşak doku profilini incelemekte kullanılır, TME diski için kullanılmaz.\n- **D) Waters projeksiyon:** Paranazal sinüslerin (özellikle maksiller sinüs) ve orta yüz kırıklarının incelenmesinde kullanılır, TME diski görüntülenemez.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 215,
+    "question": "Aşağıdakilerden hangisi Manyetik Rezonans Görüntüleme (MRG) hakkında doğru değildir?",
+    "options": {
+      "A": "İyonize olmayan radyasyon kullanılması",
+      "B": "Çoklu görüntü elde edilebilmesi",
+      "C": "Görüntüleme zamanının uzun olması",
+      "D": "Yumuşak dokuyu net görüntüleyemez",
+      "E": "Eklem diskinin patolojileri hakkında bilgi edinilebilir"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** MRG, yüksek yumuşak doku kontrast çözünürlüğüne sahip olduğu için diş hekimliğinde özellikle yumuşak doku patolojilerinde, enfeksiyonlarda ve TME disfonksiyonlarında **yumuşak dokuyu en net görüntüleyen** (altın standart) yöntemdir.\n**Çeldiriciler:**\n- **A) İyonize olmayan radyasyon kullanılması:** MRG'de iyonize edici radyasyon yerine radyofrekans dalgaları ve manyetik alan kullanılır.\n- **B) Çoklu görüntü elde edilebilmesi:** Hastanın pozisyonu değiştirilmeden transvers (aksiyel), sagittal ve koronal düzlemlerde (multiplanar) görüntü elde edilebilir.\n- **C) Görüntüleme zamanının uzun olması:** MRG'nin en önemli dezavantajlarından biri çekim süresinin uzun olmasıdır.\n- **E) Eklem diskinin patolojileri hakkında bilgi edinilebilir:** TME'nin yumuşak doku komponenti olan eklem diskinin konumunu ve morfolojisini doğrudan gösterir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 217,
+    "question": "Manyetik rezonans görüntülemede görüntü elde etmek için, aşağıdaki atomların hangisinden faydalanılır?",
+    "options": {
+      "A": "Karbon",
+      "B": "Oksijen",
+      "C": "Kükürt",
+      "D": "Hidrojen",
+      "E": "Potasyum"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Manyetik rezonans görüntülemede (MRG), insan vücudunda (özellikle su ve yağ dokusunda) en yüksek oranda bulunan ve çekirdeğinde tek proton taşıdığı için güçlü manyetik momente sahip olan **hidrojen** ($^1\\text{H}$) atomlarından faydalanılır. Manyetik alan altında paralel dizilim gösteren hidrojen atomları radyofrekans dalgalarının enerjisini absorbe eder; dalgalar kesildiğinde geri salınan enerji (relaksasyon) sarmallar (coil) tarafından algılanarak görüntüye dönüştürülür.\n**Çeldiriciler:**\n- **A) Karbon, B) Oksijen, C) Kükürt ve E) Potasyum:** Standart klinik MRG sistemlerinde görüntü oluşturmak için bu atomların manyetik rezonans sinyalleri kullanılmaz.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 230,
+    "question": "Temporomandibuler eklem (TME) disk dislokasyonlarını görüntüleyebilmek için aşağıdakilerden hangisi kullanılmalıdır?",
+    "options": {
+      "A": "Lateral TME görüntüsü",
+      "B": "Panoramik radyografi",
+      "C": "Dijital subtraction (çıkartma) radyografisi",
+      "D": "Manyetik rezonans görüntüleme",
+      "E": "Açık ve kapalı TME grafisi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Temporomandibuler eklem (TME) diski yumuşak doku yapısında olduğundan, disk dislokasyonlarını (hafif, orta veya ağır derecede yer değiştirmelerini) doğrudan ve non-invaziv olarak görüntüleyebilmek için yumuşak doku çözünürlüğü en yüksek yöntem olan **Manyetik rezonans görüntüleme (MRG)** kullanılmalıdır.\n**Çeldiriciler:**\n- **A) Lateral TME görüntüsü, B) Panoramik radyografi, C) Dijital subtraction radyografisi ve E) Açık ve kapalı TME grafisi:** Bu yöntemlerin tamamı X-ışını kullanan radyografik teknikler olup sadece TME'nin kemik komponentlerini ve kondil başının translasyon hareketini gösterebilir; eklem diskini ve dislokasyonlarını görüntüleyemezler.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 306,
+    "question": "I. Osteoartrit\nII. Sinovyal kondromatozis\nIII. Kondrokalsinozis\nIV. Odontojenik miksoma\nV. Tümöral kalsinozisler\n\nYukarıda verilen patolojilerin hangisinde TME bölgesinde radyoopak yapılar izlenmez?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** IV numaralı patoloji olan odontojenik miksoma, odontojenik ektomezenşim kökenli olup çenelerin diş taşıyan bölgelerinde gelişir ve radyolusenttir; TME bölgesinde radyoopak serbest cisim oluşturmaz.\n- I. Osteoartrit: Kondil başında kopan osteofitler eklem aralığında radyoopak serbest cisim olarak izlenebilir.\n- II. Sinovyal kondromatozis: Eklem kapsülü içinde çok sayıda kalsifiye kartilaj nodülü (radyoopak serbest cisim) izlenir.\n- III. Kondrokalsinozis (psödogut): Eklem boşluğunda kalsiyum pirofosfat dihidrat kristallerinin birikimiyle radyoopasiteler görülür.\n- V. Tümöral kalsinozisler: Eklem kapsülü içinde veya çevresindeki yumuşak dokuda kalsiyum fosfat/hidroksiapatit kitleleri şeklinde radyoopasiteler izlenir.\n**Çeldiriciler:**\n- A) Osteoartritte osteofit kopmasına bağlı serbest cisimler izlenebilir.\n- B) Sinovyal kondromatoziste radyoopak cisimler izlenir.\n- C) Kondrokalsinoziste kristal birikimine bağlı radyoopasiteler izlenir.\n- E) Tümöral kalsinoziste periartiküler radyoopak kitleler izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 307,
+    "question": "I. Koronoid hiperplazisi\nII. Miyositis ossifikans\nIII. Kemik ankilozu\nIV. Fibröz ankiloz\n\nAşağıdakilerden hangisi veya hangileri TME bölgesinde görülen ekstrakapsüler ankiloz nedenlerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "III ve IV",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Eklem kapsülü dışındaki yapıların çene hareketini kısıtlamasına ekstrakapsüler (yalancı/psödo) ankiloz denir; I ve II numaralı durumlar ekstrakapsüler ankiloz nedenidir.\n- I. Doğru: Koronoid hiperplazisinde (Jacob hastalığı) uzamış koronoid proses ağız açılırken zigomatik arkın posterioruna takılarak ekstrakapsüler kısıtlılık yapar.\n- II. Doğru: Çiğneme kaslarında gelişen miyositis ossifikans veya kas fibrozisi/spazmı ekstrakapsüler ankiloz nedenidir.\n- III. Yanlış: Kemik ankilozu, kondil ile glenoid fossa arasındaki kemiksel kaynaşma olup intrakapsüler (gerçek) ankilozdur.\n- IV. Yanlış: Fibröz ankiloz, eklem kapsülü içindeki yapıların fibröz kaynaşması olup intrakapsüler ankilozdur.\n**Çeldiriciler:**\n- A) II. öncül de ekstrakapsülerdir.\n- B) I. öncül de ekstrakapsülerdir.\n- C) III ve IV intrakapsüler ankiloz nedenleridir.\n- E) III. öncül intrakapsülerdir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 308,
+    "question": "I. Koronoid hiperplazi\nII. Ankiloz\nIII. Sublüksasyon\nIV. Redüksiyonsuz disk deplasmanı\n\nYukarıdakilerden hangileri ağız açmada kısıtlılığa sebep olabilir?",
+    "options": {
+      "A": "I ve III",
+      "B": "II ve III",
+      "C": "II ve IV",
+      "D": "I, III ve IV",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** I, II ve IV numaralı durumlar ağız açmada kısıtlılığa (hipomobilite/kapalı kilitlenme) neden olur.\n- I. Doğru: Koronoid hiperplazide uzamış koronoid çıkıntı zigomatik arka çarparak ağız açmayı sınırlar.\n- II. Doğru: TME ankilozunda fibröz veya kemiksel kaynaşma nedeniyle ağız açıklığı ileri derecede kısıtlanır.\n- III. Yanlış: Sublüksasyon (hipermobilite), ağız açmada kısıtlılık değil, kondilin artiküler eminensin önüne aşırı hareket etmesi durumudur.\n- IV. Doğru: Redüksiyonsuz disk deplasmanında (closed lock) disk kondilin önünde mekanik engel oluşturarak ağız açmayı kısıtlar.\n**Çeldiriciler:**\n- A) III. öncül kısıtlılık yapmaz; II ve IV eksiktir.\n- B) III. öncül kısıtlılık yapmaz.\n- C) I. öncül de kısıtlılık yapar.\n- D) III. öncül kısıtlılık yapmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 309,
+    "question": "Aşağıdaki durum ve rahatsızlıklardan hangisinde ağız açmada kısıtlılık olması beklenmez?",
+    "options": {
+      "A": "Romatoid artrit",
+      "B": "Fibröz adezyon",
+      "C": "Radyoterapi",
+      "D": "Koronoid hiperplazi",
+      "E": "Sublüksasyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Sublüksasyon, maksimum ağız açma sırasında kondil başının artiküler eminensin önüne geçmesiyle karakterize bir hipermobilite durumu olup hasta ağzını kendiliğinden kapatabilir; ağız açmada kısıtlılığa yol açmaz.\n**Çeldiriciler:**\n- A) Romatoid artrit: TME tutulumunda sinovyal inflamasyon, ağrı, pannus oluşumu ve fibröz/kemiksel ankiloz nedeniyle ağız açmada kısıtlılık gelişir.\n- B) Fibröz adezyon: Eklem boşluğundaki yapışıklıklar disk ve kondil translasyonunu engelleyerek ağız açıklığını kısıtlar.\n- C) Radyoterapi: Baş-boyun radyoterapisi sonrasında masseter ve pterygoid kaslarda gelişen radyasyon fibrozisi şiddetli trismusa neden olur.\n- D) Koronoid hiperplazi: Koronoid çıkıntının zigomatik arka mekanik takılması sonucu ağız açma kısıtlanır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 310,
+    "question": "Aşağıdaki radyolojik bulgulardan hangisi osteoartritte izlenmesi beklenmez?",
+    "options": {
+      "A": "Eklem kapsülü içinde radyoopak maddeler izlenir.",
+      "B": "Kortikal tabaka altında radyolusent alanlar oluşur.",
+      "C": "Artiküler yüzeylerde destrüksiyon vardır.",
+      "D": "Kondil başı öne doğru uzama gösterir.",
+      "E": "Glenoid fossa boyutları azalmıştır."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Osteoartritte (dejeneratif eklem hastalığı) artiküler eminensin rezorpsiyonu ve düzleşmesine bağlı olarak glenoid fossa boyutları azalmaz; aksine fossa genişlemiş ve derinliği değişmiş olarak izlenir. Boyutları azalan yapı kondil başıdır.\n**Çeldiriciler:**\n- A) Kopan osteofit parçaları eklem kapsülü içinde radyoopak serbest cisimler (joint mice) olarak izlenebilir.\n- B) Eklem yüzeylerinde korteks altında azalmış kemik densitesi alanları olan subkondral psödokistler (Ely kistleri) oluşur.\n- C) Kondil ve artiküler eminensin kortikal kemik yüzeylerinde erozyon ve destrüksiyon görülür.\n- D) Kondil başının anterosüperior yüzeyinde yüklenmeyi kompanse etmek için gelişen gagamsı kemik çıkıntıları (osteofit) kondilin öne doğru uzamış görünmesine neden olur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 311,
+    "question": "Aşağıdakilerden hangisi dejeneratif eklem hastalığının neden olduğu radyolojik bulgular arasında yer almaz?",
+    "options": {
+      "A": "Kortikal kemikte destrüksiyon",
+      "B": "Osteofit oluşumu",
+      "C": "Glenoid fossada daralma",
+      "D": "Subkondral kist",
+      "E": "Kondilde düzleşme"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dejeneratif eklem hastalığında (osteoartrit) artiküler eminens ve fossa yüzeylerindeki rezorpsiyona bağlı olarak glenoid fossada daralma değil, genişleme görülür. Daralma glenoid fossada değil, kıkırdak kaybına bağlı olarak eklem aralığında (joint space) izlenir.\n**Çeldiriciler:**\n- A) Artiküler yüzeyleri örten kortikal kemikte erozyon ve destrüksiyon erken dejeneratif bulgulardandır.\n- B) Kondilin anterosüperior kenarında oluşan marjinal kemik proliferasyonları (osteofit) geç dönem dejeneratif bulgudur.\n- C) Korteks altında gelişen osteolitik odaklara subkondral kist (Ely kisti) denir.\n- E) Fonksiyonel aşırı yüklenmeye bağlı olarak kondil başı ve artiküler eminens konturlarında düzleşme (flattening) meydana gelir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 312,
+    "question": "Kliniğe diş sıkma, gıcırdatma şikâyeti ile gelen 45 yaşında kadın hastanın anamnezinde herhangi bir sistemik hastalığının olmadığı öğreniliyor. Sağ-sol TME bölgelerinin KIBT ile görüntülemesine karar verilen hastanın yapılan radyografik değerlendirmesinde artiküler kemik yüzeylerinde erozyon, glenoid fossa boyutlarında artış, kondil boyutlarında azalma, eklem kemik yüzeylerinde korteks altında kistik oluşumlar ile eklemin anterosuperior yüzeyinde osteofit oluşumu tespit ediliyor. Hastanın rahatsızlığı ile ilgili en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Romatoid Artrit",
+      "B": "Juvenil Artrozis",
+      "C": "Osteoartrit",
+      "D": "Kondiler Hiperplazi",
+      "E": "Kondiler Hipoplazi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Bruksizm (parafonksiyonel alışkanlık) öyküsü olan, sistemik hastalığı bulunmayan hastada KIBT'de saptanan yüzey erozyonu, subkondral kistler (Ely kistleri), kondil hacminde azalma, glenoid fossada genişleme ve anterosüperior osteofit oluşumu TME osteoartriti (dejeneratif eklem hastalığı) için tanısaldır.\n**Çeldiriciler:**\n- A) Romatoid artrit: Sistemik otoimmün poliartrit öyküsü, el-ayak küçük eklem tutulumu ve kondilde \"keskinleştirilmiş kurşun kalem\" tarzı erozyon ile karakterizedir.\n- B) Juvenil artrozis (Boering artrozisi): Çocuk ve adolesan dönemde ortaya çıkan kondiler gelişim ve dejenerasyon bozukluğudur.\n- D) Kondiler hiperplazi: Kondil başında tek taraflı büyüme ve yüz asimetrisi ile karakterizedir.\n- E) Kondiler hipoplazi: Gelişimsel dönemdeki travma/enfeksiyon sonucu kondilin küçük kalmasıdır; erişkinde edinsel osteofit ve Ely kisti tablosu değildir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 313,
+    "question": "Aşağıdakilerden hangisi Romatoid artritin TME tutulumunda, manyetik rezonans görüntülemede, izlenen bulgularından birisi değildir?",
+    "options": {
+      "A": "Pannus",
+      "B": "Eklem efüzyonu",
+      "C": "Kondilde keskinleştirilmiş kalem görüntüsü",
+      "D": "Kemik iliği ödemi",
+      "E": "Disk anomalileri"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kondil başının çepeçevre erozyona uğramasıyla oluşan \"keskinleştirilmiş kalem\" (sharpened pencil) görüntüsü sert doku (kemik) değişikliği olup en iyi Bilgisayarlı Tomografi (BT/KIBT) ve konvansiyonel radyograflarda değerlendirilir; MRG'nin spesifik yumuşak doku/inflamasyon bulgusu olarak sınıflandırılmaz.\n**Çeldiriciler:**\n- A) Pannus: İnflame ve prolifere sinovyal dokunun (pannus) oluşumu MRG'de (özellikle kontrastlı çekimde) net olarak izlenir.\n- B) Eklem efüzyonu: T2 ağırlıklı MRG kesitlerinde eklem boşluğunda hiperintens sıvı birikimi olarak görülür.\n- D) Kemik iliği ödemi: Kondil başı trabeküler kemik iliğindeki inflamatuar ödem yalnız MRG (T2/STIR) ile saptanabilir.\n- E) Disk anomalileri: Pannusun diski rezorbe etmesi veya deplase etmesi MRG ile doğrudan görüntülenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 324,
+    "question": "Aşağıdakilerden hangisi multipl myeloma için doğru değildir?",
+    "options": {
+      "A": "Hiperkalsemi izlenebilir.",
+      "B": "Tek lezyonlar soliter plazmasitoma adını alır.",
+      "C": "Maksilla lezyonları daha sıktır.",
+      "D": "Erişkinlerde izlenen en sık kemik malignitesidir.",
+      "E": "Kemik lezyonları radyolojik olarak 'zımba deliği' şeklindedir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Multipl miyelomun çene tutulumu, aktif hematopoetik kemik iliği miktarının daha fazla olması nedeniyle maksillada değil, mandibulada (özellikle posterior gövde, angulus, ramus ve kondil bölgesinde) çok daha sıktır.\n**Çeldiriciler:**\n- A) Osteoklast aktive edici faktörler nedeniyle yaygın kemik rezorpsiyonu ve buna bağlı hiperkalsemi gelişir.\n- B) Plazma hücreli tümör kemikte tek bir odak halinde izlendiğinde soliter plazmasitoma olarak adlandırılır.\n- D) Multipl miyelom, erişkinlerde kemikte görülen en sık primer malign tümördür.\n- E) Radyografide çevresinde sklerotik reaksiyon bulunmayan yuvarlak \"zımba deliği\" şeklinde radyolusent defektler karakteristiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

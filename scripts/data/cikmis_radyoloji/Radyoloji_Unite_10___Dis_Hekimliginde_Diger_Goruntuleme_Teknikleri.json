@@ -1,0 +1,359 @@
+[
+  {
+    "q_num": 196,
+    "question": "Sialografi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İyot alerjisi olanlarda uygulanmaz.",
+      "B": "Tükürük bezi kanallarını en detaylı gösteren yöntemdir.",
+      "C": "Akut enfeksiyonda oldukça yararlıdır.",
+      "D": "İnvaziv bir görüntüleme yöntemidir.",
+      "E": "Genellikle parotis ve submandibuler bezde uygulanır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sialografi, majör tükürük bezlerinin akut enfeksiyon (akut sialoadenit) durumlarında kesinlikle kontrendikedir (uygulanmaz). Kanal ağzından basınçla verilen kontrast madde, kanal içindeki enfekte odağı bezin derin parankim dokularına doğru iterek enfeksiyonun yayılmasına ve şiddetli ağrıya neden olur.\n**Çeldiriciler:**\n- A) Sialografide kullanılan radyopak kontrast maddeler iyot içerdiği için iyot alerjisi olan hastalarda kontrendikedir.\n- B) Bez içi duktal (kanal) sistemin morfolojisini, darlıklarını ve genişlemelerini (siyalektazi) en detaylı gösteren yöntem sialografidir.\n- D) Kanal ağzından kanül yerleştirilip kontrast ajan enjekte edilmesini gerektirdiği için invaziv bir yöntemdir.\n- E) Kanal ağızları (Stenon ve Wharton) kanülasyona uygun olduğu için genellikle parotis ve submandibular bezlerin incelenmesinde uygulanır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 197,
+    "question": "I. Otoimmun sialoadenit\nII. Bakteriyel sialoadenit\nIII. Duktal sialoadenit\n\nYukarıdaki tükürük bezi hastalıklarından hangisi veya hangilerinde sialografi uygulanabilir?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "Yalnız II",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sialografi; Sjögren sendromu gibi otoimmün sialoadenitlerde (budanmış ağaç / meyve dolu ağaç görünümü) ve kronik/obstrüktif duktal sialoadenitlerde kanal yapısını değerlendirmek için başarıyla uygulanır. Akut bakteriyel (süpüratif) sialoadenitlerde ise enfeksiyonu bezin derinliklerine yayma riski nedeniyle kontrendikedir.\n**Çeldiriciler:**\n- A) İkinci öncüldeki bakteriyel sialoadenit akut enfeksiyon tablosu oluşturduğundan sialografi uygulanamaz.\n- B) İkinci öncül sialografi kontrendikasyonudur.\n- D) Bakteriyel sialoadenitte kanaldan cerahat (pü) akışı vardır ve sialografi kesinlikle yapılmaz.\n- E) Birinci öncülün yanı sıra üçüncü öncüldeki duktal sialoadenitlerde de sialografi endikedir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; Sjögren sendromu gibi otoimmün sialoadenitlerde parankim ve kanal yıkımını görmek için sialografi uygulanabilir.\n- II. Yanlıştır; akut bakteriyel sialoadenitlerde enfeksiyonun yayılma riski nedeniyle sialografi kontrendikedir.\n- III. Doğrudur; daralma veya tıkanıklığa bağlı kronik duktal sialoadenitlerde kanal morfolojisini incelemek için sialografi uygulanır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 198,
+    "question": "Aşağıdaki virüslerden hangisi tükürük bezlerinde akut viral enfeksiyonun en yaygın sebebidir?",
+    "options": {
+      "A": "Epstein-Barr virüsü",
+      "B": "Sitomegalovirüs",
+      "C": "Paramiksovirüs",
+      "D": "Coxsackievirüs",
+      "E": "Herpes virüsü"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Tükürük bezlerinde (özellikle parotis bezinde) akut viral enfeksiyonun (epidemik parotitis / kabakulak) en yaygın sebebi bir RNA virüsü olan Paramiksovirüstür (Paramyxovirus). Genellikle 5-9 yaş arası çocukları etkileyerek bezlerde ağrılı şişliğe yol açar.\n**Çeldiriciler:**\n- A) Epstein-Barr virüsü (EBV) tükürük bezlerini enfekte edebilse de en yaygın akut viral sialoadenit etkeni değildir.\n- B) Sitomegalovirüs (CMV) özellikle immünsüprese bireylerde ve yenidoğanlarda tükürük bezi enfeksiyonu yapabilir ancak en sık etken değildir.\n- D) Coxsackievirüs nadir görülen viral sialoadenit etkenlerindendir.\n- E) Herpes virüsü tükürük bezlerinde akut viral enfeksiyonun en yaygın nedeni değildir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 200,
+    "question": "Aşağıdaki görüntüleme yöntemlerinden hangisi tükürük bezlerinin akut enfeksiyonu durumunda tercih edilmemelidir?",
+    "options": {
+      "A": "Bilgisayarlı tomografi",
+      "B": "Panoramik radyografi",
+      "C": "Sialografi",
+      "D": "Ultrasonografi",
+      "E": "Manyetik rezonans görüntüleme"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Tükürük bezlerinin akut enfeksiyonu (akut sialoadenit) durumunda kanal ağzından kontrast madde enjekte edilmesine dayanan sialografi kesinlikle tercih edilmemelidir (kontrendikedir). Enjekte edilen kontrast ajan, enfeksiyonun etkilenmemiş bez parankimine yayılmasına ve ağrı semptomunun şiddetlenmesine neden olur.\n**Çeldiriciler:**\n- A) Akut inflamasyon ve apse şüphesinde kontrastlı multidedektör bilgisayarlı tomografi (MDBT) ilk başvurulacak ileri görüntüleme yöntemlerindendir.\n- B) Panoramik radyografi akut enfeksiyona neden olabilecek büyük radyoopak sialolitleri veya diş kaynaklı patolojileri ekarte etmek için güvenle çekilebilir.\n- D) Ultrasonografi (US), invaziv olmaması ve yaygın inflamasyon ile süpürasyon (apse) oluşumu arasındaki ayrımı kolayca yapabilmesi nedeniyle akut enfeksiyonda çok yararlıdır.\n- E) Manyetik rezonans görüntüleme (veya hastanın kendi tükürüğünü kontrast olarak kullanan non-invaziv MR sialografi) akut enfeksiyonu yayma riski taşımadan yumuşak dokuyu değerlendirebilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 201,
+    "question": "I. Kontrast madde ile güçlendirilmiş multi dedektör bilgisayarlı tomografi (MDBT)\nII. Ultrasonografi\nIII. Sialografi\n\nStenon kanal ağzında cerahatli akıntı izlenen hastanın görüntülemesinde önerilmeyen görüntüleme yöntemi aşağıdakilerden hangisi veya hangileridir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Stenon kanal ağzında cerahatli (pürülan) akıntı izlenmesi parotis bezinde akut bakteriyel enfeksiyon (akut süpüratif sialadenit) varlığını gösterir. Sialografi akut enfeksiyon varlığında kesin olarak kontrendikedir; çünkü kanal içerisine basınçla kontrast madde enjekte edilmesi enfeksiyonun bez parankiminin etkilenmeyen derin bölgelerine yayılmasına ve hastada şiddetli ağrıya neden olur.\n- **I. Öncül (Kullanılabilir):** Majör tükürük bezlerinde akut inflamasyon şüphesi varsa, kontrast madde ile güçlendirilmiş MDBT ilk başvurulacak görüntüleme yöntemidir.\n- **II. Öncül (Kullanılabilir):** Ultrasonografi (USG), yaygın inflamasyon ve süpürasyon (apse) oluşumu arasındaki ayrımı yapmada non-invaziv bir yöntem olarak yardımcıdır.\n- **III. Öncül (Önerilmez/Kontrendikedir):** Sialografi (ve sintigrafi) akut inflamasyon vakalarında ağrı semptomunu kötüleştireceği ve enfeksiyonu daha ileriye taşıma riskini artıracağı için kontrendikedir.\n\n**Çeldiriciler:** I. ve II. öncüllerdeki kontrastlı MDBT ve ultrasonografi akut sialadenit değerlendirmesinde güvenle tercih edilen yöntemler olduğundan A, B, D ve E şıkları yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 202,
+    "question": "I. Elde top\nII. Budanmış ağaç\nIII. Yapraksız meyve dolu ağaç\n\nYukarıda verilen radyografik görünümlerden hangisi veya hangileri Sjögren sendromu için patognomoniktir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sjögren sendromlu hastalarda sialografide hastalığın erken evrelerinde normal bir kanal sistemi ve bezin içerisine eşit şekilde dağılmış sayısız küçük (<1 mm çapında) kontrast materyal birikintileri (punktat siyaliektazi) izlenir. Hastalık ilerledikçe kanallar daralır ve kontrast materyali birikintileri küresel hale gelir (1 ila 2 mm çapında globüler siyaliektazi). Bu görünüm Sjögren sendromu için patognomoniktir ve **\"budanmış ağaç\"** veya **\"yapraksız meyve dolu ağaç\"** (kiraz ağacı) görünümü olarak adlandırılır.\n- **I. Öncül (Yanlış):** Sialografide \"elde top\" (ball-in-hand) görüntüsü, tükürük bezlerinde kist ve benign neoplaziler gibi yer işgal eden (yer kaplayan) lezyonların intraglandüler kanalları kenara itmesiyle izlenir.\n- **II. Öncül (Doğru):** \"Budanmış ağaç\" görünümü Sjögren sendromunda duktal yapıların kaybı ve periferik siyaliektaziler sonucu oluşur.\n- **III. Öncül (Doğru):** \"Yapraksız meyve dolu ağaç\" görünümü Sjögren sendromundaki küresel kontrast birikintilerini tanımlayan karakteristik görünümdür.\n\n**Çeldiriciler:** I. öncül benign yer kaplayan kitlelere ait bir sialografi bulgusu olduğu için A, B ve D şıkları; C şıkkı dışındaki E şıkkı ise III. öncülü dışladığı için yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 209,
+    "question": "Aşağıdakilerden hangisi tomografik hareketlerden biri değildir?",
+    "options": {
+      "A": "Lineer",
+      "B": "Trispiral",
+      "C": "Eliptik",
+      "D": "Koherent",
+      "E": "Hiposiklik"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Koherent (klasik/Thomson saçılma) bir tomografik tüp-kaset hareketi değil; düşük enerjili bir X-ışını fotonunun atomun dış yörüngesindeki elektronun yakınından geçerken absorbe olmadan ve enerjisini kaybetmeksizin yön değiştirerek saçılması (foton-madde etkileşimi) olayıdır.\n**Çeldiriciler:**\n- **A) Lineer:** Konvansiyonel tomografide röntgen tüpü ve kasetin tek yönde doğrusal hareket ettiği tomografik harekettir.\n- **B) Trispiral:** Tüp ve kasetin üçlü spiral yörüngede hareket ettiği çok yönlü tomografik harekettir.\n- **C) Eliptik:** Tüp ve kasetin elips şeklinde yörünge çizdiği tomografik harekettir.\n- **E) Hiposiklik:** Tüp ve kasetin hiposikloidal (yonca yaprağı benzeri) yörüngede hareket ettiği ve en net kesitsel görüntüyü sağlayan tomografik harekettir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 210,
+    "question": "Aşağıdakilerden hangisi konvansiyonel tomografide röntgen tüpünün tek yönde hareket ettiği tekniktir?",
+    "options": {
+      "A": "Eliptik",
+      "B": "Trispiral",
+      "C": "Hiposikloidal",
+      "D": "Lineer",
+      "E": "Sirküler"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Konvansiyonel tomografide röntgen tüpünün ve film kasetinin fokal düzlem etrafında birbirine zıt olarak sadece tek bir doğrusal eksende (tek yönde) hareket ettiği tekniğe **lineer tomografi** denir.\n**Çeldiriciler:**\n- **A) Eliptik, B) Trispiral, C) Hiposikloidal ve E) Sirküler:** Bu tekniklerin tamamı röntgen tüpünün birden fazla yönde (dairesel, elips, üçlü spiral veya hiposikloidal yörüngelerde) hareket ettiği çok yönlü (multidireksiyonel) tomografi yöntemleridir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 214,
+    "question": "Akış-oranı çalışmaları ile ilgili aşağıdaki verilenlerden hangisi doğru değildir?",
+    "options": {
+      "A": "Ağız kuruluğunda endikedir",
+      "B": "Tükürük sekresyonu azlığında endikedir",
+      "C": "Aşırı tükürük sekresyonunda endikedir",
+      "D": "İyonize radyasyon kullanılır",
+      "E": "Uygulaması kolaydır"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Akış-oranı (flow-rate / siyalometri) çalışmaları, majör tükürük bezlerinden gelen tükürüğün karşılaştırmalı akış oranlarının belirli bir zaman periyodu boyunca ölçülmesine dayanan klinik bir testtir; bu işlemde **iyonlaştırıcı radyasyon kullanılmaz**.\n**Çeldiriciler:**\n- **A) Ağız kuruluğunda endikedir:** Kserostomi (dry mouth) şikayeti olan hastalarda bez fonksiyonunu objektif olarak ölçmek için endikedir.\n- **B) Tükürük sekresyonu azlığında endikedir:** Hiposalivasyon tanısında kullanılır.\n- **C) Aşırı tükürük sekresyonunda endikedir:** Hipersalivasyon (pityalizm/siyalore) vakalarında salgının miktarını değerlendirmek için endikedir.\n- **E) Uygulaması kolaydır:** Non-invaziv ve uygulanması basit bir yöntemdir (ancak zaman alıcıdır ve sadece bezin işlevi hakkında sınırlı bilgi sağlar, altta yatan hastalığın doğasını göstermez).\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 216,
+    "question": "Aşağıdakilerden hangisi manyetik rezonans görüntülemenin avantajlarından değildir?",
+    "options": {
+      "A": "Multiplanar görüntü elde edilebilmesi",
+      "B": "İyonize olmayan radyasyon kullanması",
+      "C": "Kemik/hava artefaktı oluşturmaması",
+      "D": "Hamilelerde güvenle kullanılması",
+      "E": "Farklı dokular arasındaki kontrastın ayırt edilebilmesi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hamilelerde güvenle kullanılabilen görüntüleme yöntemi ultrasonografidir (USG); MRG'nin ise hamilelerdeki ve gelişmekte olan fetüs üzerindeki etkileri tam olarak bilinmediğinden (özellikle ilk trimesterde) \"hamilelerde güvenle kullanılması\" MRG'nin kanıtlanmış rutin avantajlarından biri olarak kabul edilmez.\n**Çeldiriciler:**\n- **A) Multiplanar görüntü elde edilebilmesi:** Aksiyel, koronal ve sagittal düzlemlerde doğrudan kesit alabilir.\n- **B) İyonize olmayan radyasyon kullanması:** Radyofrekans dalgaları kullanır, bilinen bir iyonizan biyolojik hasara neden olmaz.\n- **C) Kemik/hava artefaktı oluşturmaması:** BT'de yoğun kemik kaynaklı oluşan ışın sertleşmesi artefaktları MRG'de oluşmaz.\n- **E) Farklı dokular arasındaki kontrastın ayırt edilebilmesi:** Yumuşak dokular arasındaki kontrast çözünürlüğü en yüksek görüntüleme yöntemidir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 232,
+    "question": "Aşağıdaki verilen bilgilerden hangisi Manyetik rezonans (MR) görüntüleme için doğru bilgi değildir?",
+    "options": {
+      "A": "MR da radyasyon kaynağı olarak radyofrekans dalgaları kullanılır",
+      "B": "Tarayıcıdan salınan enerji bazı hidrojen atomları tarafından absorbe edilir",
+      "C": "Çekirdek tarafından depolanan enerjinin salınımına relaksasyon denir",
+      "D": "Vücuttan salınan enerji tarayıcıda problara kaydedilir",
+      "E": "T1 ve T2 relaksasyon süreleri dokular arasında farklılık gösterir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Manyetik rezonans görüntülemede radyofrekans dalgaları kesildiğinde vücuttan (hidrojen çekirdeklerinden) geri salınan enerji, \"problara\" değil, tarayıcı içerisindeki alıcı sarmallar (**coil**) tarafından sinyal olarak algılanıp kaydedilir. Prob (transdüser) ultrasonografide kullanılan parçadır.\n**Çeldiriciler:**\n- **A) MR da radyasyon kaynağı olarak radyofrekans dalgaları kullanılır:** İyonize olmayan radyofrekans dalgaları kullanılır.\n- **B) Tarayıcıdan salınan enerji bazı hidrojen atomları tarafından absorbe edilir:** Manyetik alana paralel dizilen hidrojen protonları radyofrekans enerjisini absorbe ederek uyarılır.\n- **C) Çekirdek tarafından depolanan enerjinin salınımına relaksasyon denir:** Radyofrekans dalgası kesildiğinde protonların orijinal durumlarına dönerken depoladıkları enerjiyi salmalarına relaksasyon (gevşeme) adı verilir.\n- **E) T1 ve T2 relaksasyon süreleri dokular arasında farklılık gösterir:** Dokuların su ve yağ içeriklerine göre T1 ve T2 relaksasyon sürelerinin farklı olması MRG'deki yüksek doku kontrastını oluşturur.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 233,
+    "question": "I. Tanısal ultrasonografi için 1-20 MHz aralığındaki frekansa sahip ultra ses dalgaları kullanılır.\nII. En önemli komponenti piezo-elektrik kristal olan transdüser sayesinde, elektriksel impulslardan ultra ses dalgaları elde edilir.\nIII. Ultrasonografi görüntülerinde düşük sinyal üreten dokular \"hipointens\" olarak tanımlanır.\n\nUltrasonografiyle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "Yalnız II",
+      "E": "I ve II"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Tanısal ultrasonografide 1-20 MHz frekans aralığındaki ses dalgaları kullanılır (I) ve bu ses dalgaları içinde piezoelektrik kristal bulunan transdüser (prob) aracılığıyla elektriksel impulslardan üretilir (II).\n- **I. Öncül (Doğru):** Tıpta tanısal alanda kullanılan ultrasesin frekansı rutin uygulamalarda 1-20 MHz'dir.\n- **II. Öncül (Doğru):** Transdüser içindeki piezoelektrik kristaller elektrik enerjisini ses dalgalarına ve dokudan dönen ses titreşimlerini tekrar elektrik sinyallerine çevirir.\n- **III. Öncül (Yanlış):** Ultrasonografide zayıf/düşük sinyal üreten yapılar \"hipointens\" değil, **\"hipoekoik\"** olarak tanımlanır (sinyal üretemeyen sıvı dolu kistler anekoik, yoğun sinyal üretenler hiperekoik izlenir). \"Hipointens\" terimi Manyetik Rezonans Görüntülemede (MRG) kullanılan bir kavramdır.\n\n**Çeldiriciler:** III. öncül MRG terminolojisine ait olduğundan B ve C şıkları; A ve D şıkları ise doğru olan diğer öncülü eksik bıraktığından yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 234,
+    "question": "Piezo-elektrik kristal olan transdüser ile elektriksel impulslardan 1-20 MHz aralığındaki frekansa sahip ses dalgaları üreterek kullanan tanı yöntemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Manyetik rezonans görüntüleme",
+      "B": "Dental volümetrik tomografi",
+      "C": "Tek foton emisyonlu bilgisayarlı tomografi",
+      "D": "Pozitron emisyon tomografisi",
+      "E": "Ultrason görüntüleme"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Piezoelektrik kristallerden oluşan transdüser (prob) yardımıyla elektriksel impulslardan 1-20 MHz frekansında yüksek frekanslı ses dalgaları üreten ve hedef dokuya çarpıp dönen titreşimleri kaydederek görüntü oluşturan tanı yöntemi **Ultrason görüntülemedir (USG)**.\n**Çeldiriciler:**\n- **A) Manyetik rezonans görüntüleme:** Güçlü manyetik alan ve radyofrekans dalgaları kullanır.\n- **B) Dental volümetrik tomografi:** Eksternal konik X-ışını demeti kullanır.\n- **C) Tek foton emisyonlu bilgisayarlı tomografi (SPECT) ve D) Pozitron emisyon tomografisi (PET):** Vücut içine verilen radyonüklitlerin (internal radyasyon) yaydığı ışımaları kullanan nükleer tıp yöntemleridir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 235,
+    "question": "Aşağıdakilerden hangisi ultrason görüntülemenin klinikte kullanım alanlarından birisi değildir?",
+    "options": {
+      "A": "Lenf nodlarının incelenmesi",
+      "B": "Parotisin incelenmesi",
+      "C": "Konjenital inflamatuar boyun kitlelerinin incelenmesi",
+      "D": "Orbita duvarı fraktürü tespiti",
+      "E": "İntrakraniyal damarların incelenmesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Ultrason ses dalgaları kemik dokuyu geçemediği için kemik içi yapıların ve kafatası kemiği (kraniyum) içindeki **intrakraniyal damarların** incelenmesinde kullanılamaz. Ultrason damarsal incelemelerde boyundaki **ekstrakraniyal** damarların (karotis arter anevrizmaları, darlığı, venöz tromboz vb.) değerlendirilmesinde veya bebeklerde henüz kapanmamış açık fontaneller arasından ventriküler sistemin incelenmesinde kullanılır.\n**Çeldiriciler:**\n- **A) Lenf nodlarının incelenmesi:** Tiroid, paratiroid bezleri ve boyun lenf nodlarının incelenmesinde kullanılır.\n- **B) Parotisin incelenmesi:** Parotiste kistik ve solid kitlelerin ayırt edilmesinde, taşların (kalkulus) kanalda mı parankimde mi olduğunun tespitinde kullanılır.\n- **C) Konjenital inflamatuar boyun kitlelerinin incelenmesi:** Boyundaki yumuşak doku kitlelerinin ve apselerin değerlendirilmesinde ilk tercih edilen yöntemlerdendir.\n- **D) Orbita duvarı fraktürü tespiti:** Yüzeyel orbita duvarı fraktürü tespiti ve eşlik eden yumuşak dokuların incelenmesinde kullanılabilir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 236,
+    "question": "I. Yumuşak doku tutulumu olan neoplazilerin değerlendirilmesinde çok kullanışlıdır.\nII. Radyofrekans yoluyla vücutta çoğunlukla su ve yağ dokusunda bulunan hidrojen atomlarının uyarılmasıyla çalışır.\nIII. Kardiyak pacemaker taşıyan hastalar için kontrendikedir.\nIV. Düşük sinyal gösteren dokular hipoekoik olarak tanımlanır.\n\nManyetik rezonans görüntülemeyle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I, II, III ve IV",
+      "B": "I, II ve III",
+      "C": "II ve IV",
+      "D": "I, III ve IV",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Manyetik rezonans görüntüleme (MRG) yüksek yumuşak doku rezolüsyonu sayesinde yumuşak doku neoplazilerinde çok kullanışlıdır (I), radyofrekans dalgalarıyla su ve yağ dokusundaki hidrojen atomlarını uyararak çalışır (II) ve kalp pili (kardiyak pacemaker) taşıyan hastalarda kontrendikedir (III).\n- **I. Öncül (Doğru):** Herhangi bir düzlemde yüksek yumuşak doku çözünürlüğüne sahip olduğu için yumuşak doku tutulumu olan tümörlerin değerlendirilmesinde altın standarttır.\n- **II. Öncül (Doğru):** Vücuttaki su ve yağ dokusunda bolca bulunan hidrojen atomlarının çekirdeklerinin manyetik alanda dizilmesi ve radyofrekans dalgalarıyla uyarılması esasına dayanır.\n- **III. Öncül (Doğru):** Güçlü manyetik alan nedeniyle kalp pili (pacemaker), intrakraniyal damarsal klipler ve kritik organlarda metalik yabancı cisim taşıyanlarda kontrendikedir.\n- **IV. Öncül (Yanlış):** MRG'de düşük sinyal gösteren dokular \"hipoekoik\" değil, **\"hipointens\"** olarak tanımlanır. Hipoekoik terimi ultrasonografide zayıf sinyal üreten yapılar için kullanılır.\n\n**Çeldiriciler:** IV. öncül ultrasonografi terminolojisine ait olduğundan A, C ve D şıkları; E şıkkı ise doğru olan I. öncülü dışladığından yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 238,
+    "question": "Manyetik rezonans görüntülemede aşağıdaki yapılardan hangisinin düşük sinyal intensitesine (yoğunluğuna) neden olması beklenmez?",
+    "options": {
+      "A": "Ligament- T1 ağırlıklı görüntü",
+      "B": "Kortikal kemik- T2 ağırlıklı görüntü",
+      "C": "Kist- T1 ağırlıklı görüntü",
+      "D": "Kas- T1 ağırlıklı görüntü",
+      "E": "Kas- T2 ağırlıklı görüntü"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hidroksiapatit yapısındaki sert dokularda (kortikal kemik, mine, dentin) ve havada serbest/hareketli hidrojen protonu bulunmadığı için hem T1 hem de T2 ağırlıklı MR görüntülerinde düşük sinyal değil, **hiç sinyal alınamaz (\"sinyal yok\" / signal void)** ve tamamen siyah izlenirler.\n**Çeldiriciler:**\n- **A) Ligament- T1 ağırlıklı görüntü:** Kollajen dokular (ligament, tendon) hem T1 hem T2 ağırlıklı görüntülerde düşük sinyal intensitesi gösterir.\n- **C) Kist- T1 ağırlıklı görüntü:** Su oranı yüksek dokular (ödem, BOS, kist) T1 ağırlıklı görüntüde düşük sinyal (hipointens), T2 ağırlıklı görüntüde ise yüksek sinyal (hiperintens) verir.\n- **D) Kas- T1 ağırlıklı görüntü ve E) Kas- T2 ağırlıklı görüntü:** Bağlı su oranı yüksek olan kas dokusu hem T1 hem de T2 ağırlıklı görüntülerde düşük sinyal intensitesinde izlenir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 241,
+    "question": "Aşağıdakilerden hangisi ideal radyonüklidin özelliklerinden birisi değildir?",
+    "options": {
+      "A": "Vücut içi kamera ile görüntülenebilir olmalıdır",
+      "B": "Kısa yarılanma ömrü olmalıdır",
+      "C": "Gama ışını yaymalıdır",
+      "D": "X ışını yaymamalıdır",
+      "E": "Çeşitli farmasötiklere bağlanabilmelidir"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Radyonüklid görüntülemede radyasyon kaynağı vücut içindedir, ancak hastadan dışarıya yayılan gama ışınları \"vücut içi kamera\" ile değil, hasta dışına yerleştirilen harici dedektörler (**gama kameralar**) ile görüntülenir.\n**Çeldiriciler:**\n- **B) Kısa yarılanma ömrü olmalıdır:** Hastanın inceleme sonrasında gereksiz radyasyon almaması için radyonüklidin yarılanma ömrü kısa olmalıdır.\n- **C) Gama ışını yaymalıdır:** Dokulardan geçerek vücut dışındaki gama kameraya ulaşabilen uygun enerjili gama ışını yaymalıdır.\n- **D) X ışını yaymamalıdır:** Alfa, beta partikülleri veya X-ışını yaymamalı, sadece tanısal gama ışıması yapmalıdır.\n- **E) Çeşitli farmasötiklere bağlanabilmelidir:** İncelenecek spesifik organ veya dokuya taşınabilmek için çeşitli farmasötik ajanlara kolayca bağlanabilmelidir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 242,
+    "question": "I. Pozitron emisyon tomografi (PET) tarayıcılar bilgisayarlı tomografi (BT) ünitelerine benzer ancak BT'nin aksine radyasyon kaynağı PET görüntülemede vücut içindedir.\nII. En sık kullanılan radyoaktif işaretleyici $^{99\\text{m}}\\text{Tc}$'dir.\nIII. Radyonüklidlerin anatomik lokalizasyonunu belirlemek için BT ile kombine edilebilir.\n\nPET görüntülemeyle ilgili yukarı ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "Yalnız I",
+      "C": "I, II ve III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** PET tarayıcılar BT ünitelerine benzer fakat radyasyon kaynağı hastaya verilen radyonüklid olduğu için vücut içindedir (I) ve metabolik tutulumun tam anatomik yerini saptamak için BT ile kombine edilebilir (III).\n- **I. Öncül (Doğru):** PET bir nükleer tıp görüntüleme yöntemi olduğundan radyasyon kaynağı vücut içindedir (internal radyasyon).\n- **II. Öncül (Yanlış):** $^{99\\text{m}}\\text{Tc}$ (Teknesyum-99m) konvansiyonel kemik sintigrafisi ve SPECT görüntülemede en sık kullanılan gama yayıcı radyoizotoptur. PET görüntülemede ise siklotronlarda üretilen ve pozitron yayan organik radyonüklidler ($^{18}\\text{F}$ [Flor-18], $^{11}\\text{C}$ [Karbon-11], $^{13}\\text{N}$ [Azot-13], $^{15}\\text{O}$ [Oksijen-15]) kullanılır.\n- **III. Öncül (Doğru):** PET görüntülerinin uzaysal/anatomik detayı sınırlı olduğundan, radyonüklid tutulumunun anatomik lokalizasyonunu belirlemek için sıklıkla BT ile kombine edilir (PET/BT).\n\n**Çeldiriciler:** II. öncüldeki $^{99\\text{m}}\\text{Tc}$ PET'te kullanılmadığından A, C ve E şıkları; B şıkkı ise doğru olan III. öncülü içermediğinden yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 243,
+    "question": "Pozitron emisyon tomografi (PET) ile ilgili aşağıdaki verilen bilgilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Radyonüklit olarak karbon, azot, oksijen ve flor kullanılır.",
+      "B": "Radyasyon kaynağı PET görüntülemede vücut içindedir.",
+      "C": "Bilgisayarlı tomografi (BT) ile kombine kullanılabilir.",
+      "D": "Radyonüklidler teknesyumla beraber kullanılır.",
+      "E": "En gelişmiş nükleer tıp görüntüleme yöntemidir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** PET görüntülemede kullanılan pozitron yayıcı radyonüklidler ($^{11}\\text{C}$, $^{13}\\text{N}$, $^{15}\\text{O}$, $^{18}\\text{F}$), teknesyumla değil, **glukoz veya amino asit gibi organik radyofarmasötiklerle** beraber kullanılır. Teknesyum ($^{99\\text{m}}\\text{Tc}$) ise gama kamerayla yapılan sintigrafi ve SPECT yöntemlerinde kullanılan bir radyonükliddir.\n**Çeldiriciler:**\n- **A) Radyonüklit olarak karbon, azot, oksijen ve flor kullanılır:** Siklotronda üretilen $^{11}\\text{C}$, $^{13}\\text{N}$, $^{15}\\text{O}$ ve $^{18}\\text{F}$ kullanılır.\n- **B) Radyasyon kaynağı PET görüntülemede vücut içindedir:** Hastaya enjekte edilen radyonüklid internal radyasyon kaynağıdır.\n- **C) Bilgisayarlı tomografi (BT) ile kombine kullanılabilir:** Anatomik lokalizasyonu belirlemek için BT ile birleştirilir.\n- **E) En gelişmiş nükleer tıp görüntüleme yöntemidir:** Gama kameralarından yaklaşık 100 kat daha hassas görüntü elde eden en gelişmiş nükleer tıp yöntemidir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 244,
+    "question": "I. Osteomyelit\nII. Metastatik lezyonlar\nIII. Kondiler hiperplazi\n\nSintigrafi aşağıdakilerden hangisi ya da hangileri için kullanılabilen bir görüntüleme tekniğidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I, II ve III",
+      "E": "I ve II"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sintigrafi, biyokimyasal ve metabolik değişiklikleri (osteoblastik aktivite artışını) gösteren fonksiyonel bir nükleer tıp görüntüleme tekniğidir ve osteomyelit (I), metastatik lezyonlar (II) ile kondiler hiperplazinin (III) tamamında kullanılır.\n- **I. Öncül (Doğru):** Osteomyelit, osteonekroz ve BRONJ vakalarında enfeksiyon/inflamasyona bağlı artmış kemik metabolizmasını erken dönemde saptamak için kullanılır.\n- **II. Öncül (Doğru):** Çene kemiklerindeki ve tüm iskeletteki tümör/metastaz odaklarının taranmasında kullanılır.\n- **III. Öncül (Doğru):** Kondiler hiperplazide tek taraflı anormal kemik büyümesinin hala aktif olup olmadığının tespiti için kullanılır.\n\n**Çeldiriciler:** Üç klinik durumun tamamı sintigrafi endikasyonları arasında yer aldığından A, B, C ve E şıkları eksiktir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 245,
+    "question": "Radyografik değerlendirmede yararlanılan anatomik belirteçler ve patolojilerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İnferior alveolar kanalın superiora doğru yer değiştirmesi fibröz displazide görülebilir.",
+      "B": "Kortikal kemikle birlikte inferior alveoler kanalın genişlemesi kanal içindeki vasküler ve nöral orijinli benign lezyonları işaret edebilir.",
+      "C": "İnferior alveoler kanalda kortikal kemik destrüksiyonu ile görülen düzensiz genişleme, kanalda gelişen malign oluşumları işaret edebilir.",
+      "D": "Periodontal ligament bölgesinin düzensiz genişlemesi malign hastalıklarda görülebilir.",
+      "E": "Lezyonun radyolusent görüntüde olması, genellikle yavaş gelişen lezyonları düşündürür."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Bir lezyonun radyolusent görüntüde olması yalnızca bölgedeki osteoklastik kemik yıkımının fazla olduğunu gösterir; bu görünüm **hem hızlı gelişen** (malign tümörler, akut osteomyelit vb.) **hem de yavaş gelişen** (kistler, benign tümörler vb.) lezyonlarda izlenebilir. Lezyonun büyüme hızı iç yapısının radyolusent olmasından değil, çevre kemikle olan sınırlarının özelliğinden (iyi sınırlı/kortike veya belirsiz/güve yeniği sınır) ve kortikal kemik/diş kökleri üzerindeki etkisinden anlaşılır.\n**Çeldiriciler:**\n- **A) İnferior alveolar kanalın superiora doğru yer değiştirmesi fibröz displazide görülebilir:** Diğer kist ve tümörler mandibular kanalı genellikle aşağı (inferiora) deplase ederken, fibröz displazi kanalı superiora doğru yer değiştirebilir.\n- **B) Kortikal kemikle birlikte inferior alveoler kanalın genişlemesi kanal içindeki vasküler ve nöral orijinli benign lezyonları işaret edebilir:** Schwannom, nörofibrom veya hemanjiom gibi kanal içi benign lezyonlar kortikal sınırları koruyarak kanalı genişletir.\n- **C) İnferior alveoler kanalda kortikal kemik destrüksiyonu ile görülen düzensiz genişleme, kanalda gelişen malign oluşumları işaret edebilir:** Kortikal sınırların yıkımı agresif/malign süreci gösterir.\n- **D) Periodontal ligament bölgesinin düzensiz genişlemesi malign hastalıklarda görülebilir:** Osteosarkom, kondrosarkom gibi malignitelerde periodontal ligament aralığında asimetrik/düzensiz genişleme (Garrington belirtisi) görülürken; ortodontik hareketlerde ve sklerodermada uniform (düzenli) genişleme izlenir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

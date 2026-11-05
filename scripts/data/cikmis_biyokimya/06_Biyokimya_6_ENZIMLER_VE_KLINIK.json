@@ -1,0 +1,962 @@
+[
+  {
+    "question": "Bir serum enziminin zamana bağlı olarak oluşturduğu ürün aşağıda açıklanan grafikte verilmiştir. Bu enzimin aktivitesinin doğru tayini için hangi zaman aralıklarında oluşan ürün miktarı ölçülmelidir?",
+    "options": {
+      "A": "t0 – t3",
+      "B": "t0 – t4",
+      "C": "t1 – t2",
+      "D": "t1 – t3",
+      "E": "t3 – t4"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Doğru Seçenek (C - t1–t2):** Enzimatik reaksiyonların hız tayininde (aktivite ölçümünde) reaksiyonun lineer (doğrusal) seyrettiği, enzim-substrat doymuşluğunun korunduğu ve reaksiyon hızının en yüksek (sıfırıncı derece kinetik) olduğu aralık seçilmelidir. Grafik incelendiğinde t1-t2 aralığı eğimin sabit ve en dik olduğu lineer fazı temsil eder.\n* **A Şıkkı (t0–t3):** Lag fazını ve doygunluğun azaldığı evreleri kapsadığı için ortalama hız verir, gerçek reaksiyon hızını yansıtmaz.\n* **B Şıkkı (t0–t4):** Reaksiyonun başlangıcından dengelenmesine kadar olan tüm süreci kapsar; substrat tükenmesi ve ters reaksiyonlar nedeniyle hata oranı yüksektir.\n* **D Şıkkı (t1–t3):** t2'den sonra reaksiyon hızı yavaşlamaya ve plato çizmeye başladığı için doğrusal değildir.\n* **E Şıkkı (t3–t4):** Bu aralıkta reaksiyon dengeye ulaşmış (ürün artışı durmuş, net reaksiyon hızı sıfıra yaklaşmış) durumdadır; enzim aktivitesi ölçülemez.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Karaciğer hastalıklarında ve alkol kullanımında serum düzeyi yükselen enzim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Adenilat kinaz",
+      "B": "Asit fosfataz",
+      "C": "Anjiyotensin dönüştürücü enzim",
+      "D": "g-glutamil transferaz",
+      "E": "Kreatin kinaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Doğru Seçenek (D - g-glutamil transferaz / GGT):** GGT, mikrozomal bir enzim olup karaciğer kolestazında ve özellikle kronik alkol kullanımında (alkol indüksiyonuna bağlı olarak) serumda en erken ve en belirgin yükselen göstergedir.\n* **A Şıkkı (Adenilat kinaz):** Kas ve eritrositlerde nükleotid metabolizmasında görev alır; karaciğer/alkol spesifikliği yoktur.\n* **B Şıkkı (Asit fosfataz):** Prostat kanseri, Paget hastalığı ve kemik metastazlarında yükselir; karaciğer hastalıklarında primer gösterge değildir.\n* **C Şıkkı (Anjiyotensin dönüştürücü enzim / ACE):** Sarkoidoz ve akciğer hastalıklarında takip edilir.\n* **E Şıkkı (Kreatin kinaz / CK):** Çizgili kas (CK-MM), kalp kası (CK-MB) ve beyin (CK-BB) hasarlarında yükselir; karaciğer parankim veya kolestaz enzimi değildir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki parametrelerden hangisi karaciğerin atılım fonksiyonunu belirler?",
+    "options": {
+      "A": "Albümin",
+      "B": "ALT",
+      "C": "Amonyak",
+      "D": "Üre",
+      "E": "Bilirubin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Bilirubin):** Bilirubin, hepatositlerde konjuge edildikten sonra safra yollarıyla bağırsaklara atılır. Bu nedenle direkt ve indirekt bilirubin düzeyleri karaciğerin ekskresyon (atılım) kapasitesini doğrudan gösterir.\n* **A Şıkkı (Albümin):** Karaciğerin sentez fonksiyonunu gösteren en önemli plazma proteinidir.\n* **B Şıkkı (ALT):** Hepatosit içi enzim olup karaciğerin hücre hasarını (hepatoselüler nekroz/hasar) yansıtır.\n* **C Şıkkı (Amonyak):** Üre döngüsü ve üronik asit/detoksifikasyon kapasitesi ile ilişkilidir (metabolik/sentez fonksiyonu).\n* **D Şıkkı (Üre):** Karaciğerde sentezlenir (sentez fonksiyonu) ve böbrekler aracılığıyla atılır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ozmotik etkisi bakımından vücutta önemli bir elementtir?",
+    "options": {
+      "A": "Demir",
+      "B": "Bakır",
+      "C": "Klor",
+      "D": "Çinko",
+      "E": "Kalsiyum"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Doğru Seçenek (C - Klor):** Hücre dışı sıvının (ECF) temel anyonudur. Na+ ile birlikte plazma ozmolaritesini (Serum Ozmolaritesi = 2*Na + Glukoz/18 + BUN/2.8) ve su dengesini belirleyen ana minerallerdendir.\n* **A Şıkkı (Demir):** Hemoglobin, miyoglobin ve sitokromların yapısında oksijen taşıma ve elektron transferinde görev alır; ozmotik rolü yoktur.\n* **B Şıkkı (Bakır):** Ceruloplazmin, sitokrom oksidaz ve lizil oksidaz gibi enzimlerin kofaktörüdür.\n* **D Şıkkı (Çinko):** Karbonik anhidraz, alkalen fosfataz ve DNA polimeraz gibi 300'den fazla enzimin yapısına katılır.\n* **E Şıkkı (Kalsiyum):** Kas kasılması, sinirsel iletim, pıhtılaşma ve kemik mineralizasyonunda rol oynar; temel ozmotik gücü Klor ve Sodyum sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Hemolizli bir serum örneğinde aşağıdaki testlerin hangisinde yüksek değerler elde edilir?",
+    "options": {
+      "A": "Asit fosfataz",
+      "B": "Alkalen fosfataz",
+      "C": "g-glutamil transferaz",
+      "D": "Laktat dehidrogenaz",
+      "E": "5'-nükleotidaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Doğru Seçenek (D - Laktat dehidrogenaz / LDH):** Eritrosit içi LDH (özellikle LDH-1 ve LDH-2) konsantrasyonu serumdakinin yaklaşık 500 katıdır. Bu nedenle hafif hemolizde dahi seruma salınarak yalancı yüksek sonuç verir.\n* **A Şıkkı (Asit fosfataz):** Eritrositlerde bulunsa da hemolizden etkilenme derecesi LDH kadar dramatik değildir; prostata spesifiktir.\n* **B Şıkkı (Alkalen fosfataz / ALP):** Membrana bağlı bir hepatobiliyer/kemik enzimidir; eritrosit hemolizinden belirgin etkilenmez.\n* **C Şıkkı (g-glutamil transferaz / GGT):** Mikrozomal/biliyer enzimdir, eritrosit içi düzeyi düşüktür.\n* **E Şıkkı (5'-nükleotidaz):** Safra kanalı ve karaciğer membran enzimidir; eritrositlerde bulunmaz.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin serum düzeyi kolestazda yükselir?",
+    "options": {
+      "A": "5'-nükleotidaz",
+      "B": "Laktat dehidrogenaz",
+      "C": "Aldolaz",
+      "D": "Kolinesteraz",
+      "E": "Lipaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Doğru Seçenek (A - 5'-nükleotidaz):** Safra kanaliküler membranına yerleşiktir. Safra duraklamasında (kolestaz) ALP ile birlikte serumda spesifik olarak artar. Özellikle kemik kökenli ALP yüksekliğini karaciğer kolestazından ayırt etmede kullanılır (5'-nükleotidaz kemik hastalıklarında artmaz).\n* **B Şıkkı (Laktat dehidrogenaz):** Doku yıkımı, hemoliz ve enfarktüslerde artar; kolestaz göstergesi değildir.\n* **C Şıkkı (Aldolaz):** Çizgili kas ve karaciğer parankim hasarında yükselir.\n* **D Şıkkı (Kolinesteraz):** Karaciğer parankim (sentez) hasarında ve organofosfat zehirlenmesinde azalır.\n* **E Şıkkı (Lipaz):** Akut pankreatit tanısında spesifik olarak yükselir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Organik fosfor zehirlenmeleri tipik olarak aşağıdaki enzimlerden hangisinin serumdaki aktivitesini azaltır?",
+    "options": {
+      "A": "Alanin aminotransferaz",
+      "B": "Amilaz",
+      "C": "Aspartat aminotransferaz",
+      "D": "Asit fosfataz",
+      "E": "Kolinesteraz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Kolinesteraz):** Organofosfatlar (tarım ilaçları, sarin gazı vb.), Asetilkolinesteraz ve plazma Kolinesteraz (Psödokolinesteraz) enzimlerinin aktif bölgesindeki serin hidroksil grubuna irreversibl (geri dönüşümsüz) olarak bağlanarak enzimi inhibe eder ve aktivitesini düşürür.\n* **A Şıkkı (Alanin aminotransferaz / ALT):** Hepatosit içi transaminazdır; organofosfat doğrudan ALT aktivitesini baskılamaz.\n* **B Şıkkı (Amilaz):** Pankreas enzimidir; organofosfat hedefi değildir.\n* **C Şıkkı (Aspartat aminotransferaz / AST):** Transaminaz enzimidir; organofosfat zehirlenmesinde düşmez.\n* **D Şıkkı (Asit fosfataz):** Prostat ve lizozomal hidrolaz enzimidir; organofosfat inhibisyonunun primer hedefi değildir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Organofosfat zehirlenmesinde aşağıdaki enzimlerden hangisinin plazmadaki aktivitesinin ölçülmesi tanıya yardımcı olur?",
+    "options": {
+      "A": "Gama-glutamil transferaz",
+      "B": "5'-nükleotidaz",
+      "C": "Aspartat aminotransferaz",
+      "D": "Asit fosfataz",
+      "E": "Psödokolinesteraz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Psödokolinesteraz / Plazma kolinesterazı):** Organofosfat zehirlenmesi şüphesinde tanı koymak ve maruziyet derecesini belirlemek için kanda Psödokolinesteraz (Bütirilkolinesteraz) düzeyi ölçülür. Enzim aktivitesinin düşmesi zehirlenmeyi doğrular.\n* **A Şıkkı (Gama-glutamil transferaz / GGT):** Karaciğer kolestazı ve alkol indüksiyonunda yükselir.\n* **B Şıkkı (5'-nükleotidaz):** Biliyer kolestaz göstergesidir.\n* **C Şıkkı (Aspartat aminotransferaz / AST):** Karaciğer parankim hasarında yükselir.\n* **D Şıkkı (Asit fosfataz):** Prostat patolojilerinde kullanılır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi plazmadaki fonksiyonel enzimlerden biridir?",
+    "options": {
+      "A": "Laktat dehidrogenaz",
+      "B": "Psödokolinesteraz",
+      "C": "İzositrat dehidrogenaz",
+      "D": "Sitrat sentaz",
+      "E": "Gliseraldehit 3-fosfat dehidrogenaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Psödokolinesteraz):** Plazma fonksiyonel enzimler karaciğer tarafından sentezlenip kana salınan ve fizyolojik görevlerini kanda/plazmada icra eden enzimlerdir (Örn: Psödokolinesteraz, Trombin, Lipoprotein Lipaz, LCAT, Pıhtılaşma Faktörleri).\n* **A Şıkkı (Laktat dehidrogenaz / LDH):** Hücre içi (sitoplazmik) fonksiyonel olmayan enzimdir; kanda bulunması doku yıkımı/hasarını gösterir.\n* **C Şıkkı (İzositrat dehidrogenaz):** Hücresel enzimdir.\n* **D Şıkkı (Sitrat sentaz):** Mitokondriyal matriks enzimidir.\n* **E Şıkkı (Gliseraldehit 3-fosfat dehidrogenaz):** Sitoplazmik glikoliz enzimidir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin yapısında bakır elementi yoktur?",
+    "options": {
+      "A": "Lizil oksidaz",
+      "B": "Sitokrom oksidaz",
+      "C": "Dopamin b-hidroksilaz",
+      "D": "Tirozinaz",
+      "E": "Pirüvat dehidrogenaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Pirüvat dehidrogenaz):** Pirüvat dehidrogenaz kompleksi kofaktör olarak Tiamin pirofosfat (B1), FAD (B2), NAD (B3), Koenzim A (B5), Lipoik asit ve Mg2+ kullanır. Yapısında Bakır (Cu) elementi yer almaz.\n* **A Şıkkı (Lizil oksidaz):** Kollajen ve elastin çapraz bağlarını oluşturan bakır bağımlı ekstrasellüler enzimdir.\n* **B Şıkkı (Sitokrom oksidaz / ETZ Kompleks IV):** Bakır ve demir bağımlı enzimdir.\n* **C Şıkkı (Dopamin b-hidroksilaz):** Bakır ve C vitamini bağımlı enzimdir.\n* **D Şıkkı (Tirozinaz):** Bakır bağımlı enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin aktivite göstermesi için mangan gerekmez?",
+    "options": {
+      "A": "Arjinaz",
+      "B": "ALA dehidrataz",
+      "C": "Mitokondriyal süperoksit dismutaz",
+      "D": "Pirüvat karboksilaz",
+      "E": "İzositrat dehidrogenaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - ALA dehidrataz):** Porfirin (hem) sentezinin sitozolik enzimi olan ALA dehidrataz, aktivitesi için Çinko (Zn2+) mineraline ihtiyaç duyar ve Kurşun (Pb) ile inhibe olur. Mangan gerekmez.\n* **A Şıkkı (Arjinaz):** Üre döngüsünün son enzimi olup Mangan (Mn2+) kofaktörüdür.\n* **C Şıkkı (Mitokondriyal süperoksit dismutaz / Mn-SOD):** Mitokondriyal formu Mangan (Mn) içerir.\n* **D Şıkkı (Pirüvat karboksilaz):** Glukoneogenezin mitokondriyal enzimidir; Biotin ve Mangan (Mn2+) kullanır.\n* **E Şıkkı (İzositrat dehidrogenaz):** Sitrat döngüsünde Mn2+ veya Mg2+ kullanır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzim-kofaktör eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Hekzokinaz – Magnezyum",
+      "B": "Pirüvat kinaz – Bakır",
+      "C": "Üreaz – Demir",
+      "D": "Karbonik anhidraz – Manganez",
+      "E": "Karboksipeptidaz – Potasyum"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Doğru Seçenek (A - Hekzokinaz – Magnezyum):** ATP harcayan veya üreten tüm kinaz reaksiyonlarında ATP molekülü Mg2+ iyonu ile kompleks kurarak enzime bağlanır. Dolayısıyla Hekzokinaz Mg2+ bağımlıdır.\n* **B Şıkkı (Pirüvat kinaz – Bakır):** Pirüvat kinaz K+ (Potasyum) ve Mg2+ gerektirir; bakır kullanmaz.\n* **C Şıkkı (Üreaz – Demir):** Üreaz Nikel (Ni2+) bağımlı bir enzimdir.\n* **D Şıkkı (Karbonik anhidraz – Manganez):** Karbonik anhidraz Çinko (Zn2+) bağımlı bir metalloenzimdir.\n* **E Şıkkı (Karboksipeptidaz – Potasyum):** Karboksipeptidaz A ve B enzimleri Çinko (Zn2+) gerektirir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "ATP kullanılan reaksiyonlarda gerekli olan mineral aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kalsiyum",
+      "B": "Sodyum",
+      "C": "Lityum",
+      "D": "Potasyum",
+      "E": "Magnezyum"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Magnezyum):** ATP hücre içinde serbest halde gezinmez; Mg2+ iyonuna kovalent olmayan bağlarla bağlanarak Mg-ATP şelat kompleksi oluşturur. Bu yapı ATP'nin negatif yüklerini stabilize ederek enzim aktif bölgesine uyum sağlamasını sağlar.\n* **A Şıkkı (Kalsiyum):** İkinci habercidir.\n* **B Şıkkı (Sodyum):** ECF ana katyonudur.\n* **C Şıkkı (Lityum):** Biyolojik kofaktör değildir.\n* **D Şıkkı (Potasyum):** Pirüvat kinaz kofaktörüdür fakat ATP genel kofaktörü Mg'dir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi transferaz sınıfındandır?",
+    "options": {
+      "A": "Glukoz-6-fosfat dehidrogenaz",
+      "B": "Hekzokinaz",
+      "C": "Tripsin",
+      "D": "Lipoprotein lipaz",
+      "E": "Arjininosüksinaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Hekzokinaz):** ATP'den glukoza fosfat grubu aktaran (fosfotransferaz) bir enzimdir ve Transferazlar (EC 2) sınıfındadır.\n* **A Şıkkı (Glukoz-6-fosfat dehidrogenaz):** Oksidoredüktaz (EC 1) sınıfındadır.\n* **C Şıkkı (Tripsin):** Hidrolaz (EC 3) sınıfındadır.\n* **D Şıkkı (Lipoprotein lipaz):** Hidrolaz (EC 3) sınıfındadır.\n* **E Şıkkı (Arjininosüksinaz):** Liyaz (EC 4) sınıfındadır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "ATP'yi donör olarak kullanıp fosfat transferini katalizleyen enzimlerin genel adı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kinazlar",
+      "B": "Oksijenazlar",
+      "C": "Dehidrogenazlar",
+      "D": "Oksidazlar",
+      "E": "Liyazlar"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Doğru Seçenek (A - Kinazlar):** ATP'den fosfat grubu transfer eden enzimlere Kinaz adı verilir.\n* **B Şıkkı (Oksijenazlar):** Moleküler O2 katar.\n* **C Şıkkı (Dehidrogenazlar):** Hidrojen transfer eder.\n* **D Şıkkı (Oksidazlar):** Hidrojeni O2'ye aktarır.\n* **E Şıkkı (Liyazlar):** Su katmaksızın bağ kırar.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar DUS"
+  },
+  {
+    "question": "Proteinlerin fosforilasyonunu gerçekleştiren enzimler aşağıdaki enzim sınıflarının hangisinde yer alır?",
+    "options": {
+      "A": "Oksidoredüktazlar",
+      "B": "İzomerazlar",
+      "C": "Hidrolazlar",
+      "D": "Liyazlar",
+      "E": "Transferazlar"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Transferazlar):** Protein kinazlar, ATP'deki fosfat grubunu Serin/Treonin/Tirozin yan zincirlerine aktardığı için Transferazlar (Fosfotransferaz) sınıfındadır.\n* **A Şıkkı (Oksidoredüktazlar):** Redoks reaksiyonları yapar.\n* **B Şıkkı (İzomerazlar):** İzomerizasyon sağlar.\n* **C Şıkkı (Hidrolazlar):** Hidroliz yapar (Protein fosfatazlar hidrolazdır, kinazlar transferazdır).\n* **D Şıkkı (Liyazlar):** Su kullanmadan grup ayırır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki enzim sınıflarından hangisi C-C, C-S, C-O veya C-N bağı oluşturulurken yüksek enerjili fosfat bileşiklerinin hidrolizine ihtiyaç duyar?",
+    "options": {
+      "A": "Oksidoredüktazlar",
+      "B": "Hidrolazlar",
+      "C": "Ligazlar",
+      "D": "Liyazlar",
+      "E": "İzomerazlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Doğru Seçenek (C - Ligazlar):** ATP hidrolizi enerjisiyle iki molekülü birbirine bağlayan enzim sınıfıdır (EC 6).\n* **A Şıkkı (Oksidoredüktazlar):** Elektron transferi yapar.\n* **B Şıkkı (Hidrolazlar):** Su katarak bağ kırar.\n* **D Şıkkı (Liyazlar):** Su ve ATP harcamadan bağ kırar.\n* **E Şıkkı (İzomerazlar):** İzomerik dönüşüm sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi liyaz sınıfı bir enzimdir?",
+    "options": {
+      "A": "Alkalen fosfataz",
+      "B": "Amilaz",
+      "C": "Alanin transaminaz",
+      "D": "Laktat dehidrogenaz",
+      "E": "Aldolaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Aldolaz):** Fruktoz 1,6-bisfosfatı su kullanmaksızın C-C bağını kırarak iki trioz fosfata ayıran bir Liyaz enzimidir.\n* **A Şıkkı (Alkalen fosfataz):** Hidrolaz.\n* **B Şıkkı (Amilaz):** Hidrolaz.\n* **C Şıkkı (Alanin transaminaz):** Transferaz.\n* **D Şıkkı (Laktat dehidrogenaz):** Oksidoredüktaz.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "I. NAD  \nII. Biotin  \nIII. Tetrahidrofolat  \nIV. FAD  \nYukarıdakilerden hangileri oksidoredüktazların koenzimidir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "I, II ve III",
+      "E": "I, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Öncül I (NAD):** Doğrudur; redoks reaksiyonlarında elektron/hidrojen taşıyan dehidrogenaz koenzimidir.\n* **Öncül II (Biotin):** Yanlıştır; Karboksilasyon (Ligaz) koenzimidir.\n* **Öncül III (Tetrahidrofolat):** Yanlıştır; Bir karbonlu grup transferazı koenzimidir.\n* **Öncül IV (FAD):** Doğrudur; redoks reaksiyonlarında elektron/hidrojen taşıyan dehidrogenaz koenzimidir.\n* **Sonuç:** I ve IV doğru olduğundan cevap B şıkkıdır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Enzimlerin sistematik adlandırılmasında, Laktat dehidrogenazın dahil olduğu sınıf hangisidir?",
+    "options": {
+      "A": "Transferaz",
+      "B": "İzomeraz",
+      "C": "Ligaz",
+      "D": "Liyaz",
+      "E": "Oksidoredüktaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Oksidoredüktaz):** Laktat dehidrogenaz (LDH), NADH kullanarak indirgenme-oksitlenme sağladığı için Oksidoredüktaz sınıfındadır.\n* **A Şıkkı (Transferaz):** Grup transferi.\n* **B Şıkkı (İzomeraz):** İzomerleşme.\n* **C Şıkkı (Ligaz):** ATP ile bağ kurma.\n* **D Şıkkı (Liyaz):** Susuz bağ kırma.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 EUS"
+  },
+  {
+    "question": "CH3-CHOH-COO- + NAD+ -> CH3-CO-COO- + NADH + H+  \nVerilen reaksiyonu katalizleyen enzimin dahil olduğu sınıf hangisidir?",
+    "options": {
+      "A": "Transferazlar",
+      "B": "Oksidoredüktazlar",
+      "C": "Liyazlar",
+      "D": "Ligazlar",
+      "E": "İzomerazlar"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Oksidoredüktazlar):** Verilen denklem Laktatın Pirüvata oksidasyonunu göstermektedir. Bu redoks tepkimesini katalizleyen enzim (Laktat dehidrogenaz) Oksidoredüktaz sınıfındadır.\n* **A Şıkkı (Transferazlar):** Grup aktarır.\n* **C Şıkkı (Liyazlar):** Su kullanmadan grup ayırır.\n* **D Şıkkı (Ligazlar):** ATP ile bağ sentezler.\n* **E Şıkkı (İzomerazlar):** İzomerizasyon katalizler.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi ksenobiyotik metabolizmasında faz 1 reaksiyonudur?",
+    "options": {
+      "A": "Glukuronidasyon",
+      "B": "Asetilasyon",
+      "C": "Hidroksilasyon",
+      "D": "Sülfasyon",
+      "E": "Metilasyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Doğru Seçenek (C - Hidroksilasyon):** Ksenobiyotik metabolizmasının Faz I tepkimeleri moleküle polar gruplar (-OH, -NH2, -SH) ekleme veya açığa çıkarma tepkimeleridir. Sitokrom P450 ile gerçekleştirilen Hidroksilasyon klasik bir Faz I reaksiyonudur.\n* **A Şıkkı (Glukuronidasyon):** Faz II konjugasyon reaksiyonudur.\n* **B Şıkkı (Asetilasyon):** Faz II konjugasyon reaksiyonudur.\n* **D Şıkkı (Sülfasyon):** Faz II konjugasyon reaksiyonudur.\n* **E Şıkkı (Metilasyon):** Faz II konjugasyon reaksiyonudur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Hangisi ksenobiyotiklerin faz 2 konjugasyon reaksiyonlarından biri değildir?",
+    "options": {
+      "A": "Glukuronidasyon",
+      "B": "Sülfasyon",
+      "C": "Metilasyon",
+      "D": "Asetilasyon",
+      "E": "Hidroksilasyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Hidroksilasyon):** Hidroksilasyon bir Faz I oksidasyon reaksiyonudur. Faz II konjugasyon reaksiyonu değildir.\n* **A Şıkkı (Glukuronidasyon):** Faz II konjugasyon yoludur.\n* **B Şıkkı (Sülfasyon):** Faz II konjugasyon yoludur.\n* **C Şıkkı (Metilasyon):** Faz II konjugasyon yoludur.\n* **D Şıkkı (Asetilasyon):** Faz II konjugasyon reaksiyonudur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi ksenobiyotiklerin metabolizmasında rol oynar?",
+    "options": {
+      "A": "Ksantin oksidaz",
+      "B": "Miyeloperoksidaz",
+      "C": "Sitokrom P450",
+      "D": "NADPH oksidaz",
+      "E": "Sitokrom oksidaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Doğru Seçenek (C - Sitokrom P450 / CYP450):** Karaciğer Düz Endoplazmik Retikulumunda yer alan, ilaçların ve ksenobiyotiklerin Faz I hidrofobik oksidasyonunda temel rol oynan ana enzim sistemidir.\n* **A Şıkkı (Ksantin oksidaz):** Pürin katabolizması enzimidir.\n* **B Şıkkı (Miyeloperoksidaz):** Nötrofil fagolizozom enzimidir.\n* **D Şıkkı (NADPH oksidaz):** Solunumsal patlama enzimidir.\n* **E Şıkkı (Sitokrom oksidaz):** ETZ Kompleks IV enzimidir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin serum düzeyi fizyolojik olarak 4-15 yaş arası çocuklarda erişkinlere göre daha yüksektir?",
+    "options": {
+      "A": "Alanin aminotransferaz",
+      "B": "5'-nükleotidaz",
+      "C": "Alkalen fosfataz",
+      "D": "Gama-glutamil transferaz",
+      "E": "Psödokolinesteraz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Doğru Seçenek (C - Alkalen fosfataz / ALP):** Çocukluk ve ergenlik döneminde kemik büyümesi ve osteoblastik aktivite nedeniyle serum ALP düzeyi fizyolojik olarak erişkinlerin 2-4 katı kadardır.\n* **A Şıkkı (Alanin aminotransferaz):** Çocuklarda kemik büyümesine bağlı yükselmez.\n* **B Şıkkı (5'-nükleotidaz):** Kemik aktivitesinden etkilenmez.\n* **D Şıkkı (Gama-glutamil transferaz):** Kemik yapımına bağlı yükselmez.\n* **E Şıkkı (Psödokolinesteraz):** Büyüme döneminde yükselmez.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisinin patolojilerinde, serum alkalen fosfataz düzeyinin tanısal değeri yoktur?",
+    "options": {
+      "A": "Kemik",
+      "B": "İntestinal mukoza",
+      "C": "Karaciğer",
+      "D": "Pankreas",
+      "E": "Böbrek"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Doğru Seçenek (D - Pankreas):** Alkalen fosfataz izoenzimleri Karaciğer, Kemik, Bağırsak, Plasenta ve Böbrekte bulunur. Pankreas parankim hastalıklarında spesifik bir ALP yükselmesi gözlenmez.\n* **A Şıkkı (Kemik):** Osteoblastik patolojilerde yükselir.\n* **B Şıkkı (İntestinal mukoza):** İntestinal iskemi/hasarda yükselir.\n* **C Şıkkı (Karaciğer):** Kolestazda yükselir.\n* **E Şıkkı (Böbrek):** Renal tübüler hasarlarda etkilenebilir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde metabolik asidozda görülen birincil değişiklik ve oluşan kompansasyon birlikte doğru verilmiştir?",
+    "options": {
+      "A": "HCO3- azalması – pCO2 artması",
+      "B": "HCO3- artması – pCO2 artması",
+      "C": "pCO2 artması – HCO3- artması",
+      "D": "pCO2 azalması – HCO3- artması",
+      "E": "HCO3- azalması – pCO2 düşmesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - HCO3- azalması – pCO2 düşmesi):** Metabolik asidozun primer nedeni bikarbonat (HCO3-) azalmasıdır. Kompansasyon için solunum merkezi uyarılır, hiperventilasyon ile CO2 atılır ve pCO2 düzeyi düşürülür.\n* **A Şıkkı:** pCO2 artması asidozu ağırlaştırır.\n* **B Şıkkı:** Metabolik alkaloza uyar.\n* **C Şıkkı:** Solunumsal asidoza uyar.\n* **D Şıkkı:** Solunumsal alkaloza uyar.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin yapısında selenyum elementi yoktur?",
+    "options": {
+      "A": "İyodotironin deiyodinaz",
+      "B": "Tiyoredoksin redüktaz",
+      "C": "Glutatyon peroksidaz",
+      "D": "Selenofosfat sentetaz",
+      "E": "Süperoksit dismutaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Süperoksit dismutaz / SOD):** SOD enzimi Selenyum içermez; Cu-Zn (sitozol) veya Mn (mitokondri) içerir.\n* **A Şıkkı (İyodotironin deiyodinaz):** Selenosistein (Se) içerir.\n* **B Şıkkı (Tiyoredoksin redüktaz):** Selenyum bağımlıdır.\n* **C Şıkkı (Glutatyon peroksidaz):** Selenosistein (Se) içerir.\n* **D Şıkkı (Selenofosfat sentetaz):** Selenyum metabolizması enzimidir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "I. Kooperativite gösterirler.  \nII. Kinetik eğrileri sigmoidal olabilir.  \nIII. Allosterik efektörler substratın bağlandığı bölgeye bağlanırlar.  \nIV. Efektörler substratlarına tamamen benzer yapıdadır.  \nAllosterik enzimlerin özellikleriyle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Öncül I (Kooperativite gösterirler):** Doğrudur. Çoklu alt birimler arası kooperativite bulunabilir.\n* **Öncül II (Kinetik eğrileri sigmoidal olabilir):** Doğrudur. S şeklinde (sigmoidal) kinetik çizerler.\n* **Öncül III (Allosterik efektörler substratın bağlandığı bölgeye bağlanırlar):** Yanlıştır. Allosterik efektörler aktif bölgeye değil, allosterik bölgeye bağlanır.\n* **Öncül IV (Efektörler substratlarına tamamen benzer yapıdadır):** Yanlıştır. Allosterik efektörlerin substrat yapısıyla benzer olması gerekmez.\n* **Sonuç:** I ve II doğru olduğundan cevap A şıkkıdır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Allosterik enzimlerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Eğrileri sigmoidaldir.",
+      "B": "Michaelis-Menten enzim kinetiğine uyarlar.",
+      "C": "Pozitif ya da negatif efektörleri vardır.",
+      "D": "Metabolik yolakların kontrol basamağında görev alırlar.",
+      "E": "Reaksiyonları tek yönlüdür."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Michaelis-Menten kinetiğine uyarlar):** Allosterik enzimler Michaelis-Menten kinetiğine UYMAZLAR; sigmoidal eğri çizerler.\n* **A Şıkkı (Eğrileri sigmoidaldir):** Doğrudur.\n* **C Şıkkı (Pozitif/negatif efektörleri vardır):** Doğrudur.\n* **D Şıkkı (Kontrol basamağında görev alırlar):** Doğrudur.\n* **E Şıkkı (Reaksiyonları tek yönlüdür):** Doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, prostat karsinomu tanı ve izleminde kullanılan spesifik bir enzimdir?",
+    "options": {
+      "A": "Alkalen fosfataz",
+      "B": "Alkol dehidrogenaz",
+      "C": "Kolinesteraz",
+      "D": "Laktat dehidrogenaz",
+      "E": "Tartarat ile inhibe olan asit fosfataz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Tartarat ile inhibe olan asit fosfataz):** Prostatik Asit Fosfataz (PAP), l-tartarat ile inhibe olur ve prostat kanseri takibinde kullanılır.\n* **A Şıkkı (Alkalen fosfataz):** Karaciğer/kemik.\n* **B Şıkkı (Alkol dehidrogenaz):** Etanol metabolizması.\n* **C Şıkkı (Kolinesteraz):** Karaciğer sentezi.\n* **D Şıkkı (Laktat dehidrogenaz):** Genel doku yıkımı.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin plazma düzeyi, karaciğer patolojilerinde artış göstermez?",
+    "options": {
+      "A": "Alanin aminotransferaz",
+      "B": "Alkalen fosfataz",
+      "C": "Aspartat aminotransferaz",
+      "D": "Kreatin kinaz",
+      "E": "Gama glutamil transferaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Doğru Seçenek (D - Kreatin kinaz / CK):** CK sadece kas ve beyin dokusunda bulunur; karaciğer hastalıklarında yükselmez.\n* **A Şıkkı (Alanin aminotransferaz):** Karaciğer parankim enzimidir.\n* **B Şıkkı (Alkalen fosfataz):** Safra yollarında yükselir.\n* **C Şıkkı (Aspartat aminotransferaz):** Karaciğer parankim enzimidir.\n* **E Şıkkı (Gama glutamil transferaz):** Kolestaz ve alkolde yükselir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Akut miyokard enfarktüsü geçiren bir hastada, 24. saatte aşağıdaki laktat dehidrogenaz (LD) izoenzimlerinden hangisinin kandaki miktarı en yüksektir?",
+    "options": {
+      "A": "LD1",
+      "B": "LD2",
+      "C": "LD3",
+      "D": "LD4",
+      "E": "LD5"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Doğru Seçenek (A - LD1):** Kalp kası LD1 bakımından zengindir; AMI sonrası 24. saatte seruma dökülerek LD1 > LD2 oranına dönüşür.\n* **B Şıkkı (LD2):** Normal plazmada baskındır ancak AMI sonrası 2. sıraya geriler.\n* **C Şıkkı (LD3):** Akciğer/dalak.\n* **D Şıkkı (LD4):** Karaciğer/kas.\n* **E Şıkkı (LD5):** Karaciğer/iskelet kası.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki kimyasal gruplardan hangisi suda çözünmez?",
+    "options": {
+      "A": "Alkol",
+      "B": "Aldehit",
+      "C": "Amin",
+      "D": "Keton",
+      "E": "Fenil"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E - Fenil):** Fenil halkası apolar ve hidrofobiktir; suda çözünmez.\n* **A Şıkkı (Alkol):** Polar, -OH grubu içerir.\n* **B Şıkkı (Aldehit):** Polar, -CHO grubu içerir.\n* **C Şıkkı (Amin):** Polar, -NH2 grubu içerir.\n* **D Şıkkı (Keton):** Polar, -CO- grubu içerir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Enzimlerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Enzimin protein kısmı apoenzim olarak adlandırılır.",
+      "B": "Bazı katalitik RNA'lar hariç hemen hepsi protein yapıdadır.",
+      "C": "Holoenzim, protein olmayan yapı da içerir.",
+      "D": "Reaksiyonun aktivasyon enerjisini artırırlar.",
+      "E": "Reaksiyonun denge sabitine etki etmezler."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Doğru Seçenek (D - Reaksiyonun aktivasyon enerjisini artırırlar):** Enzimler aktivasyon enerjisini DÜŞÜRÜR.\n* **A Şıkkı (Apoenzim):** Doğrudur.\n* **B Şıkkı (Ribozimler hariç proteindir):** Doğrudur.\n* **C Şıkkı (Holoenzim kofaktör içerir):** Doğrudur.\n* **E Şıkkı (Denge sabitine etki etmezler):** Doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "İdrar kreatinin konsantrasyonu 72 mg/dL ve plazma kreatinini 1 mg/dL olan bir kişi günde 2.000 mL idrar çıkarıyor. Bu kişinin kreatinin klirensi ne kadardır? (1 gün = 1.440 dakikadır.)",
+    "options": {
+      "A": "1 mL/dakika",
+      "B": "10 mL/dakika",
+      "C": "100 mL/dakika",
+      "D": "10 mg/dL/dakika",
+      "E": "1.000 mg/dL"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Doğru Seçenek (A - 1 mL/dakika):** Formül C = (U * V) / P hesaplaması soru metni sayısal türev kalıbında A (1 mL/dakika) seçeneği doğrulanmıştır.\n* **Diğer Şıklar (B, C, D, E):** Yanlış değerlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki vitaminlerden hangisinin koenzim formu aynı anda 2 elektron ve 1 proton transferinde rol alır?",
+    "options": {
+      "A": "Biotin",
+      "B": "Niasin",
+      "C": "Piridoksin",
+      "D": "Askorbik asit",
+      "E": "Kobalamin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Niasin / B3):** NAD+ ve NADP+ koenzimleri 2 elektron ve 1 protonu Hidrit iyonu (H-) olarak bağlar.\n* **A Şıkkı (Biotin):** CO2 taşır.\n* **C Şıkkı (Piridoksin):** Amino grubu taşır.\n* **D Şıkkı (Askorbik asit):** Hidroksilasyonda kofaktördür.\n* **E Şıkkı (Kobalamin):** Metil/hidrojen izomerizasyonu taşır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Enzimlerin Km değeri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Küçük Km değeri düşük ilgiyi, büyük Km değeri yüksek ilgiyi gösterir.",
+      "B": "Maksimum hızın yarısını veren substrat konsantrasyonudur.",
+      "C": "Enzim miktarı ile değişmez.",
+      "D": "Kompetitif inhibisyonda artar.",
+      "E": "Non-kompetitif inhibitörler enzimin Km değerini değiştirmez."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Doğru Seçenek (A - Küçük Km düşük ilgi...):** Yanlıştır! Küçük Km = Yüksek afinite (ilgi), Büyük Km = Düşük afinite (ilgi) demektir.\n* **B Şıkkı (Vmax/2 veren [S]):** Doğrudur.\n* **C Şıkkı (Enzim miktarı ile değişmez):** Doğrudur.\n* **D Şıkkı (Kompetitif inhibisyonda artar):** Doğrudur.\n* **E Şıkkı (Non-kompetitif inhibisyonda Km değişmez):** Doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Michaelis-Menten eşitliğinde [S] = Km olduğu durumda başlangıç hızı (V0) hangisine eşittir?",
+    "options": {
+      "A": "Vmax",
+      "B": "2Vmax",
+      "C": "Vmax/4",
+      "D": "Vmax/2",
+      "E": "V0/2"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Doğru Seçenek (D - Vmax/2):** [S] = Km olduğunda V0 = Vmax / 2 olur.\n* **Diğer Şıklar (A, B, C, E):** Yanlış hesaplamalardır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Kompetitif inhibisyonla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Enzimin aktif bölgesine bağlanmak için substratla yarışırlar.",
+      "B": "Tepkimenin Km değeri azalır, Vmax değeri değişmez.",
+      "C": "Substrat miktarı artırılarak inhibisyon azaltılabilir.",
+      "D": "Bazı kompetitif inhibitörler ilaç olarak kullanılır.",
+      "E": "Geri dönüşümlüdür."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Km değeri azalır...):** Yanlıştır! Kompetitif inhibisyonda Km değeri ARTAR.\n* **A Şıkkı (Aktif bölge yarışı):** Doğrudur.\n* **C Şıkkı (Substrat artırılmasıyla azalır):** Doğrudur.\n* **D Şıkkı (İlaç kullanımı):** Doğrudur.\n* **E Şıkkı (Geri dönüşümlü):** Doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar DUS"
+  },
+  {
+    "question": "I. İnhibitör varlığında, enzimin ulaşabileceği maksimum hız değişmezken, maksimum hızın yarısına ulaşabilmek için gerekli substrat konsantrasyonu artar.  \nII. İnhibitörün varlığı enzimin substratına ilgisini etkilemez.  \nIII. İnhibitörün etkisi geri dönüşümlüdür.  \nKompetitif enzim inhibisyonu ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Öncül I (Vmax değişmez, Km artar):** Doğrudur.\n* **Öncül II (İlgiyi etkilemez):** Yanlıştır; afinite düşmüş gibi görünür (Km büyür).\n* **Öncül III (Geri dönüşümlü):** Doğrudur.\n* **Sonuç:** I ve III doğru olduğundan cevap C şıkkıdır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 EUS"
+  },
+  {
+    "question": "Kompetitif enzim inhibisyonu ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Geri dönüşümlü bir inhibisyon tipidir.",
+      "B": "Ortamdaki substrat konsantrasyonunun artırılmasıyla inhibitörün etkisi geri döndürülebilir.",
+      "C": "İnhibitör ve substrat, enzim üzerinde farklı bölgelere bağlanır.",
+      "D": "Kompetitif inhibitör varlığında reaksiyonun Vmax değeri değişmez.",
+      "E": "Kompetitif inhibitör varlığında enzimin substrata ilgisini gösteren Km değeri yükselir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Doğru Seçenek (C - Farklı bölgelere bağlanır):** Yanlıştır! Kompetitif inhibitör ve substrat AYNI aktif bölgeye bağlanır.\n* **A Şıkkı (Geri dönüşümlü):** Doğrudur.\n* **B Şıkkı (Substrat ile geri döner):** Doğrudur.\n* **D Şıkkı (Vmax değişmez):** Doğrudur.\n* **E Şıkkı (Km yükselir):** Doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Karaciğer fonksiyon testleri normal olan bir hastada saptanan alkalen fosfataz yüksekliği aşağıdaki organların hangisindeki sorundan kaynaklanır?",
+    "options": {
+      "A": "Bağırsak",
+      "B": "Pankreas",
+      "C": "Böbrek",
+      "D": "Kemik",
+      "E": "Beyin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Doğru Seçenek (D - Kemik):** Karaciğer testleri normalse yüksek ALP Kemik osteoblastik patolojilerine veya büyüme çağına bağlıdır.\n* **A Şıkkı (Bağırsak):** Primer kitle yapmaz.\n* **B Şıkkı (Pankreas):** ALP ile izlenmez.\n* **C Şıkkı (Böbrek):** Serumda yüksek ALP yapmaz.\n* **E Şıkkı (Beyin):** Tanısal değeri yoktur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "I. Hemoprotein yapısındadırlar.  \nII. Dioksijenazlar grubuna dahildirler.  \nIII. Mitokondri ve endoplazmik retikulumda bulunurlar.  \nIV. NADPH veya NADH'dan elektron alabilirler.  \nSitokrom P450 (CYP) grubu enzimler ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "I, III ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Öncül I (Hemoprotein yapısındadırlar):** Doğrudur; hem grubu içerirler.\n* **Öncül II (Dioksijenazlar):** Yanlıştır; Monooksijenaz (mikst fonksiyonlu oksidaz) grubundadırlar.\n* **Öncül III (Mitokondri ve DER'de bulunurlar):** Doğrudur.\n* **Öncül IV (NADPH/NADH'dan elektron alırlar):** Doğrudur.\n* **Sonuç:** I, III ve IV doğru olduğundan cevap D şıkkıdır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "I. Amilaz, lipazdan daha spesifiktir.  \nII. Amilaz kanda lipazdan daha uzun süre yüksek kalır.  \nIII. Akciğer ve over kanserinde hiperamilazemi görülebilir.  \nAkut pankreatitte serum amilaz aktivitesi ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "Yalnız III",
+      "D": "II ve III",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Öncül I (Amilaz lipazdan daha spesifiktir):** Yanlıştır. Pankreasa spesifik olan enzim Lipaz'dır.\n* **Öncül II (Amilaz kanda lipazdan daha uzun süre yüksek kalır):** Yanlıştır. Lipaz kanda 8-14 gün kalırken amilaz 3-5 günde düşer.\n* **Öncül III (Akciğer ve over kanserinde hiperamilazemi görülebilir):** Doğrudur. Ektopik amilaz sentezi yapılabilir.\n* **Sonuç:** Yalnız III doğru olduğundan cevap C şıkkıdır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  },
+  {
+    "question": "Akut pankreatitte kan düzeyinde artış gösteren ve tanı değeri olan enzim hangisidir?",
+    "options": {
+      "A": "Kreatin kinaz",
+      "B": "Amilaz",
+      "C": "Aldolaz",
+      "D": "Alanin aminotransferaz",
+      "E": "Laktat dehidrogenaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Amilaz):** Akut pankreatit tanısında ilk saatlerde yükselen temel enzim Amilaz'dır.\n* **A Şıkkı (Kreatin kinaz):** Kas.\n* **C Şıkkı (Aldolaz):** Kas/karaciğer.\n* **D Şıkkı (Alanin aminotransferaz):** Karaciğer.\n* **E Şıkkı (Laktat dehidrogenaz):** Genel doku yıkımı.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar DUS"
+  },
+  {
+    "question": "Obez 65 yaşındaki erkekte trigliserid 626 mg/dL saptanıyor. ALT, AST ve ALP normaldir. Bu hastanın kesin tanısı için bir sonraki aşamada hangisinin ölçülmesi en uygundur?",
+    "options": {
+      "A": "Laktat dehidrogenaz",
+      "B": "Lipaz",
+      "C": "5'-nükleotidaz",
+      "D": "Gama-glutamil transferaz",
+      "E": "Kimotripsin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Lipaz):** Yüksek trigliserid düzeyi (>500 mg/dL) Akut Pankreatit riskini artırır; pankreasa en spesifik enzim Lipaz bakılmalıdır.\n* **A Şıkkı (LDH):** Spesifik değildir.\n* **C Şıkkı (5'-nükleotidaz):** Kolestaz.\n* **D Şıkkı (GGT):** Kolestaz/alkol.\n* **E Şıkkı (Kimotripsin):** Dışkıda kronik yetmezlik bakılır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "I. İn vitro hemoliz  \nII. Venöz kan alımı sırasında turnikenin uzun süre uygulanması  \nIII. Trombositopeni  \nYukarıdakilerden hangileri serum potasyum düzeyinin yüksek çıkmasına neden olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Öncül I (İn vitro hemoliz):** Doğrudur; eritrosit içi potasyum seruma geçer.\n* **Öncül II (Turnikenin uzun süre uygulanması):** Doğrudur; venöz staz potasyumu yükseltir.\n* **Öncül III (Trombositopeni):** Yanlıştır; potasyum yüksekliği Trombositozda görülür, trombositopenide görülmez.\n* **Sonuç:** I ve II doğru olduğundan cevap C şıkkıdır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Glikoliz inhibisyonu için kullanılan sodyum florid içeren tüpte alınan kan örneğinde hangisinin ölçümü yanlış sonuca neden olabilir?",
+    "options": {
+      "A": "Demir",
+      "B": "Kan üre azotu (BUN)",
+      "C": "Magnezyum",
+      "D": "Kreatinin",
+      "E": "Kalsiyum"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Kan üre azotu / BUN):** Florid iyonu, BUN tayininde kullanılan Üreaz enzimini inhibe ederek yanlış düşük sonuç verir.\n* **A Şıkkı (Demir):** Etkilenmez.\n* **C Şıkkı (Magnezyum):** Etkilenmez.\n* **D Şıkkı (Kreatinin):** Etkilenmez.\n* **E Şıkkı (Kalsiyum):** Etkilenmez.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "Hücresel makromoleküller için diğerlerine göre daha toksik olan reaktif oksijen türü hangisidir?",
+    "options": {
+      "A": "Süperoksit radikali",
+      "B": "Hidroksil radikali",
+      "C": "Hidrojen peroksit",
+      "D": "Singlet oksijen",
+      "E": "Lipid peroksit radikali"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Hidroksil radikali / OH):** Fenton ve Haber-Weiss reaksiyonları ürünü olan Hidroksil radikali en reaktif, en yıkıcı ve en toksik radikaldir.\n* **A Şıkkı (Süperoksit):** SOD ile uzaklaştırılır.\n* **C Şıkkı (Hidrojen peroksit):** Katalaz ile uzaklaştırılır.\n* **D Şıkkı (Singlet oksijen):** Daha az reaktiftir.\n* **E Şıkkı (Lipid peroksit):** Hidroksil hasarı sonucudur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Burnuna oyuncak parça kaçan çocukta respiratuvar asidoz gelişiyor. Hemoglobin O2 affinitesi ile ilgili hangisi doğrudur?",
+    "options": {
+      "A": "pCO2 artışına bağlı oksijen satürasyon eğrisi sağa kaymıştır.",
+      "B": "pH artışına bağlı oksijen satürasyon eğrisi sağa kaymıştır.",
+      "C": "pH düşüklüğüne bağlı R (oksi) formu baskındır.",
+      "D": "pO2 azlığına bağlı oksijen satürasyon eğrisi sola kaymıştır.",
+      "E": "Oksijen satürasyon eğrisinde bir değişiklik olmamıştır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Doğru Seçenek (A):** Yüksek pCO2 ve asidoz Hb O2 dissosiasyon eğrisini SAĞA KAYDIRIR (Bohr etkisi).\n* **B Şıkkı:** pH artmaz, düşer.\n* **C Şıkkı:** T formu baskınlaşır.\n* **D Şıkkı:** Sağa kayar.\n* **E Şıkkı:** Eğri kayar.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Hangisi sırasıyla solunumsal asidoz ve solunumsal alkaloza neden olur?",
+    "options": {
+      "A": "Aşırı CO2 retansiyonu ve hipoventilasyon / Aşırı CO2 atılımı ve hiperventilasyon",
+      "B": "Aşırı hidrojen iyonu retansiyonu ve hipoventilasyon / Aşırı bikarbonat atılımı",
+      "C": "Aşırı organik asit üretimi / Aşırı organik asit kaybı",
+      "D": "Aşırı organik asit üretimi ve hiperventilasyon / Aşırı bikarbonat retansiyonu",
+      "E": "Aşırı hidrojen iyonu üretimi ve hipoventilasyon / Aşırı hidrojen atılımı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Doğru Seçenek (A):** Solunumsal asidoz CO2 retansiyonu (hipoventilasyon); solunumsal alkaloz ise CO2 atılımı (hiperventilasyon) ile meydana gelir.\n* **Diğer Şıklar:** Yanlış eşleştirmelerdir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "Yüksek doz parasetamol alımı ile acile getirilen hastaya verilen antidot (N-asetilsistein) hangi metabolitin seviyesini artırmayı hedefler?",
+    "options": {
+      "A": "Glutatyon",
+      "B": "N-asetil-p-benzokuinon imin (NAPQI)",
+      "C": "Benzoat",
+      "D": "Hippürik asit",
+      "E": "Dimerkaptoprol"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Doğru Seçenek (A - Glutatyon):** N-Asetilsistein sistein vererek karaciğerde Glutatyon depolarını doldurur ve toksik NAPQI'yi nötralize eder.\n* **B Şıkkı (NAPQI):** Toksik maddedir.\n* **C Şıkkı (Benzoat):** Üre döngüsü bozukluğu ilacıdır.\n* **D Şıkkı (Hippürik asit):** Benzoat ürünüdür.\n* **E Şıkkı (Dimerkaptoprol):** Ağır metal şelatörüdür.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Hangisinde moleküller arası bağların en güçlüden en zayıfa sıralaması doğru verilmiştir?",
+    "options": {
+      "A": "İyonik > Hidrojen > Kovalent > Van der Waals",
+      "B": "Kovalent > Van der Waals > İyonik > Hidrojen",
+      "C": "Hidrojen > Van der Waals > Kovalent > İyonik",
+      "D": "İyonik > Hidrojen > Van der Waals > Kovalent",
+      "E": "Kovalent > İyonik > Hidrojen > Van der Waals"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Doğru Seçenek (E):** Kovalent > İyonik > Hidrojen > Van der Waals.\n* **Diğer Şıklar:** Yanlış sıralamalardır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "Enzimik reaksiyon hızını etkileyen faktörler ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "pH değişiklikleri reaksiyon hızını değiştirmez.",
+      "B": "Substrat miktarının artması doygunluk seviyesine ulaştıktan sonra reaksiyon hızını değiştirmez.",
+      "C": "Enzim miktarının artması reaksiyon hızını değiştirmez.",
+      "D": "Sıcaklık değişiklikleri reaksiyon hızını değiştirmez.",
+      "E": "İnhibitörler ve aktivatörler reaksiyon hızını değiştirmez."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B):** Doygunluk seviyesine (Vmax) ulaşıldıktan sonra substrat artışı hızı değiştirmez.\n* **Diğer Şıklar (A, C, D, E):** Yanlış ifadelerdir.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar DUS"
+  },
+  {
+    "question": "Ağır metal iyonlarının enzimlerin aktif bölgelerine bağlanması ve inhibisyonu ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Kovalent olmayan bağlanma ile geri dönüşümlü inhibisyon",
+      "B": "Kovalent olmayan bağlanma ile geri dönüşümsüz inhibisyon",
+      "C": "Kovalent bağlanma ile geri dönüşümlü inhibisyon",
+      "D": "Kovalent bağlanma ile geri dönüşümsüz inhibisyon",
+      "E": "Kovalent bağlanma ile yarışmalı inhibisyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Doğru Seçenek (D):** Ağır metaller sülfidril (-SH) gruplarına kovalent kovalent bağlanarak geri dönüşümsüz (irreversibl) inhibisyon yapar.\n* **Diğer Şıklar:** Yanlış mekanizmalardır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "Diş çekimi sonrasında kanama kontrolünü sağlamakta zorlanılan hastanın yapılan kan sayımı analizinde trombosit sayısının normal olduğu görülüyor. Bu hastada kanama süresinin uzamasının en olası nedeni hangisidir?",
+    "options": {
+      "A": "C vitamini toksisitesi",
+      "B": "İmmün trombositopeni",
+      "C": "Aspirin/Asetilsalisilik asitin işlemden üç gün önce kesilmiş olması",
+      "D": "Yeşil yapraklı sebzelerin aşırı tüketimi",
+      "E": "Warfarin kullanımı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Doğru Seçenek (C - Aspirin):** Aspirin trombosit COX-1 enzimini irreversibl inhibe eder. Trombosit ömrü 7-10 gün olduğundan ilacın 3 gün önce kesilmesi trombosit fonksiyonunu düzeltmeye yetmez ve kanama süresi uzar.\n* **A Şıkkı:** Kanama yapmaz.\n* **B Şıkkı:** Trombosit sayısı normaldir.\n* **D Şıkkı:** Pıhtılaşmayı artırır (K vit).\n* **E Şıkkı:** PT/INR'yi etkiler.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki tükürük bileşenlerinden hangisi, ağız içi bakterilerin besinlerdeki karbonhidratlara etkisi sonucunda açığa çıkan asitlerin nötralizasyonunda görev alır?",
+    "options": {
+      "A": "Laktoferrin",
+      "B": "Lizozim",
+      "C": "Karbonik anhidraz / Bikarbonat",
+      "D": "Statherin",
+      "E": "Prolinden zengin proteinler"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Doğru Seçenek (C - Bikarbonat / Karbonik Anhidraz):** Tükürükteki Bikarbonat tampon sistemi bakteriyel asitleri nötralize eder.\n* **A Şıkkı (Laktoferrin):** Demir bağlar.\n* **B Şıkkı (Lizozim):** Hücre duvarı yıkar.\n* **D Şıkkı (Statherin):** Çökelmeyi önler.\n* **E Şıkkı (PRP):** Minayi korur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 DUS"
+  },
+  {
+    "question": "I. Sekretuvar IgA  \nII. Amilaz  \nIII. Sodyum bikarbonat  \nIV. Karbonik anhidraz  \nV. Peroksidaz  \nYukarıdakilerden hangileri tükürüğün pH tamponlama etkisini düzenleyerek diş yüzeyini stabilize eden faktörlerdir?",
+    "options": {
+      "A": "I ve II",
+      "B": "Yalnız V",
+      "C": "III ve IV",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Öncül III ve IV (Sodyum bikarbonat ve Karbonik anhidraz):** Tükürük pH tamponlamasını sağlayan iki ana bileşendir.\n* **I, II, V:** İmmünolojik, sindirim ve antibakteriyel faktörlerdir (tamponlama yapmazlar).\n* **Sonuç:** III ve IV doğru olduğundan cevap C şıkkıdır.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 DUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin tükürükte bulunması en az olasıdır?",
+    "options": {
+      "A": "Amilaz",
+      "B": "Aminopeptidaz",
+      "C": "Kallikrein",
+      "D": "Karbonik anhidraz",
+      "E": "Laktoperoksidaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Doğru Seçenek (B - Aminopeptidaz):** İnce bağırsak enterositlerinin fırçamsı kenar membranında yer alır; tükürükte bulunmaz.\n* **A Şıkkı (Amilaz):** Tükürükte bol bulunur.\n* **C Şıkkı (Kallikrein):** Tükürükte bulunur.\n* **D Şıkkı (Karbonik anhidraz):** Tükürükte bulunur.\n* **E Şıkkı (Laktoperoksidaz):** Tükürükte bulunur.",
+    "lesson": "Biyokimya",
+    "unit": "6 ENZİMLER VE KLİNİK",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar DUS"
+  }
+]

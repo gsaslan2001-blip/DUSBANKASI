@@ -1,0 +1,1311 @@
+[
+  {
+    "question": "Aşağıdakilerin hangisinde seramiğin yapısında çatlak ilerlemesini önleyen, yapısal hacim artışı meydana gelebilir?",
+    "options": {
+      "A": "Feldspatik seramiğe glazür uygulaması",
+      "B": "Zirkonyanın faz değişimi göstermesi",
+      "C": "Poröz haldeki alüminaya cam infiltrasyonu",
+      "D": "Feldspatik seramiğe termal temperleme uygulanması",
+      "E": "Feldspatik seramiğin fırınlanma sayısının artırılması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Zirkonyum oksit ($ZrO_2$) seramikler ısıtılıp soğutulurken faz transformasyonu gösterir. \n- **B) Zirkonyanın faz değişimi göstermesi:** Oda sıcaklığında monoklinik fazda olan zirkonya, ısıtıldığında tetragonal faza geçer. Malzemede bir çatlak oluştuğunda çatlak ucundaki gerilim stresi tetragonal fazı monoklinik faza dönüştürür. Monoklinik faza geçiş sırasında **%3-5 oranında hacimsel genleşme (artışı)** meydana gelir. Bu genleşme oluşan çatlağı sıkıştırarak ilerlemesini durdurur (\"dönüşüm sertleşmesi\" / \"transformation toughening\").\n- **A) Feldspatik seramiğe glazür uygulaması:** Yüzey pürüzsüzlüğü ve estetik parlaklık sağlar, hacimsel genleşme mekanizmasıyla çatlak engellemez.\n- **C) Poröz alüminaya cam infiltrasyonu:** Poroziteleri doldurarak yoğunluğu artırır (In-Ceram teknolojisi), faz dönüşümlü hacim artışı değildir.\n- **D) Termal temperleme:** Yüzeyde sıkışma gerilimi oluşturur, faz değişimi genleşmesi değildir.\n- **E) Fırınlanma sayısının artırılması:** Aşırı fırınlama devitrifikasyona ve yapının zayıflamasına yol açar.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2018 Orijinal",
+    "q_num": 7,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki görselde (veya anlatımda) seramikte çatlak ilerlemesi önlenirken, materyalin mekanik olarak daha dayanıklı hale geldiği yapısal durum tanımlanmaktadır. Bu duruma örnek bir prosedür aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Zirkonyanın faz değişimi göstermesi",
+      "B": "Feldspatik seramikte glazür uygulanması",
+      "C": "Poröz haldeki alüminaya cam infiltrasyonu",
+      "D": "Feldspatik seramiğe termal temperleme uygulanması",
+      "E": "Feldspatik seramiğin fırınlanma sayısının artırılması"
+    },
+    "correctAnswer": "A",
+    "explanation": "- **A) Zirkonyanın faz değişimi göstermesi:** Çatlak ucunda meydana gelen lokal stresin etkisiyle tetragonal kristal taneciklerinin monoklinik faza dönüşerek hacimsel olarak büyümesi, çatlağa baskı uygulayıp ilerlemesini kilitler. Bu olgu zirkonyaya özel \"faz dönüşüm sertleşmesi\"dir.\n- **B, C, D, E Şıkları:** Diğer işlemler yüzey sertliği, estetik veya matris yoğunlaştırma sağlasa da kristal seviyesinde hacimsel genleşmeyle çatlak kilitlenmesini sağlayan mekanizma zirkonya faz dönüşümüdür.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 8,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen porselen güçlendirme yöntemlerinden hangisi zirkonyanın faz değişimi yoluyla materyalin daha dayanıklı formunun sürdürülmesine yardımcı yöntemdir?",
+    "options": {
+      "A": "Rezidüel sıkıştırıcı stres geliştirmek",
+      "B": "Fırınlama sayısını minimize etmek",
+      "C": "Dönüşüm sertleştirmesi",
+      "D": "Termal sertleştirme",
+      "E": "Kimyasal sertleştirme"
+    },
+    "correctAnswer": "C",
+    "explanation": "Zirkonyum oksitin oda sıcaklığına soğutulması sırasında yüksek dayanıklı tetragonal fazdan monoklinik faza dönüşümü kontrol edilerek (itriyum oksit eklenerek stabilizasyon sağlanır) yapılan sertleştirme mekanizmasına **dönüşüm sertleştirmesi (transformation toughening)** denir.\n- **A) Rezidüel sıkıştırıcı stres:** Yüzeyde basınç gerilimi oluşturma yöntemidir.\n- **B) Fırınlama sayısını minimize etmek:** Devitrifikasyonu önlemek için uygulanan klinik kuraldır.\n- **C) Dönüşüm sertleştirmesi:** Çatlak enerjisiyle faz değiştiren ve hacimce büyüyerek çatlığı hapseden zirkonyum oksit mekanizmasının spesifik adıdır.\n- **D ve E) Termal / Kimyasal sertleştirme:** Cam seramiklerde yüzey iyon değişimi veya temperleme ile yapılan sertleştirmelerdir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 9,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dental porselenin fazla fırınlanmasına bağlı olarak, kristalin presipitasyonu sonucu translüsensisini kaybedip bulutsu bir görüntü oluşmasına ne ad verilir?",
+    "options": {
+      "A": "Cam infiltrasyonu",
+      "B": "Nem korozyonu",
+      "C": "Sinterizasyon",
+      "D": "Devitrifikasyon",
+      "E": "Oksidasyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Dental porselenlerin aşırı veya tekrar tekrar fırınlanması porselen içerisindeki camsı (amorf) yapının düzensiz kristal yapıya dönüşmesine yol açar.\n- **A) Cam infiltrasyonu:** Poröz seramik altyapıların içine erimiş camın emdirilerek dayanıklılığın artırılması işlemidir.\n- **B) Nem korozyonu:** Metal yüzeylerin veya porselenin su/nem etkisiyle kimyasal bozulmasıdır.\n- **C) Sinterizasyon:** Porselen tozu partiküllerinin erime sıcaklığının altındaki ısıda birbirine kaynayarak yoğunlaşması işlemidir.\n- **D) Devitrifikasyon:** Porselenin gereğinden fazla veya yüksek ısıda pişirilmesi sonucu amorf camsı fazın kristalleşerek opaklaşması, saydamlığını (translüsensisini) kaybedip mat/bulutsu görünüm almasıdır.\n- **E) Oksidasyon:** Metal-seramik restorasyonlarda metal yüzeyinde tutunmayı sağlayan oksit tabakasının fırınlama esnasında oluşturulmasıdır (degassing).",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "q_num": 10,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Porselenin en az iki kez fırınlanması  \nII. Moleküllerin camsı faza geçişinin artması  \nIII. Restorasyonun ışığı daha fazla geçirmesi  \n\n**Yukarıda verilenlerden hangisi ya da hangilerinin devitrifiye olmuş dental porselen yüzeyi ile ilişkilendirilmesi olasılığı mevcuttur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "- **I. Öncül - DOĞRUDUR:** Porselenin tekrar tekrar (örneğin en az iki veya daha fazla kez) fırınlanması devitrifikasyon riskini (kristalleşerek matlaşmayı) doğrudan tetikler.\n- **II. Öncül - YANLIŞTIR:** Devitrifikasyon, moleküllerin camsı faza geçişi değil; aksine camsı fazdan aşırı KRİSTAL FAZA geçişidir.\n- **III. Öncül - YANLIŞTIR:** Devitrifikasyona uğrayan porselen translüsensisini kaybeder, matlaşır ve ışığı daha az geçirir.\n- **A, B, C, D, E Şıkları:** Yalnız I doğru olduğundan cevap A seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 11,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dental porselenlerin üretiminde son basamak olarak kullanılan işlem 'sinterizasyon' olarak adlandırılır. Aşağıda verilen klinik ve laboratuvar uygulamalardan hangisinin, bu işlemin başarısının negatif yönde etkilenmesine neden olacağı düşünülebilir?",
+    "options": {
+      "A": "Porselenin ekstra olarak ısıl işleme tabi tutulması",
+      "B": "Materyale ait partiküllerin eriyerek birleşmesi",
+      "C": "Partiküllerin katmanlar halinde daha büyük kütlelere dönüşmesi",
+      "D": "Final porselenin pürüzlülüğünün artırılması",
+      "E": "Porselenin basınca daha dayanıklı bir yapıya ulaştırılması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Sinterleme, porselen toz partiküllerinin ısı etkisiyle tam erimeden birbirine bağlanması, pürüzsüz, yoğun ve dayanıklı bir yüzey oluşturması işlemidir.\n- **A, B, C, E Şıkları:** Sinterizasyonun temel amaçları ve olumlu aşamalarıdır (partiküllerin birleşmesi, yoğun kütle oluşumu, basınca dayanıklılık).\n- **D) Final porselenin pürüzlülüğünün artırılması:** Sinterizasyon işlemi porselenin porozitelerini azaltıp pürüzsüzleşmesini amaçlar. Pürüzlülüğün artması başarısızlığa, plak birikimine ve aşınmaya yol açan olumsuz (negatif) bir durumdur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 12,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi geçici kron materyali olarak kullanılan polimetilmetakrilatın (PMMA) belirgin özelliklerinden biridir?",
+    "options": {
+      "A": "Polimerizasyon sırasında ısı artışı çok düşüktür.",
+      "B": "Sertleşme sırasında hacimsel büzülme göstermez.",
+      "C": "Polis yapılma özelliği açısından dezavantajlıdır.",
+      "D": "Kuvvete karşı dayanımı yüksek olan bir malzemedir.",
+      "E": "Prepare edilen dişin basamak kısmına uyumunda sorun oluşturur."
+    },
+    "correctAnswer": "D",
+    "explanation": "Polimetilmetakrilatın (PMMA) temel avantajı yüksek mekanik dayanıklılığı, iyi marjinal uyumu ve mükemmel parlatılabilmesidir.\n- **A) Isı artışı:** YANLIŞTIR, ekzotermik reaksiyonu nedeniyle yüksek polimerizasyon ısı artışı gösterir.\n- **B) Büzülme:** YANLIŞTIR, yüksek hacimsel polimerizasyon büzülmesi gösterir.\n- **C) Polis:** YANLIŞTIR, mükemmel derecede iyi parlatılabilir.\n- **D) Kuvvete karşı dayanımı yüksek:** DOĞRUDUR, PMMA'nın en belirgin klinik avantajı mekanik direncinin ve kuvvete karşı dayanıklılığının yüksek olmasıdır.\n- **E) Basamak uyumu:** Parlatılabilirliği ve kenar uyumu iyidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 20,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, geçici sabit restorasyon yapımında kullanılmaz?",
+    "options": {
+      "A": "Polimetilmetakrilat",
+      "B": "Polietilmetakrilat",
+      "C": "Polivinilletilmetakrilat",
+      "D": "Polivinil siloksan",
+      "E": "Bis-akril kompozit"
+    },
+    "correctAnswer": "D",
+    "explanation": "- **A, B, C, E) PMMA, PEMA, PVEMA, Bis-akril kompozit:** Tümü geçici kron, köprü, inley ve veneer yapımında kullanılan rezin esaslı restoratif materyallerdir.\n- **D) Polivinil siloksan:** İlave reaksiyonlu silikon esaslı bir **ölçü materyalidir**, restoratif geçici kron malzemesi değildir.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 22,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ardışık resimlerde (veya klinik adım adım aşamalarda) kişiye özgü hazırlanmayıp doğrudan hazır boyutsal denenerek uygulanan geçici kron yapım tekniğinde gösterilen materyal aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Poli metil metakrilat",
+      "B": "Poli etil metakrilat",
+      "C": "Polivinil etil metakrilat",
+      "D": "Polikarbonat",
+      "E": "Bis-akril kompozit rezin"
+    },
+    "correctAnswer": "D",
+    "explanation": "- **D) Polikarbonat:** Diş renginde prefabrik (hazır) geçici kronlardır. Ağızda kesilmiş dişe uygun boyuttaki hazır polikarbonat kron seçilip uyumlanarak simante edilir.\n- **A, B, C, E Şıkları:** Ağızda veya modelde kişiye özel (şahsi) hazırlanan akrilik/kompozit esaslı geçici materyallerdir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 24,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Feldspatik porselen  \nII. Alüminyum  \nIII. Polikarbonat  \nIV. Paslanmaz çelik  \nV. Selüloz asetat  \n\n**Yukarıdaki materyallerden hangisi ya da hangileri prefabrik geçici sabit kron protezlerde kullanılmaz?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "I, IV ve V",
+      "E": "III, IV ve V"
+    },
+    "correctAnswer": "A",
+    "explanation": "- **I. Öncül (Feldspatik porselen):** Daimi protezlerde kullanılan seramik materyalidir, prefabrik geçici kron yapımında yer almaz.\n- **II, III, IV, V. Öncüller:** Alüminyum, polikarbonat, paslanmaz çelik ve selüloz asetat prefabrik (hazır) geçici kron materyalleridir.\n- Bu nedenle cevap A şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 26,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Yüzeyindeki ince yapışkan oksit tabakası, biyolojik uyumu ve korozyon direncini sağlar.  \nII. Düşük özgül ağırlığı, ağırlıkça daha hafif restorasyonların üretilmesine imkan verir.  \nIII. Yüksek erime sıcaklığı ve oksijenle oksitleşme eğilimi nedeniyle geleneksel döküm yöntemleriyle elde edilmeleri zordur.  \nIV. Döküm sırasında sövetman ile reaksiyonu sonucu yüksek ısıda gevrek porselenle bağlantıyı arttıran ve yüzeyde arzu edilen alfa-case olarak isimlendirilen bir tabaka oluşur.  \n\n**Titanyum ve titanyum alaşımları (Ti-6Al-4V) ile ilgili yukarıdaki ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "I ve III",
+      "B": "I, II ve III",
+      "C": "II ve IV",
+      "D": "I, II ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "- **I. Öncül - DOĞRUDUR:** Titanyum yüzeyinde havayla temas ettiği anda kendiliğinden oluşan ince pasivize TiO2 oksit tabakası üstün korozyon direnci ve biyouumluluk sağlar.\n- **II. Öncül - DOĞRUDUR:** Titanyumun özgül ağırlığı (4.5 g/cm3) altın veya baz metal alaşımlara göre çok düşüktür, son derece hafiftir.\n- **III. Öncül - DOĞRUDUR:** Erime sıcaklığının çok yüksek olması (1668 °C) ve yüksek sıcaklıkta oksijen/azot ile reaksiyona girmesi nedeniyle geleneksel dökümü zordur.\n- **IV. Öncül - YANLIŞTIR:** Döküm sırasında revetmanla reaksiyona girerek oluşan \"alfa-case\" tabakası gevrektir, porselen bağlantısını ARTIRMAZ; aksine zayıflatır ve yüzeyden uzaklaştırılması gerekir.\n- **A, C, D, E Şıkları:** I, II ve III doğru olduğu için doğru cevap B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2023 Orijinal",
+    "q_num": 28,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Titanyum ve titanyum alaşımları ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Biyouyumluluğu ve korozyon direnci yüksektir.",
+      "B": "Geleneksel döküm yöntemleriyle elde edilmeleri kolaydır.",
+      "C": "Isıl iletkenlikleri düşüktür.",
+      "D": "Döküm işlemleri oksijensiz ortamda yapılmalıdır.",
+      "E": "Diş hekimliğinde en yaygın kullanılan titanyum alaşımı alfa-beta alaşımı olan Ti-6Al-4V'dir."
+    },
+    "correctAnswer": "B",
+    "explanation": "- **A, C, D, E Şıkları:** Titanyumun biyouyumluluğu mükemmeldir, ısıl iletkenliği düşüktür, oksijensiz/argonlu ortamda dökülmelidir ve en yaygın alaşımı Ti-6Al-4V'dir.\n- **B) Geleneksel döküm yöntemleriyle elde edilmeleri kolaydır — YANLIŞTIR:** Titanyumun yüksek erime noktası ve reaktivitesi nedeniyle dökümü son derece zordur. Günümüzde titanyum protez altyapıları döküm yerine ağırlıklı olarak **CAD-CAM** yöntemiyle kazınarak üretilmektedir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 29,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Metal seramik protezlerin üretiminde kullanılan yüksek soy, baz metal ve titanyum alaşımlarının özelliklerinin karşılaştırılması ile ilgili olarak aşağıdaki bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Titanyum ve yüksek soy alaşımların biyouyumlulukları mükemmeldir.",
+      "B": "Yüksek soy alaşımların yoğunluğu baz metal alaşımlar ve titanyuma kıyasla yüksektir.",
+      "C": "Titanyum ve titanyum esaslı alaşımların porselene bağlanma özelliği mükemmeldir.",
+      "D": "Yüksek soy alaşımların teknik hassasiyetleri titanyum alaşımlardan düşüktür.",
+      "E": "Baz metal alaşımların elastik modülü yüksek soy alaşımlardan yüksektir."
+    },
+    "correctAnswer": "C",
+    "explanation": "- **A, B, D, E Şıkları:** Doğru karşılaştırma ifadeleridir.\n- **C) Titanyum esaslı alaşımların porselene bağlanma özelliği mükemmeldir — YANLIŞTIR:** Titanyum yüksek sıcaklıkta aşırı oksit tabakası bağladığı ve ısısal genleşme katsayısı porselenle zor uyum gösterdiği için porselene bağlanması zayıftır ve özel ultra-düşük ısı porselenleri gerektirir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 30,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi metal destekli seramik restorasyon yapımında kullanılan yarı soy metal alaşımıdır?",
+    "options": {
+      "A": "Krom Kobalt",
+      "B": "Altın Platin Palladyum",
+      "C": "Altın Palladyum",
+      "D": "Palladyum Gümüş",
+      "E": "Altın Palladyum Gümüş"
+    },
+    "correctAnswer": "D",
+    "explanation": "Dental alaşımlar soy metal içeriklerine göre sınıflandırılır:\n- **Yüksek Soy (Soy / Değerli) Alaşımlar:** En az %60 soy metal (Altın, Platin, Palladyum) içerir ve bunun en az %40'ı Altındır (Altın-Platin-Palladyum, Altın-Palladyum).\n- **Yarı Soy (Değerli) Alaşımlar:** En az %25 soy metal içerir (Altın şartı yoktur). **Palladyum-Gümüş (Pd-Ag)** yarı soy alaşımların ana temsilcisidir.\n- **Baz Metal Alaşımlar:** Soy metal içeriği %25'ten azdır (Krom-Kobalt, Nikel-Krom).\n- Bu nedenle yarı soy alaşım **Palladyum Gümüş** (D şıkkı) seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 31,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Palladyum gümüş  \nII. Krom-kobalt  \nIII. Altın palladyum  \n\n**Yukarıda verilenlerden hangisi ya da hangileri yarı soy metal alaşımları arasında yer alır?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "- **I. Öncül (Palladyum gümüş):** %25'ten fazla soy metal içerdiği için YARI SOY alaşımdır.\n- **II. Öncül (Krom-kobalt):** BAZ METAL alaşımıdır.\n- **III. Öncül (Altın palladyum):** YÜKSEK SOY alaşımdır.\n- Doğru cevap Yalnız I (A şıkkı) seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 32,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Alaşımın korozyon direncini artırması  \nII. Alaşımın sertliğini azaltması  \nIII. Alaşımın erime derecesini artırması  \n\n**Yukarıda verilenlerden hangisi ya da hangileri kıymetli metal alaşımların içeriğinde yer alan palladyum ile ilgili olarak doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Palladyum (Pd), altın alaşımlarının mekanik özelliklerini geliştirmek için katılan değerli bir soy metaldir.\n- **I. Öncül - DOĞRUDUR:** Alaşımın korozyon ve lekelenme direncini artırır.\n- **II. Öncül - YANLIŞTIR:** Palladyum alaşımı yumuşatmaz; aksine alaşımın **sertliğini ve mukavemetini artırır**.\n- **III. Öncül - DOĞRUDUR:** Yüksek erime noktasına (1554 °C) sahip olduğu için alaşımın erime sıcaklığını yükseltir, porselen pişirme esnasında altyapının sarkmasını önler.\n- **A, B, C, D, E Şıkları:** I ve III doğru olduğundan cevap C seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 33,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kıymetli metal alaşımların içeriğinde yer alan palladyum ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Alaşımın korozyon direncini azaltır.",
+      "B": "Alaşımın sertliğini artırır.",
+      "C": "Alaşımın erime derecesini düşürür.",
+      "D": "Alaşımda hidrojen gazı salınımına neden olur.",
+      "E": "Alaşıma siyah renk kazandırır."
+    },
+    "correctAnswer": "B",
+    "explanation": "- **A) Korozyon direnci:** Korozyon direncini artırır.\n- **B) Alaşımın sertliğini artırır — DOĞRUDUR:** Palladyum etkili bir sertleştirici ve kuvvetlendirici elemandır.\n- **C) Erime derecesi:** Erime derecesini yükseltir.\n- **D) Hidrojen gazı:** Hidrojen gazını absorbe eder.\n- **E) Renk:** Alaşımı beyazlatma özelliğine sahiptir (beyaz-gri renk verir).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 34,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Alaşımın korozyon direncini artırması  \nII. Alaşımın sertliğini artırması  \nIII. Alaşımın erime derecesini artırması  \n\n**Yukarıda verilenlerden hangisi ya da hangileri kıymetli metal alaşımların içeriğinde yer alan palladyum ile ilgili olarak doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Palladyum kıymetli alaşımlarda:\n1. Korozyon ve lekelenme direncini artırır (I. Öncül Doğru).\n2. Sertliği ve mekanik dayanımı artırır (II. Öncül Doğru).\n3. Erime sıcaklığını yükseltir (III. Öncül Doğru).\n4. Alaşımı beyazlatır (beyaz altın elde edilir).\n- Bütün öncüller (I, II, III) doğru olduğundan cevap E şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 35,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kıymetli metal alaşımların içeriğinde yer alan palladyum ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Alaşımın korozyon direncini azaltır.",
+      "B": "Alaşımın sertliğini artırır.",
+      "C": "Alaşımın erime derecesini azaltır.",
+      "D": "Alaşımda hidrojen gazı salınımına neden olur.",
+      "E": "Alaşıma siyah renk kazandırır."
+    },
+    "correctAnswer": "B",
+    "explanation": "Palladyum alaşımın sertliğini ve çekme direncini belirgin şekilde artıran bir sertleştiricidir. Korozyon direncini artırır, erime noktasını yükseltir ve alaşımı beyazlatır. Doğru cevap B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 36,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hareketli protezlerde kullanılan porselen yapay dişlerin özelliklerinden biri değildir?",
+    "options": {
+      "A": "Karşıt oklüzyondaki diş minesini veya metalik yüzeyleri aşındırır.",
+      "B": "Akrilik kaideyle bağlantısı mekaniktir.",
+      "C": "Çiğneme basınçlarını rezin dişlerden daha fazla absorbe eder.",
+      "D": "Estetik özelliği iyidir.",
+      "E": "Aşınma direnci yüksektir."
+    },
+    "correctAnswer": "C",
+    "explanation": "Porselen yapay dişler yüksek estetik ve aşınma direncine sahip olsalar da sert ve rijit malzemelerdir.\n- **A) Karşıt dişi aşındırma:** Porselen sert yapısı nedeniyle doğal diş minesini ve metal yüzeyleri aşındırır.\n- **B) Akrilik kaide bağlantısı:** Porselen akrilikle kimyasal bağlanmaz, retansiyon için pimli/kaviteli mekanik tutunma gerekir.\n- **C) Çiğneme basınçlarını absorbe eder — YANLIŞTIR:** Porselen rijit olduğu için çiğneme kuvvetlerini sönümlemez (absorbe etmez); kuvveti olduğu gibi altındaki kaideye ve kemiğe ileterek kret rezorpsiyonunu artırır. Akrilik dişler ise elastik modülü düşük olduğu için çiğneme basınçlarını absorbe edebilir.\n- **D ve E) Estetik ve aşınma direnci:** Mükemmel estetik sunar ve aşınma direnci çok yüksektir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2016 Orijinal",
+    "q_num": 37,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kaideye mekanik olarak tutunması  \nII. Estetik özelliğinin iyi olması  \nIII. Aşınma direncinin yüksek olması  \n\n**Yukarıda verilenlerden hangisi ya da hangileri tam protez yapımında kullanılan porselen yapay dişlere aittir?**",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "- **I. Öncül:** Porselen dişler akrilik kaideye kimyasal bağlanamadığı için dişe konulan tırnak/kavite ile mekanik olarak tutunur.\n- **II. Öncül:** Renk stablitesi ve ışık geçirgenliği mükemmeldir, estetiği çok iyidir.\n- **III. Öncül:** Sert cilalı yüzeyi sayesinde gıdalardan ve temizleyicilerden etkilenmez, aşınma direnci yüksektir.\n- Her üç öncül de doğru olduğundan yanıt E şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 38,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt-üst tam protez yapımı planlanan hastanın protezinde, hastanın isteği üzerine porselen yapay dişler kullanılmıştır. Aşağıdakilerden hangisinin hastanın bu protezi kullanırken bildirebileceği durumlardan biri olma olasılığı en azdır?",
+    "options": {
+      "A": "Konuşma sırasında dişlerden ses çıkması",
+      "B": "Gıdaların parçalanmasında sorun olmaması",
+      "C": "Bir hafta içinde dişlerde renk değişimi",
+      "D": "Dişlerin görünümünün akrilik olanlara göre daha doğal durması",
+      "E": "Protezlerin akrilik tipte diş kullanılanlara göre daha ağır olması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Porselen inorganik, yoğun ve lekelenmeyen bir seramik malzemedir.\n- **A) Ses çıkması:** Sertlik nedeniyle temas sırasında \"klik\" sesi çıkarır.\n- **B) Parçalanma:** Aşınmayan keskin tüberküller gıdayı iyi parçalar.\n- **C) Bir hafta içinde renk değişimi — EN AZ OLASILIKTIR:** Porselen dişlerin sıvı emilimi yoktur ve lekelenmeye karşı tam dirençlidir; 1 hafta gibi kısa sürede renk değişimi göstermez.\n- **D) Doğal görünüm:** Estetik kalitesi akriliğe göre daha doğaldır.\n- **E) Ağırlık:** Porselenin özgül ağırlığı akrilik rezin dişlere göre daha fazladır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 39,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi diş hekimliğinde kullanılan zirkonyum oksite stabilizasyon amacıyla eklenen moleküllerden biri değildir?",
+    "options": {
+      "A": "Seryum oksit",
+      "B": "İtriyum oksit",
+      "C": "Magnezyum oksit",
+      "D": "Kalay oksit",
+      "E": "Kalsiyum oksit"
+    },
+    "correctAnswer": "D",
+    "explanation": "Saf zirkonyum oksit (ZrO2) yüksek sıcaklıktan oda sıcaklığına soğutulurken faz transformasyonu geçirir ve çatlamalara yol açan hacimsel değişiklik gösterir. Oda sıcaklığında dayanıklı **tetragonal fazı** stabil tutabilmek için zirkonyaya stabilizör oksitler eklenir.\n- **Stabilizör Oksitler:** **İtriyum oksit (Y2O3)**, **Seryum oksit (CeO2)**, **Magnezyum oksit (MgO)** ve **Kalsiyum oksit (CaO)**'tir.\n- **D) Kalay oksit (SnO2):** Porselen yapısında güçlendirici veya stabilizör olarak yer almaz; opaklaştırıcı veya metal-seramik bağlantısında oksit oluşturucu ajan olarak işlev görür.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2017 Orijinal",
+    "q_num": 40,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. İtriyum oksit  \nII. Kalay oksit  \nIII. Kalsiyum oksit  \n\n**Yukarıda verilenlerden hangisi ya da hangileri zirkonyum oksite kararlı bir yapı kazandırmak amacıyla formülüne eklenen bileşenlerdendir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Zirkonyum oksit ($ZrO_2$) kristallerinde oda sıcaklığında tetragonal fazı stabilize etmek için itriyum oksit ($Y_2O_3$), kalsiyum oksit ($CaO$), magnezyum oksit ($MgO$) ve seryum oksit ($CeO_2$) kullanılır.\n- **I. Öncül (İtriyum oksit) - DOĞRUDUR:** Zirkonyayı oda sıcaklığında tetragonal fazda tutan ana stabilize edici ajandır.\n- **II. Öncül (Kalay oksit) - YANLIŞTIR:** Kalay oksit porselenlerde opaklaştırıcı/oksit yapıcı ajandır, zirkonya faz stabilize edicisi değildir.\n- **III. Öncül (Kalsiyum oksit) - DOĞRUDUR:** Zirkonyum oksit şebekesine girerek kübik/tetragonal fazı stabilize eden moleküldür.\n- **A, C, D, E Şıkları:** I ve III doğru olduğu için doğru cevap B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 41,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Monolitik zirkonya içerisine eklenen İtriyum oksit oranı aşağıdakilerden hangisinde doğru olarak gösterilmektedir?",
+    "options": {
+      "A": "%0,5",
+      "B": "%1",
+      "C": "%5 mol",
+      "D": "%10",
+      "E": "%15"
+    },
+    "correctAnswer": "C",
+    "explanation": "Monolitik (tek parça, üzeri feldspatla kaplanmayan) zirkonya restorasyonlarda ışık geçirgenliğini ve translüsensiyi artırmak için kübik faz oranı yükseltilir. Bunun için zirkonyum oksit içerisine **%5 mol mol oranında İtriyum oksit ($5Y-TZP / 5Y-PSZ$)** eklenir. Böylece translüsensi artar ve posterior bölgede estetik blok restorasyonlar elde edilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 42,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tam seramik sistemlerde kırılmaya karşı direnci artırmak amacı ile kullanılan kristallerden biri değildir?",
+    "options": {
+      "A": "Lösit",
+      "B": "Kalsit",
+      "C": "Zirkonya",
+      "D": "Alümina",
+      "E": "Sanidine"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tam seramik sistemlerin mekanik dayanımını artırmak için cam matriks içerisine güçlendirici kristaller eklenir:\n- **Güçlendirici Kristallere Örnekler:** **Lösit**, **Alümina**, **Zirkonya**, **Sanidine**, **Lityum disilikat**, tetrasilisik fluormika, magnesia-alümina spinel.\n- **B) Kalsit ($CaCO_3$):** Dental porselen yapısını güçlendiren kristaller arasında yer almaz.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "q_num": 46,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam seramik sistemlerde cam matriks içerisine eklenen güçlendirici kristaller ile ilgili boş bırakılan yere aşağıdakilerden hangisinin gelmesi uygundur?**\n\n**\"Güncel tam seramik sistemlerde güçlendirilmiş formlar kullanılmaktadır. Primer olarak cam içeren seramikler; lösit, lityum disilikat, alümina, zirkonya, sanidine gibi tüp kristallerin eklenmesiyle güçlendirilebilir. Ancak .......... porselenin içerisinde bu amaçla kullanılan bir kristal değildir.\"",
+    "options": {
+      "A": "Estetik",
+      "B": "Dayanıklı",
+      "C": "Ucuz",
+      "D": "Ulaşılabilir",
+      "E": "Kalsit"
+    },
+    "correctAnswer": "E",
+    "explanation": "Porselen matriksine eklenen kristaller kristal yapısı ve dayanıklılığı artırırken Kalsit bu amaçla porselende kullanılan güçlendirici bir kristal değildir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 47,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi dental porselenin yapısında güçlendirici veya renklendirici ajan olarak kullanılmayan oksittir?",
+    "options": {
+      "A": "Lityum oksit",
+      "B": "Magnezyum oksit",
+      "C": "Baryum oksit",
+      "D": "Sodyum oksit",
+      "E": "Titanyum oksit"
+    },
+    "correctAnswer": "E",
+    "explanation": "Dental porselenlerde oksitler farklı işlevler üstlenir:\n- **Güçlendirici / Ağ Cam Oluşturucu Oksitler:** $BaO$, $K_2O$, $Na_2O$, $MgO$, $Li_2O$, $P_2O_5$ matris yapısını ve mekanik direnci şekillendirir.\n- **Opaklaştırıcı Oksitler:** Titanyum oksit ($TiO_2$), Seryum oksit ($CeO_2$), Kalay oksit ($SnO_2$) ve Zirkonyum oksit ($ZrO_2$) ışık geçirgenliğini azaltıp porselene **opaklık** kazandırmak amacıyla kullanılır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 48,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, tam seramik sistemlerin üretilmesinde kullanılan yöntemler arasında yer almaz?",
+    "options": {
+      "A": "Döküm",
+      "B": "Presleme",
+      "C": "Frezeleme",
+      "D": "Tabakalama",
+      "E": "Tavlama"
+    },
+    "correctAnswer": "E",
+    "explanation": "Tam seramik restorasyonların laboratuvar üretim teknikleri:\n- **A) Döküm:** Dökülebilir cam seramiklerin (Dicor) kayıp mum tekniğiyle dökülmesi.\n- **B) Presleme:** Isı ve basınç altında enjekte edilerek şekillendirilmesi (IPS Empress, e.max Press).\n- **C) Frezeleme:** CAD-CAM sistemlerinde seramik blokların bilgisayarlı freze cihazlarıyla işlenmesi.\n- **D) Tabakalama:** Geleneksel porselen tozunun suyla karıştırılıp fırınlanması (fırınlama/sinterleme).\n- **E) Tavlama:** Metallerin yumuşatılması veya iç gerilmelerinin giderilmesi amacıyla yapılan ısıl işlemdir; tam seramik protez üretim yöntemi değildir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2021 Orijinal",
+    "q_num": 49,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam seramik sistemlerin üretim yöntemleri ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kayıp mum tekniği kullanılarak yüksek sıcaklıkta döküm yöntemi ile üretilebilirler.",
+      "B": "Isı ve basınç altında presleme yöntemiyle üretilebilirler.",
+      "C": "Bilgisayar destekli üretim sisteminde frezeleme yöntemiyle üretilebilirler.",
+      "D": "Toz ve likit kullanılarak tabakalama yöntemiyle üretilebilirler.",
+      "E": "Demir ve çelik malzemeler gibi tavlama yöntemiyle üretilebilirler."
+    },
+    "correctAnswer": "E",
+    "explanation": "Tavlama metalürjik bir ısıl işlem olup seramik protez altyapı üretim tekniği değildir. Doğru cevap E şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 50,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Metal destekli seramik restorasyonlarda metal-porselen bağlantısında aşağıdakilerden hangisinin etkisi yoktur?",
+    "options": {
+      "A": "Van der Waals kuvvetleri",
+      "B": "Mekanik bağlantı kuvvetleri",
+      "C": "Kompresif kuvvetler",
+      "D": "Manyetik kuvvetler",
+      "E": "Kimyasal bağlantı kuvvetleri"
+    },
+    "correctAnswer": "D",
+    "explanation": "Metal ile porselen arasındaki tutunmayı sağlayan **4 temel bağlantı mekanizması** vardır:\n1. **Kimyasal Bağlantı:** Metal yüzeyinde degassing/ısıtma ile oluşan oksit tabakası ile porselenin kovalent/iyonik bağ kurmasıdır (En güçlü ve en önemli tutunmadır).\n2. **Mekanik Bağlantı:** Metal koping yüzeyinin taşlanması veya püskürtülmesi ile oluşan mikro-pürüzlere porselenin kilitlenmesidir.\n3. **Kompresif (Sıkışma) Kuvvetleri:** Porselenin termal genleşme katsayısının metalden biraz daha düşük seçilmesiyle soğuma sırasında metalin porseleni dıştan sıkıştırmasıdır.\n4. **Van der Waals Kuvvetleri:** Atomlar arası fiziksel çekim kuvvetleridir (etkisi azdır).\n- **D) Manyetik kuvvetler:** Metal-porselen tutunmasında manyetik kuvvetlerin hiçbir rolü YOKTUR.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "q_num": 52,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Mekanik bağlantı  \nII. Manyetik kuvvetler  \nIII. Kimyasal bağlantı  \n\n**Yukarıda verilenlerden hangisi ya da hangileri metal ile porselenin bağlanmasında rol oynamaktadır?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Metal-porselen bağlantısında Mekanik bağlantı (I) ve Kimyasal bağlantı (III) temel rol oynarken, Manyetik kuvvetler (II) yer almaz. Cevap C seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 53,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Metal destekli seramik restorasyon yapımında kullanılan metal ile porselen materyalleri arasındaki yapışmada en önemli, birincil rolü oynayan bağlantı türü aşağıdakilerden hangisinde doğru olarak verilmektedir?",
+    "options": {
+      "A": "Kimyasal bağlantı",
+      "B": "Mekanik bağlantı",
+      "C": "Van der Waals kuvvetleri",
+      "D": "Kompresif bağlantı",
+      "E": "Manyetik bağlantı"
+    },
+    "correctAnswer": "A",
+    "explanation": "Metal ile porselen arasındaki tutunmayı sağlayan en birincil, en güçlü ve olmazsa olmaz mekanizma **Kimyasal bağlantı**dır. Kimyasal bağlantının kurulabilmesi için metal altyapı yüzeyinde bir **oksit tabakasının** bulunması şarttır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 54,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. İndiyum  \nII. Berilyum  \nIII. Galyum  \nIV. Gümüş  \n\n**Yukarıdakilerden hangileri metal seramik bağlantısı için gerekli olan oksit tabakasının oluşumuna yardımcı olur?**",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "I, II ve III",
+      "D": "I, II ve IV",
+      "E": "II ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Soy metal alaşımları (Altın, Pt, Pd) kendiliğinden kolayca oksitlenmezler. Porselenle kimyasal bağ kurabilmek için bu soy alaşımların içerisine oksit yapıcı (degassing esnasında yüzeye göç edip oksit tabakası oluşturan) baz elementler eklenir.\n- **I ve III. Öncüller (İndiyum ve Galyum):** Soy metal alaşımlarına eklenen ana **oksit yapıcı (oksit oluşturucu)** elementlerdir.\n- **II. Öncül (Berilyum):** Döküm sıcaklığını düşürmek ve akıcılığı artırmak için baz metal alaşımlara eklenir, biyotoksiktir.\n- **IV. Öncül (Gümüş):** Sertliği artırır ancak porselende yeşillenme (renk bozulması) yapabilir, ana oksit yapıcı değildir.\n- **A, B, C, D, E Şıkları:** I ve III (İndiyum ve Galyum) doğru yanıt B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 55,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Altın esaslı metal bir alaşımdan metal destekli porselen kronun alt yapısının üretimi amaçlanmaktadır. Aşağıda verilenlerden hangisinin metal ile porselen arasındaki oksit tabakasının indüklenmesine yol açtığı söylenebilir?",
+    "options": {
+      "A": "İndiyum",
+      "B": "Berilyum",
+      "C": "Gümüş",
+      "D": "Çinko",
+      "E": "Platin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Altın ve soy metal alaşımlarda porselenin kimyasal tutunması için gerekli oksit tabakası **İndiyum** veya **Galyum** ilavesiyle sağlanır. Doğru cevap A şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 56,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Simanların diş yüzeyine ve restorasyon materyaline nasıl bağlanma yaptıklarıyla ilgili olarak aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "Çinko fosfat siman — Kimyasal bağlanma",
+      "B": "Polikarboksilat siman — Fiziksel makro tutunma",
+      "C": "Rezin simanlar — Mikromekanik bağlanma",
+      "D": "Cam iyonomer siman — Sadece mekanik kilitlenme",
+      "E": "Çinko öjenol — Kovalent bağ"
+    },
+    "correctAnswer": "C",
+    "explanation": "- **A) Çinko fosfat:** Yalnızca mekanik kilitlenme sağlar, kimyasal bağı yoktur.\n- **B ve D) Polikarboksilat ve Cam İyonomer:** Yapılarındaki poliakrilik asit karboksil ($COO^-$) grupları ile kalsiyuma bağlanarak **kimyasal bağ** yaparlar.\n- **C) Rezin simanlar:** Asitle pürüzlendirilen diş ve seramik yüzeyine sızarak **mikromekanik bağlanma** ve adeziv monomerlerle kimyasal bağlanma sağlarlar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 57,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Rezin içerikli yapıştırma simanları çinko fosfat simanın yaklaşık kaç katı gerilme direncine (30-40 MPa) sahiptir?",
+    "options": {
+      "A": "2 katı",
+      "B": "3 katı",
+      "C": "5 katı",
+      "D": "10 katı",
+      "E": "15 katı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Geleneksel çinko fosfat simanın gerilme (çekme) direnci 4-5 MPa gibi son derece düşükken; rezin esaslı yapıştırma simanları **30-40 MPa** gerilme direncine sahiptir (çinko fosfatın yaklaşık **5 katı**). Bu yüksek direnç adeziv köprülerde ve porselen venerlerde minimal preparasyonla tutuculuk sağlar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 58,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Rezin simanların restorasyon ve diş yüzeyine mikromekanik olarak tutunmasını sağlamak amacıyla seramik restorasyonların iç yüzeyine uygulanan asit aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ortofosforik asit",
+      "B": "Hidroflorik asit",
+      "C": "Sülfürik asit",
+      "D": "Poliakrilik asit",
+      "E": "Nitrik asit"
+    },
+    "correctAnswer": "B",
+    "explanation": "- **Diş Yüzeyine (Mine/Dentin):** %35-37'lik **Ortofosforik asit** uygulanır.\n- **Cam Seramik İÇ Yüzeyine:** Cam matrisini çözüp mikro-gözenekler açmak için **%5-9.5'luk Hidroflorik asit (HF)** uygulanır, ardından silan ajan sürülür.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 59,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Düşük pH değeri (pH: 3.5 - 4.2) ve sertleşme esnasında serbest kalan asidik yapısı nedeniyle vital dişlere ait restorasyonların yapıştırılmasında pulpa irritasyon riski taşıyan siman türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Polikarboksilat siman",
+      "B": "Öjenol siman",
+      "C": "Cam iyonomer siman",
+      "D": "Çinko fosfat siman",
+      "E": "Rezin siman"
+    },
+    "correctAnswer": "D",
+    "explanation": "- **D) Çinko fosfat siman:** Karıştırıldığı ve sertleştiği ilk anlarda son derece düşük bir pH değerine (pH 3.5) sahiptir. İçeriğindeki serbest fosforik asit dentin tübüllerinden pulpal dokuya sızarak belirgin pulpa iritasyonuna ve hassasiyete yol açar. Bu nedenle derin kaviteli vital dişlerde kaidesiz kullanımı veya doğrudan yapıştırılması önerilmez.\n- **A, B, C) Polikarboksilat, Öjenol, Cam iyonomer:** Poliakrilik asit molekülleri büyük olduğu için tübüllere sızamaz, pulpa dostudurlar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 60,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, nikel-krom alaşımlarının dezavantajlarından biri değildir?",
+    "options": {
+      "A": "Aşırı oksitlenme",
+      "B": "Bitirme ve cilalama işlemlerinin zor olması",
+      "C": "Yüksek elastik modülüne sahip olması",
+      "D": "Sorgulanabilir biyolojik uyumluluk",
+      "E": "Alerjik reaksiyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Nikel-Krom (Ni-Cr) baz metal alaşımıdır:\n- **A) Aşırı oksitlenme:** Fırınlama esnasında kalın ve koyu oksit tabakası oluşturması bir dezavantajdır.\n- **B) Bitirme zorluğu:** Yüksek sertliği yüzünden tesviye ve cilalanması zordur (dezavantaj).\n- **C) Yüksek elastik modülü — DEZAVANTAJ DEĞİLDİR (AVANTAJDIR):** Yüksek elastik modülü (200 GPa), alaşımın oldukça **rijit** olduğunu gösterir. Bu sayede döküm altyapılar daha **ince** hazırlanabilir, porselen altında esneme yapmaz ve kırılmayı önler.\n- **D ve E) Biyouumluluk ve Alerji:** Nikel alerjisi ve sitotoksisite riski belirgin bir dezavantajdır.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 67,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Nikel-krom alaşımlarının sahip olduğu yüksek elastisite modülü klinik kullanımda aşağıdaki avantajlardan hangisini sağlar?",
+    "options": {
+      "A": "Altyapı kalınlığının ince tutulabilmesi",
+      "B": "Korozyon direncinin düşmesi",
+      "C": "Döküm sıcaklığının azalması",
+      "D": "Porselenle kimyasal bağ yapmaması",
+      "E": "Renk uyumunun kolaylaşması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Elastisite modülünün yüksek olması malzemenin esnemeye karşı yüksek direnç gösterdiğini (rijit olduğunu) ifade eder. Bu rijitlik sayesinde metal altyapı kalınlığı (koping) 0.2-0.3 mm gibi oldukça ince hazırlanabilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 68,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Işıkla polimerize olan akrilik kaide materyallerinin yapısı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "İçerisinde silika doldurucular bulunur.",
+      "B": "Polimerizasyon büzülmesi otopolimerizan akriliklere göre daha fazladır.",
+      "C": "Elastisite modülü kimyasal sertleşenlere göre daha yüksektir.",
+      "D": "Serbest monomer salınımı son derece yüksektir.",
+      "E": "Manipülasyon süresi kısıtlıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "- **A) İçerisinde silika doldurucular bulunur — DOĞRUDUR:** Işıkla polimerize olan (VLC) akrilik kaide materyalleri üretan dimetakrilat matrisine ilaveten mikro-ince silika tanecikleri içerir.\n- **B, C, D, E Şıkları:** Işıkla sertleşen akriliklerde polimerizasyon büzülmesi düşüktür, serbest monomer toksisitesi azdır ve ışık uygulanana kadar çalışma süresi sınırsızdır (manipülasyonu kolaydır).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 69,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Geçici kaide veya şahsi kaşık yapımında kullanılan ışıkla polimerize olan akrilik materyallerin hekime sağladığı en büyük klinik avantaj aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Yüksek ısı iletkenliği",
+      "B": "Ağızda sınırsız çalışma ve kolay manipülasyon olanağı",
+      "C": "Aşırı esneklik",
+      "D": "Şeffaflık",
+      "E": "Yüksek monomer tutulumu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Işıkla polimerize olan malzemeler oda ortamında sertleşmediği için hekime ışıkla polimerizasyon ünitesine koyana kadar dilediği gibi şekillendirme ve **sınırsız manipülasyon kolaylığı** sunar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 70,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Işıkla polimerize edilen akrilik kaide materyalleri ile ilgili olarak aşağıda verilen özelliklerden hangisi yanlıştır?",
+    "options": {
+      "A": "Yumuşak kıvamdayken modele uygulandığı için manipülasyonları kolaydır.",
+      "B": "Serbest monomer miktarı yok denecek kadar azdır.",
+      "C": "Polimerizasyon büzülmesi otopolimerizan akriğe göre daha azdır.",
+      "D": "İçeriğinde silika doldurucu tanecikleri bulunur.",
+      "E": "Polimerizasyon reaksiyonu esnasında ısı üretmezler."
+    },
+    "correctAnswer": "E",
+    "explanation": "Işıkla polimerize edilen rezinler de foto-başlatıcı reaksiyonu esnasında az miktarda ekzotermik ısı salarlar; tamamen ısı üretmez demek yanlıştır. Ancak monomer oranı ve büzülmesi kimyasal akriliklere göre çok daha düşüktür.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 71,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Görselde veya laboratuvar ortamında gösterilen, içerisinde mavi/ultraviyole ışık tüpleri barındıran ve özel kaide maddelerinin sertleştirilmesinde kullanılan cihaz aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Otoklav",
+      "B": "Akrilik pişirme tenceresi",
+      "C": "Vakumlu karıştırıcı",
+      "D": "Işıkla polimerizasyon ünitesi",
+      "E": "Porselen fırını"
+    },
+    "correctAnswer": "D",
+    "explanation": "Işıkla sertleşen kaide ve plak materyallerini polimerize etmek için özel yüksek yoğunluklu mavi ışık yayan **Işıkla Polimerizasyon Ünitesi (VLC Unit)** kullanılır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 72,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, restorasyonların daimi simantasyonunda düşük pH'sine (pH: 4,8) rağmen pulpa için en az irritandır?",
+    "options": {
+      "A": "Çinko fosfat siman",
+      "B": "Rezin siman",
+      "C": "Hibrit iyonomer siman",
+      "D": "Çinko oksit öjenol siman",
+      "E": "Polikarboksilat siman"
+    },
+    "correctAnswer": "E",
+    "explanation": "- **E) Polikarboksilat siman:** Hazırlanma esnasında ortam pH'sı 4.8 civarında asidik olmasına karşın, yapısındaki **poliakrilik asit molekülleri çok büyük boyutludur**. Bu dev polimer molekülleri dentin tübüllerinin içine nüfuz edemez. Bu sayede asidik pH'ya rağmen pulpal irritasyon yapmaz ve pulpa dostu güvenli bir siman olarak kabul edilir.\n- **A) Çinko fosfat siman:** pH'sı 3.5'tir, küçük fosforik asit iyonları tübüllere kolayca sızarak şiddetli pulpal iritasyon yapar.\n- **B, C, D Şıkları:** Polikarboksilat simanın moleküler boyut engeli özelliğine uymayan simanlardır.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 73,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Preparasyon sonrasında belirgin dentin hassasiyeti gelişmiş bir hastanın estetik altyapılı restorasyonunun yapıştırılmasında pulpa güvenliği açısından ilk tercih edilmesi gereken siman aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çinko fosfat siman",
+      "B": "Silikat siman",
+      "C": "Çinko polikarboksilat siman",
+      "D": "Cam iyonomer siman",
+      "E": "Bakırlı siman"
+    },
+    "correctAnswer": "C",
+    "explanation": "Polikarboksilat siman poliakrilik asit moleküllerinin büyüklüğü sayesinde dentin tübüllerinden geçemez ve hassas vital dişlerde pulpal travmaya yol açmaz. Bu nedenle hassas dişlerde güvenli yapıştırıcıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 74,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Pulpa sağlığını koruma açısından diş hekimliğinde en güvenli kabul edilen iki yapıştırma simanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Polikarboksilat siman ve Çinko oksit öjenol siman",
+      "B": "Çinko fosfat siman ve Cam iyonomer siman",
+      "C": "Çinko fosfat siman ve Rezin siman",
+      "D": "Silikat siman ve Çinko fosfat siman",
+      "E": "Rezin siman ve Cam iyonomer siman"
+    },
+    "correctAnswer": "A",
+    "explanation": "Öjenolün yatıştırıcı (sedatif/analjezik) etkisi ve polikarboksilatın tübüllere sızamayan dev moleküler yapısı nedeniyle pulpa açısından klinik olarak en güvenli iki siman **Polikarboksilat** ve **Çinko Oksit Öjenol** simanlardır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 75,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi mikrosızıntı ile ilişkilendirilemez?",
+    "options": {
+      "A": "Diş ve restorasyon arasındaki aralıktan ağız sıvıları ve mikrobiyal plağın geçmesidir.",
+      "B": "Postoperatif hassasiyet",
+      "C": "Tekrarlayan çürükler",
+      "D": "Restorasyon marjinlerinde renklenme",
+      "E": "Amalgam restorasyonlarda rezin bağlı kompozit restorasyonlardan daha çok görülmesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Mikrosızıntı, diş dokusu ile restoratif materyal arasındaki mikroskobik aralıktan bakterilerin ve sıvıların sızmasıdır.\n- **A, B, C, D Şıkları:** Mikrosızıntının tanımı ve yol açtığı temel klinik sonuçlardır (hassasiyet, sekonder çürük, kenar renklenmesi).\n- **E) Amalgamda kompozitten daha çok görülmesi — YANLIŞTIR (İLİŞKİLENDİRİLEMEZ):** Kompozit rezinler polimerizasyon büzülmesi gösterdikleri için başlangıçta mikrosızıntı yapabilirler. Amalgam restorasyonlar ise zamanla ağız ortamında korozyona uğrar; oluşan korozyon ürünleri dentin-amalgam aralığını doldurarak **mikrosızıntıyı zamanla azaltır ve tıkar**. Dolayısıyla uzun dönemde amalgamda mikrosızıntı kompozite göre DAHAA AZ görülür.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 76,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Restorasyon marjinlerinde renklenme  \nII. Postoperatif hassasiyet  \nIII. Tekrarlayan çürükler  \n\n**Yukarıda verilenlerden hangisi ya da hangileri mikrosızıntıdan kaynaklanan klinik problemlerden biridir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Mikrosızıntı sonucunda marjinde bakteri birikimine bağlı renklenme (I), açık tübüller nedeniyle postoperatif hassasiyet (II) ve marjin altı sekonder/tekrarlayan çürükler (III) gelişir. Bütün öncüller doğrudur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 77,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Endodontik tedavisi bitirilen 44 numaralı dişe kor ile destekli kron planlanmaktadır. İlgili dişte mikrosızıntıya bağlı problemlerle karşılaşmamak adına hangi materyalin kor yapımında kullanılması en uygundur?",
+    "options": {
+      "A": "Kompozit",
+      "B": "Amalgam",
+      "C": "Çinko fosfat siman",
+      "D": "Akışkan kompozit",
+      "E": "Rezin siman"
+    },
+    "correctAnswer": "B",
+    "explanation": "Korozyon ürünlerinin dentin-restorasyon aralığını tıkama ve mikrosızıntıyı engelleme özelliğinden dolayı endodontik tedavili dişlerde sızıntıyı önlemek adına kor yapımında önerilen en uygun klasik materyal **Amalgam**dır. Kompozitler polimerizasyon büzülmesi riski taşırlar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 78,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi CAD-CAM sistemlerinin özellikleri arasında bulunmamaktadır?",
+    "options": {
+      "A": "Mukoza reziliensi aktarılmaz.",
+      "B": "Bu sistemle zirkonyum oksit restorasyonlar hazırlanamaz.",
+      "C": "Restorasyon lityum disilikat materyalden hazırlanabilir.",
+      "D": "Yalnızca dijital ölçü alma veya tarama/milleme işlemlerinde yapılabildiği CAD-CAM sistemleri bulunmaktadır.",
+      "E": "Restorasyon dijital olarak tasarlanabilir."
+    },
+    "correctAnswer": "B",
+    "explanation": "CAD-CAM (Computer-Aided Design / Computer-Aided Manufacturing):\n- **A) Mukoza reziliensi:** Dijital tarayıcılar yumuşak dokunun esnekliğini/reziliensini doğrudan ölçemez.\n- **B) Zirkonyum oksit hazırlanamaz — YANLIŞTIR:** Zirkonyum oksit bloklar sertleşmeden önce (pre-sintere) veya tam sintere halde **en yaygın ve ideal şekilde CAD-CAM sistemlerinde frezelenerek** üretilir.\n- **C, D, E) Lityum disilikat kullanımı, dijital tasarım, tarama:** CAD-CAM sistemlerinin temel özellikleridir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2016 Orijinal",
+    "q_num": 79,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "CAD/CAM sistemlerinde sıklıkla kullanılan ve farklı sinterlenmiş blok formlarında üretilerek kazınan materyal aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lityum disilikat / Zirkonyum oksit",
+      "B": "Poli metil metakrilat",
+      "C": "Poli eter eter keton",
+      "D": "Zirkonyum oksit",
+      "E": "Dental mum"
+    },
+    "correctAnswer": "D",
+    "explanation": "CAD-CAM sistemlerinde en sık işlenen yüksek dayanıklı restoratif altyapı ve blok materyali **Zirkonyum oksit**tir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 80,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki resimde (veya tanımda) bilgisayar ekranında tasarlanarak üç boyutlu kazıma ünitesi ile restorasyon üretimi yapılan sistemin adı nedir?",
+    "options": {
+      "A": "Sinterizasyon",
+      "B": "Copy milling",
+      "C": "CAD/CAM",
+      "D": "Tarama",
+      "E": "Kazıma"
+    },
+    "correctAnswer": "C",
+    "explanation": "- **C) CAD/CAM:** Computer-Aided Design (Bilgisayar Destekli Tasarım) ve Computer-Aided Manufacturing (Bilgisayar Destekli Üretim) sistemidir. Üç boyutlu dijital tarama, bilgisayarda restorasyon tasarımı ve frezeleme (milling) ünitesinden oluşur.\n- **A, B, D, E Şıkları:** CAD-CAM üretim sürecinin alt aşamaları veya spesifik teknikleridir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 81,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Rövetmanın higroskobik genleşmesiyle ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Rövetman içindeki silika miktarı arttıkça higroskobik genleşme artar.",
+      "B": "Toz/su oranı yüksek olursa higroskobik genleşme artar.",
+      "C": "$40^\\circ C$'den daha sıcak suyla karıştırma higroskobik genleşmeyi artırır.",
+      "D": "Silika partiküllerinin büyüklüğü arttıkça higroskobik genleşme artar.",
+      "E": "Rövetmanın karıştırma süresi arttıkça higroskobik genleşme artar."
+    },
+    "correctAnswer": "D",
+    "explanation": "Metal dökümlerinde soğuma büzülmesini kompanse etmek için rövetmanın higroskobik (suda) genleşmesinden yararlanılır.\n- **A) Silika miktarı:** Silika oranı artıkça genleşme artar.\n- **B) Toz/su oranı:** Toz/su oranının yüksek olması (daha az su kullanımı) genleşmeyi artırır.\n- **C) Su sıcaklığı:** Sıcak su kullanımı genleşmeyi artırır.\n- **D) Silika partiküllerinin büyüklüğü arttıkça higroskobik genleşme artar — YANLIŞTIR:** Silika partikül boyutu küçüldükçe toplam özgül yüzey alanı artar ve higroskobik genleşme ARTAR. Partikül büyüklüğünün artması ise genleşmeyi AZALTIR.\n- **E) Karıştırma süresi:** Karıştırma süresi ve hızı arttıkça higroskobik genleşme artar.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 82,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Silika partiküllerinin boyutunun küçülmesi  \nII. $40^\\circ C$'den daha sıcak suyla karıştırma  \nIII. Karıştırma süresinin uzun tutulması  \n\n**Yukarıda verilenlerden hangisi ya da hangileri rövetmanda meydana gelen higroskobik genleşmeyi artırıcı yönde rol oynar?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "Yalnız II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Higroskobik genleşmeyi artıran faktörler:\n1. Silika partiküllerinin küçülmesi (özgül yüzey alanının artması) (I. Öncül Doğru).\n2. Karıştırma suyunun $40^\\circ C$'ye kadar sıcak olması (II. Öncül Doğru).\n3. Karıştırma süresi ve spatülasyon hızının artırılması (III. Öncül Doğru).\n- Bütün öncüller (I, II, III) genleşmeyi artırır. Doğru yanıt E şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 83,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Döküm revetmanlarının higroskobik genleşme özellikleri ile ilgili olarak aşağıda verilen ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Su/toz oranı arttıkça genleşme artar.",
+      "B": "Silika partiküllerinin boyutu küçüldükçe genleşme artar.",
+      "C": "Soğuk su ile karıştırma genleşmeyi artırır.",
+      "D": "Karıştırma süresi kısaldıkça genleşme artar.",
+      "E": "Silika miktarı azaldıkça genleşme artar."
+    },
+    "correctAnswer": "B",
+    "explanation": "Silika partiküllerinin boyutu küçüldükçe parçacıklar arası temas yüzeyi artar ve su emilimine bağlı higroskobik genleşme miktarı artar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 84,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, rezin esaslı yapıştırma simanlarının özelliklerinden biri değildir?",
+    "options": {
+      "A": "Diş yapısına yüksek bağlanma özelliği",
+      "B": "Estetik özelliklerinin yüksek olması",
+      "C": "Yapıştırma sonrası marjinlerden temizlenebilirliğinin kolay olması",
+      "D": "Aşınmaya karşı dayanıklılığının fazla olması",
+      "E": "Ağız sıvılarında çözünme olasılığının düşük olması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Rezin esaslı simanlar yüksek mekanik ve adeziv özelliklere sahiptir:\n- **A, B, D, E Şıkları:** Yüksek bağlanma gücü, estetik renk seçenekleri, aşınma direnci ve ağız sıvılarında neredeyse sıfır çözünürlük rezin simanların temel avantajlarıdır.\n- **C) Yapıştırma sonrası marjinlerden temizlenebilirliğinin kolay olması — YANLIŞTIR (DEZAVANTAJDIR):** Rezin simanlar sertleşmeyi tamamladıktan sonra diş ve restorasyon kenarlarından temizlenmesi son derece zordur; sertleşmiş rezin artıklarını kazımak restorasyon kenarına ve diş etine zarar verebilir. Bu nedenle rezin siman artıklarının henüz jel safhasındayken temizlenmesi gerekir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2015 Orijinal",
+    "q_num": 85,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Rezin esaslı yapıştırma simanları ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Ağız sıvılarındaki çözünürlüğü çinko fosfattan yüksektir.",
+      "B": "Sertleştikten sonra marjinlerden temizlenmesi çok kolaydır.",
+      "C": "Diş yapısına ve seramiğe yüksek bağlanma dayanımı gösterir.",
+      "D": "Gerilme direnci çinko fosfattan daha düşüktür.",
+      "E": "Renk seçeneği bulunmaz, tek tiptir."
+    },
+    "correctAnswer": "C",
+    "explanation": "Rezin simanlar asit-bonding adeziv sistemleri sayesinde hem diş dokusuna hem de porselen/metal yüzeyine yüksek adeziv bağlanma dayanımı sunarlar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 87,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Cam infiltre tam seramik restorasyonların simantasyonunda, diş ile restorasyon arasında sağlanan mikromekanik tutuculuğa ilave olarak, dişe ve restorasyona kimyasal bağlantının da sağlanabildiği siman türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çinko oksit öjenol siman",
+      "B": "Kalsiyum hidroksit salisilat siman",
+      "C": "Çinko polikarboksilat siman",
+      "D": "Rezin esaslı siman",
+      "E": "Çinko fosfat siman"
+    },
+    "correctAnswer": "D",
+    "explanation": "Gelişen adeziv teknoloji ile rezin simanların yapısına giren adeziv fonksiyonel monomerler (MDP, 4-META vb.) sayesinde mikromekanik kilitlenmenin yanında restorasyon ve diş yüzeyine **kimyasal bağlanma** da sağlanır. Cam infiltre ve tüm seramik sistemlerde mikromekanik + kimyasal bağ sağlayan siman **Rezin esaslı simandır** (D şıkkı).",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2021 Orijinal",
+    "q_num": 88,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Rezin esaslı siman  \nII. Çinko oksit öjenol siman  \nIII. Çinko fosfat siman  \n\n**Yukarıdaki simanlardan hangisi ya da hangileri cam infiltre tam seramik restorasyonların simantasyonunda dişe ve restorasyona kimyasal bağlantı sağlayan simanlardandır?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Yalnızca rezin esaslı simanlar içeriklerindeki adeziv monomerler ve silan ajanı ile dişe ve seramiğe kimyasal bağ kurma yeteneğine sahiptir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 89,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Rezin simanların adeziv simantasyon tekniğinde mükemmel tutuculuk sağlamasının temel mekanizması aşağıdakilerden hangisinde verilmiştir?",
+    "options": {
+      "A": "Yalnızca mekanik sürtünme",
+      "B": "Yalnızca makro kilitlenme",
+      "C": "Pürüzlendirilen yüzeylere sızarak mikromekanik kilitlenme ve adeziv monomerlerle kimyasal bağlanma",
+      "D": "Suda çözünerek iyon değişimi yapma",
+      "E": "Yüksek genleşme gösterme"
+    },
+    "correctAnswer": "C",
+    "explanation": "Rezin simanlar pürüzlendirilen mikroskobik girintilere sızarak güçlü bir mikromekanik kilitlenme (hybrid tabakası) ve yapısındaki silan/MDP molekülleriyle kimyasal bağlanma gerçekleştirir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 90,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anterior bölgede yapılan tam seramik bir sabit restorasyonun rezin simanla simante edileceği bir hastada preparasyon sonrası geçici restorasyonların simante edilmesi planlanıyor. Bu hasta için aşağıdakilerden hangisinin geçici siman olarak kullanımı, daha sonra daimi simantasyon için uygulanacak rezin simanın polimerizasyonunu olumsuz etkileyebilir?",
+    "options": {
+      "A": "Çinko fosfat",
+      "B": "Çinko oksit öjenol",
+      "C": "Çinko polikarboksilat",
+      "D": "Cam iyonomer",
+      "E": "Silikat"
+    },
+    "correctAnswer": "B",
+    "explanation": "- **B) Çinko oksit öjenol:** İçeriğindeki **öjenol (fenolik bileşik)** serbest radikal yakalayıcısıdır. Geçici simantasyonda çinko oksit öjenol kullanıldığında dentin tübüllerine emilen öjenol kalıntıları, daimi simantasyon esnasında kullanılacak kompozit/rezin simanın **polimerizasyon reaksiyonunu engeller/olumsuz etkiler**. Bu nedenle rezin siman uygulanacak vakalarda geçici siman olarak ÖJENOLSÜZ (non-eugenol) simanlar tercih edilmelidir.\n- **A, C, D, E Şıkları:** Öjenol içermeyen simanlar olup rezin polimerizasyonunu bozmazlar.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2022 Orijinal",
+    "q_num": 91,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Çinko fosfat siman  \nII. Çinko polikarboksilat siman  \nIII. Cam iyonomer siman  \nIV. Rezin siman  \n\n**Yukarıda verilenlerden hangileri çinko oksit öjenol simanla geçici simantasyonu yapılan bir restorasyonun, daimi simantasyonunda kullanmak için uygundur?**",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "II ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Çinko oksit öjenol kullanımı sonrası ortamda kalan öjenol kalıntıları rezin simanın (IV) polimerizasyonunu bozacağı için rezin siman UYGUN DEĞİLDİR. Öjenol kalıntısından etkilenmeyen geleneksel simanlar (Çinko fosfat I, Polikarboksilat II, Cam iyonomer III) daimi simantasyon için kullanılabilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 92,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Cam iyonomer simanın pH değeri sertleşme sırasında çinko fosfat simandan daha düşüktür.  \nII. Polikarboksilat simanın pH değeri yüksek olduğu için pulpa için irritandır.  \nIII. Çinko oksit öjenol siman ağız ortamına dirençli bir simandır.  \nIV. Polikarboksilat siman ve rezin simanlar tiksotropik özelliktedir.  \n\n**Dental siman materyalleri ile ilgili yukarıda verilen bilgilerden hangileri yanlıştır?**",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "III ve IV",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "- **I. Öncül - YANLIŞTIR:** Sertleşme esnasında en düşük (en asidik) pH'ya sahip olan siman Çinko fosfat simandır (pH 3.5).\n- **II. Öncül - YANLIŞTIR:** Polikarboksilat siman pH'sı 4.8 olmasına rağmen büyük poliakrilik asit molekülleri dentin tübüllerine giremediği için pulpa için **irritan değildir**.\n- **III. Öncül - YANLIŞTIR:** Çinko öjenol ağız sıvılarında en hızlı çözünen ve direnci en düşük simandır; ağız ortamına dirençli değildir.\n- **IV. Öncül - DOĞRUDUR:** Polikarboksilat ve rezin simanlar tiksotropik (basınçla akıcılığı artan) özellik gösterirler.\n- **Yanlış olanlar I, II ve III'tür (Soru seçeneklerine göre II ve III c şıkkıdır).**",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 93,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi akrilik tam protezlerin temizliğinde kullanılan protez temizleyici ajanlardan biri değildir?",
+    "options": {
+      "A": "Zirkonyum silikat içeren ajanlar",
+      "B": "Alkalin peroksit içeren ajanlar",
+      "C": "Dilüe edilmiş asitleri içeren ajanlar",
+      "D": "Sodyum perborat içeren ajanlar",
+      "E": "Enzim içeren ajanlar"
+    },
+    "correctAnswer": "A",
+    "explanation": "Ağızdan çıkarılabilen hareketli tam protezlerin kimyasal temizliğinde tablet veya solüsyon olarak:\n- **B, D) Alkalin peroksit / Sodyum perborat:** Oksijen açığa çıkararak efervesan etkiyle plak temizleyen kimyasallardır.\n- **C) Dilüe (sulandırılmış) asitler:** Taş ve leke çözmede kullanılır.\n- **E) Enzim içeren ajanlar:** Protez üzerindeki mukoproteini parçalar (papain vb.).\n- **A) Zirkonyum silikat içeren ajanlar — YANLIŞTIR:** Zirkonyum silikat protez temizleme solüsyonlarında bulunmaz; kliniğimizde doğal diş yüzeylerinde profilaksi/polis işleminde kullanılan profi pastalarının aşındırıcı içeriğidir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2019 Orijinal",
+    "q_num": 97,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Sodyum perborat  \nII. Enzimler  \nIII. Dilüe asit  \nIV. Zirkonyum silikat  \nV. Alkalin peroksit  \n\n**Yukarıda verilen kimyasal ajanlardan hangisi ya da hangileri tam protezlerin kimyasal temizliğinde kullanılan solüsyonlarda bulunmaz?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "Yalnız IV",
+      "D": "Yalnız V",
+      "E": "II ve V"
+    },
+    "correctAnswer": "C",
+    "explanation": "Zirkonyum silikat (IV) diş parlatma pastası aşındırıcısıdır, protez temizleme solüsyonlarında yer almaz. Cevap Yalnız IV (C şıkkı) seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 98,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hareketli bölümlü protezlerin dezenfeksiyonunda kullanılması önerilen bir dezenfektan ajan değildir?",
+    "options": {
+      "A": "Alkalen peroksit",
+      "B": "Sodyum hipoklorit",
+      "C": "Klorheksidin",
+      "D": "Glutaraldehit",
+      "E": "Glukonat"
+    },
+    "correctAnswer": "B",
+    "explanation": "- **B) Sodyum hipoklorit:** Sodyum hipoklorit (çamaşır suyu türü solüsyonlar) hareketli bölümlü protezlerin **metal iskelet (kroşe/döküm) kısımlarında kararma, lekelenme ve korozyona** neden olur. Bu nedenle metal komponent içeren hareketli bölümlü protezlerde sodyum hipoklorit kullanımı önerilmez.\n- **A, C, D, E Şıkları:** Metal parça içermeyen veya metale zarar vermeyen dezenfektan alternatifleridir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2015 Orijinal",
+    "q_num": 99,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Seyreltilmiş asitler ya da enzimler içeren temizleyiciler  \nII. Alkalin hipoklorit solüsyonları  \nIII. Perboratlar  \n\n**Yukarıdakilerden hangileri metal içermeyen tam protezleri temizlemek için hastaların kullanabileceği protez temizleme ajanlarıdır?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Tam protezler **metal komponent içermediği için** korozyon riski yoktur. Bu nedenle hastalar akrilik tam protezlerini temizlemek için seyreltilmiş asit/enzimleri (I), alkalin hipokloritleri (II) ve perboratları (III) güvenle kullanabilirler. Bütün öncüller (I, II, III) doğrudur.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2023 Orijinal",
+    "q_num": 100,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Laboratuvar ya da evde gerçekleştirilen tüm dezenfeksiyon uygulamalarında protez temizliğinde kullanılan kimyasal ajanlardan alkalin hipokloritlerin metal içeren protezlerde kullanılmamasının temel sebebi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Protez kaidesini yumuşatması",
+      "B": "Metal komponentlerde kararma ve korozyona yol açması",
+      "C": "Yapay dişleri eritmesi",
+      "D": "Ağızda alerjik reaksiyon yapması",
+      "E": "Protezin ağırlığını artırması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Alkalin hipokloritler (sodyum hipoklorit) metalle temas ettiğinde metali oksitleyerek siyah kararmaya ve korozyona neden olurlar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 101,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. En bakterisidal ve fungisidal yöntem sodyum hipoklorit kullanımıdır.  \nII. Peroksit temizleyiciler protez yüzeyinde en hızlı etki gösteren ajanlardır.  \nIII. Ultrasonik cihazların kullanımı tek başına yeterli değildir.  \nIV. Alkalen hipokloritler metal komponentli protezlerde kullanılmamalıdır.  \n\n**Tam protezlerin mekanik ve kimyasal olarak temizlenme prosedürleri ile ilgili olarak yukarıda verilen ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "I, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "- **I. Öncül - DOĞRUDUR:** %0.25'lik sodyum hipoklorit tüm mikroorganizmalara karşı en etkili bacterisidal/fungisidal dezenfektandır.\n- **II. Öncül - YANLIŞTIR:** Peroksitlerin etkili olabilmesi için protezlerin solüsyonda birkaç saat veya bir gece bekletilmesi gerekir (en hızlı değildir).\n- **III. Öncül - DOĞRUDUR:** Ultrasonik cihazlar plağı tek başına tam çıkaramaz, fırçalama veya dezenfektanla kombine edilmelidir.\n- **IV. Öncül - DOĞRUDUR:** Hipokloritler metal korozyonu yaptığı için metal parçalı protezlerde kullanılmamalıdır.\n- **A, B, C, E Şıkları:** I, III ve IV doğru yanıt D seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 102,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çinko oksit öjenol simanların özellikleri ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Simanın karıştırılması esnasında az miktar su reaksiyonu hızlandırıcı etki yapar.",
+      "B": "Fosfat simanlar grubunda sınıflandırılırlar.",
+      "C": "Çinko oksit öjenol simanın çekme dayanıklılığı oldukça yüksektir.",
+      "D": "Karıştırma camının soğutulması sertleşme reaksiyonunu hızlandırır.",
+      "E": "Ağız sıvılarında çözünürlüğü düşüktür."
+    },
+    "correctAnswer": "A",
+    "explanation": "- **A) Az miktar su reaksiyonu hızlandırır — DOĞRUDUR:** Çinko oksit öjenol sertleşme mekanizmasında nem/su katalizör görevi görür. Karıştırma esnasında ortama az miktar su katılması veya üzerine nemli pamuk konulması sertleşmeyi hızlandırır.\n- **B) Sınıflandırma:** Fenolat simanlar grubundadır.\n- **C) Çekme dayanıklılığı:** Basma direnci iyi olmakla birlikte çekme/gerilme direnci son derece düşüktür ($7-40 MPa$).\n- **D) Camın soğutulması:** Soğuk cam üzerinde karıştırmak sertleşme reaksiyonunu yavaşlatır/geciktirir (çalışma süresini uzatır).\n- **E) Çözünürlük:** Ağız sıvılarında çözünürlüğü yüksek olan simanlardandır.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "q_num": 103,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Fenolat simanlar grubunda sınıflandırılır.  \nII. Baskı ve gerilme dayanımı yüksektir.  \nIII. Karıştırılması esnasında az miktarsa su ilavesi sertleşmeyi hızlandırır.  \nIV. Ağız sıvılarında çözünürlüğü yüksektir.  \n\n**Çinko oksit öjenol siman ile ilgili olarak yukarıda verilen ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "I ve III",
+      "D": "I, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "- **I. Öncül - DOĞRUDUR:** Çinko öjenol fenolat grubu simandır.\n- **II. Öncül - YANLIŞTIR:** Gerilme (çekme) dayanımı son derece düşüktür.\n- **III. Öncül - DOĞRUDUR:** Karıştırma esnasında su ilavesi sertleşmeyi hızlandırır.\n- **IV. Öncül - DOĞRUDUR:** Ağız ortamında çözünürlüğü en yüksek simanlardandır.\n- Doğru kombinasyon I, III ve IV (D şıkkı) seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 104,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çinko oksit öjenol simanın sertleşme reaksiyonuyla ilgili olarak aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Toz yapının partikül boyutu küçüldükçe sertleşme süresi kısalır.",
+      "B": "Üzerine nemli pamuk konulduğunda sertleşmesi hızlanır.",
+      "C": "İçerisine az miktarda çinko asetat eklenmesi sertleşmeyi hızlandırır.",
+      "D": "Toz-likit oranı arttıkça sertleşme süresi kısalır.",
+      "E": "Karıştırma camının soğutulması sertleşme reaksiyonunu hızlandırır."
+    },
+    "correctAnswer": "E",
+    "explanation": "- **A, B, C, D Şıkları:** Küçülen partikül boyutu, nemli ortama maruz bırakma, çinko asetat katalizörü ekleme ve daha koyu toz-likit oranı çinko oksit öjenolün sertleşmesini hızlandırır.\n- **E) Karıştırma camının soğutulması sertleşme reaksiyonunu hızlandırır — YANLIŞTIR:** Sıcaklık düşürüldüğünde (soğuk cam kullanıldığında) reaksiyon hızı yavaşlar ve sertleşme süresi uzar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 105,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Adeziv simantasyon tekniğinde kullanılan yapıştırma simanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çinko fosfat siman",
+      "B": "Çinko polikarboksilat siman",
+      "C": "Cam iyonomer siman",
+      "D": "Hibrit iyonomer siman",
+      "E": "Rezin siman"
+    },
+    "correctAnswer": "E",
+    "explanation": "Adeziv simantasyon tekniğinde diş dokusu ve restorasyon yüzeyi adeziv sistemlerle muamele edildikten sonra **Rezin simanlar** (E şıkkı) kullanılır. Rezin simanlar oto-polimerize, foto-polimerize veya dual-cure mekanizmayla polimerize olurlar.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "q_num": 106,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Cam iyonomer siman  \nII. Hibrit iyonomer siman  \nIII. Dual kür rezin siman  \nIV. Foto polimerize rezin siman  \n\n**Yukarıda verilen yapıştırma simanlarından hangisi ya da hangileri adeziv simantasyon tekniğinde kullanılır?**",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "III ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Adeziv simantasyon tekniğinde adeziv rezin içerikli **Dual kür rezin siman** (III) ve **Foto polimerize rezin siman** (IV) tercih edilir. Doğru cevap III ve IV (D şıkkı) seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 107,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Adeziv rezin simanlar ve bu simanların uygulama protokolü ile ilgili olarak aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Mikromekanik bağlantı için simantasyon öncesi diş yüzeyine %35-37'lik ortofosforik asit uygulaması yapılmalıdır.",
+      "B": "Mikromekanik bağlantı için simantasyon öncesi cam seramik yüzeyine %30'luk hidroflorik asit uygulaması yapılmalıdır.",
+      "C": "Cam seramik iç yüzeyine asit uygulaması sonrası silan sürülmelidir.",
+      "D": "Metal ya da zirkonya restorasyonların iç yüzeyine kumlama yapılabilir.",
+      "E": "Zirkonya restorasyonların simantasyonu için fosfat monomer içerikli rezin simanlar tercih edilmelidir."
+    },
+    "correctAnswer": "B",
+    "explanation": "- **A, C, D, E Şıkları:** Doğru klinik protokol adımlarıdır. Zirkonyaya MDP (fosfat monomeri) içerikli siman kullanılır, cam seramiğe silan sürülür, metale kumlama yapılır.\n- **B) Cam seramik yüzeyine %30'luk hidroflorik asit uygulanmalıdır — YANLIŞTIR:** Cam seramik iç yüzeyine uygulanan hidroflorik asit (HF) konsantrasyonu **%5 ila %9.5** arasındadır. %30'luk hidroflorik asit konsantrasyonu seramiği aşırı tahrip ederek yapısını bozar. %30-37 olan asit konsantrasyonu diş yüzeyine uygulanan ortofosforik asittir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 108,
+    "unit": "44-Diş Hekimliğinde Maddeler Bilgisi",
+    "quality_flag": "cikmis"
+  }
+]

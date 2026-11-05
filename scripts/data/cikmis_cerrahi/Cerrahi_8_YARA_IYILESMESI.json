@@ -1,0 +1,104 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi yara iyileşmesinin son basamağıdır?",
+    "options": {
+      "A": "Yara bölgesine trombosit göçü",
+      "B": "Yara bölgesine fibroblast göçü",
+      "C": "Vazokonstriksiyon",
+      "D": "İnflamatuar faz",
+      "E": "Remodeling (Yeniden Şekillenme) *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A ve C şıkları (Hemostaz Fazı - 1. Basamak):** Doku bütünlüğü bozulur bozulmaz ilk saniyelerde kanamayı durdurmak için lokal vazokonstriksiyon gelişir, ardından trombositler adezyon ve agregasyon göstererek primer pıhtıyı oluşturur.\n  * **D şıkkı (İnflamasyon Fazı - 2. Basamak):** İlk saatlerden itibaren nötrofil ve ardından makrofaj göçü ile cerrahi saha debride edilir, enfeksiyon bariyeri kurulur.\n  * **B şıkkı (Proliferasyon Fazı - 3. Basamak):** 3. günden itibaren fibroblastlar alana göç eder, anjiyogenez başlar, granülasyon dokusu ve Tip III kollajen sentezlenir.\n  * **E şıkkı (Remodeling / Matürasyon Fazı - Son Basamak / Doğru Cevap):** Yara iyileşmesinin 3. haftasından başlayıp aylarca (bazen 1-2 yıl) süren son evredir. Bu evrede Tip III kollajen yerini gerilme direnci yüksek olan Tip I kollajene bırakır, vaskülarite azalır, kollajen lifleri stres çizgilerine göre yeniden dizilir ve doku orijinal gücüne yaklaşır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "q_num": 25,
+    "unit": "8 YARA İYİLEŞMESİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Cerrahi prosedürde flep kaldırılması için insizyon yapıldıktan sonra, insize edilen bölgedeki yara iyileşmesi ile ilgili aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Birinci günde kesi sınırlarında nötrofiller görülür.",
+      "B": "Üçüncü günden itibaren nötrofillerin yerini makrofajlar almaya başlar.",
+      "C": "Epidermal proliferasyon 4-6. günlerde maksimal noktadadır.",
+      "D": "İyileşme prosesinin tamamlanması granülasyon dokusu oluşumu ile tamamlanır.",
+      "E": "İlk ay sonlarında yaranın gerilimi artar. *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A şıkkı (Doğrudur):** Cerrahi insizyonu takip eden ilk 24 saat içinde yara kenarlarına ilk göç eden inflamatuar hücreler polimorfonükleer lökositler (özellikle nötrofillerdir); mikrobiyal kontaminasyonu önlemek için fagositoz yaparlar.\n  * **B şıkkı (Doğrudur):** 3. günden itibaren alandaki baskın hücre tipi değişir; nötrofillerin yerini doku debridmanını ve büyüme faktörü salınımını yürüten monosit/makrofajlar alır.\n  * **C şıkkı (Doğrudur):** Epitel hücrelerinin (epidermal/mukozal) bazal tabakadan yara kenarına doğru göçü ve proliferasyonu 4 ila 6. günlerde tepe (maksimal) noktaya ulaşır.\n  * **D şıkkı (Yanlıştır / Aranan Seçenek):** Granülasyon dokusu oluşumu iyileşmenin sonu değil, proliferatif fazın erken dönemidir (3. günde başlar). İyileşme prosesi granülasyon dokusuyla tamamlanmaz; aylar süren matriks sentezi ve remodeling (yeniden şekillenme) fazıyla tamamlanır.\n  * **E şıkkı (Doğrudur):** Tip III kollajenin yerini daha güçlü Tip I kollajene bırakması ve liflerin çapraz bağlanması sayesinde yaranın gerilim direnci ilk ay sonlarında belirgin artış gösterir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 26,
+    "unit": "8 YARA İYİLEŞMESİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Pıhtı formasyonu  \nII. Ekstrasellüler matriks sentezi  \nIII. Remodeling  \nIV. Trombosit ve lökosit göçü  \n**Aşağıdaki sıralamalardan hangisi yukarıda verilen yara iyileşmesi aşamaları için doğrudur?**",
+    "options": {
+      "A": "I - II - III - IV",
+      "B": "I - IV - III - II",
+      "C": "I - IV - II - III",
+      "D": "IV - I - II - III",
+      "E": "IV - I - III - II *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I. Adım (Pıhtı Formasyonu - I):** Kanamayla birlikte ilk saniyelerde fibrin ağı ve pıhtı oluşumu gerçekleşir.\n  * **II. Adım (Trombosit ve Lökosit Göçü - IV):** Pıhtılaşmayı takiben trombositlerin degranülasyonu ve ilk 24 saatte inflamatuar lökositlerin alana göçü gerçekleşir.\n  * **III. Adım (Ekstrasellüler Matriks Sentezi - II):** Fibroblastik proliferasyon evresinde (3-14. günler) fibroblastlarca kollajen ve zemin maddesi sentezlenir.\n  * **IV. Adım (Remodeling - III):** Yara iyileşmesinin 3. haftasından başlayıp aylarca süren matürasyon ve yeniden şekillenme evresidir.\n  * Sıralama **I -> IV -> II -> III** (C şıkkı) şeklindedir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 27,
+    "unit": "8 YARA İYİLEŞMESİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dry socket ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Alveoler soketin ağrılı osteitisidir.",
+      "B": "Oral kontraseptif alan kadınlarda daha sık görülür.",
+      "C": "Etiyopatogenezinde artmış fibrinoliz rol oynayabilir.",
+      "D": "Postoperatif dönemde sigara kullanımında daha sık görülür.",
+      "E": "Diş çekimi sırasında oluşan şiddetli ağrıyla karakterizedir. *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A şıkkı (Doğrudur):** Alveolit (lokalize alveoler osteit / dry socket), alveol kemik duvarlarının çıplak kalarak iltihaplandığı son derece ağrılı tablodur.\n  * **B şıkkı (Doğrudur):** Östrojen içeren oral kontraseptifler plazminojen aktivasyonunu artırarak fibrinolizi tetikler ve kadınlarda alveolit riskini belirgin yükseltir.\n  * **C şıkkı (Doğrudur):** Temel patogenetik mekanizma, doku veya tükürük aktivatörleri ile plazmin oluşması ve oluşan kan pıhtısının organize olmadan önce erken fibrinoliz ile parçalanmasıdır.\n  * **D şıkkı (Doğrudur):** Sigara dumanındaki nikotin periferik vazokonstriksiyon yapar, kemik beslenmesini bozar ve aspirasyon hareketi soketteki negatif basınçla pıhtıyı yerinden söker.\n  * **E şıkkı (Yanlıştır / Aranan Seçenek):** Alveolit diş çekimi sırasında oluşmaz; çekim son derece normal geçer. Klinik tablo çekimden **2 ila 4 gün (tipik olarak 3. günde)** sonra aniden başlayan, kulağa vuran şiddetli zonklayıcı ağrıyla ortaya çıkar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2017 Orijinal",
+    "q_num": 34,
+    "unit": "8 YARA İYİLEŞMESİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin dry socket oluşumunda rolü yoktur?",
+    "options": {
+      "A": "Tükürük",
+      "B": "Kötü oral hijyen",
+      "C": "Oral antikoagülan kullanımı",
+      "D": "Doğum kontrol ilacı kullanımı",
+      "E": "Periodontal ligament artıkları *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Rolü vardır):** Tükürük içindeki doku kinazları ve bakteriyel enzimler fibrinolizi tetikleyerek pıhtıyı eritir.\n  * **B şıkkı (Rolü vardır):** Kötü hijyene bağlı aşırı bakteri yükü (özellikle anaeroplar) fibrinolitik enzim salınımını artırır.\n  * **C şıkkı (Rolü yoktur / Doğru Cevap):** Oral antikoagülanlar (Warfarin vb.) pıhtılaşma kaskadını baskılayarak kanama süresini uzatabilir; ancak bir kez organize pıhtı oluştuktan sonra pıhtının erken fibrinolitik lizisine ve dry socket oluşumuna sebep olmazlar.\n  * **D şıkkı (Rolü vardır):** Doğum kontrol hapları östrojenik etkiyle fibrinolizi hızlandırır.\n  * **E şıkkı (Rolü vardır):** Travmatize periodontal ligament artıklarından salınan doku aktivatörleri lokal fibrinolizi başlatır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 35,
+    "unit": "8 YARA İYİLEŞMESİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üç gün önce sağ alt birinci molar dişi çekilen hasta, çekim bölgesinden başlayıp kulağa yansıyan zonklayıcı ağrı ile kliniğe başvuruyor. Muayenede soketin kötü kokulu ve nekrotik görünüme sahip olduğu tespit ediliyor. Aşağıdakilerden hangisinin bu hastanın yönetiminde yeri yoktur?",
+    "options": {
+      "A": "Salinle irrigasyon yapılması",
+      "B": "Ojenollü tampon yerleştirilmesi",
+      "C": "Terapötik antibiyotik kullandırılması",
+      "D": "Herhangi bir şey yapılmadan takip edilmesi",
+      "E": "İyodoformlu gazlı bez ile pansuman yapılması *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, E şıkları (Uygulanır):** Soketteki debrisi uzaklaştırmak için ılık salin irrigasyonu yapılır, ardından ağrıyı dindirmek ve açık kemik yüzeyini dış etkenlerden korumak için çinko oksit ojenol veya iyodoformlu sedatif patlar/gazlı bezler sokete gevşekçe yerleştirilir.\n  * **C şıkkı (Yeri Yoktur / Doğru Cevap):** Alveolit süpüratif ve invaziv bir enfeksiyon değil, pıhtının erken lizisi sonucu gelişen lokalize aseptik bir osteittir. Ateş, lenfadenopati veya fasial selülit gibi sistemik yayılım bulguları yoksa **rutin sistemik/terapötik antibiyotik kullanımının hiçbir yeri ve faydası yoktur**.\n  * **D şıkkı (Klinik yaklaşım):** Alveolit kendi kendini sınırlayan (self-limiting) bir tablodur; müdahale edilmese de granülasyon dokusuyla iyileşir, yapılan tedaviler yalnızca hastanın dayanılmaz ağrısını palyatif olarak kesmek içindir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 36,
+    "unit": "8 YARA İYİLEŞMESİ",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "q_num": 511,
+    "question": "Ramsey-Hunt sendromunda izole edilen virüs aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ebstein barr virus",
+      "B": "Koksaki virus",
+      "C": "Varisella zoster virus",
+      "D": "Human papilloma virus",
+      "E": "Herpes simpleks virus"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Ramsay-Hunt sendromunun etkeni, duyusal ganglionlarda (genikulat ganglion) latent olarak kalan ve reaktive olduğunda fasiyal paralizi ile dış kulak yolunda zona vezikülleri oluşturan Varicella Zoster virüsüdür (VZV / HHV-3).\n**Çeldiriciler:**\n- A) Epstein-Barr virüsü (EBV / HHV-4); enfeksiyöz mononükleoz, oral kıllı lökoplaki, Burkitt lenfoma ve nazofarenks karsinomunun etkenidir.\n- B) Koksaki (Coxsackie) virüs; el-ayak-ağız hastalığı ve herpanjinanın etkenidir.\n- D) Human papilloma virüs (HPV); skuamöz papillom, verruka vulgaris, kondiloma aküminatum ve fokal epitelyal hiperplazinin etkenidir.\n- E) Herpes simpleks virüs (HSV-1/2); primer herpetik gingivostomatit ve rekürrent herpes labialis (uçuk) lezyonlarını oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 34 - Sinir Sistemi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 518,
+    "question": "Fasiyal paralizi ve granülomatöz şelitis ile birlikte görülen Melkersson-Rosenthal sendromlu hastada aşağıdaki patolojilerden hangisi izlenebilir?",
+    "options": {
+      "A": "Beyaz kıllı dil",
+      "B": "Siyah kıllı dil",
+      "C": "Fissürlü dil",
+      "D": "Bifid dil",
+      "E": "Coğrafik dil"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Melkersson-Rosenthal sendromunun klasik klinik üçlüsü (triadı); tekrarlayan fasiyal paralizi, orofasiyal ödem (granülomatöz şelitis) ve olguların %50-70'inde izlenen fissürlü (skrotal / plikata) dildir.\n**Çeldiriciler:**\n- A) Beyaz kıllı dil filiform papillaların keratin birikimiyle uzaması olup bu sendromun bileşeni değildir.\n- B) Siyah kıllı dil sigara, antibiyotik veya kötü hijyene bağlı filiform papilla uzaması ve pigmentasyonudur.\n- D) Bifid (yarık) dil, dilin gelişimsel olarak orta hatta tam birleşememesidir; Melkersson-Rosenthal sendromu bulgusu değildir.\n- E) Coğrafik dil, filiform papillaların göç edici deskuamasyonu olup sendromun tanısal triadında yer almaz.\n---",
+    "flag_reason": "Sonbahar 2016 Orijinal",
+    "unit": "Ünite 34 - Sinir Sistemi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 520,
+    "question": "Aşağıdakilerden hangisi Melkersson-Rosenthal Sendromu için doğru bir bilgi değildir?",
+    "options": {
+      "A": "Tekrarlayan fasiyal paralizi Melkersson-Rosenthal Sendromu düşündürebilir.",
+      "B": "Sinir-mukoza-deri tutulumu olan granülomatöz hastalıktır.",
+      "C": "Ağızda coğrafik dile rastlanır.",
+      "D": "En çok 2. ve 3. dekatta izlenir.",
+      "E": "Spontan gerileme beklenebilir"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Melkersson-Rosenthal sendromunda ağızda rastlanan karakteristik dil anomalisi coğrafik dil değil, fissürlü (skrotal) dildir.\n**Çeldiriciler:**\n- A) Olguların %30-35'inde görülen tekrarlayan fasiyal paralizi sendromun klasik üçlü bulgusundan biridir.\n- B) Fasiyal sinir, oral mukoza ve yüz derisi tutulumu gösteren non-kazeifiye granülomatöz bir hastalıktır.\n- D) Klinik belirtiler en sık yaşamın 2. ve 3. dekatlarında (genç erişkinlikte) ortaya çıkar.\n- E) Ödem ve paralizi ataklarında spontan gerileme görülebileceği gibi kortikosteroid ve immünosüpresif tedavi de uygulanabilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 34 - Sinir Sistemi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

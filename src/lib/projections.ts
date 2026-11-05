@@ -8,7 +8,7 @@
  */
 
 /** DUS 2026 hedef sınav tarihi (YYYY-MM-DD). */
-export const DUS_EXAM_DATE = '2026-11-01';
+export const DUS_EXAM_DATE = '2026-10-27';
 
 const MS_PER_DAY = 1000 * 60 * 60 * 24;
 

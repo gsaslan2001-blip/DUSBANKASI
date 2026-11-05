@@ -1,0 +1,937 @@
+[
+  {
+    "question": "Yumuşak doku yaralanmaları ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Devital dokuların olduğu yaralanmalarda tetanoz riski yüksektir.",
+      "B": "Yara bölgesi bol hidrojen peroksit ile yıkanmalıdır.",
+      "C": "Derin olmayan ve hareketsiz dokuda konumlanan yaralanmalar doku adezivleri ile örtülebilir.",
+      "D": "Yara bölgesi kapatılmadan önce mutlaka debride edilmelidir.",
+      "E": "Debridman uygulaması öncesinde rejyonel bloklar ile uyuşturulmalıdır. *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Doğrudur):** Nekrotik ve devital dokular oksijensiz (anaerob) bir mikroçevre oluşturur. Clostridium tetani sporları bu anaerob ortamda kolayca vejetatif forma geçip toksin ürettiğinden derin, devital dokulu ve toprakla kontamine yaralarda tetanoz profilaksisi hayati önem taşır.\n  * **B şıkkı (Yanlıştır / Aranan Seçenek):** Yara irrigasyonunda hidrojen peroksit (oksijenli su) **tercih edilmez**. Seyreltilmiş formları dahi granülasyon dokusunu, yeni oluşan kapillerleri ve fibroblastları kimyasal olarak nekroze eder (sitotoksiktir); yara iyileşmesini geciktirir. Yara temizliğinde en güvenli ve ideal ajan bol miktarda steril serum fizyolojiktir (izotonik NaCl).\n  * **C şıkkı (Doğrudur):** Düşük gerilimli, yüzeysel ve hareketsiz sahalardaki düzgün kesilerde siyanoakrilat türevi doku adezivleri sütür alternatifi olarak atravmatik ve estetik bir kapanma sağlar.\n  * **D şıkkı (Doğrudur):** Yara kapatılmadan önce enfeksiyon kaynağı oluşturabilecek yabancı cisimler ve ölü dokular mutlaka mekanik olarak debride edilmelidir; aksi takdirde yara enfeksiyonu ve abse kaçınılmazdır.\n  * **E şıkkı (Doğrudur):** Debridman ve sütürasyon öncesinde yara kenarlarına doğrudan infiltrasyon yapılması anatomik sınırları şişirip distorsiyone edebileceğinden ve enfeksiyonu yayabileceğinden rejyonel sinir blokları tercih edilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 102,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dentoalveolar bölgeye gelen bir travmanın, dişte yer değişikliğine sebep olmadan, dişin destek yapılarında hasar oluşturduğu ve periodontal ligament liflerinde kopmalara sebep olduğu klinik tabloya verilen isim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İntrüzyon",
+      "B": "Sublüksasyon",
+      "C": "Avülsiyon",
+      "D": "Ekstrüzyon",
+      "E": "Konküzyon *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (İntrüzyon):** Dişin apeks yönünde alveol kemiği içine gömülmesidir; vertikal yer değişikliği mevcuttur.\n  * **B şıkkı (Sublüksasyon - Doğru Cevap):** Dişte herhangi bir **yer değişikliği (deplasman) olmaksızın**, periodontal ligament liflerinde kısmi yırtılmalar ve hasar oluşması tablosudur. Klinik olarak dişte anormal mobilite artışı ve sulkustan dişeti kanaması izlenir.\n  * **C şıkkı (Avülsiyon):** Dişin soketinden tamamen fırlaması / ayrılmasıdır.\n  * **D şıkkı (Ekstrüzyon):** Dişin soket ekseni boyunca koronal yöne doğru kısmen yer değiştirmesidir (uzamış görünüm).\n  * **E şıkkı (Konküzyon):** Dişin destek dokularında minör ezilme vardır; dişte yer değişikliği olmadığı gibi **anormal mobilite veya sulkus kanaması da görülmez**; yalnızca perküsyonda hassasiyet mevcuttur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2017 Orijinal",
+    "q_num": 103,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Perküsyonunda hassasiyet vardır.  \nII. Dişeti cebinden kanama görülür.  \nIII. Dişte yer değiştirme bulunur.  \n**Yukarıdaki bulgulardan hangisi veya hangileri dentoalveolar yaralanmalardan birisi olan sublüksasyon için doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **I. öncül (Doğrudur):** PDL liflerinde travmatik hasar ve inflamasyon geliştiği için diş dokunmaya ve dikey/yatay perküsyona belirgin derecede hassastır.\n  * **II. öncül (Doğrudur):** Periodontal ligament liflerinin marjinal düzeyde kısmen yırtılması ve damarların hasar görmesi nedeniyle dişeti sulkusundan (cebinden) aktif kanama sızar. Bu bulgu sublüksasyonu konküzyondan ayıran ana kriterdir.\n  * **III. öncül (Yanlıştır):** Sublüksasyonun temel tanı kriteri dişte **hiçbir yönde yer değişikliği (deplasman) bulunmamasıdır**. Diş anatomik soket pozisyonundadır.\n  * Dolayısıyla doğru olanlar **I ve II** (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 104,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "On bir yaşındaki erkek hasta bahçede düşme sonucu kliniğe getiriliyor. Yapılan intraoral muayenede dentisyonun normal sürede geliştiği, 11 ve 21 numaralı dişlerin dental arktaki diğer dişlere göre daha apikalde konumlandığı fark ediliyor. Dişlere hafif kuvvet uygulandığında ağrı gözlemlenirken herhangi bir mobilite ile karşılaşılmıyor. Alınan radyografide, ilgili dişlerin periodontal aralıklarının görülemediği saptanıyor. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sublüksasyon",
+      "B": "Konküzyon",
+      "C": "İntrüzyon",
+      "D": "Ekstrüzyon",
+      "E": "Avülsiyon *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Sublüksasyon):** Dişte apikal yönde yer değişikliği olmaz, periodontal aralık kaybolmaz ve aksine mobilite artışı beklenir.\n  * **B şıkkı (Konküzyon):** Dişte hiçbir konum değişikliği ve radyografik aralık kaybı izlenmez.\n  * **C şıkkı (İntrüzyon - Doğru Cevap):** Dişin soket kemiğinin içine doğru eksenel olarak gömülmesidir. Komşu dişlere göre daha apikalde (kısalmış) durur, alveol kemiğine sıkıştığı için **mobilite sıfırdır (ankiloz benzeri kilitlenme)**, perküsyonda tipik tiz **metalik ses** verir ve radyografide periodontal ligament aralığı tamamen oblitere olmuştur.\n  * **D şıkkı (Ekstrüzyon):** Diş soketten dışarı, koronal yöne doğru çıkar ve ileri derecede mobildir.\n  * **E şıkkı (Avülsiyon):** Diş soketi tamamen terk etmiştir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 105,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi dental travma sonrası avülse olmuş daimi bir dişin reimplantasyon başarısını etkileyen faktörlerden biri değildir?",
+    "options": {
+      "A": "Dişin periodontal sağlığı",
+      "B": "Alveol soket kemik desteği",
+      "C": "Dişin ağız dışında geçirmiş olduğu süre",
+      "D": "Dental travma yönü",
+      "E": "Kök gelişim evresi *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A şıkkı (Etkiler):** Travma öncesinde dişte var olan aktif periodontal cep veya marjinal kemik yıkımı reimplantasyon sonrası periodontal ligamentin yeniden ataşmanını engeller.\n  * **B şıkkı (Etkiler):** Alveol soket duvarlarının kırılması veya ezilmesi dişin kemik desteğini ve revaskülarizasyon potansiyelini doğrudan azaltır.\n  * **C şıkkı (Etkiler):** En kritik faktördür; kuru ortamda geçen sürenin 60 dakikayı aşması kök yüzeyindeki PDL hücrelerinin nekrozuna yol açarak ankiloz ve replasman rezorpsiyonuna neden olur.\n  * **D şıkkı (Etkilemez / Aranan Seçenek):** Diş soketten tamamen ayrıldıktan sonra travmanın hangi vektörle (açıyla veya yönden) geldiğinin biyolojik iyileşme başarısı üzerinde hiçbir doğrudan etkisi yoktur; belirleyici olan PDL hücrelerinin canlılığı ve soketin durumudur.\n  * **E şıkkı (Etkiler):** Apeksi açık (geniş foramen apikale) dişlerde pulpanın revaskülarizasyon ve canlılığını koruma şansı çok yüksektir; apeksi kapalı matür dişlerde ise daima nekroz gelişir ve endodontik tedavi gerekir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2015 Orijinal",
+    "q_num": 106,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Hastanın yaşı ve kök gelişimi  \nII. Hastanın düştüğü zemin  \nIII. Düşme sonrası aradan geçen zaman  \nIV. Dişin beklediği dış ortam  \n**Sekiz yaşındaki hasta kliniğe 2 saat önce düşmesi sonucu avülse dişle getiriliyor. Hekim gerekli tedavilerin uygulanmasının ardından dişi replante ediyor. Buna göre yukarıdakilerden hangileri bu tedavinin başarısını etkiler?**",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "III ve IV",
+      "D": "I, III ve IV",
+      "E": "II, III ve IV *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **I. öncül (Etkiler):** 8 yaşındaki bir hastada üst santrallerin kök uçları açık (inmatür) olabilir; açık apeks pulpanın revaskülarizasyonu açısından en olumlu prognostik faktördür.\n  * **II. öncül (Etkilemez):** Düştüğü zemin (toprak, beton, halı vb.) enfeksiyon riski ve tetanoz profilaksisi gereksinimi açısından önemli olsa da, diş uygun şekilde dezenfekte edilip yıkandığında PDL canlılığının biyolojik kaderini zeminin tipi değil, dişin bekletildiği sıvı ortam belirler.\n  * **III. öncül (Etkiler):** Ekstraoral kuru kalma süresi ve toplam süre uzadıkça sementoblastlar ve PDL hücreleri canlılığını yitirir.\n  * **IV. öncül (Etkiler):** Dişin kuru peçetede mi, yoksa süt, Hank dengeli tuz solüsyonu (HBSS), Viaspan veya tükürük içerisinde mi bekletildiği hücre osmolalitesini ve sağkalımını doğrudan belirler.\n  * Doğru yanıt **I, III ve IV** (D şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 107,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "On iki yaşındaki hasta kliniğe bir buçuk saat önce düşmesi sonucu 11 numaralı dişinin soketinden ayrılması şikayetiyle getiriliyor. Yerinden uzaklaşan diş, bütünlüğü bozulmamış halde hastanın velisi tarafından süt içerisinde muhafaza edilerek yanlarında getiriliyor. Buna göre soketinden uzaklaşan dişe öncelikle uygulanması gerekenlerle ilgili aşağıda verilen ifadelerden hangisi en doğrudur?",
+    "options": {
+      "A": "Replante edilir ve iki hafta rijit olmayan splint uygulanır.",
+      "B": "Doksisiklin içinde beş dakika bekletilir ardından replante edilir.",
+      "C": "Dış ortamda endodontik tedaviye başlanır ardından replante edilir.",
+      "D": "Otuz dakika Hank solüsyonunda bekletilmesinin ardından replante edilir.",
+      "E": "Periodontal ligament eliminasyonu ve kanal dolgusunun ardından replante edilir. *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Doğru Cevap):** Diş fizyolojik bir saklama ortamı olan **süt içerisinde** muhafaza edilmiştir. Süt, PDL hücrelerinin canlılığını ve klonojenik kapasitesini birkaç saat boyunca korur. Dolayısıyla PDL hücreleri canlı kabul edilir; kök yüzeyine kazıma veya kimyasal eliminasyon yapılmaz, diş serumla nazikçe irrige edilip replante edilir ve 2 hafta süreyle yarı-rijit (fleksibıl) splintlenir.\n  * **B ve D şıkları:** Doksisiklin uygulaması kuru kalmış açık apeksli dişlerde revaskülarizasyonu artırmak için düşünülür; Hank solüsyonunda bekletme ise kuru kalmış dişlerin hücrelerini canlandırma protokollerindedir.\n  * **C ve E şıkları:** Periodontal ligamentin mekanik veya kimyasal (sodyum hipoklorit/sitrik asit) eliminasyonu ve ağız dışında kök kanal dolgusu yapılması, sadece **ekstraoral kuru kalma süresi 60 dakikayı aşmış ve PDL hücreleri tamamen nekroze olmuş** dişlerde ankilozun replasman rezorpsiyonunu yavaşlatmak amacıyla uygulanır. Sütte gelmiş dişte PDL hücreleri canlı olduğundan eliminasyon yapılması malpraktistir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 108,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibulanın aşağıdaki anatomik bölgelerinden hangisinde, kırık görülme oranı diğerlerine göre daha azdır?",
+    "options": {
+      "A": "Angulus",
+      "B": "Alveoler",
+      "C": "Kondil",
+      "D": "Simfiz",
+      "E": "Koronoid çıkıntı *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, C, D şıkları (En sık kırılan bölgeler):** Mandibulada kırıkların en sık görüldüğü anatomik sahalar sırasıyla **kondil boynu (%25-35)**, **angulus (%20-25)** ve **korpus / simfiz-parasimfiz (%15-20)** bölgeleridir.\n  * **B şıkkı (Alveoler kemik):** Dentoalveoler travmalarda sıkça kırılır.\n  * **E şıkkı (Koronoid çıkıntı - Doğru Cevap):** Mandibulanın **en seyrek kırılan anatomik bölgesidir (tüm mandibula kırıklarının %1-2'sinden azı)**. Koronoid proses, lateralde güçlü zigomatik ark kemiği tarafından korunur ve medialden/üstten yoğun temporalis kas lifleri tarafından sarılarak adeta bir zırh gibi desteklenir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2018 Orijinal",
+    "q_num": 109,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibula kırıklarının en seyrek görülebildiği bölgeler aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Kondil - simfiz",
+      "B": "Korpus - angulus",
+      "C": "Simfiz - parasimfiz",
+      "D": "Angulus - kondil",
+      "E": "Ramus - koronoid *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C, D şıkları:** Kondil, angulus, korpus ve parasimfiz sahaları mandibulanın biyomekanik olarak zayıf hatlarıdır ve kırıkların %85'inden fazlasını oluştururlar.\n  * **E şıkkı (Doğru Cevap):** **Ramus ve Koronoid proses**, mandibulada kırık görülme insidansı en düşük iki anatomik yapıdır. Her iki bölge de kalın kas kitleleri (masseter, mediyal pterigoid ve temporalis) tarafından sarılmış durumdadır ve doğrudan dış travmalardan korunurlar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 110,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibulanın aşağıda belirtilen bölgelerinden hangisinde kırıklar, gerilimden öte kompresyon kuvvetleri nedeniyle oluşur?",
+    "options": {
+      "A": "Kondil",
+      "B": "Angulus",
+      "C": "Korpus",
+      "D": "Ramus",
+      "E": "Parasimfiz *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Mandibula eğimli bir yay (at nalı) biyomekaniğine sahiptir. Çeneye gelen kuvvetlerde gerilim (tension) zonları üst kenarda (alveoler kret), sıkışma (kompresyon) zonları ise alt kenarda (bazis mandibula) yoğunlaşır; korpus, angulus ve simfiz kırıkları çoğunlukla kemiğin gerilme direncini aşan indirekt gerilim kuvvetleriyle oluşur.\n  * **A şıkkı (Kondil - Doğru Cevap):** Çene ucuna (simfize) veya gövdeye önden gelen şiddetli darbeler mandibula ramusu boyunca yukarıya doğru iletilir. Kondil başı artiküler fossaya doğru sıkışır; ramusa paralel bu eksenel kuvvet kondil boynunda aşırı bir **kompresyon (aksiyel sıkışma ve makaslama)** gerilimi yaratarak kemiğin kırılmasına yol açar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 111,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kondil kırıklarında, kondil başının anterior ve medial yönde deplase olmasına neden olan kas aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mylohyoid",
+      "B": "Geniohyoid",
+      "C": "Medial pterygoid",
+      "D": "Masseter",
+      "E": "Lateral pterygoid *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A ve B şıkları (Mylohyoid ve Geniohyoid):** Suprahifoid kaslardır; simfiz arkasına yapışırlar ve alt çeneyi aşağı-geriye çekerler.\n  * **C şıkkı (Medial pterygoid):** Mandibula angulusunun iç (medial) yüzeyine yapışır; çeneyi yukarı kaldırır.\n  * **D şıkkı (Masseter):** Angulusun dış yüzeyine yapışır; çeneyi yukarı kapatır.\n  * **E şıkkı (Lateral pterygoid - Doğru Cevap):** Musculus pterygoideus lateralis'in alt karnı doğrudan **fovea pterygoidea'ya (kondil boynunun anteromedial yüzeyi)** ve eklem kapsülü/diskine insersiyo yapar. Kondil boynu kırıldığında bu kasın tonik çekişi kraniumdan serbest kalan küçük proksimal kondil fragmanını **öne ve mediyale (anteromediale)** doğru çeker ve disloke eder.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2017 Orijinal",
+    "q_num": 112,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. M. pterygoideus medialis — Zigomatik ark  \nII. M. temporalis — Koronoid proses  \nIII. M. digastricus venter anterior — Bilateral korpus  \n**Yukarıda verilen deplasman yapan kas-ilgili kırık eşleştirmelerinden hangisi veya hangileri doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **I. öncül (Yanlıştır):** Zigomatik ark kırıklarında fragmanı mediyale ve aşağıya çekerek deplase eden kas mediyal pterigoid değil, arkın alt kenarından başlayan **M. masseter**dir.\n  * **II. öncül (Doğrudur):** Koronoid proses kırıklarında kemik parçasını kraniale (şakak çukuruna doğru) çeken kas prosesin tepesine yapışan **M. temporalis** kasıdır.\n  * **III. öncül (Doğrudur):** Bilateral parasimfiz veya korpus kırıklarında (kova sapı deformitesi) ön çene segmentini geriye ve aşağıya çekerek hava yolu tıkanıklığı riski yaratan kas grubu suprahifoid kaslardır ve bunların başında **M. digastricus'un ön karnı** gelir.\n  * Dolayısıyla doğru eşleştirmeler **II ve III** (D şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 113,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aksiyel kesitte tipik M şekilli deplasman gösteren zigomatik ark kırığında kemik segmentinin içeriye (mediale) doğru deplase olmasına sebep olan kas aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "M. pterygoideus medialis",
+      "B": "M. pterygoideus lateralis",
+      "C": "M. masseter",
+      "D": "M. temporalis",
+      "E": "M. buccalis *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D, E şıkları:** Bu kasların zigomatik arkın alt kenarına yapışması söz konusu değildir.\n  * **C şıkkı (M. masseter - Doğru Cevap):** Zigomatik ark kırıkları tipik olarak 3 kırık hattı ile karakterize içe çökmüş \"M\" harfi şeklinde görülür. Masseter kası zigomatik arkın alt kenarından ve iç yüzeyinden köken alarak mandibula angulusuna uzandığı için, kırık anında ve sonrasında güçlü kas tonusuyla ark fragmanlarını mediyale ve aşağıya çekerek temporalis kasının hareketini kısıtlar ve trismusa yol açar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 114,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Unilateral mandibuler kondil fraktürlerinde aşağıdaki bulgulardan hangisi görülür?",
+    "options": {
+      "A": "Sağlam tarafta açık kapanış",
+      "B": "Kırık tarafta açık kapanış",
+      "C": "Anterior bölgede açık kapanış",
+      "D": "Mandibuler retrüzyon",
+      "E": "Mandibuler protrüzyon *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Tek taraflı (unilateral) kondil boynu kırıldığında, kırık tarafındaki ramus vertikal yüksekliğini kaybeder ve yukarı doğru kısalır (teleskopik kayma). Kırık tarafındaki masseter ve medial pterigoid kaslar ramusu yukarı çeker.\n  * **A şıkkı (Sağlam tarafta açık kapanış - Doğru Cevap):** Kırık tarafındaki ramus kısaldığı için kırık tarafındaki molar dişlerde **erken temas (prematür kontak)** meydana gelir. Bir tahterevalli mekanizmasıyla karşı (sağlam) taraftaki dişler birbirinden uzaklaşır ve **sağlam tarafta açık kapanış (open-bite)** oluşur.\n  * **B şıkkı (Yanlış):** Kırık tarafta açık kapanış değil, erken temas görülür.\n  * **C şıkkı (Yanlış):** Anterior açık kapanış unilateral değil, **bilateral (çift taraflı)** kondil kırıklarının tipik bulgusudur.\n  * **D ve E şıkları (Yanlış):** Çene açma sırasında lateral pterigoid kasın çekişi kaybolduğu için çene ucu **kırık tarafa (ipsilaterale)** deviye olur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 115,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Unilateral kondil kırıklarında çene ucu kontralaterale doğru deviye olur.  \nII. Bilateral kondil kırıklarında mandibula protrüzyon hareketini yapamaz.  \nIII. Unilateral kondil kırığında sağlam tarafta açık kapanış görülür.  \nIV. Mandibula kondil kırığına genellikle kontralateral korpus bölgesindeki kırık eşlik eder.  \n**Yukarıda kondil kırıkları ile ilgili verilen ifadelerden hangisi ya da hangileri doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve IV",
+      "D": "II ve IV",
+      "E": "II, III ve IV *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. öncül (Yanlıştır):** Unilateral kondil kırığında sağlam taraftaki lateral pterigoid kas çalışıp çeneyi öne iterken kırık taraftaki kas işlev görmez; bu nedenle ağız açıldığında çene ucu kontralaterale değil, **kırık tarafa (ipsilaterale)** kayar.\n  * **II. öncül (Doğrudur):** Mandibulanın simetrik öne hareketi (protrüzyon) her iki lateral pterigoid kasın senkron kasılmasıyla sağlanır; bilateral kırıklarda her iki kondil başı koptuğu için hasta kesinlikle protrüzyon yapamaz.\n  * **III. öncül (Doğrudur):** Kırık tarafındaki ramus boyu kısaldığı için aynı tarafta erken temas, sağlam tarafta açık kapanış gelişir.\n  * **IV. öncül (Doğrudur):** Mandibulaya çapraz gelen darbelerde darbe alan korpus/parasimfiz kırılırken, iletilen kuvvet karşı tarafın ince kondil boynunu kırar (kontralateral korpus + kondil kırığı kombinasyonu son derece yaygındır).\n  * Doğru öncüller **II, III ve IV** (E şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 116,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kondil kırığı bulunan bir hastada ortaya çıkan klinik ve biyomekanik tablolara ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sol tarafta trismus görülür.",
+      "B": "Gnathion noktası sola kayar.",
+      "C": "Çene ucu ağız açılırken sola kayar.",
+      "D": "Sağ tarafta sınıf II kapanış ve erken temas vardır.",
+      "E": "Sağ tarafta oklüzyonda temaslar kaybolmuştur. *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Sol kondil kırığında ramus sol tarafta kısalır; kas spazmı sol tarafta trismusa yol açar (A doğru); Gnathion ve çene ucu açılışta etkilenen sol tarafa deviye olur (B ve C doğru); sol taraftaki erken temas nedeniyle sağ (sağlam) taraftaki diş temasları kaybolur ve açık kapanış gelişir (E doğru).\n  * **D şıkkı (Yanlıştır / Aranan Seçenek):** Erken temas ve ramus kısalığına bağlı Sınıf II ilişki sağ tarafta değil, bizzat **kırığın olduğu sol (etkilenen) tarafta** meydana gelir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 117,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi mandibula kırıklarında açık redüksiyon kontrendikasyonudur?",
+    "options": {
+      "A": "Deplase, stabil olmayan kırık segmentlerinin varlığı",
+      "B": "Panfasiyal fraktürlerde",
+      "C": "Maksillomandibuler fiksasyon uygulamasının yapılamadığı durumlar",
+      "D": "Kırık bölgesindeki kemikte belirgin enfeksiyon olması",
+      "E": "Kondil kırığı ve mandibulanın bir başka bölgesindeki kırığın bir arada olması *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A, B, C, E şıkları (Açık Redüksiyon Endikasyonlarıdır):** Parçalı/deplase instabil kırıklarda, panfasiyal travmalarda vertikal boyutu kurmak için, nörolojik/epileptik nedenlerle IMF yapılamayanlarda ve çoklu kırıklarda rijit açık redüksiyon şarttır.\n  * **D şıkkı (Açık Redüksiyon Kontrendikasyonudur - Doğru Cevap):** Kırık hattında aktif pürülan enfeksiyon, osteomiyelit veya yaygın yumuşak doku flegmonu varsa cerrahi sahayı açıp yabancı cisim niteliğindeki metal plak/vida sistemlerini enfekte kemiğe yerleştirmek enfeksiyonu alevlendirir, kemik nekrozuna ve implant kaybına neden olur. Bu durumda açık cerrahi ertelenir; kırık öncelikle **kapalı redüksiyon (intermaksiller fiksasyon) ve yoğun antibiyoterapi** ile yönetilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "q_num": 118,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen mandibula kırığı ve uygulanması gereken redüksiyon metodu ile ilgili eşleştirmelerden hangisi doğrudur?",
+    "options": {
+      "A": "Nonstabil kırık segmentlerin varlığı — Kapalı",
+      "B": "Kırık bölgesinde enfeksiyon — Kapalı",
+      "C": "Kondilde kırık — Açık",
+      "D": "Hastada epilepsi öyküsü — Kapalı",
+      "E": "Kondil kırığına ek olarak mandibulada başka bir alanda kırık varlığı — Kapalı *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Yanlış):** Nonstabil segmentler rijit plaklarla açık redüksiyon gerektirir.\n  * **B şıkkı (Doğru Eşleştirme):** Kırık sahasında aktif enfeksiyon varlığında cerrahi diseksiyon ve plak konulması enfeksiyonu yayacağından kapalı yöntem tercih edilir.\n  * **C ve E şıkları (Yanlış):** İzole kondil kırıklarında ilk tercih daima konservatif (kapalı) tedavidir. Ek kırık varlığında ise diğer kırığa açık, kondile genellikle kapalı yaklaşılır.\n  * **D şıkkı (Yanlış):** Epilepsi hastalarında nöbet esnasında dişlerin birbirine kilitli olması (kapalı IMF) aspirasyon ve asfiksi riski yaratır; bu nedenle epilepside açık redüksiyon endikedir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 119,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibula angulusunda deplase kırığı bulunan dişli bir hastada, Champy prensiplerine göre ideal biyomekanik fiksasyon aşağıdakilerden hangisi ile sağlanır?",
+    "options": {
+      "A": "Çift rekonstrüksiyon plağı",
+      "B": "Transosseöz tel fiksasyonu",
+      "C": "Tek miniplak fiksasyonu",
+      "D": "Eksternal pin fiksasyonu",
+      "E": "Sadece intermaksiller elastik uygulaması *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Yanlış):** Angulusta çift kalın rekonstrüksiyon plağı aşırı rijitlik yaratır ve inferior alveolar sinir hasarı riskini artırır; Champy tekniğine aykırıdır.\n  * **B şıkkı (Yanlış):** Tel osteosentezi sadece tel gerilimi sağlar, rijit değildir ve fonksiyonel stabilite sağlamaz; mutlaka uzun süreli IMF gerektirir.\n  * **C şıkkı (Doğru Cevap):** Champy'nin ideal biyomekanik gerilim çizgileri prensibine göre mandibula angulus kırıklarında üst gerilim hattı boyunca (eksternal oblik hat üzerinde) yerleştirilen **tek bir monokortikal miniplak**, fonksiyonel kuvvetleri karşılamak ve fizyolojik primer kemik iyileşmesini sağlamak için altın standarttır.\n  * **D ve E şıkları:** İnstabilitesi yüksek deplase kırıklarda tek başına yetersiz kalır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 120,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki çene kırıklarının hangisinde, açık redüksiyon ve rijit fiksasyon tercih edilmez?",
+    "options": {
+      "A": "Madde kaybı olan açık parçalı kırıklarda",
+      "B": "Orta yüz kırıkları ile birlikte olan alt çene kırıklarında",
+      "C": "İntermaksiller fiksasyonun kontrendike olduğu durumlarda",
+      "D": "Deplase olmamış kondil kırıklarında",
+      "E": "Mandibulanın posteriora deplase olduğu kondil kırıklarında *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A, B, C, E şıkları:** Parçalı kemik defektlerinde, panfasiyal orta yüz kırıklarında kılavuzluk sağlamada, psikiyatrik veya solunumsal nedenlerle IMF yapılamayanlarda ve mekanik engele yol açan deplase kondil kırıklarında açık redüksiyon endikedir.\n  * **D şıkkı (Tercih Edilmez / Doğru Cevap):** **Deplase olmamış (anatomik pozisyonunu koruyan) kondil kırıklarında** açık cerrahi uygulanması; fasyal sinir hasarı, eklem kapsülü skarı ve ankiloz gibi ciddi riskler yaratır. Hastanın oklüzyonu bozulmamışsa sadece kısa süreli elastik yönlendirme, yumuşak diyet ve çene egzersizleriyle konservatif (kapalı) takip edilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 121,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Panfasiyal kırıklar  \nII. Madde kaybı olan açık parçalı kırıklar  \nIII. Deplase olmamış tek taraflı kondil kırıkları  \nIV. Dislokasyon sonucu mekanik bir durak noktasının oluştuğu ve mandibula fonksiyonunun kısıtlandığı kondil kırıkları  \n**Yukarıdaki maksillofasiyal travma olgularının hangilerinde açık redüksiyon ve internal fiksasyon gerekir?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "II ve IV",
+      "C": "I, II ve IV",
+      "D": "I, III ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I. öncül (Açık gerekir):** Panfasiyal travmalarda yüzün oklüzyon, genişlik ve projeksiyon referanslarını yeniden kurabilmek için alt çene açık redüksiyonla rijit hale getirilmelidir.\n  * **II. öncül (Açık gerekir):** Kemik defekti içeren parçalı kırıklarda yük taşıyan köprü plakları ancak açık cerrahiyle yerleştirilebilir.\n  * **III. öncül (Açık gerekmez):** Deplase olmamış kondil kırıkları kapalı yöntemlerle ve egzersizle tedavi edilir.\n  * **IV. öncül (Açık gerekir):** Kondil başının mekanik blokaj yapıp ağız açıklığını engellediği durumlar açık redüksiyonun **mutlak endikasyonları** arasındadır.\n  * Dolayısıyla açık redüksiyon gerekenler **I, II ve IV** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 122,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kondil kırıkları  \nII. Angulus ve posterior ramus kırıkları  \nIII. Ateşli silah yaralanması sonucu oluşan komplike parçalı kırıklar  \nIV. Atrofik dişsiz mandibulada oluşan kırıklar  \n**Yukarıda verilen alt çene kırıklarından hangilerinde açık redüksiyon gerektiğinde ekstraoral insizyonlar tercih edilebilir?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "II ve IV",
+      "C": "I, II ve IV",
+      "D": "I, III ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. öncül (Kondil):** Preauriküler, retromandibular veya submandibular ekstraoral insizyonlarla ulaşılır.\n  * **II. öncül (Angulus/Ramus):** Risdon (submandibular) yaklaşımı mükemmel cerrahi saha sağlar.\n  * **III. öncül (Komplike/Ateşli silah):** Yaygın yumuşak doku hasarı ve defektif sahalarda kemik uçlarına ve rekonstrüksiyon plaklarına ekstraoral ulaşım zorunludur.\n  * **IV. öncül (Atrofik mandibula):** İntraoral insizyon açıldığında zaten sığ olan vestibül sulkus tamamen silinir ve ince kret mukozası dikiş tutmayıp plağın ekspozisyonuna yol açar; bu nedenle kret yüksekliği 10 mm altındaki atrofik çenelerde ekstraoral submandibular insizyon altın standarttır.\n  * Tüm öncüller **I, II, III ve IV** (E şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 123,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibuler kondil kırıklarının tedavi seçenekleri ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Orta yüz kırıkları ile birlikte olan bilateral kondil kırıklarının tedavisinde açık redüksiyon uygulanmaz.",
+      "B": "Kapalı redüksiyon uygulandığında erişkin hastada immobilizasyon süresi 2-4 haftadır.",
+      "C": "Eklem aralığında yabancı cisim varlığında tedavi açık redüksiyonla yapılır.",
+      "D": "Kondilin orta kraniyal fossaya deplasmanı söz konusu ise açık redüksiyon yapılır.",
+      "E": "Hastada tekrarlanabilir oklüzyon varsa ve ağrı yoksa herhangi bir cerrahi tedavi uygulanmaz. *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Yanlıştır / Aranan Seçenek):** Orta yüz kırıkları ile bilateral kondil kırıkları birlikte olduğunda (panfasiyal kırık), yüzün posterior dikey boyutu tamamen çöker. Oklüzyon referansı kurulamayacağı için **en az bir taraftaki kondil kırığına mutlaka açık redüksiyon ve internal fiksasyon uygulanmalıdır**. Uygulanmaz ifadesi kesinlikle yanlıştır.\n  * **B şıkkı (Doğrudur):** Kapalı redüksiyonda TME ankilozunu önlemek için erişkinlerde IMF süresi kısa tutulur (ideal olarak 1.5 - 3 hafta, maksimum 4 hafta).\n  * **C ve D şıkları (Doğrudur):** Eklem içi yabancı cisim ve kondilin kafa tabanına (orta kraniyal fossaya) intrakraniyal penetrasyonu açık redüksiyonun mutlak endikasyonlarıdır.\n  * **E şıkkı (Doğrudur):** Deplasmanı olmayan, oklüzyonu stabil ve ağrısız olgularda konservatif takip yeterlidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 124,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen kondil kırıklarının tedavisi ile ilgili ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Açık redüksiyon yapılacaksa ekstraoral insizyon zorunludur.",
+      "B": "Çocuklardaki yeşil ağaç benzeri kırıklarda intermaksiller fiksasyon gereklidir.",
+      "C": "Kondil kırığına ek olarak mandibulada başka bir alanda kırık varsa, kondil açık redüksiyonla tedavi edilir.",
+      "D": "Tek taraflı kondil kırığına orta yüz bölgesi kırığı eşlik ediyorsa kondil açık redüksiyonla tedavi edilir.",
+      "E": "Kırık bilateral olduğunda dikey boyutun doğru ayarlanabilmesi için tek taraf açık redüksiyonla tedavi edilir. *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A şıkkı (Yanlış):** Günümüzde endoskopik yardımlı intraoral yaklaşımlarla da kondil açık redüksiyonu yapılabilmektedir; ekstraoral yaklaşım tek ve zorunlu seçenek değildir.\n  * **B şıkkı (Yanlış):** Çocuklarda yeşil ağaç kırıklarında ankiloz riski çok yüksek olduğundan sert IMF yapılmaz; kısa süreli elastikler veya sadece fonksiyonel diyetle takip edilir.\n  * **C şıkkı (Yanlış):** Mandibulada kombine kırıklarda kural: Diğer kırık hattı (korpus/angulus) açık redükte edilirken kondil kapalı bırakılır.\n  * **D şıkkı (Yanlış):** Tek taraflı kondil kırığına orta yüz kırığı eşlik ettiğinde sağlam taraf dikey boyutu tuttuğu için kondil genellikle kapalı takip edilebilir.\n  * **E şıkkı (Doğru Cevap):** Bilateral kondil kırığında ramusların dikey yüksekliği çöker. Yüzün posterior vertikal yüksekliğini garanti altına almak için **en az bir tarafın (veya endikasyona göre her iki tarafın) açık redüksiyonla anatomik pozisyona getirilip rijit tespiti şarttır**.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 125,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibuler kondil kırığı meydana gelen bir hastada aşağıdakilerden hangisi açık redüksiyon ve internal fiksasyonu zorunlu kılmaz?",
+    "options": {
+      "A": "Kondilin artiküler fossa sınırlarının dışına çıkması",
+      "B": "Eklem aralığında yabancı cisim varlığı",
+      "C": "Hastada sık meydana gelen epilepsi öyküsü",
+      "D": "Panfasiyal kırık varlığı",
+      "E": "Kırığın bilateral olması *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C, D şıkları (Açık Redüksiyonu Zorunlu Kılan / Endike Durumlar):** Kondil başının artiküler fossadan veya eklem kapsülünden dışarı disloke olması kapalı manipülasyonla yerine oturtulamaz (A); eklem içi penetran yabancı cisim enfeksiyon ve ankiloz riski yaratır (B); epilepsi hastalarında kapalı IMF aspirasyon ve boğulma riski taşıdığından IMF kontrendikedir (C); panfasiyal kırıklarda yüzün dikey boyut ve projeksiyonunu yeniden kurabilmek için kondil fiksasyonu şarttır (D).\n  * **E şıkkı (Zorunlu Kılmaz / Doğru Cevap):** Kırığın **sadece bilateral olması tek başına her iki tarafa açık redüksiyon yapılmasını zorunlu kılmaz**. Eğer oklüzyon rehberliği sağlanabiliyorsa veya hasta çocuk/adölesan ise kapalı tedavi ilk tercihtir. Erişkinde dikey boyut kaybı varsa da genellikle **sadece bir taraf açık redükte edilerek** dikey boyut güvenceye alınır, diğer taraf kapalı takip edilebilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 126,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi yetişkinlerde kondil kırıklarının açık redüksiyonu ve internal fiksasyonu için kesin bir endikasyon değildir?",
+    "options": {
+      "A": "Kapalı redüksiyon teknikleri ile oklüzyonun sağlanamaması",
+      "B": "Kondilin orta kraniyal fossaya deplasmanı",
+      "C": "Kondilin lateral ekstrakapsüler dislokasyonu",
+      "D": "Eklem kapsülü içerisinde yabancı cisim varlığı",
+      "E": "İleri derecede atrofik mandibulada deplase kırıklar *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C, D şıkları (Kesin / Mutlak Endikasyonlar):** Kapalı yaklaşımla oklüzyonun hiçbir şekilde kurulamaması, kondilin kafa tabanına (orta kraniyal fossaya) intrakraniyal penetrasyonu, lateral ekstrakapsüler dislokasyon ve eklem içi yabancı cisim varlığı açık cerrahinin mutlak endikasyonlarıdır.\n  * **E şıkkı (Kesin Endikasyon Değildir / Doğru Cevap):** İleri derecede atrofik dişsiz mandibulalarda kanlanma belirgin derecede zayıftır (periost desteğine bağımlıdır). Bu bölgede kondil kırığı meydana geldiğinde cerrahi diseksiyon kemik nekrozu riskini artırır. Bu hastalarda hastanın **mevcut total protezleri veya Gunning splintleri** kullanılarak kemik açılmadan kapalı intermaksiller tespit sağlanması öncelikli ve güvenli yaklaşımdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2019 Orijinal",
+    "q_num": 127,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen mandibula kırığı ve tercih edilmesi gereken fiksasyon yöntemi eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Komminüke fragmanların varlığı — Kapalı",
+      "B": "Atrofik korpus kırığı — Kapalı",
+      "C": "Kırık hattı üzerindeki yumuşak doku örtücülüğünün olmaması — Açık",
+      "D": "Bilateral kondil kırığına ek olarak orta yüz bölgesi içeren kırık varlığı — Açık",
+      "E": "Kondil kırığına ek olarak karşı tarafta parasimfiziste kapalı kırık varlığı — Kapalı ve Açık *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Doğru eşleştirme):** Aşırı parçalı (komminüke) kırıklarda periost kaldırılırsa küçük kemik parçaları vaskülarizasyonunu yitirip sekestre olur; bu nedenle kapalı yaklaşım tercih edilir.\n  * **B şıkkı (Doğru eşleştirme):** Atrofik mandibulada kan dolaşımı periosta bağımlı olduğundan kapalı teknikler önceliklidir.\n  * **C şıkkı (Yanlış Eşleştirme / Aranan Seçenek):** Kırık hattı üzerindeki yumuşak dokunun defektif olduğu (örtücülüğün bulunmadığı) durumlarda açık redüksiyon yapılıp metal plaklar konursa, plaklar açıkta kalır ve şiddetli sekonder enfeksiyon gelişir. Bu olgularda doku rekonstrüksiyonu yapılana kadar **kapalı fiksasyon veya eksternal pin fiksasyonu** tercih edilir; açık redüksiyon kontrendikedir.\n  * **D şıkkı (Doğru eşleştirme):** Orta yüz + bilateral kondil kombinasyonunda vertikal boyutu kurmak için en az bir kondile açık yaklaşım şarttır.\n  * **E şıkkı (Doğru eşleştirme):** Parasimfiz kırığı açık redüksiyonla rijit tespit edilirken, ankiloz riskini önlemek için kondil kırığı kapalı takip edilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 128,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibula kırıklarında tercih edilen ekstraoral insizyonlarda travmaya uğrayan anatomik yapılarla ilgili aşağıdaki eşleştirmelerden hangisi doğrudur?",
+    "options": {
+      "A": "Preauriküler — N. facialis, R. buccalis",
+      "B": "Retromandibular — N. facialis, R. cervicalis",
+      "C": "Submandibuler — V. facialis",
+      "D": "Submandibuler — A. maxillaris",
+      "E": "Preauriküler — A. meningea media *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Yanlış):** Preauriküler insizyonda fasiyal sinirin temporal ve zigomatik dalları ile aurikulotemporal sinir ve yüzeyel temporal damarlar risk altındadır (bukkal dal yanağın ortasındadır).\n  * **B şıkkı (Yanlış):** Retromandibular (postramal / Hinds) insizyonda fasiyal sinirin marjinal mandibuler ve bukkal dalları kesişim alanındadır; servikal dal boynun altındadır.\n  * **C şıkkı (Doğru Eşleştirme):** Risdon (submandibular) insizyonunda mandibula alt kenarına ulaşılırken **Vena facialis ve Arteria facialis** ile karşılaşılır ve bu damarlar bağlanarak (ligature edilerek) ekarte edilir; ayrıca N. facialis'in Ramus marginalis mandibulae dalı korunmalıdır.\n  * **D şıkkı (Yanlış):** A. maxillaris infratemporal fossada derindedir, submandibular alanda bulunmaz.\n  * **E şıkkı (Yanlış):** A. meningea media foramen spinosum'dan kafa içine giren intrakraniyal bir damardır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 129,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Zigomatik ark kırıklarının cerrahi tedavisinde kullanılan intraoral redüksiyon yöntemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Millard",
+      "B": "Obwegeser",
+      "C": "Keen",
+      "D": "Kazanjian",
+      "E": "Gillies *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Millard):** Saçlı deri şakak bölgesinden (temporal hattan) yapılan ekstraoral bir insizyondur.\n  * **B şıkkı (Obwegeser):** Le Fort osteotomilerinde sirkumzigomatik askılama veya sagital split ramus cerrahisinde kullanılan bir tekniktir.\n  * **C şıkkı (Keen Yaklaşımı - Doğru Cevap):** Üst çene arka vestibül sulkusta (molar dişlerin bukkalinde) mukozaya yapılan yaklaşık 1 cm'lik **intraoral insizyondur**. Bu kesiden sokulan bir elevatör (Bristow veya Rowe elevatörü) zigomatik arkın medialine (altına) ilerletilerek kemik dışarıya doğru kolayca redükte edilir.\n  * **D şıkkı (Kazanjian):** Periorbital/infraorbital alandan yapılan yaklaşımdır.\n  * **E şıkkı (Gillies):** Temporal saçlı deriden derin temporal fasya altından girilen klasik **ekstraoral** yaklaşımdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 130,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aksiyel bilgisayarlı tomografide zigoma bölgesinde tipik \"M\" harfi şeklinde çökme kırığı izlenen bir hastada, cerrahın maksillada vestibül sulkustan yaptığı insizyonla kırık hattına ulaşıp elevatörle kırığı redükte ettiği cerrahi yaklaşım aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Keen",
+      "B": "Gillies",
+      "C": "Millard",
+      "D": "Kazanjian",
+      "E": "Obwegeser *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Soru kökünde açıkça belirtilen \"maksillada vestibül sulkustan intraoral kesi\" ile zigoma ve ark kırığına ulaşma tekniği **Keen yaklaşımıdır**.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 131,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Zigoma kırığı olan bir hastada temporal saçlı deriden yapılan oblik bir insizyonla derin temporal fasya altına girilip fasya boyunca ilerletilen Rowe elevatörü ile arkın dışarı doğru kaldırılması şeklinde uygulanan cerrahi teknik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Keen",
+      "B": "Gillies",
+      "C": "Lothrop",
+      "D": "Kazanjian",
+      "E": "Transkutanöz kanca *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Keen):** Ağız içinden vestibüler yaklaşımdır.\n  * **B şıkkı (Gillies Yaklaşımı - Doğru Cevap):** Temporal bölgede saçlı deriye yapılan kesiyle derin temporal fasyanın derin tabakası altına girilir. Fasya arkın altından geçtiği için elevatör fasyanın altından güvenle kaydırılarak zigomatik arkın iç yüzeyine ulaşılır ve dışa doğru kuvvet uygulanarak redüksiyon sağlanır.\n  * **C şıkkı (Lothrop):** Maksiller sinüs içinden girilen transantral yaklaşımdır.\n  * **D şıkkı (Kazanjian):** İnfraorbital/periorbital yaklaşımdır.\n  * **E şıkkı (Transkutanöz kanca):** Cilt üzerinden tek dişli kemik kancasıyla cildi delerek arkın altına girilmesidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 132,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İzole zigomatik ark kırıkları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Bazı zigomatik ark kırıklarında cerrahi müdahale gerekmeyebilir.",
+      "B": "Rakun göz bulgusu spesifiktir.",
+      "C": "Trismus görülebilir.",
+      "D": "Saçlı deriden insizyonla bölgeye erişim sağlanabilir.",
+      "E": "İntraoral olarak bölgeye erişim sağlanabilir. *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Doğrudur):** Deplase olmamış, fasiyal asimetri yaratmayan ve ağız açıklığını engellemeyen kırıklar sadece yumuşak diyet ve takip ile konservatif yönetilebilir.\n  * **B şıkkı (Yanlıştır / Aranan Seçenek):** Rakun göz (periorbital ekimoz) bulgusu izole zigomatik ark kırıklarına değil; **anterior kafa tabanı kırıklarına, NOE (nazo-orbito-etmoid) kırıklarına veya Le Fort II / III kırıklarına** spesifiktir. İzole ark kırıklarında orbita tabanı tutulmadığından rakun göz izlenmez.\n  * **C şıkkı (Doğrudur):** İçe çöken ark segmenti altından geçen M. temporalis tendonunu ve koronoid prosesi sıkıştırarak mekanik trismusa neden olur.\n  * **D ve E şıkları (Doğrudur):** Sırasıyla Gillies (temporal saçlı deri) ve Keen (intraoral vestibül) yaklaşımlarıyla erişilebilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "q_num": 133,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. İzole zigomatik ark kırığının tipik paterni M şekilli kırıktır.  \nII. Koronoid proses ile interferans olması durumunda mandibuler hipomobilite (trismus) oluşur.  \nIII. Kırık fragmanı mediale çeken kas medial pterygoid kastır.  \nIV. Her zigomatik ark kırığı mutlaka açık yaklaşım ile tedavi edilmelidir.  \n**Yukarıda verilenlerden hangisi veya hangileri zigomatik ark kırıkları için doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, III ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I. öncül (Doğrudur):** Kırık hatları tipik olarak önde, ortada ve arkada olmak üzere 3 noktadan kırılıp içeri çöker (aksiyel BT'de klasik \"M\" şekli).\n  * **II. öncül (Doğrudur):** Medyale deplase olan fragman kemiğin hemen altındaki boşlukta hareket eden koronoid çıkıntıya çarparak hastanın ağzını açmasını engeller (mekanik hipomobilite).\n  * **III. öncül (Yanlıştır):** Fragmanı medyale çeken kas medial pterigoid değil, **M. masseter**dir.\n  * **IV. öncül (Yanlıştır):** Deplasmanı olmayan ve fonksiyonel kısıtlılık yaratmayan kırıklarda cerrahi müdahale gereksizdir.\n  * Doğru öncüller **I ve II** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 134,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Gillies yöntemi  \nII. Keen tekniği  \nIII. Millard tekniği  \nIV. Kazanjian tekniği  \nV. Lothrop tekniği  \n**Yukarıdaki tekniklerden hangisi veya hangileri zigomatik ark kırıklarına temporal bölgeden ulaşır?**",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "IV ve V",
+      "E": "III, IV ve V *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I ve III. öncüller (Temporal yaklaşımlar):** Gillies yöntemi ve Millard tekniği temporal saçlı deri bölgesinden insizyonla derin fasyayı takip ederek arka ulaşan klasik temporal yaklaşımlardır.\n  * **II. öncül (Keen):** İntraoral maksiller vestibüler yaklaşımdır.\n  * **IV. öncül (Kazanjian):** Periorbital / infraorbital yaklaşımdır.\n  * **V. öncül (Lothrop):** Caldwell-Luc benzeri transantral (sinüs içi) yaklaşımdır.\n  * Doğru eşleştirme **I ve III** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 135,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi maloklüzyon nedeni değildir?",
+    "options": {
+      "A": "Hemifasiyal hiperplazi",
+      "B": "Kondiler hipoplazi",
+      "C": "Kondiler hiperplazi",
+      "D": "Blow-out fraktürü",
+      "E": "Crouzon sendromu *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A, B, C şıkları (Kondil anomalileri):** Kondil boyunun asimetrik uzaması veya kısalması mandibular arkı kaydırarak tek taraflı arka açık kapanış, çapraz kapanış ve ciddi maloklüzyon yaratır.\n  * **D şıkkı (Blow-out fraktürü - Doğru Cevap):** Blow-out fraktürü orbita tabanının (veya medial duvarının) izole kırığıdır. Travma enerjisi orbital kavitede hidrolik basınç artışı yaratarak göz küresi tabanını maksiller sinüse düşürür. Temel bulguları **diplopi, enoftalmi ve infraorbital parestezidir**. Dişleri ve dental arkları taşıyan alveol kemiği ile hiçbir ilişkisi olmadığından **kesinlikle maloklüzyona yol açmaz**.\n  * **E şıkkı (Crouzon sendromu):** Kraniyosinostoz ve maksiller hipoplazi nedeniyle belirgin Sınıf III maloklüzyon ve çapraz kapanış görülür.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2015 Orijinal",
+    "q_num": 136,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki orta yüz kırıklarının hangisinde oklüzyon bozulmazken, infraorbital sinir parestezisi, diplopi ve enoftalmi en belirgin klinik bulgulardır?",
+    "options": {
+      "A": "Le Fort I kırığı",
+      "B": "Blow-out fraktürü",
+      "C": "Le Fort II kırığı",
+      "D": "Sagital maksiller kırık",
+      "E": "Mandibula parasimfiz kırığı *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Soru kökünde tanımlanan trias (infraorbital sinir alanında duyu kaybı, göz kaslarının fıtıklaşmasına bağlı çift görme ve orbital hacim artışına bağlı göz küresinin geriye çökmesi) ile birlikte oklüzyonun tamamen sağlam kalması saf **Blow-out fraktürünün** patognomonik tablosudur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 137,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki kırık tiplerinden hangisinde klinik olarak \"koronoid proses ile mekanik temas\" nedeniyle ağız açmada belirgin zorluk (trismus) izlenir?",
+    "options": {
+      "A": "Parasimfiz",
+      "B": "Angulus",
+      "C": "Blow-out",
+      "D": "Zigomatik ark",
+      "E": "Le Fort I *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Çöken zigomatik ark kemiği doğrudan altındaki temporal kas tendonunu ve mandibula koronoid prosesini sıkıştırarak hastanın ağzını açmasına mekanik bir engel oluşturur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 138,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki kırık tiplerinin hangisinde ödem ve hematomun çözülmesinden sonra, orta yüzde çökme sonucu \"tabak ya da çukur yüz (dish-face)\" olarak adlandırılan deformite ortaya çıkabilir?",
+    "options": {
+      "A": "Bilateral kondil kırığı",
+      "B": "Blow-in kırığı",
+      "C": "Mandibuler korpus kırığı",
+      "D": "Tripod kırık",
+      "E": "Le Fort III kırığı (veya Le Fort II) *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C, D şıkları:** Bilateral kondilde anterior açık kapanış, korpusta basamak, tripod kırıkta yanak düzleşmesi görülür.\n  * **E şıkkı (Le Fort III / II - Doğru Cevap):** Le Fort III (kraniofasiyal disjonksiyon) ve piramidal Le Fort II kırıklarında maksiller kompleks kafa tabanından ve nazal kökten tamamen ayrılır. Pterigoid kasların çekişi ve travmanın posterior vektörü nedeniyle orta yüz kemikleri arkaya ve aşağıya (posterior-inferior) doğru deplase olur. Akut ödem geriledikten sonra yüzün orta üçlüsü içe çöker ve profile bakıldığında konkav bir çanak görünümü alan klasik **\"tabak yüz (dish-face)\" deformitesi** ortaya çıkar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2016 Orijinal",
+    "q_num": 139,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Le Fort I  \nII. Le Fort II  \nIII. Le Fort III  \nIV. Nazo-orbito-etmoid (NOE) kompleksi  \n**\"Tabak yüz\" deformitesi yukarıda verilen orta yüz kırıklarından hangisinde veya hangilerinde görülür?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve III",
+      "C": "I ve IV",
+      "D": "Yalnız IV",
+      "E": "III ve IV *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **I. öncül (Le Fort I):** Subnasal seviyede horizontal bir kırıktır; gevşek segment öne/arkaya kayabilir veya yüz uzayabilir ancak tüm orta yüzün orbital kökle birlikte içe çökmesini içeren klasik tabak yüz tablosu oluşturmaz.\n  * **II ve III. öncüller (Le Fort II ve III):** Orta yüzün tüm kraniofasiyal desteğini yitirerek nazal kök ve orbital kenarlarla birlikte posteriora disloke olduğu ve dish-face deformitesinin tipik olarak gözlendiği kırıklardır.\n  * **IV. öncül (NOE):** Burun kökünde düzleşme (telekantus) yapar ancak maksillanın posteriora çöküşü tabloya eklenmez.\n  * Doğru seçenek **II ve III** (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 140,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Le Fort I, II ve III kırıklarında kırık maksiller kompleksin pterigoid kasların çekişiyle dorsal ve inferior yönde yer değiştirmesi klinik muayenede dişlerde aşağıdaki oklüzal bozukluklardan hangisine yol açar?",
+    "options": {
+      "A": "Derin kapanış (deep-bite)",
+      "B": "Posterior açık kapanış",
+      "C": "Anterior açık kapanış ve prematür molar teması",
+      "D": "Mandibular prognatizm",
+      "E": "Ünilateral çapraz kapanış *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Kırılan maksilla arkaya ve aşağıya doğru eğildiğinde (dorsal ve inferior rotasyon), en arkada yer alan üst molar dişler alt molar dişlerle erken temasa girer. Bu prematür arka temas ön dişlerin birbirine değmesini engeller ve klinikte tipik **anterior açık kapanış (open-bite)** tablosu ortaya çıkar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 141,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İzole orbital fraktür oluşması durumunda aşağıdaki komplikasyonlardan hangisinin görülmesi en az olasıdır?",
+    "options": {
+      "A": "Görme kaybı",
+      "B": "Retrobulbar hematom",
+      "C": "İnfraorbital parestezi",
+      "D": "Diplopi",
+      "E": "Nervus olfactorius disfonksiyonu *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A şıkkı (Görme kaybı):** Optik kanal basısı veya santral retinal arter tıkanıklığında görülebilir.\n  * **B şıkkı (Retrobulbar hematom):** İntraorbital kanama basınç artışı ve acil cerrahi dekompresyon gerektiren körlük riskidir.\n  * **C ve D şıkları (İnfraorbital parestezi ve Diplopi):** Blow-out fraktürlerinin en klasik komplikasyonlarıdır.\n  * **E şıkkı (N. olfactorius disfonksiyonu - Doğru Cevap):** Koku siniri (I. kranial sinir) kafa tabanında etmoid kemiğin **lamina kribrozası** üzerinden burun boşluğuna geçer. İzole orbital taban kırıklarında etmoid çatı ve kribriform tabaka etkilenmediği için koku kaybı (anozmi) görülmesi beklenmez; anozmi kribriform laminayı içeren nazo-etmoidal veya yüksek Le Fort III travmalarında izlenir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 142,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Diplopi  \nII. Enoftalmi  \nIII. İnfraorbital parestezi  \nIV. Anozmi (Koku kaybı)  \n**Yukarıdaki klinik bulgulardan hangileri izole bir orbital taban (blow-out) kırığında beklenen tipik bulgulardır?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I, II ve III. öncüller:** M. rectus inferior ve M. obliquus inferior fıtıklaşması diplopi yapar; orbital yağ dokusu hacminin sinüse kaçması enoftalmi yapar; kırık hattı infraorbital oluktan geçtiği için yanakta parestezi oluşur.\n  * **IV. öncül:** Anozmi lamina kribroza hasarında görülür, orbital tabanda oluşmaz.\n  * Doğru öncüller **I, II ve III** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 143,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kırık hattının infraorbital kanalı içermesi nedeniyle hastaların %80'inden fazlasında infraorbital sinir parestezisi gelişen, zigomatik arkta basamak ve koronoid temas nedeniyle trismus izlenen maksillofasiyal travma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İzole nazal fraktür",
+      "B": "Blow-in kırığı",
+      "C": "Zigomatikomaksiller kompleks (ZMC) kırığı",
+      "D": "İzole kondil kırığı",
+      "E": "Bilateral simfiz kırığı *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Zigomanın 4 sutur hattından (frontozigomatik, infraorbital kenar, zigomatikoalveoler kret ve zigomatik ark) ayrıldığı ZMC (eski adıyla tripod/tetrapod) kırıklarında, kırık hattı tam olarak infraorbital foramenden geçer; bu nedenle infraorbital uyuşukluk en temel klinik kriterdir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 144,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Trafik kazası sonrası kliniğe getirilen bir hastada; burun kanaması (epistaksis), periorbital ekimoz, sağ yanakta uyuşukluk (infraorbital parestezi), sağ yanakta belirgin ödem ve ağız açıklığında ileri derecede kısıtlılık (mandibular hipomobilite) saptanıyor. Bu hastada öncelikle hangi kırık düşünülmelidir?",
+    "options": {
+      "A": "Le Fort I kırığı",
+      "B": "Nazo-etmoid kırık",
+      "C": "Zigomatikomaksiller kompleks kırığı",
+      "D": "İzole nazal kemik kırığı",
+      "E": "Mandibula angulus kırığı *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Mandibular hipomobilite (trismus) zigomanın içe çöküp koronoid çıkıntıya bası yapmasıyla açıklanır. Nazal veya izole Le Fort kırıklarında koronoid basısı olmadığı için mandibular hipomobilite gelişmez. Tüm bu klinik tablo ZMC kırığına işaret eder.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 145,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Koronal bilgisayarlı tomografi kesitinde maksiller buttres yapılarından masseter kas çekişine direnç gösteren ve yüzün orta üçlüsüne vertikal destek sağlayan sütunun bütünlüğünün bozulduğu izleniyor. Bu anatomik sütun aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nazofrontal buttres",
+      "B": "Zigomatikomaksiller buttres",
+      "C": "Pterigomaksiller buttres",
+      "D": "Posterior etmoidal kolon",
+      "E": "Mandibular bazal kemik *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Yüz iskeletinde çiğneme kuvvetlerini yukarı kafa tabanına ileten 3 temel dikey kolon (buttres) vardır:\n    1. Medial (Nazofrontal) buttres\n    2. Lateral (Zigomatikomaksiller) buttres\n    3. Posterior (Pterigomaksiller) buttres\n  * Masseter kasının çiğneme kuvvetlerine karşı koyan ve elmacık kemiği üzerinden vertikal stabiliteyi kuran temel kolon **Zigomatikomaksiller buttres**tir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 146,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aksiyel bilgisayarlı tomografi kesitinde tek taraflı olarak kemik bütünlüğünün 3 noktadan bozulduğu ve içeriye doğru \"M\" harfi oluşturacak şekilde çöktüğü izlenen hasta için en olası kırık tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Guerin kırığı",
+      "B": "Blow-in kırığı",
+      "C": "Le Fort III",
+      "D": "İzole zigomatik ark kırığı",
+      "E": "Zigomatiko-orbital kompleks *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Aksiyel BT kesitinde sadece elmacık kemiği yayında 3 parçalı içe çöküntü ve karakteristik \"M\" harfi konfigürasyonu **izole zigomatik ark kırığının** altın standart radyografik görüntüsüdür.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 147,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Radyografik incelemede orbita tabanında kemik devamlılığının kaybolduğu, orbital yağ dokusu ve kasların maksiller sinüs tavanından sinüs boşluğuna doğru fıtıklaşarak \"damla (tear-drop)\" veya \"asılı göz küresi\" görüntüsü oluşturduğu vaka için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sinüs mukoseli",
+      "B": "Blow-out fraktürü",
+      "C": "Zigomatik ark fraktürü",
+      "D": "Kronik maksiller sinüzit",
+      "E": "Oro-antral açıklık *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A, C, D, E şıkları:** Mukosel kistik opasitedir; kronik sinüzitte mukozal kalınlaşma vardır; oroantral açıklık kret tepesindedir.\n  * **B şıkkı (Blow-out fraktürü - Doğru Cevap):** Water's veya koronal BT grafilerinde orbita taban kırığından maksiller sinüse sarkan yumuşak doku kitlesi tipik **damla (tear-drop) işareti** olarak adlandırılır ve saf blow-out kırığının patognomonik radyolojik bulgusudur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2015 Orijinal",
+    "q_num": 148,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Orbitaya gelen künt kuvvetler sonucu oluşur.  \nII. Fragmanlar göz kavitesi dışına doğru deplase olur.  \nIII. Maloklüzyona sebep olur.  \n**Yukarıda klinik ve radyolojik özellikleri verilen blow-out fraktürü ile ilgili ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **I. öncül (Doğrudur):** Tenis topu, yumruk veya künt cisimlerin orbitaya çarpması orbital kavitedeki basıncı ani artırarak hidrolik patlama (blow-out) yaratır.\n  * **II. öncül (Doğrudur):** Kırık kemik parçaları ve orbital içerik orbita kavitesinin dışına (maksiller sinüse) doğru sarkar.\n  * **III. öncül (Yanlıştır):** Blow-out fraktürü dişleri taşıyan kemik yapıları etkilemediğinden maloklüzyon oluşturmaz.\n  * Doğru olanlar **I ve II** (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 149,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Koronal kesitteki radyografide orbita kemik fragmanlarının göz küresinin içine (kraniyale / orbita kavitesine) doğru yer değiştirdiği, göz kaslarına ve optik sinire bası yaptığı saptanan kırık tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Le Fort II kırığı",
+      "B": "Blow-out fraktürü",
+      "C": "Blow-in fraktürü",
+      "D": "Zigomatik ark kırığı",
+      "E": "İzole maksiller sinüs duvar kırığı *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, D, E şıkları:** İlgisiz anatomik hatlardır.\n  * **B şıkkı (Blow-out):** Parçalar orbital kavitenin dışına (sinüse) doğru yer değiştirir.\n  * **C şıkkı (Blow-in fraktürü - Doğru Cevap):** Maksillaya aşağıdan yukarıya doğru veya frontal kemikten aşağıya doğru gelen aşırı darbelerde orbita tavanı veya taban kemikleri **orbital kavitenin içine doğru (içeriye batacak şekilde)** deplase olur. Fragmanlar göz küresini yukarı iter, optik siniri ve kasları doğrudan yaralayarak körlük riski doğurur. Bu kırık tipine **Blow-in fraktürü** denir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 150,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin orta yüz kırıklarının klinik belirtilerinden biri olması en az olasıdır?",
+    "options": {
+      "A": "Anterior açık kapanış",
+      "B": "Periorbital ekimoz",
+      "C": "Epistaksis",
+      "D": "Diplopi",
+      "E": "Postauriküler ekimoz *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A şıkkı (Anterior açık kapanış):** Le Fort kırıklarında maksiller kemik kompleksi pterigoid kasların ve yerçekiminin etkisiyle aşağı ve geriye (dorsal ve posteriora) doğru deplase olur. Bu durum arka azı dişlerinde erken temasa, dolayısıyla anterior açık kapanışa (anterior open-bite) neden olur.\n  * **B şıkkı (Periorbital ekimoz):** Le Fort II, Le Fort III, zigomatiko-maksiller kompleks ve nazo-orbito-etmoid (NOE) kırıklarında orbita çevre damarlarının yırtılmasıyla bilateral periorbital ekimoz (rakun gözü görünümü) sık rastlanan bir tablodur.\n  * **C şıkkı (Epistaksis):** Burun boşluğu ve maksiller sinüs mukoza ve damarlarının zedelenmesi nedeniyle orta yüz travmalarında burun kanaması (epistaksis) neredeyse daima mevcuttur.\n  * **D şıkkı (Diplopi):** Orbital taban veya duvarların kırılması, ekstraoküler kasların (m. rectus inferior / m. obliquus inferior) sıkışması veya ödem nedeniyle çift görme (diplopi) gelişebilir.\n  * **E şıkkı (Postauriküler ekimoz / Doğru Cevap):** Postauriküler ekimoz (Battle belirtisi), orta yüz travmalarının değil; kafa tabanı kırıklarının (özellikle temporal kemik petröz parça fraktürlerinin) tipik patognomonik fizik muayene bulgusudur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2019 Orijinal",
+    "q_num": 151,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi orta yüz kırıklarının çoğunda ortak olarak gözlenen klinik bulgulardandır?",
+    "options": {
+      "A": "Diplopi",
+      "B": "Tabak yüz görünümü",
+      "C": "Battle işareti",
+      "D": "Telekantus",
+      "E": "Periorbital ekimoz ve epistaksis *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A şıkkı (Diplopi):** Yalnızca orbita tabanı ve göz kaslarını etkileyen orta yüz travmalarında (blow-out, NOE, Le Fort II/III) görülür; Le Fort I veya izole ark kırıklarında beklenmez.\n  * **B şıkkı (Tabak yüz görünümü):** Ağır kraniofasiyal disjonksiyon yaratan Le Fort II ve Le Fort III kırıklarına özgüdür; Le Fort I veya zigoma arkı kırıklarında görülmez.\n  * **C şıkkı (Battle işareti):** Kafa tabanı kırıklarına aittir.\n  * **D şıkkı (Telekantus):** Medial kantal ligamentin koptuğu NOE kırıklarına spesifiktir.\n  * **E şıkkı (Doğru Cevap):** Orta yüzün tüm kırıklarında (Le Fort I, II, III, nazal, zigoma) zengin submukozal ve periorbital damar ağının etkilenmesi sebebiyle epistaksis (burun kanaması) ve çevre yumuşak doku ekimozu (periorbital ekimoz) en sık ve ortak görülen klinik tablodur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 152,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Araç içi trafik kazası sonrası başvuran 20 yaşındaki erkek hastanın klinik muayenesinde; burun kemerinin genişlemiş ve basık olduğu, bilateral periorbital ekimoz, burun kanaması, epifora, serebrospinal sıvı sızıntısı ve psödohipertelorizm olduğu gözleniyor. Bu hastada öncelikle aşağıdaki kırık tiplerinden hangisinin meydana geldiği düşünülür?",
+    "options": {
+      "A": "Le Fort I",
+      "B": "Alveoler proses kırığı",
+      "C": "İzole zigomatik ark kırığı",
+      "D": "Mandibula korpus kırığı",
+      "E": "Nazo-orbito-etmoidal (NOE) kompleks kırığı *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C, D şıkları (Uyumsuz kırıklar):** Le Fort I veya alveoler kırıklarda burun kökü basıklığı ve BOS sızıntısı olmaz. Zigomatik ark kırığı lateralde trismus yapar; NOE bulguları vermez. Mandibula alt çeneye aittir.\n  * **E şıkkı (Doğru Cevap):** Nazo-orbito-etmoid (NOE) kırıklarında nazal dorsum çöker (semer burun deformitesi), lakrimal sistem hasarına bağlı epifora (göz sulanması) gelişir, kribriform laminanın zedelenmesiyle BOS rinoresi (rinore/sıvı kaçağı) oluşur ve medial kantal ligamentin kemikten ayrılması nedeniyle iç kantal mesafe açılarak psödohipertelorizm (telekantus) tablosu ortaya çıkar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 153,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Burun kemerinde genişleme ve basıklık  \nII. Psödohipertelorizm (Telekantus)  \nIII. Lakrimal kanal hasarı nedeniyle epifora  \nIV. Kribriform lamina kırığına bağlı BOS rinoresi  \n**Yukarıdakilerden hangileri nazo-orbito-etmoid (NOE) kompleks kırıklarının tipik klinik bulgularındandır?**",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve IV",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. öncül (Doğru):** Nazal ve etmoid kemiklerin arkaya deplasmanı burun sırtını düzleştirir ve genişletir.\n  * **II. öncül (Doğru):** Medial kantal tendonun avülsiyonu gözlerin birbirinden uzak görünmesine (telekantus) neden olur.\n  * **III. öncül (Doğru):** Nazolakrimal kanalın kemik parçaları arasında ezilmesi gözyaşı drenajını bozar ve epiforaya yol açar.\n  * **IV. öncül (Doğru):** Etmoid kribriform plate dura yırtılması ile BOS kaçağına (rinore) neden olur.\n  * Öncüllerin tamamı NOE kırıklarının temel triad ve tetradını oluşturduğundan doğru seçenek **E şıkkıdır**.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 154,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Zigoma kırığı olan hastada kırık fragmanlarına ulaşmak ve redüksiyon sağlamak için kullanılan aşağıdaki cerrahi yaklaşım - giriş yolu eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Preauriküler yaklaşım - Zigomatik ark posterioru",
+      "B": "Transkonjonktival yaklaşım - İnfraorbital kenar ve orbita tabanı",
+      "C": "Vestibüler yaklaşım (Keen tekniği) - Üst çene arka dişler hizası bukkal sulkus",
+      "D": "Koronal yaklaşım - Zigomatik ark ve üst kraniofasiyal iskelet",
+      "E": "Lothrop yaklaşımı - Doğrudan dış kulak yolundan yapılan yaklaşım *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C, D şıkları (Doğru eşleştirmeler):** Preauriküler insizyon arkın arka ucuna, transkonjonktival alt orbita duvarına, Keen intraoral vestibüle, koronal (bitemporal) ise tüm üst zigomatik kemiğe geniş erişim sağlar.\n  * **E şıkkı (Yanlış / Aranan Seçenek):** Lothrop tekniği dış kulak yolundan değil, **antrostomi yoluyla maksiller sinüs içerisinden (transantral)** sinüs içine girilerek zigoma tabanının redükte edilmesini tanımlar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 155,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Orta yüz kırıklarının cerrahi tedavisinde kullanılan bilateral intraoral maksiller vestibüler yaklaşımın insizyon lokalizasyonu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Apertura piriformisler arasında",
+      "B": "Her iki tüber maksillaris arasında bukkal sulkusta",
+      "C": "Üçüncü molarlar arasında lingual sulkusta",
+      "D": "Birinci molarlar arasında palatinal hatta",
+      "E": "Pterigomaksiller birleşimlerin posteriorunda *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **B şıkkı (Doğru Cevap):** Le Fort I osteotomisinde veya orta yüz kırıklarının redüksiyonunda maksillayı geniş olarak açığa çıkarmak için yapılan bilateral maksiller vestibüler insizyon (degloving yaklaşımı), sağ tüber bölgesinden sol tüber bölgesine kadar mukogingival sınırın 5 mm üzerinden bukkal sulkusta horizontal olarak uzanır.\n  * Diğer şıklardaki sınırlamalar ya aşırı dardır ya da palatinal/lingual gibi anatomik olarak orta yüz ön duvarına ulaşımı sağlamayan bölgelerdir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 156,
+    "unit": "12 MAKSİLLOFASİAL TRAVMA",
+    "quality_flag": "cikmis"
+  }
+]

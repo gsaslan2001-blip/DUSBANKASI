@@ -1,0 +1,172 @@
+[
+  {
+    "q_num": 531,
+    "question": "Aşağıdakilerden hangisi melanin artışından dolayı meydana gelen mukozal lezyonlardan değildir?",
+    "options": {
+      "A": "İlaçlar",
+      "B": "Nevüs",
+      "C": "Irksal",
+      "D": "Amalgam tatuaj",
+      "E": "Addison hastalığı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Amalgam tatuaj (fokal argirozis), endojen melanin pigmenti artışından değil; diş restorasyonlarında kullanılan gümüş amalgam partiküllerinin mukoza altına travmatik implantasyonu sonucu oluşan eksojen (dış kaynaklı) metalik pigmentasyondur.\n**Çeldiriciler:**\n- A) Antimalaryaller, minosiklin, ketokonazol ve kemoterapötik ilaçlar melanositleri uyararak melanin kaynaklı mukozal hiperpigmentasyon yapabilir.\n- B) Melanositik nevüs, melanositlerin (nevüs hücrelerinin) fokal benign proliferasyonu ve melanin üretimiyle oluşan lezyondur.\n- C) Irksal (fizyolojik) pigmentasyon, koyu tenli bireylerde melanosit aktivitesinin fazlalığına bağlı simetrik melanin birikimidir.\n- E) Addison hastalığında artan ACTH ve MSH hormonlarının melanositleri uyarmasıyla yaygın mukozal melanin pigmentasyonu gelişir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 46 - Pigmente Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 532,
+    "question": "Hastada yorgunluk, baş ağrısı, halsizlik, sinirlilik, karın ağrısı ve kas-iskelet sistemi ağrılarına neden olan; klinik olarak, ağızda, marjinal dişeti boyunca \"Burton çizgisi\" olarak bilinen karakteristik mavimsi siyah çizgiye neden olan durum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Amalgam tatuaj",
+      "B": "Addison hastalığı",
+      "C": "Bizmut pigment birikimleri",
+      "D": "Kurşun pigment birikimleri",
+      "E": "Gümüş ve grafit pigment birikimleri"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Kronik kurşun zehirlenmesinde (plumbizm), sistemik olarak karın ağrısı (kurşun koliği), nöropati, anemi ve halsizlik görülürken; ağız içinde bakteriyel hidrojen sülfür ile kurşunun reaksiyona girerek kurşun sülfür çökeltisi oluşturması sonucunda marjinal diş eti ve kole bölgesinde mavimsi-siyah dantel şeklinde \"Burton çizgisi\" (Burtonian line) oluşur.\n**Çeldiriciler:**\n- A) Amalgam tatuaj lokalize, asemptomatik tekil makül olup sistemik toksisite veya marjinal diş eti boyunca çizgisel tutulum yapmaz.\n- B) Addison hastalığında yanak ve diş etinde yama tarzında kahverengi melanin pigmentasyonu olur; Burton çizgisi olarak adlandırılmaz.\n- C) Bizmut zehirlenmesi marjinal diş etinde mavi-siyah çizgi (bizmut çizgisi) yapabilir ancak \"Burton çizgisi\" spesifik olarak kurşun zehirlenmesine verilen özel isimdir.\n- E) Gümüş ve grafit birikimleri travmatik implantasyona bağlı lokalize maküller oluşturur; sistemik bulgu ve Burton çizgisi yapmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 46 - Pigmente Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 533,
+    "question": "I. Alendronat\nII. Siklosporin\nIII. Nifedipin\n\nYukarıdaki ajanlardan hangileri fibrotik tarzda diş eti büyümelerine neden olabilir?",
+    "options": {
+      "A": "I ve III",
+      "B": "II ve III",
+      "C": "Yalnız II",
+      "D": "Yalnız III",
+      "E": "I ve II"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** İlaca bağlı fibrotik diş eti büyümesine (gingival hiperplazi) neden olan üç klasik ilaç grubu; antiepileptikler (fenitoin), immünosüpresifler (siklosporin A) ve kalsiyum kanal blokörleridir (nifedipin, verapamil, diltiazem).\n**Öncüllerin Analizi:**\n- I. Yanlış: Alendronat bir bifosfonat türevi olup osteoklastları inhibe eder ve çenelerde ilaca bağlı osteonekroza (MRONJ) yol açabilir; diş eti büyümesi yapmaz.\n- II. Doğru: Organ nakli ve otoimmün hastalıklarda kullanılan siklosporin, gingival fibroblastları ve ekstrasellüler matriks sentezini uyararak fibrotik diş eti büyümesi yapar.\n- III. Doğru: Antihipertansif bir kalsiyum kanal blokörü olan nifedipin, kollajenaz aktivitesini baskılayarak yaygın fibrotik diş eti büyümesine neden olur.\n**Çeldiriciler:** A ve E şıkları yanlış olan I. öncülü içerdiği için; C ve D şıkları ise doğru ilaçlardan yalnız birini kapsadığı için yanlıştır.\n---",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "unit": "Ünite 46 - Pigmente Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 534,
+    "question": "Aşağıda verilen ilaç etkisi veya durumlardan hangisinde gingival hiperplazi görülmesi beklenmez?",
+    "options": {
+      "A": "Nifedipin kullanımı",
+      "B": "Sigara kullanımı",
+      "C": "Siklosporin-A kullanımı",
+      "D": "Lösemik infiltrasyon",
+      "E": "Fenitoin kullanımı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sigara kullanımı diş etinde vazokonstriksiyon yaparak enflamatuar kanamayı maskeler ve periodontal yıkımı artırarak diş eti çekilmesine (resesyon) neden olur; gingival hiperplazi (diş eti büyümesi) yapması beklenmez.\n**Çeldiriciler:**\n- A) Nifedipin (kalsiyum kanal blokörü), hastaların %15-20'sinde ilaca bağlı gingival hiperplazi oluşturur.\n- C) Siklosporin-A (immünosüpresif), özellikle böbrek nakli hastalarında belirgin diş eti büyümesine yol açar.\n- D) Lösemide (özellikle akut monositik/miyelomonositik lösemi) malign lökositlerin diş eti dokusuna infiltrasyonu sonucu yaygın gingival hiperplazi ve kanama gelişir.\n- E) Fenitoin (dilantin), epilepsi tedavisinde kullanılan ve en yüksek oranda (%50) fibrotik gingival hiperplazi yapan ilaçtır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 46 - Pigmente Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 535,
+    "question": "Aşağıda verilen ilaç-oral kavitedeki etki eşleştirmelerinden hangisi doğru değildir?",
+    "options": {
+      "A": "Antihipertansif ilaç - Sebepsiz diş ağrıları",
+      "B": "Alendronat (Bifosfonat) - Dişeti hiperplazisi",
+      "C": "Antiaritmik ilaçlar - Oral ülserler",
+      "D": "Oral kortizon sprey - Oral kandidozis",
+      "E": "Aspirin - Kanama riski"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Bifosfonat türevi bir ilaç olan alendronat kullananlarda çene kemiklerinde osteonekroz (ve mukozal ülserasyon) gelişme riski vardır; diş eti hiperplazisi gelişmesi beklenmez.\n**Çeldiriciler:**\n- A) Bazı antihipertansif ilaçlara (vazodilatatörler vb.) bağlı olarak pulpa damarlarındaki basınç ve kan akımı değişimleriyle (pulpa hiperemisi) sebepsiz diş ağrıları saptanabilir.\n- C) Kinin ve prokainamid gibi antiaritmik ilaçlar kemik iliğinde agranülositoza yol açarak sekonder oral ülserlere neden olabilir.\n- D) Astım tedavisinde kullanılan oral steroid (kortizon) inhaler/spreyler lokal mukozal immüniteyi baskılayarak özellikle damakta oral kandidozise yol açar.\n- E) Aspirin (asetilsalisilik asit), trombositlerdeki siklooksijenaz (COX-1) enzimini geri dönüşümsüz inhibe ederek kanama riskini artırır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 46 - Pigmente Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 536,
+    "question": "Aşağıdakilerden hangisi yumuşak doku kalsifikasyonlarından biri değildir?",
+    "options": {
+      "A": "Flebolit",
+      "B": "Sistiserkozis",
+      "C": "Miyositis ossifikans",
+      "D": "Kondensing osteitis",
+      "E": "Osteoma cutis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Kondensing osteitis (fokal sklerozan osteomiyelit), yumuşak doku içinde gelişen bir kalsifikasyon değil; derin çürüklü veya devital bir dişin apeksindeki düşük dereceli kronik enflamasyona karşı çene kemiğinin (sert dokunun) verdiği trabeküler yoğunluk artışı (osteoskleroz) cevabıdır.\n**Çeldiriciler:**\n- A) Flebolit, yumuşak doku içindeki venöz damarlarda (ve hemanjiyomlarda) oluşan trombüslerin idiyopatik/distrofik kalsifikasyonudur.\n- B) Sistiserkozis, Taenia solium larvalarının çiğneme kasları ve mukoza altı yumuşak dokuda ölerek distrofik kalsifiye olmasıdır.\n- C) Miyositis ossifikans, çizgili kas (yumuşak doku) içerisinde gelişen heterotopik kemikleşme (ossifikasyon) tablosudur.\n- E) Osteoma cutis, dermis ve subkutan yağ dokusu içinde gelişen heterotopik yumuşak doku ossifikasyonudur.\n---",
+    "flag_reason": "DUS 2022 Orijinal",
+    "unit": "Ünite 46 - Pigmente Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 537,
+    "question": "Yumuşak doku kalsifikasyonu olmayıp mandibula posterior bölgesinde radyoopak görüntü veren lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kalsifiye lenf nodu",
+      "B": "Tonsillolit",
+      "C": "Sistiserkoz",
+      "D": "Kondensing osteitis",
+      "E": "Periapikal granüloma"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Kondensing osteitis, en sık mandibula posterior bölgedeki birinci molar dişin kökleri çevresinde kemik iliği boşluklarının daralması ve trabeküllerin kalınlaşmasıyla oluşan kemik içi (intraosseöz) radyoopak bir lezyondur; yumuşak doku kalsifikasyonu değildir.\n**Çeldiriciler:**\n- A) Kalsifiye lenf nodu, submandibular ve servikal yumuşak dokuda gelişen distrofik bir yumuşak doku kalsifikasyonudur.\n- B) Tonsillolit, palatin tonsil kriptalarında (yumuşak dokuda) oluşan distrofik kalsifikasyondur.\n- C) Sistiserkoz, kas ve submukozal yumuşak dokuda yerleşen paraziter distrofik kalsifikasyondur.\n- E) Periapikal granüloma kemik içi bir lezyon olmakla birlikte radyoopak değil, diş apeksinde radyolusent görüntü verir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 46 - Pigmente Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 538,
+    "question": "İdiyopatik kalsifikasyonlardan birisi olan antrolit için nidusun aşağıdakilerden hangisinin olması diğerlerine göre en az olasıdır?",
+    "options": {
+      "A": "Mukus",
+      "B": "Kök parçası",
+      "C": "Kemik parçası",
+      "D": "Yabancı cisim",
+      "E": "Pıhtı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Maksiller sinüs (antrum) içerisinde mineral tuzlarının bir çekirdek (nidus) etrafında birikmesiyle oluşan antrolitlerde nidus çoğunlukla endojen kaynaklıdır (sinüse kaçmış diş kök parçası, kemik spikülü, kurumuş mukus veya kan pıhtısı). Dışarıdan giren eksojen yabancı cisimlerin (kağıt, boncuk, çekirdek vb.) nidus olması ise burun boşluğunda oluşan rinolitler için tipiktir; kapalı bir kavite olan maksiller sinüsteki antrolit için en az olasıdır.\n**Çeldiriciler:**\n- A) Sinüs içinde yoğunlaşmış konsantre mukus, antrolit gelişimi için sık rastlanan endojen bir nidustur.\n- B) Üst posterior diş çekimleri sırasında maksiller sinüse deplase olan kök parçası antrolit için en klasik niduslardandır.\n- C) Sinüs tabanı kırıkları veya çekim sırasında sinüse itilen kemik parçası endojen nidus görevi görür.\n- E) Sinüs içi kanamalar sonrası organize olan kan pıhtısı üzerine kalsiyum tuzları çökerek antrolit oluşturabilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 46 - Pigmente Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 539,
+    "question": "Aşağıdakilerden hangisi vasküler yapıya ait bir kalsifikasyondur?",
+    "options": {
+      "A": "Tonsillolit",
+      "B": "Antrolit",
+      "C": "Flebolit",
+      "D": "Sialolit",
+      "E": "Rinolit"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Flebolit (ven taşı), venöz damarlar, venüller veya vasküler malformasyonlar (hemanjiyomlar) içerisindeki kan akımının yavaşlaması sonucu oluşan intravasküler trombüslerin kalsifiye olmasıdır; dolayısıyla doğrudan vasküler yapıya ait bir kalsifikasyondur ve radyografide ortası radyolusent \"hedef tahtası / boğa gözü\" görünümü verir.\n**Çeldiriciler:**\n- A) Tonsillolit, lenfoid bir organ olan palatin tonsil kriptalarındaki hücresel ve bakteriyel debrisin kalsifikasyonudur.\n- B) Antrolit, maksiller sinüs boşluğu içerisinde oluşan kalsifiye kitledir.\n- D) Sialolit, tükürük bezi parankimi veya boşaltım kanalları içinde oluşan tükürük taşıdır.\n- E) Rinolit, nazal kavite (burun boşluğu) içinde yabancı cisim etrafında oluşan kalsifikasyondur.\n---",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "unit": "Ünite 46 - Pigmente Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 540,
+    "question": "Aşağıdaki kalsifikasyon ve ossifikasyonlardan hangisi sıklıkla hemanjiyoma veya arteriovenöz malformasyonlarla ilişkilendirilir?",
+    "options": {
+      "A": "Arteriosklerozis",
+      "B": "Kalsifiye aterosklerotik plak",
+      "C": "Flebolit",
+      "D": "Travmatik myositis ossifikans",
+      "E": "Osteoma cutis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Baş ve boyun bölgesinde yumuşak doku içinde çoklu flebolitlerin (kalsifiye venöz trombüslerin) saptanması, o bölgede kavernöz bir hemanjiyom veya vasküler malformasyon varlığını düşündüren en önemli radyolojik işarettir.\n**Çeldiriciler:**\n- A) Arteriosklerozis (Mönckeberg medial kalsinozu), arterlerin tunika media tabakasının yaşlanma, diyabet veya kronik böbrek yetmezliği ile kalsifiye olmasıdır.\n- B) Kalsifiye aterosklerotik plak, karotis arter bifurkasyonunda tunika intima tabakasında oluşan ve inme riski taşıyan damar sertliği plağıdır.\n- D) Travmatik myositis ossifikans, kas dokusunun künt travma sonrası kemikleşmesidir; hemanjiyomla ilişkisi yoktur.\n- E) Osteoma cutis, kronik akne skarı veya dermatozlar zemininde deride oluşan kemikleşmelerdir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 46 - Pigmente Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

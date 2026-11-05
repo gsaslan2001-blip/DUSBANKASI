@@ -1,0 +1,342 @@
+[
+  {
+    "q_num": 436,
+    "question": "Aşağıdaki mukozal hastalıklardan hangisi infeksiyözdür?",
+    "options": {
+      "A": "El-ayak-ağız hastalığı",
+      "B": "Rekürent aftöz stomatit",
+      "C": "Behçet hastalığı",
+      "D": "Liken planus",
+      "E": "Pemfigus vulgaris"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** El-ayak-ağız hastalığı, enterovirüs grubundan Coxsackie A virüsünün neden olduğu, damlacık ve fekal-oral yolla bulaşan, el, ayak ve ağız mukozasında vezikül ve ülserlerle seyreden akut viral infeksiyöz bir hastalıktır.\n**Çeldiriciler:**\n- B) Rekürent aftöz stomatit, immünolojik, genetik ve nutrisyonel faktörlerle ilişkili infeksiyöz olmayan mukozal bir ülserasyondur.\n- C) Behçet hastalığı, multisistemik vaskülitle seyreden otoimmün/otoenflamatuar bir hastalık olup bulaşıcı (infeksiyöz) değildir.\n- D) Liken planus, T-lenfosit aracılı immünolojik bir mukokutanöz hastalıktır.\n- E) Pemfigus vulgaris, desmozomlara karşı otoantikorlarla gelişen infeksiyöz olmayan otoimmün büllöz bir hastalıktır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 437,
+    "question": "Aşağıdaki hastalıklardan hangisinde makroglossi görülmez?",
+    "options": {
+      "A": "Amiloidoz",
+      "B": "Papiller hiperplazi",
+      "C": "Akromegali",
+      "D": "Kretinizm",
+      "E": "Down sendromu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Papiller hiperplazi, lokal irritasyonlara (sigara, sıcak, friksiyon, uyumsuz protez) bağlı olarak damak mukozasında veya bölgesel olarak dil papillalarında oluşan hiperplazidir; dilin total hacminde büyümeye (makroglossi) neden olmaz.\n**Çeldiriciler:**\n- A) Primer amiloidozda dil dokusu içerisine ekstrasellüler amiloid fibrillerinin birikmesi sonucu belirgin makroglossi gelişir.\n- C) Akromegalide yetişkin dönemde aşırı büyüme hormonu (GH) salgısına bağlı olarak yumuşak dokular ve dil büyür (makroglossi).\n- D) Kretinizmde (konjenital hipotiroidizm) dokularda mukopolisakkarit ve sıvı birikimine (miksödem) bağlı konjenital makroglossi izlenir.\n- E) Down sendromunda hem dil kaslarının hipotonisi hem de dar oral kavite nedeniyle rölatif ve gerçek makroglossi görülür.\n---",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 439,
+    "question": "I. Konjenital hipotiroidizm - Makroglossia\nII. Hiperparatiroidizm - Multipl osteomlar\nIII. Kronik böbrek yetmezliği - Üremi\nIV. Multipl skleroz - Trigeminal nevralji\nV. Siroz - Pıhtılaşma bozuklukları\n\nYukarıdaki eşleştirmelerden hangisi doğru değildir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hiperparatiroidizmde parathormon artışına bağlı olarak kemiklerden kalsiyum mobilize olur ve çene kemiklerinde radyoopak osteomlar değil, osteoklastik aktiviteyle oluşan litik lezyonlar (Brown tümör) gelişir. Çenelerde multipl osteomlar Gardner sendromunda görülür.\n**Öncüllerin Analizi:**\n- I. Doğru: Konjenital hipotiroidizmde (kretinizm) dilde miksödematöz büyümeye bağlı makroglossi izlenir.\n- II. Yanlış: Hiperparatiroidizm kemik rezorpsiyonu ve Brown tümörü yapar; multipl osteom yapmaz.\n- III. Doğru: Kronik böbrek yetmezliğinde azotlu atıkların kanda birikmesiyle üremi ve üremik stomatit gelişir.\n- IV. Doğru: Multipl skleroz, santral sinir sisteminde demiyelinizasyon plakları oluşturarak özellikle genç hastalarda trigeminal nevraljiye yol açar.\n- V. Doğru: Karaciğer sirozunda pıhtılaşma faktörlerinin sentezi bozulduğu için kanama ve pıhtılaşma bozuklukları görülür.\n**Çeldiriciler:** A, C, D ve E şıkları doğru eşleştirmeleri temsil ettiği için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 443,
+    "question": "Aşağıdakilerden hangisi halitozise neden olan uçucu sülfür bileşiklerinden biridir?",
+    "options": {
+      "A": "Asetik asit",
+      "B": "Metilmerkaptan",
+      "C": "İndol",
+      "D": "Kadaverin",
+      "E": "Putresin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Oral kavitedeki gram-negatif anaerobik bakterilerin kükürtlü aminoasitleri yıkımı sonucu oluşan ve halitozise (ağız kokusu) yol açan başlıca uçucu sülfür bileşikleri (VSC); hidrojen sülfid, metilmerkaptan ve dimetil sülfiddir.\n**Çeldiriciler:**\n- A) Asetik asit, sülfür içermeyen kısa zincirli uçucu bir organik yağ asididir.\n- C) İndol, triptofan aminoasidinin bakteriyel yıkımıyla oluşan sülfürsüz aromatik bir bileşiktir.\n- D) Kadaverin, lizin aminoasidinin dekarboksilasyonu ile oluşan sülfürsüz bir diamindir.\n- E) Putresin, ornitin/arjinin yıkımıyla oluşan ve uçucu sülfür bileşikleri (VSC) grubunda yer almayan bir poliamindir.\n---",
+    "flag_reason": "DUS Ekim 2021 Orijinal",
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 444,
+    "question": "I. Hidrojen sülfid\nII. Metilmerkaptan\nIII. Dimetil sülfid\n\nYukarıda verilenlerden hangisi veya hangileri kötü ağız kokusuna neden olan başlıca Volumetrik sülfür komponentlerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I, II ve III",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kötü ağız kokusuna (halitozis) neden olan başlıca uçucu/volumetrik sülfür komponentleri (VSC) hidrojen sülfid, metilmerkaptan ve dimetil sülfiddir.\n**Öncüllerin Analizi:**\n- I. Doğru: Hidrojen sülfid, dil sırtı ve gingival sulkustaki anaeroblarca üretilen ana VSC bileşenlerinden biridir.\n- II. Doğru: Metilmerkaptan, özellikle periodontal cep patojenleri tarafından üretilen ve koku eşiği çok düşük olan başlıca VSC bileşenidir.\n- III. Doğru: Dimetil sülfid, hem oral hem de ekstraoral kaynaklı halitoziste rol oynayan üçüncü temel VSC bileşenidir.\n**Çeldiriciler:** A, C, D ve E şıkları her üç temel uçucu sülfür bileşenini bir arada içermediği için eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 445,
+    "question": "Aşağıdakilerden hangisi kötü ağız kokusuna neden olan bileşiklerden birisi değildir?",
+    "options": {
+      "A": "Putresin",
+      "B": "Hidrojen Peroksit",
+      "C": "İndol",
+      "D": "Skatol",
+      "E": "Cadaverin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hidrojen peroksit kötü ağız kokusuna neden olan bir bileşik değildir; aksine oksijen radikalleri salarak anaerobik bakterileri baskılayan ve %3'lük solüsyonu ağız sülfür gazlarında 8 saat boyunca %90 azalma sağlayan tedavi edici bir antiseptiktir.\n**Çeldiriciler:**\n- A) Putresin, protein yıkımı sonucu oluşan ve halitozise katkıda bulunan kötü kokulu bir diamin bileşiğidir.\n- C) İndol, bakteriyel metabolizma sonucu üretilen ve ağız kokusunda rol oynayan organik bir bileşiktir.\n- D) Skatol, triptofan yıkımıyla ortaya çıkan ve kötü ağız kokusuna neden olan uçucu organik maddelerdendir.\n- E) Cadaverin, aminoasitlerin bakteriyel putrefaksiyonu ile oluşan ve halitoziste rol oynayan bir diamindir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 446,
+    "question": "Sıklıkla üst dudakta ve yüzde şişlik, fasiyal paralizi ve fissürlü dil belirtileri ile kendini gösteren durum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Median rhomboid glossit",
+      "B": "Sarkoidoz",
+      "C": "Nörofibroma",
+      "D": "Melkersson-Rosenthal sendromu",
+      "E": "Sialadenitis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Melkersson-Rosenthal sendromu; orofasiyal bölgede (özellikle üst dudakta) granülomatöz ödem/şişlik (şeylitis granülomatoza), tekrarlayan fasiyal paralizi ve fissürlü (skrotal) dil klasik üçlüsü (triadı) ile karakterize granülomatöz bir hastalıktır.\n**Çeldiriciler:**\n- A) Median rhomboid glossit, dil dorsumu orta hatta sirkumvallat papillaların önünde yer alan eritematöz kandidal lezyondur; fasiyal paralizi veya dudak ödemi yapmaz.\n- B) Sarkoidoz, akciğer, lenf nodu ve tükürük bezlerinde granülomlar yapar ancak fissürlü dil ile karakterize bu klasik triadı oluşturmaz.\n- C) Nörofibroma, periferik sinir kılıfının benign tümörü olup dilde veya mukozada nodüler kitle yapar.\n- E) Sialadenitis, tükürük bezlerinin bakteriyel veya viral enfeksiyonudur; dudak ödemi ve fissürlü dil triadı göstermez.\n---",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 447,
+    "question": "Aşağıdaki hastalıklardan hangisinde fissüral dil izlenebilir?",
+    "options": {
+      "A": "Akromegali",
+      "B": "Diabet",
+      "C": "Lenfanjioma",
+      "D": "Melkersson-Rosenthal sendromu",
+      "E": "Down sendromu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Melkersson-Rosenthal sendromunun tanısal klasik üçlü bulgusundan biri (%50-70 vakada görülen) fissüral dildir; diğer iki bulgu ise tekrarlayan fasiyal paralizi ve orofasiyal ödemdir (Not: Down sendromunda da fissürlü dil görülebilmekle birlikte, orofasiyal granülomatöz sendrom triadı kapsamında klasik olarak sorgulanan antite Melkersson-Rosenthal sendromudur).\n**Çeldiriciler:**\n- A) Akromegalide dilde yaygın büyüme (makroglossi) ve diş izleri (crenated tongue) görülür.\n- B) Diyabette kserostomi, kandidiyazis ve dilde yanma/atrofi bulguları ön plandadır.\n- C) Lenfanjiomada dil dorsumunda kurbağa yumurtası görünümünde veziküler-nodüler makroglossi izlenir.\n- E) Down sendromunda esas olarak makroglossi ve açık kapanışa bağlı dil protrüzyonu ön plandadır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 448,
+    "question": "Dil lezyonları ile ilgili aşağıdakilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Scalloped dil asemptomatiktir",
+      "B": "Lingual varisler dilin ventral yüzeyinde görülür",
+      "C": "Coğrafik dil haritaya benzeyen eritematöz lezyondur",
+      "D": "Makroglossi Melkersson-Rosenthal sendromunda izlenir",
+      "E": "Makroglossi primer amiloidozisde izlenir"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Melkersson-Rosenthal sendromunda dilde görülen karakteristik anomali makroglossi değil, dil sırtında derin yarıklarla karakterize olan fissürlü (skrotal) dildir.\n**Çeldiriciler:**\n- A) Scalloped (girintili-çıkıntılı) dil, dil yan kenarlarının diş arkına bastırılmasıyla oluşan diş izleri olup tamamen asemptomatiktir.\n- B) Lingual varisler, özellikle ileri yaştaki bireylerde dilin ventral (alt) yüzeyinde mavi-mor dilate venler şeklinde görülür.\n- C) Coğrafik dil (eritema migrans), filiform papillaların lokal kaybıyla oluşan, sarı-beyaz sınırlarla çevrili harita benzeri eritematöz alanlardır.\n- E) Primer amiloidozisde dil kasları arasına amiloid proteinlerinin birikmesi sonucunda tipik olarak makroglossi gelişir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 452,
+    "question": "Aşağıdaki hastalıkların hangisinde oral epitelde \"kaldırım taşı görünümü\" tespit edilme olasılığı en yüksektir?",
+    "options": {
+      "A": "Crohn hastalığı",
+      "B": "Liken planus",
+      "C": "Pemfigus vulgaris",
+      "D": "Ülseratif kolit",
+      "E": "Gastroözofageal reflü"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Crohn hastalığı, ağızdan anüse kadar tüm gastrointestinal kanalı tutabilen kronik granülomatöz bir hastalıktır. Bukkal ve labial mukozada submukozal granülomatöz enflamasyon, ödem ve fissürleşmeler sonucunda mukozada tipik \"kaldırım taşı görünümü\" (cobblestone appearance) ortaya çıkar.\n**Çeldiriciler:**\n- B) Liken planusta bukkal mukozada dantel tarzında beyaz çizgilenmeler (Wickham çizgileri) veya eroziv alanlar izlenir.\n- C) Pemfigus vulgariste intraepitelyal büller ve bunların yırtılmasıyla oluşan yaygın yüzeyel erozyonlar görülür.\n- D) Ülseratif kolitte oral mukozada piyostomatitis vejetans (sarımsı püstüller) ve aftöz ülserler görülebilir ancak granülomatöz kaldırım taşı görünümü Crohn hastalığına özgüdür.\n- E) Gastroözofageal reflüde mide asidinin etkisiyle dişlerin palatinal/oklüzal yüzeylerinde dental erozyon ve mukozal eritem görülür.\n---",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 453,
+    "question": "I. Crohn hastalığı\nII. Darier hastalığı\nIII. Palatal papillomatozis\n\nYukarıdaki hastalık ve rahatsızlıklardan hangisinde veya hangilerinde mukozada kaldırım taşı izlenebilir?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Oral mukozada (yanak veya damakta) \"kaldırım taşı görünümü\" oluşturan başlıca üç durum Crohn hastalığı, Darier hastalığı ve palatal papillomatozistir.\n**Öncüllerin Analizi:**\n- I. Doğru: Crohn hastalığında yanak ve dudak mukozasındaki granülomatöz şişlikler ve fissürleşmeler kaba kaldırım taşı görünümü verir.\n- II. Doğru: Darier hastalığında (keratozis follikülaris) sert damak ve alveoler krette çok sayıda sert, beyazımsı keratotik papül bir araya gelerek kaldırım taşı görünümü oluşturur.\n- III. Doğru: Damağın papiller hiperplazisinde (palatal papillomatozis) total protez altında sıkışık, kısa ve künt papiller uzantılar kaldırım taşı gibi görünür.\n**Çeldiriciler:** B, C, D ve E şıkları her üç durumu bir arada kapsamadığı için eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 454,
+    "question": "I. Ülseratif kolit\nII. Crohn hastalığı\nIII. Siroz hastalığı\n\nYukarıdaki hastalıkların hangisi veya hangilerinde palatal mukozada pyostomatitis vegetans izlenmesi en olasıdır?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Pyostomatitis vegetans, oral mukozada eritemli zemin üzerinde sarımsı-beyaz kıvrımlı püstüllerle (salyangoz izi görünümü) karakterize pürülan enflamatuar bir lezyon olup inflamatuar bağırsak hastalıklarının (başta ülseratif kolit ve Crohn hastalığı) spesifik oral bulgusudur.\n**Öncüllerin Analizi:**\n- I. Doğru: Pyostomatitis vegetans en sık ve en karakteristik olarak ülseratif kolit hastalarında izlenir.\n- II. Doğru: Bir diğer inflamatuar bağırsak hastalığı olan Crohn hastalığında da oral mukozada pyostomatitis vegetans görülebilir.\n- III. Yanlış: Karaciğer sirozunda mukozal solukluk, peteşi/ekimoz ve dil papillalarında atrofi (ayna dil) görülür; pyostomatitis vegetans izlenmez.\n**Çeldiriciler:** B ve C şıkları yanlış olan III. öncülü içerdiği için, D ve E şıkları ise inflamatuar bağırsak hastalıklarından birini dışladığı için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 456,
+    "question": "Kronik inflamatuar barsak hastalığı olan 32 yaşında erkek hastanın alınan tıbbi anamnezinde gastroenteroloji kliniğinde tedavi gördüğü, sindirim mukozasında ülserler ve kas tabakasını da içine alan inflamasyon ve fissür gelişimi olduğu, granülomatöz tipte inflamasyon bulgularının tespit edildiği öğreniliyor. Dudak ve yanak mukozasında kaldırım taşına benzer kaba kalınlaşmalar izlenen hastanın ağız içerisinde aftöz ülserasyonlar izleniyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tüberküloz",
+      "B": "Crohn hastalığı",
+      "C": "Sarkoidozis",
+      "D": "Wegener granülomatozisi",
+      "E": "Aktinomikozis"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sindirim kanalında kas tabakasını da içine alan transmural, fissürlü ve granülomatöz enflamasyon ile yanak/dudak mukozasında kaldırım taşı görünümü ve aftöz ülserler Crohn hastalığının tanısal özellikleridir.\n**Çeldiriciler:**\n- A) Tüberkülozda kazeifiye granülomlar, akciğer bulguları ve dilde ağrılı derin tüberküloz ülseri görülür.\n- C) Sarkoidozis ağırlıklı olarak akciğer ve lenf düğümlerini tutar; bağırsakta transmural fissür ve ülserasyonlarla seyreden bir inflamatuar bağırsak hastalığı değildir.\n- D) Wegener granülomatozisi solunum yolları ve böbrekleri tutan ANCA ilişkili nekrotizan bir vaskülittir.\n- E) Aktinomikozis, Actinomyces israelii kaynaklı olup çene-boyun bölgesinde sülfür granülleri içeren çoklu fistüllerle (odunsu sertlik) seyreden bakteriyel enfeksiyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 457,
+    "question": "Aşağıdakilerden hangisi karaciğerde siroz geliştiğinde oral bölgede görülen bulgulardan birisi değildir?",
+    "options": {
+      "A": "Anguler şelitis",
+      "B": "Fissural dil",
+      "C": "Glossitis",
+      "D": "Mukozada solukluk",
+      "E": "Peteşi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Karaciğer sirozunda vitamin ve demir eksikliklerine bağlı olarak dil papillalarında atrofi gelişir ve dil yüzeyi düzleşip parlaklaşır (atrofik glossit / ayna dil). Dil sırtında derin yarıklarla karakterize olan fissural dil gelişimsel bir anomali olup siroz bulgusu değildir.\n**Çeldiriciler:**\n- A) Beslenme bozukluğu, B vitamini ve demir eksikliğine bağlı olarak dudak köşelerinde anguler şelitis gelişir.\n- C) Nutrisyonel eksiklikler sonucunda dilde papillaların silindiği ağrılı glossitis (ayna dil) ortaya çıkar.\n- D) Kronik hastalık anemisi ve kanamalara bağlı olarak oral mukozada belirgin solukluk izlenir.\n- E) Pıhtılaşma faktörlerinin karaciğerde sentezlenememesi ve splenomegaliye bağlı trombositopeni sonucunda mukozada peteşi ve ekimozlar görülür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 459,
+    "question": "Kliniğe ağız içinde tekrarlayan aft şikâyeti ile gelen 16 yaşındaki erkek hastanın alınan anamnezinde genital bölgesinde yara, eklemlerinde ağrı, gözünde ara sıra iltihap oluştuğu belirleniyor. Hastanın cildinde yer yer vasküler lezyonlar da izleniyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Zona hastalığı",
+      "B": "Behçet hastalığı",
+      "C": "El-ayak-ağız hastalığı",
+      "D": "Kawasaki hastalığı",
+      "E": "Lineer IgA hastalığı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Genç erkek hastada oral aftöz ülser, genital ülser, göz lezyonları (üveit), artrit/artralji ve deride trombotik vasküler lezyonların (eritema nodozum benzeri veya papülopüstüler) bir arada bulunması Behçet hastalığının 5 majör semptomunu oluşturur.\n**Çeldiriciler:**\n- A) Zona hastalığı VZV kaynaklı akut tek taraflı veziküler bir enfeksiyondur.\n- C) El-ayak-ağız hastalığı Coxsackie A kaynaklı olup 1-2 haftada kendiliğinden iyileşen akut viral bir enfeksiyondur.\n- D) Kawasaki hastalığı 5 yaş altı çocuklarda görülen, ateş, çilek dil ve koroner arter anevrizmaları ile seyreden akut febril mukokutanöz lenf nodu sendromudur.\n- E) Lineer IgA hastalığı, bazal membran boyunca lineer IgA birikimiyle seyreden kronik subepitelyal vezikülobüllöz bir deri-mukoza hastalığıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 460,
+    "question": "Ateş, halsizlik, fotofobi, döküntülerle karakterize, şiddetli, büllöz tipte, yaygın deri, oral mukoza, göz ve genital tutulum gösteren, yanıklara benzeyen, vezikülobüllöz ve kanamalı döküntülerle seyreder.\n\nYukarıdaki bilgilere göre en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sikatrisyel pemfigoid",
+      "B": "Stevens - Johnson sendromu",
+      "C": "Büllöz pemfigoid",
+      "D": "Epidermolizis bülloza",
+      "E": "Sistemik lupus eritematozus"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Stevens-Johnson sendromu (eritema multiforme majör), genellikle ilaçlara bağlı olarak birden ortaya çıkan ateş, halsizlik ve fotofobi ile başlayan; deri, oral mukoza, konjunktiva (göz) ve genital mukozada yanıklara benzeyen yaygın vezikülobüllöz ve hemorajik-kurutlu döküntülerle seyreden şiddetli akut reaksiyondur.\n**Çeldiriciler:**\n- A) Sikatrisyel pemfigoid kronik seyirlidir, ateş ve akut sistemik toksisite yapmaz, özellikle diş eti ve konjunktivada skar bırakan büllerle seyreder.\n- C) Büllöz pemfigoid 60 yaş üzerinde deride gergin büllerle seyreden kronik otoimmün bir hastalık olup oral ve oküler tutulumu nadirdir.\n- D) Epidermolizis bülloza mekanik travmalara bağlı bül gelişimiyle karakterize kalıtsal kronik bir hastalıktır.\n- E) Sistemik lupus eritematozus kronik otoimmün bir bağ dokusu hastalığı olup yanık benzeri akut jeneralize vezikülobüllöz döküntülerle başlamaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 462,
+    "question": "Aşağıdakilerden hangisi otoimmün Behçet hastalığı, bazı hematolojik ve gastrointestinal hastalıklarda da sıklıkla karşılaşılan, oral non-keratinize mukozada, doğrudan ülser olarak başlayan, sığ fakat çok ağrılı, tekrarlayan ülserasyonlarla karakterize durumdur?",
+    "options": {
+      "A": "Rekürrent aftöz stomatit",
+      "B": "Liken planus",
+      "C": "Pemfigus vulgaris",
+      "D": "Süperfisyal pemfigus",
+      "E": "Sikatrisyel pemfigoid"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Rekürrent aftöz stomatit; vezikül/bül evresi olmaksızın non-keratinize mukozada doğrudan ülser olarak başlayan, sığ, çok ağrılı ve tekrarlayan ülserlerdir. Demir, folat, B12 eksikliği gibi hematolojik durumlarda, Çölyak ve Crohn gibi gastrointestinal hastalıklarda ve Behçet sendromunda sıklıkla görülür.\n**Çeldiriciler:**\n- B) Liken planus keratotik beyaz çizgilenmelerle (Wickham) karakterize kronik mukokutanöz bir hastalıktır.\n- C) Pemfigus vulgaris doğrudan ülser olarak başlamaz; önce intraepitelyal büller oluşur ve bunların yırtılmasıyla düzensiz erozyonlar gelişir.\n- D) Süperfisyal pemfigus (pemfigus foliaseus) desmoglein-1'e karşı gelişen yüzeyel deri bülleriyle seyreder ve oral mukoza tutulumu neredeyse hiç görülmez.\n- E) Sikatrisyel pemfigoid özellikle yapışık diş etinde (keratinize mukozada) subepitelyal büllerle başlayan kronik otoimmün bir hastalıktır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 463,
+    "question": "I. Behçet hastalığı\nII. Çölyak hastalığı\nIII. Crohn hastalığı\n\nAşağıdaki hastalıklardan hangisi veya hangilerinde rekürrent aftöz stomatit görülür?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Rekürrent aftöz stomatit hem Behçet hastalığında hem de malabsorpsiyona yol açan Çölyak ve Crohn hastalıklarında karakteristik olarak görülür.\n**Öncüllerin Analizi:**\n- I. Doğru: Oral rekürrent aftöz ülserler, Behçet sendromlu hastaların %92-100'ünde görülen en temel majör kriterdir.\n- II. Doğru: Gluten enteropatisi olan Çölyak hastalığında gelişen malabsorpsiyon (demir, folat, B12 eksikliği) rekürrent aftöz stomatite yol açar.\n- III. Doğru: İnflamatuar bağırsak hastalığı ve malabsorpsiyon nedeni olan Crohn hastalığında rekürrent aftöz ülserler sık görülür ve bazen hastalığın ilk belirtisi olabilir.\n**Çeldiriciler:** B, C, D ve E şıkları öncüllerin tamamını içermediği için eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 464,
+    "question": "Aşağıdakilerden hangisinde sialore görülmez?",
+    "options": {
+      "A": "Yeni yapılan hareketli protezler",
+      "B": "Aftöz ülserler",
+      "C": "Nöromusküler bozukluklara bağlı mental retardasyon",
+      "D": "Ağır metal zehirlenmeleri",
+      "E": "Sigara kullanımı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Sialore (pityalizm), tükürük salgısının artması veya yutulamaması sonucu ağızda birikmesidir. Uzun süreli sigara/tütün kullanımı ve zehirlenmesi tükürük salgısında artışa (sialore) değil, aksine azalmaya ve ağız kuruluğuna (kserostomi) yol açar.\n**Çeldiriciler:**\n- A) Yeni yapılan hareketli protezler ağız içinde yabancı cisim (besin) algısı yaratarak refleks yolla tükürük salgısını (sialore) artırır.\n- B) Aftöz ülserler ve diğer ağrılı stomatitler mukozal reseptörleri uyararak refleks sialoreye neden olur.\n- C) Nöromusküler bozukluklar ve mental retardasyonda tükürüğün yutulması ve dudak kapanışı kontrol edilemediği için yalancı/gerçek sialore görülür.\n- D) Kurşun, cıva ve bakır gibi ağır metal zehirlenmeleri otonom sinir sistemini ve bezleri uyararak belirgin sialore yapar.\n---",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 465,
+    "question": "Aşağıdaki durumlar ve tükürük akışı üzerindeki etkileri ile ilgili hangisi doğru değildir?",
+    "options": {
+      "A": "Kurşun zehirlenmesi - Sialore",
+      "B": "Dehidratasyon - Kserostomi",
+      "C": "Sjögren Sendromu - Kserostomi",
+      "D": "Aftöz ülserler - Sialore",
+      "E": "Sigara kullanımı - Sialore"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Tütün ve sigara kullanımı tükürük salgısını artırmaz (sialore yapmaz); lokal ısı etkisi ve nikotinin otonomik etkileriyle kserostomiye (ağız kuruluğuna) neden olur.\n**Çeldiriciler:**\n- A) Kurşun ve bakır gibi ağır metal intoksikasyonları tükürük salgısında artışa (sialore) neden olur.\n- B) Dehidratasyon yapan sistemik durumlar vücut sıvı hacmini azaltarak kserostomiye yol açar.\n- C) Sjögren sendromu ekzokrin bez yıkımı yaparak şiddetli kserostomi oluşturur.\n- D) Aftöz ülserler ağrılı mukozal irritasyon yoluyla tükürük salgısını artırarak sialore yapar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,1039 @@
+[
+  {
+    "question": "Trigeminal nevralji ile ilgili olarak aşağıda verilen ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Ağrı donuk, sürekli ve yanıcı karakterdedir.",
+      "B": "Medikal tedavide ilk seçenek karbamazepindir.",
+      "C": "Ağrı atakları sıklıkla hastayı uykusundan uyandırır.",
+      "D": "İlgili sinir trasesinde kalıcı duyu kaybı ve parestezi mevcuttur.",
+      "E": "En sık n. ophthalmicus (V1) dalı tutulur. *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Yanlış):** Ağrı donuk değil; şimşek çakar tarzda, elektrik çarpması gibi batıcı ve paroksismaldir.\n  * **B şıkkı (Doğru Cevap):** Trigeminal nevraljinin birinci basamak altın standart farmakolojik ilacı bir sodyum kanal blokörü olan **karbamazepindir** (Tegretol).\n  * **C şıkkı (Yanlış):** Ağrı atakları uyku sırasında görülmez; tetik noktaların uyarılmasıyla (dokunma, tıraş, çiğneme) gündüz tetiklenir.\n  * **D şıkkı (Yanlış):** İdiyopatik trigeminal nevraljide objektif nörolojik duyu kaybı (anestezi/hipoestezi) **yoktur**. Duyu kaybı varsa sekonder bir tümör veya multipl skleroz araştırılmalıdır.\n  * **E şıkkı (Yanlış):** En seyrek V1 tutulur; en sık **V2 (maksiller) ve V3 (mandibular)** dalları tutulur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 219,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Trigeminal nevraljide ağrıyı tetikleyen hafif mekanik uyaranların etkilediği hipersensitif cilt/mukoza alanlarına ne ad verilir?",
+    "options": {
+      "A": "Horner alanı",
+      "B": "Tetik (Trigger) noktası",
+      "C": "Motor nokta",
+      "D": "Yansıyan ağrı odağı",
+      "E": "Peter noktası *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Dokunma, rüzgar esmesi, su içme veya diş fırçalama gibi ağrısız uyaranların paroksismal ağrı deşarjını başlattığı özgül anatomik odaklara **\"Tetik Noktası (Trigger Zone)\"** denir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 220,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Trigeminal nevraljinin cerrahi tedavisinde kullanılan, kraniyal arka çukurda sinir köküne bası yapan anormal vasküler loop'un (sıklıkla superior serebellar arter) sinirden teflon yastıkçıkla ayrılması prensibine dayanan cerrahi yöntem hangisidir?",
+    "options": {
+      "A": "Rizotomi",
+      "B": "Neurektomi",
+      "C": "Mikrovasküler Dekompresyon (Jannetta ameliyatı)",
+      "D": "Gliserol enjeksiyonu",
+      "E": "Kriyoterapi *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **C şıkkı (Mikrovasküler Dekompresyon / Jannetta):** Trigeminal sinir kökünün beyin sapına girdiği bölgedeki pulsasyonel arter basısını ortadan kaldıran, sinire kalıcı duyu hasarı vermeden ağrıyı yok eden en etkili cerrahi yöntemdir.\n  * Diğerleri sinir liflerini tahrip eden destrüktif (ablatif) yöntemlerdir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 221,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Klinikte mandibular sağ bölgede sürekli, derin, sızlayıcı ve yanıcı vasıfta ağrı tarifleyen, diş çekimi veya kanal tedavisi gibi dental işlemlerle geçmeyen ve tetik noktası bulunmayan atipik yüz ağrısının en olası tanısı nedir?",
+    "options": {
+      "A": "Trigeminal nevralji",
+      "B": "Glossofaringeal nevralji",
+      "C": "Sürekli nöropatik orofasiyal ağrı (Persistan İdiyopatik Fasiyal Ağrı / Atipik odontolji)",
+      "D": "Akut pulpit",
+      "E": "Cluster baş ağrısı *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Trigeminal nevralji paroksismal ve batıcıdır. Dental tedavilerle hafiflemeyen, organik diş patolojisi saptanamayan, sürekli yanıcı/sızlayıcı ağrılar **Persistan İdiyopatik Fasiyal Ağrı (Atipik Odontolji / Hayalet Diş Ağrısı)** kategorisindedir ve santral nöropatik mekanizmalarla yönetilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 222,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Trigeminal nevralji tedavisinde karbamazepine dirençli veya tolere edemeyen hastalarda alternatif olarak kullanılabilecek diğer antiepileptik ilaçlar aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Okskarbazepin, Baklofen, Gabapentin",
+      "B": "Parasetamol, Morfin, Kodein",
+      "C": "Aspirin, İbuprofen, Diklofenak",
+      "D": "Penisilin, Klindamisin, Siprofloksasin",
+      "E": "Diazepam, Midazolam, Fentanil *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Nöropatik ağrının tedavisinde analjezikler (B, C) etkisizdir. Karbamazepin alternatifi olarak **Okskarbazepin**, GABA agonisti **Baklofen**, kalsiyum kanal modülatörleri **Gabapentin ve Pregabalin** ile Fenitoin kullanılır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 223,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yutkunma, konuşma ve öksürme sırasında tonsiller lojda, farenkste ve kulak derinliğinde elektrik çarpması tarzında şiddetli ağrı atakları oluşturan nevralji tipi hangisidir?",
+    "options": {
+      "A": "Trigeminal nevralji",
+      "B": "Glossofarengeal nevralji (IX. kafa çifti)",
+      "C": "Sfenopalatin nevralji",
+      "D": "Oksipital nevralji",
+      "E": "Fasiyal sinir felci *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * 9. kraniyal sinirin sensoriyel alanları olan tonsilla, dil kökü, orofarenks ve timpanik boşlukta (kulak) yutkunmayla tetiklenen paroksismal ağrı tablosu **Glossofarengeal Nevralji**dir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 224,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi trigeminal nevralji tedavisinde uygulanan farmakolojik ajanlardan biri değildir?",
+    "options": {
+      "A": "Karbamazepin",
+      "B": "Okskarbazepin",
+      "C": "Baklofen",
+      "D": "Fenitoin",
+      "E": "Metaraminol *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **E şıkkı (Metaraminol / Doğru Cevap):** Metaraminol bir alfa-1 adrenerjik agonisttir; akut hipotansiyon ve şok tedavisinde vazokonstriktör olarak kullanılır. Trigeminal nevraljiyle hiçbir farmakolojik ilgisi yoktur.\n  * A, B, C, D şıkları nevraljide kullanılan klasik membran stabilize edici ajanlardır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 225,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yanan ağız sendromu (Burning Mouth Syndrome) ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Ağız mukozasında belirgin bir organik lezyon veya klinik ülserasyon saptanamaz.",
+      "B": "Postmenopozal kadınlarda daha sık görülür.",
+      "C": "Anksiyete, depresyon ve karsinofobi gibi psikojenik faktörler eşlik edebilir.",
+      "D": "Tedavide primer olarak cerrahi eksizyon uygulanır.",
+      "E": "En sık dilin ön üçte ikisinde ve sert damakta yanma hissi tarif edilir. *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Yanan ağız sendromu nöropatik/psikosomatik bir tablodur; mukozada cerrahi olarak kesilip çıkarılacak hiçbir kitle veya lezyon yoktur. Tedavi medikaldir (klonazepam, alfa-lipoik asit, B vitaminleri ve antidepresanlar). Cerrahi eksizyon kesinlikle kontrendikedir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 226,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "TME internal düzensizliklerinin sınıflandırılmasında kullanılan Wilkes sınıflamasına göre \"Ağrısız resiprokal klik\" evresi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Evre 1 (Erken evre)",
+      "B": "Evre 2",
+      "C": "Evre 3",
+      "D": "Evre 4",
+      "E": "Evre 5 *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **Evre 1 (Erken):** Disk hafif öne deplasedir ancak redüksiyonludur. Ağrı yoktur, eklem hareket kısıtlılığı yoktur; temel klinik bulgu **ağrısız resiprokal kliking** sesidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 227,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibular sinir dallarının trigeminal nevraljiden etkilenme sıklığına göre sıralaması nasıldır?",
+    "options": {
+      "A": "V3 > V2 > V1",
+      "B": "V2 > V3 > V1",
+      "C": "V1 > V2 > V3",
+      "D": "V1 > V3 > V2",
+      "E": "V2 > V1 > V3 *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Trigeminal nevraljide maksiller (V2) ve mandibular (V3) dallar vakaların %95'inden fazlasını oluşturur. Oftalmik dal (V1) ise %2-4 gibi son derece nadir tutulur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 228,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibular eklemde kondil ve diski temporal kemiğe ve birbirine bağlayan, aşırı hareketleri sınırlayan eklem dışı (aksesuar) ligamentler hangileridir?",
+    "options": {
+      "A": "Kapsüler ligament ve temporomandibular ligament",
+      "B": "Disk posterior ligamenti ve kollateral ligament",
+      "C": "Sfenomandibular ligament ve stilomandibular ligament",
+      "D": "Derin masseterik ligament ve pterigoid ligament",
+      "E": "Retrodiskal bantlar *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Eklem fonksiyonel ligamentleri kapsüler, discal (kollateral) ve temporomandibular ligamenttir.\n  * **Aksesuar (eklem dışı) ligamentler ise lig. sphenomandibulare ve lig. stylomandibulare**dir. Mandibulanın aşırı ileri ve aşağı hareketlerini pasif olarak kısıtlarlar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 229,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "TME diskinin anatomik kısımları düşünüldüğünde, avasküler ve anöral olan ve çiğneme kuvvetlerini karşılayan asıl orta bölüm hangisidir?",
+    "options": {
+      "A": "Anterior bant",
+      "B": "İntermedier (ara) zon",
+      "C": "Posterior bant",
+      "D": "Bilaminar zon (Retrodiskal doku)",
+      "E": "Pterigoid fovea *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Artiküler diskin kalın ön ve arka bantları arasında kalan en ince orta bölüm **intermedier zon (ara bölge)** adını alır. Tamamen avasküler ve anöraldir; fizyolojik kondil başı rotasyonu ve translasyonu bu bölge üzerinde ağrısız gerçekleşir. Retrodiskal doku ise zengin damar ve sinir ağı içerir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 230,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ağız açma sırasında kondil başının öne kayarak diskin intermedier zonunun altına yeniden girmesi esnasında duyulan eklem sesine ne ad verilir?",
+    "options": {
+      "A": "Açılış kliği",
+      "B": "Kapanış kliği",
+      "C": "Krepitasyon",
+      "D": "Sürtünme sesi",
+      "E": "Tinnitus *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Redüksiyonlu disk deplasmanında disk öndedir. Ağız açılırken kondil diskin kalın arka bandını atlayıp normal pozisyonuna oturur; bu anda duyulan ses **açılış kliği (opening click)**tir. Kapanırken diskin tekrar öne fırlamasıyla **kapanış kliği** duyulur (Resiprokal klik).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 231,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "TME osteoartritinde kıkırdak yıkımı ve kemik yüzeylerin birbiri üzerine sürtünmesi sonucu duyulan karakteristik ince çatırtı / ezilme sesine ne ad verilir?",
+    "options": {
+      "A": "Kliking",
+      "B": "Resiprokal klik",
+      "C": "Krepitasyon",
+      "D": "Stridor",
+      "E": "Rezonans *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Krepitasyon (kum sürtünmesi veya çakıl taşı sesi), eklem kıkırdağının aşındığı, subkondral kemiğin açığa çıktığı dejeneratif eklem hastalıklarında (osteoartrit) izlenen patognomonik sestir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 232,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Akut redüksiyonsuz anterior disk deplasmanı gelişen bir hastada ağız açılışı sırasında mandibula ne şekilde hareket eder?",
+    "options": {
+      "A": "Hiçbir sapma olmadan düz hat boyunca açılır.",
+      "B": "Etkilenen (patolojik) tarafa doğru deviye olur (sapma gösterir).",
+      "C": "Sağlam (sağlıklı) tarafa doğru deviye olur.",
+      "D": "Ağız açıklığı 50 mm'nin üzerine çıkar.",
+      "E": "Mandibula öne doğru protrüzyon hareketi yapar. *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Redüksiyonsuz disk deplasmanında öndeki disk kondil başının öne doğru translasyon yapmasını mekanik olarak bloke eder (\"kapalı kilitlenme\"). Etkilenen tarafta kondil öne kayamazken, sağlam taraftaki kondil rahatça translasyon yapar. Sonuçta çene ucu **etkilenen tarafa doğru kayar (ipsilateral deviasyon)** ve ağız açılması belirgin kısıtlanır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 233,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "TME diskinin arka bandına tutunan, elastik lifler, zengin venöz pleksus ve duyusal sinir liflerinden zengin anatomik doku aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İntermedier zon",
+      "B": "Bilaminar zon (Retrodiskal doku)",
+      "C": "M. pterygoideus medialis",
+      "D": "Kapsüler ligament",
+      "E": "Koronoid çıkıntı *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **Bilaminar zon**, üstte elastik lamina, altta kollajen lamina ve ortada gevşek vasküler-sinirsel ağdan oluşur. Kondil başı geriye deplase olduğunda bu dokuyu ezer ve şiddetli eklem ağrısına (retrodiskitis) neden olur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 234,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Akut redüksiyonsuz anterior disk deplasmanı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hastada fonksiyon sırasında ağrı vardır.",
+      "B": "Resiprokal klik vardır.",
+      "C": "Tek taraflı ise çene açılış esnasında etkilenen tarafa doğru kayar.",
+      "D": "Çene hareketlerinde kısıtlanma vardır.",
+      "E": "Kapalı kilitlenme olarak da adlandırılır. *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A, C, D, E şıkları (Doğrudur):** Ağız açıklığı 25-30 mm ile kısıtlıdır (kapalı kilitlenme), etkilenen tarafa deviasyon vardır ve kapsül gerildikçe ağrı oluşur.\n  * **B şıkkı (Yanlıştır / Aranan Seçenek):** Resiprokal klik **redüksiyonlu** disk deplasmanına aittir. **Redüksiyonsuz evrede disk artık yerine oturamadığı için klik sesi tamamen kaybolur** ve yerini sessiz kilitlenmeye bırakır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 235,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibular eklem muayenesinde duyulan resiprokal klik sesi aşağıdaki durumların hangisinin tipik klinik bulgusudur?",
+    "options": {
+      "A": "Osteoartrit",
+      "B": "Redüksiyonlu anterior disk deplasmanı",
+      "C": "Akut kondil dislokasyonu",
+      "D": "Fibröz ankiloz",
+      "E": "Romatoid artrit *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Hem ağız açılırken hem de tam kapanırken duyulan çift klik sesi (resiprokal klik), redüksiyonlu anterior disk deplasmanının patognomonik klinik işaretidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 236,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Disk kondil başının üzerinde redükte olamaz.  \nII. Ağız açıklığı belirgin şekilde kısıtlanır (genellikle < 35 mm).  \nIII. Açılışta çene etkilenen tarafa doğru kayar.  \nIV. Muayenede belirgin resiprokal klik sesleri duyulur.  \n**Akut redüksiyonsuz anterior disk deplasmanı ile ilgili yukarıdakilerden hangileri doğrudur?**",
+    "options": {
+      "A": "I ve IV",
+      "B": "II ve IV",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Redüksiyonsuz deplasmanda disk kilitlidir, ağız açıklığı kısıtlıdır, ipsilateral deviasyon vardır. Ancak IV. öncül yanlıştır çünkü redüksiyon kalktığı için klik sesi duyulmaz. Doğru cevap I, II ve III'tür.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 237,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kas spazmı  \nII. Ağrı  \nIII. Ağzı kapatamama  \nIV. Sinovit  \n**Temporomandibular eklem akut anterior dislokasyonunda yukarıdaki bulgulardan hangileri beklenmez?**",
+    "options": {
+      "A": "I, III ve IV",
+      "B": "II ve III",
+      "C": "Yalnız II",
+      "D": "Yalnız IV",
+      "E": "Yalnız I *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Akut TME dislokasyonunda kondil artiküler eminensin önüne fırlar ve orada kilitlenir.\n  * Çiğneme kasları (masseter, temporal) spazma girer (I), hasta ağzını kesinlikle kapatamaz (III) ve şiddetli ağrı mevcuttur (II).\n  * **Sinovit (IV)** ise kronik inflamatuvar mikrotravmalarla eklem sıvısının iltihaplanmasıdır; akut dislokasyon tablosunun primer beklenen bir bulgusu değildir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2020 Orijinal",
+    "q_num": 238,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tek taraflı akut temporomandibular eklem dislokasyonu olan bir hastada alt çene ucu hangi yöne doğru deplase olur?",
+    "options": {
+      "A": "Çıkık olan (ipsilateral) tarafa kayar.",
+      "B": "Çıkık olmayan sağlam (kontralateral) tarafa kayar.",
+      "C": "Tam orta hatta sabit kalır.",
+      "D": "Arkaya doğru yer değiştirir.",
+      "E": "Yukarıya doğru hareket eder. *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Tek taraflı dislokasyonda çıkan tarafın kondili artiküler eminensin önüne ve aşağısına kayarak ramus boyunu uzatır ve çene ucunu öne ve **karşı (sağlam / kontralateral) tarafa doğru iter**.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 239,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kondil başının artiküler eminensin anterioruna geçip kilitlendiği akut dislokasyon vakalarında hekimin uygulaması gereken acil redüksiyon manevrası (Nelaton manevrası) nasıl yapılmalıdır?",
+    "options": {
+      "A": "Mandibula yalnızca yukarı ve öne doğru itilmelidir.",
+      "B": "Başparmaklar alt molar dişler üzerine yerleştirilip mandibula aşağı ve arkaya doğru bastırılmalıdır.",
+      "C": "Çene ucundan tutulup yalnızca laterale çekilmelidir.",
+      "D": "Hastaya genel anestezi altında trakeostomi açılmalıdır.",
+      "E": "Kondil boynu derhal osteotomi ile kesilmelidir. *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Nelaton manevrasında cerrah başparmaklarını alt molar dişlerin oklüzal yüzeyine koyar (ısırmaya karşı gazlı bezle sarılı), mandibulayı çiğneme kaslarının spazmını yenmek için **önce aşağıya (kaudale), ardından arkaya (dorsale)** doğru iterek kondilin tüberkülü aşıp glenoid fossaya oturmasını sağlar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 240,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Subkondral kemik ve kıkırdağı etkileyen fokal dejeneratif sinovyal eklem rahatsızlığı olarak adlandırılan durum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Disk deplasmanı",
+      "B": "Osteokondrom",
+      "C": "Osteoartrit",
+      "D": "Juvenil artrit",
+      "E": "Pigmente villonodüler sinovit *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Disk deplasmanı):** Mekanik disk disfonksiyonudur, primer subkondral kemik dejenerasyonu değildir.\n  * **B şıkkı (Osteokondrom):** Benign neoplazidir.\n  * **C şıkkı (Osteoartrit / Doğru Cevap):** Eklem kıkırdağının aşınması, fibrilasyonu, subkondral kemik sklerozu (eburnasyon), subkondral kistler (Ely kistleri) ve marjinal osteofit formasyonu ile karakterize **non-inflamatuvar dejeneratif eklem hastalığıdır**.\n  * **D ve E şıkları:** İnflamatuvar ve proliferatif tablolardır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2016 Orijinal",
+    "q_num": 241,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kondil başında artiküler kıkırdak altında yerleşimli subkondral kemik kistleri ve kondil ön kenarında gaga şeklinde osteofit formasyonu izlenen bir hastada en olası tanı nedir?",
+    "options": {
+      "A": "Sarkoidoz",
+      "B": "Osteoartrit",
+      "C": "Kondil başı kırığı",
+      "D": "Zigomatik ark kırığı",
+      "E": "Sinovyal kondromatozis *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Subkondral kistler ve marjinal osteofitler (gaga görünümü) osteoartritin radyografik temel bulgularıdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 242,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki durumlardan hangisinin varlığı hastada temporomandibular eklemi etkileyen osteoartrit varlığını düşündürmez?",
+    "options": {
+      "A": "Fibrokartilajın aşınması ve kondil yüzeyinde eburnasyon",
+      "B": "Osteofit formasyonu",
+      "C": "Çiğneme sırasında krepitasyon",
+      "D": "İpsilateral oklüzyon açıklığı (Erken temas yerine arka dişlerde açıklık)",
+      "E": "Eklem aralığında daralma *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A, B, C, E şıkları:** Osteoartritin klasik klinik ve radyolojik göstergeleridir.\n  * **D şıkkı (Düşündürmez / Doğru Cevap):** Osteoartritte kondil başı rezorbe olup ramus boyu kısaldığı için **etkilenen tarafta erken temas (prematür kontak)**, karşı sağlam tarafta ise açıklık (open-bite) gelişir. Etkilenen tarafta açıklık (ipsilateral open bite) kondilin aşağı itildiği akut eklem içi efüzyon, hematom veya tümörlerde görülür.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 243,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi temporomandibular eklemde internal düzensizliğe neden olan rahatsızlıklardan biri değildir?",
+    "options": {
+      "A": "Reiter Sendromu",
+      "B": "Multiple myeloma",
+      "C": "Ankilozan spondilit",
+      "D": "Romatoid artrit",
+      "E": "Lupus eritematozus *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A, C, D, E şıkları (Poliartritler):** Romatoid artrit, Ankilozan spondilit, Reiter ve SLE gibi sistemik immün poliartritler sinovyal inflamasyon ve pannus dokusu oluşturarak artiküler diski ve kıkırdağı harap eder, internal düzensizlik yaratırlar.\n  * **B şıkkı (Multiple Myeloma / Doğru Cevap):** Plazma hücrelerinin kemik iliğindeki malign neoplazisidir. Kemikte litik \"zımba deliği\" lezyonları yapar; TME eklem içi internal düzensizliğinin primer sebebi değildir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 244,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hiperürisemi ve kanda ürik asit kristallerinin TME eklem sıvısında birikmesiyle karakterize romatolojik eklem hastalığı hangisidir?",
+    "options": {
+      "A": "Psödogut",
+      "B": "Gut artriti",
+      "C": "Romatoid artrit",
+      "D": "Skleroderma",
+      "E": "Ankilozan spondilit *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Serumda monososyum ürat kristallerinin eklem boşluğuna çökmesiyle gelişen metabolik artrit tablosu Gut hastalığıdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 245,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Redüksiyonlu disk deplasmanı  \nII. Redüksiyonsuz disk deplasmanı  \nIII. Osteoartrit  \nIV. Romatoid artrit  \nV. Sinovyal kondromatozis  \n**Yukarıdakilerden hangileri temporomandibular eklemin dejeneratif rahatsızlıklarındandır?**",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve V",
+      "D": "III, IV ve V",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Disk deplasmanları (I ve II) mekanik internal düzensizliktir. Osteoartrit ve romatoid artrit (III ve IV) ise doğrudan eklem sert dokularının hücresel ve matriks yıkımıyla giden dejeneratif patolojilerdir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 246,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi temporomandibular eklemde kapsüler ligamentin sekonder fonksiyonlarındandır?",
+    "options": {
+      "A": "Medial kuvvetlere direnç göstermek",
+      "B": "Lateral kuvvetlere direnç göstermek",
+      "C": "Eklemin aşırı hareketlerini önlemek",
+      "D": "İnferior kuvvetlere direnç göstermek",
+      "E": "Alt ve üst eklem boşluğundaki sinoviyal sıvıyı muhafaza etmek *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * Kapsüler ligament anatomik olarak eklem boşluğunu çepeçevre sarar.\n  * **Primer (mekanik) fonksiyonu:** Kondil ve diski bir arada tutarak eklemin aşırı medial, lateral ve inferior kuvvetlerle ayrılmasını fiziksel olarak sınırlamaktır.\n  * **Sekonder (biyolojik) fonksiyonu:** Eklem boşluğunu sızdırmaz bir kese halinde kapatarak eklem sıvısını (sinovyal sıvı) eklem içinde muhafaza etmek ve eklem kıkırdağının lubrikasyonunu sağlamaktır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS Sonbahar 2023 Orijinal",
+    "q_num": 247,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibular eklem kapsüler ligamentinin primer mekanik fonksiyonu nedir?",
+    "options": {
+      "A": "Eklem içi sinovyal sıvıyı üretmek",
+      "B": "Kondili glenoid fossa sınırları içinde stabilize etmek ve aşırı dislokasyon hareketlerini engellemek",
+      "C": "Çiğneme kaslarına motor uyarı vermek",
+      "D": "Diski öne doğru çekmek",
+      "E": "Retrodiskal dokunun beslenmesini sağlamak *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Kapsülün primer görevi artiküler komponentleri mekanik olarak bir arada tutmak ve eklem lüksasyonunu sınırlandırmaktır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 248,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kollateral ligament  \nII. Sfenomandibular ligament  \nIII. Kapsüler ligament  \nIV. Stilomandibular ligament  \n**Yukarıdaki ligamentlerden hangileri temporomandibular eklemin aksesuar (eklem dışı) ligamentleridir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve III",
+      "C": "II ve IV",
+      "D": "I, II ve IV",
+      "E": "II, III ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Kollateral ve kapsüler ligamentler eklem içi/eklem kapsülü elemanlarıdır. Sfenomandibular ve stilomandibular ligamentler ise eklem kapsülünün uzağında yer alan yardımcı aksesuar ligamentlerdir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 249,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Miyofasiyal ağrı disfonksiyonu sendromu olan bir hastanın medikal tedavisinde aşağıdaki ilaç uygulamalarından hangisi yanlıştır?",
+    "options": {
+      "A": "İbuprofen",
+      "B": "Piroksikam",
+      "C": "Asetilsalisilik asit",
+      "D": "Metoklopramid",
+      "E": "Metokarbamol *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A, B, C şıkları (NSAİİ):** İbuprofen, piroksikam ve aspirin antienflamatuvar ve analjezik etkinlikleriyle kas ağrısını azaltır.\n  * **E şıkkı (Kas Gevşetici):** Metokarbamol santral etkili bir kas gevşeticidir, trismus ve kas spazmını çözer.\n  * **D şıkkı (Metoklopramid / Yanlıştır / Doğru Cevap):** Metoklopramid (Metpamid) bir dopamin reseptör antagonisti olup **antiemetik (bulantı önleyici) ve gastrointestinal prokinetik** bir ilaçtır. Kas-iskelet sistemi veya miyofasiyal ağrı tedavisinde hiçbir endikasyonu yoktur; hatta ekstrapiramidal yan etkilerle (distoni, akut kas kasılmaları) çene kaslarında istemsiz spazmlara yol açabilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "q_num": 250,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Siklobenzaprin  \nII. Naproksen  \nIII. Asetaminofen  \nIV. Metaksalon  \n**Yukarıda verilen ilaçlardan hangisi veya hangileri miyofasiyal ağrıda tedavi amaçlı kullanılabilir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "III ve V",
+      "D": "I, II ve III",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. öncül (Siklobenzaprin):** Santral etkili güçlü bir kas gevşeticidir; trisiklik antidepresan benzeri yapısıyla hem kas spazmını azaltır hem de uyku kalitesini artırarak bruksizm ve miyofasiyal ağrıyı hafifletir.\n  * **II. öncül (Naproksen):** Non-steroidal antienflamatuar (NSAİİ) gruptandır; prostaglandin sentezini inhibe ederek kas enflamasyonunu ve nosiseptif ağrıyı kırar.\n  * **III. öncül (Asetaminofen / Parasetamol):** Santral etkili analjezik ve antipiretik ajandır; mide toleransı iyi olmayan veya NSAİİ alamayan hastalarda ağrı kontrolü için güvenle kullanılır.\n  * **IV. öncül (Metaksalon):** Bir diğer santral etkili kas gevşeticidir; çizgili kas tonusunu düşürerek çiğneme kaslarındaki hiperaktiviteyi ve tetik nokta spazmını giderir.\n  * Miyofasiyal ağrı disfonksiyonu sendromunda (MADS) farmakolojik yaklaşımda analjezikler, NSAİİ'ler ve kas gevşeticiler temel taşlardır. Dolayısıyla verilen ilaçların tamamı (**I, II, III ve IV**) endikedir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 251,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Nemli sıcak - Miyospazm  \nII. Soğuk uygulama - Miyozit  \nIII. Buharlı soğutma - Tetik noktaları  \n**Yukarıda verilen \"fizik tedavi yaklaşımı - kullanıldığı durum\" eşleştirmelerinden hangisi doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "II ve III",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. öncül (Nemli sıcak - Miyospazm):** Sıcak uygulama lokal vazodilatasyon sağlayarak doku perfüzyonunu artırır, laktik asit ve inflamatuar mediyatörlerin kandan uzaklaştırılmasını hızlandırır; böylece akut/kronik kas spazmını çözer.\n  * **II. öncül (Soğuk uygulama - Miyozit):** Miyozit akut inflamatuar bir kas patolojisidir. Kriyoterapi (soğuk kompres) lokal metabolizmayı, vazokonstriksiyon yaparak ödemi ve inflamatuar cevabı yavaşlatır.\n  * **III. öncül (Buharlı soğutma - Tetik noktaları):** \"Spray and stretch\" tekniğinde florometan veya etil klorür gibi buharlaşan soğutucu spreyler kas üzerindeki tetik noktalara uygulanarak kutanöz afferentler desensitize edilir ve kasın pasif gerilmesine izin verilir.\n  * Her üç eşleştirme de klinik fizik tedavi ilkelerine tam uygundur (**I, II ve III**).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 252,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Disk deplasmanı  \nII. Osteoartrit  \nIII. Osseöz eklem ankilozu  \nIV. Eklem bölgesi enfeksiyonları  \n**Temporomandibuler eklem bölgesinde yukarıdaki durumlardan hangilerinin varlığında artroskopi yapılmamalıdır?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yalnız IV",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "III ve IV *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I ve II. öncüller (Endikasyondur):** İnternal düzensizlikler (redüksiyonlu/redüksiyonsuz disk deplasmanları) ve aktif enflamatuar evredeki osteoartrit, artroskopik lavaj, lizis ve biyopsi için en sık endikasyon oluşturan tablolardır.\n  * **III. öncül (Kontrendikedir):** Osseöz eklem ankilozunda eklem boşluğu tamamen kemik köprülerle kaynaşarak ortadan kalkmıştır. Trokar ve optik sistemin girebileceği bir kavite bulunmadığından artroskopi imkansızdır; tedavi yalnızca açık cerrahi (gap artroplastisi veya eklem protezi) iledir.\n  * **IV. öncül (Kontrendikedir):** Aktif enfeksiyon varlığında (septik artrit), yüksek basınçlı artroskopik irrigasyon enfeksiyonun derin kraniyal boşluklara, infratemporal fossa ve kafa tabanına yayılmasına yol açabileceğinden kesinlikle kontrendikedir.\n  * Artroskopi yapılamayacak durumlar **III ve IV** (E şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 253,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibuler eklemin aşağıdaki rahatsızlıklarından hangisinin teşhisi artroskopi ile sağlanamaz?",
+    "options": {
+      "A": "Gut artriti",
+      "B": "Osteoartrit",
+      "C": "Septik artrit",
+      "D": "Romatoid artrit",
+      "E": "Sinoviyal kondromatoz *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D, E şıkları:** Sinoviyal kavitede kıkırdak fibrilasyonu, sinovit, ürik asit kristal depolanması (Gut) ve kıkırdak metaplazisi serbest cisimleri (kondromatoz) artroskopik kamera ile doğrudan görselleştirilir ve biyopsi alınabilir.\n  * **C şıkkı (Septik Artrit / Doğru Cevap):** Septik artritte eklem içi cerrahi enstrümantasyon enfeksiyon ajanlarının çevre dokulara ekilmesine ve bakteriyemiye yol açar; bu nedenle tanı artroskopi ile değil, steril koşullarda yapılan eklem ponksiyonu (artrosentez/aspirasyon), sinoviyal sıvı kültürü ve antibiyogram ile konur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 254,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Biyopsi  \nII. Lizis  \nIII. Diskopeksi  \nIV. Restriksiyon  \n**Yukarıda verilenlerden hangisi veya hangileri artroskopi ile yapılabilir?**",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. öncül (Biyopsi):** Şüpheli sinoviyal dokulardan mikro-forsepslerle doğrudan doku örneği alınabilir.\n  * **II. öncül (Lizis):** Eklem içi fibröz yapışıklıklar ve adezyon bantları hidrolik basınçla veya artroskopik problarla serbestleştirilir (lizis ve lavaj).\n  * **III ve IV. öncüller (Diskopeksi ve Restriksiyon):** Gelişmiş operatif artroskopide minyatür sütür ankorları ve koterizasyon yöntemleri kullanılarak deplase disk repoze edilip fikse edilebilir (diskopeksi) ve gevşek retrodiskal dokular büzüştürülerek hipermobilite kısıtlanabilir (restriksiyon).\n  * Dolayısıyla tüm işlemler (**I, II, III ve IV**) artroskopi ile gerçekleştirilebilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 255,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Baş ağrısı ve temporomandibular eklem (TME) bölgesinde sürekli mevcut olan ağrının şiddetlenmesi nedeniyle başvuran 30 yaşındaki kadın hastanın klinik muayenesinde çene hareketlerinde ve ağız açıklığında kısıtlılık saptanıyor. Radyolojik muayenesinde eklem yüzeylerinde osteofitik değişiklikleri de içeren orta seviyede sert doku dejenerasyonu görülüyor. Diskte perforasyon gözlenmemekle birlikte multipl adezyonlar olduğu tespit ediliyor.**  \n**Bu hastadaki TME internal düzensizliği Wilkes klasifikasyonuna göre nasıl sınıflandırılır?",
+    "options": {
+      "A": "Stage I",
+      "B": "Stage II",
+      "C": "Stage III",
+      "D": "Stage IV",
+      "E": "Stage V *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **Stage I (Erken):** Redüksiyonlu disk deplasmanı, kliking var, ağrı ve hareket kısıtlılığı yok, kemik yüzeyleri tamamen normaldir.\n  * **Stage II (Erken-Orta):** Aralıklı kliking ve subakut kilitlenme atakları, hafif baş ağrısı, hafif kemik remodelingi başlar.\n  * **Stage III (Orta):** Akut kilitlenme, belirgin hareket kısıtlılığı, klik sesinin kaybolması, ancak henüz sert dokularda ileri osteofit ve disk perforasyonu yoktur.\n  * **Stage IV (Orta-İleri / Doğru Cevap):** Kronik kapalı kilitlenme, ağzı açmada belirgin kısıtlılık, radyolojide **osteofit formasyonu ve belirgin sert doku dejeneratif değişiklikleri** başlar; multipl adezyonlar vardır ancak **diskte henüz perforasyon gelişmemiştir**.\n  * **Stage V (İleri):** Disk ve bilaminar zonda **kalıcı perforasyon**, krepitasyon, eklem yüzeylerinde ileri derecede artiküler erezyon ve destrüksiyon izlenir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "q_num": 256,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kırk sekiz yaşında kadın hasta çene ekleminde duyduğu ağrı ve ses şikayetiyle başvuruyor. Hikayesinde uzun süredir ağzını açarken ve kapatırken bir ses duyduğu ancak bu sese ağrı eşlik etmediği için bir yardıma ihtiyacı olmadığını öğreniliyor. Hasta son bir aydır ekleminde ağrı duymaya başladığını ve ara sıra çenesini açamadığını ifade ediyor. Bilgisayarlı tomografi ile yapılan değerlendirmede herhangi bir değişiklik tespit edilmiyor.**  \n**Bu hastada eklem bölgesindeki şikayetler Wilkes sınıflamasına göre hangi evreye karşılık gelmektedir?",
+    "options": {
+      "A": "Evre I",
+      "B": "Evre II",
+      "C": "Evre III",
+      "D": "Evre IV",
+      "E": "Evre V *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Hastada ses uzun süredir vardır (klik), yeni eklenen epizodik ağrı ve geçici kilitlenme atakları tarif edilmektedir. Radyolojide/BT'de kemik yapıda dejeneratif harabiyet veya osteofit yoktur. Bu tablo, asemptomatik Evre I'den semptomatik hale geçilen, ancak kalıcı kapalı kilitlenmenin gelişmediği **Wilkes Evre II (Erken-Orta Dönem)** tablosudur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 257,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Wilkes evreleme sistemine göre TME internal düzensizliklerinin Evre V (İleri Evre) özelliklerinden biri değildir?",
+    "options": {
+      "A": "Diskte kalıcı perforasyon bulunması",
+      "B": "Krepitasyon sesinin duyulması",
+      "C": "Çiğneme sırasında kronik ağrı ve fonksiyon kaybı",
+      "D": "İleri artiküler yüzey destrüksiyonu ve skleroz",
+      "E": "Diskin ağız açılışında kliking sesi ile redükte olması *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C ve D şıkları:** Evre V, internal düzensizliğin son aşaması olan perforasyonlu osteoartritik dönemdir; disk yırtılmıştır, kemik kemiğe sürterek krepitasyon üretir ve ileri derecede anatomik erozyon vardır.\n  * **E şıkkı (Yanlış / Aranan Seçenek):** Diskin açılışta tık sesiyle yerine oturması (redüksiyonlu deplasman) Evre I ve II'ye aittir. Evre V'te disk tamamen deplasedir, perforedir ve asla redükte olamaz.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 258,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibular eklem artrosentezinde en sık hedeflenen anatomik boşluk aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İnferior eklem boşluğu",
+      "B": "Süperior eklem boşluğu",
+      "C": "Retrodiskal alan",
+      "D": "Pterigopalatin fossa",
+      "E": "İnfratemporal fossa *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (İnferior eklem boşluğu):** Kondil ile disk arasında yer alır ve hacmi son derece dardır (yaklaşık 0.5 ml). Sadece rotasyon hareketine izin verir; iğne penetrasyonu diske ve kondil kıkırdağına travma riski doğurur.\n  * **B şıkkı (Süperior eklem boşluğu / Doğru Cevap):** Artiküler eminens ve mandibular fossa ile disk arasında yer alan, translasyon hareketinin gerçekleştiği geniş kompartmandır (hacmi 1.2-1.5 ml). Lavaj, adezyonların hidrolik açılması ve ilaç enjeksiyonu için artrosentez ve artroskopide hedeflenen tek güvenli alandır.\n  * **C, D ve E şıkları:** Eklem dışı veya vasküler/nöral risk taşıyan komşu anatomik sahalardır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2021 Orijinal",
+    "q_num": 259,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibular eklem artrosentezinde iki iğne tekniği kullanıldığında lavaj sıvısının temel akış prensibi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İnferior boşluktan girip süperior boşluktan çıkış",
+      "B": "Giriş iğnesiyle basınç oluşturulup çıkış iğnesinden serbest drenaj sağlanması",
+      "C": "Retrodiskal bölgeden girip lateral pterigoid kılıfından aspirasyon",
+      "D": "Karşı taraf TME kompartmanına geçiş",
+      "E": "İnfraorbital foramen üzerinden drenaj *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Çift iğne artrosentezinde her iki iğne de **süperior eklem boşluğuna** yerleştirilir. Birinci iğneden fizyolojik serum veya Ringer laktat solüsyonu kontrollü basınçla verilirken, ikinci iğneden inflamatuar sitokinleri, hücresel debrisleri ve mikrokristalleri taşıyan sıvı eklem dışına boşaltılır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 260,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi temporomandibular eklem artrosentezinin endikasyonlarından biri değildir?",
+    "options": {
+      "A": "Akut redüksiyonsuz disk deplasmanı (kapalı kilitlenme)",
+      "B": "Konservatif tedaviye dirençli osteoartrit ağrısı",
+      "C": "Adeziv eklem hastalıkları (pseudoradikal fiksasyon)",
+      "D": "İleri osseöz eklem ankilozu",
+      "E": "Akut travma sonrası gelişen hemartrozun lavajı *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A, B, C ve E şıkları:** İnflamatuar mediyatörlerin uzaklaştırılması, eklem içi basıncın düşürülmesi ve adezyonların hidrolik basınçla ayrılması artrosentezin primer endikasyonlarıdır.\n  * **D şıkkı (Doğru Cevap):** Osseöz ankilozda eklem lümeni tamamen kemikleştiği için iğne ile lavaj yapmak (artrosentez) anatomik ve biyomekanik olarak imkansızdır; cerrahi osteotomi ve gap artroplastisi zorunludur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 261,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibular eklem artroskopisinde ekleme giriş yerinin belirlenmesi için çizilen Holmlund-Hellsing hattı aşağıdakilerden hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "Gözün lateral kantusu - Angulus mandibula",
+      "B": "Angulus mandibula - Ağız köşesi",
+      "C": "Gözün lateral kantusu - Tragusun orta noktası",
+      "D": "Tragusun orta noktası - Alar taban",
+      "E": "Mastoid çıkıntı - Simfizis mandibula *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **C şıkkı (Doğru Cevap):** Holmlund-Hellsing hattı, tragusun tragal kıkırdağının orta noktasından gözün dış kantusuna (lateral canthus) çekilen referans çizgidir. Ekleme güvenli giriş noktası bu hat üzerinde tragustan öne doğru **10 mm**, hattın altına doğru **2 mm** inilerek işaretlenir. Bu nokta Glenoid fossanın posterior kompartmanına ve süperior eklem kavitesine damar-sinir yaralanması olmaksızın girmeyi sağlar.\n  * **Diğer şıklar:** Farklı maksillofasiyal cerrahi insizyonların anatomik hatlarıdır; TME giriş rehberi değillerdir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2022 Orijinal",
+    "q_num": 262,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Holmlund-Hellsing hattı kullanılarak yapılan artroskopik eklem ponksiyonunda, ikinci giriş noktası birinci noktaya göre genellikle nasıl konumlandırılır?",
+    "options": {
+      "A": "Birinci noktanın 10 mm gerisinde",
+      "B": "Tragus hattı üzerinde daha derinde",
+      "C": "Birinci noktanın yaklaşık 10 mm anteriorunda ve 10-12 mm inferiorunda",
+      "D": "Angulus üzerinde",
+      "E": "Koronoid proses tabanında *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * İkinci trokar veya çıkış iğnesi, eklem tüberkülünün (artiküler eminensin) ön eğimini hedeflemek için birinci noktanın yaklaşık 10-12 mm önünde ve biraz daha inferiorunda süperior eklem boşluğunun anterior girintisine yerleştirilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 263,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. N. alveolaris inferior  \nII. N. alveolaris superior posterior  \nIII. N. auriculotemporalis  \nIV. N. lingualis  \n**Lokal anestezi altında gerçekleştirilmesi planlanan bir artrosentez işlemi öncesinde yukarıdaki sinirlerden hangisi ya da hangilerinin blokajı sağlanmalıdır?**",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız III",
+      "C": "I ve IV",
+      "D": "II ve IV",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **III. öncül (N. auriculotemporalis / Doğru):** TME kapsülünün, diskinin ve retrodiskal dokularının duyusal innervasyonunun %75-80'i N. mandibularis'in dalı olan **N. auriculotemporalis** tarafından sağlanır (ön kısmına N. massetericus ve derin temporal sinirler de minör katkı verir). Ekleme yapılacak artrosentez veya artroskopi gibi girişimlerde tek başına aurikulotemporal blok yapılması derin anestezik kontrol için esastır.\n  * **I, II ve IV. öncüller:** Mandibuler dişler, maksiller molarlar ve dilin duyusunu taşırlar; TME eklem kapsülünün innervasyonuyla ilişkisizdirler.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 264,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi temporomandibular eklem artrosentezi sırasında görülebilecek komplikasyonlardan biri değildir?",
+    "options": {
+      "A": "Geçici fasiyal sinir parezisi (lokal anestezik difüzyonuna bağlı)",
+      "B": "Orta kulak perforasyonu veya işitme kaybı",
+      "C": "Transitor temporal hematom",
+      "D": "Akut parotitis",
+      "E": "Çiğneme kaslarında hipertrofi *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C ve D şıkları:** İğnenin posteriora kaçmasıyla dış kulak yolu ve timpanik membran yaralanması, fasiyal sinir temporal/zigomatik dallarının anestezik difüzyonu ile bloke olması, yüzeyel temporal damarlardan hematom ve parotisin delinmesi operatif risklerdir.\n  * **E şıkkı (Doğru Cevap):** Çiğneme kaslarında hipertrofi kronik parafonksiyonel aşırı yüklenmeye bağlı uzun dönemli bir adaptif patolojidir; kısa süreli bir eklem yıkama işleminin (artrosentez) komplikasyonu olamaz.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 265,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çiğneme kaslarında hiperaktivite ve sabahları çenede yorgunluk/ağrı ile başvuran, okluzal muayenesinde aşınma fasetleri izlenen ancak TME ses ve eklem kilitlenmesi bulunmayan bir hastanın tedavisinde aşağıdakilerden hangisi yer almaz?",
+    "options": {
+      "A": "Artrosentez",
+      "B": "Non-steroid antienflamatuvar ilaç kullanımı",
+      "C": "Yüze nemli sıcak uygulanması",
+      "D": "Yumuşak diyet",
+      "E": "Oklüzal splint (gece plağı) yapılması *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Yer Almaz / Doğru Cevap):** Vakada problem eklem içi (intrakapsüler) bir patoloji değil, doğrudan çiğneme kaslarının parafonksiyonel aktivitesine bağlı **miyofasiyal ağrı ve bruksizmdir**. Artrosentez intrakapsüler patolojilerin (internal düzensizlik, kapalı kilitlenme) tedavisidir; kas kaynaklı ağrılarda hiçbir yeri ve endikasyonu yoktur.\n  * **B, C, D ve E şıkları:** Miyofasiyal ağrının standart konservatif tedavi basamaklarıdır (splint, kas istirahati, medikal tedavi ve fizik tedavi).",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS Sonbahar 2023 Orijinal",
+    "q_num": 266,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Anksiyolitikler  \nII. Kortikosteroidler  \nIII. Kas gevşeticiler  \nIV. Narkotik analjezikler  \n**Miyofasiyal ağrılı bir hastada medikal kombinasyonda öncelikli olarak tercih edilen ilaç sınıfları hangileridir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "I, II ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Miyofasiyal ağrıda kas tonusunu kırmak için **kas gevşeticiler (III)** ve bruksizmin santral anksiyete komponentini baskılamak için kısa süreli **anksiyolitikler / benzodiazepinler (I)** primer tercihlerdir. Sistemik steroidler ve bağımlılık riski yüksek narkotik analjezikler bu tabloda rutin kullanılmaz.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 267,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibuler eklem hipermobilitesini tedavi etmek amacıyla aşağıdaki yöntemlerden hangisi kullanılmaz?",
+    "options": {
+      "A": "Lateral pterigoid kasa botulinum toksin uygulaması",
+      "B": "Eminoplasti",
+      "C": "Artrosentez",
+      "D": "Zigomatik arkın cerrahi olarak inferiora alınması",
+      "E": "Kapsül plikasyonu *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Kullanılır):** Lateral pterigoid kasın alt karnı kondili anteriora çeker; botoks ile zayıflatılması aşırı translasyonu ve dislokasyonu engeller.\n  * **B şıkkı (Kullanılır):** Eminoplasti/eminektomi artiküler tüberkülün mekanik engelini ortadan kaldırarak kondilin öne kayıp kilitlenmeden serbestçe geri dönmesini sağlar.\n  * **C şıkkı (Kullanılmaz / Doğru Cevap):** Artrosentez bir eklem yıkama ve hidrolik adezyon açma tekniğidir. Kapsülü sıkılaştırmaz veya kemiksel bariyer oluşturmaz; hipermobilite ve habitüel lüksasyon tedavisinde kesinlikle yeri yoktur.\n  * **D şıkkı (Kullanılır):** LeClerc prosedüründe zigomatik ark inferiora indirilerek kondilin önüne mekanik bir kemik set örülür.\n  * **E şıkkı (Kullanılır):** Eklem kapsülünün fazla kısımlarının plike edilip dikilmesi laksiteyi azaltır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 268,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kronik tekrarlayan TME lüksasyonunda uygulanan LeClerc prosedürünün temel mekanizması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Artiküler diskin cerrahi eksizyonu",
+      "B": "Zigomatik arkın osteotomiyle aşağı indirilerek mekanik bir kemik engel oluşturulması",
+      "C": "Kondilin cerrahi olarak rezeke edilmesi",
+      "D": "Fasiyal sinirin dekompresyonu",
+      "E": "Parotis bezinin superiora kaydırılması *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * LeClerc operasyonunda zigomatik ark artiküler eminensin önünden kesilerek aşağı ve içe doğru kaydırılır. Böylece kondilin artiküler eminensin üzerine atlayarak önde kilitlenmesini engelleyen kemik bir bariyer oluşturulur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 269,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kronik mandibular dislokasyonun tedavisi amacıyla botoks uygulayan bir cerrah aşağıdaki kaslardan hangisini palpe etmelidir?",
+    "options": {
+      "A": "Masseter",
+      "B": "Mylohyoid",
+      "C": "Geniohyoid",
+      "D": "Medial pterigoid",
+      "E": "Lateral pterigoid *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * Mandibuler kondil başını ve artiküler diski anteromediyale doğru çeken yegane kas **lateral pterigoid kastır** (özellikle alt karnı). Çenenin aşırı açılarak öne lüksasyonunu engellemek amacıyla botulinum toksin enjeksiyonu doğrudan lateral pterigoid kasa intraoral (üst molar bukkal vestibülden tüber arkasına doğru) uygulanır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 270,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibuler eklem (TME) enfeksiyonlarıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Maksiller molar diş enfeksiyonları pterigoid pleksus ven yoluyla TME'ye enfeksiyon etkenini taşıyabilir.",
+      "B": "TME enfeksiyonu sonrası fibröz ve kemiksi ankiloz riski bulunur.",
+      "C": "Enfeksiyon genelde TME'ye hematojen yolla taşınır.",
+      "D": "Çok yaygın değildirler.",
+      "E": "Muayenede enfeksiyon olan tarafta posterior erken temas görülebilir. *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A, B, C ve D şıkları (Doğrudur):** TME enfeksiyonları seyrektir; çoğunlukla hematojen yayılımla veya komşu odontojenik yayılımla (pterigoid pleksus) gelir. Enflamatuar doku harabiyeti sonrasında yüksek oranda ankiloz riski taşır.\n  * **E şıkkı (Yanlıştır / Aranan Seçenek):** Akut TME enfeksiyonunda eklem kavitesinde pürülan eksüda ve efüzyon birikir. Bu sıvı birikimi kondili aşağı ve öne doğru iter; kondil aşağı itildiği için **etkilenen taraftaki arka dişlerde temas kaybolur (posterior açık kapanış)** ve kontralateral (sağlam) taraftaki dişlerde erken temas gelişir. İpsilateral erken temas görülmesi imkansızdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS Eylül 2015 Orijinal",
+    "q_num": 271,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. İpsilateral laterognati gözlenir.  \nII. Ağız açıklığı kısıtlanır.  \nIII. Antibiyotik tedavisini takiben eklem lavajı faydalıdır.  \nIV. Etken mikroorganizmalar düşünüldüğünde penisilin ve beta-laktamaz inhibitörü kombinasyonu tercih edilmelidir.  \n**Yukarıdakilerden hangileri temporomandibuler eklem (TME) enfeksiyonları için doğrudur?**",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "I, II ve IV",
+      "D": "II, III ve IV",
+      "E": "Hepsi *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **I. öncül (Yanlış):** Tek taraflı efüzyon ve ödem kondil başını aşağı ittiği için çene ucu etkilenen tarafa değil, **karşı (sağlam) tarafa** devie olur (kontralateral laterognati).\n  * **II. öncül (Doğru):** Eklem içi basınç ve koruyucu miyospazm nedeniyle trismus ve ağız açıklığında belirgin kısıtlılık oluşur.\n  * **III ve IV. öncüller (Doğru):** Bakteriyel florayı baskılamak için geniş spektrumlu beta-laktamaz inhibitörlü penisilinler (amoksisilin-klavulanat veya ampisilin-sulbaktam) ilk tercihtir; ardından eklemin steril fizyolojikle yıkanması (lavaj) kıkırdak hasarını önler.\n  * Doğru öncüller **II, III ve IV** (D şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 272,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi reaktif artritin (Reiter sendromu) klasik triadını doğru ifade eder?",
+    "options": {
+      "A": "Üretrit, konjonktivit ve artrit",
+      "B": "Trismus, maloklüzyon ve krepitasyon",
+      "C": "Parotit, kserostomi ve keratokonjonktivit",
+      "D": "Aftöz ülserler, genital ülserler ve üveit",
+      "E": "Deride hedef lezyonlar, büller ve ateş *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Reiter sendromu (Reaktif Artrit) tipik olarak gastrointestinal veya ürogenital bir enfeksiyonu takiben gelişen otoimmün tablodur. Klasik tanı triadı: **üretrit, konjonktivit ve periferik artrittir** (TME'yi de tutabilir).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 273,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sawhney temporomandibular eklem ankilozu sınıflamasının hangi tipinde mandibulanın yükselen ramusu ile temporal kemik/zigomatik ark arasında kemik köprüler gözlenir?",
+    "options": {
+      "A": "Tip 1",
+      "B": "Tip 2",
+      "C": "Tip 3",
+      "D": "Tip 4",
+      "E": "Tip 5 *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **Tip 1:** Kondil deforme olmuştur, fibröz adezyonlar hakimdir; kemik kaynaşma yoktur.\n  * **Tip 2:** Kondil başının dış kenarında artiküler yüzeyle sınırlı kemikleşme (köprüleşme) vardır; kondil başının anatomisi ve artiküler kıkırdak merkezde kısmen korunmuştur.\n  * **Tip 3 (Doğru Cevap):** Kondil başı genellikle mediyale dislokedir ve atrofiktir; **ramusun üst kısmı ile zigomatik ark/temporal kemik arasında geniş kemik köprüler** uzanır; sigmoid çentik ve koronoid proses korunmuştur.\n  * **Tip 4:** Kondil, ramus, sigmoid çentik ve glenoid fossa tamamen devasa tek parça kemik kitleye dönüşmüş, kafa tabanı ile mandibula bütünüyle kaynaşmıştır; normal anatomi tamamen kaybolmuştur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS İlkbahar 2023 Orijinal",
+    "q_num": 274,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sawhney temporomandibular eklem ankilozu sınıflamasının hangi tipinde mandibulanın yükselen ramusu ve kafa tabanı arasında tam bir kemik kitleyle kaynaşmasından dolayı TME'nin normal anatomisi bütünüyle yok olmuştur?",
+    "options": {
+      "A": "Tip 1",
+      "B": "Tip 2",
+      "C": "Tip 3",
+      "D": "Tip 4",
+      "E": "Tip 5 *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Normal eklem anatomisinin hiçbir izinin kalmadığı, ramusun temporal kemik ve kafa tabanı ile kesintisiz blok halinde kemik ankilozuna uğradığı en ileri form **Sawhney Tip 4**'tür.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 275,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Septik artrit  \nII. Ankilozan spondilit  \nIII. Romatoid artrit  \nIV. Sublingual abse  \n**Yukarıdaki durumlardan hangisi ya da hangileri TME ankilozuna yatkınlık oluşturur?**",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve IV",
+      "D": "I, II ve III",
+      "E": "I, III ve IV *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **I. öncül (Septik artrit):** Eklem içi süpürasyon eklem kıkırdağını litik enzimlerle tamamen eritir ve iyileşme döneminde kemik uçların kaynaşmasına (ankiloz) yol açar.\n  * **II ve III. öncüller (Ankilozan spondilit ve Romatoid artrit):** Kronik pannus dokusu ve sinovit eklem yüzeylerini aşındırarak sekonder fibröz ve kemik ankiloz riskini katbekat artırır.\n  * **IV. öncül (Sublingual abse):** Ağız tabanı yumuşak doku enfeksiyonudur, TME ile doğrudan ilişkisi yoktur ve ankiloz yapmaz.\n  * Ankiloz riski taşıyanlar **I, II ve III** (D şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 276,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki durumların hangisinde alloplastik temporomandibular eklem rekonstrüksiyonu kontrendikedir?",
+    "options": {
+      "A": "Avasküler nekroz",
+      "B": "Şiddetli kondil rezorpsiyonu",
+      "C": "Büyük iyi huylu tümörlerin çıkarılmasını takiben",
+      "D": "Aktif ya da kronik enfeksiyon varlığı",
+      "E": "Malign tümör eksizyonu sonrası *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A, B, C ve E şıkları:** Şiddetli anatomik ve kemiksel doku kayıplarında alloplastik TME protezleri (stok veya kişiye özel CAD/CAM eklem protezleri) primer rekonstrüksiyon endikasyonudur.\n  * **D şıkkı (Doğru Cevap):** Alloplastik protezler yabancı cisimdir. Alanda aktif veya kronik bakteriyel enfeksiyon varlığında implant yüzeyinde bakteriyel biyofilm oluşur, enfeksiyon eradike edilemez ve kaçınılmaz olarak protez gevşemesi ve ekspojuru gelişir. Enfeksiyon sahasına yabancı materyal konulması mutlak kontrendikedir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2022 Orijinal",
+    "q_num": 277,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Düzeltilemeyen parafonksiyon varlığı  \nII. Şiddetli kondil rezorpsiyonu  \nIII. Akut temporomandibular eklem enfeksiyonu  \nIV. Malign tümör eksizyonu sonrası  \n**Yukarıdaki durumlardan hangisi ya da hangilerinde alloplastik temporomandibular eklem rekonstrüksiyonu kontrendikedir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız IV",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "I, II ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I. öncül (Parafonksiyon):** Kontrol edilemeyen şiddetli bruksizm alloplastik vidalarda gevşeme ve protez yorgunluk kırıklarına yol açacağından kontrendikasyondur.\n  * **III. öncül (Akut enfeksiyon):** Yabancı cisim sepsisi ve protez kaybı yaratacağından mutlak kontrendikedir.\n  * **II ve IV. öncüller:** Protezin doğrudan kullanım endikasyonlarıdır.\n  * Kontrendike olanlar **I ve III** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 278,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi alloplastik TME protezlerinin otojen kostokondral greftlere göre bir avantajı değildir?",
+    "options": {
+      "A": "İkinci bir donör saha morbiditesinin olmaması",
+      "B": "Ameliyattan hemen sonra erken fizik tedaviye ve mobilizasyona izin vermesi",
+      "C": "Çocuk hastalarda mandibulayla birlikte büyüme potansiyeli sergilemesi",
+      "D": "Ameliyat süresini kısaltması",
+      "E": "Kemik remodelingine bağlı nüks ve rezorpsiyon göstermemesi *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D ve E şıkları:** Alloplastik protezlerin temel avantajlarıdır; kaburga alınmadığı için pnömotoraks riski yoktur, fiksasyonu rijittir ve rezorbe olmaz.\n  * **C şıkkı (Doğru Cevap):** Alloplastik metal/polietilen protezlerin canlı hücresi yoktur, bu nedenle **asla büyüme potansiyeli taşımazlar**. Büyüme çağındaki çocuklarda bu yüzden büyüme adaptasyonu olan otojen kostokondral greftler tercih edilir; protezin büyüme göstermesi imkansızdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 279,
+    "unit": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+    "quality_flag": "cikmis"
+  }
+]

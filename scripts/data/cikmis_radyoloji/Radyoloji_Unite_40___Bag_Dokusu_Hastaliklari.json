@@ -1,0 +1,53 @@
+[
+  {
+    "q_num": 521,
+    "question": "Özellikle yüzden burun ve yanak bölgesini kapsayan kelebek şeklinde kırmızı deri döküntüleri ve oral mukozada ülsere lezyonlarla karakterize otoimmün hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Skleroderma",
+      "B": "Pemfigus",
+      "C": "Sistemik lupus eritematozus",
+      "D": "Romatoid artrit",
+      "E": "Sarkoidoz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sistemik lupus eritematozus (SLE), özellikle genç kadınlarda sık görülen, yüz bölgesinde burun sırtı ve yanakları kapsayan klasik \"kelebek tarzında\" (malar) eritematöz deri döküntüsü, fotosensitivite ve oral mukozada eritematöz/ülsere lezyonlarla karakterize multisistemik otoimmün hastalıktır.\n**Çeldiriciler:**\n- A) Sklerodermada kollajen birikimine bağlı deride sertleşme, maske yüz, mikrostomi ve Raynaud fenomeni görülür; kelebek raş yoktur.\n- B) Pemfigusta deri ve mukozada akantolitik gevşek büller ve erozyonlar görülür; malar kelebek eritem yapmaz.\n- D) Romatoid artrit eklemlerde simetrik eroziv sinovit yapan otoimmün bir hastalıktır; yüzde kelebek döküntü ve spesifik oral ülserlerle seyretmez.\n- E) Sarkoidoz akciğer, lenf nodu ve deride non-kazeifiye granülomlar (lupus pernio vb.) yapan granülomatöz bir hastalıktır.\n---",
+    "flag_reason": "DUS Ekim 2021 Orijinal",
+    "unit": "Ünite 40 - Bağ Dokusu Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 522,
+    "question": "Sistemik Lupus Eritematozus ile ilgili aşağıdaki verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "İmmünosupresyona neden olur",
+      "B": "Otoimmün bir hastalıktır",
+      "C": "Oral mukozada ülsere lezyonlara neden olmaz",
+      "D": "Burun ve yanak bölgesinde kelebek benzeri kırmızı deri döküntülerine neden olur",
+      "E": "Sıklıkla genç kadın hastalarda izlenir"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sistemik lupus eritematozus (SLE) hastalarının yaklaşık %25'inde oral mukozada (damak, bukkal mukoza, vermilyon) eritematöz, keratotik veya ağrılı/ağrısız ülsere lezyonlar gelişir; hatta ağız ülserasyonları SLE'nin resmi tanı kriterleri arasında yer alır.\n**Çeldiriciler:**\n- A) Gerek hastalığın immün sistem regülasyonunu bozması gerekse tedavisinde kullanılan ajanlar immünosupresyona ve enfeksiyon yatkınlığına neden olur.\n- B) Çift sarmallı DNA ve nükleer antijenlere karşı otoantikorların geliştiği prototipik otoimmün bağ dokusu hastalığıdır.\n- D) Burun kökü üzerinde birleşerek her iki malar bölgeye yayılan kelebek tarzı eritem hastalığın en karakteristik kutanöz bulgusudur.\n- E) Kadınlarda erkeklere göre 9-10 kat fazla görülür ve sıklıkla 15-45 yaş arası genç kadınlarda ortaya çıkar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 40 - Bağ Dokusu Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 524,
+    "question": "Otuz dokuz yaşındaki kadın hastanın klinik muayenesinde, sert damak, yanak mukozası ve diş etinde beyaz keratotik ve eritematöz alanların birlikte olduğu lezyonlar izleniyor. Aynı zamanda ateş, halsizlik, yorgunluk ve kilo kaybı olan hastada güneş ışığı ile belirginleşen burun kökü ve malar bölgeyi içine alan eritemli yama lezyonları da saptanıyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sistemik lupus eritematozus",
+      "B": "Sarkoidoz",
+      "C": "Crohn hastalığı",
+      "D": "Sistemik skleroz",
+      "E": "Mikst bağ doku hastalığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Genç-orta yaş kadın hastada ateş, halsizlik, kilo kaybı gibi konstitüsyonel semptomlar, güneş ışığı ile artan (fotosensitif) burun kökü ve malar bölgeyi tutan kelebek eritem ve oral mukozada (damak, yanak, diş eti) liken planusu da andırabilen eritematöz-keratotik-ülsere lezyonların varlığı sistemik lupus eritematozus (SLE) için tanı koydurucudur.\n**Çeldiriciler:**\n- B) Sarkoidozda akciğer/lenf nodu granülomları görülür; fotosensitif malar kelebek eritem ve oral keratotik-eritematöz lupus lezyonları yapmaz.\n- C) Crohn hastalığında gastrointestinal bulgular, mukozal kaldırım taşı görünümü ve aftöz ülserler görülür; malar kelebek raş yoktur.\n- D) Sistemik sklerozda (skleroderma) deri sertleşmesi, mikrostomi, Raynaud fenomeni ve çenede kemik rezorpsiyonları izlenir.\n- E) Mikst bağ doku hastalığında anti-U1 RNP pozitifliği, Raynaud fenomeni ve sosis parmaklar ön plandadır; klasik fotosensitif malar kelebek raş ve oral diskoid lezyonlar SLE'nin spesifik tanı kriterleridir.\n---",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "unit": "Ünite 40 - Bağ Dokusu Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "question": "Aşağıdaki durumlardan hangisinde apikal rezeksiyon kontrendikedir?",
+    "options": {
+      "A": "Kanal dolgu maddesinin apikalden taştığı durumlarda",
+      "B": "Apikal 1/3 horizontal kök kırıklarında",
+      "C": "Düzeltilemeyen travmatik okluzyonlarda",
+      "D": "Apikal bölgede lezyonu olan ve kanal tedavisi ile tedavi edilemeyen dişlerde",
+      "E": "Kök ucunda kanal aletinin kırıldığı durumlarda *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D, E şıkları (Endikasyondur):** Taşan dolgu maddesinin cerrahi çıkarılması, nekroze apikal kırık parçanın rezeksiyonu, konvansiyonel endodontiyle iyileşmeyen periapikal kist/granülomlar ve kök ucunda kırılarak tıkaca neden olan aletlerin cerrahi uzaklaştırılması apikal rezeksiyonun başlıca endikasyonlarıdır.\n  * **C şıkkı (Kontrendikedir / Doğru Cevap):** Okluzal travma giderilmediği sürece periradiküler dokularda mekanik stres, sirkülasyon bozukluğu ve kök rezorpsiyonu devam eder; cerrahi yapılsa dahi yara iyileşmesi gerçekleşmez. Bu nedenle düzeltilemeyen travmatik okluzyon kesin kontrendikasyondur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 40,
+    "unit": "5 PERİAPİKAL CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Bölgede akut enfeksiyon varlığı  \nII. Düzeltilemeyen travmatik okluzyon  \nIII. Dişin odontojenik kistle ilişkili olması  \nIV. Kron/kök oranının kron lehine olduğu durumlar  \n**Yukarıdakilerden hangileri apikal rezeksiyon kontrendikasyonlarındandır?**",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve IV",
+      "C": "I ve III",
+      "D": "I, II ve IV",
+      "E": "II, III ve IV *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **I. öncül (Kontrendikasyondur):** Akut periapikal apse veya selülit varlığında cerrahi müdahale enfeksiyonun çevre dokulara ve lojlara yayılmasına neden olacağından ertelenir.\n  * **II. öncül (Kontrendikasyondur):** Düzeltilemeyen okluzal travma periapikal rejenerasyonu bozar.\n  * **III. öncül (Endikasyondur):** Dişin kistle ilişkili olması kistektomi ile birlikte kök ucunun rezeke edilmesi için doğrudan bir endikasyondur.\n  * **IV. öncül (Kontrendikasyondur):** Kron boyu uzun, kök boyu zaten kısa olan dişlerde kökün 2-3 mm daha kesilmesi dişin periodontal desteğini tamamen yok ederek mobilite ve kayba neden olur.\n  * Dolayısıyla kontrendikasyonlar: **I, II ve IV** (D şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 41,
+    "unit": "5 PERİAPİKAL CERRAHİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde periapikal cerrahi ve retrograd dolgu prensipleri için doğrudur?",
+    "options": {
+      "A": "Preoperatif medikasyonda antibiyotik önerilmemektedir.",
+      "B": "Flepler, yalnızca ilgili dişi içerecek genişlikte hazırlanır.",
+      "C": "Kemik pencerenin büyüklüğü, kökün tamamını ekspoz edecek şekilde hazırlanır.",
+      "D": "Ultrasonik aletler yardımıyla yapılan kök rezeksiyonunda ise eğimlendirme yapmak gerekir.",
+      "E": "Kökün 1/3'ü rezeke edilir. *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A şıkkı (Yanlış):** Enfeksiyon yayılımını önlemek ve cerrahi sahayı korumak adına endike olgularda profilaktik antibiyotik önerilir.\n  * **B şıkkı (Yanlış):** Flep sınırları gerilimsiz görüş sağlamak için ilgili dişin en az birer diş mezial ve distaline kadar uzatılmalıdır.\n  * **C şıkkı (Yanlış):** Kemik pencere kökün tamamını açığa çıkaracak kadar büyük açılmaz; gereksiz marjinal kemik kaybını ve diş desteğinin zayıflamasını önlemek için sadece kök apeksini ve lezyonu gösterecek boyutta tutulur.\n  * **D şıkkı (Yanlış):** Konvansiyonel frezlerde fasio-lingual eğim gerekirken, modern ultrasonik uçlarla retrograd kavite açıldığında kök yüzeyine eğim verilmez; dik (90 derece) kesim tercih edilir.\n  * **E şıkkı (Doğru Cevap):** Apikal rezeksiyonda lateral kanalların ve apikal deltanın büyük çoğunluğunu elimine etmek için anatomik kural olarak **kökün apikal 1/3\\'lük kısmı (yaklaşık 2-3 mm)** rezeke edilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 42,
+    "unit": "5 PERİAPİKAL CERRAHİ",
+    "quality_flag": "cikmis"
+  }
+]

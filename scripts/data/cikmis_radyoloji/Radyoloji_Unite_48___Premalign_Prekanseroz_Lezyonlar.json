@@ -1,0 +1,19 @@
+[
+  {
+    "q_num": 450,
+    "question": "I. Premalign kabul edilir\nII. Sıklıkla üst dudakta izlenir\nIII. Dış ortamda çalışan erkeklerde daha çok görülür\n\nYukarıda aktinik şelitisle ilgili verilen bilgilerden hangisi ya da hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Aktinik şelitis, güneş ışınlarına maruz kalan dış ortam çalışanlarında alt dudakta gelişen premalign bir lezyondur.\n**Öncüllerin Analizi:**\n- I. Doğru: Epitelyal displazi içerdiği ve dudak skuamöz hücreli karsinomuna dönüşebildiği için premalign kabul edilir.\n- II. Yanlış: Güneş ışınlarını dik açıyla aldığı için üst dudakta değil, karakteristik olarak alt dudak vermilyonunda izlenir.\n- III. Doğru: Çiftçi, balıkçı ve gemici gibi dış ortamda çalışan orta-ileri yaş erkeklerde çok daha sık görülür.\n**Çeldiriciler:** B, D ve E şıkları yanlış olan II. öncülü içerdiği için, A şıkkı ise doğru olan III. öncülü dışladığı için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 48 - Premalign (Prekanseröz) Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

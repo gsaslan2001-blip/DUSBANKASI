@@ -1,0 +1,104 @@
+[
+  {
+    "q_num": 251,
+    "question": "Total protezi olan 67 yaşındaki kadın hasta, mandibulada tek taraflı ağrı şikâyetiyle başvuruyor. Mevcut protezini 10 yılı aşkın süredir kullanan hasta; protezinden memnun olduğunu, ancak protezin altında çıkan yaradan dolayı birkaç haftadır protezini kullanamadığını ifade ediyor. Hastanın bu yara bölgesine yönelik yakın zamanda herhangi bir girişim hikâyesi olmadığı, ileri derecede osteoporozu olduğu; osteoporoza yönelik uzun yıllardır ilaç kullandığı ve bunun dışında herhangi bir hastalığı olmadığı öğreniliyor. Panoramik radyografide ilgili bölgeye komşu alveol kemiğin bir kısmının çene kemiğinden radyolusent bir sınırla ayrılmış olduğu görülüyor. Yukarıdaki klinik ve radyolojik bulgulara göre, bu hastanın tanısında aşağıdakilerden hangisi öncelikle düşünülmelidir?",
+    "options": {
+      "A": "Akut osteomiyelit",
+      "B": "Osteoradyonekroz",
+      "C": "Kronik osteomiyelit",
+      "D": "Garre osteomiyeliti",
+      "E": "Bifosfonat osteonekrozu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** İleri osteoporoz nedeniyle uzun süreli antirezorptif (bifosfonat) ilaç kullanımı öyküsü olan hastada, protez vurugu/travması sonrası mukoza ülserasyonu, ekspoze kemik ve radyografide nekrotik alveol kemiğinin radyolusent bir hatla ayrılması (sekestr) bifosfonata bağlı çene osteonekrozunu (MRONJ/BRONJ) gösterir.\n**Çeldiriciler:**\n- A) Akut osteomiyelit: Erken dönemde radyografide sekestr (nekrotik kemik ayrılması) oluşturmaz; akut enfeksiyon tablosuyla başlar.\n- B) Osteoradyonekroz: Baş-boyun bölgesine uygulanmış radyoterapi öyküsü gerektirir; hastada böyle bir öykü yoktur.\n- C) Kronik osteomiyelit: Altta yatan odontojenik enfeksiyon veya travma kaynaklı kronik bakteriyel süreçtir; hastadaki spesifik osteoporoz ilacı öyküsü öncelikle ilaç ilişkili osteonekrozu işaret eder.\n- D) Garre osteomiyeliti: Çocuk ve gençlerde görülen, periosteal yeni kemik yapımı (soğan kabuğu görünümü) ile karakterize proliferatif periostittir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 16 - Çeneler Ve Yüzün İltihabi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 252,
+    "question": "Metastatik kemik tümörü için bir süredir ilaç kullanan hastada travmatik bir dental girişim sonrası aşağıdakilerden hangisinin gelişmesi beklenir?",
+    "options": {
+      "A": "Kronik rekürrent multifokal osteomiyelit",
+      "B": "SAPHO sendromu",
+      "C": "Garre osteomiyeliti",
+      "D": "Osteoradyonekroz",
+      "E": "Bifosfonat osteonekrozu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Bifosfonatlar; osteoporozun yanı sıra multipl miyelom, malignite ilişkili hiperkalsemi ve metastatik kemik tümörlerinde osteoklastik aktiviteyi baskılamak amacıyla kullanılır. Bu ilaçları kullanan hastalarda çekim gibi travmatik dental işlemler sonrasında bifosfonat osteonekrozu gelişme riski yüksektir.\n**Çeldiriciler:**\n- A) Kronik rekürrent multifokal osteomiyelit: Genellikle çocuk ve gençlerde görülen, otoinflamatuar karakterli steril kemik inflamasyonudur.\n- B) SAPHO sendromu: Sinovit, akne, püstülözis, hiperostoz ve osteitis ile seyreden sistemik tablodur; ilaç kullanımına bağlı gelişmez.\n- C) Garre osteomiyeliti: Genç bireylerde düşük dereceli enfeksiyona yanıt olarak gelişen fokal periosteal kemik proliferasyonudur.\n- D) Osteoradyonekroz: İlaç kullanımına değil, baş-boyun radyoterapisine bağlı gelişen kemik nekrozudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 16 - Çeneler Ve Yüzün İltihabi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 256,
+    "question": "Aşağıdakilerden hangisi periosteal reaksiyon çeşitlerinden birisi değildir?",
+    "options": {
+      "A": "Sirküler",
+      "B": "Laminer",
+      "C": "Güneş ışını",
+      "D": "Hair-on-end",
+      "E": "Codman üçgeni"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sirküler görünüm, periosteal reaksiyon tiplerinden biri olmayıp kistik lezyonların (örneğin bukkal bifurkasyon kisti veya radiküler kist) iç/dış sınır geometrisini tanımlamak için kullanılır.\n**Çeldiriciler:**\n- B) Laminer (soğan kabuğu): Garre osteomiyeliti veya Ewing sarkomu gibi durumlarda kortekse paralel katmanlar halinde oluşan periost reaksiyonudur.\n- C) Güneş ışını (sunburst): Özellikle osteosarkomda yeni kemik trabeküllerinin korteksten dışa doğru ışınsal uzanmasıyla oluşan agresif periost reaksiyonudur.\n- D) Hair-on-end (fırça/kirpi görünümü): Talasemi, orak hücreli anemi veya malignitelerde kortekse dik uzanan paralel kemik spiküllerinin oluşturduğu periost reaksiyonudur.\n- E) Codman üçgeni: Hızlı büyüyen malign tümörlerin (osteosarkom vb.) periostu korteksten kaldırması ve sadece kenar kısımda üçgen şeklinde yeni kemik oluşmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 16 - Çeneler Ve Yüzün İltihabi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 259,
+    "question": "Florid semento-osseöz displazi ile ilgili aşağıda verilen klinik ve radyografik bulgulardan hangisi doğru değildir?",
+    "options": {
+      "A": "Bilateral ve her iki çenede de izlenebilir.",
+      "B": "Mandibular kanalı inferiora deplase eder.",
+      "C": "Dişlerde hipersementoza neden olur.",
+      "D": "Tek çene etkilendiğinde mandibula daha sık görülür.",
+      "E": "Vaskülarizasyon arttığı için dişetinde kanamalar izlenir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Florid semento-osseöz displazide kemik dokusu yoğun sklerotik ve sement benzeri kalsifiye materyalle yer değiştirdiği için vaskülarizasyon artmaz, aksine damar desteği ciddi şekilde azalır. Bu hipovaskülarite lezyonu sekonder enfeksiyona ve osteomiyelite yatkın hale getirir.\n**Çeldiriciler:**\n- A) Sıklıkla bilateraldir; hem mandibula hem maksillada (4 kadranda) izlenebilir.\n- B) Mandibular kanalın üzerinde gelişir ve büyüdükçe kanalı inferiora doğru itebilir.\n- C) Etkilenen dişlerin köklerinde hipersementoz sık görülür ve dişlerin çekimini zorlaştırır.\n- D) Sadece tek çene tutulduğunda mandibula posterior bölge en sık etkilenen alandır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 16 - Çeneler Ve Yüzün İltihabi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 269,
+    "question": "I. Kemikteki medüller alanlar azalmıştır.\nII. Osteomiyelit sık karşılaşılan bir komplikasyondur.\nIII. Osteoklastik aktivite bozulmuştur.\n\nOsteopetrozisle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** I, II ve III numaralı öncüllerin tamamı doğrudur.\n- I. Doğru: Defektif kemik rezorpsiyonu sonucu dens kemik birikimi olur ve medüller (kemik iliği) boşluklar daralır/azalır.\n- II. Doğru: Medüller boşlukların kapanması kemiğin vaskülarizasyonunu ciddi oranda azaltır; bu nedenle özellikle mandibulada odontojenik enfeksiyon veya çekim sonrası osteomiyelit sık gelişir.\n- III. Doğru: Hastalığın temel patogenezi osteoklastların kemik rezorpsiyonu yapamaması (osteoklastik aktivite defekti) ve dengenin osteoblastik birikim yönüne kaymasıdır.\n**Çeldiriciler:**\n- A) II ve III numaralı öncüller de doğrudur.\n- B) I ve III numaralı öncüller de doğrudur.\n- C) II numaralı öncül de doğrudur.\n- D) I numaralı öncül de doğrudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 16 - Çeneler Ve Yüzün İltihabi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 270,
+    "question": "Çene kemiğinde ağrı, tekrarlayan şişlik ve fraktür şikâyeti ile kliniğe başvuran hastanın yapılan radyografik muayenesinde kemikte medüller alanlarda azalma, septik artrit ve kemik yoğunluğunda artış tespit ediliyor. Lamina durada da generalize kalınlaşma tespit edilen hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hipotiroidi",
+      "B": "Hipofosfatemi",
+      "C": "Hiperpitüitarizm",
+      "D": "Cushing sendromu",
+      "E": "Osteopetrozis"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Osteoklast fonksiyon bozukluğuna bağlı gelişen osteopetroziste (Albers-Schönberg / mermer kemik hastalığı) kemik yoğunluğu (densitesi) diffüz olarak artar, lamina dura kalınlaşır, medüller alanlar daralır. Kemik yoğun olmasına rağmen tebeşir gibi kırılgan olduğu için patolojik fraktürler ve azalmış kanlanma nedeniyle tekrarlayan osteomiyelit/septik süreçler görülür.\n**Çeldiriciler:**\n- A) Hipotiroidi: Kemik yoğunluğunda diffüz artış, medüller obliterasyon ve patolojik fraktür yapmaz; gelişim geriliği ön plandadır.\n- B) Hipofosfatemi: Vitamin D dirençli rikets tablosu olup kemik yoğunluğunda azalma, lamina dura kaybı ve geniş pulpa odaları ile seyreder.\n- C) Hiperpitüitarizm: Mandibulada büyüme, hipersementoz ve diastemalar yapar; medüller boşlukların kapanması ve kırılganlık beklenmez.\n- D) Cushing sendromu: Kortizol fazlalığına bağlı osteoporoz, kemik yoğunluğunda azalma ve lamina dura incelmesi görülür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 16 - Çeneler Ve Yüzün İltihabi Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi protez stomatiti (Protez ateşi) gelişiminde rol oynayan etkenlerden biri değildir?",
+    "options": {
+      "A": "Geniş spektrumlu antibiyotik kullanımı",
+      "B": "Candida albicans enfeksiyonu",
+      "C": "Ağız travması ve gece protezle uyuma",
+      "D": "Düşük karbonhidratlı diyet",
+      "E": "Ağız hijyeninin kötü olması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Geniş spektrumlu antibiyotik (Yanlış):** Flora dengesini bozarak Candida üremesini artırır.\n* **B) Candida albicans (Yanlış):** Protez stomatitinin temel mantar etkenidir.\n* **C) Gece protezle uyuma (Yanlış):** Dokunun havalanmasını engelleyip iltihap yaratır.\n* **D) Düşük karbonhidratlı diyet (Doğru - Etken Değildir):** Tam tersine YÜKSEK karbonhidratlı diyet mantar beslenmesini artırarak protez stomatitini tetikler. Düşük karbonhidratlı diyet stomatit etkeni değildir.\n* **E) Kötü ağız hijyeni (Yanlış):** Plak birikimini artırır.",
+    "lesson": "Protez",
+    "flag_reason": "2014 Sonbahar DUS Orijinal",
+    "q_num": 437,
+    "unit": "41-Protez Stomatit",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Protez stomatiti vakalarının klinikte en sık görüldüğü yer ve en hafif formu aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Alt çene mukoza kretinde — Granüler tip",
+      "B": "Üst çene sert damak mukozasında — Lokalize noktasal hiperemi (Noktasal eritem)",
+      "C": "Dil sırtında — Yaygın eritematöz tip",
+      "D": "Yanak mukozasında — Ülseratif tip",
+      "E": "Dudak mukozasında — Psödomembranöz tip"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Alt çene - Granüler (Yanlış):** Hatalı eşleşmedir.\n* **B) Üst çene sert damak - Noktasal hiperemi (Doğru):** Protez stomatiti vakalarının %90'ı üst çene sert damak mukozasında görülür (protezin vakum alanı). Newton sınıflamasına göre Tip 1 en hafif form olup tekil travmatik kırmızılıklar (lokalize noktasal hiperemi) ile karakterizedir.\n* **C) Dil sırtı - Yaygın eritem (Yanlış):** Yaygın eritem Tip 2'dir.\n* **D) Yanak - Ülseratif (Yanlış):** Hatalı tanımdır.\n* **E) Dudak - Psödomembranöz (Yanlış):** Pamukçuk tanımıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 438,
+    "unit": "41-Protez Stomatit",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tam protez yapımında veya sonrasında kullanılan \"Doku Düzenleyiciler\" (Tissue Conditioners) ile ilgili doğru bir ifadedir?",
+    "options": {
+      "A": "İltihaplı, travmaya uğramış ve yaralı mukozal dokuların protez altında iyileşmesini sağlamak amacıyla kullanılan, kısa süreli elastik kalan geçici yumuşak astar maddeleridir.",
+      "B": "Daimi porselen yapımında döküm metali olarak kullanılır.",
+      "C": "Dişlerin üzerini kaplayan asit pürüzlendirme ajanıdır.",
+      "D": "Sertleşince kırılan alçı benzeri maddedir.",
+      "E": "Yalnızca implant gövdesine sürülen kimyasaldır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Yaralı mukozanın iyileşmesini sağlayan geçici yumuşak astardır (Doğru):** Doku düzenleyiciler (Tissue conditioners), eski veya uyumsuz protezlerin yarattığı doku hiperplazisi, eritem ve yaraların iyileşmesi için protezin iç yüzeyine uygulanan, viskoelastik akan ve kuvvetleri emerek mukozanın sağlığına kavuşmasını sağlayan geçici yumuşak materyallerdir.\n* **B) Döküm metali (Yanlış):** Polimer astardır.\n* **C) Asit pürüzlendirme (Yanlış):** Jel yapıdadır.\n* **D) Kırılan alçı (Yanlış):** Yumuşaktır.\n* **E) İmplant kimyasalı (Yanlış):** Mukoza astarıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 474,
+    "unit": "41-Protez Stomatit",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Ağız hijyeni eğitimi vermek**\n**II. Uyumsuz protez kenarlarını düzeltmek**\n**III. Protez stomatiti varlığında antifungal tedavi uygulamak**\n**IV. Yaralı dokularda doku düzenleyici (tissue conditioner) kullanmak**\n\n**Yeni bir hareketli protez yapımı öncesinde hastanın ağız dokularının hazırlanmasında yukarıdaki işlemlerden hangileri uygulanmalıdır?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Hijyen eğitimi (Doğru):** Başarılı protez için şarttır.\n* **II. Uyumsuz kenarların düzeltilmesi (Doğru):** Doku iyileşmesi için şarttır.\n* **III. Antifungal tedavi (Doğru):** Mantar enfeksiyonunu kurutmak şarttır.\n* **IV. Doku düzenleyici kullanımı (Doğru):** Mukozayı sağlığına kavuşturmak şarttır.\n* **Sonuç:** Bütün öncüller (I, II, III ve IV) protez öncesi doku hazırlığı adımlarıdır. Bu nedenle cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 484,
+    "unit": "41-Protez Stomatit",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Kombinasyon Sendromu (Kelly Sendromu) bulgularından biri değildir?",
+    "options": {
+      "A": "Tüberlerde sarkma / büyüme",
+      "B": "Labial alveol kret rezorpsiyonu ve sarkık (hareketli/labil) kret",
+      "C": "Alt dişsiz posterior bölgede aşırı kemik rezorpsiyonu",
+      "D": "Dikey boyut artışı",
+      "E": "Alt ön doğal dişlerde sürme (uzama)"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Kombinasyon Sendromu (Kelly Sendromu) Bulguları:** Üst çene tam dişsiz (tam protezli), alt çenede ise anterior doğal dişler mevcut olup posterior dişsizlik (Kennedy Sınıf I) olan hastalarda görülür:\n  1. Üst anterior alveol krette aşırı rezorpsiyon ve sarkık (labil/hareketli) kret oluşumu.\n  2. Üst tüberlerde hiperplazi ve aşağı doğru sarkma.\n  3. Sert damak mukozasında papiller hiperplazi (protez stomatiti).\n  4. Alt anterior doğal dişlerde aşırı sürme/uzama.\n  5. Alt posterior dişsiz kretlerde aşırı kemik rezorpsiyonu.\n  6. Oklüzal dikey boyutta DÜŞME (kayıp) görülür.\n* **D) Dikey boyut artışı (Yanlış):** Dikey boyut artmaz, aksine anterior rezorpsiyon ve posterior çökme nedeniyle **dikey boyut düşer**.",
+    "lesson": "Protez",
+    "flag_reason": "2016 DUS Orijinal",
+    "q_num": 545,
+    "unit": "41-Protez Stomatit",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst çenede tam protez, alt çenede ise sadece ön dişleri mevcut olup serbest sonlu hareketli bölümlü protez kullanan bir hastada, üst ön bölgede kemik kaybı, sarkık mukoza ve tüberlerde büyüme saptanmıştır. Bu tabloya verilen isim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Protez stomatiti",
+      "B": "Epulis fissuratum",
+      "C": "Kombinasyon sendromu (Kelly sendromu)",
+      "D": "Sjögren sendromu",
+      "E": "Eagle sendromu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* Tarif edilen klinik tablo üst anterior kemik kaybı, labil kret, tüber sarkması ve alt anterior diş uzaması ile karakterize klasik **Kombinasyon (Kelly) Sendromu**dur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 546,
+    "unit": "41-Protez Stomatit",
+    "quality_flag": "cikmis"
+  }
+]

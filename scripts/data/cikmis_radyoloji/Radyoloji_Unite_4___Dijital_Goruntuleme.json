@@ -1,0 +1,36 @@
+[
+  {
+    "q_num": 138,
+    "question": "Aşağıdaki tabakalardan hangisi katı hal dedektörlerinden Complementary metal oxide semiconductors (CMOS) yapısında bulunan bir tabaka ya da komponent değildir?",
+    "options": {
+      "A": "Emülsiyon tabakası",
+      "B": "Gadolinium oksibromid",
+      "C": "Sezyum iodid",
+      "D": "Ön koruma",
+      "E": "Elektronik tabaka"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Emülsiyon tabakası (jelatin ve gümüş bromid kristalleri), dijital görüntülemede kullanılan katı hal dedektörlerinde (CCD veya CMOS) bulunmaz; konvansiyonel (analog) röntgen filmlerinin yapısında yer alan bir tabakadır.\n**Çeldiriciler:**\n- B) Gadolinyum oksibromid, CMOS sensörlerin sintilatör skrin tabakasında X-ışınlarını görünür ışığa çevirmek için kullanılan fosfor bileşiklerindendir.\n- C) Sezyum iyodid, CMOS dedektörlerin sintilatör tabakasında X-ışınlarını ışığa dönüştüren bir diğer önemli bileşiktir.\n- D) Ön koruma tabakası, X-ışınlarının girdiği yüzeyde sensörün iç yapısını koruyan dış katmandır.\n- E) Elektronik tabaka (ve CMOS görüntüleme çipi), fiberoptik tabakadan gelen ışığı elektrik sinyaline ve dijital gri tonlarına dönüştüren katmandır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 4 - Dijital Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 145,
+    "question": "Screen filmlerin hızı için aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Çift emülsiyon",
+      "B": "Fosfor kristallerinin büyüklüğü",
+      "C": "Fosfor tabakasının kalınlığı",
+      "D": "Absorban maddelerin olması",
+      "E": "Yansıtıcı tabakanın olması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Screen filmlerde tek kat emülsiyon tabakası bulunur; çift kat emülsiyon sürülmesi bu filmler için fabrikasyon bir hatadır. Diğer seçeneklerde yer alan fosfor kristallerinin büyüklüğü, fosfor tabakasının kalınlığı, absorban maddeler ve yansıtıcı tabaka ise screen-film sisteminin hızı ile doğrudan ilişkilidir.\n**Çeldiriciler:**\n- B) Ranforsatördeki (screen) fosfor kristallerinin büyüklüğü arttıkça yayılan görünür ışık miktarı ve sistemin hızı artar.\n- C) Fosfor tabakasının kalınlığı arttıkça daha fazla X-ışını fotonu tutularak ışığa çevrilir ve hız artar.\n- D) Yapıda bulunan ışık absorban maddeler ışığın dağılmasını kontrol ederek sistemin hız ve netlik dengesini doğrudan etkiler.\n- E) Yansıtıcı tabakanın bulunması, arkaya doğru kaçan görünür ışığı filme geri yansıtarak screen filmin hızını artırır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 4 - Dijital Görüntüleme",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

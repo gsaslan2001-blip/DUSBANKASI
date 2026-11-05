@@ -1,0 +1,38 @@
+[
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 210,
+    "question": "Egzersiz sırasında, iskelet kasında arteriollerde dilatasyon ve kan akımında artma ile nitelenen aktif süreç aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Konjesyon",
+      "B": "Siyanoz",
+      "C": "Ödem",
+      "D": "Hemoraji",
+      "E": "Hiperemi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Hiperemi, arteriyoler dilatasyon sonucu bir doku veya organa gelen kan miktarının aktif olarak artması durumudur. Egzersiz yapan iskelet kasında ve inflamasyon alanlarında izlenir.\n**Çeldiriciler:** Konjesyon (A) venöz drenaj bozukluğuna bağlı pasif kan birikimidir; Siyanoz (B) deoksijene hemoglobin artışıyla oluşan morarmadır; Ödem (C) dokular arası sıvı birikimidir; Hemoraji (D) damar dışına kan çıkmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "6- DAMAR HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 219,
+    "question": "I. Zahn çizgileri içerir.\nII. Sıklıkla oklüziv özelliktedir.\nIII. En sık femoral arterlerde görülür.\nArteriyel trombüsler ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Arteriyel trombüsler (Beyaz trombüs) hızlı akımda oluştukları için belirgin Zahn çizgileri بارındırır (I), yerleştiği arteri sıklıkla tam tıkar (oklüziv) (II) ve en sık koroner, serebral ile femoral arterlerde izlenir (III).\n**Çeldiriciler:** Verilen öncüllerin üçü de arteriyel trombüslerin temel klinik ve morfolojik özelliklerini tam yansıtmaktadır.\nÖncül Analizi:\n- Öncül I: Eritrosit ve trombosit/fibrin katmanlarının oluşturduğu Zahn çizgilerini içerir.\n- Öncül II: Damar lümenini tıkayarak doku enfarktına yol açabilir.\n- Öncül III: Aterosklerotik plaklar zemininde sıklıkla femoral, koroner ve serebral arterlerde gelişir.\n---",
+    "flag_reason": null,
+    "unit": "6- DAMAR HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  }
+]

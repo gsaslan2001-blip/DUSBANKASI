@@ -1,0 +1,2450 @@
+[
+  {
+    "question": "I. Fosfofruktokinaz-1\nII. Pirüvat kinaz\nIII. Aldolaz\n\nYukarıdakilerden hangileri, glikolitik yolun düzenleyici enzimlerindendir?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **I. Fosfofruktokinaz-1 (PFK-1): DOĞRU.** Glikolizin en önemli hız kısıtlayıcı ve ana düzenleyici enzimidir. Fruktoz-2,6-bisfosfat ve AMP/ADP ile aktive olur; ATP ve sitrat ile inhibe olur.\n- **II. Pirüvat kinaz: DOĞRU.** Glikolizin son irreversible kontrol enzimidir. Fruktoz-1,6-bisfosfat ile beslemeli ileri aktive, ATP ve alanin ile inhibe edilir.\n- **III. Aldolaz: YANLIŞ.** Fruktoz-1,6-bisfosfatı iki adet triyoz fosfata (DHAP ve G3P) bölen liyaz sınıfı geri dönüşümlü bir enzimdir; düzenleyici basamak değildir.\n- **Şık Analizi:** A, B, C ve E yanlış; D şıkkı (I ve II) doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar DUS"
+  },
+  {
+    "question": "I. Pirüvat kinaz tarafından katalizlenen basamak, kontrol basamaklarından biridir.\nII. Sitrat birikimi, glikolizi inhibe eder.\nIII. Florür içeren tüpe alınan kan örneğinde, glikoliz inhibe olur.\n\nGlikolizle ilgili yukarıdaki ifadelerden hangileri doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **Öncül I: DOĞRU.** Pirüvat kinaz glikolizin 3 kontrol basamağından biridir.\n- **Öncül II: DOĞRU.** Sitrat artışı PFK-1'i inhibe ederek glikolizi durdurur.\n- **Öncül III: DOĞRU.** Florür iyonu (Sodyum florür) Enolaz'ı inhibe ederek in vitro glikolizi engeller.\n- **Şık Analizi:** Tüm öncüller doğru olduğundan cevap E seçeneğidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "I. Enolaz\nII. Aldolaz\nIII. Hekzokinaz\nIV. Fosfogliserat mutaz\n\nYukarıdaki glikolitik enzimlerden hangilerinin katalizlediği tepkimelerde ATP substrat ya da ürün olarak yer almaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve III",
+      "C": "I, II ve IV",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **I. Enolaz:** Su çıkarır, ATP kullanılmaz/üretilmez.\n- **II. Aldolaz:** C-C bağını böler, ATP kullanılmaz/üretilmez.\n- **III. Hekzokinaz:** Substrat olarak 1 ATP harcar.\n- **IV. Fosfogliserat mutaz:** İzomerazdır, ATP kullanılmaz/üretilmez.\n- **Şık Analizi:** A, B, D, E yanlış; C şıkkı (I, II ve IV) doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "Hastadan alınan bir kan örneğinde en erken 3 saat sonra kan glikozu tayin edilebiliyorsa, kan aşağıdaki tüplerden hangisine alınmalıdır?\n\n**Şıklar:",
+    "options": {
+      "A": "Lityum heparin içeren tüp",
+      "B": "Sodyum sitrat içeren tüp",
+      "C": "Sodyum-EDTA içeren tüp",
+      "D": "Potasyum-EDTA içeren tüp",
+      "E": "Heparin ve florit içeren tüp"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A, B, C, D:** Antikoagülandırlar ancak in vitro glikolizi durdurmazlar.\n- **E) Heparin ve florit içeren tüp: DOĞRU.** Florit (Florür) enolazı inhibe ederek glikolizi durdurur, heparin pıhtılaşmayı önler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Serum glikoz seviyesi ölçümü yapılacak bir kan örneğinde glikolizi engellemek için örneğe hangisi eklenmelidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Molibden",
+      "B": "Flor",
+      "C": "Magnezyum",
+      "D": "Mangan",
+      "E": "Kalsiyum"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Molibden:** Ksantin oksidaz kofaktörüdür.\n- **B) Flor (Florür): DOĞRU.** Enolaz enzim inhibitörüdür.\n- **C, D, E):** Enzim kofaktörleridir, inhibisyon yapmazlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Analiz öncesi beklemesi gereken kan örneklerinde glukoz analizini doğru olarak yapabilmek için kan alma tüpünde hangisi bulunmalıdır?\n\n**Şıklar:",
+    "options": {
+      "A": "Sodyum sitrat",
+      "B": "Heparin",
+      "C": "Oksalat",
+      "D": "Sodyum florür",
+      "E": "Potasyum klorür"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A, B, C:** Yalnız antikoagülandır.\n- **D) Sodyum florür: DOĞRU.** Enolazı inhibe eder.\n- **E) Potasyum klorür:** Elektrolittir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki glikoliz enzimlerinden hangisi iyodoasetat tarafından inhibe edilir?\n\n**Şıklar:",
+    "options": {
+      "A": "Fosfofruktokinaz-1",
+      "B": "Pirüvat kinaz",
+      "C": "Enolaz",
+      "D": "Gliseraldehit-3-fosfat dehidrogenaz",
+      "E": "Aldolaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) PFK-1:** ATP/sitrat ile inhibe olur.\n- **B) Pirüvat kinaz:** ATP/alanin ile inhibe olur.\n- **C) Enolaz:** Florür ile inhibe olur.\n- **D) G3PDH: DOĞRU.** Active site -SH grubuna iyodoasetat irreversibl bağlanır.\n- **E) Aldolaz:** Liyazdır, iyodoasetat spesifik ana inhibitörü değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki metabolizma enzimlerinden hangisi glikolizde üretilen fruktoz-1,6-bisfosfat tarafından aktive edilir?\n\n**Şıklar:",
+    "options": {
+      "A": "Pirüvat karboksilaz",
+      "B": "Glukoz-6-fosfataz",
+      "C": "Fosfofruktokinaz",
+      "D": "Pirüvat kinaz",
+      "E": "Glikojen sentaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Pirüvat karboksilaz:** Asetil-KoA ile aktive olur.\n- **B) Glukoz-6-fosfataz:** Substrat seviyesi ile çalışır.\n- **C) PFK-1:** Fruktoz-2,6-bisfosfat ve AMP ile aktive olur.\n- **D) Pirüvat kinaz: DOĞRU.** Fruktoz-1,6-bisfosfat ile beslemeli ileri (feed-forward) aktive edilir.\n- **E) Glikojen sentaz:** Glukoz-6-P ile aktive olur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi glikolizi hızlandıran allosterik bir modülatördür?\n\n**Şıklar:",
+    "options": {
+      "A": "ATP",
+      "B": "Glukoz-6-fosfat",
+      "C": "Fruktoz-2,6-bisfosfat",
+      "D": "Sitrat",
+      "E": "Alanin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) ATP:** PFK-1 ve Pirüvat kinazı inhibe eder.\n- **B) Glukoz-6-P:** Hekzokinazı inhibe eder.\n- **C) Fruktoz-2,6-bisfosfat: DOĞRU.** PFK-1'in en güçlü allosterik aktivatörüdür.\n- **D) Sitrat:** PFK-1'i inhibe eder.\n- **E) Alanin:** Pirüvat kinazı inhibe eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki glikoliz enzimlerinden hangisinin aktivitesi, fruktoz-6-fosfat tarafından düzenlenir?\n\n**Şıklar:",
+    "options": {
+      "A": "Glukokinaz",
+      "B": "Aldolaz",
+      "C": "Triozfosfat izomeraz",
+      "D": "Gliseraldehit-3-fosfat dehidrogenaz",
+      "E": "Pirüvat kinaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Glukokinaz: DOĞRU.** Fruktoz-6-fosfat varlığında GKRP enzimi çekirdeğe çekerek inaktif tutar.\n- **B, C, D, E):** GKRP bağımlı düzenlenmezler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar DUS"
+  },
+  {
+    "question": "Glukokinaz ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Hekzokinaz ailesine ait bir izoenzimdir.",
+      "B": "Toklukta, glukozun metabolize edilebilmesi için yüksek Km değerine sahiptir.",
+      "C": "Ürünü olan glukoz-6-fosfatın düşük konsantrasyonlarında allosterik olarak inhibe edilir.",
+      "D": "Aktivitesi glukokinaz regülatör protein ile düzenlenir.",
+      "E": "Karaciğer dışında, pankreas beta hücrelerinde de bulunur."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A, B, D, E: DOĞRU.** Glukokinaz Hekzokinaz IV'tür, yüksek Km'lidir, GKRP ile düzenlenir.\n- **C: YANLIŞ / CEVAP.** Glukokinaz, hekzokinaz I-III'ün aksine ürünü Glukoz-6-fosfat ile İNHİBE OLMUTAZ.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzim sınıflarından hangisi glikolizde rol oynamaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Oksidoredüktaz",
+      "B": "Transferaz",
+      "C": "İzomeraz",
+      "D": "Ligaz",
+      "E": "Liyaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Oksidoredüktaz:** Gliseraldehit-3-P dehidrogenaz.\n- **B) Transferaz:** Hekzokinaz, PFK-1, Pirüvat kinaz.\n- **C) İzomeraz:** Triozfosfat izomeraz.\n- **D) Ligaz: YANLIŞ / CEVAP.** Glikolizde ATP/GTP harcayıp iki molekülü birleştiren LİGAZ sınıfı enzim yoktur.\n- **E) Liyaz:** Aldolaz, Enolaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Rapoport-Luebering siklusu aşağıdaki kan hücrelerinin hangisinde görülür?\n\n**Şıklar:",
+    "options": {
+      "A": "Eritrosit",
+      "B": "Nötrofil",
+      "C": "Eozinofil",
+      "D": "Bazofil",
+      "E": "Monosit"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Eritrosit: DOĞRU.** Eritrositlerde 1,3-BPG'den 2,3-BPG sentezlenen Rapoport-Luebering yolu çalışır.\n- **B, C, D, E:** Lökositlerde bu kestirme yol çalışmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Pirüvat dehidrogenaz enzim kompleksi tarafından katalizlenen reaksiyonla ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Oksidatif dekarboksilasyon reaksiyonudur.",
+      "B": "Mitokondride gerçekleşir.",
+      "C": "Sitrik asit döngüsüne substrat hazırlayan bir reaksiyondur.",
+      "D": "NAD+ artışı ile inhibe olur.",
+      "E": "Bu reaksiyonla, elektron taşıma zincirinde kullanılmak üzere proton ve elektronlar oluşmaktadır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A, B, C, E: DOĞRU.** İrreversibl mitokondriyal oksidatif dekarboksilasyondur.\n- **D: YANLIŞ / CEVAP.** NAD+ artışı enzimi AKTİVE eder. İnhibe eden NADH birikimidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi pirüvat dehidrogenazı aktive eder?\n\n**Şıklar:",
+    "options": {
+      "A": "Fosfatazla defosforilasyon",
+      "B": "NADH konsantrasyonunun artması",
+      "C": "Asetil-KoA konsantrasyonunun artması",
+      "D": "Mitokondriyal Ca2+ konsantrasyonunun azalması",
+      "E": "ATP konsantrasyonunun artması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Fosfatazla defosforilasyon: DOĞRU.** PDH fosfataz ile defosforile olduğunda AKTİF hale gelir.\n- **B, C, D, E:** Enerji yüksekliğini gösterir, PDH'ı inaktive ederler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi pirüvat dehidrogenaz enzim kompleksinin yapısında yer almaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Tiamin (B1)",
+      "B": "Riboflavin (B2)",
+      "C": "Niasin (B3)",
+      "D": "Biotin (B7)",
+      "E": "Pantotenik asit (B5)"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) B1 (TPP):** E1 koenzimidir.\n- **B) B2 (FAD):** E3 koenzimidir.\n- **C) B3 (NAD+):** E3 koenzimidir.\n- **D) Biotin (B7): YANLIŞ / CEVAP.** Biotin karboksilazların koenzimidir, PDH kompleksinde YOKTUR.\n- **E) B5 (KoA):** E2 koenzimidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar DUS"
+  },
+  {
+    "question": "Pirüvatın oksidatif dekarboksilasyonunda görevli pirüvat dehidrogenaz enzim kompleksinin inhibitörleri aşağıdakilerin hangisinde birlikte verilmiştir?\n\n**Şıklar:",
+    "options": {
+      "A": "NADPH ve AMP",
+      "B": "Asetil KoA ve NADH",
+      "C": "AMP ve Vitamin E",
+      "D": "Glukoz ve AMP",
+      "E": "Fruktoz ve NAD"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Asetil KoA ve NADH: DOĞRU.** PDH reaksiyon ürünleridir; biriktiklerinde PDH kinazı uyararak PDH enzim kompleksini fosforilasyonla İNHİBE ederler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar DUS"
+  },
+  {
+    "question": "Glikoliz sonucu oluşan pirüvat ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Anaerobik koşullarda laktat dehidrogenaz ile laktata çevrilir.",
+      "B": "Glukoneogenez için fosfoenolpirüvat karboksikinaz ile fosfoenolpirüvata çevrilir.",
+      "C": "Mikroorganizmalarda hipoksik ve anaerobik koşullarda etanole çevrilir.",
+      "D": "Trikarboksilik asit döngüsünü beslemek gerektiğinde pirüvat karboksilaz ile oksaloasetata çevrilir.",
+      "E": "Aerobik koşullarda, pirüvat dehidrogenaz ile asetil-KoA'ya çevrilir."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B: YANLIŞ / CEVAP.** Pirüvat glukoneogeneze girerken doğrudan PEPCK ile değil, önce Pirüvat karboksilaz ile oksaloasetata çevrilir!",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "I. Sitrat sentaz\nII. İzositrat dehidrogenaz\nIII. Süksinat dehidrogenaz\nIV. Malat dehidrogenaz\nV. a-ketoglutarat dehidrogenaz\n\nKrebs döngüsünün hızı yukarıdaki enzimlerden hangilerinin allosterik kontrolü ile düzenlenir?\n\n**Şıklar:",
+    "options": {
+      "A": "I, II ve V",
+      "B": "I, III ve IV",
+      "C": "II, III ve IV",
+      "D": "II, III ve V",
+      "E": "I, II, III ve V"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **I, II, V: DOĞRU.** Sitrat sentaz, İzositrat DH ve a-ketoglutarat DH kilit allosterik düzenleyici enzimlerdir.\n- **Cevap: A (I, II ve V).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki sitrik asit döngüsü enzimlerinden hangisinin katalizlediği reaksiyonda karbondioksit açığa çıkar?\n\n**Şıklar:",
+    "options": {
+      "A": "Akonitaz",
+      "B": "Fumaraz",
+      "C": "Malat dehidrogenaz",
+      "D": "İzositrat dehidrogenaz",
+      "E": "Süksinat dehidrogenaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) İzositrat dehidrogenaz: DOĞRU.** İzositrat (6C) -> a-ketoglutarat (5C) + CO2.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Sitrik asit döngüsü sırasında aşağıdakilerden hangisi gerçekleşmez?\n\n**Şıklar:",
+    "options": {
+      "A": "Asetil-KoA oksidasyonu",
+      "B": "NADH ve FADH2 oluşumu",
+      "C": "Karbondioksit oluşumu",
+      "D": "Asetil-KoA'dan pirüvat oluşumu",
+      "E": "a-ketoglutarat oluşumu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D: YANLIŞ / CEVAP.** Asetil-KoA'dan pirüvat sentezlenmesi insan organizmasında gerçekleşmez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki sitrik asit döngüsü enzimlerinden hangisi aynı zamanda elektron taşıma zincirinin 2. kompleksini oluşturur?\n\n**Şıklar:",
+    "options": {
+      "A": "Pirüvat dehidrogenaz",
+      "B": "İzositrat dehidrogenaz",
+      "C": "a-ketoglutarat dehidrogenaz",
+      "D": "Süksinat dehidrogenaz",
+      "E": "Malat dehidrogenaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Süksinat dehidrogenaz: DOĞRU.** Mitokondri iç zarına bağlı ETZ Kompleks II'dir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki inhibitörlerden hangisi, solunum zincirine FADH2 üzerinden elektron aktarılmasını bloke eder?\n\n**Şıklar:",
+    "options": {
+      "A": "Barbitüratlar",
+      "B": "Karbonmonoksit",
+      "C": "Atraktilozid",
+      "D": "Dimerkaptoprol",
+      "E": "Malonat"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **E) Malonat: DOĞRU.** Süksinat dehidrogenazın (Kompleks II) kompetitif inhibitörüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki trikarboksilik asit döngüsü enzimlerinden hangisi mitokondri matriksinde bulunmaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Sitrat sentaz",
+      "B": "Malat dehidrogenaz",
+      "C": "Fumaraz",
+      "D": "Süksinat dehidrogenaz",
+      "E": "a-ketoglutarat dehidrogenaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A, B, C, E:** Suda çözünür matris enzimleridir.\n- **D) Süksinat dehidrogenaz: DOĞRU.** Mitokondri iç zarına gömülüdür (ETZ Kompleks II'dir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Trikarboksilik asit döngüsü ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Trikarboksilik asit döngüsünde üç karbonlu bileşikler oluşmaz.",
+      "B": "Trikarboksilik asit döngüsünde görev alan enzimler bazı B grubu vitaminlerin koenzimlerini kullanır.",
+      "C": "Trikarboksilik asit döngüsünde substrat düzeyinde fosforilasyon gerçekleşir.",
+      "D": "Trikarboksilik asit döngüsünde oksidatif dekarboksilasyon gerçekleşir.",
+      "E": "Trikarboksilik asit döngüsünde görev yapan tüm enzimler mitokondri zarına bağlı olmadan matrikste serbest halde bulunur."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A, B, C, D: DOĞRU.** TCA 6C, 5C, 4C bileşiklerden oluşur (3C yok). B1, B2, B3, B5 koenzimdir. Süksinat tiyokinaz ile GTP sentezlenir (substrat düzeyinde fosforilasyon).\n- **E: YANLIŞ / CEVAP.** Tüm enzimler matrikste serbest değildir; Süksinat dehidrogenaz mitokondri iç zarına bağlıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki sitrik asit döngüsü basamaklarının hangisinde substrat düzeyinde fosforilasyon meydana gelir?\n\n**Şıklar:",
+    "options": {
+      "A": "İzositrat -> a-ketoglutarat",
+      "B": "a-ketoglutarat -> Süksinil-KoA",
+      "C": "Süksinil-KoA -> Süksinat",
+      "D": "Süksinat -> Fumarat",
+      "E": "Malat -> Okzaloasetat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A, B, D, E:** Oksidasyon reaksiyonlarıdır (NADH / FADH2 ve CO2 üretilir).\n- **C) Süksinil-KoA -> Süksinat: DOĞRU.** Süksinil-KoA'daki yüksek enerjili tiyoester bağı kırılarak GDP + Pi -> GTP (veya ATP) sentezlenir (Substrat düzeyinde fosforilasyon). Enzim: Süksinat tiyokinaz (Süksinil-KoA sentetaz).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 DUS"
+  },
+  {
+    "question": "Hangisi Krebs döngüsünde substrat düzeyinde fosforilasyonun gerçekleştiği basamağın enzimidir?\n\n**Şıklar:",
+    "options": {
+      "A": "İzositrat dehidrogenaz",
+      "B": "Süksinil-KoA sentetaz",
+      "C": "a-ketoglutarat dehidrogenaz",
+      "D": "Süksinat dehidrogenaz",
+      "E": "Malat dehidrogenaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A, C, D, E:** Oksidoredüktazlardır (NADH/FADH2 üretirler).\n- **B) Süksinil-KoA sentetaz (Süksinat tiyokinaz): DOĞRU.** GTP/ATP üreterek substrat düzeyinde fosforilasyonu gerçekleştiren enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 EUS"
+  },
+  {
+    "question": "Sitrik asit döngüsünde a-ketoglutarat dehidrogenaz tepkimesiyle oluşan yüksek enerjili tiyoester hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Asetil-KoA",
+      "B": "GTP",
+      "C": "Süksinil-KoA",
+      "D": "Fumarat",
+      "E": "Fosfoenol pirüvat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Asetil-KoA:** PDH reaksiyonu ürünüdür.\n- **B) GTP:** Nükleotittir.\n- **C) Süksinil-KoA: DOĞRU.** a-ketoglutaratın oksidatif dekarboksilasyonu ile oluşan 4 karbonlu yüksek enerjili tiyoester bileşiktir.\n- **D, E):** Tiyoester bağı içermezler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Hangisi trikarboksilik asit döngüsünde substrat düzeyinde fosforilasyon için kullanılan yüksek enerjili tiyoester bağına sahiptir?\n\n**Şıklar:",
+    "options": {
+      "A": "Asetil-KoA",
+      "B": "Fosfoenolpirüvat",
+      "C": "1,3-bisfosfogliserat",
+      "D": "Süksinil-KoA",
+      "E": "Alfa-ketoglutarat"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Asetil-KoA:** Tiyoesterdir fakat TCA'da substrat düzeyinde fosforilasyonda harcanmaz.\n- **B, C:** Yüksek enerjili enol-fosfat ve açil-fosfat bağları içerirler (tiyoester değil).\n- **D) Süksinil-KoA: DOĞRU.** Yüksek enerjili tiyoester bağı içerir ve kırılmasıyla GTP sentezlenir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 DUS"
+  },
+  {
+    "question": "Sitrik asit döngüsü ara ürünlerinden hangisi aynı zamanda üre döngüsünde ürün olarak oluşur?\n\n**Şıklar:",
+    "options": {
+      "A": "Fumarat",
+      "B": "Okzaloasetat",
+      "C": "Sitrülin",
+      "D": "Sitrat",
+      "E": "Aspartat"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Fumarat: DOĞRU.** Üre döngüsünde Arjininosüksinat liyaz reaksiyonu ile açığa çıkan Fumarat, sitozolden mitokondriye taşınarak TCA döngüsüne katılır (Üre döngüsü ve TCA bağlantısı).\n- **B, D, E:** TCA ve aminoasit metabolizmasıyla ilişkilidir fakat üre döngüsünün ürünü değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 DUS"
+  },
+  {
+    "question": "Aşağıdaki metabolik yollardan hangisi glutatyonun antioksidan fonksiyonu için özellikle önemlidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Glikoliz",
+      "B": "Glukoneogenez",
+      "C": "Pentoz fosfat yolu",
+      "D": "Yağ asitlerinin oksidasyonu",
+      "E": "Krebs döngüsü"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A, B, D, E:** NADPH üretmezler (ya da ana kaynak değillerdir).\n- **C) Pentoz fosfat yolu (HMY): DOĞRU.** NADPH üretir. Glutatyon redüktaz enzimi NADPH kullanarak okside glutatyonu (GSSG) indirgenmiş glutatyona (GSH) dönüştürür. GSH eritrositleri ve hücreleri H2O2 ve reaktif oksijen türlerine (ROS) karşı korur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Antimikrobik bir etkiye sahip olan hipokloröz asit (HOCl) oluşumunu sağlayan nötrofil enzimi aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Glutatyon peroksidaz",
+      "B": "Süperoksit dismutaz",
+      "C": "Laktoperoksidaz",
+      "D": "Miyeloperoksidaz",
+      "E": "Katalaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Glutatyon peroksidaz:** H2O2'yi H2O'ya indirger.\n- **B) Süperoksit dismutaz:** Süperoksiti (O2.-) H2O2'ye dönüştürür.\n- **D) Miyeloperoksidaz: DOĞRU.** Nötrofil azurofilik granüllerinde bulunur. H2O2 + Cl- -> HOCl (Hipokloröz asit / Çamaşır suyu etkisi) sentezleyerek bakterileri öldürür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, pentoz fosfat yolunda non-oksidatif fazın bir ürünüdür?\n\n**Şıklar:",
+    "options": {
+      "A": "NADPH",
+      "B": "6-fosfoglukonat",
+      "C": "Ribüloz-5-fosfat",
+      "D": "Eritroz-4-fosfat",
+      "E": "Karbondioksit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A, B, C, E:** Oksidatif fazın (geri dönüşsüz evre) ürünleridir.\n- **D) Eritroz-4-fosfat: DOĞRU.** Non-oksidatif fazda (geri dönüşlü evre) Transaldolaz ve Transketolaz reaksiyonlarıyla Eritroz-4-P, Riboz-5-P, Fruktoz-6-P ve Gliseraldehit-3-P oluşur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Pentoz fosfat yolu ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "ATP kullanılan bir yoldur.",
+      "B": "Eritrosit membran bütünlüğü için önemlidir.",
+      "C": "Glutatyon redüktaz enzimi için kofaktör sağlar.",
+      "D": "Nükleotidler için riboz kaynağıdır.",
+      "E": "Lipid sentezi için gereklidir."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A: YANLIŞ / CEVAP.** Pentoz fosfat yolunda (HMY) ATP SENTEZLENMEZ VE ATP HARCANMAZ!\n- **B, C, D, E: DOĞRU.** NADPH üreterek eritrosit bütünlüğünü korur, glutatyon redüktaza NADPH sağlar, nükleotidler için Riboz-5-P ve yağ asidi/kolesterol sentezi için NADPH sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Nükleik asit sentezi için gerekli olan riboz-5-fosfat aşağıdaki metabolik yollardan hangisiyle elde edilir?\n\n**Şıklar:",
+    "options": {
+      "A": "Fosfoglukonat yolu",
+      "B": "Üronik asit yolu",
+      "C": "Glikoliz",
+      "D": "Glikojenez",
+      "E": "Glukoneogenez"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Fosfoglukonat yolu (Pentoz fosfat yolu): DOĞRU.** DNA, RNA ve nükleotid sentezi için gerekli Riboz-5-fosfatın ana kaynağıdır.\n- **B, C, D, E:** Riboz-5-P üretmezler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "NADPH oksidaz enzimi aşağıdaki serbest radikallerden hangisini oluşturur?\n\n**Şıklar:",
+    "options": {
+      "A": "Hidroksil",
+      "B": "Süperoksit",
+      "C": "Sülfhidril",
+      "D": "Alkoksil",
+      "E": "Peroksil"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Hidroksil:** Fenton ve Haber-Weiss reaksiyonu ürünüdür.\n- **B) Süperoksit (O2.-): DOĞRU.** Fagositoz sırasında NADPH oksidaz enzimi moleküler oksijeni (O2) NADPH kullanarak süperoksit radikaline (O2.-) dönüştürür (Solunumsal patlama).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "\"X\" enzimi ile süperoksit radikal anyonu, \"Y\" enzimi ile hipokloröz asit oluşur. X ve Y ile gösterilen enzimler hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "NADH dehidrogenaz - Miyeloperoksidaz",
+      "B": "NADPH oksidaz - Miyeloperoksidaz",
+      "C": "Süperoksit dismutaz - Miyeloperoksidaz",
+      "D": "Miyeloperoksidaz - Süperoksit dismutaz",
+      "E": "NADPH oksidaz - NADH dehidrogenaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **X Enzimi:** O2 -> Süperoksit radikali (O2.-) dönüştüren **NADPH oksidaz**'dır.\n- **Y Enzimi:** H2O2 + Cl- -> HOCl (Hipokloröz asit) dönüştüren **Miyeloperoksidaz**'dır.\n- **Doğru Cevap: B.**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde bir metabolik yol, gerçekleştiği hücre organeliyle birlikte verilmemiştir?\n\n**Şıklar:",
+    "options": {
+      "A": "Kompleks makromoleküllerin yıkımı – Lizozom",
+      "B": "DNA ve RNA sentezi – Çekirdek",
+      "C": "Heksoz monofosfat yolu – Peroksizom",
+      "D": "Yağ asitlerinin oksidasyonu – Mitokondri",
+      "E": "Glikoliz ve yağ asitleri sentezi – Sitoplazma"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A, B, D, E: DOĞRU.**\n- **C: YANLIŞ / CEVAP.** Heksoz monofosfat yolu (Pentoz fosfat yolu) PEROKSİZOMDA DEĞİL, tamamen **SİTOPLAZMADA (SİTOZOL)** gerçekleşir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Pentoz fosfat yoluyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Glukoz-6-fosfat dehidrogenazın katalizlediği reaksiyon ilk basamaktır.",
+      "B": "ATP sentezi ya da yıkımı gerçekleşmez.",
+      "C": "Hücrelerde NADPH üretiminin ana kaynağıdır.",
+      "D": "Her bir glukoz-6-fosfat başına iki mol NADP indirgenir.",
+      "E": "İnsülin, glukoz-6-fosfat dehidrogenazın ekspresyonunu azaltır."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A, B, C, D: DOĞRU.** G6PDH ilk basamaktır, ATP harcanmaz/sentezlenmez, ana NADPH kaynağıdır, 1 G6P'tan 2 NADPH üretilir.\n- **E: YANLIŞ / CEVAP.** İnsülin, tokluk hormonu olup Glukoz-6-fosfat dehidrogenaz gen ekspresyonunu AZALTMAZ, AKSİNE ARTIRIR!",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Pentoz fosfat yolu reaksiyonlarında aşağıdaki koenzimlerden hangisine gereksinim vardır?\n\n**Şıklar:",
+    "options": {
+      "A": "Piridoksal fosfat",
+      "B": "Tiamin pirofosfat",
+      "C": "Biotin",
+      "D": "Metilkobalamin",
+      "E": "Flavin mononükleotid"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) B6:** Transaminasyon koenzimidir.\n- **B) Tiamin pirofosfat (TPP / Vitamin B1): DOĞRU.** Non-oksidatif fazda görev yapan Transketolaz enziminin koenzimidir.\n- **C, D, E):** HMY enzimlerinde koenzim olarak kullanılmazlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Glukoz-6-fosfat, sitozoldeki NADPH düzeyi azaldığında aşağıdaki metabolik yollardan hangisine girer?\n\n**Şıklar:",
+    "options": {
+      "A": "Glikoliz",
+      "B": "Glukuronik asit yolu",
+      "C": "Pentoz fosfat yolu",
+      "D": "Krebs döngüsü",
+      "E": "Üronik asit yolu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Pentoz fosfat yolu: DOĞRU.** NADPH düştüğünde NADP+ artar. NADP+, G6PDH enziminin aktivatörüdür; bu sayede glukoz-6-fosfat Pentoz Fosfat Yolu'na yönlendirilir ve NADPH üretilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Mitokondri elektron transport zincirinin bozulmasının en önemli metabolik sonucu aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "NADPH üretiminde artma",
+      "B": "NADH oksidasyonunda artma",
+      "C": "O2'nin H2O'ya indirgenmesinde artma",
+      "D": "NAD+ yenilenmesinde azalma",
+      "E": "FAD indirgenmesinde azalma"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) NAD+ yenilenmesinde azalma: DOĞRU.** ETZ bozunduğunda NADH'lar NAD+'ya oksitlenemez. NAD+ birikir/tükenir. NAD+ azaldığı için glikoliz ve TCA durma noktasına gelir. Hücre laktat DH ile laktat üreterek NAD+'yı rejenere etmeye çalışır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Karbonhidrat metabolizmasının aşağıdaki ara ürünlerinden hangisinin plazmada artışı, dokularda oksijen açığının olduğunu gösterir?\n\n**Şıklar:",
+    "options": {
+      "A": "Sitrat",
+      "B": "Laktat",
+      "C": "Pirüvat",
+      "D": "Fumarat",
+      "E": "Malat"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Laktat: DOĞRU.** Doku hipoksisinde (oksijen yokluğunda) mitokondriyel ETZ çalışmaz. Pyruvate laktat dehidrogenaz ile Laktat'a indirgenir. Plazmada Laktat artışı (laktik asidoz) doku hipoksisinin altın göstergesidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki glukoz taşıyıcı proteinlerden hangisi kas dokusunda insüline bağımlı olarak çalışır?\n\n**Şıklar:",
+    "options": {
+      "A": "GLUT1",
+      "B": "GLUT2",
+      "C": "GLUT3",
+      "D": "GLUT4",
+      "E": "GLUT5"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) GLUT1:** Eritrosit ve kan-beyin bariyeri (İnsülinden bağımsız).\n- **B) GLUT2:** Karaciğer, pankreas B hücreleri, böbrek, bağırsak (İnsülinden bağımsız, yüksek Km).\n- **C) GLUT3:** Nöronlar (İnsülinden bağımsız, en düşük Km / en yüksek ilgi).\n- **D) GLUT4: DOĞRU.** Çizgili kas, kalp kası ve yağ dokusunda bulunur. İnsülin uyarısıyla vesiküllerden hücre membranına eksozitoz olur (İnsüline BAĞIMLI).\n- **E) GLUT5:** İnce bağırsak ve spermde Fruktoz taşıyıcısıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin düzeyinin artması pentoz fosfat yolunu baskılar?\n\n**Şıklar:",
+    "options": {
+      "A": "FAD",
+      "B": "FADH2",
+      "C": "NADH",
+      "D": "NADP",
+      "E": "NADPH"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **E) NADPH: DOĞRU.** NADPH, Pentoz fosfat yolunun ilk ve hız kısıtlayıcı enzimi olan Glukoz-6-fosfat dehidrogenaz (G6PDH) enzimini güçlü şekilde Feedback (geri beslemeli) İNHİBE eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi glukozaminoglikan yapıda bir molekül değildir?\n\n**Şıklar:",
+    "options": {
+      "A": "Hiyaluronik asit",
+      "B": "Kondroitin sülfat",
+      "C": "Sialik asit",
+      "D": "Heparan sülfat",
+      "E": "Keratan sülfat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A, B, D, E:** Hepsi tekrarlayan disakkarit ünitelerinden oluşan GAG (Glukozaminoglikan)'dır.\n- **C) Sialik asit (N-asetilnöraminik asit - NANA): YANLIŞ / CEVAP.** Bir GAG değildir; glikoprotein ve glikolipidlerin uç kısımlarında bulunan 9 karbonlu bir asidik şekerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki moleküllerden hangisi tekrarlanan disakkarit ünitelerinden oluşmaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Hiyaluronik asit",
+      "B": "Heparin",
+      "C": "Kondroitin sülfat",
+      "D": "Keratan sülfat",
+      "E": "Sialik asit"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A, B, C, D:** Tekrarlayan disakkarit birimlerinden oluşan GAG'lardır.\n- **E) Sialik asit: DOĞRU CEVAP.** Tek bir monosakkarit türevidir (GAG değildir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Hiyalüronik asitin yapısında tekrarlayan disakkaritler aşağıdakilerin hangisinde birlikte verilmiştir?\n\n**Şıklar:",
+    "options": {
+      "A": "N-Asetilglukozamin - Galaktoz",
+      "B": "N-Asetilglukozamin - Glukuronik asit",
+      "C": "N-Asetilgalaktozamin - Galaktoz",
+      "D": "N-Asetilgalaktozamin - L-iduronik asit",
+      "E": "N-Asetilglukozamin - L-iduronik asit"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) N-Asetilglukozamin + Glukuronik asit: DOĞRU.** Hiyalüronik asit; sülfatlanmayan tek GAG'dır, proteini yoktur ve N-asetilglukozamin ile D-glukuronik asit tekrarından oluşur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar DUS"
+  },
+  {
+    "question": "Kemik kalsifikasyonunda yer alan başlıca glukozaminoglikan aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Hiyalüronik asit",
+      "B": "Kondroitin sülfat",
+      "C": "Dermatan sülfat",
+      "D": "Keratan sülfat",
+      "E": "Heparin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Kondroitin sülfat: DOĞRU.** Vücutta en bol bulunan GAG'dır; kıkırdak, kemik ve kalp kapakçıklarında kalsifikasyon ve yapısal destek sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki glikozaminoglikanlardan hangisinin yapısında üronik asit bulunmaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Hiyalüronik asit",
+      "B": "Keratan sülfat",
+      "C": "Dermatan sülfat",
+      "D": "Kondroitin sülfat",
+      "E": "Heparan sülfat"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Keratan sülfat: DOĞRU.** Keratan sülfat yapısında üronik asit (Glukuronik/İduronik asit) barındırmayan tek GAG'dır! Onun yerine Galaktoz + N-asetilglukozamin içerir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "N-Asetil-D-galaktozamin, aşağıdaki glikozaminoglikanların hangisinin yapısında bulunur?\n\n**Şıklar:",
+    "options": {
+      "A": "Hiyalüronat",
+      "B": "Kondroitin sülfat",
+      "C": "Keratan sülfat",
+      "D": "Heparan sülfat",
+      "E": "Heparin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Kondroitin sülfat: DOĞRU.** N-Asetilgalaktozamin + Glukuronik asit içerir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Kan glukozu düşmüş bir kişide, aşağıdaki enzimlerden hangisinin karaciğerde inhibe olması gerekir?\n\n**Şıklar:",
+    "options": {
+      "A": "Pirüvat karboksilaz",
+      "B": "PEP karboksikinaz",
+      "C": "Fruktoz-1,6-bisfosfataz",
+      "D": "Glukoz-6-fosfataz",
+      "E": "Fosfofruktokinaz-1"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A, B, C, D:** Glukoneogenez enzimleridir; açlıkta kan glukozu düşünce uyarılırlar.\n- **E) Fosfofruktokinaz-1 (PFK-1): DOĞRU.** Glikoliz enzimdir. Açlıkta Glukagon artışı ile PFK-1 inhibe edilerek glukoz yıkımı durdurulur ve karaciğer dışarıya glukoz verir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Laktik asitin glukoza çevrilip kana verildiği süreç içinde aşağıdakilerden hangisinin bir görevi yoktur?\n\n**Şıklar:",
+    "options": {
+      "A": "Pirüvat karboksilaz",
+      "B": "PEP karboksikinaz",
+      "C": "Fruktoz-1,6-bisfosfataz",
+      "D": "Fosfofruktokinaz-1",
+      "E": "ATP"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A, B, C, E:** Cori döngüsü (Laktat -> Glukoz) bir glukoneogenez sürecidir. Pirüvat karboksilaz, PEPCK, F1,6BPase ve ATP harcanması bu süreçtedir.\n- **D) Fosfofruktokinaz-1: DOĞRU CEVAP.** Glikoliz enzimidir, glukoneogenez sırasında inaktiftir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Açlık durumunda, aşağıdaki enzimlerden hangisinin aktivitesinde artış olur?\n\n**Şıklar:",
+    "options": {
+      "A": "Pirüvat dehidrogenaz",
+      "B": "PEP karboksikinaz",
+      "C": "Glukokinaz",
+      "D": "Fosfofruktokinaz-1",
+      "E": "Pirüvat kinaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A, C, D, E:** Toklukta/İnsülinle aktifleşen glikoliz ve pirüvat oksidasyonu enzimleridir.\n- **B) PEP karboksikinaz (PEPCK): DOĞRU.** Açlıkta Glukagon/cAMP artışı ile sentezi ve aktivitesi artan kilit glukoneogenez enzimidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi glukoneogenez için kullanılmaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Alanin",
+      "B": "Lösin",
+      "C": "Gliserol",
+      "D": "Pirüvat",
+      "E": "Aspartat"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A, C, D, E:** Glukoneojenik substratlardır.\n- **B) Lösin: DOĞRU CEVAP.** Lösin ve Lizin **SAF KETOJENİK** aminoasitlerdir; hiçbir şekilde glukoza dönüşemezler (net karbon veremezler).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, glukoneogenez için kaynak oluşturmaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Alanin",
+      "B": "Gliserol",
+      "C": "a-ketoglutarat",
+      "D": "Laktat",
+      "E": "Asetil KoA"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A, B, C, D:** Glukoneojenik öncüllerdir.\n- **E) Asetil KoA: DOĞRU CEVAP.** Asetil-KoA 2 karbonludur, PDH irreversible olduğu için Asetil-KoA'dan net glukoz sentezlenemez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar DUS"
+  },
+  {
+    "question": "İskelet kaslarında, proteinlerin yıkılmasıyla ortaya çıkan amino asit amin gruplarının pirüvata transferi sonucu oluşan ve karaciğere taşınarak glukoneogeneze katılan amino asit hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Lösin",
+      "B": "Lizin",
+      "C": "Valin",
+      "D": "Alanin",
+      "E": "Arjinin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Alanin: DOĞRU.** Kasta pirüvats transaminasyonla Alanin'e dönüşür (Glucose-Alanine / Cahill döngüsü). Alanin kana salınıp karaciğere gider ve glukoneogenezde glukoza çevrilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 EUS"
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi hepatik glukoneogeneze en fazla katkıda bulunur?\n\n**Şıklar:",
+    "options": {
+      "A": "Glutamin",
+      "B": "Glisin",
+      "C": "Lizin",
+      "D": "Alanin",
+      "E": "Ornitin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Alanin: DOĞRU.** Karaciğerde glukoneogenez için en ana ve en fazla kullanılan glukojenik aminoasit **Alanin**'dir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinden glukoz sentezlenirken en az enerji harcanır?\n\n**Şıklar:",
+    "options": {
+      "A": "Gliserol",
+      "B": "Propionat",
+      "C": "Pirüvat",
+      "D": "Alanin",
+      "E": "Laktat"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Gliserol: DOĞRU.** Gliserol -> Gliserol-3-P (1 ATP) -> DHAP -> Glukoz. 1 mol glukoz için 2 mol gliserol kullanılır ve sadece 2 ATP dengesi harcanır (en az ATP harcayan glukoneojenik substrattır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Glukoneogenezde substrat olarak gliserol kullanıldığında, 1 mol glukoz oluşturmak için kaç mol ATP ve NAD+ gerekir?\n\n**Şıklar:",
+    "options": {
+      "A": "1 mol ATP ve 1 mol NAD+",
+      "B": "1 mol ATP ve 2 mol NAD+",
+      "C": "2 mol ATP ve 2 mol NAD+",
+      "D": "3 mol ATP ve 2 mol NAD+",
+      "E": "3 mol ATP ve 3 mol NAD+"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) 2 mol ATP ve 2 mol NAD+: DOĞRU.** 2 Gliserol + 2 ATP -> 2 Gliserol-3-P + 2 ADP. Sonra Gliserol-3-P dehidrogenaz ile 2 NAD+ -> 2 NADH oluşur. Dolayısıyla 2 mol ATP harcanır, 2 mol NAD+ gereklidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Kaslar aşağıdaki enzimlerden hangisini içermemeleri nedeniyle kana glukoz veremez?\n\n**Şıklar:",
+    "options": {
+      "A": "Alfa-amilaz",
+      "B": "Fosfoglukomutaz",
+      "C": "Fosforilaz",
+      "D": "Glukokinaz",
+      "E": "Glukoz-6-fosfataz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **E) Glukoz-6-fosfataz: DOĞRU.** Kas dokusunda Glukoz-6-fosfataz enzimi YOKTUR. Bu yüzden kas serbest glukoz üretemez ve glikojeni sadece kendi enerjisi için kullanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, pirüvatın glukoneogeneze girişi için gerekli bir koenzimdir?\n\n**Şıklar:",
+    "options": {
+      "A": "Biotin",
+      "B": "Askorbik asit",
+      "C": "Kobalamin",
+      "D": "Folik asit",
+      "E": "Pantotenik asit"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Biotin (Vitamin B7): DOĞRU.** Pirüvat -> Oksaloasetat reaksiyonunu katalizleyen Pirüvat karboksilaz enziminin zorunlu koenzimidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi glukoneogenezde asetil-KoA tarafından allosterik olarak aktive edilen enzimdir?\n\n**Şıklar:",
+    "options": {
+      "A": "Pirüvat karboksilaz",
+      "B": "Fosfoenolpirüvat karboksikinaz",
+      "C": "Fruktoz-1,6-bisfosfataz",
+      "D": "Heksozfosfat izomeraz",
+      "E": "Glukoz-6-fosfataz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Pirüvat karboksilaz: DOĞRU.** Asetil-KoA artışı hücresel enerji bolluğunu ve PDH inhibisyonunu gösterir; Pirüvat karboksilazı allosterik olarak güçlü şekilde AKTİVE ederek glukoneogenezi başlatır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 DUS"
+  },
+  {
+    "question": "Elektron transfer zincirinde, elektronların oksijene transferi aşağıdaki enzim komplekslerinden hangisi aracılığıyla olur?\n\n**Şıklar:",
+    "options": {
+      "A": "Kompleks I",
+      "B": "Kompleks II",
+      "C": "Kompleks III",
+      "D": "Kompleks IV",
+      "E": "Kompleks V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Kompleks IV (Sitokrom c oksidaz): DOĞRU.** Elektronları sitokrom c'den alır ve O2'ye aktararak su (H2O) oluşturur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Glikolizde gliseraldehit-3-fosfat dehidrogenaz reaksiyonuyla elde edilen hidrojen ve elektronlar solunum zincirine hangisi üzerinden katılır?\n\n**Şıklar:",
+    "options": {
+      "A": "NADH dehidrogenaz",
+      "B": "Süksinat-koenzim Q redüktaz",
+      "C": "Sitokrom b",
+      "D": "Kompleks III",
+      "E": "Sitokrom c oksidaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) NADH dehidrogenaz (Kompleks I): DOĞRU.** Sitozolik NADH'lar malat-aspartat şantı ile mitokondriye aktarılarak Kompleks I'e verilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki inhibitörlerden hangisi elektron transfer tepkimelerinde adenin nükleotid translokazı inhibe eder?\n\n**Şıklar:",
+    "options": {
+      "A": "Karbonmonoksit",
+      "B": "Antimisin A",
+      "C": "Aurovertin",
+      "D": "Atraktilozid",
+      "E": "Termogenin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Atraktilozid: DOĞRU.** Adenin nükleotid translokazı (ADP/ATP taşıyıcısını) inhibe ederek ADP'nin mitokondriye girişini durdurur ve oksidatif fosforilasyonu engeller.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki ajanlardan hangisi oksidatif fosforilasyonda ubikinona elektron transferini önler?\n\n**Şıklar:",
+    "options": {
+      "A": "Siyanid",
+      "B": "Atraktilozid",
+      "C": "Rotenon",
+      "D": "Oligomisin",
+      "E": "Termogenin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Rotenon: DOĞRU.** Kompleks I inhibitörüdür; elektronların Fe-S merkezlerinden Ubikinona (Koenzim Q) transferini bloke eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "I. NADH dehidrogenaz\nII. Koenzim Q\nIII. Sitokrom c\nIV. Sitokrom aa3\n\nYukarıdaki ETZ elemanlarından hangileri, rotenon varlığında indirgenmiş durumdadır?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız IV",
+      "C": "III ve IV",
+      "D": "I, II ve III",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **Rotenon etkisi:** Kompleks I'i inhibe eder. Kompleks I elektronları kabul eder fakat KoQ'ya veremez. Bu yüzden Kompleks I (NADH DH) **İNDİRGENMİŞ (redükte)** halde kalır, sonraki elemanlar (KoQ, Sit c, Sit aa3) ise **OKSİTLENMİŞ** kalır. Doğru cevap **A (Yalnız I)**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi elektron transport sisteminde elektronların sitokrom aa3'ten oksijene transferini önler?\n\n**Şıklar:",
+    "options": {
+      "A": "Amital",
+      "B": "Rotenon",
+      "C": "Dimerkaptoprol",
+      "D": "Pierisidin A",
+      "E": "Siyanid"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **E) Siyanid (CN-): DOĞRU.** Kompleks IV'teki (Sitokrom aa3) Fe+3 iyonuna irreversible bağlanarak elektronların oksijene aktarılmasını önler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi elektron transport zincirinde proton akışını ATP sentaz enziminin F0 bileşeni üzerinden inhibe eder?\n\n**Şıklar:",
+    "options": {
+      "A": "Valinomisin",
+      "B": "Oligomisin",
+      "C": "Rotenon",
+      "D": "Karbon monoksit",
+      "E": "Siyanid"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Oligomisin: DOĞRU.** ATP sentazın F0 kanalına bağlanarak protonların matrikse geri akışını kapatır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin akut zehirlenmesinde mitokondri iç zarında, ATP sentezi ve elektron transportu arasındaki eşleşmenin bozulması ile hipertermi oluşması en olasıdır?\n\n**Şıklar:",
+    "options": {
+      "A": "Asetilsalisilik asit",
+      "B": "Oligomisin",
+      "C": "Siyanid",
+      "D": "Amital",
+      "E": "Antimisin A"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Asetilsalisilik asit (Yüksek doz Aspirin): DOĞRU.** Kimyasal eşleşme ayırıcı (uncoupler) gibi davranarak proton gradientini ısıya dönüştürür ve hipertermiye neden olur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi 2,4-dinitrofenolün mitokondriyal elektron transport zinciri üzerindeki etkisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Kompleks I'den kompleks II'ye elektron akışını inhibe ederek oksidasyonu engeller",
+      "B": "Adenin nükleotid translokazı inhibe ederek ADP-ATP değişimini bozar.",
+      "C": "ATP sentaz'ın F0 bileşenine bağlanarak kompleks V'i inhibe eder.",
+      "D": "Proton gradientinin oluşumunu engelleyerek oksidasyon-fosforilasyon kenetlenmesini bozar",
+      "E": "Kompleks II'den kompleks III'e elektron akışını bozar."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) DOĞRU.** 2,4-DNP proton taşıyıcı uncoupler'dır. Membrandan protonları sızdırarak proton gradientini yok eder; ATP sentezi durur, enerji ısıya dönüşür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi glikojen yıkımının hız sınırlayıcı basamağında görev alır?\n\n**Şıklar:",
+    "options": {
+      "A": "Miyofosforilaz",
+      "B": "UDP-glukoz pirofosforilaz",
+      "C": "Glikojen fosforilaz",
+      "D": "UDP-glukoz dehidrogenaz",
+      "E": "Dallandırıcı enzim"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Glikojen fosforilaz: DOĞRU.** Glikojenolizin ana hız kısıtlayıcı enzimidir. B6 vitamini (PPL) koenzim olarak kullanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 EUS"
+  },
+  {
+    "question": "Glikojenin yıkılmasını sağlayan enzimlerden biri olan glikojen fosforilazın ürünü aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Glikoz-1-fosfat",
+      "B": "Glikoz-1,6-bisfosfat",
+      "C": "Glikoz-2,6-bisfosfat",
+      "D": "Glikoz-4-fosfat",
+      "E": "Glikoz-6-fosfat"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Glikoz-1-fosfat: DOĞRU.** Glikojen fosforilaz glikojenden a-1,4 bağlarını inorganik fosfat (Pi) ile kırarak Glukoz-1-fosfat açığa çıkarır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Glukagonun karaciğerdeki glikojen depolarına etki ederek kan şekeri düzeyini artırmasındaki sinyal akışının doğru sıralaması aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Glikojen fosforilaz - cAMP - protein kinaz A - Gsa",
+      "B": "cAMP - Gsa - protein kinaz A - glikojen fosforilaz",
+      "C": "Gsa - cAMP - protein kinaz A - glikojen fosforilaz",
+      "D": "Glikojen fosforilaz - protein kinaz A - Gsa - cAMP",
+      "E": "Gsa - protein kinaz A - cAMP - glikojen fosforilaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Gsa -> cAMP -> protein kinaz A -> glikojen fosforilaz: DOĞRU.** Glukagon reseptörüne bağlanır -> Gsa uyarılır -> Adenilat siklaz aktifleşir ve cAMP artar -> PKA aktifleşir -> Fosforilaz kinaz ve Glikojen fosforilaz fosforillenerek aktifleşir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 EUS"
+  },
+  {
+    "question": "Hepatik glikojenez ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Glukoz-1-fosfat, a(1->4) glikozid bağlarının oluşumundan sorumlu aktif glikozil donörüdür.",
+      "B": "a(1->4) glikozid bağlarının oluşumu zincirin indirgen olmayan ucundan başlayarak devam eder.",
+      "C": "Glikojenin proteinindeki tirozin, UDP-glukozla otokatalitik olarak reaksiyona girer.",
+      "D": "Glikojen sentezinin başlayabilmesi için UTP'ye gereksinim vardır.",
+      "E": "Dallanma enzimi, a(1->4) glikozid bağlı glikozil birimlerden en az altı glukozdan oluşan bir segmenti koparır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A: YANLIŞ / CEVAP.** Aktif glukoz donörü Glukoz-1-fosfat değil, **UDP-Glukoz**'dur!",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  },
+  {
+    "question": "Hipoglisemiye giren bir kişide aşağıdakilerden hangisi görülmez?\n\n**Şıklar:",
+    "options": {
+      "A": "Adenilat siklaz inhibisyonu",
+      "B": "Glukagon salınımında artma",
+      "C": "Glikojen sentaz inaktivasyonu",
+      "D": "Glikojen fosforilaz aktivasyonu",
+      "E": "Protein kinaz aktivasyonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A: YANLIŞ / CEVAP.** Hipoglisemide Glukagon ve Epinefrin artar, bu da Adenilat siklazı İNHİBE ETMEZ, AKSİNE UYARIR (cAMP artar).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki nörotransmitterlerden hangisi, hem sinyal molekülü olarak görev yapıp hem de çizgili kas hücrelerinde glikojen yıkımına yol açar?\n\n**Şıklar:",
+    "options": {
+      "A": "Asetilkolin",
+      "B": "Dopamin",
+      "C": "Epinefrin",
+      "D": "Histamin",
+      "E": "Serotonin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Epinefrin: DOĞRU.** Kasta B2 reseptörlerine bağlanıp cAMP artırarak glikojenolizi tetikler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi epinefrinin, kas dokusundaki glikojen yıkımına etkilerinden biri değildir?\n\n**Şıklar:",
+    "options": {
+      "A": "Adenilat siklaz aktif olur.",
+      "B": "cAMP-bağımlı protein kinaz aktif olur.",
+      "C": "İnhibitör-1 fosforilasyona uğrar.",
+      "D": "Protein fosfatazlar aktif olur.",
+      "E": "Fosforilaz kinaz aktif olur."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D: YANLIŞ / CEVAP.** Epinefrin glikojen yıkımını uyarırken Protein Fosfataz-1'i İNHİBE EDER (İnhibitör-1'i fosforilleyerek PKA aracılığıyla kapatır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "I. Glukagon karaciğerde glikojen fosforilaz kinazı defosforile ederek aktifler.\nII. İnsülin karaciğerde glukokinaz, fosfofruktokinaz-1 ve pirüvat kinaz enzimlerinin sentezini artırır.\nIII. Glukagon karaciğerde fruktoz-2,6-bisfosfat düzeylerini azaltarak fruktoz-1,6-bisfosfatazı aktive eder.\n\nYukarıdaki ifadelerden hangileri doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **I: YANLIŞ.** Glukagon enzimleri defosforile değil, FOSFORİLLEYEREK aktifler.\n- **II: DOĞRU.** İnsülin glikolizin 3 kilit enziminin sentezini indükler.\n- **III: DOĞRU.** Glukagon F2,6BP'yi düşürür, PFK-1 inaktif olur, F1,6BPase aktifleşir (glukoneogenez uyarılır).\n- **Cevap: D (II ve III).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "İnsanlardaki glikojen metabolizmasıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Kasta glikojen yıkılmasını glukagon sağlar.",
+      "B": "Glikojen molekülünün yıkılabilmesi için glikojen fosforilaz enzimine ihtiyaç vardır.",
+      "C": "Glikojen'de hem a(1-4) hem de a(1-6) glikozidik bağ vardır.",
+      "D": "Glikojen molekülünün sentezlenebilmesi için \"glycogenin\" proteini primer olarak kullanılır.",
+      "E": "Glikojen molekülünün sentezinden sorumlu temel enzim glikojen sentazdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A: YANLIŞ / CEVAP.** Kas dokusunda Glukagon reseptörü YOKTUR. Kas glikojenolizini Epinefrin uyarır!",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 EUS"
+  },
+  {
+    "question": "Aşağıdaki glikojen depo hastalıklarının hangisinde, a1-6 glikozidaz enzimi eksik olup anormal yapıda glikojen birikimi görülür?\n\n**Şıklar:",
+    "options": {
+      "A": "Von Gierke hastalığı",
+      "B": "Tarui hastalığı",
+      "C": "Pompe hastalığı",
+      "D": "Cori hastalığı",
+      "E": "McArdle hastalığı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Cori hastalığı (Tip III): DOĞRU.** Dal kırıcı enzim (a1-6 glikozidaz / debranching enzyme) eksiktir. Sınır dekstrin birikir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Glukoz-6-fosfataz enzim eksikliğinin olduğu von Gierke hastalığında aşağıdaki klinik bulgulardan hangisine rastlanmaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Karaciğerde glikojen birikimi",
+      "B": "Hiperlipidemi",
+      "C": "Hipoglisemi",
+      "D": "Laktik asidemi",
+      "E": "Hipoürisemi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A, B, C, D:** Şiddetli açlık hipoglisemisi, laktik asidoz, hiperlipidemi ve HİPERÜRİSEMİ görülür.\n- **E) Hipoürisemi: YANLIŞ / CEVAP.** Von Gierke'de laktat böbreklerde ürik asit atılımıyla yarışır ve HİPERÜRİSEMİ (Gut) gelişir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Hiperürisemi, laktik asidoz, hiperlipidemi ve açlık durumunda hipoglisemi ile karakterize bir hastada aşağıdaki enzimlerden hangisinin eksikliği en olasıdır?\n\n**Şıklar:",
+    "options": {
+      "A": "Glukoz-6-fosfataz",
+      "B": "Asit maltaz",
+      "C": "Amilo alfa (1-6) glukozidaz",
+      "D": "Lizozomal alfa (1-4) glukozidaz",
+      "E": "Glikojen fosforilaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Glukoz-6-fosfataz: DOĞRU.** Von Gierke (Tip Ia) klasik kliniğidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki karbonhidrat polimerlerinden hangisi, birden fazla monosakkarit türü içerir?\n\n**Şıklar:",
+    "options": {
+      "A": "Heparin",
+      "B": "Selüloz",
+      "C": "Nişasta",
+      "D": "Glikojen",
+      "E": "Dekstran"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Heparin: DOĞRU.** Heteropolisakkarit (GAG) olup Glukozamin + Glukuronik/İduronik asit içerir.\n- **B, C, D, E:** Sadece glukoz içeren homopolisakkaritlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin yapısında sülfat içeren karbonhidrat bulunur?\n\n**Şıklar:",
+    "options": {
+      "A": "Glikozaminoglikanlar",
+      "B": "Glikolipidler",
+      "C": "Glikoproteinler",
+      "D": "Glikojen",
+      "E": "Peptidoglikan"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Glikozaminoglikanlar: DOĞRU.** Yapılarında yoğun sülfat grupları (PAPS kaynaklı) taşıyan negatif yüklü bileşiklerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki glikozaminoglikanlardan hangisi proteoglikan agregatının yapısındaki kor proteine kovalent olarak bağlanmaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Heparan sülfat",
+      "B": "Dermatan sülfat",
+      "C": "Kondroitin sülfat",
+      "D": "Hiyalüronik asit",
+      "E": "Keratan sülfat"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Hiyalüronik asit: DOĞRU.** Hiyalüronik asit proteine kovalent bağlanmayan ve sülfatlanmayan TEK GAG'dır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  },
+  {
+    "question": "Sialik asit ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Nöraminik asit türevidir.",
+      "B": "Azot veya oksijen atomuna bağlı açil grubu taşır.",
+      "C": "Glikoproteinlerin yapısında yer alır.",
+      "D": "Glikolipidlerin yapısında yer alır.",
+      "E": "UDP ile aktifleşmiş formda bulunur."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A, B, C, D: DOĞRU.** N-asetilnöraminik asit (NANA) 9C'li amino şekerdir.\n- **E: YANLIŞ / CEVAP.** Sialik asit UDP ile değil, **CMP (Sitidin monofosfat)** ile aktifleşir (CMP-sialik asit).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Glukozaminoglikanların yıkımını gerçekleştiren enzimler, aşağıdaki enzim sınıflarından hangisinde yer alır?\n\n**Şıklar:",
+    "options": {
+      "A": "Oksidoredüktaz",
+      "B": "Transferaz",
+      "C": "Hidrolaz",
+      "D": "Liyaz",
+      "E": "Ligaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Hidrolaz: DOĞRU.** GAG yıkımı lizozomal hidrolaz enzimleriyle (endoglikozidazlar, ekzoglikozidazlar, sülfatazlar) gerçekleşir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki mukopolisakkaridozların hangisinde dokularda keratan sülfat birikir?\n\n**Şıklar:",
+    "options": {
+      "A": "Sanfilippo sendromu",
+      "B": "Hunter sendromu",
+      "C": "Hurler sendromu",
+      "D": "Maroteaux sendromu",
+      "E": "Morquio B sendromu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **E) Morquio B sendromu: DOĞRU.** MPS Tip IV (Morquio) Keratan sülfat birikimi ile seyreder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Hurler sendromu tanısı konan bir bebekte eksik olan enzim ve etkilenen glukozaminoglikan eşleştirmesi hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "a-L-İduronidaz - Dermatan sülfat ve keratan sülfat",
+      "B": "a-L-İduronidaz - Dermatan sülfat ve heparan sülfat",
+      "C": "İduronat-2-sülfataz - Dermatan sülfat ve keratan sülfat",
+      "D": "İduronat-2-sülfataz - Kondroitin sülfat ve dermatan sülfat",
+      "E": "Heparan-N-sülfataz - Keratan sülfat ve heparan sülfat"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) a-L-İduronidaz - Dermatan sülfat ve heparan sülfat: DOĞRU.** Hurler (MPS Tip IH) a-L-iduronidaz eksikliğidir; Dermatan sülfat ve heparan sülfat birikir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar TUS"
+  },
+  {
+    "question": "Kan şekerinin uzun süre yüksek olması durumunda glukozun, proteinlere enzimatik olmayan şekilde bağlanmasına ne ad verilir?\n\n**Şıklar:",
+    "options": {
+      "A": "Glikozilasyon",
+      "B": "Glikasyon",
+      "C": "Glukozüri",
+      "D": "Hiperglisemi",
+      "E": "Hipoglisemi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Glikasyon: DOĞRU.** Enzimsiz glukoz bağlanması glikasyondur (HbA1c gibi). Enzimli bağlanma ise glikozilasyondur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Non-enzimatik glikasyon yoluyla oluşan hemoglobin türevi aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "HbA1c",
+      "B": "HbS",
+      "C": "HbM",
+      "D": "HbC",
+      "E": "HbF"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) HbA1c: DOĞRU.** HbA1c non-enzimatik glikasyon ürünüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 DUS"
+  },
+  {
+    "question": "Hemoglobin A1c oluşumunda, glukoz hemoglobine aşağıdaki amino asitlerden hangisi aracılığı ile bağlanır?\n\n**Şıklar:",
+    "options": {
+      "A": "Glisin",
+      "B": "Valin",
+      "C": "Histidin",
+      "D": "Prolin",
+      "E": "Triptofan"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Valin: DOĞRU.** Glukoz, HbA1c oluşumunda hemoglobin B-zincirinin N-terminalindeki **Valin** aminoasitine non-enzimatik bağlanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "HbA1c oluşumu sırasındaki tepkimelerin doğru sıralaması hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "I - II - III",
+      "B": "II - I - III",
+      "C": "III - I - II",
+      "D": "I - III - II",
+      "E": "II - III - I"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **Sıralama:** I. N-terminal valin ile glukoz kondensasyonu -> III. Schiff bazı (aldimin) oluşumu -> II. Amadori düzenlenmesi ile stabil Ketoamin oluşumu.\n- **Doğru Cevap: D (I - III - II).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Glikoproteinlerin yapısında bulunan N-glikozid bağı, aşağıdaki amino asitlerden hangisinin yan zinciri ile şeker molekülü arasında oluşur?\n\n**Şıklar:",
+    "options": {
+      "A": "Serin",
+      "B": "Treonin",
+      "C": "Hidroksiprolin",
+      "D": "Asparajin",
+      "E": "Arjinin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Asparajin: DOĞRU.** N-glikozid bağı Asparajin (Asn) amide azotuna bağlanır. O-glikozid bağı ise Serin, Treonin veya Hidroksilizine bağlanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi letal senteze neden olur?\n\n**Şıklar:",
+    "options": {
+      "A": "Akrilamid",
+      "B": "Floroasetat",
+      "C": "Karbonmonoksit",
+      "D": "Siyanür",
+      "E": "Talidomit"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Floroasetat: DOĞRU.** Vücutta toksik olmayan floroasetat metabolize olarak florositrata dönüşür. Florositrat akonitazı inhibe ederek ölür (Letal sentez).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 EUS"
+  },
+  {
+    "question": "Aşağıdaki moleküllerden hangisi mitokondriye giremez?\n\n**Şıklar:",
+    "options": {
+      "A": "Malat",
+      "B": "Glutamat",
+      "C": "Glukoz",
+      "D": "Gliserol-3-fosfat",
+      "E": "Ornitin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Glukoz: DOĞRU.** Glukoz polar büyüklüğü nedeniyle mitokondri zarlarını geçemez; sitozolde glikolizle pirüvata kadar yıkılır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Fibronektin ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Bir glikozaminoglikandır.",
+      "B": "Ekstrasellüler matrikste bulunur.",
+      "C": "Fibroblastlar tarafından salgılanır.",
+      "D": "Kollajene bağlanır.",
+      "E": "Plazma proteinlerindendir."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A: YANLIŞ / CEVAP.** Fibronektin bir GAG değil, yapısında oligosakkarit taşıyan adhezif bir **GLİKOPROTEİN**'dir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi integral membran proteini olup hücrenin ekstrasellüler matriks bileşenlerine ve diğer hücrelere bağlanmasını sağlar?\n\n**Şıklar:",
+    "options": {
+      "A": "İntegrin",
+      "B": "Anneksin",
+      "C": "Aktin",
+      "D": "Troponin",
+      "E": "Kalsekestrin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) İntegrin: DOĞRU.** Hücre membranında integrinler ECM bileşenlerine (fibronektin, laminin) bağlanarak hücresel sinyal ve tutunmayı sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hücre dışı matriks ile ilişkili moleküllerden hangisi aynı zamanda hücre içi sinyal iletiminde de görevlidir?\n\n**Şıklar:",
+    "options": {
+      "A": "İntegrin",
+      "B": "Kollajen",
+      "C": "Elastin",
+      "D": "Heparin",
+      "E": "Hiyalüronan"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) İntegrin: DOĞRU.** Transmembran reseptör olup hücre dışı matriksteki uyarılara hücre içi sinyale (aktin mikrofilament bağlantısı) dönüştürür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 DUS"
+  },
+  {
+    "question": "Bir lizozomal depo hastalığı olan a-mannozidozda aşağıdaki moleküllerden hangisinin yıkımında bozukluk vardır?\n\n**Şıklar:",
+    "options": {
+      "A": "Glikolipid",
+      "B": "Glikozaminoglikan",
+      "C": "Glikoprotein",
+      "D": "Sfingolipid",
+      "E": "Kollajen"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Glikoprotein: DOĞRU.** alpha ve beta mannozidoz glikoprotein yıkım bozukluğudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "N-bağlı glikoproteinlerin lizozomlara taşınması sırasında mannoz birimlerinin fosforilasyonunun olmaması sonucunda gelişen hastalık hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Kistik fibrozis",
+      "B": "Tay-Sachs hastalığı",
+      "C": "Gaucher hastalığı",
+      "D": "Fabry hastalığı",
+      "E": "I-hücre hastalığı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **E) I-hücre hastalığı (İnklüzyon hücresi / Mukolipidoz Tip II): DOĞRU.** N-asetilglukozamin-1-fosfotransferaz eksiktir; lizozomal enzimlere Mannoz-6-fosfat etiketi takılamaz ve enzimler lizozom yerine hücre dışına salınır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Karaciğerde fruktoz metabolizması çoğunlukla aşağıdaki tepkimelerden hangisi ile başlar?\n\n**Şıklar:",
+    "options": {
+      "A": "Hekzokinaz ile birinci karbondan fosforilasyon",
+      "B": "Hekzokinaz ile altıncı karbondan fosforilasyon",
+      "C": "Fruktokinaz ile birinci karbondan fosforilasyon",
+      "D": "Fruktokinaz ile altıncı karbondan fosforilasyon",
+      "E": "Glukokinaz ile birinci karbondan fosforilasyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Fruktokinaz ile birinci karbondan fosforilasyon: DOĞRU.** Karaciğerde fruktoz yüksek kapasiteli/düşük Km'li **Fruktokinaz** enzimi ile **Fruktoz-1-fosfata** çevrilerek metabolizmaya girer.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Fruktoz metabolizmasının glikoza göre daha hızlı olmasının nedeni aşağıdaki enzimlerden hangisinin katalizlediği basamağın atlanmasıdır?\n\n**Şıklar:",
+    "options": {
+      "A": "Fruktokinaz",
+      "B": "Trioz kinaz",
+      "C": "Fruktoz-1-fosfat aldolaz",
+      "D": "Fosfofruktokinaz",
+      "E": "Trioz fosfat izomeraz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Fosfofruktokinaz (PFK-1): DOĞRU.** Karaciğerde Fruktoz-1-P aldolaz B ile DHAP ve Gliseraldehit'e bölünür. Bu sayede glikolizin ana hız kısıtlayıcı denetim basamağı olan **PFK-1 atlanmış olur** ve fruktoz glukozdan çok daha hızlı metabolize edilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Yüksek düzeyde fruktozun intravenöz infüzyonu yoluyla verilmesine bağlı olarak aşağıdakilerden hangisi artmaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Fruktoz-1-fosfat düzeyi",
+      "B": "Ürik asit düzeyi",
+      "C": "Trigliserid sentezi",
+      "D": "VLDL salınımı",
+      "E": "ATP sentezi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **E) ATP sentezi: DOĞRU CEVAP (Artmaz, aksine düşer).** Aşırı fruktoz hızlıca fosforillendiği için karaciğerde inorganik fosfat ve ATP havuzu tükenir; AMP/GMP birikir ve Ürik asit artar (Hiperürisemi) iken ATP düşer.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Karaciğerdeki glikoz metabolizması ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Glukoz hücreye difüzyonla giremez.",
+      "B": "Hekzokinaz glukoz-6-fosfat tarafından inhibe edilir.",
+      "C": "Glukokinazın glikoz için Km değeri yüksektir.",
+      "D": "Fruktoz, galaktoz ve mannoz gibi monosakkaritler, karaciğerde glukokinaz ile glikoz-6-fosfata çevrilerek kullanılır.",
+      "E": "Glikoz-6-fosfat, organizmanın ihtiyacına göre farklı metabolik yollara girebilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D: YANLIŞ / CEVAP.** Fruktoz fruktokinazla, galaktoz galaktokinazla fosforillenir. Glukokinaz sadece glukozu fosforiller.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi, fruktoz metabolizmasında görev almaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Aldolaz-B",
+      "B": "Triozkinaz",
+      "C": "Fruktokinaz",
+      "D": "Fosfoglukomutaz",
+      "E": "Hekzokinaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Fosfoglukomutaz: DOĞRU CEVAP.** Fosfoglukomutaz Glukoz-1-P <-> Glukoz-6-P izomerasyonunu yapar (Glikojen ve Galaktoz metabolizmasındadır, Fruktoz metabolizmasında görev yapmaz).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin eksikliği herediter fruktoz intoleransına yol açar?\n\n**Şıklar:",
+    "options": {
+      "A": "Sükraz",
+      "B": "Fruktokinaz",
+      "C": "Aldolaz B",
+      "D": "Fruktoz-1,6-bisfosfataz",
+      "E": "Fosfoglukoz izomeraz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Aldolaz B: DOĞRU.** Herediter Fruktoz İntoleransı (HFI) Aldolaz B eksikliğidir; Fruktoz-1-fosfat birikir, karaciğer toksisitesi ve şiddetli hipoglisemi oluşur. Fruktokinaz eksikliği ise zararsız Esansiyel Fruktozüridir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Üç yaşındaki kız çocuğu meyve suyu tüketimi sonrası baş dönmesi ve kusma şikayetleriyle getiriliyor. Hangisi doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "Hepatositlerde artmış fruktoz-1-fosfat düzeyi",
+      "B": "Hepatositlerde artmış gliseraldehit düzeyi",
+      "C": "Kanda artmış glukoz düzeyi",
+      "D": "Hepatositlerde artmış ATP sentezi",
+      "E": "Karaciğerde glikojen fosforilazın aktivasyonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) DOĞRU.** Meyve suyu (fruktoz) sonrası HFI tablosunda Aldolaz B eksikliği nedeniyle hepatositlerde **Fruktoz-1-fosfat birikir**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar TUS"
+  },
+  {
+    "question": "Hangisinin lenslerde birikimi diyabetik katarakt oluşumunda etkilidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Mannoz",
+      "B": "Sorbitol",
+      "C": "Galaktoz",
+      "D": "Mannitol",
+      "E": "Gliserol"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Sorbitol: DOĞRU.** Diyabette yüksek glukoz Aldoz redüktaz ile Sorbitol'e çevrilir. Lens ve sinirde Sorbitol dehidrogenaz düşük olduğu için Sorbitol birikir ve osmotik hasarla katarakt yapar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Glukoz, sorbitol yolunda aşağıdaki ürünlerden hangisine dönüşür?\n\n**Şıklar:",
+    "options": {
+      "A": "Galaktoz",
+      "B": "Fruktoz",
+      "C": "Glukuronat",
+      "D": "Askorbat",
+      "E": "Mannoz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Fruktoz: DOĞRU.** Glukoz -> (Aldoz redüktaz) -> Sorbitol -> (Sorbitol dehidrogenaz) -> **Fruktoz**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Enzimlerden hangisinin aktivitesindeki artış, hücrede indirgenmiş glutatyon düzeyinin azalması ile oksidatif strese ve diyabetik komplikasyonlara yol açması en olasıdır?\n\n**Şıklar:",
+    "options": {
+      "A": "Aldoz redüktaz",
+      "B": "Katalaz",
+      "C": "Glutatyon redüktaz",
+      "D": "Glukoz-6-fosfat dehidrogenaz",
+      "E": "Sorbitol dehidrogenaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Aldoz redüktaz: DOĞRU.** Aldoz redüktaz Glukozu Sorbitol'e çevirirken yoğun NADPH tüketir. NADPH tükenince Glutatyon redüktaz çalışamaz ve hücresel antioksidan savunma çökerek oksidatif stres gelişir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "I. NADPH'ye bağımlı bir enzimdir.\nII. Sorbitol ve galaktitol oluşumundan sorumludur.\nIII. Eksikliği sonucunda herediter fruktoz intoleransı ortaya çıkar.\nIV. Lens, retina ve periferik sinirler gibi insüline duyarlı olmayan dokularda yüksek aktivite gösterir.\n\nAldoz redüktaz ile ilgili hangileri doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "III ve IV",
+      "D": "I, II ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **I, II, IV: DOĞRU.** Aldoz redüktaz NADPH harcar, sorbitol/galaktitol üretir, insülinsiz dokularda yüksektir.\n- **III: YANLIŞ.** HFI Aldolaz B eksikliğidir.\n- **Cevap: D (I, II ve IV).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Serbest enerji (ΔG) ve standart serbest enerji (ΔG°') değişimi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "ΔG değeri; ΔG°', reaktan ve ürünlerin serbest enerji içeriklerine bağlıdır.",
+      "B": "ΔG değeri büyük ve negatif ise reaksiyon ürünler yönünde net enerji kaybı ile ilerler.",
+      "C": "ΔG = 0 ise reaksiyon dengededir.",
+      "D": "Standart koşullar altında, reaksiyonun denge sabiti (K_eq) 1'den küçük ise reaksiyon eksergoniktir.",
+      "E": "ΔG değeri, entalpi değişimi (ΔH) ve entropi değişiminden (ΔS) etkilenir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D: YANLIŞ / CEVAP.** K_eq > 1 ise reaksiyon eksergoniktir (ΔG°' negatif). K_eq < 1 ise reaksiyon endergoniktir (ΔG°' pozitif).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Kısa süreli maksimum güç gerektiren fiziksel bir aktivite sırasında, aşağıdaki substratlardan hangisi iskelet kası tarafından öncelikli olarak kullanılır?\n\n**Şıklar:",
+    "options": {
+      "A": "Serbest yağ asitleri",
+      "B": "Keton cisimleri",
+      "C": "Fosfokreatin",
+      "D": "Dallı zincirli amino asitler",
+      "E": "Laktik asit"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Fosfokreatin: DOĞRU.** İlk 5-10 saniyelik patlayıcı yüksek güç aktivitesinde kaslar en hızlı depoları olan **Fosfokreatini (Kreatin fosfat)** kullanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki fosforile bileşiklerden hangisinin hidrolizi sonucunda oluşan standart serbest enerji en yüksek negatif değere sahiptir?\n\n**Şıklar:",
+    "options": {
+      "A": "3-fosfogliserat",
+      "B": "Fosfoenol pirüvat",
+      "C": "Fosfokreatin",
+      "D": "Glukoz-6-fosfat",
+      "E": "Fruktoz-6-fosfat"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Fosfoenol pirüvat (PEP): DOĞRU.** İnsan biyokimyasında bilinen en yüksek enerjili fosfat bileşiğidir (-61.9 kJ/mol).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki bileşiklerden hangisinin hidrolizinden açığa çıkan standart serbest enerji, ATP'nin yıkımından açığa çıkan serbest enerjiden daha fazladır?\n\n**Şıklar:",
+    "options": {
+      "A": "Kreatin fosfat",
+      "B": "Glikoz-6-fosfat",
+      "C": "Fruktoz-6-fosfat",
+      "D": "Gliserol-3-fosfat",
+      "E": "Pirofosfat"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Kreatin fosfat: DOĞRU.** Kreatin fosfat (-43.1 kJ/mol), ATP'den (-30.5 kJ/mol) daha yüksek enerjiye sahiptir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "I. Fosfoenolpirüvat\nII. Karbamoil fosfat\nIII. Glukoz-6-fosfat\nIV. 1,3-bisfosfogliserat\n\nYukarıdakilerden hangilerinin standart serbest hidroliz enerjisi ATP'den daha yüksektir?\n\n**Şıklar:",
+    "options": {
+      "A": "I ve III",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "III ve IV",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **PEP, Karbamoil fosfat ve 1,3-BPG:** ATP'den yüksek enerjilidirler (Substrat düzeyinde fosforilasyon yapabilirler).\n- **Glukoz-6-P:** ATP'den düşük enerjilidir.\n- **Doğru Cevap: E (I, II ve IV).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "İnsülin reseptörünün etkisini artıran element aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Bakır",
+      "B": "Kobalt",
+      "C": "Krom",
+      "D": "Demir",
+      "E": "Manganez"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Krom (Cr): DOĞRU.** Krom insülin reseptör tirozin kinaz aktivitesini artırarak insülin duyarlılığını yükseltir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "İnsülin etkisini güçlendirerek glukoz metabolizmasının düzenlenmesine katkı sağlayan eser element hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Selenyum",
+      "B": "Mangan",
+      "C": "Krom",
+      "D": "Flor",
+      "E": "Molibden"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Krom: DOĞRU.** Kromium insülin etki güçlendiricisidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar DUS"
+  },
+  {
+    "question": "Galaktokinaz yetersizliği olan bir kişide, aşağıdakilerden hangisini fazla miktarda içeren besinlerin alınması hastalık tablosunun gelişmesine neden olur?\n\n**Şıklar:",
+    "options": {
+      "A": "Sükroz",
+      "B": "Maltoz",
+      "C": "Fruktoz",
+      "D": "Laktoz",
+      "E": "Glukoz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Laktoz: DOĞRU.** Laktoz = Glukoz + Galaktoz. Galaktokinaz eksikliğinde laktoz alımı Galaktoz birikimi ve katarakta yol açar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Glikozidik bağlarla ilgili aşağıdaki ifadelerden hangisi doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "Oluşumu bir hidroliz tepkimesidir.",
+      "B": "Anomerik karbona bağlı hidroksil grubu, bağ yapısına katılmaz.",
+      "C": "Asitlerle yıkıma dirençlidir, ancak bazlarla kolaylıkla yıkılır.",
+      "D": "Pürinler ve riboz arasında N-glikozidik bağ oluşur.",
+      "E": "Glikoproteinlerde sadece O-glikozidik bağ mevcuttur."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A: YANLIŞ.** Dehidrasyon tepkimesidir.\n- **B: YANLIŞ.** Anomerik C-1 OH grubu katılır.\n- **C: YANLIŞ.** Asitlerle kolay yıkılır, baza dirençlidir.\n- **D: DOĞRU.** Nükleotidlerde pürin/pirimidin bazı ile şeker arasında N-glikozidik bağ vardır.\n- **E: YANLIŞ.** N- ve O-glikozidik bağlar vardır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin kataliziyle glikolizde trioz fosfatlar oluşur?\n\n**Şıklar:",
+    "options": {
+      "A": "Fosfofruktokinaz-1",
+      "B": "Fosfoheksoz izomeraz",
+      "C": "Triozfosfat izomeraz",
+      "D": "Aldolaz",
+      "E": "Enolaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) Aldolaz: DOĞRU.** 6C'li Fruktoz-1,6-BP'yi iki adet 3C'li trioz fosfata (DHAP ve G3P) böler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Glikolizde, dihidroksiaseton fosfattan gliseraldehit 3-fosfata dönüşümü iki yönlü olarak katalizleyen enzim hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Hekzokinaz",
+      "B": "Aldolaz",
+      "C": "Trioz fosfat izomeraz",
+      "D": "Enolaz",
+      "E": "Fosfogliseromutaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Trioz fosfat izomeraz: DOĞRU.** DHAP <-> G3P izomerasyonunu yapar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, heksoz monofosfat yolunun fonksiyonlarından biri değildir?\n\n**Şıklar:",
+    "options": {
+      "A": "Detoksifikasyon için asidik şeker üretimi",
+      "B": "Biyosentezler için indirgeyici güç üretimi",
+      "C": "Pentoz sentezi",
+      "D": "Pentozların glikolize girmesini sağlama",
+      "E": "Fagositoz için gerekli olan H2O2 üretimi için NADPH sağlama"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A: YANLIŞ / CEVAP.** Detoksifikasyon için asidik şeker (Glukuronik asit) üretimi **Üronik Asit Yolu**'nun görevidir, HMY'nin değil.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, insanlarda bulunmadığı için askorbik asit sentezi gerçekleşemez?\n\n**Şıklar:",
+    "options": {
+      "A": "Glukoz-6-fosfat dehidrogenaz",
+      "B": "Pirüvat kinaz",
+      "C": "L-gulonolakton oksidaz",
+      "D": "Glutatyon redüktaz",
+      "E": "Glutatyon peroksidaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) L-gulonolakton oksidaz: DOĞRU.** İnsanlarda bu enzim geni mutasyonlu olduğu için C vitamini (askorbik asit) sentezlenemez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "I. Glukoz\nII. Maltoz\nIII. Galaktoz\nIV. Sükroz\n\nYukarıdakilerden hangileri indirgenici şekerdir?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve IV",
+      "C": "I, II ve III",
+      "D": "I, II ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **I, II, III (Glukoz, Maltoz, Galaktoz):** Serbest anomerik karbondoksil grubu taşırlar, indirgendirler.\n- **IV. Sükroz:** Anomerik karbonları glikozidik bağa katıldığı için NÖTR/İNDİRGEYEN OLMAYAN şekerdir.\n- **Cevap: C (I, II ve III).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar DUS"
+  },
+  {
+    "question": "Arsenik, aşağıdaki koenzimlerden hangisi üzerinden pirüvat dehidrogenazı inhibe eder?\n\n**Şıklar:",
+    "options": {
+      "A": "Tiamin pirofosfat",
+      "B": "FAD",
+      "C": "Lipoik asit",
+      "D": "NAD",
+      "E": "Biotin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Lipoik asit: DOĞRU.** Arsenit (Arsenik) E2 bileşeni olan Lipoik asidin -SH gruplarına kovalent bağlanarak PDH, a-KGDH ve BCKDH enzimlerini durdurur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Arsenit (AsO33-) ile geri dönüşümsüz kompleks oluşturarak zehirlenmeye yol açan koenzim aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Tiamin pirofosfat",
+      "B": "Koenzim A",
+      "C": "Lipoik asit",
+      "D": "Biotin",
+      "E": "Folik asit"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Lipoik asit: DOĞRU.** Arsenit lipoik asitle kompleks yapar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi, çalışma mekanizması ve kullandığı kofaktörler açısından pirüvat dehidrogenaz enzim kompleksine benzer olup aynı enzim ailesi içinde sınıflandırılır?\n\n**Şıklar:",
+    "options": {
+      "A": "Glukoz-6-fosfat dehidrogenaz",
+      "B": "İzositrat dehidrogenaz",
+      "C": "a-ketoglutarat dehidrogenaz",
+      "D": "Yağ-açil-KoA dehidrogenaz",
+      "E": "Süksinat dehidrogenaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) a-ketoglutarat dehidrogenaz: DOĞRU.** PDH, a-KGDH ve Dallı Zincirli a-Ketoasit DH aynı süper familyaya aittir (B1, B2, B3, B5 ve Lipoat kullanırlar).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 EUS"
+  },
+  {
+    "question": "I. a-ketoglutarat dehidrogenaz\nII. Dallı zincirli a-ketoasit dehidrogenaz\nIII. Açil-KoA dehidrogenaz\nIV. Glutamat dehidrogenaz\n\nYukarıdakilerden hangileri pirüvat dehidrogenaz ile koenzim ihtiyacı ve reaksiyon mekanizması bakımından benzerlik gösteren enzim komplekslerindendir?\n\n**Şıklar:",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve IV",
+      "D": "III ve IV",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **I ve II: DOĞRU.** a-ketoglutarat DH ve Dallı zincirli a-ketoasit DH enzim kompleksleridir.\n- **Cevap: A (I ve II).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Glukoz-6-fosfat dehidrogenaz, aşağıdaki metabolik yollardan hangisinin ilk enzimidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Glikoliz",
+      "B": "Glikojenez",
+      "C": "Sitrik asit döngüsü",
+      "D": "Glukoneogenez",
+      "E": "Heksoz monofosfat yolu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **E) Heksoz monofosfat yolu: DOĞRU.** G6PDH HMY (Pentoz fosfat yolu) ilk ve hız kısıtlayıcı enzimidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ADP'nin mitokondri içine girişini, ATP'nin mitokondri dışına çıkışını inhibe ederek oksidatif fosforilasyonu inhibe eder?\n\n**Şıklar:",
+    "options": {
+      "A": "Antimisin A",
+      "B": "Dimerkaptoprol",
+      "C": "Atraktilozid",
+      "D": "Malonat",
+      "E": "Siyanür"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Atraktilozid: DOĞRU.** Adenin nükleotid translokaz inhibitörüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi, glikolizde ve glukoneogenezde ortak olarak kullanılmaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Fosfoheksoz izomeraz",
+      "B": "Fosfoenolpirüvat karboksikinaz",
+      "C": "Aldolaz",
+      "D": "Enolaz",
+      "E": "Trioz fosfat izomeraz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A, C, D, E:** Reversible çift yönlü glikoliz/glukoneogenez enzimleridir.\n- **B) PEP karboksikinaz: DOĞRU CEVAP.** Sadece glukoneogeneze özgü bypass enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Pirüvat karboksilaz ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Mitokondriyal bir enzimdir.",
+      "B": "Karboksilasyon reaksiyonu için GTP'ye gerek duyar.",
+      "C": "Aktif olduğunda, pirüvat dehidrogenaz inaktiftir.",
+      "D": "Allosterik aktivatörü asetil-KoA'dır.",
+      "E": "Koenzim olarak biotini kullanır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A, C, D, E: DOĞRU.** Mitokondriyaldir, Biotin kullanır, Asetil-KoA ile aktifleşir.\n- **B: YANLIŞ / CEVAP.** Pirüvat karboksilaz GTP değil, **ATP** harcar! PEPCK ise GTP kullanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Hücre kültürü çalışmalarında biotin bağlayan bir molekül ile biotinin bağlanması sonucu aşağıdaki enzimatik reaksiyonlardan hangisi inhibe olur?\n\n**Şıklar:",
+    "options": {
+      "A": "Glukoz -> Pirüvat",
+      "B": "Malat -> Oksaloasetat",
+      "C": "Pirüvat -> Oksaloasetat",
+      "D": "Gliseraldehit-3-fosfat -> Fruktoz-1,6-bisfosfat",
+      "E": "Oksaloasetat -> Glukoz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Pirüvat -> Oksaloasetat: DOĞRU.** Pirüvat karboksilaz biotin bağımlı karboksilazdır, biotin eksikliğinde durur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar TUS"
+  },
+  {
+    "question": "İnsülin direnci gelişmiş olan bir hastada, insülin hedef dokularında hangisi görülür?\n\n**Şıklar:",
+    "options": {
+      "A": "Kas ve adipoz doku hücrelerine glukoz alımının artması",
+      "B": "İnsülin reseptör substratı-1 (IRS-1) fosforilasyonunun artması",
+      "C": "Karaciğerde glukoneogenezin artması",
+      "D": "Adipoz dokuda lipolizin azalması",
+      "E": "İnflamasyonun azalması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Karaciğerde glukoneogenezin artması: DOĞRU.** İnsülin direncinin varlığında insülin glukoneogenezi baskılayamaz; karaciğer glukoz üretmeye devam eder ve hiperglisemi derinleşir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki glukoz taşıyıcılarından (GLUT) hangisi, hücre içi glukoz derişimi arttığında aktive olur ve glikojen yıkımından sağlanan glukozu karaciğer dışına taşır?\n\n**Şıklar:",
+    "options": {
+      "A": "GLUT 1",
+      "B": "GLUT 2",
+      "C": "GLUT 3",
+      "D": "GLUT 4",
+      "E": "GLUT 5"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) GLUT 2: DOĞRU.** Karaciğerde bulunan yüksek Km/Vmax'lı bidireksiyonel GLUT2, açlıkta karaciğerde glikojenolizle üretilen glukozu kana salar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar TUS"
+  },
+  {
+    "question": "I. Mitokondrinin dış zarında yerleşimlidir.\nII. Mitokondri matriksine proton iletir.\nIII. Oksidasyonla fosforilasyonun eşleşmesini bozar.\n\nKahverengi yağ dokusunda bulunan termogenin ile ilgili yukarıdaki ifadelerden hangileri doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız I",
+      "C": "I, II ve III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **I: YANLIŞ.** Mitokondri dış zarında değil, **İÇ ZARINDADIR**.\n- **II & III: DOĞRU.** Protonları matrikse akıtarak Oksidatif fosforilasyonu ayırır (uncoupler) ve ısı üretir.\n- **Cevap: E (II ve III).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Elektron transfer zincirindeki elektron kaçağına bağlı olarak moleküler oksijenin suya tam olarak indirgenememesi sonucu oluşan ilk reaktif oksijen türü hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Süperoksit radikali",
+      "B": "Hidrojen peroksit",
+      "C": "Hidroksil radikali",
+      "D": "Nitrik oksit",
+      "E": "Lipid radikali"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Süperoksit radikali (O2.-): DOĞRU.** ETZ'de (özellikle Kompleks I ve III) sızan tek elektronun oksijene katılmasıyla oluşan ilk ROS **Süperoksit** radikalidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "Pentoz fosfat yolunun oksidatif bölümünde beş karbonlu şekerin oluşumunu katalizleyen enzim aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Fosfoheksoz izomeraz",
+      "B": "6-fosfoglukonat dehidrogenaz",
+      "C": "Laktonaz",
+      "D": "Transketolaz",
+      "E": "Transaldolaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) 6-fosfoglukonat dehidrogenaz: DOĞRU.** 6C'li 6-fosfoglukonatı oksidatif dekarboksilasyonla 5C'li Ribüloz-5-fosfata dönüştürür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "I. Glukoz-6-fosfat dehidrogenaz\nII. Gliseraldehit-3-fosfat dehidrogenaz\nIII. Sitozolik malik enzim\n\nYukarıdaki enzimlerden hangileri NADPH oluşumunun gerçekleştiği bir basamağı katalizler?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **I. G6PDH:** NADPH üretir.\n- **II. G3PDH:** NADH üretir (NADPH değil!).\n- **III. Sitozolik Malik Enzim:** Malat -> Pirüvat dönüşümünde NADPH üretir.\n- **Cevap: C (I ve III).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki metabolik yolların hangisi NADP+ bağımlı olarak gerçekleşir?\n\n**Şıklar:",
+    "options": {
+      "A": "Laktatın pirüvata dönüşümü",
+      "B": "Malatın okzaloasetata dönüşümü",
+      "C": "Pirüvatın asetil-KoA'ya dönüşümü",
+      "D": "Glukoz-6-fosfatın 6-fosfoglukonata dönüşümü",
+      "E": "Alfa ketoglutaratın süksinil-KoA'ya dönüşümü"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) DOĞRU.** Glukoz-6-fosfat -> 6-fosfoglukonolakton/6-fosfoglukonat reaksiyonu G6PDH ile **NADP+** kullanılarak gerçekleşir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar DUS"
+  },
+  {
+    "question": "İnce bağırsak epitel hücrelerinin apikal membranında, sodyum ve glukozun geçişini sağlayan taşıyıcı protein ile ilgili hangisi doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "Hücrelerin apikal membranının her iki yönünde taşıma yapar.",
+      "B": "ATPaz aktivitesine sahiptir.",
+      "C": "Periferal membran proteinidir.",
+      "D": "Glukoz, enterosit içine glukoz gradiyenti yönünde taşınır.",
+      "E": "Taşıma için transmembran sodyum gradiyenti gereklidir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **E) DOĞRU.** SGLT-1 sekonder aktif simporter'dır. Na+/K+ ATPaz'ın oluşturduğu Na+ gradiyentini kullanarak glukoz ve galaktozu Na+ ile birlikte içeriye taşır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "I. Fruktoz, enterositlere Na-glukoz kotransporteriyle (SGLT1 ile) taşınır.\nII. Fruktoz, enterosit bazal membranından interstisyuma GLUT-2 aracılığıyla taşınır.\nIII. Galaktoz, enterositlere Na-glukoz kotransporteriyle (SGLT1 ile) taşınır.\n\nMonosakkaritlerin ince bağırsakta emilimi ile ilgili hangileri doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "I, II ve III",
+      "B": "II ve III",
+      "C": "I ve II",
+      "D": "Yalnız II",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **I: YANLIŞ.** Fruktoz SGLT-1 ile değil, **GLUT-5** ile emilir.\n- **II: DOĞRU.** Fruktoz ve glukoz basolateral zardan kana GLUT-2 ile geçer.\n- **III: DOĞRU.** Galaktoz da glukoz gibi SGLT-1 ile emilir.\n- **Cevap: B (II ve III).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin katalizlediği reaksiyon substrat düzeyinde fosforilasyona örnektir?\n\n**Şıklar:",
+    "options": {
+      "A": "Gliseraldehit-3-fosfat dehidrogenaz",
+      "B": "Fosfogliserat kinaz",
+      "C": "Pirüvat dehidrogenaz",
+      "D": "Sitrat sentaz",
+      "E": "Asetil-KoA karboksilaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **B) Fosfogliserat kinaz: DOĞRU.** 1,3-BPG + ADP -> 3-PG + ATP (Glikolizde ilk substrat düzeyinde fosforilasyon).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki moleküllerden hangisi heksoz yapısında bir monosakkarittir?\n\n**Şıklar:",
+    "options": {
+      "A": "Ksilöz",
+      "B": "Apioz",
+      "C": "Mannoz",
+      "D": "Arabinoz",
+      "E": "Sakkaroz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **C) Mannoz: DOĞRU.** 6C'li aldoheksozdur (Glukozun C-2 epimeri). Ksilöz/Arabinoz 5C'li pentozdur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 EUS"
+  },
+  {
+    "question": "Glikolizde, substrat olarak 1 mol gliseraldehit-3-fosfattan 1 mol pirüvat oluştuğunda hangisi elde edilir?\n\n**Şıklar:",
+    "options": {
+      "A": "1 mol ATP ve 2 mol NADH",
+      "B": "2 mol ATP ve 2 mol NADH",
+      "C": "2 mol ATP ve 1 mol NADPH",
+      "D": "2 mol ATP ve 1 mol NADH",
+      "E": "2 mol ATP ve 2 mol NADPH"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **D) 2 mol ATP ve 1 mol NADH: DOĞRU.** 1 mol G3P'tan 1 mol Pirüvat oluşurken: G3PDH adımında 1 NADH; PGK ve PK adımlarında toplam 2 ATP üretilir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Akut siyanür zehirlenmesi şüphesi ile amil nitrit tedavisi uygulanan hastadaki metabolik olaylara ilişkin hangileri yanlıştır?\nI. Methemoglobin oluşumu artmıştır.\nII. Siyanomethemoglobin oluşumu azalmıştır.\nIII. Karaciğerdeki rodanaz, tiyosiyanatı substrat olarak kullanır.\nIV. Rodanaz aktivitesi sonucu sülfit oluşur.\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "II ve III",
+      "D": "I, II ve IV",
+      "E": "I, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **I: DOĞRU.** Amil nitrit Hb'yi Methemoglobin'e çevirir.\n- **II: YANLIŞ.** Siyanür methemoglobine bağlanarak Siyanomethemoglobin OLUŞUR (artar).\n- **III: YANLIŞ.** Rodanaz tiyosiyanatı üretir, substrat olarak thiosulfate (tiyosülfat) kullanır.\n- **IV: DOĞRU.** Rodanaz ürünü sülfittir.\n- **Cevap: C (II ve III).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "İnsülin ve glukagon, aşağıdaki bileşiklerden hangisi üzerinden karaciğerde glikoliz ve glukoneogenez hızını kontrol eder?\n\n**Şıklar:",
+    "options": {
+      "A": "Fruktoz-6-fosfat",
+      "B": "Fosfoenol pirüvat",
+      "C": "1,3-bisfosfogliserat",
+      "D": "Fruktoz-1,6-bisfosfat",
+      "E": "Fruktoz-2,6-bisfosfat"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **E) Fruktoz-2,6-bisfosfat: DOĞRU.** İnsülin/Glukagon oranı F2,6BP seviyesini belirler. F2,6BP PFK-1'i aktive edip F1,6BPase'i inhibe ederek karaciğer metabolizma yönünü tayin eden en kritik moleküldür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Yüksek konsantrasyonlarda AMP, fruktoz 2,6-bisfosfat ve glukagonun birbirinden bağımsız olarak, karaciğer fosfofruktokinaz-1 enzim aktivitesi üzerine olan etkisi ilgili aşağıdakilerden hangisi doğrudur?\n(AMP / Fruktoz 2,6-bisfosfat / Glukagon)\n\n**Şıklar:",
+    "options": {
+      "A": "Artar / Artar / Artar",
+      "B": "Azalır / Azalır / Azalır",
+      "C": "Artar / Artar / Azalır",
+      "D": "Azalır / Artar / Azalır",
+      "E": "Azalır / Artar / Artar"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **AMP:** PFK-1'i **Artırır**.\n- **Fruktoz 2,6-bisfosfat:** PFK-1'i **Artırır**.\n- **Glukagon:** PFK-1 aktivitesini **Azaltır** (F2,6BP'yi düşürerek).\n- **Doğru Cevap: C (Artar / Artar / Azalır).**",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 EUS"
+  },
+  {
+    "question": "Açlık durumunda glukoneogenezin düzenlenmesi ile ilgili hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Yüksek AMP/ATP oranı fruktoz-1,6-bisfosfatazı inhibe eder.",
+      "B": "Karaciğerde asetil-KoA düzeyi artar.",
+      "C": "cAMP düzeyi artar.",
+      "D": "Fruktoz-2,6-bisfosfat düzeyi artar.",
+      "E": "Fosfoenolpirüvatın pirüvata dönüşümü azalır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A, B, C, E: DOĞRU.**\n- **D: YANLIŞ / CEVAP.** Açlıkta Glukagon/cAMP artışı ile Fruktoz-2,6-bisfosfat düzeyi **ARTMAZ, AKSİNE DÜŞER**! F2,6BP düşünce glikoliz durur, glukoneogenez hızlanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 1 - KARBONHİDRATLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  }
+]

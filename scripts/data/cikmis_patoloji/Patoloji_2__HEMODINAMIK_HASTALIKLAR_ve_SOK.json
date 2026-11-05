@@ -1,0 +1,596 @@
+[
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 201,
+    "question": "Ağır yanıkların erken evrelerindeki vasküler geçirgenlik artışı, esas olarak aşağıdaki mekanizmalardan hangisiyle gerçekleşir?",
+    "options": {
+      "A": "Vasküler endotelyal büyüme faktörü etkisi",
+      "B": "Hücre içi kanalların genişlemesi",
+      "C": "Direkt endotel hasarı",
+      "D": "Lökosite bağımlı endotelyal zedelenme",
+      "E": "Artmış transitoz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Direkt endotel hasarı; ağır termal yanıklar, ciddi fiziksel travmalar ve mikrobiyal nekrotizan toksinler sonucu gelişir. Nekroz ve endotel kaybı nedeniyle damar bariyeri aniden bozulur ve şiddetli sıvı-protein sızıntısı oluşur.\n**Çeldiriciler:** Vasküler endotelyal büyüme faktörü (A) kronik anjiyogenez sürecinde rol oynar; Hücre içi kanalların genişlemesi (B) ve Artmış transitoz (E) histamin gibi hafif mediyatörlerin oluşturduğu geçici durumlarda belirgindir; Lökosite bağımlı endotelyal zedelenme (D) ise olayın daha geç dönemlerinde nötrofil birikimiyle ortaya çıkar.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 202,
+    "question": "Vasküler zedelenmede görülen normal hemostatik mekanizmalar;\nI. Doku faktörünün sentezi ve trombin oluşumu,\nII. Geçici vazokonstrüksiyon,\nIII. Trombositlerin, ekstraselüler matriksle yapışması,\nIV. Fibrin ağının oluşumu\nBu mekanizmaların oluş sırası aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "I - II - III - IV",
+      "B": "I - III - II - IV",
+      "C": "II - I - III - IV",
+      "D": "II - III - I - IV",
+      "E": "III - II - I - IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Vasküler zedelenmede ilk yanıt nörojenik refleksler ve endotelin salınımıyla gelişen geçici vazokonstrüksiyondur (II). Ardından von Willebrand faktör aracılığıyla trombositler subendotelyal kollojene yapışarak primer pıhtıyı oluşturur (III). Hasarlı dokudan açığa çıkan doku faktörü pıhtılaşma kaskadını tetikler ve trombin oluşturur (I). Son aşamada trombin fibrinojeni çözünmeyen fibrin liflerine dönüştürerek sekonder hemostatik tıkayı tamamlar (IV).\n**Çeldiriciler:** Geçici vazokonstrüksiyon nörojenik refleksle anında gerçekleştği için (I) ile başlanan A ve B seçenekleri yanlıştır; Trombosit adhezyonu doku faktörünün pıhtılaşma kaskadını tamamlamasından önce gerçekleştiği için (C) ve (E) sıralamaları hatalıdır.\nÖncül Analizi:\n- Öncül I (Doku faktörünün sentezi ve trombin oluşumu): Sekonder hemostazın başlangıç basamağıdır, vazokonstrüksiyon ve trombosit adhezyonundan sonra gerçekleşir.\n- Öncül II (Geçici vazokonstrüksiyon): Nörojenik mekanizmalarla saniyeler içinde gelişen ilk yanıttır.\n- Öncül III (Trombositlerin yapışması): Vazokonstrüksiyonu takip eden primer hemostaz basamağıdır.\n- Öncül IV (Fibrin ağının oluşumu): Trombin etkisüyle pıhtılaşma kaskadının en son aşamasıdır.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 203,
+    "question": "Aşağıdakilerden hangisi, masif pulmoner emboli seyrinde gelişmesi beklenen şok tipidir?",
+    "options": {
+      "A": "Anafilaktik",
+      "B": "Septik",
+      "C": "Hipovolemik",
+      "D": "Nörojenik",
+      "E": "Kardiyojenik"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Masif pulmoner emboli, ana pulmoner arter dallarını tıkayarak sağ ventrikül çıkış yolunu aniden engeller. Kalbin ileriye doğru kan pompalama kapasitesi çökerek kardiyojenik şok tablosu geliştirir.\n**Çeldiriciler:** Anafilaktik şok (A) Tip I aşırı duyarlılık reaksiyonlarıyla vazoaktif aminlerin salınması sonucu oluşur; Septik şok (B) sistemik bakteriyel/mikrobiyal enfeksiyon yanıtıyla gelişir; Hipovolemik şok (C) masif kanama veya sıvı kaybı sonucu oluşur; Nörojenik şok (D) spinal kord zedelenmesinde vasküler tonus kaybı nedeniyle görülür.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 204,
+    "question": "Aşağıdakilerden hangisinde ödem hidrostatik basınç artışı sonucu oluşur?",
+    "options": {
+      "A": "Konstriktif perikardit",
+      "B": "Böbrek tübüllerinde sodyum reabsorpsiyonunda artma",
+      "C": "Malnütrisyon",
+      "D": "Nefrotik sendrom",
+      "E": "Menetrier hastalığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Konstriktif perikardit, kalbin diyastolik doluşunu kısıtlayarak sistemik venöz sistemde geriye doğru kan birikmesine ve venöz hidrostatik basıncın artması sonucu ödeme yol açar.\n**Çeldiriciler:** Böbrek tübüllerinde sodyum reabsorpsiyon artışı (B) primer sıvı retansiyonudur; Malnütrisyon (C), Nefrotik sendrom (D) ve Menetrier hastalığı (E) ise protein kaybı veya yetersizliği nedeniyle plazma onkotik basıncının azalması sonucu ödeme yol açar.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 205,
+    "question": "Femur kırığı nedeniyle hastaneye yatırılışının 3. gününde; ani gelişen takipne, dispne, taşikardi ve trombositopeni bulguları sonrasında oluşan koma nedeniyle eksitus gerçekleşen 72 yaşındaki kadın hastaya otopsi yapılıyor. Bu hastanın ölümüne yol açan en olası bulgu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Karaciğer dokusunda hepatositlerde intrasitoplazmik yağ birikimi",
+      "B": "Kalp kasında yağlı infiltrasyon varlığı",
+      "C": "Pulmoner sirkülasyonda skuamöz hücre ve kıl yapılarının varlığı",
+      "D": "Beyinde lifekfasiyon nekrozu",
+      "E": "Pulmoner sirkülasyonda kemik iliği dokusu ve yağ globüllerinin varlığı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Uzun kemik (femur) kırıklarından 1-3 gün sonra kemik iliğindeki Yağ Embolisi Sendromu tablosu gelişir. Mikroskobide pulmoner sirkülasyonda yağ damlacıkları ve kemik iliği elemanlarının görülmesi patognomoniktir.\n**Çeldiriciler:** Hepatositlerde yağ birikimi (A) karaciğer yağlanmasıdır (steatoz); Kalp kasında yağlı infiltrasyon (B) kronik obezite veya yaşlılık bulgusudur; Pulmoner sirkülasyonda skuamöz hücre ve kıl varlığı (C) amniyon sıvısı embolisinin otopsi bulgusudur; Beyinde likefaksiyon nekrozu (D) iskemik inme sonucudur.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 206,
+    "question": "Yumuşak doku içine kanama sonucunda ortaya çıkan kitleye verilen isim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ekimoz",
+      "B": "Purpura",
+      "C": "Peteşi",
+      "D": "Trombüs",
+      "E": "Hematom"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Hematom, doku veya organ içerisine olan ve belirgin bir kitle (şişlik) oluşturan lokalize kan birikimidir.\n**Çeldiriciler:** Ekimoz (A) 1-2 cm çapındaki daha geniş yüzeysel cilt kanamalarıdır (morluk); Purpura (B) 3-5 mm boyutlu kanama odaklarıdır; Peteşi (C) 1-2 mm boyutundaki nokta şeklindeki yüzeysel kanamalardır; Trombüs (D) damar içi pıhtı oluşumudur.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 207,
+    "question": "Aşağıdakilerden hangisi ekstraselüler ödeme neden olan durumlardan biri değildir?",
+    "options": {
+      "A": "Kapiller hidrostatik basıncın artması",
+      "B": "Kapiller geçirgenliğin artması",
+      "C": "Plazma onkotik basıncının artması",
+      "D": "Venöz pompanın yetersizliği",
+      "E": "Arteriyoler direncin azalması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Plazma onkotik basıncının artması, sıvıyı damar yatağı içinde tutan emme kuvvetini yükseltir. Bu durum dokular arası alana sıvı kaçışını engeller, yani ödem oluşumunu azaltır.\n**Çeldiriciler:** Kapiller hidrostatik basınç artışı (A), kapiller geçirgenlik artışı (B), venöz pompa yetersizliği (D) ve arteriyoler direncin azalmasıyla dokuya kan akımının artması (E) ekstraselüler alana sıvı kaçışını artırarak ödeme yol açar.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 208,
+    "question": "Damar yaralanması durumunda doku faktörüne bağlanarak faktör X'u aktive eden ve ekstrensek pıhtılaşma yolağında işlevi olan protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Faktör XII",
+      "B": "Faktör XI",
+      "C": "Faktör IX",
+      "D": "Faktör VIII",
+      "E": "Faktör VII"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Ekstrensek pıhtılaşma yolağında zedelenmiş dokulardan salınan Doku Faktörü (TF) ile spesifik kompleks oluşturan ve Faktör X'u aktive eden tek faktör Faktör VII'dir.\n**Çeldiriciler:** Faktör XII (A), Faktör XI (B), Faktör IX (C) ve Faktör VIII (D) pıhtılaşmanın intrensek yolağında görev alan proteinlerdir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 209,
+    "question": "I. Protein kaybıyla seyreden gastroenteropati\nII. Yeni gelişmiş konjestif kalp yetmezliği\nIII. Siroz\nYukarıdakilerden hangileri damar içi onkotik basıncı azaltarak ödeme neden olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Gastroenteropatide bağırsaktan protein kaybı (I) ve sirozda karaciğerin albümin sentezleyememesi (III) hipoalbüminemiye yol açarak plazma onkotik basıncını düşürür ve ödem yapar. Konjestif kalp yetmezliği (II) ise hidrostatik basınç artışı mekanizmasıyla ödem oluşturur.\n**Çeldiriciler:** Kalp yetmezliği (II) onkotik basınç azalması değil hidrostatik basınç artışı yaptığı için II içeren B, C ve E seçenekleri elenir.\nÖncül Analizi:\n- Öncül I: Bağırsaktan proteini sızdırarak plazma albüminini ve onkotik basıncı düşürür.\n- Öncül II: Venöz kan birikimiyle hidrostatik basıncı artırır (onkotik basınçla ilgili değildir).\n- Öncül III: Albümin üretimini bozarak onkotik basıncı azaltır.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 211,
+    "question": "Hipovolemik şok sürecinin ilerleyici olmayan (nonprogresif/kompanse) evresinde aşağıdakilerden hangisi gerçekleşmez?",
+    "options": {
+      "A": "Baroreseptör refleksler",
+      "B": "Katekolamin salınımı",
+      "C": "ADH salınımı",
+      "D": "Laktik asidoz",
+      "E": "Sempatik stimülasyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Nonprogresif (kompanse) evrede refleks sempatik uyarılma, katekolamin ve ADH salımı ile kan basıncı korunur. Dokularda şiddetli hipoksi, anaerobik glikoliz ve laktik asidoz gelişimi ise progresif (ilerleyici) evrenin özelliğidir.\n**Çeldiriciler:** Baroreseptör refleksleri (A), katekolamin salınımı (B), ADH salınımı (C) ve sempatik stimülasyon (E) nöroümoral kompensasyon mekanizmaları olup nonprogresif evrede aktiftir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 212,
+    "question": "Damar duvarı ile bağlantısız, üstü sarı, alt kısmı kırmızı, jelatinöz yapıdaki bir pıhtı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Hiperkoagülopati ile ilişkilidir.",
+      "B": "Kalsiyum birikimi içerir.",
+      "C": "Sistemik lupus eritematozus zemininde gelişmiştir.",
+      "D": "Zahn çizgisi içerir.",
+      "E": "Postmortem dönemde oluşmuştur."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Postmortem (ölüm sonrası) pıhtılar canlılık göstergesi olan Zahn çizgilerini içermez, damar duvarına yapışık değildir, üstte tavuk yağı görünümünde sarı serum tabakası ve altta çöken eritrosit kütlesi bulundurur.\n**Çeldiriciler:** Canlılık sırasında oluşan antemortem trombüsler damar duvarına sıkıca yapışık olup belirgin Zahn çizgileri barındırır (A, C, D yanlış); Postmortem pıhtıda distrofik kalsifikasyon izlenmez (B yanlış).\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 213,
+    "question": "Yeni doğum yapmış 35 yaşındaki hasta, ani gelişen dispne nedeniyle yoğun bakıma alınıyor. Uzamış yoğun vajinal kanamanın yanı sıra deride peteşi ve ekimozlar dikkati çekiyor. Bu hastanın damarlarında izlenecek en olası morfolojik değişiklik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kemik iliği partikülleri",
+      "B": "Kolesterol yarıkları",
+      "C": "Mikrotrombüsler",
+      "D": "Gaz partikülleri",
+      "E": "Yağ fragmanları"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Doğum esnasında gelişen Amniyon Sıvısı Embolisi, amniyon sıvısındaki doku faktörlerinin maternal dolaşıma geçmesiyle yaygın damar içi pıhtılaşmaya (DİC) yol açar. DİC zemininde küçük damarlarda yaygın mikrotrombüsler ve tüketim koagülopatisi gelişir.\n**Çeldiriciler:** Kemik iliği partikülleri (A) ve Yağ fragmanları (E) uzun kemik kırıklarında görülür; Kolesterol yarıkları (B) aterosklerotik plak yırtılmasında izlenir; Gaz partikülleri (D) dekompresyon (vurgun) hastalığında oluşur.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 214,
+    "question": "Aşağıdakilerden hangisi pulmoner tromboemboli etiyolojisinde öncelikle oynayan etkenlerden biri değildir?",
+    "options": {
+      "A": "Bacakta derin ven trombüsü",
+      "B": "Derin deniz dalış öyküsü",
+      "C": "Yeni geçirilmiş cerrahi girişim",
+      "D": "Malign tümör",
+      "E": "Hamilelik"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Pulmoner tromboemboli esas olarak derin ven trombüslerinin (DVT) kopup akciğere gitmesiyle oluşur. Derin deniz dalış öyküsü ise kanda çözünmüş azot gazının kabarcık oluşturmasıyla gelişen Gaz/Hava Embolisine neden olur.\n**Çeldiriciler:** Bacakta DVT (A), uzamış immobilizasyona yol açan cerrahi (C), prokoagülan salan malign tümörler (D) ve östrojen artışıyla seyreden hamilelik (E) pulmoner tromboemboli riskini artıran temel faktörlerdir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 215,
+    "question": "Sağ kalp yetmezliğine bağlı olarak karaciğerde kronik venöz konjesyon olan bir hastanın karaciğer dokusunda aşağıdakilerden hangisinin saptanması en az olasıdır?",
+    "options": {
+      "A": "Sinüzoidal dilatasyon",
+      "B": "Sentrolobüler hemoraji",
+      "C": "Sentrolobüler hepatositlerde atrofi",
+      "D": "Hemosiderin yüklü makrofajlar",
+      "E": "Portal fibrozis"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kronik venöz konjesyonda (Hindistan cevizi karaciğer) venöz kan birikimi ve basınç artışı santral ven çevresinden (Zone 3) başlar; bu alanda sinüzoidal dilatasyon, hemoraji ve sentrolobüler atrofi izlenir. Portal bölge (Zone 1) ise en az etkilenen alandır, bu nedenle portal fibrozis gelişimi beklenmez.\n**Çeldiriciler:** Sinüzoidal dilatasyon (A), sentrolobüler hemoraji (B), sentrolobüler hepatosit atrofisi (C) ve dökülen eritrositleri yutan hemosiderin yüklü makrofajlar (D) kronik venöz konjesyonun tipik zon 3 morfolojik bulgularıdır.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 216,
+    "question": "Aşağıdakilerden hangisi venöz trombüs özelliği değildir?",
+    "options": {
+      "A": "Sıklıkla alt ekstremite venlerinde görülür.",
+      "B": "Eritrositten zengindir.",
+      "C": "Tromboembolizme yol açabilir.",
+      "D": "Zahn çizgileri içerir.",
+      "E": "Sıklıkla endotel hasarı sonucunda oluşur."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Venöz trombüsler (Kırmızı trombüs), arteriyel trombüslerin aksine endotel hasarından ziyade esas olarak venöz staz ve kanın pıhtılaşma eğiliminin artması (hiperkoagülabilite) sonucu oluşur.\n**Çeldiriciler:** Venöz trombüsler sıklıkla bacak derin venlerinde yerleşir (A), yavaş akımda eritrositleri hapsederek kırmızı görünür (B), koparak pulmoner emboli yapabilir (C) ve canlıda oluştuğunu gösteren Zahn çizgilerini içerir (D).\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 217,
+    "question": "Konjestif kalp yetmezliği olan bir hastadan torasentez ile alınan sıvıya ilişkin;\nI. Proteinden zengindir,\nII. Görünümü berraktır,\nIII. Glukoz içeriği plazma ile benzerdir\nifadelerinden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kalp yetmezliğine bağlı ödem sıvısı bir transudadır. Transuda sıvıları damar bütünlüğü bozulmadığı için proteinden fakirdir (I yanlış), hücre içermediğinden görünümü berraktır (II) ve küçük moleküller serbestçe sızdığı için glukoz düzeyi plazma ile eşdeğerdir (III).\n**Çeldiriciler:** İnflamatuvar eksudaların aksine transuda sıvısı proteinden fakir olduğu için I olan A, D seçenekleri elenir.\nÖncül Analizi:\n- Öncül I: Hatalıdır; transudalar proteinden fakirdir (<3 g/dL).\n- Öncül II: Doğrudur; süzülen berrak sıvıdır.\n- Öncül III: Doğrudur; damar geçirgenliği artmadığı için küçük çözünen maddeler plazmayla dengededir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 218,
+    "question": "Aşağıdakilerden hangisi K vitaminine bağımlı bir faktör değildir?",
+    "options": {
+      "A": "Faktör II",
+      "B": "Faktör VII",
+      "C": "Faktör X",
+      "D": "Faktör IX",
+      "E": "Faktör IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Karaciğerde sentezlenen ve fonksiyonel kalabilmek için K vitaminine ihtiyaç duyan pıhtılaşma faktörleri Faktör II, VII, IX, X ile antikoagülan Protein C ve Protein S'dir. Faktör IV ise pıhtılaşmada kofaktör olan inorganik Kalsiyum iyonudur.\n**Çeldiriciler:** Faktör II (A), Faktör VII (B), Faktör X (C) ve Faktör IX (D) K vitamini bağımlı prokoagülan proteinlerdir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 220,
+    "question": "Protein C antikoagülan etkisini aşağıdaki pıhtılaşma faktörlerinden hangisini inaktive ederek göstermektedir?",
+    "options": {
+      "A": "F VII ve F X",
+      "B": "F V ve F VIII",
+      "C": "F VII ve F IX",
+      "D": "F V ve F X",
+      "E": "F VII ve F X"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Endotelde trombomodulin-trombin kompleksiyle aktifleşen Protein C (kofaktörü Protein S eşliğinde), pıhtılaşma kaskadının en kritik kofaktörleri olan Faktör Va ve Faktör VIIIa'yı parçalayarak inaktive eder.\n**Çeldiriciler:** Faktör VII, IX ve X serine proteaz enzimleridir; Protein C spesifik olarak kofaktör yapısındaki Faktör V ve VIII'i hedef alır.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 221,
+    "question": "Hipovolemik şoktaki bir hastanın böbrek dokusunda aşağıdaki morfolojik değişikliklerden hangisinin gerçekleşmesi en olasıdır?",
+    "options": {
+      "A": "İnterstisyel kanama",
+      "B": "İnterstisyel granülom",
+      "C": "Akut proliferatif glomerulonefrit",
+      "D": "Akut tübüler hasar",
+      "E": "Nefrokalsinozis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Şoktaki şiddetli sistemik hipoperfüzyon böbreklerde iskemik zedelenmeye ve tübül epitel hücrelerinde nekroz ile seyreden Akut Tübüler Hasara (ATH) neden olur.\n**Çeldiriciler:** İnterstisyel kanama (A) travma/vaskülitte görülür; Granülom (B) enfeksiyon/sarkoidozda izlenir; Glomerulonefrit (C) immün kompleks hastalığıdır; Nefrokalsinozis (E) hipermense bağlı kalsiyum çökmesidir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 222,
+    "question": "I. Dissemine intravasküler koagülasyon\nII. İmmün trombositopenik purpura\nIII. Megaloblastik anemi\nYukarıdaki hastalıkların hangilerinde görülen trombositopeninin temel nedeni trombositlerin artmış yıkımıdır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Dissemine intravasküler koagülasyonda (I) mikrotrombüsler içinde tüketim nedeniyle, İmmün Trombositopenik Purpurada (II) ise anti-trombosit otoantikorları aracılığıyla dalakta periferik yıkım sonucu trombositopeni oluşur. Megaloblastik anemide (III) ise kemik iliğinde DNA sentez bozukluğuna bağlı üretim yetersizliği (inefektif trombopoez) mevcuttur.\n**Çeldiriciler:** Megaloblastik anemi yıkım değil üretim bozukluğu olduğu için III içeren C ve E seçenekleri elenir.\nÖncül Analizi:\n- Öncül I (DİC): Yaygın pıhtılaşma sonucu trombositlerin aşırı tüketilmesi ve yıkımı söz konusudur.\n- Öncül II (İTP): Otoantikorlarla kaplanan trombositlerin makrofajlarca yıkımı gerçekleşir.\n- Öncül III (Megaloblastik Anemi): B12/Folat eksikliğinde kemik iliğinde üretim yetersizliğidir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 223,
+    "question": "Sağdan sola şantlı konjenital kalp hastalığı olan çocuk hastada emboliye bağlı serebral iskemik enfarkt gelişmesi aşağıdakilerden hangisiyle açıklanır?",
+    "options": {
+      "A": "Septik emboli",
+      "B": "Yağ embolisi",
+      "C": "Paradoksal emboli",
+      "D": "Hava embolisi",
+      "E": "Saddle (eyer) emboli"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sistemik venöz dolaşımdan kaynaklanan bir trombüsün, kalpteki sağdan sola şant (ASD veya VSD) aracılığıyla akciğer kılcal damar filtresini baypas edip sistemik arteriyel dolaşıma ve beyne geçmesine Paradoksal Emboli adı verilir.\n**Çeldiriciler:** Septik emboli (A) enfekte pıhtılardır; Yağ embolisi (B) kemik kırıklarında görülür; Hava embolisi (D) damara gaz girmesidir; Saddle emboli (E) pulmoner arter çatallanmasını tıkayan büyük pıhtıdır.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 224,
+    "question": "Nefrotik sendromlu hastalarda görülen sistemik ödemin en olası nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Plazma ozmotik basıncının azalması",
+      "B": "Potasyum retansiyonunun artması",
+      "C": "Lenfatik obstrüksiyon",
+      "D": "Çevre dokulara bası oluşması",
+      "E": "Tromboza bağlı pasif konjesyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Nefrotik sendromda glomerül süzgeç bariyerinin bozulmasıyla idrarla masif albümin kaybedilir (proteinüri). Hipoalbüminemi geliştiğinde plazmanın sıvıyı tutan ozmotik (onkotik) basıncı düşer ve dokular arasına yaygın sıvı kaçarak jeneralize ödem oluşur.\n**Çeldiriciler:** Potasyum artışı (B), lenfatik tıkanıklık (C), doku basısı (D) veya tromboz (E) nefrotik sendromdaki primer sistemik ödem mekanizması değildir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 225,
+    "question": "Kırk yaşındaki kadın hastada genetik etiyolojili derin ven trombozu ve tekrarlayan pulmoner emboli hikâyesi bulunması durumunda öncelikle aşağıdakilerden hangisi düşünülmelidir?",
+    "options": {
+      "A": "Homosisteinemi",
+      "B": "Protein S eksikliği",
+      "C": "Faktör V Leiden mutasyonu",
+      "D": "Hiperöstrojenemi",
+      "E": "Antifosfolipid antikor sendromu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kalıtsal (primer) trombofili nedenleri arasında toplumda ve venöz tromboz olgularında en sık görülen genetik bozukluk Faktör V Leiden mutasyonudur (aktif protein C'ye direnç gelişir).\n**Çeldiriciler:** Homosisteinemi (A) ve Protein S eksikliği (B) daha nadir kalıtsal nedenlerdir; Hiperöstrojenemi (D) ve Antifosfolipid sendromu (E) kazanılmış (sekonder) hiperkoagülabilite nedenleridir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 226,
+    "question": "Aşağıdakilerden hangisi vasküler tromboz gelişimine zemin hazırlayan bir durum değildir?",
+    "options": {
+      "A": "Antifosfolipid antikor sendromu",
+      "B": "von Willebrand hastalığı",
+      "C": "Orak hücreli anemi",
+      "D": "Oral kontraseptif kullanımı",
+      "E": "Protein C eksikliği"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** von Willebrand hastalığı, vWF eksikliği nedeniyle trombositlerin kollojene adhezyonunu bozar ve kanama eğilimine yol açar; tromboz gelişimine zemin hazırlamaz.\n**Çeldiriciler:** Antifosfolipid sendromu (A), Orak hücreli anemi (C), östrojen içeren oral kontraseptifler (D) ve doğal antikoagülan olan Protein C eksikliği (E) tromboz riskini belirgin şekilde artıran hiperkoagülan durumlardır.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 227,
+    "question": "Elli altı yaşındaki kadın hasta majör abdominal cerrahi sonrası, sol bacağında huzursuzluk ve şişme şikâyetleriyle başvuruyor. Fizik incelemede bacak hareketinde hafif zorluk ve palpasyonda hassasiyet görülen hastada Doppler ultrasonografi ile sol bacakta derin venlerde tromboz tespit ediliyor. Bu hastada oluşan tablonun en olası nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İmmobilizasyon",
+      "B": "Hiperkalsemi",
+      "C": "Asetilsalisilik asit kullanımı",
+      "D": "Nitrik oksit salınımı",
+      "E": "Türbülan kan akımı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Majör cerrahi sonrası yatak istirahati (immobilizasyon), venöz sistemde kan akımının yavaşlamasına (staz) neden olarak Virchow triadı zemininde derin ven trombozu (DVT) gelişmesine yol açar.\n**Çeldiriciler:** Hiperkalsemi (B) taş ve aritmi yapar; Aspirin (C) ve Nitrik Oksit (D) trombosit agregasyonunu ve pıhtılaşmayı inhibe eder; Türbülan kan akımı (E) venlerde değil esas olarak arteriyel sistemde tromboz yapar.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 228,
+    "question": "Aşağıdaki durumların hangisine bağlı olarak gelişen pulmoner embolide, damar lümeninde hematopoetik hücrelerin görülmesi en olasıdır?",
+    "options": {
+      "A": "Gebelik",
+      "B": "Vurgun",
+      "C": "Ateroskleroz",
+      "D": "Paraneoplazi",
+      "E": "Kırık"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Uzun kemik (femur, tibia) kırıklarında kemik iliği stroma ve yağ dokusu parçalanarak dolaşıma geçer. Pulmoner emboli odağında damar lümeninde yağ globülleriyle birlikte hematopoetik hücrelerin görülmesi kırık zemininde gelişen emboliye özgüdür.\n**Çeldiriciler:** Gebelik (A) amniyon sıvısı embolisi yapar; Vurgun (B) azot gaz kabarcığı oluşturur; Ateroskleroz (C) kolesterol kristalleri sızdırır; Paraneoplazi (D) fibrin trombüsü oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 229,
+    "question": "Aşağıdakilerden hangisinin yağ embolisine neden olma riski en yüksektir?",
+    "options": {
+      "A": "Diabetes mellitus",
+      "B": "Kardiyopulmoner by-pass",
+      "C": "Doğum",
+      "D": "Uzun kemik kırığı",
+      "E": "Yanık"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Yağ embolisi tablosuna yol açma riski en yüksek olan klinik durum uzun kemik (özellikle femur ve tibia) kırıklarıdır.\n**Çeldiriciler:** Diabetes mellitus (A), kardiyopulmoner by-pass (B), doğum (C) ve yanıklar (E) yağ embolisine yol açabilse de risk uzun kemik travmalarına kıyasla son derece düşüktür.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 230,
+    "question": "Aşağıdakilerden hangisinin gelişiminde viral etki söz konusu değildir?",
+    "options": {
+      "A": "Gastrik MALToma",
+      "B": "Sinonazal papillom",
+      "C": "Servikal in situ karsinom",
+      "D": "Nazofarenks karsinomu",
+      "E": "Hepatoselüler karsinom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Gastrik MALToma etiyolojisinde kronik uyarım yapan temel mikroorganizma viral değil, bir bakteri olan Helicobacter pylori'dir.\n**Çeldiriciler:** Sinonazal papillom (B) ve Servikal ca (C) HPV ile; Nazofarenks karsinomu (D) EBV ile; Hepatoselüler karsinom (E) ise HBV ve HCV virüsleri ile doğrudan ilişkilidir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 231,
+    "question": "Reaktif germinal merkezler çevresindeki küçük lenfoid hücrelerin proliferasyonu ve t(11;14) translokasyonu ile karakterize matür B hücreli lenfoma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Küçük lenfositik lenfoma",
+      "B": "Marjinal zon lenfoması",
+      "C": "Foliküler lenfoma",
+      "D": "Burkitt lenfoma",
+      "E": "Mantle hücreli lenfoma"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** t(11;14) translokasyonu sonucunda 11. kromozomdaki Siklin D1 geni 14. kromozomdaki IgH yanına taşınır ve aşırı Siklin D1 üretimiyle Mantle Hücreli Lenfoma gelişir.\n**Çeldiriciler:** Küçük lenfositik lenfoma (A) trisomi 12 / del 13q ile; Marjinal zon lenfoması (B) t(11;18) ile; Foliküler lenfoma (C) t(14;18) BCL-2 ile; Burkitt lenfoma (D) t(8;14) c-MYC ile karakterizedir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 232,
+    "question": "Rejenerasyon ve yara iyileşmesinde keratinosit göçü, anjiyogenez, yara kontraksiyonu ve matriks depolanmasına yol açan faktör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Epidermal büyüme faktörü",
+      "B": "Vasküler endoteliyal büyüme faktörü",
+      "C": "Fibroblast büyüme faktörü",
+      "D": "Tümör nekrozis faktör",
+      "E": "Transforme edici büyüme faktörü"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Fibroblast Büyüme Faktörü (FGF), epitelizasyon için keratinosit göçünü uyarır, yeni damar oluşumunu (anjiyogenez) tetikler ve fibroblastları uyararak miyofibroblast dönüşümü ile yara kontraksiyonunu sağlar.\n**Çeldiriciler:** EGF (A) esas olarak epitel hücresi mitojenidir; VEGF (B) sadece endotel hücre proliferasyonu ve geçirgenliğinde etkilidir; TNF (D) inflamatuvar sitokindir; TGF-beta (E) kontraksiyondan ziyade temel fibrozis ve koljen sentez faktörüdür.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 233,
+    "question": "Aşağıdaki hastalıklardan hangisi paraneoplastik bir sürecin sonucunda gelişmez?",
+    "options": {
+      "A": "Cushing sendromu",
+      "B": "Polisitemi",
+      "C": "Hipertrofik osteoartropati",
+      "D": "Saf kırmızı küre aplazisi",
+      "E": "Parkinson hastalığı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Parkinson hastalığı, substantia nigra'daki dopaminerjik nöronların kaybıyla giden primer nörodejeneratif bir hastalıktır; tümörlerin hormon/sitokin salınımıyla oluşan paraneoplastik bir süreç değildir.\n**Çeldiriciler:** Cushing sendromu (A) akciğer küçük hücreli ca ektopik ACTH salımıyla; Polisitemi (B) renal karsinom Epo salımıyla; Hipertrofik osteoartropati (C) akciğer karsinomlarıyla; Saf kırmızı küre aplazisi (D) timoma ile gelişen paraneoplastik tablolardır.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 234,
+    "question": "Aşağıdakilerden hangisi gastrointestinal adenokarsinoma eşlik edebilen deri lezyonudur?",
+    "options": {
+      "A": "Akantozis nigrikans",
+      "B": "Lökoplaki",
+      "C": "Aktinik keratoz",
+      "D": "Psöriasis",
+      "E": "Bowen hastalığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Malign Akantozis Nigrikans (Tip 2), özellikle mide adenokarsinomu gibi gastrointestinal sistem malignitelerine eşlik eden paraneoplastik bir hiperkeratotik dermatolojik lezyondur.\n**Çeldiriciler:** Lökoplaki (B) premalign oral mukoza lezyonudur; Aktinik keratoz (C) skuamöz hücreli karsinom öncülüdür; Psöriasis (D) otoimmün inflamatuvar deri hastalığıdır; Bowen hastalığı (E) derinin in situ skuamöz karsinomudur.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "03-dus_patoloji_sorular_201_300.md",
+    "q_num": 235,
+    "question": "Malign neoplazmlarda hücre diferansiyasyon kaybını ifade eden terim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pleomorfizm",
+      "B": "Hiperkromazi",
+      "C": "Displazi",
+      "D": "Anaplazi",
+      "E": "Aplazi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Anaplazi, neoplastik hücrelerin köken aldığı dokunun olgun hücre özelliklerini ve farklılaşmasını tamamen kaybetmesi (diferansiyasyon kaybı) durumudur.\n**Çeldiriciler:** Pleomorfizm (A) hücre ve çekirdeklerin şekil/boyut değişkenliğidir; Hiperkromazi (B) çekirdeğin koyu boyanmasıdır; Displazi (C) kanserleşme öncesi hatalı/düzensiz gelişimdir; Aplazi (E) organ veya dokunun hiç gelişmemesidir.\n---",
+    "flag_reason": null,
+    "unit": "2- HEMODİNAMİK HASTALIKLAR ve ŞOK",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  }
+]

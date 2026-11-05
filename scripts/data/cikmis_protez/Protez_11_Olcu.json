@@ -1,0 +1,342 @@
+[
+  {
+    "question": "I. Gluteraldehit\nII. Klorlu bileşikler\nIII. İyodofor\n\n**Çinko oksit öjenol ölçü maddesiyle alınan ölçülerin dezenfekte edilmesinde yukarıdakilerden hangilerinin kullanılması uygundur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Çinko oksit öjenol (ZnOE) ölçü maddeleri suda çözünmeyen, rijit yapıda ölçü materyalleridir. Bu materyallerle alınan ölçülerin dezenfeksiyonunda daldırma yöntemiyle glutaraldehit ve iyodofor solüsyonları veya fenolik spreyler güvenle kullanılabilir.\n- **I. Öncül (Gluteraldehit) - DOĞRUDUR:** Glutaraldehit, çinko oksit öjenol ölçü yüzeyinde boyutsal değişime veya bozulmaya yol açmadan yüksek düzeyde dezenfeksiyon sağlayan önerilen ana dezenfektandır.\n- **II. Öncül (Klorlu bileşikler) - YANLIŞTIR:** Klorlu bileşikler (sodyum hipoklorit gibi klor türevleri) çinko oksit öjenol matriksindeki kimyasal bileşenlerle reaksiyona girerek ölçü yüzeyini bozar ve reaksiyon kalitesini olumsuz etkiler. Bu nedenle ZnOE ölçülerinde klorlu bileşikler kullanılmaz.\n- **III. Öncül (İyodofor) - DOĞRUDUR:** İyodofor solüsyonları çinko oksit öjenol ölçü maddesinin fiziksel ve kimyasal yapısını bozmadan efektif dezenfeksiyon sağlar.\n- **A, B, C ve E Şıkları:** Klorlu bileşiklerin kullanımı kontrendike olduğundan ve hem Glutaraldehit hem İyodofor uygun olduğundan doğru kombinasyon I ve III'ün yer aldığı D seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2018 Orijinal",
+    "q_num": 1,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen dezenfektan materyallerden hangisinin çinko oksit öjenol ölçü materyalinde kullanımı önerilmez?",
+    "options": {
+      "A": "Glutaraldehit",
+      "B": "İyodofor",
+      "C": "Klorlu bileşikler",
+      "D": "Fenolik sprey",
+      "E": "İyodofor solüsyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "- **A) Glutaraldehit:** Çinko oksit öjenol ölçülerinin dezenfeksiyonunda daldırma yöntemiyle güvenle tercih edilen etkili bir dezenfektandır.\n- **B ve E) İyodofor / İyodofor solüsyonu:** ZnOE ölçü maddesiyle kimyasal etkileşime girmeyen, boyutsal stabiliteyi koruyan önerilen dezenfektan ajanlardandır.\n- **C) Klorlu bileşikler:** Çinko oksit öjenol ölçü maddesinin yapısındaki bileşenlerle etkileşime girerek yüzey pürüzlülüğüne ve boyutsal distorsiyona sebep olduğundan ZnOE ölçülerinde kullanımı kesinlikle önerilmez.\n- **D) Fenolik sprey:** Sprey veya daldırma şeklinde ZnOE ölçülerinde doku detaylarını bozmadan kullanılabilen alternatif bir seçenektir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 2,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çinko oksit öjenol ölçü maddesiyle elde edilen bir ölçünün dezenfeksiyonu için aşağıda verilen solüsyon kombinasyonlarından hangisinin kullanılması en uygundur?",
+    "options": {
+      "A": "Sodyum hipoklorit, Glutaraldehit, Fenolik bileşenler",
+      "B": "Sodyum hipoklorit, Glutaraldehit, İyodofor",
+      "C": "Glutaraldehit, İyodofor, Klorin bileşenleri",
+      "D": "Glutaraldehit, İyodofor, Fenolik spreyler",
+      "E": "Klorin bileşenleri, İyodofor, Fenolik spreyler"
+    },
+    "correctAnswer": "D",
+    "explanation": "Çinko oksit öjenol ölçü materyalinde klor/sodyum hipoklorit içeren dezenfektanlar yüzey yapısını bozduğu için kontrendikedir. ZnOE ölçüleri için önerilen üç ana dezenfektan grubu **Glutaraldehit**, **İyodoforlar** ve **Fenolik spreyler**dir.\n- **A, B, C, E Şıkları:** İçlerinde sodyum hipoklorit veya klorin bileşenleri barındırdığı için çinko oksit öjenol ölçüsünde distorsiyona yol açarlar.\n- **D Şıkkı:** Glutaraldehit, İyodofor ve Fenolik spreylerin üçü de ZnOE ölçü maddesi için tam uyumlu ve güvenli dezenfektan grubunu oluşturur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 3,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki materyallerden hangisinin ısısal genleşme katsayısı en düşüktür?",
+    "options": {
+      "A": "Polisülfit ölçü maddesi",
+      "B": "Silikon ölçü maddesi",
+      "C": "Akrilik rezin",
+      "D": "İnley mumları",
+      "E": "Çinko oksit öjenol siman"
+    },
+    "correctAnswer": "E",
+    "explanation": "Isısal genleşme katsayısı (termal ekspansiyon katsayısı), materyalin sıcaklık değişimi karşısında hacimsel olarak ne kadar genişleyip büzüldüğünü gösteren parametredir. Diş hekimliğinde inorganik/seramik/rijit siman yapıların ısısal genleşme katsayıları polimerik ve elastomerik yapıya sahip maddelere göre çok daha düşüktür.\n- **A) Polisülfit ölçü maddesi:** Elastomerik yapısı gereği yüksek termal genleşme katsayısına sahiptir.\n- **B) Silikon ölçü maddesi:** Polimerik zincir yapısı nedeniyle sıcaklık değişimlerinden belirgin şekilde etkilenir.\n- **C) Akrilik rezin:** Polimerizasyon ve ısı etkisiyle yüksek oranda hacimsel değişim gösterir.\n- **D) İnley mumları:** Organik mum molekülleri ısı karşısında diş hekimliği materyalleri arasında en yüksek ısısal genleşme gösteren maddelerdendir.\n- **E) Çinko oksit öjenol siman:** Metalik/inorganik oksit yapısı ve rijit kristal şebekesi nedeniyle ısısal genleşme katsayısı listelenen materyaller arasında en düşük olandır.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 4,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Polisülfit  \nII. Akrilik rezin  \nIII. Çinko oksit öjenol  \n\n**Yukarıda verilen dental materyallerden hangisi ya da hangilerinin ağız ortamında meydana gelen ısı artışına klinik olarak izlenebilir bir boyutsal değişkenlikle tepki vermesi beklenmelidir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Polimerik ve elastomerik yapılı malzemeler (akrilik rezinler, mumlar, polisülfit ve silikon ölçü maddeleri) yüksek termal genleşme katsayısına sahip oldukları için ağız içi sıcaklık değişimlerinde belirgin genleşme ve büzülme gösterirler.\n- **I. Öncül (Polisülfit) - DOĞRUDUR:** Elastomerik ölçü maddesi olan polisülfit yüksek termal genleşme katsayısına sahiptir ve sıcaklık değişiminde boyutsal tepki verir.\n- **II. Öncül (Akrilik rezin) - DOĞRUDUR:** Akrilik rezinler yüksek termal ekspansiyon gösterir, ısı artışıyla belirgin genleşir.\n- **III. Öncül (Çinko oksit öjenol) - YANLIŞTIR:** Çinko oksit öjenol inorganik-kristalin yapıda olduğundan ısısal genleşme katsayısı son derece düşüktür ve ısı artışında klinik olarak izlenebilir boyutsal değişkenlik göstermez.\n- **A, B, D, E Şıkları:** I ve II doğru öncüller olduğu için doğru yanıt C seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 5,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Sertleşme reaksiyonundan sonra eklemeye olanak sağlama  \nII. Doku ölçüsünü net olarak aktarabilme  \nIII. Sabit bölümlü protez ölçüsünde ilk seçenek olma  \n\n**Yukarıda verilenlerden hangisi ya da hangileri çinko oksit öjenol ölçü materyalinin sahip olduğu özellikler arasında yer alır?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Çinko oksit öjenol, tam protezlerin ikincil (fonksiyonel) ölçü aşamasında ve hareketli protezlerde dişsiz kret ölçülerinde kullanılan mukostatic bir ölçü maddesidir.\n- **I. Öncül - DOĞRUDUR:** Çinko oksit öjenol sertleştikten sonra yüzeyine aynı cins materyal eklenebilmesine olanak tanır. Eksik çıkan ölçü bölgelerine ek yapılması mümkündür (aljinatta bu özellik yoktur).\n- **II. Öncül - DOĞRUDUR:** Akıcı kıvamı ve mukostatik (dokuyu itmeyen) yapısı sayesinde mukozal doku detaylarını net ve hassas olarak aktarır.\n- **III. Öncül - YANLIŞTIR:** Çinko oksit öjenol son derece rijit ve kırılgan olduğundan dişli ağızlarda ve sabit protez ölçülerinde andırkatlara takılıp kırılacağı için KESİNLİKLE kullanılmaz. Sabit protezlerde ilk seçenek elastomerik ölçü maddeleridir (silikon, polieter).\n- **A, B, D, E Şıkları:** I ve II özellikleri taşıdığı için doğru cevap C şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 6,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aljinat ölçü maddesinin jelasyonu sırasında, ölçü kaşığının ağızda hareket ettirilmesi sonucunda aşağıdaki sorunlardan hangisi oluşur?",
+    "options": {
+      "A": "Alçı modelin yüzeyinin pürüzlü olması",
+      "B": "Ölçünün distorsiyonu",
+      "C": "Ölçünün sertleşmesinin hızlanması",
+      "D": "Ölçü yüzeyinde hava kabarcıklarının olması",
+      "E": "Ölçü materyalinin grenli görünmesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Aljinat hidrokolloid bir ölçü maddesidir ve jelasyon (pıhtılaşma/sertleşme) reaksiyonu ile kalsiyum aljinat lifleri örgü oluşturur.\n- **B) Ölçünün distorsiyonu:** Jelasyon başlamışken veya devam ederken ölçü kaşığının ağızda hareket ettirilmesi, oluşmakta olan kalsiyum aljinat fibril ağlarını ve liflerini kırar. Bu durum materyalde kalıcı iç gerilmelere ve ölçünün belirgin şekilde biçim değiştirmesine (**distorsiyon**) neden olur.\n- **A) Alçı model yüzeyinde pürüzlülük:** Ölçünün kan/tükürükle kontamine kalması veya yanlış alçı karıştırma sonucu oluşur.\n- **C) Sertleşmenin hızlanması:** Su sıcaklığının yüksek olmasıyla ilişkilidir.\n- **D) Hava kabarcıkları:** Yanlış karıştırma tekniği veya kaşık yerleştirme hatasıyla ilgilidir.\n- **E) Grenli görünüm:** Yetersiz karıştırma veya tozun tam çözünmemesinden kaynaklanır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2018 Orijinal",
+    "q_num": 13,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aljinat ölçü maddesinin jelasyonu sonucu kalsiyum aljinat liflerinden gelişen örgü yapısı ölçü alımı sırasında aşağıdakilerden hangisine dikkat edilmezse bozularak ölçüde distorsiyona sebep olur?",
+    "options": {
+      "A": "Ağız ortamının tükürükten izole edilmemesi",
+      "B": "Ölçünün ıslak peçetede 30 dakika bekletilmesi",
+      "C": "Ölçü kaşığının sağa sola gevşetilerek ağızdan çıkarılması",
+      "D": "Toz yapının içerisine potasyum sülfat eklenmesi",
+      "E": "Toz yapı ile suyun bir dakika boyunca karıştırılması"
+    },
+    "correctAnswer": "C",
+    "explanation": "- **C) Ölçü kaşığının sağa sola gevşetilerek çıkarılması:** Aljinat ölçü ağızdan çıkarılırken dokulardaki andırkat bölgelerinden ani ve tek bir hareketle (snapping action) çıkarılmalıdır. Sağa-sola sallayarak, yavaşça gevşeterek çıkarmak fibrillerin kırılmasına ve ölçünün boyutsal distorsiyona uğramasına yol açar.\n- **A, B, D, E Şıkları:** Ölçü kaşığının çıkarılma dinamiği aljinat distorsiyonunun en temel nedenidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 14,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aljinat ölçü materyalinin kopma direncini artırarak sertleşmesini hızlandıran ajan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Timol",
+      "B": "Sodyum tetraborat",
+      "C": "Potasyum sülfat",
+      "D": "Sodyum aljinat",
+      "E": "Kalsiyum sülfat"
+    },
+    "correctAnswer": "C",
+    "explanation": "Aljinat ölçü materyalinin yapısını modifiye etmek için katılan ajanlar:\n- **Sodyum tetraborat:** Solüsyonun viskozitesini ve jel gücünü artırır.\n- **Potasyum sülfat:** Ölçünün sertleşmesini hızlandırır, hidrokolloidlerin kopma direncini artırır ve alçı model yüzeyinin pürüzsüz olmasını sağlar.\n- **Timol:** Bakteriyel çoğalmayı önleyen koruyucu maddedir.\n- **Sodyum aljinat ve Kalsiyum sülfat:** Aljinatın ana reaksiyon giren toz bileşenleridir.\n- Bu nedenle sertleşmeyi hızlandırıp kopma direncini artıran modifiye edici ajan **Potasyum sülfat** (C şıkkı) seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 15,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen dental materyal-kullanım alanı eşleştirmelerinden hangisi doğru değildir?",
+    "options": {
+      "A": "Polimetilmetakrilat — Kişisel kaşık",
+      "B": "Polietilmetakrilat — Geçici onley",
+      "C": "Polivinilletilmetakrilat — Geçici kron",
+      "D": "Polivinil siloksan — Geçici köprü",
+      "E": "Bis-akril kompozit — Geçici laminate veneer"
+    },
+    "correctAnswer": "D",
+    "explanation": "- **A) Polimetilmetakrilat:** Özel ölçü kaşığı yapımında sıklıkla kullanılır.\n- **B) Polietilmetakrilat:** Geçici inley ve onley restorasyonlarında güvenle tercih edilir.\n- **C) Polivinilletilmetakrilat:** Geçici kron yapımında kullanılır.\n- **D) Polivinil siloksan:** Bir ilave tip silikon **ölçü maddesidir**; geçici köprü restorasyon materyali değildir.\n- **E) Bis-akril kompozit:** Estetik geçici laminate veneer yapımında kullanılır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 23,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Agar (Geri dönüşümlü hidrokolloid)  \nII. Kondenzasyon polimerizasyonlu silikon  \nIII. Aljinat (Geri dönüşümsüz hidrokolloid)  \n\n**Yukarıdaki ölçü maddelerinden hangisi veya hangileri hidrofilik karakterdedir?**",
+    "options": {
+      "A": "II",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Ölçü maddeleri su ile ıslanabilirliklerine göre hidrofilik (suyu seven) ve hidrofobik (suyu sevmeyen) olarak ayrılır.\n- **I ve III. Öncüller (Agar ve Aljinat):** Su bazlı **hidrokolloid** ölçü maddeleridir. Yapılarındaki yüksek su oranı nedeniyle tam **hidrofilik** karakterdedirler; nemli ağız ortamında yüzey detaylarını mükemmel ıslatırlar.\n- **II. Öncül (Kondenzasyon silikonu):** Elastomerik ölçü maddesi olup yapısı gereği **hidrofobik** (suyu sevmeyen) özellik gösterir.\n- **A, B, C, E Şıkları:** I ve III hidrofilik olduğu için doğru cevap D seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 43,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen ölçü materyallerinden hangisi sulu bir ağız ortamında daha kolay çalışma olanağı sağlar?",
+    "options": {
+      "A": "Kondenzasyon silikon",
+      "B": "Polivinil siloksan",
+      "C": "Polisülfit",
+      "D": "Aljinat",
+      "E": "Modeling plastik"
+    },
+    "correctAnswer": "D",
+    "explanation": "- **A, B, C) Kondenzasyon silikon, Polivinil siloksan, Polisülfit:** Sentetik elastomerlerdir ve doğası gereği hidrofobiktirler. Yüzey nemi varlığında detay iletimleri düşer.\n- **D) Aljinat:** Su bazlı hidrokolloid yapıda olduğundan hidrofiliktir, nemli ve sulu ağız ortamında kolay ıslanarak detay alabilir.\n- **E) Modeling plastik:** Termoplastik maddedir, nem uyumu zayıftır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 44,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen görsellerde ölçü materyallerinin ıslanabilirliği test edilmektedir. Düşük temas açısı ($\\theta < 90^\\circ$) oluşturarak yüzeye yayılan hidrofilik bir ölçü materyali örneği aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kondenzasyon silikon",
+      "B": "Polisülfit",
+      "C": "A tipi silikon",
+      "D": "Modeling plastik",
+      "E": "Polieter"
+    },
+    "correctAnswer": "E",
+    "explanation": "Ağız içi nemli yüzeylerde ölçü maddesinin yayılabilmesi için temas açısının küçük olması (hidrofilik olması) gerekir.\n- **E) Polieter:** Sentetik elastomerler arasında yapısındaki eter halkaları sayesinde doğuştan **en hidrofilik** olan ölçü maddesidir. Düşük temas açısı göstererek yüzeye yayılır.\n- **A, B, C, D Şıkları:** Hidrofobik veya yüksek temas açılı malzemelerdir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 45,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aljinat ölçü maddesinde; ölçü aldıktan sonra, alçı dökmeden önce su içinde bekletilmesiyle oluşan boyutsal değişikliğe ne ad verilir?",
+    "options": {
+      "A": "Histerezis",
+      "B": "Sinerezis",
+      "C": "Kontraksiyon",
+      "D": "Hidroliz",
+      "E": "İmbibisyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "Aljinat hidrokolloid yapıda bir ölçü maddesidir.\n- **A) Histerezis:** Agarda jelleşme ve erime sıcaklıkları arasındaki farkı ifade eden termal olgudur.\n- **B) Sinerezis:** Hidrokolloid jelinin yapısındaki suyu dışarı atarak büzülmesidir (kuru ortamda oluşur).\n- **C) Kontraksiyon:** Büzülmedir.\n- **D) Hidroliz:** Kimyasal bağların suyla ayrışmasıdır.\n- **E) İmbibisyon:** Hidrokolloid jelinin sulu/nemli ortama konulduğunda dışarıdan su emerek şişmesi ve boyutsal olarak genişlemesidir.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 61,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hidrofilik bir aljinat ölçü materyalinde imbibisyon olayının gerçekleşmesi için ölçünün bulunduğu ortam aşağıdakilerden hangisi gibi olmalıdır?",
+    "options": {
+      "A": "Kuru",
+      "B": "Sulu",
+      "C": "Vakumlu",
+      "D": "Nemsiz",
+      "E": "Sıcak ve kuru"
+    },
+    "correctAnswer": "B",
+    "explanation": "İmbibisyon, hidrokolloid maddelerin sıvı/su içerisine daldırıldığında bünyelerine su çekerek genleşmesidir. Bu olgunın gerçekleşmesi için ortamın **sulu veya yüksek nemli** ortam olması gerekir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 62,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aljinat ölçü maddesinin açıkta veya kuru ortamda bekletilmesi sonucu yapısındaki suyu ortama vererek büzülmesine ne ad verilir?",
+    "options": {
+      "A": "Histerezis",
+      "B": "Sinerezis",
+      "C": "İmbibisyon",
+      "D": "Plastisite",
+      "E": "Viskozite"
+    },
+    "correctAnswer": "B",
+    "explanation": "Aljinat jel halindeyken kuru havada tutulursa yapısındaki jel suyunu buharlaşma ve terleme ile dışarı atar. Su kaybına bağlı olarak gerçekleşen bu büzülme olayına **sinerezis** denir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 63,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki ölçü maddelerinden hangisinin dezenfeksiyonunda klorin solüsyonları kullanılmamalıdır?",
+    "options": {
+      "A": "Aljinat",
+      "B": "Agar",
+      "C": "Silikon",
+      "D": "Polieter",
+      "E": "Çinko oksit öjenol"
+    },
+    "correctAnswer": "E",
+    "explanation": "- **A, B, C, D) Aljinat, Agar, Silikon, Polieter:** Kısa süreli püskürtme veya uygun konsantrasyonda klorin/hipoklorit çözeltileriyle dezenfekte edilebilirler.\n- **E) Çinko oksit öjenol:** Klor bileşikleri çinko oksit öjenolün yüzey reaksiyonunu bozduğu, boyutsal distorsiyon ve yüzey bozulması yaptığı için ZnOE ölçülerinde **klorin solüsyonları kullanılmamalıdır**.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "q_num": 64,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Aljinat  \nII. Polieter  \nIII. Çinko oksit öjenol  \n\n**Yukarıda verilen ölçü materyallerinden hangisi ya da hangilerinin dezenfeksiyonunda klorin kullanılabilir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Aljinat (I) ve Polieter (II) ölçü maddelerinde klorin/sodyum hipoklorit ile dezenfeksiyon yapılabilirken; Çinko oksit öjenol (III) dezenfeksiyonunda klorin kullanımı kontrendikedir. Doğru cevap I ve II (D şıkkı) seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 65,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aljinat ölçü materyallerinin boyutsal değişim göstermeden dezenfekte edilmesi için püskürtme (sprey) dezenfektanlarla önerilen temas süresi en fazla ne kadar olmalıdır?",
+    "options": {
+      "A": "10-15 dakika",
+      "B": "30 dakika",
+      "C": "1 saat",
+      "D": "2 saat",
+      "E": "24 saat"
+    },
+    "correctAnswer": "A",
+    "explanation": "Aljinat nem kaybına ve emilimine çok duyarlı olduğundan dezenfektan spreyle muamele süresi **10-15 dakikayı** geçmemelidir. Uzun süreli bekletmeler imbibisyon veya deformasyona yol açar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 66,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Elastik ölçü materyalleri arasında ölçü bozulmadan çoklu model elde edilebilecek en uygun elastomerik ölçü maddesi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İlave tip silikonlar (A-tipi)",
+      "B": "Kondensasyon silikonlar (C-tipi)",
+      "C": "Polisülfitler",
+      "D": "Polieterler",
+      "E": "Aljinat"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) İlave tip silikonlar (Doğru):** Reaksiyon sırasında hiçbir yan ürün çıkarmadığı için boyutsal stabilitesi en yüksek olan (%0,05'ten az büzülme) ölçü maddesidir. Ölçü alındıktan günler sonra bile defalarca dökülerek çoklu alçı model elde edilebilir.\n* **B) Kondensasyon silikonlar (Yanlış):** Etil alkol yan ürünü çıkarır, hemen dökülmelidir.\n* **C) Polisülfit (Yanlış):** Su yan ürünü çıkarır, 1 saat içinde dökülmelidir.\n* **E) Aljinat (Yanlış):** İrreversibl hidrokolloiddir, tek kullanımlıktır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2020 Orijinal",
+    "q_num": 281,
+    "unit": "11-Ölçü",
+    "quality_flag": "cikmis"
+  }
+]

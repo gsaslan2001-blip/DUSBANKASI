@@ -1,0 +1,427 @@
+[
+  {
+    "question": "Tam ve dişsiz hastalara uygulanan hareketli protezde alt ve üst çenede anatomik olmayan (düz / monoplane) dişlerin kullanıldığı, karşılıklı dişler arasında kasp-fossa / kenar sırtı ilişkisinin bulunmadığı oklüzyon tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Linguallze oklüzyon",
+      "B": "Monoplane oklüzyon",
+      "C": "Kanin koruyuculu oklüzyon",
+      "D": "Anterior grup fonksiyonu",
+      "E": "Posterior grup fonksiyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Lingualize oklüzyon (Yanlış):** Üst palatinal tüberkül alt santral fossaya oturur, kasp teması vardır.\n* **B) Monoplane oklüzyon (Doğru):** Tüberkül açısı 0 derece olan (anatomik olmayan) düz yüzeyli yapay dişlerin kullanıldığı, kasp-fossa kilitlenmesinin bulunmadığı ve çiğneme kuvvetlerinin yatay bileşenlerini sıfırlayan oklüzyon tipi \"Monoplane (Düz düzlem) Oklüzyon\"dur.\n* **C) Kanin koruyuculu (Yanlış):** Tam protezde uygulanmaz.\n* **D) Anterior grup fonksiyonu (Yanlış):** Sabit protez konseptidir.\n* **E) Posterior grup fonksiyonu (Yanlış):** Sabit protez konseptidir.",
+    "lesson": "Protez",
+    "flag_reason": "2024 Sonbahar DUS Orijinal",
+    "q_num": 452,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alveol kretleri bıçak sırtı gibi ve aşırı rezorbe olmuş, ayrıca kretler arası mesafesi çok olan bir hasta kliniğe başvuruyor. Çiğneme ve parafonksiyonel hareketler sonucu oluşan yüklerin horizontal komponentinin azalması gerektiği gözleniyor. Estetik beklentileri yüksek olan bu hastada öncelikle tercih edilmesi gereken oklüzyon tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tek taraflı balanslı oklüzyon",
+      "B": "Kanin koruyuculu oklüzyon",
+      "C": "Çift taraflı balanslı oklüzyon",
+      "D": "Grup fonksiyonlu oklüzyon",
+      "E": "Lingualize oklüzyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Tek taraflı balanslı (Yanlış):** Protezi devirir.\n* **B) Kanin koruyuculu (Yanlış):** Tam protezde uygulanmaz.\n* **C) Çift taraflı balanslı (Yanlış):** Anatomik dişlerle lateral yük oluşturabilir.\n* **D) Grup fonksiyonlu (Yanlış):** Sabit protez oklüzyonudur.\n* **E) Lingualize oklüzyon (Doğru):** Aşırı rezorbe kretlerde horizontal (yanal) kuvvetleri azaltmak için düzleşmiş alt oklüzal tabla gerekirken, hastanın ESTETİK BEKLENTİSİ de yüksek olduğundan üst çenede anatomik tüberküllü dişler kullanılır ancak sadece palatinal tüberküller alt fossaya temas ettirilir. Bu hem stresi azaltan hem estetiği sağlayan \"Lingualize Oklüzyon\"dur.",
+    "lesson": "Protez",
+    "flag_reason": "2012 İlkbahar DUS Orijinal",
+    "q_num": 453,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Optimum kasp ilişkisini sağlamak için maksiller ve mandibular dişler arasında bir dişe iki diş ilişkisi oluşturulur.**\n**II. Sentrik temaslar üst dişlerin palatinal kaspları ile alt dişlerin santral fossasında oluşturulur.**\n**III. Maksiller bukkal kasplar oklüzal tabla ile temasta değildir.**\n\n**Lingualize oklüzyon ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **I. Bir dişe iki diş ilişkisi (Hatalı):** Lingualize oklüzyonda temas santral fossayadır, bire iki tüberkül kilidi aranmaz.\n* **II. Palatinal kaspların santral fossaya teması (Doğru):** Temel ilke; üst palatinal tüberkülün alt santral fossaya havanda havan eli gibi oturmasıdır.\n* **III. Maksiller bukkal kaspların temassızlığı (Doğru):** Üst bukkal tüberküller oklüzyon dışı bırakılır (temassızdır), yanak ısırması önlenir.\n* **Sonuç:** II ve III numaralı öncüller doğrudur. Bu nedenle cevap D seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "2024 İlkbahar DUS Orijinal",
+    "q_num": 458,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protezlerde oklüzal uyumlamalar yapılırken kullanılan \"BULL\" (Buccal Upper, Lingual Lower) kuralı eksantrik hareketlerde hangi tüberküllerden aşındırma yapılacağını ifade eder?",
+    "options": {
+      "A": "Çalışan taraftaki non-fonksiyonel tüberküllerden (Üst bukkal ve Alt lingual tüberküllerden)",
+      "B": "Fonksiyonel tüberküllerin tamamından",
+      "C": "Sadece santral fossalardan",
+      "D": "Ön dişlerin insizal kenarlarından",
+      "E": "Yalnızca alt kanin dişten"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Çalışan taraf non-fonksiyonel tüberküller (Doğru):** Tam protezlerde selektif matris möllemelerinde (aşındırma kuralı) BULL kuralı geçerlidir:\n  - **BULL:** **B**uccal **U**pper, **L**ingual **L**ower.\n  - Yani lateral (çalışan) çene hareketlerinde çatışma varsa, fonksiyonel tüberkülleri (üst palatinal, alt bukkal) korumak amacıyla YALNIZCA non-fonksiyonel olan **Üst Bukkal** ve **Alt Lingual** tüberkül iç eğimlerinden aşındırma yapılır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 473,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ağız içinde bir tarafta dil kaslarının uyguladığı dışa doğru kuvvetler ile diğer tarafta yanak ve dudak kaslarının uyguladığı içe doğru kuvvetlerin birbirini dengelediği ve yapay dişlerin dizilmesi gereken alana ne ad verilir?",
+    "options": {
+      "A": "Basınçsız alan",
+      "B": "Nötral bölge (Nötral zon)",
+      "C": "Dinamik alan",
+      "D": "Serbest oklüzyon alanı",
+      "E": "Protez sınır bölgesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Nötral Bölge (Nötral Zon) Kavramı:** Özellikle şiddetli kemik rezorpsiyonu olan tam dişsiz hastalarda, dilin içten dışa yaptığı baskı ile yanak ve dudakların dıştan içe yaptığı baskının nötrlendiği (kuvvetlerin sıfırlandığı) potansiyel boşluktur. Yapay dişler bu nötral bölgeye dizildiğinde kas hareketleri protezi yerinden sökmez, aksine stabil kalmasına yardımcı olur. Bu nedenle yanıt B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 515,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protezlerde mandibulanın sentrik ve tüm eksantrik (anterior ve lateral) hareketleri sırasında alt ve üst dişlerin temas halinde olmasını sağlayan oklüzyon tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kanin koruyuculu oklüzyon",
+      "B": "Unilateral balanslı oklüzyon",
+      "C": "Bilateral balanslı oklüzyon",
+      "D": "Sentrik oklüzyon",
+      "E": "Mutuel koruyuculu oklüzyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Kanin koruyuculu oklüzyon (Yanlış):** Doğal dişli bireylerde görülür; lateral harekette kanin harici posterior dişler temassızdır (disoklüzyon). Tam protezde devrilmeye yol açar.\n* **B) Unilateral balanslı oklüzyon (Yanlış):** Grup fonksiyonudur; sadece çalışan tarafta temas vardır.\n* **C) Bilateral balanslı oklüzyon (Doğru):** Tam protezlerde protez kaidesinin devrilmesini (devirici tork kuvvetlerini) önlemek için hem sentrik konumda hem de tüm lateral ve protrüziv eksantrik hareketlerde her iki tarafta (çalışan ve dengeleyen taraf) eş zamanlı diş temaslarının bulunmasıdır.\n* **D) Sentrik oklüzyon (Yanlış):** Sadece maksimum kapanış pozisyonundaki temastır.\n* **E) Mutuel koruyuculu oklüzyon (Yanlış):** Doğal diş hekimliğindeki organik oklüzyondur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 518,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protezlerde uygulanan Bilateral Balanslı Oklüzyon ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sentrik ilişkide tüm posterior dişlerde eş zamanlı temas vardır.",
+      "B": "Lateral çene hareketlerinde çalışan tarafta temas varken dengeleyen tarafta temas olmamalıdır.",
+      "C": "Protrüziv harekette anterior dişler temas ederken en az bir posterior diş çiftinde de temas bulunmalıdır.",
+      "D": "Protezin fonksiyon esnasında devrilmesini önlemek ve stabilitesini korumak amacıyla uygulanır.",
+      "E": "Çiğneme kuvvetlerinin kret geneline homojen dağılmasını sağlar."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A), C), D), E) (Doğru):** Bilateral balanslı oklüzyonda sentrikte tam temas, protrüziv harekette posterior temas (Christensen fenomenini engellemek için) ve homojen kuvvet dağılımı vardır.\n* **B) Dengeleyen tarafta temas olmamalıdır ifadesi (Yanlış):** Bilateral balanslı oklüzyonun temel kuralı, lateral harekette çalışan tarafta temas olurken DENGELEYEN (karşı) tarafta da en az bir noktalı posterior temasın sürdürülmesidir. Dengeleyen tarafta temas olmazsa protez o taraftan aşağı düşer ve devrilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 519,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protezlerde aşağıdaki oklüzyon tiplerinden hangisi kullanılır?",
+    "options": {
+      "A": "Bilateral balanslı oklüzyon",
+      "B": "Posterior disklüzyon",
+      "C": "Kanin koruyuculu oklüzyon",
+      "D": "Unilateral grup fonksiyonlu oklüzyon",
+      "E": "Mutuel koruyuculu oklüzyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Bilateral balanslı oklüzyon (Doğru):** Tam protezlerde protez kaidesinin devrilmesini önlemek, dokulara gelen yükü dengeli dağıtmak ve stabiliteyi korumak için kabul edilen temel oklüzyon tipi Bilateral Balanslı Oklüzyondur.\n* **B) Posterior disklüzyon (Yanlış):** Ön diş temasıyla posterior dişlerin ayrılmasıdır. Tam protezlerde anterior dişe gelen yük protezin arka kısmının düşmesine yol açar.\n* **C) Kanin koruyuculu oklüzyon (Yanlış):** Yalnızca kanin dişin temas ettiği ve arka dişlerin ayrıldığı doğal dentisyon oklüzyonudur.\n* **D) Unilateral grup fonksiyonlu oklüzyon (Yanlış):** Yalnızca çalışan tarafta temas olup karşı tarafta temasın olmadığı tiptir.\n* **E) Mutuel koruyuculu oklüzyon (Yanlış):** Doğal dişli bireylerde görülen karşılıklı koruyucu oklüzyondur.",
+    "lesson": "Protez",
+    "flag_reason": "2015 DUS Orijinal",
+    "q_num": 521,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Monoplane (Nötrosentrik / Düz Düzlem) oklüzyon konsepti ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Anatomik olmayan (0 derece / düz kasp) yapay dişler kullanılır.",
+      "B": "Sadece sentrik kapanış konumunda temas mevcuttur.",
+      "C": "Eksantrik (lateral ve protrüziv) hareketlerde balanslı temas bulunmaz.",
+      "D": "Dikey kuvvetlerin alveol kretine dik ve homojen iletilmesini sağlar.",
+      "E": "Ağır kasp eğimleri sayesinde çiğneme etkinliği bilateral balanslı oklüzyona göre daha yüksektir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A), B), C), D) (Doğru):** Monoplane oklüzyonda kasp eğimi olmayan (0 derece) flat dişler kullanılır. Yalnızca sentrik ilişkide temas vardır, eksantrik hareketlerde balans aranmaz ve yatay tork kuvvetlerini azaltarak dik kuvvet iletir.\n* **E) Ağır kasp eğimleri sayesinde çiğneme etkinliği daha yüksektir (Yanlış):** Monoplane oklüzyonda kasp eğimi YOKTUR (düzleşitirilmiş yüzeylerdir). Kasp yüksekliği olmadığı için gıdaları kesme yeteneği anatomik kasplı dişlere göre daha düşüktür.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 522,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Monoplane oklüzyon konseptine göre diş dizimi yapılmış tam protez kullanan bir hastada, hasta çenesini öne doğru kaydırdığında (protrüzyon) protezlerde meydana gelmesi beklenen biyomekanik durum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Arka bölgedeki temaslar korunur ve protez tam stabil kalır.",
+      "B": "Posterior dişlerde temas kaybolur (Christensen fenomeni) ve protezin arka kısmı dokudan uzaklaşarak devrilme eğilimi gösterir.",
+      "C": "Anterior dişlerde hiçbir temas oluşmaz.",
+      "D": "Protezin ön bölgesi dokuya gömülürken arka bölge kemiğe kaynar.",
+      "E": "Kanin dişler protezi tamamen kilitler."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Monoplane Oklüzyonda Protrüziv Durum:** Monoplane oklüzyonda kompanzasyon eğrisi (Spee/Wilson) ve kasp eğimi verilmediği için, hasta çenesini öne doğru kaydırdığında arka dişler arasında açıklık oluşur (Christensen fenomeni). Bu esnada posterior balans olmadığı için protez arka bölgeden dokudan uzaklaşır (devrilir). Hastalara öne doğru gıda ısırmamaları, arka dişlerle çiğneme yapmaları tembihlenir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 523,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam ve dişsiz hastalara uygulanan hareketli protezde alt ve üst çenede anatomik olmayan dişlerin kullanıldığı, karşılıklı dişler arasında kasp-fossa/kenar sırtı ilişkisinin bulunmadığı oklüzyon tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lingualize oklüzyon",
+      "B": "Monoplane oklüzyon",
+      "C": "Kanin koruyuculu oklüzyon",
+      "D": "Anterior grup fonksiyonu",
+      "E": "Posterior grup fonksiyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Monoplane Oklüzyon Tipi:** Anatomik kasp eğimi içermeyen (0 derece flat) düz oklüzal yüzeyli dişlerin kullanıldığı, kasp-fossa ve kasp-marjinal sırt kilitlenmesinin olmadığı oklüzyon tipi \"Monoplane (Nötrosentrik)\" oklüzyondur. Bu nedenle yanıt B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "2024 Sonbahar DUS Orijinal",
+    "q_num": 524,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Monoplane oklüzyonun tercih edildiği klinik durumlardan biridir?",
+    "options": {
+      "A": "Kret yapısı çok iyi, genç ve yüksek çiğneme kuvvetine sahip hastalar",
+      "B": "Şiddetli alveol kret rezorpsiyonu olan ve Sınıf II veya Sınıf III çene ilişkisine sahip olgular",
+      "C": "Geniş estetik beklentisi ve derin overbite'ı olan hastalar",
+      "D": "Genç ve doğal dentisyona benzer görünüm isteyen bireyler",
+      "E": "Çene ekleminde tıkırtı sesi (klik) olan TME hastaları"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Monoplane Oklüzyon Endikasyonları:** Şiddetli kret rezorpsiyonu olan, çene kilitlenmesi veya düzensiz çene hareketleri olan, Sınıf II ve Sınıf III gibi anormal çene ilişkisine sahip hastalarda interkuspal kilitlenmeyi önlemek ve yatay kuvvetleri sıfırlamak için tercih edilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 525,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çift çene tam protez kullanması planlanan hastanın yeni bitirilen protezlerinin sadece sentrik ilişkide iken balansta olup, diğer mandibular hareketler sırasında balansın olmadığı gözlenmiştir. Yanı sıra yapılan klinik incelemede, anterior bölge diş diziminin temas etmeyecek şekilde bitirildiği ve yapay dişlerin düz oklüzal yüzeylere sahip olduğu saptandığına göre, ilgili protezlerin yapımında tercih edilen oklüzyon türünün aşağıdakilerden hangisi olduğu söylenebilir?",
+    "options": {
+      "A": "Lingualize oklüzyon",
+      "B": "Monoplane oklüzyon",
+      "C": "Bilateral balanslı oklüzyon",
+      "D": "Kanin koruyuculu oklüzyon",
+      "E": "Unilateral balanslı oklüzyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Soruda tarif edilen \"düz oklüzal yüzeyli yapay dişler\", \"sadece sentrik ilişkide temas/balans\" ve \"anterior temasın olmaması\" özellikleri **Monoplane (Nötrosentrik) oklüzyon** konseptinin klasik tanımıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 526,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protez yapımında kullanılan Monoplane oklüzyon tasarımı ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Proteze gelen kuvvetleri azaltmak için dişlerin bukkolingual genişliği küçültülür.",
+      "B": "Sadece sentrik kapanış sırasında temas vardır.",
+      "C": "Diş diziminde non-anatomik düz dişler kullanılır.",
+      "D": "Anterior bölge diş diziminde dikey overbite (over-lap) rahatlıkla uygulanabilir.",
+      "E": "Çiğneme kuvvetlerinin alveol kretine dik olarak iletilmesini sağlar."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A), B), C), E) (Doğru):** Yükü azaltmak için oklüzal tablo daraltılır, düz dişler kullanılır, sentrikte temas vardır ve dik kuvvet iletir.\n* **D) Anterior overbite uygulanabilir ifadesi (Yanlış):** Monoplane oklüzyonda anterior bölgede dikey overbite (over-lap) verilemez (overbite verilirse protrüziv harekette ön dişler hemen takılır ve arka protez fırlar). Ön dişlerde dikey temas olmayacak şekilde sıfır overbite ayarlanmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 527,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst anatomik azı dişlerinin palatinal kasplarının alt protezin düz veya sığ fossa formundaki oklüzal yüzeyine temas ettiği, çiğneme kuvvetlerini kret merkezine ileten oklüzyon konsepti aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Monoplane oklüzyon",
+      "B": "Lingualize oklüzyon",
+      "C": "Bilateral balanslı oklüzyon",
+      "D": "Kanin koruyuculu oklüzyon",
+      "E": "Grup fonksiyonlu oklüzyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Lingualize Oklüzyon:** Üst anatomik dişlerin lingual (palatinal) tüberküllerinin ana temas elemanı (havan eli) olarak alt dişlerin sığ sfenoid fossalarına (havan) oturduğu oklüzyon tipidir. Üst bukkal tüberküller temassız bırakılır. Hem estetik hem de mekanik stabilite sağlar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 528,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lingualize oklüzyon konsepti ile ilgili aşağıda verilen bilgilerden hangisi doğrudur?",
+    "options": {
+      "A": "Üst tüberküllerden bukkal tüberküller temas halindedir.",
+      "B": "Çiğneme kuvvetlerinin alveol kretinin dışına (bukkaline) yönlenmesini sağlar.",
+      "C": "Üst tüberküllerden palatinal tüberkül ana temas noktasıdır ve kuvveti kret tepesine dik iletir.",
+      "D": "Estetik olarak monoplane oklüzyondan daha kötüdür.",
+      "E": "Alt çene tüberkülleri üst çene tüberküllerini tamamen kilitler."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Lingualize Oklüzyon Avantajı:** Üst çene palatinal tüberkülleri merkez fonksiyonel tüberkül olarak çalışır. Bu sayede çiğneme kuvvetleri kret tepesine dikey yönde iletilir, yanak ısırması önlenir ve üst bukkal tüberküller havada kaldığı için doğal estetik görünüm korunur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 529,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alveol kretleri bıçak sırtı gibi ve aşırı rezorbe olmuş, ayrıca kretler arası mesafesi çok olan bir hasta kliniğe başvuruyor. Çiğneme ve parafonksiyonel hareketler sonucu oluşan yüklerin horizontal komponentinin azalması gerektiği gözleniyor. Estetik beklentileri yüksek olan bu hastada öncelikle tercih edilmesi gereken oklüzyon tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tek taraflı balanslı oklüzyon",
+      "B": "Kanin koruyuculu oklüzyon",
+      "C": "Çift taraflı balanslı oklüzyon",
+      "D": "Grup fonksiyonlu oklüzyon",
+      "E": "Lingualize oklüzyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Soru Analizi:**\n  1. Aşırı rezorbe kret ve horizontal kuvvetlerin azaltılması gereksinimi (Kasp eğiminin sıfırlanması veya azaltılması ihtiyacı).\n  2. Yüksek estetik beklenti (Monoplane düz dişlerin estetik olmaması nedeniyle elenmesi).\n* **E) Lingualize oklüzyon (Doğru):** Lingualize oklüzyon, üst bukkal tüberküller sayesinde doğal ve yüksek estetik görünüm sağlarken, alt fossa ile temas eden palatinal tüberkül mekanizması sayesinde yatay tork kuvvetlerini azaltır ve rezorbe kretler için en ideal çözümü sunar.",
+    "lesson": "Protez",
+    "flag_reason": "2012 İlkbahar DUS",
+    "q_num": 530,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Lingualize oklüzyonun avantajlarından biri değildir?",
+    "options": {
+      "A": "Çapraz kapanış durumlarında uygulanabilir.",
+      "B": "Yapay dişlerin dizimi monoplane oklüzyona göre daha kolaydır.",
+      "C": "Hem estetik hem de mekanik stabiliteyi birlikte sağlar.",
+      "D": "Yatay tork kuvvetlerini azaltarak kret rezorpsiyonunu sönümler.",
+      "E": "Çiğneme etkinliği tamamen sıfırlanmıştır."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A), B), C), D) (Doğru):** Çapraz kapanışta rahat uygulanır, estetik ve stabilite verir, tork kuvvetini azaltır.\n* **E) Çiğneme etkinliği sıfırlanmıştır (Yanlış):** Lingualize oklüzyonda üst tüberkül havan eli işlevi gördüğü için çiğneme etkinliği monoplane (düz) oklüzyona göre çok daha yüksektir; sıfırlanmamıştır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 531,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller ve mandibular tam protez kullanan bir hasta, protezini taktıktan sonra sıklıkla yanak ısırma şikayeti ile kliniğe başvuruyor. Yapılan muayenede üst bukkal tüberküllerin alt bukkal tüberküllerle baş başa temas ettiği saptanıyor. Bu sorunu çözmek için tercih edilebilecek en uygun oklüzyon tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bilateral balanslı oklüzyon",
+      "B": "Kanin koruyuculu oklüzyon",
+      "C": "Lingualize oklüzyon",
+      "D": "Monoplane oklüzyon",
+      "E": "Grup fonksiyon oklüzyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Yanak Isırma Nedenleri ve Lingualize Oklüzyon:** Tam protezlerde yanak ısırma, üst bukkal tüberküllerin yeterli overjet (yatay örtülüm) oluşturamaması veya temas etmesinden kaynaklanır. Lingualize oklüzyonda üst bukkal tüberküller tamamen oklüzyon dışı bırakılıp yukarı kaldırıldığı için yanak dokusu tüberküller arasında sıkışmaz ve yanak ısırma sorunu kesin olarak çözülür.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 532,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karşıt arkta doğal dişlerin tümünün bulunduğu bir dişsiz çeneye yapılması planlanan tek çene tam protez ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Doğal dentisyona uygun şekilde kanin koruyuculu oklüzyon sağlanmalıdır.",
+      "B": "Tam protezde oluşabilecek kırıkları önlemek için protez kaidesi metal olarak hazırlanabilir.",
+      "C": "Karşılıklı oklüzal ilişkilerde prematür temaslar elimine edilmelidir.",
+      "D": "Gerektiğinde doğal dişlerin yerleri ortodontik olarak değiştirilerek oklüzyon düzlemi düzenlenmelidir.",
+      "E": "Protezin retansiyon ve stabilitesini artırmak için anatomik formlu posterior dişler kullanılmalıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Kanin koruyuculu oklüzyon sağlanmalıdır (Yanlış):** Tek çene tam protezlerde kanin koruyuculu oklüzyon uygulanırsa, lateral harekette kanin teması esnasında posterior dişler ayrılır ve protez devrilerek ağızdan düşer. Tek çene tam protezlerde de MUTLAKA balanslı oklüzyon veya grup fonksiyonu hedeflenmelidir.\n* **B), C), D), E) (Doğru):** Karşıt doğal dişlerin sert yapısına karşı protez kaidesinin kırılmaması için metal güçlendirme yapılabilir, erken temaslar alınmalı ve oklüzal düzlem düzenlenmelidir.",
+    "lesson": "Protez",
+    "flag_reason": "2021 DUS Orijinal",
+    "q_num": 542,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst çenesi tam dişsiz, alt çenesinde ise tüm doğal dişleri mevcut olan bir hastada üst tek tam protez yapımı planlanmaktadır. Oklüzyon düzenlemesinde aşağıdaki yaklaşımlardan hangisi doğrudur?",
+    "options": {
+      "A": "Alt doğal dişlerin oklüzal düzlemi bozuksa öncelikle alt dişlerde mömatür temaslar ve düzlem bozuklukları aşındırma/kron ile düzeltilmelidir.",
+      "B": "Üst protezde kanin koruyuculu oklüzyon verilmelidir.",
+      "C": "Alt doğal dişlere hiç dokunulmadan üst protez dişleri eğri oklüzal düzleme göre dizilmelidir.",
+      "D": "Sadece ön dişlerde temas sağlanmalıdır.",
+      "E": "Protez kaidesi esnek yumuşak plastik yapılmalıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Tek çene tam protezlerin başarısındaki en büyük engel karşıt doğal dişlerin sürerek oklüzal düzlemi bozmasıdır. Protez yapımından ÖNCE karşıt ark doğrultulmalı, düzlem düzeltilmeli ve prematür temaslar giderilmelidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 543,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Maksiller dişler olması gerekenden daha palatinale yerleştirilmiştir.\nII. Oklüzyon dikey boyutu olması gerekenden yüksek yapılmıştır.\nIII. Protezin posterior sınırı kalın yapılmıştır.\nIV. Mandibular dişler olması gerekenden daha linguale yerleştirilmiştir.\n\n**Alt ve üst çenesine tam protez yapılmış bir hasta kontrol randevusunda, protezlerini taktığında artan öğürme refleksinden şikayetçi oluyorsa, yukarıdaki hatalardan hangileri yapılmış olabilir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I, III ve IV",
+      "C": "II ve III",
+      "D": "III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Tam Protezlerde Öğürme Refleksini Tetikleyen Nedenler:**\n  - **I. Üst dişlerin palatinale dizilmesi:** Dili geriye iterek yumuşak damağı ve dil kökünü uyarır.\n  - **II. Dikey boyutun yüksek yapılması:** Kas gerilimini artırarak yumuşak damak uyarısına yol açar.\n  - **III. Posterior sınırın kalın veya uzun yapılması:** Yumuşak damak arka bölgesine temas ederek doğrudan öğürmeyi tetikler.\n  - **IV. Alt dişlerin linguale dizilmesi:** Dil alanını daraltarak (dili geriye iterek) öğürme refleksini başlatır.\n* **Sonuç:** Hepsi (I, II, III ve IV) öğürme refleksine neden olabileceğinden yanıt E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "2023 İlkbahar DUS",
+    "q_num": 548,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Optimum kasp ilişkisini sağlamak için maksiller ve mandibular dişler arasında bir dişe iki diş ilişkisi oluşturulur.\nII. Sentrik temaslar üst dişlerin palatinal kaspları ile alt dişlerin santral fossasında oluşturulur.\nIII. Maksiller bukkal kasplar oklüzal tablo ile temas halinde değildir.\n\n**Lingualize oklüzyon ile ilgili yukarıdaki ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **I. Öncül (Yanlış):** Lingualize oklüzyonda kilitli \"bir dişe iki diş\" anatomik kasp ilişkisi aranmaz; kuvvetlerin dik iletimi için \"bir dişe bir diş\" veya serbest temaslar tercih edilebilir.\n* **II. Öncül (Doğru):** Lingualize oklüzyonda ana temas üst palatinal tüberküller ile alt sığ fossalar arasındadır (havan-havan eli mekanizması).\n* **III. Öncül (Doğru):** Maksiller bukkal tüberküller oklüzal temastan çıkarılmıştır (havada bırakılır), böylece yanak ısırma engellenir ve estetik korunur.\n* **Sonuç:** II ve III doğru olduğundan yanıt D seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "2024 İlkbahar DUS Orijinal",
+    "q_num": 557,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Lingualize oklüzyon konseptinin sağladığı klinik avantajlardan biridir?",
+    "options": {
+      "A": "Çiğneme kuvvetlerinin alveol kret tepesine dikey yönde iletilmesini sağlamak",
+      "B": "Bütün tüberkülleri birbirine kilitleyerek çene hareketlerini kısıtlamak",
+      "C": "Üst bukkal tüberkülleri aşındırarak estetiği bozmak",
+      "D": "Sadece doğal dişlerde kullanılabilmesi",
+      "E": "Dikey boyutu 20 mm düşürmesi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Lingualize oklüzyon, palatinal tüberkülü merkez alarak çiğneme yüklerini kret tepesine dikey (aksa paralel) iletir. Bu da rezorbe kretlerde devirici yatay kuvvetleri belirgin şekilde azaltır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 558,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksillasında 20 yıldan fazla süredir tam dişsizlik ile mandibular doğal dişlerinin tümü mevcut olan hastanın bir önceki protezinde bildirdiği en önemli şikayet yanak ısırmadır. İlgili hastaya yeni bir maksiller tam protez yapılacağına göre hastanın şikayetinin tekrar etmemesi adına önerilen en uygun oklüzyon türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bilateral balanslı oklüzyon",
+      "B": "Unilateral balanslı oklüzyon",
+      "C": "Organik oklüzyon",
+      "D": "Monoplane oklüzyon",
+      "E": "Lingualize oklüzyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* Üst bukkal tüberküllerin temas dışı bırakıldığı **Lingualize oklüzyon**, yanak dokusunun tüberküller arasında sıkışmasını önlediği için yanak ısırma şikayeti olan hastalarda en uygun çözümdür.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 559,
+    "unit": "37-Tam Protezlerde Oklüzyon",
+    "quality_flag": "cikmis"
+  }
+]

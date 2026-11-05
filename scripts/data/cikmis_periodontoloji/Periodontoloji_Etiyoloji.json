@@ -1,0 +1,393 @@
+[
+  {
+    "q_num": 117,
+    "question": "Aşağıdakilerden hangisi periodontal hastalıklarda inflamasyonun çözünme aşamasında düzenleyici olarak rol alan endojen lipid proteinlerindendir?",
+    "options": {
+      "A": "Lizozim",
+      "B": "Katepsin",
+      "C": "Lökotrien",
+      "D": "Resolvin",
+      "E": "Bradikinin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Resolvinler (lipoksinler, protektinler ve maresinler ile birlikte), omega-3 çoklu doymamış yağ asitlerinden (EPA ve DHA) sentezlenen endojen pro-resolving (çözünmeyi sağlayıcı) lipid mediyatörleridir. Periodontal inflamasyonun çözünme (rezolüsyon) aşamasında nötrofil infiltrasyonunu durdurarak, proinflamatuvar sitokinleri baskılayarak ve doku iyileşmesini destekleyerek düzenleyici rol oynarlar.\n**Çeldiriciler:**\n- A) Lizozim, tükürük ve nötrofil granüllerinde bulunan, bakterilerin peptidoglikan hücre duvarını yıkan doğal bağışıklık enzimidir.\n- B) Katepsinler, lizozomal protein yıkımında ve kemik matriksinin rezorpsiyonunda (Katepsin K) görev alan proteaz enzimleridir.\n- C) Lökotrienler, araşidonik asitten lipoksijenaz yoluyla üretilen, damar geçirgenliğini ve lökosit kemotaksisini artıran proinflamatuvar lipid mediyatörleridir.\n- E) Bradikinin, vazodilatasyon, vasküler permeabilite artışı ve ağrı reseptörlerinin uyarılmasında görev alan vazoaktif bir peptittir.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 125,
+    "question": "Matrixin temel inorganik komponentleri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kalsiyum ve fosfor",
+      "B": "Kalsiyum ve flor",
+      "C": "Magnezyum ve sodyum",
+      "D": "Potasyum ve Sodyum",
+      "E": "Potasyum ve magnezyum"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dental plak hacminin yaklaşık %20-25'ini oluşturan intermikrobiyal matriks; tükürük, dişeti oluğu sıvısı ve bakteri ürünlerinden kaynaklanır. Bu matriksin temel (primer) inorganik komponentleri kalsiyum ve fosfordur (fosfat). Bu iki iyonun matrikste yoğunlaşması, plağın mineralize olarak diştaşına (kalkulusa) dönüşmesinde temel rol oynar.\n**Çeldiriciler:**\n- B) Flor, intermikrobiyal matrikste temel inorganik bileşen olarak değil, yalnızca eser miktarda bulunur.\n- C) Magnezyum ve sodyum, plak matriksinde kalsiyum ve fosfora kıyasla eser (minör) düzeyde yer alan minerallerdir.\n- D) Potasyum ve sodyum hücre içi ve dışı sıvılarda bulunan elektrolitler olup plak matriksinin eser inorganik elemanlarıdır.\n- E) Potasyum ve magnezyum matrikste düşük miktarlarda bulunur; ana mineral yapıyı oluşturmazlar.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 126,
+    "question": "Biyofilm ve oluşumu ile ilgili özelliklerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Biyofilm formasyonu sıralı kazanılmış pelikıl formasyonu, primer ve sekonder kolonizerlerin kolonizasyonunu kapsayan bir süreçtir",
+      "B": "Diş yüzeyi, temizliği yapıldıktan saniyeler sonra konak kaynaklı çeşitli moleküller ile kaplanarak kazanılmış pelikıl oluşur",
+      "C": "Streptococcus türleri, Actinomyces türleri, Capnocytophaga türleri, Eikenella türleri, Haemophilus türleri ve Veillonella türleri gibi primer kolonizerlerdir",
+      "D": "Fusobacterium nucleatum, Treponema türleri, Porphyromonas gingivalis türleri ve Aggregatibacter actinomycetemcomitans ikincil kolonizerler arasındadır",
+      "E": "Aggregatibacter actinomycetemcomitans birbirlerine doğal olarak bağlanamayan bakteriler arasında koagregasyon köprüsü oluşturur"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dental biyofilm gelişiminde erken (primer) kolonizörler ile birbirlerine doğrudan bağlanamayan geç (sekonder) kolonizörler arasında koagregasyon köprüsü oluşturan anahtar mikroorganizma *Aggregatibacter actinomycetemcomitans* değil, *Fusobacterium nucleatum*'dur.\n**Çeldiriciler:**\n- A) Dental biyofilm oluşumu; önce pelikıl oluşumu, ardından primer kolonizörlerin tutunması ve son olarak koagregasyonla sekonder kolonizörlerin katıldığı sıralı ve düzenli bir süreçtir.\n- B) Fırçalama veya polisajdan hemen saniyeler sonra tükürük glikoproteinleri, fosfoproteinler ve enzimler diş yüzeyine seçici olarak adsorbe olarak hücresiz kazanılmış pelikılı oluşturur.\n- C) Sarı, yeşil ve mor komplekslerde yer alan *Streptococcus, Actinomyces, Capnocytophaga, Eikenella, Haemophilus* ve *Veillonella* türleri biyofilmin erken (primer) kolonizörleridir.\n- D) Turuncu ve kırmızı komplekslerde yer alan *F. nucleatum, Treponema* türleri ve *P. gingivalis* ile *A. actinomycetemcomitans* pelikıla doğrudan bağlanamayan ikincil (sekonder) kolonizörlerdir.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 127,
+    "question": "Hangisi Actinobacillus actinomycetemcomitans'ın virülans faktörlerinden değildir?",
+    "options": {
+      "A": "Kollajenaz",
+      "B": "Protease",
+      "C": "Lizozim",
+      "D": "Lökotoksin",
+      "E": "Endotoksin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Lizozim, bir bakteriyel virülans faktörü değil; tükürükte, gözyaşında, dişeti oluğu sıvısında ve nötrofil granüllerinde bulunan, bakterilerin peptidoglikan hücre duvarındaki muramik asit bağlarını parçalayarak bakterileri öldüren konağa ait doğal bir savunma enzimidir.\n**Çeldiriciler:**\n- A) Kollajenaz, *A. actinomycetemcomitans* tarafından üretilen ve periodontal bağ dokusundaki Tip I ve Tip III kollajen liflerini yıkan bir virülans faktörüdür.\n- B) Proteazlar, konak immünoglobulinlerini (özellikle IgG ve IgA) ve kompleman proteinlerini parçalayarak bakterinin savunmadan kaçmasını sağlayan virülans enzimleridir.\n- D) Lökotoksin, *A. actinomycetemcomitans*'ın en karakteristik virülans faktörü olup konak nötrofillerini, monositlerini ve lenfositlerini membranlarında por açarak öldürür.\n- E) Endotoksin (lipopolisakkarit - LPS), Gram-negatif bir bakteri olan *A. actinomycetemcomitans*'ın dış membranında bulunur ve makrofajlardan proinflamatuvar sitokin salınımını ve kemik rezorpsiyonunu tetikler.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 128,
+    "question": "I. Kollajenaz\nII. Protease\nIII. Lizozim\nIV. Endotoksin\n\nYukarıdakilerden hangi/hangileri Actinobacillus actinomycetemcomitans'ın virülans faktörlerindendir?",
+    "options": {
+      "A": "I-II-III",
+      "B": "I-III-IV",
+      "C": "I-II-IV",
+      "D": "II-III-IV",
+      "E": "I-II-III-IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** *Aggregatibacter (Actinobacillus) actinomycetemcomitans*'ın başlıca virülans faktörleri arasında lökotoksin, endotoksin (LPS), bakteriyosin, kollajenaz, proteazlar, fibroblast inhibitör faktörler ve kemotaksisi baskılayan immünsüpresif faktörler yer alır. Lizozim ise konak tükürüğünde ve fagositlerinde bulunan antibakteriyel bir konak savunma enzimidir.\n**Çeldiriciler:**\n- A) III. öncüldeki lizozim bakteriye değil konağa ait bir enzim olduğundan yanlıştır.\n- B) II. öncüldeki proteazı dışlayıp III. öncüldeki lizozimi içerdiğinden yanlıştır.\n- D) I. öncüldeki kollajenazı dışlayıp III. öncüldeki lizozimi içerdiğinden yanlıştır.\n- E) Konağın doğal bağışıklık enzimi olan lizozimi (III) virülans faktörü olarak kabul ettiği için yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Kollajenaz, *A. actinomycetemcomitans*'ın bağ dokusu matriksini yıkmak için salgıladığı bir virülans faktörüdür (Doğru).\n- **II. Öncül:** Proteazlar, konak antikorlarını ve doku proteinlerini parçalayan bakteriyel virülans faktörleridir (Doğru).\n- **III. Öncül:** Lizozim, bakteri hücre duvarını yıkan tükürük ve lökosit kaynaklı konak savunma enzimidir (Yanlış).\n- **IV. Öncül:** Endotoksin (LPS), Gram-negatif bakterinin hücre duvarında yer alan ve şiddetli inflamatuvar yanıt uyaran virülans faktörüdür (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 133,
+    "question": "Tükürük proteinleri, bakteriler, epitel ve yiyecek artıklarından oluşan, su spreyi ile uzaklaştırılabilen diş yüzeyindeki birikime ne ad verilir?",
+    "options": {
+      "A": "Mikrobiyal dental plak",
+      "B": "Materia alba",
+      "C": "Biyofilm",
+      "D": "Glikokaliks",
+      "E": "Adezin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Materia alba; tükürük proteinleri, rastgele birikmiş mikroorganizmalar, deskuame (dökülmüş) epitel hücreleri, parçalanmış lökositler ve yiyecek artıklarından oluşan, belirli bir iç organizasyonu bulunmayan sarımsı-beyaz renkli yumuşak eklentidir. Diş yüzeyine veya plak üzerine gevşekçe tutunduğu için basınçlı su spreyi ile kolaylıkla uzaklaştırılabilir.\n**Çeldiriciler:**\n- A) Mikrobiyal dental plak, ekstraselüler polimerik matriks içinde iyi organize olmuş bir yapıdır; diş yüzeyine sıkıca tutunur ve su spreyi ile uzaklaştırılamaz, mekanik kazıma/fırçalama gerektirir.\n- C) Biyofilm, mikroorganizma topluluklarının katı bir yüzey üzerinde kendi ürettikleri matriks içinde oluşturdukları, su spreyine dirençli organize yapıdır (dental plak bir biyofilmdir).\n- D) Glikokaliks, bakterilerin hücre duvarını dıştan çevreleyen polisakkarit/protein yapılı koruyucu tabakadır.\n- E) Adezin, bakterilerin yüzeylere tutunmasını sağlayan hücre yüzeyi molekülleridir.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 134,
+    "question": "I. Pelikıl\nII. Plak\nIII. Materia alba\n\nYukarıda verilen yapılardan hangi/leri içeriğinde bakteriyel komponentler içerir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız III",
+      "C": "I-II",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Mikrobiyal dental plak (II) organize olmuş mikroorganizma topluluklarından, materia alba (III) ise organize olmamış bakteri, lökosit, dökülmüş epitel hücresi ve gıda artıklarından oluşur; dolayısıyla her ikisi de bakteriyel komponent içerir. Kazanılmış pelikıl (I) ise diş temizlendikten hemen sonra tükürük glikoproteinlerinin çökelmesiyle oluşan homojen, membranöz ve tamamen hücresiz (bakteri içermeyen) bir film tabakasıdır.\n**Çeldiriciler:**\n- A) Materia albanın (III) da içeriğinde bol miktarda bakteri bulunduğunu göz ardı ettiği için eksiktir.\n- B) Temel bakteriyel biyofilm olan dental plağı (II) içermediği için eksiktir.\n- C) Hücresiz ve bakterisiz bir tabaka olan pelikılı (I) içerdiği için yanlıştır.\n- E) I. öncüldeki pelikıl başlangıçta bakteri içermeyen aselüler bir tükürük filmi olduğundan yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Pelikıl, tükürük glikoproteinlerinden oluşan ve hücre/bakteri içermeyen aselüler bir tabakadır (Yanlış).\n- **II. Öncül:** Dental plak, polisakkarit matriks içine gömülü yoğun ve organize bakteri kolonilerinden oluşur (Doğru).\n- **III. Öncül:** Materia alba, diş yüzeyine gevşek tutunan bakteriler, ölü epitel hücreleri ve besin artıklarının karışımıdır (Doğru).\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 144,
+    "question": "Aşağıdakilerden hangisi Porphyromonas gingivalis'e ait, immün yanıtı uyarabildiği gibi konağa ait sitokinleri degrade edebilen proteaz enzimidir?",
+    "options": {
+      "A": "Gingipain",
+      "B": "Lökotoksin",
+      "C": "Fimbria",
+      "D": "Adezin",
+      "E": "Lizozim"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** *Porphyromonas gingivalis*'in en önemli virülans faktörü olan gingipainler, tripsin benzeri aktivite gösteren sistein proteaz enzimleridir. Konak savunmasını yanıltmak üzere sinyal moleküllerini (CD14), kompleman proteinlerini ve sitokinleri (IL-1β, IL-6, IL-8) degrade edebilir; aynı zamanda konağın inflamatuvar yanıtını uyararak doku yıkımına aracılık eden sitokin ve MMP salınımını tetikler.\n**Çeldiriciler:**\n- B) Lökotoksin, *P. gingivalis*'in değil *Aggregatibacter actinomycetemcomitans*'ın en önemli virülans faktörü olup lökositleri öldüren bir toksindir.\n- C) Fimbria, *P. gingivalis* yüzeyinde bulunan, epitel hücrelerine tutunmayı ve invazyonu sağlayan ipliksi sitoplazmik uzantılardır; proteaz enzimi değildir.\n- D) Adezin, mikroorganizmaların konak dokularına veya diğer bakterilere tutunmasında görev alan yüzey molekülleridir.\n- E) Lizozim, tükürükte bulunan ve bakteri hücre duvarını parçalayan konağa ait bir savunma enzimidir.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 153,
+    "question": "Periodontal tedavi öncesi ve sonrası karşılaştırıldığında, aşağıdaki mikrobiyata değişimlerinden hangisi periodontal dokuların daha sağlıklı duruma geçtiğini gösteren işaretlerden biri değildir?",
+    "options": {
+      "A": "Gram(+) mikroorganizmaların sayısının artıp gram(-) mikroorganizmaların sayısının azalması",
+      "B": "Spiroketlerin yerine kok türü bakterilerin yoğunluğunun artması",
+      "C": "Hareketli mikroorganizmaların azalması",
+      "D": "Zorunlu anaerob mikroorganizmaların azalması",
+      "E": "Proteolitik aktivitesi yüksek mikroorganizmaların artması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Proteolitik (asakkarolitik) aktivitesi yüksek olan mikroorganizmalar (ör. *P. gingivalis, T. denticola*), doku proteinlerini ve aminoasitleri parçalayarak beslenen Gram-negatif anaerobik periodontopatojenlerdir. Bu bakterilerin sayısının artması sağlıklılığa geçişin değil, tam aksine sağlıklı durumdan periodontitise ve aktif doku yıkımına geçişin bir göstergesidir. Başarılı tedavi sonrasında proteolitik türler azalırken, karbonhidratları fermente eden (sakkarolitik/fermentatif) türler artar.\n**Çeldiriciler:**\n- A) Periodontal sağlıkta Gram-pozitif bakteriler baskındır; tedavi sonrasında Gram(-) türlerin azalıp Gram(+) türlerin artması sağlığa dönüşü gösterir.\n- B) Diştaşı temizliği ve kök yüzeyi düzleştirmesi (SRP) sonrasında hastalıklı cepte yoğun bulunan spiroketler azalır ve yerini sağlıkla ilişkili hareketsiz koklar alır.\n- C) Aktif periodontal cepte baskın olan hareketli (motil) çomaklar ve spiroketlerin azalarak hareketsiz türlerin artması iyileşme işaretidir.\n- D) Cep derinliğinin azalması ve oksijenlenmenin artmasıyla zorunlu anaeroblar azalır, sağlıkla ilişkili fakültatif anaeroblar artar.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 162,
+    "question": "Kırk yaşındaki erkek hasta diş eti kanaması şikâyetiyle başvuruyor. Herhangi bir sistemik hastalığı olmayan hastanın günde 20 adet sigara içtiği öğreniliyor. Toplam 28 dişi olan hastada interproksimal subgingival diş taşı, dental biofilm ve radyografta yaygın horizontal kemik kaybı olduğu tespit ediliyor. Radyografik alveoler kemik kaybının %30 veya daha az olduğu görülüyor. Ataşman kaybı 4 mm ve sondlanabilir cep derinliği 5 mm civarında ölçülüyor.\n\nGüncel periodontal hastalıklar sınıflandırması, 2017 EFP kılavuzu referans alındığında bu hasta için en uygun periodontitis teşhisi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Evre I, Derece C",
+      "B": "Evre II, Derece B",
+      "C": "Evre II, Derece C",
+      "D": "Evre III, Derece B",
+      "E": "Evre III, Derece C"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Hastanın verileri incelendiğinde; interdental klinik ataşman kaybının 4 mm (3-4 mm aralığı), radyografik kemik kaybının ≤ %30 (%15-33 koronal üçlü aralığı), maksimum sondlama derinliğinin 5 mm (≤ 5 mm) olması, kayıp diş bulunmaması ve kemik kaybının horizontal karakterde olması **Evre II** periodontitisi gösterir. İndirekt dereceleme hesabında kemik kaybı/yaş oranı (30 / 40 = 0,75) Derece B aralığında (0,25-1,0) çıkmasına karşın, hastanın **günde 20 adet (≥ 10 adet) sigara** içiyor olması dereceyi modifiye ederek doğrudan **Derece C**'ye yükseltir.\n**Çeldiriciler:**\n- A) 4 mm ataçman kaybı ve %30 kemik kaybı Evre I (1-2 mm CAL, <%15 kemik kaybı) sınırlarının üzerindedir.\n- B) Evre II doğrudur ancak günde ≥ 10 sigara içimi dereceyi B'den C'ye modifiye eder.\n- D) Hem evre (ataçman kaybı < 5 mm olduğu için Evre III değil) hem de derece (günde 20 sigara nedeniyle Derece B değil) yanlıştır.\n- E) Derece C doğru olmakla birlikte, hastada Evre III kriterleri (≥ 5 mm CAL, ≥ 6 mm cep, dikey kemik kaybı, Sınıf II/III furkasyon) bulunmamaktadır.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 165,
+    "question": "Öyküsünden 6 yıldır kontrol altında olan diyabet hastası (HbA1c: %6) olduğu, başka bir sistemik sağlık probleminin bulunmadığı ve 10 yıldır günde 8 adet sigara içtiği öğrenilen 50 yaşındaki kadın hastanın klinik muayenesinde dental biyofilm, subgingival diş taşı varlığı ve birbirine komşu olmayan üç farklı bölgede en derini 7 mm olan cep derinlikleri tespit ediliyor. Bu bölgelerde gingival marjinin mine sement sınırının 2-3 mm koronalinde olduğu belirleniyor. Periodontal hastalık nedeniyle üç diş kaybettiği öğrenilen hastanın iki molar dişinde ikinci dereceden furkasyon tutulumları saptanıyor. Radyografik muayene sonucu hastanın alveoler kemik kaybının %40 olduğu belirleniyor.\n\nGüncel periodontal hastalıklar sınıflandırması, 2017 EFP kılavuzu referans alındığında bu hasta için en uygun periodontitis teşhisi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Evre II, Derece C",
+      "B": "Evre III, Derece B",
+      "C": "Evre III, Derece C",
+      "D": "Evre IV, Derece B",
+      "E": "Evre IV, Derece C"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hastanın evresini belirlerken; radyografik kemik kaybının %40 (kökün orta üçlüsüne uzanan, >%33), sondlama cep derinliğinin 7 mm (≥ 6 mm), iki molar dişinde Sınıf II furkasyon tutulumunun bulunması ve **periodontal hastalık nedeniyle 3 diş (≤ 4 diş) kaybetmiş** olması doğrudan **Evre III** periodontitisi gösterir (7 mm cep derinliğinde dişeti kenarı MSS'nin 2-3 mm koronalinde olduğu için klinik ataşman kaybı da 4-5 mm düzeyindedir ve diğer tüm parametreler Evre III kriterlerini karşılamaktadır). Dereceleme için \"% kemik kaybı / yaş\" oranı 40 / 50 = 0,80'dir (0,25-1,0 aralığında: Derece B). Modifiye edici faktörlere bakıldığında; hastanın diyabeti kontrol altındadır (**HbA1c: %6 < %7,0**) ve sigara kullanımı **günde 8 adettir (< 10 adet)**. Her iki modifiye edici faktör de Derece B sınırları içinde kaldığı için teşhis **Evre III, Derece B**'dir.\n**Çeldiriciler:**\n- A) Periodontal sebeple 3 diş kaybı, %40 kemik kaybı ve Sınıf II furkasyon tutulumu Evre II'de görülmez; ayrıca sigara <10 adet ve HbA1c <7 olduğu için Derece C değildir.\n- C) Evre III doğrudur ancak günde 8 sigara (<10) ve HbA1c %6 (<%7) ile kemik kaybı/yaş oranının 0,80 (<1) olması nedeniyle derece C'ye yükselmez, B olarak kalır.\n- D) Periodontal sebepli diş kaybı 5'ten az (3 diş) olduğu ve çiğneme disfonksiyonu/bite kollaps bulunmadığı için Evre IV değildir.\n- E) Hem Evre IV (kayıp diş sayısı ≤ 4 olduğu için) hem de Derece C (tüm derece kriterleri B ile uyumlu olduğu için) yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 171,
+    "question": "Dental biyofilmdeki ko-adezyonda rol oynayan, birçok oral bakteriye tutunma özelliğine sahip, erken ve geç kolonize olan mikroorganizmalar arasında köprü görevi gören anahtar mikroorganizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Streptococcus mutans",
+      "B": "Treponema denticola",
+      "C": "Fusobacterium nucleatum",
+      "D": "Prevotella intermedia",
+      "E": "Aggregatibacter actinomycetemcomitans"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** *Fusobacterium nucleatum*, turuncu komplekste yer alan Gram-negatif anaerobik iğ şekilli bir bakteridir. Hem diş yüzeyindeki pelikıla tutunan erken (primer) kolonizörlere hem de pelikıla doğrudan tutunamayan geç (sekonder/kırmızı kompleks) periodontopatojenlere ko-adezyon/ko-agregasyon yoluyla bağlanabilme yeteneğine sahiptir. Bu özelliği nedeniyle dental biyofilmde erken ve geç kolonizörler arasında \"köprü organizma\" olarak görev yapar.\n**Çeldiriciler:**\n- A) *Streptococcus mutans*, diş çürüğü etiyolojisinde rol oynayan asidojenik bir erken kolonizördür; periodontal biyofilmde köprü görevi görmez.\n- B) *Treponema denticola*, kırmızı komplekste yer alan geç kolonizör bir spirokettir; biyofilme *F. nucleatum* sayesinde bağlanır.\n- D) *Prevotella intermedia* turuncu komplekste yer alır ancak tüm erken ve geç kolonizörleri birbirine bağlayan ana köprü organizma *F. nucleatum*'dur.\n- E) *Aggregatibacter actinomycetemcomitans* koagregasyon yeteneği sınırlı olan, lokalize agresif periodontitis ile ilişkili bir patojendir.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 173,
+    "question": "Bakteri kolonilerinin birikmesinin değişmediği minimum pürüzlülük seviyesi için eşik değer aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "0,1 mm",
+      "B": "0,02 mm",
+      "C": "0,00001 mm",
+      "D": "0,5 µm",
+      "E": "0,2 µm"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Ağız içerisindeki diş, restorasyon veya implant/abutment yüzeylerinin pürüzlülük seviyesi arttıkça bakteriyel tutunma ve plak birikimi hızlanır. Yüzey pürüzlülüğü için kritik eşik değer **Ra = 0,2 µm**'dir. Bu değerin üzerinde plak birikimi belirgin şekilde artarken, Ra < 0,2 µm'nin altında yapılan ek parlatma ve düzleştirme işlemleri bakteriyel plak birikiminde daha fazla bir azalma sağlamaz.\n**Çeldiriciler:**\n- A) 0,1 mm (100 µm), kritik eşik değer olan 0,2 µm'nin 500 katı büyüklüğünde çok pürüzlü bir değeri ifade eder.\n- B) 0,02 mm (20 µm), eşik değerin 100 katı olup ileri derecede plak retansiyonuna yol açar.\n- C) 0,00001 mm (0,01 µm), gerçek eşik değer olan 0,2 µm'den 20 kat daha düşüktür.\n- D) 0,5 µm, eşik değer olan 0,2 µm'nin üzerindedir ve bu seviyede bakteri tutunması artmaya başlamıştır.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 176,
+    "question": "Down sendromunun özellikleri ve periodontal dokular üzerine etkileri için aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "21 Trizomi kaynaklı mental ve büyümede retardasyon görülür.",
+      "B": "Periodontal patolojinin etiyolojisinde plak, kalkulus ve lokal irritanlar bulunur.",
+      "C": "Periodontal hastalık sebebiyle 30 yaşına gelmeden bütün dentisyonunu kaybeder.",
+      "D": "Periodontal hastalığın prevalansı ve şiddeti artmıştır.",
+      "E": "PMN kemotaksisi, fagositozu ve hücre içi m.o öldürme yeteği zayıftır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Down sendromlu bireylerde 30 yaşın altındaki vakaların neredeyse %100'ünde periodontal hastalık gelişir ve yıkım erken yaşta (süt dentisyonda) başlayıp hızlı seyreder; ancak bu bireylerin \"30 yaşına gelmeden bütün dentisyonunu kaybettiği\" ifadesi yanlıştır.\n**Çeldiriciler:**\n- A) Down sendromu, 21. kromozomun trizomisi sonucu gelişen, zihinsel ve bedensel gelişme geriliği ile karakterize konjenital bir sendromdur.\n- B) Bu hastalarda görülen periodontal yıkımda plak, diştaşı ve lokal faktörler (yüksek frenulum, çapraşıklık, diastema, ağız solunumu) önemli etiyolojik rol oynar.\n- D) Down sendromlu bireylerde periodontal hastalığın görülme sıklığı (prevalansı) ve yıkım şiddeti, sağlıklı bireylere ve diğer mental retardasyonlu gruplara göre çok daha yüksektir.\n- E) Yıkımın sadece lokal faktörlerle açıklanamayacak kadar şiddetli olmasının temel nedeni; polimorfonükleer lökositlerin (PMN) kemotaksis, fagositoz ve hücre içi mikroorganizma öldürme yeteneğindeki defekttir.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 179,
+    "question": "En güncel plak hipotezi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ekolojik plak hipotezi",
+      "B": "Non-spesifik plak hipotezi",
+      "C": "Keystone patojen, polimikrobiyal sinerji ve disbiyotik model",
+      "D": "Spesifik plak hipotezi",
+      "E": "Pulpojen endojen fosfataz hipotezi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Periodontal hastalıkların mikrobiyal etiyolojisini açıklayan tarihsel süreç; 19. yüzyıl sonundaki Non-spesifik Plak Hipotezi, 1970'lerdeki Spesifik Plak Hipotezi, 1990'lardaki Ekolojik Plak Hipotezi ve günümüzde kabul gören en güncel yaklaşım olan **\"Keystone (kilit taşı) patojen, polimikrobiyal sinerji ve disbiyozis modeli\"** (Hajishengallis ve Lamont) şeklinde gelişmiştir. Bu güncel modele göre hastalık tek bir patojenden değil, düşük miktardaki keystone patojenlerin (*P. gingivalis* gibi) konak bağışıklığını bozması ve polimikrobiyal topluluğun sinerjik etkileşimle disbiyotik hale geçmesinden kaynaklanır.\n**Çeldiriciler:**\n- A) Ekolojik plak hipotezi (Marsh, 1994), çevresel değişikliklerin patojenlerin çoğalmasına yol açtığını savunan daha önceki bir hipotezdir.\n- B) Non-spesifik plak hipotezi, plağın içeriğinden bağımsız olarak yalnız toplam miktarının hastalığa yol açtığını savunan en eski hipotezdir.\n- D) Spesifik plak hipotezi (Loesche, 1976), yalnızca belirli birkaç spesifik bakterinin doğrudan hastalığa neden olduğunu savunan eski bir görüştür.\n- E) Pulpojen endojen fosfataz hipotezi, plak hipotezleri arasında yer almayan, diştaşı mineralizasyonu ile ilgili eski ve geçersiz bir teoridir.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 181,
+    "question": "Diştaşı oluşumunda en aktif rol oynayan mineraller aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kalsiyum ve fosfor",
+      "B": "Kalsiyum ve Potasyum",
+      "C": "Sodyum ve flor",
+      "D": "Sodyum ve Potasyum",
+      "E": "Magnezyum ve Sodyum"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Diştaşının (kalkulusun) inorganik yapısı vücuttaki diğer kalsifiye dokularla benzerlik gösterir ve ağırlıkça %70-90'ını oluşturur. Bu inorganik komponent içerisinde en yüksek oranda bulunan ve mineralizasyonda (kalsiyum fosfat kristallerinin çökelmesinde) en aktif rol oynayan iki temel mineral **kalsiyum (%39)** ve **fosfordur (%19)** (kalsiyum fosfat bileşikleri toplam inorganik yapının yaklaşık %75,9'unu oluşturur).\n**Çeldiriciler:**\n- B) Potasyum diştaşının ana mineral yapısında yer almaz, yalnızca eser miktarda bulunur.\n- C) Sodyum ve flor diştaşının kristal çatısını oluşturan ana mineraller değil, eser elementlerdir.\n- D) Sodyum ve potasyum sıvı dengesinde rol oynayan elektrolitler olup diştaşı kalsifikasyonunun ana mineralleri değildir.\n- E) Magnezyum fosfat (%3,7) ve sodyum diştaşında bulunsa da en yüksek oranda ve en aktif rol oynayan mineraller kalsiyum ve fosfordur.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 182,
+    "question": "I. Kalsiyum\nII. Fosfor\nIII. Brushite\n\nDiştaşı oluşumunda en aktif rol oynayan mineraller yukarıdakilerden hangileridir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I-II",
+      "D": "I-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Diştaşının inorganik yapısında en yüksek oranda bulunan ve mineralizasyonda en aktif rol oynayan temel **mineraller (elementler)** kalsiyum (%39) ve fosfordur (%19). III. öncülde verilen \"Brushite\" (dikalsiyum fosfat dihidrat) ise bir mineral element değil, kalsiyum ve fosforun birleşmesiyle oluşan dört ana **kristal yapıdan** biridir. Soru kökünde spesifik olarak \"mineraller\" sorulduğu için doğru cevap I ve II'dir.\n**Çeldiriciler:**\n- A) Diştaşı oluşumunun diğer ana minerali olan fosforu (II) içermediği için eksiktir.\n- B) En yüksek oranda bulunan mineral olan kalsiyumu (I) dışladığı için eksiktir.\n- D) Brushite (III) bir mineral değil, kristal form olduğu için yanlıştır.\n- E) III. öncüldeki kristal yapıyı mineral element olarak kabul ettiği için yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Kalsiyum, diştaşının inorganik yapısında %39 oranıyla en fazla bulunan mineraldir (Doğru).\n- **II. Öncül:** Fosfor, %19 oranıyla kalsiyumla birleşerek diştaşının temel yapısını oluşturan ikinci ana mineraldir (Doğru).\n- **III. Öncül:** Brushite, mineral değil diştaşının inorganik komponentinde yer alan bir kristal formdur (Yanlış).\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 183,
+    "question": "Supragingival ve subgingival diştaşlarının farklı özelliklerinden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Renk",
+      "B": "Sertlik",
+      "C": "Dişetine göre lokalizasyon",
+      "D": "Radyografik görünümleri",
+      "E": "Teşhis yöntemleri"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hem supragingival hem de subgingival diştaşları yüksek oranda mineralize (kalsifiye) yapılar oldukları için radyografide interproksimal bölgelerde radyoopak dikenimsi çıkıntılar şeklinde benzer görüntü verirler veya diş sert dokularıyla süperpoze olurlar; radyografik görünümleri bu iki diştaşı tipini birbirinden ayıran karakteristik bir fark değildir.\n**Çeldiriciler:**\n- A) Renkleri farklıdır: Supragingival diştaşı beyaz-sarımsı (tütün/gıdayla boyanabilir) renkteyken, subgingival diştaşı dişeti oluğu sıvısı ve kan yıkım ürünlerinden (hemin) dolayı koyu kahverengi veya yeşilimsi-siyah renktedir.\n- B) Sertlikleri farklıdır: Supragingival diştaşı kil/tebeşir kıvamında daha az sertken, subgingival diştaşı çakmaktaşı gibi çok daha yoğun, sert ve sement yüzeyine sıkıca tutunmuş yapıdadır.\n- C) Lokalizasyonları farklıdır: Supragingival diştaşı serbest dişeti kenarının koronalinde, subgingival diştaşı ise dişeti kenarının apikalinde (cep içinde) yer alır.\n- E) Teşhis yöntemleri farklıdır: Supragingival diştaşı ağız içinde çıplak gözle doğrudan görülerek teşhis edilirken, subgingival diştaşı sond veya eksplorer ile dokunarak (taktil muayene) veya dişeti hava spreyi ile uzaklaştırılarak teşhis edilir.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 184,
+    "question": "Aşağıdakilerden hangisi diş taşlarında bulunan kristal yapılardan değildir?",
+    "options": {
+      "A": "Bruşit",
+      "B": "Okta kalsiyum fosfat",
+      "C": "Hidroksiapatit",
+      "D": "Kalsiyum karbonat",
+      "E": "Vitlokit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Olgun diştaşının inorganik kısmının üçte ikisi kristal yapıdadır ve diştaşında bulunan **4 temel kalsiyum fosfat kristal formu** şunlardır: **Hidroksiapatit (%58)**, **Magnezyum vitlokit (%21)**, **Oktakalsiyum fosfat (%21)** ve **Bruşit (%9)**. Kalsiyum karbonat (%3,1) diştaşının inorganik bileşiminde küçük bir oranda yer alan kimyasal bir tuzdur, ancak diştaşının 4 ana kristal yapısından biri değildir.\n**Çeldiriciler:**\n- A) Bruşit (dikalsiyum fosfat dihidrat), özellikle erken dönemde oluşan genç diştaşlarında ve mandibular anterior bölgede sık görülen kristal yapıdır.\n- B) Oktakalsiyum fosfat, tüm supragingival diştaşlarında yüksek sıklıkta bulunan ana kristal formlardan biridir.\n- C) Hidroksiapatit, diştaşında miktar olarak en fazla (%58) bulunan kristal yapıdır.\n- E) Vitlokit (magnezyum vitlokit), özellikle eski/olgun diştaşlarında, subgingival bölgede ve posterior dişlerde yaygın bulunan kristal yapıdır.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 185,
+    "question": "I. Bruşit\nII. Okta kalsiyum fosfat\nIII. Hidroksiapatit\nIV. Pirofosfat\n\nAşağıdakilerden hangisi/hangileri diş taşlarında bulunan kristal yapılardandır?",
+    "options": {
+      "A": "I-II-III",
+      "B": "I-II-IV",
+      "C": "I-III-IV",
+      "D": "II-III-IV",
+      "E": "I-II-III-IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Diştaşlarında bulunan dört ana kristal yapı; Bruşit (I), Oktakalsiyum fosfat (II), Hidroksiapatit (III) ve Magnezyum vitlokittir. IV. öncüldeki Pirofosfat ise diştaşını oluşturan bir kristal yapı değil; tam aksine kalsiyum fosfat kristallerinin büyümesini engelleyerek diştaşı oluşumunu önleyen (anti-kalkulus/tartar kontrol) bir kristal büyüme inhibitörüdür ve tükürükte/diş macunlarında bulunur.\n**Çeldiriciler:**\n- B) IV. öncüldeki pirofosfat kristal yapı değil, kristal oluşum inhibitörüdür.\n- C) II. öncülü dışlayıp yanlış olan IV. öncülü içerdiği için hatalıdır.\n- D) I. öncüldeki bruşiti dışlayıp IV. öncüldeki pirofosfatı içerdiği için yanlıştır.\n- E) Anti-kalkulus ajan olan pirofosfatı (IV) diştaşı kristali olarak kabul ettiği için yanlıştır.\n**Öncüllerin Analizi:**\n- **I. Öncül:** Bruşit, diştaşında özellikle başlangıç aşamasında oluşan dört ana kristal yapıdan biridir (Doğru).\n- **II. Öncül:** Oktakalsiyum fosfat, supragingival diştaşlarında çok sık rastlanan ana kristal yapılardandır (Doğru).\n- **III. Öncül:** Hidroksiapatit, diştaşlarında en yüksek oranda bulunan kristal yapıdır (Doğru).\n- **IV. Öncül:** Pirofosfat, diştaşı kristali değil, kalsifikasyonu önleyen anti-kalkulus maddedir (Yanlış).\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 186,
+    "question": "Mandibular posterior bölgede sıklıkla bulunan kristal yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Brushite",
+      "B": "Octacalcium phosphate",
+      "C": "Magnesium whitlockite",
+      "D": "Hydroxyapatite",
+      "E": "Pirofosfat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Hidroksiapatit ve oktakalsiyum fosfat ağızın tüm bölgelerindeki diştaşlarında (%97-100) en sık bulunan kristallerdir. Bölgesel dağılım incelendiğinde ise mandibular anterior bölgede **Brushite**, posterior bölgelerde (ve subgingival alanda) ise **Magnesium whitlockite (Magnezyum vitlokit)** diğer bölgelere kıyasla çok daha yaygın olarak bulunur.\n**Çeldiriciler:**\n- A) Brushite posterior bölgede değil, özellikle mandibular anterior bölgedeki genç supragingival diştaşlarında daha sık bulunur.\n- B) Oktakalsiyum fosfat arka bölgeye özgül bir artış göstermez, tüm supragingival bölgelerde genel olarak bulunur.\n- D) Hidroksiapatit tüm ağız bölgelerinde en yaygın bulunan genel kristaldir; posterior bölgeye spesifik ayırt edici kristal magnezyum vitlokittir.\n- E) Pirofosfat bir diştaşı kristali değil, diş macunlarına eklenen diştaşı önleyici (anti-kalkulus) ajandır.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 187,
+    "question": "Sigara kullanımının, periodontal hastalıkların etiyolojisi, prevalansı ve şiddeti üzerine etkileri değerlendirildiğinde aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sondlamada kanamayı artırır.",
+      "B": "Cep derinliğini, ataşman kaybını ve kemik kaybını artırır.",
+      "C": "Periodontitise bağlı diş kaybını artırır.",
+      "D": "Periodontal yıkımın şiddetini ve prevalansını artırır.",
+      "E": "Diş eti oluğu sıvısında TNF-α ve PGE2 seviyelerini artırır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sigara kullanımı, periodontal yıkımı şiddetlendirmesine rağmen dişeti dokularındaki inflamatuvar klinik belirtileri (kızarıklık, ödem) ve **sondlamada kanamayı (BOP) azaltır (baskılar)**. Bunun nedeni nikotinin periferik kan damarları üzerindeki vazokonstriktör etkisi, azalmış damar yoğunluğu ve dişeti epitelinde artmış keratinizasyondur. Bu durum sigara içenlerde mevcut periodontal hastalığın klinik olarak maskelenmesine yol açar.\n**Çeldiriciler:**\n- B) Sigara içen bireylerde içmeyenlere kıyasla sondlama cep derinliği, klinik ataşman kaybı ve alveoler kemik yıkımı belirgin derecede artmıştır.\n- C) Sigara, hem doku yıkımını hızlandırarak hem de periodontal tedaviye yanıtı bozarak periodontitise bağlı diş kaybı oranını artırır.\n- D) Sigara kullanımı periodontitisin en önemli çevresel risk faktörlerinden biridir; günlük içilen sigara sayısı arttıkça hastalığın prevalansı ve yıkım şiddeti artar.\n- E) Sigara dumanındaki toksik bileşikler monosit ve makrofajları uyararak dişeti oluğu sıvısında TNF-α, IL-1β, PGE2 ve MMP-8 gibi yıkıcı mediyatörlerin seviyelerini artırır.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 188,
+    "question": "Sigara kullanımının, periodontal hastalıkların etiyolojisi, prevalansı ve tedavi sonuçları üzerine etkileri değerlendirildiğinde aşağıdakilerden hangisinde artışa neden olmaz?",
+    "options": {
+      "A": "Sondlamada cep derinliği",
+      "B": "Klinik ataşman kaybı",
+      "C": "Dos'taki TNF-α ve PgE2 seviyeleri",
+      "D": "Subgingival ısı",
+      "E": "Biyofilmdeki patolojik bakterilerin oranı"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sigara içmeyen bireylerde periodontal inflamasyon varlığında artan kan akımına bağlı olarak subgingival sıcaklık yükselir. Ancak sigara kullanan bireylerde nikotinin neden olduğu periferik vazokonstriksiyon ve azalmış gingival kan akımı sebebiyle **subgingival ısı artmaz, aksine içmeyenlere göre daha düşüktür**.\n**Çeldiriciler:**\n- A) Sigara kullanımı özellikle maksiller palatal ve anterior bölgelerde sondlama cep derinliğinde belirgin artışa neden olur.\n- B) Kollajen sentezinin baskılanması ve MMP ile osteoklast aktivitesinin artması sonucunda klinik ataşman kaybı artar.\n- C) Sigara kullanımı konak immün yanıtını bozarak dişeti oluğu sıvısındaki (DOS) proinflamatuvar TNF-α ve PGE2 düzeylerini artırır.\n- E) Sigara, cep içi oksijen-redoks potansiyelini düşürerek anaerobik ortamı destekler ve biyofilmde *T. forsythia* ve *P. gingivalis* gibi periodontopatojen bakterilerin oranını artırır.\n---",
+    "flag_reason": null,
+    "unit": "Etiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,1650 @@
+[
+  {
+    "question": "Aşağıdaki amino asitlerin hangisinden nikotinamid sentezlenebilir? (2010 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Tirozin",
+      "B": "Fenilalanin",
+      "C": "Triptofan",
+      "D": "Histidin",
+      "E": "Glisin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Triptofan)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Tirozin:** Tiroid hormonları (T3, T4), melanin pigmenti ve katekolaminlerin (dopamin, noradrenalin, adrenalin) sentezinde kullanılır. Nikotinamid sentezinde rol almaz.\n- **B) Fenilalanin:** Fenilalanin hidroksilaz enzimi ile tirozi'e dönüşür. Doğrudan nikotinamid sentezinde kullanılmaz.\n- **C) Triptofan (DOĞRU):** Triptofan katabolizmasında kinürenin yolu üzerinden Niasin (Vitamin B3) ve dolayısıyla NAD+/NADP+ yapısındaki nikotinamid nükleotidleri sentezlenir (Yaklaşık 60 mg triptofandan 1 mg niasin sentezlenir).\n- **D) Histidin:** Histidin dekarboksilaz enzimi ile dekarboksile olarak alerjik yanıt ve mide asit salgısında görevli vazodilatör bir amin olan histamini oluşturur.\n- **E) Glisin:** Pürin halkası (C4, C5, N7), porfirin (ALA), kreatin, glutatyon ve safra tuzlarının (glikokolik asit) yapısına katılır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Melatonin sentezinde kullanılan öncül amino asit aşağıdakilerden hangisidir? (2017 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Fenilalanin",
+      "B": "Triptofan",
+      "C": "Histidin",
+      "D": "Tirozin",
+      "E": "Arjinin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Triptofan)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Fenilalanin:** Tirozin öncülü olan esansiyel bir aminoasittir; doğrudan melatonin üretmez.\n- **B) Triptofan (DOĞRU):** Triptofan önce triptofan 5-hidroksilaz ile 5-hidroksitriptofana, ardından dekarboksilasyon ile Serotonin'e (5-HT) dönüştürülür. Epifiz bezinde (pineal bez) serotonin N-asetilasyon ve O-metilasyon (SAM kullanarak) adımlarıyla Melatonin hormonuna çevrilir.\n- **C) Histidin:** Histamin sentezinin öncülüdür.\n- **D) Tirozin:** Katekolaminler (dopamin, noradrenalin, adrenalin), melanin ve tiroid hormonlarının öncülüdür.\n- **E) Arjinin:** Nitrik oksit (NO), üre, ornitin, kreatin ve poliaminlerin öncülüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisinin dekarboksilasyonu sonucu vazodilatör bir madde açığa çıkar? (2014 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Glutamat",
+      "B": "Arjinin",
+      "C": "Histidin",
+      "D": "Serin",
+      "E": "Glisin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Histidin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Glutamat:** Glutamat dekarboksilaz enzimi (kofaktör B6 / PLP) ile dekarboksile olarak merkezi sinir sisteminin temel inhibitör nörotransmitteri olan GABA'yı (gama-aminobütrik asit) oluşturur.\n- **B) Arjinin:** Nitrik Oksit Sentaz (NOS) enzimiyle Nitrik Oksit (vazodilatör) oluşturur; dekarboksilasyon ürünü agmatindir.\n- **C) Histidin (DOĞRU):** Histidin dekarboksilaz enzimi (PLP kofaktörlü) vasıtasıyla dekarboksile edilerek güçlü bir vazodilatör, kapiller geçirgenliği artıran ve bronkokonstriktör etki gösteren Histamin'i oluşturur.\n- **D) Serin:** Dekarboksilasyonu ile etanolamin elde edilir (fosfolipid sentezinde kullanılır).\n- **E) Glisin:** En küçük aminoasit olup dekarboksilasyona uğramaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kreatin fosfat sentezinde kullanılmaz? (2011 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "ATP",
+      "B": "Arjinin",
+      "C": "Metionin",
+      "D": "Glisin",
+      "E": "Histidin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Histidin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) ATP:** Kreatin sentezlendikten sonra kas dokusunda Kreatin Kinaz (CK) enzimi vasıtasıyla ATP harcanarak yüksek enerjili depolama formu olan Kreatin Fosfat'a dönüştürülür.\n- **B) Arjinin:** Böbreklerde Arjinin:Glisin Transamidinaz enzimi ile Glisin'e guanidino grubunu aktararak Guanidoasetat'ı oluşturur.\n- **C) Metionin:** Karaciğerde SAM (S-adenozilmetionin) biçiminde Guanidoasetat'a metil grubu vererek Kreatin oluşumunu tamamlar.\n- **D) Glisin:** Böbrekte Arjinin ile birleşerek Guanidoasetat karbon iskeletini oluşturan temel aminoasittir.\n- **E) Histidin (DOĞRU):** Kreatin biyosentez yolunda (Glisin + Arjinin + SAM/Metionin) yer almaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Böbreklerde glomerüler filtrasyona ve tübüler sekresyona uğrayan azotlu bileşik aşağıdakilerden hangisidir? (2010 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Kreatin",
+      "B": "Kreatinin",
+      "C": "Üre",
+      "D": "Karnitin",
+      "E": "İnülin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Kreatinin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Kreatin:** Kaslarda enerji deposu (kreatin fosfat) olarak tutulur, idrarla belirgin atılım göstermez.\n- **B) Kreatinin (DOĞRU):** Kaslarda kreatin fosfatın non-enzimatik spontan dehidrasyonu ile oluşan yıkım ürünüdür. Böbreklerde glomerüllerden serbestçe filtre edilir ve tübüllerden az miktarda sekrete edilir (reabsorbe edilmez).\n- **C) Üre:** Glomerüllerden serbestçe filtre edilir ancak tübüllerden %40-50 oranında pasif reabsorpsiyona uğrar, sekresyona uğramaz.\n- **D) Karnitin:** Yağ asitlerinin mitokondriye taşınmasında görevlidir; renal fonksiyon testi göstergesi değildir.\n- **E) İnülin:** Fruktoz polimeridir. Sadece glomerüler filtrasyona uğrar; ne tübüler reabsorpsiyon ne de sekresyon gösterir (GFR tayininde altın standarttır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Yan zinciri üzerinden protein fosforilasyonu gerçekleştirilen amino asitler aşağıdakilerin hangisinde birlikte verilmiştir? (2010 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Serin, tirozin, sistein",
+      "B": "Serin, treonin, triptofan",
+      "C": "Sistein, tirozin, treonin",
+      "D": "Sistein, tirozin, arjinin",
+      "E": "Tirozin, serin, treonin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Tirozin, serin, treonin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, D Seçenekleri:** Sistein (tiyol/sülfidril), Triptofan (indol) ve Arjinin (guanidino) protein kinaz enzimlerinin fizyolojik O-fosforilasyon hedefi olan aminoasitler değildir.\n- **E) Tirozin, serin, treonin (DOĞRU):** Yan zincirlerinde serbest -OH (hidroksil) grubu taşıyan Serin, Treonin ve Tirozin (ve bazen Histidin) protein kinaz enzimleri tarafından ATP harcanarak O-fosforilasyona uğratılır. Bu modifikasyon hücresel sinyal iletimi ve enzim regülasyonunda kritik rol oynar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki moleküllerden hangisi amfipatik özelliktedir? (2011 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Glukoz",
+      "B": "Pirüvat",
+      "C": "Amonyak",
+      "D": "Fenilalanin",
+      "E": "Glisin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Fenilalanin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Glukoz:** Çok sayıda hidroksil (-OH) grubu içeren tamamen polar ve hidrofilik bir şeker molekülüdür.\n- **B) Pirüvat:** İyonize karboksil grubu taşıyan polar hidrofilik bir alfa-ketoasittir.\n- **C) Amonyak:** Suda çözünen küçük inorganik polar moleküldür.\n- **E) Glisin:** Yan zinciri sadece tek bir H atomudur; belirgin bir hidrofobik kuyruğa sahip olmadığından amfipatik sayılmaz.\n- **D) Fenilalanin (DOĞRU):** Hem hidrofilik iyonize olabilen alfa-amino ve alfa-karboksil gruplarına (polar uç) hem de hidrofobik apolar benzen halkasına (yan zincir) sahip olduğu için hem polar hem nonpolar karakteri birlikte barındıran amfipatik bir moleküldür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asit çiftlerinden hangisi saf ketojenik aminoasittir? (2012 İlkbahar DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Lösin - Lizin",
+      "B": "Histidin - Metionin",
+      "C": "Treonin - Valin",
+      "D": "Lösin - Histidin",
+      "E": "Lizin - Valin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Lösin - Lizin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Lösin - Lizin (DOĞRU):** Vücutta katabolizmaları sonucunda SADECE Asetil-KoA ve/veya Asetoasetat oluşturan, glukoz sentezinde (glukoneogenez) karbon kaynağı olarak kullanılamayan tek SAF KETOJENİK aminoasitlerdir.\n- **B) Histidin - Metionin:** İkisi de saf glukojenik aminoasitlerdir (Histidin -> a-ketoglutarat; Metionin -> Süksinil-KoA).\n- **C) Treonin - Valin:** Valin saf glukojenik; Treonin esas olarak glukojenik kabul edilir.\n- **D) Lösin - Histidin:** Lösin saf ketojenik iken Histidin saf glukojeniktir.\n- **E) Lizin - Valin:** Lizin saf ketojenik iken Valin saf glukojeniktir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi hem glikojenik hem de ketojeniktir? (2018 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Prolin",
+      "B": "Histidin",
+      "C": "Asparajin",
+      "D": "Glisin",
+      "E": "İzolösin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (İzolösin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Prolin:** Glutamat üzerinden a-ketoglutarata katılan saf glukojenik bir aminoasittir.\n- **B) Histidin:** FIGLU üzerinden a-ketoglutarata katılan saf glukojenik bir aminoasittir.\n- **C) Asparajin:** Aspartat üzerinden oksaloasetata katılan saf glukojenik bir aminoasittir.\n- **D) Glisin:** Serin/Pirüvat üzerinden glukoz sentezine katılan saf glukojenik bir aminoasittir.\n- **E) İzolösin (DOĞRU):** İzolösin, Tirozin, Fenilalanin ve Triptofan (İ-T-F-T) şifresiyle hatırlanan bu dört aminoasit hem glukojenik (Süksinil-KoA, Fumarat veya Pirüvat) hem de ketojenik (Asetil-KoA / Asetoasetat) ürünler veren karma (hibrit) aminoasitlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Porfirin sentezinin ilk tepkimesinde kullanılan aminoasit aşağıdakilerden hangisidir? (2012 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Alanin",
+      "B": "Metionin",
+      "C": "Sistein",
+      "D": "Glisin",
+      "E": "Tirozin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Glisin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, E Seçenekleri:** Alanin, Metionin, Sistein ve Tirozin porfirin halkasının başlangıç substratları değildir.\n- **D) Glisin (DOĞRU):** Hem/Porfirin biyosentezinin mitokondride gerçekleşen ilk ve hız kısıtlayıcı basamağında, ALA Sentaz enzimi (kofaktör Piridoksal Fosfat / B6) varlığında Süksinil-KoA ile birleşerek Delta-Aminolevülinik Asit (ALA) oluşturan aminoasit Glisindir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin sentezinde glisin yer almaz? (2017 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Hippürik asit",
+      "B": "Pürin halkası",
+      "C": "Kreatin",
+      "D": "Serotonin",
+      "E": "Delta-aminolevülinat"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Serotonin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Hippürik asit:** Benzoik asit toksik molekülü karaciğerde Glisin ile konjuge edilerek (Faz II konjugasyonu) suda çözünen hippürik asite dönüştürülüp idrarla atılır.\n- **B) Pürin halkası:** Pürin halkasının (adenin, guanin) C4, C5 ve N7 atomları eksiksiz bir şekilde Glisin molekülünden sağlanır.\n- **C) Kreatin:** Arjinin + Glisin -> Guanidoasetat; ardından Guanidoasetat + SAM -> Kreatin sentezlenir.\n- **E) Delta-aminolevülinat (ALA):** Hem biyosentezinde ALA Sentaz vasıtasıyla Süksinil-KoA ve Glisin birleşerek ALA oluşturur.\n- **D) Serotonin (DOĞRU):** Serotonin (5-hidroksitriptamin / 5-HT) Triptofan aminoasidinden sentezlenir; yapısında glisin yer almaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Glisin ile ilgili hangisi yanlıştır? (2020 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Pürin bazlarının yapısına katılır.",
+      "B": "Glutatyon sentezinde görev alır.",
+      "C": "g-aminobütirat sentezine katılır.",
+      "D": "Porfirinlerin biyosentezine katılır.",
+      "E": "Kreatin sentezinde görev alır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (g-aminobütirat sentezine katılır.)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Pürin bazlarının yapısına katılır:** Doğru. Glisin pürin halkasının C4, C5 ve N7 atomlarını verir.\n- **B) Glutatyon sentezinde görev alır:** Doğru. Glutatyon bir tripeptiddir (g-glutamil-sisteinil-glisin).\n- **C) g-aminobütirat sentezine katılır (YANLIŞ):** GABA (gama-aminobütirat), Glutamat dekarboksilaz enzimi (B6 kofaktörü) ile Glutamat'ın dekarboksile edilmesiyle oluşur. Glisin GABA sentezinde yer almaz.\n- **D) Porfirinlerin biyosentezine katılır:** Doğru. Süksinil-KoA ile birleşip Delta-aminolevülinat (ALA) oluşturur.\n- **E) Kreatin sentezinde görev alır:** Doğru. Böbrekte Arjinin ile birleşerek Guanidoasetat oluşturur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "I. Serotonin - Serin\nII. Histamin - Histidin\nIII. Melatonin - Metionin\nIV. Dopamin - Tirozin\nYukarıdaki molekül-aminoasit eşleştirmelerinden hangileri doğrudur? (2012 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "II ve IV",
+      "D": "I, II ve III",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (II ve IV)**\n\n**Öncüllerin Detaylı Açıklaması:**\n- **I. Serotonin - Serin (YANLIŞ):** Serotonin (5-HT) Triptofan aminoasitinin hidroksilasyonu ve dekarboksilasyonu ile sentezlenir. Serin ile ilişkili değildir.\n- **II. Histamin - Histidin (DOĞRU):** Histidin dekarboksilaz enzimi (B6 kofaktörlü) vasıtasıyla Histidin aminoasidinden sentezlenir.\n- **III. Melatonin - Metionin (YANLIŞ):** Melatonin ana öncülü Triptofandır (Triptofan -> Serotonin -> Melatonin). Metionin sadece SAM üzerinden metil vericisi olarak katkı sağlar, temel molekül değildir.\n- **IV. Dopamin - Tirozin (DOĞRU):** Tirozin hidroksilaz ile L-DOPA ve ardından dekarboksilasyon ile Dopamin sentezlenir.\n- **Sonuç:** II ve IV doğru öncüllerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "pH'si 7 olan ve serin, aspartat, lizin, arjinin ve histidin aminoasitlerini içeren bir çözeltinin pH'si 6'ya düşürülüyor. Bu durumda yük değişimi en fazla hangi aminoasitte olur? (2012 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Serin",
+      "B": "Aspartat",
+      "C": "Histidin",
+      "D": "Arjinin",
+      "E": "Lizin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Histidin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Serin:** Yan zinciri hidroksil (-OH) grubudur ve pKa değeri ~13'tür. pH 7'den 6'ya düşüldüğünde yükü değişmez (nötr kalır).\n- **B) Aspartat:** Yan zincir karboksil pKa değeri ~3.9'dur. Hem pH 7'de hem de pH 6'da deprotonize halde ve -1 yüklüdür; belirgin yük değişimi olmaz.\n- **D) Arjinin:** Guanidino yan zincir pKa değeri ~12.5'tir. Hem pH 7 hem pH 6'da tam protonlu ve +1 yüklüdür.\n- **E) Lizin:** Epsilon-amino pKa değeri ~10.5'tir. Hem pH 7 hem pH 6'da tam protonlu ve +1 yüklüdür.\n- **C) Histidin (DOĞRU):** Histidinin yan zincirinde bulunan İmidazol halkasının pKR değeri tam olarak 6.0'dır. pH 7.0 ortamında büyük oranda yüksüz (0) olan İmidazol halkası, pH 6.0 ortamına geçildiğinde proton alarak (protonlaşarak) +1 yüklü hale geçer. Bu nedenle pH 7.0 - 6.0 aralığında yük değişimi gösteren tek aminoasit Histidindir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki açık formüllerden hangisi tirozin aminoasidine aittir? (2012 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Formül A (Valin)",
+      "B": "Formül B (Histidin)",
+      "C": "Formül C (Tirozin - Fenol grubu içerir)",
+      "D": "Formül D (Sistein)",
+      "E": "Formül E (İzolösin)"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Formül C)**\n\n**Şıkların Detaylı Açıklaması:**\n- **Formül A:** Beta karbonuna bağlı iki metil grubu içeren dallı zincirli Valin aminoasididir.\n- **Formül B:** İmidazol halkası içeren Histidin aminoasididir.\n- **Formül C (DOĞRU):** Alfa-karbonuna bağlı beta-karbonu (CH2) ve buna bağlı para-hidroksil grubu barındıran aromatik benzen (fenol) halkası içeren yapı Tirozin aminoasidine aittir.\n- **Formül D:** Tiyol (-SH) grubu içeren Sistein aminoasididir.\n- **Formül E:** Dallı zincirli İzolösin aminoasididir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, yan zincirinde hidroksil grubu içeren aminoasitlerden biridir? (2013 İlkbahar DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Metionin",
+      "B": "Tirozin",
+      "C": "Alanin",
+      "D": "Glisin",
+      "E": "Sistein"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Tirozin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Metionin:** Yan zincirinde tiyoeter (-S-CH3) grubu içerir; kükürtlü aminoasittir.\n- **B) Tirozin (DOĞRU):** Yan zincirinde fenolik -OH (hidroksil) grubu bulundurur. Hidroksilli aminoasitler Serin, Treonin ve Tirozin'dir.\n- **C) Alanin:** Yan zincirinde sadece metil (-CH3) grubu bulunduran apolar bir aminoasittir.\n- **D) Glisin:** Yan zincirinde sadece H atomu bulundurur.\n- **E) Sistein:** Yan zincirinde tiyol / sülfidril (-SH) grubu bulundurur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Endoplazmik retikulumda, proteinlere N-bağlı oligosakkarit birimleri, aşağıdaki aminoasitlerin hangisi üzerinden takılır? (2013 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Valin",
+      "B": "Alanin",
+      "C": "Asparajin",
+      "D": "Serin",
+      "E": "Treonin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Asparajin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B) Valin, Alanin:** Yan zincirlerinde glikozillenme alanı olabilecek fonsiyonel polar grup içermezler.\n- **C) Asparajin (DOĞRU):** Proteinlerin N-glikozilasyonu ER (Endoplazmik Retikulum) lümeninde gerçekleşir. Karbonhidrat zinciri (Dolikol fosfat aracılığıyla) Asparajin aminoasitinin yan zincirindeki amide azotu (-NH2) üzerinden bağlanır (Asn-X-Ser/Thr konsensüs sekansı).\n- **D, E) Serin, Treonin:** Golgi aygıtında gerçekleşen O-glikozilasyonda karbonhidrat birimlerinin bağlandığı hidroksilli (-OH) aminoasitlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Hemoglobinin yapısında bulunan ve kan pH'lerinin düzenlenmesinde rol oynayan amino asit, aşağıdakilerden hangisidir? (2014 Sonbahar DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Metionin",
+      "B": "Alanin",
+      "C": "Serin",
+      "D": "Histidin",
+      "E": "Lösin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Histidin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, E Seçenekleri:** Metionin, Alanin, Serin ve Lösin fizyolojik pH 7.4 ortamında iyonize olarak H+ alıp verebilen yan zincir pK değerlerine sahip değildir.\n- **D) Histidin (DOĞRU):** Histidin yan zincirindeki İmidazol halkasının pKR değeri ~6.0 olup fizyolojik pH'ya (7.4) en yakın pK değerine sahip aminoasittir. Bu sayede fizyolojik pH ortamında en güçlü tamponlama kapasitesini sağlar. Hemoglobinde bol miktarda bulunarak kanda H+ tamponlamasında (Bohr etkisi) temel rol oynar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi, nötral pH'de tamponlama etkisine sahiptir? (2015 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Glisin",
+      "B": "Alanin",
+      "C": "Serin",
+      "D": "Lösin",
+      "E": "Histidin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Histidin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, D Seçenekleri:** Glisin, Alanin, Serin ve Lösin aminoasitlerinin yan zincirleri fizyolojik pH aralığında (6.8 - 7.4) proton alıp vererek tamponlama işlevi göremez.\n- **E) Histidin (DOĞRU):** İmidazol yan zincirinin pK değeri 6.0 olduğu için nötr ve hafif fizyolojik pH şartlarında H+ tutup salarak hücresel ve plazma proteinlerinin en etkin tampon aminoasidi olarak görev yapar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi, bazik yan zincir içerir? (2013 Sonbahar DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Metionin",
+      "B": "Glutamin",
+      "C": "Histidin",
+      "D": "Serin",
+      "E": "Valin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Histidin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Metionin:** Apolar kükürtlü aminoasittir.\n- **B) Glutamin:** Yüksüz polar amid grubu içeren aminoasittir.\n- **C) Histidin (DOĞRU):** Yan zincirinde İmidazol halkası taşıyan ve pozitif yük kazanabilen BAZİK bir aminoasittir. Bazik aminoasitler: Lizin, Arjinin ve Histidin'dir.\n- **D) Serin:** Yüksüz polar hidroksilli aminoasittir.\n- **E) Valin:** Apolar dallı zincirli aminoasittir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi hidrofilik özellikte olup bazik yan zincire sahiptir? (2017 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Asparajin",
+      "B": "Valin",
+      "C": "Triptofan",
+      "D": "Lizin",
+      "E": "Serin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Lizin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Asparajin:** Hidrofiliktir ancak yan zinciri yüksüz nötr amid yapısındadır (bazik değildir).\n- **B) Valin:** Apolar hidrofobiktir.\n- **C) Triptofan:** Aromatik apolar hidrofobiktir.\n- **D) Lizin (DOĞRU):** Yan zincirindeki epsilon-amino grubu ile fizyolojik pH'da katyonik (+1) yüklü, suda çözünen hidrofilik ve bazik bir aminoasittir.\n- **E) Serin:** Hidrofiliktir ancak yan zinciri yüksüz nötr hidroksil (-OH) grubudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi, epsilon karbon atomuna bağlı ikinci bir amino grubu içerir? (2021 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Prolin",
+      "B": "Histidin",
+      "C": "Triptofan",
+      "D": "Arjinin",
+      "E": "Lizin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Lizin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Prolin:** İminoasit yapısındadır, sekonder amino grubu taşır.\n- **B) Histidin:** Beta karbonuna bağlı imidazolyum halkası taşır.\n- **C) Triptofan:** İndol halkası taşır.\n- **D) Arjinin:** Gama karbonundan sonra delta karbonuna bağlı guanidino grubu taşır.\n- **E) Lizin (DOĞRU):** Karboksil karbonundan itibaren alfa, beta, gama, delta ve epsilon sırasıyla isimlendirilir. Lizinin epsilon (e) karbonuna bağlı serbest bir -NH3+ (amino) grubu yer alır (dibazik monokarboksilik aminoasit). Biotin kofaktörü enzimleri lizinin bu e-amino grubuna bağlanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asit çiftlerinden hangisi, R yan zincirlerinde azot atomu içeren halka yapısı bulundurur? (2021 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Histidin - Triptofan",
+      "B": "Histidin - Fenilalanin",
+      "C": "Fenilalanin - Tirozin",
+      "D": "Fenilalanin - Triptofan",
+      "E": "Triptofan - Arjinin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Histidin - Triptofan)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Histidin - Triptofan (DOĞRU):** Histidin yan zincirinde 2 adet azot içeren heterosiklik **İmidazol** halkası taşır. Triptofan yan zincirinde 1 adet azot içeren **İndol** (benzen + pirol) halkası taşır. Her ikisi de azotlu halka barındırır.\n- **B, C, D) Fenilalanin ve Tirozin:** Yan zincirlerinde halka vardır ancak benzen/fenol halkasında azot atomu bulunmaz (sadece karbon ve hidrojen/oksijen bulunur).\n- **E) Arjinin:** Guanidino zinciri taşır, ancak bu grup açık zincirdir (halkasal değildir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisinin yan zinciri fizyolojik pH'de proton almış formda bulunur? (2017 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Alanin",
+      "B": "Arjinin",
+      "C": "Glutamat",
+      "D": "Treonin",
+      "E": "Metionin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Arjinin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Alanin:** Yüksüz apolar yan zincire sahiptir (-CH3).\n- **B) Arjinin (DOĞRU):** Guanidino yan zincirinin pKa değeri ~12.5 olduğundan fizyolojik pH'da (7.4) ortamdan proton alarak tamamen katyonik (+1) protonlu formda bulunur (en güçlü bazik aminoasit).\n- **C) Glutamat:** Karboksilik asit pKa değeri ~4.25 olduğundan proton vermiş (deprotonize, -1 yüklü) formda bulunur.\n- **D, E) Treonin, Metionin:** Yan zincirleri fizyolojik pH'da protonlu yüklü grup taşımaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "S-adenozil-homosisteini homosisteine çeviren enzim, aşağıdaki enzim gruplarından hangisinde yer alır? (2013 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Oksidoredüktazlar",
+      "B": "Transferazlar",
+      "C": "Ligazlar",
+      "D": "Hidrolazlar",
+      "E": "İzomerazlar"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Hidrolazlar)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Oksidoredüktazlar:** Elektron veya hidrojen transferi yapan enzimlerdir.\n- **B) Transferazlar:** Metil grubu transfer eden SAM -> SAH adımını katalizleyen enzimler transferazdır.\n- **C) Ligazlar:** ATP harcayarak bağ oluşturan enzimlerdir (örneğin Metionin + ATP -> SAM oluşturan MAT enzimi).\n- **D) Hidrolazlar (DOĞRU):** S-adenozilhomosistein'den (SAH) su katılarak Adenozin ve Homosistein oluşumu S-Adenozilhomosistein Hidrolaz enzimi tarafından katalizlenir. Bu reaksiyon bir hidroliz reaksiyonudur.\n- **E) İzomerazlar:** Optik veya yapısal izomerizasyon yapan enzimlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi ATP'den adenozil alarak fosfor içermeyen yüksek enerjili bileşik oluşturur? (2023 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Alanin",
+      "B": "Tirozin",
+      "C": "Sistein",
+      "D": "Metionin",
+      "E": "Histidin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Metionin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, E Seçenekleri:** Alanin, Tirozin, Sistein ve Histidin ATP ile adenozilasyonu uğrayarak metil donörü yüksek enerjili sülfonyum bileşiği oluşturmaz.\n- **D) Metionin (DOĞRU):** Metionin Adenoziltransferaz (MAT) enzimi vasıtasıyla Metionin, ATP molekülünün 3 fosfat grubunun tamamı ayrılacak şekilde Adenozil grubu ile birleştirilir ve **S-Adenozil Metionin (SAM)** sentezlenir. SAM yapısında fosfat içermeyen ancak yüksek enerjili sülfonyum bağı barındıran temel hücresel metil vericisidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "I. Homosistein metiltransferaz\nII. Metionin sentaz\nIII. Sistationin b-sentaz\nIV. Sistationinaz\nPiridoksal fosfat (B6) eksikliğinde metionin metabolizması enzimlerinden hangilerinde azalma görülür? (2023 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "I ve III",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "III ve IV",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (III ve IV)**\n\n**Öncüllerin Detaylı Açıklaması:**\n- **I, II. Homosistein metiltransferaz / Metionin sentaz:** Homosisteinden tekrar Metionin sentezleyen bu enzim kofaktör olarak **Vitamin B12 (Metilkobalamin)** ve Metiltetrahidrofolat kullanır. Vitamin B6 kullanmaz.\n- **III. Sistationin b-sentaz (DOĞRU):** Homosistein ile Serin'i birleştirerek Sistationin oluşturan bu enzim kofaktör olarak **Piridoksal Fosfat (Vitamin B6)** kullanır.\n- **IV. Sistationinaz / Sistationin g-liyaz (DOĞRU):** Sistationin'i Sistein ve a-ketobütirat'a yıkan bu enzim kofaktör olarak **Piridoksal Fosfat (Vitamin B6)** kullanır.\n- **Sonuç:** B6 vitamini eksikliğinde III ve IV numaralı enzimlerin aktivitesi azalarak Homosistein birikir ve Homosistinüri meydana gelir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin eksikliğinde homosistinüri ortaya çıkar? (2020 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Sistationin b-sentaz",
+      "B": "Metionin-adenozil transferaz",
+      "C": "Metiltransferaz",
+      "D": "Sistationinaz",
+      "E": "S-adenozilhomosistein hidrolaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Sistationin b-sentaz)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Sistationin b-sentaz (DOĞRU):** Klasik Homosistinüri'nin en sık görülen nedeni Sistationin b-sentaz enzim eksikliğidir. Homosistein sistationine çevrilemez; plazmada ve idrarda homosistein/homosistin belirgin yükselir. Marfanoid görünüm, lens subluksasyonu, zeka geriliği ve erken yaşta tromboemboli görülür.\n- **B) Metionin-adenozil transferaz:** SAM sentez enzimidir; eksikliğinde hipermetioninemi görülür.\n- **C) Metiltransferaz:** Geniş bir enzim ailesidir.\n- **D) Sistationinaz:** Eksikliğinde sistationinüri görülür.\n- **E) S-adenozilhomosistein hidrolaz:** SAH birikimine yol açar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "I. Glutatyon\nII. Fosfatidilkolin\nIII. Adrenalin\nIV. Kreatin\nYukarıdaki moleküllerden hangileri metioninden metil alarak sentezlenir? (2013 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "III ve IV",
+      "D": "I, II ve III",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (II, III ve IV)**\n\n**Öncüllerin Detaylı Açıklaması:**\n- **I. Glutatyon (YANLIŞ):** Glutatyon bir tripeptiddir (Glutamat-Sistein-Glisin). Metillasyon reaksiyonu içermez.\n- **II. Fosfatidilkolin (DOĞRU):** Fosfatidiletanolamin, SAM (S-adenozilmetionin) vasıtasıyla 3 adet metil grubu alarak Fosfatidilkolin'e (Lesitin) dönüşür.\n- **III. Adrenalin (DOĞRU):** Noradrenalin, PNMT enzimi ve SAM metil donörlüğü ile N-metillasyon geçirerek Adrenalin'e dönüşür.\n- **IV. Kreatin (DOĞRU):** Guanidoasetat karaciğerde SAM'den metil grubu alarak Kreatin'e dönüşür.\n- **Sonuç:** II, III ve IV nolu maddelerin sentezinde SAM (Metionin) metil vericisi olarak kullanılır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin sentezinde S-adenozilmetionin kullanılmaz? (2021 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Norepinefrinden epinefrin sentezi",
+      "B": "Asetilserotoninden melatonin sentezi",
+      "C": "Guanidoasettan kreatin sentezi",
+      "D": "Homosisteinden homosistin sentezi",
+      "E": "Fosfatidiletanolaminden fosfatidilkolin sentezi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Homosisteinden homosistin sentezi)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Epinefrin sentezi:** Noradrenalin + SAM -> Epinefrin (SAM kullanılır).\n- **B) Melatonin sentezi:** N-asetilserotonin + SAM -> Melatonin (SAM kullanılır).\n- **C) Kreatin sentezi:** Guanidoasetat + SAM -> Kreatin (SAM kullanılır).\n- **D) Homosisteinden homosistin sentezi (DOĞRU):** Homosistein moleküllerinin sülfidril (-SH) gruplarının yükseltgenerek (spontan oksidasyon) disülfit bağı (-S-S-) oluşturması ile Homosistin meydana gelir. Bu tepkime metillasyon içermez, SAM kullanılmaz.\n- **E) Fosfatidilkolin sentezi:** Fosfatidiletanolamin + 3 SAM -> Fosfatidilkolin (SAM kullanılır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Proteinlerin yapısında yer alan aşağıdaki amino asitlerden hangisinin yan zincirinde hidroksilasyon, metilasyon ve koenzim bağlanması modifikasyonlarının tümü görülür? (2014 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Lizin",
+      "B": "Lösin",
+      "C": "Glisin",
+      "D": "Arjinin",
+      "E": "Prolin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Lizin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Lizin (DOĞRU):** \n  1. *Hidroksilasyon:* Kollajen sentezinde lizil hidroksilaz ile hidroksilizine dönüşür.\n  2. *Metilasyon:* Histon proteinlerinde lizin rezidüleri metillenebilir (epigenetik düzenleme).\n  3. *Koenzim bağlanması:* Biotin ve Lipoik asit kofaktörleri ilgili karboksilaz ve dehidrogenaz enzimlerinin lizin rezidüsünün epsilon-amino grubuna kovalent amide bağı ile bağlanır.\n- **B, C) Lösin, Glisin:** Yan zincirlerinde bu üç grup modifikasyonu birden göstermezler.\n- **D) Arjinin:** Metillenebilir ve ADP-ribozillenebilir ancak hidroksilasyon ve biotin/lipoat koenzim kovalent bağı taşımaz.\n- **E) Prolin:** Kollajende hidroksillenir (hidroksiprolin) ancak biotin/lipoat kofaktör bağı taşımaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Triptofanın, bağırsak ve böbrekteki taşınımının bozulmasıyla ortaya çıkan hastalık aşağıdakilerden hangisidir? (2014 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "İzovalerik asidemi",
+      "B": "Akçaağaç şurubu idrar hastalığı",
+      "C": "Ürokanik asidüri",
+      "D": "Hartnup hastalığı",
+      "E": "Alkaptonüri"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Hartnup hastalığı)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) İzovalerik asidemi:** Lösin katabolizmasında İzovaleril-KoA dehidrogenaz eksikliğine bağlı gelişir (terli ayak kokusu).\n- **B) Akçaağaç şurubu idrar hastalığı:** Dallı zincirli a-ketoasit dehidrogenaz kompleks eksikliğine bağlı gelişir.\n- **C) Ürokanik asidüri:** Histidin katabolizma enzim eksikliğidir.\n- **D) Hartnup hastalığı (DOĞRU):** Bağırsak epiteli ve böbrek proksimal tübüllerinde nötral aminoasitlerin (özellikle Triptofan) sodyuma bağımlı taşıyıcı sistemindeki (SLCA19 / B0AT1) genetik defekttir. Triptofan emilemediği için niasin eksikliği (Pellagra benzeri fotosensitif dermatit, ataksi, diyare) ve idrarda indil atılımı (Obermeyer testi +) görülür.\n- **E) Alkaptonüri:** Homogentisik asit oksidaz enzim eksikliğidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Sistein sentezinde kullanılan amino asit çifti aşağıdakilerden hangisidir? (2014 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Glutamat - Metionin",
+      "B": "Alanin - Glutamat",
+      "C": "Serin - Metionin",
+      "D": "Asparajin - Glutamin",
+      "E": "Lösin - Lizin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Serin - Metionin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, D, E Seçenekleri:** Bu aminoasit çiftleri sistein sentezinde doğrudan kükürt donörü ve karbon iskeleti eşleşmesi oluşturmaz.\n- **C) Serin - Metionin (DOĞRU):** Sistein sentezinde (transsülfürasyon yolu):\n  1. Kükürt (-SH) atomu esansiyel aminoasit olan **Metionin**'den (Homosistein üzerinden) sağlanır.\n  2. Karbon iskeleti ve amino grubu ise non-esansiyel aminoasit olan **Serin**'den sağlanır.\n  Homosistein + Serin -> Sistationin (enzim: Sistationin b-sentaz) -> Sistein + a-ketobütirat.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki koenzimlerden hangisi adenozin monofosfat türevi değildir? (2012 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "NADH",
+      "B": "NADPH",
+      "C": "FAD",
+      "D": "FMN",
+      "E": "Koenzim A"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (FMN)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B) NADH, NADPH:** Yapılarında Nikotinamid mononükleotid + Adenozin Monofosfat (AMP) barındıran dinükleotidlerdir.\n- **C) FAD:** Flavin Mononükleotid + Adenozin Monofosfat (AMP) yapısındadır.\n- **D) FMN (DOĞRU):** Flavin Mononükleotid (FMN) sadece Riboflavin (B2 vitamini) ve tek bir fosfat grubundan oluşur; yapısında adenilat / adenozin monofosfat (AMP) parçası BARINDIRMAZ.\n- **E) Koenzim A:** Yapısında 3'-fosfo-AMP nükleotidi taşır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kükürt içeren non-polar bir amino asittir? (2025 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Asparajin",
+      "B": "Metionin",
+      "C": "Histidin",
+      "D": "Prolin",
+      "E": "Sistein"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Metionin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Asparajin:** Karboksamid grubu içeren polar hidrofilik bir aminoasittir.\n- **B) Metionin (DOĞRU):** Yan zincirinde tiyoeter (-S-CH3) grubu taşıyan kükürtlü ve hidrofobik APOLAR (NON-POLAR) bir aminoasittir.\n- **C) Histidin:** İmidazol grubu taşıyan polar bazik bir aminoasittir.\n- **D) Prolin:** İmino halkası taşıyan apolar aminoasittir (kükürt içermez).\n- **E) Sistein:** Tiyol (-SH) grubu taşır; kükürtlüdür ancak iyonize olabildiği ve hidrojen bağı kurabildiği için POLAR bir aminoasittir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi triptofan amino asidinden oluşmaz? (2018 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Nikotinik asit",
+      "B": "Serotonin",
+      "C": "Homogentisik asit",
+      "D": "Kinürenin",
+      "E": "Melatonin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Homogentisik asit)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Nikotinik asit:** Triptofan yıkımında kinürenin yolu üzerinden sentezlenir.\n- **B) Serotonin:** Triptofan hidroksilasyonu ve dekarboksilasyonu ile sentezlenir.\n- **C) Homogentisik asit (DOĞRU):** Fenilalanin ve Tirozin katabolizmasında oluşan ara metabolittir; Triptofandan sentezlenmez.\n- **D) Kinürenin:** Triptofan katabolizmasının temel ana yolundaki ilk ürünlerden biridir.\n- **E) Melatonin:** Triptofan -> Serotonin -> Melatonin yoluyla sentezlenir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi katekolaminlerin sentezinde yer alır? (2021 DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Lösin",
+      "B": "Lizin",
+      "C": "Tirozin",
+      "D": "Arjinin",
+      "E": "Glisin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Tirozin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, D, E Seçenekleri:** Lösin, Lizin, Arjinin ve Glisin katekolamin biyosentez yolunun öncülleri değildir.\n- **C) Tirozin (DOĞRU):** Nöron ve adrenal medulla dokularında Tirozin Hidroksilaz enzimi ile L-DOPA'ya, ardından DOPA dekarboksilaz ile Dopamin'e, Dopamin b-hidroksilaz ile Noradrenalin'e ve PNMT enzimi ile Adrenalin'e (Katekolaminler) dönüştürülür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Zayıf asit ile konjuge bazının konsantrasyonlarının eşit olduğu bir tampon çözeltinin pH değerinin pKa ile ilişkisi aşağıdakilerin hangisinde verilmiştir? (2019 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "pH = pKa",
+      "B": "pH = pKa - 1",
+      "C": "pH = pKa + 1",
+      "D": "pH = pKa x 10",
+      "E": "pH = pKa / 10"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (pH = pKa)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) pH = pKa (DOĞRU):** Henderson-Hasselbalch denklemine göre:  \n  \\[ pH = pKa + \\log \\left( \\frac{[Konjuge\\ Baz]}{[Zayıf\\ Asit]} \\right) \\]  \n  [Konjuge Baz] = [Zayıf Asit] olduğunda, oran 1 olur ve \\(\\log(1) = 0\\) haline gelir. Dolayısıyla **pH = pKa** eşitliği elde edilir. Bu nokta tampon çözeltinin en güçlü olduğu noktadır.\n- **B, C, D, E Seçenekleri:** Matematiksel denkleme uygun olmayan yanlış oranlardır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Glisin amino asidine ait -COO grubunun pKa'sı 2.34; -NH3 grubunun pKa'sı 9.60 ise izoelektrik noktası aşağıdakilerden hangisidir? (2015 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "4.97",
+      "B": "5.12",
+      "C": "5.97",
+      "D": "6.18",
+      "E": "7.59"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (5.97)**\n\n**Şıkların Detaylı Açıklaması:**\n- Yan zinciri iyonize olmayan nötr monoamino monokarboksilik aminoasitlerde izoelektrik nokta (pI), iki pKa değerinin aritmetik ortalamasıdır:\n  \\[ pI = \\frac{pK_{a1} + pK_{a2}}{2} = \\frac{2.34 + 9.60}{2} = \\frac{11.94}{2} = 5.97 \\]\n  Dolayısıyla doğru cevap C seçeneğidir (5.97).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Bir amino asit üç farklı pH değerinde çözeltileri hazırlanıyor. Bu çözeltilerden elektrik akımı geçiriliyor. Bu amino asit, pH=2.0'de katoda, pH=11.0'de anoda göç ediyor. pH=5.7'de ise herhangi bir kutba göç etmiyor. Bu amino asitin izoelektrik nokta (pI) değeri hangisidir? (2021 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "4.7",
+      "B": "5.7",
+      "C": "6.5",
+      "D": "7.4",
+      "E": "8.3"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (5.7)**\n\n**Şıkların Detaylı Açıklaması:**\n- Bir aminoasitin elektrik alanında katoda (+) veya anoda (-) göç etmediği, yani net elektriksel yükünün sıfır (zwitterion formunda) olduğu pH değerine o aminoasitin **izoelektrik noktası (pI)** denir. \n- Soruda pH = 5.7 değerinde molekül hiçbir kutba göç etmediği ifade edildiğinden, bu aminoasitin pI değeri tam olarak **5.7**'dir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Histidin için izoelektrik nokta hangisidir? a-karboksil grubu pK1 = 1.82; a-amino grubu pK2 = 9.17; yan zincir imidazol grubu pKR = 6.00 (2020 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "3.91",
+      "B": "4.20",
+      "C": "5.50",
+      "D": "5.66",
+      "E": "7.59"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (7.59)**\n\n**Şıkların Detaylı Açıklaması:**\n- Bazik aminoasitlerde (Histidin, Lizin, Arjinin) izoelektrik nokta (pI), nötr form ile katyonik formu ayıran iki yüksek pK değerinin (pK2 ve pKR) aritmetik ortalaması alınarak hesaplanır:\n  \\[ pI = \\frac{pK_2 + pK_R}{2} = \\frac{9.17 + 6.00}{2} = \\frac{15.17}{2} = 7.585 \\approx 7.59 \\]\n  Bu nedenle doğru cevap E seçeneğidir (7.59).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Glutamik asitin a-karboksil pKa = 2.19; a-amino pKa = 9.67; g-karboksil pKa = 4.25'tir. Elektroforezde glutamik asitin anoda veya katoda göç etmemesi için ortam pH değeri hangisi olmalıdır? (2022 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "3.22",
+      "B": "5.93",
+      "C": "6.96",
+      "D": "7.00",
+      "E": "7.40"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (3.22)**\n\n**Şıkların Detaylı Açıklaması:**\n- Asidik aminoasitlerde (Glutamat, Aspartat) elektroforezde göç etmeme durumu (net yük = 0) izoelektrik noktada (pI) gerçekleşir. pI, iki düşük asidik pKa değerinin aritmetik ortalamasıdır:\n  \\[ pI = \\frac{pK_{a1} + pK_{aR}}{2} = \\frac{2.19 + 4.25}{2} = \\frac{6.44}{2} = 3.22 \\]\n  Dolayısıyla doğru ortam pH değeri 3.22 (A seçeneği) olmalıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "pH'si 4.0 olan bir çözeltideki lizin elektriksel yükü hangisidir? (2021 EUS) Lizin için; pKa (-COOH): 2.2; pKa (-NH2): 9.2; pKa (e-NH2): 10.8\n\n**Şıklar:**",
+    "options": {
+      "A": "-2",
+      "B": "-1",
+      "C": "0",
+      "D": "+1",
+      "E": "+2"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (+2)**\n\n**Şıkların Detaylı Açıklaması:**\n- pH 4.0 ortamında grupların protonasyon durumu:\n  1. **-COOH grubu (pKa = 2.2):** pH (4.0) > pKa (2.2) olduğu için protonunu kaybeder ve deprotonize olur -> **-1 yük**.\n  2. **alfa-NH2 grubu (pKa = 9.2):** pH (4.0) < pKa (9.2) olduğu için protonu tutar -> **+1 yük**.\n  3. **epsilon-NH2 grubu (pKa = 10.8):** pH (4.0) < pKa (10.8) olduğu için protonu tutar -> **+1 yük**.\n- **Net Yük Hesaplaması:** \\((-1) + (+1) + (+1) = +2\\).\n- Dolayısıyla Lizin molekülü pH 4.0 ortamında **+2** net yüke sahiptir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Tetrahidrobiopterin eksikliğinde aşağıdaki amino asitlerden hangisinin metabolizması bozulur? (2017 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Fenilalanin",
+      "B": "Sistein",
+      "C": "Prolin",
+      "D": "Aspartat",
+      "E": "Treonin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Fenilalanin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Fenilalanin (DOĞRU):** Tetrahidrobiopterin (BH4); Fenilalanin Hidroksilaz, Tirozin Hidroksilaz, Triptofan Hidroksilaz ve Nitrik Oksit Sentaz (NOS) enzimlerinin zorunlu kofaktörüdür. BH4 eksikliğinde Fenilalanin Tirozin'e çevrilemez, Hiperfenilalaninemi ve atipik Fenilketonüri (PKU) tablosu gelişir.\n- **B, C, D, E Seçenekleri:** Sistein, Prolin, Aspartat ve Treonin metabolizmasında BH4 kofaktörü kullanılmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Santral sinir sisteminde en yaygın olarak bulunan eksitatör nörotransmitter hangisidir? (2019 DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Serotonin",
+      "B": "Adrenalin",
+      "C": "Glisin",
+      "D": "Glutamat",
+      "E": "Asetil kolin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Glutamat)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Serotonin:** Duygudurum düzenleyici monoamin nörotransmitterdir.\n- **B) Adrenalin:** Periferik sempatik ve beyin sapı nörotransmitteridir.\n- **C) Glisin:** Omurilikte (medulla spinalis) en yaygın INHİBİTÖR nörotransmitterdir.\n- **D) Glutamat (DOĞRU):** Beyin ve omurilik dahil tüm santral sinir sisteminde en yaygın ana EKSİTATÖR nörotransmitterdir. (En yaygın inhibitör nörotransmitter ise GABA'dır).\n- **E) Asetilkolin:** Nöromüsküler bileşke ve otonom gangliyon ana nörotransmitteridir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Amino asitlerden sentezlenen nörotransmitterlerle ilgili hangi eşleştirme doğrudur? (2024 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Histamin, lizin metabolizması sonucu oluşur.",
+      "B": "GABA, glutamat metabolizması sonucu oluşur.",
+      "C": "Serotonin, tirozin metabolizması sonucu oluşur.",
+      "D": "Nitrik oksit, asparajin metabolizması sonucu oluşur.",
+      "E": "Glisin, aspartat metabolizması sonucu oluşur."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (GABA, glutamat metabolizması sonucu oluşur.)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Histamin, lizin metabolizması (YANLIŞ):** Histamin, **Histidin** aminoasitinin dekarboksilasyonu ile oluşur.\n- **B) GABA, glutamat metabolizması (DOĞRU):** GABA (gama-aminobütrik asit), Glutamat dekarboksilaz enzimi (B6 kofaktörü) ile **Glutamat** aminoasitinin dekarboksilasyonu sonucu sentezlenir.\n- **C) Serotonin, tirozin metabolizması (YANLIŞ):** Serotonin **Triptofan** aminoasidinden sentezlenir.\n- **D) Nitrik oksit, asparajin metabolizması (YANLIŞ):** Nitrik oksit (NO), NOS enzimi ile **Arjinin** aminoasidinden sentezlenir.\n- **E) Glisin, aspartat metabolizması (YANLIŞ):** Glisin bağımsız basit bir aminoasittir, b-alanin ise aspartattan oluşur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi insanda arjininden üretilebilen maddelerden biri değildir? (2017 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Ornitin",
+      "B": "Nitrik oksit",
+      "C": "Kreatin",
+      "D": "Sitrülin",
+      "E": "Pürin nükleotidler"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Pürin nükleotidler)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Ornitin:** Arjinaz enzimi ile Arjinin yıkılarak Üre ve Ornitin oluşturur.\n- **B, D) Nitrik oksit, Sitrülin:** NOS enzimi vasıtasıyla Arjinin -> Nitrik Oksit + Sitrülin oluşur.\n- **C) Kreatin:** Arjinin + Glisin -> Guanidoasetat -> Kreatin sentezlenir.\n- **E) Pürin nükleotidler (DOĞRU):** Pürin halkasının azot atomları **Glisin (N7)**, **Glutamin (N3, N9)** ve **Aspartat (N1)** aminoasitlerinden sağlanır. Arjinin pürin halkasına katılmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Hangisinin kanda yüksek düzeyde bulunması, ateroskleroz için bir risk faktörüdür? (2016 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Glisin",
+      "B": "Prolin",
+      "C": "Valin",
+      "D": "Homosistein",
+      "E": "Fenilalanin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Homosistein)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, E Seçenekleri:** Glisin, Prolin, Valin ve Fenilalanin vasküler endotel hasarı ve bağımsız kardiyovasküler risk faktörü oluşturmazlar.\n- **D) Homosistein (DOĞRU):** Plazmada homosistein düzeyinin yükselmesi (Hiperhomosisteinemi); endotel hücre hasarı, oksidan stres üretimi, düz kas proliferasyonu ve trombosit aktivasyonuna yol açarak kardiyovasküler hastalıklar, koroner ateroskleroz ve tromboemboli için bağımsız bir risk faktörüdür (B6, B12 veya Folat eksikliğinde yükselir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi proteinlerin yapısında yaygın olarak yer aldığı kabul edilen 20 amino asitten biri değildir? (2017 DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Histidin",
+      "B": "Serin",
+      "C": "Homosistein",
+      "D": "Glutamin",
+      "E": "Arjinin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Homosistein)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, D, E Seçenekleri:** Histidin, Serin, Glutamin ve Arjinin genetik kod tarafından kodlanan standart 20 proteinojenik aminoasit arasında yer alır.\n- **C) Homosistein (DOĞRU):** Homosistein metionin catabolizmasında ara ürün olarak oluşan, protein yapısına girmeyen ve genetik kodu bulunmayan bir aminoasittir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Tetrahidrofolat eksikliğinde, idrarla N-formiminoglutamat (FIGLU) atılımına yol açan amino asit aşağıdakilerden hangisidir? (2018 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Glutamin",
+      "B": "Lizin",
+      "C": "Prolin",
+      "D": "Histidin",
+      "E": "Glutamik asit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Histidin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, E Seçenekleri:** Glutamin, Lizin, Prolin ve Glutamat yıkım basamaklarında FIGLU ara metaboliti oluşturmaz.\n- **D) Histidin (DOĞRU):** Histidin yıkımında sırasıyla Ürokanat ve N-formiminoglutamat (FIGLU) oluşur. FIGLU formimino grubunu Tetrahidrofolat'a (THF) vererek Glutamat'a dönüşür. Folat (THF) eksikliğinde bu basamak durur ve verilen Histidin yüklemesi sonrası idrarda FIGLU birikir (FIGLU yükleme testi folat eksikliği tanısında kullanılır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi posttranslasyonel modifikasyon yoluyla sentezlenmez? (2018 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Hidroksiprolin",
+      "B": "Metillizin",
+      "C": "Hidroksilizin",
+      "D": "Selenosistein",
+      "E": "Fosfoserin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Selenosistein)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, E Seçenekleri:** Hidroksiprolin, Metillizin, Hidroksilizin ve Fosfoserin protein translasyonu tamamlandıktan sonra türevlendirilen posttranslasyonel modifikasyon ürünleridir.\n- **D) Selenosistein (DOĞRU):** Doğadaki 21. proteinojenik aminoasittir. Translasyon esnasında UGA durma kodonuna karşılık gelen özel tRNA-Sec aracılığıyla kotranslasyonel (ribozomda translasyon sırasında) olarak doğrudan polipeptit zincirine eklenir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi, tRNA'sının antikodon kolunun baz diziliminden dolayı, normalde mRNA'da bir stop kodonu olan \"UGA\" dizisi ile baz eşleşmesi yapar? (2019 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Allizin",
+      "B": "Selenosistein",
+      "C": "Formil metionin",
+      "D": "Ornitin",
+      "E": "Homosistein"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Selenosistein)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, C, D, E Seçenekleri:** Allizin, Formil metionin, Ornitin ve Homosistein UGA stop kodonu ile eşleşmez.\n- **B) Selenosistein (DOĞRU):** mRNA üzerindeki UGA kodonu normalde durma (stop) kodonu iken, mRNA'da SECIS elemanı (sekonder yapı) bulunduğunda özel Selenosistein-tRNA'sı bu UGA kodonunu okuyarak yapıya Selenosistein aminoasidini dahil eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "I. Tiyoredoksin redüktaz\nII. Hekzokinaz\nIII. Glutatyon peroksidaz\nIV. İyodotironin deiyodinaz\nYukarıdaki enzimlerden hangilerinin aktivitesi için selenosistein gereklidir? (2016 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "II ve IV",
+      "D": "I, III ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (I, III ve IV)**\n\n**Öncüllerin Detaylı Açıklaması:**\n- **I. Tiyoredoksin redüktaz (DOĞRU):** Aktif merkezinde Selenosistein barındıran temel antioksidan ve nükleotid sentez destek enzimidir (Selenoprotein).\n- **II. Hekzokinaz (YANLIŞ):** Glikoliz enzimi olup magnezyum (Mg2+) kullanır; yapısında selenosistein bulunmaz.\n- **III. Glutatyon peroksidaz (DOĞRU):** H2O2 ve organik peroksitleri yıkan, aktif merkezinde Selenosistein içeren ilk tanımlanmış selenoproteindir.\n- **IV. İyodotironin deiyodinaz (DOĞRU):** Tiroid hormonu T4'ü aktif T3'e çeviren 5'-deiyodinaz enzimi aktif merkezinde Selenosistein taşır.\n- **Sonuç:** I, III ve IV nolu enzimler selenoprotein yapısındadır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi selenoprotein olarak tanımlanır? (2020 EUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Tiyoredoksin redüktaz",
+      "B": "Glutatyon redüktaz",
+      "C": "Katalaz",
+      "D": "Nitrik oksit sentaz",
+      "E": "Timidilat sentaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Tiyoredoksin redüktaz)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Tiyoredoksin redüktaz (DOĞRU):** Aktif merkezinde Selenosistein rezidüsü barındıran temel bir selenoproteindir.\n- **B) Glutatyon redüktaz:** FAD kofaktörlü bir flavoproteindir (selenosistein içermez; Glutatyon PEROKSİDAZ selenosistein içerir).\n- **C) Katalaz:** Hem proteini (Fe3+) içeren bir peroksizomal enzimdir.\n- **D) Nitrik oksit sentaz:** Heme, FAD, FMN, BH4 içeren bir kompleks enzimdir.\n- **E) Timidilat sentaz:** Folat türevi kullanan bir enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi glukoneogenezde substrat olarak kullanılmaz? (2019 DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Aspartat",
+      "B": "Lösin",
+      "C": "Glutamat",
+      "D": "Tirozin",
+      "E": "Fenilalanin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Lösin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Aspartat:** Oksaloasetat'a çevrilerek glukoneogeneze katılır.\n- **B) Lösin (DOĞRU):** Lösin ve Lizin SAF KETOJENİK aminoasitlerdir. Katabolizmaları net glukoz karbonu üretmez (sadece Asetil-KoA ve Asetoasetat oluştururlar); bu yüzden glukoneogenezde net substrat olarak kullanılamazlar.\n- **C) Glutamat:** a-ketoglutarata çevrilerek glukoneogeneze katılır.\n- **D, E) Tirozin, Fenilalanin:** Fumarat ürettikleri için glukojenik karbon sağlarlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi sadece glikojenik yıkım ürünü verir? (2019 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "İzolösin",
+      "B": "Triptofan",
+      "C": "Tirozin",
+      "D": "Metionin",
+      "E": "Lösin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Metionin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C) İzolösin, Triptofan, Tirozin:** Hem glukojenik hem de ketojenik yıkım ürünü veren karma aminoasitlerdir.\n- **D) Metionin (DOĞRU):** Katabolizması sonucunda Süksinil-KoA oluşturur. Süksinil-KoA sadece glukoz sentezinde (TCA ve Glukoneogenez) kullanılabildiği için Metionin **saf glukojenik** bir aminoasittir.\n- **E) Lösin:** Saf ketojenik bir aminoasittir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi asetoasetata yıkılmaz? (2022 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Lizin",
+      "B": "Prolin",
+      "C": "Fenilalanin",
+      "D": "Tirozin",
+      "E": "Triptofan"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Prolin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Lizin:** Saf ketojeniktir; Asetoasetat ve Asetil-KoA'ya yıkılır.\n- **B) Prolin (DOĞRU):** Glutamat semialdehit üzerinden Glutamat ve a-ketoglutarata yıkılan **saf glukojenik** bir aminoasittir. Asetoasetata / keton cisimlerine dönüşmez.\n- **C, D, E) Fenilalanin, Tirozin, Triptofan:** Ketojenik parçaları Asetoasetat veya Asetil-KoA oluşturur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi akut lenfoblastik lösemi tedavisinde kullanılır? (2021 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Arjinaz",
+      "B": "Asparajinaz",
+      "C": "Glutamin sentetaz",
+      "D": "Glutaminaz",
+      "E": "Histidaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Asparajinaz)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, C, D, E Seçenekleri:** Arjinaz, Glutamin sentetaz, Glutaminaz ve Histidaz antineoplastik kemoterapi ajanı olarak kullanılan rutin enzimler değildir.\n- **B) Asparajinaz (DOĞRU):** Akut Lenfoblastik Lösemi (ALL) hücreleri kendi Asparajinlerini sentezleyemezler (Asparajin Sentetaz ekspresyonu yetersizdir) ve plazmadaki Asparajine bağımlıdırlar. Tedavide verilen **L-Asparajinaz** enzimi plazmadaki Asparajini Aspartat ve amonyağa yıkarak lösemik lenfoblastları besinsiz bırakır ve apoptoza sürükler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Globüler bir proteinin yüzeyinde bulunan aşağıdaki amino asitlerden hangisinin yan zinciri (R grubu) fizyolojik pH'de elektriksel olarak yüklüdür? (2019 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Asparajin",
+      "B": "Glutamin",
+      "C": "Lizin",
+      "D": "Serin",
+      "E": "Treonin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Lizin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B) Asparajin, Glutamin:** Polar hidrofiliktir ancak yan zincirlerindeki amid grupları fizyolojik pH'da **yüksüzdür**.\n- **C) Lizin (DOĞRU):** Yan zincirindeki epsilon-amino pKa değeri ~10.5 olduğu için fizyolojik pH 7.4 ortamında tam olarak protonlaşır ve **pozitif (+1) elektriksel yük** taşır. (Fizyolojik pH'da yüklü aminoasitler: Aspartat [-1], Glutamat [-1], Lizin [+1], Arjinin [+1]).\n- **D, E) Serin, Treonin:** Polar hidrofiliktir ancak hidroksil (-OH) grupları fizyolojik pH'da **yüksüzdür**.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, fenilalaninin R yan zincirinin suda çözünürlük özelliğini tanımlamak için kullanılır? (2021 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Polar ve yüksüz",
+      "B": "Polar ve negatif yüklü",
+      "C": "Polar ve pozitif yüklü",
+      "D": "Amfipatik",
+      "E": "Nonpolar"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Nonpolar)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, D Seçenekleri:** Fenilalanin yan zinciri polar, yüklü veya belirgin amfipatik nitelikte değildir.\n- **E) Nonpolar (DOĞRU):** Fenilalaninin R yan zinciri hidrofobik ve hidrofobik etkileşim yapan apolar bir **benzen halkası** taşır. Bu nedenle suda çözünürlük açısından **Nonpolar (apolar)** olarak sınıflandırılır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi polar yapıdaki amino asitlerden biri değildir? (2024 Sonbahar DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Treonin",
+      "B": "Asparajin",
+      "C": "Triptofan",
+      "D": "Serin",
+      "E": "Sistein"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Triptofan)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Treonin:** Hidroksil (-OH) grubu taşıyan polar yüksüz bir aminoasittir.\n- **B) Asparajin:** Karboksamid grubu taşıyan polar yüksüz bir aminoasittir.\n- **C) Triptofan (DOĞRU):** İndol halkası barındıran aromatik APOLAR (hidrofobik) bir aminoasittir.\n- **D) Serin:** Hidroksil (-OH) grubu taşıyan polar yüksüz bir aminoasittir.\n- **E) Sistein:** Tiyol (-SH) grubu taşıyan polar yüksüz bir aminoasittir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Bir proteini kodlayan DNA dizisindeki nokta mutasyonları sonucunda amino asit dizisinde oluşan,\nI. Lösin - Fenilalanin\nII. Alanin - Glutamat\nIII. İzolösin - Lizin\nnokta mutasyonlarından hangileri bu proteinin izoelektrik noktasında değişikliğe neden olur? (2023 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (II ve III)**\n\n**Öncüllerin Detaylı Açıklaması:**\n- **I. Lösin - Fenilalanin (DEĞİŞTİRMEZ):** Lösin ve Fenilalanin her ikisi de fizyolojik pH'da nötr (yüksüz) apolar aminoasitlerdir. Değişim net yükü değiştirmeyeceği için pI etkilenmez.\n- **II. Alanin - Glutamat (DEĞİŞTİRİR):** Nötr apolar Alanin yerine fizyolojik pH'da negatif yüklü (-1) asidik Glutamat gelmiştir. Net negatif yük artar, izoelektrik nokta (pI) düşer.\n- **III. İzolösin - Lizin (DEĞİŞTİRİR):** Nötr apolar İzolösin yerine fizyolojik pH'da pozitif yüklü (+1) bazik Lizin gelmiştir. Net pozitif yük artar, izoelektrik nokta (pI) yükselir.\n- **Sonuç:** II ve III nolu mutasyonlar proteinin pI değerini değiştirir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Hangisinin sentezinde S-adenozilmetionin, metil verici olarak kullanılır? (2020 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Histamin",
+      "B": "Nitrik oksit",
+      "C": "g-aminobütirik asit",
+      "D": "Kreatin",
+      "E": "L-DOPA"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Kreatin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Histamin:** Histidin dekarboksilasyonu ile oluşur; metillasyon içermez.\n- **B) Nitrik oksit:** Arjininden sentezlenir; metillasyon içermez.\n- **C) g-aminobütirik asit (GABA):** Glutamat dekarboksilasyonu ile oluşur; metillasyon içermez.\n- **D) Kreatin (DOĞRU):** Guanidoasetat'ın karaciğerde Guanidoasetat N-metiltransferaz enzimi ve **SAM (S-adenozilmetionin)** metil donörlüğü ile N-metillenmesi sonucu Kreatin sentezlenir.\n- **E) L-DOPA:** Tirozin hidroksilasyonu ile oluşur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi safra tuzu yapısında bulunan taurinin sentezinde prekürsör olarak kullanılır? (2023 Sonbahar DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Glisin",
+      "B": "Sistein",
+      "C": "Alanin",
+      "D": "Valin",
+      "E": "Lösin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Sistein)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Glisin:** Safra asitleri glisin ile konjuge olarak glikokolik asit oluşturabilir, ancak taurinin öncülü değildir.\n- **B) Sistein (DOĞRU):** Taurin, kükürt içeren bir aminoasit olan Sistein'in oksidasyon ve dekarboksilasyonu sonucu oluşur (Sistein -> Sistein sülfinat -> Hipotaurin -> Taurin). Taurin safra asitleriyle konjuge olarak taurokolik asitleri oluşturur.\n- **C, D, E Seçenekleri:** Alanin, Valin ve Lösin taurin biyosentezinde rol almaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Proteinlerin asetillenmesi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır? (2023 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Kovalent bir modifikasyondur.",
+      "B": "Fizyolojik koşullarda geri dönüşümlüdür.",
+      "C": "Asetil grubu vericisi asetil-KoA'dır.",
+      "D": "Sirtuinler proteinlerde deasetilasyon yapar.",
+      "E": "Sistein amino asidi üzerinden gerçekleşir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Sistein amino asidi üzerinden gerçekleşir.)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Kovalent bir modifikasyondur:** Doğru.\n- **B) Fizyolojik koşullarda geri dönüşümlüdür:** Doğru (Asetiltransferazlar ekler, Deasetilazlar çıkarır).\n- **C) Asetil grubu vericisi asetil-KoA'dır:** Doğru.\n- **D) Sirtuinler proteinlerde deasetilasyon yapar:** Doğru (SIRT sirtuinler NAD+ bağımlı deasetilazlardır).\n- **E) Sistein amino asidi üzerinden gerçekleşir (YANLIŞ):** Proteinlerde asetillasyon (örneğin histon asetilasyonu) **Lizin** aminoasitinin epsilon-amino grubu üzerinden gerçekleşir (-NH2 grubuna asetil eklenerek pozitif yük nötralize edilir). Sistein üzerinden gerçekleşmez.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi sağlıklı bir yetişkin için esansiyel bir amino asittir? (2022 EUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Alanin",
+      "B": "Serin",
+      "C": "Sistein",
+      "D": "Glutamin",
+      "E": "Fenilalanin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Fenilalanin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, D Seçenekleri:** Alanin, Serin, Sistein ve Glutamin insan vücudunda diğer metabolitlerden sentezlenebilen non-esansiyel aminoasitlerdir.\n- **E) Fenilalanin (DOĞRU):** İnsan organizmasında sentezlenemeyen ve diyetle dışarıdan alınması zorunlu olan **esansiyel** aminoasitlerden biridir (Esansiyel aminoasitler: Fenilalanin, Valin, Treonin, Triptofan, İzolösin, Metionin, Histidin, Arjinin, Lösin, Lizin - PVT TIM HALL).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "I. Serin\nII. Treonin\nIII. Aspartat\nIV. Triptofan\nYukarıdaki aminoasitlerden hangileri insan için esansiyeldir? (2025 Sonbahar DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "II ve IV",
+      "D": "II ve III",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (II ve IV)**\n\n**Öncüllerin Detaylı Açıklaması:**\n- **I. Serin (NON-ESANSİYEL):** 3-fosfogliserattan vücutta sentezlenebilir.\n- **II. Treonin (ESANSİYEL):** İnsan vücudunda sentezlenemez, diyetle alınmalıdır.\n- **III. Aspartat (NON-ESANSİYEL):** Oksaloasetatın transaminasyonu ile vücutta sentezlenebilir.\n- **IV. Triptofan (ESANSİYEL):** İnsan vücudunda sentezlenemez, diyetle alınmalıdır.\n- **Sonuç:** II (Treonin) ve IV (Triptofan) esansiyel aminoasitlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi glukozdan sentezlenemez? (2023 İlkbahar DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Serin",
+      "B": "Alanin",
+      "C": "Glisin",
+      "D": "Tirozin",
+      "E": "Aspartat"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Tirozin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Serin:** Glikoliz ara ürünü 3-fosfogliserat'tan sentezlenir.\n- **B) Alanin:** Glikoliz son ürünü Pirüvat'ın transaminasyonu ile sentezlenir.\n- **C) Glisin:** Serin'den SHMT enzimi ile sentezlenir.\n- **D) Tirozin (DOĞRU):** Tirozin glukoz katabolizma ürünlerinden net sentezlenemez; esansiyel bir aminoasit olan **Fenilalanin**'in hidroksilasyonu ile (Fenilalanin hidroksilaz) sentezlenir.\n- **E) Aspartat:** TCA ara ürünü Oksaloasetat'ın transaminasyonu ile sentezlenir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aspartat, transaminasyon reaksiyonu ile aşağıdaki bileşiklerden hangisine çevrilir? (2017 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "a-ketoglutarat",
+      "B": "Oksaloasetat",
+      "C": "Pirüvat",
+      "D": "Laktat",
+      "E": "Propionat"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Oksaloasetat)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) a-ketoglutarat:** Glutamat'ın ketoasididir.\n- **B) Oksaloasetat (DOĞRU):** Aspartat Aminotransferaz (AST / SGOT) enzimi (B6 kofaktörlü) vasıtasıyla Aspartat alfa-amino grubunu a-ketoglutarata verir; kendisi 4 karbonlu ketoasidi olan **Oksaloasetat**'a dönüşür (a-ketoglutarat ise Glutamat'a dönüşür).\n- **C) Pirüvat:** Alanin'in ketoasididir.\n- **D, E) Laktat, Propionat:** Transaminasyon ketoasitleri değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisi oksaloasetat üzerinden sitrik asit döngüsüne girer? (2022 DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Prolin",
+      "B": "Aspartat",
+      "C": "Glutamin",
+      "D": "Arjinin",
+      "E": "Histidin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Aspartat)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, C, D, E Seçenekleri:** Prolin, Glutamin, Arjinin ve Histidin katabolizmaları sonucunda Glutamat üzerinden **a-ketoglutarat** oluşturarak sitrik asit döngüsüne girerler.\n- **B) Aspartat (DOĞRU):** Aspartat (ve Asparajin), AST enzimi vasıtasıyla transamine olarak doğrudan **Oksaloasetat**'a dönüşür ve TCA döngüsüne oksaloasetat seviyesinden katılır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki glukojenik amino asitlerden hangisi, R yan zincirindeki amid grubunun hidrolizinden sonra transaminasyon ile oksaloasetata dönüşerek sitrik asit döngüsüne katılır? (2022 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Asparajin",
+      "B": "Glutamin",
+      "C": "Valin",
+      "D": "Arjinin",
+      "E": "Fenilalanin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Asparajin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Asparajin (DOĞRU):** Asparajinaz enzimi ile yan zincirindeki amid grubunu su ile hidroliz ederek amonyak salar ve Aspartat'a dönüşür. Ardından Aspartat transaminasyon (AST) ile Oksaloasetat'a dönüşerek TCA döngüsüne girer.\n- **B) Glutamin:** Amid hidrolizi (glutaminaz) ile Glutamat'a, transaminasyon ile a-ketoglutarata dönüşür.\n- **C, D, E Seçenekleri:** Valin, Arjinin ve Fenilalanin yan zincirinde hidroliz edilen karboksamid grubu taşımaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Amino asitlerin transaminasyonunu katalizleyen enzimin koenzimi hangisidir? (2016 DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "NAD",
+      "B": "FADH2",
+      "C": "KoA",
+      "D": "Piridoksal fosfat",
+      "E": "Tetrahidrofolat"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Piridoksal fosfat)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, E Seçenekleri:** NAD, FADH2, KoA ve THF transaminaz enzimlerinin özel amino grubu taşıyıcı koenzimleri değildir.\n- **D) Piridoksal fosfat (DOĞRU):** Bütün aminotransferaz (transaminaz) enzimlerinin zorunlu koenzimi B6 vitamini türevi olan **Piridoksal Fosfat'tır (PLP)**. Reaksiyon sırasında amino grubunu geçici olarak bağlayarak Piridoksamin Fosfat'a dönüşür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Alanin transaminasyon reaksiyonunda aşağıdaki ürün çiftlerinden hangisi oluşur? (2020 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "a-ketoglutarat - Glutamat",
+      "B": "Pirüvat - Glutamat",
+      "C": "Pirüvat - Oksaloasetat",
+      "D": "Glutamat - Oksaloasetat",
+      "E": "Pirüvat - a-ketoglutarat"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Pirüvat - Glutamat)**\n\n**Şıkların Detaylı Açıklaması:**\n- Alanin Aminotransferaz (ALT / SGPT) reaksiyonu:\n  \\[ Alanin + \\alpha-ketoglutarat \\rightleftharpoons Pir\\ddot{u}vat + Glutamat \\]\n  Alanin amino grubunu a-ketoglutarata vererek kendisi **Pirüvat**'a dönüşür, a-ketoglutarat ise **Glutamat**'a dönüşür. Bu nedenle oluşan ürün çifti Pirüvat - Glutamat'tır (B seçeneği).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi transaminasyona uğramadan yıkılır? (2021 DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Treonin",
+      "B": "Aspartat",
+      "C": "Alanin",
+      "D": "Valin",
+      "E": "Lösin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Treonin)**\n\n**Şıkların Detaylı Açıklaması:**\n- Insanda transaminasyona doğrudan uğramayan aminoasitler: **Prolin, Lizin, Treonin ve Hidroksiprolin**'dir.\n- **A) Treonin (DOĞRU):** Treonin Dehidrataz (B6 kofaktörlü) enzimi vasıtasıyla transaminasyon geçirmeden doğrudan non-oksidatif deaminasyona uğrayarak a-ketobütirat ve amonyak (NH3) oluşturur.\n- **B, C, D, E Seçenekleri:** Aspartat (AST), Alanin (ALT), Valin ve Lösin (Dallı zincirli aminotransferaz) transaminasyona uğrarlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Normal koşullarda idrarla atılımı çok az olan amonyumun (NH3) atılımındaki artışın en olası nedeni hangisidir? (2025 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Hartnup hastalığı",
+      "B": "Yağ malabsorpsiyonu",
+      "C": "Glutaminaz enzim yetersizliği",
+      "D": "Kronik asidoz",
+      "E": "Fenilketonüri"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Kronik asidoz)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, E Seçenekleri:** Hartnup, yağ malabsorpsiyonu ve fenilketonüri idrarda renal amonyak tutulumunu ve NH4+ atılımını birincil olarak artıran metabolik durumlar değildir.\n- **C) Glutaminaz yetersizliği:** Glutaminaz yetersizliğinde amonyak üretilemez ve atılımı azalır.\n- **D) Kronik asidoz (DOĞRU):** Sistemik asidozda böbrek proksimal tübül hücrelerinde **Glutaminaz** enzimi indüklenir. Kan Glutamini böbreğe alınır, deamine edilerek açığa çıkan amonyak (NH3) tübül lümenine salınır. Lüimendeki fazla H+ iyonlarını bağlayarak NH4+ (amonyum) oluşturur ve idrarla atılır. Bu mekanizma böbreğin en önemli asit-baz düzenleme savunmasıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Üre döngüsünde aşağıdaki amino asitlerden hangisinin hidrolitik bölünmesiyle üre açığa çıkar? (2015 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Sitrülin",
+      "B": "Aspartat",
+      "C": "Arjinin",
+      "D": "Ornitin",
+      "E": "Glutamat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Arjinin)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, D, E Seçenekleri:** Sitrülin, Aspartat, Ornitin ve Glutamat hidroliz edilerek doğrudan serbest üre molekülünü serbestleştirmezler.\n- **C) Arjinin (DOĞRU):** Üre döngüsünün son ve karaciğere spesifik basamağında **Arjinaz** enzimi su (H2O) kullanarak Arjinin aminoasidini hidroliz eder ve serbest **Üre** ile **Ornitin** molekülünü açığa çıkarır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Üre döngüsünde arjinazın katalizlediği basamakta üre ile birlikte oluşan madde hangisidir? (2016 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Karbamoil fosfat",
+      "B": "N-asetil glutamat",
+      "C": "Ornitin",
+      "D": "Fumarat",
+      "E": "Sitrülin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Ornitin)**\n\n**Şıkların Detaylı Açıklaması:**\n- Arjinaz reaksiyonu:\n  \\[ Arjinin + H_2O \\xrightarrow{Arjinaz} \\ddot{U}re + Ornitin \\]\n  Arjininin hidroliz edilmesiyle Üre ayrılır, kalan karbon ve azot iskeleti **Ornitin**'i oluşturur. Ornitin mitokondriye dönerek üre döngüsünün devamlılığını sağlar (C seçeneği).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki üre döngüsü enzimlerinden hangisi enzim sınıflandırmasında hidrolazlar grubuna girer? (2021 DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Karbamoil fosfat sentetaz I",
+      "B": "Ornitin transkarbamoilaz",
+      "C": "Arjininosüksinat sentetaz",
+      "D": "Arjininosüksinat liyaz",
+      "E": "Arjinaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Arjinaz)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Karbamoil fosfat sentetaz I:** Ligaz (ATP harcayarak bağ kurar).\n- **B) Ornitin transkarbamoilaz:** Transferaz (karbamoil grubunu aktarır).\n- **C) Arjininosüksinat sentetaz:** Ligaz (ATP harcayarak bağ kurar).\n- **D) Arjininosüksinat liyaz:** Liyaz (bağ kopararak fumarat çıkarır).\n- **E) Arjinaz (DOĞRU):** Su kullanarak (H2O) arjininin guanidino bağını koparan ve üre ile ornitin oluşturan bir **Hidrolaz** sınıfı enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "I. Bu metabolik yolda endojen arjinin aminoasidi sentezlenir.\nII. Sentez döngüsünde toplam 2 yüksek enerjili fosfat bağı hidroliz olur.\nIII. Ürenin azotlarından biri aspartat aminoasidinden kaynaklanır.\nÜre sentezi ile ilgili ifadelerden hangileri doğrudur? (2013 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (I ve III)**\n\n**Öncüllerin Detaylı Açıklaması:**\n- **I. Bu metabolik yolda endojen arjinin aminoasidi sentezlenir (DOĞRU):** Arjininosüksinat liyaz reaksiyonu ile Arjininosüksinat'tan Fumarat ve Arjinin oluşur. (Karaciğer dışındaki dokularda bu Arjinin endojen kaynak sağlar).\n- **II. Sentez döngüsünde toplam 2 yüksek enerjili fosfat bağı hidroliz olur (YANLIŞ):** Bir molekül üre sentezi için 3 ATP harcanır, ancak Arjininosüksinat sentetaz basamağında 1 ATP -> AMP + PPi (2 yüksek enerjili bağ) ayrıldığı için toplam **4 yüksek enerjili fosfat bağı** kırılır.\n- **III. Ürenin azotlarından biri aspartat aminoasidinden kaynaklanır (DOĞRU):** Ürenin 1. azotu amonyaktan (KPS-1), 2. azotu Aspartat'tan gelir.\n- **Sonuç:** I ve III doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Üre döngüsünde oluşan ürenin yapısındaki amino gruplarını oluşturan moleküller hangisinde birlikte verilmiştir? (2014 İlkbahar DUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Ornitin - Arjinin",
+      "B": "Amonyak - Aspartik asit",
+      "C": "Ornitin - Sitrülin",
+      "D": "Aspartik asit - Ornitin",
+      "E": "Fumarik asit - Arjinin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Amonyak - Aspartik asit)**\n\n**Şıkların Detaylı Açıklaması:**\n- Üre sentezinde \\(O=C(NH_2)_2\\) yapısındaki iki azot atomunun kaynakları:\n  1. Birinci azot atomu serbest **Amonyak (NH3)** molekülünden gelir (Karbamoil fosfat sentetaz I ile tutulur).\n  2. İkinci azot atomu **Aspartik asit (Aspartat)** aminoasitinin amino grubundan gelir (Arjininosüksinat sentetaz reaksiyonunda katılır).\n- Bu nedenle doğru eşleşme Amonyak - Aspartik asit'tir (B seçeneği).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisinin amino grubu, üre döngüsünde ürenin ikinci azotunun kaynağıdır? (2016 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Aspartat",
+      "B": "Lizin",
+      "C": "Alanin",
+      "D": "Glisin",
+      "E": "Histidin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Aspartat)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Aspartat (DOĞRU):** Sitrülin ile birleşerek Arjininosüksinat oluşturan Aspartat, ürenin ikinci azot atomunun doğrudan kaynağını sağlar.\n- **B, C, D, E Seçenekleri:** Lizin, Alanin, Glisin ve Histidin üre döngüsüne doğrudan ikinci azotu veren aminoasitler değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "I. Karbamoil fosfat sentetaz I\nII. Ornitin transkarbamoilaz\nIII. Arjininosüksinat sentetaz\nIV. Arjininosüksinat liyaz\nV. Arjinaz\nYukarıdaki enzimlerden hangileri üre döngüsünün sitozolde gerçekleşen reaksiyonlarını katalizler? (2022 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I, II ve IV",
+      "D": "III, IV ve V",
+      "E": "II, III, IV ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (III, IV ve V)**\n\n**Öncüllerin Detaylı Açıklaması:**\n- **I, II. Karbamoil fosfat sentetaz I ve Ornitin transkarbamoilaz (MİTOKONDRİ):** Üre döngüsünün ilk iki enzimi mitokondri matrisinde yer alır.\n- **III, IV, V. Arjininosüksinat sentetaz, Arjininosüksinat liyaz ve Arjinaz (SİTOZOL):** Üre döngüsünün son üç enzimi hücresel sitozolde yer alır.\n- **Sonuç:** III, IV ve V nolu enzimler sitozolik reaksiyonları katalizler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "I. Ornitin\nII. Lizin\nIII. Arjinin\nIV. Sitrülin\nYukarıdakilerden hangileri arjinazın kompetitif inhibitörlerindendir? (2020 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (I ve II)**\n\n**Öncüllerin Detaylı Açıklaması:**\n- **I. Ornitin (DOĞRU):** Arjinaz enziminin doğrudan ürünlerinden biridir ve ürün inhibisyonu (kompetitif inhibisyon) yapar.\n- **II. Lizin (DOĞRU):** Ornitin ile yapısal benzerlik gösteren Lizin, arjinaz enziminin aktif bölgesine bağlanarak kompetitif inhibisyon yapar.\n- **III, IV. Arjinin, Sitrülin:** Arjinin enzimin substratıdır (inhibitörü değildir); Sitrülin arjinazı inhibe etmez.\n- **Sonuç:** I ve II arjinazın kompetitif inhibitörleridir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Hangisi üre döngüsünde karbamoil fosfat sentetaz I enziminin allosterik aktivatörüdür? (2017 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "N-asetilglutamat",
+      "B": "Karbamoil fosfat",
+      "C": "Aspartat",
+      "D": "Glutamin",
+      "E": "Üre"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (N-asetilglutamat)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) N-asetilglutamat (DOĞRU):** Karbamoil fosfat sentetaz I (KPS-1) enziminin çalışabilmesi için zorunlu (mutlak) pozitif allosterik aktivatörü **N-Asetilglutamat'tır (NAG)**.\n- **B, C, D, E Seçenekleri:** Karbamoil fosfat, Aspartat, Glutamin ve Üre KPS-1 enziminin zorunlu allosterik aktivatörü değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Üre döngüsünün ilk basamağını katalizleyen karbamoil fosfat sentetaz-I enzim aktivatörünün sentezlendiği bileşikler hangisinde birlikte verilmiştir? (2010 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Asetil-KoA ve glisin",
+      "B": "Asetil-KoA ve glutamat",
+      "C": "Asetil-KoA ve sistein",
+      "D": "Asetoasetil-KoA ve valin",
+      "E": "Asetoasetil-KoA ve arjinin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Asetil-KoA ve glutamat)**\n\n**Şıkların Detaylı Açıklaması:**\n- KPS-1 enziminin allosterik aktivatörü olan N-Asetilglutamat (NAG), mitokondride **N-Asetilglutamat Sentaz (NAGS)** enzimi tarafından **Asetil-KoA** ve **Glutamat** moleküllerinin birleştirilmesiyle sentezlenir. (Arjinin bu sentezi allosterik olarak uyarır).\n- Dolayısıyla doğru bileşik çifti Asetil-KoA ve Glutamat'tır (B seçeneği).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Karbamoil fosfat sentetaz I ve II enzimleriyle ilgili aşağıdakilerden hangisi yanlıştır? (2017 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Karbamoil fosfat sentetaz II sitozolde bulunur.",
+      "B": "Karbamoil fosfat sentetaz I'in substratları karbondioksit ve glutamindir.",
+      "C": "Karbamoil fosfat sentetaz I, mitokondride karbamoil fosfat oluşumunu gerçekleştirir.",
+      "D": "Karbamoil fosfat sentetaz I, aktivasyon için ATP kullanır.",
+      "E": "Karbamoil fosfat sentetaz I ile sentezlenen karbamoil fosfat, sitrülin oluşumu için kullanılır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Karbamoil fosfat sentetaz I'in substratları karbondioksit ve glutamindir.)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) KPS-II sitozolde bulunur:** Doğru (pirimidin sentezinde görevlidir).\n- **B) KPS-I substratları CO2 ve glutamindir (YANLIŞ):** Mitokondriyal **KPS-I** enziminin azot kaynağı serbest **AMONYAK (NH4+)** molekülüdür. Azot kaynağı olarak **Glutamin**'i kullanan enzim ise sitozolik **KPS-II** enzimidir.\n- **C) KPS-I mitokondride karbamoil fosfat oluşturur:** Doğru.\n- **D) KPS-I aktivasyon için ATP kullanır:** Doğru (2 ATP harcar).\n- **E) Sentezlenen karbamoil fosfat sitrülin oluşumunda kullanılır:** Doğru (OTK enzimi ile ornitin ile birleşir).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Karbamoil fosfat sentetaz enziminin sitoplazmik ve mitokondriyal izoformları arasında ortak olan özellik aşağıdakilerden hangisidir? (2024 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Kullandıkları karbon kaynakları",
+      "B": "N-asetil glutamat tarafından aktive edilmeleri",
+      "C": "Kullandıkları azot kaynakları",
+      "D": "Aktivitelerinin üridin difosfat tarafından inhibe edilmesi",
+      "E": "Eksikliklerinde orotik asidüri görülmesi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Kullandıkları karbon kaynakları)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Kullandıkları karbon kaynakları (DOĞRU):** Hem KPS-I (mitokondriyal) hem de KPS-II (sitoplazmik) karbamoil grubundaki karbon atomunu **Bikarbonat / CO2 (HCO3-)** molekülünden sağlarlar.\n- **B) NAG ile aktivasyon:** Sadece KPS-I NAG ile aktive olur (KPS-II PRPP ile aktive olur).\n- **C) Azot kaynakları:** KPS-I serbest amonyak (NH3), KPS-II ise glutamin kullanır.\n- **D) UDP inhibisyonu:** Sadece KPS-II UTP/UDP ile geri beslemeli inhibe olur.\n- **E) Orotik asidüri:** KPS-II aşırı çalışmasında veya OTK eksikliğinde görülür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Üre döngüsünün sitozolik basamaklarında açığa çıkan, malata dönüştürülerek mitokondriye taşınan ve trikarboksilik asit döngüsüne giren molekül hangisidir? (2020 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Arjinin",
+      "B": "Ornitin",
+      "C": "Fumarat",
+      "D": "Süksinat",
+      "E": "Aspartat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Fumarat)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, D, E Seçenekleri:** Arjinin, Ornitin, Süksinat ve Aspartat bu şant yolundaki açığa çıkan dakarboksilik asit değildir.\n- **C) Fumarat (DOĞRU):** Arjininosüksinat Liyaz reaksiyonunda Arjininosüksinat bölünerek Arjinin ve **Fumarat** oluşturur. Fumarat sitozolik fumaraz ile Malat'a dönüşür; Malat malat mekiği ile mitokondriye girerek TCA döngüsünde oksaloasetata yükseltgenir ve Niasin (NADH -> 2.5 ATP) üretir (Üre - TCA Şantı / Aspartat-Arjininosüksinat Şantı).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Üre döngüsünde, enzimlerden hangisinin katalizlediği basamakta açığa çıkan ürün, sitrik asit döngüsü ile bağlantılıdır? (2019 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Karbamoil fosfat sentetaz I",
+      "B": "Ornitin transkarbamoilaz",
+      "C": "Arjininosüksinat sentetaz",
+      "D": "Arjininosüksinat liyaz",
+      "E": "Arjinaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Arjininosüksinat liyaz)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, E Seçenekleri:** Bu enzimlerin ürünleri (Karbamoil fosfat, Sitrülin, Arjininosüksinat, Üre/Ornitin) TCA döngüsünün doğrudan ara metabolitleri değildir.\n- **D) Arjininosüksinat liyaz (DOĞRU):** Arjininosüksinat'ı Arjinin ve **Fumarat**'a böler. Açığa çıkan Fumarat sitrik asit (Krebs / TCA) döngüsünün doğrudan ara metabolitidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Üre döngüsü tepkimelerini katalizleyen enzimlerden hangisi, karşısında verilen metabolik hastalığa neden olmaz? (2012 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Arjininosüksinat sentetaz - Sitrülinemi",
+      "B": "Arjininosüksinat - Arjininosüksinik asidüri",
+      "C": "Ornitin transkarbamoilaz - Hiperammonemi tip II",
+      "D": "Karbamoil fosfat sentetaz I - Hiperammonemi tip I",
+      "E": "Arjinaz - Sistinüri"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Arjinaz - Sistinüri)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Arjininosüksinat sentetaz:** Eksikliğinde Sitrülinemi Tip I oluşur (Doğru).\n- **B) Arjininosüksinat liyaz:** Eksikliğinde Arjininosüksinik asidüri oluşur (Doğru).\n- **C) Ornitin transkarbamoilaz:** Eksikliğinde Hiperammonemi Tip II oluşur (Doğru).\n- **D) Karbamoil fosfat sentetaz I:** Eksikliğinde Hiperammonemi Tip I oluşur (Doğru).\n- **E) Arjinaz - Sistinüri (YANLIŞ):** Arjinaz eksikliğinde **Hiperarjininemi** (spastik dipleji, gelişme geriliği) tablosu oluşur. Sistinüri ise böbrek ve bağırsakta dibazik aminoasitlerin (Sistin, Ornitin, Lizin, Arjinin - COLA) epiteliyal transport defektidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Hangisinin yetersizliği konjenital hiperamonemiye neden olur? (2017 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Fosfofruktokinaz",
+      "B": "Dallı zincirli keto asit dehidrogenaz",
+      "C": "Ornitin transkarbamoilaz",
+      "D": "Glukoz-6-fosfataz",
+      "E": "Hidroksimetilglutaril-KoA sentaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Ornitin transkarbamoilaz)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Fosfofruktokinaz:** Glikoliz enzimidir (Tarui hastalığı).\n- **B) Dallı zincirli keto asit dehidrogenaz:** MSUD hastalığına yol açar.\n- **C) Ornitin transkarbamoilaz (DOĞRU):** Üre döngüsünün X'e bağlı çekinik kalıtılan en sık enzim defektidir; ciddi konjenital hiperammonemi ve orotik asidüriye yol açar.\n- **D) Glukoz-6-fosfataz:** Von Gierke hastalığına yol açar.\n- **E) HMG-KoA sentaz:** Keton cisim sentez bozuluğuna yol açar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "On bir yaşındaki çocuk hasta bilinç bulanıklığı, bulantı ve kusma şikayetleri ile acil servise getiriliyor. Hemogram, karaciğer ve böbrek fonksiyon testleri normal bulunuyor. Plazma amonyak düzeyi 280 umol/L bulunuyor. İleri tetkik için yatırılan hastada ornitin karbamoiltransferaz enzim eksikliği saptanıyor. Bu hastada hangisinde artış beklenir? (2023 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Serotonin",
+      "B": "Glutamin",
+      "C": "Dopamin",
+      "D": "Arjinin",
+      "E": "GABA"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Glutamin)**\n\n**Şıkların Detaylı Açıklaması:**\n- OTK (Ornitin transkarbamoilaz) eksikliğinde üre döngüsü durduğu için sistemik ve doku amonyak düzeyleri aşırı yükselir (hiperammonemi).\n- Dokularda (özellikle beyin astrositlerinde) biriken toksik amonyağı detoksifiye etmek amacıyla Glutamat Sentetaz ve Glutamin Sentetaz enzimleri aşırı çalışır.\n- Amonyak, Glutamat ile birleşerek **Glutamin** oluşturur. Bu nedenle hiperammonemik hastalarda kan, BOS ve dokularda **Glutamin** seviyeleri belirgin şekilde yükselir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Kanda amonyak düzeyinin artması beyin hücrelerinde öncelikle aşağıdaki metabolik yollardan hangisinin aktivitesini azaltır? (2012 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Trikarboksilik asit döngüsü",
+      "B": "Glukoneogenez",
+      "C": "Glikoliz",
+      "D": "Glikojenez",
+      "E": "Glikojenoliz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Trikarboksilik asit döngüsü)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Trikarboksilik asit döngüsü (DOĞRU):** Amonyak toksisitesinde (hiperammonemi), beyinde fazla amonyağı bağlamak için Glutamat Dehidrogenaz enzimi a-ketoglutarat'ı sürekli Glutamat'a çevirir. Bu durum TCA döngüsünün kritik ara maddesi olan **a-ketoglutarat'ın tükenmesine** ve dolayısıyla beyinde TCA döngüsü ve ATP sentezinin durmasına/azalmasına neden olur.\n- **B, C, D, E Seçenekleri:** Amonyağın doğrudan primer inhibe ettiği kilit hücresel enerji yolu TCA döngüsüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Hiperamonemi sonucunda gelişen hepatik ensefalopatide, eksikliği nedeni ile sitrik asit döngüsünün çalışma sebebi hangisidir? (2021 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Sitrat",
+      "B": "Fumarat",
+      "C": "Malat",
+      "D": "a-ketoglutarat",
+      "E": "Oksaloasetat"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (a-ketoglutarat)**\n\n**Şıkların Detaylı Açıklaması:**\n- Amonyak toksisitesinde, astrositlerde amonyağı uzaklaştırmak için Glutamat Dehidrogenaz reaksiyonu tersine döner ve TCA döngüsünün kilit maddesi **a-ketoglutarat** kullanılarak tükenir.\n- a-ketoglutarat eksikliği nedeniyle TCA (sitrik asit) döngüsünün hızı düşer ve nöronal enerji krizi gelişir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisinin aktivitesi serebral amonyak toksisitesinde arttığı için astrositlerde osmotik basınç artışına neden olur? (2020 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Aspartat aminotransferaz",
+      "B": "Asparajinaz",
+      "C": "Asparajin sentetaz",
+      "D": "Glutaminaz",
+      "E": "Glutamin sentetaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Glutamin sentetaz)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, D Seçenekleri:** Bu enzimler astrositlerde amonyak detoxifikasyonu sonucu osmotik şişmeye birincil neden olmazlar.\n- **E) Glutamin sentetaz (DOĞRU):** Beyin astrositlerinde yer alan Glutamin Sentetaz enzimi:  \n  \\[ Glutamat + NH_3 + ATP \\rightarrow Glutamin + ADP + P_i \\]  \n  reaksiyonunu katalizler. Aşırı amonyak mevcudiyetinde astrosit içinde çok miktarda **Glutamin** birikir. Osmotik olarak aktif bir molekül olan Glutamin astrosit içine su çekilmesine, astrosit şişmesine ve beyin ödemine (serebral ödem) yol açar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Havayla temas sonucu idrar renginin koyu kahverengi-ye dönüşmesi, bağ dokusunda siyah pigment birikimi ve homogentisik asit oksidaz defekti ile karakterize amino asit katabolizma bozukluğu hangisidir? (2018 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Histidinemi",
+      "B": "Alkaptonüri",
+      "C": "Homosistinemi",
+      "D": "Glisinemi",
+      "E": "Fenilketonüri"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n\n**Doğru Cevap: B (Alkaptonüri)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Histidinemi:** Histidaz enzim eksikliğidir.\n- **B) Alkaptonüri (DOĞRU):** Fenilalanin ve Tirozin yıkım yolundaki **Homogentisik asit oksidaz** enzim eksikliğine bağlı kalıtsal otozomal resesif hastalıktır. Biriken homogentisik asit idrarla atılır ve idrar havayla temas edince oksitlenerek kararır. Dokularda birikerek **okronozis** (bağ dokusu, kıkırdak ve sklerada siyah pigmentasyon) ve koyu renkli artrite yol açar.\n- **C) Homosistinemi:** Sistationin b-sentaz eksikliğidir.\n- **D) Glisinemi:** Glisin yarılma enzim eksikliğidir.\n- **E) Fenilketonüri:** Fenilalanin hidroksilaz eksikliğidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Bir anne, bebeğinin kirli bezinin beklediğinde karardığını ifade ediyor. Bu bebekte amino asitlerden hangisine bağlı metabolik bozukluk düşünülür? (2015 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Tirozin",
+      "B": "Triptofan",
+      "C": "Glutamin",
+      "D": "Histidin",
+      "E": "Lösin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Tirozin)**\n\n**Şıkların Detaylı Açıklaması:**\n- Bebeğin idrarının/kirli bezinin hava ile temas ettikten sonra kararması **Alkaptonüri** hastalığının klasik ilk bulgusudur.\n- Alkaptonüri, **Tirozin** (ve Fenilalanin) katabolizma yolunda yer alan Homogentisik asit oksidaz enziminin eksikliği sonucu gelişir. Bu yüzden katabolizması bozulan aminoasit Tirozin'dir (A seçeneği).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Glutamat g-semialdehit ile ilgili aşağıdaki ifadelerden hangileri doğrudur? (2022 Sonbahar TUS)\nI. Glutamat sentezinde kullanılır\nII. Prolinin yıkımı sonucu açığa çıkar.\nIII. Ornitinin sentezi için kullanılır ve yıkımı sonucunda da açığa çıkar.\n\n**Şıklar:**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (I, II ve III)**\n\n**Öncüllerin Detaylı Açıklaması:**\n- **I. Glutamat sentezinde kullanılır (DOĞRU):** Glutamat g-semialdehit dehidrogenaz enzimi ile Glutamat g-semialdehit yükseltgenerek Glutamat oluşturur.\n- **II. Prolinin yıkımı sonucu açığa çıkar (DOĞRU):** Prolin, Prolin dehidrogenaz (oksidaz) enzimi ile yıkıldığında Glutamat g-semialdehit açığa çıkar.\n- **III. Ornitinin sentezi için kullanılır ve yıkımı sonucunda da açığa çıkar (DOĞRU):** Ornitin d-aminotransferaz (B6) reaksiyonu ile Ornitin ve Glutamat g-semialdehit çift yönlü olarak birbirine dönüşür.\n- **Sonuç:** I, II ve III öncüllerinin tamamı doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde dallı zincirli amino asitlerin katabolizmasında ilk tepkimeyi katalizleyen aminotransferaz bulunmaz? (2015 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Karaciğer",
+      "B": "Kas doku",
+      "C": "Yağ doku",
+      "D": "Böbrek",
+      "E": "Beyin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n\n**Doğru Cevap: A (Karaciğer)**\n\n**Şıkların Detaylı Açıklaması:**\n- Dallı zincirli aminoasitler (**Valin, İzolösin, Lösin**):\n  - Bu aminoasitlerin transaminasyonunu gerçekleştiren **Dallı Zincirli Aminotransferaz** enzimi **KARACİĞERDE BULUNMAZ**.\n  - Bu nedenle karaciğer dallı zincirli aminoasitleri yıkamaz, bunları doğrudan çevre dokulara salar.\n  - Bu aminotransferaz enzimi kas, beyin, böbrek ve yağ dokusunda bol miktarda bulunur.\n- Dolayısıyla doğru cevap Karaciğer'dir (A seçeneği).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Karaciğerin okside etme kapasitesinin düşük olduğu amino asitler hangisinde birlikte verilmiştir? (2024 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Fenilalanin - Tirozin",
+      "B": "Alanin - Glisin",
+      "C": "Prolin - Treonin",
+      "D": "Lösin - Valin",
+      "E": "Aspartat - Glutamat"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n\n**Doğru Cevap: D (Lösin - Valin)**\n\n**Şıkların Detaylı Açıklaması:**\n- Karaciğer, dallı zincirli aminoasitleri (Valin, İzolösin, Lösin) transamine eden aminotransferaz enziminden yoksun olduğu için bu aminoasitleri katabolize ve okside edemez.\n- Bu yüzden Karaciğerin okside etme kapasitesinin en düşük olduğu aminoasit grubu dallı zincirli aminoasitlerdir (Lösin, İzolösin, Valin). D seçeneğindeki Lösin - Valin çifti doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Hangisinin eksikliğinde akçaağaç şurubu idrar hastalığı (MSUD) meydana gelir? (2016 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Transaminaz",
+      "B": "Propionil-KoA karboksilaz",
+      "C": "Alfa keto asit dehidrogenaz",
+      "D": "Tiyolaz",
+      "E": "Süksinil-KoA sentetaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n\n**Doğru Cevap: C (Alfa keto asit dehidrogenaz)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Transaminaz:** İlk basamak aminotransferazdır; eksikliğinde MSUD olmaz.\n- **B) Propionil-KoA karboksilaz:** Eksikliğinde Propionik asidemi oluşur.\n- **C) Alfa keto asit dehidrogenaz (DOĞRU):** Dallı zincirli alfa-ketoasit dehidrogenaz kompleks (BCKDH) enzim eksikliğinde dallı zincirli aminoasitler (Valin, İzolösin, Lösin) ve bunların alfa-ketoasitleri birikir. İdrarda yanmış şeker / akçaağaç şurubu kokusu, nörodejenerasyon ve ketosidoz ile karakterize **MSUD (Maple Syrup Urine Disease)** hastalığı meydana gelir.\n- **D, E) Tiyolaz, Süksinil-KoA sentetaz:** Farklı ketoliz/TCA enzimleridir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdaki amino asit ve bu amino asitin anaplerotik reaksiyon sonucu oluşturduğu son ürün eşleştirmelerinden hangisi yanlıştır? (2019 Sonbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Glutamat - a-ketoglutarat",
+      "B": "Aspartat - Oksaloasetat",
+      "C": "Valin - Süksinil-KoA",
+      "D": "Tirozin - Fumarat",
+      "E": "Metionin - Pirüvat"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Metionin - Pirüvat)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A) Glutamat - a-ketoglutarat:** Transaminasyon / deaminasyon ile a-ketoglutarat oluşturur (Doğru).\n- **B) Aspartat - Oksaloasetat:** AST ile oksaloasetat oluşturur (Doğru).\n- **C) Valin - Süksinil-KoA:** Propionil-KoA üzerinden Süksinil-KoA oluşturur (Doğru).\n- **D) Tirozin - Fumarat:** Fumarat ve asetoasetat oluşturur (Doğru).\n- **E) Metionin - Pirüvat (YANLIŞ):** Metionin katabolizmasında a-ketobütirat -> Propionil-KoA -> Metilmalonil-KoA -> **Süksinil-KoA** oluşur. Pirüvat oluşmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin eksikliğinde primer hiperoksalüri tip I meydana gelir? (2022 İlkbahar TUS)\n\n**Şıklar:**",
+    "options": {
+      "A": "Treonin aldolaz",
+      "B": "Glisin yarılma (cleavage) enzimi",
+      "C": "D-amino asit oksidaz",
+      "D": "Serin hidroksimetiltransferaz",
+      "E": "Alanin-glioksalat aminotransferaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n\n**Doğru Cevap: E (Alanin-glioksalat aminotransferaz)**\n\n**Şıkların Detaylı Açıklaması:**\n- **A, B, C, D Seçenekleri:** Bu enzimlerin eksikliği primer hiperoksalüri tip 1'e yol açmaz.\n- **E) Alanin-glioksalat aminotransferaz (DOĞRU):** Karaciğer peroksizomlarında yer alan Alanin:Glioksalat Aminotransferaz (AGT) enzim eksikliğinde glioksalat glisine çevrilemez. Biriken glioksalat sitozolde oksalat dehidrogenaz ile yüksek miktarda oksalata yükseltgenir. İdrarda kalsiyum oksalat taşları, böbrek yetmezliği ve sistemik oksalozis ile seyreden **Primer Hiperoksalüri Tip 1** hastalığı gelişir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 4 - AMİNOASİTLER",
+    "quality_flag": "cikmis",
+    "flag_reason": null
+  }
+]

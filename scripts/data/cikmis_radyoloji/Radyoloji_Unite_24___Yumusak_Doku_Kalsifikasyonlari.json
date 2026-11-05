@@ -1,0 +1,342 @@
+[
+  {
+    "q_num": 541,
+    "question": "Baş-boyun bölgesinde lokalize (travmatik) myositis ossifikansın en sık etkilediği kaslar aşağıdaki seçeneklerden hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "Buccinator - Temporal kas",
+      "B": "Lateral ve Medial Pterygoid kas",
+      "C": "Masseter ve Sternocleidomastoid kas",
+      "D": "Masseter ve Temporal kas",
+      "E": "Buccinator ve Medial Pterygoid kas"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Lokalize (travmatik) myositis ossifikans, akut veya kronik kas travması ya da kas içi enjeksiyonlar sonrasında gelişen heterotopik kemikleşmedir. Baş ve boyun bölgesinde dış travmalara en açık ve yüzeyel konumda bulunan masseter kası ve sternocleidomastoid (SKM) kası en sık etkilenen kaslardır.\n**Çeldiriciler:**\n- A) Buksinatör ve temporal kaslar daha nadir etkilenir; en sık tutulan ikili değildir.\n- B) Lateral ve medial pterygoid kaslar derin infratemporal fossada yer alır (genellikle mandibular anestezi enjeksiyonu sonrası etkilenebilirler ancak masseter ve SKM kadar sık değildir).\n- D) Masseter en sık etkilenen çiğneme kası olmakla birlikte, boyunda en sık eşlik eden kas temporal değil sternocleidomastoid kastır.\n- E) Buksinatör kası yanak yumuşak dokusunda yer alır ve myositis ossifikansın primer yerleşim yeri değildir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 542,
+    "question": "Aşağıdakilerden hangisinin panoramik radyografilerde C3-C4 ya da intervertebral seviyede multipl, irregüler şekilli heterojen radyoopasiteler hâlinde görüntü vermesi en olasıdır?",
+    "options": {
+      "A": "Flebolit",
+      "B": "Mönckeberg medial kalsinozis",
+      "C": "Kalsifiye aterosklerotik plak",
+      "D": "Tonsillolit",
+      "E": "Sistiserkozis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Ana karotis arterin (A. carotis communis) internal ve eksternal dallarına ayrıldığı bifurkasyon bölgesi anatomik olarak hyoid kemiğin büyük boynuzu ve C3-C4 servikal vertebralar hizasındadır. Bu bölgede tunika intimada gelişen kalsifiye aterosklerotik plaklar, panoramik radyografide C3-C4 intervertebral disk seviyesinde multipl, düzensiz (irregüler), heterojen ve dikey uzanımlı radyoopasiteler olarak izlenir.\n**Çeldiriciler:**\n- A) Flebolitler C3-C4 boyun omurları hizasında değil, yanak veya mandibula korpusu üzerinde düzgün sınırlı yuvarlak/oval \"boğa gözü\" şeklinde izlenir.\n- B) Mönckeberg medial kalsinozisi düzensiz fokal kitleler halinde değil, fasiyal veya karotis arter boyunca birbirine paralel iki ince çizgi (\"tren rayı / boru\") şeklinde görülür.\n- D) Tonsillolitler C3-C4 omurları önünde değil, mandibular ramus orta kısmının üzerinde süperpoze olarak izlenir.\n- E) Sistiserkozis çiğneme kasları içinde düzgün sınırlı, pirinç tanesi veya puro şeklinde homojen radyoopasiteler verir.\n---",
+    "flag_reason": "Sonbahar 2020 Orijinal",
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 543,
+    "question": "Verilen kırpılmış panoramik radyografideki lokalizasyonda, karotid arterin bifurkasyon bölgesinde endotelyal hasarına bağlı olarak gelişen, irregüler heterojen radyoopasitenin en olası sebebi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Flebolit",
+      "B": "Arteriosklerozis",
+      "C": "Kalsifiye aterosklerotik plak",
+      "D": "Tonsillolit",
+      "E": "Sistiserkozis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Karotid arterin ikiye ayrıldığı (bifurkasyon) bölgede endotelyal hasar ve lipid birikimi sonucu tunika intimada oluşan ve panoramik radyografide C3-C4 vertebra komşuluğunda irregüler heterojen radyoopasite veren oluşum kalsifiye aterosklerotik plaktır.\n**Çeldiriciler:**\n- A) Flebolit venöz trombüs kalsifikasyonu olup endotelyal arter bifurkasyonu plağı değildir.\n- B) Arteriosklerozis (Mönckeberg kalsinozu) intima tabakasındaki endotelyal hasarla değil, tunika media tabakasındaki elastik liflerin dejenerasyonu ve tren rayı tarzı kalsifikasyonuyla oluşur.\n- D) Tonsillolit orofaringeal hava yolu ile mandibular ramusun kesişim yerinde görülür.\n- E) Sistiserkozis kas içi parazit larvası kalsifikasyonudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 544,
+    "question": "Aşağıdaki yumuşak doku kalsifikasyon veya ossifikasyonlarından hangisinde genetik geçişten söz edilebilir?",
+    "options": {
+      "A": "Mönckeberg's Medial Calsinosis (Arteriosclerosis)",
+      "B": "Stylohyoid ligament ossifikasyonu",
+      "C": "Progresif Myositis Ossificans",
+      "D": "Osteoma Cutis",
+      "E": "Tonsil Kalsifikasyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Myositis ossifikans iki alt gruba ayrılır: Travmatik form kas yaralanmaları sonucu edinsel gelişirken; Progresif Myositis Ossifikans (Fibrodisplazi ossifikans progresiva) ACVR1 gen mutasyonu sonucu otozomal dominant genetik geçiş gösteren, erken çocuklukta başlayıp tüm vücut kas, tendon ve fasiyalarının ilerleyici şekilde kemikleşmesiyle karakterize ölümcül bir hastalıktır.\n**Çeldiriciler:**\n- A) Mönckeberg medial kalsinozisi yaşlanma, diyabet ve kronik böbrek yetmezliği ile ilişkili edinsel distrofik bir kalsifikasyondur.\n- B) Stylohyoid ligament ossifikasyonu (Eagle sendromu) sebebi tam bilinmeyen veya tonsillektomi/travma sonrası gelişen edinsel bir ossifikasyondur.\n- D) Osteoma cutis çoğunlukla kronik akne veya enflamatuar deri hastalıklarına sekonder gelişir.\n- E) Tonsil kalsifikasyonu (tonsillolit), tekrarlayan kronik tonsillit atakları sonucunda gelişen distrofik bir kalsifikasyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 546,
+    "question": "Üç boyutlu incelemede aksiyal kesitte mandibular ramus ve orofaringeal hava yolu arasındaki yumuşak dokuda izlenen, ölü bakteriler, püy, epitelyal hücreler ve besin artıkları etrafında gelişebilen, küçük boyutlu olanları semptomsuz, büyük olanlar ağrı, yutkunma zorluğu, yabancı cisim hissi ve ağız kokusuna sebep olabilen kalsifikasyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kalsifiye lenf nodu",
+      "B": "Tonsillolit",
+      "C": "Sistiserkoz",
+      "D": "Arteriosklerozis",
+      "E": "Kalsifiye aterosklerotik plak"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Üç boyutlu (KIBT/BT) aksiyal kesitlerde mandibular ramusun medialinde, ramus ile orofaringeal hava yolu arasındaki yumuşak dokuda (tonsiller fossada) izlenen; ölü bakteri, püy ve epitel artıkları etrafında gelişip disfaji, boğazda yabancı cisim hissi ve halitozise yol açan distrofik kalsifikasyon tonsillolittir.\n**Çeldiriciler:**\n- A) Kalsifiye lenf nodu genellikle submandibular bez komşuluğunda veya servikal zincirde karnabahar görünümünde izlenir; besin artıkları etrafında gelişmez ve ağız kokusu yapmaz.\n- C) Sistiserkoz çiğneme kasları içinde larvaların kalsifiye olmasıdır.\n- D) Arteriosklerozis arter duvarında boru/tren rayı görünümü veren vasküler kalsifikasyondur.\n- E) Kalsifiye aterosklerotik plak C3-C4 vertebra önünde karotis bifurkasyonunda yer alır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 547,
+    "question": "Aşağıdaki yumuşak doku kalsifikasyonu ve karakteristik görüntü benzerliği eşleştirmesinden hangisi doğru değildir?",
+    "options": {
+      "A": "Sistiserkoz - Pirinç tanesi",
+      "B": "Sialolit - Karnabahar",
+      "C": "Arteriosklerozis - Tren rayı",
+      "D": "Flebolit - Hedef",
+      "E": "Larinks kartilajı kalsifikasyonu - Buğday tanesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Radyografide lobüle \"karnabahar\" (cauliflower) görünümü sialolitin değil, kalsifiye lenf nodunun karakteristik görüntüsüdür. Sialolitler ise kanal içinde uzanan düzgün sınırlı, homojen veya laminasyonlu silindirik/puro benzeri ya da yuvarlak radyoopasiteler şeklinde izlenir.\n**Çeldiriciler:**\n- A) Sistiserkozda kalsifiye olan parazit larvaları kas içinde çoklu \"pirinç tanesi\" (rice grain) görünümü verir.\n- C) Arteriosklerozisde (Mönckeberg medial kalsinozu) damarın karşılıklı duvarları kalsifiye olarak \"tren rayı / pipet / pipo sapı\" görünümü oluşturur.\n- D) Flebolitlerde merkezdeki radyolusent lümen ve çevresindeki konsantrik kalsifiye halkalar \"hedef tahtası / boğa gözü\" (target / bull's eye) görünümü verir.\n- E) Larinksteki tritiseöz kartilaj kalsifikasyonu C3-C4 önünde tekil \"buğday tanesi\" (grain of wheat) görünümü oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 548,
+    "question": "I. Fungal enfeksiyonlar\nII. Granülomatöz hastalıklar\nIII. BCG aşısı\nIV. Sarkoidoz\n\nYukarıdakilerden hangileri lenf nodu kalsifikasyonuna yol açabilir?",
+    "options": {
+      "A": "I, II ve IV",
+      "B": "I, II, III ve IV",
+      "C": "II, III ve IV",
+      "D": "I, II ve III",
+      "E": "I, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Lenf nodu kalsifikasyonu, kronik enflamasyon ve doku nekrozu geçiren lenf düğümlerinde gelişen distrofik bir kalsifikasyondur ve verilen dört durumun tamamı buna yol açabilir.\n**Öncüllerin Analizi:**\n- I. Doğru: Derin fungal (mantar) enfeksiyonları (histoplazmozis, koksidioidomikozis vb.) lenf nodlarında granülomatöz nekroz ve distrofik kalsifikasyona neden olur.\n- II. Doğru: Başta tüberküloz (skrofula) ve kedi tırmığı hastalığı olmak üzere granülomatöz hastalıklar lenf nodu kalsifikasyonunun en sık nedenidir.\n- III. Doğru: BCG (Bacillus Calmette-Guérin) aşısı, zayıflatılmış Mycobacterium bovis içerdiğinden bölgesel lenf nodlarında kalsifikasyona yol açabilir.\n- IV. Doğru: Sistemik granülomatöz bir hastalık olan sarkoidozis, lenf nodlarında (\"yumurta kabuğu\" veya amorf tarzda) kalsifikasyon oluşturabilir.\n**Çeldiriciler:** A, C, D ve E şıkları öncüllerin tamamını kapsamadığı için eksiktir.\n---",
+    "flag_reason": "Sonbahar 2020 Orijinal",
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 549,
+    "question": "Aşağıdakilerden hangisi lenf nodu kalsifikasyonuna neden olması beklenmez?",
+    "options": {
+      "A": "Bacillus Calmette Guerin",
+      "B": "Nörofibromatozis",
+      "C": "Sarkoidozis",
+      "D": "Sistemik skleroz",
+      "E": "Romatoid artrit"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Nörofibromatozis, periferik sinir kılıfı tümörleri (nörofibromlar) ve deride café-au-lait lekeleri ile seyreden genetik bir hastalıktır; lenf nodlarında kronik nekrotizan enflamasyon veya distrofik kalsifikasyona neden olması beklenmez.\n**Çeldiriciler:**\n- A) Bacillus Calmette-Guérin (BCG) aşısının basili lenf nodlarında granülomatöz reaksiyon ve kalsifikasyon yapabilir.\n- C) Sarkoidozis kronik granülomatöz lenfadenit ve buna sekonder lenf nodu kalsifikasyonuna yol açar.\n- D) Sistemik skleroz (skleroderma), bağ dokusu ve lenf nodlarında distrofik kalsifikasyonlara neden olabilen otoimmün bir hastalıktır.\n- E) Romatoid artrit, kronik enflamatuar süreçle ilişkili olarak lenf nodu kalsifikasyonuna yol açabilen nedenler arasında yer alır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 550,
+    "question": "I. Sialolit\nII. Osteoma kutis\nIII. Myositis ossifikans\nIV. Stylohyoid ligament ossifikasyonu\n\nYukarıda verilen yumuşak doku kalsifikasyonlarından hangileri heterotopik ossifikasyondur?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "II, III ve IV",
+      "C": "I, III ve IV",
+      "D": "I ve III",
+      "E": "I ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Yumuşak dokuda amorf kalsiyum çökmesi yerine, trabeküler ve kortikal yapıya sahip organize gerçek kemik dokusunun oluşmasına heterotopik ossifikasyon denir; osteoma kutis, myositis ossifikans ve stylohyoid ligament ossifikasyonu bu gruptadır.\n**Öncüllerin Analizi:**\n- I. Yanlış: Sialolit gerçek bir kemik dokusu (ossifikasyon) içermez; tükürük kanalında organik matriks üzerine amorf kalsiyum fosfat tuzlarının çökelmesiyle oluşan idiyopatik bir kalsifikasyondur.\n- II. Doğru: Osteoma kutis, deri (dermis) içinde gerçek lameller kemik oluşumuyla karakterize heterotopik bir ossifikasyondur.\n- III. Doğru: Myositis ossifikans, çizgili kas dokusu içinde organize kemik trabeküllerinin geliştiği heterotopik ossifikasyondur.\n- IV. Doğru: Stylohyoid ligament ossifikasyonu, fibröz ligamentin kıkırdak ve gerçek kemik dokusuna dönüşmesiyle oluşan heterotopik bir ossifikasyondur.\n**Çeldiriciler:** A, C, D ve E şıkları ossifikasyon olmayan sialoliti (I. öncülü) içerdiği için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 551,
+    "question": "Rutin dental muayene için başvuran, sistemik yönden sağlıklı 45 yaşındaki erkek hastadan alınan panoramik radyografide, sağ mandibular ramus orta bölümünde, dil dorsumunun ramusu çaprazladığı yerde görüntü veren, her biri yaklaşık 0,5 cm çapında multipl radyoopasiteler izleniyor. Hasta, tesadüfen gözlenen bu radyolojik bulguya dair klinik şikâyet bildirmiyor.\n\nBu radyoopak lezyonlar için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Laringeal kıkırdak kalsifikasyonu",
+      "B": "Kalsifiye aterosklerotik plak",
+      "C": "Tonsillolit",
+      "D": "Sistiserkozis",
+      "E": "Stylohyoid ligament kalsifikasyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Panoramik radyografide mandibular ramusun orta bölümünde, dil dorsumu gölgesinin ve orofaringeal hava yolunun ramusu çaprazladığı anatomik noktada (palatin tonsil loju) izlenen, küçük boyutta olduklarında tamamen asemptomatik olan multipl radyoopasiteler tonsillolit için tipiktir.\n**Çeldiriciler:**\n- A) Laringeal (tiroid ve tritiseöz) kıkırdak kalsifikasyonları ramus üzerinde değil, C3-C6 servikal vertebraların hemen önünde, hyoid kemiğin altında izlenir.\n- B) Kalsifiye aterosklerotik plaklar ramusun arkasında/altında, C3-C4 intervertebral aralık hizasında izlenir.\n- D) Sistiserkozis paraziter bir enfeksiyon olup sağlıklı bireyde tonsil lojuna spesifik süperpozisyon değil, kaslar boyunca dağılmış pirinç tanesi kalsifikasyonları yapar.\n- E) Stylohyoid ligament kalsifikasyonu temporal kemiğin mastoid/stiloid prosesinden aşağı-öne hyoid kemiğe doğru uzanan uzun çubuk şeklinde radyoopasite verir.\n---",
+    "flag_reason": "DUS 2018 Orijinal",
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 552,
+    "question": "I. Tonsil kalsifikasyonu\nII. Larinks kartilaj kalsifikasyonu\nIII. Kalsifiye lenf nodu\n\nYukarıdaki yumuşak doku kalsifikasyonlarından hangisi ya da hangileri mandibula ramus üzerine superpoze olması beklenir?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "II ve III",
+      "C": "I ve III",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Panoramik radyografide anatomik komşulukları ve ışın açısı nedeniyle mandibula ramusu üzerine süperpoze olabilen kalsifikasyonlar tonsil kalsifikasyonu ve kalsifiye lenf nodudur.\n**Öncüllerin Analizi:**\n- I. Doğru: Tonsil kalsifikasyonu (tonsillolit), ramusun medialindeki tonsiller fossada yer aldığı için doğrudan mandibula ramus orta kısmı üzerine süperpoze olur.\n- II. Yanlış: Larinks kartilaj kalsifikasyonu boynun en alt-ön kısmında (C4-C6 vertebraların önünde) yer alır; mandibula ramusu üzerine süperpoze olması beklenmez.\n- III. Doğru: Submandibular ve üst derin juguler (servikal) kalsifiye lenf nodları angulus ve ramus posterior/inferior sınırları üzerine süperpoze olabilir.\n**Çeldiriciler:** A, B ve E şıkları yanlış olan II. öncülü içerdiği için; D şıkkı ise doğru olan III. öncülü dışladığı için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 556,
+    "question": "Aşağıdaki yumuşak doku kalsifikasyonu ve karakteristik görüntü benzerliği eşleştirmesinden hangisi doğru değildir?",
+    "options": {
+      "A": "Sistiserkoz - Pirinç tanesi",
+      "B": "Flebolit - Boğa gözü",
+      "C": "Arteriosklerozis - Tren rayı",
+      "D": "Sialolit - Karnabahar",
+      "E": "Larinks kartilajı kalsifikasyonu - Buğday tanesi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sialolitler tükürük kanalı şeklini alarak silindirik, puro şeklinde veya düzgün yuvarlak radyoopasite verirler; \"karnabahar\" görünümü sialolite değil, kalsifiye lenf noduna aittir.\n**Çeldiriciler:**\n- A) Sistiserkoz kalsifikasyonları pirinç tanesi görünümündedir.\n- B) Flebolitler ortası radyolusent boğa gözü (hedef) görünümündedir.\n- C) Arteriosklerozis paralel kalsifiye duvarlarıyla tren rayı (pipet) görünümündedir.\n- E) Larinks (tritiseöz) kartilaj kalsifikasyonu buğday tanesi görünümündedir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 559,
+    "question": "Yukarıdaki kırpılmış panoramik radyografta verilen, sağ mandibular ramus orta bölümünde, dil dorsumunun ramusu çaprazladığı yerde multipl radyoopasiteler şeklinde görüntü veren, hastada yutkunma zorluğu, ağrı, yabancı cisim hissi ve ağız kokusuna neden olan siyah oklarla işaretlenen kalsifiye yapılar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kalsifiye lenf nodu",
+      "B": "Kalsifiye styloid ligament",
+      "C": "Kalsifiye aterosklerotik plak",
+      "D": "Parotiste sialolit",
+      "E": "Tonsil kalsifikasyonu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Panoramik radyografide mandibular ramus orta bölümünde, dil dorsumunun ramusu çaprazladığı alanda salkım şeklinde multipl radyoopasiteler veren ve klinik olarak ağrı, disfaji, yabancı cisim hissi ile ağız kokusuna (halitozis) yol açan oluşumlar tonsil kalsifikasyonudur (tonsillolit). (Radyografide ramus arkasında kalsifiye styloid ligament de görülmekle birlikte siyah oklarla ramus ortasında işaretlenen çoklu yapılar tonsillolittir).\n**Çeldiriciler:**\n- A) Kalsifiye lenf nodu genellikle angulus altında servikal zincirde izlenir ve ağız kokusuna neden olmaz.\n- B) Kalsifiye styloid ligament ramusun arkasından aşağı uzanan tek parça veya segmentli uzun çubuk şeklinde bir yapıdır; ramus ortasındaki çoklu granüler opasiteler değildir.\n- C) Kalsifiye aterosklerotik plak C3-C4 vertebra önünde yer alır; ramus ortasına süperpoze olmaz ve halitozis yapmaz.\n- D) Parotiste sialolit genellikle tekil olur, yemek yerken şişlik ve ağrı yapar; ağız kokusu ve yutkunmada yabancı cisim hissi tonsillolite özgüdür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 563,
+    "question": "Aşağıdakilerden hangisi kalsiyum tuzlarının primer kronik inflamasyon sahalarında veya ölü dokularda çökelmesi sonucu oluşan distrofik kalsifikasyonlardan birisi değildir?",
+    "options": {
+      "A": "Kalsifiye lenf nodu",
+      "B": "Tonsil kalsifikasyonu",
+      "C": "Sialolit",
+      "D": "Kalsifiye aterosklerotik plak",
+      "E": "Sistiserkoz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Serum kalsiyum ve fosfat düzeyleri normalken dejeneratif, nekrotik veya kronik enflamatuar dokularda oluşan kalsifikasyonlara distrofik kalsifikasyon; normal/sağlıklı dokularda veya sekresyonlarda oluşanlara ise idiyopatik (kalzinosis) kalsifikasyon denir. Sialolit (tükürük taşı), flebolit, rinolit, antrolit ve larinks kıkırdak kalsifikasyonu ile birlikte idiyopatik kalsifikasyonlar grubunda yer alır; distrofik değildir.\n**Çeldiriciler:**\n- A) Kalsifiye lenf nodu, tüberküloz gibi kronik granülomatöz enflamasyon ve kazeifikasyon nekrozu sahasında gelişen klasik bir distrofik kalsifikasyondur.\n- B) Tonsil kalsifikasyonu (tonsillolit), kronik tonsillit sahasındaki ölü epitel ve bakteriler üzerinde gelişen distrofik kalsifikasyondur.\n- D) Kalsifiye aterosklerotik plak, hasarlı arter intimasındaki nekrotik-lipidik plak içinde gelişen distrofik kalsifikasyondur.\n- E) Sistiserkoz, kas dokusu içinde ölen parazit larvalarının (ölü dokunun) kireçlenmesiyle oluşan distrofik kalsifikasyondur.\n---",
+    "flag_reason": "Sonbahar 2015 Orijinal",
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 564,
+    "question": "Aşağıdakilerden hangisi sağlıklı dokuda kalsiyum tuzlarının birikimi sonucunda oluşan kalsifikasyonlardan birisidir?",
+    "options": {
+      "A": "Kalsifiye aterosklerotik plak",
+      "B": "Kalsifiye lenf nodu",
+      "C": "Sialolit",
+      "D": "Sistiserkoz",
+      "E": "Tonsil kalsifikasyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Serum kalsiyum-fosfat seviyesi normal olmasına rağmen sağlıklı dokularda/kanallarda kalsiyum tuzu birikimine idiyopatik kalsifikasyon adı verilir. Sialolit (flebolit, larinks kartilaj kalsifikasyonu, rinolit ve antrolit ile birlikte) idiyopatik kalsifikasyon örneğidir.\n**Çeldiriciler:**\n- A) Kalsifiye aterosklerotik plak, endotel hasarı ve intima dejenerasyonu zemininde gelişen distrofik kalsifikasyondur.\n- B) Kalsifiye lenf nodu, kronik enflamasyonlu/nekrotik lenf düğümünde gelişen distrofik kalsifikasyondur.\n- D) Sistiserkoz, ölü parazit larvası üzerinde gelişen distrofik kalsifikasyondur.\n- E) Tonsil kalsifikasyonu, kronik tonsillit ve püy/ölü doku zemininde gelişen distrofik kalsifikasyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 565,
+    "question": "Aşağıdaki yumuşak doku kalsifikasyon veya ossifikasyonlarından hangisinde genetik geçişten söz edilebilir?",
+    "options": {
+      "A": "Mönckeberg's Medial Calsinosis (Arteriosclerosis)",
+      "B": "Stylohyoid ligament ossifikasyonu",
+      "C": "Progresif Myositis Ossificans",
+      "D": "Osteoma Cutis",
+      "E": "Tonsil Kalsifikasyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Progresif Myositis Ossificans, otozomal dominant genetik geçiş gösteren ve bağ dokusu ile çizgili kasların ilerleyici heterotopik ossifikasyonuna yol açan kalıtsal bir hastalıktır.\n**Çeldiriciler:**\n- A) Mönckeberg medial kalsinozisi yaşlanma ve metabolik hastalıklarla ilişkili edinsel bir damar kalsifikasyonudur.\n- B) Stylohyoid ligament ossifikasyonu edinsel/gelişimsel olup genetik kalıtım paterni göstermez.\n- D) Osteoma cutis akne skarı veya dermatozlara sekonder gelişen edinsel deri ossifikasyonudur.\n- E) Tonsil kalsifikasyonu kronik enfeksiyona sekonder gelişen edinsel distrofik bir kalsifikasyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 567,
+    "question": "Normal serum kalsiyum ve fosfat seviyelerine sahip bir hastada sağlıklı bir dokuda aşağıdaki kalsifikasyonlardan hangisi ile karşılaşmak en olasıdır?",
+    "options": {
+      "A": "Arteriyal kalsifikasyon",
+      "B": "Distrofik kalsifikasyon",
+      "C": "Metastatik kalsifikasyon",
+      "D": "Sistiserkozis",
+      "E": "Sialolit"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Serum kalsiyum ve fosfat düzeyleri normalken sağlıklı/normal dokularda oluşan kalsifikasyonlara idiyopatik kalsifikasyon (kalsinozis) denir. Şıklar arasında idiyopatik kalsifikasyon grubunda yer alan tek oluşum sialolittir (diğer örnekleri flebolit, rinolit, antrolit ve laringeal kartilaj kalsifikasyonlarıdır).\n**Çeldiriciler:**\n- A) Arteriyal kalsifikasyonlar (ateroskleroz ve Mönckeberg kalsinozu) damar duvarındaki dejenerasyon/hasar zemininde gelişen distrofik kalsifikasyonlardır.\n- B) Distrofik kalsifikasyon sağlıklı dokuda değil, hasarlı, enflamatuar veya nekrotik (ölü) dokuda oluşur.\n- C) Metastatik kalsifikasyon sağlıklı dokuda oluşmakla birlikte serum kalsiyum ve/veya fosfat seviyelerinin normal değil, yüksek (hiperkalsemi/hiperfosfatemi) olduğu durumlarda gelişir.\n- D) Sistiserkozis ölü parazit dokusunda gelişen distrofik bir kalsifikasyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 568,
+    "question": "Multiple myelomlu bir hastada bilateral olarak yumuşak dokularında aşağıdaki kalsifikasyonlardan hangisinin bulunması en olasıdır?",
+    "options": {
+      "A": "Distrofik kalsifikasyon",
+      "B": "Arteriyal kalsifikasyon",
+      "C": "Kalsinosis",
+      "D": "İdiopatik kalsifikasyon",
+      "E": "Metastatik kalsifikasyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Metastatik kalsifikasyon; hiperparatiroidizm, maligniteler (multiple myelom gibi yaygın osteolitik kemik yıkımı yapan tümörler) veya kronik böbrek yetmezliği gibi serum kalsiyum ve/veya fosfat seviyelerinin yükseldiği durumlarda normal yumuşak dokularda genellikle bilateral ve simetrik olarak kalsiyum tuzlarının çökelmesidir. Multiple myelomda kemik yıkımına bağlı şiddetli hiperkalsemi geliştiği için bilateral metastatik kalsifikasyon görülür.\n**Çeldiriciler:**\n- A) Distrofik kalsifikasyon normokalsemik bireylerde lokalize hasarlı/nekrotik dokuda görülür; sistemik hiperkalsemiye bağlı bilateral tutulum değildir.\n- B) Arteriyal kalsifikasyon vasküler dejenerasyona bağlı gelişir; multiple myelom hiperkalsemisinin spesifik tanımlaması değildir.\n- C) Kalsinozis (idiyopatik kalsifikasyon) serum kalsiyum düzeyi tamamen normalken gelişir.\n- D) İdiyopatik kalsifikasyon normokalsemik ortamda yerel faktörlerle (sialolit, rinolit vb.) tek taraflı gelişir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 569,
+    "question": "Aşağıdaki yumuşak doku kalsifikasyonlarının hangisinde, panoramik radyografilerde daha çok fasiyal arter veya karotis arterinde görülen birbirine paralel bir çift kalsifiye çizgi şeklinde (\"pipe stem\" veya \"tram track\") tipik görüntü izlenmesi en olasıdır?",
+    "options": {
+      "A": "Arteriosklerozis",
+      "B": "Kalsifiye aterosklerotik plak",
+      "C": "Kalsinozis kutis",
+      "D": "Lenf nodu kalsifikasyonu",
+      "E": "Osteoma kutis"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Arteriosklerozis (Mönckeberg'in medial kalsinozisi), orta ve küçük çaplı arterlerin (baş-boyunda en sık fasiyal arter ve karotis arterin) tunika media tabakasındaki elastik liflerin dejenerasyonu ve çepeçevre kalsifikasyonudur. Damar boyuna kesitte görüntülendiğinde karşılıklı iki duvarı birbirine paralel çift radyoopak çizgi (\"tren rayı / tram-track\" veya \"pipo sapı / pipe stem\") şeklinde tipik görüntü verir.\n**Çeldiriciler:**\n- B) Kalsifiye aterosklerotik plak tunika intimada fokal olarak gelişir ve C3-C4 hizasında düzensiz/vertikal kütleler halinde görülür; damar boyunca kesintisiz paralel tren rayı görünümü vermez.\n- C) Kalsinozis kutis deride noktasal veya plak tarzı kalsiyum birikimleridir.\n- D) Lenf nodu kalsifikasyonu boyunda tek veya çoklu lobüle \"karnabahar\" görünümünde yuvarlak opasiteler verir.\n- E) Osteoma kutis yanak ve dudak derisinde milimetrik yuvarlak veya halka şeklinde kemikleşmeler olarak izlenir.\n---",
+    "flag_reason": "DUS 2019 Orijinal",
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 571,
+    "question": "I. Myositis ossifikans\nII. Stilohyoid ligament ossifikasyonu\nIII. Osteoma kutis\nIV. Radyoterapi\n\nYukarıdaki durumlardan hangisi veya hangileri trismusa sebep olabilir?",
+    "options": {
+      "A": "I ve IV",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Çiğneme kaslarında yapısal kemikleşme veya fibrozis/kontraktür yaratarak ağız açmada şiddetli kısıtlılığa (trismusa) yol açan durumlar myositis ossifikans ve radyoterapidir.\n**Öncüllerin Analizi:**\n- I. Doğru: Myositis ossifikans'ta ağız açma ya da kapama fonksiyonu olan çiğneme kasları (başta masseter ve pterygoid kaslar) tutulduğunda ve kas içinde kemikleşme geliştiğinde şiddetli trismus ortaya çıkar.\n- II. Yanlış: Stilohyoid ligament ossifikasyonunda (Eagle sendromu) yutkunmada batma ağrısı, baş çevirmede ağrı, yabancı cisim hissi, otalji ve tinnitus görülür; ancak bu durum trismus oluşturacak boyutta mekanik kilitlenme yapmaz.\n- III. Yanlış: Osteoma kutis dermis içindeki küçük kemik odakları olup çiğneme kaslarını etkilemez ve trismusa sebep olmaz.\n- IV. Doğru: Baş-boyun radyoterapisi sonrasında çiğneme kaslarında (masseter ve pterygoid kaslar) gelişen radyasyon enflamasyonu, vasküler hasar ve fibrozis neticesinde ağır trismus gelişebilir.\n**Çeldiriciler:** B, C ve D şıkları trismus yapmayan II. ve/veya III. öncülleri içerdiği için; E şıkkı ise önemli bir trismus nedeni olan radyoterapiyi (IV. öncülü) dışladığı için yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 24 - Yumuşak Doku Kalsifikasyonları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

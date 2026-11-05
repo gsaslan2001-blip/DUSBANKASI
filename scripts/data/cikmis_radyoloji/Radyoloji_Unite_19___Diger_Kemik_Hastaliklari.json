@@ -1,0 +1,376 @@
+[
+  {
+    "q_num": 246,
+    "question": "Radyograflar incelenirken ayırıcı tanıların doğru değerlendirilebilmesi için dikkat edilmesi gereken özelliklerle ilgili aşağıdakilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Normal anatomik varyasyonlar genellikle çift taraflıdır.",
+      "B": "Gorlin-Goltz sendromunda multifokal odontojenik keratokistler izlenir.",
+      "C": "Çevre kemik dokuda reaksiyonunun görülmediği keskin sınırlara 'zımba deliği' adı verilir.",
+      "D": "Fibröz displazide periodontal ligament aralığında daralma izlenir.",
+      "E": "Lezyonun merkezi maksiller antrumda ise odontojenik kökenlidir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Bir lezyonun merkezi (episantrı) maksiller antrum (maksiller sinüs) içerisindeyse veya inferior alveolar kanalın altındaysa bu lezyon **odontojenik kökenli değildir**. Odontojenik kökenli lezyonların merkezi alveoler proses içerisinde (dişlerin etrafında veya kuron/köklerinin üzerinde) yer alır.\n**Çeldiriciler:**\n- **A) Normal anatomik varyasyonlar genellikle çift taraflıdır:** Çenelerdeki anatomik oluşumlar ve varyasyonlar çoğunlukla bilateral ve simetriktir.\n- **B) Gorlin-Goltz sendromunda multifokal odontojenik keratokistler izlenir:** Bazal hücreli nevüs (Gorlin-Goltz) sendromunda çenelerde çok sayıda odontojenik keratokist görülür.\n- **C) Çevre kemik dokuda reaksiyonunun görülmediği keskin sınırlara 'zımba deliği' adı verilir:** Özellikle multipl miyelom gibi patolojilerde etrafında sklerotik kemik reaksiyonu olmayan keskin sınırlı radyolusent lezyonlara \"zımba deliği\" (punched-out) görünümü denir.\n- **D) Fibröz displazide periodontal ligament aralığında daralma izlenir:** Fibröz displazide lamina dura kaybolur ve anormal kemik dokusu nedeniyle periodontal ligament aralığı daralmış olarak izlenir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 257,
+    "question": "Kırk beş yaşındaki kadın hastadan yirmi yaş dişlerinin değerlendirilmesi amacıyla alınan panoramik radyografta mandibular premolar ve molar bölgede, bilateral, diş kökleri ile ilişkili, düzenli sınırlı, radyolusent alanın merkezinde radyoopasiteler izleniyor. Klinik muayenede bilateral 1. ve 2. molar dişlerinde tek yüzlü kompozit dolguları olduğu ve bu dişlerle ilgili herhangi bir ağrı ya da şişlik şikâyeti olmadığı öğreniliyor. Lezyonla ilişkili dişlere vitalite testleri yapılıp ilgili dişlerin vital olduğu belirleniyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Osteoporoz",
+      "B": "Semento-ossifiye fibroma",
+      "C": "Kondensing osteitis",
+      "D": "Fibröz displazi",
+      "E": "Florid semento-osseöz displazi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Orta yaşlı kadın hastada, asemptomatik, bilateral/simetrik olarak mandibular posterior bölgelerde vital diş kökleriyle ilişkili mikst (radyolusent çevreli, merkezi radyoopak) lezyonların varlığı florid semento-osseöz displazi için tipiktir.\n**Çeldiriciler:**\n- A) Osteoporoz: Kemik trabeküllerinde ve kortikal kalınlıkta genel azalma yapar; radyoopak kitleler oluşturmaz.\n- B) Semento-ossifiye fibroma: Genellikle soliter (tek taraflı) olan, belirgin ekspansiyon ve diş köklerinde deplasman/rezorpsiyon yapabilen gerçek bir neoplazmdır.\n- C) Kondensing osteitis: Derin çürük veya geniş restorasyonlu devital dişlerin apeksinde görülen, çevresinde radyolusent kapsül bulunmayan reaktif sklerozdur.\n- D) Fibröz displazi: Genellikle genç yaşta başlayan, tek taraflı (monostotik) olan, sınırları sağlam kemikten ayırt edilemeyen buzlu cam görünümlü lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 266,
+    "question": "Kemik ağrısı ve kas yorgunluğu şikâyetleri olan bir kadın hastanın radyolojik incelemesinde; kemik korteksinde ve lamina durada incelme, trabeküler yapıda kısmen azalma izleniyor. Laboratuvar incelemesinde kanda kalsiyum seviyesinde azalma saptanıyor. Hastanın öyküsünden herhangi bir ilaç kullanmadığı öğreniliyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Osteomalazi",
+      "B": "Osteopetrozis",
+      "C": "Hipopitüitarizm",
+      "D": "Hipotiroidizm",
+      "E": "Hipoparatiroidizm"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Erişkinlerde D vitamini/kalsiyum/fosfat eksikliğine bağlı osteoid matriksin mineralizasyon bozukluğu olan osteomalazide; kemik ağrısı, kas güçsüzlüğü (penguen yürüyüşü), hipokalsemi, kemik korteksinde ve lamina durada incelme ile trabeküler yoğunlukta azalma izlenir.\n**Çeldiriciler:**\n- B) Osteopetrozis: Osteoklastik aktivite bozukluğuna bağlı tüm kemiklerde bilateral diffüz radyoopasite (densite) artışı ve medüller boşlukların kaybı ile karakterizedir.\n- C) Hipopitüitarizm: Çene boyutlarında küçülme, diş sürmesinde gecikme ve maloklüzyon görülür; hipokalsemi ve lamina dura incelmesi tipik değildir.\n- D) Hipotiroidizm: Dental gelişim ve sürme gecikir; ancak kan kalsiyumunda düşüş veya lamina durada incelme beklenmez.\n- E) Hipoparatiroidizm: Hipokalsemi görülür ancak kemik rezorpsiyonu azaldığı için kemik densitesinde azalma ve lamina dura incelmesi değil, normal veya artmış densite ile dişlerde mine hipoplazisi izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 267,
+    "question": "Aşağıda verilen hastalık / klinik - radyolojik bulgu eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Osteomalazi - Lamina durada incelme",
+      "B": "Osteopetrozis - Kemik yoğunluğunda azalma",
+      "C": "Hipopitüitarizm - Artan gonial açı",
+      "D": "Hipotiroidizm - Erken erüpsiyon",
+      "E": "Hipoparatiroidizm - Brown tümör"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Osteomalazide yetersiz mineralizasyon ve sekonder osteopeni sonucunda radyograflarda kortikal kemikte ve lamina durada incelme/kayıp izlenir.\n**Çeldiriciler:**\n- B) Osteopetrozis: Mermer kemik hastalığı olup kemik yoğunluğunda azalma değil, diffüz ve homojen artış görülür.\n- C) Hipopitüitarizm: Mandibula gelişimi geri kalır; artan gonial açı ve prognatizm hipopitüitarizmde değil hiperpitüitarizmde (akromegali) izlenir.\n- D) Hipotiroidizm: Metabolizma yavaşladığı için erken erüpsiyon değil, gecikmiş diş erüpsiyonu görülür (erken erüpsiyon hipertiroidizmde olur).\n- E) Hipoparatiroidizm: Brown tümör hipoparatiroidizmde değil, aşırı parathormon salgısına bağlı osteoklastik yıkımın arttığı hiperparatiroidizmde görülür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 271,
+    "question": "Osteopetrozisle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Lökositoz izlenir",
+      "B": "Trombositoz görülür",
+      "C": "Osteoblastlarda izlenen defekt sonucu gelişir",
+      "D": "Kemik turnover'ı osteoklastik yönde bozulur",
+      "E": "Kemik iliği azalmasına bağlı anemi gelişir"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Osteopetroziste aşırı kemik birikimi medüller kemik iliği boşluklarını daraltır. Hematopoetik dokunun yerini dens kemiğin alması sonucunda pansitopeni (anemi, lökopeni ve trombositopeni) gelişir.\n**Çeldiriciler:**\n- A) Kemik iliği baskılanmasına bağlı lökositoz değil, lökopeni izlenir.\n- B) Megakaryosit üretiminin azalmasına bağlı trombositoz değil, trombositopeni görülür.\n- C) Osteoblastlarda değil, osteoklastların rezorpsiyon fonksiyonunda izlenen genetik defekt sonucu gelişir.\n- D) Osteoklastlar çalışamadığı için kemik turnover'ı osteoklastik değil, osteoblastik (yapım) yönde bozulur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 287,
+    "question": "Yedi yaşındaki erkek hasta sağ ve sol alt posterior bölgede sert, ağrısız şişlik şikâyeti ile ailesi tarafından muayeneye getiriliyor. İntraoral muayenede bilateral alt birinci molar dişlerin lingual tüberküllerinin parsiyel olarak sürdüğü gözleniyor. Hastanın panoramik radyografında bilateral birinci molar dişlerin kökleri ile ilişkili, kortike sınırlı, uniloküler, yaklaşık 1x1 cm boyutlarında radyolusent lezyonlar izleniyor. Her iki dişin de vital olduğu saptanıyor. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Cherubism",
+      "B": "Ameloblastoma",
+      "C": "Bukkal bifurkasyon kisti",
+      "D": "Dentigeröz kist",
+      "E": "Radiküler kist"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Bukkal bifurkasyon kisti; 6-12 yaş arası çocuklarda mandibular 1. molar dişin sürmesinde gecikmeye ve kronun bukkale devrilmesine (ağız içinde sadece lingual tüberküllerin görünmesine, kök uçlarının ise lingual kortekse dayanmasına) neden olan, bilateral görülebilen, vital dişle ilişkili kortike uniloküler radyolusent kisttir.\n**Çeldiriciler:**\n- A) Cherubism: 2-6 yaşta başlayan, çenelerde simetrik, geniş, sabun köpüğü tarzında multiloküler radyolusent lezyonlarla karakterize genetik hastalıktır.\n- B) Ameloblastoma: Çoğunlukla erişkinlerde görülen, multiloküler ekspansif odontojenik tümördür.\n- D) Dentigeröz kist: Tamamen gömülü dişin kuronunu çevreler; bukkal furkasyonda yerleşip kronu bukkale devirmez.\n- E) Radiküler kist: Çürük veya travmaya bağlı devital dişlerin apeksinde görülür; soruda dişler vitaldir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 295,
+    "question": "I. Hipertiroidizm\nII. Bazal cell nevus sendromu\nIII. Santral dev hücreli granüloma\n\nCherubismin ayırıcı tanısı aşağıdakilerden hangisi veya hangileri ile yapılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Cherubismin radyolojik ve histopatolojik ayırıcı tanısı II ve III numaralı tablolarla yapılır.\n- I. Yanlış: Hipertiroidizmde çenelerde multiloküler kistik lezyonlar oluşmaz. Cherubismde maksiller lezyonların орbita tabanını itmesiyle oluşan \"cennete bakan gözler\" görünümü, hipertiroidizmdeki (Graves) ekzoftalmi ile sadece isim/bakış olarak çağrışım yapsa da radyolojik ayırıcı tanıda yer almaz.\n- II. Doğru: Bazal cell nevus (Gorlin-Goltz) sendromunda çenelerde bilateral/multipl gelişen keratokistler radyografik olarak cherubismin multiloküler görünümünü taklit edebilir.\n- III. Doğru: Santral dev hücreli granüloma hem radyografik (kaba silik septalı multiloküler radyolusensi) hem de histopatolojik (dev hücreli bağ dokusu) olarak cherubism ile birebir benzerlik gösterir.\n**Çeldiriciler:**\n- A) I. öncül yanlıştır.\n- B) I. öncül yanlıştır.\n- C) I. öncül yanlıştır.\n- E) I. öncül yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 299,
+    "question": "Erken çocukluk döneminde ortaya çıkan, otozomal dominant, mandibula ve maksillada ağrısız, bilateral ekspansif ve multiloküler kistik lezyonların gözlendiği, dişlerde sürme bozukluğu ve yer değiştirmelerin izlendiği en olası hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ameloblastom",
+      "B": "Cherubism",
+      "C": "Langerhans hücreli histiyositoz",
+      "D": "Paget hastalığı",
+      "E": "Anevrizmal kemik kisti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Cherubism; SH3BP2 gen mutasyonuna bağlı otozomal dominant geçişli, 2-6 yaş arası erken çocuklukta başlayan, çenelerde (özellikle mandibula posterior/ramus ve maksilla tüberde) bilateral, simetrik, ağrısız ekspansiyon, sabun köpüğü tarzı multiloküler radyolusensi ve dişlerde anteriora deplasman/sürme bozukluğu yapan fibro-osseöz/dev hücreli bir hastalıktır.\n**Çeldiriciler:**\n- A) Ameloblastom: Kalıtsal değildir, çoğunlukla erişkinlerde (40 yaş civarı) ve unilateral olarak gelişir.\n- C) Langerhans hücreli histiyositoz: Otozomal dominant değildir; diş etinde ülserasyon, ağrı, alveoler kemik yıkımı ve \"havada yüzen diş\" görünümü yapar.\n- D) Paget hastalığı: İleri yaş (50 yaş üzeri) hastalığıdır; kemiklerde atılmış pamuk manzarası ve çene genişlemesi yapar.\n- E) Anevrizmal kemik kisti: Kalıtsal değildir, tek taraflı ve ağrılı/hassas hızlı şişlik ile seyreder.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 300,
+    "question": "Cherubism ile ilgili olarak aşağıdaki verilen bilgilerden hangisi doğru değildir?",
+    "options": {
+      "A": "İç yapısı santral dev hücreli granülomaya benzer.",
+      "B": "Etkilenen çenede unilateral tutulum izlenir.",
+      "C": "Otozomal dominant kalıtılan bir hastalıktır.",
+      "D": "Etkilenen dişler anteriora yer değiştirmiş olarak izlenir.",
+      "E": "Kortikal kemik ekspansiyonu yapar."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Cherubism karakteristik olarak etkilenen çenede bilateral ve simetrik tutulum gösterir; unilateral (tek taraflı) tutulum son derece nadirdir.\n**Çeldiriciler:**\n- A) Hem radyografik (kaba silik septalı multiloküler görünüm) hem de histopatolojik olarak santral dev hücreli granülomaya benzer.\n- C) SH3BP2 gen mutasyonu ile otozomal dominant olarak kalıtılır.\n- D) Lezyonlar mandibula ramus/molar ve maksilla tüber bölgesinden geliştiği için dişleri anteriora doğru deplase eder.\n- E) Çenelerde belirgin bukkolingual kortikal ekspansiyon yaparak yüzün alt yarısında tombul melek yüzü (cherub) görünümü oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 301,
+    "question": "I. Cherubism\nII. Caffey hastalığı\nIII. Brown tümörü\n\nYukarıdakilerden hangisi ya da hangilerinin radyolojisi santral dev hücreli granüloma ile aynıdır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "I ve II",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** I ve III numaralı patolojiler hem radyolojik hem de histopatolojik olarak santral dev hücreli granüloma ile aynı görünümü verir.\n- I. Doğru: Cherubism, kaba-silik septalı multiloküler radyolusent görünümü ve dev hücreli histopatolojisi ile santral dev hücreli granülomaya benzer (ancak bilateral/simetriktir).\n- II. Yanlış: Caffey hastalığı (infantil kortikal hiperostozis), bebeklerde mandibula ve uzun kemiklerde periosteal yeni kemik yapımı ve kortikal kalınlaşma ile seyreder; multiloküler radyolusensi vermez.\n- III. Doğru: Hiperparatiroidizmin Brown tümörü, radyolojik ve histopatolojik olarak santral dev hücreli granüloma ile birebir aynıdır; ayrım serum kalsiyum ve PTH ölçümüyle yapılır.\n**Çeldiriciler:**\n- A) III. öncül de doğrudur.\n- C) II. öncül yanlıştır.\n- D) II. öncül yanlıştır.\n- E) I. öncül de doğrudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 344,
+    "question": "Kırk iki yaşındaki erkek hastanın muayenesinde mobil olan mandibular 1. Molar dişin dişeti bölgesinde hızlı büyüyen, ağrılı, üzeri ülsere eritematöz kitle saptanmıştır. Radyografik incelemede ilgili bölgede sınırları düzensiz, miks görünümde lezyon ve güneş ışını şeklinde periost reaksiyonu izlenmiştir. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kondensing osteitis",
+      "B": "Nörofibrom",
+      "C": "Multipl Myelom",
+      "D": "Osteoid osteom",
+      "E": "Osteosarkom"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** 30-40 yaş civarı erkek hastada mandibula posterior bölgede hızlı büyüyen, ağrılı şişlik, dişlerde mobilite, radyografide sınırları belirsiz (düzensiz) mikst (radyolusent-radyoopak) kemik lezyonu ve spiküler \"güneş ışını\" (sunburst) tarzında periost reaksiyonu osteosarkom için karakteristiktir.\n**Çeldiriciler:**\n- A) Kondensing osteitis: İyi sınırlı, sadece radyoopak olan, şişlik veya periost reaksiyonu yapmayan inflamatuar sklerozdur.\n- B) Nörofibrom: İyi sınırlı radyolusent görünüm veren (genellikle mandibular kanalı genişleten) benign sinir kılıfı tümörüdür.\n- C) Multipl Myelom: Tamamen radyolusent (zımba deliği) lezyonlar yapar; mikst görünüm ve güneş ışını periost reaksiyonu oluşturmaz.\n- D) Osteoid osteom: 2 cm'den küçük, çevresi sklerotik radyoopak niduslu benign tümördür; ülsere kitle ve güneş ışını reaksiyonu yapmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 345,
+    "question": "Aşağıdakilerden hangisi osteosarkoma için yanlış bir bilgidir?",
+    "options": {
+      "A": "Malign stroma tarafından üretilmiş osteoid içerirler.",
+      "B": "Kortikal tabakalarda yıkım izlenebilir.",
+      "C": "Teşhisten 6 ay önce başlayan ve hızlı ilerleyen şişlik mevcuttur.",
+      "D": "Mikst, radyoopak, radyolusent görüntüye sebep olabilir.",
+      "E": "Sıklıkla maksilla posteriorunda izlenir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Çene osteosarkomları mandibulada (özellikle posterior korpus ve ramus bölgesinde) maksillaya göre daha sık izlenir.\n**Çeldiriciler:**\n- A) Histopatolojik olarak malign mezenşimal hücrelerin doğrudan tümöral osteoid/kemik üretmesi osteosarkomun tanı kriteridir.\n- B) Agresif büyüme nedeniyle kortikal kemikte yıkım (destrüksiyon) ve yumuşak doku invazyonu görülür.\n- C) Klinik olarak en sık bulgu, teşhisten birkaç ay (ortalama 3-6 ay) önce fark edilen ve hızla büyüyen şişliktir.\n- D) Üretilen tümöral osteoidin kalsifikasyon miktarına göre tamamen radyolusent, mikst veya yoğun radyoopak görüntü verebilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 346,
+    "question": "Aşağıdaki sebeplerden hangisinin osteosarkoma için öncül olması olası değildir?",
+    "options": {
+      "A": "Paget hastalığı",
+      "B": "Virüs enfeksiyonları",
+      "C": "Terapotik radyasyon tedavisi",
+      "D": "Fibröz displazi",
+      "E": "Cherubism"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Cherubism, puberte sonrasında kendiliğinden regrese olan (gerileyen) benign genetik bir çene hastalığıdır; radyoterapi uygulanmadığı sürece kendiliğinden osteosarkom için prekanseröz/öncül bir lezyon olarak kabul edilmez.\n**Çeldiriciler:**\n- A) Paget hastalığı: İleri yaşlarda Paget hastalığı zemininde sekonder osteosarkom gelişme riski belirgin şekilde artmıştır.\n- B) Virüs enfeksiyonları: Bazı onkojenik virüsler ve genetik mutasyonlar (RB1, TP53) etiyolojide rol oynayan faktörler arasındadır.\n- C) Terapötik radyasyon tedavisi: Baş-boyun bölgesine uygulanan radyoterapi sonrasında ışınlanan kemikte radyasyon ilişkili osteosarkom gelişebilir.\n- D) Fibröz displazi: Özellikle daha önce radyoterapi almış fibröz displazi olgularında malign transformasyonla osteosarkom gelişebilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 347,
+    "question": "Radyografik olarak sınırları belirgin, yuvarlak radyolüsent olan; ancak periferal kemik reaksiyonu göstermeyen lezyonları aşağıdakilerden hangisiyle tanımlanır?",
+    "options": {
+      "A": "Sabun köpüğü",
+      "B": "Güve yeniği",
+      "C": "Zımba deliği",
+      "D": "Bal peteği",
+      "E": "Soğan kabuğu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Radyografide sınırları keskin ve belirgin, yuvarlak/oval şekilli radyolusent olan, ancak çevresinde kortikasyon veya sklerotik periferal kemik reaksiyonu bulunmayan osteolitik defektler \"zımba deliği\" (punched-out) lezyon olarak tanımlanır (en tipik örneği multipl miyelomdur).\n**Çeldiriciler:**\n- A) Sabun köpüğü: İnce septalarla ayrılmış geniş ve yuvarlak kompartmanlardan oluşan multiloküler radyolusensidir (ameloblastoma vb.).\n- B) Güve yeniği: Sınırları düzensiz, kortikasyon göstermeyen, birbirini izleyen küçük litik kemik yıkım alanlarıdır (maligniteler ve osteomiyelit).\n- D) Bal peteği: Küçük ve köşeli çok sayıda kompartmandan oluşan multiloküler radyolusent görünümdür.\n- E) Soğan kabuğu: Kortikal kemiğin dış yüzeyinde paralel katmanlar halinde oluşan laminer periost reaksiyonudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 348,
+    "question": "Aşağıdaki ifadelerden hangisi multiple myelom lezyonlarının radyografik görüntüsünü tanımlar?",
+    "options": {
+      "A": "Bal peteği",
+      "B": "Sabun köpüğü",
+      "C": "Zımba deliği",
+      "D": "Güve yeniği",
+      "E": "Soğan kabuğu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Multipl miyelomda kafa ve çene kemiklerinde izlenen, etrafında osteoblastik/kortikal sınır reaksiyonu olmayan iyi sınırlı yuvarlak osteolitik lezyonların spesifik radyografik tanımlaması \"zımba deliği\" (punched-out) görünümüdür.\n**Çeldiriciler:**\n- A) Bal peteği: Ameloblastoma ve santral hemanjiyom gibi multiloküler lezyonlarda görülür.\n- B) Sabun köpüğü: Ameloblastoma, keratokist ve miksoma gibi multiloküler lezyonlarda görülür.\n- D) Güve yeniği: Skuamöz hücreli karsinom ve osteomiyelit gibi infiltratif yıkımlarda görülür.\n- E) Soğan kabuğu: Garre osteomiyeliti ve Ewing sarkomundaki laminer periost reaksiyonunu tanımlar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 349,
+    "question": "Aşağıdaki ifadelerden hangisi radyolojik olarak bir patolojinin perifer sınırları çevresinde radyolusent bant oluşumunu tanımlar?",
+    "options": {
+      "A": "Bal peteği",
+      "B": "Güve yeniği",
+      "C": "Yumuşak doku kapsülü",
+      "D": "Codman üçgeni",
+      "E": "Zımba deliği"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Radyoopak veya mikst içerikli benign kemik lezyonlarının (odontoma, ossifying fibroma, sementoblastoma, semento-osseöz displaziler vb.) periferinde sağlam kemik ile lezyon arasında izlenen ince radyolusent bant (halo), lezyonu çevreleyen fibröz \"yumuşak doku kapsülü\"nü temsil eder.\n**Çeldiriciler:**\n- A) Bal peteği: Küçük bölmeli multiloküler iç yapıyı tanımlar.\n- B) Güve yeniği: Düzensiz, infiltratif litik kemik yıkımını tanımlar.\n- D) Codman üçgeni: Periostun tümör tarafından kaldırılmasıyla kenarda oluşan üçgen şekilli periosteal yeni kemik yapımını tanımlar.\n- E) Zımba deliği: Kortikasyonsuz yuvarlak osteolitik defektleri tanımlar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 350,
+    "question": "Aşağıdaki hastalıklardan hangisinin radyografik görüntüsünde tipik olarak sabun köpüğü benzeri bulgu görülmesi en az olasıdır?",
+    "options": {
+      "A": "Ameloblastoma",
+      "B": "Dev hücreli tümör",
+      "C": "Anevrizmal kemik kisti",
+      "D": "Santral hemanjiyom",
+      "E": "Burkitt lenfoma"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Burkitt lenfoma yüksek dereceli, çok hızlı büyüyen malign bir B hücreli lenfoma olup kemikte septa oluşturmaya vakit bırakmadan multipl, kötü sınırlı, kortike olmayan osteolitik yıkım alanları oluşturur; sabun köpüğü şeklinde multiloküler görünüm vermez.\n**Çeldiriciler:**\n- A) Ameloblastoma: Sabun köpüğü (geniş bölmeli) ve bal peteği (küçük bölmeli) multiloküler görünümün en klasik nedenidir.\n- B) Dev hücreli tümör (santral dev hücreli granülom): İçerdiği septalarla multiloküler sabun köpüğü görünümü sergileyebilir.\n- C) Anevrizmal kemik kisti: Ekspansif ve septalı yapısıyla sabun köpüğü benzeri multiloküler radyolusensi verir.\n- D) Santral hemanjiyom: Kemik içi vasküler kanalların genişlemesiyle sabun köpüğü veya bal peteği tarzında multiloküler radyolusensi oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 351,
+    "question": "Aşağıda verilen lezyonlar ve karşılarında verilen radyografik görüntü eşleştirmelerinden hangisi doğru değildir?",
+    "options": {
+      "A": "Multiple Myeloma - Zımba deliği",
+      "B": "Florid Semento-osseöz Displazi - Atılmış pamuk",
+      "C": "Pindborg tümörü - Yığılmış kar",
+      "D": "Osteosarkoma - Güneş ışını",
+      "E": "Burkitt lenfoma - Bal peteği"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Burkitt lenfoma kemikte kortikasyonsuz, sınırları belirsiz ve hızlı osteolitik yıkım yapar; bal peteği görünümü Burkitt lenfomada değil, ameloblastoma, santral hemanjiyom ve odontojenik miksoma gibi yavaş/lokal büyüyen septalı lezyonlarda izlenir.\n**Çeldiriciler:**\n- A) Multiple Myelomada sklerotik sınırı olmayan yuvarlak \"zımba deliği\" lezyonları izlenir.\n- B) Florid semento-osseöz displazide (ve Paget hastalığında) düzensiz radyoopak kitleler \"atılmış pamuk\" görünümü verir.\n- C) Pindborg tümöründe (kalsifiye epitelyal odontojenik tümör) gömülü diş kronu etrafındaki radyoopasiteler \"yığılmış/savrulmuş kar\" (driven snow) görünümü oluşturur.\n- D) Osteosarkomada korteksten dik/ışınsal uzanan spiküller \"güneş ışını\" periost reaksiyonunu oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 352,
+    "question": "Aşağıdakilerden hangisi güneş ışığı (sunray) görüntüsü vermez?",
+    "options": {
+      "A": "Santral hemanjioma",
+      "B": "Osteosarkom",
+      "C": "Ewing sarkom",
+      "D": "Kondrosarkom",
+      "E": "Cherubism"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Cherubism kemik içinde gelişen, korteksi incelterek ekspansiyon yapan fakat periosteal spiküler reaksiyon oluşturmayan multiloküler (sabun köpüğü görünümlü) benign bir patolojidir; güneş ışığı (sunray) görüntüsü vermez.\n**Çeldiriciler:**\n- A) Santral hemanjioma: Korteksi perfore edip periostu uyardığında ışınsal trabeküllerle güneş ışığı (sunray/sunburst) görüntüsü verebilen nadir benign lezyondur.\n- B) Osteosarkom: Güneş ışığı (sunray) periost reaksiyonunun en klasik nedenidir.\n- C) Ewing sarkom: Soğan kabuğu reaksiyonunun yanı sıra agresif spiküler güneş ışığı periost reaksiyonu da oluşturabilir.\n- D) Kondrosarkom: Malign kıkırdak tümörü olup agresif büyüme ile güneş ışığı tarzı periost reaksiyonu verebilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 353,
+    "question": "Aşağıdaki lezyonların hangisinde mandibular kanalda superior yönde yer değişikliği görülür?",
+    "options": {
+      "A": "Paget hastalığı",
+      "B": "Florid osseoz displazi",
+      "C": "Radiküler kist",
+      "D": "Odontojenik keratokist",
+      "E": "Fibröz displazi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Odontojenik kist ve tümörler diş kökleri/alveoler kret seviyesinde (mandibular kanalın üstünde) geliştiği için kanalı inferiora iter. Fibröz displazi ise mandibula bazisinden/alt korteksinden de gelişerek yukarı doğru büyüyebildiği için birçok lezyonun aksine mandibular kanalı superior yönde deplase edebilir.\n**Çeldiriciler:**\n- A) Paget hastalığı: Maksillayı mandibuladan çok daha sık tutar; mandibular kanalı superiora itmesi karakteristik değildir.\n- B) Florid osseoz displazi: Daima mandibular kanalın üstünde (alveoler proseste) gelişir ve kanalı inferiora iter.\n- C) Radiküler kist: Diş apeksinde (kanalın üzerinde) geliştiği için büyüdüğünde mandibular kanalı inferiora iter.\n- D) Odontojenik keratokist: Dental lamina artıklarından (kanalın üstünden) gelişir ve mandibular kanalı inferiora deplase eder.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 354,
+    "question": "Aşağıdaki patolojilerden hangisi mandibular kanal seyrini inferior yönde değiştirmez?",
+    "options": {
+      "A": "Odontojenik keratokist",
+      "B": "Florid osseoz displazi",
+      "C": "Radiküler kist",
+      "D": "Paget hastalığı",
+      "E": "Fibröz displazi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Fibröz displazi çene kemiğinin bazal kısmından kaynaklanıp kraniyal yönde ekspansiyon gösterdiğinde mandibular kanalı inferior yönde değil, karakteristik olarak superior yönde iter.\n**Çeldiriciler:**\n- A) Odontojenik keratokist: Alveoler kemik içinde gelişerek mandibular kanalı inferiora doğru iter.\n- B) Florid osseoz displazi: Mandibular kanalın üstünde gelişir ve genişlediğinde kanalı inferiora deplase eder.\n- C) Radiküler kist: Diş kök uçlarında gelişerek büyüdüğünde mandibular kanalı inferiora doğru iter.\n- D) Paget hastalığı: Alveoler kemikteki yoğun pamuksu birikimlerle kanalı superiora itmez, inferiora doğru baskılayabilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 355,
+    "question": "Aşağıdaki radyografik görüntülerden hangisinin fibröz displazide oluşma ihtimali diğerlerine oranla daha düşüktür?",
+    "options": {
+      "A": "Buzlu cam",
+      "B": "Parmak izi",
+      "C": "Atılmış pamuk",
+      "D": "Portakal kabuğu",
+      "E": "Güve yeniği"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Güve yeniği (moth-eaten) görünümü, hızlı ve infiltratif kemik yıkımı yapan malign tümörler (skuamöz hücreli karsinom vb.) ile akut/kronik osteomiyelitte izlenir. Benign bir fibro-osseöz lezyon olan fibröz displazide güve yeniği yıkımı görülmez.\n**Çeldiriciler:**\n- A) Buzlu cam (ground glass): Fibröz displazide ince, düzensiz ve çok sayıdaki immatür trabeküllerin oluşturduğu en tipik radyografik görünümdür.\n- B) Parmak izi (fingerprint): Anormal trabeküllerin kıvrımlı dizilimiyle fibröz displazide izlenen karakteristik görünümlerdendir.\n- C) Atılmış pamuk (cotton wool): Olgunlaşmış fibröz displazi lezyonlarında düzensiz radyoopak odaklar şeklinde görülebilir.\n- D) Portakal kabuğu (peau d'orange): Özellikle intraoral filmlerde granüler trabeküler paternin oluşturduğu tipik fibröz displazi görünümüdür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 19 - Diğer Kemik Hastalıkları",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,903 @@
+[
+  {
+    "question": "Temporomandibuler eklem anatomik yapıları eşleştirmesinde aşağıdakilerden hangisi doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "1: Retrodiskal doku",
+      "B": "2: İnferior eklem kavitesi",
+      "C": "3: Superior retrodiskal lamina",
+      "D": "4: Artiküler disk",
+      "E": "5: Superior lateral pterygoid kas"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) 1:** Görselde belirtilen 1 numaralı yapı eklem kapsülünün anterior lifleridir.\n- **B) 2:** 2 numaralı yapı superior (üst) eklem boşluğudur.\n- **C) 3:** 3 numaralı yapı inferior retrodiskal laminadır.\n- **D) 4:** 4 numaralı yapı retrodiskal dokudur (vasküler/nöral bölge).\n- **E) 5 (Doğru):** 5 numaralı anatomik yapı artiküler diskin anterioruna doğrudan tutunan Superior Lateral Pterygoid kastır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu / Anatomik Görsel Sorusu",
+    "q_num": 111,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kollateral ligament\nII. Stylomandibular ligament\nIII. Sphenomandibular ligament\nIV. Kapsüler ligament\nV. Temporomandibular ligament\n\nYukarıdakilerden hangileri temporomandibular eklemin ana ligamentlerindendir?\n\n**Şıklar:",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "II, III ve IV",
+      "D": "I, IV ve V",
+      "E": "II, III ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **Öncül I (Doğru):** Kollateral (diskal) ligamentler TME'nin 3 ana (fonksiyonel) ligamentinden biridir. Diski kondil başının medial ve lateral kutuplarına bağlar.\n- **Öncül II (Yanlış):** Stylomandibular ligament aksesuar (yardımcı) ligamenttir.\n- **Öncül III (Yanlış):** Sphenomandibular ligament aksesuar (yardımcı) ligamenttir.\n- **Öncül IV (Doğru):** Kapsüler ligament TME'nin ana ligamentlerindendir; eklem boşluğunu sınırlar ve sinoviyal sıvıyı tutar.\n- **Öncül V (Doğru):** Temporomandibular (lateral) ligament eklemin ana ligamentlerindendir; kondilin aşırı aşağı ve geriye hareketini kısıtlar.\n- **Şık A, B, C, E:** Aksesuar ligamentleri (II ve III) içerdiği için yanlıştır.\n- **Şık D (Doğru):** I, IV ve V ana ligamentlerdir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS Sonbahar 2014",
+    "q_num": 112,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi temporomandibuler eklemin ana ligamentlerinden biri değildir?\n\n**Şıklar:",
+    "options": {
+      "A": "Kollateral ligament",
+      "B": "Stylomandibular ligament",
+      "C": "Diskal ligament",
+      "D": "Kapsüler ligament",
+      "E": "Temporomandibular ligament"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Kollateral ligament:** Ana (fonksiyonel) ligamenttir.\n- **B) Stylomandibular ligament (Doğru - Aksesuar):** Processus styloideus ile angulus mandibula arasında uzanan aksesuar (yardımcı) bir ligamenttir; eklem kapsülüyle doğrudan teması yoktur.\n- **C) Diskal ligament:** Kollateral ligamentin diğer adıdır ve ana ligamenttir.\n- **D) Kapsüler ligament:** Ana ligamenttir.\n- **E) Temporomandibular ligament:** Ana (primer) fonksiyone ligamenttir.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 113,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kollateral ligament\nII. Stylomandibular ligament\nIII. Sphenomandibular ligament\nIV. Kapsüler ligament\nV. Temporomandibular ligament\n\nTemporomandibuler ekleme ait yukarıdaki ligamentlerden hangileri eklem hareketlerinin limitasyonunda doğrudan rol alan ana ligamentlerdendir?\n\n**Şıklar:",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "II, III ve IV",
+      "D": "I, IV ve V",
+      "E": "II, III ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- Eklem hareketlerini doğrudan kısıtlayan ve pasif rehberlik sağlayan yapılar ana (fonksiyonel) ligamentlerdir (Kollateral, Kapsüler ve Temporomandibular - I, IV, V).\n- Stylomandibular (II) ve Sphenomandibular (III) ligamentler aksesuardır; sınır hareketlerde ikincil derece kısıtlama yaparlar. Dolayısıyla doğru yanıt D seçeneğidir (I, IV, V).",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 114,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Mandibulayı protrüze eder.\nII. Mandibulanın kapanmasına yardımcı olur.\nIII. Mandibulanın lateral hareketine yardımcı olur.\n\nYukarıdakilerden hangileri inferior lateral pterygoid kasın fonksiyonlarındandır?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **Öncül I (Doğru):** Sağ ve sol İnferior Lateral Pterygoid kaslar çift taraflı (bilateral) kasıldığında kondiller artiküler eminensten aşağı çekilir ve mandibula protrüzyon hareketi yapar.\n- **Öncül II (Yanlış):** İnferior lateral pterygoid kas ağız açma (depresyon) hareketinde görev yapan TEK çiğneme kasıdır. Kapanmaya (elevasyona) yardımcı olmaz, tam tersine açılmada aktifleşir.\n- **Öncül III (Doğru):** Tek taraflı (ünilateral) kasıldığında çeneyi karşı tarafa doğru (mediotruziv / lateral) hareket ettirir.\n- **Sonuç:** I ve III doğrular olduğu için yanıt D şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2020 Orijinal",
+    "q_num": 115,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kulak çevresi bölgede ağrı\nII. Normal kapanışın değişmesi (akut maloklüzyon)\nIII. Mandibular protrüzyon sırasında defleksiyon\n\nYukarıda verilenlerden hangisi ya da hangileri inferior lateral pterygoid kas spazmında görülen klinik bulgular arasında yer alır?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Öncül I (Doğru):** Kasın retrokondiler ve preauriküler bölgeye komşuluğu sebebiyle kulak çevresinde ağrı hissedilir.\n- **Öncül II (Doğru):** Kas Spazmı kondili anterior-inferiora sabitlediği için ipsilateral posterior açık kapanış ve akut maloklüzyon oluşur.\n- **Öncül III (Yanlış):** İnferior lateral pterygoid kas spazmında ağız açmada ipsilateral kayma olur ancak protrüzyonda her iki kondil öne itilebildiğinden veya kas tek taraflı aktifleştiğinden defleksiyon diskal kilitlenmelerdeki gibi klasik mekanik engel oluşturmaz.\n- **Sonuç:** I ve II doğru olduğu için yanıt C şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 119,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sabahları baş ağrısı ile uyanan ve alt çenesini açma ile çiğneme hareketinde zorlanma şikayetiyle kliniğe başvuran 23 yaşındaki bayan hastanın klinik muayenesinde sol tarafta posterior kapanışın olmadığı görülmüştür. Ağzını açarken eklem bölgesinde ses tespit edilmemiştir. Bu hasta için en olası tanı aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Redüksiyonlu disk deplasmanı",
+      "B": "Redüksiyonsuz disk deplasmanı",
+      "C": "Kas düzensizliği (Myospazm / Miyofasiyal Ağrı)",
+      "D": "Sublüksasyon",
+      "E": "Adezyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A ve B) Disk deplasmanları:** Klik sesi veya mekanik kilitlenme tablosuyla gelir; sabah baş ağrısı ve arka dişlerin temas etmemesi doğrudan kas kökenlidir.\n- **C) Kas Düzensizliği (Doğru):** Gece bruksizmine bağlı sabah baş ağrısı, çiğneme kaslarında spazm ve kas boyunun kısalması sonucu gelişen akut maloklüzyon (posterior açık kapanış) tipik kassa problemi gösterir.\n- **D ve E):** Eklem içi yapılara ait rahatsızlıklardır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 122,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi çiğneme kaslarının düzensizliklerinden biri olan bruksizmin tedavisinde kullanılan birincil oklüzal apareydir?\n\n**Şıklar:",
+    "options": {
+      "A": "Hawley plağı",
+      "B": "Stabilizasyon splinti",
+      "C": "Ortopedik repozisyon apareyi",
+      "D": "Arka ısırma plağı",
+      "E": "Pivoting splint"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Hawley plağı:** Ön dişlere temas eden, kas spazmında kullanılan kroşeli apareydir.\n- **B) Stabilizasyon Splinti (Doğru):** Sentrik İlişki Splinti / Kas Gevşetici Splint olarak da bilinir. Tüm dişlerin tek noktada temas ettiği, bruksizm tedavisinde kas aktivitesini azaltmak ve dişleri korumak için ilk tercih edilen birincil apareydir.\n- **C) Ortopedik repozisyon apareyi:** Redüksiyonlu disk deplasmanında kondili anteriora konumlandırmak için kullanılır.\n- **D) Arka ısırma plağı:** Dikey boyut yükseltmede kullanılır.\n- **E) Pivoting splint:** Eklem içi basıncı azaltmak için kullanılır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 123,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Otuz yaşındaki kadın hasta 5 yıldır devam eden, ağrısız, açma ve kapama hareketi sırasında meydana gelen, sağ tarafta hissettiği eklem sesi şikayetiyle başvuruyor. Hasta, seslerin ağzını her açıp kapattığında çıktığını ve açarken oluşan sesin kapatırken olandan daha belirgin olduğunu ifade ediyor. Klinik muayenede mandibula protrüzyondayken hasta çenesini açıp kapattığında sesler kayboluyor. Ağız açma sırasında çene ucu, orta hattan sağa doğru kayıp, açmanın sonunda orta hatta dönüyor. Bu hastadaki en olası temporomandibular eklem rahatsızlığı aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Retrodiskit",
+      "B": "Redüksiyonsuz disk deplasmanı",
+      "C": "Redüksiyonlu disk deplasmanı",
+      "D": "Sublüksasyon",
+      "E": "Adezyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Retrodiskit:** Retrodiskal dokunun inflamasyonudur; tıklama sesi oluşturmaz, son derece ağrılıdır.\n- **B) Redüksiyonsuz disk deplasmanı:** Disk öne kilitlenmiştir, açmada klik sesi duyulmaz ve çene açılırken etkilenen tarafa sapıp orta hatta geri dönemez (defleksiyon).\n- **C) Redüksiyonlu disk deplasmanı (Doğru):** Ağız kapalıyken disk anteriordadır. Ağız açılırken kondil diski yakaladığı anda klik sesi duyulur ve çene ucu etkilenen tarafa kayıp diski yakalayınca orta hatta geri döner (ipsilateral deviasyon). Kapanırken diski tekrar öne bıraktığı anda ikinci klik sesi oluşur (Resiprokal klik). Protrüzyonda kondil zaten disk üzerinde durduğu için açıp kapamada ses kaybolur.\n- **D) Sublüksasyon:** Kondilin eminenstten öne atlamasıdır; atlama sesi oluşur ama resiprokal klik yapmaz.\n- **E) Adezyon:** Yapışıklıktır; ağız açıklığı kısıtlıdır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2019 Orijinal",
+    "q_num": 124,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Açma-kapama sırasında duyulan klik sesi (resiprokal klik)\nII. Açma hareketi sırasında mandibular deviasyon\nIII. Mandibula protrüze iken sesin kaybolması\n\nYukarıda verilenlerden hangisi ya da hangileri redüksiyonlu disk deplasmanının klinik bulguları arasında yer alır?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **Öncül I (Doğru):** Kondilin açmada diski yakalaması ve kapamada bırakması esnasında duyulan resiprokal klik redüksiyonlu deplasmanın patognomonik sesidir.\n- **Öncül II (Doğru):** Diski yakalayana kadar çene etkilenen tarafa kayar, yakaladıktan sonra orta hatta döner (deviasyon).\n- **Öncül III (Doğru):** Mandibula öne (protrüzyona) getirildiğinde kondil zaten diskin altına girdiği için açma-kapamada klik sesi kaybolur.\n- **Sonuç:** Bütün öncüller (I, II, III) doğru olduğu için yanıt E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 125,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibuler açma paterninin şematize edildiği hastada hem açma hem kapama sırasında klik sesi duyulmaktadır. Buna göre, ilgili hastada var olan temporomandibular eklem problemi aşağıdakilerden hangisinde doğru olarak verilmektedir?\n\n**Şıklar:",
+    "options": {
+      "A": "Sinovit",
+      "B": "Redüksiyonsuz disk deplasmanı",
+      "C": "Redüksiyonlu disk deplasmanı",
+      "D": "Sublüksasyon",
+      "E": "Adezyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Sinovit:** Eklem kapsül içi dokuların inflamasyonudur; klik sesi ve deviasyon seyrinden ziyade ağrı ve efüzyon yapar.\n- **B) Redüksiyonsuz disk deplasmanı:** Disk yerinden kaymıştır ve kondil diski yakalayamaz (redükte olamaz). Klik sesi duyulmaz, çene etkilenen tarafa kayıp açmada kilitli kalır.\n- **C) Redüksiyonlu disk deplasmanı (Doğru):** Açma hareketinin başlangıcında öne kilitli duran disk, kondil translasyon yaparken yakalanır ve klik sesi oluşur. Kapanırken disk tekrar önden kurtulup öne kayar ve ikinci klik oluşur (resiprokal klik). Şemadaki deviasyon seyrinde de diskin redükte olduğu açıkça görülmektedir.\n- **D) Sublüksasyon:** Kondil articular eminence üzerine aşırı sıçrar.\n- **E) Adezyon:** Disk eklem kemik yüzeyine yapışmıştır, translasyon sınırlıdır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu / Görsel Sorusu",
+    "q_num": 126,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Resiprokal klik\nII. Palpasyonda hassasiyet\nIII. Çiğneme kaslarında hassasiyet\nIV. Deviasyon\n\nYukarıda belirtilen semptomlara sahip bir hasta için öncelikli olarak düşünülen TME rahatsızlığı aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Myospasm",
+      "B": "Koruyucu ko-kontraksiyon",
+      "C": "Redüksiyonlu disk deplasmanı",
+      "D": "Redüksiyonsuz disk deplasmanı",
+      "E": "Fibromiyalji"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **I (Resiprokal klik) ve IV (Deviasyon):** Doğrudan yerinden kayan ancak açılma sırasında kondil tarafından yakalanabilen (redükte olan) artiküler diskin hareket dinamiklerini ifade eder.\n- Palpasyon ve kas hassasiyetleri sekonder kassa reaksiyonları gösterir.\n- Bu nedenle tablo net biçimde C şıkkı Redüksiyonlu Disk Deplasmanını işaret eder.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 128,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Redüksiyonsuz disk dislokasyonu\nII. Dejeneratif eklem rahatsızlıkları\nIII. Sublüksasyon\nIV. Ankiloz\nV. Adhezyon\n\nYukarıda verilen temporomandibuler rahatsızlıklardan hangileri \"Disk İnterferens Rahatsızlıkları\" grubuna girer?\n\n**Şıklar:",
+    "options": {
+      "A": "I ve II",
+      "B": "I, II ve IV",
+      "C": "I, III ve V",
+      "D": "III, IV ve V",
+      "E": "I, III, IV ve V"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **Disk İnterferens Rahatsızlıkları:** Kondil-disk kompleksinin anatomik ilişkisindeki bozuklukları (Redüksiyonlu/Redüksiyonsuz Disk Deplasmanları), artiküler yüzeylerin yapısal uyumsuzluklarını (Adhezyonlar), Sublüksasyon ve Spontan dislokasyonları kapsar (I, III, V).\n- **Dejeneratif eklem rahatsızlıkları (II):** İltihabi / Osseöz rahatsızlıklar grubundadır.\n- **Ankiloz (IV):** Kronik mandibular hipomobilite grubundadır.\n- Bu yüzden yanıt C seçeneğidir (I, III ve V).",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 129,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi lokal miyofasiyal ağrı teşhisinde klinik olarak tespit edilebilen minör tanı kriterleri arasında yer almaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Tetik noktaya basınç uygulanması halinde ağrı hissedilmesi",
+      "B": "Pasif hareket açıklığında kısıtlılık",
+      "C": "Tetik nokta palpasyonunda kas liflerinde seyirme saptanması",
+      "D": "Kasın gerdirilmesi ile ağrıda azalma",
+      "E": "Tetik noktaya enjeksiyon ile ağrının azalması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Tetik noktaya basınç uygulanmasıyla ağrı hissedilmesi (Doğru Cevap):** Miyofasiyal ağrı tanısında majör kriterler arasındadır (Lokalize spontan ağrı, tetik nokta alanında hassasiyet, palpabl gergin bant bulunması vb.). Minör kriter değildir.\n- **B, C, D, E:** Bunlar miyofasiyal ağrı tanısında kullanılan minör kriterlerdir (palpasyonla yerel seyirme yanıtı, enjeksiyon veya gerdirme ile ağrının geçmesi vb.).",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 132,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki temporomandibular eklem rahatsızlıklarında izlenen tanı - klinik bulgu eşleştirmelerinden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Redüksiyonsuz disk deplasmanı - Alt çenede ilgili eklem tarafına doğru defleksiyon",
+      "B": "Redüksiyonsuz disk deplasmanı - İlgili eklemde palpasyonda tıklama sesi",
+      "C": "Redüksiyonlu disk deplasmanı - Alt çenede ağzın açılması sırasında deviasyon",
+      "D": "Adezyon - Maksimum ağız açma miktarında azalma",
+      "E": "Osteoartrit - İlgili eklemde krepitasyon sesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Redüksiyonsuz disk deplasmanı:** Disk öne kilitlendiği için ağız açılırken çene ucu kilitli tarafa kayar ve geri dönemez (ipsilateral defleksiyon - Doğru).\n- **B) Redüksiyonsuz disk deplasmanı - Tıklama sesi (Yanlış - Doğru Cevap):** Redüksiyonsuz disk deplasmanında disk redükte olamadığı (yakalanamadığı) için klinik olarak tıklama/klik sesi DUYULMAZ. Sesin kaybolması kırmızı bayraktır.\n- **C) Redüksiyonlu disk deplasmanı:** Ağız açılırken çene kayar, disk yakalanınca orta hatta döner (deviasyon - Doğru).\n- **D) Adezyon:** Eklem içi yapışıklık ağız açıklığını kısıtlar (Doğru).\n- **E) Osteoartrit:** Kemik yüzeyler sürttüğü için krepitasyon sesi duyulur (Doğru).",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "q_num": 133,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Etkilenen tarafa doğru mandibular defleksiyon\nII. Karşı tarafa doğru mandibular defleksiyon\nIII. Mandibular açılma değerinin 25 mm olması\n\nYukarıda verilenlerden hangisi ya da hangileri redüksiyonsuz disk deplasmanı olan bir hastada görülen klinik bulgular arasında yer alır?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **Öncül I (Doğru):** Hastada disk öne kilitli olduğu için açılma esnasında alt çene kilitli olan etkilenen eklem tarafına sapar (ipsilateral defleksiyon).\n- **Öncül II (Yanlış):** Karşı tarafa defleksiyon olmaz.\n- **Öncül III (Doğru):** Diskin engel oluşturması sebebiyle ağız açıklığı kısıtlanır ve maksimum açılma miktarı genellikle 25-30 mm seviyesinde kalır.\n- **Sonuç:** I ve III doğrular olduğu için yanıt D şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 134,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yirmi beş yaşındaki erkek hasta 2 senedir ağzını açarken ve kapatırken sağ çene ekleminden sesler geldiği şikayeti ile kliniğe başvuruyor. Alınan anamnezde, kliniğe başvurmadan 1 hafta önce esnerken seslerin birden kaybolduğu ve o günden sonra ağzını açmakta zorlandığı öğreniliyor. Klinik muayenede ağız açıklığı 20 mm, sağ lateral hareket 8 mm, sol lateral hareket 4 mm ölçülüyor ve hastanın ağzını açarken alt çenesinin sağa doğru deflekte olduğu gözleniyor. Hasta ağzını maksimum açtıktan sonra hekim tarafından desteklenerek ağız açılmaya çalışıldığında sert bir sonlanma hissi saptanıyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Redüksiyonlu disk deplasmanı",
+      "B": "Sublüksasyon",
+      "C": "Retrodiskit",
+      "D": "Ağız açmada kısıtlılığa neden olan miyofasiyal ağrı",
+      "E": "Redüksiyonsuz disk deplasmanı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Hastanın önceden var olan eklem seslerinin (klik) esneme sonrası birden kaybolması, ağız açıklığının 20 mm'ye düşmesi (kilitlenme), çenenin sağa (etkilenen tarafa) deflekte olması, karşı tarafa (sola) lateral hareketin kısıtlanması (4 mm) ve hekimin zorlamasında \"sert sonlanma (hard end-feel)\" alınması akut Redüksiyonsuz Disk Deplasmanının klasik klinik tablosudur. Doğru cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2021 Orijinal",
+    "q_num": 136,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Ağız açıklığında kısıtlılık\nII. Karşı tarafa lateral harekette kısıtlılık\nIII. Karşı tarafa doğru defleksiyon\nIV. Ağız açılmaya zorlandığında sert sonlanma hissi\n\nYukarıdakilerden hangilerinin, tek taraflı redüksiyonsuz disk deplasmanı olduğu tespit edilen bir hastada görülmesi olasıdır?\n\n**Şıklar:",
+    "options": {
+      "A": "I, II ve IV",
+      "B": "I ve IV",
+      "C": "II ve IV",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **Öncül I (Doğru):** Diskin öne kilitlenmesiyle translatorik hareket engellenir, ağız açıklığı kısıtlanır.\n- **Öncül II (Doğru):** Etkilenen kondil öne kayamadığı için çene karşı tarafa lateral hareket yaptıramaz.\n- **Öncül III (Yanlış):** Çene karşı tarafa değil, ETKİLENEN tarafa doğru deflekte olur.\n- **Öncül IV (Doğru):** Mekanik disk engeli sebebiyle manipülasyonda esnek değil sert sonlanma hissi alınır.\n- **Sonuç:** I, II ve IV doğru olduğu için yanıt A şıkkıdır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 137,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibulayı interkuspal pozisyondan daha anteriora yöneltir ve redüksiyonlu disk deplasmanlarının tedavisinde kullanılır. Yukarıda özellikleri verilen interoklüzal splint aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Stabilizasyon splinti",
+      "B": "AP splinti (Anterior Pozisyonlandırıcı Splint)",
+      "C": "Hawley plağı",
+      "D": "Arka ısırma plağı",
+      "E": "NTI splinti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Stabilizasyon splinti:** Çeneyi sentrik ilişkide konumlкой tutar.\n- **B) AP Splinti / Anterior Pozisyonlandırıcı Splint (Doğru):** Mandibulayı öne konumlandırarak kondilin diski yakaladığı pozisyonda iyileşmesini sağlar. Redüksiyonlu disk deplasmanında spesifik olarak kullanılır.\n- **C) Hawley plağı:** Ön dişlere temas eder.\n- **D) Arka ısırma plağı:** Dikey boyut düzenlemede kullanılır.\n- **E) NTI splinti:** Sadece ön dişlere temas eden gece plağıdır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 138,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi temporomandibular rahatsızlıkların tedavisinde kullanılan oklüzal splintler/apareylerin etki mekanizmalarından değildir?\n\n**Şıklar:",
+    "options": {
+      "A": "Oklüzal dikey boyutun artırılması",
+      "B": "Kondil pozisyonunun değiştirilmesi",
+      "C": "Yeni bir oklüzal ilişkinin gerçekleştirilmesi",
+      "D": "Plasebo etkisi göstermesi",
+      "E": "Retrodiskal dokulara basıncın artırılması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A, B, C, D:** Oklüzal splintler dikey boyutu artırır, kondili fizyolojik pozisyona getirir, engelleyici temasları kaldırıp yeni oklüzal ilişki sunar ve plasebo etkisi sağlar.\n- **E) Retrodiskal dokulara basıncın artırılması (Yanlış - Doğru Cevap):** Splintlerin en temel tedavi edici amacı retrodiskal dokular ve eklem yüzeyleri üzerindeki aşırı yükü ve basıncı AZALTMAKTIR. Basıncın artırılması doku hasarına ve şiddetli ağrıya yol açar.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 142,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Zihinsel farkındalık\nII. Oklüzal ilişkinin değişmesi\nIII. Dikey boyutta azalma\n\nYukarıda verilenlerden hangisi orta seviyeli bruksizm saptanan hastaya uygulanan oklüzal splintin şikayetlerde etki gösterme mekanizmalarından biridir?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **Öncül I (Doğru):** Hasta apareyi taktığında sıkma ve gıcırdatma davranışının zihinsel olarak farkına varır (biyofeedback).\n- **Öncül II (Doğru):** Mevcut olumsuz oklüzal temaslar elimine edilir.\n- **Öncül III (Yanlış):** Aparey dikey boyutu AZALTMAZ, plak kalınlığı kadar dikey boyutu ARTIRIR.\n- **Sonuç:** I ve II doğru olduğu için yanıt B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 143,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi sert akrilik materyalden üretilen oklüzal splintlerin klinik kullanım amaçlarından biri değildir?\n\n**Şıklar:",
+    "options": {
+      "A": "Çiğneme kaslarının basma kuvvetini arttırmak",
+      "B": "Dişleri aşınmaya karşı korumak",
+      "C": "Eklemdeki aşırı yüklenmeyi hafifletmek",
+      "D": "Kondilleri fizyolojik pozisyona getirmek",
+      "E": "Hastaların yeni dikey boyuta cevabını kontrol etmek"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Çiğneme kaslarının basma kuvvetini arttırmak (Yanlış - Doğru Cevap):** Oklüzal splintlerin amacı kas kuvvetini veya hipertonisiteyi artırmak değil, aksine aşırı kas aktivitesini (asimetrik hiperaktiviteyi) azaltmak ve kasları gevşetmektir.\n- **B, C, D, E:** Oklüzal splintlerin doğrudan hedeflenen tedavi amaçlarıdır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 144,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki oklüzal aparey çeşitlerinden hangisi temporomandibular eklemde redüksiyonlu disk deplasmanı teşhisi olan bir hastada spesifik olarak endikedir?\n\n**Şıklar:",
+    "options": {
+      "A": "Pivot apareyi",
+      "B": "Anterior pozisyonlandırıcı aparey",
+      "C": "Posterior ısırma apareyi",
+      "D": "Rezilient oklüzal aparey",
+      "E": "Kas gevşetici aparey"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Pivot apareyi:** Eklem içi basıncı ve vertikal yükü azaltmak için tek noktalı temas sağlar.\n- **B) Anterior Pozisyonlandırıcı Aparey (Doğru):** Redüksiyonlu disk deplasmanında mandibulayı daha anterior bir konuma getirerek kondil ile diskin doğru anatomik ilişkide kalmasını sağlar ve spesifik indikasyonudur.\n- **C) Posterior ısırma apareyi:** Dikey boyut yükseltmede kullanılır.\n- **D) Rezilient aparey:** Yumuşak apareydir.\n- **E) Kas gevşetici aparey:** Stabilizasyon splintidir, kas tonusunu düşürür.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "q_num": 145,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Otuz iki yaşındaki kadın hasta kliniğe sağ kulak bölgesinde hissettiği hafif ağrı ve ağzını açma-kapama esnasında duyduğu tok bir eklem sesi şikayetiyle başvuruyor. Yapılan fizik muayenede kulakta bir olumsuzluğa rastlanmıyor. Klinik muayenede ağız açma kısıtlılığı bulunmayan, hastanın çene ucu ağız açma sırasında sağ tarafa kayıyor ve tekrar orta hatta geri dönüyor. Radyolojik incelemede eklem yüzeylerinde dejeneratif değişiklik tespit edilmiyor. Buna göre bu hastanın en olası klinik tanısı göz önünde bulundurulduğunda aşağıda verilen interoklüzal splintlerden hangisi bu hastanın tedavisinde spesifik olarak endikedir?\n\n**Şıklar:",
+    "options": {
+      "A": "Anterior ısırma plağı",
+      "B": "Posterior ısırma plağı",
+      "C": "Pivot splint",
+      "D": "NTI splint",
+      "E": "Anterior repozisyon splinti"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **Klinik Tanı:** Ağız açıklığı kısıtlılığı olmadan tek bir eklem sesi (popping) duyulması ve çene ucunun açılırken etkilenen tarafa kayıp orta hatta dönmesi (deviasyon) Redüksiyonlu Disk Deplasmanını gösterir.\n- **A) Anterior ısırma plağı:** Miyospazm tedavisinde kullanılır.\n- **B) Posterior ısırma plağı:** Dikey boyut yükseltmede kullanılır.\n- **C) Pivot splint:** Eklem içi basıncı azaltmak için kullanılır.\n- **D) NTI splint:** Sadece ön dişlere yapılıp bruksizm şikayetini azaltmada kullanılır.\n- **E) Anterior Repozisyon Splinti (Doğru):** Redüksiyonlu disk deplasmanında çeneyi öne getirerek diskin kondil başı üzerinde doğru konumlanmasını sağlayan spesifik tedavidir.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu / Vaka Sorusu",
+    "q_num": 146,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çeşitli interoklüzal splintler ve bu apareylerin tercih edilmesi gereken klinik durumlar eşleştirilmiştir. Buna göre aşağıdaki eşleştirmelerden hangisi yanlıştır?\n\n**Şıklar:",
+    "options": {
+      "A": "Stabilizasyon splinti - Bruksizm varlığında",
+      "B": "Sentrik ilişki splinti - Redüksiyonsuz disk deplasmanı varlığında",
+      "C": "Arka ısırma plağı - Dikey boyutu azaltmada eklemin rehabilitasyonunda",
+      "D": "Anterior konumlandırıcı splint - Erken klik sesi olan redüksiyonlu disk deplasmanı varlığında",
+      "E": "Anterior ısırma plağı - Oklüzal durumla ilişkili myospazm varlığında"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A, B, D, E:** Klinik kullanım indikasyonlarıyla tam uyumludur.\n- **C) Arka ısırma plağı - Dikey boyutu azaltmada (Yanlış - Doğru Cevap):** Arka ısırma (posterior bite) plakları dikey boyutu azaltmak için değil, dikey boyutu YÜKSELTMEK ve eklemin yeni dikey boyuta adaptasyonunu sağlamak amacıyla kullanılır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 147,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Ağzın açılması sırasında deviasyon varlığı\nII. Ağzın kapalı pozisyonunda diskin kondile göre daha anterior pozisyonda olması\nIII. Ağzın açılması sırasında karşı tarafa doğru defleksiyon varlığı\n\nYukarıdakilerden hangileri temporomandibular eklemin redüksiyonlu disk deplasmanına ait özelliklerdendir?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "Yalnız I",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **Öncül I (Doğru):** Redüksiyonlu disk deplasmanında açma sırasında kondil diski yakalayana kadar çene etkilenen tarafa kayar, diski yakalayınca orta hatta döner (deviasyon).\n- **Öncül II (Doğru):** Ağız kapalıyken disk hem redüksiyonlu hem redüksiyonsuz deplasmanda normale göre anteriorda (ve medialde) konumlanmıştır.\n- **Öncül III (Yanlış):** Karşı tarafa defleksiyon olmaz; redüksiyonsuz deplasmanda ise etkilenen tarafa defleksiyon olur.\n- **Sonuç:** I ve II doğru olduğu için yanıt B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2023 Orijinal",
+    "q_num": 148,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibuler ekleme ait görselde sırasıyla dinlenme hali ve ağız açmadaki translasyon hareketleri esnasındaki kondil-disk kompleksi ilişkisi gösterilmiştir. Buna göre yukarıdaki klinik durumun mevcudiyetinde yapılan klinik muayene esnasında aşağıdakilerden hangisinin görülmesi beklenen bulgulardan biridir?\n\n**Şıklar:",
+    "options": {
+      "A": "Sert doku krepitasyonu",
+      "B": "Resiprokal klik",
+      "C": "Sert sonlanım gösteren ağız kısıtlılığı",
+      "D": "Etkilenen tarafa doğru defleksiyon",
+      "E": "Kontralateral tarafa doğru eksentrik hareketlerde kısıtlılık"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Görselde ağız kapalıyken önde duran diskin, açılma sırasında kondil tarafından yakalandığı (redükte olduğu) görülmektedir. Bu tablo Redüksiyonlu Disk Deplasmanıdır.\n- **A) Krepitasyon:** Osteoartrit bulgusudur.\n- **B) Resiprokal klik (Doğru):** Redüksiyonlu disk deplasmanının tipik klinik bulgusudur (açarken ve kapatırken duyulan ses).\n- **C, D, E:** Redüksiyonsuz disk deplasmanına ait kilitlenme bulgularıdır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu / Görsel Sorusu",
+    "q_num": 149,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi temporomandibular eklemde görülebilen redüksiyonlu ve redüksiyonsuz disk deplasmanının ortak özelliğidir?\n\n**Şıklar:",
+    "options": {
+      "A": "Ağız açılması sırasında deviasyon varlığı",
+      "B": "Ağız açılması sırasında ipsilateral defleksiyon varlığı",
+      "C": "Ağız açılması sırasında kontralateral defleksiyon varlığı",
+      "D": "Ağzın açık pozisyonunda diskin kondile göre daha anterior pozisyonda olması",
+      "E": "Ağzın kapalı pozisyonunda diskin kondile göre daha anterior pozisyonda olması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Deviasyon:** Yalnızca redüksiyonlu deplasmanda görülür.\n- **B ve C) Defleksiyon:** Yalnızca redüksiyonsuz deplasmanda görülür.\n- **D) Açık pozisyonda diskin anteriorda olması:** Yalnızca redüksiyonsuz deplasmanda disk anteriorda kalır; redüksiyonluda açılınca disk normal yerine döner.\n- **E) Ağzın kapalı pozisyonunda diskin anteriorda olması (Doğru):** Hem redüksiyonlu hem de redüksiyonsuz disk deplasmanında istirahat/kapalı konumda disk anatomik yerinden çıkmış ve anteriorda konumlanmıştır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 150,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kırk yaşındaki erkek hasta çene eklemi bölgesinde yemek yerken ağrı ve sürtünmeye benzer seslerin varlığı şikayeti ile başvuruyor. Öyküsünden on yıl önce ekleminden tıklama sesinin gelmeye başladığı, ağız açmada kısıtlılık olduğu, ardından bir yıl önce seslerin aniden kaybolduğu ve ağız açıklığının tekrar arttığı öğreniliyor. Klinik muayenesinde mandibula hareketleri ve eklemin palpasyonunda ağrının arttığı ve bu ağrının yanı sıra mandibula hareketleri sırasında sağ taraf ekleminde krepitasyon sesi belirdiği saptanıyor. Radyografik ve manyetik rezonans görüntülemelerinde, sağ eklem kondil başında düzleşme, osteofit ve eroziv değişiklikler gözleniyor. Bu hasta için aşağıdaki temporomandibular eklem bozukluklarından hangisi en olasıdır?\n\n**Şıklar:",
+    "options": {
+      "A": "Osteoartrit",
+      "B": "Sublüksasyon",
+      "C": "Redüksiyonlu disk deplasmanı",
+      "D": "Miyofasial ağrı",
+      "E": "Adezyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Osteoartrit (Doğru):** Sürtünme/zımpara sesi (krepitasyon), eklem hareketiyle artan ağrı ve radyografide saptanan kondil başı düzleşmesi, erozyonlar ve osteofitik (gaga tarzı) kemik oluşumları dejeneratif eklem hastalığı olan Osteoartritin karakteristik özellikleridir.\n- **B, C, D, E:** Eklem içi kemik erozyonları ve krepitasyon sesi oluşturmaz.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2023 Orijinal",
+    "q_num": 151,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kondil başında düzleşme\nII. Osteofitik oluşumlar\nIII. Eroziv değişiklikler\n\nYukarıda verilenlerden hangisi ya da hangileri osteoartritik temporomandibuler eklem bozukluklarında radyografik olarak saptanan bulgular arasında yer alır?\n\n**Şıklar:",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- TME Osteoartritinde sert doku yıkımına bağlı olarak kondil başında düzleşme (I), reaktif kemik çıkıntıları / osteofitler (II) ve kortikal kemikte eroziv çukurlar (III) klasik radyografik triad olarak izlenir.\n- Bütün öncüller doğru olduğundan yanıt E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 152,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sakız çiğneme sırasında ağrı ve kağıt sürtünmesi şeklindeki ses şikayeti ile kliniğe başvuran 67 yaşındaki bayan hastanın anamnezinden bu şikayetlerin yeni gelişmediği, 15 yıldır ağrı şikayeti olduğu ve 3 yıl önce ses şikayetinin kaybolduğu öğreniliyor. Muayene sırasında hastanın mandibular lateral hareketlerde ağrı hissettiği ve ara ara krepitasyon sesi alındığı görülüyor. Hastanın radyografik kayıtlarından kondil başı erozyonları ve düzleşmeler tespit edildiğine göre, hastanın tanısı aşağıdakilerden hangisinde doğru olarak verilmektedir?\n\n**Şıklar:",
+    "options": {
+      "A": "Redüksiyonsuz disk deplasmanı",
+      "B": "Sublüksasyon",
+      "C": "Redüksiyonlu disk deplasmanı",
+      "D": "Miyozit",
+      "E": "Osteoartrit"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- Kağıt/zımpara sürtünmesi sesi (krepitasyon), lateral hareketle ağrı ve radyografide görülen kondil başı erozyonları ile düzleşmeler dejeneratif iltihabi eklem rahatsızlığı olan Osteoartriti (E seçeneği) işaret eder.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 153,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt santral ve lateral dişlerin her ikisinde de bulunan ortak anatomik özellik aşağıdakilerden hangisinde doğru olarak gösterilmektedir?\n\n**Şıklar:",
+    "options": {
+      "A": "Her iki dental arktaki en küçük daimi dişlerdir",
+      "B": "İkisinin de meziodistal boyutları labiolingual boyutlarından daha büyüktür",
+      "C": "Kesici kenarları kökün uzun aksının lingualinde yer alır",
+      "D": "Kesici kenarları distolinguale eğimlidir",
+      "E": "Mezial marjinal sırtları distalden daha uzundur"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A:** Sadece alt santral en küçük diştir.\n- **B:** Alt kesicilerin fasiyolingual boyutları meziodistal boyutlarından daha büyüktür.\n- **C) Kesici kenarların kök aksının lingualinde yer alması (Doğru):** Hem alt santral hem de alt lateral kesiciler için ortak ve spesifik tanısal özelliktir.\n- **D:** Sadece alt lateralde distale eğim/burulma vardır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 158,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt santral diş ile ilgili verilenlerden hangisi doğru değildir?\n\n**Şıklar:",
+    "options": {
+      "A": "Marjinal sırtları aynı uzunluktadır",
+      "B": "Karşı kavisteki diş ile en simetrik olan diştir",
+      "C": "Fasiyolingual boyutu, meziodistalden daha büyüktür",
+      "D": "Kron bölümü kök üzerinde distale doğru eğim göstermektedir",
+      "E": "Kapanışta tek dişle temas eden tek ön diştir"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A, B, C, E:** Alt santral diş simetriktir, marjinal sırtları eşittir, fasiyolingual boyutu genişçedir ve üstte sadece tek bir dişle (üst santralle) temas eder.\n- **D) Kron bölümünün distale eğim göstermesi (Yanlış - Doğru Cevap):** Alt santral diş tamamen simetrik ve dik yerleşimlidir. Distale eğim ve kron burulması gösteren diş **Alt Lateral** kesicidir.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 159,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki seçeneklerden hangisi üst çene birinci molar dişin özellikleri arasında yer almaz?\n\n**Şıklar:",
+    "options": {
+      "A": "Kuron kısmı bukkalden linguale doğru genişler",
+      "B": "Maksiller arkan en büyük dişidir",
+      "C": "4 fonksiyonel ve 1 nonfonksiyonel olmak üzere 5 tüberküllüdür",
+      "D": "Tüm dişler içerisinde meziodistal boyutu en fazla olan diştir",
+      "E": "Genellikle ilk çürüyen ve ilk kaybedilen diştir"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A, B, C, E:** Üst 1. moların bilinen klasik morfolojik nitelikleridir.\n- **D) Tüm dişler içerisinde meziodistal boyutu en fazla olan diştir (Yanlış - Doğru Cevap):** Tüm dental arkta meziodistal boyutu EN GENİŞ olan diş **Alt Birinci Molar** diştir. Üst 1. molar ise fasiyolingual boyutu geniş olan diştir.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 165,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Şekilde üst birinci molar dişin oklüzal yüzeyi gösterilmektedir. Şekilde oblik sırtın transvers oluğunu gösteren rakam aşağıdakilerden hangisidir?\n\n**Şıklar:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- Görseldeki 2 rakamı santral pitten çıkıp oblik sırtı aşarak distal fossaya ulaşan transvers oluğu göstermektedir.\n- 1 numaralı oluk santral gelişimsel oluk, 3 numaralı oluk distal oblik oluktur. Dolayısıyla doğru yanıt B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu / Görsel Sorusu",
+    "q_num": 170,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangi işlem çeneye kuvvet uygulayarak mandibulayı sentrik ilişki konumuna yönlendirme sırasında ortaya çıkan klinik durumlardan biri değildir?\n\n**Şıklar:",
+    "options": {
+      "A": "Kondil başı retrodokal dokulara doğru konumlanır",
+      "B": "Açma sırasındaki rotasyon hareketinin bitiminde kondil diskin gerisinde kalır",
+      "C": "Mandibulanın maksimum açma noktasında kondil diski yakalar",
+      "D": "Mandibulanın yatay ligamentleri basınçtan dolayı travmatize olur",
+      "E": "Güncel olarak sentrik ilişkiyi belirlemede kullanılan yöntemdir"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A, B, C, D:** Çeneyi geriye ve yukarıya zorlayarak (chin-point rehberliği gibi) yapılan eski yönlendirme tekniklerinde retrodiskal dokulara basınç ve travma oluşturma riski yüksekti.\n- **E) Güncel yöntem olması (Yanlış - Doğru Cevap):** Günümüzde çeneye arkadan bası uygulayan cebri yöntemler terk edilmiş olup, kondilleri öne ve yukarıya pasif yönlendiren Dawson'ın **Bimanüel Manipülasyon Tekniği** güncel standart olarak kullanılır.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 181,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Daimi dişlerin proksimal temasları ile ilgili aşağıdaki ifadelerden hangisi doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "Maksiller 2. premolar dişin distal temas alanı oklüzal üçlüdedir",
+      "B": "Maksiller 2. molar dişin distal temas alanı orta üçlünün ortasındadır",
+      "C": "Mandibular 1. molar dişin distal temas alanı oklüzal üçlüdedir",
+      "D": "Maksiller 1. molar dişin distal temas alanı oklüzal üçlüdedir",
+      "E": "Mandibular 1. premolar dişin distal temas alanı orta üçlünün servikalindedir"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A, C, D:** Molar dişlerin distal temas alanları oklüzal üçlüde yer almaz, orta üçlüdedir.\n- **B) Maksiller 2. molar distal temasının orta üçlüde olması (Doğru):** Tüm molar dişlerin proksimal temas noktaları kron boyunun tam **Orta Üçlüsünde** bulunur. Bu kural B seçeneğinde tam olarak doğru verilmiştir.",
+    "lesson": "Protez",
+    "flag_reason": "Hoca Sorusu",
+    "q_num": 182,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Mandibulanın horizontal eksendeki hareketi sagittal düzlemde gerçekleşir.\nII. Mandibulanın horizontal düzlemdeki hareketi vertikal eksen etrafında gerçekleşir.\nIII. Mandibula sağa lateale hareket ettiğinde, sol kondil ileri doğru hareket eder.\nIV. Mandibulanın horizontal düzlemdeki hareketi sırasında, rotasyon merkezi çalışan taraf kondilinden geçer.\n\nMandibulanın hareketleriyle ilgili yukarıdaki ifadelerden hangileri doğrudur?\n\n**Şıklar:",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **Öncül I (Doğru):** Yatay (horizontal) eksen etrafındaki menteşe hareketi profil (sagittal) düzlemde izlenir.\n- **Öncül II (Doğru):** Dikey (vertikal) eksen etrafındaki rotasyon hareketi kuşbakışı (horizontal) düzlemde izlenir.\n- **Öncül III (Doğru):** Çene sağa hareket ettiğinde sol taraf dengeleyen (dolaşan) kondil olur ve öne-içe doğru kayar.\n- **Öncül IV (Doğru):** Lateral harekette rotasyon merkezi çalışan taraf (sağ taraf) kondilinin içinden geçer.\n- **Sonuç:** Verilen 4 öncülün tamamı (I, II, III, IV) doğru kinematik kurallardır. Yanıt E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2017 Orijinal",
+    "q_num": 185,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibüler eklemde kondil-disk bütünlüğünün artiküler eminensin posterior eğiminde ve süperoanterior pozisyonda bulunduğu maksillomandibüler ilişki aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sentrik ilişki",
+      "B": "Protrüzyon",
+      "C": "Sentrik oklüzyon",
+      "D": "Fizyolojik oklüzyon",
+      "E": "Retrüzyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Sentrik ilişki (Doğru):** Eklem diski kondil ve artiküler eminens arasında iken, kondilin glenoid fossanın artiküler yüzeyi boyunca en üst ve en ön (süperoanterior) pozisyonudur. Diş temasından bağımsız, tamamen eklem odaklı (rehberli) fizyolojik bir referans pozisyonudur.\n* **B) Protrüzyon (Yanlış):** Mandibulanın sentrik ilişkiden öne doğru kaydırılması hareketidir.\n* **C) Sentrik oklüzyon (Yanlış):** Mandibula sentrik ilişki konumundayken alt ve üst dişlerin yaptığı maksimaum temas halidir (diş kökenlidir).\n* **D) Fizyolojik oklüzyon (Yanlış):** Bireyin sağlıklı çiğneme kası ve TME adaptasyonu altında mevcut olan doğal günlük kapanış durumudur.\n* **E) Retrüzyon (Yanlış):** Mandibulanın sentrik ilişkiden daha geriye zorlandığı fizyolojik olmayan posterior konumudur.",
+    "lesson": "Protez",
+    "flag_reason": "2016 DUS Orijinal",
+    "q_num": 186,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sentrik ilişki ile ilgili olarak aşağıda verilenlerden hangisi doğrudur?",
+    "options": {
+      "A": "Kondil-diskin en süperoposterior konumudur.",
+      "B": "Kondil-diskin en süperoanterior konumudur.",
+      "C": "Mandibulanın en ön pozisyonudur.",
+      "D": "Mandibulanın en süperoposterior konumudur.",
+      "E": "Mandibulanın en inferoanterior konumudur."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Kondil-diskin en süperoposterior konumudur (Yanlış):** Eski tanımlamalarda \"en arka\" (posterior) ifadesi geçse de güncel prostodontik tanımda en üst ve en ön (süperoanterior) konum kabul edilir.\n* **B) Kondil-diskin en süperoanterior konumudur (Doğru):** Eklem diski aradayken kondilin glenoid fossadaki en üst ve en ön konumunu ifade eder.\n* **C) Mandibulanın en ön pozisyonudur (Yanlış):** Mandibulanın en ön pozisyonu protrüzyondur.\n* **D) Mandibulanın en süperoposterior konumudur (Yanlış):** Posterior konum ekleme aşırı yük bindirir.\n* **E) Mandibulanın en inferoanterior konumudur (Yanlış):** Inferior konum ağız açma yönüdür.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 187,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi çene ucuna kuvvet uygulayarak mandibulayı sentrik ilişki konumuna yönlendirme sırasında ortaya çıkan klinik durumlardan biri olamaz?",
+    "options": {
+      "A": "Kondil başı, retrodiskal dokulara doğru konumlanır.",
+      "B": "Açma sırasında rotasyon hareketinin bitiminde kondil diskin gerisinde kalır.",
+      "C": "Mandibulanın maksimum açma noktasında kondil diski yakalar.",
+      "D": "Sentrik ilişkiden başlayarak ağız açma ile ilerler.",
+      "E": "Güncel olarak sentrik ilişki belirlemede kullanılan yöntemdir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Kondil başı, retrodiskal dokulara doğru konumlanır (Doğru klinik durum):** Çene ucuna arkaya doğru bastırıldığında (chin point guidance) kondil arkaya iter ve damarlı/sinirli retrodiskal dokulara bası yapar.\n* **B) Açma sırasında rotasyon hareketinin bitiminde kondil diskin gerisinde kalır (Doğru klinik durum):** Zorlamalı geriye itmede kondil disk üzerine tam oturamaz.\n* **C) Mandibulanın maksimum açma noktasında kondil diski yakalar (Doğru klinik durum):** Disk deplasmanına yol açabilir.\n* **D) Sentrik ilişkiden başlayarak ağız açma ile ilerler (Doğru klinik durum):** Menteşe ekseni kaybolur.\n* **E) Güncel olarak sentrik ilişki belirlemede kullanılan yöntemdir (Yanlış / Cevap E):** Çene ucundan bastırma tekniği doku hasarı ve kas spazmına yol açtığı için günümüzde önerilmez; güncel olarak bilateral manipülasyon (Dawson tekniği) kullanılır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 188,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lateral mandibüler hareketlerde yatay düzlemden bakıldığında kondil yolunun sagittal düzlem ile yaptığı açı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fasiyal açı",
+      "B": "Bennet açısı",
+      "C": "Fischer açısı",
+      "D": "İnsizal açı",
+      "E": "Tüberkül açısı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Fasiyal açı (Yanlış):** Yüz estetiği ve profil değerlendirmesinde kullanılan sefalometrik açıdır.\n* **B) Bennet açısı (Doğru):** Lateral çene hareketleri sırasında dengeleyen (orbiting/dolaşan) taraf kondilinin öne, aşağıya ve içe hareketi esnasında sagittal düzlemle yaptığı açıdır.\n* **C) Fischer açısı (Yanlış):** Protrüziv ve lateral hareketlerde dengeleyen kondil yolları arasındaki açıdır.\n* **D) İnsizal açı (Yanlış):** Ön kesicilerin rehberlik açısıdır.\n* **E) Tüberkül açı (Yanlış):** Diş tüberkül eğim açısıdır.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "q_num": 189,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi fasiyal açı ile ilgili doğru bir bilgidir?",
+    "options": {
+      "A": "Fasiyal açı yüzle ilgili açısal ölçüm değerlerinden biridir ve profil değerlendirmesinde kullanılır.",
+      "B": "Lateral mandibüler hareketlerde yatay düzlemden bakıldığında kondil yolunun sagittal düzlem ile yaptığı açıdır.",
+      "C": "Mandibulanın protrüziv ve lateral hareketlerinde çalışmayan taraftaki sagittal kondil eğimleri arasındaki farktır.",
+      "D": "Dişler arası ilişkinin belirlenmesinde önem taşır.",
+      "E": "Çene açısını veren açıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Fasiyal açı yüzle ilgili açısal ölçüm değerlerinden biridir ve profil değerlendirmesinde kullanılır (Doğru):** Fasiyal açı yumuşak doku ve profil analizinde kullanılır, oklüzal determinant değildir.\n* **B) Lateral mandibüler hareketlerde yatay düzlemden bakıldığında kondil yolunun sagittal düzlem ile yaptığı açıdır (Yanlış):** Bu tanım Bennet açısına aittir.\n* **C) Mandibulanın protrüziv ve lateral hareketlerinde çalışmayan taraftaki sagittal kondil eğimleri arasındaki farktır (Yanlış):** Bu tanım Fischer açısına aittir.\n* **D) Dişler arası ilişkinin belirlenmesinde önem taşır (Yanlış):** İnsizal ve tüberkül açıları diş ilişkilerini belirler.\n* **E) Çene açısını veren açıdır (Yanlış):** Gonial açı ile karıştırılmamalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 190,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibulanın Bennet hareketi sırasında, hareket miktarına bağlı olarak ortaya çıkan açı mandibulanın hangi kısmından ölçülmelidir?",
+    "options": {
+      "A": "Çalışan kondil",
+      "B": "Dengeleyen kondil",
+      "C": "Sağ kondil",
+      "D": "Sol kondil",
+      "E": "Orta hat"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Çalışan kondil (Yanlış):** Çalışan taraf kondili (rotating) gövdesel yana kayma (Bennet hareketi) yapar.\n* **B) Dengeleyen kondil (Doğru):** Dengeleyen (orbiting/dolaşan) taraf kondili öne-aşağıya-içe doğru kayarak sagittal düzlemle açı oluşturur. Bennet açısı bu dengeleyen kondil tarafından oluşturulur ve ölçülür.\n* **C) Sağ kondil (Yanlış):** Hareketin yönüne göre sağ veya sol çalışan/dengeleyen olabilir.\n* **D) Sol kondil (Yanlış):** Taraf bağımsızdır, kriter dengeleyen taraf olmasıdır.\n* **E) Orta hat (Yanlış):** Açı eklem bölgesinde ölçülür.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 191,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Posselt diyagramında sagittal düzlemdeki hareket paterni değerlendirildiğinde, saf rotasyonel açma hareketinin (1 numaralı hat) sonunda mandibulanın geleceği nokta aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sentrik ilişki",
+      "B": "Menteşe hareketi sonlanma noktası (yaklaşık 20-25 mm açılma)",
+      "C": "Maksimum protrüzyon",
+      "D": "İnterkaspal pozisyon",
+      "E": "Baş başa kapanış"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Sentrik ilişki (Yanlış):** Diyagramın en gerideki başlangıç noktasıdır.\n* **B) Menteşe hareketi sonlanma noktası (Doğru):** Mandibula sentrik ilişkide iken kondiller sadece rotasyon yaparak yaklaşık 20-25 mm açılır. Bu noktanın ötesinde translasyon başlar.\n* **C) Maksimum protrüzyon (Yanlış):** En ön noktadır.\n* **D) İnterkaspal pozisyon (Yanlış):** Maksimum diş teması noktasıdır.\n* **E) Baş başa kapanış (Yanlış):** Süperiyor temas hattı üzerindedir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 197,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "**Oklüzal morfolojinin vertikal determinantlarıyla ilgili yukarıdaki ifadelerden hangileri doğrudur?**\nI. Oklüzyon düzlemi kondiler rehberlik düzlemine paralelleştikçe posterior dişlerin tüberkülleri kısalmalıdır.\nII. Spee eğrisi derinleştikçe posterior dişlerin tüberkülleri daha uzun olmalıdır.\nIII. Artiküler eminensin dikliği azaldıkça posterior dişlerin tüberkülleri daha kısa olmalıdır.",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "I ve II"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Öncül I (Doğru):** Oklüzal düzlem kondil yoluna ne kadar paralelse, çene açılırken arka dişler birbirinden o kadar az ayrılır (disoklüzyon azalır). Çatışmayı önlemek için tüberküller daha kısa yapılmalıdır.\n* **Öncül II (Yanlış):** Spee eğrisi derinleştikçe (yarıçapı küçüldükçe) posterior dişlerin tüberkülleri daha kısa olmalıdır.\n* **Öncül III (Doğru):** Artiküler eminens ne kadar düzse (dikliği azsa), mandibula öne kayarken aşağı doğru az süzülür. Arka dişlerde temas riski artacağından tüberkül yüksekliği az (kısa) olmalıdır.\n* Bu nedenle I ve III doğrular arasındadır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2018 Orijinal",
+    "q_num": 201,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Oklüzal morfolojinin vertikal kontrol faktörleri ile ilgili aşağıda verilen değişikliklerden hangisinde posterior dişlerin tüberküllerinin kısa oluşturulması gerekli değildir?",
+    "options": {
+      "A": "Artiküler eminensin dikliğinin azalması",
+      "B": "Oklüzal düzlemin artiküler eminens açısıyla paralelliğinin artması",
+      "C": "Spee eğrisinin yarıçapının azalması (eğrinin derinleşmesi)",
+      "D": "Bennett hareketinin miktarının artması",
+      "E": "Anteriör rehberlik açısının artması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D (Tüberkülleri kısaltır):** Düz eminens, paralel oklüzal düzlem, derin Spee eğrisi ve yüksek Bennett hareketi posterior ayrışmayı (disoklüzyonu) azaltacağı için tüberküller KISA yapılmalıdır.\n* **E) Anteriör rehberlik açısının artması (Kısaltmaz / Cevap E):** Ön rehberlik açısı ne kadar dik (fazla) olursa, çene öne kayarken ön dişler arka dişleri o kadar hızlı ayrıştırır (disoklüzyon artar). Bu durumda posterior tüberküller daha YÜKSEK (uzun) yapılabilir, kısa yapılması gerekmez.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 202,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yukarıda sagittal düzlem görüntüsü verilen hastanın kanin kasp tepesi ile fonksiyonel tüberkül tepelerinin çizdiği Spee eğrisi görülmektedir. Hastaya yapılması planlanan tam ark sabit restorasyonların dizaynında ilgili eğrinin derinlik açısının normalden düşük hesaplandığı görüldüğüne göre, aşağıdakilerden hangisi hastanın protezinde kısa dönemde karşılaşılması beklenen klinik durumlardan en olası olanıdır?",
+    "options": {
+      "A": "Protrüziv harekette artma",
+      "B": "Azalmış ağız açıklığı",
+      "C": "Artmış tüberkül yüksekliği nedeniyle erken temaslar",
+      "D": "Artmış lateral hareket",
+      "E": "Açma paterninde deviasyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* Spee eğrisi derinliği az hesaplandığında posterior bölgede tüberkül yükseklikleri gereğinden fazla kalır. Çene hareketleri esnasında arka dişlerde erken temaslar ve oklüzal çatışmalar (interferens) meydana gelir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 203,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst sağ kanin eksikliğinde aşağıdaki oklüzyon tiplerinden hangisi kullanılmalıdır?",
+    "options": {
+      "A": "Kanin koruyuculu oklüzyon",
+      "B": "Grup fonksiyonlu oklüzyon (Tek taraflı dengeli oklüzyon)",
+      "C": "Bilateral dengeli oklüzyon",
+      "D": "Disoklüzyon",
+      "E": "Sentrik oklüzyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Kanin koruyuculu oklüzyon (Yanlış):** Kanin dişi eksik olduğu veya yerine yapılan köprünün destek dişi aşırı yükten koruması gerektiği için kanin koruyuculu oklüzyon uygulanamaz.\n* **B) Grup fonksiyonlu oklüzyon (Doğru):** Kanin dişi eksik olduğunda lateral yükü tek bir yapay dişe veya köprü ayağına bindirmemek için kuvvet premolar ve molarlara dağıtılır (grup fonksiyonu).\n* **C) Bilateral dengeli oklüzyon (Yanlış):** Tam protezlerde kullanılır.\n* **D, E (Yanlış):** Genel oklüzyon tipleri değildir.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 213,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt çeneye frontal düzlem esas alınarak bakıldığında, azı dişlerinin vestibül ve lingual tüberküllerinin aynı seviyede olmamaları sonucu oluşan eğri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Spee eğrisi",
+      "B": "Wilson eğrisi",
+      "C": "Monson eğrisi",
+      "D": "Katol eğrisi",
+      "E": "Balans eğrisi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Spee eğrisi (Yanlış):** Sagittal düzlemde alt kanin tüberkül tepesinden baslayıp molar tüberkül tepelerinden geçen ön-arka yönlü eğridir.\n* **B) Wilson eğrisi (Doğru):** Frontal düzlemde sağ ve sol molar dişlerin bukkal ve lingual tüberkül tepelerini birleştiren enlemesine (transvers) eğridir. Alt molarlar linguale, üst molarlar bukkale eğimlidir.\n* **C) Monson eğrisi (Yanlış):** Spee ve Wilson eğrilerinin 3 boyutlu küresel bileşkesidir.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 289,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibüler hareket paterni değerlendirilmek istenen bir hastanın Wilson eğrisi, hangi düzlemden bakıldığında görülebilir?",
+    "options": {
+      "A": "Sagittal düzlem",
+      "B": "Frontal düzlem",
+      "C": "Horizontal düzlem",
+      "D": "Aksiyal düzlem",
+      "E": "Obliğe düzlem"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Frontal (alın/koronal) düzlemden** bakıldığında sağ ve sol azı dişlerinin tüberkül yükseklik farkları ve Wilson eğrisi net olarak izlenir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 290,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibüler hareket paterni değerlendirilmek istenen bir hastanın Wilson eğrisi hangi düzlemden bakıldığında net olarak izlenir?",
+    "options": {
+      "A": "Sagittal düzlem",
+      "B": "Frontal (koronal) düzlem",
+      "C": "Horizontal düzlem",
+      "D": "Oklüzal düzlem",
+      "E": "Eğik düzlem"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **B) Frontal düzlem (Doğru):** Wilson eğrisi (transvers eğri), frontal düzlemde sağ ve sol azı dişlerinin bukkal ve lingual tüberkül tepelerini birleştirir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 291,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst çenede tam dişsizlik ve alt çenede Kennedy sınıf I dişsizliği olan bir hastada, her iki çenede de geleneksel protezler yapılması planlanıyor. Aşağıdakilerden hangisi, bu hasta için en uygun oklüzyon tipidir?",
+    "options": {
+      "A": "Unilateral grup fonksiyon",
+      "B": "Kanin koruyuculu oklüzyon",
+      "C": "Anteriör rehberliği olan oklüzyon",
+      "D": "Posterior disoklüzyon",
+      "E": "Bilateral balanslı oklüzyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* Üstte tam protez, altta ise hareketli bölümlü protez (Kennedy I) vakalarında üst tam protezin devrilmesini ve ön bölgedeki kret rezorpsiyonunu (Kombinasyon sendromu) önlemek için **Bilateral balanslı oklüzyon** uygulanmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2020 Orijinal",
+    "q_num": 327,
+    "unit": "02-Oklüzyonun Temelleri",
+    "quality_flag": "cikmis"
+  }
+]

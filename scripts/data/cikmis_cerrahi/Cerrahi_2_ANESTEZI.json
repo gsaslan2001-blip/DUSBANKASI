@@ -1,0 +1,801 @@
+[
+  {
+    "question": "Medikal tedavi ile kontrol altında olan hafif-orta derecede sistemik hastalığı bulunan bir hasta, American Society of Anesthesiologists (ASA) fiziksel durum sınıflamasına göre hangi sınıfta değerlendirilmelidir?",
+    "options": {
+      "A": "ASA 1",
+      "B": "ASA 2",
+      "C": "ASA 3",
+      "D": "ASA 4",
+      "E": "ASA 5 *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **ASA 1:** Tamamen sağlıklı, sigara içmeyen birey.\n  * **ASA 2 (Doğru Cevap):** Günlük aktivitesini kısıtlamayan, hafif-orta derecede kontrollü sistemik hastalığı olan birey (örnek: ilaçla regüle tip 2 diyabet, kontrollü hafif hipertansiyon, sigara kullanımı, gebelik).\n  * **ASA 3:** Aktiviteyi kısıtlayan ancak günlük hayatta sakat bırakmayan şiddetli sistemik hastalık (örnek: anstabil olmayan anjina, kronik böbrek yetmezliği, insüline bağımlı regüle olmayan diyabet).\n  * **ASA 4:** Yaşam için sürekli tehdit oluşturan ileri hastalık (son 3 ay içinde MI, son dönem KKY).\n  * **ASA 5:** 24 saat içinde ameliyatsız yaşaması beklenmeyen hasta.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 334,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ameliyat edilmediği takdirde 24 saat içerisinde yaşamını yitirmesi beklenen, cerrahi girişimin tek yaşam şansı olduğu terminal tablodaki bir hasta ASA sınıflamasına göre hangisidir?",
+    "options": {
+      "A": "ASA 2",
+      "B": "ASA 3",
+      "C": "ASA 4",
+      "D": "ASA 5",
+      "E": "ASA 6 *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Rüptüre aort anevrizması, masif kafa travması gibi 24 saat içinde ölüm riski kesin olan olgular **ASA 5** sınıfındadır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 335,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi genel anestezi alacak dental cerrahi hastalarında hava yolu açıklığını değerlendirmede kullanılan kriterlerden biri değildir?",
+    "options": {
+      "A": "Mallampati sınıflaması",
+      "B": "Boyun çevresi çapının ölçülmesi",
+      "C": "Tiromental mesafenin değerlendirilmesi",
+      "D": "ASA (American Society of Anesthesiologists) sınıflaması",
+      "E": "İnterinsizal ağız açıklığının ölçülmesi *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A, B, C ve E şıkları:** Zor entübasyon riskini önceden belirlemek amacıyla larenks ve farenksin anatomik açıklığını değerlendiren testlerdir.\n  * **D şıkkı (ASA Sınıflaması / Doğru Cevap):** ASA, hastanın sistemik organ rezervini ve operatif cerrahi mortalite riskini değerlendiren bir tıbbi risk sınıflandırmasıdır; hava yolu anatomisi ile ilgili bir ölçüt değildir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 336,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Beyin ölümü gerçekleşmiş, organ transplantasyonu için organ vericisi (donör) olarak hazır bekletilen bir hasta ASA sınıflamasına göre hangi sınıfta yer alır?",
+    "options": {
+      "A": "ASA 2",
+      "B": "ASA 3",
+      "C": "ASA 4",
+      "D": "ASA 5",
+      "E": "ASA 6 *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * ASA sisteminin 6. kategorisi doğrudan beyin ölümü deklarasyonu yapılmış, organları nakil amacıyla perfüze edilen beyin ölümü gerçekleşmiş donör bireyleri tanımlar (**ASA VI**).",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "q_num": 337,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yaşamı için sürekli hayati tehdit oluşturan, istirahatte dahi dekompanse kalp yetmezliği veya ileri evre KOAH'ı bulunan hasta ASA sınıflamasında hangi basamaktadır?",
+    "options": {
+      "A": "ASA 1",
+      "B": "ASA 2",
+      "C": "ASA 3",
+      "D": "ASA 4",
+      "E": "ASA 5 *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Günlük yaşamda hayati tehlikesi kesintisiz devam eden ve kompanse edilemeyen hastalıklar **ASA IV** (Sürekli hayati tehdit oluşturan sistemik patoloji) olarak kabul edilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 338,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İki ay önce akut miyokard enfarktüsü (MI) geçirmiş olan bir hasta ASA sınıflamasına göre hangi grupta yer almaktadır?",
+    "options": {
+      "A": "ASA 2",
+      "B": "ASA 3",
+      "C": "ASA 4",
+      "D": "ASA 5",
+      "E": "ASA 6 *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Geçirilmiş MI üzerinden 3 aydan (bazı kılavuzlarda 6 aydan) daha az süre geçmişse re-enfarktüs riski çok yüksek olduğu için hasta **ASA IV** kabul edilir. 3 (veya 6) aydan sonra hasta stabil ise **ASA III** düzeyine geriler. 2 ay önce geçiren hasta ASA IV'tür.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 339,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Genel anestezi altında cerrahi uygulanan bir hastada süksinilkolin ve inhalasyon anesteziği sonrası gelişen malign hipertermi krizinde öncelikli olarak uygulanması gereken spesifik antidot ilaç aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dantrolen",
+      "B": "Epinefrin",
+      "C": "Nalokson",
+      "D": "Esmolol",
+      "E": "Atropin *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Dantrolen Sodyum / Doğru Cevap):** Malign hipertermi iskelet kasında sarkoplazmik retikulumdaki **Ryanodin (RYR1)** reseptör kanallarının kontrolsüz açılmasıyla kalsiyumun sitoplazmaya dökülmesi sonucu oluşur. Dantrolen doğrudan Ryanodin reseptörlerini bloke ederek hücre içine kalsiyum kaçışını durdurur; krizin tek spesifik hayat kurtarıcı antidotudur.\n  * **B şıkkı (Epinefrin):** Zaten aşırı sempatik deşarj ve taşikardi vardır, epinefrin tabloyu ölümcül kılar.\n  * **C şıkkı (Nalokson):** Opioid zehirlenmesi antidotudur.\n  * **D şıkkı (Esmolol):** Beta blokördür, kalsiyum kanalını kapatmaz.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 340,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Süksinilkolin veya volatil anesteziğe bağlı gelişen malign hiperterminin hücresel düzeydeki primer patolojisi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İskelet kası sarkoplazmik retikulumundan kontrolsüz masif kalsiyum salınımı",
+      "B": "Asetilkolinesteraz enziminin inhibisyonu",
+      "C": "Beyin sapında GABA inhibisyonu",
+      "D": "Koroner arterlerin spazmı",
+      "E": "Karaciğerde glikojen tükenmesi *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * RYR1 reseptör mutasyonu taşıyan bireylerde tetikleyici ajanlar sarkoplazmik retikulumdan sitozole aşırı miktarda serbest kalsiyum salınmasına neden olur. Aşırı kalsiyum kesintisiz kas kontraksiyonuna, hipermetabolizmaya, laktik asidoza, hiperkalemiye ve kontrolsüz vücut ısısı artışına (hipertermi) yol açar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 341,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Hipokarbi  \nII. Artmış end-tidal karbondioksit (EtCO2)  \nIII. Metabolik asidoz  \nIV. Hiperkalemi  \n**Malign hipertermi krizinde hastada yukarıdaki bulgulardan hangilerinin görülmesi beklenir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **I. öncül (Yanlış):** Aşırı metabolik aktivite nedeniyle karbondioksit üretimi tavan yapar; hipokarbi değil hiperkarbi görülür.\n  * **II. öncül (Doğru):** Malign hiperterminin **en erken ve en güvenilir klinik belirtisi** ventilasyona rağmen aniden yükselen **end-tidal CO2 (EtCO2)** düzeyidir.\n  * **III ve IV. öncüller (Doğru):** Aşırı glikoliz derin metabolik asidoz yaratır; rabdomiyoliz (kas yıkımı) ile hücre içi potasyum kana karışarak ölümcül kardiyak aritmiye yol açan **hiperkalemi** oluşturur.\n  * Görülen bulgular **II, III ve IV** (D şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 342,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Anterograd amnezi oluşturma özelliği vardır.  \nII. Benzodiazepin grubu sedasyon ilacıdır.  \nIII. Gebelerde D kategorisi olarak değerlendirilir.  \n**Dental cerrahide bilinçli sedasyonda sık kullanılan Midazolam ile ilgili yukarıdaki ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "II ve III",
+      "B": "Yalnız I",
+      "C": "I ve II",
+      "D": "Yalnız II",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. öncül (Doğru):** Midazolam güçlü anterograd amnezi yapar; hasta ilacın verilmesinden itibaren yapılan işlemleri (iğne, çekim sesleri) ameliyat sonrasında hatırlamaz.\n  * **II. öncül (Doğru):** Suda çözünen, hızlı ve kısa etkili imidazol halkalı bir benzodiazepin türevidir.\n  * **III. öncül (Doğru):** Teratojenik potansiyeli ve fötal santral sinir sistemi depresyonu riski nedeniyle FDA gebelik kategorisi D'dir.\n  * Her üç ifade de doğrudur (**I, II ve III**).",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS Eylül 2015 Orijinal",
+    "q_num": 343,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Midazolam veya diazepam gibi benzodiazepinlerle aşırı sedasyon veya solunum depresyonu geliştiğinde kullanılan spesifik antagonist ajan hangisidir?",
+    "options": {
+      "A": "Nalokson",
+      "B": "Flumazenil",
+      "C": "Atropin",
+      "D": "Neostigmin",
+      "E": "Sugammadeks *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı:** Opioidlerin (morfin, fentanil) antagonistidir.\n  * **B şıkkı (Flumazenil / Doğru Cevap):** GABA-A reseptör kompleksinde benzodiazepin bağlanma sahasını yarışmalı (kompetitif) olarak bloke eden spesifik benzodiazepin antidotudur.\n  * **E şıkkı:** Nöromusküler blokerleri (roküronyum) bağlayan şelatördür.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 344,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Genel anestezi alacak dental cerrahi hastalarında ameliyat öncesi uygulanan preoperatif medikasyonun amaçlarından biri değildir?",
+    "options": {
+      "A": "Sedasyon sağlamak",
+      "B": "Anksiyeteyi azaltmak",
+      "C": "İntraoperatif cerrahi kanamayı tamamen durdurmak",
+      "D": "Ağız içi ve havayolu sekresyonlarını azaltmak (antikolinerjik etki)",
+      "E": "Mide asiditesini düşürmek ve gastrik içeriği azaltmak *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D ve E şıkları:** Sedasyon, tükürük/sekresyon kontrolü (atropin), aspirasyon pnömonisi riskini önlemek için mide hacmini ve asiditesini azaltma (H2 blokerler) preoperatif premedikasyonun standart amaçlarıdır.\n  * **C şıkkı (Doğru Cevap):** Premedikasyon ilaçları cerrahi kanamayı durdurmaz. Kanama kontrolü cerrahi hemostaz, vazokonstriktörler ve hastanın koagülasyon profilinin yönetimi ile sağlanır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 345,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki lokal anesteziklerden hangisi ester grubuna aittir?",
+    "options": {
+      "A": "Bupivakain",
+      "B": "Prokain",
+      "C": "Lidokain",
+      "D": "Prilokain",
+      "E": "Mepivakain *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Lokal anesteziklerin isimlendirme kuralında; adında \"-kain\" ekinden önce \"i\" harfi bulunanlar **amid** grubudur (Bup-i-vakain, L-i-dokain, Pr-i-lokain, Mep-i-vakain, Art-i-kain). Adında \"i\" harfi bulunmayan tek heceli kökler ise **ester** grubudur (**Prokain**, Kokain, Tetrakain, Benzokain, Klorprokain). Prokain ester grubuna aittir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "q_num": 346,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki lokal anestezik madde ve kimyasal sınıflandırma eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Kokain - Ester",
+      "B": "Tetrakain - Ester",
+      "C": "Lidokain - Ester",
+      "D": "Mepivakain - Amid",
+      "E": "Prilokain - Amid *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Lidokain amino-etilamid yapısında tipik bir **amid grubu** lokal anesteziktir. Karaciğerde sitokrom P450 mikrozomal enzimleri ile metabolize edilir; ester grubuna ait olduğu iddiası yanlıştır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 347,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ester grubu lokal anesteziklerle ilgili olarak aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "Karaciğerde mikrozomal enzimler tarafından yıkılırlar.",
+      "B": "Plazmada pseudokolinesteraz enzimi tarafından hidroliz edilirler.",
+      "C": "Alerjik reaksiyon oluşturma riskleri amidlerden çok daha düşüktür.",
+      "D": "Günümüzde dental kartuşlarda en yaygın kullanılan gruptur.",
+      "E": "Çözeltileri son derece stabildir. *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **B şıkkı (Doğru Cevap):** Ester grubu lokal anestezikler plazmada dolaşan **psödokolinesteraz (butirilkolinesteraz)** enzimi tarafından hızla parçalanır.\n  * **C şıkkı (Yanlış):** Yıkım ürünleri olan para-aminobenzoik asit (PABA) nedeniyle alerji potansiyelleri amidlere göre **çok daha yüksektir**.\n  * **A, D ve E şıkları:** Amid grubunun özellikleridir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 348,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Cerrahi işlem sonrası uzun süre ağrı beklenen dental implant ve gömülü diş operasyonlarında aşağıdaki lokal anesteziklerden hangisi tercih edilmelidir?",
+    "options": {
+      "A": "Lidokain",
+      "B": "Bupivakain",
+      "C": "Prilokain",
+      "D": "Mepivakain",
+      "E": "Prokain *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **B şıkkı (Bupivakain / Doğru Cevap):** Yüksek lipid çözünürlüğü ve plazma proteinlerine (%95) son derece sıkı bağlanması nedeniyle etki süresi en uzun lokal anesteziktir. Yumuşak dokuda 8-12 saate kadar süren anestezi ve analjezi sağlar; postoperatif analjezik ihtiyacını belirgin azaltır.\n  * **E şıkkı (Prokain):** En kısa etkilidir.\n  * **A, C ve D şıkları:** Orta etki süreli (yaklaşık 2-3 saat) rutin anesteziklerdir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 349,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lokal anestezik ajanların etki sürelerinin uzundan kısaya doğru sıralanışı aşağıdakilerden hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "Bupivakain > Mepivakain / Lidokain > Prokain",
+      "B": "Prokain > Lidokain > Bupivakain",
+      "C": "Lidokain > Bupivakain > Prilokain",
+      "D": "Prilokain > Bupivakain > Mepivakain",
+      "E": "Prokain > Bupivakain > Lidokain *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Bupivakain ve etidokain uzun etkilidir (> 180 dk). Lidokain, mepivakain, artikain ve prilokain orta etkilidir (60-120 dk). Prokain ve klorprokain ise ester yapıda hızla hidroliz olan kısa etkilidir (< 30-45 dk). Sıralama: **Bupivakain > Mepivakain / Lidokain > Prokain** şeklindedir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 350,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lokal anestezi sonrası duyu kaybolma sırası en erkenden en geçe doğru aşağıdakilerden hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "Vazomotor - ağrı - sıcaklık - dokunma - propriyosepsiyon",
+      "B": "Ağrı - vazomotor - sıcaklık - dokunma - propriyosepsiyon",
+      "C": "Ağrı - sıcaklık - vazomotor - dokunma - propriyosepsiyon",
+      "D": "Vazomotor - sıcaklık - propriyosepsiyon - dokunma - ağrı",
+      "E": "Dokunma - vazomotor - ağrı - sıcaklık - propriyosepsiyon *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Lokal anestezikler sinir liflerini miyelin kılıfı kalınlığına ve lif çapına göre sırayla bloke ederler. İnce miyelinsiz (C lifleri) ve ince miyelinli (B ve A-delta lifleri) lifler, kalın miyelinli A-alfa ve A-beta liflerinden çok daha önce bloke olurlar.\n  * Blokaj sırası: **Vazomotor tonus kaybı (sempatik B lifleri) ➔ Yavaş ağrı ➔ Hızlı ağrı (A-delta lifleri) ➔ Sıcaklık (önce soğuk, sonra sıcak hissi) ➔ Dokunma-basınç hissi (A-beta lifleri) ➔ Propriyosepsiyon ve motor fonksiyon (A-alfa lifleri)** şeklindedir.\n  * **A şıkkı (Doğru Cevap):** Sıralama vazomotor ➔ ağrı ➔ sıcaklık ➔ dokunma ➔ propriyosepsiyon olarak kusursuz verilmiştir.\n  * **B, C, D, E şıkları (Yanlış):** Ağrı vazomotordan önce kaybolmaz; dokunma ve propriyosepsiyon ise en son kaybolan duyulardır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 351,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Lidokain  \nII. Prilokain  \nIII. Bupivakain  \nIV. Mepivakain  \n**Yukarıdaki lokal anestezik maddelerden hangileri gebelik kategorisi B sınıfında yer almaktadır?**",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve IV",
+      "C": "I, III ve IV",
+      "D": "II, III ve IV",
+      "E": "I ve III *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * FDA gebelik kategorilerine göre lokal anestezikler:\n    * **Kategori B (Gebelikte en güvenli kabul edilenler):** **Lidokain** ve **Prilokain** (I ve II). Hayvan çalışmalarında fetal risk saptanmamış, insanlarda kontrollü çalışma bulunmayan veya güvenli olduğu gösterilen gruptur.\n    * **Kategori C (Fetal risk ekarte edilemeyenler):** **Bupivakain**, **Mepivakain** ve **Artikain** (III ve IV). Bu ajanlar plasentayı geçerek fetal bradikardi veya teratojenik risk oluşturabilir; zorunlu olmadıkça gebelerde tercih edilmez.\n  * Doğru seçenek **I ve II** (A şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 352,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Artikain  \nII. Prilokain  \nIII. Benzokain  \n**Yukarıdaki lokal anestezik maddelerden hangisi veya hangileri methemoglobinemi yapabilir?**",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * Methemoglobinemi, hemoglobindeki Fe2+ (ferröz) demirin Fe3+ (ferrik) forma oksitlenerek dokulara oksijen salınımının bozulması ve siyanozla karakterize tablodur.\n  * **I. öncül (Artikain):** Tiyofen halkası metabolitleri yüksek dozlarda methemoglobinemiye neden olabilir.\n  * **II. öncül (Prilokain):** Karaciğerde metabolize olurken açığa çıkan **ortotoluidin** metaboliti güçlü bir oksitleyicidir; klinik olarak methemoglobineminin en sık ve klasik nedenidir.\n  * **III. öncül (Benzokain):** Özellikle çocuklarda veya mukozal uygulamalarda yüksek doz sprey formları doğrudan methemoglobinemi tetikler.\n  * Tedavide redükleyici ajan olarak İ.V. **Metilen mavisi** (%1'lik solüsyon, 1-2 mg/kg) veya Askorbik asit kullanılır.\n  * Doğru seçenek **I, II ve III** (E şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 353,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Artikain'in gebelik kategorisi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kategori A",
+      "B": "Kategori B",
+      "C": "Kategori C",
+      "D": "Kategori D",
+      "E": "Kategori E *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A ve B şıkları (Yanlış):** Diş hekimliğinde lokal anestezikler arasında Kategori A sınıfında hiçbir ajan yoktur. Kategori B olanlar Lidokain ve Prilokain'dir.\n  * **C şıkkı (Doğru Cevap):** Artikain, tiyofen halkası içeren ve ester bağı ile plazmada da yıkılan güçlü bir amid grubu anesteziktir; ancak FDA sınıflamasında **Kategori C** grubundadır.\n  * **D ve E şıkları (Yanlış):** D kategorisi kesin fetal risk kanıtı olan ilaçlardır (örn. midazolam, tetrasiklin); Kategori E diye bir FDA sınıfı yoktur (X grubu vardır).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 354,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ağız içinde topikal kullanım için uygun olan amid grubu lokal anesteziktir?",
+    "options": {
+      "A": "Lidokain",
+      "B": "Artikain",
+      "C": "Prilokain",
+      "D": "Mepivakain",
+      "E": "Tetrakain *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Topikal (yüzeyel) anestezi sağlamak için ajanın intakt mukozayı penetre edebilme özelliğinin olması gerekir.\n  * **A şıkkı (Doğru Cevap):** **Lidokain**, hem enjeksiyonluk hem de mukozaya sprey, merhem veya jel formunda (%2-10) uygulandığında etkili yüzeyel anestezi sağlayan **tek klasik amid grubu** lokal anesteziktir.\n  * **B, C, D şıkları (Yanlış):** Artikain, prilokain ve mepivakain tek başlarına mukozaya sürüldüklerinde topikal anestezi sağlayamazlar (prilokain ancak EMLA krem içinde lidokainle kombine edildiğinde deride etkilidir).\n  * **E şıkkı (Yanlış):** Tetrakain topikal anestezik olarak çok etkilidir; ancak kimyasal yapısı amid değil, **ester** grubudur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 355,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi topikal anestezi sağlanmasında kullanılmaz?",
+    "options": {
+      "A": "Kloretil",
+      "B": "Lidokain",
+      "C": "Artikain",
+      "D": "Tetrakain",
+      "E": "Benzokain *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Topikal anestezide kullanılan ajanlar şunlardır: **Kloretil** (soğutucu sprey ile dondurarak), **Lidokain** (amid merhem/sprey), **Tetrakain** ve **Benzokain** (ester türevleri). Formül hafıza kodu: **\"T-B-K-L\"**.\n  * **C şıkkı (Doğru Cevap):** **Artikain** dokuya penetre olup sinir liflerini yüzeyden bloke edemez; sadece infiltratif ve blok enjeksiyonlarında kullanılır, topikal anestezi etkinliği yoktur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 356,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "\"........ çok toksik olduğundan yalnızca topikal anestezi için kullanılır.\"  \nYukarıda sözü edilen lokal anestezik ajan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lidokain",
+      "B": "Prilokain",
+      "C": "Benzokain",
+      "D": "Tetrakain",
+      "E": "Mepivakain *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **D şıkkı (Tetrakain / Doğru Cevap):** Tetrakain (pantokain) çok güçlü ve uzun etkili bir ester türevidir. Sistemik toksisitesi prokainden yaklaşık 10 kat daha fazladır. İntravenöz veya derin enjeksiyonlarında kardiyotoksik ve SSS depresyonu riski aşırı yüksek olduğundan parenteral enjeksiyondan kaçınılır; **yalnızca yüzeyel/topikal anestezi (sprey/merhem)** amacıyla kullanılır.\n  * **A, B, E şıkları:** İnfiltrasyon ve blok anestezisinde yaygın ve güvenle kullanılırlar.\n  * **C şıkkı:** Benzokain suda erimez, yavaş emilir ve sistemik toksisitesi düşüktür (fakat methemoglobinemi yapabilir).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 357,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dental tedavi gören bir hastada ani gelişen bronkospazma karşı aşağıdaki ilaçlardan hangisinin acil bronkodilatör olarak kullanılması en uygundur?",
+    "options": {
+      "A": "N-asetil sistein",
+      "B": "Teofilin",
+      "C": "Non-steroidal antiinflamatuar ilaçlar",
+      "D": "Diazepam",
+      "E": "Fenitoin *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Mukolitik):** N-asetil sistein sekresyonları parçalar ve parasetamol toksisitesinde antidottur; bronş düz kasını gevşetmez.\n  * **B şıkkı (Doğru Cevap):** **Teofilin (veya Aminofilin)**, fosfodiesteraz enzimini inhibe ederek hücre içi cAMP düzeyini artırır ve adenozin reseptörlerini bloke ederek güçlü ve hızlı bronkodilatasyon sağlar. İnhale beta-2 agonistlere yanıt vermeyen dirençli astım/bronkospazm krizlerinde I.V. yolla kullanılır.\n  * **C şıkkı (Aksine tetikler):** NSAİİ'ler siklooksijenazı bloke ederek araşidonik asidi lipooksijenaz yoluna kaydırır; lökotrien üretimini artırarak astımlı hastalarda ölümcül bronkospazmı tetikler (aspirin astımı).\n  * **D ve E şıkları:** Antikonvülzan ve sedatif ilaçlardır; solunum yollarını genişletmez, yüksek dozda solunum merkezini deprese ederler.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 358,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Albuterol  \nII. Teofilin  \nIII. Montelukast  \nIV. Flutikazon  \n**Astım yönetiminde yukarıda verilen ilaçlardan hangisi ya da hangileri kullanılabilir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I, II ve III",
+      "D": "I, II ve IV",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. Albuterol (Salbutamol):** Kısa etkili beta-2 adrenerjik agonisttir; akut krizde ilk tercih edilen kurtarıcı bronkodilatördür.\n  * **II. Teofilin:** Metilksantin türevidir; fosfodiesteraz inhibisyonuyla bronkodilatasyon sağlar.\n  * **III. Montelukast:** Lökotrien reseptör antagonistidir; kronik kontrol edici oral ajandır.\n  * **IV. Flutikazon:** Güçlü inhale kortikosteroiddir; hava yolu inflamasyonunu ve mukozal ödemi baskılar.\n  * Dördü de astım basamak tedavisinde yer alır. Doğru seçenek **E şıkkı (I, II, III ve IV)**.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 359,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anafilaktik şok geçiren bir hastada aşağıdaki ilaçlardan hangisi ilk olarak tercih edilir?",
+    "options": {
+      "A": "Teofilin",
+      "B": "Hidrokortizon",
+      "C": "Dopamin",
+      "D": "Epinefrin",
+      "E": "Difenhidramin *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **D şıkkı (Epinefrin / Adrenalin - İlk Tercih):** Anafilakside ilk ve hayat kurtarıcı basamak intramüsküler **Epinefrin (Adrenalin 1:1000'lik, 0.3-0.5 mg, uyluk anterolateraline)** uygulanmasıdır. Alfa-1 etkisiyle vazokonstriksiyon yaparak şoku ve laringeal ödemi geriletir, beta-1 ile miyokard kontraktilitesini artırır, beta-2 ile bronkodilatasyon sağlar ve mast hücre degranülasyonunu durdurur.\n  * **B ve E şıkları (İkinci basamak):** Antihistaminikler (difenhidramin) ve kortikosteroidler (hidrokortizon) bifazik reaksiyonları önlemek ve semptomları yatıştırmak için verilir; etkileri geç başlar (kortikosteroidlerin etkisi 4-6 saatte çıkar), anafilakside ilk tercih olamazlar.\n  * **A ve C şıkları:** Destekleyici bronkodilatör ve inotropik ajanlardır; ilk basamakta yeri yoktur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 360,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Lokal anesteziklerin absorbsiyonunu artırarak sistemik aşırı doz riskini azaltır.  \nII. Anestezi süresini uzatarak uzun çalışma süresi sağlar.  \nIII. Kanamayı azaltarak rahat görüş alanı sağlar.  \n**Lokal anesteziklerle kullanılan vazokonstriktör maddeler ile ilgili yukarıdaki ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **I. öncül (Yanlıştır):** Vazokonstriktörler damarları büzerek lokal anesteziğin damar içine absorbsiyonunu (emilimini) **artırmaz, aksine yavaşlatır/azaltır**. Böylece pik plazma konsantrasyonu düşer ve sistemik toksisite riski azalır.\n  * **II. öncül (Doğrudur):** İlacın bölgeden hızla uzaklaşmasını engelleyerek anestezik maddenin sinir lifleri etrafında daha uzun süre kalmasını sağlar; anestezi derinliğini ve süresini uzatır.\n  * **III. öncül (Doğrudur):** Prekapiler sfinkterleri ve arteriolleri kasarak cerrahi alandaki kanamayı belirgin biçimde azaltır ve cerraha kansız, net bir görüş sahası sunar.\n  * Doğru ifadeler **II ve III** (E şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2016 Orijinal",
+    "q_num": 361,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lokal anestezikler ile birlikte kullanılan vazokonstriktörler ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Damar düz kaslarını kasarak enjeksiyon bölgesinde kan akımını azaltırlar.",
+      "B": "Lokal anesteziğin kardiyovasküler sisteme absorbsiyon hızını artırırlar.",
+      "C": "Cerrahi operasyon sahasında uygulandıklarında kanamanın azalmasını sağlarlar.",
+      "D": "Anestezik solüsyonun etki süresini uzatırlar.",
+      "E": "Sistemik toksisite riskini azaltırlar. *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Vazokonstriktörler damar lümenini daraltarak anestezik moleküllerin sistemik dolaşıma ve kardiyovasküler sisteme geçiş hızını **azaltır (yavaşlatır)**. Absorbsiyon hızını artırdığı ifadesi tam tersi bir yanılgıdır (B şıkkı yanlıştır).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 362,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki lokal anestezi yöntemi ve anestezisini sağladığı sinir eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Akinosi tekniği ➔ 4 sinir",
+      "B": "Gow-Gates tekniği ➔ 7 sinir",
+      "C": "İnferior alveoler sinir blokajı ➔ 3 sinir",
+      "D": "Posterosüperior alveoler sinir blokajı ➔ 3 sinir",
+      "E": "İnfraorbital sinir anestezisi ➔ 6 sinir *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **B şıkkı (Doğru Eşleştirme):** Gow-Gates kondil boynuna yapılan yüksek bir mandibulardır ve tam **7 siniri** bloke eder: 1-N. alveolaris inferior, 2-N. lingualis, 3-N. mylohyoideus, 4-N. buccalis, 5-N. auriculotemporalis, 6-N. mentalis, 7-N. incisivus.\n  * **A şıkkı:** Akinosi tekniği N. buccalis ve N. auriculotemporalis'i rutin bloke etmez (ortalama 5 sinir).\n  * **C şıkkı:** İnferior alveoler blok 4 sinir dalını (İAN, mental, insiziv, lingual) etkiler.\n  * **D şıkkı:** PSA tekniği sadece 1 ana dalı (PSA) hedefler.\n  * **E şıkkı:** İnfraorbital sinir bloğu 5 dalı bloke eder (ASA, MSA, inferior palpebral, lateral nazal, süperior labial).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 363,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tek bir anestezi ile en çok sinir dalında innervasyon blokajı yapılan intraoral anestezi yöntemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Akinosi tekniği",
+      "B": "Gow-Gates tekniği",
+      "C": "İnferior alveolar sinir blok anestezisi",
+      "D": "Posterosuperior alveolar sinir blok anestezisi",
+      "E": "İnfraorbital sinir anestezisi *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Mandibular sinirin ana gövdesinin hemen dallanma noktasına (kondil boynuna) uygulanan **Gow-Gates mandibular blok anestezisi**, tek bir enjeksiyonla alt çene çeyreğindeki motor ve duyusal liflerin neredeyse tamamını (İAN, lingual, mylohyoid, mental, insiziv, bukkal ve aurikulotemporal olmak üzere **7 sinir dalını**) uyuşturarak diş hekimliğinde en geniş kapsamlı blokajı sağlar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2017 Orijinal",
+    "q_num": 364,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İnferior alveoler sinir blokajında lokal anestezik solüsyonun depolandığı bölgenin sınırları için aşağıda belirtilen eşleştirmelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Önde raphe pterygomandibularis",
+      "B": "Medialde m. pterygoideus medialis",
+      "C": "Yukarıda m. pterygoideus lateralis",
+      "D": "Lateralde m. masseter",
+      "E": "Posteriorda parotis bezi *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Hedeflenen anatomik alan **Spatium pterygomandibulare (Pterigomandibular loj)**'dur.\n  * Bu boşluğun sınırları: Medialde *m. pterygoideus medialis*, önde *raphe pterygomandibularis* ve buccinator, süperiorunda *m. pterygoideus lateralis*, arkada *parotis bezi* derin lobu yer alır.\n  * **D şıkkı (Yanlış / Aranan Seçenek):** Lojun lateral sınırını masseter kası değil, **ramus mandibulanın iç (medial) kortikal yüzeyi** oluşturur (masseter kası ramusun dış/lateral yüzeyindedir).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 365,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki bölgelerden hangisi Akinosi tekniğiyle bloke edilemez?",
+    "options": {
+      "A": "Anestezi yapılan taraftaki orta hatta kadar olan mandibular dişler",
+      "B": "Anestezi yapılan taraftaki orta hatta kadar olan bukkal mukoperiost",
+      "C": "Anestezi yapılan taraftaki ağız tabanı",
+      "D": "Anestezi yapılan taraftaki lingual yumuşak dokular ve periost",
+      "E": "Anestezi yapılan taraftaki dilin 2/3 ön kısmının müköz membranı *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Vazirani-Akinosi (kapalı ağız) tekniğinde anestezik solüsyon pterigomandibular boşluğun üst seviyesine verilir; İAN ve lingual sinir bloke olur.\n  * **B şıkkı (Bloke Edilemez / Doğru Cevap):** Molar dişlerin bukkal diş eti ve mukoperiostunu innerve eden **N. buccalis**, ramusun ön kenarından daha anterior ve lateralden geçer; Akinosi tekniğinde bukkal sinir rutin olarak bloke edilemez. Bu nedenle molar diş çekimlerinde ek bukkal infiltrasyon zorunludur.\n  * **A, C, D, E şıkları:** İAN ve N. lingualis blokajı sayesinde alt dişler, ağız tabanı, lingual mukoza ve dilin 2/3 ön kısmı başarıyla uyuşur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2019 Orijinal",
+    "q_num": 366,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. N. buccalis  \nII. N. mylohyoideus  \nIII. R. buccalis n. facialis  \nIV. N. auriculotemporalis  \n**Yukarıda verilenlerden hangilerinin Gow-Gates tekniği ile anestezisi sağlanabilirken Vazirani-Akinosi tekniği ile sağlanamaz?**",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "III ve IV",
+      "D": "I, II ve III",
+      "E": "II, III ve IV *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Gow-Gates tekniği kondil boynu seviyesinde yapıldığı için yüksek seviyeli dallar olan **N. buccalis (I)** ve **N. auriculotemporalis (IV)** liflerini bloke eder.\n  * Akinosi tekniği ise tüber hizasında kapalı ağızla yapılır; inferior alveolar, lingual ve mylohyoid sinirleri bloke ederken N. buccalis ve N. auriculotemporalis'i anestezi altına alamaz.\n  * III. öncül (R. buccalis n. facialis) motor sinirdir, hiçbir duyu bloğunun primer hedefi değildir.\n  * Doğru seçenek **I ve IV** (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 367,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hekim, inferior alveoler blok yapılan bölgenin daha yukarısındaki mandibular ramusun medial yönü üzerinde, maksiller ikinci moların hemen distalinde mukozaya denk gelen seviyeden lokal anestezik enjeksiyonu yapıyor. Buna göre hekim aşağıdaki bölgelerden hangisinde anestezi sağlayamaz?",
+    "options": {
+      "A": "Lingual yumuşak dokular ve periosteum",
+      "B": "Bukkal mukoperiosteum ve mukoz membran",
+      "C": "Zigomanın üzerinde, yanağın arka kısmında ve temporal bölgedeki cilt",
+      "D": "Mandibulanın gövdesi ve ramusun alt kısmı",
+      "E": "Hepsinde sağlar *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * Tarif edilen enjeksiyon tekniği **Gow-Gates tekniğidir** (maksiller 2. moların meziobukkal tüberkül tepesi hizasından kondil boynuna doğru yönelir).\n  * Gow-Gates tekniği N. buccalis (B), N. auriculotemporalis (C), N. lingualis (A) ve N. alveolaris inferior'u (D) aynı anda bloke eder. Dolayısıyla verilen bölgelerin **hepsinde anestezi sağlar** (E şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 368,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Vazirani-Akinosi tekniğiyle lokal anestezi uygulaması yapıldığında aşağıdaki sinirlerden hangisinin anestezi altına alınması hedeflenmez?",
+    "options": {
+      "A": "Pterigopalatin sinir",
+      "B": "İnferior alveoler sinir",
+      "C": "Mental sinir",
+      "D": "İnsiziv sinir",
+      "E": "Lingual sinir *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Vazirani-Akinosi bir **mandibular** anestezi tekniğidir. Hedef inferior alveoler sinir (B) ve lingual sinirdir (E). İAN bloke olunca uç dalları olan mental (C) ve insiziv (D) sinirler de uyuşur.\n  * **A şıkkı (Hedeflenmez / Doğru Cevap):** Pterigopalatin sinir maksiller sinirin (V2) dalıdır ve üst çenede pterigopalatin fossada yer alır; mandibular blok tekniğinde yeri ve hedefi yoktur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2022 Orijinal",
+    "q_num": 369,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Mandibular 1. molar  \nII. Mandibular 1. premolar  \nIII. Maksiller 3. molar  \n**Vazirani-Akinosi tekniği yukarıdaki dişlerden hangisi ya da hangilerinin çekimi öncesi lokal anestezi için tek başına yeterlidir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Akinosi mandibular dişlerin pulpasını ve lingual dokularını uyuşturur; ancak N. buccalis'i bloke etmez.\n  * **I. Mandibular 1. molar:** Bukkal diş etini N. buccalis innerve ettiği için çekimde ek bukkal infiltrasyon şarttır; tek başına Akinosi yetersizdir.\n  * **II. Mandibular 1. premolar:** Premolar bölgesinin bukkal diş etini N. mentalis innerve eder; Akinosi İAN'ı bloke ettiği için mental sinir de uyuşur ve premolar çekimi için tek başına yeterlidir.\n  * **III. Maksiller 3. molar:** Üst çene dişidir, mandibular blokla çekilemez.\n  * Doğru seçenek **Yalnız II** (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 370,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İnfraorbital sinir bloğu sonrasında aşağıdaki sinirlerden hangisinin anestezi altına alınması beklenmez?",
+    "options": {
+      "A": "Anterior süperior alveoler sinir",
+      "B": "Middle süperior alveoler sinir",
+      "C": "Posterior süperior alveoler sinir",
+      "D": "İnferior palpebral sinir",
+      "E": "Lateral nazal sinir *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * İnfraorbital foramen içine girilerek yapılan anestezi ile: **ASA (A)**, **MSA (B)**, **İnferior palpebral (D)**, **Lateral nazal (E)** ve **Süperior labial** sinirler bloke olur.\n  * **C şıkkı (Beklenmez / Doğru Cevap):** Posterior süperior alveoler (PSA) sinir, maksiller sinirden pterigopalatin fossada ayrılıp tüber arkasından sinüse girer; infraorbital kanala girmez, dolayısıyla infraorbital blokla uyuşmaz.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 371,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Akinosi tekniği  \nII. Bukkal blok  \nIII. Pterigomandibuler blok  \nIV. Gow-Gates tekniği  \n**Yukarıdaki anestezi tekniklerinin etki ettiği sinir sayısına göre çoktan aza doğru sıralaması aşağıdakilerden hangisinde verilmiştir?**",
+    "options": {
+      "A": "IV - III - I - II",
+      "B": "IV - I - III - II",
+      "C": "III - IV - I - II",
+      "D": "IV - I - II - III",
+      "E": "I - IV - III - II *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **IV. Gow-Gates tekniği:** 7 sinir (İAN, lingual, mylohyoid, bukkal, aurikulotemporal, mental, insiziv).\n  * **I. Akinosi tekniği:** 5-6 sinir (İAN, lingual, mylohyoid, mental, insiziv ve bazen bukkal).\n  * **III. Pterigomandibular (klasik İAN) blok:** 4 sinir (İAN, lingual, mental, insiziv).\n  * **II. Bukkal blok:** 1 sinir (sadece N. buccalis).\n  * Doğru sıralama: **IV > I > III > II** (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 372,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. N. auriculotemporalis  \nII. N. buccalis  \nIII. N. mentalis  \nIV. N. lingualis  \n**Yukarıdaki sinirlerden hangisi Gow-Gates, Akinosi ve klasik mandibular blok sonucunda üçü tarafından da ortak olarak anestezi altına alınabilir?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yalnız IV",
+      "C": "I ve II",
+      "D": "III ve IV",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Her üç teknikte de pterigomandibular alandaki temel trunkuslar bloke edildiği için **N. lingualis (IV)** ve İAN'ın terminal dalı olan **N. mentalis (III)** ortak olarak uyuşur. N. auriculotemporalis sadece Gow-Gates'te; N. buccalis ise klasik blok ve Akinosi'de rutin olarak uyuşmaz. Doğru seçenek **III ve IV** (D şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 373,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gow-Gates lokal anestezi tekniğinde aşağıdaki anatomik oluşumlardan hangisinin hasar görmesi en olasıdır?",
+    "options": {
+      "A": "Nervus infraorbitalis",
+      "B": "Vena azygos",
+      "C": "Arteria maxillaris",
+      "D": "Arteria lingualis",
+      "E": "Arteria facialis *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **C şıkkı (Arteria maxillaris / Doğru Cevap):** Gow-Gates tekniğinde enjektör kondil boynunun hemen altına yönlendirilir. Bu anatomik bölgede *collogum mandibulae*'nin hemen arkasından ve içinden **Arteria maxillaris** ve pterigoid ven pleksusu geçer. İğnenin derine gitmesi durumunda zedelenme ve hematom riski en yüksek ana damar *A. maxillaris*tir.\n  * **A, B, D, E şıkları:** İnfraorbital orta yüzde, v. azygos toraksta, fasiyal ve lingual arterler alt kenar ve ağız tabanındadır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "q_num": 374,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gow-Gates anestezi sonrasında hastada meydana gelen hematomun sebebinin aşağıdaki anatomik oluşumların hangisinin zedelenmesi en olasıdır?",
+    "options": {
+      "A": "Arteria alveolaris superior posterior",
+      "B": "Pterigoid pleksus",
+      "C": "Arteria infraorbitalis",
+      "D": "Arteria maxillaris",
+      "E": "Arteria alveolaris inferior *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Kondil boynu civarında hedef noktaya yakın seyreden ve yüksek basınçlı arterial kanamaya/hematoma yol açan temel damar **Arteria maxillaris**'tir (D şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 375,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst 3. büyük azı dişi çekiminde uygulanan anesteziyle aşağıdaki sinirlerden hangisinin blokajı sağlanır?",
+    "options": {
+      "A": "Nervus alveolaris inferior",
+      "B": "Nervus alveolaris superior medius",
+      "C": "Nervus alveolaris superior posterior",
+      "D": "Nervus infraorbitalis",
+      "E": "Nervus nasopalatinus *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **C şıkkı (Doğru Cevap):** Maksiller 3. büyük azı (ve 2. molar ile 1. moların distobukkal/palatinal kökleri) **Nervus alveolaris superior posterior (PSA)** tarafından innerve edilir. Çekim için tüber arkasına PSA blokajı ve damağa N. palatinus majus anestezisi yapılır.\n  * **A şıkkı:** Mandibular sinir dalıdır.\n  * **B şıkkı:** MSA premolarları ve 1. moların MB kökünü uyarır.\n  * **D şıkkı:** İnfraorbital ön grubu uyarır.\n  * **E şıkkı:** Nazopalatin ön damak mukozasını uyarır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 376,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst sol 1. molar dişin endodontik tedavisi için uygulanması gereken en doğru anestezi yöntemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Anterior superior (ASA) blok",
+      "B": "Posterior superior (PSA) blok",
+      "C": "PSA + Anterior palatin blok",
+      "D": "Maksiller sinir anestezisi",
+      "E": "Tüber (PSA) + Mezlobukkal infiltratif *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * Üst 1. molar dişin distobukkal ve palatinal köklerini **PSA siniri**, ancak **meziobukkal (MB) kökünü vakaların %72'sinde MSA siniri** innerve eder. Sadece tüber (PSA) anestezisi yapılırsa MB kökte ağrı devam eder. Dolayısıyla tam pulpal anestezi için **Tüber (PSA) blok + 1. moların MB köküne supraperiosteal infiltratif anestezi** kombine edilmelidir (E şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 377,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "PSA (Tüber) anestezisinin uygulanması sırasında iğne çok fazla yukarı ve arkaya yönlendirilirse aşağıdaki komplikasyonlardan hangisinin gelişmesi en olasıdır?",
+    "options": {
+      "A": "Fasiyal paralizi",
+      "B": "Trismus",
+      "C": "Pterigoid ven pleksusu perforasyonu sonucu geniş hematom",
+      "D": "Yumuşak damak uyuşukluğu",
+      "E": "Görme kaybı *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * PSA tekniğinde tüber arkasında yer alan zengin **Pterigoid venöz pleksus** ve a. maxillaris zedelenebilir. İğne kemik teması kaybedilip aşırı posterior ve süperiora yönlendirilirse pleksus delinir ve yanakta dakikalar içinde devasa bir **hematom** tablosu gelişir (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 378,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Halstead tekniği ile gerçekleştirilen inferior alveoler sinir anestezisinde iğne gereğinden fazla derine ve arkaya (posteriora) yönlendirilirse aşağıdaki durumlardan hangisi meydana gelir?",
+    "options": {
+      "A": "Lingual sinir zedelenmesi",
+      "B": "Geçici fasiyal sinir paralizisi",
+      "C": "Çiğneme kası nekrozu",
+      "D": "Kalıcı tat kaybı",
+      "E": "Retromandibular arter rüptürü *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Halstead tekniğinde kemik teması alınmadan iğne ramusun arkasına doğru çok derin ilerletilirse parotis bezinin kapsülü içine girilir. Burada seyreden **Nervus facialis (VII. kraniyal sinir)** motor lifleri uyuşur ve hastada göz kapağını kapatamama, nazolabial olukta silinme ve ağız köşesinde düşme ile karakterize **geçici fasiyal paralizi** tablosu ortaya çıkar (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 379,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lokal anestezi uygulamalarını takiben gelişen trismusun tedavisinde aşağıdakilerden hangisi uygulanmaz?",
+    "options": {
+      "A": "Sıcak kompres uygulaması",
+      "B": "Kas gevşetici ilaç kullanımı",
+      "C": "Ağız açma egzersizleri",
+      "D": "Erken dönemde zorlayıcı mekanik cerrahi dilatasyon",
+      "E": "Analjezik kullanımı *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * İğne travmasına bağlı gelişen trismus tedavisinde istirahat, nemli sıcak kompres, kas gevşeticiler, analjezikler ve 48 saat sonrasında hafif pasif ağız açma egzersizleri önerilir.\n  * **D şıkkı (Yanlış / Uygulanmaz):** Akut spazm döneminde anestezi altında zorlayıcı mekanik ağız açma manipülasyonları kas liflerinde yeni yırtıklara, hematoma ve fibrotik ankiloz gelişimine yol açar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 380,
+    "unit": "2 ANESTEZİ",
+    "quality_flag": "cikmis"
+  }
+]

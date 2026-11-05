@@ -1,0 +1,257 @@
+[
+  {
+    "q_num": 285,
+    "question": "Benign sementoblastomanın ayırıcı tanısında aşağıdaki patolojilerden hangisi yer almaz?",
+    "options": {
+      "A": "Hipersementoz",
+      "B": "Periapikal sklerozan osteitis",
+      "C": "Periapikal semental displazi",
+      "D": "Kompleks odontoma",
+      "E": "Enostoz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Benign sementoblastoma dişin kök ucuna kaynaşmış yuvarlak radyoopak bir kitledir. Kompleks odontoma ise kök ucunda (periapikalde) değil, genellikle gömülü bir dişin kuronu üzerinde (perikoronal/oklüzal konumda) yerleştiği için periapikal radyoopasitelerin ayırıcı tanısında yer almaz.\n**Çeldiriciler:**\n- A) Hipersementoz: Kök çevresinde radyoopak genişleme yapar ve etrafında periodontal aralık izlenir; sementoblastoma ile ayırıcı tanıya girer.\n- B) Periapikal sklerozan (kondensing) osteitis: Molar diş apeksinde radyoopak görünüm verir; yumuşak doku kapsülü olmamasıyla sementoblastomadan ayrılır.\n- C) Periapikal semental displazi: Olgun evrede kök ucunda radyolusent halolu radyoopak kitle oluşturduğundan sementoblastoma ile çok yakın benzerlik gösterir.\n- E) Enostoz (yoğun kemik adası): Kök apeksine komşu olduğunda radyoopak görünümüyle ayırıcı tanıda düşünülür; kapsülü yoktur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 302,
+    "question": "Yüzde asimetri şikâyetiyle kliniğe getirilen 12 yaşındaki erkek hastanın ekstraoral muayenesinde sol tarafta hipertrikozis ve dudakta pigmentasyon saptanıyor. İntraoral muayenede sol üst posterior alveoler kemik bölgesini ve diş etini içeren ekspansiyon ve premolar dişlerde eksiklik izleniyor. Radyolojik incelemede maksiller sol alveoler kemik trabekülasyonunda artış ile vertikal olarak hizalanmış çok sayıda kalın trabeküllerin varlığı dikkat çekiyor. Sol maksiller sinüs boşluğunun ise sağ sinüs boşluğuna kıyasla daha küçük olduğu gözleniyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Gardner sendromu",
+      "B": "Monostotik fibröz displazi",
+      "C": "Mandibulofasiyal disostozis",
+      "D": "Kleidokraniyal disostozis",
+      "E": "Segmental odontomaksiller displazi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Segmental odontomaksiller displazi; çocukluk çağında üst çenenin bir tarafında (unilateral) alveoler kemik ve diş eti genişlemesi, premolar diş agenezisi/hipoplazisi, süt molarlarında geniş pulpa ve ayrık kökler, radyografide vertikal yönelimli kalın trabeküller, ipsilateral maksiller sinüs hipoplazisi ve aynı taraf yüz cildinde hipertrikozis/pigmentasyon (Becker nevüsü) ile karakterize gelişimsel bir anomalidir.\n**Çeldiriciler:**\n- A) Gardner sendromu: Multipl osteomlar, süpernümerer dişler ve intestinal poliplerle seyreder.\n- B) Monostotik fibröz displazi: Buzlu cam görünümü ve maksiller sinüs obliterasyonu yapabilir ancak premolar agenezisi, vertikal kalın trabekülasyon ve ipsilateral hipertrikozis/pigmentasyon yapmaz.\n- C) Mandibulofasiyal disostozis (Treacher Collins): Bilateral zigomatik ve mandibular hipoplazi, aşağı çekik palpebral fissürler ve dış kulak anomalileri ile karakterizedir.\n- D) Kleidokraniyal disostozis: Klavikula yokluğu, açık süturlar ve çok sayıda gömülü süpernümerer diş ile karakterizedir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 303,
+    "question": "Aşağıdakilerden hangisi segmental odontomaksiller displazi için doğru değildir?",
+    "options": {
+      "A": "Genellikle üst çenenin bir tarafında sınırlı kalır ve yüz asimetrisi yapabilir.",
+      "B": "Etkilenen bölgede premolar dişlerde hipoplazi ve sürme eksiklikleri sık görülür.",
+      "C": "Lezyonla aynı tarafta Becker nevüsü gibi cilt anomalileri görülebilir.",
+      "D": "Süt dişlerinin kökleri büyük ve ayrık yapıdadır, pulpa odaları genişleyebilir.",
+      "E": "Maksiller sinüs pnömatizasyonu artmış olup genişlemiş görünür."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Segmental odontomaksiller displazide tutulan taraftaki alveoler kemikte ekspansiyon ve vertikal trabeküler kalınlaşma geliştiği için ipsilateral maksiller sinüs pnömatizasyonu artmaz; aksine sinüs hacmi azalmış (hipoplazik) ve normalden daha küçük görünür.\n**Çeldiriciler:**\n- A) Daima unilateral olarak maksillanın bir posterior segmentini tutar ve hafif fasiyal asimetri yapar.\n- B) Etkilenen segmentte daimi premolar dişlerin konjenital eksikliği veya hipoplazisi karakteristik bulgudur.\n- C) İpsilateral yüzde hipertrikozis, hiperpigmentasyon ve Becker nevüsü gibi kutanöz bulgular eşlik edebilir.\n- D) Etkilenen bölgedeki süt molar dişlerin kökleri normalden büyük ve ayrık olup pulpa odalarında genişleme ve düzensiz rezorpsiyon görülür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 305,
+    "question": "Temporomandibuler eklem bölgesinde radyoopak olarak görülen yapılar aşağıdakilerden hangisi olabilir?",
+    "options": {
+      "A": "Odontojenik miksom",
+      "B": "Odontoma",
+      "C": "Sinovit",
+      "D": "Sinovyal Kondromatozis",
+      "E": "Florid osseoz displazi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sinovyal kondromatozis; TME sinovyal membranında kartilaj ve osteokartilaj nodüllerin metaplastik gelişimiyle karakterize nadir bir patolojidir. Bu kalsifiye nodüller eklem boşluğuna düşerek radyografide kondil başı çevresinde çok sayıda radyoopak \"serbest cisim\" (eklem faresi / loose bodies) olarak izlenir.\n**Çeldiriciler:**\n- A) Odontojenik miksom: Çenelerin dişli bölgelerinde gelişen, tenis raketi görünümü veren radyolusent tümördür; TME boşluğunda serbest cisim yapmaz.\n- B) Odontoma: Dişli alveoler krette gelişen odontojenik hamartomdur; eklem boşluğunda görülmez.\n- C) Sinovit: Sinovyal membranın inflamasyonudur; MRG'de eklem efüzyonu olarak izlenir, radyoopak yapı oluşturmaz.\n- E) Florid osseoz displazi: Çenelerin alveoler proseslerinde diş kökleriyle ilişkili gelişir; TME'yi tutmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 314,
+    "question": "Sıklıkla 30 yaş altı kadın hastalarda uniloküler veya multiloküler olarak mandibula anterior bölgede görülen ve histopatolojisi hiperparatiroidizimdeki Brown tümörüyle eşleşen patoloji aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Periapikal semental displazi",
+      "B": "Cherubism",
+      "C": "Odontojenik miksom",
+      "D": "Ameloblastom",
+      "E": "Santral dev hücreli granülom"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Santral dev hücreli granülom; sıklıkla 30 yaş altı genç kadınlarda, mandibula anterior (1. molarların önü) bölgede yerleşen, orta hattı geçebilen uniloküler veya kaba-silik septalı multiloküler radyolusent bir lezyondur. Histopatolojik olarak hiperparatiroidizmin Brown tümörü ile ayırt edilemez; kesin ayrım için serum kalsiyum, fosfor ve parathormon (PTH) düzeylerine bakılır.\n**Çeldiriciler:**\n- A) Periapikal semental displazi: 30 yaş üstü kadınlarda vital alt kesicilerin apeksinde görülen mikst/radyoopak fibro-osseöz lezyondur.\n- B) Cherubism: Histopatolojisi benzer olsa da 2-6 yaş arası çocuklarda, bilateral olarak mandibula posterior/ramus bölgesinde görülür.\n- C) Odontojenik miksom: Miksoid stroma içinde yıldızsı/iğsi hücrelerden oluşur, dev hücre içermez ve mandibula posteriorda tenis raketi görünümü verir.\n- D) Ameloblastom: 40 yaş civarında, mandibula molar-ramus bölgesinde görülen epitelyal odontojenik tümördür; Brown tümörü ile histopatolojik benzerliği yoktur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 315,
+    "question": "I. Basit kemik kisti\nII. Odontojenik miksoma\nIII. Ameloblastoma\nIV. Hemanjiyoma\nV. Brown tümör\n\nYukarıda verilen patolojilerden hangisinin histopatolojisi Santral dev hücreli granüloma ile eşleşir?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** V numaralı Brown tümörü (hiperparatiroidizm), vasküler fibröz stroma içinde çok çekirdekli osteoklast benzeri dev hücreler ve hemosiderin birikimi içermesi nedeniyle histopatolojik olarak santral dev hücreli granüloma ve cherubism ile birebir eşleşir.\n- I. Basit kemik kisti: İnce bağ dokusu duvarından ibaret boş kavitedir.\n- II. Odontojenik miksoma: Jelatinöz/miksoid ekstraselüler matriks ve stellat hücreler içerir.\n- III. Ameloblastoma: Ameloblast benzeri palizatlanan kolumnar hücre adaları ve stellat retikulum içerir.\n- IV. Hemanjiyoma: Endotel ile döşeli vasküler kanalların proliferasyonundan oluşur.\n**Çeldiriciler:**\n- A) Basit kemik kisti dev hücreli lezyon değildir.\n- B) Odontojenik miksoma ektomezenşimal tümördür.\n- C) Ameloblastoma epitelyal odontojenik tümördür.\n- D) Hemanjiyoma vasküler lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 316,
+    "question": "Aşağıdaki patolojilerden hangisi radyolojik olarak kaba silik septa formasyonu ile multiloküler görünüme sahip değildir?",
+    "options": {
+      "A": "Hiperparatiroidizmin Brown tümörü",
+      "B": "Santral dev hücreli granüloma",
+      "C": "Anevrizmal kemik kisti",
+      "D": "Cherubism",
+      "E": "Miksoma"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Odontojenik miksoma; radyografide kaba ve silik septalar değil, birbirini dik/açılı kesen düz, ince ve keskin septalar oluşturarak karakteristik \"tenis raketi\" veya \"merdiven basamağı\" görünümü verir.\n**Çeldiriciler:**\n- A) Hiperparatiroidizmin Brown tümörü: Santral dev hücreli granüloma ile aynı radyolojik özellikleri taşıyarak kaba, silik septalı multiloküler görünüm verir.\n- B) Santral dev hücreli granüloma: İç yapısında ince/kaba fakat sınırları silik (kötü sınırlı) granüler septalar içeren multiloküler radyolusensi gösterir.\n- C) Anevrizmal kemik kisti: Büyümüş lezyonlarda santral dev hücreli granülomadaki gibi silik ve kötü sınırlı septalar izlenir.\n- D) Cherubism: Çenelerde bilateral olarak silik, kaba septalı multiloküler radyolusensi sergiler.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 317,
+    "question": "Osteomyelitin aşağıdakilerden hangisi ile ayırıcı tanısı yapılmaz?",
+    "options": {
+      "A": "Keratokist",
+      "B": "Osteosarkom",
+      "C": "Skuamöz hücreli karsinom",
+      "D": "Eozinofilik granülom",
+      "E": "Fibröz displazi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Osteomiyelit radyografik olarak sınırları belirsiz (diffüz), güve yeniği tarzında kemik yıkımı ve sklerotik sekestr alanları ile karakterizedir. Odontojenik keratokist ise çevresi düzgün ve belirgin sklerotik/kortike bir sınırla çevrili homojen radyolusent bir kist olduğu için osteomiyelitin radyolojik ayırıcı tanısında yer almaz.\n**Çeldiriciler:**\n- B) Osteosarkom: Düzensiz kemik yıkımı, tümöral kemik yapımı ve periost reaksiyonu yapması nedeniyle kronik osteomiyelit ile karışabilir.\n- C) Skuamöz hücreli karsinom: Kemik invazyonu yaptığında oluşturduğu güve yeniği tarzı düzensiz osteolitik yıkım osteomiyelite benzer.\n- D) Eozinofilik granülom: Kemikte sınırları düzensiz litik yıkım alanları oluşturarak osteomiyeliti taklit edebilir.\n- E) Fibröz displazi: Ara (mikst) evredeki benekli radyoopak-radyolusent görünümü ve kemik genişlemesi kronik sklerozan osteomiyelit ile karışabilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 318,
+    "question": "Akut osteomyelitin aşağıdakilerden hangisi ile ayırıcı tanısı yapılmaz?",
+    "options": {
+      "A": "Cherubism",
+      "B": "Lösemi",
+      "C": "Lenfoma",
+      "D": "Osteosarkoma",
+      "E": "Hand-Schüller-Christian hastalığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Cherubism erken çocuklukta başlayan, ağrısız, bilateral simetrik ve iyi sınırlı multiloküler görünümlü genetik bir hastalık olup akut enfeksiyon ve düzensiz kemik iliği yıkımı ile seyreden akut osteomiyelitin ayırıcı tanısında yer almaz.\n**Çeldiriciler:**\n- B) Lösemi: Kemik iliği infiltrasyonuna bağlı ağrı, dişlerde mobilite ve yama tarzı düzensiz radyolusent yıkım alanlarıyla akut osteomiyeliti taklit eder.\n- C) Lenfoma: Kemik içi infiltrasyonda düzensiz litik yıkım, ağrı ve parestezi yaparak osteomiyelit ile karışır.\n- D) Osteosarkoma: Hızlı gelişen ağrılı şişlik, düzensiz kemik yıkımı ve periost reaksiyonu nedeniyle ayırıcı tanıya girer.\n- E) Hand-Schüller-Christian hastalığı: Langerhans hücreli histiyositoz grubunda yer alır ve oluşturduğu litik kemik defektleri ile mukoza/diş eti bulguları osteomiyelit ile karışabilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 319,
+    "question": "I. Kemik iliği ödemi\nII. Kemik densitesinde azalma\nIII. Sekestr-skleroz\n\nYukarıdaki bulgulardan hangisi veya hangileri akut osteomyelitin radyolojik bulgularındandır?",
+    "options": {
+      "A": "I ve II",
+      "B": "Yalnız I",
+      "C": "Yalnız III",
+      "D": "II ve III",
+      "E": "I, II, III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** I ve II numaralı bulgular akut osteomiyelite aittir.\n- I. Doğru: Akut osteomiyelitin en erken aşamasında T2 ağırlıklı MRG'de kemik iliği ödemi saptanır.\n- II. Doğru: İlk 7-10 gün konvansiyonel radyograflarda bulgu görülmezken, sonrasında akut evrenin ilk radyografik bulgusu olarak trabeküler kemik densitesinde hafif azalma ve bulanıklaşma izlenir.\n- III. Yanlış: Sekestr (nekrotik kemik adası) ve çevresindeki reaktif skleroz/involukrum oluşumu akut dönemin değil, kronik osteomiyelitin (geç dönemin) bulgusudur.\n**Çeldiriciler:**\n- B) II. öncül de akut dönemin radyografik bulgusudur.\n- C) III. öncül kronik osteomiyelit bulgusudur.\n- D) III. öncül kronik osteomiyelit bulgusudur.\n- E) III. öncül kronik osteomiyelit bulgusudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 320,
+    "question": "Sistemik hastalığı olmayan 17 yaşındaki kadın hasta; son 1 aydır sol alt çene posteriorda hızlı büyüyen, yüzünde belirgin asimetri oluşturan, palpasyonda hafif hassasiyet gösteren şişlik şikâyetiyle başvuruyor. Alınan bilgisayarlı tomografi ve panoramik grafisinde yaklaşık 4 cm boyutunda düzgün sınırlı multiloküler radyolusent lezyon izleniyor. Bu bölgedeki dişlerde; kök rezorpsiyonu, yer değişikliği, lamina dura kaybı, kortikal kemikte incelme ve ekspansiyon saptanıyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dentigeröz kist",
+      "B": "Ameloblastoma",
+      "C": "Travmatik kemik kisti",
+      "D": "Adenomatoid odontojenik tümör (AOT)",
+      "E": "Anevrizmal kemik kisti"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Anevrizmal kemik kisti; olguların %90'ı 30 yaş altında (özellikle 2. dekatta) görülen, mandibula posterior bölgede çok hızlı (1 ay içinde) büyüyerek belirgin fasiyal asimetri ve balonlaşma tarzı ekspansiyon yapan, palpasyonda ağrılı/hassas olan ve radyografide multiloküler görünüm, kök rezorpsiyonu ve diş deplasmanı oluşturan reaktif kemik lezyonudur.\n**Çeldiriciler:**\n- A) Dentigeröz kist: Gömülü diş kronuna tutunan, yavaş büyüyen, ağrısız ve uniloküler bir kisttir.\n- B) Ameloblastoma: Multiloküler ve ekspansif olmakla birlikte yavaş büyür, ağrısızdır ve sıklıkla 40 yaş civarında görülür; 17 yaşında 1 ayda 4 cm'ye ulaşan hassas şişlik anevrizmal kemik kisti lehinedir.\n- C) Travmatik kemik kisti: Asemptomatiktir, kökler arasına skallop uzanır, kök rezorpsiyonu ve belirgin fasiyal asimetri yapmaz.\n- D) Adenomatoid odontojenik tümör: Maksilla anterior bölgede, gömülü kanin dişle ilişkili, yavaş büyüyen ve kalsifikasyon içeren tümördür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 321,
+    "question": "Kırk iki yaşındaki kadın hasta kliniğe yüzünün sol yarısında oluşan şişlik sebebiyle başvuruyor. Klinik olarak palpasyonda ağrı izlenmeyen hastanın panoramik radyografisinde 3 cm genişliğinde multiloküle görünümde lezyon saptanıyor. Lezyonla ilişkili dişlerde lamina dura kaybı, kök rezorbsiyonu ve yer değiştirme izleniyor. Bu lezyon için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Adenomatoid odontojenik tümör (AOT)",
+      "B": "Ameloblastoma",
+      "C": "Dentigeröz kist",
+      "D": "Anevrizmal kemik kisti",
+      "E": "Travmatik kemik kisti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Ameloblastoma; özellikle 40 yaş civarı erişkinlerde, mandibula molar-ramus bölgesinde (%80) görülen, yavaş ve ağrısız büyüyerek fasiyal asimetri ve kortikal ekspansiyon yapan, radyografide sabun köpüğü veya bal peteği şeklinde multiloküler radyolusensi ve diş köklerinde belirgin bıçak kesimi rezorpsiyon ile deplasman oluşturan lokal agresif odontojenik tümördür.\n**Çeldiriciler:**\n- A) Adenomatoid odontojenik tümör: 2. dekatta, maksilla anteriorda görülen ve içinde radyoopak odaklar bulunan uniloküler tümördür.\n- C) Dentigeröz kist: Gömülü diş kronunu çevreleyen uniloküler kisttir.\n- D) Anevrizmal kemik kisti: %90 oranında 30 yaş altında görülür ve palpasyonda ağrılı/hassas, hızlı gelişen şişlik yapar.\n- E) Travmatik kemik kisti: 2. dekatta görülen, diş köklerinde rezorpsiyon ve deplasman yapmayan uniloküler psödokisttir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 322,
+    "question": "Aşağıdaki lezyonlardan hangisinin çenelerde bilateral izlenme olasılığı daha düşüktür?",
+    "options": {
+      "A": "Cherubism",
+      "B": "Ameloblastoma",
+      "C": "Keratokist",
+      "D": "Florid osseoz displazi",
+      "E": "Bukkal bifurkasyon kisti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Ameloblastoma soliter ve unilateral gelişen bir odontojenik tümör olup çenelerde tek taraflı fasiyal asimetriye yol açar; bilateral görülmesi beklenmez.\n**Çeldiriciler:**\n- A) Cherubism: Karakteristik olarak çenelerde bilateral ve simetrik tutulum gösterir.\n- C) Keratokist: Özellikle Gorlin-Goltz sendromu eşliğinde çenelerde bilateral ve multipl olarak sık izlenir.\n- D) Florid osseoz displazi: Tanım gereği bilateral ve simetrik olarak en az iki (sıklıkla dört) kadranı tutar.\n- E) Bukkal bifurkasyon kisti: Mandibular 1. molar dişlerde yaklaşık %30 oranında bilateral olarak izlenebilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 323,
+    "question": "Aşağıdakilerden hangisi multipl miyelom için yanlış bilgidir?",
+    "options": {
+      "A": "Hastada kilo kaybı, ateş, kemik ağrısı olabilir.",
+      "B": "Radyografide \"zımba deliği\" tarzında kemik lezyonları izlenir.",
+      "C": "Sıklıkla T lenfositlerin malign transformasyonu sonucu gelişir.",
+      "D": "Amiloidoz ve hiperkalsemi görülür.",
+      "E": "İdrarda Bence-Jones proteini saptanır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Multipl miyelom T lenfositlerin değil, immünoglobulin üreten B lenfositlerin (plazma hücrelerinin) monoklonal malign proliferasyonu sonucu gelişen bir kemik iliği malignitesidir.\n**Çeldiriciler:**\n- A) Kemik iliği tutulumuna bağlı kemik/sırt ağrısı, anemi, halsizlik, kilo kaybı ve ateş tipik klinik bulgulardır.\n- B) Kafa ve çene kemiklerinde kortikasyon göstermeyen, iyi sınırlı multipl osteolitik \"zımba deliği\" (punched-out) lezyonlar izlenir.\n- D) Yaygın kemik yıkımına bağlı hiperkalsemi ve hafif zincir birikimine bağlı sekonder amiloidoz (örneğin makroglossi) gelişir.\n- E) Monoklonal immünoglobulin hafif zincirlerinin idrarla atılması sonucunda idrarda Bence-Jones proteinürisi saptanır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 325,
+    "question": "Aşağıdaki patolojilerden hangisinin multiple myeloma ile ayırıcı tanısı yapılmaz?",
+    "options": {
+      "A": "Radyolusent metastatik karsinomalar",
+      "B": "Osteomyelit",
+      "C": "Anevrizmal kemik kisti",
+      "D": "Basit kemik kisti",
+      "E": "Hiperparatiroidizm"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Anevrizmal kemik kisti, genç hastalarda (30 yaş altı) görülen, hızlı balonlaşma tarzı ekspansiyon yapan, kaba septalı multiloküler dev bir lezyon olup ileri yaşta kortikasyonsuz multipl küçük litik (zımba deliği) defektler yapan multipl miyelomun ayırıcı tanısında yer almaz.\n**Çeldiriciler:**\n- A) Radyolusent metastatik karsinomalar: Kemikte multipl osteolitik odaklar oluşturduğu için multipl miyelom ile en önemli ayırıcı tanıyı oluşturur.\n- B) Osteomyelit: Multipl miyelomun litik odakları birleştiğinde düzensiz yıkım görüntüsü osteomiyelit ile karışabilir (osteomiyelitte çevre skleroz ve enfeksiyon odağı bulunur).\n- D) Basit kemik kisti: Bilateral veya multipl olduğunda radyolusent odakları karışabilir ancak basit kemik kisti kortike sınırlıdır ve kökler arasına girer.\n- E) Hiperparatiroidizm: Genel osteopeni ve multipl Brown tümörleri (litik odaklar) oluşturması nedeniyle multipl miyelom ile ayırıcı tanıya girer; kan biyokimyası ile ayrılır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 18 - Benign Tümörler",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "q_num": 159,
+    "question": "Sfenoid sinüsü ideal olarak görüntüleyebilmek için aşağıdaki ekstraoral radyografi tekniklerinden hangi ikisinin kullanılması gerekir?",
+    "options": {
+      "A": "Panoramik - Waters",
+      "B": "Panoramik - İnferosüperior zigomatik ark projeksiyonu",
+      "C": "Waters - Reverse Towne",
+      "D": "Reverse Towne - Lateral sefalometrik",
+      "E": "Lateral sefalometrik - İnferosüperior zigomatik ark projeksiyonu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kafatası tabanının merkezinde yer alan sfenoid sinüsün en yüksek verimlilikle (ideal olarak) görüntülendiği iki ekstraoral teknik Lateral sefalometrik radyografi ve Submentoverteks (İnferosüperior zigomatik ark) projeksiyonudur.\n**Çeldiriciler:**\n- A) Panoramik radyografide sfenoid sinüs fokal oluk (focal trough) dışında kaldığı için hiç izlenemez.\n- B) İnferosüperior zigomatik ark (SMV) grafisinde ideal izlense de panoramik radyografide izlenemez.\n- C) Reverse Towne projeksiyonunda sfenoid sinüs değerlendirilemez; Waters grafisinde ise sadece ağız açıkken orta verimlilikle izlenir.\n- D) Reverse Towne grafisi sfenoid sinüsü görüntülemek için uygun değildir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 166,
+    "question": "Panoramik radyografide sert damağın maksiller dişlere süperpozisyonunu engellemek için hasta nasıl konumlandırılmalıdır?",
+    "options": {
+      "A": "Hastanın anterior dişlerinin insizal kenarları ısırtma bloğundaki çentiğe yerleştirilmelidir.",
+      "B": "Hasta, ski (kayakçı) pozisyonunda konumlandırılmalıdır.",
+      "C": "Hastanın orta hattı imaj tabakasının merkezinden geçecek şekilde ayarlanmalıdır.",
+      "D": "Hastanın Frankfurt düzlemi yere paralel olmalıdır.",
+      "E": "Hasta, yutkunduktan sonra dilini sert damağına değdirmelidir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Panoramik radyografi çekiminde hastanın başının aşağı-yukarı eğimini ayarlamak için Frankfurt horizontal düzlemi (infraorbital nokta ile tragus/meatus acusticus externus üst sınırını birleştiren hat) yere paralel hale getirilmelidir. Bu konumlandırma, sert damağın maksiller diş köklerinin daha yukarısına düşmesini sağlayarak kökler üzerine süperpoze olmasını engeller.\n**Çeldiriciler:**\n- A) İnsizal kenarların çentiğe yerleştirilmesi başın ön-arka (antero-posterior) konumunu ayarlar, sert damak süperpozisyonunu önlemez.\n- B) Kayakçı (ski) pozisyonu boynun dikleştirilmesini sağlayarak servikal vertebraların anterior dişler üzerine süperpoze olmasını engeller.\n- C) Orta hattın merkeze ayarlanması sağ ve sol yarıların simetrik büyüklükte çıkmasını sağlar.\n- E) Dilin sert damağa değdirilmesi hava yolunun (radyolüsent bandın) maksiller diş köklerine süperpozisyonunu engeller.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 168,
+    "question": "Panoramik radyografi çekimi esnasında kullanılan ısırma çubuğundaki çentik ile ilgili aşağıdakilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Oklüzyonu bir miktar açar",
+      "B": "Alt ve üst diş tüberküllerinin birbiri üzerine süperpozisyonunu engeller",
+      "C": "Çenelerin focal trough içine konumlandırılmasını sağlar",
+      "D": "Başın medio-lateral pozisyonunu ayarlar",
+      "E": "Çubuk radyografta inherent imaja neden olur"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Isırma çubuğundaki çentik hastanın başının medio-lateral (sağ-sol) pozisyonunu değil, antero-posterior (ön-arka) pozisyonunu ayarlar ve dişlerin fokal oluk (focal trough) içerisine tam olarak yerleşmesini sağlar. Başın medio-lateral pozisyonunu ve rotasyonunu ayarlayan yapı şakak (temporal) destekleridir ve orta hat ışık rehberidir.\n**Çeldiriciler:**\n- A) Hastanın kesici dişleriyle çentiği ısırması alt ve üst çene arasındaki oklüzyonu bir miktar açar.\n- B) Oklüzyonun açılması sayesinde alt ve üst dişlerin kuron ve tüberküllerinin birbiri üzerine süperpoze olması engellenir.\n- C) Çentik, fokal oluğun (imaj tabakasının) tam merkezini temsil ettiği için çenelerin bu netlik alanına yerleşmesini sağlar.\n- E) Isırma çubuğunun plastik aksamı kesici dişlerin kuronları arasında hafif radyolüsent/opak bir \"inherent imaj\" (cihaz kaynaklı doğal görüntü) oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 172,
+    "question": "Dental panoramik radyografiler üzerinde izlenebilen ve yanlış tanı koymaya yol açabilen hayalet görüntülerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hayalet görüntüler orijinal boyutlarından daha büyük ve bulanık görülür.",
+      "B": "Mandibula ramusu, servikal spina ve hyoid kemik gibi normal anatomik yapılar hayalet görüntüye yol açabilir.",
+      "C": "Küpe, kolye ve saç tokası gibi metalik aksesuarlar hayalet görüntülere yol açabilir.",
+      "D": "Panoramik görüntülemede ışın kaynağı ve rotasyon merkezi arasında kalan objeler hayalet görüntü oluşturur.",
+      "E": "Hayalet görüntüler, radyograf üzerinde objenin gerçek yeri ile aynı tarafta ve daha aşağı seviyede izlenir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Panoramik radyografide X-ışını tüpten aşağıdan yukarıya doğru negatif açı ile çıktığı ve rotasyon merkezinden geçip karşı tarafı görüntülediği için; hayalet görüntüler (ghost imajlar) objenin gerçek yeri ile aynı tarafta ve aşağıda değil, gerçek yapının karşı (ters) tarafında ve daha yukarı seviyede izlenir.\n**Çeldiriciler:**\n- A) Hayalet görüntüler fokal oluğun dışında ve ışın kaynağına yakın oldukları için gerçek görüntüden daha büyük (özellikle dikey yönde magnifiye) ve bulanık görülür.\n- B) Mandibula ramusu, angulus, servikal vertebralar ve hyoid kemik gibi yoğun anatomik yapılar karşı tarafta hayalet görüntü oluşturabilir.\n- C) Çekim öncesi çıkarılmayan küpe, kolye, hızma ve saç tokası gibi yüksek yoğunluklu metalik objeler belirgin radyoopak hayalet görüntülere yol açar.\n- D) X-ışını kaynağı ile rotasyon merkezi arasında yer alan yoğun cisimler ışın demeti tarafından ikinci kez taranarak hayalet görüntü oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 173,
+    "question": "Aşağıdakilerden hangisi panoramik radyograf alınırken ışın kaynağı ve rotasyon merkezi arasında kalan objelerin oluşturduğu görüntüyü ifade eder?",
+    "options": {
+      "A": "Gerçek görüntü",
+      "B": "Çift görüntü",
+      "C": "Cone cut",
+      "D": "Süperpozisyon",
+      "E": "Hayalet görüntü"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Panoramik radyografide X-ışını kaynağı ile rotasyon merkezi arasında kalan dens (yoğun) objelerin, gerçek görüntünün karşı tarafında, daha yukarıda, bulanık ve magnifiye olarak oluşturduğu artefakt görüntüsüne \"hayalet görüntü\" (ghost imaj) denir.\n**Çeldiriciler:**\n- A) Gerçek görüntü, rotasyon merkezi ile görüntü reseptörü (film/sensör) arasında ve fokal oluk içinde yer alan cisimlerin oluşturduğu net görüntüdür.\n- B) Çift görüntü, rotasyon merkezinin arkasında ve orta hatta (iki rotasyon merkezi arasında) kalan yapıların iki kez ışınlanmasıyla aynı seviyede oluşan gerçek görüntülerdir.\n- C) Cone cut, ışın demetinin reseptörü tam ortalamaması sonucu filmin bir kısmının ışın almamasıdır.\n- D) Süperpozisyon, aynı ışın yolu üzerindeki iki farklı yapının görüntüsünün birbiri üzerine binmesidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 174,
+    "question": "Aşağıdakilerden hangisi panoramik radyograf alınırken rotasyon merkezinin arkasında kalması sonucu çift görüntüsü oluşan yapılardan birisi değildir?",
+    "options": {
+      "A": "Epiglottis",
+      "B": "Hyoid kemik",
+      "C": "Palatal velum",
+      "D": "Servikal vertebra",
+      "E": "Stylohyoid proçes"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Panoramik radyografide çift görüntüler (double images), orta hat üzerinde ve rotasyon merkezinin arkasında kalan tekil yapıların sağ ve sol tarama sırasında X-ışını ile 2 kez ışınlanması sonucu oluşur (hyoid kemik, servikal vertebra, epiglottis, yumuşak damak/palatal velum ve havayolu). Stylohyoid proçes ise orta hatta yer almayan çift taraflı (bilateral) bir yapı olup rotasyon merkezinin arkasında kalarak çift görüntü oluşturmaz.\n**Çeldiriciler:**\n- A) Epiglottis orta hatta ve rotasyon merkezinin arkasında yer aldığı için panoramikte sağda ve solda çift görüntü verir.\n- B) Hyoid kemik orta hat bölgesinde iki kez ışınlandığı için her iki tarafta çift görüntü oluşturur.\n- C) Palatal velum (yumuşak damak) rotasyon merkezinin arkasında kalarak çift görüntü veren yapılardandır.\n- D) Servikal vertebralar orta hatta rotasyon merkezinin gerisinde yer alır ve hem çift hem de hayalet görüntü oluşturabilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 175,
+    "question": "I. Nazal septum\nII. Servikal vertebra\nIII. Maksiller sinüs\n\nYukarıdakilerden hangileri panoramik radyografide hayalet görüntüye neden olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Panoramik radyografide hayalet görüntü (ghost imaj) oluşabilmesi için yapının X-ışını kaynağı ile rotasyon merkezi arasında yer alması ve X-ışınlarını tutacak kadar yoğun (dens) olması gerekir. Mandibula ramusu, angulus, hyoid kemik ve servikal vertebralar hayalet görüntüye neden olurken; önde yer alan nazal septum ve hava boşluğu olan maksiller sinüs hayalet görüntü oluşturmaz.\n**Çeldiriciler:**\n- A) Nazal septum fokal oluğa yakın/önde yer aldığı için hayalet görüntü oluşturmaz.\n- C) Birinci öncül hayalet görüntüye neden olmaz.\n- D) Ne nazal septum ne de maksiller sinüs hayalet görüntü oluşturur.\n- E) Maksiller sinüs hava dolu bir kavite olup rotasyon merkezinin önünde yer alır, hayalet görüntü vermez.\n\n**Öncüllerin Analizi:**\n- I. Yanlıştır; nazal septum rotasyon merkezi ile reseptör arasında yer alır ve sadece gerçek görüntü oluşturur.\n- II. Doğrudur; servikal vertebralar ışın kaynağı ile rotasyon merkezi arasında kaldığında anterior bölge üzerinde radyoopak hayalet görüntü oluşturur.\n- III. Yanlıştır; maksiller sinüs fokal oluk bölgesinde yer alan hava boşluğudur, hayalet görüntü oluşturmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 176,
+    "question": "Aşağıdaki anatomik yapılardan hangisi panoramik radyografi çekiminde ghost (hayalet) imaja neden olması beklenmez?",
+    "options": {
+      "A": "Mandibula",
+      "B": "Maksilla",
+      "C": "Servikal vertebra",
+      "D": "Ramus",
+      "E": "Hyoid kemik"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Panoramik radyografi çekiminde mandibula korpus/angulusu, ramus, kondil, servikal vertebralar ve hyoid kemik gibi arkada (ışın kaynağı ile rotasyon merkezi arasında) kalan dens anatomik yapılar karşı tarafta hayalet görüntüye (ghost imaja) neden olurken; daha önde ve fokal oluk içinde yer alan maksillanın hayalet imaj oluşturması beklenmez.\n**Çeldiriciler:**\n- A) Mandibula (özellikle alt kenarı ve angulusu) karşı taraf üzerinde hayalet görüntü oluşturur.\n- C) Servikal vertebralar özellikle boyun öne eğildiğinde kesici dişler üzerinde belirgin hayalet imaj verir.\n- D) Mandibula ramusu karşı taraf ramus ve molar bölge üzerinde hayalet görüntü oluşturur.\n- E) Hyoid kemik panoramik radyografide hem çift görüntü hem de hayalet görüntü oluşturabilen bir yapıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 177,
+    "question": "I. Mandibular kondil\nII. Hyoid kemik\nIII. Servikal vertebra\n\nYukarıdaki anatomik yapılardan hangisi ya da hangileri panoramik radyografi çekiminde hem çift görüntüye hem de hayalet görüntüye neden olur?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "Yalnız I",
+      "D": "Yalnız II",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Panoramik radyografide orta hatta ve rotasyon merkezinin arkasında yer alan yapılar (hyoid kemik, servikal vertebra, epiglot, yumuşak damak) iki kez ışınlanarak çift görüntü oluşturur. Bunlardan kemik yoğunluğuna sahip olan hyoid kemik ve servikal vertebralar aynı zamanda ışın kaynağı ile rotasyon merkezi arasında kaldıkları için hem çift görüntüye hem de hayalet görüntüye neden olurlar.\n**Çeldiriciler:**\n- A) Mandibular kondil orta hatta yer almadığı için çift gerçek görüntü oluşturmaz, yalnızca gerçek ve hayalet görüntü oluşturabilir.\n- C) Birinci öncül çift görüntü oluşturan yapılar arasında yer almaz.\n- D) Hyoid kemiğin yanı sıra servikal vertebralar da her iki görüntü tipini oluşturur.\n- E) Servikal vertebralarla birlikte hyoid kemik de hem çift hem hayalet görüntü verir.\n\n**Öncüllerin Analizi:**\n- I. Yanlıştır; mandibular kondil çift taraflı bir yapıdır, rotasyon merkezinin arkasındaki orta hat bölgesinde yer almadığından çift görüntü vermez.\n- II. Doğrudur; hyoid kemik hem çift gerçek görüntü hem de hayalet görüntü oluşturur.\n- III. Doğrudur; servikal vertebralar hem çift görüntü hem de hayalet görüntü oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 178,
+    "question": "I. Objenin gerçek görüntüsünden bulanıktır.\nII. Objenin gerçek görüntüsünün karşı tarafındadır.\nIII. Objenin gerçek görüntüsünden daha aşağıdadır.\nIV. Objenin gerçek görüntüsünden daha magnifiyedir.\n\nYukarıdakilerden hangileri panoramik görüntülerde ghost imajın (hayalet görüntünün) karakteristik özelliklerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve IV",
+      "C": "II, III ve IV",
+      "D": "I ve II",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Panoramik radyografilerde oluşan ghost imaj (hayalet görüntü); gerçek görüntüyü oluşturan objenin karşı (ters) tarafında yer alır, X-ışını demetinin aşağıdan yukarıya (-4° / -7°) açılı gelmesi nedeniyle gerçek görüntüden daha yukarıda izlenir, fokal oluk dışında ve tüpe yakın olduğu için gerçek görüntüden daha bulanık ve daha magnifiye (büyük) görünür. (Not: PDF'te şık dizgisi sonrası cevap anahtarı harfi B yazılmış olsa da açıklamasında ve numaralandırmasında I, II ve IV'ü içeren E seçeneği açıkça doğrulanmıştır; doğru kombinasyon I, II ve IV olan E şıkkıdır).\n**Çeldiriciler:**\n- A) Birinci öncülün yanı sıra karşı tarafta olma (II) ve magnifiye olma (IV) özellikleri de doğrudur.\n- B) Birinci öncüldeki bulanık olma özelliği de hayalet görüntünün temel karakteristiğidir.\n- C) Üçüncü öncül yanlıştır; hayalet görüntü daha aşağıda değil, daha yukarıda yer alır.\n- D) Dördüncü öncüldeki magnifiye olma özelliği eksik bırakılmıştır.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; obje fokal oluk dışında kaldığı için hayalet görüntü gerçek görüntüden çok daha bulanıktır.\n- II. Doğrudur; ışın karşı tarafa doğru ilerlediği için hayalet görüntü objenin gerçek görüntüsünün karşı (ters) tarafında oluşur.\n- III. Yanlıştır; tüpün negatif dikey açısı nedeniyle hayalet görüntü gerçek görüntüden daha aşağıda değil, daha yukarıda izlenir.\n- IV. Doğrudur; obje ışın kaynağına yakın ve filme uzak olduğu için görüntüsü gerçek görüntüden daha magnifiyedir (büyüktür).\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 179,
+    "question": "Aşağıdakilerden hangisi panoramik radyografilerde ghost imajın (hayalet görüntünün) özelliklerinden birisi değildir?",
+    "options": {
+      "A": "Gerçek yapının tersi tarafta yer alır",
+      "B": "Gerçek yapıdan daha yukarıda yer alır",
+      "C": "Gerçek yapıdan daha bulanık izlenir",
+      "D": "Ramus, angulus, servikal spina, hyoid kemik gibi normal anatomik yapılar hayalet görüntü oluşturabilir",
+      "E": "Reseptör ile rotasyon merkezi arasındaki cisimlerin görüntüsüdür"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Reseptör (film/dedektör) ile rotasyon merkezi arasında kalan cisimlerin oluşturduğu görüntü hayalet görüntü değil, \"gerçek görüntü\"dür (real image). Hayalet görüntü ise X-ışını kaynağı ile rotasyon merkezi arasında kalan cisimlerin oluşturduğu görüntüdür.\n**Çeldiriciler:**\n- A) Hayalet görüntü projeksiyon geometrisi nedeniyle gerçek yapının karşı (ters) tarafında izlenir.\n- B) X-ışınının aşağıdan yukarıya doğru açılı gelmesi sebebiyle gerçek yapıdan daha yukarı seviyede yer alır.\n- C) Netlik katmanı (focal trough) dışında kaldığı için gerçek yapıdan daha bulanık ve magnifiye izlenir.\n- D) Ramus, angulus, servikal spina ve hyoid kemik gibi dens anatomik yapılar hayalet görüntü oluşturabilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 181,
+    "question": "Panoramik radyografi tekniğinde hastanın imaj tabakasının (focal trough) önünde konumlanması sonucu görüntüde aşağıdaki değişikliklerden hangisinin izlenmesi en olasıdır?",
+    "options": {
+      "A": "Dar ve bulanık anterior dişler",
+      "B": "Genişlemiş ve bulanık anterior dişler",
+      "C": "Dar ve bulanık posterior dişler",
+      "D": "Genişlemiş ve bulanık posterior dişler",
+      "E": "Birbirleri üzerine süperpoze anterior dişler"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Hastanın ısırma çubuğundaki çentiğin önünden ısırması yani imaj tabakasının (focal trough) önünde konumlanması durumunda, anterior dişler filme (reseptöre) fazla yaklaşır ve fokal oluğun dışına çıkar. Filme yaklaşan anterior dişlerde horizontal magnifikasyon azalır ve dişler mesio-distal yönde dar (\"zayıf diş\") ve bulanık olarak izlenir.\n**Çeldiriciler:**\n- B) Genişlemiş ve bulanık anterior dişler, hastanın fokal oluğun önünde değil, gerisinde (arkasında) konumlanması sonucunda filme uzaklaşmasıyla oluşur.\n- C) İmaj tabakası anterior bölgede çok dar olduğu için ön-arka konum hatalarından öncelikle posterior dişler değil anterior dişler etkilenir.\n- D) Posterior dişlerde tek taraflı genişleme ve bulanıklaşma başın orta hattan sağa veya sola kaydırılması/döndürülmesi durumunda izlenir.\n- E) Ön-arka konum hatasında anterior dişlerde süperpozisyon değil, genişlik (boyut) değişimi ve bulanıklaşma görülür (süperpozisyon premolar bölgede artar).\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 182,
+    "question": "Aşağıda verilen panoramik radyograf pozisyon hatası-görüntü eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Çentiğin önünden ısırılması - Dar ve bulanık anterior dişler",
+      "B": "Çentiğin arkasından ısırılması - Dar ve bulanık anterior dişler",
+      "C": "Baş sağa kaydırılmış olursa - Sağ taraf dişlerde büyüme",
+      "D": "Baş sola kaydırılmış olursa - Sol taraf dişlerde büyüme",
+      "E": "Dudak açık kalırsa - Posterior dişler üzerinde radyolüsensi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Isırma çubuğundaki çentiğin önünden ısırılması durumunda hasta fokal oluğun önüne geçer ve filme yaklaşır; bunun sonucunda anterior dişler daralır ve bulanıklaşır.\n**Çeldiriciler:**\n- B) Çentiğin arkasından (gerisinden) ısırılması durumunda dişler filmden uzaklaştığı için dar değil, geniş ve bulanık anterior dişler oluşur.\n- C) Baş sağa kaydırılmış olursa sağ taraf filme yaklaşır ve küçülür, filmden uzaklaşan sol taraftaki görüntüler büyür.\n- D) Baş sola kaydırılmış olursa sol taraf filme yaklaşır ve küçülür, filmden uzaklaşan sağ taraftaki görüntüler büyür.\n- E) Çekim sırasında dudaklar açık kalırsa posterior dişler üzerinde değil, anterior dişlerin kuronları üzerinde radyolüsensi izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 184,
+    "question": "Aşağıdaki panoramik radyograflarda pozisyon hatasına bağlı artefakt ve hatalı pozisyon eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Dudakların temas ettirilmemesi – Anterior dişler bölgesinde radyolusent alan",
+      "B": "Fokal trough önünde konumlandırma – Anterior dişlerde daralma",
+      "C": "Dilin damağa temas ettirilmemesi – Maksiller alveolar bölgede radyolusent alan",
+      "D": "Kayak pozisyonu verilmemesi – Anterior bölgeye vertebraların hayalet görüntüsünün süperpozisyonu",
+      "E": "Hasta başının öne eğimlendirilmesi – Simfiz ve angulus aynı hizada, ağlayan yüz görünümü"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Hasta başının öne (aşağıya) eğimlendirilmesi durumunda oklüzal düzlem yukarı doğru konkav bir \"fincan tabağı\" şekli alır ve radyografta \"abartılı gülen yüz (kahkaha atan yüz)\" görünümü oluşur, mandibula ise V şeklini alır. Simfiz ve angulusun aynı hizaya gelerek oklüzal düzlemin düzleşmesi veya \"ağlayan/somurtan yüz\" görünümü oluşması ise başın öne değil, arkaya (çenenin yukarı) kaldırılması hatasında görülür.\n**Çeldiriciler:**\n- A) Dudakların açık bırakılması (temas ettirilmemesi), hava geçişine bağlı olarak anterior dişlerin kuronları üzerinde gölgeli radyolusent bir alan oluşturur.\n- B) Hastanın fokal oluğun (focal trough) önünde konumlandırılması anterior dişlerin filme yaklaşarak daralmasına neden olur.\n- C) Dilin sert damağa temas ettirilmemesi, palatoglossal hava yolunun maksiller alveolar/apikal bölgede radyolusent bant oluşturmasına yol açar.\n- D) Hastanın boynunu dikleştiren kayakçı pozisyonunun verilmemesi (boynun öne eğik durması), servikal vertebraların hayalet görüntüsünün anterior bölgeye süperpoze olmasına neden olur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 185,
+    "question": "Panoramik radyografi çekimi sırasında hasta başının öne eğimlendirilmesine bağlı aşağıdaki artefaktlardan hangisinin oluşması beklenmez?",
+    "options": {
+      "A": "Mandibular keser dişler bulanıklaşır.",
+      "B": "Maksilla posterior dişlerde süperpozisyonlar olur.",
+      "C": "Temporomandibular eklem bölgesi tam olarak izlenemez.",
+      "D": "Radyografta abartılı gülen yüz görünümü mevcuttur.",
+      "E": "Vertebralar görüntüde beklenenden daha az izlenir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Hasta başının öne (çenenin aşağıya) eğimlendirilmesi durumunda boyun ve servikal omurlar fokal oluğa ve ışın yoluna yaklaşır; bunun sonucunda vertebralar görüntüde beklenenden daha az değil, aksine beklenenden çok daha fazla (orta hatta radyoopak sütun halinde) izlenir. Vertebraların beklenenden daha az izlenmesi çenenin yukarı kaldırılması durumunda gerçekleşir.\n**Çeldiriciler:**\n- A) Baş öne eğildiğinde mandibular keser dişlerin kökleri fokal oluktan çıktığı için ciddi şekilde kısalır ve bulanıklaşır.\n- B) Maksilla posterior (premolar) dişlerde kontakt süperpozisyonları meydana gelir.\n- C) Kondiller yukarı ve dışarı doğru projekte olduğu için temporomandibular eklem bölgesi film sınırları dışına çıkabilir ve tam izlenemez.\n- D) Oklüzal düzlem derin bir kavis (fincan tabağı şekli) kazanarak abartılı gülen yüz görünümü oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 186,
+    "question": "Panoramik radyografide alt ve üst anterior dişlerinin kronlarının birbiri üstüne süperpoze olmasına aşağıdaki konumlandırma hatalarından hangisi neden olmuştur?",
+    "options": {
+      "A": "Ski pozisyonu verilmemesi",
+      "B": "Midsagittal düzlemin ortalı yerleştirilmemesi",
+      "C": "Hastanın dik durmaması",
+      "D": "Uygun dil pozisyonunun sağlanamaması",
+      "E": "Isırma çubuğu kullanılmaması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Panoramik radyografi çekiminde kullanılan ısırma çubuğu (bloğu), çeneleri fokal oluk içine yerleştirmenin yanı sıra alt ve üst çene arasında belirli bir açıklık (disoklüzyon) sağlayarak kesici dişlerin başa baş gelmesini sağlar ve kuronların üst üste binmesini engeller. Isırma çubuğu kullanılmadığında hasta dişlerini sentrik oklüzyonda kapatır ve alt-üst anterior dişlerin kuronları birbiri üzerine süperpoze olur.\n**Çeldiriciler:**\n- A) Ski (kayakçı) pozisyonu verilmemesi anterior bölgeye servikal vertebra hayalet görüntüsünün düşmesine neden olur.\n- B) Midsagittal düzlemin ortalı yerleştirilmemesi sağ ve sol çene yarılarında asimetrik boyut farkına yol açar.\n- C) Hastanın dik durmaması boyun omurlarının ön dişler üzerine süperpoze olmasına sebep olur.\n- D) Uygun dil pozisyonunun sağlanamaması üst diş kökleri üzerinde radyolüsent hava yolu bandı oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 7 - Radyografik Artefaktlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "question": "Yüksek dayanıklılıktaki dental alçı (geliştirilmiş tip IV sert alçı) için aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Tip V alçıya benzer su/toz oranı vardır.",
+      "B": "Tip III alçıdan yüksek pörözite gösterir.",
+      "C": "Die yapımında kullanılır.",
+      "D": "Çok yüksek abrazyon direncine sahiptir.",
+      "E": "Sertleşme genleşmesi düşüktür."
+    },
+    "correctAnswer": "B",
+    "explanation": "Dental alçılar Tip I'den Tip V'e doğru sınıflandırılır:\n- **A, C, D, E Şıkları:** Tip IV (geliştirilmiş sert alçı/die alçısı) az suyla karıştırılır, ekstra serttir, kron-köprü dayanak (die) yapımında kullanılır, abrazyon direnci çok yüksektir ve sertleşme genleşmesi düşüktür.\n- **B) Tip III alçıdan yüksek pörözite gösterir — YANLIŞTIR:** Tip IV sert alçının kristalleri sıkı ve düzgün kübik yapıda olduğundan gözenekliliği (pörözitesi) Tip III sert alçıdan çok daha DÜŞÜKTÜR. Numara arttıkça pörözite azalır, sertlik artar.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 94,
+    "unit": "12-Çalışma Modelleri ve Day",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Yalancı kök yapımında kullanılması  \nII. Tip III alçıya göre daha az pöröz olması  \nIII. Yüksek abrazyon direnci göstermesi  \n\n**Yukarıda verilenlerden hangisi ya da hangileri Tip IV sert alçının özellikleri arasında yer alır?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-III",
+      "C": "II-III",
+      "D": "I-II",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Tip IV sert alçı (die alçısı) model ve güdük (dayanak/yalancı kök) yapımında kullanılır (I), Tip III modele göre daha az gözeneklidir (II) ve aşınmaya karşı yüksek abrazyon direncine sahiptir (III). Tüm öncüller doğrudur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 95,
+    "unit": "12-Çalışma Modelleri ve Day",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tüm dental alçı tipleri içerisinde en az genleşme gösteren alçı türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tip I",
+      "B": "Tip II",
+      "C": "Tip III",
+      "D": "Tip IV",
+      "E": "Tip V"
+    },
+    "correctAnswer": "D",
+    "explanation": "Dental alçı tipleri arasında **en az sertleşme genleşmesi gösteren alçı Tip IV sert alçıdır** (kron-köprü restorasyonlarının tam oturması için hassas boyutsal stabilite sağlar). En fazla genleşen alçı türü ise yüksek genleşmeli Tip V alçıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 96,
+    "unit": "12-Çalışma Modelleri ve Day",
+    "quality_flag": "cikmis"
+  }
+]

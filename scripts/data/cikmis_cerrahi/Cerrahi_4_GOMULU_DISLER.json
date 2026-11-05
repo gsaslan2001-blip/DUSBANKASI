@@ -1,0 +1,155 @@
+[
+  {
+    "question": "Üçüncü molar dişlerden sonra en sık gömülü kalan dişler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mandibular premolar dişler",
+      "B": "Mandibular kanin dişleri",
+      "C": "Maksiller santral dişler",
+      "D": "Mandibular lateral dişler",
+      "E": "Maksiller kanin dişleri *"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n  * **A şıkkı (Mandibular premolar):** 3. molarlar ve maksiller kaninden sonra 4. sırada gömülü kalır.\n  * **B şıkkı (Mandibular kanin):** Gömülü kalma sıklığı maksiller kanine göre oldukça düşüktür.\n  * **C ve D şıkları (Kesici dişler):** Kesici ve birinci molar dişlerin gömülü kalması popülasyonda son derece nadirdir.\n  * **E şıkkı (Maksiller kanin / Doğru Cevap):** İnsan dentisyonunda en sık gömülü kalan dişler üçüncü molarlardır (önce alt 3. molar, sonra üst 3. molar). Üçüncü molarlardan sonra tüm dentisyonda en sık gömülü kalan diş **maksiller kanin** dişidir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "q_num": 28,
+    "unit": "4 GÖMÜLÜ DİŞLER",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Maksiller üçüncü molar  \nII. Maksiller kanin  \nIII. Mandibular üçüncü molar  \nIV. Mandibular premolar  \nV. Maksiller premolar  \n**Yukarıda verilen dişlerin gömülü kalma olasılıkları, aşağıdakilerin hangisinde doğru sıralanmıştır? (Çoktan aza)**",
+    "options": {
+      "A": "I - II - III - IV - V",
+      "B": "I - III - II - IV - V",
+      "C": "III - I - II - IV - V",
+      "D": "III - II - I - IV - V",
+      "E": "III - I - II - V - IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Ağızdaki dişlerin gömülü kalma sıklığı sıralaması şöyledir:\n    1. **Mandibular üçüncü molar (III)** — En sık\n    2. **Maksiller üçüncü molar (I)** — İkinci en sık\n    3. **Maksiller kanin (II)** — Üçüncü en sık\n    4. **Mandibular premolar (IV)** — Dördüncü en sık\n    5. **Maksiller premolar (V)** — Beşinci en sık\n    6. İkinci molarlar\n    7. Kesiciler ve birinci molarlar (en nadir)\n  * Doğru dizilim **III > I > II > IV > V** (C seçeneği) şeklindedir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 29,
+    "unit": "4 GÖMÜLÜ DİŞLER",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Maksiller kanin  \nII. Maksiller premolar  \nIII. Mandibular premolar  \n**Yukarıda verilen dişlerin gömülü kalma sıklıklarının az olandan çok olana doğru sıralanışı aşağıdakilerden hangisidir?**",
+    "options": {
+      "A": "I - II - III",
+      "B": "I - III - II",
+      "C": "II - III - I",
+      "D": "III - II - I",
+      "E": "III - I - II *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Genel sıklık: Maksiller kanin (en sık) > Mandibular premolar > Maksiller premolar (bu üçlü içinde en az).\n  * Soru **az olandan çok olana** (küçükten büyüğe) sıralama istediği için:  \n    Maksiller premolar (II) < Mandibular premolar (III) < Maksiller kanin (I).  \n  * Doğru sıralama: **II - III - I** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 30,
+    "unit": "4 GÖMÜLÜ DİŞLER",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin 3. molar dişlerde cerrahi çekim endikasyonu oluşturması en az olasıdır?",
+    "options": {
+      "A": "Dişin asemptomatik ve horizontal olarak konumlanmış olması",
+      "B": "Perikoronitis oluşturması",
+      "C": "Komşu dişte rezorpsiyona sebep olması",
+      "D": "Mevcut bölgede ağrıya sebep olması",
+      "E": "Odontojenik kist varlığı *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (En Az Olası / Doğru Cevap):** Tamamen kemik içinde, asemptomatik, komşu doku ve dişlere hiçbir patolojik etkisi olmayan horizontal bir 3. molar dişin sadece pozisyonundan ötürü rutin proflaktik cerrahi çekimi endike değildir; düzenli radyografik takibi yeterlidir.\n  * **B şıkkı (Kesin Endikasyondur):** Yarı gömülü dişlerde tekrarlayan perikoronit atakları en sık çekim endikasyonudur.\n  * **C şıkkı (Kesin Endikasyondur):** İkinci molar dişin distal kökünde basınca bağlı eksternal kök rezorpsiyonu oluşturması acil çekim gerektirir.\n  * **D şıkkı (Kesin Endikasyondur):** İlgili alanda lokalize veya nörolojik yansıyan ağrı kaynağı olması çekim nedenidir.\n  * **E şıkkı (Kesin Endikasyondur):** Gömülü kron çevresinde foliküler genişleme veya kist (özellikle dentigeröz kist) gelişimi kesin cerrahi endikasyondur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2020 Orijinal",
+    "q_num": 31,
+    "unit": "4 GÖMÜLÜ DİŞLER",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Asemptomatik olması  \nII. Horizontal olarak konumlanmış olması  \nIII. İdiyopatik ağrılara neden olması  \nIV. Odontojenik kistle ilişkili olması  \n**Yukarıda verilen durumlardan hangilerinin 3. molar dişlerde cerrahi çekim endikasyonu oluşturma ihtimali yüksektir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız IV",
+      "C": "II ve IV",
+      "D": "III ve IV",
+      "E": "I, II ve III *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **I ve II. öncüller (Endikasyon oluşturmaz):** Asemptomatik ve stabil horizontal dişler patoloji geliştirmedikçe çekim adayı değildir.\n  * **III. öncül (Yüksek İhtimal):** Açıklanamayan yüz ve çene ağrılarında gömülü dişin yarattığı bası semptomları çekim endikasyonudur.\n  * **IV. öncül (Yüksek İhtimal):** Dentigeröz kist, odontojenik keratokist veya ameloblastoma gibi patolojilerle birliktelik cerrahi çekimi zorunlu kılar.\n  * Dolayısıyla III ve IV (D şıkkı) yüksek ihtimalli endikasyonlardır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 32,
+    "unit": "4 GÖMÜLÜ DİŞLER",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt ve üst çenedeki gömülü 3. molar dişlerin çekimi için en zor angulasyon konumu ile ilgili eşleştirmelerden hangisi doğrudur?",
+    "options": {
+      "A": "Mezioanguler | Horizontal |",
+      "B": "Mezioanguler | Distoanguler |",
+      "C": "Vertikal | Mezioanguler |",
+      "D": "Distoanguler | Mezioanguler |",
+      "E": "Horizontal | Distoanguler | *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **Alt Çene İçin:** Gömülü alt 3. molar dişlerde çekim zorluğu angulasyona göre: **Mezioanguler (en kolay) < Horizontal < Vertikal < Distoanguler (en zor)** şeklindedir. Distoanguler dişte kökler ramus ve mandibular kanala doğru bakar, çekim yolu arkadaki ramus kemiği tarafından bloke edilir.\n  * **Üst Çene İçin:** Üst 3. molar dişlerde durum tam tersidir. Çekim zorluğu: **Distoanguler / Vertikal (en kolay) < Horizontal < Mezioanguler (en zor)** şeklindedir. Mezioanguler konumda dişin kronu 2. moların kökleri arasına kilitlenir ve tüber bölgesinde kemik direnci artar.\n  * Dolayısıyla en zor kombinasyon: Üst çenede **Mezioanguler**, Alt çenede **Distoanguler** (B şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 33,
+    "unit": "4 GÖMÜLÜ DİŞLER",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi alt gömülü yirmi yaş diş çekimini kolaylaştıran faktörlerden biridir?",
+    "options": {
+      "A": "Geniş diş folikülü",
+      "B": "Dans kemik yapısı",
+      "C": "Pell ve Gregory sınıflamasında sınıf C derinlik",
+      "D": "Distoangular pozisyon",
+      "E": "Dar periodontal ligament *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * **A şıkkı (Kolaylaştırır / Doğru Cevap):** Geniş diş folikülü kemik ile diş kronu arasında doğal bir boşluk (lüksasyon alanı) oluşturur; kemik retansiyonunu ve cerrahi kemik kaldırma ihtiyacını belirgin azaltarak çekimi kolaylaştırır.\n  * **B şıkkı (Zorlaştırır):** Dans (yoğun) kemik yapısı soketin esnemesini engeller, lüksasyon direncini artırır.\n  * **C şıkkı (Zorlaştırır):** Pell & Gregory Sınıf C derinlikte diş tamamen mandibular ramus/servikal çizginin derininde gömülüdür; en zor derinlik sınıfıdır.\n  * **D şıkkı (Zorlaştırır):** Distoangular angulasyon alt çenede çekimi en zor pozisyondur.\n  * **E şıkkı (Zorlaştırır):** Dar periodontal ligament aralığı dişin kemiğe ankiloze gibi sıkı tutunmasına yol açar, esnemeyi önler.",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS 2021 Orijinal",
+    "q_num": 37,
+    "unit": "4 GÖMÜLÜ DİŞLER",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Geniş folikül aralığı  \nII. İleri yaş  \nIII. Vertikal pozisyon  \nIV. Pell ve Gregory sınıf A derinlik  \n**Yukarıdakilerden hangileri alt gömülü yirmi yaş diş çekimini zorlaştıran faktörlerdendir?**",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "I, II ve III",
+      "E": "II, III ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I. öncül (Kolaylaştırır):** Geniş folikül kemik engelini azaltır.\n  * **II. öncül (Zorlaştırır):** İleri yaşta kemik elastisitesi kaybolur, kemik sklerotikleşir ve kökler ankiloze olabilir.\n  * **III. öncül (Zorlaştırır):** Alt 3. molarlarda en kolay konum mezioangulerdir; vertikal pozisyon mezioangulere kıyasla daha fazla okluzal/koronal kemik retansiyonu içerir ve çekimi daha zordur.\n  * **IV. öncül (Kolaylaştırır):** Sınıf A derinlik, dişin okluzal seviyede olmasıdır ve çekimi en kolay derinlik grubudur.\n  * Zorlaştıranlar **II ve III** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 38,
+    "unit": "4 GÖMÜLÜ DİŞLER",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen dişlerden hangisinin gömüklüğüne en az sıklıkta rastlanır?",
+    "options": {
+      "A": "Maksiller kanin",
+      "B": "Maksiller premolar",
+      "C": "Mandibular premolar",
+      "D": "Mandibular birinci molar",
+      "E": "Mandibular ikinci molar *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * **A, B, C, E şıkları:** Maksiller kanin, premolarlar ve ikinci molarlar gömülü kalma sıklık listesinde üst sıralarda yer alır.\n  * **D şıkkı (En Az Sıklıkta / Doğru Cevap):** Birinci büyük azı dişleri (6 yaş dişleri) arkta ilk süren daimi dişler olduklarından ve önlerinde sürmeyi engelleyecek daimi rehber diş bulunmadığından **birinci molarların gömülü kalması tüm dentisyonda en nadir (en az) görülen tablodur**.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 39,
+    "unit": "4 GÖMÜLÜ DİŞLER",
+    "quality_flag": "cikmis"
+  }
+]

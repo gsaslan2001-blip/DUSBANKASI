@@ -1,0 +1,236 @@
+[
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 135,
+    "question": "Tükürük ve gözyaşı bezlerinde progresif lenfositik infiltrasyon ve yıkım sonucu kuruluk (kseroftalmi ve kserostomi) oluşturan, Ro/SSA ve La/SSB otoantikorları ile seyreden ve Malign Lenfoma riski belirgin artmış olan otoimmün hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sjögren Sendromu",
+      "B": "Sistemik Skleroz",
+      "C": "Romatoid Artrit",
+      "D": "Hashimoto Tiroiditi",
+      "E": "Sistemik Lupus Eritematozus"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sjögren sendromu, ekzokrin bezleri (özellikle lakrimal ve tükürük bezleri) hedef alan otoimmün hastalıktır. T ve B lenfosit infiltrasyonu ile periduktal fokal lenfositik sialadenit oluşur. Serumda anti-Ro (SSA) ve anti-La (SSB) antikorları pozitiftir. Bu hastalarda B hücreli Malign Lenfoma (özellikle MALT lenfoma) gelişme riski 40 kat artmıştır.\n**Çeldiriciler:**\n- B) Sistemik skleroz bağ dokusu fibrozisidir.\n- C) Romatoid artrit eklemlerde pannus dokusu oluşturur.\n- D) Hashimoto tiroiditi tiroit bezinde otoimmün yıkım yapar.\n- E) SLE çoklu organ tutulumlu immün kompleks hastalığıdır.\n---",
+    "flag_reason": null,
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 136,
+    "question": "Sistemik Lupus Eritematozus (SLE) tanısında serolojik olarak böbrek tutulumu ve hastalık aktivitesi ile en korele, patognomonik otoantikor aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Anti-dsDNA",
+      "B": "Romatoit Faktör (RF)",
+      "C": "Anti-Ro (SSA)",
+      "D": "Anti-Scl-70",
+      "E": "Anti-Centromere"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Anti-dsDNA (çift sarmallı DNA antikoru) ve Anti-Sm (Smith antikoru), SLE için spesifiktir. Anti-dsDNA düzeyleri lupus nefriti varlığı ve hastalık alevlenmeleri (aktive) ile doğrudan paralellik gösterir.\n**Çeldiriciler:**\n- B) Romatoit Faktör (RF) Romatoid Artritte pozitiftir.\n- C) Anti-Ro Sjögren Sendromunda pozitiftir.\n- D) Anti-Scl-70 (Topoisomerase I) Diffüz Sistemik Skleroz için spesifiktir.\n- E) Anti-Centromere CREST sendromu (Limitli skleroderma) için spesifiktir.\n---",
+    "flag_reason": null,
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 137,
+    "question": "İlaç veya penisilin kullanımı sonrası gelişen akut anafilaktik reaksiyonlar ve ürtiker aşağıdaki aşırı duyarlılık (hipersensitivite) reaksiyonu tiplerinden hangisine örnektir?",
+    "options": {
+      "A": "Tip I (IgE aracılı / Atopik)",
+      "B": "Tip II (Sitotoksik antikor)",
+      "C": "Tip III (İmmün kompleks)",
+      "D": "Tip IV (Gecikmiş / T hücre aracılı)",
+      "E": "Tip V (Reseptör uyarıcı)"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Tip I aşırı duyarlılık reaksiyonu (Anaphalactic / Atopic), antijenin IgE kaplı mast hücrelerine ve bazofillere bağlanması sonucu gelişen ani degranülasyon (histamin, lökotrien salınımı) olayıdır. Anafilaksi, ürtiker, alerjik astım ve alerjik rinit bu gruptadır.\n**Çeldiriciler:**\n- B) Tip IIsitotoksik IgG/IgM antikorları ile hücre yıkımıdır (Örn: Transfüzyon reaksiyonu, Otoimmün hemolitik anemi).\n- C) Tip III dolaşan antijen-antikor komplekslerinin damar duvarına çökmesidir (Örn: Serum hastalığı, Arthus reaksiyonu).\n- D) Tip IV CD4+/CD8+ T lenfositler aracılı gecikmiş reaksiyondur (Örn: Tüberkülin testi, Temas dermatiti).\n- E) Tip V antikorların reseptörleri stimüle etmesidir (Örn: Graves hastalığı).\n---",
+    "flag_reason": null,
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 2,
+    "question": "Aşağıdaki deri hastalıklarının hangisinde desmoglein molekülüne karşı gelişen otoantikorlar rol oynar?",
+    "options": {
+      "A": "Psoriasis",
+      "B": "Eritema nodosum",
+      "C": "Akne vulgaris",
+      "D": "Pemfigus vulgaris",
+      "E": "Liken planus"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Pemfigus vulgaris, epidermal keratinositleri birbirine bağlayan desmozom (Macula Adherens) yapısındaki Desmoglein-1 ve Desmoglein-3 moleküllerine karşı IgG yapısında otoantikor gelişimiyle seyreden akantolitik intraepidermal büllöz bir hastalıktır.\n**Çeldiriciler:**\n- A) Psoriasis: T hücre kökenli immün yanıt ve epidermal hiperproliferasyon ile karakterizedir.\n- B) Eritema nodosum: Subkutan yağ dokusunun septal pannikülitidir, desmozom hedefli otoantikor içermez.\n- C) Akne vulgaris: Pilosebase ünitenin kronik inflamatuvar hastalığıdır.\n- E) Liken planus: Dermoepidermal bileşkede T hücreli sitotoksik reaksiyon ve bazal tabaka vakuoler dejenerasyonu ile seyreder.\n---",
+    "flag_reason": "TUS 2011 Sonbahar",
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 4,
+    "question": "Pemfigus vulgaris hastalığında oluşan otoantikor aşağıdakilerden hangisine karşı gelişir?",
+    "options": {
+      "A": "Laminin",
+      "B": "Desmoglein",
+      "C": "Tip IV kollajen",
+      "D": "Hemidesmozom",
+      "E": "IgG"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Pemfigus vulgariste otoantikorlar keratinositler arası bağlantıyı sağlayan desmozom yapısındaki Desmoglein proteinlerine karşı gelişir ve akantolize yol açar.\n**Çeldiriciler:**\n- A) Laminin: Mukozal membran pemfigoidinde (epiligrin) hedeflenen bazal membran molekülüdür.\n- C) Tip IV kollajen: Goodpasture sendromunda otoantikorların hedef aldığı bazal membran yapısıdır.\n- D) Hemidesmozom: Büllöz pemfigoidde (BP180 ve BP230) hedeflenen epidermal-dermal bağlantı yapısıdır.\n- E) IgG: Romatoid faktör gibi otoantikorların hedefidir; Pemfigus vulgarisin birincil doku antijeni değildir.\n---",
+    "flag_reason": "DUS 2019",
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 51,
+    "question": "Poliarteritis nodosa'da görülebilen, antijen ve antikor komplekslerinin arter duvarlarında birikimiyle karakterize nekroz tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Koagülasyon nekrozu",
+      "B": "Kazeifikasyon nekrozu",
+      "C": "Likefaksiyon nekrozu",
+      "D": "Fibrinoid nekroz",
+      "E": "Yağ nekrozu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** İmmün komplekslerin (antijen-antikor) ve fibrin proteinlerinin damar duvarında birikmesiyle karakterize nekroz Fibrinoid nekrozdur.\n**Çeldiriciler:**\n- A) Koagülasyon nekrozu: Doku iskemisidir.\n- B) Kazeifikasyon nekrozu: Tüberküloz nekrozudur.\n- C) Likefaksiyon nekrozu: Apsedeki sıvılaşmadır.\n- E) Yağ nekrozu: Yağ dokusu sabunlaşmasıdır.\n---",
+    "flag_reason": "TUS 2018 Sonbahar",
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 97,
+    "question": "Akciğerlerde intraalveoler ve interstisyel birikerek sarkoidozda immünreaksiyona neden olan hücre aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "CD4 lenfosit",
+      "B": "CD8 lenfosit",
+      "C": "Doğal öldürücü (NK) hücre",
+      "D": "B lenfosit",
+      "E": "Plazma hücresi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sarkoidoz nonkazeifiye granülomatöz bir hastalık olup akciğerlerde alveolar CD4+ T Helper lenfositlerin aşırı birikimi ve CD4/CD8 oranının yükselmesi ile karakterizedir.\n**Çeldiriciler:**\n- B) CD8 lenfosit: Aşırı artmaz, CD4/CD8 oranı belirgin yükselir.\n- C) NK hücre: Granülom oluşumunun ana orkestra şefi değildir.\n- D) B lenfosit: Hümoral yanıttadır, granülom çeperinde ikincildir.\n- E) Plazma hücresi: Antikor üretir, sarkoidoz epiteloid granülomunun ana hücresi değildir.\n---",
+    "flag_reason": "TUS 2014 İlkbahar",
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 301,
+    "question": "Otoreaktif T hücrelerinin timustaki negatif seleksiyon mekanizması bozulduğunda ve periferik tolerans yetersiz kaldığında otoimmün hastalıklar gelişmektedir.\nSistematik lupus eritematozus (SLE) tanısı alan 28 yaşındaki bir kadın hastada glomerulonefrit, kelebek döküntü ve artrit saptanmıştır. Bu hastada gözlenen doku hasarından sorumlu temel hipersensitivite reaksiyon tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tip I hipersensitivite",
+      "B": "Tip II hipersensitivite",
+      "C": "Tip III hipersensitivite",
+      "D": "Tip IV hipersensitivite",
+      "E": "Tip V hipersensitivite"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Tip III hipersensitivite reaksiyonları, dolaşan antijen-antikor (immün) komplekslerinin dokularda ve damar duvarlarında çökelmesi (depozisyonu), kompleman aktivasyonu ve nötrofil filtrasyonu sonucu gelişen doku hasarı ile karakterizedir. SLE'de antinükleer antikorlar (ANA) ve dsDNA antikorları doku Antijenleri ile kompleks oluşturarak özellikle böbrek glomerüllerinde ve cildin dermal-epidermal bileşkesinde Tip III reaksiyon hasarına yol açar.\n**Çeldiriciler:**\n- A) Tip I hipersensitivite (anafilaktik/atoptik): IgE antikorları ve mast hücre degranülasyonu ile gerçekleşir; SLE patogenezinde primer rol oynamaz.\n- B) Tip II hipersensitivite (antokora bağımlı sitotoksik): Hücre yüzeyindeki antijenlere doğrudan IgG/IgM bağlanması ile gerçekleşir (örn. Otoimmün hemolitik anemi); SLE'deki sistemik kompleks çökmesine uymaz.\n- D) Tip IV hipersensitivite (gecikmiş/hücresel): T lenfositlerin (Th1, Th17, CTL) aracılık ettiği reaksiyondur; antikor ve immün kompleks birikimine bağlı değildir.\n- E) Tip V hipersensitivite: Antikorların reseptör stimülasyonuna veya blokajına yol açtığı durumdur (örn. Graves hastalığı); SLE glomerulonefrit mekanizmasını açıklamaz.\n---",
+    "flag_reason": null,
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 302,
+    "question": "Oral mukozanın premalign lezyonları ve karsinogenez süreçleri ile ilgili verilen ifadelerden hangileri doğrudur?\n\nI. Epiteliyal displazide pleomorfizm, hiperkromazi ve anormal miotik figürler bazal tabakadan yüzeye doğru yayılım gösterebilir.\nII. Lökoplaki tanısı histopatolojik bir tanı olup epitel hiperkeratozu ve epiteliyal displazi varlığını zorunlu kılar.\nIII. Eritroplaki, lökoplakiye kıyasla daha yüksek oranda şiddetli displazi ve invaziv karsinom riskine sahiptir.",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Epiteliyal displazide hücresel pleomorfizm, nükleer hiperkromazi ve stratifiye skuamöz epitelin üst tabakalarına doğru miotik aktivite yayılımı gözlenir (I doğru). Eritroplaki, kırmızı kadifemsi görünümü ve belirgin vaskülarizasyonu eşliğinde atrofik epitel sergilediğinden, lökoplakiye kıyasla maliniteye dönüşüm riski belirgin şekilde daha yüksektir (%40-50 oranında invaziv karsinom veya şiddetli displazi içerir) (III doğru).\n**Çeldiriciler:**\n- A) Yalnız I şıkkı yanlıştır; çünkü III. öncül de tamamen doğrudur ve kapsanmamıştır.\n- B) Yalnız II şıkkı yanlıştır; çünkü Lökoplaki klinik bir tanı terimidir (kazınamayan beyaz plak) ve histopatolojik olarak hiperkeratoz gösterebileceği gibi displazi içermek zorunda değildir.\n- D) II ve III şıkkı yanlıştır; II. öncül lökoplakinin klinik değil histopatolojik olduğunu iddia ettiği için hatalıdır.\n- E) I, II ve III şıkkı yanlıştır; II. öncül hatalı bilgi içerir.\nÖncül Analizi:\n- I. Öncül (Doğru): Epiteliyal displazinin evrelemesinde atipik hücrelerin epitel kalınlığı boyunca yukarı doğru ilerlemesi ve pleomorfizm/hiperkromazi sergilemesi temel kriterdir.\n- II. Öncül (Yanlış): Lökoplaki klinik bir tanıdır. Biyopsi sonucunda hiperkeratoz, akantoz veya displazi görülebilir; ancak lökoplaki denmesi için displazi şart değildir.\n- III. Öncül (Doğru): Eritroplaki biyopsilerinin %80-90'ında orta/şiddetli displazi veya karsinoma in situ / invaziv karsinom saptanır; bu nedenle lökoplakiden çok daha agresif kabul edilir.\n---",
+    "flag_reason": null,
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 303,
+    "question": "Mandibulada radyoşeffaf lezyon nedeniyle biyopsi yapılan 45 yaşındaki erkek hastanın histopatolojik incelemesinde, yıldızsı retikulum benzeri hücrelerden oluşan odaklar, periferinde palizatik dizilim gösteren hiperkromatik çekirdekli kolumnar hücreler ve ters nükleer polarite gözlenmiştir.\n\nBu hasta için en olası patolojik tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ameloblastom",
+      "B": "Odontojenik keratokist",
+      "C": "Odontoma",
+      "D": "Ameloblastik fibrom",
+      "E": "Sementoblastom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Ameloblastomun en karakteristik mikroskobik bulguları: periferde ters nükleer polarite (çekirdeklerin bazal membrandan uzağa kayması) sergileyen palizatik dizilimli yüksek kolumnar hücreler ve epitel adalarının merkezinde enamel organının stellat retikulumunu taklit eden gevşek retiküler hücre ağından oluşmasıdır.\n**Çeldiriciler:**\n- B) Odontojenik keratokist: 6-8 hücre kalınlığında uniform parakeratize stratifiye skuamöz epitel, ondüle yüzey ve palizatik bazal tabaka gösterir; ters nükleer polariteli kolumnar yıldızsı yapı oluşturmaz.\n- C) Odontoma: Mine, dentin, sement ve pulpa dokularının kalsifiye ve organize/disorganize karışımından oluşan hamartomatöz lezyondur.\n- D) Ameloblastik fibrom: Miksoid hücresel ektomezenkimal stroma içinde odontojenik epitel kordonları içerir ancak klasik amalgam ameloblastomdaki belirgin ters polariteli adalanmaları sergilemez.\n- E) Sementoblastom: Diş kökü ile doğrudan bağlantılı, belirgin se mentoblastlar ve mineralize sement matriksi içeren benign mezankimal tümördür.\n---",
+    "flag_reason": null,
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 304,
+    "question": "Lenf düğümü biyopsisinde Reed-Sternberg (R-S) hücreleri saptanan bir hastada klasik Hodgkin lenfoma tanısı konulmuştur.\n\nReed-Sternberg hücrelerinin immünhistokimyasal profili ve fenotipik özellikleri ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "CD3 ve CD5 pozitifliği sergiler.",
+      "B": "CD15 ve CD30 pozitif, CD45 ve CD20 genel olarak negatiftir.",
+      "C": "CD19 ve CD79a belirgin pozitif olup pan-B marjinal markerları ifade eder.",
+      "D": "Ki-67 indeksi <%5 olup uykuda (indolent) hücrelerden oluşur.",
+      "E": "CD68 ve S100 pozitifliği ile histiositik kökeni doğrulanır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Klasik Hodgkin lenfomadaki (Nodüler sklerozan, karma hücreli, lenfositten zengin, lenfositten fakir) baykuş gözü görünümlü Reed-Sternberg hücreleri karakteristik olarak CD15(+) ve CD30(+) immünoreaktivite gösterirken, CD45 (LCA) ve B-hücre belirteci olan CD20 negatiftir (veya sadece zayıf/fokal pozitiftir).\n**Çeldiriciler:**\n- A) CD3 ve CD5 T-lenfosit belirteçleridir; R-S hücreleri T pan-markerlarını taşımaz.\n- C) CD19 ve CD79a klasik B hücrelerinde negatiftir/kaybolmuştur; R-S hücrelerinde normal B fenotipi baskılanmıştır.\n- D) R-S hücreleri yüksek proliferatif aktiviteye ve nükleer atipiye sahiptir; Ki-67 indeksi son derece yüksektir.\n- E) CD68 (makrofaj) ve S100 (dendritik hücre) R-S hücrelerinin temel ayırt edici markerları değildir.\n---",
+    "flag_reason": null,
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 305,
+    "question": "Granülomatöz iltihap, spesifik mikrobik ve mikrobik olmayan etkenlere karşı gelişen kronik bir yanıt tipidir.\n\nAşağıdaki hastalıklardan hangisinde gözlenen granülom tipinde kazeoz nekroz bulunması beklenir?",
+    "options": {
+      "A": "Sarkoidoz",
+      "B": "Crohn hastalığı",
+      "C": "Tüberküloz",
+      "D": "Yabancı cisim granülomu",
+      "E": "Berylliosis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Tüberküloz enfeksiyonunda Mycobacterium tuberculosis immün yanıtı neticesinde gelişen granülomların merkezinde asidofilik, yapısı bozulmuş hücresel döküntülerden oluşan kazeoz (peynirleşme) nekrozu bulunur.\n**Çeldiriciler:**\n- A) Sarkoidoz: Karakteristik olarak non-kazeifiye (kazeoz nekroz içermeyen) sert granülomlar ile seyreder.\n- B) Crohn hastalığı: GİS duvarında non-kazeifiye granülomlar gösterir.\n- D) Yabancı cisim granülomu: Nekroz içermez; yabancı cismi çevreleyen dev hücreler ve epitelioid histiositler barındırır.\n- E) Berylliosis: Berilyum maruziyetine bağlı gelişen ve kazeoz nekroz içermeyen (non-kazeifiye) granülomatöz akciğer hastalığıdır.\n---",
+    "flag_reason": null,
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 312,
+    "question": "Hücrelerin stres ve uyarılara karşı adaptasyon yanıtları histolojik değişikliklerle sonuçlanır.\n\nAşağıdaki adaptasyon mekanizması ve klinik/patolojik örnek eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Hipertrofi - Gebelikte uterus düz kaslarının büyümesi",
+      "B": "Hiperplazi - Parsiyel hepatektomi sonrası karaciğerin rejenerasyonu",
+      "C": "Atrofi - İmmobilize edilen ekstremitede iskelet kası hacminin azalması",
+      "D": "Metaplazy - Sigara içenlerde solunum epiteli psödostratifiye silindirik yapısının skuamöz epitele dönüşmesi",
+      "E": "Displazi - Kronik iritasyona bağlı olarak miyokard hücrelerinin sayısının artması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Miyokard hücreleri kalıcı (bölünmeyen) hücrelerdir; bu nedenle sayıca artış (hiperplazi) göstermezler, kronik yük altında sadece hacimce büyürler (hipertrofi). Ayrıca displazi, epitel atipisi ve nükleer düzensizlik demektir; kas hücre sayısının artması ile ilişkisi yoktur.\n**Çeldiriciler:**\n- A) Gebelikte uterus hem hipertrofi hem hiperplazi gösterir; organ büyümesi hipertrofiktir (Doğru eşleştirme).\n- B) Karaciğer rejenerasyonu kompanzatuar hiperplaziye örnektir (Doğru eşleştirme).\n- C) Hareketsizlik kas hücrelerinde protein yıkımına ve atrofiye yol açar (Doğru eşleştirme).\n- D) Sigara dumanı kronik iritasyon ile silindirik epiteli daha dayanıklı olan skuamöz epitele dönüştürür (Squamous metaplasia) (Doğru eşleştirme).\n---",
+    "flag_reason": null,
+    "unit": "4- İMMÜN SİSTEM HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  }
+]

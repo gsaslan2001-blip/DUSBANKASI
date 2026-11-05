@@ -1,0 +1,512 @@
+[
+  {
+    "q_num": 191,
+    "question": "I. Kullanılan radyasyon cinsi\nII. Işın demetinin şekli\nIII. Voksel morfolojisi\n\nYukarıdaki parametrelerden hangisi veya hangileri konik ışınlı bilgisayarlı tomografi ve konvansiyonel (medikal) tomografi tekniklerinde aynıdır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Hem konik ışınlı bilgisayarlı tomografide (KIBT) hem de konvansiyonel (medikal) bilgisayarlı tomografide (BT) görüntü elde etmek için kullanılan radyasyon cinsi aynıdır ve her ikisinde de X-ışını kullanılır. Işın demetinin şekli ve voksel morfolojisi ise iki sistem arasında farklılık gösterir.\n**Çeldiriciler:**\n- B) Işın demetinin şekli KIBT'de konik (piramidal) iken medikal BT'de yelpaze (fan-beam) şeklindedir.\n- C) İkinci öncül iki cihazda birbirinden farklıdır.\n- D) Voksel morfolojisi KIBT'de izotropik (kübik) iken medikal BT'de genellikle anizotropiktir (dikdörtgenler prizması).\n- E) İkinci ve üçüncü öncüller her iki teknikte farklıdır.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; her iki tomografi sisteminde de radyasyon kaynağı olarak X-ışını kullanılır.\n- II. Yanlıştır; ışın demeti şekli KIBT'de konik, medikal BT'de ise yelpaze şeklindedir.\n- III. Yanlıştır; voksel yapısı KIBT'de izotropik (tüm kenarları eşit küp), medikal BT'de ise anizotropik (kesit kalınlığına bağlı dikdörtgen prizma) yapıdadır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 192,
+    "question": "Aşağıdakilerden hangisi konvansiyonel tomografide en net izlenen alandır?",
+    "options": {
+      "A": "Tomografik tabaka",
+      "B": "Görüntüleme alanı",
+      "C": "Fokal trough",
+      "D": "Renografi",
+      "E": "Voksel"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Konvansiyonel (kesitsel) tomografi tekniğinde X-ışını tüpü ve film birbirine zıt yönlerde hareket ederken rotasyon merkezinin bulunduğu düzlemdeki yapılar net olarak görüntülenir, bu düzlemin ön ve arkasındaki yapılar ise hareket bulanıklığı ile silinir. Bu teknikte en net izlenen kesit düzlemine \"tomografik tabaka\" (fokal düzlem) denir.\n**Çeldiriciler:**\n- B) Görüntüleme alanı (Field of View - FOV), genel radyolojide ve KIBT'de taranan hacmin büyüklüğünü ifade eden terimdir.\n- C) Fokal trough (imaj tabakası), konvansiyonel düz tomografide değil, panoramik radyografide görüntünün en net izlendiği üç boyutlu at nalı şeklindeki eğimli alana verilen addır.\n- D) Renografi, böbreklerde radyonüklid dağılımının zamana göre oluşturduğu değişikliklerin grafisinin elde edildiği nükleer tıp yöntemidir.\n- E) Voksel, üç boyutlu dijital görüntüyü oluşturan en küçük hacimsel birimdir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 193,
+    "question": "Düşük enerjili X-ışını fotonlarının yüksek atom numaralı materyaller tarafından absorbe edilmesi sonucunda, ışın demetinin ortalama enerjisinin artması ile oluşan ve koyu bantlar şeklinde gözlenen artifakt aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hareket artifaktı",
+      "B": "Halka artifaktı",
+      "C": "Parsiyel hacim artifaktı",
+      "D": "Saçılma artifaktı",
+      "E": "Işın sertleşmesi artifaktı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Polikromatik X-ışını demeti amalgam, metal kuron veya implant gibi yüksek atom numaralı (dens) bir maddeden geçerken düşük enerjili fotonlar tamamen absorbe edilir ve geriye sadece yüksek enerjili fotonlar kalır; böylece ışın demetinin ortalama enerjisi artar. Bu olaya \"ışın sertleşmesi\" (beam hardening) denir ve tomografi kesitlerinde dens yapıların arkasında veya arasında gerçekte var olmayan koyu (radyolüsent) bantlar/çizgiler şeklinde artifakt oluşturur.\n**Çeldiriciler:**\n- A) Hareket artifaktı, tarama sırasında hastanın hareket etmesine bağlı olarak oluşan çift kontur ve bulanıklık görüntüsüdür.\n- B) Halka (ring) artifaktı, BT/KIBT dedektör elemanlarındaki kalibrasyon hatası veya arızaya bağlı olarak kesit merkezinde iç içe geçmiş halkalar şeklinde izlenen artifakttır.\n- C) Parsiyel hacim (volüm) artifaktı, bir vokselin içine farklı yoğunlukta iki dokunun girmesi sonucu bilgisayarın bu iki yoğunluğun ortalamasını alarak gri ton atamasıdır.\n- D) Saçılma (streaking) artifaktı, fotonların yüksek yoğunluklu cisimlerden sapması veya hiç geçememesi (foton açlığı) sonucu oluşan parlak/koyu ışınsal çizgilerdir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 194,
+    "question": "Aksiyel kesit konik ışınlı bilgisayarlı tomografi görüntüsünde amalgam dolgunun veya metalik restorasyonun hemen komşuluğunda çürük benzeri koyu (radyolusent) alan oluşmasına neden olan artifakt aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Metal artifaktı",
+      "B": "Konik ışın etkisi",
+      "C": "Düşük örnekleme",
+      "D": "Parsiyel hacim artifaktı",
+      "E": "Işın sertleşmesi artifaktı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** X-ışını demeti amalgam dolgu gibi yüksek yoğunluklu bir materyalden geçtiğinde düşük enerjili fotonlar tutulur ve ışın demetinin ortalama enerjisi yükselir (ışın sertleşmesi). Dedektöre beklenenden daha yüksek enerjili ışın ulaşması sonucunda rekonstrüksiyon algoritması metalin arkasında kalan sağlam diş dokusunu olduğundan daha düşük yoğunluklu (koyu/radyolusent) olarak hesaplar ve sekonder çürükle karıştırılabilen \"ışın sertleşmesi artifaktı\" oluşur.\n**Çeldiriciler:**\n- A) Metal (streaking) artifaktı genel olarak metalden çevreye yayılan ışınsal parlak ve koyu çizgileri ifade eder; ortalama enerjinin artmasıyla metal komşuluğunda oluşan spesifik koyu bant mekanizması ışın sertleşmesidir.\n- B) Konik ışın etkisi, tarama hacminin (FOV) en üst ve en alt periferik kısımlarında ışın diverjansına bağlı oluşan distorsiyon ve gürültüdür.\n- C) Düşük örnekleme (undersampling), tarama sırasında alınan projeksiyon (baz görüntü) sayısının azlığına bağlı gelişen keskinlik kaybı ve çizgilenmedir.\n- D) Parsiyel hacim artifaktı, büyük voksel boyutlarında farklı dokuların aynı voksel içinde ortalamasının alınmasıyla oluşan basamaklanma ve sınır bulanıklığıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 195,
+    "question": "Aşağıda verilen görüntü özelliklerinin yüksek olduğu teknik eşleştirmelerinden hangisi doğrudur? (BT=Bilgisayarlı Tomografi, KIBT= Konik Işınlı Bilgisayarlı Tomografi)",
+    "options": {
+      "A": "Geometrik çözünürlük: BT – Kontrast çözünürlük: KIBT – Metal artifaktı: KIBT",
+      "B": "Geometrik çözünürlük: BT – Kontrast çözünürlük: KIBT – Metal artifaktı: BT",
+      "C": "Geometrik çözünürlük: KIBT – Kontrast çözünürlük: BT – Metal artifaktı: KIBT",
+      "D": "Geometrik çözünürlük: BT – Kontrast çözünürlük: BT – Metal artifaktı: KIBT",
+      "E": "Geometrik çözünürlük: KIBT – Kontrast çözünürlük: BT – Metal artifaktı: BT"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Konik Işınlı Bilgisayarlı Tomografide (KIBT) izotropik ve çok küçük kübik vokseller kullanıldığı için geometrik (uzaysal) çözünürlük yüksektir. Bilgisayarlı Tomografide (BT) ise yüksek mAs ve dar yelpaze ışın kullanıldığı için kontrast çözünürlüğü (yumuşak doku ayrımı) yüksektir; ayrıca BT'nin kesitsel (yelpaze) tarama düzlemi nedeniyle metal artifaktı da genel olarak daha şiddetli ve fazladır.\n**Çeldiriciler:**\n- A) Geometrik çözünürlük BT'de değil KIBT'de yüksektir; kontrast çözünürlük ise KIBT'de değil BT'de yüksektir.\n- B) Geometrik ve kontrast çözünürlük eşleştirmeleri tam tersi şekilde yanlış verilmiştir.\n- C) Metal artifaktının şiddetli olma durumu bu karşılaştırmada BT'ye atfedilmiştir.\n- D) Geometrik çözünürlük izotropik voksel yapısından ötürü BT'de değil KIBT'de daha yüksektir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 199,
+    "question": "I. Okluzal radyografi\nII. Konik ışınlı bilgisayarlı tomografi\nIII. Paralel teknik\nIV. Konvansiyonel sialografi\n\nYukarıdaki görüntüleme tekniklerinden hangisi ya da hangileri radyoopak olarak görülen submandibular sialolit teşhisi için kullanılabilir?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yalnız IV",
+      "C": "I ve II",
+      "D": "III ve IV",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Wharton kanalında veya submandibular bezde yer alan radyoopak sialolitlerin (tükürük bezi taşlarının) görüntülenmesinde ağız tabanını süperpozisyonsuz gösteren mandibular oklüzal radyografi en ideal geleneksel tekniktir; ayrıca üç boyutlu konum ve boyut tespiti için konik ışınlı bilgisayarlı tomografi (KIBT) de kullanılır. Periapikal paralel teknikte film ağız tabanında taşın önüne yerleştiği için taş görüntüsü filme düşmez; sialografi ise taş varlığında taşı geriye itme riski nedeniyle tercih edilmez (sadece radyolüsent taşlarda kullanılır).\n**Çeldiriciler:**\n- A) Paralel teknikte intraoral film alveol kretinin hemen lingualine yerleşir ve ağız tabanındaki sialolitin görüntüsü film üzerine düşmez.\n- B) Konvansiyonel sialografi radyoopak taşlarda taşı daha derine itebileceği için kontrendikedir; yalnızca düz grafide görülmeyen radyolüsent sialolitlerin tespitinde kullanılır.\n- D) Hem üçüncü hem de dördüncü öncül radyoopak submandibular sialolit teşhisi için uygun değildir.\n- E) Dördüncü öncüldeki sialografi kanal ağzına yakın radyoopak taşlarda uygulanmaz.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; oklüzal radyografi ağız tabanındaki radyoopak submandibular sialolitlerin görüntülenmesinde ilk tercih edilen ideal yöntemdir.\n- II. Doğrudur; KIBT yüksek geometrik çözünürlüğü ile radyoopak sialolitlerin üç boyutlu lokalizasyonunda kullanılır.\n- III. Yanlıştır; periapikal paralel teknikte film ağız tabanının önünde/üstünde kaldığı için submandibular sialoliti görüntüleyemez.\n- IV. Yanlıştır; konvansiyonel sialografi radyolüsent sialolitler için kullanılır, bilinen radyoopak taşlarda taşı bez içine itme riski taşır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 203,
+    "question": "I. Konik ışınlı bilgisayarlı tomografi\nII. Artrografi\nIII. Manyetik rezonans görüntüleme\n\nTemporomandibuler eklem diski yukarıdaki tekniklerden hangileri ile tam olarak görüntülenebilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Temporomandibuler eklem (TME) diski fibröz kıkırdak yapısında bir yumuşak doku komponentidir ve görüntülenebilmesi için yumuşak dokuyu doğrudan veya dolaylı olarak gösterebilen yöntemler olan Artrografi (II) ve Manyetik rezonans görüntüleme (III) kullanılmalıdır.\n- **I. Öncül (Yanlış):** Konik ışınlı bilgisayarlı tomografi (KIBT) yalnızca eklemin kemik ve sert doku komponentlerini (kondil, artiküler eminens, glenoid fossa) görüntüler; yumuşak doku kontrast çözünürlüğü düşük olduğundan eklem diskini gösteremez.\n- **II. Öncül (Doğru):** Artrografi, alt ve/veya üst eklem boşluklarına radyoopak kontrast madde enjekte edilerek eklem diskinin morfolojisini, konumunu, adezyon ve perforasyonunu görüntüleyen yöntemdir.\n- **III. Öncül (Doğru):** Manyetik rezonans görüntüleme (MRG), iyonize radyasyon kullanmadan TME'nin yumuşak doku komponentlerini ve eklem diskini doğrudan görüntülemede altın standarttır.\n\n**Çeldiriciler:** KIBT (I) yumuşak doku yapısındaki diski görüntüleyemediği için A ve D şıkları; B ve C şıkları ise diski görüntüleyebilen diğer yöntemi eksik bıraktığı için yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 204,
+    "question": "I. Konik ışınlı bilgisayarlı tomografi\nII. Konvansiyonel tomografi\nIII. Manyetik rezonans görüntüleme\nIV. Artrografi\n\nTemporomandibuler eklem disk deplasmanı yukarıda verilen görüntüleme yöntemlerinden hangileri ile izlenebilir?",
+    "options": {
+      "A": "I-II",
+      "B": "I-III",
+      "C": "II-III",
+      "D": "II-IV",
+      "E": "III-IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Temporomandibuler eklem (TME) disk deplasmanları yumuşak doku patolojisi olduğundan, eklemin yumuşak doku bileşenlerini gösteren Manyetik rezonans görüntüleme (III) ve Artrografi (IV) ile izlenebilir.\n- **I. Öncül (Yanlış):** Konik ışınlı bilgisayarlı tomografi (KIBT) sadece TME'nin kemik komponentlerini görüntüler, disk deplasmanını gösteremez.\n- **II. Öncül (Yanlış):** Konvansiyonel tomografi sadece TME'nin kemik yapılarını kesitsel olarak görüntüler, yumuşak doku olan diski gösteremez.\n- **III. Öncül (Doğru):** MRG, eklem diskinin normal konumunu ve dislokasyonlarını/deplasmanlarını doğrudan görüntüler.\n- **IV. Öncül (Doğru):** Artrografi, eklem boşluklarına verilen kontrast madde aracılığıyla diskin hareketlerini ve deplasmanını gösterir.\n\n**Çeldiriciler:** I ve II numaralı yöntemler yalnız sert doku görüntülemesi sağladığından A, B, C ve D şıkları yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 206,
+    "question": "I. Mandibular kondil\nII. Artiküler eminens\nIII. Eklem aralığı\nIV. Disk\n\nYukarıdaki temporomandibuler eklem komponentlerinden hangileri konik ışınlı bilgisayarlı tomografi ile tam olarak görüntülenebilir?",
+    "options": {
+      "A": "I ve IV",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "I, II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Konik ışınlı bilgisayarlı tomografi (KIBT) yüksek uzaysal çözünürlüğe sahip bir sert doku görüntüleme yöntemidir. Aksiyal, koronal ve sagittal planlarda süperpozisyonsuz değerlendirme sağlayarak eklemin kemik yapıları olan mandibular kondil (I) ve artiküler eminensi (II) doğrudan, bu iki kemik yapı arasındaki mesafe olan eklem aralığını (III) ise kondiler pozisyonla birlikte tam olarak görüntüler.\n- **I. Öncül (Doğru):** Mandibular kondil kortikal ve trabeküler kemik yapısında olduğundan KIBT ile tam olarak görüntülenir.\n- **II. Öncül (Doğru):** Temporal kemiğin parçası olan artiküler eminens kemik yapısında olduğundan KIBT ile tam olarak görüntülenir.\n- **III. Öncül (Doğru):** Kondil başı ile glenoid fossa/artiküler eminens arasındaki radyolusent eklem aralığı KIBT kesitlerinde net olarak değerlendirilir.\n- **IV. Öncül (Yanlış):** Eklem diski yumuşak doku (fibrokartilaj) yapısında olduğundan KIBT ile görüntülenemez.\n\n**Çeldiriciler:** IV. öncüldeki eklem diski KIBT ile izlenemediği için A, D ve E şıkları; B şıkkı ise mandibular kondili (I) dışarıda bıraktığı için yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 207,
+    "question": "Aşağıdaki temporomandibular ekleme ait rahatsızlıklardan hangisinin konik ışınlı bilgisayarlı tomografi ile görüntülenmesi beklenmez?",
+    "options": {
+      "A": "Ankiloz",
+      "B": "Neoplazmlar",
+      "C": "Disk adezyonu",
+      "D": "Fraktürler",
+      "E": "Heterotopik kemik"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Konik ışınlı bilgisayarlı tomografi (KIBT) sert dokuların incelenmesinde kullanılır; eklem diski veya yumuşak dokuları hakkında yorum yapılamaz. Disk adezyonu (eklem diskinin kapsül veya artiküler yüzeylere fibröz yapışıklığı) yumuşak doku kaynaklı bir patoloji olduğundan KIBT ile görüntülenmesi beklenmez; teşhisi için artrografi (veya MRG) gerekir.\n**Çeldiriciler:**\n- **A) Ankiloz:** Eklem yüzeyleri arasındaki kemiksel kaynaşma KIBT ile net olarak görüntülenir.\n- **B) Neoplazmlar:** Eklem kemiklerini tutan benign veya malign sert doku neoplazmları KIBT ile değerlendirilebilir.\n- **C) Fraktürler:** Kondil başı, boynu ve glenoid fossa kırıkları KIBT ile süperpozisyonsuz olarak tespit edilir.\n- **E) Heterotopik kemik:** Eklem çevresi yumuşak dokularda oluşan anormal kalsifikasyon ve kemikleşmeler KIBT'de radyoopak olarak izlenir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 208,
+    "question": "I. Artrografi\nII. Panoramik radyografi\nIII. Konik ışınlı bilgisayarlı tomografi\n\nTME'nin kemik komponentlerinin incelenmesinde yukarıdaki görüntüleme yöntemlerinden hangisi veya hangileri kullanılabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I, II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Temporomandibuler eklemin kemik komponentlerinin incelenmesinde sert dokuları görüntüleyen Panoramik radyografi (II) ve Konik ışınlı bilgisayarlı tomografi (III) kullanılabilir.\n- **I. Öncül (Yanlış):** Artrografi, eklem boşluğunun içerisine kontrast madde verilip eklemin yumuşak doku komponentlerinin (disk morfolojisi, perforasyon, adezyon) incelendiği işlemdir; kemik komponentleri hakkında bilgi vermez.\n- **II. Öncül (Doğru):** Panoramik radyografi yalnızca sert dokuları incelemek için kullanılabilir; kondiler asimetriler, geniş erozyon sahaları, büyük osteofitler, tümörler ve fraktürler gibi büyük kemik patolojileri hakkında fikir verir.\n- **III. Öncül (Doğru):** Konik ışınlı bilgisayarlı tomografi (KIBT), TME kemik komponentlerini süperpozisyonsuz olarak üç boyutta (aksiyal, koronal, sagittal) en detaylı şekilde görüntüler.\n\n**Çeldiriciler:** Artrografi (I) kemik komponentleri incelemede kullanılmadığı için A, B, D ve E şıkları yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 211,
+    "question": "Aşağıdakilerden hangisi Bilgisayarlı Tomografi için doğru değildir?",
+    "options": {
+      "A": "Koronal, sagital ve aksiyel kesitlerde görüntüler oluşturulabilir.",
+      "B": "Üç boyutlu görüntü elde edilebilir.",
+      "C": "Kontrast çözünürlüğü konik ışınlı bilgisayarlı tomografiye göre yüksektir.",
+      "D": "Densite farklılıkları en az % 10 olan yapılar ayırdedilebilir.",
+      "E": "Bilgisayarlı tomografide süperpozisyon izlenmez."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Bilgisayarlı tomografinin (BT) kontrast çözünürlüğü, oluşturabildiği geniş gri ton skalasına bağlı olarak çok yüksektir ve dokular arasındaki **%1'in altındaki** yoğunluk (densite) farklarını dahi algılayıp ayırt edebilir. Densite farkının ayırt edilebilmesi için en az %10–30 fark gerekmesi konvansiyonel iki boyutlu radyografiler için geçerli olan bir kısıtlılıktır.\n**Çeldiriciler:**\n- **A) Koronal, sagital ve aksiyel kesitlerde görüntüler oluşturulabilir:** BT multiplanar görüntüleme sağlar.\n- **B) Üç boyutlu görüntü elde edilebilir:** Elde edilen kesitsel verilerin bilgisayar ortamında birleştirilmesiyle 3 boyutlu görüntüler oluşturulur.\n- **C) Kontrast çözünürlüğü konik ışınlı bilgisayarlı tomografiye göre yüksektir:** BT'de saçılan radyasyon daha az ve mA değeri daha yüksek olduğundan yumuşak doku/kontrast çözünürlüğü KIBT'den üstündür.\n- **E) Bilgisayarlı tomografide süperpozisyon izlenmez:** Kesitsel ve hacimsel bir görüntüleme yöntemi olduğu için dokular birbiri üzerine süperpoze olmaz.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 212,
+    "question": "I. Manyetik rezonans görüntüleme\nII. Bilgisayarlı tomografi\nIII. Ultrasonografi\nIV. Dental volumetrik tomografi\nV. Floroskopi\n\nYukarıdaki görüntüleme tekniklerinin hangileri görüntüleme sırasında iyonlaştırıcı radyasyon kullanmaz?",
+    "options": {
+      "A": "I ve IV",
+      "B": "II ve V",
+      "C": "II ve IV",
+      "D": "I ve III",
+      "E": "III ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Manyetik rezonans görüntülemede (I) güçlü manyetik alan ve radyofrekans dalgaları, Ultrasonografide (III) ise yüksek frekanslı ses dalgaları kullanılır. Radyofrekans ve ses dalgalarının iyonlaştırıcı etkileri yoktur.\n- **I. Öncül (Kullanmaz):** MRG elektromanyetik spektrumun iyonize olmayan radyofrekans bölgesini kullanır.\n- **II. Öncül (Kullanır):** Bilgisayarlı tomografi (BT) yelpaze şeklinde X-ışını (iyonlaştırıcı radyasyon) kullanır.\n- **III. Öncül (Kullanmaz):** Ultrasonografi mekanik ses dalgaları kullanır, radyasyon içermez.\n- **IV. Öncül (Kullanır):** Dental volumetrik tomografi (KIBT) konik X-ışını demeti kullanır.\n- **V. Öncül (Kullanır):** Floroskopi X-ışınları kullanarak gerçek zamanlı (hareketli) 2 boyutlu görüntü üreten radyolojik cihazdır.\n\n**Çeldiriciler:** II (BT), IV (DVT) ve V (Floroskopi) X-ışını kullandığı için bu öncülleri içeren A, B, C ve E şıkları yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 213,
+    "question": "Aşağıdaki görüntüleme metotlarından hangi ikilide iyonize radyasyon kullanılmaz?",
+    "options": {
+      "A": "Bilgisayarlı tomografi- Artrografi",
+      "B": "Manyetik rezonans görüntüleme-Bilgisayarlı tomografi",
+      "C": "Ultrasonografi- Dental volumetrik tomografi",
+      "D": "Ultrasonografi- Manyetik rezonans görüntüleme",
+      "E": "Floroskopi-Artrografi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Ultrasonografide yüksek frekanslı ses dalgaları, Manyetik rezonans görüntülemede (MRG) ise manyetik alan ve radyofrekans dalgaları kullanılır; her iki yöntemde de iyonize radyasyon (X-ışını) kullanılmaz.\n**Çeldiriciler:**\n- **A, B, C ve E şıkları:** Bu seçeneklerde yer alan Bilgisayarlı tomografi, Artrografi, Dental volumetrik tomografi (KIBT) ve Floroskopi yöntemlerinin tamamında görüntü elde etmek amacıyla iyonize edici X-ışınları kullanılır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 218,
+    "question": "Aşağıdakilerden hangisi konik ışınlı bilgisayarlı tomografinin bilgisayarlı tomografiye göre avantajlarından biri değildir?",
+    "options": {
+      "A": "Görüntüleme süresi daha kısadır",
+      "B": "Radyasyon dozu daha düşüktür",
+      "C": "Rekonstrüksiyon süresi daha kısadır",
+      "D": "Yumuşak doku çözünürlüğü daha iyidir",
+      "E": "Cihazın boyutu daha küçüktür"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Konik ışınlı bilgisayarlı tomografilerde (KIBT) saçılan radyasyon (skatter) oranı yüksek ve kontrast rezolüsyonu medikal bilgisayarlı tomografiye (BT) göre daha düşüktür. Bu nedenle KIBT'nin **yumuşak doku çözünürlüğü iyi değildir**; yumuşak doku değerlendirmesinde medikal BT (ve MRG) çok daha üstündür.\n**Çeldiriciler:**\n- **A) Görüntüleme süresi daha kısadır:** Tek bir rotasyonla (180–360 derece) hacimsel veri alındığından tarama süresi daha kısadır.\n- **B) Radyasyon dozu daha düşüktür:** Medikal BT'ye kıyasla hastanın aldığı efektif radyasyon dozu belirgin şekilde düşüktür.\n- **C) Rekonstrüksiyon süresi daha kısadır:** Veriler kişisel bilgisayarlarda hızlıca rekonstrükte edilebilir.\n- **E) Cihazın boyutu daha küçüktür:** Panoramik cihazlara benzer kompakt boyutu sayesinde dental muayenehanelerde kullanılabilir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 219,
+    "question": "Aşağıdaki görüntüleme endikasyonlarından hangisi Konik Işınlı Bilgisayarlı Tomografi için doğru değildir?",
+    "options": {
+      "A": "Multiplanar projeksiyonlar rotasyon boyunca gerçekleştirilir.",
+      "B": "Yapısal maksillofasiyal deformitelerin değerlendirilmesinde kullanılır.",
+      "C": "İmplant öncesi kemik miktarının belirlenmesinde kullanılır.",
+      "D": "TME disk düzensizliklerinin belirlenmesinde kullanılır.",
+      "E": "Temporomandibular eklem düzensizliklerinde kullanılır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** TME disk düzensizlikleri yumuşak doku kaynaklı bir patoloji oluşturduğu için sert doku görüntüleme yöntemi olan Konik Işınlı Bilgisayarlı Tomografi (KIBT) ile görüntülenemez; disk düzensizliklerinin belirlenmesinde MRG kullanılır.\n**Çeldiriciler:**\n- **A) Multiplanar projeksiyonlar rotasyon boyunca gerçekleştirilir:** KIBT'de ışın kaynağı ve dedektörün rotasyonuyla elde edilen hacimsel veriden multiplanar kesitler oluşturulur.\n- **B) Yapısal maksillofasiyal deformitelerin değerlendirilmesinde kullanılır:** Ortognatik cerrahi ve ortodontik iskeletsel analizlerde endikedir.\n- **C) İmplant öncesi kemik miktarının belirlenmesinde kullanılır:** Alveoler kemik yüksekliği, genişliği ve anatomik komşulukların (mandibular kanal, mental foramen, maksiller sinüs) belirlenmesinde kullanılır.\n- **E) Temporomandibular eklem düzensizliklerinde kullanılır:** TME'nin kemiksel düzensizliklerinin (osteoartrit, erozyon, osteofit, ankiloz, kırık) değerlendirilmesinde kullanılır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 220,
+    "question": "Çalışma prensipleri ile ilgili, aşağıdakilerden hangisi Konik ışınlı bilgisayarlı tomografi ile ilgili doğru bilgi değildir?",
+    "options": {
+      "A": "Hasta sabit, X ışını kaynağı ve reseptör hareketlidir.",
+      "B": "Cihaz 180 – 360 derece dönerek görüntü oluşturur.",
+      "C": "Üç boyutlu yapının görüntüsü iki boyutlu reseptör üzerine düşürülür.",
+      "D": "Konik ışınlı bilgisayarlı tomografide ilk önce kesitsel görüntü oluşur.",
+      "E": "360 derecelik dönüş sırasında 600'e yakın görüntü oluşturur."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Konik ışınlı bilgisayarlı tomografide (KIBT) konik şekilli X-ışını demeti kullanılarak ilk önce üç boyutlu **hacimsel görüntü** (volümetrik veri) oluşur; daha sonra bu hacimsel görüntü bilgisayar algoritmalarıyla kesitlere bölünür. İlk önce kesit görüntüsünün oluşması yelpaze ışın demeti kullanan medikal BT'nin özelliğidir.\n**Çeldiriciler:**\n- **A) Hasta sabit, X ışını kaynağı ve reseptör hareketlidir:** Panoramik radyografi cihazları gibi hasta sabit dururken tüp ve dedektör hasta başı etrafında döner.\n- **B) Cihaz 180 – 360 derece dönerek görüntü oluşturur:** Cihaz tipine ve protokole göre yarım veya tam tur rotasyon yapar.\n- **C) Üç boyutlu yapının görüntüsü iki boyutlu reseptör üzerine düşürülür:** Konik ışın demeti üç boyutlu objeyi tarayarak iki boyutlu düz panel dedektöre kaydeder.\n- **E) 360 derecelik dönüş sırasında 600'e yakın görüntü oluşturur:** Rotasyon boyunca her derecede 1 veya daha fazla projeksiyon (baz görüntü) alarak yüzlerce ham görüntü kaydeder.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 221,
+    "question": "I. Yumuşak doku kontrast çözünürlüğünün daha yüksek olması\nII. Radyasyon dozunun daha düşük olması\nIII. Uzaysal çözünürlüğünün daha yüksek olması\n\nYukarıdakilerden hangileri konik ışınlı bilgisayarlı tomografinin multidedektör bilgisayarlı tomografiye göre üstün özelliklerindendir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "Yalnız II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Konik ışınlı bilgisayarlı tomografi (KIBT), multidedektör bilgisayarlı tomografiye (MDBT) göre daha düşük radyasyon dozu (II) ve izotropik küçük vokselleri sayesinde daha yüksek uzaysal (geometrik) çözünürlük (III) sunar.\n- **I. Öncül (Yanlış):** Yumuşak doku kontrast çözünürlüğü MDBT'de yüksek, KIBT'de ise saçılma ve gürültü fazla olduğu için düşüktür.\n- **II. Öncül (Doğru):** KIBT'de hasta radyasyon dozu MDBT'ye göre oldukça düşüktür.\n- **III. Öncül (Doğru):** KIBT izotropik (kübik) ve milimetrenin altında voksel boyutlarına sahip olduğundan uzaysal (geometrik) çözünürlüğü MDBT'den daha yüksektir.\n\n**Çeldiriciler:** I. öncül KIBT'nin değil MDBT'nin üstün özelliği olduğundan A, C ve E şıkları; D şıkkı ise III. öncülü içermediğinden yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 222,
+    "question": "Konik Işınlı Bilgisayarlı Tomografi (KIBT) ve Medikal Bilgisayarlı Tomografi (BT) karşılaştırıldığında, KIBT'nin sunduğu avantajlardan hangileri doğrudur?",
+    "options": {
+      "A": "Daha yavaş veri eldesi ve anizotropik voksel yapısı",
+      "B": "Düşük maliyet, dental muayenehanelerde kullanım imkanı ve hızlı görüntü rekonstrüksiyonu",
+      "C": "Yüksek radyasyon dozu ve belirgin yumuşak doku kontrastı",
+      "D": "Yelpaze şeklinde X ışını demeti ve ilk olarak kesit görüntüsü oluşumu",
+      "E": "Yüksek metal artifaktı ve düşük geometrik çözünürlük"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Konik ışınlı bilgisayarlı tomografi (KIBT); medikal BT'ye göre daha düşük maliyetli olması, kompakt boyutlarıyla dental muayenehanelerde kullanılabilmesi, düşük radyasyon dozu, hızlı veri eldesi ve kişisel bilgisayarlarda hızlı görüntü rekonstrüksiyonu sağlaması yönleriyle üstündür.\n**Çeldiriciler:**\n- **A) Daha yavaş veri eldesi ve anizotropik voksel yapısı:** Yavaş rekonstrüksiyon ve anizotropik voksel yapısı KIBT'ye değil, medikal BT'ye aittir (KIBT izotropik voksel yapısına sahiptir ve hızlıdır).\n- **C) Yüksek radyasyon dozu ve belirgin yumuşak doku kontrastı:** Medikal BT'ye ait özelliklerdir.\n- **D) Yelpaze şeklinde X ışını demeti ve ilk olarak kesit görüntüsü oluşumu:** Medikal BT'nin çalışma prensibidir (KIBT'de konik ışın demeti kullanılır ve ilk önce hacimsel görüntü oluşur).\n- **E) Yüksek metal artifaktı ve düşük geometrik çözünürlük:** Medikal BT'de metal artefaktı daha yüksek, geometrik çözünürlük ise KIBT'ye göre daha düşüktür.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 223,
+    "question": "TME bölgesinde eklem efüzyonunu görüntülemekte aşağıdaki görüntüleme yöntemlerinden hangisi kullanılır?",
+    "options": {
+      "A": "TME grafisi",
+      "B": "Manyetik rezonans görüntüleme",
+      "C": "Multidedektör bilgisayarlı tomografi",
+      "D": "Konik ışınlı bilgisayarlı tomografi",
+      "E": "Ultrasonografi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Eklem efüzyonu (TME boşluğunda inflamatuar sıvı birikimi), yumuşak doku ve sıvı kontrastını en iyi gösteren **Manyetik rezonans görüntüleme (MRG)** ile (özellikle T2 ağırlıklı kesitlerde parlak/hiperintens sinyal olarak) izlenebilir.\n**Çeldiriciler:**\n- **A) TME grafisi, C) Multidedektör bilgisayarlı tomografi ve D) Konik ışınlı bilgisayarlı tomografi:** Bu yöntemler sert doku (kemik) yapılarını görüntüler; eklem içi efüzyonu (sıvı birikimini) gösteremezler.\n- **E) Ultrasonografi:** Kemik yapılarla çevrili eklem boşluğu içindeki efüzyonu ve disk patolojilerini değerlendirmede MRG gibi standart ve yeterli bir görüntüleme sağlamaz.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 224,
+    "question": "Endodontik tanı ve tedavi amacıyla 3 boyutlu görüntü elde edilirken küçük görüntüleme alanı seçilmesinin teşhis ve planlama açısından en önemli nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kısa sürede değerlendirme yapılması",
+      "B": "Görüntünün daha hızlı elde edilmesi",
+      "C": "Uzaysal çözünürlüğün yüksek olması",
+      "D": "Görüntüdeki hareket artefaktının azalması",
+      "E": "Sinyal-gürültü oranının azalması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Endodontik tedavi gibi kök-kanal morfolojisinin, kalsifiye/aksesuar kanalların, apikal lezyonların ve vertikal kök kırıklarının incelenmesinde detay (geometrik ölçüm ve keskinlik) büyük önem taşır. KIBT'de küçük görüntüleme alanı (dentoalveolar FOV < 8 cm) seçildiğinde daha küçük voksel boyutları kullanılabilir ve elde edilen görüntülerin **uzaysal çözünürlüğü** çok daha yüksek olur.\n**Çeldiriciler:**\n- **A) Kısa sürede değerlendirme yapılması ve B) Görüntünün daha hızlı elde edilmesi:** Operasyonel kolaylık sağlasa da teşhis ve planlama kalitesi açısından temel klinik neden uzaysal çözünürlüğün (detayın) artırılmasıdır.\n- **D) Görüntüdeki hareket artefaktının azalması:** Küçük FOV'da tarama süresi bir miktar kısalabilse de endodontide küçük FOV seçiminin birincil amacı mikro-anatomik detay için yüksek uzaysal çözünürlük sağlamaktır.\n- **E) Sinyal-gürültü oranının azalması:** Sinyal-gürültü oranının (SNR) azalması görüntü kalitesini artıran bir avantaj değil, aksine gürültünün arttığını gösteren olumsuz bir durumdur.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 225,
+    "question": "I. Dentoalveolar: FOV<8 cm\nII. Maksillo-mandibular: FOV 8-15 cm arasında\nIII. İskeletsel: FOV 15-21 cm arasında\n\nKök-kanal morfolojilerinin belirlenmesinde iki boyutlu görüntülemenin yetersiz kaldığı durumlarda endodontik açıdan detaylı görüntü elde edilebilmesi için üç boyutlu görüntülemede FOV (Field of view = görüntüleme alanı) olarak yukarıdakilerden hangisi veya hangilerinin kullanımı en uygundur?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve II",
+      "C": "Yalnız I",
+      "D": "Yalnız II",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Konik ışınlı bilgisayarlı tomografi sistemlerinde incelenecek alan büyüklüğünü ifade eden FOV (Field of View) küçüldükçe voksel boyutu küçülür ve uzaysal çözünürlük (detay) artar. Kök-kanal morfolojisinin incelenmesinde en yüksek detay ve en düşük radyasyon dozu gerektiğinden yalnızca **Dentoalveolar FOV (FOV < 8 cm)** kullanımı en uygundur.\n- **I. Öncül (Uygun):** Dentoalveolar FOV (<8 cm) yüksek uzaysal çözünürlük sağladığından endodontik amaçla tercih edilir.\n- **II. Öncül (Uygun Değil):** Maksillo-mandibular FOV (8-15 cm) her iki çenenin birlikte değerlendirildiği çoklu implant veya geniş çene patolojilerinde kullanılır; uzaysal çözünürlüğü dentoalveolar FOV'a göre daha düşüktür.\n- **III. Öncül (Uygun Değil):** İskeletsel FOV (15-21 cm) ortognatik cerrahi ve kraniyofasiyal analizlerde kullanılır; endodontik detay için çözünürlüğü düşük, radyasyon dozu yüksektir.\n\n**Çeldiriciler:** II. ve III. öncüllerdeki geniş görüntüleme alanları gereksiz radyasyon dozuna ve daha düşük uzaysal çözünürlüğe yol açtığından A, B, D ve E şıkları yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 226,
+    "question": "Aşağıdaki görüntüleme yöntemlerinden hangisi ile sialografi birleştirildiğinde kontrast madde olarak hastanın kendi tükürüğü kullanılır?",
+    "options": {
+      "A": "Projeksiyon görüntüleme",
+      "B": "Floroskopi",
+      "C": "Manyetik rezonans görüntüleme",
+      "D": "Multi dedektör bilgisayarlı tomografi",
+      "E": "Konik ışınlı bilgisayarlı tomografi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sialografi **Manyetik rezonans görüntüleme (MRG)** ile birleştirildiğinde (MR sialografi), görüntüleme T2 ağırlıklı protokoller ile yapılır ve sıvıların T2 sekansında parlak (hiperintens) görünmesi sayesinde dışarıdan iyotlu kontrast madde enjeksiyonuna gerek kalmadan **hastanın kendi tükürüğü** doğal kontrast ajanı olarak kullanılır.\n**Çeldiriciler:**\n- **A) Projeksiyon görüntüleme, B) Floroskopi, D) Multi dedektör bilgisayarlı tomografi ve E) Konik ışınlı bilgisayarlı tomografi:** Bu yöntemlerin tamamı X-ışını temelli olduğundan, radyoopak görüntü elde edebilmek için tükürük bezi kanal sistemine dışarıdan iyotlu bir kontrast ajanın kanülasyonla infüze edilmesini gerektirir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 227,
+    "question": "Konik ışıklı bilgisayarlı tomografi yönteminde voksel büyüklüğünü belirleyen faktör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dedektör özellikleri",
+      "B": "X-ışını tüpünün fokal spot büyüklüğü",
+      "C": "X-ışını tüpünün çalıştığı kVp değeri",
+      "D": "X-ışını tüpünün çalıştığı mA değeri",
+      "E": "Bilgisayar monitörünün parlaklık ayarı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dijital görüntüleme tekniklerinde piksel ya da voksel denilen görüntünün en küçük yapıtaşının büyüklüğü, görüntüyü algılayan **dedektör özelliklerinin** (dedektör piksellerinin fiziksel boyutu ve matris yapısı) izin verdiği ölçüde belirlenir ve değiştirilebilir.\n**Çeldiriciler:**\n- **B) X-ışını tüpünün fokal spot büyüklüğü:** Geometrik bulanıklığı (penumbra) ve uzaysal çözünürlüğü etkiler ancak voksel boyutunu belirlemez.\n- **C) X-ışını tüpünün çalıştığı kVp değeri:** X-ışını fotonlarının enerjisini, penetrasyonunu ve kontrastı etkiler.\n- **D) X-ışını tüpünün çalıştığı mA değeri:** Foton sayısını (kantitesini) ve görüntü gürültüsünü etkiler.\n- **E) Bilgisayar monitörünün parlaklık ayarı:** Elde edilmiş görüntünün sadece ekrandaki izleme kalitesini etkiler.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 228,
+    "question": "Aşağıdakilerden hangisi üç boyutlu görüntülemede, incelenen görüntünün kullanılan en küçük yapıtaşına verilen isimdir?",
+    "options": {
+      "A": "Piksel",
+      "B": "Voksel",
+      "C": "Kesit",
+      "D": "Çizgi çifti",
+      "E": "FOV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** İki boyutlu görüntülemede yükseklik ve genişlik boyutlarına sahip olan en küçük görüntü elemanına \"piksel\" denirken, üç boyutlu görüntülemede pikselin üçüncü boyut olarak derinlik (kalınlık) kazanmasıyla oluşan en küçük hacimsel yapıtaşına **\"voksel\"** adı verilir.\n**Çeldiriciler:**\n- **A) Piksel:** İki boyutlu dijital görüntülerin en küçük yapıtaşıdır.\n- **C) Kesit:** Hacimsel veriden alınan aksiyel, koronal veya sagittal dilimlerdir.\n- **D) Çizgi çifti:** Milimetrede izlenebilen çizgi çifti (lp/mm), uzaysal çözünürlüğün ölçü birimidir.\n- **E) FOV:** Görüntüleme alanının (Field of View) büyüklüğünü ifade eden terimdir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 229,
+    "question": "Dental volumetrik tomografilerin avantajları ile ilgili aşağıdaki verilen bilgilerden hangisi doğru değildir?",
+    "options": {
+      "A": "Efektif doz açısından konvansiyonel tomografilere göre %98'lik bir düşüş sağlarlar.",
+      "B": "Dental volumetrik tomografi cihazları anizotropiktir.",
+      "C": "Dental volumetrik tomografilerin data rekonstrüksiyonu kişisel bir bilgisayarda yapılabilir.",
+      "D": "Konvansiyonel tomografi tarayıcıların aksine fiyatları daha uygundur.",
+      "E": "Hastanın taranması konik şekilli x-ışını demeti kullanılarak olmaktadır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Dental volumetrik tomografi (konik ışınlı bilgisayarlı tomografi) cihazlarında kullanılan vokseller anizotropik değil, **izotropiktir** (yani tüm kenar uzunlukları birbirine eşit ve kübiktir); bu sayede farklı düzlemlerde yapılan ölçümlerde distorsiyon oluşmaz. Anizotropik voksel yapısı medikal/konvansiyonel BT cihazlarına aittir.\n**Çeldiriciler:**\n- **A) Efektif doz açısından konvansiyonel tomografilere göre %98'lik bir düşüş sağlarlar:** Çok daha düşük radyasyon dozu ile görüntü sağlar.\n- **C) Dental volumetrik tomografilerin data rekonstrüksiyonu kişisel bir bilgisayarda yapılabilir:** Büyük iş istasyonları gerektirmeden standart bilgisayarlarda işlenebilir.\n- **D) Konvansiyonel tomografi tarayıcıların aksine fiyatları daha uygundur:** Cihaz ve çekim maliyeti medikal BT'ye göre çok daha düşüktür.\n- **E) Hastanın taranması konik şekilli x-ışını demeti kullanılarak olmaktadır:** Dairesel veya dikdörtgen konik biçimli X-ışını demeti ile hasta başı etrafında tek bir rotasyon yapılarak hacimsel veri toplanır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 231,
+    "question": "I. Kronik osteomyelit\nII. Osteoartrit\nIII. TME disk deformiteleri\nIV. Osteoblastoma\n\nYukarıdaki patolojilerden hangisi veya hangilerinin radyografik teşhisi için mutlaka Manyetik rezonans görüntülemeye ihtiyaç duyulur?",
+    "options": {
+      "A": "I, II, III, IV",
+      "B": "II, III, IV",
+      "C": "II ve III",
+      "D": "Yalnız III",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Verilen patolojiler içerisinde sadece yumuşak doku kaynaklı olan **TME disk deformitelerinin (III)** tanısı için mutlaka manyetik rezonans görüntülemeye (MRG) ihtiyaç vardır.\n- **I. Öncül (İhtiyaç Duyulmaz):** Kronik osteomyelit kemikte skleroz, sekestr ve periost reaksiyonu yaptığından BT veya KIBT aracılığı ile teşhis edilebilir (MRG akut osteomyelitin kemik iliği tutulumunda kullanılır).\n- **II. Öncül (İhtiyaç Duyulmaz):** Osteoartrit eklem kemik yüzeylerindeki erozyon, düzleşme, subkondral kist ve osteofitlerle karakterize dejeneratif bir sert doku hastalığıdır; KIBT veya BT ile tanısı konulabilir.\n- **III. Öncül (Mutlaka İhtiyaç Duyulur):** TME disk deformiteleri yumuşak doku patolojisi olduğundan BT veya KIBT ile görülemez, teşhisi için mutlaka MRG gerekir.\n- **IV. Öncül (İhtiyaç Duyulmaz):** Osteoblastoma kemik oluşturan benign bir tümör olup BT veya KIBT ile değerlendirilebilir.\n\n**Çeldiriciler:** I, II ve IV numaralı patolojilerin tanısı BT veya KIBT ile konulabildiğinden A, B, C ve E şıkları yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 237,
+    "question": "Manyetik rezonans görüntülemenin kullanım alanlarıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "TME anatomisi ve disfonksiyonlarının tanısında",
+      "B": "Kronik osteomyelitte",
+      "C": "Sinüzit ve tonsillit gibi enfeksiyonlarda",
+      "D": "Benign tümörler ve tümör benzeri oluşumlarda",
+      "E": "Yarık dudak-damak, kistler gibi konjenital anomalilerin tespitinde"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** MRG, **akut osteomyelitin** erken evrede kemik iliği ödemi ve tutulumunu incelemekte kullanılır; ancak kemikte skleroz, sekestr ve kortikal değişikliklerin ön planda olduğu **kronik osteomyelitin** değerlendirilmesinde sert dokuyu gösteren BT veya KIBT tercih edilir.\n**Çeldiriciler:**\n- **A) TME anatomisi ve disfonksiyonlarının tanısında:** Eklem diski ve yumuşak doku bileşenlerinin incelenmesinde altın standarttır.\n- **C) Sinüzit ve tonsillit gibi enfeksiyonlarda:** Yumuşak doku inflamasyonu ve mukozal kalınlaşmaları net olarak gösterir.\n- **D) Benign tümörler ve tümör benzeri oluşumlarda:** Hemanjiom, lenfanjiom, nörofibrom ve schwannom gibi yumuşak doku lezyonlarının değerlendirilmesinde kullanılır.\n- **E) Yarık dudak-damak, kistler gibi konjenital anomalilerin tespitinde:** İyonize radyasyon içermemesi ve yumuşak doku detayı sayesinde konjenital anomalilerin tespitinde kullanılır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 239,
+    "question": "I. Tek foton emisyonlu bilgisayarlı tomografi\nII. Pozitron emisyon tomografisi\nIII. Manyetik rezonans görüntüleme\nIV. Konik ışınlı bilgisayarlı tomografi\n\nİnternal radyasyon kullanılarak elde edilen görüntüleme yöntemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I, II",
+      "B": "II, III",
+      "C": "III, IV",
+      "D": "I, III",
+      "E": "I, IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Tek foton emisyonlu bilgisayarlı tomografi (SPECT - I) ve Pozitron emisyon tomografisi (PET - II), vücut içerisine bir radyoizotop (radyonüklid) verilerek radyasyon kaynağının hastanın vücudu içinde (**internal radyasyon**) olduğu nükleer tıp görüntüleme yöntemleridir.\n- **I. Öncül (Doğru):** SPECT, vücuda verilen gama yayıcı radyonüklidlerden kaynaklanan internal radyasyonu kullanır.\n- **II. Öncül (Doğru):** PET, vücuda verilen pozitron yayıcı radyonüklidlerden kaynaklanan internal radyasyonu kullanır.\n- **III. Öncül (Yanlış):** Manyetik rezonans görüntülemede iyonizan radyasyon kullanılmaz.\n- **IV. Öncül (Yanlış):** Konik ışınlı bilgisayarlı tomografide X-ışını vücut dışındaki tüpten (eksternal radyasyon) uygulanır.\n\n**Çeldiriciler:** III. ve IV. öncüllerde internal radyasyon kullanılmadığından B, C, D ve E şıkları yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 240,
+    "question": "Aşağıdaki görüntüleme yöntemlerinden hangileri radyonüklit görüntülemedir?",
+    "options": {
+      "A": "Tek foton emisyonlu bilgisayarlı tomografi- Pozitron emisyon tomografisi",
+      "B": "Manyetik rezonans görüntüleme- Konik ışınlı bilgisayarlı tomografi",
+      "C": "Bilgisayarlı tomografi- Ultrasonografi",
+      "D": "Periapikal radyografi- Oklüzal radyografi",
+      "E": "Artrografi- Sialografi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** **Tek foton emisyonlu bilgisayarlı tomografi (SPECT)** ve **pozitron emisyon tomografisi (PET)**, internal olarak vücut içerisine bir radyoizotop (radyofarmasötik) verilerek hedef doku ve organların metabolik/fonksiyonel görüntülerinin elde edildiği radyonüklit (nükleer tıp) görüntüleme yöntemleridir.\n**Çeldiriciler:**\n- **B) MRG - KIBT:** MRG manyetik alan ve radyofrekans dalgaları, KIBT ise eksternal X-ışını kullanır.\n- **C) BT - Ultrasonografi:** BT eksternal X-ışını, ultrasonografi ise yüksek frekanslı ses dalgaları kullanır.\n- **D) Periapikal radyografi - Oklüzal radyografi:** Eksternal X-ışınları kullanılarak elde edilen iki boyutlu intraoral radyografilerdir.\n- **E) Artrografi - Sialografi:** Eklem boşluğuna veya tükürük bezi kanalına radyoopak kontrast madde verilerek eksternal X-ışınlarıyla görüntü elde edilen yöntemlerdir.\n\n---",
+    "flag_reason": null,
+    "unit": "Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 101,
+    "question": "Akut iltihap sürecinde lökositlerin endotel hücresi yüzeyinde rulo yapmasını (rolling) sağlayan ve lökosit üzerindeki Sialyl-Lewis X yapısına bağlanan adhezyon molekülü ailesi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Selektinler",
+      "B": "İntegrinler",
+      "C": "İmmünoglobulin süper ailesi",
+      "D": "Kaderinler",
+      "E": "Kollajenler"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Selektinler (E-selektin, P-selektin, L-selektin), lökosit ekstravazasyonunun ilk basamağı olan rolling (rulo yapma) aşamasından sorumludur. Lökosit yüzeyindeki Sialyl-Lewis X yapılarına zayıf ve geçici olarak bağlanırlar.\n**Çeldiriciler:**\n- B) İntegrinler (LFA-1, VLA-4 vb.), lökositlerin endotel yüzeyine sıkı adhezyonunu (stabile adhesion) gerçekleştirir.\n- C) İmmünoglobulin süper ailesi üyeleri (ICAM-1, VCAM-1), integrinlerin endoteldeki reseptörleridir.\n- D) Kaderinler, hücre-hücre bağlantı komplekslerinde (adherens junction) yer alan kalsiyuma bağımlı moleküllerdir, rollingde rol almazlar.\n- E) Kollajenler, hücre dışı matrisin yapısına katılan fibriler proteinlerdir.\n---",
+    "flag_reason": null,
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 102,
+    "question": "Granülomatöz iltihap gelişiminde ve epiteloit histiosit dönüşümünde anahtar rol oynayan, aktive T lenfositlerden salınan sitokin aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Interlökin-1 (IL-1)",
+      "B": "Interferon-gama (IFN-γ)",
+      "C": "Interlökin-4 (IL-4)",
+      "D": "Interlökin-10 (IL-10)",
+      "E": "Tümör Nekroz Faktörü-alfa (TNF-α)"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Granülomatöz iltihapta Th1 tipi bağışıklık yanıtı baskındır. Aktive Th1 hücrelerinden salınan Interferon-gama (IFN-γ), makrofajları aktive ederek epiteloit histiositlere ve dev hücrelere (Langhans tipi / yabancı cisim tipi) dönüşmelerini sağlayan anahtar sitokindir.\n**Çeldiriciler:**\n- A) IL-1, ana ateş yapıcı (pirojen) ve endotel aktive edici akut iltihap sitokinidir.\n- C) IL-4, Th2 yanıtını stimüle eden, IgE sentezini indükleyen ve alternatif makrofaj aktivasyonuna (M2) yol açan sitokindir.\n- D) IL-10, anti-inflamatuar özellik göstererek makrofaj aktivasyonunu ve sitokin salınımını baskılar.\n- E) TNF-α, makrofaj aktivasyonunda rol oynasa da epiteloit hücre dönüşümünün doğrudan birincil indükleyicisi IFN-γ'dır.\n---",
+    "flag_reason": null,
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 103,
+    "question": "Kompleman sisteminin aktivasyonu sonucu oluşan ve nötrofillerin kemotaksisini sağlayan en güçlü anafilatoksin maddesi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "C3b",
+      "B": "C5a",
+      "C": "C3a",
+      "D": "C5b-9",
+      "E": "C2a"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** C5a, kompleman sisteminin en güçlü kemotaktik faktörüdür. Nötrofil, monosit ve eozinofilleri iltihap bölgesine çeker. Aynı zamanda güçlü bir anafilatoksindir ve mast hücrelerinden histamin salınımını indükler.\n**Çeldiriciler:**\n- A) C3b, opsonizasyon sürecinde rol oynayarak fagositozu kolaylaştırır.\n- C) C3a bir anafilatoksindir ancak kemotaktik etkisi C5a'ya kıyasla oldukça zayıftır.\n- D) C5b-9 (Membran Atak Kompleksi - MAK), hedef hücre membranını delerek lize eder.\n- E) C2a, klasik yolakta kinin benzeri aktivite gösterir, belirgin kemotaktik etkisi yoktur.\n---",
+    "flag_reason": null,
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 104,
+    "question": "İntrinsek (mitokondriyal) apoptoz yolağında, mitokondriden sitozole salınarak Apaf-1 ile birleşip apoptotik kompleksi (apoptozom) oluşturan madde aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kaspaz-8",
+      "B": "Sitokrom c",
+      "C": "FLIP",
+      "D": "FasL",
+      "E": "TNF-R1"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** İntrinsek yolakta pro-apoptotik proteinlerin (BAX/BAK) etkisiyle mitokondri membran geçirgenliği artar ve Sitokrom c sitozole çıkar. Sitozolde Apaf-1 (Apoptotic protease activating factor-1) ile birleşerek apoptozomu oluşturur ve Kaspaz-9'u aktive eder.\n**Çeldiriciler:**\n- A) Kaspaz-8, ekstrinsek (ölüm reseptörü) apoptoz yolağının başlatıcı kaspazıdır.\n- C) FLIP, Fas/FasL etkileşimini ve Kaspaz-8 aktivasyonunu engelleyen apoptoz inhibitörüdür.\n- D) FasL, ekstrinsek apoptoz yolağını başlatan membran bağlı liganddır.\n- E) TNF-R1, ekstrinsek yolda ölüm reseptörü olarak görev yapan bir membran reseptörüdür.\n---",
+    "flag_reason": null,
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 105,
+    "question": "Tüberküloz enfeksiyonunda akciğer ve lenf nodu odaklarında görülen, doku mimarisinin tamamen kaybolduğu peynirleştirici nekroz tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Koagülasyon nekrozu",
+      "B": "Kazeöz nekroz",
+      "C": "Likefaksiyon nekrozu",
+      "D": "Yağ nekrozu",
+      "E": "Fibrinoid nekroz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kazeöz nekroz, Mycobacterium tuberculosis enfeksiyonlarına özgü granülomatöz iltihap odaklarında görülür. Makroskopik olarak peynirimsi kıvamda olup mikroskopik olarak hücresel ve dokusal mimarinin tamamen silindiği asidofilik amorf bir görünüm sunar.\n**Çeldiriciler:**\n- A) Koagülasyon nekrozu, beyin hariç tüm organların hipoksik/iskemik infarktlarında görülür ve doku mimarisi korunan gölge hücreler izlenir.\n- C) Likefaksiyon nekrozu, beyin infarktlarında ve bakteriyel/mantar apselerinde hücresel sindirim sonucu sıvılaşma ile karakterizedir.\n- D) Yağ nekrozu, akut pankreatit veya meme travmasında açığa çıkan yağ asitlerinin kalsiyum ile sabunlaşmasıdır (saponifikasyon).\n- E) Fibrinoid nekroz, immün kompleks vasıtasıyla damar duvarlarında antikor-antijen çökmesi ve fibrin sızıntısı ile seyreden nekrozdur.\n---",
+    "flag_reason": null,
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 8,
+    "question": "Aşağıdakilerden hangisi, apoptotik hücrelerin yüzeylerinde bulunması ile makrofajlar tarafından tanınıp fagositozu sağlar?",
+    "options": {
+      "A": "BCL-2 ailesi",
+      "B": "Fosfatidilserin",
+      "C": "TNF reseptörü",
+      "D": "Kaspaz 9",
+      "E": "Fas ligand"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Normal hücrede plazma zarının iç yüzünde duran Fosfatidilserin, apoptoz sürecinde flippaz/scramblaz faaliyetiyle zarın dış yüzüne kayarak makrofajlar için 'beni ye' sinyali oluşturur.\n**Çeldiriciler:**\n- A) BCL-2 ailesi: Mitokondri zarında apoptozu düzenleyen hücre içi protein ailesidir.\n- C) TNF reseptörü: Ekstrensek apoptoz yolunu başlatan membran reseptörüdür.\n- D) Kaspaz 9: İntrensek (mitokondriyal) apoptoz yolunun hücre içi başlatıcı kaspazıdır.\n- E) Fas ligand: Ölüm reseptörüne bağlanarak ekstrensek apoptozu tetikleyen sinyal molekülüdür.\n---",
+    "flag_reason": "TUS 2010 İlkbahar",
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 80,
+    "question": "Aşağıdaki mediyatörlerden hangisi lökosit aktivasyon ve kemotaksisini artırıcı etkiye sahiptir?",
+    "options": {
+      "A": "Nitrik oksit",
+      "B": "C5a",
+      "C": "Histamin",
+      "D": "Lökotrien C4",
+      "E": "PAF"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** C5a kompleman parçası, LTB4, IL-8 ve bakteriyel peptidlerle birlikte lökositleri iltihap odağına çeken en güçlü Kemotaktik ajandır.\n**Çeldiriciler:**\n- A) Nitrik oksit: Vazodilatasyon yapar ve trombosit agregasyonunu engeller.\n- C) Histamin: Erken faz vazodilatasyon ve vasküler permeabilite artışı yapar.\n- D) Lökotrien C4: Güçlü vazokonstrüksiyon ve bronkokonstrüksiyon yapar.\n- E) PAF: Düşük dozda vazodilatasyon, yüksek dozda konstrüksiyon yapar.\n---",
+    "flag_reason": "TUS 2010 İlkbahar",
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 81,
+    "question": "Aşağıdaki hastalıkların hangisinde, merkezinde nötrofiller ve granüler materyalin bulunduğu granülomatöz iltihap görülür?",
+    "options": {
+      "A": "Tüberküloz",
+      "B": "Sarkoidoz",
+      "C": "Lepramatöz lepra",
+      "D": "Sifiliz",
+      "E": "Kedi tırmığı hastalığı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Bartonella henselae kaynaklı Kedi Tırmığı Hastalığında, lenf nodunda ortasında nötrofil birikimi ve mikronekroz bulunan yıldızsı (stellat/suppuratif) granülomlar izlenir.\n**Çeldiriciler:**\n- A) Tüberküloz: Merkezinde kazeifikasyon nekrozu olan epiteloid granülomdur.\n- B) Sarkoidoz: Nonkazeifiye (nekrozsuz) epiteloid granülomdur.\n- C) Lepramatöz lepra: Köpüksü Virchow histiyositleri içerir, gerçek nekrotik granülom yapmaz.\n- D) Sifiliz: Plazma hücrelerinden zengin gummatöz granülomdur.\n---",
+    "flag_reason": "TUS 2010 Sonbahar",
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 83,
+    "question": "Mycobacterium tuberculosis'e ikincil gelişen granülomatöz iltihabi odakda aşağıdakilerden hangisi karakteristik değildir?",
+    "options": {
+      "A": "Plazma hücrelerinin infiltrasyonu",
+      "B": "Multinükleer histiyositik dev hücreleri",
+      "C": "Lenfositlerden zengin inflamasyon",
+      "D": "Fibrozis",
+      "E": "Nekroz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Tüberküloz granülomunda epiteloid histiyositler, Langhans dev hücreleri, T lenfositler ve kazeifikasyon nekrozu karakteristiktir. Plazma hücresi baskınlığı ise Sifiliz ve Rhinoscleroma için karakteristiktir.\n**Çeldiriciler:**\n- B) Multinükleer dev hücreleri: At nalı dizilimli Langhans dev hücreleridir.\n- C) Lenfosit inflamasyonu: Granülomu çevreleyen CD4+ T lenfosit kuşağıdır.\n- D) Fibrozis: Granülomun etrafını sınırlayan bağ dokusu duvarıdır.\n- E) Nekroz: Merkezdeki pembe peynirimsi kazeifikasyon nekrozudur.\n---",
+    "flag_reason": "TUS 2011 Sonbahar",
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "02-dus_patoloji_sorular_1_100.md",
+    "q_num": 98,
+    "question": "Dokuda mikroskobik olarak kazeifiye granülomlarla karakterize bir kronik inflamasyonda öncelikle düşünülmesi gereken hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Şistozomiyazis",
+      "B": "Sarkoidoz",
+      "C": "Lepra",
+      "D": "Sifiliz",
+      "E": "Tüberküloz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kazeifikasyon nekrozu içeren kazeifiye granülom yapısı Tüberküloz (Mycobacterium tuberculosis) enfeksiyonu için karakteristik patolojik bulgudur.\n**Çeldiriciler:**\n- A) Şistozomiyazis: Parazit yumurtalarına karşı nekrozsuz/pseudogranülom yapar.\n- B) Sarkoidoz: Non-kazeifiye (nekrozsuz) granülom yapar.\n- C) Lepra: Tüberküloid formda nekrozsuz granülom yapar.\n- D) Sifiliz: Gummatöz granülom yapar.\n---",
+    "flag_reason": "TUS 2014 Sonbahar",
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 308,
+    "question": "Salivatif bez tümörleri arasında en sık görülen benign neoplazm Pleomorfik Adenom (Benign Mixt Tümör)'dur.\n\nPleomorfik adenomun histopatolojik yapısı ve klinik özellikleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hem epiteliyal hem de miyoepiteliyal hücre elemanları barındırır.",
+      "B": "Stroma miksoid, kondroid veya hiyalinize alanlar içerebilir.",
+      "C": "En sık parotis bezinin yüzeysel lobunda yerleşim gösterir.",
+      "D": "Kapsülü tam ve kesintisiz olduğu için enükleasyon ameliyatı sonrası lokal nüks riski bulunmaz.",
+      "E": "Uzun süreli takipsiz vakalarda Malign Pleomorfik Adenom (Karsinoma ex pleomorfik adenom) gelişme riski mevcuttur."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Pleomorfik adenomun kapsülü sıklıkla inkomplet (tam olmayan) ve mikroskobik psödopod (yalancı ayak) uzantılarına sahiptir. Basit enükleasyon yapıldığında bu psödopodlar geride kalır ve yüksek nüks oranı ortaya çıkar. Bu nedenle cerrahi tedavide marjinal geniş eksizyon / parsiyel parotidektomi uygulanır.\n**Çeldiriciler:**\n- A) Pleomorfik adenom epiteliyal ve miyoepiteliyal elemanların çift sıralı veya tübüler yapılar oluşturduğu mikst bir tümördür (Doğru ifade).\n- B) Kıkırdakmsı (kondroid), miksoid ve osseöz stroma dönüşümleri karakteristik özelliğidir (Doğru ifade).\n- C) Tüm tükürük bezi tümörlerinde olduğu gibi en sık parotis bezi yüzeysel lobunda yerleşir (Doğru ifade).\n- E) %2-10 vakada uzun yıllar içinde malign transformasyon (karsinoma ex pleomorfik adenom) gelişebilir (Doğru ifade).\n---",
+    "flag_reason": null,
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 309,
+    "question": "Mandibula korpusunda ağrısız şişlik şikayetiyle başvuran 20 yaşındaki bir hastanın panoramik radyografisinde çene kemiğinde çok odaklı (sabun köpüğü / bal peteği görünümünde) radyoşeffaf lezyon izlenmiştir. Histopatolojik incelemede iğsi fibroblastik stroma içinde çok çekirdekli osteoklast benzeri dev hücreler ve kan damarları gözlenmiştir.\n\nBu tablo için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Santral Dev Hücreli Granülom",
+      "B": "Paget hastalığı",
+      "C": "Osteosarkom",
+      "D": "Bukkal ekzostoz",
+      "E": "Odontojenik miksom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Santral Dev Hücreli Granülom (SDHG), mandibulada ön/ön-orta bölgede sık görülen, çok odaklı radyoşeffaflık veren; histolojisinde fibroblastik stroma zemininde dağınık yerleşimli çok çekirdekli osteoklast benzeri dev hücreler barındıran benign çene lezyonudur.\n**Çeldiriciler:**\n- B) Paget hastalığı: Yaşlılarda görülen, mozaik kemik (jigsaw puzzle) paterni ve kortikal kalınlaşma ile karakterize jeneralize metabolik kemik hastalığıdır.\n- C) Osteosarkom: Malign neoplastik osteoblastların dantelsi/osteoid stroma ürettiği, pleomorfik atipik hücreler ve Sunburst dantelsi periost reaksiyonu içeren maligntümördür.\n- D) Bukkal ekzostoz: Kortikal kemiğin aşırı büyümesiyle karakterize non-neoplastik asemptomatik kemik kabartısıdır.\n- E) Odontojenik miksom: Miksoid stroma ve stellat hücreler içerir ancak osteoklastik dev hücre kümeleri barındırmaz.\n---",
+    "flag_reason": null,
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 310,
+    "question": "Vasküler geçirgenlik artışı, akut iltihabın ana bulgularından biridir ve ödem oluşumuna katkıda bulunur.\n\nAkut iltihapta vasküler geçirgenlik artışına yol açan endotel hücre kontraksiyonunu en hızlı ve geçici olarak uyaran kimyasal mediyatör grubu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Histamin ve Bradikinin",
+      "B": "Dönüştürücü Büyüme Faktörü-beta (TGF-beta)",
+      "C": "İntörlökin-12 ve Interferon-gama",
+      "D": "Platelet Ekstre Faktörü (PDGF)",
+      "E": "C-reaktif protein ve Amiloid A"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Histamin, serotonin ve bradikinin endotel hücrelerindeki H1 ve ilgili reseptörlere bağlanarak hücre içi kalsiyum artışına ve miyozin bağımlı iskemiye/kontraksiyona yol açar. Bu yanıt \"hemen geçici yanıt\" (immediate transient response) olarak adlandırılır ve 15-30 dakika sürer.\n**Çeldiriciler:**\n- B) TGF-beta: Anti-inflamatuar ve fibrozisi uyaran, bağ dokusu sentezini artıran bir büyüme faktörüdür; akut geçirgenlik artışından sorumlu değildir.\n- C) IL-12 ve IFN-gama: Th1 immün yanıtını ve makrofaj aktivasyonunu indükler.\n- D) PDGF: Fibroblast proliferasyonu ve yara iyileşmesinde etkilidir.\n- E) CRP ve Amiloid A: Karaciğerde sentezlenen akut faz proteinleridir, ani endotel kontraksiyonu yapmazlar.\n---",
+    "flag_reason": null,
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 311,
+    "question": "Otoimmün mukokutanöz hastalıkların tanısında immünofloresan (İF) incelemeler büyük önem taşır.\n\nOral mukozada büller ve ülserler oluşturan hastalıklar ve doğrudan immünofloresan (DİF) bulguları ile ilgili verilen eşleştirmelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Pemfigus Vulgaris - İntraepiteliyumda epidermal hücreler arası balık ağı paterni (IgG ve C3)",
+      "B": "Büllöz Pemfigoid - Dermal-epidermal bileşkede lineer depozisyon (IgG ve C3)",
+      "C": "Liken Planus - Bazal membran boyunca C3 ve fibrinojen depolanması ile shaggy (pürüzlü) görünüm",
+      "D": "Dermatitis Herpetiformis - Dermal papilla tepelerinde granüler IgA depozitleri",
+      "E": "Mukoz Membran Pemfigoidi - Epitel hücrelerinin nükleuslarında homojen Antinükleer Antikor (ANA) birikimi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Mukoz Membran Pemfigoidi (Skatriyal pemfigoid), epitel bazal membranındaki hemidesmozomal antijenlere (BP180, laminin 332) karşı gelişen otoantikorlara bağlıdır ve DİF'te bazal membran boyunca lineer IgG ve C3 birikimi gösterir. Nükleer ANA birikimi pemfigoid bulgusu değildir.\n**Çeldiriciler:**\n- A) Pemfigus vulgaris: Desmoglein-3 antikorlarına bağlı intraepiteliyal hücreler arası IgG (balık ağı) boyanması gösterir (Doğru eşleştirme).\n- B) Büllöz pemfigoid: Subepiteliyal bül oluşturur, bazal membranda lineer IgG/C3 verir (Doğru eşleştirme).\n- C) Liken planus: Civatte cisimcikleri ve subepiteliyal bant tarzı fibrinojen/C3 tutulumu gösterir (Doğru eşleştirme).\n- D) Dermatitis herpetiformis: Dermal papilla uçlarında granüler IgA birikimi ile karakterizedir (Doğru eşleştirme).\n---",
+    "flag_reason": null,
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 23,
+    "question": "Rektosigmoid bölgede mukoza ve yüzeyel submukozayı etkileyen kronik aktif kolit ve psödopolipiler içeren tablo aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ülseratif kolit",
+      "B": "Amibik kolit",
+      "C": "İskemik kolit",
+      "D": "Antibiyotik ilişkili kolit",
+      "E": "Crohn hastalığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Ülseratif kolit rektumdan başlayarak kesintisiz ilerleyen, mukoza ve submukozaya sınırlı kalan ve psödopolip formasyonu oluşturan inflamatuvar bağırsak hastalığıdır.\n**Çeldiriciler:**\n- **B)** Amibik kolit şişe nacağı şeklinde ülserler oluşturur.\n- **C)** İskemik kolit mukoza nekrozu ve hemoraji gösterir.\n- **D)** Antibiyotik ilişkili kolit pseudomembran oluşumu ile karakterizedir.\n- **E)** Crohn hastalığı tüm duvarı (transmural) tutar ve atlamalı lezyonlar yapar.\n---",
+    "flag_reason": null,
+    "unit": "3- İNFLAMASYON ve TAMİR",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  }
+]

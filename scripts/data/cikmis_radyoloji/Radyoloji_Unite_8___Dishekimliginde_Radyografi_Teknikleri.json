@@ -1,0 +1,665 @@
+[
+  {
+    "q_num": 121,
+    "question": "Açıortay tekniğinde hatalı horizontal açılamanın aşağıdakilerden hangisine neden olması en olasıdır?",
+    "options": {
+      "A": "Dişlerde uzama",
+      "B": "Dişlerde kısalma",
+      "C": "Süperpozisyon",
+      "D": "Penumbra",
+      "E": "Fog"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Periapikal radyografide merkezi ışın dişlerin interproksimal aralıklarından (kontakt yüzeylerine paralel) dik geçecek şekilde yönlendirilmelidir. Horizontal (yatay) açılama hatalı yapıldığında komşu dişlerin aproksimal yüzeyleri birbiri üzerine biner (süperpozisyon oluşur) ve arayüz çürüklerinin görülmesi imkansızlaşır.\n**Çeldiriciler:**\n- A) Dişlerde uzama (elongasyon), horizontal değil vertikal (dikey) açının gereğinden az verilmesi sonucunda oluşur.\n- B) Dişlerde kısalma (foreshortening), vertikal (dikey) açının gereğinden fazla verilmesi sonucunda oluşur.\n- D) Penumbra, fokal spotun büyük olması veya film-obje mesafesinin uzun olması gibi geometrik faktörlere bağlı kenar bulanıklığıdır.\n- E) Fog, saçılan radyasyon, bayat film veya banyo hatalarına bağlı oluşan sisli görüntüdür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 122,
+    "question": "Açıortay tekniğinde merkezi ışın interproksimal aralıktan dik geçmezse radyografide hangi artifakt oluşur?",
+    "options": {
+      "A": "Double ekspoz",
+      "B": "Penumbra",
+      "C": "Süperpozisyon",
+      "D": "Dişlerde uzama",
+      "E": "Dişlerde kısalma"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Merkezi ışının komşu dişlerin interproksimal aralıklarından paralel (ark teğetine dik) geçmemesi hatalı horizontal açılamadır ve radyografta diş kuronlarının aproksimal yüzeylerinin birbiri üzerine çakışmasına yani süperpozisyona (optikal illüzyon) neden olur.\n**Çeldiriciler:**\n- A) Double ekspoz, aynı filmin ağızda iki farklı bölgede iki kez ışınlanması sonucu oluşan çift görüntü hatasıdır.\n- B) Penumbra, fokal spot büyüklüğüne ve obje-film mesafesine bağlı olarak gelişen yarı gölge (bulanıklık) alanıdır.\n- D) Dişlerde uzama, vertikal açının yetersiz verilmesi (merkezi ışının dişe dik gelmesi) sonucu oluşur.\n- E) Dişlerde kısalma, vertikal açının aşırı verilmesi (merkezi ışının filme dik gelmesi) sonucu oluşur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 123,
+    "question": "Açıortay tekniğinde hastanın parmağı film ile ışın kaynağı arasında yer alırsa aşağıdaki artifaktlardan hangisi meydana gelir?",
+    "options": {
+      "A": "Rektifikasyon",
+      "B": "Dicroic fog",
+      "C": "Falanjiom",
+      "D": "Double ekspoz",
+      "E": "Şeffaf film"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Açıortay tekniğinde filmi hasta ağzında parmağıyla tutarken parmağını filmin arkası yerine ön yüzüne (film ile X-ışını kaynağı arasına) yerleştirirse, parmak kemiklerinin (falanksların) görüntüsü dişlerin üzerine süperpoze olur. Bu artifakt görüntüsüne \"falanjiom\" (phalangioma) adı verilir.\n**Çeldiriciler:**\n- A) Rektifikasyon bir artifakt değil, X-ışını cihazında alternatif akımın doğru akıma çevrilmesi işlemidir.\n- B) Dicroic fog (iki renkli sis), filmin birinci banyodan çıktıktan sonra ara yıkama yapılmadan doğrudan ikinci banyoya sokulması sonucu oluşan banyo hatasıdır.\n- D) Double ekspoz, aynı filmin yanlışlıkla iki kez ışınlanmasıdır.\n- E) Şeffaf film, hiç ışınlanmamış bir filmin banyo edilmesi veya filmin yanlışlıkla önce ikinci banyoya (fiksaja) sokulması sonucu oluşur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 124,
+    "question": "I. Işın kaynağı-obje mesafesinin artması\nII. Işın kaynağı-film mesafesinin azalması\nIII. Obje-film mesafesinin azalması\n\nYukarıdakilerden hangileri, radyograflarda görüntü netliğinin artmasında etkilidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Radyografik görüntü netliğinin (detayın ve geometrik çözünürlüğün) artması ve penumbranın azalması için fokal spot küçük olmalı, ışın kaynağı-obje mesafesi artırılmalı (uzun kon) ve obje-film mesafesi mümkün olduğunca azaltılmalıdır.\n**Çeldiriciler:**\n- A) Birinci öncülün yanı sıra obje-film mesafesinin azalmasını belirten üçüncü öncül de netliği artırır.\n- B) İkinci öncül yanlıştır; ışın kaynağı-film mesafesinin azalması ışınların diverjansını artırarak magnifikasyona ve netlik kaybına yol açar.\n- C) İkinci öncül görüntü netliğini artırmaz, aksine azaltır.\n- E) İkinci öncül yanlış olduğu için doğru kabul edilemez.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; ışın kaynağı-obje mesafesinin artması daha paralel ışınların kullanılmasını sağlayarak magnifikasyonu ve penumbrayı azaltır, netliği artırır.\n- II. Yanlıştır; ışın kaynağı-film mesafesinin azalması yarı gölge (penumbra) oluşumunu ve görüntü büyümesini artırarak netliği bozar.\n- III. Doğrudur; obje ile film birbirine ne kadar yakın olursa ışınların objeyi geçtikten sonra dağılma mesafesi o kadar kısalır ve görüntü netliği artar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 125,
+    "question": "I. Güçlendirici screen kullanımı\nII. Emülsiyonda AgBr'in homojen dağılımı\nIII. Topuk etkisi\n\nYukarıdakilerden hangileri, radyograflarda görüntü netliğinin azalmasında etkilidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Ekstraoral radyografide radyasyon dozunu düşürmek için kullanılan güçlendirici screenler (ranforsatörler), X-ışınlarını görünür ışığa çevirirken ışığın saçılmasına neden olarak görüntü netliğini (detayı) azaltır. Anottaki açılanmaya bağlı olarak X-ışını yoğunluğunun eşit dağılmaması olan topuk etkisi (heel effect) de detayı olumsuz etkileyen faktörlerdendir.\n**Çeldiriciler:**\n- A) Birinci öncüle ek olarak üçüncü öncüldeki topuk etkisi de görüntü netliğini azaltır.\n- B) Emülsiyonda gümüş bromid (AgBr) kristallerinin homojen dağılımı netliği azaltmaz, aksine artırır.\n- C) İkinci öncül detayı iyileştiren bir özellik olduğundan yanlıştır.\n- E) İkinci öncül yanlış olduğu için bu seçenek elenir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; güçlendirici screen (ranforsatör) kullanımı ışık difüzyonuna yol açarak radyografik detayı ve netliği azaltır.\n- II. Yanlıştır; film emülsiyonundaki AgBr kristallerinin küçük ve homojen dağılımlı olması görüntü netliğini (rezolüsyonu) artırır.\n- III. Doğrudur; topuk etkisi (heel effect) ışın demeti yoğunluğunda homojensizlik yaratarak görüntü netliğini olumsuz etkiler.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 126,
+    "question": "I. Detay\nII. Densite\nIII. Kontrast\n\nIşınlama süresi aşağıdakilerden hangisini veya hangilerini etkiler?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Işınlama süresi radyografik görüntünün hem detayını hem densitesini hem de kontrastını etkiler. Süre arttıkça filme ulaşan foton sayısı arttığı için densite yükselir, aşırı kararma gri tonları azaltarak kontrastı düşürür; ayrıca ışınlama süresinin uzaması hastanın veya tüpün hareket etme ihtimalini artırarak hareket bulanıklığına yol açar ve detayı bozar.\n**Çeldiriciler:**\n- A) Işınlama süresi detayın yanı sıra doğrudan foton miktarını değiştirdiği için densite ve kontrastı da etkiler.\n- B) Üçüncü öncüldeki kontrast da ışınlama süresinin değişiminden doğrudan etkilenir.\n- C) Birinci öncüldeki detay, uzun ışınlama sürelerinde hasta hareketi riski nedeniyle olumsuz etkilenir.\n- D) İkinci öncüldeki densite, ışınlama süresiyle doğru orantılı olarak değişen temel parametredir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; ışınlama süresinin uzaması hastanın hareket etme olasılığını artırarak keskinliği ve detayı azaltır.\n- II. Doğrudur; ışınlama süresi arttıkça filme ulaşan toplam X-ışını miktarı ve radyografik densite artar.\n- III. Doğrudur; ışınlama süresinin optimal sınırların dışına çıkması bölgeler arası kararma farkını değiştirerek kontrastı düşürür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 127,
+    "question": "Geleneksel periapikal teknikler için fokal spot ile hastanın yüzü arasındaki mesafe en az kaç cm olmalıdır?",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "10",
+      "D": "12",
+      "E": "20"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dental röntgen cihazlarında kullanılan konlar (PID) standart olarak 20 cm (kısa kon) ve 40 cm (uzun kon) uzunluğunda üretilir. Kon boyu 20 cm'den kısa olduğunda ışınların diverjansı nedeniyle aşırı magnifikasyon ve yüksek cilt dozu oluşur; bu nedenle geleneksel periapikal tekniklerde fokal spot ile hastanın yüzü arasındaki mesafe en az 20 cm olmalıdır.\n**Çeldiriciler:**\n- A) 5 cm mesafe aşırı radyasyon dozuna ve şiddetli geometrik distorsiyona/büyümeye yol açar.\n- B) 7 cm, kon uzunluğu değil, yuvarlak kolimatörün hasta yüzünde ışınladığı maksimum alan çapıdır (2,75 inç = ~7 cm).\n- C) 10 cm mesafe dental radyolojide kabul edilen minimum standartların altındadır.\n- D) 12 cm mesafe yeterli fokal spot-obje uzaklığını sağlamaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 128,
+    "question": "Paralel teknik için fokal spot ile hastanın yüzü arasındaki mesafe kaç cm olmalıdır?",
+    "options": {
+      "A": "20",
+      "B": "25",
+      "C": "30",
+      "D": "35",
+      "E": "40"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Paralel teknikte (uzun kon tekniği), film dişe paralel yerleştirildiği için obje-film mesafesi artar. Bu mesafe artışının yaratacağı magnifikasyonu ve penumbrayı telafi etmek amacıyla fokal spot-yüz (film) mesafesi 40 cm olan uzun kon kullanılmalıdır.\n**Çeldiriciler:**\n- A) 20 cm kısa kon uzunluğudur ve açıortay tekniğinde kullanılır; paralel teknikte kullanılırsa görüntüde büyüme oluşur.\n- B) 25 cm standart bir dental röntgen kon uzunluğu değildir.\n- C) 30 cm paralel teknik için gereken ideal 40 cm'lik standart uzunluğun altındadır.\n- D) 35 cm standart dental kon boyutu değildir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 129,
+    "question": "I. Uzun kon\nII. Köşeli kolimatör\nIII. Uzun ışınlama süresi\n\nAşağıdakilerden hangisi veya hangileri 'makul olarak gerçekleştirilebilecek ölçüde düşük'; \"As Low As Reasonably Achievable\" (ALARA) prensibine uygundur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "II ve III",
+      "E": "I ve II"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** ALARA prensibi, diagnostik kaliteden ödün vermeden hastanın ve uygulayıcının aldığı radyasyon dozunu mümkün olan en düşük seviyede tutmayı hedefler. Uzun kon kullanımı ve dikdörtgen (köşeli) kolimatör kullanımı ışınlanan doku hacmini ve saçılan radyasyonu azaltarak hasta dozunu düşürür.\n**Çeldiriciler:**\n- A) Uzun konun yanı sıra köşeli kolimatör kullanımı da hasta dozunu %60-70 oranında azaltarak ALARA prensibine hizmet eder.\n- B) Birinci öncüldeki uzun kon kullanımı da diverjan ışınları azaltıp ışınlanan doku hacmini küçülttüğü için doğrudur.\n- C) Uzun ışınlama süresi hastanın maruz kaldığı radyasyon dozunu doğrudan artırır, ALARA prensibine aykırıdır.\n- D) Üçüncü öncül hasta dozunu artırdığı için yanlış bir ifadedir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; uzun kon kullanımı ışın demetinin dağılmasını sınırlar ve ışınlanan doku hacmini azaltarak dozu düşürür.\n- II. Doğrudur; dikdörtgen (köşeli) kolimatör ışın alanını film boyutuna sınırlayarak hastanın aldığı dozu ve skatter radyasyonu belirgin şekilde azaltır.\n- III. Yanlıştır; ışınlama süresini uzatmak hastanın aldığı radyasyon dozunu artırır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 130,
+    "question": "Aşağıdakilerden hangisinin \"cone-cut\" riskini en aza indirgemek için kullanılması en uygundur?",
+    "options": {
+      "A": "kVp'yi düşürmek",
+      "B": "mA'yı azaltmak",
+      "C": "Filtrasyonu artırmak",
+      "D": "Film tutucu kullanmak",
+      "E": "Işınlama süresini düşürmek"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** \"Cone-cut\" (kon kesiği), X-ışını tüpünün (konun) film düzlemini tam olarak ortalamaması sonucu filmin bir kısmının ışınlanmaması ve banyo sonrasında şeffaf/beyaz kalmasıdır. Kon ile dışarıdan hizalama halkası aracılığıyla adapte olan film tutucuların (apareylerin) kullanımı, ışın demetinin doğrudan filme yönlendirilmesini sağlayarak cone-cut riskini ve tekrar film çekimlerini en aza indirir.\n**Çeldiriciler:**\n- A) kVp'yi düşürmek ışının enerjisini ve penetrasyonunu azaltır, konun hizalanmasıyla ilgisi yoktur.\n- B) mA'yı azaltmak foton sayısını ve dansiteyi düşürür, cone-cut oluşumunu engellemez.\n- C) Filtrasyonu artırmak düşük enerjili fotonları süzer, ışın demetinin filmi tam kapsamasını sağlamaz.\n- E) Işınlama süresini düşürmek ekspoz miktarını azaltır, geometrik hizalama hatasını önlemez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 131,
+    "question": "Aşağıdakilerden hangisi periapikal radyografi çekiminde film tutucu kullanımının avantajlarından birisi değildir?",
+    "options": {
+      "A": "Filmin ağıza doğru yerleştirilmesini sağlar",
+      "B": "Cone-cut riskini azaltır",
+      "C": "Film hareketini önler",
+      "D": "İnherent imaja neden olabilir",
+      "E": "Tekrar filmleri azaltır"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Film tutucu apareylerin plastik veya metal ısırma bloklarının radyografik görüntüye girerek oluşturduğu kendiliğinden (doğal/inherent) imajlar, anatomik veya patolojik bölgeleri perdeleyebildiği için bir avantaj değil, dezavantaj (artifakt) olarak kabul edilir.\n**Çeldiriciler:**\n- A) Film tutucular filmin dişin uzun eksenine paralel ve doğru konumda yerleştirilmesini sağlar.\n- B) Dış yönlendirme halkası sayesinde konun filme tam hizalanmasını sağlayarak cone-cut riskini azaltır.\n- C) Filmi ağız içinde sabit tutarak çekim esnasında filmin kaymasını, bükülmesini ve hareket etmesini önler.\n- E) Pozisyonlandırma ve açılama hatalarını önlediği için hatalı çekimleri ve tekrar film alınması gerekliliğini azaltır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 132,
+    "question": "Açıortay tekniğin paralel tekniğe göre başlıca dezavantajı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Film tutucu gerektirmesi",
+      "B": "Işınlama süresinin uzun olması",
+      "C": "Hastaya rahatsızlık verici olması",
+      "D": "Görüntüde distorsiyona yol açması",
+      "E": "Anatomik sınırlamalar nedeniyle film yerleştirmenin zor olması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Açıortay tekniğinde film dişin uzun aksına paralel yerleştirilmediği (açı yaptığı) ve merkezi ışın açıortaya dik verildiği için, dişin filme yakın olan kuron kısmı ile filme uzak olan apikal kısmı aynı oranda görüntülenemez; bu durum görüntüde kaçınılmaz olarak geometrik distorsiyona (boyutsal şekil bozukluğuna) yol açar.\n**Çeldiriciler:**\n- A) Film tutucu gerektirmesi açıortay tekniğinin değil, paralel tekniğin bir özelliğidir (açıortay tekniğinde hasta parmağıyla da tutabilir).\n- B) Açıortay tekniğinde kısa kon (20 cm) kullanıldığı için ışınlama süresi paralel tekniğe (40 cm uzun kon) göre daha uzundur denemez, aksine daha kısadır.\n- C) Filmin ağız tabanına veya damağa dik yerleştirilmesi nedeniyle hastaya daha çok rahatsızlık veren yöntem paralel tekniktir.\n- E) Sığ damak veya sığ ağız tabanı gibi anatomik sınırlamalarda film yerleştirmenin zor olması paralel tekniğin dezavantajıdır; açıortay tekniği bu durumlarda daha kolay uygulanır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 133,
+    "question": "X-ışını cihazının parçalarından biri olan kolimatörle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Işınlanan alanı sınırlayarak hastanın aldığı radyasyon dozunu azaltır.",
+      "B": "Ortasında açıklık olan metalik bir bariyerdir.",
+      "C": "Görüntü kalitesinin iyileştirilmesine katkıda bulunur.",
+      "D": "Bazı film tutucular, dikdörtgen şekilli kolimatör görevi de görür.",
+      "E": "Radyasyon dozunun azaltılmasında dairesel kolimatör en etkili kolimatör tipidir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Radyasyon dozunun azaltılmasında en etkili kolimatör tipi dairesel (yuvarlak) kolimatör değil, dikdörtgen (köşeli) kolimatördür. Dikdörtgen kolimatör X-ışını demetini doğrudan dikdörtgen yapıdaki film boyutlarına göre sınırlandırır ve dairesel kolimatöre kıyasla ışınlanan doku hacmini ve hasta dozunu %60-70 oranında azaltır.\n**Çeldiriciler:**\n- A) Kolimatör X-ışını demetinin çapını daraltarak ışınlanan doku hacmini ve hastanın maruz kaldığı radyasyon dozunu azaltır.\n- B) Kolimatör, genellikle kurşundan yapılmış ve ortasında ışınların geçmesi için delik (açıklık) bulunan metalik bir diyaframdır.\n- C) Işınlanan doku hacmini küçülttüğü için Compton saçılmasını (skatter radyasyonu) ve fogu azaltarak görüntü kalitesini ve kontrastı artırır.\n- D) Rinn XCP gibi bazı film tutucu sistemlerin üzerinde, dairesel ışın demetini dikdörtgene çeviren metalik kolimatör halkaları yer alır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 134,
+    "question": "I. Alüminyumdan yapılır\nII. Foton sayısını yarısına indirir\nIII. Hastanın aldığı radyasyon dozunu azaltır\n\nYukarıdakilerden hangisi ya da hangileri kolimatörün özelliklerindendir?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve II",
+      "C": "Yalnız I",
+      "D": "Yalnız II",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kolimatör, kurşundan yapılmış ortası delik bir bariyer olup X-ışını demetinin boyutunu ve şeklini sınırlandırarak hastanın aldığı radyasyon dozunu ve saçılan radyasyonu azaltır. Birinci ve ikinci öncüllerde verilen özellikler kolimatöre değil, \"Yarım Değer Tabakası\"na (HVL) ve filtreye aittir.\n**Çeldiriciler:**\n- A) Birinci ve ikinci öncüller alüminyum filtre / yarım değer tabakası özellikleridir, kolimatör kurşundan yapılır.\n- B) Hem birinci hem de ikinci öncül kolimatör için yanlıştır.\n- C) Kolimatör X-ışınlarını tamamen bloke etmek amacıyla alüminyumdan değil, yüksek atom numaralı kurşundan üretilir.\n- D) Foton sayısını tam yarısına indiren (primer ışınların %50'sini absorbe eden) yapı yarım değer tabakasıdır (HVL).\n\n**Öncüllerin Analizi:**\n- I. Yanlıştır; kolimatör kurşundan yapılır, alüminyumdan yapılan parça filtredir.\n- II. Yanlıştır; X-ışını demetindeki foton sayısını yarısına indiren alüminyum kalınlığı yarım değer tabakası (HVL) olarak tanımlanır.\n- III. Doğrudur; kolimatör ışınlanan alanı daraltarak hastanın aldığı radyasyon dozunu azaltır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 135,
+    "question": "I. Işınlanan alan artar\nII. Görüntü kalitesi artar\nIII. Hasta radyasyon dozu artar\n\nKolimatör genişliği artırıldığında yukarıdakilerden hangisinin ya da hangilerinin olması beklenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kolimatörün ortasındaki açıklığın (genişliğin) artırılması, tüpten çıkan X-ışını demetinin çapını büyütür. Bunun sonucunda hastada ışınlanan doku alanı/hacmi artar, hastanın aldığı radyasyon dozu yükselir ve artan Compton saçılması (skatter) nedeniyle görüntü kalitesi düşer.\n**Çeldiriciler:**\n- A) Işınlanan alanın artmasının yanı sıra üçüncü öncülde belirtilen hasta radyasyon dozu da artar.\n- B) Kolimatör genişliği arttığında skatter radyasyon ve fog artacağı için görüntü kalitesi artmaz, aksine bozulur.\n- C) Üçüncü öncülle birlikte birinci öncül de doğrudan gerçekleşir.\n- D) İkinci öncül yanlış olduğu için bu seçenek elenir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; kolimatör açıklığı genişledikçe X-ışını demetinin kapladığı ve ışınladığı alan büyür.\n- II. Yanlıştır; genişleyen ışın alanı daha fazla saçılma (skatter) radyasyonu üreterek kontrastı ve görüntü kalitesini düşürür.\n- III. Doğrudur; daha geniş doku hacmi ışınlandığı için hastanın maruz kaldığı radyasyon dozu artar.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 151,
+    "question": "Zigomatik arkın görüntülenmesinde kullanılan ideal radyografi tekniği aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Posteroanterior sefalometrik",
+      "B": "Reverse-Towne",
+      "C": "Lateral sefalometrik",
+      "D": "Submentoverteks",
+      "E": "Lateral ramus"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Submentoverteks (SMV / kafa tabanı) projeksiyonunun diğer adı \"inferiorsüperior zigomatik ark projeksiyonu\"dur. Zigomatik ark kırıklarında ark çoğunlukla mediale doğru çöküntü şeklinde deplasman gösterdiği için, merkezi ışının mandibula altından girip kafa tepesinden çıktığı bu yöntem zigomatik arkların kafa tabanından bağımsız ve ideal olarak görüntülendiği özel tekniktir.\n**Çeldiriciler:**\n- A) Posteroanterior sefalometrik grafide zigomatik arklar diğer kraniyal kemiklerle süperpoze olduğu için değerlendirilmesi önerilmez.\n- B) Reverse-Towne projeksiyonu mandibula kondil başı ve kondil boynu kırıklarının incelenmesinde idealdir, zigomatik arkı göstermez.\n- C) Lateral sefalometrik grafide sağ ve sol yapılar üst üste bindiği için zigomatik arkların değerlendirilmesi önerilmez.\n- E) Lateral ramus grafisi mandibula ramus, angulus ve korpus bölgelerini görüntülemek için kullanılır, zigomatik ark için uygun değildir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 152,
+    "question": "Aşağıdaki anatomik oluşumlardan hangisi submentoverteks projeksiyonunda izlenemez?",
+    "options": {
+      "A": "Zigomatik ark",
+      "B": "Etmoid sinüs",
+      "C": "Sfenoid sinüs",
+      "D": "Ramus mandibula",
+      "E": "Anterior mandibula"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Submentoverteks projeksiyonunda ışın mandibula altından dikey olarak kafatası tabanına yönlendirildiği için dikey uzanımlı olan ramus mandibula, koronoid proses, kondil boynu ve nazal kemikler yoğun süperpozisyon nedeniyle değerlendirilemez.\n**Çeldiriciler:**\n- A) Zigomatik ark, submentoverteks projeksiyonunda en yüksek verimlilikle (ideal olarak) izlenen anatomik oluşumdur.\n- B) Etmoid sinüsler kafa tabanı görüntüsünde orta verimlilikle izlenebilir.\n- C) Sfenoid sinüs, submentoverteks grafisinde yüksek verimlilikle (ideal olarak) izlenen yapıların başında gelir.\n- E) Anterior mandibula ve mandibula gövdesi bu projeksiyonda düşük verimlilikle de olsa izlenebilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 153,
+    "question": "\"Kanto-meatal hat ile film kaseti birbirine paralel, merkezi ışın mandibula altından girip kafatası tepesinden çıkacak şekilde yönlendirilir\"\n\nYukarıdaki ifadenin tarif edildiği ekstraoral radyografi tekniği aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Water's",
+      "B": "Posteroanterior kafa projeksiyonu",
+      "C": "Reverse Towne",
+      "D": "Submentoverteks",
+      "E": "Lateral sefalometrik"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hastanın başını tamamen geriye doğru eğerek yüzünün tavana baktığı, kantomeatal hattın arkadaki film kasetine paralel hale getirildiği ve merkezi ışının çene altından (submental) girip kafa tepesinden (verteks) dik olarak kasete ulaştığı ekstraoral teknik Submentoverteks projeksiyonudur.\n**Çeldiriciler:**\n- A) Water's grafisinde hasta yüzü kasete dönüktür, çene kasete değer ve kantomeatal hat filmle 37° açı yapar.\n- B) Posteroanterior kafa projeksiyonunda alın ve burun kasete temas eder, kantomeatal hat filme diktir (veya 0°-10° açılıdır).\n- C) Reverse Towne tekniğinde alın kasete değer, ağız açıktır ve kantomeatal hat filmle -30° açı yapar.\n- E) Lateral sefalometrik grafide hastanın midsagittal düzlemi kasete paraleldir ve merkezi ışın kulak deliğinin üstünden dik verilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 154,
+    "question": "Mandibular kemiğin kondil boynu aşağıdaki konvansiyonel radyografi tekniklerinden hangisinde izlenemez?",
+    "options": {
+      "A": "Panoramik",
+      "B": "Submentovertex",
+      "C": "Lateral ramus",
+      "D": "Reverse-Towne",
+      "E": "Posteroanterior"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Submentovertex grafisinde hasta başı tamamen geriye yatırılıp ışın aşağıdan yukarıya doğru verildiği için kondil başı izlenebilirken, dikey doğrultudaki kondil boynu, ramus ve koronoid proses kendi üzerlerine ve kafa tabanına süperpoze olduklarından net olarak izlenemez ve değerlendirilmesi önerilmez.\n**Çeldiriciler:**\n- A) Panoramik radyografide kondil boynu yüksek verimlilikle izlenir.\n- C) Lateral ramus grafisinde kondil boynu yüksek verimlilikle görüntülenir.\n- D) Reverse-Towne projeksiyonu, kondil başı ve kondil boynunun medio-lateral yönde en iyi (ideal/yüksek verimlilikle) incelendiği yöntemdir.\n- E) Posteroanterior kafa grafisinde kondil boynu orta verimlilikle izlenebilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 155,
+    "question": "Aşağıdaki anatomik oluşumlardan hangisi submentovertex grafi ile ideal olarak izlenebilir?",
+    "options": {
+      "A": "Ramus",
+      "B": "Sfenoid sinüs",
+      "C": "Koronoid proses",
+      "D": "Kondil boynu",
+      "E": "Nazal kemikler"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Submentovertex grafisinde hasta pozisyonlandırması ve ışın geometrisi sayesinde kafa tabanında yer alan sfenoid sinüs ve zigomatik arklar süperpozisyonsuz ve ideal (yüksek verimlilikle) olarak değerlendirilir.\n**Çeldiriciler:**\n- A) Ramus mandibula, submentovertex grafisinde değerlendirilmesi önerilmeyen yapılardandır.\n- C) Koronoid proses, bu projeksiyonda yoğun süperpozisyon nedeniyle izlenemez.\n- D) Kondil boynu, ışın açısına paralel kaldığı ve süperpoze olduğu için bu grafide değerlendirilemez.\n- E) Nazal kemikler, submentovertex projeksiyonunda değerlendirilmesi önerilmeyen anatomik oluşumlardandır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 156,
+    "question": "Aşağıdaki durumlardan hangisinin posteroanterior kafa projeksiyonu ile değerlendirilmesi uygun değildir?",
+    "options": {
+      "A": "Fasiyal asimetri",
+      "B": "Adenoid vejetasyon",
+      "C": "Ortognatik cerrahi tedavi sonuçlarına göre maksillo-mandibular ilişki",
+      "D": "Kafatasını tutan hastalıklar",
+      "E": "Kafatası fraktürleri"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Nazofarenks arka duvarında yer alan adenoid vejetasyonun (geniz eti büyümesinin) ve üst havayolu açıklığının değerlendirilmesinde posteroanterior kafa projeksiyonu değil, yapıların ön-arka yönde süperpozisyonsuz izlendiği Lateral Sefalometrik Projeksiyon kullanılır.\n**Çeldiriciler:**\n- A) Sağ ve sol yüz yarılarının karşılaştırıldığı fasiyal asimetrilerin değerlendirilmesinde posteroanterior kafa grafisi idealdir.\n- C) Ortognatik cerrahi planlaması ve sonuçlarında hastanın orta hattının ve transvers maksillo-mandibular ilişkinin incelenmesinde kullanılır.\n- D) Paget hastalığı veya multipl miyelom gibi kafatasını tutan sistemik/lokal hastalıkların yaygınlığını değerlendirmede kullanılır.\n- E) Kraniyum ve yüz kemiklerindeki fraktürlerin medio-lateral deplasmanlarını değerlendirmede kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 157,
+    "question": "I. Maksiller sinüs\nII. Etmoid sinüs\nIII. Frontal sinüs\n\nAğız açık pozisyonda alınan Waters grafisinde yukarıdaki anatomik yapılardan hangilerinin değerlendirilmesi yapılabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Waters grafisi (oksipltomental projeksiyon), özellikle maksiller sinüs başta olmak üzere paranazal sinüslerin incelenmesinde kullanılan en uygun ekstraoral tekniktir. Ağız açık pozisyonda uygulandığında sfenoid sinüsler de sert damak (palatal bölge) gerisinde süperpoze olmadan izlenebilir; böylece aynı grafi üzerinde maksiller, etmoid, frontal ve sfenoid sinüslerin tamamı değerlendirilebilir.\n**Çeldiriciler:**\n- A) Maksiller sinüsün yanı sıra etmoid ve frontal sinüsler de Waters grafisinde net olarak değerlendirilir.\n- B) Frontal sinüsle birlikte maksiller ve etmoid sinüsler de izlenir.\n- C) Üçüncü öncüldeki frontal sinüs de bu projeksiyonda yüksek verimlilikle görüntülenir.\n- D) Waters grafisinin en temel endikasyonu olan maksiller sinüs (birinci öncül) eksik bırakılmıştır.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; Waters grafisi maksiller sinüsün kafa tabanı kemiklerinden kurtarılarak en iyi görüntülendiği tekniktir.\n- II. Doğrudur; etmoid sinüs hücreleri nazal kavitenin üst-yan kısımlarında bu grafide değerlendirilebilir.\n- III. Doğrudur; frontal sinüsler orbitanın üst kısmında Waters grafisi ile ideal olarak incelenebilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 158,
+    "question": "Aşağıdaki ekstraoral radyografi tekniklerinden hangisinde tüm paranazal sinüslerin izlenmesi mümkün olur?",
+    "options": {
+      "A": "Panoramik radyografi",
+      "B": "Lateral ramus grafisi",
+      "C": "Postero-anterior kafa projeksiyonu",
+      "D": "Reverse Towne",
+      "E": "Waters"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Posteroanterior maksiller sinüs projeksiyonu hastanın ağzı açık olarak uygulandığında Waters grafisi adını alır. Ağız açık çekilen Waters grafisinde sfenoid sinüs açık ağız boşluğu (palatal bölge) içerisine izdüşürülür; böylece maksiller, frontal, etmoid ve sfenoid olmak üzere tüm paranazal sinüslerin tek bir grafide izlenmesi mümkün olur.\n**Çeldiriciler:**\n- A) Panoramik radyografide sadece maksiller sinüslerin alt ve arka kısımları izlenebilir; frontal, etmoid ve sfenoid sinüsler değerlendirilemez.\n- B) Lateral ramus grafisi mandibulayı görüntülemeye yöneliktir, paranazal sinüsleri göstermez.\n- C) Posteroanterior kafa projeksiyonunda sfenoid sinüs izlenemez, maksiller sinüs ise petröz kemik süperpozisyonu nedeniyle düşük verimliliktedir.\n- D) Reverse Towne grafisi kondil boynu içindir; frontal, etmoid ve sfenoid sinüsler bu teknikle değerlendirilemez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 160,
+    "question": "Radyografisi alınmak üzere radyoloji kliniğine gelen hastadan öncelikle yüzünü film reseptörüne çevirmesi daha sonra da başını öne doğru eğmesi isteniyor. Frontal bölgesi reseptöre temas eden hastadan ağzını açması isteniyor. Merkezi ışın reseptöre dik ve midsagital düzleme paralel olarak veriliyor.\n\nYukarıda tarif edilen radyografi tekniğinde öncelikle görüntülenmek istenen bölge hangisidir?",
+    "options": {
+      "A": "Maksiller sinüsler",
+      "B": "Burun boşluğu",
+      "C": "Mandibular kondiller",
+      "D": "Koronoid çıkıntılar",
+      "E": "Zigomatik arklar"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Hastanın alnının (frontal bölge) kasete temas ettiği, başın öne eğildiği (kantomeatal hattın -30° açı yaptığı), ağzın açıldığı ve merkezi ışının arkadan öne doğru midsagittal düzleme paralel verildiği bu yöntem Reverse-Towne projeksiyonudur. Ağız açıldığında kondil başları artiküler eminens üzerine doğru hareket ederek kafa tabanı süperpozisyonundan kurtulur; bu teknik mandibular kondil başı ve boynunun en iyi incelendiği yöntemdir.\n**Çeldiriciler:**\n- A) Maksiller sinüsler için hastanın alnı değil çenesi kasete temas ettirilir (Waters grafisi).\n- B) Burun boşluğu (nazal kavite) Reverse-Towne tekniğinde düşük verimlilikle izlenir; ideal görüntüleme PA kafa ve Waters grafileriyle yapılır.\n- D) Koronoid çıkıntılar Reverse-Towne projeksiyonunda düşük verimlilikle izlenir.\n- E) Zigomatik arklar için baş öne değil tamamen arkaya eğilir (Submentoverteks grafisi).\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 161,
+    "question": "Reverse-Towne Projeksiyon ile ideal olarak izlenebilen anatomik oluşum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Koronoid proses",
+      "B": "Nazal kavite",
+      "C": "Mandibular kondiller",
+      "D": "Sfenoid sinüs",
+      "E": "Posterior maksilla"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Reverse-Towne projeksiyonu, özellikle yüksek kondil boynu ve kondil başı kırıklarında fragmanların medio-lateral yöndeki deplasmanlarını değerlendirmek için kullanılan ve mandibular kondillerin ideal olarak izlendiği ekstraoral tekniktir.\n**Çeldiriciler:**\n- A) Koronoid proses bu projeksiyonda düşük verimlilikle izlenir.\n- B) Nazal kavite Reverse-Towne tekniğinde düşük verimlilikle görüntülenir.\n- D) Sfenoid sinüs bu projeksiyonda izlenemez (değerlendirilmesi önerilmez).\n- E) Posterior maksilla Reverse-Towne grafisinde değerlendirilmesi önerilmeyen bölgelerdendir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 162,
+    "question": "Aşağıdaki ekstraoral görüntüleme yöntemlerinden hangisinde izlenebilen anatomik oluşumlar -verimliliğine bakılmaksızın- diğerlerine göre daha fazladır?",
+    "options": {
+      "A": "Reverse Towne",
+      "B": "Oblik mandibula grafisi",
+      "C": "Posteroanterior kafa grafisi",
+      "D": "Lateral ramus grafisi",
+      "E": "Lateral sefalometrik projeksiyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Posteroanterior (PA) kafa grafisinde; orbita, nazal kavite ve frontal sinüs yüksek verimlilikle; anterior mandibula, mandibula gövdesi, ramus, koronoid proses, kondil boynu, anterior maksilla ve etmoid sinüs orta verimlilikle; kondil başı, posterior maksilla, zigoma, nazal kemikler ve maksiller sinüs ise düşük verimlilikle izlenebilir. Yalnızca zigomatik ark ve sfenoid sinüs değerlendirilemez; dolayısıyla verimliliğine bakılmaksızın en fazla sayıda anatomik oluşum PA kafa grafisi ile izlenebilmektedir.\n**Çeldiriciler:**\n- A) Reverse Towne grafisinde maksilla, paranazal sinüsler ve zigoma gibi birçok yapı izlenemez.\n- B) Oblik mandibula grafisi sadece mandibula gövdesi ve ramus bölgesine lokalize bilgi verir.\n- D) Lateral ramus grafisi yalnızca mandibulanın arka bölümlerini ve kondili gösterir, üst yüz yapılarını ve sinüsleri göstermez.\n- E) Lateral sefalometrik projeksiyonda mandibula gövdesi, ramus, koronoid, kondil boynu ve etmoid sinüs gibi pek çok yapı süperpozisyon nedeniyle değerlendirilemez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 163,
+    "question": "Panoramik radyograf alınırken hastanın dili damağına değdirilmediği zaman aşağıdakilerden hangisi meydana gelir?",
+    "options": {
+      "A": "Mandibular kesiciler kronları üzerine radyoopak şeklinde bant",
+      "B": "Mandibular kesiciler üzerine radyolüsent şeklinde bant",
+      "C": "Bulanık anterior dişler",
+      "D": "Maksiller diş kökleri üzerine radyolüsent şeklinde bant",
+      "E": "Maksiler diş kökleri üzerine radyoopak şeklinde bant"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Panoramik radyografi çekimi sırasında hasta dilini sert damağına tamamen yapıştırmazsa, dilin sırtı ile sert damak arasında kalan hava boşluğu (palatoglossal hava yolu) X-ışınlarını absorbe etmez ve üst çene dişlerinin apeksleri hizasında periapikal patolojilerle karıştırılabilen koyu (radyolüsent) bir bant şeklinde maksiller diş kökleri üzerine süperpoze olur.\n**Çeldiriciler:**\n- A) Mandibular kesiciler üzerine radyoopak bant düşmesi dil pozisyonuyla ilgili değildir.\n- B) Dilin damağa değdirilmemesi alt kesiciler üzerinde değil, üst diş kökleri üzerinde radyolüsent bant oluşturur (alt kesiciler üzerinde radyolüsent alan dudakların açık kalmasıyla oluşur).\n- C) Bulanık anterior dişler, hastanın ısırma çubuğunun önünde veya gerisinde (fokal oluk dışında) konumlandırılması sonucu oluşur.\n- E) Maksiller diş kökleri üzerine radyoopak bant süperpozisyonu, hastanın başını yukarı kaldırması sonucu sert damağın izdüşümüyle meydana gelir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 164,
+    "question": "I. Sert damak görüntüsünün maksiller dişler üzerine süperpoze olması\nII. Vertebra hayalet imajının anterior dişler üzerine süperpoze olması\nIII. Oklüzal planda düzleşme\nIV. Alt çene anterior dişlerde distorsiyon\nV. Premolar dişlerde üst üste binme\n\nPanoramik radyografide çenenin yukarı kaldırılması halinde görüntüde aşağıdakilerden hangi hata veya hatalar oluşur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve III",
+      "C": "Yalnız IV",
+      "D": "I ve III",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Panoramik radyografi çekilirken hastanın çenesini (başını) yukarı doğru kaldırması durumunda Frankfurt düzlemi bozulur; bunun sonucunda sert damağın radyoopak görüntüsü maksiller dişlerin kökleri üzerine süperpoze olur ve oklüzal düzlem düzleşir ya da ters kurva (konkav / somurtma görünümü) kazanır.\n**Çeldiriciler:**\n- A) Birinci öncülün yanı sıra oklüzal planda düzleşmeyi ifade eden üçüncü öncül de oluşur.\n- B) İkinci öncüldeki vertebra süperpozisyonu hastanın dik durmaması (kayakçı pozisyonu verilmemesi) veya başın öne eğilmesiyle oluşur.\n- C) Alt çene anterior dişlerde ciddi kısalma/bulanıklaşma ve V şekli oluşumu çenenin aşağı doğru eğilmesi (başın öne eğilmesi) hatasında belirgindir.\n- E) İkinci ve dördüncü öncüller çenenin yukarı kaldırılmasının tipik bulguları değildir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; çene yukarı kaldırıldığında sert damağın geniş radyoopak gölgesi maksiller diş kökleri üzerine biner.\n- II. Yanlıştır; servikal vertebraların anterior bölgeye süperpozisyonu boynun öne eğilmesi (dik durulmaması) sonucunda gerçekleşir.\n- III. Doğrudur; baş arkaya/yukarı eğildiğinde oklüzal düzlem düzleşir veya aşağı doğru konkav (somurtan yüz) bir şekil alır.\n- IV. Yanlıştır; alt anterior dişlerde şiddetli bulanıklaşma ve distorsiyon başın aşağı doğru eğilmesi durumunda görülür.\n- V. Yanlıştır; premolar dişlerde süperpozisyon hastanın ısırma çubuğunu önden ısırması veya başın rotasyonu gibi hatalarda belirginleşir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 165,
+    "question": "Aşağıdakilerden hangisi panoramik radyografide izlenen yumuşak dokulardan birisi değildir?",
+    "options": {
+      "A": "Burun",
+      "B": "Dudak",
+      "C": "Mukoza",
+      "D": "Kafa derisi",
+      "E": "Nazolabial fold"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Panoramik radyografide görüntülenen alan (FOV) maksilla, mandibula ve çevreleyen alt/orta yüz yapılarını kapsar; kraniyumun üst kısmı ve kafa derisi (skalp) ışınlama ve görüntüleme alanı dışında kaldığı için panoramik radyografide izlenmez.\n**Çeldiriciler:**\n- A) Burun kıkırdağı ve yumuşak dokusu üst anterior/premolar bölgede izlenir.\n- B) Dudak gölgeleri ve dudakların birleşim hattı anterior dişlerin kuronları üzerinde izlenir.\n- C) Ağız içi ve yanak mukozası yumuşak doku gölgesi olarak radyografta yer alır.\n- E) Nazolabial fold (oluk), kanin-premolar bölgede yumuşak doku hattı olarak izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 167,
+    "question": "Hastanın çekilen panoramik radyografisinde maksiller diş kökleri üzerinde sert damağın radyoopak bir bant şeklinde süperpozisyonuna konumlandırma sırasında aşağıdakilerden hangi düzlemin yere paralel hale getirilmemesi neden olur?",
+    "options": {
+      "A": "Kantomeatal düzlem",
+      "B": "Midsagittal düzlem",
+      "C": "Oklüzal düzlem",
+      "D": "Frankfurt düzlemi",
+      "E": "Koronal düzlem"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Panoramik radyografide hastanın Frankfurt horizontal düzlemi yere paralel olacak şekilde konumlandırılmaz ve hasta çenesini yukarı kaldırırsa, sert damağın görüntüsü aşağı kayarak maksiller dişlerin kökleri üzerine radyoopak bir bant şeklinde süperpoze olur.\n**Çeldiriciler:**\n- A) Kantomeatal düzlem ekstraoral kafa grafilerinde (Waters, SMV, PA) referans alınan düzlemdir, panoramikte Frankfurt düzlemi esas alınır.\n- B) Midsagittal düzlem yere paralel değil, yere dik ve cihazın orta hattıyla çakışacak şekilde konumlandırılır.\n- C) Oklüzal düzlem panoramik çekimde yere tam paralel değil, hafif aşağı doğru eğimli durur.\n- E) Koronal düzlem vücudu ön ve arka olarak ayıran dikey düzlemdir, yere paralel hale getirilmez.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 169,
+    "question": "Panoramik radyografi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Altı yaşından küçük hastalarda genellikle uygun bir teknik değildir.",
+      "B": "Hasta, Frankfurt düzlemi yere paralel olacak şekilde konumlandırılır.",
+      "C": "Şakak destekleri sıkılaştırılarak hastanın başı sabitlenir.",
+      "D": "Hastaya, dilini damağına yapıştırması ve dudaklarını kapatması söylenir.",
+      "E": "Merkezi ışın kondiller seviyesinden midsagital düzleme dik olarak yönlendirilir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Panoramik radyografide X-ışını kaynağı ve kaset hastanın başı etrafında rotasyon yaparken ışın demeti tek bir noktadan midsagittal düzleme dik olarak verilmez; aksine rotasyon merkezi kayarak ilerler ve ışın demeti kafa tabanını çenelere süperpoze etmemek için aşağıdan yukarıya doğru hafif negatif açı (-4° ile -7° arası) ile yönlendirilir. Merkezi ışının midsagittal düzleme ve filme dik olarak kulak deliğinin üst hizasından verildiği yöntem Lateral Sefalometrik radyografidir.\n**Çeldiriciler:**\n- A) Panoramik çekim yaklaşık 15 saniye boyunca hareketsiz kalmayı gerektirdiği için kooperasyon kurulamayan 6 yaş altı çocuklarda genellikle uygun değildir.\n- B) Sert damak süperpozisyonunu önlemek ve doğru oklüzal kurva elde etmek için Frankfurt düzlemi yere paralel ayarlanır.\n- C) Başın sağa-sola kaymasını ve dönmesini önlemek için şakak destekleri kapatılarak baş sabitlenir.\n- D) Havayolu gölgesini önlemek için dil damağa yapıştırılır, anterior dişler üzerindeki hava gölgesini önlemek için dudaklar kapatılır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 170,
+    "question": "Merkezi ışının hastanın midsagittal düzlemi ve filme dik olarak, kulak deliğinin üst hizasından yönlendirildiği görüntüleme metotu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Panoramik radyografi",
+      "B": "Submentoverteks",
+      "C": "Posteroanterior kafa grafisi",
+      "D": "Waters grafisi",
+      "E": "Lateral sefalometrik grafi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Lateral sefalometrik projeksiyonda hastanın midsagittal düzlemi film kasetine paralel (sol tarafı filme yakın) olacak şekilde konumlandırılır ve merkezi ışın hem hastanın midsagittal düzlemine hem de filme dik olarak dış kulak yolu deliğinin (meatus acusticus externus) üst hizasından yönlendirilir.\n**Çeldiriciler:**\n- A) Panoramik radyografide tüp ve reseptör baş etrafında döner, sabit bir dik açı söz konusu değildir.\n- B) Submentoverteks grafisinde merkezi ışın midsagittal düzleme paralel olarak mandibula altından girip kafa tepesinden çıkar.\n- C) Posteroanterior kafa grafisinde film midsagittal düzleme diktir ve merkezi ışın oksipitalden girip burun kökünden çıkar.\n- D) Waters grafisinde film midsagittal düzleme diktir ve ışın arkadan öne doğru 37° açılı kantomeatal hatta göre yönlendirilir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 171,
+    "question": "I. Posteroanterior kafa grafisi\nII. Lateral sefalometrik grafi\nIII. Submentoverteks\nIV. Reverse towne\nV. Waters grafisi\n\nAşağıdaki görüntüleme yöntemlerinden hangisinde veya hangilerinde film hastanın midsagittal düzlemine dik olarak yerleştirilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "IV ve V",
+      "E": "I, III, IV ve V"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Ekstraoral kafa grafilerinden yalnızca Lateral sefalometrik grafide film kaseti hastanın midsagittal (orta) düzlemine paralel olarak başın yan tarafına yerleştirilir. Posteroanterior kafa grafisi, Submentoverteks, Reverse Towne ve Waters grafilerinde ise hasta kasete ön veya arka yüzüyle baktığı için film hastanın midsagittal düzlemine dik konumdadır.\n**Çeldiriciler:**\n- A) Birinci öncülün yanı sıra üçüncü, dördüncü ve beşinci öncüllerde de film midsagittal düzleme diktir.\n- B) Lateral sefalometrik grafide film midsagittal düzleme dik değil, paraleldir.\n- C) Dördüncü ve beşinci öncüller eksik bırakılmıştır.\n- D) Birinci ve üçüncü öncüller eksik bırakılmıştır.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; PA kafa grafisinde hastanın yüzü kasete dönüktür ve film midsagittal düzleme diktir.\n- II. Yanlıştır; Lateral sefalometrik grafide kaset başın yanındadır ve midsagittal düzleme paraleldir.\n- III. Doğrudur; Submentovertekste kaset başın arkasında midsagittal düzleme dik ve kantomeatal hatta paralel durur.\n- IV. Doğrudur; Reverse Towne tekniğinde alın kasete değer ve film midsagittal düzleme diktir.\n- V. Doğrudur; Waters grafisinde çene kasete değer ve film midsagittal düzleme diktir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 180,
+    "question": "Panoramik radyografi çekiminde havayolu 'ters U' şeklinde maksiller dişlerin kökleri üzerine radyolusent bant şeklinde süperpoze olduğu pozisyonlandırma hatası aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Isırma çubuğundaki çentiğin önünden ısırılması",
+      "B": "Isırma çubuğundaki çentiğin gerisinden ısırılması",
+      "C": "Hastanın çene ucunu aşağıya eğmesi",
+      "D": "Hastanın çene ucunu yukarıya kaldırması",
+      "E": "Uygun dil pozisyonunun sağlanamaması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Panoramik radyografi çekimi sırasında hasta dilini damağına tamamen yapıştırmazsa (uygun dil pozisyonu sağlanamazsa), dilin üstü ile damak arasında kalan palatoglossal hava boşluğu 'ters U' şeklinde koyu (radyolusent) bir bant olarak maksiller dişlerin kökleri üzerine süperpoze olur ve periapikal patolojileri taklit edebilir.\n**Çeldiriciler:**\n- A) Çentiğin önünden ısırılması anterior dişlerin mesio-distal çaplarının daralmasına (\"zayıf diş\" görünümüne) yol açar.\n- B) Çentiğin gerisinden ısırılması anterior dişlerin mesio-distal çaplarının genişlemesine (\"şişman diş\" görünümüne) neden olur.\n- C) Çene ucunun aşağıya eğilmesi oklüzal düzlemin fincan tabağı (gülen yüz) şekli almasına ve alt kesicilerin bulanıklaşmasına neden olur.\n- D) Çene ucunun yukarıya kaldırılması sert damağın radyoopak görüntüsünün üst diş köklerine süperpoze olmasına ve ters gülme hattına neden olur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 183,
+    "question": "Panoramik radyografi çekimi sırasında aşağıdaki durumlardan hangisinde anterior dişlerde daralma ve bulanıklaşma görülür?",
+    "options": {
+      "A": "Dişler önde konumlandırıldığında",
+      "B": "Dişler geride konumlandırıldığında",
+      "C": "Baş sağ doğru döndüğünde",
+      "D": "Baş yukarı doğru konumlandırıldığında",
+      "E": "Baş aşağı doğru konumlandırıldığında"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Ön dişler ısırtma çubuğundaki çentiğin önünden ısırtılırsa (dişler fokal oluğun önünde konumlandırılırsa), anterior dişler filme daha fazla yaklaşarak daha az magnifikasyon oluşturur; bu nedenle anterior dişlerde yatay yönde daralma ve fokal oluk dışına çıkıldığı için bulanıklaşma görülür.\n**Çeldiriciler:**\n- B) Dişler geride (çentiğin arkasında) konumlandırıldığında filmden uzaklaştıkları için anterior dişlerde daralma değil, genişleme ve bulanıklaşma görülür.\n- C) Baş sağa doğru döndüğünde (rotasyon yaptığında) tek taraflı asimetrik büyüme ve küçülme (bir tarafta genişleme diğer tarafta daralma) oluşur.\n- D) Baş yukarı doğru konumlandırıldığında üst kesiciler bulanıklaşır ve genişler, sert damak kökler üzerine biner ve ters gülme hattı oluşur.\n- E) Baş aşağı doğru konumlandırıldığında alt kesiciler dikey yönde kısalır ve bulanıklaşır, mandibula V şeklini alır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 187,
+    "question": "Panoramik radyografta maksiller sinüsün arka duvarı ile sfenoid kemiğin pterigoid çıkıntısı arasında ters su damlası şeklinde izlenen anatomik oluşum hangisidir?",
+    "options": {
+      "A": "Pterigomaksiller fissür",
+      "B": "Orbitanın dış yan duvarı",
+      "C": "İnfraorbital kanal",
+      "D": "Koronoid çıkıntı",
+      "E": "Maksiller sinüsün medial duvarı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Panoramik radyografilerde maksiller sinüsün arka (posterior) duvarı ile sfenoid kemiğin pterigoid çıkıntısı arasında yer alan ve kendine has \"ters su damlası\" (inverted teardrop) şeklinde radyolüsent görüntü veren anatomik oluşum pterigomaksiller fissürdür (fossa pterygopalatina). Maksiller sinüs malignitelerinin yayılımını ve Le Fort kırıklarını değerlendirmede kritik öneme sahiptir.\n**Çeldiriciler:**\n- B) Orbitanın dış yan duvarı orbitanın üst-lateral sınırında radyoopak bir hat olarak izlenir.\n- C) İnfraorbital kanal orbita tabanının hemen altında paralel iki ince kortikal çizgi/foramen olarak izlenir.\n- D) Koronoid çıkıntı mandibula ramusunun ön-üst kısmında yer alan üçgen şekilli radyoopak kemik çıkıntısıdır.\n- E) Maksiller sinüsün medial duvarı nazal kavite ile sinüs arasındaki dikey radyoopak sınırı oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 188,
+    "question": "Panoramik radyografilerde kendine has 'ters su damlası' şeklinde radyolusent görüntü veren arka sınırı sfenoid kemiğin pterigoid çıkıntısı; ön duvarının devamlılığı, maksiller sinüsün malignitelerinin yayılımını değerlendirmede önemli olan; maksillanın Lefort kırıklarında bütünlüğü bozulabilen anatomik oluşum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pterigomaksiller fissür",
+      "B": "Orbitanın iç yan duvarı",
+      "C": "Orbitanın dış yan duvarı",
+      "D": "Maksiller sinüs medial duvarı",
+      "E": "Maksiller sinüsün lateral duvarı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Ön sınırını maksiller sinüsün posterior duvarının, arka sınırını ise sfenoid kemiğin pterigoid çıkıntısının oluşturduğu, panoramik radyografide karakteristik \"ters su damlası\" şeklinde radyolüsent izlenen ve tüm Le Fort kırıklarında (I, II, III) bütünlüğü bozulan anatomik yapı pterigomaksiller fissürdür.\n**Çeldiriciler:**\n- B) Orbitanın iç yan (medial) duvarı etmoid kemik komşuluğunda yer alır, ters su damlası görüntüsü vermez.\n- C) Orbitanın dış yan duvarı zigomatik ve frontal kemik birleşiminde radyoopak olarak izlenir.\n- D) Maksiller sinüsün medial duvarı burun boşluğu komşuluğundaki düz radyoopak duvardır.\n- E) Maksiller sinüsün lateral duvarı zigomatik proses komşuluğunda yer alır, pterigoid çıkıntı ile komşu değildir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 189,
+    "question": "Panoramik radyografta zigomatik arkın orta kısmında oblik uzanımlı olarak izlenen ve kırık hattıyla karıştırılabilen radyolusent oluşum hangisidir?",
+    "options": {
+      "A": "Zigomatikotemporal sütur",
+      "B": "Orbitanın dış yan duvarı",
+      "C": "Pterigomaksiller fissür",
+      "D": "İnfraorbital kanal",
+      "E": "Fraktür hattı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Panoramik radyografide zigomatik arkın tam ortasında aşağı ve arkaya doğru oblik (eğik) uzanan ince radyolüsent çizgi, zigomatik kemik ile temporal kemiğin zigomatik prosesi arasındaki birleşim yeri olan zigomatikotemporal süturdur. Normal bir anatomik yapı olup sıklıkla zigomatik ark kırığı ile karıştırılır (kırık durumunda deplasman, basamaklanma ve daha geniş radyolüsensi izlenir).\n**Çeldiriciler:**\n- B) Orbitanın dış yan duvarı radyolüsent bir çizgi değil, kalın radyoopak bir kortikal sınırdır.\n- C) Pterigomaksiller fissür zigomatik ark üzerinde değil, maksiller sinüsün arkasında ters su damlası şeklinde izlenir.\n- D) İnfraorbital kanal orbita tabanında yer alır, zigomatik arkın üzerinde bulunmaz.\n- E) Fraktür hattı patolojik bir durumdur; kemik korteksinde basamaklanma/deplasman olmadan zigomatik ark ortasında izlenen düzenli oblik çizgi anatomik süturdur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 190,
+    "question": "I. Görüntü gürültüsü\nII. Radyasyon dozu\nIII. Yumuşak doku kontrastı\n\nKonvansiyonel (medikal) bilgisayarlı tomografi ve konik ışınlı bilgisayarlı tomografi karşılaştırıldığında yukarıdakilerden hangileri konvansiyonel bilgisayarlı tomografide genellikle daha düşüktür?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Konvansiyonel (medikal) bilgisayarlı tomografide (BT) yelpaze şeklinde daraltılmış ışın demeti ve yüksek mA/kVp kullanıldığı için saçılan radyasyon (skatter) azdır ve sinyal/gürültü oranı yüksektir; bu nedenle görüntü gürültüsü (noise) konik ışınlı bilgisayarlı tomografiye (KIBT) göre daha düşüktür. Radyasyon dozu ve yumuşak doku kontrastı ise medikal BT'de KIBT'ye göre daha düşük değil, çok daha yüksektir.\n**Çeldiriciler:**\n- B) Radyasyon dozu medikal BT'de daha düşük değil, KIBT'ye göre belirgin derecede daha yüksektir.\n- C) İkinci öncül medikal BT'de daha yüksek olduğu için yanlıştır.\n- D) Üçüncü öncüldeki yumuşak doku kontrastı medikal BT'de çok daha yüksektir.\n- E) Hem radyasyon dozu hem de yumuşak doku kontrastı medikal BT'de KIBT'den daha yüksektir.\n\n**Öncüllerin Analizi:**\n- I. Doğrudur; yüksek mAs değeri ve yelpaze ışın geometrisi sayesinde konvansiyonel BT'de görüntü gürültüsü (noise) KIBT'ye göre daha düşüktür.\n- II. Yanlıştır; konvansiyonel BT'de radyasyon dozu KIBT'ye göre çok daha yüksektir.\n- III. Yanlıştır; konvansiyonel BT'de yumuşak doku kontrast çözünürlüğü KIBT'ye göre çok daha yüksektir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 8 - Dişhekimliğinde Radyografi Teknikleri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

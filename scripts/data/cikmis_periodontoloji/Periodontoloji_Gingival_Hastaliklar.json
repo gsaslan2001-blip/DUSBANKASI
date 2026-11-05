@@ -1,0 +1,1447 @@
+[
+  {
+    "q_num": 225,
+    "question": "I. Diş fırçalama\nII. Ovulasyon\nIII. Periodontal cerrahi tedavi sonrası iyileşme dönemi\nIV. Okluzal travma\n\nAşağıdakilerden hangisi dişeti oluğu sıvısı miktarını artırmaz?",
+    "options": {
+      "A": "I-II",
+      "B": "I-III",
+      "C": "II-III",
+      "D": "I-II-III",
+      "E": "Yalnız IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Oklüzal travma supracrestal bağ dokusu damarlarını etkilemediği için DOS miktarını artırmaz.\n- **I. Öncül (Artırır):** Diş fırçalama mekanik stimülasyon yoluyla DOS akışını artırır.\n- **II. Öncül (Artırır):** Ovulasyon hormonal etkiyle vasküler permeabiliteyi ve DOS'u artırır.\n- **III. Öncül (Artırır):** Cerrahi sonrası iyileşme döneminde artan vaskülarite DOS miktarını belirgin şekilde artırır.\n- **IV. Öncül (Artırmaz):** Oklüzal travma DOS miktarında değişikliğe yol açmaz.\n**Çeldiriciler:**\n- A, B, C, D) I, II ve III numaralı durumların tamamı DOS yapımını artıran faktörlerdir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 226,
+    "question": "Dişeti cep sıvısı ile ilgili ifadelerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dişeti cep sıvısı içeriği incelenerek periodontal hastalık aktivitesi saptanabilir.",
+      "B": "1,5 mm eninde bir filtre kağıdı cep içerisine 1 mm yerleştirildiğinde 3 dakikada toplanan sıvı miktarı 0,1 mg'dır.",
+      "C": "DOS'taki interferon alfa, interlökin-1 beta'nın kemik rezorpsiyonu aktivitesini engeller ve periodontal hastalıkta koruyucu rol üstlenir.",
+      "D": "Kadın seks hormonları ve oklüzal travma cep sıvısını artıran faktörlerdir.",
+      "E": "Tetrasiklin ve metronidazol cep sıvısından atılan ilaçlardır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Kadın seks hormonları vasküler permeabiliteyi artırarak cep sıvısını (DOS) artırır; ancak oklüzal travma dişeti inflamasyonuna veya DOS artışına neden olan bir faktör değildir.\n**Çeldiriciler:**\n- A) DOS içerisindeki kolajenaz (MMP-8), AST, ALP, PGE2 ve IL-1beta gibi biyobelirteçler incelenerek periodontal hastalık aktivitesi ve yıkım riski saptanabilir.\n- B) Standart filtre kağıdı şeritleriyle yapılan ölçümlerde sulkustan toplanan bazal sıvı miktarı dakikalar içinde miligramın onda biri düzeyindedir.\n- C) DOS içerisinde saptanan interferon-alfa (IFN-$\\alpha$), IL-1beta'nın uyardığı osteoklastik kemik rezorpsiyonunu baskılayarak koruyucu bir sitokin olarak görev yapar.\n- E) Sistemik olarak alınan tetrasiklinler ve metronidazol, dişeti oluğu sıvısından yüksek konsantrasyonlarda atılarak subgingival alanda terapötik avantaj sağlar.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 227,
+    "question": "Diş eti oluğu sıvısı (DOS) akış miktarı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Periodontal cerrahi sonrasında ilk günlerde akış miktarı azalır.",
+      "B": "Sirkadyen ritim DOS hacmini etkiler.",
+      "C": "Periodontal enflamasyonda akış miktarı artar.",
+      "D": "Hamilelik, ovulasyon, oral kontraseptif kullanımı akış miktarını artırır.",
+      "E": "Mekanik stimülasyon (çiğneme, diş fırçalama) akışı artırır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Periodontal cerrahi sonrasında ilk günlerde ve iyileşme periyodu boyunca doku rejenerasyonu, inflamatuvar faz ve artmış anjiyogenez nedeniyle DOS akış miktarı azalmaz; aksine belirgin bir şekilde artış gösterir.\n**Çeldiriciler:**\n- B) Sirkadyen ritim (günün saati) DOS hacmini etkiler; sabah 06:00 ile akşam 22:00 saatleri arasında artış görülürken gece saatlerinde azalma mevcuttur.\n- C) Periodontal enflamasyonda damar geçirgenliğinin artmasıyla DOS akış miktarı doğrudan artar.\n- D) Kadın seks hormonlarının yükseldiği hamilelik, ovulasyon ve oral kontraseptif kullanımı vasküler permeabiliteyi artırarak DOS miktarını artırır.\n- E) Çiğneme ve diş fırçalama gibi mekanik uyarılar gingival damarları stimüle ederek DOS akışını artırır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 228,
+    "question": "I. Mekanik stimülasyon\nII. Kronik oklüzal travma\nIII. Periodontal cerrahi sonrası\n\nYukarıdakilerden hangi ya da hangileri diş eti oluğu sıvısı (DOS) akış miktarını artırmaz?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kronik oklüzal travma dişeti marjininde vasküler inflamasyon oluşturmadığı için DOS akış miktarını artırmaz.\n- **I. Öncül (Artırır):** Çiğneme, fırçalama veya cep içerisine kağıt şerit yerleştirilmesi gibi mekanik stimülasyonlar DOS akışını artırır.\n- **II. Öncül (Artırmaz):** Oklüzal travma (akut veya kronik) DOS miktarını değiştirmez.\n- **III. Öncül (Artırır):** Periodontal cerrahi sonrası iyileşme periyodunda DOS akışında belirgin artış olur.\n**Çeldiriciler:**\n- B, C, D, E) I ve III numaralı öncüller DOS miktarını artıran durumlardır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 229,
+    "question": "Tükürüğün fonksiyonu ve komponenti eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Antibakteriyel - IgA",
+      "B": "Fiziksel koruma - Glikoprotein",
+      "C": "Temizleme - Fiziksel yıkama",
+      "D": "Tamponlama - Bikarbonat",
+      "E": "Lubrikasyon etki - Statin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Tükürüğün lubrikasyon (kayganlaştırma) ve viskoelastik koruma fonksiyonu statin (statherin) ile değil, müsinler ve glikoproteinlerin mukoid komponentleri ile sağlanır. Statherin (statin), tükürükte kalsiyum ve fosfat tuzlarının aşırı çökelmesini önleyen ve bakteriyel büyümeyi inhibe eden bir proteindir.\n**Çeldiriciler:**\n- A) Salgısal IgA, bakterilerin oral dokulara tutunmasını (adezyonunu) inhibe ederek ve aglütinasyonlarını sağlayarak antibakteriyel/immünolojik koruma yapar.\n- B) Tükürük glikoproteinleri ve müsinler diş ve mukoza yüzeylerini kaplayarak fiziksel ve mekanik bir bariyer (pelikıl/mukus) oluşturur.\n- C) Tükürüğün sürekli akışı, fiziksel yıkama etkisiyle besin artıklarını ve deskuame hücreleri ağız ortamından temizler.\n- D) Bikarbonat ve fosfat iyonları, plak asitlerini nötralize ederek tükürüğün en önemli tamponlama kapasitesini oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 230,
+    "question": "Aşağıdaki hastalık gruplarının hangilerinde dişeti ve ağız mukozasında melanin pigmentasyonu artışı gözlenir?",
+    "options": {
+      "A": "Addison hastalığı - Albright sendromu",
+      "B": "Diyabet - Lökosit adezyon yetmezliği",
+      "C": "Diyabet - Herpetik gingivostomatitis",
+      "D": "Addison hastalığı - Deskuamatif gingivitis",
+      "E": "Down sendromu - Chediak-Higashi sendromu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Melanositler tarafından sentezlenen melanin pigmentinin oral mukozada ve dişetinde patolojik/semptomatik olarak artış gösterdiği başlıca sistemik durumlar arasında Addison hastalığı (primer adrenal yetmezlikte artan ACTH/MSH uyarısı nedeniyle) ve Albright sendromu (McCune-Albright sendromu; poliostotik fibröz displazi, endokrinopati ve café-au-lait melanin pigmentasyonları) yer alır.\n**Çeldiriciler:**\n- B) Diyabet ve lökosit adezyon yetmezliği periodontal yıkımı artırır ancak oral melanin pigmentasyonu yapmaz.\n- C) Diyabet ve herpetik gingivostomatitis melanin artışı ile ilişkili değildir.\n- D) Addison hastalığı melanin artışı yapar ancak deskuamatif gingivitis epitel soyulması ve eritem ile karakterizedir, hiperpigmentasyon yapmaz.\n- E) Down sendromunda pigmentasyon artışı yoktur; Chediak-Higashi sendromunda ise melanin artışı değil, aksine parsiyel okulokütanöz albinizm (hipopigmentasyon) görülür.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 231,
+    "question": "I. Addison hastalığı\nII. Hipofosfatazya\nIII. Albright sendromu\nIV. Deskuamatif gingivitis\nV. Lökosit adezyon yetmezliği\n\nYukarıda belirtilen hastalık gruplarının hangilerinde dişeti ve ağız mukozasında melanin pigmentasyonu artışı gözlenir?",
+    "options": {
+      "A": "I-II",
+      "B": "I-III",
+      "C": "I-III-IV",
+      "D": "II-III-IV",
+      "E": "II-III-IV-V"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Oral mukozada melanin pigmentasyonunu artıran faktörler arasında Addison hastalığı, Peutz-Jeghers sendromu, Albright sendromu, Von Recklinghausen hastalığı (nörofibromatozis), hamilelik, sigara kullanımı ve bazı ilaçlar (zidovudin, ketokonazol, oral kontraseptifler) bulunur.\n- **I. Öncül (Doğru):** Addison hastalığında MSH artışına bağlı oral hiperpigmentasyon görülür.\n- **II. Öncül (Yanlış):** Hipofosfatazya alkalen fosfataz eksikliği ve sement aplazisi/erken süt dişi kaybı ile karakterizedir, pigmentasyon yapmaz.\n- **III. Öncül (Doğru):** Albright sendromunda oral ve dermal melanin pigmentasyonları izlenir.\n- **IV. Öncül (Yanlış):** Deskuamatif gingivitis eritem ve ülserasyonla seyreder, melanin artışı yapmaz.\n- **V. Öncül (Yanlış):** Lökosit adezyon yetmezliği şiddetli periodontitis ve enfeksiyonlara yol açar, pigmentasyonla ilişkili değildir.\n**Çeldiriciler:**\n- A, C, D, E) II, IV ve V numaralı hastalıklar melanin pigmentasyonu artışına neden olmaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 232,
+    "question": "Dişetinde fizyolojik pigmentasyon hakkında hangisi söylenemez?",
+    "options": {
+      "A": "Hemoglobin türevi olmayan melanin kaynaklı kahverengi pigmentasyondur.",
+      "B": "Deri, dişeti ve oral mukozanın normal pigmentasyonundan sorumludur.",
+      "C": "Ciddi eksikliği veya yokluğu albinoluk olarak adlandırılır.",
+      "D": "Askorbik asit dişeti dokularındaki melanin pigmentasyonunu etkilemez.",
+      "E": "Cerrahi olarak yapılan depigmentasyondan sonra tekrar oluşabilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Askorbik asit (C vitamini), melanin sentez basamağında görev alan tirozinaz enzimini ve dopakinon oluşumunu inhibe ederek dişeti dokularındaki melanin pigmentasyonunu direkt yolla azaltır; dolayısıyla pigmentasyonu etkilemediği ifadesi yanlıştır.\n**Çeldiriciler:**\n- A) Melanin, melanositler tarafından sentezlenen ve kan/hemoglobin kaynaklı olmayan (endojen non-hematojen) kahverengi-siyah bir pigmenttir.\n- B) Deri, saç, göz, dişeti ve oral mukozanın fizyolojik renklendirilmesinden sorumludur.\n- C) Melanin sentezindeki genetik eksiklik veya yokluk okulokütanöz albinizm (albinoluk) tablosuna yol açar.\n- E) Klinikte estetik amaçla kimyasal, termal, cerrahi veya lazerle depigmente edilen dişeti, bazal tabakadaki melanositlerin göçü ve aktivasyonuyla bir süre sonra tekrar pigmente (repigmentasyon) olabilir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 233,
+    "question": "Aşağıdaki hastalık ve sendromlardan hangisinde oral melanin pigmentasyonunda artış görülmesi beklenmez?",
+    "options": {
+      "A": "Nörofibromatozis",
+      "B": "Peutz-Jeghers sendromu",
+      "C": "Down sendromu",
+      "D": "Albright sendromu",
+      "E": "Addison hastalığı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Down sendromu (Trizomi 21); makroglossi, fissürlü dil, yüksek damak kubbesi, erken ve şiddetli periodontal yıkım ve ANUG yatkınlığı gibi oral bulgular gösterir ancak oral melanin pigmentasyonunda artışa neden olmaz.\n**Çeldiriciler:**\n- A) Nörofibromatozis (Von Recklinghausen hastalığı), nörofibromlar ve hem deride hem oral mukozada görülebilen café-au-lait melanin lekeleri ile karakterizedir.\n- B) Peutz-Jeghers sendromu, intestinal hamartomatöz polipler ve dudak/oral mukozada yaygın çil benzeri melanotik maküllerle seyreden otozomal dominant bir sendromdur.\n- D) Albright sendromu, kemik displazileri ve mukokütanöz melanin hiperpigmentasyonları ile karakterizedir.\n- E) Addison hastalığı, adrenal korteks yetmezliğine bağlı artan ACTH/MSH üretimiyle dişeti ve yanak mukozasında diffüz bronz/kahverengi melanin pigmentasyonu oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 234,
+    "question": "I. Peutz-Jeghers sendromu\nII. Down sendromu\nIII. Albright sendromu\n\nYukarıdaki hastalık ve sendromlardan hangisinde oral melanin pigmentasyonunda artış görülmesi beklenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Peutz-Jeghers sendromu ve Albright sendromu oral mukozada melanin pigmentasyonunu artıran genetik sendromlardır.\n- **I. Öncül (Doğru):** Peutz-Jeghers sendromunda dudak çevresi ve oral mukozada belirgin melanotik maküller görülür.\n- **II. Öncül (Yanlış):** Down sendromu melanin pigmentasyonunda herhangi bir değişikliğe yol açmaz.\n- **III. Öncül (Doğru):** Albright sendromu oral melanin pigmentasyonunu artıran faktörlerdendir.\n**Çeldiriciler:**\n- A) III. öncül de doğru olduğu için eksiktir.\n- B, D, E) Down sendromunda (II) oral hiperpigmentasyon görülmez.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 235,
+    "question": "Aşağıdaki verilen durum ve hastalıklardan hangisi dişetlerinde kızarıklığa sebep olmaz?",
+    "options": {
+      "A": "Liken planus",
+      "B": "Lösemi",
+      "C": "Ağız solunumu",
+      "D": "Addison hastalığı",
+      "E": "Gingivitis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Addison hastalığı dişetlerinde eriteme (kızarıklığa) değil, melanosit stimülasyonuna bağlı olarak kahverengi-siyah-mavimsi melanin hiperpigmentasyonuna neden olur.\n**Çeldiriciler:**\n- A) Liken planusun özellikle eroziv ve atrofik formları dişetinde deskuamatif gingivitis tablosu yaratarak parlak kırmızı bir görünüme yol açar.\n- B) Lösemide lösemik hücre infiltrasyonu ve vasküler staz nedeniyle dişetlerinde büyümeler, kanama ve mavimsi-kırmızı renk değişimi görülür.\n- C) Ağız solunumu yapan bireylerde özellikle maksiller anterior bölgede kuruluğa bağlı yüzey dehidratasyonu, parlak kızarıklık (eritem) ve hiperplazi izlenir.\n- E) Gingivitis, vasküler proliferasyon ve vazodilatasyon nedeniyle dişetinde kızarıklığa (eritem) yol açan en temel inflamatuvar tablodur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 236,
+    "question": "I. Kortikosteroid\nII. Antienflamatuvar\nIII. Antikonvülsan\nIV. Kalsiyum kanal blokörü\nV. İmmünsüpresifler\n\nYukarıdakilerden hangisi dişeti büyümesine neden olan ilaçlardandır?",
+    "options": {
+      "A": "I-II-III",
+      "B": "I-II-IV",
+      "C": "II-III-IV",
+      "D": "III-IV-V",
+      "E": "I-IV-V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** İlaca bağlı dişeti büyümesine (İBDB) neden olan üç temel farmakolojik ajan grubu; antikonvülsanlar (fenitoin, valproik asit, fenobarbital), kalsiyum kanal blokörleri (nifedipin, diltiazem, verapamil, amlodipin) ve immünsüpresiflerdir (siklosporin A, takrolimus).\n- **I. Öncül (Yanlış):** Kortikosteroidler inflamasyonu ve bağ dokusu proliferasyonunu baskılar, dişeti büyümesi yapmaz.\n- **II. Öncül (Yanlış):** Antienflamatuvar ilaçlar (NSAİİ) dişeti büyümesine neden olmaz.\n- **III. Öncül (Doğru):** Fenitoin başta olmak üzere antikonvülsanlar yaklaşık %50 oranında dişeti büyümesi yapar.\n- **IV. Öncül (Doğru):** Nifedipin gibi kalsiyum kanal blokörleri yaygın dişeti büyümesine yol açar.\n- **V. Öncül (Doğru):** Siklosporin A gibi immünsüpresif ajanlar dişeti büyümesi oluşturur.\n**Çeldiriciler:**\n- A, B, C, E) Kortikosteroid (I) ve antienflamatuvar (II) ilaçlar dişeti büyümesine sebep olmaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 237,
+    "question": "I. İbuprofen\nII. Diltiazem\nIII. Takrolimus\nIV. Fenitoin\n\nYukarıdakilerden hangisi dişeti büyümesine neden olan ilaçlardandır?",
+    "options": {
+      "A": "I-II-III",
+      "B": "I-II-IV",
+      "C": "I-III-IV",
+      "D": "II-III-IV",
+      "E": "I-II-III-IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Diltiazem, takrolimus ve fenitoin sırasıyla kalsiyum kanal blokörü, immünsüpresif ve antikonvülsan gruplarına ait olup dişeti büyümesine neden olan ajanlardır.\n- **I. Öncül (Yanlış):** İbuprofen bir non-steroidal antiinflamatuvar ilaçtır (NSAİİ), dişeti büyümesi yapmaz.\n- **II. Öncül (Doğru):** Diltiazem, benzotiyazepin türevi bir kalsiyum kanal blokörüdür ve yaklaşık %20 oranında dişeti büyümesine neden olur.\n- **III. Öncül (Doğru):** Takrolimus, siklosporin A'ya göre çok daha az oranda olsa da dişeti büyümesi yapabilen bir immünsüpresiftir.\n- **IV. Öncül (Doğru):** Fenitoin, en yüksek oranda (%50) dişeti büyümesi yapan antikonvülsan ilaçtır.\n**Çeldiriciler:**\n- A, B, C, E) İbuprofen (I) dişeti büyümesi yapan ilaçlar arasında yer almaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 238,
+    "question": "Yirmi iki yaşında hasta dişetlerindeki büyüme şikayetiyle başvuruyor. Alınan anamnezde hastanın epilepsi hastası olduğu, sigara kullanmadığı öğreniliyor. Oral muayenesinde anterior segmentte 4-6 mm cep derinlikleri ölçülüyor. Minimal plak ve dişetlerinin hafif inflame olduğu görülüyor. Radyografik kemik kaybı görülmüyor.\n\nHastanın en olası teşhisi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Agresif periodontitis",
+      "B": "Ağız solunumu bağlı dişeti büyümesi",
+      "C": "Gummy smile",
+      "D": "Gingival fibromatozis",
+      "E": "Antikonvülsan bağlı dişeti büyümesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Hastanın anamnezinde epilepsi öyküsünün bulunması, anterior bölgede belirgin dişeti büyümesi ve buna bağlı psödocep (kemik kaybı olmaksızın 4-6 mm cep derinliği) oluşması, epilepsi tedavisinde yaygın kullanılan fenitoin gibi bir antikonvülsan ilaca bağlı dişeti büyümesini gösterir.\n**Çeldiriciler:**\n- A) Agresif periodontitiste hızlı ve şiddetli radyografik alveoler kemik kaybı ve gerçek ataçman kaybı bulunur; bu hastada kemik kaybı yoktur.\n- B) Ağız solunumuna bağlı büyüme için anamnezde nazal obstrüksiyon veya ağız solunumu alışkanlığı belirtilmelidir; buradaki temel etiyolojik ipucu epilepsidir.\n- C) Gummy smile (dişeti gülüşü), üst çenenin vertikal fazlalığı veya gecikmiş pasif erüpsiyon gibi anatomik bir durumdur, sonradan gelişen ilaç ilişkili hiperplazi değildir.\n- D) Herediter gingival fibromatozis genetik geçişlidir, genellikle dişlerin sürmesiyle başlar ve tüm arkı diffüz olarak etkiler.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 239,
+    "question": "Aşağıdakilerden hangisi epilepsi tedavisinde dişeti büyümesine neden olan ilaçtır?",
+    "options": {
+      "A": "Fenitoin",
+      "B": "Siklosporin",
+      "C": "Verapamil",
+      "D": "Nifedipine",
+      "E": "Diltiazem"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Fenitoin (Dilantin), epilepsi nöbetlerinin kontrolünde kullanılan antikonvülsan bir ilaçtır ve kullanan hastaların yaklaşık %50'sinde fibroblast proliferasyonunu uyararak ve kollajen yıkımını baskılayarak dişeti büyümesine neden olur.\n**Çeldiriciler:**\n- B) Siklosporin dişeti büyümesi yapar ancak epilepsi tedavisinde değil, organ nakli sonrası doku reddini önlemek ve otoimmün hastalıkları tedavi etmek için kullanılan bir immünsüpresiftir.\n- C, D, E) Verapamil, nifedipin ve diltiazem dişeti büyümesine neden olurlar ancak epilepsi tedavisinde değil; hipertansiyon, anjina pektoris ve aritmi tedavisinde kullanılan kalsiyum kanal blokörleridir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 240,
+    "question": "I. Fenitoin\nII. Siklosporin\nIII. Valproik asit\nIV. Karbamazepin\n\nYukarıdaki ilaçlardan hangileri epilepsi tedavisinde kullanılan dişeti büyümelerine neden olabilen ilaçlardır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-III",
+      "C": "I-II-III",
+      "D": "I-III-IV",
+      "E": "I-II-III-IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Epilepsi tedavisinde kullanılan antikonvülsan ilaçlardan fenitoin en sık dişeti büyümesi yapan ajandır; alternatif olarak kullanılan valproik asit, karbamazepin ve fenobarbital de fenitoine göre çok daha düşük sıklıkta olmakla birlikte dişeti büyümesiyle ilişkili bulunmuştur.\n- **I. Öncül (Doğru):** Fenitoin epilepsi tedavisinde kullanılan ve en sık dişeti büyümesi yapan antikonvülsandır.\n- **II. Öncül (Yanlış):** Siklosporin dişeti büyümesi yapar ancak antikonvülsan değil, immünsüpresif bir ilaçtır.\n- **III. Öncül (Doğru):** Valproik asit epilepsi tedavisinde kullanılan ve nadir de olsa dişeti büyümesi yapabilen bir antikonvülsandır.\n- **IV. Öncül (Doğru):** Karbamazepin epilepsi tedavisinde fenitoine alternatif olarak kullanılan ve düşük oranda dişeti büyümesi yapabilen bir antikonvülsandır.\n**Çeldiriciler:**\n- A, B) Karbamazepin ve valproik asit de antikonvülsan grubunda yer alıp büyüme yapabildiği için eksiktir.\n- C, E) Siklosporin (II) epilepsi tedavisinde kullanılmaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 241,
+    "question": "I. Fenobarbital\nII. Valproik asit\nIII. Takrolimus\n\nFenitoin yerine daha az dişeti büyümesi yaptığı için tercih edilen ilaç hangi ya da hangileridir?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I-II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Fenitoine bağlı şiddetli dişeti büyümesi gelişen epilepsi hastalarında, hekim konsültasyonu ile aynı endikasyona sahip (antikonvülsan) ancak çok daha az sıklıkta büyüme yapan fenobarbital, valproik asit veya karbamazepine geçiş yapılabilir.\n- **I. Öncül (Doğru):** Fenobarbital, epilepsi tedavisinde fenitoine alternatif olarak kullanılan ve çok daha az dişeti büyümesi yapan bir antikonvülsandır.\n- **II. Öncül (Doğru):** Valproik asit, fenitoine alternatif olarak tercih edilebilen ve dişeti büyümesi yan etkisi çok düşük olan bir diğer antikonvülsandır.\n- **III. Öncül (Yanlış):** Takrolimus, fenitoine değil, bir immünsüpresif olan siklosporin A'ya alternatif olarak kullanılan ilaçtır.\n**Çeldiriciler:**\n- A, C, D, E) Takrolimus (III) antikonvülsan olmadığı için fenitoin yerine kullanılamaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 242,
+    "question": "Dişeti büyümeleriyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Tedavide ilk olarak, ilaca bağlı dişeti büyümelerinde büyümeye neden olan ilacın, daha uygun bir ilaçla değişimi düşünülmelidir.",
+      "B": "Azitromisin kullanımı, siklosporine bağlı dişeti büyümesinin şiddetini azaltabilir.",
+      "C": "Nifedipinin siklosporinle birlikte kullanıldığı durumlarda dişeti büyümesinin şiddeti artabilir.",
+      "D": "Dişeti büyümelerinde psödocep formasyonu, ataşman ve vertikal kemik kaybı olsa bile tedavide gingivektomi yapılmalıdır.",
+      "E": "Dişeti büyümeleri ile birlikte ataşman kaybı ve kemik defekti de varsa flep tekniği uygulanır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Dişeti büyümelerine gerçek ataşman kaybı ve kemik içi (vertikal) defektler eşlik ediyorsa gingivektomi kontrendikedir. Gingivektomi yalnızca kemik üstü (psödocep) varlığında ve yeterli keratinize doku bulunduğunda uygulanabilir; kemik cerrahisi veya kemik içi defekt tedavisi gerektiren durumlarda periodontal flep operasyonu yapılmalıdır.\n**Çeldiriciler:**\n- A) İlaca bağlı dişeti büyümelerinin tedavisinde birinci basamak, tıp hekimiyle konsülte edilerek ilacın kesilmesi veya büyüme yapmayan alternatif bir ilaçla değiştirilmesidir.\n- B) Makrolid grubu bir antibiyotik olan azitromisin, siklosporine bağlı dişeti büyümesinde fibroblast proliferasyonunu ve inflamasyonu baskılayarak büyümenin şiddetini azaltır.\n- C) Organ nakli hastalarında hipertansiyon kontrolü için siklosporin ile birlikte nifedipin kullanılması, sinerjistik etkiyle dişeti büyümesinin prevalansını ve şiddetini artırır.\n- E) Dişeti büyümesiyle beraber gerçek periodontal cep, ataşman kaybı ve kemik defektleri mevcutsa, kök yüzeyine ve kemiğe ulaşabilmek için flep cerrahisi tercih edilir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 243,
+    "question": "İlaç bağımlı dişeti büyümeleri hakkında aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "Fenitoin bağlı büyümeler ödematöz yapıdadır.",
+      "B": "Siklosporin bağlı büyümeler diğerlerine göre daha çok inflamatuar yanıt içerir.",
+      "C": "Ca kanal blokörlerine bağlı büyümeler genellikle posterior bölge ile sınırlıdır.",
+      "D": "Fenitoin bağlı büyümeler sadece primer dentisyonu etkiler.",
+      "E": "Siklosporin bağlı büyümelerin prevalansı ileri yaştaki hastalarda artar."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Siklosporine bağlı dişeti büyümelerinin histopatolojisinde ve kliniğinde, fenitoin ve kalsiyum kanal blokörlerinin oluşturduğu lezyonlarla karşılaştırıldığında çok daha yoğun bir inflamatuvar hücre infiltrasyonu, ödem ve zengin vaskülarizasyon (damarlanma) görülür; bu nedenle klinik olarak daha hiperemik ve kanamaya eğilimlidir.\n**Çeldiriciler:**\n- A) Fenitoine bağlı büyümeler ödematöz değil, yoğun kollajen birikimi nedeniyle sert, fibrotik, soluk pembe ve lobüllü yapıdadır.\n- C) Kalsiyum kanal blokörlerine (ve diğer ilaçlara) bağlı büyümeler posterior bölgeyle sınırlı kalmaz, aksine en sık ve en belirgin olarak anterior bölgedeki interdental papillerde görülür.\n- D) Fenitoine bağlı büyümeler sadece süt dentisyonunu değil, genç bireylerde ve erişkinlerde daimi dentisyonu da yaygın olarak etkiler (ancak dişsiz alanlarda görülmez).\n- E) Siklosporine bağlı dişeti büyümelerinin prevalansı ileri yaşta değil, çocuklarda ve genç bireylerde erişkinlere kıyasla daha yüksektir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 244,
+    "question": "Siklosporin A kullanımına bağlı görülen yan etkilerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hiperpigmentasyon",
+      "B": "Nefrotoksisite",
+      "C": "Hipertansiyon",
+      "D": "Dişeti büyümesi",
+      "E": "Aşırı kıllanma"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Siklosporin A kullanımına bağlı başlıca yan etkiler arasında nefrotoksisite, hepatotoksisite, hipertansiyon, dişeti büyümesi ve hipertrikozis (aşırı kıllanma) yer alır; ancak melanin hiperpigmentasyonu siklosporin A'nın karakteristik yan etkilerinden biri değildir.\n**Çeldiriciler:**\n- B) Siklosporin A doza bağımlı renal vazokonstriksiyon ve tübüler hasar yaparak ciddi nefrotoksisiteye yol açar.\n- C) Sistemik vasküler direnci artırarak sekonder hipertansiyona neden olur (bu nedenle hastalara sıklıkla kalsiyum kanal blokörü de başlanır).\n- D) Kullanan hastaların yaklaşık %30'unda vasküler ve inflamatuvar karakteri belirgin dişeti büyümesi oluşturur.\n- E) Yüz ve vücutta aşırı kıllanma (hipertrikozis) siklosporin A'nın en sık görülen kozmetik yan etkilerindendir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 245,
+    "question": "Aşağıdaki ilaçlardan hangisi dişeti büyümesine neden olmaz?",
+    "options": {
+      "A": "Verapamil",
+      "B": "Nifedipin",
+      "C": "Amlodipin",
+      "D": "Siprofloksasin",
+      "E": "Fenitoin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Siprofloksasin, florokinolon grubu geniş spektrumlu bir antibiyotiktir (özellikle *A. actinomycetemcomitans* enfeksiyonlarında kullanılır). Dişeti büyümesi yapma gibi bir yan etkisi bulunmamaktadır.\n**Çeldiriciler:**\n- A) Verapamil, fenilalkilamin türevi bir kalsiyum kanal blokörüdür ve yaklaşık %4 oranında dişeti büyümesine neden olur.\n- B) Nifedipin, dihidropiridin türevi bir kalsiyum kanal blokörüdür ve grubunda en yüksek oranda (%44-86) dişeti büyümesi yapan ilaçtır.\n- C) Amlodipin, dihidropiridin türevi bir kalsiyum kanal blokörü olup dişeti büyümesine yol açar.\n- E) Fenitoin, epilepsi tedavisinde kullanılan ve en sık (%50) dişeti büyümesi yapan antikonvülsan ilaçtır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 246,
+    "question": "I. Takrolimus\nII. Sodyum valproat\nIII. Verapamil\n\nDişeti büyümesine sebep olan aşağıdaki ilaçlara alternatif olarak kullanılabilecek farmakolojik ajan eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Siklosporin: I - Fenitoin: II - Nifedipin: III",
+      "B": "Siklosporin: II - Fenitoin: I - Nifedipin: III",
+      "C": "Siklosporin: III - Fenitoin: I - Nifedipin: II",
+      "D": "Siklosporin: II - Fenitoin: III - Nifedipin: I",
+      "E": "Siklosporin: I - Fenitoin: III - Nifedipin: II"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** İlaca bağlı dişeti büyümelerinde her ilaç kendi farmakolojik grubu içerisindeki daha az yan etkili bir alternatifle değiştirilir: İmmünsüpresif olan siklosporin yerine takrolimus (I), antikonvülsan olan fenitoin yerine sodyum valproat/karbamazepin (II), kalsiyum kanal blokörü olan nifedipin yerine ise verapamil/diltiazem veya farklı sınıf bir antihipertansif (III) tercih edilir.\n- **I. Öncül (Takrolimus):** Siklosporin A'ya alternatif olarak kullanılan ve %65 daha az büyüme yapan immünsüpresiftir.\n- **II. Öncül (Sodyum valproat):** Fenitoine alternatif olarak kullanılan antikonvülsandır.\n- **III. Öncül (Verapamil):** Nifedipine göre çok daha düşük (%4) dişeti büyümesi prevalansına sahip kalsiyum kanal blokörüdür.\n**Çeldiriciler:**\n- B, C, D, E) İlaçların endikasyon ve farmakolojik grup eşleştirmeleri hatalıdır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 247,
+    "question": "Dişeti büyümelerine sebep olan diğer ilaçlardan farklı olarak, ataçman kaybı ve periodontitisin eşlik ettiği dişeti büyümelerine sebep olabilen ilaç aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Siklosporin",
+      "B": "Nifedipin",
+      "C": "Verapamil",
+      "D": "Takrolimus",
+      "E": "Fenitoin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Nifedipine bağlı gelişen dişeti büyümeleri, diğer ilaca bağlı dişeti büyümesi formlarından farklı olarak periodontal yıkımı artırma eğilimindedir ve sıklıkla gerçek ataçman kaybı ile periodontitis tablosuyla birlikte görülebilir.\n**Çeldiriciler:**\n- A, C, D, E) Siklosporin, verapamil, takrolimus ve fenitoin genel olarak kemik üstü psödocep (yalancı cep) oluşturur; doğrudan ataçman kaybını ve periodontitisi şiddetlendirme özelliği spesifik olarak nifedipin ile ilişkilendirilmiştir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 248,
+    "question": "I. Diş eti bağ dokusu veya periodontal ligamentten kaynaklanır.\nII. Yavaş büyüyen küresel tümörlerdir.\nIII. Sıkı ve nodüler olma eğiliminde olmakla birlikte yumuşak ve vasküler de olabilir.\nIV. Genellikle saplıdır.\n\nYukarıdaki özellikler diş etinin hangi iyi huylu neoplazisine aittir?",
+    "options": {
+      "A": "Papillom",
+      "B": "Fibrom",
+      "C": "Karsinom",
+      "D": "Malign melanom",
+      "E": "Santral dev hücreli granülom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Fibrom (fibroma), diş eti bağ dokusundan (lamina propria) veya periodontal ligamentten köken alan, yavaş büyüyen, genellikle sert/sıkı, nodüler, küresel ve saplı (pedinküllü) olan dişetinin iyi huylu (benign) tümörüdür.\n- **I. Öncül (Doğru):** Mezenşimal kökenli olup lamina propria veya PDL'den kaynaklanır.\n- **II. Öncül (Doğru):** Benign karakterli olduğu için yavaş büyüyen küresel lezyonlardır.\n- **III. Öncül (Doğru):** Kollajen lif demetlerinden zengin olduğu için sıkı ve nodülerdir, ancak vaskülaritesi değişkendir.\n- **IV. Öncül (Doğru):** Klinik olarak çoğunlukla saplı (pedinküllü) bir tabana sahiptir.\n**Çeldiriciler:**\n- A) Papillom yüzey epitelinden köken alan, karnabahar veya parmak benzeri çıkıntılar gösteren HPV ilişkili benign epitelyal tümördür.\n- C, D) Skuamöz hücreli karsinom ve malign melanom iyi huylu değil, hızlı ve invaziv büyüyen malign neoplazilerdir.\n- E) Santral dev hücreli granülom diş eti yumuşak dokusunda değil, çene kemiğinin (alveoler kemiğin) merkezinde gelişen intraosseöz bir lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 249,
+    "question": "Aşağıdakilerden hangisi dişetinde gelişen fibromaya ait özelliklerden değildir?",
+    "options": {
+      "A": "Dişeti bağ dokusu veya periodontal ligamentten kaynaklanır",
+      "B": "Yavaş büyüyen küresel tümörlerdir",
+      "C": "Sıkı ve nodüler olma eğiliminde olmakla birlikte yumuşak ve vasküler olabilir",
+      "D": "Genellikle saplıdır",
+      "E": "Dişetinin malign neoplazmlarındandır"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Fibroma dişetinin malign (kötü huylu) neoplazmlarından biri değil, aksine en sık karşılaşılan benign (iyi huylu) bağ dokusu tümörlerinden/reaktif büyümelerinden biridir.\n**Çeldiriciler:**\n- A) Histolojik olarak dişeti lamina propriası veya periodontal ligamentten köken alır.\n- B) Yavaş bir büyüme paternine sahip, iyi sınırlı ve küresel şekilli kitlelerdir.\n- C) İçerdiği yoğun kollajen lif demetleri nedeniyle genellikle sıkı ve nodülerdir, ancak değişen derecelerde vaskülarite gösterebilir.\n- D) Mukozaya tutunduğu tabanı genellikle saplı (pedinküllü) yapıdadır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 250,
+    "question": "Klinik ve mikroskopik olarak hamilelik tümörüne benzeyen minör travmalara karşı aşırı doku yanıtı sonucu gelişen büyümelerin tanımı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fibroma",
+      "B": "Papilloma",
+      "C": "Lokalize juvenil spongiotik gingival büyüme",
+      "D": "Pyojenik granüloma",
+      "E": "Lökoplaki"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Pyojenik granülom, minör lokal travmalara veya kronik irritasyona karşı gelişen, aşırı vasküler proliferasyon ve granülasyon dokusu oluşumuyla karakterize tümör benzeri reaktif bir büyümedir. Klinik ve histopatolojik olarak hamilelik tümörü (granuloma gravidarum) ile tamamen aynıdır; ayırıcı tanısı yalnızca hastanın gebelik öyküsü (anamnezi) ile yapılır.\n**Çeldiriciler:**\n- A) Fibroma kollajenden zengin, soluk pembe ve sıkı kıvamlı bir büyümedir; hamilelik tümörü gibi vasküler/kanamalı değildir.\n- B) Papilloma HPV kaynaklı, yüzeyel epitel proliferasyonu gösteren siğil benzeri lezyondur.\n- C) Lokalize juvenil spongiotik gingival hiperplazi, gençlerde sulkuler/birleşim epitelinden köken alan nadir, mikrokistik ve spongiotik bir lezyondur.\n- E) Lökoplaki, kazınmakla çıkmayan beyaz plak tarzında prekanseröz bir mukoza lezyonudur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 252,
+    "question": "Puberteye bağlı dişeti büyümesi özellikleri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Puberte bağlı dişeti büyümesi plak bağlı olmaksızın gelişir.",
+      "B": "Puberte döneminde konak cevabı şiddetlenmiştir.",
+      "C": "Diş etlerinde kanama ve büyüme klinik olarak saptanır.",
+      "D": "Dişetinin yapısı eritematöz, lobüllü gergin görünümdedir.",
+      "E": "Pseudo cep varlığı izlenir."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Puberteye bağlı dişeti büyümesi (ve hamilelik gingivitisi) dental plakla ilişkili ancak endokrin sistem tarafından modifiye edilen gingivitisler grubundadır. Büyümenin miktarı plak miktarıyla orantısız derecede fazla olsa da, lezyonun başlaması için mikrobiyal dental plağın varlığı şarttır; plak olmaksızın gelişmez.\n**Çeldiriciler:**\n- B) Puberte döneminde artan östrojen ve progesteron hormonları, vasküler permeabiliteyi artırarak plağa karşı gelişen konak inflamatuvar yanıtını şiddetlendirir.\n- C) Klinik olarak sondlamada yoğun kanama ve özellikle interproksimal papillerde bulböz büyümeler saptanır.\n- D) Ödem ve vaskülarite artışına bağlı olarak dişeti eritematöz (kırmızı), parlak, lobüllü ve gergin bir görünümdedir.\n- E) Kemik ve ataçman kaybı olmadan dişeti marjininin koronale büyümesi sonucu psödocep (yalancı cep) oluşumu izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 253,
+    "question": "I. Capnocytophaga\nII. P. gingivalis\nIII. P. intermedia\nIV. P. nigrescens\n\nPuberte döneminde dişeti hastalığının başlangıcında ve hormonal değişikliklerle paralel olarak sayısında artış görülen mikroorganizmalar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I-II-III",
+      "B": "I-II-IV",
+      "C": "I-III-IV",
+      "D": "II-III-IV",
+      "E": "I-II-III-IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Puberte döneminde dişeti inflamasyonunun başlangıcında *Capnocytophaga* türlerinde, seks hormonlarındaki (östrojen ve progesteron) artışla paralel olarak ise bu hormonları K vitamini (menakinon) yerine büyüme faktörü olarak kullanabilen *Prevotella intermedia* ve *Prevotella nigrescens* sayısında belirgin artış görülür.\n- **I. Öncül (Doğru):** *Capnocytophaga* türleri puberte gingivitisinin başlangıcında artış gösteren karakteristik bakterilerdir.\n- **II. Öncül (Yanlış):** *P. gingivalis* erişkin periodontitisinin ve hamileliğin ileri haftalarının patojenidir; puberte gingivitisinin karakteristik baskın bakterisi değildir.\n- **III. Öncül (Doğru):** *P. intermedia* steroid hormonları besin olarak kullanarak pubertede hızla çoğalır.\n- **IV. Öncül (Doğru):** *P. nigrescens* de hormonal değişimlere paralel olarak pubertede artış gösterir.\n**Çeldiriciler:**\n- A, B, D, E) *P. gingivalis* (II) puberte dönemindeki hormonal gingivitisin spesifik indikatör bakterileri arasında yer almaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 257,
+    "question": "Ani başlayan generalize gingival büyüme ve ülserasyon, diş etinde kendiliğinden kanama, dişlerin kısa süre içinde sallanmaya başlaması ve inatçı ateş bulguları olan 14 yaşındaki erkek hastada birçok dişte üçüncü derece mobilite ve radyografik olarak şiddetli kemik yıkımı izleniyor.\n\nBu hastanın tedavisinde öncelikli olarak aşağıdakilerden hangisinin yapılması en uygundur?",
+    "options": {
+      "A": "Başlangıç periodontal tedavi",
+      "B": "Tıbbi değerlendirme için hastanın yönlendirilmesi",
+      "C": "%3'lük hidrojen peroksit ile gargara",
+      "D": "Lokal antibiyotik tedavisi",
+      "E": "Prognozu ümitsiz dişlerin çekilmesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** 14 yaşındaki genç bir hastada aniden başlayan yaygın diş eti büyümesi, nekroz/ülserasyon, spontan kanama, hızlı kemik yıkımı ve bunlara eşlik eden \"inatçı yüksek ateş\" gibi ciddi sistemik bulgular, akut lösemi veya agranülositoz gibi hayatı tehdit eden hematolojik/immünolojik bir hastalığı işaret eder. Bu tür bir şüphede, kanama ve septisemi riski nedeniyle herhangi bir dental/periodontal müdahale (çekim, küretaj vb.) yapılmadan önce hasta acilen tıbbi değerlendirme ve hematolojik konsültasyon için yönlendirilmelidir.\n**Çeldiriciler:**\n- A, E) Lösemi şüphesi olan bir hastada tıbbi konsültasyon ve kan tablosu kontrolü yapılmadan diş taşı temizliği veya diş çekimi yapmak, durdurulamayan ölümcül kanamalara ve bakteriyemiye yol açabilir.\n- C, D) Gargara veya lokal antibiyotik uygulamaları altta yatan hayatı tehdit edici sistemik malignitenin teşhisini geciktirir; ilk adım daima tıbbi yönlendirmedir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 258,
+    "question": "Lösemiye bağlı diş eti büyümelerinin tedavisi ile ilgili olarak aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "İşlemlerden önce kesinlikle doktor konsültasyonu istenmelidir.",
+      "B": "Öncelikle diş taşı temizliği ve kök düzeltmesi yapılarak büyümenin iltihabi kısmı kontrol altına alınmalıdır.",
+      "C": "Tedavi sırasında klorheksidin içerikli gargaraların kullanımından kaçınılmalıdır.",
+      "D": "Kanama kontrolü sağlamak için tedaviler küçük bölgelerle sınırlı kalmalıdır.",
+      "E": "Akut semptomlar geçtikten sonra diş eti büyümelerinin nasıl düzeltileceği planlanmalıdır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Lösemili hastalarda trombositopeni ve lökopeni nedeniyle mekanik plak kontrolü (fırçalama) kanama ve enfeksiyon riski yaratabilir. Bu nedenle tedavi sırasında klorheksidin içerikli antimikrobiyal gargaraların kullanımından kaçınılmaz, aksine oral bakteriyel yükü azaltmak ve sekonder enfeksiyonları önlemek için klorheksidin gargaralar şiddetle önerilir.\n**Çeldiriciler:**\n- A) Kanama diyatezi ve immünsüpresyon nedeniyle her türlü girişim öncesi hematolog/onkolog konsültasyonu şarttır.\n- B) Büyümenin lösemik infiltrasyon üzerine eklenen bakteriyel inflamasyon (ödem) komponentini azaltmak için konsültasyon sonrası dikkatli ve kademeli detartraj yapılır.\n- D) Olası hemorajiyi kolay kontrol edebilmek adına periodontal işlemler tek seansta tüm ağza değil, küçük segmentler halinde uygulanmalıdır.\n- E) Hastanın akut hematolojik tablosu remisyona girmeden cerrahi eksizyon düşünülmez; rezidüel büyümelerin cerrahi düzeltimi akut dönem geçtikten sonra planlanır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 259,
+    "question": "Nazal ve oral defektlerin de görülebildiği, dişetinde granülomatöz papil büyümeleri ve kanamaya neden olabilen hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sarkoidozis",
+      "B": "Gingival fibromatozis",
+      "C": "Periferal dev hücreli granülom",
+      "D": "Wegener granülomatozu",
+      "E": "Lösemi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Wegener granülomatozu (granülomatöz polianjiitis); üst ve alt solunum yollarının nekrotizan granülomatöz lezyonları, nekrotizan glomerülonefrit ve küçük damar vasküliti ile karakterize, immün aracılı bir hastalıktır. İlk belirtilerini sıklıkla orofasiyal bölgede verir; nazal ve oral ülserasyonlar/perforasyonlar ile dişetinde karakteristik kırmızı-mor, peteşiyal ve granüler papil büyümeleri (\"çilek dişeti\" - strawberry gingivitis) görülür.\n**Çeldiriciler:**\n- A) Sarkoidozis non-kazeifiye granülomlarla seyreder ancak nekrotizan nazal/oral defektler ve karakteristik çilek dişeti görünümü Wegener granülomatozuna özgüdür.\n- B) Gingival fibromatozis soluk pembe, sert ve fibrotik büyümeler yapar; kanamalı granülomatöz papil veya nazal defekt oluşturmaz.\n- C) Periferal dev hücreli granülom tek bir bölgede lokalize reaktif bir büyümedir, sistemik nazal ve renal tutulum yapmaz.\n- E) Lösemide dişeti büyümesi ve kanama görülür ancak nazal septum/damak defektleri ve granülomatöz vaskülit tablosu Wegener granülomatozunun özelliğidir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 260,
+    "question": "I. Siklosporin A – Takrolimus\nII. Fenitoin – Sodyum valproat\nIII. Nifedipin – Adalimumab\n\nYukarıdaki diş eti büyümesine neden olan ve diş eti büyümesine neden olma riski daha düşük olduğu için alternatif olarak kullanımı önerilebilecek farmakolojik ajan eşleştirmelerinden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve III",
+      "C": "I ve III",
+      "D": "I, II ve III",
+      "E": "I ve II"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dişeti büyümesine yol açan siklosporin A yerine takrolimus, fenitoin yerine ise sodyum valproat alternatif olarak kullanılabilir; ancak adalimumab antihipertansif bir ilaç değildir.\n- **I. Öncül (Doğru):** İmmünsüpresif siklosporin A yerine, dişeti büyümesi yan etkisi çok daha düşük olan takrolimus tercih edilebilir.\n- **II. Öncül (Doğru):** Antikonvülsan fenitoin yerine, aynı amaçla kullanılan sodyum valproat veya karbamazepin tercih edilebilir.\n- **III. Öncül (Yanlış):** Nifedipin bir kalsiyum kanal blokörüdür; alternatifi verapamil, diltiazem veya başka bir antihipertansif gruptur. Adalimumab ise anti-TNF-alfa yapısında monoklonal bir antikordur (immünolojik/romatolojik ajan), nifedipin yerine kullanılamaz.\n**Çeldiriciler:**\n- A) II. öncül de doğru olduğu için eksiktir.\n- B, C, D) III. öncüldeki eşleştirme farmakolojik olarak yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 261,
+    "question": "Diş eti büyümesine neden olan ve diş eti büyümesine neden olma riski daha düşük olduğu için alternatif olarak kullanımı önerilebilecek farmakolojik ajan eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Nifedipin – Diltiazem",
+      "B": "Fenitoin – Verapamil",
+      "C": "Nifedipin – Adalimumab",
+      "D": "Fenitoin – Lovastatin",
+      "E": "Siklosporin A – Azitromisin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dihidropiridin türevi bir kalsiyum kanal blokörü olan nifedipin çok yüksek oranda dişeti büyümesi yapar. Aynı farmakolojik grupta yer alan diltiazem (%20) veya verapamil (%4) ise çok daha düşük büyüme prevalansına sahip oldukları için nifedipine alternatif olarak tercih edilebilirler.\n**Çeldiriciler:**\n- B) Fenitoin antikonvülsan, verapamil ise kalsiyum kanal blokörüdür; birbirlerinin alternatifi olamazlar.\n- C) Nifedipin antihipertansif, adalimumab ise anti-TNF biyolojik ajandır.\n- D) Fenitoin antikonvülsan, lovastatin ise kolesterol düşürücü (statin) bir ilaçtır.\n- E) Azitromisin siklosporine bağlı büyümeyi azaltmak için kullanılan bir antibiyotiktir; immünsüpresif olmadığı için siklosporin A'nın yerine (alternatif olarak) kullanılamaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 262,
+    "question": "Otoimmün hastalığı sebebiyle tedavi gören yirmi beş yaşında kadın hasta, dişetlerinin kanaması ve büyümesi şikayetiyle kliniğe başvuruyor. Alınan anamnezde siklosporin kullandığı öğrenilen hastanın klinik muayenesinde 13-25 numaralı dişleri arasında yaygın dişeti büyümesi olduğu ve keratinize dişetinin yeterli miktarda olmadığı görülüyor. Hastanın doktoruna danışılarak ilacı değiştiriliyor ve diştaşı temizliği-oral hijyen eğitiminin ardından ara kontrol seansları ile 12 ay bekleniyor. 12. ayda plak skoru %10 olmasına rağmen dişeti büyümelerinin gerilemediği görülüyor.\n\nBu aşamada hastanın dişeti büyümesinin tedavisi için aşağıdaki yaklaşımlardan hangisi en uygundur?",
+    "options": {
+      "A": "İlacın tekrar değiştirilmesi için doktoruna danışmak",
+      "B": "Tekrar diştaşı temizliği yapmak",
+      "C": "Klinik takip",
+      "D": "Gingivektomi",
+      "E": "Flap operasyonu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** İlaca bağlı dişeti büyümesinin tedavisinde birinci basamak (ilaç değişimi ve 6-12 ay bekleme) ile ikinci basamak (SRP ve ideal plak kontrolü; plak skoru %10) eksiksiz uygulanmasına rağmen büyüme gerilememişse üçüncü basamak olan cerrahi tedaviye geçilir. Cerrahi yöntem seçiminde büyümenin 6 dişten fazla alanı (13-25 arası, toplam 10 diş) kapsaması ve özellikle bölgede \"yeterli miktarda keratinize dişetinin bulunmaması\" gingivektomiyi kontrendike kılar; bu durumda mevcut keratinize dokuyu korumak için periodontal flep operasyonu uygulanmalıdır.\n**Çeldiriciler:**\n- A, B, C) İlaç değişimi sonrası 12 ay beklenmiş ve mükemmel plak kontrolü (%10) sağlanmış olmasına rağmen fibrotik doku gerilemediği için konservatif işlemlerin tekrarı veya takip yeterli olmayacaktır, cerrahi endikasyonu doğmuştur.\n- D) Gingivektomi, büyümenin 6 dişten az olduğu, kemik defektinin bulunmadığı ve en önemlisi eksizyon sonrası geride yeterli yapışık/keratinize dişeti kalacak vakalarda uygulanır; bu hastada keratinize dişeti yetersiz olduğu için gingivektomi yapılamaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 263,
+    "question": "Çocuklarda, sağlıklı diş etinde lamina proprianın epitel içerisine uzanan papillaları daha kısa ve düzdür.\n\nAşağıdaki verilen durumların hangisi periodontal dokuların anatomi ve fizyolojisi açısından erişkinlerden farklı olan bu durumun bir sonucudur?",
+    "options": {
+      "A": "Diş eti kenarları yetişkinlerdeki gibi bıçak sırtı şeklinde değil, yuvarlak sonlanır.",
+      "B": "Yaklaşık 3 yaşa kadar diş eti yüzey pürtüklülüğü (stippling) görülmez.",
+      "C": "İnterdental gingiva bukkolingual olarak daha geniş, mesiodistal olarak daha dardır.",
+      "D": "Periodontal ligament daha geniştir ve daha az lif yoğunluğuna sahiptir.",
+      "E": "Birleşim epiteli daha kalındır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Dişetinin portakal kabuğu görünümü (stippling), histolojik olarak bağ dokusunun papiller tabakasının uzantıları ile epitelin rete peglerinin birbirine kenetlenmesi sonucu oluşan mikroskobik girinti ve çıkıntıların klinik yansımasıdır. Çocuklarda 3 yaşına kadar bağ dokusu papillaları ve rete pegler daha kısa ve düz olduğu için klinik olarak stippling yapısı görülmez.\n**Çeldiriciler:**\n- A) Süt dişlenme döneminde dişeti kenarlarının yuvarlak (rolled) sonlanması, sürme sürecine ve süt dişlerinin servikal kurvatürüne (belirgin mine-sement çıkıntısına) bağlıdır.\n- C) İnterdental gingivanın şekli dişlerin kontakt ilişkilerine ve kuron morfolojisine bağlıdır.\n- D) Çocuklarda periodontal ligamentin daha geniş ve lif yoğunluğunun daha az olması alveoler kemiğin ve sürme fizyolojisinin özelliğidir, rete peg morfolojisiyle ilişkili değildir.\n- E) Çocuklarda birleşim epitelinin daha kalın olması (bakteriyel toksinlere karşı daha az geçirgen olması) gelişimsel bir epitel özelliğidir, bağ dokusu papillalarının düz olmasının bir sonucu değildir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 264,
+    "question": "Çocuklarda 3 yaşa kadar stippling yapısının görülmemesinin sebebi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Diş eti kenarları yetişkinlerdeki gibi bıçak sırtı şeklinde değil, yuvarlak sonlanır.",
+      "B": "Sağlıklı diş etinde lamina proprianın epitel içerisine uzanan papillaları daha kısa ve düzdür.",
+      "C": "İnterdental gingiva bukkolingual olarak daha geniş, mesiodistal olarak daha dardır.",
+      "D": "Periodontal ligament daha geniştir ve daha az lif yoğunluğuna sahiptir.",
+      "E": "Birleşim epiteli daha kalındır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Yapışık dişeti yüzeyinde izlenen pürtüklü (stippling) yapının temel histolojik sebebi, bağ dokusu papillaları ile epitelin rete pegleri arasındaki girintili çıkıntılı kesişimdir. Çocuklarda yaklaşık 3 yaşına kadar bağ dokusunun epitele doğru uzanan papillaları ve rete pegler daha kısa ve düz olduğu için yüzeyde stippling görünümü oluşmaz.\n**Çeldiriciler:**\n- A) Serbest dişeti kenarının yuvarlak sonlanması marjinal konturla ilgilidir, yapışık dişetteki stippling yapısını açıklamaz.\n- C) İnterdental papilin boyutları dişlerin aproksimal morfolojisiyle ilişkilidir.\n- D) Periodontal ligament genişliği derin destek dokuların anatomik bir özelliğidir.\n- E) Birleşim epitelinin kalınlığı sulkus tabanının geçirgenliğini etkiler, yüzey pürtüklülüğü ile ilgisi yoktur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 265,
+    "question": "I. İnflamatuar yanıtın T lenfositleri tarafından domine edilmesi\nII. Lezyonlarda nispeten plazma hücrelerinin azlığı\nIII. Birleşim epitelinin daha kalın olması\n\nVerilenlerden hangi ya da hangileri primer dentisyonda periodontitisin daha az görülmesinin sebeplerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Çocuklarda (süt dişlenme döneminde) gingivitis yaygın görülmesine rağmen bu tablonun yıkıcı periodontitise dönüşmesi oldukça nadirdir; bunun temel nedenleri arasında hem lokal bariyer direnci hem de immün yanıtın hücresel profili yer alır.\n- **I. Öncül (Doğru):** Çocuklardaki gingival inflamatuvar yanıt, yıkıcı B-lenfosit/plazma hücresi yanıtından ziyade T-lenfositler tarafından domine edilir (yetişkindeki erken lezyon aşamasında sabit kalma eğilimindedir).\n- **II. Öncül (Doğru):** Lezyonlarda doku ve kemik yıkımıyla doğrudan ilişkili olan B-lenfosit ve plazma hücrelerinin sayısı yetişkinlere göre çok daha azdır.\n- **III. Öncül (Doğru):** Primer dentisyonda birleşim epiteli daha kalındır ve bakteriyel toksinlere/antijenlere karşı daha az geçirgendir.\n**Çeldiriciler:**\n- A, B, C, D) Verilen üç faktörün tamamı çocuklarda gingival inflamasyonun periodontitise dönüşümünü sınırlayan koruyucu mekanizmalardır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 266,
+    "question": "İnterdental papillada krater benzeri çöküntüye neden olan ve gri psödomembran ile kaplı ülserasyon aşağıdaki hastalıklardan hangisinde görülür?",
+    "options": {
+      "A": "Oral mukoz-membran pemfigoid",
+      "B": "Pemfigus vulgaris",
+      "C": "Eritema multiforme",
+      "D": "Primer herpetik gingivostomatit",
+      "E": "Akut nekrotizan ülseratif gingivitis"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Akut nekrotizan ülseratif gingivitis (ANUG / NUG); interdental papil tepelerinden başlayan zımbalanmış tarzda krater benzeri nekrotik çöküntüler, bu ülserlerin üzerini örten sarımsı-gri psödomembran, psödomembranın çevresinde lineer eritem, şiddetli ağrı ve spontan kanama ile karakterize akut bakteriyel bir dişeti enfeksiyonudur.\n**Çeldiriciler:**\n- A, B) Mukoz membran pemfigoidi ve pemfigus vulgaris vezikülobüllöz otoimmün hastalıklardır; dişetinde deskuamatif gingivitis yaparlar ancak papil nekrozu/krateri oluşturmazlar.\n- C) Eritema multiforme dudaklarda hemorajik krutlar ve deride hedef tahtası (iris) lezyonları ile karakterizedir.\n- D) Primer herpetik gingivostomatit tüm oral mukozada ve dişetinde yaygın toplu iğne başı büyüklüğünde veziküller ve bunların patlamasıyla oluşan küçük ülserlerle seyreder, interdental papil yıkımı yapmaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 267,
+    "question": "Kliniğe dişeti ağrısı, yemek yemede güçlük, kötü ağız kokusu şikayetleri ile başvuran hastanın yapılan muayenesinde interdental papillalarda nekroz, sarı pseudo membranlar izlendi. Günde 2 paket sigara içen hastanın son günlerde iş değişikliği nedeniyle sıkıntılar yaşadığı ve uyku sorunu yaşadığı öğrenildi.\n\nBu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Oral mukoz-membran pemfigoid",
+      "B": "Pemfigus vulgaris",
+      "C": "Akut nekrotizan ülseratif gingivitis",
+      "D": "Primer herpetik gingivostomatit",
+      "E": "Liken planus"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Yoğun sigara kullanımı (günde 2 paket) ve akut psikolojik stres/uykusuzluk gibi tipik predispozan faktörlere sahip bir hastada; şiddetli dişeti ağrısı, fetor oris (kötü ağız kokusu), interdental papil nekrozu ve üzerini kaplayan sarı-gri psödomembranların varlığı Akut Nekrotizan Ülseratif Gingivitis (ANUG) tanısını koydurur.\n**Çeldiriciler:**\n- A, B, E) Pemfigoid, pemfigus vulgaris ve liken planus kronik otoimmün/mukokütanöz hastalıklardır; akut papil nekrozu ve gri psödomembranlarla karakterize değillerdir.\n- D) Primer herpetik gingivostomatit HSV-1 kaynaklıdır, yüksek ateş ve veziküllerle seyreder, papil tepelerinde krater tarzı nekroz yapmaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 268,
+    "question": "On dokuz yaşında hasta 7 numaralı dişin distalinde bölgede şişlik, kötü koku, ağrı ve ağız açıklığında kısıtlılık ile kliniğe başvuruyor. Radyografik muayenesinde kemik içerisinde yarı gömülü 8 numaralı dişi görülüyor. Klinik muayenesinde 8 numaralı dişin distal tüberkülü ağız içerisinde görülüyor ve 7 numaralı dişin distalinde 9 mm sondlamada cep ölçülüyor.\n\nYukarıda klinik bulguları verilen hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nekrotizan gingivitis",
+      "B": "Primer herpetik gingivostomatitis",
+      "C": "Streptokokkal gingivostomatitis",
+      "D": "Akut perikoronitis",
+      "E": "Generalize kronik gingivitis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Genç erişkin bir hastada yarı gömülü alt 3. molar (8 numaralı) dişin kuronunu kısmen örten dişeti dokusunda (operkulum) gelişen şişlik, pürülan akıntıya bağlı kötü koku/tat, kulağa yansıyan şiddetli ağrı, lenfadenopati ve çiğneme kaslarının etkilenmesine bağlı ağız açıklığında kısıtlılık (trismus) tablosu akut perikoronitis olarak tanımlanır.\n**Çeldiriciler:**\n- A) Nekrotizan gingivitis interdental papillerde zımbalanmış krater tarzı nekrozlarla karakterizedir.\n- B) Primer herpetik gingivostomatit yaygın oral veziküller ve yüksek ateşle seyreden viral bir enfeksiyondur.\n- C) Streptokokkal gingivostomatitis üst solunum yolu enfeksiyonuna eşlik eden diffüz dişeti eritemi ile karakterizedir.\n- E) Generalize kronik gingivitis ağrısız, trismus yapmayan ve plak birikimine bağlı gelişen yaygın marjinal inflamasyondur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 269,
+    "question": "Otuz iki yaşındaki erkek hasta dişetlerinde şiddetli ağrı ve kanama şikayetleriyle başvuruyor. Ağız içi muayenesinde alt çene kesicilerin vestibülünde serbest dişeti kenarı boyunca takip eden ince bant tarzında beyaz bir görüntü olduğu tespit ediliyor. Günde bir paket sigara içen hastanın son dönemde aşırı strese bağlı uykusuzluk çektiği öğreniliyor. Hastada belirgin bir ağız kokusu saptanıyor ve muayenede ağrıya bağlı güçlük yaşanıyor.\n\nBu hasta için tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Herediter gingival fibromatozis",
+      "B": "Streptokokkal gingivitis",
+      "C": "Nekrotizan ülseratif gingivitis",
+      "D": "Herpetik gingivitis",
+      "E": "Rekürrent aftöz stomatitis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sigara kullanımı ve yoğun stres/uykusuzluk anamnezi olan hastada, özellikle alt anterior bölgede serbest dişeti kenarı ve papiller boyunca uzanan nekrotik beyaz-gri psödomembran bandı, şiddetli ağrı, kanama ve belirgin ağız kokusu (halitozis) bulguları Nekrotizan Ülseratif Gingivitisin (NUG) klasik klinik tablosudur.\n**Çeldiriciler:**\n- A) Herediter gingival fibromatozis ağrısız, sert ve fibrotik dişeti büyümesidir.\n- B) Streptokokkal gingivitiste nekrotik psödomembran ve papil yıkımı görülmez.\n- D) Herpetik gingivitiste serbest dişeti kenarı boyunca nekrotik bant değil, patlayarak ülsere olan yaygın veziküller izlenir.\n- E) Rekürrent aftöz stomatitis keratinize olmayan hareketli mukozada (yanak, dudak, dil altı) görülen ağrılı ülserlerdir; yapışık/serbest dişetini tutmaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 270,
+    "question": "I. Dişetlerinde şiddetli ağrı ve kanama\nII. Sigara\nIII. Epitelde desquamasyon\nIV. Papil nekrozu\nV. Etkilenmiş yapışık dişeti\n\nAkut Nekrotizan Ülseratif Gingivitise ait bulgu ve özelliklerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I-II",
+      "B": "I-III",
+      "C": "II-III",
+      "D": "III-IV",
+      "E": "III-V"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Akut Nekrotizan Ülseratif Gingivitis (ANUG); interdental papil ve serbest dişeti kenarında nekroz, şiddetli ağrı ve kanama ile karakterizedir. Epitelde deskuamasyon (soyulma) görülmesi ve yapışık dişetinin yaygın olarak etkilenmesi ANUG'un değil, dermatozlara bağlı gelişen deskuamatif gingivitisin özelliğidir.\n- **I. Öncül (Doğru):** Şiddetli ağrı ve spontan/hafif uyaranla kanama ANUG'un en temel tanı kriterlerindendir.\n- **II. Öncül (Doğru):** Sigara kullanımı, katekolamin salınımı ve lokal vazokonstriksiyon yoluyla ANUG gelişiminde en önemli predispozan faktörlerdendir.\n- **III. Öncül (Yanlış):** Epitelde deskuamasyon ANUG'da beklenmez; ANUG'da epitel nekroze olarak psödomembran oluşturur.\n- **IV. Öncül (Doğru):** İnterdental papil tepelerinde zımbalanmış krater tarzı nekroz patognomoniktir.\n- **V. Öncül (Yanlış):** ANUG lezyonları interdental papil ve marjinal (serbest) dişetinde başlar; yapışık dişetini дифfüz olarak tutan tablo deskuamatif gingivitistir.\n**Çeldiriciler:**\n- A, B, C, D) I, II ve IV numaralı öncüller ANUG'un karakteristik özellikleridir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 271,
+    "question": "Çocuklarda ANUG'un daha sık görüldüğü hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Down sendromu",
+      "B": "Papillon-Lefèvre sendromu",
+      "C": "Deskuamatif gingivitis",
+      "D": "Hipofosfatazya",
+      "E": "Akut herpetik gingivitis"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Akut Nekrotizan Ülseratif Gingivitis (ANUG) gelişmiş ülkelerde çocuklarda oldukça nadir görülür; ancak PMN kemotaksisi, fagositozu ve hücre içi öldürme kapasitesinin bozuk olduğu, ayrıca dişeti sirkülasyonunun zayıf olduğu Down sendromlu çocuklarda ANUG görülme sıklığı belirgin şekilde artmıştır.\n**Çeldiriciler:**\n- B) Papillon-Lefèvre sendromunda palmoplantar hiperkeratoz ve erken yaşta şiddetli generalize periodontitis/diş kaybı görülür.\n- C) Deskuamatif gingivitis orta-ileri yaş kadınlarda dermatozlara bağlı görülen bir tablodur, çocuklarda görülmez.\n- D) Hipofosfatazyada sement oluşum defektine bağlı olarak süt dişlerinin kökleri rezorbe olmadan erken düşmesi (eksfoliasyonu) izlenir.\n- E) Akut herpetik gingivitis çocuklarda sık görülen viral bir enfeksiyondur ve ANUG ile sıklıkla karıştırılır, ancak ANUG'a zemin hazırlayan sistemik sendrom Down sendromudur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 272,
+    "question": "Yirmi sekiz yaşındaki erkek hasta, diş etlerinde 3 gün önce aniden başlayan şiddetli ağrı ve spontan kanama tablosuyla başvuruyor. İntraoral muayenede 44, 43, 42 ve 41 nolu dişlerin diş eti papili ve marjininde form bozukluğu ve diş etinin koronalinde gri renkli bir tabaka görülüyor. Hastada şiddetli ağız kokusu olduğu saptanıyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Difteri",
+      "B": "Herpetik gingivostomatitis",
+      "C": "Sifiliz 2. evre lezyon",
+      "D": "Nekrotizan ülseratif gingivitis",
+      "E": "Eritema multiforme"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Genç erişkin hastada aniden başlayan şiddetli ağrı, spontan kanama, fetor oris (şiddetli ağız kokusu) ve alt anterior/premolar dişlerin interdental papil ile marjinal dişetlerinde krater tarzı form bozukluğu (nekroz) ve üzerini örten gri renkli psödomembran tabakası, Nekrotizan Ülseratif Gingivitis (NUG) için tanısaldır.\n**Çeldiriciler:**\n- A) Difteri; farinks, tonsiller ve yumuşak damakta zor kaldırılan gri-beyaz psödomembranlar ve ağır sistemik toksisite yapan *Corynebacterium diphtheriae* enfeksiyonudur, dişeti papillerine lokalize değildir.\n- B) Herpetik gingivostomatit tüm oral mukozada veziküller ve yüksek ateşle seyreder, papil krateri oluşturmaz.\n- C) Sifiliz 2. evresinde mukozal plaklar (mucous patches) ve makülopapüler döküntüler görülür, akut nekrotizan papil yıkımı yapmaz.\n- E) Eritema multiforme dudaklarda kanamalı kabuklanmalar ve mukozada büllerle karakterize akut hipersensitivite reaksiyonudur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 273,
+    "question": "I. Şiddetli ağrı\nII. Spontan dişeti kanamaları\nIII. Marjinal ve papiller dişetinde pseudomembranlar\nIV. Ağız kokusu\nV. Salya artışı\n\nVerilen klinik özelliklere sahip hastalığın en olası teşhisi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Difteri",
+      "B": "Herpetik gingivostomatitis",
+      "C": "Sifiliz 2. evre lezyon",
+      "D": "Nekrotizan ülseratif gingivitis",
+      "E": "Eritema multiforme"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Nekrotizan ülseratif gingivitis (NUG) tanı kriterleri; papil nekrozu, kanama ve ağrıdan oluşan üç temel (primer) bulgu ile psödomembran, kötü ağız kokusu ve salya artışı gibi sekonder bulguları kapsar.\n- **I. Öncül (Doğru):** Lezyonlar dokunmaya son derece hassastır ve şiddetli ağrı vardır.\n- **II. Öncül (Doğru):** Ekspoze bağ dokusu nedeniyle spontan veya en ufak temasta kanama görülür.\n- **III. Öncül (Doğru):** Nekrotik epitel, fibrin, lökosit ve bakterilerden oluşan sarı-gri psödomembran marjinal ve papiller dişetini örter.\n- **IV. Öncül (Doğru):** Doku nekrozu ve fusospiroketal bakteriler nedeniyle belirgin kötü ağız kokusu (fetor oris) vardır.\n- **V. Öncül (Doğru):** Ağrıya ve inflamasyona bağlı olarak kıvamlı, artmış salya sekresyonu ve ağızda metalik tat izlenir.\n**Çeldiriciler:**\n- A, B, C, E) Verilen beş bulgunun bir arada özellikle marjinal ve papiller dişetinde görülmesi yalnızca NUG için karakteristiktir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 274,
+    "question": "Nekrotizan ülseratif gingivitis (NUG) tarif edilen hastada kan değerleri incelendiğinde aşağıdaki vitaminlerden hangisinde yetersizlik görülmesi daha olasıdır?",
+    "options": {
+      "A": "Vitamin A",
+      "B": "Vitamin C",
+      "C": "Vitamin D",
+      "D": "Vitamin E",
+      "E": "Vitamin K"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kötü beslenme (malnütrisyon), konak savunmasını ve doku bütünlüğünü bozarak NUG gelişimine zemin hazırlar. Özellikle C vitamini (askorbik asit) ve B2 vitamini (riboflavin) yetersizlikleri, kollajen sentezini, endotel bütünlüğünü ve nötrofil fonksiyonlarını zayıflatarak NUG tablosunun gelişimini kolaylaştırır ve patojenik durumun şiddetini artırır.\n**Çeldiriciler:**\n- A) A vitamini eksikliği epitel keratinizasyonunda bozulma ve gece körlüğü yapar.\n- C) D vitamini eksikliği kalsiyum metabolizmasını bozarak raşitizm ve osteomalaziye yol açar.\n- D) E vitamini eksikliği antioksidan kapasiteyi etkiler ancak NUG ile spesifik bir korelasyonu yoktur.\n- E) K vitamini eksikliği pıhtılaşma faktörlerinin (II, VII, IX, X) sentezini bozar.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 275,
+    "question": "Aşağıdakilerden hangisinin nekrotizan gingivitisin klinik bulgularından biri olması en az olasıdır?",
+    "options": {
+      "A": "Psödomembran formasyonu",
+      "B": "Diş eti kanaması",
+      "C": "Salivasyonda artış",
+      "D": "Gingival deskuamasyon",
+      "E": "Halitozis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Gingival deskuamasyon (dişeti epitelinin soyulup dökülmesi), liken planus, mukoz membran pemfigoidi ve pemfigus vulgaris gibi mukokütanöz hastalıklarda izlenen deskuamatif gingivitisin karakteristik bulgusudur. Nekrotizan gingivitiste ise epitel soyulması değil, interdental papil tepelerinin nekrozu ve ülserasyonu görülür.\n**Çeldiriciler:**\n- A) Nekrotik ülserlerin üzeri fibrin, ölü hücreler ve bakterilerden oluşan grimsi bir psödomembran ile kaplıdır.\n- B) Psödomembran kalktığında alttaki bağ dokusu açığa çıktığı için spontan veya çok hafif uyaranla şiddetli diş eti kanaması olur.\n- C) Şiddetli ağrı ve mukozal irritasyon nedeniyle hastalarda kıvamlı salivasyon (tükürük) artışı görülür.\n- E) Nekrotik doku yıkımı ve anaerobik spiroket/fusobakteri florası nedeniyle çok ağır bir halitozis (fetor ex ore) mevcuttur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 276,
+    "question": "Yirmi üç yaşında erkek hasta, dişetlerinde aniden başlayan şiddetli ağrı şikayetiyle kliniğe başvuruyor. Oral muayenesinde yoğun sigara kullanımına bağlı dişlerin yüzeylerini kaplayan siyah-kahverengi renklenmeler, diş taşları ve plak görülüyor. Periodontal muayenesinde papil tepelerinde beyazımsı, kolayca sıyrılabilen membran benzeri bir tabakanın altından kanamalı dişetleri görülüyor. Radyografik değerlendirmesinde çürükler ve gömülü 38 numara tespit ediliyor ancak herhangi kemik kaybına rastlanmıyor.\n\nBu hastanın teşhisi için aşağıdakilerden hangisi en uygun olur?",
+    "options": {
+      "A": "Nekrotizan gingivitis",
+      "B": "Nekrotizan periodontitis",
+      "C": "Primer herpetik gingivostomatitis",
+      "D": "Kronik ülseratif stomatitis",
+      "E": "Liken planus"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Genç erişkin hastada yoğun sigara kullanımı, aniden başlayan şiddetli ağrı, papil tepelerinde kolayca sıyrılan beyazımsı psödomembran ve altından çıkan kanamalı krater yüzeyleri nekrotizan periodontal hastalık tablosunu gösterir. Radyografik değerlendirmede \"herhangi bir kemik kaybına rastlanmaması\", yıkımın dişeti dokusuyla sınırlı kaldığını kanıtlar ve tanıyı Nekrotizan Gingivitis (NG) olarak netleştirir.\n**Çeldiriciler:**\n- B) Nekrotizan periodontitis (NP) diyebilmek için nekrotik lezyonların periodontal ligamente ve alveoler kemiğe ilerleyerek interdental kemik kraterleri ve hızlı kemik kaybı oluşturmuş olması gerekir; bu vakada kemik kaybı yoktur.\n- C) Primer herpetik gingivostomatit yaygın veziküller, yüksek ateş ve tüm oral mukoza tutulumuyla seyreder, papil nekrozu yapmaz.\n- D, E) Kronik ülseratif stomatitis ve liken planus orta-ileri yaşta görülen, kronik seyirli ve deskuamatif gingivitis oluşturan otoimmün tablolardır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 277,
+    "question": "Beş yaşında hasta oral ve ekstraoral bölgede veziküller ve ülserasyonlar ile kliniğe getiriliyor. Hastanın geçmişte bildirilen herhangi bir alerjisi ve sistemik rahatsızlığı olmadığı alınan anamnezde öğreniliyor. Hastanın ekstraoral muayenesinde bilateral lenfadenopati ve 38,5°C ateş ölçülüyor. Oral muayenede marjinal dişetinde, dilde, yumuşak damakta çok sayıca ülserasyonlar ve içi sıvı dolu veziküller görülüyor. Mikroskobik incelemede Tzanck hücrelerinin varlığı görülüyor.\n\nTüm değerlendirmeler göz önüne alındığında hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Herpetiform ülserler",
+      "B": "Herpangina",
+      "C": "Primer herpetik gingivostomatit",
+      "D": "Enfeksiyöz mononükleozis",
+      "E": "Nekrotizan gingivitis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** En sık 6 yaş öncesi çocuklarda görülen, HSV-1 virüsünün neden olduğu, yüksek ateş (38,5°C), bilateral servikal lenfadenopati, dişetlerinde diffüz eritem ve hem keratinize (dişeti, sert damak) hem de non-keratinize (dil, yumuşak damak, dudak) mukozalarda içi sıvı dolu veziküller ve bunların rüptürüyle oluşan ağrılı ülserlerle karakterize, sitolojik yaymada multinükleer dev Tzanck hücrelerinin saptandığı tablo Primer (Akut) Herpetik Gingivostomatittir.\n**Çeldiriciler:**\n- A) Herpetiform aftöz ülserler viral kökenli değildir; vezikül aşaması göstermez, ateş yapmaz, dişetini (keratinize mukozayı) tutmaz ve Tzanck hücresi içermez.\n- B) Herpangina Coxsackie A virüsü kaynaklıdır; lezyonlar sadece orofarinks, tonsil plikaları ve yumuşak damakla (posterior ağızla) sınırlıdır, dişetini tutmaz ve Tzanck hücresi görülmez.\n- D) Enfeksiyöz mononükleozis EBV kaynaklıdır; farenjit, tonsillit ve damakta peteşilerle seyreder, vezikül ve Tzanck hücresi oluşturmaz.\n- E) Nekrotizan gingivitiste vezikül oluşumu ve Tzanck hücreleri yoktur; interdental papil nekrozu vardır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 278,
+    "question": "Histopatolojik inceleme sonucunda Tzanck hücrelerine rastlanılan akut periodontal hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Akut nekrotizan ülseratif gingivitis",
+      "B": "Primer herpetik gingivostomatitis",
+      "C": "Streptokokkal gingivostomatitis",
+      "D": "Perikoronitis",
+      "E": "Agranülositozis"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Primer (akut) herpetik gingivostomatitis, Herpes Simpleks Virüs Tip 1 (HSV-1) enfeksiyonudur. Virüsle enfekte olan epitel hücrelerinde balonlaşma dejenerasyonu, akantoliz (hücreler arası bağlantıların kopması) ve çekirdek bölünmelerine bağlı olarak çok çekirdekli (multinükleer) dev epitel hücreleri oluşur; bu karakteristik hücrelere Tzanck hücreleri adı verilir.\n**Çeldiriciler:**\n- A, C, D) ANUG, streptokokkal gingivostomatitis ve perikoronitis bakteriyel enfeksiyonlardır; viral sitopatik etki olan balonlaşma dejenerasyonu ve Tzanck hücresi göstermezler.\n- E) Agranülositozis granülosit sayısının aşırı düşmesiyle seyreden hematolojik bir tablodur, Tzanck hücresi içermez.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 279,
+    "question": "Histopatolojik inceleme sonucunda Tzanck hücrelerine rastlanılan viral hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Akut nekrotizan ülseratif gingivitis",
+      "B": "Primer herpetik gingivostomatitis",
+      "C": "Streptokokkal gingivostomatitis",
+      "D": "Oral hairy lökoplaki",
+      "E": "Kaposi sarkomu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** HSV-1 kaynaklı primer herpetik gingivostomatitis (ve VZV enfeksiyonları ile pemfigus vulgaris), histopatolojik incelemede akantoliz ve çekirdekte büyüme/multinükleasyon gösteren Tzanck hücrelerinin görüldüğü viral mukozal hastalıktır.\n**Çeldiriciler:**\n- A, C) ANUG ve streptokokkal gingivostomatitis viral değil, bakteriyel hastalıklardır.\n- D) Oral hairy (kıllı) lökoplaki EBV kaynaklıdır; histopatolojisinde hiperparakeratoz ve dikensi tabakada balonlaşmış koilosit benzeri hücreler görülür, vezikül ve Tzanck hücresi yoktur.\n- E) Kaposi sarkomu HHV-8 kaynaklı malign bir endotelyal (vasküler) tümördür; iğsi hücre proliferasyonu ve ekstravaze eritrositler içerir, Tzanck hücresi görülmez.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 280,
+    "question": "Beş yaşında hasta oral ve ekstraoral bölgede veziküller ve ülserasyonlar ile kliniğe getiriliyor. Hastanın geçmişte bildirilen herhangi bir alerjisi ve sistemik rahatsızlığı olmadığı alınan anamnezde öğreniliyor. Hastanın ekstraoral muayenesinde bilateral lenfadenopati ve 38,5°C ateş ölçülüyor. Oral muayenede marjinal dişetinde, dilde, yumuşak damakta çok sayıca ülserasyonlar ve içi sıvı dolu veziküller görülüyor. Mikroskobik incelemede Tzanck hücrelerinin varlığı görülüyor.\n\nKlinik durumu betimlenen hastanın, tedavisi esnasında aşağıdaki ilaç gruplarından hangisinin kullanımı hatalıdır?",
+    "options": {
+      "A": "Antibiyotik",
+      "B": "Topikal anestezi",
+      "C": "Antipiretik",
+      "D": "Asiklovir",
+      "E": "Kortikosteroid"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Tarif edilen tablo viral bir enfeksiyon olan Primer Herpetik Gingivostomatittir. Aktif viral enfeksiyonlarda (HSV-1) topikal veya sistemik kortikosteroidlerin kullanımı lokal/sistemik immün yanıtı baskılayarak virüsün kontrolsüz yayılmasına, lezyonların derinleşmesine ve herpetik ensefalit veya keratokonjonktivit gibi ciddi komplikasyonlara yol açacağı için kesinlikle kontrendikedir (hatalıdır).\n**Çeldiriciler:**\n- A) Ülserlerin sekonder bakteriyel enfeksiyonunu önlemek veya kontrol etmek amacıyla destekleyici olarak sistemik antibiyotik önerilebilir.\n- B) Çocuğun beslenmesini ve sıvı alımını engelleyen şiddetli ağrıyı hafifletmek için yemeklerden önce topikal anestezik (lidokain hidroklorür vb.) solüsyonlar kullanılır.\n- C) 38,5°C olan yüksek ateşi düşürmek ve ağrıyı azaltmak için antipiretik/analjezik ilaçlar (parasetamol vb.) verilir.\n- D) Özellikle semptomların ilk 3 günü (72 saati) içinde başlandığında viral replikasyonu durdurmak için antiviral ajan olan asiklovir (15 mg/kg, günde 5 kez, 7 gün) kullanılır.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 281,
+    "question": "Diş etinde ülserasyon, deskuamasyon belirtileriyle karakterize ve en sık gözlenen mukokütanöz hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Herpetik gingivostomatitis",
+      "B": "Sarkoidoz",
+      "C": "Nekrotizan periodontitis",
+      "D": "Liken planus",
+      "E": "Streptokokkal gingivitis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Diş etinde eritem, epitel soyulması (deskuamasyon) ve ülserasyonlarla seyreden klinik tabloya deskuamatif gingivitis denir. Deskuamatif gingivitis tek başına spesifik bir hastalık değil, çeşitli mukokütanöz dermatozların dişetindeki yansımasıdır. Deskuamatif gingivitis vakalarının yaklaşık %84-95'inden liken planus ve müköz membran pemfigoidi sorumludur; bunlar arasında genel popülasyonda ve oral mukozada en sık gözlenen mukokütanöz hastalık Liken Planus'tur.\n**Çeldiriciler:**\n- A, C, E) Herpetik gingivostomatitis, nekrotizan periodontitis ve streptokokkal gingivitis mukokütanöz dermatoz grubunda yer almazlar; akut mikrobiyal enfeksiyonlardır.\n- B) Sarkoidoz granülomatöz bir hastalıktır, deskuamatif gingivitis tablosu oluşturan mukokütanöz dermatozlardan biri değildir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 282,
+    "question": "I. Liken planus\nII. Sarkoidoz\nIII. Herpetik gingivostomatit\nIV. Subakut lupus eritematozis\n\nYukarıda verilenlerden hangi ya da hangileri diş etinde ülserasyon, deskuamasyon belirtileriyle karakterize mukokütanöz hastalıklardandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-IV",
+      "C": "I-II-IV",
+      "D": "I-III-IV",
+      "E": "I-II-III-IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Deskuamatif gingivitise neden olan mukokütanöz dermatozlar arasında liken planus, skatrisyel (müköz membran) pemfigoid, büllöz pemfigoid, pemfigus vulgaris, epidermolizis bülloza, kronik ülseratif stomatitis, lineer IgA hastalığı, dermatitis herpetiformis, eritema multiforme ve lupus eritematozus (sistemik, kronik kütanöz ve subakut formları) yer alır.\n- **I. Öncül (Doğru):** Liken planus deskuamatif gingivitisin en yaygın nedenlerinden olan mukokütanöz bir hastalıktır.\n- **II. Öncül (Yanlış):** Sarkoidoz non-kazeifiye granülomlarla seyreden sistemik bir hastalıktır, deskuamatif mukokütanöz hastalık değildir.\n- **III. Öncül (Yanlış):** Herpetik gingivostomatit akut viral bir enfeksiyondur, kronik mukokütanöz dermatoz değildir.\n- **IV. Öncül (Doğru):** Subakut lupus eritematozis deskuamatif gingivitise yol açabilen otoimmün mukokütanöz hastalıklardandır.\n**Çeldiriciler:**\n- A) IV. öncül de deskuamatif tablo yaptığı için eksiktir.\n- C, D, E) Sarkoidoz (II) ve herpetik gingivostomatit (III) deskuamatif gingivitis etiyolojisinde yer alan dermatozlar değildir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 283,
+    "question": "Deskuamatif gingivitis ile ilgili ifadelerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Deskuamatif gingivitis terimi spesifik bir hastalık tanısı değil, bir klinik görünümü ifade eder.",
+      "B": "Dişetinin marjinal ve yapışık bölümlerinde eritem, deskuamasyon (soyulup dökülme) ve ülserasyon ile karakterizedir.",
+      "C": "En çok orta veya ileri yaştaki kadınlarda görülür.",
+      "D": "Liken planus ve skatrisyel pemfigoid, deskuamatif gingivitis vakalarının %84'ünden sorumludur.",
+      "E": "Kesin tanı klinik bulgularla yapılır."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Deskuamatif gingivitis yalnızca klinik bir tanımlamadır ve pek çok farklı otoimmün/mukokütanöz hastalık (liken planus, pemfigoid, pemfigus vb.) klinikte birbirine çok benzeyen deskuamatif dişeti lezyonları oluşturur. Bu nedenle yalnız klinik bulgularla kesin tanı konulamaz; altta yatan spesifik hastalığı teşhis etmek için mutlaka perilezyonel dokudan alınan biyopsi ile rutin histopatolojik inceleme ve Direkt İmmünofloresans (DIF) inceleme yapılması şarttır.\n**Çeldiriciler:**\n- A) Spesifik bir hastalık değil; dermatozların, alerjik reaksiyonların veya endokrin bozuklukların dişetinde yarattığı ortak bir klinik reaksiyon paternidir.\n- B) Sadece marjinal dişetini değil, yapışık dişetinin tamamını hatta alveoler mukozayı da tutan parlak eritem, epitel soyulması ve ülserasyonlarla karakterizedir.\n- C) Otoimmün karakterli dermatozlara bağlı olduğu için en sık 40-60 yaş arası (orta ve ileri yaş) kadınlarda gözlenir.\n- D) Tüm deskuamatif gingivitis olgularının büyük çoğunluğunu (%84 ve üzeri) oral liken planus ve müköz membran (skatrisyel) pemfigoidi oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 285,
+    "question": "Aşağıdakilerden hangisi oral liken planusun klinik formlarından değildir?",
+    "options": {
+      "A": "Atrofik",
+      "B": "Eroziv",
+      "C": "Büllöz",
+      "D": "Retiküler",
+      "E": "Skatrisyel"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Oral liken planusun tanımlanmış altı klinik formu vardır: Retiküler, papüler, plak benzeri (yama), atrofik, eroziv (ülseratif) ve büllöz tip. \"Skatrisyel\" (skar bırakarak iyileşen) form liken planusa ait değildir; Müköz Membran Pemfigoidinin (Skatrisyel Pemfigoid) karakteristik adıdır.\n**Çeldiriciler:**\n- A, B) Atrofik ve eroziv (ülseratif) formlar, dişetinde deskuamatif gingivitis tablosu yaratan, ağrı ve yanma şikayetine neden olan semptomatik liken planus tipleridir.\n- C) Büllöz tip, kısa sürede patlayarak ülsere yüzeye dönüşen büllerle karakterize nadir bir liken planus formudur.\n- D) Retiküler tip, yanak mukozasında bilateral birbirini kesen beyaz çizgilerle (Wickham striaları) karakterize, asemptomatik ve en sık görülen oral liken planus formudur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 286,
+    "question": "I. Retiküler\nII. Eroziv\nIII. Büllöz\n\nYukarıdakilerden hangileri oral liken planusun en yaygın görülen klinik formlarıdır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I-II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Oral liken planusun birçok klinik tipi (papüler, retiküler, plak/yama, atrofik, eroziv ve büllöz) bulunmakla birlikte, klinikte en yaygın görülen iki formu retiküler ve eroziv tiplerdir.\n- **I. Öncül (Doğru):** Retiküler tip (Wickham striaları), oral liken planusun en sık rastlanan formudur.\n- **II. Öncül (Doğru):** Eroziv tip, retiküler tipten sonra en yaygın görülen ve hastada ağrı/yanma semptomu oluşturan formdur.\n- **III. Öncül (Yanlış):** Büllöz tip oral liken planusun klinik formlarından biri olsa da klinikte en nadir görülen formudur.\n**Çeldiriciler:**\n- A) Eroziv form da en yaygın görülen iki tipten biri olduğu için eksiktir.\n- C, D, E) Büllöz form (III) yaygın değil, oldukça nadir görülür.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 287,
+    "question": "I. Herpes Simpleks enfeksiyonu, Mycoplasma enfeksiyonu ve ilaç reaksiyonları hastalığın en yaygın etiyolojik faktörleri.\nII. Ağız içerisinde eritematöz kenarlı, çoklu, sığ, ağrılı ülserler görülür, lezyonlar çok ağrılı olduğu için çiğneme ve yutkunma fonksiyonları bozulmuştur.\nIII. Bukkal mukoza ve dil en çok etkilenen bölgelerdir, bunları labial mukoza izler.\nIV. Vermillion hattında hemorajik kabuklanma önemli bir teşhis kriteri.\n\nYukarıda klinik özellikleri tanımlanan hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dermatitis herpetiformis",
+      "B": "Eritema multiforme",
+      "C": "Sistemik lupus eritematozus",
+      "D": "Müköz membran pemfigoid",
+      "E": "Liken planus"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** HSV enfeksiyonları, *Mycoplasma pneumoniae* veya sülfonamid/penisilin/NSAİİ/antikonvülsan gibi ilaç reaksiyonlarını takiben akut olarak gelişen; genç erişkinlerde (20-40 yaş) sık görülen, deride hedef tahtası (target/iris) lezyonları, ağız içerisinde yaygın ağrılı erozyonlar ve özellikle dudakların vermillion hattında karakteristik kanamalı (hemorajik) krutlar/kabuklanmalar oluşturan akut büllöz mukokütanöz hastalık Eritema Multiforme'dir.\n- **I. Öncül (Doğru):** HSV ve ilaçlar en önemli tetikleyici etiyolojik faktörlerdir.\n- **II. Öncül (Doğru):** Akut başlayan çoklu, geniş ve aşırı ağrılı oral ülserler beslenmeyi ciddi şekilde bozar.\n- **III. Öncül (Doğru):** Bukkal mukoza, dil ve dudak mukozası en sık tutulan alanlardır (dişeti tutulumu nadirdir).\n- **IV. Öncül (Doğru):** Dudaklarda (vermillion sınırında) hemorajik kabuklanma (krutlanma) eritema multiformenin en önemli klinik teşhis kriteridir.\n**Çeldiriciler:**\n- A, C, D, E) Dermatitis herpetiformis, SLE, müköz membran pemfigoidi ve liken planus kronik seyirli otoimmün hastalıklardır; HSV/ilaç tetiklemesiyle akut gelişen vermillion hemorajik kabuklanması bu hastalıkların özelliği değildir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 288,
+    "question": "Ağız içerisinde izlenen retiküler, atrofik, eritematöz, ülserasyon ve büllerle birlikte eroziv formu olan dermatoz grubu hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pemfigoid",
+      "B": "Liken planus",
+      "C": "Pemfigus vulgaris",
+      "D": "Eritema multiforme",
+      "E": "Lupus eritematozus"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Ağız mukozasında retiküler (beyaz çizgisel ağlar), papüler, plak, atrofik (eritematöz), eroziv (ülseratif) ve büllöz olmak üzere çok çeşitli klinik formlarda izlenebilen T-lenfosit aracılı kronik inflamatuvar mukokütanöz dermatoz Liken Planus'tur.\n**Çeldiriciler:**\n- A, C) Pemfigoid ve pemfigus vulgaris büllöz ve ülseratif lezyonlar oluşturur ancak \"retiküler\" (Wickham striaları) form göstermezler.\n- D) Eritema multiforme akut vezikülobüllöz ve ülseratif bir reaksiyondur, retiküler formu yoktur.\n- E) Lupus eritematozusta santrali atrofik, çevresi ışınsal beyaz çizgilerle çevrili diskoid lezyonlar görülür ancak klasik retiküler, papüler ve büllöz alt tiplendirme liken planusa aittir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 289,
+    "question": "Liken planusların oral lezyonlarından yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Retiküler",
+      "B": "Skatrisyel",
+      "C": "Atrofik",
+      "D": "Eritematöz",
+      "E": "Büllöz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Oral liken planus lezyonları; retiküler, papüler, plak (yama), atrofik (eritematöz), eroziv (ülseratif) ve büllöz tiplerde görülür. Skatrisyel (nedbe/skar bırakan) tip liken planusun bir formu olmayıp, müköz membran pemfigoidini tanımlayan bir terimdir.\n**Çeldiriciler:**\n- A) Retiküler tip, en sık görülen ve beyaz keratotinize çizgilerle (Wickham striaları) karakterize formdur.\n- C, D) Atrofik (eritematöz) tip, epitel incelmesi sonucu alttaki damarların yansımasıyla oluşan kırmızı, ağrılı lezyonlardır.\n- E) Büllöz tip, subepitelyal ayrışma sonucu bül oluşumuyla seyreden nadir liken planus formudur.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 290,
+    "question": "Altmış beş yaşında kadın hasta dişetlerinde ağrı sebepleri ile dişlerini fırçalayamadığı şikayetiyle kliniğe başvuruyor. Muayenede tüm oral bölgede yapışık dişetlerinde ağrılı eritem ve erozyonlar görülüyor. H&E incelemesinde hiperkeratoz, epitelde bazal hücre dejenerasyonu, testere dişi rete pegler ve lamina propriada yüzeysel bant benzeri infiltrasyon görülüyor.\n\nYukarıda tarif edilen hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pemfigus vulgaris",
+      "B": "Mukoza membran pemfigoid",
+      "C": "Kronik ülseratif stomatit",
+      "D": "Eroziv liken planus",
+      "E": "Skuamöz hücreli karsinom"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** İleri yaş kadın hastada yapışık dişetlerinde ağrılı eritem ve erozyonlar (deskuamatif gingivitis kliniği) ile birlikte histopatolojik incelemede; epitelde hiperkeratoz/parakeratoz, bazal tabakanın hidropik (likefaksiyon) dejenerasyonu, testere dişi (saw-tooth) görünümünde rete pegler ve lamina proprianın hemen epitel altındaki yüzeysel kısmında yoğun bant şeklinde T-lenfosit infiltrasyonu görülmesi Eroziv Liken Planus için patognomoniktir.\n**Çeldiriciler:**\n- A) Pemfigus vulgariste bazal tabaka sağlamdır; suprabazal akantoliz, intraepitelyal bül ve Tzanck hücreleri görülür.\n- B) Müköz membran pemfigoidinde bazal tabaka dejenerasyonu ve testere dişi rete pegler yoktur; bazal membran düzeyinde subepitelyal vezikülobüllöz ayrışma vardır.\n- C) Kronik ülseratif stomatit histolojik olarak liken planusa benzese de direkt immünofloresansta bazal ve parabazal hücre çekirdeklerinde karakteristik benekli IgG (SES-ANA) tutulumu ile ayrılır; klasik testere dişi rete peg ve bant infiltrasyon tanımı doğrudan liken planusu ifade eder.\n- E) Skuamöz hücreli karsinomda bazal membranı aşarak bağ dokusunu invaze eden atipik/displastik epitel adaları ve keratin incileri görülür.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 291,
+    "question": "Aşağıdakilerden hangisi oral mukozada intraepitelyal büllerle karakterizedir?",
+    "options": {
+      "A": "Pemfigus vulgaris",
+      "B": "Lazy lökosit sendromu",
+      "C": "Sistemik lupus eritematozus",
+      "D": "Chediak-Higashi sendromu",
+      "E": "Kronik granülomatöz hastalık"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Pemfigus vulgaris, epitel hücrelerini birbirine bağlayan desmozomlardaki desmoglein-3 (ve desmoglein-1) proteinlerine karşı gelişen IgG tipi otoantikorlar sonucu oluşan otoimmün büllöz bir hastalıktır. Desmozomal köprülerin yıkılmasıyla (akantoliz) bazal tabakanın hemen üzerinde (suprabazal) ayrışma meydana gelir ve histolojik olarak karakteristik \"intraepitelyal büller\" oluşur.\n**Çeldiriciler:**\n- B, D, E) Lazy (tembel) lökosit sendromu, Chediak-Higashi sendromu ve kronik granülomatöz hastalık nötrofil fonksiyon defektleriyle seyreden genetik immün yetmezliklerdir; intraepitelyal bül oluşturmazlar.\n- C) Sistemik lupus eritematozus kollajen doku hastalığıdır; büllöz formunda ayrışma intraepitelyal değil, subepitelyal düzeydedir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 292,
+    "question": "I. Pemfigus vulgaris\nII. Büllöz liken planus\nIII. Dermatitis herpetiformis\nIV. Lineer IgA hastalığı\n\nYukarıdaki hastalıklardan hangi ya da hangileri subepitelyal bül oluşumu gözlenir?",
+    "options": {
+      "A": "I-II",
+      "B": "II-III",
+      "C": "I-II-III",
+      "D": "II-III-IV",
+      "E": "III-IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Vezikülobüllöz hastalıklarda bülün oluşum yeri bazal membrana göre sınıflandırılır. Pemfigus grubu hastalıklarda bül epitel içinde (intraepitelyal/suprabazal) oluşurken; pemfigoidler, büllöz liken planus, dermatitis herpetiformis, lineer IgA hastalığı, eritema multiforme ve epidermolizis büllozada ayrışma epitel ile bağ dokusu arasında yani \"subepitelyal\" düzeyde gerçekleşir.\n- **I. Öncül (Yanlış):** Pemfigus vulgariste desmozomal yıkıma bağlı intraepitelyal (suprabazal) bül görülür.\n- **II. Öncül (Doğru):** Büllöz liken planusta bazal hücrelerin şiddetli hidropik dejenerasyonu sonucu subepitelyal bül oluşur.\n- **III. Öncül (Doğru):** Dermatitis herpetiformis subepitelyal vezikül ve bül formasyonu gösterir.\n- **IV. Öncül (Doğru):** Lineer IgA hastalığında bazal membran boyunca IgA birikimi ve subepitelyal bül oluşumu izlenir.\n**Çeldiriciler:**\n- A, C) Pemfigus vulgaris (I) intraepitelyal bül yaptığı için yanlıştır.\n- B, E) II, III ve IV numaralı hastalıkların üçü de subepitelyal bül oluşturduğu için eksiktir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 293,
+    "question": "I. Mukoz membran ve nadir olarak deriyi tutan kronik, rekürrent, otoimmün, büllöz bir hastalık.\nII. Oral mukozanın tutulumu her zaman görülür, bazen hastalığın tek bulgusudur.\nIII. Göz, burun, farenks, larenks, özefagus, genital bölge ve anüs tutulumu izlenir.\nIV. Lezyonlar iyileşmeleri uzun sürer ve iyileşirken atrofiye neden olabilir.\n\nYukarıda bulgular izlenen hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kronik kütanöz lupus eritematozus",
+      "B": "Stomatitis medikamentoza",
+      "C": "Skatrisyel pemfigoid",
+      "D": "Pemfigus",
+      "E": "Eritema multiforme"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Bazal laminadaki hemidesmozomal bileşenlere (BP180/BP2, laminin-332/epiligrin) karşı gelişen otoantikorlarla oluşan, öncelikle oral mukoza (vakaların tamamına yakınında deskuamatif gingivitis şeklinde) ve konjonktiva (gözde simblefaron ve körlük riski), ayrıca nazofarinks, özefagus ve genital mukozaları tutan, deriyi ise nadiren (%20) etkileyen ve lezyonları iyileşirken skar/atrofi bırakan kronik otoimmün subepitelyal büllöz hastalık Skatrisyel Pemfigoid (Müköz Membran Pemfigoidi)'dir.\n- **I. Öncül (Doğru):** Öncelikle müköz membranları, nadiren deriyi tutan otoimmün büllöz hastalıktır.\n- **II. Öncül (Doğru):** Oral mukoza (özellikle dişeti) hemen her zaman tutulur ve sıklıkla tek bulgudur.\n- **III. Öncül (Doğru):** Oküler (simblefaron), nazal, faringeal, özefageal ve genital mukozaları tutabilir.\n- **IV. Öncül (Doğru):** Subepitelyal derin ayrışma nedeniyle iyileşmesi uzun sürer ve skarlaşmaya (skatris) veya atrofiye yol açar.\n**Çeldiriciler:**\n- A) Kronik kütanöz (diskoid) lupusta güneş gören deride kelebek tarzı döküntüler ön plandadır, oküler simblefaron veya skar bırakan büller tipik değildir.\n- B, E) Stomatitis medikamentoza ve eritema multiforme akut gelişen hipersensitivite reaksiyonlarıdır, kronik skatrisyel seyir göstermezler.\n- D) Pemfigus vulgariste deri tutulumu çok yaygındır ve büller intraepitelyal (yüzeyel) olduğu için skar bırakmadan iyileşir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 294,
+    "question": "Klinik tablosunda dişetinde deskuamatif lezyonlar olan, histolojik incelemesinde intraepitelyal ayrışma oluşumu bulunan ve bu ayrışmanın olduğu bölgelerde Tzanck hücreleri görülen otoimmün mukokütanöz hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Büllöz pemfigoid",
+      "B": "Skatrisyel pemfigoid",
+      "C": "Liken planus",
+      "D": "Pemfigus vulgaris",
+      "E": "Lupus eritematozus"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Dişetinde deskuamatif gingivitis lezyonları oluşturan otoimmün mukokütanöz hastalıklar arasında, histopatolojik olarak bazal tabakanın üzerinde \"intraepitelyal (suprabazal) ayrışma\", akantoliz ve bül boşluğu içerisinde yuvarlaklaşmış, hiperkromatik çekirdekli akantolitik epitel hücreleri olan \"Tzanck hücrelerinin\" görüldüğü tek hastalık Pemfigus Vulgaris'tir.\n**Çeldiriciler:**\n- A, B) Büllöz pemfigoid ve skatrisyel pemfigoidde ayrışma intraepitelyal değil, bazal membran düzeyinde (subepitelyal) gerçekleşir; akantoliz ve Tzanck hücresi görülmez.\n- C, E) Liken planus ve lupus eritematozusta bazal tabakada hidropik dejenerasyon ve subepitelyal ayrışma izlenir; intraepitelyal akantoliz ve Tzanck hücresi bulunmaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 295,
+    "question": "Kırk sekiz yaşında kadın hasta 4 aydır geçmeyen ağrılı ağız yaraları şikayetiyle kliniğimize başvuruyor. Klinik muayenede dişetlerinde büller ve ülsere alanlar görülüyor. Nikolski bulgusu pozitif olan lezyonlar için yapılan histopatolojik incelemede akantolizis ve intraepitelyal ayrışmanın yanı sıra hücreler arası bağlantılarını kaybetmiş Tzanck hücreleri görülüyor.\n\nYukarıda klinik ve histopatolojik bulguları verilen hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Liken planus",
+      "B": "Pemfigus vulgaris",
+      "C": "Eritema multiforme",
+      "D": "Müköz membran pemfigoid",
+      "E": "Büllöz pemfigoid"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Orta yaşlı hastada kronik ağrılı oral bül ve ülserler, pozitif Nikolsky bulgusu ve biyopside desmozomal yıkıma bağlı \"akantolizis\", \"intraepitelyal (suprabazal) ayrışma\" ve serbest kalan \"Tzanck hücrelerinin\" saptanması Pemfigus Vulgaris için kesin tanı kriterleridir. Bazal hücrelerin bazal laminaya bağlı kalıp üst tabakaların ayrılmasıyla oluşan bu görünüm \"mezar taşı (tombstone)\" dizilimi olarak da bilinir.\n**Çeldiriciler:**\n- A, C, D, E) Liken planus, eritema multiforme, müköz membran pemfigoidi ve büllöz pemfigoidde bül oluşumu subepitelyaldir; epitel içi akantoliz ve Tzanck hücreleri görülmez.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 296,
+    "question": "Pemfigus hastalıkları ile ilgili ifadelerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pemfigus hastalıkları deri ve müköz membranda kabartı lezyonlara yol açan otoimmün büllöz hastalıklardır.",
+      "B": "En sık görülen tipleri Pemfigus vulgaris, Pemfigus foliaceus, Pemfigus vejetans, Pemfigus eritematozus'tur.",
+      "C": "Çoğu vaka idiopatiktir, penisilamin ve kaptopril gibi ilaçlar pemfigusa sebep olabilir.",
+      "D": "Subepitelyal ayrışma ile karakterizedir.",
+      "E": "İmmünofloresans incelemede dezmozomal antijenlere karşı IgG yapısında otoantikorlar görülür."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Pemfigus grubu hastalıklar subepitelyal ayrışma ile değil, dikensi tabakadaki (stratum spinosum) desmozomal bağlantıların yıkımı (akantoliz) sonucu oluşan \"intraepitelyal (suprabazal) ayrışma\" ile karakterizedir. Subepitelyal ayrışma pemfigoid grubu hastalıkların özelliğidir.\n**Çeldiriciler:**\n- A) Deri ve mukozalarda gevşek büller ve geniş erozyonlarla seyreden, tedavi edilmezse ölümcül olabilen otoimmün vezikülobüllöz hastalıklardır.\n- B) Başlıca dört tipi vardır (vulgaris, vejetans, foliaceus, eritematozus); oral mukozayı en sık ve en şiddetli tutan en yaygın formu pemfigus vulgaristir.\n- C) Çoğunlukla idiyopatik otoimmün gelişir ancak sülfhidril grubu içeren penisilamin ve kaptopril gibi ilaçlar ilaca bağlı pemfigusu tetikleyebilir.\n- E) Direkt immünofloresans (DIF) incelemede epitel hücrelerinin arasında (desmozomlarda/desmoglein-3 üzerinde) balık ağı veya kümes teli görünümünde IgG (ve C3) otoantikor birikimi izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 297,
+    "question": "Elli dört yaşındaki kadın hasta yemek yerken ve dişlerini fırçalarken diş etinde yanma ve ağrı nedeniyle kliniğe başvuruyor. Hastanın ağız içi muayenesinde, diş etinde yaygın deskuamasyon olduğu, diş eti epitelinin alttaki bağ dokusundan kolaylıkla ayrıldığı, ağız içinde vezikülobüllöz lezyonlar ve ülserasyonlar olduğu gözleniyor. Etkilenen diş eti bölgelerinden alınan biyopsi sonucunda subepitelyal veziküller ve bazal laminada vakuoller, bağ dokusunda lenfosit, nötrofil ve plazma hücreleri gibi inflamatuvar hücreler tespit ediliyor. Ayrıca bazal membranda çizgisel C3 ve IgG birikimi rapor ediliyor.\n\nYukarıda klinik ve histopatolojik bulguları verilen bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Retiküler tip liken planus",
+      "B": "Mukoz membran pemfigoid",
+      "C": "Pemfigus vulgaris",
+      "D": "Eroziv liken planus",
+      "E": "Kronik ülseratif stomatitis"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** 50'li yaşlardaki kadın hastada deskuamatif gingivitis ve vezikülobüllöz lezyonlarla birlikte; histopatolojide sağlam bir bazal tabaka taşıyarak epitelin lamina propriadan tam kat ayrılmasıyla oluşan \"subepitelyal veziküller\" ve direkt immünofloresans (DIF) incelemede \"bazal membran boyunca kesintisiz çizgisel (lineer) IgG ve C3 birikimi\" görülmesi Müköz Membran Pemfigoidi (Skatrisyel Pemfigoid) için tanısaldır.\n**Çeldiriciler:**\n- A, D) Liken planusta bazal tabaka sağlam kalmaz (hidropik dejenerasyon vardır), testere dişi rete pegler görülür ve DIF incelemede bazal membranda IgG/C3 değil, fibrinojen birikimi izlenir.\n- C) Pemfigus vulgariste ayrışma subepitelyal değil, intraepitelyaldir ve DIF'te bazal membranda çizgisel değil, interselüler alanda balık ağı şeklinde IgG birikimi vardır.\n- E) Kronik ülseratif stomatitiste DIF incelemede bazal membranda çizgisel tutulum değil, bazal/parabazal epitel hücrelerinin çekirdeklerinde (nükleer) benekli IgG birikimi görülür.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 298,
+    "question": "Dişetlerinde eritem, ülserasyon ve veziküller ile karakterize bir görüntü ile kliniğe başvuran 55 yaşında kadın hastanın muayenesinde tek gözünde symblepharon olduğu, oral bölgedeki lezyonların histopatolojik incelemesinde veziküllerin subepitelyal olarak lamina propriadan epitelde sağlam bir bazal tabaka ayrıldığı görülüyor.\n\nYukarıda tarif edilen hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nekrotizan gingivitis",
+      "B": "Primer herpetik stomatit",
+      "C": "Liken planus",
+      "D": "Büllöz pemfigoid",
+      "E": "Müköz membran pemfigoid"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Deskuamatif dişeti lezyonları ve subepitelyal veziküllerle başvuran 55 yaşındaki kadın hastada gözde \"simblefaron (symblepharon; palpebral ve bulbar konjonktivanın skarlaşarak birbirine yapışması)\" bulunması, Müköz Membran Pemfigoidinin (Skatrisyel Pemfigoid) en spesifik ve karakteristik oküler komplikasyonudur.\n**Çeldiriciler:**\n- A, B) Nekrotizan gingivitis ve primer herpetik stomatit akut enfeksiyonlardır; subepitelyal bül veya gözde simblefaron oluşturmazlar.\n- C) Liken planusta gözde skar bırakan simblefaron gelişimi görülmez ve bazal tabaka dejenere olur.\n- D) Büllöz pemfigoid histolojik olarak subepitelyal bül oluştursa da esas olarak deriyi tutar; oral mukoza tutulumu nadirdir ve gözde skar/simblefaron oluşturmaz.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 299,
+    "question": "Herpes simpleks enfeksiyonu ve bazı ilaçlar tarafından başlatılabilen; akut, büllöz, maküler, enflamatuar mukokutanöz hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dermatitis herpetiformis",
+      "B": "Sistemik lupus eritematozus",
+      "C": "Primer herpetik gingivostomatit",
+      "D": "Lineer IgA hastalığı",
+      "E": "Eritema multiforme"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Eritema multiforme; çoğunlukla geçirilmiş bir Herpes Simpleks Virüs (HSV) enfeksiyonunu, *Mycoplasma* enfeksiyonunu veya sülfonamid, penisilin, barbitürat, NSAİİ, antikonvülsan gibi ilaçların kullanımını takiben tip III/IV aşırı duyarlılık reaksiyonu olarak akut başlayan; deride maküler/hedef tahtası lezyonları ve oral mukozada yaygın büller, erozyonlar ve dudaklarda hemorajik kabuklanmalarla seyreden akut inflamatuvar mukokütanöz hastalıktır.\n**Çeldiriciler:**\n- A, B, D) Dermatitis herpetiformis, SLE ve lineer IgA hastalığı kronik seyirli otoimmün hastalıklardır; HSV enfeksiyonunu takiben akut başlayan reaksiyonel tablolar değillerdir.\n- C) Primer herpetik gingivostomatit ilaçlarla başlamaz, doğrudan HSV-1'in primer enfeksiyonudur ve maküler deri döküntüleri olan bir mukokütanöz dermatoz değildir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 300,
+    "question": "Diş etlerinde ağrı ve yanma şikâyetleriyle kliniğe başvuran 58 yaşındaki kadın hastanın ağız içi muayenesinde diş etlerinde ve oral mukozanın farklı alanlarında eritematöz, büllöz ve ülsere lezyonlar gözleniyor. Lezyon olan diş eti bölgesinden alınan biyopsiye ait histopatolojik incelemede bazal tabakada dejenerasyon ve lamina propriada bant şeklinde lenfositik infiltrasyon saptanıyor.\n\nKlinik ve histopatolojik bulguları tanımlanan bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Liken planus",
+      "B": "Büllöz pemfigoid",
+      "C": "Skatrisyel pemfigoid",
+      "D": "Epidermolizis bülloza",
+      "E": "Pemfigus vulgaris"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Orta-ileri yaş kadın hastada dişetlerinde ve oral mukozada eritematöz, büllöz ve ülsere lezyonlarla seyreden deskuamatif tabloda; biyopside epitelin \"bazal tabakasında hidropik dejenerasyon\" ve hemen altındaki \"lamina propriada yüzeysel bant şeklinde yoğun T-lenfositik infiltrasyon\" saptanması Liken Planus'un en temel tanısal histopatolojik kriterleridir.\n**Çeldiriciler:**\n- B, C, D) Büllöz pemfigoid, skatrisyel pemfigoid ve epidermolizis büllozada bazal membran kompleksi proteinlerine karşı defekt/otoantikor vardır; bazal hücre dejenerasyonu ve subepitelyal bant tarzı T-lenfosit infiltrasyonu liken planusa özgüdür.\n- E) Pemfigus vulgariste bazal tabaka sağlamdır; dikensi tabakada akantoliz ve intraepitelyal bül oluşumu izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 301,
+    "question": "- Bazal tabakanın hidropik dejenerasyonu\n- Lamina propriada bant şeklinde yaygın T lenfosit infiltrasyonu\n- Klasik epitelyumdaki retepeglerin görünümü testere kenarı gibidir\n\nHistopatolojik özelliklerinden bazıları verilen otoimmün hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Liken planus",
+      "B": "Büllöz pemfigoid",
+      "C": "Sikatrisyel pemfigoid",
+      "D": "Epidermolizis bülloza",
+      "E": "Pemfigus vulgaris"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Liken planus, T-lenfosit aracılı kronik inflamatuar mukokütanöz bir hastalıktır. Histopatolojisinde epitelde hiperkeratoz veya parakeratoz, bazal hücre tabakasında hidropik (likenoid) dejenerasyon, epitel-bağ dokusu birleşiminde Civatte cisimcikleri, lamina propriada subepitelyal bant şeklinde yoğun T-lenfosit infiltrasyonu ve testere dişi (saw-tooth) görünümünde rete pegler izlenir.\n**Çeldiriciler:**\n- B) Büllöz pemfigoid; subepitelyal bül oluşumu ile karakterizedir, bazal tabakada hidropik dejenerasyon ve bant tarzı lenfositik infiltrasyon tipik değildir.\n- C) Sikatrisyel (müköz membran) pemfigoid; bazal laminada IgG ve C3 birikimi ile subepitelyal vezikülübüllöz ayrışma gösterir, sağlam bir bazal tabaka ile lamina propriadan ayrılır.\n- D) Epidermolizis bülloza; bazal membran kuşağındaki yapısal kusurlara bağlı mekanik travma sonrası subepitelyal bül oluşumu ile seyreder.\n- E) Pemfigus vulgaris; desmozomal antijenlere (desmoglein) karşı gelişen IgG otoantikorları nedeniyle akantolizis, intraepitelyal bül oluşumu ve Tzanck hücreleri ile karakterizedir.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 302,
+    "question": "I. Yumuşak damak\nII. Dişeti\nIII. Yanak mukozası\nIV. Dil dorsumu\n\nPemfigus vulgarisin oral dokularda etkilediği bölgelerin çoktan aza sıralaması aşağıdakilerden hangisinde verilmiştir?",
+    "options": {
+      "A": "I > II > III > IV",
+      "B": "I > III > IV > II",
+      "C": "II > I > III > IV",
+      "D": "II > III > IV > I",
+      "E": "III > I > IV > II"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Pemfigus vulgaris ağız içerisindeki her bölgeyi etkileyebilmekle birlikte özellikle sürtünme ve travmaya maruz kalan mukozal alanlarda daha sık görülür. Etkilenme sıklığı çoktan aza doğru sırasıyla yumuşak damak, yanak mukozası, dil dorsumu (ve dudak mukozası) ve en az sıklıkta dişeti şeklindedir.\n**Öncüllerin Analizi:**\n- I. Yumuşak damak: Oral kavitede lezyonların en sık yerleştiği bölgedir (1. sırada).\n- II. Dişeti: Diğer oral mukoza bölgelerine kıyasla en az sıklıkta etkilenen bölgedir; tutulum olduğunda eroziv veya deskuamatif gingivitis şeklinde izlenir (4. sırada).\n- III. Yanak mukozası: Yumuşak damaktan sonra ikinci sıklıkta etkilenen bölgedir (2. sırada).\n- IV. Dil dorsumu: Yanak mukozasından sonra üçüncü sıklıkta etkilenir (3. sırada).\n**Çeldiriciler:**\n- A) Dişetini ikinci sıraya yerleştirdiği için yanlıştır.\n- C) En az etkilenen bölge olan dişetini ilk sıraya koyduğu için yanlıştır.\n- D) Dişetini ilk sıraya, yumuşak damağı ise son sıraya yerleştirdiği için yanlıştır.\n- E) Yanak mukozasını yumuşak damağın önüne koyduğu için yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 303,
+    "question": "Akut Okluzal Travma ile ilgili yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mobilite görülür",
+      "B": "Sement hasara uğrayabilir",
+      "C": "Bruksizm neden olur",
+      "D": "Perküsyon hassasiyeti oluşur",
+      "E": "Travma ortadan kalkarsa geri dönüşlüdür"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Bruksizm ve diş sıkma gibi parafonksiyonel alışkanlıklar ile dişlerin aşınması, yer değiştirmesi veya ekstrüzyonu gibi oklüzyondaki kademeli değişimler akut değil, kronik okluzal travmanın etiyolojik nedenleridir. Akut okluzal travma ise zeytin çekirdeği gibi sert bir cismin aniden ısırılması veya yüksek yapılmış yeni bir restorasyon sonucunda ani gelişen okluzal kuvvetlerle ortaya çıkar.\n**Çeldiriciler:**\n- A) Akut okluzal travmada periodontal ligament aralığının genişlemesine bağlı olarak dişte mobilite artışı görülür.\n- B) Ani ve şiddetli okluzal kuvvetler sonucunda kök yüzeyinde sement yırtıkları ve hasarı meydana gelebilir.\n- C) (Doğru Cevap)\n- D) Periodontal ligamentteki akut inflamasyon ve yaralanma nedeniyle dişte ağrı ve perküsyona duyarlılık oluşur.\n- E) Diş oklüzyondan çıkarılır veya travmaya neden olan yüksek restorasyon düzeltilirse doku hasarı tamir edilir ve semptomlar tamamen kaybolur.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 305,
+    "question": "I. Yaralanma\nII. Tamir\nIII. Remodelasyon\n\nYukarıda okluzal travmayı takiben oluşan doku cevabının üç aşaması verilmiştir. Artmış mobilite, bu aşamaların hangisi veya hangilerinde görülür?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Okluzal travmaya karşı gelişen doku yanıtının birinci aşaması olan yaralanma (injury) ve üçüncü aşaması olan adaptif remodelasyon (remodeling) evrelerinde periodontal ligament aralığı genişler, açısal kemik yıkımı oluşur ve dişlerde artmış mobilite izlenir.\n**Öncüllerin Analizi:**\n- I. Yaralanma: Aşırı okluzal kuvvetler karşısında periodontal ligament genişler, cep oluşumu olmaksızın angüler kemik rezorpsiyonu başlar ve diş sallanır hale gelir (Doğru).\n- II. Tamir: Hasar gören dokuların yerine yeni bağ dokusu lifleri, sement ve kemik oluşturulur; kuvvetler bu tamir kapasitesini aşmadığı sürece mobilite artışı baskılanır (Yanlış).\n- III. Remodelasyon: Tamir süreci yıkıcı kuvvetleri karşılamakta yetersiz kalırsa, kuvvetlerin etkisini azaltmak için periodontal ligament kalıcı olarak genişler, angüler kemik defektleri oluşur ve dişte artmış mobilite görülür (Doğru).\n**Çeldiriciler:**\n- A) Sadece yaralanma evresini içerip remodelasyon evresini dışladığı için yanlıştır.\n- B) Tamir evresinde dokular stabilize edilmeye çalışıldığından yanlıştır.\n- C) Yaralanma evresindeki akut mobilite artışını içermediği için yanlıştır.\n- E) Tamir evresini doğru kabul ettiği için yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 306,
+    "question": "Aşağıdakilerden hangisi periodontal hastalık prognozunu etkileyen sistemik ve çevresel faktörlerden biri değildir?",
+    "options": {
+      "A": "Furka defekti",
+      "B": "Genetik",
+      "C": "Diyabet",
+      "D": "Sigara",
+      "E": "Stres"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Furka defekti (furkasyon tutulumu), biyofilm kontrolünü güçleştiren ve ilgili dişin ataçman desteğini doğrudan ilgilendiren lokal (anatomik) bir faktördür; sistemik veya çevresel faktörler grubunda yer almaz.\n**Çeldiriciler:**\n- B) Genetik; konağın immün yanıtını belirleyen sistemik/konak kaynaklı bir prognoz faktörüdür.\n- C) Diyabet; nötrofil fonksiyonlarını ve kollajen metabolizmasını bozan sistemik bir hastalıktır.\n- D) Sigara; vaskülarizasyonu ve konak yanıtını baskılayan en önemli çevresel risk ve prognoz faktörüdür.\n- E) Stres; kortizol seviyelerini artırarak immünsüpresyona yol açan çevresel/psikososyal bir faktördür.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 307,
+    "question": "Aşağıdakilerden hangisi periodontal hastalık prognozunu etkileyen lokal faktörlerden biri değildir?",
+    "options": {
+      "A": "Kök konkaviteleri",
+      "B": "Kron kök oranı",
+      "C": "Sigara",
+      "D": "Mobilite",
+      "E": "Furkasyon tutulumu"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sigara kullanımı, tüm dentisyonu ve konak savunmasını etkileyen sistemik ve çevresel bir faktördür; belirli bir dişe özgü lokal faktörlerden biri değildir.\n**Çeldiriciler:**\n- A) Kök konkaviteleri; plak birikimini kolaylaştıran ve kök yüzeyi düzleştirmesini zorlaştıran lokal anatomik bir faktördür.\n- B) Kron kök oranı; dişin okluzal kuvvetlere karşı direncini belirleyen lokal anatomik bir faktördür.\n- D) Mobilite; ilgili dişin destek kaybını ve okluzal yüklenmesini gösteren lokal klinik bir faktördür.\n- E) Furkasyon tutulumu; ilgili çok köklü dişin prognozunu doğrudan düşüren lokal anatomik bir faktördür.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 308,
+    "question": "Yaklaşık %25 ataçman kaybı olan 23 numaralı dişteki periodontal cebin periodontal tedavisi planlanıyor. Hasta periodontal tedavilerinin yapılmasını ve gereken oral hijyen uygulamalarını devam ettireceğini belirtiyor.\n\nYukarıda uygulanacak tedavinin prognoz tahmini aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mükemmel prognoz",
+      "B": "İyi prognoz",
+      "C": "Kötü prognoz",
+      "D": "Şüpheli prognoz",
+      "E": "Umutsuz prognoz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** İyi (fair) prognoz kriterleri; yaklaşık %25 ataçman kaybı bulunması ve/veya lokasyon ile derinliği erişimi engellemeyen Sınıf I furkasyon tutulumu olması ve hasta uyumunun (kooperasyonunun) iyi olmasıdır. Tarif edilen vakada %25 ataçman kaybı ve yüksek hasta uyumu mevcut olduğundan prognoz \"iyi\" olarak değerlendirilir.\n**Çeldiriciler:**\n- A) Mükemmel (good) prognozda kemik/ataçman kaybı yok veya ihmal edilebilir düzeydedir, etiyolojik faktörler tamamen kontrol altındadır.\n- C) Kötü (poor) prognozda %50 civarında ataçman kaybı, elverişsiz kron-kök oranı ve erişimi güç Sınıf II furkasyon tutulumu bulunur.\n- D) Şüpheli (questionable) prognozda %50'den fazla ataçman kaybı, zayıf kök formu ve erişimi zor Sınıf II veya Sınıf III furkasyon tutulumu vardır.\n- E) Umutsuz (hopeless) prognozda dişi fonksiyon ve sağlıkta tutmaya yetecek düzeyde ataçman kalmamıştır, çekim endikedir.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 309,
+    "question": "Sistemik olarak sağlıklı 45 yaşındaki erkek hasta, diş etlerinde kanama ve kaşıntı şikâyetleriyle başvuruyor. Şiddetli ağrısı olmadığını belirten hastanın, 25 yıldır günde bir paket sigara kullandığı öğreniliyor. Ağız içi muayenesinde yaygın olarak plak, supragingival subgingival diş taşı birikimi ve posterior dişlerinin oklüzal yüzeylerinde belirgin aşınmalar olduğu görülüyor. Eksik dişi olmayan hastanın mevcut dişlerinin yarısında, 5 mm'den daha fazla cep derinliği, %50'ye yakın kemik kaybı ve yaygın olarak sondlamada kanama tespit ediliyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nekrotizan ülseratif periodontitis",
+      "B": "Lokalize kronik periodontitis",
+      "C": "Generalize agresif periodontitis",
+      "D": "Generalize kronik periodontitis",
+      "E": "Lokalize agresif periodontitis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hastanın 45 yaşında (erişkin) olması, yıkım miktarının yoğun plak ve diştaşı birikimi ile uyumlu olması, sigara gibi çevresel risk faktörlerinin bulunması ve mevcut dişlerin %30'undan fazlasının (yarısının = %50) etkilenmiş olması (1999 sınıflamasına göre) generalize kronik periodontitis tanısını doğrulamaktadır.\n**Çeldiriciler:**\n- A) Nekrotizan ülseratif periodontitiste şiddetli ağrı, interdental krater tarzı nekrozlar, psödomembran ve spontan kanama bulunur; hastada ise şiddetli ağrı yoktur.\n- B) Lokalize kronik periodontitiste etkilenen diş ya da bölge oranı %30 ve altındadır; vakada dişlerin yarısı etkilenmiştir.\n- C) Generalize agresif periodontitiste hasta genellikle 30 yaş altındadır ve yıkım miktarı mevcut plak/diştaşı miktarı ile orantısızdır.\n- E) Lokalize agresif periodontitiste puberte civarında başlangıç ve sadece birinci molar ile kesici dişlerle sınırlı simetrik dikey yıkım görülür.\n\n---",
+    "flag_reason": "DUS 2018 Orijinal",
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 310,
+    "question": "Aşağıda verilen klinik özelliklerden hangisi generalize kronik periodontitise ait değildir?",
+    "options": {
+      "A": "Yaşla beraber prevalansı artar",
+      "B": "Dişlerin %30'undan fazlası etkilenmiştir",
+      "C": "Diyabet, sigara gibi birçok çevresel faktörden etkilenir",
+      "D": "Bruksizme bağlı olarak kemik kaybının şiddeti artar",
+      "E": "Radyografik incelemelerde daha çok vertikal kemik kayıpları görülür"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Generalize kronik periodontitiste yıkım hızı genellikle yavaş-orta düzeyde olduğundan radyografik incelemelerde kemik kayıpları çoğunlukla horizontal (yatay) patern gösterir. Vertikal (açısal) kemik kayıpları ise daha çok agresif periodontitislerde veya lokalize okluzal travma/anatomik defekt bölgelerinde baskındır.\n**Çeldiriciler:**\n- A) Kronik periodontitis kümülatif doku yıkımı nedeniyle yaş ilerledikçe daha yüksek prevalans gösterir.\n- B) Generalize form olarak adlandırılması için ağızdaki bölgelerin %30'undan fazlasında ataçman kaybı bulunmalıdır.\n- C) Sigara, stres ve diyabet gibi çevresel/sistemik faktörler hastalığın şiddetini ve yaygınlığını doğrudan artırır.\n- D) Mevcut inflamasyona bruksizm gibi kronik okluzal travmalar eklendiğinde kemik yıkımının şiddeti hızlanır.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 311,
+    "question": "Orta şiddette periodontitis tanımı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "1-2 mm ataçman kaybı",
+      "B": "1-2 mm cep derinliği",
+      "C": "3-4 mm ataçman kaybı",
+      "D": "3-4 mm cep derinliği",
+      "E": "> 5 mm ataçman kaybı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Periodontitisin şiddet sınıflandırması sondlama cep derinliğine göre değil, klinik ataçman kaybı (KAK) miktarına göre yapılır. Orta şiddette (veya güncel sınıflamada Evre II) periodontitis, 3-4 mm klinik ataçman kaybı varlığı olarak tanımlanır.\n**Çeldiriciler:**\n- A) 1-2 mm klinik ataçman kaybı, hafif (başlangıç / Evre I) periodontitisi tanımlar.\n- B) 1-2 mm cep derinliği sağlıklı gingival sulkus sınırları içerisindedir ve şiddet kriteri olarak tek başına kullanılmaz.\n- D) 3-4 mm cep derinliği dişeti büyümesi (psödocep) durumunda ataçman kaybı olmadan da görülebilir; şiddet tanımı ataçman kaybına dayanır.\n- E) 5 mm ve üzeri klinik ataçman kaybı, ileri/şiddetli (Evre III ve IV) periodontitisi tanımlar.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 312,
+    "question": "Yirmi yedi yaşında kadın hastanın, yapılan muayenesinde birinci molar ve kesici dişlerinin yanı sıra 3 daimi dişinde daha 7 mm periodontal cep varlığı saptanıyor.\n\nBelirgin ataklar şeklinde kemik ve ataşman yıkımı varlığı olan bu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lokalize agresif periodontitis",
+      "B": "Lokalize kronik periodontitis",
+      "C": "Generalize agresif periodontitis",
+      "D": "Generalize kronik periodontitis",
+      "E": "Akut nekrozitan periodontitis"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** 1999 sınıflamasına göre 30 yaş altındaki bireylerde epizodik (belirgin ataklar halinde) hızlı ataçman ve kemik yıkımı görülmesi agresif periodontitisi işaret eder. Yıkımın birinci molar ve kesici dişler haricinde en az 3 daimi dişi daha etkilemesi durumu ise generalize agresif periodontitis olarak tanımlanır.\n**Çeldiriciler:**\n- A) Lokalize agresif periodontitiste tutulum birinci molar ve kesici dişlerle sınırlıdır (diğer daimi dişlerden en fazla ikisi etkilenebilir).\n- B) Lokalize kronik periodontitis daha ileri yaşlarda, yavaş ilerleyen ve plak miktarıyla uyumlu yıkım gösterir.\n- D) Generalize kronik periodontitiste yıkım yavaş-orta hızdadır ve hasta yaşı genellikle daha ileridir.\n- E) Akut nekrotizan periodontitiste interdental papil nekrozu, krater oluşumu, şiddetli ağrı ve fetor oris bulunur.\n\n---",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 313,
+    "question": "Generalize agresif periodontitis ile ilgili özelliklerden yanlış olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Genellikle 30 yaş altı bireylerde görülür",
+      "B": "Güçlü serum antikor yanıtı",
+      "C": "Generalize interproksimal ataçman kaybı",
+      "D": "1. molar ve kesiciler haricinde en az 3 daimi dişte interproksimal ataçman kaybı",
+      "E": "Ataçman kaybı episodik karakterde olması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Generalize agresif periodontitiste enfeksiyöz ajanlara karşı konak savunmasında zayıf (düşük) serum antikor yanıtı mevcuttur. Güçlü serum antikor yanıtı ise hastalığın sınırlı kalmasını sağlayan lokalize agresif periodontitisin özelliğidir.\n**Çeldiriciler:**\n- A) Hastalık genellikle 30 yaşın altındaki genç bireyleri etkiler (nadiren daha yaşlılarda da saptanabilir).\n- C) Ağız genelinde yaygın interproksimal ataçman kaybı ile karakterizedir.\n- D) Tanım gereği birinci molar ve kesici dişler dışında en az 3 daimi dişte daha interproksimal ataçman kaybı bulunur.\n- E) Doku yıkımı ve ataçman kaybı duraklama ve alevlenme dönemleri içeren epizodik (ataklar halinde) bir seyir izler.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 314,
+    "question": "I. HLA-5\nII. HLA-7\nIII. HLA-A9\nIV. HLA-11\nV. HLA-B15\n\nAgresif periodontitis ile ilişkili olduğu gösterilen HLA'lar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I-II",
+      "B": "I-III",
+      "C": "II-III",
+      "D": "III-V",
+      "E": "I-V"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** İnsan lökosit antijenleri (HLA) immün cevabı düzenleyen genetik belirteçlerdir. Yapılan genetik çalışmalarda HLA-A9 ve HLA-B15 antijenlerinin agresif periodontitis yatkınlığı ile güçlü şekilde ilişkili olduğu gösterilmiştir.\n**Öncüllerin Analizi:**\n- I. HLA-5: Agresif periodontitis ile spesifik bir ilişkisi gösterilmemiştir (Yanlış).\n- II. HLA-7: Agresif periodontitis için tanımlanmış risk antijenlerinden değildir (Yanlış).\n- III. HLA-A9: Agresif periodontitis gelişimi ile doğrudan ilişkili bulunan doku uygunluk antijenidir (Doğru).\n- IV. HLA-11: Agresif periodontitis ile ilişkili ana antijenler arasında yer almaz (Yanlış).\n- V. HLA-B15: HLA-A9 ile birlikte agresif periodontitise genetik yatkınlık oluşturan antijendir (Doğru).\n**Çeldiriciler:**\n- A) I ve II numaralı öncüller agresif periodontitis ile ilişkili değildir.\n- B) I numaralı öncülü içerdiği ve V numaralı öncülü dışladığı için yanlıştır.\n- C) II numaralı öncülü içerdiği için yanlıştır.\n- E) I numaralı öncülü içerdiği için yanlıştır.\n\n---",
+    "flag_reason": null,
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 315,
+    "question": "Aşağıdakilerden hangisi Agresif Periodontitisi düşündüren özelliklerindendir?",
+    "options": {
+      "A": "Yavaş kemik kaybı",
+      "B": "Subgingival mikroflorada P. gingivalis varlığı",
+      "C": "Plak yıkımının varolan mikrobiyal birikim miktarı ile ilişkili olması",
+      "D": "Yavaş ataşman kaybı",
+      "E": "Aile geçişli seyretmesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Agresif periodontitisin temel tanı kriterleri; hastanın klinik olarak sağlıklı olması, hızlı ataçman ve kemik yıkımı görülmesi ve hastalığın ailesel geçiş (agregasyon) göstermesidir.\n**Çeldiriciler:**\n- A) Agresif periodontitiste kemik kaybı yavaş değil, oldukça hızlıdır.\n- B) P. gingivalis kronik periodontitiste de baskındır; agresif periodontitisi spesifik olarak düşündüren primer mikroorganizma *Aggregatibacter actinomycetemcomitans* (A.a) seviyelerindeki artıştır.\n- C) Doku yıkımının şiddeti mevcut mikrobiyal plak birikimi miktarı ile orantısızdır (az miktarda plak olmasına rağmen şiddetli yıkım vardır).\n- D) Ataçman kaybı yavaş değil, hızlı ve epizodik karakterdedir.\n\n---",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "unit": "Gingival Hastalıklar",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  }
+]

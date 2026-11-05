@@ -1,0 +1,36 @@
+[
+  {
+    "question": "Doğal dişlerde uygulanan postun diş köküne oranı en az ne kadar olmalıdır?",
+    "options": {
+      "A": "1/4",
+      "B": "1/3",
+      "C": "1/2",
+      "D": "2/3",
+      "E": "1/1"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* Endodontik tedavili dişlere yapılan post-kor restorasyonlarında, postun kök içindeki ideal boyu **en az klinik kuron boyu kadar veya kök boyunun 2/3'si kadar** olmalıdır. Apikalde ise en az 4-5 mm gutta-percha (kanal dolgusu) bırakılmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "q_num": 279,
+    "unit": "07-Yaygın Hasarlı Dişlerin Preparasyonu",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yukarıda metal destekli porselen restorasyon yapılan ve mevcut endodontik tedaviye sahip olan bir dişe uygulanan koronal yapı gösterilmektedir. İlgili görsel bilgisine göre, hastaya uygulanan döküm metal post-kor tedavisiyle ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "Kanal içi preparasyon yapıldıktan sonra döküm yöntemleriyle üretilen tek parça post-kor yapısıdır.",
+      "B": "Apikal rezeksiyon uygulamasıdır.",
+      "C": "Kompozit kor uygulamasıdır.",
+      "D": "Prefabrik fiber post uygulamasıdır.",
+      "E": "Pin tutuculu dolgu uygulamasıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Döküm post-kor restorasyonları; kök kanalından ölçü alınarak veya direkt akrilik modelaj yapılarak laboratuvarda metalden tek parça (post ve kor birlikte) dökülen yapılardır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 280,
+    "unit": "07-Yaygın Hasarlı Dişlerin Preparasyonu",
+    "quality_flag": "cikmis"
+  }
+]

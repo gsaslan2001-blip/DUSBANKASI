@@ -36,6 +36,17 @@ python scripts/add_questions.py "<DOSYA_YOLU>" --lesson "<DERS>" --unit "<ÜNİT
 
 Hızlı modda sorular doğrudan `quality_flag = NULL` ile yazılır; `stem_embedding` ve `explanation_embedding` oluşturulmaz. Normal güvenli aktarım istenirse yukarıdaki kanonik iki adımlı protokol kullanılır.
 
+---
+
+### 🎓 Çıkmış Soru İthalatı (Çıkmış Modu)
+
+Kullanıcı çıkmış soru eklenmesini istediğinde (DUS/TUS gerçek sınav soruları):
+1. **Eleme/Kürasyon Yasaktır:** Çıkmış sorulara ASLA smart audit (`--audit`) ve kalite elemesi uygulanmaz. Sadece soru kökü, 5 seçenek (A–E), doğru cevap ve açıklama biçimsel olarak doğrulanır.
+2. **Kanonik Bayrak:** Sorular `quality_flag = 'cikmis'` ile yazılmalıdır (böylece hem Çıkmış Modu sekmelerinde hem de genel havuzda görünür).
+3. **Sınav Dönemi Metası:** Sınav yılı ve dönemi (`2018 DUS Orijinal` vb.) soru kökünden ayıklanıp `flag_reason` sütununda saklanır; soru kökü temiz tutulur.
+4. **Çift Vektör ve Chunk:** 1536-dim OpenAI çift embedding ve 10'arlı chunked yazım uygulanır.
+5. **Detaylı Kılavuz:** Tablo ayrıştırma, esnek regex ve kanonik ünite eşleme detayları için [.agents/workflows/WORKFLOW_CIKMIS_SORU_EKLEME.md](./.agents/workflows/WORKFLOW_CIKMIS_SORU_EKLEME.md) referans alınır.
+
 
 ---
 

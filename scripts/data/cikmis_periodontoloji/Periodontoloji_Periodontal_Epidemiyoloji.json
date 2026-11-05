@@ -1,0 +1,342 @@
+[
+  {
+    "q_num": 71,
+    "question": "CPITN indeksinde kullanılan WHO/CPITN sond özelliklerinden doğru olan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ucunda 0.5 mm çapında bir topuz, 3.5-5.5-8.5 ve 11.5 mm kalibreli",
+      "B": "Ucunda 1 mm çapında bir topuz, 5.5-8.5 ve 11.5 mm kalibreli",
+      "C": "Ucunda 0.1 mm çapında bir topuz, 5.5-8.5 ve 11.5 mm kalibreli",
+      "D": "Ucunda 0.5 mm çapında bir topuz, 3-5-8 ve 11 mm kalibreli",
+      "E": "Ucunda 0.5 mm çapında bir topuz, 1-3-5-7-9 mm kalibreli"
+    },
+    "correctAnswer": "A",
+    "explanation": "* **A) (Doğru):** Dünya Sağlık Örgütü (WHO) tarafından CPITN indeksinde cep derinliğini ve subgingival diş taşını belirlemek amacıyla geliştirilen ince ve hafif özel sondun (WHO sondu) ucunda dokuya travmayı önleyen ve taş tespitini kolaylaştıran **0.5 mm çapında küçük bir topuz** bulunur. Kalibrasyonu ise **3.5, 5.5, 8.5 ve 11.5 mm**'dir (3.5 ile 5.5 mm arasında siyah renkli bir bant yer alır).\n* **B, C, D, E (Yanlış):** Topuz çapı veya milimetrik kalibrasyon değerleri hatalı verilmiştir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 72,
+    "question": "Toplum Periodontal Tedavi İhtiyaç (CPITN) İndeksi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Dentisyon 6 bölgeye (sekstant) ayrılarak değerlendirilir.",
+      "B": "Radyografik incelemede %25'ten fazla %50'den az kemik kaybı varlığı Kod 3 olarak skorlanır.",
+      "C": "6 mm veya daha derin periodontal ceplerin varlığı Kod 4 olarak skorlanır.",
+      "D": "Değerlendirmede her segmentte periodontal durumu en kötü olan diş dikkate alınır.",
+      "E": "Ölçümler; 3,5 mm ile 5,5 mm'ler arasında siyah bir bant olan özel bir sond kullanılarak yapılır."
+    },
+    "correctAnswer": "B",
+    "explanation": "* **A) (Doğru):** Ağız/dentisyon 3 üst, 3 alt olmak üzere 6 segmente (sekstant) ayrılarak incelenir.\n* **B) (Yanlış):** CPITN tamamen klinik sondlamaya dayalı bir epidemiyolojik tarama indeksidir; **CPITN'de radyografik kemik kaybı değerlendirme kriteri değildir.** (Kod 3, radyografik kemik kaybını değil, 4-5 mm derinliğindeki klinik patolojik cepleri ifade eder).\n* **C) (Doğru):** 6 mm veya daha derin patolojik ceplerin varlığı Kod 4 olarak skorlanır.\n* **D) (Doğru):** Her sekstantta incelenen dişlerde elde edilen en kötü (en yüksek) skor, o bölgenin skoru olarak kaydedilir.\n* **E) (Doğru):** Ölçümler ucunda 0.5 mm topuz bulunan ve 3.5 - 5.5 mm arasında siyah renkli kısım (bant) taşıyan özel WHO sondu ile 20-25 gramlık kuvvet uygulanarak yapılır.\n\n---",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 73,
+    "question": "Toplum Periodontal Tedavi İhtiyaç (CPITN) İndeksi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Dentisyon 6 bölgeye ayrılarak değerlendirilir.",
+      "B": "Değerlendirmede her segmentte periodontal durumu en kötü olan diş dikkate alınır.",
+      "C": "Ölçümler; 0.5 - 3.5 - 5.5 - 8.5 mm kalibreli bir sond ile yapılır",
+      "D": "Gingival sağlık Kod 0 olarak skorlanır",
+      "E": "6 mm veya daha fazla klinik ataçman kaybı varlığı Kod 4 olarak skorlanır."
+    },
+    "correctAnswer": "E",
+    "explanation": "* **A, B, C, D (Doğru):** CPITN indeksinin doğru uygulama ve skorlama kurallarıdır.\n* **E) (Yanlış):** CPITN indeksinde Kod 4, klinik ataçman kaybını değil, **6 mm veya daha derin patolojik \"cep derinliğini\"** ifade eder. İndeks ataçman kaybını (veya diş eti çekilmesini) ölçmez.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 74,
+    "question": "Bir ilçede yapılan değerlendirmelere göre \"Toplumda periodontal tedavi gereksinimi indeksi\" (CPITN) Kod 0 - %5, Kod 1 - %20, Kod 2 - %5, Kod 3 - %10 ve Kod 4 - %60 olarak tespit edilmiştir. Bu ilçedeki periodontal durum göz önünde bulundurulduğunda aşağıdaki yorumlardan hangisi yanlış olur?",
+    "options": {
+      "A": "Topluluğun yarısından fazlasının cerrahi periodontal tedavi ihtiyacı vardır",
+      "B": "Topluluğun %75'ine diş taşı temizliği yapmak gereklidir",
+      "C": "Topluluğun %75'ine oral hijyen eğitimi vermek gereklidir",
+      "D": "Topluluğun %5'i periodontal açıdan sağlıklıdır",
+      "E": "Topluluğun %25'inde diş taşı yoktur"
+    },
+    "correctAnswer": "C",
+    "explanation": "Verilen dağılım: Kod 0 (%5), Kod 1 (%20), Kod 2 (%5), Kod 3 (%10), Kod 4 (%60).\n* **A) (Doğru):** Cerrahi tedavi gerektiren grup Kod 4'tür ve oranı %60'tır (yarısından fazlası).\n* **B) (Doğru):** Profesyonel diş taşı temizliği (scaling) gerektiren gruplar Kod 2 (%5) + Kod 3 (%10) + Kod 4 (%60) = **%75**'tir.\n* **C) (Yanlış):** Oral hijyen eğitimi; sağlıklı olan Kod 0 (%5) haricindeki tüm gruplara (Kod 1 + Kod 2 + Kod 3 + Kod 4 = %20 + %5 + %10 + %60) verilmelidir. Yani topluluğun %75'ine değil, **%95'ine oral hijyen eğitimi vermek gereklidir.**\n* **D) (Doğru):** Kod 0 (%5) periodontal açıdan sağlıklı kesimi gösterir.\n* **E) (Doğru):** Kod 0 (%5) ve sadece kanaması olan Kod 1 (%20) toplamı olan %25'lik kesimde diş taşı/cep yoktur.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 75,
+    "question": "Toplumdaki Periodontal Tedavi Gereksinimi İndeksi (CPITN-Community Periodontal Index of Treatment Needs) ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Bireyler değerlendirilirken, skorlama için dişler 4 ayrı bölge (quadrantlar) şeklinde değerlendirilir.",
+      "B": "Bölgelere ait skor belirlemesinde en sağlıklı diş ve en ileri yıkımlı dişe ait skorların ortalaması kullanılır.",
+      "C": "Bireysel risklerin belirlenmesini ve kişiye özgü tedavi yaklaşımları geliştirilmesini hedefler.",
+      "D": "6 mm ve daha derin cep varlığında \"4\" skor değeri verilir.",
+      "E": "Her bölgeye 1 ile 4 arasında değişen skorlar verilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "* **A) (Yanlış):** Dişler 4 kuadrant şeklinde değil, **6 sekstant (segment)** şeklinde değerlendirilir.\n* **B) (Yanlış):** Ortalaması alınmaz; incelenen dişlerde elde edilen **en kötü (en yüksek) skor** o bölgenin skoru olur.\n* **C) (Yanlış):** CPITN bireysel risk ve kişiye özgü detaylı tedavi planlaması için değil, **toplumdaki genel tedavi gereksinimini ve sağlık insan gücü ihtiyacını** belirlemek için kullanılan epidemiyolojik bir indekstir.\n* **D) (Doğru):** CPITN kriterlerine göre **6 mm ve daha derin patolojik cep varlığında \"Kod 4\"** skor değeri verilir.\n* **E) (Yanlış):** Skorlar 1 ile 4 arasında değil, sağlıklı durumu ifade eden **\"0\" dahil olmak üzere 0 ile 4 arasında** (veya değerlendirme dışı/eksik için 9/X) verilir.\n\n---",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 76,
+    "question": "CPITN indeksi (Toplumda periodontal tedavi gereksinimi indeksi) ne göre kod 3 olan bir hastaya aşağıdaki tedavilerden hangisi en uygundur?",
+    "options": {
+      "A": "Tedavi gerekli değildir",
+      "B": "Oral hijyen geliştirilmesi yeterlidir",
+      "C": "Supragingival temizlik ve oral hijyen geliştirilmesi uygulanmalıdır",
+      "D": "Subgingival ve supragingival temizlik ve oral hijyen geliştirilmesi uygulanmalıdır",
+      "E": "Subgingival ve supragingival temizlik ve oral hijyen geliştirilmesi ve cerrahi periodontal tedavi uygulanmalıdır"
+    },
+    "correctAnswer": "D",
+    "explanation": "CPITN tedavi gereksinimi sınıflandırmasına göre:\n* **A) Tedavi gerekli değildir (Yanlış):** Kod 0 (sağlıklı) olan hastalar içindir.\n* **B) Oral hijyen geliştirilmesi yeterlidir (Yanlış):** Kod 1 (sondlamada kanama) olan hastalar içindir.\n* **C) Supragingival temizlik... (Yanlış):** Kod 2 ve Kod 3'te subgingival temizlik de dahildir.\n* **D) Subgingival ve supragingival temizlik ve oral hijyen geliştirilmesi uygulanmalıdır (Doğru):** Kod 3 olan bir hastada 4-5 mm derinlikte patolojik cepler vardır; uygulanması gereken tedavi protokolü **supra-subgingival scaling (diş taşı temizliği/küretaj) + oral hijyen eğitiminin geliştirilmesidir** (Kod 2 ve Kod 3 aynı tedavi kategorisinde yer alır).\n* **E) ...ve cerrahi periodontal tedavi uygulanmalıdır (Yanlış):** Cerrahi periodontal tedavi eklenmesi **Kod 4 (≥6 mm cep)** olan hastalar için geçerlidir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 77,
+    "question": "Toplumda Periodontal Tedavi Gereksinimi İndeksi'nde kullanılmak için geliştirilen özel sond aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "WHO sondu",
+      "B": "Florida sondu",
+      "C": "UNB-15 sondu",
+      "D": "Williams sondu",
+      "E": "Nabers sondu"
+    },
+    "correctAnswer": "A",
+    "explanation": "* **A) WHO sondu (Doğru):** CPITN indeksinde kullanılmak üzere Dünya Sağlık Örgütü (WHO) tarafından geliştirilen, ucunda 0.5 mm'lik topuz bulunan ve 3.5 - 5.5 - 8.5 - 11.5 mm kalibrasyonuna sahip özel sonddur.\n* **B) Florida sondu (Yanlış):** Sondlamada sabit kuvvet ve tekrarlanabilirlik sağlamak için tasarlanmış elektronik/bilgisayar destekli sabit basınçlı sonddur.\n* **C) UNC-15 sondu (Yanlış):** 1'den 15 mm'ye kadar her milimetrede işaretli ve 5-10-15. mm'lerde renk kodlu üniversal klinik araştırma sondudur.\n* **D) Williams sondu (Yanlış):** 1, 2, 3, 5, 7, 8, 9, 10 mm kalibrasyonlu (4 ve 6. mm çizgileri olmayan) klasik periodontal sonddur.\n* **E) Nabers sondu (Yanlış):** Çok köklü dişlerde furkasyon lezyonlarının horizontal değerlendirilmesinde kullanılan kıvrımlı sonddur.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 78,
+    "question": "**Omega-3 tüketiminin periodontal dokular üzerindeki etkilerinin belirlenmesi için aşağıdaki araştırmalar planlanıyor:**\nI. Omega-3 kullanımının periodontal dokulara etkisinin belirlenmesi için periodontal olarak sağlıklı ve periodontitisli bireylerin geçmiş 12 aylık beslenme alışkanlıklarının karşılaştırılması\nII. Rutin beslenme alışkanlıkları incelenerek günde ortalama <200 mg, 200-400 mg ve >400 mg Omega-3 aldıkları belirlenen bireylerin 12 ay süreyle takip edilerek periodontal hastalık gelişimi açısından karşılaştırılması\nIII. Cerrahi olmayan periodontal tedavi uygulanan periodontitisli bireylerin rastgele olarak yarısına günlük 450 mg, 30 gün süreyle Omega-3, diğer yarısına ise plasebo verilmesi ve 12 aylık tedavi sonuçlarının karşılaştırılması\n\n**Bu araştırma tasarımları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?**",
+    "options": {
+      "A": "III no'lu araştırmanın kanıt düzeyi, II no'lu araştırmadan daha yüksektir.",
+      "B": "II no'lu araştırma prospektif niteliğe sahip bir araştırmadır.",
+      "C": "I no'lu araştırma retrospektif niteliğe sahip olgu kontrol çalışmasıdır.",
+      "D": "II no'lu araştırmanın kanıt düzeyi, I no'lu araştırmadan daha düşüktür.",
+      "E": "I no'lu araştırmada kontrol grubu kullanılmıştır."
+    },
+    "correctAnswer": "D",
+    "explanation": "Öncüllerde tanımlanan araştırma tasarımları şunlardır:\n* **I. Araştırma:** Hastalıklı (periodontitisli - olgu) ve sağlıklı (kontrol) bireylerden başlayıp geriye dönük (geçmiş 12 aylık) maruziyeti inceleyen **retrospektif gözlemsel olgu-kontrol (vaka-kontrol) çalışmasıdır**.\n* **II. Araştırma:** Sağlıklı bireyleri maruziyet düzeylerine (Omega-3 dozlarına) göre gruplandırıp ileriye dönük 12 ay boyunca hastalık gelişimi açısından izleyen **prospektif gözlemsel kohort çalışmasıdır**.\n* **III. Araştırma:** Araştırmacının müdahalede bulunduğu (Omega-3 ve plasebo verdiği) ve bireyleri rastgele gruplara ayırdığı **randomize kontrollü klinik çalışmadır (RKÇ - deneysel/girişimsel)**.\n\nKanıt piramidine göre sıralama: **Randomize Kontrollü Çalışma (III) > Prospektif Kohort Çalışması (II) > Retrospektif Olgu-Kontrol Çalışması (I)**.\n* **A, B, C, E (Doğru):** Tasarımların özelliklerini doğru ifade etmektedir.\n* **D) (Yanlış):** Prospektif bir kohort çalışması olan **II no'lu araştırmanın kanıt düzeyi**, retrospektif bir olgu-kontrol çalışması olan **I no'lu araştırmadan daha düşük değil, daha yüksektir.**\n\n---",
+    "flag_reason": "DUS 2021 Orijinal",
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 79,
+    "question": "I. Sistemik derleme\nII. Randomize klinik çalışma\nIII. Kohort çalışma\nIV. Vaka serileri\n\n**Yukarıda verilen çalışma türlerinin kanıt düzeylerinin sıralaması aşağıdakilerin hangisinde doğru olarak verilmiştir?**",
+    "options": {
+      "A": "I > II > III > IV",
+      "B": "I > III > II > IV",
+      "C": "II > I > III > IV",
+      "D": "II > III > I > IV",
+      "E": "II > IV > III > I"
+    },
+    "correctAnswer": "A",
+    "explanation": "Kanıta dayalı diş hekimliğinde kanıt piramidi en üstten (en güçlü kanıt) en alta doğru şu şekilde sıralanır:\n1. **I. Sistemik derleme ve Meta-analizler** (En yüksek kanıt düzeyi - ikincil filtrelenmiş çalışmalar)\n2. **II. Randomize kontrollü klinik çalışmalar (RKÇ)** (Birincil deneysel/girişimsel çalışmalar içinde en yüksek kanıt)\n3. **III. Kohort çalışmaları** (Gözlemsel analitik çalışmalar)\n4. *Olgu-kontrol (Vaka-kontrol) çalışmaları*\n5. **IV. Vaka serileri / Vaka raporları** (Kontrol grubu olmayan tanımlayıcı çalışmalar)\n6. *Uzman görüşleri, hayvan ve laboratuvar (in vitro) çalışmaları*\nDolayısıyla doğru sıralama: **I > II > III > IV (A şıkkı)**'dır.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 80,
+    "question": "On dört yaş gurubunda CPITN indeksinin \"0\" skoru %10, \"1\" skoru %78, \"2\" skoru %10 ve \"3\" skoru ise %2 ise aşağıdakilerden hangi yorum doğru olur?",
+    "options": {
+      "A": "Toplumun çoğunluğu sağlıklıdır",
+      "B": "Cerrahi periodontal tedavi ihtiyacı yüksektir",
+      "C": "Yeterli ağız bakım eğitimi almamışlardır",
+      "D": "Orta derinlikte cepler çoğunlukta",
+      "E": "Diş taşı çok"
+    },
+    "correctAnswer": "C",
+    "explanation": "*(Soru 70 ile aynı mantıktadır)*\n* **A) (Yanlış):** Sağlıklı grup (Kod 0) sadece %10'dur.\n* **B) (Yanlış):** Cerrahi gerektiren Kod 4 (%0) yoktur.\n* **C) (Doğru):** En yüksek oran %78 ile **Kod 1 (sondlamada diş eti kanaması)** skoruna aittir. Kod 1'in karşılığı kişisel oral hijyen eğitimi ihtiyacı olduğundan, bu yaş grubunun yeterli ağız bakım eğitimi almadığı yorumu doğrudur.\n* **D) (Yanlış):** Orta derinlikte cepler (Kod 3) %2 ile çok düşüktür.\n* **E) (Yanlış):** Diş taşı (Kod 2) %10 düzeyindedir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 81,
+    "question": "Aşağıdakilerden hangisi, gingival inflamasyonun ilk aşaması olan başlangıç lezyonunun özelliklerinden biri değildir?",
+    "options": {
+      "A": "Yoğun fibroblast yıkımı görülür.",
+      "B": "Diş eti oluğu sıvısı miktarında artış görülür.",
+      "C": "Kapiller vazodilatasyon ve kan akışında artış görülür.",
+      "D": "Nötrofil infiltrasyonunda artış görülür.",
+      "E": "Perivasküler kollajen kayıpları görülür."
+    },
+    "correctAnswer": "A",
+    "explanation": "Page ve Schroeder sınıflamasına göre gingival inflamasyonun ilk aşaması olan **Başlangıç Lezyonu (Initial Lesion)** plak birikimini takiben **2-4 gün** içinde gelişir ve klinik olarak bulgu vermeyen **subklinik** safhadır:\n* **A) Yoğun fibroblast yıkımı görülür (Doğru - Başlangıç lezyonu özelliği değildir):** Fibroblastların dejenerasyonu/sitopatolojik değişimi ve yoğun yıkımı başlangıç lezyonunda değil, **Erken Lezyon (4-7 gün)** ve **Yerleşmiş Lezyon (14-21 gün)** aşamalarında görülür.\n* **B) (Yanlış - Özelliğidir):** Vasküler permeabilite artışına bağlı olarak diş eti oluğu sıvısı (DOS) akışında artış görülür.\n* **C) (Yanlış - Özelliğidir):** Birleşim epiteli altındaki pleksusta kapiller vazodilatasyon, vaskülarite ve kan akışında artış ilk yanıt olarak ortaya çıkar.\n* **D) (Yanlış - Özelliğidir):** Hakim hücre **PMN (nötrofil)**'dir; nötrofillerin damarlardan bağ dokusuna, birleşim epiteline ve sulkusa göçünde (infiltrasyonunda) artış görülür.\n* **E) (Yanlış - Özelliğidir):** Damarların hemen çevresinde (perivasküler alanda) sınırlı kollajen kayıpları başlar.\n\n---",
+    "flag_reason": "İlkbahar 2012 Orijinal",
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 82,
+    "question": "I. Sondalamada kanama\nII. DOS artışı\nIII. Sirküler ve dentogingival liflerde etkilenme\nIV. Subklinik safha\n\n**Gingival inflamasyonun ilk aşaması olan başlangıç lezyonuna özellikler aşağıdakilerden hangisinde doğru olarak verilmiştir?**",
+    "options": {
+      "A": "I-II",
+      "B": "II-III",
+      "C": "II-IV",
+      "D": "II-III-IV",
+      "E": "I-II-IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "* **I. Sondalamada kanama (Yanlış):** İlk klinik bulgular olan eritem ve sondlamada kanama 4-7. günlerde **Erken Lezyonda** ortaya çıkar.\n* **II. DOS artışı (Doğru):** **Başlangıç lezyonunda (2-4. gün)** mikrovasküler geçirgenlik artışıyla birlikte DOS miktarında artış başlar.\n* **III. Sirküler ve dentogingival liflerde etkilenme (Yanlış):** En çok etkilenen liflerin sirküler ve dentogingival lifler olması **Erken Lezyonun** özelliğidir.\n* **IV. Subklinik safha (Doğru):** **Başlangıç lezyonu** klinik olarak sağlıklı görünür, yani **subklinik safhadır**.\nDoğru cevap: **II-IV (C şıkkı)**.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 83,
+    "question": "Aşağıdakilerden hangisi Kronik gingivitis'in görüldüğü enflamasyon safhalarındandır?",
+    "options": {
+      "A": "Başlangıç lezyon",
+      "B": "Erken lezyon",
+      "C": "Yerleşmiş lezyon",
+      "D": "İlerlemiş lezyon",
+      "E": "Periodontal lezyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "* **A) Başlangıç lezyonu (2-4 gün) (Yanlış):** Subklinik gingivitistir.\n* **B) Erken lezyon (4-7 gün) (Yanlış):** Erken klinik gingivitis (eritem ve sondlamada kanama başlangıcı) evresidir; hakim hücre lenfosittir.\n* **C) Yerleşmiş lezyon (14-21 gün) (Doğru):** Gingivitisin **kronik hale geldiği (Kronik gingivitis)** ve renk, boyut, kıvam, kontur bozuklukları gibi tüm klinik bulguların bir arada bulunduğu lezyondur. Hakim hücre **plazma hücresidir**. Henüz ataçman ve alveoler kemik kaybı yoktur.\n* **D) İlerlemiş lezyon (Yanlış):** Ataçman ve alveoler kemik kaybının başladığı **periodontitis** lezyonudur.\n* **E) Periodontal lezyon (Yanlış):** Page ve Schroeder evrelemesinde bu isimde bir safha yoktur (İlerlemiş lezyon periodontitisi ifade eder).\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 84,
+    "question": "İltihabi periodontal hastalıkların patogenezinde en önemli rolü oynayan proinflamatuvar sitokinler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İnterlökin-1, İnterlökin-2",
+      "B": "İnterlökin-2, İnterlökin-5",
+      "C": "İnterlökin-1, Tümör nekrozis faktör-$\\alpha$",
+      "D": "İnterferon, Trombosit kaynaklı büyüme faktörü",
+      "E": "İnsülin benzeri büyüme faktörü-$\\beta$, Trombosit kaynaklı büyüme faktörü"
+    },
+    "correctAnswer": "C",
+    "explanation": "Konak yanıtında doku yıkımı ve osteoklastik kemik rezorpsiyonunu tetikleyen anahtar proinflamatuvar mediatörler incelendiğinde:\n* **A) (Yanlış):** IL-2 T hücre proliferasyon faktörüdür, birincil yıkıcı proinflamatuvar sitokin çifti değildir.\n* **B) (Yanlış):** IL-5 eozinofil ve B hücre gelişiminde rol alan Th2 sitokinidir.\n* **C) İnterlökin-1 (IL-1$\\beta$), Tümör nekrozis faktör-$\\alpha$ (TNF-$\\alpha$) (Doğru):** Periodontal hastalıkların patogenezinde, MMP ve PGE2 salınımının uyarılmasında ve kemik rezorpsiyonunun (RANKL ekspresyonu ve osteoklast aktivasyonu) başlatılmasında **en önemli rolü oynayan iki anahtar proinflamatuvar sitokin IL-1 ve TNF-$\\alpha$'dır** (IL-6 ile birlikte).\n* **D) (Yanlış):** İnterferon-gama (IFN-$\\gamma$) kemik rezorpsiyonunda inhibitör etki gösterir; PDGF ise rejenerasyonda rol alan bir büyüme faktörüdür.\n* **E) (Yanlış):** IGF ve PDGF rejeneratif büyüme faktörleridir, proinflamatuvar yıkım sitokinleri değildir.\n\n---",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 85,
+    "question": "Aşağıdakilerden hangisi antienflamatuar sitokinlerden değildir?",
+    "options": {
+      "A": "IL-4",
+      "B": "IL-6",
+      "C": "IL-10",
+      "D": "IL-11",
+      "E": "IL-13"
+    },
+    "correctAnswer": "B",
+    "explanation": "* **A) IL-4 (Yanlış):** Makrofaj aktivasyonunu ve proinflamatuvar sitokinleri baskılayan önemli bir antienflamatuar (Th2) sitokindir.\n* **B) IL-6 (Doğru):** Antienflamatuar değildir; IL-1 ve TNF-$\\alpha$ ile birlikte osteoklast formasyonunu ve kemik rezorpsiyonunu stimüle eden güçlü bir **proinflamatuvar sitokindir (kemik rezorpsiyon stimülatörüdür).**\n* **C) IL-10 (Yanlış):** Proinflamatuvar sitokin sentezini inhibe eden en güçlü antienflamatuar sitokinlerden biridir.\n* **D) IL-11 (Yanlış):** Antienflamatuar ve doku koruyucu özellik gösteren sitokinler arasında kabul edilir.\n* **E) IL-13 (Yanlış):** IL-4 benzeri etkileri olan antienflamatuar bir sitokindir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 86,
+    "question": "Löe ve arkadaşlarının hiç diş hekimine gitmeyen, hiç tedavi olmayan kişilerde yıllık ortalama kemik kaybı oranı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "0.2 mm fasial, 0.3 mm interproksimal",
+      "B": "0.3 mm fasial, 0.2 mm interproksimal",
+      "C": "0.5 mm fasial, 0.3 mm interproksimal",
+      "D": "0.3 mm fasial, 0.5 mm interproksimal",
+      "E": "0.5 mm fasial, 0.5 mm interproksimal"
+    },
+    "correctAnswer": "A",
+    "explanation": "* **A) 0.2 mm fasial, 0.3 mm interproksimal (Doğru):** Löe ve arkadaşlarının Sri Lanka'lı çay işçilerinde (hiç diş fırçalamayan ve hiç diş hekimine gitmeyen popülasyonda) periodontal hastalığın doğal seyrini incelemek üzere yaptıkları klasik çalışmada (orta derecede ilerleyen grupta) yıllık ortalama ataçman/kemik kaybı oranları **fasiyal yüzeylerde 0.2 mm, interproksimal bölgelerde ise 0.3 mm** olarak bulunmuştur.\n* **B, C, D, E (Yanlış):** Rakamlar veya yüzey eşleştirmeleri hatalı verilmiştir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 87,
+    "question": "Gingivitisin 3. aşamasında görülen \"yerleşmiş lezyon\"un özellikleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Diş eti oluğu sıvısı artmıştır",
+      "B": "Plazma hücreleri baskındır",
+      "C": "Lökosit sayısı artmıştır",
+      "D": "Bağlantı epiteli yer değiştirmiştir",
+      "E": "Bağ dokusu ataçmanı ve alveoler kemik kaybı görülür"
+    },
+    "correctAnswer": "E",
+    "explanation": "Gingivitisin 3. aşaması olan **Yerleşmiş Lezyon (Established Lesion)** plak birikiminden 14-21 gün sonra ortaya çıkar ve kronik gingivitis tablosunu temsil eder:\n* **A) (Doğru):** İnflamasyonun şiddetlenmesiyle DOS miktarı belirgin şekilde artmıştır.\n* **B) (Doğru):** Bağ dokusunda **dominant (baskın) hücre grubu plazma hücreleridir** (immünglobülin üretirler).\n* **C) (Doğru):** Birleşim epitelinde ve sulkusta nötrofil (PMN), bağ dokusunda ise plazma hücresi, lenfosit ve makrofaj gibi lökositlerin sayısı artmıştır.\n* **D) (Doğru):** Birleşim (bağlantı) epiteli rete pegler oluşturarak cep epiteline dönüşmeye başlamıştır (ancak kök yüzeyinde apikale migrasyon / ataçman kaybı yoktur).\n* **E) (Yanlış):** Yerleşmiş lezyon hala bir **gingivitis** lezyonudur; periodontal ligamentte ve alveoler kemikte değişiklik yoktur. **Bağ dokusu ataçman kaybı ve alveoler kemik kaybı yerleşmiş lezyonda görülmez**, 4. aşama olan **İlerlemiş Lezyonda (Periodontitis)** görülür.\n\n---",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 88,
+    "question": "Plak birikimi devam ettiği bağ dokusunda makrofaj ve lenfositlerin infiltrasyonu arttığı, yoğun kollajen kaybının görüldüğü, IL-1, TNF-$\\alpha$, IL-8, MCP-1, INF-$\\gamma$ gibi inflamatuar mediatörler ve MMP'lerin yoğunluğu arttığı gingival inflamasyon safhası aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Subklinik safha",
+      "B": "Başlangıç lezyonu",
+      "C": "Erken lezyon",
+      "D": "İlerlemiş lezyon",
+      "E": "Yerleşik lezyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "* **A, B) Subklinik safha / Başlangıç lezyonu (Yanlış):** 2-4. günlerde görülür, PMN baskındır ve sadece hafif perivasküler kollajen kaybı vardır.\n* **C) Erken lezyon (Yanlış):** 4-7. günlerde görülür, T lenfositler baskındır.\n* **D) İlerlemiş lezyon (Yanlış):** Kemik rezorpsiyonunun ve periodontal cep oluşumunun başladığı periodontitis evresidir.\n* **E) Yerleşik lezyon (Doğru):** 14-21 günlük plak birikiminden sonra ortaya çıkan kronik gingivitis evresidir. Plak birikimi devam ettikçe bağ dokusunda makrofaj ve lenfosit infiltrasyonu artar, **plazma hücreleri dominant hale gelir**, MMP'ler ve proinflamatuvar sitokinlerin (IL-1, TNF-$\\alpha$, IL-8, MCP-1, IFN-$\\gamma$) yoğunluğu artarak **bağ dokusunda yoğun kollajen kaybı** (henüz kemik kaybı olmadan) görülür.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 89,
+    "question": "Aşağıdakilerden hangisi \"kronik gingivitis\" olarak tanımlanan dönemdir?",
+    "options": {
+      "A": "Primer",
+      "B": "Başlangıç",
+      "C": "Erken",
+      "D": "Yerleşik",
+      "E": "İlerlemiş"
+    },
+    "correctAnswer": "D",
+    "explanation": "* **A) Primer (Yanlış):** Page ve Schroeder sınıflamasında böyle bir evre yoktur.\n* **B) Başlangıç (2-4 gün) (Yanlış):** Subklinik gingivitis dönemidir.\n* **C) Erken (4-7 gün) (Yanlış):** Erken klinik gingivitis dönemidir.\n* **D) Yerleşik (14-21 gün) (Doğru):** Klinik olarak **\"kronik gingivitis\"** olarak tanımlanan görüntünün altındaki histolojik evre **yerleşik (yerleşmiş) lezyondur.**\n* **E) İlerlemiş (Yanlış):** Periodontitis olarak tanımlanan dönemdir.\n\n---",
+    "flag_reason": null,
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 90,
+    "question": "Gingival inflamasyonun evrelerinden biri olan yerleşik lezyon ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sondlamada kanama mevcuttur.",
+      "B": "Predominant hücre grubu plazma hücreleridir.",
+      "C": "Gingival dokularda renk ve konturda bozulmalar izlenir.",
+      "D": "Periodontal cep formasyonu oluşmuştur.",
+      "E": "Dokuda asit ve alkalen fosfataz ve $\\beta$-glukozidaz gibi enzim seviyeleri artmıştır."
+    },
+    "correctAnswer": "D",
+    "explanation": "* **A) (Doğru):** Kapiller frajilite ve epitel ülserasyonları nedeniyle sondlamada kanama belirgindir.\n* **B) (Doğru):** Bağ dokusundaki predominant (baskın) hücre grubu **plazma hücreleridir**.\n* **C) (Doğru):** Kronik gingivitis tablosu geliştiği için venöz staz (staz/anozemik anoksi) ve ödeme bağlı olarak diş eti renginde (mavimsi kırmızı) ve konturunda bozulmalar izlenir.\n* **D) (Yanlış):** Yerleşik lezyon hala bir **gingivitis** lezyonudur. Sulkuler epitel ve birleşim epiteli cep epiteli formuna dönüşmeye başlamış olsa da (gingival cep / yalancı cep olabilir), ataçman kaybı ve alveoler kemik kaybı ile karakterize gerçek **\"periodontal cep\" bu aşamada oluşmaz** (İlerlemiş lezyonda oluşur).\n* **E) (Doğru):** Doku yıkımı ve inflamatuar hücre aktivitesine bağlı olarak dokuda lizozomal/hücresel enzimler olan asit fosfataz, alkalen fosfataz ve $\\beta$-glukozidaz seviyeleri artmıştır.\n\n---",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "unit": "Periodontal Epidemiyoloji",
+    "lesson": "Periodontoloji",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,1074 @@
+[
+  {
+    "question": "Aşağıdaki hormonlardan hangisi nükleer reseptör aracılığıyla etki gösterir?",
+    "options": {
+      "A": "İnsülin",
+      "B": "Norepinefrin",
+      "C": "Glukagon",
+      "D": "Tiroid hormonu",
+      "E": "ACTH"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) İnsülin:** Yanlış. İnsülin, plazma membranında yer alan tirozin kinaz aktiviteli reseptörler aracılığıyla etki gösterir.\n- **B) Norepinefrin:** Yanlış. Norepinefrin, hücresel etkisini hücre membranında yer alan adrenerjik G-protein kenetli reseptörler (Gs/Gq/Gi) üzerinden gösterir.\n- **C) Glukagon:** Yanlış. Glukagon, hücre yüzeyindeki Gs proteini ile kenetli serpentine reseptöre bağlanarak adenilat siklazı uyarır ve cAMP düzeyini artırır.\n- **D) Tiroid hormonu:** Doğru. Tiroid hormonları ($T_3, T_4$) lipofilik yapıda olup hücre membranını serbestçe geçerler ve çekirdekte bulunan nükleer reseptörlerine (TR) bağlanarak doğrudan gen ekspresyonunu düzenlerler.\n- **E) ACTH:** Yanlış. ACTH (Adrenokortikotropik hormon), adrenal korteks hücre membranında bulunan melanokortin-2 reseptörüne (Gs bağlı) bağlanarak cAMP yolu üzerinden etki eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi, fonksiyonunu cAMP sentezini artırarak yerine getirir?",
+    "options": {
+      "A": "İnsülin",
+      "B": "Büyüme hormonu",
+      "C": "Prolaktin",
+      "D": "Testosteron",
+      "E": "Parathormon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) İnsülin:** Yanlış. İnsülin, intrasesüel tirozin kinaz yolunu (IRS/PI3K ve MAP kinaz) kullanır, cAMP yolunu kullanmaz.\n- **B) Büyüme hormonu:** Yanlış. Büyüme hormonu (GH), Sitokin/JAK-STAT reseptör ailesi üzerinden sinyal iletimi gerçekleştirir.\n- **C) Prolaktin:** Yanlış. Prolaktin de JAK-STAT sinyal yolunu kullanan peptid yapılı bir hormondur.\n- **D) Testosteron:** Yanlış. Testosteron steroid yapılı bir hormon olup nükleer/sitoplazmik androjen reseptörlerine bağlanır; ikinci haberci olarak cAMP kullanmaz.\n- **E) Parathormon:** Doğru. Parathormon (PTH), böbrek ve kemik hücre yüzeyindeki Gs proteini ile kenetli PTH1R reseptörüne bağlanarak Adenilat Siklazı uyarır ve ikincil haberci olan cAMP sentezini artırır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Janus kinaz aşağıdakilerden hangisinin etki mekanizmasında rol oynar?",
+    "options": {
+      "A": "Leptin",
+      "B": "Retinoik asit",
+      "C": "Atrial natriüretik peptid",
+      "D": "Oksitosin",
+      "E": "Paratiroid hormonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Leptin:** Doğru. Leptin, Büyüme hormonu, Prolaktin, Eritropoietin ve İnterlökinler Tip 1 / Tip 2 sitokin reseptör ailesine dahildir ve sinyal iletiminde intrinsik kinaz aktivitesi olmayan reseptörlerine bağlanıp sitoplazmik **Janus Kinaz (JAK-STAT)** sistemini kullanırlar.\n- **B) Retinoik asit:** Yanlış. Nükleer reseptörler (RAR/RXR) aracılığıyla gen transkripsiyonunu kontrol eder.\n- **C) Atrial natriüretik peptid:** Yanlış. Membrana bağlı Guanilat Siklaz aktivitesine sahip reseptörlere bağlanarak cGMP sentezini artırır.\n- **D) Oksitosin:** Yanlış. $G_q$ proteini kenetli reseptör kullanarak Fosfolipaz C (PLC), $IP_3/DAG$ ve $Ca^{2+}$ yolunu kullanır.\n- **E) Paratiroid hormonu:** Yanlış. $G_s$ proteini kenetli reseptör kullanarak Adenilat siklaz ve cAMP yolunu aktifleştirir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "İnsülin aşağıdaki reseptör tiplerinden hangisine bağlanarak etki eder?",
+    "options": {
+      "A": "Tirozin kinaz reseptörleri",
+      "B": "G-proteinleri ile kenetli reseptörler",
+      "C": "İyonotropik reseptörler",
+      "D": "Serin-treonin kinaz reseptörleri",
+      "E": "İntraselüler reseptörler"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Tirozin kinaz reseptörleri:** Doğru. İnsülin reseptörü (2 $\u0007lpha$ ve 2 $\beta$ alt biriminden oluşan tetramerik yapı), intrinsik **Tirozin Kinaz** aktivitesine sahiptir. İnsülin bağlanmasıyla reseptör otoposforilasyona uğrar ve IRS (İnsülin Reseptör Substratı) proteinlerini tirozin rezidülerinden fosforiller.\n- **B) G-proteinleri ile kenetli reseptörler:** Yanlış. Glukagon, Epinefrin, TSH, ACTH ve PTH gibi hormonlar G-protein kenetli 7-transmembran (serpentine) reseptörleri kullanır.\n- **C) İyonotropik reseptörler:** Yanlış. Asetilkolin (nikotinik) ve Glutamat gibi nörotransmitterler iyon kanalı yapısındaki iyonotropik reseptörleri kullanır.\n- **D) Serin-treonin kinaz reseptörleri:** Yanlış. TGF-$\beta$, Aktivin ve MIS (Müllerian İnhibiting Substance) serin-treonin kinaz reseptörlerini kullanır.\n- **E) İntraselüler reseptörler:** Yanlış. Steroid hormonlar, Tiroid hormonları, A ve D vitaminleri hücre içi nükleer/sitoplazmik reseptörlere bağlanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 EUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisinin reseptörü hücre içinde değildir?",
+    "options": {
+      "A": "Tiroid hormonları",
+      "B": "Kortizol",
+      "C": "Progesteron",
+      "D": "Retinoik asit",
+      "E": "Eritropoietin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Tiroid hormonları:** Yanlış. Tiroid hormonları lipofilik yapıda olup nükleustaki hücre içi reseptörlerine bağlanır.\n- **B) Kortizol:** Yanlış. Glukokortikoidler lipofilik steroid hormonlar olup sitoplazmadaki (şaperon proteinlere bağlı) hücresi içi reseptörlerine bağlanır.\n- **C) Progesteron:** Yanlış. Steroid yapılı bir hormon olup nükleer/sitoplazmik hücresi içi reseptör kullanır.\n- **D) Retinoik asit:** Yanlış. Vitamin A türevi olup çekirdekte bulunan RAR/RXR nükleer reseptörlerine bağlanır.\n- **E) Eritropoietin:** Doğru. Eritropoietin (EPO), glikoprotein/peptid yapılı hidrofilik bir hormondur; hücre membranını geçemez. Hücre yüzeyinde bulunan sitokin reseptörüne (JAK-STAT) bağlanarak etki gösterir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi, nükleer reseptörler aracılığıyla etki gösterir?",
+    "options": {
+      "A": "Tiroid hormonu",
+      "B": "Glukagon",
+      "C": "Epinefrin",
+      "D": "İnsülin",
+      "E": "ACTH"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Tiroid hormonu:** Doğru. Tiroid hormonları ($T_3, T_4$) doğrudan nükleusa girerek DNA üzerindeki Hormon Yanıt Elemanlarına (HRE) bağlanan nükleer reseptörler aracılığıyla etki gösterir.\n- **B) Glukagon:** Yanlış. Hücre membranında bulunan $G_s$ protein kenetli reseptör (cAMP ikincil mesajcısı) üzerinden etki eder.\n- **C) Epinefrin:** Yanlış. Membranda bulunan Adrenerjik reseptörler ($\u0007lpha, \beta$) üzerinden ikincil mesajcı yollarını uyarır.\n- **D) İnsülin:** Yanlış. Membranda bulunan Tirozin kinaz reseptörleri aracılığıyla etki eder.\n- **E) ACTH:** Yanlış. Adrenal korteks zarındaki $G_s$ kenetli Melanokortin-2 reseptörünü uyararak etki gösterir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar DUS"
+  },
+  {
+    "question": "Nükleusta DNA üzerindeki \"response element\" ile etkileşime girerek etkisini gösteren vitamin hangisidir?",
+    "options": {
+      "A": "B1 vitamini",
+      "B": "B2 vitamini",
+      "C": "B12 vitamini",
+      "D": "D vitamini",
+      "E": "C vitamini"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) B1 vitamini:** Yanlış. Tiamin, sitozol ve mitokondride TPP kofaktörü olarak enzimatik reaksiyonlarda (dekarboksilasyon) görev alır.\n- **B) B2 vitamini:** Yanlış. Riboflavin, FMN/FAD koenzimleri olarak redoks reaksiyonlarında görev alır.\n- **C) B12 vitamini:** Yanlış. Kobalamin, metilmalonil-KoA mutaz ve metionin sentaz enzimlerinin kofaktörüdür.\n- **D) D vitamini:** Doğru. Aktif D vitamini ($1,25(OH)_2D_3$ / Kalsitriol), lipofilik yapısı sayesinde çekirdeğe girer ve Nükleer D Vitamini Reseptörüne (VDR) bağlanır. VDR-RXR heterodimeri oluşturarak DNA üzerindeki Vitamin D Yanıt Elemanına (VDRE) bağlanır ve gen ekspresyonunu (örneğin Kalbindin sentezini) düzenler.\n- **E) C vitamini:** Yanlış. Askorbik asit, suda çözünen bir antioksidan olup hidroksilasyon reaksiyonlarında (kollajen sentezi) kofaktördür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi, hücre yüzeyi reseptörlerine bağlanarak etki gösterir?",
+    "options": {
+      "A": "Testosteron",
+      "B": "Tiroid stimüle edici hormon",
+      "C": "Tiroid hormonu",
+      "D": "Progesteron",
+      "E": "Östradiol"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Testosteron:** Yanlış. Lipofilik steroid yapıda olduğundan hücre içi androjen reseptörlerine bağlanır.\n- **B) Tiroid stimüle edici hormon (TSH):** Doğru. TSH, glikoprotein yapılı hidrofilik bir ön hipofiz hormonudur. Hücre zarını geçemez, bu nedenle tiroid folikül hücrelerinin yüzeyindeki G-protein kenetli ($G_s$) TSH reseptörüne bağlanarak cAMP düzeyini artırır.\n- **C) Tiroid hormonu:** Yanlış. Lipofilik yapıda olup nükleer tiroid hormon reseptörlerine ($TR$) bağlanır.\n- **D) Progesteron:** Yanlış. Steroid yapıda olup hücre içi progesteron reseptörlerine ($PR$) bağlanır.\n- **E) Östradiol:** Yanlış. Steroid yapıda olup hücre içi östrojen reseptörlerine ($ER$) bağlanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Nükleusta bulunan tiroksin reseptörü, aşağıdaki reseptörlerden hangisi ile heterodimer oluşturarak, korepresörlerin varlığında DNA'daki hormon response element'in gen ekspresyonunu inhibe eder?",
+    "options": {
+      "A": "Glukokortikoid reseptörü",
+      "B": "Östrogen reseptörü",
+      "C": "Progestin reseptörü",
+      "D": "Retinoid X reseptörü",
+      "E": "Mineralokortikoid reseptörü"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Glukokortikoid reseptörü:** Yanlış. Homodimer oluşturarak DNA'ya bağlanır.\n- **B) Östrogen reseptörü:** Yanlış. Homodimer oluşturarak DNA'ya bağlanır.\n- **C) Progestin reseptörü:** Yanlış. Homodimer oluşturarak DNA'ya bağlanır.\n- **D) Retinoid X reseptörü (RXR):** Doğru. Nükleer reseptör ailesinde Tiroid hormon reseptörü ($TR$), D vitamini reseptörü ($VDR$) ve Retinoik asit reseptörü ($RAR$), **Retinoid X Reseptörü (RXR)** ile **heterodimer** oluştururlar. Ligand ($T_3/T_4$) yokken bu TR-RXR heterodimeri korepresör proteinleri bağlayarak gen ekspresyonunu baskılar (inhibe eder); ligand bağlandığında ise koaktivatörler çekilerek transkripsiyon uyarılır. Steroid reseptörleri (GR, ER, PR, MR) ise kendisiyle homodimer oluşturur.\n- **E) Mineralokortikoid reseptörü:** Yanlış. Sitoplazmada homodimer oluşturur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi zardaki transmembran proteinlerinden biri değildir?",
+    "options": {
+      "A": "Epinefrin reseptörü",
+      "B": "Na-K ATPase",
+      "C": "F0F1-ATPase",
+      "D": "Akuaporin",
+      "E": "Glukokortikoid reseptörü"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Epinefrin reseptörü:** Yanlış. Hücre zarını 7 kez kat eden transmembran (serpentine) bir G-protein kenetli reseptördür.\n- **B) Na-K ATPase:** Yanlış. Hücre plazma zarında yer alan integral/transmembran bir iyon pompasıdır.\n- **C) F0F1-ATPase:** Yanlış. Mitokondri iç zarında bulunan transmembran ATP sentaz kompleksidir.\n- **D) Akuaporin:** Yanlış. Hücre plazma zarında su geçişini sağlayan transmembran kanal proteinidir.\n- **E) Glukokortikoid reseptörü:** Doğru. Steroid hormon reseptörleri olan glukokortikoid reseptörleri transmembran protein değildir; dinlenim durumunda sitoplazmada ısı şok proteinlerine ($HSP90$) bağlı çözünür proteinler olarak bulunurlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, etkisini cGMP aracılığıyla gösterir?",
+    "options": {
+      "A": "Retinoik asit",
+      "B": "Lipotropin",
+      "C": "Gastrin",
+      "D": "Adiponektin",
+      "E": "Nitrik oksit"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Retinoik asit:** Yanlış. Nükleer reseptörler ($RAR/RXR$) üzerinden gen ekspresyonunu düzenler.\n- **B) Lipotropin:** Yanlış. $G_s$ protein kenetli reseptörler üzerinden cAMP düzeyini artırır.\n- **C) Gastrin:** Yanlış. $G_q$ protein kenetli reseptör (CCK-B) üzerinden Fosfolipaz C, $IP_3/DAG$ ve $Ca^{2+}$ yolunu kullanır.\n- **D) Adiponektin:** Yanlış. AdipoR1/AdipoR2 reseptörleri üzerinden AMPK ve PPAR-$\u0007lpha$ yollarını uyarır.\n- **E) Nitrik oksit (NO):** Doğru. Nitrik Oksit, gaz yapıda bir molekül olup hücre içine sızar ve sitozolik (çözünür) Guanilat Siklazı uyararak GTP'den **cGMP** sentezini artırır. cGMP de Protein Kinaz G'yi (PKG) aktifleyerek düz kas gevşemesine (vazodilatasyon) yol açar. (ANP, BNP ve Ürodilatin ise membrana bağlı guanilat siklazı uyararak cGMP artırır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisinin ikincil mesajcısı cAMP değildir?",
+    "options": {
+      "A": "Lüteinleştirici hormon",
+      "B": "Parathormon",
+      "C": "Glukagon",
+      "D": "Anjiyotensin II",
+      "E": "Tiroid stimüle edici hormon"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Lüteinleştirici hormon (LH):** Yanlış. LH, $G_s$ proteini aracılığıyla adenilat siklazı uyarır ve ikincil mesajcı olarak cAMP kullanır.\n- **B) Parathormon (PTH):** Yanlış. PTH, $G_s$ proteini üzerinden cAMP düzeyini artırır.\n- **C) Glukagon:** Yanlış. Karaciğer ve yağ dokusunda $G_s$ proteini üzerinden cAMP düzeyini yükseltir.\n- **D) Anjiyotensin II:** Doğru. Anjiyotensin II, damar düz kaslarında ve adrenal kortekste **AT1 reseptörleri** aracılığıyla **$G_q$ proteinini** uyarır. $G_q$ ise Fosfolipaz C'yi (PLC) aktifleştirerek ikincil mesajcı olarak **$IP_3$, DAG ve $Ca^{2+}$** kullanır (cAMP kullanmaz).\n- **E) Tiroid stimüle edici hormon (TSH):** Yanlış. TSH, $G_s$ proteini üzerinden cAMP artışı ile tiroid hormon sentezini uyarır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "İki tıp öğrencisi laboratuvar ortamında kültüre edilen insan granüloza hücreleri üzerinde üreme fizyolojisiyle ilgili deney yapıyor. Bu hücreleri X maddesi ile inkübe ettiklerinde adenilil siklaz aktivitesinin artıp hücre içinde cAMP düzeyinin hızla yükseldiğini tespit ediyorlar. Buna göre aşağıdakilerden hangisinin X maddesi olması en olasıdır?",
+    "options": {
+      "A": "Leptin",
+      "B": "Fibroblast büyüme faktörü",
+      "C": "Folikül stimüle edici hormon",
+      "D": "Testosteron",
+      "E": "Östradiol"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Leptin:** Yanlış. JAK-STAT sinyal yolunu kullanır.\n- **B) Fibroblast büyüme faktörü (FGF):** Yanlış. Reseptör tirozin kinaz (RTK) yolunu kullanır.\n- **C) Folikül stimüle edici hormon (FSH):** Doğru. Overlerdeki granüloza hücrelerinde FSH reseptörleri bulunur. FSH reseptörleri $G_s$ proteini ile kenetlidir ve uyarıldığında Adenilil Siklaz enzimini aktifleyerek hücre içi **cAMP** düzeyini yükseltir ve aromatizasyonu (östrojen sentezini) uyarır.\n- **D) Testosteron:** Yanlış. Steroid yapılı olup nükleer androjen reseptörlerine bağlanır.\n- **E) Östradiol:** Yanlış. Steroid yapılı olup nükleer östrojen reseptörlerine bağlanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  },
+  {
+    "question": "I. Atrial natriüretik faktör\nII. Glukagon\nIII. Tiroid stimüle edici hormon\nYukarıdaki hormonlardan hangilerinin ikincil habercisi cAMP'dir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **I. Atrial natriüretik faktör (ANP):** Yanlış. ANP, membrana bağlı Guanilat Siklaz reseptörünü uyararak ikincil haberci olarak **cGMP** oluşturur.\n- **II. Glukagon:** Doğru. Glukagon, $G_s$ proteini üzerinden Adenilat siklazı uyarır ve ikincil haberci olarak **cAMP** üretir.\n- **III. Tiroid stimüle edici hormon (TSH):** Doğru. TSH, $G_s$ proteini uyarısı ile Adenilat siklaz üzerinden **cAMP** üreterek etki gösterir.\nBu nedenle II ve III öncülleri doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 DUS"
+  },
+  {
+    "question": "Nitrik oksit hangisi üzerinden etki gösterir?",
+    "options": {
+      "A": "Plazma zarına yerleşik guanilat siklaz reseptörü",
+      "B": "Sitozolik guanilat siklaz reseptörü",
+      "C": "Serpentin reseptörü",
+      "D": "Tirozin kinaz reseptörü",
+      "E": "NMDA tipi glutamat reseptörü"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Plazma zarına yerleşik guanilat siklaz reseptörü:** Yanlış. Membrana bağlı guanilat siklaz reseptörlerini kullananlar ANP, BNP ve Ürodilatindir.\n- **B) Sitozolik guanilat siklaz reseptörü:** Doğru. Nitrik Oksit (NO), hidrofobik gaz yapısı sayesinde hücre membranından serbestçe geçer ve sitoplazmada (sitozolde) bulunan **çözünür (sitozolik) Guanilat Siklaz** enziminin yapısındaki hem grubuna bağlanarak enzimi aktifler. Bu da cGMP sentezini sağlar.\n- **C) Serpentin reseptörü:** Yanlış. 7 transmembranlı G-protein kenetli reseptörlerdir (cAMP veya $IP_3/DAG$ kullananlar).\n- **D) Tirozin kinaz reseptörü:** Yanlış. İnsülin, IGF, EGF gibi büyüme faktörlerinin reseptörüdür.\n- **E) NMDA tipi glutamat reseptörü:** Yanlış. İyonotropik kalsiyum/sodyum kanalıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki reseptörlerden hangisi enzim aktivitesine sahiptir?",
+    "options": {
+      "A": "Dopamin reseptörü",
+      "B": "Retinoid reseptörü",
+      "C": "b-adrenerjik reseptör",
+      "D": "İnsülin reseptörü",
+      "E": "a-adrenerjik reseptör"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Dopamin reseptörü:** Yanlış. $G_s$ ($D_1, D_5$) veya $G_i$ ($D_2, D_3, D_4$) kenetli G-protein reseptörüdür; intrinsik enzim aktivitesi yoktur.\n- **B) Retinoid reseptörü:** Yanlış. Nükleer transkripsiyon faktörü olup intrinsik enzim aktivitesi barındırmaz.\n- **C) b-adrenerjik reseptör:** Yanlış. $G_s$ protein kenetli 7-transmembran reseptördür.\n- **D) İnsülin reseptörü:** Doğru. İnsülin reseptörü (ve IGF-1, EGF, PDGF reseptörleri), sitoplazmik uzantısında **intrinsik Tirozin Kinaz** enzim aktivitesi taşıyan katalitik reseptörlerdir. Ligand bağlandığında kendi kendini (otofosforilasyon) ve hedef proteinleri fosforiller.\n- **E) a-adrenerjik reseptör:** Yanlış. $\\alpha_1$ ($G_q$) ve $\\alpha_2$ ($G_i$) protein kenetli reseptörlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Sitokin reseptörlerinin ligand-bağımlı aktivasyonundan sonra, reseptörün sitoplazmik kısmı ile etkileşerek aktive olan sitoplazmik kinaz hangisidir?",
+    "options": {
+      "A": "Reseptör tirozin kinaz (RTK)",
+      "B": "Protein kinaz A (PKA)",
+      "C": "Protein kinaz C (PKC)",
+      "D": "Janus kinaz (JAK)",
+      "E": "MAP kinaz (MAPK)"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Reseptör tirozin kinaz (RTK):** Yanlış. İnsülin ve EGF reseptörleri gibi yapısında kendinden kinaz bulunduran reseptörlerdir.\n- **B) Protein kinaz A (PKA):** Yanlış. cAMP ile aktifleşen serin/treonin kinazdır.\n- **C) Protein kinaz C (PKC):** Yanlış. DAG ve $Ca^{2+}$ ile aktifleşen serin/treonin kinazdır.\n- **D) Janus kinaz (JAK):** Doğru. Büyüme hormonu, Prolaktin, Eritropoietin ve Sitokin (IL-2, IL-6, IFN) reseptörlerinin kendisinde intrinsik kinaz aktivitesi yoktur. Ligand bağlandığında sitoplazmada reseptör kuyruklarına non-kovalent bağlı duran **Janus Kinaz (JAK)** enzimleri aktifleflir, reseptörü ve STAT (Signal Transducer and Activator of Transcription) proteinlerini fosforiller.\n- **E) MAP kinaz (MAPK):** Yanlış. Ras-Raf-MEK kaskadında aşağı akış yönünde çalışan bir serin/treonin kinazdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Epinefrinin sinyal iletim mekanizmasında hangisi yer almaz?",
+    "options": {
+      "A": "Janus kinaz",
+      "B": "Heterotrimerik G proteini",
+      "C": "Uyanıcı Gsa-GTP",
+      "D": "Adenilat siklaz",
+      "E": "Beta adrenerjik reseptör"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Janus kinaz:** Doğru. Janus kinaz (JAK-STAT), büyüme hormonu, prolaktin ve sitokin sinyalinde görev alır; epinefrin/adrenalin sinyal yollarında yer almaz.\n- **B) Heterotrimerik G proteini:** Yanlış. Adrenerjik reseptörler heterotrimerik ($\\alpha, \\beta, \\gamma$) G proteinleri ($G_s, G_i, G_q$) ile kenetlidir.\n- **C) Uyarıcı Gsa-GTP:** Yanlış. $\\beta$-adrenerjik reseptör uyarısıyla $G_s\\alpha$ birimine GTP bağlanarak aktifleşir.\n- **D) Adenilat siklaz:** Yanlış. $G_s\\alpha$-GTP, membran epitelyal Adenilat Siklaz enzimini aktifler.\n- **E) Beta adrenerjik reseptör:** Yanlış. Epinefrinin bağlandığı ana reseptör tiplerinden biridir ($\\beta_1, \\beta_2, \\beta_3$).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki ikincil mesajcılardan hangisi endoplazmik retikulumdan sitoplazmaya Ca2+ salınımını sağlar?",
+    "options": {
+      "A": "cAMP",
+      "B": "cGMP",
+      "C": "IRS",
+      "D": "DAG",
+      "E": "IP3"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) cAMP:** Yanlış. Protein kinaz A'yı (PKA) aktifleyen ikincil mesajcıdır.\n- **B) cGMP:** Yanlış. Protein kinaz G'yi (PKG) aktifleyen ikincil mesajcıdır.\n- **C) IRS:** Yanlış. İnsülin reseptör substratı olup ikincil mesajcı değil, docking/adaptör proteindir.\n- **D) DAG:** Yanlış. DiAçilGliserol hidrofobik bir lipid olup plazma zarında kalır ve Protein Kinaz C'yi (PKC) aktifler.\n- **E) IP3 (İnozitol 1,4,5-trifosfat):** Doğru. Fosfolipaz C (PLC) tarafından $PIP_2$'nin hidrolizi sonucu oluşan suda çözünür $IP_3$, sitozole difüze olur ve Düz Endoplazmik Retikulum (Sarkoplazmik Retikulum) zarındaki $IP_3$ reseptör kapılı kalsiyum kanallarına bağlanarak sitozole $Ca^{2+}$ salınımını tetikler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "G proteinlerine kenetlenmiş reseptörlerle Gq aracılı sinyal iletiminde;\nI. Fosfolipaz C'nin aktifleşmesi\nII. Gq proteinine GTP bağlanması\nIII. Protein kinaz C'nin aktifleşmesi\nIV. Sitozolde kalsiyum miktarının artması\nolaylarının gelişme sırası aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "I-II-III-IV",
+      "B": "I-III-IV-II",
+      "C": "II-I-IV-III",
+      "D": "II-I-III-IV",
+      "E": "III-II-IV-I"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\nGq aracılı sinyal iletim basamaklarının doğru kronolojik sırası:\n1. **II. $G_q$ proteinine GTP bağlanması:** Agonist reseptöre bağlanınca $G_q\\alpha$ birimindeki GDP ayrılır, yerine GTP bağlanarak $G_q$ aktifleşir.\n2. **I. Fosfolipaz C'nin aktifleşmesi:** Aktif $G_q\\alpha$-GTP, zardaki Fosfolipaz C (PLC) enzimini aktifleştirir. PLC, $PIP_2$'yi $IP_3$ ve DAG'a yıkar.\n3. **IV. Sitozolde kalsiyum miktarının artması:** $IP_3$ ER'den kalsiyum salarak sitozolik $[Ca^{2+}]$ konsantrasyonunu yükseltir.\n4. **III. Protein kinaz C'nin aktifleşmesi:** Membranda kalan DAG ve artan $Ca^{2+}$, Protein Kinaz C'yi (PKC) tam olarak aktifleştirir.\nDolayısıyla sıralama **II - I - IV - III** şeklindedir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki proteinlerden hangisi uygun iyonu bağladığında hücre içinde bir grup protein kinazı aktive edebilir?",
+    "options": {
+      "A": "Kollajen",
+      "B": "Hemoglobin",
+      "C": "Kalmodulin",
+      "D": "Aktin",
+      "E": "Globulin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Kollajen:** Yanlış. Hücre dışı matrisin ana yapısal fibroz proteinidir.\n- **B) Hemoglobin:** Yanlış. Eritrositlerde oksijen taşıyan tetramerik hemoproteindir.\n- **C) Kalmodulin:** Doğru. Kalmodulin, sitoplazmada bulunan ana kalsiyum sensör proteinidir. Yapısındaki 4 adet EF-hand domainine $Ca^{2+}$ iyonu bağlandığında konformasyonel değişime uğrar ve **CaM-Kinazlar** (Kalsiyum/Kalmodulin bağımlı protein kinazlar), Miyozin Hafif Zincir Kinaz (MLCK) ve Fosforilaz Kinaz gibi enzim grubunu aktifler.\n- **D) Aktin:** Yanlış. Hücre iskeletini oluşturan mikrofilament proteinidir.\n- **E) Globulin:** Yanlış. Plazma protein sınıfıdır (albümin dışı plazma proteinleri).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Monomerik Ras G proteini ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Küçük G protein ailesinin prototipidir.",
+      "B": "Büyüme faktörünün bağlanmasıyla aktive olur.",
+      "C": "RAS proteini membran farnesil veya geranilgeranil gruplarıyla bağlıdır.",
+      "D": "İnaktif RAS, GDP-GTP değişimiyle aktive olur ve MAP kinaz aktivasyonu yapar.",
+      "E": "Mutant RAS'larda bağlı GTP'nin hidrolizi ile aktivasyonu artar."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Küçük G protein ailesinin prototipidir:** Doğru. Monomerik küçük GTPaz ailesinin (Ras, Rho, Rab, Ran) ilk tanımlanan üyesidir.\n- **B) Büyüme faktörünün bağlanmasıyla aktive olur:** Doğru. EGF, PDGF gibi büyüme faktörleri RTK üzerinden SOS (GEF) aracılığıyla RAS'ı aktifler.\n- **C) RAS proteini membran farnesil veya geranilgeranil gruplarıyla bağlıdır:** Doğru. Post-translasyonel prenilasyon (farnesil kovalent bağı) ile plazma zarının iç yüzeyine tutunur.\n- **D) İnaktif RAS, GDP-GTP değişimiyle aktive olur ve MAP kinaz aktivasyonu yapar:** Doğru. GDP yerine GTP geçince aktifleşir ve Raf -> MEK -> MAPK (Erk) kaskadını tetikler.\n- **E) Mutant RAS'larda bağlı GTP'nin hidrolizi ile aktivasyonu artar:** **Yanlış!** Kanserde görülen mutant RAS proteinlerinde intrinsic GTPaz aktivitesi **bozulur/kaybolur** veya GAP (GTPaz aktive edici protein) etkisine direnç gelişir. Bu yüzden bağlı GTP hidroliz edilemez ve RAS **sürekli GTP bağlı aktif formda takılı kalır**. GTP hidrolizi aktivasyonu artırmaz, aksine RAS'ı deaktive eden mekanizmadır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar TUS"
+  },
+  {
+    "question": "ATP'den cAMP oluşumu hangisiyle katalizlenir?",
+    "options": {
+      "A": "Asetil-KoA karboksilaz",
+      "B": "Adenilil siklaz",
+      "C": "Pirüvat dehidrogenaz",
+      "D": "Pirüvat kinaz",
+      "E": "Fosfofruktokinaz I"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Asetil-KoA karboksilaz:** Yanlış. Asetil-KoA'yı Malonil-KoA'ya çeviren yağ asidi sentezinin hız kısıtlayıcı enzimidir.\n- **B) Adenilil siklaz (Adenilat siklaz):** Doğru. Hücre plazma membranında yer alan liyaz sınıfı enzim olup ATP molekülünün pirofosfat ($PP_i$) grubunu kopararak **cAMP (siklik AMP)** sentezini katalizler.\n- **C) Pirüvat dehidrogenaz:** Yanlış. Pirüvatı Asetil-KoA'ya çeviren mitokondriyal enzim kompleksidir.\n- **D) Pirüvat kinaz:** Yanlış. Glikolizde PEP'ten ATP ve Pirüvat sentezleyen enzimdir.\n- **E) Fosfofruktokinaz I:** Yanlış. Glikolizin hız kısıtlayıcı basamağında F-6-P'yi F-1,6-BP'ye dönüştüren enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 DUS"
+  },
+  {
+    "question": "Protein kinaz A ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Bir serin/treonin kinazdır.",
+      "B": "Hücresel sinyal iletiminde rol alır.",
+      "C": "İki katalitik alt birimi vardır.",
+      "D": "Allosterik bir enzimdir.",
+      "E": "cAMP ile inhibe edilir."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Bir serin/treonin kinazdır:** Doğru. Hedef proteinlerin serin ve treonin aminoasit rezidülerini fosforiller.\n- **B) Hücresel sinyal iletiminde rol alır:** Doğru. İkincil haberci cAMP yolunun ana efektör enzimidir.\n- **C) İki katalitik alt birimi vardır:** Doğru. Inaktif PKA tetramerik yapıda olup 2 Düzenleyici ($R$) ve 2 Katalitik ($C$) alt birimden oluşur ($R_2C_2$).\n- **D) Allosterik bir enzimdir:** Doğru. cAMP düzenleyici ($R$) alt birimlere allosterik olarak bağlanır.\n- **E) cAMP ile inhibe edilir:** **Yanlış!** cAMP, PKA'nın düzenleyici ($R$) alt birimlerine bağlanarak katalitik ($C$) alt birimlerin serbest kalmasını ve **aktifleflmesini (stimülasyonunu)** sağlar. cAMP PKA'yı inhibe etmez, doğrudan aktifleştirir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Bir hormonal sinyal iletimi sırasında, G-proteinleri bağımlı olarak aktive edilen adenilat siklaz nasıl deaktive edilir?",
+    "options": {
+      "A": "GTP bağlanmasıyla",
+      "B": "GDP'nin GTP ile yer değiştirmesiyle",
+      "C": "b ve g alt birimlerinin disosiasyonuyla",
+      "D": "Ga tarafından GTP hidroliziyle",
+      "E": "G proteinlerinin reseptöre bağlanmasıyla"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) GTP bağlanmasıyla:** Yanlış. GTP bağlanması G-proteinini ve Adenilat siklazı aktifleştirir.\n- **B) GDP'nin GTP ile yer değiştirmesiyle:** Yanlış. Bu süreç aktivasyon basamağıdır.\n- **C) b ve g alt birimlerinin disosiasyonuyla:** Yanlış. $\\alpha$ biriminin $\\beta\\gamma$ dimerinden ayrılması aktivasyona katkı sağlar.\n- **D) Ga tarafından GTP hidroliziyle:** Doğru. $G_\\alpha$ birimi intrinsik **GTPaz** aktivitesine sahiptir. $G_\\alpha$'ya bağlı GTP molekülü hidroliz edilerek GDP ve inorganik fosfata ($P_i$) dönüştüğünde $G_\\alpha$ inaktif forma geçer, Adenilat siklazdan ayrılır ve $\\beta\\gamma$ alt birimleriyle tekrar birleşir. Böylece adenilat siklaz deaktive olur.\n- **E) G proteinlerinin reseptöre bağlanmasıyla:** Yanlış. Deaktivasyonu sağlayan temel mekanizma intrinsik GTPaz hidrolizidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi kolera toksini ile pertussis toksininin ortak bir etkisidir?",
+    "options": {
+      "A": "G proteinlerinin aktivasyonu",
+      "B": "Adenilat siklaz inhibisyonu",
+      "C": "G proteinlerinin fosforilasyonu",
+      "D": "G proteinlerinin ADP-ribozilasyonu",
+      "E": "Protein kinaz A inhibisyonu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) G proteinlerinin aktivasyonu:** Yanlış. İkisi de sonuçta cAMP'yi artırsa da etki mekanizmaları farklı $G$ proteinleri üzerindendir ($G_s$ vs $G_i$).\n- **B) Adenilat siklaz inhibisyonu:** Yanlış. İki toksin de Adenilat siklazı aşırı aktifleştirir ve cAMP'yi devasa düzeyde artırır.\n- **C) G proteinlerinin fosforilasyonu:** Yanlış.\n- **D) G proteinlerinin ADP-ribozilasyonu:** Doğru. Her iki toksin de NAD+'dan ADP-riboz grubunu alarak hedef G-proteinlerine aktarır (**post-translasyonel ADP-ribozilasyon**):\n  - **Kolera toksini:** $G_s\\alpha$ birimini ADP-riboziller, GTPaz aktivitesini kilitler, $G_s$ sürekli aktif kalır $\\rightarrow$ cAMP $\\uparrow\\uparrow$.\n  - **Pertussis (Boğmaca) toksini:** $G_i\\alpha$ birimini ADP-riboziller, $G_i$'nin GDP bırakmasını engeller, $G_i$ inaktif kalır (inhibisyon kalkar) $\\rightarrow$ cAMP $\\uparrow\\uparrow$.\n- **E) Protein kinaz A inhibisyonu:** Yanlış. Yükselen cAMP PKA'yı aşırı aktifleştirir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi hücre içi reseptörüne bağlanarak etki gösterir?",
+    "options": {
+      "A": "Tiroid stimüle edici hormon",
+      "B": "Oksitosin",
+      "C": "İnsülin",
+      "D": "Prolaktin",
+      "E": "Tiroksin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Tiroid stimüle edici hormon (TSH):** Yanlış. Hücre zarı $G_s$ reseptörünü kullanır.\n- **B) Oksitosin:** Yanlış. Hücre zarı $G_q$ reseptörünü kullanır.\n- **C) İnsülin:** Yanlış. Hücre zarı Tirozin kinaz reseptörünü kullanır.\n- **D) Prolaktin:** Yanlış. Hücre zarı JAK-STAT reseptörünü kullanır.\n- **E) Tiroksin ($T_4$):** Doğru. Tiroksin ($T_4$) ve Triyodotironin ($T_3$) aminoasit türevi olmalarına rağmen lipofilik özelliktelerdir ve hücre membranını geçerek **çekirdekte (nükleusta) bulunan hücre içi tiroid hormon reseptörlerine (TR)** bağlanırlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar DUS"
+  },
+  {
+    "question": "Kalsitonin hormonunun biyokimyasal yapısı aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Aminoasit türevi",
+      "B": "Protein",
+      "C": "Kolesterol türevi",
+      "D": "Yağ asidi türevi",
+      "E": "Eikozanoid"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Aminoasit türevi:** Yanlış. Adrenalin, Noradrenalin, Dopamin (Tirozin); Serotonin, Melatonin (Triptofan) aminoasit türevidir.\n- **B) Protein / Peptid:** Doğru. Kalsitonin, tiroid bezinin parafoliküler C hücrelerinden salgılanan 32 aminoasitlik **peptid/protein** yapılı bir hormondur. Ribozomlarda pre-prohormon olarak sentezlenir ve suda çözünür (hidrofilik) özelliktedir.\n- **C) Kolesterol türevi:** Yanlış. Kortizol, Aldosteron, Testosteron, Östrojen, Progesteron ve D vitamini kolesterol (steroid) türevidir.\n- **D) Yağ asidi türevi / Eikozanoid:** Yanlış. Prostaglandinler, Tromboksanlar ve Lökotriyenler eikozanoid/yağ asidi türevidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi peptid yapısına sahiptir?",
+    "options": {
+      "A": "Dopamin",
+      "B": "Östrojen",
+      "C": "Epinefrin",
+      "D": "Büyüme hormonu",
+      "E": "Serotonin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Dopamin:** Yanlış. Tirozin aminoasit türevidir (katekolamin öncülü).\n- **B) Östrojen:** Yanlış. Kolesterol türevi steroid hormondur.\n- **C) Epinefrin:** Yanlış. Tirozin aminoasit türevidir (katekolamin).\n- **D) Büyüme hormonu (GH / Somatotropin):** Doğru. Büyüme hormonu, ön hipofizden salgılanan 191 aminoasitlik tek zincirli **protein/peptid** yapılı bir hormondur.\n- **E) Serotonin:** Yanlış. Triptofan aminoasit türevidir (biyojenik amin).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 DUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi, glikoprotein yapısındadır?",
+    "options": {
+      "A": "Folikül stimüle edici hormon",
+      "B": "Tiroid hormonu",
+      "C": "Progesteron",
+      "D": "Adrenalin",
+      "E": "Kalsitriol"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Folikül stimüle edici hormon (FSH):** Doğru. İnsan biyokimyasında **Glikoprotein yapılı hormonlar 4 tanedir: FSH, LH, TSH ve hCG**. Bu hormonların hepsinde ortak bir $\\alpha$ alt birimi ve hormona özgüllüğü sağlayan farklı bir $\\beta$ alt birimi ile karbonhidrat (glikozilasyon) yan zincirleri bulunur.\n- **B) Tiroid hormonu:** Yanlış. İyotlanmış tirozin aminoasit türevidir.\n- **C) Progesteron:** Yanlış. Steroid yapıdadır.\n- **D) Adrenalin:** Yanlış. Katekolamin/aminoasit türevidir.\n- **E) Kalsitriol ($1,25(OH)_2D_3$):** Yanlış. Steroid yapıdadır (sekosteroid).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Hormonlardan hangisinin a alt birimi, LH, FSH ve TSH'nin a alt birimi ile benzer yapıdadır?",
+    "options": {
+      "A": "Melanosit stimüle edici hormon",
+      "B": "İnsan koryonik gonadotropini",
+      "C": "Adrenokortikotropik hormon",
+      "D": "Büyüme hormonu",
+      "E": "Paratiroid hormon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Melanosit stimüle edici hormon (MSH):** Yanlış. POMC türevi küçük bir peptid hormondur.\n- **B) İnsan koryonik gonadotropini (hCG):** Doğru. Glikoprotein yapılı 4 hormon **(LH, FSH, TSH ve hCG)** dimeri oluşturan iki alt birimden meydana gelir. Tüm bu 4 hormonun **$\\alpha$ (alfa) alt birimi birbiriyle tamamen aynı (özdeş)** aminoasit dizilimine sahiptir. Özgüllük ise farklı olan $\\beta$ alt birimleri ile sağlanır.\n- **C) Adrenokortikotropik hormon (ACTH):** Yanlış. POMC türevi 39 aminoasitlik tek zincirli peptid hormondur.\n- **D) Büyüme hormonu (GH):** Yanlış. Tek zincirli protein yapısındadır.\n- **E) Paratiroid hormon (PTH):** Yanlış. 84 aminoasitlik polipeptid hormondur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi, a alt birimleri aynı olup b alt birimleri farklı olan glikoprotein yapıda hormonlardan biri değildir?",
+    "options": {
+      "A": "İnsan koryonik gonadotropini",
+      "B": "Folikül stimüle edici hormon",
+      "C": "Luteinleştirici hormon",
+      "D": "Tiroid stimüle edici hormon",
+      "E": "Tirotropin salgılatıcı hormon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) İnsan koryonik gonadotropini (hCG):** Yanlış. Dimetrik glikoprotein hormondur ($\\alpha$ alt birimi ortaktır).\n- **B) Folikül stimüle edici hormon (FSH):** Yanlış. Dimerik glikoprotein hormondur ($\\alpha$ alt birimi ortaktır).\n- **C) Luteinleştirici hormon (LH):** Yanlış. Dimerik glikoprotein hormondur ($\\alpha$ alt birimi ortaktır).\n- **D) Tiroid stimüle edici hormon (TSH):** Yanlış. Dimerik glikoprotein hormondur ($\\alpha$ alt birimi ortaktır).\n- **E) Tirotropin salgılatıcı hormon (TRH):** Doğru. TRH, hipotalamustan salgılanan ve sadece **3 aminoasitten (Pyroglutamat-Histidin-Prolin-amiddan)** oluşan çok küçük bir nöropeptiddir; glikoprotein yapıda değildir ve $\\alpha/\\beta$ alt birimleri barındırmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Plasental laktojenin yapısal benzerlik gösterdiği hormon çifti hangisidir?",
+    "options": {
+      "A": "FSH – LH",
+      "B": "GH – Prolaktin",
+      "C": "TSH – hCG",
+      "D": "Prolaktin – FSH",
+      "E": "LH – hCG"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) FSH – LH:** Yanlış. Dimerik glikoprotein hormon ailesidir.\n- **B) GH – Prolaktin:** Doğru. İnsan plasental laktojeni (hPL / Koryonik Somatomammotropin), Büyüme Hormonu (GH) ve Prolaktin (PRL) ile genetik, yapısal (aminoasit homolojisi) ve fonksiyonel olarak **Somatomammotropin ailesini** oluştururlar. Bu üç hormon da tek zincirli polipeptid yapıdadır ve JAK-STAT reseptör ailesini kullanır.\n- **C) TSH – hCG:** Yanlış. Glikoprotein hormon ailesidir.\n- **D) Prolaktin – FSH:** Yanlış. Biri somatomammotropin, diğeri glikoproteindir.\n- **E) LH – hCG:** Yanlış. Glikoprotein hormon ailesidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi prolaktin sekresyonunu artırır?",
+    "options": {
+      "A": "Gonadotropin salgılatıcı hormon",
+      "B": "Tirotropin salgılatıcı hormon",
+      "C": "Kortikotropin salgılatıcı hormon",
+      "D": "Tiroid stimüle edici hormon",
+      "E": "Adrenokortikotropik hormon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Gonadotropin salgılatıcı hormon (GnRH):** Yanlış. Hipfizden LH ve FSH salınımını uyarır.\n- **B) Tirotropin salgılatıcı hormon (TRH):** Doğru. TRH, ön hipofizden TSH salınımını uyardığı gibi aynı zamanda laktotrop hücreleri de uyararak **prolaktin (PRL) sekresyonunu güçlü bir şekilde artırır**. Primer hipotiroidide artan TRH seviyeleri hiperprolaktinemi ve galaktoreye yol açabilir. Prolaktin salınımını fizyolojik olarak en güçlü baskılayan ise Dopamindir (GAP).\n- **C) Kortikotropin salgılatıcı hormon (CRH):** Yanlış. ACTH salınımını uyarır.\n- **D) Tiroid stimüle edici hormon (TSH):** Yanlış. Tiroid bezi hormon sentezini uyarır.\n- **E) Adrenokortikotropik hormon (ACTH):** Yanlış. Adrenal korteks hormon sentezini uyarır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Büyüme hormonu, büyüme uyarıcı periferik etkilerini aşağıdakilerden hangisi aracılığıyla gösterir?",
+    "options": {
+      "A": "İnsülin benzeri büyüme faktörü-1",
+      "B": "Büyüme hormonu salgılatıcı hormon",
+      "C": "Somatostatin",
+      "D": "Prolaktin",
+      "E": "Koryonik somatomammotropin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) İnsülin benzeri büyüme faktörü-1 (IGF-1 / Somatomedin C):** Doğru. Büyüme Hormonu (GH), karaciğer başta olmak üzere hedef dokularda **IGF-1 (Somatomedin C)** sentez ve salınımını uyarır. GH'ın iskelet büyümesi, kıkırdak matris oluşumu, kollajen sentezi ve hücresel proliferasyon gibi büyüme uarıcı ana periferik etkilerinin neredeyse tamamı IGF-1 aracılığıyla gerçekleşir.\n- **B) Büyüme hormonu salgılatıcı hormon (GHRH):** Yanlış. Hipotalamustan GH salınımını uyaran peptiddir.\n- **C) Somatostatin:** Yanlış. GH salınımını inhibe eden peptid değişkendir.\n- **D) Prolaktin:** Yanlış. Süt sentezinden sorumlu hormondur.\n- **E) Koryonik somatomammotropin:** Yanlış. Plasental laktojendir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Somatomedinler ile ilgili hangisi yanlıştır?",
+    "options": {
+      "A": "Çoğunlukla karaciğerde sentezlenir.",
+      "B": "Kollajen ve proteoglikanı artırır.",
+      "C": "Fibroblastlarda mitotik aktiviteyi azaltır.",
+      "D": "Kas ve yağ dokusunda insülin etkisini taklit eder.",
+      "E": "Malabsorpsiyonda sekresyonu azalır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Çoğunlukla karaciğerde sentezlenir:** Doğru. IGF-1'in ana üretim yeri büyüme hormonu uyarısıyla karaciğerdir.\n- **B) Kollajen ve proteoglikanı artırır:** Doğru. Kıkırdak ve kemik matris bileşenlerinin sentezini artırır.\n- **C) Fibroblastlarda mitotik aktiviteyi azaltır:** **Yanlış!** Somatomedinler (IGF-1) güçlü mitojenik faktörlerdir; fibroblastlar, osteoblastlar ve kıkırdak hücrelerinde mitozu ve hücresel bölünmeyi/aktiveyi **artırırlar**.\n- **D) Kas ve yağ dokusunda insülin etkisini taklit eder:** Doğru. Yüksek dozda glukoz alımını ve aminoasit tutulumunu artırarak insülin benzeri etkiler gösterir.\n- **E) Malabsorpsiyonda sekresyonu azalır:** Doğru. Beslenme yetersizliği ve malabsorpsiyonda IGF-1 düzeyleri düşer.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar TUS"
+  },
+  {
+    "question": "Dolaşımda taşıyıcı proteinlere bağlanmadan serbest olarak taşınan hormonların yarılanma ömrü oldukça kısadır. Buna göre, aşağıdakilerden hangisinin yarılanma ömrü diğerlerine göre daha uzundur?",
+    "options": {
+      "A": "IGF-1",
+      "B": "ACTH",
+      "C": "TSH",
+      "D": "İnsülin",
+      "E": "Büyüme hormonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) İnsülin benzeri büyüme faktörü-1 (IGF-1):** Doğru. Genel kural olarak peptid yapılı hormonlar (ACTH, TSH, İnsülin, GH) kanda serbest taşınırlar ve yarılanma ömürleri dakikalarla sınırlı kısa süreçlerdir. **IGF-1 ise bu kuralın istisnasıdır!** IGF-1 kanda özel taşıyıcı proteini olan **IGFBP-3 (İnsülin-like Growth Factor Binding Protein-3)** ve asit-labil subunit ile kompleks oluşturarak taşınır. Bu taşıyıcı protein bağlantısı sayesinde yarılanma ömrü diğer peptid hormonlara kıyasla çok daha uzundur (~12-15 saat).\n- **B) ACTH:** Yanlış. Serbest taşınır, yarı ömrü kısadır (~10 dk).\n- **C) TSH:** Yanlış. Serbest taşınır, yarı ömrü kısadır (~60 dk).\n- **D) İnsülin:** Yanlış. Serbest taşınır, yarı ömrü çok kısadır (~3-5 dk).\n- **E) Büyüme hormonu:** Yanlış. Yarı ömrü yaklaşık 20 dakikadır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ön hipofizde sentezlenmez?",
+    "options": {
+      "A": "b-endorfin",
+      "B": "a-melanosit stimüle edici hormon",
+      "C": "Vazopressin",
+      "D": "Koryonik gonadotropın",
+      "E": "Somatotropin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) b-endorfin:** Yanlış. Ön hipofizde Pro-opiomelanokortin (POMC) proteaz kesimiyle sentezlenir.\n- **B) a-melanosit stimüle edici hormon ($\\alpha$-MSH):** Yanlış. Ön ve orta hipofiz lobunda POMC'den sentezlenir.\n- **C) Vazopressin (Antidiyüretik Hormon - ADH):** Doğru. Vazopressin ve Oksitosin, **hipotalamustaki nöronal çekirdeklerde** (Supraoptik ve Paraventriküler çekirdekler) sentezlenir ve aksonal taşıma ile **arka hipofize (nörohipofiz)** taşınıp depolanır. Ön hipofizde sentezlenmez veya depolanmaz.\n- **D) Koryonik gonadotropin:** Yanlış. Plasentadan sentezlenir (Soru ön hipofizde sentezlenmeyen nörohipofizer peptid olan Vazopressini sorgulamaktadır).\n- **E) Somatotropin (GH):** Yanlış. Ön hipofizin somatotrop hücrelerinde sentezlenir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi büyüme hormonu salınımını inhibe eder?",
+    "options": {
+      "A": "Östrojen",
+      "B": "L-arjinin",
+      "C": "Büyüme hormonu salgılatıcı hormon",
+      "D": "Somatostatin",
+      "E": "Triyodotironin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Östrojen:** Yanlış. GH salınımını stimüle eden faktörlerdendir.\n- **B) L-arjinin:** Yanlış. L-Arjinin aminoasit infüzyonu GH salınımını uyarır (tanı testi olarak kullanılır).\n- **C) Büyüme hormonu salgılatıcı hormon (GHRH):** Yanlış. GH salınımını en güçlü uyaran nöropeptiddir.\n- **D) Somatostatin (SRIF / GHIH):** Doğru. Somatostatin, hipotalamustan ve pankreas $\\delta$ hücrelerinden salgılanan 14 aminoasitlik bir nöropeptiddir. Ön hipofiz somatotrop hücrelerinde $G_i$ proteini ile kenetli reseptörlerine bağlanarak cAMP düzeyini düşürür ve **Büyüme Hormonu (GH) ile TSH salınımını güçlü bir şekilde inhibe (baskı) eder**.\n- **E) Triyodotironin ($T_3$):** Yanlış. Fizyolojik Düzeyde GH sentez ve salınımı için gereklidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 DUS"
+  },
+  {
+    "question": "I. Hipofizden büyüme hormonu salınımının baskılanması\nII. Hipofizde tiroid stimüle edici hormon salınımının uyarılması\nIII. Pankreastan insülin salınımının baskılanması\nHangileri somatostatinin etkilerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **I. Hipofizden büyüme hormonu salınımının baskılanması:** Doğru. Somatostatinin (Büyüme hormonu inhibe edici hormon) primer görevi hipofizden GH salınımını baskılamaktır.\n- **II. Hipofizde tiroid stimüle edici hormon salınımının uyarılması:** **Yanlış.** Somatostatin TSH salınımını uyarmaz, aksine **TSH salınımını da inhibe eder**.\n- **III. Pankreastan insülin salınımının baskılanması:** Doğru. Somatostatin pankreasın evrensel durdurucu (inhibitör) hormonudur; gastrointestinal peptidlerin, Glukagonun ve **İnsülinin** pankreatik salınımını baskılar.\nBu nedenle I ve III öncülleri doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Deride sentezi başlayan D vitamininin öncül formu hangisidir?",
+    "options": {
+      "A": "25-hidroksikolekalsiferol",
+      "B": "24-hidroksikalsidiol",
+      "C": "Kalsitriol",
+      "D": "7-dehidrokolesterol",
+      "E": "Kalsitriol"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) 25-hidroksikolekalsiferol (Kalsidiol):** Yanlış. Karaciğerde 25-hidroksilaz etkisiyle üretilen dolaşımdaki ana depolama formudur.\n- **B) 24-hidroksikalsidiol:** Yanlış. Böbrekte 24a-hidroksilaz ile üretilen inaktif inaktivasyon ürünüdür.\n- **C/E) Kalsitriol ($1,25(OH)_2D_3$):** Yanlış. Böbrekte 1a-hidroksilaz ile üretilen en aktif D vitamini hormonudur.\n- **D) 7-dehidrokolesterol:** Doğru. D vitamini endojen sentezi deride başlar. Derinin epidermis stratum basale/spinosum tabakasında bulunan kolesterol ara ürünü olan **7-dehidrokolesterol**, güneş ışığından gelen **Ultraviyole-B (UV-B)** fotonlarının etkisiyle fotolize uğrayarak Kolekalsiferol ($D_3$ vitamini) molekülüne dönüşür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "25-hidroksikolekalsiferolün 1,25-dihidroksikolekalsiferole dönüşümü hangisinde gerçekleşir?",
+    "options": {
+      "A": "Karaciğer",
+      "B": "Akciğer",
+      "C": "Bağırsak",
+      "D": "Böbrek",
+      "E": "Kas"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Karaciğer:** Yanlış. Karaciğerde Kolekalsiferol, 25-hidroksilaz enzimi ile **25-hidroksikolekalsiferole (Kalsidiol)** çevrilir.\n- **B) Akciğer:** Yanlış.\n- **C) Bağırsak:** Yanlış. Bağırsaklar aktif D vitamininin (Kalsitriol) kalsiyum ve fosfat emilimini uyardığı hedef organdır.\n- **D) Böbrek:** Doğru. Karaciğerden dolaşıma salınan 25-hidroksikolekalsiferol, böbrek proksimal tübül hücrelerine gelir. Burada bulunan **1a-hidroksilaz (CYP27B1)** enzimi ile C-1 pozisyonundan hidroksillenerak en aktif biyolojik form olan **1,25-dihidroksikolekalsiferole ($1,25(OH)_2D_3$ / Kalsitriol)** dönüştürülür.\n- **E) Kas:** Yanlış.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 DUS"
+  },
+  {
+    "question": "Kanda iyonize kalsiyum düzeylerindeki azalmaya bağlı olarak hangisi görülmez?",
+    "options": {
+      "A": "Kemikten kalsiyum mobilizasyonunun artması",
+      "B": "Böbrekte 1a-hidroksilaz aktivitesinin artması",
+      "C": "Böbrek tübüllerinden kalsiyum atılımının azalması",
+      "D": "Bağırsakta kalbindin ekspresyonunun azalması",
+      "E": "Parathormon salınımının artması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Kemikten kalsiyum mobilizasyonunun artması:** Görülür. Hipokalsemi PTH salınımını uyarır; PTH osteoklastik kemik rezorpsiyonunu ve kalsiyum mobilizasyonunu artırır.\n- **B) Böbrekte 1a-hidroksilaz aktivitesinin artması:** Görülür. Artan PTH ve düşük kalsiyum böbrekte 1a-hidroksilazı uyararak aktif D vitamini sentezini artırır.\n- **C) Böbrek tübüllerinden kalsiyum atılımının azalması:** Görülür. PTH böbrek distal tübüllerinden $Ca^{2+}$ geri emilimini artırır, atılımı azaltır.\n- **D) Bağırsakta kalbindin ekspresyonunun azalması:** **Görülmez (Yanlış ifade).** Hipokalsemi sürecinde artan $1,25(OH)_2D_3$ (Kalsitriol), bağırsak epitel hücrelerine giderek kalsiyumu hücre içine bağlayıp taşıyan **Kalbindin** proteininin ekspresyonunu ve sentezini **ARTIRIR** (azaltmaz), böylece diyetle kalsiyum emilimini yükseltir.\n- **E) Parathormon salınımının artması:** Görülür. Paratiroid CaSR reseptörlerinin uyarısız kalmasıyla PTH salınımı hızla artar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisinin kalsiyum metabolizması ve fosfat metabolizması üzerinde bilinen bir etkisi yoktur?",
+    "options": {
+      "A": "Paratiroid hormon",
+      "B": "Kalsitonin",
+      "C": "Östrojenler",
+      "D": "Glukokortikoidler",
+      "E": "Glukagon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Paratiroid hormon:** Yanlış. Kalsiyumu artıran, fosfatı düşüren ana kalsiyotropik hormondur.\n- **B) Kalsitonin:** Yanlış. Kemik rezorpsiyonunu baskılayarak kalsiyumu ve fosfatı düşüren hormondur.\n- **C) Östrojenler:** Yanlış. Osteoklastik aktiviteyi (RANKL bastırarak) ve OPG sentezini artırarak kemik matrisini ve kalsiyumu korur.\n- **D) Glukokortikoidler:** Yanlış. Bağırsaktan $Ca^{2+}$ emilimini baskılar, osteoblastları inhibe eder, renal kalsiyum atılımını artırarak sekonder hiperparatiroidizme yol açar.\n- **E) Glukagon:** Doğru. Glukagon pankreas $\\alpha$ hücrelerinden salgılanan, karaciğerde glikojenoliz ve glukoneogenezi uyararak kan şekerini yükselten bir regülatördür; kalsiyum ve fosfat metabolizması üzerinde bilinen fizyolojik bir düzenleyici etkisi yoktur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi paratiroid hormonun etkilerinden biri değildir?",
+    "options": {
+      "A": "Böbreklerden kalsiyum geri emilimini artırma",
+      "B": "Böbreklerde 1a hidroksilasyonunu artırma",
+      "C": "Böbreklerden fosfat geri emilimini artırma",
+      "D": "Plazma kalsiyum seviyesini artırma",
+      "E": "Kemikte osteoklastik rezorpsiyonu artırma"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) Böbreklerden kalsiyum geri emilimini artırma:** Doğru. PTH proksimal/distal tübüllerden kalsiyum emilimini artırır.\n- **B) Böbreklerde 1a hidroksilasyonunu artırma:** Doğru. PTH 1a-hidroksilazı uyararak aktif D vitamini sentezletir.\n- **C) Böbreklerden fosfat geri emilimini artırma:** **Yanlış (PTH etkisi değildir).** Parathormon (PTH), böbrek proksimal tübüllerinde bulunan Sodyum-Fosfat kotransporterini (NPT2) inhibe ederek **fosfat geri emilimini AZALTIR** ve idrarla fosfat atılımına (**fosfatüri**) neden olur. Böylece kanda fosfat düzeyini düşürür (kan kalsiyum-fosfat çarpımının çökmesini engeller).\n- **D) Plazma kalsiyum seviyesini artırma:** Doğru. Temel amacı plazma $Ca^{2+}$ seviyesini yükseltmektir.\n- **E) Kemikte osteoklastik rezorpsiyonu artırma:** Doğru. Osteoblastlardan RANKL salgılatıp osteoklastları aktive ederek kemiği yıkar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "PTH kemik etkisi hangisidir?",
+    "options": {
+      "A": "Osteoblastların aktivite ve proliferasyonunu azaltmak",
+      "B": "Osteoblastların aktivitesini ve proliferasyonunu artırmak",
+      "C": "Osteositleri inaktive etmek",
+      "D": "Kemikteki kollajenaz ve jelatinazı inhibe etmek",
+      "E": "Kemiklerde asit fosfatazı inhibe etmek"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Osteoblastların aktivite ve proliferasyonunu azaltmak:** Yanlış.\n- **B) Osteoblastların aktivitesini ve proliferasyonunu artırmak:** Doğru. Parathormon (PTH) reseptörleri osteoklastlar üzerinde **bulunmaz**; doğrudan **osteoblastlar** üzerinde yer alır. PTH, ilk olarak osteoblastların aktivite ve proliferasyonunu artırarak osteoblastlardan **RANKL (Receptor Activator of Nuclear Factor kB Ligand)** ekspresyonunu uyarır ve Osteoprotegerin (OPG) düzeyini düşürür. RANKL daha sonra kemik yıkan osteoklastların öncüllerine bağlanarak osteoklast matürasyonunu ve kemik rezorpsiyonunu artırır. Intermittent (aralıklı) verilen PTH ise kemik yapımını uyarır (teriparatid tedavisi).\n- **C) Osteositleri inaktive etmek:** Yanlış. Osteositler üzerinden de kalsiyum mobilizasyonu gerçekleşir.\n- **D) Kemikteki kollajenaz ve jelatinazı inhibe etmek:** Yanlış. Matris yıkımı için bu enzimleri dolaylı olarak uyarır.\n- **E) Kemiklerde asit fosfatazı inhibe etmek:** Yanlış. Osteoklastlar asit fosfataz (TRAP) salgılayarak kemiği yıkar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hipokalsemi kliniğinde görülen tipik bir bulgudur?",
+    "options": {
+      "A": "Letarji",
+      "B": "Parmaklarda parestezi",
+      "C": "Artmış kırık riski",
+      "D": "QT intervalinde kısalma",
+      "E": "Konstipasyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Letarji:** Yanlış. Hiperkalsemi bulgusudur (santral sinir sistemi depresyonu).\n- **B) Parmaklarda parestezi:** Doğru. Hipokalsemide kalsiyum iyonlarının azalması nöronal sodyum kanallarının eşiğini düşürür ve nöromüsküler nöro-eksitabiliteyi (aşırı uyarılabilirliği) artırır. Bunun sonucunda perioral (ağız çevresi) ve **parmaklarda parestezi (karıncalanma, uyuşma)**, karpopedal spazm, Chvostek (+) ve Trousseau (+) belirtileri, tetani ve kramplar görülür.\n- **C) Artmış kırık riski:** Yanlış. Kronik osteoporoz/hiperparatiroidizmde belirgindir.\n- **D) QT intervalinde kısalma:** Yanlış. Hipokalsemide EKG'de **QT intervali uzar**; QT kısalması ise hiperkalsemide görülür.\n- **E) Konstipasyon:** Yanlış. Düz kas tonusu azalması sonucu hiperkalsemide konstipasyon görülür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar DUS"
+  },
+  {
+    "question": "Kırk beş yaşındaki kadın hasta, şiddetli bel ağrısı şikayetiyle hastaneye başvuruyor. Yapılan değerlendirmelerde vertebralarların ikisinde kompresyon kırığı ve erken osteoporoz ile uyumlu bulgular saptanıyor. Beraberinde böbreğinde bir kaç adet taş tespit edilen hastanın kan kalsiyum düzeylerinin de normal aralığın üstünde olduğu saptanıyor. Bu hastada aşağıdaki bez/organlardan hangisinin patolojisine bağlı bir hormon bozukluğunun olması en olasıdır?",
+    "options": {
+      "A": "Adrenal bez",
+      "B": "Pankreas",
+      "C": "Hipotalamus",
+      "D": "Paratiroid bezi",
+      "E": "Tiroid bezi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Adrenal bez:** Yanlış. Glukokortikoid fazlalığı osteoporoz yapabilir ancak kanda aşırı hiperkalsemi ve tekrarlayan böbrek taşlarının birincil sebebi değildir.\n- **B) Pankreas:** Yanlış. İnsülin/glukagon bozuklukları klasik kemik yıkımı ve böbrek taşı üçlüsü oluşturmaz.\n- **C) Hipotalamus:** Yanlış.\n- **D) Paratiroid bezi:** Doğru. Tablo klasik **Primer Hiperparatiroidizm** tablosudur (\"Kemik ağrıları/kırıklar, böbrek taşları, abdominal ağrılar ve psişik şikayetler - Bones, Stones, Groans, Moans\"). Paratiroid adenomu/hiperplazisi sonucu aşırı salgılanan PTH; kemik rezorpsiyonunu artırarak patolojik kırıklar ve osteoporoza, hiperkalsemi ve hiperkalsiüriye yol açarak nefrolitiyaza (böbrek taşlarına) neden olur.\n- **E) Tiroid bezi:** Yanlış. Kalsitonin hiperkalsemi yapmaz, düşürür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi glukokortikoidlerin doğrudan etkileri arasında yer almaz?",
+    "options": {
+      "A": "Glukoneogenezin artması",
+      "B": "Kalsiyum metabolizmasının düzenlenmesi",
+      "C": "Protein metabolizmasının artması",
+      "D": "İmmün yanıtın baskılanması",
+      "E": "Karaciğerde glikojen depolanması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Glukoneogenezin artması:** Doğru. Kortizol karaciğerde glukoneojenik enzimleri (PEPCK vb.) indükleyerek glukoneogenezi güçlü bir şekilde artırır.\n- **B) Kalsiyum metabolizmasının düzenlenmesi:** **Doğru Cevap (Glukokortikoidlerin doğrudan görevi değildir).** Kalsiyum metabolizmasını doğrudan düzenleyen ana kalsiyotropik hormonlar PTH, D vitamini (Kalsitriol) ve Kalsitonindir. Glukokortikoidler yüksek dozda/patolojik olarak bağırsaktan $Ca^{2+}$ emilimini bozsa ve osteoporoz yapsa da fizyolojik kalsiyum regülatörü hormon değillerdir.\n- **C) Protein katabolizmasının artması:** Doğru. Kas ve periferik dokularda protein yıkımını artırarak aminoasitleri karaciğere yönlendirir.\n- **D) İmmün yanıtın baskılanması:** Doğru. İltihabi sitokinleri ($IL-1, IL-6, TNF-\\alpha$), fosfolipaz A2'yi (lipokortin üzerinden) ve T-hücre aktivasyonunu baskılar.\n- **E) Karaciğerde glikojen depolanması:** Doğru. Kortizol karaciğerde anabolik etki gösterir; Glikojen sentazı aktifleyerek karaciğerde glikojen depolarını artırır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kortizolün metabolik etkilerinden biri değildir?",
+    "options": {
+      "A": "Yağ dokusunda trigliserid yıkımının artması",
+      "B": "Kasta protein yıkımının artması",
+      "C": "Karaciğerde glukoneogenezin artması",
+      "D": "Karaciğerde glikojen yıkımının artması",
+      "E": "Kanda glukoz düzeyinin artması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Yağ dokusunda trigliserid yıkımının artması:** Doğru. Adipoz dokuda lipolizi ve serbest yağ asidi salınımını uyarır.\n- **B) Kasta protein yıkımının artması:** Doğru. Çizgili kasta proteolizis yaparak glukoneogenez için aminoasit ($Ala$) sağlar.\n- **C) Karaciğerde glukoneogenezin artması:** Doğru. Glikoz üretimini artırır.\n- **D) Karaciğerde glikojen yıkımının artması:** **Yanlış (Kortizol etkisi değildir).** Kortizol karaciğerde katabolik değil, **anaboliktir**. Karaciğerde glikojen fosforilazı bastırıp Glikojen Sentazı aktifleyerek karaciğerde **glikojen sentezini ve depolanmasını artırır** (glikojen yıkımını yapan esas hormon Glukagondur).\n- **E) Kanda glukoz düzeyinin artması:** Doğru. Diyabetojenik bir hormon olup kan şekerini yükseltir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 DUS"
+  },
+  {
+    "question": "Obez ve diyabetik hastalarda kandaki düzeyi azalan, hipotalamusta besin alımını uyararak insüline duyarlılığı artırıcı ve inflamasyon cevabını baskılayıcı özellikleri de olan hormon hangisidir?",
+    "options": {
+      "A": "Ghrelin",
+      "B": "Leptin",
+      "C": "Nöropeptid Y",
+      "D": "Adiponektin",
+      "E": "Kolesistokinin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) Ghrelin:** Yanlış. Mideden salgılanan iştah artırıcı (oreksijenik) açlık hormonudur.\n- **B) Leptin:** Yanlış. Yağ dokusundan salgılanır, obezitede düzeyi artar (leptin direnci gelişir).\n- **C) Nöropeptid Y:** Yanlış. Hipotalamusta iştahı güçlü şekilde artıran nöropeptiddir.\n- **D) Adiponektin:** Doğru. Adipoz dokudan salgılanan Adiponektin, **obezite, Tip 2 diyabet ve koroner arter hastalığında kandaki düzeyi azalan (paradoksal olarak düşen) tek adipokindir**. Kas ve karaciğerde AMPK ve PPAR-$\\alpha$'yı aktifleyerek insülin duyarlılığını artırır, anti-inflamatuvar, anti-aterosklerotik ve anti-apoptotik etkiler gösterir.\n- **E) Kolesistokinin (CCK):** Yanlış. Duodenumdan salgılanan tokluk hissi oluşturan sindirim hormonudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki peptid yapılı hormonlardan hangisi kas ve karaciğerde glukoz ve lipid metabolizmasını modüle eder ve insüline dokuların duyarlılığını artırır?",
+    "options": {
+      "A": "Adiponektin",
+      "B": "Ghrelin",
+      "C": "Leptin",
+      "D": "İrisin",
+      "E": "Nöropeptid Y"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Adiponektin:** Doğru. Adiponektin, AdipoR1 ve AdipoR2 reseptörleri üzerinden AMPK'yı (AMP-aktive Protein Kinaz) aktifleştirir. Karaciğerde glukoneogenezi baskılar, kasta glukoz tutulumunu ve yağ asidi beta-oksidasyonunu uyarır. Böylece dokularda insülin duyarlılığını en güçlü artıran adipokindir.\n- **B) Ghrelin:** Yanlış. Mideden salgılanır, büyüme hormonu salgılatır ve iştah açar.\n- **C) Leptin:** Yanlış. Yağ dokusundan salgılanarak doygunluk sinyali verir; obezitede direnç gelişir.\n- **D) İrisin:** Yanlış. Egzersizle kasta PGC-1$\\alpha$ uyarısıyla üretilen, beyaz yağ dokusunu kahverengi yağ dokusuna (browning) dönüştüren myokindir.\n- **E) Nöropeptid Y:** Yanlış. Hipotalamustan salgılanan iştah uyarıcı peptiddir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar TUS"
+  },
+  {
+    "question": "Tiroglobulinden tiroid hormonlarının salınımı aşağıdakilerin hangisinde gerçekleşir?",
+    "options": {
+      "A": "Lizozom",
+      "B": "Kolloid",
+      "C": "Çekirdek",
+      "D": "Endoplazmik retikulum",
+      "E": "Sitoplazma"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Lizozom:** Doğru. Tiroid hormon sentezinde iyotlu Tiroglobulin ($Tg$) folikül lümenindeki kolloidde depolanır. TSH uyarısıyla tiroid folikül hücresi kolloidi pinositoz/endositoz ile hücre içine alır. Hücre içindeki endozomlar **lizozomlar** ile birleşir (fagolizozom/endolizozom). Lizozomal proteazlar (Katepsinler) Tiroglobulindeki peptid bağlarını hidrolize ederek serbest **$T_3$ ve $T_4$** moleküllerini açığa çıkarır. Serbest $T_3/T_4$ basal membrandan kana verilir.\n- **B) Kolloid:** Yanlış. İyotlama ve $MIT/DIT$ kenetlenme reaksiyonlarının (depolamanın) gerçekleştiği lümendir.\n- **C) Çekirdek:** Yanlış. Tiroid hormonlarının etki ettiği nükleer alandır.\n- **D) Endoplazmik retikulum:** Yanlış. Tiroglobulin protein zincirinin sentez yeridir.\n- **E) Sitoplazma:** Yanlış. Hidroliz aşaması spesifik olarak lizozom organelinde olur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Tiroid hormonları sentezinde aşağıdakilerden hangisinin rolü yoktur?",
+    "options": {
+      "A": "Na-I simporter",
+      "B": "H2O2",
+      "C": "Tiroglobulin",
+      "D": "Tiroperoksidaz",
+      "E": "3-deiyodinaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Na-I simporter (NIS):** Yanlış. İyodun kandan folikül hücresine sekonder aktif transport ile alınmasını sağlar.\n- **B) H2O2:** Yanlış. DUOX-2 enzimi tarafından üretilir; Tiroperoksidazın iyodu okside etmesi için kofaktördür.\n- **C) Tiroglobulin:** Yanlış. Tiroid hormonlarının sentezlendiği protein omurgasıdır.\n- **D) Tiroperoksidaz (TPO):** Yanlış. İyodun oksidasyonu, iyodizasyon (organifikasyon) ve $MIT+DIT$ birleşmesini katalizleyen ana kilit enzimdir.\n- **E) 3-deiyodinaz / Tip 3 Deiyodinaz:** Doğru. Sentez aşamasında rol oynamaz. Periferik dokularda $T_4$'ü inaktif **reverse $T_3$ ($rT_3$)** formuna dönüştüren inaktivasyon enzimidir. Sentezde ve $T_4 \\rightarrow T_3$ aktifleşmesinde ise **5'-deiyodinaz (Tip 1 ve Tip 2 deiyodinaz)** görev alır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Tiroid hormonlarıyla ilgili hangi ifade yanlıştır?",
+    "options": {
+      "A": "TSH, tiroid hormonlarının sentez ve salınımını uyarır.",
+      "B": "T3 ve T4, tiroglobulinden sentezlenir.",
+      "C": "T3 ve T4, kanda tiroksin bağlayıcı globuline bağlanarak taşınır.",
+      "D": "Tiroid hormonları polipeptid yapısındadır.",
+      "E": "Tiroid hormonları nükleer reseptörlere bağlanarak işlev görür."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n- **A) TSH, tiroid hormonlarının sentez ve salınımını uyarır:** Doğru. Ön hipofizden salgılanan TSH tüm sentez adımlarını hızlandırır.\n- **B) T3 ve T4, tiroglobulinden sentezlenir:** Doğru. Tiroglobulin üzerindeki tirozin rezidülerinin iyotlanmasıyla sentezlenir.\n- **C) T3 ve T4, kanda tiroksin bağlayıcı globuline bağlanarak taşınır:** Doğru. Kanda %99'dan fazlası TBG (Tiroksin Bağlayıcı Globulin), Albümin ve Transtiretin (TBPA) ile taşınır.\n- **D) Tiroid hormonları polipeptid yapısındadır:** **Yanlış!** Tiroid hormonları ($T_3, T_4$) polipeptid/protein yapıda değildir; **iyotlanmış tirozin aminoasit türevleridir (biyojenik amin türevi)**.\n- **E) Tiroid hormonları nükleer reseptörlere bağlanarak işlev görür:** Doğru. Çekirdekteki TR reseptörlerine bağlanır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 EUS"
+  },
+  {
+    "question": "T4 hormonunun T3 hormonuna deiyodinasyonu için aşağıdakilerden hangisi gereklidir?",
+    "options": {
+      "A": "Selenosistein",
+      "B": "S-adenozilmetionin",
+      "C": "Molibden",
+      "D": "Tetrahidrobiopterin",
+      "E": "NADP"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Selenosistein (21. Aminoasit):** Doğru. Periferik dokularda ön-hormon olan $T_4$'ün (Tiroksin) daha aktif form olan $T_3$'e (Triyodotironin) dönüşümünü katalizleyen **5'-deiyodinaz (Tip 1 ve Tip 2 deiyodinaz)** enzimlerinin aktif merkezinde **Selenosistein (Se)** yer alır. Selenyum eksikliğinde bu deiyodinizasyon bozulur.\n- **B) S-adenozilmetionin (SAM):** Yanlış. Metil grubu vericisidir (metilasyon reaksiyonları).\n- **C) Molibden:** Yanlış. Ksantin oksidaz ve Sülfit oksidazın kofaktörüdür.\n- **D) Tetrahidrobiopterin ($BH_4$):** Yanlış. Tirozin, Fenilalanin ve Triptofan hidroksilazların kofaktörüdür.\n- **E) NADP:** Yanlış. Redüksiyon reaksiyonları taşıyıcısıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Zona glomerülozada lokalize olan ve aldosteron sentezi üzerinde etkili mitokondriyal enzim hangisidir?",
+    "options": {
+      "A": "17a-hidroksilaz",
+      "B": "17,20-liyaz",
+      "C": "21-hidroksilaz",
+      "D": "11b-hidroksilaz",
+      "E": "18-hidroksilaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) 17a-hidroksilaz:** Yanlış. Zona fasikülata ve retikülariste bulunur; Zona glomerülozada **yoktur**.\n- **B) 17,20-liyaz:** Yanlış. Androjen sentezinde görev yapar.\n- **C) 21-hidroksilaz:** Yanlış. Düz ER zarında yer alan bir enzimdir.\n- **D) 11b-hidroksilaz:** Yanlış. Kortikosteronu oluşturur.\n- **E) 18-hidroksilaz (Aldosteron Sentaz / CYP11B2):** Doğru. Adrenal korteksin en dış tabakası olan **Zona Glomerulosa**, sadece kendisine özgü olan mitokondriyal **18-hidroksilaz (Aldosteron Sentaz)** enzimini içerir. Bu enzim Kortikosteronu 18-hidroksikortikosterona ve ardından Aldosterona dönüştürür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "Kortizol sentezi için gerekli olan, adrenal korteksin zona fasikülata tabakasında bulunup zona glomerüloza tabakasında bulunmayan enzim hangisidir?",
+    "options": {
+      "A": "p450scc",
+      "B": "11b-hidroksilaz",
+      "C": "17a-hidroksilaz",
+      "D": "21-hidroksilaz",
+      "E": "18-hidroksilaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) p450scc (Desmolaz):** Yanlış. Tüm adrenal korteks tabakalarında kolesterolü pregnenolona çeviren ortak hız kısıtlayıcı enzimdir.\n- **B) 11b-hidroksilaz:** Yanlış. Glomerüloza ve fasikülatada ortaktır.\n- **C) 17a-hidroksilaz (CYP17A1):** Doğru. Adrenal kortekste **17a-hidroksilaz** enzimi Zona Fasikülata (kortizol) ve Zona Retikülaris (androjen) tabakalarında bulunur ancak **Zona Glomeruloza tabakasında bulunmaz!** Bu yüzden Zona glomerüloza 17-hidroksillenmiş steroidleri (kortizol/DHEA) sentezleyemez, sadece 17-hidroksil grubu içermeyen Mineralokortikoidleri (Aldosteron) sentezler.\n- **D) 21-hidroksilaz:** Yanlış. Glomerüloza ve fasikülatada ortaktır.\n- **E) 18-hidroksilaz:** Yanlış. Sadece Zona glomerülozada bulunur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Adrenal bezde aşağıdaki enzimlerden hangisinin eksikliği mineralokortikoid, glukokortikoid ve androjen hormonlarının sentezini bozar?",
+    "options": {
+      "A": "21-alfa-hidroksilaz",
+      "B": "11-beta-hidroksilaz",
+      "C": "5-alfa-redüktaz",
+      "D": "3-b-hidroksisteroid dehidrogenaz",
+      "E": "17-alfa-hidroksilaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\nAdrenal kortekste 3 ana tabakada ortak olarak görev yapan enzimler **Desmolaz (p450scc)** ve **3-$\\beta$-hidroksisteroid dehidrogenaz (3$\\beta$-HSD)** enzimleridir.\n- **A) 21-alfa-hidroksilaz eksikliği:** Sadece mineralokortikoid ve glukokortikoid sentezini bozar; androjenler aşırı artar (en sık KAH sebebi).\n- **B) 11-beta-hidroksilaz eksikliği:** Mineralokortikoid ve glukokortikoid yolunu bozar; androjenler artar.\n- **C) 5-alfa-redüktaz eksikliği:** Sadece periferde testosteronun DHT'ye dönüşümünü bozar.\n- **D) 3-b-hidroksisteroid dehidrogenaz (3$\\beta$-HSD) eksikliği:** Doğru. Steroidogenezin ilk basamaklarında Pregnenolon $\\rightarrow$ Progesteron, 17-OH Pregnenolon $\\rightarrow$ 17-OH Progesteron ve DHEA $\\rightarrow$ Androstenedion adımlarını katalizler. Eksikliğinde **her 3 tabakanın da (mineralokortikoid, glukokortikoid ve seks steroidleri) sentezi ağır şekilde bozulur** (tuz kaybı, kuşkulu genitalya).\n- **E) 17-alfa-hidroksilaz eksikliği:** Glukokortikoid ve androjen sentezini bozar, ancak mineralokortikoidler (kortikosteron/DOC) aşırı artar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "Androstenedionu östrona dönüştüren enzim hangisidir?",
+    "options": {
+      "A": "Aromataz",
+      "B": "18-hidroksilaz",
+      "C": "Desmolaz",
+      "D": "3b-hidroksisteroid dehidrogenaz",
+      "E": "5a-redüktaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n- **A) Aromataz (CYP19A1):** Doğru. **Aromataz**, 19 karbonlu androjenlerin (Androstenedion ve Testosteron) A halkasını aromatize ederek (fenolik halkaya dönüştürerek) 18 karbonlu östrojenlere dönüştürülmesini sağlar:\n  - Androstenedion $\\xrightarrow{\\text{Aromataz}}$ Östron ($E_1$)\n  - Testosteron $\\xrightarrow{\\text{Aromataz}}$ Östradiol ($E_2$)\n- **B) 18-hidroksilaz:** Yanlış. Aldosteron sentezinde görev alır.\n- **C) Desmolaz:** Yanlış. Kolesterolü pregnenolona dönüştürür.\n- **D) 3b-hidroksisteroid dehidrogenaz:** Yanlış. 3-OH grubunu ketona çevirir.\n- **E) 5a-redüktaz:** Yanlış. Testosteronu Dihidrotestosterona (DHT) çevirir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Testosteronun dihidrotestosterona dönüşümünü sağlayan enzim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "21a-hidroksilaz",
+      "B": "11b-hidroksilaz",
+      "C": "3b-hidroksisteroid dehidrogenaz",
+      "D": "18a-hidroksilaz",
+      "E": "5a-redüktaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) 21a-hidroksilaz:** Yanlış. Adrenal kortekste kortizol ve aldosteron sentezinde görev alır.\n- **B) 11b-hidroksilaz:** Yanlış. Adrenal kortekste kortikosteron ve 11-deoksikortizol hidroksilasyonunda görev alır.\n- **C) 3b-hidroksisteroid dehidrogenaz:** Yanlış. Erken steroid sentez adımlarında görev alır.\n- **D) 18a-hidroksilaz:** Yanlış. Aldosteron sentaz bileşenidir.\n- **E) 5a-redüktaz:** Doğru. Testosteron, hedef dokularda (prostat, dış genital organlar, saç folikülleri) **5a-redüktaz (Tip 1 ve Tip 2)** enzimi aracılığıyla çok daha güçlü (androjen reseptör afinitesi yüksek) bir androjen olan **Dihidrotestosterona (DHT)** dönüştürülür. 5a-redüktaz inhibitörleri (finasterid, dutasterid) BPH ve androgenetik alopesi tedavisinde kullanılır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 EUS"
+  },
+  {
+    "question": "I. Progesteron\nII. Testosteron\nIII. Östradiol\nYukarıdaki hormonların karbon atomlarının sayısı dikkate alındığında, büyükten küçüğe doğru sıralama nasıl olmalıdır?",
+    "options": {
+      "A": "I – II – III",
+      "B": "I – III – II",
+      "C": "II – III – I",
+      "D": "III – I – II",
+      "E": "III – II – I"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\nSteroid hormonların yapısındaki karbon atomu sayıları sınıflandırması:\n- **I. Progesteron (ve Glukokortikoidler / Mineralokortikoidler):** **21 Karbonlu ($C_{21}$ - Pregnan türevleri)**\n- **II. Testosteron (ve tüm Androjenler):** **19 Karbonlu ($C_{19}$ - Androstan türevleri)**\n- **III. Östradiol (ve tüm Östrojenler):** **18 Karbonlu ($C_{18}$ - Östran türevleri)**\n*(Not: Kolesterol 27C, Safra asitleri 24C'dir).*\nBüyükten küçüğe doğru sıralama **21C > 19C > 18C** yani **I – II – III** şeklindedir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Adrenal medullada, tirozinden epinefrin senteziyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hız kısıtlayıcı basamak, tirozin hidroksilaz tarafından katalizlenir.",
+      "B": "Epinefrin, norepinefrinin N-metilasyonu ile sentezlenir.",
+      "C": "Sentezde piridoksal fosfat, askorbik asit ve tetrahidrobiopterin gereklidir.",
+      "D": "Sentezin ikinci basamağı, dopamin b-hidroksilaz ile katalizlenir.",
+      "E": "Kortizol, norepinefrinden epinefrin oluşumunu sağlayan enzimin sentezini artırır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\nAdrenal medullada Katekolamin sentez adımları:\n1. **1. Basamak:** Tirozin $\\xrightarrow{\\text{Tirozin Hidroksilaz (BH4)}} L\\text{-DOPA}$ (Hız kısıtlayıcı basamak)\n2. **2. Basamak:** $L\\text{-DOPA} \\xrightarrow{\\text{Dopa Dekarboksilaz (PLP/B6)}} \\text{Dopamin}$\n3. **3. Basamak:** $\\text{Dopamin} \\xrightarrow{\\text{Dopamin }\\beta\\text{-hidroksilaz (C vit, Cu)}} \\text{Norepinefrin}$\n4. **4. Basamak:** $\\text{Norepinefrin} \\xrightarrow{\\text{PNMT (SAM, Kortizol indükler)}} \\text{Epinefrin}$\n\nAçıklamalar:\n- **A) Hız kısıtlayıcı basamak, tirozin hidroksilaz tarafından katalizlenir:** Doğru.\n- **B) Epinefrin, norepinefrinin N-metilasyonu ile sentezlenir:** Doğru. PNMT enzimi SAM kullanarak N-metilasyon yapar.\n- **C) Sentezde piridoksal fosfat, askorbik asit ve tetrahidrobiopterin gereklidir:** Doğru. (1. basamakta $BH_4$, 2. basamakta B6/PLP, 3. basamakta C vitamini kullanılır).\n- **D) Sentezin ikinci basamağı, dopamin b-hidroksilaz ile katalizlenir:** **Yanlış!** Sentezin 2. basamağı $L\\text{-DOPA} \\rightarrow \\text{Dopamin}$ reaksiyonudur ve **Dopa Dekarboksilaz** tarafından katalizlenir. Dopamin $\\beta$-hidroksilaz ise 3. basamakta görev alır.\n- **E) Kortizol, norepinefrinden epinefrin oluşumunu sağlayan enzimin sentezini artırır:** Doğru. Adrenal korteksten gelen kortizol, medulladaki PNMT enziminin gen ekspresyonunu indükler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Tirozin hidroksilaz enzimiyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kofaktör olarak tetrahidrobiopterine ihtiyaç duyar.",
+      "B": "Görev aldığı yolun hız kısıtlayıcı basamağını katalizler.",
+      "C": "Katekolaminler tarafından inhibe edilir.",
+      "D": "Reaksiyonda moleküler oksijene gerek duyar.",
+      "E": "Reaksiyonda ürün olarak feniletanolamin oluşur."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n- **A) Kofaktör olarak tetrahidrobiopterine ihtiyaç duyar:** Doğru. Kofaktörleri $BH_4$, $O_2$ ve $Fe^{2+}$'dir.\n- **B) Görev aldığı yolun hız kısıtlayıcı basamağını katalizler:** Doğru. Katekolamin biyosentezinin hız kısıtlayıcı adımıdır.\n- **C) Katekolaminler tarafından inhibe edilir:** Doğru. Son ürün olan son ürünler (Dopamin, Norepinefrin, Epinefrin) negatif feedback ile tirozin hidroksilazı ve $\\alpha$-metiltirozin ilacı enzimi inhibe eder.\n- **D) Reaksiyonda moleküler oksijene gerek duyar:** Doğru. Bir monooksijenazdır, $O_2$ kullanılır.\n- **E) Reaksiyonda ürün olarak feniletanolamin oluşur:** **Yanlış!** Tirozin hidroksilazın ürünü **$L\\text{-DOPA}$ (L-3,4-dihidroksifenilalanin)** molekülüdür. Feniletanolamin N-metiltransferaz (PNMT) ise yolun en sonundaki enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisinin sentezinde C vitamini koenzim olarak görev görür?",
+    "options": {
+      "A": "Dopamin",
+      "B": "Noradrenalin",
+      "C": "Tiroksin",
+      "D": "Triyodotironin",
+      "E": "Serotonin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) Dopamin:** Yanlış. L-DOPA dekarboksilasyonu ile sentezlenir (B6 vitamini gereklidir).\n- **B) Noradrenalin (Norepinefrin):** Doğru. Dopaminin Noradrenalina dönüşümünü katalizleyen **Dopamin $\\beta$-hidroksilaz** enzimi bakır ($Cu^{2+}$) içeren bir enzimdir ve kofaktör/indirgeyici ajan olarak **C vitamini (Askorbik Asit)** kullanır.\n- **C/D) Tiroksin / Triyodotironin:** Yanlış. Tiroid peroksidaz ve $H_2O_2$ gerektirir.\n- **E) Serotonin:** Yanlış. Triptofan hidroksilaz ($BH_4$) ve DOPA dekarboksilaz (B6) gerektirir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi dopaminin yıkım ürünüdür?",
+    "options": {
+      "A": "L-dopa",
+      "B": "Normetanefrin",
+      "C": "Homovanilik asit",
+      "D": "Vanilmandelik asit",
+      "E": "5-hidroksiindol asetik asit"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n- **A) L-dopa:** Yanlış. Dopamin sentez öncülüdür.\n- **B) Normetanefrin:** Yanlış. Norepinefrinin COMT ile yıkım ara ürünüdür.\n- **C) Homovanilik asit (HVA):** Doğru. Dopaminin monoamin oksidaz (MAO) ve katekol-O-metiltransferaz (COMT) enzimleri ile yıkımı sonucu oluşan son metabolik **katabolit ürün Homovanilik Asit'tir (HVA)**. Parkinsonda ve nöroblastomda HVA düzeyleri takip edilir.\n- **D) Vanilmandelik asit (VMA):** Yanlış. Norepinefrin ve Epinefrinin son katabolit/yıkım ürünü VMA'dır.\n- **E) 5-hidroksiindol asetik asit (5-HIAA):** Yanlış. Serotoninin son yıkım ürünüdür (karsinoid sendromda idrarda artar).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Adrenal medulla kromaffin hücre tümörlerinin tanısında 24 saatlik idrarda hangisi ölçülür?",
+    "options": {
+      "A": "D vitamini",
+      "B": "Vanilmandelik asit",
+      "C": "L-dopa",
+      "D": "17-ketosteroid",
+      "E": "İndol asetik asit"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n- **A) D vitamini:** Yanlış. Kalsiyum/kemik bozukluklarında bakılır.\n- **B) Vanilmandelik asit (VMA) / Metanefrinler:** Doğru. Adrenal medulla kromaffin hücre tümörü olan **Feokromositomada** aşırı miktarda Epinefrin ve Norepinefrin salgılanır. Bu katekolaminlerin COMT ve MAO tarafından yıkılması sonucu oluşan **Metanefrin, Normetanefrin ve Vanilmandelik Asit (VMA)** düzeyleri 24 saatlik idrarda belirgin olarak yüksek bulunur ve tanıda kullanılır.\n- **C) L-dopa:** Yanlış.\n- **D) 17-ketosteroid:** Yanlış. Adrenal androjen yıkım ürünleridir.\n- **E) İndol asetik asit:** Yanlış.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 8 - HORMONLAR",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  }
+]

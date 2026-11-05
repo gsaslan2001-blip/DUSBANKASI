@@ -1,0 +1,495 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi Eagle sendromu teşhisinde kullanılabilecek yöntemlerden biri değildir?",
+    "options": {
+      "A": "Panoramik radyografide uzamış styloid proses",
+      "B": "Kafanın yana hareketi sırasında ağrı",
+      "C": "Solunum güçlüğü",
+      "D": "Tonsillektomi hikayesi",
+      "E": "Yutkunma sırasında servikofaringeal ağrı *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A, B, D ve E şıkları:** Eagle sendromu, stiloid prosesin uzaması (> 30 mm) veya stilohiyoid ligamanın kalsifikasyonudur. Tonsillektomi sonrası skarın prosesi çekmesiyle tetiklenir; yutkunmada batma, başı çevirirken karotis irritasyonuna bağlı servikal ağrı ve radyografide uzamış stiloid proses tipik bulgulardır.\n  * **C şıkkı (Solunum Güçlüğü / Doğru Cevap):** Stiloid proses orofarenks lateralindedir; larenks lümenini kapatacak veya hava yolunu tıkayacak bir bası oluşturmaz, dolayısıyla dispne ve solunum güçlüğü Eagle sendromunun bir bulgusu değildir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2014 Orijinal",
+    "q_num": 280,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Eagle sendromunun klinik tanısında tonsiller fossanın palpasyonunda ağrının tetiklenmesi durumunda hangi lokal tanısal test uygulanabilir?",
+    "options": {
+      "A": "Faringeal bölgeye lokal anestezik infiltrasyonu ile ağrının geçici olarak kaybolması",
+      "B": "Ağız içine gliserin damlatılması",
+      "C": "Dil altına nitrogliserin verilmesi",
+      "D": "Tonsil içine alkol enjeksiyonu",
+      "E": "Submandibular duktusa sialografi kontrast maddesi verilmesi *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Tonsiller fossada uzamış stiloid proses ucu palpe edildiğinde şiddetli ağrı duyulur. Bu alana 1-2 ml lokal anestezik enjeksiyonu yapıldığında hastanın ağrısının anında kesilmesi tanısal test olarak kabul edilir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 281,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ameloblastoma nedeniyle hemimandibulektomi uygulanan 18 yaşındaki bir hastada artiküler eklem yüzeyinin de dahil olduğu sert doku rekonstrüksiyonunda en uygun otojen greft aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İliak krest kemik grefti",
+      "B": "Kalvaryal kemik grefti",
+      "C": "Kostokondral greft",
+      "D": "Bukkal yağ dokusu",
+      "E": "Temporal kas flebi *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **C şıkkı (Kostokondral Greft / Doğru Cevap):** Kondil ve ramus rekonstrüksiyonunda kıkırdak ucu glenoid fossa ile psödo-eklem oluşturacak artiküler uyuma sahip olan, kemik gövdesi ise ramus yüksekliğini sağlayan altın standart otojen donör doku **kostokondral grefttir** (genellikle 5, 6 veya 7. kosta).\n  * **A ve B şıkları:** Sadece kemik içerir, kıkırdak kılıfı olmadığı için eklem yuvasında ankiloz riski yaratır.\n  * **D ve E şıkları:** Yumuşak doku flepleridir, ramus kemik devamlılığını sağlayamazlar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 282,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki semptomlardan hangisi Gorlin-Goltz sendromunun (Nevoid Bazal Hücreli Karsinom Sendromu) klasik majör kriterlerinden biridir?",
+    "options": {
+      "A": "Multipl odontojenik keratokist",
+      "B": "Optik atrofi",
+      "C": "Makroglossia",
+      "D": "Mandibular mikrognati",
+      "E": "Ağız tabanında ranula *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Gorlin-Goltz sendromu PTCH1 gen mutasyonuyla kalıtılan otozomal dominant bir tablodur. En karakteristik dental majör kriteri çenelerde erken yaşta çıkan ve sık nükseden **multipl odontojenik keratokistlerdir**. Diğer majör bulgular deride çok sayıda bazal hücreli karsinom, avuç içi-ayak tabanı çukurlukları (palmar/plantar pitting) ve falks serebrinin bilameller kalsifikasyonudur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 283,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Falx serebri kalsifikasyonu  \nII. Bifid kosta  \nIII. Palmar ve plantar çukurluklar (pits)  \nIV. Multipl odontomalar  \n**Yukarıdakilerden hangileri Gorlin-Goltz sendromunun tanı kriterleri arasında yer alır?**",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "Hepsi *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **I, II ve III. öncüller:** Falx kalsifikasyonu, bifid kaburga ve palmar/plantar çukurlar Gorlin-Goltz sendromunun klasik majör/minör kriterleridir.\n  * **IV. öncül (Multipl odontomalar):** Odontomalar Gardner sendromunda izlenir; Gorlin-Goltz'da görülen lezyon odontoma değil, **odontojenik keratokisttir**.\n  * Doğru öncüller **I, II ve III** (C şıkkı).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 284,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Epikantus  \nII. Düzleşmiş profil  \nIII. Maksiller hiperplazi  \nIV. Kafa kemiklerinin prematür füzyonu  \n**Yukarıdakilerden hangisi Velo-Kardiyo-Fasiyal (DiGeorge / 22q11.2) sendromu ile ilişkilidir?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "II ve IV",
+      "D": "I, II ve III",
+      "E": "I, II, III ve IV *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Kraniyofasiyal sendromların büyük çoğunluğunda orta yüz hipoplazisi görülürken; **Velo-Kardiyo-Fasiyal sendromunda** nadir olarak **maksiller hiperplazi** ve vertikal yüz yüksekliği artışı, submuköz damak yarığı, velofaringeal yetmezlik ve konjenital kardiyak defektler izlenir. Prematür sütür füzyonu (kraniyosinostoz) ise Crouzon ve Apert sendromlarına aittir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 285,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki durumlardan hangisinde gerçek mandibuler prognatizm görülür?",
+    "options": {
+      "A": "Pierre Robin sendromu",
+      "B": "Hipotiroidizm",
+      "C": "Akromegali",
+      "D": "Down Sendromu",
+      "E": "Kleidokraniyal dizostozis *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Pierre Robin):** Şiddetli mandibular mikrognati ve retrognati ile karakterizedir.\n  * **D ve E şıkları (Down ve Kleidokraniyal):** Maksiller hipoplaziye bağlı \"psödo-prognatizm\" (yalancı Sınıf III) izlenir; mandibula gerçekte aşırı büyük değildir, maksilla küçüktür.\n  * **C şıkkı (Akromegali / Doğru Cevap):** Hipofiz adenomundan salgılanan aşırı büyüme hormonu (GH ve IGF-1), erişkin dönemde kondiler kıkırdaktaki kondrositleri uyararak endokondral kemik yapımını yeniden başlatır; bu da mandibulanın kontrolsüz büyümesine, dişlerde aralanmaya (diastema) ve **gerçek mandibular prognatizme** yol açar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Sonbahar 2013 Orijinal",
+    "q_num": 286,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Marfan sendromu  \nII. Akromegali  \nIII. Down sendromu  \nIV. Gorlin-Goltz sendromu  \n**Yukarıda verilen durumlardan hangilerinde mandibula kaynaklı iskeletsel Sınıf III'e yatkın görüntü oluşur?**",
+    "options": {
+      "A": "I ve III",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "I, II ve IV",
+      "E": "Hepsi *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Akromegali gerçek kondil hiperaktivitesiyle; Down sendromu ise belirgin orta yüz yetersizliği ve relatif mandibular prognatizm mekanizmasıyla belirgin **İskeletsel Sınıf III** oklüzyon ve fasiyal profil oluşturur (**II ve III**).",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 287,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yenidoğanda mikrognati, glossopitozis ve buna bağlı hava yolu obstrüksiyonu triadı ile karakterize sendromik tablo aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pierre Robin sekansı",
+      "B": "Crouzon sendromu",
+      "C": "Apert sendromu",
+      "D": "Eagle sendromu",
+      "E": "Gardner sendromu *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Pierre Robin tablosunda primer patoloji mandibulanın embriyolojik hipoplazisidir (mikrognati). Küçük çene nedeniyle dil ağız tabanında geriye doğru itilir (glossopitozis), bu durum damağın embriyolojik füzyonunu engelleyerek U şeklinde yarık damak oluşturur ve bebeğin sırtüstü yatışında dilin hava yolunu tıkamasıyla asfiksiye yol açar.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 288,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki sendromlardan hangisinde kraniyosinostozise el ve ayak parmaklarında simetrik sindaktili (yapışık parmaklar) eşlik eder?",
+    "options": {
+      "A": "Crouzon sendromu",
+      "B": "Apert sendromu",
+      "C": "Treacher Collins sendromu",
+      "D": "Cleidocranial dysostosis",
+      "E": "Marfan sendromu *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * **A şıkkı (Crouzon):** Kraniyosinostoz, orta yüz hipoplazisi ve ekzoftalmus vardır; ancak ekstremitelerde sindaktili **yoktur**.\n  * **B şıkkı (Apert Sendromu / Doğru Cevap):** FGFR2 mutasyonuna bağlıdır. Crouzon benzeri orta yüz çöküklüğü ve kraniofasiyal disostozisin yanı sıra, el ve ayak parmaklarında ileri derecede yumuşak doku ve kemik füzyonu (**sindaktili / eldiven el deformitesi**) mevcuttur; Apert'i Crouzon'dan ayıran en kritik klinik özelliktir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 289,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. ve II. brankiyal arkların gelişim yetersizliği sonucu oluşan, zigoma hipoplazisi, alt göz kapağında kolobom, antimongoloid göz eğimi ve dış kulak deformiteleriyle karakterize kraniofasiyal bozukluk aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Treacher Collins sendromu (Mandibulofasiyal dizostozis)",
+      "B": "Pierre Robin sekansı",
+      "C": "Gorlin-Goltz sendromu",
+      "D": "Velo-kardiyo-fasiyal sendrom",
+      "E": "McCune-Albright sendromu *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Treacher Collins sendromunda 1. ve 2. faringeal ark mezenşiminin migrasyon defekti vardır (TCOF1 geni). Elmacık kemikleri (zigoma) gelişmemiştir, alt göz kapağının 1/3 dış kısmında doku eksiği (kolobom) ve aşağı doğru çekik göz yapısı (antimongoloid slant) ile mikrotia/işitme kaybı tipiktir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 290,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Treacher Collins sendromunda beklenen bir bulgu değildir?",
+    "options": {
+      "A": "Zigomatik ark hipoplazisi veya agenezisi",
+      "B": "İletim tipi işitme kaybı",
+      "C": "Alt göz kapağında kolobom",
+      "D": "Kafatası kemiklerinde prematür füzyon (kraniyosinostoz)",
+      "E": "Retrognatik mandibula ve açık kapanış *"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n  * Treacher Collins bir brankiyal ark anomalisidir; kafa tası dikişlerinin erken kapanması (**kraniyosinostozis**) bu sendromda görülmez; kraniyosinostoz Crouzon ve Apert sendromlarına özgüdür.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 291,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Süt dişleri ağzında bulunan, daimi dişleri sürmeyip gömülü kalan, radyografide çok sayıda süpernümerer diş izlenen, klavikula (köprücük kemiği) aplazisi nedeniyle omuzlarını önde birleştirebilen bir hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Paget hastalığı",
+      "B": "Osteogenezis imperfekta",
+      "C": "Kleidokraniyal dizostozis (Cleidocranial dysplasia)",
+      "D": "Fibröz displazi",
+      "E": "Gorlin-Goltz sendromu *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * RUNX2 gen mutasyonu sonucu intramembranöz kemikleşme bozukluğudur. Klavikula hipoplazisi/agenezisi hastanın omuzlarını göğüs önünde birbirine değdirmesine olanak verir. Ağız içinde süt dişlerinin fizyolojik kök rezorpsiyonu gecikir, çok sayıda **süpernümerer diş ve yaygın daimi diş gömülülüğü** en klasik dental tablodur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 292,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kleidokraniyal dizostozis hastalarında görülen süpernümerer dişlerin lokalizasyonu en sık hangi bölgededir?",
+    "options": {
+      "A": "Üst santral kesici bölgesi (Meziodens)",
+      "B": "Alt ve üst premolar bölgeleri",
+      "C": "Üst 4. molar bölgesi (Distomolar)",
+      "D": "Alt kesici bölgesi",
+      "E": "Kanin bölgesi *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Kleidokraniyal displazide süpernümerer dişler en sık **mandibular ve maksiller premolar** sahalarında gelişir; bu dişler daimi dentisyonun sürme yolunu mekanik olarak bloke eder.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 293,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki sendromlardan hangisinde multipl çene osteomları, epidermoid kistler, desmoid tümörler ve premalign kolon polipleri birlikte görülür?",
+    "options": {
+      "A": "Gardner sendromu",
+      "B": "Peutz-Jeghers sendromu",
+      "C": "Cowden sendromu",
+      "D": "Gorlin-Goltz sendromu",
+      "E": "Maffucci sendromu *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Gardner sendromu (APC gen mutasyonu), gastrointestinal polipozis ile karakterizedir; bu polipler %100 malignleşir. Çene kemiklerinde multipl dens **osteomlar**, deride **epidermoid kistler**, mezenterik **desmoid tümörler** ve gömülü/süpernümerer dişler sendromun baş-boyun manifestasyonlarıdır.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 294,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Cafe-au-lait (sütlü kahve) lekeleri, polinöromlar ve nörofibromlarla karakterize, çene kemiklerinde mandibular foramende genişleme yapabilen genodermatoz aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nörofibromatozis Tip 1 (von Recklinghausen hastalığı)",
+      "B": "McCune-Albright sendromu",
+      "C": "Sturge-Weber sendromu",
+      "D": "Tüberoz skleroz",
+      "E": "Rendu-Osler-Weber sendromu *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * NF-1'de periferik sinir kılıflarından köken alan nörofibromlar, deride düzensiz kenarlı sütlü kahve lekeleri (coast of California), Lisch nodülleri ve mandibular kanal/foramen mentalede genişleme tipiktir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 295,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Poliostotik fibröz displazi, deride geniş sınırlı sütlü kahve lekeleri (coast of Maine) ve erken puberte (endokrinopatiler) triadı ile seyreden hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Jaffe-Campanacci sendromu",
+      "B": "McCune-Albright sendromu",
+      "C": "Albright herediter osteodistrofisi",
+      "D": "Cushing sendromu",
+      "E": "Paget hastalığı *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * McCune-Albright sendromu, GNAS genindeki postzigotik mutasyonla oluşur; poliostotik fibröz displaziye endokrin hiperfonksiyonlar (kız çocuklarında erken menarş/puberte prekoks) ve düzensiz sınırlı pigmentasyonlar eşlik eder.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 296,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Fasiyal hemanjiyom (şarap lekesi nevüsü / port-wine stain), leptomeningeal anjiyomlar ve intrakraniyal \"tram-line\" (tren rayı) kalsifikasyonlarla seyreden nörokutanöz sendrom hangisidir?",
+    "options": {
+      "A": "Sturge-Weber sendromu (Ensefalotrigeminal anjiyomatozis)",
+      "B": "Klippel-Trenaunay sendromu",
+      "C": "Herediter hemorajik telenjiektazi",
+      "D": "Maffucci sendromu",
+      "E": "Von Hippel-Lindau sendromu *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Trigeminal sinirin V1 ve V2 dağılımında doğumsal unilateral kapiller vasküler malformasyon (port-wine stain) ve aynı tarafta leptomeningeal anjiyomatozis Sturge-Weber sendromunu tanımlar. İlgili kadranda cerrahi çekimlerde şiddetli kanama riski mevcuttur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 297,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Multipl odontojenik keratokist tanısı konmuş olan bir hastada, aşağıdaki sendromlardan hangisi öncelikle düşünülmelidir?",
+    "options": {
+      "A": "Gorlin-Goltz sendromu",
+      "B": "Albright sendromu",
+      "C": "Behçet sendromu",
+      "D": "Down sendromu",
+      "E": "Gardner sendromu *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Çenelerde multipl keratokist görülmesi **Gorlin-Goltz sendromunun** en temel tanı kriteridir. Gardner'da osteomlar, Down'da orta yüz yetersizliği, Behçet'te aftöz lezyonlar görülür; keratokist ile birliktelikleri yoktur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 298,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gorlin-Goltz sendromunda çenelerde multipl olarak görülen odontojenik keratokistlerin tedavisinde nüks riskini azaltmak için enükleasyonla kombine edilen tamamlayıcı cerrahi işlem aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Periferal ostektomi ve kaviteye Carnoy solüsyonu uygulanması",
+      "B": "Sadece intralümenal steroid enjeksiyonu",
+      "C": "İntraoral radyoterapi verilmesi",
+      "D": "Antibiyotikli patla pansuman yapılması",
+      "E": "Submandibular bez eksizyonu *"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n  * Keratokistlerin kapsülünde daughter/satellit kistler kemik duvarlarında kalabilir. Basit enükleasyon %50'nin üzerinde nüks riski taşır; kemik yüzeyinin frezle tıraşlanması (periferal ostektomi) ve kimyasal fiksatif (Carnoy solüsyonu veya modifiye Carnoy) uygulanması nüks oranını anlamlı derecede düşürür.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 299,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Parakeratinize epitel lümeni döşer.  \nII. Bazal tabakada çit benzeri (palizatlaşma) dizilim ve tomurcuklanmalar mevcuttur.  \nIII. Lümen içinde bol granüler tabaka izlenir.  \nIV. Kapsül içinde uydu (daughter) kistler bulunabilir.  \n**Yukarıda verilen özelliklerden hangisi odontojenik keratokistin histopatolojik özellikleri arasında yer almaz?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve IV",
+      "E": "II ve IV *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Odontojenik keratokistte (OKC) lümen parakeratinize dalgalı epitel ile örtülüdür (I), bazal hücre çekirdekleri polarize olup palizat (çit) görünümündedir (II) ve kapsül içinde satellit kistler sıktır (IV). Ancak keratokist epitelinde **granüler tabaka bulunmaz** (granüler tabaka ortokeratinize odontojenik kistlerde bulunur). Bu nedenle **Yalnız III** kistin özelliği değildir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 300,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde mavi sklera gözlenmesi en olasıdır?",
+    "options": {
+      "A": "Ehlers-Danlos sendromu",
+      "B": "Crohn hastalığı",
+      "C": "Osteogenezis imperfekta",
+      "D": "Kleidokraniyal disostozis",
+      "E": "Osteomalazi *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **C şıkkı (Osteogenezis İmperfekta / Doğru Cevap):** Tip 1 kollajen sentez defektiyle giden otozomal dominant hastalıktır. İnce skleradan altındaki koroid damar tabakasının yansıması sonucu patognomonik **mavi sklera**, frajil kemikler (patolojik kırıklar) ve **dentinogenezis imperfekta** kliniği oluşturur.",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "q_num": 407,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dentinogenezis imperfekta aşağıdaki kalıtsal patolojilerden en sık hangisi ile birlikte görülür?",
+    "options": {
+      "A": "Ehlers-Danlos sendromu",
+      "B": "Crohn hastalığı",
+      "C": "Osteogenezis imperfekta",
+      "D": "Kleidokraniyal dizostozis",
+      "E": "Osteopetrozis *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * Dentinogenezis imperfekta Tip I, doğrudan **Osteogenezis imperfekta** tablosunun dental komponenti olarak ortaya çıkar; dişlerde kehribar sarısı/opalesent renklenme, pulpa odalarında erken obliterasyon ve minenin dentinden kolayca ayrılması izlenir.",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 408,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde mavi sklera gözlenmesi en olasıdır?",
+    "options": {
+      "A": "Ehlers-Danlos sendromu",
+      "B": "Crohn hastalığı",
+      "C": "Osteogenezis imperfekta",
+      "D": "Kleidokraniyal disostozis",
+      "E": "Osteomalazya *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Ehlers-Danlos sendromu):** Tip I/III kollajen sentez bozukluğudur; aşırı eklem hipermobilitesi, deride aşırı esneklik ve doku frajilitesi ile karakterizedir; mavi sklera primer/klasik kardinal bulgusu değildir [237].\n  * **B şıkkı (Crohn hastalığı):** Gastrointestinal sistemin transmural granülomatöz inflamatuvar hastalığıdır; oral mukozada kaldırım taşı manzarası ve lineer ülserler yapar; sklerayı etkilemez [237].\n  * **C şıkkı (Doğru Cevap):** Osteogenezis imperfekta, Tip I kollajen kodlayan genlerdeki (COL1A1 ve COL1A2) mutasyon sonucu gelişen herediter bir bağ dokusu hastalığıdır [237]. İnce ve şeffaf kalan sklera altındaki koroid damar tabakasının pigmenti dışarı yansıdığı için sklera karakteristik olarak parlak **mavi/gri** renkte izlenir [237]. Dentinogenezis imperfekta, kemik kırılganlığı ve erken işitme kaybı eşlik eder [237].\n  * **D şıkkı (Kleidokraniyal disostozis):** RUNX2 gen mutasyonuna bağlı klavikula hipoplazisi/aplazisi, fontanellerin açık kalması ve multipl süpernümerer gömülü dişlerle seyreder; sklera normaldir [237].\n  * **E şıkkı (Osteomalazya):** Erişkinlerde D vitamini veya fosfat eksikliğine bağlı kemik matriksinin yetersiz mineralizasyonudur; kemiklerde yumuşama ve yalancı kırıklar (Looser zonları) görülür, sklerada renk değişikliği yapmaz [237].",
+    "lesson": "Cerrahi",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "q_num": 451,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Büyüme döneminde boy kısalığı, kemiklerde frajilite ve dentinogenezis imperfekta benzeri diş yapısı bulunan bir hastanın göz muayenesinde sklera mavi renkte izlenmektedir. Bu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Osteopetrozis",
+      "B": "Paget hastalığı",
+      "C": "Osteogenezis imperfekta",
+      "D": "Cherubizm",
+      "E": "Akondroplazi *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **A şıkkı (Osteopetrozis):** Osteoklast disfonksiyonu sonucu kemik rezorpsiyonunun durması ve mermer kemik tablosudur; medüller boşluklar kapanır, anemi ve osteomiyelit gelişir [238].\n  * **B şıkkı (Paget hastalığı):** Yaşlı bireylerde anormal kemik remodelingi, pamuk atılmış kemik manzarası ve ALP artışıyla seyreder; dentin anomalisi yapmaz [238, 286].\n  * **C şıkkı (Doğru Cevap):** Kemik frajilitesi (kolay kırılma), dişlerde Dentinogenezis İmperfekta tablosu (kehribar-kahverengi renklenme, erken mine kaybı, oblitere pulpa) ve skleranın mavi renkte olması klasik Osteogenezis İmperfekta triadı bulgularıdır [237, 238].\n  * **D şıkkı (Cherubizm):** Çenelerde bilateral simetrik ağrısız genişleme ve multilloküler dev hücreli granülom lezyonlarıyla karakterizedir [238].\n  * **E şıkkı (Akondroplazi):** FGFR3 mutasyonuna bağlı endokondral kemikleşme yetersizliği ve rizomelik cüceliktir; mavi sklera görülmez [238].",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 452,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dentinogenezis imperfekta aşağıda verilen patolojilerin hangisi ile birlikte görülebilir?",
+    "options": {
+      "A": "Ehlers-Danlos sendromu",
+      "B": "Crohn hastalığı",
+      "C": "Osteogenezis imperfekta",
+      "D": "Kleidokraniyal disostozis",
+      "E": "Osteomalazya *"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n  * **C şıkkı (Doğru Cevap):** Dentinogenezis imperfekta (kollajen defektine bağlı Tip I formu), Osteogenezis İmperfekta hastalığı ile birlikte herediter olarak ortaya çıkar [239]. Dişlerde opalesan sarı-kahverengi renk, kök kanalları ve pulpa odasında erken obliterasyon ve bulböz kron formu izlenir [239].\n  * **A, B, D ve E şıkları:** Bu patolojilerde dentin matriksinde primer kollajen defekti ve herediter Dentinogenezis İmperfekta fenotipi birlikteliği beklenmez [239].",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 453,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çenelerde görülen aşağıdaki patolojik oluşumlardan hangisinin kleidokraniyal disostozis ile birlikte görülmesi en olasıdır?",
+    "options": {
+      "A": "Odontoma",
+      "B": "Multipl süpernümerer dişler ve erüpsiyon yetersizliği",
+      "C": "Odontojenik keratokist",
+      "D": "Mandibular torus",
+      "E": "Ameloblastoma *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Kleidokraniyal displazide RUNX2 mutasyonuna bağlı osteoblastik farklılaşma bozulur; klavikulalar gelişmez, süt dişleri dökülmez ve özellikle premolar sahasında **çok sayıda süpernümerer kalıcı diş çene kemiklerinde gömülü kalır** [272, 273].",
+    "lesson": "Cerrahi",
+    "flag_reason": "DUS Sonbahar 2023 Orijinal",
+    "q_num": 529,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "PTCH1 tümör süpresör gen mutasyonu sonucu gelişen, multipl odontojenik keratokistler, kutanöz bazal hücreli karsinomlar ve falks serebride bifid kalsifikasyonla giden sendrom hangisidir?",
+    "options": {
+      "A": "Gardner sendromu",
+      "B": "Gorlin-Goltz sendromu (Nevoid bazal hücreli karsinom sendromu)",
+      "C": "Peutz-Jeghers sendromu",
+      "D": "McCune-Albright sendromu",
+      "E": "Treacher Collins sendromu *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Gorlin-Goltz sendromu (Nevoid Basal Cell Carcinoma Syndrome), erken yaşta çenelerde multipl keratokist atakları ve avuç içi/taban çukurlukları (palmar pitting) ile tanınır [273, 283].",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 530,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sekiz yaşındaki hastada panoramik radyografide çenelerde multipl kistik radyolüsent lezyonlar, klinik muayenede hipertelorizm, prognatik mandibula ve sırt cildinde pigmente bazal hücreli nevüsler saptanıyorsa tanı nedir?",
+    "options": {
+      "A": "Kleidokraniyal disostozis",
+      "B": "Gorlin-Goltz sendromu",
+      "C": "Crouzon sendromu",
+      "D": "Pierre Robin sekansı",
+      "E": "Fibröz displazi *"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n  * Çocukluk çağında çenelerde birden fazla OKC varlığı doğrudan Gorlin-Goltz sendromunu işaret eder [273].",
+    "lesson": "Cerrahi",
+    "flag_reason": "Özgün Soru",
+    "q_num": 531,
+    "unit": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+    "quality_flag": "cikmis"
+  }
+]

@@ -1,0 +1,1991 @@
+[
+  {
+    "question": "Kennedy sınıflandırmasına göre, kavisin her iki tarafında posterior dişsiz alanlar bulunan ancak bu alanların gerisinde doğal diş bulunmayan vaka tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sınıf I",
+      "B": "Sınıf II",
+      "C": "Sınıf III",
+      "D": "Sınıf IV",
+      "E": "Sınıf I Modifikasyon 1"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Sınıf I (Doğru):** Çift taraflı (bilateral) serbest sonlanan dişsiz alanlardır.\n* **B) Sınıf II (Yanlış):** Tek taraflı serbest sonlanan dişsiz alandır.\n* **C) Sınıf III (Yanlış):** Tek taraflı dişle sonlanan dişsiz alandır.\n* **D) Sınıf IV (Yanlış):** Orta hattı örten tek ve anteriör dişsiz alandır.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2013 Orijinal",
+    "q_num": 304,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kennedy sınıflandırma kurallarına (Applegate kuralları) göre aşağıdakilerden hangi ifade yanlıştır?",
+    "options": {
+      "A": "Sınıflandırma diş çekimlerinden önce yapılmalıdır.",
+      "B": "8 numaralı dişler (3. molarlar) eksikse ve protezde kullanılmayacaksa sınıflandırmaya dahil edilmezler.",
+      "C": "Ana sınıflandırmayı en gerideki dişsiz bölge belirler.",
+      "D": "Ana sınıflandırma alanının dışında kalan dişsiz bölgeler modifikasyon alanı olarak adlandırılır.",
+      "E": "Sınıf IV vakalarda modifikasyon alanı bulunmaz."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Sınıflandırma diş çekimlerinden önce yapılmalıdır (Yanlış / Cevap A):** Applegate'in 1. kuralına göre **Sınıflandırma diş çekimlerinden SONRA yapılmalıdır**; çünkü çekilecek bir diş sınıflamayı değiştirebilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 305,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir hastada üst çenede sağ ve sol orta kesici dişler, yan kesici dişler ve kanin dişler mevcuttur. Bu hastada, terminal destek dişlerde distoapikal devrilme hareketinin görüldüğü primer fulkrum ekseni düzlemi ve etrafında oluşabilecek rotasyon hareketinin gerçekleşeceği düzlem aşağıdakilerden hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Primer fulkrum ekseni düzlemi: Horizontal / Rotasyon hareketi ekseni düzlemi: Sagittal",
+      "B": "Primer fulkrum ekseni düzlemi: Sagittal / Rotasyon hareketi ekseni düzlemi: Horizontal",
+      "C": "Primer fulkrum ekseni düzlemi: Sagittal / Rotasyon hareketi ekseni düzlemi: Frontal",
+      "D": "Primer fulkrum ekseni düzlemi: Vertikal / Rotasyon hareketi ekseni düzlemi: Horizontal",
+      "E": "Primer fulkrum ekseni düzlemi: Vertikal / Rotasyon hareketi ekseni düzlemi: Sagittal"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Serbest sonlanmalı vakalarda terminal dayanak dişlerin oklüzal tırnaklarından geçen birincil dönme (fulkrum) hattı **sagittal düzlemde** yer alır. Protez kaidesinin çiğneme kuvveti altında dokuya gömülmesiyle oluşan rotasyon hareketi ise **horizontal (yatay) düzlemde** gerçekleşir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2012 Orijinal",
+    "q_num": 306,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hareketli bölümlü protez ana bağlayıcılarından hangisi mandibulada kullanılmaz?",
+    "options": {
+      "A": "Singulum barlı labial bar",
+      "B": "Singulum bar",
+      "C": "Labial bar",
+      "D": "Singulum barlı lingual bar",
+      "E": "Sublingual bar"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Mandibüler ana bağlayıcılar:** Lingual bar, Sublingual bar, Singulum bar (Devamlı bar), Lingual plak ve Labial bardır.\n* **A) Singulum barlı labial bar (Kullanılmaz / Cevap A):** Labial bar çenenin dış (vestibül) tarafında, singulum bar ise iç (lingual) taraftadır. İkisinin birleşik bir yapı oluşturması anatomik ve tasarımsal olarak mümkün değildir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2016 Orijinal",
+    "q_num": 307,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Swing-lock tasarımına sahip hareketli bölümlü protezlerde, hangi ana bağlayıcı tasarımın modifiye edilmiş şekli kullanılır?",
+    "options": {
+      "A": "Lingual bar",
+      "B": "Lingual plak",
+      "C": "Sublingual bar",
+      "D": "Palatal bar",
+      "E": "Kesintili lingual plak"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **B) Lingual plak (Doğru):** Swing-lock sisteminde lingual tarafta **Lingual plak** rijit destek olarak kullanılır; labial tarafta ise menteşeli açılıp kapanan bir kilit barı yer alır.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2017 Orijinal",
+    "q_num": 309,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "**Hareketli bölümlü protez unsurlarından olan oklüzal tırnak yuvalarıyla ilgili hazırlama kurallarından hangileri doğrudur?**\nI. Dış sınırları yuvarlatılmış apeksi kısmı dişin merkezine doğru olacak şekilde üçgen şekilli olmalıdır.\nII. Kuvvetleri dişin uzun eksenine iletebilmesi için minör bağlayıcı ile tabanı arasındaki açı 90°'den küçük olmalıdır.\nIII. Dişin meziodistal çapının 1/3'ü veya 1/2'sinden fazla alan kaplamamalıdır.\nIV. Dişin kasp tepesinden diğer kasp tepesine bukkolingual boyutunun 1/2'si kadar alan kaplamalıdır.",
+    "options": {
+      "A": "I, III ve IV",
+      "B": "III ve IV",
+      "C": "II ve IV",
+      "D": "I, II ve IV",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Öncül I (Doğru):** Tırnak yuvası yuvarlatılmış tabanlı üçgen şekildedir.\n* **Öncül II (Doğru):** Kuvveti dişin uzun aksına iletmek için küçük bağlayıcı ile tırnak tabanı arasındaki açı $90^\\circ$'den KÜÇÜK olmalıdır (sivri açı).\n* **Öncül III (Doğru):** Meziodistal uzunluğu marjinal sırt genişliğinin 1/3 - 1/2'si kadardır.\n* **Öncül IV (Yanlış):** Bukkolingual genişliği kasp tepeleri arası mesafenin 1/2'si değil, **1/3'ü kadar** olmalıdır.\n* Bu nedenle I, II ve III ifadeleri doğrudur.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "q_num": 312,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hareketli bölümlü protezlerde dik açıdan küçük bir açı ile marjinal sırttan dişin merkezine doğru hazırlanan tırnak yuvasının temel amacı nedir?",
+    "options": {
+      "A": "Çiğneme kuvvetlerini dişin uzun aksına paralel iletmek ve protezin dokuya gömülmesini önlemek",
+      "B": "Protezin tutuculuğunu sağlamak",
+      "C": "Estetiği düzeltmek",
+      "D": "Çürük oluşumunu engellemek",
+      "E": "Dişin devrilmesini sağlamak"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* Tırnak ve tırnak yuvasının ana görevi; dikey oklüzal yükleri karşılayıp dişin uzun eksenine iletmek ve protez kaidesinin dokuya gömülmesini (dikey çökmeyi) engellemektir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 313,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hareketli bölümlü protez yapımında kullanılan hassas tutucular ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Dişi ve erkek parçalar hem intrakoronal hem de ekstrakoronal hassas tutucularda bulunur.",
+      "B": "Ekstrakoronal hassas tutucular oral hijyen sağlanmasını zorlaştırırlar.",
+      "C": "Ekstrakoronal hassas tutucular destek dişler üzerinde istenmeyen yüklere sebep olurlar.",
+      "D": "İntrakoronal hassas tutucular kroşeyi elimine ederek estetik bir görüntü sağlar.",
+      "E": "İntrakoronal hassas tutucular kısa ve dar forma sahip vital dişlerde tercih edilirler."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D (Doğru ifadeler):** Ataşmanların biyomekanik ve estetik özellikleridir.\n* **E) İntrakoronal hassas tutucular kısa ve dar forma sahip vital dişlerde tercih edilirler (Yanlış / Cevap E):** İntrakoronal tutucuların dişi yuvası (patris) **kron gövdesinin İÇİNE** açılır. Kısa ve dar dişlerde yeterli pulpa mesafesi ve kron hacmi bulunmadığı için intrakoronal tutucular KONTRENDİKEDİR (geniş ve uzun kronlu dişlerde kullanılır).",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2025 Orijinal",
+    "q_num": 314,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kroşelerin tutuculuğuna etki eden faktörlerle ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Andırkat derinliği arttıkça tutuculuk artar.",
+      "B": "Tutucu kroşe kolunun esnekliği arttıkça tutuculuk artar.",
+      "C": "Kroşe kolunun boyu uzadıkça esnekliği artar ve tutuculuğu azalır.",
+      "D": "Döküm krom-kobalt kroşeler bükme kroşelere göre daha az esnektir.",
+      "E": "Yuvarlak kesitli kroşeler yarım yuvarlak kesitlilere göre her yönde esnektir."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **B) Tutucu kroşe kolunun esnekliği arttıkça tutuculuk artar (Yanlış / Cevap B):** Bir kroşe kolu ne kadar **esnek (fleksibl)** olursa, andırkat alanından o kadar kolay çıkar ve **tutuculuğu AZALIR**. Tutuculuğun artması için kolun yeterli rijitlikte (daha az esnek) olması gerekir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 315,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangi kroşe tutuculuğu değerlendirmesinde etkili değildir?",
+    "options": {
+      "A": "Kroşe kolunun çapı",
+      "B": "Dayanak dişte ekvator üstü bölgenin genişliği",
+      "C": "Servikal yaklaşım açısının büyüklüğü",
+      "D": "Kroşe kolunun uzunluğu",
+      "E": "Kroşe kolunun kesiti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Kroşe tutuculuğu **ekvator altı (andırkat) bölge** derinliği ve kroşe kolunun esnekliği ile ilgilidir. Ekvator üstü bölge ise resiprokasyon ve stabilizasyon bölgesidir, tutuculuğa katkı sağlamaz.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2016 Orijinal",
+    "q_num": 316,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dayanak dişi başladığı noktadan itibaren neredeyse tamamen çevreleyen, retantif olmayan tarafında mutlaka destekleyici bir parçası bulunan ve androkatlı bölgeye yaklaşamayan durumlarda tercih edilen kroşe tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Embrazür kroşe",
+      "B": "Yarım yarım kroşe",
+      "C": "Ters etkili kroşe",
+      "D": "Halka kroşe",
+      "E": "Çoklu kroşe"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **D) Halka (Ring) kroşe (Doğru):** Tek başlarına duran izole molar dişlerde, andırkat alanına doğrudan ulaşılamadığında dişi $360^\\circ$ çevreleyerek dolaşan kroşe tipidir.",
+    "lesson": "Protez",
+    "flag_reason": "DUS 2021 Orijinal",
+    "q_num": 317,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi çevresel kroşeler sınıfına girmez?",
+    "options": {
+      "A": "Akers kroşe",
+      "B": "Halka kroşe",
+      "C": "Embrazür kroşe",
+      "D": "Geri etkili kroşe",
+      "E": "Roach kroşe"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D:** Çevresel (oklüzalden yaklaşan) kroşelerdir.\n* **E) Roach kroşe (Cevap E):** Roach kroşeler diş eti yönünden (servikalden) yaklaşan **Bar kroşeler** sınıfına girer.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2012 Orijinal",
+    "q_num": 318,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibüler Kennedy I serbest sonlanan kaideye sahip vakada fonksiyonel kuvvetler esnasında I-bar kroşenin hareketi aşağıdaki yönlerden hangisine doğru olur?",
+    "options": {
+      "A": "Mezial / mezio-gingival",
+      "B": "Distal / disto-gingival",
+      "C": "Disto-oklüzal",
+      "D": "Mezio-oklüzal",
+      "E": "Oklüzal"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Mezial / mezio-gingival (Doğru):** RPI sisteminde (Rest-Mezial, Proximal plate-Distal, I-bar-Bukkal), çiğneme kuvveti altında kaide dokuya gömüldüğünde I-bar kroşe ucu andırkattan kurtularak **meziale ve mezio-gingivale doğru** hareket eder. Böylece dayanak dişe zararlı tork/kaldıraç kuvveti uygulamaz.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2024 Orijinal",
+    "q_num": 319,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "RPI kroşe sistemini oluşturan yapısal elemanlar aşağıdakilerden hangisinde doğru olarak sırayla verilmiştir?",
+    "options": {
+      "A": "Mezial Oklüzal Tırnak - Distal Proksimal Plak - I Bar Kroşe",
+      "B": "Distal Oklüzal Tırnak - Mezial Proksimal Plak - I Bar Kroşe",
+      "C": "Mezial Oklüzal Tırnak - Lingual Plak - Akers Kroşe",
+      "D": "Distal Oklüzal Tırnak - Lingual Plak - T Bar Kroşe",
+      "E": "Singulum Tırnağı - Distal Plak - C Kroşe"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* RPI açılımı: **R (Rest - Mezial oklüzal tırnak)**, **P (Proximal plate - Distal rehber düzlem plağı)**, **I (I-bar - Bukkal servikal bar kroşe)** şeklindedir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 320,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hareketli bölümlü protezlerde fulkrum ekseninden en uzak noktaya yerleştirilerek protezin kaide plağının dokudan uzaklaşma hareketini (öne takla atmasını) önleyen eleman aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Direkt tutucu",
+      "B": "İndirekt tutucu",
+      "C": "Majör konnektör",
+      "D": "Minör konnektör",
+      "E": "Protez kaidesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **B) İndirekt tutucu (Doğru):** Serbest sonlanan (Kennedy I ve II) vakalarda yapışkan gıdalar çekildiğinde protez kaidesinin dokudan kalkmasını (fulkrum etrafında dönmesini) önlemek amacıyla fulkrum ekseninin ön tarafında ve en uzak noktasına yerleştirilen tırnak/desteğe **İndirekt tutucu** denir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 321,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hareketli bölümlü protezlerde indirekt tutucu olarak görev yapmaz?",
+    "options": {
+      "A": "Ruga desteği",
+      "B": "RPI kroşe",
+      "C": "Singulum bar",
+      "D": "Modifikasyon alanları",
+      "E": "Oklüzal tırnakla bitişik kanin tırnakları"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A, C, D, E (İndirekt tutuculuk sağlarlar):** Ön tırnaklar, ruga desteği ve dişle sonlanan modifikasyon alanları indirekt tutuculuk yapar.\n* **B) RPI kroşe (Görerek Yapmaz / Cevap B):** RPI kroşe sistemi bir **direkt tutucu (kroşe)** sistemidir; indirekt tutucu değildir.",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2014 Orijinal",
+    "q_num": 323,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibulada ikinci premolar dişlerden sonrası eksik olan, modifikasyonsuz Kennedy Sınıf I dental ark için hazırlanacak hareketli bölümlü protez tasarımında gerekli olan indirekt tutucu tipi ve diş konumu aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "İnsizal tırnak - santral kesici dişler",
+      "B": "İnsizal tırnak - lateral kesici dişler",
+      "C": "Singulum tırnağı - kanin dişleri",
+      "D": "Oklüzal tırnak - birinci premolar dişler",
+      "E": "Singulum tırnağı - santral kesici dişler"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* 35 ve 45 numaralı dişlerden geçen fulkrum hattına dik çizilen dikmenin en uzak noktası **kanin dişlerdir (33 ve 43)**. Kanin dişlerin lingualine hazırlanan **singulum tırnakları** en ideal indirekt tutucudur.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2023 Orijinal",
+    "q_num": 324,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anteriorda beş diş eksikliği olan Kennedy IV vakada, estetik gereksinimden dolayı rotasyonel giriş yolu oluşturulduğunda, ön bölgedeki tutuculuk aşağıdaki hareketli bölümlü protez elemanlarından hangisiyle sağlanır?",
+    "options": {
+      "A": "Sert akrilik kanatlar / sert protez kaide tırnakları",
+      "B": "İndirekt tutucular",
+      "C": "Çevresel Akers kroşe",
+      "D": "I bar kroşe",
+      "E": "Esnek lingual bar"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Sert akrilik kanatlar / rijit yapılar (Doğru):** Rotasyonel giriş yollu protezlerde ön bölgeye estetiği bozan metal kroşe koymamak için protez kaidesinin **rijit yapılı akrilik/metal rijit tırnakları ve kanatları** andırkatlı diş yüzeylerine ilk rotasyonla oturtularak tutuculuk sağlanır.",
+    "lesson": "Protez",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "q_num": 325,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mevcut dişleri 13, 15, 18, 23, 24 ve 25 numaralı dişler olan, 20 yaşındaki kadın hastanın alt çene protez planlamasına dahil edileceği hareketli bölümlü protez endikasyonu konulan vakada Kennedy-Applegate'e göre dental ark sınıflaması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sınıf IV, modifikasyon 2",
+      "B": "Sınıf II, modifikasyon 2",
+      "C": "Sınıf III, modifikasyon 2",
+      "D": "Sınıf III, modifikasyon 3",
+      "E": "Sınıf II, modifikasyon 3"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Dişsiz alanlar incelendiğinde: En gerideki dişsiz bölge tek taraflı serbest sonlanmaktadır (Sınıf II). Diğer ilave dişsiz alanlar da modifikasyon sayılarını oluşturur. (Sınıf II Modifikasyon 2).",
+    "lesson": "Protez",
+    "flag_reason": "Sonbahar 2025 Orijinal",
+    "q_num": 328,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kennedy sınıflamasına göre, yukarıda/aşağıda verilen vakalarda (çift taraflı serbest sonlu ve tek taraflı dişsiz alan mevcudiyeti durumunda) sınıflandırma hangisidir?",
+    "options": {
+      "A": "Sınıf 1 modifikasyon 1",
+      "B": "Sınıf 1 modifikasyon 3",
+      "C": "Sınıf 3 modifikasyon 1",
+      "D": "Sınıf 4 modifikasyon 1",
+      "E": "Sınıf 4 modifikasyon 2"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Öncüller / Sınıflama Kuralları:** Kennedy sınıflamasına göre vaka belirlenirken en arkadaki dişsiz alan ana sınıfı verir. Arka tarafta bilateral serbest sonlanma varsa ana sınıf Kennedy Sınıf I'dir. Ana sınıf dışındaki her ek dişsiz boşluk 1 modifikasyon alanı olarak eklenir.\n* **A) Sınıf 1 modifikasyon 1 (Yanlış):** Yalnızca 1 ek modifikasyon boşluğu içeren bilateral serbest sonlu durumdur.\n* **B) Sınıf 1 modifikasyon 3 (Doğru):** Çift taraflı serbest sonlu dişsizlik (Sınıf I) ana kuralı oluşturur; bunun dışında yer alan 3 ayrı dişsiz boşluk ise Modifikasyon 3 olarak eklenir.\n* **C) Sınıf 3 modifikasyon 1 (Yanlış):** Dişsiz alanın posteriorunda destek dişin bulunduğu (diş destekli) durumdur.\n* **D) Sınıf 4 modifikasyon 1 (Yanlış):** Orta hattı çaprazlayan tek bir anterior dişsizlik durumudur; Sınıf IV'te modifikasyon olamaz.\n* **E) Sınıf 4 modifikasyon 2 (Yanlış):** Sınıf IV tanımı gereği posterior dişsizlik içeremez ve modifikasyon alamaz.",
+    "lesson": "Protez",
+    "flag_reason": "2013 İlkbahar DUS Orijinal",
+    "q_num": 338,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen diş numaraları vakalarından hangisinin Kennedy Sınıf I grubunda yer aldığı söylenebilir?",
+    "options": {
+      "A": "17, 27 eksik",
+      "B": "31, 32, 41, 42 eksik",
+      "C": "11, 12, 17, 27 eksik",
+      "D": "36, 37, 46, 47 eksik",
+      "E": "33, 34, 35, 36, 37 eksik"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) 17, 27 eksik (Yanlış):** Sadece 17 ve 27 numaralı ikinci molar dişlerin olmaması durumda 18 ve 28 yoksa arka dişsizliktir, ancak tek diş eksikliğinde 16 ve 26 dişleri arkada bulunmadığından arkada diş desteği kalan durumlar Sınıf III veya Sınıf I olarak ayrılır.\n* **B) 31, 32, 41, 42 eksik (Yanlış):** Orta hattı geçen ön dişsizlik durumu Kennedy Sınıf IV'tür.\n* **C) 11, 12, 17, 27 eksik (Yanlış):** Arka tarafta tek taraflı veya çift taraflı destek diş mevcudiyetine göre Sınıf III mod 1 durumudur.\n* **D) 36, 37, 46, 47 eksik (Doğru):** Alt çenede her iki tarafta en arkadaki molar dişlerin eksik olduğu ve dişsiz bölgelerin arkasında destek diş bulunmadığı bilateral serbest sonlu durum tam olarak Kennedy Sınıf I tanımıdır.\n* **E) 33, 34, 35, 36, 37 eksik (Yanlış):** Tek taraflı serbest sonlu dişsizlik durumu olup Kennedy Sınıf II'dir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 339,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hareketli bölümlü protez tasarımında sağ posterior bölgede tek taraflı serbest sonlanma ve 2 adet ek dişsiz boşluk bulunan bir vakanın Kennedy sınıflaması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kennedy IV Mod 1",
+      "B": "Kennedy I Mod 2",
+      "C": "Kennedy II Mod 1",
+      "D": "Kennedy II Mod 2",
+      "E": "Kennedy I Mod 1"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Kennedy IV Mod 1 (Yanlış):** Sınıf IV anterior eksikliktir ve modifikasyonu bulunmaz.\n* **B) Kennedy I Mod 2 (Yanlış):** Çift taraflı serbest sonlanma gerektirir.\n* **C) Kennedy II Mod 1 (Yanlış):** Tek taraflı serbest sonlanma (Sınıf II) yanında sadece 1 adet ilave dişsiz boşluk bulunduğunu gösterir.\n* **D) Kennedy II Mod 2 (Doğru):** En gerideki dişsiz alan tek taraflı serbest sonlu olduğu için esas sınıflama Kennedy Sınıf II'dir. Bunun dışında kalan 2 ayrı ekstra dişsiz alan ise Modifikasyon 2 (Mod 2) olarak adlandırılır.\n* **E) Kennedy I Mod 1 (Yanlış):** Çift taraflı serbest sonlanma ve 1 modifikasyon alanını ifade eder.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 340,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir hastada üst çenede sağ ve sol orta kesici dişler, yan kesici dişler ve kanin dişler mevcuttur. Bu hastada, terminal destek dişlerde distoapikal devrilme hareketinin görüldüğü primer fulkrum ekseni düzlemi ve etrafında oluşabilecek rotasyon hareketinin gerçekleşeceği düzlem aşağıdakilerden hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Horizontal — Sagital",
+      "B": "Sagital — Horizontal",
+      "C": "Sagital — Frontal",
+      "D": "Vertikal — Horizontal",
+      "E": "Vertikal — Sagital"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Horizontal - Sagital (Yanlış):** Primer fulkrum ekseni terminal desteklerin tırnaklarından geçen hatta sagital düzlemle dik kesişir.\n* **B) Sagital - Horizontal (Yanlış):** Rotasyon hareketi düzlemi çenelerin kapanması ve distoapikal dönmelerde frontal ve sagital düzlem bileşenlerini içerir.\n* **C) Sagital - Frontal (Doğru):** Primer fulkrum ekseni her iki taraftaki en son destek dişlerin oklüzal tırnaklarından geçen çizgi olup sagital düzlemde yer alır. Çiğneme kuvvetleriyle protez dokuya doğru çöktüğünde rotasyon hareketi frontal düzlem etrafında gerçekleşir.\n* **D) Vertikal - Horizontal (Yanlış):** Vertikal eksen şaşırtıcı olup fulkrum ekseni düzlemi değildir.\n* **E) Vertikal - Sagital (Yanlış):** Ekseni vertikal kabul eden hatalı bir dizilimdir.",
+    "lesson": "Protez",
+    "flag_reason": "2012 İlkbahar DUS Orijinal",
+    "q_num": 341,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Verilen hareketli bölümlü protez tasarımında hareket yönü serbest sonlanan kretin sonundan yukarı doğru (dokudan uzaklaşma) gösterildiğine göre, bu hareketin eksen ve düzlem bilgisi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Horizontal — Frontal",
+      "B": "Sagital — Horizontal",
+      "C": "Horizontal — Sagital",
+      "D": "Vertikal — Horizontal",
+      "E": "Sagital — Vertikal"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Horizontal - Frontal (Yanlış):** Dokuya yaklaşma ve uzaklaşma hareketi sagital düzlemde görünür.\n* **B) Sagital - Horizontal (Doğru):** Distoapikal veya dokudan uzaklaşan yapışkan gıda hareketleri protezin ana fulkrum hattı (horizontal eksen) etrafında döner ve bu dönme hareketi yandan bakıldığında sagital düzlemde izlenir.\n* **C) Horizontal - Sagital (Yanlış):** Yanlara doğru devrilme (lateral rotasyon) hareketi sagital eksen etrafında horizontal düzlemdedir.\n* **D) Vertikal - Horizontal (Yanlış):** Vertikal düzlem protez rehberliğinde dik konumu ifade eder.\n* **E) Sagital - Vertikal (Yanlış):** Vertikal eksen etrafındaki dönmeler şanzıman/rotasyonel yer değiştirmelerdir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 342,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Kennedy I bir protezde meydana gelen birinci tip hareketin (dokuya doğru çökmeyle oluşan rotasyon) destek dişte meydana getirdiği kuvvet yönüdür?",
+    "options": {
+      "A": "Bukkal",
+      "B": "Lingual",
+      "C": "Distoapikal",
+      "D": "Rotasyonel",
+      "E": "Vertikal"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Bukkal (Yanlış):** Bukko-lingual kuvvetler ikinci ve üçüncü tip rotasyonel hareketlerde veya yanak kasılmalarında oluşur.\n* **B) Lingual (Yanlış):** Yanal çapraz kuvvetler sınıfına girer.\n* **C) Distoapikal (Doğru):** Serbest sonlu hareketli bölümlü protezlerde kaideye çiğneme yükü bindiğinde kaide dokuya doğru çöker. Bu esnada ana fulkrum ekseni üzerindeki terminal destek diş, protez kaidesi tarafından geriye ve aşağıya (disto-apikal yönlü) çekilerek zararlı bir kaldıraç kuvvetine maruz kalır.\n* **D) Rotasyonel (Yanlış):** Hareketin genel adıdır, diş üzerindeki spesifik kuvvet yönü değildir.\n* **E) Vertikal (Yanlış):** Tam dik kuvvetler aksiyel yüklerdir; serbest sonlu kaidede yük açılı eğildiği için distoapikal bileşen oluşur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 343,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt çenesinde sadece periodontal olarak sağlıklı anterior dişlere sahip bir hastada gingival marjin ile ağız tabanı arasındaki mesafe 11 mm'dir. Planlama ilkeleri doğrultusunda, bu hastada kullanılacak ana bağlayıcı ve gerekçesi aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Lingual bar — Ağız tabanı ve alt anterior dişlerin gingival marjinleri arasındaki mesafenin yeterli olmaması",
+      "B": "Lingual bar — En basit ve en konforlu ana bağlayıcı olması",
+      "C": "Lingual plak — İndirekt tutuculuk için ana bağlayıcıya ihtiyaç duyulması",
+      "D": "Lingual plak — Anterior dişlerin splintlenmesi",
+      "E": "Lingual plak — Ağız tabanı ve alt anterior dişlerin gingival marjinleri arasındaki mesafenin yeterli olmaması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Lingual bar / Yetersiz mesafe (Yanlış):** 11 mm mesafe lingual bar için son derece yeterlidir (en az 8 mm gereklidir).\n* **B) Lingual bar / En basit ve konforlu (Doğru):** Lingual barın alt kenarı ile ağız tabanı arasında 3-4 mm, üst kenarı ile gingival marjin arasında 4 mm olmak üzere toplamda en az 7-8 mm mesafe gerekir. Hastada 11 mm mesafe bulunduğundan ve dişler periodontal olarak sağlıklı olduğundan en konforlu, dokuyu en az kaplayan ve doku dostu olan Lingual Bar tercih edilir.\n* **C) Lingual plak / İndirekt tutuculuk (Yanlış):** Lingual plak ancak lingual bar için yeterli yükseklik (8 mm) bulunmadığında veya anterior dişlerde splintleme gerektiğinde seçilir.\n* **D) Lingual plak / Splintleme (Yanlış):** Hastanın anterior dişleri periodontal olarak sağlıklı olduğu için splintleme endikasyonu yoktur.\n* **E) Lingual plak / Yetersiz mesafe (Yanlış):** 11 mm mesafe yetersiz değil, fazlasıyla yeterlidir.",
+    "lesson": "Protez",
+    "flag_reason": "2012 İlkbahar DUS Orijinal",
+    "q_num": 344,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller arkı eksiksiz, mandibuler arkta ise 31, 32, 33, 41, 42 ve 43 numaralı dişleri ağzında olan bir hastaya hareketli bölümlü protez yapımı planlanmaktadır. Hastanın diş çekimlerinin 3 ay önce yapıldığı, kalan mandibuler dişlerin periodontal olarak sağlıklı ve dişlerin lingualindeki diş eti seviyesi ile ağız tabanı arasındaki mesafelerin 12 mm olduğu gözlenmiştir. Buna göre, hastaya yapılacak hareketli bölümlü protezin ana bağlayıcı seçiminde en uygun ana bağlayıcı türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lingual bar",
+      "B": "Lingual plak",
+      "C": "Labial bar",
+      "D": "Sublingual bar",
+      "E": "Cingulum bar"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Lingual bar (Yanlış):** Anterior bölgede 6 adet ön dişin tamamı çekilmiş ve serbest sonlu geniş bir anterior dişsizlik boşluğu mevcuttur. Lingual bar bu vakada indirekt tutuculuk veya anterior kret desteği sağlayamaz.\n* **B) Lingual plak (Doğru):** Anterior dişlerin tamamının eksik olduğu Kennedy Sınıf IV veya geniş anterior boşluklarda, protezin devrilmesini önlemek, doku desteği sağlamak ve indirekt tutuculuğa katkıda bulunmak amacıyla lingual plak yapılması gerekir.\n* **C) Labial bar (Yanlış):** Lingualde aşırı ekzostoz veya dilin linguale aşırı yatık olduğu özel anatomik zorunluluklarda kullanılır.\n* **D) Sublingual bar (Yanlış):** Lingual oluk derinliğinin yetersiz olduğu durumlarda barın oluk tabanına yatay yerleştirildiği tasarımdır.\n* **E) Cingulum bar (Yanlış):** Yalnızca cingulum üzerinde kalan bar olup rijitliği ve desteği bu vakada yetersizdir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 345,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lingual bar ana bağlayıcısı horizontal düzlemde ortadan kesildiğinde görülmesi beklenen kesit formu aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Tam yuvarlak",
+      "B": "Disk formu",
+      "C": "Yarım yuvarlak",
+      "D": "Yarım armut formu",
+      "E": "Armut formu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Tam yuvarlak (Yanlış):** Yuvarlak kesit dile rahatsızlık verir ve kalınlık oluşturur.\n* **B) Disk formu (Yanlış):** Yassı ve esnek bir yapı oluşturacağı için rijitlik prensibine aykırıdır.\n* **C) Yarım yuvarlak (Yanlış):** Üst ve alt sınır kalınlıkları eşit olan bir formdur.\n* **D) Yarım armut formu (Doğru):** Lingual barın en geniş ve kalın kısmı ağız tabanına bakan alt kenarıdır; üst kenarı ise diş eti marjinine doğru incelir. Bu düzgün hidrodinamik ve biyomekanik şekle \"yarım armut\" (half pear-shaped) kesit formu denir.\n* **E) Armut formu (Yanlış):** Tam armut kesit lingual yüzde çift taraflı şişkinlik yapacağı için dille temasta rahatsızlık yaratır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 346,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt çene hareketli bölümlü protez planlamasında, lingual barın ana bağlayıcı olarak kullanılabilmesi için gingival marjinden en az kaç mm uzakta olması gerekir?",
+    "options": {
+      "A": "2",
+      "B": "4",
+      "C": "6",
+      "D": "8",
+      "E": "10"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) 2 mm (Yanlış):** 2 mm mesafe diş eti marjininde iritasyona ve hiperplaziye neden olur.\n* **B) 4 mm (Doğru):** Lingual barın üst kenarı, serbest diş eti marjininin dolaşımını bozmamak ve doku harabiyeti yaratmamak için gingival marjinden en az 4 mm aşağıda konumlandırılmalıdır. Barın kendi yüksekliği de en az 4 mm olduğundan toplamda ağız tabanı ile marjin arasında 8 mm derinlik gerekir.\n* **C) 6 mm (Yanlış):** Üst çene (maksiller) ana bağlayıcılarının gingival marjinden bırakılması gereken minimum mesafedir.\n* **D) 8 mm (Yanlış):** Lingual barın uygulanabilmesi için gereken toplam ağız tabanı-gingival marjin mesafesidir.\n* **E) 10 mm (Yanlış):** Gerekenden fazla bir sınır değerdir.",
+    "lesson": "Protez",
+    "flag_reason": "2013 İlkbahar DUS Orijinal",
+    "q_num": 347,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yukarıda/aşağıda resimde lingual bar yerleşimi sağlanan kısmi dişsiz bir kretin sagittal görünüm bilgisi yer almaktadır. Protezin fonksiyonunda bir problem olmaması için ok ile gösterilen lingual bar üst kenarı ile gingival marjin arasındaki mesafe en az kaç mm olmalıdır?",
+    "options": {
+      "A": "0.5 mm",
+      "B": "1 mm",
+      "C": "2 mm",
+      "D": "3 mm",
+      "E": "4 mm"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) 0.5 mm (Yanlış):** Diş eti kenarına bası yaparak gingival çekilme ve inflamasyona yol açar.\n* **B) 1 mm (Yanlış):** Doku iritasyonu riskini önleyemez.\n* **C) 2 mm (Yanlış):** Yetersiz mesafedir.\n* **D) 3 mm (Yanlış):** Alt sınırın altındadır.\n* **E) 4 mm (Doğru):** Alt çenede lingual barın üst sınırı ile alt anterior dişlerin serbest diş eti marjini arasında bırakılması gereken emniyet mesafesi en az 4 mm'dir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 348,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller hareketli bölümlü protez tasarımına ait ana bağlayıcı yerleşim bilgisi verilen görselde ana bağlayıcı-diş eti mesafesi kaç mm olmalıdır?",
+    "options": {
+      "A": "2 mm",
+      "B": "3 mm",
+      "C": "4 mm",
+      "D": "5 mm",
+      "E": "6 mm"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) 2 mm (Yanlış):** Üst çenede diş eti marjinine çok yakın olup inflamasyon yaratır.\n* **B) 3 mm (Yanlış):** Yetersiz mesafedir.\n* **C) 4 mm (Yanlış):** Alt çenedeki Lingual Bar için geçerli mesafedir.\n* **D) 5 mm (Yanlış):** Üst çene kural sınırının altındadır.\n* **E) 6 mm (Doğru):** Maksiller arkta kullanılan tüm palatal ana bağlayıcıların (palatal bant, palatal plak, U palatal vb.) üst anterior veya posterior dişlerin gingival marjinlerinden en az 6 mm uzakta ve marjine paralel olarak sonlanması şarttır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 349,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hareketli bölümlü protez ana bağlayıcılarından hangisi mandibulada kullanılmaz?",
+    "options": {
+      "A": "Singulum barlı labial bar",
+      "B": "Singulum bar",
+      "C": "Labial bar",
+      "D": "Singulum barlı lingual bar",
+      "E": "Sublingual bar"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Singulum barlı labial bar (Doğru - Kullanılmaz):** Labial bar dişlerin ve kretin labialinden/vestibülünden geçer. Singulum ise dişlerin lingual yüzeyinde yer alan anatomik yapıdır. Bir barın aynı anda hem labialde hem de lingualdeki singulum üzerinde olması anatomik ve mekanik olarak imkansız bir kombinasyondur.\n* **B) Singulum bar (Yanlış):** Mandibulada ön dişlerin lingualindeki singulumlar üzerine oturtulan geçerli bir alt çene ana bağlayıcısıdır (Devamlı tırnak/bar).\n* **C) Labial bar (Yanlış):** Lingualde aşırı torus veya dilde büyük anatomik engeller olduğunda kullanılan alt çene ana bağlayıcısıdır.\n* **D) Singulum barlı lingual bar (Yanlış):** Lingual bar ile singulum barın bir arada kullanıldığı kombine alt çene ana bağlayıcısıdır (Kopp bağlayıcısı).\n* **E) Sublingual bar (Yanlış):** Ağız tabanı derinliği az olduğunda lingual sulkusun tabanına yatay yerleştirilen alt çene ana bağlayıcısıdır.",
+    "lesson": "Protez",
+    "flag_reason": "2016 DUS Orijinal",
+    "q_num": 350,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Labial bar**\n**II. Singulum bar**\n**III. Lingual plak**\n\n**Yukarıda verilenlerden hangisi ya da hangileri mandibular hareketli bölümlü protezlerde kullanılan ana bağlayıcılardandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I - II",
+      "C": "II - III",
+      "D": "I - III",
+      "E": "I - II - III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Labial bar (Doğru):** Mandibulada lingual anatomik engeller varlığında kullanılan bir alt çene ana bağlayıcısıdır.\n* **II. Singulum bar (Doğru):** Mandibulada anterior dişlerin singulumları üzerine yerleştirilen alt çene ana bağlayıcısıdır.\n* **III. Lingual plak (Doğru):** Mandibulada ağız tabanı derinliği yetersiz olduğunda veya indirekt tutuculuk istendiğinde kullanılan ana alt çene bağlayıcısıdır.\n* **Sonuç:** Bütün öncüller (I, II ve III) mandibuler ana bağlayıcı çeşitleridir. Bu nedenle cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 351,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Görselde verilen ve protez iskeletinin vestibülden geçen metal parçasından anlaşılan ana bağlayıcının aşağıdaki protez tasarımlarından hangisinde kullanılması önerilmez?",
+    "options": {
+      "A": "Mandibular Kennedy II",
+      "B": "Mandibular Kennedy II Mod 1",
+      "C": "Maksiller Kennedy IV",
+      "D": "Mandibular Kennedy III",
+      "E": "Mandibular Kennedy IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Mandibular Kennedy II (Yanlış):** Alt çenede lingual engel varsa labial bar kullanılabilir.\n* **B) Mandibular Kennedy II Mod 1 (Yanlış):** Alt çene vakalarında kullanılabilir.\n* **C) Maksiller Kennedy IV (Doğru):** Görselde bahsedilen ana bağlayıcı Labial Bar'dır. Labial bar alt çeneye (mandibulaya) özgü bir ana bağlayıcıdır. Maksiller (üst çene) vakalarında labial bar kullanımı anatomik ve fonksiyonel olarak kesinlikle önerilmez ve uygulanmaz.\n* **D) Mandibular Kennedy III (Yanlış):** Alt çene vakası olduğu için uygulanabilir.\n* **E) Mandibular Kennedy IV (Yanlış):** Alt çene vakalarında kullanılabilir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 352,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Swing-lock tasarımına sahip hareketli bölümlü protezlerde, hangi ana bağlayıcı tasarımın modifiye edilmiş şekli kullanılır?",
+    "options": {
+      "A": "Lingual bar",
+      "B": "Lingual plak",
+      "C": "Sublingual bar",
+      "D": "Palatal bar",
+      "E": "Kesintili lingual plak"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Lingual bar (Yanlış):** Swing-lock sisteminde mentoşeli vestibül bar ile lingual plak birleşimi kullanılır.\n* **B) Lingual plak (Doğru):** Swing-lock protezlerin lingual gövdesi, dişlerin lingual yüzeylerini tamamen kaplayan ve mentoşeli labial bar kilitlendiğinde dişleri çember gibi saran modifiye Lingual Plak yapısındadır.\n* **C) Sublingual bar (Yanlış):** Swing-lock mekanizması oluşturmaz.\n* **D) Palatal bar (Yanlış):** Üst çene bağlayıcısı olup Swing-lock alt çenede spesifiktir.\n* **E) Kesintili lingual plak (Yanlış):** Plak bütünlüğü kesintisizdir.",
+    "lesson": "Protez",
+    "flag_reason": "2017 DUS Orijinal",
+    "q_num": 353,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lingual plağın vestibül sulkus kısmına bar bağlantı eklenerek tek parça halinde kullanıldığı ve anterior kısmında akrilik parçaya sahip olan hareketli bölümlü protez tasarımı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Applegate",
+      "B": "Swing-lock",
+      "C": "Rroute",
+      "D": "Mc Lean",
+      "E": "Sykora"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Applegate (Yanlış):** Serbest sonlu protezlerde ölçü teknikleri ve kurallarıyla bilinen isimdir.\n* **B) Swing-lock (Doğru):** Bir tarafta menteşe (hinge), diğer tarafta mandal kilit bulunan, vestibülden geçen labial bar ile lingualdeki modifiye lingual plağın birleşmesiyle oluşan özel hareketli protez tasarımına Swing-lock adı verilir.\n* **C) Rroute (Yanlış):** Fonksiyonel ölçü metodudur.\n* **D) Mc Lean (Yanlış):** Çift ölçülü kaide kaydı yöntemidir.\n* **E) Sykora (Yanlış):** Ölçü materyali/yöntemi tanımlamasıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 354,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde mandibular Kennedy I protezin uzun dönem prognozu açısından Swing-lock dizayn kullanılması uygun değildir?",
+    "options": {
+      "A": "Kanin dişlerin eksik olduğu vaka",
+      "B": "Anterior dişlerin aşırı labiale eğimli olduğu vaka",
+      "C": "Mevcut anterior dişlerin yetersiz destek olduğu vaka",
+      "D": "Anterior bölgeden kist operasyonu geçiren vaka",
+      "E": "Labial sulkusun sığ olduğu vaka"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Kanin dişlerin eksik olduğu vaka (Yanlış):** Swing-lock eksik kaninlerin tutuculuğunu diğer dişlere yaymak için harika bir endikasyondur.\n* **B) Anterior dişlerin aşırı labiale eğimli olduğu vaka (Yanlış):** Labial bar ve kilitleme mekanizması ile stabilite sağlanabilir.\n* **C) Mevcut anterior dişlerin yetersiz destek olduğu vaka (Yanlış):** Bütün ön dişleri birbirine bağlayarak splint etkisi yaratır.\n* **D) Anterior bölgeden kist operasyonu geçiren vaka (Yanlış):** Doku kaybı olan vakalarda akrilik fasyal kanat desteği sunar.\n* **E) Labial sulkusun sığ olduğu vaka (Doğru):** Swing-lock sisteminin çalışan ana parçası labial sulkustan geçen mentoşeli labial bardır. Labial sulkusun sığ olduğu vakalarda bu bar yerleştirilemeyeceğinden Swing-lock kullanımı kontrendikedir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 355,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yumuşak damağa kadar uzanan ve opere edilemeyen maksiller torus varlığında aşağıdaki ana bağlayıcı tiplerinden hangisi kullanılır?",
+    "options": {
+      "A": "Palatal plak",
+      "B": "Palatal bar",
+      "C": "Palatal U plak",
+      "D": "Palatal H bar",
+      "E": "Labial bar"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Palatal plak (Yanlış):** Damağın ortasını ve sert damağın tamamını kapladığı için palatal torusa bası yapar.\n* **B) Palatal bar (Yanlış):** Torusun üzerine denk geleceği için iritasyona neden olur.\n* **C) Palatal U plak (Doğru):** Damağın orta posterior kısmında yer alan ve cerrahi olarak çıkartılamayan geniş maksiller torusların etrafından dolanarak anterior ve lateral kısımlardan geçen \"U şekilli (At nalı)\" palatal plak, torusu açıkta bıraktığı için birincil seçenektir.\n* **D) Palatal H bar (Yanlış):** Ortada enine bar bulundurduğu için torusa çapar.\n* **E) Labial bar (Yanlış):** Alt çene bağlayıcısıdır.",
+    "lesson": "Protez",
+    "flag_reason": "2012 Sonbahar DUS Orijinal",
+    "q_num": 356,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hareketli bölümlü protez yapılması planlanan kısmi dişsizlik vakalarından hangisinde palatal U plak kullanılması uygundur?",
+    "options": {
+      "A": "Dudak-damak yarığı durumu",
+      "B": "Aşırı kret rezorpsiyonu olan Kennedy I vaka",
+      "C": "Cerrahi yapılamayan maksiller torusu olan vaka",
+      "D": "Uzun dişsizliği olan Kennedy II vaka",
+      "E": "Anamnezi III operasyonu olan vaka"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Dudak-damak yarığı durumu (Yanlış):** Yarığın kapatılması için damak ortasını örten geniş palatal plaklar gerekir.\n* **B) Aşırı kret rezorpsiyonu olan Kennedy I vaka (Yanlış):** Geniş doku desteği sağlayan tam palatal plak tercih edilmelidir.\n* **C) Cerrahi yapılamayan maksiller torusu olan vaka (Doğru):** Damağın posterior veya orta kısmında opere edilemeyen sert kemik çıkıntıları (torus palatinus) varlığında, torusu pas geçip etrafından dolaşan Palatal U Plak (At nalı) tercih edilir.\n* **D) Uzun dişsizliği olan Kennedy II vaka (Yanlış):** Rijitliği daha yüksek olan kombine anterior-posterior palatal bantlar tercih edilir.\n* **E) Anamnezi III operasyonu olan vaka (Yanlış):** Spesifik bir bağlayıcı kuralı değildir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 357,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda alçı modeli verilen maksiller kısmi dişsizlik vakasında (Anterior bölgede dişsizlik mevcut) kullanılabilecek en uygun ana bağlayıcı türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Palatal bar",
+      "B": "Palatal bant",
+      "C": "Labial bar",
+      "D": "Palatal U plak",
+      "E": "Lingual bar"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Palatal bar (Yanlış):** Anterior diş eksikliklerinde ön bölgeye uzanamaz.\n* **B) Palatal bant (Yanlış):** Yalnızca orta bölge posterior dişsizliklerinde etkilidir.\n* **C) Labial bar (Yanlış):** Mandibula ana bağlayıcısıdır.\n* **D) Palatal U plak (Doğru):** Üst çenede anterior dişlerin eksik olduğu ve posterior bölgeye uzanımın gerekmediği Kennedy Sınıf IV veya anterior modifikasyon boşluklarında U-şekilli palatal plak mükemmel uyum sağlar.\n* **E) Lingual bar (Yanlış):** Alt çene bağlayıcısıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 358,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bölümlü protezlerde kullanılan palatal plak endikasyonlarından biri değildir?",
+    "options": {
+      "A": "Bazı damak yarıklı vakalar",
+      "B": "Torus palatinus olan vakalar",
+      "C": "Sert damağın anatomik formunun düzleşmiş olduğu vakalar",
+      "D": "Rezorbe kretlerde ciddi rezorpsiyonun oluştuğu vakalar",
+      "E": "Doğal dişlerin periodontal desteklerinin büyük bir kısmını kaybettiği vakalar"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Bazı damak yarıklı vakalar (Yanlış):** Yarığın üzerini kapatmak için palatal plak endikedir.\n* **B) Torus palatinus olan vakalar (Doğru - Endikasyon Değildir):** Palatal plak sert damağın büyük bölümünü kaplar. Torus palatinus varlığında tam palatal plak kemik çıkıntısına bası yapıp protezin devrilmesine neden olacağı için kontrendikedir (U-plak kullanılmalıdır).\n* **C) Sert damağın anatomik formunun düzleşmiş olduğu vakalar (Yanlış):** Geniş yüzey tutuculuğu gerektiği için palatal plak kullanılır.\n* **D) Rezorbe kretlerde ciddi rezorpsiyonun oluştuğu vakalar (Yanlış):** Kuvveti geniş damak yüzeyine yaymak için palatal plak endikedir.\n* **E) Doğal dişlerin periodontal desteklerinin büyük bir kısmını kaybettiği vakalar (Yanlış):** Yükü dişlerden alıp mukozaya dağıtmak için plak tercih edilir.",
+    "lesson": "Protez",
+    "flag_reason": "2013 Sonbahar DUS Orijinal",
+    "q_num": 359,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Torus palatinus varlığı**\n**II. Sert damağın düzleştiği vaka**\n**III. Aşırı rezorbe Kennedy I vaka**\n\n**Yukarıda verilen hasta profillerinden hangisi ya da hangilerine alt/üst maksiller hareketli bölümlü protez yapımında palatal plak kullanımı uygundur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I - III",
+      "D": "II - III",
+      "E": "I - II - III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **I. Torus palatinus varlığı (Hatalı):** Torus varlığında palatal plak yapılamaz, U-plak seçilmelidir.\n* **II. Sert damağın düzleştiği vaka (Doğru):** Düzleşmiş damakta retansiyon azalacağı için geniş palatal plak kaplaması gerekir.\n* **III. Aşırı rezorbe Kennedy I vaka (Doğru):** Kretlerdeki kemik kaybı nedeniyle çiğneme yüklerinin sert damağa yayılması için geniş palatal plak endikedir.\n* **Sonuç:** II ve III numaralı durumlar palatal plak için uygun endikasyonlardır. Bu nedenle cevap D seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 360,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yukarıda maksiller görünümü verilen vakada (geniş bilateral posterior ve anterior boşluklar) kullanılması en uygun ana bağlayıcı türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Palatal bar",
+      "B": "Palatal plak",
+      "C": "U şekilli palatal bağlayıcı",
+      "D": "Palatal bant",
+      "E": "Labial bar"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Palatal bar (Yanlış):** Dar bant olup geniş boşluklarda rijitlik ve destek sağlayamaz.\n* **B) Palatal plak (Doğru):** Çok sayıda dişin eksik olduğu, periodontal desteğin azaldığı veya rezorpsiyonun fazla olduğu geniş maksiller eksikliklerde maximum doku desteği ve yük dağılımı sağlayan Palatal Plak en ideal ana bağlayıcıdır.\n* **C) U şekilli palatal bağlayıcı (Yanlış):** Yalnızca torus varlığında zorunlu kalındığında seçilir, esneme riski yüksektir.\n* **D) Palatal bant (Yanlış):** Kısa dişsiz boşluklarda tercih edilir.\n* **E) Labial bar (Yanlış):** Alt çene bağlayıcısıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 361,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki durumlardan hangisinde maksiller hareketli bölümlü protezde palatal U plak kullanımı birincil seçenektir?",
+    "options": {
+      "A": "Sert damağın posteriorunda opere edilemeyen torus palatinus varlığı",
+      "B": "Kennedy Class III modifikasyonsuz kısa dişsizlik",
+      "C": "Serbest sonlu Kennedy I vakası",
+      "D": "Şiddetli periodontal kemik kaybı olan dişler",
+      "E": "Yüksek damak kubbesi varlığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Sert damağın posteriorunda opere edilemeyen torus palatinus varlığı (Doğru):** Torusun üzerini kapatmadan etrafından dolanabilen tek üst çene ana bağlayıcısı Palatal U Plaktır.\n* **B) Kennedy Class III modifikasyonsuz kısa dişsizlik (Yanlış):** Palatal bant kullanımı yeterlidir.\n* **C) Serbest sonlu Kennedy I vakası (Yanlış):** Kombine palatal bant veya palatal plak tercih edilmelidir.\n* **D) Şiddetli periodontal kemik kaybı olan dişler (Yanlış):** Palatal plak gerekir.\n* **E) Yüksek damak kubbesi varlığı (Yanlış):** Palatal bantlar rahatlıkla uygulanır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 362,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst çenede çift taraflı serbest sonlu ve anteriorda modifikasyon boşlukları olan bir hastada, rezidüel kret yüksekliklerinin yeterli ve mevcut dişlerin periodontal sağlığının iyi olduğu görüldüğünde, aşağıdaki ana bağlayıcı tiplerinden hangisinin kullanımı en uygun olarak düşünülür?",
+    "options": {
+      "A": "U plak",
+      "B": "Palatal bar",
+      "C": "Palatal bant",
+      "D": "Ön-arka kombine palatal bant (Anterior-Posterior Palatal Strap)",
+      "E": "Çift palatal bar"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) U plak (Yanlış):** Yeterli rijitlik sağlamaz, posterior uçları esneme yapabilir.\n* **B) Palatal bar (Yanlış):** Rijitliği az ve dardır.\n* **C) Palatal bant (Yanlış):** Tek başına hem ön hem arka boşlukları bağlamada dar kalabilir.\n* **D) Ön-arka kombine palatal bant (Anterior-Posterior Palatal Strap) (Doğru):** Hem anterior hem posterior diş eksikliği içeren ve ortada damak dokusunu açıkta bırakarak rijitlik sağlayan L-şekilli/kutu tasarımlı A-P Palatal Bant, mükemmel rijitlik ve konfor sunduğu için ilk seçenektir.\n* **E) Çift palatal bar (Yanlış):** Barlar kalın yapıldığı için dilde rahatsızlık yaratır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 363,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hareketli bölümlü protezlerde tırnakların ve tırnak yuvalarının temel fonksiyonları düşünüldüğünde, oklüzal tırnakların en birincil görevi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Proteze estetik kazandırmak",
+      "B": "Protezin dokuya gömülmesini önlemek ve vertikal desteği sağlamak",
+      "C": "Protezin yerinden çıkmasını sağlayan direkt tutuculuğu oluşturmak",
+      "D": "Protezin lateral kaymalarını engellemek",
+      "E": "Kroşe kollarının esnekliğini artırmak"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Proteze estetik kazandırmak (Yanlış):** Tırnaklar metal olup estetik kaygı oluşturabilir, birincil amaç estetik değildir.\n* **B) Protezin dokuya gömülmesini önlemek ve vertikal desteği sağlamak (Doğru):** Oklüzal tırnağın birincil ve en hayati görevi, çiğneme esnasında protezin mukoza ve dokulara doğru gömülmesini (dikey yönde hareketini) engellemek ve yükü dişin uzun aksı boyunca ileterek vertikal destek sağlamaktır.\n* **C) Protezin yerinden çıkmasını sağlayan direkt tutuculuğu oluşturmak (Yanlış):** Direkt tutuculuğu kroşe kollarının retantif uçları sağlar.\n* **D) Protezin lateral kaymalarını engellemek (Yanlış):** Müttefik olarak stabiliteye katkı sağlasa da birincil görevi vertikal destektir.\n* **E) Kroşe kollarının esnekliğini artırmak (Yanlış):** Tırnaklar tamamen rijit yapılardır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 364,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "**Aşağıdakilerden hangisi hareketli bölümlü protezlerin parçaları olan oklüzal tırnakların özelliklerindendir?**\n\nI. Tabanı marjinal sırtta, apeksi dişin merkezinde olan üçgen formundadır.\nII. Derinliği en az 1-1.5 mm olacak şekilde hazırlanır.\nIII. Oklüzal tırnak ile küçük bağlayıcı arasındaki açı 90 dereceden küçük olmalıdır.",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve III",
+      "C": "Yalnız II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Üçgen form (Doğru):** Oklüzal tırnak yuvası tepesi dişin merkezine, tabanı marjinal sırta bakan yuvarlatılmış bir üçgen şeklindedir.\n* **II. Derinlik (Doğru):** Yeterli metal kalınlığı ve rijitlik sağlamak amacıyla marjinal sırttaki kırılmayı önlemek için tırnak yuvası derinliği en az 1 - 1.5 mm hazırlanmalıdır.\n* **III. Açı < 90° (Doğru):** Çiğneme kuvvetinin dişi devirmeyip uzun aksa iletilmesi ve tırnağın yuvadan kaymaması için oklüzal tırnak ile ona bağlı küçük bağlayıcı arasındaki açı mutlaka 90°'den küçük (dar açı) olmalıdır.\n* **Sonuç:** Üç öncül de (I, II ve III) oklüzal tırnakların temel kurallarıdır. Bu nedenle cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "2019 DUS Orijinal",
+    "q_num": 365,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hareketli bölümlü protezlerde hazırlanan oklüzal tırnak yuvaları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Oklüzal tırnak ile küçük bağlayıcı arasındaki açı 90 dereceden büyük olmalıdır.",
+      "B": "Oklüzal tırnağın tabanı marjinal sırtta, apeksi ise dişin merkezindedir.",
+      "C": "Oklüzal tırnağın toplam mezio-distal genişliği, dişin mezio-distal boyutunun 1/3'ü ile 1/2'si kadar olmalıdır.",
+      "D": "Yeterli rijitlik için marjinal sırtta ortalama 1.5 mm reduction yapılmalıdır.",
+      "E": "Oklüzal tırnak hazırlığı dişin mine sınırı içinde kalmalı, dentine geçmemelidir."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Açı 90 dereceden büyük olmalıdır (Doğru - Yanlış İfadedir):** Oklüzal tırnak ile küçük bağlayıcı arasındaki açı 90°'den büyük (geniş açı) olursa, çiğneme sırasında tırnak yuvadan kayar ve dişi iterek uzaklaştırır. Bu açı mutlaka 90°'den KÜÇÜK (dar açı) olmalıdır.\n* **B) Taban marjinal sırtta, apeks merkezde (Yanlış):** Doğru tırnak morfolojisidir.\n* **C) Mezio-distal genişlik 1/3 - 1/2 (Yanlış):** Doğru boyut kuralıdır.\n* **D) Marjinal sırtta 1.5 mm redüksiyon (Yanlış):** Doğru derinlik kuralıdır.\n* **E) Mine sınırında kalmalı (Yanlış):** Hassasiyet ve çürük oluşmaması için hazırlık minede kalmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 366,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yukarıda/aşağıda resimde ok ile gösterilen lingual kısımda yer alan kroşe kolu aracılığıyla ilgili dişe tutunması sağlanan ve protezin dokuya doğru olan gömülme hareketini önleyen protez elemanı aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "İnternal ataşman",
+      "B": "Hassas bağlantı",
+      "C": "İnternal tırnak",
+      "D": "İnterproksimal tırnak",
+      "E": "Akers kroşe"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) İnternal ataşman (Yanlış):** Hassas tutucunun genel adıdır.\n* **B) Hassas bağlantı (Yanlış):** İki parçalı kilit sistemidir.\n* **C) İnternal tırnak (Doğru):** Dışarıdan metal kroşe görünümünü engellemek ve protezin dokuya gömülmesini önleyip vertikal destek sağlamak için kronun içerisine hazırlanan özel yuvaya oturan tırnak yapısına İnternal Tırnak (Hassas tırnak) denir.\n* **D) İnterproksimal tırnak (Yanlış):** İki komşu dişin arasındaki embraşür bölgesine konulan tırnaktır.\n* **E) Akers kroşe (Yanlış):** Dışarıdan sarılan geleneksel kroşedir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 367,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "**Hareketli bölümlü protez unsurlarından olan oklüzal tırnak yuvalarıyla ilgili yukarıda belirtilen hazırlama kurallarından hangileri doğrudur?**\n\nI. Dış sınırları yuvarlatılmış apeksi kısmı dişin merkezine doğru olacak şekilde üçgen şekilli olmalıdır.\nII. Kuvvetleri dişin uzun aksına iletebilmesi için minör bağlayıcı ile tabanı arasındaki açı 90° olmalıdır (90°'den küçük).\nIII. Dişin meziodistal çapının 1/3'ü veya 1/2'sinden fazla alan kaplamamalıdır.\nIV. Dişin kasp tepesinden diğer kasp tepesine bukkolingual boyutunun 1/2'si kadar alan kaplamalıdır (1/3'ü kadar).",
+    "options": {
+      "A": "I, III ve IV",
+      "B": "III ve IV",
+      "C": "II ve IV",
+      "D": "I, II ve IV",
+      "E": "I ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Dış sınırları yuvarlatılmış üçgen form (Doğru):** Tırnak yuvası tepesi merkezde olan yuvarlatılmış üçgendir.\n* **II. Açı kuralı (Hatalı):** Açı 90° değil, mutlaka 90°'den KÜÇÜK olmalıdır.\n* **III. Meziodistal boyut 1/3 - 1/2 (Doğru):** Tırnak meziodistal olarak dişin 1/3 ile 1/2'si arasında olmalıdır.\n* **IV. Bukkolingual boyut (Hatalı):** Bukkolingual genişlik tüberkül tepeleri arası mesafenin 1/2'si değil, 1/3'ü kadar olmalıdır.\n* **Sonuç:** I ve III numaralı öncüller doğrudur. Bu nedenle cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "2024 İlkbahar DUS Orijinal",
+    "q_num": 368,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kısmi dişsizliğe sahip olan 53 yaşındaki bayan hastaya geleneksel hareketli bölümlü protez yapımı planlanmaktadır. İlgili hastanın protez dizaynında oklüzal tırnak tasarımı mevcut olduğuna göre, tırnak hazırlığında hekimin dikkate alması gereken bilgilerden hangisi söylenemez?",
+    "options": {
+      "A": "Oklüzal tırnak yuvası kenarları yuvarlatılmış üçgen şeklinde hazırlanmalıdır.",
+      "B": "Tırnak yuvasının genişliği kadar uzunluğu olmalıdır.",
+      "C": "Marjinal sırttan ortalama 2.5 mm'lik redüksiyon yapılmalıdır.",
+      "D": "Oklüzal tırnak yuvasının tabanı marjinal sırtın apeksinde konumlanmalıdır.",
+      "E": "Oklüzal tırnak ve vertikal küçük bağlayıcı arasındaki açı 90°'den küçük olmalıdır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Yuvarlatılmış üçgen (Yanlış - Söylenebilir):** Doğru kuraldır.\n* **B) Genişliği kadar uzunluğu (Yanlış - Söylenebilir):** Taban genişliği ile uzunluğu dengelidir.\n* **C) Marjinal sırttan 2.5 mm redüksiyon (Doğru - Söylenemez):** Marjinal sırttan yapılan redüksiyon 2.5 mm gibi aşırı bir miktar olamaz; mine sınırında kalacak şekilde ortalama 1.0 - 1.5 mm redüksiyon yapılması yeterli ve şarttır. 2.5 mm redüksiyon dentine açılmasına neden olur.\n* **D) Taban marjinal sırtta (Yanlış - Söylenebilir):** Doğru kuraldır.\n* **E) Açı < 90° (Yanlış - Söylenebilir):** Doğru kuraldır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 369,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi oklüzal tırnağın bukkolingual genişlik kuralıdır?",
+    "options": {
+      "A": "Dişin bukkolingual tüberkül tepeleri arası mesafesinin 1/3'ü kadar olmalıdır.",
+      "B": "Dişin bukkolingual tüberkül tepeleri arası mesafesinin 2/3'ü kadar olmalıdır.",
+      "C": "Dişin meziodistal çapının tamamı kadar olmalıdır.",
+      "D": "Dişin kole çizgisinin genişliği kadar olmalıdır.",
+      "E": "Dişin marjinal sırt yüksekliğinin iki katı olmalıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Tüberkül tepeleri arası mesafenin 1/3'ü (Doğru):** Oklüzal tırnağın bukkolingual yöndeki genişliği, tırnağın yerleştirileceği destek dişin bukkal ve lingual tüberkül tepeleri arasındaki mesafenin tam olarak üçte biri (1/3) kadar hazırlanmalıdır.\n* **B) 2/3'ü kadar (Yanlış):** Aşırı geniş olup dişi zayıflatır.\n* **C) Meziodistal çapın tamamı (Yanlış):** Hatalı ölçüdür.\n* **D) Kole genişliği (Yanlış):** Kole genişliği tırnakla ilgili değildir.\n* **E) Marjinal sırtın iki katı (Yanlış):** Hatalı bir orandır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 370,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kanin dişlerde hazırlanan cingulum tırnak yuvalarının formu ve yerleşimi ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Yuvarlatılmış \"V\" veya \"U\" şeklinde, lingual sırtın üzerinde ve cingulumun hemen oklüzalinde hazırlanır.",
+      "B": "Dikdörtgen şeklinde, insizal kenara yakın hazırlanır.",
+      "C": "Derin ve keskin köşeli olarak dentin dokusu içinde hazırlanır.",
+      "D": "Düz bir çizgi şeklinde labial yüzeyde hazırlanır.",
+      "E": "Yuvarlatılmış kare şeklinde labial servikalde hazırlanır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Yuvarlatılmış V veya U şeklinde, cingulumun oklüzalinde (Doğru):** Maksiller kaninlerde cingulum tırnak yuvası, dişe gelen kuvvetlerin dişi devirmeyip uzun aks boyunca iletilmesi için lingualdeki cingulum belirginliğinin hemen üstünde/oklüzalinde, \"V\" veya \"U\" harfi şeklinde ve keskin köşeleri yuvarlatılarak minede hazırlanır.\n* **B) Dikdörtgen ve insizale yakın (Yanlış):** İnsizale yakın tırnaklar estetiği bozar ve dişe kaldıraç kuvveti uygular.\n* **C) Derin ve dentin içinde (Yanlış):** Tırnak yuvaları mutlaka mine sınırında kalmalıdır, dentine girilirse duyarlılık ve çürük oluşur.\n* **D) Düz çizgi labialde (Yanlış):** Tırnaklar lingual yüzeyde yer alır.\n* **E) Kare şeklinde labial servikalde (Yanlış):** Labial yüzde tırnak yuvası hazırlanmaz.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 371,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Cingulum tırnak yuvasının maksiller kanin dişlerde mandibuler kanin dişlere göre daha sık ve kolay uygulanabilmesinin temel nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Üst kaninlerin kök boyunun daha kısa olması",
+      "B": "Üst kaninlerin lingualinde cingulum ve mine tabakasının daha belirgin ve kalın olması",
+      "C": "Üst kaninlerin labial yüzeyinin daha düz olması",
+      "D": "Alt kaninlerde pulpa odasının daha geniş olması",
+      "E": "Alt kaninlerin meziodistal çapının daha geniş olması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Kök boyunun kısa olması (Yanlış):** Üst kaninin kökü tam tersine ağızdaki en uzun köktür.\n* **B) Cingulum ve mine tabakasının kalın olması (Doğru):** Üst kanin dişlerde lingual taraftaki anatomik cingulum çıkıntısı ve mine tabakası son derece belirgindir. Bu durum tırnak yuvasının dentine ulaşmadan minede güvenle açılmasına imkan tanır. Alt kaninlerde ise cingulum silik ve mine incedir.\n* **C) Labial yüzeyin düz olması (Yanlış):** Tırnak yuvası lingual yüzeyde hazırlanır.\n* **D) Pulpa odasının genişliği (Yanlış):** Cingulum tırnağının yapılabilirliği ile doğrudan ilişkili değildir.\n* **E) Meziodistal çapın genişliği (Yanlış):** Cingulum kalınlığı belirleyici faktördür.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 372,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt kanin dişlerde cingulum anatomisinin yetersiz olduğu durumlarda vertikal destek ve indirekt tutuculuk sağlamak amacıyla hazırlanan tırnak yuvası tipi ve konumu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İnsizal tırnak - Dişin mezioinsizal veya distoinsizal köşesinde",
+      "B": "Oklüzal tırnak - Santral fossada",
+      "C": "Labial tırnak - Servikal üçlüde",
+      "D": "Dairesel tırnak - Kök yüzeyinde",
+      "E": "Bilye tırnak - Aksiyel duvarda"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) İnsizal tırnak / İnsizal köşede (Doğru):** Alt kanin dişlerde cingulum silik olduğu için cingulum tırnak yuvası açılamadığında, estetik olarak kabul edilebilir vakalarda dişin mezio-insizal veya disto-insizal köşesinde \"İnsizal Tırnak Yuvası\" hazırlanır.\n* **B) Oklüzal tırnak (Yanlış):** Kanin dişlerde oklüzal yüzey ve santral fossa bulunmaz.\n* **C) Labial tırnak (Yanlış):** Labial yüzde tırnak yapılmaz.\n* **D) Dairesel tırnak (Yanlış):** Tanımlanmış bir protez tırnak tipi değildir.\n* **E) Bilye tırnak (Yanlış):** Hassas tutucularda kullanılan erkek parça tanımıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 373,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İnsizal tırnakların kullanımı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Esas olarak alt kanin dişlerde tercih edilirler.",
+      "B": "Cingulum tırnağına göre estetik olarak daha az kabul edilebilirler.",
+      "C": "Dişin dönme merkezine cingulum tırnağından daha uzak olduğu için daha fazla kaldıraç kuvveti oluştururlar.",
+      "D": "İnsizal tırnak yuvasının tabanı labiale doğru eğimli hazırlanmalıdır.",
+      "E": "İnsizal tırnak yuvası en az 1.5 mm genişliğinde ve 1.5 mm derinliğinde çentik şeklinde hazırlanır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Alt kaninlerde tercih edilir (Yanlış):** Cingulumu yetersiz alt kaninlerde ana seçenektir.\n* **B) Estetik olarak daha az kabul edilebilir (Yanlış):** Metal görünürlüğü fazla olduğu için estetikte dezavantajlıdır.\n* **C) Kaldıraç kuvveti oluşturur (Yanlış):** İnsizal kenara yakınlık dönme merkezinden uzaklaştığı için kaldıraç kolunu uzatır.\n* **D) Taban labiale eğimli olmalıdır (Doğru - Yanlış İfadedir):** İnsizal tırnak yuvasının tabanı labiale doğru değil, linguale/eksen yönüne doğru eğimli olmalıdır. Taban labiale eğimli olursa tırnak çiğneme kuvveti altında labiale doğru kayar ve protez stabilizasyonunu kaybeder.\n* **E) 1.5 mm genişlik ve derinlik (Yanlış):** Çentik boyutu minede kalacak şekilde 1.5 mm civarındadır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 374,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Meziale doğru 45 derece eğim gösteren 47 numaralı molar dişin hareketli bölümlü proteze dahil edilmesi ve protezin dokuya gömülmesini önleyici/kaldıraç kuvvetini azaltıcı bir parça içermesi istendiğinde, ilgili dişe uygulanması gereken oklüzal tırnak tasarımı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Meziale oklüzal tırnak",
+      "B": "Distale oklüzal tırnak",
+      "C": "Uzatılmış (Anteriora uzanan) oklüzal tırnak",
+      "D": "Resiprokal tırnak",
+      "E": "İnterproksimal tırnak"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Meziale oklüzal tırnak (Yanlış):** Diş meziale devrik olduğu için mezial tırnak dişi daha da öne devirir.\n* **B) Distale oklüzal tırnak (Yanlış):** Devrik dişte tek başına distale koymak kaldıraç kuvvetini çözmez.\n* **C) Resiprokal tırnak (Yanlış):** Tırnak değil kol tanımıdır.\n* **D) Bar kroşe (Yanlış):** Tırnak tipi değildir.\n* **E) Uzatılmış oklüzal tırnak (Doğru):** Meziale aşırı devrilmiş (eğilmiş) posterior molar dişlerde, dişi öne doğru daha fazla devirecek tork kuvvetlerini engellemek ve yükü dişin uzun aksına iletmek amacıyla oklüzal tırnak mezialden başlayarak premolar dişe veya dişin oklüzal yüzeyi boyunca uzatılır (\"Uzatılmış oklüzal tırnak\").",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 375,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi çift taraflı serbest sonlanma gösteren (Kennedy I) hareketli bölümlü protezde destek dişlerde meydana gelen tork kuvvetlerinde artışa neden olan faktörlerden biri değildir?",
+    "options": {
+      "A": "Yuva hazırlığı yapılmayan cingulum tırnak yerleşimi",
+      "B": "Tutucu kroşe kolunun ekvator hattının üzerinde konumlanması",
+      "C": "Protez tasarımında her dişe rijit kroşe konulması",
+      "D": "Doku desteğinin yetersiz ve kaide uyumunun bozuk olması",
+      "E": "Oklüzal tırnak yuvasının tabanının marjinal sırta doğru dışa eğimli yapılması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Yuva hazırlanmamış cingulum tırnağı (Yanlış):** Eğik düzlem etkisi yaparak dişi iter ve torku artırır.\n* **B) Tutucu kroşe kolunun ekvator hattının üzerinde konumlanması (Doğru - Torku Artırmaz):** Tutucu kroşe kolunun ucu ekvator hattının üzerinde (gövde bölgesinde) kalırsa ve andırkata girmezse, protez çıkarılırken dişe esneme/tutuculuk kuvveti uygulamaz ve tork oluşturmaz (Ancak tutuculuk da sağlamaz). Ekvator hattı altına girip rijit kaldığında tork artar.\n* **C) Her dişe rijit kroşe konulması (Yanlış):** Serbest sonlu protezde aşırı rijitlik dişlere devirici tork yükler.\n* **D) Doku desteği yetersizliği (Yanlış):** Çökme miktarını artırarak torku büyütür.\n* **E) Tabanın dışa eğimli olması (Yanlış):** Tırnağın kaymasına ve dişi itmesine neden olur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 376,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hareketli bölümlü protez yapımında kullanılan hassas tutucular (ataşmanlar) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Dişi ve erkek parçalar hem intrakoronal hem de ekstrakoronal hassas tutucularda bulunur.",
+      "B": "Ekstrakoronal hassas tutucular oral hijyen sağlanmasını zorlaştırırlar.",
+      "C": "Ekstrakoronal hassas tutucular destek dişler üzerinde istenmeyen yüklere sebep olurlar.",
+      "D": "İntrakoronal hassas tutucular kroşeyi elimine ederek estetik bir görüntü sağlar.",
+      "E": "İntrakoronal hassas tutucular kısa ve dar forma sahip vital dişlerde tercih edilirler."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Dişi ve erkek parçalar bulunur (Yanlış - Doğru İfadedir):** Ataşmanlar dişi (patris) ve erkek (matris) elemanlardan oluşur.\n* **B) Oral hijyeni zorlaştırır (Yanlış - Doğru İfadedir):** Ekstrakoronal tutucular diş dışında çıkıntı yaptığı için plak birikimine yol açar.\n* **C) İstenmeyen yüklere sebep olur (Yanlış - Doğru İfadedir):** Diş gövdesi dışında kaldığı için devirici kaldıraç kuvveti uygular.\n* **D) Kroşeyi elimine eder (Yanlış - Doğru İfadedir):** Metal kroşe görünümünü ortadan kaldırarak maksimum estetik sunar.\n* **E) Kısa ve dar vital dişlerde tercih edilir (Doğru - Yanlış İfadedir):** İntrakoronal hassas tutucunun yuvası (dişi parçası) crown/kron kesimi yapılan dişin kendi anatomik formu İÇİNDE hazırlanır. Bu nedenle yeterli genişlikte ve kuron boyu UZUN olan geniş pulpalı veya pulpasız dişlerde uygulanabilir. Kısa ve dar vital dişlerde intrakoronal yuva açılırsa pulpaya girilir ve dişe zarar verilir; bu vakalarda kontrendikedir.",
+    "lesson": "Protez",
+    "flag_reason": "2025 İlkbahar DUS Orijinal",
+    "q_num": 377,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi intrakoronal hassas tutucuların ekstrakoronal hassas tutuculara göre en önemli biyomekanik avantajıdır?",
+    "options": {
+      "A": "Çiğneme kuvvetlerini dişin uzun aksına daha yakın iletmeleri ve devirici moment oluşturmamaları",
+      "B": "Diş kesim miktarının daha az olması",
+      "C": "Laboratuvar yapımının daha basit olması",
+      "D": "Ağız hijyenini korumanın daha kolay olması",
+      "E": "Maliyetinin daha düşük olması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Kuvvetleri uzun aksa yakın iletmeleri (Doğru):** İntrakoronal tutucular kronun konturları içerisinde (diş merkezine yakın) yer aldığı için vertical ve oklüzal yükleri direkt dişin uzun aksına iletir. Ekstrakoronal tutucular ise dişin dışında kaldığından kaldıraç kolu oluşturur.\n* **B) Diş kesim miktarı azdır (Yanlış):** İntrakoronal tutucularda aksiyel yuvayı gömmek için daha fazla diş kesimi gerekir.\n* **C) Laboratuvarı basittir (Yanlış):** Teknik hassasiyeti son derece yüksektir.\n* **D) Hijyen daha kolaydır (Yanlış):** İntrakoronal sistemlerin temizliği daha titiz bakımdır.\n* **E) Maliyeti düşüktür (Yanlış):** Hassas tutucular pahalı sistemlerdir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 378,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Tutuculuk koronal olarak intrakoronal ya da ekstrakoronal olarak sağlanabilir.**\n**II. Ataşmanlar tasarımlarına göre hassas ya da yarı hassas yapıda olabilir.**\n**III. Hassas bağlantılı protezlerde kroşe bulunmadığı için estetik üstünlük sağlanır.**\n\n**Hassas bağlantılı hareketli bölümlü protez tasarımları ile ilgili yukarıdakilerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. İntrakoronal/Ekstrakoronal tutuculuk (Doğru):** Hassas tutucular konumlarına göre kron içi (intrakoronal) veya kron dışı (ekstrakoronal) olarak ikiye ayrılır.\n* **II. Hassas / Yarı hassas (Doğru):** Fabrikasyon hassas üretim olanlar \"hassas\", laboratuvarda plastikten dökülenler \"yarı hassas\" olarak sınıflandırılır.\n* **III. Estetik üstünlük (Doğru):** Metal kroşe kolları görünmediği için estetik avantaj en yüksek düzeydedir.\n* **Sonuç:** Bütün öncüller (I, II ve III) doğrudur. Bu nedenle cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 379,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hareketli bölümlü protezlerde döküm kroşe sistemini oluşturan elemanlar düşünüldüğünde, aşağıdakilerden hangisi bir döküm kroşenin ana bileşenlerinden biri değildir?",
+    "options": {
+      "A": "Oklüzal tırnak",
+      "B": "Tutucu (retantif) kol",
+      "C": "Resiprokal (karşılık) kol",
+      "D": "Küçük bağlayıcı",
+      "E": "Majör bağlayıcı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Oklüzal tırnak (Yanlış):** Kroşenin vertikal destek sağlayan temel bileşenidir.\n* **B) Tutucu kol (Yanlış):** Ekvator altına girip protezin çıkmasını önleyen koldur.\n* **C) Resiprokal kol (Yanlış):** Ekvator üstünde kalan ve tutucu kolun dişe uyguladığı yanal kuvveti nötralize eden rijit koldur.\n* **D) Küçük bağlayıcı (Yanlış):** Kroşe parçalarını ana bağlayıcıya birleştiren gövdedir.\n* **E) Majör bağlayıcı (Doğru - Kroşe Bileşeni Değildir):** Majör bağlayıcı (ana bağlayıcı), kroşenin bir parçası değildir; protezin sağ ve sol taraflarını birleştiren iskeletin ana gövdesidir (örneğin lingual bar, palatal plak).",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 380,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi bir kroşenin tutucu kolunun esnekliğini (fleksibilitesini) artıran faktörlerden biri değildir?",
+    "options": {
+      "A": "Kroşe kolunun boyunun uzun olması",
+      "B": "Kroşe kolunun çapının incelmesi",
+      "C": "Kroşe kolunun döküm altın veya bükme telden yapılması",
+      "D": "Kroşe kolunun dairesel kesitli olması",
+      "E": "Kroşe kolunun çapının kalınlaşması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Boyunun uzun olması (Yanlış):** Kol uzadıkça esneklik artar.\n* **B) Çapının incelmesi (Yanlış):** Kol inceldikçe esneklik artar.\n* **C) Döküm altın / bükme tel kullanımı (Yanlış):** Bükme tel ve altın alaşımları döküm Cr-Co'a göre çok daha esnektir.\n* **D) Dairesel kesitli olması (Yanlış):** Yuvarlak kesit her yönde esneklik sunar.\n* **E) Çapının kalınlaşması (Doğru - Esnekliği Artırmaz):** Kroşe kolunun kesit çapı kalınlaştıkça rijitliği artar, esnekliği (fleksibilitesi) ise AZALIR. Esnekliğin azalması dişe aşırı yük gelmesine yol açar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 381,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir kroşe tasarımında tutucu kolun uç kısmının ekvator hattının altında (andırkat bölgesinde) kalması ve protez çıkarılırken esneyerek ekvator hattını aşması aşağıdaki fonksiyonlardan hangisini sağlar?",
+    "options": {
+      "A": "Desteklik (Support)",
+      "B": "Stabilizasyon (Stabilization)",
+      "C": "Tutuculuk (Retention)",
+      "D": "Pasivite (Passivity)",
+      "E": "Resiprosite (Reciprocity)"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Desteklik (Yanlış):** Dokuya gömülmeyi önleme işlevidir, tırnak sağlar.\n* **B) Stabilizasyon (Yanlış):** Yanal kuvvetlere dirençtir, rijit kollar sağlar.\n* **C) Tutuculuk (Doğru):** Kroşe kolunun esnek uç kısmının dişin ekvator hattı altına (servikal konverjans/andırkat bölgesine) yerleşerek protezin dikey yönde ağızdan çıkmasına karşı koyması \"Tutuculuk (Retansiyon)\" olarak adlandırılır.\n* **D) Pasivite (Yanlış):** Kuvvet uygulanmadığı anda dişe sıfır basınç uygulamaktır.\n* **E) Resiprosite (Yanlış):** Yanal itme kuvvetini karşı taraftan dengelemektir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 382,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bir döküm kroşenin taşıması gereken \"pasivite\" prensibini doğru olarak açıklar?",
+    "options": {
+      "A": "Kroşe dişe takılı iken, proteze dışarıdan bir kuvvet uygulanmadığı sürece diş üzerinde hiçbir aktif kuvvet/basınç oluşturmamalıdır.",
+      "B": "Kroşe kolu dişi her yönden en az 180 derece sarmalıdır.",
+      "C": "Kroşe çiğneme kuvvetlerini tamamen mukozaya iletmelidir.",
+      "D": "Kroşe kolu esnemeden dikey harekete izin vermelidir.",
+      "E": "Kroşe kolu protezden bağımsız hareket etmelidir."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Kuvvet yokken basınç oluşturmama (Doğru):** Pasivite prensibi; protez ağızda dururken ve oklüzal/yerçekimi kuvveti etkitilmediği sürece, kroşe kollarının destek diş üzerinde dinlenme halinde sıfır kuvvet/basınç uygulamasıdır. Sürekli basınç dişte periodontal harabiyete ve ortodontik harekete neden olur.\n* **B) 180 derece sarma (Yanlış):** Bu \"Sarma (Encircle)\" prensibidir.\n* **C) Mukozaya iletme (Yanlış):** Doku desteği tanımıdır.\n* **D) Esnemeden izin verme (Yanlış):** Biyomekanik hatadır.\n* **E) Bağımsız hareket (Yanlış):** Rijitlik kuralına aykırıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 383,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "**Maksiller Kennedy II bir protezde meydana gelebilecek tork tipi kuvvetleri azaltmada aşağıdakilerden hangisi ya da hangileri doğrudan rol oynar?**\n\nI. İndirekt tutucu parça\nII. Karşıt ark stabilizasyonu\nIII. Direkt tutucu parça",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I - II",
+      "D": "II - III",
+      "E": "I - II - III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. İndirekt tutucu parça (Doğru):** Protezin fulkrum ekseni etrafında dönmesini ve kaldıraç kuvvetlerini önleyerek torku azaltır.\n* **II. Karşıt ark stabilizasyonu (Doğru):** Protez iskeletinin karşı taraftaki dişlere uzatılması yanal tork kuvvetlerini tüm arka dağıtır.\n* **III. Direkt tutucu parça (Doğru):** Esnek tutucu kollar veya stres kırıcı kroşe tasarımları (RPI gibi) dişe gelen torku sınırlar.\n* **Sonuç:** Bütün elemanlar (I, II ve III) tork kuvvetlerini azaltmada rol oynar. Bu nedenle cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 384,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Görselde veya klinik senaryoda verilen sol taraflı serbest sonlu (Kennedy II) bir vakada, protezin konumsal devamlılığını ve devrilmesini önlemek için gerekli olan indirekt tutucu tırnak yuvası aşağıdaki alanların hangisine yerleştirilmelidir?",
+    "options": {
+      "A": "Fulkrum hattına dik çizilen çizginin en uzağındaki anterior dişe (genellikle karşıt/sağ kanin diş)",
+      "B": "En arkadaki dişsiz kretin üzerine",
+      "C": "Terminal destek dişin distal oklüzal yüzeyine",
+      "D": "Protezin ana bağlayıcısının en kalın yerine",
+      "E": "Tüber maksilla bölgesine"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Fulkrum hattına dik çizginin en uzağındaki dişe (Doğru):** İndirekt tutucunun yerleştirileceği alan; terminal destek dişlerin tırnaklarından geçen ana fulkrum hattına dik çizilen çizginin ön bölgesinde bu hatta EN UZAK noktadaki dik kesişim dişidir (Maksiller Kennedy II'de karşıt taraftaki kanin veya 1. premolar cingulumu).\n* **B) Dişsiz kret üzerine (Yanlış):** İndirekt tutucu mutlaka diş desteğinde olmalıdır.\n* **C) Terminal desteğin distali (Yanlış):** Fulkrum hattı üzerindedir, indirekt tutuculuk yapamaz.\n* **D) Ana bağlayıcı ortası (Yanlış):** Yuvaya oturmayan bağlayıcı indirekt tutucu sayılmaz.\n* **E) Tüber maksilla (Yanlış):** Yumuşak dokudur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 385,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kroşenin tutuculuğunu etkileyen faktörlerden biri değildir?",
+    "options": {
+      "A": "Andırkat derinliği",
+      "B": "Tutucu kroşe kolunun esnekliği",
+      "C": "Kroşe kolunun dişe yaklaşım açısı",
+      "D": "Kroşe kolunun kaide ile bağlantısı",
+      "E": "Fulkrum eksenine göre kroşenin konumu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Andırkat derinliği (Yanlış):** Andırkat derinleştikçe çıkış direnci ve tutuculuk artar.\n* **B) Kroşe kolunun esnekliği (Yanlış):** Esneklik azaldıkça (rijitleştikçe) tutuculuk artar.\n* **C) Dişe yaklaşım açısı (Yanlış):** Gingivalden veya oklüzalden yaklaşım tutuculuk miktarını değiştirir.\n* **D) Kroşe kolunun kaide ile bağlantısı (Doğru - Tutuculuğu Etkilemez):** Tutucu kroşe kolu protez iskeletine veya küçük bağlayıcıya birleşir; kroşe kolunun akrilik kaide plak maddesiyle doğrudan teması veya kaideye olan bağlantı şekli kroşenin tutuculuk mekanizmasını etkilemez.\n* **E) Fulkrum eksenine göre konumu (Yanlış):** Fulkrum hattına olan uzaklık tutuculuk kaldıraç etkisini belirler.",
+    "lesson": "Protez",
+    "flag_reason": "2015 DUS Orijinal",
+    "q_num": 386,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Andırkat derinliği**\n**II. Tutucu kroşe kolunun esnekliği**\n**III. Kroşe kolunun dişe yaklaşım açısı**\n\n**Yukarıda verilenlerden hangisi ya da hangileri retantif kroşenin tutuculuğunu etkileyen faktörlerdendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I - II",
+      "C": "II - III",
+      "D": "I - III",
+      "E": "I - II - III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Andırkat derinliği (Doğru):** Dişteki servikal konverjans miktarı tutuculuğu doğrudan etkiler.\n* **II. Kroşe kolunun esnekliği (Doğru):** Alaşım türü, boyu ve kesiti esnekliği ve dolayısıyla tutuculuğu etkiler.\n* **III. Dişe yaklaşım açısı (Doğru):** Oklüzalden (çevresel) veya gingivalden (bar kroşe) geliş açısı tutuculuk kuvvetini belirler.\n* **Sonuç:** Üç öncül de (I, II ve III) tutuculuğu etkileyen ana faktörlerdir. Bu nedenle cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 387,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin artması kroşenin tutuculuğunun da artışına neden olan faktörlerden biri değildir?",
+    "options": {
+      "A": "Andırkat derinliği",
+      "B": "Tutucu kroşe kolunun esnekliği",
+      "C": "Kroşe kolunun dişe yaklaşım açısı",
+      "D": "Kroşe kolunun baz metalden üretilmesi",
+      "E": "Fulkrum eksenine göre kroşenin uzaklığı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Andırkat derinliği artması (Yanlış):** Tutuculuğu artırır.\n* **B) Tutucu kroşe kolunun esnekliğinin artması (Doğru - Tutuculuğu Artırmaz):** Bir kroşe kolunun esnekliği (fleksibilitesi) ARTTIKÇA, kroşe ekvator hattını geçerken dişe daha az direnç gösterir ve kolayca esneyerek çıkar. Bu nedenle esnekliğin artması tutuculuğu AZALTIR (Rijitliğin artması tutuculuğu artırır).\n* **C) Yaklaşım açısı (Yanlış):** Tutuculuğu etkiler.\n* **D) Baz metal üretimi (Yanlış):** Cr-Co gibi baz metaller altın alaşımına göre daha rijit olduğundan tutuculuğu artırır.\n* **E) Fulkrum eksenine uzaklık (Yanlış):** Kaldıraç avantajı ile tutuculuk stabilitesini artırır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 388,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kroşe tutuculuğu değerlendirmesinde etkili bir ölçüt değildir?",
+    "options": {
+      "A": "Kroşe kolunun çapı",
+      "B": "Dayanak dişte ekvator üstü bölgenin genişliği",
+      "C": "Servikal yaklaşım açısının büyüklüğü",
+      "D": "Kroşe kolunun uzunluğu",
+      "E": "Kroşe kolunun kesiti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Kroşe kolunun çapı (Yanlış):** Çap inceldikçe esneklik artar, tutuculuk değişir.\n* **B) Dayanak dişte ekvator üstü bölgenin genişliği (Doğru - Etkili Değildir):** Kroşenin tutuculuğunu belirleyen alan ekvator hattının ALTI (andırkat / servikal konverjans bölgesi)dır. Ekvator hattının üstündeki suprabulge bölgesi tutuculuk sağlamaz; buraya sadece resiprokal kollar ve stabilizasyon elemanları oturur.\n* **C) Servikal yaklaşım açısı (Yanlış):** Bar kroşelerin tutuculuğunu etkiler.\n* **D) Kroşe kolunun uzunluğu (Yanlış):** Uzunluk arttıkça esneklik artar.\n* **E) Kroşe kolunun kesiti (Yanlış):** Yuvarlak veya yarım yuvarlak kesit esnekliği etkiler.",
+    "lesson": "Protez",
+    "flag_reason": "2016 DUS Orijinal",
+    "q_num": 389,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kroşe kolunun çapı**\n**II. Andırkat bölgesinin genişliği**\n**III. Kroşe kolunun uzunluğu**\n\n**Yukarıda verilenlerden hangisi ya da hangileri retantif kroşe kolunun fonksiyonunda rol oynayan faktörlerdendir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I - II",
+      "C": "II - III",
+      "D": "I - III",
+      "E": "I - II - III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Kroşe kolunun çapı (Doğru):** Çap esnekliği ve tutuculuk gücünü belirler.\n* **II. Andırkat bölgesinin genişliği/derinliği (Doğru):** Tutucu ucun oturduğu yerin tutuculuk miktarını belirler.\n* **III. Kroşe kolunun uzunluğu (Doğru):** Kolun esneme miktarını belirler.\n* **Sonuç:** Bütün faktörler (I, II ve III) kroşenin fonksiyonunda doğrudan rol oynar. Bu nedenle cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 390,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Görselde veya kroşe şemasında ekvator hattının altında (servikal konverjans alanında) yer alan ve protezin dikey yönde ağızdan çıkmasını önleyen esnek kroşe parçası aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Oklüzal tırnak",
+      "B": "Resiprokal kol",
+      "C": "Tutucu (retantif) kroşe ucu",
+      "D": "Küçük bağlayıcı",
+      "E": "Kroşe gövdesi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Oklüzal tırnak (Yanlış):** Oklüzal yüzeyde yer alır ve dokuya gömülmeyi önler.\n* **B) Resiprokal kol (Yanlış):** Ekvator üstünde kalır ve yanal kuvvetleri dengeler.\n* **C) Tutucu (retantif) kroşe ucu (Doğru):** Kroşe kolunun en uç 1/3'lük esnek kısmı ekvator hattının altına (andırkat bölgesine) geçer ve protezin dikey yönde çıkmasını engelleyen tutuculuk fonksiyonunu yürütür.\n* **D) Küçük bağlayıcı (Yanlış):** Ekvator üstündedir.\n* **E) Kroşe gövdesi (Yanlış):** Ekvator üstünde rijit durur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 391,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi döküm çevresel (akrilik/metal suprabulge) kroşelerin genel özelliklerinden biridir?",
+    "options": {
+      "A": "Ekvator hattına oklüzal yönden yaklaşırlar.",
+      "B": "Diş etinden başlayıp yukarı doğru tırmanırlar.",
+      "C": "Yalnızca 0.75 mm deep andırkatlarda kullanılırlar.",
+      "D": "Estetik olarak bar kroşelerden daha üstündürler.",
+      "E": "Diş yüzeyi ile teması bar kroşeden daha azdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Oklüzal yönden yaklaşırlar (Doğru):** Çevresel kroşeler (Akers, Halka, Embrasyür vb.) tırnak ve gövdeden başlayarak dişin oklüzal/incizal yönünden servikale (aşağıya) doğru inerek ekvator hattına oklüzal yönden yaklaşırlar.\n* **B) Diş etinden tırmanırlar (Yanlış):** Bu Bar (Infrabulge) kroşelerin özelliğidir.\n* **C) 0.75 mm andırkat (Yanlış):** Çevresel kroşeler genelde 0.25 mm (0.010 inç) andırkatta kullanılır.\n* **D) Estetikte üstündür (Yanlış):** Bar kroşeler diş eti tarafından geldiği için estetik olarak daha az görünür.\n* **E) Diş teması azdır (Yanlış):** Çevresel kroşeler dişi dairesel sardığı için diş teması daha fazladır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 392,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Çevresel kroşelerin en yaygın ve temel tipi olan, 1 oklüzal tırnak, 1 tutucu kol ve 1 resiprokal koldan oluşan döküm kroşe aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Akers (Cirklet) kroşe",
+      "B": "Roach kroşe",
+      "C": "Halka (Ring) kroşe",
+      "D": "Geri etkili (Back-action) kroşe",
+      "E": "Saç tokası (Hairpin) kroşe"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Akers (Cirklet) kroşe (Doğru):** Diş destekli parsiyel protezlerde en sık kullanılan standart çevresel kroşedir. 1 oklüzal tırnak, 1 retantif kol ve 1 resiprokal koldan oluşur.\n* **B) Roach kroşe (Yanlış):** Bar (Infrabulge) kroşe ailesidir.\n* **C) Halka kroşe (Yanlış):** İzolasyon molarlarında kullanılan ve dişi 360 derece saran tırnaklı kroşedir.\n* **D) Geri etkili kroşe (Yanlış):** Premolarlarda kullanılan özel kroşedir.\n* **E) Saç tokası kroşe (Yanlış):** Tutucu kolu kendi üzerine geri kıvrılan kroşedir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 393,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen çevresel kroşe tasarımlarından hangisinde yapısında 3 adet oklüzal tırnak bulunur?",
+    "options": {
+      "A": "Halka kroşe",
+      "B": "Embrazür kroşe",
+      "C": "Yarım ve yarım (Half and half) kroşe",
+      "D": "Multiple kroşe",
+      "E": "Saç tokası kroşe"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Halka kroşe (Yanlış):** Genellikle 2 tırnak bulundurur (mezial ve distal).\n* **B) Embrazür kroşe (Yanlış):** İki komşu dişin birleştiği yerde 2 oklüzal tırnak bulundurur.\n* **C) Yarım ve yarım (Half and half) kroşe (Doğru):** Yarım ve yarım kroşe tasarımı, birinci parçada mezial oklüzal tırnak ve retantif kol, ikinci parçada distal oklüzal tırnak ve resiprokal kol ve ayrıca destek tırnağı ile toplam 3 adet oklüzal tırnak yapısı barındıran özel döküm çevresel kroşedir.\n* **D) Multiple kroşe (Yanlış):** 2 tırnak içerir.\n* **E) Saç tokası kroşe (Yanlış):** 1 tırnak içerir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 394,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi çevresel (suprabulge) kroşeler sınıfına girmez?",
+    "options": {
+      "A": "Akers kroşe",
+      "B": "Halka kroşe",
+      "C": "Embrazür kroşe",
+      "D": "Geri etkili kroşe",
+      "E": "Roach kroşe"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Akers kroşe (Yanlış):** Standart çevresel kroşedir.\n* **B) Halka kroşe (Yanlış):** Çevresel kroşe sınıfındadır.\n* **C) Embrazür kroşe (Yanlış):** Çevresel kroşe sınıfındadır.\n* **D) Geri etkili kroşe (Yanlış):** Çevresel kroşe sınıfındadır.\n* **E) Roach kroşe (Doğru - Çevresel Kroşe Değildir):** Roach kroşe (Bar kroşeler; T, Y, I, L, U bar kroşeler), dişin oklüzalinden değil, diş eti yönünden (infrabulge) andırkata yaklaşan Bar Kroşe sınıfına girer; çevresel (suprabulge) kroşe değildir.",
+    "lesson": "Protez",
+    "flag_reason": "2012 Sonbahar DUS Orijinal",
+    "q_num": 395,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen kroşelerden hangisi yerleştiği destekteki andırkat bölgesine oklüzal yönden yaklaşım göstermez (gingival yönden yaklaşır)?",
+    "options": {
+      "A": "Akers kroşe",
+      "B": "Roach (Bar) kroşe",
+      "C": "Embrazür kroşe",
+      "D": "Geri etkili kroşe",
+      "E": "Halka kroşe"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Akers kroşe (Yanlış):** Oklüzalden servikale doğru yaklaşır.\n* **B) Roach (Bar) kroşe (Doğru):** Bar (Roach) kroşeler, protez kaidesinden veya küçük bağlayıcıdan çıkarak diş eti mukozasının üzerinden geçer ve dişin servikalindeki andırkata giş etinden (gingival yönden) tırmanarak yaklaşır.\n* **C) Embrazür kroşe (Yanlış):** Oklüzalden yaklaşır.\n* **D) Geri etkili kroşe (Yanlış):** Oklüzalden yaklaşır.\n* **E) Halka kroşe (Yanlış):** Oklüzalden yaklaşır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 396,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hareketli bölümlü protez tasarımında bar kroşe (örneğin T-bar veya I-bar) kullanılması planlanan bir destek dişte ideal tutuculuk için ölçülmesi gereken andırkat miktarı kaç mm olmalıdır?",
+    "options": {
+      "A": "0.25 mm (0.010 inç)",
+      "B": "0.50 mm (0.020 inç)",
+      "C": "0.75 mm (0.030 inç)",
+      "D": "1.00 mm",
+      "E": "1.25 mm"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) 0.25 mm (0.010 inç) (Doğru):** Döküm Cr-Co bar kroşeler ve RPI sistemindeki I-bar ucu için destek dişin distobukkal veya mesiobukkal servikalinde aranan ideal andırkat miktarı 0.25 mm (0.010 inç)'dir.\n* **B) 0.50 mm (0.020 inç) (Yanlış):** Bükme tel kroşeler için aranan daha derin andırkattır.\n* **C) 0.75 mm (0.030 inç) (Yanlış):** Çok esnek krom-kobalt teller içindir.\n* **D) 1.00 mm (Yanlış):** Aşırı derin olup dişe zarar verir.\n* **E) 1.25 mm (Yanlış):** Kullanılamayacak kadar derindir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 397,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibular serbest sonlu hareketli bölümlü protezde çiğneme kuvvetleri esnasında I-bar kroşenin retantif ucunun hareketi aşağıdaki yönlerden hangisine doğru olur?",
+    "options": {
+      "A": "Mezial / Mezio-gingival (Öne ve aşağıya)",
+      "B": "Distal / Disto-gingival",
+      "C": "Disto-oklüzal",
+      "D": "Mezio-oklüzal",
+      "E": "Oklüzal"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Mezial / Mezio-gingival (Doğru):** RPI sisteminde (Rest, Proximal plate, I-bar) oklüzal tırnak mezialdedir. Çiğneme sırasında protez kaidesi dokuya çöktüğünde protez mezial tırnak etrafında döner. Bu dönme hareketi esnasında distobukkaldeki I-bar ucu öne ve aşağıya (mezio-gingival yönde) hareket ederek dişin andırkatından kurtulur ve dişi terk eder. Böylece destek dişe hiçbir devirici tork kuvveti uygulanmaz.\n* **B) Disto-gingival (Yanlış):** Tırnak distalde olduğunda görülen zararlı harekettir.\n* **C) Disto-oklüzal (Yanlış):** Dişi yukarı çeken tork hareketidir.\n* **D) Mezio-oklüzal (Yanlış):** Tırnağı yuvadan çıkaran harekettir.\n* **E) Oklüzal (Yanlış):** Çıkarma hareketidir.",
+    "lesson": "Protez",
+    "flag_reason": "2024 Sonbahar DUS Orijinal",
+    "q_num": 398,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mandibular Kennedy I bir vakada distal dayanak dişlerde meziale eğim veya andırkatın mezialde olması durumunda tercih edilen ve tutucu kolu distal tırnaktan başlayarak tüm dişi dolanıp meziobukkaldeki andırkata ulaşan kroşe tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Akers kroşe",
+      "B": "Geri etkili (Back-action / Ring) kroşe",
+      "C": "RPI kroşe",
+      "D": "T-bar kroşe",
+      "E": "Embrazür kroşe"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Akers kroşe (Yanlış):** Mezialdeki andırkatlara rahat ulaşılamaz.\n* **B) Geri etkili (Back-action / Ring) kroşe (Doğru):** Premolar veya molar dişlerde andırkat meziobukkalde kaldığında, kroşe gövdesi distaldan başlar, lingualden geçerek dişin etrafını dolanır ve tutucu uç meziobukkaldeki andırkata yerleşir (\"Geri etkili kroşe\").\n* **C) RPI kroşe (Yanlış):** Mezial tırnak ve I-bar gerektirir.\n* **D) T-bar kroşe (Yanlış):** Infrabulge yaklaşımdır.\n* **E) Embrazür kroşe (Yanlış):** Çift komşu dişlerde kullanılır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 399,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda iki farklı kroşe tasarımı verilmiştir: A tasarımı mezial tırnaklı RPI sistemi, B tasarımı distal tırnaklı Akers kroşe sistemidir. Fonksiyonel yükler altında diş ve dokulara iletilen stres miktarlarıyla ilgili aşağıdaki yorumlardan hangisi doğrudur?",
+    "options": {
+      "A": "A tasarımında (RPI) çiğneme kuvvetleri dokuya çökerken I-bar andırkatı terk eder, dişe tork uygulamaz ve yük doku ile diş arasında daha dengeli paylaşılır.",
+      "B": "B tasarımında (Akers) dişe hiçbir devirici tork kuvveti iletilmez.",
+      "C": "A tasarımında destek diş B tasarımına göre daha fazla zararlı devirici kuvvete maruz kalır.",
+      "D": "B tasarımı serbest sonlu protezlerde en ideal biyomekanik tasarımdır.",
+      "E": "A ve B tasarımları dişsiz kret üzerine eşit miktarda vertikal yük iletir."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) RPI'de I-bar andırkatı terk eder ve torku önler (Doğru):** Mezial tırnaklı RPI (A tasarımı) stresi azaltan bir tasarımdır; kaide çöktüğünde I-bar aşağı ve öne kayarak dişten ayrılır ve dişe tork birikmesini önler.\n* **B) B'de tork iletilmez (Yanlış):** Distal tırnaklı Akers (B tasarımı) serbest sonlu vakalarda dişi distala deviren yüksek tork kuvveti uygular.\n* **C) A tasarımı zararlı kuvvete maruz bırakır (Yanlış):** Tam tersine A tasarımı dişi korur.\n* **D) B tasarımı idealdir (Yanlış):** Serbest sonlu protezde B tasarımı (Akers) tork nedeniyle kontrendikedir.\n* **E) Eşit vertikal yük (Yanlış):** Yük dağılımları mekanik olarak tamamen farklıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 400,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Serbest sonlu hareketli bölümlü protezlerde destek dişi korumak amacıyla geliştirilen \"RPI\" kroşe sisteminin adını oluşturan harflerin temsil ettiği üç temel yapı aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Rest (Oklüzal tırnak) - Proximal plate (Rehber düzlem plakası) - I-bar (I-bar tutucu kol)",
+      "B": "Retantif arm - Passive arm - Incisal rest",
+      "C": "Rigid bar - Palatal strap - Interdental rest",
+      "D": "Reciprocal arm - Pin - I-bar",
+      "E": "Ring clasp - Posterior plate - Indirect retainer"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Rest - Proximal plate - I-bar (Doğru):** RPI kısaltmasının açılımı:\n  - **R (Rest):** Mezial oklüzal tırnak.\n  - **P (Proximal plate):** Distal rehber düzlem plakası.\n  - **I (I-bar):** Distobukkal servikale yerleşen I-şekilli bar tutucu kol.\n* **B) Retantif arm - Passive arm - Incisal rest (Yanlış):** Hatalı isim dizilimidir.\n* **C) Rigid bar - Palatal strap - Interdental rest (Yanlış):** Yanlış tanımlardır.\n* **D) Reciprocal arm - Pin - I-bar (Yanlış):** Hatalı tanımlardır.\n* **E) Ring clasp - Posterior plate - Indirect retainer (Yanlış):** Hatalı tanımlardır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 401,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki klinik durumlardan hangisinde serbest sonlu (Kennedy I veya II) bir vakada RPI kroşe sistemi mükemmel bir endikasyon oluşturur?",
+    "options": {
+      "A": "Destek dişin distobukkalinde 0.25 mm andırkat, derin vestibül sulkus ve sağlıklı diş eti mevcudiyetinde",
+      "B": "Vestibül sulkusun son derece sığ olduğu vakada",
+      "C": "Destek dişin servikalinde doku andırkatının (kemik çıkıntısının) bulunduğu vakada",
+      "D": "Destek dişin distobukkalinde hiç andırkat bulunmadığı vakada",
+      "E": "Ağız tabanı ile marjin arasında 2 mm mesafe kaldığında"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) 0.25 mm andırkat, derin sulkus ve sağlıklı doku (Doğru):** RPI sisteminin uygulanabilmesi için: (1) Destek dişin distobukkalinde 0.25 mm andırkat olmalı, (2) I-barın mukoza üzerinden geçebilmesi için yeterli sulkus derinliği (en az 4 mm) olmalı, (3) Bar altında doku/kemik andırkatı olmamalıdır.\n* **B) Sığ vestibül sulkus (Yanlış):** Sığ sulkusta I-bar vurur, RPI yapılamaz (RPA yapılır).\n* **C) Doku andırkatı (Yanlış):** Yiyecek birikir ve doku yaralanır, RPI yapılamaz.\n* **D) Andırkat bulunmaması (Yanlış):** Tutuculuk sağlanamaz.\n* **E) 2 mm mesafe (Yanlış):** Bar geçişi için imkansızdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 402,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki durumlardan hangisinin varlığında RPI kroşe sistemi yerine RPA (Rest, Proximal plate, Akers retantif kolu) kroşe sisteminin tercih edilmesi gerekli hale gelir?",
+    "options": {
+      "A": "Derin vestibül sulkus varlığında",
+      "B": "I-barın geçeceği mukoza bölgesinde belirgin bir doku andırkatı (kemik çıkıntısı) olması veya sulkusun sığ olması",
+      "C": "Destek dişin distobukkalinde 0.25 mm andırkat bulunması",
+      "D": "Destek dişin mezialinde tırnak yuvası açılabilmesi",
+      "E": "Doku desteğinin mükemmel olması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Derin sulkus (Yanlış):** RPI için uygun şarttır, RPA'ya geçmeyi gerektirmez.\n* **B) Doku andırkatı veya sığ sulkus varlığı (Doğru):** I-barın mukoza üzerinden tırmanmasını engelleyen derin doku andırkatı veya sığ vestibül sulkus varsa I-bar konulamaz. Bu durumda mezial tırnak ve distal plaka korunur (RP), tutucu kol ise oklüzalden gelen döküm Akers kolu ile değiştirilir (RPA sistemi).\n* **C) 0.25 mm andırkat (Yanlış):** RPI için ideal şarttır.\n* **D) Mezial tırnak açılabilmesi (Yanlış):** RPI'nin kendi özelliğidir.\n* **E) Doku desteği mükemmelliği (Yanlış):** RPA geçiş nedeni değildir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 403,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Maksiller Kennedy Class IV (ön bölge diş eksikliği) bir vakada hareketli bölümlü protez planlamasında göz ardı edilebilecek / bulunmayan yapısal unsur aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ana bağlayıcı",
+      "B": "Minör bağlayıcı",
+      "C": "Oklüzal tırnaklar",
+      "D": "Direkt tutucular",
+      "E": "İndirekt tutucu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Ana bağlayıcı (Yanlış):** İskeleti birleştiren palatal bant/plak şarttır.\n* **B) Minör bağlayıcı (Yanlış):** Tırnak ve kroşeleri bağlar, şarttır.\n* **C) Oklüzal tırnaklar (Yanlış):** Doku desteği için şarttır.\n* **D) Direkt tutucular (Yanlış):** Kroşeler protezin çıkmasını önler, şarttır.\n* **E) İndirekt tutucu (Doğru - Bulunmaz):** Kennedy Sınıf IV vakalarında dişsiz alan tek parça halinde anteriordadır ve protezin arkasında destek dişler yer alır. Çiğneme sırasında protez kaidesi anteriora değil, arkadaki fulkrum eksenine doğru oturur. Sınıf IV vakalarda protez posteriora doğru devrilme (önden arkaya kalkma) yapmadığı için indirekt tutucuya ihtiyaç duyulmaz / bulunmaz.",
+    "lesson": "Protez",
+    "flag_reason": "2014 İlkbahar DUS Orijinal",
+    "q_num": 404,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Serbest sonlu (Kennedy I ve II) hareketli bölümlü protezlerde, yapışkan gıdaların tüketimi sırasında protez kaidesinin posteriorunun dokudan uzaklaşarak öne doğru devrilmesini (öfke/takla hareketini) önleyen protez elemanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Direkt tutucu kroşe",
+      "B": "İndirekt tutucu",
+      "C": "Majör bağlayıcı",
+      "D": "Minör bağlayıcı",
+      "E": "Yapay dişler"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Direkt tutucu kroşe (Yanlış):** Dikey yönde protezin çıkmasını önler.\n* **B) İndirekt tutucu (Doğru):** Serbest sonlu protezlerde posterior kaide yapışkan gıdalarla yukarı kalktığında, protez ana fulkrum hattı etrafında dönmek ister. Ana fulkrum hattının anteriorunda yer alan ve diş yuvasına oturan oklüzal/cingulum tırnakları (\"İndirekt Tutucu\") bu dönme hareketine karşı direnç göstererek protezin öne devrilmesini önler.\n* **C) Majör bağlayıcı (Yanlış):** İskeleti birleştirir.\n* **D) Minör bağlayıcı (Yanlış):** Parçaları taşır.\n* **E) Yapay dişler (Yanlış):** Çiğneme yüzeyidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 405,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen kısmi dişsizlik türlerinin hangisinde yapılacak bölümlü protez tasarımında, protezin stabilizasyonu ve dönmesi açısından fulkrum hattının en uzağında yer alan dişe indirekt tutucu tırnak yerleştirilmesine GEREK YOKTUR?",
+    "options": {
+      "A": "Kennedy I",
+      "B": "Kennedy I Mod 1",
+      "C": "Kennedy II",
+      "D": "Kennedy IV",
+      "E": "Kennedy II Mod 2"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Kennedy I (Yanlış):** Bilateral serbest sonlu olup indirekt tutucu şarttır.\n* **B) Kennedy I Mod 1 (Yanlış):** Serbest sonlu olup indirekt tutucu şarttır.\n* **C) Kennedy II (Yanlış):** Unilateral serbest sonlu olup indirekt tutucu şarttır.\n* **D) Kennedy IV (Doğru):** Kennedy Sınıf IV vakalarında dişsiz alan tek parçadır ve anteriordadır. Serbest sonlu kaide içermediği için fulkrum ekseni etrafında arkaya devrilme hareketi oluşmaz, bu nedenle indirekt tutucu tırnağa gerek yoktur.\n* **E) Kennedy II Mod 2 (Yanlış):** Serbest sonlanma içerir, indirekt tutucu gerekir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 406,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir hareketli bölümlü protezde indirekt tutucunun sağladığı biyomekanik avantajlar arasında aşağıdakilerden hangisi yer almaz?",
+    "options": {
+      "A": "Protez kaidesinin yapışkan gıdalarla dokudan uzaklaşmasını önler.",
+      "B": "Ana bağlayıcının dokulara gömülmesini ve vuruk yapmasını engeller.",
+      "C": "Protezin rotasyonel (dönme) hareketlerine karşı eksenel stabilite sağlar.",
+      "D": "Protezin dikey yönde ağızdan çıkmasını sağlanan birincil direkt tutuculuk kuvvetini oluşturur.",
+      "E": "Çiğneme kuvvetlerinin ilave dişlere dağıtılmasına katkıda bulunur."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Dokudan uzaklaşmayı önler (Yanlış - Avantajıdır):** Temel görevidir.\n* **B) Ana bağlayıcı gömülmesini engeller (Yanlış - Avantajıdır):** Vertikal destek sunar.\n* **C) Rotasyonel stabilite sağlar (Yanlış - Avantajıdır):** Düzlem stabilitesini korur.\n* **D) Birincil direkt tutuculuğu oluşturur (Doğru - İndirekt Tutucunun Görevi Değildir):** Birincil (direkt) tutuculuk, andırkat bölgelerine giren retantif kroşe kolları veya hassas tutucular tarafından sağlanır. İndirekt tutucu direkt tutuculuk oluşturmaz.\n* **E) Kuvvet dağılımına katılır (Yanlış - Avantajıdır):** Yükü ek dişlere yayar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 407,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hareketli bölümlü protezlerde indirekt tutucu eleman olarak kullanılabilecek yapılardan biri değildir?",
+    "options": {
+      "A": "Kanin dişler üzerinde cingulum tırnağı",
+      "B": "Premolar dişler üzerinde oklüzal tırnak",
+      "C": "Lingual plak (anterior dişleri örten)",
+      "D": "Serbest sonlu kaidenin en distalindeki akrilik tırnak",
+      "E": "Ruga desteği (maksiller protezlerde)"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Cingulum tırnağı (Yanlış):** En ideal indirekt tutuculardan biridir.\n* **B) Premolar oklüzal tırnak (Yanlış):** Sık kullanılan indirekt tutucudur.\n* **C) Lingual plak (Yanlış):** Çok sayıda dişe basarak indirekt tutuculuk yapar.\n* **D) Kaidenin en distalindeki akrilik tırnak (Doğru - İndirekt Tutucu Değildir):** İndirekt tutucu mutlaka ana fulkrum hattının ANTERİORUNDA (önünde) ve doğal diş desteği üzerinde yer almalıdır. Serbest sonlu kaidenin en distalindeki akrilik alan fulkrum hattının arkasında kalır ve indirekt tutuculuk yapamaz.\n* **E) Ruga desteği (Yanlış):** Üst çenede doku destekli indirekt tutuculuk sunar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 408,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst çenede anterior dişleri kapsayan geniş bir indirekt tutucu alanı tasarlanırken, sert damakta ruga bölgesinin anatomik desteğinden yararlanan indirekt tutucu elemanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ruga plak desteği",
+      "B": "Labial bar",
+      "C": "Distal tırnak",
+      "D": "Süperior retenşiyon",
+      "E": "Embrazür kroşe"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Ruga plak desteği (Doğru):** Üst çenede ön dişlerin lingualinde bulunan sert damak ruga bölgesi, ana bağlayıcının uzantısı şeklinde örtülerek (Ruga desteği) doku destekli yardımcı bir indirekt tutucu alanı olarak işlev görür.\n* **B) Labial bar (Yanlış):** Ana bağlayıcıdır.\n* **C) Distal tırnak (Yanlış):** Direkt destektir.\n* **D) Süperior retenşiyon (Yanlış):** Genel terimdir.\n* **E) Embrazür kroşe (Yanlış):** Direkt tutucudur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 409,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki ana bağlayıcılardan hangisi aynı zamanda indirekt tutucu özelliğine de sahiptir?",
+    "options": {
+      "A": "Palatal bant",
+      "B": "Çift damak barı",
+      "C": "Sublingual bar",
+      "D": "Lingual plak",
+      "E": "Lingual bar"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Palatal bant (Yanlış):** Sadece ana bağlayıcı görevi görür.\n* **B) Çift damak barı (Yanlış):** Ana bağlayıcıdır.\n* **C) Sublingual bar (Yanlış):** Ağız tabanında uzanır, diş teması yoktur.\n* **D) Lingual plak (Doğru):** Lingual plak, alt anterior dişlerin lingual yüzeylerini cingulum seviyesine kadar örten levha şeklinde bir alt çene ana bağlayıcısıdır. Bu geniş diş teması sayesinde fulkrum hattının anteriorunda kalarak protezin devrilmesini önler ve ekstra bir tırnak yapmaya gerek kalmadan \"İndirekt Tutucu\" işlevi görür.\n* **E) Lingual bar (Yanlış):** Diş eti marjininden 4 mm aşağıda durur, dişe temas etmediği için indirekt tutuculuk yapamaz.",
+    "lesson": "Protez",
+    "flag_reason": "2013 Sonbahar DUS Orijinal",
+    "q_num": 410,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alt çenede 34, 35, 36, 37 ve 44, 45, 46, 47 numaralı dişleri eksik olan (Kennedy I) bir hastada ana fulkrum hattı 33 ve 43 numaralı kanin dişlerden geçmektedir. Bu protezde indirekt tutuculuk sağlamak amacıyla tırnak yerleştirilmesi gereken en ideal dişler ve tırnak türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "33 ve 43 numaralı kanin dişlerde cingulum tırnağı",
+      "B": "31 ve 41 numaralı kesici dişlerde insizal tırnak",
+      "C": "38 ve 48 numaralı molar dişlerde oklüzal tırnak",
+      "D": "Alt çenede indirekt tutucuya gerek yoktur",
+      "E": "Lingual bar üzerinde serbest tırnak"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) 33 ve 43 numaralı kaninlerde cingulum tırnağı (Doğru):** Ana fulkrum hattı 33 ve 43 numaralı destek dişlerin tırnaklarından geçer. Bu hatta dik çizilen çizginin anteriorunda en ulaştığı nokta ve en güçlü kök yapısına sahip dişler 33 ve 43 numaralı kaninlerdir. Cingulum tırnağı estetik ve mekanik olarak en ideal indirekt tutuculuğu sağlar.\n* **B) 31 ve 41 numaralı kesicilerde insizal tırnak (Yanlış):** Kesici dişlerin kökleri zayıftır ve insizal tırnak estetiği bozar.\n* **C) 38 ve 48 numaralı molar dişler (Yanlış):** Molar dişler eksiktir ve fulkrum hattının arkasındadır.\n* **D) İndirekt tutucuya gerek yoktur (Yanlış):** Kennedy I serbest sonlu vakalarda indirekt tutucu şarttır.\n* **E) Lingual bar üzerinde serbest tırnak (Yanlış):** Dokuya bası yapar, dişe oturmalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 411,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hareketli bölümlü protezlerde indirekt tutuculuğun etkinliğini artıran faktörlerden biridir?",
+    "options": {
+      "A": "İndirekt tutucunun ana fulkrum hattından mümkün olduğunca uzak anterior bölgeye yerleştirilmesi",
+      "B": "İndirekt tutucunun fulkrum hattına çok yakın konması",
+      "C": "İndirekt tutucunun elastik malzemeden yapılması",
+      "D": "Protez kaidesinin kısaltılması",
+      "E": "İndirekt tutucu tırnağının eğik düzlem üzerine yuvaya oturtulmadan konması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Fulkrum hattından mümkün olduğunca uzak yerleşim (Doğru):** İndirekt tutucunun etkinliği (kaldıraç kolu avantajı), ana fulkrum hattına olan dik mesafesi arttıkça artar. Hattan ne kadar uzağa yerleştirilirse öne devrilmeye karşı o kadar yüksek direnç gösterir.\n* **B) Fulkrum hattına yakınlık (Yanlış):** Kaldıraç kolunu kısaltır ve tutuculuğu düşürür.\n* **C) Elastik malzeme (Yanlış):** İndirekt tutucu mutlaka rijit olmalıdır.\n* **D) Kaide kısaltılması (Yanlış):** Doku desteğini azaltır.\n* **E) Yuvasız eğik düzlem (Yanlış):** Dişi iterek ortodontik devrilmeye yol açar.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 412,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anteriorda beş diş eksikliği olan (örneğin 13-23 arası) Kennedy IV bir vakada, estetik gereksinimlerden dolayı metal kroşe kollarının görünmesi istenmediğinde ön bölgede tutuculuk sağlayan özel protez girişi ve tasarımı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Rotasyonel giriş yollu protez tasarımı",
+      "B": "Swing-lock protez",
+      "C": "Esnek naylon protez",
+      "D": "Mukoza destekli plak",
+      "E": "Teleskop kron sistemi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Rotasyonel giriş yollu protez (Doğru):** Anterior bölgede metal kroşe kollarının görünmesini engellemek için protez önce ön bölgedeki rijit rehber plaklar ve tırnaklarla anterior andırkatlara oturtulur, ardından arka taraf çift yönde döndürülerek (rotasyonel giriş yolu) yerine yerleştirilir. Bu sayede anterior kroşeler tamamen elimine edilir.\n* **B) Swing-lock (Yanlış):** Labialde görünür metal bar içerir.\n* **C) Esnek naylon protez (Yanlış):** İskelet rijitliği düşüktür.\n* **D) Mukoza destekli plak (Yanlış):** Doku harabiyeti yapar.\n* **E) Teleskop kron (Yanlış):** Dişlerin kesilmesini gerektirir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 413,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Rotasyonel giriş yollu hareketli bölümlü protez tasarımları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Ön bölgede geleneksel kroşe kollarını elimine ederek estetik avantaj sağlarlar.",
+      "B": "Protezin ağza yerleştirilmesi iki farklı merkezli dönme hareketiyle gerçekleşir.",
+      "C": "Anterior rijit tutucular dişin andırkat bölgesine ilk oturma aşamasında girer.",
+      "D": "Protez tamamlandıktan sonra ağız dışında veya içinde eğerek kroşe kollarını esnetmek son derece kolaydır.",
+      "E": "Hassas bir paralelometre analizi ve kesin rehber düzlem hazırlığı gerektirirler."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Kroşeleri elimine eder (Yanlış - Doğru İfadedir):** Ön bölgede kroşesiz estetik sunar.\n* **B) İki farklı dönme hareketi (Yanlış - Doğru İfadedir):** Çift rotasyon merkezi kullanılır.\n* **C) Rijit tutucular andırkata girer (Yanlış - Doğru İfadedir):** Rijit plaklar andırkatı kilitler.\n* **D) Kroşe kollarını esnetmek kolaydır (Doğru - Yanlış İfadedir):** Rotasyonel protezlerde anteriordaki tutucu yapılar esnek kroşe kolu değil, döküm rijit plaklardır. Bu döküm rijit parçaların esnetilmesi veya ağızda bükülerek ayarlanması imkansızdır; zorlanırsa kırılır.\n* **E) Hassas paralelometre gerektirir (Yanlış - Doğru İfadedir):** Laboratuvar ve klinik hassasiyeti çok yüksektir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 414,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Serbest sonlu (Kennedy I ve II) hareketli bölümlü protezlerde, çiğneme kuvvetleri altında protez kaidesinin çöktüğü durumlarda destek dişlere iletilen zararlı kaldıraç yüklerini hafifletmek amacıyla kaide ile iskelet arasına yerleştirilen esnek bağlantı elemanlarına ne ad verilir?",
+    "options": {
+      "A": "Stres kırıcılar (Stress breakers)",
+      "B": "Rijit konnektörler",
+      "C": "Majör bağlayıcılar",
+      "D": "İndirekt tutucular",
+      "E": "Paralelometre kilitleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Stres kırıcılar (Stress breakers) (Doğru):** Doku desteği ile diş desteği arasındaki esneklik farkından doğan zararlı kaldıraç kuvvetlerini sönümlemek amacıyla kaide ile metal iskelet arasına konulan menteşe veya esnek yaylı bağlantılara \"Stres kırıcılar\" adı verilir.\n* **B) Rijit konnektörler (Yanlış):** Kuvveti direkt iletir.\n* **C) Majör bağlayıcılar (Yanlış):** İskeletin ana parçasıdır.\n* **D) İndirekt tutucular (Yanlış):** Öne devrilmeyi önler.\n* **E) Paralelometre kilitleri (Yanlış):** Laboratuvar aracıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 415,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi stres kırıcı (stres sönümleyici) protez tasarımlarının dezavantajlarından biridir?",
+    "options": {
+      "A": "Destek dişlere gelen yanal ve tork kuvvetlerini azaltmaları",
+      "B": "Mukoza ve rezidüel kret üzerine gelen yük miktarını artırarak kret rezorpsiyonunu hızlandırabilmeleri",
+      "C": "Estetik görünümü iyileştirmeleri",
+      "D": "Kroşe esnekliğini artırmaları",
+      "E": "Ağız temizliğini kolaylaştırmaları"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Yanal kuvvetleri azaltır (Yanlış):** Bu stres kırıcının avantajıdır.\n* **B) Kret rezorpsiyonunu hızlandırabilir (Doğru - Dezavantajıdır):** Stres kırıcılar yükü dişten alıp yumuşak dokuya aktardığı için, yumuşak doku ve kret üzerine binen basınç katlanarak artar. Bu durum rezidüel kretlerde hızlı kemik erimesine (rezorpsiyona) neden olur.\n* **C) Estetiği iyileştirir (Yanlış):** Doğrudan estetik amacı yoktur.\n* **D) Kroşe esnekliğini artırır (Yanlış):** Kroşeyle ilgili değildir.\n* **E) Temizliği kolaylaştırır (Yanlış):** Karmaşık mekanizması temizliği zorlaştırır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 416,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hareketli bölümlü protezlerde döküm metal kaide plaklarının akrilik kaide plaklarına göre üstün olan özelliklerinden biri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Astar (besleme) işlemlerinin ve mukoza uyumlamalarının çok kolay yapılması",
+      "B": "Termal (ısı) iletkenliğinin yüksek olması ve hastaya dokusal gıda hissi sunması",
+      "C": "Tamirinin son derece kolay ve ucuz olması",
+      "D": "Pembe estetiği akrilikten daha iyi taklit etmesi",
+      "E": "Ağırlığının akrilikten çok daha fazla olması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Besleme kolaylığı (Yanlış):** Metal kaidelere besleme (astar) yapmak neredeyse imkansızdır, bu akriliğin avantajıdır.\n* **B) Yüksek ısı iletkenliği (Doğru):** Metal kaideler ısıyı mükemmel ilettikleri için hastanın sıcak/soğuk gıda hissini doğal algılamasını sağlar ve doku sağlığını korur.\n* **C) Kolay tamir (Yanlış):** Metal kaide tamiri zordur.\n* **D) Pembe estetik (Yanlış):** Akrilik diş eti estetiğinde daha başarılıdır.\n* **E) Ağırlığın fazla olması (Yanlış):** Ağırlık bir avantaj değildir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 417,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi metal kaidelerin avantajlarından biri değildir?",
+    "options": {
+      "A": "Dokulara net uyumu",
+      "B": "Yüksek ısı iletkenliği",
+      "C": "Hafif olması ve ince yapılabilmesi",
+      "D": "Kolay temizlenmesi ve hijyenik olması",
+      "E": "Yapay dişlerin bağlanmasında ve besleme yapmada üstünlük"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Dokulara net uyum (Yanlış):** Döküm hassasiyeti yüksek olduğu için uyumu mükemmeldir.\n* **B) Yüksek ısı iletkenliği (Yanlış):** Mükemmel ısı iletimi avantajıdır.\n* **C) Hafif ve ince yapılabilmesi (Yanlış):** Metal mukavemeti sayesinde çok ince dökülebilir.\n* **D) Kolay temizlenme (Yanlış):** Plak tutulumu azdır ve temizliği kolaydır.\n* **E) Diş bağlanması ve besleme üstünlüğü (Doğru - Metalin Avantajı Değildir):** Yapay akrilik dişlerin kaideye kimyasal bağlanması ve ilerleyen yıllarda eriyen kretler için kaideye besleme (rebasing/relining) yapılması AKRİLİK kaidelerin avantajıdır. Metal kaidelerde besleme yapmak ve diş bağlamak mekanik tutucular gerektirir ve zordur.",
+    "lesson": "Protez",
+    "flag_reason": "2014 İlkbahar DUS Orijinal",
+    "q_num": 418,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Dokuya adaptasyonu doğru olmalı ve deforme olmamalıdır.**\n**II. İnce ve dayanıklı dökülebilmelidir.**\n**III. Gerektiğinde besleme (mukoza astarı) yapılabilmelidir.**\n**IV. Isı iletkenliği yüksek olmalıdır.**\n\n**Yukarıda verilenlerden hangileri ideal bir metal kaide materyalinin taşıması gereken özelliklerdendir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I, II ve IV",
+      "C": "II ve III",
+      "D": "III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **I. Dokuya adaptasyon (Doğru):** Metal kaide dokuya mükemmel uyum sağlamalıdır.\n* **II. İnce ve dayanıklı döküm (Doğru):** İnce dökülebilmesi ve kırılmaması metalin ana özelliğidir.\n* **III. Besleme yapılabilmesi (Hatalı):** Besleme yapılamaması metal kaidelerin bilinen en büyük dezavantajıdır.\n* **IV. Yüksek ısı iletkenliği (Doğru):** Isıyı iletmesi ideal özelliktir.\n* **Sonuç:** I, II ve IV numaralı öncüller metal kaidenin ideal özellikleridir. Bu nedenle cevap B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 419,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Üst çenede tam dişsizlik ve alt çenede Kennedy Sınıf I dişsizliği olan bir hastada, her iki çenede de geleneksel protez yapılması planlanıyor. Bu hasta için en uygun oklüzyon tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Unilateral grup fonksiyonu",
+      "B": "Kanin koruyuculu oklüzyon",
+      "C": "Anterior rehberliği olan oklüzyon",
+      "D": "Posterior disoklüzyon",
+      "E": "Bilateral balanslı oklüzyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Unilateral grup fonksiyonu (Yanlış):** Sabit protezlerde veya tek taraflı oklüzyonlarda geçerlidir.\n* **B) Kanin koruyuculu oklüzyon (Yanlış):** Doğal dişli veya tam diş destekli sabit vakalarda uygulanır; tam protezi devirir.\n* **C) Anterior rehberlik (Yanlış):** Tam protezde ön diş teması arka dişleri ayırır ve protezi düşürür.\n* **D) Posterior disoklüzyon (Yanlış):** Tam protez stabilitesini bozar.\n* **E) Bilateral balanslı oklüzyon (Doğru):** Üstte tam protez (mukoza destekli), altta ise serbest sonlu hareketli bölümlü protez (Sınıf I) bulunan vakalarda, protezlerin çiğneme ve çene hareketleri sırasında devrilmesini önlemek ve maksimum stabilite sağlamak için santrik ve tüm eksantrik hareketlerde ön ve arka dişlerin eş zamanlı temas ettiği \"Bilateral Balanslı Oklüzyon\" şarttır.",
+    "lesson": "Protez",
+    "flag_reason": "2020 DUS Orijinal",
+    "q_num": 420,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıda verilen dişsizlik durumlarının hangisinde yapılması planlanan geleneksel protezlerde eksantrik hareketlerde bilateral balanslı oklüzyon oluşturulması GEREKLİ DEĞİLDİR?",
+    "options": {
+      "A": "Üst çene tam dişsizlik - Alt çene Kennedy Sınıf I",
+      "B": "Üst çene tam dişsizlik - Alt çene Kennedy Sınıf II",
+      "C": "Üst çene Kennedy Sınıf I - Alt çene tam dişsizlik",
+      "D": "Üst çene Kennedy Sınıf II - Alt çene tam dişsizlik",
+      "E": "Üst çene Kennedy Sınıf II - Alt çene Kennedy Sınıf II (Tam diş destekli konsept)"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Üst tam - Alt Sınıf I (Yanlış):** Bilateral balans şarttır.\n* **B) Üst tam - Alt Sınıf II (Yanlış):** Bilateral balans şarttır.\n* **C) Üst Sınıf I - Alt tam (Yanlış):** Bilateral balans şarttır.\n* **D) Üst Sınıf II - Alt tam (Yanlış):** Bilateral balans şarttır.\n* **E) Üst Sınıf II - Alt Sınıf II (Doğru - Bilateral Balans Gerekmez):** Her iki çenede de sabit diş desteklerinin bulunduğu veya kanin koruyuculuğun sağlanabildiği tam diş destekli / stabil bölümlü protez vakalarında kanin koruyuculu oklüzyon veya grup fonksiyonu uygulanabilir; bilateral balanslı oklüzyon yapılması şart değildir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 421,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mevcut dişleri 13, 15, 18, 23, 24 ve 25 numaralı dişler olan, 20 yaş dişinin protez planlamasına dahil edileceği hareketli bölümlü protez endikasyonu konulan kısmi dişsiz bir hastanın Kennedy-Applegate sınıflamasına göre dental ark sınıflaması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sınıf IV, modifikasyon 2",
+      "B": "Sınıf II, modifikasyon 2",
+      "C": "Sınıf III, modifikasyon 2",
+      "D": "Sınıf III, modifikasyon 3",
+      "E": "Sınıf II, modifikasyon 3"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Diş Durumu Analizi:**\n  - Mevcut dişler: 13, 15, 18 (Sağ taraf) ve 23, 24, 25 (Sol taraf).\n  - Dişsiz boşluklar:\n    1. Sol posterior serbest sonlu alan (26, 27 eksik - 28 bulunmadığı için en arkadaki serbest dişsizlik). Bu alan en gerideki dişsizliktir -> **Kennedy Sınıf II**.\n    2. Anterior dişsizlik (11, 12, 21, 22 eksik) -> **Modifikasyon 1**.\n    3. Sağ premolar boşluk (14 eksik) -> **Modifikasyon 2**.\n    4. Sağ molar boşluk (16, 17 eksik - ancak 18 mevcut olduğu için diş destekli boşluktur).\n* **Sınıflama:** En arkadaki serbest dişsiz alan olan sol arka bölge ana sınıfı belirler: **Kennedy Sınıf II**. Diğer ek dişsiz alanlar ise **Modifikasyon 2** oluşturur. Bu nedenle cevap B seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "2025 Sonbahar DUS Orijinal",
+    "q_num": 422,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kennedy sınıflama kuralları (Applegate kuralları) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sınıflama diş çekimlerinden önce yapılmalıdır.",
+      "B": "Üçüncü molar (20 yaş dişi) eksikse ve protezde kullanılmayacaksa sınıflamada dikkate alınmaz.",
+      "C": "Üçüncü molar mevcutsa ve destek olarak kullanılacaksa sınıflamada dikkate alınır.",
+      "D": "En arkada yer alan dişsiz alan her zaman esas sınıflamayı belirler.",
+      "E": "Modifikasyon alanlarının büyüklüğü değil, sadece dişsiz boşluk sayısı önemlidir."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Sınıflama çekimden önce yapılmalıdır (Doğru - Yanlış İfadedir):** Applegate kural 1: Sınıflama mutlaka diş çekimleri TAMAMLAMADAN ÖNCE DEĞİL, çekimler tamamlandıktan SONRA yapılmalıdır. Çünkü çekilecek bir diş sınıflamanın kaderini değiştirebilir.\n* **B) 3. Molar yoksa dikkate alınmaz (Yanlış - Doğru kuraldır):** Kural 2.\n* **C) 3. Molar destekse dikkate alınır (Yanlış - Doğru kuraldır):** Kural 3.\n* **D) En arkadaki alan sınıfı belirler (Yanlış - Doğru kuraldır):** Kural 5.\n* **E) Sadece boşluk sayısı önemlidir (Yanlış - Doğru kuraldır):** Kural 8.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 423,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kısmi dişsiz bir hastada modeller teşhis amacıyla paralelometreye bağlandıktan sonra, protezin ağza giriş-çıkış yolunun belirlenmesinde kullanılan paralelometre ucu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Rehber (Analiz) ucu",
+      "B": "Çizici uç (Karbon uç)",
+      "C": "Andırkat ölçer uç (Gauge)",
+      "D": "Mumu düzeltici uç (Wax trimmer)",
+      "E": "Bloklama ucu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Rehber (Analiz) ucu (Doğru):** Teşhis modelinde dişlerin aksiyel yüzeylerindeki paralellikleri, rehber düzlemleri ve protezin ağza giriş-çıkış yolunu analiz etmek için kullanılan silindirik metal uca \"Rehber (Analiz) uç\" denir.\n* **B) Çizici uç (Yanlış):** Ekvator çizgisini çizer.\n* **C) Andırkat ölçer (Yanlış):** Andırkat derinliğini (0.25, 0.50 mm) ölçer.\n* **D) Mumu düzeltici (Yanlış):** Laboratuvarda fazlalık mumları kazır.\n* **E) Bloklama ucu (Yanlış):** İstenmeyen andırkatları kapatır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 424,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Destek dişlerin ekvator hattının çizilmesi**\n**II. Rehber düzlemlerin giriş yoluna paralel ayarlanması**\n**III. İstenmeyen andırkat alanlarının kapatılması (Block-out)**\n**IV. Retantif andırkat derinliklerinin ölçülmesi**\n\n**Yukarıdakilerden hangileri hareketli bölümlü protezlerde teşhis modelinin paralelometreye bağlanmasının ardından model üzerinde uygulanan işlemlerden biridir?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I, II ve IV",
+      "D": "I, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Ekvator hattı çizimi (Doğru):** Karbon uçla ekvator hattı belirlenir.\n* **II. Rehber düzlem analizi (Doğru):** Rehber uçla paralellik kontrol edilir.\n* **III. Block-out (Doğru):** İstenmeyen andırkatlar mumla kapatılır.\n* **IV. Andırkat ölçümü (Doğru):** Ölçer uçla 0.25-0.50 mm derinlikler saptanır.\n* **Sonuç:** Bütün işlemler (I, II, III ve IV) paralelometre analiz adımlarıdır. Bu nedenle cevap E seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 425,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Destek dişlerin proksimal yüzeylerinde protezin giriş-çıkış yoluna paralel olarak hazırlanan ve protezin yanal stabilitesini sağlayan düzleştirilmiş mine yüzeylerine ne ad verilir?",
+    "options": {
+      "A": "Rehber düzlemler (Guiding planes)",
+      "B": "Oklüzal tırnak yuvaları",
+      "C": "Andırkat bölgeleri",
+      "D": "Cingulum basamakları",
+      "E": "Ekvator çizgileri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Rehber düzlemler (Guiding planes) (Doğru):** Destek dişlerin proksimal (mezial veya distal) yüzeylerinde, protezin ağza tek bir giriş yönünde rahatça girmesini sağlamak, yanal stabiliteyi artırmak ve gıda birikimini önlemek amacıyla paralelometreye paralel hazırlanan düz yüzeylere \"Rehber düzlemler\" denir.\n* **B) Oklüzal tırnak yuvaları (Yanlış):** Vertikal destek sağlar.\n* **C) Andırkat bölgeleri (Yanlış):** Tutuculuk alanıdır.\n* **D) Cingulum basamakları (Yanlış):** Tırnak yuvasıdır.\n* **E) Ekvator çizgileri (Yanlış):** En geniş çevre çizgisidir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 426,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Rehber düzlemlerin genişliği ve yüksekliği ile ilgili hazırlık kurallarından hangisi doğrudur?",
+    "options": {
+      "A": "Serbest diş eti marjininden başlayıp oklüzale kadar tüm yüzeyi kapsamalıdır.",
+      "B": "Verilen tırnak yuvasının genişliğinde olmalı, occlusogingival yüksekliği yaklaşık 2-4 mm (dişin aksiyel boyunun 1/2 ile 2/3'ü) kadar hazırlanmalıdır.",
+      "C": "Derinliği en az 3 mm olacak şekilde dentine girilerek hazırlanmalıdır.",
+      "D": "Yalnızca labial yüzeyde hazırlanmalıdır.",
+      "E": "Ekvator hattının altında dairesel çukur şeklinde açılmalıdır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Tüm yüzeyi kapsamalı (Yanlış):** Diş eti marjinine 1 mm kala durmalıdır.\n* **B) Occlusogingival 2-4 mm yükseklikte (Doğru):** Rehber düzlemler Tırnak genişliğinde, servikal diş etine temas etmeyecek şekilde 1 mm supragingivalde sonlanan ve aksiyel yüksekliği 2-4 mm olan düzleştirmelerdir.\n* **C) Dentine girilmelidir (Yanlış):** Mine sınırında kalmalıdır.\n* **D) Labialde (Yanlış):** Proksimal yüzeylerde hazırlanır.\n* **E) Dairesel çukur (Yanlış):** Düz yüzeylerdir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 427,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kısmi dişsiz bir model paralelometreye bağlandığında, modelin posteriora doğru arkaya yatırılması (posterior tilt) aşağıdaki yapılardan hangisinin andırkat miktarını etkiler?",
+    "options": {
+      "A": "Anterior dişlerin labial yüzeyindeki andırkatları azaltır veya yok eder, posterior dişlerin distal andırkatlarını artırır.",
+      "B": "Bütün dişlerin andırkatlarını tamamen yok eder.",
+      "C": "Yalnızca lingual barın boyunu uzatır.",
+      "D": "Oklüzal tırnak derinliğini artırır.",
+      "E": "Dişlerin kök boylarını değiştirir."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Anterior labial andırkatı azaltır, posterior distali artırır (Doğru):** Model posteriora (arkaya) yatırıldığında, protezin giriş yönü değişir. Ön dişlerin labial yüzeyindeki andırkatlar azalır; buna karşılık posterior dişlerin distal yüzeylerindeki andırkat derinlikleri artar.\n* **B) Tamamen yok eder (Yanlış):** Konumsal olarak andırkatlar yön değiştirir.\n* **C) Lingual bar boyu (Yanlış):** Metal boyu değişmez.\n* **D) Tırnak derinliği (Yanlış):** Tırnak derinliği kesimle ilgilidir.\n* **E) Kök boyu (Yanlış):** Anatomik yapıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 428,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi paralelometrede model eğiminin (tilt) değiştirilmesinin ana amaçlarından biridir?",
+    "options": {
+      "A": "Ağızdaki tüm dişleri çekmek",
+      "B": "Estetiği ve tutuculuğu optimize etmek, engel oluşturan doku/diş andırkatlarını pas geçmek ve uygun rehber düzlemler oluşturmak",
+      "C": "Döküm metalin erime sıcaklığını düşürmek",
+      "D": "Protezin ağırlığını hafifletmek",
+      "E": "Akrilik kaidenin sertleşme süresini kısaltmak"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Diş çekimi (Yanlış):** Klinik karardır.\n* **B) Estetik, tutuculuk ve rehber düzlemleri optimize etmek (Doğru):** Model tilti (eğimi) değiştirilerek: (1) Ön bölgede estetik bozan andırkatlar elimine edilir, (2) Destek dişlerde eşit tutuculuk alanları seçilir, (3) Protezin takılmasına engel olan kemik çıkıntıları pas geçilir, (4) Paralel rehber düzlemler bulunur.\n* **C) Erime sıcaklığı (Yanlış):** Metalurjik özelliktir.\n* **D) Protez ağırlığı (Yanlış):** Tasarımla ilgilidir.\n* **E) Sertleşme süresi (Yanlış):** Kimyasal reaksiyondur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 429,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dental implant yerleşimi sırasında erken dönemde kemik rezorpsiyonuna bağlı başarısızlığı önlemek amacıyla implantın bukkalinde ve lingualinde kalması gereken ideal kemik kalınlıkları aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "1 mm — 1 mm",
+      "B": "2 mm — 1 mm",
+      "C": "1.5 mm — 1.5 mm",
+      "D": "2 mm — 2 mm",
+      "E": "3 mm — 1 mm"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) 1 mm - 1 mm (Yanlış):** Bukkalde 1 mm kemik resorpsiyona dayanamaz ve diş eti çekilmesine yol açar.\n* **B) 2 mm - 1 mm (Doğru):** İmplant çevresinde kemik stabilitesini korumak için estetik ve osteotomi açısından bukkal kemik et kalınlığı en az 2 mm, lingual/palatal kemik et kalınlığı ise en az 1 mm olmalıdır.\n* **C) 1.5 mm - 1.5 mm (Yanlış):** İki komşu implant arası kemik mesafesidir.\n* **D) 2 mm - 2 mm (Yanlış):** Lingualde 1 mm yeterlidir.\n* **E) 3 mm - 1 mm (Yanlış):** Bukkalde 2 mm standarttır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 430,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İki komşu dental implant arasında sağlıklı bir interdental kemik ve papil yapısının korunabilmesi için iki implant gövdesi arasında bırakılması gereken minimum mesafe kaç mm'dir?",
+    "options": {
+      "A": "1 mm",
+      "B": "1.5 mm",
+      "C": "3 mm",
+      "D": "4.5 mm",
+      "E": "6 mm"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) 1 mm (Yanlış):** Kemik nekrozuna neden olur.\n* **B) 1.5 mm (Yanlış):** Doğal diş ile implant arasındaki minimum mesafedir.\n* **C) 3 mm (Doğru):** İki komşu implant arasında krestal kemik kaybını ve interimplant papil çökmesini önlemek için iki implantın platformları/gövdeleri arasında bırakılması gereken emniyet mesafesi en az 3 mm'dir.\n* **D) 4.5 mm (Yanlış):** Gerekenden geniş bir mesafedir.\n* **E) 6 mm (Yanlış):** Çok geniş mesafedir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 431,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir doğal diş ile komşu bir dental implant arasında krestal kemik seviyesini korumak için bırakılması gereken minimum mesafe kaç mm olmalıdır?",
+    "options": {
+      "A": "0.5 mm",
+      "B": "1.0 mm",
+      "C": "1.5 mm",
+      "D": "3.0 mm",
+      "E": "5.0 mm"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) 0.5 mm (Yanlış):** Dişin periodontal ligamentine zarar verir.\n* **B) 1.0 mm (Yanlış):** Yetersizdir.\n* **C) 1.5 mm (Doğru):** Doğal bir diş ile hemen yanındaki bir dental implant arasında periodontal ligamenti ve krestal kemik zirvesini korumak için bırakılması gereken minimum mesafe 1.5 mm'dir.\n* **D) 3.0 mm (Yanlış):** İki implant arası mesafedir.\n* **E) 5.0 mm (Yanlış):** Çok geniş mesafedir.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 432,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İmplant destekli sabit protezlerde vidalı (screw-retained) üst yapıların siman tutuculu (cement-retained) üst yapılara göre en önemli avantajı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Porselen yüzeyinde hiçbir delik içermediği için mükemmel estetik sunması",
+      "B": "Gerektiğinde vidanın sökülerek restorasyonun kolayca çıkarılabilmesi (geri çıkartılabilirlik / retrievability)",
+      "C": "Laboratuvar yapım maliyetinin çok ucuz olması",
+      "D": "Pasif oturma uyumsuzluklarını tamamen tolere etmesi",
+      "E": "Dikey boyut yetersizliğinde hiç uygulanamaması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Porselen deliksizliği (Yanlış):** Vida giriş deliği estetik için kapatılmalıdır, bu siman tutucunun avantajıdır.\n* **B) Geri çıkartılabilirlik (Doğru):** Vidalı üst yapıların en büyük klinik avantajı; protezin vida sökülerek istenildiği zaman dokuya zarar vermeden çıkarılabilmesi, temizlenebilmesi veya tamir edilebilmesidir (Retrievability).\n* **C) Ucuz maliyet (Yanlış):** Vidalı parçalar daha pahalıdır.\n* **D) Pasif oturma toleransı (Yanlış):** Vidalı protezlerde pasif oturma şarttır, uyumsuzluk kemiğe yük getirir.\n* **E) Dikey boyut yetersizliği (Yanlış):** Vidalı protezler kuron boyu kısa olan vakalarda simana göre daha başarılıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 433,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Siman tutuculu implant üstü sabit protezlerde klinik başarısızlığın ve \"peri-implantitis\" inflamasyonunun en sık görülen nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Vida kırılması",
+      "B": "Derin diş eti altına kaçan ve temizlenemeyen artık (artık/taşan) yapıştırma simanı",
+      "C": "İmplantın kırılması",
+      "D": "Protezin dökümünün ağır olması",
+      "E": "Tükürük akışının artması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Vida kırılması (Yanlış):** Vidalı sistemlerde görülür.\n* **B) Temizlenemeyen artık siman (Doğru):** Siman tutuculu implant restorasyonlarında, simantasyon sonrasında oluk içine kaçan ve temizlenemeyen katılaşmış yapıştırma siman artıkları şiddetli yabancı cisim reaksiyonuna, bakteriyel plak birikimine ve peri-implantitis (kemik erimesi) tablosuna yol açar.\n* **C) İmplant kırılması (Yanlış):** Ciddi travma vakasıdır.\n* **D) Döküm ağırlığı (Yanlış):** İnflamasyon nedeni değildir.\n* **E) Tükürük artışı (Yanlış):** Fizyolojik olaydır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 434,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. İyileşme başlığı (Healing abutment)**\n**II. Kapama vidası (Cover screw)**\n**III. İmplant analoğu (Implant analog)**\n**IV. Ölçü postu (Impression coping)**\n**V. Dayanak (Abutment)**\n\n**Yukarıdaki implant parçalarından hangileri doğrudan hasta ağzında ölçü alma veya daimî restorasyon yapım aşamasında DÂHİL EDİLMEZ (Laboratuvar modelinde veya cerrahi aşamada kullanılır)?",
+    "options": {
+      "A": "II ve III",
+      "B": "I, II ve III",
+      "C": "I ve IV",
+      "D": "III, IV ve V",
+      "E": "I, II, III ve V"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **I. İyileşme başlığı:** Ağızda diş etini şekillendirir.\n* **II. Kapama vidası (Cover screw):** Cerrahi aşamada implantın üzerini kapatmak için kemik içinde kullanılır; protez ölçüsü ve yapım aşamasında ağızda yer almaz.\n* **III. İmplant analoğu:** Laboratuvarda alçı modeli dökülürken ölçü postuna takılan ve implantı alçı model içinde temsil eden parçadır, hasta ağzına girmez.\n* **IV. Ölçü postu:** Ölçü alırken ağza takılır.\n* **V. Dayanak (Abutment):** Protezin oturduğu ağız içi parçadır.\n* **Sonuç:** Kapama vidası (II) ve İmplant analoğu (III) hasta ağzındaki protetik ölçü/yapım aşamasına dâhil edilmez. Bu nedenle cevap A seçeneğidir.",
+    "lesson": "Protez",
+    "flag_reason": "2023 İlkbahar DUS Orijinal",
+    "q_num": 435,
+    "unit": "22-Hareketli Bölümlü Protezlerde Biyomekanik",
+    "quality_flag": "cikmis"
+  }
+]

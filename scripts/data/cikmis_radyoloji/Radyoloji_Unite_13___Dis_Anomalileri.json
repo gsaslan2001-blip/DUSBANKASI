@@ -1,0 +1,342 @@
+[
+  {
+    "q_num": 371,
+    "question": "Konik ışınlı bilgisayarlı tomografi görüntüsünde sağ üst 3. molar ve komşuluğundaki bir distomolar dişin köklerinin birleşmiş olduğu saptanıyor. İlgili dişlerin çekimi sonrası yapılan histopatolojik incelemede dişlerin köklerinin sement düzeyinde birleşmiş olduğu belirleniyor. Yukarıda tanımlanan dental anomali aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Füzyon",
+      "B": "Geminasyon",
+      "C": "Konkresens",
+      "D": "Taurodontizm",
+      "E": "Dens evaginatus"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Konkresens; gelişimini tamamlamış veya tamamlamakta olan iki komşu dişin köklerinin yalnızca sement (veya hipersementoz) düzeyinde birleşmesidir; dentin dokuları ayrıdır. En sık maksiller 2. ve 3. molar dişler veya bir süpernümerer (distomolar) diş arasında görülür.\n**Çeldiriciler:**\n- A) Füzyon: İki ayrı diş germinin gelişim sırasında dentin (ve mine) düzeyinde birleşmesidir.\n- B) Geminasyon: Tek bir diş germinin ikiye bölünmeye çalışması sonucu oluşan, tek köklü ve tek kanal sistemli bifid krondur.\n- D) Taurodontizm: Molar dişlerde pulpa odasının apiko-oklüzal yönde uzaması ve furkasyonun apikale kaymasıdır.\n- E) Dens evaginatus: Oklüzal veya singulum yüzeyinde mine ve dentinin dışa doğru aksesuar tüberkül oluşturmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 372,
+    "question": "Radyolojik incelemesinde hastanın sol üçüncü molar dişi ile komşuluğundaki distomolar dişin köklerinin birleşmiş olduğu izleniyor. İlgili dişlerin çekimi sonrası yapılan histopatolojik incelemede dişlerin köklerinin sadece sement düzeyinde birleşmiş olduğu belirleniyor. Yukarıda tanımlanan dental anomali aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Taurodontizm",
+      "B": "Talon tüberkülü",
+      "C": "Konkresens",
+      "D": "Transpozisyon",
+      "E": "Füzyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Komşu iki dişin (özellikle üst 3. molar ve distomolar dişin) dentinlerinin kaynaşmaksızın yalnızca kök sement yüzeyleri aracılığıyla birleşmesi konkresens olarak adlandırılır.\n**Çeldiriciler:**\n- A) Taurodontizm: Diş gövdesinin ve pulpa odasının vertikal yönde genişlemesi, köklerin kısalmasıdır.\n- B) Talon tüberkülü: Kesici dişlerin singulumundan insizale uzanan aksesuar tüberküldür (dens evaginatus varyantı).\n- D) Transpozisyon: Komşu iki dişin dental ark üzerindeki konumlarının birbiriyle yer değiştirmesidir.\n- E) Füzyon: İki diş germinin sadece sementten değil, mutlaka dentin tabakasından birleşmesidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 373,
+    "question": "I. Füzyon\nII. Konkresens\nIII. Geminasyon\n\nYukarıdaki dental anomalilerden hangisi veya hangilerinde dental arkta pseudo diş fazlalığı ile karşılaşılabilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "Yalnız I",
+      "C": "Yalnız III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Yalnız III numaralı anomali (geminasyon) ağız içinde görsel olarak diş fazlalığı izlenimi yaratabilir.\n- I. Yanlış: Füzyonda iki normal diş germi birleşerek tek bir büyük diş oluşturduğu için arkta diş sayısında azalma (eksiklik) görülür.\n- II. Yanlış: Konkresenste dişlerin kronları ayrı olup sadece kökleri sementten birleşiktir; dental arktaki kron sayısını değiştirmez.\n- III. Doğru: Geminasyonda tek bir diş germi ikiye ayrılmaya çalışarak çift kuron görüntüsü oluşturduğu için ağızda görsel olarak diş sayısında artış (psödo fazlalık) izlenimi verir (birleşik kron tek diş sayılırsa ark sayısı normaldir).\n**Çeldiriciler:**\n- A) I diş sayısını azaltır, II değiştirmez.\n- B) I diş sayısında azalmaya neden olur.\n- D) II diş sayısını etkilemez.\n- E) I ve II yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 374,
+    "question": "Süt dişi kök patolojisi sebebi ile daimi diş germinin etkilenmesi sonucu meydana gelen patoloji nedir?",
+    "options": {
+      "A": "Geminasyon",
+      "B": "Odonto hipoplazi",
+      "C": "Turner hipoplazisi",
+      "D": "Füzyon",
+      "E": "Transpozisyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Süt dişindeki periapikal bir enfeksiyonun veya süt dişine gelen mekanik travmanın altta gelişmekte olan daimi diş germinin ameloblastlarını zedelemesi sonucunda tek bir daimi dişin kronunda oluşan fokal mine hipoplazisi/hipokalsifikasyonuna Turner hipoplazisi (Turner dişi) denir.\n**Çeldiriciler:**\n- A) Geminasyon: Tek diş germinin bölünme girişimiyle oluşan şekil anomalisidir.\n- B) Odonto hipoplazi (Rejyonel odontodisplazi): Bir kadrandaki birkaç dişin tüm sert dokularını etkileyen \"hayalet diş\" tablosudur.\n- D) Füzyon: İki komşu diş germinin dentin düzeyinde kaynaşmasıdır.\n- E) Transpozisyon: İki komşu dişin arkta yer değiştirmesidir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 375,
+    "question": "Turner hipoplazisi ile ilgili aşağıdaki verilenlerden hangisi doğru değildir?",
+    "options": {
+      "A": "Daimi diş kronunda lokal hipoplastik defektle karakterizedir.",
+      "B": "Yüksek doz radyasyona bağlı çürük ile ayırımı gereklidir.",
+      "C": "Süt veya daimi dentisyonda izlenebilir.",
+      "D": "Sıklıkla mandibular premolar dişlerde izlenir.",
+      "E": "Süt dişinin periapikal enfeksiyonu veya aldığı mekanik travma sonucu oluşabilir."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Turner hipoplazisi, süt dişindeki enfeksiyon veya travmanın alttaki daimi diş germini etkilemesiyle oluştuğundan tanım gereği sadece daimi dentisyonda (süt dişlerinin yerini alan süksesyonel daimi dişlerde) izlenir; süt dentisyonda görülmez.\n**Çeldiriciler:**\n- A) Etkilenen daimi dişin kronunda sarı-kahverengi renklenme ve lokalize hipoplastik mine defekti görülür.\n- B) Radyografide bozulmuş kron konturu, yüksek doz radyasyon deformasyonu veya çürükle karışabileceği için ayırıcı tanısı yapılmalıdır.\n- D) Süt molarların periapikal enfeksiyonuna bağlı olarak en sık mandibular premolarlarda (ve travmaya bağlı üst santral kesicilerde) izlenir.\n- E) Etiyolojisinde süt dişi periapikal apsesi veya süt dişinin intrüzyon/travması yer alır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 376,
+    "question": "Yüksek ateşe bağlı meydana gelen hipoplazilerin hangi özelliği ile Turner hipoplazisinden ayırt edilebilir?",
+    "options": {
+      "A": "Radyografik olarak görülebilir olması",
+      "B": "Pulpa kanallarının tıkalı olması",
+      "C": "Simetrik olması",
+      "D": "Koyu renkte olması",
+      "E": "Dişin kronunda görülmesi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Yüksek ateşli hastalıklar, beslenme bozukluğu veya florozis gibi sistemik etkenler o dönemde mineralize olmakta olan tüm dişleri aynı anda etkilediği için bilateral ve simetrik (kronolojik) mine hipoplazisi oluşturur. Turner hipoplazisi ise lokal bir etkene bağlı olduğundan sadece tek bir dişi (asimetrik) etkiler.\n**Çeldiriciler:**\n- A) Her iki hipoplazi türü de şiddetli olduğunda radyografide kron konturunda radyolusent çentik/hat olarak görülebilir.\n- B) Her iki durumda da pulpa kanallarının tıkanması tipik bir bulgu değildir.\n- D) Her iki hipoplazi tipinde de etkilenen gözenekli mine zamanla dışsal boyanarak sarı-kahverengi koyu renk alabilir.\n- E) Mine hipoplazilerinin tamamı dişin kronunda (mine yüzeyinde) görülür.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 377,
+    "question": "Mandibulada, anterior dişlerden birinin daha büyük olması şikâyetiyle başvuran hastanın, klinik ve radyografik muayenesinde ilgili bölgede diş eksikliği de belirleniyor. Bu durumu en iyi tanımlayan anomali aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Makrodonti",
+      "B": "Füzyon",
+      "C": "Konkrosens",
+      "D": "Taurodontizm",
+      "E": "Geminasyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Füzyon, gelişmekte olan iki komşu diş germinin dentin düzeyinde birleşerek tek bir büyük kron oluşturmasıdır. En sık anterior bölgede görülür ve iki normal diş birleşip tek diş olarak sayıldığı için ilgili kadranda diş sayısında azalma (diş eksikliği) saptanır.\n**Çeldiriciler:**\n- A) Makrodonti: Dişin normalden büyük olmasıdır ancak dental arktaki toplam diş sayısında eksiklik bulunmaz.\n- C) Konkrosens: Arka bölgede iki dişin kök sementlerinden birleşmesidir; anterior bölgede büyük tek kron ve diş eksikliği yapmaz.\n- D) Taurodontizm: Molar dişlerde pulpa odasının apikale doğru genişlemesidir; klinik olarak kron büyüklüğü veya diş eksikliği yapmaz.\n- E) Geminasyon: Tek diş germinin bölünmeye çalışmasıdır; büyük/bifid kron görülür ancak arkta diş eksikliği yoktur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 378,
+    "question": "Aşağıdaki dental anomalilerden hangisi komşu iki dişin birleşmesi sonucu izlenir ve göreceli olarak dental arktaki diş sayısının azalmasına sebep olur?",
+    "options": {
+      "A": "Konkrasyon",
+      "B": "Füzyon",
+      "C": "Geminasyon",
+      "D": "Taurodontizm",
+      "E": "Makrodonti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Gelişmekte olan komşu iki normal diş germinin dentin (ve mine) düzeyinde kaynaşması sonucu tek bir geniş diş oluşmasına ve dental arktaki toplam diş sayısının bir adet azalmasına füzyon denir.\n**Çeldiriciler:**\n- A) Konkrasyon (konkresens): Kök gelişimi tamamlandıktan sonra sadece sement yüzeylerinin birleşmesidir; kronlar ayrı olduğu için arkta diş sayısı azalmaz.\n- C) Geminasyon: Tek bir diş germinin ikiye ayrılma girişimidir; diş sayısında azalma olmaz.\n- D) Taurodontizm: Pulpa odasının vertikal yönde uzaması ve köklerin kısalmasıdır.\n- E) Makrodonti: Birleşme olmaksızın diş boyutunun normalden büyük olmasıdır; diş sayısı azalmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 379,
+    "question": "Aşağıdakilerden hangisi füzyon anomalisi için doğru bir bilgi değildir?",
+    "options": {
+      "A": "Gelişmekte olan komşu iki dişin birleşmesidir",
+      "B": "Ağızdaki diş sayısında artmaya sebep olur",
+      "C": "En sık anterior dişlerde izlenir",
+      "D": "Normalden daha büyük kron izlenir",
+      "E": "Geminasyon ve makrodonti ile karıştırılmamalıdır"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Füzyonda iki normal diş germi birleşerek tek bir diş oluşturduğu için ağızdaki diş sayısında artmaya değil, azalmaya (bir diş eksikliğine) sebep olur (süpernümerer bir dişle birleşmediği sürece).\n**Çeldiriciler:**\n- A) Morfodiferansiyasyon aşamasında iki komşu diş germinin dentin düzeyinde birleşmesiyle gelişir.\n- C) Hem süt hem daimi dentisyonda en sık mandibular ve maksiller anterior (kesici-kanin) bölgede izlenir.\n- D) İki kuronun birleşmesiyle normalden geniş, büyük veya çentikli bir kron ortaya çıkar.\n- E) Klinik olarak büyük kron oluşturduğu için geminasyon ve makrodonti ile ayırıcı tanısı (diş sayısı ve kök/kanal morfolojisiyle) yapılmalıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 380,
+    "question": "İki veya daha fazla sayıdaki süt ya da daimi diş kökünün, sement yüzeylerinden birbirleriyle kaynaşmasına ne ad verilir?",
+    "options": {
+      "A": "Füzyon",
+      "B": "Konkresens",
+      "C": "Dilaserasyon",
+      "D": "Transpozisyon",
+      "E": "Geminasyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Komşu iki veya daha fazla dişin köklerinin, dentin dokuları katılmaksızın yalnızca sement tabakaları aracılığıyla birbirine kaynaşmasına konkresens denir.\n**Çeldiriciler:**\n- A) Füzyon: Dişlerin gelişim sırasında dentin seviyesinden birleşmesidir.\n- C) Dilaserasyon: Dişin kron veya kök kısmının uzun ekseni boyunca keskin açılanma/bükülme göstermesidir.\n- D) Transpozisyon: İki dişin dental ark üzerindeki yerlerinin değişmesidir.\n- E) Geminasyon: Tek bir diş germinin kısmi bölünmesiyle oluşan çift kronlu tek diştir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 381,
+    "question": "Sıklıkla maksiller 2. ve 3. molarlarda görülen, formasyonu tamamlanmış iki dişin sadece kök yüzeylerinde, lokal bir travma, dişin sıkışması, dislokasyonu veya enfeksiyon sonucu meydana gelen ve diş köklerinde semental birleşmeye sebep olan anomaliye ne ad verilir?",
+    "options": {
+      "A": "Füzyon",
+      "B": "Konkresens",
+      "C": "Dens invaginatus",
+      "D": "Dens in dente",
+      "E": "Geminasyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kök gelişimi tamamlanmış komşu iki dişin (en sık üst 2. ve 3. molarların) yer darlığı/sıkışma, travma veya kronik inflamasyon sonucu aradaki interdental kemiğin rezorbe olması ve aşırı sement birikimiyle kök yüzeylerinden kaynaşmasına konkresens (edinsel/inflamatuar konkresens) denir.\n**Çeldiriciler:**\n- A) Füzyon: Kök formasyonu tamamlanmadan önce gelişim aşamasında dentin birleşmesiyle oluşur ve anterior bölgede sıktır.\n- C) Dens invaginatus: Kalsifikasyon öncesi mine organının dental papillaya doğru katlanmasıdır (üst yan kesicide sıktır).\n- D) Dens in dente: Dens invaginatusun diğer adıdır.\n- E) Geminasyon: Tek diş germinin bölünmeye çalışmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 382,
+    "question": "Mine-sement sınırı ile bifurkasyon arasındaki mesafenin uzamasıyla, pulpa odasının uzun, köklerin kısa olduğu anomali aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Füzyon",
+      "B": "Taurodontizm",
+      "C": "Geminasyon",
+      "D": "Dilaserasyon",
+      "E": "Süpernümere kök"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hertwig epitel kök kılıfının horizontal yönde zamanında invajine olamaması sonucunda furkasyon bölgesinin apikale kayması, mine-sement sınırı ile bifurkasyon mesafesinin (diş gövdesinin ve pulpa odasının) uzaması, köklerin kısa kalması ve servikal daralmanın kaybolması taurodontizm olarak tanımlanır.\n**Çeldiriciler:**\n- A) Füzyon: İki diş germinin dentin düzeyinde birleşmesidir.\n- C) Geminasyon: Tek diş germinin ikiye ayrılma girişimidir.\n- D) Dilaserasyon: Kök veya kron aksında oluşan anormal açılanmadır.\n- E) Süpernümere kök: Dişin normal anatomik kök sayısından fazla köke sahip olmasıdır (örneğin alt 1. molarda radix entomolaris).\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 383,
+    "question": "Diş eksikliği şikâyetiyle getirilen 15 yaşındaki erkek hastanın yapılan klinik muayenesinde çoklu diş eksikliği, diş sürmesinde gecikme ve periodontal olarak sağlıklı olmasına rağmen mevcut dişlerinde orta seviyede mobilite olduğu izleniyor. Hastanın mevcut diş kronlarında herhangi bir şekil ya da renk değişikliği izlenmiyor. Yapılan radyografik muayenede diş köklerinin genel olarak kısa, konik şekilli olduğu ve molar köklerinin dış konturunun \"W\" benzeri görüntü oluşturduğu saptanıyor ve birkaç dişin kök apekslerinde radyolusent alanlar dikkati çekiyor. Ayrıca bazı dişlerin pulpa odalarının tamamen tıkalı olduğu, bazılarının ise pulpa kanallarının yer yer yarım ay şeklinde olduğu izleniyor. Klinik ve radyolojik özellikleri verilen bu olgu için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Amelogenezis imperfekta (hipoplastik tip)",
+      "B": "Turner hipoplazisi",
+      "C": "Dentin displazisi tip 1",
+      "D": "Odontogenezis imperfekta",
+      "E": "Rejyonel odontodisplazi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dentin displazisi tip 1 (radiküler dentin displazisi / köksüz dişler); otozomal dominant geçişli olup klinik olarak diş kronlarının renk ve şeklinin tamamen normal olduğu, ancak radyografide köklerin aşırı kısa/konik veya molarlarda \"W\" şeklinde izlendiği, pulpa odalarının sürme öncesi oblitere olarak yatay \"yarım ay\" (chevron) kalıntısı bıraktığı, dişlerde aşırı mobilite/erken kayıp ve çürüksüz dişlerde spontan periapikal radyolusensilerin görüldüğü tablodur.\n**Çeldiriciler:**\n- A) Amelogenezis imperfekta: Kökler ve pulpa normaldir; bozukluk diş kronundaki minededir (sarı-kahverengi, çukurcuklu, kare kronlar).\n- B) Turner hipoplazisi: Sadece tek bir daimi dişin kronunda görülen lokalize mine defektidir.\n- D) Odontogenezis/Dentinogenezis imperfekta: Diş kronları normal değildir; kehribar/mavi-gri şeffaf renkli, servikal boğumlanması belirgin bülböz (lale) şekilli kronlar ve hızla aşınan mine görülür.\n- E) Rejyonel odontodisplazi: Kalıtsal değildir, tek kadranda birkaç dişi tutar, pulpa odaları tıkalı değil çok geniştir ve hem mine hem dentin çok ince olduğu için \"hayalet diş\" görünümü verir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 384,
+    "question": "I. Diş kronları genellikle normal şekil ve boyuttadır, ancak bazı olgularda mavi-kahverengi şeffaflık izlenebilir.\nII. Radyolojik olarak kökler kısa, şekilsiz ya da molarlarda \"W\" harfi şeklinde olabilir.\nIII. Çürüksüz dişlerde periapikal lezyon görülmesi bu tablo için tipiktir.\n\nDentin displazisi Tip I (radiküler dentin displazisi) ile ilgili yukarıdaki ifadelerden hangisi veya hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** I, II ve III numaralı öncüllerin tamamı Dentin displazisi Tip I için doğrudur.\n- I. Doğru: Radiküler tip olduğu için diş kronları klinik olarak normal şekil, boyut ve renktedir (nadiren hafif mavi-kahverengi translüsensi olabilir).\n- II. Doğru: Hertwig epitel kök kılıfı defekti nedeniyle kökler aşırı kısa, künt, konik veya molarlarda \"W\" harfi şeklindedir.\n- III. Doğru: Defektif dentin tübüllerinden bakteriyel penetrasyon veya vasküler nekroz nedeniyle tamamen sağlam/çürüksüz dişlerin apekslerinde periapikal radyolusent lezyonlar (granülom/kist) gelişmesi tipiktir.\n**Çeldiriciler:**\n- A) II ve III de doğrudur.\n- B) III de doğrudur.\n- D) I de doğrudur.\n- E) II de doğrudur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 385,
+    "question": "I. Etkilenen dişlerde \"hayalet diş\" görünümü izlenir.\nII. Radyografide pulpa genişlemiş ve diş dokusu incelmiş olarak izlenebilir.\nIII. Mine dokusu hipermineralizedir ve radyografide belirgin görünür.\n\nRejyonel odontodisplazi ile ilgili yukarıdaki ifadelerden hangisi ya da hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** I ve II numaralı ifadeler rejyonel odontodisplazi için doğrudur.\n- I. Doğru: Hem ektodermal (mine) hem mezenşimal (dentin/sement) dokular ileri derecede hipoplastik ve hipokalsifiye olduğu için radyografide dişlerin radyoopasitesi çok düşüktür ve karakteristik \"hayalet diş\" (ghost teeth) görünümü izlenir.\n- II. Doğru: Dentin yapımı yetersiz kaldığı için sert doku duvarları çok incedir, pulpa odaları ve kök kanalları ise aşırı genişlemiş olarak görülür.\n- III. Yanlış: Mine dokusu hipermineralize değil, ileri derecede hipomineralize ve incedir; radyografide dentinle arasındaki kontrast kaybolur ve mine çoğu zaman hiç seçilemez.\n**Çeldiriciler:**\n- A) II. öncül de doğrudur.\n- B) I. öncül de doğrudur.\n- D) III. öncül yanlıştır.\n- E) III. öncül yanlıştır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 386,
+    "question": "Banyo işlemi öncesinde film üzerine damlayan bir sıvı nedeniyle periapikal radyografi üzerinde damla şeklinde keskin sınırlı radyoopak (beyaz) lekeler oluşmuştur. Aşağıdaki radyografideki oluşan bu artefakt hangisidir?",
+    "options": {
+      "A": "Geliştirici ajan damlamıştır.",
+      "B": "Sabitleyici ajan damlamıştır.",
+      "C": "Film uygun olmayan ortamda saklanmıştır.",
+      "D": "Banyolar arası sıcaklık farkını göstermektedir.",
+      "E": "İki film birbirine yapışmıştır."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Banyo işlemine başlamadan önce kuru film üzerine 2. banyo (sabitleyici/fiksatör) solüsyonu damlarsa, damladığı bölgedeki gümüş halid kristallerini önceden çözerek uzaklaştırır; böylece film geliştiriciye girdiğinde o bölgede gümüş indirgenemez ve radyografide şeffaf/radyoopak (beyaz) damla lekeleri oluşur.\n**Çeldiriciler:**\n- A) Geliştirici (1. banyo) ajan damlaması: Damladığı yerdeki gümüş kristallerini erkenden indirgeyerek radyoopak değil, radyolusent (siyah) lekeler oluşturur.\n- C) Uygun olmayan (sıcak, nemli veya radyasyonlu) ortamda saklama: Film genelinde kontrastı düşüren gri sislenme (fog) oluşturur.\n- D) Banyolar arası yüksek sıcaklık farkı: Jelatin emülsiyonun genleşip büzülerek çatlamasına (retikülasyon - balık pulu/portakal kabuğu görünümü) neden olur.\n- E) İki filmin birbirine yapışması: Küçük damla lekeleri değil, film kenarlarıyla uyumlu geniş düz hatlı işlenmemiş alanlar oluşturur.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 387,
+    "question": "Periapikal radyografta diş kronları ve kökleri üzerinde damla şeklinde çok sayıda radyoopak (beyaz) artefakt izlenmektedir. Bu artefakt aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Statik elektriklenme",
+      "B": "II. banyo solüsyonu damlamıştır",
+      "C": "Tırnak izi",
+      "D": "After-glow",
+      "E": "Rubber dam ile çekilmiştir"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Radyografi banyoya girmeden önce üzerine II. banyo solüsyonu (sabitleyici/fiksatör), su, tükürük veya kan damladığında o bölgelerde geliştirici etki gösteremez ve radyografide damla şeklinde radyoopak (beyaz) artefaktlar meydana gelir.\n**Çeldiriciler:**\n- A) Statik elektriklenme: Film paketi hızlı açıldığında oluşan kıvılcımlar radyografide ağaç dalları veya noktalar şeklinde radyolusent (siyah) çizgiler oluşturur.\n- C) Tırnak izi (veya film bükülmesi): Emülsiyonu mekanik olarak uyardığı için yarım ay/çizgi şeklinde radyolusent (siyah) artefakt yapar.\n- D) After-glow: Karanlık odada floresan lambanın kapatıldıktan sonra bir süre daha ışık yaymaya devam ederek filmde sislenme (fog) oluşturmasıdır.\n- E) Rubber dam artefaktı: Klemp veya çerçeveye ait geometrik ve yoğun metalik/plastik radyoopasite verir, damla lekesi yapmaz.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 388,
+    "question": "Aşağıdakilerden hangisi radyografta beyaz lekeye neden olmaz?",
+    "options": {
+      "A": "Banyoya başlamadan önce 2. banyo solüsyonunun filme damlaması",
+      "B": "2. banyodayken iki filmin birbirine yapışması",
+      "C": "1. banyodayken film üzerinde hava kabarcıklarının kalması",
+      "D": "1. banyodayken filmin sivri bir cisimle çizilmesi",
+      "E": "1. banyodayken filme yabancı bir cismin yapışması"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** İki film 2. banyoda (sabitleyicide) birbirine yapışırsa, filmler 1. banyoda (geliştiricide) zaten kararmış olduğu ancak yapışma bölgesine sabitleyici değemediği için o bölgedeki fazla gümüş kristalleri temizlenemez; sonuçta beyaz leke değil, koyu/siyah (veya kahverengi-opak) leke oluşur. (Beyaz leke, iki filmin 1. banyoda yapışmasıyla oluşur).\n**Çeldiriciler:**\n- A) İşlem öncesi 2. banyo (sabitleyici) damlaması gümüş kristallerini çözdüğü için beyaz (radyoopak) leke yapar.\n- C) 1. banyoda (geliştiricide) film yüzeyinde kalan hava kabarcıkları geliştiricinin emülsiyona temasını önleyerek yuvarlak beyaz noktalar oluşturur.\n- D) Emülsiyonun sivri cisimle kazınması/çizilmesi gümüş tabakasını tamamen kaldırdığı için taban şeffaf kalır ve beyaz çizgi olarak görülür.\n- E) 1. banyodayken filme yabancı cisim (veya başka bir film) yapışması geliştiricinin temasını engelleyerek beyaz alan bırakır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 389,
+    "question": "Aşağıdakilerden hangisinde fosfor plak kullanılarak dijital görüntü elde edilirken oluşmaz?",
+    "options": {
+      "A": "Düşük densite",
+      "B": "Görüntü distorsiyonu",
+      "C": "Kon-kat",
+      "D": "Görüntü büyümesi",
+      "E": "Sarı kahverengi lekeler"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Sarı-kahverengi lekeler; konvansiyonel gümüş halid filmlerin banyo sonrasında yetersiz yıkanması sonucu film üzerinde kalan sodyum tiyosülfatın (sabitleyici) gümüş ile reaksiyona girerek gümüş sülfür oluşturmasına bağlı kimyasal bir banyo hatasıdır. Fosfor plaklı (PSP) dijital görüntülemede kimyasal banyo ve gümüş/bromür bulunmadığı için sarı-kahverengi lekeler oluşmaz.\n**Çeldiriciler:**\n- A) Düşük densite: Yetersiz ışınlama (düşük mAs/kVp) veya plağın tarama öncesi parlak ışığa maruz kalmasıyla dijital görüntüde de düşük densite (açık görüntü) oluşur.\n- B) Görüntü distorsiyonu: Fosfor plaklar esnek olduğu için ağız içinde büküldüğünde veya açı hatalarında görüntü distorsiyonu oluşur.\n- C) Kon-kat (cone-cut): X-ışını kolimatörünün fosfor plağı tam ortalamaması sonucu ışınlanmayan beyaz alan (kon-kat) dijital çekimde de oluşur.\n- D) Görüntü büyümesi (magnifikasyon): Foka-objektif ve obje-reseptör mesafesine bağlı geometrik magnifikasyon dijital plaklarda da meydana gelir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 390,
+    "question": "Aşağıdakilerden hangisinde fosfor plak kullanılarak dijital görüntü elde edilirken oluşur?",
+    "options": {
+      "A": "Sarı-kahverengi lekeler",
+      "B": "After glow",
+      "C": "Retikülasyon",
+      "D": "Dicroic fog",
+      "E": "Gürültü"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Gürültü (noise); dijital görüntülemede yetersiz X-ışını dozu, elektronik sinyal paraziti veya reseptör hasarına bağlı olarak görüntü densitesinin uniform olmaması (kumlu/tanecikli görünüm) durumudur ve fosfor plaklarla yapılan dijital çekimlerde görülen bir artefakttır.\n**Çeldiriciler:**\n- A) Sarı-kahverengi lekeler: Konvansiyonel filmde yetersiz son yıkamaya bağlı gümüş sülfür birikimiyle oluşan banyo hatasıdır.\n- B) After glow: Karanlık odada kapatılan floresan lambanın ışımasını sürdürerek konvansiyonel filmi sislemesidir.\n- C) Retikülasyon: Konvansiyonel banyo solüsyonları arasındaki ani sıcaklık farkı nedeniyle film jelatininin çatlamasıdır.\n- D) Dicroic fog (iki renkli sis): Konvansiyonel filmin 1. banyodan çıktıktan sonra ara yıkama yapılmadan 2. banyoya sokulmasıyla oluşan pembe-yeşil kimyasal sislenmedir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 13 - Diş Anomalileri",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

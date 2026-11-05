@@ -1,0 +1,70 @@
+[
+  {
+    "q_num": 438,
+    "question": "Aşağıdakilerden hangisi makroglossi nedenlerinden değildir?",
+    "options": {
+      "A": "Lenfanjioma",
+      "B": "Pernisyöz anemi",
+      "C": "Mukopolisakkaridozis",
+      "D": "Konjenital hipotiroidizm",
+      "E": "Diyabetes mellitus"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Pernisyöz anemi, intrinsik faktör eksikliğine bağlı gelişen vitamin B12 eksikliği anemisidir. Dilde papillaların silinmesiyle karakterize atrofik glossit (Hunter glossiti / düz, kırmızı ve ağrılı dil) yapar; dilde büyümeye (makroglossi) yol açmaz.\n**Çeldiriciler:**\n- A) Lenfanjioma, dilde yerleştiğinde lenfatik damarların proliferasyonu sonucu doğumsal veya erken yaşta belirgin makroglossiye neden olur.\n- C) Mukopolisakkaridozisde lizozomal enzim eksikliği sonucu dokularda glikozaminoglikan birikimi olarak makroglossi gelişir.\n- D) Konjenital hipotiroidizm (kretinizm), dil dokusunda ödematöz büyüme ile makroglossiye yol açan klasik nedenlerdendir.\n- E) Diyabetes mellitus (veya diyabetik annenin bebeğinde makrozomi/metabolik değişiklikler) edinsel/doğumsal makroglossi etkenleri arasında sayılır.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 45 - Kırmızı Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 440,
+    "question": "Diaskopi sonucunda lezyonun renginde soluklaşma tespit edilmesi aşağıdaki patolojilerden hangisini düşündürür?",
+    "options": {
+      "A": "Hemanjiyom",
+      "B": "Ekimoz",
+      "C": "Melanom",
+      "D": "Hematom",
+      "E": "Peteşi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Diaskopi, lezyon üzerine cam bir lam ile basınç uygulanarak rengin açılıp açılmadığının incelenmesidir. Hemanjiyomda kan damar lümeni içerisinde yer aldığından, basınç uygulandığında kan damardan uzaklaşır ve lezyonun renginde soluklaşma (beyazlaşma) görülür.\n**Çeldiriciler:**\n- B) Ekimozda kan damar dışına (doku arasına) sızmış olduğundan basınçla yer değiştirmez ve diaskopide soluklaşma olmaz.\n- C) Melanomda renk melanin pigmentinden kaynaklanır; vasküler bir lezyon olmadığı için basınçla rengi açılmaz.\n- D) Hematomda kan damar dışına çıkarak doku içinde pıhtılaşmış bir kitle oluşturduğundan diaskopide beyazlaşma göstermez.\n- E) Peteşi, kapiller kanamaya bağlı doku içi noktasal ekstravazasyon olduğundan diaskopi ile soluklaşmaz.\n---",
+    "flag_reason": "Sonbahar 2016 Orijinal",
+    "unit": "Ünite 45 - Kırmızı Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 441,
+    "question": "Aşağıdaki lezyonlardan hangisi diaskopi işlemi ile renk değiştirmez?",
+    "options": {
+      "A": "Ekimoz",
+      "B": "Telenjektazi",
+      "C": "Varis",
+      "D": "Eritroplazi",
+      "E": "Hemanjiyom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Ekimoz, travma veya kanama diyatezi sonucu kanın damar dışına çıkarak submukozal dokuda birikmesidir. Kan damar lümeni içinde olmadığı için cam lamla yapılan diaskopi basıncıyla dağılmaz ve renk değiştirmez.\n**Çeldiriciler:**\n- B) Telenjektazi, yüzeyel kapiller damarların kalıcı dilatasyonu olup kan damar içinde olduğundan diaskopi ile beyazlaşır.\n- C) Varis, dilate venöz damar yapısı içerdiğinden basınç uygulandığında lümen boşalır ve rengi soluklaşır.\n- D) Bazı eritroplazi lezyonlarında yoğun subepitelyal vaskülarizasyon ve enflamatuar hiperemi nedeniyle basınçla kısmi soluklaşma izlenebilir.\n- E) Hemanjiyom vasküler endotelyal bir proliferasyon olduğundan diaskopide tipik olarak beyazlaşma gösterir.\n---",
+    "flag_reason": null,
+    "unit": "Ünite 45 - Kırmızı Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "q_num": 461,
+    "question": "Yirmi iki yaşındaki kadın hasta sağ yanak mukozasında üç gün önce ortaya çıkan yara ve ağrı şikâyeti ile başvuruyor. İntraoral muayenede sağ bukkal mukozada yaklaşık 5 mm çapında, ağrılı, tabanı sarımsı gri ve kenarları eritematöz ülsere lezyon görülüyor. Hasta, herhangi bir sistemik hastalığının olmadığını, sigara kullanmadığını ancak stresli bir dönemden geçtiğini bildiriyor. Daha önce farklı dönemlerde dilinde ve dudak mukozasında da benzer lezyonların çıktığını ve yaklaşık 10 gün içerisinde kendiliğinden iyileştiğini ifade ediyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Rekürrent aftöz stomatit",
+      "B": "Eritematöz kandidiyazis",
+      "C": "Primer herpetik gingivostomatit",
+      "D": "Oral skuamöz hücreli karsinom",
+      "E": "Travmatik ülser"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Genç hastada stresle tetiklenen, keratinize olmayan mukozalarda (bukkal mukoza, dudak, dil) tekrarlayan, öncesinde vezikül olmaksızın doğrudan başlayan, sarı-gri fibrinomembranöz tabanlı, çevresi eritematöz haleli, çok ağrılı ve 7-14 günde skarsız kendiliğinden iyileşen ülserler rekürrent aftöz stomatit (minör aft) için tipiktir.\n**Çeldiriciler:**\n- B) Eritematöz kandidiyazis ülsere bir lezyon olmayıp dil dorsumu ve damakta kırmızı atrofik maküller şeklinde görülür.\n- C) Primer herpetik gingivostomatit yüksek ateş ve lenfadenopati ile seyreder, diş eti dahil hem keratinize hem non-keratinize mukozada çok sayıda toplu iğne başı veziküllerin patlamasıyla oluşur ve tekrarlamaz.\n- D) Oral skuamöz hücreli karsinom kendiliğinden 10 günde iyileşip farklı yerlerde tekrarlayan bir lezyon değildir; indüre ve persistan bir malignitedir.\n- E) Travmatik ülser lokal mekanik bir etkene (ısırma, keskin diş) bağlı gelişir; stresle tetiklenip farklı mukozal bölgelerde periyodik olarak tekrarlayan bir öykü vermez.\n---",
+    "flag_reason": "İlkbahar 2024 Orijinal",
+    "unit": "Ünite 45 - Kırmızı Lezyonlar",
+    "lesson": "Radyoloji",
+    "quality_flag": "cikmis"
+  }
+]

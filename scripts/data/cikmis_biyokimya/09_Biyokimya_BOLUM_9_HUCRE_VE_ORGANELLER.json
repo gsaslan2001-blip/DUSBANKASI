@@ -1,0 +1,898 @@
+[
+  {
+    "question": "Ökaryotik hücre zarı için aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Seçici geçirgendir.",
+      "B": "Çift tabaka lipid içerir.",
+      "C": "Dinamiktir.",
+      "D": "30 °C altındaki sıcaklıklarda akışkan değildir.",
+      "E": "Biyomoleküller asimetrik yerleşimlidir."
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Yanlış (Seçenek doğru bilgidir):** Hücre zarı yarı geçirgen (seçici geçirgen) özellikte olup, küçük apolar moleküllerin kolayca geçişine izin verirken büyük polar ve yüklü moleküllerin geçişini kısıtlar.\n* **B) Yanlış (Seçenek doğru bilgidir):** Membran temel yapısını fosfolipidlerin oluşturduğu çift tabakalı (lipid bilayer) hidrojenik-hidrofobik dizilim oluşturur.\n* **C) Yanlış (Seçenek doğru bilgidir):** Membran yapı elemanları (lipidler ve proteinler) zar düzleminde lateral hareket edebilir; akıcı mozaik zar modeline göre dinamiktir.\n* **D) DOĞRU (Aranan yanlış ifade):** Hücre zarı 30 °C'nin altındaki sıcaklıklarda da akışkanlığını korur. Membran akışkanlığı sıcaklık değişimiyle düzenlenir; sıcaklık düştükçe doymamış yağ asidi miktarı artırılarak ve kolesterolün tamponlayıcı etkisiyle akışkanlık fizyolojik sınırlarda sürdürülür.\n* **E) Yanlış (Seçenek doğru bilgidir):** Lipidler (örneğin dış yaprakta fosfatidilkolin/sfingomiyelin, iç yaprakta fosfatidilserin/fosfatidiletanolamin) ve proteinler/glikolipidler asimetrik dizilmiştir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Karbonmonoksit, ilaç ya da diğer yabancı bileşiklerin metabolizmasını hangi basamakta inhibe eder?",
+    "options": {
+      "A": "Bağırsaklardan emilim",
+      "B": "Konjugasyon",
+      "C": "Safraya atılım",
+      "D": "Karaciğere taşınım",
+      "E": "Hidroksilasyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Yanlış:** Karbonmonoksit bağırsak mukozal emilim mekanizmalarını inhibe etmez.\n* **B) Yanlış:** Konjugasyon reaksiyonları (Faz II ksenobiyotik metabolizması) glukuronidasyon, sülfasyon gibi enzimatik adımları kapsar ve CO'in primer hedefi değildir.\n* **C) Yanlış:** Safraya atılım aşaması primer olarak ATP-bağımlı ABC taşıyıcıları (MRP2, BSEP) ile yürütülür.\n* **D) Yanlış:** Karaciğere taşınım kan dolaşımı ve taşıyıcı proteinler aracılığıyla olur.\n* **E) DOĞRU:** Düz Endoplazmik Retikulumda (D.E.R.) yer alan Sitokrom P450 mikrozomal enzim sistemi, ilaç ve yabancı bileşiklerin Faz I metabolizmasındaki hidroksilasyon reaksiyonlarını gerçekleştirir. Karbonmonoksit (CO), sitokrom P450'nin yapısındaki hem demirine bağlanarak hidroksilasyon tepkimelerini inhibe eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki sistemlerden hangisi fizyolojik pH'de en iyi tamponlama etkisine sahiptir?",
+    "options": {
+      "A": "$CH_3COO^- / CH_3COOH$ ($pK_a = 4.76$)",
+      "B": "$HPO_4^{2-} / H_2PO_4^-$ ($pK_a = 6.86$)",
+      "C": "$NH_3 / NH_4^+$ ($pK_a = 9.25$)",
+      "D": "$H_2PO_4^- / H_3PO_4$ ($pK_a = 2.14$)",
+      "E": "$PO_4^{3-} / HPO_4^{2-}$ ($pK_a = 12.4$)"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\nBir tampon sisteminin maksimum ve en etkili tamponlama yapabildiği pH aralığı $pK_a \\pm 1$ birimdir. Fizyolojik pH yaklaşık 7.40 ($7.35-7.45$)'dır.\n* **A) Yanlış:** Asetat tamponu $pK_a = 4.76$ olup asidik pH aralıklarında etkilidir.\n* **B) DOĞRU:** Fosfat tampon sisteminin ikinci iyonizasyon adımı olan $HPO_4^{2-} / H_2PO_4^-$ pKa değeri 6.86'dır. Bu değer fizyolojik pH 7.4'e en yakın pKa değeri olduğundan fizyolojik şartlarda en güçlü tamponlama kapasitesini sunar.\n* **C) Yanlış:** Amonyum tamponu $pK_a = 9.25$ olup bazik pH değerlerinde etkilidir.\n* **D) Yanlış:** $pK_a = 2.14$ kuvvetli asidik ortamlarda etkilidir.\n* **E) Yanlış:** $pK_a = 12.4$ kuvvetli bazik ortamlarda etkilidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi nükleer por kompleksleri aracılığıyla taşınmaz?",
+    "options": {
+      "A": "Histonlar",
+      "B": "DNA polimeraz",
+      "C": "mRNA",
+      "D": "Spektrin",
+      "E": "Laminler"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Yanlış (Taşınır):** Histonlar sitoplazmada sentezlendikten sonra NLS (Nükleer Lokalisasyon Sinyali) ile importin aracılığıyla çekirdeğe girer.\n* **B) Yanlış (Taşınır):** DNA polimeraz replikasyon enzimi olup çekirdek içine nükleer porlar üzerinden taşınır.\n* **C) Yanlış (Taşınır):** mRNA transkripsiyon sonrası olgunlaşarak nükleer por kompleksinden (exportin/Ran-GTP) sitozole ihraç edilir.\n* **D) DOĞRU (Taşınmaz):** Spektrin, eritrosit hücre membranının iç yüzeyinde yer alan hücresel iskelet (periferal zar) proteinidir; çekirdeğe taşınmaz.\n* **E) Yanlış (Taşınır):** Çekirdek iç zarının altında nükleer laminayı oluşturan laminler nükleer por kompleksinden geçer.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "I. tRNA\nII. Histonlar\nIII. Laminler\nIV. DNA polimeraz\n**Ökaryot hücrelerde yukarıdakilerden hangilerinin çekirdek zarı aracılığıyla sitozole taşınması gerçekleşmez?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yalnız IV",
+      "C": "I ve II",
+      "D": "II ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Öncül (Sitozole taşınır):** tRNA çekirdekte transkribe edildikten sonra işlev göreceği sitozole ihraç edilir (taşınır).\n* **II. Öncül (Sitozole taşınmaz - Çekirdeğe girer):** Histonlar sitozolde sentezlenip çekirdek içine ($Sitozol \nightarrow Çekirdek$) taşınır, sitozole geri ihraç edilmez.\n* **III. Öncül (Sitozole taşınmaz - Çekirdeğe girer):** Laminler nükleer iç zarı desteklemek üzere çekirdek içine çekilir.\n* **IV. Öncül (Sitozole taşınmaz - Çekirdeğe girer):** DNA polimeraz çekirdek içinde replikasyonda görev yapmak üzere sitozolden çekirdeğe ithal edilir.\nBu nedenle II, III ve IV nükleer import proteinleridir, sitozole ihraç edilmezler.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 DUS"
+  },
+  {
+    "question": "Biyomembranların füzyonunda aşağıdakilerden hangisi rol almaz?",
+    "options": {
+      "A": "Rab proteinleri",
+      "B": "GTP",
+      "C": "SNARE proteinleri",
+      "D": "NSF proteinleri",
+      "E": "NLS taşıyan proteinler"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Yanlış (Rol alır):** Rab proteinleri küçük GTPaz'lar olup hedef membranı tanıma ve bağlama (docking) sürecini yönetir.\n* **B) Yanlış (Rol alır):** Rab proteinlerinin aktivasyonu için GTP enerjisi ve hidrolizi gereklidir.\n* **C) Yanlış (Rol alır):** SNARE proteinleri (v-SNARE ve t-SNARE) membranların birbirine yaklaşarak kaynaşmasını (fusion) sağlar.\n* **D) Yanlış (Rol alır):** NSF (N-ethylmaleimide-sensitive factor) ATPaz aktivitesi göstererek füzyon sonrası SNARE kompleksini çözer ve geri dönüşümü sağlar.\n* **E) DOĞRU (Rol almaz):** NLS (Nükleer Lokalisasyon Sinyali) taşıyan proteinler, çekirdeğe ithal edilecek molekülleri simgeler; zar füzyonunda rol oynamaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi biyolojik zarlardaki fonksiyonel lipidlerden biri değildir?",
+    "options": {
+      "A": "Ester kolesterol",
+      "B": "Serbest kolesterol",
+      "C": "Fosfogliseridler",
+      "D": "Sfingomiyelin",
+      "E": "Glikosfingolipidler"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU (Zarda bulunmaz):** Esterleşmiş kolesterol son derece hidrofobik/apolar bir moleküldür. Biyolojik membranların yapısına katılmaz; hücre içinde lipid damlacıklarında (yağ damlası) depolanır veya lipoprotein çekirdeğinde taşınır.\n* **B) Yanlış (Zarda bulunur):** Serbest (esterleşmemiş) kolesterol, C-3 pozisyonundaki amfipatik -OH grubu sayesinde biyolojik zarların çift tabakasına katılarak membran akışkanlığını düzenler.\n* **C) Yanlış (Zarda bulunur):** Fosfogliseridler zarların temel yapıtaşlarını oluşturur.\n* **D) Yanlış (Zarda bulunur):** Sfingomiyelin membranlarda, özellikle miyelin kılıfında bulunan temel sfingolipiddir.\n* **E) Yanlış (Zarda bulunur):** Glikosfingolipidler zarın dış yüzeyinde reseptör ve hücre tanıma fonksiyonu üstlenir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki lipidlerden hangisi non-polardır?",
+    "options": {
+      "A": "Trigliseridler",
+      "B": "Kolesterol",
+      "C": "Glikosfingolipidler",
+      "D": "Yağ asitleri",
+      "E": "Gliserofosfolipidler"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Triasilgliserol (Trigliserid) molekülünde gliserolün 3 -OH grubu da yağ asitleriyle esterleşmiştir. Kutupsal (polar) grup içermeyen tam apolar (non-polar) nötral lipidlerdir.\n* **B) Yanlış:** Serbest kolesterol C3'teki -OH grubu nedeniyle amfipatiktir.\n* **C) Yanlış:** Glikosfingolipidler şeker baş grupları nedeniyle polardır.\n* **D) Yanlış:** Yağ asitleri karboksil grupları ($COO^-$) nedeniyle amfipatiktir.\n* **E) Yanlış:** Gliserofosfolipidler fosfat ve baş grupları nedeniyle polar hidrofilik başa sahiptir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi amfipatik lipid grubuna girmez?",
+    "options": {
+      "A": "Yağ asitleri",
+      "B": "Triasilgliserol",
+      "C": "Sfingolipidler",
+      "D": "Fosfolipidler",
+      "E": "Kolesterol"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\nAmfipatik lipidler hem hidrofilik (polar) hem de hidrofobik (apolar) kısımlara sahiptir.\n* **A) Yanlış:** Yağ asitlerinin karboksil uçları hidrofilik, hidrokarbon zincirleri hidrofobiktir (amfipatik).\n* **B) DOĞRU:** Triasilgliserol tüm hidroksil gruplarını ester bağıyla kaybettiği için tamamen apolar / nötral lipiddir; amfipatik değildir.\n* **C) Yanlış:** Sfingolipidler polar baş ve apolar kuyruk içerir (amfipatik).\n* **D) Yanlış:** Fosfolipidler polar fosfat başı ve apolar yağ asit kuyruğu içerir (amfipatik).\n* **E) Yanlış:** Serbest kolesterol -OH başı ile amfipatik özellik gösterir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "I. Plazma membranının dış tabakasında yer alır.\nII. Yapısında kolesterol, sfingomiyelin ve glikosfingolipidler bulunur.\nIII. Glikozilfosfatidilinositol bağlı proteinleri içermez.\nIV. Sinyal iletiminde rol oynar.\n**\"Lipid raft\" (lipid mikroalanları) ile ilgili yukarıdaki ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Öncül (Doğru):** Lipid raftlar plazma zarının dış yaprağında mikroalanlar oluşturur.\n* **II. Öncül (Doğru):** Lipid raftlar kolesterol, sfingomiyelin ve glikosfingolipidler bakımından son derece zengin, deterjana dirençli yapılardır.\n* **III. Öncül (Yanlış):** Lipid raftlar GPI (glikozilfosfatidilinositol) çıpalı proteinleri ve tirozin kinaz reseptörlerini yüksek oranda İÇERİR.\n* **IV. Öncül (Doğru):** Sinyal iletimi, endositoz ve hücre içi iletişimde platform olarak görev yaparlar.\nBu nedenle I, II ve IV. öncüller doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Plazma membranındaki proteinlere, lipidlerin kovalent olarak bağlanmasını sağlayan posttranslasiyonel modifikasyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "ADP-ribozilasyon",
+      "B": "Asetilasyon",
+      "C": "Metilasyon",
+      "D": "g-karboksilasyon",
+      "E": "Prenilasyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Yanlış:** ADP-ribozilasyon hücresel sinyal ve DNA tamirinde rol alır (örn. Kolera toksini etkisi).\n* **B) Yanlış:** Asetilasyon histon proteinlerinde transkripsiyonel aktivasyonda rol oynar.\n* **C) Yanlış:** Metilasyon gen susturma veya protein fonksiyon düzenlemesidir.\n* **D) Yanlış:** Gama-karboksilasyon K vitaminine bağımlı pıhtılaşma faktörlerinin modifikasyonudur.\n* **E) DOĞRU:** Prenilasyon (farnesilasyon ve geranilgeranilasyon), proteinlerin sistein kalıntılarına kovalent olarak izoprenoid lipid gruplarının eklenerek zarın sitozolik yüzüne tutunmalarını sağlayan lipit modifikasyonudur (örneğin RAS proteini).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Proteinlerin sentez sonrası modifikasyonlarının gerçekleştiği organeller hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Golgi - Hücre zarı",
+      "B": "Çekirdek - Lizozom",
+      "C": "Endoplazmik retikulum - Golgi",
+      "D": "Golgi - Mitokondri",
+      "E": "Mitokondri - Lizozom"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A, B, D, E) Yanlış:** Hücre zarı, çekirdek, lizozom veya mitokondri salgısal/membran proteinlerinin ilk sentez sonrası (posttranslasiyonel) ana katlanma ve glikozilasyon hatları değildir.\n* **C) DOĞRU:** Protein sentez sonrası modifikasyonların (N-glikozilasyon ilk adımları, disülfit bağı oluşumu, katlanma Granüllü Endoplazmik Retikulumda; O-glikozilasyon, sülfasyon, fosforilasyon ve son şekillendirmeler Golgi cisimciğinde) gerçekleştiği ana merkezler Granüllü ER ve Golgi'dir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde, hücre zarında yer alan proteinlerin glikozilasyonu gerçekleşir?",
+    "options": {
+      "A": "Endoplazmik retikulum",
+      "B": "Sitoplazma",
+      "C": "Peroksizom",
+      "D": "Mitokondri",
+      "E": "Lizozom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Hücre zarı ve salgı proteinlerinin N-bağlı glikozilasyonu Granüllü Endoplazmik Retikulum (GER) lümeninde başlar (dolikol fosfat aracılığıyla asparagin aminoasidine eklenir).\n* **B) Yanlış:** Sitoplazmada serbest ribozomlarca sentezlenen proteinler glikozillenmez.\n* **C) Yanlış:** Peroksizomal proteinler sitozolde sentezlenip peroksizoma taşınır.\n* **D) Yanlış:** Mitokondriyel proteinlerde N-bağlı glikozilasyon görülmez.\n* **E) Yanlış:** Lizozom yıkım organelidir; glikozilasyon yapmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 DUS"
+  },
+  {
+    "question": "Kargo proteinlerin veziküller içinde taşınmasını gerçekleştiren organel aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Peroksizom",
+      "B": "Mitokondri",
+      "C": "Golgi",
+      "D": "Lizozom",
+      "E": "Ribozom"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Yanlış:** Peroksizom yağ asidi beta-oksidasyonu ve H2O2 detoksifikasyon merkezidir.\n* **B) Yanlış:** Mitokondri ATP üretim santralidir.\n* **C) DOĞRU:** Golgi cisimciği, Endoplazmik retikulumdan gelen kargo proteinleri işleyen, sınıflandıran, COP-I, COP-II ve klatrin kaplı veziküllerle hücre zarına, lizozomlara veya salgı veziküllerine yönlendiren hücresel paketleme merkezidir.\n* **D) Yanlış:** Lizozom hücresel sindirim organelidir.\n* **E) Yanlış:** Ribozom protein sentez makinesidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Proteazom sisteminde, hatalı katlanmış olan proteini yıkmak üzere tanınmasını sağlayan molekül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ubikuitin",
+      "B": "Mannoz-6-fosfat",
+      "C": "Sinyal peptidi",
+      "D": "Klatrin",
+      "E": "N-asetilglukozamin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Ubikuitin, hatalı katlanmış veya süresi dolmuş proteinlerin lizin kalıntılarına kovalent olarak bağlanıp (polijubikuitinasyon) proteazom (26S proteazom) tarafından tanınmasını ve ATP-bağımlı yıkılmasını sağlayan işaretçi moleküldür.\n* **B) Yanlış:** Mannoz-6-fosfat (M6P), lizozomal enzimerin Golgi'den lizozoma yönlendirilmesini sağlayan etikettir.\n* **C) Yanlış:** Sinyal peptidi, proteinin GER lümenine girmesini sağlar.\n* **D) Yanlış:** Klatrin, reseptör aracılı endositoz veziküllerini kaplar.\n* **E) Yanlış:** N-asetilglukozamin bir şeker türevidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Lizozom içinde tüm biyolojik polimerleri parçalamak üzere görev yapan enzim grubu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Şaperonlar",
+      "B": "Asit hidrolazlar",
+      "C": "Protein disülfit izomerazlar",
+      "D": "ATPaz'lar",
+      "E": "Karboksilazlar"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Yanlış:** Şaperonlar proteinlerin katlanmasına yardımcı olur; yıkım yapmaz.\n* **B) DOĞRU:** Lizozomlar içinde optimal çalışma pH'sı asidik (~4.5-5.0) olan asit hidrolazlar (nükleazlar, proteazlar, glikozidazlar, lipazlar, fosfatazlar, sülfatazlar) bulunur. Bunlar tüm biyolojik polimerleri hidroliz ederek parçalar.\n* **C) Yanlış:** Protein disülfit izomeraz ER'de disülfit bağlarını düzenler.\n* **D) Yanlış:** V-tipi $H^+$-ATPaz lizozom zarında lizozom içini asitleştirmek için proton pompalar; polimer yıkmaz.\n* **E) Yanlış:** Karboksilazlar karboksilasyon yapar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar DUS"
+  },
+  {
+    "question": "Sentezlenmiş proteinlerin doğru katlanmasına yardımcı olan molekül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kolesterol",
+      "B": "Şaperon",
+      "C": "Porin",
+      "D": "Lamin",
+      "E": "Glikozaminoglikan"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Yanlış:** Kolesterol zar yapısına katılan lipiddir.\n* **B) DOĞRU:** Şaperonlar (Hsp70, Hsp90, BiP, Kalneksin vb.), yeni sentezlenen polipeptid zincirlerinin veya denatüre olmuş proteinlerin yanlış agregasyonunu önleyerek doğru üç boyutlu konformasyona katlanmasını sağlayan proteinlerdir.\n* **C) Yanlış:** Porin mitokondri dış zarındaki kanallardır.\n* **D) Yanlış:** Lamin nükleer iç zar altındaki ara filamenttir.\n* **E) Yanlış:** Glikozaminoglikan ekstrasellüler matriks polisakkaritidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Şaperon proteininin işlevi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Proteinin doğru katlanmasına yardımcı olmak",
+      "B": "Proteinlerin peptid bağlarını parçalamak",
+      "C": "Protein sentezinin başlaması için gerekli olmak",
+      "D": "Proteinleri yıkımı için işaretlemek",
+      "E": "Proteinler üzerine kimyasal modifikasyon yapmak"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Şaperonların temel işlevi protein katlanmasını doğru yönlendirmek, hidrofobik bölgelerin dışarıda kalarak hatalı çökelmesini (agregasyonu) engellemektir.\n* **B) Yanlış:** Peptid bağlarını proteazlar parçalar.\n* **C) Yanlış:** İnisiasyon faktörleri (eIF) sentez başlatır.\n* **D) Yanlış:** Ubikuitin yıkım için işaretler.\n* **E) Yanlış:** Posttranslasiyonel modifikasyon enzimleri modifikasyon yapar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 EUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, protein katlanma bozukluğundan kaynaklanan klinik bir tablodur?",
+    "options": {
+      "A": "Fabry hastalığı",
+      "B": "Pompe hastalığı",
+      "C": "Wilson hastalığı",
+      "D": "Sistinüri",
+      "E": "Creutzfeldt-Jakob hastalığı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Yanlış:** Fabry hastalığı $\u0007lpha$-galaktozidaz A eksikliği ile seyreden lizozomal sfingolipidozdur.\n* **B) Yanlış:** Pompe hastalığı lizozomal $\u0007lpha$-glukozidaz eksikliği olan glikojen depo hastalığıdır.\n* **C) Yanlış:** Wilson hastalığı bakır taşıyıcı ATP7B geni mutasyonudur.\n* **D) Yanlış:** Sistinüri böbrek tübüler aminoasit taşıma bozukluğudur.\n* **E) DOĞRU:** Creutzfeldt-Jakob hastalığı, normal hücresel prion proteininin ($PrP^c$, $\u0007lpha$-heliks zengin) yanlış katlanarak proteaza dirençli $\beta$-tabakadan zengin bulaşıcı prion formuna ($PrP^{sc}$) dönüşmesi sonucu gelişen protein katlanma bozukluğu (prion hastalığı) tablosudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi çekirdek zarının iç membran yapısında yer alır?",
+    "options": {
+      "A": "Tübülin",
+      "B": "Keratin",
+      "C": "Aktin",
+      "D": "Vimentin",
+      "E": "Lamin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Yanlış:** Tübülin mikrotübüllerin ana proteinidir.\n* **B) Yanlış:** Keratin epitel hücrelerinin ara filamentidir.\n* **C) Yanlış:** Aktin mikrofilament yapısıdır.\n* **D) Yanlış:** Vimentin mezankimal hücrelerin ara filamentidir.\n* **E) DOĞRU:** Laminler (Lamin A, B, C), nükleer zf zarının (iç membran) hemen altında nükleer laminayı oluşturan özel ara filament sınıfı proteinlerdir. Lamin geni mutasyonları progeria (erken yaşlanma) tablosuna yol açar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, memelilerde hücre tiplerine göre nitel ve nicel değişkenlik gösterir?",
+    "options": {
+      "A": "Keratin",
+      "B": "Aktin",
+      "C": "Tübülin",
+      "D": "Lamin",
+      "E": "Dinein"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Keratinler (sitokeratinler) epitel dokulara özgü ara filamentlerdir. Epitelin tipine göre (örn. epidermal keratin K1/K10, korneal, basit epitel K8/K18 vb.) hücre tipine ve dokuya göre nitel (çeşit) ve nicel (miktar) olarak çok büyük değişkenlik gösterir. Patolojide karsinom teşhisinde doku spesifik türe bakılır.\n* **B) Yanlış:** Aktin mikrofilamentleri tüm ökaryotik hücrelerde evrensel korunan yapısal motor elemanlardır.\n* **C) Yanlış:** Tübülin tüm hücrelerde mikrotübül oluşturur.\n* **D) Yanlış:** Lamin tüm çekirdekli hücrelerde nükleer laminayı oluşturur.\n* **E) Yanlış:** Dinein evrensel motor proteindir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki hücre yüzey farklılaşmalarından hangisi hücrenin apikal yüzeyinde yer alır?",
+    "options": {
+      "A": "Adazyon kemeri",
+      "B": "Mikrovillus",
+      "C": "Sıkı bağlantı",
+      "D": "Hemidesmozom",
+      "E": "Oluklu bağlantı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Yanlış:** Adazyon kemeri (Zonula adherens) apikal alanın hemen altında lateral zarda yer alır.\n* **B) DOĞRU:** Mikrovilluslar epitel hücrelerinin emilim yüzeyini artırmak amacıyla en apikal (serbest) yüzeyde oluştukları parmaksı sitoplazmik uzantılardır.\n* **C) Yanlış:** Sıkı bağlantı (Zonula occludens) lateral zarın en apikal sınırında hücreler arası geçişi kapatır.\n* **D) Yanlış:** Hemidesmozom bazal yüzeyde epiteli bazal laminaya bağlar.\n* **E) Yanlış:** Oluklu bağlantı (Gap junction) lateral zarlarda iyon/molekül geçişi sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 DUS"
+  },
+  {
+    "question": "Hücre iskeleti elemanlarından ara filamentlerin rol oynadığı hücre-hücre bağlantısı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Desmozom",
+      "B": "Hemidesmozom",
+      "C": "Sıkı bağlantı",
+      "D": "Fokal adazyon",
+      "E": "Adherans bağlantı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Desmozomlar (Macula adherens) hücre-hücre bağlantısıdır ve sitoplazmik tarafta hücre içi ara filamentlere (epitelde keratin/tonofilament) tutunurlar.\n* **B) Yanlış:** Hemidesmozom ara filamentlere tutunur ancak hücre-hücre değil, hücre-matriks bağlantısıdır.\n* **C) Yanlış:** Sıkı bağlantı (Zonula occludens) aktin mikrofilamentleriyle etkileşir.\n* **D) Yanlış:** Fokal adazyon hücre-matriks bağlantısıdır ve aktin filamentlerine tutunur.\n* **E) Yanlış:** Adherans bağlantı hücre-hücre bağlantısıdır ve aktin mikrofilamentlerine tutunur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Kaderinlerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "$Ca^{2+}$ bağımlı çalışırlar.",
+      "B": "Morfogenezde rol oynarlar.",
+      "C": "Kayıpları tümör hücrelerinin invazyonuna yol açar.",
+      "D": "Homofilik etkileşimler kurarlar.",
+      "E": "Sitoplazmik uçları ara filamentlara bağlanır."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Yanlış (Seçenek doğrudur):** Kaderinler kalsiyuma bağımlı hücre-hücre yapışma (adhezyon) molekülleridir (CADherin = CAlcium Dependent).\n* **B) Yanlış (Seçenek doğrudur):** Dokuların dokusal gelişiminde ve organogenesis/morfogenezde komşu hücrelerin tutunmasını sağlar.\n* **C) Yanlış (Seçenek doğrudur):** E-kaderin kaybı epiteliyal-mezankimal transisyona (EMT) yol açarak tümör invazyon ve metastaz kapasitesini artırır.\n* **D) Yanlış (Seçenek doğrudur):** Aynı tip kaderin molekülleri birbirini tanır (homofilik etkileşim).\n* **E) DOĞRU (Aranan yanlış ifade):** Klasik kaderinlerin (Zonula adherens'te) sitoplazmik uçları kateninler aracılığıyla ARA FİLAMENTLERE DEĞİL, AKTİN MİKROFİLAMENTLERİNE bağlanır. (Desmozomal kaderinler desmoglein/desmokollin ise plak proteinleri üzerinden ara filamentlere bağlanır).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki reaksiyonlardan hangisi, olgun eritrositlerde gerçekleşir?",
+    "options": {
+      "A": "TCA",
+      "B": "ETZ",
+      "C": "Transkripsiyon",
+      "D": "Ketojenez",
+      "E": "Glikoliz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\nOlgun eritrositler mitokondri ve çekirdeklerini kaybetmişlerdir.\n* **A, B, D) Yanlış:** TCA döngüsü, Elektron Taşıma Zinciri (ETZ) ve Ketojenez mitokondride gerçekleştiği için olgun eritrositlerde GÖRÜLMEZ.\n* **C) Yanlış:** Transkripsiyon çekirdekte gerçekleştiği için eritrositlerde GÖRÜLMEZ.\n* **E) DOĞRU:** Glikoliz sitoplazmada gerçekleştiği için olgun eritrositlerin yegane ATP üretim metabolik yoludur (anaerobik glikoliz).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi eritrositlerde bulunmaz?",
+    "options": {
+      "A": "Laktat dehidrogenaz",
+      "B": "Methemoglobin redüktaz",
+      "C": "Glutamat dehidrogenaz",
+      "D": "Transketolaz",
+      "E": "Karbonik anhidraz"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Yanlış (Bulunur):** LDH, eritrositlerde pirüvatı laktata dönüştürüp $NAD^+$ rejenerasyonu için sitozolde bulunur.\n* **B) Yanlış (Bulunur):** Methemoglobin redüktaz $Fe^{3+}$'ü $Fe^{2+}$'ye indirgemek için sitozolde çalışır.\n* **C) DOĞRU (Bulunmaz):** Glutamat dehidrogenaz (GDH) MİTOKONDRİ MATRİKSİNE özgü bir enzimdir. Olgun eritrositlerde mitokondri bulunmadığı için GDH enzimi bulunmaz.\n* **D) Yanlış (Bulunur):** Transketolaz Pentoz Fosfat Yolu sitozolik enzimidir.\n* **E) Yanlış (Bulunur):** Karbonik anhidraz eritrositte $CO_2$ taşınması için hayati sitozolik enzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Mikrovillusların yapısında yer alan sitoskeleton elemanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aktin filament",
+      "B": "Elastin",
+      "C": "Mikrotübül",
+      "D": "Ara filament",
+      "E": "İntegrin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Mikrovillusların merkezinde dikine uzanan ve villin/fimbrin ile çapraz bağlanan AKTİN MİKROFİLAMENT demetleri yer alır.\n* **B) Yanlış:** Elastin bağ dokusu esnek lifidir.\n* **C) Yanlış:** Mikrotübüller silya ve kamçı ($9+2$ yapısı) ile sentriyollerde yer alır.\n* **D) Yanlış:** Ara filamentler mekanik direnç ve desmozomlarda yer alır.\n* **E) Yanlış:** İntegrin hücresel reseptördür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin hücre içi sıvıdaki konsantrasyonu, hücre dışı sıvıdaki konsantrasyonundan daha düşüktür?",
+    "options": {
+      "A": "Potasyum",
+      "B": "Magnezyum",
+      "C": "Bikarbonat",
+      "D": "Protein",
+      "E": "Fosfat"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A, B, D, E) Yanlış (Hücre içinde yüksektir):** Hücre içi katyon ve anyon dağılımında $K^+$, $Mg^{2+}$, Proteinler ve Fosfat iyonları hücre içinde hücre dışına kıyasla çok daha yüksek konsantrasyondadır.\n* **C) DOĞRU:** Hücre dışı ana katyonlar $Na^+$, $Cl^-$ ve Bikarbonat ($HCO_3^-$)'dır. Bikarbonat konsantrasyonu hücresel dış sıvıda (~24 mEq/L) hücre içi sıvıya göre daha yüksektir. Ayrıca Kalsiyum ($Ca^{2+}$) hücre dışında hücre içine kıyasla en fazla konsantrasyon farkı gösteren iyondur ($10.000$ kat).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar TUS"
+  },
+  {
+    "question": "Hücre içi sıvılarda en yüksek konsantrasyonda bulunan katyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sodyum",
+      "B": "Potasyum",
+      "C": "Kalsiyum",
+      "D": "Magnezyum",
+      "E": "Çinko"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Yanlış:** Sodyum ($Na^+$) hücre dışı sıvının (ECF) temel katyonudur (~140 mEq/L).\n* **B) DOĞRU:** Potasyum ($K^+$), hücre içi sıvının (ICF) en yüksek konsantrasyondaki temel katyonudur (~140-150 mEq/L). Membran potansiyelinin korunması $Na^+/K^+$-ATPaz pompası ile sağlanır.\n* **C) Yanlış:** Kalsiyum hücre içinde serbest halde son derece düşük tutulur.\n* **D) Yanlış:** Magnezyum hücre içindeki ikinci en yoğun katyondur (~20 mEq/L).\n* **E) Yanlış:** Çinko iz elementtir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar DUS"
+  },
+  {
+    "question": "Ribozom alt ünitelerinin yapılandırılması, hücrenin aşağıdaki kısımlarından hangisinde gerçekleşir?",
+    "options": {
+      "A": "Nükleolus",
+      "B": "Granüllü E.R.",
+      "C": "Sitoplazma",
+      "D": "Düz E.R.",
+      "E": "Golgi cisimciği"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Nükleolus (Çekirdekçik), rRNA transkripsiyonunun (45S pre-rRNA), işlenmesinin ve sitozolden gelen ribozomal proteinlerle birleşerek ribozomal küçük (40S) ve büyük (60S) alt birimlerinin monte edildiği hücresel merkezdir.\n* **B) Yanlış:** Granüllü ER zarında olgun ribozomlar sentez yapar.\n* **C) Yanlış:** Ribozom alt birimleri montajı tamamlandıktan sonra işlev görmek üzere sitozole ihraç edilir.\n* **D, E) Yanlış:** Düz ER veya Golgi ribozom biyojenezinde rol almaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki moleküllerden hangisi, nükleolus içinde yer almaz?",
+    "options": {
+      "A": "Ribozomal protein mRNA'ları",
+      "B": "rRNA molekülleri",
+      "C": "Ribozom alt birimleri",
+      "D": "Ribozomal proteinler",
+      "E": "NOR DNA'sı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU (Nükleolusta yer almaz):** Ribozomal proteinleri kodlayan mRNA'lar nükleolusta değil, çekirdeğin ökromatin bölgelerinde RNA polimeraz II tarafından transkribe edilir ve protein sentezi için sitozole aktarılır.\n* **B) Yanlış:** rRNA'lar nükleolusta transkribe edilir.\n* **C) Yanlış:** Ribozom alt birimleri montajı nükleolusta yapılır.\n* **D) Yanlış:** Sitozolden gelen ribozomal proteinler nükleolusa girerek rRNA ile birleşir.\n* **E) Yanlış:** NOR (Nükleoler Organizatör Bölge) DNA'sı nükleolusu oluşturan rRNA gen alanlarıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar DUS"
+  },
+  {
+    "question": "Hayvan hücrelerinde plazma zarında yer alan, dörtlü halkasal yapıya sahip ve steroid hormonların öncülü olan molekül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sfingomiyelin",
+      "B": "Fosfatidilserin",
+      "C": "Glikolipid",
+      "D": "Kolesterol",
+      "E": "Lesitin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A, B, C, E) Yanlış:** Sfingomiyelin, fosfatidilserin, glikolipid ve lesitin (fosfatidilkolin) steroid halkası içermez.\n* **D) DOĞRU:** Kolesterol, 27 karbonlu, cyclopentanoperhydrophenanthrene (dörtlü steran halkası) yapısına sahip, membran akışkanlığını düzenleyen ve steroid hormonların (kortizol, aldosteron, östrojen, testosteron vb.), D vitamininin ve safra asitlerinin amfipatik öncül molekülüdür.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Aşağıdaki iyon kanallarından hangisinde görülen fonksiyon bozukluğu kistik fibrozişe neden olur?",
+    "options": {
+      "A": "Klor",
+      "B": "Potasyum",
+      "C": "Kalsiyum",
+      "D": "Magnezyum",
+      "E": "Sodyum"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Kistik fibroziş, $CFTR$ (Cystic Fibrosis Transmembrane Conductance Regulator) genindeki mutasyon sonucu gelişen otozomal resesif bir hastalıktır. CFTR, epitel zarlarındaki ATP-bağımlı KLOR ($Cl^-$) kanalıdır.\n* **B, C, D, E) Yanlış:** Potasyum, kalsiyum, magnezyum veya sodyum kanallarının primer defekti kistik fibroziş değildir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki hücre bölümlerinden hangisi çok uzun zincirli (22'den fazla sayıda karbon içeren) yağ asitlerinin oksidasyon yeridir?",
+    "options": {
+      "A": "Sitozol",
+      "B": "Mitokondri",
+      "C": "Lizozom",
+      "D": "Peroksizom",
+      "E": "Düz endoplazmik retikulum"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Yanlış:** Sitozol yağ asidi sentez yeridir.\n* **B) Yanlış:** Mitokondri kitle olarak orta ve uzun zincirli (18 karbona kadar) yağ asitlerinin beta-oksidasyon merkezidir.\n* **C) Yanlış:** Lizozom heterofaji ve otofaji yıkım yeridir.\n* **D) DOĞRU:** Çok uzun zincirli yağ asitleri (VLCFA, $>22C$) ve dallı zincirli yağ asitleri (fitanik asit) öncelikle PEROKSİZOMDA kırpılarak zincir boyları kısaltılır ($\beta$-oksidasyon ve $\u0007lpha$-oksidasyon). Ardından üretilen açil-Koa'lar mitokondriye aktarılır. Peroksizom bozuklukları Zellweger sendromuna yol açar.\n* **E) Yanlış:** Düz ER omega-oksidasyon yeridir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 Sonbahar TUS"
+  },
+  {
+    "question": "Eritrosit membranında bulunan majör transmembran glikoproteini aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Glikoforin",
+      "B": "Spektrin",
+      "C": "Band-3",
+      "D": "Ankrin",
+      "E": "Protein 4.1"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Glikoforin (özellikle Glikoforin A), eritrosit membranında yer alan en zengin majör transmembran glikoproteindir. Dış yüzündeki sialik asit zenginliği eritrosite negatif yük (zeta potansiyeli) kazandırarak eritrositlerin birbirine yapışmasını engeller.\n* **B, D, E) Yanlış:** Spektrin, Ankrin ve Protein 4.1 eritrosit hücresel iskeletini oluşturan PERİFERAL zar proteinleridir.\n* **C) Yanlış:** Band 3 majör anyon (klor-bikarbonat) değiştirici transmembran proteindir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bir integral zar proteinidir?",
+    "options": {
+      "A": "Miyoglobin",
+      "B": "Albümin",
+      "C": "Seruloplazmin",
+      "D": "Ferritin",
+      "E": "Glikoforin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D) Yanlış:** Miyoglobin kas içinde, Albümin, Seruloplazmin plazmada erimiş globüler proteinlerdir; Ferritin sitoplazmik/dolaşımsal demir depolama kompleksidir. Hiçbiri zar proteini değildir.\n* **E) DOĞRU:** Glikoforin, hidrofobik alfa-heliks bölgesi ile membran çift tabakasını kat eden tipik bir integral (transmembran) zar proteinidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar DUS"
+  },
+  {
+    "question": "Eritrosit membranında klor ve bikarbonat değişimini sağlayan taşıyıcı protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Band 2",
+      "B": "Band 3",
+      "C": "Band 4.1",
+      "D": "Glikoforin A",
+      "E": "Glikoforin B"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Yanlış:** Band 2 spectrin alt birimidir.\n* **B) DOĞRU:** Band 3 (Anyon Değiştirici-1, AE1), eritrosit zarının majör integral proteini olup dokularda üretilen $CO_2$'in bikarbonat ($HCO_3^-$) şeklinde taşınması sırasında hücre içi ile dışı arasında $Cl^- / HCO_3^-$ değişimini (Hamburger olayı / klor kayması) katalizler.\n* **C) Yanlış:** Band 4.1 periferal cytoskeletal bağlantı proteindir.\n* **D, E) Yanlış:** Glikoforin A ve B sialik asit taşıyan transmembran proteinlerdir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Akuaporinler ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Periferal membran proteinleridir.",
+      "B": "Hidronyum ($H_3O^+$) iyonunun geçişi görülmez.",
+      "C": "Su moleküllerini ozmotik gradiyent yönünde taşır.",
+      "D": "Suyun salınımı ve geri emilimi akuaporinler yoluyla gerçekleşir.",
+      "E": "Bazı alt tiplerinde gliserol ve üre geçişi görülür."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU (Aranan yanlış ifade):** Akuaporinler suyun hücre zarından hızlı geçişini sağlayan tetrametrik INTEGRAL (TRANSMEMBRAN) zar proteinleridir; periferal membran proteini DEĞİLDİR.\n* **B) Yanlış (Seçenek doğrudur):** Akuaporin kanalı dar yapısı ve yük dağılımı sayesinde proton ($H^+$) veya $H_3O^+$ geçişini engeller, membran potansiyelini korur.\n* **C) Yanlış (Seçenek doğrudur):** Su pasif olarak ozmotik gradiyent yönünde akar.\n* **D) Yanlış (Seçenek doğrudur):** Böbrek tübüllerinde ve salgı bezlerinde su geri emilimini yürütür (örn. AQP-2 ADH kontrolündedir).\n* **E) Yanlış (Seçenek doğrudur):** Akuaglisroretinler (AQP3, AQP7 vb.) su yanında gliserol ve üre geçişine de izin verir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Plazma membranından geçebilen maddelerin permeabilite katsayılarına göre düşükten yükseğe doğru sıralanışı hangisidir?",
+    "options": {
+      "A": "$K^+ < Na^+ < Cl^- < Glukoz < Triptofan < Üre < Su$",
+      "B": "$Na^+ < K^+ < Cl^- < Glukoz < Üre < Triptofan < Su$",
+      "C": "$K^+ < Na^+ < Cl^- < Glukoz < Triptofan < Su < Üre$",
+      "D": "$Na^+ < K^+ < Cl^- < Glukoz < Triptofan < Üre < Su$",
+      "E": "$Na^+ < K^+ < Cl^- < Triptofan < Glukoz < Üre < Su$"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\nMembran lipid tabakasından basit difüzyonla geçiş geçirgenlik (permeabilite) kuralları:\n1. Yüklü küçük iyonlar ($Na^+, K^+, Cl^-$) hidrofobik çekirdeği geçemez, permeabiliteleri en düşüktür. Hydration kabuğu büyük olan $Na^+$ iyonunun geçirgenliği $K^+$'a göre daha düşüktür ($Na^+ < K^+ < Cl^-$).\n2. Yüksüz büyük polar moleküller (Glukoz < Triptofan) iyonlara göre biraz daha geçer.\n3. Küçük yüksüz polar moleküller (Üre, Gliserol) daha hızlı geçer.\n4. Su ($H_2O$) küçük molekül boyutu ve yüksek konsantrasyonu ile en yüksek katsayıya sahiptir.\nSıralama: $Na^+ < K^+ < Cl^- < Glukoz < Triptofan < Üre < Su$.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki moleküllerden hangisi basit difüzyon ile plazma membranından geçemez?",
+    "options": {
+      "A": "$O_2$",
+      "B": "$N_2$",
+      "C": "$Na^+$",
+      "D": "$NO$",
+      "E": "$CO_2$"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A, B, D, E) Yanlış:** $O_2$, $N_2$, $NO$ ve $CO_2$ küçük apolar gaz molekülleridir; membran lipid çift tabakasından derece yüksek bir hızla basit difüzyonla geçerler.\n* **C) DOĞRU:** $Na^+$ yüklü bir iyondur (katyon). Yüklü iyonlar hidrofobik lipid tabakasından basit difüzyonla geçemezler; mutlaka iyon kanalları veya taşıyıcı proteinler (kolaylaştırılmış difüzyon / aktif taşıma) kullanmak zorundadırlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisindeki bozukluğun Kartagener sendromuna neden olması en olasıdır?",
+    "options": {
+      "A": "Kinezin",
+      "B": "Katanin",
+      "C": "Plektin",
+      "D": "Dinein",
+      "E": "Stathmin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Yanlış:** Kinezin mikrotübüller üzerinde anterograd (artı uca doğru) taşıma yapan motordur.\n* **B) Yanlış:** Katanin mikrotübül kesen proteindir.\n* **C) Yanlış:** Plektin ara filament çapraz bağlayıcısıdır.\n* **D) DOĞRU:** Kartagener sendromu (Aksosferal / Primer Siliyer Diskinezi), silyum ve kamçının $9+2$ mikrotübül yapısındaki Aksonemal DİNEİN motor kollarının yokluğu/bozukluğu sonucu gelişir. İmmotil sperm, bronşiektazi, kronik sinüzit ve situs inversus ile karakterizedir.\n* **E) Yanlış:** Stathmin mikrotübül destabilizanıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 DUS"
+  },
+  {
+    "question": "I. X'e bağlı geçiş gösterir.\nII. İdrarla bakır atılımı artar.\nIII. Tedavide çinko asetat kullanılır.\n**Wilson hastalığı ile ilgili yukarıdaki ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **I. Öncül (Yanlış):** Wilson hastalığı X'e bağlı değil, OTOZOMAL RESESİF geçiş gösterir (ATP7B geni mutasyonu). (X'e bağlı geçen bakır eksikliği hastalığı Menkes hastalığıdır).\n* **II. Öncül (Doğru):** Bakır karaciğerden safraya atılamadığı için serbest bakır dokularda ve kanda birikir; böbreklerden idrarla bakır atılımı (hiperkupriüri) belirgin şekilde artar.\n* **III. Öncül (Doğru):** Tedavide şelatörler (Penisilamin, Trientin) ve bağırsaktan bakır emilimini yarışmalı olarak engelleyen Çinko asetat/sülfat kullanılır.\nBu nedenle II ve III doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Hücre içerisinde yer alan lipidlerin büyük çoğunluğunun sentezinden aşağıdakilerden hangisi sorumludur?",
+    "options": {
+      "A": "Endoplazmik retikulum",
+      "B": "Hücre zarı",
+      "C": "Çekirdek",
+      "D": "Mitokondri",
+      "E": "Lizozom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Hücre içindeki membran lipidlerinin (fosfolipidler, triasilgliserol, kolesterol, steroidler) ana sentez fabrikası Düz Endoplazmik Retikulum (D.E.R.) zarlarıdır.\n* **B) Yanlış:** Hücre zarı sentez yeri değil, hedef zardır.\n* **C) Yanlış:** Çekirdek genom yönetim merkezidir.\n* **D) Yanlış:** Mitokondri sadece kardiyolipin ve az miktarda fosfatidilinozitol sentezler.\n* **E) Yanlış:** Lizozom sindirim organelidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 DUS"
+  },
+  {
+    "question": "I. Karbonik asit tampon sistemi\nII. Hemoglobin tampon sistemi\nIII. $H_2PO_4^-$ tampon sistemi\n**Yukarıdaki sistemlerden hangileri hücreler arası alanın (interstisyel sıvı) tamponlanmasında rol oynar?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **I. Öncül (Rol oynar):** Karbonik asit / Bikarbonat tampon sistemi hem plazmanın hem de hücresel dış sıvıların (interstisyel sıvı) majör tampon sistemidir.\n* **II. Öncül (Rol oynamaz):** Hemoglobin tampon sistemi SADECE ERİTROSİT İÇİNDE (kan hücre içi) bulunur; hücresiz interstisyel sıvıda hemoglobin bulunmaz.\n* **III. Öncül (Rol oynar):** Fosfat tampon sistemi ($H_2PO_4^- / HPO_4^{2-}$) interstisyel sıvıda ve hücre içi sıvılarda tamponlama yapar.\nBu nedenle I ve III rol oynar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 EUS"
+  },
+  {
+    "question": "Nükleer proteinlerin çekirdek zarından geçişinde aşağıdakilerden hangisi görev alır?",
+    "options": {
+      "A": "İmportin",
+      "B": "Elastin",
+      "C": "Ankrin",
+      "D": "Spektrin",
+      "E": "Miyozin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Nükleer Lokalisasyon Sinyali (NLS) taşıyan proteinleri tanıyıp Ran-GTP mekanizmasıyla çekirdek por kompleksinden çekirdek içine taşıyan nükleer taşıma reseptörü İMPORTİN'dir.\n* **B, C, D, E) Yanlış:** Elastin bağ dokusu proteinidir; Ankrin ve Spektrin hücre zarı iskelet proteinleridir; Miyozin kas/hareket motor proteinidir.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Translokazlar, aşağıdakilerden hangisine protein transportunda görev alır?",
+    "options": {
+      "A": "Çekirdek",
+      "B": "Golgi",
+      "C": "Lizozom",
+      "D": "Çekirdekçik",
+      "E": "Mitokondri"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D) Yanlış:** Çekirdeğe protein girişi porlardan importin/exportin ile; Golgi ve Lizozoma transport veziküler kargo (COP, klatrin) sistemleriyle yapılır.\n* **E) DOĞRU:** Mitokondriye sitozolden katlanmamış proteinlerin girmesi için dış zarda TOM (Translocase of Outer Membrane) ve iç zarda TIM (Translocase of Inner Membrane) kompleks adı verilen özel TRANSMEMBRAN TRANSLOKAZ protein kanalları görev alır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar DUS"
+  },
+  {
+    "question": "Lipid çeşitlerinden hangisi en fazla iç mitokondri membranında bulunur?",
+    "options": {
+      "A": "Sfingomiyelin",
+      "B": "Kolesterol",
+      "C": "Gangliozidler",
+      "D": "Kardiyolipin",
+      "E": "Fosfatidil inozitol"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A, B, C, E) Yanlış:** Sfingomiyelin plazma zarında ve miyelinde; Kolesterol plazma zarında son derece yüksektir (mitokondri iç zarında kolesterol oranı çok düşüktür); Gangliozidler plazma zarı dış yüzeyindedir.\n* **D) DOĞRU:** Kardiyolipin (Difosfatidilgliserol), ikisi fosfatit olmak üzere 4 yağ asit zinciri içeren ve insanda İÇ MİTOKONDRİ ZARININ özgün lipididir (iç zar lipidlerinin %20'sini oluşturur). İç zarın iyon sızdırmazlığını ve ETZ komplekslerinin (Kompleks I, III, IV) sabitlenmesini sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki yapılardan hangisi memeli hücrelerinin zarında yer almaz?",
+    "options": {
+      "A": "Fosfatidilkolin",
+      "B": "Fosfatidilserin",
+      "C": "Glikoprotein",
+      "D": "Lipopolisakkarit",
+      "E": "Sfingomiyelin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A, B, C, E) Yanlış:** Fosfatidilkolin, fosfatidilserin, glikoproteinler ve sfingomiyelin Ökaryotik memeli hücre zarlarının doğal temel bileşenleridir.\n* **D) DOĞRU:** Lipopolisakkarit (LPS / Endotoksin), Gram-negatif BAKTERİLERİN dış membranına özgü Toksik toksit bir yapı bileşenidir; memeli hücre zarlarında bulunmaz.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, hepatosit ve renal korteks hücrelerinin endoplazmik retikulum membranlarına özgü bir belirteçtir?",
+    "options": {
+      "A": "Glukoz-6-fosfataz",
+      "B": "Fosfoenolpirüvat karboksikinaz",
+      "C": "ATP sentaz",
+      "D": "Adenilat siklaz",
+      "E": "Fruktoz-1,6-bisfosfataz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU:** Glukoz-6-fosfataz (G6Paz), glukoneogenez ve glikojenoliz yapan organlar olan karaciğer ve böbrek korteksinde DÜZ ENDOPLAZMİK RETİKULUM LÜMENİ VE ZARINA özgü yerleşmiş olan kilit bypass enzimidir. G6Paz ER zarı marker enzimidir.\n* **B) Yanlış:** PEPCK mitokondri ve sitoplazmadadır.\n* **C) Yanlış:** ATP sentaz mitokondri iç zarı markerıdır.\n* **D) Yanlış:** Adenilat siklaz plazma zarı markerıdır.\n* **E) Yanlış:** Fruktoz-1,6-bisfosfataz sitozol markerıdır.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 Sonbahar TUS"
+  },
+  {
+    "question": "Karaciğer hücrelerinin normalden fazla düz endoplazmik retikulum içermesinin nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Provitamin A'nın A vitaminine dönüştürülmesi",
+      "B": "Daha fazla katalaz sentezi ihtiyacı",
+      "C": "Yüksek miktarda safra yapımı",
+      "D": "Alkol veya benzeri toksik maddelerin etkisinin azaltılması",
+      "E": "İnsülin ve glukagon hormonlarının etkilerine cevap oluşturulması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A, B, C, E) Yanlış:** A vitamini dönüşümü, katalaz sentezi (peroksizom) veya insülin/glukagon yanıtı D.E.R. hipertrofisinin ana tetikleyicisi değildir.\n* **D) DOĞRU:** Düz Endoplazmik Retikulum (D.E.R.), ilac ve toksik maddelerin, alkolün metabolize edildiği Sitokrom P450 mikrozomal detox sistemini taşır. Kronik alkol veya barbitürat/ilaç maruziyetinde karaciğer hücreleri detoksifikasyon kapasitesini artırmak için D.E.R. miktarını belirgin şekilde indükler ve artırır (D.E.R. hipertrofisi).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 İlkbahar DUS"
+  },
+  {
+    "question": "I. Fosfolipid\nII. Kolesterol\nIII. Glikolipid\n**Yukarıdakilerden hangileri hayvan hücresi membranı yapısında bulunan moleküllerdendir?**",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Öncül (Doğru):** Fosfolipidler zarın çift tabakalı ana iskeletini oluşturur.\n* **II. Öncül (Doğru):** Kolesterol hayvan hücresi zarına özgü olup akışkanlığı düzenler.\n* **III. Öncül (Doğru):** Glikolipidler plazma zarının dış yüzünde glikokaliksi ve reseptör alanlarını oluşturur.\nBu nedenle I, II ve III'ün tamamı bulunur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar DUS"
+  },
+  {
+    "question": "Laminin proteini ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "Hücre şeklinin korunmasını sağlar.",
+      "B": "Hücreye esneklik kazandırır.",
+      "C": "Hücre migrasyonunda rol oynar.",
+      "D": "Hücre-hücre adezyonunu sağlar.",
+      "E": "Epitel dokunun bazal laminaya bağlanmasını sağlar."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D) Yanlış:** Hücre şekli sitoskeletonla, esneklik elastinle, hücre-hücre adezyonu kaderinlerle sağlanır.\n* **E) DOĞRU:** Laminin, bazal laminanın ana adhezyon glikoproteini olup T-şekilli/haç yapısıyla Tip IV kollajene, heparan sülfata ve epitel hücre yüzeyindeki İntegrin reseptörlerine bağlanarak epitel dokunun bazal laminaya sıkıca tutunmasını sağlar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 İlkbahar DUS"
+  },
+  {
+    "question": "Fasiyal sinkinezisi olan hastaya fizik tedavinin yanında kemodenervasyon amacıyla asetilkolin salınımını inhibe eden ilaç enjeksiyonu yapılıyor. Aynı zamanda bir bakteri toksini olan bu ilacın aşağıdaki zar proteinlerinden hangisiyle etkileşerek nörotransmitter salınımını bozması en olasıdır?",
+    "options": {
+      "A": "İntegrin",
+      "B": "Kaveolin",
+      "C": "Akuaporin",
+      "D": "SNAP protein",
+      "E": "SNARE protein"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A, B, C, D) Yanlış:** İntegrin, kaveolin, akuaporin veya serbest SNAP25 tek başına botulinum toksininin ana proteolitik hedef sınıfı değildir.\n* **E) DOĞRU:** Bahsedilen ilaç Botulinum toksinidir (Botox). Botulinum toksini, presinaptik nöron ucunda asetilkolin taşıyan veziküllerin zarla birleşmesini (eksozitoz) sağlayan SNARE kompleks proteinlerini (Synaptobrevin/v-SNARE, Syntaxin, SNAP-25/t-SNARE) spesifik olarak keserek proteolize uğratır ve ACh salınımını engelleyerek paraliz yapar.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar TUS"
+  },
+  {
+    "question": "I. Asit veya baz eklendiğinde pH değişikliğine karşı direnç gösterirler.\nII. Zayıf asit (HA) ve onun konjuge bazından ($A^-$) oluşurlar.\nIII. Maksimum tamponlama kapasitesi $\\pm 3$ pKa aralığındadır.\nIV. Bikarbonat, fosfat ve proteinler fizyolojik tampon sistemleridir.\n**Tamponlar ile ilgili yukarıdaki ifadelerden hangileri doğrudur?**",
+    "options": {
+      "A": "I, II, III ve IV",
+      "B": "II, III ve IV",
+      "C": "I, II ve III",
+      "D": "III ve IV",
+      "E": "I ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **I. Öncül (Doğru):** Tampon çözeltiler ortama az miktarda asit veya baz eklendiğinde pH değişimine karşı direnç gösterir.\n* **II. Öncül (Yanlış):** Tamponlar zayıf asit (HA) ve onun konjuge BAZI ($A^-$)'ndan oluşur. (Öncülde konjuge asidinden denmiş, zayıf asidin konjuge bazı olur).\n* **III. Öncül (Yanlış):** Maksimum tamponlama kapasitesi $pK_a \\pm 1$ pH aralığındadır ($\\pm 3$ aralığı çok geniştir, tamponlama gücü kalmaz).\n* **IV. Öncül (Doğru):** Bikarbonat, fosfat ve proteinler (örneğin Hb ve albümin) vücudun fizyolojik ana tampon sistemleridir.\nBu nedenle I ve IV. öncüller doğrudur.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2023 Sonbahar TUS"
+  },
+  {
+    "question": "Mitokondri ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Çekirdek genomunda yer alan mitokondriyal genlerin translasyonu, endoplazmik retikulum zarına bağlı ribozomlarda gerçekleşir.",
+      "B": "Mitokondri iç zarında özel bir fosfolipid olan kardiyolipin yer alır.",
+      "C": "Mitokondri genomu kendi protein sentez mekanizmasına ait RNA genlerini içerir.",
+      "D": "Çekirdek genomunda yer alan mitokondriyal proteinler, katlanmamış halde mitokondriye alınır.",
+      "E": "Apoptoz sürecinde mitokondride zarlar arası alana yerleşik proteinler sitoplazmaya salınmaktadır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) DOĞRU (Aranan yanlış ifade):** Çekirdek genomunda kodlanan mitokondriyal proteinler ER'ye bağlı ribozomlarda değil, SİTOPLAZMADAKİ SERBEST RİBOZOMLARDA sentezlenir. Ardından katlanmadan şaperonlar eşliğinde TOM/TIM translokaz kanallarından mitokondriye aktarılır.\n* **B) Yanlış (Seçenek doğrudur):** İç zarda Kardiyolipin bulunur.\n* **C) Yanlış (Seçenek doğrudur):** mtDNA kendi rRNA ve tRNA genlerini taşır.\n* **D) Yanlış (Seçenek doğrudur):** Proteinler katlanmamış (unfolded) halde TOM/TIM'den geçer.\n* **E) Yanlış (Seçenek doğrudur):** Apoptozda zarlar arası alandan Sitokrom c sitoplazmaya dökülerek kaspazları aktive eder.",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi integral zar proteinlerinin ortak bir özelliğidir?",
+    "options": {
+      "A": "Membran içinde yer alan kısmı her zaman alfa-heliks yapısındadır",
+      "B": "Çift tabakalı zarın iç kısmı ile etkileşen aminoasitler hidrofiliktir",
+      "C": "Tüm integral zar proteinleri zarı bir kez geçer",
+      "D": "Disülfit bağları sitoplazmaya bakan kısımda yer alır",
+      "E": "Karbonhidratlar hücre dışına bakan kısımda bulunur"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Yanlış:** İntegral proteinlerin zarı geçen kısımları $\u0007lpha$-heliks olabileceği gibi $\beta$-varil ($\beta$-barrel, örn. porinler) yapısında da olabilir.\n* **B) Yanlış:** Zarın hidrofobik çekirdeği ile etkileşen aminoasit yan zincirleri apolar/hidrofobiktir (Lösin, İzolösin, Valin vb.).\n* **C) Yanlış:** Çoğu integral protein zarı birden fazla kez kat eder (multi-pass, örn. 7-transmembran reseptörler).\n* **D) Yanlış:** Sitoplazma indirgeyici bir ortam olduğu için disülfit bağları sitoplazmada değil, oksitleyici olan hücre dışı (ekstrasellüler) kısımda oluşur.\n* **E) DOĞRU:** Bütün zar proteinleri ve glikolipidlerdeki karbonhidrat yan zincirleri (glikozilasyon) SADECE HÜCRE DIŞINA (ekstrasellüler yüzey) bakacak şekilde oryante olmuştur (Glikokaliks).",
+    "lesson": "Biyokimya",
+    "unit": "BÖLÜM 9 - HÜCRE VE ORGANELLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar DUS"
+  }
+]

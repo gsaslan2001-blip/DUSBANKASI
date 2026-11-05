@@ -1,0 +1,754 @@
+[
+  {
+    "question": "Tiamin (B1 vitamini) eksikliğinden aşağıdaki enzimlerden hangisi doğrudan etkilenir?",
+    "options": {
+      "A": "Pirüvat kinaz",
+      "B": "Pirüvat karboksilaz",
+      "C": "Aldolaz",
+      "D": "Pirüvat dehidrogenaz",
+      "E": "Glukoz-6-fosfat dehidrogenaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\nTiamin (Vitamin B1), vücutta aktif formu olan **Tiamin Pirofosfat (TPP)** molekülüne dönüştürülerek α-ketoasitlerin oksidatif dekarboksilasyonu ve transketolasyon reaksiyonlarında koenzim olarak görev yapar.\n\n* **A) Pirüvat kinaz (Yanlış):** Glikolizin son adımı olan fosfoenolpirüvattan pirüvat oluşturan irreversible enzimdir; kofaktör olarak Mg²+ ve K+ kullanır, B1 vitamini kullanmaz.\n* **B) Pirüvat karboksilaz (Yanlış):** Pirüvatı oksaloasetata dönüştüren glukoneogenez enzimidir; koenzim olarak **Biotin (B7)** ve ATP/Mg²+ kullanır.\n* **C) Aldolaz (Yanlış):** Fruktoz-1,6-bisfosfatı triozlara bölen glikoliz enzimidir; kofaktöre veya B1 vitaminine ihtiyaç duymaz.\n* **D) Pirüvat dehidrogenaz (DOĞRU):** Pirüvatı Asetil-KoA'ya çeviren multienzim kompleksidir. Çalışması için 5 koenzime ihtiyaç duyar: **Tiamin pirofosfat (B1)**, FAD (B2), NAD+ (B3), Koenzim A (B5) ve Lipoik asit. Tiamin eksikliğinde doğrudan aktivitesi bozulur ve pirüvat laktata kayarak laktik asidoza yol açar.\n* **E) Glukoz-6-fosfat dehidrogenaz (Yanlış):** Pentoz fosfat yolunun hız kısıtlayıcı enzimidir; koenzim olarak **NADP+** kullanır.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2011 İlkbahar TUS"
+  },
+  {
+    "question": "I. α-keto asitlerin oksidatif dekarboksilasyonu  \nII. Transaminasyon tepkimeleri  \nIII. Transketolaz tepkimeleri  \nIV. Aktive edilmiş tek karbon birimlerinin taşınması  \n\nYukarıdaki tepkimelerden hangileri tiamin eksikliğinde inhibe olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız IV",
+      "D": "I ve III",
+      "E": "II ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **Öncül I (DOĞRU):** α-Ketoasit dehidrogenaz kompleksleri (Pirüvat dehidrogenaz, α-Ketoglutarat dehidrogenaz ve Dallı zincirli α-ketoasit dehidrogenaz) koenzim olarak **Tiamin Pirofosfat (TPP - Vitamin B1)** kullanır. Dolayısıyla tiamin eksikliğinde bu reaksiyonlar inhibe olur.\n* **Öncül II (YANLIŞ):** Transaminasyon tepkimeleri (ALT, AST gibi) koenzim olarak **Piridoksal Fosfat (PLP - Vitamin B6)** kullanır; tiamin eksikliğinden etkilenmez.\n* **Öncül III (DOĞRU):** Pentoz fosfat yolunun non-oksidatif evresinde görev alan **Transketolaz** enzimi koenzim olarak **Tiamin Pirofosfat (B1)** kullanır. Eritrosit transketolaz aktivite tayini, tiamin eksikliği tanısında klinik laboratuvar testi olarak kullanılır.\n* **Öncül IV (YANLIŞ):** Aktive edilmiş tek karbon birimlerinin (metil, metenil, formil vb.) taşınması **Tetrahidrofolat (THF - Folik asit / B9)** ve **B12 vitamini** aracılığıyla gerçekleştirilir; tiamin ile ilişkili değildir.\n\nBu nedenle I ve III numaralı öncüller doğru olup cevap D seçeneğidir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Kilo kontrolü amacıyla uzun süredir çok sıkı diyet uygulamakta olan 25 yaşındaki hasta çift görme, ajitasyon ve konfüzyon nedeniyle getiriliyor. Hastada taşikardi, nistagmus, kas gücünde azalma ve kardiyomegali tespit ediliyor. Tam kan sayımı, kalsiyum, magnezyum düzeyi normal; eritrosit transketolaz aktivitesi, selenyum ve C vitamini değerleri düşük bulunuyor. Bu hastada görülen kliniğe aşağıdaki durumlardan hangisinin yol açmış olması en olasıdır?",
+    "options": {
+      "A": "D hipervitaminozu",
+      "B": "Askorbik asit eksikliği",
+      "C": "Tiamin eksikliği",
+      "D": "Kobalt toksisitesi",
+      "E": "A vitamini toksisitesi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Tiamin eksikliği (DOĞRU):** Tiamin (B1) eksikliğinde **Wernicke-Korsakoff Sendromu** (oftalmopleji/nistagmus, konfüzyon, taksi/ajitasyon) ve **Beriberi hastalığı** (Yaş beriberi: kardiyomegali, yüksek debili kalp yetmezliği, taşikardi; Kuru beriberi: periferik nöropati) tabloları gelişir. Tanıda eritrosit **transketolaz** aktivitesinin düşük bulunması patognomoniktir.\n* **A) D hipervitaminozu (Yanlış):** D vitamini fazlalığı hiperkalsemi, böbrek taşları ve yumuşak doku kireçlenmesine yol açar; transketolaz aktivitesiyle ilişkisizdir.\n* **B) Askorbik asit eksikliği (Yanlış):** C vitamini eksikliğinde Skorbüt (diş eti kanamaları, peteşi, foliküler hiperkeratoz, yara iyileşmesinde gecikme) görülür; nörolojik Wernicke triadına yol açmaz.\n* **D) Kobalt toksisitesi (Yanlış):** Kardiyomiyopatiye neden olabilir ancak eritrosit transketolaz düşüklüğü ve nistagmus/konfüzyon triadını açıklamaz.\n* **E) A vitamini toksisitesi (Yanlış):** İntrakraniyal basınç artışı (psödötümör serebri), kafa içi basınç artışına bağlı baş ağrısı ve ciltte soyulmalara yol açar.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki koenzimlerden hangisinin yapısında vitamin yoktur?",
+    "options": {
+      "A": "FMN",
+      "B": "Koenzim Q",
+      "C": "FAD",
+      "D": "Koenzim A",
+      "E": "NADPH"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) FMN (Flavin Mononükleotid) (Yanlış):** Yapısında **Vitamin B2 (Riboflavin)** bulundurur.\n* **B) Koenzim Q (Ubikinon) (DOĞRU):** Lipid yapılı, izopren türevi olan ve Elektron Taşıma Zincirinde (ETZ) hareketli elektron taşıyıcısı olarak görev yapan endojen bir moleküldür. Yapısında **herhangi bir vitamin bulunmaz**.\n* **C) FAD (Flavin Adenin Dinükleotid) (Yanlış):** Yapısında **Vitamin B2 (Riboflavin)** bulundurur.\n* **D) Koenzim A (Yanlış):** Yapısında **Vitamin B5 (Pantotenik asit)** bulundurur.\n* **E) NADPH (Yanlış):** Yapısında **Vitamin B3 (Niasin / Nikotinamid)** bulundurur.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Organik bir moleküle $CO_2$ katılmasını sağlayan enzim grubunun adı hangisidir?",
+    "options": {
+      "A": "Dehidrogenazlar",
+      "B": "Transaminazlar",
+      "C": "Karboksilazlar",
+      "D": "Dekarboksilazlar",
+      "E": "Oksijenazlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **A) Dehidrogenazlar (Yanlış):** Substrattan hidrojen/elektron çıkararak redoks (oksidoreduksiyon) tepkimelerini katalizleyen enzimlerdir (örn. NAD/FAD bağımlı enzimler).\n* **B) Transaminazlar (Yanlış):** Amino asitlerden amino grubunu ($-NH_2$) α-ketoasitlere aktaran enzimlerdir (koenzim B6 / PLP).\n* **C) Karboksilazlar (DOĞRU):** Organik substratlara karbondioksit ($CO_2$) ekleyerek karboksilleşme reaksiyonunu gerçekleştiren enzimlerdir. Bu enzimler koenzim olarak **Biotin (Vitamin B7)** ve ATP/Mg²+ kullanırlar (örn. Pirüvat karboksilaz, Asetil-KoA karboksilaz).\n* **D) Dekarboksilazlar (Yanlış):** Moleküllerden $CO_2$ çıkaran (karboksil grubunu uzaklaştıran) enzimlerdir.\n* **E) Oksijenazlar (Yanlış):** Moleküler oksijeni ($O_2$) substrata doğrudan kovalent olarak bağlayan enzimlerdir (monooksijenaz/dioksijenaz).",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2012 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki enzim-kofaktör eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Transketolaz - Tiamin pirofosfat",
+      "B": "Transaminaz - Piridoksal fosfat",
+      "C": "Karboksilaz - Biotin",
+      "D": "Dehidrogenaz - NAD",
+      "E": "Monooksijenaz - Koenzim A"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Transketolaz - Tiamin pirofosfat (Doğru eşleşme):** Pentoz fosfat yolunda Transketolaz koenzim olarak B1 vitamini türevi TPP kullanır.\n* **B) Transaminaz - Piridoksal fosfat (Doğru eşleşme):** Aminoasit transaminasyonunda (ALT, AST) B6 vitamini türevi PLP görev alır.\n* **C) Karboksilaz - Biotin (Doğru eşleşme):** $CO_2$ bağlayan karboksilaz enzimlerinin (Pirüvat karboksilaz vb.) koenzimi Biotin'dir.\n* **D) Dehidrogenaz - NAD (Doğru eşleşme):** Birçok oksidoredüktaz/dehidrogenaz enzimi elektron taşıyıcı olarak $NAD^+$ ($B3$ vitamini) kullanır.\n* **E) Monooksijenaz - Koenzim A (YANLIŞ EŞLEŞME / DOĞRU CEVAP):** Monooksijenaz (hidroksilaz) enzimleri kofaktör olarak **NADPH, FAD, FMN veya Tetrahidrobiopterin ($THB/BH_4$)** ile Vitamin C ve Demir/Bakır kullanırlar. Koenzim A ise açil grubu taşıyıcısıdır; monooksijenaz kofaktörü değildir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Tepkimelerin hangisinde piridoksal fosfat (PLP / Vitamin B6) koenzim olarak görev alır?",
+    "options": {
+      "A": "Karboksilasyon",
+      "B": "Defosforilasyon",
+      "C": "Metilasyon",
+      "D": "Hidroksilasyon",
+      "E": "Transaminasyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Karboksilasyon (Yanlış):** Biotin (B7) koenzimliğindedir.\n* **B) Defosforilasyon (Yanlış):** Fosfataz enzimleri tarafından gerçekleştirilir; PLP gerektirmez.\n* **C) Metilasyon (Yanlış):** S-Adenozilmetionin (SAM), Vitamin B12 ve Tetrahidrofolat (THF) kullanılır.\n* **D) Hidroksilasyon (Yanlış):** Vitamin C ve Tetrahidrobiopterin ($BH_4$) kullanılır.\n* **E) Transaminasyon (DOĞRU):** **Piridoksal Fosfat (PLP - Vitamin B6)**; transaminasyon (ALT, AST), dekarboksilasyon (GABA, Histamin, Serotonin sentezi), glikojen fosforilaz aktivitesi ve sistationin sentezi reaksiyonlarında temel koenzimdir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Bağırsaktan kalsiyum emilimini artıran, kemik ve diş mineralizasyonunda önemli rolü olan ve hormon olarak da kabul edilen vitamin hangisidir?",
+    "options": {
+      "A": "A vitamini",
+      "B": "D vitamini",
+      "C": "C vitamini",
+      "D": "Kobalamin",
+      "E": "E vitamini"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) A vitamini (Yanlış):** Görme epiteli, epitel doku diferansiyasyonu ve bağışıklık için gereklidir; kalsiyum emilim hormonu değildir.\n* **B) D vitamini (1,25-dihidroksikolekalsiferol / Kalsitriol) (DOĞRU):** İnce bağırsak mukozasında **Kalbindin** proteinini sentezleterek kalsiyum ve fosfor emilimini artırır, kemik ve dişlerde hidroksiapatit kristallerinin çökelmesini sağlayan nükleer reseptörlü bir steroid hormondur.\n* **C) C vitamini (Yanlış):** Kollajen sentezinde prolin/lizil hidroksilaz kofaktörüdür.\n* **D) Kobalamin (B12) (Yanlış):** DNA sentezi ve myelin kılıf korunmasında görev alır.\n* **E) E vitamini (Yanlış):** Hücre zarında antioksidandır.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 DUS"
+  },
+  {
+    "question": "Hangisi kalsiyum-fosfor metabolizmasını düzenleyerek periodontal dokular üzerine önemli etki gösterir?",
+    "options": {
+      "A": "A vitamini",
+      "B": "C vitamini",
+      "C": "D vitamini",
+      "D": "E vitamini",
+      "E": "K vitamini"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) D vitamini (DOĞRU):** D vitamini (Kalsitriol), kalsiyum ve fosfat dengesini ayarlayarak alveolar kemik ve periodontal dokuların minör/majör mineralizasyonunu ve tespiti düzenler. Eksikliğinde çocuklarda raşitizm, yetişkinlerde osteomalazi ve periodontal kemik kayıpları gözlenir.\n* **A, B, D, E Seçenekleri (Yanlış):** A vitamini epitelizasyon, C vitamini kollajen yapımı, E vitamini antioksidan koruma ve K vitamini pıhtılaşma/osteokalsin gama-karboksilasyonunu sağlar; ancak kalsiyum-fosfata doğrudan hormon düzeyinde regülasyon yapan ana vitamin D vitaminidir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 DUS"
+  },
+  {
+    "question": "Yalnızca hayvan kaynaklı besinlerle alınabilen ve bitkilerde bulunmayan vitamin hangisidir?",
+    "options": {
+      "A": "Vitamin B12",
+      "B": "Folat",
+      "C": "Vitamin B6",
+      "D": "Pantotenik asit",
+      "E": "Niasin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Vitamin B12 (Kobalamin) (DOĞRU):** Yalnızca mikroorganizmalar tarafından sentezlenir ve hayvanların bağırsak florası/dokularında birikir. Bitkisel gıdalarda B12 vitamini kesinlikle bulunmaz. Bu nedenle katı vegan beslenen kişilerde dışarıdan B12 desteği alınmazsa B12 eksikliği gelişir.\n* **B) Folat (Yanlış):** Yeşil yapraklı bitkilerde (folium) bol miktarda bulunur.\n* **C) Vitamin B6, D) Pantotenik asit, E) Niasin (Yanlış):** Hem bitkisel hem hayvansal gıdalarda yaygın olarak bulunurlar.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 İlkbahar TUS"
+  },
+  {
+    "question": "Vitaminlerden hangisi, sadece hayvansal gıdalarla alınabilir?",
+    "options": {
+      "A": "Biotin",
+      "B": "E vitamini",
+      "C": "Folik asit",
+      "D": "Tiamin",
+      "E": "Kobalamin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **E) Kobalamin (Vitamin B12) (DOĞRU):** B12 vitamini bitkisel kaynaklarda bulunmaz, sadece hayvansal gıdalar (et, süt, yumurta, balık) aracılığıyla diyette alınabilir.\n* **A) Biotin, B) E vitamini, C) Folik asit, D) Tiamin (Yanlış):** Tahıllar, kuru baklagiller, yeşil sebzeler ve bitkisel yağlarda bol miktarda bulunurlar.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki elementlerden hangisi B12 vitamininin yapısında yer alır?",
+    "options": {
+      "A": "Kobalt",
+      "B": "Krom",
+      "C": "Bakır",
+      "D": "Demir",
+      "E": "Çinko"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Kobalt (DOĞRU):** Vitamin B12 (Kobalamin), merkezinde koordinasyon bağı ile **Kobalt ($Co^{3+}$)** atomu bulunduran tetrapirol yapılı korrin halkasına sahiptir.\n* **B) Krom (Yanlış):** İnsülin reseptör potansiyalizasyonunda (glukoz tolerans faktörü) görev alır.\n* **C) Bakır (Yanlış):** Sitokrom oksidaz, seruloplazmin, lizil oksidaz yapısındadır.\n* **D) Demir (Yanlış):** Hemoglobin, miyoglobin ve sitokromların merkezindedir.\n* **E) Çinko (Yanlış):** Karbonik anhidraz, alkol dehidrogenaz ve parmak motiflerinde bulunur.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "I. Homosistein $\nightarrow$ Metionin  \nII. Asetil-KoA $\nightarrow$ Malonil-KoA  \nIII. Metilmalonil-KoA $\nightarrow$ Süksinil-KoA  \nIV. Glutamat $\nightarrow$ $\\gamma$-karboksiglutamat  \n\nYukarıdaki reaksiyonlardan hangilerinde B12 vitamini koenzim olarak rol alır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\nİnsan vücudunda Vitamin B12'nin koenzim olarak görev aldığı **sadece iki temel enzimatik reaksiyon** vardır:\n* **Öncül I (DOĞRU):** Homosisteinden metionin sentezini katalizleyen **Metionin Sentaz (Homosistein metiltransferaz)** enzimi, koenzim olarak **Metilkobalamin (B12)** kullanır.\n* **Öncül II (YANLIŞ):** Asetil-KoA'dan malonil-KoA oluşumu yağ asidi sentezinin ilk basamağıdır ve **Biotin (B7)** gerektirir.\n* **Öncül III (DOĞRU):** Metilmalonil-KoA'nın süksinil-KoA'ya dönüşümünü sağlayan **Metilmalonil-KoA Mutaz** enzimi koenzim olarak **5'-Deoksiadenozilkobalamin (B12)** kullanır. Eksikliğinde idrarda metilmalonik asit birikir.\n* **Öncül IV (YANLIŞ):** Glutamatın $\\gamma$-karboksiglutamata dönüşümü **Vitamin K** bağımlı karboksilasyon reaksiyonudur.\n\nBu nedenle I ve III reaksiyonları B12 gerektirir (Cevap B).",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 Sonbahar TUS"
+  },
+  {
+    "question": "Homosisteinden metionin sentezi sırasında aşağıdakilerden hangisi koenzim olarak işlev görür?",
+    "options": {
+      "A": "Askorbik asit",
+      "B": "Tiamin pirofosfat",
+      "C": "Metilkobalamin",
+      "D": "Koenzim A",
+      "E": "NAD"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Metilkobalamin (DOĞRU):** Homosisteine N5-metil-THF'den metil grubunun aktarılarak metionin oluşturulması reaksiyonunu katalizleyen **Metionin Sentaz** enziminin metil taşıyıcı koenzimi **Metilkobalamin (Vitamin B12)**'dir.\n* **A) Askorbik asit (Yanlış):** Hidroksilasyon tepkimelerinin kofaktörüdür.\n* **B) Tiamin pirofosfat (Yanlış):** Oksidatif dekarboksilasyon koenzimidir.\n* **D) Koenzim A (Yanlış):** Açil grubu taşıyıcısıdır.\n* **E) NAD (Yanlış):** Oksidoreduksiyon elektron taşıyıcısıdır.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi B12 vitamininin koenzim formunu kullanır?",
+    "options": {
+      "A": "α-ketoglutarat dehidrogenaz",
+      "B": "Metilmalonil-KoA mutaz",
+      "C": "Dihidrofolat redüktaz",
+      "D": "Timidilat sentaz",
+      "E": "Serin hidroksimetiltransferaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) α-ketoglutarat dehidrogenaz (Yanlış):** B1, B2, B3, B5 ve Lipoat kullanır.\n* **B) Metilmalonil-KoA mutaz (DOĞRU):** Tek karbon sayılı yağ asitleri ve dallı zincirli aminoasit katabolizması ara ürünü olan Metilmalonil-KoA'yı Krebs döngüsü ara ürünü olan Süksinil-KoA'ya dönüştürür; koenzim olarak **Adenozilkobalamin (B12)** kullanır.\n* **C) Dihidrofolat redüktaz, D) Timidilat sentaz, E) Serin hidroksimetiltransferaz (Yanlış):** Folik asit (THF) metabolizması enzimleridir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi kobalamin (B12) eksikliğinde görülmesi beklenen laboratuvar bulgularından biridir?",
+    "options": {
+      "A": "Serum ferritin düzeyinde azalma",
+      "B": "Serum transferrin reseptörlerinde artma",
+      "C": "Serum metilmalonik asit düzeyinde artma",
+      "D": "Transferrin satürasyonunda azalma",
+      "E": "Plazma homosistein düzeyinde azalma"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Serum metilmalonik asit düzeyinde artma (DOĞRU):** B12 vitamini eksikliğinde Metilmalonil-KoA mutaz çalışamaz. Metilmalonil-KoA birikir ve kan/idrar **metilmalonik asit (MMA)** düzeyi artar. MMA artışı B12 eksikliğini Folat eksikliğinden ayıran en önemli spesifik parametredir (folat eksikliğinde MMA normaldir).\n* **A, B, D) Demir göstergeleri (Yanlış):** Demir eksikliği anemisi bulgularıdır.\n* **E) Plazma homosistein düzeyinde azalma (YANLIŞ):** B12 eksikliğinde Metionin sentaz da çalışamadığı için plazma homosistein düzeyi azalmaz, tam tersine **artar (hiperhomosisteinemi)**.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Hangisi, eritrositlerin olgunlaşmasında ve DNA sentezinde gereklidir?",
+    "options": {
+      "A": "B6 vitamini",
+      "B": "B12 vitamini",
+      "C": "C vitamini",
+      "D": "D vitamini",
+      "E": "E vitamini"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **B) B12 vitamini (Kobalamin) (DOĞRU):** B12 vitamini ve Folik asit, DNA sentezinde purin ve pirimidin (dTMP) basamakları için zorunludur. Eksikliklerinde kemik iliğinde erythroblast hücre bölünmesi duraklar ancak RNA/sitoplazma büyümesi devam eder. Sonuçta makrositer/megaloblastik anemi gelişir.\n* **A) B6 vitamini (Yanlış):** Heme sentezinde (ALA sentaz) gereklidir; eksikliğinde mikrositer sideroblastik anemi olur.\n* **C, D, E) (Yanlış):** Eritrosit nükleus DNA matürasyonu ile doğrudan ilgili değillerdir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "\"Folat tuzağı\" hipotezi aşağıdakilerden hangisinin eksikliği ile ilişkilidir?",
+    "options": {
+      "A": "Biotin",
+      "B": "Piridoksal fosfat",
+      "C": "Niasin",
+      "D": "Metilkobalamin",
+      "E": "Askorbik asit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **D) Metilkobalamin (B12) (DOĞRU):** Hücre içi folat moleküllerinin büyük kısmı $N^5$-metil-THF formundadır. bu formun tekrar serbest Tetrahidrofolat (THF)'a dönüştürülmesini sağlayan tek reaksiyon B12 bağımlı Metionin Sentaz tepkimesidir. B12 (Metilkobalamin) eksik olduğunda folat $N^5$-metil-THF formunda **hapsolur (Folat Tuzağı)** ve hücrede DNA sentezi için gereken diğer THF türevleri oluşturulamaz.\n* **A, B, C, E) (Yanlış):** Folat tuzağı mekanizmasında doğrudan rol almazlar.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 DUS"
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi, K vitamini bağımlı gama-karboksilasyona uğrar?",
+    "options": {
+      "A": "Glutamat",
+      "B": "Histidin",
+      "C": "Arjinin",
+      "D": "Alanin",
+      "E": "Glisin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Glutamat (DOĞRU):** Vitamin K, karaciğerde pıhtılaşma faktörlerinin (F2, F7, F9, F10, Protein C, Protein S) ve kemikte Osteoklasin proteininin yapısındaki **Glutamat (Glu)** kalıntılarına karaciğerde posttranslasyonel olarak bir $CO_2$ grubu ekleyerek **$\\gamma$-karboksiglutamat (Gla)** oluşturur. Gla grupları negatif yük kazanarak $Ca^{2+}$ iyonlarını bağlar.\n* **B) Histidin, C) Arjinin, D) Alanin, E) Glisin (Yanlış):** K vitamini bağımlı γ-karboksilasyona uğramazlar.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2013 Sonbahar TUS"
+  },
+  {
+    "question": "K vitaminini karaciğerde aşağıdaki pıhtılaşma faktörlerinden hangisinin sentezi için gerekli değildir?",
+    "options": {
+      "A": "Faktör II",
+      "B": "Faktör VII",
+      "C": "Faktör IX",
+      "D": "Faktör X",
+      "E": "Faktör XI"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **K Vitamini Bağımlı Pıhtılaşma Faktörleri:** **Faktör II (Protrombin), Faktör VII, Faktör IX, Faktör X** ile antikoagülan olan **Protein C ve Protein S**'dir.\n* **E) Faktör XI (DOĞRU CEVAP / YANLIŞ İFADE):** Faktör XI (Kallikrein sistemi ile ilişkili kontakt aktivasyon faktörü) K vitaminine bağımlı değildir. Eksikliğinde Hemofili C görülür.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 DUS"
+  },
+  {
+    "question": "Bazı proteinlerin yapısında yer alan glutamik asitin gama karbon atomu, posttranslasyonel modifikasyon ile karboksilasyona uğrar. Aşağıdakilerden hangisi gama-karboksilat grubu içermez?",
+    "options": {
+      "A": "Osteokalsin",
+      "B": "Protein S",
+      "C": "Faktör II",
+      "D": "Faktör X",
+      "E": "Fibrinojen"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Osteokalsin:** Kemikte K vitamini ile $\\gamma$-karboksillenen ve kalsiyum bağlayan proteindir.\n* **B) Protein S, C) Faktör II, D) Faktör X:** K vitamini bağımlı $\\gamma$-karboksiglutamat (Gla) içeren pıhtılaşma sistem proteinleridir.\n* **E) Fibrinojen (Faktör I) (DOĞRU CEVAP):** Fibrinojen karaciğerde sentezlenen büyük bir glikoproteindir; K vitamini bağımlı karboksilasyona uğramaz ve yapısında Gla kalıntıları barındırmaz.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi yağda çözünen ve koenzim fonksiyonuna sahip bir vitamindir?",
+    "options": {
+      "A": "A vitamini",
+      "B": "B12 vitamini",
+      "C": "D vitamini",
+      "D": "E vitamini",
+      "E": "K vitamini"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* Yağda çözünen vitaminler A, D, E ve K vitaminleridir.\n* **A, D vitaminleri:** Steroid/nükleer reseptörler üzerinden **hormon** benzeri etki gösterirler.\n* **E vitamini:** Antioksidan moleküldür, bilinen koenzim formu yoktur.\n* **E) K vitamini (DOĞRU):** Yağda çözünen vitaminler arasında **klasik koenzim fonksiyonuna sahip olan TEK vitamindir** ($\\gamma$-glutamil karboksilaz enziminin koenzimidir).\n* **B) B12 vitamini (Yanlış):** Koenzimdir ancak yağda değil suda çözünür.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Kemik dansitesinin korunmasında görev alan vitamin çifti aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "A vitamini - D vitamini",
+      "B": "A vitamini - K vitamini",
+      "C": "D vitamini - E vitamini",
+      "D": "D vitamini - K vitamini",
+      "E": "E vitamini - K vitamini"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **D) D vitamini - K vitamini (DOĞRU):** **D vitamini (Kalsitriol)** bağırsaklardan kalsiyum emilimini ve kemik mineralizasyonunu sağlar. **K vitamini** ise osteoblastlar tarafından salgılanan **Osteokalsin** proteinini $\\gamma$-karboksilasyon ile aktive ederek kalsiyumun kemik matriksine (hidroksiapatit) bağlanmasını ve çökelmesini sağlar. Bu iki vitamin kemik yoğunluğunun korunmasında sinerjistik çalışır.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Plazma koagülasyon sistemi proteinlerinden hangisi K vitamini bağımlı bir zimojen değildir?",
+    "options": {
+      "A": "Faktör II",
+      "B": "Faktör IX",
+      "C": "Faktör X",
+      "D": "Protein C",
+      "E": "Prekallikrein"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Faktör II, B) Faktör IX, C) Faktör X, D) Protein C:** Hepsi karaciğerde K vitamini aracılığıyla glutamat karboksilasyonuna uğrayan inaktif serin proteaz (zimojen) öncülleridir.\n* **E) Prekallikrein (DOĞRU CEVAP):** İçsel pıhtılaşma yolunun başında görev alan (Faktör XII ve Yüksek Molekül Ağırlıklı Kininojen ile etkileşen) bir proteaz zimojenidir; K vitaminine bağımlı değildir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 İlkbahar TUS"
+  },
+  {
+    "question": "Varfarin koagülasyon faktörlerinden hangisinde glutamatın karboksilasyonunu inhibe eder?",
+    "options": {
+      "A": "Faktör V",
+      "B": "Protrombin",
+      "C": "Faktör XI",
+      "D": "Doku faktörü",
+      "E": "Fibrinojen"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Varfarin (Koomarin derivative antikoagülan):** Karaciğerde inaktif K vitaminini aktif epoksit redüktaz ($VKORC1$) enzimi üzerinden indirgenmiş aktif $KH_2$ formuna dönüştüren enzimi inhibe eder. Böylece K vitamini bağımlı faktörler (F2, F7, F9, F10, Prot C, Prot S) sentezlenemez.\n* **B) Protrombin (Faktör II) (DOĞRU):** Protrombin K vitamini bağımlı ana faktörlerden biridir.\n* **A, C, D, E) (Yanlış):** Faktör V, Faktör XI, Doku Faktörü (F3) ve Fibrinojen (F1) K vitaminine bağımlı değildir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 İlkbahar TUS"
+  },
+  {
+    "question": "Deride D vitamini sentezinin öncül maddesi hangisidir?",
+    "options": {
+      "A": "24,25-dihidroksikolekalsiferol",
+      "B": "25-hidroksikolekalsiferol",
+      "C": "7-dehidrokolesterol",
+      "D": "1,25-dihidroksikalsitriol",
+      "E": "Ergokalsiferol"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) 7-dehidrokolesterol (DOĞRU):** Derinin epidermis (stratum basale/spinosum) tabakasında bulunan kolesterol sentez ara ürünüdür. Güneşten gelen ultraviyole B ($UV-B$, 290-315 nm) ışınlarının etkisiyle B halkası açılarak **Kolekalsiferol (Vitamin D3)** sentezlenir.\n* **A, B, D) (Yanlış):** Karaciğer ve böbrekteki hidroksilasyon basamakları sonucu oluşan metabolitlerdir.\n* **E) Ergokalsiferol (D2) (Yanlış):** Bitkisel ve mantar kaynaklı D vitamini formudur.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 Sonbahar TUS"
+  },
+  {
+    "question": "İnsan vücudunda biyolojik aktivite açısından en güçlü D vitamini metaboliti hangisidir?",
+    "options": {
+      "A": "25-hidroksikolekalsiferol",
+      "B": "25-hidroksiergokalsiferol",
+      "C": "24,25-dihidroksiergokalsiferol",
+      "D": "24,26-dihidroksikolekalsiferol",
+      "E": "1,25-dihidroksikolekalsiferol"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **E) 1,25-dihidroksikolekalsiferol (Kalsitriol) (DOĞRU):** Böbrek proksimal tübüllerinde **1-α-hidroksilaz** enzimi tarafından sentezlenen, reseptörlerine en yüksek afinite ile bağlanan, kalsiyum/fosfor emilimini sağlayan ve **en aktif/güçlü D vitamini hormonu** molekülüdür.\n* **A) 25-hidroksikolekalsiferol (Kalsidiol) (Yanlış):** Karaciğerde sentezlenir; kanda dolaşan majör depo/yarı ömrü en uzun D vitamini formudur ancak biyolojik aktivitesi Kalsitriol'e göre çok düşüktür.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin kalsitriol sentezinde görev alan 1-α-hidroksilaz enziminin aktivitesi üzerine direkt veya indirekt stimüle edici (artırıcı) etkisi yoktur?",
+    "options": {
+      "A": "Parathormon",
+      "B": "Hipokalsemi",
+      "C": "Kalsitonin",
+      "D": "Hipofosfatemi",
+      "E": "1,25 diOH-D3"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\nBöbrekteki **1-α-hidroksilaz** enzimi D vitamininin aktifleşmesini sağlar.\n* **Aktivatörleri:** Parathormon (PTH), Hipokalsemi (düşük kalsiyum PTH'yi uyarır) ve Hipofosfatemi (düşük kalsiyum/fosfat).\n* **İnhibitörleri:** FGF-23, yüksek kalsiyum, yüksek fosfat ve bizzat ürün olan 1,25-dihidroksikolekalsiferol (negatif feedback).\n* **C) Kalsitonin (DOĞRU CEVAP):** Tiroid C hücrelerinden yüksek kalsiyuma yanıt olarak salgılanır, kemik yıkımını baskılar ve kalsiyumu düşürür; 1-α-hidroksilazı uyararak D vitamini aktifleşmesini artırıcı bir role sahip değildir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2010 Sonbahar TUS"
+  },
+  {
+    "question": "Osteosit ve osteoblastlardan salgılanan, proksimal tübülde Na-fosfat kotransporterini ve 25(OH)D3 1α-hidroksilazı inhibe eden molekül hangisidir?",
+    "options": {
+      "A": "FGF-23",
+      "B": "TNF-α",
+      "C": "RANK-ligand",
+      "D": "Osteopontin",
+      "E": "Osteoprotegerin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) FGF-23 (Fibroblast Growth Factor 23) (DOĞRU):** Kemikte osteositlerden salgılanan fosfatürik hormondur. Böbrekte NPT2 fosfat taşıyıcısını inhibe ederek idrarla fosfat atılımını artırır ve **1-α-hidroksilaz enzimini inhibe ederek** aktif D vitamini ($1,25-(OH)_2D_3$) düzeyini düşürür.\n* **B) TNF-α:** İnflamatuvar sitokindir.\n* **C) RANK-L:** Osteoklast aktivatörüdür.\n* **D) Osteopontin:** Kemik matriks proteinidir.\n* **E) Osteoprotegerin (OPG):** RANKL'a bağlanarak osteoklast yapımını baskılayan yalancı reseptördür.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "NADP koenziminin yapısına katılan vitamin hangisidir?",
+    "options": {
+      "A": "Tiamin",
+      "B": "Riboflavin",
+      "C": "Niasin",
+      "D": "Pantotenik asit",
+      "E": "Piridoksin"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Niasin (Vitamin B3 / Nikotinik asit / Nikotinamid) (DOĞRU):** Hücrede **$NAD^+$ (Nikotinamid Adenin Dinükleotid)** ve **$NADP^+$ (Nikotinamid Adenin Dinükleotid Fosfat)** koenzimlerinin yapısını oluşturur. Redoks tepkimelerinde 2 elektron ve 1 proton ($H^-$ hidrit iyonu) taşırlar.\n* **A) Tiamin (B1):** TPP kofaktörüdür.\n* **B) Riboflavin (B2):** FMN ve FAD kofaktörüdür.\n* **D) Pantotenik asit (B5):** Koenzim A yapısındadır.\n* **E) Piridoksin (B6):** PLP kofaktörüdür.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2015 İlkbahar TUS"
+  },
+  {
+    "question": "Hidrit iyonunu ($H^-$: 2 elektron + 1 proton) bağlayarak transferini sağlayan enzim sınıfı / koenzim ailesi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İzomerazlar",
+      "B": "Transferazlar",
+      "C": "Oksidoredüktazlar",
+      "D": "Liyazlar",
+      "E": "Hidrolazlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Oksidoredüktazlar (DOĞRU):** Hidrit iyonu ($H^-$) aktarımı (2 elektron ve 1 proton transferi) **Niasin (B3)** türevleri olan $NAD^+$ ve $NADP^+$ koenzimlerini kullanan **Oksidoredüktaz (Dehidrogenaz)** sınıfı enzimler tarafından katalizlenir.\n* **A) İzomerazlar:** Optik veya yapısal izomerizasyon yaparlar.\n* **B) Transferazlar:** Grupları (metil, fosfat vb.) aktarırlar.\n* **D) Liyazlar:** Su katılmaksızın bağ kırarlar/çift bağ oluştururlar.\n* **E) Hidrolazlar:** Su katarak bağ bağlarını yararlar.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Görme işlevinde aşağıdaki moleküllerden hangisi rol almaz?",
+    "options": {
+      "A": "Transducin",
+      "B": "All-trans-retinal",
+      "C": "cGMP",
+      "D": "11-cis-retinal",
+      "E": "Gustducin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Görme Sinyal İletim Yolu (Fototransdüksiyon):** Karanlıkta rod hücrelerinde $cGMP$ yüksektir, $Na^+$ kanalları açıktır. Işık geldiğinde **11-cis-retinal**, **all-trans-retinal**'e izomerize olur ve Rodopsin aktive olur. Aktif Rodopsin $G_t$ proteini olan **Transducin**'i uyarır. Transducin Fosfodiesterazı (PDE) aktive eder, $cGMP$ parçalanır, $Na^+$ kanalları kapanır ve hiperpolarizasyon ile görme sinyali iletilir.\n* **E) Gustducin (DOĞRU CEVAP / YANLIŞ MOLEKÜL):** Gustducin, dilde **tat duyusunun** (acı, tatlı, umami) iletiminden sorumlu $G$ proteinidir; görme fototransdüksiyonunda rol almaz.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Hangisi açil grubu taşıyıcısıdır?",
+    "options": {
+      "A": "Koenzim A",
+      "B": "Biotin",
+      "C": "Piridoksal fosfat",
+      "D": "Tetrahidrofolat",
+      "E": "Tiamin pirofosfat"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) Koenzim A (CoA-SH) (DOĞRU):** Yapısında **Vitamin B5 (Pantotenik asit)** barındırır. Reaktif reaktif tiyol ($-SH$) grubu üzerinden yağ asitlerini ve karboksilli asitleri tiyoester bağı ile bağlayarak **açil gruplarının (Asetil-KoA, Süksinil-KoA vb.)** taşıyıcısı olarak görev yapar.\n* **B) Biotin (B7):** $CO_2$ (Karboksil) taşır.\n* **C) Piridoksal fosfat (B6):** Amino grubu ($-NH_2$) taşır.\n* **D) Tetrahidrofolat (B9):** Tek karbon birimleri (metil, formil) taşır.\n* **E) Tiamin pirofosfat (B1):** Aldehit ve α-keto grupları taşır.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2014 İlkbahar DUS"
+  },
+  {
+    "question": "Aşağıdaki koenzim ve yapısında bulunan kimyasal grup eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Flavin adenin dinükleotid - Metil grubu",
+      "B": "Lipoik asit - Aldehit grubu",
+      "C": "Nikotinamid adenin dinükleotid - Metenil grubu",
+      "D": "Koenzim A - Açil grubu",
+      "E": "Biotin - Hidrit iyonu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) FAD:** $2e^- + 2H^+$ (Hidrojen atomları) taşır.\n* **B) Lipoik asit:** Oksidatif dekarboksilasyonda açil ve elektron taşır.\n* **C) NAD:** Hidrit iyonu ($H^-$) taşır.\n* **D) Koenzim A - Açil grubu (DOĞRU EŞLEŞME):** Koenzim A reaktif $-SH$ ucu ile açil gruplarını bağlar ve taşır.\n* **E) Biotin:** $CO_2$ (Karboksil grubu) taşır.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki enzim - koenzim eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Sistationin sentaz - B6 vitamini",
+      "B": "Histidin dekarboksilaz - B1 vitamini",
+      "C": "Metilmalonil-KoA mutaz - B12 vitamini",
+      "D": "Homogentisat oksidaz - C vitamini",
+      "E": "Asetil-KoA karboksilaz - Biotin"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Sistationin sentaz - B6 vitamini (Doğru):** Homosisteinden sistationin oluşumunda B6 (PLP) kullanılır.\n* **B) Histidin dekarboksilaz - B1 vitamini (YANLIŞ EŞLEŞME / DOĞRU CEVAP):** Amino asitlerin dekarboksilasyonu (Histidinden Histamin, Glutamattan GABA sentezi) B1 değil, **Vitamin B6 (Piridoksal Fosfat)** koenzimliği ile gerçekleşir.\n* **C) Metilmalonil-KoA mutaz - B12 vitamini (Doğru):** B12 kullanır.\n* **D) Homogentisat oksidaz - C vitamini (Doğru):** Tirozin yıkımında C vitamini gereklidir.\n* **E) Asetil-KoA karboksilaz - Biotin (Doğru):** Karboksilasyonda B7 kullanılır.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "I. Aspartat aminotransferaz  \nII. Glikojen fosforilaz  \nIII. δ-aminolevülinat sentaz  \n\nYukarıdaki enzimlerden hangileri piridoksal fosfatı (PLP / Vitamin B6) koenzim olarak kullanır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Öncül I (DOĞRU):** **Aspartat aminotransferaz (AST)** dâhil tüm transaminazlar koenzim olarak PLP kullanır.\n* **Öncül II (DOĞRU):** **Glikojen fosforilaz** kas ve karaciğerde glikojen yıkımının hız kısıtlayıcı enzimidir ve yapısında kovalent bağlı koenzim olarak **PLP (B6)** bulundurur (Vücuttaki B6 vitamininin %70-80'i kas glikojen fosforilazında depolanır).\n* **Öncül III (DOĞRU):** **δ-aminolevülinat sentaz (ALA sentaz)** hem/porfirin sentezinin hız kısıtlayıcı mitokondriyal enzimidir; Glisin ve Süksinil-KoA'yı birleştirirken koenzim olarak **PLP (B6)** kullanır. Eksikliğinde Sideroblastik Anemi gelişir.\n\nBu nedenle I, II ve III enzimlerinin tamamı PLP kullanır (Cevap E).",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 İlkbahar TUS"
+  },
+  {
+    "question": "Malabsorpsiyon sendromu veya uzun süreli antibiyotik kullanımı durumlarında, kanamanın süresinin uzamasının hangisinin eksikliğine bağlı ortaya çıkması en olasıdır?",
+    "options": {
+      "A": "A vitamini",
+      "B": "C vitamini",
+      "C": "E vitamini",
+      "D": "K vitamini",
+      "E": "D vitamini"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **D) K vitamini (DOĞRU):** K vitamini yağda çözünen bir vitamindir ve bağırsak bakterileri (K2 - Menakinon) tarafından da üretilir. Malabsorpsiyonda yağ emilimi bozulduğu için, geniş spektrumlu antibiyotik kullanımında ise bağırsak florası yok olduğu için K vitamini eksikliği gelişir. K vitamini eksikliği sonucu pıhtılaşma faktörleri (2, 7, 9, 10) sentezlenemez ve diyatez/kanama eğilimi (PT/aPTT uzaması) görülür.\n* **A, B, C, E) (Yanlış):** Pıhtılaşma faktörleri karboksilasyon eksikliğine bağlı akut kanama uzamasını doğrudan açıklamazlar.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2017 DUS"
+  },
+  {
+    "question": "Hangisinin eksikliği, düşük doğum ağırlıklı prematüre bebeklerde eritrosit membranında lipid peroksidasyonunu artırarak hemolitik anemiye yol açması en olasıdır?",
+    "options": {
+      "A": "A vitamini",
+      "B": "D vitamini",
+      "C": "E vitamini",
+      "D": "K vitamini",
+      "E": "C vitamini"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) E vitamini (Tokoferol) (DOĞRU):** Hücre zarlarında çok doymamış yağ asitlerini (PUFA) serbest radikallere karşı koruyan en güçlü yağda çözünen antioksidandır. Prematüre bebeklerde plasentadan geçiş az olduğu için depolanma düşüktür. E vitamini eksikliğinde eritrosit zarları lipid peroksidasyonuna hassas hale gelir, hücreler patlar ve **prematüre hemolitik anemisi** ile spinoserebellar ataksi gelişir.\n* **A, B, D, E) (Yanlış):** Prematüre bebekte lipid peroksidasyonuna bağlı hemolitik anemi tablosunu tanımlamazlar.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Koenzim-reaksiyon tipi-klinik tablo eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Tiamin - Hidroksilasyon - Pellagra",
+      "B": "Biotin - Açil grubu transferi - Nöral tüp defekti",
+      "C": "Folik asit - Aldehit transferi - Beriberi",
+      "D": "Riboflavin - Deaminasyon - Depresyon",
+      "E": "Kobalamin - Metil grubu transferi - Pernisiyöz anemi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A) Tiamin:** Dekarboksilasyon yapar, eksikliğinde Beriberi/Wernicke görülür (Pellagra Niasin eksikliğidir).\n* **B) Biotin:** Karboksilasyon yapar. Nöral tüp defekti Folat eksikliğinde olur.\n* **C) Folik asit:** Tek karbon transferi yapar.\n* **D) Riboflavin:** Redoks (elektron transferi) yapar.\n* **E) Kobalamin - Metil grubu transferi - Pernisiyöz anemi (DOĞRU):** Kobalamin (B12) Metionin sentaz reaksiyonunda metil grubu transferi yapar. Otoimmün parietal hücre/İntrinsik faktör hasarında emilemez ve **Pernisiyöz Anemi** gelişir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2024 Sonbahar TUS"
+  },
+  {
+    "question": "B12 vitamini ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Üç meten köprüsü ve bir tek bağ ile birleşen dört pirol halkasından oluşan korrin halka sistemini içerir.",
+      "B": "Yapısında bulunan kobalt atomu en fazla dörde kadar bağ yapabilir.",
+      "C": "İntrinsik faktör-kobalamin kompleksi, ileumdaki reseptörüne bağlanır.",
+      "D": "Transkobalamin II-B12 kompleksi, reseptör aracılı endositozla hücre içine alınır.",
+      "E": "Pankreatik yetmezlikte ve atrofik gastritte B12 vitamini eksikliği gelişebilir."
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) (Doğru):** B12'nin yapısındaki korrin halkası 4 pirol halkasından oluşur ve porfirinden farkı iki pirolün doğrudan tek bağ ile bağlı olmasıdır.\n* **B) Yapısında bulunan kobalt atomu en fazla 4 bağ yapabilir (YANLIŞ İFADE / DOĞRU CEVAP):** B12 kompleksindeki **Kobalt ($Co^{3+}$) atomu 6 adede kadar koordinasyon bağı (heksa-koordine)** yapabilir (4'ü korrin halkası azotlarıyla, 1'i dimethylbenzimidazole bazıyla, 1'i reaktif üst grupla [metil, deoksiadenozil, CN veya OH]).\n* **C) (Doğru):** İntrinsik faktör-B12 kompleksi terminal ileumdaki **Cubilin** reseptöründen emilir.\n* **D) (Doğru):** Dolaşımda B12'yi dokulara taşıyan aktif protein **Transkobalamin II**'dir.\n* **E) (Doğru):** Pankreatik enzimler R-proteini sindirip B12'yi serbestleştirir; atrofik gastrit ise IF salgısını bozarak B12 emilimini engeller.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2021 Sonbahar TUS"
+  },
+  {
+    "question": "Hangisi kalsitriolün ($1,25-(OH)_2D_3$) hedef dokular üzerindeki etkilerinden biridir?",
+    "options": {
+      "A": "Kemikten kalsiyum mobilizasyonunu yavaşlatmak",
+      "B": "Bağırsakta fosfat emilimini azaltmak",
+      "C": "Bağırsakta kalsiyum emilimini artırmak",
+      "D": "Böbrekte kalsiyum geri emilimini azaltmak",
+      "E": "Böbrekte fosfat geri emilimini azaltmak"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Kalsitriolün ($1,25-(OH)_2D_3$) Temel Fizyolojik Etkileri:**\n  * **İnce bağırsak (Ana etki):** Kalbindin proteinini artırarak hem **kalsiyum** hem de **fosfat emilimini belirgin şekilde artırır**.\n  * **Böbrek:** Distal tübüllerde kalsiyum ve fosfatın geri emilimini destekler.\n  * **Kemik:** Fizyolojik dozda kemik mineralizasyonunu uyarırken, yüksek dozda osteoklastları uyararak kalsiyum mobilizasyonunu sağlar.\n* **C) Bağırsakta kalsiyum emilimini artırmak (DOĞRU):** Kalsitriolün en belirgin fizyolojik görevidir.\n* **A, B, D, E) (Yanlış):** Kalsitriolün etkilerinin tersi ifadelerdir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2018 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, koenzim/kofaktör olarak askorbik asit (C vitamini) kullanmaz?",
+    "options": {
+      "A": "Tirozin hidroksilaz",
+      "B": "Prolil hidroksilaz",
+      "C": "Lizil hidroksilaz",
+      "D": "Dopamin β-hidroksilaz",
+      "E": "7α-hidroksilaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **Askorbik asit (C Vitamini) Kullanan Hidroksilazlar:**\n  * **Prolil hidroksilaz ve Lizil hidroksilaz:** Kollajen sentezinde (Demir ile birlikte).\n  * **Dopamin β-hidroksilaz:** Katekolamin sentezinde dopaminden noradrenalin oluşumunda (Bakır ile birlikte).\n  * **7α-hidroksilaz:** Karaciğerde kolesterolden safra asidi sentezinin hız kısıtlayıcı basamağında.\n  * **Homogentisat oksidaz:** Tirozin katabolizmasında.\n* **A) Tirozin hidroksilaz (DOĞRU CEVAP / C VİTAMİNİ KULLANMAZ):** Katekolamin biyosentezinin hız kısıtlayıcı ilk basamağı olan tirozinden DOPA oluşumunu katalizler. Bu enzim C vitamini değil, koenzim olarak **Tetrahidrobiopterin ($THB / BH_4$)** ve kofaktör olarak $Fe^{2+}$ kullanır.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2022 İlkbahar TUS"
+  },
+  {
+    "question": "Hangisi, pantotenik asitin (B5 vitamini) yapısal bileşeninde bulunmakla birlikte vücut proteinlerinin yapısında yer almaz?",
+    "options": {
+      "A": "β-alanin",
+      "B": "Betain",
+      "C": "Ornitin",
+      "D": "Dimetil glisin",
+      "E": "Taurin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**\n* **A) β-alanin (DOĞRU):** **Pantotenik asit (Vitamin B5)**, pantoik asit ile **β-alanin** moleküllerinin birleşmesiyle oluşur. β-alanin bir α-aminoasit olmadığı için **proteinlerin yapısında yer almaz (non-protein aminoasit)**.\n* **B) Betain:** Kolin katabolizması ara ürünüdür.\n* **C) Ornitin:** Üre döngüsü ara ürünüdür, protein yapısında bulunmaz fakat B5 yapısında da yoktur.\n* **D) Dimetil glisin:** Kolin yıkım ürünüdür.\n* **E) Taurin:** Sistein türevi safra tuzu bileşenidir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 Sonbahar TUS"
+  },
+  {
+    "question": "Aşağıdaki amino asitlerden hangisi Koenzim A sentezi için gereklidir?",
+    "options": {
+      "A": "Serin",
+      "B": "Glisin",
+      "C": "Sistein",
+      "D": "Treonin",
+      "E": "Triptofan"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **C) Sistein (DOĞRU):** Koenzim A biyosentezinde **Pantotenik asit (B5)** molekülüne ATP harcanarak 4'-fosfopantotenat oluşturulur ve ardından **Sistein** aminoasidi eklenerek 4'-fosfopantotenoil-sistein yapısı elde edilir. Koenzim A'nın reaktif tiyol ($-SH$) grubu bu sistein molekülünden gelir.\n* **A, B, D, E) (Yanlış):** Koenzim A molekül yapısına doğrudan katılmazlar.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2016 İlkbahar TUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin yapısında adenozin bulunur?",
+    "options": {
+      "A": "Piridoksal fosfat",
+      "B": "Koenzim A",
+      "C": "Askorbat",
+      "D": "Biotin",
+      "E": "Lipoik asit"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **B) Koenzim A (DOĞRU):** Koenzim A'nın kimyasal yapısı: **3'-fosfo-AMP (Adenozin monofosfat)** + Pantotenik asit + β-merkaptoetanolamin (sistein türevi)'den oluşur. Dolayısıyla yapısında **Adenozin (Adenin + Riboz)** nüvesi taşır.\n* **A) Piridoksal fosfat (B6):** Piridin türevidir.\n* **C) Askorbat (C vit):** Lakton halkalı şeker türevidir.\n* **D) Biotin (B7):** İmidazol ve tiyofen halkalı üril türevidir.\n* **E) Lipoik asit:** Okfanoik asit türevi disülfit halkasıdır.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2025 Sonbahar TUS"
+  },
+  {
+    "question": "I. Koenzim A  \nII. Koenzim Q  \nIII. FAD  \nIV. Aktif metionin (SAM)  \n\nYukarıdakilerden hangilerinin yapısında adenin bazı bulunur?",
+    "options": {
+      "A": "I ve III",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "I, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **Öncül I (DOĞRU):** **Koenzim A** yapısında 3'-fosfo-ADP (adenin + riboz + fosfatlar) barındırır.\n* **Öncül II (YANLIŞ):** **Koenzim Q (Ubikinon)** izopren türevi kinondur; yapısında nükleotid veya adenin bazı yoktur.\n* **Öncül III (DOĞRU):** **FAD (Flavin Adenin Dinükleotid)** yapısında Flavin mononükleotid + **AMP (Adenin nükleotid)** bulundurur.\n* **Öncül IV (DOĞRU):** **SAM (S-Adenozilmetionin)** ATP ile metioninin birleşmesiyle oluşur ve yapısında **Adenozin (Adenin)** taşır.\n\nBu nedenle I, III ve IV yapısında adenin bazı içerir (Cevap E).",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2020 Sonbahar TUS"
+  },
+  {
+    "question": "I. Tetrahidrofolat  \nII. Biotin  \nIII. Tiamin pirofosfat  \n\nHangileri tek karbon atomu içeren grupların taşınmasında rol oynar?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**\n* **Öncül I (DOĞRU):** **Tetrahidrofolat (THF)** farklı yükseltgenme basamaklarındaki tek karbonlu grupları (metil $-CH_3$, metilen $-CH_2-$, metenil $=CH-$, formil $-CHO$, formimino) taşır.\n* **Öncül II (DOĞRU):** **Biotin (B7)** karboksilaz enzimlerinin koenzimidir ve tek karbonlu grup olan **karbondioksit ($CO_2$ / karboksil $-COOH$)** molekülünü taşır.\n* **Öncül III (YANLIŞ):** **Tiamin pirofosfat (TPP - B1)** iki karbonlu α-ketoasit ve aldehit birimlerini taşır (tek karbon taşıyıcısı değildir).\n\nBu nedenle I ve II doğru yanıt olup C seçeneğidir.",
+    "lesson": "Biyokimya",
+    "unit": "7 VİTAMİNLER",
+    "quality_flag": "cikmis",
+    "flag_reason": "2019 İlkbahar TUS"
+  }
+]

@@ -1,0 +1,956 @@
+[
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 111,
+    "question": "Parotis bezinde en sık görülen, mikroskobik olarak epiteliyal, miyoepiteliyal elemanlar ile kıkırdakmsı/miksoid stroma içeren benign tükürük bezi tümörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Warthin tümörü",
+      "B": "Pleomorfik adenom",
+      "C": "Mukoepidermoid karsinom",
+      "D": "Adenoid kistik karsinom",
+      "E": "Asinik hücreli karsinom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Pleomorfik adenom (Benign mürekkep tümör / Mikst tümör), tükürük bezlerinin en sık görülen neoplazmıdır (%60-70 parotiste). Hem epiteliyal hem miyoepiteliyal hücreler içerir; stroması chondroid (kıkırdaksı), miksoid veya hyalinize karakterdedir.\n**Çeldiriciler:**\n- A) Warthin tümörü (Papiller kistadenoma lenfomatozum), lenfoid stroma ve çift katlı onkositik epitel ile karakterizedir, sıklıkla sigara içen erkeklerde görülür.\n- C) Mukoepidermoid karsinom, tükürük bezlerinin en sık MALİGN tümörüdür; mukus salgılayan ve epidermoid hücreler içerir.\n- D) Adenoid kistik karsinom, kribriform ('isviçre peyniri') görünümü ve belirgin perinöral invazyonu ile tanınan malign tümördür.\n- E) Asinik hücreli karsinom, seröz asinik diferansiyasyon gösteren malign bir tümördür.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 112,
+    "question": "Sigara kullanımı ile güçlü ilişkisi olan, histopatolojisinde çift katlı onkositik epitel ile döşeli kistik boşluklar ve germinal merkezli yoğun lenfoid stroma izlenen tükürük bezi tümörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pleomorfik adenom",
+      "B": "Warthin tümörü (Papiller Kistadenoma Lenfomatozum)",
+      "C": "Onkositom",
+      "D": "Mukoepidermoid karsinom",
+      "E": "Kanaliküler adenom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Warthin tümörü hemen her zaman parotis bezinin alt kutbunda yerleşir. Erkeklerde ve sigara içenlerde belirgin şekilde sık görülür. Histolojisinde papiller projeksiyonlar gösteren çift katlı eozinofilik (onkositik) epitel ve altında germinal merkezli dense lenfoid stroma patognomoniktir.\n**Çeldiriciler:**\n- A) Pleomorfik adenom sigara ile ilişkili değildir ve lenfoid stroma içermez.\n- C) Onkositom sadece onkositik hücrelerden oluşur, papiller kistik yapı ve lenfoid stroma göstermez.\n- D) Mukoepidermoid karsinom malign bir tümördür, mukus ve yassı epitel bileşenleri içerir.\n- E) Kanaliküler adenom özellikle üst dudakta minor tükürük bezlerinden gelişen şerit tarzı epitel içeren benign tümördür.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 113,
+    "question": "Çocuklarda ve erişkinlerde tükürük bezlerinin en sık görülen MALİGN tümörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mukoepidermoid karsinom",
+      "B": "Adenoid kistik karsinom",
+      "C": "Malign pleomorfik adenom",
+      "D": "Asinik hücreli karsinom",
+      "E": "Yassı hücreli karsinom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Mukoepidermoid karsinom, hem erişkinlerde hem de çocukluk çağında en sık izlenen primer malign tükürük bezi tümörüdür. Parotiste ve minor tükürük bezlerinde sık görülür; mukus salgılayan hücreler, skuamöz (epidermoid) hücreler ve ara (intermediate) hücrelerin birleşiminden oluşur.\n**Çeldiriciler:**\n- B) Adenoid kistik karsinom en sık görülen malign tümör değil, en belirgin perinöral invazyon gösteren malign tümördür.\n- C) Malign pleomorfik adenom (Karsinoma ex pleomorfik adenom) uzun süreli pleomorfik adenom zemininde gelişir, daha nadirdir.\n- D) Asinik hücreli karsinom çocuklarda ikinci en sık malign tümör olup genel insidansı mukoepidermoid karsinomdan düşüktür.\n- E) Yassı hücreli karsinom tükürük bezinde primer olarak oldukça nadir görülür.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 114,
+    "question": "Perinöral tropizm (sinir kılıfları boyunca yayılım) gösterme eğilimi son derece yüksek olan ve histolojik olarak 'İsviçre peyniri' (kribriform) paterni ile karakterize olan malign tükürük bezi tümörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mukoepidermoid karsinom",
+      "B": "Adenoid kistik karsinom",
+      "C": "Pleomorfik adenom",
+      "D": "Miyoepitelyoma",
+      "E": "Onkositom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Adenoid kistik karsinom, minör tükürük bezleri ve submandibüler bezde sık izlenir. Histolojik olarak kribriform (delikli/İsviçre peyniri) görünüm oluşturur. En önemli klinik ve patolojik özelliği erken dönemden itibaren perinöral invazyon yapması ve ağrıya yol açmasıdır.\n**Çeldiriciler:**\n- A) Mukoepidermoid karsinom kribriform patern veya belirgin tropizm göstermez.\n- C) Pleomorfik adenom benigndir, perinöral invazyon göstermez.\n- D) Miyoepitelyoma tamamen miyoepitel hücrelerinden oluşan benign bir neoplazmdır.\n- E) Onkositom eozinofilik granüler sitoplazmalı hücrelerden oluşan benign tümördür.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 115,
+    "question": "Alt dudak mukozasında en sık görülen, duktus travması veya tıkanması sonucu mukus salgısının bağ dokusu içine sızması ve çevre granülasyon dokusu ile çevrelenmesiyle oluşan yalancı (psödo) kist aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mukosel (Mukus ekstravazasyon kisti)",
+      "B": "Ranula",
+      "C": "Dermoid kist",
+      "D": "Epidermoid kist",
+      "E": "Nasolabial kist"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Mukosel (Mukus ekstravazasyon fenomeni), duktus zedelenmesi (örneğin dudağı ısırma) sonucu mukusun stroma içine sızmasıyla oluşur. Gerçek bir epitel döşemesi olmadığı için 'psödo kist' olarak sınıflandırılır. Etrafı granülasyon dokusu ve köpüksü histiositler ile çevrilidir.\n**Çeldiriciler:**\n- B) Ranula, ağız tabanındaki sublingual bez duktusunun tıkanması veya ekstravazasyonu ile oluşan büyük mukosel formudur.\n- C) Dermoid kist gerçek epitel ve deri ekleri (kıl folikülü, yağ bezi) içeren gelişimsel kisttir.\n- D) Epidermoid kist çok katlı yassı epitel ile döşeli, keratin içeren gerçek kisttir.\n- E) Nasolabial kist üst dudak-burun kanadı bölgesinde gelişen non-odontojenik kisttir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 116,
+    "question": "Ağız içerisinde en sık izlenen, vitalitesini kaybetmiş (nekrotik) bir dişin apeksinde Malassez epitel artıklarının proliferasyonu ile gelişen inflamatuar odontojenik kist aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Radiküler (Periapikal) Kist",
+      "B": "Dentijeröz Kist",
+      "C": "Odontojenik Keratokist (OKK)",
+      "D": "Gelişimsel Lateral Periodontal Kist",
+      "E": "Kalsifiye Odontojenik Kist"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Radiküler (Periapikal) kist, en sık görülen odontojenik kisttir. Çürük veya travma sonucu pulpa nekroza gider; periapikal bölgedeki Malassez epitel artıkları inflamatuar sitokinlerin uyarısıyla prolife olarak kist lümenini döşer.\n**Çeldiriciler:**\n- B) Dentijeröz kist gömülü bir dişin kurronunu çevreleyen gelişimsel kisttir, vital olmayan dişle ilişkili değildir.\n- C) Odontojenik keratokist parakeratinize epitel döşemeli, agresif nüks gösteren gelişimsel kisttir.\n- D) Lateral periodontal kist vital dişlerin lateral kök yüzeyinde gelişimsel olarak oluşur.\n- E) Kalsifiye odontojenik kist (Gorlin kisti) hayalet hücreler (ghost cells) içeren gelişimsel/neoplastik kisttir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 117,
+    "question": "Gömülü bir dişin (en sık 3. molar) sürülmemiş kurronunu servikal birleşme yerinden çevreleyerek gelişen odontojenik kist türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Radiküler kist",
+      "B": "Dentijeröz (Foliküler) kist",
+      "C": "Kanaliküler kist",
+      "D": "Nasopalatin kanal kisti",
+      "E": "Primordial kist"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Dentijeröz kist, sürülmemiş veya gömülü kalmış bir dişin kurronunu çevreleyen indirgenmiş mine epitelinin (reduced enamel epithelium) sıvı biriktirmesi sonucu oluşan en sık ikinci odontojenik kisttir.\n**Çeldiriciler:**\n- A) Radiküler kist kök apeksinde nekrotik diş varlığında gelişir.\n- C) Kanaliküler yapı tükürük bezi tümörlerinde görülür.\n- D) Nasopalatin kanal kisti sert damakta ön orta hatta gelişen non-odontojenik gelişimsel kisttir.\n- E) Primordial kist diş oluşmadan dental lamina yerinde gelişen kisttir (günümüzde OKK kabul edilir).\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 118,
+    "question": "Histopatolojisinde 6-8 hücre kalınlığında parakeratinize çok katlı yassı epitel, palizatik dizilim gösteren hiperkromatik bazal tabaka, ondüle (dalgallı) epitel yüzeyi ve lümende kornet benzeri keratin birikimi gösteren, PTC1 gen mutasyonu ile ilişkili agresif kist aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Radiküler kist",
+      "B": "Odontojenik Keratokist (OKK)",
+      "C": "Dentijeröz kist",
+      "D": "Glandüler Odontojenik Kist",
+      "E": "Aanevrizmal kemik kisti"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Odontojenik Keratokist (OKK), lokal agresif davranışı ve yüksek nüks oranı ile karakterizedir. PTCH1 gen mutasyonu (Sonic Hedgehog yolağı) görülür. Histolojisinde üniform 6-8 sıra parakeratinize epitel, bazal epitel hücrelerinde palizatik (çit tarzı) hiperkromatik çekirdek dizilimi patognomoniktir.\n**Çeldiriciler:**\n- A) Radiküler kist non-keratinize arkad tarzı epitel proliferasyonu ve inflamasyon içerir.\n- C) Dentijeröz kist 2-4 sıra non-keratinize kübik/yassı epitel ile döşelidir.\n- D) Glandüler odontojenik kist mukus salgılayan hücreler ve duktus benzeri yapılar içerir.\n- E) Anevrizmal kemik kisti epitel döşemesi içermeyen kistik kan boşlukları içeren psödokisttir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 119,
+    "question": "Gorlin-Goltz sendromu (Nevoid Bazal Hücreli Karsinom Sendromu) tanısı alan bir hastada çenelerde multisentrik olarak gelişmesi beklenen temel odontojenik patoloji aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çok sayıda radiküler kist",
+      "B": "Çok sayıda Odontojenik Keratokist (OKK)",
+      "C": "Ameloblastom",
+      "D": "Odontom",
+      "E": "Sementoblastom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Gorlin-Goltz sendromu (PTCH1 mutasyonu); çok sayıda Odontojenik Keratokist (OKK), ciltte çok sayıda nevoid bazal hücreli karsinom (BCC), kot anomalileri (bifid kot), falks serebri kalsifikasyonu ve palmar/plantar çukurcuklar (pits) ile karakterizedir.\n**Çeldiriciler:**\n- A) Radiküler kistler inflamatuar kökenlidir, genetik Gorlin-Goltz sendromu ile ilişkisizdir.\n- C) Ameloblastom neoplazmdır, Gorlin-Goltz sendromunun temel tanı kriteri OKK'dir.\n- D) Odontom hamartomatöz lezyondur, Gardner sendromu ile ilişkilidir.\n- E) Sementoblastom benign neoplazm olup sendromik ilişkisi yoktur.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 120,
+    "question": "En sık izlenen benign odontojenik neoplazm olan, lokal invaziv ve ekspansif büyüme gösteren, mikroskobik olarak stellat retikulum benzeri gevşek merkezli epitel adaları ve çevrede palizatik kolonar ameloblast benzeri hücreler içeren tümör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ameloblastom",
+      "B": "Odontojenik Miksom",
+      "C": "Pindborg Tümörü (CEOT)",
+      "D": "Ameloblastik Fibrom",
+      "E": "Sementoblastom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Ameloblastom, en sık görülen gerçek odontojenik epiteliyal tümördür. Yavaş fakat lokal invazif büyür. Histolojisinde follicular veya plexiform patern izlenir; periferal hücrelerde ters polarite gösteren palizatik nükleuslu ameloblast benzeri kolonar epitel ve merkezde stellat retikulum benzeri hücresel ağ yapısı karakteristik özelliktir.\n**Çeldiriciler:**\n- B) Odontojenik miksom mezenkimal kaynaklıdır, iğsi/yıldızsı hücreler içeren miksoid stroma ile karakterizedir.\n- C) Pindborg tümörü amiloid birikimi ve Liesegang halkaları içeren kalsifiye epiteliyal odontojenik tümördür.\n- D) Ameloblastik fibrom mikst (epiteliyal+mezenkimal) tümördür, daha genç yaşta görülür.\n- E) Sementoblastom diş köküne yapışık radyoopak kalsifiye kütle oluşturan mezenkimal tümördür.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 121,
+    "question": "Histopatolojik incelemesinde polhedral yapıda odontojenik epitel adaları, hücre içi ve dışı amiloid benzeri protein çökeltileri ve Liesegang kalsifikasyon halkaları saptanan tümör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ameloblastom",
+      "B": "Kalsifiye Epiteliyal Odontojenik Tümör (Pindborg Tümörü)",
+      "C": "Adenomatoid Odontojenik Tümör (AOT)",
+      "D": "Kalsifiye Odontojenik Kist",
+      "E": "Odontojenik Fibrom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kalsifiye Epiteliyal Odontojenik Tümör (Pindborg Tümörü); eosinofilik amiloid benzeri materyal birikimi (Congo red ile pozitif röfle veren) ve bu amiloid üzerinde konsantrik kalsifikasyon odakları olan 'Liesegang halkaları' ile karakterize oldukça spesifik bir neoplazmdır.\n**Çeldiriciler:**\n- A) Ameloblastom amiloid çökeltisi veya Liesegang kalsifikasyon halkaları içermez.\n- C) Adenomatoid Odontojenik Tümör (AOT) duktus benzeri yapısal tübüller ve rozet formasyonları içerir.\n- D) Kalsifiye odontojenik kist hayalet hücreler (ghost cells) içermesi ile ayrılır.\n- E) Odontojenik fibrom diş kökenli mezenkimal bağ dokusu ve inaktif epitel adaları içerir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 122,
+    "question": "Genellikle genç kadınlarda, maksilla kanin bölgesinde gömülü diş ile ilişkili olarak gelişen, histolojisinde kanal benzeri (duktal/rozet) yapılar ve psödoduktal epitel halkaları içeren benign odontojenik tümör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Adenomatoid Odontojenik Tümör (AOT)",
+      "B": "Ameloblastom",
+      "C": "Odontojenik Miksom",
+      "D": "Sementoblastom",
+      "E": "Squamöz Odontojenik Tümör"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Adenomatoid Odontojenik Tümör (AOT), sıklıkla genç hastalarda (2. dekad), kadınlarda ve ön maksilla kanin bölgesinde görülür. Histolojik olarak duktus veya tübül benzeri yapılar kuran ameloblast benzeri epitel hücre dizilimi patognomoniktir.\n**Çeldiriciler:**\n- B) Ameloblastom maksillada değil en sık mandibula korpus/ramus birleşiminde görülür ve belirgin invazif davranır.\n- C) Odontojenik miksom kemikte sabun köpüğü görünümü veren mezenkimal tümördür.\n- D) Sementoblastom mandibulada molar/premolar köklerinde kalsifiye kütle oluşturur.\n- E) Squamöz odontojenik tümör diferansiye yassı epitel adaları içeren nadir neoplazmdır.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 123,
+    "question": "Diş dokularının (mine, dentin, sement, pulpa) tüm bileşenlerini karmaşık, düzensiz bir kitle halinde içeren ve radyografide radyoopak kalsifiye kitle olarak izlenen en sık odontojenik hamartomatöz lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Komposed (Bileşik) Odontom",
+      "B": "Kompleks Odontom",
+      "C": "Ameloblastik Fibro-Odontom",
+      "D": "Sementoblastom",
+      "E": "Osteom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Odontomlar gerçek tümörden ziyade hamartom olarak kabul edilir. Kompleks odontomda mine, dentin ve sement dokuları rastgele, düzensiz ve kütlesel bir yığın oluşturur. Bileşik (komposed) odontomda ise küçük dişkaya benzer (odontoid) yapılar ayrıştırılabilir.\n**Çeldiriciler:**\n- A) Bileşik (komposed) odontomda dental dokular anatomik diş formunu taklit eden çok sayıda küçük dişkık (odontoid) şeklinde organize olmuştur.\n- C) Ameloblastik fibro-odontom neoplastik epiteliyal ve mezenkimal doku ile birlikte odontom bileşeni içerir.\n- D) Sementoblastom diş köküne yapışık sement dokusu neoplazmıdır.\n- E) Osteom sadece mature lameller kemik içeren benign kemik tümörüdür.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 124,
+    "question": "Çenelerde radyolojik olarak 'sabun köpüğü' (soap bubble) veya 'bal peteği' (honeycomb) görünümü veren, histolojik olarak bol jelatinöz miksoid stroma içinde iğsi ve yıldızsı fibroblast benzeri hücreler içeren lokal invaziv mezenkimal odontojenik tümör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Odontojenik Miksom",
+      "B": "Ameloblastom",
+      "C": "Santral Dev Hücreli Granülom",
+      "D": "Anevrizmal Kemik Kisti",
+      "E": "Osteosarkom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Odontojenik miksom, dental papilla veya folikül kökenli benign fakat kapsülsüz ve infiltre edici mezenkimal tümördür. Miksoid stroma içinde sentezlenen hyalüronik asit zenginliği nedeniyle makroskopik olarak jölemsi kıvamdadır. Radyografide karakteristik sabun köpüğü / bal peteği görünümü verir.\n**Çeldiriciler:**\n- B) Ameloblastom epiteliyal kaynaklıdır ve multiloküler olsa da stroma miksoid değildir.\n- C) Santral dev hücreli granülom osteoklast benzeri çok çekirdekli dev hücreler mezenkimal stromal hücreler ve vasküler stroma içerir.\n- D) Anevrizmal kemik kisti geniş kan dolu kistik boşluklar içerir.\n- E) Osteosarkom neoplastik osteoid doku yapımı ile seyreden malign kemik tümörüdür.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 125,
+    "question": "Sadece premolar veya molar dişlerin kök ucuyla doğrudan kontinü (bağlantılı), radyoopak kütle oluşturan ve etrafında ince radyolüsent kapsül çizgisi bulunan gerçek sement tümörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sementoblastom (Gerçek Sementom)",
+      "B": "Periapikal Semento-Osseöz Displazi",
+      "C": "Florid Semento-Osseöz Displazi",
+      "D": "Ossifiye Fibrom",
+      "E": "Gigantiform Sementom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sementoblastom (Gerçek sementom), diş kökü (özellikle mandibular 1. molar) ile doğrudan füzyon gösteren tek gerçek odontojenik sement neoplazmıdır. Histolojisinde mineralize sement benzeri doku ve çevresinde sementoblastlar izlenir. Diş vitaldir ancak lezyon köke yapışıktır.\n**Çeldiriciler:**\n- B) Periapikal semento-osseöz displazi alt ön mandibular dişlerin apikalinde gelişen non-neoplastik reaktif displazidir, diş köküne kaynamaz.\n- C) Florid semento-osseöz displazi çenelerin birden fazla kadranında multifokal gelişen displazidir.\n- D) Ossifiye fibrom neoplastik trabeküler kemik ve küre şeklinde sementoid cisimler içerir, diş kökünden bağımsız kapsüllü büyür.\n- E) Gigantiform sementom otozomal dominant geçişli yaygın kalsifiye kitlelerle karakterize durumdur.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 126,
+    "question": "Kemikte osteoklastik yıkım ve osteoblastik yapım döngülerinin bozulduğu, histolojisinde çini deseni (mozaik / çin yazısı) lamel çizgileri izlenen ve kafa kemiklerinde genişleme, işitme kaybı ve serum alkalen fosfataz (ALP) yüksekliği ile seyreden hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Osteoporoz",
+      "B": "Paget Hastalığı (Osteitis Deformans)",
+      "C": "Fibroz Displazi",
+      "D": "Osteopetroz",
+      "E": "Osteomalazi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Paget hastalığı (Osteitis deformans); osteoklastik yıkım, karmaşık yapım ve son aşamada skleroz fazları ile karakterize osteositik remodelleme bozukluğudur. Düzensiz kemik yapımı sonucu histolojisinde belirgin mozaik (cement lines) deseni oluşur. Serum ALP yüksek, kalsiyum ve fosfor genelde normaldir.\n**Çeldiriciler:**\n- A) Osteoporoz kemik kütlesinin azalmasıdır, mozaik kemik deseni oluşturmaz.\n- C) Fibroz displazi kemik iliğinin fibröz bağ dokusu ile yer değiştirmesidir (Çin harfi trabeküller izlenir ancak mozaik lamel çizgileri yoktur).\n- D) Osteopetroz (mermer kemik) osteoklast disfonksiyonu sonucu aşırı kemik sertleşmesi ve medüller kanal kaybıdır.\n- E) Osteomalazi D vitamini eksikliğinde mineralize olmamış osteoid doku birikimidir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 127,
+    "question": "GNAS1 genindeki mutasyona bağlı olarak gelişen, kemikte matürasyona uğramamış düzensiz 'Çin harfi' (Chinese-character) şekilli dokuma kemik trabekülleri ve avasküler fibröz stroma ile karakterize fibro-osseöz lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fibroz Displazi",
+      "B": "Ossifiye Fibrom",
+      "C": "Paget hastalığı",
+      "D": "Santral Dev Hücreli Granülom",
+      "E": "Osteom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Fibroz displazi, GNAS geni (Gs alpha proteini) postzigotik mutasyonu sonucu gelişir. Normal kemik yapısının yerini avasküler hücresel fibröz stroma ve osteoblastik dizilimi olmayan (osteoblastic rimming içermeyen) kıvrımlı woven (dokuma) kemik trabekülleri alır ('Çin harfi' görünümü).\n**Çeldiriciler:**\n- B) Ossifiye fibrom etrafında osteoblastik rimming gösteren lameller kemik trabekülleri ve sementoid cisimler içeren kapsüllü gerçek bir neoplazmdır.\n- C) Paget hastalığında lamel çizgileri mozaik deseni verir ve osteoblastik rimming bulunabilir.\n- D) Santral dev hücreli granülom çok çekirdekli osteoklast benzeri dev hücreler içerir.\n- E) Osteom matür lameller kemik adalarından oluşur.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 128,
+    "question": "Polyostotik fibroz displazi, cildin sütlü kahve (café-au-lait) lekeleri ve erken puberte dahil endokrinopatiler üçlemesi ile karakterize sendrom aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Gardner Sendromu",
+      "B": "McCune-Albright Sendromu",
+      "C": "Gorlin-Goltz Sendromu",
+      "D": "Peutz-Jeghers Sendromu",
+      "E": "Albright Kalıtsal Osteodistrofisi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** McCune-Albright sendromu, GNAS geninde erken embriyonik mutasyon sonucu oluşur. Üç klasiği vardır: 1) Poliostotik fibroz displazi, 2) Düzensiz sınırlı (Maine kıyısı benzeri) café-au-lait cilt lekeleri, 3) Otonom hiperfonksiyone endokrinopatiler (en sık erken puberte precox).\n**Çeldiriciler:**\n- A) Gardner sendromu kolon polypleri, osteomlar ve epidermoid kistlerle karakterizedir.\n- C) Gorlin-Goltz sendromu OKK, bazal hücreli karsinom ve bifid kot ile seyreder.\n- D) Peutz-Jeghers sendromu gastrointestinal hamartomatöz polipler ve perioral hiperpigmentasyon gösterir.\n- E) Albright kalıtsal osteodistrofisi pseudohipoparatiroidizm ile ilgilidir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 129,
+    "question": "Çenelerde çocukluk çağında bilateral, simetrik ekspansiyon oluşturan, tomografide ve histolojisinde vasküler stroma içinde osteoklast benzeri dev hücreler ile damar çevresinde perivasküler kollajen kılıflar izlenen otozomal dominant hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Cherubism",
+      "B": "Santral Dev Hücreli Granülom",
+      "C": "Paget Hastalığı",
+      "D": "Anevrizmal Kemik Kisti",
+      "E": "Hiperparatiroidizm (Brown tümörü)"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Cherubism (Melek yüzü hastalığı), SH3BP2 gen mutasyonu sonucu gelişen otozomal dominant bir kemik displazisidir. Çocuklukta mandibulada ve maksillada bilateral, simetrik ağrısız şişlikler yapar. Histolojisinde osteoklastik dev hücreler ve damarlar etrafında eosinofilik kollajen manşetleri (perivasküler kollajen kılıf) patognomoniktir.\n**Çeldiriciler:**\n- B) Santral dev hücreli granülom simetrik ve bilateral değildir, tek taraflı lezyondur ve perivasküler kollajen kılıflar içermez.\n- C) Paget hastalığı yaşlılarda görülür.\n- D) Anevrizmal kemik kisti kan dolu kistik boşluklar içerir.\n- E) Brown tümörü parathormon yüksekliği ile ilişkilidir, sistemik biyokimyasal bozukluk vardır.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 130,
+    "question": "Primer veya sekonder hiperparatiroidizme ikincil olarak kemikte artmış osteoklastik aktivite ve mikroskobik kanama odakları sonucu gelişen 'Brown tümörü' lezyonu ile histopatolojik olarak ayırt edilemeyen oral/çene lezyonu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Santral Dev Hücreli Granülom",
+      "B": "Fibroz displazi",
+      "C": "Ameloblastom",
+      "D": "Osteosarkom",
+      "E": "Ossifiye fibrom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Hiperparatiroidizmin Brown tümörü ile çenelerin Santral Dev Hücreli Granülomu (SDHG) mikroskobik olarak İDEŞTİR (her ikisi de osteoklastik dev hücreler, iğsi stroma ve hemosiderin yüklü makrofajlar içerir). Ayırıcı tanı serum kalsiyum, fosfor ve Parathormon (PTH) düzeylerinin ölçülmesiyle yapılır.\n**Çeldiriciler:**\n- B) Fibroz displazi dev hücreler içermez, Çin harfi trabeküller içerir.\n- C) Ameloblastom epiteliyal tümördür.\n- D) Osteosarkom malign osteoid yapımı gösterir.\n- E) Ossifiye fibrom kapsüllü fibro-osseöz lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 138,
+    "question": "Ağız mukozasında klinik olarak tanımlanan premalign (potansiyel malign) lezyonlar arasında histopatolojik olarak epitelial displazi ve MALİGNİTEYE DÖNÜŞÜM RİSKİ EN YÜKSEK olan lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Eritroplaki",
+      "B": "Homojen Lökoplaki",
+      "C": "Friction (İritasyon) Keratozu",
+      "D": "Beyaz Süngerimsi Nevüs",
+      "E": "Oral Liken Planus (Retiküler Tip)"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Eritroplaki, ağız mukozasında başka hiçbir klinik tanıya uymayan kırmızı kadifemsi plaktır. Biyopsilerinde %80-90 oranında ağır epitelial displazi, karsinoma in situ veya invaziv skuamöz hücreli karsinom saptanır. Malign dönüşüm riski lökoplakiden kat kat yüksektir.\n**Çeldiriciler:**\n- B) Homojen lökoplakide malign dönüşüm riski %3-5 civarındadır.\n- C) İritasyon keratozu kronik sürtünmeye bağlı hiperkeratozdur, displazi içermez.\n- D) Beyaz süngerimsi nevüs otozomal dominant keratin gen mutasyonudur, benign karakterdedir.\n- E) Retiküler liken planus düşük malignite riskine sahiptir, eritematöz/erosif tipi kadar riskli değildir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 139,
+    "question": "Oral yassı hücreli karsinom (OSCC) etiyolojisinde yer alan insan papilloma virüsü (HPV) tip 16 ve 18, neoplastik dönüşümü hangi viral onkoproteinler aracılığıyla gerçekleştirir?",
+    "options": {
+      "A": "E6 (p53 inhibisyonu) ve E7 (Rb inhibisyonu)",
+      "B": "E1 ve E2 proteinleri",
+      "C": "L1 ve L2 kapsit proteinleri",
+      "D": "EBNA-1 ve LMP-1",
+      "E": "Tax ve HBZ proteinleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Yüksek riskli HPV tipleri (HPV 16, 18), konak genomuna entegre olarak E6 ve E7 viral onkoproteinlerini aşırı üretir. E6 proteini p53'ü ubiquitinasyona uğratarak yıkar; E7 proteini ise Retinoblastoma (Rb) proteinini inaktive ederek p16 (INK4a) birikimine ve kontrolsüz S-fazına geçişe yol açar.\n**Çeldiriciler:**\n- B) E1 ve E2 HPV gen ekspresyonunu ve replikasyonunu kontrol eden düzenleyici proteinlerdir.\n- C) L1 ve L2 HPV'nin yapısal kapsit proteinleridir (aşılarda L1 kullanılır).\n- D) EBNA-1 ve LMP-1 Epstein-Barr Virüsü (EBV) onkoproteinleridir.\n- E) Tax ve HBZ HTLV-1 virüsü proteinleridir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 140,
+    "question": "Epstein-Barr Virüsü (EBV) enfeksiyonu ile patogenetik olarak doğrudan ilişkili olan ve t(8;14) translokasyonu sonucu MYC onkogen aktivasyonu gösteren lenfoma tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Burkitt Lenfoma",
+      "B": "Foliküler Lenfoma",
+      "C": "Mantle Hücreli Lenfoma",
+      "D": "Marjinal Bölge Lenfoması",
+      "E": "Diffüz Büyük B Hücreli Lenfoma"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Burkitt lenfoma, EBV ile güçlü ilişkisi olan (özellikle endemik Afrika tipinde %100) yüksek dereceli B hücreli neoplazmdır. t(8;14) translokasyonu ile c-MYC geni immünoglobulin ağır zincir lokusuna taşınır ve aşırı eksprese olur. Histolojisinde makrofajların oluşturduğu 'yıldızlı gece' (starry sky) manzarası patognomoniktir.\n**Çeldiriciler:**\n- B) Foliküler lenfomada t(14;18) translokasyonu ve BCL2 ekspresyonu vardır.\n- C) Mantle hücreli lenfomada t(11;14) translokasyonu ve Siklin D1 (CCND1) ekspresyonu vardır.\n- D) Marjinal bölge lenfoması (MALT) kronik inflamasyon/Sjögren zemininde gelişir.\n- E) Diffüz büyük B hücreli lenfoma en sık non-Hodgkin lenfomadır, c-MYC spesifik değildir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 141,
+    "question": "AIDS hastalarında kapiller endotel hücrelerinin proliferasyonu ile seyreden, insan herpes virüsü tip 8 (HHV-8) enfeksiyonu ile ilişkili, mikroskobik olarak iğsi endotel hücreleri ve slit-like kan boşlukları içeren malign vascular neoplazm aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kaposi Sarkomu",
+      "B": "Kapiller Hemanjiom",
+      "C": "Glomangiom",
+      "D": "Anjiyosarkom",
+      "E": "Hemanjiyoepitelyoma"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kaposi sarkomu, HHV-8 (Kaposi sarkomu ilişkili herpesvirüs - KSHV) tarafından indüklenen endotel kaynaklı malign bir neoplazmdır. AIDS ve immünsüpresif hastalarda ağızda (özellikle sert damakta) mor/kırmızı nodüller yapar. Histolojisinde iğsi (spindle) endotelial hücreler, yarık benzeri (slit-like) damarsal boşluklar ve ekstravaze eritrositler karakteristik özelliktir.\n**Çeldiriciler:**\n- B) Kapiller hemanjiom benign damar çoğalmasıdır, HHV-8 ile ilişkisizdir.\n- C) Glomangiom glomus hücrelerinden oluşan ağrılı benign vasküler lezyondur.\n- D) Anjiyosarkom yaşlılarda baş-boyun derisinde gelişen HHV-8 ile ilişkisi olmayan agresif vasküler malignitedir.\n- E) Hemanjiyoepitelyoma orta dereceli vasküler tümördür.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 145,
+    "question": "Arteriyel veya kardiyak odacık içi trombüslerin histolojik kesitlerinde izlenen, alternatif eritrosit ve fibrin/trombosit katmanlarının oluşturduğu mikroskobik çizgilere ne ad verilir?",
+    "options": {
+      "A": "Zahn Çizgileri (Lines of Zahn)",
+      "B": "Liesegang Halkaları",
+      "C": "Civatte Cisimcikleri",
+      "D": "Aschoff Cisimcikleri",
+      "E": "Mallory-Denk Cisimcikleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Zahn çizgileri (Lines of Zahn), canlı bir organizmada akan kan içinde gelişen intravital trombüslerin (arteriyel veya kardiyak) patognomonik mikroskobik özelliğidir. Açık renkli fibrin-trombosit katmanları ile koyu renkli eritrosit katmanlarının ardışık çizgilenmesidir (postmortem pıhtıda görülmez).\n**Çeldiriciler:**\n- B) Liesegang halkaları Pindborg tümöründeki konsantrik kalsifikasyonlardır.\n- C) Civatte cisimcikleri liken planustaki apoptotik epitel kalıntılarıdır.\n- D) Aschoff cisimcikleri Akut Romatizmal Ateş miyokarditindeki granülomatöz yapılardır.\n- E) Mallory-Denk cisimcikleri alkolik karaciğer hastalığında sitokeratin birikintileridir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 146,
+    "question": "Uzun kemik kırığı veya geniş künt travma geçiren bir hastada 24-72 saat sonra aniden gelişen solunum yetmezliği, konfüzyon ve peteşiyal cilt döküntüleri tablosu aşağıdaki emboli türlerinden hangisini düşündürür?",
+    "options": {
+      "A": "Yağ Embolisi Sendromu",
+      "B": "Hava Embolisi",
+      "C": "Amniyon Sıvısı Embolisi",
+      "D": "Tromboemboli",
+      "E": "Aterom Embolisi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Yağ embolisi sendromu, femur veya pelvis gibi uzun kemik kırıklarından sonra kemik iliğindeki yağ mikrodamarlara geçerek dolaşıma katıldığında oluşur. Üçlü bulgusu: 1) Nörolojik bozukluklar (konfüzyon), 2) Solunum sıkıntısı (trombosit/yağ mikroembolileri akciğerde), 3) Göğüs ve boyunda peteşiyal döküntülerdir.\n**Çeldiriciler:**\n- B) Hava embolisi derin deniz dalgıçlarında veya juguler ven travmasında gaz kabarcığı birikmesidir.\n- C) Amniyon sıvısı embolisi doğum sırasında mekanik komplikasyondur, DIC ile seyreder.\n- D) Tromboemboli derin ven trombozundan pulmoner artere pıhtı atmasıdır, peteşi yapmaz.\n- E) Aterom embolisi aterosklotik plak rüptürü sonrası kolesterol kristallerinin tıkanmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 147,
+    "question": "Organ infarktlarında dokunun kanlanma ve mimari yapısına göre 'Kırmızı (Hemorajik) İnfarkt' gelişmesi beklenen organ aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Akciğer",
+      "B": "Kalp",
+      "C": "Böbrek",
+      "D": "Dalak",
+      "E": "Beyin (İskemik evre)"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kırmızı (hemorajik) infarkt; çift kanlanması olan (pulmoner ve bronşiyal arter ile akciğer; mezenterik kanlanma ile barsak), gevşek dokulu veya venöz tıkanıklık sonucu infarkt gelişen organlarda izlenir. Kalp, böbrek ve dalak ise 'Beyaz (Anemik) İnfarkt' geliştirir (tek uç arter kanlanması).\n**Çeldiriciler:**\n- B) Kalp tek uç arter (koroner) kanlanması nedeniyle anemik (beyaz) infarkt oluşturur.\n- C) Böbrek renal arter tıkanmasında anemik (beyaz) infarkt oluşturur.\n- D) Dalak anemik infarkt oluşturur.\n- E) Beyin iskemik infarktı likefaksiyon nekrozu ile beyaz/soluk renklidir (hemorajik dönüşüm hariç).\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 148,
+    "question": "Gram negatif bakteriyel enfeksiyonlara bağlı gelişen Septik Şok tablosunda, endotel hücrelerini aktive ederek yaygın damar içi pıhtılaşmaya (DİK) ve hipotansiyona yol açan ana bakteriyel toksin bileşeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lipopolisakkarit (LPS / Endotoksin)",
+      "B": "Peptidoglikan",
+      "C": "Eksotoksin A",
+      "D": "Teikoik asit",
+      "E": "Enterotoksin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Septik şokun ana nedeni Gram negatif bakterilerin hücre duvarında bulunan Lipopolisakkarit (LPS / Endotoksin) yapısıdır. LPS, CD14 ve TLR-4 reseptörlerine bağlanarak makrofajlardan aşırı TNF-α, IL-1 ve IL-6 salınımına yol açar. Bu da sistemik vazodilatasyon, endotel hasarı ve DİK (DIC) ile sonuçlanır.\n**Çeldiriciler:**\n- B) Peptidoglikan hücre duvarı bileşenidir, endotoksin kadar güçlü sistemik şok indüklemez.\n- C) Eksotoksin A Pseudomonas tarafından salgılanan protein sentez inhibitörüdür.\n- D) Teikoik asit Gram pozitif bakteri duvarındadır.\n- E) Enterotoksin gastrointestinal semptom yapar.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 149,
+    "question": "Hodgkin Lenfoma tanısı koyduran, çift çekirdekli veya belirgin eozinofilik nükleolus içeren 'baykuş gözü' (owl-eye) görünümlü patognomonik dev hücre aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Reed-Sternberg (R-S) Hücresi",
+      "B": "Langhans Dev Hücre",
+      "C": "Touton Dev Hücre",
+      "D": "Aschoff Hücre",
+      "E": "Tzank Hücre"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Reed-Sternberg (R-S) hücresi, Hodgkin Lenfomanın tanısal neoplastik hücresidir. B lenfosit orijinlidir. Çift nükleuslu, dev eozinofilik nükleoluslu olup 'baykuş gözü' görünümü sunar. İmmünohistokimyasal olarak CD30(+) ve CD15(+) ifade eder, CD45(-)'dir.\n**Çeldiriciler:**\n- B) Langhans dev hücresi tüberküloz granülomunda at nalı çekirdekli histiositik dev hücredir.\n- C) Touton dev hücresi ksantomlarda görülen çember çekirdekli yağ yüklü dev hücredir.\n- D) Aschoff hücresi romatizmal ateşte görülen Anitschkow hücrelerinin birleşimidir.\n- E) Tzank hücresi pemfigus vulgariste akantolitik epitel hücresidir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 150,
+    "question": "Plazma hücrelerinin malign neoplazmı olan Çoklu Miyelom (Multiple Myeloma) hastalığının karakteristik klinik ve lab bulgularını özetleyen 'CRAB' kısaltmasındaki 'C' harfi hangi patolojiyi temsil eder?",
+    "options": {
+      "A": "Hiperkalsemi (Hypercalcemia)",
+      "B": "Karsinom (Carcinoma)",
+      "C": "Katarakt (Cataract)",
+      "D": "Kardiyomiyopati (Cardiomyopathy)",
+      "E": "Siroz (Cirrhosis)"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Multiple Myeloma klasiği CRAB: C: HyperCalcemia (Hiperkalsemi - osteoklastik kemik yıkımı nedeniyle), R: Renal insufficiency (Böbrek yetmezliği - Bence-Jones silendir nefropatisi), A: Anemia (Anemi - kemik iliği tutulumu), B: Bone lesions (Kemikte litik delinme odakları).\n**Çeldiriciler:**\n- B) Carcinoma epiteliyal malignitedir, miyelom plazma hücresidir.\n- C) Katarakt göz hastalığıdır.\n- D) Kardiyomiyopati miyelom klasiği değildir (amiloidoz hariç).\n- E) Siroz karaciğer hastalığıdır.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 313,
+    "question": "Odontojenik kistler gelişimsel ve inflamatuar olarak sınıflandırılır.\n\nAşağıdaki odontojenik kistlerden hangisi inflamatuar kökenli olup canlılığını yitirmiş (devital) bir dişin apeksi ile ilişkilidir?",
+    "options": {
+      "A": "Dentijeneröz kist",
+      "B": "Radiküler (Periapikal) kist",
+      "C": "Odontojenik keratokist",
+      "D": "Lateral periodontal kist",
+      "E": "Glandüler odontojenik kist"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Radiküler (periapikal) kist, en sık görülen inflamatuar odontojenik kisttir. Çürük veya travma sonucu pulpa nekrozu (devital diş) gelişmesi ve Malassez artıklarının inflamatuar stimülasyon ile proliferasyonu sonucu oluşur.\n**Çeldiriciler:**\n- A) Dentijeneröz kist: Gelişimsel kisttir; gömülü bir dişin kronunu çevreleyen indirgenmiş mine epitelinden kaynaklanır.\n- C) Odontojenik keratokist: Gelişimsel kökenlidir, agresif klinik seyir ve yüksek nüks gösterir; diş devitalitesine bağlı oluşmaz.\n- D) Lateral periodontal kist: Gelişimsel odontojenik kisttir; vital dişlerin lateral kök yüzeyinde yerleşir.\n- E) Glandüler odontojenik kist: Gelişimsel olup müsin üreten epitel elemanları barındırır.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 314,
+    "question": "Tümör baskılayıcı genler (Tumor Suppressor Genes), hücresel proliferasyonu frenleyen ve DNA hasarında hücre siklusunu durduran proteinleri kodlar.\n\nAşağıdaki genlerden hangisi \"Genomun Muhafızı\" (Guardian of the Genome) olarak bilinir ve G1/S kontrol noktasında hücresel arrest veya apoptozu indükler?",
+    "options": {
+      "A": "TP53",
+      "B": "RB1",
+      "C": "BRCA1",
+      "D": "APC",
+      "E": "WT1"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** TP53 geni tarafından kodlanan p53 proteini, DNA hasarı algılandığında p21 üzerinden hücre siklusunu G1/S evresinde durdurarak DNA tamirine olanak sağlar; tamir edilemeyen durumlarda ise BAX gibi pro-apoptotik genleri aktifleştirerek apoptozu indükler. Bu işlevinden dolayı \"Genomun Muhafızı\" adı verilir.\n**Çeldiriciler:**\n- B) RB1: Retinoblastom geni olup E2F transkripsiyon faktörünü bağlayarak G1/S geçişini denetler ancak genel genom muhafızı olarak adlandırılmaz.\n- C) BRCA1: Çift zincir DNA kırıklarının homologous recombination ile tamirinde rol oynar (Meme/Over kanseri riski).\n- D) APC: Wnt sinyal yolunda beta-katenin yıkımını sağlayarak kolon karsinogenezini engeller.\n- E) WT1: Wilms tümörü baskılayıcı geni olup renal gelişimde rol oynar.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "04-dus_patoloji_sorular_301_315.md",
+    "q_num": 315,
+    "question": "Şok (dolaşım kolapsı), doku perfüzyonunun hücresel metabolik gereksinimleri karşılayamayacak düzeyde azalması durumudur.\n\nAşağıdaki şok tipleri ve etyopatogenetik mekanizma eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Kardiyojenik şok - Miyokard enfarktüsüne bağlı pompa yetmezliği",
+      "B": "Hipovolemik şok - Ağır kanama veya sıvı kaybı sonucu intravascular hacim azalması",
+      "C": "Septik şok - Gram negatif bakteriyel endotoksinlerin yol açtığı sistemik vazodilatasyon ve sitokin fırtınası",
+      "D": "Nörojenik şok - Anestezi veya omurilik yaralanmasında sempatik tonus kaybı ve vasküler genişleme",
+      "E": "Anafilaktik şok - Masif sol venöz kapak darlığına bağlı mekanik obstrüksiyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Anafilaktik şok, IgE aracılı Tip I hipersensitivite reaksiyonunda mast hücrelerinden salınan histamin gibi mediyatörlerin yol açtığı sistemik vazodilatasyon ve kapiller geçirgenlik artışıdır. Sol kapak darlığı obstrüktif/kardiyojenik mekanizmaya girer.\n**Çeldiriciler:**\n- A) Kardiyojenik şok miyokardiyal yetmezlikten kaynaklanır (Doğru eşleştirme).\n- B) Hipovolemik şok plazma/kan hacim kaybından doğar (Doğru eşleştirme).\n- C) Septik şok lipopolisakkarit (LPS) ve sitokin indüklü sistemik endotel hasarı ve şok ile seyreder (Doğru eşleştirme).\n- D) Nörojenik şok sempatik uyarının kaybı ve periferik birikim ile oluşur (Doğru eşleştirme).\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 69,
+    "question": "Parotis bölgesinde yavaş büyüyen kitle nedeniyle ameliyat edilen hastanın histolojisinde miksoid stroma içinde epitelyal ve miyoepitelyal elemanlar izleniyor. En olası tanı nedir?",
+    "options": {
+      "A": "Adenoid kistik karsinom",
+      "B": "Mukoepidermoid karsinom",
+      "C": "Oksifilik adenom",
+      "D": "Pleomorfik adenom",
+      "E": "Warthin tümörü"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Pleomorfik adenom (Benign mikst tümör), tükürük bezlerinde en sık görülen tümör olup epitelyal kanallar ile miksoid/kondroid stroma elemanlarının birlikteliği ile karakterizedir.\n**Çeldiriciler:**\n- **A)** Adenoid kistik karsinom cribriform yapı gösteren ağrılı malign tümördür.\n- **B)** Mukoepidermoid karsinom müsin üreten hücreler içerir.\n- **C)** Oksifilik adenom onkositik benign lezyondur.\n- **E)** Warthin tümörü lenfoid stroma ve onkositik epitel içerir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 78,
+    "question": "Yaşlı erkek hastada parotiste çift sıralı onkositik epitel ve yoğun lenfoid stroma içeren kistik tümör hangisidir?",
+    "options": {
+      "A": "Adenoid kistik karsinom",
+      "B": "Warthin tümörü",
+      "C": "Pleomorfik adenom",
+      "D": "Duktal papillom",
+      "E": "Mukoepidermoid karsinom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Warthin tümörü (Kistadenoma lenfomatozum), çift sıralı eosinofilik onkositik epitel ve lenfoid germinal merkez stroma barındıran benign tümördür.\n**Çeldiriciler:**\n- **A)** Adenoid kistik karsinom cribriform malign neoplazmdır.\n- **C)** Pleomorfik adenom mikst epitelyal/mezenkimal yapıdadır.\n- **D)** Duktal papillom duktus içi papiller yapılanmadır.\n- **E)** Mukoepidermoid karsinom müsin üreten epidermal neoplazmdır.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 87,
+    "question": "Parotiste kistik yapılar oluşturan, germinal merkezli lenfoid stroma içeren Warthin tümörü için aşağıdakilerden hangisi doğrudur?",
+    "options": {
+      "A": "En sık görülen tükürük bezi tümörüdür.",
+      "B": "Sjögren sendromu ile ilişkilidir.",
+      "C": "Erken dönemde servikal lenf nodu metastazı yapar.",
+      "D": "Tümörün neoplastik komponenti epitelyal hücrelerdir.",
+      "E": "Tümörlerin neredeyse tamamı multifokaldır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Warthin tümörünün neoplastik bileşeni çift sıralı onkositik epiteli oluşturan kısımdır; lenfoid stroma reaktiftir.\n**Çeldiriciler:**\n- **A)** En sık görülen tümör Pleomorfik Adenomdur.\n- **B)** Sjögren sendromu ile ilişkili olan MALT lenfomadır.\n- **C)** Warthin tamamen benign bir neoplazmdır, metastaz yapmaz.\n- **E)** Multifokal/bilateral olabilir fakat olguların çoğunluğu soliterdir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 90,
+    "question": "Parotiste düzgün sınırlı, kapsüllü, mitotik aktivite içermeyen benign epitelyal tümör genel olarak nasıl adlandırılır?",
+    "options": {
+      "A": "Polip",
+      "B": "Fibrom",
+      "C": "Adenom",
+      "D": "Teratom",
+      "E": "Hamartom"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Glandüler epitelden köken alan benign neoplazmlara 'Adenom' adı verilir (Örn: Pleomorfik adenom).\n**Çeldiriciler:**\n- **A)** Polip mukozal yüzeyden dışarı büyüyen makroskobik tanımdır.\n- **B)** Fibrom bağ dokusu mezenkimal tümörüdür.\n- **D)** Teratom üç germ yaprağından gelişen tümördür.\n- **E)** Hamartom yerli doku elemanlarının düzensiz aşırı çoğalmasıdır.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 95,
+    "question": "Elli beş yaşındaki erkek hastada parotiste 4 cm kitle saptanıyor. Biyopsisinde onkositik epitel, lenfoid stroma ve germinal merkezler izlenen sigara ilişkili neoplazm nedir?",
+    "options": {
+      "A": "Pleomorfik adenom",
+      "B": "Warthin tümörü",
+      "C": "Mukoepidermoid karsinom",
+      "D": "Burkitt lenfoma",
+      "E": "Adenoid kistik karsinom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Warthin tümörü (Papiller Kistadenoma Lenfomatozum), yaşlı erkeklerde sigara kullanımı ile çok güçlü ilişkisi olan benign kistik tükürük bezi tümörüdür.\n**Çeldiriciler:**\n- **A)** Pleomorfik adenom mikst tümördür, sigara ile ilişkisi yoktur.\n- **C)** Mukoepidermoid karsinom malign tükürük bezi tümörüdür.\n- **D)** Burkitt lenfoma EBV ilişkili lenfomadır.\n- **E)** Adenoid kistik karsinom cribriform invaziv neoplazmdır.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 96,
+    "question": "Osteoartrit (OA) tanısı alan bir hastada aşağıdaki histopatolojik/morfolojik özelliklerden hangisinin görülmesi beklenmez?",
+    "options": {
+      "A": "Eklem kıkırdağında çatlama ve düzensizlik",
+      "B": "Sinovyumda pannus formasyonu",
+      "C": "Eklem komşuluğundaki kemiklerde osteofit formasyonu",
+      "D": "Eklem aralığına dökülmüş kıkırdak parçaları (Eklem faresi)",
+      "E": "Subkondral skleroz ve kistler"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sinovyal zarda proliferatif granülasyon dokusu olan Pannus formasyonu Osteoartritte görülmez; Romatoid Artritin (RA) karakteristik patolojisidir.\n**Çeldiriciler:**\n- **A)** Eklem kıkırdağının fibrilasyonu ve çatlaması OA'nın erken bulgusudur.\n- **C)** Eklem kenarlarında kemik uzantıları (osteofit) gelişir.\n- **D)** Kıkırdak parçaları eklem faresi (rice bodies) olarak eklem aralığına düşer.\n- **E)** Subkondral kemikte kalınlaşma (skleroz) ve psödokistler oluşur.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 97,
+    "question": "I. Minör tükürük bezi tümörleri en sık damakta ortaya çıkar.\nII. Üst dudakta ortaya çıkan minör tükürük bezi tümörü sıklıkla benign karakterdedir.\nIII. Sublingual bezde ortaya çıkan tümörler sıklıkla maligndir.\nYukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Minör tükürük bezi tümörleri en sık damakta (%50) yerleşir. Üst dudak tümörlerinin çoğu Pleomorfik Adenom (benign), alt dudak tümörlerinin çoğu Mukoepidermoid karsinom (malign), Sublingual bez tümörlerinin ise %90'ı maligndir.\n**Çeldiriciler:**\n- **A)** II ve III öncülleri de doğru olduğu için eksiktir.\n- **B)** I ve III öncülleri de doğrudur.\n- **C)** III öncülü de doğrudur.\n- **D)** II öncülü de doğrudur.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 98,
+    "question": "Parotiste yavaş büyüyen kitle biyopsisinde miksoid ve kondroid adacıklar ile tübüler epitelyal/miyoepitelyal yapılar barındıran benign tümör nedir?",
+    "options": {
+      "A": "Adenoid kistik karsinom",
+      "B": "Mukoepidermoid karsinom",
+      "C": "Bazal hücreli adenom",
+      "D": "Warthin tümörü",
+      "E": "Pleomorfik adenom"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Pleomorfik adenom, hem epitelyal bileşenleri hem de miksoid, kondroid ve kıkırdak benzeri stroma alanlarını aynı anda içermesi nedeniyle pleomorfik (çok şekilli) adını alır.\n**Çeldiriciler:**\n- **A)** Adenoid kistik karsinom cribriform yapılı malign neoplazmdır.\n- **B)** Mukoepidermoid karsinom epidermoid ve müsin üreten hücrelerden oluşur.\n- **C)** Bazal hücreli adenom miksoid stroma içermez.\n- **D)** Warthin tümörü lenfoid stroma ve onkositik epitel içerir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 99,
+    "question": "Mandibula korpusunda diş kökleri arasına doğru girintiler yapan (scalloping), cerrahi açıldığında içi boş kan/sıvı bulunan ve epitel astarı içermeyen psödokist hangisidir?",
+    "options": {
+      "A": "Basit kemik kisti (Travmatik kemik kisti)",
+      "B": "Dentigeröz kist",
+      "C": "Stafne kemik kisti",
+      "D": "Anevrizmal kemik kisti",
+      "E": "Glandüler odontojenik kist"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Basit kemik kisti (Travmatik kemik kisti), gerçek bir epitel astarı bulunmayan, diş kökleri arasına yukarı doğru parmaksı uzantılar (scalloping) yapan benign psödokisttir.\n**Çeldiriciler:**\n- **B)** Dentigeröz kist sürmemiş diş kuronunu çevreleyen gerçek kisttir.\n- **C)** Stafne kemik kisti inferior alveolar kanalın altındaki gelişimsel çentiktir.\n- **D)** Anevrizmal kemik kisti kan dolu boşluklar ve dev hücreler içerir.\n- **E)** Glandüler odontojenik kist goblet hücreli epitel astarına sahiptir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 100,
+    "question": "Mandibula anterior bölgede yerleşen, histolojisinde Hobnail hücreleri, goblet hücreleri ve duktus benzeri yapılar içeren, nüks olasılığı yüksek kist hangisidir?",
+    "options": {
+      "A": "Dentigeröz kist",
+      "B": "Glandüler odontojenik kist",
+      "C": "Radiküler kist",
+      "D": "Nazolabiyal kist",
+      "E": "Lateral periodontal kist"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Glandüler odontojenik kist (GOK), intraepitelyal kistik duktus benzeri boşluklar, goblet hücreleri ve hobnail tarzı kabarıklıklar gösteren, yüksek nüks riskine (%22-30) sahip kisttir.\n**Çeldiriciler:**\n- **A)** Dentigeröz kist sürmemiş diş kuronunu sarar.\n- **C)** Radiküler kist devital diş apeksinde yerleşir.\n- **D)** Nazolabiyal kist yumuşak doku kistidir.\n- **E)** Lateral periodontal kist vital dişlerin yan tarafında izlenir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 101,
+    "question": "Aşağıdakilerden hangisi, inflamatuvar odontojenik kistlerden biridir?",
+    "options": {
+      "A": "Dentigeröz kist",
+      "B": "Rezidüel kist",
+      "C": "Odontojenik keratokist",
+      "D": "Lateral periodontal kist",
+      "E": "Glandüler odontojenik kist"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Rezidüel kist, diş çekildikten sonra çene kemiğinde kalan periapikal kistik dokulardan köken alan inflamatuvar karakterli odontojenik kisttir.\n**Çeldiriciler:**\n- **A)** Dentigeröz kist, sürmemiş diş kuronunu çevreleyen gelişimsel odontojenik kisttir.\n- **C)** Odontojenik keratokist (OKK), dental lamina artıklarından gelişen yüksek nüks oranına sahip gelişimsel kisttir.\n- **D)** Lateral periodontal kist, vital dişlerin kök yan yüzeyinde yerleşen gelişimsel odontojenik kisttir.\n- **E)** Glandüler odontojenik kist, müsin üreten goblet hücreleri içeren gelişimsel odontojenik kisttir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 102,
+    "question": "Kırk yaşındaki erkek hasta, mandibular premolar dişlerinin interdental papil bölgesinde yer alan şişlik şikâyetiyle başvuruyor. Radyografik incelemede herhangi bir bulgu saptanmıyor. Yumuşak dokuda lokalize lezyonun histopatolojik incelemesinde, ince non-keratinize epitel ile döşeli kistik gelişim izleniyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Erüpsiyon kisti",
+      "B": "Lateral periodontal kist",
+      "C": "Nazolabial kist",
+      "D": "İnsiziv kanal kisti",
+      "E": "Erişkin gingival kisti"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Erişkin gingival kisti, Serres artıkları kaynaklı yumuşak doku kisti olup en sık mandibular kanin-premolar bölge gingivasında yerleşir ve kemikte radyolojik bulgu oluşturmaz.\n**Çeldiriciler:**\n- **A)** Erüpsiyon kisti, yumuşak dokuda sürmekte olan dişin üzerindeki kisttir.\n- **B)** Lateral periodontal kist, kemik içinde radyolüsent alan oluşturur; bu vakada kemik içi lezyon saptanmamıştır.\n- **C)** Nazolabial kist, üst dudak lateralinde burun kanadını kaldıran gelişimsel non-odontojenik kisttir.\n- **D)** İnsiziv kanal kisti, maksilla anterior orta hatta kalp/armut şeklinde radyolüsent kisttir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 103,
+    "question": "Klinik bulgusu olmayan hastanın panoramik radyografisinde mandibular premolar alanda multiloküler radyolüsent görüntü saptanıyor. Histopatolojik inceleme sonucunda olgu, yer yer daha kalın epitelyal plaklar da içeren ince skuamöz epitel ile döşeli, epitelin bazı alanlarında glikojenden zengin berrak hücre grupları izlenen çok kompartmanlı kist olarak rapor ediliyor.\n\nBu kist için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Odontojenik keratokist",
+      "B": "Rezidüel kist",
+      "C": "Anevrizmal kemik kisti",
+      "D": "Botryoid odontojenik kist",
+      "E": "Dentigeröz kist"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Botryoid odontojenik kist, Lateral periodontal kistin çok odaklı (multiloküler/üzüm salkımı) varyantı olup ince epitel, berrak hücreler ve fokal nodüler kalınlaşmalar içerir.\n**Çeldiriciler:**\n- **A)** Odontojenik keratokist, parakeratinize çit tarzı bazal tabakalı epitel içerir, berrak hücre plakları barındırmaz.\n- **B)** Rezidüel kist inflamatuvar ve çekilmiş diş alanında tek odaklı lezyondur.\n- **C)** Anevrizmal kemik kisti epitel astarı içermeyen psödokisttir.\n- **E)** Dentigeröz kist sürmemiş diş crown'ını çevreleyen tek odaklı kisttir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 104,
+    "question": "Kırk sekiz yaşındaki kadın hasta, maksiller kanin diş hizasında vestibüler sulkusu sığlaştırıp burun kanadını yukarı kaldıran fluktuan şişlik ile kliniğe başvuruyor. Radyografik bulgu oluşturmayan lezyona komşu dişlerin vital olduğu saptanan hastanın biyopsi materyalinde çok sayıda goblet hücresinin yer aldığı silyalı sütunsu epitel ile döşeli kistik lezyon tarif ediliyor.\n\nBu lezyon için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nazopalatin duktus kisti",
+      "B": "Nazolabial kist",
+      "C": "Lenfoepitelyal kist",
+      "D": "Radiküler kist",
+      "E": "Dermoid kist"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Nazolabial kist (Klestadt kisti), nasolacrimal kanaldan köken alan, burun kanadını kaldıran, yumuşak dokuda yer aldığı için radyolojik kemik bulgusu vermeyen ve pseudostratifiye silyalı goblet hücreli epitel ile döşeli gelişimsel kisttir.\n**Çeldiriciler:**\n- **A)** Nazopalatin duktus kisti maksilla kemik içinde (insiziv kanalda) radyolüsent görüntü verir.\n- **C)** Lenfoepitelyal kist yoğun lenfoid stroma içerir.\n- **D)** Radiküler kist non-vital diş apeksinde yerleşir ve kemik yıkımı yapar.\n- **E)** Dermoid kist orta hat ağız tabanında veya boyunda izlenir, kıl/yağ bezi içerir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 105,
+    "question": "Glandüler odontojenik kist ile histopatolojik görünümü benzerlik gösteren ve ayırıcı tanısında yer alan tümör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mukoepidermoid karsinom",
+      "B": "Pleomorfik adenom",
+      "C": "Odontojenik keratokist",
+      "D": "Adenomatoid odontojenik tümör",
+      "E": "Ameloblastoma"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Glandüler odontojenik kist (GOK), mukozal/goblet hücreleri ve kistik/duktus benzeri alanlar içerdiği için düşük dereceli Mukoepidermoid karsinom ile histopatolojik olarak büyük benzerlik gösterir.\n**Çeldiriciler:**\n- **B)** Pleomorfik adenom miksoid/kondroid stroma içeren epitelyal ve miyoepitelyal benign tümördür.\n- **C)** Odontojenik keratokist parakeratinize epitel kaplıdır, müsin salgılayan glandular yapılar barındırmaz.\n- **D)** Adenomatoid odontojenik tümör kireçlenmeler ve rozet yapıları içeren kapsüllü tümördür.\n- **E)** Ameloblastoma stellat retikulum benzeri alanlar ve kolonik hücreler barındırır.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 106,
+    "question": "Aşağıdaki çene kemiği lezyonlarından hangisi düzgün radyolüsent bir hat ile çevrilidir?",
+    "options": {
+      "A": "Sementoblastom",
+      "B": "Kemik adası",
+      "C": "Kondensing osteit",
+      "D": "Fokal sementoosseöz displazi",
+      "E": "Fibröz displazi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sementoblastom (Gerçek sementoma), diş köküne yapışık olan, radyoopak kitlenin etrafını ince, düzgün bir radyolüsent (siyah) çizginin sardığı gerçek odontojenik tümördür.\n**Çeldiriciler:**\n- **B)** Kemik adası (İdiyopatik osteoskleroz) etrafında radyolüsent hat barındırmaz, doğrudan kemiğe birleşir.\n- **C)** Kondensing osteit enfeksiyona reaktif radyoopasitedir, radyolüsent kapsül çizgisi içermez.\n- **D)** Fokal sementoosseöz displazi erken evrede radyolüsenttir fakat köke yapışık kitle ve etrafında net kapsül çizgisi oluşturmaz.\n- **E)** Fibröz displazi buzlu cam görünümündedir ve korteksle sınırı belirsizdir.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 107,
+    "question": "Aşağıdakilerden hangisi, hem odontojenik epitel hem de ektomezenkimin bulunduğu odontojenik tümördür?",
+    "options": {
+      "A": "Sementoblastom",
+      "B": "Ameloblastom",
+      "C": "Kalsifiye epitelyal odontojenik tümör",
+      "D": "Odontojenik miksom",
+      "E": "Ameloblastik fibrom"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Ameloblastik fibrom, hem odontojenik epitelin (mine organı benzeri kordonlar) hem de ektomezenkimal dokunun (dental papillayı taklit eden zengin stroma) birlikte neoplastik proliferasyon gösterdiği gerçek bir mikst odontojenik tümördür.\n**Çeldiriciler:**\n- **A)** Sementoblastom mezenkimal kaynaklı odontojenik tümördür.\n- **B)** Ameloblastom yalnızca epitelyal kaynaklı odontojenik tümördür.\n- **C)** CEOT (Pindborg tümörü) yalnızca epitelyal kaynaklıdır.\n- **D)** Odontojenik miksom yalnızca mezenkimal kaynaklıdır.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 108,
+    "question": "Yirmi beş yaşındaki erkek hastanın mandibulasında, radyolojik olarak sabun köpüğü şeklinde radyolüsent görünüm saptanıyor. Histolojik incelemede, gevşek stroma içinde benign yıldızsı hücrelerden oluşan hiposellüler tümör saptanıyor.\n\nBu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sementoblastom",
+      "B": "Adenomatoid odontojenik tümör",
+      "C": "Anevrizmal kemik kisti",
+      "D": "Odontojenik fibrom",
+      "E": "Odontojenik miksom"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Odontojenik miksom, çenelerin odontojenik ektomezenkiminden gelişen, jöle kıvamında, mikroskopta gevşek miksoid stroma ve mekik/yıldızsı hücreler içeren, radyolojide sabun köpüğü manzarası veren tümördür.\n**Çeldiriciler:**\n- **A)** Sementoblastom diş köküne yapışık radyoopak kitle oluşturur.\n- **B)** Adenomatoid odontojenik tümör (AOT) kapsüllü, rozet yapıları içeren benign epitelyal lezyondur.\n- **C)** Anevrizmal kemik kisti kan dolu boşluklar içeren psödokisttir.\n- **D)** Odontojenik fibrom kollojen liflerden zengin mezenkimal lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 109,
+    "question": "Aşağıdaki odontojenik tümör tiplerinden hangisi diğerlerine göre daha agresif biyolojik davranış gösterir?",
+    "options": {
+      "A": "Ameloblastik fibroma",
+      "B": "Unikistik ameloblastom, luminal tip",
+      "C": "Sementoma",
+      "D": "Solid ameloblastom",
+      "E": "Periferal ameloblastom"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Solid / Multikistik Ameloblastom (özellikle Mural ve konvansiyonel solid tipler), kemik trabekülleri arasına sızarak yüksek lokal invazyon ve %50-90 oranında nüks gösteren en agresif odontojenik tümör formudur.\n**Çeldiriciler:**\n- **A)** Ameloblastik fibroma kapsüllü ve daha benign seyirlidir.\n- **B)** Unikistik ameloblastom luminal tipi kist lümenine sınırlıdır ve enükleasyonla iyileşir.\n- **C)** Sementoma lokal eksizyonla şifa bulur.\n- **E)** Periferal ameloblastom yumuşak dokuda yer alır, kemik yıkımı yapmaz ve nüks oranı çok düşüktür.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 110,
+    "question": "Aşağıdaki çene kistlerinden hangisinin cerrahi küretaj sonrası nüks etme olasılığı en yüksektir?",
+    "options": {
+      "A": "Dentigeröz kist",
+      "B": "Glandüler odontojenik kist",
+      "C": "Radiküler kist",
+      "D": "Nazolabial kist",
+      "E": "Lateral periodontal kist"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Glandüler odontojenik kist (GOK), ince epiteli, uydu kistçikleri ve pluripotansiyel yapısı nedeniyle basit küretaj sonrası %22-30 gibi yüksek nüks oranına sahiptir.\n**Çeldiriciler:**\n- **A)** Dentigeröz kist enükleasyon sonrasında nüks göstermez.\n- **C)** Radiküler kist tedavi edildikten veya diş çekildikten sonra nüks etmez.\n- **D)** Nazolabial kist eksize edildikten sonra nüks etmez.\n- **E)** Lateral periodontal kist basit enükleasyonla tamamen iyileşir ve nüks etmez.\n---",
+    "flag_reason": null,
+    "unit": "Oral Patoloji",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  }
+]

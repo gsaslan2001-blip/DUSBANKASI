@@ -1,0 +1,884 @@
+[
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 131,
+    "question": "Desmoglein-3 proteinine karşı gelişen otoantikorlar nedeniyle keratinositler arası tutunmanın (desmozomların) bozulması sonucu intraepitelyal suprabazal bül ve Nikolsky belirtisi pozitifliği ile karakterize mukokutanöz hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pemfigus Vulgaris",
+      "B": "Muköz Membran Pemfigoidi",
+      "C": "Büllöz Pemfigoid",
+      "D": "Liken Planus",
+      "E": "Eritema Multiforme"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Pemfigus vulgaris, epidermal desmozomal yapışma proteini Desmoglein 3'e karşı IgG tipi otoantikorların oluştuğu otoimmün bir hastalıktır. Epitel hücreleri birbirinden ayrılır (akantoliz) ve suprabazal (bazal tabakanın hemen üstünde) intraepitelyal bül oluşur. Nikolsky belirtisi pozitiftir. Bazal hücreler 'mezartaşı' dizilimi gösterir.\n**Çeldiriciler:**\n- B) Muköz membran pemfigoidinde otoantikorlar hemidesmozomlara (BP180/230) karşıdır ve subepitelyal (epitel altı) bül oluşur.\n- C) Büllöz pemfigoid ciltte subepitelyal bül yapar, akantoliziz ve desmoglein hasarı yoktur.\n- D) Liken planus T hücresi aracılı sitotoksik reaksiyondur, bazal tabakada vakuoler dejenerasyon yapar.\n- E) Eritema multiforme Tip IV aşırı duyarlılık reaksiyonudur, hedef (target) lezyonlar içerir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 132,
+    "question": "Oral mukozada pemfigus vulgaris şüphesi olan bir hastadan alınan lezyon sürüntüsünün sitolojik incelemesinde (Tzank smear) görülen akantolitik, yuvarlaklaşmış ve hiperkromatik çekirdekli epitel hücrelerine ne ad verilir?",
+    "options": {
+      "A": "Tzank hücreleri",
+      "B": "Civatte cisimcikleri",
+      "C": "Liesegang halkaları",
+      "D": "Russell cisimcikleri",
+      "E": "Langhans dev hücreleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Pemfigus vulgariste akantoliziz sonucu bağlantılarını kaybeden yassı epitel hücreleri serbest kalarak yuvarlaklaşır ve büyük hiperkromatik çekirdekli 'Tzank hücreleri' haline gelir. Tzank testi tanıyı destekler.\n**Çeldiriciler:**\n- B) Civatte (kolloid/apoptotik) cisimcikleri liken planusta bazal epitel hücrelerinin apoptotik kalıntılarıdır.\n- C) Liesegang halkaları Pindborg tümöründeki kalsifikasyon halkalarıdır.\n- D) Russell cisimcikleri plazma hücreleri içinde biriken immünoglobülin birikintileridir.\n- E) Langhans dev hücreleri tüberküloz granülomundaki çok çekirdekli makrofajlardır.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 133,
+    "question": "Subepitelyal (epitel altı) bül oluşumu, bazal membran boyunca hemidesmozomal proteinlere (BP180/BP230) karşı otoantikor birikimi ve belirgin mukoza skarlaşması (sikatris) ile seyreden otoimmün büllöz hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pemfigus vulgaris",
+      "B": "Muköz Membran Pemfigoidi (Sikatrisyel Pemfigoid)",
+      "C": "Liken Planus",
+      "D": "Sistemik Lupus Eritematozus",
+      "E": "Psoariasiz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Muköz membran pemfigoidinde otoantikorlar bazal membrandaki hemidesmozom bileşenlerine (BP180, laminin 332) karşı gelişir. Epitel komple olarak bazal membran altından ayrılır (subepitelyal bül). Bül tavanı sağlam epitel olduğu için pemfigus bülüne göre daha gergindir ve iyileşirken sikatris (skar) bırakır.\n**Çeldiriciler:**\n- A) Pemfigus vulgaris intraepitelyal suprabazal bül yapar, iz bırakmadan iyileşir.\n- C) Liken planus büllöz formu hariç primer büllöz hastalık değildir.\n- D) SLE otoimmün bağ dokusu hastalığıdır, primer büllöz değildir.\n- E) Psoriazis gümüş rengi pullanma ile seyreden kronik inflamatuar deri hastalığıdır.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "01-dus_patoloji_sorular_101_200.md",
+    "q_num": 134,
+    "question": "Oral mukozada retiküler Wickham çizgileri ile karakterize, histopatolojisinde epitel bazal tabakasında vakuoler dejenerasyon, bant tarzında T lenfosit infiltrasyonu, testere dişi (saw-tooth) rete ridgeleri ve Civatte (apoptotik) cisimcikleri izlanan hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Liken Planus",
+      "B": "Pemfigus vulgaris",
+      "C": "Leoplaki",
+      "D": "Eritroplaki",
+      "E": "Kandidiyazis"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Liken planus, T lenfositlerin basal epitel hücrelerine saldırdığı otoimmün kronik mukokutanöz hastalıktır. Histolojik klasiği: 1) Subepitelyal bant tarzı lenfosit infiltrasyonu, 2) Bazal hücrelerde hidropik/vakuoler dejenerasyon, 3) Testere dişi (saw-tooth) rete uzantıları, 4) Apoptotik epitel artıkları olan Civatte cisimcikleri.\n**Çeldiriciler:**\n- B) Pemfigus vulgaris akantoliziz ve suprabazal ayrılma yapar.\n- C) Lökoplaki klinik bir tanı terimidir (beyaz plak), spesifik bant infiltrasyonu göstermez.\n- D) Eritroplaki kırmızı kadifemsi plak olup yüksek displazi riski taşır.\n- E) Kandidiyazis fungal enfeksiyondur, PAS pozitif hifler gösterir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 1,
+    "question": "Büllöz hastalıklarda intraepidermal ayrışma ve desmozomal proteinlere (Desmoglein-3/Desmoglein-1) karşı otoantikor gelişimi ile karakterize, ağız mukozasında da erozyon ve büllerle seyreden otoimmün hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bülloz pemfigoid",
+      "B": "Pemfigus vulgaris",
+      "C": "Dermatitis herpetiformis",
+      "D": "Epidermolizis bülloza simpleks",
+      "E": "Liken planus"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Pemfigus vulgaris, desmozomal protein desmoglein-3'e karşı gelişen IgG yapısındaki otoantikorlar nedeniyle suprabazal (intraepidermal) akantolize yol açan ve ağız mukozasında ağrılı erozyonlarla seyreden bir büllöz hastalıktır.\n**Çeldiriciler:**\n- **A)** Bülloz pemfigoid, hemidesmozomal proteinlere (BP180, BP230) karşı otoantikor gelişimi ile subepidermal ayrışma gösterir.\n- **C)** Dermatitis herpetiformis, dermal papillalarda granüler IgA depolanması ile giden Çölyak hastalığı ilişkili tablodur.\n- **D)** Epidermolizis bülloza simpleks, keratin 5/14 mutasyonları sonucu gelişen kalıtsal mekanik büllöz hastalıktır.\n- **E)** Liken planus, bazal tabaka keratinositlerine karşı T-hücresel aşırı duyarlılık yanıtı ve bant tarzı lenfosit infiltrasyonu ile karakterizedir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 2,
+    "question": "Ağız mukozasında bazal tabakada vakuoler dejenerasyon, Civatte cisimcikleri ve subepitelyal bant tarzında lenfositik infiltrasyon ile karakterize lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Eritema multiforme",
+      "B": "Seboreik keratoz",
+      "C": "Liken planus",
+      "D": "Aktinik keratoz",
+      "E": "Piyojenik granülom"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Liken planus, bazal keratinositlerin apoptoza uğraması (Civatte/kolloid cisimleri), bazal dejenerasyon ve dermoepitelyal bileşkte bant tarzı lenfosit infiltrasyonu (T-hücreli yanıt) ile karakterizedir.\n**Çeldiriciler:**\n- **A)** Eritema multiforme, nekrotik keratinositler ve perivasküler inflamasyon içeren akut hipersensitivite reaksiyonudur.\n- **B)** Seboreik keratoz, pseudohorn kistler içeren benign epidermal proliferasyondur.\n- **D)** Aktinik keratoz, epitel tabakasında atipi ve solar elastoz ile karakterize premalign kutanöz lezyondur.\n- **E)** Piyojenik granülom, vasküler yapıların ve granülasyon dokusunun reaktif proliferasyonudur.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 3,
+    "question": "Otuz yaşındaki erkek hastada ciltte tipik olarak ekstensör yüzeyleri tutan kaşıntılı skuamlı lezyonlar bulunuyor. Biyopsisinin mikroskobik incelemesinde parakeratoz, retelerde regüler uzama, suprapapiller epidermiste incelme, granüler tabakada kayıp ve Munro mikroapseleri izleniyor.\n\nBu hasta için en olası dermatoz aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Liken planus",
+      "B": "Psöriazis",
+      "C": "Seboreik dermatit",
+      "D": "Kontakt dermatit",
+      "E": "Atipik dermatit"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Psöriazis, epitelde regüler akantoz, parakeratoz, suprapapiller incelme (Auspitz bulgusu) ve stratum korneumda nötrofil birikiminden oluşan Munro mikroapseleri ile karakterize T-hücre aracılı otoimmün hastalıktır.\n**Çeldiriciler:**\n- **A)** Liken planus histolojisinde testere dişi rete uzantıları ve bant tarzı lenfosit infiltrasyonu görülür; Munro mikroapsesi içermez.\n- **C)** Seboreik dermatit, sarı skuamlar ve spongioz gösterir; düzenli akantoz ve Munro mikroapsesi barındırmaz.\n- **D)** Kontakt dermatit, ekzematöz spongiyotik tipte lezyondur.\n- **E)** Atipik dermatit, kaşıntılı ekzematöz plaklar ve IgE yüksekliği ile karakterizedir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 4,
+    "question": "Dermatitis herpetiformis tanılı bir hastanın deri biyopsisinin direkt immünofloresan incelemesinde epidermal bazal mebranda aşağıdakilerden hangisi birikir?",
+    "options": {
+      "A": "Granüler IgG",
+      "B": "Lineer IgG",
+      "C": "Lineer C3",
+      "D": "Granüler IgA",
+      "E": "Lineer IgA"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Dermatitis herpetiformis, Gluten enteropatisi ile ilişkili olup dermal papillaların uç noktalarında kesintili/granüler IgA birikimi ile karakterizedir.\n**Çeldiriciler:**\n- **A)** Granüler IgG birikimi sistemik lupus eritematozus tanısında görülür.\n- **B)** Lineer IgG birikimi bülloz pemfigoid hastalığında izlenir.\n- **C)** Lineer C3 birikimi bülloz pemfigoid veya pemfigoid gestasyonis tablolarında görülür.\n- **E)** Lineer IgA birikimi, Lineer IgA dermatözünde bazal membran boyunca gözlenir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 5,
+    "question": "Histolojik görünümünde; epitelde hiperkeratoz, bazal tabaka hücrelerinde vakuoler dejenerasyon ve subepitelyal bant tarzında lenfositik infiltrasyonla karakterli, bukkal mukozada yer alan beyaz lezyonun en olası tanısı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Yanak ısırığı hiperkeratozu",
+      "B": "Beyaz süngerimsi nevus",
+      "C": "Hiperplastik kandidiazis",
+      "D": "Liken planus",
+      "E": "Hiperkeratotik idyopatik lökoplaki"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Liken planus histolojisinde hiperkeratoz, bazal vakuoler dejenerasyon ve subepitelyal alanda şerit/bant şeklinde yoğun lenfosit infiltrasyonu spesifiktir.\n**Çeldiriciler:**\n- **A)** Yanak ısırığı hiperkeratozu yüzeyel düzensiz parakeratoz gösterir, subepitelyal bant lenfosit infiltrasyonu oluşturmaz.\n- **B)** Beyaz süngerimsi nevus spinöz hücrelerde yaygın vakuolizasyon gösterir, inflamasyon içermez.\n- **C)** Hiperplastik kandidiazis epitel içinde hif yapılarının gösterilmesiyle ayırt edilir.\n- **E)** İdyopatik lökoplaki bazal vakuolizasyon ve subepitelyal bant tarzı lenfosit infiltrasyonu sunmaz.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 6,
+    "question": "Eklem ağrıları olan bir hastanın her iki diz ve dirseğinde, eritematöz plak tarzında deri lezyonları saptanıyor. Bu lezyonlardan yapılan deri biyopsisinde; epidermiste düzenli akantoz, parakeratoz ve suprapapiller incelme görülüyor.\n\nBu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Liken planus",
+      "B": "Eritema multiforme",
+      "C": "Pemfigus vulgaris",
+      "D": "Psöriazis",
+      "E": "Dermatitis herpetiformis"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Diz ve dirseklerde (ekstensör yüzler) eritematöz plaklar, regüler akantoz, parakeratoz ve suprapapiller epidermiste incelme bulguları psöriazis ve ilişkili psöriatik artrit tablosuna işaret eder.\n**Çeldiriciler:**\n- **A)** Liken planus fleksör yüzeyleri tutar ve testere dişi görünüm gösterir.\n- **B)** Eritema multiforme hedef lezyonları ve nekrotik epidermisi ile ayırt edilir.\n- **C)** Pemfigus vulgaris intraepidermal büller ve suprabazal akantoliz gösterir.\n- **E)** Dermatitis herpetiformis papüloveziküler lezyonlar ve granüler IgA depolanması ile giden tablodur.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 7,
+    "question": "Altmış beş yaşındaki kadın hasta, gövdesinde ve ekstremitelerinde gergin büller ile başvuruyor. Bül kenarından alınan deri biyopsisi kesitlerinde; subepidermal ayrılma, bül boşluğunda ve yüzeysel dermiste eozinofilleri de içeren mikst inflamatuvar hücre infiltratı görülüyor. Direkt immünofloresan incelemede dermoepidermal bileşikte lineer IgG birikimi saptanıyor.\n\nBu hastada en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pemfigus foliaseus",
+      "B": "Dermatitis herpetiformis",
+      "C": "Pemfigus vulgaris",
+      "D": "Epidermolizis bülloza simpleks",
+      "E": "Bülloz pemfigoid"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Bülloz pemfigoid, yaşlı popülasyonda görülen, BP180 ve BP230 hemidesmozomal antijenlerine karşı oluşan antikorlar sonucu gergin (ruptüre olmayan) büller, subepidermal ayrışma ve lineer IgG/C3 birikimi ile seyreden otoimmün hastalıktır.\n**Çeldiriciler:**\n- **A)** Pemfigus foliaseus yüzeysel (subkorneal) ayrışma gösterir, subepidermal değildir.\n- **B)** Dermatitis herpetiformis subepidermal ayrışma gösterse de IgA granüler birikimi ve intense kaşıntı ile ayrılır.\n- **C)** Pemfigus vulgaris suprabazal (intraepidermal) ayrışma ve Nikolsky (+) gevşek büller oluşturur.\n- **D)** Epidermolizis bülloza simpleks mekanik travmaya sekonder gelişen kalıtsal tablodur, lineer IgG birikimi göstermez.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 8,
+    "question": "Elli iki yaşındaki kadın hasta, gövde ve ağız içine yerleşen içi su dolu kabarcıklar ve bunların patlamasıyla ortaya çıkan ağrılı yaralar nedeniyle başvuruyor. Dermatolojik muayenede gövde ve ekstremitelere yerleşen büller ve erozyonlar ile damak ve bukkal mukozada erozyonlar görülüyor. Deri biyopsisinde, epidermiste suprabazal akantolitik bül ve direkt immünofloresan incelemede tüm epidermisi kapsayacak şekilde interselüler IgG birikimi görülüyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pemfigus vulgaris",
+      "B": "Bülloz pemfigoid",
+      "C": "Dermatitis herpetiformis",
+      "D": "Pemfigus foliaceus",
+      "E": "Epidermolizis bülloza"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Ağız içi mukozal erozyonların ön planda olduğu, suprabazal akantoliz ve epidermiste interselüler 'balık ağı' tarzında IgG birikimi gösteren tablo Pemfigus vulgaris'tir.\n**Çeldiriciler:**\n- **B)** Bülloz pemfigoid subepidermal ayrışma ve lineer IgG birikimi gösterir, mukozal tutulum nadirdir.\n- **C)** Dermatitis herpetiformis dermal papilla uçlarında IgA birikimi ile seyreder.\n- **D)** Pemfigus foliaceus sadece deri tutulumu yapar, mukozal lezyon oluşturmaz ve subkorneal yerleşimlidir.\n- **E)** Epidermolizis bülloza kalıtsal mekanik bül hastalığıdır, interselüler IgG otoantikoru içermez.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 9,
+    "question": "Kırk beş yaşındaki kadın hasta; ağız içinde yaralar, saçlı deride ve gövdede kolayca soyulan veziküller ve büller nedeniyle başvuruyor. Serolojik incelemede anti-desmoglein 3 pozitifliği tespit ediliyor. Deri biyopsisinde, epidermis içinde suprabazal ayrılma ile karakterli vezikül gelişimi saptanıyor. Direkt immünofloresan incelemede, epidermiste ağ şeklinde IgG ve C3 birikimi görülüyor.\n\nBu hastadaki veziküllerin gelişimi aşağıdakilerden hangisiyi en çok ilişkilidir?",
+    "options": {
+      "A": "Akantoliz",
+      "B": "Diskeratoz",
+      "C": "Akantoz",
+      "D": "Hiperkeratoz",
+      "E": "Erozyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Anti-desmoglein 3 antikorlarının desmozom bağlantılarını yıkması sonucu epidermal hücrelerin birbirinden ayrılmasına ve serbest kalarak yuvarlaklaşmasına 'akantoliz' adı verilir.\n**Çeldiriciler:**\n- **B)** Diskeratoz, hücrelerin henüz üst tabakalara ulaşmadan erken keratinize olması sürecidir.\n- **C)** Akantoz, stratum spinozum tabakasının kalınlaşmasıdır.\n- **D)** Hiperkeratoz, stratum korneum tabakasının kalınlaşmasıdır.\n- **E)** Erozyon, epitel bütünlüğünün yüzeysel kaybıdır; vezikül gelişim mekanizması değil sonucudur.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 10,
+    "question": "Otuz iki yaşındaki kadın hasta; ellerinde yaygın kaşıntılı, kurutlu ve hiperemik papüloveziküler lezyonlar ile başvuruyor. Şikayetlerinin el sabunu değişikliği sonrasında başladığını belirtiyor. Deri biyopsisinin mikroskobik incelemesinde, epitelde interselüler ödem ve lenfosit ekzositozu tespit ediliyor.\n\nBu olgudaki veziküllerin gelişimi aşağıdakilerden hangisiyle en çok ilişkilidir?",
+    "options": {
+      "A": "Akantoz",
+      "B": "Parakeratoz",
+      "C": "Papillomatoz",
+      "D": "Diskeratoz",
+      "E": "Spongioz"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Temasa sekonder gelişen akut kontakt dermatitte epidermal hücreler arası mesafenin sıvı ile dolması durumuna 'spongioz' (interselüler ödem) denir.\n**Çeldiriciler:**\n- **A)** Akantoz, spinöz tabakanın kalınlaşmasıdır.\n- **B)** Parakeratoz, stratum korneumda çekirdeklerin korunması durumudur.\n- **C)** Papillomatoz, dermal papillaların yukarı doğru parmaksı çıkıntılar yapmasıdır.\n- **D)** Diskeratoz, anormal erken keratinizasyondur.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 11,
+    "question": "Aşağıdaki hastalıkların hangisinde IgG otoantikorlarının bazal membran proteinlerini hedef alması sonucu histopatolojik olarak subepidermal ayrılma görülmesi en olasıdır?",
+    "options": {
+      "A": "Pemfigus vulgaris",
+      "B": "Bülloz pemfigoid",
+      "C": "Darier hastalığı",
+      "D": "Hailey-Hailey hastalığı",
+      "E": "Bülloz impetigo"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Bülloz pemfigoid, dermo-epitelyal bileşkedeki hemidesmozomal BP180 ve BP230 proteinlerini hedef alan IgG otoantikorları ile subepidermal bül oluşturan bir hastalıktır.\n**Çeldiriciler:**\n- **A)** Pemfigus vulgaris intraepidermal suprabazal ayrışma yapar.\n- **C)** Darier hastalığı ATP2A2 gen mutasyonuna bağlı intraepidermal suprabazal akantoliz gösterir.\n- **D)** Hailey-Hailey hastalığı ATP2C1 gen mutasyonu sonucu 'yıkılmış duvar' tarzı akantoliz oluşturur.\n- **E)** Bülloz impetigo Staph. aureus eksfolyatif toksini ile subkorneal ayrışma yapar.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 12,
+    "question": "Kırk dört yaşındaki erkek hastada sırtta ve dizlerde pruritik veziküllerle karakterli deri lezyonları saptanması sonucu yapılan deri biyopsisinde subepidermal ayrılma ve dermal papillalarda nötrofilik mikroapseler görülüyor. İmmünofloresan incelemede, bu alanlarda kesintili granüler IgA depozitleri saptanıyor.\n\nBu hasta için en olası tanı ve eşlik edebilecek patoloji aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Epidermolizis bülloza - Ataksi",
+      "B": "Bülloz pemfigoid - Crohn hastalığı",
+      "C": "Dermatitis herpetiformis - Çölyak hastalığı",
+      "D": "Pemfigus vulgaris - Glioma",
+      "E": "Pemfigus foliaseus - Lenfoma"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Sırtta ve dizlerde kaşıntılı papüloveziküller, dermal papillalarda nötrofilik mikroapseler ve kesintili granüler IgA birikimi Dermatitis Herpetiformis'in klasik bulgusu olup hastaların hemen tamamında Çölyak hastalığı (gluten enteropatisi) eşlik eder.\n**Çeldiriciler:**\n- **A)** Epidermolizis bülloza kalıtsal mekanik hastalıktır, IgA birikimi yapmaz.\n- **B)** Bülloz pemfigoid IgG ilişkili subepidermal hastalıktır, granüler IgA göstermez.\n- **D)** Pemfigus vulgaris intraepidermal akantoliz ve IgG birikimi gösterir.\n- **E)** Pemfigus foliaseus subkorneal pemfigus formudur.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 13,
+    "question": "Yirmi iki yaşındaki kadın hasta ekstremitelerde simetrik, ülsere ve eritematöz nodüller nedeniyle polikliniğe başvuruyor. Deri biyopsisinde subkutan yağ doku içerisinde lobüler paternde nekrotizan granülomatöz inflamasyon ve vaskülit bulguları tespit ediliyor.\n\nBu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Eritema nodosum",
+      "B": "Lupus panniküliti",
+      "C": "Weber-Christian hastalığı",
+      "D": "T hücreli lenfoma",
+      "E": "Eritema induratum"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Subkutan yağ dokusunda lobüler yerleşimli nekrotizan granülomatöz vaskülit gösteren, ülsere olabilen ve tüberküloz basiline aşırı duyarlılık sonucu gelişen tablo Eritema induratum'dur (Bazin hastalığı).\n**Çeldiriciler:**\n- **A)** Eritema nodosum septal pannikülit gösterir, ülsere olmaz ve vaskülit/nekroz içermez.\n- **B)** Lupus panniküliti hyalin yağ nekrozu ve lenfoid foliküller gösterir.\n- **C)** Weber-Christian hastalığı tekrarlayan lobüler pannikülit ile seyreder, nekrotizan vaskülit içermez.\n- **D)** T hücreli lenfomada atipik lenfosit invazyonu izlenir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 14,
+    "question": "Coğrafik dil (eritema migrans)'in aşağıdaki hastalıklardan hangisi ile birlikteliği ve histopatolojik benzerliği vardır?",
+    "options": {
+      "A": "Skleroderma",
+      "B": "Liken planus",
+      "C": "Pemfigus vulgaris",
+      "D": "Sistemik lupus eritematozus",
+      "E": "Psöriazis"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Coğrafik dil (eritema migrans), histopatolojik olarak düzenli akantoz, parakeratoz ve epitel içi nötrofil birikimleri göstermesi sebebiyle Psöriazis ile belirgin benzerlik ve klinik birliktelik gösterir.\n**Çeldiriciler:**\n- **A)** Skleroderma kollojenez ve dermal fibrozis ile karakterizedir.\n- **B)** Liken planus testere dişi rete ve bazal dejenerasyon gösterir.\n- **C)** Pemfigus vulgaris intraepidermal akantoliz gösterir.\n- **D)** Sistemik lupus eritematozus bazal membran kalınlaşması ve LE hücresi gösterir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 15,
+    "question": "Lenfoma nedeniyle kemoterapi gören bir hastanın sert damağında nekrotik ülserler izleniyor. Alınan biyopside yaygın nekrozun yanı sıra anjiyoinvaziv, septasız kalın mantar hifleri saptanıyor.\n\nBu hastanın tanısında öncelikle aşağıdakilerden hangisi düşünülmelidir?",
+    "options": {
+      "A": "Kandida",
+      "B": "Aspergillus",
+      "C": "Kriptokok",
+      "D": "Mukor",
+      "E": "Histoplazma"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** İmmünsüpresif veya diyabetik hastalarda damağı tutan siyah nekrotik lezyonlarda, damar duvarlarını seven (anjiyoinvaziv), dik açıyla (90 derece) dallanan septasız kalın hifler barındıran enfeksiyon Mukormikozis'tir (Mukor).\n**Çeldiriciler:**\n- **A)** Kandida, pseudohif ve tomurcuklanan maya yapıları gösterir, anjiyoinvaziv septasız hif yapmaz.\n- **B)** Aspergillus, dar açıyla (45 derece) dallanan septalı hifler gösterir.\n- **C)** Kriptokok, geniş kapsüllü tomurcuklanan mayalardır.\n- **E)** Histoplazma, makrofajlar içinde küçük maya yapıları ile izlenir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 16,
+    "question": "Aşağıdaki dil lezyonlarından hangisinde Epstein-Barr virüsü etiyolojik ajan olarak izlenir?",
+    "options": {
+      "A": "Skrotal dil",
+      "B": "Orta hattın romboid glossiti",
+      "C": "Kıllı lökoplaki",
+      "D": "Coğrafik dil",
+      "E": "Kıllı dil"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kıllı lökoplaki, EBV (Epstein-Barr Virüsü) ilişkili olup HIV (+) veya immünsüpresif bireylerde dil lateral kenarlarında beyaz dikey çizgilenmeler şeklinde ortaya çıkar.\n**Çeldiriciler:**\n- **A)** Skrotal dil gelişimsel yarık dil tablosudur.\n- **B)** Median romboid glossit Kandida enfeksiyonu ilişkili gelişir.\n- **D)** Coğrafik dil psöriaziform karakterdedir.\n- **E)** Kıllı dil filiform papillaların uzamasına bağlı gelişir, EBV ilişkili değildir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 17,
+    "question": "Aşağıdakilerden hangisi Wegener granülomatozu (Granülomatöz Polianjitis) (GPA) bulgularından biri değildir?",
+    "options": {
+      "A": "Antiproteinaz-3 antikor pozitifliği",
+      "B": "Büyük çaplı damar tutulumu",
+      "C": "Sinonazal ülsere lezyonlar",
+      "D": "Böbreklerde nekrotizan glomerulonefrit",
+      "E": "Akciğerlerde nekrotizan granülom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Wegener granülomatozu, büyük çaplı damarları değil küçük ve orta çaplı damarları tutan c-ANCA (PR3-ANCA) pozitif nekrotizan granülomatöz vaskülittir.\n**Çeldiriciler:**\n- **A)** c-ANCA (anti-PR3) antikoru vakaların %90'ından fazlasında pozitif saptanır.\n- **C)** Sinonazal ülsere lezyonlar ve semer burun deformitesi karakteristik üst solunum bulgusudur.\n- **D)** Böbreklerde fokal nekrotizan glomerulonefrit gelişir.\n- **E)** Akciğerlerde kaviter nekrotizan granülomlar tipiktir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 18,
+    "question": "Aşağıdakilerden hangisi Crohn hastalığının özelliklerinden biridir?",
+    "options": {
+      "A": "Sadece kolonu tutması",
+      "B": "Lezyonların mukozaya sınırlı olması",
+      "C": "Lezyonların arasında korunmuş mukoza bırakarak ilerleyebilmesi",
+      "D": "Bağırsak şikayetleri dışında semptom görülmemesi",
+      "E": "Bağırsak duvarında kalınlaşma görülmemesi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Crohn hastalığı, ağızdan anüse kadar tüm GİS'i tutabilen, lezyonlar arasında sağlam mukoza adaları bırakan (atlamalı tutulum - skip lesions) ve transmural inflamasyon gösteren tablodur.\n**Çeldiriciler:**\n- **A)** Sadece kolonu tutan hastalık Ülseratif Kolit'tir.\n- **B)** Lezyonların mukoza-submukozaya sınırlı olması Ülseratif Kolit özelliğidir.\n- **D)** Crohn hastalığında ağızda kaldırım taşı lezyonları, artrit ve eritema nodosum gibi ekstraintestinal bulgular görülür.\n- **E)** Transmural tutuluma bağlı bağırsak duvarında belirgin kalınlaşma ve striktürler gelişir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 19,
+    "question": "Aşağıdakilerden hangisinin sifilizde görülme olasılığı en düşüktür?",
+    "options": {
+      "A": "Marantik endokardit",
+      "B": "Aort anevrizması",
+      "C": "Karaciğer fibrozisi",
+      "D": "Kondiloma lata",
+      "E": "Tabes dorsalis"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Marantik endokardit (non-bakteriyel trombotik endokardit) kanserli veya malnütrisyonlu ileri evre hastalarda görülür, sifilizle ilişkisi yoktur.\n**Çeldiriciler:**\n- **B)** Aort anevrizması (torakal aort) tersiyer sifilizde vasa vasorum obliterasyonu sonucu gelişir.\n- **C)** Karaciğerde Gom lezyonlarının iyileşmesi sonucu Hepar lobatum fibrozisi oluşur.\n- **D)** Kondiloma lata sekonder sifilizin geniş tabanlı anogenital/oral lezyonudur.\n- **E)** Tabes dorsalis tersiyer sifilizin nörosifiliz klinik formudur.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 20,
+    "question": "Vasa vasorumda obliteratif endarterite neden olan ve özellikle torakal aortu etkileyen en olası enfeksiyöz etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mycobacterium tuberculosis",
+      "B": "Brucella abortus",
+      "C": "Treponema pallidum",
+      "D": "Yersinia pestis",
+      "E": "Clostridium difficile"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Treponema pallidum spiroketi vasa vasorumların etrafında lenfoplazmositik infiltrasyon ve obliteratif endarterit yaparak torakal aort anevrizmasına ve medyal nekroza yol açar.\n**Çeldiriciler:**\n- **A)** M. tuberculosis kazeifikasyon nekrozlu granülomlar oluşturur.\n- **B)** Brucella dalgalı ateş ve osteoartrit yapar.\n- **D)** Yersinia pestis veba etkenidir.\n- **E)** C. difficile pseudomembranöz kolit etkenidir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 41,
+    "question": "Deri melanomunda primer tümöre ilişkin en önemli prognostik gösterge aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tümör boyutu",
+      "B": "Mitoz sayısı",
+      "C": "Tümör kalınlığı",
+      "D": "Lenfositik infiltrasyon",
+      "E": "Vasküler invazyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Malign melanomda en kritik prognostik faktör Breslow derinliği yani tümörün invazyon kalınlığıdır.\n**Çeldiriciler:**\n- **A)** Tümör boyutu yatay genişliği ifade eder, vertikal derinlik kadar belirleyici değildir.\n- **B)** Mitoz sayısı evrelemeye katkı sunsa da tek başına en önemli faktör değildir.\n- **D)** Lenfositik infiltrasyon konağın immun yanıtıdır.\n- **E)** Vasküler invazyon metastaz riskini gösterir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 42,
+    "question": "Bazal tabaka hücrelerinde melanin birikimi artmış fakat melanosit sayısında artış saptanmayan oral pigmente lezyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "In situ melanom",
+      "B": "Melanotik nöroektodermal tümör",
+      "C": "Melanositik nevüs",
+      "D": "Melanotik makül",
+      "E": "Melanoakantoma"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Oral melanotik makül, melanosit sayısı artmaksızın bazal tabakada melanin miktarının artması sonucu oluşan benign pigmente lezyondur.\n**Çeldiriciler:**\n- **A)** In situ melanom atipik melanositlerin proliferasyonudur.\n- **B)** Melanotik nöroektodermal tümör infantil hızlı büyüyen lezyondur.\n- **C)** Melanositik nevüs melanosit yuvaları içerir.\n- **E)** Melanoakantoma spongiotik epitel içinde dendritic melanosit artışıdır.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 43,
+    "question": "Aşağıdaki anatomik lokalizasyonların hangisinde HPV ilişkili skuamöz hücreli karsinom görülmesi diğerlerine göre daha olasıdır?",
+    "options": {
+      "A": "Orofarinks",
+      "B": "Nazofarinks",
+      "C": "Larinks",
+      "D": "Paranazal sinüsler",
+      "E": "Nazal kavite"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** HPV ilişkili karsinomlar özellikle orofarinks bölgesini (palatin ve dil kökü tonsilleri) tutar.\n**Çeldiriciler:**\n- **B)** Nazofarinks karsinomu esas olarak EBV ile ilişkilidir.\n- **C)** Larinks karsinomunda sigara ve alkol ana etkendir.\n- **D)** Paranazal sinüs kanserleri endüstriyel tozlar ve tütünle ilişkilidir.\n- **E)** Nazal kavite kanserleri HPV ilişkili değildir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 44,
+    "question": "Nükleotit eksizyon tamir mekanizmasındaki mutasyon sonucu UV ışınlarının oluşturduğu pyrimidin dimerlerini onaramayan hastalık aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kseroderma pigmentosum",
+      "B": "Tüberküloz skleroz",
+      "C": "Cowden sendromu",
+      "D": "Ataksi-telanjiektazi",
+      "E": "Muir-Torre sendromu"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kseroderma pigmentosum (XP), UV hasarlı DNA'yı onaran nükleotit eksizyon tamir genlerindeki otozomal resesif kusur sonucu genç yaşta cilt ve oral karsinomlar oluşturan hastalıktır.\n**Çeldiriciler:**\n- **B)** Tüberoz skleroz hamartomlar ve ash-leaf lezyonları yapar.\n- **C)** Cowden sendromu PTEN mutasyonudur.\n- **D)** Ataksi-telanjiektazi ATM geni mutasyonudur.\n- **E)** Muir-Torre sendromu mismatch repair mutasyonudur.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 45,
+    "question": "Aşağıdakilerden hangisinin varlığı malign melanom gelişimi açısından diğerlerine göre daha fazla risk oluşturur?",
+    "options": {
+      "A": "Mavi nevüs",
+      "B": "Halo nevüs",
+      "C": "Displastik nevüs",
+      "D": "Spitz nevüs",
+      "E": "İntradermal nevüs"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Displastik nevüsler (Atipik nevüs), kutanöz ve oral malign melanom gelişimi açısından en yüksek riski taşıyan öncül lezyonlardır.\n**Çeldiriciler:**\n- **A)** Mavi nevüs benign dermal melanositik birikimdir.\n- **B)** Halo nevüs immun yanıt içeren benign lezyondur.\n- **D)** Spitz nevüs çocuklarda görülen benign iğsi hücreli nevüstür.\n- **E)** İntradermal nevüs tamamen dermise sınırlı benign nevüstür.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 46,
+    "question": "I. Gardner sendromu\nII. Juvenil polipozis\nIII. Tüberoz skleroz\nYukarıdaki sendromlardan hangileri hamartomatöz poliplerle karakterizedir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Juvenil polipozis ve Tüberoz skleroz hamartomatöz polipler oluşturur. Gardner sendromunda görülen polipler ise adenomatözdür (malignleşme %100).\n**Çeldiriciler:**\n- **A)** Gardner sendromu adenomatöz polipler içerir.\n- **B)** Tüberoz skleroz da hamartomatöz yapıda olduğu için eksiktir.\n- **C)** Juvenil polipozis dahil edilmediği için yanlıştır.\n- **E)** Gardner sendromu hamartomatöz değildir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 47,
+    "question": "Dil kenarında karsinom saptanan bir hastada evreleme ve prognozu belirlemede en kritik faktör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sigara içilmemesi",
+      "B": "Lökoplaki varlığı",
+      "C": "Dil kenarı lokalizasyonu",
+      "D": "Diferansiyasyon derecesi",
+      "E": "Lenf nodu metastazının bulunması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Baş-boyun ve oral bölge skuamöz hücreli karsinomlarında bölgesel lenf nodu metastazı varlığı prognozu %50 oranında düşüren en önemli değişkendir.\n**Çeldiriciler:**\n- **A)** Etiyolojik faktör evrelemeyi değiştirmez.\n- **B)** Lökoplaki zemininde gelişmesi evreye etki etmez.\n- **C)** Lokalizasyon evre kriteri değildir.\n- **D)** Diferansiyasyon derecesi (Grade) evreleme (Stage) kadar belirleyici değildir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 48,
+    "question": "Hipofiz, pankreas ve paratiroid tümörlerinin birlikte görüldüğü MEN1 sendromunda mutasyona uğrayan gen aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Merlin",
+      "B": "p53",
+      "C": "WT-1",
+      "D": "Menin",
+      "E": "Nörofibromin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Multiple Endokrin Neoplazi Tip 1 (MEN1 / Wermer sendromu), 11q13 kromozomundaki Menin gen mutasyonu sonucu gelişir.\n**Çeldiriciler:**\n- **A)** Merlin geni NF2 sendromundan sorumludur.\n- **B)** p53 Li-Fraumeni sendromunda mutasyona uğrar.\n- **C)** WT-1 Wilms tümöründen sorumludur.\n- **E)** Nörofibromin NF1 gen ürünüdür.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 49,
+    "question": "Gorlin-Goltz sendromunda çenelerde çok sayıda odontojenik keratokist ve bazal hücreli karsinomlara yol açan genetik mutasyon hangisidir?",
+    "options": {
+      "A": "TERT",
+      "B": "PTEN",
+      "C": "CDKN2A",
+      "D": "PTCH1",
+      "E": "VHL1"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Gorlin-Goltz sendromu (Nevoid Bazal Hücreli Karsinom Sendromu), PTCH1 gen mutasyonu sonucu Hedgehog sinyal yolağının aşırı aktifleşmesiyle oluşur.\n**Çeldiriciler:**\n- **A)** TERT telomeraz aktivasyonudur.\n- **B)** PTEN Cowden sendromudur.\n- **C)** CDKN2A p16 genidir.\n- **E)** VHL1 Von Hippel-Lindau sendromudur.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 50,
+    "question": "Güneşe maruz kalan yüzde hiperkeratotik lezyon zemininden en sık gelişen deri karsinomu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Skuamöz hücreli karsinom",
+      "B": "Seboreik keratoz",
+      "C": "Bazal hücreli karsinom",
+      "D": "Melanom",
+      "E": "Silindrom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Aktinik keratoz zemininden en sık gelişen malign tümör Skuamöz Hücreli Karsinomdur (SCC).\n**Çeldiriciler:**\n- **B)** Seboreik keratoz benign bir lezyondur.\n- **C)** BCC en sık görülen deri kanseridir fakat aktinik keratoz zemininden gelişmez.\n- **D)** Melanom displastik nevüs zemininden gelişir.\n- **E)** Silindrom ter bezi tümörüdür.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 51,
+    "question": "Halsizlik ve yutma güçlüğü yakınması olan kadın hastada demir eksikliği anemisi ve özofagusta mukozal katlantı (web) saptanıyor. En olası tanı nedir?",
+    "options": {
+      "A": "D vitamini eksikliği",
+      "B": "Demir eksikliği (Plummer-Vinson)",
+      "C": "Magnezyum eksikliği",
+      "D": "A vitamini eksikliği",
+      "E": "Çinko eksikliği"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Plummer-Vinson sendromu (Paterson-Kelly); demir eksikliği anemisi, disfaji (özofajiyal web) ve atrofik glossit triadı ile seyreder; oral/özofajiyal SCC riskini artırır.\n**Çeldiriciler:**\n- **A)** D vitamini kemik mineralizasyonunu etkiler.\n- **C)** Magnezyum elektrolit dengesini düzenler.\n- **D)** A vitamini epitel diferansiyasyonunda rol oynar.\n- **E)** Çinko eksikliği akrodermatitis enteropatika yapar.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 52,
+    "question": "Deri melanomunda patolojik TNM evrelemesinde T (tümör) kategorisini belirlemede aşağıdakilerden hangileri dikkate alınır?\nI. Hücre tipi\nII. Ülserasyon\nIII. Tümör kalınlığı",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Melanom TNM sınıflamasında T evresini belirleyen iki temel kriter tümörün Breslow kalınlığı ve yüzeyde ülserasyon varlığıdır. Hücre tipi evrelemeye girmez.\n**Çeldiriciler:**\n- **A)** Hücre tipi T evrelemesinde kullanılmaz.\n- **B)** Tümör kalınlığı da dahil olduğu için eksiktir.\n- **C)** Ülserasyon varlığı da dahil olduğu için eksiktir.\n- **D)** Hücre tipi evrelemede yer almaz.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 53,
+    "question": "Aşağıdaki oral lezyonlardan hangisinin etiyolojisinde Human Papilloma Virus (HPV) yer almaz?",
+    "options": {
+      "A": "Oral skuamöz hücreli karsinom",
+      "B": "Heck hastalığı",
+      "C": "Papillom",
+      "D": "Verruca vulgaris",
+      "E": "Kıllı lökoplaki"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kıllı lökoplaki (Hairy leukoplakia) etiyolojisinde Epstein-Barr Virüsü (EBV) yer alır; HPV ilişkisizdir.\n**Çeldiriciler:**\n- **A)** Oral SCC etiyolojisinde HPV Tip 16 ve 18 rol oynar.\n- **B)** Heck hastalığı HPV 13 ve 32 ile oluşur.\n- **C)** Papillom HPV Tip 6 ve 11 ile ilişkilidir.\n- **D)** Verruca vulgaris HPV Tip 2 ve 4 ile gelişir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 54,
+    "question": "Malign melanom için aşağıdakilerden hangisi iyi prognoz göstergesidir?",
+    "options": {
+      "A": "Ülserasyon varlığı",
+      "B": "Mitoz sayısının yüksek olması",
+      "C": "Lenfovasküler invazyon olması",
+      "D": "Tümör içi lenfositik infiltrasyonun yoğun olması",
+      "E": "Tümör kalınlığının fazla olması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Tümör içi yoğun lenfositik infiltrasyon (TILs), konak immun sisteminin tümöre karşı güçlü yanıtını yansıttığı için iyi prognoz göstergesidir.\n**Çeldiriciler:**\n- **A)** Ülserasyon kötü prognoz göstergesidir.\n- **B)** Yüksek mitoz sayısı hızlı büyümeyi gösterir, kötüdür.\n- **C)** Lenfovasküler invazyon metastaz riskini artırır.\n- **E)** Derinlik arttıkça prognoz kötüleşir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 55,
+    "question": "Aşağıdaki oral lezyonların hangisinde HPV Tip 13 ve 32 etiyolojik faktördür?",
+    "options": {
+      "A": "Kıllı lökoplaki",
+      "B": "İnflamatuvar papiller hiperplazi",
+      "C": "Multifokal epitelyal hiperplazi",
+      "D": "Periferal dev hücreli granülom",
+      "E": "Homojen lökoplaki"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Multifokal epitelyal hiperplazi (Heck hastalığı), HPV Tip 13 ve 32 enfeksiyonu sonucu gelişir.\n**Çeldiriciler:**\n- **A)** Kıllı lökoplaki EBV kaynaklıdır.\n- **B)** İnflamatuvar papiller hiperplazi mekanik protez irritasyonudur.\n- **D)** Periferal dev hücreli granülom reaktif lezyondur.\n- **E)** Homojen lökoplaki tütün/alkol ilişkilidir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 56,
+    "question": "Malign melanomda tümör hücrelerinin yalnız epidermis ve papiller dermise sınırlı olduğu yatay büyüme evresi nasıl adlandırılır?",
+    "options": {
+      "A": "Clark evre 5",
+      "B": "Breslow kalınlığı",
+      "C": "Vertikal büyüme fazı",
+      "D": "Radial büyüme fazı",
+      "E": "Satellit nodül"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Radial (yatay) büyüme fazında hücreler epitel ve papiller dermis sınırında genişler, damar invazyonu ve metastaz riski yok denecek kadar azdır.\n**Çeldiriciler:**\n- **A)** Clark evre 5 subkutan yağ dokusuna invazyondur.\n- **B)** Breslow kalınlığı milimetrik ölçümdür.\n- **C)** Vertikal büyüme fazı derin dokulara dikine invazyon fazıdır.\n- **E)** Satellit nodül bölgesel deri metastazıdır.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 57,
+    "question": "HPV ilişkili oral ve orofaringeal karsinomların HPV negatif karsinomlara kıyasla en belirgin klinik farkı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Prognozun daha kötü olması",
+      "B": "Daha yaşlı hastalarda görülmesi",
+      "C": "İkinci primer tümör gelişme riskinin daha düşük olması",
+      "D": "Uzak metastazın daha sık olması",
+      "E": "Keratinize SCC tipinde olması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** HPV ilişkili oral/orofaringeal karsinomlar gençlerde görülür, radyoterapide daha iyi yanıt verir, prognozları iyidir ve ikinci primer tümör geliştirme riskleri belirgin olarak düşüktür.\n**Çeldiriciler:**\n- **A)** Prognozları daha iyidir.\n- **B)** Daha genç yaş grubunda izlenir.\n- **D)** Uzak metastaz riski düşüktür.\n- **E)** Non-keratinize histolojik tiptedir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 58,
+    "question": "İyi diferansiye oral skuamöz hücreli karsinom histopatolojisinde aşağıdakilerden hangisinin görülmesi en tipiktir?",
+    "options": {
+      "A": "Sık atipik mitoz",
+      "B": "Tümör dev hücreleri",
+      "C": "Tek hücre infiltrasyonu",
+      "D": "Tümör adacıklarında keratin üretimi (Keratin incileri)",
+      "E": "İğsi hücreli morfoloji"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** İyi diferansiye karsinomlar köken aldığı yassı epitelin özelliklerini korur ve tümör adalarının merkezinde bol miktarda dairesel 'Keratin İncileri' (Keratin pearls) oluşturur.\n**Çeldiriciler:**\n- **A)** Atipik mitoz kötü diferansiye karsinomlarda belirgindir.\n- **B)** Tümör dev hücreleri anaplastik kanserlerde görülür.\n- **C)** Tek hücre infiltrasyonu agresif kötü diferansiye seyridir.\n- **E)** İğsi hücre morfolojisi sarkomatoid karsinom türüdür.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 59,
+    "question": "Aşağıdakilerden hangisi oral kavitede görülen reaktif lezyonlardan biri değildir?",
+    "options": {
+      "A": "İrritasyon fibromu",
+      "B": "Eozinofilik granülom",
+      "C": "Piyojenik granülom",
+      "D": "Periferal ossifiye fibrom",
+      "E": "Periferal dev hücreli granülom"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Eozinofilik granülom, Langerhans Hücreli Histiyositoz (LCH) kitle lezyonu olup klonal neoplastik bir süreçtir; reaktif lezyon değildir.\n**Çeldiriciler:**\n- **A)** İrritasyon fibromu travmaya reaktif bağ dokusu yanıtıdır.\n- **C)** Piyojenik granülom vasküler granülasyon yanıtıdır.\n- **D)** Periferal ossifiye fibrom PDL kaynaklı reaktif kalsifiye kitle lezyonudur.\n- **E)** Periferal dev hücreli granülom reaktif osteoklastik lezyondur.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 60,
+    "question": "Malign melanomda aşağıdaki değişkenlerden hangisi prognozu etkileyen bağımsız değişkenlerden biri değildir?",
+    "options": {
+      "A": "Mitoz sayısı",
+      "B": "Ülserasyon varlığı",
+      "C": "Breslow kalınlığı",
+      "D": "Epiteloid görünümlü tümör hücresi varlığı",
+      "E": "Tümör içi lenfosit infiltrasyonu"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Melanomda tümör hücresinin epiteloit veya iğsi hücre morfolojisinde olması hastanın yaşam süresi ve prognozu üzerinde etkili bir değişken değildir.\n**Çeldiriciler:**\n- **A)** Mitoz sayısı evrelemeyi etkiler.\n- **B)** Ülserasyon prognozu kötüleştirir.\n- **C)** Breslow kalınlığı en kritik prognostik parametredir.\n- **E)** TILs varlığı iyi prognozla ilişkilidir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 61,
+    "question": "Oral kavite karsinomları ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Çoğunluğunu adenokarsinomlar oluşturur.",
+      "B": "Tükürük bezlerinde en sık skuamöz hücreli karsinom gelişir.",
+      "C": "HPV ilişkili karsinomlar dudakta daha sıktır.",
+      "D": "Premalign lezyonlarda displazi beklenmez.",
+      "E": "Human Papilloma Virus (HPV) ilişkili karsinomlar daha iyi prognozludur."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Oral ve orofaringeal karsinomlarda HPV pozitifliği (p16 pozitifliği) tedaviye iyi yanıt ve daha yüksek sağkalım (iyi prognoz) ile ilişkilidir.\n**Çeldiriciler:**\n- **A)** Oral kanserlerin %90'ından fazlasını skuamöz hücreli karsinom oluşturur.\n- **B)** Tükürük bezinde en sık mukoepidermoid karsinom görülür.\n- **C)** HPV ilişkili kanserler orofarinkste (tonsil/dil kökü) sıktır.\n- **D)** Premalign lezyonların temeli epitelial displazidir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 62,
+    "question": "Tip 1 kollajen sentez kusuru sonucu osteopeni, kırıklar, mavi sklera ve dentinogenezis imperfekta ile seyreden kalıtsal hastalık hangisidir?",
+    "options": {
+      "A": "Osteopetrozis",
+      "B": "Akondroplazi",
+      "C": "Osteogenezis imperfekta",
+      "D": "Osteitis deformans",
+      "E": "Osteomalazi"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Osteogenezis imperfekta (Cam kemik hastalığı), COL1A1 ve COL1A2 gen mutasyonları sonucu Tip 1 kollajen yapım kusuruyla gelişir.\n**Çeldiriciler:**\n- **A)** Osteopetrozis osteoklast disfonksiyonudur, Mermer kemik yapar.\n- **B)** Akondroplazi FGFR3 mutasyonudur.\n- **D)** Osteitis deformans (Paget) SQSTM1 mutasyonudur.\n- **E)** Osteomalazi D vitamini eksikliğidir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 63,
+    "question": "Tükürük bezlerinde pleomorfik adenomdan sonra ikinci en sık görülen benign tümör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Warthin tümörü",
+      "B": "Bazal hücreli adenom",
+      "C": "Onkositom",
+      "D": "Monomorfik adenom",
+      "E": "Kanaliküler adenom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Warthin tümörü (Papiller Kistadenoma Lenfomatozum), parotis bezinde en sık izlenen ikinci benign neoplazmdır (sigara ve erkek hakimiyeti).\n**Çeldiriciler:**\n- **B)** Bazal hücreli adenom nadir benign tümördür.\n- **C)** Onkositom yaşlılarda görülen onkositik tümördür.\n- **D)** Monomorfik adenom genel gruptur.\n- **E)** Kanaliküler adenom en sık üst dudakta izlenir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 64,
+    "question": "Yalnızca kemikte bulunan, serum düzeyi osteoblastik aktivite için spesifik gösterge kabul edilen kemik matriks proteini hangisidir?",
+    "options": {
+      "A": "Fibronektin",
+      "B": "Osteonektin",
+      "C": "Alkalen fosfataz",
+      "D": "Trombospondin",
+      "E": "Osteokalsin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Osteokalsin, osteoblastlar tarafından sentezlenen ve kemik dokusuna özgü (spesifik) olan kalsiyum bağlayıcı yapıdır.\n**Çeldiriciler:**\n- **A)** Fibronektin genel bağ dokusu glikoproteinidir.\n- **B)** Osteonektin kollajen-hidroksiapatit köprüsü kurar, diğer dokularda da bulunur.\n- **C)** Alkalen fosfataz karaciğer ve plasentada da bulunur, kemiğe spesifik değildir.\n- **D)** Trombospondin hücresel matriks proteinidir.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  },
+  {
+    "source_file": "dusbankasi_sorular-v2.md",
+    "q_num": 65,
+    "question": "El ve el bileği kemiklerinin medüller boşluklarında yerleşen, radyolojide o-ring kalsifikasyonlar gösteren benign kıkırdak tümörü hangisidir?",
+    "options": {
+      "A": "Enkondrom",
+      "B": "Osteokondrom",
+      "C": "Kondroblastom",
+      "D": "Kondromiksoid fibrom",
+      "E": "Kondrosarkom"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Enkondrom, el ve ayakların kısa borusal kemiklerinde intramedüller yerleşim gösteren en sık benign kıkırdak tümörüdür.\n**Çeldiriciler:**\n- **B)** Osteokondrom kemik yüzeyinden dışarı doğru büyüyen ekzostozdur.\n- **C)** Kondroblastom epifiz yerleşimlidir.\n- **D)** Kondromiksoid fibrom metafizde yerleşir.\n- **E)** Kondrosarkom malign kıkırdak tümörüdür.\n---",
+    "flag_reason": null,
+    "unit": "7- DERİ HASTALIKLARI",
+    "lesson": "Patoloji",
+    "quality_flag": "cikmis"
+  }
+]

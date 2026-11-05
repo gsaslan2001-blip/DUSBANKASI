@@ -1,0 +1,87 @@
+[
+  {
+    "question": "Tam dişsizlik şikayeti ile kliniğe başvuran 60 yaşındaki kadın hastanın yapılan ağız içi muayenesinde mandibulada şiddetli alveol kemik rezorpsiyonu görülüyor. Palpasyonda alt anterior bölgede sivri alveol kresi ve onu örten ince mukoza tespit ediliyor. Bu hastada tam protez tedavisindeki en uygun yaklaşım aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sadece bu bölgenin basınçsız olarak ölçüsünün alınması",
+      "B": "Alt ve üst çene ölçülerinin basınçlı olarak alınması",
+      "C": "Tam protez kaidesinin metal iskelet ile desteklenmesi",
+      "D": "Tam protezin üretiminden sonra bu bölgede protezde rölyef yapılıp yumuşak astar uygulanması",
+      "E": "Cerrahi operasyon ile alveol kretindeki sivri çıkıntıların uzaklaştırılması"
+    },
+    "correctAnswer": "D",
+    "explanation": "**\n* **A) Sadece bu bölgenin basınçsız olarak ölçüsünün alınması (Yanlış):** Yalnızca ölçünün basınçsız alınması, protez kullanımı esnasında çiğneme kuvvetlerinin ince mukoza altındaki sivri kemik kretine iletilmesini ve travma oluşmasını tek başına engellemez.\n* **B) Alt ve üst çene ölçülerinin basınçlı olarak alınması (Yanlış):** Basınçlı ölçü alınması, sivri ve ince mukoza ile kaplı kret bölgesindeki doku içi basıncı artırarak şiddetli ağrı, ülserasyon ve mukoza yaralanmalarına yol açar.\n* **C) Tam protez kaidesinin metal iskelet ile desteklenmesi (Yanlış):** Metal kaide protezi kırılmaya karşı güçlendirir ancak sivri kemik kretine gelen çiğneme basıncını sönümlemez; aksine doku uyumlamasını ve rölyef yapılmasını zorlaştırır.\n* **D) Tam protezin üretiminden sonra bu bölgede protezde rölyef yapılıp yumuşak astar uygulanması (Doğru):** Şiddetli kemik rezorpsiyonunda ek cerrahi müdahale kemik kaybını daha da artıracağından kontrendikedir. Protezin doku yüzeyinde ilgili bölgeye rölyef yapılarak basınç kaldırılmalı ve üzerine daimi yumuşak astar maddesi uygulanarak gelen kuvvetlerin mukoza ve kemiğe homojen, sönümlenmiş şekilde iletilmesi sağlanmalıdır.\n* **E) Cerrahi operasyon ile alveol kretindeki sivri çıkıntıların uzaklaştırılması (Yanlış):** Şiddetli alveoler kemik rezorpsiyonu olan bir hastada cerrahi olarak kemik yontulması (düzeltilmesi) kret yüksekliğini ve protez tutuculuk/stabilitesini daha da bozacağı için ilk seçenek olmamalıdır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 501,
+    "unit": "38-Yumuşak Astar Materyalleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alveol kemiğinde şiddetli rezorpsiyon görülen tam dişsiz hastalarda daimi yumuşak astar materyali kullanımının en temel amacı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Protezin estetik görünümünü düzeltmek",
+      "B": "Çiğneme sırasında darbe emici etki sağlayarak dokulara gelen stresi sönümlemek ve ağrıyı önlemek",
+      "C": "Protez kaidesinin polimerizasyon büzülmesini tamamen engellemek",
+      "D": "Akrilik dişlerin protez kaidesine tutunmasını artırmak",
+      "E": "Bakteri ve mantar plağı birikimini sıfıra indirmek"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **A) Protezin estetik görünümünü düzeltmek (Yanlış):** Yumuşak astar doku yüzeyinde yer alır; dıştan görünmediği için estetik iyileştirme temel amacı değildir.\n* **B) Çiğneme sırasında darbe emici etki sağlayarak dokulara gelen stresi sönümlemek ve ağrıyı önlemek (Doğru):** İnce ve duyarlı mukoza ile kaplı rezorbe alveol kretlerinde, yumuşak astar materyali elastik yapısıyla çiğneme kuvvetlerini absorbe eder, dokulardaki travmayı ve ağrılı vurukları önler.\n* **C) Protez kaidesinin polimerizasyon büzülmesini tamamen engellemek (Yanlış):** Astar uygulaması protez yapımı sonrasında uygulanan bir işlem olup akrilik büzülmesini engellemez.\n* **D) Akrilik dişlerin protez kaidesine tutunmasını artırmak (Yanlış):** Yapay dişlerin tutunması akrilik kaide maddesiyle olan kimyasal bağa bağlıdır, astar ile ilişkisizdir.\n* **E) Bakteri ve mantar plağı birikimini sıfıra indirmek (Yanlış):** Aksine, yumuşak astarlar pürüzlü yapıları nedeniyle Candida albicans birikimine daha yatkındır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 505,
+    "unit": "38-Yumuşak Astar Materyalleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tam protez hastalarında daimi yumuşak astar maddelerinin kullanıldığı klinik endikasyonlardan biridir?",
+    "options": {
+      "A": "Derin ve tutucu damak kubbesi varlığı",
+      "B": "Aşırı kemik rezorpsiyonu sonucu oluşan keskin, bıçak sırtı alveoler kretler ve ağrılı dokular",
+      "C": "Sağlıklı ve kalın diş eti varlığı",
+      "D": "Oklüzal dikey boyutu artırılmak istenen hastalar",
+      "E": "Akrilik kaidenin sertliğini artırma isteği"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* **Daimi Yumuşak Astar Endikasyonları:** İnce mukoza ile kaplı keskin/bıçak sırtı kretler, atrofik ince dokular, mukozal yaralanmalara hassas kemik çıkıntıları (torus, mylohyoid sırt) ve protez kaidesi altında sürekli ağrı hisseden hastalar ana endikasyondur.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 536,
+    "unit": "38-Yumuşak Astar Materyalleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tam protezlerde yumuşak astar materyali kullanımı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Çiğneme kuvvetlerini sönümleyerek altındaki mukozaya gelen basıncı azaltır.",
+      "B": "Candida albicans türü mantarların pürüzlü yüzeye tutunma riski sert akriliğe göre daha yüksektir.",
+      "C": "Protezin doku yüzeyi hijyenine ekstra dikkat edilmelidir.",
+      "D": "Zamanla elastikiyetini kaybederek sertleşebilir ve kaideden ayrılabilir.",
+      "E": "Protezin mekanik direncini ve akrilik kaidenin kırılma dayanımını artırır."
+    },
+    "correctAnswer": "E",
+    "explanation": "**\n* **A), B), C), D) (Doğru):** Yumuşak astarlar darbe emicidir, ancak pürüzlü olduklarından Candida tutunması yüksektir, zamanla sertleşip soyulabilirler.\n* **E) Kaidenin kırılma dayanımını artırır ifadesi (Yanlış):** Yumuşak astar uygulamak için sert akrilik kaideden 1.5-2 mm yer açılır (aşındırılır). Bu durum sert akrilik kaide kalınlığını azalttığı için protezin genel kırılma direncini ZAYIFLATIR.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 537,
+    "unit": "38-Yumuşak Astar Materyalleri",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ağız kuruluğu (kserostomi) olan ve protezinde vakum etkisi (tutuculuk) oluşturulamayan bir hastada yumuşak astar uygulamasıyla elde edilen temel klinik fayda aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tükürük akış hızını 3 katına çıkarmak",
+      "B": "Protez içi küçük pürüz ve boşlukları doldurarak mukoza ile sıkı sızdırmazlık ve doku uyumu (vakum etkisi) sağlamak",
+      "C": "Protezin ağırlığını azaltmak",
+      "D": "Dişlerin aşınmasını engellemek",
+      "E": "Dikey boyutu 10 mm yükseltmek"
+    },
+    "correctAnswer": "B",
+    "explanation": "**\n* Ağız kuruluğunda tükürük film tabakası oluşmadığından protez tutuculuğu düşer. Yumuşak astar maddeleri mukozanın ince detaylarına tam adapte olarak hava sızıntısını engeller ve protez doku yüzeyi arasında sızdırmazlık (vakum etkisi) yaratarak tutuculuğu belirgin şekilde artırır.",
+    "lesson": "Protez",
+    "flag_reason": null,
+    "q_num": 538,
+    "unit": "38-Yumuşak Astar Materyalleri",
+    "quality_flag": "cikmis"
+  }
+]
