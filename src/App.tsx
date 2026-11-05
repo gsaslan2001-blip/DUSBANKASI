@@ -1280,54 +1280,46 @@ export default function App() {
 
 
 
-  const handleComplete = (answers: AnswerDetail[]) => {
-
+  const handleComplete = async (answers: AnswerDetail[]) => {
     const correct = answers.filter(a => a.state === 'correct').length;
-
     const incorrect = answers.filter(a => a.state === 'incorrect').length;
-
     const blank = answers.filter(a => a.state === 'blank').length;
 
     setQuizStats({ correct, incorrect, blank, total: answers.length, details: answers });
-
     setAppState('result');
-
     clearResumableSession().catch(() => { });
-
     SyncManager.flush().catch(() => {});
 
     // Kernel'i tazele — HUD ve kokpit yeni oturumu anında yansıtsın
-
     recomputeKernel({
-
       questions: rawQuestions,
-
       stats: loadAllStats(),
-
       activity: getRecentActivity(90),
-
       goals: useAppStore.getState().goals,
-
     });
 
     flushPendingDeletes().catch(() => {}); // test bitti — bekleyen silmeleri DB'ye işle
 
+    // FAZ 1B: Atomik Deneme Kayıt Güvencesi
     if (activeExam?.variant === 'daily' && activeExam.dailyExamId) {
-
-      if (user) {
-
-        saveExamAnswers(activeExam.dailyExamId, user.id, answers).catch(() => {});
-
+      const examId = activeExam.dailyExamId;
+      try {
+        if (user) {
+          // 1. Önce cevapları kaydet ve başarılı olduğunu doğrula
+          await saveExamAnswers(examId, user.id, answers);
+        }
+        // 2. Cevap yazımı eksiksiz tamamlandıysa denemeyi 'completed' işaretle
+        await markDailyExamCompleted(examId);
+        setTodaysDailyExam(null);
+        setActiveExam(null);
+      } catch (err) {
+        console.error('[handleComplete] Deneme kaydedilirken hata:', err);
+        showAlert(
+          'Deneme cevapları kaydedilirken bir hata oluştu: ' + errMsg(err),
+          'Kayıt Hatası'
+        );
       }
-
-      markDailyExamCompleted(activeExam.dailyExamId).catch(() => {});
-
-      setTodaysDailyExam(null);
-
-      setActiveExam(null);
-
     }
-
   };
 
   const handleReturnToHome = () => {

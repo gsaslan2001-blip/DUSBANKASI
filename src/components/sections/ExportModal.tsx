@@ -8,6 +8,8 @@ import { Button } from '../ui/Button';
 import type { Theme } from '../../theme';
 import { useModalA11y } from '../../hooks/useModalA11y';
 
+export { escapeCsvCell, generateCsvString, downloadCsvFile } from '../../lib/csvExport';
+
 interface Props {
   isOpen: boolean;
   onClose: () => void;

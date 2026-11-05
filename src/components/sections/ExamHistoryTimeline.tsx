@@ -86,7 +86,9 @@ function ExamHistoryTimeline({ trend, exams, theme }: Props) {
               <div style={{ fontSize: 13, fontWeight: 700, color: exam.score >= 70 ? '#34d399' : exam.score >= 50 ? '#fbbf24' : '#f87171' }}>
                 {exam.correct}/{exam.totalQuestions}
               </div>
-              <div style={{ fontSize: 10, color: theme.subtext }}>%{exam.score}</div>
+              <div style={{ fontSize: 10, color: theme.subtext }}>
+                {typeof exam.net === 'number' ? `${exam.net} Net · ` : ''}%{exam.score}
+              </div>
             </div>
           </div>
         ))}

@@ -747,11 +747,13 @@ export function computeActivityTrend(activity: ActivityPoint[], days: number): T
 
 // ─── KPI ALERTS ──────────────────────────────────────────────────────────────
 
-export type KpiAlertLevel = 'critical' | 'warning' | 'success';
+export type KpiAlertLevel = 'critical' | 'warning' | 'success' | 'info';
 export type KpiAlert = {
   level: KpiAlertLevel;
   message: string;
   metric: string;
+  lesson?: string;
+  actionLabel?: string;
 };
 
 const CRITICAL_ACCURACY = 40;
@@ -773,6 +775,21 @@ export function generateKpiAlerts(
   streak: StreakData,
   activity: ActivityPoint[],
 ): KpiAlert[] {
+  // Sıfır veri kontrolü: Yeni kullanıcı henüz hiç soru çözmediyse (çözüm ve aktivite sıfırsa) panik/kriz alarmları basılmaz
+  const totalActivityCount = activity.reduce((sum, a) => sum + (a.count ?? 0), 0);
+  const isZeroData = (overview.solvedUnique === 0 && overview.totalAttempts === 0 && totalActivityCount === 0) ||
+                     (overview.totalAttempts === 0 && overview.accuracy === 0 && totalActivityCount === 0);
+
+  if (isZeroData) {
+    return [
+      {
+        level: 'info',
+        message: 'Henüz çözülmüş soru bulunmuyor. İlk sorularınızı çözerek analizleri başlatabilirsiniz.',
+        metric: 'onboarding',
+      },
+    ];
+  }
+
   const alerts: KpiAlert[] = [];
 
   // Bugünkü performans
@@ -856,12 +873,16 @@ export function generateKpiAlerts(
         level: 'critical',
         message: `${l.lesson}: Doğruluk %${l.accuracy} — acil tekrar gerekli`,
         metric: `lesson_${l.lesson}`,
+        lesson: l.lesson,
+        actionLabel: 'Bu Dersi Telafi Et (20 Soru)',
       });
     } else if (l.solved > 20 && l.accuracy < WARNING_ACCURACY) {
       alerts.push({
         level: 'warning',
         message: `${l.lesson}: Doğruluk %${l.accuracy} — ek çalışma önerilir`,
         metric: `lesson_${l.lesson}`,
+        lesson: l.lesson,
+        actionLabel: 'Bu Dersi Telafi Et (20 Soru)',
       });
     }
   }

@@ -13,6 +13,7 @@ interface Props {
   data: DailyActivityDatum[];
   onDaySelect?: (date: string | null) => void;
   selectedDay?: string | null;
+  target?: number;
 }
 
 const MARGIN = { top: 8, right: 8, bottom: 28, left: 36 };
@@ -20,7 +21,7 @@ const TOOLTIP_OFFSET = 10;
 
 export default memo(DailyActivityChart);
 
-function DailyActivityChart({ data, onDaySelect, selectedDay }: Props) {
+function DailyActivityChart({ data, onDaySelect, selectedDay, target }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
@@ -57,7 +58,9 @@ function DailyActivityChart({ data, onDaySelect, selectedDay }: Props) {
       .append('g')
       .attr('transform', `translate(${MARGIN.left},${MARGIN.top})`);
 
-    const maxVal = d3.max(data, d => d.correct + d.incorrect) || 1;
+    const maxDataVal = d3.max(data, d => d.correct + d.incorrect) || 1;
+    const maxVal = target && target > 0 ? Math.max(maxDataVal, target * 1.1) : maxDataVal;
+
     const xScale = d3.scaleBand<string>()
       .domain(data.map(d => d.date))
       .range([0, innerW])
@@ -81,6 +84,28 @@ function DailyActivityChart({ data, onDaySelect, selectedDay }: Props) {
       .attr('font-size', '8px').attr('font-family', 'inherit')
       .text(d => String(d));
 
+    // Hedef çizgisi (DifferenceChart entegrasyonu)
+    if (target && target > 0) {
+      g.append('line')
+        .attr('x1', 0)
+        .attr('x2', innerW)
+        .attr('y1', yScale(target))
+        .attr('y2', yScale(target))
+        .attr('stroke', '#f43f5e')
+        .attr('stroke-width', 1.5)
+        .attr('stroke-dasharray', '4,4')
+        .attr('opacity', 0.85);
+
+      g.append('text')
+        .attr('x', innerW - 4)
+        .attr('y', yScale(target) - 4)
+        .attr('text-anchor', 'end')
+        .attr('fill', '#f43f5e')
+        .attr('font-size', '8px')
+        .attr('font-weight', '700')
+        .text(`Hedef: ${target}`);
+    }
+
     const stacked = data.map(d => ({
       date: d.date, correct: d.correct, incorrect: d.incorrect,
       total: d.correct + d.incorrect,
@@ -90,7 +115,7 @@ function DailyActivityChart({ data, onDaySelect, selectedDay }: Props) {
     function showTooltip(event: MouseEvent, d: typeof stacked[number]) {
       if (!tooltip) return;
       const parts = d.date.split('-');
-      tooltip.innerHTML = `<div style="font-size:11px;font-weight:700;margin-bottom:4px;color:#ececf1">${parts[2]}/${parts[1]}/${parts[0]}</div><div style="display:flex;gap:8px;font-size:10px"><span style="color:#34d399">Dogru: ${d.correct}</span><span style="color:#f87171">Yanlis: ${d.incorrect}</span><span style="color:#8b8b98">Toplam: ${d.total}</span></div>`;
+      tooltip.innerHTML = `<div style="font-size:11px;font-weight:700;margin-bottom:4px;color:#ececf1">${parts[2]}/${parts[1]}/${parts[0]}</div><div style="display:flex;gap:8px;font-size:10px"><span style="color:#34d399">Doğru: ${d.correct}</span><span style="color:#f87171">Yanlış: ${d.incorrect}</span><span style="color:#8b8b98">Toplam: ${d.total}</span></div>`;
       tooltip.style.display = 'block';
       moveTooltip(event);
     }
@@ -153,7 +178,7 @@ function DailyActivityChart({ data, onDaySelect, selectedDay }: Props) {
         .attr('fill', '#8b8b98').attr('font-size', '8px').attr('font-family', 'inherit')
         .text(d => { const p = d.date.split('-'); return `${p[2]}/${p[1]}`; });
     }
-  }, [data, dims, selectedDay, onDaySelect]);
+  }, [data, dims, selectedDay, onDaySelect, target]);
 
   return (
     <div ref={containerRef} style={{ position: 'relative', width: '100%' }}>

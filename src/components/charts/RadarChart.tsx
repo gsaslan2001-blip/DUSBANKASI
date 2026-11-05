@@ -97,7 +97,22 @@ function RadarChart({ data, size = 280, color = '#818cf8', fillOpacity = 0.18 }:
     const tooltip = tooltipRef.current;
     function showTooltip(event: MouseEvent, d: RadarDatum) {
       if (!tooltip) return;
-      tooltip.innerHTML = `<div style="font-weight:700;font-size:11px;color:#ececf1;margin-bottom:2px">${d.axis}</div><span style="font-size:10px;color:${color}">%${d.value}</span>`;
+      tooltip.replaceChildren();
+
+      const titleDiv = document.createElement('div');
+      titleDiv.style.fontWeight = '700';
+      titleDiv.style.fontSize = '11px';
+      titleDiv.style.color = '#ececf1';
+      titleDiv.style.marginBottom = '2px';
+      titleDiv.textContent = d.axis;
+
+      const valSpan = document.createElement('span');
+      valSpan.style.fontSize = '10px';
+      valSpan.style.color = color;
+      valSpan.textContent = `%${d.value}`;
+
+      tooltip.appendChild(titleDiv);
+      tooltip.appendChild(valSpan);
       tooltip.style.display = 'block';
       tooltip.style.left = `${event.clientX + 10}px`;
       tooltip.style.top = `${event.clientY - 44}px`;

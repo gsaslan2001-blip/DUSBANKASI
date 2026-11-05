@@ -7,7 +7,7 @@
  * Bu sayede karakterizasyon testleriyle kilitlenebilir ve UI'dan bağımsızdır.
  */
 
-/** DUS hedef sınav tarihi (YYYY-MM-DD). */
+/** DUS hedef sınav tarihi (YYYY-MM-DD) — 24 Ekim 2027. */
 export const DUS_EXAM_DATE = '2027-10-24';
 
 const MS_PER_DAY = 1000 * 60 * 60 * 24;

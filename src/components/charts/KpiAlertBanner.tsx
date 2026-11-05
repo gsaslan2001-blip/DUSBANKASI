@@ -6,7 +6,7 @@
  * Eskiden 4 ayrı tam-genişlik satır above-fold'u domine ediyordu; artık
  * yarı dikey alan kaplıyor ve gerçek bir dashboard uyarı paneli gibi okunuyor.
  */
-import { X, Warning, CheckCircle, WarningCircle, Bell } from '@phosphor-icons/react';
+import { X, Warning, CheckCircle, WarningCircle, Bell, Info, ArrowUpRight } from '@phosphor-icons/react';
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import type { KpiAlert, KpiAlertLevel } from '../../lib/stats';
@@ -16,29 +16,36 @@ const ICON_MAP: Record<KpiAlertLevel, typeof Warning> = {
   critical: WarningCircle,
   warning: Warning,
   success: CheckCircle,
+  info: Info,
 };
 
 const COLOR_MAP: Record<KpiAlertLevel, string> = {
   critical: 'border-l-red-400 bg-red-400/[0.06] text-red-300',
   warning: 'border-l-amber-400 bg-amber-400/[0.06] text-amber-300',
   success: 'border-l-emerald-400 bg-emerald-400/[0.06] text-emerald-300',
+  info: 'border-l-indigo-400 bg-indigo-400/[0.06] text-indigo-300',
 };
 
 const DOT_MAP: Record<KpiAlertLevel, string> = {
   critical: 'text-red-400',
   warning: 'text-amber-400',
   success: 'text-emerald-400',
+  info: 'text-indigo-400',
 };
 
 const LEVEL_LABEL: Record<KpiAlertLevel, string> = {
   critical: 'kritik',
   warning: 'uyarı',
   success: 'iyi',
+  info: 'bilgi',
 };
 
-type Props = { alerts: KpiAlert[] };
+type Props = {
+  alerts: KpiAlert[];
+  onStartLesson?: (lesson: string, count?: number) => void;
+};
 
-export default function KpiAlertBanner({ alerts }: Props) {
+export default function KpiAlertBanner({ alerts, onStartLesson }: Props) {
   const [dismissed, setDismissed] = useState<Set<number>>(new Set());
 
   const visible = alerts.filter((_, i) => !dismissed.has(i));
@@ -47,7 +54,7 @@ export default function KpiAlertBanner({ alerts }: Props) {
   // Seviye sayaçları (görünür olanlar üzerinden)
   const counts = visible.reduce<Record<KpiAlertLevel, number>>(
     (acc, a) => { acc[a.level]++; return acc; },
-    { critical: 0, warning: 0, success: 0 },
+    { critical: 0, warning: 0, success: 0, info: 0 } as Record<KpiAlertLevel, number>,
   );
 
   return (
@@ -94,6 +101,25 @@ export default function KpiAlertBanner({ alerts }: Props) {
               >
                 <Icon size={14} weight="bold" className="shrink-0" />
                 <span className="flex-1 leading-snug">{alert.message}</span>
+                {(() => {
+                  const lesson = alert.lesson || (alert.metric.startsWith('lesson_') ? alert.metric.replace('lesson_cov_', '').replace('lesson_', '') : undefined);
+                  const isCriticalOrWarning = alert.level === 'critical' || alert.level === 'warning';
+                  if (lesson && onStartLesson && isCriticalOrWarning) {
+                    return (
+                      <Button
+                        variant="unstyled"
+                        size="sm"
+                        onClick={() => onStartLesson(lesson, 20)}
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md text-[11px] font-bold bg-white/10 hover:bg-white/20 text-current border border-white/20 transition-all shrink-0 ml-auto mr-1 cursor-pointer"
+                        aria-label={`${lesson} dersini telafi et (20 soru)`}
+                      >
+                        <span>{alert.actionLabel || 'Bu Dersi Telafi Et (20 Soru)'}</span>
+                        <ArrowUpRight size={12} weight="bold" />
+                      </Button>
+                    );
+                  }
+                  return null;
+                })()}
                 <Button
                   variant="unstyled"
                   onClick={() => setDismissed(prev => new Set(prev).add(i))}

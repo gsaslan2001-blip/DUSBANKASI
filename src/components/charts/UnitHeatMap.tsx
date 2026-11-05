@@ -11,6 +11,7 @@ export interface UnitMasteryDatum {
 
 interface Props {
   data: UnitMasteryDatum[];
+  onSelectUnit?: (unit: string) => void;
 }
 
 const CELL_H = 36;
@@ -22,7 +23,7 @@ const colorScale = d3.scaleLinear<string>()
   .range(['#ef4444', '#f59e0b', '#10b981'])
   .interpolate(d3.interpolateHsl);
 
-export default function UnitHeatMap({ data }: Props) {
+export default function UnitHeatMap({ data, onSelectUnit }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
@@ -87,6 +88,10 @@ export default function UnitHeatMap({ data }: Props) {
       .attr('opacity', d => 0.15 + (d.mastery / 100) * 0.4)
       .attr('stroke', d => colorScale(d.mastery))
       .attr('stroke-opacity', d => 0.2 + (d.mastery / 100) * 0.4).attr('stroke-width', 1)
+      .style('cursor', onSelectUnit ? 'pointer' : 'default')
+      .on('click', (_, d) => {
+        if (onSelectUnit) onSelectUnit(d.unit);
+      })
       .on('mouseenter', function (e, d) {
         d3.select(this).transition().duration(200)
           .attr('stroke-opacity', 1).attr('stroke-width', 2).attr('opacity', 1);

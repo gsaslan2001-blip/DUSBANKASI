@@ -13,11 +13,13 @@ import { memo, useRef, useEffect, useCallback, useState } from 'react';
 import * as d3 from 'd3';
 import { debounce } from '../../lib/chartUtils';
 import { TooltipPortal } from './TooltipPortal';
+import { ArrowUpRight } from '@phosphor-icons/react';
 import type { SpeedAccuracyLessonPoint } from '../../lib/examAnalytics';
 
 interface Props {
   data: SpeedAccuracyLessonPoint[];
   size?: number;
+  onSelectLesson?: (lesson: string) => void;
 }
 
 const MARGIN = { top: 12, right: 16, bottom: 40, left: 44 };
@@ -25,7 +27,7 @@ const TOOLTIP_OFFSET = 10;
 
 export default memo(SpeedAccuracyQuadrant);
 
-function SpeedAccuracyQuadrant({ data, size = 280 }: Props) {
+function SpeedAccuracyQuadrant({ data, size = 280, onSelectLesson }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
@@ -120,7 +122,58 @@ function SpeedAccuracyQuadrant({ data, size = 280 }: Props) {
     function showTooltip(event: MouseEvent, d: SpeedAccuracyLessonPoint) {
       if (!tooltip) return;
       const risky = d.avgTimeSpent > avgTime && d.accuracy < avgAcc;
-      tooltip.innerHTML = `<div style="font-weight:700;font-size:11px;margin-bottom:4px">${d.lesson}${risky ? ' <span style=\"color:#f87171\">⚠ Yavaş+Yanlış</span>' : ''}</div><div style="display:flex;flex-direction:column;gap:1px;font-size:10px"><span style="color:#8b8b98">Ort. süre: <span style="color:#ececf1">${d.avgTimeSpent} sn</span></span><span style="color:#8b8b98">Doğruluk: <span style="color:#34d399">%${d.accuracy}</span></span><span style="color:#8b8b98">Örneklem: <span style="color:#ececf1">${d.sampleCount} deneme</span></span></div>`;
+      const timeText = d.avgTimeSpent > 0 ? `${d.avgTimeSpent} sn` : 'Yetersiz süre verisi';
+
+      tooltip.replaceChildren();
+
+      const titleEl = document.createElement('div');
+      titleEl.style.fontWeight = '700';
+      titleEl.style.fontSize = '11px';
+      titleEl.style.marginBottom = '4px';
+      titleEl.textContent = d.lesson;
+      if (risky) {
+        const warnSpan = document.createElement('span');
+        warnSpan.style.color = '#f87171';
+        warnSpan.textContent = ' ⚠ Yavaş+Yanlış';
+        titleEl.appendChild(warnSpan);
+      }
+
+      const bodyEl = document.createElement('div');
+      bodyEl.style.display = 'flex';
+      bodyEl.style.flexDirection = 'column';
+      bodyEl.style.gap = '1px';
+      bodyEl.style.fontSize = '10px';
+
+      const timeRow = document.createElement('span');
+      timeRow.style.color = '#8b8b98';
+      timeRow.textContent = 'Ort. süre: ';
+      const timeVal = document.createElement('span');
+      timeVal.style.color = '#ececf1';
+      timeVal.textContent = timeText;
+      timeRow.appendChild(timeVal);
+
+      const accRow = document.createElement('span');
+      accRow.style.color = '#8b8b98';
+      accRow.textContent = 'Doğruluk: ';
+      const accVal = document.createElement('span');
+      accVal.style.color = '#34d399';
+      accVal.textContent = `%${d.accuracy}`;
+      accRow.appendChild(accVal);
+
+      const sampleRow = document.createElement('span');
+      sampleRow.style.color = '#8b8b98';
+      sampleRow.textContent = 'Örneklem: ';
+      const sampleVal = document.createElement('span');
+      sampleVal.style.color = '#ececf1';
+      sampleVal.textContent = `${d.sampleCount} deneme`;
+      sampleRow.appendChild(sampleVal);
+
+      bodyEl.appendChild(timeRow);
+      bodyEl.appendChild(accRow);
+      bodyEl.appendChild(sampleRow);
+
+      tooltip.appendChild(titleEl);
+      tooltip.appendChild(bodyEl);
       tooltip.style.display = 'block';
       tooltip.style.left = `${event.clientX + TOOLTIP_OFFSET}px`;
       tooltip.style.top = `${event.clientY - 70}px`;
@@ -144,6 +197,16 @@ function SpeedAccuracyQuadrant({ data, size = 280 }: Props) {
       .attr('transform', d => `translate(${xScale(d.avgTimeSpent)},${yScale(d.accuracy)})`)
       .attr('tabindex', 0)
       .attr('role', 'button')
+      .style('cursor', onSelectLesson ? 'pointer' : 'default')
+      .on('click', (_, d) => {
+        if (onSelectLesson) onSelectLesson(d.lesson);
+      })
+      .on('keydown', (event, d) => {
+        if ((event.key === 'Enter' || event.key === ' ') && onSelectLesson) {
+          event.preventDefault();
+          onSelectLesson(d.lesson);
+        }
+      })
       .attr('aria-label', d => `${d.lesson}: ortalama ${d.avgTimeSpent} saniye, doğruluk %${d.accuracy}`)
       .on('mouseenter focus', function (event, d) {
         d3.select(this).transition().duration(150).attr('fill-opacity', 0.95).attr('stroke', '#ececf1').attr('stroke-width', 2);
@@ -161,17 +224,48 @@ function SpeedAccuracyQuadrant({ data, size = 280 }: Props) {
       .attr('r', d => rScale(d.sampleCount));
   }, [data, svgSize]);
 
-  if (data.length < 1) {
+  const hasValidTime = data.some(d => d.avgTimeSpent > 0);
+
+  if (data.length < 1 || !hasValidTime) {
     return (
       <div ref={containerRef} style={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: size }}>
-        <span style={{ color: '#8b8b98', fontSize: '12px' }}>Yeterli deneme verisi yok</span>
+        <span style={{ color: '#8b8b98', fontSize: '12px' }}>
+          {data.length < 1 ? 'Yeterli deneme verisi yok' : 'Yetersiz süre verisi (soru bazlı süre kaydedilmemiş)'}
+        </span>
       </div>
     );
   }
 
+  const avgTime = d3.mean(data, d => d.avgTimeSpent) ?? 0;
+  const avgAcc = 50;
+  const riskyLessons = data.filter(d => d.avgTimeSpent > avgTime && d.accuracy < avgAcc);
+
   return (
-    <div ref={containerRef} style={{ position: 'relative', width: '100%', display: 'flex', justifyContent: 'center' }}>
-      <svg ref={svgRef} style={{ display: 'block' }} />
+    <div ref={containerRef} style={{ position: 'relative', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      <svg ref={svgRef} style={{ display: 'block', margin: '0 auto' }} />
+      {riskyLessons.length > 0 && onSelectLesson && (
+        <div className="mt-3 w-full flex flex-wrap items-center justify-between gap-2 p-3 rounded-xl bg-red-500/10 border border-red-500/20">
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-red-400 shrink-0 animate-pulse" />
+            <span className="text-xs font-semibold text-red-300">
+              Yavaş + Hatalı Alan ({riskyLessons.length} ders): {riskyLessons.map(l => l.lesson).join(', ')}
+            </span>
+          </div>
+          <div className="flex items-center gap-1.5 flex-wrap">
+            {riskyLessons.map(l => (
+              <button
+                key={l.lesson}
+                type="button"
+                onClick={() => onSelectLesson(l.lesson)}
+                className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold bg-red-500/20 hover:bg-red-500/30 text-red-200 border border-red-500/30 transition-all cursor-pointer"
+              >
+                <span>{l.lesson}: Yavaş+Hatalı Soruları Çöz</span>
+                <ArrowUpRight size={12} weight="bold" />
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
       <TooltipPortal>
         <div
           ref={tooltipRef}

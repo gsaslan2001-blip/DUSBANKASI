@@ -153,6 +153,7 @@ export type DailyRecommendation = {
   suggestedQuestionCount: number;
   focusUnits: string[];
   message: string;
+  questionIds?: string[];
 };
 
 export type ErrorPattern = {
@@ -173,8 +174,17 @@ export type ExamResult = {
   incorrect: number;
   blank: number;
   score: number;
+  net?: number;
   timeSpent: number;
-  lessonBreakdown: Record<string, { correct: number; total: number }>;
+  lessonBreakdown: Record<string, {
+    correct: number;
+    total: number;
+    incorrect?: number;
+    blank?: number;
+    net?: number;
+    timeSpent?: number;
+    timedQuestionsCount?: number;
+  }>;
 };
 
 export type ExamTrendData = {
@@ -189,6 +199,7 @@ export type SpeedAccuracyPoint = {
   timeSpent: number;
   accuracy: number;
   lesson: string;
+  hasRealTimeData?: boolean;
 };
 
 export type OrderEffectData = {

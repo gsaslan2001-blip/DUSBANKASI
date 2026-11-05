@@ -217,7 +217,38 @@ function DersScatterPlot({ data, size = 300 }: Props) {
     const tooltip = tooltipRef.current;
     function showTooltip(event: MouseEvent, d: DersScatterDatum & { r: number }) {
       if (!tooltip) return;
-      tooltip.innerHTML = `<div style="font-weight:700;font-size:11px;color:${lessonColor(d.lesson)};margin-bottom:4px">${d.lesson}</div><div style="display:flex;flex-direction:column;gap:1px;font-size:10px"><span style="color:#8b8b98">Çözülen: <span style="color:#ececf1">${d.solved} soru</span></span><span style="color:#8b8b98">Doğruluk: <span style="color:#34d399">%${d.accuracy}</span></span><span style="color:#8b8b98">Toplam: <span style="color:#ececf1">${d.total} soru</span></span></div>`;
+      tooltip.replaceChildren();
+
+      const titleDiv = document.createElement('div');
+      titleDiv.style.fontWeight = '700';
+      titleDiv.style.fontSize = '11px';
+      titleDiv.style.color = lessonColor(d.lesson);
+      titleDiv.style.marginBottom = '4px';
+      titleDiv.textContent = d.lesson;
+
+      const bodyDiv = document.createElement('div');
+      bodyDiv.style.display = 'flex';
+      bodyDiv.style.flexDirection = 'column';
+      bodyDiv.style.gap = '1px';
+      bodyDiv.style.fontSize = '10px';
+
+      const createRow = (label: string, val: string, valColor = '#ececf1') => {
+        const row = document.createElement('span');
+        row.style.color = '#8b8b98';
+        row.textContent = `${label}: `;
+        const valSpan = document.createElement('span');
+        valSpan.style.color = valColor;
+        valSpan.textContent = val;
+        row.appendChild(valSpan);
+        return row;
+      };
+
+      bodyDiv.appendChild(createRow('Çözülen', `${d.solved} soru`));
+      bodyDiv.appendChild(createRow('Doğruluk', `%${d.accuracy}`, '#34d399'));
+      bodyDiv.appendChild(createRow('Toplam', `${d.total} soru`));
+
+      tooltip.appendChild(titleDiv);
+      tooltip.appendChild(bodyDiv);
       tooltip.style.display = 'block';
       tooltip.style.left = `${event.clientX + TOOLTIP_OFFSET}px`;
       tooltip.style.top = `${event.clientY - 70}px`;
@@ -243,7 +274,6 @@ function DersScatterPlot({ data, size = 300 }: Props) {
       .attr('fill-opacity', 0.7)
       .attr('stroke', 'rgba(8,8,10,0.4)')
       .attr('stroke-width', 1.5)
-      .attr('transform', d => `translate(${xScale(d.solved)},${yScale(d.accuracy)})`)
       .on('mouseenter', function (event, d) {
         d3.select(this)
           .transition()
@@ -268,10 +298,7 @@ function DersScatterPlot({ data, size = 300 }: Props) {
       .delay((_, i) => i * 40)
       .ease(d3.easeCubicOut)
       .attr('r', d => rScale(d.total))
-      .attr(
-        'transform',
-        d => `translate(${xScale(d.solved)},${yScale(d.accuracy)})`,
-      );
+      ;
   }, [data, svgSize]);
 
   if (data.length < 1) {

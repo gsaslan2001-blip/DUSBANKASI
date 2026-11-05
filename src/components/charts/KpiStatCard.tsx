@@ -86,7 +86,7 @@ export default function KpiStatCard({
           </div>
         </div>
 
-        <div className={`text-3xl sm:text-4xl font-black leading-none tracking-tight tabular-nums ${valueClassName ?? ''}`}>
+        <div className={`text-3xl sm:text-4xl font-black leading-none tracking-tight tabular-nums font-mono ${valueClassName ?? ''}`}>
           {value}
         </div>
 

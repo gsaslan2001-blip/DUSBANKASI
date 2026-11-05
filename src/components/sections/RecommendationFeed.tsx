@@ -1,9 +1,10 @@
+import { Button } from '../ui/Button';
 /**
  * Recommendation Feed — Tier 2'de akıllı çalışma önerileri
  */
 import { memo } from 'react';
 import { motion } from 'framer-motion';
-import { Lightbulb, ArrowRight, Target, Warning } from '@phosphor-icons/react';
+import { Lightbulb, ArrowRight, Target, Warning, ArrowUpRight } from '@phosphor-icons/react';
 import { RecommendationPriorityChart } from '../charts';
 import type { Theme } from '../../theme';
 import type { LessonPriority, DailyRecommendation } from '../../types/app';
@@ -12,11 +13,13 @@ interface Props {
   priorities: LessonPriority[];
   dailyRec: DailyRecommendation | null;
   theme: Theme;
+  onStartRecommended?: () => void;
+  onStartLesson?: (lesson: string, count?: number) => void;
 }
 
 export default memo(RecommendationFeed);
 
-function RecommendationFeed({ priorities, dailyRec, theme }: Props) {
+function RecommendationFeed({ priorities, dailyRec, theme, onStartRecommended }: Props) {
   const accentColor = theme.accent?.replace('text-[', '').replace(']', '') ?? '#818cf8';
 
   return (
@@ -53,6 +56,16 @@ function RecommendationFeed({ priorities, dailyRec, theme }: Props) {
                 {dailyRec.focusLesson} — {dailyRec.suggestedQuestionCount} soru
               </span>
             </div>
+          )}
+          {onStartRecommended && (
+            <Button
+              variant="unstyled"
+              onClick={onStartRecommended}
+              className="mt-3 w-full py-2 px-3 rounded-xl bg-indigo-500 hover:bg-indigo-600 text-white text-xs font-bold flex items-center justify-center gap-1.5 shadow-md shadow-indigo-500/20 transition-all cursor-pointer"
+            >
+              <span>Önerilen Quiz'i Başlat</span>
+              <ArrowUpRight size={14} weight="bold" />
+            </Button>
           )}
         </div>
       )}

@@ -484,3 +484,30 @@ body.light::before, body.oled::before {
     scroll-behavior: auto !important;
   }
 }
+
+/* ── FAZ 4: Temiz Yazdırma (Print) CSS Kuralları ── */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+  .bg-surface-0, .bg-surface-1, .bg-surface-2, .bg-surface-3, [class*="bg-"] {
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+  [class*="border-"] {
+    border-color: #e5e7eb !important;
+  }
+  [class*="text-"] {
+    color: #111827 !important;
+  }
+  .rounded-xl, .rounded-2xl {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    border: 1px solid #e5e7eb !important;
+    margin-bottom: 12px !important;
+  }
+}
