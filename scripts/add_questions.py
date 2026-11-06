@@ -341,6 +341,8 @@ def main() -> int:
     parser.add_argument("dosya", nargs="?", help="Soru dosyası yolu (.json / .csv / .md / .txt)")
     parser.add_argument("--lesson", help="Ders adı (verilirse dosyadaki değeri ezer)")
     parser.add_argument("--unit", help="Ünite adı (verilirse dosyadaki değeri ezer)")
+    parser.add_argument("--deneme", action="store_true", help="Soruları ünitesiz Denemeler havuzuna ekle")
+    parser.add_argument("--include-rejected", action="store_true", help="Deneme sorularında kalite elemesini atla; biçim ve embedding zorunludur")
     parser.add_argument("--dry-run", action="store_true", help="Yalnız doğrula + rapor; Supabase'e yazma")
     parser.add_argument("--audit", action="store_true", help="Bitince smart_audit_pipeline.py --lesson çalıştır")
     parser.add_argument("--high-yield", action="store_true", help="Soruları high_yield bayrağıyla ekle (Ölüm maçından kaçınır)")
@@ -350,6 +352,17 @@ def main() -> int:
     parser.add_argument("--fast", action="store_true", help="Yalnızca JSON/soru/şık/doğru cevap biçimini doğrula; embedding ve kalite filtresi yapma")
     parser.add_argument("--list-units", action="store_true", help="Kayıtlı ders ve ünite kataloğunu yazdır")
     args = parser.parse_args()
+
+    if args.include_rejected and (not args.deneme or args.skip_existing):
+        parser.error("--include-rejected yalnızca --deneme ile ve --skip-existing olmadan kullanılabilir")
+
+    if args.deneme:
+        if not args.lesson or args.unit or args.fast or args.audit or args.quality_flag or args.high_yield:
+            parser.error("--deneme için --lesson zorunludur; ünite, hızlı mod, audit veya kalite bayrağı kullanılamaz")
+        if args.lesson not in _load_canonical_units() and args.lesson != "Farmakoloji":
+            parser.error("--deneme için kanonik bir ders adı gereklidir")
+        args.unit = "Deneme"
+        args.force_new_unit = True
 
     if args.list_units:
         catalog = _load_canonical_units()
@@ -403,6 +416,24 @@ def main() -> int:
             f"   İlk eksik indeks: {missing[0]}"
         )
         return 1
+
+    if args.include_rejected:
+        format_errors = _fast_format_errors(questions)
+        if format_errors:
+            for error in format_errors:
+                print(f"❌ {error}")
+            return 1
+        print(f"📦 {len(questions)} soru biçimsel olarak doğrulandı; kalite elemesi atlanacak.")
+        if args.dry_run:
+            print("   🔎 DRY-RUN: Supabase'e yazma yapılmadı.")
+            return 0
+        checkpoint = shared.save_checkpoint(questions, args.lesson, args.unit)
+        if not shared._write_to_supabase(questions, args.lesson, args.unit, None):
+            print(f"❌ Aktarım tamamlanamadı. Checkpoint: {checkpoint}")
+            return 1
+        if checkpoint:
+            shared.clear_checkpoint(checkpoint)
+        return 0
 
     if args.skip_existing:
         existing_stems = set()
@@ -482,7 +513,8 @@ def main() -> int:
 
         # deploy_to_supabase kendi içinde tekrar validate eder; checkpoint + embedding + chunked write yapar
         quality_flag = args.quality_flag if args.quality_flag else ("high_yield" if args.high_yield else None)
-        shared.deploy_to_supabase(accepted, lesson, unit, quality_flag)
+        if not shared.deploy_to_supabase(accepted, lesson, unit, quality_flag):
+            return 1
         units_touched.add((lesson, unit))
 
     print(

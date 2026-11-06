@@ -53,11 +53,13 @@ const AddQuestionView = lazy(() => import('./components/admin/AddQuestionView').
 
 const CikmisSelectionView = lazy(() => import('./components/sections/CikmisSelectionView').then(m => ({ default: m.CikmisSelectionView })));
 
-import { isCikmisQuestion, isNormalQuestion, CANONICAL_UNITS, CANONICAL_LESSONS } from './config/canonicalUnits';
+import { isCikmisQuestion, isNormalQuestion, isDenemeBankQuestion, CANONICAL_UNITS, CANONICAL_LESSONS } from './config/canonicalUnits';
+import { QuestionPoolSelection, type PoolRequest } from './components/sections/QuestionPoolSelection';
+import { loadAvailablePool } from './lib/poolLoader';
 
 import { DUS_EXAM_DATE } from './lib/projections';
 
-import { buildSmartQueue, buildUnitQueue, buildExamPool, buildSimulationPool } from './lib/adaptive';
+import { buildSmartQueue, buildUnitQueue, buildExamPool } from './lib/adaptive';
 
 import {
 
@@ -71,7 +73,7 @@ import {
 
   UserCircle, Hourglass, ClipboardText,
 
-  Image, X as XIcon, GraduationCap
+  Image, X as XIcon, GraduationCap, Clock
 
 } from '@phosphor-icons/react';
 
@@ -84,6 +86,15 @@ import { themeColors, type Theme } from './theme';
 import type { AppState, AnswerDetail, QuizStatsType, ActiveSessionInfo, UserSettings } from './types/app';
 
 const QuizView = lazy(() => import('./components/quiz/QuizView').then(m => ({ default: m.QuizView })));
+const SimulationExamView = lazy(() => import('./components/quiz/SimulationExamView').then(m => ({ default: m.SimulationExamView })));
+
+import {
+  buildDusSimulationPool,
+  addMasteredSimulationIds,
+  scheduleSimulationRetries,
+  getSimulationRetrySchedule,
+  getMasteredSimulationIds,
+} from './lib/simulationEngine';
 
 import { useSettingsStore } from './lib/settingsStore';
 
@@ -303,6 +314,8 @@ export default function App() {
 
   const [isCikmisMode, setIsCikmisMode] = useState(false);
 
+  const [isDenemeBankMode, setIsDenemeBankMode] = useState(false);
+
 
 
   // T11: 6 mod bayrağı tek activeExam nesnesine indirgendi
@@ -353,6 +366,13 @@ export default function App() {
   // (id, lesson, unit, quality_flag, is_favorite) her iki tipte de mevcut.
 
   const questions = rawQuestions as unknown as Question[];
+
+  const questionSkeletonById = useMemo(() => new Map(questions.map(q => [q.id, q])), [questions]);
+
+  const rowToCurrentQuestion = (row: Parameters<typeof rowToQuestion>[0]) => ({
+    ...rowToQuestion(row),
+    is_favorite: questionSkeletonById.get(row.id)?.is_favorite ?? row.is_favorite ?? false,
+  });
 
 
 
@@ -824,7 +844,7 @@ export default function App() {
 
         await deleteQuestionsInLesson(lesson); 
 
-        setQuestions(p => p.filter(q => q.lesson !== lesson)); 
+        setQuestions(p => p.filter(q => q.lesson !== lesson || isDenemeBankQuestion(q))); 
 
       } catch (err: unknown) { 
 
@@ -902,7 +922,7 @@ export default function App() {
 
         await renameLesson(oldLesson, newLesson.trim());
 
-        setQuestions(p => p.map(q => q.lesson === oldLesson ? { ...q, lesson: newLesson.trim() } : q));
+        setQuestions(p => p.map(q => q.lesson === oldLesson && !isDenemeBankQuestion(q) ? { ...q, lesson: newLesson.trim() } : q));
 
       } catch (err: unknown) { showAlert(errMsg(err), 'Hata'); }
 
@@ -1342,6 +1362,8 @@ export default function App() {
 
     setIsCikmisMode(false);
 
+    setIsDenemeBankMode(false);
+
   };
 
 
@@ -1609,7 +1631,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
     setStudyScopeModal(prev => ({ ...prev, isOpen: false }));
     try {
       setContentLoading(true);
-      const queue = buildSmartQueue(questions as any, loadAllStats(), {
+      const queue = buildSmartQueue(questions.filter(q => !isDenemeBankQuestion(q)) as any, loadAllStats(), {
         limit: 40,
         lesson: lessonFilter,
       });
@@ -1694,9 +1716,11 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
         setPendingExamVariant('normal');
 
-        const backTarget = isCikmisMode ? 'select-cikmis' : activeExam !== null ? 'select-lesson' : 'select-unit';
+        const backTarget = isDenemeBankMode ? 'select-deneme-bank' : isCikmisMode ? 'select-cikmis' : activeExam?.variant === 'favorites' ? 'select-favorites' : activeExam !== null ? 'select-lesson' : 'select-unit';
 
             setIsCikmisMode(false);
+
+            setIsDenemeBankMode(false);
 
         setAppState(backTarget);
 
@@ -1710,6 +1734,11 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
         setAppState('select-lesson');
 
+        break;
+
+      case 'select-deneme-bank':
+        setIsDenemeBankMode(false);
+        setAppState('select-lesson');
         break;
 
       case 'select-unit':
@@ -1758,7 +1787,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
     }
 
-  }, [appState, activeExam, pendingExamVariant, isCikmisMode]);
+  }, [appState, activeExam, pendingExamVariant, isCikmisMode, isDenemeBankMode]);
 
 
 
@@ -1876,6 +1905,35 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
     }
 
+  };
+
+  const handleStartPool = async (requests: PoolRequest[], mode: 'deneme' | 'favorites') => {
+    setContentLoading(true);
+    try {
+      const selected: Question[] = [];
+      const skeletonById = new Map(questions.map(q => [q.id, q]));
+      for (const request of requests) {
+        const rows = await loadAvailablePool(fisherYates(request.ids), request.count, fetchQuestionsByIds);
+        const picked = rows.map(row => ({ ...rowToQuestion(row), is_favorite: skeletonById.get(row.id)?.is_favorite ?? row.is_favorite ?? false }));
+        if (picked.length !== request.count) {
+          await loadQuestions(true);
+          throw new Error(`${request.lesson} için istenen ${request.count} sorudan ${picked.length} tanesine erişilebildi. Lütfen listeyi yenileyip soru sayısını tekrar seçin.`);
+        }
+        selected.push(...picked);
+      }
+      setSelectedLesson(requests.length === 1 ? requests[0].lesson : 'Karma');
+      setSelectedUnit(mode === 'favorites' ? 'Favoriler' : 'Deneme');
+      setExamQuestions(fisherYates(selected));
+      setActiveExam({ variant: mode === 'favorites' ? 'favorites' : 'normal' });
+      setIsDenemeBankMode(mode === 'deneme');
+      setIsCikmisMode(false);
+      setAppState('quiz');
+      clearResumableSession().catch(() => {});
+    } catch (e) {
+      showAlert('Sorular yüklenemedi: ' + errMsg(e), 'Hata');
+    } finally {
+      setContentLoading(false);
+    }
   };
 
 
@@ -2278,7 +2336,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
             <SimulationSetup
 
-              questions={questions}
+              questions={questions.filter(q => !isDenemeBankQuestion(q))}
 
               onStart={async (qs, totalSecs) => {
 
@@ -2333,6 +2391,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               usedSeconds={simResult.usedSeconds}
 
               onRestart={() => { setSimResult(null); setAppState('select-lesson'); }}
+              onToggleFavorite={handleToggleFavorite}
 
               onRetryIncorrect={() => {
 
@@ -2366,13 +2425,15 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
               onSelect={handleLessonSelect}
 
-              totalQuestions={normalQuestions.length}
+              totalQuestions={questions.length}
 
               onDelete={handleDeleteLesson}
 
               onRename={handleRenameLesson}
 
               onDenemeClick={() => setAppState('select-deneme')}
+
+              onDenemeBankClick={() => setAppState('select-deneme-bank')}
 
               onFavoritesClick={() => setAppState('select-favorites')}
 
@@ -2446,6 +2507,8 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
             />
 
+          ) : appState === 'select-deneme-bank' ? (
+            <QuestionPoolSelection questions={questions} theme={theme} mode="deneme" loading={contentLoading} onBack={() => setAppState('select-lesson')} onStart={requests => handleStartPool(requests, 'deneme')} />
           ) : appState === 'select-cikmis' ? (
 
             <CikmisSelectionView
@@ -2484,7 +2547,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
                   setSelectedUnit(unit);
 
-                  setExamQuestions(fisherYates(rows.map(rowToQuestion)));
+                  setExamQuestions(fisherYates(rows.map(rowToCurrentQuestion)));
 
                   setActiveExam({ variant: 'normal' });
 
@@ -2524,7 +2587,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
                   setSelectedUnit(`${lesson} Çıkmış Sorular`);
 
-                  setExamQuestions(fisherYates(rows.map(rowToQuestion)));
+                  setExamQuestions(fisherYates(rows.map(rowToCurrentQuestion)));
 
                   setActiveExam({ variant: 'normal' });
 
@@ -2564,7 +2627,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
                   setSelectedUnit('Tüm Çıkmış Sorular');
 
-                  setExamQuestions(fisherYates(rows.map(rowToQuestion)));
+                  setExamQuestions(fisherYates(rows.map(rowToCurrentQuestion)));
 
                   setActiveExam({ variant: 'normal' });
 
@@ -2596,7 +2659,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
           ) : appState === 'select-favorites' ? (
 
-            <DenemeSelection questions={questions.filter(q => q.is_favorite)} onNext={(units) => { setExamUnits(units); setPendingExamVariant('favorites'); setAppState('select-deneme-amount'); }} onCancel={() => setAppState('select-lesson')} isFavoritesMode={true} theme={theme} />
+            <QuestionPoolSelection questions={questions} theme={theme} mode="favorites" loading={contentLoading} onBack={() => setAppState('select-lesson')} onStart={requests => handleStartPool(requests, 'favorites')} />
 
           ) : appState === 'select-deneme-amount' ? (
 
@@ -2645,6 +2708,36 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
             />
 
           ) : appState === 'quiz' ? (
+            activeExam?.variant === 'simulation' ? (
+              <SimulationExamView
+                questions={activeQuestions}
+                initialSession={activeExam !== null ? resumeSessionData : null}
+                timedSeconds={activeExam?.simTotalSeconds ?? 150 * 60}
+                onSimulationComplete={(details, usedSecs) => {
+                  const total = activeExam?.simTotalSeconds ?? 150 * 60;
+                  setActiveExam(null);
+
+                  // Doğru yapılan soruları mastered havuzuna ekle
+                  const correctIds = details.filter(d => d.state === 'correct').map(d => d.question.id);
+                  addMasteredSimulationIds(correctIds);
+
+                  // Boş ve yanlış bırakılan soruları sonraki 5 denemeye dengeli dağıt
+                  const mistakes = details
+                    .filter(d => d.state !== 'correct')
+                    .map(d => ({ id: d.question.id, lesson: d.question.lesson }));
+                  scheduleSimulationRetries(mistakes);
+
+                  setSimResult({ details: details as SimAnswerDetail[], totalSeconds: total, usedSeconds: usedSecs });
+                  setAppState('simulation-result');
+                }}
+                onToggleFavorite={handleToggleFavorite}
+                onSaveSession={(session: ActiveSessionInfo) => {
+                  saveResumableSession(session);
+                }}
+                theme={theme}
+                settings={settings}
+              />
+            ) : (
 
             <QuizView
 
@@ -2707,6 +2800,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               dailyExamId={activeExam?.variant === 'daily' ? activeExam.dailyExamId : undefined}
 
             />
+          )
 
           ) : appState === 'result' ? (
 
@@ -2716,7 +2810,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
             <DailyPlanView
 
-              questions={questions}
+              questions={questions.filter(q => !isDenemeBankQuestion(q))}
 
               stats={loadAllStats()}
 
@@ -2740,7 +2834,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
               onStartSmartStudy={() => {
 
-                const queue = buildSmartQueue(questions, loadAllStats(), { limit: 40 });
+                const queue = buildSmartQueue(questions.filter(q => !isDenemeBankQuestion(q)), loadAllStats(), { limit: 40 });
 
                 setExamQuestions(queue.questions);
 
@@ -2814,7 +2908,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
         isOpen={studyScopeModal.isOpen}
         onClose={() => setStudyScopeModal(prev => ({ ...prev, isOpen: false }))}
         mode={studyScopeModal.mode}
-        questions={questions as unknown as QuestionSkeleton[]}
+        questions={questions.filter(q => !isDenemeBankQuestion(q)) as unknown as QuestionSkeleton[]}
         stats={loadAllStats()}
         weakQuestionIds={getWeakQuestionIds()}
         onStartGeneral={() => {
@@ -2938,13 +3032,18 @@ type DailyExamStatus = 'loading' | 'no-user' | 'not-ready' | { dayNumber: number
 
 
 
-function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onAnalyticsClick, onCikmisClick, cikmisCount, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onAnalyticsClick: () => void; onCikmisClick: () => void; cikmisCount: number; theme: Theme }) {
+function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onDenemeBankClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onAnalyticsClick, onCikmisClick, cikmisCount, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onDenemeBankClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onAnalyticsClick: () => void; onCikmisClick: () => void; cikmisCount: number; theme: Theme }) {
 
   const _lessonStats = loadAllStats();
 
   return (
 
     <div className="anim-slide-up w-full">
+
+      <Button onClick={onDenemeBankClick} variant="unstyled" className={`w-full ${theme.cardGlass} rounded-2xl p-5 mb-6 text-left border border-indigo-500/20 hover:border-indigo-400/50`}>
+        <span className="block text-xl font-black">Denemeler</span>
+        <span className={`${theme.subtext} text-sm`}>Derslere göre deneme soruları</span>
+      </Button>
 
       <div className="mb-10 pl-2">
 
@@ -3945,159 +4044,123 @@ function DenemeSelection({ questions, onNext, onCancel, isFavoritesMode, theme }
 
 
 function SimulationSetup({ questions, onStart, onCancel, theme }: {
-
   questions: Question[];
-
   onStart: (questions: Question[], totalSeconds: number) => void;
-
   onCancel: () => void;
-
   theme: Theme;
-
 }) {
+  // Sabit Sınav Parametreleri: 120 Soru · 150 Dakika (9000 saniye)
+  const totalSeconds = 150 * 60;
+  const questionCount = 120;
 
-  const [questionCount, setQuestionCount] = useState(Math.min(200, questions.length));
-
-  const [minutes, setMinutes] = useState(150);
-
-  const totalSeconds = minutes * 60;
-
-  const perQuestion = questions.length > 0 ? Math.round(totalSeconds / questionCount) : 0;
-
-
+  const retrySchedule = useMemo(() => getSimulationRetrySchedule(), []);
+  const nextRetriesCount = (retrySchedule[0] || []).length;
+  const masteredSet = useMemo(() => getMasteredSimulationIds(), []);
 
   const handleStart = () => {
-
-    const stats = loadAllStats();
-
-    const pool = buildSimulationPool(questions, stats, questionCount);
-
+    const pool = buildDusSimulationPool(questions);
     onStart(pool, totalSeconds);
-
   };
 
-
-
   return (
+    <div className="anim-scale-in flex-1 flex flex-col items-center justify-center p-4">
+      <div className={`${theme.card} w-full max-w-xl p-6 sm:p-8 rounded-2xl ${theme.shadow} relative overflow-hidden border border-white/10`}>
+        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-rose-500 via-indigo-500 to-emerald-500 opacity-80" />
 
-    <div className="anim-scale-in flex-1 flex flex-col items-center justify-center">
-
-      <div className={`${theme.card} w-full max-w-lg p-8 sm:p-10 rounded-2xl ${theme.shadow} relative overflow-hidden`}>
-
-        <div className="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-rose-500 via-amber-400 to-rose-500 opacity-60" />
-
-        <div className="flex items-center justify-center gap-3 mb-8">
-
-          <div className="w-10 h-10 rounded-xl bg-rose-500/15 flex items-center justify-center">
-
-            <Target size={20} className="text-rose-400" />
-
+        <div className="flex items-center gap-3 mb-6">
+          <div className="w-12 h-12 rounded-2xl bg-rose-500/15 text-rose-400 flex items-center justify-center shrink-0 border border-rose-500/30">
+            <Target size={24} />
           </div>
-
           <div>
-
-            <h2 className="text-2xl font-black tracking-tight">DUS Simülasyon</h2>
-
-            <p className={`${theme.subtext} text-xs`}>Gerçek sınav koşullarında antrenman</p>
-
+            <h2 className="text-2xl font-black tracking-tight text-white">Gerçek DUS Simülasyonu</h2>
+            <p className={`${theme.subtext} text-xs`}>ÖSYM formatında 120 soru · 150 dakika · Birebir gerçek sınav ortamı</p>
           </div>
-
         </div>
 
-
-
-        <div className="space-y-8 mb-8">
-
-          <div>
-
-            <div className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest mb-3 text-center`}>SORU SAYISI</div>
-
-            <input 
-
-              type="number"
-
-              min="10"
-
-              max={questions.length}
-
-              value={questionCount || ''}
-
-              onChange={(e) => {
-
-                const val = parseInt(e.target.value) || 0;
-
-                setQuestionCount(Math.min(val, questions.length));
-
-              }}
-
-              onBlur={() => setQuestionCount(c => Math.max(10, c))}
-
-              className="w-full bg-transparent text-5xl font-black mb-4 text-center focus:outline-none focus:text-rose-400 transition-colors"
-
-            />
-
-            <input type="range" min="10" max={Math.min(200, questions.length)} value={questionCount}
-
-              onChange={e => setQuestionCount(Number(e.target.value))} />
-
-            <div className={`flex justify-between text-[10px] font-medium ${theme.subtext} mt-2`}>
-
-              <span>10</span><span>{Math.min(200, questions.length)}</span>
-
+        {/* Sabit Sınav Parametreleri (120 Soru · 150 Dakika) */}
+        <div className="grid grid-cols-2 gap-3 mb-6">
+          <div className="p-3.5 rounded-xl bg-white/[0.04] border border-white/10 flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-indigo-500/15 text-indigo-400 flex items-center justify-center shrink-0 border border-indigo-500/30">
+              <GraduationCap size={20} />
             </div>
-
-          </div>
-
-
-
-          <div>
-
-            <div className={`${theme.subtext} text-[10px] font-bold uppercase tracking-widest mb-3`}>SÜRE (DAKİKA)</div>
-
-            <div className="text-4xl font-black mb-4 text-center">{minutes}</div>
-
-            <input type="range" min="30" max="180" step="5" value={minutes}
-
-              onChange={e => setMinutes(Number(e.target.value))} />
-
-            <div className={`flex justify-between text-[10px] font-medium ${theme.subtext} mt-2`}>
-
-              <span>30dk</span><span>180dk (DUS)</span>
-
+            <div>
+              <div className="text-[10px] font-bold tracking-wider text-white/50 uppercase">Soru Sayısı</div>
+              <div className="text-base sm:text-lg font-black font-mono text-white">{questionCount} Soru <span className="text-xs text-indigo-300 font-sans font-medium">(Sabit)</span></div>
             </div>
-
           </div>
 
-
-
-          <div className={`${theme.cardGlass} rounded-xl p-4 text-center`}>
-
-            <div className="text-xl font-black">{perQuestion}s/soru</div>
-
-            <div className={`${theme.subtext} text-[10px] mt-1`}>Soru başına ortalama süre · DUS hedef: &lt;45s</div>
-
+          <div className="p-3.5 rounded-xl bg-white/[0.04] border border-white/10 flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-rose-500/15 text-rose-400 flex items-center justify-center shrink-0 border border-rose-500/30">
+              <Clock size={20} />
+            </div>
+            <div>
+              <div className="text-[10px] font-bold tracking-wider text-white/50 uppercase">Sınav Süresi</div>
+              <div className="text-base sm:text-lg font-black font-mono text-white">150 Dakika <span className="text-xs text-rose-300 font-sans font-medium">(75s / soru)</span></div>
+            </div>
           </div>
-
         </div>
 
+        {/* DUS 2020 Gerçek Kitapçık Dağılımı */}
+        <div className="grid grid-cols-2 gap-3 mb-6">
+          <div className="p-4 rounded-xl bg-indigo-500/10 border border-indigo-500/20">
+            <div className="text-[11px] font-black tracking-widest text-indigo-300 uppercase mb-1">Temel Bilimler (1-40)</div>
+            <div className="text-2xl font-black font-mono text-white mb-2">40 Soru</div>
+            <div className="text-[11px] text-white/70 space-y-0.5 leading-snug">
+              <div>• 1-6: Anatomi (6)</div>
+              <div>• 7-10: Histoloji (4)</div>
+              <div>• 11-16: Fizyoloji (6)</div>
+              <div>• 17-22: Biyokimya 1 (6)</div>
+              <div>• 23-28: Mikrobiyoloji (6)</div>
+              <div>• 29-32: Patoloji (4)</div>
+              <div>• 33-36: Farmakoloji (4)</div>
+              <div>• 37-40: Biyokimya 2 (4)</div>
+            </div>
+          </div>
 
+          <div className="p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/20">
+            <div className="text-[11px] font-black tracking-widest text-emerald-300 uppercase mb-1">Klinik Bilimler (41-120)</div>
+            <div className="text-2xl font-black font-mono text-white mb-2">80 Soru</div>
+            <div className="text-[11px] text-white/70 space-y-0.5 leading-snug">
+              <div>• 41-50: Restoratif (10)</div>
+              <div>• 51-60: Protez (10)</div>
+              <div>• 61-70: Cerrahi (10)</div>
+              <div>• 71-80: Radyoloji (10)</div>
+              <div>• 81-90: Periodontoloji (10)</div>
+              <div>• 91-100: Ortodonti (10)</div>
+              <div>• 101-110: Endodonti (10)</div>
+              <div>• 111-120: Pedodonti (10)</div>
+            </div>
+          </div>
+        </div>
 
+        {/* Adaptif Havuz ve Kural Rozetleri */}
+        <div className="space-y-2 mb-6">
+          <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-xs text-white/80 leading-relaxed flex items-center justify-between">
+            <span>Daha Önce Doğru Yapılanlar (Havuz Dışı):</span>
+            <span className="font-mono font-bold text-emerald-400">{masteredSet.size} Soru</span>
+          </div>
+          <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-xs text-white/80 leading-relaxed flex items-center justify-between">
+            <span>Bu Sınava Planlanan Tekrar Soruları:</span>
+            <span className="font-mono font-bold text-indigo-300">{nextRetriesCount} Soru</span>
+          </div>
+          <div className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-200/90 leading-relaxed">
+            ⚡ <strong>Sınav Kuralları:</strong> Şık işaretlendiğinde doğru/yanlış anında gösterilmez. 120 kutucuk üzerinden serbestçe dolaşılabilir (Boşlar: Sarı, İşaretliler: Mavi). Sınav bitiminde kutucuklar (Doğru: Yeşil, Yanlış: Kırmızı, Boş: Sarı) renklenecek ve ayrıntılı analiz açılacaktır. Boş/yanlışlar sonraki 5 denemeye paylaştırılır.
+          </div>
+        </div>
+
+        {/* Eylemler */}
         <div className="flex gap-3">
-
-          <Button onClick={onCancel} variant="secondary" size="lg" className="flex-1">Geri</Button>
-
-          <Button onClick={handleStart} variant="primary" size="lg" className="flex-[2]">BAŞLAT</Button>
-
+          <Button onClick={onCancel} variant="secondary" size="lg" className="flex-1">
+            Geri
+          </Button>
+          <Button onClick={handleStart} variant="primary" size="lg" className="flex-[2] bg-rose-600 hover:bg-rose-500 font-black tracking-wider shadow-lg shadow-rose-600/30">
+            SİMÜLASYONU BAŞLAT
+          </Button>
         </div>
-
       </div>
-
     </div>
-
   );
-
 }
-
 
 
 function DenemeAmountSelection({ selectedUnits, questions, loading, onStart, onCancel, theme }: {

@@ -6,6 +6,14 @@ export type UseExamTimerResult = {
   remainingSeconds: number;
 };
 
+/** Keep the original exam order even when answers were recorded out of order. */
+export function completeExamAnswers(questions: Question[], answers: AnswerDetail[]): AnswerDetail[] {
+  const byId = new Map(answers.map(answer => [answer.question.id, answer]));
+  return questions.map(question => byId.get(question.id) ?? {
+    question, state: 'blank', selectedOptionKey: null, timeSpent: 0,
+  });
+}
+
 /**
  * Countdown timer for simulation mode.
  * When time hits 0, fills unanswered questions as 'blank' and fires onExpire.
@@ -38,11 +46,7 @@ export function useExamTimer(
       setRemainingSeconds(prev => {
         if (prev <= 1) {
           clearInterval(tick);
-          const qs = questionsRef.current;
-          const finalAnswers = [...(answersRef.current ?? [])];
-          for (let i = finalAnswers.length; i < qs.length; i++) {
-            finalAnswers.push({ question: qs[i], state: 'blank', selectedOptionKey: null, timeSpent: 0 });
-          }
+          const finalAnswers = completeExamAnswers(questionsRef.current, answersRef.current ?? []);
           // Resume-safe: süre dolduğunda tahsis edilen tüm süre geçmiştir.
           // Önceki mount'ta harcanan süreyi kaybetmemek için Date.now() deltası
           // yerine totalSeconds kullan (resume edilmiş simülasyonda doğru).

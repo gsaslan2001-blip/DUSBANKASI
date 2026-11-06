@@ -33,6 +33,7 @@ export const VIEW_REGISTRY: Record<AppState, ViewConfig> = {
   'import':                 { title: 'İçe Aktar',           transition: 'fade',  hudMode: 'sterile' },
   'add-question':           { title: 'Soru Ekle',           transition: 'fade',  hudMode: 'sterile' },
   'select-deneme':          { title: 'Deneme Kurulumu',     transition: 'slide', hudMode: 'compact' },
+  'select-deneme-bank':     { title: 'Denemeler',           transition: 'slide', hudMode: 'compact' },
   'select-deneme-amount':   { title: 'Soru Sayısı',         transition: 'slide', hudMode: 'compact' },
   'select-favorites':       { title: 'Favoriler',           transition: 'slide', hudMode: 'compact' },
   'weak-questions':         { title: 'Zayıf Halka',         transition: 'slide', hudMode: 'compact' },

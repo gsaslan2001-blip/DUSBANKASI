@@ -67,7 +67,7 @@ export function useQuestions(): UseQuestionsResult {
     setLoadError('');
     try {
       // Açılışta sadece iskelet (~250 KB) çekilir
-      const rows = await fetchSkeletons();
+      const rows = await fetchSkeletons(forceSync);
       // Bekleyen (henüz DB'den silinmemiş) soruları gizle — flush edilene kadar
       // tekrar belirmesinler.
       const pendingDel = new Set(getPendingDeletes());
@@ -161,6 +161,12 @@ export function useQuestions(): UseQuestionsResult {
     } catch (error) {
       setSkeletons(prev => prev.map(s => s.id === id ? { ...s, is_favorite: !newStatus } : s));
       throw error;
+    }
+    try {
+      const [cached] = await getQuestionsFromContentCache([id]);
+      if (cached) await saveQuestionsToContentCache([{ ...cached, is_favorite: newStatus }]);
+    } catch {
+      // Favori sunucuda kaydedildi; önbellek sorunu işlemi geri almamalı.
     }
   }, []);
 

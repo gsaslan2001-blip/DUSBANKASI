@@ -101,8 +101,9 @@ async function withRetry<T>(fn: () => Promise<T>, retries = 3): Promise<T> {
  * Delta Sync: son senkronizasyondan beri değişenleri günceller.
  * Full fetch: ~250 KB (12.000 satır × 5 kolon, gzip ~40 KB)
  */
-export async function fetchSkeletons(): Promise<SkeletonRow[]> {
+export async function fetchSkeletons(forceRefresh = false): Promise<SkeletonRow[]> {
   const PURGE_HEAL_KEY = 'dus_purge_heal_v458_1';
+  const PAGINATION_HEAL_KEY = 'dus_skeleton_pagination_heal_v1';
   if (!localStorage.getItem(PURGE_HEAL_KEY)) {
     // 19.780 soruluk büyük temizlik sonrası istemci IndexedDB önbelleğini tamamen sıfırla
     await clearAllSkeletonsCache().catch(() => {});
@@ -113,29 +114,41 @@ export async function fetchSkeletons(): Promise<SkeletonRow[]> {
   const cached = await getCachedSkeletons();
   const lastSyncStr = localStorage.getItem('skeletons_last_sync');
 
-  // Cache boşsa tam çekimi yap
-  if (cached.length === 0) {
-    const all = await fetchAllSkeletons();
-    await saveSkeletonsToCache(all);
-    localStorage.setItem('skeletons_last_sync', new Date().toISOString());
-    return all;
+  // Eski sürümlerde eksik kaydedilen önbelleği bir kez tam listeyle onar.
+  if (forceRefresh || cached.length === 0 || !localStorage.getItem(PAGINATION_HEAL_KEY)) {
+    const syncStartedAt = new Date().toISOString();
+    try {
+      const all = await fetchAllSkeletons();
+      await clearAllSkeletonsCache();
+      await saveSkeletonsToCache(all);
+      localStorage.setItem('skeletons_last_sync', syncStartedAt);
+      localStorage.setItem(PAGINATION_HEAL_KEY, 'true');
+      return all;
+    } catch (err) {
+      if (cached.length === 0) throw err;
+      console.error('[fetchSkeletons] Full refresh failed, returning cache:', err);
+      return cached;
+    }
   }
 
   // Delta Sync: sadece değişen/eklenen/silinen iskeletleri güncelle
   try {
     const lastSync = lastSyncStr || new Date(0).toISOString();
-
-    const { data: updatedData, error: updateError } = await supabase
-      .from('questions')
-      .select(SELECT_SKELETON_COLS)
-      .gt('updated_at', lastSync)
-      .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.cikmis');
-
-    if (updateError) throw new Error(updateError.message);
-
-    const updatedRows = ((updatedData ?? []) as SkeletonRow[]).filter(
-      r => !EXCLUDED_FLAGS.has(r.quality_flag ?? '')
-    );
+    const syncStartedAt = new Date().toISOString();
+    const updatedRows: SkeletonRow[] = [];
+    for (let from = 0; ; from += PAGE_SIZE) {
+      const { data, error } = await supabase
+        .from('questions')
+        .select(SELECT_SKELETON_COLS)
+        .gt('updated_at', lastSync)
+        .lte('updated_at', syncStartedAt)
+        .or('quality_flag.is.null,quality_flag.eq.reviewed_keep,quality_flag.eq.cikmis')
+        .order('id', { ascending: true })
+        .range(from, from + PAGE_SIZE - 1);
+      if (error) throw new Error(error.message);
+      updatedRows.push(...((data ?? []) as SkeletonRow[]).filter(r => !EXCLUDED_FLAGS.has(r.quality_flag ?? '')));
+      if ((data?.length ?? 0) < PAGE_SIZE) break;
+    }
 
     // Silinen kayıtları 1000 limitine takılmadan sayfalayarak topla
     const deletedIds: string[] = [];
@@ -165,7 +178,7 @@ export async function fetchSkeletons(): Promise<SkeletonRow[]> {
     if (updatedRows.length > 0 || deletedIds.length > 0) {
       if (deletedIds.length > 0) await deleteSkeletonsFromCache(deletedIds);
       if (updatedRows.length > 0) await saveSkeletonsToCache(updatedRows);
-      localStorage.setItem('skeletons_last_sync', new Date().toISOString());
+      localStorage.setItem('skeletons_last_sync', syncStartedAt);
     }
 
     return finalSkeletons.sort((a, b) => a.id.localeCompare(b.id));
@@ -220,7 +233,7 @@ export async function fetchQuestionsByIds(ids: string[]): Promise<QuestionRow[]>
   if (ids.length === 0) return [];
 
   // 1. Cache'den bak
-  const cached = await getQuestionsFromContentCache(ids);
+  const cached = await getQuestionsFromContentCache(ids).catch(() => []);
   const cachedIdSet = new Set(cached.map(q => q.id));
   const missingIds = ids.filter(id => !cachedIdSet.has(id));
 
@@ -242,7 +255,7 @@ export async function fetchQuestionsByIds(ids: string[]): Promise<QuestionRow[]>
 
   // 3. Yeni gelenleri contentCache'e yaz
   if (fetched.length > 0) {
-    await saveQuestionsToContentCache(fetched);
+    await saveQuestionsToContentCache(fetched).catch(() => {});
   }
 
   // 4. Orijinal ID sırasını koru
@@ -405,12 +418,12 @@ export async function deleteQuestionsInUnit(lesson: string, unit: string): Promi
 }
 
 export async function deleteQuestionsInLesson(lesson: string): Promise<void> {
-  const { error } = await supabase.from('questions').delete().eq('lesson', lesson);
+  const { error } = await supabase.from('questions').delete().eq('lesson', lesson).neq('unit', 'Deneme');
   if (error) throw error;
 }
 
 export async function renameLesson(oldLesson: string, newLesson: string): Promise<void> {
-  const { error } = await supabase.from('questions').update({ lesson: newLesson }).eq('lesson', oldLesson);
+  const { error } = await supabase.from('questions').update({ lesson: newLesson }).eq('lesson', oldLesson).neq('unit', 'Deneme');
   if (error) throw error;
 }
 

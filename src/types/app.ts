@@ -9,6 +9,7 @@ export type AppState =
   | 'import'
   | 'add-question'
   | 'select-deneme'
+  | 'select-deneme-bank'
   | 'select-deneme-amount'
   | 'select-favorites'
   | 'weak-questions'

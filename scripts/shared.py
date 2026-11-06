@@ -396,12 +396,12 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
                 c_expl = expl_texts[chunk_idx:chunk_idx+50]
 
                 r_stem = openai_client.embeddings.create(
-                    model="text-embedding-3-large", input=c_stem, dimensions=1536
+                    model="text-embedding-3-large", input=c_stem, dimensions=1536, encoding_format="float"
                 )
                 stem_embeddings.extend([item.embedding for item in r_stem.data])
 
                 r_expl = openai_client.embeddings.create(
-                    model="text-embedding-3-large", input=c_expl, dimensions=1536
+                    model="text-embedding-3-large", input=c_expl, dimensions=1536, encoding_format="float"
                 )
                 expl_embeddings.extend([item.embedding for item in r_expl.data])
 
@@ -409,6 +409,10 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
                     _time.sleep(0.5)
         except Exception as e:
             print(f"   ⚠️ OpenAI Embedding hatası (kalan sorular embeddingsiz eklenecek): {e}")
+
+    if len(stem_embeddings) != len(questions) or len(expl_embeddings) != len(questions):
+        print("   ❌ Aktarım için tüm çift embedding'ler gereklidir; yazım yapılmadı.")
+        return False
 
     # ── Row'ları oluştur ──
     rows = []

@@ -1,20 +1,44 @@
 /**
- * DUS Bankası — DUS Simülasyon Modu Sonuç Ekranı (Faz 4 — Stitch Enhanced)
+ * DUS Bankası — DUS Simülasyon Modu Sonuç & Analiz Ekranı
  *
- * Stitch iyileştirmeleri:
- *   - Animasyonlu skor (score-reveal + AnimatedCounter)
- *   - Performans donut chart (doğru/yanlış/boş)
- *   - Ders bazlı dağılım bar chart
- *   - Zayıf ünite spotlight kartları (kırmızı/amber glow)
+ * Kullanıcı Kuralları & DUS Mimarisi:
+ * - 120 Soru Kutucuğu (Temel 40, Klinik 80):
+ *     Boşlar: SARI
+ *     Doğrular: YEŞİL
+ *     Yanlışlar: KIRMIZI
+ * - Kutucuklara tıklanarak ve butonlarla sorular arası geçiş yapılarak ayrıntılı inceleme
+ * - Soruları incelerken favorilere ekleme/çıkarma desteği
+ * - DUS Net Formülü: Doğru - Yanlış / 4
+ * - Branş bazlı analiz: FİZYOLOJİ VE HİSTOLOJİ İSTATİSTİĞİ BİR TUTULUR ('Fizyoloji - Histoloji')
+ * - Ünite bazlı analiz: Soruların ünitesi belli değilse (çıkmış/deneme) sadece branş analizi tutulur
+ * - Boş ve yanlışların sonraki 5 denemeye dengeli dağıtılması ve doğru yapılanların havuzdan elenmesi özeti
  */
 
-import { useState, useEffect, useMemo } from 'react';
-import { Checks, Clock, ChartBar, Warning, Brain, Microscope, ArrowRight, Medal, GraduationCap } from '@phosphor-icons/react';
-import { motion } from 'framer-motion';
+import { useState, useMemo, useCallback } from 'react';
+import {
+  Clock,
+  ChartBar,
+  Warning,
+  ArrowRight,
+  ArrowLeft,
+  GraduationCap,
+  Star,
+  CheckCircle,
+  XCircle,
+  Repeat,
+  Sparkle,
+  BookmarkSimple,
+} from '@phosphor-icons/react';
+import { toast } from 'sonner';
 import { Button } from './ui/Button';
-import { GlassPanel } from './ui/GlassPanel';
 import type { Question } from '../data';
 import { getPlacementForNet } from '../lib/dusPlacement';
+import {
+  computeSimulationNet,
+  computeSimulationBranchStats,
+  computeSimulationUnitStats,
+  type BranchStat,
+} from '../lib/simulationEngine';
 
 export type AnswerDetail = {
   question: Question;
@@ -29,6 +53,8 @@ interface SimulationResultViewProps {
   usedSeconds: number;
   onRestart: () => void;
   onRetryIncorrect?: () => void;
+  onToggleFavorite?: (id: string) => void;
+  initialTab?: 'review' | 'branch' | 'unit';
   theme: {
     card: string;
     subtext: string;
@@ -39,371 +65,663 @@ interface SimulationResultViewProps {
   };
 }
 
-
-/* ─── Animated Counter Hook ─────────────────────────────────── */
-function useCountUp(target: number, duration = 800, delay = 0) {
-  const [value, setValue] = useState(0);
-  useEffect(() => {
-    if (target === 0) { setValue(0); return; }
-    const start = performance.now();
-    let raf: number;
-    const step = (now: number) => {
-      const elapsed = now - start;
-      if (elapsed < delay) { raf = requestAnimationFrame(step); return; }
-      const progress = Math.min(1, (elapsed - delay) / duration);
-      setValue(Math.round(progress * target));
-      if (progress < 1) raf = requestAnimationFrame(step);
-    };
-    raf = requestAnimationFrame(step);
-    return () => cancelAnimationFrame(raf);
-  }, [target, duration, delay]);
-  return value;
-}
-
-
-/* ─── Animated Counter Component ────────────────────────────── */
-function AnimatedValue({ value, className = '' }: { value: number; className?: string }) {
-  const animated = useCountUp(value, 1000, 300);
-  return <span className={className}>{animated}</span>;
-}
-
-/* ═══════════════════════════════════════════════════════════════
-   ANA BİLEŞEN
-   ═══════════════════════════════════════════════════════════════ */
-
 export default function SimulationResultView({
-  details, usedSeconds, onRestart, onRetryIncorrect
+  details,
+  usedSeconds,
+  onRestart,
+  onRetryIncorrect,
+  onToggleFavorite,
+  initialTab = 'review',
+  theme,
 }: SimulationResultViewProps) {
-  const [phase, setPhase] = useState<'entering' | 'counting' | 'done'>('entering');
+  const [reviewIndex, setReviewIndex] = useState<number>(0);
+  const [matrixFilter, setMatrixFilter] = useState<'all' | 'correct' | 'incorrect' | 'blank'>('all');
+  const [activeTab, setActiveTab] = useState<'review' | 'branch' | 'unit'>(initialTab);
 
-  useEffect(() => {
-    const t1 = setTimeout(() => setPhase('counting'), 400);
-    const t2 = setTimeout(() => setPhase('done'), 1600);
-    return () => { clearTimeout(t1); clearTimeout(t2); };
-  }, []);
-
-  const answered = details.filter(d => d.state !== 'blank');
+  const total = details.length;
   const correct = details.filter(d => d.state === 'correct').length;
   const incorrect = details.filter(d => d.state === 'incorrect').length;
   const blank = details.filter(d => d.state === 'blank').length;
-  const total = details.length;
+  const mistakes = incorrect + blank;
 
-  const netScore = +(correct - incorrect / 4).toFixed(2);
-  const accuracy = answered.length > 0 ? Math.round((correct / answered.length) * 100) : 0;
-  // ── Ders bazlı dağılım ──────────────────────────────────────
-  const byLesson = useMemo(() => {
-    const map = new Map<string, { correct: number; incorrect: number; blank: number; total: number }>();
-    for (const d of details) {
-      const l = d.question.lesson;
-      if (!map.has(l)) map.set(l, { correct: 0, incorrect: 0, blank: 0, total: 0 });
-      const entry = map.get(l)!;
-      entry.total++;
-      if (d.state === 'correct') entry.correct++;
-      else if (d.state === 'incorrect') entry.incorrect++;
-      else entry.blank++;
+  const netScore = computeSimulationNet(correct, incorrect);
+  const accuracy = (correct + incorrect) > 0 ? Math.round((correct / (correct + incorrect)) * 100) : 0;
+  const usedMinutes = Math.round(usedSeconds / 60);
+
+  // Branş bazlı istatistikler (Fizyoloji ve Histoloji tek branş altında toplanır)
+  const branchStats = useMemo(() => computeSimulationBranchStats(details), [details]);
+
+  // Ünite bazlı istatistikler (ünitesi belirsiz ise null döner)
+  const unitStats = useMemo(() => computeSimulationUnitStats(details), [details]);
+
+  // Şu an incelenen soru
+  const currentReview = details[reviewIndex] || details[0];
+  const currentQuestion = currentReview?.question;
+
+  // Favori geçişi
+  const [favSparkle, setFavSparkle] = useState(false);
+  const handleReviewToggleFavorite = useCallback(() => {
+    if (!currentQuestion) return;
+    setFavSparkle(true);
+    const willBeFav = !currentQuestion.is_favorite;
+    if (onToggleFavorite) {
+      onToggleFavorite(currentQuestion.id);
     }
-    return Array.from(map.entries())
-      .map(([lesson, v]) => ({
-        lesson,
-        ...v,
-        accuracy: v.total > 0 ? Math.round((v.correct / v.total) * 100) : 0,
-      }))
-      .sort((a, b) => b.total - a.total);
-  }, [details]);
+    currentQuestion.is_favorite = willBeFav;
+    if (willBeFav) toast.success('Soru favorilere eklendi');
+    else toast('Soru favorilerden çıkarıldı');
+    setTimeout(() => setFavSparkle(false), 500);
+  }, [currentQuestion, onToggleFavorite]);
 
-  // ── Zayıf ünite spotlight ───────────────────────────────────
-  const weakUnits = useMemo(() => {
-    const map = new Map<string, { lesson: string; unit: string; correct: number; incorrect: number; blank: number; total: number }>();
-    for (const d of details) {
-      const key = `${d.question.lesson}|||${d.question.unit}`;
-      if (!map.has(key)) map.set(key, { lesson: d.question.lesson, unit: d.question.unit, correct: 0, incorrect: 0, blank: 0, total: 0 });
-      const entry = map.get(key)!;
-      entry.total++;
-      if (d.state === 'correct') entry.correct++;
-      else if (d.state === 'incorrect') entry.incorrect++;
-      else entry.blank++;
+  // Sonraki yanlışa / boşa zıplama
+  const handleJumpToNextMistake = useCallback(() => {
+    for (let i = 1; i <= total; i++) {
+      const idx = (reviewIndex + i) % total;
+      if (details[idx].state !== 'correct') {
+        setReviewIndex(idx);
+        return;
+      }
     }
-    return Array.from(map.values())
-      .map(v => ({ ...v, accuracy: v.total > 0 ? Math.round((v.correct / v.total) * 100) : 0 }))
-      .filter(v => v.accuracy < 60 && v.total >= 3)
-      .sort((a, b) => a.accuracy - b.accuracy)
-      .slice(0, 4);
-  }, [details]);
+    toast.info('Tüm sorularınız doğru!');
+  }, [reviewIndex, total, details]);
 
-
+  const placement = getPlacementForNet(netScore);
 
   return (
-    <div className="w-full relative min-h-dvh pb-32 pt-8">
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-12 w-full anim-fade-in">
-        <div className="mb-10 pl-1">
-          <h2 className="text-2xl md:text-3xl font-bold tracking-tight text-[color:var(--color-accent-soft)]">Sınav Analizi</h2>
-        </div>
+    <div className={`w-full relative min-h-dvh pb-32 pt-6 font-sans ${theme.bg}`}>
+      <div className="max-w-[1340px] mx-auto px-4 sm:px-6 lg:px-8 w-full anim-fade-in">
 
-        {/* Hero Section: Final Score — left-aligned split */}
-        <section className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-8 items-center mb-16 animate-count">
-          {/* Left: score text */}
-          <div>
-            <p className="text-[color:var(--color-text-secondary)] text-xs font-semibold uppercase tracking-widest mb-3">Toplam Net Puanı</p>
-            <div className="text-7xl font-black tracking-tighter text-[color:var(--color-text-primary)] mb-5" id="score-counter">
-              {phase !== 'entering' ? <AnimatedValue value={netScore} /> : '0'}
+        {/* ── ÜST BAŞLIK & SKOR ÖZETİ HERO ── */}
+        <section className="mb-8">
+          <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
+            <div>
+              <span className="px-3 py-1 rounded-full text-xs font-black tracking-widest uppercase bg-rose-500/15 text-rose-300 border border-rose-500/30">
+                DUS Simülasyon Analizi
+              </span>
+              <h2 className="text-3xl sm:text-4xl font-black tracking-tight text-white mt-2">
+                Sınav Performans Karnesi
+              </h2>
             </div>
-            <div className="flex items-center gap-6 text-sm">
-              <span><span className="text-[color:var(--color-correct)] font-bold">{correct}</span> <span className="text-[color:var(--color-text-secondary)]">Doğru</span></span>
-              <span><span className="text-[color:var(--color-incorrect)] font-bold">{incorrect}</span> <span className="text-[color:var(--color-text-secondary)]">Yanlış</span></span>
-              <span><span className="font-bold">{blank}</span> <span className="text-[color:var(--color-text-secondary)]">Boş</span></span>
+
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-white/50 font-medium">120 Soru · 150 Dk Standart</span>
             </div>
           </div>
-          {/* Right: ring decoration */}
-          <div className="relative w-full max-w-[200px] mx-auto lg:mx-0 aspect-square">
-            <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
-              <circle className="text-white/5 stroke-current" cx="50" cy="50" fill="transparent" r="44" strokeWidth="6"></circle>
-              <circle
-                className="text-[color:var(--color-accent-soft)] stroke-current transition-all duration-[1500ms] ease-in-out"
-                cx="50" cy="50" fill="transparent" r="44" strokeLinecap="round" strokeWidth="6"
-                style={{ strokeDasharray: 276.46, strokeDashoffset: phase !== 'entering' ? 276.46 - (276.46 * Math.max(0, netScore) / 120) : 276.46 }}
-              ></circle>
-            </svg>
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
-              <span className="text-[color:var(--color-text-secondary)] text-xs font-semibold uppercase tracking-wider">/ 120</span>
+
+          {/* Hero Net & KPI Kartları */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-stretch">
+            {/* Toplam Net Kartı */}
+            <div className="lg:col-span-5 double-bezel relative overflow-hidden bg-gradient-to-br from-indigo-900/30 via-slate-900/40 to-black/60 p-6 sm:p-8 rounded-2xl border border-indigo-500/30 shadow-2xl flex flex-col justify-between">
+              <div className="absolute top-0 right-0 w-48 h-48 bg-indigo-500/10 blur-3xl pointer-events-none" />
+
+              <div>
+                <span className="text-indigo-300 text-xs font-bold tracking-widest uppercase">
+                  Toplam DUS Neti
+                </span>
+                <div className="text-6xl sm:text-7xl font-black font-mono tracking-tighter text-white mt-2 mb-3">
+                  {netScore.toFixed(2)}
+                  <span className="text-xl sm:text-2xl text-white/40 ml-2 font-normal font-sans">/ 120</span>
+                </div>
+                <p className="text-xs text-white/60">
+                  Formül: <span className="font-mono text-emerald-400 font-bold">{correct} Doğru</span> - (<span className="font-mono text-red-400 font-bold">{incorrect} Yanlış</span> / 4)
+                </p>
+              </div>
+
+              {/* DUS Baraj & Sıralama Rozeti */}
+              <div className="mt-6 pt-5 border-t border-white/10 flex items-center justify-between">
+                <div>
+                  <p className="text-[11px] uppercase font-bold text-white/50">Tahmini Başarı</p>
+                  <p className="text-lg font-black text-transparent bg-clip-text bg-gradient-to-r from-indigo-300 to-pink-300 font-mono">
+                    {placement.passed ? `#${placement.rank} Derece` : 'BARAJ ALTI'}
+                  </p>
+                </div>
+                <div className="text-right">
+                  <p className="text-[11px] uppercase font-bold text-white/50">Başarı Oranı</p>
+                  <p className="text-lg font-black text-white font-mono">%{accuracy}</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Dağılım KPI Kutuları */}
+            <div className="lg:col-span-7 grid grid-cols-2 sm:grid-cols-4 gap-3">
+              <div className="p-5 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex flex-col justify-between">
+                <div className="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-300 flex items-center justify-center font-bold mb-3">
+                  <CheckCircle size={18} weight="fill" />
+                </div>
+                <div>
+                  <p className="text-3xl font-black font-mono text-emerald-400">{correct}</p>
+                  <p className="text-xs font-bold text-emerald-300/80 uppercase mt-1">Doğru (Yeşil)</p>
+                </div>
+              </div>
+
+              <div className="p-5 rounded-2xl bg-red-500/10 border border-red-500/20 flex flex-col justify-between">
+                <div className="w-8 h-8 rounded-lg bg-red-500/20 text-red-300 flex items-center justify-center font-bold mb-3">
+                  <XCircle size={18} weight="fill" />
+                </div>
+                <div>
+                  <p className="text-3xl font-black font-mono text-red-400">{incorrect}</p>
+                  <p className="text-xs font-bold text-red-300/80 uppercase mt-1">Yanlış (Kırmızı)</p>
+                </div>
+              </div>
+
+              <div className="p-5 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex flex-col justify-between">
+                <div className="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-300 flex items-center justify-center font-bold mb-3">
+                  <Warning size={18} weight="fill" />
+                </div>
+                <div>
+                  <p className="text-3xl font-black font-mono text-amber-400">{blank}</p>
+                  <p className="text-xs font-bold text-amber-300/80 uppercase mt-1">Boş (Sarı)</p>
+                </div>
+              </div>
+
+              <div className="p-5 rounded-2xl bg-white/[0.04] border border-white/10 flex flex-col justify-between">
+                <div className="w-8 h-8 rounded-lg bg-white/10 text-slate-200 flex items-center justify-center font-bold mb-3">
+                  <Clock size={18} />
+                </div>
+                <div>
+                  <p className="text-3xl font-black font-mono text-white">{usedMinutes} <span className="text-sm font-sans font-medium text-white/50">DK</span></p>
+                  <p className="text-xs font-bold text-white/60 uppercase mt-1">Süre / 150 Dk</p>
+                </div>
+              </div>
+
+              {/* 5-Deneme Tekrar Dağıtımı Bilgi Rozeti */}
+              <div className="col-span-2 sm:col-span-4 p-4 rounded-2xl bg-gradient-to-r from-blue-900/20 via-indigo-900/20 to-purple-900/20 border border-indigo-500/30 flex items-center gap-4">
+                <div className="w-10 h-10 rounded-xl bg-indigo-500/20 text-indigo-300 flex items-center justify-center shrink-0">
+                  <Repeat size={22} weight="bold" />
+                </div>
+                <div className="text-xs leading-relaxed text-white/80">
+                  <strong className="text-indigo-300">5 Denemelik Adaptif Dağıtım:</strong> Bu simülasyondaki{' '}
+                  <span className="text-amber-300 font-bold">{blank} boş</span> ve{' '}
+                  <span className="text-red-300 font-bold">{incorrect} yanlış</span> soru, branş farkları dengelenerek
+                  sonraki 5 DUS simülasyonunuza paylaştırıldı (her denemede ~{Math.ceil(mistakes / 5)} soru tekrar gelecektir).
+                  Doğru çözülen <span className="text-emerald-300 font-bold">{correct} soru</span> ise simülasyon havuzundan elendi.
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* DUS Placement Banner */}
-        {(() => {
-          const placement = getPlacementForNet(netScore);
-          return (
-            <section className="mb-12 anim-slide-up">
-              {placement.passed ? (
-                <div className="relative overflow-hidden bg-gradient-to-r from-indigo-500/10 via-purple-500/10 to-pink-500/10 backdrop-blur-[24px] border border-indigo-500/20 rounded-3xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-[0_0_50px_rgba(111,114,242,0.15)] group">
-                  {/* Atmospheric inner glow */}
-                  <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 blur-[80px] rounded-full pointer-events-none group-hover:scale-125 transition-transform duration-1000" />
-                  
-                  <div className="flex items-center gap-5 relative z-10">
-                    <div className="w-14 h-14 rounded-2xl bg-indigo-500/20 border border-indigo-400/30 flex items-center justify-center text-indigo-300 shadow-[0_0_20px_rgba(99,102,241,0.3)] shrink-0">
-                      <GraduationCap size={28} />
-                    </div>
-                    <div>
-                      <p className="text-indigo-300 text-xs font-black tracking-widest uppercase mb-1">DUS Yerleştirme Simülasyonu</p>
-                      <h3 className="text-2xl md:text-3xl font-black text-[color:var(--color-text-primary)] tracking-tight flex items-center gap-2">
-                        Tahmini Sıralama: <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400 font-mono">#{placement.rank}</span>
-                      </h3>
-                      <p className="text-[color:var(--color-text-secondary)] text-xs font-medium mt-1">Son DUS sınav yerleştirme verilerine göre hesaplanan ortalama başarı derecesi.</p>
-                    </div>
-                  </div>
+        {/* ── 120 SORULUK ANALİZ MATRİSİ (KUTUCUKLAR) ── */}
+        {/* KURAL: "en son analiz kısmında ise bu kutucuklardan boşlar sarı doğrular yeşil yanlışlar kırmızı yanar ve sorular arası geçiş yapılarak inceleme yapılabilir." */}
+        <section className="mb-10 double-bezel p-6 sm:p-8 rounded-2xl bg-black/30 border border-white/10 backdrop-blur-md">
+          <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
+            <div>
+              <h3 className="text-lg font-black text-white flex items-center gap-2">
+                <ChartBar size={20} className="text-indigo-400" />
+                120 Soru Analiz Tablosu
+              </h3>
+              <p className="text-xs text-white/50 mt-0.5">
+                Kutucuklara tıklayarak istediğiniz sorunun kök, şık ve açıklamalarını inceleyebilirsiniz.
+              </p>
+            </div>
 
-                  <div className="w-full md:w-auto shrink-0 relative z-10 flex flex-col gap-2">
-                    <p className="text-[color:var(--color-text-secondary)] text-[10px] font-black uppercase tracking-wider text-center md:text-left">
-                      Girilebilecek En Yüksek Üniversiteler
-                    </p>
-                    <div className="flex flex-wrap gap-2 justify-center md:justify-start">
-                      {placement.universities.split(',').map((uni, idx) => (
-                        <span key={idx} className="px-4 py-2 rounded-xl bg-white/[0.03] hover:bg-white/[0.08] border border-white/5 hover:border-indigo-500/30 text-xs font-bold text-slate-100 transition-all flex items-center gap-1.5 shadow-sm whitespace-nowrap">
-                          <Medal size={13} weight="thin" className="text-indigo-400" /> {uni.replace('- ', '').trim()}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              ) : (
-                <div className="relative overflow-hidden bg-gradient-to-r from-red-500/10 via-amber-500/10 to-red-500/10 backdrop-blur-[24px] border border-red-500/20 rounded-3xl p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-[0_0_50px_rgba(239,68,68,0.1)]">
-                  <div className="flex items-center gap-5 relative z-10">
-                    <div className="w-14 h-14 rounded-2xl bg-red-500/20 border border-red-400/30 flex items-center justify-center text-red-300 shadow-[0_0_20px_rgba(239,68,68,0.3)] shrink-0">
-                      <Warning size={28} weight="thin" />
-                    </div>
-                    <div>
-                      <p className="text-red-300 text-xs font-black tracking-widest uppercase mb-1">DUS Yerleştirme Simülasyonu</p>
-                      <h3 className="text-2xl md:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-amber-400 tracking-tight">
-                        BARAJI GEÇEMEDİNİZ
-                      </h3>
-                      <p className="text-[color:var(--color-text-secondary)] text-xs font-medium mt-1">DUS yerleştirme tercih hakkı kazanabilmek için en az 50 Net yapmanız gerekmektedir.</p>
-                    </div>
-                  </div>
-                  <div className="w-full md:w-auto shrink-0 relative z-10">
-                    <div className="px-6 py-3 rounded-xl bg-red-500/10 border border-red-500/20 text-xs font-bold text-red-300 text-center">
-                      Hedef: 50+ Net! Odaklan ve Tekrar Çöz!
-                    </div>
-                  </div>
-                </div>
-              )}
-            </section>
-          );
-        })()}
+            {/* Filtre Butonları */}
+            <div className="flex items-center gap-1.5 p-1 rounded-xl bg-white/5 border border-white/10 text-xs">
+              <button
+                type="button"
+                onClick={() => setMatrixFilter('all')}
+                className={`px-3 py-1.5 rounded-lg font-bold transition-all ${
+                  matrixFilter === 'all' ? 'bg-white/15 text-white' : 'text-white/50 hover:text-white'
+                }`}
+              >
+                Tümü (120)
+              </button>
+              <button
+                type="button"
+                onClick={() => setMatrixFilter('correct')}
+                className={`px-3 py-1.5 rounded-lg font-bold transition-all flex items-center gap-1.5 ${
+                  matrixFilter === 'correct' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' : 'text-emerald-400/60 hover:text-emerald-300'
+                }`}
+              >
+                <span className="w-2 h-2 rounded-full bg-emerald-400" />
+                Doğru ({correct})
+              </button>
+              <button
+                type="button"
+                onClick={() => setMatrixFilter('incorrect')}
+                className={`px-3 py-1.5 rounded-lg font-bold transition-all flex items-center gap-1.5 ${
+                  matrixFilter === 'incorrect' ? 'bg-red-500/20 text-red-300 border border-red-500/30' : 'text-red-400/60 hover:text-red-300'
+                }`}
+              >
+                <span className="w-2 h-2 rounded-full bg-red-400" />
+                Yanlış ({incorrect})
+              </button>
+              <button
+                type="button"
+                onClick={() => setMatrixFilter('blank')}
+                className={`px-3 py-1.5 rounded-lg font-bold transition-all flex items-center gap-1.5 ${
+                  matrixFilter === 'blank' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' : 'text-amber-400/60 hover:text-amber-300'
+                }`}
+              >
+                <span className="w-2 h-2 rounded-full bg-amber-400" />
+                Boş ({blank})
+              </button>
+            </div>
+          </div>
 
-        {/* KPI Row */}
-        <motion.section 
-          initial="hidden" animate="show" 
-          variants={{ hidden: { opacity: 0 }, show: { opacity: 1, transition: { staggerChildren: 0.1 } } }} 
-          className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12"
-        >
-          <motion.div variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0, transition: { ease: "easeOut" } } }} className="double-bezel group hover:scale-[1.02] transition-transform duration-300 cursor-default">
-            <div className="double-bezel-inner p-6 flex items-center gap-5">
-              <div className="w-12 h-12 rounded-2xl bg-[color:var(--color-accent-soft)]/10 flex items-center justify-center text-[color:var(--color-accent-soft)]">
-                <Checks size={24} />
+          {/* Temel Bilimler (1 - 40) */}
+          <div className="mb-6">
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-xs font-black tracking-wider uppercase text-indigo-300">
+                Temel Bilimler (1 - 40)
+              </span>
+              <span className="text-[11px] font-mono text-white/40">40 Soru</span>
+            </div>
+            <div className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 lg:grid-cols-20 gap-1.5">
+              {details.slice(0, 40).map((d, idx) => {
+                const isSelected = reviewIndex === idx;
+                const matchesFilter =
+                  matrixFilter === 'all' ||
+                  (matrixFilter === 'correct' && d.state === 'correct') ||
+                  (matrixFilter === 'incorrect' && d.state === 'incorrect') ||
+                  (matrixFilter === 'blank' && d.state === 'blank');
+
+                return (
+                  <button
+                    key={d.question.id}
+                    type="button"
+                    onClick={() => setReviewIndex(idx)}
+                    className={`h-9 rounded-lg font-mono text-xs font-bold transition-all flex items-center justify-center relative cursor-pointer ${
+                      isSelected ? 'ring-2 ring-white scale-110 z-10 font-black shadow-lg shadow-white/20' : 'hover:scale-105'
+                    } ${
+                      !matchesFilter ? 'opacity-20 hover:opacity-100' : 'opacity-100'
+                    } ${
+                      d.state === 'correct'
+                        ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-sm shadow-emerald-500/20'
+                        : d.state === 'incorrect'
+                        ? 'bg-red-500/20 text-red-300 border border-red-500/40 shadow-sm shadow-red-500/20'
+                        : 'bg-amber-400/20 text-amber-300 border border-amber-400/40 shadow-sm shadow-amber-400/20'
+                    }`}
+                    title={`Soru ${idx + 1} (${d.question.lesson}) - ${
+                      d.state === 'correct' ? 'Doğru' : d.state === 'incorrect' ? 'Yanlış' : 'Boş'
+                    }`}
+                  >
+                    {idx + 1}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Klinik Bilimler (41 - 120) */}
+          <div>
+            <div className="flex items-center justify-between mb-2">
+              <span className="text-xs font-black tracking-wider uppercase text-emerald-300">
+                Klinik Bilimler (41 - 120)
+              </span>
+              <span className="text-[11px] font-mono text-white/40">80 Soru</span>
+            </div>
+            <div className="grid grid-cols-8 sm:grid-cols-10 md:grid-cols-12 lg:grid-cols-20 gap-1.5">
+              {details.slice(40, 120).map((d, localIdx) => {
+                const globalIdx = 40 + localIdx;
+                const isSelected = reviewIndex === globalIdx;
+                const matchesFilter =
+                  matrixFilter === 'all' ||
+                  (matrixFilter === 'correct' && d.state === 'correct') ||
+                  (matrixFilter === 'incorrect' && d.state === 'incorrect') ||
+                  (matrixFilter === 'blank' && d.state === 'blank');
+
+                return (
+                  <button
+                    key={d.question.id}
+                    type="button"
+                    onClick={() => setReviewIndex(globalIdx)}
+                    className={`h-9 rounded-lg font-mono text-xs font-bold transition-all flex items-center justify-center relative cursor-pointer ${
+                      isSelected ? 'ring-2 ring-white scale-110 z-10 font-black shadow-lg shadow-white/20' : 'hover:scale-105'
+                    } ${
+                      !matchesFilter ? 'opacity-20 hover:opacity-100' : 'opacity-100'
+                    } ${
+                      d.state === 'correct'
+                        ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-sm shadow-emerald-500/20'
+                        : d.state === 'incorrect'
+                        ? 'bg-red-500/20 text-red-300 border border-red-500/40 shadow-sm shadow-red-500/20'
+                        : 'bg-amber-400/20 text-amber-300 border border-amber-400/40 shadow-sm shadow-amber-400/20'
+                    }`}
+                    title={`Soru ${globalIdx + 1} (${d.question.lesson}) - ${
+                      d.state === 'correct' ? 'Doğru' : d.state === 'incorrect' ? 'Yanlış' : 'Boş'
+                    }`}
+                  >
+                    {globalIdx + 1}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
+        {/* ── İNCELEME & BRANŞ/ÜNİTE ANALİZ SEKMELERİ ── */}
+        <div className="flex items-center gap-2 mb-6 border-b border-white/10 pb-3">
+          <button
+            type="button"
+            onClick={() => setActiveTab('review')}
+            className={`px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-2 cursor-pointer ${
+              activeTab === 'review'
+                ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                : 'bg-white/5 text-white/60 hover:text-white'
+            }`}
+          >
+            <BookmarkSimple size={18} />
+            Soru İnceleme ({reviewIndex + 1}/{total})
+          </button>
+
+          <button
+            type="button"
+            onClick={() => setActiveTab('branch')}
+            className={`px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-2 cursor-pointer ${
+              activeTab === 'branch'
+                ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                : 'bg-white/5 text-white/60 hover:text-white'
+            }`}
+          >
+            <GraduationCap size={18} />
+            Branş Bazlı Analiz (14 Branş)
+          </button>
+
+          {unitStats && unitStats.length > 0 && (
+            <button
+              type="button"
+              onClick={() => setActiveTab('unit')}
+              className={`px-4 py-2 rounded-xl text-sm font-bold transition-all flex items-center gap-2 cursor-pointer ${
+                activeTab === 'unit'
+                  ? 'bg-indigo-600 text-white shadow-lg shadow-indigo-600/30'
+                  : 'bg-white/5 text-white/60 hover:text-white'
+              }`}
+            >
+              <ChartBar size={18} />
+              Ünite Bazlı Analiz
+            </button>
+          )}
+        </div>
+
+        {/* ── SEKME 1: İNTERAKTİF SORU İNCELEME ── */}
+        {activeTab === 'review' && currentQuestion && (
+          <section className="double-bezel p-6 sm:p-8 rounded-2xl bg-black/40 border border-white/10 backdrop-blur-md anim-fade-in mb-12">
+            <div className="flex flex-wrap items-center justify-between gap-4 pb-4 border-b border-white/10 mb-6">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl font-black text-white font-mono">
+                  Soru {reviewIndex + 1}
+                </span>
+
+                <span className="text-xs px-2.5 py-1 rounded-md bg-white/10 font-bold text-white/80">
+                  {currentQuestion.lesson} {currentQuestion.unit ? `› ${currentQuestion.unit}` : ''}
+                </span>
+
+                {/* Soru Durum Rozeti */}
+                <span className={`text-xs font-black px-3 py-1 rounded-lg uppercase tracking-wider ${
+                  currentReview.state === 'correct'
+                    ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30'
+                    : currentReview.state === 'incorrect'
+                    ? 'bg-red-500/20 text-red-300 border border-red-500/30'
+                    : 'bg-amber-500/20 text-amber-300 border border-amber-500/30'
+                }`}>
+                  {currentReview.state === 'correct' ? 'Doğru' : currentReview.state === 'incorrect' ? 'Yanlış' : 'Boş Bırakıldı'}
+                </span>
               </div>
-              <div>
-                <p className="text-[color:var(--color-text-secondary)] text-sm font-medium">Net Sayısı</p>
-                <p className="text-2xl font-bold">{netScore.toFixed(2)}</p>
+
+              {/* Favori Butonu & Sonraki Yanlış Butonu */}
+              <div className="flex items-center gap-2">
+                <Button
+                  onClick={handleJumpToNextMistake}
+                  variant="unstyled"
+                  size="sm"
+                  className="px-3 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-white/70 hover:text-white border border-white/10 text-xs font-semibold"
+                >
+                  Sonraki Hata →
+                </Button>
+
+                <Button
+                  onClick={handleReviewToggleFavorite}
+                  variant="unstyled"
+                  aria-label={currentQuestion.is_favorite ? 'Favorilerden çıkar' : 'Favorilere ekle'}
+                  className={`p-2.5 rounded-xl border transition-all duration-300 cursor-pointer ${
+                    currentQuestion.is_favorite
+                      ? 'bg-amber-400/20 text-amber-300 border-amber-400/40 shadow-lg shadow-amber-400/10'
+                      : 'bg-white/5 text-white/40 border-white/10 hover:text-amber-300 hover:border-amber-400/30'
+                  } ${favSparkle ? 'animate-[gold-sparkle_0.6s_ease-in-out]' : ''}`}
+                >
+                  <Star size={18} className={currentQuestion.is_favorite ? 'fill-current' : ''} />
+                </Button>
               </div>
             </div>
-          </motion.div>
 
-          <motion.div variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0, transition: { ease: "easeOut" } } }} className="double-bezel group hover:scale-[1.02] transition-transform duration-300 cursor-default">
-            <div className="double-bezel-inner p-6 flex items-center gap-5">
-              <div className="w-12 h-12 rounded-2xl bg-[color:var(--color-warning)]/10 flex items-center justify-center text-[color:var(--color-warning)]">
-                <Clock size={24} />
-              </div>
-              <div>
-                <p className="text-[color:var(--color-text-secondary)] text-sm font-medium">Süre</p>
-                <p className="text-2xl font-bold">{Math.round(usedSeconds / 60)} DK</p>
-              </div>
+            {/* Soru Kökü */}
+            <div className="mb-8">
+              <p className="text-base sm:text-lg leading-relaxed font-medium text-white/95 whitespace-pre-line select-text">
+                {currentQuestion.question}
+              </p>
             </div>
-          </motion.div>
 
-          <motion.div variants={{ hidden: { opacity: 0, y: 20 }, show: { opacity: 1, y: 0, transition: { ease: "easeOut" } } }} className="double-bezel group hover:scale-[1.02] transition-transform duration-300 cursor-default">
-            <div className="double-bezel-inner p-6 flex items-center gap-5">
-              <div className="w-12 h-12 rounded-2xl bg-emerald-400/10 flex items-center justify-center text-emerald-400">
-                <ChartBar size={24} weight="thin" />
-              </div>
-              <div>
-                <p className="text-[color:var(--color-text-secondary)] text-sm font-medium">Doğruluk</p>
-                <p className="text-2xl font-bold">%{accuracy} <span className="text-sm text-[color:var(--color-text-secondary)] font-normal">/ {answered.length} cevap</span></p>
-              </div>
+            {/* Şıklar */}
+            <div className="space-y-3 mb-8">
+              {currentQuestion.options && Object.entries(currentQuestion.options).map(([key, text]) => {
+                const isCorrect = key === currentQuestion.correctAnswer;
+                const isUserSelected = currentReview.selectedOptionKey === key;
+                const isWrongSelection = isUserSelected && !isCorrect;
+
+                let cls = 'w-full text-left p-4 rounded-xl flex items-center gap-4 border transition-all ';
+                if (isCorrect) {
+                  cls += 'bg-emerald-500/15 border-emerald-500 text-emerald-200 ring-1 ring-emerald-500/50';
+                } else if (isWrongSelection) {
+                  cls += 'bg-red-500/15 border-red-500 text-red-200 ring-1 ring-red-500/50';
+                } else {
+                  cls += 'bg-white/[0.03] border-white/5 text-white/60 opacity-60';
+                }
+
+                return (
+                  <div key={key} className={cls}>
+                    <div className={`w-8 h-8 rounded-lg flex items-center justify-center font-bold text-xs shrink-0 ${
+                      isCorrect
+                        ? 'bg-emerald-500 text-black'
+                        : isWrongSelection
+                        ? 'bg-red-500 text-white'
+                        : 'bg-white/10 text-white/50'
+                    }`}>
+                      {key}
+                    </div>
+                    <span className="flex-1 leading-snug">{text}</span>
+                    {isCorrect && (
+                      <span className="text-xs font-black text-emerald-400 uppercase tracking-wider shrink-0 flex items-center gap-1">
+                        <CheckCircle size={15} weight="fill" /> Doğru Cevap
+                      </span>
+                    )}
+                    {isWrongSelection && (
+                      <span className="text-xs font-black text-red-400 uppercase tracking-wider shrink-0 flex items-center gap-1">
+                        <XCircle size={15} weight="fill" /> Sizin Cevabınız
+                      </span>
+                    )}
+                  </div>
+                );
+              })}
             </div>
-          </motion.div>
-        </motion.section>
 
-        <motion.div 
-          initial="hidden" animate="show" 
-          variants={{ hidden: { opacity: 0 }, show: { opacity: 1, transition: { staggerChildren: 0.15 } } }} 
-          className="grid grid-cols-1 lg:grid-cols-12 gap-8"
-        >
-          {/* Results Donut Chart Column */}
-          <motion.div variants={{ hidden: { opacity: 0, rotateX: 10, y: 30, scale: 0.95 }, show: { opacity: 1, rotateX: 0, y: 0, scale: 1, transition: { type: "spring", damping: 20 } } }} style={{ perspective: 1000 }} className="lg:col-span-4 double-bezel flex flex-col items-center">
-            <div className="double-bezel-inner w-full flex flex-col items-center p-8">
-              <h3 className="w-full text-lg font-bold mb-8 text-[color:var(--color-text-primary)]">Soru Dağılımı</h3>
-              <div className="relative w-48 h-48 mb-8">
-                <svg className="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
-                  <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="rgba(255,255,255,0.05)" strokeWidth="4"></circle>
-                  {/* Boş */}
-                  <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="var(--color-kpi-trend-flat)" strokeDasharray={`${(blank / total) * 100} 100`} strokeDashoffset="0" strokeWidth="4"></circle>
-                  {/* Yanlış */}
-                  <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="var(--color-incorrect)" strokeDasharray={`${((incorrect) / total) * 100} 100`} strokeDashoffset={`-${(blank / total) * 100}`} strokeWidth="4"></circle>
-                  {/* Doğru */}
-                  <circle cx="18" cy="18" fill="transparent" r="15.915" stroke="var(--color-correct)" strokeDasharray={`${(correct / total) * 100} 100`} strokeDashoffset={`-${((blank + incorrect) / total) * 100}`} strokeWidth="4"></circle>
-                </svg>
-                <div className="absolute inset-0 flex flex-col items-center justify-center">
-                  <span className="text-3xl font-black text-[color:var(--color-text-primary)]">{total}</span>
-                  <span className="text-[10px] text-[color:var(--color-text-secondary)] uppercase tracking-widest font-bold">Toplam Soru</span>
+            {/* Açıklama Kutusu */}
+            {currentQuestion.explanation && (
+              <div className="p-6 rounded-2xl bg-indigo-950/20 border border-indigo-500/25 relative overflow-hidden mb-8">
+                <div className="flex items-center gap-2 mb-2 text-indigo-300 text-xs font-black uppercase tracking-widest">
+                  <Sparkle size={16} /> Detaylı Sınav Açıklaması
+                </div>
+                <div className="text-sm leading-relaxed text-indigo-100/90 whitespace-pre-line select-text font-normal">
+                  {currentQuestion.explanation}
                 </div>
               </div>
+            )}
 
-              <div className="w-full space-y-4">
-                <div className="flex justify-between items-center">
-                  <div className="flex items-center gap-3">
-                    <span className="w-3 h-3 rounded-full bg-[color:var(--color-correct)]"></span>
-                    <span className="text-[color:var(--color-text-secondary)]">Doğru</span>
-                  </div>
-                  <span className="font-bold text-[color:var(--color-text-primary)]">{correct}</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <div className="flex items-center gap-3">
-                    <span className="w-3 h-3 rounded-full bg-[color:var(--color-incorrect)]"></span>
-                    <span className="text-[color:var(--color-text-secondary)]">Yanlış</span>
-                  </div>
-                  <span className="font-bold text-[color:var(--color-text-primary)]">{incorrect}</span>
-                </div>
-                <div className="flex justify-between items-center">
-                  <div className="flex items-center gap-3">
-                    <span className="w-3 h-3 rounded-full bg-[color:var(--color-kpi-trend-flat)]"></span>
-                    <span className="text-[color:var(--color-text-secondary)]">Boş</span>
-                  </div>
-                  <span className="font-bold text-[color:var(--color-text-primary)]">{blank}</span>
-                </div>
-              </div>
-            </div>
-          </motion.div>
+            {/* İnceleme İleri / Geri Butonları */}
+            <div className="flex items-center justify-between pt-4 border-t border-white/10">
+              <Button
+                onClick={() => setReviewIndex(prev => Math.max(0, prev - 1))}
+                disabled={reviewIndex === 0}
+                variant="secondary"
+                size="md"
+              >
+                <ArrowLeft size={16} /> Önceki Soru
+              </Button>
 
-          {/* Ders Bazlı Başarı Column */}
-          <motion.div variants={{ hidden: { opacity: 0, rotateX: 10, y: 30, scale: 0.95 }, show: { opacity: 1, rotateX: 0, y: 0, scale: 1, transition: { type: "spring", damping: 20 } } }} style={{ perspective: 1000 }} className="lg:col-span-8 double-bezel">
-            <div className="double-bezel-inner p-8">
-              <h3 className="text-lg font-bold mb-8 text-[color:var(--color-text-primary)]">Ders Bazlı Başarı</h3>
-              <div className="space-y-6">
-                {byLesson.map((l) => (
-                  <div key={l.lesson} className="space-y-2 group">
-                    <div className="flex justify-between items-center text-sm">
-                      <span className="font-semibold text-[color:var(--color-text-primary)]">{l.lesson}</span>
-                      <span className={`font-bold ${l.accuracy >= 70 ? 'text-[color:var(--color-correct)]' : l.accuracy >= 50 ? 'text-[color:var(--color-warning)]' : 'text-[color:var(--color-incorrect)]'}`}>{l.accuracy}%</span>
-                    </div>
-                    <div className="h-2 w-full bg-white/5 rounded-full overflow-hidden">
-                      <motion.div
-                        initial={{ width: 0 }}
-                        animate={{ width: `${l.accuracy}%` }}
-                        transition={{ duration: 1, delay: 0.5, ease: "easeOut" }}
-                        className={`h-full rounded-full ${l.accuracy >= 70 ? 'bg-[color:var(--color-correct)]' : l.accuracy >= 50 ? 'bg-[#fbbf24]' : 'bg-[color:var(--color-incorrect)]'}`}
-                      ></motion.div>
-                    </div>
-                    <div className="flex justify-end gap-2 text-[10px] text-[color:var(--color-text-secondary)] font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                      <span className="text-emerald-400/80">{l.correct} D</span> • <span className="text-red-400/80">{l.incorrect} Y</span> • <span>{l.blank} B</span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </motion.div>
-        </motion.div>
+              <span className="font-mono text-xs text-white/50">
+                {reviewIndex + 1} / {total}
+              </span>
 
-        {/* Zayıf Ünite Spotlight */}
-        {weakUnits.length > 0 && (
-          <section className="mt-12">
-            <h3 className="text-lg font-bold mb-6 flex items-center gap-3 text-[color:var(--color-text-primary)]">
-              <Warning weight="thin" className="text-[color:var(--color-warning)]" size={20} />
-              Zayıf Olduğun Konular
-            </h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {weakUnits.map((wu, i) => (
-                <GlassPanel as="div" variant="heavy" key={`${wu.lesson}-${wu.unit}`} className={`p-6 border-l-4 ${i === 0 ? 'border-[color:var(--color-incorrect)]' : 'border-[color:var(--color-warning)]'} rounded-l-none relative overflow-hidden group`}>
-                  <div className="absolute top-0 right-0 p-4 opacity-10">
-                    {i === 0 ? <Brain size={64} className="text-[color:var(--color-incorrect)]" /> : <Microscope size={64} className="text-[color:var(--color-warning)]" />}
-                  </div>
-                  <div className="flex justify-between items-start mb-4 relative z-10">
-                    <div>
-                      <p className={`text-[10px] ${i === 0 ? 'text-[color:var(--color-incorrect)]' : 'text-[color:var(--color-warning)]'} font-black uppercase tracking-widest mb-1`}>
-                        {i === 0 ? 'Kritik Eksik' : 'Geliştirilmeli'}
-                      </p>
-                      <h4 className="text-xl font-bold text-[color:var(--color-text-primary)] max-w-[80%]">{wu.unit}</h4>
-                      <p className="text-[color:var(--color-text-secondary)] text-xs mt-1">{wu.lesson}</p>
-                    </div>
-                    <span className={`${i === 0 ? 'bg-[color:var(--color-incorrect)]/10 text-[color:var(--color-incorrect)]' : 'bg-[color:var(--color-warning)]/10 text-[color:var(--color-warning)]'} text-xs font-bold px-3 py-1 rounded-full whitespace-nowrap`}>
-                      %{wu.accuracy} Başarı
-                    </span>
-                  </div>
-                  <Button onClick={() => {
-                    // Kullanıcı Hemen Çalış dediğinde, sadece bu üniteyi çalıştırabiliriz veya onRestart ile ana ekrana dönebilir
-                    onRestart();
-                  }} variant="unstyled" className="w-full bg-white/5 hover:bg-white/10 text-[color:var(--color-text-primary)] font-semibold py-3 rounded-xl transition-all flex items-center justify-center gap-2 relative z-10 mt-6">
-                    Hemen Çalış <ArrowRight size={16} />
-                  </Button>
-                </GlassPanel>
-              ))}
+              <Button
+                onClick={() => setReviewIndex(prev => Math.min(total - 1, prev + 1))}
+                disabled={reviewIndex === total - 1}
+                variant="secondary"
+                size="md"
+              >
+                Sonraki Soru <ArrowRight size={16} />
+              </Button>
             </div>
           </section>
         )}
+
+        {/* ── SEKME 2: BRANŞ BAZLI ANALİZ (FİZYOLOJİ VE HİSTOLOJİ BİRLEŞİK) ── */}
+        {/* KURAL: "fizyoloji ve histoloji istatistiği bir tutulur ayrılmaz." */}
+        {activeTab === 'branch' && (
+          <section className="double-bezel p-6 sm:p-8 rounded-2xl bg-black/40 border border-white/10 backdrop-blur-md anim-fade-in mb-12">
+            <div className="mb-6">
+              <h3 className="text-xl font-black text-white">Branş Bazlı Net Dağılımı</h3>
+              <p className="text-xs text-white/60 mt-1">
+                ÖSYM DUS standartlarına göre Fizyoloji ve Histoloji tek branş olarak birleşik değerlendirilir.
+              </p>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-sm">
+                <thead>
+                  <tr className="border-b border-white/10 text-white/50 text-[11px] font-bold uppercase tracking-wider">
+                    <th className="py-3 px-4">Ders / Branş</th>
+                    <th className="py-3 px-3 text-center">Alan</th>
+                    <th className="py-3 px-3 text-center">Soru</th>
+                    <th className="py-3 px-3 text-center text-emerald-400">Doğru</th>
+                    <th className="py-3 px-3 text-center text-red-400">Yanlış</th>
+                    <th className="py-3 px-3 text-center text-amber-400">Boş</th>
+                    <th className="py-3 px-4 text-center text-indigo-300 font-bold">Net (D - Y/4)</th>
+                    <th className="py-3 px-4 text-right">Başarı</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/5">
+                  {branchStats.map((st: BranchStat) => (
+                    <tr key={st.branch} className="hover:bg-white/[0.02] transition-colors">
+                      <td className="py-3.5 px-4 font-bold text-white flex items-center gap-2">
+                        {st.branch}
+                        {st.branch === 'Fizyoloji - Histoloji' && (
+                          <span className="text-[10px] px-1.5 py-0.5 rounded bg-indigo-500/20 text-indigo-300 font-mono">
+                            Birleşik
+                          </span>
+                        )}
+                      </td>
+                      <td className="py-3.5 px-3 text-center">
+                        <span className={`text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full ${
+                          st.category === 'temel'
+                            ? 'bg-indigo-500/10 text-indigo-300 border border-indigo-500/20'
+                            : 'bg-emerald-500/10 text-emerald-300 border border-emerald-500/20'
+                        }`}>
+                          {st.category}
+                        </span>
+                      </td>
+                      <td className="py-3.5 px-3 text-center font-mono font-bold text-white/80">{st.total}</td>
+                      <td className="py-3.5 px-3 text-center font-mono font-bold text-emerald-400">{st.correct}</td>
+                      <td className="py-3.5 px-3 text-center font-mono font-bold text-red-400">{st.incorrect}</td>
+                      <td className="py-3.5 px-3 text-center font-mono font-bold text-amber-400">{st.blank}</td>
+                      <td className="py-3.5 px-4 text-center font-mono font-black text-indigo-300 text-base">
+                        {st.net.toFixed(2)}
+                      </td>
+                      <td className="py-3.5 px-4 text-right">
+                        <div className="flex items-center justify-end gap-2">
+                          <div className="w-16 h-2 rounded-full bg-white/10 overflow-hidden hidden sm:block">
+                            <div
+                              className={`h-full rounded-full ${
+                                st.accuracy >= 70 ? 'bg-emerald-400' : st.accuracy >= 50 ? 'bg-amber-400' : 'bg-red-400'
+                              }`}
+                              style={{ width: `${st.accuracy}%` }}
+                            />
+                          </div>
+                          <span className="font-mono font-bold text-white">%{st.accuracy}</span>
+                        </div>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
+
+        {/* ── SEKME 3: ÜNİTE BAZLI ANALİZ ── */}
+        {activeTab === 'unit' && (
+          <section className="double-bezel p-6 sm:p-8 rounded-2xl bg-black/40 border border-white/10 backdrop-blur-md anim-fade-in mb-12">
+            <div className="mb-6">
+              <h3 className="text-xl font-black text-white">Ünite Bazlı Net Dağılımı</h3>
+              <p className="text-xs text-white/60 mt-1">
+                Kanonik müfredat ünitelerine göre soru başarı detayları.
+              </p>
+            </div>
+
+            {unitStats && unitStats.length > 0 ? (
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-sm">
+                  <thead>
+                    <tr className="border-b border-white/10 text-white/50 text-[11px] font-bold uppercase tracking-wider">
+                      <th className="py-3 px-4">Ders</th>
+                      <th className="py-3 px-4">Ünite</th>
+                      <th className="py-3 px-3 text-center">Soru</th>
+                      <th className="py-3 px-3 text-center text-emerald-400">Doğru</th>
+                      <th className="py-3 px-3 text-center text-red-400">Yanlış</th>
+                      <th className="py-3 px-3 text-center text-amber-400">Boş</th>
+                      <th className="py-3 px-4 text-center text-indigo-300 font-bold">Net</th>
+                      <th className="py-3 px-4 text-right">Başarı</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-white/5">
+                    {unitStats.map((u, i) => (
+                      <tr key={i} className="hover:bg-white/[0.02] transition-colors">
+                        <td className="py-3 px-4 font-bold text-white">{u.lesson}</td>
+                        <td className="py-3 px-4 text-white/80 max-w-xs truncate">{u.unit}</td>
+                        <td className="py-3 px-3 text-center font-mono text-white/70">{u.total}</td>
+                        <td className="py-3 px-3 text-center font-mono text-emerald-400">{u.correct}</td>
+                        <td className="py-3 px-3 text-center font-mono text-red-400">{u.incorrect}</td>
+                        <td className="py-3 px-3 text-center font-mono text-amber-400">{u.blank}</td>
+                        <td className="py-3 px-4 text-center font-mono font-bold text-indigo-300">{u.net.toFixed(2)}</td>
+                        <td className="py-3 px-4 text-right font-mono font-bold text-white">%{u.accuracy}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            ) : (
+              <div className="p-8 text-center text-white/50 text-sm">
+                Sorular genel deneme / çıkmış havuzundan getirildiği için ünite ayrımı uygulanmamıştır.
+              </div>
+            )}
+          </section>
+        )}
+
       </div>
 
-      {/* Bottom Action Bar */}
-      <div className="fixed bottom-0 right-0 left-0 lg:left-[240px] z-40 bg-[color:var(--color-surface-1)]/80 backdrop-blur-[24px] border-t border-[color:var(--color-border-subtle)] p-6">
-        <div className="max-w-[1280px] mx-auto flex flex-col sm:flex-row gap-4 justify-between items-center">
-          <div className="hidden sm:block">
-            <p className="text-[color:var(--color-text-secondary)] text-sm font-medium">Bu deneme sınavını {new Date().toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })} tarihinde tamamladın.</p>
+      {/* ── SABİT ALT AKSİYON BARI ── */}
+      <div className="fixed bottom-0 right-0 left-0 z-40 bg-black/80 backdrop-blur-xl border-t border-white/10 p-4">
+        <div className="max-w-[1340px] mx-auto flex flex-col sm:flex-row gap-3 justify-between items-center">
+          <div className="text-xs text-white/60">
+            DUS Simülasyon Tarihi: <strong className="text-white">{new Date().toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}</strong>
           </div>
-          <div className="flex gap-4 w-full sm:w-auto">
+
+          <div className="flex items-center gap-3 w-full sm:w-auto">
             {incorrect > 0 && onRetryIncorrect && (
-              <Button onClick={onRetryIncorrect} variant="unstyled" className="flex-1 sm:flex-none px-8 py-3 rounded-xl border border-white/10 font-bold hover:bg-white/5 transition-all active:scale-95 text-[color:var(--color-text-primary)]">
-                Yanlışları Tekrar Çöz
+              <Button
+                onClick={onRetryIncorrect}
+                variant="secondary"
+                size="md"
+                className="flex-1 sm:flex-none border-red-500/30 text-red-300 hover:bg-red-500/10"
+              >
+                Yanlışları Tekrar Çöz ({incorrect})
               </Button>
             )}
-            <Button onClick={onRestart} variant="unstyled" className="flex-1 sm:flex-none px-8 py-3 rounded-xl bg-[#6f72f2] text-white font-bold shadow-lg shadow-[#6f72f2]/20 hover:scale-[1.02] active:scale-95 transition-all">
+
+            <Button
+              onClick={onRestart}
+              variant="primary"
+              size="md"
+              className="flex-1 sm:flex-none bg-indigo-600 hover:bg-indigo-500 font-bold px-6 shadow-lg shadow-indigo-600/20"
+            >
               Ana Ekrana Dön
             </Button>
           </div>

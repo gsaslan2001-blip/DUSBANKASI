@@ -90,6 +90,7 @@ export const CANONICAL_UNITS: Record<string, string[]> = {
     'Sindirim Sistemi',
     'Böbrek Fizyolojisi',
     'Endokrin Sistemi',
+    'Genel Embriyoloji',
     'Sinir Sistemi Fizyolojisi',
     'Kas Fizyolojisi',
     'Duyu Organları',
@@ -320,8 +321,12 @@ export const PEDO_CIKMIS_TO_CANONICAL: Record<string, string> = {
 };
 
 /** Bir sorunun normal mod sorusu olup olmadığını belirler (çıkmış ve high-yield sorular normal modda listelenmez) */
-export function isNormalQuestion(q: { lesson: string; quality_flag?: string | null }): boolean {
-  return !isCikmisQuestion(q);
+export function isDenemeBankQuestion(q: { unit?: string; quality_flag?: string | null }): boolean {
+  return q.unit === 'Deneme' && q.quality_flag !== 'cikmis';
+}
+
+export function isNormalQuestion(q: { lesson: string; unit?: string; quality_flag?: string | null }): boolean {
+  return !isCikmisQuestion(q) && !isDenemeBankQuestion(q);
 }
 
 /** Bir sorunun çıkmış sorusu olup olmadığını belirler */
