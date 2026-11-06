@@ -24,6 +24,7 @@
 
 import type { Question } from '../data';
 import type { AnswerDetail } from '../types/app';
+import { loadAllStats, type QuestionStat } from './stats';
 
 export interface SubjectQuota {
   key: string;
@@ -197,27 +198,81 @@ export function popNextSimulationRetryBatch(): string[] {
 }
 
 /**
+ * DUS Simülasyonu Soru Hariç Tutma (Exclusion) Kuralı:
+ * "Son 1 hafta içinde herhangi bir modda çözülmüş ve daha önce en az 2 kez doğru yapılmış
+ * hiç yanlış yapılmamış bir soru dus simülasyona dahil edilmeyecektir."
+ *
+ * @param questionId Soru ID'si
+ * @param stat Soru istatistiği (attempts, corrects, lastSeen, wrongChoices)
+ * @param nowMs Referans zamanı (varsayılan: Date.now())
+ * @returns boolean Soru simülasyondan hariç tutulmalı mı?
+ */
+export function isExcludedFromDusSimulation(
+  _questionId: string,
+  stat?: QuestionStat | null,
+  nowMs: number = Date.now()
+): boolean {
+  if (!stat || !stat.attempts || stat.attempts < 2) {
+    return false;
+  }
+
+  // 1. Daha önce en az 2 kez doğru yapılmış mı?
+  if ((stat.corrects || 0) < 2) {
+    return false;
+  }
+
+  // 2. Hiç yanlış yapılmamış mı? (0 yanlış)
+  const incorrectCount = Math.max(0, stat.attempts - (stat.corrects || 0));
+  const wrongChoicesCount = stat.wrongChoices ? stat.wrongChoices.length : 0;
+  if (incorrectCount > 0 || wrongChoicesCount > 0) {
+    return false;
+  }
+
+  // 3. Son 1 hafta (7 gün) içinde herhangi bir modda çözülmüş mü?
+  if (!stat.lastSeen) {
+    return false;
+  }
+  const lastSeenMs = new Date(stat.lastSeen).getTime();
+  if (isNaN(lastSeenMs)) {
+    return false;
+  }
+
+  const ONE_WEEK_MS = 7 * 24 * 60 * 60 * 1000;
+  const elapsed = nowMs - lastSeenMs;
+  const isWithinLastWeek = elapsed >= 0 && elapsed <= ONE_WEEK_MS;
+
+  return isWithinLastWeek;
+}
+
+export interface BuildSimulationPoolOptions {
+  consumeRetryBatch?: boolean; // varsayılan true
+  customRetryIds?: string[];   // test veya özel enjeksiyon için
+  stats?: Record<string, QuestionStat>; // test veya özel istatistik haritası
+  nowMs?: number;              // referans zamanı
+}
+
+/**
  * DUS Simülasyonu soru havuzunu oluşturur:
- * - 120 soru (40 Temel, 80 Klinik)
- * - Sıradaki tekrar sorularını branş kotalarına öncelikli yerleştirir
- * - Kalan kotaları unmastered sorulardan doldurur (havuz tükenirse mastered'dan takviye)
- * - Soruları gerçek DUS formatında sıralı dizilime alır
+ * - Sorular denemelerden, çıkmışlardan, favorilerden, normal ünite sorularından ve
+ *   daha önce çözülüp yanlış yapılmışlardan seçilebilir.
+ * - Hariç Tutma Kuralı: Son 1 hafta içinde herhangi bir modda çözülmüş, en az 2 kez doğru yapılmış
+ *   ve hiç yanlış yapılmamış sorular simülasyona DAHİL EDİLMEZ.
+ * - 120 soru (40 Temel, 80 Klinik) DUS 2020 orijinal kitapçık sırasıyla dizilir.
  */
 export function buildDusSimulationPool(
   allQuestions: Question[],
-  options?: {
-    consumeRetryBatch?: boolean; // varsayılan true
-    customRetryIds?: string[];   // test veya özel enjeksiyon için
-  }
+  options?: BuildSimulationPoolOptions
 ): Question[] {
   if (!allQuestions || allQuestions.length === 0) return [];
 
   const shouldConsume = options?.consumeRetryBatch !== false;
   const retryIds = options?.customRetryIds ?? (shouldConsume ? popNextSimulationRetryBatch() : []);
 
-  const masteredIds = getMasteredSimulationIds();
+  // İstatistik haritasını al (verilmemişse localStorage'dan yükle)
+  const stats = options?.stats ?? (typeof window !== 'undefined' || typeof localStorage !== 'undefined' ? loadAllStats() : {});
+  const nowMs = options?.nowMs ?? Date.now();
 
-  // "YANLIŞLARIM" dersi havuz dışıdır
+  // "YANLIŞLARIM" dersi havuz dışıdır; tüm diğer kaynaklar (denemeler, çıkmışlar, favoriler, ünite soruları) dahildir!
   const eligibleAll = allQuestions.filter(
     q => q.lesson && q.lesson.trim().toUpperCase() !== 'YANLIŞLARIM'
   );
@@ -225,6 +280,15 @@ export function buildDusSimulationPool(
   const questionMap = new Map<string, Question>();
   for (const q of eligibleAll) {
     questionMap.set(q.id, q);
+  }
+
+  // Hariç tutulacak soruları tespit et:
+  // Kural: Son 1 haftada çözülmüş VE >=2 kez doğru VE 0 yanlış
+  const excludedIds = new Set<string>();
+  for (const q of eligibleAll) {
+    if (isExcludedFromDusSimulation(q.id, stats[q.id], nowMs)) {
+      excludedIds.add(q.id);
+    }
   }
 
   // Derslere göre soru sepetleri oluştur
@@ -257,7 +321,7 @@ export function buildDusSimulationPool(
     }
   }
 
-  // 2. ADIM: Her branşın kotasını unmastered sorularla doldur
+  // 2. ADIM: Her branşın kotasını hariç tutulmamış (eligible) sorulardan doldur
   // Fizyoloji ve Histoloji esnek paylaşımı (toplam 10)
   const histoTarget = 4;
   const physioTarget = 6;
@@ -289,24 +353,24 @@ export function buildDusSimulationPool(
 
     const pool = lessonBuckets.get(l) || [];
 
-    // Mastered olmayan ve henüz kullanılmamış sorular
-    const unmastered = pool.filter(q => !masteredIds.has(q.id) && !usedIdSet.has(q.id));
-    // Karıştır
-    const shuffledUnmastered = shuffleArray([...unmastered]);
+    // Hariç tutulmamış ve henüz bu simülasyonda seçilmemiş sorular
+    const nonExcludedPool = pool.filter(q => !excludedIds.has(q.id) && !usedIdSet.has(q.id));
+    const shuffledNonExcluded = shuffleArray([...nonExcludedPool]);
 
-    const takeFromUnmastered = shuffledUnmastered.slice(0, needed);
-    for (const q of takeFromUnmastered) {
+    const takeCount = Math.min(needed, shuffledNonExcluded.length);
+    for (let i = 0; i < takeCount; i++) {
+      const q = shuffledNonExcluded[i];
       selected.push(q);
       usedIdSet.add(q.id);
     }
 
-    // Eğer havuz yetersiz kaldıysa, mecburen mastered sorulardan tamamla
+    // Eğer havuz yetersiz kaldıysa (tüm sorular hariç tutulmuşsa), mecburen kalan kısımları tamamla
     const stillNeeded = targetCount - selected.length;
     if (stillNeeded > 0) {
-      const masteredPool = pool.filter(q => masteredIds.has(q.id) && !usedIdSet.has(q.id));
-      const shuffledMastered = shuffleArray([...masteredPool]);
-      const takeFromMastered = shuffledMastered.slice(0, stillNeeded);
-      for (const q of takeFromMastered) {
+      const fallbackPool = pool.filter(q => !usedIdSet.has(q.id));
+      const shuffledFallback = shuffleArray([...fallbackPool]);
+      const takeFallback = shuffledFallback.slice(0, stillNeeded);
+      for (const q of takeFallback) {
         selected.push(q);
         usedIdSet.add(q.id);
       }

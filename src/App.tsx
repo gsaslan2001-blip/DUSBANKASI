@@ -93,8 +93,8 @@ import {
   addMasteredSimulationIds,
   scheduleSimulationRetries,
   getSimulationRetrySchedule,
-  getMasteredSimulationIds,
   savePastSimulation,
+  isExcludedFromDusSimulation,
   type PastSimulationRecord,
 } from './lib/simulationEngine';
 
@@ -2289,24 +2289,42 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
             // bozmamak için istatistik ekranlarına high-yield dışı soru listesi gönderilir.
 
-            <StatisticsView
-              key={statsVersion}
-              questions={questions}
-              theme={theme}
-              onStartQuestionIds={handleStartQuestionIds}
-              onReviewSimulation={(record: PastSimulationRecord) => {
-                setSimResult({
-                  id: record.id,
-                  title: record.title,
-                  date: record.date,
-                  details: record.details as SimAnswerDetail[],
-                  totalSeconds: record.totalSeconds,
-                  usedSeconds: record.usedSeconds,
-                  isReviewFromHistory: true,
-                });
-                setAppState('simulation-result');
-              }}
-              onStartSimulation={handleSimulationClick}
+            <StatisticsView
+
+              key={statsVersion}
+
+              questions={questions}
+
+              theme={theme}
+
+              onStartQuestionIds={handleStartQuestionIds}
+
+              onReviewSimulation={(record: PastSimulationRecord) => {
+
+                setSimResult({
+
+                  id: record.id,
+
+                  title: record.title,
+
+                  date: record.date,
+
+                  details: record.details as SimAnswerDetail[],
+
+                  totalSeconds: record.totalSeconds,
+
+                  usedSeconds: record.usedSeconds,
+
+                  isReviewFromHistory: true,
+
+                });
+
+                setAppState('simulation-result');
+
+              }}
+
+              onStartSimulation={handleSimulationClick}
+
             />
 
           ) : appState === 'error-analysis' ? (
@@ -2359,7 +2377,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
             <SimulationSetup
 
-              questions={questions.filter(q => !isDenemeBankQuestion(q))}
+              questions={questions}
 
               onStart={async (qs, totalSecs) => {
 
@@ -4100,12 +4118,15 @@ function SimulationSetup({ questions, onStart, onCancel, theme }: {
   const totalSeconds = 150 * 60;
   const questionCount = 120;
 
+  const stats = useMemo(() => loadAllStats(), []);
   const retrySchedule = useMemo(() => getSimulationRetrySchedule(), []);
   const nextRetriesCount = (retrySchedule[0] || []).length;
-  const masteredSet = useMemo(() => getMasteredSimulationIds(), []);
+  const excludedCount = useMemo(() => {
+    return questions.filter(q => isExcludedFromDusSimulation(q.id, stats[q.id])).length;
+  }, [questions, stats]);
 
   const handleStart = () => {
-    const pool = buildDusSimulationPool(questions);
+    const pool = buildDusSimulationPool(questions, { stats });
     onStart(pool, totalSeconds);
   };
 
@@ -4183,15 +4204,21 @@ function SimulationSetup({ questions, onStart, onCancel, theme }: {
         {/* Adaptif Havuz ve Kural Rozetleri */}
         <div className="space-y-2 mb-6">
           <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-xs text-white/80 leading-relaxed flex items-center justify-between">
-            <span>Daha Önce Doğru Yapılanlar (Havuz Dışı):</span>
-            <span className="font-mono font-bold text-emerald-400">{masteredSet.size} Soru</span>
+            <span>Toplam Soru Havuzu (Denemeler, Çıkmış, Favoriler, Üniteler):</span>
+            <span className="font-mono font-bold text-white">{questions.length} Soru</span>
           </div>
           <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-xs text-white/80 leading-relaxed flex items-center justify-between">
-            <span>Bu Sınava Planlanan Tekrar Soruları:</span>
-            <span className="font-mono font-bold text-indigo-300">{nextRetriesCount} Soru</span>
+            <span>Dahil Edilmeyen (Son 1 haftada 2+ doğru, 0 yanlış):</span>
+            <span className="font-mono font-bold text-amber-400">{excludedCount} Soru</span>
           </div>
+          {nextRetriesCount > 0 && (
+            <div className="p-3 rounded-xl bg-white/[0.03] border border-white/5 text-xs text-white/80 leading-relaxed flex items-center justify-between">
+              <span>Bu Sınava Planlanan Tekrar Soruları:</span>
+              <span className="font-mono font-bold text-indigo-300">{nextRetriesCount} Soru</span>
+            </div>
+          )}
           <div className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-xs text-amber-200/90 leading-relaxed">
-            ⚡ <strong>Sınav Kuralları:</strong> Şık işaretlendiğinde doğru/yanlış anında gösterilmez. 120 kutucuk üzerinden serbestçe dolaşılabilir (Boşlar: Sarı, İşaretliler: Mavi). Sınav bitiminde kutucuklar (Doğru: Yeşil, Yanlış: Kırmızı, Boş: Sarı) renklenecek ve ayrıntılı analiz açılacaktır. Boş/yanlışlar sonraki 5 denemeye paylaştırılır.
+            ⚡ <strong>Dahil Etmeme Kuralı:</strong> Son 1 hafta içinde herhangi bir modda çözülmüş, en az 2 kez doğru yapılmış ve hiç yanlış yapılmamış sorular simülasyona dahil edilmez. Sorular denemelerden, çıkmışlardan, favorilerden, normal ünite sorularından ve daha önce çözülüp yanlış yapılmışlardan seçilir.
           </div>
         </div>
 

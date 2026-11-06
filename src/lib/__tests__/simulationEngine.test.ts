@@ -12,6 +12,7 @@ import {
   scheduleSimulationRetries,
   popNextSimulationRetryBatch,
   buildDusSimulationPool,
+  isExcludedFromDusSimulation,
   computeSimulationNet,
   computeSimulationBranchStats,
   computeSimulationUnitStats,
@@ -24,6 +25,7 @@ import {
 } from '../simulationEngine';
 import type { Question } from '../../data';
 import type { AnswerDetail } from '../../types/app';
+import type { QuestionStat } from '../stats';
 
 function createMockQuestion(id: string, lesson: string, unit = '1. Ünite'): Question {
   return {
@@ -174,7 +176,44 @@ describe('simulationEngine', () => {
     expect(pool.slice(110, 120).every(q => q.lesson === 'Pedodonti')).toBe(true);
   });
 
-  it('Simülasyonda doğru yapılmış soru sonraki simülasyon havuzunda yer almaz', () => {
+  it('isExcludedFromDusSimulation: son 1 haftada çözülmüş, >=2 kez doğru ve 0 yanlış olan soruları hariç tutar', () => {
+    const now = Date.now();
+    const twoDaysAgo = new Date(now - 2 * 24 * 3600 * 1000).toISOString();
+    const tenDaysAgo = new Date(now - 10 * 24 * 3600 * 1000).toISOString();
+
+    // 1. Son 2 gün önce çözülmüş, 2 kez doğru, 0 yanlış -> HARİÇ TUTULUR (true)
+    expect(isExcludedFromDusSimulation('q1', {
+      attempts: 2,
+      corrects: 2,
+      lastSeen: twoDaysAgo,
+    }, now)).toBe(true);
+
+    // 2. 10 gün önce çözülmüş (1 haftadan eski), 2 kez doğru, 0 yanlış -> DAHİL EDİLİR (false)
+    expect(isExcludedFromDusSimulation('q2', {
+      attempts: 2,
+      corrects: 2,
+      lastSeen: tenDaysAgo,
+    }, now)).toBe(false);
+
+    // 3. 2 gün önce çözülmüş ama 1 yanlışı var -> DAHİL EDİLİR (false)
+    expect(isExcludedFromDusSimulation('q3', {
+      attempts: 3,
+      corrects: 2,
+      lastSeen: twoDaysAgo,
+    }, now)).toBe(false);
+
+    // 4. 2 gün önce çözülmüş ama sadece 1 kez çözülüp doğru yapılmış -> DAHİL EDİLİR (false)
+    expect(isExcludedFromDusSimulation('q4', {
+      attempts: 1,
+      corrects: 1,
+      lastSeen: twoDaysAgo,
+    }, now)).toBe(false);
+
+    // 5. Hiç çözülmemiş soru -> DAHİL EDİLİR (false)
+    expect(isExcludedFromDusSimulation('q5', null, now)).toBe(false);
+  });
+
+  it('buildDusSimulationPool: hariç tutulan soruları havuzdan eler ve 120 soruluk DUS kotalarını doldurur', () => {
     const mockQuestions: Question[] = [];
     for (const q of DUS_SUBJECT_QUOTAS) {
       for (let i = 0; i < 20; i++) {
@@ -182,12 +221,23 @@ describe('simulationEngine', () => {
       }
     }
 
-    // Anatomi-0 doğru yapılmış olsun
-    addMasteredSimulationIds(['Anatomi-0', 'Anatomi-1']);
+    const now = Date.now();
+    const twoDaysAgo = new Date(now - 2 * 24 * 3600 * 1000).toISOString();
 
-    const pool = buildDusSimulationPool(mockQuestions, { consumeRetryBatch: false });
+    // Anatomi-0 ve Anatomi-1: son 2 günde 2 kez doğru yapılmış, 0 yanlış
+    const mockStats: Record<string, QuestionStat> = {
+      'Anatomi-0': { attempts: 2, corrects: 2, lastSeen: twoDaysAgo },
+      'Anatomi-1': { attempts: 3, corrects: 3, lastSeen: twoDaysAgo },
+    };
+
+    const pool = buildDusSimulationPool(mockQuestions, {
+      consumeRetryBatch: false,
+      stats: mockStats,
+      nowMs: now,
+    });
+    expect(pool.length).toBe(120);
+
     const selectedIds = new Set(pool.map(q => q.id));
-
     expect(selectedIds.has('Anatomi-0')).toBe(false);
     expect(selectedIds.has('Anatomi-1')).toBe(false);
   });
