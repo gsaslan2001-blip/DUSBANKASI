@@ -94,6 +94,8 @@ import {
   scheduleSimulationRetries,
   getSimulationRetrySchedule,
   getMasteredSimulationIds,
+  savePastSimulation,
+  type PastSimulationRecord,
 } from './lib/simulationEngine';
 
 import { useSettingsStore } from './lib/settingsStore';
@@ -504,24 +506,27 @@ export default function App() {
 
 
 
-  const [simResult, setSimResult] = useState<{ details: SimAnswerDetail[]; totalSeconds: number; usedSeconds: number } | null>(() => {
-
+  const [simResult, setSimResult] = useState<{
+    id?: string;
+    title?: string;
+    date?: string;
+    details: SimAnswerDetail[];
+    totalSeconds: number;
+    usedSeconds: number;
+    isReviewFromHistory?: boolean;
+  } | null>(() => {
     if (isPreviewMode) {
-
       return {
-
+        id: 'preview_1',
+        title: 'Önizleme Simülasyonu',
+        date: new Date().toISOString(),
         details: getMockDetails(),
-
         totalSeconds: 7200,
-
-        usedSeconds: 4320
-
+        usedSeconds: 4320,
+        isReviewFromHistory: false,
       };
-
     }
-
     return null;
-
   });
 
   const [editingQuestion, setEditingQuestion] = useState<Question | null>(null);
@@ -2284,7 +2289,25 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
             // bozmamak için istatistik ekranlarına high-yield dışı soru listesi gönderilir.
 
-            <StatisticsView key={statsVersion} questions={questions} theme={theme} onStartQuestionIds={handleStartQuestionIds} />
+            <StatisticsView
+              key={statsVersion}
+              questions={questions}
+              theme={theme}
+              onStartQuestionIds={handleStartQuestionIds}
+              onReviewSimulation={(record: PastSimulationRecord) => {
+                setSimResult({
+                  id: record.id,
+                  title: record.title,
+                  date: record.date,
+                  details: record.details as SimAnswerDetail[],
+                  totalSeconds: record.totalSeconds,
+                  usedSeconds: record.usedSeconds,
+                  isReviewFromHistory: true,
+                });
+                setAppState('simulation-result');
+              }}
+              onStartSimulation={handleSimulationClick}
+            />
 
           ) : appState === 'error-analysis' ? (
 
@@ -2383,36 +2406,31 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
           ) : appState === 'simulation-result' && simResult ? (
 
             <SimulationResultView
-
+              examTitle={simResult.title}
+              examDate={simResult.date}
+              backButtonText={simResult.isReviewFromHistory ? '← Deneme Geçmişine Dön' : undefined}
+              onBack={simResult.isReviewFromHistory ? () => {
+                setSimResult(null);
+                setAppState('analytics');
+              } : undefined}
+              onGoToStats={() => {
+                setAppState('analytics');
+              }}
               details={simResult.details}
-
               totalSeconds={simResult.totalSeconds}
-
               usedSeconds={simResult.usedSeconds}
-
               onRestart={() => { setSimResult(null); setAppState('select-lesson'); }}
               onToggleFavorite={handleToggleFavorite}
-
               onRetryIncorrect={() => {
-
                 const incorrectQs = simResult.details
-
                   .filter(d => d.state === 'incorrect')
-
                   .map(d => d.question);
-
                 setExamQuestions(incorrectQs);
-
                 setActiveExam({ variant: 'retry' });
-
                 setSimResult(null);
-
                 setAppState('quiz');
-
               }}
-
               theme={theme}
-
             />
 
           ) : appState === 'select-lesson' ? (
@@ -2727,7 +2745,22 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                     .map(d => ({ id: d.question.id, lesson: d.question.lesson }));
                   scheduleSimulationRetries(mistakes);
 
-                  setSimResult({ details: details as SimAnswerDetail[], totalSeconds: total, usedSeconds: usedSecs });
+                  // DUS Simülasyon geçmişine eksiksiz kaydet
+                  const saved = savePastSimulation({
+                    details: details as SimAnswerDetail[],
+                    totalSeconds: total,
+                    usedSeconds: usedSecs,
+                  });
+
+                  setSimResult({
+                    id: saved.id,
+                    title: saved.title,
+                    date: saved.date,
+                    details: details as SimAnswerDetail[],
+                    totalSeconds: total,
+                    usedSeconds: usedSecs,
+                    isReviewFromHistory: false,
+                  });
                   setAppState('simulation-result');
                 }}
                 onToggleFavorite={handleToggleFavorite}
@@ -2785,7 +2818,21 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
                 setActiveExam(null);
 
-                setSimResult({ details: details as SimAnswerDetail[], totalSeconds: total, usedSeconds: usedSecs });
+                const saved = savePastSimulation({
+                  details: details as SimAnswerDetail[],
+                  totalSeconds: total,
+                  usedSeconds: usedSecs,
+                });
+
+                setSimResult({
+                  id: saved.id,
+                  title: saved.title,
+                  date: saved.date,
+                  details: details as SimAnswerDetail[],
+                  totalSeconds: total,
+                  usedSeconds: usedSecs,
+                  isReviewFromHistory: false,
+                });
 
                 setAppState('simulation-result');
 

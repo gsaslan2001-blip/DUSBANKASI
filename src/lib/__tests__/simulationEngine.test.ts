@@ -15,6 +15,10 @@ import {
   computeSimulationNet,
   computeSimulationBranchStats,
   computeSimulationUnitStats,
+  savePastSimulation,
+  getPastSimulations,
+  deletePastSimulation,
+  computeAggregateSimulationStats,
   SIM_MASTERED_KEY,
   SIM_RETRY_SCHEDULE_KEY,
 } from '../simulationEngine';
@@ -226,5 +230,43 @@ describe('simulationEngine', () => {
 
     const unitStats = computeSimulationUnitStats(detailsNoUnits);
     expect(unitStats).toBeNull();
+  });
+
+  it('savePastSimulation denemeyi kaydeder, getPastSimulations listeler ve computeAggregateSimulationStats kümülatif analizi doğru hesaplar', () => {
+    const details: AnswerDetail[] = [
+      { question: createMockQuestion('a1', 'Anatomi'), state: 'correct' },
+      { question: createMockQuestion('a2', 'Anatomi'), state: 'incorrect' },
+      { question: createMockQuestion('h1', 'Histoloji'), state: 'correct' },
+      { question: createMockQuestion('f1', 'Fizyoloji'), state: 'correct' },
+      { question: createMockQuestion('p1', 'Protez'), state: 'blank' },
+    ];
+
+    const rec = savePastSimulation({
+      title: 'DUS Simülasyonu #1',
+      details,
+      totalSeconds: 9000,
+      usedSeconds: 7200,
+    });
+
+    expect(rec.id).toBeDefined();
+    expect(rec.correct).toBe(3);
+    expect(rec.incorrect).toBe(1);
+    expect(rec.blank).toBe(1);
+    expect(rec.net).toBe(2.75);
+
+    const history = getPastSimulations();
+    expect(history.length).toBe(1);
+    expect(history[0].id).toBe(rec.id);
+
+    const agg = computeAggregateSimulationStats(history);
+    expect(agg.totalSimulations).toBe(1);
+    expect(agg.avgNet).toBe(2.75);
+    expect(agg.bestNet).toBe(2.75);
+    expect(agg.netTrend.length).toBe(1);
+    expect(agg.branchSummary.length).toBe(14); // 14 branş (Fizyo-Histo birleşik)
+
+    // Silme kontrolü
+    deletePastSimulation(rec.id);
+    expect(getPastSimulations().length).toBe(0);
   });
 });

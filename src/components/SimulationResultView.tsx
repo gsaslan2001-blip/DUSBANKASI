@@ -55,6 +55,11 @@ interface SimulationResultViewProps {
   onRetryIncorrect?: () => void;
   onToggleFavorite?: (id: string) => void;
   initialTab?: 'review' | 'branch' | 'unit';
+  examTitle?: string;
+  examDate?: string;
+  backButtonText?: string;
+  onBack?: () => void;
+  onGoToStats?: () => void;
   theme: {
     card: string;
     subtext: string;
@@ -72,6 +77,11 @@ export default function SimulationResultView({
   onRetryIncorrect,
   onToggleFavorite,
   initialTab = 'review',
+  examTitle,
+  examDate,
+  backButtonText,
+  onBack,
+  onGoToStats,
   theme,
 }: SimulationResultViewProps) {
   const [reviewIndex, setReviewIndex] = useState<number>(0);
@@ -133,19 +143,48 @@ export default function SimulationResultView({
 
         {/* ── ÜST BAŞLIK & SKOR ÖZETİ HERO ── */}
         <section className="mb-8">
-          <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
-            <div>
+          {/* Geri Dönüş ve Aksiyon Çubuğu */}
+          <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+            <div className="flex items-center gap-3">
+              {onBack && (
+                <button
+                  type="button"
+                  onClick={onBack}
+                  className="px-3.5 py-1.5 rounded-xl text-xs font-bold bg-white/10 hover:bg-white/15 text-white border border-white/10 flex items-center gap-2 transition-all cursor-pointer shadow-sm"
+                >
+                  <ArrowLeft size={14} weight="bold" />
+                  <span>{backButtonText || 'Geri Dön'}</span>
+                </button>
+              )}
               <span className="px-3 py-1 rounded-full text-xs font-black tracking-widest uppercase bg-rose-500/15 text-rose-300 border border-rose-500/30">
-                DUS Simülasyon Analizi
+                {examTitle ? 'Kayıtlı Simülasyon' : 'DUS Simülasyon Analizi'}
               </span>
-              <h2 className="text-3xl sm:text-4xl font-black tracking-tight text-white mt-2">
-                Sınav Performans Karnesi
-              </h2>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2.5">
+              {onGoToStats && (
+                <button
+                  type="button"
+                  onClick={onGoToStats}
+                  className="px-3.5 py-1.5 rounded-xl text-xs font-bold bg-indigo-600/30 hover:bg-indigo-600/50 text-indigo-200 border border-indigo-500/30 flex items-center gap-2 transition-all cursor-pointer"
+                >
+                  <ChartBar size={14} weight="bold" />
+                  <span>İstatistikler &amp; Grafikler</span>
+                </button>
+              )}
               <span className="text-xs text-white/50 font-medium">120 Soru · 150 Dk Standart</span>
             </div>
+          </div>
+
+          <div className="mb-4">
+            <h2 className="text-3xl sm:text-4xl font-black tracking-tight text-white">
+              {examTitle || 'Sınav Performans Karnesi'}
+            </h2>
+            {examDate && (
+              <p className="text-xs text-white/50 mt-1 font-mono">
+                Sınav Tarihi: {new Date(examDate).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' })}
+              </p>
+            )}
           </div>
 
           {/* Hero Net & KPI Kartları */}
@@ -701,10 +740,37 @@ export default function SimulationResultView({
       <div className="fixed bottom-0 right-0 left-0 z-40 bg-black/80 backdrop-blur-xl border-t border-white/10 p-4">
         <div className="max-w-[1340px] mx-auto flex flex-col sm:flex-row gap-3 justify-between items-center">
           <div className="text-xs text-white/60">
-            DUS Simülasyon Tarihi: <strong className="text-white">{new Date().toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}</strong>
+            DUS Simülasyon Tarihi:{' '}
+            <strong className="text-white">
+              {examDate
+                ? new Date(examDate).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit' })
+                : new Date().toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </strong>
           </div>
 
-          <div className="flex items-center gap-3 w-full sm:w-auto">
+          <div className="flex items-center gap-2 sm:gap-3 w-full sm:w-auto flex-wrap sm:flex-nowrap justify-end">
+            {onBack && (
+              <Button
+                onClick={onBack}
+                variant="secondary"
+                size="md"
+                className="flex-1 sm:flex-none border-white/20 text-white hover:bg-white/10"
+              >
+                {backButtonText || '← Geçmişe Dön'}
+              </Button>
+            )}
+
+            {onGoToStats && (
+              <Button
+                onClick={onGoToStats}
+                variant="secondary"
+                size="md"
+                className="flex-1 sm:flex-none border-indigo-500/30 text-indigo-300 hover:bg-indigo-500/10"
+              >
+                İstatistikler
+              </Button>
+            )}
+
             {incorrect > 0 && onRetryIncorrect && (
               <Button
                 onClick={onRetryIncorrect}

@@ -560,3 +560,283 @@ function shuffleArray<T>(arr: T[]): T[] {
   }
   return result;
 }
+
+// ══════════════════════════════════════════════════════════════════════════════
+// DUS SİMÜLASYON GEÇMİŞİ & KÜMÜLATİF İSTATİSTİK MOTORU
+// ══════════════════════════════════════════════════════════════════════════════
+
+export interface PastSimulationRecord {
+  id: string;
+  title: string;
+  date: string; // ISO date string
+  totalQuestions: number;
+  totalSeconds: number;
+  usedSeconds: number;
+  correct: number;
+  incorrect: number;
+  blank: number;
+  net: number;
+  temelNet: number;
+  klinikNet: number;
+  details: AnswerDetail[];
+  branchStats: BranchStat[];
+}
+
+export const SIM_HISTORY_KEY = 'dus_simulation_history';
+
+export function getPastSimulations(): PastSimulationRecord[] {
+  try {
+    const raw = localStorage.getItem(SIM_HISTORY_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return [];
+    return parsed.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  } catch (e) {
+    console.error('[simulationEngine] getPastSimulations hatası:', e);
+    return [];
+  }
+}
+
+export function savePastSimulation(params: {
+  title?: string;
+  details: AnswerDetail[];
+  totalSeconds: number;
+  usedSeconds: number;
+}): PastSimulationRecord {
+  const existing = getPastSimulations();
+  const index = existing.length + 1;
+  const title = params.title || `DUS Simülasyonu #${index}`;
+  const now = new Date().toISOString();
+
+  const correct = params.details.filter(d => d.state === 'correct').length;
+  const incorrect = params.details.filter(d => d.state === 'incorrect').length;
+  const blank = params.details.filter(d => d.state === 'blank').length;
+  const net = computeSimulationNet(correct, incorrect);
+
+  const temelDetails = params.details.slice(0, 40);
+  const temelCorrect = temelDetails.filter(d => d.state === 'correct').length;
+  const temelIncorrect = temelDetails.filter(d => d.state === 'incorrect').length;
+  const temelNet = computeSimulationNet(temelCorrect, temelIncorrect);
+
+  const klinikDetails = params.details.slice(40, 120);
+  const klinikCorrect = klinikDetails.filter(d => d.state === 'correct').length;
+  const klinikIncorrect = klinikDetails.filter(d => d.state === 'incorrect').length;
+  const klinikNet = computeSimulationNet(klinikCorrect, klinikIncorrect);
+
+  const branchStats = computeSimulationBranchStats(params.details);
+
+  const record: PastSimulationRecord = {
+    id: `sim_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
+    title,
+    date: now,
+    totalQuestions: params.details.length,
+    totalSeconds: params.totalSeconds,
+    usedSeconds: params.usedSeconds,
+    correct,
+    incorrect,
+    blank,
+    net,
+    temelNet,
+    klinikNet,
+    details: params.details,
+    branchStats,
+  };
+
+  // En son 30 denemeyi tut (LocalStorage boyut sınırı güvenliği)
+  const updated = [record, ...existing].slice(0, 30);
+  try {
+    localStorage.setItem(SIM_HISTORY_KEY, JSON.stringify(updated));
+  } catch (e) {
+    console.warn('[simulationEngine] localStorage kotası aşıldı, eski kayıtlar budanıyor:', e);
+    try {
+      localStorage.setItem(SIM_HISTORY_KEY, JSON.stringify([record, ...existing].slice(0, 10)));
+    } catch {
+      // sessizce geç
+    }
+  }
+
+  return record;
+}
+
+export function getPastSimulationById(id: string): PastSimulationRecord | null {
+  const all = getPastSimulations();
+  return all.find(r => r.id === id) || null;
+}
+
+export function deletePastSimulation(id: string): void {
+  const all = getPastSimulations().filter(r => r.id !== id);
+  try {
+    localStorage.setItem(SIM_HISTORY_KEY, JSON.stringify(all));
+  } catch (e) {
+    console.error('[simulationEngine] deletePastSimulation hatası:', e);
+  }
+}
+
+export interface AggregateBranchSummary {
+  branch: string;
+  category: 'temel' | 'klinik';
+  totalQuestions: number;
+  totalCorrect: number;
+  totalIncorrect: number;
+  totalBlank: number;
+  avgNet: number;
+  accuracy: number;
+  status: 'strong' | 'moderate' | 'weak';
+}
+
+export interface SimulationTrendPoint {
+  id: string;
+  date: string;
+  title: string;
+  totalNet: number;
+  temelNet: number;
+  klinikNet: number;
+  accuracy: number;
+}
+
+export interface SimulationAggregateStats {
+  totalSimulations: number;
+  avgNet: number;
+  bestNet: number;
+  latestNet: number;
+  avgTemelNet: number;
+  avgKlinikNet: number;
+  avgUsedMinutes: number;
+  netTrend: SimulationTrendPoint[];
+  branchSummary: AggregateBranchSummary[];
+  strongestBranches: AggregateBranchSummary[];
+  weakestBranches: AggregateBranchSummary[];
+}
+
+export function computeAggregateSimulationStats(
+  history: PastSimulationRecord[]
+): SimulationAggregateStats {
+  if (!history || history.length === 0) {
+    return {
+      totalSimulations: 0,
+      avgNet: 0,
+      bestNet: 0,
+      latestNet: 0,
+      avgTemelNet: 0,
+      avgKlinikNet: 0,
+      avgUsedMinutes: 0,
+      netTrend: [],
+      branchSummary: [],
+      strongestBranches: [],
+      weakestBranches: [],
+    };
+  }
+
+  const n = history.length;
+  const totalNetSum = history.reduce((acc, r) => acc + r.net, 0);
+  const temelNetSum = history.reduce((acc, r) => acc + r.temelNet, 0);
+  const klinikNetSum = history.reduce((acc, r) => acc + r.klinikNet, 0);
+  const usedSecondsSum = history.reduce((acc, r) => acc + r.usedSeconds, 0);
+
+  const bestNet = Math.max(...history.map(r => r.net));
+  const latestNet = history[0]?.net ?? 0;
+  const avgNet = Math.round((totalNetSum / n) * 100) / 100;
+  const avgTemelNet = Math.round((temelNetSum / n) * 100) / 100;
+  const avgKlinikNet = Math.round((klinikNetSum / n) * 100) / 100;
+  const avgUsedMinutes = Math.round(usedSecondsSum / (n * 60));
+
+  // Kronolojik sıralı trend (eskiden yeniye)
+  const sortedChrono = [...history].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+  const netTrend: SimulationTrendPoint[] = sortedChrono.map(r => ({
+    id: r.id,
+    date: r.date,
+    title: r.title,
+    totalNet: r.net,
+    temelNet: r.temelNet,
+    klinikNet: r.klinikNet,
+    accuracy: r.correct + r.incorrect > 0 ? Math.round((r.correct / (r.correct + r.incorrect)) * 100) : 0,
+  }));
+
+  // 14 Branş bazında kümülatif toplama (Fizyoloji - Histoloji birleşik!)
+  const branchMap = new Map<string, { category: 'temel' | 'klinik'; total: number; correct: number; incorrect: number; blank: number }>();
+
+  // Sıralamayı DUS 2020 kuralına göre sabitle
+  const branchOrder: string[] = [
+    'Anatomi',
+    'Fizyoloji - Histoloji',
+    'Biyokimya',
+    'Mikrobiyoloji',
+    'Patoloji',
+    'Farmakoloji',
+    'Restoratif',
+    'Protez',
+    'Cerrahi',
+    'Radyoloji',
+    'Periodontoloji',
+    'Ortodonti',
+    'Endodonti',
+    'Pedodonti',
+  ];
+
+  for (const b of branchOrder) {
+    const isTemel = ['Anatomi', 'Fizyoloji - Histoloji', 'Biyokimya', 'Mikrobiyoloji', 'Patoloji', 'Farmakoloji'].includes(b);
+    branchMap.set(b, {
+      category: isTemel ? 'temel' : 'klinik',
+      total: 0,
+      correct: 0,
+      incorrect: 0,
+      blank: 0,
+    });
+  }
+
+  for (const exam of history) {
+    for (const bs of exam.branchStats) {
+      if (!branchMap.has(bs.branch)) {
+        branchMap.set(bs.branch, { category: bs.category, total: 0, correct: 0, incorrect: 0, blank: 0 });
+      }
+      const item = branchMap.get(bs.branch)!;
+      item.total += bs.total;
+      item.correct += bs.correct;
+      item.incorrect += bs.incorrect;
+      item.blank += bs.blank;
+    }
+  }
+
+  const branchSummary: AggregateBranchSummary[] = [];
+  for (const [branch, data] of branchMap) {
+    const totalQuestions = data.total;
+    const accuracy = (data.correct + data.incorrect) > 0 ? Math.round((data.correct / (data.correct + data.incorrect)) * 100) : 0;
+    const totalNet = computeSimulationNet(data.correct, data.incorrect);
+    const avgNet = n > 0 ? Math.round((totalNet / n) * 100) / 100 : 0;
+
+    let status: 'strong' | 'moderate' | 'weak' = 'moderate';
+    if (accuracy >= 80) status = 'strong';
+    else if (accuracy < 65) status = 'weak';
+
+    branchSummary.push({
+      branch,
+      category: data.category,
+      totalQuestions,
+      totalCorrect: data.correct,
+      totalIncorrect: data.incorrect,
+      totalBlank: data.blank,
+      avgNet,
+      accuracy,
+      status,
+    });
+  }
+
+  // En güçlü ve en zayıf branşlar
+  const sortedByAccuracy = [...branchSummary].filter(b => b.totalQuestions > 0).sort((a, b) => b.accuracy - a.accuracy);
+  const strongestBranches = sortedByAccuracy.slice(0, 3);
+  const weakestBranches = [...sortedByAccuracy].reverse().slice(0, 3);
+
+  return {
+    totalSimulations: n,
+    avgNet,
+    bestNet,
+    latestNet,
+    avgTemelNet,
+    avgKlinikNet,
+    avgUsedMinutes,
+    netTrend,
+    branchSummary,
+    strongestBranches,
+    weakestBranches,
+  };
+}

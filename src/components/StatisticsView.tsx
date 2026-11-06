@@ -47,6 +47,7 @@ import { fetchExamHistory } from '../lib/supabase';
 import { useAuth } from '../hooks/useAuth';
 import type { ExamResult } from '../types/app';
 import { useGoals } from '../store/useAppStore';
+import type { PastSimulationRecord } from '../lib/simulationEngine';
 import TabCockpit from './statistics/TabCockpit';
 
 const TabRhythm = lazy(() => import('./statistics/TabRhythm'));
@@ -59,14 +60,20 @@ interface StatisticsViewProps {
   questions: Question[];
   theme: Theme;
   onStartQuestionIds?: (ids: string[]) => void;
+  initialTab?: TabKey;
+  onReviewSimulation?: (record: PastSimulationRecord) => void;
+  onStartSimulation?: () => void;
 }
 
 export default function StatisticsView({
   questions,
   theme,
   onStartQuestionIds,
+  initialTab = 'cockpit',
+  onReviewSimulation,
+  onStartSimulation,
 }: StatisticsViewProps) {
-  const [activeTab, setActiveTab] = useState<TabKey>('cockpit');
+  const [activeTab, setActiveTab] = useState<TabKey>(initialTab);
   const [range, setRange] = useState<14 | 30 | 90>(30);
   const [showGoalEditor, setShowGoalEditor] = useState(false);
   const [showExport, setShowExport] = useState(false);
@@ -483,6 +490,8 @@ export default function StatisticsView({
                 examTrend={examTrend}
                 isUserLoggedIn={!!user}
                 onEditGoals={() => setShowGoalEditor(true)}
+                onReviewSimulation={onReviewSimulation}
+                onStartSimulation={onStartSimulation}
               />
             )}
           </Suspense>
