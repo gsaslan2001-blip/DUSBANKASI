@@ -727,6 +727,59 @@ export function getPastSimulationById(id: string): PastSimulationRecord | null {
   return all.find(r => r.id === id) || null;
 }
 
+/**
+ * Mevcut bir geçmiş deneme kaydının soru detaylarını günceller ve tüm net/istatistikleri yeniden hesaplar.
+ * (Soru silindiğinde veya düzeltildiğinde çağrılır)
+ */
+export function updatePastSimulationDetails(
+  id: string,
+  newDetails: AnswerDetail[]
+): PastSimulationRecord | null {
+  const all = getPastSimulations();
+  const index = all.findIndex(r => r.id === id);
+  if (index === -1) return null;
+
+  const existing = all[index];
+  const correct = newDetails.filter(d => d.state === 'correct').length;
+  const incorrect = newDetails.filter(d => d.state === 'incorrect').length;
+  const blank = newDetails.filter(d => d.state === 'blank').length;
+  const net = computeSimulationNet(correct, incorrect);
+
+  const temelDetails = newDetails.slice(0, 40);
+  const temelCorrect = temelDetails.filter(d => d.state === 'correct').length;
+  const temelIncorrect = temelDetails.filter(d => d.state === 'incorrect').length;
+  const temelNet = computeSimulationNet(temelCorrect, temelIncorrect);
+
+  const klinikDetails = newDetails.slice(40);
+  const klinikCorrect = klinikDetails.filter(d => d.state === 'correct').length;
+  const klinikIncorrect = klinikDetails.filter(d => d.state === 'incorrect').length;
+  const klinikNet = computeSimulationNet(klinikCorrect, klinikIncorrect);
+
+  const branchStats = computeSimulationBranchStats(newDetails);
+
+  const updatedRecord: PastSimulationRecord = {
+    ...existing,
+    totalQuestions: newDetails.length,
+    correct,
+    incorrect,
+    blank,
+    net,
+    temelNet,
+    klinikNet,
+    details: newDetails,
+    branchStats,
+  };
+
+  all[index] = updatedRecord;
+  try {
+    localStorage.setItem(SIM_HISTORY_KEY, JSON.stringify(all));
+  } catch (e) {
+    console.error('[simulationEngine] updatePastSimulationDetails hatası:', e);
+  }
+
+  return updatedRecord;
+}
+
 export function deletePastSimulation(id: string): void {
   const all = getPastSimulations().filter(r => r.id !== id);
   try {

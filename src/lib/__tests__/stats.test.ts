@@ -28,6 +28,7 @@ import {
   getUnitProgress,
   getRecentActivity,
   getDifficultyLabel,
+  saveBulkQuestionStats,
   saveQuestionStat,
   syncStatsDown,
   setSyncUserId,
@@ -346,5 +347,22 @@ describe('syncStatsDown', () => {
     await syncStatsDown();
     const merged = loadAllStats();
     expect(merged.q1.wrongChoices).toHaveLength(2); // B + C, no duplicate
+  });
+
+  it('saveBulkQuestionStats birden çok sorunun istatistiğini atomik olarak günceller', () => {
+    saveBulkQuestionStats([
+      { questionId: 'sim-1', isCorrect: true, selectedOption: 'A', lesson: 'Anatomi', timeSpent: 25 },
+      { questionId: 'sim-2', isCorrect: false, selectedOption: 'B', lesson: 'Biyokimya', timeSpent: 40 },
+    ]);
+
+    const stats = loadAllStats();
+    expect(stats['sim-1']).toBeDefined();
+    expect(stats['sim-1'].attempts).toBe(1);
+    expect(stats['sim-1'].corrects).toBe(1);
+
+    expect(stats['sim-2']).toBeDefined();
+    expect(stats['sim-2'].attempts).toBe(1);
+    expect(stats['sim-2'].corrects).toBe(0);
+    expect(stats['sim-2'].wrongChoices?.[0]?.selected).toBe('B');
   });
 });

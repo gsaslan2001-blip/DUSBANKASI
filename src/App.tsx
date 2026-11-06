@@ -31,7 +31,7 @@ import { AuthModal } from './components/AuthModal';
 
 import type { Question, QuestionSkeleton } from './data';
 
-import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadAllStats, resetAllStats, setSyncUserId, SyncManager, getRecentActivity, setupSyncHandlers } from './lib/stats';
+import { getWeakQuestionIds, getUnitProgress, syncStatsUp, syncStatsDown, loadAllStats, resetAllStats, setSyncUserId, SyncManager, getRecentActivity, setupSyncHandlers, saveBulkQuestionStats } from './lib/stats';
 
 import type { AnswerDetail as SimAnswerDetail } from './components/SimulationResultView';
 
@@ -94,6 +94,7 @@ import {
   scheduleSimulationRetries,
   getSimulationRetrySchedule,
   savePastSimulation,
+  updatePastSimulationDetails,
   isExcludedFromDusSimulation,
   type PastSimulationRecord,
 } from './lib/simulationEngine';
@@ -969,10 +970,46 @@ export default function App() {
 
       setUnitQuestions(prev => prev.map(q => q.id === edited.id ? edited : q));
 
+      setSimResult(prev => {
+        if (!prev) return null;
+        const updatedDetails = prev.details.map(d => d.question.id === edited.id ? { ...d, question: edited } : d);
+        if (prev.id) {
+          updatePastSimulationDetails(prev.id, updatedDetails);
+        }
+        return { ...prev, details: updatedDetails };
+      });
+
       setEditingQuestion(null);
 
     } catch (err: unknown) { showAlert("Güncellenemedi: " + errMsg(err), 'Hata'); }
 
+  };
+
+  const handleDeleteSimulationQuestion = async (id: string) => {
+    showConfirm('Bu soruyu hem denemeden hem de soru bankasından silmek istediğinize emin misiniz?\nDeneme istatistikleri yeniden hesaplanacaktır.', async () => {
+      try {
+        await deleteQuestionInHook(id);
+        setQuestions(prev => prev.filter(q => q.id !== id));
+        setUnitQuestions(prev => prev.filter(q => q.id !== id));
+        setExamQuestions(prev => prev.filter(q => q.id !== id));
+
+        setSimResult(prev => {
+          if (!prev) return null;
+          const newDetails = prev.details.filter(d => d.question.id !== id);
+          if (prev.id) {
+            updatePastSimulationDetails(prev.id, newDetails);
+          }
+          return {
+            ...prev,
+            details: newDetails,
+          };
+        });
+
+        toast.success('Soru silindi ve deneme istatistikleri güncellendi');
+      } catch (err: unknown) {
+        showAlert(errMsg(err), 'Hata');
+      }
+    }, 'Soruyu Sil');
   };
 
 
@@ -2424,6 +2461,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
           ) : appState === 'simulation-result' && simResult ? (
 
             <SimulationResultView
+              examId={simResult.id}
               examTitle={simResult.title}
               examDate={simResult.date}
               backButtonText={simResult.isReviewFromHistory ? '← Deneme Geçmişine Dön' : undefined}
@@ -2439,6 +2477,8 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               usedSeconds={simResult.usedSeconds}
               onRestart={() => { setSimResult(null); setAppState('select-lesson'); }}
               onToggleFavorite={handleToggleFavorite}
+              onEditQuestion={(q) => setEditingQuestion(q)}
+              onDeleteQuestion={handleDeleteSimulationQuestion}
               onRetryIncorrect={() => {
                 const incorrectQs = simResult.details
                   .filter(d => d.state === 'incorrect')
@@ -2763,6 +2803,18 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                     .map(d => ({ id: d.question.id, lesson: d.question.lesson }));
                   scheduleSimulationRetries(mistakes);
 
+                  // Çözülen deneme sorularını genel soru istatistiklerine kaydet
+                  const answeredRecords = details
+                    .filter(d => d.state !== 'blank' && d.selectedOptionKey != null)
+                    .map(d => ({
+                      questionId: d.question.id,
+                      isCorrect: d.state === 'correct',
+                      selectedOption: d.selectedOptionKey,
+                      lesson: d.question.lesson,
+                      timeSpent: d.timeSpent,
+                    }));
+                  saveBulkQuestionStats(answeredRecords);
+
                   // DUS Simülasyon geçmişine eksiksiz kaydet
                   const saved = savePastSimulation({
                     details: details as SimAnswerDetail[],
@@ -2835,6 +2887,17 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                 }
 
                 setActiveExam(null);
+
+                const answeredRecords = details
+                  .filter(d => d.state !== 'blank' && d.selectedOptionKey != null)
+                  .map(d => ({
+                    questionId: d.question.id,
+                    isCorrect: d.state === 'correct',
+                    selectedOption: d.selectedOptionKey,
+                    lesson: d.question.lesson,
+                    timeSpent: d.timeSpent,
+                  }));
+                saveBulkQuestionStats(answeredRecords);
 
                 const saved = savePastSimulation({
                   details: details as SimAnswerDetail[],

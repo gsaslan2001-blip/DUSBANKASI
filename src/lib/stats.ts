@@ -157,6 +157,72 @@ export function saveQuestionStat(
   debouncedSyncUp();
 }
 
+/**
+ * Çoklu (toplu) soru istatistiği kaydı (ör. tamamlanan deneme sınavı / DUS simülasyonu sonrası).
+ * Tek bir localStorage yazımı ile kota taşmasını önler ve performansı maksimize eder.
+ */
+export function saveBulkQuestionStats(
+  records: Array<{
+    questionId: string;
+    isCorrect: boolean;
+    selectedOption?: string | null;
+    lesson?: string;
+    timeSpent?: number;
+  }>
+): void {
+  if (!records || records.length === 0) return;
+
+  const stats = loadAllStats();
+  const now = new Date().toISOString();
+  let hasChanges = false;
+
+  for (const r of records) {
+    if (!r.questionId) continue;
+    const prev: QuestionStat = stats[r.questionId] || {
+      attempts: 0,
+      corrects: 0,
+      lastSeen: '',
+      wrongChoices: [] as WrongChoice[],
+    };
+
+    const attempts = prev.attempts + 1;
+    const corrects = prev.corrects + (r.isCorrect ? 1 : 0);
+
+    const prevWrong = prev.wrongChoices ?? [];
+    const nextWrong = (!r.isCorrect && r.selectedOption)
+      ? [...prevWrong, { selected: r.selectedOption, timestamp: now }].slice(-20)
+      : prevWrong;
+
+    const prevTimes = prev.timeSpentHistory ?? [];
+    const nextTimes = r.timeSpent != null && r.timeSpent > 0
+      ? [...prevTimes, r.timeSpent].slice(-50)
+      : prevTimes;
+
+    stats[r.questionId] = {
+      attempts,
+      corrects,
+      lastSeen: now,
+      difficulty: accuracyToDifficulty(corrects, attempts),
+      wrongChoices: nextWrong,
+      timeSpentHistory: nextTimes,
+    };
+
+    _dirtyIds.add(r.questionId);
+    hasChanges = true;
+
+    // Aktivite loguna doğru/yanlış ekle
+    logActivity(r.isCorrect, r.lesson);
+  }
+
+  if (hasChanges) {
+    safeWriteStats(stats);
+    localStorage.setItem(PENDING_SYNC_KEY, '1');
+    notifySyncStatus();
+    updateStreak();
+    debouncedSyncUp();
+  }
+}
+
 /** Bir sorunun istatistiğini döner */
 export function getStatFor(questionId: string): QuestionStat | null {
   const stats = loadAllStats();

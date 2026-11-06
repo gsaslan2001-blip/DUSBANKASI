@@ -97,4 +97,29 @@ describe('SimulationResultView', () => {
     // Branş analizi sekmesinde Fizyoloji - Histoloji tek satır olarak görülür
     expect(markup).toContain('Fizyoloji - Histoloji');
   });
+
+  it('analiz ekranında soru düzenleme ve silme butonları ve klavye ok tuşları ipucu yer alır', () => {
+    const details: AnswerDetail[] = [
+      createMockDetail('q1', 'Anatomi', 'Kemikler', 'correct'),
+      createMockDetail('q2', 'Patoloji', 'Tümörler', 'incorrect'),
+    ];
+
+    const markup = renderToStaticMarkup(
+      <SimulationResultView
+        details={details}
+        totalSeconds={9000}
+        usedSeconds={3000}
+        onRestart={vi.fn()}
+        onEditQuestion={vi.fn()}
+        onDeleteQuestion={vi.fn()}
+        theme={themeColors.dark}
+      />
+    );
+
+    // Düzenle ve sil butonları
+    expect(markup).toContain('Bu soruyu düzenle / düzelt');
+    expect(markup).toContain('Bu soruyu sil');
+    // Klavye ok tuşları ipucu
+    expect(markup).toContain('Ok tuşları (← →) ile geçiş yapabilirsiniz');
+  });
 });

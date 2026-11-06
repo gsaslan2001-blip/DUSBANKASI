@@ -18,6 +18,7 @@ import {
   computeSimulationUnitStats,
   savePastSimulation,
   getPastSimulations,
+  updatePastSimulationDetails,
   deletePastSimulation,
   computeAggregateSimulationStats,
   SIM_MASTERED_KEY,
@@ -314,6 +315,15 @@ describe('simulationEngine', () => {
     expect(agg.bestNet).toBe(2.75);
     expect(agg.netTrend.length).toBe(1);
     expect(agg.branchSummary.length).toBe(14); // 14 branş (Fizyo-Histo birleşik)
+
+    // Soru silinmesi durumunda deneme istatistiklerinin yeniden hesaplanması
+    const updatedDetails = details.filter(d => d.question.id !== 'a2'); // yanlış soruyu sildik
+    const updatedRec = updatePastSimulationDetails(rec.id, updatedDetails);
+    expect(updatedRec).toBeDefined();
+    expect(updatedRec?.totalQuestions).toBe(4);
+    expect(updatedRec?.correct).toBe(3);
+    expect(updatedRec?.incorrect).toBe(0); // yanlış soru silindi
+    expect(updatedRec?.net).toBe(3.0); // 3 - 0 = 3.0 Net
 
     // Silme kontrolü
     deletePastSimulation(rec.id);

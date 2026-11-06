@@ -14,7 +14,7 @@
  * - Boş ve yanlışların sonraki 5 denemeye dengeli dağıtılması ve doğru yapılanların havuzdan elenmesi özeti
  */
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import {
   Clock,
   ChartBar,
@@ -28,6 +28,9 @@ import {
   Repeat,
   Sparkle,
   BookmarkSimple,
+  PencilSimple,
+  Trash,
+  ArrowsLeftRight,
 } from '@phosphor-icons/react';
 import { toast } from 'sonner';
 import { Button } from './ui/Button';
@@ -37,6 +40,7 @@ import {
   computeSimulationNet,
   computeSimulationBranchStats,
   computeSimulationUnitStats,
+  updatePastSimulationDetails,
   type BranchStat,
 } from '../lib/simulationEngine';
 
@@ -55,11 +59,14 @@ interface SimulationResultViewProps {
   onRetryIncorrect?: () => void;
   onToggleFavorite?: (id: string) => void;
   initialTab?: 'review' | 'branch' | 'unit';
+  examId?: string;
   examTitle?: string;
   examDate?: string;
   backButtonText?: string;
   onBack?: () => void;
   onGoToStats?: () => void;
+  onEditQuestion?: (question: Question) => void;
+  onDeleteQuestion?: (questionId: string) => void;
   theme: {
     card: string;
     subtext: string;
@@ -77,21 +84,30 @@ export default function SimulationResultView({
   onRetryIncorrect,
   onToggleFavorite,
   initialTab = 'review',
+  examId,
   examTitle,
   examDate,
   backButtonText,
   onBack,
   onGoToStats,
+  onEditQuestion,
+  onDeleteQuestion,
   theme,
 }: SimulationResultViewProps) {
+  // Soru silindiğinde veya düzeltildiğinde denemenin anlık state'i
+  const [detailsState, setDetailsState] = useState<AnswerDetail[]>(details);
+  useEffect(() => {
+    setDetailsState(details);
+  }, [details]);
+
   const [reviewIndex, setReviewIndex] = useState<number>(0);
   const [matrixFilter, setMatrixFilter] = useState<'all' | 'correct' | 'incorrect' | 'blank'>('all');
   const [activeTab, setActiveTab] = useState<'review' | 'branch' | 'unit'>(initialTab);
 
-  const total = details.length;
-  const correct = details.filter(d => d.state === 'correct').length;
-  const incorrect = details.filter(d => d.state === 'incorrect').length;
-  const blank = details.filter(d => d.state === 'blank').length;
+  const total = detailsState.length;
+  const correct = detailsState.filter(d => d.state === 'correct').length;
+  const incorrect = detailsState.filter(d => d.state === 'incorrect').length;
+  const blank = detailsState.filter(d => d.state === 'blank').length;
   const mistakes = incorrect + blank;
 
   const netScore = computeSimulationNet(correct, incorrect);
@@ -99,14 +115,39 @@ export default function SimulationResultView({
   const usedMinutes = Math.round(usedSeconds / 60);
 
   // Branş bazlı istatistikler (Fizyoloji ve Histoloji tek branş altında toplanır)
-  const branchStats = useMemo(() => computeSimulationBranchStats(details), [details]);
+  const branchStats = useMemo(() => computeSimulationBranchStats(detailsState), [detailsState]);
 
   // Ünite bazlı istatistikler (ünitesi belirsiz ise null döner)
-  const unitStats = useMemo(() => computeSimulationUnitStats(details), [details]);
+  const unitStats = useMemo(() => computeSimulationUnitStats(detailsState), [detailsState]);
 
   // Şu an incelenen soru
-  const currentReview = details[reviewIndex] || details[0];
+  const currentReview = detailsState[reviewIndex] || detailsState[0];
   const currentQuestion = currentReview?.question;
+
+  // Klavye Ok Tuşları ile Sorular Arasında Gezinme (← →)
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Eğer kullanıcı modal veya input alanındaysa klavye oklarını engelleme
+      if (
+        e.target instanceof HTMLInputElement ||
+        e.target instanceof HTMLTextAreaElement ||
+        (e.target as HTMLElement)?.isContentEditable
+      ) {
+        return;
+      }
+
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+        e.preventDefault();
+        setReviewIndex(prev => (prev < detailsState.length - 1 ? prev + 1 : prev));
+      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        setReviewIndex(prev => (prev > 0 ? prev - 1 : prev));
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [detailsState.length]);
 
   // Favori geçişi
   const [favSparkle, setFavSparkle] = useState(false);
@@ -123,17 +164,53 @@ export default function SimulationResultView({
     setTimeout(() => setFavSparkle(false), 500);
   }, [currentQuestion, onToggleFavorite]);
 
+  // Soru Düzenleme
+  const handleEditCurrentQuestion = useCallback(() => {
+    if (!currentQuestion) return;
+    if (onEditQuestion) {
+      onEditQuestion(currentQuestion);
+    }
+  }, [currentQuestion, onEditQuestion]);
+
+  // Soru Silme (Deneme İstatistiklerini Yeniden Hesaplama)
+  const handleDeleteCurrentQuestion = useCallback(() => {
+    if (!currentQuestion) return;
+    const qId = currentQuestion.id;
+    const qNum = reviewIndex + 1;
+
+    if (!window.confirm(`Soru #${qNum} hem bu denemeden hem de soru bankasından silinsin mi?\n\nBu işlemden sonra denemenin toplam soru sayısı, doğru/yanlış ve DUS netleri otomatik olarak yeniden hesaplanacaktır.`)) {
+      return;
+    }
+
+    if (onDeleteQuestion) {
+      onDeleteQuestion(qId);
+    }
+
+    const newDetails = detailsState.filter(d => d.question.id !== qId);
+    setDetailsState(newDetails);
+
+    if (examId) {
+      updatePastSimulationDetails(examId, newDetails);
+    }
+
+    if (reviewIndex >= newDetails.length) {
+      setReviewIndex(Math.max(0, newDetails.length - 1));
+    }
+
+    toast.success(`Soru #${qNum} silindi. Deneme istatistikleri yeniden hesaplandı.`);
+  }, [currentQuestion, reviewIndex, onDeleteQuestion, detailsState, examId]);
+
   // Sonraki yanlışa / boşa zıplama
   const handleJumpToNextMistake = useCallback(() => {
     for (let i = 1; i <= total; i++) {
       const idx = (reviewIndex + i) % total;
-      if (details[idx].state !== 'correct') {
+      if (detailsState[idx] && detailsState[idx].state !== 'correct') {
         setReviewIndex(idx);
         return;
       }
     }
     toast.info('Tüm sorularınız doğru!');
-  }, [reviewIndex, total, details]);
+  }, [reviewIndex, total, detailsState]);
 
   const placement = getPlacementForNet(netScore);
 
@@ -497,7 +574,7 @@ export default function SimulationResultView({
                 </span>
               </div>
 
-              {/* Favori Butonu & Sonraki Yanlış Butonu */}
+              {/* Soru Aksiyonları (Hata Zıplama, Düzenleme, Silme, Favori) */}
               <div className="flex items-center gap-2">
                 <Button
                   onClick={handleJumpToNextMistake}
@@ -507,6 +584,28 @@ export default function SimulationResultView({
                 >
                   Sonraki Hata →
                 </Button>
+
+                {onEditQuestion && (
+                  <button
+                    type="button"
+                    onClick={handleEditCurrentQuestion}
+                    title="Bu soruyu düzenle / düzelt"
+                    className="p-2.5 rounded-xl border border-white/10 bg-white/5 text-white/60 hover:text-indigo-300 hover:bg-indigo-500/10 hover:border-indigo-500/30 transition-all cursor-pointer"
+                  >
+                    <PencilSimple size={18} />
+                  </button>
+                )}
+
+                {onDeleteQuestion && (
+                  <button
+                    type="button"
+                    onClick={handleDeleteCurrentQuestion}
+                    title="Bu soruyu sil (deneme istatistikleri yeniden hesaplanır)"
+                    className="p-2.5 rounded-xl border border-white/10 bg-white/5 text-white/60 hover:text-red-400 hover:bg-red-500/10 hover:border-red-500/30 transition-all cursor-pointer"
+                  >
+                    <Trash size={18} />
+                  </button>
+                )}
 
                 <Button
                   onClick={handleReviewToggleFavorite}
@@ -586,7 +685,7 @@ export default function SimulationResultView({
             )}
 
             {/* İnceleme İleri / Geri Butonları */}
-            <div className="flex items-center justify-between pt-4 border-t border-white/10">
+            <div className="flex items-center justify-between pt-4 border-t border-white/10 gap-2">
               <Button
                 onClick={() => setReviewIndex(prev => Math.max(0, prev - 1))}
                 disabled={reviewIndex === 0}
@@ -596,9 +695,14 @@ export default function SimulationResultView({
                 <ArrowLeft size={16} /> Önceki Soru
               </Button>
 
-              <span className="font-mono text-xs text-white/50">
-                {reviewIndex + 1} / {total}
-              </span>
+              <div className="flex flex-col items-center gap-0.5">
+                <span className="font-mono text-xs font-bold text-white/80">
+                  {reviewIndex + 1} / {total}
+                </span>
+                <span className="text-[10px] text-white/40 flex items-center gap-1 font-mono hidden sm:inline-flex">
+                  <ArrowsLeftRight size={12} /> Ok tuşları (← →) ile geçiş yapabilirsiniz
+                </span>
+              </div>
 
               <Button
                 onClick={() => setReviewIndex(prev => Math.min(total - 1, prev + 1))}
