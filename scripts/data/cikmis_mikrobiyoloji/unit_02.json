@@ -1,0 +1,1262 @@
+[
+  {
+    "question": "Sağlıklı doğan bir bebeğin kordon kanındaki immünoglobulinler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Anneye ait IgG",
+      "B": "Anneye ait IgM",
+      "C": "Bebeğe ait IgM",
+      "D": "Bebeğe ait IgG",
+      "E": "Anneye ait IgA"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İmmünoglobulinler arasında plasentayı geçebilen tek antikor izotipi IgG'dir. Bu geçiş sinsityotrofoblastlarda bulunan neonatal Fc reseptörleri (FcRn) aracılığıyla aktif transport (transsitoz) ile gerçekleşir. Dolayısıyla intrauterin enfeksiyon geçirmemiş sağlıklı bir yenidoğanın kordon kanında saptanan immünoglobulinler anneye ait IgG antikorlarıdır ve bebeğe doğal pasif bağışıklık sağlar. Çeldiriciler: B) Anneye ait IgM pentamerik ve büyük moleküler ağırlıklı yapısı nedeniyle plasentayı geçemez. C) Bebeğe ait IgM kordon kanında yalnızca konjenital (intrauterin) bir enfeksiyon varlığında yüksek düzeyde saptanır; sağlıklı yenidoğanda anlamlı düzeyde bulunmaz. D) Fetüste B lenfositlerin izotip dönüşümü ve anlamlı düzeyde IgG sentezi doğumdan sonraki aylarda başlar, doğum anındaki IgG maternal kaynaklıdır. E) Anneye ait IgA plasentayı geçemez; yenidoğana doğum sonrasında anne sütü (kolostrum) yoluyla geçerek mukozal pasif bağışıklık sağlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Arı sokan bir çocukta meydana gelen solunum sıkıntısı ve bilinç kaybından aşağıdakilerden hangisi sorumludur?",
+    "options": {
+      "A": "Duyarlı T hücreleri",
+      "B": "Kompleman",
+      "C": "IgE antikorları",
+      "D": "IgM antikorları",
+      "E": "IgG antikorları"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Arı sokması sonrasında dakikalar içinde gelişen solunum sıkıntısı (bronkospazm, laringeal ödem) ve bilinç kaybı (hipotansif şok) sistemik anafilaksi (Tip I aşırı duyarlılık reaksiyonu) tablosudur. Bu reaksiyonda daha önceden duyarlanmış bireyde mast hücreleri ve bazofillerin yüzeyindeki yüksek afiniteli FcεRI reseptörlerine bağlı bulunan spesifik IgE antikorlarının alerjenle çapraz bağlanması sonucu histamin, triptaz ve lökotrienler gibi vazoaktif mediyatörler salınır. Çeldiriciler: A) Duyarlı T hücreleri gecikmiş tip (Tip IV) aşırı duyarlılık reaksiyonlarından (örneğin kontakt dermatit, tüberkülin reaksiyonu) sorumludur ve reaksiyon saatler-günler içinde gelişir. B) Kompleman sistemi Tip II ve Tip III aşırı duyarlılık reaksiyonlarında rol oynar; klasik anafilakside birincil tetikleyici IgE'dir. D) IgM antikorları Tip II (sitotoksik) ve Tip III (immün kompleks) reaksiyonlarında görev alır, FcεRI reseptörlerine bağlanamaz. E) IgG antikorları sekonder immün yanıtta, opsonizasyonda ve Tip II/III aşırı duyarlılık reaksiyonlarında rol oynar, klasik akut anafilaksinin primer sorumlusu değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Genetik olarak J zinciri sentez bozukluğu olan kişilerde, hangi immünoglobulin sınıfı antikorlar bundan etkilenir?",
+    "options": {
+      "A": "IgG ve IgA",
+      "B": "IgE ve IgG",
+      "C": "IgM ve IgA",
+      "D": "IgD ve IgM",
+      "E": "IgE ve IgD"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): J (joining) zinciri, plazma hücreleri tarafından sentezlenen ve multimerik (polimerik) immünoglobulinlerin Fc kısımlarını disülfid bağlarıyla birbirine bağlayarak polimerizasyonunu sağlayan glikoprotein yapılı bir peptiddir. Ayrıca polimerik immünoglobulin reseptörüne (pIgR) bağlanarak antikorların mukozal sekresyonlara taşınmasında görev alır. İnsanlarda yalnızca pentamerik yapıdaki IgM ve salgısal (dimerik) yapıdaki IgA molekülleri J zinciri içerdiğinden, sentez bozukluğunda bu iki antikor sınıfı etkilenir. Çeldiriciler: A) IgG her zaman monomerik yapıdadır ve J zinciri içermez. B) Hem IgE hem de IgG monomerik yapıda olduklarından J zinciri taşımazlar. D) IgD B lenfosit yüzeyinde monomerik olarak bulunur ve J zinciri içermez. E) IgE ve IgD monomerik yapıda olup polimerizasyon göstermedikleri için J zincirine ihtiyaç duymazlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Sitotoksik T lenfositleri, antijen sunan hücrenin hangi molekülü tarafından sunulan antijenleri tanır?",
+    "options": {
+      "A": "MHC sınıf II",
+      "B": "MHC sınıf I",
+      "C": "CD4",
+      "D": "CD8",
+      "E": "TCR"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Sitotoksik T lenfositleri (CD8+ T hücreleri), hedef hücre veya antijen sunan hücre yüzeyindeki MHC sınıf I molekülleri tarafından sunulan endojen (sitozolik/viral) peptid antijenlerini tanır. Bu etkileşimde T hücresi üzerindeki TCR antijen-MHC-I kompleksini tanırken, CD8 koreseptörü MHC sınıf I molekülünün sabit (α3) bölgesine bağlanarak sinyali stabilize eder. Çeldiriciler: A) MHC sınıf II molekülleri profesyonel antijen sunan hücrelerde bulunur ve ekzojen antijenleri CD4+ yardımcı (helper) T lenfositlerine sunar. C) CD4, yardımcı T lenfositlerinin yüzeyinde bulunan ve MHC sınıf II'ye bağlanan koreseptördür, antijen sunan bir molekül değildir. D) CD8, sitotoksik T lenfositinin kendi yüzeyinde yer alan koreseptördür; antijen sunan hücreye ait bir antijen sunum molekülü değildir. E) TCR (T hücre reseptörü), antijeni sunan değil, T lenfosit yüzeyinde bulunup sunulan antijen-MHC kompleksini tanıyan reseptördür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Th1 hücrelerinden salınan ve makrofaj aktivasyonuna yol açan sitokin aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "IL-5",
+      "B": "IFN-γ",
+      "C": "IFN-α",
+      "D": "IL-21",
+      "E": "IL-17"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Yardımcı T hücrelerinin Th1 alt grubu (ve ayrıca NK hücreleri ile CD8+ T hücreleri) tarafından salgılanan temel sitokin interferon-gama (IFN-γ)'dır. IFN-γ, makrofajları klasik yoldan (M1 fenotipi) aktive ederek fagolizozom füzyonunu, reaktif oksijen ve nitrojen türevlerinin (NO) üretimini ve MHC sınıf II ekspresyonunu artırır; böylece hücre içi patojenlerin (örneğin *Mycobacterium tuberculosis*) öldürülmesini sağlar. Çeldiriciler: A) IL-5, Th2 ve ILC2 hücrelerinden salınır; eozinofillerin kemik iliğinden üretimini, olgunlaşmasını ve aktivasyonunu uyarır. C) IFN-α (Tip I interferon), viral enfeksiyonlara yanıt olarak plazmasitoid dendritik hücreler ve makrofajlar tarafından salınır, doğrudan antiviral durum oluşturur. D) IL-21, başlıca Tfh (foliküler yardımcı T) ve Th17 hücrelerinden salınır; germinal merkez oluşumu ve B hücrelerinin farklılaşmasında görev alır. E) IL-17, Th17 hücrelerinden salınır ve dokulara nötrofil kemotaksisini (göçünü) uyarır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ateş yükselmesine ve akut faz proteinlerinin sentezlenmesine neden olan proinflamatuvar sitokindir?",
+    "options": {
+      "A": "IL-8",
+      "B": "IFN-α",
+      "C": "IL-2",
+      "D": "IL-1",
+      "E": "TGF-β"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İnterlökin-1 (IL-1α ve IL-1β), aktif makrofajlar ve dendritik hücreler tarafından salınan majör proinflamatuvar sitokindir (TNF-α ve IL-6 ile birlikte). Hipotalamusta prostaglandin E2 (PGE2) sentezini uyararak endojen pirojen olarak ateş yükselmesine yol açar ve karaciğerden (özellikle IL-6 aracılığıyla birlikte) akut faz reaktanlarının sentezlenmesini tetikler. Çeldiriciler: A) IL-8 (CXCL8), nötrofillerin enfeksiyon bölgesine göçünü (kemotaksis) sağlayan bir kemokindir; primer endojen pirojen değildir. B) IFN-α, viral replikasyonu baskılayan Tip I interferondur. C) IL-2, aktive T lenfositlerinden salınan ve T ile NK hücrelerinin proliferasyonunu sağlayan büyüme faktörüdür. E) TGF-β, T hücre proliferasyonunu ve makrofaj aktivasyonunu baskılayan anti-inflamatuvar (immünoregülatuvar) bir sitokindir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Memeli hücrelerinde bulunan \"pattern tanıma reseptörleri\"nden hangisi endozomlarda eksprese olarak mikrobiyal nükleik asitlere bağlanmaz?",
+    "options": {
+      "A": "TLR2",
+      "B": "TLR3",
+      "C": "TLR7",
+      "D": "TLR8",
+      "E": "TLR9"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Toll-benzeri reseptörlerden (TLR) nükleik asitleri tanıyanlar (TLR3, TLR7, TLR8 ve TLR9) hücre içi veziküllerde (endozom membranında) yerleşmiştir. Buna karşılık TLR2, hücre yüzeyinde (plazma membranında) eksprese olur ve Gram-pozitif bakterilerin peptidoglikanlarını, lipoteikoik asitlerini ve bakteriyel lipopeptidleri tanır; mikrobiyal nükleik asitlere bağlanmaz. Çeldiriciler: B) TLR3, endozomlarda bulunur ve viral çift iplikli RNA'yı (dsRNA) tanır. C) TLR7, endozomlarda bulunur ve viral tek iplikli RNA'yı (ssRNA) tanır. D) TLR8, endozomlarda bulunur ve viral tek iplikli RNA'yı (ssRNA) tanır. E) TLR9, endozomlarda bulunur ve bakteri ile virüslere ait metillenmemiş CpG DNA dizilerini tanır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Özellikle küçük çocuklarda görülen; trombositopeni ve egzama yanında, serumda artmış IgA ve IgE seviyelerine karşın polisakkarit antijenlere karşı IgM üretiminde defekt olması nedeniyle kapsüllü bakterilere karşı savunmada zayıflığa neden olan, X-zincir resesif immün yetmezlik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Job sendromu",
+      "B": "Wiskott-Aldrich sendromu",
+      "C": "MHC sınıf II yetersizliği",
+      "D": "Kronik granülomatoz hastalığı",
+      "E": "DiGeorge sendromu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Wiskott-Aldrich sendromu, X kromozomu üzerindeki *WAS* gen mutasyonuna bağlı gelişen X'e bağlı resesif bir primer immün yetmezliktir. WASp proteini lökosit ve trombositlerde aktin hücre iskeleti organizasyonunu sağlar. Klinik olarak egzama, küçük hacimli trombositlerle seyreden trombositopeni (mikrotrombositopeni) ve tekrarlayan piyojenik enfeksiyonlar triadı ile karakterizedir. Hastalarda polisakkarit antijenlere yanıt bozuk olup IgM düzeyi düşüktür, IgG normal veya düşükken, IgA ve IgE düzeyleri tipik olarak yükselmiştir. Çeldiriciler: A) Job sendromu (Hiper-IgE sendromu), *STAT3* mutasyonu sonucu Th17 eksikliği, soğuk apseler, egzama ve yüksek IgE ile seyreder ancak mikrotrombositopeni görülmez. C) MHC sınıf II yetersizliği (Çıplak lenfosit sendromu), otozomal resesif geçişli olup CD4+ T hücre eksikliği ve tüm immünoglobulin sınıflarında düşüklükle seyreder. D) Kronik granülomatöz hastalık, fagositlerde NADPH oksidaz defekti sonucu katalaz pozitif mikroorganizmalara duyarlılıkla karakterizedir; trombositopeni ve spesifik antikor profili görülmez. E) DiGeorge sendromu, 22q11.2 delesyonuna bağlı timus ve paratiroid aplazisi/hipoplazisi, konjenital kalp anomalileri ve T hücre eksikliği ile karakterizedir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Nötrofil bağımlı inflamasyon ve doku onarımından sorumlu en olası yardımcı T hücresi (Th) tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Th1",
+      "B": "Th2",
+      "C": "Th9",
+      "D": "Th17",
+      "E": "Th22"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Th17 hücreleri, RORγt transkripsiyon faktörü kontrolünde gelişen ve başlıca IL-17 (IL-17A, IL-17F) ile IL-22 sitokinlerini salgılayan yardımcı T hücre alt grubudur. IL-17, epitel ve stromal hücrelerden kemokin (IL-8/CXCL8) ile G-CSF salınımını uyararak enfeksiyon bölgesine güçlü nötrofil kemotaksisi (nötrofil bağımlı inflamasyon) başlatır; IL-22 ise epitel bariyer bütünlüğünü ve doku onarımını destekler. Çeldiriciler: A) Th1 hücreleri IFN-γ salgılayarak makrofajları ve hücresel bağışıklığı aktive eder. B) Th2 hücreleri IL-4, IL-5 ve IL-13 salgılayarak eozinofil/mast hücresi aracılı yanıtı ve helmint savunmasını yönetir. C) Th9 hücreleri IL-9 salgılayarak mukozal bağışıklık, mast hücre aktivasyonu ve alerjik inflamasyonda rol alır. E) Th22 hücreleri IL-22 ve TNF-α salgılayarak epidermal yeniden yapılanmada rol oynasa da doğrudan IL-17 aracılı nötrofil kemotaksisinden sorumlu ana hücre Th17'dir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "IgM ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Plasentadan geçerek fetusu koruyan tek immünoglobulindir.",
+      "B": "Serumda yalnızca dimerik yapıda bulunur.",
+      "C": "Serum konsantrasyonu en düşük immünoglobulindir.",
+      "D": "Oral sekresyonlarda en fazla bulunan immünoglobulindir.",
+      "E": "Kompleman bağlayarak opsonizasyon yapar."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Pentamerik yapıda olan IgM, 10 adet antijen bağlama bölgesine ve yan yana dizilmiş çok sayıda Fc bölgesine sahip olduğu için tek bir molekül halinde bile C1q'yu bağlayarak komplemanı klasik yoldan en güçlü aktive eden immünoglobulindir. Kompleman aktivasyonu sonucu oluşan C3b, mikroorganizma yüzeyine bağlanarak güçlü opsonizasyon sağlar (dolaylı/kompleman aracılı opsonizasyon). Çeldiriciler: A) Plasentadan FcRn reseptörleri aracılığıyla geçerek fetüsü koruyan tek immünoglobulin IgM değil, IgG'dir. B) IgM serumda dimerik değil pentamerik yapıda (B hücre yüzeyinde ise monomerik yapıda) bulunur; dimerik olan salgısal IgA'dır. C) Serum konsantrasyonu en düşük olan immünoglobulin IgM değil, IgE'dir (sıralama: IgG > IgA > IgM > IgD > IgE). D) Oral ve diğer mukozal sekresyonlarda en fazla bulunan immünoglobulin salgısal IgA'dır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Doğal aktif bağışıklıkla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Hazır antikor verilerek oluşturulur.",
+      "B": "Anneden bebeğe geçer.",
+      "C": "Antiserumla aktarılır.",
+      "D": "Enfeksiyon geçirilerek oluşur.",
+      "E": "Aşılamayla sağlanır."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Aktif bağışıklık, konağın antijenle karşılaşması sonucu kendi immün sisteminin aktive olarak spesifik antikor ve bellek hücreleri üretmesidir. Bu süreç tıbbi bir müdahale olmaksızın patojenle doğal yoldan karşılaşıp enfeksiyonun geçirilmesiyle kazanılıyorsa \"doğal aktif bağışıklık\" olarak adlandırılır. Çeldiriciler: A) Hazır antikor (immünoglobulin) verilmesi konağın kendi immün yanıtını çalıştırmadığı için yapay pasif bağışıklıktır. B) Anneden bebeğe plasenta yoluyla IgG veya anne sütüyle IgA geçişi doğal pasif bağışıklıktır. C) Antiserum (hiperimmün serum) uygulanması yapay pasif bağışıklıktır. E) Aşılama ile antijen verilerek immün yanıt oluşturulması yapay aktif bağışıklıktır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, verilen antijene karşı geliştirilecek bağışık yanıtın arttırılması amacıyla aşılarda kullanılır?",
+    "options": {
+      "A": "Sitokin",
+      "B": "İmmünojen",
+      "C": "Hapten",
+      "D": "Adjuvan",
+      "E": "İmmünglobulin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Adjuvanlar (örneğin alüminyum tuzları, skualen, monofosforil lipid A), aşı içerisindeki antijenle birlikte uygulandığında antijenin dokudan salınımını yavaşlatan, antijen sunan hücreler (dendritik hücreler, makrofajlar) üzerinde PRR'leri uyararak kostimülatör molekül (B7) ekspresyonunu ve lokal inflamatuvar sitokin salınımını artıran, böylece antijene karşı gelişecek immün yanıtı güçlendiren maddelerdir. Çeldiriciler: A) Sitokinler immün sistem hücreleri arasındaki haberleşmeyi sağlayan endojen proteinlerdir; standart aşılarda genel adjuvan bileşeni olarak tanımlanmazlar. B) İmmünojen, tek başına immün sistemi uyarabilen ve spesifik yanıt oluşturabilen antijenin kendisidir. C) Hapten, düşük molekül ağırlıklı olup ancak bir taşıyıcı proteine bağlandığında immünojenik özellik kazanabilen moleküldür. E) İmmünglobulin, B lenfosit soyundan gelişen plazma hücrelerinin ürettiği antikor molekülleridir ve pasif bağışıklamada kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Klasik yoldan kompleman sisteminin aktivasyonu, kompleman 1 (C1) proteininin aşağıdakilerden hangisine bağlanması sonucu başlar?",
+    "options": {
+      "A": "IgA",
+      "B": "Antijen-IgG kompleksi",
+      "C": "Faktör B",
+      "D": "C3",
+      "E": "Endotoksin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kompleman sisteminin klasik yolu, C1 kompleksinin (C1q, C1r, C1s) C1q alt birimi aracılığıyla antijenle birleşmiş (immün kompleks oluşturmuş) IgM veya IgG (özellikle IgG3, IgG1 ve IgG2) antikorlarının Fc bölgelerine bağlanmasıyla başlar. Serbest (antijen bağlamamış) antikorlar C1q'yu aktive edemez. Çeldiriciler: A) IgA antikorları C1q bağlama bölgesine sahip olmadıkları için klasik yolu aktive edemezler (agregat oluşturduklarında alternatif veya lektin yolunu uyarabilirler). C) Faktör B, alternatif kompleman yolunda C3b'ye bağlanarak Faktör D tarafından kesilen ve C3bBb (alternatif yol C3 konvertazı) oluşturan proteindir. D) C3'ün spontan hidrolizi (C3b oluşumu) ve mikrobiyal yüzeylere bağlanması alternatif yolun başlangıç mekanizmasıdır. E) Gram-negatif bakteri endotoksini (lipopolisakkarit - LPS), kompleman sistemini antikordan bağımsız olarak alternatif yoldan aktive eder.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "İnflamatuvar reaksiyonlarda rolü olan yardımcı T hücre alt grubu Th1 aşağıdaki sitokinlerden hangisini salgılar?",
+    "options": {
+      "A": "IL-4",
+      "B": "IL-6",
+      "C": "IL-10",
+      "D": "IL-13",
+      "E": "IFN-gama"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Yardımcı T lenfositlerinin Th1 alt grubu hücresel immün yanıttan sorumludur ve imza sitokini olarak IFN-gama (IFN-γ) ile birlikte IL-2 ve TNF-β (lenfotoksin) salgılar. IFN-gama makrofajların klasik (M1) aktivasyonunu, fagositoz kapasitesini ve IgG izotip dönüşümünü uyarır. Çeldiriciler: A) IL-4, Th2 ve Tfh hücreleri tarafından salgılanır; B hücrelerinde IgE izotip dönüşümünü ve Th2 farklılaşmasını uyarır. B) IL-6, başlıca makrofajlar, endotel hücreleri ve fibroblastlar tarafından salınan proinflamatuvar ve akut faz yanıtını uyarıcı sitokindir. C) IL-10, başlıca regülatuvar T hücreleri (Treg) ve M2 makrofajlar tarafından salınan, Th1 yanıtını ve MHC-II ekspresyonunu baskılayan anti-inflamatuvar sitokindir. D) IL-13, Th2 hücreleri tarafından salgılanır; mukus sekresyonunu, IgE üretimini ve alternatif (M2) makrofaj aktivasyonunu uyarır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "T-hücresi üzerinde bulunan CD4 reseptörleri, antijen sunan hücredeki moleküllerden hangisiyle etkileşerek hücresel immün yanıtta rol oynar?",
+    "options": {
+      "A": "MHC sınıf II molekülü",
+      "B": "LFA-3",
+      "C": "Yüzey immünoglobulini",
+      "D": "İnterlökin-2",
+      "E": "ICAM-1"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Yardımcı T lenfositlerinin yüzeyinde bulunan CD4 koreseptörü, antijen sunan hücre (makrofaj, dendritik hücre, B lenfosit) yüzeyindeki MHC sınıf II molekülünün antijen bağlamayan sabit (β2) bölgesine bağlanır. Bu etkileşim TCR ile peptid-MHC-II kompleksi arasındaki bağlanmayı güçlendirir ve hücre içi Lck tirozin kinaz sinyallemesini başlatır. Çeldiriciler: B) LFA-3 (CD58), antijen sunan hücre yüzeyinde bulunan ve T hücresindeki CD2 molekülüne bağlanan bir adezyon molekülüdür. C) Yüzey immünoglobulini (monomerik IgM ve IgD), B lenfositlerin antijen reseptörüdür (BCR); CD4 ile etkileşmez. D) İnterlökin-2, çözünür bir sitokin olup T hücresi yüzeyindeki CD25 (IL-2R) reseptörüne bağlanır. E) ICAM-1 (CD54), T hücresi yüzeyindeki LFA-1 (CD11a/CD18) integrinine bağlanan adezyon molekülüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "İmmünosupresyon amacıyla kullanılan kortikosteroidlerin en belirgin etki mekanizması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lenfosit prekürsörlerin proliferasyonunu bloke etmek",
+      "B": "IL-2 bağlanmasını bloke ederek T hücre proliferasyonunu inhibe etmek",
+      "C": "Makrofaj sitokin sekresyonu inhibisyonuyla inflamasyonu azaltmak",
+      "D": "IL-2 sinyalizasyonunun inhibisyonuyla lenfosit proliferasyonunu bloke etmek",
+      "E": "CD3'e bağlanarak T hücre sayısını azaltmak"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kortikosteroidler (glukokortikoidler), hücre içi reseptörlerine bağlandıktan sonra NF-κB ve AP-1 gibi proinflamatuvar transkripsiyon faktörlerini inhibe eder ve IκB sentezini artırır. En belirgin immünosupresif ve anti-inflamatuvar etkilerini makrofajlar ve diğer antijen sunan hücrelerin fonksiyonlarını baskılayarak, özellikle TNF-α, IL-1, IL-6, IL-12 gibi proinflamatuvar sitokinlerin, kemokinlerin, siklooksijenaz-2 (COX-2) ve fosfolipaz A2'nin sentez ve sekresyonunu inhibe ederek gösterirler. Çeldiriciler: A) Lenfosit prekürsörlerinin proliferasyonunu DNA sentezini bozarak bloke eden ilaçlar azatioprin ve mikofenolat mofetil gibi antiproliferatif ajanlardır. B) IL-2 reseptörüne (CD25) bağlanarak IL-2 aracılı T hücre proliferasyonunu bloke eden ajanlar basiliksimab ve daklizumabdır. D) IL-2 sinyalizasyonunu (mTOR üzerinden) inhibe ederek lenfosit proliferasyonunu bloke eden ilaçlar sirolimus (rapamisin) ve everolimustur. E) CD3'e bağlanarak T hücre deplesyonu yapan ajan muromonab-CD3 (OKT3) monoklonal antikorudur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki hastalıklardan hangisi tip III hipersensitivite reaksiyonuna bağlı olarak ortaya çıkmaz?",
+    "options": {
+      "A": "Poliarteritis nodosa",
+      "B": "Otoimmün hemolitik anemi",
+      "C": "Poststreptokokkal glomerülonefrit",
+      "D": "Serum hastalığı",
+      "E": "Ekstrinsik alerjik alveolit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Otoimmün hemolitik anemi, eritrosit yüzeyindeki intrinsik membran antijenlerine karşı gelişen IgG veya IgM tipi otoantikorların doğrudan hücre yüzeyine bağlanarak kompleman aracılı lizis veya dalakta Fc/C3b reseptörleri aracılı fagositoz ile eritrosit yıkımına yol açtığı klasik bir Tip II (antikor aracılı sitotoksik) hipersensitivite reaksiyonudur. Çeldiriciler: A) Poliarteritis nodosa, özellikle HBsAg-anti-HBs immün komplekslerinin orta ve küçük çaplı arter duvarlarında birikmesiyle gelişen Tip III aşırı duyarlılık reaksiyonudur. C) Poststreptokokkal glomerülonefrit, streptokok antijenleri ile antikorların oluşturduğu dolaşan veya in situ immün komplekslerin glomerül bazal membranında birikmesiyle oluşan Tip III reaksiyonudur. D) Serum hastalığı, yabancı serum proteinlerine karşı gelişen çözünür antijen-antikor komplekslerinin damar duvarları, eklemler ve böbrekte birikmesiyle oluşan sistemik Tip III hipersensitivite prototipidir. E) Ekstrinsik alerjik alveolit (hipersensitivite pnömonisi), inhale edilen organik antijenlere karşı alveol duvarında immün kompleks birikimi (akut fazda Tip III) ve geç dönemde granülomatöz inflamasyon (Tip IV) ile karakterize bir tablodur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Serolojik testlerde, antikorun antijenle multivalan birleşme gücüne dayalı özelliği aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İzotipi",
+      "B": "İdyotipi",
+      "C": "Allotipi",
+      "D": "Aviditesi",
+      "E": "Afinitesi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Avidite, birden fazla antijen bağlama bölgesine (valansa) sahip bir antikor molekülü (örneğin 2 valanslı IgG veya 10 valanslı pentamerik IgM) ile birden fazla epitopa (multivalan) sahip bir antijen arasındaki tüm bağların toplam bağlanma gücüdür (fonksiyonel afinite). Enfeksiyonun süresi uzadıkça somatik hipermutasyonla avidite artar. Çeldiriciler: A) İzotip, ağır zincir sabit (C) bölgesindeki amino asit dizilimine göre tüm sağlıklı bireylerde ortak olan immünoglobulin sınıflarını (IgG, IgA, IgM, IgD, IgE) ifade eder. B) İdyotip, bir antikorun antijen bağlayan değişken (VH ve VL) bölgelerindeki hipervariabl (CDR) dizilerin oluşturduğu antijenik özgüllüktür. C) Allotip, aynı türe ait bireyler arasında immünoglobulin sabit bölgelerindeki genetik polimorfizmlerden kaynaklanan küçük amino asit farklılıklarıdır. E) Afinite, antikorun tek bir antijen bağlama bölgesi (paratop) ile antijenin tek bir epitopu arasındaki tekil bağlanma gücüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki sitokinlerden hangisi, Gram(-) bakteri enfeksiyonunda endotoksin salınımı sonucu makrofaj ve B hücrelerinden salınarak ateşe neden olur?",
+    "options": {
+      "A": "İnterlökin-6",
+      "B": "İnterlökin-10",
+      "C": "İnterferon alfa",
+      "D": "Granülosit stimüle edici faktör",
+      "E": "İnterlökin-5"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Gram-negatif bakterilerin hücre duvarındaki endotoksin (LPS), makrofajlar üzerindeki TLR4 reseptörünü uyararak proinflamatuvar sitokinlerin (IL-1, TNF-α ve IL-6) salınımını tetikler. İnterlökin-6 (IL-6), makrofajlar, endotel hücreleri, T ve B hücrelerinden salınır; hipotalamusu etkileyerek endojen pirojen olarak ateşe neden olur, karaciğerde akut faz proteinlerinin sentezini uyarır ve aktive B lenfositlerin antikor üreten plazma hücrelerine farklılaşmasını ve proliferasyonunu sağlar. Çeldiriciler: B) İnterlökin-10, anti-inflamatuvar bir sitokin olup makrofajlardan proinflamatuvar sitokin üretimini ve ateşi baskılar. C) İnterferon alfa, viral enfeksiyonlara karşı üretilen antiviral sitokindir; LPS yanıtının birincil B hücre/makrofaj kaynaklı akut faz mediyatörü değildir. D) Granülosit stimüle edici faktör (G-CSF), kemik iliğinde nötrofil üretimini ve olgunlaşmasını uyarır. E) İnterlökin-5, Th2 hücrelerinden salınır ve eozinofil aktivasyonu ile proliferasyonunu sağlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki sitokinlerden hangisi makrofajlardan salındıktan sonra Th-1 hücrelerini indükleyerek gama interferon oluşumuna neden olur?",
+    "options": {
+      "A": "IL-4",
+      "B": "IL-5",
+      "C": "IL-9",
+      "D": "IL-12",
+      "E": "IL-25"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İnterlökin-12 (IL-12), hücre içi mikroorganizmalarla karşılaşan makrofajlar ve dendritik hücreler (antijen sunan hücreler) tarafından salgılanır. Naif CD4+ T lenfositlerde STAT4 ve T-bet transkripsiyon faktörlerini aktive ederek Th1 yönünde farklılaşmayı sağlar ve hem Th1 hem de NK hücrelerinden güçlü bir şekilde IFN-gama (IFN-γ) üretimini indükler (IL-12/IFN-γ aksı). Çeldiriciler: A) IL-4, naif T hücrelerini Th2 yönünde farklılaştırır ve Th1 yanıtını baskılar. B) IL-5, Th2 hücrelerinden salınır ve eozinofilleri aktive eder. C) IL-9, mast hücreleri ve mukoza epitel hücrelerini uyaran Th9 sitokinidir. E) IL-25 (IL-17E), epitel ve Th2 hücrelerinden salınarak Th2 ve ILC2 yanıtını güçlendirir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Kronik granülomatöz hastalıkta temel bozukluk aşağıdakilerin hangisindedir?",
+    "options": {
+      "A": "Fagositik hücrelerde",
+      "B": "B lenfositlerde",
+      "C": "Kompleman sisteminde",
+      "D": "Antijen sunan hücrede",
+      "E": "T lenfositlerde"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kronik granülomatöz hastalık (KGH), nötrofil ve makrofaj gibi fagositik hücrelerin membranında yer alan NADPH oksidaz (fagosit oksidaz) enzim kompleksinin alt birimlerini kodlayan genlerdeki (en sık X'e bağlı *CYBB* / gp91phox) mutasyon sonucu gelişir. Fagositik hücreler fagositoz yapabilir ancak solunumsal patlama (respiratuvar burst) ile süperoksit radikali ($O_2^-$) ve hidrojen peroksit ($H_2O_2$) üretemezler. Bu nedenle *Staphylococcus aureus*, *Aspergillus*, *Burkholderia cepacia*, *Serratia marcescens* ve *Nocardia* gibi katalaz pozitif mikroorganizmaları hücre içinde öldüremezler; tanı NBT ve dihidrorodamin (DHR) akım sitometri testleriyle konur. Çeldiriciler: B) B lenfosit fonksiyonları ve antikor üretimi KGH'de normaldir. C) Kompleman sistemi proteinleri ve aktivasyonu normaldir. D) Antijenlerin T hücrelerine sunulma mekanizmasında primer bir kusur yoktur; sorun doğrudan mikroorganizmaların fagosit içinde oksidatif yıkımındadır. E) T lenfositlerin aktivasyonu normaldir; hatta öldürülemeyen patojenleri sınırlamak için aşırı çalışan T hücreleri ve makrofajlar dokularda granülom oluşumuna yol açar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki interlökin (IL) ve biyolojik fonksiyon eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "IL-1 – Makrofaj aktivasyonu",
+      "B": "IL-2 – T hücre inhibisyonu",
+      "C": "IL-3 – Hematopoez",
+      "D": "IL-4 – B hücre proliferasyonu",
+      "E": "IL-8 – Nötrofil kemotaksisi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İnterlökin-2 (IL-2), antijenle uyarılmış CD4+ ve CD8+ T lenfositlerinden salınan temel T hücre büyüme faktörüdür (T-cell growth factor). T lenfositlerin inhibisyonuna değil; otokrin ve parakrin etkiyle klonal proliferasyonuna, efektör ve bellek hücrelere farklılaşmasına ve NK hücrelerinin aktivasyonuna neden olur. Çeldiriciler: A) IL-1, makrofajlardan salınan ve makrofajlar ile endotel hücrelerini aktive ederek akut inflamasyonu ve ateşi uyaran proinflamatuvar sitokindir. C) IL-3 (multi-CSF), T hücreleri ve mast hücrelerinden salınarak kemik iliğinde tüm hematopoetik kök hücre serilerinin olgunlaşmasını (hematopoezi) uyarır. D) IL-4, B lenfositlerin proliferasyonunu ve IgE ile IgG4 yönünde izotip dönüşümünü uyarır. E) IL-8 (CXCL8), nötrofilleri inflamasyon bölgesine çeken en güçlü kemotaktik sitokindir (kemokin).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Antikor sentezi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İkincil immün yanıtta IgM, IgG'den daha fazla sentezlenir.",
+      "B": "Birincil immün yanıtta IgM ve IgG sentezlenir.",
+      "C": "İkincil immün yanıt, birincil yanıttan daha kısa sürede gelişir.",
+      "D": "Birincil immün yanıtın gelişmesi antijen dozu ve veriliş yoluna bağlıdır.",
+      "E": "İkincil immün yanıtta üretilen IgG, serumda uzun süre bulunur."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Antijenle ikinci kez karşılaşıldığında gelişen ikincil (sekonder/anamnestik) immün yanıtta, ilk karşılaşmada oluşmuş olan bellek B lenfositleri hızla aktive olur. Bu hücreler önceden sınıf (izotip) dönüşümü geçirmiş oldukları için ikincil yanıtta IgG, IgM'den çok daha fazla miktarda ve yüksek afiniteli olarak sentezlenir; IgM sentezi ise birincil yanıttaki gibi düşük ve kısa süreli kalır. Çeldiriciler: B) Birincil (primer) immün yanıtta ilk olarak IgM sentezlenir, ardından T hücre yardımıyla izotip dönüşümü gerçekleşerek daha düşük titrede de olsa IgG sentezi başlar. C) İkincil immün yanıtta hazır bellek lenfosit havuzu bulunduğu için latent periyot çok daha kısadır ve yanıt hızla gelişir. D) Birincil immün yanıtın şiddeti ve niteliği antijenin dozuna, yapısına ve giriş yoluna (örneğin subkutan/intramüsküler verilişte sistemik yanıt, oral verilişte mukozal tolerans veya IgA yanıtı) doğrudan bağlıdır. E) IgG, FcRn reseptörleri aracılığıyla lizozomal yıkımdan korunduğu için yarı ömrü en uzun olan (yaklaşık 21-23 gün) immünoglobulindir ve uzun ömürlü plazma hücreleri sayesinde serumda aylarca-yıllarca kalır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Sınıf I MHC aracılığıyla bir antijene karşı oluşan yanıtta, antijen sunan hücre ve yanıt veren T hücre aşağıdakilerin hangisinde doğru olarak verilmiştir? Antijen sunan hücre – Yanıt veren hücre",
+    "options": {
+      "A": "Dendritik hücreler – CD4T",
+      "B": "Plazma hücreleri – CD4T",
+      "C": "B lenfositler – CD4T",
+      "D": "Mononükleer fagositler – CD8T",
+      "E": "Eritrositler – CD8T"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): MHC sınıf I molekülleri vücuttaki tüm çekirdekli hücrelerde (ve trombositlerde) bulunur ve sitozolik/endojen peptid antijenlerini yalnızca CD8+ sitotoksik T lenfositlerine sunar (8'ler kuralı: MHC-I × CD8 = 8). Mononükleer fagositler (monosit/makrofajlar) çekirdekli hücreler oldukları ve çapraz sunum (cross-presentation) da yapabildikleri için MHC sınıf I aracılığıyla CD8+ T hücrelerine antijen sunabilirler. Çeldiriciler: A) Dendritik hücreler antijen sunabilir ancak MHC sınıf I aracılığıyla yanıt veren hücre CD4+ T hücresi değil, CD8+ T hücresidir (CD4+ T hücreleri MHC sınıf II'yi tanır). B) Plazma hücreleri terminal farklılaşmış hücreler olup MHC-II ekspresyonlarını büyük ölçüde kaybederler ve CD4+ T hücreleri MHC-I ile uyarılmaz. C) B lenfositler MHC-I taşısa da MHC-I'e yanıt veren hücre CD4+ T değil CD8+ T lenfositidir. E) Olgun eritrositler çekirdeksiz hücreler olduklarından yüzeylerinde MHC sınıf I veya MHC sınıf II molekülü taşımazlar ve T hücrelerine antijen sunamazlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki kompleman komponentlerinden hangisi, mast hücre degranülasyonuna neden olur?",
+    "options": {
+      "A": "C3a",
+      "B": "C4b",
+      "C": "C5b",
+      "D": "C7",
+      "E": "C9"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kompleman kaskadının bölünme ürünlerinden C3a, C4a ve C5a \"anafilatoksinler\" olarak adlandırılır (güç sırası: C5a > C3a > C4a). C3a, mast hücreleri ve bazofillerin yüzeyindeki spesifik G-proteini kenetli reseptörlerine (C3aR) bağlanarak IgE'den bağımsız olarak mast hücre degranülasyonuna ve histamin salınımına yol açar; böylece damar geçirgenliği artışı ve düz kas kasılması oluşturur. Çeldiriciler: B) C4b, klasik ve lektin yolunda C2a ile birleşerek C3 konvertazı (C4b2a) oluşturur ve zayıf opsonin özelliği gösterir. C) C5b, membran atak kompleksinin (MAK / C5b-9) oluşumunu başlatan ilk bileşendir; mast hücre degranülasyonu yapmaz. D) C7, C5b6 kompleksine bağlanarak kompleksin hedef hücre lipid çift tabakasına tutunmasını sağlayan MAK bileşenidir. E) C9, C5b-8 kompleksine bağlanıp polimerize olarak (poli-C9) hedef hücre membranında litik porları açan son MAK bileşenidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisi, sınıf I MHC yüzey proteinlerine bağlanarak immün yanıta neden olur?",
+    "options": {
+      "A": "Yardımcı T hücreleri",
+      "B": "Makrofajlar",
+      "C": "Sitotoksik T hücreleri",
+      "D": "Doğal öldürücü hücreler",
+      "E": "B hücreleri"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Sitotoksik T hücreleri (CD8+ T lenfositler), yüzeylerindeki TCR ve CD8 koreseptörü aracılığıyla çekirdekli hedef hücrelerin yüzeyindeki sınıf I MHC (MHC-I) moleküllerine bağlı peptid antijenlerini spesifik olarak tanır ve bağlanır. Bu bağlanma sonucunda sitotoksik T hücresi aktive olarak perforin ve granzim salgılayıp hedef hücrede apoptoz (hücresel immün yanıt) oluşturur. Çeldiriciler: A) Yardımcı T hücreleri (CD4+ T lenfositler), sınıf I MHC'ye değil, sınıf II MHC moleküllerine bağlanır. B) Makrofajlar antijen sunan ve fagositoz yapan hücrelerdir; MHC-I'i tanıyan reseptörlerle spesifik adaptif yanıt başlatmazlar. D) Doğal öldürücü (NK) hücreler yüzeylerindeki inhibitör reseptörlerle (KIR) sağlıklı hücrelerdeki MHC-I varlığını denetler; MHC-I'e bağlandıklarında immün yanıt oluşturmak yerine inhibe olurlar, ancak MHC-I ekspresyonu azalmış/kaybolmuş hücreleri öldürürler. E) B hücreleri yüzey immünoglobulinleri (BCR) aracılığıyla serbest (doğal konformasyondaki) antijenleri MHC moleküllerinden bağımsız olarak doğrudan tanır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi T ve B hücrelerinin ortak özelliklerindendir?",
+    "options": {
+      "A": "Hücre yüzeyinde antijen reseptörlerinin olması",
+      "B": "Hücre yüzeyinde CD3 proteinlerinin olması",
+      "C": "Timusta olgunlaşmaları",
+      "D": "IL-2 ve gama interferon üretimi yapmaları",
+      "E": "İmmünoglobulin üretmeleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hem T hem de B lenfositler edinsel (adaptif) immün sistemin temel hücreleridir ve her ikisi de gelişimleri sırasında somatik gen yeniden düzenlenmesi (VDJ rekombinasyonu) ile oluşturdukları klonal ve antijene özgül yüzey reseptörleri taşırlar. T lenfositlerde bu reseptör TCR (T hücre reseptörü), B lenfositlerde ise BCR (yüzeyel IgM ve IgD) olarak hücre yüzeyinde yer alır. Çeldiriciler: B) CD3 protein kompleksi yalnızca T lenfositlerin yüzeyinde TCR ile birlikte bulunur ve sinyal iletimini sağlar; B hücrelerinde sinyal iletimini Igα ve Igβ (CD79a/CD79b) yapar. C) Timusta olgunlaşma yalnızca T lenfositlere özgüdür; B lenfositler kemik iliğinde olgunlaşır. D) IL-2 ve IFN-gama üretimi T lenfositlerin (özellikle Th1 ve CD8+ T) karakteristik özelliğidir. E) İmmünoglobulin (antikor) üretimi ve salgılanması yalnızca B lenfosit soyuna (plazma hücrelerine) özgüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Pentamer yapıda olup, primer cevapta rol alan kompleman fiksasyonunda en etkili immünoglobulin aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "IgA",
+      "B": "IgD",
+      "C": "IgE",
+      "D": "IgG",
+      "E": "IgM"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): IgM, antijenle ilk karşılaşmada (primer immün yanıtta) ilk üretilen immünoglobulindir. Serumda J zinciri ile birbirine bağlanmış 5 adet monomerden oluşan pentamerik yapıda bulunur. 10 adet antijen bağlama bölgesine (yüksek avidite) ve birbirine yakın 5 adet Fc bölgesine sahip olması nedeniyle C1q molekülünü tek başına bağlayabilir ve kompleman fiksasyonunda (klasik yol aktivasyonunda) en etkili antikordur. Çeldiriciler: A) IgA serumda monomer, mukozal salgılarda dimer yapıda bulunur ve klasik kompleman yolunu aktive etmez. B) IgD monomerik yapıda olup B lenfosit yüzeyinde antijen reseptörü olarak görev alır, kompleman bağlamaz. C) IgE monomerik yapıda olup alerjik (Tip I) reaksiyonlarda ve parazit savunmasında rol alır, klasik kompleman yolunu aktive etmez. D) IgG monomerik yapıdadır, sekonder immün yanıtta baskın olan antikordur; komplemanı aktive edebilir ancak C1q bağlayabilmesi için en az iki IgG molekülünün yan yana gelmesi gerektiğinden IgM kadar etkili değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Kompleman etkinleşmesinde klasik, alternatif ve lektin yolaklarının birleştiği kavşakta oluşan merkezi molekül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "C1",
+      "B": "C4",
+      "C": "Faktör D",
+      "D": "C3b",
+      "E": "C6"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kompleman sisteminin klasik yolu (C1, C4, C2), lektin yolu (MBL, MASP, C4, C2) ve alternatif yolu (C3, Faktör B, Faktör D) farklı uyaranlarla başlasa da her üç yolak C3 konvertaz enzimlerini oluşturarak C3'ü parçalar ve **C3b** oluşumunda kesişir. C3b hem güçlü bir opsonin olarak görev yapar hem de C5 konvertazların yapısına katılarak her üç yolağı ortak terminal (membran atak kompleksi) yolağına bağlar. Çeldiriciler: A) C1 yalnızca klasik yolun başlatıcı proteinidir; alternatif ve lektin yollarında yer almaz. B) C4 klasik ve lektin yolunda C3 konvertaz (C4b2a) oluşumuna katılır ancak alternatif yolda görev almaz. C) Faktör D yalnızca alternatif yola özgü bir serin proteazdır ve Faktör B'yi keser. E) C6 ortak terminal yolağın (MAK / C5b-9) bir bileşenidir, üç yolağın birleştiği kavşak noktası olan C3 basamağından daha sonra devreye girer.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tip I alerjiye örnektir?",
+    "options": {
+      "A": "Tüberkülin tip aşırı duyarlılık",
+      "B": "Sistemik lupus eritematozus",
+      "C": "Arthus reaksiyonu",
+      "D": "Atopi",
+      "E": "Romatoid artrit"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Atopi, çevresel zararsız antijenlere (polen, ev tozu akarı, gıdalar vb.) karşı genetik yatkınlığa bağlı olarak aşırı miktarda spesifik IgE antikoru üretilmesi ve mast hücresi degranülasyonu ile seyreden lokal veya sistemik Tip I (anafilaktik/erken tip) aşırı duyarlılık reaksiyonu eğilimidir (alerjik rinit, astım, atopik dermatit gibi). Çeldiriciler: A) Tüberkülin reaksiyonu (PPD testi), Th1 lenfositler ve makrofajlar aracılığıyla 48-72 saatte gelişen klasik bir Tip IV (gecikmiş hücresel tip) aşırı duyarlılık reaksiyonudur. B) Sistemik lupus eritematozus (SLE), nükleer antijenlere karşı gelişen otoantikorların oluşturduğu immün komplekslerin dokularda biriktiği Tip III aşırı duyarlılık reaksiyonudur. C) Arthus reaksiyonu, önceden duyarlanmış bireyde deri içine verilen antijenin dolaşımdaki IgG antikorlarıyla lokal immün kompleks oluşturup nekrotizan vaskülite yol açtığı lokalize Tip III reaksiyonudur. E) Romatoid artrit, eklem sinovyumunda Th1 ve Th17 lenfositlerin aracılık ettiği Tip IV (ve kısmen immün komplekslerin katıldığı Tip III) aşırı duyarlılık reaksiyonudur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin eksikliği herediter anjiyonörotik ödeme neden olur?",
+    "options": {
+      "A": "C4 bağlayan protein",
+      "B": "C1 inhibitörü",
+      "C": "Membran kofaktör protein",
+      "D": "Çürüme hızlandırıcı faktör",
+      "E": "CD59"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): C1 inhibitörü (C1-INH), serin proteaz inhibitörü (serpin) ailesinden bir plazma glikoproteini olup C1r ve C1s'i inhibe ederek klasik kompleman yolunun kontrolsüz aktivasyonunu önler; aynı zamanda kallikrein, faktör XIa ve faktör XIIa'yı da inhibe eder. Eksikliğinde (otozomal dominant geçişli herediter anjiyoödem) C1 kontrolsüz aktive olarak C4 ve C2'yi tüketir, kallikrein-kinin sisteminin aşırı aktivasyonu sonucu artan bradikinin ise vasküler permeabiliteyi artırarak deri ve mukozalarda (özellikle larinkste) kaşıntısız, gode bırakmayan tekrarlayıcı anjiyonörotik ödem ataklarına yol açar. Çeldiriciler: A) C4 bağlayan protein (C4BP), klasik yolda C4b'nin Faktör I tarafından yıkımında kofaktör olarak görev yapar; eksikliği herediter anjiyoödem yapmaz. C) Membran kofaktör protein (MCP / CD46), hücre membranında C3b ve C4b'nin Faktör I ile inaktivasyonunu sağlar; eksikliği atipik hemolitik üremik sendrom (aHÜS) ile ilişkilidir. D) Çürüme hızlandırıcı faktör (DAF / CD55), GPI kancasıyla membrana bağlanarak C3 konvertaz oluşumunu engeller; CD59 ile birlikte edinsel eksikliği paroksismal noktürnal hemoglobinüriye (PNH) yol açar. E) CD59 (protektin), C9 polimerizasyonunu ve membran atak kompleksi (MAK) oluşumunu inhibe eder; eksikliği PNH kliniğinde intravasküler hemolize neden olur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Toll benzeri reseptörlerin görevi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Patojenler ile ilişkili moleküler paternleri tanımak",
+      "B": "B hücre yüzeyinde bulunan IgM'ye tutunmak",
+      "C": "T hücre yüzeyinde bulunan antijen reseptörüne tutunmak",
+      "D": "İnflamasyonu baskılayacak sinyal üretmek",
+      "E": "MHC sınıf II reseptörlerine tutunmak"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Toll-benzeri reseptörler (TLR), doğal bağışıklık sisteminin en önemli patern tanıma reseptörleri (PRR) ailesidir. Makrofajlar, dendritik hücreler, nötrofiller ve epitel hücrelerinin yüzeyinde veya endozomlarında bulunarak mikroorganizmalarda korunmuş olan patojen ilişkili moleküler paternleri (PAMP; örneğin LPS, peptidoglikan, flagellin, viral RNA, CpG DNA) ve hasar ilişkili moleküler paternleri (DAMP) tanır; NF-κB ve IRF transkripsiyon faktörlerini aktive ederek proinflamatuvar sitokin ve Tip I interferon üretimini başlatırlar. Çeldiriciler: B) B hücre yüzeyindeki IgM (BCR) antijeni doğrudan tanır; TLR'lerin görevi IgM'ye tutunmak değildir. C) T hücre yüzeyindeki antijen reseptörüne (TCR) tutunan yapı antijen sunan hücredeki peptid-MHC kompleksidir. D) TLR aktivasyonu inflamasyonu baskılamaz; tam tersine NF-κB ve AP-1 üzerinden güçlü bir inflamatuvar ve antimikrobiyal yanıt başlatır. E) MHC sınıf II moleküllerine tutunan yapılar TCR ve CD4 koreseptörüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, anafilaktik aşırı duyarlılık reaksiyonlarının tedavisinde kullanılmaz?",
+    "options": {
+      "A": "Desensitizasyon",
+      "B": "Kromolin",
+      "C": "Antihistaminik ilaçlar",
+      "D": "İmmünosupresif ilaçlar",
+      "E": "Adrenalin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Klasik immünosupresif ilaçlar (siklosporin, takrolimus, azatioprin, mikofenolat vb.) T ve B lenfosit proliferasyonunu baskılayarak organ nakli reddi, otoimmün hastalıklar ve gecikmiş tip aşırı duyarlılık reaksiyonlarında kullanılır; önceden sentezlenmiş IgE ve mast hücre degranülasyonu ile saniyeler-dakikalar içinde gelişen anafilaktik (Tip I) reaksiyonların yönetiminde yer almazlar (kortikosteroidler ise yalnızca geç faz reaksiyonunu önlemek için anti-inflamatuvar olarak eklenebilir). Çeldiriciler: A) Desensitizasyon (immünoterapi), alerjenin artan dozlarda verilerek IgG4 tipi blokan antikorların ve Treg yanıtının artırılmasıyla Tip I alerjilerin önlenmesinde/tedavisinde kullanılır. B) Kromolin sodyum, mast hücre membranını stabilize ederek kalsiyum girişini ve histamin degranülasyonunu önleyen profilaktik bir ilaçtır. C) Antihistaminik ilaçlar (H1 reseptör blokörleri), mast hücrelerinden salınan histaminin hedef dokulardaki etkilerini bloke ederek semptomatik tedavide kullanılır. E) Adrenalin (epinefrin), histaminin fizyolojik antagonisti olup α1 reseptörlerle vazokonstriksiyon (ödemi azaltır, tansiyonu yükseltir) ve β2 reseptörlerle bronkodilatasyon yaparak akut sistemik anafilakside hayat kurtarıcı ilk seçenek ilaçtır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Charcot-Leyden kristalleri, aşağıdaki immün sistem hücrelerinden hangisinin yıkım ürünüdür?",
+    "options": {
+      "A": "Monosit",
+      "B": "Eozinofil",
+      "C": "Nötrofil",
+      "D": "T lenfosit",
+      "E": "B lenfosit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Charcot-Leyden kristalleri, alerjik hastalıklarda (örneğin bronşiyal astımlı hastaların balgamında, alerjik rinit sekresyonlarında) ve paraziter (helmint) enfeksiyonlarda dokuya göç eden eozinofillerin yıkımı sırasında açığa çıkan çift piramit (hekzagonal/iğne) şeklindeki mikroskobik kristallerdir. Temel yapısal bileşeni eozinofil sitoplazması ve granüllerinde bol miktarda bulunan **galektin-10** (lizofosfolipaz) proteinidir. Çeldiriciler: A) Monositler doku makrofajlarına dönüşerek fagositoz yapar, Galektin-10 kristalleri oluşturmaz. C) Nötrofil yıkımı püy (irin) oluşumuna ve hücre dışı tuzaklara (NET) yol açar, Charcot-Leyden kristali oluşturmaz. D) T lenfositler granül içermez (CD8+ T hücreleri perforin/granzim içerir) ve bu kristallerin kaynağı değildir. E) B lenfositler antikor üreten agranüler lenfositlerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, akut faz proteinlerinden biri değildir?",
+    "options": {
+      "A": "C-reaktif protein",
+      "B": "Romatoid faktör",
+      "C": "Seruloplazmin",
+      "D": "Haptoglobin",
+      "E": "Transferrin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Akut faz proteinleri (reaktanları), akut inflamasyon, doku hasarı veya enfeksiyon sırasında başlıca IL-6 (ve IL-1, TNF-α) uyarısıyla karaciğer hepatositlerinden sentezi en az %25 oranında değişen (artan veya azalan) plazma proteinleridir. Romatoid faktör (RF) ise karaciğerde sentezlenen bir akut faz proteini değil; plazma hücreleri tarafından üretilen ve kendi IgG antikorlarının Fc kısmına karşı gelişmiş olan (çoğunlukla IgM sınıfı) bir otoantikordur. Çeldiriciler: A) C-reaktif protein (CRP), bakteriyel fosforilkoline bağlanarak opsonizasyon ve kompleman aktivasyonu yapan en önemli pozitif akut faz reaktanıdır. C) Seruloplazmin, bakır taşıyan ve antioksidan özellik gösteren pozitif bir akut faz proteinidir. D) Haptoglobin, serbest hemoglobini bağlayarak demir kaybını ve oksidatif hasarı önleyen pozitif bir akut faz proteinidir. E) Transferrin, inflamasyon sırasında bakterilerin demir kullanımını kısıtlamak amacıyla karaciğerden sentezi azalan negatif bir akut faz proteinidir (albümin ve transtiretin gibi).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki antikorlardan hangisi, dimer yapıda olup kan dışında vücut salgılarında da bulunur?",
+    "options": {
+      "A": "IgA",
+      "B": "IgD",
+      "C": "IgE",
+      "D": "IgG",
+      "E": "IgM"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İmmünoglobulin A (IgA), serumda çoğunlukla monomerik yapıda bulunurken; gözyaşı, tükürük, kolostrum (anne sütü), solunum, gastrointestinal ve genitoüriner sistem salgılarında (mukozal sekresyonlarda) J zinciri ile birbirine bağlanmış **dimer** yapıda bulunur. Mukozal epitel hücrelerinden lümene taşınırken polimerik Ig reseptöründen (pIgR) köken alan \"sekretuvar komponent\"i de yapısına katarak proteolitik enzimlere karşı direnç kazanır ve mukozal bağışıklığın temel elemanını oluşturur. Çeldiriciler: B) IgD monomerik yapıda olup B hücre yüzeyinde antijen reseptörü olarak bulunur, vücut salgılarına geçmez. C) IgE monomerik yapıdadır ve büyük kısmı dokulardaki mast hücrelerine bağlı halde bulunur. D) IgG her zaman monomerik yapıdadır ve serum ile hücre dışı sıvıların ana antikorudur. E) IgM serumda pentamerik yapıda bulunur (dimer değildir).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Anafilaktik tip aşırı duyarlılık reaksiyonunda aşağıdaki mediyatörlerden hangisi mast hücre aktivasyonunu takiben sentezlenir?",
+    "options": {
+      "A": "Histamin",
+      "B": "Lökotrienler",
+      "C": "Kimaz",
+      "D": "Triptaz",
+      "E": "Heparin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Tip I (anafilaktik) aşırı duyarlılık reaksiyonunda mast hücresi mediyatörleri iki gruba ayrılır: Granüllerde önceden sentezlenmiş (hazır depolanmış) primer mediyatörler ve mast hücre aktivasyonunu takiben membran fosfolipidlerinden (araşidonik asitten) *de novo* (yeni) sentezlenen sekonder mediyatörler. Lökotrienler (LTC4, LTD4, LTE4 ve LTB4), prostaglandinler (PGD2) ve trombosit aktive edici faktör (PAF) aktivasyon sonrasında fosfolipaz A2 ve lipooksijenaz/siklooksijenaz enzimleriyle yeni sentezlenen sekonder mediyatörlerdir. Çeldiriciler: A) Histamin, mast hücresi granüllerinde önceden sentezlenip hazır depolanan en önemli primer vazoaktif amindir. C) Kimaz, granüllerde hazır depolanan primer nötral proteazdır. D) Triptaz, mast hücre granüllerinde hazır depolanan ve sistemik mast hücre aktivasyonunun (anafilaksinin) spesifik tanısal belirteci olan primer proteazdır. E) Heparin, granüllerde histamin ve proteazları bağlayacak matriks oluşturan hazır depolanmış primer asidik proteoglikandır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "İmmünoglobulinler aşağıdaki yapılardan hangisinin farklılığına göre sınıflandırılır?",
+    "options": {
+      "A": "Kappa zinciri",
+      "B": "Lambda zinciri",
+      "C": "L zinciri",
+      "D": "J zinciri",
+      "E": "H zinciri"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İmmünoglobulinlerin 5 ana sınıfa (izotipe: IgG, IgA, IgM, IgD, IgE) ayrılması, ağır zincirlerinin (Heavy chain - **H zinciri**) sabit (C) bölgelerindeki amino asit dizilimi ve antijenik yapı farklılıklarına dayanır. Gama (γ) ağır zinciri IgG'yi, alfa (α) IgA'yı, mü (μ) IgM'yi, delta (δ) IgD'yi ve epsilon (ε) IgE'yi oluşturur. Çeldiriciler: A) Kappa (κ) zinciri hafif zincir tiplerinden biridir ve her beş immünoglobulin sınıfında da bulunabilir. B) Lambda (λ) zinciri diğer hafif zincir tipidir ve tüm immünoglobulin sınıflarında yer alabilir. C) L (Light - hafif) zinciri (κ veya λ) tüm antikor sınıflarında ortaktır, sınıf belirleyici değildir. D) J zinciri yalnızca polimerik IgM ve IgA'da bulunan birleştirici peptiddir, sınıflandırma kriteri değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, kompleman sistemini düzenleyen moleküllerden birinin eksikliğine bağlı gelişir?",
+    "options": {
+      "A": "Kronik granülomatoz hastalık",
+      "B": "Chediak-Higashi sendromu",
+      "C": "Retiküler disgenezis",
+      "D": "Paroksismal noktürnal hemoglobinüri",
+      "E": "Wiskott-Aldrich sendromu"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Paroksismal noktürnal hemoglobinüri (PNH), hematopoetik kök hücrelerde *PIGA* geninde gelişen edinsel somatik mutasyon sonucu glikozilfosfatidilinozitol (GPI) kancasının sentezlenememesiyle ortaya çıkar. Bu kanca ile hücre membranına tutunan kompleman düzenleyici proteinler olan **DAF (CD55)** (C3 konvertazı inhibe eder) ve **CD59 (protektin)** (membran atak kompleksini inhibe eder) eritrosit yüzeyinde eksik kalır. Sonuçta eritrositler kompleman aracılı intravasküler lizise aşırı duyarlı hale gelir; klinik olarak hemolitik anemi, koyu renkli idrar (hemoglobinüri), pansitopeni ve venöz trombozlar görülür. Çeldiriciler: A) Kronik granülomatöz hastalık, fagositlerdeki NADPH oksidaz enzim eksikliğine bağlıdır. B) Chediak-Higashi sendromu, *LYST* gen mutasyonu sonucu mikrotübül fonksiyon bozukluğu ve fagolizozom füzyon defekti ile karakterizedir. C) Retiküler disgenezis, *AK2* gen mutasyonuna bağlı olarak hem lenfoid hem de miyeloid serinin gelişemediği en ağır kombine immün yetmezlik formudur. E) Wiskott-Aldrich sendromu, *WAS* gen mutasyonuna bağlı aktin hücre iskeleti defektidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "On iki haftalık bir gebede toksoplazma IgG ve IgM düşük titrede pozitif bulunmuştur. Bu gebede akut toksoplazmozis tanısını dışlamak için ilk başvurulacak test aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Üç hafta sonra toksoplazma IgM tekrarı",
+      "B": "Toksoplazma IgG avidite testi",
+      "C": "Amniotik sıvıda toksoplazma IgM",
+      "D": "Amniotik sıvıda toksoplazma DNA",
+      "E": "Amniotik sıvıdan fare inokülasyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Gebelikte *Toxoplasma gondii* IgM antikorları akut enfeksiyon sonrasında 1-2 yıl boyunca pozitif kalabildiğinden (kalıcı IgM) veya yalancı pozitiflik gösterebildiğinden, hem IgM hem de IgG pozitif saptanan bir gebede enfeksiyonun ne zaman geçirildiğini belirlemek için ilk yapılması gereken doğrulama testi **Toksoplazma IgG avidite testi**dir. İlk trimesterde (12. haftada) yüksek aviditeli IgG saptanması enfeksiyonun en az 3-4 ay önce (gebelikten önce) geçirildiğini gösterir ve akut enfeksiyonu dışlar; düşük avidite ise akut enfeksiyonu düşündürür. Çeldiriciler: A) IgM aylarca pozitif kalabildiği için 3 hafta sonra IgM tekrarı akut enfeksiyonu dışlamada anlamlı değildir. C) Amniyotik sıvıda IgM bakılması invaziv bir işlemdir ve tanısal duyarlılığı düşüktür. D) Amniyosentez ile amniyotik sıvıda PCR ile *Toxoplasma* DNA'sı aranması, ancak düşük IgG aviditesi saptanarak annede akut enfeksiyon doğrulandıktan sonra (genellikle 18. gebelik haftasından itibaren) fetal enfeksiyonu göstermek için yapılır; ilk basamak dışlama testi değildir. E) Fare inokülasyonu rutinde kullanılmayan, geç sonuç veren invaziv bir referans yöntemdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Antijen sunucu hücrenin yardımcı T hücreye antijen sunumu sırasında, aşağıdaki hangi iki yüzey molekülünün etkileşimi sunumdan bağımsız yardımcı (ko-stimülatör) bir sinyal oluşmasına ve T hücrenin uyarılmasına neden olur?",
+    "options": {
+      "A": "Sınıf I MHC ile TCR molekülleri",
+      "B": "Sınıf II MHC ile TCR molekülleri",
+      "C": "CD4 ile TCR molekülleri",
+      "D": "CD8 ile β-2 mikroglobulin molekülleri",
+      "E": "B7 ile CD28 molekülleri"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Naif T lenfositlerin tam olarak aktive olabilmesi için iki sinyal gerekir: Birinci sinyal (antijene özgül sinyal), APC üzerindeki peptid-MHC kompleksinin TCR ve CD4/CD8 koreseptörü tarafından tanınmasıdır. İkinci sinyal (antijen sunumundan bağımsız ko-stimülatör sinyal) ise profesyonel antijen sunan hücre yüzeyindeki **B7-1 (CD80) / B7-2 (CD86)** molekülleri ile T lenfosit yüzeyindeki **CD28** reseptörünün etkileşimidir. Bu etkileşim T hücresinden IL-2 sentezini ve hücre proliferasyonunu başlatır; ikinci sinyal olmazsa T hücresi anerjiye (cevapsızlığa) girer. Çeldiriciler: A) Sınıf I MHC ile TCR etkileşimi CD8+ T hücrelerinde birinci (antijen özgül) sinyali oluşturur. B) Sınıf II MHC ile TCR etkileşimi CD4+ T hücrelerinde birinci (antijen özgül) sinyali oluşturur, ko-stimülatör sinyal değildir. C) CD4 ve TCR her ikisi de T hücresinin kendi yüzeyinde yer alır ve birinci sinyale katılır. D) CD8, MHC sınıf I'in α3 bölgesine bağlanan koreseptördür; ko-stimülatör sinyal oluşturmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki mediyatörlerden hangisi, akut inflamasyonda doğrudan doku hasarına neden olur?",
+    "options": {
+      "A": "Lökotrien B4",
+      "B": "Tümör nekroz faktörü-alfa",
+      "C": "Nitrik oksit",
+      "D": "Platelet aktive edici faktör",
+      "E": "İnterlökin-23"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Nitrik oksit (NO), aktive makrofajlar ve nötrofillerde indüklenebilir nitrik oksit sentaz (iNOS) enzimi tarafından L-argininden üretilen serbest radikal yapısında bir gazdır. Süperoksit radikali ($O_2^-$) ile birleşerek son derece reaktif ve sitotoksik olan peroksinitrit ($ONOO^-$) radikallerini oluşturur; bu radikaller mikrobiyal ve konak hücre membran lipidlerini, proteinleri ve DNA'yı doğrudan oksitleyerek akut inflamasyonda doğrudan doku ve hücre hasarına yol açar. Çeldiriciler: A) Lökotrien B4 (LTB4), nötrofiller için güçlü bir kemotaktik ajandır; doğrudan sitotoksik/doku yıkıcı bir radikal değildir. B) TNF-α, endotel aktivasyonu, lökosit adezyonu ve ateş oluşturan birincil sinyal sitokinidir. D) Platelet aktive edici faktör (PAF), vasküler permeabilite artışı, trombosit agregasyonu ve lökosit aktivasyonu yapar. E) İnterlökin-23, Th17 lenfositlerin yaşam süresini uzatan ve kronik/otoimmün inflamasyonu destekleyen bir sitokindir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Streptococcus pyogenes kaynaklı cilt enfeksiyonu öyküsü olan hasta akut glomerülonefrit tanısı alıyor. Bu durumun en olası nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Anafilaksi",
+      "B": "Atopi",
+      "C": "İmmün kompleks oluşumu",
+      "D": "T hücresine bağlı aşırı duyarlılık",
+      "E": "Sitotoksisite"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): A grubu beta-hemolitik streptokok (*Streptococcus pyogenes*) cilt (impetigo/piyodermi) veya boğaz enfeksiyonundan 1-3 hafta sonra gelişen akut poststreptokokkal glomerülonefrit (APSGN), streptokokun nefritojenik suşlarına ait antijenler ile bunlara karşı üretilen antikorların oluşturduğu **immün komplekslerin** glomerül bazal membranında (subepitelyal hörgüç/hump şeklinde) birikmesi ve komplemanı aktive etmesiyle gelişen klasik bir Tip III aşırı duyarlılık reaksiyonudur. Çeldiriciler: A) Anafilaksi, IgE aracılı sistemik Tip I aşırı duyarlılık reaksiyonudur. B) Atopi, genetik eğilimli bireylerde IgE aracılı lokal Tip I alerjik reaksiyonlardır. D) T hücresine bağlı aşırı duyarlılık Tip IV reaksiyonudur; APSGN patogenezinde rol oynamaz. E) Antikor aracılı doğrudan sitotoksisite (moleküler benzerlik ve çapraz reaksiyon - Tip II aşırı duyarlılık), *S. pyogenes*'in diğer nonsüpüratif komplikasyonu olan Akut Romatizmal Ateş (ARA) patogenezinden sorumludur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Endojen olarak üretilen viral antijenler, aşağıdaki yapılardan hangisi aracılığıyla immün sisteme sunulur?",
+    "options": {
+      "A": "T hücresi reseptörü",
+      "B": "MHC sınıf I",
+      "C": "İnterlökin-2 reseptörü",
+      "D": "İnterferon-gama reseptörü",
+      "E": "Yüzey immünoglobulin molekülü"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Hücre sitozolünde (endojen olarak) sentezlenen viral proteinler, tümör antijenleri veya kendi hücresel proteinlerimiz ubikitinlenerek proteazomlarda peptid parçalarına ayrılır. Bu peptidler TAP (transporter associated with antigen processing) taşıyıcı proteini aracılığıyla endoplazmik retikuluma taşınır, burada **MHC sınıf I** moleküllerine yüklenir ve Golgi aracılığıyla hücre yüzeyine çıkarılarak CD8+ sitotoksik T lenfositlerine sunulur. Çeldiriciler: A) T hücresi reseptörü (TCR), antijeni sunan yapı değil, T lenfosit yüzeyinde bulunup sunulan antijeni tanıyan reseptördür. C) İnterlökin-2 reseptörü (CD25), IL-2 sitokinini bağlayarak T hücre proliferasyonunu sağlar. D) İnterferon-gama reseptörü, IFN-γ bağlayarak JAK-STAT yoluyla makrofaj aktivasyonunu başlatır. E) Yüzey immünoglobulin molekülü (BCR), B lenfositlerin hücre dışı antijenleri tanıyan reseptörüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki sitokinlerden hangisinin kaynağı TH2 tipi lenfositler değildir?",
+    "options": {
+      "A": "İnterlökin-4",
+      "B": "İnterlökin-5",
+      "C": "İnterlökin-10",
+      "D": "İnterlökin-12",
+      "E": "İnterlökin-13"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İnterlökin-12 (IL-12), T lenfositler tarafından değil; makrofajlar ve dendritik hücreler gibi antijen sunan hücreler tarafından üretilen heterodimerik bir sitokindir. Ayrıca işlevsel olarak da Th2 yanıtının değil, naif T hücrelerinin Th1 yönünde farklılaşmasının ve IFN-gama üretiminin ana uyarıcısıdır. Çeldiriciler: A) İnterlökin-4, Th2 hücrelerinin temel sitokinidir; IgE izotip dönüşümünü ve Th2 farklılaşmasını sağlar. B) İnterlökin-5, Th2 hücrelerinden salınır ve eozinofil aktivasyonunu uyarır. C) İnterlökin-10, başlıca Treg ve M2 makrofajlardan salınmakla birlikte Th2 hücreleri tarafından da üretilir ve Th1 yanıtını baskılar. E) İnterlökin-13, Th2 hücrelerinden salınır; mukus üretimini, IgE sentezini ve alternatif makrofaj aktivasyonunu uyarır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki moleküllerden hangisi, T hücre reseptör (TCR) kompleksi içerisinde yer almaz?",
+    "options": {
+      "A": "TCR alfa zinciri",
+      "B": "TCR beta zinciri",
+      "C": "CD3 proteini",
+      "D": "CD21 proteini",
+      "E": "Zeta proteini"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): **CD21 proteini** (CR2 - Kompleman reseptörü tip 2), T hücrelerinde değil, **B lenfositlerin** yüzeyinde bulunan ve CD19 ile CD81 (TAPA-1) ile birlikte B hücre koreseptör kompleksini oluşturan bir moleküldür; aynı zamanda Epstein-Barr virüsünün (EBV) B lenfositlere girmek için kullandığı reseptördür. TCR kompleksi içerisinde yer almaz. Çeldiriciler: A) TCR alfa (α) zinciri, antijen-MHC kompleksini tanıyan heterodimerin değişken zincirlerinden biridir. B) TCR beta (β) zinciri, alfa zinciri ile disülfid bağıyla bağlanarak antijen tanıyan TCR heterodimerini oluşturur. C) CD3 proteini (γ, δ, ε zincirleri), kısa sitoplazmik kuyruklu TCR α/β zincirlerinin tanıdığı antijen sinyalini ITAM motifleri aracılığıyla hücre içine ileten TCR kompleksi bileşenidir. E) Zeta (ζ) proteini, uzun sitoplazmik kuyruklarında çok sayıda ITAM motifi taşıyan ve ZAP-70 tirozin kinazın bağlanmasını sağlayan TCR sinyal kompleksinin ayrılmaz parçasıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisi helmintlere antikor aracılı mekanizmayla hasar verir?",
+    "options": {
+      "A": "Nötrofil",
+      "B": "Eozinofil",
+      "C": "Bazofil",
+      "D": "B1 hücresi",
+      "E": "Sitotoksik T lenfosit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Helmintler (parazitik solucanlar) çok hücreli ve büyük boyutlu oldukları için fagositler tarafından yutulamazlar. Th2 yanıtı ile üretilen IgE (ve IgG) antikorları helmint yüzeyini kaplar; **eozinofiller** yüzeylerindeki Fc reseptörleri aracılığıyla bu antikorlara bağlanır ve antikor bağımlı hücresel sitotoksisite (ADCC) mekanizmasıyla granüllerindeki **majör bazik protein (MBP)** ve **eozinofil katyonik protein (ECP)** gibi parazitler için son derece toksik proteinleri salgılayarak helmintin tegümentine (dış kılıfına) hasar verir. Çeldiriciler: A) Nötrofiller hücre dışı bakteri ve mantarları fagositozla öldürür, helmintlere karşı özgül IgE aracılı ADCC'nin ana hücresi değildir. C) Bazofiller dolaşımda bulunan ve IgE bağlayarak vazoaktif mediyatörler salgılayan hücrelerdir; doğrudan ADCC ile helmint yıkımı yapmazlar. D) B1 hücreleri periton ve mukozalarda bulunan, polisakkarit antijenlere karşı T'den bağımsız doğal IgM üreten B hücre alt grubudur. E) Sitotoksik T lenfositler MHC sınıf I sunumuyla virüsle enfekte konak hücrelerini veya tümör hücrelerini apoptozla öldürür, hücre dışı parazitlere antikor aracılı saldırmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Kompleman sistemi ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Alternatif yolda membran atak kompleksi oluşmaz.",
+      "B": "Klasik yolun aktivasyonu için antijen antikor kompleksi oluşması gerekir.",
+      "C": "Lektin yolu C1 aktivasyonu ile başlar.",
+      "D": "Alternatif yolun aktivasyonuna C2 katılır.",
+      "E": "Lektin yolu aktivasyonu için faktör D gerekir."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kompleman sisteminin klasik yolu, edinsel (humoral) immün yanıtın bir efektör mekanizmasıdır ve aktivasyonunun başlaması için antijen ile spesifik antikorun (IgM veya IgG1, IgG2, IgG3) birleşerek oluşturduğu **antijen-antikor kompleksine (immün komplekse)** C1q proteininin bağlanması gerekir. Çeldiriciler: A) Klasik, lektin ve alternatif yolların her üçü de C3b ve C5b basamağında birleşerek aynı ortak son ürün olan membran atak kompleksini (MAK / C5b-9) oluşturur. C) Lektin yolu C1 ile değil, mannoz bağlayan lektin (MBL) ve fukolinlerin mikrobiyal karbonhidratlara bağlanıp MASP-1/MASP-2 proteazlarını aktive etmesiyle (C1'den bağımsız olarak C4 ve C2'yi keserek) başlar. D) Alternatif yol doğrudan C3b, Faktör B ve Faktör D üzerinden ilerler; C1, C4 ve C2 proteinleri alternatif yola katılmaz. E) Faktör D yalnızca alternatif yolda Faktör B'yi kesen proteazdır; lektin yolunda görev almaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi CD8 T lenfositleri tarafından oluşturulan hedef hücre ölümlerinde kullanılır?",
+    "options": {
+      "A": "Lizozim aracılı lizis",
+      "B": "Membran atak kompleksi aracılı lizis",
+      "C": "Apoptozis",
+      "D": "Fagositoz",
+      "E": "Opsonizasyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): CD8+ sitotoksik T lenfositleri (ve NK hücreleri), virüsle enfekte olmuş veya tümörleşmiş hedef hücreleri inflamasyona yol açmadan, **apoptozis** (programlanmış hücre ölümü) mekanizmasını tetikleyerek öldürür. Bunu iki yolla gerçekleştirir: Birincisi, granüllerinden salgıladığı **perforin** ile hedef hücre zarında porlar açıp **granzim B**'yi içeri sokarak kaspazları aktive etmek; ikincisi ise yüzeyindeki **Fas ligand (FasL / CD95L)** ile hedef hücredeki **Fas (CD95)** ölüm reseptörünü etkileştirmektir. Çeldiriciler: A) Lizozim aracılı lizis, gözyaşı, tükürük ve fagosit granüllerinde bulunan lizozim enziminin bakteri peptidoglikan duvarını parçalamasıdır. B) Membran atak kompleksi (C5b-9) aracılı osmotik lizis kompleman sisteminin efektör mekanizmasıdır. D) Fagositoz, nötrofil, makrofaj ve dendritik hücrelerin partikülleri yutarak lizozomlarda parçalamasıdır; lenfositler fagositoz yapmaz. E) Opsonizasyon, patojenlerin IgG veya C3b ile işaretlenerek fagositozunun kolaylaştırılmasıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "IgM sınıfı antikorlar ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Dimerik moleküllerdir.",
+      "B": "Anamnestik cevapta baskın olan antikor sınıfıdır.",
+      "C": "Yenidoğanlarda tespit edilenleri anne kaynaklıdır.",
+      "D": "Serumda en yüksek konsantrasyonda bulunan izotiptir.",
+      "E": "T hücresi yardımı olmadan gelişebilirler."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): B lenfositler polisakkarit, lipopolisakkarit ve polimerik protein dışı antijenlerle (T-bağımsız antijenler) karşılaştıklarında, yardımcı T hücrelerinin (CD40L ve sitokin) yardımına ihtiyaç duymadan doğrudan aktive olarak **IgM** sınıfı antikor üretebilirler. Diğer antikor sınıflarına (IgG, IgA, IgE) dönüşüm (izotip switching) için ise kural olarak T hücresi yardımı gerekir. Çeldiriciler: A) Salgısal IgM pentamerik (B hücre yüzeyinde ise monomerik) yapıdadır; dimerik olan salgısal IgA'dır. B) Anamnestik (ikincil/sekonder) immün cevapta baskın olan antikor sınıfı IgM değil, IgG'dir; IgM primer cevapta baskındır. C) IgM plasentayı geçemediği için yenidoğanda tespit edilen IgM anne kaynaklı olamaz; fetüsün kendisi tarafından üretilmiştir ve konjenital enfeksiyonu gösterir. D) Serumda en yüksek konsantrasyonda bulunan izotip IgM değil, IgG'dir (toplam serum immünoglobulinlerinin yaklaşık %75-80'i).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisi MHC sınıf II molekülleri taşımaz?",
+    "options": {
+      "A": "B lenfosit",
+      "B": "Langerhans hücresi",
+      "C": "Makrofaj",
+      "D": "Foliküler dendritik hücre",
+      "E": "Kupffer hücresi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): MHC sınıf II molekülleri klasik profesyonel antijen sunan hücrelerde (dendritik hücreler, monosit/makrofajlar, B lenfositler) ve timik epitel hücrelerinde bulunur. **Foliküler dendritik hücreler (FDC)** ise isim benzerliğine rağmen kemik iliği (hematopoetik) kökenli geleneksel dendritik hücrelerden değildir; lenf düğümü ve dalaktaki lenfoid foliküllerin germinal merkezlerinde bulunan mezenkimal (stromal) kökenli hücrelerdir. Yüzeylerinde **MHC sınıf II molekülü taşımazlar** ve T hücrelerine antijen sunmazlar; bunun yerine yüzeylerindeki Fc ve kompleman reseptörleri (CR1/CR2) ile antijen-antikor komplekslerini yakalayarak B lenfositlere sunarlar. Çeldiriciler: A) B lenfositler profesyonel antijen sunan hücrelerdir ve yapısal olarak MHC sınıf II taşırlar. B) Langerhans hücresi epidermiste yerleşik miyeloid kökenli klasik dendritik hücredir ve yoğun MHC sınıf II taşır. C) Makrofajlar profesyonel antijen sunan hücrelerdir ve MHC sınıf II eksprese ederler (IFN-γ ile ekspresyonu daha da artar). E) Kupffer hücresi karaciğer sinüzoidlerinde yerleşik doku makrofajıdır ve MHC sınıf II taşır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Antikor-bağımlı hücresel sitotoksisite olayında, antikor ile kaplı hücreleri ortadan kaldıran immün sistem elemanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Doğal öldürücü (NK) hücreler",
+      "B": "B lenfosit",
+      "C": "Foliküler dendritik hücre",
+      "D": "Mast hücresi",
+      "E": "Bazofil"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Antikor bağımlı hücresel sitotoksisite (ADCC), IgG antikorları ile kaplanmış enfekte konak hücrelerinin veya tümör hücrelerinin lizis yoluyla ortadan kaldırıldığı mekanizmadır. **Doğal öldürücü (NK) hücreler**, yüzeylerinde bulunan düşük afiniteli Fc reseptörü **FcγRIIIA (CD16)** aracılığıyla hedef hücre yüzeyine bağlanmış IgG antikorlarının Fc kısımlarını tanır ve perforin/granzim salgılayarak hedef hücreyi apoptoza uğratır (NK hücreleri dışında makrofajlar, nötrofiller ve eozinofiller de ADCC yapabilir). Çeldiriciler: B) B lenfositler antikor üreten hücrelerdir; sitotoksik granülleri ve ADCC yetenekleri yoktur. C) Foliküler dendritik hücreler germinal merkezde B hücrelerine antijen sunan stromal hücrelerdir, sitotoksik değildir. D) Mast hücreleri FcεRI ile IgE bağlayarak alerjik mediyatör degranülasyonu yapar; klasik ADCC efektörü değildir. E) Bazofiller dolaşımda IgE bağlayarak Tip I aşırı duyarlılık reaksiyonlarına katılır, ADCC ile hedef hücre öldürmez.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Sadece taşıyıcı bir proteinle birlikte olduğunda antijenik özellik gösteren, küçük moleküler yapıdaki madde aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Adjuvan",
+      "B": "İmmünojen",
+      "C": "Hapten",
+      "D": "Epitop",
+      "E": "Paratop"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): **Hapten** (örneğin penisilin metabolitleri, dinitrofenol, uruşiol), düşük molekül ağırlıklı (<10 kDa) kimyasal bir madde olup tek başına antikorlarla bağlanabilse (antijenik olsa) bile immün yanıtı tek başına başlatamaz (immünojenik değildir). Ancak daha büyük moleküllü bir **taşıyıcı proteine (carrier)** kovalent olarak bağlandığında (hapten-taşıyıcı konjugatı), B hücresi hapteni tanırken yardımcı T hücresi de taşıyıcı proteinin peptidlerini MHC-II ile tanıyarak immün yanıt oluşmasını sağlar. Çeldiriciler: A) Adjuvan, antijenle birlikte verildiğinde immün yanıtı spesifik olmayan şekilde güçlendiren maddedir. B) İmmünojen, herhangi bir taşıyıcıya ihtiyaç duymadan tek başına immün sistemi uyarabilen tam antijendir. D) Epitop (antijenik determinant), bir antijen molekülünün antikor veya TCR tarafından doğrudan tanınan ve bağlanılan özgül üç boyutlu bölgesidir. E) Paratop, antikor veya TCR molekülünün epitopa bağlanan değişken uç kısmıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi immün sistemin sekonder (periferik) doku veya organlarından biridir?",
+    "options": {
+      "A": "Fabricius kesesi",
+      "B": "Fetal karaciğer",
+      "C": "Timus",
+      "D": "Kemik iliği",
+      "E": "Dalak"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lenfoid organlar ikiye ayrılır: Lenfositlerin antijenden bağımsız olarak üretildiği ve olgunlaştığı santral (primer) lenfoid organlar ve olgun naif lenfositlerin yabancı antijenlerle karşılaşıp aktive olduğu **sekonder (periferik) lenfoid organlar**. **Dalak**, lenf düğümleri ve mukozayla ilişkili lenfoid dokular (MALT: Peyer plakları, tonsiller, apendiks) sekonder lenfoid organlardır; dalak özellikle kan yoluyla gelen antijenlere karşı immün yanıtın başlatıldığı organdır. Çeldiriciler: A) Fabricius kesesi (Bursa of Fabricius), kuşlarda B lenfositlerin olgunlaştığı primer lenfoid organdır. B) Fetal karaciğer, intrauterin dönemde hematopoezin ve B hücre öncüllerinin geliştiği primer hematopoetik/lenfoid organdır. C) Timus, T lenfositlerin pozitif ve negatif seleksiyonla olgunlaştığı primer (santral) lenfoid organdır. D) Kemik iliği, tüm kan hücrelerinin üretildiği ve memelilerde B lenfositlerin olgunlaştığı primer (santral) lenfoid organdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aktarım Yöntemi – Aktarım Mekanizması 1. Transdüksiyon – A. Ortamdaki serbest bakteri DNA'sının hücre içine alınması 2. Konjugasyon – B. DNA'nın bir bakteriden diğer bir bakteriye bakteriyofajlar ile aktarılması 3. Transformasyon – C. Canlı bir bakterideki DNA'nın seks pilusu aracılığı ile diğer bir bakteriye aktarılması Yukarıdaki tabloda verilen, bakteriler arasındaki genetik çeşitliliğin sağlanmasında etkili olan aktarım yöntemi ve mekanizması eşleştirmeleri aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "1-A, 2-B, 3-C",
+      "B": "1-B, 2-A, 3-C",
+      "C": "1-B, 2-C, 3-A",
+      "D": "1-C, 2-B, 3-A",
+      "E": "1-C, 2-A, 3-B"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Bakterilerde yatay gen aktarımı üç temel mekanizma ile gerçekleşir: 1) **Transdüksiyon (B)**, genetik materyalin bir bakteriden diğerine bakteri virüsleri olan **bakteriyofajlar** aracılığıyla aktarılmasıdır. 2) **Konjugasyon (C)**, iki canlı bakterinin doğrudan teması ve **seks pilusu (F pilusu)** aracılığıyla verici ($F^+$) bakteriden alıcı ($F^-$) bakteriye plazmid veya kromozomal DNA aktarılmasıdır. 3) **Transformasyon (A)**, parçalanmış bakterilerden dış ortama salınan **serbest (çıplak) DNA** parçalarının kompetan bir alıcı bakteri tarafından doğrudan hücre içine alınmasıdır (ortama DNaz eklenmesiyle inhibe olur). Çeldiriciler: A) Transdüksiyon serbest DNA alınması değil faj aracılı aktarımdır; konjugasyon fajla değil pilusla olur; transformasyon pilusla değil serbest DNA ile gerçekleşir. B) Konjugasyon (2) serbest DNA alınması (A) değil, seks pilusu aracılı (C) aktarımdır; transformasyon (3) ise A ile eşleşmelidir. D) Transdüksiyon (1) seks pilusu ile değil fajla (B), konjugasyon (2) ise fajla değil seks pilusu ile (C) gerçekleşir. E) Her üç mekanizma da yanlış eşleştirilmiştir; doğru dizilim 1-B, 2-C, 3-A şeklindedir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki kompleman faktörlerinden hangisi helmintlerin yüzeyinde birikerek eozinofillerin helmintlere bağlanmasını sağlar?",
+    "options": {
+      "A": "C1s",
+      "B": "C2a",
+      "C": "C3b",
+      "D": "C4b",
+      "E": "C5a"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kompleman sisteminin en önemli opsonini olan **C3b**, mikroorganizmaların ve helmint gibi parazitlerin yüzeyine kovalent olarak bağlanıp birikir. Eozinofiller (ve ayrıca nötrofiller ile makrofajlar), yüzeylerinde bulunan kompleman reseptörleri (özellikle CR1 / CD35 ve CR3) aracılığıyla parazit yüzeyini kaplayan C3b'ye (ve Fc reseptörleriyle IgE/IgG'ye) bağlanarak degranüle olur ve helminti öldürür. Çeldiriciler: A) C1s, klasik yolda C4 ve C2'yi kesen serin proteaz enzimidir; opsonin olarak yüzeyde birikmez. B) C2a, C4b ile birleşerek klasik/lektin yolu C3 konvertazının enzimatik alt birimini oluşturur. D) C4b, klasik yolda C3 konvertaz yapısına katılır; opsonizasyon gücü ve miktarı C3b'ye kıyasla çok düşüktür. E) C5a, çözünür fazda salınan en güçlü kemotaktik faktör ve anafilatoksindir; patojen yüzeyine bağlanarak opsonin görevi yapmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "\"Toll-like\" reseptörlerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sadece immün sistem hücreleri tarafından eksprese edilirler.",
+      "B": "Motif tanıma reseptörleridirler.",
+      "C": "Gram-pozitif ve gram-negatif bakterilerin hücre duvar komponentlerine bağlanırlar.",
+      "D": "Viral dsRNA ve ssRNA moleküllerine bağlanırlar.",
+      "E": "Hücre hasarıyla açığa çıkan stres moleküllerine bağlanırlar."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Toll-benzeri reseptörler (TLR) başta makrofajlar, dendritik hücreler, nötrofiller, NK hücreleri ve B lenfositler gibi immün sistem hücrelerinde yoğun olarak bulunmakla birlikte **sadece immün sistem hücreleri tarafından eksprese edilmezler**. Mukozal ve kutanöz epitel hücreleri, vasküler endotel hücreleri ve fibroblastlar gibi immün sistem dışı hücrelerde de eksprese edilerek patojenlere karşı ilk bariyer yanıtını başlatırlar. Çeldiriciler: B) TLR'ler korunmuş mikrobiyal motifleri tanıyan patern/motif tanıma reseptörleridir (PRR). C) TLR2 Gram-pozitif bakterilerin peptidoglikan ve lipoteikoik asitlerine, TLR4 ise Gram-negatif bakterilerin lipopolisakkaritine (LPS) bağlanır. D) Endozomal TLR3 viral çift iplikli RNA'ya (dsRNA), TLR7 ve TLR8 ise viral tek iplikli RNA'ya (ssRNA) bağlanır. E) TLR'ler patojen motiflerinin (PAMP) yanı sıra doku hasarı ve nekroz sonucu açığa çıkan ısı şok proteinleri (HSP) ve HMGB1 gibi endojen tehlike/stres moleküllerine (DAMP) de bağlanırlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "T lenfositlerin yüzeyinde bulunan ve adezyondan sorumlu olan LFA-1 reseptörü endotel hücrelerinde aşağıdakilerden hangisine bağlanır?",
+    "options": {
+      "A": "MHC sınıf I",
+      "B": "MHC sınıf II",
+      "C": "B7-1",
+      "D": "VCAM-1",
+      "E": "ICAM-1"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lökositlerin (T lenfositler, nötrofiller, monositler) yüzeyinde bulunan β2 integrin ailesinden **LFA-1 (CD11a/CD18)** adezyon molekülü, IL-1 ve TNF-α ile aktive olmuş vasküler endotel hücrelerinin (ve antijen sunan hücrelerin) yüzeyinde eksprese edilen immünoglobulin süperailesi üyesi **ICAM-1 (CD54)** molekülüne yüksek afiniteyle bağlanır. Bu etkileşim lökositlerin endotel yüzeyinde sıkı adezyonunu (tutunmasını) ve immünolojik sinapsın stabilizasyonunu sağlar. Çeldiriciler: A) MHC sınıf I, CD8+ T lenfositlerdeki TCR ve CD8 tarafından tanınır. B) MHC sınıf II, CD4+ T lenfositlerdeki TCR ve CD4 tarafından tanınır. C) B7-1 (CD80), antijen sunan hücre yüzeyinde bulunur ve T hücresindeki CD28 (veya CTLA-4) ile etkileşir. D) VCAM-1 (CD106), endotel yüzeyinde bulunur ancak LFA-1'e değil, lökosit yüzeyindeki β1 integrini olan **VLA-4**'e bağlanır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki patern tanıma reseptörlerinden hangisi lipoteikoik asitleri tanır?",
+    "options": {
+      "A": "TLR2",
+      "B": "TLR3",
+      "C": "TLR5",
+      "D": "TLR7",
+      "E": "TLR8"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hücre yüzeyinde yerleşik olan **TLR2** (genellikle TLR1 veya TLR6 ile heterodimer oluşturarak), özellikle Gram-pozitif bakterilerin hücre duvarında bulunan **lipoteikoik asitleri**, peptidoglikanları, bakteriyel lipopeptidleri ve mantar zimosanlarını tanıyan temel patern tanıma reseptörüdür. Çeldiriciler: B) TLR3, endozomlarda bulunur ve viral çift iplikli RNA'yı (dsRNA) tanır. C) TLR5, hücre yüzeyinde bulunur ve hareketli bakterilerin kamçı proteini olan flagellini tanır. D) TLR7, endozomlarda bulunur ve viral tek iplikli RNA'yı (ssRNA) tanır. E) TLR8, endozomlarda bulunur ve viral tek iplikli RNA'yı (ssRNA) tanır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Termofilik aktinomiceslerin solunması sonucu gelişen ve \"çiftçi akciğeri\" olarak adlandırılan reaksiyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tip 1 aşırı duyarlılık reaksiyonu",
+      "B": "Tip 2 aşırı duyarlılık reaksiyonu",
+      "C": "Tip 3 aşırı duyarlılık reaksiyonu",
+      "D": "Tip 4 aşırı duyarlılık reaksiyonu",
+      "E": "Tip 5 aşırı duyarlılık reaksiyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Küflü saman ve tahıllarda bulunan *Micropolyspora faeni* (*Saccharopolyspora rectivirgula*) gibi termofilik aktinomiset sporlarının solunması sonucu gelişen \"çiftçi akciğeri\" (hipersensitivite pnömonisi / ekstrinsik alerjik alveolit), duyarlanmış kişilerde inhale edilen antijenlerin alveol duvarında dolaşımdaki presipitan IgG antikorlarıyla birleşerek lokal **immün kompleks (Arthus benzeri)** oluşturduğu ve komplemanı aktive ettiği **Tip 3 aşırı duyarlılık reaksiyonu** olarak başlar (kronikleşen olgularda tabloya granülomatöz Tip 4 reaksiyon da eklenir; temel klasik mekanizma Tip 3 immün kompleks reaksiyonudur). Çeldiriciler: A) Tip 1 aşırı duyarlılık reaksiyonu IgE ve mast hücresi aracılıdır (alerjik astım ve saman nezlesi gibi); çiftçi akciğerinde IgE değil IgG presipitan antikorlar rol oynar. B) Tip 2 aşırı duyarlılık reaksiyonu hücre yüzeyi veya bazal membran antijenlerine karşı gelişen sitotoksik antikorlarla (örneğin Goodpasture sendromu) oluşur. D) Tip 4 aşırı duyarlılık kronik fazda granülom oluşumuna katkıda bulunsa da akut çiftçi akciğeri reaksiyonunun birincil immünopatolojik karşılığı alveoler Arthus reaksiyonu olan Tip 3'tür. E) Tip 5 aşırı duyarlılık (Tip 2'nin alt tipi), Graves hastalığında olduğu gibi antikorların hücre reseptörlerini uyarmasıyla oluşur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi doğal bağışıklık sisteminin humoral komponentini oluşturan, plazmada çözünür hâlde bulunan ve proinflamatuvar sitokinlere yanıt olarak sentezi artan akut faz proteinlerinden biri değildir?",
+    "options": {
+      "A": "Kompleman proteinleri",
+      "B": "Kollektinler",
+      "C": "Katelisidinler",
+      "D": "Pentraxinler",
+      "E": "Fikolinler"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): **Katelisidinler** (insanda LL-37), karaciğerden sentezlenen çözünür akut faz proteinleri/PRR'leri değil; nötrofiller ve bariyer epitel hücreleri tarafından üretilen katyonik ve amfipatik **antimikrobiyal peptidlerdir** (defensinler gibi). Bakteri membranındaki negatif yüklü fosfolipidlere bağlanarak zarda delikler açar ve doğrudan mikrobiyal ölüm sağlarlar. Çeldiriciler: A) Kompleman proteinleri, karaciğerde sentezlenen, plazmada çözünür halde bulunan ve akut faz yanıtında düzeyi artan doğal bağışıklığın temel humoral efektörleridir. B) Kollektinler (örneğin mannoz bağlayan lektin - MBL, sürfaktan protein A ve D), karaciğerden akut faz reaktanı olarak salınan çözünür patern tanıma molekülleridir. D) Pentraxinler (CRP, serum amiloid P), IL-6 uyarısıyla karaciğerden sentezlenen ve plazmada çözünür PRR olarak görev yapan klasik akut faz proteinleridir. E) Fikolinler, kollektinlere benzer yapıda olan, bakteriyel N-asetilglukozamin yapılarını bağlayarak lektin kompleman yolunu aktive eden çözünür plazma akut faz proteinleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki patern tanıma reseptörlerinden hangisi memeli hücrelerinin endozomlarında eksprese olur?",
+    "options": {
+      "A": "TLR2",
+      "B": "TLR3",
+      "C": "TLR4",
+      "D": "TLR5",
+      "E": "TLR6"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Toll-benzeri reseptörlerden mikrobiyal nükleik asitleri tanıyanlar (TLR3, TLR7, TLR8 ve TLR9) hücre yüzeyinde değil, hücre içi veziküllerde (**endozom membranında**) eksprese olur. **TLR3**, endozomal membranda yerleşik olup virüslere ait çift iplikli RNA'yı (dsRNA) tanır ve TRIF adaptör proteini üzerinden IRF3'ü aktive ederek Tip I interferon (IFN-α/β) üretimini uyarır. Çeldiriciler: A) TLR2, plazma membranında (hücre yüzeyinde) eksprese olur ve peptidoglikan/lipoteikoik asit tanır. C) TLR4, hücre yüzeyinde eksprese olur ve Gram-negatif bakteri LPS'sini tanır. D) TLR5, hücre yüzeyinde eksprese olur ve bakteriyel flagellini tanır. E) TLR6, hücre yüzeyinde TLR2 ile heterodimer oluşturarak diacylated bakteriyel lipopeptidleri tanır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki kompleman sisteminin regülatör proteinlerinden hangisi C3 konvertazın yarı ömrünü uzatarak kompleman sisteminin aktivasyonunu artırır?",
+    "options": {
+      "A": "Properdin",
+      "B": "Faktör H",
+      "C": "Faktör I",
+      "D": "\"Decay-accelerating\" faktör",
+      "E": "CD59"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kompleman sisteminin bilinen tek **pozitif düzenleyici** proteini **Properdin (Faktör P)**'dir. Alternatif kompleman yolunun C3 konvertazı olan C3bBb kompleksi normalde oldukça kararsızdır ve hızla ayrışır; Properdin mikrobiyal yüzeylerdeki C3bBb kompleksine bağlanarak onu stabilize eder, yarı ömrünü 5-10 kat uzatır ve kompleman aktivasyonunu güçlendirir. Çeldiriciler: B) Faktör H, alternatif yolda C3b'ye bağlanarak Bb'nin ayrışmasını hızlandıran ve Faktör I'e kofaktörlük yapan negatif düzenleyicidir. C) Faktör I, C3b ve C4b'yi proteolitik olarak parçalayıp inaktive eden negatif düzenleyici serin proteazdır. D) \"Decay-accelerating\" faktör (DAF / CD55), hücre membranında C3 ve C5 konvertazların alt birimlerinin ayrışmasını hızlandırarak komplemanı inhibe eder. E) CD59 (protektin), C9'un C5b-8 kompleksine bağlanmasını engelleyerek membran atak kompleksi oluşumunu durduran negatif düzenleyicidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Özellikle iki yaşından küçük çocuklarda, kapsüler polisakkarit aşılarının tek başına uygulandıklarında yeterli bağışık yanıt oluşturamamalarının en olası nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "T lenfositlerini süperantijen gibi uyarmaları",
+      "B": "Yüksek ısı ile inaktive edilmeleri",
+      "C": "Düşük molekül ağırlıklı epitoplar içermeleri",
+      "D": "T lenfositlerden bağımsız antijenik özellik göstermeleri",
+      "E": "Rekombinant olarak hazırlanmaları"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Bakterilerin (*Streptococcus pneumoniae*, *Neisseria meningitidis*, *Haemophilus influenzae* tip b) kapsül polisakkaritleri peptid yapıda olmadıkları için MHC sınıf II moleküllerine bağlanamaz ve yardımcı T lenfositlere sunulamazlar; yani **T lenfositlerden bağımsız (T-independent) antijenlerdir**. Bu antijenler B lenfositleri doğrudan uyarsa da izotip dönüşümü (IgG üretimi), afinite olgunlaşması ve immünolojik bellek oluşturamazlar. Özellikle 2 yaş altındaki çocuklarda dalak marjinal zon B hücreleri henüz olgunlaşmadığı için saf polisakkarit aşılara yeterli yanıt gelişmez; bu sorunu aşmak için polisakkaritler difteri veya tetanoz toksoidi gibi bir taşıyıcı proteine bağlanarak (konjuge aşı) T-bağımlı antijen haline getirilir. Çeldiriciler: A) Polisakkaritler T lenfositleri ne klasik yoldan ne de süperantijen gibi uyarabilir. B) Yetersiz yanıtın nedeni ısı inaktivasyonu değil, polisakkaritin kimyasal olarak MHC-II ile sunulamamasıdır. C) Kapsül polisakkaritleri düşük molekül ağırlıklı değil, tekrarlayan alt birimlerden oluşan yüksek molekül ağırlıklı polimerlerdir. E) Saf polisakkarit aşılar bakteri kapsülünden saflaştırılır; rekombinant protein aşıları (örneğin Hepatit B aşısı) T-bağımlı güçlü yanıt oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Kemik iliğinde, T hücrelerinin farklılaşmasını indükleyen en olası interlökin aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "IL-5",
+      "B": "IL-7",
+      "C": "IL-8",
+      "D": "IL-10",
+      "E": "IL-13"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): **İnterlökin-7 (IL-7)**, kemik iliği ve timus stromal hücreleri ile fibroblastlar tarafından salgılanan hematopoetik bir sitokindir. Kemik iliğindeki ortak lenfoid progenitör hücrelerin (erken T ve B hücre öncüllerinin) hayatta kalmasını, proliferasyonunu ve T hücre yönünde erken farklılaşmasını indükler (IL-7 reseptörünün α zinciri veya ortak γ zinciri mutasyonları T hücre yokluğu ile giden ağır kombine immün yetmezliğe - SCID'e yol açar). Çeldiriciler: A) IL-5, eozinofil olgunlaşmasını ve aktivasyonunu uyarır. C) IL-8, nötrofil kemotaksisini sağlayan bir kemokindir; lenfoid farklılaşmada rol almaz. D) IL-10, makrofaj ve dendritik hücre fonksiyonlarını baskılayan anti-inflamatuvar sitokindir. E) IL-13, Th2 kaynaklı olup B hücrelerinde IgE dönüşümü ve mukozal epitelde mukus sekresyonunu uyarır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki kompleman komponentlerinden hangisi bir proteaz olarak görev yapmaz?",
+    "options": {
+      "A": "C1r",
+      "B": "C1s",
+      "C": "C2a",
+      "D": "C3a",
+      "E": "Bb"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kompleman kaskadında birçok protein aktifleştiğinde serin proteaz (enzim) özelliği kazanarak bir sonraki bileşeni keser. Ancak **C3a**, C3 molekülünün C3 konvertaz tarafından kesilmesiyle açığa çıkan küçük (anafilatoksin) parçadır; enzimatik (proteaz) aktivitesi yoktur, mast hücreleri ve bazofiller üzerindeki G-proteini kenetli reseptörlerine bağlanarak degranülasyon ve inflamasyon oluşturur. Çeldiriciler: A) C1r, C1q'nun antikor bağlamasıyla aktifleşen ve C1s'i kesen bir serin proteazdır. B) C1s, aktifleştiğinde C4 ve C2 proteinlerini kesen bir serin proteazdır. C) C2a, klasik ve lektin yolunun C3 konvertazında (C4b2a) C3'ü kesen katalitik (serin proteaz) alt birimdir. E) Bb, Faktör B'nin Faktör D tarafından kesilmesiyle oluşan ve alternatif yol C3 konvertazında (C3bBb) C3'ü kesen aktif serin proteaz alt birimidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Tehlike sinyallerine yanıt olarak sitozolde oluşan ve aktivasyonları sonucunda pro-interlökin-1β'dan interlökin-1β oluşumuna yol açan multiprotein yapıda büyük sitoplazmik kompleksler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Defensin",
+      "B": "Katelisidin",
+      "C": "İnflamazom",
+      "D": "Pentraxin",
+      "E": "Kollektin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): **İnflamazom**, hücre sitozolünde PAMP (mikrobiyal ürünler) veya DAMP (ürik asit kristalleri, ekstraselüler ATP, silika, kolesterol kristalleri, potasyum çıkışı gibi tehlike sinyalleri) algılandığında NOD-benzeri reseptörlerin (özellikle **NLRP3**, NLRC4 veya AIM2), ASC adaptör proteini ve pro-kaspaz-1'in bir araya gelmesiyle oluşan multiprotein yapılı büyük sitoplazmik komplekstir. İnflamazom aktifleştiğinde **kaspaz-1** enzimini aktive eder; kaspaz-1 de inaktif öncül olan **pro-IL-1β** ve **pro-IL-18**'i keserek aktif **IL-1β** ve **IL-18** sitokinlerine dönüştürür ve piroptozis adı verilen inflamatuvar hücre ölümünü tetikler. Çeldiriciler: A) Defensin, epitel hücreleri ve nötrofil granüllerinde bulunan katyonik antimikrobiyal küçük peptiddir. B) Katelisidin (LL-37), bakteri membranını parçalayan antimikrobiyal peptiddir. D) Pentraxin (CRP), plazmada çözünür halde bulunan akut faz proteinidir. E) Kollektin (MBL), karbonhidrat bağlayarak komplemanı aktive eden çözünür plazma proteinidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki kompleman proteinlerinden hangisinin opsonin olarak görev yapması en olasıdır?",
+    "options": {
+      "A": "C1q",
+      "B": "C3a",
+      "C": "C3b",
+      "D": "C5a",
+      "E": "C5b"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İmmün sistemdeki en güçlü iki temel opsonin IgG antikorları ve kompleman proteini **C3b**'dir. C3'ün parçalanmasıyla açığa çıkan C3b'nin iç tiyoester bağı açılarak bakteri, mantar veya parazit yüzeyindeki hidroksil/amino gruplarına kovalent olarak bağlanır. Nötrofil ve makrofajlar yüzeylerindeki CR1 (CD35) reseptörleri aracılığıyla C3b ile kaplanmış mikroorganizmaları tanır ve hızla fagosite eder. Çeldiriciler: A) C1q, antijen-antikor kompleksinin Fc kısmına bağlanarak klasik yolu başlatan tanıma proteinidir. B) C3a, çözünür fazda mast hücre degranülasyonu yapan anafilatoksindir. D) C5a, en güçlü anafilatoksin ve lökosit kemotaktik faktörüdür; opsonin değildir. E) C5b, C6-C9 bileşenlerini toplayarak membran atak kompleksini (MAK) başlatan proteindir; fagosit reseptörleri tarafından tanınan bir opsonin değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Candida albicans, Th17 aktivasyonu sonucu IL-17 sitokin sekresyonunu indüklemektedir. Buna göre, Candida enfeksiyonunda gelişecek inflamatuvar hücre infiltrasyonunun hangi hücre tipinden zengin olması en olasıdır?",
+    "options": {
+      "A": "Bazofil",
+      "B": "Eozinofil",
+      "C": "Makrofaj",
+      "D": "Mast hücresi",
+      "E": "Nötrofil"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): *Candida albicans* gibi ekstraselüler/mukozal mantarların hücre duvarındaki β-glukanlar, dendritik hücreler üzerindeki C-tipi lektin reseptörü **Dektin-1** tarafından tanınır ve güçlü bir **Th17** yanıtı başlatır. Th17 hücrelerinden salgılanan **IL-17** (ve IL-22), doku hücrelerinden IL-8 (CXCL8) ve G-CSF salınımını uyararak enfeksiyon bölgesine yoğun **nötrofil** kemotaksisi ve infiltrasyonu sağlar; nötrofiller de *Candida*'yı fagosite ederek sistemik yayılımı önler. Çeldiriciler: A) Bazofil infiltrasyonu Th2 ve IgE aracılı alerjik/paraziter reaksiyonlarda görülür. B) Eozinofil infiltrasyonu Th2 kaynaklı IL-5 uyarısıyla helmint enfeksiyonları ve alerjik inflamasyonda görülür. C) Makrofaj aktivasyonu Th1 kaynaklı IFN-gama uyarısıyla hücre içi bakteri enfeksiyonlarında baskındır. D) Mast hücresi aktivasyonu Th2 kaynaklı IL-4/IL-9/IgE aracılığıyla gelişir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "I. IL-1 II. IL-4 III. IL-6 IV. IFN-gama V. TGF-beta Yukarıdakilerden hangileri CD4+ T hücrelerinin Th17 yönünde farklılaşması ve proliferasyonunda görev alan temel sitokinlerdir?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I, II ve IV",
+      "C": "II, IV ve V",
+      "D": "I, III ve V",
+      "E": "III, IV ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Naif CD4+ T lenfositlerin RORγt ve STAT3 transkripsiyon faktörlerini aktive ederek **Th17** yönünde farklılaşması için ortamda anti-inflamatuvar sitokin **TGF-beta (V)** ile birlikte proinflamatuvar sitokinler olan **IL-6 (III)** ve **IL-1 (I)**'in birlikte bulunması gerekir (farklılaşan Th17 hücrelerinin idamesi ve proliferasyonunun sürdürülmesini ise IL-23 sağlar). (Tek başına yüksek doz TGF-beta ortamda IL-6 yoksa naif T hücresini Treg yönünde farklılaştırır). Öncüllerin Analizi: I) **IL-1 (Doğru):** İnsanlarda naif T hücrelerinin Th17 yönünde farklılaşmasını ve çoğalmasını IL-6 ve TGF-β ile sinerjistik olarak uyarır. II) **IL-4 (Yanlış):** Th2 farklılaşmasını uyarır ve Th17 gelişimini güçlü şekilde inhibe eder. III) **IL-6 (Doğru):** TGF-β varlığında STAT3'ü aktive ederek FoxP3'ü baskılar, RORγt'yi uyarır ve Th17 farklılaşmasını başlatan en kritik sitokindir. IV) **IFN-gama (Yanlış):** Th1 farklılaşmasını destekler ve Th17 gelişimini inhibe eder. V) **TGF-beta (Doğru):** IL-6 ve IL-1 ile birlikte bulunduğunda Th17 farklılaşması için zorunlu indükleyici sitokindir. Çeldiriciler: A) II. öncüldeki IL-4 Th17 gelişimini baskıladığı için yanlıştır. B) Hem IL-4 (II) hem de IFN-gama (IV) Th17 farklılaşmasını inhibe eder. C) II ve IV numaralı sitokinler Th17 karşıtı etki gösterir. E) IV. öncüldeki IFN-gama Th1 sitokinidir ve Th17 farklılaşmasını engeller.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Antijen sunucu hücre tarafından eksprese edilen B7-1/B7-2 molekülünü bağlayarak T hücre uyarımını gerçekleştiren T hücre reseptörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "CD3",
+      "B": "CD4",
+      "C": "CD8",
+      "D": "CD28",
+      "E": "CD21"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): T lenfositlerin tam aktivasyonu için gerekli olan ikinci (ko-stimülatör) sinyal, antijen sunucu hücre (APC) yüzeyindeki **B7-1 (CD80)** ve **B7-2 (CD86)** ligandlarının T lenfosit yüzeyinde yapısal olarak eksprese edilen **CD28** reseptörüne bağlanmasıyla gerçekleşir. Bu bağlanma T hücresinde sağkalım proteinlerini (Bcl-xL), IL-2 üretimini ve klonal proliferasyonu tetikler. Çeldiriciler: A) CD3, TCR ile kompleks oluşturarak birinci sinyali hücre içine ileten moleküldür; B7'ye bağlanmaz. B) CD4, yardımcı T hücrelerinde bulunan ve APC üzerindeki MHC sınıf II'ye bağlanan koreseptördür. C) CD8, sitotoksik T hücrelerinde bulunan ve MHC sınıf I'e bağlanan koreseptördür. E) CD21 (CR2), T hücrelerinde değil B lenfosit yüzeyinde bulunan kompleman ve EBV reseptörüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Maternal IgG'nin plasentadan fetüse taşınmasında görev alan spesifik reseptör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "FcγRIIA",
+      "B": "FcγRI",
+      "C": "FcγRIIB",
+      "D": "FcγRIIIA",
+      "E": "FcRn"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Anneden fetüse plasental sinsityotrofoblastlar üzerinden IgG antikorlarının aktif transportunu sağlayan spesifik reseptör **neonatal Fc reseptörü (FcRn)**'dür (Brambell reseptörü). MHC sınıf I benzeri bir yapıya sahip olan ve β2-mikroglobulin içeren FcRn, aynı zamanda erişkinlerde vasküler endotel hücrelerinin endozomlarında pH bağımlı olarak IgG'yi bağlayıp lizozomal yıkımdan koruyarak dolaşıma geri döndürür ve IgG'nin yarı ömrünün uzun (21-23 gün) olmasını sağlar. Çeldiriciler: A) FcγRIIA (CD32a), nötrofil ve makrofajlarda bulunan düşük afiniteli aktivatör reseptör olup opsonize partiküllerin fagositozunu sağlar. B) FcγRI (CD64), makrofaj ve nötrofillerde bulunan, monomerik IgG'ye en yüksek afiniteyle bağlanan ve fagositozu uyaran reseptördür. C) FcγRIIB (CD32b), B lenfositlerde ve miyeloid hücrelerde bulunan, ITIM motifi taşıyan tek **inhibitör** Fc reseptörüdür (antikor geri bildirim inhibisyonu yapar). D) FcγRIIIA (CD16), NK hücrelerinin yüzeyinde bulunan ve antikor bağımlı hücresel sitotoksisiteden (ADCC) sorumlu olan düşük afiniteli Fc reseptörüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Patern tanıyan reseptörler (PRR) tarafından tanınan tehlikeyle ilişkili moleküler paternler (DAMP) esas olarak aşağıdakilerin hangisinden kaynaklanır?",
+    "options": {
+      "A": "Apoptotik hücreler",
+      "B": "Nekrotik hücreler",
+      "C": "Prokaryotik hücreler",
+      "D": "Fagositik hücreler",
+      "E": "Virüslar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Tehlike veya hasarla ilişkili moleküler paternler (**DAMP**; alarminler), enfeksiyon, travma, iskemi veya toksinler sonucu plazma membran bütünlüğünü kaybeden **nekrotik hücrelerden** hücre dışına salınan endojen hücre içi moleküllerdir (örneğin HMGB1, ısı şok proteinleri [HSP], hücre dışı ATP, ürik asit kristalleri, mitokondriyal DNA). PRR'ler tarafından tanınan DAMP'ler steril inflamasyonu ve doku onarımını başlatır. Çeldiriciler: A) Apoptotik hücreler plazma membran bütünlüğünü koruyarak parçalandıkları ve hızla fagosite edildikleri için hücre içi içeriklerini dışarı sızdırmazlar; DAMP salınımı ve inflamasyon oluşturmazlar. C) Prokaryotik hücrelerden (bakterilerden) kaynaklanan LPS, peptidoglikan ve flagellin gibi yapılar DAMP değil, PAMP (patojen ilişkili moleküler patern) olarak adlandırılır. D) Fagositik hücreler DAMP'lerin kaynağı değil, taşıdıkları PRR'ler aracılığıyla DAMP'leri tanıyan ve yanıt veren hücrelerdir. E) Virüslerden kaynaklanan nükleik asitler ve zarf glikoproteinleri endojen DAMP değil, ekzojen PAMP'tır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Uyarılmış T hücrelerde eksprese olan ve CD28 molekülü ile yapısal benzerliği nedeniyle dendritik hücrelerdeki ko-stimülatörlere bağlanarak T hücre aktivasyonunu inhibe eden molekül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "CD80",
+      "B": "B7-2",
+      "C": "CD40",
+      "D": "CD22",
+      "E": "CTLA-4"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): **CTLA-4 (CD152)**, aktive olmuş T lenfositlerde ve regülatuvar T hücrelerinde (Treg) eksprese edilen bir ko-inhibitör (immün kontrol noktası / checkpoint) reseptördür. CD28 ile yüksek yapısal benzerlik gösterir ancak dendritik hücreler (APC) üzerindeki B7-1 (CD80) ve B7-2 (CD86) moleküllerine CD28'den **çok daha yüksek (yaklaşık 10-20 kat) afiniteyle** bağlanır. Böylece B7 için CD28 ile yarışarak onu devre dışı bırakır ve hücre içine inhibitör sinyaller göndererek T hücre proliferasyonunu ve IL-2 üretimini sonlandırır (kanser immünoterapisinde kullanılan ipilimumab, CTLA-4'ü bloke ederek T hücre yanıtını yeniden güçlendirir). Çeldiriciler: A) CD80 (B7-1), T hücresinde değil antijen sunan hücre yüzeyinde bulunan ko-stimülatör liganddır. B) B7-2 (CD86), antijen sunan hücre yüzeyinde bulunan diğer ko-stimülatör liganddır. C) CD40, B lenfositler, makrofajlar ve dendritik hücrelerde bulunan ve T hücresindeki CD40L (CD154) ile etkileşerek izotip dönüşümü ve APC aktivasyonu sağlayan reseptördür. D) CD22, T hücrelerinde değil **B lenfositlerin** yüzeyinde bulunan sialik asit bağlayıcı inhibitör reseptördür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Toy T-lenfositleri uyararak aktive etmede en başarılı antijen sunucu hücre aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Makrofaj",
+      "B": "Dendritik hücre",
+      "C": "B lenfosit",
+      "D": "Nötrofil",
+      "E": "Fibroblast"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Daha önce antijenle karşılaşmamış olan **toy (naif) T lenfositleri** uyararak primer adaptif immün yanıtı başlatmada en başarılı ve en güçlü profesyonel antijen sunucu hücre **dendritik hücre**dir. Dendritik hücreler periferik dokularda antijeni yakaladıktan sonra CCR7 kemokin reseptörü aracılığıyla T hücrelerinin bulunduğu bölgesel lenf düğümlerinin parakorteksine göç eder ve yüzeylerinde en yüksek düzeyde MHC sınıf I, MHC sınıf II ve ko-stimülatör (B7-1/B7-2, CD40) molekülleri eksprese ederek naif CD4+ ve CD8+ T hücrelerini aktive ederler. Çeldiriciler: A) Makrofajlar profesyonel APC olmalarına rağmen esas olarak daha önceden aktive olmuş efektör (Th1) T hücrelerine dokuda antijen sunarlar; naif T hücrelerini uyarmada dendritik hücreler kadar etkin değildirler. C) B lenfositler esas olarak germinal merkez reaksiyonunda daha önceden aktive olmuş yardımcı T hücrelerine çözünür protein antijenlerini sunarlar. D) Nötrofiller fagositoz yapan hücrelerdir; MHC sınıf II taşımazlar ve profesyonel APC değildirler. E) Fibroblastlar stromal bağ dokusu hücreleridir; profesyonel antijen sunucu hücre değildirler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki bağlanmalardan hangisi kompleman yolaklarını alternatif yoldan aktive eder?",
+    "options": {
+      "A": "C1'in antijen-antikor kompleksine bağlanması",
+      "B": "C1q'nun dolaşımdaki serbest antikorlara bağlanması",
+      "C": "C3b'nin mikroorganizmanın yüzeyine bağlanması",
+      "D": "Properdinin mikroorganizma yüzeyine bağlanması",
+      "E": "Mikroorganizma polisakkaritlerinin fikoline bağlanması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kompleman sisteminin alternatif yolu antikordan bağımsız bir doğal bağışıklık mekanizmasıdır. Plazmada sürekli olarak düşük düzeyde gerçekleşen spontan C3 hidrolizi (\"tick-over\" mekanizması) ile oluşan **C3b'nin mikroorganizma yüzeyine (örneğin Gram-negatif bakteri LPS'sine) kovalent olarak bağlanması** alternatif yolu başlatır. Sağlıklı konak hücrelerinden farklı olarak mikroorganizma yüzeyinde Faktör H ve DAF gibi inhibitörler bulunmadığı için yüzeye bağlı C3b'ye Faktör B bağlanır, Faktör D tarafından kesilerek alternatif yol C3 konvertazı (C3bBb) oluşturulur ve yolak hızla amplifiye olur. Çeldiriciler: A) C1'in antijen-antikor kompleksine bağlanması alternatif yolu değil, klasik kompleman yolunu aktive eder. B) C1q dolaşımdaki serbest (antijen bağlamamış) antikorlara bağlanamaz ve komplemanı aktive etmez. D) Properdin alternatif yolun başlatıcısı değil, oluşmuş olan C3bBb konvertazını stabilize eden pozitif düzenleyicisidir. E) Mikroorganizma karbonhidratlarının fikolin veya MBL'ye bağlanması alternatif yolu değil, lektin yolunu aktive eder.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki Toll-like reseptörlerden (TLR) hangisi endozom membranında yerleşmiş olup çift sarmallı viral RNA'nın tanınmasında görev yapar?",
+    "options": {
+      "A": "TLR-3",
+      "B": "TLR-4",
+      "C": "TLR-5",
+      "D": "TLR-6",
+      "E": "TLR-10"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): **TLR-3**, dendritik hücreler, makrofajlar ve epitel hücrelerinin **endozom membranında** yerleşmiş bir patern tanıma reseptörüdür. Birçok virüsün replikasyonu sırasında oluşan veya reovirüs/rotavirüs gibi virüslerin genomunu oluşturan **çift sarmallı (çift iplikli) viral RNA'yı (dsRNA)** (ve sentetik analoğu poly I:C'yi) tanır; MyD88'den bağımsız olarak TRIF adaptör proteini ve IRF3 üzerinden güçlü Tip I interferon (IFN-α/β) sentezini başlatır. Çeldiriciler: B) TLR-4 hücre yüzeyinde bulunur ve Gram-negatif bakteri lipopolisakkaritini (LPS) tanır. C) TLR-5 hücre yüzeyinde bulunur ve bakteriyel flagellin proteinini tanır. D) TLR-6 hücre yüzeyinde TLR-2 ile heterodimer oluşturarak bakteriyel lipopeptidleri ve mantar zimosanlarını tanır. E) TLR-10 hücre yüzeyinde bulunan, spesifik ligandı tam tanımlanmamış (yetim/orphan) ve anti-inflamatuvar/düzenleyici etkileri olan bir reseptördür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde interferon gamma salgılayan hücre ve hedef hücre doğru olarak eşleştirilmiştir?",
+    "options": {
+      "A": "Makrofaj – B lenfosit",
+      "B": "Th2 hücresi – Makrofaj",
+      "C": "Makrofaj – T lenfosit",
+      "D": "Th1 hücresi – Makrofaj",
+      "E": "Th2 hücresi – Dendritik hücre"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): **İnterferon-gama (IFN-γ)**, edinsel bağışıklıkta esas olarak **Th1 yardımcı T hücreleri** (ve CD8+ sitotoksik T hücreleri), doğal bağışıklıkta ise NK hücreleri tarafından salgılanır. IFN-γ'nın en önemli hedef hücresi **makrofaj**dır; makrofaj üzerindeki IFN-γ reseptörüne bağlanarak JAK1/JAK2 ve STAT1 sinyal yolağını aktive eder, makrofajı klasik yoldan (M1) uyararak fagosite edilmiş hücre içi mikroorganizmaların öldürülmesini sağlar. Çeldiriciler: A) Makrofaj IFN-γ'nın ana kaynağı değil hedefidir (makrofajlar IL-1, IL-6, IL-12, TNF-α salgılar). B) Th2 hücreleri IFN-γ salgılamaz; IL-4, IL-5 ve IL-13 salgılayarak alternatif (M2) makrofaj aktivasyonu yapar ve hatta IFN-γ üretimini baskılar. C) Makrofajdan T lenfosite doğru olan sitokin sinyali IFN-γ değil, Th1 farklılaşmasını uyaran **IL-12**'dir. E) Th2 hücreleri IFN-γ üretmez.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Makrofajları aktive ederek intraselüler bakterinin öldürülmesini sağlayan asıl hücre ve salgıladığı sitokin eşleştirmesi aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Th1 – IFN-γ",
+      "B": "Th17 – IL-17",
+      "C": "Th2 – IL-4",
+      "D": "Th2 – IL-13",
+      "E": "Treg – TGF-β"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): *Mycobacterium tuberculosis*, *Listeria monocytogenes* ve *Brucella* gibi fagozom içinde yaşayabilen intraselüler (hücre içi) bakterilerin yok edilmesinde temel mekanizma, antijenle uyarılmış **Th1** lenfositlerin yüzeylerindeki CD40L ile makrofajdaki CD40'a bağlanması ve **interferon-gama (IFN-γ)** salgılamasıdır. IFN-γ makrofajda fagolizozom birleşmesini, indüklenebilir nitrik oksit sentaz (iNOS), NADPH oksidaz ve lizozomal enzim üretimini artırarak hücre içi bakterilerin öldürülmesini sağlar. Çeldiriciler: B) Th17 – IL-17 eşleşmesi hücre içi bakterilere karşı makrofaj aktivasyonu değil, hücre dışı bakteri ve mantarlara karşı nötrofil kemotaksisi sağlar. C) Th2 – IL-4 eşleşmesi B hücrelerinde IgE izotip dönüşümünü uyarır ve klasik makrofaj aktivasyonunu (M1) baskılar. D) Th2 – IL-13 eşleşmesi mukus sekresyonunu ve doku onarımı/fibrozis yapan alternatif (M2) makrofaj dönüşümünü uyarır. E) Treg – TGF-β eşleşmesi makrofaj aktivasyonunu ve inflamasyonu baskılayarak immün toleransı sağlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "I. ATP II. Ürik asit III. Silika Yukarıdakilerden hangileri makrofajlar ve dendritik hücrelerde inflammazom aktivasyonuna neden olan endojen tehlike sinyallerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Makrofaj ve dendritik hücrelerin sitozolünde yer alan **NLRP3 inflamazomu**, yapısal olarak birbirinden çok farklı hücresel stres, hasar ve kristal yapılarını algılayarak kaspaz-1'i aktive eder ve IL-1β / IL-18 salınımına yol açar. Hücre nekrozu ile açığa çıkan hücre dışı **ATP**, nükleik asit yıkım ürünü olan **monosodyum ürat (ürik asit) kristalleri** ve fagosite edilen **silika** kristallerinin (ve asbest, kolesterol kristalleri, potasyum efluksu) her üçü de lizozomal hasar, reaktif oksijen radikali üretimi ve potasyum çıkışı üzerinden NLRP3 inflamazomunu güçlü şekilde aktive eden klasik uyaranlardır. Öncüllerin Analizi: I) **ATP (Doğru):** Nekrotik hücrelerden dış ortama salınan ATP, makrofaj yüzeyindeki P2X7 pürinerjik reseptörlerine bağlanarak hücre içinden potasyum çıkışına ve NLRP3 inflamazom aktivasyonuna neden olan klasik bir DAMP'tır. II) **Ürik asit (Doğru):** Hücre ölümüyle açığa çıkan pürin metaboliti ürik asit (monosodyum ürat kristalleri, gut patogenezi), NLRP3 inflamazomunu doğrudan aktive ederek IL-1β aracılı akut inflamasyon başlatır. III) **Silika (Doğru):** Makrofajlar tarafından fagosite edilen silika partikülleri lizozom membranını parçalayarak katepsin B salınımı ve hücresel stres yoluyla NLRP3 inflamazomunu aktive eder (sınav referans kabulünde her üç inflamazom aktivatörü birlikte doğru kabul edilmiştir). Çeldiriciler: A) Yalnızca I değil, II ve III de doğrudan NLRP3 inflamazom aktivatörüdür. B) Yalnızca II değil, I ve III de inflamazom aktivasyonu yapar. C) Silika (III) da klasik bir NLRP3 inflamazom aktivatörü olduğu için eksik öncül içerir. D) I. öncüldeki ATP en güçlü inflamazom tetikleyicilerinden biri olduğu için dışlanamaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Nefes darlığı ve yorgunluk şikâyetleriyle acil servise başvuran 20 yaşındaki hastanın bir haftadır yüksek doz penisilin kullandığı öğreniliyor. İmmün hemolitik anemi tanısı alan bu hastada gelişen en olası hipersensitivite reaksiyonu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tip 1",
+      "B": "Tip 2",
+      "C": "Tip 3",
+      "D": "Tip 4",
+      "E": "Tip 5"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İlaçlar (penisilin, sefalosporinler, metildopa, kinidin) dört tip aşırı duyarlılık reaksiyonuna da neden olabilir; ancak yüksek doz **penisilin** kullanımına bağlı gelişen **ilaca bağlı immün hemolitik anemi**, klasik bir **Tip 2 (antikor aracılı sitotoksik) hipersensitivite reaksiyonu**dur. Küçük bir molekül (hapten) olan penisilin, eritrosit membran proteinlerine kovalent olarak bağlanarak onu yabancılaştırır; bu hapten-eritrosit kompleksine karşı üretilen IgG antikorları eritrosit yüzeyine bağlanır ve kompleman aktivasyonu veya dalak makrofajları tarafından Fc reseptörü aracılı fagositoz ile eritrosit yıkımına (hemolize) yol açar. Çeldiriciler: A) Penisiline bağlı Tip 1 reaksiyon dakikalar içinde ürtiker, anjiyoödem, bronkospazm ve anafilaktik şok olarak ortaya çıkar; hemolitik anemi yapmaz. C) Penisiline bağlı Tip 3 reaksiyon dolaşan immün komplekslerin damar, eklem ve böbrekte biriktiği serum hastalığı tablosu oluşturur. D) Penisiline bağlı Tip 4 reaksiyon T hücre aracılı makülopapüler döküntü veya kontakt dermatit şeklinde görülür. E) Tip 5 reaksiyon reseptör uyarıcı/bloke edici otoantikorlarla (Graves hastalığı, Myasthenia gravis) oluşur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Th1 tipi yanıtın etkilerinden değildir?",
+    "options": {
+      "A": "Hücresel sitotoksik yanıtı arttırır.",
+      "B": "Erken lokal yanıtı destekler.",
+      "C": "Tip IV aşırı duyarlılık yanıtını düzenler.",
+      "D": "İnflamatuvar yanıtı arttırır.",
+      "E": "Tip I aşırı duyarlılık yanıtını arttırır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): **Tip I aşırı duyarlılık yanıtı** (alerji/anafilaksi), IL-4, IL-5 ve IL-13 salgılayarak IgE sentezini, mast hücrelerini ve eozinofilleri uyaran **Th2** lenfositlerin etkisidir. **Th1 tipi yanıt** ise IFN-gama salgılayarak B hücrelerinde IgE izotip dönüşümünü ve Th2 farklılaşmasını doğrudan **baskılar (inhibe eder)**; dolayısıyla Tip I aşırı duyarlılık yanıtını artırmaz, aksine azaltır. Çeldiriciler: A) Th1 hücreleri salgıladıkları IL-2 ve IFN-γ ile CD8+ sitotoksik T lenfositlerin ve NK hücrelerinin farklılaşmasını ve hücresel sitotoksik yanıtı artırır. B) Th1 hücreleri enfeksiyon bölgesinde makrofajları aktive ederek ve TNF-β/IFN-γ ile endotel adezyon moleküllerini uyararak lokal inflamatuvar yanıtı destekler. C) Th1 hücreleri tüberkülin reaksiyonu, kontakt dermatit ve granülomatöz inflamasyon gibi Tip IV (gecikmiş tip) aşırı duyarlılık reaksiyonlarının ana düzenleyicisidir. D) Th1 hücreleri klasik (M1) makrofaj aktivasyonu ve proinflamatuvar sitokin salınımı ile inflamatuvar yanıtı güçlü şekilde artırır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "T hücrelerini baskılayarak otoimmün yanıtların gelişmesini engelleyen yardımcı T lenfosit alt grubu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Th1",
+      "B": "Th2",
+      "C": "Th17",
+      "D": "TFH",
+      "E": "Treg"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): **Regülatuvar T hücreleri (Treg)**, CD4+, CD25+ (yüksek düzeyde IL-2Rα) yüzey belirteçleri ve **FoxP3** transkripsiyon faktörü ile karakterize olan yardımcı T hücre alt grubudur. Salgıladıkları **IL-10**, **TGF-β** ve **IL-35** gibi anti-inflamatuvar sitokinler, yüzeylerindeki CTLA-4 ile APC'lerdeki B7'yi bloke etmeleri ve ortamdaki IL-2'yi tüketmeleri sayesinde kendine reaktif (otoreaktif) T hücrelerini baskılar, periferik immün toleransı korur ve otoimmün hastalıkların gelişmesini engeller (FoxP3 mutasyonunda ağır otoimmünite ile giden IPEX sendromu gelişir). Çeldiriciler: A) Th1 hücreleri IFN-γ ile makrofajları aktive eder ve aşırı çalıştığında organa özgül otoimmün hastalıklara (Tip 1 diyabet, multipl skleroz) katkıda bulunur. B) Th2 hücreleri humoral/IgE yanıtını ve helmint savunmasını yönetir. C) Th17 hücreleri IL-17/IL-22 ile nötrofilik inflamasyonu uyarır ve psöriazis, romatoid artrit, multipl skleroz gibi otoimmün hastalıkların patogenezinde başrol oynar. D) TFH (Foliküler yardımcı T) hücreleri lenfoid foliküllerde IL-21 salgılayarak B hücrelerinin afinite olgunlaşmasını ve antikor üretimini destekler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "UNC93B proteini, endoplazmik retikulumda sentezlenen toll-benzeri reseptörlerin (TLR) endozomal lokalizasyona taşınmasından sorumludur. Buna göre, UNC93B proteininin genetik eksikliğinde aşağıdaki mikroorganizmalardan hangisiyle gelişen enfeksiyonlara duyarlılığın artması beklenir?",
+    "options": {
+      "A": "Klebsiella pneumoniae",
+      "B": "Staphylococcus aureus",
+      "C": "Mycobacterium tuberculosis",
+      "D": "Candida albicans",
+      "E": "Herpes simplex virus"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): **UNC93B1** proteini, hücre içi nükleik asitleri tanıyan endozomal TLR'lerin (**TLR3, TLR7, TLR8 ve TLR9**) endoplazmik retikulumdan endozolizozomlara taşınmasını sağlayan bir şaperon proteinidir. Bu reseptörler viral RNA ve DNA'yı tanıyarak Tip I interferon (IFN-α/β) üretimini başlatır. *UNC93B1* (veya *TLR3*) geninin otozomal resesif eksikliğinde santral sinir sisteminde viral replikasyon kontrol edilemez ve tipik olarak **Herpes simplex virus (HSV-1) ensefalitine** karşı izole ve ağır bir duyarlılık artışı ortaya çıkar. Çeldiriciler: A) *Klebsiella pneumoniae* Gram-negatif bir bakteridir ve hücre yüzeyindeki TLR4 tarafından tanınır; UNC93B eksikliğinden etkilenmez. B) *Staphylococcus aureus* Gram-pozitif bir bakteridir ve hücre yüzeyindeki TLR2 tarafından tanınır. C) *Mycobacterium tuberculosis* savunmasında IL-12/IFN-γ aksı ve yüzey TLR2/TLR4 rol oynar. D) *Candida albicans* mantar olup C-tipi lektin reseptörü Dektin-1 ve Th17 yanıtı ile kontrol edilir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Salgıladığı IL-4, IL-5 ve IL-13 sitokinleri aracılığıyla B hücre bağımlı antikor yanıtını aktive ederek helmintler gibi çok hücreli parazitlere karşı bağışık yanıtı uyaran T hücre alt grubu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Th1",
+      "B": "Th2",
+      "C": "Th17",
+      "D": "TFH",
+      "E": "Treg"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): GATA-3 ve STAT6 transkripsiyon faktörlerinin kontrolünde farklılaşan **Th2** lenfositler, **IL-4, IL-5 ve IL-13** sitokinlerini salgılar. **IL-4** ve **IL-13** B lenfositlerde IgE izotip dönüşümünü uyarır, bağırsak epitelinde mukus salgısını ve peristaltizmi artırarak parazitin lümenden atılmasını (\"ağla ve süpür\" / weep and sweep mekanizması) sağlar; **IL-5** ise eozinofilleri aktive ederek IgE ile kaplanmış **helmintlerin** ADCC yoluyla öldürülmesini yönetir. Çeldiriciler: A) Th1 hücreleri IFN-γ salgılayarak hücre içi bakterilere ve virüslere karşı makrofaj aracılı yanıt oluşturur. C) Th17 hücreleri IL-17 ve IL-22 salgılayarak hücre dışı bakteri ve mantarlara karşı nötrofil yanıtını uyarır. D) TFH hücreleri germinal merkezlerde IL-21 salgılayarak B hücre gelişimini destekler ancak IL-4/IL-5/IL-13 triadıyla mukozal anti-helmint yanıtını yürüten efektör hücre Th2'dir. E) Treg hücreleri IL-10 ve TGF-β salgılayarak immün yanıtı baskılar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi mikrobiyal karbonhidratları bağlayan lektin tipi reseptörlerden biri değildir?",
+    "options": {
+      "A": "Dectin-1",
+      "B": "Mincle",
+      "C": "DC-SIGN",
+      "D": "Langerin",
+      "E": "NOD1"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): C-tipi lektin reseptörleri (CLR), makrofaj ve dendritik hücrelerin plazma membranında bulunan ve kalsiyuma bağımlı olarak mikrobiyal hücre duvarındaki karbonhidrat yapılarını (mannoz, fukoz, β-glukan vb.) tanıyan PRR ailesidir. **NOD1** ise membran yerleşimli bir C-tipi lektin reseptörü değil; hücre **sitozolünde** çözünür halde bulunan **NLR (NOD-benzeri reseptör)** ailesinin bir üyesidir ve özellikle Gram-negatif bakterilerin peptidoglikan yıkım ürünü olan γ-D-glutamil-mezo-diaminopimelik asiti (iE-DAP) tanıyarak NF-κB'yi aktive eder. Çeldiriciler: A) Dectin-1 (CD369), mantar hücre duvarındaki β-glukan karbonhidratlarını tanıyan C-tipi lektin reseptörüdür. B) Mincle, mantar α-mannoz yapılarını ve *Mycobacterium tuberculosis* hücre duvarındaki glikolipid yapılı kord faktörünü (trehaloz dimikolat) tanıyan C-tipi lektin reseptörüdür. C) DC-SIGN (CD209), dendritik hücre yüzeyinde bulunan ve virüs/bakteri yüzeyindeki yüksek mannoz ve fukoz karbonhidratlarını bağlayan C-tipi lektin reseptörüdür. D) Langerin (CD207), epidermal Langerhans hücrelerinde bulunan ve mikrobiyal mannoz/fukoz karbonhidratlarını tanıyan C-tipi lektin reseptörüdür (Birbeck granüllerinin oluşumunu sağlar).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdaki mikroorganizmalardan hangisinin fagositlerde TLR4 patern tanıma reseptörüne (PRR) bağlanarak doğal bağışık yanıtları aktive etmesi en olasıdır?",
+    "options": {
+      "A": "Mycobacterium tuberculosis",
+      "B": "Mycoplasma pneumoniae",
+      "C": "Klebsiella pneumoniae",
+      "D": "Streptococcus pneumoniae",
+      "E": "Listeria monocytogenes"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Fagositlerin yüzeyinde bulunan **TLR4** (MD-2 ve CD14 koreseptörleri ile birlikte), **Gram-negatif bakterilerin** dış membranında yer alan **lipopolisakkarit (LPS / endotoksin)** molekülünü spesifik olarak tanıyan patern tanıma reseptörüdür. Seçenekler arasında yer alan mikroorganizmalardan yalnızca ***Klebsiella pneumoniae*** dış membranında LPS bulunduran bir **Gram-negatif** basildir ve doğal bağışıklığı esas olarak TLR4 üzerinden aktive eder. Çeldiriciler: A) *Mycobacterium tuberculosis* aside dirençli hücre duvarına sahip olup lipoarabinomannan ve lipopeptidleri aracılığıyla ağırlıklı olarak TLR2 (ve TLR9) tarafından tanınır; klasik LPS içermez. B) *Mycoplasma pneumoniae* hücre duvarı olmayan bir bakteridir; LPS içermez ve membran diacylated lipopeptidleri TLR2/TLR6 heterodimeri tarafından tanınır. D) *Streptococcus pneumoniae* Gram-pozitif bir koktur; dış membranı ve LPS'si yoktur, peptidoglikan ve lipoteikoik asiti TLR2 tarafından tanınır. E) *Listeria monocytogenes* Gram-pozitif bir basildir; LPS içermez, yüzey yapıları TLR2 ve sitozolik reseptörler (NOD1/NOD2) tarafından tanınır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin ataksi-telanjiektazide eksikliği en fazla görülen immünoglobulin (Ig) olması en olasıdır?",
+    "options": {
+      "A": "IgA",
+      "B": "IgG",
+      "C": "IgM",
+      "D": "IgD",
+      "E": "IgE"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): **Ataksi-telanjiektazi**, kromozom 11q22-23 üzerindeki çift iplikli DNA kırıklarının onarımından sorumlu ***ATM*** genindeki otozomal resesif mutasyon sonucu gelişen kombine bir immün yetmezlik sendromudur. DNA onarım kusuru, B lenfositlerde immünoglobulin ağır zincir sınıf dönüşümü (class-switch) rekombinasyonunu bozar ve özellikle gen lokusunun en sonundaki sabit bölgelere dönüşüm etkilenir; bu nedenle hastaların %70-80'inde **en sık ve en belirgin olarak selektif IgA eksikliği** (buna eşlik edebilen IgG2/IgG4 alt grup ve IgE düşüklüğü) saptanır. Klinik olarak ilerleyici serebellar ataksi, okülokutanöz telanjiektaziler, tekrarlayan sinopulmoner enfeksiyonlar, radyasyon duyarlılığı ve yüksek AFP düzeyi ile karakterizedir. Çeldiriciler: B) Toplam IgG düzeyi hastaların çoğunda normaldir veya yalnızca IgG2/IgG4 alt sınıflarında azalma görülür; en sık eksik olan ana sınıf IgA'dır. C) İzotip dönüşümü öncesinde ilk üretilen antikor olan IgM düzeyi genellikle normal, hatta bazen kompensatuvar olarak yüksektir. D) IgD eksikliği ataksi-telanjiektazinin karakteristik laboratuvar bulgusu değildir. E) IgE düzeyi de azalabilmekle birlikte klinik ve laboratuvar olarak en sık saptanan ve tanısal triadın bir parçası olan eksiklik IgA eksikliğidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "I. Hem doğal hem de edinsel bağışık yanıtta görev alırlar. II. Fagositik hücrelerdir. III. Hafızaları vardır. Makrofaj ve dendritik hücreler ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve III",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Makrofajlar ve dendritik hücreler miyeloid kökenli doğal immün sistem hücreleri olup aynı zamanda profesyonel antijen sunan hücreler (APC) olarak görev yaparlar. Bu sayede hem patojenleri doğrudan fagosite ederek doğal bağışıklıkta rol alırlar hem de antijenleri MHC molekülleriyle T lenfositlere sunarak edinsel bağışıklığı başlatır ve yönetirler; ancak antijene özgül klonal immünolojik hafıza oluşturma yetenekleri yoktur. Öncüllerin Analizi: I) **Doğru:** Makrofaj ve dendritik hücreler PRR'leri ile patojenleri tanıyıp fagositoz ve sitokin üretimi yaparak **doğal bağışık yanıtta**, işledikleri antijenleri MHC-I ve MHC-II aracılığıyla T lenfositlere sunup ko-stimülasyon sağlayarak **edinsel bağışık yanıtta** köprü görevi görürler. II) **Doğru:** Her iki hücre tipi de mikroorganizmaları ve hücresel atıkları fagositoz (ve makropinositoz) yoluyla hücre içine alan profesyonel **fagositik hücrelerdir**. III) **Yanlış:** Antijene özgül uzun süreli immünolojik **hafıza (bellek)** oluşturma özelliği makrofaj ve dendritik hücrelere değil, edinsel bağışıklığın hücreleri olan **T ve B lenfositlere** özgüdür. Çeldiriciler: A) II. öncül de doğru olduğu için eksiktir. B) III. öncül yanlış olduğu için elenir. C) Yalnızca yanlış olan III. öncülü içerdiği için elenir. E) III. öncüldeki hafıza özelliği T ve B lenfositlere ait olduğundan yanlıştır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde bakteriyel flagellin proteinlerini algılayan pattern tanıma reseptörleri (PRR) birlikte verilmiştir?",
+    "options": {
+      "A": "TLR2 ve RIG-1",
+      "B": "TLR4 ve Dectin-1",
+      "C": "TLR5 ve NLRC4",
+      "D": "TLR1 ve NLRP3",
+      "E": "TLR6 ve CD36"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hareketli bakterilerin kamçı (flagella) yapısını oluşturan **flagellin** proteini, doğal immün sistem tarafından hem hücre dışında hem de sitozolde iki farklı PRR ile algılanır: Hücre yüzeyinde (plazma membranında) bulunan **TLR5** hücre dışı bakteriyel flagellini tanıyarak MyD88 ve NF-κB üzerinden proinflamatuvar sitokin sentezini başlatır; hücre sitozolünde bulunan NOD-benzeri reseptör **NLRC4** (IPAF) ise tip III veya tip IV sekresyon sistemleriyle sitozole geçen hücre içi flagellini tanıyarak inflamazom ve kaspaz-1 aktivasyonunu (IL-1β üretimi ve piroptozisi) tetikler. Çeldiriciler: A) TLR2 bakteriyel peptidoglikan/lipoteikoik asiti, RIG-1 ise sitozolik viral RNA'yı tanır. B) TLR4 Gram-negatif bakteri LPS'sini, Dectin-1 ise mantar β-glukanını tanır. D) TLR1 triacylated bakteriyel lipopeptidleri (TLR2 ile birlikte), NLRP3 ise hücresel stres/kristal/ATP gibi DAMP sinyallerini tanır. E) TLR6 diacylated lipopeptidleri, CD36 ise okside LDL ve mikrobiyal lipidleri tanıyan çöpçü (scavenger) reseptördür. --- #BÖLÜM 3 BAKTERİ",
+    "lesson": "Mikrobiyoloji",
+    "unit": "2 İmmunoloji"
+  }
+]

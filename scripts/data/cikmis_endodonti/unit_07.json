@@ -1,0 +1,44 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi pulpada inflamatuvar reaksiyonların başlamasında görev almaz?",
+    "options": {
+      "A": "Histamin salınması",
+      "B": "Bradikinin salınması",
+      "C": "Plazma proteinlerinin aktivasyonu",
+      "D": "Parathormon salınması",
+      "E": "Mast hücrelerinin degranülasyonu"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Parathormon (PTH), paratiroit bezinden salgılanan ve sistemik kan kalsiyum-fosfat dengesini düzenleyen endokrin bir hormondur; dental pulpada akut inflamatuvar reaksiyonların başlamasında herhangi bir görevi yoktur. Çeldiriciler: A) Mast hücrelerinden salınan histamin, pulpa damarlarında vazodilatasyon ve vasküler geçirgenlik artışına yol açarak inflamasyonu başlatır. B) Kinin sisteminin aktivasyonuyla oluşan bradikinin, güçlü vazodilatasyon, damar geçirgenliği artışı ve C liflerini uyararak ağrı oluşumunda rol oynar. C) Kompleman, kinin ve pıhtılaşma sistemi gibi plazma proteinlerinin aktivasyonu akut inflamatuvar yanıtın temel basamaklarındandır. E) Nöropeptidlerin (Substance P, CGRP) ve antijenlerin etkisiyle mast hücrelerinin degranülasyonu histamin ve lökotrien salınımını tetikler.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 7 - ENDODONTİK İMMÜNOLOJİ"
+  },
+  {
+    "question": "I. Histamin\nII. Bradikinin\nIII. Plazma proteinleri\nIV. Parathormon\nYukarıda verilenlerden hangileri pulpada inflamatuvar olayların başlamasında rol oynar?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "II ve IV",
+      "D": "I, II ve III",
+      "E": "I, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Pulpal inflamasyon; vazoaktif aminler, kininler, araşidonik asit metabolitleri, nöropeptidler ve plazma proteini kaskadlarının ortak aktivasyonuyla başlar. Öncüllerin Analizi: I. Histamin, mast hücre degranülasyonuyla salınarak erken vazodilatasyon ve permeabilite artışını sağlar (Doğru). II. Bradikinin, plazma kinin sisteminden üretilerek vazodilatasyon ve ağrı reseptörlerinin uyarılmasında rol oynar (Doğru). III. Plazma proteinleri (kompleman ve pıhtılaşma faktörleri), kemotaksis, opsonizasyon ve vasküler yanıtta görev alır (Doğru). IV. Parathormon sistemik kalsiyum metabolizmasını düzenleyen bir hormondur, pulpal inflamasyonda rol almaz (Yanlış). Çeldiriciler: A) III. öncül de rol oynadığı için eksiktir. B) I. öncül de rol oynadığı için eksiktir. C) IV. öncül yanlıştır. E) IV. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 7 - ENDODONTİK İMMÜNOLOJİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi pulpada nörojenik inflamasyonu başlatır?",
+    "options": {
+      "A": "Kalsitonin gen ilişkili peptid",
+      "B": "Vazoaktif intestinal peptid",
+      "C": "Nöropeptid Y",
+      "D": "Bradikinin",
+      "E": "Nörokinin A"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Pulpada doku hasarı veya irritasyon başladığında, duyusal A-delta ve C sinir liflerinin uçlarından ilk salınan nöropeptidler \"Kalsitonin gen ilişkili peptid (CGRP)\" ve \"P maddesi (Substance P)\"dir; bu iki ajan arteriyollerde vazodilatasyon ve venüllerde plazma ekstravazasyonu yaratarak nörojenik inflamasyonu doğrudan başlatır. Çeldiriciler: B) Vazoaktif intestinal peptid (VIP) parasempatik sinir kaynaklıdır, nörojenik inflamasyonun primer başlatıcısı değildir. C) Nöropeptid Y (NPY) sempatik sinir uçlarından salınır ve vazokonstriksiyon yaparak nörojenik inflamasyonu baskılayıcı yönde etki gösterir. D) Bradikinin sinir hücresinden salınan bir nöropeptid değil, plazma kinin sistemi ürünüdür. E) Nörokinin A duyusal nöropeptid olsa da nörojenik inflamasyonu ilk başlatan ana medyatörler CGRP ve Substance P'dir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 7 - ENDODONTİK İMMÜNOLOJİ"
+  }
+]

@@ -1,0 +1,338 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi çürük profilaksisinde kullanılan spesifik ajanlardan biri değildir?",
+    "options": {
+      "A": "Aleksidin",
+      "B": "Ksilitol",
+      "C": "Bifosfanat",
+      "D": "Delmopinol",
+      "E": "Heksetidin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): \"Bifosfonat (bifosfanat)\", osteoporoz, Paget hastalığı, multipl miyelom ve malign kemik metastazlarında osteoklast aktivitesini inhibe ederek kemik yıkımını azaltmak amacıyla sistemik (oral veya IV) olarak kullanılan bir ilaç grubudur (hatta çene kemiklerinde MRONJ/BRONJ osteonekrozuna yol açabilir); çürük profilaksisinde veya plak kontrolünde kullanılan bir ajan değildir. Çeldiriciler: - A, D ve E) Aleksidin (bisbiguanid), Delmopinol (morfolinoetanol türevi yüzey aktif ajan) ve Heksetidin (pirimidin türevi), klorheksidin ve setilpiridinyum klorür ile birlikte plağın kimyasal olarak ortadan kaldırılmasında kullanılan \"katyonik\" antimikrobiyal profilaksi ajanlarıdır. - B) Ksilitol, S. mutans tarafından fermente edilemeyen ve karyostatik etki gösteren 5 karbonlu şeker alkolüdür.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "I. Klorheksidin II. Triklosan III. Bifosfanat Yukarıdaki ajanlardan hangisi/hangileri plağın kimyasal olarak kaldırılmasında etkilidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dental plağın kimyasal kontrolünde katyonik ajan olan klorheksidin (I) ve non-iyonik ajan olan triklosan (II) etkiliyken, kemik rezorpsiyon inhibitörü olan bifosfonat (III) plak kontrolünde kullanılmaz. Öncüllerin Analizi: - I. Öncül (Etkilidir): Klorheksidin, bakteri hücre duvarına ve pelikıla bağlanan en güçlü katyonik anti-plak ajandır. - II. Öncül (Etkilidir): Triklosan, bakteri lipid sentezini inhibe eden geniş spektrumlu non-iyonik anti-plak ajandır. - III. Öncül (Etkili değildir): Bifosfonat sistemik kemik yıkımını önleyen ilaçtır, çürük ve plak profilaksisinde yeri yoktur. Çeldiriciler: A şıkkı II. öncülü eksik bıraktığı için; C, D ve E şıkları ise III. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Tatlandırıcı olarak kullanılan ajanlardan xylitol için aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kalorili tatlandırıcılar grubundadır",
+      "B": "Ksilitol varlığında mutans streptokok üreme hızı yavaşlar",
+      "C": "Oral bakteriler tarafından az miktarda fermente edilebilir",
+      "D": "Sialojenik etkileri vardır",
+      "E": "Mikroorganizmaların yüzeylere yapışabilirliklerini azaltır"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Beş karbonlu bir poliol (şeker alkolü) olan ksilitol (xylitol), sorbitol ve mannitol gibi 6 karbonlu diğer şeker alkollerinden farklı olarak Streptococcus mutans dahil olmak üzere ağız bakterileri tarafından \"hiç fermente edilemez (non-asidojeniktir)\". Dolayısıyla oral bakteriler tarafından az miktarda fermente edilebildiği ifadesi yanlıştır (az miktarda fermente edilebilen hipoasidojenik şeker alkolü sorbitoldür). Çeldiriciler: - A) Tüm şeker alkolleri (-ol ile biten polioller: ksilitol, sorbitol, mannitol, maltitol, izomalt) ve liyazin \"kalorili tatlandırıcılar\" grubundadır (sükrozla aynı tatlılıkta olup sükrozun 1/3'ü kadar daha az kalorisi vardır). - B ve E) S. mutans içine fruktoz fosfotransferaz sistemiyle girip parçalanamayan ksilitol-5-fosfat olarak birikir (boş enerji döngüsü), böylece S. mutans üreme hızını yavaşlatır, ekstrasellüler polisakkarit yapımını ve yüzeylere yapışabilirliklerini azaltır. - D) Tat duyusunu uyararak tükürük akışını hızlandıran sialojenik etkisi vardır ve çürük ilerlemesini durdurur.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Biyoaktif cam olarak da bilinen, su ile birleştiğinde diş üzerinde kalsiyum fosfat çökelmesi sağlayabilen, kalsiyum-sodyum-fosfosilikat içerikli remineralizasyon ajanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Arjinin",
+      "B": "Trikalsiyum fosfat",
+      "C": "Kazein fosfopeptid-amorf kalsiyum fosfat",
+      "D": "Novamin",
+      "E": "Asidüle fosfat florür"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): \"Novamin\", rejeneratif tıp ve diş hekimliğinde \"biyoaktif cam\" olarak bilinen ve kimyasal yapısı \"kalsiyum-sodyum-fosfosilikat\" olan remineralizasyon ve hassasiyet giderici ajandır. Su ve tükürük ile birleştiğinde sodyum iyonları hidrojen iyonlarıyla yer değiştirerek lokal pH'yı yükseltir, kalsiyum ve fosfat iyonları salınarak diş yüzeyinde ve dentin tübüllerinde \"hidroksi-karbonat-apatit (kalsiyum fosfat)\" tabakası çökelmesini sağlar. Çeldiriciler: - A) Arjinin, sağlıklı mikrobiyomu geliştiren ve kalsiyum karbonatla birlikte dentin tübüllerini tıkayan bir aminoasittir. - B) Trikalsiyum fosfat (fTCP), florürle sinerjik çalışan kalsiyum-fosfat bileşiğidir. - C) Kazein fosfopeptit-amorf kalsiyum fosfat (CPP-ACP / Recaldent), süt proteini kazeinden elde edilen ve pelikılda kalsiyum-fosfat rezervuarı sağlayan ajandır. - E) Asidüle fosfat florür (APF), %1,23'lük (12.300 ppm) topikal florür jelidir.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Aşağıda verilen bilgilerden hangisi Novamin'i doğru şekilde tanımlamaktadır?",
+    "options": {
+      "A": "Biyoaktif cam olarak da bilinen, su ile birleştiğinde diş üzerinde kalsiyum fosfat çökelmesi sağlayabilen, kalsiyum- sodyum-fosfosilikat içerikli remineralizasyon ajanı",
+      "B": "Sağlıklı mikrobiyomu geliştirme amacıyla kullanılan, dentin tübüllerinde protein çökeltici ajan",
+      "C": "Sklerotik dentin oluşumunda kanal lümenine çökelen ajan",
+      "D": "Güçlü ve doygun pelikıl yapısı oluşumunu sağlayan ajan",
+      "E": "Yapısındaki tannik asit ile dişte CaF çökeltisi sağlayan ajan"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Novamin; biyoaktif cam yapısında olan, su/tükürük ile temas ettiğinde sodyum, kalsiyum ve fosfat iyonları salarak diş yüzeyinde ve tübüllerde hidroksiapatit benzeri kalsiyum fosfat çökelmesi sağlayan \"kalsiyum-sodyum-fosfosilikat\" içerikli remineralizasyon ajanıdır. Çeldiriciler: - B) Sağlıklı mikrobiyomu geliştiren ve tübülleri tıkayan ajan \"Arjinin\"dir. - C) Sklerotik dentin oluşumunda kanal lümenine çökelen yapı \"beta-trikalsiyum fosfat (whitlockite)\"tir. - D) Güçlü ve aşırı doygun pelikıl yapısı oluşumunu sağlayan süt kaynaklı ajan \"CPP-ACP (Kazein fosfopeptit-amorf kalsiyum fosfat)\"tır. - E) Asidüle fosfat florür (AFP/APF) tanımlamasıdır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi minenin başlangıç çürük lezyonlarının tedavisinde mikroinvaziv bir seçenektir?",
+    "options": {
+      "A": "Topikal forür uygulamaları",
+      "B": "Kazein fosfopeptit amorf kalsiyum fosfat (CPP-ACP) uygulamaları",
+      "C": "Diyetin düzenlenmesi",
+      "D": "Rezin infiltrasyon tedavisi",
+      "E": "Lazer uygulaması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Başlangıç mine çürüklerinin (white spot) tedavisinde diyet düzenlenmesi, oral hijyen, topikal florür, CPP-ACP ve lazer uygulamaları hiçbir doku kaldırma işlemi içermeyen \"non-invaziv (koruyucu)\" yöntemlerdir. Pöröz mine lezyonunun sadece en dış hipermineralize yüzeyel tabakasının %15 HCl asit ile eritilerek uzaklaştırıldığı ve lezyon gövdesindeki gözeneklerin düşük viskoziteli rezinle (TEGDMA) doldurulduğu \"rezin infiltrasyon (ICON) tedavisi\" ise non-invaziv ile invaziv restoratif tedaviler arasında köprü görevi gören \"mikroinvaziv (minimal invaziv)\" bir seçenektir. Çeldiriciler: Topikal florür (A), CPP-ACP (B), diyetin düzenlenmesi (C) ve lazerle mine direncinin artırılması (E) mikroinvaziv değil, non-invaziv koruyucu yaklaşımlardır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Probiyotiklerin çürük önleyici etkisi aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Ph'ı düşürür.",
+      "B": "Karyojenik bakteriler ile yer değiştirir.",
+      "C": "Mineyi güçlendirir.",
+      "D": "Tükürükteki kalsiyum konsantrasyonunu arttırır.",
+      "E": "Bakterilerin hücre duvarını parçalar."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Probiyotikler (Lactobacillus rhamnosus, L. reuteri, Bifidobacterium vb. zararsız ve faydalı canlı mikroorganizmalar), ekolojik plak teorisi doğrultusunda dental biyofilme bağlanarak besin ve tutunma yüzeyleri için patojenlerle rekabete girer, bakteriyosin benzeri maddeler salgılar ve \"patojen (karyojenik) bakteriler ile yer değiştirerek\" mikrobiyal dengeyi sağlık yönüne çevirir. Çeldiriciler: - A) pH'yı düşürmek çürüğü önlemez, aksine demineralizasyon yapar. - C ve D) Mineyi güçlendirmek ve kalsiyum/fosfat konsantrasyonunu artırmak probiyotiklerin değil, florür ve CPP-ACP gibi remineralizasyon ajanlarının görevidir. - E) Bakteri hücre duvarını doğrudan parçalayan ajan lizozim enzimidir.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Çürükle mücadelede kullanılan probiyotikler için aşağıda verilenlerden hangisi söylenemez?",
+    "options": {
+      "A": "Biyofilme bağlanabilmelidir",
+      "B": "Bir patojenle etkileşime girmeli ve yer değiştirmelidir",
+      "C": "Yüksek genetik stabiliteye sahip olmalıdır",
+      "D": "Kalıcı kolonizasyon göstermemelidir",
+      "E": "Kendileri hastalığa sebebiyet vermemelidir"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Probiyotiklerin ağız ortamında çürük önleyici etki gösterebilmesi için dental biyofilme bağlanarak ağız florasında \"kalıcı kolonizasyon göstermesi\" istenir; kalıcı kolonizasyon göstermemelidir ifadesi yanlıştır. Çeldiriciler: Etkili bir probiyotik biyofilme bağlanıp bir parçası olabilmeli (A), belirli bir patojenle etkin olarak etkileşime girip yer değiştirmeli (B), mutasyona uğramamak için yüksek genetik stabiliteye sahip olmalı (C) ve kendisi çürük veya başka bir hastalığa yol açmamalıdır (E).",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Çürük ile mücadelede kullanılan ürünlerin özellikleriyle ilgili aşağıdaki eşleştirmelerden hangisi doğrudur?",
+    "options": {
+      "A": "Probiyotik — Karyojenik bakteriler ile yer değiştirir",
+      "B": "Klorheksidin — Minenin mineral içeriğini arttırır",
+      "C": "Kazein fosfataz — Dilde boyanmaya yol açar",
+      "D": "Flor verniği — Tat duyusunda bozulmaya neden olur",
+      "E": "Fissür sealent — Remineralizan bir tedavidir"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Probiyotikler biyofilme tutunup karyojenik (çürük yapıcı) bakterilerle yer değiştirerek ve bakteriyosin salgılayarak patojenleri ortadan kaldırır. Çeldiriciler: - B) Klorheksidin minenin mineral içeriğini artırmaz (bunu flor ve CPP-ACP yapar); klorheksidin antibakteriyel anti-plak ajandır. - C ve D) Dilde/dişte kahverengi boyanmaya ve tat duyusunda bozulmaya yol açan ajan kazein fosfopeptit (CPP-ACP) veya flor verniği değil, \"klorheksidin\"dir. - E) Fissür sealant remineralizan bir kimyasal tedavi değil, pit ve fissürleri fiziksel olarak örterek plak ve substrat girişini engelleyen mekanik bir bariyer tedavisidir.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, biyofilm oluşumunu engellemek için kullanılan katyonik ajanlardan biri değildir?",
+    "options": {
+      "A": "Septil- piridinyum klorid",
+      "B": "Klorheksidin",
+      "C": "Benzalkonyum klorid",
+      "D": "Triklosan",
+      "E": "Aleksidin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Plağın kimyasal olarak ortadan kaldırılmasında kullanılan ajanlar iyonik yüklerine göre 3 gruba ayrılır: 1. Katyonik ajanlar: Klorheksidin, Setilpiridinyum klorür ( ve Benzalkonyum klorür gibi kuaterner amonyum bileşikleri), Aleksidin, Delmopinol, Heksetidin, Sanguinarin özü ve Metal iyonları ($Zn^{2+}, Cu^{2+}, Sn^{2+}$). 2. Anyonik ajanlar: Sodyum dodesil (lauril) sülfat (SLS). 3. Non-iyonik ajanlar: Triklosan (fenol türevi). Dolayısıyla \"Triklosan\" katyonik bir ajan değil, \"non-iyonik (iyonik olmayan)\" bir antimikrobiyal ajandır. Çeldiriciler: Setilpiridinyum klorid (A), Klorheksidin (B), Benzalkonyum klorid (C) ve Aleksidin (E) pozitif yüklü \"katyonik\" anti-plak ajanlarıdır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "I. Sodyum dodesil sülfat II. Triklosan III. Heksetidin IV. Klorheksidin V. Aleksidin Yukarıda verilenlerden hangisi/hangileri plağın kaldırılması için kullanılan katyonik kimyasal ajandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız IV",
+      "C": "I ve II",
+      "D": "III ve V",
+      "E": "III, IV ve V"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Heksetidin (III), Klorheksidin (IV) ve Aleksidin (V) negatif yüklü bakteri yüzeyine ve pelikıla güçlü şekilde bağlanan \"katyonik\" kimyasal anti-plak ajanlardır. Öncüllerin Analizi: - I. Öncül (Anyonik): Sodyum dodesil (lauril) sülfat, negatif yüklü \"anyonik\" bir yüzey aktif ajandır. - II. Öncül (Non-iyonik): Triklosan, yüksüz \"non-iyonik\" bir bisfenol ajandır. - III, IV ve V. Öncüller (Katyonik): Heksetidin, klorheksidin ve aleksidin pozitif yüklü \"katyonik\" ajanlardır. Çeldiriciler: A ve C şıkları anyonik (I) ve non-iyonik (II) ajanları içerdiği için; B ve D şıkları ise katyonik ajanların tamamını kapsamadığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Bakteri plağını kimyasal olarak ortadan kaldırmak amacıyla kullanılan ajanlarla ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Katyonik ajanlar mikrobiyal yüzeylere daha zor bağlanırlar.",
+      "B": "Klorheksidin hidrofilik ve hidrofobik özelliklere sahiptir.",
+      "C": "Triklosanın lipid sentezini inhibe ettiği düşünülmektedir.",
+      "D": "Triklosan düşük konsantrasyonlarda bakteriostatiktir",
+      "E": "Metal iyonları katyonik ajanlar arasındadır."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Bakteri hücre duvarları ve pelikıl yüzeyi negatif elektrik yüküne sahiptir; pozitif yüklü olan \"katyonik ajanlar\" elektrostatik çekim kuvvetiyle bu negatif yüklü mikrobiyal yüzeylere çok daha kolay ve güçlü bağlanırlar (yüksek substantivite). Dolayısıyla katyonik ajanların mikrobiyal yüzeylere daha zor bağlandığı ifadesi yanlıştır (anyonik ve non-iyonik ajanlara göre çok daha güçlü bağlanırlar). Çeldiriciler: - B) Klorheksidin hem hidrofilik hem de hidrofobik özelliklere sahip katyonik bir bisbiguaniddir. - C ve D) Non-iyonik bir ajan olan triklosan bakteri membranında yağ asidi (lipid) sentezini inhibe ederek etki gösterir ve düşük konsantrasyonlarda bakteriyostatik, yüksek konsantrasyonlarda bakterisiddir. - E) Çinko, bakır ve kalay gibi metal iyonları pozitif yüklü olup katyonik ajanlar arasında yer alır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Koruyucu diş hekimliğini kullanan aşağıdaki yapay tatlandırıcılardan hangisinin besleyici özelliği yoktur?",
+    "options": {
+      "A": "Ksilitol",
+      "B": "Mannitol",
+      "C": "Sorbitol",
+      "D": "Sakkarin",
+      "E": "İzomalt"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tatlandırıcılar enerji (kalori) içeriklerine göre \"kalorili (besleyici / nutritive)\" ve \"kalorisiz (besleyici özelliği olmayan / non-nutritive / yoğun)\" tatlandırıcılar olarak ikiye ayrılır. Sonu \"-ol\" ile biten şeker alkolleri (polioller: ksilitol, mannitol, sorbitol, maltitol, izomalt) ve liyazin \"kalorili (besleyici)\" tatlandırıcılardır. \"Sakkarin\" (asesülfam-K, aspartam, siklamat, alitam, sukraloz, mirakulin, monellin, taumatin ile birlikte) ise \"kalorisiz (besleyici özelliği olmayan)\" yapay yoğun tatlandırıcıdır. Çeldiriciler: Ksilitol (A), Mannitol (B), Sorbitol (C) ve İzomalt (E) şeker alkolleri (polioller) grubunda yer alan ve besleyici (kalorili) özelliği bulunan tatlandırıcılardır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "I. İzomalt II. Mirakulin III. Sakkarin IV. Aspartam V. Ksilitol Yukarıdaki tatlandırıcılardan hangileri kalorili tatlandırıcılar arasında yer almaz?",
+    "options": {
+      "A": "II-III",
+      "B": "III-IV",
+      "C": "I-II-V",
+      "D": "II-V",
+      "E": "II-III-IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Mirakulin (II), Sakkarin (III) ve Aspartam (IV) kalorisiz (yoğun) tatlandırıcılar grubunda olup kalorili tatlandırıcılar arasında yer almaz; İzomalt (I) ve Ksilitol (V) ise şeker alkolü olup kalorili tatlandırıcılardır. Öncüllerin Analizi: - I ve V. Öncüller (Kalorili): İzomalt ve Ksilitol poliol (şeker alkolü) yapısında olan kalorili tatlandırıcılardır. - II, III ve IV. Öncüller (Kalorisiz): Mirakulin (doğal yoğun), Sakkarin ve Aspartam (sentetik yoğun) kalorisiz tatlandırıcılardır. Çeldiriciler: A ve B şıkları kalorisiz olan öncüllerden birini eksik bıraktığı için; C ve D şıkları ise kalorili olan izomalt (I) ve ksilitolü (V) içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Aşağıda verilen çürük oluşumunu azaltmak amacıyla sakız, şekerleme, ilaç, ara öğün yiyecekleri, macun ve gargaralara koyulan tatlandırıcılardan hangisi doğal yoğun tatlandırıcılar grubundadır?",
+    "options": {
+      "A": "Sakkarin",
+      "B": "Aspartam",
+      "C": "Gliriz",
+      "D": "Alitam",
+      "E": "Ksilitol"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Yoğun tatlandırıcılar \"sentetik yoğun tatlandırıcılar\" (sakkarin, asesülfam-K, aspartam, siklamat, alitam, NHDC) ve bitkisel kaynaklı \"doğal yoğun tatlandırıcılar\" (monellin, mirakulin, taumatin, dihidrokalkonlar, steviosid ve meyan kökünden elde edilen \"gliriz / glisirizin\") olarak ikiye ayrılır. Dolayısıyla seçenekler arasında doğal yoğun tatlandırıcı olan \"Gliriz\"dir. Çeldiriciler: - A, B ve D) Sakkarin, Aspartam ve Alitam doğal değil, \"sentetik\" yoğun tatlandırıcılardır. - E) Ksilitol yoğun tatlandırıcı değil, sükrozla eşdeğer tatlılığa sahip hacimsel (bulk) kalorili şeker alkolüdür.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "I. Doğal şekerler alkolüdür. II. Streptococcus mutans tarafından fermente edilemez. III. Biyofilm içindeki Streptococcus mutans miktarını azaltır. Ksilitol ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I ve II"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Ksilitolün kimyasal kaynağını ve antikaryojenik/karyostatik mekanizmasını ifade eden her üç öncül de doğrudur. Öncüllerin Analizi: - I. Öncül (Doğru): Ksilitol; huş ağacı, muz, çilek ve mantar gibi birçok bitkide doğada bulunan 5 karbonlu doğal bir şeker alkolüdür (polioldür). - II. Öncül (Doğru): Streptococcus mutans dahil ağız bakterileri tarafından fermente edilemez ve asit oluşumuna yol açmaz. - III. Öncül (Doğru): S. mutans içinde toksik ksilitol-5-fosfat birikimine ve boş enerji döngüsüne yol açarak üreme hızını yavaşlatır, yapışabilirliğini düşürür ve biyofilm içindeki S. mutans miktarını azaltır. Çeldiriciler: B, C, D ve E şıkları doğru olan öncüllerden birini veya birkaçını eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Çürük kontrolü amacıyla tatlandırıcı kullanımı önerilen yetişkin hasta, mide rahatsızlığı, kramp ve osmotik diyareye sebebiyle kliniğe başvurmuştur. Hastanın önerilen ksilitol ajanını günlük 50gram üzerinde aldığı öğrenilmiştir. Buna göre hastanın kullandığı ajan ile ilgili aşağıda verilenlerden hangisi yanlış bir bilgi içermektedir?",
+    "options": {
+      "A": "Sentetik yoğun tatlandırıcıdır",
+      "B": "Streptococcus mutans tarafından fermente edilemez.",
+      "C": "Biyofilm içindeki streptococcus mutans miktarını azaltır.",
+      "D": "Sialojenik etkisi vardır.",
+      "E": "Mutans streptokokların yüzeylere yapışabilirliklerini azaltır"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Ksilitol (xylitol) \"sentetik yoğun tatlandırıcı\" değildir; doğada huş ağacı ve meyvelerde bulunan, sükrozla eşit tatlılığa sahip olan \"doğal kalorili bir şeker alkolüdür (polioldür)\". (Diğer tüm polioller gibi yüksek dozda alındığında bağırsaklardan yavaş emildiği için doza bağımlı ozmotik diyare ve kramp yan etkisi oluşturabilir). Çeldiriciler: Ksilitolün S. mutans tarafından fermente edilememesi (B), biyofilmdeki S. mutans miktarını (C) ve yüzeylere yapışabilirliğini azaltması (E) ve tükürük akışını uyaran sialojenik etkisinin bulunması (D) doğru bilgilerdir.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Aşağıda verilen çürük oluşumuna karşı operatif olmayan koruyucu önlemler arasında, bakteri plağını kimyasal olarak ortadan kaldırma amacıyla kullanılan ajanlardan hangisi, bakteri hücre duvar sentezini engellerken ortamdaki gram negatif floranın artması şeklinde yan etki göstermektedir?",
+    "options": {
+      "A": "Vankomisin",
+      "B": "Kanamisin",
+      "C": "Aktinobolin",
+      "D": "Klorheksidin",
+      "E": "Florür"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Plağın kimyasal kontrolünde araştırılmış olan antibiyotiklerden \"Vankomisin\", etki mekanizması olarak \"bakteri hücre duvarı sentezini engeller\", dar/sınırlı spektrumuyla Gram(+) bakterileri baskılarken yan etki olarak \"ortamdaki Gram negatif floranın artmasına\" neden olur. Çeldiriciler: - B) Kanamisin, hücre duvarı sentezini değil \"protein sentezini\" engeller ve yan etki olarak çürük aktivitesini artırabilir. - C) Aktinobolin, streptokoklarda \"protein sentezini\" engeller. - D) Klorheksidin bir antibiyotik değil bisbiguanid antiseptiktir; bakteri yapışmasını önler ve membranı bozar, yan etkisi diş/dil boyanması ve tat bozukluğudur. - E) Florür halojen grubunda olup enolaz enzimini inhibe ederek asit üretimini azaltır ve remineralizasyon sağlar; yüksek doz kronik alımda florozis yapar.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Aşağıdaki durumların hangisinde rezin infiltrasyon tekniğiyle tedavi önerilmez?",
+    "options": {
+      "A": "Florozis vakalarında",
+      "B": "Kavitasyon gösteren kök yüzeyi çürüklerinde",
+      "C": "Hipomineralizasyon vakalarında",
+      "D": "Arayüz başlangıç çürüklerinde",
+      "E": "Beyaz nokta (white spot) lezyonlarında"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Rezin infiltrasyon (ICON) tekniği; yalnızca yüzey bütünlüğü bozulmamış (kavitasyonsuz) başlangıç mine çürüklerinin (SISTA evre 0 ve 1; mine ve dentinin dış 1/3'ünü geçmemiş lezyonlar) durdurulmasında ve mine kaybı olmayan florozis/hipomineralizasyon opaklıklarının maskelenmesinde endikedir. \"Kavitasyon (madde kaybı) gösteren lezyonlarda ve kök yüzeyi (sement/dentin) çürüklerinde\" rezin infiltrant kaviteyi doldurup restore edemeyeceği için kullanımı kontrendikedir ve önerilmez. Çeldiriciler: Mine kaybı olmayan florozis (A) ve travmatik/MIH hipomineralizasyon (C) vakalarında opak görüntüyü estetik olarak maskelemek için; kavitasyonsuz arayüz başlangıç çürüklerinde (D) ve düz yüzey beyaz nokta (white spot) lezyonlarında (E) ise çürük ilerlemesini durdurmak için rezin infiltrasyon tekniği önerilir.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "I. 15 numara SİSTA 3.1 II. 22 numara SİSTA 3.0 III. 16 numara SİSTA 2.1 IV. 47 numara SİSTA 1.0 Yukarıda verilen lezyon tiplerinden hangisinde rezin infiltrasyon tedavisi uygulanabilir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "II ve IV",
+      "D": "I, II ve III",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): SİSTA sınıflamasına göre rezin infiltrasyon tedavisi; bukkal, lingual/servikal (Bölge 3) ve proksimal (Bölge 2) düz yüzeylerde yer alan ve kavitasyon oluşmamış Evre 0 ve Evre 1 (remineralize olabilecek minimal lezyonlar) başlangıç çürüklerinde uygulanabilir. Dolayısıyla SİSTA 3.1 (I), SİSTA 3.0 (II) ve SİSTA 2.1 (III) lezyonlarında uygulanabilirken, pit ve fissür bölgesi olan SİSTA 1.0'da (IV) fissür örtücü tercih edilir. Öncüllerin Analizi: - I ve II. Öncüller (Uygulanabilir): Servikal düz yüzeydeki (3) kavitasyonsuz evre 0 ve 1 lezyonlarda (SİSTA 3.1 ve 3.0) uygulanabilir. - III. Öncül (Uygulanabilir): Proksimal düz yüzeydeki (2) kavitasyonsuz evre 1 başlangıç çürüklerinde (SİSTA 2.1) uygulanabilir. - IV. Öncül (Uygulanmaz): 47 numaralı dişteki SİSTA 1.0 lezyonu oklüzal pit ve fissür (1) başlangıç lezyonu olup düz yüzey lezyonu değildir; tedavisinde pit ve fissür örtücü uygulanır. Çeldiriciler: A ve B şıkları proksimal başlangıç lezyonu olan III. öncülü eksik bıraktığı için; C ve E şıkları ise fissür lezyonu olan IV. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Rezin infiltrasyon işleminde aşağıda verilen ürünlerden hangisi kullanılmaz? (TED-GMA: Trietilen diglisidil metakrilat)",
+    "options": {
+      "A": "Etanol",
+      "B": "TED-GMA",
+      "C": "Hidroklorik asit",
+      "D": "Hidroflorik asit",
+      "E": "Pirojenik silisik asit"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Rezin infiltrasyon (ICON) setinin içeriğinde; 1. ICON-Etch (%15 hidroklorik asit, pirojenik silisik asit ve yüzey aktif madde), 2. ICON-Dry (%99 etanol - gözeneklerdeki suyu kurutmak için) ve 3. ICON-Infiltrant (yüksek penetrasyon katsayısına sahip TEGDMA / TED-GMA bazlı metakrilat rezin matriks ve başlatıcılar) bulunur. \"Hidroflorik asit\" ise ağız içi dokularda kesinlikle kullanılmaz, yalnızca ağız dışında porselen restorasyonların yüzey hazırlığında kullanılır. Çeldiriciler: Etanol (A), TED-GMA/TEGDMA rezin (B), Hidroklorik asit (C) ve asit jelin kıvamını sağlayan pirojenik silisik asit (E) rezin infiltrasyon setinin gerçek bileşenleridir.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "I. Asidüle fosfat florür (%1,23) II. Gümüş diamin florür (%38) III. Yüksek florürlü diş macunları Yukarıda verilen florür bileşiklerinin, içerdiği florür miktarına (ppm) göre, en çoktan en aza doğru sıralanışı aşağıdakilerin hangisinde verilmiştir?",
+    "options": {
+      "A": "I-II-III",
+      "B": "II-I-III",
+      "C": "II-III-I",
+      "D": "III-I-II",
+      "E": "III-II-I"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Florür preparatlarının içerdiği florür konsantrasyonları (ppm) karşılaştırıldığında: - II. Gümüş diamin florür (%38 SDF): **44.800 ppm** - I. Asidüle fosfat florür (%1,23 APF jel): **12.300 ppm** - III. Reçete edilen yüksek florürlü diş macunları (%1,1 NaF): **4.950 - 5.000 ppm** (rutin macunlar: 1000-1450 ppm). Dolayısıyla içerdiği florür miktarına göre en çoktan en aza doğru sıralama **II - I - III** şeklindedir. Öncüllerin Analizi: - 1. En yüksek ppm: II. Gümüş diamin florür (%38) = 44.800 ppm - 2. Orta ppm: I. Asidüle fosfat florür (%1,23) = 12.300 ppm - 3. En düşük ppm: III. Yüksek florürlü diş macunları = 4.950 ppm Çeldiriciler: A, C, D ve E şıkları florür preparatlarının ppm değerlerini yanlış sıralamaktadır.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Aşağıda verilen florür bileşeni-içerdiği flor ppm oranı eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Asidüle fosfat florür (%1.23) – 12.300 ppm",
+      "B": "Gümüş diamin florür (%38) – 38.000 ppm",
+      "C": "Yüksek florürlü diş macunları – 4.950 ppm",
+      "D": "Stannöz florür solüsyonu (%8-10) – 80.000 ppm",
+      "E": "Sodyum florür verniği (% 5) – 22.500 ppm"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): %38'lik Gümüş diamin florür (SDF) solüsyonunun içerdiği aktif florür miktarı 38.000 ppm değil, **\"44.800 ppm\"**dir (%38 oranı yalnız florürü değil, %25 gümüş, %8 amonyak ve %5 florürün toplam ağırlık yüzdesini ifade eder; %5 florür ise ~44.800 ppm'e karşılık gelir). Çeldiriciler: - A) %1,23'lük Asidüle fosfat florür (APF) 12.300 ppm flor içerir. - C) Reçeteli yüksek doz florürlü diş macunları 4.950 (5.000) ppm flor içerir (günlük rutin macunlar 1000-1450 ppm, günlük %0,05 gargara 225 ppm, haftalık %0,2 gargara 900 ppm içerir). - D) %8-10'luk Stannöz florür solüsyonu 80.000 ppm (veya %2 NaF solüsyonu 20.000 ppm) olarak tabloda yer alır. - E) %5'lik Sodyum florür (NaF) verniği 22.500 (22.600) ppm flor içerir.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  },
+  {
+    "question": "Bakteri plağını kimyasal olarak ortadan kaldırma amacıyla kullanılan, antibakteriyel aktivite açısından geniş spektrumlu, bakteri yapışmasını önleyerek antiseptik özellik gösteren, ağızda acı tat, diş ve dilde boyanmalar, mukozada irritasyona sebep olabilen, ajan aşağıda verilenlerden hangisidir?",
+    "options": {
+      "A": "Vankomisin",
+      "B": "Kanamisin",
+      "C": "Aleksidin",
+      "D": "İyod",
+      "E": "Florür"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Klorheksidin ile birlikte \"bisbiguanidler\" grubunda yer alan katyonik bir ajan olan \"Aleksidin\"; bakteri yapışmasını önleyerek antiseptik özellik gösteren, antibakteriyel aktivite açısından geniş spektrumlu olan, ağızdaki devam süresi (substantivitesi) uzun olan ve yan etki olarak ağızda acı tat, dişleri ve dili kahverengiye boyama ve mukoza irritasyonuna sebep olabilen kimyasal anti-plak ajandır. Çeldiriciler: - A ve B) Vankomisin ve Kanamisin antibiyotik grubunda olup ağızda kalma süreleri kısadır ve diş/dil boyaması yapmazlar (vankomisin Gram(-) florayı artırır, kanamisin protein sentezini engeller). - D) İyod halojen grubunda olup bakterisiddir, ağızdaki devam süresi kısadır ve yan etkisi metalik tattır. - E) Florür halojen grubunda olup asit üretimini azaltır, yüksek doz kronik alımda florozis yapar; acı tat ve kahverengi diş/dil boyanması yapmaz.",
+    "lesson": "Restoratif",
+    "unit": "16 KORUYUCU TEDAVİ UYGULAMALARI"
+  }
+]

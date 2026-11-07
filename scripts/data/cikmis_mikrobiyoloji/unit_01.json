@@ -1,0 +1,1794 @@
+[
+  {
+    "question": "Aşağıdaki etkenlerin hangisinin kapsül polisakkarit aşısı vardır?",
+    "options": {
+      "A": "Clostridium tetani",
+      "B": "Corynebacterium diphtheriae",
+      "C": "Neisseria meningitidis",
+      "D": "Vibrio cholerae",
+      "E": "Mycobacterium tuberculosis"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): *Neisseria meningitidis* (meningokok), *Streptococcus pneumoniae* (pnömokok), *Haemophilus influenzae* tip b (Hib) ve *Salmonella* Typhi (Vi) aşıları bakterilerin kapsüler polisakkarit antijenlerinden hazırlanan kapsüler aşılardır. Çeldiriciler: *Clostridium tetani* (A) ve *Corynebacterium diphtheriae* (B) aşıları bakterilerin ekzotoksinlerinin formaldehitle detoksifiye edilmesiyle elde edilen toksoid aşılardır. *Vibrio cholerae* (D) aşısı oral uygulanan inaktif (ölü) veya canlı atenüe bakteri aşısıdır. *Mycobacterium tuberculosis* (E) için kullanılan BCG aşısı ise *Mycobacterium bovis* suşundan elde edilen canlı atenüe bakteriyel bir aşıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "İmipenem'in etki mekanizması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nükleotid sentezinin inhibisyonu",
+      "B": "Peptidoglikan sentezinde transpeptidasyonun inhibisyonu",
+      "C": "Peptidil transferaz inhibisyonu",
+      "D": "30S ribozomal alt üniteye bağlanma",
+      "E": "mRNA sentezinin inhibisyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İmipenem, karbapenem grubu bir beta-laktam antibiyotiktir ve penisilin bağlayan proteinlere (PBP) bağlanarak bakteriyel hücre duvarı peptidoglikan sentezindeki son basamak olan transpeptidasyon (çapraz bağlanma) işlemini inhibe eder. Çeldiriciler: Nükleotid sentezinin inhibisyonu (A) antimetabolit veya folat yolu inhibitörlerinin (sülfonamidler, trimetoprim) mekanizmasıdır. 50S ribozomal alt ünitede peptidil transferaz inhibisyonu (C) kloramfenikolün etki mekanizmasıdır. 30S ribozomal alt üniteye bağlanarak protein sentezini bozan ajanlar (D) aminoglikozidler ve tetrasiklinlerdir. DNA bağımlı RNA polimerazı engelleyerek mRNA sentezini inhibe eden ajan (E) ise rifampindir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Basınçlı buharla sterilizasyon işleminin standart uygulaması (121°C'de 15 dak.) aşağıdaki patojenlerden hangisinde diğerlerine göre daha az güvenlidir?",
+    "options": {
+      "A": "Bakteri sporları",
+      "B": "Cryptosporidium türleri",
+      "C": "Mycobacterium türleri",
+      "D": "Zarfsız viruslar",
+      "E": "Prionlar"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Prionlar, nükleik asit içermeyen enfeksiyöz protein yapıları olup fiziksel ve kimyasal sterilizasyon/dezenfeksiyon yöntemlerine en dirençli ajanlardır; standart otoklav (121°C'de 15 dakika basınçlı buhar) uygulaması prionları etkisiz hale getirmede yetersiz kalır ve NaOH ilavesi ile birlikte yüksek sıcaklıkta (134°C) uzun süreli özel otoklav protokolleri gerektirir. Çeldiriciler: Bakteri sporları (A), *Cryptosporidium* ookistleri (B), *Mycobacterium* türleri (C) ve zarfsız viruslar (D) dezenfektanlara çeşitli düzeylerde direnç gösterseler de standart basınçlı buhar (otoklav) sterilizasyonu ile tamamen ve güvenle inaktive edilirler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Bakteri hücre duvarındaki peptidoglikan tabakanın yapısında aşağıdakilerden hangisi bulunmaz?",
+    "options": {
+      "A": "N-asetil muramik asit",
+      "B": "N-asetil glukozamin",
+      "C": "Tetrapeptid",
+      "D": "Teikoik asit",
+      "E": "Pentaglisin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Teikoik asit, peptidoglikan tabakasının yapısal bir bileşeni olmayıp yalnızca Gram-pozitif bakterilerin hücre duvarında bulunan, ribitol veya gliserol fosfat polimerlerinden oluşan, bakterinin konak hücre fibronektinine tutunmasını sağlayan ve bakteriyofajlar için reseptör görevi gören ayrı bir yüzey polimeridir. Çeldiriciler: Peptidoglikan (mürein) tabakası, birbirine beta-1,4 glikozid bağlarıyla bağlanmış N-asetil muramik asit (A) ve N-asetil glukozamin (B) omurgasından, N-asetil muramik aside bağlı tetrapeptid yan zincirlerinden (C) ve özellikle *Staphylococcus aureus* gibi bakterilerde bu tetrapeptid zincirlerini birbirine bağlayan pentaglisin (E) çapraz köprülerinden oluşur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisinin hücre yapısında sterol bulunur?",
+    "options": {
+      "A": "Bacillus cereus",
+      "B": "Ureaplasma urealyticum",
+      "C": "Mycobacterium tuberculosis",
+      "D": "Coxiella burnetii",
+      "E": "Rickettsia conorii"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): *Mycoplasma* ve *Ureaplasma* (*Ureaplasma urealyticum*) cinsleri hücre duvarı (peptidoglikan) bulunmayan bakterilerdir; hücre bütünlüğünü ve sitoplazmik membran stabilitesini sağlamak amacıyla sitoplazma zarlarında sterol (kolesterol) bulunduran tek prokaryot grubudurlar. Çeldiriciler: *Bacillus cereus* (A) kalın peptidoglikan duvarlı Gram-pozitif bir basildir. *Mycobacterium tuberculosis* (C) hücre duvarında mikolik asit gibi kompleks lipidler barındırır ancak membranında sterol içermez. *Coxiella burnetii* (D) ve *Rickettsia conorii* (E) hücre içi yaşam süren ve Gram-negatif benzeri hücre duvarına sahip olan, zarlarında sterol bulunmayan bakterilerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Trimetoprim-sulfametoksazol antibiyotik kombinasyonundaki ilişkinin benzeri bir ilişki aşağıdakilerin hangisinde vardır?",
+    "options": {
+      "A": "İmipenem – Silastatin",
+      "B": "Ampisilin – Klavulanik asit",
+      "C": "Kinuppristin – Dalfopristin",
+      "D": "Piperasilin – Tazobaktam",
+      "E": "Sefoperazon – Sulbaktam"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Trimetoprim (dihidrofolat redüktaz inhibitörü) ve sulfametoksazol (dihidropteroat sentaz inhibitörü), folik asit sentez yolağının ardışık iki basamağını bloke ederek güçlü bir antibakteriyel sinerjizma (1+1>2) oluşturur; benzer şekilde streptogramin grubu olan kinupristin ve dalfopristin de bakteriyel 50S ribozomal alt üniteye bağlanıp protein sentezinin farklı aşamalarını birlikte bloke ederek sinerjik bakterisidal etkinlik gösterir. Çeldiriciler: İmipenem – Silastatin (A) kombinasyonunda silastatin bir antibiyotik olmayıp imipenemin böbrek tübüllerindeki dihidropeptidaz-1 enzimi tarafından yıkılmasını önleyen bir enzim inhibitörüdür. Ampisilin – Klavulanik asit (B), Piperasilin – Tazobaktam (D) ve Sefoperazon – Sulbaktam (E) kombinasyonlarında ise ikinci bileşenler doğrudan antibakteriyel etki göstermeyen, beta-laktam antibiyotiği bakteriyel beta-laktamaz yıkımından koruyan intihar inhibitörleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Mantarların izolasyonu için, aşağıdaki besi yerlerinden hangisinin kullanılması önerilir?",
+    "options": {
+      "A": "Çikolata agar",
+      "B": "MacConkey sorbitol agar",
+      "C": "Lowenstein-Jensen agar",
+      "D": "Thayer-Martin agar",
+      "E": "Sabouraud dekstroz agar"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Sabouraud dekstroz agar (SDA), yüksek glukoz (dekstroz) konsantrasyonu ve düşük pH (yaklaşık 5.6) içeriği sayesinde bakterilerin üremesini baskılayarak mantarların (küf ve mayaların) izolasyonunda standart olarak kullanılan besiyeridir. Çeldiriciler: Çikolata agar (A) *Haemophilus* ve *Neisseria* gibi güç üreyen (nazlı) bakterilerin üretilmesinde kullanılır. MacConkey sorbitol agar (B) sorbitolü fermente etmeyen enterohemorajik *Escherichia coli* (EHEC) O157:H7 suşunu ayırt etmek için kullanılır. Lowenstein-Jensen agar (C) katılaştırıcı olarak yumurta içeren ve mikobakterilerin (*M. tuberculosis*) izolasyonunda kullanılan besiyeridir. Thayer-Martin agar (D) ise vankomisin, kolistin ve nistatin içeren, *Neisseria gonorrhoeae* ve *Neisseria meningitidis* izolasyonu için kullanılan seçici besiyeridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki biyosidal maddelerden hangisinin sporisidal etkinliği bulunmaktadır?",
+    "options": {
+      "A": "Glutaraldehit",
+      "B": "Triklozan",
+      "C": "Fenol bileşikleri",
+      "D": "İzopropil alkol",
+      "E": "Kuaterner amonyum bileşikleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Glutaraldehit, yüksek düzey bir dezenfektan ve kimyasal sterilizan olup yeterli konsantrasyon ve temas süresinde bakteri endosporlarını öldürebilen (sporisidal) etkinliğe sahiptir. Çeldiriciler: Triklozan (B) cilt antiseptiğidir ve sporisidal etkisi yoktur. Fenol bileşikleri (C) ve izopropil alkol (D) orta düzey dezenfektanlar olup vejetatif bakterilere, zarflı viruslara ve mikobakterilere etkiliyken bakteri sporlarına etki göstermezler. Kuaterner amonyum bileşikleri (E) ise düşük düzey dezenfektanlardır ve sporlara, mikobakterilere ve zarfsız viruslara karşı etkisizdirler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "DNA giraz, aşağıdaki antibiyotik gruplarından hangisinin hedefidir?",
+    "options": {
+      "A": "Kinolonlar",
+      "B": "Beta-laktamlar",
+      "C": "Aminoglikozidler",
+      "D": "Tetrasiklinler",
+      "E": "Makrolidler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kinolon (ve florokinolon) grubu antibiyotikler, bakterilerde DNA'nın süpersarmal (supercoiling) yapısını düzenleyen topoizomeraz II (DNA giraz) ve topoizomeraz IV enzimlerini inhibe ederek DNA replikasyonunu durdururlar. Çeldiriciler: Beta-laktamlar (B) penisilin bağlayan proteinlere (PBP) bağlanarak hücre duvarı peptidoglikan sentezindeki transpeptidasyonu inhibe eder. Aminoglikozidler (C) 30S ribozomal alt üniteye bağlanarak inisiasyon kompleksini bozar ve yanlış okumaya yol açar. Tetrasiklinler (D) 30S ribozomal alt üniteye bağlanarak aminoaçil-tRNA'nın ribozomun A bölgesine bağlanmasını engeller. Makrolidler (E) ise 50S ribozomal alt ünitenin 23S rRNA bölgesine bağlanarak peptid zincirinin translokasyonunu inhibe eder.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki antibakteriyel ilaç gruplarından hangisi, hücre duvarı sentezini inhibe eder?",
+    "options": {
+      "A": "Makrolidler",
+      "B": "Glikopeptidler",
+      "C": "Aminoglikozidler",
+      "D": "Kinolonlar",
+      "E": "Ketolidler"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Vankomisin ve teikoplanin gibi glikopeptid grubu antibiyotikler, peptidoglikan öncüllerinin ucundaki D-alanin-D-alanin dipeptid bölgesine bağlanarak transglikozilasyon ve transpeptidasyon basamaklarını engeller ve böylece bakteri hücre duvarı sentezini inhibe ederler. Çeldiriciler: Makrolidler (A) ve makrolid türevi olan ketolidler (E), 50S ribozomal alt üniteye bağlanarak translokasyonu inhibe eden protein sentezi inhibitörleridir. Aminoglikozidler (C) 30S ribozomal alt ünite üzerinden protein sentezini inhibe ederler. Kinolonlar (D) ise DNA giraz (topoizomeraz II) ve topoizomeraz IV enzimlerini inhibe ederek nükleik asit (DNA) sentezini engellerler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Diş çekiminde kullanılan davye'nin yeniden kullanılabilir olması için aşağıdakilerden hangisi yapılmalıdır?",
+    "options": {
+      "A": "Çeşme suyuyla yıkanmalıdır.",
+      "B": "Alkolle orta düzey dezenfeksiyon yapılmalıdır.",
+      "C": "Basınçlı buharla steril edilmelidir.",
+      "D": "Kuaterner amonyum bileşikleriyle düşük düzey dezenfeksiyon yapılmalıdır.",
+      "E": "500 ppm klorlu bileşiklerle yüksek düzey dezenfeksiyon yapılmalıdır."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Diş çekiminde kullanılan davye, mukoza bütünlüğünün bozulduğu steril dokulara, kemiğe ve kan dolaşımına doğrudan temas ettiği için Spaulding sınıflamasına göre \"kritik alet\" kategorisindedir; ısıya dayanıklı kritik aletlerin yeniden kullanılabilmesi için mutlaka sterilizasyon (en uygun ve standart yöntem olarak 121°C'de 15 dakika basınçlı buhar/otoklav ile sterilizasyon) uygulanmalıdır. Çeldiriciler: Sadece çeşme suyuyla yıkama (A), alkolle orta düzey dezenfeksiyon (B), kuaterner amonyum ile düşük düzey dezenfeksiyon (D) veya klorlu bileşiklerle dezenfeksiyon (E) işlemleri bakteri sporlarını tamamen ortadan kaldırmaz ve kritik aletler için zorunlu olan sterilizasyonu sağlamaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin el antisepsisinde kullanılması en uygundur?",
+    "options": {
+      "A": "Ortofitaldehit",
+      "B": "Hidrojen peroksit",
+      "C": "Klorheksidin",
+      "D": "Perasetik asit",
+      "E": "Formaldehit"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Klorheksidin (%0,5-%4), stratum korneum tabakasına bağlanarak ciltte kalıcı (rezidüel) aktivite göstermesi, düşük toksisite ve irritasyon profili ve geniş spektrumlu antimikrobiyal etkisi nedeniyle el antisepsisinde ve cerrahi el yıkamada kullanılması en uygun antiseptik ajandır. Çeldiriciler: Ortofitaldehit (A), perasetik asit (D) ve formaldehit (E) canlı dokulara ve cilde oldukça toksik ve irritan olan, yalnızca tıbbi cihaz ve cansız yüzeylerde kullanılan yüksek düzey dezenfektan/sterilizan maddelerdir. Hidrojen peroksit (B) ise yüksek konsantrasyonlarda dezenfektan/sterilizan olarak kullanılırken, düşük konsantrasyonlarda yara temizliğinde kullanılsa da kalıcı etkisi olmaması ve doku irritasyonu nedeniyle rutin el antisepsisinde tercih edilmez.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Diş apselerinde anaerob inceleme için örnek gönderilmesinde aşağıdakilerden hangisinin kullanılması diğerlerine göre daha uygundur?",
+    "options": {
+      "A": "Sıvı Sabouraud",
+      "B": "Tiyoglikolatlı sıvı besiyeri",
+      "C": "Serum fizyolojik",
+      "D": "Löwenstein-Jensen besiyeri",
+      "E": "Mannitol agar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Tiyoglikolatlı sıvı besiyeri (tiyoglikolatlı buyyon), içerdiği sodyum tiyoglikolat ve L-sistin sayesinde ortamdaki moleküler oksijeni bağlayıp oksidasyon-redüksiyon potansiyelini düşüren (indirgenmiş/redükte ortam sağlayan) ve anaerob bakterilerin canlılığını koruyarak üretilmesi veya nakledilmesi için en uygun olan besiyeridir. Çeldiriciler: Sıvı Sabouraud besiyeri (A) mantarların üretilmesi için kullanılır. Serum fizyolojik (C) oksijeni uzaklaştırmaz ve anaerob bakteriler için toksik ortam oluşturur. Löwenstein-Jensen besiyeri (D) zorunlu aerob olan mikobakteriler için kullanılan yumurtalı katı besiyeridir. Mannitol tuz agar (Chapman) (E) ise yüksek tuz içeriğiyle stafilokokların izolasyonunda kullanılan seçici-ayırt edici katı besiyeridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisi, sporlarının etilen oksit alkilleyici etkisine karşı dirençli olması nedeniyle, etilen oksit sterilizasyonunun etkinliğinin değerlendirilmesinde biyolojik indikatör olarak tercih edilir?",
+    "options": {
+      "A": "Bacillus subtilis",
+      "B": "Bacillus cereus",
+      "C": "Bacillus pumilus",
+      "D": "Bacillus sphaericus",
+      "E": "Bacillus cytotoxicus"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): *Bacillus atrophaeus* (eski ve yaygın adıyla *Bacillus subtilis* var. *niger*), sporlarının gaz alkilleyici ajanlara ve kuru ısıya karşı gösterdiği yüksek direnç nedeniyle etilen oksit ve kuru ısı (Pastör fırını) sterilizasyonlarının etkinliğini denetlemede kullanılan standart biyolojik indikatördür. Çeldiriciler: *Bacillus pumilus* (C) iyonlaştırıcı radyasyon (gama ışınları) ile sterilizasyonun biyolojik kontrolünde kullanılır. *Bacillus cereus* (B), *Bacillus sphaericus* (D) ve *Bacillus cytotoxicus* (E) sterilizasyon kontrolünde standart biyolojik indikatör olarak kullanılmazlar (basınçlı buhar, hidrojen peroksit gaz plazma ve formaldehit sterilizasyonlarında ise *Geobacillus stearothermophilus* kullanılır).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Isıya duyarlı tıbbi cihazların sterilizasyonu için kullanılan, alkilleyici özelliği ile etki gösteren ve kullanım öncesi cihazın mutlaka havalandırılmasının gerektiği uygulama aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Otoklavlama",
+      "B": "Pastör fırını uygulaması",
+      "C": "Etilen oksit sterilizasyonu",
+      "D": "Perasetik asit uygulaması",
+      "E": "Hidrojen peroksit sterilizasyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Etilen oksit, ısıya ve neme duyarlı tıbbi cihazların sterilizasyonunda kullanılan renksiz bir gazdır; mikroorganizmaların protein ve nükleik asitlerindeki sülfidril, amino, karboksil ve hidroksil gruplarını alkilleyerek sporosidal etki gösterir ve toksik, kanserojen ve yanıcı kalıntılar bıraktığı için işlem sonrasında cihazların mutlaka uzun süre havalandırılması (aerasyon) gerekir. Çeldiriciler: Otoklavlama (A) basınçlı su buharı, Pastör fırını (B) ise kuru sıcak hava ile yapılan yüksek ısılı fiziksel sterilizasyon yöntemleridir ve ısıya duyarlı cihazlarda kullanılamazlar. Perasetik asit (D) ve hidrojen peroksit gaz plazma (E) uygulamaları ise alkilleyici değil oksidasyon (serbest radikal) mekanizmasıyla etki gösterir ve toksik kalıntı bırakmadıkları için havalandırma gerektirmezler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi canlı bakteri aşısıdır?",
+    "options": {
+      "A": "BCG",
+      "B": "Hepatit B",
+      "C": "Difteri",
+      "D": "Tetanoz",
+      "E": "Boğmaca"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): BCG (Bacillus Calmette-Guérin) aşısı, tüberküloza karşı korunmada kullanılan ve *Mycobacterium bovis* suşunun zayıflatılmasıyla (atenüasyonuyla) elde edilmiş canlı atenüe bir bakteri aşısıdır. Çeldiriciler: Hepatit B aşısı (B), rekombinant DNA teknolojisiyle üretilen HBsAg yüzey antijenini içeren viral bir subünit (rekombinant) aşıdır. Difteri (C) ve tetanoz (D) aşıları, ilgili bakterilerin ekzotoksinlerinden elde edilen toksoid aşılardır. Boğmaca aşısı (E) ise *Bordetella pertussis*'in saflaştırılmış antijenlerini içeren aselüler (inaktif bileşenli) veya tam hücreli ölü bakteri aşısıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hem yüzey dezenfeksiyonu hem de cilt antisepsisinde kullanılabilir?",
+    "options": {
+      "A": "Alkol",
+      "B": "Klor",
+      "C": "Triklosan",
+      "D": "Oktenidin",
+      "E": "Formaldehit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Alkoller (%70-%90 etil ve izopropil alkol), hem canlı dokularda (el ve cilt antisepsisi) güvenle kullanılabilen bir antiseptik hem de küçük tıbbi aletlerin ve cansız yüzeylerin temizliğinde kullanılan orta düzey bir dezenfektandır. Çeldiriciler: Klor bileşikleri (B) yüzey ve su dezenfeksiyonunda kullanılır ancak cilt için irritandır. Triklosan (C) ve oktenidin (D) yalnızca cilt ve mukoza antisepsisinde kullanılan antiseptiklerdir, cansız yüzey dezenfektanı olarak tercih edilmezler. Formaldehit (E) ise yüksek toksisitesi ve kanserojen etkisi nedeniyle kesinlikle ciltte kullanılmayan, yalnızca yüksek düzey dezenfektan ve sterilizan olarak kullanılan bir maddedir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Bakterilerin Gram boyanma özellikleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Stafilokoklar renksizleştirme aşamasında daha önce aldıkları kristal viyole boyasını bırakmazlar.",
+      "B": "Enterik basillerin pembe-kırmızı boyanmaları, hücre duvarlarında peptidoglikan tabakasının ince olduğunu gösterir.",
+      "C": "Streptococcus pyogenes, hücre duvarında bulunan teikoik asit nedeniyle pembe-kırmızı boyanır.",
+      "D": "Neisseria türleri Gram boyamada son uygulanan boyanın renginde görülürler.",
+      "E": "Mycoplasma türleri Gram boyası ile boyanmaz."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): *Streptococcus pyogenes*, kalın peptidoglikan tabakası ve teikoik asit içeren Gram-pozitif bir koktur; Gram boyamada kristal viyole-iyot kompleksini alkolle dekolorizasyon aşamasında bırakmadığı için pembe-kırmızı değil, mor-mavi renkte boyanır. Çeldiriciler: Gram-pozitif olan stafilokoklar (A) kalın peptidoglikan tabakaları sayesinde alkol ile renksizleştirme aşamasında kristal viyole boyasını bırakmazlar. Enterik basiller (B) ve *Neisseria* türleri (D) ince peptidoglikan tabakasına ve lipidce zengin dış membrana sahip Gram-negatif bakterilerdir; alkol basamağında renksizleşip son aşamada uygulanan zıt boya (safranin veya sulu fuksin) ile pembe-kırmızı renkte görülürler. *Mycoplasma* türleri (E) ise hücre duvarı içermedikleri için Gram boyası ile boyanamazlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Bakteri endosporlarının ısıya dirençli hâle gelmelerinde en önemli rolü oynayan yapısal eleman aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "N-asetil muramik asit",
+      "B": "D-glutamik asit",
+      "C": "Lipoteikoik asit",
+      "D": "Kalsiyum dipikolinat",
+      "E": "Spor membranı"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Bakteri endosporlarının kor (çekirdek) tabakasında yüksek miktarda bulunan dipikolinik asit ile kalsiyum iyonlarının oluşturduğu kalsiyum dipikolinat şelatı, sporun suyunu uzaklaştırarak (dehidratasyon) ve DNA'yı stabilize ederek endosporun yüksek ısıya ve kimyasallara karşı olağanüstü dirençli hale gelmesinde en önemli rolü oynar. Çeldiriciler: N-asetil muramik asit (A) peptidoglikan zincirinin yapı taşıdır. D-glutamik asit (B) *Bacillus anthracis*'in antifagositik kapsül yapısını oluşturur. Lipoteikoik asit (C) vejetatif Gram-pozitif bakterilerin hücre duvarında yer alıp tutunmayı sağlar. Spor membranı (E) ise sporun en iç tabakası olup çimlenme (germinasyon) sonrasında vejetatif hücrenin sitoplazmik membranını oluşturur, ısı direncinin temel belirleyicisi değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Sterilizasyonu dezenfeksiyondan ayıran en önemli mikrobisidal özellik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Virüsidal",
+      "B": "Bakterisidal",
+      "C": "Fungusidal",
+      "D": "Mikobakterisidal",
+      "E": "Sporosidal"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Sterilizasyon, bir ortamdaki veya nesnedeki tüm canlı mikroorganizma formlarının yanı sıra dirençli bakteri endosporlarının da tamamen yok edilmesi işlemidir; dolayısıyla sterilizasyonu dezenfeksiyondan ayıran en temel parametre bakteri sporlarını kesin olarak yok edebilme (sporosidal) özelliğidir. Çeldiriciler: Virüsidal (A), bakterisidal (B) ve fungusidal (C) etkinlikler düşük ve orta düzey dezenfektanlarda da bulunabilirken, mikobakterisidal (tüberkülosidal) etkinlik (D) orta ve yüksek düzey dezenfeksiyonda sağlanabilmektedir; ancak tüm bakteri sporlarının garantili eliminasyonu yalnızca sterilizasyonun ayırt edici kriteridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Kistik fibrozis hastalarının solunum yolu örneklerinden izole edilen mukoid Pseudomonas aeruginosa kolonilerinin oluşmasından aşağıdaki virülans faktörlerinden hangisinin aşırı miktarda üretimi sorumludur?",
+    "options": {
+      "A": "Ekzotoksin A",
+      "B": "Fosfolipaz C",
+      "C": "Ekzoenzim S",
+      "D": "Alginat",
+      "E": "Piyosiyanin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): *Pseudomonas aeruginosa*'nın ürettiği ekzopolisakkarit yapıdaki alginat (slime/biyofilm tabakası), kültürde mukoid kolonilerin oluşmasından sorumludur ve özellikle kistik fibrozisli hastaların solunum yollarında bakteriyi fagositozdan, antikorlardan ve antibiyotiklerden koruyarak inatçı, kronik akciğer enfeksiyonlarına yol açar. Çeldiriciler: Ekzotoksin A (A), uzama faktörü-2'yi (EF-2) ADP-ribozilasyonu ile inaktive ederek konak hücrede protein sentezini durdurur. Fosfolipaz C (B) ısıya duyarlı bir hemolizin olup konak hücre membran fosfolipidlerini parçalar. Ekzoenzim S (C) tip III sekresyon sistemi ile konak hücreye aktarılan ve hücre iskeletini bozan bir toksindir. Piyosiyanin (E) ise mavi-yeşil pigment oluşumunu sağlayan ve serbest oksijen radikalleri üreterek silyer fonksiyonu bozan bir faktördür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Canlı aşılar ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Adjuvan gereksinimi fazladır.",
+      "B": "Ortam koşullarında stabildir.",
+      "C": "Kısa süreli bağışıklık sağlar.",
+      "D": "Kuvvetli hücresel immün yanıt oluştururlar.",
+      "E": "Etkin uyarım için çok sayıda uygulama gerekir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Canlı atenüe aşılar konak hücre içinde çoğalabildikleri için doğal enfeksiyonu taklit ederler ve antijenlerin hem MHC sınıf I hem de MHC sınıf II molekülleriyle sunulmasını sağlayarak hem hümoral (IgG ve mukozal IgA) hem de kuvvetli bir hücresel (CD8+ sitotoksik T lenfosit) immün yanıt oluştururlar. Çeldiriciler: Canlı aşılar güçlü immünojenik oldukları için adjuvana ihtiyaç duymazlar (A); adjuvan inaktif ve subünit aşılarda kullanılır. Isıya ve ışığa duyarlı olduklarından ortam koşullarında stabil değildirler ve sıkı soğuk zincir gerektirirler (B). Tek doz (veya 2 doz) uygulama ile çoğunlukla ömür boyu süren uzun süreli bağışıklık sağlarlar, bu nedenle kısa süreli bağışıklık sağlamaları (C) ve etkin uyarım için çok sayıda (rapel) uygulama gerektirmeleri (E) canlı aşıların değil, inaktif aşıların özelliğidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Serum ya da aşılar gibi ısı ile bozulabilen sıvıların dekontaminasyonu için en uygun yöntem aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Etilen oksit",
+      "B": "Pastörizasyon",
+      "C": "Mikrodalga",
+      "D": "Gaz plazma",
+      "E": "Filtrasyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Serum, aşı, antibiyotik solüsyonları ve vitamin çözeltileri gibi ısı ile yapısı bozulabilen (termolabil) sıvıların sterilizasyonunda ve bakterilerden arındırılmasında en uygun yöntem membran filtreler (0,22 µm gözenek çaplı) kullanılarak yapılan filtrasyon (süzme) işlemidir. Çeldiriciler: Etilen oksit (A) ve hidrojen peroksit gaz plazma (D) sıvıların sterilizasyonu için uygun olmayan, katı tıbbi araç-gereçlerde kullanılan gaz/plazma sterilizasyon yöntemleridir. Pastörizasyon (B) ve mikrodalga (C) ise ısı enerjisi kullanan yöntemler olduğundan ısıya duyarlı serum ve aşıların protein yapısını denatüre ederek bozar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki mikroorganizmalardan hangisi üremek için besiyerinde sterol kaynağına ihtiyaç duyar?",
+    "options": {
+      "A": "Mycoplasma pneumoniae",
+      "B": "Klebsiella pneumoniae",
+      "C": "Streptococcus pneumoniae",
+      "D": "Chlamydia pneumoniae",
+      "E": "Legionella pneumophila"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): *Mycoplasma pneumoniae* (ve *Ureaplasma* türleri), hücre duvarından yoksun oldukları ve sitoplazmik membranlarının bütünlüğünü korumak için sterole (kolesterole) bağımlı oldukları için yapay besiyerlerinde (PPLO agar/buyyon) üreyebilmek adına dışarıdan sterol (lipid) ilavesine ihtiyaç duyarlar. Çeldiriciler: *Klebsiella pneumoniae* (B) standart besiyerlerinde kolaylıkla üreyen Gram-negatif bir enterik basildir. *Streptococcus pneumoniae* (C) koyun kanlı agarda alfa-hemoliz yaparak üreyen Gram-pozitif bir diplokoktur. *Chlamydia pneumoniae* (D) zorunlu hücre içi bir bakteri olduğundan cansız besiyerlerinde hiç üreyemez, yalnızca canlı hücre kültürlerinde ürer. *Legionella pneumophila* (E) ise üremek için besiyerinde (BCYE agar) sterole değil, L-sistein ve demire ihtiyaç duyar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi radyofrekans enerji kullanılarak elde edilen gaz/buhar ile yapılan kimyasal sterilizasyon yöntemlerinden biridir?",
+    "options": {
+      "A": "Etilen oksit sterilizasyonu",
+      "B": "Perasetik asit sterilizasyonu",
+      "C": "Hidrojen peroksit plazma sterilizasyonu",
+      "D": "Glutaraldehit sterilizasyonu",
+      "E": "Basınçlı buhar ile sterilizasyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hidrojen peroksit gaz plazma sterilizasyonunda, vakumlu bir kabin içine verilen hidrojen peroksit ($H_2O_2$) buharına radyofrekans (RF) veya mikrodalga enerjisi uygulanarak hidroksil ve hidroperoksil gibi reaktif serbest radikaller içeren düşük ısılı bir \"plazma\" hali oluşturulur ve hızlı, kalıntısız kimyasal sterilizasyon sağlanır. Çeldiriciler: Etilen oksit sterilizasyonu (A) radyofrekans enerjisi kullanılmadan doğrudan alkilleyici gaz ile yapılır. Perasetik asit (B) ve glutaraldehit (D) sterilizasyonları genellikle sıvı fazda (daldırma/yıkama) uygulanan kimyasal yöntemlerdir. Basınçlı buhar ile sterilizasyon (otoklav) (E) ise kimyasal değil, nemli ısı kullanan fiziksel bir sterilizasyon yöntemidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisinde aksiyal flaman (endoflajella) bulunur?",
+    "options": {
+      "A": "Bartonella quintana",
+      "B": "Borrelia burgdorferi",
+      "C": "Campylobacter jejuni",
+      "D": "Tropheryma whipplei",
+      "E": "Rickettsia prowazekii"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Spiroket ailesi üyeleri olan *Treponema*, *Borrelia* (*Borrelia burgdorferi*) ve *Leptospira* cinsi bakteriler, dış membran ile peptidoglikan tabaka arasındaki periplazmik aralıkta yer alan aksiyal filamanlar (endoflajella) sayesinde kendilerine özgü tirbuşon (burgumsu) hareket yeteneğine sahiptirler. Çeldiriciler: *Bartonella quintana* (A) ve *Campylobacter jejuni* (C) periplazmik endoflajellaya değil, hücre dışına uzanan klasik polar flajellaya sahiptirler. *Tropheryma whipplei* (D) ve *Rickettsia prowazekii* (E) ise aksiyal filaman içermeyen hareketsiz bakterilerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisinin tanımlanmasında Gram boyama kullanılmaz?",
+    "options": {
+      "A": "Corynebacterium diphtheriae",
+      "B": "Listeria monocytogenes",
+      "C": "Erysipelothrix rhusiopathiae",
+      "D": "Mycobacterium tuberculosis",
+      "E": "Eikenella corrodens"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): *Mycobacterium tuberculosis*, hücre duvarında bulunan yoğun ve uzun zincirli mikolik asit (lipid) tabakası nedeniyle Gram boyamada kullanılan sulu bazik boyalara karşı geçirgen değildir; bu nedenle tanımlanmasında Gram boyama yerine Ehrlich-Ziehl-Neelsen (EZN) veya Kinyoun gibi aside dirençli boyama yöntemleri ya da auramin-rodamin floresan boyaması kullanılır. Çeldiriciler: *Corynebacterium diphtheriae* (A), *Listeria monocytogenes* (B) ve *Erysipelothrix rhusiopathiae* (C) Gram boyama ile kolayca mor renkte boyanan ve tanımlanan Gram-pozitif basillerdir. *Eikenella corrodens* (E) ise HACEK grubunda yer alan ve Gram boyama ile pembe-kırmızı boyanan Gram-negatif bir basildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "D-alanin analoğu olan ve mikobakterilerin hücre duvarında D-alanin-D-alanin sentezini engelleyerek etki gösteren antibiyotik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İzoniazid",
+      "B": "Sikloserin",
+      "C": "Streptomisin",
+      "D": "Rifampisin",
+      "E": "Pirazinamid"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Sikloserin, yapısal olarak bir D-alanin analoğudur; alanin rasemaz (L-alanini D-alanine çeviren enzim) ve D-alanil-D-alanin sentetaz (ligaz) enzimlerini yarışmalı olarak inhibe ederek hücre duvarı peptidoglikan sentezini engeller ve çoğul dirençli tüberküloz (MDR-TB) tedavisinde ikinci basamak ilaç olarak kullanılır. Çeldiriciler: İzoniazid (INH) (A) mikobakteri hücre duvarındaki mikolik asit sentezini inhibe eder. Streptomisin (C) aminoglikozid grubu olup 30S ribozomal alt üniteye bağlanarak protein sentezini bozar. Rifampisin (D) DNA bağımlı RNA polimerazı inhibe ederek mRNA sentezini engeller. Pirazinamid (E) ise asidik ortamda pirazinoik aside dönüşerek hücre içi (fagolizozomdaki) tüberküloz basillerine karşı etkinlik gösterir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Nötrofil lökositlerin mikroorganizmaları tanıyıp hücre içine almasında aşağıdakilerden hangisinin kolaylaştırıcı rol oynaması en olasıdır?",
+    "options": {
+      "A": "Tümör nekroz faktörü",
+      "B": "Glutatyon peroksidaz",
+      "C": "Kompleman 3b",
+      "D": "P selektin",
+      "E": "CD31"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Mikroorganizmaların yüzeyine bağlanarak onların nötrofil ve makrofaj gibi fagositik hücreler tarafından tanınmasını ve yutulmasını kolaylaştıran moleküllere opsonin, bu işleme ise opsonizasyon denir; immün sistemdeki en güçlü iki temel opsonin Kompleman 3b (C3b) ve İmmünoglobulin G (IgG) antikorlarıdır. Çeldiriciler: Tümör nekroz faktörü (TNF-alfa) (A) akut faz yanıtı, ateş ve endotel aktivasyonundan sorumlu proinflamatuvar bir sitokindir. Glutatyon peroksidaz (B) hücreyi oksidatif hasardan koruyan bir antioksidan enzimdir. P-selektin (D) lökositlerin damar endoteli üzerinde yuvarlanmasında (rolling), CD31 (PECAM-1) (E) ise lökositlerin endotel hücreleri arasından dokuya geçişinde (transmigrasyon/diyapedez) görev alan adezyon molekülleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi yalnızca gram-pozitif bakterilerin yapısında bulunur?",
+    "options": {
+      "A": "N-asetilmuramik asit",
+      "B": "N-asetilglukozamin",
+      "C": "D-alanin",
+      "D": "L-alanin",
+      "E": "Teikoik asit"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Teikoik asit (ve lipoteikoik asit), yalnızca Gram-pozitif bakterilerin hücre duvarında yer alan, ribitol veya gliserol fosfat polimerlerinden oluşan, hücre duvarına negatif yük kazandıran, antijenik özellik gösteren ve bakterinin konak hücreye tutunmasında rol oynayan özgül bir yapıdır; Gram-negatif bakterilerde kesinlikle bulunmaz. Çeldiriciler: N-asetilmuramik asit (A) ve N-asetilglukozamin (B) peptidoglikan zincirinin karbonhidrat iskeletini, D-alanin (C) ve L-alanin (D) ise peptidoglikandaki tetrapeptid yan zincirlerini oluşturdukları için hem Gram-pozitif hem de Gram-negatif bakterilerin hücre duvarında ortak olarak bulunurlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki antimikrobiyal ajanlardan hangisinin anaerob enfeksiyonların tedavisinde etkili olması en az olasıdır?",
+    "options": {
+      "A": "Amikasin",
+      "B": "İmipenem",
+      "C": "Kloramfenikol",
+      "D": "Metronidazol",
+      "E": "Klindamisin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Amikasin bir aminoglikozid antibiyotiktir; aminoglikozidlerin bakteri hücresi içerisine (sitoplazmaya) taşınabilmesi için oksijen bağımlı aktif transport sistemlerine ihtiyaç vardır, bu nedenle anaerob bakterilere karşı etkinlik göstermezler. Çeldiriciler: Karbapenem grubundan imipenem (B), protein sentezi inhibitörleri olan kloramfenikol (C) ve klindamisin (E) ile anaerob ortamda indirgenerek DNA kırıklarına yol açan metronidazol (D) anaerob bakterilere karşı güçlü etkinlik gösteren ve anaerob enfeksiyonların tedavisinde sıklıkla tercih edilen ajanlardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakteriyel toksinlerden hangisi faj tarafından kodlanır?",
+    "options": {
+      "A": "Tetanoz toksini",
+      "B": "Şarbon toksini",
+      "C": "Boğmaca toksini",
+      "D": "Shiga toksini",
+      "E": "Botulinum toksini"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): *Clostridium botulinum* tarafından üretilen botulinum nörotoksini (tip C ve D başta olmak üzere), bakteriye lizojenik bakteriyofajlar aracılığıyla (faj konversiyonu ile) kazandırılan genler tarafından kodlanır; diğer faj kodlu başlıca toksinler difteri toksini, kolera toksini, *Streptococcus pyogenes* eritrojenik toksini ve EHEC'in Shiga-benzeri toksinidir (verotoksin). Çeldiriciler: Tetanoz toksini (A) ve *Bacillus anthracis*'in şarbon toksini (B) plazmidler üzerinde taşınır. *Bordetella pertussis*'in boğmaca toksini (C) ve *Shigella dysenteriae*'nin gerçek Shiga toksini (D) ise bakteriyel kromozom tarafından kodlanır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisi hücre duvarında bulunan mikolik asit içeriği ile diğerlerinden ayrılır?",
+    "options": {
+      "A": "Staphylococcus aureus",
+      "B": "Mycobacterium tuberculosis",
+      "C": "Enterococcus faecalis",
+      "D": "Klebsiella pneumoniae",
+      "E": "Mycoplasma pneumoniae"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): *Mycobacterium tuberculosis*, hücre duvarında peptidoglikan ve arabinogalaktan tabakasına kovalent bağlı çok uzun zincirli yağ asitleri olan mikolik asitleri içerir; bu özellik bakteriye aside dirençli boyanma (ARB pozitifliği), kuruluğa ve dezenfektanlara direnç kazandırarak onu diğer bakterilerden ayırır. Çeldiriciler: *Staphylococcus aureus* (A) ve *Enterococcus faecalis* (C) kalın peptidoglikan ve teikoik asit içeren klasik Gram-pozitif koklardır. *Klebsiella pneumoniae* (D) dış membranında lipopolisakkarit içeren kapsüllü Gram-negatif bir basildir. *Mycoplasma pneumoniae* (E) ise hücre duvarı ve mikolik asit içermeyen bir bakteridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Hücre duvarıyla ilgili aşağıdaki yapılardan hangisi gram pozitif bakterilerde bulunabilirken gram negatif bakterilerde mevcut değildir?",
+    "options": {
+      "A": "Teikoik asit",
+      "B": "Dış membran",
+      "C": "Lipopolisakkarit",
+      "D": "Peptidoglikan",
+      "E": "Lipoprotein"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Teikoik asit ve lipoteikoik asit sadece Gram-pozitif bakterilerin hücre duvarında bulunan, Gram-negatif bakterilerde kesinlikle bulunmayan yapılardır. Çeldiriciler: Dış membran (B), dış membranın dış yaprağında yer alan lipopolisakkarit (LPS/endotoksin) (C) ve dış membranı peptidoglikan tabakaya bağlayan Braun lipoproteini (E) yalnızca Gram-negatif bakterilerde bulunur. Peptidoglikan (D) ise Gram-pozitiflerde kalın, Gram-negatiflerde ince olmak üzere her iki bakteri grubunda da ortak olarak bulunur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Sitoplazma membranına bağlanarak hücre iyon dengesinin bozulmasına ve bakterinin ölümüne neden olan siklik lipopeptid yapıdaki antibiyotik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kolistin",
+      "B": "Telitromisin",
+      "C": "Teikoplanin",
+      "D": "Daptomisin",
+      "E": "Tigesiklin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Daptomisin, kalsiyum bağımlı bir mekanizma ile yalnızca Gram-pozitif bakterilerin sitoplazma membranına bağlanıp transmembran kanallar açan, hücre içi potasyum iyonlarının dışarı sızmasına ve membran depolarizasyonuna yol açarak hızlı bakterisidal etki gösteren siklik lipopeptid yapıda bir antibiyotiktir. Çeldiriciler: Kolistin (Polimiksin E) (A) Gram-negatif bakterilerin dış ve iç membranındaki fosfolipidlere bağlanan katyonik polipeptid yapıda bir antibiyotiktir. Telitromisin (B) 50S ribozomal alt üniteyi inhibe eden ketolid grubu bir ilaçtır. Teikoplanin (C) D-alanin-D-alanin'e bağlanarak hücre duvarı sentezini bozan bir glikopeptiddir. Tigesiklin (E) ise 30S ribozomal alt üniteye bağlanarak protein sentezini inhibe eden glisilsiklin (tetrasiklin türevi) grubu bir antibiyotiktir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Beta-laktam antibiyotiklerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Bakterisid etkilidirler.",
+      "B": "Hedefleri, penisilin bağlayan proteinlerdir.",
+      "C": "İmipenem, monobaktam grubunun tek üyesidir.",
+      "D": "Yan etki olarak alerjik reaksiyonlar ve ishal görülebilir.",
+      "E": "Sefalosporinlerde kuşaklar ilerledikçe etki spektrumu genişler."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İmipenem bir monobaktam değil, en geniş spektrumlu beta-laktam grubu olan karbapenemlerin bir üyesidir; monobaktam grubunun klinikte kullanılan tek üyesi sadece Gram-negatif aerob basillere etkili olan aztreonamdır. Çeldiriciler: Beta-laktam antibiyotikler PBP'lere (penisilin bağlayan proteinler) bağlanıp transpeptidasyonu engelleyerek ve otolizinleri aktive ederek bakterisidal etki gösterirler (A, B). Başta penisilinler olmak üzere tüm beta-laktamlarda aşırı duyarlılık (alerji) reaksiyonları ve normal floranın bozulmasına bağlı ishal görülebilir (D). Sefalosporinlerde 1. kuşaktan ileri kuşaklara gidildikçe Gram-negatif etkinlik artar ve etki spektrumu genişler (E).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki antibiyotiklerden hangisi ribozomun 30S alt ünitesine etki ederek bakterinin protein sentezini bozar?",
+    "options": {
+      "A": "Telitromisin",
+      "B": "Kloramfenikol",
+      "C": "Linezolid",
+      "D": "Tigesiklin",
+      "E": "Eritromisin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tigesiklin, tetrasiklinlerin yarı sentetik bir türevi olan glisilsiklin grubu bir antibiyotiktir ve bakteriyel ribozomun 30S alt ünitesine bağlanarak aminoaçil-tRNA'nın A bölgesine girişini engellemek suretiyle protein sentezini inhibe eder. Çeldiriciler: Ketolid grubundan telitromisin (A), amfenikol grubundan kloramfenikol (B), oksazolidinon grubundan linezolid (C) ve makrolid grubundan eritromisin (E) bakteriyel ribozomun 30S değil, 50S alt ünitesine bağlanarak protein sentezini inhibe eden antibiyotiklerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Florokinolonlarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sentetik yapıdadırlar.",
+      "B": "Hücre içi patojenlere karşı etkilidirler.",
+      "C": "Dar spektrumlu antibiyotiklerdir.",
+      "D": "DNA giraz enzimini inhibe ederler.",
+      "E": "Parenteral ve oral yolla kullanılabilirler."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Florokinolonlar dar spektrumlu değil, hem Gram-negatif hem de Gram-pozitif bakterilere, atipik bakterilere ve mikobakterilere karşı etkinlik gösteren geniş spektrumlu bakterisidal antibiyotiklerdir. Çeldiriciler: Tamamen sentetik olarak üretilen kimyasal ajanlardır (A). Konak fagositleri ve hücreleri içine yüksek oranda geçebildikleri için *Legionella*, *Chlamydia*, *Mycoplasma* ve *Brucella* gibi hücre içi patojenlere etkilidirler (B). Topoizomeraz II (DNA giraz) ve topoizomeraz IV enzimlerini inhibe ederler (D). Yüksek oral biyoyararlanımları sayesinde hem oral hem de parenteral formlarda kullanılabilirler (E).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, bakterilerde folat metabolizması üzerinden etkisini gösteren antimikrobiyal ilaç grubudur?",
+    "options": {
+      "A": "Sulfonamidler",
+      "B": "Glikopeptidler",
+      "C": "Florokinolonlar",
+      "D": "Polimiksinler",
+      "E": "Aminoglikozidler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Sulfonamidler, para-aminobenzoik asidin (PABA) yapısal analoğu olup bakterilerde dihidropteroat sentaz enzimini yarışmalı olarak inhibe eder ve tetrahidrofolik asit (folat) sentezini engelleyerek pürin/DNA sentezini durdururlar. Çeldiriciler: Glikopeptidler (B) D-alanin-D-alanin'e bağlanarak hücre duvarı sentezini inhibe eder. Florokinolonlar (C) DNA giraz ve topoizomeraz IV'ü inhibe eder. Polimiksinler (D) Gram-negatif bakteri hücre membranındaki fosfolipidleri bozarak deterjan benzeri etki gösterir. Aminoglikozidler (E) ise 30S ribozomal alt üniteye bağlanarak protein sentezini inhibe eder.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bakterilerde bakteriyofaj aracılığı ile gerçekleşen genetik materyal aktarımını ifade eder?",
+    "options": {
+      "A": "Transdüksiyon",
+      "B": "Transformasyon",
+      "C": "Rekombinasyon",
+      "D": "Translasyon",
+      "E": "Konjugasyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Bir bakteriden diğerine bakteriyofajlar (bakteri virüsleri) aracılığıyla genetik materyal (DNA) aktarılması olayına transdüksiyon adı verilir. Çeldiriciler: Transformasyon (B), ortamda bulunan serbest (çıplak) DNA parçalarının kompetan bir bakteri tarafından doğrudan hücre içine alınmasıdır. Rekombinasyon (C), iki farklı DNA molekülü arasında homolojiye dayalı gen alışverişi (crossing-over) veya entegrasyon sürecidir. Translasyon (D), genetik aktarım olmayıp mRNA'daki genetik kodun ribozomlarda okunarak protein sentezlenmesi işlemidir. Konjugasyon (E) ise iki bakteri arasında seks pilusu (F-pilusu) aracılığıyla kurulan fiziksel temas üzerinden gerçekleşen genetik materyal aktarımıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki antibiyotiklerden hangisi sadece gram pozitif bakterilere karşı etkilidir?",
+    "options": {
+      "A": "Metisilin",
+      "B": "Aztreonam",
+      "C": "Doksisiklin",
+      "D": "Siprofloksasin",
+      "E": "Gentamisin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Metisilin (ve nafsilin, oksasilin), stafilokokların ürettiği beta-laktamaz (penisilinaz) enzimine dirençli dar spektrumlu bir penisilin olup Gram-negatif bakterilerin dış membranındaki porinlerden geçemediği için sadece Gram-pozitif bakterilere (özellikle MSSA'ya) karşı etkilidir. Çeldiriciler: Bir monobaktam olan aztreonam (B) ve bir aminoglikozid olan gentamisin (E) temel olarak Gram-negatif aerob bakterilere karşı etkilidir. Tetrasiklin grubundan doksisiklin (C) ve florokinolon grubundan siprofloksasin (D) ise hem Gram-pozitif hem de Gram-negatif bakterilere etki gösteren geniş spektrumlu antibiyotiklerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki antibiyotik – direnç mekanizması eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Aminoglikozitler – Dış membran geçirgenliğinde azalma",
+      "B": "Sefalosporinler – İnaktive edici enzim yapımı",
+      "C": "Glikopeptitler – Alternatif bir metabolik yolak kullanımı",
+      "D": "Tetrasiklinler – Dışa atım pompası yapımı",
+      "E": "Kinolonlar – Hedef bölgede değişiklik"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Glikopeptidlere (vankomisin, teikoplanin) karşı gelişen direnç alternatif bir metabolik yolak kullanımı ile değil, peptidoglikan öncüllerindeki hedef bölge olan D-alanin-D-alanin uçlarının D-alanin-D-laktat veya D-alanin-D-serin şeklinde değiştirilmesiyle (hedef bölge değişikliği) meydana gelir; alternatif metabolik yolak kullanımı veya hedef enzim değişikliği sülfonamid ve trimetoprim direncinde görülür. Çeldiriciler: Aminoglikozitlere (A) karşı enzimatik modifikasyonun yanı sıra dış membran geçirgenliğinde veya aktif transportta azalma ile direnç gelişir. Sefalosporinlere (B) karşı en sık direnç beta-laktamaz (inaktive edici enzim) üretimiyle oluşur. Tetrasiklinlere (D) karşı en önemli direnç mekanizması ilacın aktif dışa atım (effluks) pompalarıyla hücre dışına atılmasıdır. Kinolonlara (E) karşı direnç ise hedef enzimler olan DNA giraz ve topoizomeraz IV'teki nokta mutasyonlarıyla (hedef bölge değişikliği) gelişir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Dezenfektanlara en dirençli enfeksiyon ajanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Prionlar",
+      "B": "Zarfsız viruslar",
+      "C": "Bakteriyel sporlar",
+      "D": "Mantarlar",
+      "E": "Mikobakteriler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Fiziksel ve kimyasal dezenfektanlara ve sterilizasyon işlemlerine karşı bilinen en dirençli enfeksiyon ajanları, anormal katlanmış enfeksiyöz proteinlerden oluşan prionlardır. Çeldiriciler: Enfeksiyon etkenlerinin dezenfektanlara karşı direnç sıralaması en dirençliden en duyarlıya doğru; Prionlar > Bakteriyel sporlar (C) > Mikobakteriler (E) > Zarfsız küçük viruslar (B) > Mantarlar (D) > Vejetatif bakteriler > Zarflı viruslar şeklindedir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi antiseptik ajan olarak kullanılmaz?",
+    "options": {
+      "A": "Alkol",
+      "B": "Klorheksidin",
+      "C": "Perasetik asit",
+      "D": "Triklosan",
+      "E": "Povidon iyot"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Perasetik asit, güçlü oksidan ve sporosidal özelliğe sahip bir yüksek düzey dezenfektan ve kimyasal sterilizandır; canlı dokulara karşı oldukça korozif ve toksik olduğundan cilt ve mukozalarda antiseptik olarak kullanılmaz. Çeldiriciler: Alkol (%70-90 etil/izopropil) (A), klorheksidin glukonat (B), triklosan (D) ve bir iyodofor olan povidon iyot (E) canlı dokular üzerinde mikroorganizmaları uzaklaştırmak amacıyla güvenle kullanılan standart antiseptik ajanlardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki özelliklerden hangisi bir bakteriden diğerine plazmid aracılığıyla aktarılamaz?",
+    "options": {
+      "A": "Gram boyanma özelliği",
+      "B": "Toksin üretimi",
+      "C": "Antibiyotik direnci",
+      "D": "Dezenfektan direnci",
+      "E": "Ağır metallere direnç"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Bakterinin Gram boyanma özelliği, hücre duvarının temel anatomik yapısına (peptidoglikan kalınlığı, dış membran varlığı) bağlı olan ve bakteriyel kromozom üzerindeki esansiyel (yaşamsal) genler tarafından kodlanan kalıtsal bir özelliktir; bağımsız replike olan aksesuar DNA elemanları olan plazmidler üzerinde taşınamaz ve aktarılamaz. Çeldiriciler: Ekzotoksin ve enterotoksin üretimi (B), antibiyotik direnci (R-plazmidleri) (C), dezenfektanlara direnç (D) ve cıva/gümüş gibi ağır metallere direnç (E) bakterinin yaşaması için zorunlu olmayan aksesuar özellikler olup plazmidler aracılığıyla bakteriler arasında aktarılabilir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Kapsül yapısı poli-D-glutamik asit olan bakteri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Streptococcus pyogenes",
+      "B": "Streptococcus pneumoniae",
+      "C": "Staphylococcus aureus",
+      "D": "Haemophilus influenzae",
+      "E": "Bacillus anthracis"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Bakteri kapsülleri kural olarak polisakkarit yapıdadır; bu kuralın en önemli istisnası olan *Bacillus anthracis* (şarbon basili), plazmid tarafından kodlanan ve poli-D-glutamik asit (polipeptid/protein) yapısında olan antifagositik bir kapsüle sahiptir. Çeldiriciler: *Streptococcus pyogenes* (A) hyalüronik asit yapısında, *Streptococcus pneumoniae* (B) ve *Staphylococcus aureus* (C) polisakkarit yapısında, *Haemophilus influenzae* tip b (D) ise poliribitol riboz fosfat (polisakkarit) yapısında kapsül içerir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki mikroorganizmalardan hangisi prokaryotik hücre yapısında olup, üreyebilmesi için hücre içi ortama gereksinim duyar?",
+    "options": {
+      "A": "Treponema",
+      "B": "Klamidya",
+      "C": "Mikoplazma",
+      "D": "Virus",
+      "E": "Mantar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): *Chlamydia* (Klamidya) türleri, hem DNA hem RNA içeren prokaryotik hücre yapısında (bakteri) olmalarına rağmen kendi ATP'lerini sentezleyemedikleri (enerji paraziti oldukları) için zorunlu hücre içi bakterilerdir ve üreyebilmek için canlı hücre kültürlerine (örneğin McCoy hücre kültürü) gereksinim duyarlar. Çeldiriciler: *Treponema* (A) in vitro besiyerlerinde üretilemeyen ancak hücre dışı dokularda çoğalan bir prokaryottur. *Mycoplasma* (C) hücre duvarı olmayan ancak zenginleştirilmiş cansız besiyerlerinde (hücre dışında) üreyebilen en küçük prokaryottur. Viruslar (D) zorunlu hücre içi parazitlerdir ancak hücresel (prokaryotik veya ökaryotik) bir yapıya sahip değildirler. Mantarlar (E) ise prokaryotik değil, ökaryotik hücre yapısındadırlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "DNA girazın α subünitine bağlanıp nükleik asit sentezini inhibe ederek antibakteriyel etki gösteren antibiyotik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Rifampin",
+      "B": "Metronidazol",
+      "C": "Gentamisin",
+      "D": "Siprofloksasin",
+      "E": "Doksisiklin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Siprofloksasin bir florokinolon grubu antibiyotik olup bakteriyel topoizomeraz II (DNA giraz) enziminin A (alfa) alt birimine (gyrA) ve topoizomeraz IV'e bağlanarak DNA'nın süpersarmal oluşturmasını ve nükleik asit sentezini inhibe eder. Çeldiriciler: Rifampin (A) DNA bağımlı RNA polimeraz enzimini inhibe ederek mRNA sentezini durdurur. Metronidazol (B) anaerob bakterilerde indirgenerek serbest radikaller oluşturur ve DNA sarmalında kırıklara yol açar. Gentamisin (C) ve doksisiklin (E) ise 30S ribozomal alt üniteye bağlanarak protein sentezini inhibe eden ajanlardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Genetik bakımdan seks ayrımı gösteren iki bakteri arasında geçici bir köprü aracılığıyla genetik madde aktarılması olayına ne ad verilir?",
+    "options": {
+      "A": "Transformasyon",
+      "B": "Transdüksiyon",
+      "C": "Transfeksiyon",
+      "D": "Konjugasyon",
+      "E": "Transpozisyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Verici (F+ / erkek) bakteriden alıcı (F- / dişi) bakteriye seks pilusu (F-pilusu) aracılığıyla oluşturulan geçici sitoplazmik köprü üzerinden tek yönlü genetik materyal (plazmid veya kromozomal DNA) aktarılması olayına konjugasyon denir. Çeldiriciler: Transformasyon (A) ortamdaki çıplak DNA'nın bakteri tarafından doğrudan alınmasıdır. Transdüksiyon (B) bakteriyofaj aracılı gen aktarımıdır. Transfeksiyon (C) saflaştırılmış viral veya plazmid nükleik asidinin ökaryotik (veya kompetan) hücrelere aktarılması işlemidir. Transpozisyon (E) ise hareketli genetik elemanların (transpozonların) aynı hücre içinde bir DNA bölgesinden diğerine yer değiştirmesidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi canlı viral aşılardan biridir?",
+    "options": {
+      "A": "Hepatit B aşısı",
+      "B": "Kuduz aşısı",
+      "C": "Difteri-Boğmaca-Tetanos aşısı",
+      "D": "Salk aşısı",
+      "E": "Kızamık-Kabakulak-Kızamıkçık aşısı"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kızamık-Kabakulak-Kızamıkçık (KKK / MMR) aşısı, her üç virüsün de zayıflatılmış (atenüe) suşlarını içeren canlı viral bir aşıdır ve gebeler ile ağır immünsüpresif hastalarda kontrendikedir. Çeldiriciler: Hepatit B aşısı (A) rekombinant DNA teknolojisiyle üretilen HBsAg içeren subünit bir aşıdır. Kuduz aşısı (B) ve Salk (IPV - parenteral polio) aşısı (D) inaktif (ölü) viral aşılardır (Sabin oral polio aşısı canlıdır). Difteri-Boğmaca-Tetanos (DBT/DTaP) aşısı (C) ise viral değil, toksoid ve aselüler bakteriyel antijenler içeren karma bir bakteri aşısıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Faja bağlı genetik rekombinasyona ne ad verilir?",
+    "options": {
+      "A": "Konjugasyon",
+      "B": "Transformasyon",
+      "C": "Transdüksiyon",
+      "D": "Mutasyon",
+      "E": "Supresyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Bakteriyofajlar (fajlar) aracılığıyla bir bakteriden diğerine DNA aktarılması ve alıcı bakteride genetik rekombinasyon gerçekleşmesi olayına transdüksiyon adı verilir. Çeldiriciler: Konjugasyon (A) F-pilusu aracılı doğrudan temasla gerçekleşen gen aktarımıdır. Transformasyon (B) ortamdaki serbest DNA'nın hücre içine alınmasıdır. Mutasyon (D) dışarıdan gen aktarımı olmaksızın DNA baz dizisinde meydana gelen kalıcı değişikliktir. Supresyon (E) ise ilk mutasyonun fenotipik etkisini ortadan kaldıran veya baskılayan ikinci bir mutasyonun gelişmesidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Bakterinin RNA polimeraz enziminde mutasyon olması sonucu aşağıdaki ilaç gruplarından hangisine karşı direnç geliştirmesi beklenir?",
+    "options": {
+      "A": "Florokinolonlar",
+      "B": "Sulfonamidler",
+      "C": "Aminoglikozidler",
+      "D": "Makrolidler",
+      "E": "Rifampisinler"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Rifampisin (ve diğer rifamisinler), bakteriyel DNA bağımlı RNA polimeraz enziminin beta alt birimine (rpoB geni tarafından kodlanır) bağlanarak mRNA sentezini (transkripsiyonu) bloke eder; rpoB geninde meydana gelen nokta mutasyonları bu enzimin yapısını değiştirerek rifampisinlere karşı hızlı direnç gelişimine yol açar. Çeldiriciler: Florokinolon direnci (A) DNA giraz/topoizomeraz IV mutasyonuyla, sulfonamid direnci (B) dihidropteroat sentaz enzimi mutasyonuyla, aminoglikozid direnci (C) 30S ribozomal alt ünite mutasyonu veya asetiltransferaz gibi inaktive edici enzimlerle, makrolid direnci (D) ise 50S ribozomal alt ünitenin 23S rRNA metilasyonu ile gelişir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki yapılardan hangisi, bakteriyel konjugasyonda rol alır?",
+    "options": {
+      "A": "F-pili",
+      "B": "Flajel",
+      "C": "Spor",
+      "D": "Faj",
+      "E": "Kapsül"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Bakteriyel konjugasyonda verici (F+) bakterinin alıcı (F-) bakteriye tutunmasını ve genetik materyalin aktarılacağı konjugasyon köprüsünün kurulmasını sağlayan yapı F-pili (seks pilusu / fertilite pilusu) yapısıdır. Çeldiriciler: Flajel (B) bakterinin sıvı ortamda hareket etmesini sağlayan organeldir. Spor (C) olumsuz çevre koşullarında bakterinin hayatta kalmasını sağlayan dayanıklı formdur. Faj (D) konjugasyonda değil, transdüksiyonda rol alan bakteri virüsüdür. Kapsül (E) ise bakteriyi fagositoza karşı koruyan en dış tabakadır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisine karşı hazırlanan aşı, toksoid aşıdır?",
+    "options": {
+      "A": "Neisseria meningitidis",
+      "B": "Haemophilus influenzae",
+      "C": "Streptococcus pneumoniae",
+      "D": "Clostridium tetani",
+      "E": "Salmonella Typhi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): *Clostridium tetani* (ve *Corynebacterium diphtheriae*) hastalık tablosunu güçlü ekzotoksinleriyle oluşturduğundan, bu bakterilere karşı hazırlanan aşılar toksinin immünojenik yapısı korunup toksik etkisi formaldehitle ortadan kaldırılarak üretilen toksoid (anatoksin) aşılardır. Çeldiriciler: *Neisseria meningitidis* (A), *Haemophilus influenzae* tip b (B) ve *Streptococcus pneumoniae* (C) aşıları bakterilerin kapsüler polisakkaritlerinden hazırlanan (saf veya proteinle konjuge) kapsül aşılarıdır. *Salmonella* Typhi (E) için ise oral canlı atenüe (Ty21a) veya parenteral Vi kapsüler polisakkarit aşısı kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki sefalosporinlerden hangisinin anaerobik bakterilere karşı etkinliği en fazladır?",
+    "options": {
+      "A": "Sefazolin",
+      "B": "Sefotetan",
+      "C": "Seftazidim",
+      "D": "Sefepim",
+      "E": "Sefoperazon"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): 2. kuşak sefalosporinlerin sefamisin alt grubunda yer alan sefotetan ve sefoksitin, *Bacteroides fragilis* dahil olmak üzere anaerobik bakterilere karşı etkinliği en yüksek olan sefalosporinlerdir ve batın içi/pelvik cerrahi profilaksisinde tercih edilirler. Çeldiriciler: 1. kuşak sefalosporin olan sefazolin (A) ağırlıklı olarak Gram-pozitif koklara etkilidir. 3. kuşak olan seftazidim (C) ve sefoperazon (E) ile 4. kuşak olan sefepim (D) *Pseudomonas aeruginosa* ve Gram-negatif aerob basillere karşı güçlü etkinlik gösterirken anaerob etkinlikleri zayıftır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "I. Rubella virus II. Parainfluenza virus III. Varicella zoster virus IV. Hepatit C virus Günümüzde, yukarıdaki viruslardan hangilerinin enfeksiyonlarından aşı ile korunulmaktadır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Rubella (kızamıkçık) ve Varicella zoster virus (suçiçeği/zona) enfeksiyonlarına karşı rutin kullanımda olan etkili aşılar mevcuttur. Çeldiriciler: II ve IV numaralı öncülleri içeren A, C, D ve E şıkları yanlıştır çünkü Parainfluenza ve Hepatit C virüslerine karşı geliştirilmiş lisanslı bir aşı bulunmamaktadır. Öncüllerin analizi: I. Doğru; Rubella (kızamıkçık) virüsüne karşı KKK (MMR) aşısı içinde yer alan canlı atenüe aşı mevcuttur. II. Yanlış; Parainfluenza virüsüne karşı günümüzde kullanılan bir aşı yoktur. III. Doğru; Varicella zoster virüsüne (VZV) karşı suçiçeğini önleyen canlı atenüe aşı (Varivax) ve zonayı önleyen rekombinant glikoprotein E aşısı (Shingrix) mevcuttur. IV. Yanlış; Hepatit C virüsü (HCV) RNA polimerazının hata düzeltme (proofreading) aktivitesi olmaması ve zarf glikoproteini E2'nin aşırı antijenik değişkenliği nedeniyle aşısı geliştirilememiştir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisi A-B yapısında ekzotoksin üretmez?",
+    "options": {
+      "A": "Clostridium botulinum",
+      "B": "Streptococcus pyogenes",
+      "C": "Corynebacterium diphtheria",
+      "D": "Clostridium tetani",
+      "E": "Vibrio cholerae"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): *Streptococcus pyogenes* tarafından üretilen eritrojenik toksin (pirojenik ekzotoksin / kızıl toksini), A-B alt birim yapısında bir toksin olmayıp MHC sınıf II ve T hücre reseptörünün (TCR) V-beta bölgesine dışarıdan bağlanarak poliklonal T lenfosit aktivasyonu ve sitokin fırtınasına yol açan bir süperantijendir. Çeldiriciler: *Clostridium botulinum*'un botulinum nörotoksini (A), *Corynebacterium diphtheriae*'nin EF-2'yi inaktive eden difteri toksini (C), *Clostridium tetani*'nin inhibitör nörotransmitter salınımını engelleyen tetanoz toksini (D) ve *Vibrio cholerae*'nin Gs proteinini aktive ederek cAMP'yi artıran kolera toksini (E) bağlanma (B) ve aktif enzimatik (A) alt birimlerinden oluşan klasik A-B yapısında ekzotoksinlerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki kimyasal maddelerden hangisi, sterilizasyon amacıyla kullanılmaz?",
+    "options": {
+      "A": "Glutaraldehit",
+      "B": "Benzalkonyum klorid",
+      "C": "Etilen oksit",
+      "D": "Formaldehit",
+      "E": "Hidrojen peroksit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Benzalkonyum klorid, kuaterner amonyum bileşikleri grubunda yer alan düşük düzey bir dezenfektandır; yalnızca vejetatif bakterilere, bazı mantarlara ve zarflı virüslere etkili olup bakteri sporlarına, mikobakterilere ve zarfsız virüslere karşı etkisizdir, bu nedenle sterilizasyon amacıyla kesinlikle kullanılamaz. Çeldiriciler: Glutaraldehit (A), etilen oksit gazı (C), formaldehit gazı (D) ve yüksek konsantrasyonlu/plazma formundaki hidrojen peroksit (E) sporosidal etkinliğe sahip olan ve ısıya duyarlı tıbbi malzemelerin kimyasal sterilizasyonunda kullanılan sterilizan maddelerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Bakterilerde 23S rRNA'da bir mutasyon gelişirse aşağıdaki antibiyotiklerden hangisine karşı direnç ortaya çıkabilir?",
+    "options": {
+      "A": "Kinolonlar",
+      "B": "Rifampisinler",
+      "C": "Glikopeptidler",
+      "D": "Tetrasiklinler",
+      "E": "Makrolidler"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Makrolidler (eritromisin, klaritromisin, azitromisin), bakteriyel ribozomun 50S alt biriminin 23S rRNA bölgesine bağlanarak peptid zincirinin translokasyonunu inhibe ederler; 23S rRNA'da gelişen nokta mutasyonları veya adenin metilasyonu (erm genleri ile) ilacın ribozoma bağlanmasını engelleyerek makrolidlere (ve klindamisin/streptogramin B'ye - MLSb direnci) karşı direnç gelişmesine neden olur. Çeldiriciler: Kinolon direnci (A) DNA giraz/topoizomeraz IV mutasyonuyla, rifampisin direnci (B) RNA polimeraz mutasyonuyla, glikopeptid direnci (C) D-alanin-D-alanin hedefinin D-alanin-D-laktata dönüşmesiyle, tetrasiklin direnci (D) ise 30S alt ünitenin korunması veya aktif effluks pompalarıyla gelişir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, gram negatif ve gram pozitif bakterilere karşı etkili en geniş spektrumlu antibiyotiklerden biridir?",
+    "options": {
+      "A": "Vankomisin",
+      "B": "İmipenem",
+      "C": "Kolistin",
+      "D": "Aztreonam",
+      "E": "Teikoplanin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Bir karbapenem olan imipenem, hem Gram-pozitif hem Gram-negatif bakterilere hem de anaeroblara karşı etkinlik gösteren, bilinen en geniş spektrumlu beta-laktam antibiyotik grubunun üyesidir ve genişlemiş spektrumlu beta-laktamaz (GSBL/ESBL) üreten bakterilerin tedavisinde tercih edilir. Çeldiriciler: Glikopeptid grubundan vankomisin (A) ve teikoplanin (E) dar spektrumlu olup yalnızca Gram-pozitif bakterilere etkilidir. Polimiksin grubundan kolistin (C) sadece Gram-negatif basillere, monobaktam grubundan aztreonam (D) ise sadece Gram-negatif aerob basillere karşı etkinlik gösterir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki genlerden hangisi, plazmidler üzerinde taşınmaz?",
+    "options": {
+      "A": "Bakteri çoğalması için esansiyel olan genler",
+      "B": "Plazmidlerin bir mikroorganizmadan diğerine aktarılmasını sağlayan genler",
+      "C": "Antimikrobiyal direnç taşıyan genler",
+      "D": "Pigment taşıyan genler",
+      "E": "Çeşitli metabolik yollara ait enzimleri kodlayan genler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Plazmidler, bakteriyel kromozomdan bağımsız olarak replike olabilen çift iplikli çembersel DNA parçacıklarıdır; bakterinin normal koşullarda büyümesi, bölünmesi ve çoğalması için zorunlu (esansiyel) olan temel yaşamsal genler plazmidler üzerinde taşınmaz, yalnızca bakteriyel kromozomda yer alır. Çeldiriciler: Konjugatif plazmidlerin aktarımını sağlayan tra (transfer) genleri (B), antibiyotik direnç genleri (C), pigment üretim genleri (D) ve çeşitli ek metabolik (fermentasyon, parçalayıcı) enzimleri kodlayan aksesuar genler (E) plazmidler üzerinde taşınabilir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki yapılardan hangisi, sadece gram negatif bakterilerde bulunur?",
+    "options": {
+      "A": "Peptidoglikan",
+      "B": "Teikoik asit",
+      "C": "Pili",
+      "D": "Dış membran",
+      "E": "Kapsül"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Dış membran (ve yapısındaki lipopolisakkarit ile porin proteinleri), peptidoglikan tabakasının dışında yer alan ve yalnızca Gram-negatif bakterilerde bulunan seçici geçirgen bir tabakadır. Çeldiriciler: Peptidoglikan (A) ve kapsül (E) hem Gram-pozitif hem de Gram-negatif bakterilerde bulunabilir. Teikoik asit (B) sadece Gram-pozitif bakterilerde bulunur. Piluslar (fimbrialar) (C) ise ağırlıklı olarak Gram-negatiflerde görülmekle birlikte bazı Gram-pozitif bakterilerde de (*Corynebacterium*, *Streptococcus*, *Actinomyces*) bulunabilmektedir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Fagozom membranını hasara uğratarak sitoplazmada çoğalabilen bakteri cinsi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mycobacterium",
+      "B": "Listeria",
+      "C": "Legionella",
+      "D": "Neisseria",
+      "E": "Streptococcus"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): *Listeria monocytogenes*, fagosite edildikten sonra salgıladığı kolesterol bağımlı bir sitolizin olan listeriolizin O ve fosfolipaz C enzimleri aracılığıyla fagozom membranını parçalayarak konak hücre sitoplazmasına kaçar; sitoplazmada çoğalır ve ActA yüzey proteini ile konak hücre aktin filamanlarını polimerize ederek (aktin roketleri) hücre dışı ortama çıkmadan ve antikorlarla karşılaşmadan komşu hücrelere yayılır. Çeldiriciler: *Mycobacterium* (A) ve *Legionella* (C) fagozom-lizozom birleşmesini (füzyonunu) engelleyerek fagozom kesesi içinde çoğalan hücre içi bakterilerdir. *Neisseria* (D) ve *Streptococcus* (E) ise temel olarak hücre dışı patojenlerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, N-asetil muramik asit ve N-asetil glukozaminin sitoplazmik membrandan periplazmik alana geçişini engelleyerek hücre duvarı sentezini inhibe eder?",
+    "options": {
+      "A": "Penisilinler",
+      "B": "Daptomisin",
+      "C": "Sefalosporinler",
+      "D": "Sikloserin",
+      "E": "Basitrasin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Basitrasin, sitoplazmada sentezlenen peptidoglikan öncüllerini (NAM-NAG birimleri) sitoplazmik membrandan dışarıya (periplazmik alana) taşıyan lipid taşıyıcı molekül olan baktoprenolün (undekaprenil pirofosfat) defosforilasyonunu inhibe eder; böylece taşıyıcı molekülün rejenerasyonunu ve yapı taşlarının membran dışına geçişini durdurarak hücre duvarı sentezini engeller. Çeldiriciler: Penisilinler (A) ve sefalosporinler (C) PBP'lere bağlanarak en son aşama olan transpeptidasyonu inhibe eder. Daptomisin (B) hücre duvarı sentezini değil, sitoplazmik membran potansiyelini bozar. Sikloserin (D) ise sitoplazmik fazda D-alanin-D-alanin sentezini inhibe eder.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, canlı viral aşıların özelliklerinden biri değildir?",
+    "options": {
+      "A": "IgA yanıtı oluşturabilmeleri",
+      "B": "Adjuvana ihtiyaç duymaları",
+      "C": "Uzun süreli immün yanıt oluşturmaları",
+      "D": "Soğuk zincire ihtiyaç duymaları",
+      "E": "Güçlü hücresel immün yanıt oluşturmaları"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Canlı viral aşılar konak içinde çoğalarak bağışıklık sistemini doğal enfeksiyona benzer biçimde çok güçlü uyardıkları için immün yanıtı artırıcı bir yardımcı maddeye (adjuvana) ihtiyaç duymazlar; adjuvanlar inaktif, toksoid ve subünit aşılarda kullanılır. Çeldiriciler: Canlı viral aşılar özellikle oral veya intranazal verildiklerinde mukozal IgA yanıtı oluşturabilirler (A), genellikle tek dozla bile uzun süreli (hatta ömür boyu) bellek yanıtı sağlarlar (C), ısıya duyarlı olduklarından canlılıklarını kaybetmemek için soğuk zincire gereksinim duyarlar (D) ve hücre içinde çoğaldıkları için CD8+ T lenfositler üzerinden güçlü hücresel immün yanıt uyarırlar (E).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Düşük düzey dezenfeksiyon aşağıdaki mikroorganizmalardan hangisine karşı etkilidir?",
+    "options": {
+      "A": "Hepatit B virusu",
+      "B": "Candida albicans",
+      "C": "Poliovirus",
+      "D": "Mycobacterium tuberculosis",
+      "E": "Clostridium perfringens"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kuaterner amonyum bileşikleri gibi düşük düzey dezenfektanlar, lipid yapıdaki dış zarfları kolayca parçalanabildiği için zarflı virüslere karşı etkilidirler; seçenekler arasında yer alan Hepatit B virusu (HBV) zarflı bir DNA virüsü olduğu için düşük düzey dezenfeksiyon ile inaktive edilebilir. Çeldiriciler: Bir maya mantarı olan *Candida albicans* (B) için bazı düşük düzey ajanlar kısmen etkili olabilse de güvenilir eliminasyon orta düzey dezenfeksiyon gerektirir; zarfsız bir enterovirüs olan Poliovirus (C) ve hücre duvarı lipidce zengin olan *Mycobacterium tuberculosis* (D) en az orta/yüksek düzey dezenfeksiyon gerektirirken, sporlu bir bakteri olan *Clostridium perfringens*'in (E) spor formları düşük düzey dezenfeksiyona tamamen dirençlidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisinin ekzotoksini, nörotoksik etkiye sahiptir?",
+    "options": {
+      "A": "Vibrio cholerae",
+      "B": "Klebsiella pneumoniae",
+      "C": "Bacillus anthracis",
+      "D": "Streptococcus pyogenes",
+      "E": "Clostridium botulinum"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): *Clostridium botulinum* tarafından üretilen botulinum toksini (ve *Clostridium tetani*'nin tetanoz toksini) A-B yapısında güçlü bir nörotoksindir; periferik kolinerjik sinir uçlarında vezikül füzyonunda rol alan SNARE proteinlerini parçalayarak presinaptik asetilkolin (ACh) salıverilmesini irreversibl olarak bloke eder ve gevşek (flask) felce neden olur. Çeldiriciler: *Vibrio cholerae* toksini (A) Gs proteinini aktive edip cAMP'yi artırarak sulu ishale yol açan bir enterotoksindir. *Klebsiella pneumoniae*'nin (B) temel virülans faktörü ekzotoksin değil antifagositik kapsülüdür. *Bacillus anthracis* toksini (C) ödem faktörü (adenilat siklaz) ve letal faktörden (MAPK proteaz) oluşan sitotoksik bir toksindir. *Streptococcus pyogenes*'in eritrojenik toksini (D) ise sitokin fırtınası ve kızıla yol açan bir süperantijendir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Endoskopların temizliğinde kullanılan; bakteri, mikobakteri, bakteri sporları, mantar ve viruslara etkili, yüksek dezenfektan özellikli dezenfektan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Alkol",
+      "B": "Kuaterner amonyum bileşikleri",
+      "C": "Glutaraldehit",
+      "D": "Fenolikler",
+      "E": "İyodoforlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Fleksibl endoskoplar mukozalarla temas ettikleri için \"yarı kritik alet\" olarak sınıflandırılırlar ve ısıya duyarlı olduklarından temizliklerinde vejetatif bakterilere, mikobakterilere, mantarlara, virüslere ve bakteri sporlarına karşı etkili olan yüksek düzey dezenfektan özellikli glutaraldehit (veya ortofitaldehit/perasetik asit) kullanılır. Çeldiriciler: Alkoller (A), fenolikler (D) ve iyodoforlar (E) orta düzey dezenfektanlar olup bakteri sporlarına etkisizdirler ve endoskop materyaline zarar verebilirler. Kuaterner amonyum bileşikleri (B) ise düşük düzey dezenfektan olup mikobakterilere, zarfsız virüslere ve sporlara karşı etkisizdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki enfeksiyöz etkenlerden hangisi sterilizasyona en dirençlidir?",
+    "options": {
+      "A": "Prionlar",
+      "B": "Mycobacterium tuberculosis",
+      "C": "Metisiline dirençli Staphylococcus aureus",
+      "D": "Poliovirus",
+      "E": "Hepatit C virusu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Sterilizasyon ve dezenfeksiyon işlemlerine karşı en dirençli enfeksiyöz etkenler, nükleik asit içermeyen yanlış katlanmış protein yapısındaki prionlardır; standart otoklavlama ile tamamen yok edilemezler ve NaOH muamelesi ile yüksek basınçlı/uzun süreli otoklavlama gibi özel protokoller gerektirirler. Çeldiriciler: Mikobakterilerden *Mycobacterium tuberculosis* (B), zarfsız bir virüs olan Poliovirus (D), vejetatif bir Gram-pozitif bakteri olan MRSA (C) ve zarflı bir virüs olan Hepatit C virusu (E) standart sterilizasyon yöntemlerine (ve uygun düzeydeki dezenfektanlara) karşı prionlara kıyasla çok daha duyarlıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisi üremek için karbondioksite ihtiyaç duymaz veya üremesi karbondioksit varlığında artmaz?",
+    "options": {
+      "A": "Brucella abortus",
+      "B": "Neisseria gonorrhoeae",
+      "C": "Campylobacter jejuni",
+      "D": "Bordetella pertussis",
+      "E": "Streptococcus pneumoniae"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): *Bordetella pertussis* zorunlu aerob bir bakteri olup üremek için ekstra karbondioksite ($CO_2$) ihtiyaç duymaz ve $CO_2$ varlığında üremesi artmaz. Çeldiriciler: *Brucella abortus* (A), *Neisseria gonorrhoeae* (B) ve fakültatif anaerob olan *Streptococcus pneumoniae* (E) kapnofilik bakterilerdir ve ilk izolasyonlarında üremeleri %5-10 $CO_2$ içeren ortamda belirgin şekilde artar. Mikroaerofilik bir bakteri olan *Campylobacter jejuni* (C) ise üreyebilmek için %5 $O_2$, %10 $CO_2$ ve %85 $N_2$ içeren özel atmosfer koşullarına gereksinim duyar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki dezenfektanlardan hangisinin mikobakterilere karşı etkisi yoktur?",
+    "options": {
+      "A": "Alkol",
+      "B": "Glutaraldehit",
+      "C": "Kuarterner amonyum bileşikleri",
+      "D": "Fenol bileşikleri",
+      "E": "Hidrojen peroksit"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Mikobakteriler (özellikle *Mycobacterium tuberculosis*), hücre duvarlarındaki yoğun mikolik asit ve mumsu lipid tabakası nedeniyle kuaterner amonyum bileşikleri gibi düşük düzey dezenfektanlara karşı doğal olarak dirençlidirler; kuaterner amonyum bileşiklerinin mikobakterilere ve zarfsız virüslere karşı etkisi yoktur. Çeldiriciler: Orta düzey dezenfektanlar olan alkoller (A) ve fenol bileşikleri (D) ile yüksek düzey dezenfektanlar olan glutaraldehit (B) ve hidrojen peroksit (E) mikobakterilere karşı (tüberkülosidal) etkilidirler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi A grubu biyoterör etkenidir?",
+    "options": {
+      "A": "Coxiella burnetii",
+      "B": "Burkholderia mallei",
+      "C": "Brucella spp.",
+      "D": "Francisella tularensis",
+      "E": "Mycobacterium tuberculosis"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tularemi etkeni olan *Francisella tularensis*, çok düşük enfektif dozda bile inhalasyon yoluyla kolayca bulaşabilmesi ve yüksek mortaliteye yol açan pnömonik tularemi tablosu oluşturabilmesi nedeniyle CDC sınıflamasına göre en yüksek riskli grup olan Kategori A biyoterör etkenleri arasında yer alır (diğer Kategori A etkenleri: *Bacillus anthracis*, *Yersinia pestis*, *Clostridium botulinum* toksini, Variola major/Çiçek virüsü ve Ebola/Marburg/Lassa gibi viral kanamalı ateş virüsleridir). Çeldiriciler: Q ateşi etkeni *Coxiella burnetii* (A), ruam etkeni *Burkholderia mallei* (B) ve bruselloz etkeni *Brucella* türleri (C) Kategori B biyoterör etkenleridir; çoğul dirençli *Mycobacterium tuberculosis* (E) ise Kategori C kapsamında değerlendirilir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki mikroorganizmalardan hangisi hücre içinde yaşamaz?",
+    "options": {
+      "A": "Yersinia pestis",
+      "B": "Listeria monocytogenes",
+      "C": "Cryptosporidium parvum",
+      "D": "Legionella pneumophila",
+      "E": "Borrelia burgdorferi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lyme hastalığı etkeni olan bir spiroket olan *Borrelia burgdorferi*, dokularda, kanda ve eklem sıvısında hücre dışı (ekstraselüler) olarak yaşayan bir bakteridir; hücre içinde yaşamaz. Çeldiriciler: *Yersinia pestis* (A), *Listeria monocytogenes* (B) ve *Legionella pneumophila* (D) konak makrofajları ve hücreleri içinde çoğalabilen fakültatif hücre içi bakterilerdir. Bir apikompleksa paraziti olan *Cryptosporidium parvum* (C) ise bağırsak epitel hücrelerinin mikrovillus bölgesinde intrasitoplazmik olmayan ancak hücre zarı içinde (intraselüler-ekstrasitoplazmik) yerleşim gösteren bir hücre içi patojendir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisine karşı toksoid yapıda aşı kullanılmaktadır?",
+    "options": {
+      "A": "Corynebacterium diphtheriae",
+      "B": "Bacillus anthracis",
+      "C": "Salmonella Typhi",
+      "D": "Vibrio cholerae",
+      "E": "Yersinia pestis"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): *Corynebacterium diphtheriae* (ve *Clostridium tetani*) enfeksiyonlarında klinik tablodan bakterinin salgıladığı ekzotoksin sorumlu olduğu için, korunmada formaldehit ile detoksifiye edilmiş difteri toksoid aşısı kullanılmaktadır. Çeldiriciler: *Bacillus anthracis* (B) aşısı protektif antijen (PA) içeren hücresiz (rekombinant/filtrat) bir aşıdır. *Salmonella* Typhi (C) için oral canlı atenüe (Ty21a) veya parenteral Vi kapsül polisakkarit aşısı kullanılır. *Vibrio cholerae* (D) ve *Yersinia pestis* (E) için ise ölü (inaktif) tam hücre veya canlı atenüe bakteri aşıları kullanılmaktadır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Leptospiraların mikroskobik incelenmesinde tanı için sıklıkla tercih edilen yöntem aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Faz kontrast mikroskobisi",
+      "B": "Floresan mikroskobisi",
+      "C": "Aside dirençli boyama yöntemiyle ışık mikroskobisi",
+      "D": "Karanlık alan mikroskobisi",
+      "E": "Metanamin gümüşleme boyama yöntemiyle ışık mikroskobisi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): *Leptospira* ve *Treponema* cinsi spiroketler çapları çok ince (yaklaşık 0,1 µm) olduğu için standart ışık mikroskobunun çözünürlük sınırının altındadırlar ve Gram boyama ile görülemezler; bu bakterilerin tanı amacıyla hareketli ve parlak olarak incelenmesinde sıklıkla tercih edilen yöntem karanlık alan (dark-field) mikroskobisidir. Çeldiriciler: Faz kontrast mikroskobisi (A) boyasız canlı hücrelerin iç yapılarını incelemede, floresan mikroskobisi (B) florokrom boyalarla veya floresan işaretli antikorlarla yapılan incelemelerde, aside dirençli boyama (C) mikobakteri ve *Nocardia* gibi etkenlerin gösterilmesinde, Gomori methenamin gümüşleme (GMS) (E) ise özellikle mantarların (*Pneumocystis jirovecii* vb.) doku kesitlerinde gösterilmesinde kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Mikroorganizmaların dış ortamdan demir yakalayarak hücre içine taşımak için kullandıkları yapılara ne ad verilir?",
+    "options": {
+      "A": "Aksiyal filaman",
+      "B": "Siderofor",
+      "C": "Flajella",
+      "D": "Porin",
+      "E": "Tübülin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Bakterilerin konak ortamındaki veya dış ortamdaki serbest demir iyonlarını ($Fe^{3+}$) yüksek afinite ile bağlayıp şelatlayarak spesifik yüzey reseptörleri aracılığıyla bakteri hücresi içine taşımak için salgıladıkları düşük molekül ağırlıklı bileşiklere siderofor adı verilir. Çeldiriciler: Aksiyal filaman (A) spiroketlerde periplazmik aralıkta bulunan hareket organelidir. Flajella (C) bakterilerde hareketi sağlayan ve H antijeni özelliği taşıyan uzantıdır. Porin (D) Gram-negatif bakterilerin dış membranında bulunan ve hidrofilik moleküllerin geçişini sağlayan kanal proteinleridir. Tübülin (E) ise prokaryotlarda bulunmayan, ökaryot hücre iskeletindeki mikrotübüllerin yapı taşı olan proteindir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Kolistinin antibakteriyel etkisiyle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Acinetobacter baumannii – Etkili",
+      "B": "Neisseria meningitidis – Etkisiz",
+      "C": "Pseudomonas aeruginosa – Etkisiz",
+      "D": "Providencia stuartii – Zayıf etkili",
+      "E": "Staphylococcus aureus – Etkisiz"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Polimiksin E (kolistin), Gram-negatif bakterilerin dış membranındaki lipopolisakkarit ve fosfolipidlere (fosfatidiletanolamin) bağlanarak etki gösteren katyonik polipeptid bir antibiyotik olup çoğul ilaç dirençli *Pseudomonas aeruginosa* suşlarına karşı oldukça etkilidir; bu nedenle \"etkisiz\" eşleştirmesi yanlıştır. Çeldiriciler: Kolistin çoğul dirençli Gram-negatif basiller olan *Acinetobacter baumannii* (A), *Escherichia coli* ve *Klebsiella pneumoniae*'ye karşı etkilidir. Buna karşın tüm Gram-pozitif bakteriler (*Staphylococcus aureus* (E)), Gram-negatif koklar (*Neisseria meningitidis* (B)) ve *Proteus*, *Providencia* (*Providencia stuartii* (D)), *Serratia* ve *Burkholderia* cinsi Gram-negatif basiller kolistine doğal (intrensek) olarak dirençlidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki aşılardan hangisi tam bir viral partikül içermez?",
+    "options": {
+      "A": "Sabin polio",
+      "B": "Kızamık",
+      "C": "İnsan papilloma virusu",
+      "D": "Varicella-zoster",
+      "E": "Kabakulak"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İnsan papilloma virusu (HPV) aşısı, tam bir viral partikül veya viral genom içermez; rekombinant DNA teknolojisi kullanılarak virüsün majör kapsid proteini olan L1 proteininden elde edilen ve virüs benzeri partiküller (VLP) içeren rekombinant bir subünit aşıdır. Çeldiriciler: Sabin oral polio aşısı (A), kızamık aşısı (B), suçiçeği (Varicella-zoster / Varivax) aşısı (D) ve kabakulak aşısı (E) zayıflatılmış (atenüe) tam viral partiküller içeren canlı viral aşılardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Haemophilus influenzae tip B aşısı hangi tip bir aşıdır?",
+    "options": {
+      "A": "Canlı atenüe",
+      "B": "İnaktive edilmiş",
+      "C": "Konjuge",
+      "D": "Toksoid",
+      "E": "Subünit"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): *Haemophilus influenzae* tip b (Hib) aşısı, bakterinin kapsüler polisakkariti olan poliribitol riboz fosfatın (PRP) tek başına T lenfositten bağımsız antijen olması ve 2 yaş altı çocuklarda yeterli immün yanıt ile immünolojik bellek oluşturamaması nedeniyle, difteri toksoidi veya tetanoz toksoidi gibi taşıyıcı bir proteinle birleştirilerek T hücre bağımlı hale getirilmiş konjuge kapsüler bir aşıdır. Çeldiriciler: Hib aşısı canlı atenüe mikroorganizma (A), tam hücreli inaktive bakteri (B), doğrudan tek başına toksoid (D) veya saf rekombinant protein subünit (E) aşısı değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Lizozimin antibakteriyel etkinliği aşağıdaki mekanizmalardan hangisiyle gerçekleşir?",
+    "options": {
+      "A": "Çift tabakalı fosfolipid yapının parçalanması",
+      "B": "İntegral proteinlerin parçalanması",
+      "C": "Hücre zarındaki porinlerin aktivasyonu",
+      "D": "Teikoik asit yapısının parçalanması",
+      "E": "N-asetil-glukozamin N-asetilmuramik asit arası bağların parçalanması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Gözyaşı, tükürük, mukus salgıları ve fagositik granüllerde bulunan doğal bağışıklık enzimi lizozim (muramidaz), bakteri hücre duvarındaki peptidoglikan tabakasında yer alan N-asetilglukozamin (NAG) ile N-asetilmuramik asit (NAM) arasındaki beta-1,4 glikozid bağlarını hidrolize ederek parçalar ve özellikle kalın, dış membransız peptidoglikana sahip Gram-pozitif bakterilerde ozmotik lizise yol açar. Çeldiriciler: Hücre zarındaki çift tabakalı fosfolipidlerin (A), integral membran proteinlerinin (B), dış membran porinlerinin (C) veya teikoik asit polimerlerinin (D) parçalanması lizozimin etki mekanizması değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Siprofloksasin'in bakterideki hedefi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Transpeptidaz",
+      "B": "DNA bağımlı RNA polimeraz",
+      "C": "Peptidil transferaz",
+      "D": "Dihidrofolat redüktaz",
+      "E": "DNA giraz"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Florokinolon grubu bir antibiyotik olan siprofloksasin, bakterilerde DNA replikasyonu sırasında süpersarmal yapıyı düzenleyen prokaryotik topoizomeraz II (DNA giraz - özellikle Gram-negatiflerde ana hedef) ve topoizomeraz IV (özellikle Gram-pozitiflerde ana hedef) enzimlerini inhibe eder. Çeldiriciler: Transpeptidaz (PBP) (A) beta-laktam antibiyotiklerin, DNA bağımlı RNA polimeraz (B) rifampinin, 50S ribozomal alt ünitedeki peptidil transferaz (C) kloramfenikolün, dihidrofolat redüktaz (D) ise trimetoprimin hedef enzimidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Yoğun bakım ünitesinde yatan bir hastanın burnunda metisiline dirençli Staphylococcus aureus saptandığı zaman hastanın dekontaminasyonu için aşağıdaki önlemlerden hangisinin alınması gerekir?",
+    "options": {
+      "A": "Hastanın odasına girerken eldiven ve maske kullanılmalı",
+      "B": "Eldiven çıkartıldıktan sonra eller alkollü solüsyon ile temizlenmeli",
+      "C": "Hasta temas izolasyonuna alınmalı",
+      "D": "Hastanın odasında bulunan tek kullanımlık enjektörler özel kaplara konarak odadan çıkartılmalı",
+      "E": "Hastaya nazal mupirosin (%2) verilmeli"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Burunda metisiline dirençli *Staphylococcus aureus* (MRSA) kolonizasyonu (taşıyıcılığı) saptanan hastalarda, bakterinin nazal mukozadan eradike edilmesi (hastanın dekontaminasyonu / dekolonizasyonu) amacıyla bakteriyel izolösinil-tRNA sentetaz enzimini inhibe eden topikal %2'lik nazal mupirosin pomad uygulanır. Çeldiriciler: Eldiven ve maske kullanımı (A), el hijyeni (B), temas izolasyonu (C) ve tıbbi atık yönetimi (D) hastanın kendi nazal florasının dekontaminasyonunu sağlayan tedaviler değil, enfeksiyonun hastane içinde diğer hastalara bulaşmasını önlemeye yönelik bariyer ve izolasyon önlemleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Otoklava giremeyen kritik tıbbi cihazların sterilizasyonunda aşağıdaki kimyasallardan hangisinin kullanılması en uygundur?",
+    "options": {
+      "A": "Benzalkonyum klorid",
+      "B": "Krezol",
+      "C": "Etilen oksit",
+      "D": "Klorheksidin",
+      "E": "İyodoforlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Steril dokulara ve damar içine giren kritik tıbbi cihazların mutlaka steril edilmesi gerekir; ısıya ve neme duyarlı olduğu için otoklava (basınçlı buhara) giremeyen kritik tıbbi araç-gereçlerin düşük ısıda sterilizasyonunda en uygun kimyasal ajan gaz formundaki alkilleyici bir sterilizan olan etilen oksittir. Çeldiriciler: Düşük düzey dezenfektan olan benzalkonyum klorid (A), orta düzey fenolik bir dezenfektan olan krezol (B) ve antiseptik/dezenfektan olarak kullanılan klorheksidin (D) ile iyodoforlar (E) bakteri sporlarını yok edemedikleri için sterilizasyon sağlayamazlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Bakterilerde RNA polimeraz enzimini kodlayan genlerde mutasyon olması durumunda aşağıdaki antibiyotiklerden hangisine karşı direnç gelişmesi en olasıdır?",
+    "options": {
+      "A": "Rifamisinler",
+      "B": "Sulfonamidler",
+      "C": "Kinolonlar",
+      "D": "Makrolidler",
+      "E": "Tetrasiklinler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Rifamisin grubu antibiyotikler (rifampisin, rifabutin), bakteriyel DNA bağımlı RNA polimeraz enzimine bağlanarak transkripsiyonu inhibe ederler; bu enzimin beta alt birimini kodlayan rpoB geninde oluşan mutasyonlar ilacın hedefe bağlanmasını engelleyerek doğrudan rifamisin direncine yol açar. Çeldiriciler: Sulfonamid direnci (B) dihidropteroat sentaz genindeki mutasyonlarla, kinolon direnci (C) DNA giraz/topoizomeraz IV genlerindeki mutasyonlarla, makrolid direnci (D) 23S rRNA metilasyonu/mutasyonuyla, tetrasiklin direnci (E) ise aktif dışa atım (effluks) pompaları ve ribozomal koruma proteinleriyle gelişir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Vibrio cholerae, toksin genini aşağıdaki genetik yollardan hangisiyle kazanır?",
+    "options": {
+      "A": "Transformasyon",
+      "B": "Transdüksiyon",
+      "C": "Transpozisyon",
+      "D": "Konjugasyon",
+      "E": "Transfeksiyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): *Vibrio cholerae*, kolera toksinini (CT) kodlayan ctxA ve ctxB genlerini lizojenik bir bakteriyofaj olan CTXφ fajının bakteriyi enfekte edip bakteriyel kromozoma entegre olmasıyla, yani faj aracılı gen aktarımı olan transdüksiyon (lizojenik konversiyon) yoluyla kazanır. Çeldiriciler: Kolera toksin geninin kazanılması ortamdaki serbest DNA'nın alınması (transformasyon - A), genin aynı genom içinde yer değiştirmesi (transpozisyon - C), seks pilusu aracılı aktarım (konjugasyon - D) veya ökaryot hücrelere nükleik asit aktarımı (transfeksiyon - E) yoluyla gerçekleşmez.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hücre içi yaşayabilen bakterilerden biridir?",
+    "options": {
+      "A": "Pseudomonas aeruginosa",
+      "B": "Klebsiella pneumoniae",
+      "C": "Haemophilus influenzae",
+      "D": "Escherichia coli",
+      "E": "Listeria monocytogenes"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): *Listeria monocytogenes*, makrofajlar ve epitel hücreleri tarafından fagosite edildikten sonra listeriolizin O aracılığıyla fagozom zarını delerek sitoplazmaya geçen ve hücre içinde çoğalabilen fakültatif hücre içi bir bakteridir; bu nedenle kendisine karşı gelişen temel bağışıklık yanıtı hücresel immünitedir. Çeldiriciler: *Pseudomonas aeruginosa* (A), *Klebsiella pneumoniae* (B), *Haemophilus influenzae* (C) ve *Escherichia coli* (D) konak dokularında hücre dışında (ekstraselüler) çoğalan bakterilerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "KOAH tanısı olan ve yeni doğan torununa baktığını belirten 65 yaşındaki erişkin kadın, kasım ayında rutin aşılama için polikliniğe başvuruyor. Daha önceki aşılama öyküsü bilinmeyen bu kişiye aşağıdaki aşılardan hangisinin yapılmasına gerek yoktur?",
+    "options": {
+      "A": "İnfluenza",
+      "B": "Herpes zoster",
+      "C": "Difteri-tetanoz-aselüler boğmaca",
+      "D": "Pnömokok",
+      "E": "İnsan papilloma virus"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İnsan papilloma virus (HPV) aşısı rutin olarak 9-26 yaş arasındaki bireylere (ve klinik değerlendirmeyle en fazla 45 yaşına kadar) önerilen bir aşı olup 65 yaşındaki bir erişkine uygulanması endike değildir. Çeldiriciler: 65 yaşında ve KOAH hastası olan bu bireye her yıl sonbahar/kış döneminde inaktif influenza aşısı (A), 50 yaş üzerindeki erişkinlere önerilen Herpes zoster (zona) aşısı (B), yenidoğan torununa baktığı için yenidoğanı boğmacadan korumak (koza stratejisi) ve tetanoz/difteri bağışıklığını sağlamak amacıyla Tdap (difteri-tetanoz-aselüler boğmaca) aşısı (C) ve hem ≥65 yaş hem de kronik akciğer hastalığı (KOAH) nedeniyle pnömokok aşısı (D) yapılması endikedir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi insandan insana hızla bulaşan, yüksek düzeyde öldürücü ve halk sağlığı üzerinde ciddi etkileri olan Kategori A düzeyinde bir biyoterörizm ajanıdır?",
+    "options": {
+      "A": "Vibrio cholerae",
+      "B": "Bacillus anthracis",
+      "C": "Brucella suis",
+      "D": "Rickettsia prowazekii",
+      "E": "Coxiella burnetii"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Şarbon etkeni olan *Bacillus anthracis*, doğada çok uzun süre canlı kalabilen dayanıklı sporlarının aerosol (inhalasyon) yoluyla kolayca yayılabilmesi, yüksek mortaliteli inhalasyon şarbonuna yol açması ve ciddi toplumsal panik ile halk sağlığı krizine neden olması sebebiyle Kategori A biyoterörizm ajanıdır. Çeldiriciler: Kolera etkeni *Vibrio cholerae* (A), bruselloz etkeni *Brucella suis* (C), epidemik tifüs etkeni *Rickettsia prowazekii* (D) ve Q ateşi etkeni *Coxiella burnetii* (E) yayılma kolaylığı ve mortalite oranları daha düşük olduğu için Kategori B biyoterörizm ajanları arasında sınıflandırılırlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin gebelere yapılmasının sakıncalı olma olasılığı diğerlerine göre daha fazladır?",
+    "options": {
+      "A": "Trivalan inaktive influenza aşısı",
+      "B": "Tetanoz aşısı",
+      "C": "Kuduz aşısı",
+      "D": "Hepatit B aşısı",
+      "E": "Kızamıkçık aşısı"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kızamıkçık (Rubella) aşısı canlı atenüe bir viral aşıdır; canlı aşılar fetüste teorik teratojenik enfeksiyon (konjenital rubella sendromu) riski taşıdıkları için gebelik boyunca uygulanmaları kesinlikle kontrendikedir. Çeldiriciler: İnaktive influenza aşısı (A) ve kuduz aşısı (C) ölü viral aşılar, tetanoz aşısı (B) toksoid aşı, Hepatit B aşısı (D) ise rekombinant subünit aşı olduğundan çoğalma yetenekleri yoktur ve endikasyon varlığında gebelere güvenle uygulanabilirler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bakteri DNA'sını süpersarmal forma dönüştüren enzimi inhibe ederek etkisini gösterir?",
+    "options": {
+      "A": "Vankomisin",
+      "B": "Kloramfenikol",
+      "C": "Tetrasiklin",
+      "D": "Kinolonlar",
+      "E": "Polimiksinler"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Bakteri DNA'sına negatif süpersarmal (supercoil) kazandıran enzim topoizomeraz II (DNA giraz) enzimidir; kinolon (ve florokinolon) grubu antibiyotikler DNA giraz ve topoizomeraz IV enzimlerini inhibe ederek DNA replikasyonunu ve transkripsiyonunu durdururlar. Çeldiriciler: Vankomisin (A) D-alanin-D-alanin'e bağlanarak hücre duvarı sentezini inhibe eder. Kloramfenikol (B) 50S ribozomal alt üniteye, tetrasiklin (C) ise 30S ribozomal alt üniteye bağlanarak protein sentezini inhibe eder. Polimiksinler (E) ise Gram-negatif bakterilerin sitoplazmik ve dış membran bütünlüğünü bozarak etki gösterir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisinin neden olduğu pnömonilerde, hasta balgamından hazırlanan Gram boyalı preparatlarda etken bakterinin görülmesi en az olasıdır?",
+    "options": {
+      "A": "Staphylococcus aureus",
+      "B": "Klebsiella pneumoniae",
+      "C": "Streptococcus pneumoniae",
+      "D": "Mycoplasma pneumoniae",
+      "E": "Moraxella catarrhalis"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Atipik pnömoninin en sık etkeni olan *Mycoplasma pneumoniae*, peptidoglikan hücre duvarına sahip olmadığı için Gram boyama yöntemiyle boyanamaz ve balgamın Gram boyalı mikroskobik incelemesinde görülemez. Çeldiriciler: *Staphylococcus aureus* (A) Gram-pozitif üzüm salkımı şeklinde koklar, *Klebsiella pneumoniae* (B) kapsüllü Gram-negatif basiller, *Streptococcus pneumoniae* (C) mum alevi/lanset şeklinde Gram-pozitif diplokoklar ve *Moraxella catarrhalis* (E) Gram-negatif diplokoklar olarak balgamın Gram boyalı preparatlarında kolaylıkla görülürler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Alkollerin dezenfeksiyon ve antisepsi amaçlı kullanımlarıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Lipid eritici özelliği bulunan dezenfektan ve antiseptiklerdir.",
+      "B": "Bakterisidal ve fungisidal etkileri vardır.",
+      "C": "Su ile hazırlanan %60-90'lık konsantrasyonlarında optimal aktivite gösterirler.",
+      "D": "Deride en az toksik etki oluşturan, deriyi boyama ve alerjik etkisi bulunmayan en hızlı antiseptik maddelerdir.",
+      "E": "Zarfsız viruslara ve sporlu bakterilere karşı yüksek etkinlik gösterirler."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Orta düzey dezenfektan ve antiseptik olan alkoller (etil ve izopropil alkol), bakteri endosporlarına karşı tamamen etkisizdirler (sporisidal değillerdir) ve zarfsız küçük virüslere karşı da etkinlikleri zayıf/yetersizdir; bu nedenle sporları uzaklaştırmak için kullanılmazlar. Çeldiriciler: Alkoller membran lipidlerini çözerek ve proteinleri denatüre ederek etki gösterirler (A); vejetatif bakterilere, mikobakterilere, mantarlara ve zarflı virüslere karşı etkilidirler (B). Protein denatürasyonunun gerçekleşebilmesi için ortamda su bulunması gerektiğinden saf (%100) alkol yerine %60-90'lık sulu çözeltilerinde optimal etki gösterirler (C). Ciltte leke bırakmayan, alerjik etkisi olmayan ve en hızlı etki gösteren antiseptikler arasında yer alırlar (D).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisinin ortamda besin yokluğunda oluşturduğu yapı dipikolinik asit içerir?",
+    "options": {
+      "A": "Staphylococcus aureus",
+      "B": "Klebsiella pneumoniae",
+      "C": "Clostridium tetani",
+      "D": "Neisseria meningitidis",
+      "E": "Brucella melitensis"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): *Bacillus* (aerob) ve *Clostridium* (anaerob) cinsi Gram-pozitif basiller, ortamda besin tükenmesi gibi olumsuz koşullarda metabolik aktivitesi durmuş, dehidrate ve ısıya/kimyasallara dirençli endosporlar oluştururlar; seçeneklerdeki *Clostridium tetani* sporlu bir bakteri olup oluşturduğu endosporun kor tabakası ısı direncini sağlayan kalsiyum dipikolinat (dipikolinik asit) içerir. Çeldiriciler: *Staphylococcus aureus* (A), *Klebsiella pneumoniae* (B), *Neisseria meningitidis* (D) ve *Brucella melitensis* (E) endospor oluşturma yeteneği olmayan (sporsuz) bakterilerdir ve dipikolinik asit içermezler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Kolera şüpheli bir hastadan alınan dışkı örneğinden Vibrio cholerae izolasyonu için öncelikle tercih edilmesi gereken, seçici-ayırt edici besi yeri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Thayer-Martin agar",
+      "B": "Schaedler agar",
+      "C": "Hektoen enterik agar",
+      "D": "TCBS agar",
+      "E": "CCFA agar"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): *Vibrio* türlerinin ve özellikle *Vibrio cholerae*'nin dışkıdan izolasyonunda kullanılan seçici ve ayırt edici özel besiyeri TCBS (Tiyosülfat-Sitrat-Safra Tuzları-Sükroz) agardır; *Vibrio cholerae* TCBS agardaki sükrozu fermente ederek karakteristik parlak sarı renkli koloniler oluştururken, *Vibrio parahaemolyticus* sükrozu fermente etmediği için mavi-yeşil koloniler oluşturur. Çeldiriciler: Thayer-Martin agar (A) *Neisseria* türleri için, Schaedler agar (B) anaerob bakteriler için, Hektoen enterik agar (C) *Salmonella* ve *Shigella* için, CCFA (Sikloserin-Sefoksitin-Fruktoz Agar) (E) ise *Clostridioides difficile* izolasyonu için kullanılan seçici besiyerleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Treponema pallidum'un adezinlerinin tutunduğu molekül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Selektin",
+      "B": "Mannoz",
+      "C": "Fibronektin",
+      "D": "Sialik asit",
+      "E": "GM1 gangliozid"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Sifiliz (frengi) etkeni olan *Treponema pallidum*, dış yüzeyinde bulunan P1, P2 ve P3 adezin proteinleri aracılığıyla konak hücre yüzeyindeki ve ekstraselüler matriksteki fibronektin molekülüne tutunarak dokulara yerleşir. Çeldiriciler: Selektin (A) lökosit-endotel adezyonunda rol alan konak molekülleridir. D-mannoz (B) *Escherichia coli*'nin Tip 1 fimbriasının bağlandığı reseptördür. Sialik asit (D) *Mycoplasma pneumoniae*'nin P1 adezininin (ve influenza virüsünün) bağlandığı reseptördür. GM1 gangliozid (E) ise *Escherichia coli* (ETEC) kolonizasyon faktör antijenlerinin ve kolera/LT toksinlerinin bağlandığı reseptördür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Gram negatif bakterilerde eksprese olan aşağıdaki protein sekresyon sistemlerinden hangisi, konak hücre teması ile aktiveleşerek iğne benzeri bir yapı aracılığıyla toksin yapısındaki maddeleri doğrudan konak hücre içine enjekte eden bir virulans faktörüdür?",
+    "options": {
+      "A": "Tip I",
+      "B": "Tip II",
+      "C": "Tip III",
+      "D": "Tip IV",
+      "E": "Tip V"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Yalnızca Gram-negatif bakterilerde (*Yersinia*, *Salmonella*, *Shigella*, EPEC, *Pseudomonas aeruginosa*, *Chlamydia*) bulunan Tip III sekresyon sistemi (injektozom), konak hücreyle temas ettiğinde aktive olan moleküler bir şırınga/iğne benzeri yapıdır ve bakteriyel efektör proteinleri/toksinleri hücre dışı ortama salmadan doğrudan konak ökaryot hücre sitoplazmasına enjekte eder. Çeldiriciler: Tip I sekresyon sistemi (A) ABC taşıyıcıları ile proteinleri tek adımda hücre dışına salar. Tip II (B) ve Tip V (ototransporter) (E) sekresyon sistemleri Sec yolağına bağımlı olarak proteinleri periplazmik aralık üzerinden dış ortama salgılar. Tip IV sekresyon sistemi (D) ise konjugasyon pilusuna benzer tünel yapısıyla hem protein hem de DNA/protein komplekslerini taşıyabilen (*Helicobacter pylori* CagA, *Bordetella pertussis* toksini) sistemdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Kistik fibroz hastalarında Pseudomonas aeruginosa'nın solunum yollarına kolonizasyonunu kolaylaştıran ve kültürde mukoid koloniler oluşturmasına neden olan virulans faktörü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ekzotoksin A",
+      "B": "Pili",
+      "C": "Flagella",
+      "D": "Tip VI sekresyon sistemi",
+      "E": "Alginat"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): *Pseudomonas aeruginosa*'nın ürettiği ekzopolisakkarit yapısındaki alginat (slime/biyofilm tabakası), özellikle kistik fibrozisli hastaların solunum yollarında bakterilerin \"quorum sensing\" mekanizmasıyla biyofilm oluşturmasını, mukoid koloniler meydana getirmesini ve fagositoz ile antibiyotiklerden korunarak kronik akciğer enfeksiyonu yapmasını sağlar. Çeldiriciler: Ekzotoksin A (A) EF-2'yi ADP-ribozilasyonu ile inhibe ederek protein sentezini durdurur. Pili (B) epitel hücrelerine başlangıçtaki tutunmayı, flagella (C) hareketi, Tip VI sekresyon sistemi (D) ise diğer bakterilerle rekabeti ve virülans proteinlerinin taşınmasını sağlar; ancak mukoid koloni ve biyofilm oluşumundan alginat sorumludur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "HIV enfeksiyonu olan 21 yaşındaki bir hastada CD4+ T lenfosit sayısının <200 hücre/µL olması durumunda aşağıdaki aşılardan hangisinin yapılması kontrendikedir?",
+    "options": {
+      "A": "Hepatit B",
+      "B": "Pnömokok",
+      "C": "HPV",
+      "D": "Tetanoz",
+      "E": "Zoster"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Ağır immünsüpresyon kriteri olan CD4+ T lenfosit sayısının <200 hücre/µL olduğu HIV pozitif hastalarda canlı aşıların uygulanması yaygın (dissemine) viral enfeksiyon riski nedeniyle kesinlikle kontrendikedir; seçeneklerdeki canlı atenüe Zoster aşısı (Zostavax / canlı VZV aşısı) bu hastalarda yapılamaz (rekombinant glikoprotein E içeren inaktif Shingrix aşısı ise immünsüpresiflerde kullanılabilir). Çeldiriciler: Rekombinant subünit aşılar olan Hepatit B (A) ve HPV (C), kapsüler polisakkarit/konjuge aşı olan pnömokok (B) ve toksoid aşı olan tetanoz (D) canlı mikroorganizma içermedikleri için CD4 sayısı <200 hücre/µL olan HIV hastalarında güvenle uygulanabilirler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Uzun süreli santral venöz kateter uygulaması ile ilişkili kan akımı enfeksiyonlarının önlenmesi amacıyla, kateter giriş yerinde kullanılması en uygun antiseptik ajan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Glutaraldehit",
+      "B": "Klorheksidin",
+      "C": "Perasetik asit",
+      "D": "Hidrojen peroksit",
+      "E": "Sodyum hipoklorit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Santral venöz kateter takılması sırasında ve kateter giriş yeri bakımında, kateter ilişkili kan dolaşımı enfeksiyonlarını önlemek amacıyla stratum korneuma bağlanarak uzun süreli kalıcı (rezidüel) antimikrobiyal etki gösteren %2'lik klorheksidin (özellikle %70 alkol bazlı solüsyonu) kullanılması en uygun ve altın standart antiseptik yaklaşımdır. Çeldiriciler: Glutaraldehit (A), perasetik asit (C) ve sodyum hipoklorit (E) canlı dokulara toksik ve irritan olan cansız yüzey/alet dezenfektanlarıdır; hidrojen peroksit (D) ise kalıcı antiseptik etkiye sahip olmadığı için kateter giriş yeri antisepsisinde tercih edilmez.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki mikroorganizma ve izole edildiği besiyeri eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Legionella pneumophila – BCYE agar",
+      "B": "Mycobacterium tuberculosis – Löwenstein-Jensen agar",
+      "C": "Leishmania major – Novy-MacNeal-Nicolle (NNN) besiyeri",
+      "D": "Neisseria gonorrhoeae – Modifiye Thayer-Martin agar",
+      "E": "Staphylococcus aureus – MacConkey agar"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): MacConkey agar, içerdiği safra tuzları ve kristal viyole sayesinde Gram-pozitif bakterilerin üremesini baskılayan ve sadece Gram-negatif enterik basillerin üremesine izin veren seçici-ayırt edici bir besiyeridir; Gram-pozitif bir kok olan *Staphylococcus aureus* MacConkey agarda üreyemez (stafilokoklar için Mannitol Tuz Agar / Chapman kullanılır). Çeldiriciler: *Legionella pneumophila* (A) sistein ve demir içeren BCYE agarda, *Mycobacterium tuberculosis* (B) yumurta bazlı Löwenstein-Jensen agarda, *Leishmania major* (C) promastigot formlarının üretildiği tavşan kanlı NNN besiyerinde, *Neisseria gonorrhoeae* (D) ise antibiyotik içerikli seçici Modifiye Thayer-Martin agarda izole edilir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "EUCAST (The European Committee on Antimicrobial Susceptibility Testing) standartlarına göre, aşağıdaki antibakteriyellerden hangisine duyarlılığın belirlenmesinde, agara difüzyonu iyi olmadığı için disk difüzyon testi önerilmez?",
+    "options": {
+      "A": "Kolistin",
+      "B": "Metisilin",
+      "C": "Penisilin",
+      "D": "Fosfomisin",
+      "E": "Gentamisin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Polimiksin E (kolistin), büyük molekül ağırlıklı katyonik polipeptid yapıda olması ve agar matriksine bağlanma eğilimi göstermesi nedeniyle katı besiyerine (agara) difüzyonu çok zayıftır; bu yüzden EUCAST standartlarına göre kolistin duyarlılığının saptanmasında disk difüzyon veya gradyan strip (E-test) yöntemleri önerilmez, altın standart olarak sıvı mikrodilüsyon (broth microdilution) ile MİK tayini yapılmalıdır. Çeldiriciler: Metisilin (sefoxitin diski ile) (B), penisilin (C), fosfomisin (D) ve gentamisin (E) agara iyi difüze olduklarından duyarlılık testlerinde disk difüzyon yöntemi güvenle kullanılabilir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Karanlık alan mikroskopisi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Özel kondansatör içeren mikroskoplar ile uygulanır.",
+      "B": "Rezolüsyon gücü ışık mikroskopisine göre daha iyidir.",
+      "C": "Örnekte spiroket varlığının araştırılmasında kullanılır.",
+      "D": "Mikroorganizmaların iç yapılarının görülmesini sağlar.",
+      "E": "Organizmanın hareketinin izlenmesine olanak verir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Karanlık alan mikroskopisinde ışık örneğe eğik açıyla gönderilir ve yalnızca mikroorganizmanın dış yüzeyinden kırılarak objektife giren ışıklar algılanır; bu yöntemle organizma karanlık zemin üzerinde parlak bir silüet halinde görülür ancak hücrenin iç yapıları görülemez (mikroorganizmaların iç yapılarını ayrıntılı görmek için elektron mikroskobu veya boyasız canlı hücrelerde faz kontrast mikroskobu kullanılır). Çeldiriciler: Karanlık alan mikroskopisi merkezden geçen ışığı engelleyen özel bir karanlık saha kondansatörü ile uygulanır (A), standart ışık mikroskobunda görülemeyen çok ince yapıların (*Treponema*, *Leptospira* gibi spiroketlerin) fark edilmesini sağlayacak yüksek çözünürlük/kontrast sunar (B, C) ve canlı örneklerde spiroketlerin karakteristik burgumsu hareketinin izlenmesine olanak tanır (E).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Sterilizasyon ve dezenfeksiyona karşı direnç profillerine göre aşağıdakilerden hangisinde verilen mikroorganizmalar, en duyarlı olandan en dirençli olana doğru sıralanmıştır?",
+    "options": {
+      "A": "HIV – Staphylococcus aureus – Candida albicans – Pseudomonas aeruginosa – HPV",
+      "B": "HPV – Escherichia coli – Candida albicans – Enterococcus faecalis – HBV",
+      "C": "HBV – Candida albicans – Enterococcus faecalis – Mycobacterium tuberculosis – HPV",
+      "D": "Mycobacterium tuberculosis – HPV – Escherichia coli – Staphylococcus aureus – HIV",
+      "E": "Pseudomonas aeruginosa – HIV – Staphylococcus aureus – HPV – Mycobacterium tuberculosis"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Mikroorganizmaların dezenfektanlara karşı duyarlılığı en duyarlıdan (en kolay ölen) en dirençliye doğru sıralandığında; en duyarlı grup zarflı virüsler (HIV), ardından Gram-pozitif vejetatif bakteriler (*Staphylococcus aureus*), daha sonra mantarlar (*Candida albicans*), dış membranları nedeniyle daha dirençli olan Gram-negatif bakteriler özellikle *Pseudomonas aeruginosa* ve bu listedeki en dirençli etken olarak protein kapsidli zarfsız küçük virüsler (HPV) gelir. Çeldiriciler: B ve D şıklarında zarfsız virüs (HPV) veya mikobakteri en duyarlı olarak başa konulmuştur; C şıkkında mikobakteri ve *Enterococcus* sıralaması hatalıdır; E şıkkında ise en duyarlı olan zarflı virüs (HIV) *Pseudomonas aeruginosa*'dan daha dirençli gibi gösterilmiştir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Mikrobiyoloji laboratuvarında ısıdan etkilenen sıvı besiyerlerinin hazırlanmasında kullanılan sterilizasyon yöntemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ultraviyole",
+      "B": "Filtrasyon",
+      "C": "Etilen oksit",
+      "D": "Kuru ısı",
+      "E": "Otoklav"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Mikrobiyoloji laboratuvarlarında serum, karbonhidrat, üre veya antibiyotik içeren ve ısıyla yapısı bozulan (termolabil) sıvı besiyerlerinin sterilizasyonunda en uygun yöntem membran filtrelerden geçirilerek yapılan filtrasyon (süzme) işlemidir. Çeldiriciler: Ultraviyole (UV) ışınları (A) sıvıların derinliklerine nüfuz edemediği için yalnız hava ve düz yüzey dezenfeksiyonunda kullanılır. Etilen oksit (C) katı tıbbi cihazlar için kullanılan toksik bir gazdır, sıvı besiyerlerinde kullanılamaz. Kuru ısı (Pastör fırını) (D) ve basınçlı buhar (otoklav) (E) ise yüksek sıcaklık kullandıkları için ısıdan etkilenen sıvı besiyerlerinin yapısını bozar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisinin klinik örnekten ilk izolasyonunda üretilebilmesi için besiyerinde mutlaka sistein bulunmalıdır?",
+    "options": {
+      "A": "Brucella melitensis",
+      "B": "Haemophilus influenzae",
+      "C": "Neisseria gonorrhoeae",
+      "D": "Listeria monocytogenes",
+      "E": "Francisella tularensis"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tularemi etkeni olan *Francisella tularensis* (ve *Legionella pneumophila*), üreyebilmek için besiyerinde mutlaka sistein (sülfidril bileşikleri) bulunmasına ihtiyaç duyan nazlı bir bakteridir; bu nedenle ilk izolasyonunda sistein içeren BCYE (tamponlanmış kömürlü maya özütü) agar, sistin-glukoz-kanlı agar veya sisteinli çikolata agar kullanılır. Çeldiriciler: *Brucella melitensis* (A) kanlı ve çikolata agarda, *Haemophilus influenzae* (B) X (hemin) ve V (NAD) faktörleri içeren çikolata agarda, *Neisseria gonorrhoeae* (C) Thayer-Martin agarda, *Listeria monocytogenes* (D) ise standart koyun kanlı agarda sistein zorunluluğu olmadan ürer.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Staphylococcus aureus için seçici-ayırıcı bir besiyeridir?",
+    "options": {
+      "A": "Sabouraud dextrose agar",
+      "B": "MacConkey agar",
+      "C": "Lowenstein-Jensen agar",
+      "D": "Mannitol tuz agar",
+      "E": "Sistin tellürit agar"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Mannitol tuz agar (MSA / Chapman besiyeri), içerdiği %7,5'lik yüksek NaCl konsantrasyonu ile diğer bakterileri baskılayıp stafilokoklar için seçici olurken, içerdiği mannitol şekeri ve fenol kırmızısı indikatörü sayesinde mannitolü fermente ederek sarı renkli koloniler oluşturan *Staphylococcus aureus*'u pembe-kırmızı koloni oluşturan koagülaz-negatif stafilokoklardan ayıran seçici ve ayırt edici besiyeridir. Çeldiriciler: Sabouraud dekstroz agar (A) mantarlar için, MacConkey agar (B) Gram-negatif enterik basiller için, Lowenstein-Jensen agar (C) mikobakteriler (*M. tuberculosis*) için, sistin tellürit agar (E) ise *Corynebacterium diphtheriae* izolasyonu için kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisine karşı korunma sağlamak amacıyla üretilen aşı, polisakkarit aşıdır?",
+    "options": {
+      "A": "Corynebacterium diphtheriae",
+      "B": "Clostridium tetani",
+      "C": "Bordetella pertussis",
+      "D": "Neisseria meningitidis",
+      "E": "Mycobacterium tuberculosis"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): *Neisseria meningitidis* (meningokok), *Streptococcus pneumoniae* (pnömokok) ve *Haemophilus influenzae* tip b (Hib) bakterilerine karşı korunmak amacıyla üretilen aşılar, bu bakterilerin en önemli virülans faktörü olan kapsüler polisakkaritlerinden hazırlanan (saf veya taşıyıcı proteinle konjuge edilmiş) polisakkarit aşılardır. Çeldiriciler: *Corynebacterium diphtheriae* (A) ve *Clostridium tetani* (B) aşıları toksoid aşılardır. *Bordetella pertussis* aşısı (C) aselüler protein veya inaktif tam hücre aşısıdır. *Mycobacterium tuberculosis* için kullanılan BCG aşısı (E) ise canlı atenüe bakteri aşısıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Sağlık kurumlarında uygulanan sterilizasyon işlemi sonrasında ortamda tek bir canlı mikroorganizma bulunma olasılığı (sterilizasyon güvence düzeyi) ne olmalıdır?",
+    "options": {
+      "A": "$10^{-4}$",
+      "B": "$10^{-5}$",
+      "C": "$10^{-6}$",
+      "D": "$10^{-7}$",
+      "E": "$10^{-8}$"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Sterilizasyon güvence düzeyi (Sterility Assurance Level - SAL), validasyonu yapılmış bir sterilizasyon işlemi sonrasında steril edilen tıbbi malzeme üzerinde tek bir canlı mikroorganizma (veya spor) kalma olasılığını ifade eder; uluslararası sağlık standartlarına göre kabul edilen bu olasılık en fazla milyonda bir yani $10^{-6}$ (veya daha düşük) olmalıdır. Çeldiriciler: $10^{-4}$ (A) ve $10^{-5}$ (B) düzeyleri tıbbi cihaz sterilizasyonu için yetersiz kabul edilirken, standart tanımda referans alınan eşik değer $10^{-7}$ (D) veya $10^{-8}$ (E) değil $10^{-6}$ değeridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Pnömoni tanısı ile hastaneye yatırılan 65 yaşında erkek hastadan gönderilen balgam örneğinin kültüründe yoğun düzeyde Streptococcus pneumoniae ürüyor. İn-vitro olarak duyarlı bulunsa bile aşağıdaki antimikrobiyallerden hangisinin bu hastada kullanılması uygun değildir?",
+    "options": {
+      "A": "Penisilin G",
+      "B": "Eritromisin",
+      "C": "Vankomisin",
+      "D": "Daptomisin",
+      "E": "Moksifloksasin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Siklik lipopeptid yapıda bir antibiyotik olan daptomisin, in vitro olarak *Streptococcus pneumoniae* ve MRSA gibi Gram-pozitif bakterilere güçlü bakterisidal etki gösterse de akciğer alveollerinde bulunan pulmoner sürfaktan tarafından bağlanarak parçalandığı ve inaktive edildiği için pnömoni tedavisinde kesinlikle kullanılmaz. Çeldiriciler: Penisilin G (A), makrolid grubundan eritromisin (B), glikopeptid grubundan vankomisin (C) ve \"solunum kinolonu\" olarak bilinen moksifloksasin (E) akciğer dokusuna ve alveoler sıvıya iyi geçtikleri ve sürfaktandan etkilenmedikleri için duyarlı *Streptococcus pneumoniae* pnömonisinin tedavisinde uygun seçeneklerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki floresan boyalardan hangisi nükleik asitleri boyaması nedeniyle hücre duvarı olmayan bakterilerin de görülmesini sağlar?",
+    "options": {
+      "A": "Akridin oranj",
+      "B": "Kalkoflor beyazı",
+      "C": "Auramin O",
+      "D": "Rhodamin B",
+      "E": "Fluorescein isothiocyanate (FITC)"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Akridin oranj, hücre duvarı yapısından bağımsız olarak hem prokaryotik hem de ökaryotik hücrelerdeki nükleik asitlere (DNA ve RNA'ya) interkalasyon yoluyla bağlanan bir florokrom boyadır; bu özelliği sayesinde kan kültürlerinde veya klinik örneklerde *Mycoplasma* gibi hücre duvarı olmayan bakterilerin ve L-formlarının floresan mikroskobunda görülmesini sağlar. Çeldiriciler: Kalkoflor beyazı (B) mantarların hücre duvarındaki kitin (beta-1,3 ve beta-1,4 polisakkarit) bağlarına bağlanarak mantarların gösterilmesinde kullanılır. Auramin O (C) ve Rhodamin B (D) hücre duvarındaki mikolik asitlere bağlanarak mikobakterilerin gösterilmesinde kullanılır. FITC (E) ise doğrudan nükleik asit boyası olmayıp immünfloresan tanı testlerinde antikorları işaretlemek için kullanılan floresan boyadır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakteri cinslerinden hangisinin aside dirençli boyanma olasılığı en azdır?",
+    "options": {
+      "A": "Nocardia spp.",
+      "B": "Bordetella spp.",
+      "C": "Rhodococcus spp.",
+      "D": "Legionella spp.",
+      "E": "Mycobacterium spp."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): *Bordetella* türleri (*Bordetella pertussis* vb.), hücre duvarında mikolik asit içermeyen klasik Gram-negatif kokobasillerdir ve aside dirençli boyama (ARB/EZN) özelliği göstermezler. Çeldiriciler: *Mycobacterium* türleri (E) uzun zincirli mikolik asitleri sayesinde güçlü aside dirençli boyanırken, orta zincirli mikolik asit içeren aktinomisetler olan *Nocardia* türleri (A) ve *Rhodococcus equi* (C) ile *Legionella* cinsinden *Legionella micdadei* (D) modifiye (zayıf asitli) aside dirençli boyama yöntemiyle ARB pozitif boyanma özelliği gösterirler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bakteri tiplendirilmesinde kullanılabilecek fenotipik yöntemlerden biri değildir?",
+    "options": {
+      "A": "Serotiplendirme",
+      "B": "Restriksiyon endonükleaz tiplendirmesi",
+      "C": "Biyotiplendirme",
+      "D": "Faj tiplendirmesi",
+      "E": "Bakteriyosin tiplendirme"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Restriksiyon endonükleaz tiplendirmesi (RFLP, PFGE vb.), bakteri DNA'sının restriksiyon enzimleriyle kesilerek oluşan DNA bant paternlerinin incelenmesine dayanan moleküler yani genotipik bir tiplendirme yöntemidir; fenotipik bir yöntem değildir. Çeldiriciler: Bakterinin yüzey antijenlerinin antikorlarla saptanmasına dayanan serotiplendirme (A), biyokimyasal ve metabolik enzim aktivitelerine dayanan biyotiplendirme (C), bakterinin belirli bakteriyofajlarla lizis olma duyarlılığına dayanan faj tiplendirmesi (D) ve ürettiği bakteriyosin proteinlerine dayanan bakteriyosin tiplendirme (E) bakterinin eksprese ettiği dış özelliklerini inceleyen fenotipik tiplendirme yöntemleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Biyogüvenlik düzey-3 (BGD3) laboratuvarı biyogüvenlik düzey-2 (BGD2) laboratuvardan ayıran özellik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Laboratuvar girişinde \"biyolojik tehlike\" işaretinin yer alması",
+      "B": "Aerosol oluşturan işlemlerin biyogüvenlik kabininde yapılması",
+      "C": "Laboratuvar içinde göz duşu bulunması",
+      "D": "Laboratuvar içinde negatif hava basıncı olması",
+      "E": "Kişisel koruyucu ekipman giyilmesi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Biyogüvenlik Düzeyi-3 (BSL-3 / BGD3) laboratuvarlarında *Mycobacterium tuberculosis*, *Brucella* ve *Francisella tularensis* gibi inhalasyon (solunum/aerosol) yoluyla bulaşarak ciddi ve potansiyel olarak ölümcül hastalık yapan etkenlerle çalışılır; bu etkenlerin laboratuvar dışına kaçmasını önlemek amacıyla içeriye doğru tek yönlü hava akımı sağlayan negatif hava basıncı ve çift kapılı kontrollü giriş-çıkış sistemi bulunması BGD3'ü BGD2'den ayıran temel yapısal özelliktir. Çeldiriciler: Girişte biyolojik tehlike işareti bulunması (A), potansiyel aerosol oluşturan işlemlerin biyogüvenlik kabininde yapılması (B), laboratuvarda göz duşu bulunması (C) ve önlük/eldiven gibi kişisel koruyucu ekipman giyilmesi (E) BGD2 laboratuvarlarında da standart olarak uygulanan güvenlik önlemleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Yarı kritik tıbbi cihazlara uygulanacak dekontaminasyon işlemi için tercih edilmesi en uygun yüksek düzey dezenfektan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aldehitler",
+      "B": "İyodoforlar",
+      "C": "Kuaterner amonyum bileşikleri",
+      "D": "Alkoller",
+      "E": "Fenoller"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Sağlam mukozalarla temas eden endoskoplar gibi yarı kritik tıbbi cihazların dekontaminasyonunda yüksek düzey dezenfeksiyon uygulanmalıdır; seçenekler arasında yüksek düzey dezenfektan özelliğine sahip olan tek grup aldehitlerdir (glutaraldehit ve ortofitaldehit). Çeldiriciler: İyodoforlar (B), alkoller (D) ve fenoller (E) orta düzey dezenfektanlar olup bakteri sporlarına etkisizdirler; kuaterner amonyum bileşikleri (C) ise düşük düzey dezenfektandır ve yarı kritik cihazların yüksek düzey dezenfeksiyonunda kullanılamazlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki virülans faktörlerinden hangisi sadece gram-negatif bakteriler tarafından kullanılır?",
+    "options": {
+      "A": "Kapsül",
+      "B": "İnvazin",
+      "C": "Ekzotoksin",
+      "D": "İnjektosom",
+      "E": "Siderofor"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tip III sekresyon sistemi olarak da bilinen injektosom, bakterinin iç membranı, periplazmik aralığı ve dış membranını boydan boya geçerek konak hücreye efektör virülans proteinlerini enjekte eden şırınga benzeri bir kompleks olup yalnızca Gram-negatif bakterilerde (*Yersinia*, *Salmonella*, *Shigella*, *Pseudomonas*, EPEC, *Chlamydia*) bulunur. Çeldiriciler: Antifagositik kapsül (A), bakterinin konak hücre içine girişini sağlayan yüzey proteinleri olan invazinler (*Listeria* internalini, *Yersinia* invazini vb.) (B), hücre dışına salgılanan protein yapılı ekzotoksinler (C) ve ortamdan demir bağlayan sideroforlar (E) hem Gram-pozitif hem de Gram-negatif bakteriler tarafından kullanılabilen virülans faktörleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Tonsillit tanısı ile alınan boğaz sürüntü örneğinde beta-hemolitik streptokok için yapılan hızlı antijen testi pozitif bulunan ve penisilin alerjisi olan hastada kullanılabilecek uygun antibiyotiğin etki mekanizması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dihidropteroat sentazın inhibisyonu",
+      "B": "DNA giraza bağlanarak DNA sentezinin inhibisyonu",
+      "C": "30S ribozoma bağlanarak protein sentezinin inhibisyonu",
+      "D": "DNA bağımlı RNA polimeraz enzimi inhibisyonu",
+      "E": "50S ribozoma bağlanarak protein sentezinin inhibisyonu"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): A grubu beta-hemolitik streptokok (*Streptococcus pyogenes*) tonsillofarenjitinde ilk tercih penisilin olmakla birlikte, penisilin alerjisi olan hastalarda tercih edilen alternatif ilaçlar makrolidlerdir (eritromisin, klaritromisin, azitromisin); makrolidler bakteriyel ribozomun 50S alt biriminin 23S rRNA bölgesine bağlanarak peptid zincirinin translokasyonunu ve protein sentezini inhibe ederler. Çeldiriciler: Dihidropteroat sentaz inhibisyonu (A) sülfonamidlerin, DNA giraz inhibisyonu (B) kinolonların, 30S ribozomal alt ünite inhibisyonu (C) aminoglikozid ve tetrasiklinlerin, DNA bağımlı RNA polimeraz inhibisyonu (D) ise rifampinin etki mekanizması olup bu ajanlar streptokokal tonsillit tedavisinde tercih edilmezler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisinin, kültür laboratuvarı çalışanlarına aerosol yoluyla bulaşma riski diğerlerine göre yüksektir?",
+    "options": {
+      "A": "Acinetobacter baumannii",
+      "B": "Legionella pneumophila",
+      "C": "Streptococcus pneumoniae",
+      "D": "Brucella melitensis",
+      "E": "Mycoplasma pneumoniae"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): *Brucella* türleri (*Brucella melitensis*), çok düşük enfektif doza sahip olmaları ve kültür plaklarının koklanması veya açık bankoda çalışılması sırasında oluşan aerosollerin inhalasyonu yoluyla son derece kolay bulaşmaları nedeniyle dünyada laboratuvar kaynaklı bakteriyel enfeksiyonların en sık etkenleri arasında yer alır; bu nedenle kültürleriyle çalışılırken mutlaka Biyogüvenlik Düzeyi-3 (BSL-3) önlemleri ve biyogüvenlik kabini kullanılmalıdır. Çeldiriciler: *Acinetobacter baumannii* (A), *Legionella pneumophila* (B), *Streptococcus pneumoniae* (C) ve *Mycoplasma pneumoniae* (E) Biyogüvenlik Düzeyi-2 (BSL-2) kapsamında değerlendirilen ve kültürden laboratuvar çalışanına aerosol bulaş riski *Brucella* kadar yüksek olmayan etkenlerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Shigella dysenteriae tarafından salınan Shiga toksininin kodlandığı gen lokasyonu ve biyolojik etkisi aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Faj – Adenilat siklaz aktivasyonu",
+      "B": "Plazmid – Protein sentez inhibisyonu",
+      "C": "Kromozom – Adenilat siklaz aktivasyonu",
+      "D": "Plazmid – Adenilat siklaz aktivasyonu",
+      "E": "Kromozom – Protein sentez inhibisyonu"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): *Shigella dysenteriae* tip 1 tarafından üretilen gerçek Shiga toksini, bakteriyel kromozom üzerinde yer alan stx genleri tarafından kodlanır (EHEC'in ürettiği Shiga-benzeri toksin/verotoksin ise faj tarafından kodlanır); biyolojik etkisini ise ökaryotik 60S ribozomal alt birimin 28S rRNA'sından spesifik bir adenin bazını kopararak (N-glikozidaz aktivitesi) konak hücrede protein sentezini irreversibl olarak inhibe etmek suretiyle gösterir. Çeldiriciler: Faj veya plazmid kodlu olma ve adenilat siklazı aktive ederek cAMP artışı yapma (kolera toksini ve ETEC labil toksininin mekanizması) ifadelerini içeren A, B, C ve D şıkları *Shigella dysenteriae*'nin Shiga toksini için yanlıştır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "I. Eozin-metilen mavisi agar (EMB) II. Lowenstein-Jensen besiyeri (LJ) III. Mueller Hinton agar (MHA) IV. Sabouraud dekstroz agar (SDA) Yukarıdaki besiyerlerinden hangileri seçici ve ayırt edicidir?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I ve IV",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Eozin-metilen mavisi (EMB) agar ve Lowenstein-Jensen (LJ) besiyeri, istenmeyen florayı baskılayıp hedef bakterilerin karakteristik koloni morfolojileriyle tanınmasını sağlayan seçici (selektif) ve ayırt edici (diferansiyel) besiyerleridir. Çeldiriciler: Seçici olmayan genel besiyeri niteliğindeki Mueller Hinton agar (III) ve standart Sabouraud dekstroz agarı (IV) içeren B, C, D ve E şıkları yanlıştır. Öncüllerin analizi: I. Doğru; EMB agar içerdiği eozin Y ve metilen mavisi boyalarıyla Gram-pozitif bakterileri baskılar (seçici) ve laktoz fermentasyonuna göre Gram-negatif basilleri (*E. coli*'nin yeşil metalik parlaklık vermesi gibi) birbirinden ayırır (ayırt edici). II. Doğru; Lowenstein-Jensen besiyeri içerdiği malaşit yeşili ile diğer solunum yolu bakterilerinin üremesini baskılayarak mikobakteriler için seçicilik sağlar ve *M. tuberculosis*'in karakteristik sarımtırak, kaba, karnabahar/ekmek kırıntısı görünümündeki kolonileriyle ayırt edilmesine olanak tanır. III. Yanlış; Mueller Hinton agar antibiyotik duyarlılık testlerinde (Kirby-Bauer disk difüzyon) kullanılan seçici olmayan bir besiyeridir. IV. Yanlış; Sabouraud dekstroz agar mantarların genel üretimi ve izolasyonu için kullanılan besiyeri olup ayırt edici (diferansiyel) bir indikatör sistem içermez.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisinin ürettiği toksinin süperantijen niteliğinde olması en olasıdır?",
+    "options": {
+      "A": "Staphylococcus aureus",
+      "B": "Clostridium tetani",
+      "C": "Corynebacterium diphtheriae",
+      "D": "Bordetella pertussis",
+      "E": "Bacillus anthracis"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): *Staphylococcus aureus* tarafından üretilen Toksik Şok Sendromu Toksini-1 (TSST-1), stafilokokal enterotoksinler (A-E, G-I) ve eksfoliyatif toksinler (ve ayrıca *Streptococcus pyogenes*'in pirojenik/eritrojenik ekzotoksinleri) süperantijen niteliğindedir; hücre içinde işlenmeden antijen sunan hücrenin MHC sınıf II molekülüne ve T lenfosit reseptörünün (TCR) V-beta bölgesine dışarıdan bağlanarak tüm T hücrelerinin %20'ye varan kısmını non-spesifik (poliklonal) olarak aktive eder ve yoğun sitokin fırtınasına yol açar. Çeldiriciler: *Clostridium tetani*'nin tetanospazmini (B), *Corynebacterium diphtheriae*'nin difteri toksini (C), *Bordetella pertussis*'in boğmaca toksini (D) ve *Bacillus anthracis*'in şarbon toksini (E) süperantijen olmayıp spesifik hücre içi hedeflere etki eden klasik A-B yapısında ekzotoksinlerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakteri yapılarından hangisinin dolaşıma bol miktarda salınmasının insanlarda dissemine intravasküler koagülasyona neden olması en olasıdır?",
+    "options": {
+      "A": "Dış membran lipopolisakkaridleri",
+      "B": "Peptidoglikan tabakasındaki teikoik asitler",
+      "C": "Kapsüler polisakkaritler",
+      "D": "Flajellar proteinler",
+      "E": "Spordaki dipikolinik asitler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Gram-negatif bakterilerin dış membranında yer alan lipopolisakkarit (LPS / endotoksin) ve onun toksik bileşeni olan Lipid A, bakteri parçalandığında kan dolaşımına bol miktarda salınır; makrofajları (CD14 ve TLR4 üzerinden) uyararak aşırı TNF-alfa, IL-1 ve IL-6 salınımına, komplemanın alternatif yoldan aktivasyonuna ve Hageman faktörü (Faktör XII) ile doku faktörünün aktivasyonuna yol açarak septik şok ve dissemine intravasküler koagülasyona (DİK) neden olur. Çeldiriciler: Gram-pozitiflerde tutunmayı sağlayan teikoik asitler (B), bakteriyi fagositozdan koruyan kapsüler polisakkaritler (C), hareketi sağlayan flajellar proteinler (D) ve sporun ısıya direncini sağlayan dipikolinik asit (E) doğrudan endotoksin niteliğinde DİK başlatıcı temel yapılar değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Bir laboratuvar deneyinde iki ayrı kapta bakteri kökenleri üretiliyor. A kabındaki bakterilerin ürediği sıvı besiyeri, bakteriler tamamen ayrıldıktan sonra B kabına eklendiğinde, B kabındaki bakterilerin yeni genler kazandığı saptanıyor. A kabından alınan besiyerine proteaz eklenerek deney tekrarlandığında, B kabındaki bakterilerin yeni gen almadığı görülüyor. Buna göre yukarıda açıklanan deneyde B kabındaki bakterilere gen aktarımından sorumlu en olası mekanizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Transformasyon",
+      "B": "Transdüksiyon",
+      "C": "Konjugasyon",
+      "D": "Rekombinasyon",
+      "E": "Mutasyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Deneyde A kabındaki bakteriler tamamen uzaklaştırıldıktan sonra sıvı süzüntüyle B kabına gen aktarılması hücre-hücre teması gerekmediğini (konjugasyon olmadığını) gösterir; ortama proteinleri parçalayan \"proteaz\" enzimi eklendiğinde gen aktarımının durması ise genetik materyali taşıyan aracının protein yapılı bir kılıfa (kapside) sahip olduğunu kanıtlar ki bu da bakteriyofaj (virüs) aracılı gen aktarımı olan transdüksiyondur. Çeldiriciler: Transformasyon (A) ortamdaki çıplak DNA'nın alınmasıdır ve proteaz ile değil, sadece DNaz enzimi ilavesiyle inhibe olur. Konjugasyon (C) iki canlı bakterinin F-pilusu ile doğrudan temasını gerektirir, bakterisiz sıvı ile gerçekleşmez. Rekombinasyon (D) hücre içine girmiş DNA'nın genoma entegrasyon sürecidir, hücreler arası aktarım yolu değildir. Mutasyon (E) ise dışarıdan gen alımı olmaksızın baz dizisinde kendiliğinden veya mutajenlerle oluşan değişimdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Polimeraz zincir reaksiyonu metodunda aşağıdaki basamakların hangisinde test ortamındaki serbest nükleotidler primerlerin sonundan itibaren bağlanmaya başlar?",
+    "options": {
+      "A": "Uzama",
+      "B": "Ekstraksiyon",
+      "C": "Denatürasyon",
+      "D": "Bağlanma",
+      "E": "Amplifikasyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Polimeraz zincir reaksiyonunun (PCR) üçüncü aşaması olan uzama (elongasyon/ekstansiyon) basamağında (yaklaşık 72°C'de), ısıya dayanıklı DNA polimeraz (Taq polimeraz) enzimi kalıp DNA'ya bağlanmış olan primerlerin serbest 3'-OH ucundan başlayarak ortamdaki serbest deoksiribonükleotid trifosfatları (dNTP) tamamlayıcı baz eşleşmesine göre ekleyip yeni DNA zincirini sentezler. Çeldiriciler: Ekstraksiyon (B) PCR döngüsü öncesinde örnekten nükleik asidin saflaştırılması işlemidir. Denatürasyon (C) ~94-98°C'de çift sarmal DNA'nın iki tek zincire ayrıldığı ilk basamaktır. Bağlanma (annealing) (D) ~50-65°C'de özgül primerlerin tek iplikli kalıp DNA üzerindeki hedef bölgelere tutunduğu ikinci basamaktır. Amplifikasyon (E) ise bu üç basamaklı döngünün tekrarlanmasıyla hedef DNA'nın çoğaltılması sürecinin genel adıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Dışkı kültüründe Escherichia coli O157:H7 saptanması için gereken en uygun özel besiyeri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hektoen enterik agar",
+      "B": "Sorbitol MacConkey agar",
+      "C": "Koyun kanlı agar",
+      "D": "Tiyosülfat sitrat safra tuzlu sükroz (TCBS) agar",
+      "E": "Skirrow agar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Hemorajik kolit ve hemolitik üremik sendrom (HÜS) etkeni olan enterohemorajik *Escherichia coli* (EHEC) O157:H7 suşu, diğer *E. coli* suşlarının aksine sorbitol şekerini fermente edemez; bu nedenle laktoz yerine %1 sorbitol içeren Sorbitol MacConkey (SMAC) agarda renksiz koloniler oluşturarak pembe-kırmızı koloni oluşturan normal flora *E. coli* suşlarından kolayca ayırt edilir. Çeldiriciler: Hektoen enterik agar (A) *Salmonella* ve *Shigella* izolasyonu için, koyun kanlı agar (C) genel bakteri üretimi için, TCBS agar (D) *Vibrio* türlerinin izolasyonu için, Skirrow agar (E) ise *Campylobacter* türlerinin izolasyonu için kullanılan besiyerleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "On beş yaşındaki erkek çocuk; boğaz ağrısı, kulak ağrısı, iştahsızlık ve bir haftadır devam eden kuru öksürük şikayetiyle çocuk hastalıkları polikliniğine getiriliyor. Farenjit, subfebril ateş ve kanda normal lökosit düzeyi saptanan hastanın akciğer radyografisinde interstisyel pnömoni bulguları saptanıyor. Alınan balgam örneğinin koyun kanlı agar, çikolata agar ve EMB agara yapılan kültürlerinde üreme saptanmıyor. Bu hastadaki en olası bakteriyel enfeksiyonun tedavisinde aşağıdaki antibiyotiklerden hangisinin tercih edilmesi en uygundur?",
+    "options": {
+      "A": "Penisilin G",
+      "B": "2. kuşak sefalosporin",
+      "C": "Makrolid",
+      "D": "Rifampin",
+      "E": "Trimetoprim-sulfametoksazol"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Adölesan/genç erişkin hastada subfebril ateş, inatçı kuru öksürük, kulak ağrısı (büllöz mirinjit), radyografide interstisyel pnömoni ve standart besiyerlerinde üreme olmaması tablosu atipik pnömoninin (\"walking pneumonia\") en sık etkeni olan *Mycoplasma pneumoniae* enfeksiyonunu gösterir; *Mycoplasma pneumoniae*'nin hücre duvarı olmadığı için tedavisinde 50S ribozomal alt ünite üzerinden protein sentezini inhibe eden makrolidler (klaritromisin, azitromisin) ilk tercihtir (alternatif olarak tetrasiklinler veya solunum kinolonları verilebilir). Çeldiriciler: Penisilin G (A) ve 2. kuşak sefalosporinler (B) hücre duvarı (peptidoglikan) sentezini inhibe ettikleri için hücre duvarı bulunmayan *Mycoplasma* türlerine karşı tamamen etkisizdirler; rifampin (D) ve trimetoprim-sulfametoksazol (E) ise *Mycoplasma pneumoniae* tedavisinde etkili ve endike değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakteri toksinlerinden hangisi makrofajlar ve T hücrelerinden çok yoğun sitokin salınımına neden olur?",
+    "options": {
+      "A": "Staphylococcus aureus enterotoksini",
+      "B": "Bacillus cereus enterotoksini",
+      "C": "Bacillus anthracis letal toksini",
+      "D": "Staphylococcus aureus P-V lökosidini",
+      "E": "Vibrio cholerae toksini"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): *Staphylococcus aureus* enterotoksinleri (ve TSST-1 toksini), süperantijen özelliğine sahip toksinlerdir; antijen sunan hücrelerin (makrofajlar) yüzeyindeki MHC sınıf II molekülü ile CD4+ T lenfositlerin TCR V-beta bölgesini antijen özgüllüğü olmaksızın birbirine bağlayarak poliklonal T hücre aktivasyonuna ve hem makrofajlardan (IL-1, TNF-alfa) hem de T hücrelerinden (IL-2, IFN-gama) çok yoğun sitokin salınımına (sitokin fırtınasına) neden olurlar. Çeldiriciler: *Bacillus cereus* enterotoksinleri (B) emetik veya adenilat siklaz aktive edici toksinlerdir; *Bacillus anthracis* letal toksini (C) MAP kinazları parçalayan bir metalloproteazdır; *Staphylococcus aureus* Panton-Valentine (P-V) lökosidini (D) lökosit membranlarında por açarak hücreyi parçalayan bir sitolizindir; *Vibrio cholerae* toksini (E) ise Gs proteinini ADP-ribozilasyonu ile aktive ederek cAMP artışı sağlayan bir enterotoksindir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Aşağıdaki bakterilerden hangisi optimum üreme için yaklaşık %5-10 oksijen içeren mikroaerofilik atmosfer şartlarına ihtiyaç duyar?",
+    "options": {
+      "A": "Staphylococcus aureus",
+      "B": "Mycobacterium tuberculosis",
+      "C": "Bacteroides fragilis",
+      "D": "Listeria monocytogenes",
+      "E": "Helicobacter pylori"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): *Helicobacter pylori* (ve *Campylobacter jejuni*), normal atmosferik oksijen (%21 $O_2$) konsantrasyonunda üreyemeyen, optimum üreme için azaltılmış oksijen (%5 $O_2$), artırılmış karbondioksit (%10 $CO_2$) ve %85 $N_2$ içeren mikroaerofilik atmosfer şartlarına ihtiyaç duyan kıvrık/spiral şekilli Gram-negatif bir basildir. Çeldiriciler: *Staphylococcus aureus* (A) ve *Listeria monocytogenes* (D) hem oksijenli hem oksijensiz ortamda üreyebilen fakültatif anaerob bakterilerdir. *Mycobacterium tuberculosis* (B) yüksek oksijen konsantrasyonuna gereksinim duyan zorunlu aerob bir bakteridir. *Bacteroides fragilis* (C) ise oksijen varlığında üreyemeyen zorunlu anaerob bir bakteridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  },
+  {
+    "question": "Mikrobiyoloji laboratuvarında işlem gören patojenler için aşağıdaki biyogüvenlik düzeyi (BGD) – etken eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "BGD-4 – Kırım-Kongo kanamalı ateşi virusu",
+      "B": "BGD-3 – Mycobacterium tuberculosis",
+      "C": "BGD-4 – Marburg virusu",
+      "D": "BGD-1 – Bacillus subtilis",
+      "E": "BGD-1 – Salmonella spp."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Biyogüvenlik Düzeyi-1 (BGD-1 / BSL-1) laboratuvarları yalnızca sağlıklı erişkin insanlarda hastalık oluşturmayan non-patojen mikroorganizmalarla çalışılan temel eğitim laboratuvarlarıdır; *Salmonella* türleri ise insanda tifo ve gastroenterit gibi ciddi enfeksiyonlara neden olan patojenler oldukları için BGD-1 değil, Biyogüvenlik Düzeyi-2 (BGD-2) (veya *Salmonella* Typhi ile yoğun aerosol üreten işlemlerde BGD-3) düzeyinde çalışılması gereken etkenlerdir. Çeldiriciler: Etkin bir tedavisi veya aşısı olmayan ve yüksek ölümcüllükle seyreden viral kanamalı ateş etkenleri olan Kırım-Kongo kanamalı ateşi virusu (A) ve Marburg virusu (ve Ebola) (C) en üst güvenlik seviyesi olan BGD-4 laboratuvarlarında incelenir. İnhalasyon (aerosol) yoluyla bulaşarak ciddi hastalık yapan *Mycobacterium tuberculosis* (B) negatif basınçlı BGD-3 laboratuvarlarında çalışılır. Sağlıklı insanda hastalık yapmayan *Bacillus subtilis* (D) ise BGD-1 düzeyinde çalışılan klasik etkendir. --- ##BÖLÜM 2 İMMUNOLOJİ",
+    "lesson": "Mikrobiyoloji",
+    "unit": "1 Temel Mikrobiyoloji"
+  }
+]

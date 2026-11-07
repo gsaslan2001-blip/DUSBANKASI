@@ -1,0 +1,339 @@
+[
+  {
+    "question": "Çatlak diş sendromuyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İleri ve orta yaşlardaki bireylerde sıklıkla molar dişlerde görülür.",
+      "B": "Ağrı mekanizması hidrodinamik teori ile açıklanabilir.",
+      "C": "Vitalite testlerine genellikle pozitif cevap verir.",
+      "D": "Radyografik değerlendirme kesin tanı için yeterlidir.",
+      "E": "En belirgin şikâyet çiğneme sırasında şiddetli ve ani ağrıdır, sıklıkla soğuk uyaranlara karşı hassasiyet vardır."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Çatlak diş sendromunda çatlak hattı genellikle meziyodistal yönde uzandığı ve X-ışını düzlemiyle süperpoze olduğu için radyografik değerlendirme (hatta ayrılma belli bir seviyeye ulaşmadan tomografi bile) kesin tanı koymak için çoğu zaman yetersizdir. Çeldiriciler: - A) Yaşlanmayla birlikte dentinin esnekliğini kaybetmesi (skleroz ve kollajen çapraz bağlarının artışı) nedeniyle orta-ileri yaş bireylerde, çiğneme kuvvetlerini karşılayan molar dişlerde sık görülür. - B) Çatlak hattındaki ayrılma ve kapanma hareketleri dentin lenfinin yer değiştirmesine yol açtığından ağrı hidrodinamik teori ile açıklanır. - C) Pulpa genellikle canlılığını koruduğu için vitalite testlerine pozitif yanıt alınır. - E) Isırma ve özellikle ısırmayı bırakma (ağız açma) esnasında çatlak yapraklarının hızla yaklaşmasıyla dentin lenfinin sıkışması sonucu oluşan ani, şiddetli \"geri tepme (rebound) ağrısı\" ve soğuk hassasiyeti en karakteristik bulgusudur.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "I. Radyografi kesin tanı için yeterlidir. II. Hidrodinamik teori nedeniyle sıklıkla soğuk uyaranlara bağlı hassasiyet şikayeti görülür. III. Isırma sonrası ağrı en karakteristik bulgusudur. IV. Vitalite testi genellikle negatiftir. Çatlak diş sendromuyla ilgili yukarıda verilen öncüllerden hangisi/hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve III",
+      "C": "I, III ve IV",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Çatlak diş sendromunda hidrodinamik mekanizmayla soğuk hassasiyeti ve ısırma/bırakma sırasında oluşan karakteristik ağrı gözlenir. Öncüllerin Analizi: - I. Öncül (Yanlış): Çatlakların meziyodistal yerleşimi ve süperpozisyon nedeniyle radyografi üzerinden kesin tanı koymak çoğu kez imkansızdır. - II. Öncül (Doğru): Çatlak hattındaki dentin lenfi hareketliliği (hidrodinamik teori) özellikle soğuk uyaranlara karşı hassasiyet oluşturur. - III. Öncül (Doğru): Isırma sonrası basıncın kalkmasıyla çatlak uçlarının birbirine yaklaşması sonucu oluşan \"geri tepme ağrısı\" en karakteristik klinik bulgudur. - IV. Öncül (Yanlış): İlgili dişler genellikle vitaldir ve vitalite testlerine pozitif yanıt verir. Çeldiriciler: A, C, D ve E şıkları yanlış olan I veya IV. öncülleri içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "[Görsel: Okluzal yüzünde geniş amalgam restorasyon bulunan üst molar dişte restorasyon çevresinden marjinlere uzanan çatlak hatları] Kliniğe sol üst azı dişinde çiğneme esnasında oluşan ağrı şikayetiyle başvuran 65 yaşındaki kadın hastanın yapılan klinik muayenesinde 26 numaralı dişe 30 yıl önce amalgam restorasyon yapıldığı öğrenilmiş olup, restorasyon etrafında tespit edilen çatlak hatları yukarıdaki görselde verilmiştir. Alınan radyografide ise herhangi bir bulguya rastlanmamıştır. İlgili dişin restorasyonu çevresinde marjinlere uzanan bu çatlak hatlarının sebebi aşağıdakilerden hangisi olamaz?",
+    "options": {
+      "A": "Dentin dokusundaki inorganik içerik artışına bağlı oluşmuştur.",
+      "B": "Dentin dokusunun sertliğinin artmasına bağlı oluşmuştur.",
+      "C": "Dişte eski restorasyon kaynaklı çatlak oluşmuştur.",
+      "D": "Tip I kollajenler arasında çapraz bağların artması sonucunda oluşmuştur.",
+      "E": "Restorasyon altındaki çürüğe bağlı oluşmuştur."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Hastanın radyografik ve klinik muayenesinde herhangi bir çürük bulgusuna rastlanmamıştır; oluşan tablo yaşlanma ve geniş amalgam restorasyonun yarattığı biyomekanik streslere bağlı gelişen çatlak diş sendromudur, restorasyon altındaki çürüğe bağlı değildir. Çeldiriciler: - A) Yaşla birlikte sklerotik dentin oluşumu sonucu dentinin inorganik içeriği artar, doku elastikiyetini kaybederek çatlaklara yatkın hale gelir. - B) İnorganik içerik artışıyla dentin dokusu daha sert ve kırılgan bir yapı kazanır. - C) Elastisite modülü diş dokusuyla uyumlu olmayan materyallerle (amalgam) yapılmış geniş restorasyonlar diş dokusunda yüksek stres oluşturarak çatlaklara yol açar. - D) Yaşlanmayla Tip I kollajen lifleri arasındaki çapraz bağ sayısı artar, bu da dentinin esnekliğini azaltarak kırılganlığını artırır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "Erozyon riski yüksek hastalarda, asitli yiyecek ve içeceklerin eroziv etkilerinin azaltılmasında, aşağıdakilerden hangisinin tavsiye edilmesi uygun değildir?",
+    "options": {
+      "A": "Asidik yiyecek ve içeceklerin gece yatmadan önce tüketilmesinden kaçınılması",
+      "B": "Asitli yiyecek ve içeceklerin tüketilmesinden hemen sonra dişlerin fırçalanması",
+      "C": "Tüketimden sonra, tükürük akış hızının artırılması için şekersiz sakız çiğnenmesi",
+      "D": "Asitli içeceklerin hızlı tüketilerek ağızda kalma süresinin kısaltılması",
+      "E": "Öğünlerin, asit nötralize edici süt ve peynir gibi ürünlerle bitirilmesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Asitli gıda ve içeceklerin tüketilmesinden hemen sonra diş yüzeyi demineralize olarak yumuşadığı için, hemen diş fırçalamak asidin aşındırıcı etkisine mekanik abrazyonu da ekleyerek madde kaybını artırır; bu nedenle hemen fırçalama tavsiye edilmez. Çeldiriciler: - A) Gece uyku sırasında tükürük akış hızı ve tamponlama kapasitesi düştüğü için yatmadan önce asidik gıda tüketiminden kaçınılmalıdır. - C) Şekersiz sakız çiğnenmesi sialojen etkiyle tükürük akışını, oral klirensi ve bikarbonat tamponlama kapasitesini artırarak asidi uzaklaştırır. - D) Asitli içeceklerin ağızda çalkalanmadan hızlı tüketilmesi veya dar bir pipetle geriye doğru içilmesi dişlerle temas süresini kısaltır. - E) Süt ve peynir gibi kalsiyum ve fosfattan zengin bazik ürünlerle öğünün bitirilmesi asidi nötralize eder.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "I. Asitli içeceklerin çalkalanarak tüketilmesi II. Asidik yiyecek ve içeceklerin gece yatmadan önce tüketilmemesi III. Asitli yiyecek ve içeceklerin tüketilmesinden hemen sonra dişlerin fırçalanması Erozyon riski yüksek hastalarda asitli yiyecek ve içecek tüketiminde eroziv etkiyi azaltma amaçlı yukarıda verilen uygulamalardan hangisi/hangilerinin yapılması uygun değildir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I-II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Asitli içeceklerin ağızda çalkalanması ve tüketimden hemen sonra dişlerin fırçalanması eroziv madde kaybını şiddetlendirdiği için yapılması uygun değildir. Öncüllerin Analizi: - I. Öncül (Uygun değildir): Asitli içeceklerin ağızda çalkalanarak tüketilmesi asidin diş yüzeyleriyle temas süresini ve alanını artırarak erozyonu hızlandırır. - II. Öncül (Uygundur): Gece tükürük akışı azaldığından yatmadan önce asidik gıdaların tüketilmemesi doğru bir koruyucu yaklaşımdır. - III. Öncül (Uygun değildir): Asit temasından hemen sonra dişlerin fırçalanması yumuşamış mine tabakasının mekanik olarak kalkmasına yol açar. Çeldiriciler: A, B, D ve E şıkları koruyucu bir önlem olan II. öncülü uygun olmayanlar arasına aldığı veya I ve III'ten birini dışarıda bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "I. Mine prizmalarından başlar. II. Geri döndürülebilir. III. Görülmesi için 12 – 24 aylık süreye ihtiyaç vardır. Erozyon için yukarıdakilerden hangisi/hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Erozyon ve çürük lezyonları karşılaştırıldığında, erozyonun mine prizmalarından başlayıp interprizmatik alana geçmesi doğrudur; diğer öncüller ise çürük lezyonuna aittir. Öncüllerin Analizi: - I. Öncül (Doğru): Erozyon (pH < 4) doğrudan yüzeyde mine prizmalarından başlar ve interprizmatik alana geçer (çürük ise pH < 5,5'te interprizmatik alanda ve yüzey altında başlar). - II. Öncül (Yanlış): Erozyonda doğrudan yüzeyel madde kaybı gerçekleştiği için geri dönüşü yoktur ve remineralize olmaz (başlangıç çürüğü ise kavitasyon yoksa remineralizasyonla geriye dönebilir). - III. Öncül (Yanlış): Erozyon bir ay gibi kısa bir sürede ağız ortamında bulgu verebilir; kavitasyon oluşması için ortalama 18 ± 6 ay (12-24 ay) gereken lezyon çürüktür. Çeldiriciler: B, C, D ve E şıkları çürük lezyonunun özellikleri olan II ve III. öncülleri içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "Otuz dokuz yaşındaki erkek hasta, dişlerindeki aşınma ve hassasiyet nedenleriyle başvuruyor. Klinik muayenesinde, diş aşınmalarının özellikle ön dişlerin palatinal bölgelerinde olduğu tespit ediliyor. Anamnezinden gastroözofageal reflü hastalığına bağlı gelişen sistematik şikâyetlerinin olduğu öğreniliyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Patolojik atrizyon",
+      "B": "Fizyolojik atrizyon",
+      "C": "Abfraksiyon",
+      "D": "Erozyon",
+      "E": "Abrazyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Gastroözofageal reflü, kusma, regürjitasyon veya bulimia gibi mide asidinin ağız ortamına gelmesiyle (iç/intrinsik kaynaklı kimyasal etki) özellikle üst ön dişlerin palatinal yüzeylerinde meydana gelen çürüksüz sert doku kaybı erozyondur. Çeldiriciler: - A ve B) Fizyolojik ve patolojik atrizyon, kimyasal asit etkisiyle değil, karşıt dişlerin birbirleriyle mekanik teması sonucu okluzal ve insizal yüzeylerde oluşan aşınmalardır. - C) Abfraksiyon, anormal okluzal kuvvetlerin servikal bölgede oluşturduğu çekme/esneme stresleriyle minenin kırılarak kopmasıdır. - E) Abrazyon, sert diş fırçalama veya yabancı cisimler gibi ağız dışı mekanik etkenlerle oluşan aşınmadır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "Hamilelikte meydana gelen kusma atakları sonucu özellikle ön dişlerin palatinallerinde meydana gelen aşınmalar hangi çürüksüz lezyonu ifade eder?",
+    "options": {
+      "A": "Patolojik atrizyon",
+      "B": "Fizyolojik atrizyon",
+      "C": "Abfraksiyon",
+      "D": "Erozyon",
+      "E": "Abrazyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Hamilelikteki tekrarlayan kusma atakları sonucu mide asidinin ağza gelmesiyle üst ön dişlerin palatinal yüzeylerinde oluşan ipeksi-tül görünümlü kimyasal aşınma iç (intrinsik) kaynaklı erozyondur. Çeldiriciler: - A ve B) Atrizyon diş-dişe temas sonucu oluşan mekanik aşınmadır. - C) Abfraksiyon okluzal streslerin servikalde yarattığı biyomekanik kırılmadır. - E) Abrazyon yabancı cisimlerin yol açtığı mekanik aşınmadır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "Prematür kontaklar, kapanış bozukluğu ve çapraşıklık sonucunda meydana gelen anormal kuvvetlerin sekonder etkisiyle kole bölgesindeki minenin kırılmasıyla oluşan mineral kaybı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fizyolojik atrizyon",
+      "B": "Abfraksiyon",
+      "C": "Patolojik Atrizyon",
+      "D": "Abrazyon",
+      "E": "Erozyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Prematür kontaklar, maloklüzyon ve parafonksiyonel alışkanlıklar sonucu oluşan anormal okluzal kuvvetlerin sekonder etkisiyle dişin servikal (kole) bölgesinde meydana gelen tübüller arası esneme stresleri sonucu minenin kırılarak kopmasıyla oluşan kama şeklindeki (ve dişeti altına da inebilen tek çürüksüz) lezyon abfraksiyondur. Çeldiriciler: - A) Fizyolojik atrizyon, yaşla birlikte normal çiğneme kuvvetleriyle insizal/okluzal yüzeylerde oluşan aşınmadır. - C) Patolojik atrizyon, prematür kontak ve bruksizm gibi anormal kuvvetlerin doğrudan birincil etkisiyle okluzal/insizal temas yüzeylerinde oluşan aşınmadır; kole bölgesindeki sekonder kırılma ise abfraksiyondur. - D) Abrazyon, kole bölgesinde yabancı cisim (sert fırçalama) kaynaklı mekanik aşınmadır. - E) Erozyon, bakteriyel olmayan asitlerle oluşan kimyasal aşınmadır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "Sekiz senedir profesyonel yüzücü olan ve günlük antrenmanlarını düşük pH'li gaz ile klorlanmış havuzda yoğun bir tempoda yapan 28 yaşındaki sağlıklı erkek bireyde aşağıdaki diş aşınmalarından hangisinin görülmesi en olasıdır?",
+    "options": {
+      "A": "Abrazyon",
+      "B": "Patolojik atrizyon",
+      "C": "Fizyolojik atrizyon",
+      "D": "Erozyon",
+      "E": "Abfraksiyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Düşük pH'li gaz ile klorlanmış asidik havuzlarda düzenli yüzen profesyonel sporcularda (veya asit buharına maruz kalan işçilerde, şarap tadıcılarında) dış kaynaklı (çevresel/mesleki) kimyasal etki sonucunda özellikle ön dişlerin labial yüzeylerinde erozyon görülür. Çeldiriciler: - A) Abrazyon yabancı cisimlerle oluşan mekanik aşınmadır. - B ve C) Atrizyon karşıt dişlerin temasıyla oluşan mekanik aşınmadır. - E) Abfraksiyon okluzal streslere bağlı servikal biyomekanik lezyondur.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI",
+    "flag_reason": "2019 DUS Orijinal"
+  },
+  {
+    "question": "Diş sert dokusunda gözlemlenen çürüksüz lezyon türleri düşünüldüğünde, aşağıda verilenlerden hangisi kimyasal etki sonucu gözlemlenen sert doku kaybına bir örnektir?",
+    "options": {
+      "A": "Sert diş fırçalamaya bağlı oluşan aşınmalar",
+      "B": "Genç bir bireyin gece diş sıkması sonucu oluşan aşınmalar",
+      "C": "Yaşlı bireylerde dişlerin kronik kullanımına bağlı oluşan aşınmalar",
+      "D": "Asidik havuzda yüzen sporcular",
+      "E": "Sert fırça kullanımı sonucu oluşan aşınmalar"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Mikroorganizma asidi, mekanik veya travmatik nedenlere bağlı olmaksızın doğrudan kimyasal etki sonucunda oluşan geri dönüşümsüz sert doku kaybı erozyondur; asidik havuzda yüzen sporcularda görülen aşınma kimyasal etkiyle oluşan erozyona örnektir. Çeldiriciler: - A ve E) Sert diş fırçalamaya ve sert fırça kullanımına bağlı oluşan aşınmalar ağız dışı mekanik kuvvetlerle oluşan abrazyondur. - B) Genç bireyin gece diş sıkması (bruksizm) sonucu oluşan aşınma ağız içi anormal mekanik kuvvetlerle oluşan patolojik atrizyondur. - C) Yaşlı bireylerde dişlerin kronik kullanımına bağlı oluşan aşınma fizyolojik atrizyondur.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "[Görsel: A fotoğrafında üst ön dişlerin labial yüzeylerinde geniş alana yayılmış, parlak, pürüzsüz ve plaksız madde kaybı; B fotoğrafında alt kanin ve premolar dişlerin servikalinde plak tutulumu olan, sarımsı yumuşak ve tebeşirimsi opak alanlar içeren lezyonlar] Kliniğe hassasiyet şikayetiyle başvuran iki farklı hastanın ağız içi fotoğrafları 'A' ve 'B' olarak aşağıda verilmiştir. Bu ağız içi fotoğraflara göre bu hastalar için aşağıda verilenlerden hangisi söylenemez?",
+    "options": {
+      "A": "A'daki lezyonlar erozyon sebebiyle oluşmuş olabilir.",
+      "B": "B'deki lezyonlar bakterilerce oluşturulmuş olabilir.",
+      "C": "A hastasında asidik ürünlerden zengin diyet alışkanlığı mevcut olabilir.",
+      "D": "B'deki lezyonun tedavisinde kalın rubber dam lastiği kullanılarak yapılan izolasyona ihtiyaç duyulabilir.",
+      "E": "A'daki lezyonlar flor uygulaması ile geri dönebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): A görselindeki lezyonlar geniş alana yayılmış, parlak ve pürüzsüz yüzeyli erozyon lezyonlarıdır; eroziv lezyonlarda doğrudan yüzeyel madde kaybı gerçekleştiği için flor uygulaması veya herhangi bir remineralizasyon işlemiyle lezyonun geriye dönmesi mümkün değildir (flor yalnızca başlangıç çürüğü olan kavitasyonsuz white spot lezyonları geri döndürebilir). Çeldiriciler: - A) A görselinde plak tutulumu olmaksızın diş yüzeyinde geniş, parlak ve pürüzsüz madde kaybı bulunması erozyon göstergesidir. - B) B görselinde servikalde plak tutulumu, tebeşirimsi opaklıklar ve sarımsı yumuşak doku varlığı bakterilerce oluşturulan kök/servikal çürük lezyonlarını gösterir. - C) Ağız genelinde yaygın eroziv lezyonların varlığı asitten zengin diyet alışkanlığına bağlı gelişebilir. - D) B görselindeki çürük lezyonları kole bölgesinde ve dişeti sınırında yer aldığından, dişetini retrakte etmek ve iyi bir izolasyon sağlamak için kalın rubber dam lastiği kullanımı uygundur.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "Rutin kontrol nedeniyle kliniğe başvuran, 25 yaşındaki erkek hastanın ağız içi muayenesinde, üst anterior dişlerin palatal yüzeylerinde ve üst molar dişlerde çürüksüz servikal lezyonlar saptanmış ancak alt molar dişlerin lingual yüzlerinde herhangi bir diş sert doku aşınmasına rastlanmamıştır. Bu hastanın mevcut durumu için aşağıdakilerden hangisi en olası etiyolojik faktördür?",
+    "options": {
+      "A": "Asitli içecekleri sık tüketiyor olması",
+      "B": "Yanlış diş fırçalama alışkanlığına sahip olması",
+      "C": "Profesyonel yüzücü olması",
+      "D": "Astım inhalatörü kullanıyor olması",
+      "E": "Gastroözofageal reflü şikâyetinin olması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Gastroözofageal reflü gibi iç (intrinsik) kaynaklı erozyonlarda mide asidi üst dişlerin palatinal ve servikal bölgelerini etkilerken, alt çenede dilin örtücü ve koruyucu varlığı sebebiyle alt dişlerin lingual bölgelerinde kesinlikle eroziv aşınma gözlenmez. Çeldiriciler: - A) Asitli içeceklerin tüketimi dış kaynaklı olup özellikle ön dişlerin labial veya çalkalamaya bağlı bukkal/okluzal yüzeylerini etkiler. - B) Yanlış diş fırçalama (abrazyon) genellikle kanin ve premolarların vestibül/bukkal servikal yüzlerinde kama şeklinde aşınma yapar, üst palatinal yüzleri spesifik olarak etkilemez. - C) Profesyonel yüzücülerde klorlu havuz suyuna bağlı olarak ön dişlerin labial yüzeylerinde erozyon görülür. - D) Astım inhalatörleri ağız kuruluğu ve çürük riskini artırır veya lokal etkiler yapar ancak tipik reflü paternini oluşturmaz.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "I. Üst dişlerin palatinal bölgesi II. Alt dişlerin insizal bölgesi III. Üst dişlerin okluzal bölgesi IV. Alt dişlerin lingual bölgesi İç kaynaklı erozyon yukarıdaki öncüllerde verilen bölgelerden hangilerinde gözlenir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İç (intrinsik) kaynaklı erozyonda mide asidi üst dişlerin palatinal, okluzal, insizal ve servikal bölgeleri ile alt dişlerin okluzal, insizal ve bukkal bölgelerini etkilerken, dilin koruyucu bariyeri nedeniyle alt dişlerin lingual yüzeylerini etkilemez. Öncüllerin Analizi: - I. Öncül (Doğru): Ağza gelen mide asidi ilk olarak üst dişlerin palatinal ve servikal bölgeleriyle temas eder. - II. Öncül (Doğru): Asit ağızdan çıkarken alt dişlerin insizal ve okluzal bölgelerini etkiler. - III. Öncül (Doğru): Üst dişlerin okluzal ve insizal bölgelerinde aşınma gözlenir. - IV. Öncül (Yanlış): Dilin varlığı ve tükürük bezlerinin komşuluğu nedeniyle alt dişlerin lingual bölgelerinde iç kaynaklı erozyon kesinlikle gözlenmez. Çeldiriciler: A ve B şıkları doğru öncüllerden birini eksik bıraktığı için; D ve E şıkları ise iç kaynaklı erozyonun görülmediği IV. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "[Görsel: 28 yaşındaki hastanın ön dişlerinin insizal kenarlarında birbirleriyle uyumlu, düzleşmiş ve dentini açığa çıkarmış şiddetli aşınmalar] Dişlerindeki şekil bozuklukları şikayetiyle kliniğe başvuran, bruksizmi mevcut 28 yaşındaki kadın hastanın klinik görünümü aşağıdaki gibidir. Buna göre bu hastada oluşan çürüksüz lezyonların en olası sebebi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fizyolojik atrizyon",
+      "B": "Patolojik atrizyon",
+      "C": "Erozyon",
+      "D": "Abfraksiyon",
+      "E": "Abrazyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dişlerin birbirleriyle teması sonucu oluşan mineral kaybı atrizyondur; 28 yaşındaki genç bir hastada bruksizm (parafonksiyonel alışkanlık) gibi anormal kuvvetler sonucunda insizal/okluzal yüzeylerde meydana gelen bu ileri düzey aşınma \"patolojik atrizyon\" olarak tanımlanır. Çeldiriciler: - A) Fizyolojik atrizyon, normal çiğneme kuvvetlerinin etkisiyle yaş ilerledikçe yaşlı hastalarda görülen aşınmadır; 28 yaşındaki bruksizmli hastada patolojik atrizyon söz konusudur. - C) Erozyon kimyasal asit kaynaklı aşınmadır. - D) Abfraksiyon servikal bölgede oluşan biyomekanik kırılmadır. - E) Abrazyon yabancı cisim kaynaklı mekanik aşınmadır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "Dişin servikal bölgesinde oluşan, oklüzal kuvvetlerin neden olduğu kama şeklindeki lezyonlara ne ad verilir?",
+    "options": {
+      "A": "Abrazyon",
+      "B": "Atrizyon",
+      "C": "Abfraksiyon",
+      "D": "Erozyon",
+      "E": "Fraktür"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Aşırı ve eksentrik oklüzal kuvvetlerin dişin servikal (kole) bölgesinde oluşturduğu çekme/esneme stresleri sonucunda servikaldeki ince mine prizmalarının mikro-kırılmalarla kopması sonucu oluşan keskin açılı, kama şeklindeki lezyonlara abfraksiyon adı verilir. Çeldiriciler: - A) Abrazyon servikalde kama şeklinde lezyon oluşturabilse de oklüzal kuvvetlerin esneme stresiyle değil, sert fırçalama gibi yabancı cisimlerin mekanik aşındırmasıyla oluşur. - B) Atrizyon oklüzal ve insizal temas yüzeylerinde görülür, servikalde oluşmaz. - D) Erozyon asit kaynaklı olup sığ ve geniş tabak şeklinde lezyonlar oluşturur. - E) Fraktür dişin travmatik kırığını ifade eden genel terimdir.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "[Görsel: Karşıt dişten gelen eksentrik oklüzal kuvvet oku ve dişin servikal mine-sement sınırında oluşan gerilme/esneme oklarıyla minenin kırılarak kama şeklinde defekt oluşturması] Yukarıda verilen görselde aşağıdaki klinik durumlardan hangisinin oluşumu şematize edilmiştir?",
+    "options": {
+      "A": "Patolojik atrizyon",
+      "B": "Fizyolojik atrizyon",
+      "C": "Abrazyon",
+      "D": "Abfraksiyon",
+      "E": "Erozyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Görselde oklüzal kuvvetlerin dişin boyun (servikal) bölgesinde oluşturduğu biyomekanik bükülme/esneme stresleri ve bunun sonucunda servikal minenin kırılarak kama şeklinde defekt oluşturması, yani abfraksiyon mekanizması şematize edilmiştir. Çeldiriciler: - A ve B) Atrizyon dişlerin çiğneyici yüzeylerindeki aşınmadır, servikal bölgede oluşmaz. - C) Abrazyon dış mekanik etkenlerle (fırça vb.) oluşan aşınmadır, oklüzal esneme kuvvetleriyle oluşmaz. - E) Erozyon kimyasal asit çözünmesidir.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "[Görsel: 65 yaşındaki hastanın alt ve üst dişlerinin insizal ve oklüzal yüzeylerinde karşıt dişlerle uyumlu yaygın aşınma yüzeyleri] Altmış beş yaşında erkek hasta kliniğe dişlerindeki aşınmalar sebebiyle başvurmuş olup hastada herhangi bir parafonksiyonel alışkanlık bulunmamaktadır. Hastadan alınan intraoral fotoğraf şekildeki gibi olduğuna göre aşağıdakilerden hangisi bu hastanın dişlerinin şekil bozukluğunun en olası sebebidir?",
+    "options": {
+      "A": "Patolojik atrizyon",
+      "B": "Erozyon",
+      "C": "Abrazyon",
+      "D": "Abfraksiyon",
+      "E": "Fizyolojik atrizyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Herhangi bir parafonksiyonel alışkanlığı bulunmayan 65 yaşındaki ileri yaşlı bir hastada, normal çiğneme kuvvetlerinin etkisiyle yıllar içinde insizal ve oklüzal yüzeylerde meydana gelen uyumlu aşınmalar fizyolojik atrizyondur. Çeldiriciler: - A) Patolojik atrizyon, genç yaşta veya parafonksiyonel alışkanlıklar (bruksizm), prematür kontaklar ve kapanış bozuklukları sonucu oluşan anormal aşınmadır. - B) Erozyon asit kaynaklı kimyasal aşınmadır. - C) Abrazyon yabancı cisim kaynaklı mekanik aşınmadır. - D) Abfraksiyon servikal bölgede oluşan biyomekanik lezyondur.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin çürüksüz servikal lezyonların restorasyonuna karar verirken göz önünde bulundurulan faktörlerden biri değildir?",
+    "options": {
+      "A": "Etiyolojik faktörün ortadan kaldırılmasına rağmen lezyon ilerlemesinin önlenememesi",
+      "B": "Lezyonun estetik olarak problem oluşturması",
+      "C": "Açığa çıkmış dentinin soğuk yiyecek ve içeceklere karşı aşırı hassas olması",
+      "D": "Lezyon derinliğinin dişin kuron-kök bütünlüğünü bozacak dereceye ulaşması",
+      "E": "Lezyona sahip dişin posterior bölgede bulunması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Çürüksüz servikal lezyonların tedavisinde lezyona sahip dişin anterior veya posterior bölgede bulunması tek başına restoratif (invaziv) tedavi kararı almak için bir kriter veya endikasyon oluşturmaz. Çeldiriciler: - A) Etiyolojik etkenin kaldırılması lezyonun ilerlemesini durdurmak için yeterli değilse restoratif tedavi gerekir. - B) Lezyon hastada estetik açıdan şikayet ve problem oluşturuyorsa restore edilir. - C) Lezyon bölgesinde konservatif yöntemlerle geçmeyen aşırı dentin hassasiyeti bulunuyorsa veya lezyon pulpaya çok yakınsa restore edilir. - D) Lezyon dişin yapısal kuron-kök bütünlüğünü önemli ölçüde bozacak derinliğe ulaşmışsa (veya ilgili dişe hareketli protez kroşesi gibi protetik düzenlemeler yapılacaksa) restoratif tedavi endikedir.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "I. Etiyolojik faktörlerin ortadan kaldırılmasına rağmen lezyonda ilerlemenin devam etmesi II. Estetik gereksinimler III. Aşırı hassasiyet mevcudiyeti IV. Lezyonun dişin doku bütünlüğünü bozması V. İlgili dişin anterior-posterior yerleşimi Yukarıda verilen durumlardan hangileri çürüksüz servikal lezyonların tedavisinde restoratif tedavi yapım kararının alınmasında etkili unsurlar arasında yer alır?",
+    "options": {
+      "A": "II ve IV",
+      "B": "I, II ve III",
+      "C": "II, III ve IV",
+      "D": "I, II, III ve IV",
+      "E": "I, II, III, IV ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Çürüksüz servikal lezyonlarda I, II, III ve IV. öncüllerde belirtilen durumlar restorasyon yapım endikasyonlarını oluştururken, dişin ark üzerindeki konumu (V) tek başına restorasyon kararı aldırmaz. Öncüllerin Analizi: - I. Öncül (Doğru): Etiyolojik etken ortadan kaldırıldığı halde lezyon ilerlemeye devam ediyorsa restorasyon yapılır. - II. Öncül (Doğru): Lezyon estetik açıdan problem oluşturuyorsa restorasyon yapılır. - III. Öncül (Doğru): Lezyon bölgesinde giderilemeyen aşırı hassasiyet varsa restorasyon yapılır. - IV. Öncül (Doğru): Lezyon dişin yapısal bütünlüğünü bozacak derinlikteyse restorasyon yapılır. - V. Öncül (Yanlış): Dişin anterior ya da posteriorda yer alması restoratif tedavi endikasyonu değildir. Çeldiriciler: A, B ve C şıkları doğru endikasyonları eksik bıraktığı için; E şıkkı ise V. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "I. Asitli içecek tüketimi fazla olan bireyler II. Mobil dişlere sahip bireyler III. Dişlerini fazla kuvvet uygulayarak fırçalayan bireyler Yukarıda verilen durumlardan hangisi/hangileri abfraksiyon lezyonunun şiddetini arttıracak yönde etki yapar?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Abfraksiyon servikal bölgede erozyon veya abrazyon gibi predispozan faktörlerle zayıflayan mine dokusunun oklüzal kuvvetlerle kırılması olduğundan, asitli içecek tüketimi (erozyon) ve sert fırçalama (abrazyon) abfraksiyonun şiddetini artırır; ancak diş mobilitesi stresi dağıttığı için abfraksiyonu azaltır. Öncüllerin Analizi: - I. Öncül (Doğru): Fazla asitli içecek tüketimi servikal mineyi erozyonla zayıflatarak abfraksiyon şiddetini artırır. - II. Öncül (Yanlış): Mobil dişlerde periodontal destek azaldığı ve diş kuvvet karşısında esnediği için oklüzal kuvvetler servikal bölgede birikmez; bu nedenle mobil dişlerde abfraksiyon çok daha nadir görülür. - III. Öncül (Doğru): Fazla kuvvet uygulayarak diş fırçalama servikalde abrazyon yaratarak abfraksiyon oluşumunu ve şiddetini artırır. Çeldiriciler: A şıkkı III. öncülü eksik bıraktığı için; B, C ve E şıkları ise abfraksiyonu azaltan II. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "I. Düz yüzeylerde başlangıç lezyonları genellikle mine-sement birleşiminin koronalinde yer alıp, gingival marjinleri sağlam mine dokusu ile çevrili olabilir. II. İntrinsik kaynaklı lezyonlara genellikle maksiller dişlerin lingual yüzeylerinde rastlanır. III. Erozyona uğramış dişte mevcut restorasyon varlığında, restorasyonun, etrafındaki diş dokusundan daha yüksekte kaldığı gözlenebilir. IV. Dişlerde hipersensitivite oluşturabilir. Yukarıdaki bulgulardan hangileri görülen erozyon lezyonlarının klinik tablosunda karşılaşılması olası durumlardandır?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I, II ve IV",
+      "C": "I, III ve IV",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dental erozyonun klinik görünümü ve semptomlarını tanımlayan dört öncülün tamamı doğrudur. Öncüllerin Analizi: - I. Öncül (Doğru): Düz yüzey erozyonlarında dişeti oluğu sıvısının nötralize edici etkisi ve plak bariyeri nedeniyle mine-sement birleşiminin hemen koronalinde sağlam bir mine şeridi kalır. - II. Öncül (Doğru): Reflü ve kusma gibi intrinsik (iç) kaynaklı erozyonlar tipik olarak maksiller dişlerin palatinal/lingual yüzeylerinde gözlenir. - III. Öncül (Doğru): Çevredeki diş dokusu asitle erirken amalgam gibi restorasyonlar asitten etkilenmediği için diş yüzeyinden yukarıda, \"şapka şeklinde yükselmiş (ada şeklinde)\" görünür. - IV. Öncül (Doğru): Mine kaybı ve dentin tübüllerinin açılması sonucunda farklı şiddetlerde dentin hipersensitivitesi oluşabilir. Çeldiriciler: A, B, C ve D şıkları doğru klinik bulgulardan birini eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "Eroziv lezyonlarla ilgili aşağıda verilen oluşum sebebi – klinik görünüm eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Hiatal herni mevcudiyeti – maksiller anterior dişlerin bukkal yüzeyi",
+      "B": "Regürjitasyon – maksiller dişlerin lingual yüzeyi",
+      "C": "Meyveyi ağızda bekletme – restorasyonun etrafındaki diş dokusundan daha yüksekte kalması",
+      "D": "Asidik havuzda yüzme – anterior dişlerin bukkal yüzeyi",
+      "E": "Şarap tadımı – anterior dişlerin bukkal yüzeyi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hiatal herni, regürjitasyon ve reflü gibi mide asidinin ağza geldiği iç (intrinsik) kaynaklı erozyonlarda lezyonlar maksiller anterior dişlerin bukkal (labial) yüzeyinde değil, palatinal/lingual yüzeylerinde gözlenir. Çeldiriciler: - B) Regürjitasyonda mide asidi öncelikle maksiller dişlerin palatinal/lingual yüzeylerini aşındırır. - C) Asitli meyveleri ağızda bekletip emme alışkanlığı posterior diş dokusunu eriterek mevcut amalgam restorasyonların diş dokusundan daha yüksekte kalmasına neden olur. - D ve E) Asidik havuzda yüzme ve şarap tadımı dış kaynaklı erozyon nedenleri olup doğrudan temasla anterior dişlerin bukkal/labial yüzeylerinde aşınma oluşturur.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  },
+  {
+    "question": "I. Erozyon II. Abrazyon III. Abfraksiyon IV. Atrizyon Yukarıda verilen çürüksüz lezyonlardan hangileri servikal bölgede gözlenebilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dişin servikal (kole) bölgesinde erozyon, abrazyon ve abfraksiyon lezyonları gözlenebilirken, karşıt dişlerin temasıyla oluşan atrizyon servikal bölgede gözlenmez. Öncüllerin Analizi: - I. Öncül (Doğru): Erozyon servikal bölgede sığ ve geniş tabak şeklinde lezyonlar oluşturabilir. - II. Öncül (Doğru): Abrazyon (özellikle sert fırçalama) servikal bölgede kama şeklinde lezyonlar oluşturur. - III. Öncül (Doğru): Abfraksiyon yalnızca servikal bölgeye özgü olan kama şeklindeki biyomekanik kırılma lezyonudur. - IV. Öncül (Yanlış): Atrizyon dişlerin birbirine değen okluzal/insizal yüzeylerinde ve fizyolojik meziyalizasyonla ara yüz kontak noktalarında görülür; servikalde diş-dişe temas olmadığı için görülmez. Çeldiriciler: A ve B şıkları servikalde görülen lezyonlardan birini eksik bıraktığı için; D ve E şıkları ise servikalde görülmeyen atrizyonu (IV) içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI"
+  }
+]

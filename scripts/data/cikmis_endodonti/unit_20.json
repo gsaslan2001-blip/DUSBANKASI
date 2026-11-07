@@ -1,0 +1,214 @@
+[
+  {
+    "question": "Kanal tedavisi sonrası kırılganlığı aşağıdakilerden hangisi en fazla etkiler?",
+    "options": {
+      "A": "Giriş kavitesinin kendisi",
+      "B": "Kanal tedavisi sonrası vitalitesini yitirmiş dişin su içeriğinin azalması",
+      "C": "Giriş kavitesine ek olarak her iki marjinin de kaviteye dahil edilmesi",
+      "D": "Yüksek konsantrasyonda %6 NaOCl ile irrigasyon yapılması",
+      "E": "Uzun dönem kanal içi kalsiyum hidroksit uygulaması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kök kanal tedavisi görmüş dişlerin kırılma direncini düşüren (kırılganlığını artıran) en önemli faktör, çürük veya kavite preparasyonuna bağlı \"koronal sert doku (madde) kaybı ve özellikle marjinal sırtların (kenarların) kaybedilmesi\"dir. Yapılan biyomekanik çalışmalarda (Reeh ve ark.), oklüzal endodontik giriş kavitesinin tek başına dişin sertliğini/direncini sadece %5 oranında azalttığı; ancak \"giriş kavitesine ek olarak her iki marjinal sırtın da (mezial ve distal kenarların) kaviteye dahil edildiği MOD kavitelerde\" dişin kırılma direncinin \"%63 - %69 oranında\" düştüğü kanıtlanmıştır. Çeldiriciler: A) Konservatif bir endodontik giriş kavitesinin kendisi marjinal sırtlar korunduğu sürece direnci yalnızca %5 azaltır. B) Vitalitesini yitiren dişteki serbest su kaybı (%9) çok sınırlıdır ve dişin kırılganlığını anlamlı düzeyde etkilemez. D) Yüksek konsantrasyonlu NaOCl kollajeni parçalayarak dentin mikrosertliğini bir miktar düşürse de etkisi MOD madde kaybının çok gerisindedir. E) Uzun dönem kalsiyum hidroksit uygulaması dentini zayıflatsa da kuronal kırılganlığı en fazla artıran faktör her iki marjinal sırtın kaybıdır (MOD kavitedir).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "Derin çürüklü 36 numaralı dişine kronik apikal periodontitis sebebi ile kanal tedavisi uygulanan hastaya ilk seans %6 sodyum hipoklorit ile kemomekanik preparasyon uygulanmış ve kalsiyum hidroksit yerleştirilerek 10 gün sonrasına randevu verilmiştir. Ancak hasta tedavisini ihmal etmiş ve 6 ay sonra gelmiştir. Dişin tedavisi tamamlanmış ve MOD kompozit restorasyon ile onarılmıştır. Tedaviden 6 ay sonra hasta dişini kırdığından yakınarak tekrar gelmiştir. Aşağıda verilenlerden hangisi bu dişin kırılmasının en olası sebebidir?",
+    "options": {
+      "A": "Endodontik giriş kavitesi",
+      "B": "Kanal tedavisi sonrası vitalitesini yitirmiş dişin su içeriğinin azalması",
+      "C": "Kavitenin MOD formunda olması ve kompozit ile restore edilmesi",
+      "D": "Yüksek konsantrasyonda %6 NaOCl ile irrigasyon yapılması",
+      "E": "Dişin uzun süre kalsiyum hidroksit ile beklemesi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Vakada hem %6 NaOCl hem de 6 ay kalsiyum hidroksit bekletilmesi gibi dentini zayıflatan çeldirici faktörler verilmiş olsa da; biyomekanik olarak dişin kırılma direncini %69 oranında düşüren en yıkıcı faktör \"kavitenin her iki marjinal sırtı da içine alan MOD formunda olması ve tüberkülleri örten bir onley/kuron yerine direkt kompozit ile restore edilmesi\"dir. MOD kaviteli kanal tedavili molar dişlerde tüberkül korumalı indirekt restorasyonlar (onley, overlay, kuron) yapılmazsa oklüzal kama kuvvetleriyle tüberkül/kök kırığı gelişmesi kaçınılmazdır. Çeldiriciler: A) Endodontik giriş kavitesi tek başına direnci sadece %5 düşürür. B) Su içeriğinin azalması diş kırılganlığını etkilemez. D) %6 NaOCl kullanımı ikincil bir etkendir, MOD kavite ve hatalı restorasyon birincil sebeptir. E) 6 ay Ca(OH)2 beklemesi radiküler dentini zayıflatsa da kuronal kırığın en olası ana sebebi MOD madde kaybı ve kasp korumasız kompozit restorasyondur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "I. Dentin adezyonu\nII. Kök kırılganlığı\nIII. Kalsiyum hidroksitin etkisi\nYukarıda verilenlerden hangisi veya hangileri kanal tedavisi sırasında oluşan dentin dehidratasyonundan olumsuz etkilenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kanal tedavisi sırasında veya sonrasında dentinin aşırı kurutulması (dehidratasyonu), sanılanın aksine dişin fiziksel kırılganlığını artırmaz ancak nem gerektiren kimyasal ve adeziv süreçleri olumsuz etkiler. Öncüllerin Analizi: I. Dentin adezivlerinin (bonding ajanlarının) hidrofilik monomerlerinin kollajen ağı içerisine penetre olup hibrit tabaka oluşturabilmesi için nemli dentin (wet-bonding) gerekir; aşırı dehidratasyon kollajen fibrillerin çökmesine (kollapsına) yol açarak \"dentin adezyonunu\" olumsuz etkiler (Doğru). II. Kök kanal tedavisi sonrası oluşan serbest su kaybı (%9) dentinin Vickers sertliğini veya elastisite modülünü değiştirmez; dolayısıyla \"kök kırılganlığı\" dehidratasyondan etkilenmez (Yanlış). III. Kanal içi medikament olan kalsiyum hidroksitin antibakteriyel ve biyoaktif etki gösterebilmesi için iyonlarına (kalsiyum ve hidroksil) ayrışması ve dentin tübülleri içindeki sıvı aracılığıyla difüze olması gerekir; dentin dehidratasyonu (nem azlığı) bu iyon difüzyonunu engelleyerek \"kalsiyum hidroksitin etkisini\" olumsuz etkiler (Doğru) (Ayrıca hidrofilik olan MTA/biyoseramiklerin sertleşmesi de nem yokluğundan olumsuz etkilenir). Çeldiriciler: A) III. öncül de olumsuz etkilenir. B) Kök kırılganlığı dehidratasyondan etkilenmez. C) I. öncül de olumsuz etkilenir. D) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kanal tedavisi uygulanmış bir dişte kırık oluşmasında etken değildir?",
+    "options": {
+      "A": "Kanal tedavisi sırasında aşırı genişletme yapılması",
+      "B": "Kanal tedavisi sonrası dentinin su içeriğinin azalması",
+      "C": "Kanalın koronal bölümünde aşırı genişletme yapılması",
+      "D": "Kanal dolgusu sırasında aşırı kompaksiyon basıncı uygulanması",
+      "E": "Kanala post yerleştirilmesi sırasında aşırı basınç uygulanması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kanal tedavisi uygulanmış dişlerin vital dişlere göre daha kolay kırılmasının nedeni \"dentinin su içeriğinin azalması (dehidratasyon)\" değildir. Vitalitesini kaybeden dişte sadece yaklaşık %9'luk küçük bir serbest su kaybı olurken, organik ve inorganik matriks arasındaki bağlı su korunur ve dentinin biyomekanik özelliklerinde (sertlik ve elastikiyetinde) anlamlı bir değişim meydana gelmez. Kırıkların gerçek nedeni madde kaybı ve iyatrojenik kama kuvvetleridir. Çeldiriciler: A) Kanal tedavisi sırasında kök kanalının aşırı genişletilmesi kalan dentin duvarlarını incelterek kökü zayıflatır ve kırığa yol açar. C) Kanalın koronal bölümünde ve giriş kavitesinde aşırı genişletme yapılması periservikal dentini zayıflatarak kırık riskini artırır. D) Kanal dolgusu (lateral veya vertikal kondenzasyon) sırasında spreader/plugger ile aşırı kompaksiyon basıncı uygulanması kama etkisiyle mikroçatlaklara ve vertikal kök kırığına neden olur. E) Kanala post yerleştirilmesi (özellikle aktif vidalı veya konik metal postların simantasyonu) sırasında aşırı basınç uygulanması kökte stres birikimi ve kırık oluşturur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi endodontik tedavi ve vertikal kök kırığı oluşturması riski ile ilişkilendirilemez?",
+    "options": {
+      "A": "Preparasyon miktarı",
+      "B": "Tedavi sırasında dehidratasyon",
+      "C": "Koronal flare",
+      "D": "Kompaksiyon kuvvetleri",
+      "E": "Post uygulamaları"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Endodontik tedavi görmüş dişlerde \"tedavi sırasında veya sonrasında oluşan dehidratasyon (su kaybı)\", dentinin elastisite modülünü ve kırılma direncini düşürmediği için vertikal kök kırığı oluşma riski ile ilişkilendirilemez. Çeldiriciler: A) Kanal içi preparasyon miktarının fazla olması kök duvarlarını incelterek VKK riskini artırır. C) Aşırı koronal flare (Gates-Glidden veya döner eğelerle koronal genişletme) servikal ve furkal dentini zayıflatarak VKK riskiyle ilişkilendirilir. D) Obturasyon sırasındaki aşırı spreader/plugger kompaksiyon kuvvetleri VKK'nın doğrudan iyatrojenik nedenidir. E) Hatalı post uygulamaları (geniş, uzun, rijit veya ferrule'süz postlar) VKK'nın en önemli restoratif nedenidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "Postlarla ilgili olarak aşağıda verilenlerden hangisi veya hangilerinin vertikal kök kırıkları ile ilişkisi yoktur?",
+    "options": {
+      "A": "Postun kanala uyumu",
+      "B": "Ferrule",
+      "C": "Postun kalınlığı",
+      "D": "Postun elastik modülü",
+      "E": "Apikaldeki kanal dolgusu"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Post boşluğu hazırlandıktan sonra kök ucunda bırakılan 4-5 mm'lik \"apikaldeki kanal dolgusu\", yalnızca apikal \"sızdırmazlığın (hermetik tıkamanın)\" korunması ve periapikal re-enfeksiyonun önlenmesi açısından kritiktir; kökün biyomekanik direnci veya \"vertikal kök kırıkları ile bir ilişkisi yoktur\". Çeldiriciler: A) Postun kanal konfigürasyonuna pasif ve tam uyumu stresin homojen dağılmasını sağlar; uyumsuz post kama etkisiyle kırık yapar. B) Koronalde bırakılan en az 2-3 mm'lik sağlam dentin duvarının kuronla kuşatılması (Ferrule / bilezik etkisi), devrilme kuvvetlerine karşı kökü koruyarak vertikal kök kırığı riskini en fazla azaltan faktördür. C) Post kalınlığı arttıkça tutuculuk artmaz, aksine kalan kök dentini inceldiği için vertikal kök kırığı riski ciddi oranda artar. D) Postun elastik modülünün dentine yakın olması (fiber postlar) kuvveti dengeli dağıtırken, elastik modülü yüksek olan rijit metal/zirkon postlar kuvveti tek noktaya ileterek vertikal kök kırığına yol açar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi adeziv sistemler ile yapıştırılan ve kuvveti kök kanalı boyunca dağıtan post sistemidir?",
+    "options": {
+      "A": "Fiber post",
+      "B": "Titanyum post",
+      "C": "Döküm post",
+      "D": "Zirkon post",
+      "E": "Paslanmaz çelik"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"Fiber postlar\" (cam fiber, kuartz fiber, polietilen veya karbon fiber postlar), elastisite modülleri (~18-40 GPa) doğal kök dentininin elastisite modülüne (~18 GPa) çok yakın olduğu için çiğneme kuvvetleri altında dentinle birlikte esneyebilen postlardır. Adeziv rezin simanlarla kök dentinine yapıştırıldıklarında \"monoblok\" bir yapı oluştururlar ve gelen oklüzal kuvvetleri bir noktada biriktirmek yerine tüm kök kanalı boyunca dengeli şekilde dağıtarak vertikal kök kırığı riskini en aza indirirler. Çeldiriciler: B) Titanyum postların elastisite modülü (~110 GPa) dentinden çok yüksektir, esnemez ve stres birikimi yapar. C) Döküm metal post-korların elastisite modülü çok yüksektir, kama etkisi yaparak yüksek oranda vertikal kök kırığına yol açar. D) Zirkon (zirkonyum oksit) postlar estetik olsalar da aşırı rijittir (elastisite modülü ~200 GPa), hiç esnemez ve kökü kırar. E) Paslanmaz çelik prefabrik postlar çok yüksek elastisite modülüne (~200 GPa) sahip olup kuvveti doğrudan köke ileterek kırık riskini artırır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER",
+    "flag_reason": "2014 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Aşağıdaki post sistemlerinden hangisi vertikal kök kırığı riski açısından daha güvenlidir?",
+    "options": {
+      "A": "Fiber post",
+      "B": "Titanyum post",
+      "C": "Döküm post",
+      "D": "Zirkon post",
+      "E": "Paslanmaz çelik"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Dentinin elastisite modülüne en yakın esnekliğe sahip olan, adeziv simantasyonla dentinle bütünleşen ve gelen fonksiyonel kuvvetleri kök boyunca homojen dağıtarak kama etkisi oluşturmayan \"fiber post\" sistemleri, vertikal kök kırığı riski açısından diğer tüm rijit postlara göre çok daha güvenlidir (Başarısızlık yaşandığında bile kökü kırmak yerine postun debonding/desimantasyon yapması \"favorable/telafi edilebilir\" bir başarısızlıktır). Çeldiriciler: B) Titanyum postlar rijittir ve kök kırığı riski taşır. C) Döküm metal postlar kama etkisi nedeniyle en yüksek kök kırığı riski taşıyan postlardandır. D) Zirkon postlar aşırı sert ve kırılgan olup kök kırığı ve sökülememe riski taşır. E) Paslanmaz çelik postlar yüksek rijiditeleri nedeniyle vertikal kök kırığı riskini artırır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "I. Cam iyonomerler\nII. Rezin modifiye cam iyonomerler\nIII. Adezivler\nYukarıda verilenlerden hangisi veya hangilerinin endodontide post yapıştırmasında kullanılması önerilmez?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Postların kök kanalına simantasyonunda (yapıştırılmasında) çinko fosfat, polikarboksilat, geleneksel cam iyonomer ve adeziv rezin simanlar kullanılabilirken, sertleşme sonrasında su emerek genleşen simanlar kök içinde içsel hidrostatik basınç yarattıkları için kontrendikedir. Öncüllerin Analizi: I. Geleneksel cam iyonomer simanlar dentine kimyasal bağlanır ve aşırı genleşme göstermedikleri için metal post simantasyonunda kullanılabilirler (Yanlış). II. \"Rezin modifiye cam iyonomer simanlar (RMGIC)\", sertleştikten sonra dentin sıvısından su emerek belirgin bir \"higroskopik genleşme\" gösterirler; kapalı ve dar kök kanalı içerisinde oluşan bu genleşme basıncı kökte çatlaklara ve \"vertikal kök kırığına\" yol açtığı için post yapıştırılmasında kullanılması kesinlikle önerilmez (Doğru). III. Adeziv rezin simanlar (dual-cure / self-adeziv rezin simanlar), özellikle fiber postların yapıştırılmasında en ideal ve en çok önerilen materyallerdir (Yanlış). Çeldiriciler: A) Geleneksel CİS kullanılabilir. C) Adezivler en ideal post simanıdır. D) I. öncül yanlıştır. E) I ve III kullanılabilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "I. Dentinin elastisite modülüne yakın bir esneklik değerine sahip olmaları nedeniyle tercih edilirler.\nII. Orijinal karbon fiber postlar radyoopaktır.\nIII. Kök kırıklarına yol açma olasılığı, vidalı metal postlara göre daha düşüktür.\nKarbon fiber postlarla ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Karbon fiber postlar, epoksi rezin matriks içerisine yerleştirilmiş gerilmiş karbon liflerinden üretilen ilk nesil fiber postlardır. Öncüllerin Analizi: I. Tüm fiber postlar gibi karbon fiber postlar da kök dentininin elastisite modülüne (~18 GPa) çok yakın bir esnekliğe sahip oldukları ve stresi homojen dağıttıkları için tercih edilirler (Doğru). II. \"Orijinal karbon fiber postlar\" karbon ve epoksi rezinden oluştuğu için X-ışınlarını geçirirler yani \"radyolusenttirler\" (radyoopak değildirler; sadece sonradan üretilen bazı tiplerine baryum/silikat eklenmeye çalışılmışsa da radyoopasiteleri çok düşüktür ve radyoopak rezin siman gerektirirler) (Yanlış). III. Dentinle birlikte esneyebildikleri ve pasif olarak adezivle yapıştırıldıkları için kök kırıklarına yol açma olasılıkları, dentine aktif stres yükleyen vidalı metal postlara göre çok daha düşüktür (Doğru). Çeldiriciler: A) III. öncül de doğrudur. B) Orijinal karbon fiber postlar radyolusenttir. D) II. öncül yanlıştır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "Karbon fiber postlarla ilgili aşağıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Elastisite modülü dentinden oldukça yüksektir.",
+      "B": "Orijinal karbon fiber postlar radyoopaktır.",
+      "C": "Kök kırığı açısından vidalı metal postlardan güvenilirdir.",
+      "D": "Anterior dişlerin restorasyonunda kullanımı uygundur.",
+      "E": "Şekil olarak tek tipte üretilirler."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Karbon fiber postlar, dentine yakın elastisite modülleri ve adeziv simantasyonları sayesinde stresi kök boyunca dağıttıkları için, kök içinde yüksek stres konsantrasyonu yaratan \"vidalı (aktif) metal postlara göre kök kırığı açısından çok daha güvenilirdir\". Çeldiriciler: A) Elastisite modülü dentinden yüksek değil, dentine oldukça yakındır. B) Orijinal karbon fiber postlar radyoopak değil, radyolusenttir. D) Karbon fiber postlar \"simsiyah\" renkte oldukları için tam seramik veya kompozit restorasyonların altından yansıyarak estetiği bozar; bu nedenle anterior dişlerin restorasyonunda kullanımı uygun değildir (ön bölgede beyaz/şeffaf cam veya kuartz fiber postlar kullanılır). E) Şekil olarak tek tipte değil; silindirik (paralel), konik, çift konik veya basamaklı gibi birçok farklı geometride üretilirler.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "Post sistemleri ile ilgili olarak verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Vidalı postların kök kırığı riski oldukça yüksektir.",
+      "B": "Paralel postların kök kırığı riski koniklerden düşüktür.",
+      "C": "Post ile yapılan restorasyonlarda ferrule etki kök kırığı riskini azaltır.",
+      "D": "Post ile restore edilen dişlerde en sık karşılaşılan sorun kök kırığıdır.",
+      "E": "Elastik modülü düşük olan postların kök kırığı riski daha düşüktür."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Klinik takip çalışmalarına göre, post ve kor ile restore edilen dişlerde \"en sık karşılaşılan sorun (komplikasyon)\" kök kırığı değil, \"postun gevşemesi / desimantasyonu (tutuculuk kaybı)\"dır; kök kırıkları ise \"ikinci en sık\" karşılaşılan sorundur (Diğer sorunlar: post kırılması, apikal apseler ve çürüklerdir). Çeldiriciler: A) Aktif vidalı metal postlar dentin duvarlarına vidalanırken aşırı içsel stres yarattığı için kök kırığı riski en yüksek olan postlardır. B) Paralel kenarlı postlar kuvveti kanal duvarlarına daha eşit dağıtırken, konik postlar kama (wedge) etkisi yarattığı için paralel postların kök kırığı riski konik postlardan daha düşüktür (ancak apikalde perforasyon riskine dikkat edilmelidir). C) Kuronalde bırakılan 2-3 mm sağlam dentin bileziği (ferrule etkisi) kök kırığı riskini belirgin şekilde azaltır. E) Elastik modülü düşük (dentine yakın) olan fiber postların kök kırığı riski, elastik modülü yüksek metal/zirkon postlara göre daha düşüktür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "Kök kanallarında post kullanırken, apikal sızıntıyı önlemek amacıyla apikalde bırakılan kanal dolgu maddesi en az kaç mm olmalıdır?",
+    "options": {
+      "A": "4-5 mm",
+      "B": "6-7 mm",
+      "C": "8-10 mm",
+      "D": "11-13 mm",
+      "E": "14-15 mm"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kök kanal tedavili bir dişte post boşluğu (post yuvası) hazırlanırken, apikal üçlüdeki yan kanalların ve apikal deltanın örtülmesini sürdürmek ve hermetik \"apikal sızdırmazlığı korumak\" amacıyla kök ucunda dokunulmadan bırakılması gereken gütaperka kanal dolgusu miktarı en az \"4-5 mm\" (minimal 3-4 mm, ideal ve güvenli olarak 5 mm) olmalıdır. Çeldiriciler: B) 6-7 mm bırakılması kısa köklerde yeterli post boyu elde edilmesini engelleyebilir, minimum sınır 4-5 mm'dir. C) 8-10 mm çok fazladır, post tutuculuğu için yer kalmaz. D) 11-13 mm neredeyse tüm kök boyuna eşittir. E) 14-15 mm post yerleştirilmesine olanak tanımaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER",
+    "flag_reason": "2015 DUS Orijinal"
+  },
+  {
+    "question": "Kök kanallarında post kullanırken, apikal sızıntıyı önlemek amacıyla apikalde bırakılan kanal dolgu maddesi en az kaç mm olmalıdır?",
+    "options": {
+      "A": "5 mm",
+      "B": "7 mm",
+      "C": "Kuron boyu kadar",
+      "D": "Kökün yarısı kadar",
+      "E": "Postun kökteki boyu kadar"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Post yuvası açılırken apikal sızdırmazlığın bozulmaması için kök ucunda bırakılması gereken kanal dolgu maddesi uzunluğu 4-5 mm olup, 4 mm'lik dolgunun teknik olarak sızdırmazlığının korunması zor olabildiğinden güncel literatürde tek bir ideal minimum değer istendiğinde en az \"5 mm\" gütaperka bırakılması önerilmektedir. Çeldiriciler: B) 7 mm minimum standart değer değildir. C) Kuron boyu kadar olan ölçü postun kendi uzunluğu için kullanılan kriterlerden biridir, kalan gütaperka ölçüsü değildir. D) Kökün yarısı veya 2/3'ü postun uzunluk kriteridir. E) Postun kökteki boyu kadar değil, sabit 4-5 mm apikal dolgu bırakılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  },
+  {
+    "question": "Postlarla ilgili olarak verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Postlar kökü güçlendirirler.",
+      "B": "Postun köke en az 6 mm penetre olması istenir.",
+      "C": "Koronalde 2-3 mm ferrule varlığında kök kırığı riski azalır.",
+      "D": "Düz ve geniş kökler post koymak için uygundur.",
+      "E": "Postun kemik krestinin 4 mm altına inmesi kırık riskini azaltır."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Endodonti ve protetik diş tedavisi literatüründeki en temel biyomekanik kural şudur: \"Postlar kökü veya dişi kesinlikle güçlendirmezler!\" Aksine post yuvası hazırlamak için kök dentini aşındırıldığından kökü zayıflatabilirler. Post kullanılmasının tek amacı, kuronal madde kaybı fazla olan dişlerde yapılacak olan \"kor (core) restorasyonuna tutuculuk (retansiyon) sağlamaktır\". Çeldiriciler: B) Yeterli tutuculuk (retansiyon) ve devrilme direnci (rezistans) için postun kök içerisine en az 6 mm (veya kuron boyuna eşit / kökün 1/2-2/3'ü kadar) penetre olması istenir. C) Diş eti seviyesinin üzerinde çepeçevre 2-3 mm yüksekliğinde sağlam dentin duvarı (ferrule etkisi) bulunması kök kırığı riskini büyük oranda azaltır. D) Perforasyon riskinden kaçınmak için çok köklü dişlerde en düz ve en geniş köklere (üst molarda palatinal, alt molarda distal köke) post yerleştirilmesi uygundur. E) Dentin stresini azaltmak ve kret tepesinde kırık oluşmasını önlemek için postun ucu alveol kemik krestinin en az 4 mm altına (kemik içinde desteklenen kök yarısına) kadar uzanmalıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER"
+  }
+]

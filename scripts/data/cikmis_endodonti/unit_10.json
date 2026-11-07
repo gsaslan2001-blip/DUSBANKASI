@@ -1,0 +1,370 @@
+[
+  {
+    "question": "Kök kanal tedavisi sırasında kanal içerisinde eğe kırılması durumunda, aşağıdaki pulpal veya periapikal patolojilerin hangisinde dişin prognozuna olumsuz etki en azdır?",
+    "options": {
+      "A": "Hiperplastik pulpitis",
+      "B": "Nekrotik pulpa",
+      "C": "Akut apikal periodontitis",
+      "D": "Kronik apikal periodontitis",
+      "E": "Kronik apikal apse"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kök kanalı içerisinde alet (eğe) kırılması durumunda dişin uzun dönem prognozunu belirleyen en kritik faktör, preoperatif olarak \"pulpanın vital (canlı ve enfekte olmamış) ya da nekrotik (enfekte) olması\" ve periapikal lezyon varlığıdır. Kırılan aletin kendisi doğrudan enfeksiyon yapmaz ancak apikaldeki kanal boşluğunun temizlenmesini engeller. Seçenekler arasında kesin olarak \"vital\" olan ve kök kanalında/periapekste bakteriyel enfeksiyon bulunmayan tek tablo \"hiperplastik pulpitis (pulpa polibi)\" olduğundan, bu durumda eğe kırılmasının prognoza olumsuz etkisi en azdır (prognoz en iyidir). Çeldiriciler: B) Nekrotik pulpada kök kanalı bakterilerle enfektedir; kırık alet apikaldeki bakterilerin temizlenmesini engellediği için prognozu düşürür. C) Akut apikal periodontitiste pulpa nekrotik olabilir ve periapikal inflamasyon mevcuttur. D) Kronik apikal periodontitiste pulpa tamamen nekrotiktir ve periapikal kemik yıkımı (lezyon) vardır; prognoz ciddi oranda düşer. E) Kronik apikal apsede nekrotik pulpa, periapikal lezyon ve sinüs yolu bulunduğundan alet kırılması prognozu çok olumsuz etkiler.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "I. Hiperplastik pulpitis\nII. Kronik apikal apse\nIII. Kronik apikal periodontitis\nKök kanal tedavisi sırasında kanal içerisinde eğe kırılması durumunda, yukarıdaki pulpal veya periapikal patolojilerin hangisi veya hangilerinde dişin prognozunun düşmesi beklenmez?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kanal içinde kırılan steril bir eğe tek başına irritan değildir; prognozu düşüren esas unsur kırık parçanın apikalinde kalan bakterilerin temizlenememesidir. Öncüllerin Analizi: I. Hiperplastik pulpitis (pulpa polibi) vital bir pulpa hastalığıdır; kök kanalı içerisinde nekroz ve yerleşik bakteriyel biyofilm bulunmadığı için aseptik şartlarda çalışılırken eğe kırıldığında dişin prognozunun düşmesi beklenmez (Doğru). II. Kronik apikal apsede kök kanalı yoğun şekilde enfektedir ve apikalde lezyon/fistül vardır; kırık alet dezenfeksiyonu engellediği için prognoz ciddi şekilde düşer (Yanlış). III. Kronik apikal periodontitiste pulpa nekrotiktir ve apikal radyolusent lezyon mevcuttur; kırık alet varlığında iyileşme başarısı ve prognoz belirgin şekilde düşer (Yanlış). Çeldiriciler: B) III. öncülde apikal lezyon nedeniyle prognoz düşer. C) II. öncül yanlıştır. D) II ve III. öncüllerde prognoz düşer. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi kök kanallarından kırık alet çıkarmada kullanılmaz?",
+    "options": {
+      "A": "Wicking tekniği",
+      "B": "Wire loop tekniği",
+      "C": "Mikro tüp tekniği",
+      "D": "Masserann tekniği",
+      "E": "Ultrasonikler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"Wicking tekniği (emdirme tekniği)\", kırık alet çıkarma yöntemi değildir; kök kanal tedavisinin yenilenmesi (retreatment) sırasında kanal duvarlarında ve düzensizliklerde kalan son gutta-perka ve pat artıklarını kloroform gibi bir çözücüyle eritip kağıt konlara (paper point) emdirerek uzaklaştırma işlemidir. Çeldiriciler: B) Wire loop (tel kement) tekniği, ince bir enjektör kanülü içinden geçirilen ligatür teli halkasıyla kırık aletin koronal ucunun yakalanıp çekildiği (BTR Pen, EndoCowboy vb.) kırık alet çıkarma yöntemidir. C) Mikro tüp tekniği (FRS, IRS, Endo Rescue, Terauchi kiti vb.), etrafı açılan kırık aletin mikro tüpler ve iç kama/vidalarla sıkıştırılarak çıkarıldığı yöntemdir. D) Masserann tekniği, trepan frezlerle kırık aletin etrafındaki dentini aşındırıp özel tutucu tüple aleti kavrayarak çıkaran klasik kırık alet çıkarma setidir. E) Ultrasonikler, operasyon mikroskobu altında ince uçlarla kırık aletin etrafındaki dentini aşındırıp titreşimle aleti gevşeterek çıkaran en başarılı yöntemdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Hangisi döner aletlerin kırılma sebeplerinden değildir?",
+    "options": {
+      "A": "Aksiyel basıncın arttırılması",
+      "B": "Kanaldan yoğun pü akışı",
+      "C": "Aletin ucunun kanal içinde sıkışması ve aletin dönmeye devamı ile torsiyonel tipte kırık olması",
+      "D": "Aşırı bükülmeye zorlama",
+      "E": "Korozyon ve paslanma nedeniyle metalin eskimesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kök kanalından yoğun pü (eksuda) akışı olması kanalın ıslak ve kaygan olmasını sağlar; mekanik sürtünmeyi artırmadığı için döner aletlerin kırılmasına sebep olmaz (aksine kuru kanalda çalışmak sürtünmeyi ve kırılma riskini artırır). Çeldiriciler: A) Aksiyel (apikal) basıncın artırılması, aletin kanal duvarlarına saplanmasına (taper-lock etkisine) ve torsiyonel stresin artarak aletin kırılmasına neden olur. C) Aletin ucunun dar kanalda sıkışıp hareketsiz kalması, ancak şaft kısmının motorla dönmeye devam etmesi sonucunda metalin elastik sınırı aşılır ve \"torsiyonel kırılma\" meydana gelir. D) Eğimli ve dar kanallarda aletin aşırı bükülmeye zorlanması, dışbükey yüzeyde çekme ve içbükey yüzeyde basma stresleri yaratarak \"fleksürel (döngüsel/siklik) yorgunluk\" kırığına yol açar. E) Aletlerin uzun süre sodyum hipoklorit (NaOCl) gibi koroziv solüsyonlara maruz kalması ve defalarca otoklavlanması yüzeyde mikro-oyuklar (korozyon/pitting) oluşturarak metali eskitir ve kırılmaya zemin hazırlar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi döner aletlerin kırılmasında rol oynamaz?",
+    "options": {
+      "A": "Basınç",
+      "B": "Abse drenajı",
+      "C": "Taper-lock etki",
+      "D": "Aşırı bükülme",
+      "E": "Korozyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kanal içerisinden abse (pü) drenajı gerçekleşmesi metalurjik veya biyomekanik bir stres oluşturmadığı için döner aletlerin kırılmasında herhangi bir rol oynamaz. Çeldiriciler: A) Aşırı apikal basınç uygulanması torsiyonel yükü artırarak aleti kırar. C) Taper-lock etkisi, aletin konikliğinin kanal konikliğiyle birebir örtüşüp kanal içine vidalanarak sıkışmasıdır ve doğrudan torsiyonel kırığa yol açar. D) Eğri kanallarda aşırı bükülme döngüsel (fleksürel) yorgunluk kırığına neden olur. E) Hipoklorit teması ve sterilizasyon döngülerine bağlı korozyon metal yüzeyinde çatlak başlangıç noktaları oluşturarak kırılmaya yol açar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Nikel titanyum döner eğelerde eğri kanalda aşırı kullanıma bağlı oluşan kırılma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Torsiyonel kırılma",
+      "B": "Fleksürel kırılma",
+      "C": "Koroziv kırılma",
+      "D": "Rombohedral kırılma",
+      "E": "Metaplastik kırılma"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Nikel-titanyum döner eğelerin \"eğri (kurvatürlü) bir kanalda\" serbestçe dönerken bile uzun süre/aşırı kullanılması sonucunda, eğim noktasında metalin her turda ardışık olarak gerilme (tension) ve sıkışma (compression) döngülerine maruz kalmasıyla gelişen metal yorgunluğu kırığına \"fleksürel (döngüsel / siklik) kırılma\" adı verilir. Çeldiriciler: A) Torsiyonel kırılma (McSpadden faktörü), eğri kanalda çok dönmekten değil, aletin ince ucunun dar bir kanala sıkışıp motorun dönmeye devam etmesiyle (yüksek tork/basınç nedeniyle) oluşur. C) Koroziv kırılma, NaOCl gibi kimyasal ajanların metal yüzeyini aşındırması sonucu gelişir. D) Rombohedral faz NiTi'nin kristal fazlarından (R-fazı) biridir, bir kırılma tipi değildir. E) Metaplastik kırılma adında bir alet kırılma mekanizması yoktur (metaplazi doku değişimidir).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin paslanmaz çelik kanal aletleri üzerinde koroziv etkisi en fazladır?",
+    "options": {
+      "A": "Sodyum hipoklorit",
+      "B": "Etilendiamin tetraasetik asit",
+      "C": "Klorheksidin glukonat",
+      "D": "Sitrik asit",
+      "E": "İyodin potasyum iyodit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Endodontide kullanılan irrigasyon solüsyonları arasında metal kanal aletleri (özellikle paslanmaz çelik ve uzun süreli temasta NiTi eğeler) üzerinde güçlü oksidatif yapısı ve serbest klor/hipoklorit iyonları nedeniyle \"koroziv (aşındırıcı/paslandırıcı) etkisi en fazla\" olan ajan \"sodyum hipoklorit (NaOCl)\"tir. Paslanmaz çelik aletler NaOCl korozyonuna NiTi aletlere kıyasla çok daha duyarlıdır. Çeldiriciler: B) EDTA nötr pH'lı bir şelatör olup metal aletler üzerinde belirgin koroziv etki göstermez. C) Klorheksidin glukonat metal aletlerde korozyon yapmaz. D) Sitrik asit organik zayıf bir asittir, NaOCl kadar şiddetli çukurcuk (pitting) korozyonu oluşturmaz. E) İyodin potasyum iyodit NaOCl'ye kıyasla çok daha düşük koroziv potansiyele sahiptir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Aşağıdakilerden hangisine maruziyet paslanmaz çelik kanal aletlerinin kırılma riskini en fazla artırır?",
+    "options": {
+      "A": "Sodyum hipoklorit",
+      "B": "Etilendiamin tetraasetik asit",
+      "C": "Klorheksidin glukonat",
+      "D": "Sitrik asit",
+      "E": "İyodin potasyum iyodit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Paslanmaz çelik kanal aletlerinin \"sodyum hipoklorit (NaOCl)\" solüsyonuna uzun süre maruz kalması, metal yüzeyinde mikropitting (çukurcuk) korozyonuna ve paslanmaya yol açar; bu korozyon odakları stres altında mikroçatlak başlangıç noktası gibi davranarak aletin kırılma riskini en fazla artıran kimyasal etkeni oluşturur. Çeldiriciler: B) EDTA kalsiyum bağlayan bir şelatördür, çelik eğelerde koroziv kırılmayı tetiklemez. C) Klorheksidin glukonat metalurjik yapıyı bozmaz. D) Sitrik asit NaOCl kadar agresif metal korozyonu yapmaz. E) İyodin potasyum iyodit çelik aletlerin kırılma direncini NaOCl gibi düşürmez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Motorla çalışan endodontik eğeler ile kanalda çalışılırken kanal aleti çalışma boyuna gitmekte zorlanmış ve hekim içgüdüsel olarak kanal aletine basınç uygulamıştır. Bunun sonucunda kanal aletinin uç kısmı kanal içerisinde kırılmıştır. Bu kırık tipi verilenlerden hangisi ile uyumludur?",
+    "options": {
+      "A": "Torsiyonel kırık",
+      "B": "Döngüsel kırık",
+      "C": "Koroziv kırık",
+      "D": "Fleksürel kırık",
+      "E": "Rombohedral kırık"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hekimin çalışma boyuna inmekte zorlanan döner eğeye aşırı apikal \"basınç\" uygulaması sonucunda aletin ince uç kısmının dar kanal duvarlarına sıkışıp hareketsiz kalması (taper-lock), ancak motora bağlı koronal şaftın dönmeye devam ederek metalin kesme/burulma dayanımını aşmasıyla uç kısmın kopması \"torsiyonel kırık\" mekanizması ile tam uyumludur. Çeldiriciler: B) Döngüsel (siklik) kırık, aletin kanalda sıkışmadan eğimli bölgede serbestçe uzun süre dönmesiyle oluşur. C) Koroziv kırık kimyasal aşınmaya bağlıdır. D) Fleksürel kırık döngüsel kırık ile eş anlamlıdır, eğri kanalda metal yorgunluğuyla oluşur. E) Rombohedral kırık diye bir kırık sınıflaması yoktur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "I. Diaket\nII. Kompomer\nIII. Epoksi rezinler\nYukarıdakilerden hangileri perforasyon tamirinde kullanılan materyallerdendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kök ve furkasyon perforasyonlarının tamirinde biyouyumlu, doku sıvılarında çözünmeyen, sızdırmazlık sağlayan ve sertleşebilen materyaller (MTA, Biodentine, Super-EBA, IRM, CİS, RMGIC/Kompomer, Diaket vb.) kullanılır. Öncüllerin Analizi: I. Diaket, polivinil (poliketon) rezin esaslı bir materyal olup yoğun kıvamda hazırlandığında kök perforasyonu tamiri ve retrograd dolgu maddesi olarak kullanılabilir (Doğru). II. Kompomer (poliasit modifiye kompozit rezin) ve rezin modifiye cam iyonomerler (Geristore, Dyract vb.), özellikle MTA'nın yıkanma (wash-out) ve renklenme riski taşıdığı kret altı/servikal perforasyon tamirlerinde ve retrograd dolgularda başarıyla kullanılır (Doğru). III. Epoksi rezinler (AH 26, AH Plus) yalnızca kök kanal dolgu patı (sealer) olarak kullanılır; nemli perforasyon sahasında sertleşemez, sitotoksiktir ve perforasyon tamir materyali olarak kullanılmazlar (Yanlış). Çeldiriciler: A) II. öncül de kullanılır. B) Epoksi rezinler perforasyon tamirinde kullanılmaz. D) III. öncül yanlıştır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Kök kanalında gerçekleşen perforasyonların prognozunda verilenlerden hangisi anlamlı değildir?",
+    "options": {
+      "A": "Perforasyonun seviyesi",
+      "B": "Perforasyonun genişliği",
+      "C": "Perforasyonun hangi aletle yapıldığı",
+      "D": "Perforasyon tamirinde kullanılan ajan",
+      "E": "Perforasyonun bir an önce tamiri"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kök kanalında meydana gelen bir perforasyonun uzun dönem iyileşme prognozunda; perforasyonun boyutu, seviyesi (konumu), oluşumundan tamirine kadar geçen süre ve tamirde kullanılan materyalin biyouyumluluğu/sızdırmazlığı kritik öneme sahiptir. Ancak perforasyon oluştuktan sonra, bu delinmenin \"hangi aletle yapıldığı\" (el eğesi, döner eğe, GG frezi veya elmas frez) sadece resultante boyutu etkiler; aletin cinsinin kendisi prognozda doğrudan anlamlı bir kriter değildir. Çeldiriciler: A) Perforasyonun seviyesi (alveol kemiği kreti ile ilişkisi) en kritik faktördür; kret seviyesinde ve sulkusa yakın (kritik bölge) perforasyonlar cep oluşumu ve bakteriyel sızıntı nedeniyle en kötü prognoza sahipken, kemik içindeki apikal perforasyonların prognozu çok daha iyidir. B) Küçük çaplı perforasyonlarda doku yıkımı azdır ve hermetik tıkanması kolay olduğu için geniş perforasyonlara göre prognoz daha iyidir. D) Tamirde MTA veya Biodentine gibi biyouyumlu, hidrofilik ve sementogenezi uyaran ajanların kullanılması prognozu ciddi şekilde artırır. E) Perforasyonun mikroorganizmalarla kontamine olmadan \"bir an önce (hemen aynı seansta)\" tamir edilmesi periodontal yıkımı önleyerek başarıyı en üst düzeye çıkarır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Kök perforasyon tamiri, vital pulpa tedavileri, apeksifikasyon, pulpa rejenerasyonu gibi pek çok tedavide sıklıkla kullanılması önerilen, biyouyumlu, sert doku bariyeri oluşumunu teşvik eden ve sertleşme reaksiyonunu tamamlayabilmesi için neme ihtiyaç duyan materyal aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Amalgam",
+      "B": "Kalsiyum hidroksit",
+      "C": "Mineral trioksit agregat",
+      "D": "Çinko oksit öjenol siman",
+      "E": "Cam iyonomer siman"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Trikalsiyum silikat, dikalsiyum silikat, trikalsiyum alüminat ve bizmut oksitten oluşan \"Mineral Trioksit Agregat (MTA)\", üstün biyouyumluluğu ve biyoaktivitesiyle sementoblast/odontoblast farklılaşmasını uyararak sert doku bariyeri oluşumunu teşvik eden \"hidrofilik\" bir materyaldir. Hidratasyon (sertleşme) reaksiyonunu tamamlayabilmesi için \"neme ihtiyaç duyar\" (kan ve doku sıvılarından etkilenmez) ve bu sayede perforasyon tamiri, kuafaj/pulpotomi, apikal bariyer (apeksifikasyon) ve rejeneratif endodontide altın standart olarak kullanılır. Çeldiriciler: A) Amalgam hidrofobiktir, biyoaktif değildir, sert doku yapımını uyarmaz, korozyon ve doku boyaması yapar. B) Kalsiyum hidroksit biyoaktiftir ve sert doku uyarır ancak \"sertleşmesi için neme ihtiyaç duymaz\", aksine nemli ortamda zamanla çözünür (rezorbe olur) ve mekanik direnci/sızdırmazlığı düşüktür. D) Çinko oksit öjenol simanlar (IRM, Super-EBA) sert doku bariyeri oluşumunu teşvik etmez (biyoaktif değildir) ve öjenol salınımı nedeniyle sitotoksik olabilir. E) Cam iyonomer simanlar sertleşme aşamasında nemden olumsuz etkilenir ve biyoaktif sert doku indüksiyonu yapmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR",
+    "flag_reason": "2023 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi mineral trioksit agregadın özelliklerinden değildir?",
+    "options": {
+      "A": "Kök perforasyonu tamirinde kullanılır.",
+      "B": "Pulpa kaplamalarında kullanılır.",
+      "C": "Hidrofobiktir.",
+      "D": "Apeksifikasyon tedavisinde kullanılır.",
+      "E": "Biyoaktiftir ve sert doku bariyeri yapımını uyarır."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Mineral Trioksit Agregat (MTA) \"hidrofobik (suyu sevmeyen)\" bir materyal değildir; tam aksine tozundaki kalsiyum silikat partiküllerinin sertleşebilmesi (kalsiyum silikat hidrat jeli ve kalsiyum hidroksit oluşturabilmesi) için su/nem varlığına gereksinim duyan \"hidrofilik\" bir materyaldir. Çeldiriciler: A) Nemden etkilenmediği ve sementogenezi uyardığı için kök ve furkasyon perforasyonu tamirinde ilk tercihtir. B) Direkt/indirekt pulpa kaplamalarında (kuafaj) ve pulpotomilerde kaliteli dentin köprüsü oluşturmak için kullanılır. D) Açık apeksli devital dişlerde tek seansta apikal tıkaç (bariyer) oluşturarak apeksifikasyon tedavisinde kullanılır. E) Salgıladığı kalsiyum ve hidroksil iyonlarıyla (pH 12.5) biyoaktif özellik gösterir ve sert doku (dentin/sement) bariyeri yapımını uyarır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi mineral trioksid agregadın kullanım alanlarından değildir?",
+    "options": {
+      "A": "Total pulpotomi",
+      "B": "Apeksifikasyon",
+      "C": "Rejeneratif endodonti",
+      "D": "Servikal perforasyon tamiri",
+      "E": "Furka perforasyon tamiri"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Diş eti oluğuna (sulkusa) ve ağız ortamına açık olan \"servikal perforasyonların (veya servikal rezorpsiyonların)\" tamirinde MTA kullanımı uygun değildir. Çünkü MTA'nın sertleşme süresi çok uzundur (3-4 saat) ve sürekli tükürük/diş eti oluğu sıvısı akışı altında henüz sertleşmeden yıkanıp uzaklaşır (\"wash-out\" etkisi); ayrıca bizmut oksit içeriği ve pöröz yapısıyla görünür kole bölgesinde ciddi grimsi kuron renklenmesi yapar. Bu bölgede hızlı sertleşen, yıkanmayan ve estetik olan Biodentine, Geristore (RMGIC) veya kompozit rezinler tercih edilir. Çeldiriciler: A) Total pulpotomide kök kanalı ağızlarındaki ampute pulpa üzerine örtücü olarak kullanılır. B) Açık apeksli dişlerde 3-5 mm'lik apikal bariyer (apeksifikasyon) yapımında kullanılır. C) Rejeneratif endodontide kan pıhtısının üzerine koronal bariyer olarak yerleştirilir. E) Kemik seviyesi altında kapalı kalan furkasyon perforasyonlarının tamirinde başarıyla kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Aşağıdaki enstrümanlardan hangisi kök kanalında kırılan bir aletin uzaklaştırılmasında kullanılamaz?",
+    "options": {
+      "A": "Operasyon mikroskobu",
+      "B": "Ultrasonik uçlar",
+      "C": "Hedstrom tipi kanal eğeleri",
+      "D": "Pulse oksimetre cihazı",
+      "E": "Gates-glidden frez seti"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): \"Pulse oksimetre cihazı\", pulpa damarlarındaki hemoglobinin oksijen satürasyonunu ve nabız atımını ölçerek dişin vitalitesini (canlılığını) belirlemeye yarayan tanısal bir cihazdır; kök kanalında kırılan bir aletin mekanik olarak gevşetilip uzaklaştırılmasında hiçbir kullanım alanı yoktur. Çeldiriciler: A) Operasyon mikroskobu, kırık aletin koronal ucunun doğrudan görülmesini sağlayarak çıkarma başarısını artıran en önemli donanımdır. B) Ultrasonik uçlar, kırık aletin etrafındaki dentini aşındırmak ve titreşimle aleti yerinden oynatıp çıkarmak için kullanılır. C) Hedström (H-tipi) eğeler, pozitif rake açılı keskin bıçakları sayesinde kırık aletin yanından geçirilip (bypass) birbirine sarılarak (braiding tekniği) aleti çekip çıkarmada kullanılır. E) Modifiye edilmiş (ucu kesilmiş) Gates-Glidden frezleri, kırık aletin koronaline düz giriş sağlamak ve aletin etrafında dairesel bir staging platform (basamak) oluşturmak için kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR",
+    "flag_reason": "2023 DUS Orijinal"
+  },
+  {
+    "question": "Aşağıdaki enstrümanlardan hangisi kök kanalında kırılan bir aletin uzaklaştırılmasında kullanılamaz?",
+    "options": {
+      "A": "Operasyon mikroskobu",
+      "B": "Ultrasonik uçlar",
+      "C": "K tipi kanal eğesi",
+      "D": "Lazer doppler flowmetre",
+      "E": "Gates glidden frezler"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): \"Lazer Doppler Flowmetre\", pulpadaki eritrosit hareket hızını ölçerek kan dolaşımını (vitaliteyi) değerlendiren objektif bir tanı cihazıdır; kanalda kırılan bir aletin çıkarılması işleminde kullanılamaz. Çeldiriciler: A) Operasyon mikroskobu kırık aleti görmek ve güvenli dentin aşındırması yapmak için kullanılır. B) Ultrasonik uçlar kırık parçayı titreşimle gevşetip dışarı atmak için kullanılır. C) İnce K tipi kanal eğeleri kırık aletin yanından geçerek (bypass) boşluk oluşturmak ve aleti gevşetmek için kullanılır. E) Gates Glidden frezler kırık aletin koronaline düz ulaşım ve platform hazırlamak için kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Wire loop tekniği endodontide aşağıdakilerden hangisi için kullanılır?",
+    "options": {
+      "A": "Vitalite değerlendirme",
+      "B": "Çalışma boyu ölçümü",
+      "C": "Kırık alet çıkarılması",
+      "D": "Perforasyon tamiri",
+      "E": "Kalsifiye kanal tespiti"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): \"Wire loop (tel kement) tekniği\", kalın bir enjektör kanülü içinden geçirilen ince bir ortodontik ligatür teli halkasının (veya BTR Pen, EndoCowboy gibi hazır sistemlerin), etrafındaki dentin ultrasoniklerle serbestleştirilmiş olan kırık aletin koronal ucuna kement gibi geçirilip sıkıştırılarak \"kök kanalından kırık alet çıkarılması\" amacıyla kullanılan mekanik bir yöntemdir. Çeldiriciler: A) Vitalite değerlendirmede termal testler, EPT, LDF ve puls oksimetre kullanılır. B) Çalışma boyu ölçümünde elektronik apeks bulucular ve radyografi kullanılır. D) Perforasyon tamirinde MTA ve Biodentine gibi biyoseramikler kullanılır. E) Kalsifiye kanal tespitinde mikroskop, ultrasonik uçlar, DG-16 sond ve boyalar kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kök kanal preparasyonu esnasında oluşan prosedürel hatalar arasında yer almaz?",
+    "options": {
+      "A": "Basamak oluşumu",
+      "B": "Kök perforasyonu",
+      "C": "Apikal transportasyon",
+      "D": "Rehber giriş yolunun (glide path) oluşması",
+      "E": "Kök kanal kurvatürünün düzleşmesi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): \"Rehber giriş yolunun (glide path) oluşması\" bir prosedürel hata değildir; aksine kök kanal ağzından apikal daralıma kadar ince el eğeleri veya özel glide-path eğeleriyle pürüzsüz ve engelsiz bir tünel/yol hazırlanması işlemidir. NiTi döner eğelerin kullanımından önce mutlaka yapılması önerilen, basamak, transportasyon ve alet kırılması gibi komplikasyonları önleyen arzu edilen bir klinik aşamadır. Çeldiriciler: A) Basamak (ledge) oluşumu, eğimli kanalda aletin apikal daralıma ulaşmasını engelleyen yapay duvar çentiği olup prosedürel bir hatadır. B) Kök perforasyonu, pulpa boşluğu ile periodontal aralık arasında iyatrojenik delinme oluşmasıdır. C) Apikal transportasyon (zipping), eğimli kanalda rijit eğenin düzleşme eğilimiyle apikal kısmın dış duvara doğru yer değiştirmesi hatasıdır. E) Kök kanal kurvatürünün düzleşmesi, hatalı şekillendirme sonucu kanalın doğal eğiminin bozulmasıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "I. Glide path oluşturulması\nII. Zipping oluşturulması\nIII. Kanal kurvatürünün düzleştirilmesi\nYukarıdakilerden hangisi ya da hangileri kanal şekillendirmede NiTi döner eğelerin kullanım prensiplerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): NiTi döner eğelerin kanal içinde sıkışmadan (taper-lock olmadan) ve kanal anatomisini bozmadan çalışabilmesi için uyulması gereken temel klinik prensipler vardır. Öncüllerin Analizi: I. Glide path (rehber giriş yolu) oluşturulması, döner eğelerin kanalın doğal yolunu güvenle takip edebilmesi ve kırılma riskinin azaltılması için döner aletlerden önce mutlaka uygulanması gereken temel prensiptir (Doğru). II. Zipping (apikal transportasyon/damla formu) oluşturulması bir kullanım prensibi değil, apikal daralımın yırtılıp dış duvara taşınmasıyla oluşan prosedürel bir hatadır (Yanlış). III. Kanal kurvatürünün düzleştirilmesi, orijinal kanal anatomisini bozan ve strip/apikal perforasyona yol açan prosedürel bir hatadır; prensip kurvatürü korumaktır (Yanlış). Çeldiriciler: B) III. öncül prosedürel bir hatadır. C) II. öncül bir hatadır. D) III. öncül yanlıştır. E) II ve III. öncüller iyatrojenik hatalardır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "I. Perforasyon\nII. Transportasyon\nIII. Glide path\nIV. Apikal patensi\nYukarıdakilerden hangileri kanal tedavisinin prognozunu düşüren durumlar arasında yer almaz?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kanal tedavisinin başarısını ve prognozunu düşüren durumlar iyatrojenik hatalar iken, kanal açıklığını ve anatomisini koruyan işlemler prognozu olumlu etkiler. Öncüllerin Analizi: I. Perforasyon, kök kanalını periodontal dokulara açarak enfeksiyon ve sızıntıya yol açan, prognozu düşüren ciddi bir hatadır (Prognozu düşürür). II. Transportasyon, orijinal kanal yolunun sapması ve enfekte apikal kısmın temizlenememesiyle prognozu düşüren bir hatadır (Prognozu düşürür). III. Glide path (rehber yol), şekillendirme hatalarını ve alet kırılmasını önleyerek prognozu artıran faydalı bir işlemdir (Yer almaz - Doğru). IV. Apikal patensi, 08 veya 10 numara ince bir K-eğesinin apikal foramenden 0.5-1 mm pasifçe geçirilerek apikal tıkanıklığın önlenmesi işlemidir; çalışma boyunu korur ve başarıyı artırır (Yer almaz - Doğru). Çeldiriciler: A) I ve II prognozu düşüren hatalardır. B) I. öncül prognozu düşürür. C) II. öncül prognozu düşürür. D) II. öncül prognozu düşürür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Aşağıdaki materyallerden hangisi oluşturduğu koagülasyonun bakteriyel üremeyi artırması nedeniyle kök perforasyonu sonrası oluşan kanamayı durdurmak için tercih edilmemelidir?",
+    "options": {
+      "A": "Kalsiyum hidroksit",
+      "B": "Kalsiyum sülfat",
+      "C": "Ferrik sülfat",
+      "D": "Epinefrin",
+      "E": "Kollajen"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): \"Ferrik sülfat\", kan proteinleri ile reaksiyona girerek damar ağızlarını tıkayan koyu renkli aglütine bir protein-demir kompleksi (koagülüm/pıhtı) oluşturur. Ancak kök perforasyonu sahasında veya kemik kavitelerinde bırakılan bu ferrik sülfat pıhtısı yabancı cisim reaksiyonuna yol açar, bakteriyel üreme için besiyeri görevi görerek enfeksiyonu artırır ve alveol kemiği iyileşmesini ciddi şekilde geciktirir/bozar; bu nedenle perforasyon kanamasını durdurmak için tercih edilmemelidir. Çeldiriciler: A) Kalsiyum hidroksit yüksek pH'sı ile antibakteriyeldir ve kapiller kanamayı kontrol etmekte güvenle kullanılır. B) Kalsiyum sülfat biyouyumlu, rezorbe olabilen ve kemik iyileşmesini destekleyen bir bariyer/hemostatik ajandır. D) Epinefrin peletleri lokal vazokonstriksiyon yaparak pıhtı artığı bırakmadan hemostaz sağlar. E) Kollajen bazlı materyaller (CollaCote vb.) trombosit agregasyonunu uyarır ve dokuda sorunsuzca rezorbe olarak iyileşmeyi engellemez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR",
+    "flag_reason": "2024 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Aşağıdaki materyallerden hangisi dokuda iskemi riski nedeniyle apikal cerrahi prosedürlerinde kullanımı önerilmemektedir?",
+    "options": {
+      "A": "Trombin",
+      "B": "Mikrofibriller",
+      "C": "Kalsiyum sülfat",
+      "D": "Nor-epinefrin",
+      "E": "Epinefrin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Apikal cerrahide lokal hemostaz amacıyla kullanılan vazokonstriktörlerden \"Nor-epinefrin (noradrenalin)\", beta-2 vazodilatatör dengeleyici etkisi olmaksızın saf ve aşırı uzun süreli alfa-adrenerjik vazokonstriksiyon yapar. Bu durum cerrahi sahadaki yerel kan akımını tamamen keserek şiddetli \"doku iskemisine ve kemik/yumuşak doku nekrozuna (sloughing)\" yol açtığı için apikal cerrahi prosedürlerinde kullanımı kesinlikle önerilmemektedir. Çeldiriciler: A) Topikal trombin fibrinojeni doğrudan fibrine dönüştürerek iskemi yapmadan pıhtılaşma sağlar. B) Mikrofibriler kollajen hemostatlar trombositleri tutarak fizyolojik hemostaz sağlar. C) Kalsiyum sülfat mekanik tıkaç etkisiyle kanamayı durdurur, damar büzülmesi/iskemi yapmaz. E) Epinefrin (rasemik epinefrin peletleri), alfa reseptörler üzerinden etkili hemostaz sağlarken nor-epinefrin gibi yıkıcı lokal doku nekrozu oluşturmadığı için apikal cerrahide yaygın olarak kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Önceden tamiri yapılmış bir furkasyon perforasyonunun takibinde, apikal lezyon bulunmaksızın, bölgede periodontal lezyon gözlenmesi durumunda aşağıdaki tedavi seçeneklerinden hangisi değerlendirilmelidir?",
+    "options": {
+      "A": "Kanal tedavisinin yenilenmesi",
+      "B": "Apikal cerrahi",
+      "C": "Hemiseksiyon",
+      "D": "Dişin kuronlanması",
+      "E": "Kök amputasyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kök uçlarında apikal lezyon bulunmayan (kök kanal tedavisi başarılı olan) bir molar dişte, daha önce tamir edilmiş furkasyon perforasyonu bölgesinde kronik periodontal yıkım ve furkasyon lezyonu gelişmişse; sorun kök kanallarında değil furkasyon çatısındaki temizlenemeyen defekttedir. Sağlam ve sağlıklı olan kökleri ağızda tutarken furkasyon bölgesini ortadan kaldırıp temizlenebilir iki ayrı tek köklü diş (premolarizasyon/biküspidizasyon) veya tek kök bırakmak amacıyla dişin furkasyondan ikiye ayrıldığı \"hemiseksiyon\" ilk değerlendirilmesi gereken tedavidir. Çeldiriciler: A) Apikal lezyon olmadığı ve kanallar sağlıklı olduğu için kanal tedavisinin yenilenmesi furkasyon defektini çözmez. B) Apikalde lezyon bulunmadığı için apikal cerrahi tamamen gereksizdir. D) Dişin kuronlanması furkasyondaki periodontal yıkımı tedavi etmez. E) Her iki kök de apikal ve periodontal olarak sağlıklı olduğundan sağlam bir kökün tamamen kesilip atıldığı kök amputasyonu yerine köklerin korunduğu hemiseksiyon/biküspidizasyon önceliklidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "I. İlişkide bulunduğu periodontal dokunun sağlık durumu\nII. Perforasyonun boyutu\nIII. Perforasyonun konumu\nIV. Perforasyon oluşumundan itibaren geçen süre\nYukarıdaki kriterlerden hangileri perforasyon tedavisinin prognozunda etkilidir?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I, II ve III",
+      "D": "II ve III",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Endodontik tedavi sırasında meydana gelen kök veya furkasyon perforasyonlarının iyileşme prognozu; enfeksiyon kontrolü ve hermetik sızdırmazlık sağlanabilmesiyle doğrudan ilişkili olan dört temel kritere bağlıdır. Öncüllerin Analizi: I. Perforasyonun komşuluğundaki periodontal dokunun sağlık durumu (cep olup olmaması, ataçman düzeyi) iyileşmeyi doğrudan etkiler (Doğru). II. Perforasyonun boyutu küçüldükçe doku yıkımı azalır ve materyalle sızdırmaz şekilde kapatılması kolaylaşır, prognoz yükselir (Doğru). III. Perforasyonun konumu (seviyesi) en kritik faktördür; kret seviyesindeki (kritik bölge) perforasyonların prognozu kötü, kemik içinde kapalı kalan apikal perforasyonların prognozu iyidir (Doğru). IV. Perforasyon oluşumundan tamir edilene kadar geçen süre uzadıkça bakteriyel kontaminasyon ve periodontal yıkım artacağından hemen tamir edilenlerin prognozu çok daha iyidir (Doğru). Çeldiriciler: A) III ve IV. öncüller de etkilidir. B) I ve II. öncüller de etkilidir. C) IV. öncül de etkilidir. D) I ve IV. öncüller de etkilidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR",
+    "flag_reason": "2025 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi perforasyon tedavisi prognozunda etkili değildir?",
+    "options": {
+      "A": "Komşu periodontal dokunun sağlığı",
+      "B": "Perforasyonun üzerinden geçen süre",
+      "C": "Perforasyonun boyutu",
+      "D": "Perforasyonun konumu",
+      "E": "Kanal dolum materyali"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kök perforasyonu tedavisinin prognozunda \"perforasyon tamirinde kullanılan materyal\" (MTA, Biodentine vb.) çok önemliyken, kök kanalının geri kalanını doldurmak için kullanılan \"kanal dolum materyali\" (gutta-perka vb.) perforasyon bölgesinin iyileşme prognozunda doğrudan belirleyici bir faktör değildir. Çeldiriciler: A) Komşu periodontal dokunun sağlıklı olması ve cep bulunmaması prognozu olumlu etkiler. B) Perforasyonun üzerinden geçen sürenin kısa olması (hemen kapatılması) enfeksiyonu önleyerek prognozu artırır. C) Perforasyon boyutunun küçük olması sızdırmazlığı kolaylaştırır. D) Perforasyonun konumu (alveol kreti ve gingival sulkusa mesafesi) prognozu belirleyen en önemli anatomik kriterdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi perforasyon tamirinde prognozu olumlu yönde etkiler?",
+    "options": {
+      "A": "Hemostatik ajan olarak ferrik sülfat kullanılması",
+      "B": "Perforasyonun üzerinden uzun süre geçmesi",
+      "C": "Perforasyonun biodentin ile kapatılması",
+      "D": "Perforasyonun oldukça geniş olması",
+      "E": "Perforasyona komşu periodontal ligamentin inflame olması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kalsiyum silikat esaslı biyoaktif bir siman olan \"Biodentine\", üstün sızdırmazlık özelliği, biyouyumluluğu, nemden etkilenmemesi, hızlı sertleşmesi (12 dk) ve sementogenezi uyarması sayesinde perforasyon tamirinde kullanıldığında prognozu oldukça \"olumlu\" yönde etkiler. Çeldiriciler: A) Hemostatik ajan olarak ferrik sülfat kullanılması bölgede bıraktığı pıhtı artığının bakteriler için besin kaynağı olması ve yabancı cisim reaksiyonu yaratması nedeniyle prognozu olumsuz etkiler. B) Perforasyonun üzerinden uzun süre geçmesi mikrobiyal kontaminasyona ve endo-perio lezyonu gelişimine yol açarak prognozu düşürür. D) Perforasyonun geniş olması sızdırmaz tıkamayı zorlaştırır ve matriks taşmasına yol açarak prognozu kötüleştirir. E) Komşu periodontal ligamentin inflame olması veya cep varlığı tamir materyalinin sızdırmazlığını bozarak prognozu düşürür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR"
+  }
+]

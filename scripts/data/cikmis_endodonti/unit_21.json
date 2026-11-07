@@ -1,0 +1,255 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi intrensik renklenme nedenlerinden (içsel) değildir?",
+    "options": {
+      "A": "Kalsifik metamorfoz",
+      "B": "Kromojen mikroorganizmalar",
+      "C": "Tetrasiklin renklenmesi",
+      "D": "Eritroblastosis fetalis",
+      "E": "İntrapulpal hemoraji"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Diş renklenmeleri lokasyon ve etiyolojisine göre içsel (intrensek) ve dışsal (ekstrensek) olarak ikiye ayrılır. \"Kromojen (renk üreten) mikroorganizmalar\" (örneğin Actinomyces türleri), özellikle çocuklarda ve gençlerde diş eti kenarına paralel olarak mine dış yüzeyinde siyah-yeşil-turuncu bant şeklinde birikim yapan \"dışsal (ekstrensek)\" bir renklenme nedenidir; polisaj ve profilaksi işlemleriyle kolayca temizlenir, içsel değildir. Çeldiriciler: A) Kalsifik metamorfoz, travma sonrası kanalın tersiyer dentinle tıkanmasına bağlı gelişen sarımsı-kahverengi \"içsel\" bir renklenmedir. C) Tetrasiklin renklenmesi, diş gelişimi sırasında alınan tetrasiklinin dentin kalsiyumuna bağlanmasıyla oluşan sarı-gri-kahverengi bant tarzında \"içsel\" bir renklenmedir. D) Eritroblastozis fetalis, Rh uyuşmazlığı sonucu fetüste parçalanan eritrositlerden açığa çıkan hemosiderin ve safra pigmentlerinin gelişmekte olan dentine çökelmesiyle oluşan yeşil-mavi-kahverengi \"içsel\" bir renklenmedir. E) İntrapulpal hemoraji, travma sonrası dentin tübüllerine giren kan hücrelerinin parçalanıp demir sülfür oluşturmasıyla gelişen gri-kahverengi \"içsel\" bir renklenmedir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "I. Kromojen mikroorganizmalar\nII. Tetrasiklin renklenmesi\nIII. Eritroblastozis fetalis\nYukarıda verilenlerden hangisi veya hangileri ile ilişkili renklenmeler ekstrakoronal beyazlatma işlemleri ile giderilebilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Yüzey temizliği (polisaj) ve ekstrakoronal (vital) uygulamalarla kolayca ve tamamen giderilebilen renklenmeler mine dış yüzeyine tutunmuş olan dışsal (ekstrensek) renklenmelerdir. Öncüllerin Analizi: I. Kromojen mikroorganizmalar, dişin dış mine yüzeyinde biyofilm/plak kaynaklı dışsal leke oluşturdukları için ekstrakoronal işlemlerle kolayca giderilebilir (Doğru). II. Tetrasiklin renklenmesi, kalsifikasyon döneminde dentin yapısına katılmış derin içsel (intrensek) bir renklenmedir; özellikle şiddetli gri-siyah bantlı formları ekstrakoronal beyazlatmaya en dirençli renklenmedir (Yanlış). III. Eritroblastozis fetalis, gelişimsel dönemde dentine çökelmiş hemosiderin/bilirübin kaynaklı içsel bir renklenmedir (Yanlış). Çeldiriciler: B) Tetrasiklin içsel renklenmedir. C) Eritroblastozis fetalis içsel renklenmedir. D) II. öncül yanlıştır. E) II ve III içsel gelişimsel renklenmelerdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "I. Termokatalitik teknik\nII. Walking bleach tekniği\nIII. Ultraviyole beyazlatma\nYukarıda verilenlerden hangisinde veya hangilerinde işlem sonrası kalsiyum hidroksit uygulamasına gerek yoktur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Devital (intrakoronal) beyazlatma sonrasında pulpa odasına birkaç hafta süreyle \"kalsiyum hidroksit patı yerleştirilmesinin\" amacı; yüksek konsantrasyonlu hidrojen peroksit ve ısı/ışık aktivasyonu kullanıldığında dentin tübüllerinden periodontal aralığa sızan peroksitin yarattığı asidik pH'yı nötralize etmek ve \"eksternal servikal kök rezorpsiyonu\" riskini önlemektir. Öncüllerin Analizi: I. Termokatalitik teknikte pulpa odasındaki %30-35'lik hidrojen peroksite doğrudan \"ısı\" uygulandığı için servikal kök rezorpsiyonu riski çok yüksektir; işlem sonrası mutlaka kalsiyum hidroksit uygulanmalıdır (Gerek vardır). II. \"Walking bleach tekniği\"nde (özellikle ısı uygulanmadan sadece sodyum perborat + su/salin kullanıldığında) işlem agresif değildir, yavaş ve güvenli ilerlediği için servikal rezorpsiyon riski çok düşüktür; bu nedenle işlem sonrası kalsiyum hidroksit uygulamasına gerek yoktur (Doğru). III. Ultraviyole (foto-oksidasyon) beyazlatmada yüksek konsantrasyonlu peroksite UV ışık/ısı enerjisi uygulandığı için rezorpsiyon riskine karşı kalsiyum hidroksit tamponlaması gerekir (Gerek vardır). Çeldiriciler: A) Termokatalitik teknik en yüksek rezorpsiyon riskini taşır, Ca(OH)2 şarttır. C) III. öncülde enerji aktivasyonu vardır. D) I. öncül yanlıştır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "I. Karbamid peroksit\nII. Hidrojen peroksit\nIII. Sodyum klorit\nIV. Sodyum perborat\nİntrakoronal beyazlatmada yukarıdaki maddelerden hangileri kullanılmaz?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yalnız IV",
+      "C": "I ve II",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İntrakoronal (devital) diş beyazlatmasında organik pigment makromoleküllerini okside ederek parçalayan peroksit ve perborat bileşikleri kullanılır. Öncüllerin Analizi: I. Karbamid peroksit (üre hidrojen peroksit, %10-37), hem ekstrakoronal hem de intrakoronal beyazlatmada başarıyla kullanılan bir ajandır (Kullanılır). II. Hidrojen peroksit (%30-35 Perhidrol/Süperoksol), güçlü okside edici bir intrakoronal ve ekstrakoronal beyazlatma ajanıdır (Kullanılır). III. \"Sodyum klorit (veya sodyum hipoklorit/çamaşır suyu)\", içme suyu arıtma, tekstil ağartma ve kök kanal dezenfeksiyonunda kullanılan bir kimyasaldır; intrakoronal diş beyazlatma ajanı olarak \"kullanılmaz\" (Doğru - kullanılmaz). IV. Sodyum perborat, suyla temas ettiğinde yavaşça hidrojen peroksit ve serbest oksijen salan, kontrolü en kolay ve en güvenli olan temel intrakoronal (walking bleach) beyazlatma ajanıdır (Kullanılır). Çeldiriciler: B) Sodyum perborat en sık kullanılan intrakoronal ajandır. C) I ve II ana beyazlatma ajanlarıdır. D) II ve IV temel intrakoronal ajanlardır. E) IV. öncül kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "İntrakoronal beyazlatmada aşağıdakilerden hangisi kullanılmaz?",
+    "options": {
+      "A": "Sodyum klorit",
+      "B": "Sodyum perborat",
+      "C": "Hidrojen peroksit",
+      "D": "Karbamid peroksit",
+      "E": "Ultraviyole ışık"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"Sodyum klorit\", genel endüstriyel ağartma, su arıtma ve dezenfeksiyon işlemlerinde kullanılan bir klor bileşiğidir; devital dişlerin \"intrakoronal beyazlatmasında\" kullanılan bir ajan değildir. Çeldiriciler: B) Sodyum perborat, walking bleach tekniğinde en çok tercih edilen güvenli intrakoronal beyazlatma ajanıdır. C) Hidrojen peroksit (%30-35), hızlı etki istendiğinde kullanılan güçlü oksidatif beyazlatma ajanıdır. D) Karbamid peroksit (%10-35), yavaş hidrojen peroksit salınımı yapan güvenli bir beyazlatma ajanıdır. E) Ultraviyole (UV) ışık ve ısı, hidrojen peroksiti aktive ederek oksijen salınımını hızlandırmak amacıyla beyazlatmada kullanılabilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "I. Karbamid peroksit\nII. Sodyum perborat\nIII. Hidrojen peroksit\nYukarıda verilenlerden hangisi veya hangileri karbapol içerir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"Karbopol (Carbopol)\", suda çözünebilen yüksek molekül ağırlıklı bir poliakrilik asit polimeridir (kıvam artırıcı jel ajanıdır). Beyazlatma ajanlarına viskozite (jel kıvamı ve dişe tutunma) kazandırmak, aktif oksijen salınımını yavaşlatarak etki süresini uzatmak ve ürünün raf ömrünü artırmak amacıyla \"karbamid peroksit\" içeren ticari jel preparatlarının içerisine (gliserin ile birlikte) eklenir. Öncüllerin Analizi: I. Karbamid peroksit (üre hidrojen peroksit) ticari jelleri, peroksit salınımını yavaşlatıp stabilize eden \"karbopol\" ve gliserin içerir (Doğru). II. Sodyum perborat kuru beyaz bir tozdur, karbopol içermez (Yanlış). III. Saf hidrojen peroksit (%30-35 Süperoksol/Perhidrol) sulu (aköz) bir solüsyondur, karbopol içermez (Yanlış). Çeldiriciler: B) Sodyum perborat toz halindedir. C) II. öncül yanlıştır. D) III. öncül sulu solüsyondur. E) II ve III karbopol içermez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "İntrakoronal beyazlatma sonrası aşağıdaki rezorbsiyonlardan hangisi görülür?",
+    "options": {
+      "A": "İnternal",
+      "B": "Apikal",
+      "C": "Lateral",
+      "D": "Servikal eksternal",
+      "E": "Yer değiştirme"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Devital dişlere uygulanan \"intrakoronal beyazlatma\" işleminin en önemli ve en yıkıcı geç dönem komplikasyonu \"eksternal servikal kök rezorpsiyonu (invaziv servikal rezorpsiyon)\"dur. Pulpa odasına yerleştirilen beyazlatma ajanları (özellikle %30-35 hidrojen peroksit ve ısı uygulandığında), servikal bölgedeki geniş dentin tübüllerinden ve mine-sement birleşimindeki doğal sement defektlerinden (%10 dişte mine ve sement birleşmez, dentin açıktadır) periodontal aralığa sızar; burada pH'yı düşürür, proteinleri denatüre ederek yabancı cisim/inflamatuar yanıt başlatır ve servikal eksternal kök rezorpsiyonuna yol açar. Çeldiriciler: A) İnternal rezorpsiyonun gelişebilmesi için dişin \"vital\" olması gerekir; intrakoronal beyazlatma yapılan diş zaten kanal tedavili (devital) olduğu için internal rezorpsiyon gelişmesi imkansızdır. B) Beyazlatma ajanı kurona yerleştirildiği ve kanal kök dolgusuyla tıkalı olduğu için apikal rezorpsiyon yapmaz. C) Kökün orta üçlüsünde (lateralde) rezorpsiyon oluşturmaz. E) Yer değiştirme (replasman/ankiloz) rezorpsiyonu avülsiyon ve intrüzyon gibi ağır travmalardan sonra görülür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "I. İntrakoronal beyazlatma\nII. Vital pulpa tedavileri\nIII. Ortodontik tedavi\nYukarıda verilenlerden hangisi veya hangileri servikal rezorpsiyonun sebeplerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Eksternal servikal kök rezorpsiyonu, dişin kole bölgesindeki periodontal ligamentin ve presement tabakasının fiziksel veya kimyasal olarak hasarlanması sonucunda başlar; pulpa dokusu ile hiçbir başlangıç ilişkisi yoktur. Öncüllerin Analizi: I. İntrakoronal (devital) beyazlatma, dentin tübüllerinden servikal periodontal aralığa sızan hidrojen peroksitin yarattığı kimyasal irritasyonla servikal rezorpsiyonun en bilinen sebeplerindendir (Doğru). II. Vital pulpa tedavileri (kuafaj, pulpotomi) pulpa dokusunu korumaya yönelik biyouyumlu işlemlerdir; servikal periodontal ligamente zarar vermediği için servikal rezorpsiyona sebep olmaz (Yanlış). III. Ortodontik tedavi (aşırı ortodontik kuvvetler), dental travma ile birlikte eksternal servikal kök rezorpsiyonunun en yaygın etiyolojik sebeplerinden biridir (Doğru) (Diğer sebepler: dental travma, servikal cerrahi işlemler, periodontal tedavi, bruksizm ve mine stripping işlemleridir). Çeldiriciler: A) III. öncül en yaygın sebeptir. B) Vital pulpa tedavileri servikal rezorpsiyon yapmaz. C) II. öncül yanlıştır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi kuronda siyah renklenmeye sebep olur?",
+    "options": {
+      "A": "Kalsifik metamorfoz",
+      "B": "Florozis",
+      "C": "Hiperbilirubinemi",
+      "D": "Tetrasiklinler",
+      "E": "Dentinogenezis İmperfekta"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Diş gelişimi (kalsifikasyon) döneminde sistemik olarak kullanılan veya rejeneratif tedavide kanal içine uygulanan \"tetrasiklinler (ve özellikle minosiklin)\", dentin kalsiyumu ile şelasyon yaparak ışık etkisiyle okside olur ve kuronda sarıdan koyu griye, kahverengiye ve \"siyahımsı (siyah)\" renge kadar uzanan içsel renklenmelere sebep olur (Ayrıca dışsal olarak kromojenik bakteriler, demir/metal sülfürler ve içsel olarak amalgam/gümüş alaşımlar da siyah renklenme yapar). Çeldiriciler: A) Kalsifik metamorfoz kuronda siyah değil, sadece \"sarı / sarımtırak\" renklenme yapar. B) Florozis derecesine göre \"tebeşirimsi beyaz, sarı veya kahverengi\" lekelenme yapar, siyah yapmaz. C) Hiperbilirubinemi (neonatal sarılık / eritroblastozis fetalis) dişlerde \"yeşil veya sarı-mavi\" renklenme yapar. E) Dentinogenezis imperfekta kuronda opalesan \"kehribar sarısı veya grimsi-kahverengi\" renklenme yapar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "Eksternal servikal kök rezorpsiyonunun engellenmesi için aşağıdaki internal ağartma uygulamalarından hangisi diğerlerine göre daha güvenlidir?",
+    "options": {
+      "A": "Isı aktivasyonu olmaksızın sodyum perborat ve %30 hidrojen peroksit karışımı",
+      "B": "Isı aktivasyonu olmaksızın sodyum perborat ve %35 hidrojen peroksit karışımı",
+      "C": "Isı aktivasyonu olmaksızın sodyum perborat ve su karışımı",
+      "D": "Isı aktivasyonu ile birlikte %35 karbamid peroksit",
+      "E": "Isı aktivasyonu ile birlikte %30 hidrojen peroksit"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İnternal (devital) ağartma işlemlerinde eksternal servikal kök rezorpsiyonu riskini artıran en önemli iki uygulama hatası; yüksek konsantrasyonlu (%30-35) hidrojen peroksit kullanılması ve \"ısı aktivasyonu (termokatalitik yöntem)\" uygulanmasıdır. Isı, dentin tübüllerini genişleterek ve peroksitin difüzyon hızını artırarak servikal periodontal dokularda ağır yıkım başlatır. Bu nedenle servikal kök rezorpsiyonunun engellenmesi için en güvenli yöntem, yüksek konsantrasyonlu hidrojen peroksit ve ısı kullanılmaksızın yalnızca \"ısı aktivasyonu olmaksızın sodyum perborat ve distile su (veya salin) karışımı\" ile yapılan walking bleach tekniğidir. Çeldiriciler: A) %30 hidrojen peroksit eklenmesi servikal rezorpsiyon riskini belirgin şekilde artırır. B) %35 hidrojen peroksit güçlü kostik ve asidik etkiyle rezorpsiyon riskini artırır. D) Isı aktivasyonu uygulanması peroksit geçişini hızlandırdığı için oldukça risklidir. E) Hem ısı aktivasyonu hem de %30 hidrojen peroksit kullanımı (termokatalitik teknik) servikal rezorpsiyon riski en yüksek olan en tehlikeli kombinasyondur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "I. Sodyum perborat ve %30 hidrojen peroksit\nII. Sodyum perborat ve su\nIII. Hidrojen peroksit ve ısı\nYukarıdaki devital beyazlatma tekniklerinin, eksternal servikal kök rezorpsiyonu açısından güvenliden riskliye doğru en uygun sıralaması aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "I, II, III",
+      "B": "I, III, II",
+      "C": "II, I, III",
+      "D": "II, III, I",
+      "E": "III, I, II"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Devital beyazlatmada ajan ne kadar hızlı ve agresif oksijen radikali salıyorsa ve ortamda ısı varsa, servikal dentin tübüllerinden sızarak eksternal servikal kök rezorpsiyonu oluşturma riski o kadar yüksektir. Öncüllerin Analizi: II. \"Sodyum perborat ve su\" karışımı, yavaş ve düşük konsantrasyonda peroksit saldığı ve ısı içermediği için \"en güvenli\" yöntemdir (1. sırada). I. \"Sodyum perborat ve %30 hidrojen peroksit\" karışımı, ısı içermese de yüksek konsantrasyonlu peroksit nedeniyle orta derecede risk taşır (2. sırada). III. \"Hidrojen peroksit ve ısı\" (termokatalitik teknik), ısının peroksit difüzyonunu ve radikal oluşumunu aşırı hızlandırması nedeniyle \"en riskli\" yöntemdir (3. sırada). Dolayısıyla güvenliden riskliye doğru sıralama \"II, I, III\" şeklindedir. Çeldiriciler: A) İlk sırada en güvenli olan II yer almalıdır. B) Sıralama hatalıdır. D) En riskli olan ısı uygulaması (III) en sonda yer almalıdır. E) Sıralama tamamen tersten (riskliden güvenliye) verilmiştir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "İntrakoronal beyazlatma aşağıdakilerden hangisinde endikedir?",
+    "options": {
+      "A": "Yüzeyel mine renklenmeleri",
+      "B": "Defektif mine kaybı",
+      "C": "Şiddetli dentin kaybı",
+      "D": "Çürük varlığı",
+      "E": "Dentin renklenmeleri"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İntrakoronal (devital) beyazlatma; kök kanal tedavisi görmüş, yeterli sağlam kuron dokusuna sahip dişlerde pulpa odası kaynaklı (nekroz, kanama, kanal patları vb.) veya ekstrakoronal yöntemlerle giderilemeyen içsel \"dentin renklenmelerinde\" endikedir. Çeldiriciler: A) Yüzeyel mine renklenmeleri dışsal (ekstrensek) olup polisaj, mikroabrazyon veya ekstrakoronal beyazlatma ile giderilir; bunun için dişe girilerek intrakoronal beyazlatma yapılmaz (kontrendikedir). B) Defektif mine varlığı (mine hipoplazisi, çatlaklar) ağartıcı ajanın dışarı sızmasına yol açtığı için kontrendikedir. C) Şiddetli dentin (madde) kaybı olan dişlerde kuron kırılganlığı çok yüksek olduğu ve ince dentinden peroksit sızacağı için intrakoronal beyazlatma kontrendikedir (protetik kuron/lamina yapılır). D) Aktif çürük varlığı ve renklenmiş geniş kompozit restorasyonlar intrakoronal beyazlatmanın kontrendikasyonlarıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "I. Şiddetli renk değişikliğinin gözlendiği vakalarda sodyum perborat hidrojen peroksit ile karıştırılabilir.\nII. Kök kanal ağızlarına bariyer yerleştirilmesinin esas amacı renklenmenin tekrarlanmasını engellemektir.\nIII. Bu tedavilerin önemli bir komplikasyonu eksternal servikal kök rezorpsiyonunun gözlenmesidir.\nKök kanal tedavisi sonrasında koronal bölgede gözlenen renk değişikliğinin tedavisi ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kanal tedavili dişlerde görülen koronal renklenmelerin tedavisinde uygulanan intrakoronal (devital / walking bleach) beyazlatma işlemi belirli kurallar ve komplikasyon riskleri içerir. Öncüllerin Analizi: I. Normalde sodyum perborat distile su veya salin ile karıştırılır; ancak suya dirençli çok \"şiddetli renk değişikliğinin gözlendiği vakalarda\" beyazlatma etkinliğini ve hızını artırmak için sodyum perborat %3-30'luk \"hidrojen peroksit ile karıştırılabilir\" (ancak rezorpsiyon riskine dikkat edilir) (Doğru). II. Devital beyazlatma öncesinde gütaperka kanal dolgusunun kole seviyesinin 2 mm altına kadar indirilip üzerine cam iyonomer, RMGIC, IRM veya MTA gibi 2 mm kalınlığında bir \"servikal bariyer (kaide)\" yerleştirilmesinin esas amacı renklenmenin tekrarlanmasını engellemek değil; beyazlatma ajanının apikale ve özellikle servikal dentin tübüllerinden periodontal ligamente sızmasını önleyerek \"eksternal servikal kök rezorpsiyonu riskini engellemektir\" (Yanlış). III. Bu tedavilerin (özellikle ısı ve yüksek konsantrasyonlu peroksit kullanıldığında) en önemli ve en ciddi komplikasyonu \"eksternal servikal kök rezorpsiyonunun\" gözlenmesidir (Doğru). Çeldiriciler: A) III. öncül de doğrudur. B) II. öncül yanlıştır, bariyerin esas amacı servikal rezorpsiyonu önlemektir. C) I. öncül de doğrudur. D) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)",
+    "flag_reason": "2022 DUS Orijinal"
+  },
+  {
+    "question": "I. Sodyum perborat, hidrojen peroksit ile karıştırılarak kullanılabilir.\nII. Renklenmenin tekrarlanmasını önlemek için esas olarak kök kanal ağızlarına bariyer yerleştirilmelidir.\nIII. Bu tedavi sonrasında eksternal servikal kök rezorpsiyonu gözlenebilir.\nKök kanal tedavisi sonrası maksiller santral dişinde şiddetli renklenme gözlenen hastanın dişine devital beyazlatma yapılması planlanmıştır. Bu tedavi ile ilgili olarak yukarıda verilenlerden hangisi veya hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Devital (walking bleach) beyazlatma protokolünde sodyum perborat kullanımı ve servikal bariyer uygulaması temel basamaklardır. Öncüllerin Analizi: I. Şiddetli renklenmelerde sodyum perborat su yerine hidrojen peroksit ile karıştırılarak kullanılabilir (Doğru). II. Kök kanal ağızlarına (mine-sement birleşimi hizasına) yerleştirilen 2 mm'lik servikal bariyerin esas amacı renklenmenin tekrarını önlemek değil, ağartıcı ajanın servikal dentin tübüllerinden periodontal aralığa sızarak eksternal servikal kök rezorpsiyonu yapmasını önlemektir (Yanlış). III. Devital beyazlatma sonrasında en önemli komplikasyon olarak eksternal servikal kök rezorpsiyonu gözlenebilir (Doğru). Çeldiriciler: A) III. öncül de doğrudur. B) II. öncül yanlıştır. C) I. öncül de doğrudur. D) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "Devital beyazlatma sonrası aşağıda verilenlerden hangisinin görülmesi beklenir?",
+    "options": {
+      "A": "İnternal inflamatuar rezorpsiyon",
+      "B": "Eksternal servikal rezorpsiyon",
+      "C": "Eksternal yüzey rezorpsiyonu",
+      "D": "Replasman rezorpsiyonu",
+      "E": "İnflamatuar eksternal kök rezorpsiyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Devital (intrakoronal) beyazlatma sırasında pulpa odasına yerleştirilen oksidatif beyazlatma ajanlarının servikal bölgedeki dentin tübüllerinden ve sement defektlerinden periservikal periodontal ligamente sızarak burada asidik/inflamatuar yıkım başlatması sonucunda görülmesi beklenen spesifik komplikasyon \"eksternal servikal rezorpsiyon\"dur. Çeldiriciler: A) İnternal inflamatuar rezorpsiyon için canlı (vital) pulpa dokusu şarttır; devital beyazlatma yapılan diş zaten kanal tedavili olduğu için internal rezorpsiyon görülmez. C) Eksternal yüzey rezorpsiyonu hafif lokalize mekanik travma sonrası görülür ve kendiliğinden iyileşir. D) Replasman rezorpsiyonu (ankiloz) avülsiyon ve intrüzyon gibi ağır travmalardan sonra görülür. E) İnflamatuar eksternal kök rezorpsiyonu lüksasyon travması + enfekte nekrotik pulpa varlığında kök yüzeyi boyunca görülür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "I. Eritroblastozis fetalis\nII. Porfiria\nIII. Talasemi\nYukarıdakilerden hangileri dişlerde içsel renklenmeye neden olabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Diş gelişimi (odontogenez) sırasında sistemik dolaşımda bulunan kan yıkım ürünleri ve metabolik pigmentler gelişmekte olan dentin ve mine matriksine çökelerek çoklu dişlerde kalıcı \"içsel (intrensek) renklenmelere\" neden olur. Öncüllerin Analizi: I. Eritroblastozis fetalis, fetüs veya yenidoğanda Rh uyuşmazlığı sonucu oluşan şiddetli hemoliz (eritrosit yıkımı) tablosudur; açığa çıkan hemosiderin ve safra pigmentleri (bilirübin/biliverdin) dişlerde mavi-yeşil, sarı veya kahverengi içsel renklenmeye neden olur (Doğru). II. Konjenital eritropoetik porfiria (Günther hastalığı), porfirin metabolizması bozukluğu olup dişlerde biriken porfirin pigmenti nedeniyle kırmızımsı-kahverengi (UV ışık altında kırmızı floresans veren \"eritrodonti\") içsel renklenmeye neden olur (Doğru). III. Talasemi (Akdeniz anemisi) ve orak hücreli anemi gibi kalıtsal hemolitik anemiler, kan pigmentlerinin dentine birikmesiyle gri, yeşil veya kırmızımsı-kahverengi içsel renklenmeye neden olur (Doğru). Çeldiriciler: A) II ve III de içsel renklenme nedenidir. B) I ve III de içsel renklenme yapar. C) II. öncül de eritrodonti (içsel renklenme) yapar. D) I. öncül de içsel renklenme yapar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "Aşağıdaki renklenmelerden hangisinin giderilmesi için intrakoronal beyazlatma uygulanmaz?",
+    "options": {
+      "A": "Eritroblastozis fetalis",
+      "B": "Porfiria",
+      "C": "Talasemi",
+      "D": "Florozis",
+      "E": "Kromojenik renklenme"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Kromojenik (kromojen bakterilere bağlı) renklenme\", dişin dış mine yüzeyinde oluşan \"dışsal (ekstrensek)\" bir lekelenmedir; basit bir profesyonel diş yüzeyi temizliği ve polisaj (veya ekstrakoronal işlemler) ile kolayca giderilir. Dışsal bir leke için dişe kanal tedavisi yapıp pulpa odasına girerek \"intrakoronal beyazlatma\" uygulanması kesinlikle söz konusu olamaz. Çeldiriciler: A) Eritroblastozis fetalis dentin kaynaklı içsel bir renklenmedir. B) Porfiria dentin kaynaklı içsel bir renklenmedir. C) Talasemi kan pigmenti kaynaklı içsel bir renklenmedir. D) Şiddetli florozis ve içsel dentin renklenmeleri devital dişlerde intrakoronal kombine yaklaşımlara konu olabilirken, kromojenik renklenme saf dışsal yüzey lekesidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  },
+  {
+    "question": "I. Tütün renklenmesi\nII. Porfiria\nIII. Talasemi\nIV. Eritroblastozis fetalis\nYukarıdaki renklenmelerden hangisinin giderilmesi için kanal tedavisini takiben pulpa odasına hidrojen peroksit uygulamasına gerek görülmez?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kanal tedavisini takiben pulpa odasına hidrojen peroksit/sodyum perborat uygulanması işlemi \"intrakoronal (devital) beyazlatma\"dır ve yalnızca içsel (intrensek) dentin renklenmelerinde uygulanır; dışsal (ekstrensek) yüzey lekelerinde uygulanmaz. Öncüllerin Analizi: I. \"Tütün (sigara) renklenmesi\" (çay, kahve, şarap ve kromojen bakteriler gibi), mine dış yüzeyinde biriken \"dışsal (ekstrensek)\" bir renklenmedir (sadece derin mine çatlakları varsa içine sızabilir); diş yüzeyi temizliği, polisaj ve ekstrakoronal beyazlatma ile giderilir, pulpa odasına girilmesine gerek görülmez (Doğru). II. Porfiria sistemik içsel (intrensek) dentin renklenmesi yapar (Yanlış). III. Talasemi sistemik içsel dentin renklenmesi yapar (Yanlış). IV. Eritroblastozis fetalis sistemik içsel dentin renklenmesi yapar (Yanlış). Çeldiriciler: B) Porfiria içsel renklenmedir. C) Talasemi içsel renklenmedir. D) II ve III içsel renklenmelerdir. E) II ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)"
+  }
+]

@@ -1,0 +1,1017 @@
+[
+  {
+    "question": "Rutin kontrol amacıyla başvuran 40 yaşındaki erkek hastadan alınan seri periapikal filmlerde sol alt 1. premolar dişi ile ilişkili radyolusent alan tespit ediliyor. Herhangi bir restorasyonun ve çürük lezyonunun eşlik etmediği dişin elektrikli pulpa testi sonucunda vital olduğu ve cep derinliği ölçümünün normal sınırlar dahilinde olduğu saptanıyor. Perküsyon ve palpasyon testlerinde herhangi bir hassasiyet tespit edilmiyor ve dişte mobilite ve marjinal kemik kaybı olmadığı belirtiliyor. Buna göre ilgili dişte mevcut olan en olası klinik tablo aşağıdakilerden hangidir?",
+    "options": {
+      "A": "Kronik apikal periodontitis",
+      "B": "Akut apikal apse",
+      "C": "Hiperemi",
+      "D": "Periapikal semental displazi",
+      "E": "Akut pulpitis"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sağlam, çürüksüz ve asemptomatik bir dişin kök ucunda radyolusent bir lezyon izlenmesine rağmen dişin vitalite testine (EPT) pozitif yanıt vermesi (vital olması), lezyonun endodontik kökenli olmadığını kanıtlar. Periodontal ligament kaynaklı fibro-osseöz bir lezyon olan \"periapikal semental displazi\"nin (PSD) ilk (osteolitik/fibroblastik) evresinde kök ucunda radyolusensi görülürken diş tamamen vital ve asemptomatiktir. Çeldiriciler: A) Kronik apikal periodontitiste kök ucunda radyolusent lezyon vardır ve asemptomatiktir ancak diş mutlaka devitaldir (nekrotiktir). B) Akut apikal apsede diş devitaldir, şiddetli ağrı ve şişlik mevcuttur. C) Hiperemide diş vitaldir ancak provoke ağrı vardır ve kök ucunda radyolusent lezyon bulunmaz. E) Akut pulpitiste şiddetli spontan ağrı vardır ve apikalde radyolusent kemik yıkımı izlenmez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS",
+    "flag_reason": "2015 DUS Orijinal"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisinde periapikal radyolusent lezyonu olan diş vitaldir?",
+    "options": {
+      "A": "Kronik apikal periodontitis",
+      "B": "Akut apikal apse",
+      "C": "Hiperemi",
+      "D": "Periapikal semental displazi",
+      "E": "Akut pulpitis"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Periapikal semental displazi (semento-osseöz displazi), pulpa patolojisiyle ilişkisi olmayan benign fibro-osseöz bir kemik lezyonudur. İlk evresi olan litik (osteolitik) evrede kök ucunda kronik apikal periodontitisi taklit eden radyolusent bir lezyon oluşturur, ancak ilgili diş tamamen sağlıklı ve vitaldir. Çeldiriciler: A) Kronik apikal periodontitiste radyolusent lezyon bulunur fakat pulpa nekrotiktir (devitaldir). B) Akut apikal apsede pulpa tamamen nekrotiktir (devitaldir). C) Hiperemide diş vitaldir ancak periapikal radyolusent lezyon yoktur. E) Akut pulpitiste diş vitaldir ancak periapikal radyolusent lezyon bulunmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Kronik apikal periodontitisin periapikal semental displazinin litik evresi ile ayırıcı tanısında aşağıda verilenlerden hangisi belirleyicidir?",
+    "options": {
+      "A": "Vitalite",
+      "B": "Perküsyonda ağrı",
+      "C": "Spontan ağrı",
+      "D": "Radyolusent lezyon",
+      "E": "Sinüs yolu varlığı"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hem kronik apikal periodontitis hem de periapikal semental displazinin (PSD) birinci (litik) evresi klinik olarak asemptomatiktir ve radyografik olarak kök ucunda iyi sınırlı radyolusent lezyon görüntüsü verir. Bu iki tabloyu birbirinden ayıran tek ve en kesin kriter \"pulpa vitalite testi\"dir; kronik apikal periodontitiste diş devital (nekrotik) iken, PSD'de diş vitaldir. Çeldiriciler: B) Her iki tabloda da perküsyon veya palpasyonda ağrı bulunmaz. C) Her iki tablo da asemptomatiktir, spontan ağrı yoktur. D) Her iki tabloda da kök ucunda radyolusent lezyon mevcuttur, bu nedenle radyografi ayırıcı olamaz. E) Her iki tabloda da sinüs yolu (fistül) bulunmaz; sinüs yolu kronik apikal apsenin bulgusudur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Rutin muayeneye gelen bir hastanın öyküsünden, mandibular sol lateral kesici dişine dört yıl önce kanal tedavisi yapıldığı öğreniliyor. Klinik muayenede mandibular sol santral kesici dişin pulpa canlılık testlerine pozitif, perküsyon testlerine ise negatif yanıt verdiği tespit ediliyor. Mandibular sol lateral kesici dişte ise perküsyonda ağrı saptanıyor. İlgili dişlerin periapikal radyografisinde her iki dişin de kök ucunda radyolusent alan ve lateral dişte yetersiz kök kanal dolgusu izlendiğine göre, bu hasta için aşağıdaki tedavi protokollerinden hangisi en uygundur?",
+    "options": {
+      "A": "Santral dişe kök kanal tedavisi yapılır, lateral dişin kök kanal tedavisi yenilenir.",
+      "B": "Santral dişe kök kanal tedavisi yapılır, lateral diş takibe alınır.",
+      "C": "Lateral dişin kök kanal tedavisi yenilenir, santral diş takibe alınır.",
+      "D": "Antibiyotik tedavisine başlanır ve her iki diş de takibe alınır.",
+      "E": "Lateral dişe apikal rezeksiyon uygulanır, santral dişe kök kanal tedavisi yapılır."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Mandibular sol santral kesici dişin apikalinde radyolusensi olmasına rağmen vitalite testine pozitif yanıt vermesi ve perküsyonda ağrısız olması, bu dişteki lezyonun endodontik değil, periapikal semental displazinin (PSD) litik evresi olduğunu (veya komşu lezyonun süperpozisyonunu) gösterir; vital olduğu için kanal tedavisi yapılmaz, yalnızca takibe alınır. Mandibular sol lateral kesici dişte ise 4 yıl önce yapılmış eksik kanal dolgusu, apikal radyolusensi ve perküsyon ağrısı (semptomatik apikal periodontitis / sekonder enfeksiyon) bulunduğundan, öncelikle ortograd yolla kök kanal tedavisinin yenilenmesi (retreatment) gerekir. Çeldiriciler: A) Vital olan santral dişe kök kanal tedavisi yapılması malpraktistir. B) Santral dişe kanal tedavisi yapılmaz, semptomatik olan lateral diş ise takip edilmeyip tedavi edilmelidir. D) Lokalize endodontik enfeksiyonda antibiyotik endikasyonu yoktur, lateral dişe retreatment şarttır. E) Eksik kanal dolgulu lateral dişte cerrahi (apikal rezeksiyon) öncesi ilk tercih retreatment olmalıdır; santral dişe ise kanal tedavisi yapılmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS",
+    "flag_reason": "2019 DUS Orijinal"
+  },
+  {
+    "question": "Rutin kontrol amacıyla kliniğe başvuran 35 yaşındaki kadın hastanın klinik ve radyografik muayenesinde herhangi bir çürük, restorasyon ya da patolojik cep bulunmayan, vital 41 numaralı diş ve 2 yıl önce yapılmış kanal tedavili 42 numaralı dişlerin apikalini kapsayan radyolusensi tespit edilmiştir. Takip kararı alınan hasta 1 yıl sonra tekrar geldiğinde halen asemptomatik ve vital olan 41 numaralı dişin apikalinin radyoopaklaştığı ve 42 numaralı dişin apikali ile ilişkili sinüs yolu oluştuğu gözlenmiştir. Bu hasta için en uygun tedavi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Santral dişe kök kanal tedavisi yapılır, lateral dişin kök kanal tedavisi yenilenir.",
+      "B": "Santral dişe kök kanal tedavisi yapılır, lateral diş takibe alınır.",
+      "C": "Lateral dişin kök kanal tedavisi yenilenir, santral diş takibe alınır.",
+      "D": "Antibiyotik tedavisine başlanır ve her iki diş de takibe alınır.",
+      "E": "Lateral dişe apikal rezeksiyon uygulanır, santral dişe kök kanal tedavisi yapılır."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Vital ve asemptomatik olan 41 numaralı santral dişteki apikal radyolusensinin 1 yıl sonra radyoopaklaşması, lezyonun periapikal semental displazi (PSD) olduğunu ve 1. (litik) evreden 3. (matür/radyoopak) evreye geçtiğini kanıtlar; bu diş vitaldir ve sadece takip edilmelidir. Kanal tedavili 42 numaralı lateral dişte ise başarısız kanal tedavisine bağlı kronik apikal apse (sinüs yolu) geliştiği için kök kanal tedavisinin yenilenmesi (retreatment) endikedir. Çeldiriciler: A) Vital ve PSD'li santral dişe kanal tedavisi uygulanmaz. B) Santral dişe müdahale edilmez, sinüs yolu oluşan lateral diş ise tedavisiz bırakılamaz. D) Sinüs yoluyla drene olan kronik apikal apsede antibiyotik verilmez, kanal tedavisi yenilenir. E) Santral dişe kanal tedavisi kontrendikedir; lateral dişte ise ilk seçenek cerrahi değil retreatment'tır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisinde kanal tedavisi kontrendikedir?",
+    "options": {
+      "A": "Akut apikal periodontitis",
+      "B": "Kondensing osteitis",
+      "C": "Periapikal semental displazi",
+      "D": "Phoenix absesi",
+      "E": "Ülseratif pulpitis"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Periapikal semental displazi (PSD), pulpa kaynaklı olmayan, periodontal ligament kökenli benign fibro-osseöz bir lezyondur. İlgili dişler vital ve sağlıklı olduğundan kök kanal tedavisi kesinlikle kontrendikedir; yalnızca klinik ve radyografik takip yapılır. Çeldiriciler: A) Akut apikal periodontitis genellikle irreversibl pulpitis veya pulpa nekrozu sonucu gelişir ve kanal tedavisi endikedir. B) Kondensing osteitis, düşük dereceli kronik pulpal inflamasyona karşı periapikal kemiğin sklerotik (radyoopak) reaksiyonudur; etken enfekte/inflame pulpa olduğunda kanal tedavisi ile düzelir. D) Phoenix apsesi, kronik apikal periodontitisin akut alevlenmesiyle oluşan sekonder akut apikal apsedir ve tedavisi kök kanal tedavisidir. E) Ülseratif pulpitis, ekspoz pulpanın yüzeyel nekrozuyla seyreden kronik irreversibl bir pulpitis tablosudur ve kanal tedavisi endikedir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin elektrikli pulpa testine pulpa cevabının yorumlamasında yanlış pozitif cevap oluşturması en olasıdır?",
+    "options": {
+      "A": "Parsiyel pulpa nekrozu",
+      "B": "Hastanın aldığı sedatif ilaçlar",
+      "C": "Yeni sürmüş immatür diş",
+      "D": "Kalsifikasyon",
+      "E": "Son zamanlarda travmaya uğramış diş"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Yanlış (hatalı) pozitif cevap, diş nekrotik/devital olmasına rağmen test sonucunda vitalmiş gibi yanıt alınmasıdır. Çok köklü bir dişte veya tek bir kanalın apikalinde gelişen \"parsiyel (kısmi) pulpa nekrozu\"nda, nekroz sahasında bile hipoksiye dirençli C lifleri veya diğer kanaldaki canlı sinir lifleri elektrik akımını ileterek EPT'de hatalı pozitif cevaba yol açar. Ayrıca yüksek hasta anksiyetesi, likenefaksiyon (sıvılaşma) nekrozu, yetersiz diş izolasyonu ve metal restorasyon/diş eti teması da yanlış pozitif yanıt nedenleridir. Çeldiriciler: B) Hastanın aldığı analjezik, sedatif ilaçlar veya alkol ağrı eşiğini yükselterek yanlış negatif cevaba neden olur. C) Yeni sürmüş immatür dişlerde Raschkow sinir pleksusu ve A-delta liflerinin gelişimi henüz tamamlanmadığından yanlış negatif cevap alınır. D) Kanal kalsifikasyonları elektrik iletimini engelleyerek yanlış negatif cevaba yol açar. E) Yakın zamanda akut travmaya uğramış dişlerde geçici sinir şoku (parestezi) nedeniyle yanlış negatif cevap oluşur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS",
+    "flag_reason": "2023 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Aşağıda verilen elektrikli pulpa testine alınabilen hatalı pozitif ve negatif yanıt eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Hatalı pozitif: Parsiyel pulpa nekrozu – Hatalı negatif: Kalsifik metamorfoz",
+      "B": "Hatalı pozitif: Kalsifik metamorfoz – Hatalı negatif: İmmatür diş",
+      "C": "Hatalı pozitif: Akut travmaya maruz kalan diş – Hatalı negatif: Parsiyel pulpa nekrozu",
+      "D": "Hatalı pozitif: İmmatür diş – Hatalı negatif: Sedatif ilaç kullanımı",
+      "E": "Hatalı pozitif: Akut travmaya uğramış diş – Hatalı negatif: Parsiyel pulpa nekrozu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kısmi (parsiyel) pulpa nekrozunda kalan canlı sinir fibrilleri veya sıvı eksuda elektriği ilettiği için EPT'ye \"hatalı pozitif\" yanıt alınırken; pulpa odası ve kanalının aşırı tersiyer/sklerotik dentinle tıkandığı kalsifik metamorfoz olgularında elektrik akımı sinirlere ulaşamadığı için vital dişte \"hatalı negatif\" yanıt alınır. Çeldiriciler: B) Kalsifik metamorfoz hatalı pozitif değil, hatalı negatif yanıt nedenidir. C) Akut travmaya maruz kalan diş hatalı negatif, parsiyel nekroz ise hatalı pozitif yanıt verir (ters verilmiştir). D) İmmatür dişlerde A-delta lifleri tam gelişmediği için hatalı pozitif değil, hatalı negatif yanıt alınır. E) Akut travma hatalı negatif, parsiyel pulpa nekrozu ise hatalı pozitif yanıt oluşturur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıda verilen durumlar ve bu durumlarda öncelikli tercih edilecek vitalite belirleme yöntemleri eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Durum: Kalsifik metamorfoz – Yöntem: Elektrikli pulpa testi",
+      "B": "Durum: Ful kuronlu diş – Yöntem: Elektrikli pulpa testi",
+      "C": "Durum: Köprü varlığı – Yöntem: Elektrik pulpa testi",
+      "D": "Durum: Pulpa atrofisi – Yöntem: Soğuk testi",
+      "E": "Durum: İmmatür dişler – Yöntem: Elektrikli pulpa testi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kalsifik metamorfoz ve ileri yaşa bağlı pulpa atrofisi gibi durumlarda dentin tübülleri skleroze olup tıkandığından, sıvı hareketine (hidrodinamik mekanizmaya) dayanan soğuk testi çalışamaz; bu nedenle doğrudan sinirsel depolarizasyon sağlayan \"elektrikli pulpa testi (EPT)\" soğuk testine göre öncelikli tercih edilir. Çeldiriciler: B) Ful seramik veya metal-seramik kuronlu dişlerde EPT probu doğal diş minesine temas edemediği ve seramik yalıtkan olduğu için EPT uygulanamaz, CO2 kuru buz ile soğuk testi tercih edilir. C) Köprü varlığında elektrik akımı komşu destek dişlere veya diş etine iletilerek hatalı pozitif yanıt vereceği için EPT yerine CO2 soğuk testi tercih edilir. D) İleri pulpa atrofisinde tübüller tıkalı olduğundan soğuk testi yerine EPT tercih edilmelidir. E) Kök gelişimi tamamlanmamış immatür dişlerde A-delta sinir pleksusu olgunlaşmadığı için EPT güvenilir değildir; soğuk testi (veya LDF/puls oksimetre) tercih edilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Fistül ağzı\nII. Ekimoz\nIII. Lenfadenopati\nYukarıdakilerden hangileri, muayene yöntemleri sonucunda hem ağız içi hem de ağız dışında görülebilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Endodontik ve travmatik patolojilerin klinik muayenesinde bazı bulgular sadece ekstraoral, bazıları ise hem intraoral hem ekstraoral olarak izlenebilir. Öncüllerin Analizi: I. Fistül ağzı (sinüs yolu), kronik apikal apselerde enfeksiyonun kas ataçmanlarıyla ilişkisine göre hem ağız içine (mukozaya/periodontal cebe) hem de ağız dışına (çene veya yanak cildine) açılabilir (Doğru). II. Ekimoz (doku içi kanamaya bağlı morumsu renk değişikliği), travma veya enjeksiyon komplikasyonu olarak hem ağız içi mukozada hem de ağız dışı yüz cildinde görülebilir (Doğru). III. Lenfadenopati (submandibular, submental veya servikal lenf nodlarının büyüyüp hassaslaşması), yalnızca ağız dışından (ekstraoral palpasyonla) tespit edilebilen ekstraoral bir bulgudur; ağız içinde görülmez (Yanlış). Çeldiriciler: A) II. öncül de her iki bölgede görülebilir. B) I. öncül de her iki bölgede görülebilir. C) Lenfadenopati sadece ekstraoral bir bulgudur. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hem intraoral hem ekstraoral muayenede görülen bulgulardan değildir?",
+    "options": {
+      "A": "Fistül ağzı",
+      "B": "Ekimoz",
+      "C": "Şişlik",
+      "D": "Lenfadenopati",
+      "E": "Laserasyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Lenfadenopati, baş-boyun bölgesindeki submandibular, submental ve servikal lenf düğümlerinin enfeksiyona yanıt olarak büyümesidir; yalnızca ekstraoral palpasyon muayenesi ile tespit edilir, intraoral bir bulgu değildir. Çeldiriciler: A) Fistül ağzı (sinüs yolu) hem intraoral diş etinde hem ekstraoral ciltte görülebilir. B) Ekimoz, kanamanın mukoza veya cilt altına sızmasıyla hem ağız içinde hem ağız dışında izlenebilir. C) Şişlik (ödem/apse), hem intraoral vestibül/palatinal mukozada hem de ekstraoral fasiyal boşluklarda görülebilir. E) Laserasyon (yumuşak doku yırtılması), dental travmalarda hem dudak/yanak cildinde (ekstraoral) hem de diş eti/oral mukozada (intraoral) meydana gelebilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Dişinizi herhangi bir yere çarptınız mı?\nII. Dişinize daha önce kanal tedavisi yapıldı mı?\nIII. Dişinizi sert fırça ile mi fırçalıyorsunuz?\nİntraoral muayenesinde sol santral dişinde grimtrak iç renklenme farkedilen hastaya renklenmenin sebebinin anlaşılmasında aşağıdaki sorulardan hangisinin sorulması anlamlıdır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tek bir ön dişte gözlenen grimtrak \"içsel (intrensek) renklenme\", pulpa içi kanama/nekroz veya kök kanal tedavisi materyalleriyle ilişkilidir. Öncüllerin Analizi: I. Dişe gelen akut bir çarpma/travma, intrapulpal hemorajiye (eritrositlerin parçalanıp hemosiderin/demir sülfür oluşturmasına) ve pulpa nekrozuna yol açarak grimtrak iç renklenme yapar; bu nedenle travma öyküsü mutlaka sorgulanmalıdır (Doğru). II. Daha önce yapılmış bir kanal tedavisinde kullanılan patlar, gümüş konlar, amalgam veya pulpa boynuzlarında unutulan nekrotik doku artıkları grimtrak iç renklenmeye neden olduğundan kanal tedavisi geçmişi sorgulanmalıdır (Doğru). III. Dişin sert fırça ile fırçalanması abrazyona ve mine kaybına bağlı dışsal/sarımsı dentin yansımasına yol açar, grimtrak içsel renklenme yapmaz (Yanlış). Çeldiriciler: A) II. öncül de iç renklenme nedenidir. B) I. öncül de en sık iç renklenme nedenidir. C) Sert fırçalama gri iç renklenme yapmaz. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi dişte mobiliteye sebep olmaz?",
+    "options": {
+      "A": "Kronik travma",
+      "B": "Akut travma",
+      "C": "Kök kırıkları",
+      "D": "Akut pulpitis",
+      "E": "Periodontal hastalık"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Dişte mobilite (hareketlilik) artışı; periodontal ligament liflerinin zedelenmesi, genişlemesi, alveol kemiği kaybı veya kök bütünlüğünün bozulması sonucunda ortaya çıkar. Akut pulpitis (semptomatik irreversibl pulpitis) ise kök kanalı içerisindeki pulpa dokusuna sınırlı bir inflamasyondur; periodontal ligament ve alveol kemiği sağlam olduğundan dişte mobilite artışına sebep olmaz. Çeldiriciler: A) Kronik oklüzal travma ve parafonksiyonel alışkanlıklar PDL aralığını genişleterek ve kemik yıkımı yaparak mobiliteye yol açar. B) Akut travmalar (sublüksasyon, lüksasyon, avülsiyon) PDL liflerini kopararak ve alveol soketini genişleterek mobilite oluşturur. C) Horizontal veya vertikal kök kırıkları koronal parçanın hareketliliğini artırarak mobiliteye neden olur. E) Periodontal hastalıklar ataçman ve alveol kemiği kaybı yaratarak diş mobilitesinin en sık nedenini oluşturur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Mobilite artışı\nII. Spontan ağrı\nIII. Sağlam lamina dura\nYukarıda verilenlerden hangisi akut pulpitis bulgularındandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Akut pulpitis (semptomatik irreversibl pulpitis), inflamasyonun henüz kök kanalı içinde sınırlı kaldığı, periradiküler dokulara yayılmadığı ileri dereceli pulpal iltihaptır. Öncüllerin Analizi: I. İnflamasyon periodontal ligamente ulaşmadığı ve alveol kemiği yıkımı olmadığı için akut pulpitiste mobilite artışı görülmez (Yanlış). II. Pulpa içi basınç artışı ve C liflerinin uyarılması nedeniyle kendiliğinden başlayan şiddetli \"spontan ağrı\" akut pulpitisin en tipik bulgusudur (Doğru). III. Patoloji henüz periapikal dokulara yayılmadığından radyografide periodontal aralık normaldir ve lamina dura sağlamdır (Doğru). Çeldiriciler: A) Mobilite artışı periodontal/periapikal patoloji bulgusudur. B) III. öncül de doğrudur. C) II. öncül de doğrudur. D) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "35 yaşındaki erkek hasta 16 numaralı dişinde spontan ve şiddetli ağrı şikâyeti ile başvurmuştur. Sınıf 3 mobilitesi ve derin periodontal cepleri olan dişin kökün orta üçlüsüne uzanan alveol kemik kaybı olan 36 numaralı dişin, dişeti altına inen geniş çürüğü bulunmaktadır. Soğuk testine şiddetli ve uzun süreli pozitif cevap veren bu dişin kök ucunda lezyon yoktur. Ağız hijyeni kötü olan hastanın yoğun şekilde sigara içtiği öğrenilmiştir. Bu diş için en uygun tedavi yöntemi verilenlerden hangisidir?",
+    "options": {
+      "A": "Takip",
+      "B": "Kanal tedavisi",
+      "C": "Çekim",
+      "D": "Biküspidizasyon",
+      "E": "Apikal rezeksiyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dişteki spontan ve soğukla uzun süren şiddetli ağrı \"semptomatik irreversibl pulpitis\" tanısını koydursa da, tedavi planlamasında dişin sadece endodontik durumu değil, periodontal ve restoratif prognozu da bütüncül olarak değerlendirilmelidir. Dişte Sınıf 3 (ileri derecede yatay ve dikey) mobilite, derin periodontal cepler, ileri alveol kemiği kaybı, diş eti altına inen aşırı madde kaybı, kötü ağız hijyeni ve yoğun sigara kullanımı bulunduğundan dişin periodontal ve restoratif desteği umutsuzdur; bu nedenle en uygun tedavi \"çekim\"dir. Çeldiriciler: A) Şiddetli ağrılı ve umutsuz prognozlu bir diş takip edilemez. B) Sınıf 3 mobilitesi ve ağır periodontal yıkımı olan, restore edilemeyecek bir dişe kanal tedavisi yapılması endike değildir. D) İleri kemik kaybı ve Sınıf 3 mobilite varlığında biküspidizasyon için yeterli kemik desteği yoktur. E) Kök ucunda lezyon olmayan ve periodontal olarak umutsuz olan bir dişte apikal rezeksiyon tamamen anlamsızdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi pulpanın vitalitesini belirlemede kullanılan testlerden biri değildir?",
+    "options": {
+      "A": "Termal test",
+      "B": "Elektrikli pulpa testi",
+      "C": "Anestezik test",
+      "D": "Lazer Dopler Flowmetre testi",
+      "E": "Kavite testi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Selektif anestezi testi (anestezik test), bir dişin vital (canlı) ya da devital (nekrotik) olduğunu belirlemek için kullanılan bir vitalite testi değildir; şiddetli ve yansıyan (yayılan) ağrısı olan bir hastada ağrının kaynağını lokalize edemediğimiz durumlarda, ağrıyan dişin hangi çenede (arkta) veya hangi bölgede olduğunu tespit etmek amacıyla yapılan bir lokalizasyon testidir. Çeldiriciler: A) Termal testler (soğuk ve sıcak testleri), hidrodinamik mekanizmayla A-delta veya C liflerini uyararak pulpa duyarlılığını/vitalitesini ölçer. B) Elektrikli pulpa testi (EPT), A-delta sinir liflerini elektrik akımıyla uyararak nöral yanıt üzerinden vitaliteyi değerlendirir. D) Lazer Doppler Flowmetre (LDF), pulpadaki kırmızı kan hücrelerinin hareketini (kan akımını) ölçen en doğru objektif vitalite testlerinden biridir. E) Kavite testi, diğer tüm vitalite testleri sonuçsuz kaldığında anestezi yapılmaksızın frezle dentine girilerek ağrı cevabının arandığı en son başvurulan vitalite testidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Perküsyon testi\nII. Anestezi testi\nIII. Lazer doppler flowmetre\nIV. Kavite testi\nYukarıdakilerden hangisi ya da hangileri pulpa vitalitesini belirlemede kullanılan testlerdendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Pulpa vitalitesini (canlılığını) değerlendiren testler; termal testler, elektrikli pulpa testi (EPT), kavite testi, lazer doppler flowmetre ve puls oksimetredir. Öncüllerin Analizi: I. Perküsyon testi pulpanın vitalitesini ölçmez; periradiküler dokulardaki (periodontal ligamentteki) inflamasyonu değerlendirir (Yanlış). II. Anestezi testi vitaliteyi belirlemez; yansıyan ağrılarda ağrının kaynaklandığı arkı veya bölgeyi lokalize etmek için kullanılır (Yanlış). III. Lazer doppler flowmetre, pulpal kan akımını doğrudan ölçerek gerçek vitaliteyi belirleyen objektif bir testtir (Doğru). IV. Kavite testi, anestezisiz kavite açılarak dentin duyarlılığını ve pulpa canlılığını kontrol eden invaziv bir vitalite testidir (Doğru). Çeldiriciler: A) Perküsyon testi PDL inflamasyonunu ölçer. B) Anestezi testi ağrı lokalizasyonu içindir. C) I ve II. öncüller vitalite testi değildir. D) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi pulpanın vitalitesinin belirlenmesinde diğerlerine göre daha güvenilirdir?",
+    "options": {
+      "A": "Karbon dioksit ile soğuk testi",
+      "B": "Tetrafloroetan ile soğuk testi",
+      "C": "Kavite testi",
+      "D": "Lazer doppler flowmeter",
+      "E": "Elektrikli pulpa testi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Bir dişin gerçek vitalitesi (canlılığı), sinirsel iletimden ziyade pulpal \"kan dolaşımının\" devam etmesine bağlıdır. Sinir lifleri hipoksiye dirençli olduğundan nekrotik dişlerde hatalı pozitif, travmalı veya immatür dişlerde ise hatalı negatif yanıtlar verebilir. Lazer Doppler Flowmetre (ve puls oksimetre) sinirsel yanıtı değil, doğrudan pulpa içindeki kan akımını (eritrosit hareketini) ölçtüğü için diğer tüm nöral duyarlılık testlerine göre çok daha doğru ve güvenilirdir. Çeldiriciler: A) Karbondioksit karı (-78°C) etkili bir soğuk testi olsa da sinirsel iletime (A-delta) dayandığı için LDF kadar güvenilir değildir. B) Tetrafloroetan sprey (-26.2°C) sinirsel duyarlılığı ölçer, travma ve immatür dişlerde yanılabilir. C) Kavite testi subjektif, invaziv ve sinirsel iletime dayalı bir testtir. E) Elektrikli pulpa testi yalnızca A-delta liflerinin bütünlüğünü ölçer, kan akımını göstermez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi pulpanın vitalitesini belirlemede kullanılan termal testlerden biri değildir?",
+    "options": {
+      "A": "Dikloro diflorometan",
+      "B": "Etil klorid",
+      "C": "Tetra floroetan",
+      "D": "Karbondioksit karı",
+      "E": "Üretan dimetakrilat"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Üretan dimetakrilat (UDMA), termal bir pulpa testi ajanı değildir; kompozit rezinlerin, adeziv (bonding) sistemlerin ve rezin esaslı kanal dolgu patlarının (Epiphany, EndoREZ vb.) organik matriks yapısında yer alan hidrofilik/rezin bir monomerdir. Çeldiriciler: A) Diklorodiflorometan (DDM / Freon-12), yaklaşık -50°C soğukluk sağlayan bir soğuk testi spreyidir. B) Etil klorid, yaklaşık -41°C soğukluk sağlayan geleneksel bir soğuk testi spreyidir. C) Tetrafloroetan (1,1,1,2-tetrafloroetan), yaklaşık -26.2°C (basınç altında -50°C'ye varan) soğukluk sağlayan yaygın bir soğuk testi spreyidir. D) Karbondioksit karı (kuru buz / CO2 çubukları), -56°C ila -78°C arasında şiddetli soğukluk sağlayan en etkili termal soğuk testi yöntemlerindendir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Diklorodiflorometan\nII. Üretan dimetakrilat\nIII. Tetrafloroetan\nYukarıda verilenlerden hangisi veya hangileri pulpadaki A delta liflerini uyarabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Pulpadaki düşük eşikli miyelinli A-delta lifleri, diş yüzeyine uygulanan soğuk testi ajanlarının dentin sıvısında yarattığı hızlı hidrodinamik hareketle uyarılır. Öncüllerin Analizi: I. Diklorodiflorometan (-50°C), soğuk testi spreyi olarak dentin sıvısını büzüştürür ve A-delta liflerini uyarır (Doğru). II. Üretan dimetakrilat (UDMA), kompozit ve adezivlerde bulunan bir rezin monomeridir; termal vitalite ajanı değildir (Yanlış). III. Tetrafloroetan (-26.2°C), soğuk testi spreyi olarak hidrodinamik mekanizmayla A-delta liflerini uyarır (Doğru). Çeldiriciler: A) III. öncül de soğuk testi ajanıdır. B) UDMA bir rezin monomeridir. C) I. öncül de soğuk testi ajanıdır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Ful seramik kuronlu bir dişte en uygun vitalite belirleme yöntemi verilenlerden hangisidir?",
+    "options": {
+      "A": "Karbondioksit soğuk testi",
+      "B": "Buz ile soğuk testi",
+      "C": "Elektrikli pulpa testi",
+      "D": "Lazer doppler flowmetre",
+      "E": "Puls oksimetre"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Ful seramik kuronla kaplanmış bir dişte elektrik akımı yalıtkan seramikten geçemez, lazer ve kızılötesi ışıklar ise kuron materyalini aşarak pulpaya ulaşamaz. Bu durumda uygulanabilecek tek yöntem termal soğuk testidir; kalın ve yalıtkan seramik kuron üzerinden pulpa odasına yeterli soğukluğu iletip hidrodinamik yanıt oluşturabilecek en uygun ajan ise -78°C derecelik aşırı düşük sıcaklığıyla \"karbondioksit (kuru buz) soğuk testi\"dir. Çeldiriciler: B) Normal buz çubukları 0°C'dir; ağız sıcaklığında hemen erir ve ful seramik kuronu aşarak pulpaya yeterli soğukluğu iletemez. C) Elektrikli pulpa testi (EPT) için elektrodun çıplak mine veya dentine değmesi gerekir; seramik yalıtkan olduğu için akımı iletmez. D) Lazer Doppler Flowmetre ışınları opak/kalın kuron restorasyonlarından geçemez. E) Puls oksimetrenin kızıl ve kızılötesi ışıkları kuron restorasyonunu geçip karşıdaki sensöre ulaşamaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Dişlerin vitalitesini ölçmek için kullanılan elektrikli pulpa testi aşağıdaki sinir liflerinden hangisini uyarmak için yapılır?",
+    "options": {
+      "A": "A alfa",
+      "B": "A beta",
+      "C": "A delta",
+      "D": "B",
+      "E": "C"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Elektrikli pulpa testi (EPT), diş yüzeyinden kontrollü elektrik akımı vererek dentin sıvısında iyonik bir kayma oluşturur; bu iyonik değişim, pulpa periferinde (odontoblast tabakası altında ve dentin tübüllerinde) yer alan, miyelinli, geniş çaplı ve uyarılma eşiği düşük olan \"A-delta\" sinir liflerinde aksiyon potansiyeli (ani karıncalanma/keskin his) başlatır. Çeldiriciler: A) A-alfa lifleri motor/proprioseptif liflerdir ve pulpada bulunmaz. B) A-beta lifleri pulpada çok azdır ve dokunma duyusuyla ilgilidir, ağrılı vitalite cevabının hedefi değildir. D) B lifleri otonom preganglionik liflerdir, pulpada yoktur. E) C lifleri miyelinsizdir, santral pulpada derinde yer alır ve uyarılma eşikleri çok yüksektir; EPT'nin normal akım düzeyleriyle uyarılmazlar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS",
+    "flag_reason": "2013 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Soğuk testi aşağıdaki sinir liflerinden hangisini uyarmak için yapılır?",
+    "options": {
+      "A": "A alfa",
+      "B": "A beta",
+      "C": "A delta",
+      "D": "B",
+      "E": "C"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Soğuk vitalite testi, dentin tübüllerindeki sıvının büzüşerek dışarı doğru hızla hareket etmesini (hidrodinamik mekanizma) sağlar; bu mekanik sıvı kayması, pulpa-dentin sınırında yer alan düşük eşikli ve miyelinli \"A-delta\" sinir liflerini uyararak keskin, hızlı ve kısa süreli bir yanıt oluşturur. Çeldiriciler: A) A-alfa lifleri pulpada yer almaz. B) A-beta lifleri hidrodinamik ağrı iletiminden sorumlu esas lifler değildir. D) B lifleri pulpada bulunmaz. E) C lifleri hidrodinamik sıvı hareketiyle uyarılmaz; yalnızca tüm pulpa dokusunun sıcaklığını artıran aşırı sıcak veya ileri doku hasarı varlığında uyarılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıda verilen durumlardan hangisinde elektrikli pulpa testi kullanımı uygun değildir?",
+    "options": {
+      "A": "Travmatik yaralanmaların takibi",
+      "B": "Ortodontik tedavide telle bağlı dişler",
+      "C": "Çocuklarda",
+      "D": "Yaşlı hastalarda",
+      "E": "Pulpa atrofisinde"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Ortodontik tedavi gören ve metal ark telleri/bantlarla birbirine bağlı olan dişlerde elektrikli pulpa testi (EPT) uygulanması uygun değildir. Verilen elektrik akımı metal ortodontik tel ve braketler aracılığıyla komşu vital dişlere ve diş etine iletilerek \"hatalı pozitif\" yanıt alınmasına yol açar; bu hastalarda yalnız CO2 kuru buz soğuk testi önerilir. Çeldiriciler: A) Travmatik yaralanmaların uzun dönem takibinde CO2 testi ile birlikte EPT rutin olarak kullanılır. C) Çocuklarda süt ve daimi dişlerde (kök gelişimi dikkate alınarak) CO2 + EPT birlikte kullanılabilir. D) Yaşlı hastalarda skleroz nedeniyle soğuk testi çalışmadığından EPT en uygun testtir. E) Pulpa atrofisi ve kalsifikasyonlarda EPT soğuk testine göre öncelikli tercih edilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi elektrikli pulpa testinde yanlış pozitif yanıt alınmasına neden olur?",
+    "options": {
+      "A": "Dişin yetersiz izolasyonu",
+      "B": "Kök kanalının kalsifikasyonu",
+      "C": "Dişin kök gelişimini tamamlamamış olması",
+      "D": "Ağrı eşiğini yükselten ilaç kullanımı",
+      "E": "Yakın zamanda dental travma geçirilmiş olması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Elektrikli pulpa testinde (EPT) test edilen dişin tükürükten ve komşu dişlerden \"yetersiz izolasyonu\", elektrik akımının ıslak diş yüzeyi veya metal kontaklar üzerinden diş etine, periodontal ligamente ya da komşu vital dişe kaçmasına neden olur; bunun sonucunda devital olan dişte \"yanlış (hatalı) pozitif\" yanıt alınır. Çeldiriciler: B) Kök kanalının kalsifikasyonu elektrik iletimini bloke ederek yanlış negatif yanıta neden olur. C) Kök gelişimini tamamlamamış (immatür) dişlerde A-delta sinir ağı tam gelişmediğinden yanlış negatif yanıt alınır. D) Ağrı eşiğini yükselten analjezik veya sedatif ilaç kullanımı hastanın duyarlılığını azaltarak yanlış negatif yanıta yol açar. E) Yakın zamanda geçirilen dental travma geçici parestezi/sinir şoku yaratarak yanlış negatif yanıta neden olur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS",
+    "flag_reason": "2018 DUS Orijinal"
+  },
+  {
+    "question": "Elektrikli pulpa testi ile vitalometrik muayene yapan bir hekim, pozitif yanıt aldığı bir dişi lazer dopler flowmetre ile kontrol ettiğinde ilgili dişin nekrotik olduğunu tespit ediyor. Aşağıdakilerden hangisi bu çelişkili durumun nedeni olabilir?",
+    "options": {
+      "A": "Yakın zamanda geçirilen travma",
+      "B": "Dişin immatür olması",
+      "C": "Kanalların kalsifiye olması",
+      "D": "EPT cihazının dişle zayıf teması",
+      "E": "Dişin komşu diş ve tükürükten izolasyonundaki yetersizlik"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kan akımını ölçen ve en güvenilir objektif yöntem olan Lazer Doppler Flowmetre dişin gerçekte nekrotik (devital) olduğunu kanıtladığına göre, EPT ile alınan pozitif yanıt bir \"hatalı pozitif\" yanıttır. Dişin komşu dişlerden ve tükürükten yeterince izole edilmemesi, elektrik akımının tükürük veya komşu restorasyonlar üzerinden diş etine/komşu vital dişe iletilmesine ve hatalı pozitif yanıt alınmasına neden olmuştur. Çeldiriciler: A) Yakın zamanda geçirilen travma EPT'de hatalı pozitif değil, hatalı negatif yanıt oluşturur. B) Dişin immatür olması EPT'de hatalı negatif yanıt nedenidir. C) Kanalların kalsifiye olması EPT'de hatalı negatif yanıt oluşturur. D) EPT probunun dişle zayıf teması (iletken jel kullanılmaması) akım geçişini engelleyerek hatalı negatif yanıta yol açar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıda verilen vitalite testlerinden hangisi en son uygulanmalıdır?",
+    "options": {
+      "A": "Karbondioksit ile soğuk testi",
+      "B": "Elektrikli pulpa testi",
+      "C": "Kavite testi",
+      "D": "Puls oksimetre",
+      "E": "Lazer dopler flowmetre"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kavite testi, lokal anestezi yapılmaksızın yüksek devirli bir frezle sağlam mine/dentin dokusunun kaldırılarak hastanın ağrı hissedip hissetmediğinin kontrol edildiği \"invaziv\" ve geri dönüşümsüz doku kaybı yaratan bir testtir. Bu nedenle tüm non-invaziv testler (soğuk, EPT, LDF, puls oksimetre) uygulandıktan ve sonuç alınamadıktan sonra en son çare olarak uygulanmalıdır. Çeldiriciler: A) Karbondioksit ile soğuk testi diş sert dokularına zarar vermeyen non-invaziv bir testtir. B) Elektrikli pulpa testi diş bütünlüğünü bozmayan non-invaziv bir yöntemdir. D) Puls oksimetre ışık absorbsiyonuyla çalışan tamamen non-invaziv bir cihazdır. E) Lazer Doppler Flowmetre diş yüzeyine prob konularak yapılan non-invaziv bir testtir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Elektrikli pulpa testi ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Histolojik olarak hastalık ya da sağlık durumunu belirtmez.",
+      "B": "Ön dişlerde insizal, arka dişlerde orta üçlüden uygulanır.",
+      "C": "Açık apeksli dişlerde soğuk testi, elektrikli pulpa testine göre daha güvenilir yanıt verir.",
+      "D": "EPT bakılan sağlıklı dişlerde eşik değer cevabı ön dişlerde arka dişlere göre daha yüksektir.",
+      "E": "Pulpa boynuzuna en yakın diş yüzeyinden uygulanır."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Elektrikli pulpa testinde (EPT) pulpadaki sinirleri uyarmak için gereken elektrik akımı şiddeti (eşik değer), mine ve dentin kalınlığı ile doğru orantılıdır. Ön (anterior) dişlerde mine daha ince ve pulpa boynuzları yüzeye daha yakın olduğundan EPT'ye daha düşük akımla (daha erken) yanıt alınır; arka (posterior) dişlere doğru gidildikçe mine kalınlığı arttığı için eşik değer cevabı yükselir. Dolayısıyla eşik değerin ön dişlerde arka dişlere göre daha yüksek olduğu ifadesi yanlıştır. Çeldiriciler: A) EPT yalnızca A-delta sinir liflerinin elektrik iletimine yanıt verip vermediğini gösterir; pulpanın histolojik sağlık veya inflamasyon derecesini göstermez. B) Sinir yoğunluğunun en fazla olduğu pulpa boynuzlarına yakın olmak adına ön dişlerde insizal üçlüden, arka dişlerde ise orta üçlüden (veya tüberkül tepelerine yakın) uygulanır. C) Açık apeksli immatür dişlerde Raschkow sinir pleksusu tam gelişmediği için EPT hatalı negatif sonuç verir; soğuk testi (özellikle CO2) çok daha güvenilirdir. E) Doğru ve erken yanıt almak için prob, sinir ağının en yoğun olduğu pulpa boynuzlarına en yakın sağlam mine yüzeyine yerleştirilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Elektrikli pulpa testi ile ilgili olarak verilenlerden hangisi doğrudur?",
+    "options": {
+      "A": "Histolojik olarak hastalık ya da sağlık durumunu gösterir.",
+      "B": "Ön dişlerde servikal, arka dişlerde santral fossadan uygulanır.",
+      "C": "Açık apeksli dişlerde elektrikli pulpa testi soğuk testinden daha güvenilirdir.",
+      "D": "Posteriora gittikçe elektrikli pulpa testine daha geç yanıt alınır.",
+      "E": "Pulpa boynuzuna en uzak diş yüzeyinden uygulanır."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Anterior dişlerden posterior (azı) dişlere doğru gidildikçe yalıtkan özellikteki mine ve dentin tabakasının kalınlığı artar. Bu kalınlığı aşarak pulpadaki A-delta liflerini uyarmak için daha yüksek elektrik akımı gerektiği için posteriora gittikçe elektrikli pulpa testine daha geç (daha yüksek eşik değerde) yanıt alınır. Çeldiriciler: A) EPT pulpanın histolojik durumunu veya inflamasyon şiddetini gösteremez, sadece sinirsel iletim varlığını bildirir. B) Ön dişlerde insizal üçlüden, arka dişlerde bukkal orta üçlü/tüberkül tepelerinden uygulanır; servikalden uygulanması diş etine akım kaçmasına (hatalı pozitife) neden olur. C) Açık apeksli dişlerde A-delta lifleri gelişmediği için EPT güvenilir değildir, soğuk testi daha güvenilirdir. E) Sinir yoğunluğunun en yüksek olduğu pulpa boynuzuna en uzak değil, en yakın yüzeyden uygulanmalıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Puls oksimetre\nII. Lazer doppler flowmetre\nIII. Soğuk testi\nYukarıda verilenlerden hangisi veya hangileri akut travmatik yaralanma sonrası bir dişin vitalitesinin değerlendirilmesinde daha güvenilirdir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Akut dental travma sonrasında apikaldeki sinir lifleri geçici şoka (paresteziye) uğradığından, kan dolaşımı devam etse bile sinirsel iletime dayanan duyarlılık testleri (soğuk testi ve EPT) erken dönemde sıklıkla \"hatalı negatif\" sonuç verir. Bu nedenle doğrudan pulpal kan akımını ve oksijenlenmeyi ölçen vasküler testler çok daha güvenilirdir. Öncüllerin Analizi: I. Puls oksimetre, kandaki oksijen satürasyonunu ve nabzı ölçerek kan dolaşımını doğruladığı için akut travmada çok güvenilirdir (Doğru). II. Lazer doppler flowmetre, kapiller içindeki eritrosit hareketini tespit ederek kanlanmayı gösterdiği için akut travmada en güvenilir yöntemlerdendir (Doğru). III. Soğuk testi sinirsel iletime (A-delta) dayandığı için travma sonrası geçici sinir hasarında hatalı negatif yanıt verir (Yanlış). Çeldiriciler: A) II. öncül de aynı derecede güvenilirdir. B) I. öncül de güvenilirdir. C) Soğuk testi erken dönem travmada yanıltıcıdır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Hangisi diş çatlaklarının tespit yöntemlerinden değildir?",
+    "options": {
+      "A": "Transillüminasyon",
+      "B": "Boyama",
+      "C": "Perküsyon",
+      "D": "Isırma testi",
+      "E": "Lazer doppler flowmetre"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lazer Doppler Flowmetre, pulpadaki eritrositlerin hareket hızını ölçerek pulpal kan akımını ve dişin vitalitesini belirleyen bir yöntemdir; dişin sert dokularındaki kırık veya çatlak hatlarının tespitinde herhangi bir kullanım alanı yoktur. Çeldiriciler: A) Transillüminasyon, fiber optik ışık kaynağıyla dişe ışık tutularak ışığın çatlak hattında kırılması (karşı tarafa geçmemesi) prensibiyle çatlakları belirler. B) Boyama yönteminde metilen mavisi veya bazik fuksin gibi boyalar çatlak hattına sızarak çatlağı görünür kılar. C) Açılı perküsyon testi, çatlak veya kırık segmentlerin hareketiyle oluşan ağrıyı değerlendirmede kullanılır. D) Isırma testi (Tooth Slooth, pamuk rulo vb.), şüpheli tüberküle kuvvet uygulanıp bırakılırken oluşan keskin ağrı ile çatlak dişi tespit eder.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS",
+    "flag_reason": "2014 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Yemek yerken 47 nolu dişine taş geldiğini söyleyen ve çiğneme sırasında keskin ve ani bir ağrı duyduğunu belirten hastanın teşhisinin netleştirilmesi için aşağıdaki yöntemlerden hangisi uygun değildir?",
+    "options": {
+      "A": "Transillüminasyon",
+      "B": "Boyama",
+      "C": "Perküsyon",
+      "D": "Isırma testi",
+      "E": "Lazer doppler flowmetre"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Yemek yerken sert bir cisim ısırma öyküsü ve çiğneme (özellikle ısırmayı bırakma) esnasında duyulan ani, keskin ağrı \"çatlak diş sendromu\"nu işaret eder. Lazer Doppler Flowmetre pulpal kan akımını ölçen bir vitalite cihazı olup çatlak hattının tespitinde kullanılamaz. Çeldiriciler: A) Fiber optik transillüminasyon çatlak hattını göstermede en etkili ve güvenilir yöntemdir. B) Metilen mavisi ile boyama, çatlak hattını görünür hale getirir. C) Farklı açılardan yapılan perküsyon testi çatlak tüberküldeki hassasiyeti ortaya çıkarabilir. D) Isırma testi (Tooth Slooth ile) çiğneme ağrısını taklit ederek çatlak tüberkülü lokalize eder.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Diş çatlaklarının tespitinde aşağıda verilenlerden hangisi en güvenilir yöntemdir?",
+    "options": {
+      "A": "Transillüminasyon",
+      "B": "Boyama",
+      "C": "Perküsyon",
+      "D": "Isırma testi",
+      "E": "Looplar"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Diş çatlaklarının objektif olarak tespitinde \"fiber optik ışıkla transillüminasyon\" en güvenilir yöntemdir. Sağlam diş dokusundan geçen ışık, çatlak hattına ulaştığında kırılır ve çatlağın ötesindeki diş kesimi karanlık kalır; bu durum boyama ve büyütmeye kıyasla çatlağın derinliğini ve varlığını en net şekilde ortaya koyar. Çeldiriciler: B) Boyama yöntemleri zaman alıcıdır, yüzeyel mine çatlaklarını da boyayabilir ve restorasyon sökümü gerektirir. C) Perküsyon testi hastanın subjektif ağrı algısına dayanır ve spesifik değildir. D) Isırma testi klinik olarak çok yardımcı olsa da hastanın subjektif beyanına dayandığı için transillüminasyon kadar objektif değildir. E) Looplar (büyütme) tek başına yeterli ışık kırılması sağlamadığı sürece derin çatlakları göstermede fiber optik transillüminasyon kadar etkili değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Sinirlerin harap olduğu fakat kanlanmanın devam ettiği travmaya uğramış dişlerin canlılığının tespit edilmesinde avantajlıdır.\nII. Çatlak dişlerin tespit edilmesinde kullanılır.\nIII. Çalışma prensibi kırmızı kan hücrelerinin konsantrasyonlarına ve ortalama hareket hızlarının tespit edilmesine dayanır.\nPulse oksimetre ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Puls oksimetre, diş yüzeyine yerleştirilen bir ışık kaynağı (kırmızı ve kızılötesi ışık) ile karşı yüzeydeki fotodedektör aracılığıyla pulpal kandaki hemoglobinin oksijen satürasyonunu ve nabız atımını ölçen objektif bir vitalite cihazıdır. Öncüllerin Analizi: I. Sinirsel iletimle çalışmadığı için, akut travma sonrası sinirlerin geçici olarak hasarlandığı (parestezi) fakat kan dolaşımının devam ettiği dişlerde vitalitenin doğru tespit edilmesinde büyük avantaj sağlar (Doğru). II. Puls oksimetre bir vitalite (kanlanma) ölçüm cihazıdır, çatlak dişlerin tespitinde kullanılmaz (Yanlış). III. Kırmızı kan hücrelerinin konsantrasyonlarını ve ortalama hareket hızlarını Doppler kayması prensibiyle tespit etmek puls oksimetrenin değil, \"Lazer Doppler Flowmetre\"nin çalışma prensibidir (Yanlış). Çeldiriciler: B) II. öncül yanlıştır. C) III. öncül Lazer Doppler Flowmetreye aittir. D) II. öncül yanlıştır. E) II ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdaki vitalite testlerinden hangileri hastadan bağımsız (objektif) testlerdendir?",
+    "options": {
+      "A": "Elektrik pulpa testi",
+      "B": "Termal testler",
+      "C": "Kavite testi",
+      "D": "Anestezi testi",
+      "E": "Lazer doppler flowmetre"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lazer Doppler Flowmetre (ve puls oksimetre), hastada ağrı uyandırmadan ve hastanın geri bildirimine ihtiyaç duymadan doğrudan pulpadaki eritrosit hareketini (kan akımını) ölçtüğü için hastadan tamamen bağımsız yani \"objektif\" bir vitalite testidir. Çeldiriciler: A) Elektrikli pulpa testi sinirleri uyarır ve hastanın ağrı/karıncalanma hissettiğini belirtmesine dayanan subjektif bir testtir. B) Termal testler (sıcak/soğuk) hastanın ağrı algısına ve tepkisine bağlı subjektif testlerdir. C) Kavite testi hastanın frez temasıyla ağrı hissetmesine dayanan subjektif bir testtir. D) Anestezi testi vitalite testi değildir, ağrı lokalizasyonu için yapılan ve hastanın ağrısının geçip geçmediğini beyan etmesine dayanan subjektif bir testtir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdaki vitalite testlerinden hangisi erken dönem travma olgularında doğru yanıt verme olasılığı diğerlerinden yüksektir?",
+    "options": {
+      "A": "Sıcak testi",
+      "B": "Soğuk testi",
+      "C": "Elektrik pulpa testi",
+      "D": "Lazer doppler flowmetre",
+      "E": "Anestezi testi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Erken dönem dental travma olgularında apikal sinir liflerinde geçici iletim bloğu (parestezi/şok) oluştuğundan sinirsel duyarlılık testleri hatalı negatif sonuç verir. Lazer Doppler Flowmetre ise sinirleri değil, doğrudan pulpa damarlarındaki eritrositlerin hareket hızını ve konsantrasyonunu (kan dolaşımını) objektif olarak ölçtüğü için erken dönem travmada doğru yanıt verme olasılığı en yüksek yöntemdir. Çeldiriciler: A) Sıcak testi sinirsel iletime (C lifleri) dayanır ve travmalı dişte güvenilir değildir. B) Soğuk testi A-delta liflerinin yanıtına dayanır ve erken travmada hatalı negatif çıkabilir. C) Elektrikli pulpa testi A-delta liflerini uyarır ve travma sonrası haftalarca hatalı negatif yanıt verebilir. E) Anestezi testi bir vitalite testi değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Yetişkin bir hastada \"ısırma testi\" sonucunda dişte algılanan rahatsız edici bir his, hassasiyet veya ağrı aşağıdakilerden hangisinden kaynaklanmış olamaz?",
+    "options": {
+      "A": "Periradüküler periodontitis",
+      "B": "Dişte çatlak",
+      "C": "Kasp fraktürü",
+      "D": "Kondensing osteitis",
+      "E": "Kırılmış, geniş, çok yüzlü koronal dolgu"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kondensing osteitis (fokal sklerozan osteitis), düşük dereceli kronik bir irritasyona yanıt olarak periapikal alveol kemiğinde trabekülasyon ve yoğunluk artışıyla (radyoopasite) seyreden, klinik olarak tamamen \"asemptomatik\" bir tablodur; ısırma veya perküsyon testinde kesinlikle ağrı veya hassasiyet oluşturmaz. Çeldiriciler: A) Periradiküler periodontitisin akut/semptomatik formunda PDL aralığındaki inflamasyon nedeniyle ısırma testinde şiddetli ağrı oluşur. B) Dişte çatlak varlığında ısırma ve özellikle ısırmayı bırakma anında segmentlerin ayrılmasıyla keskin ağrı hissedilir. C) Kasp fraktüründe kırık tüberkül parçası ısırma kuvvetiyle hareket ederek dentin veya diş etinde ağrı uyandırır. E) Kırılmış, geniş koronal dolgular ısırma kuvveti altında mobilite yaparak dentine ve PDL'e stres iletir ve hassasiyete yol açar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin teşhisinde ısırma testi kullanılmaz?",
+    "options": {
+      "A": "Periradüküler periodontitis",
+      "B": "Dişte çatlak",
+      "C": "Kasp fraktürü",
+      "D": "Kondensing osteitis",
+      "E": "Kırılmış, geniş, çok yüzlü koronal dolgu"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kondensing osteitis klinik olarak tamamen asemptomatik bir kemik sklerozu tablosudur ve teşhisi yalnızca radyografide kök ucundaki radyoopak lezyonun görülmesiyle konulur; ısırma testinde ağrı vermediği için teşhisinde ısırma testi kullanılmaz. Çeldiriciler: A) Semptomatik periradiküler periodontitisin teşhisinde oklüzal baskı/ısırma testi ağrıyı ortaya çıkarır. B) Çatlak diş sendromunun en önemli klinik tanı aracı ısırma testidir. C) Kasp fraktürlerinde hangi tüberkülün kırık olduğunu lokalize etmek için ısırma testi (Tooth Slooth) kullanılır. E) Kırık koronal restorasyonların yarattığı oklüzal ağrıyı saptamada ısırma testi kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "\"Tooth slooth\" aşağıdakilerden hangisi için kullanılır?",
+    "options": {
+      "A": "Sıcak testi",
+      "B": "Soğuk testi",
+      "C": "Isırma testi",
+      "D": "Periodontal cep ölçümü",
+      "E": "Mobilite ölçümü"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): \"Tooth Slooth\", piramit şeklinde plastik bir başlığa ve içbükey bir tepe çukuruna sahip özel bir teşhis aletidir; şüpheli tüberkül tepesine yerleştirilip hastaya ısırtılarak çiğneme kuvvetini tek bir kaspa lokalize eder ve çatlak diş veya kırık tüberkül teşhisinde \"ısırma testi\" yapmak amacıyla kullanılır. Çeldiriciler: A) Sıcak testi ısıtılmış gutta-perka, sıcak su veya System B ucu ile yapılır. B) Soğuk testi buz, kuru buz veya soğutucu spreylerle yapılır. D) Periodontal cep ölçümü kalibre edilmiş periodontal sondlar ile yapılır. E) Mobilite ölçümü iki metal el aletinin sapı veya Periotest/Osstell gibi cihazlarla yapılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Isırma testi ile dişin vital ya da devital olduğu belirlenebilir.\nII. Perküsyon testine pozitif cevap alınması periodontal ligamentin inflamasyonunu belirtir.\nIII. Anestezi testi dişin vitalitesi hakkında bilgi verir.\nTanı testleriyle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Endodontik tanı testleri; pulpa vitalitesini ölçen testler, periradiküler dokuları değerlendiren testler ve ağrı lokalizasyon testleri olarak farklı amaçlara hizmet eder. Öncüllerin Analizi: I. Isırma testi pulpanın vitalitesini belirlemez; dişlerdeki çatlakları, kırık tüberkülleri veya apikal periodontitisi tespit etmek için kullanılır (hem vital hem devital dişte pozitif olabilir) (Yanlış). II. Perküsyon testine ağrılı (pozitif) yanıt alınması, proprioseptif reseptörlerden zengin olan periodontal ligamentte (periradiküler dokuda) inflamasyon bulunduğunu gösterir (Doğru). III. Anestezi testi dişin vitalitesi hakkında bilgi vermez; yalnızca yansıyan ağrılarda ağrının kaynaklandığı arkı veya bölgeyi lokalize etmeye yarar (Yanlış). Çeldiriciler: A) I. öncül yanlıştır. C) III. öncül yanlıştır. D) I. öncül yanlıştır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi vitalite testidir?",
+    "options": {
+      "A": "Isırma testi",
+      "B": "Perküsyon testi",
+      "C": "Anestezi testi",
+      "D": "Transillüminasyon testi",
+      "E": "Kavite testi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kavite testi; diğer tüm duyarlılık ve canlılık testlerinin net sonuç vermediği (örneğin geniş kuronlu veya kalsifiye) dişlerde, lokal anestezi yapılmaksızın frezle dentine girilerek hastanın ağrı duyup duymadığını ölçen invaziv bir \"vitalite testi\"dir. Çeldiriciler: A) Isırma testi çatlak/kırık ve apikal periodontitis tespitinde kullanılır, vitalite testi değildir. B) Perküsyon testi periodontal ligament inflamasyonunu ölçer, vitalite hakkında bilgi vermez. C) Anestezi testi yansıyan ağrının lokalizasyonu için kullanılır, vitalite testi değildir. D) Transillüminasyon testi fiber optik ışıkla çatlak ve çürük tespitinde kullanılan gözlemsel bir metottur, vitalite testi değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bir vitalite testi olmamasına rağmen nekrotik dişlerin tespit edilmesinde kullanılabilir?",
+    "options": {
+      "A": "Isırma testi",
+      "B": "Palpasyon testi",
+      "C": "Kavite testi",
+      "D": "Transillüminasyon",
+      "E": "Lazer doppler flowmetre"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Transillüminasyon doğrudan bir vitalite testi olmayıp dişten güçlü fiber optik ışık geçirilmesi prensibine dayanan optik bir muayene yöntemidir. Sağlıklı ve vital bir diş ışığı homojen ve parlak şekilde geçirirken, \"nekrotik\" bir dişte pulpa odasındaki kan yıkım ürünleri ve doku dejenerasyonu nedeniyle kuronun translüsensisi kaybolur, mat ve koyu/opak görünür; bu sayede nekrotik dişin tespitine yardımcı olur. Çeldiriciler: A) Isırma testi çatlak ve PDL inflamasyonunu gösterir, asemptomatik nekrotik dişi tespit edemez. B) Palpasyon testi alveol mukozası ve periosttaki şişlik/inflamasyonu değerlendirir. C) Kavite testi doğrudan bir vitalite testidir (soru kökünde vitalite testi olmaması şartı aranmaktadır). E) Lazer Doppler Flowmetre doğrudan objektif bir vitalite testidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Çalışma boyunun tespitinde\nII. Horizontal kök kırığının tespitinde\nIII. Ekstra kanal tespitinde\nTek köklü bir dişte yukarıdaki durumların hangilerinde konik ışınlı bilgisayarlı tomografi kullanımı konvansiyonel radyografiye göre avantaj sağlamaktadır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "Yalnız II",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Konik ışınlı bilgisayarlı tomografi (CBCT), anatomik süperpozisyonları ortadan kaldırarak üç boyutlu (aksiyel, koronal, sagital) kesitsel inceleme olanağı sunar. Öncüllerin Analizi: I. Çalışma boyunun tespitinde elektronik apeks bulucular ve konvansiyonel periapikal radyografiler standart ve yeterli yöntemlerdir; CBCT yüksek radyasyon dozu, maliyet ve pratik olmaması nedeniyle rutin çalışma boyu tespitinde konvansiyonel radyografiye üstünlük/avantaj sağlamaz (Yanlış). II. Horizontal kök kırıklarında kırık hattının açısı iki boyutlu radyografide X-ışını açısıyla çakışmazsa gözden kaçabilir; CBCT kırık hattının yerini, yönünü ve deplasmanını üç boyutlu göstermede büyük avantaj sağlar (Doğru). III. İki boyutlu radyografide bukkolingual yönde birbiri üzerine süperpoze olan ekstra (ikinci/üçüncü) kanalların tespitinde CBCT aksiyel kesitleri konvansiyonel radyografiye göre kesin avantaj sağlar (Doğru). Çeldiriciler: A) I. öncülde CBCT tercih edilmez. B) I. öncül yanlıştır. D) III. öncülde de avantaj sağlar. E) II. öncülde de avantaj sağlar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisinin değerlendirilmesinde CBCT kullanılmaz?",
+    "options": {
+      "A": "Horizontal kök kırıklarının tespiti",
+      "B": "Ekstra kanal tespiti",
+      "C": "İnternal rezorpsiyon değerlendirmesi",
+      "D": "Dental anomali değerlendirmesi",
+      "E": "Çalışma boyu tespiti"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): CBCT cihazları periapikal filmlere göre çok daha yüksek dozda iyonize radyasyon yaydığından ALARA prensibi gereği rutin çalışma boyu tespitinde kullanılmaz; çalışma boyu tespiti için elektronik apeks bulucular ve periapikal radyografiler kullanılır. Çeldiriciler: A) İki boyutlu radyografilerde net izlenemeyen horizontal kök kırıklarının açısını ve sınırlarını belirlemede CBCT kullanılır. B) Kalsifiye veya süperpoze olmuş ekstra kök kanallarının lokalizasyonunda CBCT endikedir. C) İnternal ve eksternal kök rezorpsiyonlarının ayırıcı tanısında, sınırlarının ve perforasyon varlığının üç boyutlu tespitinde CBCT kullanılır. D) Dens invaginatus, C-kanal, taurodontizm veya dilaserasyon gibi karmaşık dental anomalilerin üç boyutlu değerlendirilmesinde CBCT kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Endodontide CBCT kullanımı ile ilgili olarak verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Rutin diagnostik amaçla kullanılması önerilmez.",
+      "B": "Üç boyutlu ve kesitsel analize izin verir.",
+      "C": "Endodontik tedavi sonuçlarının değerlendirilmesinde kullanılır.",
+      "D": "Vertikal kök kırıklarının teşhisi için mutlaka CBCT alınmalıdır.",
+      "E": "İnternal rezorpsiyon vakalarında perforasyon varlığı CBCT ile değerlendirilebilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Vertikal kök kırıklarının (VKK) kesin teşhisi için \"mutlaka CBCT alınmalıdır\" ifadesi yanlıştır. CBCT cihazları voksel çözünürlük sınırları nedeniyle yalnızca en az 0.15 mm genişliğindeki kırıkları tespit edebilir ve kanal içindeki gutta-perka veya metal postların yarattığı ışın sertleşmesi/saçılma artefaktları kırık hattını maskeler ya da yalancı kırık çizgileri oluşturur. Daha dar kırıkları CBCT göremez, daha geniş kırıklar ise zaten klinik (dar-derin cep, çoklu sinüs yolu) ve periapikal radyografik (J tipi halo lezyonu) bulgularla kolayca teşhis edilir. Çeldiriciler: A) Yüksek radyasyon dozu nedeniyle hasta güvenliği açısından her vakada rutin tanı aracı olarak kullanılması önerilmez. B) Bukkolingual düzlem dahil üç boyutlu ve kesitsel analize olanak tanır. C) Karmaşık vakalarda endodontik tedavi sonuçlarının ve iyileşmenin değerlendirilmesinde kullanılabilir. E) İnternal/eksternal rezorpsiyon vakalarında kök duvarında perforasyon olup olmadığını üç boyutlu olarak gösterir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Ağrının hangi dental arktan kaynaklandığını ayırt etmek için hangi test kullanılır?",
+    "options": {
+      "A": "Selektif anestezi",
+      "B": "Kavite testi",
+      "C": "Vitalite testi",
+      "D": "Isırma testi",
+      "E": "Perküsyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Semptomatik irreversibl pulpitis gibi durumlarda ağrı aynı taraftaki üst ve alt çene (dental arklar) arasında yansıyarak hastanın hangi dişinin ağrıdığını lokalize etmesini imkansızlaştırabilir. Ağrının maksilladan mı yoksa mandibuladan mı (hangi dental arktan) kaynaklandığını ayırt etmek için \"selektif anestezi testi\" kullanılır. Önce infiltratif anestezinin daha kolay ve etkili olduğu üst çenede en posteriordan başlayarak intraligamenter/infiltratif anestezi yapılır; ağrı geçerse kaynağın üst arkta, geçmezse alt arkta olduğu anlaşılır. Çeldiriciler: B) Kavite testi tek bir şüpheli dişin vitalitesini ölçmek için en son başvurulan invaziv testtir. C) Vitalite testleri dişin canlı olup olmadığını gösterir; birden fazla çürük/restorasyonlu vital diş varlığında yansıyan ağrının arkını tek başına ayırt edemez. D) Isırma testi periapikal inflamasyon veya çatlak diş varlığında kullanılır; henüz periapikale yayılmamış yansıyan pulpa ağrısında negatif sonuç verir. E) Perküsyon testi PDL inflamasyonunu gösterir; saf pulpal kaynaklı yansıyan ağrıda perküsyon duyarlılığı bulunmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS",
+    "flag_reason": "2014 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Kliniğe yüzünün sağ tarafında şiddetli ağrı şikayetiyle gelen hastanın ilgili bölgesinde hem alt hem üst çenede çok sayıda çürük ve restorasyonlu dişi olup hiçbirinde perküsyona yanıt alınamamıştır. Ağrıyan dişini lokalize edemediğini belirten hastanın klinik ve radyografik muayenesinde herhangi bir sinüs yolu ya da lezyona rastlanmamıştır. Verilen bilgilere göre ağrı etkeni dişin belirlenmesi için uygulanabilecek en uygun yöntem aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Selektif anestezi",
+      "B": "Kavite testi",
+      "C": "Vitalite testi",
+      "D": "Isırma testi",
+      "E": "Perküsyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hastada periapikal bulgu (perküsyon ağrısı, lezyon, sinüs yolu) olmaksızın yüzün sağ yarısına yayılan ve hastanın lokalize edemediği şiddetli spontan ağrı (semptomatik irreversibl pulpitis) mevcuttur. Hem alt hem üst çenede çok sayıda şüpheli diş bulunduğundan, ağrı odağının hangi çenede ve hangi dişte olduğunu belirlemek için en uygun yöntem \"selektif anestezi\" testidir. Çeldiriciler: B) Çok sayıda restorasyonlu vital dişe tek tek anestezisiz kavite açmak (kavite testi) sağlam dişlere zarar verir ve anlamsızdır. C) Çürük ve restorasyonlu dişlerin tamamı vital olduğundan standart vitalite testleri etken dişi kesin lokalize etmekte yetersiz kalabilir. D) Vakada periapikal yayılım ve perküsyon yanıtı olmadığı için ısırma testi sonuç vermez. E) Soruda hiçbir dişte perküsyona yanıt alınamadığı zaten belirtilmiştir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Anestezi testi ile ilgili olarak verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Alt ve üst çenelerde sorunlu dişler varsa önce alt çene uyuşturulur.",
+      "B": "İntraligamenter teknik kullanıldığında posteriordan anteriora doğru uygulanır.",
+      "C": "İnfiltratif anestezi uygulandığında anteriordan posteriora uygulanır.",
+      "D": "Spesifik bir diş yerine ağrılı bölgeyi tespit etmede kullanılır.",
+      "E": "En son uygulanması gereken klinik testtir."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Alt ve üst çenedeki dişlerden eşit derecede şüphelenilen yansıyan ağrı vakalarında selektif anestezi testine önce alt çeneden değil, \"önce üst çeneden (maksilladan)\" başlanır. Çünkü maksillada kortikal kemik ince ve poroz olduğu için infiltratif/intraligamenter anestezi ile derin ve lokalize uyuşma sağlamak çok daha kolaydır; mandibulada ise blok anestezi tüm yarım çeneyi aynı anda uyuşturacağı için diş bazlı lokalizasyonu zorlaştırır. Çeldiriciler: B) Sinir dallanması posteriordan anteriora doğru ilerlediği için intraligamenter anestezi en posterior dişten başlayarak sırayla anteriora doğru uygulanır. C) Submukozal infiltratif anestezi tercih edildiğinde sinir uçlarının dağılımı nedeniyle en mezial (anterior) dişten başlanarak posteriora doğru gidilmesi önerilir. D) İntraligamenter anestezi kemik içi (intraosseöz) yayılım gösterip komşu dişi de etkileyebildiği için tek bir dişten ziyade ağrılı çeneyi/bölgeyi tespit etmede daha başarılıdır. E) Anestezi uygulandıktan sonra hastanın ağrı algısı ortadan kalkacağı ve diğer hiçbir klinik test (termal, EPT, perküsyon) yapılamayacağı için tüm klinik testlerden sonra en son uygulanmalıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Semptomatik irreversibl pulpitis varlığında aşağıdaki dişlerin hangisinde ağrının kulağa yayılması en olasıdır?",
+    "options": {
+      "A": "Mandibular 2. molar",
+      "B": "Maksiller 2. molar",
+      "C": "Maksiller 1. molar",
+      "D": "Mandibular 1. premolar",
+      "E": "Maksiller 2. premolar"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Semptomatik irreversibl pulpitiste ağrı sıklıkla trigeminal sinirin dalları boyunca komşu anatomik bölgelere yansır. Dış kulak yolu, timpanik membran ve kulak çevresi yapılar da mandibular molar dişler gibi N. mandibularis (V3 - özellikle n. auriculotemporalis dalı) tarafından inerve edilir. Bu ortak nöral inervasyon nedeniyle \"mandibular posterior dişlerin (özellikle mandibular 2. molarların)\" pulpitis ağrısı en sık aynı taraftaki kulağa yansır. Çeldiriciler: B) Maksiller 2. molar N. maxillaris (V2) tarafından inerve edilir; ağrısı genellikle şakak (temporal) ve maksiller sinüs bölgesine yansır. C) Maksiller 1. molar ağrısı zigomatik, maksiller sinüs ve şakak bölgesine yansır. D) Mandibular 1. premolar ağrısı daha çok mental bölgeye veya üst premolarlara yansır. E) Maksiller 2. premolar ağrısı yanak, sinüs veya alt premolar bölgesine yansır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Ağrı şikayeti ile başvuran 35 yaşındaki erkek hastanın alınan radyografında ve ağız içi muayenesinde 25, 26, 27, 34 ve 37 numaralı dişlerinde çürük olduğu izlenmektedir. Hasta; gece uyandıran, ağrı kesici ile geçmeyen, sıcak ile tetiklenen, şiddetli ve kulağına yayılan ağrıdan bahsetmekte ancak ağrıyan dişini lokalize edememektedir. Yapılan vitalite testlerinde ilgili dişlerin vital olduğu görülmüştür. Hastanın ağrılarından sorumlu dişin verilenlerden hangisi olma olasılığı daha fazladır?",
+    "options": {
+      "A": "Mandibuler 2. Molar (37)",
+      "B": "Maksiller 2. Molar (27)",
+      "C": "Maksiller 1. Molar (26)",
+      "D": "Mandibuler 1. Premolar (34)",
+      "E": "Maksiller 2. Premolar (25)"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Gece uyandıran, analjezikle geçmeyen ve sıcakla tetiklenen şiddetli ağrı \"semptomatik irreversibl pulpitis\" tablosudur. Ağrının sol \"kulağa yayılması (yansıması)\", N. mandibularis'in ortak inervasyon ağından kaynaklanır ve kulağa en sık yansıma yapan dişler mandibular molarlar (özellikle 2. molar) olduğundan, hastanın çürüklü dişleri arasında ağrı kaynağı olma olasılığı en yüksek diş \"37 numaralı mandibuler 2. molar\"dır. Çeldiriciler: B) 27 numaralı maksiller 2. molar ağrısı kulağa değil, şakak ve sinüs bölgesine yansır. C) 26 numaralı maksiller 1. molar ağrısı zigomatik ve temporal bölgeye yansır. D) 34 numaralı mandibuler 1. premolar ağrısı kulağa yansıma yapmaz, mental bölgeye yayılır. E) 25 numaralı maksiller 2. premolar ağrısı maksiller bölgeye yansır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Yansıyan ağrı varlığında etken dişin lokalize edilmesinde aşağıda verilenlerden hangisinin kullanılması önerilir?",
+    "options": {
+      "A": "Elektrikli pulpa testi",
+      "B": "Kavite testi",
+      "C": "Anestezi testi",
+      "D": "Isırma testi",
+      "E": "Perküsyon testi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Yansıyan ağrı varlığında hasta ağrıyan dişini veya çenesini tespit edemez ve inflamasyon periapikale yayılmadığı için perküsyon/ısırma testleri de negatiftir. Bu durumda şüphelenilen bölgeye veya dişlere sırasıyla lokal anestezi yapılarak ağrının kesilip kesilmediğinin izlendiği \"selektif anestezi testi\" etken dişin/bölgenin lokalize edilmesinde önerilen spesifik yöntemdir. Çeldiriciler: A) Elektrikli pulpa testi yalnızca dişlerin vital olup olmadığını gösterir, birden fazla vital diş arasından yansıyan ağrı kaynağını seçemez. B) Kavite testi nekroz şüphesinde vitaliteyi doğrulamak için yapılır. D) Isırma testi periapikal inflamasyon veya çatlak yoksa yansıyan pulpa ağrısını lokalize edemez. E) Perküsyon testi PDL inflamasyonu gelişmemiş irreversibl pulpitis kaynaklı yansıyan ağrılarda negatif sonuç verir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Otuz beş yaşındaki kadın hasta sol üst çene 1. molar dişinde ağrı şikâyetiyle kliniğe başvuruyor. Anamnezin ardından hekim, ilgili dişe perküsyon testi yapıyor. Hekimin dişe uyguladığı perküsyon testi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Dişin vitalitesi hakkında bilgi verir.",
+      "B": "Pulpal kaynaklı hastalığın periapikal dokulara ulaşıp ulaşmadığı hakkında bilgi verebilir.",
+      "C": "Kontralateral sağlıklı diş ile kıyaslaması yapılmalıdır.",
+      "D": "Dikey ya da yatay yönde uygulanabilir.",
+      "E": "Parmak veya dental ayna sapı ile uygulanabilir."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Perküsyon testi dişin vitalitesi (pulpanın canlı olup olmadığı) hakkında kesinlikle bilgi vermez; yalnızca kök çevresindeki periodontal ligamentte (periradiküler dokularda) proprioseptörleri uyaran akut bir inflamasyon veya ödem bulunup bulunmadığını gösterir. Hem vital bir dişte (örneğin oklüzal travma veya periapikale yayılmış irreversibl pulpitis) hem de devital bir dişte (akut apikal periodontitis/apse) perküsyon pozitif çıkabilir. Çeldiriciler: B) Pulpal inflamasyon veya enfeksiyon apikal foramenden periodontal ligamente ulaştığında perküsyon testi pozitifleşir. C) Hastanın normal algı eşikasını belirlemek ve doğru karşılaştırma yapmak için test önce kontralateral/komşu sağlıklı kontrol dişlerine uygulanmalıdır. D) İnflamasyonun apikalde mi yoksa lateral/periodontal cepte mi olduğunu ayırt etmek için kurona hem dikey (vertikal) hem de yatay (horizontal) yönde uygulanabilir. E) Şiddetli ağrı şüphesinde önce nazikçe parmak basıncı ile, ardından ayna sapı gibi künt bir aletle hafifçe vurularak uygulanır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdaki tanı yöntemlerinden hangisi vitalite belirlemek amacıyla kullanılamaz?",
+    "options": {
+      "A": "Karbondioksit kalemleri",
+      "B": "Etil klorit",
+      "C": "Diklorodifloro metan",
+      "D": "Perküsyon testi",
+      "E": "Elektrikli pulpa testi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Perküsyon testi pulpanın vitalitesini belirlemek amacıyla kullanılamaz; periodontal ligamentteki proprioseptif lifleri uyararak periradiküler inflamasyon varlığını tespit eden bir muayene yöntemidir. Çeldiriciler: A) Karbondioksit kalemleri (-78°C kuru buz), termal soğuk vitalite testinde kullanılır. B) Etil klorit (-41°C), soğuk vitalite testinde kullanılan uçucu bir sıvı spreydir. C) Diklorodiflorometan (-50°C), soğuk vitalite testinde kullanılan soğutucu gaz spreyidir. E) Elektrikli pulpa testi (EPT), A-delta sinir liflerini uyararak pulpa vitalitesini (nöral duyarlılığı) belirlemede kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Erken dönemdeki akut irreversible pulpitisli diş\nII. Semptomatik apikal periodontitisli diş\nIII. Kondensing osteitisli diş\nYukarıdaki durumlardan hangisi ya da hangilerinin tespit edilmesinde yardımcı olarak perküsyon testi kullanılabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Perküsyon testi, yalnızca periodontal ligamentte akut inflamasyon ve ödem bulunan durumlarda pozitif (ağrılı) yanıt vererek teşhise yardımcı olur. Öncüllerin Analizi: I. Erken dönemdeki akut (semptomatik) irreversible pulpitiste inflamasyon henüz kök kanalı içinde sınırlıdır, sadece C lifleri uyarılmıştır ve pulpada proprioseptif reseptör bulunmadığı için perküsyon testine ağrılı yanıt alınmaz (Yanlış). II. Semptomatik (akut) apikal periodontitiste inflamasyon apikal periodontal ligamente ulaşmış ve buradaki proprioseptörleri duyarlı hale getirmiştir; bu nedenle perküsyon testi şiddetli pozitif yanıt verir ve teşhiste en temel testtir (Doğru). III. Kondensing osteitis düşük dereceli kronik irritasyona karşı gelişen asemptomatik bir kemik sklerozudur; perküsyon testine yanıt vermez (Yanlış). Çeldiriciler: A) Erken dönem pulpitiste perküsyon negatiftir. C) I. öncül yanlıştır. D) I ve III. öncüllerde perküsyon negatiftir. E) III. öncül asemptomatiktir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Kırk beş yaşındaki hasta, mandibular sağ bölgede çiğneme sırasında oluşan keskin ve şiddetli ağrı şikâyetiyle başvuruyor. Geniş bir amalgam restorasyona sahip mandibular sağ daimi birinci molar dişte çatlak varlığından şüpheleniliyor. Bu hastada çatlak teşhisinde aşağıdaki yaklaşımlardan hangisi diğerlerine göre daha az belirleyicidir?",
+    "options": {
+      "A": "Ortodontik bant uygulaması sonrası ağrı takibi",
+      "B": "Periapikal radyografi alınması",
+      "C": "Isırma testi",
+      "D": "Dolgu materyalinin uzaklaştırılmasını takiben boya solüsyonu uygulanması",
+      "E": "Transillüminasyon ve büyütme araçlarından yararlanılarak inceleme yapılması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Çatlak diş sendromunda çatlak hattı genellikle meziodistal yönde uzanır ve X-ışını demetine paralel değil dik açıda kalır; ayrıca bukkal ve lingualdeki sağlam sert dokular ile geniş amalgam restorasyonun süperpozisyonu nedeniyle \"periapikal radyografide\" koronal çatlak hattını görmek neredeyse imkansızdır. Bu nedenle çatlak teşhisinde periapikal radyografi diğer klinik yöntemlere göre en az belirleyicidir. Çeldiriciler: A) Dişe ortodontik bant (veya geçici kuron) uygulanarak tüberküllerin esnemesi engellendiğinde çiğneme ağrısının kesilmesi çatlak teşhisini doğrular. C) Isırma testi (Tooth Slooth, pamuk rulo) ile ısırma ve bırakma anında oluşan keskin ağrı (rebound pain) çatlak dişin en karakteristik klinik bulgusudur. D) Geniş amalgam dolgunun sökülüp kavite tabanının %1 metilen mavisi veya tentürdiyot ile boyanması çatlak hattını netleştirir. E) Fiber optik transillüminasyon (ışığın çatlakta kırılması) ve operasyon mikroskobu/loop ile büyütme, çatlak teşhisinde en güvenilir yöntemlerdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdaki yöntemlerden hangisi çatlak diş teşhisinde diğerlerine göre daha az güvenilirdir?",
+    "options": {
+      "A": "Ortodontik bant uygulaması",
+      "B": "Periapikal radyograflar",
+      "C": "Isırma testi",
+      "D": "Metilen mavisi ile boyama",
+      "E": "Fiber optik ışıklar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Çatlak dişlerde kırık/çatlak hattı çoğunlukla meziodistal düzlemde seyrettiğinden ve komşu bukkal-lingual duvarlar tarafından maskelendiğinden iki boyutlu \"periapikal radyograflarda\" çatlak hattı izlenemez; dolayısıyla teşhiste en az güvenilir yöntemdir. Çeldiriciler: A) Ortodontik bant ile fragmanların stabilize edilmesi sonucunda semptomların kaybolması teşhisi destekler. C) Isırma testi şüpheli tüberküldeki ayrılma ağrısını lokalize eder. D) Metilen mavisi boyası çatlak hattına nüfuz ederek görsel tespiti kolaylaştırır. E) Fiber optik ışıklarla yapılan transillüminasyon çatlak teşhisinde en güvenilir objektif yöntemdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Kompozit restorasyon\nII. Amalgam restorasyon\nIII. Ful kuron\nYukarıda verilenlerden hangisi diş çatlaklarının tedavisi için uygundur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Çatlak dişlerin tedavisinde temel prensip, çiğneme kuvvetleri altında tüberküllerin birbirinden ayrılmasını (fleksiyonunu) ve çatlağın pulpa/kök yönünde ilerlemesini mekanik olarak engellemektir. Öncüllerin Analizi: I. İntrakoronal kompozit restorasyonlar tüberkülleri dışarıdan kuşatıp bir arada tutamaz ve polimerizasyon büzülmesi/oklüzal yüklerle çatlağın ilerleme riskini devam ettirir (Yanlış). II. Amalgam restorasyonlar dişe bağlanmaz ve kama etkisi yaratarak çatlak dişin tamamen kırılmasına (split tooth) neden olur (Yanlış). III. Ful kuron (veya tüm tüberkülleri örten onley/overlay) restorasyonlar dişi çepeçevre kuşatarak kuvvetleri dengeli dağıtır, parçaların hareketini önler ve çatlağın ilerlemesini durdurur (Doğru). Çeldiriciler: A) Kompozit dolgu çatlak ilerlemesini önleyemez. B) Amalgam kama etkisiyle kırığı hızlandırır. D) İntrakoronal dolgular kontrendikedir. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Isırma sırasında ağrı, perküsyon testinde hassasiyet, periodontal sond ile yapılan muayenede derin ve dar periodontal cep varlığı ve yapışık diş etinde fistül ağzı belirlenen bir diş için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Vertikal kök kırığı",
+      "B": "Lateral lüksasyon yaralanması",
+      "C": "Hiperplastik pulpitis",
+      "D": "Kronik apikal apse",
+      "E": "Eksternal servikal rezorpsiyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Isırma ve perküsyonda ağrı, kırık hattı boyunca oluşan kemik yıkımına bağlı olarak sadece kırık çizgisi hizasında saptanan izole \"derin ve dar periodontal cep\" ve apeksten ziyade kuronale yakın \"yapışık diş etinde (hatta bazen çift taraflı) konumlanan fistül ağzı (sinüs yolu)\" bulguları \"vertikal kök kırığı (VKK)\" için patognomonik klinik üçlüdür. Çeldiriciler: B) Lateral lüksasyon akut travmatik bir yaralanmadır; dişte yer değiştirme ve geçici mobilite/ankiloz görülür, fistül ağzı ve izole dar cep beklenmez. C) Hiperplastik pulpitis (pulpa polibi) genç dişlerde görülen asemptomatik bir tablodur; cep, fistül ve perküsyon ağrısı bulunmaz. D) Kronik apikal apse asemptomatiktir (ısırma ve perküsyonda ağrı yapmaz), fistül ağzı genellikle mukogingival birleşim/alveol mukozası hizasındadır ve dar periodontal cep oluşturmaz. E) Eksternal servikal rezorpsiyon kole bölgesinde \"pink spot\" ve kretal kanama ile karakterizedir, yapışık diş etinde fistül ağzı bulgusu yoktur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Derin ve dar periodontal cepler\nII. Yapışık dişetinde sinüs yolu\nIII. Isırma sırasında ağrı\nYukarıda verilen klinik bulgular aşağıda verilenlerden hangisinde görülür?",
+    "options": {
+      "A": "Vertikal kök kırığı",
+      "B": "Lateral lüksasyon yaralanması",
+      "C": "Hiperplastik pulpitis",
+      "D": "Kronik apikal apse",
+      "E": "Eksternal servikal rezorpsiyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kökün bukkolingual düzlemde boyuna kırılmasıyla karakterize olan \"vertikal kök kırığı\"nda, kırık hattındaki bakteriyel sızıntı komşu kortikal kemikte dikey bir yıkım yaratarak sondlamada sadece o noktada girilebilen \"derin ve dar periodontal cep\", marjinale yakın \"yapışık diş etinde sinüs yolu\" ve çiğneme/ısırma sırasında künt ağrı oluşturur. Öncüllerin Analizi: I. Kırık hattı boyunca gelişen izole, dar ve derin periodontal cep VKK'nın en önemli tanı kriteridir (Doğru). II. Enfeksiyon kırık hattı boyunca koronale taşındığı için sinüs yolu apikal mukozada değil, daha koronaldeki yapışık diş etinde açılır (Doğru). III. Çiğneme ve ısırma sırasında kırık parçaların mikro hareketi nedeniyle ağrı oluşur (Doğru). Çeldiriciler: B) Lateral lüksasyonda sinüs yolu ve dar cep gelişmez. C) Hiperplastik pulpitis tamamen asemptomatik ve vital bir pulpa proliferasyonudur. D) Kronik apikal apsede ısırma ağrısı ve dar periodontal cep yoktur. E) Eksternal servikal rezorpsiyonda yapışık diş etinde sinüs yolu görülmez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Çekim\nII. Full kuron\nIII. Hemiseksiyon\nYukarıda verilenlerden hangisi veya hangileri vertikal kök kırıklarındaki tedavi alternatiflerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Vertikal kök kırıklarında (VKK) kırık hattı kök kanalı ile periodontal aralık arasında sürekli bakteriyel geçişe ve hızlı alveol kemiği yıkımına yol açtığı için prognoz umutsuzdur; kırık hattının yapıştırılması veya konservatif tedavisi mümkün değildir. Öncüllerin Analizi: I. Tek köklü dişlerde veya tüm köklerin etkilendiği durumlarda tek ve kesin tedavi ilgili dişin \"çekimi\"dir (Doğru). II. Full kuron restorasyonu, kök kırığı olmayan koronal \"çatlak diş\" (incomplete crown fracture) vakalarında parçaları bir arada tutmak için yapılır; vertikal kök kırığında kesinlikle işe yaramaz (Yanlış). III. Çok köklü (molar) dişlerde vertikal kök kırığı yalnızca tek bir kökte sınırlıysa ve diğer köklerin periodontal/endodontik desteği sağlamsa, sadece kırık kökün çıkarıldığı \"hemiseksiyon\" veya \"kök amputasyonu (radisektomi)\" geçerli bir tedavi alternatifidir (Doğru). Çeldiriciler: A) Çok köklü dişlerde III. öncül de bir alternatiftir. B) Full kuron VKK'yı tedavi edemez. C) II. öncül yanlıştır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi vertikal kırıkların tanısında yardımcı değildir?",
+    "options": {
+      "A": "Sondlama",
+      "B": "Radyografi",
+      "C": "Çiğneme sırasında ağrı şikayeti",
+      "D": "Elektrikli pulpa testi",
+      "E": "Boyama yöntemleri"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Elektrikli pulpa testi (EPT), yalnızca pulpadaki A-delta sinir liflerinin canlılığını ölçen bir vitalite testidir. Vertikal kök kırıkları (VKK) ezici çoğunlukla zaten \"kök kanal tedavisi görmüş (devital)\" dişlerde meydana gelir; nadir olarak vital dişlerde görülse bile EPT kırık varlığı hakkında hiçbir bilgi vermez. Bu nedenle VKK tanısında yardımcı değildir. Çeldiriciler: A) Periodontal sondlama ile kırık hattı hizasında karakteristik dar, derin ve sıkı periodontal cebin saptanması tanıda en önemli bulgulardandır. B) Radyografide kırık hattının kendisi veya kökü boydan boya saran karakteristik \"J tipi (halo)\" kemik yıkımı lezyonunun görülmesi tanıya yardımcıdır. C) Anamnezde çiğneme ve ısırma sırasında lokalize künt ağrı şikayeti önemli bir klinik ipucudur. E) Cerrahi eksplorasyon veya kuron sökümü sırasında metilen mavisi gibi boyama yöntemleri ve transillüminasyon kırık hattını kesin olarak gösterir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Alt çene azı dişinde çiğneme sırasında künt ağrı şikâyetiyle başvuran 35 yaşındaki erkek hastanın sağ alt 2. Molar dişinin köprü ayağı olduğu, hikayesinde de gece diş sıkma alışkanlığı ve dişin endodontik tedavili olduğu öğreniliyor. Radyolojik muayenesinde kökü saran J tipi lezyon gözleniyor. Hastanın şikayetine neden olan durumun teşhisinde aşağıdaki tekniklerden hangisi yardımcı olmaz?",
+    "options": {
+      "A": "Periodontal sondlama",
+      "B": "Radyograflar",
+      "C": "Perküsyon testi",
+      "D": "Elektrikli pulpa testi",
+      "E": "Metilen mavisi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Endodontik tedavili olması, köprü ayağı ve bruksizm nedeniyle aşırı oklüzal yüke maruz kalması, çiğnemede künt ağrı ve radyografide kökü saran tipik \"J tipi (halo) lezyon\" varlığı \"vertikal kök kırığı (VKK)\" tanısını koydurur. İlgili diş zaten kanal tedavili (devital) olduğu ve EPT yalnızca pulpa vitalitesini ölçtüğü için bu durumun teşhisinde \"elektrikli pulpa testi\" hiçbir şekilde yardımcı olmaz. Çeldiriciler: A) Periodontal sondlama, bukkal veya lingualde kırık hattına komşu dar ve derin periodontal cebi tespit eder. B) Farklı açılardan alınan radyograflar J tipi kemik defektini ve ayrılmış kök segmentlerini gösterir. C) Perküsyon ve ısırma testi ilgili dişteki periodontal duyarlılığı doğrulamada yardımcıdır. E) Metilen mavisi ile boyama, kırık çizgisini görünür kılarak kesin tanıyı sağlar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. J tipi lezyonlar\nII. Isırma sırasında keskin ağrı\nIII. Mezial ve distalde periodontal cepler\nIV. Çoklu sinüs yolları\nYukarıda verilenlerden hangisi vertikal kök kırıklarının bulgularındandır?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I ve IV",
+      "D": "I, III ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Vertikal kök kırıkları (VKK), kök kanalından başlayıp bukkolingual düzlemde kök yüzeyine ulaşan ve kendine has klinik-radyografik bulgular veren boyuna kırıklardır. Öncüllerin Analizi: I. Kırık hattı boyunca hem apikalde hem de kökün yan yüzeyinde gelişen alveol kemiği yıkımı, radyografide kökü hale gibi saran karakteristik \"J tipi (halo) lezyon\" görüntüsü oluşturur (Doğru). II. Isırma ve ısırmayı bırakma sırasında \"keskin\" ağrı koronal \"çatlak diş sendromu\"nun (vital dişin) bulgusudur; vertikal kök kırıklarında ise ısırma sırasında hafif-orta şiddette \"künt\" bir ağrı görülür (Yanlış). III. Vertikal kök kırıklarıเกือบ her zaman bukkolingual düzlemde oluştuğu için dar ve derin periodontal cepler mezial ve distalde değil, \"bukkal ve lingual/palatinal\" yüzeylerde gelişir (Yanlış). IV. Bukkal ve lingualdeki kırık hatları boyunca gelişen enfeksiyon nedeniyle yapışık diş etinde \"birden fazla (çoklu/çift taraflı) sinüs yolu\" oluşabilir (Doğru). Çeldiriciler: A) II. öncül çatlak diş bulgusudur. B) II ve III. öncüller yanlıştır. D) III. öncül yanlıştır, cepler bukkal ve lingualde oluşur. E) II ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Tek köklü dişlerde vertikal kök kırıklarında uygulanacak yaklaşım aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kök kanal tedavisi",
+      "B": "Ekstraksiyon",
+      "C": "Splintleme",
+      "D": "Trepanasyon",
+      "E": "Kök ampütasyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Vertikal kök kırıklarında kırık hattı boyunca bakteriyel biyofilm yerleşir ve komşu alveol kemiğinde hızlı, geri dönüşümsüz bir yıkım meydana gelir. Çok köklü dişlerde sağlam kökler korunarak kırık kökün amputasyonu veya hemiseksiyon yapılabilirken, \"tek köklü dişlerde\" prognoz tamamen umutsuzdur ve komşu alveol kemiğinin daha fazla erimesini önlemek için uygulanacak tek yaklaşım dişin gecikmeden çekimi yani \"ekstraksiyon\"dur. Çeldiriciler: A) Kök kanal tedavisi boyuna kırılmış bir kökü iyileştiremez (zaten VKK olgularının çoğu kanal tedavili dişlerdir). C) Splintleme alveol kırıkları, lüksasyonlar ve horizontal kök kırıklarında uygulanır; vertikal kök kırığında kontrendikedir. D) Trepanasyon, akut apikal apsede kortikal kemiğin delinerek drenaj sağlanması işlemidir, kırık tedavisi değildir. E) Kök ampütasyonu (radisektomi) yalnızca çok köklü dişlerde kırık olan tek bir kökün kesilip çıkarılması işlemidir; tek köklü dişte uygulanamaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Ayrık diş (split-tooth) tedavisinde uygulanacak en uygun tedavi yaklaşımı hangisidir?",
+    "options": {
+      "A": "Kök kanal tedavisi",
+      "B": "Ekstraksiyon",
+      "C": "Splintleme",
+      "D": "Trepanasyon",
+      "E": "Kök ampütasyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Ayrık diş (split-tooth), tedavi edilmemiş bir çatlak dişin ilerleyerek kurondan başlayıp kök yüzeyine kadar tüm dişi meziodistal yönde tamamen iki ayrı parçaya böldüğü son evredir. Kırık hattı pulpa odası tabanını ve kökü boydan boya ayırdığı için dişin restore edilmesi imkansızdır ve en uygun tedavi yaklaşımı \"ekstraksiyon\"dur (çekimdir). Çeldiriciler: A) İkiye ayrılmış bir dişte kök kanal tedavisi yapılamaz, sızdırmazlık sağlanamaz. C) Ayrılmış kuron-kök parçalarının splintlenerek kaynaşması imkansızdır. D) Trepanasyon kemik içi drenaj işlemidir, kırık tedavisinde yeri yoktur. E) Meziodistal yönde tüm kuron ve kök tabanı ayrıldığı için kök ampütasyonu uygulanabilir bir seçenek değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Vertikal kök kırıkları ile ilgili olarak verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "En fazla vertikal kök kırığı endodontik tedavili dişlerde görülür.",
+      "B": "Yatay kesiti oval dişler vertikal kök kırığına yatkındır.",
+      "C": "Prematür kontaklar vertikal kök kırığı riskini artırır.",
+      "D": "Döner eğe sistemlerinde vertikal kök kırığı riski el eğelerine göre düşüktür.",
+      "E": "Ferrule oluşturulan restorasyonlarda vertikal kök kırığı riski düşer."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Nikel-titanyum (NiTi) döner eğe sistemleri kök kanalı içinde yüksek hız ve torkla dönerken dentin duvarlarında sürekli gerilme yoğunlaşmaları ve \"dentinal mikroçatlaklar (craze lines)\" oluştururlar; bu nedenle döner eğe sistemlerinde vertikal kök kırığı gelişme riski el eğelerine göre düşük değil, aksine \"daha yüksektir\" (el eğeleri bu açıdan daha güvenlidir). Çeldiriciler: A) VKK en sık kanal içi aşırı genişletme, lateral kompaksiyon kuvvetleri ve post uygulamaları nedeniyle endodontik tedavili dişlerde görülür. B) Yatay kesiti bukkolingual yönde dar ve oval olan köklerde (üst ve alt premolarlar, alt molarların mezial kökü, alt keserler) stres bukkolingual duvarlarda yoğunlaştığı için VKK riski yuvarlak kesitli köklere göre çok daha yüksektir. C) Özellikle maksiller premolarlarda görülen oklüzal prematür kontaklar ve bruksizm VKK riskini artırır. E) Post-kor restorasyonlarda koronalde en az 2 mm sağlam dentin duvarının kuronla kuşatılması (ferrule etkisi), kama etkisini önleyerek VKK riskini belirgin şekilde düşürür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi dişlerde vertikal kök kırığının tanısı için kullanılan yöntemlerden biri değildir?",
+    "options": {
+      "A": "Isırma testi",
+      "B": "Soğuk testi",
+      "C": "Diş etinde fistül ağzı varlığının araştırılması",
+      "D": "Radyografik inceleme",
+      "E": "Periodontal cep derinliğinin ölçülmesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Soğuk testi pulpanın vitalitesini ölçen bir duyarlılık testidir; vertikal kök kırıkları (VKK) ise neredeyse her zaman kök kanal tedavisi yapılmış (pulpanın zaten bulunmadığı devital) dişlerde görüldüğü ve soğuk testi kök kırığı varlığına dair spesifik bir bulgu vermediği için VKK tanısında kullanılan yöntemlerden biri değildir. Çeldiriciler: A) Isırma testi, kırık kök segmentlerinin hareketiyle oluşan künt ağrıyı ortaya çıkarmak için kullanılır. C) Yapışık diş etinde koronal yerleşimli veya çoklu fistül ağzı (sinüs yolu) varlığı VKK'nın önemli klinik bulgularındandır. D) Radyografik inceleme, kökü saran karakteristik J tipi (halo) radyolusent kemik yıkımını görmek için kullanılır. E) Periodontal cep derinliğinin esnek sondlarla ölçülmesi, kırık hattı boyunca oluşan tipik dar ve derin periodontal cebi tespit etmeyi sağlar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Kanal tedavi sonrası ısırma sırasında lokalize ve künt ağrı şikayeti ile başvuran bir hastada aşağıda verilen test yöntemlerinden hangisi anlamsızdır?",
+    "options": {
+      "A": "Isırma testi",
+      "B": "Soğuk testi",
+      "C": "Diş etinde fistül ağzı varlığının araştırılması",
+      "D": "Radyografik inceleme",
+      "E": "Periodontal cep derinliğinin ölçülmesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Hastanın ilgili dişine zaten \"kanal tedavisi\" yapılmış olduğu (pulpa dokusunun mevcut olmadığı) belirtilmektedir.Kanal tedavili bir dişte vertikal kök kırığı veya apikal periodontitis şüphesiyle muayene yapılırken, pulpa canlılığını ölçen \"soğuk testi\"nin uygulanması tamamen anlamsızdır. Çeldiriciler: A) Isırma testi hastanın tarif ettiği çiğneme ağrısını doğrulamak ve lokalize etmek için gereklidir. C) Diş etinde fistül ağzı (sinüs yolu) aranması kronik apse veya vertikal kök kırığı tanısı için anlamlıdır. D) Radyografik inceleme kanal dolgusunun kalitesini, apikal lezyonu veya J tipi lezyonu görmek için şarttır. E) Periodontal cep derinliğinin ölçülmesi vertikal kök kırığına bağlı izole dar cebi veya endo-perio lezyonunu saptamak için gereklidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Radyografta J tipi lezyon\nII. Çoklu sinüs yolu\nIII. Mezial ve distal yüzlerde periodontal cepler\nAşağıda verilenlerden hangisi vertikal kök kırıklarının bulgularındandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Vertikal kök kırıkları (VKK), kök kanalından bukkolingual yönde dış yüzeye uzanan ve hem radyografik hem klinik olarak karakteristik bulgular veren kırıklardır. Öncüllerin Analizi: I. Kırık hattı boyunca apikalden koronale doğru uzanan kemik yıkımı radyografide kökü J harfi (halo) şeklinde saran radyolusent lezyon olarak izlenir (Doğru). II. Kırık hattının bukkal ve lingual yüzeye ulaşmasıyla yapışık diş etinde tekli veya \"çoklu (birden fazla) sinüs yolu\" gelişir (Doğru). III. Vertikal kök kırığı hattı bukkolingual düzlemde seyrettiği için dar, derin ve sıkı periodontal cepler mezial ve distalde değil, \"bukkal ve lingual\" yüzlerde oluşur (Yanlış). Çeldiriciler: A) II. öncül de VKK bulgusudur. B) I. öncül de VKK bulgusudur. D) III. öncül yanlıştır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Vertikal kök kırıkları ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Aşırı geniş kök kanal preparasyonu yapılmış dişlerde vertikal kök kırığı riski fazladır.",
+      "B": "Alveol kemiğinde istenmeyen harabiyetin önlenmesi için vertikal kök kırığı mevcut olan dişin vakit kaybetmeden çekilmesi gerekmektedir.",
+      "C": "Erken dönemde vertikal kök kırığını tespit etmek kolaydır.",
+      "D": "Vertikal kök kırıklarıyla ilişkili erken dönemde oluşan ceplerin tespitinde esnek periodontal sondlar tercih edilmelidir.",
+      "E": "Vertikal kök kırığının kesin teşhisi için diğer klinik ve radyografik yöntemler yetersiz kaldığında keşifsel cerrahiye başvurulabilir."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Erken dönemde vertikal kök kırığının (VKK) semptom ve bulguları çok siliktir, kırık segmentler henüz birbirinden ayrılmadığı için radyografide görülmez ve başarısız bir kanal tedavisi veya periodontal hastalıkla kolayca karışır; bu nedenle erken dönemde VKK'yı tespit etmek kolay değil, \"oldukça zordur\". Çeldiriciler: A) Aşırı geniş kök kanal preparasyonu kalan dentin duvarlarını incelterek kökü zayıflatır ve VKK riskini ciddi oranda artırır. B) VKK varlığında kırık hattından sızan bakteriler alveol kemiğinde çok hızlı ve şiddetli rezorpsiyon (kemik defekti) yapar; ileride yapılacak implant/protetik tedaviler için kemik hacmini korumak adına diş vakit kaybetmeden çekilmelidir. D) VKK'da oluşan cep çok dar, sıkı ve kıvrımlı olabildiğinden tespitinde rijit metal sondlar yerine ince ve \"esnek (plastik) periodontal sondlar\" tercih edilmelidir. E) Klinik ve radyografik bulgular şüpheli kaldığında, flep kaldırılarak kök yüzeyinin metilen mavisi ve mikroskopla doğrudan incelendiği \"keşifsel (diagnostik) cerrahi\" kesin teşhis yöntemidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "I. Endodontik olarak aşırı genişletme riski arttırır.\nII. Tedavisi çekimdir.\nIII. Erken dönemde tespit etmek zordur.\nVertikal kök kırıkları ile ilgili yukarıdakilerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Vertikal kök kırıkları (VKK), iyatrojenik ve biyomekanik faktörlerin birleşimiyle gelişen, teşhisi güç ve prognozu umutsuz olan endodontik komplikasyonlardır. Öncüllerin Analizi: I. Kök kanalının mekanik preparasyon veya post boşluğu hazırlığı sırasında aşırı genişletilmesi radiküler dentini zayıflatarak VKK riskini artırır (Doğru). II. Kırık hattı boyunca sürekli bakteriyel sızıntı ve kemik yıkımı olduğundan VKK olgularının tedavisi (tek köklü dişlerde) ilgili dişin bir an önce çekimidir (Doğru). III. Erken dönemde belirgin radyografik bulgu vermediği ve sadece tek noktada çok dar bir cep oluşturduğu için erken tespiti oldukça zordur (Doğru). Çeldiriciler: A) II ve III. öncüller de doğrudur. B) I ve III. öncüller de doğrudur. C) III. öncül de doğrudur. D) I. öncül de doğrudur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  },
+  {
+    "question": "Vertikal kök kırıkları ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Köklerin BL yönde geniş olması riski arttırır.",
+      "B": "Kökte herhangi bir yüzeyden başlayabilir.",
+      "C": "Tedavisi ilgili dişin bir an önce çekimidir.",
+      "D": "Lateral kompaksiyon sırasında spreader basıncı kaynaklı olabilir.",
+      "E": "Endodontik tedavili dişte aşırı su kaybı nedeniyle görülebilir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Endodontik tedavili dişlerde vitalitenin kaybıyla yalnızca yaklaşık %9 oranında sınırlı bir serbest su kaybı görülür; ancak yapılan biyomekanik çalışmalar bu su kaybının dentinin elastisite modülünü veya Vickers sertliğini anlamlı şekilde değiştirmediğini ve kökte kırılganlığı/vertikal kök kırığını \"artırmadığını\" kanıtlamıştır. VKK su kaybından değil, madde kaybı ve kama kuvvetlerinden kaynaklanır. Çeldiriciler: A) Köklerin yatay kesitinin meziodistal yönde dar, bukkolingual (BL) yönde geniş ve oval olması stres dağılımını bozarak VKK riskini artırır. B) VKK apikal, orta veya koronal üçlüde kökün herhangi bir seviyesinden başlayabilir. C) Alveol kemiği yıkımını durdurmak için tedavisi ilgili dişin (veya kökün) bir an önce çekimidir. D) Soğuk lateral kompaksiyon (kondenzasyon) sırasında spreader ile uygulanan aşırı kama basıncı VKK'nın en önemli iyatrojenik nedenlerindendir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 8 - ENDODONTİDE TEŞHİS"
+  }
+]

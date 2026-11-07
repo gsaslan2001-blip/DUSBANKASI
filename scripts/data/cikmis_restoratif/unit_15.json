@@ -1,0 +1,185 @@
+[
+  {
+    "question": "Aşağıdaki cihazlardan hangisi, lazer floresans özelliğiyle çürük teşhisine yardımcı olur?",
+    "options": {
+      "A": "DIAGNOdent",
+      "B": "DIFOTI",
+      "C": "QLF",
+      "D": "ECM",
+      "E": "TACT"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"DIAGNOdent (ve Diagnopen)\", 655 nm dalga boyunda kırmızı diyot \"lazer ışığı\" kullanarak çürük lezyonundaki bakteriyel metabolizma ürünlerinin (porfirinlerin) yaydığı kızılötesi floresans miktarını sayısal olarak (0-99 arası) ölçen ve \"lazer floresans\" prensibiyle çalışan çürük teşhis cihazıdır. Çeldiriciler: - B) DIFOTI (Dijital Fiber Optik Transillüminasyon), lazer değil yüksek yoğunluklu görünür beyaz ışık kullanarak ışığın kırılma/geçirgenlik farkıyla çalışan sistemdir. - C) QLF (Kantitatif Işık Floresansı), lazer ışığı değil görünür mavi-mor ışık (488 nm ark lambası) kullanarak dişin doğal yeşil otofloresans kaybını ölçen sistemdir. - D) ECM (Electronic Caries Monitor), ışık değil elektrik akımı kullanarak dişin elektriksel iletkenlik/direnç farkını ölçen sistemdir. - E) TACT (Tuned Aperture Computed Tomography), X-ışını kullanan üç boyutlu radyografik görüntüleme sistemidir.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE",
+    "flag_reason": "2012 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "İleri çürük teşhis yöntemlerinden biri olan Diagnodent sistemi hangi fiziksel prensip ile çalışır?",
+    "options": {
+      "A": "X-Ray",
+      "B": "Görünür ışık",
+      "C": "Lazer ışığı",
+      "D": "Elektrik akımı",
+      "E": "Ultrason"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Diagnodent sistemi, fiziksel prensip olarak 655 nm dalga boyundaki \"lazer ışığı (lazer floresans ölçümü)\" ile çalışır. Çeldiriciler: - A) X-Ray prensibiyle çalışanlar dijital radyograflar ve CBCT/TACT'tır. - B) Görünür ışık prensibiyle çalışanlar FOTI, DIFOTI ve QLF'tir. - D) Elektrik akımı prensibiyle çalışanlar ECM, Vanguard ve ACIS'tir. - E) Ultrason prensibiyle çalışan ultrasonik çürük dedektörüdür.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "I. DIAGNOdent II. DIAGNOdent pen III. DIAGNOcam IV. DIFOTI V. QLF Yukarıda verilen çürük tespit yöntemlerinden hangisi çürük tespitinde fiziksel prensip açısından transillüminasyon özelliğinden faydalanılarak çürük tespiti gerçekleştirmektedir?",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "III ve IV",
+      "C": "I, II ve III",
+      "D": "III, IV ve V",
+      "E": "I, II, III, IV ve V"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Diş dokularından ışığın geçirilmesi (transillüminasyon) ve çürük dokunun ışığı saçması/tutması sonucu koyu gölge olarak görüntülenmesi prensibiyle çalışan sistemler FOTI, DIFOTI (Dijital Fiber Optik Transillüminasyon - IV) ve yakın kızılötesi ışıkla transillüminasyon yapan NILT / DIAGNOcam (III) sistemleridir. Öncüllerin Analizi: - I ve II. Öncüller (Lazer floresans): DIAGNOdent ve DIAGNOdent pen transillüminasyonla değil, 655 nm lazer floresans prensibiyle çalışır. - III. Öncül (Transillüminasyon): DIAGNOcam (NILT), görünür-yakın kızılötesi ışıkla transillüminasyon yaparak arayüz ve oklüzal çürükleri kamera ile görüntüler. - IV. Öncül (Transillüminasyon): DIFOTI, fiber optik görünür ışık transillüminasyonu ile çalışır. - V. Öncül (Otofloresans): QLF, mavi ışıkla dişin yeşil otofloresansını ölçer; transillüminasyon yapmaz. Çeldiriciler: A şıkkı DIAGNOcam'i (III) eksik bıraktığı için; C, D ve E şıkları ise floresans prensibiyle çalışan I, II veya V. öncülleri içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "Yirmi yaş dişleri hariç eksik dişi bulunmayan 22 yaşındaki hastanın maksiller sağ 1 ve 2. premolar dişlerinde oklüzal çürük, mandibular sol 1 ve 2. premolar dişlerinde iki yüzlü kompozit restorasyon ve maksiller sol 1. molar dişinde ise üç yüzlü amalgam restorasyon bulunuyor. Bu hastanın DMF(T) indeks değeri kaçtır?",
+    "options": {
+      "A": "5",
+      "B": "7",
+      "C": "9",
+      "D": "11",
+      "E": "13"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Epidemiyolojik çürük indekslerinden **DMF(T)** (Teeth = Diş sayısı), çürük (D: Decayed), çekilmiş/kayıp (M: Missing) ve dolgulu (F: Filled) \"daimi dişlerin toplam sayısını\" ölçer; bir dişte kaç yüzeyin dolgulu veya çürük olduğuna bakılmaz (yüzey sayısını ölçen indeks DMFS'dir) ve 20 yaş dişleri hesaplamaya dahil edilmez. Hastadaki dişler incelendiğinde: - Çürük dişler (D): Maksiller sağ 1. ve 2. premolar = **2 diş** - Kayıp dişler (M): Eksik dişi yok = **0 diş** - Dolgulu dişler (F): Mandibular sol 1. ve 2. premolar (2 diş) + Maksiller sol 1. molar (1 diş) = **3 diş** Toplam **DMF(T)** = 2 + 0 + 3 = **5**'tir. (Eğer DMFS yani yüzey sayısı sorulsaydı: 2 oklüzal çürük yüzeyi + 2x2=4 kompozit yüzeyi + 3 amalgam yüzeyi = 9 olurdu). Çeldiriciler: - C) 9 değeri DMFT değil, etkilenen yüzey sayısını gösteren DMFS değeridir. - B, D ve E) Hatalı toplama değerleridir.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "Kliniğe başvuran 34 yaşındaki erkek hastanın maksiller sol 2. premolar dişinde üç yüzlü kompozit restorasyon, maksiller sağ 1. molar dişinin oklüzal yüzünde çürük, mandibular sol 2. molar dişinde iki yüzlü amalgam restorasyon bulunmaktadır. Hastanın 5 yıl önce mandibular sağ 1. molar ve 2. Molar dişlerinin çürük nedeniyle çekildiği öğreniliyor. Bu hastanın DMF(T) indeks değeri kaçtır?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "8",
+      "D": "10",
+      "E": "12"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): DMF(T) indeksi etkilenen toplam diş sayısını ifade eder: - Çürük diş (D): Maksiller sağ 1. molar = **1 diş** - Çürük nedeniyle çekilmiş kayıp diş (M): Mandibular sağ 1. ve 2. molar = **2 diş** - Dolgulu diş (F): Maksiller sol 2. premolar (1 diş) + Mandibular sol 2. molar (1 diş) = **2 diş** Toplam **DMF(T)** = 1 + 2 + 2 = **5**'tir. Çeldiriciler: 6, 8, 10 ve 12 değerleri diş sayısı yerine yüzey sayılarını (DMFS) katan hatalı hesaplamalardır.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "Yirmi üç yaşında herhangi bir sistemik hastalığı bulunmayan kadın hasta kliniğe kontrol muayenesi amacıyla başvurmuştur. Yapılan muayene sonucunda hastanın 17, 24, 25 numaralı dişlerinde iki yüzlü; 26, 36 ve 47 numaralı dişlerinde bir yüzlü kompozit restorasyonlar tespit edilmiştir. Hastadan son 4 yıl içinde iki yıl arayla alınan panoramik radyograflarda 16, 21, 45, numaralı dişlerinin ara yüzlerinde son iki yılda oluşmuş çürük lezyonlarına rastlanmıştır. 46 numaralı dişin ise 5 yıl önce ekstrakte edildiği bilgisi hasta tarafından verilmiştir. Buna göre bu hasta ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Yüksek çürük insidansına sahiptir",
+      "B": "DMFT indeksi 10'dur",
+      "C": "Mevcut dişlerde çürüğe karşı dayanıklılığı arttırmak için sadece düşük doz macun önerilmesi yeterlidir.",
+      "D": "Hastaya diyet danışmanlığı ve oral hijyen eğitimi verilmelidir",
+      "E": "Hastadan her 6-12 ayda bir bitewing radyografi alınmalıdır"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Son iki yıl içinde yeni oluşmuş 3 adet aktif arayüz çürük lezyonu, çok sayıda restorasyonu ve çürüğe bağlı diş çekimi bulunan bu hasta \"yüksek çürük risk grubunda\" yer almaktadır. Yüksek çürük riskli yetişkin hastalarda sadece standart düşük doz florlu macun önerilmesi kesinlikle yeterli değildir; 3 ayda bir kontrol ve profesyonel flor verniği uygulaması, evde reçeteli yüksek doz florürlü (5000 ppm NaF) diş macunu veya %0,2 NaF gargara, ksilitollü ürünler, klorheksidin ve kalsiyum-fosfat bileşikleri uygulanmalıdır. Çeldiriciler: - A) Son iki yılda 3 yeni çürük lezyonu gelişmesi yüksek çürük insidansını ve yüksek çürük riskini gösterir. - B) DMFT indeksi: 6 dolgulu diş (17, 24, 25, 26, 36, 47) + 3 çürük diş (16, 21, 45) + 1 kayıp diş (46) = **10**'dur. - D ve E) Yüksek çürük riskli hastaya bireysel oral hijyen eğitimi, diyet danışmanlığı verilmeli, 3 ayda bir klinik kontrol ve her 6-12 ayda bir bitewing radyografi takibi yapılmalıdır.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "I. Fiber-optik transillüminasyon II. Bite-wing radyografiler III. Lazer floresans Arayüz çürüklerinin teşhis edilmesinde, yukarıdaki tanı yöntemlerinden hangileri kullanılabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Arayüz (aproksimal) çürüklerinin teşhis edilmesinde altın standart olan bite-wing radyografilerin (II) yanı sıra, radyasyon içermeyen ve 500 µm'den küçük erken lezyonları da saptayabilen fiber-optik transillüminasyon (FOTI/DIFOTI/DIAGNOcam - I) ve aproksimal uçlu lazer floresans (DIAGNOdent pen - III) yöntemlerinin tamamı kullanılabilir. Öncüllerin Analizi: - I. Öncül (Kullanılabilir): Fiber-optik transillüminasyon (FOTI/DIFOTI) arayüz çürüklerinin teşhisinde kullanılır. - II. Öncül (Kullanılabilir): Bite-wing radyografiler arayüz çürüklerinin teşhisinde vazgeçilmez altın standart yöntemdir. - III. Öncül (Kullanılabilir): Lazer floresans (özellikle safir kama uçlu DIAGNOdent pen) arayüz çürüklerinin teşhisinde kullanılır. Çeldiriciler: A, B, C ve D şıkları arayüz çürüğü teşhisinde kullanılabilen bu üç yöntemden birini veya birkaçını eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "I. Fiber-optik transillüminasyon II. Bite-wing radyografiler III. Lazer floresans Yukarıdaki öncüller arasında arayüzde 500 µm'den daha az lezyon derinliğine sahip bir dişte lezyonun teşhisi için en uygun yöntem hangisi/hangileridir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Bir çürük lezyonunun bite-wing radyografide gözle görülebilmesi için en az 500 µm (0,5 mm) lezyon derinliğine ve belirli bir mineral kaybına ulaşmış olması gerekir; 500 µm'den daha az derinliğe sahip erken arayüz lezyonları radyografide saptanamaz, bunların tespiti için ileri çürük teşhis yöntemleri olan \"fiber-optik transillüminasyon (I)\" ve \"lazer floresans (III)\" yöntemlerinden faydalanılır. Öncüllerin Analizi: - I ve III. Öncüller (Uygun): Fiber-optik transillüminasyon ve lazer floresans 500 µm'den daha sığ olan erken başlangıç lezyonlarını tespit edebilir. - II. Öncül (Uygun değil): Bite-wing radyografiler 500 µm'den daha az derinlikteki lezyonları gösteremez. Çeldiriciler: A, B, D ve E şıkları 500 µm altında yetersiz kalan bite-wing radyografiyi (II) içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "Klinik olarak saptanabilen kaviteye sahip olmayan çürüksüz lezyonların tespitinde %100 sensitiviteye sahip, diş dokusunda oluşmuş olan iyonik boşlukları tespit eden çürük tespit yöntemi aşağıda verilenlerden hangisidir?",
+    "options": {
+      "A": "Lazer floresans",
+      "B": "QLF",
+      "C": "Elektriksel iletkenlik",
+      "D": "Alternatif akım empedans spektroskopisi",
+      "E": "FOTI"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): \"Alternatif akım empedans spektroskopisi (Alternating Current Impedance Spectroscopy - ACIS / CarieScan)\", diş dokusuna tek bir frekans yerine çok sayıda farklı frekansta alternatif elektrik akımı göndererek sağlıklı ve çürük dokular arasındaki iyon farkını ve kayıp olan bölgelerde oluşmuş iyonik boyuttaki boşlukları karakterize edip ölçen; klinik olarak kavitasyon göstermeyen mine lezyonlarının tespitinde %100'e yakın sensitiviteye sahip olduğu bildirilen ileri çürük teşhis yöntemidir. Çeldiriciler: - A, B ve E) Lazer floresans, QLF ve FOTI elektriksel iyonik boşlukları değil, optik ışık/floresans özelliklerini ölçer. - C) Klasik elektriksel iletkenlik ölçümü (ECM) çoklu frekans taraması yapan ACIS'ten farklı olarak sabit/tek frekanslı direnç ölçümü yapar.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "Bir popülasyonun kümülatif çürük atağını ölçmekte kullanılan DMFS indeksinde \"F\" ne anlama gelir?",
+    "options": {
+      "A": "Daimi dişlerdeki çürüklü yüzey sayısı",
+      "B": "Süt dişlerindeki dolgulu yüzey sayısı",
+      "C": "Daimi dişlerdeki dolgulu yüzey sayısı",
+      "D": "Süt dişlerindeki çürüklü yüzey sayısı",
+      "E": "Daimi dişlerdeki eksik diş sayısı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Büyük harflerle yazılan **DMFS** indeksi \"daimi dişlerdeki\" etkilenen yüzey sayısını (S: Surface) ifade eder (küçük harflerle yazılan dmfs ise süt dişlerini ifade eder). İndeksteki **D** (Decayed): çürüklü yüzey sayısını, **M** (Missing): kayıp diş/yüzeyleri, **F** (Filled) ise geçmişteki çürük atağı nedeniyle tedavi edilmiş olan **\"daimi dişlerdeki dolgulu yüzey sayısını\"** ifade eder. Çeldiriciler: - A) Daimi dişlerdeki çürüklü yüzey sayısı \"D\" (DS) ile gösterilir. - B ve D) Süt dişlerindeki dolgulu ve çürüklü yüzey sayıları küçük harfle \"fs\" ve \"ds\" olarak gösterilir. - E) Daimi dişlerdeki eksik diş sayısı DMFT indeksindeki \"M\" (MT) ile gösterilir.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "Popülasyon çalışmalarında yapılan işlemlerde erişkin bireylerde eskiye ait patojenitenin etkilediği yüzeylerin tedavi edilmiş hali aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Daimi dişlerdeki çürüklü yüzey sayısı",
+      "B": "Daimi dişlerdeki dolgulu yüzey sayısı",
+      "C": "Süt dişlerdeki çürüklü yüzey sayısı",
+      "D": "Daimi dişlerdeki kayıp diş sayısı",
+      "E": "Daimi dişlerdeki dolgulu yüzey sayısının süt dişlerindeki dolgulu yüzey sayısına oranı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): DMFS indeksinde D komponenti mevcut aktif hastalığı gösterirken, M ve F komponentleri geçmişteki çürük atağının varlığını gösterir; erişkin bireylerde eskiye ait patojenitenin etkilediği yüzeylerin restoratif olarak tedavi edilmiş halini ifade eden F (Filled) bileşeni \"daimi dişlerdeki dolgulu yüzey sayısı\"dır. Çeldiriciler: Çürüklü yüzey sayısı (A, C) aktif ve tedavi edilmemiş hastalığı, kayıp diş sayısı (D) çekilmiş dişleri ifade eder.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "I. F II. M III. D DMF indeksinde yukarıdaki öncüllerde verilen durumlardan hangisi/hangileri geçmiş durumun göstergesidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): DMF indeksinde **F** (Filled - dolgulu) ve **M** (Missing - çürük nedeniyle çekilmiş/kayıp) komponentleri geçmişte yaşanmış çürük hastalığının varlığının ve sonuçlarının belirleyicileridir; **D** (Decayed - çürük) komponenti ise halihazırda devam eden \"aktif\" hastalığın göstergesidir. Öncüllerin Analizi: - I ve II. Öncüller (Geçmiş durum): F (dolgulu) ve M (kayıp) bileşenleri geçmişteki çürük atağının göstergesidir. - III. Öncül (Aktif durum): D (çürük) bileşeni mevcut aktif hastalık komponentidir. Çeldiriciler: A şıkkı M bileşenini (II) eksik bıraktığı için; C, D ve E şıkları ise aktif hastalık göstergesi olan D bileşenini (III) içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  },
+  {
+    "question": "Premolar ve molar dişlerin ara yüzeylerinde oluşan çürüklerin teşhisi amacıyla kullanılan en güvenilir radyografi tekniği aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Periapikal radyografi tekniği",
+      "B": "Panoramik radyografi tekniği",
+      "C": "Bite-wing radyografi tekniği",
+      "D": "Le Master radyografi tekniği",
+      "E": "Lateral sefalografi tekniği"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Premolar ve molar dişlerin ara yüzeylerinde (aproksimal bölgelerde) oluşan çürüklerin, sekonder çürüklerin ve taşkın restorasyonların teşhisinde X-ışınları dişlerin uzun akslarına dik ve aproksimal kontak yüzeylerine paralel gönderildiği için süperpozisyonu önleyen en güvenilir (altın standart) radyografi tekniği \"Bite-wing (ısırma kanatlı) radyografi tekniği\"dir. Çeldiriciler: - A ve D) Periapikal ve Le Master (üst molarlarda zigomatik ark süperpozisyonunu önleyen periapikal teknik) radyografiler kök ucu ve periapikal dokuların incelenmesinde kullanılır; açılanma nedeniyle arayüz çürüklerini gizleyebilir. - B ve E) Panoramik ve lateral sefalometrik radyografiler ekstraoral teknikler olup çözünürlükleri düşüktür ve arayüz süperpozisyonları nedeniyle aproksimal çürük teşhisinde güvenilir değildir.",
+    "lesson": "Restoratif",
+    "unit": "15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE"
+  }
+]

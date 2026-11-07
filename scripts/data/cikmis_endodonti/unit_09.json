@@ -1,0 +1,707 @@
+[
+  {
+    "question": "Kök kanal preparasyonu anatomik olarak aşağıdakilerin hangisinde sonlandırılmalıdır?",
+    "options": {
+      "A": "Majör apikal foramen",
+      "B": "Radyolojik apeksten 1 mm ilerde",
+      "C": "Black aralığı içinde",
+      "D": "Radyolojik apekste",
+      "E": "Minör apikal foramende"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kök kanal preparasyonu ve dolgusu anatomik olarak kanalın en dar noktası olan \"minör apikal foramende\" (apikal daralım / apikal konstrüksiyon / sement-dentin bileşimi) sonlandırılmalıdır. Bu nokta radyolojik apeksten ortalama 0.5-1.5 mm (yaşlılarda sement birikimiyle 1-4.5 mm) koronalde yer alır; burada bitirilen preparasyon doğal bir apikal stop oluşturarak taşkınlığı ve periapikal doku travmasını önler. Çeldiriciler: A) Majör apikal foramen damar-sinir paketinin köke girdiği dış açıklıktır; preparasyonun burada bitirilmesi apikal daralımı bozar ve taşkınlığa yol açar. B) Radyolojik apeksten 1 mm ileride bitirilmesi periapikal dokuların mekanik ve kimyasal olarak zedelenmesine (over-instrumentasyon) ve şiddetli postoperatif ağrıya neden olur. C) Black aralığı minör ve majör apikal foramen arasındaki huni şeklindeki periodontal/sementoz dokudur; preparasyon bu aralığa taşmamalıdır. D) Majör foramen %95 oranında radyolojik apeksten daha koronal/lateralde açıldığı için radyolojik apekste bitirilen tedavilerin büyük çoğunluğu taşkın olur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON",
+    "flag_reason": "2013 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "I. Genellikle endodontik prosedürlerin sonlandırıldığı referans noktadır.\nII. Tedavi sırasında bu bölge zedelendiğinde post-operatif rahatsızlık artar.\nIII. Major apikal foramenden 0.5-1.5 mm koronaldedir.\nIV. Yaşlılarda sement birikimine bağlı olarak apeksle olan mesafe artar.\nYukarıdaki özellikler kök kanalındaki hangi anatomik oluşuma aittir?",
+    "options": {
+      "A": "Majör apikal foramen",
+      "B": "Radyolojik apeksten 1 mm ilerisi",
+      "C": "Black aralığının içi",
+      "D": "Radyolojik apeks",
+      "E": "Minör apikal foramen"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tanımlanan tüm anatomik ve klinik özellikler, kök kanalının en dar yeri olan ve genellikle sement-dentin bileşiminde konumlanan \"minör apikal foramene (apikal konstrüksiyon)\" aittir. Öncüllerin Analizi: I. Kanal şekillendirme ve doldurma işlemlerinin sonlandırıldığı ideal histolojik/anatomik referans noktasıdır (Doğru). II. Bu daralım bölgesinin eğelerle zedelenip genişletilmesi irrigasyon solüsyonlarının, debrisin ve dolgu maddelerinin periapekse taşmasına ve postoperatif ağrıya yol açar (Doğru). III. Majör apikal foramenden ortalama 0.5-1.5 mm daha koronalde konumlanır (Doğru). IV. Yaşlanmayla birlikte apikalde devam eden sekonder sement birikimine bağlı olarak anatomik/radyolojik apeks ile arasındaki mesafe artar (Doğru). Çeldiriciler: A) Majör apikal foramen kanalın dış yüzeydeki geniş ağzıdır. B) Radyolojik apeksin ilerisi periapikal kemik/PDL alanıdır. C) Black aralığı minör ve majör çap arasındaki bölgedir. D) Radyolojik apeks kökün en uç noktasının röntgendeki görüntüsüdür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi black aralığı olarak tanımlanır?",
+    "options": {
+      "A": "Minör apikal foramen ile majör apikal foramen arası",
+      "B": "Radyolojik apeks ile anatomik apeks arası",
+      "C": "Radyolojik apeks ile minör apikal çap arası",
+      "D": "Radyolojik apeks ile majör apikal çap arası",
+      "E": "Sementodentinal bileşim ile radyolojik apeks arası"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kök kanalının en dar yeri olan \"minör apikal foramen\" (apikal daralım) ile kanalın kök dış yüzeyine açıldığı en geniş yer olan \"majör apikal foramen\" arasında kalan, tabanı dışarıya bakan huni veya lotus çiçeği şeklindeki üçgenimsi anatomik bölgeye \"Black aralığı\" adı verilir. Çeldiriciler: B) Radyolojik apeks, anatomik apeksin film üzerindeki izdüşümüdür; aralarındaki fark radyografik distorsiyondur. C) Radyolojik apeks ile minör apikal çap arasındaki mesafe çalışma boyu hesaplamasında kullanılır, Black aralığı değildir. D) Radyolojik apeks ile majör foramen arası kavis mesafesidir. E) Sementodentinal bileşim (minör çap) ile majör foramen arası Black aralığıdır; radyolojik apeks ile olan kısım değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Gates Glidden frezlerinin en küçüğünün dış çapı, ISO standartlarında kaç numaralı kanal aletinin apikal ucu ile aynı çaptadır?",
+    "options": {
+      "A": "30",
+      "B": "40",
+      "C": "50",
+      "D": "60",
+      "E": "70"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Gates Glidden (GG) frezleri sap kısımlarındaki halkalarla 1'den 6'ya kadar numaralandırılır ve 0.20 mm'lik artışlarla kalınlaşırlar (1 no: 0.50 mm, 2 no: 0.70 mm, 3 no: 0.90 mm, 4 no: 1.10 mm, 5 no: 1.30 mm, 6 no: 1.50 mm). En küçük Gates Glidden frezi olan 1 numaralı frezin çapı 0.50 mm olup, ISO standartlarında uç çapı (D0) 0.50 mm olan sarı renk kodlu \"50 numaralı\" kanal aleti ile aynı çaptadır. Çeldiriciler: A) 30 numaralı kanal aletinin uç çapı 0.30 mm'dir. B) 40 numaralı kanal aletinin uç çapı 0.40 mm'dir. D) 60 numaralı kanal aletinin uç çapı 0.60 mm'dir. E) 70 numaralı kanal aletinin uç çapı 0.70 mm olup 2 numaralı Gates Glidden frezine karşılık gelir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "50 numaralı K tipi eğenin apikali hangi Gates glidden frez ile aynı çapa sahiptir?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): ISO standartlarındaki 50 numaralı K tipi eğenin apikal uç çapı (D0) 0.50 mm'dir. Gates Glidden frezlerinden \"1 numaralı\" frezin çalışma ucu çapı da 0.50 mm olduğundan ikisi birebir aynı çapa sahiptir. Çeldiriciler: B) 2 numaralı GG frezinin çapı 0.70 mm'dir (70 no eğeye eşittir). C) 3 numaralı GG frezinin çapı 0.90 mm'dir (90 no eğeye eşittir). D) 4 numaralı GG frezinin çapı 1.10 mm'dir (110 no eğeye eşittir). E) 5 numaralı GG frezinin çapı 1.30 mm'dir (130 no eğeye eşittir).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Gates glidden frezlerin kullanımı ile ilgili olarak verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Apikal üçlüye ulaşmamalıdır.",
+      "B": "Kanalın düz kısımlarında kullanılmalıdır.",
+      "C": "Büyükten küçüğe veya küçükten büyüğe doğru kullanılabilir.",
+      "D": "Kanalda sıkıştıkları yerden birer mm ileri itilmelidir.",
+      "E": "Aletler sıra ile seri halde kullanılmalıdır."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Gates Glidden (GG) frezleri mikromotora takılarak düşük hızda ve \"pasif\" olarak kullanılırlar; kanal içerisinde sıkıştıkları noktada şekillendirmeyi yapıp geri çıkarılmalıdırlar. Sıkıştıkları yerin ötesine doğru \"zorlanarak ileri itilmeleri\" basamak oluşumuna, aletin kırılmasına veya lateral kök perforasyonuna (strip perforasyon) yol açacağı için kesinlikle yanlıştır. Daha derine inmek için bir küçük boy GG frezine geçilmelidir. Çeldiriciler: A) GG frezleri yalnızca kök kanalının koronal ve orta üçlüsünün düz kısımlarını genişletmek için kullanılır, asla apikal üçlüye girmemelidir. B) Eğimli kanallarda kurvatürün ötesine zorlanırsa perforasyon yapacağı için sadece kanalın düz kısımlarında kullanılmalıdır. C) Tekniğe göre (crown-down veya step-back) büyükten küçüğe ya da küçükten büyüğe doğru kademeli olarak kullanılabilirler. E) Konik bir form elde etmek için 1'den 6'ya doğru numaralandırılan aletler sırayla seri halde kullanılmalıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Endodontide el ile kullanılan standardize kanal aletlerinden 0,02 çap artışlı 25 numaralı K-file'ın D 16. çapı kaç mm'dir?",
+    "options": {
+      "A": "0,25",
+      "B": "0,41",
+      "C": "0,57",
+      "D": "1,05",
+      "E": "1,25"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): ISO standartlarına göre üretilen geleneksel el eğelerinin çalışan kesici kısmı 16 mm uzunluğundadır ve koniklik açısı (taper) 0.02'dir; yani aletin çapı uç noktadan (D0) sapa doğru her 1 mm'de 0.02 mm kalınlaşır. 25 numaralı eğenin en uç çapı (D0) 0.25 mm'dir. D16 noktasındaki çapı: D16 = D0 + (16 x 0.02) = 0.25 + 0.32 = \"0,57 mm\" olarak hesaplanır. Çeldiriciler: A) 0,25 mm aletin D16 değil, en uçtaki D0 çapıdır. B) 0,41 mm aletin D8 noktasındaki çapıdır (veya 0.01 taper ile yanlış hesaplamadır). D) 1,05 mm, 0.05 taperlı bir aletin D16 çapına karşılık gelir. E) 1,25 mm hatalı bir çarpım sonucudur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON",
+    "flag_reason": "2015 DUS Orijinal"
+  },
+  {
+    "question": "ISO standartlarındaki 25 numaralı bir gutta perkanın ucundan 16 mm kesildiğinde oluşan gutta perkanın uç çapı kaç mm olur?",
+    "options": {
+      "A": "0,25",
+      "B": "0,41",
+      "C": "0,57",
+      "D": "1,05",
+      "E": "1,25"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): ISO standartlarındaki gutta-perka konları da kanal eğeleriyle aynı kalibrasyonda üretilir; yani uç çapları (D0) numaralarını verir ve her 1 mm'de 0.02 mm kalınlaşırlar (%2 taper). 25 numaralı gutta-perkanın D0 çapı 0.25 mm'dir; ucundan 16 mm kesildiğinde yeni uç nokta eski D16 noktası olur: 0.25 + (16 x 0.02) = 0.25 + 0.32 = \"0,57 mm\"dir. Çeldiriciler: A) 0,25 mm kesilmeden önceki D0 çapıdır. B) 0,41 mm ucundan 8 mm kesildiğinde oluşan çaptır. D) 1,05 mm yanlış koniklik hesabıdır. E) 1,25 mm hatalı hesaplamadır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Ucundan 5 mm kesildiğinde çapı 0.40 mm olan ISO standartlarındaki K tipi eğe hangisidir?",
+    "options": {
+      "A": "10",
+      "B": "15",
+      "C": "25",
+      "D": "30",
+      "E": "35"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): ISO standartlarındaki K tipi eğelerin koniklik açısı 0.02'dir (her 1 mm'de 0.02 mm kalınlaşır). Aletin ucundan 5 mm kesildiğinde (yani D5 noktasında) çap 5 x 0.02 = 0.10 mm artmış demektir. D5 çapı 0.40 mm olduğuna göre; D0 + (5 x 0.02) = 0.40 formülünden D0 = 0.40 - 0.10 = 0.30 mm bulunur. Uç çapı (D0) 0.30 mm olan alet \"30 numaralı\" K tipi eğedir. Çeldiriciler: A) 10 numaralı eğenin D5 çapı 0.20 mm olur. B) 15 numaralı eğenin D5 çapı 0.25 mm olur. C) 25 numaralı eğenin D5 çapı 0.35 mm olur. E) 35 numaralı eğenin D5 çapı 0.45 mm olur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "ISO standartlarına göre üretilmiş 20 numaralı 0,02 koniklik açısına sahip bir kanal eğesinin uç çapı (D0) ve çalışan son kısmının çapı (D16) aşağıdakilerden hangisinde verilmiştir?",
+    "options": {
+      "A": "D0: 0,20 mm, D16: 0,36 mm",
+      "B": "D0: 0,20 mm, D16: 0,52 mm",
+      "C": "D0: 0,02 mm, D16: 0,18 mm",
+      "D": "D0: 0,02 mm, D16: 0,34 mm",
+      "E": "D0: 0,20 mm, D16: 0,32 mm"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): 20 numaralı bir kanal eğesinin en uç çapı (D0), numarasının yüzdebiri olan \"0,20 mm\"dir. Çalışan kesici kısım 16 mm uzunluğunda olduğu ve her 1 mm'de 0,02 mm kalınlaştığı için çalışan kısmın sonundaki çap (D16): 0,20 + (16 x 0,02) = 0,20 + 0,32 = \"0,52 mm\"dir. Çeldiriciler: A) D16 çapı 0,01 koniklik açısına göre (0,20 + 0,16 = 0,36) yanlış hesaplanmıştır. C) D0 çapı 0,02 mm olarak hatalı verilmiştir. D) D0 çapı 0,02 mm olarak hatalı alınmıştır (0,02 + 0,32 = 0,34). E) 0,32 mm sadece 16 mm'deki çap artışı miktarıdır, D0 çapı olan 0,20 mm eklenmemiştir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "ISO standartlarına göre üretilmiş geleneksel 20 numaralı bir K tipi eğenin en uç ve çalışan kısmının sonlandığı noktadaki çapları hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "D0: 0,20 mm, D16: 0,36 mm",
+      "B": "D0: 0,20 mm, D16: 0,52 mm",
+      "C": "D0: 0,02 mm, D16: 0,18 mm",
+      "D": "D0: 0,02 mm, D16: 0,34 mm",
+      "E": "D0: 0,20 mm, D16: 0,32 mm"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): ISO standartlarındaki geleneksel K tipi el eğeleri sabit %2 (0,02 mm/mm) koniklik açısına ve 16 mm kesici yüzey uzunluğuna sahiptir. 20 numaralı eğenin en uç çapı D0 = 0,20 mm, çalışan kısmının sonlandığı D16 noktasındaki çapı ise 0,20 + (16 x 0,02) = \"0,52 mm\"dir. Çeldiriciler: A) D16 değeri %1 koniklikle hatalı hesaplanmıştır. C) D0 ve D16 değerleri tamamen yanlıştır. D) D0 değeri koniklik açısı olan 0,02 ile karıştırılmıştır. E) D16 değerine D0 çapı eklenmemiştir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "0.04 taperlı 40 numaralı gutta perkanın ucundan 2 mm kesildiğinde D0 noktası kaç mm olur?",
+    "options": {
+      "A": "0.44 mm",
+      "B": "0.42 mm",
+      "C": "0.48 mm",
+      "D": "0.52 mm",
+      "E": "0.64 mm"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): 40 numaralı gutta-perkanın başlangıçtaki en uç çapı (D0) 0.40 mm'dir. Koniklik açısı (taper) 0.04 olduğu için kon her 1 mm'de 0.04 mm kalınlaşmaktadır. Ucundan 2 mm kesildiğinde çap 2 x 0.04 = 0.08 mm artar; dolayısıyla yeni D0 noktası: 0.40 + 0.08 = \"0.48 mm\" olur. Çeldiriciler: A) 0.44 mm, 0.02 taperlı konun 2 mm kesilmesiyle (veya 0.04 taperın 1 mm kesilmesiyle) oluşur. B) 0.42 mm, 0.01 taper ile 2 mm kesildiğinde oluşur. D) 0.52 mm, 3 mm kesildiğinde oluşur. E) 0.64 mm, 6 mm kesildiğinde oluşur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde 110-120-130-140 numaralı kanal eğelerinin renk kodları doğru sırada verilmiştir?",
+    "options": {
+      "A": "Sarı-Mavi-Yeşil-Siyah",
+      "B": "Mavi-Yeşil-Siyah-Beyaz",
+      "C": "Kırmızı-Mavi-Yeşil-Siyah",
+      "D": "Beyaz-Sarı-Mavi-Yeşil",
+      "E": "Yeşil-Siyah-Beyaz-Sarı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): ISO/ANSI standartlarına göre kanal eğelerinin renk kodları 15 numaradan başlayarak \"Beyaz - Sarı - Kırmızı - Mavi - Yeşil - Siyah\" döngüsüyle tekrarlanır (15-45-90: Beyaz, 20-50-100: Sarı, 25-55-110: Kırmızı, 30-60-120: Mavi, 35-70-130: Yeşil, 40-80-140: Siyah). Buna göre 110 (Kırmızı), 120 (Mavi), 130 (Yeşil) ve 140 (Siyah) numaralı eğelerin renk sıralaması \"Kırmızı-Mavi-Yeşil-Siyah\"tır. Çeldiriciler: A) Sarı 100 numaradır, arada Kırmızı (110) atlanmıştır. B) Mavi-Yeşil-Siyah-Beyaz sıralaması 60-70-80-90 numaralı eğelere aittir. D) Arada Kırmızı renk kodu atlanmıştır. E) Yeşil-Siyah-Beyaz-Sarı sıralaması 70-80-90-100 numaralı eğelere aittir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıdaki eğe numarası sıralamalarından hangisinin renk kodları kırmızı-mavi-yeşil olarak sıralanır?",
+    "options": {
+      "A": "110-120-130",
+      "B": "100-110-120",
+      "C": "90-100-110",
+      "D": "80-90-100",
+      "E": "70-80-90"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Standart \"Beyaz-Sarı-Kırmızı-Mavi-Yeşil-Siyah\" renk döngüsünde 90 numara Beyaz, 100 numara Sarı olduğundan; 110 numara Kırmızı, 120 numara Mavi ve 130 numara Yeşil renge karşılık gelir. Dolayısıyla kırmızı-mavi-yeşil dizilimi \"110-120-130\" numaralı eğelere (ve ayrıca 25-30-35 ile 55-60-70 serilerine) aittir. Çeldiriciler: B) 100-110-120 sıralaması Sarı-Kırmızı-Mavi şeklindedir. C) 90-100-110 sıralaması Beyaz-Sarı-Kırmızı şeklindedir. D) 80-90-100 sıralaması Siyah-Beyaz-Sarı şeklindedir. E) 70-80-90 sıralaması Yeşil-Siyah-Beyaz şeklindedir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıdaki kanal eğesi sıralamalarından hangisinin renk kodu sıralaması uyumsuzdur?",
+    "options": {
+      "A": "15-45-90",
+      "B": "20-50-100",
+      "C": "25-55-110",
+      "D": "30-60-120",
+      "E": "40-80-130"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): ISO renk kodlamasında 40 ve 80 numaralı eğeler \"Siyah\" renk koduna sahipken, üçüncü seride siyah renge karşılık gelen eğe 130 değil, 140 numaralı eğedir; 130 numaralı eğenin rengi \"Yeşil\"dir (35-70-130: Yeşil, 40-80-140: Siyah). Bu nedenle 40-80-130 eşleştirmesi renk kodu açısından uyumsuzdur. Çeldiriciler: A) 15-45-90 numaralı eğelerin tamamı Beyaz renk kodludur. B) 20-50-100 numaralı eğelerin tamamı Sarı renk kodludur. C) 25-55-110 numaralı eğelerin tamamı Kırmızı renk kodludur. D) 30-60-120 numaralı eğelerin tamamı Mavi renk kodludur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Kanal eğesinin kesici köşesi ile uzun aksı arasında oluşan açı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kesme açısı",
+      "B": "Heliks açısı",
+      "C": "Rake açısı",
+      "D": "Oryantasyon açısı",
+      "E": "Oluk açısı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kanal eğesinin gövdesini helezon (spiral) şeklinde saran kesici kenarının (köşesinin) aletin uzun aksı ile yaptığı açıya \"heliks açısı\" adı verilir. Eğenin spiral (yiv) sayısı arttıkça heliks açısı da büyür ve bu açı aletin kanal içinde hangi hareketle (rotasyon mu yoksa çekme/eğeleme mi) kullanılacağını belirler. Çeldiriciler: A) Kesme açısı, eğenin yatay kesitinde kesici kenarı ile dentine temas ettiği noktadan geçen teğet arasındaki açıdır ve kesicilik etkinliğini belirler. C) Rake açısı, eğenin uzun aksına dik yatay kesitinde, kesici kenarın dentine temas eden noktasından merkeze çizilen yarıçap ile kesici yüzeyin yaptığı açıdır. D) Oryantasyon açısı standart endodontik eğe geometrisi parametrelerinden biri değildir. E) Oluk (yiv) açısı bıçaklar arasındaki yivin iç açısıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Kanal aletlerinin aşağıdaki özelliklerinden hangisi, preparasyon sırasında eğenin hangi hareketle kullanılacağını belirler?",
+    "options": {
+      "A": "Kesme açısı",
+      "B": "Heliks açısı",
+      "C": "Rake açısı",
+      "D": "Oryantasyon açısı",
+      "E": "Oluk açısı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Heliks açısı (kesici kenarın uzun aksla yaptığı açı), kanal aletinin preparasyon sırasında hangi kinematik hareketle kullanılacağını belirleyen temel geometrik özelliktir. Heliks açısı 45 dereceden küçük olan aletler (örneğin Reamer, K-file) çevirme (rotasyon) ve eğeleme hareketiyle kullanılırken; heliks açısı 60-65 derece gibi büyük olan aletler (örneğin H-tipi / Hedström eğeler) sadece \"çekme (iklimleme)\" hareketi ile kullanılır (döndürülürse dentine vidalanıp kırılırlar). Çeldiriciler: A) Kesme açısı aletin dentini kazıma mı yoksa kesme mi yapacağını ve kesicilik verimini belirler. C) Rake açısı pozitif, nötr veya negatif olmasına göre bıçağın kesicilik agresifliğini belirler. D) Oryantasyon açısı eğe kinematiğini belirleyen bir açı değildir. E) Oluk açısı debris taşınma kapasitesiyle ilişkilidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Eğenin uzun aksına dik olacak şekilde yatay kesiti alındığında, kesici kenarın, eğenin dentine temas eden noktasından geçen yarıçapı ile yaptığı açı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kesme açısı",
+      "B": "Heliks açısı",
+      "C": "Rake açısı",
+      "D": "Koniklik açısı",
+      "E": "Yiv açısı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kanal eğesinin uzun aksına dik yatay kesiti (enine kesiti) alındığında; bıçağın öncü kesici kenarı ile bu kenarın dentine temas ettiği noktadan aletin merkezine indirilen dikme (yarıçap) arasında oluşan açıya \"rake açısı\" denir. Kesici yüzey yarıçapın önünde ise pozitif rake açısı (kesme yapar, örn: H-eğesi), gerisinde ise negatif rake açısı (kazıma yapar, örn: K-eğesi ve çoğu NiTi döner eğe) adını alır. Çeldiriciler: A) Kesme açısı, kesici kenar ile dentin yüzeyine çizilen teğet arasındaki açıdır. B) Heliks açısı, uzunlamasına görünümde kesici kenar ile aletin uzun aksı arasındaki açıdır. D) Koniklik açısı (taper), aletin gövde çapının uçtan sapa doğru birim mesafedeki kalınlaşma oranıdır. E) Yiv açısı, kesici bıçaklar arasındaki oluğun açısıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, kök kanalı şekillendirme tekniklerinden biri değildir?",
+    "options": {
+      "A": "Dengeli kuvvet tekniği",
+      "B": "Standardize teknik",
+      "C": "Aktif step-up tekniği",
+      "D": "Step-back tekniği",
+      "E": "Crown-down tekniği"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Endodonti literatüründe kök kanallarının mekanik şekillendirilmesinde kullanılan apiko-koronal veya korono-apikal birçok teknik tanımlanmış olup \"aktif step-up tekniği\" adında bir kök kanalı şekillendirme yöntemi bulunmamaktadır. Çeldiriciler: A) Dengeli kuvvet (balanced force) tekniği, Roane tarafından geliştirilen ve saat yönü/saat yönü tersi rotasyonlarla eğimli kanalları merkezde kalarak şekillendiren tekniktir. B) Standardize teknik (Ingle), tüm eğelerin aynı çalışma boyunda kullanıldığı apiko-koronal tekniktir. D) Step-back (teleskopik) tekniği, apikal üçlü şekillendirildikten sonra her bir büyük eğenin çalışma boyundan 0.5-1 mm geri çekilerek kullanıldığı apiko-koronal tekniktir. E) Crown-down (basınçsız) tekniği, şekillendirmeye koronal üçlüden başlanıp adım adım apikale doğru inilen korono-apikal yöntemdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "I. Aktif step-up\nII. Crown-down\nIII. Dengeli kuvvet tekniği\nIV. Standardize teknik\nYukarıda verilenlerden hangileri kök kanal şekillendirme tekniklerindendir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "III ve IV",
+      "D": "I, II ve III",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kök kanal şekillendirme yöntemleri apikalden koronale veya koronalden apikale doğru uygulanan standart protokollerdir. Öncüllerin Analizi: I. Aktif step-up adında bir kanal şekillendirme tekniği yoktur (Yanlış). II. Crown-down tekniği, koronalden apikale doğru uygulanan temel şekillendirme yöntemidir (Doğru). III. Dengeli kuvvet (balanced force) tekniği, özellikle eğri kanallarda kullanılan şekillendirme tekniğidir (Doğru). IV. Standardize teknik, tüm aletlerin tam çalışma boyunda kullanıldığı klasik şekillendirme yöntemidir (Doğru). Çeldiriciler: A) I. öncül uydurma bir terimdir. B) IV. öncül de doğru olduğu için eksiktir. C) II. öncül de doğru olduğu için eksiktir. D) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi kök kanal preparasyonuna koronalden başlamanın avantajlarından değildir?",
+    "options": {
+      "A": "İrrigasyon ajanlarını uygulamak kolaylaşır.",
+      "B": "Kök dışına debris taşma riski azalır.",
+      "C": "Apikal kontrol artar.",
+      "D": "Basamak yapma riski yoktur.",
+      "E": "Koronal kısımdaki düzensizlikler yok edilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök kanal preparasyonuna koronalden başlanan (crown-down) yöntemlerde kalın ve rijit aletlerle koronalden apikale doğru inilirken, özellikle eğimli veya dar kanallarda aşırı apikal basınç uygulanırsa \"basamak (ledge) yapma\", kanal tıkanması veya perforasyon oluşturma riski vardır; \"basamak yapma riski yoktur\" ifadesi yanlıştır. Çeldiriciler: A) Koronal ve orta üçlünün önceden genişletilmesi irrigasyon iğnesinin derine penetrasyonunu kolaylaştırır ve solüsyonlar için rezervuar oluşturur. B) Enfekte pulpa ve debris apikal üçlüye inilmeden önce koronalden kademeli olarak uzaklaştırıldığı için apikalden debris taşma (ve flare-up) riski belirgin şekilde azalır. C) Koronaldeki dentin engelleri kaldırıldığı için eğe kanalda sıkışmaz; hekimin apikal üçlüdeki dokunsal hassasiyeti ve apikal kontrolü artar. E) Koronal kısımdaki dentin çıkıntıları ve düzensizlikler baştan ortadan kaldırılarak apikale düz bir giriş yolu sağlanır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "I. Standart genişletme yöntemi\nII. Step-back yöntemi\nIII. Step-down yöntemi\nIV. Crown-down yöntemi\nYukarıdaki belirtilen kök kanal preparasyon yöntemlerinden hangileri koronalden apikale doğru uygulanır?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "II ve IV",
+      "D": "I ve III",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kök kanal şekillendirme yöntemleri uygulama yönüne göre apikalden koronale ve koronalden apikale olmak üzere ikiye ayrılır. Öncüllerin Analizi: I. Standart genişletme yöntemi apikalden koronale doğru (tüm eğeler tam çalışma boyunda) uygulanır (Yanlış). II. Step-back yöntemi apikalden başlayıp kademeli olarak koronale doğru geri çekilerek uygulanır (Yanlış). III. Step-down (Goerig) yöntemi, önce koronal ve orta üçlünün genişletilip ardından apikale inildiği koronalden apikale bir yöntemdir (Doğru). IV. Crown-down (basınçsız) yöntemi, koronalden başlayıp adım adım apikale doğru ilerlenen temel korono-apikal yöntemdir (Doğru). Çeldiriciler: A) I ve II. öncüller apikalden koronale uygulanır. C) II. öncül apikalden koronale uygulanır. D) I. öncül yanlıştır. E) I ve II. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "I. Standart genişletme yöntemi\nII. Step-back yöntemi\nIII. Step-down yöntemi\nIV. Crown-down yöntemi\nYukarıdaki belirtilen kök kanal preparasyon yöntemlerinden hangileri apikalden debris taşması açısından diğerlerine göre daha güvenlidir?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "II ve IV",
+      "D": "I ve III",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Bakteri ve nekrotik debris yükünün en yoğun olduğu bölge kök kanalının koronal ve orta üçlüsüdür. Preparasyona koronalden başlanan yöntemlerde bu enfekte içerik henüz apikale inilmeden temizlendiği için apikal foramenden periapikal dokulara debris taşması (ekstrüzyonu) çok daha azdır. Öncüllerin Analizi: I. Standart genişletmede eğeler doğrudan apikale gönderildiği için piston etkisiyle apikalden debris taşma riski yüksektir (Yanlış). II. Step-back yönteminde başlangıçta doğrudan apikal üçlüde çalışıldığı için debris taşma riski fazladır (Yanlış). III. Step-down yönteminde önce koronal kısım temizlendiği için apikalden debris taşması açısından güvenlidir (Doğru). IV. Crown-down yönteminde koronalden apikale inildiği ve apikal en son genişletildiği için debris taşması açısından en güvenli yöntemdir (Doğru). Çeldiriciler: A) I ve II. yöntemlerde debris taşma riski yüksektir. C) II. öncül yanlıştır. D) I. öncül yanlıştır. E) I ve II. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi step-back yöntemi ile karşılaştırıldığında crown-down tekniğinin avantajlarından değildir?",
+    "options": {
+      "A": "Eğri kanallarda basamak riski azalır.",
+      "B": "Alet kırılma riski azalır.",
+      "C": "Taper lock-etkisi azalır.",
+      "D": "Apikalden debris taşma riski azalır.",
+      "E": "Post-operatif ağrı riski azalır."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Step-back yöntemiyle karşılaştırıldığında crown-down tekniğinde büyük/kalın numaralı eğelerden küçük numaralı eğelere doğru apikale ilerlenir; bu sırada kalın ve esnekliği az olan aletlerin eğimli kanal duvarına takılması nedeniyle \"basamak (ledge) oluşturma riski\" azalmaz, aksine crown-down tekniğinin en önemli dezavantajlarından biri olarak basamak yapma riski vardır. Çeldiriciler: B) Koronal darlıklar önceden açıldığı için eğenin gövdesine binen torsiyonel stres ve alet kırılma riski azalır. C) Eğenin tüm kanal boyunca sıkışması (taper-lock / vidalanma etkisi) koronal genişletme sayesinde azalır. D) Koronaldeki enfekte doku önce uzaklaştırıldığı için apikalden debris taşma riski azalır. E) Apikalden periapikale daha az bakteri ve debris taştığı için flare-up ve postoperatif ağrı riski azalır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Kök kanalı genişletme tekniklerinden biri olan dengeli kuvvet (balanced force) tekniğinin ikinci basamağı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Eğe basınç uygulamadan saat yönünde 360° döndürülür.",
+      "B": "Basınç uygulamadan kanala yerleştirilen eğe, hafif apikal baskı ile saat yönünde 90° döndürülür.",
+      "C": "Yeterli apikal baskı ile eğe saat yönünün tersine 180-270° döndürülür.",
+      "D": "Eğe apikale doğru biraz daha basınç ile saat yönünde 180° döndürülür.",
+      "E": "Eğe saat yönünün tersine 90°'lik açı ile hareket ettirilip ardından saat yönünde 180° döndürülür."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Roane tarafından geliştirilen dengeli kuvvet (balanced force) tekniği, üçgen kesitli ve kesici olmayan (Batt/pasif) uçlu K-tipi eğelerle (Flex-R) uygulanan 3 (veya 4) aşamalı bir tekniktir: 1. Basamakta (Yerleştirme) kanala pasif giren eğe basınçsız olarak saat yönünde 90° döndürülerek bıçaklar dentine angaje edilir; \"2. Basamakta (Kesme)\" ise eğenin apikalden geri çıkmasını önleyecek yeterli \"apikal (aksiyel) baskı\" uygulanarak eğe \"saat yönünün tersine 180-270° (en az 120°)\" döndürülür ve karakteristik bir klik sesiyle dentin kesilir; 3. ve 4. Basamakta (Temizleme/Çıkarma) ise tekrar saat yönünde 90° basınçsız rotasyon ve 360-720° rotasyonla debris yüklenerek eğe kanaldan çıkarılır. Çeldiriciler: A) Saat yönünde 360-720° döndürme son (çıkarma) basamağıdır. B) Saat yönünde 90° döndürme tekniğin 2. değil, 1. basamağıdır. D) Saat yönünde 180° basınçlı döndürme eğeyi dentine vidalayıp kırar, teknikte yeri yoktur. E) Açılar ve yönler tamamen ters verilmiştir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON",
+    "flag_reason": "2019 DUS Orijinal"
+  },
+  {
+    "question": "Basınç uygulamadan kanala yerleştirilen eğenin, hafif bir apikal baskı ile saat yönünün tersine 180°-270° döndürülmesi dengeli kuvvet tekniğinin hangi basamağıdır?",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4",
+      "E": "5"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dengeli kuvvet (balanced force) tekniğinde 1. basamakta saat yönünde 90° döndürülerek dentine tutturulan eğenin, aksiyel (apikal) baskı altında \"saat yönünün tersine 180°-270° döndürülerek\" dentin duvarlarını kestiği aşama tekniğin \"2. basamağı\"dır (kesme fazı). Çeldiriciler: A) 1. basamak eğenin saat yönünde 90° basınçsız döndürüldüğü yerleştirme fazıdır. C) 3. basamak kesilen dentini toplamak için yapılan saat yönünde 90° basınçsız rotasyondur. D) 4. basamak eğenin saat yönünde 360-720° döndürülerek kanaldan çıkarılmasıdır. E) Teknikte 5. basamak bulunmamaktadır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Balanced force (dengeli kuvvet) tekniğinin hangi aşamalarında basınç uygulanır?",
+    "options": {
+      "A": "Yalnız 1",
+      "B": "Yalnız 2",
+      "C": "1 ve 3",
+      "D": "2 ve 4",
+      "E": "3 ve 4"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Balanced force (dengeli kuvvet) tekniğinin dört aşamasından yalnızca dentinin kesildiği \"2. aşamada\" (eğe saat yönünün tersine 180-270° döndürülürken aletin koronale doğru boşa çıkmasını engellemek amacıyla) kontrollü aksiyel (apikal) basınç uygulanır. 1. ve 3. aşamalarda (saat yönünde 90° rotasyon) ve 4. aşamada (çıkarma) basınç uygulanmaz; saat yönünde basınç uygulanması aletin dentine vidalanıp kırılmasına yol açar. Çeldiriciler: A) 1. aşama basınçsız saat yönünde 90° rotasyondur. C) 1. ve 3. aşamalarda kesinlikle basınç uygulanmaz. D) 4. aşama çıkarma aşaması olup apikal basınç uygulanmaz. E) 3. ve 4. aşamalarda basınç yoktur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Kök kanal şekillendirilmesinde kullanılan antikurvatür tekniğini aşağıdakilerden hangisi tanımlar?",
+    "options": {
+      "A": "Kanal eğesine eğim verilmeden şekillendirme yapılması",
+      "B": "Kök kanalında apikalden koronale doğru genişleyen şekillendirme yapılması",
+      "C": "Kök kanalının her duvarında eşit miktarda dentin kaldırılması",
+      "D": "Eğimli kanallarda kökün ince dentin duvarlı bölgelerinden daha az miktarda dentin kaldırılması",
+      "E": "Standart preparasyon yapılması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Abou-Rass tarafından tanımlanan \"antikurvatür (eğriliğin tersi yönünde) eğeleme tekniği\"; eğimli kök kanallarında furkasyona bakan iç duvarın (tehlike bölgesi / danger zone) çok ince olması nedeniyle strip (lateral) perforasyon gelişmesini önlemek amacıyla, eğeleme kuvvetinin kurvatürün iç duvarından uzaklaştırılıp daha kalın olan dış duvarına (güvenli bölge / safety zone) yönlendirilmesi, yani kökün ince dentin duvarlı bölgelerinden daha az miktarda dentin kaldırılması işlemidir. Çeldiriciler: A) Eğimli kanallarda eğeye ön eğim (precurving) verilmemesi basamak ve perforasyona yol açar. B) Apikalden koronale genişleyen şekillendirme \"step-back / flaring\" olarak adlandırılır. C) Eğimli kanalda her duvardan eşit dentin kaldırılması ince olan furkal duvarın perfore olmasına (strip perforasyona) neden olur. E) Standart preparasyon tüm eğelerin aynı boyda çevresel kullanılmasıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "I. Antikurvatür tekniği\nII. Rekapitülasyon\nIII. Back up preparasyon\nYukarıda verilenlerden hangisi veya hangileri özellikle eğimli kanallarda lateral perforasyonu önlemek amacıyla yapılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Eğimli molar köklerinde furkasyona komşu içbükey duvarlar (danger zone) oldukça incedir ve bu bölgenin aşırı eğelenmesiyle oluşan yan delinmelere strip (lateral) perforasyon denir. Öncüllerin Analizi: I. Antikurvatür tekniği, eğeleme baskısını ince olan furkasyon duvarından kalın olan dış duvara yönlendirerek doğrudan strip-lateral perforasyonu önlemek amacıyla yapılır (Doğru). II. Rekapitülasyon, şekillendirme sırasında büyüyen her eğeden sonra küçük numaralı başlangıç eğesine (patensi/ana eğeye) geri dönülerek kanalda biriken dentin talaşlarının (debrisin) uzaklaştırılması ve basamak/tıkanma oluşumunun önlenmesi işlemidir (Yanlış). III. Back-up preparasyon, apikal tıkanma veya daralma sonrası çalışma boyunda apikal stop oluşturmak için yapılan genişletmedir (Yanlış). Çeldiriciler: B) Rekapitülasyon debris tıkanmasını ve basamağı önler. C) III. öncül apikal stop ile ilgilidir. D) II. öncül lateral perforasyonu önleme tekniği değildir. E) II ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "I. Tek boy tekniği\nII. Standardize preparasyon\nIII. Step-down tekniği\nYukarıda verilenlerden hangisi veya hangilerinde kanalın son şeklini kanalda kullanılan son eğe belirler?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Bir kök kanalının nihai (son) şeklini kullanılan en son eğenin belirleyebilmesi için, o teknikte kullanılan tüm eğelerin aynı çalışma boyunda (apikal daralıma kadar) çalışması ve geri çekme (step-back) veya kademeli koronal genişletme yapılmaması gerekir. Öncüllerin Analizi: I. Tek boy (single-length) tekniğinde (örneğin Mtwo, ProTaper gibi döner sistemlerde) giderek artan koniklik ve çaptaki tüm eğeler tam çalışma boyunda kullanılır ve kanalın son şeklini son kullanılan eğe (anahtar-kilit uyumuyla) belirler (Doğru). II. Standardize preparasyon tekniğinde tüm el eğeleri tam çalışma boyunda kullanıldığı için kanalın son şeklini ve çapını kullanılan son eğe (MAF) belirler (Doğru). III. Step-down (veya crown-down/step-back) tekniğinde farklı eğeler kanalın farklı derinliklerinde (koronal, orta, apikal) çalıştığı için kanal birleşik bir huni formu alır ve son şekli sadece apikale inen son ince eğe belirlemez (Yanlış). Çeldiriciler: A) II. öncül de doğrudur. B) I. öncül de doğrudur. C) Step-down tekniğinde her eğe farklı boyda çalışır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "I. Koniklik miktarları\nII. D5'teki çapları\nIII. Rake açıları\nAynı numaraya sahip ISO standartlarındaki bir K-tipi eğe ile H-tipi (Hedström) eğenin, yukarıdaki özelliklerinden hangileri farklıdır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): ISO standartlarına göre üretilmiş aynı numaralı iki farklı el eğesi (örneğin K-tipi eğe ve H-tipi Hedström eğe) boyutsal kalibrasyon açısından tamamen aynı standartlara tabidir, ancak üretim yöntemleri ve bıçak geometrileri birbirinden farklıdır. Öncüllerin Analizi: I. ISO standartlarındaki tüm geleneksel el eğelerinin koniklik miktarları (taper) sabittir ve aynıdır (%2 yani 0.02 mm/mm) (Aynı). II. İki eğe aynı numarada olduğu için D0 çapları ve koniklikleri aynıdır; dolayısıyla D5, D8, D16 gibi tüm seviyelerdeki çapları da birebir aynıdır (Aynı). III. Kare/üçgen telin bükülmesiyle üretilen K-tipi eğenin rake açısı \"negatif\" iken, yuvarlak telin tornalanmasıyla üretilen H-tipi eğenin rake açısı \"pozitif\"tir ve çok daha keskindir; dolayısıyla rake açıları farklıdır (Farklı). Çeldiriciler: A) Koniklik miktarları (%2) aynıdır. B) D5 çapları aynıdır. D) I ve II. özellikler her iki eğede de aynıdır. E) II. özellik aynıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aynı numaraya sahip ISO standartlarındaki bir K-tipi eğe ile H-tipi eğenin, aynı ve farklı özellikleri hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "Taper dereceleri: Aynı – D5 teki çapları: Aynı – Rake açıları: Aynı",
+      "B": "Taper dereceleri: Farklı – D5 teki çapları: Farklı – Rake açıları: Farklı",
+      "C": "Taper dereceleri: Aynı – D5 teki çapları: Farklı – Rake açıları: Aynı",
+      "D": "Taper dereceleri: Aynı – D5 teki çapları: Aynı – Rake açıları: Farklı",
+      "E": "Taper dereceleri: Farklı – D5 teki çapları: Farklı – Rake açıları: Aynı"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): ISO standartlarına göre üretilen aynı numaralı K-tipi ve H-tipi eğelerin \"taper (koniklik) dereceleri\" (%2) \"Aynı\"dır; başlangıç çapları (D0) ve koniklikleri eşit olduğundan \"D5 noktasındaki çapları\" da \"Aynı\"dır; ancak kesici bıçak dizaynları nedeniyle \"rake açıları\" (K-tipi negatif, H-tipi pozitif) birbirinden \"Farklı\"dır. Çeldiriciler: A) Rake açıları aynı değil farklıdır. B) Taper dereceleri ve D5 çapları farklı değil aynıdır. C) D5 çapları aynı, rake açıları farklı olmalıdır. E) Tüm eşleştirmeler ters verilmiştir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ISO standartlarındaki bir K tipi eğe için yanlıştır?",
+    "options": {
+      "A": "Koniklik açısı %2 dir.",
+      "B": "30 numaralı K tipi eğeyi bir boy büyütmek için ucundan 2.5 mm kesilmelidir.",
+      "C": "D0 noktasındaki çapı 0.30 mm'dir.",
+      "D": "Kesici kenarların bittiği noktadaki çapı 0,62 mm'dir.",
+      "E": "Rake açısı pozitiftir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): ISO standartlarındaki K-tipi eğeler (ve Reamer'lar ile çoğu NiTi döner eğe) \"negatif\" rake açısına sahiptir ve kazıma hareketi yaparlar. \"Pozitif\" rake açısına sahip olan geleneksel el eğesi H-tipi (Hedström) eğedir. Çeldiriciler: A) ISO standartlarındaki el eğelerinin koniklik açısı (taper) sabit olup %2'dir (her 1 mm'de 0.02 mm artış). B) 30 numaralı eğeyi bir üst boy olan 35 numaralı eğeye (0.35 mm uç çapına) getirmek için çapın 0.05 mm artması gerekir; her 1 mm'de 0.02 mm arttığına göre ucundan 0.05 / 0.02 = 2.5 mm kesilmelidir. C) 30 numaralı eğenin en uçtaki (D0) çapı 0.30 mm'dir. D) Kesici kenarların bittiği D16 noktasındaki çapı: 0.30 + (16 x 0.02) = 0.30 + 0.32 = 0,62 mm'dir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "I. Eğelerin sap kısımlarının renkleri\nII. Eğelerin yatay kesitleri\nIII. Eğelerin koniklik miktarları\nIV. Eğelerin uç çapları\nISO standartlarıyla yukarıdaki parametrelerden hangileri standartlaştırılmıştır?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "II, III ve IV",
+      "C": "I, II ve IV",
+      "D": "I, III ve IV",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Uluslararası Standartlar Organizasyonu (ISO), farklı üreticilerin kanal aletleri arasında boyutsal uyum sağlamak amacıyla renk kodlarını, uç çaplarını, kesici uzunluğu (16 mm) ve koniklik açısını standartlaştırmıştır; ancak aletlerin enine (yatay) kesit geometrilerini serbest bırakmıştır. Öncüllerin Analizi: I. Eğelerin sap kısımlarının renkleri (pembe, gri, mor ve beyazdan siyaha tekrarlayan döngü) uç çaplarını temsil edecek şekilde standartlaştırılmıştır (Doğru). II. Eğelerin yatay kesitleri (kare, üçgen, eşkenar dörtgen, gözyaşı damlası/virgül, S-kesit vb.) aletin tipine ve esnekliğine göre değişir, ISO tarafından tek tipte standartlaştırılmamıştır (Yanlış). III. Eğelerin koniklik miktarları her 1 mm'de 0.02 mm artış (%2 taper) olarak standartlaştırılmıştır (Doğru). IV. Eğelerin uç çapları (D0) alet numarasına karşılık gelecek şekilde standartlaştırılmıştır (Doğru). Çeldiriciler: A) II. öncül standartlaştırılmamıştır. B) II. öncül yanlıştır. C) II. öncül yanlıştır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıda verilen özelliklerden hangisi kök kanal eğelerinde ISO standartları ile standardize edilmemiştir?",
+    "options": {
+      "A": "Eğelerin sap kısımlarının renkleri",
+      "B": "Eğelerin uç çapları",
+      "C": "Eğelerin koniklik miktarları",
+      "D": "Eğelerin yatay kesitleri",
+      "E": "Eğelerin taper dereceleri"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök kanal eğelerinin \"yatay (enine) kesitleri\", aletin kullanım amacına ve tipine (K-file kare/üçgen, K-Flex eşkenar dörtgen, H-file virgül/yuvarlak vb.) göre farklılık gösterir ve ISO standartları ile tek bir geometride standardize edilmemiştir. Çeldiriciler: A) Sap kısımlarının renkleri alet numarasına göre standardize edilmiştir. B) Eğelerin uç çapları (D0) standardize edilmiştir. C) Eğelerin koniklik miktarları (0.02 mm/mm) standardize edilmiştir. E) Taper dereceleri (koniklik ile eş anlamlıdır) %2 olarak standardize edilmiştir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "ISO standartlarına uygun olarak üretilen K ve H tipi eğelerin koniklik dereceleri hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "K tipi eğe: 0.02 – H tipi eğe: 0.02",
+      "B": "K tipi eğe: 0.04 – H tipi eğe: 0.02",
+      "C": "K tipi eğe: 0.02 – H tipi eğe: 0.01",
+      "D": "K tipi eğe: 0.01 – H tipi eğe: 0.03",
+      "E": "K tipi eğe: 0.05 – H tipi eğe: 0.01"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): ISO standartlarına uygun olarak üretilen tüm geleneksel el aletlerinin (Reamer, K-tipi eğe ve H-tipi Hedström eğe) koniklik (taper) dereceleri birbirinin aynısıdır ve her ikisi için de \"0.02\"dir (%2). Çeldiriciler: B) 0.04 taper NiTi döner eğelerde bulunur, ISO el eğelerinde 0.02'dir. C) H tipi eğenin konikliği de 0.02'dir. D) 0.01 ve 0.03 standart ISO koniklik değerleri değildir. E) 0.05 ve 0.01 standart ISO değerleri değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kök kanalı şekillendirmede kullanılan bir döner alet sistemi değildir?",
+    "options": {
+      "A": "Endosequence",
+      "B": "Self Adjusting file",
+      "C": "K3",
+      "D": "RaCE",
+      "E": "Sistem B"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Sistem B (System B)\", kök kanallarını şekillendirmede kullanılan bir eğe sistemi değildir; kök kanallarının doldurulmasında (obturasyonunda) gutta-perkayı kanal içerisinde ısıtarak yumuşatmaya ve devamlı ısı ile vertikal kompaksiyon (continuous wave of condensation) yapmaya yarayan termoplastik bir dolum cihazıdır. Çeldiriciler: A) Endosequence, alternatif temas noktalarına sahip elektro-polise yüzeyli bir NiTi döner eğe sistemidir. B) Self-Adjusting File (SAF), kanalın üç boyutlu oval/düzensiz şekline kendiliğinden uyum sağlayan ve içinden sürekli irrigasyon geçen kafes yapılı titreşimli/mekanik bir şekillendirme eğesidir. C) K3, asimetrik üçlü yiv ve radyal land tasarımına sahip bir NiTi döner eğe sistemidir. D) RaCE (Reamer with Alternating Cutting Edges), vidalanma etkisini önlemek için alternatif kesici kenarlara sahip bir NiTi döner eğe sistemidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi kök kanalının şeklini alarak çalışan ve aynı zamanda irrigasyona da izin veren şekillendirme sistemidir?",
+    "options": {
+      "A": "Self Adjusting File",
+      "B": "ProTaper",
+      "C": "Mtwo",
+      "D": "Reciproc",
+      "E": "WaveOne"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"Self-Adjusting File (SAF)\", içi boş, sıkıştırılabilir ince nikel-titanyum kafes (örgü) yapısında tasarlanmış özel bir şekillendirme sistemidir. Oval veya düzensiz kanallara yerleştirildiğinde genişleyerek kök kanalının üç boyutlu anatomik şeklini alır, titreşim hareketiyle duvarları aşındırır ve içi boş gövdesine bağlı silikon tüp aracılığıyla işlem boyunca \"eş zamanlı ve sürekli irrigasyona\" izin verir. Çeldiriciler: B) ProTaper, çoklu (değişken) koniklik açısına sahip katı gövdeli döner NiTi eğe sistemidir, içinden irrigasyon geçmez. C) Mtwo, S-kesitli ve tek boy tekniğiyle kullanılan katı gövdeli döner NiTi sistemidir. D) Reciproc, M-Wire alaşımlı ve resiprokasyon (ileri-geri) hareketiyle çalışan tek eğeli sistemdir. E) WaveOne, M-Wire alaşımlı ve resiprokasyon hareketiyle çalışan katı gövdeli NiTi eğe sistemidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Nikel titanyum döner enstrümanlarla preparasyon yapılması ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Döner enstrümanlar kullanılırken düşük basınç uygulanmalıdır.",
+      "B": "Ucu pasif olan döner enstrümanların kullanımı ile kanalda basamak oluşumu en aza indirilmeye çalışılır.",
+      "C": "Kanalda paslanmaz çelik eğelerle oluşturulan basamak döner aletlerle rahatlıkla aşılır.",
+      "D": "Dar ve eğimli kanallarda uzun süre kullanılmalarından sonra kırılabilirler.",
+      "E": "Döner enstrümanlarla preparasyon yapılmadan önce 20 nolu el aletine kadar çalışmak gerekir."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kök kanalında daha önceden oluşturulmuş bir basamak (ledge), süperelastik ve \"şekil hafızalı\" olan geleneksel NiTi döner aletlerle kesinlikle rahatlıkla aşılamaz. Çünkü basamağı geçebilmek için aletin ucuna kalıcı bir ön eğim (precurving) vermek ve yüksek dokunsal hassasiyetle basamağın yanından sıyrılmak gerekir; NiTi döner aletler büküldüğünde eski düz haline döner ve motorla döndüğü için basamağa takılarak basamağı derinleştirir veya kırılır. Basamaklar ancak ön eğim verilmiş ince paslanmaz çelik K-tipi el eğeleriyle aşılır. Çeldiriciler: A) Torsiyonel sıkışma ve kırılmayı önlemek için NiTi döner eğeler çok düşük apikal basınçla ve gagalama (pecking) hareketiyle kullanılmalıdır. B) Yuvarlatılmış, kesici olmayan (pasif) uçlu döner eğeler kanal duvarına saplanmaz, kanal merkezinde kalarak basamak ve perforasyon riskini minimize eder. D) Dar ve eğimli kanallarda uzun süre döndürülen NiTi eğeler, sürekli gerilme-sıkışma döngülerine bağlı \"fleksürel (döngüsel/siklik) yorgunluk\" nedeniyle hiçbir ön belirti vermeden kırılabilirler. E) Döner eğelerin kanalda güvenle ilerleyebilmesi için öncesinde 15-20 numaralı el eğelerine kadar bir rehber yol (glide path) oluşturulması şarttır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON",
+    "flag_reason": "2013 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "I. Düşük aksiyel basınçla kullanılmalılar.\nII. Basamak geçilmesinde etkilidir.\nIII. Glide-path hazırlanması kırılma riskini azaltır.\nYukarıda verilenlerden hangisi veya hangileri nikel titanyum döner enstrümanların için doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Nikel-titanyum (NiTi) döner eğeler yüksek esneklikleri sayesinde eğri kanalların şekillendirilmesinde büyük kolaylık sağlasa da torsiyonel ve siklik kırılma risklerine karşı belirli kurallarla kullanılmalıdır. Öncüllerin Analizi: I. Aletin kanalda sıkışıp torsiyonel yükle kırılmasını önlemek için her zaman düşük aksiyel (apikal) basınçla kullanılmalıdırlar (Doğru). II. Şekil hafızaları nedeniyle ön eğim tutmadıkları ve döner başlıkla dokunsal his kaybolduğu için basamak geçilmesinde etkili değildirler; basamak el eğeleriyle geçilir (Yanlış). III. Döner eğe kullanımından önce ince el eğeleriyle (15-20 no) engelsiz bir rehber giriş yolu (glide-path) hazırlanması, taper-lock etkisini ve alet kırılma riskini belirgin şekilde azaltır (Doğru). Çeldiriciler: A) III. öncül de doğrudur. B) II. öncül yanlıştır. C) II. öncül yanlıştır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "I. Amorf faz\nII. R fazı\nIII. Martensitik faz\nIV. Ostenitik faz\nYukarıda verilenlerden hangisi veya hangileri nikel titanyum eğelerin şekil hafızalı ve dayanıklı olmalarında rolü olan kristal fazlarından değildir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I, III ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Nikel-titanyum (NiTi) alaşımlarının süperelastikiyet ve şekil hafızası özellikleri, sıcaklık ve mekanik stres altında atomik kristal dizilimlerinin üç katı kristal faz arasında (Östenitik faz, Martensitik faz ve ara faz olan R-fazı) tersinir olarak dönüşebilmesine dayanır. \"Amorf faz\" ise metalik bir kristal fazı olmayıp, gutta-perka polimerinin 65°C üzerinde ısıtılıp hızla soğutulduğunda geçtiği düzensiz fazdır. Öncüllerin Analizi: I. Amorf faz gutta-perkanın fazlarından biridir, NiTi alaşımında yer almaz (Doğru - değildir). II. R-fazı (rombohedral yapı), östenit ve martensit arasındaki geçişte oluşan NiTi kristal fazıdır (Yanlış). III. Martensitik faz (kompleks/monoklinik yapı), düşük sıcaklık veya yüksek stres altında oluşan yumuşak, bükülebilir ve yorgunluğa dirençli NiTi fazıdır (Yanlış). IV. Östenitik faz (kübik yapı), oda/vücut sıcaklığında ve düşük streste bulunan sert, rijit ve yaylanma özelliğindeki NiTi fazıdır (Yanlış). Çeldiriciler: B) R fazı NiTi alaşımının ara fazıdır. C) II. öncül NiTi fazıdır. D) III ve IV. öncüller NiTi'nin ana kristal fazlarıdır. E) II, III ve IV. öncüllerin tamamı NiTi kristal fazlarıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "I. Apeks bulucuların çoğu doğru (direkt) akım kullanarak çalışırlar.\nII. Hamilelerde ve engelli hastalarda kullanılabilirler.\nIII. Tedavilerin hepsi radyografi alınmadan güvenle tamamlanabilir.\nApeks bulucular ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Elektronik apeks bulucular, kök kanalı içindeki eğe ucu periodontal ligamente (minör/majör foramene) ulaştığında elektriksel devreyi tamamlayarak çalışma boyunu tespit eden cihazlardır. Öncüllerin Analizi: I. Yalnızca en eski 1. jenerasyon (rezistans tipi) apeks bulucular doğru (direkt) akım kullanmıştır; doğru akım dokuda polarizasyon ve ağrı yaptığı için günümüzdeki modern apeks bulucuların (3., 4., 5. ve 6. jenerasyon) tamamı birden fazla frekansta \"alternatif akım\" kullanarak empedans oranı/katsayısı ölçümüyle çalışır (Yanlış). II. İyonize radyasyon yaymadıkları ve hızlı sonuç verdikleri için hamilelerde, çocuklarda, öğürme refleksi olanlarda ve engelli hastalarda güvenle kullanılabilirler (Doğru). III. Apeks bulucuların doğruluk oranı çok yüksek (%90-95+) olsa da kanal morfolojisi, kök rezorpsiyonu, açık apeks veya kırıklar hakkında görsel bilgi veremezler; bu nedenle tedavilerin hepsi hiç radyografi alınmadan tamamlanamaz, radyografi ile mutlaka desteklenmelidir (Yanlış). Çeldiriciler: A) I. öncül yanlıştır, alternatif akım kullanırlar. C) I ve III. öncüller yanlıştır. D) III. öncül yanlıştır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON",
+    "flag_reason": "2023 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Apeks bulucular ile ilgili olarak aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Apeks bulucuların çoğu empedans ölçümü yapar.",
+      "B": "Apeks bulucu kullanıldığında radyograf alınması gerekmez.",
+      "C": "Engelli hastalarda kullanılabilir.",
+      "D": "Hamile hastalarda kullanılabilirler.",
+      "E": "İlk jenerasyon apeks bulucular direkt akım kullanarak ölçüm yaparlar."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Elektronik apeks bulucular çalışma boyu tespitinde radyografi sayısını azaltsa da, dişin kök anatomisini, eğriliklerini, kanal sayısını, periapikal lezyon boyutunu ve kanal dolgusunun kalitesini değerlendirmek için radyografiye mutlaka ihtiyaç vardır; ayrıca metal restorasyon teması veya açık apeks gibi durumlarda cihaz yanılabileceği için \"radyograf alınması gerekmez\" ifadesi yanlıştır. Çeldiriciler: A) Güncel apeks bulucuların çoğunluğu alternatif akım altında iki veya daha fazla frekansta empedans (direnç) ölçümü yapar. C) Röntgen çekiminin zor olduğu engelli ve kooperasyonu güç hastalarda rahatlıkla kullanılabilir. D) Radyasyon içermediği için hamile hastalarda çalışma boyu tespitinde en güvenli yöntemdir. E) 1. jenerasyon (rezistans tipi) apeks bulucular doğru (direkt) akım kullanarak direnç ölçümü yapmaktaydı.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Elektronik apeks bulucular aşağıda verilenlerden hangisinde kontrendikedir?",
+    "options": {
+      "A": "İmmatür dişler",
+      "B": "Periapikal lezyonlu dişler",
+      "C": "Akut pulpitisli dişler",
+      "D": "Rezorpsiyonu olan dişler",
+      "E": "Hamile hastalar"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Elektronik apeks bulucuların doğru ölçüm yapabilmesi için apikal daralımın (minör apikal çapın) gelişmiş olması ve kanal aletinin bu daralımda dentin duvarlarıyla temas ederek elektriksel empedans değişimini algılaması gerekir. Kök gelişimi tamamlanmamış \"immatür (açık apeksli) dişlerde\" apikal daralım yoktur ve apeks çok geniştir; alet duvarlara temas edemediği ve geniş foramenden kan/eksuda sızdığı için apeks bulucular hatalı (genellikle kısa) ölçüm yapar ve kullanımları önerilmez (Ayrıca eski tip kalp pili/pacemaker taşıyan hastalarda da kontrendikedir). Çeldiriciler: B) Güncel apeks bulucular periapikal lezyonlu dişlerde güvenle kullanılır. C) Akut pulpitisli dişlerde kanal içi kanama durdurulduğunda apeks bulucular tam doğrulukla çalışır. D) Hafif/orta rezorpsiyonlu dişlerde çalışma boyu ve perforasyon kontrolünde kullanılabilirler. E) Hamile hastalarda kontrendike değil, aksine radyografiyi azaltmak için en önemli endikasyon alanıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Tüm eğelerin aynı çalışma boyunda kullanıldığı kanal genişletme tekniği aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Standardize teknik",
+      "B": "Step-back tekniği",
+      "C": "Step-down tekniği",
+      "D": "Crown-down tekniği",
+      "E": "Balanced-force tekniği"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Ingle tarafından tanımlanan \"standardize teknik\"te, başlangıç eğesinden ana apikal eğeye (MAF) kadar kullanılan tüm kanal eğeleri hiçbir geri çekme yapılmaksızın \"aynı çalışma boyunda\" kullanılır ve kanalın son şeklini kullanılan en son eğe belirler. Çeldiriciler: B) Step-back tekniğinde apikal şekillendirmeden sonra kullanılan her büyük eğe çalışma boyundan 0.5-1 mm daha kısa boyda kullanılır. C) Step-down tekniğinde önce koronal ve orta üçlüde kısa boylarda çalışılır, sonra apikale inilir. D) Crown-down tekniğinde kalın eğelerle koronalden başlanıp her ince eğede çalışma boyuna doğru kademeli olarak farklı boylarda ilerlenir. E) Balanced-force tekniği eğelerin çalışma boyunu değil, kanal içindeki rotasyon açılarını (saat yönü 90°, tersi 180-270°) tanımlayan bir kinematik yöntemdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "I. Tüm kanal eğeleri aynı çalışma boyunda kullanılır.\nII. Kanalın son şeklini kanalda kullanılan son eğenin şekli belirler.\nIII. Koniklik yetersiz olduğundan irrigasyon ve kanal dolumu zordur.\nYukarıdaki özellikler hangi kanal şekillendirme yöntemine aittir?",
+    "options": {
+      "A": "Standardize teknik",
+      "B": "Step-back tekniği",
+      "C": "Step-down tekniği",
+      "D": "Crown-down tekniği",
+      "E": "Dengeli kuvvet tekniği"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Verilen her üç özellik de geleneksel \"standardize genişletme tekniği\"ni tanımlamaktadır. Öncüllerin Analizi: I. Bu yöntemde kullanılan tüm eğeler tam çalışma boyunda (apikal daralıma kadar) uygulanır (Doğru). II. Geri çekme yapılmadığı için kanalın nihai çapını ve konikliğini kanalda kullanılan en son eğenin şekli belirler (Doğru). III. Geleneksel el eğelerinin konikliği sadece %2 olduğundan, elde edilen dar silindirik/konik formda irrigasyon iğnesinin ve spreader'ın apikale yaklaşması güçleşir, sadece tek kon tekniğine izin verir (Doğru). Çeldiriciler: B) Step-back tekniğinde eğeler farklı boylarda kullanılır ve koniklik fazladır (%5-10). C) Step-down tekniğinde koronal genişletme yapıldığı için koniklik fazladır ve irrigasyon kolaydır. D) Crown-down tekniğinde eğeler koronalden apikale farklı boylarda kullanılır. E) Dengeli kuvvet tekniği eğri kanallardaki rotasyonel kesme yöntemidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıdakilerinden hangisi koronalden apikale doğru yapılan şekillendirme yöntemlerinden biri değildir?",
+    "options": {
+      "A": "Step-down",
+      "B": "Crown-down",
+      "C": "Standart preparasyon",
+      "D": "Double-flared",
+      "E": "Canal master"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): \"Standart (standardize) preparasyon\", ince eğelerle doğrudan apikal daralıma inilip tüm eğelerin tam çalışma boyunda kullanıldığı \"apikalden koronale\" (apiko-koronal) sınıflamasında yer alan bir şekillendirme yöntemidir; koronalden apikale uygulanmaz. Apikalden koronale yöntemler: Standardize teknik, Step-back, Çevresel eğeleme, Antikurvatür, Progresif genişletme, Dengeli kuvvet, Apikal kutu ve Tek boy yöntemleridir. Çeldiriciler: A) Step-down yöntemi koronalden apikale doğru uygulanır. B) Crown-down yöntemi koronalden apikale doğru uygulanan en temel yöntemdir. D) Double-flared (Fava) yöntemi, koronalden apikale inildikten sonra apikalden tekrar step-back yapılan korono-apikal başlangıçlı bir yöntemdir. E) Canal Master yöntemi koronalden apikale doğru uygulanan şekillendirme teknikleri arasında yer alır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıdaki eğe çiftlerinin hangilerinde, eğelerin birinden diğerine geçerken uç çaplarındaki yüzde artışı sırasıyla en az ve en fazladır?",
+    "options": {
+      "A": "10 ve 15 numaralı K tipi eğeleri – 130 ve 140 numaralı K tipi eğeleri",
+      "B": "55 ve 60 numaralı K tipi eğeleri – 10 ve 15 numaralı K tipi eğeleri",
+      "C": "10 ve 15 numaralı H tipi eğeleri – 130 ve 140 numaralı H tipi eğeleri",
+      "D": "55 ve 60 numaralı K tipi eğeleri – 15 ve 20 numaralı K tipi eğeleri",
+      "E": "55 ve 60 numaralı K tipi eğeleri – 15 ve 20 numaralı H tipi eğeleri"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): ISO standartlarındaki kanal eğelerinde (K ve H tipi eğelerin çapları aynıdır) 10 numaradan 60 numaraya kadar uç çapı (D0) 0.05 mm'lik sabit artışlarla, 60 numaradan 140 numaraya kadar ise 0.10 mm'lik sabit artışlarla büyür. Sabit miktarlı artışlar başlangıç çapına oranlandığında, küçük numaralı eğelerde oransal (yüzde) çap artışı çok yüksekken numara büyüdükçe yüzde artışı düşer: 10'dan 15'e geçerken artış (0.15 - 0.10) / 0.10 = \"%50\" ile \"en fazla\"dır (15'ten 20'ye %33.3, 20'den 25'e %25). Verilen ilk sütundaki seçenekler arasında 55'ten 60'a geçerken artış (0.60 - 0.55) / 0.55 = \"%9\" ile \"en az\"dır. Dolayısıyla sırasıyla en az ve en fazla olan çift \"55 ve 60 numaralı K tipi eğeleri – 10 ve 15 numaralı K tipi eğeleri\"dir. Çeldiriciler: A) 10-15 geçişi en az değil en fazladır (%50); 130-140 geçişi ise %7.7 ile en azdır (sıralama ters verilmiştir). C) Sıralama ters verilmiştir (önce en fazla, sonra en az yazılmıştır). D) 15-20 geçişinde yüzde artış %33.3 olup 10-15 geçişinden (%50) daha düşüktür. E) 15-20 geçişi en fazla yüzde artışına sahip değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "Aşağıda verilen ISO standartlarındaki eğelerin hangisinin D5 noktasındaki çapı 40 numaralı eğenin D0 noktasındaki çapına eşittir?",
+    "options": {
+      "A": "15",
+      "B": "20",
+      "C": "25",
+      "D": "30",
+      "E": "35"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): 40 numaralı eğenin D0 noktasındaki (en uç) çapı 0.40 mm'dir. ISO standartlarındaki bir eğenin konikliği 0.02 olduğundan, uçtan 5 mm gerideki D5 noktasında çap 5 x 0.02 = 0.10 mm artmaktadır. D5 çapının 0.40 mm olması için: D0 + 0.10 = 0.40 denkleminden aranan eğenin D0 çapı 0.30 mm, yani numarası \"30\" olarak bulunur. Çeldiriciler: A) 15 numaralı eğenin D5 çapı 0.15 + 0.10 = 0.25 mm'dir. B) 20 numaralı eğenin D5 çapı 0.20 + 0.10 = 0.30 mm'dir. C) 25 numaralı eğenin D5 çapı 0.25 + 0.10 = 0.35 mm'dir. E) 35 numaralı eğenin D5 çapı 0.35 + 0.10 = 0.45 mm'dir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  },
+  {
+    "question": "ISO standartlarındaki aletlerle kanal preparasyonu yapan bir klinisyen, step back aşamasında aşağıdaki eğelerden hangisini kullandıktan bir aşama sonra kökün koronal kısmını şekillendirmeye 1 numaralı Gates glidden ile devam edebilir?",
+    "options": {
+      "A": "45",
+      "B": "55",
+      "C": "60",
+      "D": "70",
+      "E": "80"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): 1 numaralı Gates Glidden (GG) frezinin uç çapı 0.50 mm olup ISO standartlarında \"50 numaralı\" kanal eğesinin uç çapına karşılık gelir. Step-back aşamasında el eğeleri birer boy büyütülerek (örneğin 35-40-45-50 şeklinde) kullanıldığından, 50 numaralı eğe çapındaki 1 numaralı GG frezinden hemen \"bir aşama önce\" kullanılan el eğesi \"45 numaralı\" eğedir. Çeldiriciler: B) 55 numaralı eğe (0.55 mm), 1 numaralı GG frezinden (0.50 mm) daha kalındır. C) 60 numaralı eğe 1 numaralı GG'den daha büyüktür. D) 70 numaralı eğe 2 numaralı GG frezine (0.70 mm) karşılık gelir. E) 80 numaralı eğe 2 numaralı GG frezinden bile daha kalındır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 9 - MEKANİK PREPARASYON"
+  }
+]

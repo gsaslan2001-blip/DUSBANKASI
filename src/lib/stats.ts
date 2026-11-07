@@ -209,12 +209,11 @@ export function saveBulkQuestionStats(
 
     _dirtyIds.add(r.questionId);
     hasChanges = true;
-
-    // Aktivite loguna doğru/yanlış ekle
-    logActivity(r.isCorrect, r.lesson);
   }
 
   if (hasChanges) {
+    // FAZ A: Tüm oturum aktivitesini tek seferde atomik logla (120 ayrı I/O disk yazımını önler)
+    logBulkActivity(records.map(r => ({ isCorrect: r.isCorrect, lesson: r.lesson })));
     safeWriteStats(stats);
     localStorage.setItem(PENDING_SYNC_KEY, '1');
     notifySyncStatus();
@@ -356,6 +355,36 @@ function logActivity(isCorrect: boolean, lesson?: string): void {
   log[today] = cur;
 
   // Eski kayıtları temizle (uzun geçmiş trend grafikleri için geniş pencere)
+  const cutoff = addDays(today, -ACTIVITY_RETENTION_DAYS);
+  for (const date of Object.keys(log)) {
+    if (date < cutoff) delete log[date];
+  }
+  localStorage.setItem(ACTIVITY_KEY, JSON.stringify(log));
+}
+
+/**
+ * Toplu soru çözümlerinde (DUS Simülasyonu, denemeler) aktivite logunu tek bir atomik disk yazımı ile günceller.
+ */
+function logBulkActivity(records: Array<{ isCorrect: boolean; lesson?: string }>): void {
+  if (!records || records.length === 0) return;
+  const log = loadActivityLog();
+  const today = todayStr();
+  const cur = normalizeActivity(log[today]);
+
+  for (const r of records) {
+    cur.total += 1;
+    if (r.isCorrect) cur.correct += 1;
+    else cur.incorrect += 1;
+    if (r.lesson) {
+      const byLesson = cur.byLesson ?? (cur.byLesson = {});
+      const ls = byLesson[r.lesson] ?? (byLesson[r.lesson] = { total: 0, correct: 0 });
+      ls.total += 1;
+      if (r.isCorrect) ls.correct += 1;
+    }
+  }
+
+  log[today] = cur;
+
   const cutoff = addDays(today, -ACTIVITY_RETENTION_DAYS);
   for (const date of Object.keys(log)) {
     if (date < cutoff) delete log[date];

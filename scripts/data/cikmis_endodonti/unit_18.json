@@ -1,0 +1,325 @@
+[
+  {
+    "question": "I. Minosiklin\nII. Demoklosiklin\nIII. Siprofloksasin\nYukarıda verilenlerden hangisi veya hangileri rejeneratif endodontik tedavilerde kanal dezenfeksiyonu için kullanılan antibiyotik patının içerisinde yer alır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Rejeneratif endodontik tedavilerde kök kanal dezenfeksiyonu amacıyla kullanılan üçlü antibiyotik patı (TAP); Metronidazol, Minosiklin ve Siprofloksasin'den oluşur. Öncüllerin Analizi: I. Minosiklin, üçlü antibiyotik patının tetrasiklin grubu bileşenidir (Doğru). II. Demeklosiklin, üçlü antibiyotik patında değil, kortikosteroidli bir kanal içi pat olan \"Ledermix\"in yapısında (%3.2 demeclocycline + %1 triamcinolone) yer alır (Yanlış). III. Siprofloksasin, üçlü antibiyotik patının florokinolon grubu bileşenidir (Doğru). Çeldiriciler: A) III. öncül de patın bileşenidir. B) Demeklosiklin Ledermix içeriğindedir. C) I. öncül de patın bileşenidir. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisinin rejeneratif endodonti protokolünde kullanılması önerilmez?",
+    "options": {
+      "A": "Minosiklin-metranidazol-siprofloksasin kombinasyonu",
+      "B": "%17 EDTA",
+      "C": "%1,5 NaOCl",
+      "D": "Kalsiyum hidroksit",
+      "E": "Klorheksidin diglukonat"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Amerikan Endodontistler Birliği'nin (AAE) güncel rejeneratif endodonti (revaskülarizasyon) protokolünde \"%2 Klorheksidin diglukonat (CHX)\" kullanılması kesinlikle önerilmez. Çünkü klorheksidin, apikal papilladan kanal içerisine göç edecek olan kök hücreler (SCAP) üzerinde doğrudan \"ağır sitotoksik etki\" göstererek kök hücrelerin ölümüne ve tutunamamasına yol açar; ayrıca organik doku çözme veya dentinden büyüme faktörü salma özelliği de yoktur. Çeldiriciler: A) Üçlü antibiyotik patı (düşük konsantrasyonda: 0.1-1 mg/mL) birinci seansta kanal içi medikament olarak önerilir. B) %17 EDTA, özellikle ikinci seansta son yıkama solüsyonu olarak dentinden büyüme faktörlerini açığa çıkarmak ve kök hücre tutulumunu artırmak için mutlaka kullanılır. C) %1,5 NaOCl, birinci seansta kök hücre toksisitesini minimize ederken organik doku çözümü ve dezenfeksiyon sağlamak için önerilen ideal düşük konsantrasyonlu irrigandır. D) Kalsiyum hidroksit, renklenme yapmaması ve kök hücre sağkalımını desteklemesi nedeniyle birinci seansta üçlü antibiyotik patına alternatif (hatta öncelikli) kanal içi medikament olarak önerilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıdaki kök hücre tiplerinden hangisi, revaskülarizasyon tedavisinde pulpa-dentin kompleksinin rejenerasyonuna katkı sağlamaz?",
+    "options": {
+      "A": "Apikal papilla kök hücreleri",
+      "B": "Pulpa kök hücreleri",
+      "C": "Periodontal ligament kök hücreleri",
+      "D": "Kemik iliği mezenkimal kök hücreleri",
+      "E": "Adipojenik kök hücreler"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Rejeneratif endodontik tedavide (revaskülarizasyon) kök kanalına apikal kanatmayla davet edilen veya dokuda bulunan postnatal mezenkimal kök hücreler odontoblast/osteoblast benzeri hücrelere farklılaşarak sert doku üretir. \"Adipojenik kök hücreler\" (yağ dokusu öncü hücreleri) ise dental pulpada veya periapikal bölgede bulunmaz ve revaskülarizasyon tedavisinde pulpa-dentin kompleksinin rejenerasyonuna hiçbir katkı sağlamaz. Çeldiriciler: A) Apikal papilla kök hücreleri (SCAP), açık apeksli dişlerin kök ucunda yer alır, enfeksiyona dirençlidir ve revaskülarizasyonda odontoblast benzeri hücrelere dönüşen en önemli (primer) kök hücre kaynağıdır. B) Dental pulpa kök hücreleri (DPSC) ve inflamatuar pulpa kök hücreleri, kanalda canlı kalan pulpa adacıklarından rejenerasyona doğrudan katkı sağlar. C) Periodontal ligament kök hücreleri (PDLSC), apikal kanatma sırasında kanal içine girerek sement/kemik benzeri doku oluşumuna katkı sağlar. D) Kemik iliği mezenkimal kök hücreleri (BMMSC), periapikal alveol kemiğinin kanatılmasıyla kanala girerek sert doku rejenerasyonuna katkıda bulunur (Diğer kaynaklar: dental folikül, süt dişi-SHED ve inflame periapikal projenitör hücrelerdir).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ",
+    "flag_reason": "2017 DUS Orijinal"
+  },
+  {
+    "question": "I. Periodontal ligament kök hücreleri\nII. Kemik iliği mezenkimal hücreleri\nIII. Adipojenik kök hücreler\nYukarıda verilen kök hücre tiplerinden hangisi veya hangileri odontoblast benzeri hücrelere farklılaşabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Revaskülarizasyon prosedüründe kök kanalı içerisine göç eden dental ve periapikal kökenli postnatal mezenkimal kök hücreler, dentin matriksinden salınan büyüme faktörlerinin etkisiyle DSP eksprese eden ve mineralize matriks üreten odontoblast/osteoblast benzeri hücrelere farklılaşabilir. Öncüllerin Analizi: I. Periodontal ligament kök hücreleri (PDLSC), rejeneratif süreçte odontoblast/sementoblast benzeri hücrelere farklılaşabilen hücreler arasında yer alır (Doğru). II. Kemik iliği kaynaklı mezenkimal kök hücreler, periapikal kanamayla kanala taşınarak odontoblast/osteoblast benzeri mineralize doku üreten hücrelere farklılaşabilir (Doğru). III. Adipojenik (yağ) kök hücreler dental pulpada yer almaz ve bu süreçte rol oynamaz (Yanlış). Çeldiriciler: A) II. öncül de farklılaşabilir. B) I. öncül de farklılaşabilir. C) Adipojenik kök hücreler rol almaz. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi rejeneratif tedavide kök hücre farklılaşmasında rol oynamaz?",
+    "options": {
+      "A": "Dekzametazon",
+      "B": "Demineralize dentin",
+      "C": "Sinir büyüme faktörü",
+      "D": "Kemik morfojenik protein",
+      "E": "Eritropoietin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Eritropoietin (EPO / hematopoetin)\", böbreklerden salgılanan ve kemik iliğinde eritrosit (alyuvar) üretimini (eritropoezi) uyaran glikoprotein yapılı bir hormondur; rejeneratif endodontide mezenkimal kök hücrelerin odontoblast benzeri hücrelere farklılaşmasında rol oynamaz. Çeldiriciler: A) Dekzametazon (ve Vitamin D3, simvastatin/statinler, insülin), kök hücrelerin mineralize doku üreten odontoblast/osteoblast benzeri hücrelere farklılaşmasını uyaran farmakolojik indükleyicilerdendir. B) Demineralize dentin, yapısında barındırdığı zengin büyüme faktörü deposunu (TGF-β, BMP, DMP-1) serbestleştirerek kök hücre farklılaşmasında doğrudan rol oynar. C) Sinir büyüme faktörü (NGF), hem nöronal gelişimde hem de odontoblast benzeri hücre farklılaşmasında etkili büyüme faktörlerindendir. D) Kemik morfojenik proteinler (BMP-2, BMP-4, BMP-7), kök hücrelerin odontoblastlara farklılaşmasını ve dentinogenezi uyaran en güçlü büyüme faktörlerindendir (Diğerleri: FGF-2 ve TGF-β1/β3'tür).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi rejeneratif endodontik tedavi sırasında kullanılan doğal scaffoldlardan değildir?",
+    "options": {
+      "A": "Demineralize dentin",
+      "B": "Kollajen",
+      "C": "Biyoseramikler",
+      "D": "Fibrin",
+      "E": "Glikozaminoglikan"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Rejeneratif endodontide kök hücrelerin tutunup çoğalması ve üç boyutlu doku oluşturması için kullanılan doku iskeletleri (scaffoldlar) doğal ve yapay (sentetik) olarak ikiye ayrılır. \"Biyoseramikler\" (ve hidroksiapatit/trikalsiyum fosfat, PLA, PGA, PLGA, PEG, hidrojeller, titanyum) doğal değil, laboratuvarda üretilen \"yapay (sentetik) scaffoldlar (iskeletler)\" grubunda yer alır. Çeldiriciler: A) Demineralize veya doğal dentin matriksi, doğal bir iskelettir. B) Kollajen, bağ dokusunun ana proteini olup doğal bir iskelettir. D) Fibrin (kan pıhtısı, PRP - plateletten zengin plazma, PRF - plateletten zengin fibrin), hastanın kendi kanından elde edilen en yaygın \"doğal\" iskelettir. E) Glikozaminoglikanlar ve hyaluronik asit, ekstraselüler matriks kökenli doğal iskeletlerdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıda verilen rejeneratif endodontik tedavi sırasında kullanılan iskeletler ve iskelet tipi eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Demineralize dentin - Doğal",
+      "B": "Poliglikolik asit - Yapay",
+      "C": "Biyoseramikler - Doğal",
+      "D": "Fibrin - Doğal",
+      "E": "Hidrojeller - Yapay"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Rejeneratif endodontide kullanılan \"biyoseramikler\", inorganik metal oksit ve kalsiyum silikat/fosfat bileşiklerinden sentezlenen \"yapay (sentetik)\" iskeletlerdir; \"Biyoseramikler - Doğal\" eşleştirmesi yanlıştır. Çeldiriciler: A) Demineralize dentin, dişin kendi yapısından kaynaklanan doğal bir iskelettir. B) Poliglikolik asit (PGA), polilaktik asit (PLA) ve PLGA biyobozunur sentetik polimerler olup yapay iskeletlerdir. D) Fibrin (ve kan pıhtısı, PRP, PRF) otolog kan kaynaklı doğal iskeletlerdir. E) Sentetik hidrojeller (örneğin Puramatrix), polietilen glikol (PEG) ve poliepsilon kaprolakton yapay iskeletlerdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi rejeneratif tedavide kullanılan iskeletlerden beklenen özelliklerden değildir?",
+    "options": {
+      "A": "Kök hücreleri lokalize etmeli.",
+      "B": "Büyüme faktörleri içermelidir.",
+      "C": "Biyolojik olarak stabil olmalı.",
+      "D": "Hücrelerin metabolizmalarını düzenlemeli.",
+      "E": "Kolay elde edilebilmeli."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Rejeneratif endodontide kullanılan bir doku iskeletinin (scaffold) \"biyolojik olarak stabil (kalıcı/yıkılmaz) olması\" istenmez; tam aksine yeni oluşan pulpa-dentin dokusu geliştikçe onun hızına uyumlu olarak \"zamanla biyolojik yıkıma uğraması (biyobozunur / biodegradable olması)\" ve yerini tamamen yeni rejeneratif dokuya bırakması gerekir. Çeldiriciler: A) Kanal içine giren kök hücrelerin doğru bölgede tutunmasını, bağlanmasını ve üç boyutlu olarak lokalize olmasını sağlamalıdır. B) Hücre farklılaşmasını ve anjiyogenezi uyarmak için büyüme faktörleri içermeli veya bağlamalıdır. D) Besin/oksijen difüzyonuna izin vererek hücrelerin çoğalma, farklılaşma ve metabolizmalarını düzenlemelidir. E) Klinik ortamda kolay elde edilebilmeli (örneğin apikal kanatma veya PRP/PRF gibi) ve kolay uygulanabilmelidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıdaki materyallerden hangisi Amerikan Endodontistler Birliği'nin güncel rejeneratif endodontik tedavi protokolünde yer almaz?",
+    "options": {
+      "A": "Kalsiyum hidroksit",
+      "B": "Antibiyotik patı",
+      "C": "%1,5 NaOCl",
+      "D": "%17 EDTA",
+      "E": "%2 klorheksidin diglukonat"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Amerikan Endodontistler Birliği'nin (AAE) güncel rejeneratif endodontik tedavi (revaskülarizasyon) klinik protokolünde \"%2 klorheksidin diglukonat (CHX)\" kesinlikle yer almaz. Klorheksidin, apikal papilladaki kök hücreler (SCAP) üzerinde şiddetli sitotoksik etki göstererek hücre ölümüne neden olduğu ve doku çözme/büyüme faktörü salma özelliği bulunmadığı için rejeneratif protokolde kontrendikedir. Çeldiriciler: A) Kalsiyum hidroksit, birinci seansta kök hücre sağkalımını destekleyen ve renklenme yapmayan ideal kanal içi medikament olarak protokolde yer alır. B) Düşük konsantrasyonlu (0.1-1 mg/mL) üçlü veya ikili antibiyotik patı birinci seansta kanal içi medikament olarak protokolde yer alır. C) %1,5 NaOCl (kanal başına 20 mL, 5 dk), birinci seansta kök hücre toksisitesini en aza indirirken dezenfeksiyon ve organik doku çözümü sağlamak için önerilen irrigandır. D) %17 EDTA (kanal başına 20 mL), hem birinci seansta hem de özellikle ikinci seansta büyüme faktörlerini dentinden serbestleştirmek için kullanılan zorunlu irrigandır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "I. Klorheksidin\nII. Üçlü antibiyotik patı\nIII. Etilendiamintetraasetik asit\nYukarıda verilenlerden hangisi veya hangileri rejeneratif endodonti protokolünde kullanılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "II ve III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Rejeneratif endodonti protokolünde kök hücre canlılığını korurken kanal dezenfeksiyonu ve büyüme faktörü salınımı sağlayan spesifik ajanlar kullanılır. Öncüllerin Analizi: I. Klorheksidin, kök hücrelere (SCAP) karşı sitotoksik olduğu ve doku çözmediği için rejeneratif endodonti protokolünde kullanılmaz (Yanlış). II. Üçlü antibiyotik patı (siprofloksasin, metronidazol, minosiklin) veya kalsiyum hidroksit, kanal içi dezenfeksiyon medikamenti olarak kullanılır (Doğru). III. Etilendiamintetraasetik asit (%17 EDTA), dentini demineralize ederek büyüme faktörlerini açığa çıkarmak ve kök hücre farklılaşmasını uyarmak için kullanılır (Doğru). Çeldiriciler: A) Klorheksidin kontrendikedir. B) III. öncül de protokolün temel parçasıdır. D) I. öncül yanlıştır. E) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "I. Ultrasonik irrigasyon\nII. Lazer\nIII. Ultraviyole ışık\nRejeneratif endodontide kanal içi biyofilmin uzaklaştırılması için yukarıda verilenlerden hangisi veya hangileri uygulanabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Rejeneratif endodontide zaten çok ince ve kırılgan olan immatür kök dentin duvarlarını zayıflatmamak ve smear tabakası oluşturmamak için mekanik eğeleme minimal yapılır veya hiç yapılmaz. Ancak kanal duvarlarındaki dirençli bakteriyel biyofilmin uzaklaştırılabilmesi için kimyasal irrigasyonun fiziksel olarak aktive edilmesi gerekir. Öncüllerin Analizi: I. \"Ultrasonik irrigasyon\" (veya hafif/kontrollü mekanik preparasyon), dentin duvarlarını aşındırmadan akustik akım ve kavitasyonla NaOCl/EDTA'yı aktive ederek kanal içi biyofilmin parçalanıp uzaklaştırılmasında güvenle uygulanabilir (Doğru). II. Lazerler doğrusal yayılım ve apikalde termal hasar/kök hücre zararı riski taşır, biyofilmin derin kısımlarına tek başına ulaşamaz (Yanlış). III. Ultraviyole ışık yalnızca yüzeydeki bakterileri etkiler, biyofilm matriksinin derinliklerine ve dentin tübüllerine penetre olamaz (Yanlış). Çeldiriciler: B) II. öncül biyofilmi tamamen uzaklaştıramaz. C) II. öncül yanlıştır. D) II ve III biyofilm uzaklaştırmada etkisizdir. E) II ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Rejeneratif endodontik uygulamalarda ortamın dezenfeksiyonu için en etkili kombinasyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Streptomisin / Tetrasiklin (1:1)",
+      "B": "Penisilin / Klaritromisin (1:1)",
+      "C": "Siprofloksasin / Metronidazol / Minosiklin (1:1:1)",
+      "D": "Sefalosporin / Tetrasiklin / Sulfonamid (1:1:1)",
+      "E": "Penisilin / Eritromisin (1:1)"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Rejeneratif endodontik uygulamalarda (revaskülarizasyon) polimikrobiyal kök kanalı enfeksiyonunu tamamen ortadan kaldırıp kanalı steril hale getirmek için Hoshino tarafından tanımlanan en etkili kombinasyon, 1:1:1 oranında karıştırılan \"Siprofloksasin / Metronidazol / Minosiklin\" (Üçlü Antibiyotik Patı - TAP) kombinasyonudur. Bu ajanlar tek başlarına kullanıldıklarında kanalı steril edemezken, üçlü kombinasyon tüm anaerobik, fakültatif, Gram (+) ve Gram (-) florayı elimine eder. Çeldiriciler: A) Streptomisin rejeneratif protokolde yer almaz. B) Penisilin ve klaritromisin kombinasyonu kullanılmaz. D) Sulfonamidler endodontik rejenerasyon patında yer almaz. E) Penisilin alerji riski ve dar spektrumu nedeniyle rejeneratif patta kullanılmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "I. Sefalosporin\nII. Siprofloksasin\nIII. Metronidazol\nIV. Minosiklin\nYukarıda verilenlerden hangisi veya hangileri rejeneratif endodontik tedavide kullanılan kanal içi antibiyotik kombinasyonudur?",
+    "options": {
+      "A": "I ve III",
+      "B": "II ve IV",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Rejeneratif endodontik tedavide kanal içi dezenfeksiyon amacıyla kullanılan standart üçlü antibiyotik patı (TAP) kombinasyonu; Siprofloksasin, Metronidazol ve Minosiklin'den oluşur. Öncüllerin Analizi: I. Sefalosporin (sefaklor), standart üçlü patın ana bileşeni değildir (sadece renklenmeyi önlemek için modifiye patlarda minosiklin yerine denenmiştir) (Yanlış). II. Siprofloksasin, üçlü patın florokinolon bileşenidir (Doğru). III. Metronidazol, üçlü patın nitroimidazol bileşenidir (Doğru). IV. Minosiklin, üçlü patın tetrasiklin bileşenidir (Doğru). Çeldiriciler: A) I. öncül standart kombinasyonda yoktur. B) III. öncül eksik bırakılmıştır. C) I. öncül yerine IV. öncül olmalıdır. E) I. öncül yerine III. öncül olmalıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi rejeneratif endodontik tedavide üçlü antibiyotik patın kanal içi dezenfeksiyonda kullanılması ile ilgili olarak söylenemez?",
+    "options": {
+      "A": "Dişte renklenme yapabilir.",
+      "B": "Kanal içi biyofilmlere etkilidir.",
+      "C": "Kanallardan uzaklaştırılması zordur.",
+      "D": "Kök hücrelere sitotoksik etki gösterir.",
+      "E": "Dentin kalınlığını etkili şekilde artırır."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kök kanalı içerisindeki organize \"biyofilmler\", ekstraselüler polimerik matriks (EPS) kalkanı ve bakteriler arası yatay gen transferiyle antibiyotik direnç genlerini hızla paylaştıkları için \"lokal antibiyotiklere karşı dirençlidir\". Üçlü antibiyotik patı (TAP) yüksek konsantrasyonda planktonik ve dentin tübülü içindeki odontojenik bakterileri etkili şekilde azaltırken, yerleşik biyofilm yapısını eritip yok etmede tek başına etkili değildir (biyofilme NaOCl ve ultrasonik aktivasyon etkilidir); bu nedenle \"kanal içi biyofilmlere etkilidir\" ifadesi söylenemez. Çeldiriciler: A) İçeriğindeki minosiklin kalsiyuma bağlanarak dişte ciddi kuronal renklenme yapar. C) Pat kıvamındaki antibiyotik karışımının kanal duvarlarından ve dentin tübüllerinden tamamen uzaklaştırılması oldukça zordur. D) Yüksek konsantrasyonlarda (macun kıvamında, >1 mg/mL) kullanıldığında apikal papilla kök hücreleri (SCAP) üzerinde doğrudan sitotoksik etki gösterir (bu nedenle düşük konsantrasyonda veya yerine Ca(OH)2 kullanımı önerilmektedir). E) Revaskülarizasyonda üçlü antibiyotik patı uygulandığında kalan dentin duvarı kalınlığının diğerlerine göre daha çok arttığı çalışmalarda gösterilmiştir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "I. Mineral trioksit agregat\nII. Kalsiyum hidroksit\nIII. İkili antibiyotik patı (siprofloksasin, metronidazol)\nYukarıdaki materyallerden hangileri rejeneratif endodontik tedavide kullanılır ve ilgili dişte renklenmeye neden olabilir?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yalnız I",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Rejeneratif endodontik tedavide dişlerde kuronal renklenmeye yol açan üç temel unsur vardır: 1) Üçlü antibiyotik patı içindeki \"minosiklin\", 2) Kanal içi indüklenen \"kan pıhtısı/hemoraji\", 3) Koronal bariyer olarak kullanılan \"MTA\". Öncüllerin Analizi: I. Mineral trioksit agregat (MTA - hem gri hem beyaz formu), içeriğindeki bizmut oksitin kan ve dentin kollajeniyle etkileşimi sonucunda koronal bariyer olarak kullanıldığında ilgili dişte belirgin grimsi \"renklenmeye neden olabilir\" (bu nedenle estetik bölgede MTA yerine Biodentine önerilir) (Doğru). II. Kalsiyum hidroksit rejeneratif tedavide kanal içi medikament olarak kullanılır ancak dişte kesinlikle renklenme yapmaz (aksine renklenmeyi önlemek için TAP yerine tercih edilir) (Yanlış). III. Renklenme yapan minosiklinin çıkarılmasıyla elde edilen \"ikili antibiyotik patı (siprofloksasin + metronidazol)\" dişte renklenmeye neden olmaz (Yanlış). Çeldiriciler: A) İkili patta minosiklin çıkarıldığı için renklenme yapmaz. C) Kalsiyum hidroksit renklenme yapmaz. D) II ve III renklenme yapmayan alternatiflerdir. E) II ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi rejeneratif endodontik tedavilerde kuronda renklenme riski yaratır?",
+    "options": {
+      "A": "Mineral trioksit agregat",
+      "B": "Kalsiyum hidroksit",
+      "C": "İkili antibiyotik patı (siprofloksasin, metronidazol)",
+      "D": "Biodentine",
+      "E": "Etilendiamin tetraasetik asit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Rejeneratif endodontik tedavilerde kan pıhtısının üzerine koronal tıkaç (bariyer) olarak yerleştirilen \"Mineral Trioksit Agregat (MTA)\", yapısındaki bizmut oksit ve demir/magnezyum oksitlerin kan ürünleri ve dentinle reaksiyona girmesi nedeniyle kuronda yüksek oranda grimsi-siyah \"renklenme riski yaratır\". Çeldiriciler: B) Kalsiyum hidroksit renklenme yapmaz, hatta renklenme yapan üçlü antibiyotik patı yerine önerilen medikamenttir. C) İkili antibiyotik patı (siprofloksasin + metronidazol), renklenme yapan minosiklin içermediği için kuronda renklenme yapmaz. D) Biodentine radyoopasite verici olarak bizmut oksit yerine zirkonyum oksit içerdiği için renklenme yapmaz ve estetik bölgede MTA yerine tercih edilir. E) EDTA (%17) şeffaf bir şelatör solüsyon olup başka ajanlarla (CHX gibi) karıştırılmadıkça renklenme yapmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "I. MTA yerine Biodentin kullanılması\nII. Kuronal kaviteye dentin adezivlerinin uygulanması\nIII. Üçlü antibiyotik pat yerine Ledermix patı kullanılması\nYukarıda verilenlerden hangisi veya hangileri rejeneratif tedavide kuronal renklenmeyi önlemek için alınabilecek önlemlerdendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Rejeneratif endodontik tedavilerde sık karşılaşılan kuron renklenmesini önlemek için medikament, bariyer materyali ve kavite izolasyonunda özel önlemler alınır. Öncüllerin Analizi: I. Renklenme yapan bizmut oksit içerikli MTA yerine, zirkonyum oksit içeren ve renklenme yapmayan \"Biodentine\"in koronal bariyer olarak kullanılması etkili bir önlemdir (Doğru). II. Üçlü antibiyotik patı yerleştirilmeden veya apikal kanatma yapılmadan önce \"kuronal giriş kavitesi duvarlarındaki dentin tübüllerinin dental adezivlerle (bonding ajanı ile) tıkanması\", minosiklinin ve kanın kuron dentinine nüfuz etmesini engelleyerek renklenmeyi önler (Doğru). III. \"Ledermix patı\" yapısında bir tetrasiklin türevi olan \"demeklosiklin\" içerir ve güneş ışığı/diş dokusuyla temas ettiğinde tıpkı minosiklin gibi şiddetli koyu gri-kahverengi \"renklenmeye sebep olur\"; dolayısıyla renklenmeyi önlemek için kesinlikle kullanılmaz (Yanlış). Çeldiriciler: A) II. öncül de çok etkili bir klinik önlemdir. B) I. öncül de temel önlemlerdendir. C) Ledermix kendisi ağır renklenme yapar. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "I. % 5'lik sodyum hipoklorit\nII. % 17'lik etilendiamintetraasetik asit\nIII. % 2'lik klorheksidin diglukonat\nYukarıdaki kök kanal irrigasyon solüsyonlarından hangilerinin, kök gelişimini tamamlamamış bir dişin endodontik revaskülarizasyon tedavisinde kullanımı önerilmektedir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Endodontik revaskülarizasyon (rejeneratif endodonti) tedavisinde irrigasyon solüsyonlarının seçimi ve konsantrasyonu, apikal papilladaki kök hücrelerin (SCAP) canlılığını korumak ve büyüme faktörlerini açığa çıkarmak üzere özel olarak sınırlandırılmıştır. Öncüllerin Analizi: I. \"%5'lik (tam konsantrasyonlu) sodyum hipoklorit\", kök hücreler üzerinde ağır sitotoksik etki gösterdiği ve dentin duvarındaki büyüme faktörlerini denatüre ettiği için revaskülarizasyonda önerilmez; NaOCl yalnızca \"%1.5\" (veya %1.5-3) gibi düşük konsantrasyonda önerilir (Yanlış). II. \"%17'lik etilendiamintetraasetik asit (EDTA)\", dentini demineralize ederek içine hapsolmuş büyüme faktörlerini (TGF-β vb.) serbestleştirdiği ve kök hücrelerin dentine tutunup farklılaşmasını teşvik ettiği için revaskülarizasyonda kullanımı kesinlikle önerilmektedir (Doğru). III. \"%2'lik klorheksidin diglukonat\", kök hücreler üzerinde doğrudan sitotoksik olduğu ve doku çözmediği için revaskülarizasyonda kullanımı önerilmez (kontrendikedir) (Yanlış). Çeldiriciler: A) %5 NaOCl kök hücreleri öldürdüğü için önerilmez (%1.5 kullanılır). C) %2 CHX kontrendikedir. D) I. öncüldeki %5 konsantrasyonu yüksek olduğu için yanlıştır. E) I ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisinin rejeneratif endodontik tedavide kullanılması önerilir?",
+    "options": {
+      "A": "% 5 Sodyum hipoklorit",
+      "B": "% 17 etilendiamin tetraasetik asit",
+      "C": "% 2 klorheksidin diglukonat",
+      "D": "%5 klorheksidin diglukonat",
+      "E": "% 3 etilendiamin tetraasetik asit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Güncel rejeneratif endodontik tedavi (revaskülarizasyon) protokolünde, özellikle ikinci seansta medikamentin uzaklaştırılması ve kök dentininden büyüme faktörlerinin salınımının sağlanması amacıyla \"%17 etilendiamin tetraasetik asit (EDTA)\" kullanılması standart olarak önerilir. Çeldiriciler: A) %5 Sodyum hipoklorit kök hücre toksisitesi nedeniyle önerilmez; %1.5'lik düşük konsantrasyonlu NaOCl önerilir. C) %2 klorheksidin diglukonat kök hücrelere sitotoksik olduğu için kontrendikedir. D) %5 klorheksidin diglukonat aşırı sitotoksiktir ve kullanılmaz. E) EDTA rejeneratif protokolde %3 değil, standart \"%17\" konsantrasyonda kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi rejeneratif endodontik tedavide kullanılabilen büyüme faktörlerinden değildir?",
+    "options": {
+      "A": "İnsülin",
+      "B": "Statinler",
+      "C": "TGF-beta",
+      "D": "Dekzametazon",
+      "E": "Bisfosfanatlar"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Bisfosfonatlar (bisfosfanatlar)\", osteoklastları inhibe ederek kemik yıkımını durduran ve çenelerde ilaç kaynaklı osteonekroza (MRONJ) yol açabilen antirezorptif ilaçlardır; rejeneratif endodontik tedavide kök hücrelerin odontoblast benzeri hücrelere farklılaşmasında kullanılan büyüme/farklılaşma faktörlerinden biri değildir. Çeldiriciler: A) İnsülin (ve IGF - insülin benzeri büyüme faktörü), kök hücre proliferasyonu ve odontoblastik farklılaşmada rol alan faktörlerdendir. B) Statinler (simvastatin), BMP-2 ekspresyonunu ve anjiyogenezi artırarak odontoblast benzeri hücre farklılaşmasını uyaran ajanlardandır. C) TGF-beta (Transforme edici büyüme faktörü beta 1-3), EDTA ile dentinden salınan ve odontoblast farklılaşmasını uyaran en temel büyüme faktörüdür. D) Dekzametazon (Vitamin D3 ile birlikte), mezenkimal kök hücrelerin mineralize doku üreten odontoblast/osteoblast benzeri hücrelere farklılaşmasını uyaran sentetik glukokortikoiddir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Kök gelişimi tamamlanmamış ve vitalite testlerine negatif yanıt veren bir dişin güncel endodontik revaskülarizasyon tedavisinde kullanılan etilendiamin tetraasetik asit solüsyonu ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kanal içi üçlü antibiyotik patının dentini boyayıcı etkisini azaltmakta etkilidir.",
+      "B": "Kök hücrelerinin çoğalmasını teşvik eder.",
+      "C": "Kök hücrelerinin odontoblast benzeri hücrelere farklılaşmasını teşvik eder.",
+      "D": "Tedavinin ilk seansında dentin tübüllerinin açılmasına ve kanal içi ilacın antimikrobiyal etkisinin artmasına izin verildiği için son yıkama solüsyonu olarak kullanılır.",
+      "E": "Dentin yapısı içerisinde yer alan ve rejeneratif sürece dahil olan endojen biyoaktif sinyal moleküllerinin serbestleşmesini teşvik eder."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Revaskülarizasyon tedavisinde kullanılan %17'lik EDTA solüsyonu smear tabakasını kaldırır ve \"dentin tübüllerinin ağızlarını genişleterek açar\". Dentin tübüllerinin açılması, üçlü antibiyotik patı içindeki minosiklinin tübüllerin derinliklerine daha fazla penetre olmasına ve kalsiyuma bağlanmasına yol açtığı için \"üçlü antibiyotik patının dentini boyayıcı etkisini azaltmaz, aksine renklenmenin artmasıyla sonuçlanabilir\". Çeldiriciler: B) EDTA ile şartlandırılmış ve büyüme faktörleri açığa çıkmış dentin yüzeyi kök hücrelerin tutulumunu, sağkalımını ve çoğalmasını teşvik eder. C) Açığa çıkan kollajen fibriller ve büyüme faktörleri kök hücrelerin odontoblast benzeri hücrelere farklılaşmasını teşvik eder. D) İlk seansta NaOCl sonrası 2 dk EDTA uygulanması smear'ı kaldırıp dentin tübüllerini açarak yerleştirilecek kanal içi medikamentin tübül penetrasyonunu ve antimikrobiyal etkisini artırır. E) Dentin matriksini yüzeyel demineralize ederek içinde gömülü bulunan endojen biyoaktif sinyal moleküllerinin (TGF-β, BMP, VEGF vb. büyüme faktörleri ve sitokinlerin) serbestleşmesini sağlar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi dentinden büyüme faktörü salımına neden olmaz?",
+    "options": {
+      "A": "EDTA",
+      "B": "Sitrik asit",
+      "C": "Ortofosforik asit",
+      "D": "Klorheksidin",
+      "E": "Kalsiyum silikatlar"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök kanal dentininde gömülü halde bulunan büyüme faktörlerinin (TGF-β1, BMP, IGF vb.) matriksten serbestleşip salınabilmesi için kullanılan ajanın ya dentini demineralize eden bir şelatör/asit olması ya da yüksek alkalen yapısıyla matriks proteinlerini çözen biyoaktif bir kalsiyum hidroksit/silikat olması gerekir. \"Klorheksidin\" ise nötr pH'lı katyonik bir antiseptiktir; hiçbir demineralizasyon veya doku çözme etkisi olmadığı için \"dentinden büyüme faktörü salımına neden olmaz\" (üstelik kök hücrelere sitotoksiktir). Çeldiriciler: A) EDTA (%17), kalsiyum şelasyonuyla dentini demineralize ederek en yüksek miktarda büyüme faktörü salınımını sağlayan ajandır. B) Sitrik asit, dentini demineralize ederek büyüme faktörü salınımına neden olur. C) Ortofosforik asit (asitleme) ve çürükteki bakteri asitleri (laktik asit), dentini demineralize ederek büyüme faktörü salınımını tetikler. E) Kalsiyum silikatlar (MTA, Biodentine) ve kalsiyum hidroksit, salgıladıkları hidroksil iyonlarıyla dentin matriksinden büyüme faktörlerinin salınımına neden olur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  },
+  {
+    "question": "Rejeneratif endodontik tedavilerde kullanılan üçlü antibiyotik patının boyayıcı etkinliğini azaltmak için aşağıdaki önlemlerden hangisi alınabilir?",
+    "options": {
+      "A": "Kök kanallarının EDTA ile yıkanması",
+      "B": "Kök kanallarının NaOCl ile yıkanması",
+      "C": "Bariyer olarak MTA kullanılması",
+      "D": "Geçici dolgu olarak cam iyonomer siman kullanılması",
+      "E": "Kuronal dentin tübüllerinin bonding ajanı ile tıkanması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Rejeneratif endodontide üçlü antibiyotik patı (TAP) kullanılacağı zaman içeriğindeki minosiklinin görünür kuron dentinine sızarak dişin rengini koyulaştırmasını önlemek için alınabilecek en etkili klinik önlem, pat kanala yerleştirilmeden önce \"pulpa odası ve kuronal giriş kavitesi duvarlarındaki dentin tübüllerinin bir dentin adezivi (bonding ajanı) uygulanarak tıkanması (örtülenmesi)\"dir (Bir diğer yöntem ise patı kanala direkt sürmek yerine lentülo/enjektörle chỉ mine-sement sınırının apikaline yerleştirmek veya minosiklini çıkarıp Ca(OH)2/ikili pat kullanmaktır). Çeldiriciler: A) Kanalların EDTA ile yıkanması dentin tübüllerini açtığı için boyanmayı azaltmaz, artırır. B) NaOCl ile yıkama dezenfeksiyon içindir, minosiklin boyamasını engellemez. C) Bariyer olarak MTA kullanılması bizmut oksit içeriği nedeniyle kendisi ekstra gri renklenmeye yol açar (MTA yerine Biodentine kullanılmalıdır). D) Geçici dolgu olarak cam iyonomer siman kullanılması koronal mikrosızıntıyı önler ancak kanal içindeki patın kuron dentinine içeriden nüfuz etmesini engellemez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 18 - REJENERATİF ENDODONTİ"
+  }
+]

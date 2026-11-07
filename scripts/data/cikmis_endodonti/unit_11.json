@@ -1,0 +1,762 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi kök kanal tedavisinde kullanılan irrigasyon solüsyonlarının yararlarından biri değildir?",
+    "options": {
+      "A": "Organik debrisin çözülmesini sağlaması",
+      "B": "Dentin tübüllerini tıkaması",
+      "C": "Mikroorganizmaların ortadan kaldırılması",
+      "D": "Kanal duvarlarının ıslatılması",
+      "E": "Kök kanal enstrümanlarının ulaşamadığı bölgelerde dezenfeksiyon etkisi sağlaması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kök kanal irrigasyon solüsyonlarının amacı \"dentin tübüllerini tıkamak\" değil; tam aksine tübül ağızlarını örten smear tabakasını ve debrisi çözüp uzaklaştırarak dentin tübüllerini \"açmak\", böylece antiseptik solüsyonların, kanal içi ilaçların ve kanal dolgu patlarının tübüller içerisine derinlemesine penetre olmasını sağlamaktır. Çeldiriciler: A) Sodyum hipoklorit (NaOCl) gibi proteolitik solüsyonlar vital ve nekrotik organik pulpa dokusunun/debrisin çözülmesini sağlar. C) Antibakteriyel etkinlikleriyle kök kanalındaki planktonik ve biyofilm halindeki mikroorganizmaları ortadan kaldırırlar. D) Kanal duvarlarını ıslatıp kayganlaştırarak (lubrikasyon) kanal eğelerinin kırılma ve basamak yapma riskini azaltırlar. E) Eğelerin mekanik olarak temas edemediği isthmus, fin, apikal delta ve yan kanallara ulaşarak dezenfeksiyon sağlarlar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kök kanal tedavisinde kullanılan irrigasyon solüsyonlarının yararlarından değildir?",
+    "options": {
+      "A": "Smear tabakasını kaldırmak",
+      "B": "Dentin geçirgenliğini azaltmak",
+      "C": "Dezenfeksiyon sağlamak",
+      "D": "Preparasyon hatalarını azaltmak",
+      "E": "Rezorptif sahaları dezenfekte etmek"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kök kanal irrigasyonu ile smear tabakası kaldırılarak dentin tübül ağızları açılır; bu işlem \"dentin geçirgenliğini azaltmaz\", aksine dezenfektanların ve kanal patının tübüllere nüfuz edebilmesi için dentin geçirgenliğini artırır. Çeldiriciler: A) NaOCl ve EDTA'nın kombine kullanımı organik ve inorganik smear tabakasını kaldırır. C) Kanal içi bakteriyel yükü ve endotoksinleri yok ederek dezenfeksiyon sağlar. D) Kanal içi lubrikasyon (kayganlaştırma) sağlayarak ve dentin talaşlarının apikali tıkamasını önleyerek basamak, transportasyon ve alet kırılması gibi preparasyon hatalarını azaltır. E) Eğelerin ulaşamadığı düzensiz internal rezorpsiyon lakünlerine nüfuz ederek bu sahaları dezenfekte eder ve organik dokuyu çözer.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi ideal irriganın özelliklerinden değildir?",
+    "options": {
+      "A": "Germisit ve fungusit özellikleri de olmalı.",
+      "B": "Yüzeyle yaptığı kontak açısı büyük olmalı.",
+      "C": "Endotoksinleri inaktive etmeli.",
+      "D": "Organik dokulardan etkilenmemeli.",
+      "E": "Adezyonu bozmamalı."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Bir sıvının katı bir yüzeyi ıslatabilme yeteneği \"yüzey gerilimi\" ve \"kontak (temas) açısı\" ile ters orantılıdır. İdeal bir irrigasyon solüsyonunun dentin duvarlarını tam olarak ıslatabilmesi ve dar dentin tübülleri ile yan kanallara derinlemesine penetre olabilmesi için yüzey geriliminin ve \"yüzeyle yaptığı kontak açısının küçük (düşük, <90° hidrofilik)\" olması gerekir. Kontak açısı büyük (>90° hidrofobik) olan bir sıvı damla halinde toplanır ve dentini ıslatamaz. Çeldiriciler: A) Geniş spektrumlu antimikrobiyal etkiye (bakterisit/germisit, virüsit ve fungusit) sahip olmalıdır. C) Gram-negatif bakterilerin hücre duvarındaki lipopolisakkaritleri (endotoksinleri) inaktive edebilmelidir. D) Kanal içindeki kan, serum, eksuda ve organik doku artıkları varlığında antimikrobiyal etkinliğini kaybetmemelidir. E) Kanal dolgu maddelerinin ve rezinlerin dentin duvarlarına bağlanmasını (adezyonunu) ve sızdırmazlığını olumsuz etkilememelidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıdaki irrigasyon solüsyonlarından hangisi organik doku çözücü özelliğine sahiptir?",
+    "options": {
+      "A": "Klorheksidin",
+      "B": "Formaldehit",
+      "C": "Sodyum hipoklorit",
+      "D": "Etilen diamin tetra-asetik asit",
+      "E": "İodin potasyum iodid"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Endodontide kullanılan irrigasyon solüsyonları arasında hem nekrotik hem de vital pulpa dokusunu, kollajeni ve biyofilmin organik matriksini güçlü proteolitik/oksidatif etkisiyle eritip çözebilen (en etkili organik doku çözücü) ajan \"sodyum hipoklorit (NaOCl)\"tir. Çeldiriciler: A) Klorheksidin (CHX) güçlü antibakteriyel ve substantif etkiye sahip olmasına rağmen hiçbir organik veya inorganik doku çözücü özelliği yoktur. B) Formaldehit (formokrezol vb.) dokuyu çözmez, aksine proteinleri çapraz bağlayarak dokuyu fikse eder (mumyalaştırır). D) Etilendiamin tetraasetik asit (EDTA) kalsiyum iyonlarını bağlayan bir şelatördür; organik dokuyu çözmez, yalnızca inorganik dentin/smear matriksini çözer. E) İyodin potasyum iyodit (IKI) iyi bir antiseptiktir ancak organik doku çözücü özelliği bulunmamaktadır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Klorheksidin\nII. Sodyum hipoklorit\nIII. Etilendiamin tetraasetik asit\nYukarıda verilen irrigasyon solüsyonlarından hangisi veya hangileri kollajen dokuyu çözer?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kollajen, pulpa bağ dokusunun ve dentin organik matriksinin temel \"organik protein\" bileşenidir. Dolayısıyla kollajen dokuyu çözebilen ajan, proteolitik/organik doku çözücü özelliğe sahip olan ajandır. Öncüllerin Analizi: I. Klorheksidin hiçbir organik (kollajen) veya inorganik dokuyu çözemez; hatta MMP enzimlerini inhibe ederek kollajen yıkımını önler (Yanlış). II. Sodyum hipoklorit (NaOCl), güçlü alkalen ve proteolitik etkisiyle peptid bağlarını parçalayarak kollajen dokuyu (organik dokuyu) çözer (Doğru). III. Etilendiamin tetraasetik asit (EDTA), yalnızca kalsiyum gibi inorganik mineralleri şelasyonla çözer, organik kollajen fibrilleri çözemez (Yanlış). Çeldiriciler: A) Klorheksidin doku çözmez. C) I. öncül yanlıştır. D) I ve III. öncüller kollajen çözmez. E) III. öncül inorganik çözücüdür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi inorganik doku çözer?",
+    "options": {
+      "A": "Klorheksidin",
+      "B": "Sodyum hipoklorit",
+      "C": "Hidrojen peroksit",
+      "D": "Formaldehit",
+      "E": "Sitrik asit"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Sitrik asit\" (%10-50 konsantrasyonda kullanılan organik bir zayıf asit), EDTA ve maleik asit gibi kalsiyum iyonlarıyla şelasyon yaparak smear tabakasının inorganik kısmını ve mineralize dentini demineralize eden yani \"inorganik doku çözen\" bir irrigasyon ajanıdır. Çeldiriciler: A) Klorheksidin ne organik ne de inorganik doku çözer. B) Sodyum hipoklorit yalnızca organik dokuyu çözer, inorganik dokuya etki etmez. C) Hidrojen peroksit zayıf organik etkiye ve köpürme özelliğine sahiptir, inorganik doku çözmez. D) Formaldehit organik dokuyu fikse eder, doku çözmez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Endodontide kullanılan irrigasyon solüsyonlarından sodyum hipoklorit ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Antimikrobiyal özelliği iyidir.",
+      "B": "İyi bir vital ve nekrotik doku çözücüdür.",
+      "C": "Smear tabakasını tek başına çıkarır.",
+      "D": "Kanal tedavisinin başarısında hangi miktarda kullanıldığı ve doku ile temas süresi önemlidir.",
+      "E": "Sıcaklığın yükseltilmesi ile doku çözücü etkinliği artar."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Smear tabakası; kanal eğelemesi sırasında oluşan hem organik (nekrotik/vital pulpa kalıntıları, bakteriler, odontoblast uzantıları) hem de inorganik (kalsifiye dentin talaşları) bileşenlerin karışımından meydana gelir. Sodyum hipoklorit (NaOCl) yalnızca organik dokuyu çözebilir, inorganik minerallere etki edemediği için \"smear tabakasını tek başına çıkaramaz\". Smear tabakasının tamamen kaldırılması için NaOCl'nin mutlaka EDTA veya sitrik asit gibi bir inorganik çözücü (şelatör) ile birlikte/ardışık kullanılması gerekir. Çeldiriciler: A) Bakteri, spor, virüs, mantar (Candida), E. faecalis ve biyofilmlere karşı çok güçlü ve geniş spektrumlu antimikrobiyal özelliğe sahiptir. B) Proteolitik etkisiyle hem vital hem nekrotik organik dokuları eriten en iyi çözücüdür. D) Organik dokuyla temas ettiğinde serbest klor hızla tükendiği için sık yenilenmesi, bol hacimde (miktarda) kullanılması ve temas süresinin artırılması etkinlik için çok önemlidir. E) Solüsyonun 45-60°C'ye ısıtılması moleküllerin kinetik enerjisini ve klor salınımını hızlandırarak organik doku çözücü etkinliğini belirgin şekilde artırır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Etkili organik doku çözücü ve geniş spektrumlu antibakteriyel özelliği olan, etkinliğini artırmak için uzun süre ve bol miktarda kullanımı önerilen, ısıtıldığında etkisi artan ajan aşağıda verilenlerden hangisidir?",
+    "options": {
+      "A": "Klorheksidin",
+      "B": "Etilendiamin tetraasetik asit",
+      "C": "Sodyum hipoklorit",
+      "D": "İyodür potasyum iyodid",
+      "E": "Etidronik asit"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Güçlü organik doku çözücü ve geniş spektrumlu antimikrobiyal olması, dokuda hızla inaktive olduğu için bol hacimde ve uzun süreli uygulanmasının önerilmesi ve 45-60°C'ye ısıtıldığında (veya ultrasonikle aktive edildiğinde) doku çözme/bakterisit etkinliğinin katlanarak artması \"sodyum hipoklorit (NaOCl)\" solüsyonunun karakteristik özellikleridir. Çeldiriciler: A) Klorheksidin organik doku çözmez ve yüksek ısıda toksik yan ürünler (parakloroanilin) oluşturabilir. B) EDTA organik doku çözmez ve ısıtıldığında şelasyon etkinliği artmaz (aksine azalır). D) İyodür potasyum iyodid organik doku çözücü değildir. E) Etidronik asit (HEBP) zayıf bir şelatördür (inorganik etkilidir), organik doku çözmez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. EDTA ile birlikte kullanılması\nII. Etidronik asit ile birlikte kullanılması\nIII. 60 °C'ye ısıtılarak kullanılması\nSodyum hipokloritin organik doku çözücülüğü, yukarıdaki durumların hangilerinde artar?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Sodyum hipokloritin (NaOCl) organik doku çözücü kapasitesi; konsantrasyon, hacim, temas süresi, yüzey gerilimi, mekanik/ultrasonik aktivasyon, \"sıcaklık\" ve diğer kimyasallarla olan etkileşimi tarafından doğrudan belirlenir. Öncüllerin Analizi: I. NaOCl'nin EDTA ile karıştırılarak birlikte kullanılması durumunda EDTA, NaOCl içindeki aktif serbest kloru kimyasal olarak bağlar ve nötralize eder; bunun sonucunda NaOCl'nin organik doku çözücülüğü ve antibakteriyel etkisi artmaz, aksine \"tamamen kaybolur/azalır\" (Yanlış). II. Etidronik asit (HEBP), NaOCl ile karıştırılabilen zayıf bir şelatördür; kısa vadede NaOCl ile reaksiyona girmez ve kloru tüketmeyerek NaOCl'nin mevcut etkisini korumasını sağlar ancak organik doku çözücülüğünü \"artırmaz\" (Yanlış). III. NaOCl solüsyonunun 60 °C'ye ısıtılarak kullanılması reaksiyon hızını ve klor iyonu aktivitesini yükselterek organik doku çözücülüğünü belirgin şekilde \"artırır\" (Doğru). Çeldiriciler: A) EDTA, NaOCl'nin doku çözücülüğünü yok eder. C) I ve II. öncüller yanlıştır. D) I. öncül yanlıştır. E) Etidronik asit NaOCl'nin etkisini bozmaz ama artırmaz da.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. EDTA ile birlikte kullanılması\nII. Etidronik asit ile birlikte kullanılması\nIII. 60 °C'ye ısıtılarak kullanılması\nEndodontik tedavi öncesinde elinde oldukça az sodyum hipoklorit kaldığını gören hekim ajanı distile su ile çoğaltıyor. Ancak bunun sonucunda ajanın konsantrasyonu düşüyor. Düşük konsantrasyonlu bu hipokloritin kollajen doku çözücü etkisini artırmak için yukarıda verilenlerden hangisi veya hangileri uygulanabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dilüe edilerek konsantrasyonu düşürülmüş bir sodyum hipoklorit (NaOCl) solüsyonunun organik (kollajen) doku çözücü etkinliğini yüksek konsantrasyonlu NaOCl seviyesine çıkarabilmenin en etkili yolları; solüsyonu bol hacimde kullanmak, ultrasonik olarak aktive etmek ve \"60 °C'ye ısıtarak kullanmak\"tır. Öncüllerin Analizi: I. EDTA ile birlikte kullanılması serbest kloru bağlayarak NaOCl'nin kollajen çözücü etkisini tamamen sıfırlar (Yanlış). II. Etidronik asit (HEBP) sadece inorganik smear tabakasını çözerken NaOCl'nin klorunu tüketmez; ancak NaOCl'nin kendi kollajen çözme gücünü artırmaz (Yanlış). III. 60 °C'ye ısıtılması kinetik enerjiyi artırarak düşük konsantrasyonlu NaOCl'nin kollajen doku çözücü etkisini güçlü şekilde artırır (Doğru). Çeldiriciler: A) EDTA kloru inaktive eder. C) I ve II. öncüller yanlıştır. D) I. öncül yanlıştır. E) II. öncül doku çözme gücünü artırmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi sodyum hipokloritin etki mekanizmaları arasında yer almaz?",
+    "options": {
+      "A": "Saponifikasyon",
+      "B": "Hipokloröz asit oluşumu",
+      "C": "Düşük pH",
+      "D": "Aminoasit nötralizasyonu",
+      "E": "Kloraminasyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Sodyum hipoklorit (NaOCl) \"düşük pH'lı (asidik)\" bir solüsyon değildir; tam aksine pH'sı \"11-12 civarında olan güçlü alkalen (yüksek pH'lı)\" bir solüsyondur ve doku çözücü/antibakteriyel etkinliğini bu yüksek (alkalen) pH ve hidroksil iyonları sayesinde gösterir. Çeldiriciler: A) Saponifikasyon (sabunlaşma) reaksiyonu ile yağ asitlerini ve lipitleri yağ asidi tuzlarına (sabuna) ve gliserole dönüştürerek organik dokuyu eritir. B) Suda çözündüğünde oluşan hipokloröz asit (HOCl), bakteri hücre duvarını geçerek enzimlerin sülfhidril (-SH) gruplarını okside eder. D) Hidroksil iyonları aminoasitleri nötralize ederek su ve tuz oluşturur, böylece proteinleri parçalar. E) Hipokloröz asitten ayrılan klor, proteinlerin amino gruplarıyla birleşerek bakteriyel metabolizmayı bozan kloraminleri oluşturur (kloraminasyon).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi sodyum hipokloritin apeksten taşması durumunda alınacak önlemlerden değildir?",
+    "options": {
+      "A": "Lokal anestezi ve analjeziklerle ağrı kontrolü",
+      "B": "Önce soğuk sonra sıcak kompres ve gargaralar",
+      "C": "Sekonder enfeksiyon riski varlığında antibiyotik önerilmesi",
+      "D": "Kanalın açık bırakılması",
+      "E": "Günlük takip"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sodyum hipokloritin (NaOCl) apikal foramenden periapikal dokulara taşması (hipoklorit kazası) durumunda kanal içinden gelen hemoraji/eksuda durduktan sonra \"kanalın ağız ortamına açık bırakılması\" kesinlikle önerilmez. Dişin açık bırakılması, zaten kimyasal olarak nekroze olmuş ve savunmasız kalmış periapikal dokuların tükürükteki oral flora bakterileriyle ağır şekilde sekonder enfekte olmasına ve tablonun çok daha kötüye gitmesine yol açar. Çeldiriciler: A) Hipoklorit taşması anında çok şiddetli, yakıcı bir ağrı oluştuğu için hemen lokal anestezi (hatta rejyonel blok) yapılmalı ve güçlü analjezik/antiinflamatuar ilaçlar reçete edilmelidir. B) Ödem ve hematom gelişimini sınırlandırmak için ilk 24 saat (ilk gün) ekstraoral soğuk kompres, sonraki günlerde ise dolaşımı artırıp doku rezorpsiyonunu hızlandırmak için sıcak kompres ve ılık tuzlu su gargaraları önerilir. C) Kimyasal doku nekrozu zemininde gelişebilecek sekonder enfeksiyon ve selülit riskine karşı antibiyotik reçete edilir. E) Hava yolu obstrüksiyonu, parestezi veya yayılan nekroz/ekimoz açısından hasta mutlaka günlük olarak yakından takip edilmeli, gerekirse hospitalize edilmelidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, endodontik tedavi sırasında sodyum hipoklorit solüsyonunun periapikal dokulara taşmasına neden olan faktörlerden biri değildir?",
+    "options": {
+      "A": "İrrigasyon sırasında aşırı basınç uygulanması",
+      "B": "Apikal foramenin iyatrojenik genişletilmesi",
+      "C": "İrrigasyon iğnesinin kanalda sıkışması",
+      "D": "Perforasyon varlığı",
+      "E": "Apikal delta varlığı"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Apikal delta, kökün en apikal kısmında ana kanalın çok ince mikroskobik yan dallara ayrılmasıyla oluşan dar anatomik ağ ve arasındaki üçgenimsi dentin kütleleridir. Apikal deltadaki kanalcıklar çok dar olduğu için sıvı akışına direnç gösterir; bu nedenle apikal delta varlığı sodyum hipokloritin periapikal dokulara taşmasına neden olmaz. Çeldiriciler: A) Enjektör pistonuna aşırı basınç uygulanması solüsyonun yüksek hidrodinamik basınçla apikal foramenden dışarı fırlamasına yol açar. B) Çalışma boyunun kaybedilerek minör apikal daralımın (apikal foramenin) iyatrojenik olarak aşırı genişletilmesi doğal bariyeri yok ederek taşmaya neden olur. C) İrrigasyon iğnesinin kanal duvarlarına sıkışması (kama etkisi) solüsyonun koronalden geri kaçış yolunu kapatır ve sıvının tamamının apikal foramenden periapekse basılmasına yol açar. D) Kök veya apikal perforasyon varlığı solüsyonun doğrudan periodontal ligamente ve kemiğe kaçmasına neden olur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Kanal tedavisi sırasında hekim irrigasyon yaparken hastada ani bir yanma ve şiddetli ağrı hissi oluşuyor ve yüzünde hızlı bir şişlik gelişiyor. Aşağıda verilenlerden hangisinin bu durumun sebebi olması beklenmez?",
+    "options": {
+      "A": "İrrigasyon sırasında aşırı basınç uygulanması",
+      "B": "Apikal foramenin iyatrojenik genişletilmesi",
+      "C": "İrrigasyon iğnesinin kanalda sıkışması",
+      "D": "Perforasyon varlığı",
+      "E": "Apikal delta varlığı"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İrrigasyon esnasında ani yanma, şiddetli ağrı ve yüzde hızla gelişen ödem/ekimoz tablosu \"sodyum hipoklorit kazasını (taşmasını)\" tanımlar. Mikroskobik yan dallardan oluşan \"apikal delta varlığı\" dar lümen yapısı nedeniyle apikalden sıvı taşmasına sebep olmaz; taşma ancak genişlemiş apeks, perforasyon, sıkışmış iğne veya aşırı basınç varlığında gerçekleşir. Çeldiriciler: A) Aşırı enjeksiyon basıncı hipoklorit taşmasının en sık nedenidir. B) Apikal foramenin iyatrojenik olarak genişletilmesi (zipping/transportasyon) apikal daralımı bozarak taşmaya yol açar. C) İğnenin kanalda sıkışması geri akışı engelleyerek sıvıyı apikalden dışarı iter. D) Perforasyon varlığı solüsyonun doğrudan periradiküler dokulara geçmesine neden olur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Negatif basınçlı irrigasyon cihazları\nII. Ucu kapalı enjektörler\nIII. Crown down preparasyonu\nYukarıda verilenlerden hangisi veya hangileri kanal tedavisi sırasında kanaldan sodyum hipoklorit taşmasını önlemek adına alınabilecek önlemlerdendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Sodyum hipokloritin periapikal dokulara taşmasını önlemek için hem şekillendirme tekniğinde hem de kullanılan irrigasyon ekipmanlarında apikal basıncı düşüren önlemler alınmalıdır. Öncüllerin Analizi: I. EndoVac gibi \"negatif apikal basınçlı irrigasyon cihazları\", solüsyonu apikale itmek yerine koronalden verilen sıvıyı apikaldeki mikrokanülle vakumlayarak çektiği için apikalden taşmayı önlemede en güvenli yöntemdir (Doğru). II. Ucu açık iğneler sıvıyı doğrudan apikal foramene doğru jet akımıyla fışkırtırken, \"ucu kapalı ve yandan delikli (side-vented) enjektör iğneleri\" sıvıyı kanal duvarlarına yönlendirerek apikal taşma riskini önler (Doğru). III. \"Crown-down preparasyonu\", koronal ve orta üçlüyü genişleterek irrigasyon sıvısının koronalden rahatça geri kaçmasını (back-flow) sağlar ve apikal bölge en son şekillendirildiği için taşmayı önler (Doğru). Çeldiriciler: A) II ve III. öncüller de temel önlemlerdir. B) I ve III. öncüller de doğrudur. C) III. öncül de doğrudur. D) I. öncül en güvenli sistemdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Kök kanalını salin solüsyonu ile yıkamak\nII. Lokal anestezi uygulamak\nIII. Ekstraoral sıcak kompres uygulamak\nKök kanal irrigasyonu sırasında periapikal bölgeye sodyum hipoklorit taşmasını takiben oluşan hafif semptomları kontrol altına almak için öncelikle yukarıdakilerden hangilerinin yapılması doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Sodyum hipoklorit taşması fark edildiği anda hasta başında \"öncelikle (ilk müdahale olarak)\" yapılması gerekenler; ağrıyı kesmek, dokudaki hipokloriti seyreltmek ve akut ödemi sınırlandırmaktır. Öncüllerin Analizi: I. Kök kanalını bol miktarda steril \"salin (serum fizyolojik) solüsyonu veya distile su ile yıkamak\", kalan hipokloriti dilüe etmek (seyreltmek) ve apikalden gelen eksuda/kanamayla dışarı atılmasını sağlamak için hemen yapılmalıdır (Doğru). II. Hastada oluşan ani ve şiddetli kimyasal yanma ağrısını kontrol altına almak için derhal \"lokal anestezi\" uygulanmalıdır (Doğru). III. İşlemin hemen ardından (ilk 24 saatte) vazodilatasyonu ve ödemi azaltmak için sıcak değil, \"soğuk kompres\" uygulanmalıdır; ekstraoral sıcak kompres ancak 24 saat geçtikten sonra (ertesi gün) hematom/ödemin dağılmasını hızlandırmak için uygulanır, öncelikli ilk müdahale değildir (Yanlış). Çeldiriciler: A) II. öncül de acil ağrı kontrolü için şarttır. B) İlk gün sıcak değil soğuk kompres yapılır. D) III. öncül ilk müdahalede yanlıştır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Kök kanal irrigasyonu sırasında periapikal bölgeye sodyum hipoklorit taşmasının ardından oluşan hafif semptomları kontrol altına almak için öncelikli olarak aşağıda verilenlerden hangisinin yapılması doğrudur?",
+    "options": {
+      "A": "Antibiyotik başlanması",
+      "B": "Antihistaminik başlanması",
+      "C": "Kök kanalının serum fizyolojik ile yıkanması ve anestezi uygulanması",
+      "D": "Ekstraoral sıcak kompres uygulamak",
+      "E": "Kök kanalının klorheksidin ile yıkanması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Periapikal bölgeye sodyum hipoklorit taşması gerçekleştiği anda koltukta yapılacak en \"öncelikli\" acil müdahale; hastanın şiddetli ağrısını kesmek için \"lokal anestezi uygulanması\" ve dokudaki kostik ajanın konsantrasyonunu düşürüp uzaklaştırmak için \"kök kanalının bol serum fizyolojik (salin) ile yıkanması\"dır. Çeldiriciler: A) Antibiyotik reçete edilmesi işlem sonrasında sekonder enfeksiyonu önlemek için yapılır, koltuktaki ilk anlık müdahale değildir. B) Tablo alerjik değil kimyasal yanık/travma olduğu için antihistaminik öncelikli değildir. D) İlk 24 saat sıcak kompres ödem ve kanamayı artıracağı için kontrendikedir; ilk gün soğuk kompres uygulanır. E) Kök kanalının klorheksidin ile yıkanması kalan NaOCl ile reaksiyona girerek toksik parakloroanilin çökeltisi oluşturacağı için kesinlikle yapılmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi kök kanal irrigasyonu sırasında sodyum hipokloritin periapikal sahaya taşmasını önlemek için uygulanabilecek yöntemlerden değildir?",
+    "options": {
+      "A": "İğnenin kanal içinde hareket ettirilmesi",
+      "B": "Negatif basınçlı irrigasyon cihazı kullanılması",
+      "C": "Ucu kapalı enjektör kullanılması",
+      "D": "Balance force tekniği kullanılması",
+      "E": "İrrigasyonun yavaş yapılması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): \"Balance force (dengeli kuvvet) tekniği\", bir irrigasyon yöntemi veya taşma önleme protokolü değildir; eğimli kök kanallarının mekanik şekillendirilmesinde kanal transportasyonunu ve alet kırılmasını önlemek için kullanılan apiko-koronal bir eğeleme kinematiğidir (Şekillendirmede taşmayı önleyen yöntem ise koronalden başlayan crown-down tekniğidir). Çeldiriciler: A) İğnenin kanal içinde sıkışmaması için sürekli küçük ileri-geri hareketlerle (ajite edilerek) hareket ettirilmesi taşmayı önler. B) EndoVac gibi negatif basınçlı irrigasyon cihazları sıvıyı apikalden vakumladığı için taşmayı tamamen engeller. C) Ucu kapalı ve yandan açılan (side-vented) iğneler sıvının doğrudan apikal foramene fışkırmasını önler. E) İrrigasyonun nazik, düşük basınçla ve yavaş yapılması periapikale taşma riskini azaltır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Kalsiyum hidroksit\nII. Etilendiamin tetraasetik asit\nIII. Klorheksidin diglukonat\nSodyum hipoklorit alerjisi olduğu bilinen bir hastada endodontik tedavi sırasında nekrotik ve vital pulpa dokusunu çözmek için yukarıdaki ajanlardan hangileri kullanılabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Sodyum hipoklorit (NaOCl) alerjisi olan bir hastada hem yapısında klor atomu bulunmayan (çapraz alerji yapmayan) hem de yüksek alkalen pH'sı sayesinde \"nekrotik ve vital organik pulpa dokusunu çözebilme\" kapasitesine sahip olan bir ajan seçilmelidir. Öncüllerin Analizi: I. Kalsiyum hidroksit (Ca(OH)2), yapısında klor içermez ve yüksek pH'sı (12.5) ile proteinleri denatüre edip hidrolize ederek (NaOCl'ye göre daha yavaş da olsa, özellikle seans arasında) nekrotik ve vital pulpa dokusunu çözebilir (Doğru). II. Etilendiamin tetraasetik asit (EDTA) bir şelatördür; yalnızca inorganik dentin minerallerini çözer, nekrotik veya vital organik pulpa dokusunu kesinlikle çözemez (Yanlış). III. Klorheksidin diglukonatın hiçbir organik doku çözücü özelliği yoktur; ayrıca yapısında \"klor\" halkaları bulunduğu için klor/hipoklorit alerjisi olan hastada kullanımı risklidir (Yanlış). Çeldiriciler: B) EDTA organik doku çözemez. C) Klorheksidin doku çözmez ve klor içerir. D) II ve III. öncüllerin ikisi de organik doku çözemez. E) II ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Kalsiyum hidroksit\nII. Etilendiamin tetraasetik asit\nIII. Klorheksidin diglukonat\nEndodontik tedavi sırasında nekrotik ve vital pulpa dokusunu çözmek için yukarıdaki ajanlardan hangileri kullanılabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Nekrotik ve vital pulpa dokusu \"organik\" yapıda olduğundan, bu dokuyu çözmek için kullanılan ajanın organik doku çözücü özelliğe sahip olması şarttır. Öncüllerin Analizi: I. Kalsiyum hidroksit, yüksek alkalen yapısı sayesinde organik pulpa dokusunu parçalayıp çözebilme (ve sonrasında yapılan yıkamayla uzaklaştırılmasını kolaylaştırma) yeteneğine sahiptir (Doğru). II. Etilendiamin tetraasetik asit (EDTA) sadece inorganik kalsiyum tuzlarını çözer, organik pulpa dokusunu çözmez (Yanlış). III. Klorheksidin diglukonat iyi bir antiseptiktir ancak organik veya inorganik hiçbir dokuyu çözemez (Yanlış). Çeldiriciler: B) EDTA sadece inorganik yapı çözer. C) III. öncül doku çözmez. D) II ve III. öncüller organik doku çözemez. E) II ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Salvizol\nII. MTAD\nIII. Qmix\nYukarıda verilenlerden hangisi veya hangileri klorheksidin ve etilendiamin tetraasetikasit içerir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hem smear tabakasını kaldırmak hem de kalıcı antibakteriyel etki sağlamak amacıyla geliştirilen kombine irrigasyon solüsyonlarının içerikleri birbirinden farklıdır. Öncüllerin Analizi: I. Salvizol, kuaterner amonyum bileşiği (dekaniyum-bis-kinolin) ve aminoasit şelatörü içeren eski bir solüsyondur, klorheksidin içermez (Yanlış). II. MTAD (ve Tetraclean), tetrasiklin izomeri (doksisiklin), sitrik asit ve deterjan (Tween 80) karışımıdır; klorheksidin ve EDTA içermez (Yanlış). III. QMix; \"klorheksidin (CHX)\", \"etilendiamin tetraasetik asit (EDTA)\" ve yüzey gerilimini düşürüп parakloroanilin çökeltisini engelleyen bir yüzey aktif madde/deterjan (Cetrimide / triklosan türevi) içeren hazır kombine irrigasyon solüsyonudur (Doğru). Çeldiriciler: A) Salvizol CHX içermez. B) MTAD doksisiklin ve sitrik asit içerir. D) I ve II. öncüller yanlıştır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Klorheksidin ile ilgili olarak aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Smear tabakasını etkili şekilde kaldırır.",
+      "B": "Düşük konsantrasyonda bakteriostatik yüksek konsantrasyonda bakterisid etki gösterir.",
+      "C": "Mikroorganizmaların hücre duvarına etki ederek zar geçirgenliğini arttırır ve antibakteriyel etki sağlar.",
+      "D": "Dental dokular ve oral mukoza tarafından absorbe edilerek uzun süre etki gösterir.",
+      "E": "Gram (+) ve gram (-) mikroorganizmalara etkilidir."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Klorheksidin diglukonatın (CHX) ne organik ne de inorganik doku çözücü özelliği vardır; bu nedenle \"smear tabakasını etkili şekilde kaldırır\" ifadesi kesinlikle yanlıştır, smear tabakasına hiçbir etkisi yoktur. Çeldiriciler: B) Konsantrasyona bağımlı etki gösterir; düşük konsantrasyonda (%0.12-0.2) sitoplazmik potasyum/fosfor sızıntısı yaparak bakteriostatik, yüksek konsantrasyonda (%2) ise sitoplazmayı koagüle edip çöktürerek bakterisid etki gösterir. C) Katyonik (pozitif yüklü) bir molekül olduğu için bakterilerin negatif yüklü hücre duvarı fosfolipitlerine bağlanır, zar geçirgenliğini bozar ve osmotik dengesizlikle hücre lizisi sağlar. D) Dentinin hidroksiapatitine ve oral mukozaya elektrostatik olarak bağlanıp 12 haftaya kadar yavaşça salınarak uzun süreli kalıcı antimikrobiyal etki (substantivite) gösterir. E) Hem Gram (+) (özellikle E. faecalis) hem Gram (-) bakterilere ve mantarlara (C. albicans) karşı etkilidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Etkili doku çözücüdür.\nII. Konsantrasyon arttıkça etki artar.\nIII. Substantiftir.\nKlorheksidin ile ilgili olarak yukarıda verilenlerden hangisi doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Klorheksidin (CHX), endodontide özellikle inatçı enfeksiyonlarda ve retreatment vakalarında son yıkama solüsyonu olarak kullanılan katyonik bir bisguaniddir. Öncüllerin Analizi: I. Klorheksidinin en büyük dezavantajı nekrotik/vital organik dokuları veya inorganik smear tabakasını çözme yeteneğinin olmamasıdır; doku çözücü değildir (Yanlış). II. Konsantrasyonu arttıkça etkinliği bakteriostatikten (%0.2) güçlü bakterisid (%2) düzeye çıkar (Doğru). III. Dentinin hidroksiapatitine bağlanarak haftalarca antimikrobiyal etkisini sürdürme özelliğine yani \"substantivite\"ye sahiptir (Doğru). Çeldiriciler: A) I. öncül yanlıştır, doku çözmez. B) III. öncül de doğrudur. C) II. öncül de doğrudur. D) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Etilen diamin tetraasetik asit\nII. Klorheksidin\nIII. Sodyum hipoklorit\nYukarıda verilenlerden hangisi veya hangilerinin etkinliği ısıtıldığında artar?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İrrigasyon solüsyonlarının ısıtılması kimyasal yapılarına göre farklı sonuçlar doğurur. Öncüllerin Analizi: I. Etilendiamin tetraasetik asit (EDTA) ısıtıldığında şelasyon reaksiyonunun termodinamiği bozulur; kalsiyum bağlama kapasitesi ve etkinliği artmaz, aksine azalır (Yanlış). II. Klorheksidin (düşük/ılımlı sıcaklıklara, 37-45°C'ye) ısıtıldığında antibakteriyel etkinliği artış gösterir (Doğru). III. Sodyum hipoklorit (NaOCl) 45-60°C'ye ısıtıldığında hem organik doku çözme hızı hem de bakterisid etkinliği belirgin şekilde artar (Doğru). Çeldiriciler: A) EDTA ısıtıldığında etkinliği azalır. B) III. öncülün de etkinliği ısıtılınca çok artar. C) II. öncül de ısıtıldığında etki artışı gösterir. D) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Antibakteriyel etkisi yoktur.\nII. Rejeneratif endodontik tedavilerde kök dentininde hapsolmuş büyüme faktörlerinin ortaya çıkarılmasında kullanılır.\nIII. pH değeri 2-3 aralığında olup, kök kanalından organik materyalleri etkin bir şekilde uzaklaştırır.\nEtilendiamin tetraasetik asit (EDTA) ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): %17'lik EDTA, endodontide smear tabakasının inorganik kısmını kaldırmak ve rejeneratif prosedürlerde dentini şartlandırmak için kullanılan temel şelasyon ajanıdır. Öncüllerin Analizi: I. EDTA'nın antibakteriyel etkisi güçlü olmasa da \"hiç yoktur\" denemez; bakteri hücre zarındaki katyonlarla birleşerek ve biyofilmi kanal duvarından kopararak sınırlı/limitli bir antibakteriyel etki gösterir (Yanlış). II. Rejeneratif endodontik tedavilerde kök dentinini hafifçe demineralize ederek dentin matriksinde gömülü halde bulunan büyüme faktörlerinin (TGF-Beta, BMP, VEGF vb.) serbestleşip ortaya çıkarılmasında ve kök hücrelerin uyarılmasında kullanılır (Doğru). III. Endodontide kullanılan %17'lik EDTA tuzunun pH değeri 2-3 değil, \"nötrale yakın (pH 7.3 civarında)\"dır ve kök kanalından organik materyalleri değil, yalnızca \"inorganik\" materyalleri uzaklaştırır (Yanlış). Çeldiriciler: A) I. öncül yanlıştır, sınırlı antibakteriyel etkisi vardır. C) III. öncül tamamen yanlıştır. D) I. öncül yanlıştır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi EDTA'nın kullanım alanlarından biridir?",
+    "options": {
+      "A": "Kanal içi dirençli mikroorganizmaların eliminasyonu",
+      "B": "Organik smear'ın uzaklaştırılması",
+      "C": "Rejeneratif endodontide büyüme faktörü açığa çıkarılması",
+      "D": "Kanal içi nekrotik doku fiksasyonu",
+      "E": "Çatlak ve kırık teşhisi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): %17'lik EDTA, rejeneratif endodontik tedavilerde (revaskülarizasyon) son irrigasyon ajanı olarak kullanıldığında kök kanalı dentinini yüzeyel olarak demineralize eder ve dentin matriksi içine hapsolmuş olan endojen \"büyüme faktörlerinin (özellikle TGF-Beta1) ve sitokinlerin açığa çıkarılmasını\" sağlayarak apikal papilladan gelen kök hücrelerin odontoblast benzeri hücrelere farklılaşmasını tetikler. Çeldiriciler: A) Dirençli mikroorganizmaların (E. faecalis vb.) eliminasyonu için EDTA değil, NaOCl ve CHX kullanılır. B) EDTA organik smear'ı değil, yalnızca \"inorganik\" smear tabakasını uzaklaştırır (organik kısmı NaOCl çözer). D) Nekrotik doku fiksasyonu formaldehit bileşiklerinin özelliğidir, EDTA fiksasyon yapmaz. E) Çatlak ve kırık teşhisinde metilen mavisi ve transillüminasyon kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi inorganik dokuyu çözme potansiyeline sahip değildir?",
+    "options": {
+      "A": "Etilendiamin tetraasetik asit",
+      "B": "Sitrik asit",
+      "C": "Maleik asit",
+      "D": "Etidronik asit",
+      "E": "Hidrojen peroksit"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Hidrojen peroksit (H2O2)\", oksijen salınımı ve köpürme yoluyla sınırlı organik/antibakteriyel etki gösteren oksidatif bir ajandır; şelasyon veya demineralizasyon yeteneği olmadığı için \"inorganik dokuyu (smear tabakasının mineral kısmını) çözme potansiyeline sahip değildir\". Çeldiriciler: A) Etilendiamin tetraasetik asit (EDTA), kalsiyum bağlayarak inorganik dokuyu çözen en güçlü şelatördür. B) Sitrik asit, kalsiyumu şelasyonla çözen organik bir asittir ve inorganik smear'ı kaldırır. C) Maleik asit (%7), özellikle apikal üçlüde smear tabakasının inorganik kısmını EDTA'dan bile etkili çözebilen organik bir asittir. D) Etidronik asit (HEBP), NaOCl ile karıştırılabilen ve inorganik smear tabakasını çözen zayıf bir şelatördür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıda verilen solüsyonlardan hangisi birlikte kullanıldığında toksik özellik gösteren parakloroanilin çökeltisini oluşturur?",
+    "options": {
+      "A": "Sodyum hipoklorit ve klorheksidin",
+      "B": "Klorheksidin ve etilendiamin tetraasetik asit",
+      "C": "Sodyum hipoklorit ve etilendiamin tetraasetik asit",
+      "D": "Sitrik asit ve hidrojen peroksit",
+      "E": "Etilendiamin tetraasetik asit ve hidrojen peroksit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kök kanalı içerisinde \"sodyum hipoklorit (NaOCl)\" ve \"klorheksidin (CHX)\" ara yıkama yapılmaksızın birbiriyle temas ettiğinde, aralarında gerçekleşen asit-baz ve oksidasyon reaksiyonu sonucunda kanal duvarlarını ve dentin tübüllerini tıkayan, dişi boyayan, sitotoksik, kanserojen ve methemoglobinemi/siyanoz yapma potansiyeline sahip olan turuncu-kahverengi (kırmızımsı kahverengi) renkte çözünmeyen \"parakloroanilin (PCA)\" çökeltisi oluşur. Çeldiriciler: B) Klorheksidin ve EDTA birlikte kullanıldığında parakloroanilin değil, \"beyaz-sütlü bir tuz çökeltisi\" oluşur. C) Sodyum hipoklorit ve EDTA karıştırıldığında herhangi bir katı çökelti oluşmaz, ancak EDTA serbest kloru bağlayarak NaOCl'yi inaktive eder (gaz çıkışı olur). D) Sitrik asit ve hidrojen peroksit arasında parakloroanilin çökeltisi oluşmaz. E) EDTA ve hidrojen peroksit arasında parakloroanilin oluşmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Klorheksidin\nII. Hidrojen peroksit\nIII. Etilendiamin tetraasetik asit\nYukarıda verilen ajanlardan hangisi sodyum hipoklorit ile birlikte kullanıldığında renklenmeye sebep olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Sodyum hipoklorit (NaOCl) ile etkileşime girdiğinde renkli bir çökelti oluşturarak dişte kalıcı içsel renklenmeye yol açan ajan klorheksidindir. Öncüllerin Analizi: I. Klorheksidin, sodyum hipoklorit ile temas ettiğinde kırmızı-kahverengi renkte çözünmeyen \"parakloroanilin\" çökeltisi oluşturur ve dentin tübüllerine çökelerek dişte ciddi renklenmeye sebep olur (Doğru). II. Hidrojen peroksit, sodyum hipoklorit ile karıştırıldığında köpürme (serbest oksijen ve su çıkışı) reaksiyonu verir, renkli bir çökelti veya renklenme yapmaz (Yanlış). III. Etilendiamin tetraasetik asit (EDTA), sodyum hipoklorit ile karıştırıldığında kloru nötralize eder ancak herhangi bir çökelti veya renklenmeye sebep olmaz (Yanlış). Çeldiriciler: B) Hidrojen peroksit renklenme yapmaz, aksine ağartıcıdır. C) II. öncül yanlıştır. D) II ve III. öncüller NaOCl ile renklenme yapmaz. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi MMP inhibitörüdür?",
+    "options": {
+      "A": "Hidrojen peroksit",
+      "B": "Klorheksidin",
+      "C": "Etilendiamin tetraasetik asit",
+      "D": "Sitrik asit",
+      "E": "Ruddle solüsyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dentin içerisinde yer alan endojen matriks metalloproteinaz (MMP-2, MMP-8, MMP-9) ve sistein katepsin enzimleri, asitleme veya şelasyon sırasında açığa çıkan kollajen ağını zamanla parçalayarak rezin-dentin bağlantısını (hibrit tabakayı) bozar. \"%2'lik Klorheksidin (CHX)\" (ve ayrıca tetrasiklin içeren MTAD), güçlü bir \"MMP inhibitörü\" olup kollajenaz enzimlerini inhibe eder, kollajen yıkımını önler ve rezin esaslı materyallerin dentine olan adezyon dayanıklılığını güçlendirir. Çeldiriciler: A) Hidrojen peroksit MMP inhibitörü değildir; aksine oksijen radikalleri bırakarak rezin adezyonunu bozar. C) EDTA başlangıçta çinko/kalsiyum bağlayarak geçici etki gösterse de demineralizasyonla MMP'leri açığa çıkarır; spesifik kalıcı MMP inhibitörü olarak kullanılan ajan CHX'tir. D) Sitrik asit demineralize edici bir asit olup MMP'leri aktive edebilir. E) Ruddle solüsyonu (%5 NaOCl + %17 EDTA + hipobromit) proteolitik bir karışımdır, MMP inhibitörü değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Kök dentininde antibakteriyel etkisi en uzun olan ajan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sodyum hipoklorit",
+      "B": "Etilendiamin tetraasetik asit",
+      "C": "Sitrik asit",
+      "D": "Klorheksidin",
+      "E": "Hidrojen peroksit"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök dentininde antibakteriyel etkisini uygulama bittikten sonra dahi haftalarca sürdürebilme özelliğine \"substantivite (kalıcılık)\" denir. Katyonik (pozitif yüklü) bir bisguanid olan \"klorheksidin (CHX)\", dentinin negatif yüklü hidroksiapatit kristallerine elektrostatik olarak bağlanır ve ortamda mikroorganizma yoğunluğu arttıkça yavaşça salınarak 12 haftaya kadar antibakteriyel etkisini devam ettirir (antibakteriyel etkisi en uzun olan ajandır). Çeldiriciler: A) Sodyum hipokloritin substantivite özelliği yoktur; organik dokuyla temas ettiği anda serbest klor tükenir ve etkisi sona erer. B) EDTA sınırlı antibakteriyel etkiye sahiptir ve kalsiyumla doygunluğa ulaştığında kendi kendini sınırlar (substantivitesi yoktur). C) Sitrik asit inorganik çözücüdür, kalıcı antibakteriyel etkisi yoktur. E) Hidrojen peroksit hızla su ve oksijene ayrışır, kalıcı etkisi yoktur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON",
+    "flag_reason": "2014 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Aşağıdaki irrigasyon solüsyonlarından hangisi en substantif etkiye sahiptir?",
+    "options": {
+      "A": "Sodyum hipoklorit",
+      "B": "Etilendiamin tetraasetik asit",
+      "C": "Sitrik asit",
+      "D": "Klorheksidin",
+      "E": "Hidrojen peroksit"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Oral mukoza ve kök dentini hidroksiapatitine bağlanarak uzun süre (12 haftaya varan) kalıcı antimikrobiyal salınım yapma yani \"en substantif\" etkiye sahip olma özelliği \"klorheksidin\"e aittir (Bunun dışında doksisiklin içeren MTAD/Tetraclean de substantivite gösterir). Çeldiriciler: A) Sodyum hipoklorit substantif değildir, sadece kanalda bulunduğu süre boyunca etkilidir. B) EDTA şelatördür, antibakteriyel substantivitesi yoktur. C) Sitrik asit substantif etkiye sahip değildir. E) Hidrojen peroksit anlık etki gösterir, substantif değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Tween 80 ve alfa lesitin\nII. Sitrik asit\nIII. Sodyum tiyosülfat\nYukarıda verilenlerden hangisi veya hangileri klorheksidinin kanalda devam eden etkisini sonlandırmak için kullanılabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Mikrobiyolojik kültür alımı veya adeziv işlemler öncesinde kök kanalındaki irrigasyon ajanlarının ve medikamentlerin devam eden antimikrobiyal etkilerini nötralize etmek için her ajana özgü \"spesifik inaktivatörler\" kullanılır. Öncüllerin Analizi: I. \"%3 Tween 80 ve %0.3 alfa-lesitin (L-alfa-lesitin)\" karışımı, katyonik klorheksidin moleküllerini bağlayarak klorheksidinin (CHX) kanalda devam eden substantif etkisini sonlandıran spesifik inaktivatördür (Doğru). II. \"%0.5 Sitrik asit\", bazik olan kalsiyum hidroksitin (Ca(OH)2) etkisini nötralize eden spesifik inaktivatördür (Yanlış). III. \"%0.5 Sodyum tiyosülfat\", oksidatif olan sodyum hipokloritin (NaOCl) ve iyot bileşiklerinin spesifik inaktivatörüdür (Yanlış). Çeldiriciler: B) Sitrik asit kalsiyum hidroksitin inaktivatörüdür. C) Sodyum tiyosülfat sodyum hipokloritin inaktivatörüdür. D) II. öncül yanlıştır. E) II ve III. öncüller farklı ajanların inaktivatörleridir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi smear tabakasını uzaklaştırmak amacıyla kullanılmaz?",
+    "options": {
+      "A": "Klorheksidin diglukonat",
+      "B": "Tetrasiklin izomeri asit ve deterjan karışımı",
+      "C": "Etilendiamin tetraasetik asit",
+      "D": "Sitrik asit",
+      "E": "Maleik asit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"Klorheksidin diglukonat\", ne organik dokuyu ne de inorganik mineral yapıyı çözebilen bir antiseptiktir; smear tabakasının hiçbir komponentine etki edemediği için smear tabakasını uzaklaştırmak amacıyla kullanılamaz. Çeldiriciler: B) Tetrasiklin izomeri (doksisiklin), sitrik asit ve deterjan karışımı olan MTAD (veya Tetraclean), içeriğindeki sitrik asit ve doksisiklinin düşük pH'sı ile smear tabakasını etkili şekilde uzaklaştırır. C) Etilendiamin tetraasetik asit (EDTA), kalsiyum şelasyonuyla smear tabakasının inorganik kısmını çözer. D) Sitrik asit, şelasyon ve asidik etkisiyle smear tabakasını uzaklaştırır. E) Maleik asit, organik bir asit ve şelatör olarak smear tabakasını (özellikle apikal üçlüde) etkili şekilde kaldırır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Klorheksidin\nII. MTAD\nIII. Sitrik asit\nYukarıda verilenlerden hangisi veya hangileri inorganik doku çözer?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök kanalındaki inorganik dokuyu (smear tabakasının mineral kısmını ve hidroksiapatiti) çözebilen ajanlar şelatörler ve organik asitlerdir. Öncüllerin Analizi: I. Klorheksidin katyonik bir antiseptiktir, inorganik veya organik hiçbir dokuyu çözemez (Yanlış). II. MTAD, yapısında bulunan \"sitrik asit\" ve doksisiklin sayesinde kalsiyum iyonlarını bağlayarak inorganik smear tabakasını çözer (Doğru). III. Sitrik asit, doğrudan kalsiyum şelasyonu yaparak inorganik dokuyu çözer (Doğru). Çeldiriciler: A) Klorheksidin doku çözmez. B) III. öncül de inorganik doku çözer. C) II. öncül de sitrik asit içerdiği için inorganik doku çözer. E) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Sodyum hipoklorit\nII. Klorheksidin\nIII. EDTA\nIV. Formaldehit\nYukarıda verilenlerden hangilerinin birlikte kullanılması ile smear tabakası tamamen kaldırılabilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I ve III",
+      "D": "III ve IV",
+      "E": "II ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Smear tabakası hem organik (pulpa kalıntıları, kollajen, bakteri) hem de inorganik (dentin mineralleri) bileşenlerden oluştuğu için tek bir solüsyonla tamamen kaldırılamaz; bir organik çözücü ile bir inorganik çözücünün (şelatörün) ardışık olarak kullanılması gerekir. Öncüllerin Analizi: I. Sodyum hipoklorit (NaOCl), smear tabakasının \"organik\" komponentini çözer (Doğru). II. Klorheksidin hiçbir doku çözmediği için smear kaldırmada rolü yoktur (Yanlış). III. EDTA, kalsiyum şelasyonuyla smear tabakasının \"inorganik\" komponentini çözer; böylece I (NaOCl) ve III (EDTA) birlikte kullanıldığında smear tabakası tamamen kaldırılır (Doğru). IV. Formaldehit dokuyu fikse eder, smear tabakasını çözmez (Yanlış). Çeldiriciler: A) Klorheksidin inorganik kısmı çözemez. B) Klorheksidin organik kısmı çözemez. D) Formaldehit organik kısmı çözemez. E) Ne CHX ne de formaldehit smear çözebilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kök kanal tedavisinde kullanılan irrigasyon solüsyonlarının etkinliğini arttırır?",
+    "options": {
+      "A": "Solüsyonun konsantrasyonunun azaltılması",
+      "B": "Hazırlanmasının üzerinden uzun zaman geçmesi",
+      "C": "Solüsyonun soğutulması",
+      "D": "Solüsyon miktarının azaltılması",
+      "E": "Solüsyonun ultrasonik cihazla aktive edilmesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kök kanalı içerisindeki irrigasyon solüsyonunun \"ultrasonik cihazla aktive edilmesi\" (pasif ultrasonik irrigasyon - PUI), titreşen uç etrafında akustik akımlar (acoustic streaming) ve kavitasyon kabarcıklarının patlaması etkilerini yaratarak solüsyonun sıcaklığını artırır, hidrodinamik kesme kuvveti oluşturur ve solüsyonun yan kanallara, isthmuslara ve dentin tübüllerine penetrasyonunu sağlayarak doku çözme/antibakteriyel etkinliğini büyük ölçüde artırır. Çeldiriciler: A) Konsantrasyonun azaltılması (dilüsyon) aktif molekül sayısını düşürerek etkinliği azaltır. B) Hazırlanmasının üzerinden uzun zaman geçmesi (bayat solüsyon), özellikle NaOCl'de serbest klorun uçup tükenmesine yol açarak etkinliği azaltır. C) Solüsyonun soğutulması kinetik enerjiyi düşürerek kimyasal reaksiyon hızını ve etkinliği azaltır (ısıtılması artırır). D) Solüsyon miktarının (hacminin) azaltılması hem mekanik yıkama etkisini hem de ortamdaki taze klor miktarını düşürerek etkinliği azaltır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi sodyum hipoklorit ile irrigasyonun etkinliğini azaltır?",
+    "options": {
+      "A": "Solüsyonun ısıtılması",
+      "B": "Bol miktarda kullanılması",
+      "C": "Ultrasonikle aktive edilmesi",
+      "D": "EDTA ile karıştırılarak uygulanması",
+      "E": "Hazırlandıktan sonra bekletilmeden kullanılması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sodyum hipokloritin (NaOCl) \"EDTA ile doğrudan karıştırılarak uygulanması\" durumunda, EDTA solüsyondaki serbest klor iyonlarını hızla bağlayıp nötralize eder; bunun sonucunda NaOCl hipokloröz asit oluşturamaz, kloraminasyon yapamaz ve organik doku çözücü ile antibakteriyel etkinliği \"ciddi oranda azalır (hatta kaybolur)\". Çeldiriciler: A) Solüsyonun 45-60°C'ye ısıtılması kinetik enerjiyi artırarak etkinliğini artırır. B) Bol miktarda (hacimde) ve sık yenilenerek kullanılması tükenen kloru yerine koyarak etkinliği artırır. C) Ultrasonikle aktive edilmesi akustik akım, kavitasyon ve ısınma yaratarak etkinliği artırır. E) Taze hazırlandıktan sonra bekletilmeden kullanılması aktif klor kaybını önleyerek yüksek etkinlik sağlar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kök kanal tedavisinde kullanılan irrigasyon solüsyonlarının etkinliğini arttırır?",
+    "options": {
+      "A": "System B",
+      "B": "Masseran kiti",
+      "C": "Root ZX",
+      "D": "BioRace",
+      "E": "Endo Activator"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"EndoActivator\", kök kanalı içerisindeki irrigasyon solüsyonlarını esnek polimer uçlar aracılığıyla yüksek frekanslı ses dalgalarıyla (2-3 kHz, 160-190 Hz) çalkalayarak hidrodinamik olarak harekete geçiren \"sonik bir irrigasyon aktivasyon cihazı\"dır ve irrigasyon solüsyonlarının etkinliğini artırır. Çeldiriciler: A) System B, sıcak vertikal kompaksiyonla kanal doldurmada kullanılan ısıtıcılı plugger cihazıdır. B) Masserann kiti, kök kanalından kırık alet ve post çıkarmada kullanılan mekanik trepan setidir. C) Root ZX, çalışma boyu tespitinde kullanılan 3. jenerasyon elektronik apeks bulucu cihazdır. D) BioRace, kök kanallarını şekillendirmede kullanılan elektro-polise yüzeyli NiTi döner eğe sistemidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Kök kanal tedavisinde sodyum hipokloritin etkinliğinin artırılması amacıyla aşağıdaki yöntemlerden hangisi kullanılamaz?",
+    "options": {
+      "A": "Klorheksidin ile karıştırma",
+      "B": "Konsantrasyonunu artırma",
+      "C": "Uygulama süresini artırma",
+      "D": "Aktivasyon yöntemlerini uygulama",
+      "E": "Sıcaklığını artırma"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Sodyum hipokloritin (NaOCl) etkinliğini artırmak amacıyla \"klorheksidin (CHX) ile karıştırma\" kesinlikle kullanılamaz. Bu iki solüsyon karıştırıldığında etkinlik artmaz, aksine birbirlerini tüketerek dentin tübüllerini tıkayan, dişi boyayan, toksik ve kanserojen bir madde olan \"parakloroanilin (PCA)\" çökeltisi oluştururlar. Çeldiriciler: B) Konsantrasyonun artırılması (%0.5'ten %2.5 veya %5.25'e çıkarılması) serbest klor miktarını artırarak doku çözme ve antibakteriyel etkinliği artırır. C) Uygulama süresinin ve kullanılan toplam hacmin artırılması NaOCl'nin derin dokulara etkisini artırır. D) Sonik, ultrasonik, multisonik (GentleWave) veya lazer (PIPS/SWEEPS) gibi aktivasyon yöntemlerinin uygulanması etkinliği artırır. E) Sıcaklığının 45-60°C'ye artırılması reaksiyon hızını yükselterek doku çözücü etkinliği artırır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Klorheksidin ile karıştırma\nII. Konsantrasyonu ve uygulama süresini artırma\nIII. Sıcaklığı artırma\nIV. Ultrasonikler ile aktive etme\nKök kanal tedavisinde sodyum hipokloritin etkinliğinin artırılması amacıyla yukarıdaki yöntemlerden hangisi kullanılamaz?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "III ve IV",
+      "D": "I, III ve IV",
+      "E": "II ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Sodyum hipokloritin (NaOCl) etkinliğini artıran yöntemler fiziksel ve kimyasal aktivasyon prensiplerine dayanırken, uyumsuz kimyasallarla karıştırılması kontrendikedir. Öncüllerin Analizi: I. Klorheksidin ile karıştırma, toksik ve çözünmeyen parakloroanilin çökeltisi oluşturduğu için kesinlikle kullanılamaz (Doğru - kullanılamaz). II. Konsantrasyonu ve uygulama süresini artırma serbest klor maruziyetini yükselterek etkinliği artırır (Kullanılabilir). III. Sıcaklığı artırma (45-60°C) kinetik enerjiyi yükselterek doku çözme etkinliğini artırır (Kullanılabilir). IV. Ultrasonikler ile aktive etme akustik akım ve kavitasyon yaratarak etkinliği artırır (Kullanılabilir). Çeldiriciler: B) II. öncül etkinliği artırır. C) III ve IV. öncüller etkinliği artırır. D) III ve IV. öncüller yanlıştır. E) II ve IV. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Endodontik tedavi sırasında irrigasyon etkinliğinin artırılmasında aşağıda verilenlerden hangisi kullanılmaz?",
+    "options": {
+      "A": "Sonikler",
+      "B": "Ultrasonikler",
+      "C": "Gutta-perka konileri",
+      "D": "Lazerler",
+      "E": "Paper pointler"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Paper pointler (kağıt konlar)\", sıvıyı emici (absorban) selüloz yapıda oldukları için kök kanalı içindeki irrigasyon solüsyonunu aktive etmek için değil, tam aksine irrigasyon bittikten sonra kanal içindeki sıvıyı emerek \"kanalı kurutmak\" (veya mikrobiyolojik örnek almak / wicking yapmak) için kullanılır; irrigasyon aktivasyonunda kullanılamazlar. Çeldiriciler: A) Sonikler (EndoActivator, Eddy vb.), ses frekansında titreşimle solüsyonu çalkalayarak etkinliği artırır. B) Ultrasonikler (PUI), 25-40 kHz frekansta akustik akım ve kavitasyon yaratarak irrigasyon etkinliğini artırır. C) Ana gutta-perka konisinin sıvı dolu kanalda çalışma boyunda aşağı-yukarı pompalama hareketiyle (manuel dinamik aktivasyon - MDA) çalıştırılması vapor-lock'u (apikal buhar kilidini) kırarak irrigasyon etkinliğini artırır. D) Er:YAG ve Er,Cr:YSGG lazerler (PIPS ve SWEEPS modları), sıvı içinde fotoakustik şok dalgaları yaratarak irrigasyonu güçlü şekilde aktive eder.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Hidrojen peroksit\nII. Sodyum hipoklorit\nIII. Klorheksidin diglukonat\nYukarıdaki irrigasyon solüsyonlarından hangileri kök kanal dentinine rezin bağlantısını olumsuz etkileyebilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök kanalının AH 26, AH Plus, Epiphany veya EndoREZ gibi rezin esaslı patlarla doldurulması veya fiber postların rezin simanlarla yapıştırılması öncesinde kullanılan \"okside edici (oksidatif)\" irrigasyon solüsyonları, dentin yüzeyinde serbest oksijen radikallerinden zengin bir \"oksijen inhibisyon tabakası\" bırakır; bu serbest oksijen, rezin monomerlerinin serbest radikal polimerizasyonunu inhibe ederek rezin-dentin bağlantısını (adezyonunu) bozar. Öncüllerin Analizi: I. Hidrojen peroksit (H2O2), güçlü bir oksidatif ajan olup dentinde yoğun serbest oksijen bırakarak rezin polimerizasyonunu ve bağlantısını olumsuz etkiler (Doğru). II. Sodyum hipoklorit (NaOCl), güçlü bir oksidatif ajan olup hem kollajen ağını parçalar hem de dentin yüzeyinde serbest oksijen radikalleri bırakarak rezin bağlantısını olumsuz etkiler (bu etkiyi geri döndürmek için sodyum askorbat gibi antioksidanlar kullanılır) (Doğru). III. Klorheksidin diglukonat oksidatif değildir, rezin bağlantısını olumsuz etkilemez; aksine MMP enzimlerini inhibe ederek hibrit tabakayı korur ve rezin adezyonuna olumlu katkı sağlar (Yanlış). Çeldiriciler: A) II. öncül de oksidatif olduğu için adezyonu bozar. B) I. öncül de adezyonu bozar. C) Klorheksidin adezyonu güçlendirir. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Sodyum hipoklorit\nII. Klorheksidin\nIII. Hidrojen peroksit\nIV. Distile su\nKanal dolgu patı olarak AH 26 kullanacak olan bir hekimin, son yıkama solüsyonu olarak yukarıdakilerden hangilerini kullanması sızdırmazlık açısından uygun değildir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): AH 26 (ve AH Plus), \"epoksi rezin\" esaslı bir kök kanal dolgu patıdır. Rezin esaslı patların dentin duvarlarına bağlanıp hermetik sızdırmazlık sağlayabilmesi için son yıkamada dentin yüzeyinde serbest oksijen radikali bırakan oksidatif solüsyonların kullanılmaması gerekir. Öncüllerin Analizi: I. Sodyum hipoklorit (NaOCl), oksidatif yapısı nedeniyle dentin yüzeyinde oksijen inhibisyon zonu oluşturarak AH 26'nın adezyonunu ve sızdırmazlığını bozar (Uygun değildir - Doğru). II. Klorheksidin, MMP'leri inhibe ederek rezin-dentin bağlantısının uzun dönem stabilitesini destekler (Uygundur). III. Hidrojen peroksit, açığa çıkardığı serbest oksijen radikalleriyle rezin polimerizasyonunu inhibe ederek sızdırmazlığı bozar (Uygun değildir - Doğru). IV. Distile su, kanaldaki kimyasal kalıntıları uzaklaştıran nötr bir sıvıdır ve adezyonu bozmaz (Uygundur). Çeldiriciler: A) Klorheksidin adezyonu bozmaz. C) II. öncül uygundur. D) II ve IV. öncüller son yıkama için uygundur. E) IV. öncül uygundur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi biyofilmlere karşı en etkilidir?",
+    "options": {
+      "A": "Lazer",
+      "B": "Ultraviyole ışık",
+      "C": "Sodyum hipoklorit",
+      "D": "Fotoaktif ışık",
+      "E": "Lokal antibiyotikler"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Bakteriyel biyofilm, bakterilerin kendi ürettikleri polisakkarit/protein yapılı ekstraselüler polimerik matriks (EPS) içerisine gömülerek dış etkenlere ve antibiyotiklere karşı 1000 kata kadar direnç kazandıkları organize topluluktur. Biyofilmi yok edebilmek için hem bakterileri öldürmek hem de bu koruyucu organik matriksi eritip dağıtmak gerekir; hem güçlü bakterisid etkisi hem de EPS matriksini parçalayan eşsiz \"organik doku çözücü\" özelliği sayesinde biyofilmlere karşı açık ara en etkili ajan \"sodyum hipoklorit (NaOCl)\"tir. Çeldiriciler: A) Lazer ışığı doğrusal yayıldığı için dar ve eğri kanalların derinliklerindeki biyofilme tam ulaşamaz ve matriksi NaOCl gibi eritemez. B) Ultraviyole ışık yalnız yüzeydeki bakterileri etkiler, biyofilmin alt katmanlarına ve dentin tübüllerine penetre olamaz. D) Fotoaktif ışık (fotodinamik terapi) derin biyofilm tabakalarını ve EPS matriksini tamamen çözüp yok edemez. E) Biyofilm içindeki bakteriler yatay gen transferiyle direnç genlerini paylaştıkları, metabolizmalarını yavaşlattıkları ve EPS matriksi ilaç geçişini engellediği için lokal antibiyotiklere karşı son derece dirençlidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "İrrigasyon solüsyonları ardışık kullanıldığında kimyasal etkileşime girerek çökelti oluşturabilir. Buna göre,\nI. Sodyum hipoklorit + Etilendiamin tetraasetik asit\nII. Etilendiamin tetraasetik asit + Klorheksidin diglukonat\nIII. Sodyum hipoklorit + Klorheksidin diglukonat\nuygulamalarından hangileri bu duruma örnektir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İrrigasyon solüsyonlarının kanal içinde ara yıkama (distile su veya salin) yapılmaksızın ardışık kullanılması bazı kombinasyonlarda katı çökelti (presipitat) oluşumuna yol açar. Öncüllerin Analizi: I. Sodyum hipoklorit + EDTA etkileşiminde EDTA serbest kloru nötralize eder ve gaz kabarcıkları çıkar, ancak \"herhangi bir katı çökelti oluşumu görülmez\" (Yanlış). II. EDTA + Klorheksidin diglukonat etkileşiminde iki molekül nötralizasyon reaksiyonuna girerek çözünmeyen \"beyaz-sütlü bir tuz çökeltisi\" oluşturur (Doğru). III. Sodyum hipoklorit + Klorheksidin diglukonat etkileşiminde ise kırmızı-kahverengi renkte toksik \"parakloroanilin (PCA) çökeltisi\" oluşur (Doğru). Çeldiriciler: A) NaOCl + EDTA çökelti oluşturmaz. B) III. öncül de çökelti oluşturur. C) I. öncülde çökelti oluşmaz. E) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON",
+    "flag_reason": "2023 DUS Orijinal"
+  },
+  {
+    "question": "Klorheksidin aşağıda verilen irrigasyon çiftlerinden hangisi ile kimyasal etkileşime girerek beyaz ve kırmızı-kahverengimsi çökelti oluşturur?",
+    "options": {
+      "A": "Beyaz: Etilendiamin tetraasetik asit – Kırmızı-kahverengimsi: Superoxidize su",
+      "B": "Beyaz: Sodyum hipoklorit – Kırmızı-kahverengimsi: Etilendiamin tetraasetik asit",
+      "C": "Beyaz: Sodyum hipoklorit – Kırmızı-kahverengimsi: Hidrojen peroksit",
+      "D": "Beyaz: Etilendiamin tetraasetik asit – Kırmızı-kahverengimsi: Sodyum hipoklorit",
+      "E": "Beyaz: Sodyum hipoklorit – Kırmızı-kahverengimsi: İyodür potasyum iyodid"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Klorheksidin diglukonat (CHX); \"Etilendiamin tetraasetik asit (EDTA)\" ile temas ettiğinde asit-baz reaksiyonuyla \"beyaz\" renkli bir tuz çökeltisi oluştururken, \"Sodyum hipoklorit (NaOCl)\" ile temas ettiğinde ise oksidasyon reaksiyonuyla \"kırmızı-kahverengimsi (turuncu-kahverengi)\" renkte toksik parakloroanilin çökeltisi oluşturur. Çeldiriciler: A) Kırmızı-kahverengimsi çökelti NaOCl ile oluşur. B) Eşleştirmeler tam tersi verilmiştir. C) NaOCl beyaz değil, kırmızı-kahverengi çökelti yapar. E) NaOCl beyaz çökelti oluşturmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Kök kanal tedavisi sırasında farklı irriganların etkilerinden aynı anda yararlanabilmek ve uygulama kolaylığı sağlamak amacıyla karışım irrigasyon solüsyonları geliştirilmiştir.\nI. MTAD\nII. QMix\nIII. RinsEndo\nYukarıda verilenlerden hangisi veya hangileri bu karışım irrigasyon solüsyonlarındandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Hem smear tabakasını kaldırmak (şelasyon) hem de dezenfeksiyon ve yüzey gerilimi düşüşünü tek adımda sağlamak için kombine (karışım) irrigasyon solüsyonları üretilmiştir. Öncüllerin Analizi: I. MTAD; bir tetrasiklin izomeri (doksisiklin), bir organik asit (sitrik asit) ve bir deterjan (Tween 80) içeren karışım bir irrigasyon solüsyonudur (Doğru). II. QMix; EDTA, klorheksidin (CHX) ve bir yüzey aktif madde/deterjan (cetrimide) içeren hazır karışım bir irrigasyon solüsyonudur (Doğru). III. RinsEndo bir irrigasyon solüsyonu değildir; ünitin aeratör çıkışına bağlanarak basınç-emme (hidrodinamik) teknolojisiyle çalışan otomatik bir \"irrigasyon aktivasyon cihazı\"dır (Yanlış). Çeldiriciler: A) II. öncül de karışım solüsyondur. B) I. öncül de karışım solüsyondur. C) RinsEndo bir solüsyon değil, cihazdır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Otuz beş yaşındaki erkek hastanın periapikal lezyonlu üst sağ 1. molar dişine lokal anestezi altında kanal tedavisi yapılırken, mekanik şekillendirme aşamasında irrigasyonu takiben şiddetli ağrı meydana geliyor ve hastada kanal içi kanama ve şişlik gibi semptomlar izleniyor. Bu hastada oluşan komplikasyonun en olası nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Akut alevlenme",
+      "B": "Periapikal dokulara sodyum hipoklorit taşması",
+      "C": "Kanalda alet kırılması",
+      "D": "Kanalda basamak oluşumu",
+      "E": "Lokal anestezik alerjisi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Lokal anestezi altında olunmasına rağmen tam \"irrigasyonu takiben\" aniden ortaya çıkan keskin/yakıcı şiddetli ağrı, kök kanalından durmayan bol \"kanal içi hemoraji (kanama)\" ve ilgili fasiyal bölgede dakikalar içinde hızla gelişen \"şişlik (ödem ve ekimoz)\" semptomları, \"periapikal dokulara (veya maksiller sinüse) sodyum hipoklorit taşması\"nın (hipoklorit kazasının) klasik ve patognomonik klinik tablosudur. Çeldiriciler: A) Akut alevlenme (flare-up), işlem anında saniyeler içinde değil, randevudan saatler veya günler sonra (iki seans arasında) gelişen akut enfeksiyöz tablodur. C) Kanalda alet kırılması işlem anında ani şiddetli ağrı, kanama veya yüz şişliği oluşturmaz. D) Kanalda basamak oluşumu anlık ağrı, kanama ve şişlik yapmaz. E) Lokal anestezik alerjisi irrigasyon aşamasında değil, enjeksiyonu takiben gelişir ve ürtiker, kaşıntı, bronkospazm gibi sistemik alerjik bulgular verir; kanal içi kanama yapmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON",
+    "flag_reason": "2024 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "I. Kanal içi hemoraji\nII. Şiddetli ağrı\nIII. Ödem\nYukarıdakilerden hangisi ya da hangileri kanal irrigasyonu sırasında apikalden sodyum hipoklorit taşmasını takiben gözlenebilecek durumlardandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Güçlü kostik ve proteolitik bir ajan olan sodyum hipokloritin (NaOCl) apikal foramenden periapikal dokulara taşması akut kimyasal doku nekrozuna ve damar duvarı yıkımına yol açar. Öncüllerin Analizi: I. Periapikal kapiller damarların kimyasal olarak parçalanması sonucunda apikal foramenden kök kanalı içerisine doğru yoğun ve durdurulması güç bir \"kanal içi hemoraji (kanama)\" gözlenir (Doğru). II. Hasta anestezi altında olsa bile kimyasal yanık nedeniyle aniden başlayan çok \"şiddetli ve yakıcı bir ağrı\" hisseder (Doğru). III. Damar geçirgenliğinin bozulması ve doku içi kanama nedeniyle ilgili yüz yarısında dakikalar içinde hızla yayılan \"ödem (şişlik)\" ve ekimoz gelişir (Doğru). Çeldiriciler: A) II ve III. öncüller de temel bulgulardır. B) I ve III. öncüller de gözlenir. C) III. öncül de en belirgin bulgulardandır. D) II. öncül en ilk ve en tipik semptomdur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kanal irrigasyonu sırasında ortaya çıkan hatalardan biridir?",
+    "options": {
+      "A": "Basamak oluşturulması",
+      "B": "Alet kırılması",
+      "C": "Sodyum hipoklorit taşması",
+      "D": "Flare-up",
+      "E": "Apikal transportasyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): \"Sodyum hipoklorit taşması\", doğrudan kök kanal irrigasyonu aşamasında iğnenin kanalda sıkışması, aşırı enjeksiyon basıncı veya apikal daralımın bozulmuş olması nedeniyle meydana gelen spesifik bir irrigasyon komplikasyonudur (hatasıdır). Çeldiriciler: A) Basamak oluşturulması irrigasyon sırasında değil, mekanik kanal şekillendirmesi sırasında eğelerle yapılan bir hatadır. B) Alet kırılması mekanik preparasyon aşamasında oluşan bir hatadır. D) Flare-up (akut alevlenme), işlem sırasında değil seanslar arasında ortaya çıkan akut ağrı ve şişlik tablosudur. E) Apikal transportasyon mekanik şekillendirme sırasında eğelerin apikal kanalı düzleştirmesiyle oluşan bir hatadır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, endodontik aletlerin dezenfeksiyonunda sporlar da dahil tüm mikroorganizmaları yok eder?",
+    "options": {
+      "A": "Kuaterner amonyum bileşikleri",
+      "B": "Fenolik bileşikler",
+      "C": "İyodoform",
+      "D": "Benzalkonyum klorid",
+      "E": "Glutaraldehit"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dezenfektanlar etkinlik spektrumlarına göre düşük, orta ve yüksek seviyeli olarak sınıflandırılır. Bakteri sporlarını da yok edebilen (sporisidal) ajanlar yalnızca \"yüksek seviyeli dezenfektanlar / kimyasal стерilizatörler\"dir (Glutaraldehit, orto-ftalaldehit, hidrojen peroksit ve perasetik asit). Seçenekler arasında yer alan \"%2'lik Glutaraldehit\", 10-30 dakikada yüksek düzey dezenfeksiyon, uzun süreli temasta (6-10 saat) ise \"bakteri sporları da dahil tüm mikroorganizmaları\" (bakteri, mikobakteri, mantar, virüs ve spor) yok ederek soğuk sterilizasyon sağlar. Çeldiriciler: A) Kuaterner amonyum bileşikleri düşük seviyeli dezenfektanlardır; bakteri sporlarına ve tüberküloz basilini (mikobakteri) yok edemezler. B) Fenolik bileşikler (krezol vb.) orta/düşük seviyeli dezenfektanlar olup bakteri sporlarına etkisizdir. C) İyodoform / iyodoforlar orta seviyeli antiseptik/dezenfektanlardır, güvenilir bir sporisidal etkileri yoktur. D) Benzalkonyum klorid (Zefiran) bir kuaterner amonyum bileşiğidir; düşük seviyeli dezenfektan olup sporlara etkisizdir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON",
+    "flag_reason": "2013 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "I. Zefiron\nII. Krezol\nIII. Gluteraldehit\nYukarıda verilen ajanlardan hangisi sporisidaldir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Bakteri endosporları dış etkenlere en dirençli mikrobiyal formlardır ve yalnızca yüksek düzey dezenfektanlar sporisidal (spor öldürücü) etkiye sahiptir. Öncüllerin Analizi: I. Zefiran (benzalkonyum klorid), kuaterner amonyum grubu düşük düzey bir dezenfektandır ve sporisidal etkisi yoktur (Yanlış). II. Krezol, fenolik bileşik grubunda yer alır ve bakteri sporlarına karşı etkisizdir (Yanlış). III. Glutaraldehit, yüksek seviye bir dezenfektan olup güçlü alkilleyici etkisiyle bakteri sporları dahil tüm mikroorganizmalara karşı etkilidir yani \"sporisidaldir\" (Doğru). Çeldiriciler: A) Zefiran sporlara etkisizdir. B) Krezol sporlara etkisizdir. D) I ve II. öncüller sporisidal değildir. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  },
+  {
+    "question": "I. Klorheksidin\nII. NaOCl\nIII. Hidrojen peroksit\nIV. Alkol\nYukarıda verilenlerden hangisi veya hangileri bakteri sporlarına karşı etkilidir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "III ve IV",
+      "D": "I, II ve III",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Endodontik uygulamalarda kullanılan irrigasyon ve dezenfeksiyon ajanlarından yalnızca güçlü oksidatif yapıya sahip olanlar bakteri sporlarının dirençli kılıfını parçalayarak sporisidal etki gösterebilir. Öncüllerin Analizi: I. Klorheksidin vejetatif bakterilere ve mantarlara etkili olsa da bakteri sporlarına karşı etkisizdir (sporisidal değildir) (Yanlış). II. Sodyum hipoklorit (NaOCl), güçlü klor salınımı ve oksidatif etkisiyle bakteri sporlarına karşı etkilidir (Doğru). III. Hidrojen peroksit (H2O2), yüksek konsantrasyonlarda serbest hidroksil radikalleri aracılığıyla bakteri sporlarına karşı etkilidir (Doğru). IV. Alkol (etil/izopropil alkol) orta düzey dezenfektandır, bakteri sporlarına karşı kesinlikle etkisizdir (hatta sporlu bakterilerin saklanmasında kullanılabilir) (Yanlış). Çeldiriciler: A) Klorheksidinin sporisidal etkisi yoktur. C) Alkol sporlara etkisizdir. D) I. öncül yanlıştır. E) IV. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 11 - ENDODONTİDE İRRİGASYON"
+  }
+]

@@ -1,0 +1,494 @@
+[
+  {
+    "question": "Smear tabakasıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Smear tabakasının yapısında plak, bakteri, tükürük ve kan bulunabilir.",
+      "B": "Kavite preparasyonu için kullanılan farklı yöntemler, smear tabakasının kalınlığını ve morfolojisini etkiler.",
+      "C": "Kavitenin hava-su spreyi ile basınçla yıkanıp kurutulması smear tabakasını uzaklaştırır.",
+      "D": "Smear tabakasının uzaklaştırılmasıyla dentinin ıslanabilirliği azalır.",
+      "E": "Smear tabakasının varlığı dentin geçirgenliğini azaltır."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Smear tabakası dentin yüzeyine ve tübül ağızlarına (smear tıkaçları olarak) sıkıca tutunduğu için kavitenin hava-su spreyi ile basınçla yıkanması, çalkalanması veya sürtme işlemiyle uzaklaştırılamaz; yalnızca asit (ortofosforik asit, EDTA, organik asitler) veya şelasyon ajanları ile çözülerek uzaklaştırılabilir. Çeldiriciler: - A) Smear tabakası kesim sırasında oluşan hidroksiapatit kristalleri, denatüre kollajenler, kan, tükürük, plak ve bakterilerden oluşan 1,5-2 µm kalınlığında amorf bir tabakadır. - B) Kullanılan frez çeşidi smear kalınlığını etkiler; elmas frezler tungsten karbid frezlere göre daha kalın ve kaba bir smear tabakası oluşturur. - D) Ortofosforik asitle (etch&rinse) smear tabakası kaldırıldığında minenin yüzey enerjisi artarken, dentinde organik kollajen ağı ve tübül sıvısı açığa çıktığı için dentinin yüzey enerjisi ve ıslanabilirliği azalır. - E) Smear tabakası ve smear tıkaçları dentin tübüllerini tıkayarak tübül içi sıvı hareketlerini ve dentin geçirgenliğini önemli ölçüde azaltan bir difüzyon bariyeri görevi görür.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Kavite açılması esnasında oluşan, kullanılan materyale göre kalınlığı değişen, geçirgenliği azaltan ve bağlantıyı olumsuz etkileyen doku aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sklerotik dentin tabakası",
+      "B": "Tersiyer dentin tabakası",
+      "C": "Smear tabakası",
+      "D": "Hibrid tabakası",
+      "E": "Nanosızıntı tabakası"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Döner aletler veya el aletleriyle kavite preparasyonu yapılması esnasında kesilen sert doku yüzeyinde oluşan, kullanılan frez tipine göre kalınlığı değişen, tübülleri tıkayarak geçirgenliği azaltan ancak altında kalan sağlam dokuya adeziv bağlanmayı düşüren amorf yapı smear tabakasıdır. Çeldiriciler: - A ve B) Sklerotik dentin ve tersiyer dentin kavite açılması esnasında frezle oluşan yapay tabakalar değil, yaşlanma veya patolojik uyaranlarla oluşan biyolojik dentin yapılarıdır. - D) Hibrid tabakası, demineralize dentin kollajen ağı içerisine adeziv rezinin infiltre olup polimerize olmasıyla oluşan mikromekanik bağlanma tabakasıdır. - E) Nanosızıntı tabakası, hibrit tabaka tabanında rezinle tam dolmamış nanometre boyutundaki boşluklara sıvı sızmasıdır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Smear tabakasının dentine bağlanma gücü, smear tabakasının kaldırılması veya eritilmesi sonucu oluşan bağlantı gücü ve dentindeki ideal bağlantı değeri aşağıdaki seçeneklerden hangisinde sırasıyla verilmiştir?",
+    "options": {
+      "A": "6 MPa, 18-20 MPa, 22-35 MPa",
+      "B": "6 MPa, 22-35 MPa, 80-100 MPa",
+      "C": "10-12 MPa, 18-20 MPa, 22-35 MPa",
+      "D": "10-12 MPa, 22-35 MPa, 80-100 MPa",
+      "E": "6 MPa, 10-12 MPa, 22-35 MPa"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İlk nesil hidrofobik adezivlerde smear tabakasının dentine kendi bağlanma gücü yaklaşık 6 MPa'dır; smear tabakasının kaldırılması veya eritilmesi sonucunda bağlantı gücü 10-12 MPa düzeyine (hidrofilik primer eklenmesiyle 18-20 MPa'a) çıkmış, hidrofilik primerler ve mikromekanik hibrit tabaka tutuculuğunun birleşmesiyle dentindeki ideal klinik bağlantı değeri olan 22-35 MPa seviyesine ulaşmıştır. Çeldiriciler: A, B, C ve D şıkları smear tabakasının koheziv/bağlanma direnci (6 MPa), sadece smearın kaldırılmasıyla elde edilen değer (10-12 MPa) ve ideal dentin bağlanma dayanımı (22-35 MPa; teorik maksimum 80-100 MPa) sıralamasını yanlış eşleştirmektedir.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Adeziv sistemlerde primerin içine aseton, etanol gibi çözücülerin ilave edilmesinin nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Adeziv monomerlerin akışkanlığını artırarak hibrit tabakasının kalınlığını artırmak",
+      "B": "Oksijen inhibisyon tabakasının oluşumunu önlemek",
+      "C": "Dental adezivlerin dişe kimyasal bağlantısını sağlamak",
+      "D": "Dentinin yüzeyel demineralizasyonunu sağlamak",
+      "E": "Dentindeki su ile yer değiştirerek monomerin kollajen ağına infiltrasyonunu kolaylaştırmak"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dentin dokusu doğası gereği nemlidir ve asitleme sonrası kollajen liflerin çökmemesi için aralarında su bulunması gerekir; ancak hidrofobik rezin monomerler su varlığında bu bölgeye ilerleyemez. Primer içerisine eklenen aseton ve etanol gibi organik çözücüler (su kovalayıcılar), kollajen ağı arasındaki su ile yer değiştirerek suyu buharlaştırıp uzaklaştırır ve monomerlerin demineralize kollajen ağı içerisine infiltrasyonunu kolaylaştırır. Çeldiriciler: - A) Çözücülerin amacı hibrit tabaka kalınlığını artırmak değil, su ile yer değiştirerek hidrofilik/hidrofobik monomerleri kollajen ağına taşımaktır. - B) Oksijen inhibisyon tabakasını önlemezler, aksine kavitede fazla çözücü kalırsa polimerizasyonu bozarlar. - C) Kimyasal bağlantıyı çözücüler değil, 10-MDP veya 4-META gibi fonksiyonel monomerler sağlar. - D) Yüzeyel demineralizasyonu çözücüler değil, fosforik asit veya asidik monomerler sağlar.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "I. Dentinin yüzey enerjisini artırır II. Oksijen inhibisyon tabakasının oluşumunu önler III. İçeriğindeki aseton ve etanol, suyla yer değiştirerek monomer infiltrasyonunu kolaylaştırır Adeziv sistemlerdeki primer için yukarıda verilenlerden hangisi/hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Primerler hem hidrofilik hem hidrofobik uç içeren bifonksiyonel monomerler (HEMA vb.) ve organik çözücüler (aseton, etanol) içerir; bu sayede dentinin düşmüş olan yüzey enerjisini artırır ve suyla yer değiştirerek monomer infiltrasyonunu sağlar. Öncüllerin Analizi: - I. Öncül (Doğru): Asitleme sonrası düşen dentin yüzey enerjisini ve ıslanabilirliğini artırarak hidrofobik bonding ajanına uyumlu hale getirir. - II. Öncül (Yanlış): Primer oksijen inhibisyon tabakasının oluşumunu önlemez; üst tabakaların bağlanması için oksijen inhibisyon tabakası gereklidir. - III. Öncül (Doğru): İçeriğindeki aseton ve etanol su ile yer değiştirerek monomerlerin kollajen ağına infiltrasyonunu kolaylaştırır. Çeldiriciler: A şıkkı III. öncülü eksik bıraktığı için; B, D ve E şıkları ise yanlış olan II. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Adeziv sistemlerde primerin ana içeriği aşağıdakilerin hangisidir?",
+    "options": {
+      "A": "2- hidroksietil metakrilat",
+      "B": "Bisfenol A-glisidil metakrilat",
+      "C": "Etilendiamin tetra asetik asit",
+      "D": "4- Metakriloiloksietil trimellitat anhidrit",
+      "E": "10- Metakriloiloksi desil dihidrojen fosfat"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Dentin bağlayıcı sistemlerde primerlerin ana içeriğinde metil metakrilatın hidrofilik bir analoğu olan \"2-hidroksietil metakrilat (2-HEMA veya HEMA)\" bulunur; HEMA hem hidrofilik hem hidrofobik özelliği sayesinde kollajen liflerin yeniden genişlemesini ve ıslanabilirliğin artmasını sağlar. Çeldiriciler: - B) Bisfenol A-glisidil metakrilat (Bis-GMA), yüksek molekül ağırlıklı hidrofobik bir monomer olup bonding ajanının ve kompozit organik matriksinin ana bileşenidir. - C) Etilendiamin tetra asetik asit (EDTA), kalsiyum bağlayan bir şelasyon ajanıdır. - D ve E) 4-META ve 10-MDP, kimyasal bağlanma kapasitesine sahip fonksiyonel asidik/adeziv monomerlerdir.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "[Görsel: Dentin yüzeyi üzerinde A sıvısı (geniş yayılmış, dar α değme açısı) ve B sıvısı (küresel duran, geniş β değme açısı)] Şekilde yer alan sıvılara ait değme açılarına göre, aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "A sıvısının değme açısı, B sıvısının değme açısından büyüktür.",
+      "B": "A ve B sıvıları için dentinin ıslanabilirliği benzerdir.",
+      "C": "A sıvısı için dentinin ıslanabilirliği düşüktür.",
+      "D": "B sıvısı için dentinin ıslanabilirliği düşüktür.",
+      "E": "B sıvısı ile dentine daha iyi adezyon sağlanabilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İdeal bir adezyon için katı yüzeyin (aderentin) yüzey enerjisi yüksek, sıvının (adezivin) yüzey gerilimi düşük olmalı; böylece sıvı yüzeye iyi yayılarak \"düşük değme (temas) açısı\" ve \"yüksek ıslanabilirlik (wettability)\" oluşturmalıdır. Görselde B sıvısının değme açısı (β) oldukça büyük olup yüzeye yayılamamıştır; dolayısıyla B sıvısı için dentinin ıslanabilirliği düşüktür. Çeldiriciler: - A) A sıvısı yüzeye iyi yayıldığı için değme açısı (α), B sıvısının değme açısından (β) küçüktür. - B ve C) A sıvısı düşük değme açısıyla dentini çok iyi ıslatırken (yüksek ıslanabilirlik), B sıvısında ıslanabilirlik düşüktür. - E) Değme açısı küçük ve ıslanabilirliği yüksek olan A sıvısı ile dentine daha iyi adezyon sağlanır, B sıvısı ile değil.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "I. Değme açısı II. Islanabilirlik III. Yüzey enerjisi Adherent ve adeziv arası ilişki değerlendirildiğinde yukarıda verilen özelliklerden hangisi/hangileri ideal bir adezyonu sağlayabilmek için yüksek değerlerde olmalıdır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İdeal bir adeziv bağlantı elde edebilmek için aderentin (diş yüzeyinin) yüzey enerjisi yüksek ve ıslanabilirlik (wettability) yüksek olmalı; buna karşılık adezivin yüzey gerilimi ve oluşturduğu değme (temas) açısı düşük olmalıdır. Öncüllerin Analizi: - I. Öncül (Düşük olmalı): Değme açısı ne kadar küçük (sıfıra yakın) olursa adeziv yüzeye o kadar iyi yayılır. - II. Öncül (Yüksek olmalı): Islanabilirlik yüksek olmalıdır. - III. Öncül (Yüksek olmalı): Diş yüzeyinin (aderentin) yüzey enerjisi yüksek olmalıdır. Çeldiriciler: A, C ve E şıkları düşük olması gereken değme açısını (I) içerdiği için; B şıkkı ise III. öncülü eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Dentin dokusuna ilerlemiş bir çürük lezyonunda yapılacak kompozit restorasyon için, preparasyon sonrası yapılan asitleme işlemi 30 sn uygulandığında aşağıda verilen durumlardan hangisinin oluşması beklenmez?",
+    "options": {
+      "A": "Peritübüler dentinde aşırı demineralizasyon",
+      "B": "Postoperatif hassasiyet",
+      "C": "Adezivin kollajen dokuya penetrasyonunun zorlaşması",
+      "D": "Gereğinden fazla kollajen matriksin açığa çıkması",
+      "E": "Fazla makro-mikrotag oluşumu"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dentin dokusunda ideal fosforik asit uygulama süresi 15 saniyedir. Dentinin 30 saniye gibi gerekenden uzun süre asitlenmesi sonucunda demineralizasyon derinliği aşırı artar ve kollajen lifler çöküp büzüşerek adezivin tabana kadar penetre olmasını engeller; bunun sonucunda fazla makro-mikrotag oluşumu gerçekleşmez, aksine tag oluşumu ve bağlanma dayanımı azalır. Çeldiriciler: - A ve D) Aşırı asitleme peritübüler ve intertübüler dentinde aşırı demineralizasyona ve adezivin infiltre olabileceğinden çok daha derin bir kollajen matriksin açığa çıkmasına yol açar. - B) Tabanda açıkta kalan (hibritlenmemiş) demineralize bölge ve genişleyen tübüllerde sıvı hareketi artarak postoperatif hassasiyete ve nanosızıntıya neden olur. - C) Kollajen ağının çökmesi ve aşırı derinlik nedeniyle adeziv monomerlerin tüm demineralize derinliğe penetrasyonu zorlaşır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Dentin dokusunun gerekenden daha uzun süre asitle pürüzlendirilmesi aşağıdakilerin hangisine neden olmaz?",
+    "options": {
+      "A": "Dentine bağlanmanın daha kuvvetli olmasına",
+      "B": "Daha fazla kollajen matriksin açığa çıkmasına",
+      "C": "Postoperatif hassasiyete",
+      "D": "Adezivin dentin kanallarına penetrasyonunun zorlaşmasına",
+      "E": "Dentin kanal ağızlarının daha fazla genişlemesine"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Dentinin gerekenden uzun süre (>15 sn) asitle pürüzlendirilmesi dentine bağlanmanın daha kuvvetli olmasına neden olmaz; aksine aşırı derin demineralizasyon, kollajen fibrillerin çökmesi/denatürasyonu ve artan dentin lenfi akışı nedeniyle adeziv infiltrasyonu yetersiz kalır ve bağlanma dayanımı düşer. Çeldiriciler: Uzun süreli asitleme daha fazla kollajen matriksin açığa çıkmasına (B), tabanda hibritlenmemiş boşluklar kalarak postoperatif hassasiyete (C), adezivin çökmüş kollajen ağına ve kanallara penetrasyonunun zorlaşmasına (D) ve peritübüler dentinin tamamen erimesiyle kanal ağızlarının aşırı genişlemesine (E) neden olur.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Klinik ve radyolojik inceleme sonucunda çürük lezyonu bulunan 47 numaralı dişe yapılan kompozit restorasyon esnasında dentin dokusunda asitleme işlemi 30 sn olarak gerçekleştiriliyor. Buna göre aşağıda verilen durumlardan hangisinin gerçekleşmesi beklenmez?",
+    "options": {
+      "A": "Fazla kollajen matriksin açığa çıkması",
+      "B": "Postoperatif hassasiyet",
+      "C": "Peritübüler dentinde aşırı derecede demineralizasyon",
+      "D": "Daha fazla miktarda makro-mikrotag oluşumu",
+      "E": "Adezivin kanal penetrasyonunun zorlaşması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Dentinin 30 saniye boyunca aşırı asitlenmesi kollajen ağında büzüşmeye, aşırı derin demineralizasyona ve tübüllerden yüzeye fazla dentin sıvısı akışına yol açarak rezin penetrasyonunu engeller; bu nedenle daha fazla miktarda makro-mikrotag oluşumu beklenmez. Çeldiriciler: Fazla kollajen matriksin açığa çıkması (A), postoperatif hassasiyet (B), peritübüler dentinde aşırı demineralizasyon (C) ve adezivin penetrasyonunun zorlaşması (E) dentinin aşırı asitlenmesinin beklenen olumsuz sonuçlarıdır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Asit uygulanan dentinde aşağıdaki değişikliklerden hangisi oluşmaz?",
+    "options": {
+      "A": "İntertübüler dentin demineralize olur",
+      "B": "Peritübüler dentin ortadan kalkar",
+      "C": "Tübüller huni şeklinde genişler",
+      "D": "Dentin sıvısının akış hızı artar",
+      "E": "Dentin geçirgenliği azalır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dentine ortofosforik asit uygulandığında tübülleri tıkayan smear tabakası ve smear tıkaçları uzaklaştırıldığı ve peritübüler dentin eriyerek tübül ağızları genişlediği için dentin geçirgenliği azalmaz, tam tersine önemli ölçüde artar. Çeldiriciler: - A) İntertübüler dentin yüzeyel olarak demineralize olur ve kollajen ağı açığa çıkar. - B ve C) Tübül girişindeki hipermineralize peritübüler dentin eriyerek ortadan kalkar ve tübül ağızları huni biçiminde genişler. - D) Smear tıkaçlarının kalkmasıyla pulpal basınç altındaki dentin sıvısının tübüllerden dentin yüzeyine doğru akış hızı artar.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Üniversal adezivlerle ilgili aşağıdakilerden hangisi söylenemez?",
+    "options": {
+      "A": "Total etch tekniğiyle kullanılabilir",
+      "B": "Self etch şeklinde kullanılabilir",
+      "C": "Selektif etch tekniğiyle kullanılabilir",
+      "D": "İndirekt restorasyonların simantasyonunda kullanılamaz",
+      "E": "10-MDP monomeri içerir"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Üniversal adezivler hem direkt restorasyonlarda hem de uygun pH değerine sahip formlarıyla (veya aktivatörlerle) indirekt restorasyonların simantasyonunda kullanılabilir; kullanılamaz ifadesi yanlıştır. Çeldiriciler: Üniversal (multi-mode) adezivler total-etch (A), self-etch (B) ve selektif-etch (C) tekniklerinin tümüyle kullanılabilir ve kimyasal bağlanma sağlayan 10-MDP monomeri (E) içerir.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Üniversal sistemlerde bulunan asitlerin pH değeri aşağıdakilerden hangisi olamaz?",
+    "options": {
+      "A": "1,6",
+      "B": "2",
+      "C": "2,4",
+      "D": "3",
+      "E": "4"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Üniversal adeziv sistemlerin ticari formlarında bulunan fonksiyonel asidik monomerlerin pH değerleri 1,6 ile 3,2 aralığındadır; pH 4 değerinde demineralizasyon kapasitesi yetersiz kalacağından bu değerde üniversal adeziv bulunmaz. Çeldiriciler: 1,6 (A), 2 (B), 2,4 (C) ve 3 (D) değerleri üniversal adezivlerin 1,6-3,2 pH aralığı içerisinde yer alan geçerli asidite değerleridir.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Self-etch adeziv sistemlerde dentin yüzeyindeki kalsiyum ile suda çözünmeyen stabil tuzlar oluşturarak kimyasal bağlanma sağlayabilme özelliğine sahip fonksiyonel monomer aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "HEMA",
+      "B": "10-MDP",
+      "C": "Bis-GMA",
+      "D": "TEGDMA",
+      "E": "UDMA"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): 10-MDP (10-metakriloiloksidesil dihidrojen fosfat), self-etch ve üniversal adezivlerde bulunan fonksiyonel bir monomer olup hidroksiapatit kristallerinde güçlü dekalsifikasyona yol açmadan kalsiyum iyonları ile iyonik bağ (şelasyon) kurarak nanotabaka bazında suda çözünmeyen oldukça stabil kalsiyum-MDP tuzları oluşturur. Çeldiriciler: - A) HEMA, ıslanabilirliği artıran hidrofilik primer monomeridir, kalsiyumla iyonik bağ kurmaz. - C ve E) Bis-GMA ve UDMA, adeziv rezinin ve kompozitin mekanik gövdesini oluşturan yüksek molekül ağırlıklı hidrofobik çapraz bağlayıcı monomerlerdir. - D) TEGDMA, viskoziteyi düşüren seyreltici komonomerdir.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "[Görsel: X fotoğrafında preparasyonlu dişte yalnız mine kenarlarına fosforik asit uygulanması (selektif etch), Y fotoğrafında hem mine hem dentine fosforik asit uygulanması (total etch)] Klinikte, yukarıdaki \"X\" ve \"Y\" kavitelerinin her ikisinde de kullanımında uygun olan adeziv sistemler ile ilgili aşağıda verilenlerden hangisi yanlış bir bilgi içermektedir?",
+    "options": {
+      "A": "Self-etch, etch-and-rinse ve selektif-etch adezyon stratejileri ile kullanılabilirler.",
+      "B": "Birçoğu hidroksiapatite iyonik olarak bağlanan 10-MDP monomeri içerir.",
+      "C": "İndirekt restorasyonlar için kullanılamazlar",
+      "D": "Sistem asitlerinin pH değeri 1.6-3.2 arasında değişmektedir",
+      "E": "Fırçayla kaviteye aktif şekilde ovalanarak uygulanması daha yoğun bir nanotabaka oluşumunu sağlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Görselde hem selektif-etch (X) hem de total-etch (Y) stratejisiyle kullanılabilen sistem \"Üniversal adeziv\" sistemdir. Üniversal adezivler direkt restorasyonların yanı sıra indirekt restorasyonların simantasyonunda da kullanılabilir; \"indirekt restorasyonlar için kullanılamazlar\" ifadesi yanlıştır. Çeldiriciler: - A) Üniversal adezivler self-etch, etch-and-rinse ve selektif-etch stratejileriyle kullanılabilir. - B) İçerdikleri 10-MDP monomeri ile hidroksiapatite iyonik olarak bağlanırlar. - D) pH değerleri 1,6-3,2 aralığındadır. - E) 10-MDP içerikli üniversal adezivin fırçayla aktif şekilde ovalanarak uygulanması pasif uygulamaya göre daha yoğun bir kalsiyum-MDP nanotabakası ve daha güçlü bağlantı sağlar.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Rutin kontrol amacıyla kliniğe başvuran 67 yaşındaki erkek hastanın yapılan klinik ve radyolojik muayenesi sonucunda; hastanın 27 numaralı dişinin distal proksimal bölgesinde yüzeyel dentin çürüğü tespit edilmiştir. Lokal anestezi altında yapılan preparasyon sonucu dentinin 1/3'ü derinliğe kadar prepare edilen bu hastaya yapılacak kompozit rezin restorasyonun adezyonunda aşağıda verilen adeziv sistemlerden hangisinin kullanımı en uygundur?",
+    "options": {
+      "A": "İki aşamalı self etch adeziv",
+      "B": "All-in-one adeziv sistem",
+      "C": "Self etch primer sistem",
+      "D": "İki aşamalı total etch sistem",
+      "E": "Self etch adeziv sistem"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): 67 yaşındaki ileri yaşlı bireylerde dentin kanalları yaşlanmaya bağlı fizyolojik sklerotik dentin yapımıyla daralmış veya tamamen tıkanmıştır; ayrıca kavite yüzeyel dentinde (1/3 derinlikte, pulpaya uzak) yer almaktadır. Mineralizasyonu artmış sert/sklerotik dentinde pürüzlülüğü artırmak ve tıkalı dentin tübüllerini açmak için zayıf asitli self-etch sistemler yerine güçlü ortofosforik asit içeren \"total-etch (etch-and-rinse)\" sistemlerin kullanımı en uygundur. Çeldiriciler: A, B, C ve E şıklarının tamamı self-etch (asitle yıkama içermeyen) adeziv sistemleri ifade etmektedir; yaşlı bireylerin hipermineralize sklerotik dentininde ve mine kenarlarında self-etch sistemlerin bağlanma etkinliği total-etch sistemlere göre yetersiz kalır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "MOD restorasyon gerçekleştirilen bir hastada görülen postoperatif hassasiyetin başlıca nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Materyalin yeterince kondanse edilmemesi",
+      "B": "Oklüzal embraşürün yanlış işlenmesi",
+      "C": "Matriksin uygun olmayan şekilde çıkarılması",
+      "D": "Aksiyo-pulpal köşenin yuvarlatılmaması",
+      "E": "Restorasyonun aşırı derecede işlenmesi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Üç yüzlü (MOD) bir amalgam restorasyonda materyalin kavite duvarlarına ve özellikle proksimal kutulara yeterince kondanse edilmemesi (yetersiz kondenzasyon ve lateral kondenzasyon eksikliği), restorasyon ile kavite duvarları/cavosurface marjin arasında mikroboşluklar kalmasına, mikrosızıntıya ve dentin sıvısı hareketine bağlı doğrudan postoperatif hassasiyete yol açar. Çeldiriciler: - B) Oklüzal embraşürün yanlış işlenmesi sentrik oklüzyonu bozarak kronik travma ve periodontal sorunlar oluşturur. - C) Matriksin uygun olmayan şekilde çıkarılması erken dönemde kenar kırılmasına/ayrılmasına yol açar ancak hemen düzeltilebilir. - D) Aksiyo-pulpal çizgi açısının yuvarlatılmaması iç stres konsantrasyonu yaratarak restoratif materyalin (amalgamın) isthmus bölgesinden kırılmasına neden olur. - E) Restorasyonun aşırı işlenmesi (over-carving) dişin oklüzyondan düşmesine ve incelen amalgam kenarlarında hücre korozyonuyla kırılmalara yol açar.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER",
+    "flag_reason": "2012 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "Kliniğe başvuran, yüksek çürük riski bulunan 65 yaşındaki kadın hastanın yapılan klinik ve radyolojik muayenesi sonucunda 26 numarasında tespit edilen dentin çürüğü için amalgam restorasyon yapımı planlanıyor. Lokal anestezi altında yapılan restorasyondan kısa süre sonra, hasta sıcak soğuk hassasiyeti şikayetiyle kliniğe başvuruyor. Buna göre aşağıdakilerden hangisi olası durumlar arasında değildir?",
+    "options": {
+      "A": "Kavite tabanında çürük bırakılmış olabilir.",
+      "B": "Yetersiz kondenzasyon yapılmış olabilir.",
+      "C": "Cavosurface adaptasyonu sağlanamamışsa dentin dokusu açıkta kalmış olabilir.",
+      "D": "Uygun şekilde amalgamın manipülasyonu yapılmamış olabilir.",
+      "E": "Uygunsuz kavite preparasyonu yapılmış olabilir."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kavite tabanında çürük bırakılması (rezidüel çürük) ve bunun ilerleyerek pulpada reaksiyon oluşturması \"geç dönem\" ağrı sebebidir; restorasyondan hemen/kısa süre sonra ortaya çıkan \"erken dönem\" sıcak-soğuk hassasiyeti kavite tabanında çürük bırakılmasından kaynaklanmaz, uygulama/manipülasyon ve yalıtım hatalarından kaynaklanır. Çeldiriciler: - B ve C) Yetersiz kondenzasyon yapılması ve cavosurface adaptasyonunun sağlanamaması sonucu dentin tübüllerinin açıkta kalması ve mikrosızıntı oluşması erken dönem sıcak-soğuk hassasiyetinin başlıca nedenidir. - D ve E) Uygunsuz kavite preparasyonu (aşırı ısınma, yetersiz kaide/örtücü) ve amalgamın uygun olmayan manipülasyonu (aşırı ekspansiyon vb.) erken dönem postoperatif duyarlılığa neden olur.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, \"self-etch\" dentin bağlayıcı sistemlerin dezavantajlarından biridir?",
+    "options": {
+      "A": "Asidik monomerler içerebilmeleri",
+      "B": "Klinikte uygulanmalarının zor olması",
+      "C": "Postoperatif hassasiyete neden olmaları",
+      "D": "Prepare edilmemiş mineye bağlanma güçlerinin az olması",
+      "E": "Dentin yüzeyindeki smear tabakasını tamamen kaldırmamaları"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Self-etch adeziv sistemler fosforik asit (pH ~0,5) yerine daha zayıf organik/fosfatlı asidik monomerler (pH 1,5-3,0) içerdiği için özellikle %96-98 inorganik yapıdaki minede (ve bilhassa prepare edilmemiş prizmasız/aprizmatik minede) yeterli mikro-pürüzlendirme oluşturamazlar; bu nedenle mineye bağlanma güçlerinin az olması ve zamanla kenar renklenmesi/bozulması göstermeleri en önemli dezavantajlarıdır. Çeldiriciler: - A) Asidik monomer içermeleri bir dezavantaj değil, yıkama gerektirmeden eşzamanlı demineralizasyon ve infiltrasyon sağlayan temel çalışma mekanizmalarıdır. - B) Ayrı bir asitleme ve yıkama-kurutma basamağı içermedikleri için klinikte uygulanmaları zor değil, çok daha kolay ve hızlıdır. - C ve E) Smear tabakasını ve smear tıkaçlarını tamamen kaldırmayıp modifiye ederek hibrit tabakaya dahil ettikleri ve dentin tübüllerini açmadıkları için total-etch sistemlere göre postoperatif hassasiyet riskini önemli ölçüde azaltırlar (bu bir dezavantaj değil avantajdır).",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER",
+    "flag_reason": "2013 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Self etching bir adeziv sistemde mine dış duvarı ile sonlandırılacak olan kavitede hangi gren kalınlığında elmas frez ile bitirilme sağlanmalıdır?",
+    "options": {
+      "A": "Beyaz",
+      "B": "Sarı",
+      "C": "Kırmızı",
+      "D": "Yeşil",
+      "E": "Siyah"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Self-etch adeziv sistemlerin zayıf asitleri mineyi yeterince pürüzlendiremediği için, bu pürüzlülüğün mekanik olarak desteklenmesi amacıyla mine kavite duvarlarının daha kalın/büyük grenli elmas frezlerle (yeşil veya siyah bantlı kalın grenli elmas frezlerle; seçeneklerdeki soru kurgusuna göre D) sonlandırılması mine bağlanmasını artırır. Çeldiriciler: Beyaz (ultra-ince), sarı (ekstra-ince) ve kırmızı (ince) bantlı elmas frezler polisaj ve bitirme frezleri olup çok ince grenlidir; minede mekanik pürüzlülük oluşturmak için yetersiz kalırlar.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Self etch sistemler ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Etch & rinse adeziv sistemlere göre daha az hassasiyete neden olurlar",
+      "B": "Etch & rinse sistemlere göre derin dentinde kullanımları daha güvenlidir",
+      "C": "Kullanılan asitlerin pH değeri (0.2-0.6 gibi) çok düşüktür",
+      "D": "Hibrit tabakada su ağacı meydana gelebilir.",
+      "E": "Mineye bağlantısı, dentine olan bağlantısına oranla daha düşüktür"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Self-etch sistemlerde kullanılan asidik monomerlerin pH değeri 0,2-0,6 gibi çok düşük değildir; genellikle hafif (pH >2), orta (pH ~1,5) veya güçlü (pH ~1) olup fosforik asitten (pH 0,1-0,6) daha yüksektir. Çeldiriciler: - A ve B) Smear tıkaçlarını tamamen kaldırmadıkları ve demineralizasyon derinliği ile rezin infiltrasyon derinliği eşzamanlı olduğu için etch&rinse sistemlere göre daha az postoperatif hassasiyet yaparlar ve derin dentinde daha güvenlidirler. - D) Özellikle tek basamaklı (all-in-one) hidrofilik self-etch adezivlerde yarı geçirgen membran davranışı ve ozmotik su geçişiyle hibrit/adeziv tabakada \"su ağacı (water trees)\" olarak adlandırılan poroziteler ve nanosızıntı meydana gelebilir. - E) Zayıf asidik yapıları nedeniyle yüksek mineralizasyonlu mineye bağlantıları dentine olan bağlantılarına kıyasla daha düşüktür.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Primer ve bonding ajanın aynı şişede olduğu ayrıca asitleme işleminin yapıldığı dentin adeziv sistemi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tek aşamalı self etch sistem",
+      "B": "İki aşamalı self etch sistem",
+      "C": "İki aşamalı etch and rinse sistem",
+      "D": "Üç aşamalı etch and rinse sistem",
+      "E": "Self etch adeziv sistem"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Ayrı bir basamak olarak fosforik asitle asitleme (ve yıkama) işleminin yapıldığı, ardından primer ve bonding ajanının tek bir şişede birleştirilmiş olarak (one-bottle) ikinci basamakta uygulandığı sistem \"iki aşamalı etch and rinse (5. jenerasyon total-etch)\" adeziv sistemdir. Çeldiriciler: - A ve E) Tek aşamalı self-etch (all-in-one / 7. jenerasyon) sistemlerde asit, primer ve bond tek şişededir; ayrı bir asitleme basamağı yoktur. - B) İki aşamalı self-etch (6. jenerasyon) sistemlerde asit ve primer ilk şişede (self-etching primer), bonding ajanı ise ayrı bir ikinci şişededir. - D) Üç aşamalı etch and rinse (4. jenerasyon) sistemlerde asit, primer ve bonding ajanı üç ayrı şişede ve üç ayrı basamakta uygulanır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Aşağıda verilen uygulama-isimlendirme eşleştirmelerinden hangisi doğrudur? (Bileşenlerin parantez içinde yazılması kombine kullanımı ifade eder.)",
+    "options": {
+      "A": "(Asit + primer) + bonding rezin — Self etching primer",
+      "B": "(Asit + primer) + bonding rezin — One bottle",
+      "C": "(Asit + primer) + bonding rezin — All-in-one",
+      "D": "Asit + (primer + bonding rezin) — Self etching primer",
+      "E": "Asit + (primer + bonding rezin) — All-in-one"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Asit ve primerin aynı şişede kombine edildiği (Asit + primer) ve ardından ayrı bir şişedeki hidrofobik bonding rezinin uygulandığı iki aşamalı self-etch (6. jenerasyon) sistemler \"Self-etching primer\" sistemi olarak isimlendirilir. Çeldiriciler: - B ve C) (Asit + primer) + bonding rezin kombinasyonu iki şişeli self-etching primer sistemidir; \"One bottle\" ifadesi Asit + (primer + bonding rezin) olan 5. jenerasyonu, \"All-in-one\" ifadesi ise (Asit + primer + bonding rezin) olan tek şişeli 7. jenerasyonu tanımlar. - D ve E) Asit + (primer + bonding rezin) uygulaması iki aşamalı etch-and-rinse (One bottle / 5. jenerasyon) sistemdir; self-etching primer veya all-in-one değildir.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Kliniğe çürük diş şikayetiyle başvuran 37 yaşındaki kadın hastanın yapılan klinik ve radyolojik muayenesi sonucunda; 46 numaralı dişinde herhangi bir periapikal problemin olmadığı, çürük nedeniyle aşırı madde kaybının bulunduğu ve dişin vitalitesinin pozitif olduğu belirlenmiştir. Çürük bölgenin eliminasyonu sağlandıktan sonra indirekt onley yapımına karar verilen hastada hazırlanan restorasyon dual cure simanla simante edilecektir. Buna göre simantasyonda aşağıda verilen adeziv sistemlerden hangisinin kullanımı uygun değildir?",
+    "options": {
+      "A": "Etch&rinse iki aşamalı",
+      "B": "All-in-one",
+      "C": "Üniversal",
+      "D": "Self etch iki aşamalı",
+      "E": "Cam iyonomer bazlı adezivler"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Tek aşamalı self-etch sistemler olan \"All-in-one (7. jenerasyon)\" adezivler yüksek oranda asidik ve hidrofilik monomer içerir; bu yüksek asidite, kimyasal sertleşen (self-cure) ve hem ışık hem kimyasal yolla sertleşen (dual-cure) rezin simanların içerisindeki bazik \"tersiyer amin\" hızlandırıcısıyla asit-baz reaksiyonuna girerek amini inaktive eder ve simanın kimyasal polimerizasyonunu bozar. Bu nedenle dual-cure simanlarla all-in-one adezivler (özel aktivatör olmadan) uyumsuzdur ve kullanılmaz. Çeldiriciler: İki aşamalı etch&rinse, uygun pH/aktivatörlü üniversal sistemler, üst katmanı nötr/hidrofobik bond olan iki aşamalı self-etch sistemler ve cam iyonomer bazlı sistemler indirekt simantasyonda kullanılabilir.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Dentine adezyonda aşağıdakilerden hangisinin kollajen yıkımını engelleyici etkisi vardır?",
+    "options": {
+      "A": "Glutaraldehid",
+      "B": "Klorheksidin",
+      "C": "Florid",
+      "D": "MDPB",
+      "E": "Paraben"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dentin matriksinde bulunan ve asitleme işlemi sırasında aktive olan endojen \"matriks metalloproteinaz (MMP)\" ve sistein katepsin enzimleri, hibrit tabakadaki açıkta kalan kollajen lifleri zamanla hidrolize ederek adeziv bağlantının bozulmasına yol açar. Kavite dezenfektanı olarak (%2 konsantrasyonda) kullanılan \"klorheksidin\", hem dentini nemlendirir hem de güçlü bir MMP enzim inhibitörü olarak hibrit tabakadaki kollajen yıkımını engeller. Çeldiriciler: - A) Glutaraldehid protein çökeltici ve çapraz bağlayıcı hassasiyet gidericidir. - C) Florid remineralizasyon ajanıdır. - D) MDPB, adeziv içerisine eklenen antibakteriyel monomerdir. - E) Paraben koruyucu kimyasaldır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Kavite dezenfektanı olarak kullanımlarda klorheksidinin dentin dokusu üzerine olan etkilerinden biri aşağıda verilenlerden hangisidir?",
+    "options": {
+      "A": "Kollajenlerin yıkımına sebep olur",
+      "B": "Dentin kanallarının üstünü açarak mekanik tutuculuk alanları açar",
+      "C": "Dentin lenfi akış hızını azaltarak bağlantının artmasına neden olur",
+      "D": "Kollajenlerin arasını açarak bağlantıyı arttırır.",
+      "E": "Nemli bağlanmayı azaltır"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Klorheksidin asitleme sonrasında uygulandığında kurutulmuş dentini yeniden nemlendirerek (re-wetting) büzüşmüş kollajen liflerin arasını açar ve MMP enzimlerinin aktivasyonunu inhibe edip kollajen yıkımını önleyerek adeziv bağlantıyı ve bağlantının uzun dönem stabilitesini artırır. Çeldiriciler: - A) Kollajen yıkımına sebep olmaz, aksine MMP'leri inhibe ederek kollajen yıkımını önler. - B) Klorheksidin asit değildir, smear tabakasını çözüp dentin kanallarının üstünü açmaz. - C) Dentin lenfi akış hızını azaltma gibi bir mekanizması yoktur. - E) Nemli bağlanmayı azaltmaz, aksine re-wetting ajan olarak nemli bağlanmayı destekler.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Klorheksidinle ilişkili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Streptokok mutans'a etkilidir",
+      "B": "Antiviral ve antifungal etkisi yoktur",
+      "C": "Anti plak etkisi vardır",
+      "D": "Dişte boyanmaya yol açar",
+      "E": "Tat bozukluğu oluşturur"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Geniş spektrumlu katyonik bir bisbiguanid antiseptik olan klorheksidinin Gram(+) ve Gram(-) bakterilerin yanı sıra zarflı virüslere ve mantarlara (özellikle Candida albicans'a) karşı antiviral ve antifungal etkileri de vardır; etkisi yoktur ifadesi yanlıştır. Çeldiriciler: - A ve C) Çürükte ana patojen olan S. mutans'a karşı çok etkilidir ve pelikıla bağlanıp (substantivite) bakterilerin diş yüzeyine tutunmasını engelleyerek güçlü anti-plak etki gösterir. - D ve E) Uzun süreli kullanımda yan etki olarak dişlerde, restorasyonlarda ve dilde kahverengi boyanma, tat bozukluğu (metalik/acı tat), mukozada irritasyon/deskuamasyon ve parotiste ödem oluşturabilir.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "I. 4. Jenerasyon II. 5. Jenerasyon III. 6. Jenerasyon IV. 7. Jenerasyon Yalnızca mine dokusunda yapılacak bir restorasyonda yukarıda bulunan adeziv sistemlerden hangilerini tercih etmek en uygundur?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I ve IV",
+      "D": "III ve IV",
+      "E": "II ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Yalnızca mine dokusunda yapılacak bir restorasyonda güçlü ortofosforik asit içeren total-etch (etch&rinse) sistemler olan 4. jenerasyon (3 aşamalı etch&rinse) ve 5. jenerasyon (2 aşamalı etch&rinse) adezivleri tercih etmek en uygundur. Öncüllerin Analizi: - I ve II. Öncüller (Uygun): 4. ve 5. jenerasyon adezivler fosforik asit basamağı içerdiği için minede en yüksek bağlanma dayanımını sağlar. - III ve IV. Öncüller (Uygun değil): 6. jenerasyon (2 aşamalı self-etch) ve 7. jenerasyon (tek aşamalı self-etch) adezivler zayıf asidik monomerler içerdiğinden sadece mineyi ilgilendiren restorasyonlarda tercih edilmez. Çeldiriciler: B, C, D ve E şıkları self-etch sistemler olan 6. veya 7. jenerasyonu içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "I. 4. Jenerasyon II. 5. Jenerasyon III. 6. Jenerasyon IV. 7. Jenerasyon Yalnızca mine dokusunda yapılacak bir restorasyonda yukarıda bulunan adeziv sistemlerden hangilerini tercih etmek uygun değildir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I ve IV",
+      "D": "III ve IV",
+      "E": "II ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Zayıf asit içerikleri nedeniyle mineyi etkin şekilde pürüzlendiremeyen self-etch adeziv sistemleri, yani 6. jenerasyon (III) ve 7. jenerasyon (IV) sistemleri yalnızca mine dokusunda yapılacak restorasyonlarda tercih etmek uygun değildir. Öncüllerin Analizi: - I ve II. Öncüller (Uygundur): 4. ve 5. jenerasyon etch&rinse sistemler minede en güçlü bağlantıyı sağlar. - III ve IV. Öncüller (Uygun değildir): 6. ve 7. jenerasyon self-etch sistemlerin mine bağlantısı zayıf olduğundan yalnızca minede yapılacak restorasyonlarda tercih edilmez. Çeldiriciler: A, B, C ve E şıkları minede kullanımı uygun olan 4. veya 5. jenerasyonu uygun değildir olarak sınıflandırdığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Hidrofilik ve hidrofobik uçları olan, özellikle amalgam bonding sistemlerde tercih edilen monomer aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "TEG-DMA",
+      "B": "Bis-GMA",
+      "C": "UDMA",
+      "D": "HEMA",
+      "E": "4-META"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): 4-META (4-metakriloiloksietil trimellitat anhidrit), yapısında hem metakrilat (hidrofobik/polimerize olabilen) hem de trimellitat anhidrit/karboksilat (hidrofilik/kimyasal şelasyon yapan) uçlar barındıran özel bir adeziv monomerdir; hem dentin kollajeni/kalsiyumu hem de metal oksitlerle güçlü kimyasal bağ kurabildiği için özellikle \"amalgam bonding\" sistemlerde ve metal-rezin bağlantılarında tercih edilir. Çeldiriciler: - A) TEGDMA viskozite düşürücü komonomerdir. - B ve C) Bis-GMA ve UDMA kompozit ve bondinglerin hidrofobik ana matriks monomerleridir. - D) HEMA hidrofilik ve hidrofobik uçlar içeren primer monomeridir ancak metallere bağlanan amalgam bondinglerin karakteristik monomeri 4-META'dır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Aşağıda belirtilen monomer ve görevi ilişkisinde hangisi doğru olarak verilmiştir?",
+    "options": {
+      "A": "UDMA – kompozitin ana monomeri",
+      "B": "BİS-GMA - kompozitin renk stabilitesini sağlayan monomer",
+      "C": "4-META - amalgam bağlayıcı ajan",
+      "D": "TEG – DMA - kompozitin yoğunluğunu arttıran monomer",
+      "E": "HEMA – suyu bağlayarak buharlaşan ajan"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): 4-META (4-metakriloiloksietil trimellitat anhidrit), hem diş dokusuna hem de metal alaşımlara bağlanabilme özelliği sayesinde amalgam bonding sistemlerde \"amalgam bağlayıcı ajan\" olarak kullanılan monomerdir. Çeldiriciler: - A) Kompozitlerin ilk ve temel ana matriks monomeri olarak tanımlanan molekül Bis-GMA'dır. - B) Renk stabilitesini Bis-GMA değil, UV stabilizatörleri (2-hidroksi-4-metoksibenzofenon) sağlar. - D) TEGDMA kompozitin yoğunluğunu (viskozitesini) artıran değil, azaltan (dilüe eden) monomerdir. - E) Suyu bağlayarak buharlaşan ve uzaklaştıran ajan HEMA değil, aseton ve etanol gibi organik çözücülerdir (HEMA büzüşmüş kollajen ağını yumuşatarak genişleten hidrofilik monomerdir).",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "I. HEMA II. Aseton III. Etanol Yukarıda verilen ajanlardan hangisi/hangileri aşırı kurutma sonrasında yeniden nemlendirme amacıyla kaviteye uygulanabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Asitleme sonrasında kavitenin aşırı kurutulmasıyla kollajen fibriller arasındaki su uzaklaşır, lifler arasında hidrojen bağları oluşur ve kollajen ağı büzüşerek çöker (kollaps). Bu durumda hidrojen bağlarını kopararak kollajen ağını yeniden yumuşatıp liflerin arasını açmak (re-wetting / yeniden nemlendirme) ve rezinin akmasına olanak sağlamak amacıyla kaviteye sulu \"HEMA\" solüsyonları (veya klorheksidin/su) uygulanır. Aseton ve etanol ise suyu uzaklaştıran uçucu çözücülerdir. Öncüllerin Analizi: - I. Öncül (Doğru): HEMA, çökmüş kollajen lifleri arasındaki hidrojen bağlarını koparıp liflerin arasını açarak yeniden nemlendirme (re-wetting) sağlar. - II ve III. Öncüller (Yanlış): Aseton ve etanol su kovalayıcı uçucu organik çözücülerdir; nemlendirmek için değil, mevcut suyu buharlaştırıp uzaklaştırmak için primer içinde bulunur. Çeldiriciler: B, C, D ve E şıkları kurutucu/uçucu çözücüler olan aseton (II) ve etanolü (III) yeniden nemlendirme ajanı olarak kabul ettiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Kliniğe sağ üst çene bölgesinde şiddetli hassasiyet şikayeti ile başvuran bir hastanın yapılan klinik ve radyolojik incelemeleri sonucunda 17 numaralı dişinde opak alanlarla karakterize kavitasyon ve alınan radyografide R4 seviyesinde çürük lezyonu tespit edilmiştir. Hastada yapılacak olan restorasyonda self etch adeziv sistem kullanılmasına karar verilmiştir. Bu tedavide kullanılan adeziv sistemle ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Asidik monomerlerin iyonizasyonu için hidrofilik formülasyon içerisine su ilave edilmiştir.",
+      "B": "Ayrı bir asit uygulama basamağı yoktur.",
+      "C": "Hibrit tabakası içerisinde nanosızıntı gözlenmez.",
+      "D": "Polimerize edildikten sonra yarı geçirgen bir membran gibi davranırlar.",
+      "E": "Smear tabakasında çözünme meydana getirirler"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Self-etch adeziv sistemlerin oluşturduğu hibrit tabaka içerisinde de pulpal dentin lenfi kaynaklı nanosızıntı (ve tek basamaklılarda su ağaçları) gözlenir; nanosızıntı gözlenmez ifadesi yanlıştır. Çeldiriciler: Self-etch adezivlerde iyonizasyon için formülasyonda su bulunması (A), ayrı bir asitleme basamağının olmaması (B), tek basamaklıların yarı geçirgen membran gibi davranması (D) ve smear tabakasını tamamen kaldırmasa da asiditesiyle çözerek modifiye etmesi (E) doğru bilgilerdir.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  },
+  {
+    "question": "Dentinde yapılan adeziv uygulamalar düşünüldüğünde; adezyonu sağlama amacıyla hidrofilik primer içeren ajan kullanımı ile mekanik tutuculuğun gerçekleştirildiği dentin yüzeyinde elde edilecek bağlantı değeri aşağıda verilenlerden hangisidir?",
+    "options": {
+      "A": "6 MPa",
+      "B": "10-12 MPa",
+      "C": "18-20 MPa",
+      "D": "22-35 MPa",
+      "E": "80-100 MPa"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Adeziv diş hekimliğinde hidrofilik primerler ile mikromekanik tutuculuk (hibrit tabaka ve rezin tag oluşumu) birleştiğinde dentin yüzeyinde elde edilen ideal klinik bağlanma gücü değeri \"22-35 MPa\" aralığındadır. Çeldiriciler: - A) 6 MPa, ilk nesil hidrofobik adezivlerin sadece smear tabakasına bağlanmasıyla elde edilen düşük bağlantı değeridir. - B) 10-12 MPa, sadece smear tabakasının kaldırılması veya eritilmesiyle elde edilen değerdir. - C) 18-20 MPa, yalnız hidrofilik primer içerikli erken sistemlerin ara değeridir. - E) 80-100 MPa, dentinde bağlanmanın klinik olarak ulaşılan değil, teorik olarak tahmin edilen üst sınır değeridir.",
+    "lesson": "Restoratif",
+    "unit": "8 ADEZYON VE ADEZİV SİSTEMLER"
+  }
+]

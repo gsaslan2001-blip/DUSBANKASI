@@ -1,0 +1,30 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi, \"endodontik periodontal kombine\" lezyonlara yol açan bakteri geçiş yollarından biri değildir?",
+    "options": {
+      "A": "Pulpa taşı",
+      "B": "Dentin tübülleri",
+      "C": "Aksesuar kanallar",
+      "D": "Apikal foramen",
+      "E": "Palatogingival oluklar"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"Pulpa taşı (dentikel)\", pulpa odası veya kök kanalı içerisinde oluşan kalsifiye mineralize odaklardır; pulpa ile periodontal ligament arasında bir açıklık, kanal veya geçiş yolu oluşturmadığı için endodontik-periodontal kombine lezyonlara yol açan bakteri geçiş yollarından biri değildir. Çeldiriciler: B) Kök yüzeyindeki sement tabakasının doğumsal yokluğu, periodontal küretaj veya travmayla kalkması sonucunda açığa çıkan \"dentin tübülleri (kanalcıkları)\", pulpa ve periodonsiyum arasında iki yönlü bakteri/toksin geçiş yolu oluşturur. C) Furkasyon ve kök yan yüzeylerindeki \"aksesuar ve lateral kanallar\", önemli anatomik bakteri geçiş yollarıdır. D) \"Apikal foramen\", pulpa ve periapikal periodontal dokular arasındaki en ana ve en geniş anatomik geçiş yoludur. E) \"Palatogingival oluklar\", kırık/çatlak hatları ve iyatrojenik perforasyonlar patolojik/gelişimsel bakteri geçiş yollarıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 22 - ENDODONTİ ve PERİODONTOLOJİ İLİŞKİSİ"
+  },
+  {
+    "question": "I. Dentikel\nII. Aksesuar kanallar\nIII. Dentin tübülleri\nYukarıda verilenlerden hangisi endodontik hastalığın periodontal hastalığa sebep olmasına yol açan bakteri geçiş yollarındandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Pulpa ve periodontal dokular arasında bakteri ve inflamatuar ürünlerin geçişine izin veren anatomik yollar; apikal foramen, lateral/aksesuar kanallar ve sement örtüsü kalkmış dentin tübülleridir. Öncüllerin Analizi: I. Dentikel (pulpa taşı), pulpa içindeki kalsifikasyon odakları olup bir bakteri geçiş yolu değildir (Yanlış). II. Aksesuar ve lateral kanallar, özellikle furkasyon ve apikal üçlüde kanal içi bakterilerin periodontal aralığa geçişini sağlar (Doğru). III. Dentin tübülleri, sement tabakasının hasarlandığı veya gelişimsel olarak birleşmediği servikal alanlarda bakterilerin ve toksinlerin geçiş yoludur (Doğru). Çeldiriciler: A) Dentikel geçiş yolu değildir. B) III. öncül de anatomik geçiş yoludur. C) I. öncül yanlıştır. E) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 22 - ENDODONTİ ve PERİODONTOLOJİ İLİŞKİSİ"
+  }
+]

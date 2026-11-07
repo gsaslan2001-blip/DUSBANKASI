@@ -1,0 +1,382 @@
+[
+  {
+    "question": "Bakteriyel biyofilmler ile ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Biyofilmin oluşumunda, bir yüzey üzerine yapışan planktonik bakteriler rol alır.",
+      "B": "Biyofilm yapısı dış etkenlere karşı dayanıklıdır.",
+      "C": "Biyofilm içerisinde bulunan bakteriler kendi genetik özelliklerini birbirlerine aktarabilir.",
+      "D": "Planktonik bakteri, biyofilm içindeki bakteriye göre daha virulandır.",
+      "E": "Biyofilm içindeki bakteriler besin kıtlığında bile yaşamlarını kolayca sürdürebilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sıvı ortamda serbest halde yüzen \"planktonik bakteriler\", konağın immün savunmasına (fagositoza), antibiyotiklere ve dezenfektanlara karşı oldukça savunmasızdır. Bakteriler bir yüzeye tutunup \"biyofilm\" oluşturduklarında ise gen ekspresyonlarını değiştirirler, enzim/toksin paylaşımı yaparlar ve koruyucu matriks (EPS) sayesinde fagositozdan ve antimikrobiyallerden korunarak çok daha dirençli ve patojenik hale gelirler. Dolayısıyla planktonik bakterinin biyofilm içindeki bakteriye göre daha virülan olduğu ifadesi tam tersi olup \"yanlıştır\" (biyofilm içindeki bakteriler çok daha virülan ve dirençlidir). Çeldiriciler: A) Biyofilm gelişimi, serbest yüzen planktonik bakterilerin şartlandırılmış bir katı yüzeye (dentin duvarına) geri dönüşümlü ve ardından geri dönüşümsüz olarak yapışmasıyla (adhezyonuyla) başlar. B) Polisakkarit/lipopolisakkarit yapılı ekstraselüler matriks (EPS) kılıfı sayesinde biyofilm yapısı pH değişimleri, dezenfektanlar ve antibiyotiklere karşı (1000 kata kadar) dayanıklıdır. C) Biyofilmde bakteriler birbirine çok yakın konumlandığı için konjugasyon ve yatay gen transferiyle antibiyotik direnç genlerini ve beta-laktamaz/katalaz gibi enzim genlerini birbirlerine kolayca aktarabilirler. E) Biyofilm içindeki farklı bakteri türleri birbirlerinin metabolik yan ürünlerini besin zinciri halinde kullandıkları ve metabolik hızlarını düşürebildikleri (persister hücreler) için besin kıtlığında bile yaşamlarını kolayca sürdürebilirler.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Bakteriyel biyofilmler ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Lipopolisakkarit matriks içerisinde gelişirler.",
+      "B": "Biyofilmler antibiyotiklere karşı duyarlıdır.",
+      "C": "Yan yana dizilerek yatay yerleşim gösterirler.",
+      "D": "Biyofilme katılan mikroorganizmanın virulansı azalır.",
+      "E": "Biyofilmdeki bakterilerin besin kıtlığında yaşamları sona erer."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Bakteriyel biyofilmler, bakterilerin kendileri tarafından sentezlenen ve onları yüzeye yapıştırıp dış etkenlerden koruyan hidratlı bir ekstraselüler polimerik matriks (polisakkarit / \"lipopolisakkarit matriks\") içerisinde gelişirler. Çeldiriciler: B) Biyofilmler antibiyotiklere karşı duyarlı değil, planktonik formlarına göre 100 ila 1000 kat daha \"dirençlidir\". C) Sadece tek katmanlı yatay dizilim göstermezler; su kanalları içeren, mantar/kule şeklinde çok katmanlı üç boyutlu (dikey ve yatay) kompleks bir mimari oluştururlar. D) Biyofilme katılan mikroorganizmaların virülansı ve direnci azalmaz, aksine gen transferi ve sinerjizmle belirgin şekilde artar. E) Metabolik yardımlaşma (ko-agregasyon) ve düşük metabolizma hızına geçebilme yetenekleri sayesinde besin kıtlığında yaşamları sona ermez, aylarca hayatta kalabilirler.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "I. Ultrasonikler\nII. Sodyum hipoklorit\nIII. MTAD\nYukarıda verilenlerden hangisi biyofilmlere karşı etkilidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kanal duvarlarına sıkıca tutunmuş olan bakteriyel biyofilmlerin ortadan kaldırılabilmesi için ya biyofilm matriksinin mekanik olarak parçalanması ya da güçlü bir proteolitik ajanla kimyasal olarak çözülmesi gerekir. Öncüllerin Analizi: I. Ultrasonikler (pasif ultrasonik irrigasyon), oluşturduğu akustik akım ve kavitasyon patlamalarıyla biyofilm yapısını kanal duvarından mekanik olarak koparıp parçalamada oldukça etkilidir (Doğru). II. Sodyum hipoklorit (NaOCl), biyofilmin organik EPS matriksini kimyasal olarak eritip içindeki bakterileri öldürdüğü için biyofilmlere karşı en etkili kimyasal ajandır (Doğru). III. MTAD'ın antimikrobiyal bileşeni bir lokal antibiyotik olan doksisiklindir; biyofilm içindeki bakteriler antibiyotiklere dirençli olduğu ve MTAD organik biyofilm matriksini çözemediği için olgun biyofilmlere karşı etkili değildir (Yanlış). Çeldiriciler: A) II. öncül biyofilme en etkili kimyasal ajandır. B) I. öncül de mekanik olarak çok etkilidir. C) MTAD biyofilme etkisizdir. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "I. Fakültatif bakteriler yoğunluktadır.\nII. Oksijen basıncı düşüktür.\nIII. Karbonhidratlar ana besin kaynağıdır.\nIV. Bakteri miktarı koronale göre daha fazladır.\nİlerlemiş kök kanal enfeksiyonlarında apikal kök kanal ekosistemiyle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve III",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "Yalnız II",
+      "E": "Yalnız IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök kanalı enfeksiyonu ilerledikçe ve kronikleştikçe, özellikle kanalın en derin ve ağız ortamından en uzak kısmı olan \"apikal üçlü ekosisteminde\" oksijen ve besin profili tamamen değişerek çok seçici bir mikroçevre oluşur. Öncüllerin Analizi: I. İlerlemiş enfeksiyonlarda apikal kök kanalında oksijen tükendiği için fakültatif bakteriler değil, \"%90'ın üzerinde zorunlu (obligat) anaerobik bakteriler\" yoğunluktadır (fakültatifler enfeksiyonun başlangıcında veya koronalde bulunur) (Yanlış). II. Apikal bölge ağız ortamından uzaktır ve öncü fakültatif bakteriler ortamdaki oksijeni tükettiği için redoks potansiyeli ve \"oksijen basıncı son derece düşüktür\" (Doğru). III. Karbonhidratlar yalnızca enfeksiyonun başlangıcında ve ağız ortamına yakın koronal kısımda besin kaynağıdır; ilerlemiş enfeksiyonda apikal bölgede karbonhidrat kalmaz, periapikalden sızan eksuda/serum ve nekrotik doku artıkları nedeniyle ana besin kaynağı \"proteinler ve glikoproteinlerdir\" (asakkarolitik/proteolitik bakteriler baskındır) (Yanlış). IV. Nekroz ve bakteriyel invazyon koronalden apikale doğru ilerlediği ve ağız ortamına yakınlık nedeniyle toplam \"bakteri miktarı (sayısı) koronalde apikale göre daha fazladır\" (Yanlış). Çeldiriciler: A) I ve III başlangıç/koronal enfeksiyon özelliğidir. B) I ve IV yanlıştır. C) III. öncül yanlıştır, apikalde proteinler ana besindir. E) IV. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Enfeksiyonun ileri aşamalarında kök kanal florası için aşağıda verilenlerden hangisi doğrudur?",
+    "options": {
+      "A": "Fakültatif bakteriler yoğunluktadır.",
+      "B": "Bakteri miktarı koronale göre daha fazladır.",
+      "C": "Karbonhidratlar ana besin kaynağıdır.",
+      "D": "Oksijen basıncı düşüktür.",
+      "E": "Ortamdaki biyofilm miktarı giderek azalır."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök kanalı enfeksiyonunun ileri aşamalarında (özellikle apikal üçlüde) pulpal kan dolaşımı tamamen durmuş ve öncü bakteriler ortamdaki serbest oksijeni tüketmiş olduğu için \"oksijen basıncı (ve redoks potansiyeli) oldukça düşüktür\"; bu durum zorunlu anaerobik bakterilerin baskın hale gelmesini sağlar. Çeldiriciler: A) İleri aşamada fakültatifler değil, zorunlu (obligat) anaerobik ve proteolitik bakteriler yoğunluktadır. B) Apikaldeki bakteri miktarı ve çeşitliliği koronal bölgeye göre daha azdır (koronalde daha fazladır). C) İleri aşamada karbonhidratlar tükenmiştir; ana besin kaynağı serum eksudası ve nekrotik dokudan gelen proteinler, peptidler ve glikoproteinlerdir. E) Enfeksiyon süresi uzadıkça ve ileri aşamaya geçildikçe ortamdaki biyofilm miktarı ve organizasyonu azalmaz, aksine giderek artar ve olgunlaşır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi primer endodontik enfeksiyonda kök kanal florasında yer almaz?",
+    "options": {
+      "A": "Koklar",
+      "B": "Çubuklar",
+      "C": "Virüsler",
+      "D": "Mantarlar",
+      "E": "Flamanlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): \"Virüsler\" (herpesvirüsler, HIV vb.), çoğalabilmek ve hayatta kalabilmek için mutlaka \"canlı (vital) konak hücrelerine\" ihtiyaç duyan zorunlu hücre içi parazitlerdir. Primer endodontik enfeksiyonların geliştiği \"nekrotik (cansız) kök kanalı\" içerisinde canlı konak hücresi bulunmadığından nekrotik kök kanal florasında virüsler yer almaz (yalnızca vital ama inflame pulpada veya canlı hücrelerin bulunduğu periapikal granülom/apse dokusunda ya da bakterileri enfekte eden bakteriyofaj olarak bulunabilirler). Çeldiriciler: A) Gram (+) ve Gram (-) koklar (Peptostreptococcus, Streptococcus, Veillonella vb.) primer kök kanal florasında bolca yer alır. B) Çubuklar / basiller (Porphyromonas, Prevotella, Fusobacterium, Eubacterium vb.) primer enfeksiyonların en baskın grubunu oluşturur. D) Mantarlar (Candida albicans) daha çok sekonder enfeksiyonlarda görülse de primer enfeksiyonlarda da seyrek olarak (%1-10) yer alabilirler. E) Flamanlar (Actinomyces vb.) ve spiroketler (Treponema denticola) primer kök kanal florasında yer alırlar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Primer intraradiküler enfeksiyonlarda aşağıdaki mikroorganizmalardan hangisinin görülme olasılığı en düşüktür?",
+    "options": {
+      "A": "Porphyromonas gingivalis",
+      "B": "Candida albicans",
+      "C": "Fusobacterium nucleatum",
+      "D": "Porphyromonas endodontalis",
+      "E": "Treponema denticola"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Primer intraradiküler (daha önce tedavi edilmemiş nekrotik kök kanalı) enfeksiyonlar; Gram (-) zorunlu anaerobik çomaklar, spiroketler ve Gram (+) anaerobların baskın olduğu polimikrobiyal bakteriyel enfeksiyonlardır. Bir maya mantarı olan \"Candida albicans\" ise daha çok başarısız kanal tedavilerinde (sekonder/persistan enfeksiyonlarda) izole edilir; primer intraradiküler enfeksiyonlarda görülme olasılığı diğer anaerobik bakterilere kıyasla \"en düşüktür (oldukça nadirdir)\". Çeldiriciler: A) Porphyromonas gingivalis, siyah pigmentli Gram (-) anaerobik çomak olup primer ve semptomatik enfeksiyonlarda sık görülür. C) Fusobacterium nucleatum, primer endodontik enfeksiyonlardan en sık izole edilen Gram (-) anaerobik bakterilerden biridir. D) Porphyromonas endodontalis, kök kanalına spesifik siyah pigmentli Gram (-) anaerob olup primer enfeksiyonlarda yüksek oranda görülür. E) Treponema denticola, oral spiroket olup primer enfeksiyonlarda ve özellikle akut apikal apselerde yüksek oranda izole edilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Derin çürüklü 36 numaralı dişinin tedavisi için başvuran hastanın alınan röntgeninde kök ucunda radyolusent lezyon izlenmiş ve vitalite testine yanıt alınamamıştır. Asemptomatik olan dişe kanal tedavisi planlanmıştır. Bu dişin kök kanallarında aşağıda verilen mikroorganizmalardan hangisinin bulunma ihtimali en düşüktür?",
+    "options": {
+      "A": "Porphyromonas gingivalis",
+      "B": "Candida albicans",
+      "C": "Fusobacterium nucleatum",
+      "D": "Porphyromonas endodontalis",
+      "E": "Treponema denticola"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Daha önce kanal tedavisi görmemiş, derin çürüklü, devital ve apikal radyolusent lezyonlu diş tablosu \"primer kronik apikal periodontitis (primer intraradiküler enfeksiyon)\"tir. Primer kök kanalı enfeksiyonlarında zorunlu anaerobik bakteriler (Fusobacterium, Porphyromonas, Prevotella, Treponema, Dialister vb.) baskın iken, bir mantar türü olan \"Candida albicans\"ın primer enfeksiyonda bulunma ihtimali en düşüktür (C. albicans sekonder/retreatment vakalarında sık görülür). Çeldiriciler: A) P. gingivalis primer enfeksiyonda sık bulunan siyah pigmentli anaerobdur. C) F. nucleatum primer enfeksiyonda en sık izole edilen türlerdendir. D) P. endodontalis primer enfeksiyonun karakteristik siyah pigmentli anaerobudur. E) T. denticola primer enfeksiyonlarda sık rastlanan anaerobik spirokettir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "I. Prophoyromonas gingivalis\nII. Treponema denticola\nIII. Propionibacterium propionicum\nIV. Actinomyces israelii\nYukarıda verilen mikroorganizmalardan hangileri kök kanalı ile ilişkili olmayan ekstraradiküler enfeksiyonlardan en sık izole edilirler?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I ve III",
+      "D": "III ve IV",
+      "E": "II ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Ekstraradiküler enfeksiyonlar, mikroorganizmaların kök kanalı dışına (periapikal dokulara) çıkarak konak savunmasına dirençli koloniler oluşturması ve kanal tedavisiyle iyileşmeyen inatçı periapikal lezyonlara (\"apikal aktinomikoz\") yol açmasıdır. Kök kanalı ile ilişkili olmayan (bağımsız) ekstraradiküler enfeksiyonlardan en sık izole edilen iki spesifik mikroorganizma \"Actinomyces israelii\" ve \"Propionibacterium propionicum\"dur. Öncüllerin Analizi: I. Porphyromonas gingivalis esas olarak intraradiküler (veya kanala bağımlı akut apse) enfeksiyon etkenidir (Yanlış). II. Treponema denticola intraradiküler ve akut apikal apse etkeni olan bir spirokettir (Yanlış). III. Propionibacterium propionicum (eski adıyla Arachnia propionica), periapikal dokuda kükürt granülleri benzeri koheziv koloniler oluşturarak ekstraradiküler enfeksiyonlardan en sık izole edilen iki etkenden biridir (Doğru). IV. Actinomyces israelii, fagositoza dirençli dallanan filamantöz kümeler oluşturarak bağımsız ekstraradiküler enfeksiyonlardan (apikal aktinomikozdan) en sık izole edilen ana etkendir (Doğru). Çeldiriciler: A) I ve II intraradiküler etkenlerdir. B) II. öncül yanlıştır. C) I. öncül yanlıştır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "I. Tükürük bileşenleri\nII. Nekrotik pulpa dokusu\nIII. Dentin kollajeni\nKök kanal sistemi içerisine yerleşmiş mikroorganizmalar yukarıdakilerden hangilerini besin kaynağı olarak kullanabilir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kök kanal sistemine yerleşen sakkarolitik ve proteolitik bakteriler, hayatta kalabilmek ve çoğalabilmek için kanal içindeki ve dışından sızan tüm karbonhidrat ve protein yapılarını besin kaynağı olarak kullanabilirler. Öncüllerin Analizi: I. Koronalden sızan \"tükürük bileşenleri\" (glikoproteinler, karbonhidratlar ve aminoasitler), özellikle koronaldeki bakteriler tarafından doğrudan besin kaynağı olarak kullanılır (Doğru). II. \"Nekrotik pulpa dokusu\", içerdiği zengin protein, peptid ve glikoproteinlerle bakterilerin en temel içsel besin kaynağıdır (Doğru). III. \"Dentin kollajeni\" (Tip I kollajen), proteolitik/kollajenolitik bakteriler (örneğin E. faecalis, P. gingivalis) tarafından parçalanarak hem adhezyon yüzeyi hem de aminoasit/peptid besin kaynağı olarak kullanılır (Doğru) (Diğer besin kaynakları: apikalden sızan doku sıvısı/eksuda ve diğer bakterilerin metabolizma ürünleridir). Çeldiriciler: A) I ve III. öncüller de besin kaynağı olarak kullanılır. B) III. öncül de proteolitik bakterilerce kullanılır. C) II. öncül en ana besin kaynağıdır. D) I. öncül de kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "I. Sızdıran koronal restorasyon\nII. Dentin kollajeni\nIII. Organik smear artıkları\nYukarıdakilerden hangileri kök kanalındaki bakterilerin beslenme ve büyümesini kolaylaştırarak reenfeksiyon riskini artıran durumlardandır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "I, II ve III",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök kanal tedavisinden sonra kanal içinde kalan rezidüel bakterilerin veya yeni giren bakterilerin çoğalarak re-enfeksiyon oluşturması, ortamda bulabildikleri besin kaynaklarına doğrudan bağlıdır. Öncüllerin Analizi: I. Sızdıran koronal restorasyon, ağız ortamından tükürük bileşenlerinin (glikoprotein ve karbonhidratların) ve yeni bakterilerin kanala girmesini sağlayarak beslenmeyi ve re-enfeksiyonu artırır (Doğru). II. Açıkta kalan dentin kollajeni, E. faecalis gibi dirençli bakterilerin hem tutunmasını hem de kollajenazlarla parçalayarak beslenmesini sağlar (Doğru). III. Kanalda temizlenmeden bırakılan organik smear artıkları ve nekrotik pulpa kalıntıları bakteriler için doğrudan protein/peptid besin kaynağı oluşturarak re-enfeksiyon riskini artırır (Doğru). Çeldiriciler: A) III. öncül de doğrudan besin kaynağıdır. B) II. öncül de besin ve tutunma kaynağıdır. C) I. öncül en önemli dış besin ve sızıntı yoludur. E) II ve III. öncüller de doğrudur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi kök kanal ekolojisinin belirlenmesinde etkili değildir?",
+    "options": {
+      "A": "Kanalın boyu",
+      "B": "Oksijen konsantrasyonu",
+      "C": "Besin tipi ve miktarı",
+      "D": "Bakteriyel etkileşimler",
+      "E": "Kök kanalının ısısı"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kök kanalı içerisindeki mikrobiyal ekolojinin (hangi bakteri türlerinin nerede yaşayıp baskın olacağının) belirlenmesinde \"kanalın boyu (milimetrik uzunluğu)\" etkili bir faktör değildir. Kanal kısa da olsa uzun da olsa apikal üçlüde her zaman oksijen düşüktür ve zorunlu anaerobik/proteolitik bakteriler baskındır. Çeldiriciler: B) Oksijen konsantrasyonu (redoks potansiyeli), fakültatif veya zorunlu anaerobların seçilimini belirleyen en önemli majör ekolojik faktördür. C) Besin tipi ve miktarı (koronalde karbonhidrat, apikalde protein/eksuda), sakkarolitik veya proteolitik türlerin dağılımını belirleyen majör faktördür. D) Bakteriyel etkileşimler (ko-agregasyon, besin zinciri simbiyozu veya bakteriyosinlerle antagonizma) ekolojiyi doğrudan belirler. E) Kök kanalının ısısı, nemi, pH'sı ve konak adezin reseptörleri bakterilerin yaşam ortamını belirleyen ekolojik faktörlerdendir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi ekstraradiküler bölgeye yerleşerek kanal tedavisinin başarısız olmasına sebep olur?",
+    "options": {
+      "A": "E. faecalis",
+      "B": "P. endodontalis",
+      "C": "P. propionicum",
+      "D": "F. nucleatum",
+      "E": "P. intermedia"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kök kanalı dışına yani periapikal dokuya (\"ekstraradiküler bölgeye\") yerleşerek konak fagositozuna dirençli koheziv koloniler kuran ve sadece kök kanal tedavisi ile iyileşmeyip cerrahi müdahale gerektiren başarısızlıklara (apikal aktinomikoz) yol açan iki klasik mikroorganizmadan biri \"Propionibacterium propionicum\"dur (diğeri ise \"Actinomyces israelii\"dir). Çeldiriciler: A) Enterococcus faecalis en güçlü çeldiricidir; başarısız kanal tedavilerinde en sık izole edilen bakteridir ancak ekstraradiküler bölgeye değil, kök kanalının \"içine (intraradiküler bölgeye ve dentin tübüllerine)\" yerleşerek başarısızlığa sebep olur. B) Porphyromonas endodontalis primer intraradiküler enfeksiyon etkenidir. D) Fusobacterium nucleatum primer intraradiküler enfeksiyon etkenidir. E) Prevotella intermedia intraradiküler ve endo-perio enfeksiyonlarında görülen siyah pigmentli anaerobdur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Aşağıdaki mikroorganizmalardan hangisinin neden olduğu enfeksiyonun kök kanal tedavisi ile kontrol altına alınması beklenmez?",
+    "options": {
+      "A": "E. faecalis",
+      "B": "P. endodontalis",
+      "C": "P. propionicum",
+      "D": "F. nucleatum",
+      "E": "P. intermedia"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): \"Propionibacterium propionicum\" (ve Actinomyces israelii), kök kanalının dışına çıkarak doğrudan periapikal lezyon dokusu içerisinde (ekstraradiküler bölgede) fagositoza dirençli biyofilm/kümeler oluşturur. Enfeksiyon odağı kök kanalının dışında yer aldığı için, yalnızca kanal içini temizleyen ortograd \"kök kanal tedavisi ile kontrol altına alınması beklenmez\"; tedavisi periapikal cerrahi (apikal rezeksiyon ve küretaj) gerektirir. Çeldiriciler: A) E. faecalis kanal içi (intraradiküler) inatçı enfeksiyon etkenidir ve uygun irrigasyon/retreatment protokolleriyle kanal içinden kontrol altına alınabilir. B) P. endodontalis kanal içi bir bakteridir ve rutin kanal tedavisiyle hızla yok edilir. D) F. nucleatum kanal içi bakteridir ve kanal tedavisiyle kolayca elimine edilir. E) P. intermedia kanal içi kemomekanik preparasyonla kontrol altına alınır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Primer kronik apikal periodontitis (KAP) ve primer akut apikal periodontitisli (AAP) dişlerin kök kanallarından en sık izole edilen bakteri eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "KAP: E. faecalis – AAP: P. endodontalis",
+      "B": "KAP: F. nucleatum – AAP: E. faecalis",
+      "C": "KAP: T. denticola – AAP: D. invisus",
+      "D": "KAP: D. invisus – AAP: T. denticola",
+      "E": "KAP: D. invisus – AAP: P. intermedia"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Moleküler mikrobiyolojik çalışmalarda; asemptomatik seyreden \"primer kronik apikal periodontitis (KAP)\" olgularının kök kanallarından en sık Gram (-) zorunlu anaerobik çomak olan \"Dialister invisus (D. invisus)\", şiddetli semptomlarla seyreden \"primer akut apikal periodontitis (AAP) ve akut apikal apse\" olgularının kanallarından ise en sık anaerobik bir spiroket olan \"Treponema denticola (T. denticola)\" izole edilmiştir. Çeldiriciler: A) E. faecalis primer değil sekonder (retreatment) enfeksiyonlarda en sık izole edilen bakteridir. B) E. faecalis primer akut tabloların baskın etkeni değildir. C) KAP ve AAP etkenleri tam tersi şekilde yazılmıştır. E) AAP ve akut apselerde en yüksek oranda göze çarpan spesifik tür T. denticola'dır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Başarısız endodontik tedavilerde kök kanallarından en fazla izole edilen mikroorganizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Enterococcus faecalis",
+      "B": "Candida albicans",
+      "C": "Actinomyces israelii",
+      "D": "Prevotella intermedia",
+      "E": "Bacteroides melaninogenicus"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Başarısız olmuş endodontik tedavilerde (sekonder/persistan intraradiküler enfeksiyonlarda) kök kanallarından açık ara \"en fazla (%30-90 oranında) izole edilen mikroorganizma\", Gram (+) fakültatif anaerobik bir kok olan \"Enterococcus faecalis\"tir. Dentin tübüllerinin derinliklerine penetre olabilmesi, kollajene bağlanması, proton pompası sayesinde kalsiyum hidroksite (pH 11.5'e kadar) direnç göstermesi ve aylarca besinsiz yaşayabilmesi onu başarısız kanal tedavilerinin bir numaralı etkeni yapar. Çeldiriciler: B) Candida albicans başarısız kanal tedavilerinde en sık izole edilen \"mantar\" türüdür, ancak toplam görülme sıklığı (%3-18) E. faecalis'ten çok daha düşüktür. C) Actinomyces israelii kök kanalı içinden ziyade kök dışında (ekstraradiküler bölgede) izole edilen etkendir. D) Prevotella intermedia primer enfeksiyonlarda görülen Gram (-) anaerobdur. E) Bacteroides melaninogenicus (yeni adıyla Prevotella melaninogenica) primer enfeksiyon ve apse florasında yer alır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ",
+    "flag_reason": "2012 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "Alınan anamnezde 4 yıl önce kanal tedavisi yapılan dişinde şiddetli ağrı olduğu belirlenen hastanın radyografik muayenesinde, homojen olmayan ve kısa kalmış bir kanal tedavisi gözlenmektedir. Aşağıdaki mikroorganizmalardan hangisinin, hastanın bu semptomlarının etkeni olma ihtimali en fazladır?",
+    "options": {
+      "A": "Enterococcus faecalis",
+      "B": "Candida albicans",
+      "C": "Actinomyces israelii",
+      "D": "Prevotella intermedia",
+      "E": "Bacteroides melaninogenicus"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): 4 yıl önce yapılmış olan yetersiz (homojen olmayan ve kısa kalmış) bir kök kanal tedavisi sonrasında gelişen sekonder/persistan intraradiküler enfeksiyon tablosunda, kök kanalından izole edilme ve semptomların etkeni olma ihtimali en yüksek mikroorganizma Gram (+) fakültatif anaerob olan \"Enterococcus faecalis\"tir. Çeldiriciler: B) Candida albicans sekonder enfeksiyonlarda görülen en sık mantar olsa da sıklığı E. faecalis'in çok gerisindedir. C) Actinomyces israelii ekstraradiküler enfeksiyonlarla ilişkilidir. D) Prevotella intermedia primer enfeksiyonlarda baskındır. E) Bacteroides melaninogenicus primer nekrotik pulpa florasında yer alır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "I. Kalsiyum hidroksit\nII. Klorheksidin\nIII. Sodyum hipoklorit\nBaşarısız bir kök kanal tedavisinin yenilenmesinde yukarıda verilen dezenfektanlardan hangisinin veya hangilerinin kullanılması diğerlerine göre anlamsızdır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Başarısız kök kanal tedavilerinde (retreatment vakalarında) kanal içindeki en baskın mikroorganizmalar \"Enterococcus faecalis\" ve \"Candida albicans\"tır. Dolayısıyla yenileme tedavisinde bu iki dirençli mikroorganizmaya karşı etkisiz olan bir ajanın tek başına kullanılması anlamsızdır. Öncüllerin Analizi: I. Kalsiyum hidroksit; E. faecalis'in sahip olduğu proton pompası mekanizması ve C. albicans'ın alkali direnci nedeniyle bu mikroorganizmalara karşı \"etkisizdir\"; bu nedenle retreatment vakalarında tek başına dezenfektan olarak kullanılması diğerlerine göre anlamsızdır (Doğru). II. Klorheksidin (%2 CHX), hem E. faecalis'e hem de C. albicans'a karşı oldukça etkilidir ve retreatment vakalarında kullanımı çok anlamlıdır (Yanlış). III. Sodyum hipoklorit (NaOCl), biyofilmleri çözdüğü ve E. faecalis dahil tüm mikroorganizmaları yok ettiği için retreatment vakalarında vazgeçilmezdir (Yanlış). Çeldiriciler: B) Klorheksidin E. faecalis'e çok etkilidir. C) Sodyum hipoklorit en temel dezenfektandır. D) II. öncül yanlıştır. E) II ve III retreatmentta en etkili iki ajandır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Mandibuler molar dişlerden kaynaklanan enfeksiyon aşağıdakilerden hangisine yayılmaz?",
+    "options": {
+      "A": "Bukkal vestibuler",
+      "B": "Submandibuler",
+      "C": "Sublingual",
+      "D": "Submental",
+      "E": "İnfraorbital"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"İnfraorbital boşluk (kanin boşluğu)\", üst çenede levator anguli oris ve levator labii superioris kasları arasında yer alan fasiyal boşluktur; yalnızca \"maksiller kanin ve maksiller 1. premolar\" dişlerden kaynaklanan enfeksiyonlar bu boşluğa yayılır. Alt çenedeki \"mandibuler molar\" dişlerden kaynaklanan bir enfeksiyonun üst yüzdeki infraorbital boşluğa doğrudan yayılması anatomik olarak imkansızdır. Çeldiriciler: A) Mandibuler molar kök uçları buccinator kası yapışımının üzerinde (koronalinde) açılırsa enfeksiyon \"bukkal vestibüler\" boşluğa (altında açılırsa bukkal boşluğa) yayılır. B) Mandibuler 2. ve 3. molarların kök uçları mylohyoid kas çizgisinin altında yer aldığı için enfeksiyon doğrudan \"submandibuler\" boşluğa yayılır. C) Mandibuler 1. moların kök uçları mylohyoid kas yapışımının üzerinde yer aldığı için enfeksiyon \"sublingual\" boşluğa yayılır. D) Mandibuler kesici dişlerden doğrudan veya submandibuler/sublingual boşluklardan sekonder yayılımla \"submental\" boşluğa yayılabilir (Ayrıca mandibula gövde boşluğu ve submasseterik/pterygomandibuler boşluklara da yayılabilir).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ",
+    "flag_reason": "2016 DUS Orijinal"
+  },
+  {
+    "question": "Maksiller kanin ve maksiller 1. premolar dişlerden kaynaklanan enfeksiyonların öncelikle hangi boşluğa yayılması beklenir?",
+    "options": {
+      "A": "Bukkal vestibül bölge",
+      "B": "Submandibüler bölge",
+      "C": "Submental bölge",
+      "D": "Sublingual bölge",
+      "E": "İnfraorbital bölge"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Uzun köklü olan \"maksiller kanin\" ve bukkal köklü \"maksiller 1. premolar\" dişlerin kök uçları bukkal kortikal tabakaya çok yakındır ve \"levator anguli oris (m. caninus)\" kasının yapışma yerinin üzerinde (apikalinde), levator labii superioris kasının ise altında sonlanır. Bu anatomik ilişki nedeniyle bu dişlerden kaynaklanan apikal enfeksiyonlar öncelikle \"infraorbital bölgeye (kanin boşluğuna)\" yayılır ve nazolabial oluğu silerek alt göz kapağına doğru ödem oluşturur. Çeldiriciler: A) Kök uçları levator anguli oris kas yapışımının altında kalsaydı bukkal vestibüle açılırdı, ancak kanin kökü uzundur ve kasın üzerinde kalır. B) Submandibüler bölgeye alt 2. ve 3. molar enfeksiyonları yayılır. C) Submental bölgeye alt kesici dişlerin enfeksiyonları yayılır. D) Sublingual bölgeye alt 1. molar, premolar ve ön diş enfeksiyonları yayılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "I. Kök ve kas ataçmanı ilişkisi\nII. Enfeksiyonun mikrobiyal etkeni\nIII. Kök boyu\nYukarıda verilenlerden hangisi veya hangileri endodontik enfeksiyonun yayılım göstereceği anatomik bölgenin belirlenmesinde etkilidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Periapikal bölgedeki pürülan bir endodontik enfeksiyonun kortikal kemiği perfore ettikten sonra ağız içine (vestibüle/palatinale) mi açılacağı yoksa hangi fasiyal boşluğa yayılacağı tamamen fiziksel ve anatomik komşuluk kurallarıyla belirlenir. Öncüllerin Analizi: I. \"Kök ucu ve kas ataçmanı (yapışımı) ilişkisi\" en temel belirleyicidir; perforasyon kas yapışımının ağız tarafında ise vestibüle, kas yapışımının ötesinde ise ilgili fasiyal boşluğa (örn: mylohyoid, buccinator, mental kaslara göre) yayılır (Doğru). II. \"Enfeksiyonun mikrobiyal etkeni\" enfeksiyonun şiddetini/hızını etkileyebilir ancak pünün hangi anatomik boşluğa yöneleceğini belirlemez (Yanlış). III. \"Kök boyu\" (ve kortikal kemiğin kalınlığı), kök ucunun kas ataçmanlarının altında mı yoksa üstünde mi sonlanacağını doğrudan belirlediği için yayılım bölgesinde etkilidir (Doğru). Çeldiriciler: A) III. öncül de kas ataçmanı seviyesini belirlediği için etkilidir. B) Mikrobiyal etken anatomik yolu belirlemez. C) I. öncül en ana kriterdir. D) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Aşağıdaki endodontik enfeksiyon tablolarından hangisinde antibiyotik kullanımı gereksizdir?",
+    "options": {
+      "A": "Ateşle seyreden sistemik enfeksiyonlar",
+      "B": "Selülit",
+      "C": "Osteomiyelit",
+      "D": "Fistülize olmuş kronik enfeksiyonlar",
+      "E": "İnatçı enfeksiyonlar"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): \"Fistülize olmuş (sinüs yolu açılmış) kronik enfeksiyonlar\" yani \"kronik apikal apse\" olgularında, periapikaldeki pürülan eksuda sinüs yolu aracılığıyla zaten kendiliğinden drene olmaktadır ve hastada şişlik veya sistemik yayılım bulgusu yoktur. Ayrıca ilgili dişin pulpası nekrotik olduğu ve kanal içinde kan dolaşımı bulunmadığı için sistemik olarak alınan antibiyotik kök kanalının içine ulaşamaz; bu nedenle kronik apikal apsede antibiyotik kullanımı tamamen \"gereksizdir\" (iyi bir kemomekanik kanal tedavisiyle sinüs yolu kendiliğinden kapanır). Çeldiriciler: A) Yüksek ateş (>38°C), halsizlik, kırgınlık (malazi), lenfadenopati ve trismus gibi sistemik belirtilerle seyreden enfeksiyonlarda antibiyotik kesinlikle endikedir. B) Selülit, enfeksiyonun fasiyal boşluklara hızla yayıldığı akut ve ciddi bir tablodur; antibiyotik kullanımı zorunludur. C) Osteomiyelit, enfeksiyonun kemik iliği ve kortikal kemiğe yayıldığı ağır bir tablodur; uzun süreli antibiyotik gerekir. E) Tüm ideal kanal içi prosedürlere ve drenaja rağmen kesilmeyen inatçı eksuda/enfeksiyon varlığında destek olarak antibiyotik verilebilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "I. Kronik apikal periodontitis\nII. Ateşle birlikte seyreden akut apikal apse\nIII. Osteomyelit\nYukarıdaki durumlardan hangisinde veya hangilerinde kemomekanik preparasyon enfeksiyonun eliminasyonu için yeterlidir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Enfeksiyonun kök kanalı içinde sınırlı kaldığı ve sistemik yayılım göstermediği kronik/lokalize tablolarda, sistemik antibiyotik gerekmeksizin yalnızca kök kanalının \"kemomekanik preparasyonu ve obturasyonu\" enfeksiyonun eliminasyonu ve periapikal iyileşme için tek başına yeterlidir. Öncüllerin Analizi: I. Kronik (asemptomatik) apikal periodontitiste enfeksiyon kaynağı nekrotik kök kanalı içindedir ve sistemik yayılım yoktur; kemomekanik preparasyon ve kanal tedavisi iyileşme için tamamen yeterlidir, antibiyotik verilmez (Doğru). II. Ateşle birlikte seyreden akut apikal apsede enfeksiyon sistemik tutulum göstermiştir; kemomekanik preparasyona ek olarak drenaj ve sistemik antibiyotik desteği şarttır (Yanlış). III. Osteomyelitte enfeksiyon alveol kemiği trabeküllerine ve medüller boşluklara yayılmıştır; tek başına kanal preparasyonu yetmez, sistemik antibiyotik ve cerrahi debridman gerekir (Yanlış). Çeldiriciler: B) Ateşli akut apsede sistemik antibiyotik gerekir. C) Osteomyelitte sistemik antibiyotik şarttır. D) II. öncül yanlıştır. E) II ve III sistemik antibiyotik gerektiren tablolardır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Penisilin alerjisi olan hastalarda ilk tercih olarak düşünülen ancak C. difficile ile olan ilişkisi sebebi ile Amerikan Endodonti Derneği tarafından artık önerilmeyen antibiyotik verilenlerden hangisidir?",
+    "options": {
+      "A": "Klindamisin",
+      "B": "Azitromisin",
+      "C": "Eritromisin",
+      "D": "Siprofloksasin",
+      "E": "Metranidazol"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"Klindamisin\", yüksek kemik penetrasyonu ve anaerobik etkinliği nedeniyle uzun yıllar boyunca penisilin alerjisi olan hastalarda hem endodontik enfeksiyon tedavisinde hem de profilakside ilk tercih olarak kullanılmıştır. Ancak bağırsak florasını bozarak ölümcül olabilen \"Clostridioides (Clostridium) difficile kaynaklı psödomembranöz enterokolit\" gelişimiyle doğrudan ilişkili olduğu için Amerikan Endodontistler Birliği (AAE) ve AHA tarafından kara listeye alınmış ve \"artık önerilmeyen\" antibiyotik ilan edilmiştir (Yerine Azitromisin veya Klaritromisin önerilmektedir). Çeldiriciler: B) Azitromisin, penisilin alerjisi olan hastalarda klindamisinin yerine güncel olarak ilk tercih önerilen makrolid grubu antibiyotiktir. C) Eritromisin gastrointestinal yan etkileri ve endodontik anaeroblara zayıf etkisi nedeniyle yerini azitromisin/klaritromisine bırakmıştır, C. difficile gerekçesi klindamisine özgüdür. D) Siprofloksasin endodontik anaeroblara karşı rutin sistemik ilk tercih değildir. E) Metronidazol tek başına değil, penisilin etkisiz kaldığında penisilinle kombine olarak kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde endodontik girişim sonrası destekleyici tedavi olarak antibiyotik reçete edilmelidir?",
+    "options": {
+      "A": "Semptomatik irreversibl pulpitis",
+      "B": "Selülit",
+      "C": "Kronik apikal periodontitis",
+      "D": "Nekrotik pulpa",
+      "E": "Kronik apikal apse"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Endodontide sistemik antibiyotik reçete edilmesi yalnızca enfeksiyonun periapikal sınırı aşarak fasiyal boşluklara hızla yayıldığı, yaygın şişlik ve sistemik enfeksiyon belirtilerinin (ateş, lenfadenopati, trismus, halsizlik) eşlik ettiği veya hastanın immün sisteminin baskılanmış olduğu durumlarda endikedir. \"Selülit\", enfeksiyonun çevre yumuşak dokulara ve fasiyal boşluklara diffüz olarak yayıldığı ve sistemik bulguların eşlik ettiği ciddi bir akut tablo olduğu için endodontik girişim ve drenaj sonrası mutlaka destekleyici olarak \"antibiyotik reçete edilmelidir\". Çeldiriciler: A) Semptomatik irreversibl pulpitis vital ve kanal içine sınırlı bir inflamasyondur, antibiyotik kesinlikle etkisiz ve gereksizdir. C) Kronik apikal periodontitiste pulpa nekrotiktir (kan dolaşımı yoktur) ve sistemik yayılım olmadığı için antibiyotik gereksizdir. D) Komplike olmamış nekrotik pulpada kan dolaşımı olmadığı için antibiyotik kanala ulaşamaz, gereksizdir. E) Kronik apikal apsede sinüs yoluyla doğal drenaj vardır ve tablo lokalizedir, antibiyotik reçete edilmez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Aşağıda verilen antibiyotik endikasyonu ve endodontik patoloji eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Selülit: Endike – Kronik apikal apse: Kontrendike – Semptomatik irreversible pulpitis: Kontrendike",
+      "B": "Selülit: Endike – Kronik apikal apse: Endike – Semptomatik irreversible pulpitis: Kontrendike",
+      "C": "Selülit: Endike – Kronik apikal apse: Endike – Semptomatik irreversible pulpitis: Endike",
+      "D": "Selülit: Kontrendike – Kronik apikal apse: Endike – Semptomatik irreversible pulpitis: Endike",
+      "E": "Selülit: Kontrendike – Kronik apikal apse: Kontrendike – Semptomatik irreversible pulpitis: Kontrendike"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Endodontik patolojilerde akılcı antibiyotik kullanım prensiplerine göre; fasiyal boşluklara yayılan ve sistemik tutulum gösteren \"Selülit\"te antibiyotik kullanımı \"Endike\"dir. Sinüs yoluyla drene olan lokalize \"Kronik apikal apse\"de ve bakteriyel yayılımın olmadığı vital bir inflamasyon olan \"Semptomatik irreversible pulpitis\"te ise sistemik antibiyotik kullanımı gereksiz ve \"Kontrendike\"dir. Çeldiriciler: B) Kronik apikal apsede antibiyotik endike değildir. C) Kronik apikal apse ve irreversible pulpitiste antibiyotik verilmez. D) Eşleştirmeler tamamen ters verilmiştir. E) Selülitte antibiyotik verilmemesi hayati risk yaratır, kesinlikle endikedir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi dental selülit tablosu ile gelen bir hastaya uygulanacak acil yaklaşım önerilerinden değildir?",
+    "options": {
+      "A": "Kök kanallarına kemomekanik temizlik yapılması",
+      "B": "Kök kanallarının açık bırakılması",
+      "C": "Hastaya antibiyotik reçete edilmesi",
+      "D": "Antibiyotiğin intramuskuler olarak reçete edilmesi",
+      "E": "Cerrahi drenaj sağlanması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dental selülit tablosu ile gelen bir hastada acil müdahale sonrası \"kök kanallarının ağız ortamına açık bırakılması\" kesinlikle önerilmez. Açık bırakılan kök kanalına tükürük, gıda artıkları ve yeni oral mikroorganizmalar girerek sekonder enfeksiyona, yabancı cisim reaksiyonuna ve tablonun daha da alevlenmesine yol açar. Drenaj sağlandıktan (veya durunca kalsiyum hidroksit konulduktan) sonra diş mutlaka geçici dolgu ile kapatılmalıdır. Çeldiriciler: A) Enfeksiyon kaynağını ortadan kaldırmak için diş hemen açılarak ekstirpasyon ve kemomekanik temizlik yapılmalıdır. C) Yayılan diffüz enfeksiyonu ve sistemik belirtileri kontrol altına almak için hastaya mutlaka antibiyotik (ve analjezik-antiinflamatuar) reçete edilmelidir. D) Diffüz ödem yavaş rezorbe olduğu ve oral antibiyotikler daha geç etki ettiği için hızlı ve yüksek kan düzeyi sağlamak adına antibiyotiğin intramüsküler (İM) veya İV olarak başlanması önerilir. E) Kanaldan yeterli drenaj sağlanamadığında, şişlik ister fluktuan ister sert (endüre) olsun cerrahi insizyon ve dren yerleştirilmesiyle cerrahi drenaj sağlanarak doku basıncı düşürülmelidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ"
+  }
+]

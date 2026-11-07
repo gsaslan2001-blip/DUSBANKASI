@@ -1,363 +1,741 @@
 /**
+
  * DUS Bankası — Kanonik Dersler & Üniteler Kataloğu
+
  *
+
  * Normal mod ve Çıkmış modunda kullanılan tek kaynak müfredat katalogu.
+
  * 14 Ana ders + Farmakoloji ve bunlara ait resmi ünite listeleri.
+
  */
+
+
 
 import { compareByCurriculumOrder } from './curriculum';
 
+
+
 export const CANONICAL_UNITS: Record<string, string[]> = {
+
   Anatomi: [
+
     '1. Ünite - Kemikler',
+
     '2. Ünite - Eklemler',
+
     '3. Ünite - Kaslar',
+
     '4. Ünite - Pleksuslar',
+
     '5. Ünite - Solunum Sistemi',
+
     '6. Ünite - Dolaşım Sistemi',
+
     '7. Ünite - Sindirim Sistemi',
+
     '8. Ünite - Merkezi Sinir Sistemi',
+
     '9. Ünite - Periferik Sinir Sistemi ve Kraniyal Sinirler',
+
     '10. Ünite - Duyu Organları',
+    'Üst Ekstremite Anatomisi',
+
   ],
+
   Biyokimya: [
+
     'BÖLÜM 1 - KARBONHİDRATLAR',
+
     'BÖLÜM 2 LİPİDLER',
+
     'BÖLÜM 3 - METABOLİZMA',
+
     'BÖLÜM 4 - AMİNOASİTLER',
+
     'BÖLÜM 5 - PROTEİNLER',
+
     '6 ENZİMLER VE KLİNİK',
+
     '7 VİTAMİNLER',
+
     'BÖLÜM 8 - HORMONLAR',
+
     'BÖLÜM 9 - HÜCRE VE ORGANELLER',
+
     'BÖLÜM 10 - GENETİK Nükleotidler ve Genom',
+
   ],
+
   Cerrahi: [
+
     '1 CERRAHİYE GİRİŞ',
+
     '2 ANESTEZİ',
+
     '3 DİŞ ÇEKİMİ',
+
     '4 GÖMÜLÜ DİŞLER',
+
     '5 PERİAPİKAL CERRAHİ',
+
     '6 KİST ve TÜMÖR CERRAHİSİ',
+
     '7 ENFEKSİYON',
+
     '8 YARA İYİLEŞMESİ',
+
     '9 OROANTRAL İLİŞKİ ve OROANTRAL FİSTÜL',
+
     '10 PREPROTETİK CERRAHİ',
+
     '11 İMPLANT CERRAHİSİ',
+
     '12 MAKSİLLOFASİAL TRAVMA',
+
     '13 ORTOGNATİK CERRAHİ',
+
     '14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR',
+
     '15 DUDAK - DAMAK YARIĞI',
+
     '16 LAZER',
+
     '17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM',
+
   ],
+
   Endodonti: [
+
     'Ünite 1 - GİRİŞ',
+
     'Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU',
+
     'Ünite 3 - İZOLASYON',
+
     'Ünite 4 - ENDODONTİDE LOKAL ANESTEZİ UYGULAMALARI',
+
     'Ünite 5 - PULPA ve PERİAPİKAL DOKU',
+
     'Ünite 6 - ENDODONTİK ENFEKSİYONLARIN MİKROBİYOLOJİSİ',
+
     'Ünite 7 - ENDODONTİK İMMÜNOLOJİ',
+
     'Ünite 8 - ENDODONTİDE TEŞHİS',
+
     'Ünite 9 - MEKANİK PREPARASYON',
+
     'Ünite 10 - ENDODONTİDE KARŞILAŞILAN HATALAR',
+
     'Ünite 11 - ENDODONTİDE İRRİGASYON',
+
     'Ünite 12 - KÖK KANAL MEDİKAMENTLERİ',
+
     'Ünite 13 - KÖK KANAL DOLUMU',
+
     'Ünite 14 - TEKRARLAYAN KÖK KANAL TEDAVİSİ',
+
     'Ünite 15 - ENDODONTİK ACİL DURUMLAR',
+
     'Ünite 16 - ENDODONTİDE CERRAHİ OPERASYONLAR',
+
     'Ünite 17 - VİTAL PULPA TEDAVİLERİ',
+
     'Ünite 18 - REJENERATİF ENDODONTİ',
+
     'Ünite 19 - TRAVMA',
+
     'Ünite 20 - ENDODONTİK TEDAVİ SONRASI RESTORATİF İŞLEMLER',
+
     'Ünite 21 - ENDODONTİDE BEYAZLATMA (BLEACHING)',
+
     'Ünite 22 - ENDODONTİ ve PERİODONTOLOJİ İLİŞKİSİ',
+
     'Ünite 23 - ENDODONTİ ve ORTODONTİ İLİŞKİSİ',
+
     'Ünite 24 - GERİATRİK ENDODONTİ',
+
     'Ünite 25 - ENDODONTİDE LAZER KULLANIMI',
+
   ],
+
   Farmakoloji: [
-    'Genel Farmakoloji',
-    'Diğer Sistem İlaçları',
+
+    '1-Genel Farmakoloji',
+
+    '2-Kemoterapötikler',
+
+    '3-Otonom Sinir Sistemi',
+
+    '4-Kardiyovasküler Sistem',
+
+    '5-Santral SS',
+
+    '6-Otakoidler ve NSAİİ',
+
+    '7-Hormonlar',
+
+    '8-Diğer Sistem İlaçları',
+
   ],
+
   Fizyoloji: [
+
     'Hücre Fizyolojisi',
+
     'Kan Fizyolojisi',
+
     'Dolaşım Sistemi',
+
     'Solunum Fizyolojisi',
+
     'Sindirim Sistemi',
+
     'Böbrek Fizyolojisi',
+
     'Endokrin Sistemi',
+
     'Genel Embriyoloji',
+
     'Sinir Sistemi Fizyolojisi',
+
     'Kas Fizyolojisi',
+
     'Duyu Organları',
+
   ],
+
   Histoloji: [
+
     'Hücre',
+
     'Epitel Doku',
+
     'Yağ ve Kıkırdak',
+
     'Kas',
+
     'Kan',
+
     'Sinir',
+
     'Dolaşım Sistemi',
+
     'İmmün Sistem ve Hematopoetik Organlar',
+
     'Solunum Sistemi',
+
     'Sindirim Sistemi',
+
     'Endokrin Sistem',
+
     'Genital Sistem',
+
     'Deri ve Ekleri',
+
     'Göz ve Kulak',
+
     'Merkezi Sinir Sistemi (MSS)',
+
     'Genel Embriyoloji',
+
   ],
+
   Mikrobiyoloji: [
+
     '1 Temel Mikrobiyoloji',
+
     '2 İmmunoloji',
+
     '3 Bakteriler',
+
     '4 virüsler',
+
     'Mantarlar',
+
+    'Parazitoloji',
+
     'HEDEF70',
+
   ],
+
   Ortodonti: [
+
     'Ünite 1 - BÜYÜME ve GELİŞİM',
+
     'Ünite 2 - DENTAL YAPILARIN GELİŞİMİ',
+
     'Ünite 3 - ORTODONTİK TEDAVİNİN BİYOLOJİSİ',
+
     'Ünite 4 - ANKRAJ',
+
     'Ünite 5 - ORTODONTİK TEŞHİS',
+
     'Ünite 6 - MATURASYON ANALİZİ',
+
     'Ünite 7 - DENTAL MALOKLÜZYONLAR',
+
     'Ünite 8 - ORTODONTİK TEDAVİLER',
+
     'Ünite 9 - SÜRME REHBERLİĞİ (GUIDANCE ERUPTION)',
+
     'Ünite 10 - ORTODONTİK TEDAVİ APAREYLERİ',
+
     'Ünite 11 - EKSTRAORAL APAREYLER',
+
     'Ünite 12 - ORTODONTİK TEDAVİ PLANLAMASI',
+
     'Ünite 13 - GÖMÜLÜ DİŞLERİN ORTODONTİK TEDAVİSİ',
+
     'Ünite 14 - YETİŞKİN HASTALARDA ORTODONTİK TEDAVİ',
+
     'Ünite 15 - SENDROMLAR',
+
     'Ünite 16 - DUDAK VE DAMAK YARIKLARI',
+
     'Ünite 17 - ORTOGNATİK CERRAHİ ILE ORTODONTİK TEDAVİ',
+
     'Ünite 18 - ORTODONTİK TEDAVİ KOMPLİKASYONLARI',
+
     'Ünite 19 - ORTODONTİK MATERYALLER',
+
     'Ünite 20 - RETANSİYON – RELAPS',
+
     'Ünite 21 - EK BİLGİLER',
+
   ],
+
   Patoloji: [
+
     '1- HÜCRESEL ADAPTASYONLAR HÜCRE HASARI ve ÖLÜMÜ',
+
     '2- HEMODİNAMİK HASTALIKLAR ve ŞOK',
+
     '3- İNFLAMASYON ve TAMİR',
+
     '4- İMMÜN SİSTEM HASTALIKLARI',
+
     '5- NEOPLAZİ',
+
     '6- DAMAR HASTALIKLARI',
+
     '7- DERİ HASTALIKLARI',
+
     '8- Kemik, Eklem Hastalıkları ve Yumuşak Doku Tümörleri',
+
     'Oral Patoloji',
+
   ],
+
   Pedodonti: [
+
     '1 DİŞLERİN OLUŞUM DÖNEMLERİ',
+
     '2 DİŞ SÜRME EVRELERİ',
+
     '3 DİŞLERİN GELİŞİM ANOMALİLERİ',
+
     '4 SÜT DENTİSYONDA ÇÜRÜK',
+
     '5. Ünite',
+
     '6 SÜT DİŞİ PULPA HASTALIKLARININ TEDAVİSİNDEKİ AMAÇ',
+
     '7. Ünite',
+
     '8. Ünite',
+
     '9 BESLENME ve ÇÜRÜK ARASINDAKİ İLİŞKİLER',
+
     '10 TATLANDIRICILAR',
+
     '11 ÇÜRÜK PROFİLAKSİSİNDE FLORİDLER',
+
     '12 FİSSÜR ÖRTÜCÜLER',
+
     '13 ÇOCUKLARDA KAPANIŞ İLİŞKİLERİ ve OKLUZAL REHBERLİK',
+
     '14 DİŞ YARALANMALARI VE TRAVMA',
+
     '15 ÇOCUKLARDA PERİODONSİYUM VE GİNGİVAL HASTALIKLAR',
+
     '16 ÇOCUKLUK DÖNEMİ HASTALIKLARININ AĞIZ İÇİ BELİRTİLERİ',
+
     '17 ÇOCUKLARDA SİSTEMİK HASTALIKLAR VE AĞIZ İÇİ BULGULARI',
+
     '18 ÇOCUK DİŞ HEKİMLİĞİNDE İLAÇ KULLANIMI VE ANTİBİYOTİKLER',
+
     '19 ÇOCUK HASTADA PSİKOLOJİK YAKLAŞIM VE DAVRANIŞ YÖNLENDİRMESİ',
+
     '20 ENGELLİ ÇOCUKLARDA SINIFLAMA VE TEDAVİ YAKLAŞIMLARI',
+
     '21 ÇOCUK DİŞ HEKİMLİĞİNDE LOKAL ANESTEZİ',
+
     '22 SEDASYON ve GENEL ANESTEZİ',
+
     '23. Ünite',
+
     '24 SÜT DİŞLERİNİN MORFOLOJİK VE HİSTOLOJİK ÖZELLİKLERİ',
+
     '25 MİNE, DENTİN VE PULPANIN YAPISAL ÖZELLİKLERİ',
+
     '26 SÜT DİŞLERİNDE KAVİTE HAZIRLAMA VE BLACK PRENSİPLERİ',
+
     '27 ÇOCUK DİŞ HEKİMLİĞİNDE KULLANILAN RESTORATİF MATERYALLER',
+
     '28 ANTERİOR VE POSTERİOR SÜT DİŞLERİNİN RESTORASYONLARI',
+
     '29 SÜT DİŞLERİ ÇEKİM ENDİKASYONLARI VE KONTRENDİKASYONLARI',
+
   ],
+
   Periodontoloji: [
+
     'Periodontal Anatomi',
+
     'Periodontal Epidemiyoloji',
+
     'Etiyoloji',
+
     'Periodontal Patoloji ve Mikrobiyoloji',
+
     'Gingival Hastalıklar',
+
     'Periodontitis ve Formları',
+
     'Periodontal Hastalıkların Sınıflandırılması',
+
     'Periodontal Tedavi Planlaması',
+
     'Cerrahi Teknikler',
+
     'Destekleyici Periodontal Tedavi',
+
   ],
+
   Protez: [
+
     '01-Diş Anatomisi',
+
     '02-Oklüzyonun Temelleri',
+
     '05-Eksik Diş Varlığında Tedavi Planlaması',
+
     '06-Diş Preparasyon Prensipleri',
+
     '07-Yaygın Hasarlı Dişlerin Preparasyonu',
+
     '08-Periodontal Olarak Zayıf Dişlerin Preparasyonu',
+
     '09-Geçici Restorasyonlar',
+
     '10-Sıvı ve Yumuşak Doku Kontrolü',
+
     '11-Ölçü',
+
     '12-Çalışma Modelleri ve Day',
+
     '17-Laminate Veneerler',
+
     '22-Hareketli Bölümlü Protezlerde Biyomekanik',
+
     '31-Yüz Kasları',
+
     '33-Çene İlişkilerinin Kaydı',
+
     '34-Tam Protezlerde Diş Seçimi ve Diş Dizimi',
+
     '37-Tam Protezlerde Oklüzyon',
+
     '38-Yumuşak Astar Materyalleri',
+
     '41-Protez Stomatit',
+
     '44-Diş Hekimliğinde Maddeler Bilgisi',
+
     '47-Çene Yüz Protezleri',
+
   ],
+
   Radyoloji: [
+
     'Ünite 1 - Diş Hekimliğinde Radyoloji',
+
     'Ünite 2 - Radyolojide Projeksiyon Kuralları',
+
     'Ünite 3 - Radyobiyoloji',
+
     'Ünite 4 - Dijital Görüntüleme',
+
     'Ünite 5 - Film İle Görüntüleme',
+
     'Ünite 6 - Radyografi ve Banyo Tekniği',
+
     'Ünite 7 - Radyografik Artefaktlar',
+
     'Ünite 8 - Dişhekimliğinde Radyografi Teknikleri',
+
     'Ünite 9 - Konik Işınılı Bilgisayarlı Tomografi',
+
     'Ünite 10 - Diş Hekimliğinde Diğer Görüntüleme Teknikleri',
+
     'Ünite 11 - Anatomik Landmarklar',
+
     'Ünite 12 - Diş Çürükleri ve Çürük Radyolojisi',
+
     'Ünite 13 - Diş Anomalileri',
+
     'Ünite 14 - Periodontal Radyoloji',
+
     'Ünite 15 - Radyografik Yorumlama İlkeleri',
+
     'Ünite 16 - Çeneler Ve Yüzün İltihabi Hastalıkları',
+
     'Ünite 17 - Kistler',
+
     'Ünite 18 - Benign Tümörler',
+
     'Ünite 19 - Diğer Kemik Hastalıkları',
+
     'Ünite 20 - Karsinomlar',
+
     'Ünite 21 - Sistemik Hastalıkların Çene Bulguları',
+
     'Ünite 22 - Paranazal Sinüsler',
+
     'Ünite 23 - Temporomandibular Eklem (Tme) Diagnostik Görüntüleme',
+
     'Ünite 24 - Yumuşak Doku Kalsifikasyonları',
+
     'Ünite 25 - Tükürük Bezi Hastalıkları',
+
     'Ünite 26 - Diş Hekimliğinde İmplant Planlaması',
+
     'Ünite 27 - Travma',
+
     'Ünite 28 - Kraniofasiyal Anomaliler',
+
     'Ünite 29 - Muayene Teknikleri',
+
     'Ünite 30 - Diş Hekimliğinde Sistemik Hastalıklar ve Diş Hekimli Yaklaşımı',
+
     'Ünite 31 - Solunum Sistemi Hastalıkları',
+
     'Ünite 32 - Gastrointestinal Sistem Hastalıkları',
+
     'Ünite 33 - Böbrek ve Üriner Sistem Hastalıkları',
+
     'Ünite 34 - Sinir Sistemi Hastalıkları',
+
     'Ünite 35 - Metabolik Kemik Hastalıkları',
+
     'Ünite 36 - Vaskülitler',
+
     'Ünite 37 - Hematolojik Sistem Hastalıkları',
+
     'Ünite 38 - Endokrin Sistem Hastalıkları',
+
     'Ünite 39 - Pankreatik Bozukluklar',
+
     'Ünite 40 - Bağ Dokusu Hastalıkları',
+
     'Ünite 41 - Cinsel Yolla Bulaşan Hastalılar',
+
     'Ünite 42 - Ağrı ve Duyu Değişiklikleri',
+
     'Ünite 43 - Intraoral Bulgular Anatomik Lokasyonlarına Göre Dudak Şişlikleri (Makroşelitis)',
+
     'Ünite 44 - Intraoral Bulgular Renk Değişikliklerine Göre Beyaz Lezyonlar',
+
     'Ünite 45 - Kırmızı Lezyonlar',
+
     'Ünite 46 - Pigmente Lezyonlar',
+
     'Ünite 47 - İntraoral Bulgular Yüzey Değişikliklerine Göre Vezikülobüllöz Lezyonlar',
+
     'Ünite 48 - Premalign (Prekanseröz) Lezyonlar',
+
   ],
+
   Restoratif: [
+
     '1 DİŞ SERT DOKULARI',
+
     '2 DİŞLERİN ÇÜRÜKSÜZ LEZYONLARI',
+
     '3 DENTİN HASSASİYETİ VE TEDAVİSİ',
+
     '4 ÇÜRÜK',
+
     '5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI',
+
     '6 OPERATİF DİŞ HEKİMLİĞİ DİŞ PREPARASYONLARI VE ÖZELLİKLERİ',
+
     '7 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN MADDELER',
+
     '8 ADEZYON VE ADEZİV SİSTEMLER',
+
     '9 KOMPOZİT REZİNLER',
+
     '10 DENTAL AMALGAM',
+
     '11 KOMPLEKS POSTERİOR AMALGAM RESTORASYONLAR',
+
     '12 POSTERİOR İNDİREKT RESTORASYONLAR',
+
     '13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ',
+
     '14 KONSERVATİF ESTETİK UYGULAMALAR',
+
     '15 RESTORATİF DİŞ HEKİMLİĞİNDE MUAYENE',
+
     '16 KORUYUCU TEDAVİ UYGULAMALARI',
+
     '17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR',
+
   ],
+
 };
+
+
 
 /** Tüm kanonik dersler (müfredat sırasına göre) */
+
 export const CANONICAL_LESSONS = Object.keys(CANONICAL_UNITS).sort(compareByCurriculumOrder);
 
+
+
 /** Pedodonti Çıkmış soru ünitelerinin kanonik ünitelere eşleme sözlüğü */
+
 export const PEDO_CIKMIS_TO_CANONICAL: Record<string, string> = {
+
   'BESLENME VE CURUK ARASINDAKI ILISKILER': '9 BESLENME ve ÇÜRÜK ARASINDAKİ İLİŞKİLER',
+
   'COCUK DIS HEKIMLIGINDE KULLANILAN RESTORATIF MATERYALLER': '27 ÇOCUK DİŞ HEKİMLİĞİNDE KULLANILAN RESTORATİF MATERYALLER',
+
   'COCUK DIS HEKIMLIGINDE LOKAL ANESTEZI': '21 ÇOCUK DİŞ HEKİMLİĞİNDE LOKAL ANESTEZİ',
+
   'COCUKLARDA GORULEN PERIODONTAL HASTALIKLAR': '15 ÇOCUKLARDA PERİODONSİYUM VE GİNGİVAL HASTALIKLAR',
+
   'COCUKLARDA KAPANIS ILISKILERI VE OKLUZAL REHBERLIK': '13 ÇOCUKLARDA KAPANIŞ İLİŞKİLERİ ve OKLUZAL REHBERLİK',
+
   'COCUKLARDA SISTEMIK HASTALIKLARIN AGIZ ICI BULGULARI': '17 ÇOCUKLARDA SİSTEMİK HASTALIKLAR VE AĞIZ İÇİ BULGULARI',
+
   'COCUKLUK DONEMI HASTALIKLARININ AGIZ ICI BELIRTILERI': '16 ÇOCUKLUK DÖNEMİ HASTALIKLARININ AĞIZ İÇİ BELİRTİLERİ',
+
   'CURUK PROFLAKSISINDE FLORIDLER': '11 ÇÜRÜK PROFİLAKSİSİNDE FLORİDLER',
+
   'CURUK RISKI VE CURUK AKTIVITESI TAYIN YONTEMLERI': '4 SÜT DENTİSYONDA ÇÜRÜK',
+
   'DENTISYONDA CURUK ETIYOLOJISI YAYILIMI SINIFLANDIRILMASI VE TESHISI': '4 SÜT DENTİSYONDA ÇÜRÜK',
+
   'DIS VE DESTEK DOKU YARALANMALARININ SINIFLANDIRILMASI': '14 DİŞ YARALANMALARI VE TRAVMA',
+
   'DISLERIN GELISIM ANOMALILERI': '3 DİŞLERİN GELİŞİM ANOMALİLERİ',
+
   'ENGELLI COCUKLARDA DENTAL YAKLASIMLAR': '20 ENGELLİ ÇOCUKLARDA SINIFLAMA VE TEDAVİ YAKLAŞIMLARI',
+
   'FISSUR ORTUCULER': '12 FİSSÜR ÖRTÜCÜLER',
+
   'GENC SUREKLI DISLERDE ENDODONTIK TEDAVILER': '6 SÜT DİŞİ PULPA HASTALIKLARININ TEDAVİSİNDEKİ AMAÇ',
+
   'MINE, DENTIN VE PULPANIN YAPISAL OZELLIKLERI': '25 MİNE, DENTİN VE PULPANIN YAPISAL ÖZELLİKLERİ',
+
   'ORAL PATOLOJI': '16 ÇOCUKLUK DÖNEMİ HASTALIKLARININ AĞIZ İÇİ BELİRTİLERİ',
+
   'SEDASYON VE GENEL ANESTEZI': '22 SEDASYON ve GENEL ANESTEZİ',
+
   'SUT DISI PULPA HASTALARINDA TESHIS VE TEDAVI': '6 SÜT DİŞİ PULPA HASTALIKLARININ TEDAVİSİNDEKİ AMAÇ',
+
   'SUT DISLERININ MORFOLOJIK VE HISTOLOJIK OZELLIKLERI': '24 SÜT DİŞLERİNİN MORFOLOJİK VE HİSTOLOJİK ÖZELLİKLERİ',
+
   'SUT VE SUREKLI DIS EMBRIYOLOJISI': '1 DİŞLERİN OLUŞUM DÖNEMLERİ',
+
   'SUT VE SUREKLI DISLERIN SURMESI': '2 DİŞ SÜRME EVRELERİ',
+
 };
 
+
+
 /** Bir sorunun normal mod sorusu olup olmadığını belirler (çıkmış ve high-yield sorular normal modda listelenmez) */
+
 export function isDenemeBankQuestion(q: { unit?: string; quality_flag?: string | null }): boolean {
+
   return q.unit === 'Deneme' && q.quality_flag !== 'cikmis';
+
 }
+
+
 
 export function isNormalQuestion(q: { lesson: string; unit?: string; quality_flag?: string | null }): boolean {
+
   return !isCikmisQuestion(q) && !isDenemeBankQuestion(q);
+
 }
+
+
 
 /** Bir sorunun çıkmış sorusu olup olmadığını belirler */
+
 export function isCikmisQuestion(q: { lesson: string; quality_flag?: string | null }): boolean {
+
   if (q.quality_flag === 'cikmis') return true;
+
   const l = (q.lesson || '').toLocaleLowerCase('tr');
+
   return l.includes('cikmis') || l.includes('çıkmış') || /[çc][ıi]km[ıi][şs]/i.test(q.lesson || '');
+
 }
+
+
 
 /** Çıkmış sorusunun ait olduğu kanonik ders adını normalize eder */
+
 export function getCikmisCanonicalLesson(q: { lesson: string; unit: string }): string {
+
   const l = q.lesson || '';
+
   if (l === 'ÇIKMIŞ SORULAR') {
+
     return q.unit || 'Ortodonti';
+
   }
+
   if (l === 'Pedodonti Cikmis') {
+
     return 'Pedodonti';
+
   }
+
   const clean = l.replace(/c[iı]km[iı]s|çıkmış/gi, '').trim();
+
   // Kanonik derslerde eşleşen varsa dön
+
   const found = CANONICAL_LESSONS.find(cl => cl.toLowerCase() === clean.toLowerCase() || cl.toLowerCase() === l.toLowerCase());
+
   return found || clean || l;
+
 }
 
+
+
 /** Çıkmış sorusunun ait olduğu kanonik veya görünen ünite adını döner */
+
 export function getCikmisCanonicalUnit(q: { lesson: string; unit: string }): string {
+
   if (q.lesson === 'Pedodonti Cikmis' && PEDO_CIKMIS_TO_CANONICAL[q.unit]) {
+
     return PEDO_CIKMIS_TO_CANONICAL[q.unit];
+
   }
+
   if (q.lesson === 'ÇIKMIŞ SORULAR') {
+
     return 'Genel Çıkmış Sorular';
+
   }
+
   return q.unit;
+
 }
+

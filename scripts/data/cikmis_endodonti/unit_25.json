@@ -1,0 +1,86 @@
+[
+  {
+    "question": "Lazer, endodontide aşağıdakilerden hangisi için kullanılmaz?",
+    "options": {
+      "A": "Kanalların temizlenmesi ve dezenfeksiyonu",
+      "B": "Kök kanallarının obtürasyonu",
+      "C": "Endodontik retreatment",
+      "D": "Apikal cerrahi",
+      "E": "Lokalize edilemeyen kanalların tespiti"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Pulpa odası tabanında kalsifiye olmuş veya \"lokalize edilemeyen kanalların tespiti\" için yüksek görsel büyütme/aydınlatma (operasyon mikroskobu) ve el aletleriyle/ultrasoniklerle yüksek \"dokunsal hassasiyet (tactile feedback)\" gerekir. Lazer uygulamalarında ise dokunsal el hassasiyeti tamamen kaybolur ve lazerin termal/ablatif etkisi pulpa tabanındaki doğal anatomik renk rehberlerini kömürleştirip bozarak yüksek perforasyon riski yaratır; bu nedenle lazer lokalize edilemeyen kanalların tespitinde kesinlikle kullanılmaz. Çeldiriciler: A) Er:YAG, Er,Cr:YSGG, Nd:YAG ve diyot lazerler bakterisid etkileri ve suya olan yüksek afiniteleriyle irrigasyon solüsyonlarını aktive ederek (PIPS, SWEEPS) kanalların temizlenmesi ve dezenfeksiyonunda kullanılır. B) Lazerin ürettiği fototermal ısı gütaperkayı yumuşatıp alfa fazına geçirdiği için kök kanallarının termoplastik obtürasyonunda kullanılır. C) Hem eski gütaperka/rezin dolgusunu eritip uzaklaştırmada hem de kırık alet etrafındaki dentini aşındırmada (endodontik retreatment) kullanılır. D) Apikal cerrahide yumuşak doku insizyonu, güçlü hemostaz (kanama kontrolü), osteotomi, apikal rezeksiyon ve retrograd kavite sterilizasyonunda kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 25 - ENDODONTİDE LAZER KULLANIMI"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi endodontide lazerler için söylenemez?",
+    "options": {
+      "A": "Lazer gutta-perkayı alfa fazına geçirebilir.",
+      "B": "Kırık alet çıkarılmasında aletin etrafındaki dentinin açılmasında kullanılabilir.",
+      "C": "Suya afinitesi yüksek olan Er: yag lazerler kanal dezenfeksiyonunda kullanılabilir.",
+      "D": "Hemostatik özelliği ile kök ucu cerrahisinde kullanılabilir.",
+      "E": "El hassasiyetini artırdığı için lokalize edilemeyen kanalların tespitinde kullanılabilir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lazer sistemleri çoğunlukla temassız (non-contact) veya fiber optik uçlarla çalıştığı için hekimin \"el (dokunsal) hassasiyetini artırmaz, tam aksine dokunsal hassasiyet kaybına\" yol açar; bu nedenle dokunsal geri bildirim ve görsel renk ayrımı gerektiren lokalize edilemeyen kanalların tespitinde kullanılamaz. Çeldiriciler: A) Lazer fototermal ısı oluşturarak katı (beta) gütaperkayı akışkan alfa fazına geçirebilir ve hem dolumda hem sökümde kullanılır. B) Sert doku lazerleri kırık aletin etrafındaki dentini ablate ederek aletin serbestleştirilmesinde ve çıkarılmasında kullanılabilir. C) Suya afinitesi çok yüksek olan Er:YAG (2940 nm) ve Er,Cr:YSGG (2780 nm) lazerler, irrigasyon sıvısında fotoakustik şok dalgaları (PIPS/SWEEPS) oluşturarak kanal dezenfeksiyonunda etkin şekilde kullanılır. D) Koagülasyon ve damar büzülmesi sağlayan güçlü hemostatik özellikleri sayesinde apikal (kök ucu) cerrahisinde kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 25 - ENDODONTİDE LAZER KULLANIMI"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi düşük enerji çıkışlı lazerlerdendir?",
+    "options": {
+      "A": "He-Ne",
+      "B": "Nd-yag",
+      "C": "Er-yag",
+      "D": "Er, Cr: YSGG",
+      "E": "CO2"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Diş hekimliğinde ve dentin aşırı duyarlılığının (hipersensitivitesinin) tedavisinde kullanılan lazerler güç çıkışlarına göre iki ana gruba ayrılır: 1) \"Düşük enerji çıkışlı (düşük güçlü / soğuk / biyostimülasyon) lazerler\": \"Helyum-Neon (He-Ne)\" ve \"Galyum-Alüminyum-Arsenid (GaAlAs / diyot)\" lazerlerdir. Bu lazerler termal etki oluşturmaz; A-delta ve C sinir liflerinin aksiyon potansiyelini/depolarizasyonunu bloke ederek ve tersiyer dentin yapımını biyostimüle ederek duyarlılığı giderir. 2) \"Orta/Yüksek enerji çıkışlı (sert/termal) lazerler\": Nd:YAG, Er:YAG, Er,Cr:YSGG ve CO2 lazerlerdir (termal etkiyle dentin tübül ağızlarını eritip daraltarak veya dentin sıvısını buharlaştırarak tübülleri tıkarlar). Dolayısıyla düşük enerji çıkışlı olan \"He-Ne\" lazerdir. Çeldiriciler: B) Nd:YAG (1064 nm) orta enerji çıkışlı bir lazerdir; dentini termal olarak eritip tübül ağızlarını tıkar. C) Er:YAG (2940 nm) orta enerji çıkışlıdır; dentin sıvısının yüzey tabakasını buharlaştırarak sıvı hareketini azaltır. D) Er,Cr:YSGG (2780 nm) orta/yüksek enerji çıkışlı sert doku lazeridir. E) CO2 lazer orta/yüksek enerji çıkışlıdır; termal olarak dentin kanalcıklarını daraltıp tıkar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 25 - ENDODONTİDE LAZER KULLANIMI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi lazerin endodontideki kullanım alanlarından biri değildir?",
+    "options": {
+      "A": "Pulpotomide kanama kontrolü",
+      "B": "Kök kanal dezenfeksiyonu",
+      "C": "Pulpa vitalite tespiti",
+      "D": "Kök kanal medikamentlerinin uzaklaştırılması",
+      "E": "Çalışma boyu tespiti"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lazerlerin endodontide tanıdan cerrahiye kadar birçok kullanım alanı olmasına karşın, kök kanalının apikal daralımını algılayarak \"çalışma boyu tespiti\" (kanal boyu ölçümü) yapabilmesi fiziksel olarak mümkün değildir (Çalışma boyu tespiti elektronik apeks bulucular ve radyografiler ile yapılır). Çeldiriciler: A) Vital pulpa tedavilerinde (direkt kuafaj ve pulpotomide) ekspoz pulpa yüzeyinde temassız koagülasyon, dezenfeksiyon ve kanama kontrolü (hemostaz) sağlamak için kullanılır. B) Doğrudan fototermal/fotodinamik bakterisid etkisiyle ve irrigasyon solüsyonlarını aktive ederek kök kanal dezenfeksiyonunda kullanılır. C) Lazer Doppler Flowmetre (LDF) cihazı içerisinde düşük güçlü lazer ışığı kullanılarak eritrosit hareketi (kan akımı) üzerinden en doğru \"pulpa vitalite tespiti\" yapılır. D) Kalsiyum hidroksit ve üçlü antibiyotik patı gibi kanaldan çıkması zor olan kök kanal medikamentlerinin fotoakustik/hidrodinamik aktivasyonla (PIPS/SWEEPS) uzaklaştırılmasında kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 25 - ENDODONTİDE LAZER KULLANIMI"
+  },
+  {
+    "question": "I. Pulpotomide kanama kontrolü\nII. Kök kanal dezenfeksiyonu ve medikamentlerin uzaklaştırılması\nIII. Pulpa vitalite tespiti\nIV. Çalışma boyu tespiti\nYukarıda verilenlerden hangisi veya hangileri lazerin endodontideki kullanım alanlarından değildir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I, II, III",
+      "C": "III ve IV",
+      "D": "I, III ve IV",
+      "E": "Yalnız IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lazer teknolojisi endodontide hem teşhis (LDF, çürük tespiti) hem de tedavi (VPT, dezenfeksiyon, retreatment, apikal cerrahi, ağartma, biyostimülasyon) aşamalarında kullanılır; ancak kanal uzunluğu ölçümünde yeri yoktur. Öncüllerin Analizi: I. Pulpotomide ve apikal cerrahide kanama kontrolü (hemostaz) için kullanılır (Kullanım alanıdır). II. Kök kanal dezenfeksiyonu ve kanal içi medikamentlerin/gütaperkanın uzaklaştırılmasında kullanılır (Kullanım alanıdır). III. Lazer Doppler Flowmetre ile pulpal kan akımını ölçerek pulpa vitalite tespitinde kullanılır (Kullanım alanıdır). IV. \"Çalışma boyu tespiti\"nde lazerlerin herhangi bir kullanım alanı yoktur (Doğru - değildir). Çeldiriciler: A) I. öncülde kullanılır. B) I, II ve III lazerin kullanım alanlarıdır. C) III. öncülde (LDF ile) kullanılır. D) I ve III'te kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 25 - ENDODONTİDE LAZER KULLANIMI"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi düşük enerji çıkışlı lazerlerdir?",
+    "options": {
+      "A": "He-Ne",
+      "B": "Nd-yag",
+      "C": "Er-yag",
+      "D": "CO2",
+      "E": "Er, Cr: YSGG"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Dentin duyarlılığının azaltılmasında, biyostimülasyonda ve Lazer Doppler Flowmetre cihazlarında kullanılan, dokuda ısı artışı (termal ablasyon) yapmadan sinir liflerinin aksiyon potansiyelini baskılayarak etki gösteren \"düşük enerji çıkışlı\" lazerler \"He-Ne (Helyum-Neon)\" (632.8 nm) ve \"GaAlAs (Galyum-Alüminyum-Arsenid)\" lazerlerdir. Çeldiriciler: B) Nd:YAG lazer orta enerji çıkışlıdır ve dentini eriterek termal etki gösterir. C) Er:YAG lazer orta enerji çıkışlıdır ve su buharlaştırma/ablasyon yoluyla etki gösterir. D) CO2 lazer orta/yüksek enerji çıkışlıdır ve termal olarak tübülleri daraltır. E) Er,Cr:YSGG lazer orta/yüksek enerji çıkışlı sert doku lazeridir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 25 - ENDODONTİDE LAZER KULLANIMI"
+  }
+]

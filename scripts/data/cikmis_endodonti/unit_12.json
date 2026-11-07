@@ -1,0 +1,129 @@
+[
+  {
+    "question": "Kök kanal medikasyonunda kullanılan üçlü antibiyotik patı kombinasyonundaki ajanlar aşağıdakilerden hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Metronodazol-Basitrasin-Ampisilin",
+      "B": "Metranidazol-Minosiklin-Siprofloksasin",
+      "C": "Metranidazol-Doksisiklin-Ampisilin",
+      "D": "Metranidazol-Kloramfenikol-Penisilin",
+      "E": "Metrononidazol-Penisilin-Trimetoprin-sulfametaksazol"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Hoshino ve ark. tarafından geliştirilen ve özellikle rejeneratif endodontik tedavilerde (revaskülarizasyon) kök kanal sisteminin derin dezenfeksiyonu için kullanılan \"üçlü antibiyotik patı (TAP)\" kombinasyonu; zorunlu anaerobik bakterilere karşı nitroimidazol grubu \"Metronidazol\", Gram (+) bakterilere karşı tetrasiklin türevi \"Minosiklin\" ve Gram (-) ile fakültatif bakterilere karşı florokinolon grubu \"Siprofloksasin\"in 1:1:1 oranında distile su/propilen glikol ile karıştırılmasından oluşur. Çeldiriciler: A) Basitrasin ve ampisilin üçlü antibiyotik patında yer almaz (Grossman'ın eski poliantibiyotik patında penisilin ve basitrasin bulunurdu). C) Doksisiklin MTAD solüsyonunda bulunur; klasik TAP içeriğinde ampisilin yoktur, siprofloksasin ve minosiklin vardır. D) Kloramfenikol ve penisilin TAP içeriğinde yer almaz. E) Penisilin ve trimetoprim-sülfametoksazol TAP bileşenleri değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 12 - KÖK KANAL MEDİKAMENTLERİ"
+  },
+  {
+    "question": "I. Klorheksidin ile karıştırılması antimikrobiyal etkinliğini azaltır.\nII. Enterococcus faecalise karşı oldukça etkilidir.\nIII. Kök kanallarından uzaklaştırılması zordur.\nKanal içi medikasyonda kullanılan kalsiyum hidroksit ile ilgili yukarıdaki ifadelerden hangileri yanlıştır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I ve II"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kalsiyum hidroksit (Ca(OH)2), yüksek pH'sı (~12.5) ve hidroksil iyonu salınımıyla bakterilerin hücre zarını, DNA'sını ve proteinlerini tahrip eden, ayrıca endotoksinleri (LPS) detoksifiye eden en yaygın kanal içi medikamenttir. Öncüllerin Analizi: I. Kalsiyum hidroksitin klorheksidin (CHX) ile karıştırılması antimikrobiyal etkinliğini azaltmaz; aksine CHX kalsiyum hidroksite dirençli olan E. faecalis ve C. albicans'a karşı sinerjik/ek katkı sağlayarak antimikrobiyal etkinliğin değişmemesini veya artmasını sağlar (Yanlış). II. Sekonder/inatçı enfeksiyonların baş etkeni olan \"Enterococcus faecalis\", sahip olduğu \"proton pompası\" mekanizmasıyla sitoplazmasına hidroksil/proton girişini dengeleyerek pH 11.5'e kadar hayatta kalabilir ve dentin tamponlama etkisiyle de korunduğu için kalsiyum hidroksit E. faecalis'e karşı \"etkisizdir\" (Yanlış). III. Seans arasında kanala yerleştirilen kalsiyum hidroksit patının dentin duvarlarından ve özellikle apikal üçlü düzensizliklerinden tamamen \"uzaklaştırılması oldukça zordur\" ve kalan artıklar kanal patının tübül penetrasyonunu bozar (Doğru). Çeldiriciler: A) II. öncül de kesinlikle yanlıştır. B) III. öncül doğru bir ifadedir. C) III. öncül doğrudur. D) III. öncül doğrudur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 12 - KÖK KANAL MEDİKAMENTLERİ"
+  },
+  {
+    "question": "Kalsiyum hidroksit ile ilgili olarak verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Klorheksidin ile karıştırılması antimikrobiyal etkinliğini azaltır.",
+      "B": "Enterococcus faecalise karşı etkisizdir.",
+      "C": "Kök kanallarından uzaklaştırılması zordur.",
+      "D": "Suda ve gliserinde çözünür.",
+      "E": "Yüksek pH'lıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kalsiyum hidroksitin taşıyıcı/karıştırıcı olarak klorheksidin (CHX) ile karıştırılması antimikrobiyal etkinliğini azaltmaz; yapılan çalışmalarda bu kombinasyonun antimikrobiyal etkinliği koruduğu veya özellikle dirençli türlere karşı artırdığı gösterilmiştir. Çeldiriciler: B) Enterococcus faecalis (ve Candida albicans) proton pompası mekanizması ve yüksek alkali direnci nedeniyle kalsiyum hidroksite karşı dirençlidir (kalsiyum hidroksit etkisizdir). C) Kanal duvarlarından ve düzensizliklerden mekanik ve ultrasonik yıkamaya rağmen tamamen uzaklaştırılması zordur. D) Alkolde çözünmez ancak suda (kısıtlı oranda) ve gliserinde çözünerek hidroksil iyonlarına ayrışır. E) pH'sı yaklaşık 12.5 olan çok yüksek pH'lı (alkalen) bir materyaldir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 12 - KÖK KANAL MEDİKAMENTLERİ"
+  },
+  {
+    "question": "I. C. albicans\nII. E. faecalis\nIII. P. endodontalis\nYukarıda verilenlerden hangisi veya hangilerine karşı kalsiyum hidroksitin etkili olması beklenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kalsiyum hidroksit, primer kök kanalı enfeksiyonlarında bulunan zorunlu anaerobik Gram (-) bakterilerin çoğuna karşı oldukça etkiliyken, inatçı sekonder enfeksiyonlarda izole edilen alkali dirençli türlere karşı etkisizdir. Öncüllerin Analizi: I. Candida albicans, yüksek pH'da yaşayabilen ve kalsiyum iyonlarını büyümesi için kullanabilen bir mantar türü olup kalsiyum hidroksite dirençlidir (etkisizdir) (Yanlış). II. Enterococcus faecalis, hücre zarındaki proton pompası sayesinde yüksek pH'ya direnç gösterir ve kalsiyum hidroksit bu bakteriye karşı etkisizdir (Yanlış). III. Porphyromonas endodontalis, primer enfeksiyonlarda görülen siyah pigmentli Gram (-) zorunlu anaerobik bir çomaktır; kalsiyum hidroksit hem bu bakteriye hem de duvarındaki LPS endotoksinine karşı oldukça etkilidir (Doğru). Çeldiriciler: A) C. albicans'a etkisizdir. B) E. faecalis'e etkisizdir. D) İkisi de Ca(OH)2'ye en dirençli mikroorganizmalardır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 12 - KÖK KANAL MEDİKAMENTLERİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi kök kanal dezenfeksiyonunda lokal antibiyotik kullanımı ile ilgili olarak yanlıştır?",
+    "options": {
+      "A": "Biyofilmler lokal antibiyotiklere dirençlidir.",
+      "B": "Lokal antibiyotikler sistemik dolaşıma katılabilirler.",
+      "C": "Düşük doz ve kısa süre uygulanmalıdır.",
+      "D": "Kanaldan uzaklaştırılması zordur.",
+      "E": "Antibiyogram testinde spesifik bir tür var ise kanala uygulanabilir."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kök kanalı içerisinde veya vücudun herhangi bir yerinde antibiyotiklerin \"düşük doz (sub-inhibitör konsantrasyon) ve kısa süre\" uygulanması kesinlikle yanlıştır. Yetersiz konsantrasyon ve kısa süreli uygulama bakterileri öldüremez, aksine bakterilerin hızla \"antibiyotik direnci (rezistans) geliştirmesine\" ve dirençli suşların seçilmesine yol açar. Kanal içi antibiyotik patları tüm kanalı dolduracak yeterli antimikrobiyal konsantrasyonda ve yeterli sürede (örneğin rejenerasyonda 1-4 hafta, kök hücre toksisitesini önlemek için AAE'ye göre 0.1-1 mg/mL konsantrasyonda) uygulanmalıdır. Çeldiriciler: A) Biyofilm içindeki bakteriler EPS bariyeri ve gen paylaşımı nedeniyle lokal antibiyotiklere karşı dirençlidir. B) Kanal içine uygulanan antibiyotikler apikal foramenden sızarak eser miktarda da olsa sistemik dolaşıma katılabilir ve duyarlı bireylerde (özellikle penisilin grubunda) şiddetli alerjik reaksiyonları tetikleyebilir veya kişiyi duyarlı (sensitize) hale getirebilir. D) Pat formundaki antibiyotiklerin dentin tübüllerinden ve kanal duvarlarından tamamen uzaklaştırılması oldukça zordur. E) Rutin dezenfektanlara yanıt vermeyen inatçı vakalarda kültür ve antibiyogram ile spesifik bir etken saptandığında ona yönelik lokal antibiyotik uygulanabilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 12 - KÖK KANAL MEDİKAMENTLERİ"
+  },
+  {
+    "question": "Kök kanal medikamenti olarak kullanılan üçlü antibiyotik patının içeriğinde bulunan aşağıdaki ajanlardan hangisi dişte renklenmeye sebep olmaktadır?",
+    "options": {
+      "A": "Metranidazol",
+      "B": "Penisilin",
+      "C": "Siprofloksasin",
+      "D": "Sefaklor",
+      "E": "Minosiklin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Rejeneratif endodontide kullanılan üçlü antibiyotik patının (Metronidazol, Siprofloksasin, Minosiklin) en önemli klinik dezavantajı kuronda ciddi grimsi/yeşilimsi-kahverengi renklenme yapmasıdır. Bu renklenmeden sorumlu olan ajan, yarı sentetik bir tetrasiklin türevi olan \"Minosiklin\"dir; minosiklin foto-oksidasyona uğrayarak dentin içerisindeki kalsiyum iyonlarına şelasyonla bağlanır ve çözünmeyen koyu renkli kompleksler oluşturur. Çeldiriciler: A) Metronidazol dişte renklenme yapmaz (ikili antibiyotik patında güvenle kullanılır). B) Penisilin klasik üçlü antibiyotik patının içeriğinde bulunmaz ve tetrasiklin tipi renklenme yapmaz. C) Siprofloksasin dişte renklenmeye sebep olmaz. D) Sefaklor, renklenmeyi azaltmak amacıyla üçlü patta minosiklin yerine alternatif olarak önerilen bir sefalosporindir; asıl renklenme yapan ajan minosiklindir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 12 - KÖK KANAL MEDİKAMENTLERİ",
+    "flag_reason": "2023 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "I. Minosiklin-metranidazol-siprofloksasin\nII. Metranidazol-Siprofloksasin-Sefaklor\nIII. Metranidazol-Sefaklor-Penisilin\nYukarıda verilen antibiyotik kombinasyonlarından hangisi veya hangileri rejeneratif endodontide kullanılır ve renklenmeye yol açar?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Rejeneratif endodontide kullanılan klasik Hoshino üçlü antibiyotik patı (TAP), hem yüksek dezenfeksiyon başarısı hem de içeriğindeki minosikline bağlı şiddetli kuron renklenmesiyle bilinir. Öncüllerin Analizi: I. \"Minosiklin-metronidazol-siprofloksasin\" kombinasyonu, rejeneratif endodontide en yaygın kullanılan orijinal üçlü antibiyotik patıdır ve içeriğindeki minosiklin dentindeki kalsiyuma bağlanarak belirgin renklenmeye yol açar (Doğru). II. Metronidazol-Siprofloksasin-Sefaklor kombinasyonu, minosiklinin yarattığı renklenmeyi önlemek amacıyla minosiklin yerine sefaklor konularak geliştirilmiş modifiye pattır (Yanlış). III. Metranidazol-Sefaklor-Penisilin standart rejeneratif üçlü pat kombinasyonu değildir (Yanlış). Çeldiriciler: B) II. öncülde sefaklor renklenmeyi önlemek için kullanılmıştır. C) III. öncül yanlıştır. D) II. öncül yanlıştır. E) II ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 12 - KÖK KANAL MEDİKAMENTLERİ"
+  },
+  {
+    "question": "I. Semptomatik irreversibl pulpitisli diş\nII. Asemptomatik apikal periodontitisli diş\nIII. Kondensing osteitisli diş\nYukarıdakilerden hangileri kök kanal tedavisinin tek seansta bitirilmesine uygundur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kök kanal tedavisinin tek seansta tamamlanabilmesi için temel kriterler; kanalın tamamen temizlenip şekillendirilebilmesi, kanalın kuru olması (durdurulamayan aktif pü veya kanama/eksuda drenajının bulunmaması), hastada akut apse/selülit gibi yaygın şişlik ve sistemik semptomların olmaması ve yeterli zamanın bulunmasıdır. Öncüllerin Analizi: I. Semptomatik irreversibl pulpitisli dişte pulpa vitaldir ve enfeksiyon koronalde sınırlıdır; pulpa ekstirpe edilip kanama kontrol altına alındığında tek seansta bitirilmesi en ideal yaklaşımdır (Doğru). II. Asemptomatik (kronik) apikal periodontitisli dişte pulpa nekrotik ve apikalde lezyon olsa da klinik olarak akut semptom (ağrı/şişlik) ve kanal içi eksuda bulunmadığı için kemomekanik preparasyon sonrası tek seansta güvenle bitirilebilir (Doğru). III. Kondensing osteitisli diş tamamen asemptomatik bir tablodur ve kanal kuru olduğu için tek seansta bitirilmeye uygundur (Doğru). Çeldiriciler: A) II ve III. öncüller de asemptomatik ve kuru kanallı oldukları için tek seansa uygundur. B) I ve III. öncüller de uygundur. C) II. öncül de tek seansta bitirilebilir. D) I. öncül tek seansın en klasik endikasyonudur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 12 - KÖK KANAL MEDİKAMENTLERİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisinin kanal tedavisi prosedürünün tek seansta bitirilmesi önerilmez?",
+    "options": {
+      "A": "Semptomatik irreversbile pulpitis",
+      "B": "Asemptomatik apikal periodontititis",
+      "C": "Kondensing osetitis",
+      "D": "Asemptomatik apikal apse",
+      "E": "Kanal içinden püy gelen akut apikal apse"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Kanal içinden püy (cerahat/eksuda) gelen akut apikal apse\" olgularında kök kanalının kurutulması imkansızdır ve periapikal dokularda aktif, yüksek virülanslı ve basınçlı bir akut enfeksiyon mevcuttur. Islak ve püy akan bir kanala yapılacak obturasyon sızdırmazlık sağlayamaz ve drenajı tıkayarak şiddetli alevlenmeye/selülite yol açar; bu nedenle bu dişlerin tek seansta bitirilmesi kesinlikle önerilmez (kanal içi kalsiyum hidroksit konularak çok seanslı tedavi uygulanır). Çeldiriciler: A) Vital olan semptomatik irreversibl pulpitis tek seansta bitirilmeye en uygun tablodur. B) Asemptomatik apikal periodontitiste kanal kurudur ve semptom yoktur, tek seansta bitirilebilir. C) Kondensing osteitis asemptomatiktir ve tek seansta bitirilebilir. D) Asemptomatik (kronik) apikal apse olgularında kanal kurutulabiliyorsa tek seansta bitirilebilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 12 - KÖK KANAL MEDİKAMENTLERİ"
+  }
+]

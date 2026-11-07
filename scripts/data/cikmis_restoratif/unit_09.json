@@ -1,0 +1,843 @@
+[
+  {
+    "question": "I. Elastik modülü yüksektir. II. Çürüksüz Sınıf V restorasyonlarda kullanımları fayda sağlayabilir. III. Geniş kompozit restorasyonların altına stres kırıcı olarak uygulanabilir. IV. Pit ve fissür örtücü olarak kullanılmamalıdır. Akışkan kompozit rezinler ile ilgili yukarıdaki ifadelerden hangileri yanlıştır?",
+    "options": {
+      "A": "I, II ve IV",
+      "B": "I ve IV",
+      "C": "I, II ve III",
+      "D": "Yalnız III",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Akışkan (flowable) kompozit rezinlerin inorganik doldurucu oranları geleneksel kompozitlere göre daha düşük olduğundan elastik modülleri yüksek değil düşüktür (esnektirler) ve pit-fissür örtücü olarak yaygın şekilde kullanılırlar; dolayısıyla I ve IV. öncüller yanlıştır. Öncüllerin Analizi: - I. Öncül (Yanlış): Doldurucu oranı düşük olduğu için akışkan kompozitlerin elastisite modülü (sertliği) düşüktür; esnek materyallerdir. - II. Öncül (Doğru): Düşük elastisite modülü sayesinde esneme kabiliyeti yüksek olduğundan abfraksiyon gibi çürüksüz Sınıf V lezyonların restorasyonunda fayda sağlar. - III. Öncül (Doğru): Esnek yapısı nedeniyle geniş kompozit restorasyonların altında kavite tabanına ince bir tabaka halinde \"stres kırıcı (liner)\" olarak uygulanabilir. - IV. Öncül (Yanlış): Yüksek akışkanlıkları sayesinde özellikle birinci jenerasyon akışkan kompozitler pit ve fissür örtücü olarak ve koruyucu rezin restorasyonlarda başarıyla kullanılır. Çeldiriciler: A ve C şıkları doğru olan II ve III. öncülleri yanlış kabul ettiği için; D ve E şıkları ise yanlış olan I. öncülü dışarıda bırakıp doğru olan III. öncülü yanlış saydığı için hatalıdır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Aşağıdaki durumların hangisinde akışkan kompozitlerin kullanılması kontrendikedir?",
+    "options": {
+      "A": "Çürüksüz Sınıf V restorasyonlarda",
+      "B": "Geniş kompozit restorasyonların kavite tabanında stres kırıcı olarak",
+      "C": "Pit ve fissür örtücü olarak",
+      "D": "Posterior bölgede geniş sınıf I restorasyonlarda",
+      "E": "Kırık restorasyon tamirinde"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Akışkan kompozitlerin inorganik doldurucu oranı ve elastisite modülü düşük, polimerizasyon büzülmesi yüksek ve aşınma direnci zayıf olduğu için; ağır çiğneme kuvvetlerine maruz kalan posterior bölgedeki geniş Sınıf I (ve Sınıf II) kavitelerin ana restorasyon materyali olarak kullanılması kontrendikedir. Çeldiriciler: Çürüksüz Sınıf V servikal lezyonlar (A), geniş kompozitlerin altında stres kırıcı liner uygulaması (B), pit ve fissür örtücüler / mikrokaviteler (C) ve kırık restorasyon kenarlarının onarımı (E) akışkan kompozitlerin temel endikasyon alanlarıdır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Çürüksüz servikal lezyonların restorasyonunda düşük elastisite modülü nedeniyle kullanımı en uygun restoratif materyal aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Silikat siman",
+      "B": "Amalgam",
+      "C": "Akışkan kompozit",
+      "D": "Makrofil kompozit",
+      "E": "Megafil kompozit"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Çürüksüz servikal lezyonlarda (özellikle abfraksiyonlarda) oklüzal kuvvetler altında servikal bölgede bükülme ve esneme meydana gelir; estetik beklenti varlığında düşük elastisite modülü (yüksek esneklik) sayesinde dişle birlikte esneyerek kaviteden atılmayan \"akışkan kompozit (veya mikrofil kompozit)\" kullanımı en uygundur. Çeldiriciler: - A) Silikat siman pulpal toksisitesi ve yüksek çözünürlüğü nedeniyle terk edilmiş eski bir materyaldir. - B) Amalgam diş dokusuna bağlanmaz, esnemez ve estetik değildir. - D ve E) Makrofil ve megafil kompozitlerin doldurucu boyutları çok büyüktür, elastisite modülleri (sertlikleri) yüksektir ve esnemedikleri için servikal bölgede tutuculuklarını kaybederler.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Trietilen glikol dimetakrilat (TEG-DMA) II. Siloran III. Kamferokinon IV. Magnezyum oksit Yukarıdakilerden hangileri kompozit rezin içindeki monomer yapılardandır?",
+    "options": {
+      "A": "II ve IV",
+      "B": "I ve III",
+      "C": "I ve II",
+      "D": "I, III ve IV",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kompozit rezinlerin organik matriks fazında yer alan monomer ve komonomer yapılar; Bis-GMA, UDMA, TEGDMA, EDMA, MMA, UTMA, Bis-EMA ve Siloran'dır. Kamferokinon fotoinisiyatördür, magnezyum oksit ise kompozit monomeri değildir. Öncüllerin Analizi: - I. Öncül (Doğru): TEGDMA (trietilen glikol dimetakrilat), Bis-GMA ve UDMA'nın yüksek viskozitesini düşürmek için eklenen düşük molekül ağırlıklı seyreltici komonomerdir. - II. Öncül (Doğru): Siloran, siloksan ve oksiran gruplarından oluşan, katyonik halka açılımıyla polimerize olarak düşük büzülme gösteren hidrofobik bir monomer yapısıdır. - III. Öncül (Yanlış): Kamferokinon bir monomer değil, ışıkla sertleşen kompozitlerdeki polimerizasyon başlatıcısıdır (fotoinisiyatör). - IV. Öncül (Yanlış): Magnezyum oksit kompozit monomeri değildir (çinko fosfat siman tozunda bulunur). Çeldiriciler: A, B, D ve E şıkları monomer olmayan kamferokinon (III) veya magnezyum oksiti (IV) içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit rezin materyal yapısını oluşturan elemanlar için aşağıda verilen eşleştirmelerden hangisi yanlıştır?",
+    "options": {
+      "A": "UDMA – monomer",
+      "B": "Kamferokinon – polimerizasyon başlatıcı",
+      "C": "Siloran – ara faz",
+      "D": "Hidroksilapatit – inorganik doldurucu",
+      "E": "Quartz – inorganik doldurucu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Siloran, kompozit rezinlerde organik ve inorganik fazı birbirine bağlayan bir \"ara faz (coupling agent)\" değildir; polimerizasyon büzülmesini azaltmak için geliştirilmiş organik matriks \"monomer\" yapısıdır. Kompozitlerdeki ara faz elemanı \"silika/silan\"dır. Çeldiriciler: - A) UDMA (üretan dimetakrilat), organik fazı oluşturan ana monomerlerden biridir. - B) Kamferokinon, görünür mavi ışıkla (470 nm) aktive olan polimerizasyon başlatıcısıdır (fotoinisiyatör). - D ve E) Hidroksiapatit ve quartz (kristabalit, bor silikat, baryum, stronsiyum, zirkonyum ile birlikte) dağılan fazı oluşturan inorganik dolduruculardır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Bis-EMA II. UDMA III. MMA IV. TEGDMA V. EDMA Yukarıdaki öncüllerde bulunan monomerlerden hangisi/hangileri materyal yoğunluğunu azaltmak amacıyla kompozit rezin yapısına eklenir?",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "II ve IV",
+      "C": "IV ve V",
+      "D": "I, II ve IV",
+      "E": "I, III, IV ve V"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kompozit rezinlerin organik matriksinde ana monomer olarak kullanılan Bis-GMA ve UDMA yüksek molekül ağırlıklı ve oldukça yoğun (viskoz) monomerlerdir; bu yoğunluğu (viskoziteyi) azaltmak ve doldurucu katılmasını kolaylaştırmak amacıyla düşük molekül ağırlıklı komonomerler olan TEGDMA, EDMA, MMA, UTMA ve Bis-EMA eklenir. Öncüllerin Analizi: - I, III, IV ve V. Öncüller (Yoğunluk azaltıcı): Bis-EMA, MMA, TEGDMA ve EDMA viskoziteyi kontrol etmek ve yoğunluğu azaltmak amacıyla eklenen seyreltici monomer/komonomerlerdir. - II. Öncül (Yoğun ana monomer): UDMA (Bis-GMA ile birlikte) ağır moleküler yapıya sahip yoğun ana monomerdir; yoğunluk azaltıcı değildir. Çeldiriciler: A ve C şıkları diğer seyreltici monomerleri eksik bıraktığı için; B ve D şıkları ise yoğun ana monomer olan UDMA'yı (II) içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit rezinlerin yapısına viskoziteyi azaltmak ya da kontrol etmek amacıyla katılan monomer aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "TEGDMA",
+      "B": "Bis-GMA",
+      "C": "UDMA",
+      "D": "10-MDP",
+      "E": "4-META"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): TEGDMA (trietilen glikol dimetakrilat), yüksek molekül ağırlıklı ve çok viskoz olan Bis-GMA ve UDMA ana monomerlerinin yoğunluğunu (viskozitesini) azaltmak ve klinik manipülasyonu kolaylaştırmak amacıyla kompozit yapısına katılan düşük molekül ağırlıklı seyreltici (dilüe edici) komonomerdir. Çeldiriciler: - B ve C) Bis-GMA ve UDMA yüksek viskoziteli yoğun ana matriks monomerleridir. - D ve E) 10-MDP ve 4-META adeziv sistemlerde kimyasal bağlanma sağlayan fonksiyonel monomerlerdir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Aşağıda verilen monomerlerden hangisinin akışkan kompozitlere oranla tepilebilir kompozitlerde daha fazla olması beklenir?",
+    "options": {
+      "A": "TEGDMA",
+      "B": "Bis-GMA",
+      "C": "UTMA",
+      "D": "10-MDP",
+      "E": "4-META"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Bis-GMA (ve UDMA) ağır moleküler yapıya ve yüksek viskoziteye sahip ana monomerlerdir; bu nedenle yoğun kıvamlı tepilebilir (packable/kondanse edilebilir) kompozitlerde Bis-GMA ve UDMA oranı daha fazla iken, akışkan (flowable) kompozitlerde Bis-GMA oranı daha az, TEGDMA gibi seyreltici monomer oranı ise daha fazladır. Çeldiriciler: - A ve C) TEGDMA ve UTMA yoğunluk azaltıcı komonomerler olduğundan akışkan kompozitlerde daha yüksek oranda bulunur. - D ve E) 10-MDP ve 4-META adeziv bağlayıcı monomerlerdir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit rezin yapısını oluşturan fazlar, içerikleri ve özellikleri ile ilgili aşağıda verilenlerden hangisi yanlış bir bilgi içermektedir?",
+    "options": {
+      "A": "TEG-DMA kompozitin vizkozitesini artırır.",
+      "B": "UDMA, adezyonu arttırmayı sağlar.",
+      "C": "Dibenzolperoksit polimerizasyon başlatıcı olarak görev yapar.",
+      "D": "Silan fazı organik ve inorganik fazları birbirine bağlar.",
+      "E": "Kristabalit, quartz sertlik ve ışık geçirgenliği sağlar."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): TEGDMA (trietilen glikol dimetakrilat) kompozitin viskozitesini (yoğunluğunu) artırmaz; tam tersine Bis-GMA ve UDMA'nın yüksek viskozitesini düşürmek (azaltmak) amacıyla eklenen seyreltici monomerdir. Çeldiriciler: - B) UDMA (üretan dimetakrilat), organik fazda yer alan, esneklik, dayanıklılık ve adezyon artışına katkı sağlayan ana monomerdir. - C) Dibenzolperoksit (benzoil peroksit), otopolimerizan (kimyasal sertleşen) kompozitlerde aromatik tersiyer amin akseleratör ile birlikte polimerizasyon başlatıcı olarak görev yapar. - D) Ara faz olan silika/silan, organik rezin matriks ile inorganik doldurucu partikülleri birbirine kimyasal olarak bağlar. - E) Kristabalit, quartz, bor silikat ve hidroksiapatit gibi inorganik doldurucular materyale sertlik ve ışık geçirgenliği (translüsensi) kazandırır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit rezinlerde organik ve inorganik fazları birbirine bağlayarak stres dağılımını sağlayan içerik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kamforokinon",
+      "B": "Tersiyer amin",
+      "C": "Trietilen glikol dimetakrilat",
+      "D": "Baryum cam",
+      "E": "Silan"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Silan (organosilan / ara faz), bir ucuyla organik rezin matriksteki metakrilat gruplarına, diğer ucuyla inorganik doldurucu yüzeyindeki silanol gruplarına bağlanarak organik ve inorganik fazları birbirine birleştiren, suya dirençli bir yapı oluşturan ve oklüzal streslerin matriksten doldurucu partiküllere iletilerek dağılmasını sağlayan bağlayıcı ajandır. Çeldiriciler: - A) Kamforokinon görünür ışıkla aktive olan fotoinisiyatördür. - B) Tersiyer amin polimerizasyon akseleratörüdür (hızlandırıcı/ko-inisiyatör). - C) Trietilen glikol dimetakrilat (TEGDMA) viskozite düşürücü komonomerdir. - D) Baryum cam radyoopasite ve pürüzsüz yüzey bitişi sağlayan inorganik doldurucudur.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit materyal içeriği ile ilgili aşağıda verilenlerden hangisi yanlış bilgi içermektedir?",
+    "options": {
+      "A": "BİS-GMA ağır moleküler yapıya sahiptir.",
+      "B": "Bis-EMA, UDMA'ya göre daha fazla su emer.",
+      "C": "Siloranlarda su emilimine bağlı genleşme miktarı azdır.",
+      "D": "Otopolimerizan kompozitlerde dibenzolperoksit polimerizasyon başlatıcıdır.",
+      "E": "Kompozit rezindeki silan yapısı kuvvet dağılımını sağlar."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Bis-EMA (etoksillenmiş bisfenol A dimetakrilat), yapısında hidroksil (-OH) grupları bulunmadığı için oldukça hidrofobiktir ve hem Bis-GMA hem de UDMA içeriklerine göre çok daha \"az\" su emer; daha fazla su emdiği bilgisi yanlıştır. Çeldiriciler: - A) Bis-GMA yüksek molekül ağırlıklı ve yoğun bir monomerdir. - C) Siloranlar siloksan bazlı hidrofobik monomerler olduğundan su emilimine bağlı genleşme ve çözünme miktarları en azdır. - D) Otopolimerizan kompozitlerde başlatıcı dibenzoil peroksit, hızlandırıcı ise aromatik tersiyer amindir. - E) Ara faz olan silan, organik ve inorganik fazları bağlayarak stres/kuvvet dağılımını sağlar.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit rezin yapısında gözlemlenen aşınma ve kopma çeşitleri ile ilgili aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "CFA aşınması gıdaların oluşturduğu aşınmadır",
+      "B": "Gıdaların matriks içine absorbsiyonu kimyasal bozunmaya neden olur",
+      "C": "Mikrofil kompozitlerde matriks çözünümü oranı fazladır",
+      "D": "Hidroliz teorisi şiddetli asidik ortamda gözlemlenir",
+      "E": "Hidroliz teorisi, silan bağlantısının bozulmasını açıklar"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kompozitlerdeki kopma mekanizmalarından biri olan \"hidroliz teorisi\" (rezin matriks ile doldurucu arasındaki silan bağının hidrolitik olarak ayrılması ve partiküllerin kopması), normal veya şiddetli asidik ortamlarda izlenmemiş, yalnızca ortam \"güçlü bazik (alkalen)\" özellikteyse gözlemlenmiştir. Çeldiriciler: - A) CFA (Contact-Free Area / temassız alan) aşınması, çiğneme sırasında gıda bolusu sürtünmesinin yarattığı aşınmadır. - B) Kimyasal bozunma teorisine göre gıdalar veya tükürüğün organik matriks içine absorbe olması yüzeyin yumuşayıp bozulmasına neden olur. - C) Koruma teorisine göre mikrofil kompozitlerde inorganik doldurucu oranı az ve organik matriks oranı fazla olduğu için matriks çözünümü ve erozyonu daha kolay gerçekleşir. - E) Hidroliz teorisi, silan ara faz bağlantısının hidrolitik kararsızlığı sonucu bozulmasını ve doldurucu partiküllerin yüzeyden kopmasını açıklar.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde metakrilat esaslı rezin materyallerin polimerizasyon reaksiyon adımları doğru sırayla verilmiştir?",
+    "options": {
+      "A": "Aktivasyon-Başlama-Yayılma-Sonlanma",
+      "B": "Başlama-Aktivasyon-Sonlanma-Yayılma",
+      "C": "Aktivasyon-Başlama-Sonlanma-Yayılma",
+      "D": "Başlama-Aktivasyon-Yayılma-Sonlanma",
+      "E": "Yayılma-Başlama-Aktivasyon-Sonlanma"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Metakrilat esaslı rezin materyallerde monomerlerin kovalent bağlarla birleşerek uzun polimer zincirleri oluşturduğu serbest radikal ilave polimerizasyonu 4 ardışık aşamada gerçekleşir: 1. Aktivasyon (serbest radikal üretimi için başlatıcının ışık/kimyasal yolla uyarılması), 2. Başlama (İnisiyasyon - serbest radikalin ilk monomerin çift bağını açması), 3. Yayılma (Propagasyon - zincirin hızla monomer ekleyerek uzaması) ve 4. Sonlanma (Terminasyon - iki aktif zincir ucunun birleşerek reaksiyonun durması). Çeldiriciler: B, C, D ve E şıkları zincirleme polimerizasyon reaksiyonunun kronolojik basamaklarını yanlış sıralamaktadır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Yayılma II. Başlama III. Sonlanma IV. Aktivasyon Yukarıda öncüllerde verilen polimerizasyon aşamaları aşağıdaki seçeneklerden hangisinde baştan sona doğru olacak şekilde sıralanmıştır?",
+    "options": {
+      "A": "IV – II – I – III",
+      "B": "II – IV – III – I",
+      "C": "IV – II – III – I",
+      "D": "II – IV – I – III",
+      "E": "I – II – IV – III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Polimerizasyon aşamalarının baştan sona doğru sıralaması: Aktivasyon (IV) – Başlama (II) – Yayılma (I) – Sonlanma (III) şeklindedir. Öncüllerin Analizi: - 1. Adım: IV. Aktivasyon - 2. Adım: II. Başlama - 3. Adım: I. Yayılma - 4. Adım: III. Sonlanma Çeldiriciler: B, C, D ve E şıkları polimerizasyon adımlarının sırasını hatalı vermektedir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Aşağıda verilen kompozit rezinlerin organik matriksinde bulunan polimerizasyon başlatıcılardan hangisi fotoinisiyatör yapıda değildir?",
+    "options": {
+      "A": "Kamferokinon",
+      "B": "EDMAB",
+      "C": "Dibenzolperoksit",
+      "D": "TPO",
+      "E": "İvocerin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dibenzolperoksit (dibenzoil peroksit), ışıkla sertleşen kompozitlerde bulunan bir fotoinisiyatör değildir; otopolimerizan (kimyasal olarak sertleşen) kompozitlerde aromatik tersiyer amin akseleratör ile reaksiyona girerek serbest radikal üreten kimyasal başlatıcıdır. Çeldiriciler: Kamforokinon (470 nm), Lucirin TPO (385-420 nm), İvocerin (410 nm), PPD ve kamforokinonun ko-inisiyatörü olan EDMAB ışıkla sertleşen sistemlerin fotoinisiyatör/başlatıcı bileşenleridir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Posterior geleneksel rezin kompozit restorasyon yapan bir diş hekimi, restorasyonu bitirdikten sonra, uygulama esnasında restorasyonu üretici firma talimatlarında önerilen süreden daha kısa süre polimerize ettiğinin farkına varıyor. I. Sertlik II. Dönüşüm derecesi (oranı) III. Suda çözünme IV. Biyouyumluluk V. Su emilimi VI. Renk kararlılığı Bu durumda uygulanan rezin kompozit restorasyonun azalan özellikleri aşağıdakilerden hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "I-III-V-VI",
+      "B": "I-II-IV-VI",
+      "C": "II-III-V-VI",
+      "D": "II-III-IV-V",
+      "E": "I-IV-V-VI"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Rezin kompozitin yetersiz süre polimerize edilmesi sonucunda polimer zincirleri ve çapraz bağlar tam oluşamaz; buna bağlı olarak materyalin sertliği (I), monomerden polimere dönüşüm derecesi (II), serbest monomer salınımı arttığı için biyouyumluluğu (IV) ve pigmentlere duyarlılığı arttığı için renk kararlılığı (VI) azalır. Buna karşılık suda çözünme (III) ve su emilimi (V) artar. Öncüllerin Analizi: - I. Öncül (Azalır): Polimer ağı tam oluşmadığı için mekanik dayanıklılık ve yüzey sertliği düşer. - II. Öncül (Azalır): Monomerlerin polimere dönüşüm oranı (degree of conversion) düşer. - III ve V. Öncüller (Artar): Yetersiz polimerize olmuş gevşek matriks yapısında su emilimi ve suda çözünme oranı artar. - IV. Öncül (Azalır): Polimerize olmamış artık/serbest monomerler pulpaya sızarak sitotoksik etki yapar ve biyouyumluluğu azaltır. - VI. Öncül (Azalır): Reaksiyona girmemiş başlatıcılar ve artan su emilimi nedeniyle renk kararlılığı (stabilitesi) azalır. Çeldiriciler: A, C, D ve E şıkları yetersiz polimerizasyonda azalan değil artan özellikler olan suda çözünme (III) ve su emilimini (V) içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Posterior geleneksel rezin kompozit restorasyon yapan bir diş hekimi, restorasyonu bitirdikten sonra, uygulama esnasında restorasyonu üretici firma talimatlarında önerilen süreden daha kısa süre polimerize ettiğinin farkına varıyor. I. Sertlik II. Dönüşüm derecesi (oranı) III. Suda çözünme IV. Biyouyumluluk V. Su emilimi VI. Renk kararlılığı Bu durumda uygulanan rezin kompozit restorasyonun artan özellikleri aşağıdakilerden hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve V",
+      "C": "I-III-V-VI",
+      "D": "II-III-IV-V",
+      "E": "I-II-III-IV-V-VI"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Yetersiz polimerize edilen rezin kompozit restorasyonda çapraz bağ yoğunluğu düşük kaldığı ve reaksiyona girmemiş artık monomer miktarı fazla olduğu için materyalin \"suda çözünme (III)\" ve \"su emilimi (V)\" özellikleri artış gösterir. Öncüllerin Analizi: - I, II, IV ve VI. Öncüller (Azalır): Sertlik, dönüşüm derecesi, biyouyumluluk ve renk kararlılığı yetersiz polimerizasyon sonucunda azalan özelliklerdir. - III ve V. Öncüller (Artar): Suda çözünme ve su emilimi yetersiz polimerizasyon sonucunda artan özelliklerdir. Çeldiriciler: A, C, D ve E şıkları yetersiz polimerizasyonla azalan özellikleri (I, II, IV, VI) içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit yapısında polimerizasyon sonrasında monomerden polimer oluşumunun ölçümü aşağıdaki ifadelerden hangisiyle tanımlanır?",
+    "options": {
+      "A": "Artık monomer derecesi",
+      "B": "Dönüşüm derecesi",
+      "C": "Sertlik derecesi",
+      "D": "Biyouyumluluk derecesi",
+      "E": "Kararlılık derecesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kompozit rezinlerde polimerizasyon sırasında monomerlerdeki karbon-karbon çift bağlarının (C=C) açılarak tekli kovalent bağlara (C-C) dönüşmesi ve monomerlerin polimer zincirlerine katılma yüzdesinin ölçümü \"dönüşüm derecesi (degree of conversion - DC)\" olarak tanımlanır. Çeldiriciler: Artık monomer, reaksiyona girmeden kalan serbest monomerleri ifade eder; sertlik, biyouyumluluk ve kararlılık ise dönüşüm derecesinin yüksekliğine bağlı olarak gelişen fiziksel ve biyolojik sonuçlardır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit rezinlerin yapısında bulunan doldurucu partiküllerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Doldurucu partikül miktarının artması, kompozit rezinin fiziksel özelliklerini geliştirir.",
+      "B": "Doldurucu partikül miktarının azalması, kompozit rezinin polimerizasyon büzülmesinin azalmasına neden olur.",
+      "C": "Doldurucu partikül miktarının artması kompozit rezinin su emilimini azaltır.",
+      "D": "Doldurucu partikül miktarının azalması, kompozit rezinin ısısal genleşme katsayısını artırır.",
+      "E": "Stronsiyum ve çinko gibi ağır metaller içeren cam doldurucu partikül miktarının artması, kompozit rezinin radyoopasitesini artırır."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kompozit rezinlerde polimerizasyon büzülmesinden sorumlu olan kısım organik rezin matrikstir. İnorganik doldurucu partikül miktarının azalması organik matriks oranının artması anlamına gelir; bu durum kompozit rezinin polimerizasyon büzülmesinin azalmasına değil, tam tersine artmasına neden olur. Çeldiriciler: - A) İnorganik doldurucu miktarı arttıkça sıkışma/çekme dayanımı, elastik modül ve aşınma direnci gibi fiziksel ve mekanik özellikler gelişir. - C) İnorganik doldurucular su emmediği için doldurucu miktarı arttıkça (organik matriks azaldıkça) su absorbsiyonu azalır. - D) Doldurucu miktarı azaldığında organik matriks oranı artar ve buna bağlı olarak ısısal genleşme katsayısı yükselir. - E) Baryum, stronsiyum, çinko, zirkonyum ve yitriyum gibi ağır metaller içeren doldurucular X-ışınlarını tutarak radyoopasiteyi artırır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Polimerizasyon büzülmesi azalır. II. Su emilimi artar. III. Isısal genleşme katsayısı artar. IV. Dayanıklılık artar. Kompozit rezinin yapısında bulunan doldurucu partikül miktarı arttıkça yukarıda verilen özelliklerden hangisi/ hangileri gözlemlenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve IV",
+      "C": "II ve IV",
+      "D": "I ve III",
+      "E": "I, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kompozit rezinlerde inorganik doldurucu partikül miktarı arttıkça organik matriks oranı düşer; bunun sonucunda polimerizasyon büzülmesi azalır (I) ve mekanik dayanıklılık artar (IV). Öncüllerin Analizi: - I. Öncül (Gözlemlenir): Doldurucu arttıkça büzülmeden sorumlu organik matriks oranı azaldığı için polimerizasyon büzülmesi azalır. - II. Öncül (Gözlemlenmez): Doldurucu arttıkça su absorbsiyonu (emilimi) artmaz, azalır. - III. Öncül (Gözlemlenmez): Doldurucu arttıkça ısısal genleşme katsayısı artmaz, azalır (diş dokusuna yaklaşır). - IV. Öncül (Gözlemlenir): Doldurucu arttıkça sertlik, dayanıklılık ve mekanik özellikler artar. Çeldiriciler: A şıkkı IV. öncülü eksik bıraktığı için; C, D ve E şıkları ise doldurucu artışıyla azalan su emilimi (II) veya ısısal genleşme katsayısını (III) artar olarak kabul ettiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit rezin içeriğindeki inorganik doldurucu miktarının azalması sonucu aşağıdaki klinik durumlardan hangisi gözlenmez?",
+    "options": {
+      "A": "Mekanik dayanım azalır",
+      "B": "Isısal genleşme katsayısı azalır",
+      "C": "Polimerizasyon büzülmesi artar",
+      "D": "Su emilimi artar",
+      "E": "Organik matriks oranı artar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kompozit rezin içeriğindeki inorganik doldurucu miktarı azaldığında organik rezin matriks oranı artar; organik matriksin ısısal genleşme katsayısı çok yüksek olduğu için kompozitin ısısal genleşme katsayısı azalmaz, aksine belirgin şekilde artar. Çeldiriciler: İnorganik doldurucu miktarının azalması sonucunda mekanik dayanım ve sertlik azalır (A), organik matriks oranı artar (E) ve buna bağlı olarak polimerizasyon büzülmesi (C) ile su emilimi (D) artar.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Aşağıdaki kompozitlerden hangisinin polimerizasyon büzülme oranı en fazladır?",
+    "options": {
+      "A": "Akıcı kompozit",
+      "B": "\"Packable\" kompozit",
+      "C": "Nanofil kompozit",
+      "D": "Hibrit kompozit",
+      "E": "Mikrofil kompozit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Polimerizasyon büzülmesi organik matriks oranıyla doğru, inorganik doldurucu oranıyla ters orantılıdır. Verilen kompozit tipleri arasında inorganik doldurucu oranı en düşük, organik matriks (özellikle düşük molekül ağırlıklı TEGDMA) oranı en yüksek olan ürün \"akıcı (akışkan/flowable) kompozit\" olduğu için polimerizasyon büzülme oranı en fazla olan materyaldir. Çeldiriciler: Packable (tepilebilir), nanofil, hibrit ve mikrofil kompozitlerin doldurucu oranları akıcı kompozitten daha yüksek olduğu için polimerizasyon büzülme oranları daha düşüktür.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Akışkan kompozitlerle ilgili aşağıdakilerden hangisi söylenemez?",
+    "options": {
+      "A": "Polimerizasyon büzülme oranı çok düşüktür",
+      "B": "Restorasyonların tamirinde kullanılabilir",
+      "C": "İnorganik doldurucu oranı düşüktür",
+      "D": "Makrofil kompozitlere oranla dayanıklılıkları daha azdır",
+      "E": "Pit ve fissür örtücü olarak kullanılabilir."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Akışkan kompozitler en az inorganik doldurucu ve en fazla organik rezin matriks içeren kompozit türü olduğu için polimerizasyon büzülme oranları düşük değildir, aksine tüm kompozitler arasında en yüksektir. Çeldiriciler: - B ve E) Yüksek akışkanlıkları sayesinde kırık restorasyon kenarlarının tamirinde, pit ve fissür örtücü olarak, mikrokavitelerde ve stres kırıcı kaide/liner olarak kullanılırlar. - C ve D) İnorganik doldurucu oranları düşük olduğundan mekanik dayanıklılıkları ve aşınma dirençleri geleneksel/makrofil kompozitlere göre daha azdır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi akışkan kompozitlerin kullanım alanları arasında yer almaz?",
+    "options": {
+      "A": "Hassasiyet önleme amacıyla",
+      "B": "Kırılan restorasyonların tamirinde",
+      "C": "Kavite içerisinde stres kırıcı olarak",
+      "D": "Oklüzal kuvvet alan bölgelerde dayanıklılığı arttırmak amacıyla",
+      "E": "Pit ve fissürlerde"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Akışkan kompozitlerin inorganik doldurucu miktarı düşük olduğu için mekanik dayanımları ve aşınma dirençleri zayıftır; dolayısıyla oklüzal kuvvet alan bölgelerde dayanıklılığı artırmak amacıyla kullanılamazlar. Çeldiriciler: Açık dentin tübüllerini örterek hassasiyeti önleme (A), kırık restorasyonların tamiri (B), geniş kompozitlerin altında stres kırıcı tabaka oluşturma (C) ve pit-fissürlerin örtülmesi (E) akışkan kompozitlerin endikasyonlarıdır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Işıkla polimerize olan kompozit rezinlerin polimerizasyonları sırasında meydana gelen hacimsel büzülme ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kompozit rezinin organik matriks yüzdesi ne kadar fazla ise polimerizasyon büzülmesi de o kadar fazla olur.",
+      "B": "Kompozit rezinin doldurucu oranı arttıkça polimerizasyon büzülmesi azalır.",
+      "C": "Polimerizasyon sırasında meydana gelen hacimsel büzülme diş restorasyon bağlanma ara yüzeyinde strese neden olur.",
+      "D": "Sınıf I kavitelerde kompozit rezinlerin polimerizasyonuna bağlı olarak gelişen hacimsel büzülmenin etkileri en düşük düzeydedir.",
+      "E": "Kompozit rezinlerin tabakalama yöntemiyle yerleştirilmesi hacimsel büzülmenin neden olduğu negatif etkilerin azaltılmasında kullanılan yöntemlerden biridir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sınıf I (ve Sınıf V) kavitelerde 5 bağlanan duvar ve yalnızca 1 serbest yüzey bulunduğu için konfigürasyon faktörü (C faktörü = 5) en yüksek düzeydedir; bu nedenle Sınıf I kavitelerde polimerizasyon büzülme streslerinin negatif etkileri en düşük değil, en yüksek düzeydedir. Çeldiriciler: - A ve B) Hacimsel büzülme monomerlerin birbirine yaklaşmasından kaynaklandığı için organik matriks yüzdesi arttıkça büzülme artar, inorganik doldurucu oranı arttıkça büzülme azalır. - C) Büzülme sonucunda kompozit kavite duvarlarından merkeze doğru çekilerek diş-restorasyon bağlanma arayüzünde çekme stresleri ve ayrılmalar oluşturur. - E) İnkremental (tabakalama) tekniği, her seferinde bağlanan yüzey alanını (C faktörünü) ve polimerize edilen hacmi küçülterek büzülme streslerini azaltır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Polimerizasyon büzülme streslerinin en az görüldüğü kavite Sınıf I kavitedir. II. Kompozit içeriğindeki inorganik doldurucu oranı arttıkça polimerizasyon büzülmesi azalır. III. Kompozit içeriğindeki organik matriks oranı arttıkça polimerizasyon büzülmesi artar. IV. İnkremental teknik uygulanması polimerizasyon büzülme streslerini düşürür. Polimerizasyon büzülmesiyle ilgili yukarıda verilen ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I, II ve III",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İnorganik doldurucu artışı ve inkremental teknik büzülme ve stresleri azaltırken, organik matriks artışı büzülmeyi artırır; Sınıf I kavite ise büzülme stresinin en fazla olduğu kavitedir. Öncüllerin Analizi: - I. Öncül (Yanlış): Sınıf I kavite (Sınıf V ile birlikte) C faktörü 5 olduğu için polimerizasyon büzülme streslerinin en az değil, en fazla görüldüğü kavitedir. - II. Öncül (Doğru): İnorganik doldurucu oranı arttıkça polimerizasyon büzülmesi azalır. - III. Öncül (Doğru): Organik matriks oranı arttıkça polimerizasyon büzülmesi artar. - IV. Öncül (Doğru): İnkremental (tabakalama) teknik kullanımı polimerizasyon büzülme streslerini düşürür. Çeldiriciler: A, C ve E şıkları yanlış olan I. öncülü içerdiği için; B şıkkı ise doğru olan II. öncülü eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Polimerizasyon büzülme streslerinin en yüksek olduğu kavite tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sınıf I",
+      "B": "Sınıf II",
+      "C": "Sınıf III",
+      "D": "Sınıf IV",
+      "E": "MOD"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Polimerizasyon büzülme stresi kavitenin C faktörü ile doğru orantılıdır. C faktörü sıralaması: Sınıf I ve V (C=5) > Sınıf II (C=2) > Sınıf III ve MOD (C=1) > Sınıf IV (C=0,5) > Sınıf VI (C=0,2) şeklindedir. Dolayısıyla büzülme streslerinin en yüksek olduğu kavite tipi Sınıf I kavitedir. Çeldiriciler: Sınıf II, Sınıf III, Sınıf IV ve MOD kavitelerde serbest yüzey sayısı daha fazla ve C faktörü daha düşük olduğu için büzülme stresleri Sınıf I'e göre daha azdır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kırk yaşındaki kadın hasta 1 ay önce geleneksel posterior kompozit rezin kullanılarak restorasyon yapılan vital 36 nolu dişinde, işlem sonrası çiğnerken oluşan ağrı şikâyetiyle başvuruyor. Yapılan radyolojik muayenede periapikal dokuların sağlıklı olduğu, klinik muayenede ise hastanın şikâyeti olan dişinde sadece ısırma sırasında ağrı olduğu tespit ediliyor. Bu dişte kırık veya çatlak tespit edilemiyor ve ağrının polimerizasyon büzülmesi sonucu oluştuğu düşünülüyor. Buna göre restoratif işlem esnasında aşağıdakilerden hangisinin yapılmış olması en olasıdır?",
+    "options": {
+      "A": "Kompozit rezin inkremental teknikle yerleştirilmiştir.",
+      "B": "Adezivin ışıklama süresi fazla tutulmuştur.",
+      "C": "\"Soft-start curing\" tekniği ile polimerizasyon yapılmıştır.",
+      "D": "Prepolimerize dolduruculu kompozit rezin kullanılmıştır.",
+      "E": "Kompozit rezin tek tabaka olarak yerleştirilmiştir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Geleneksel (bulk-fill olmayan) bir posterior kompozit rezinin inkremental (2 mm'lik tabakalar) teknikle değil de \"tek tabaka (bulk) olarak\" kaviteye yerleştirilip polimerize edilmesi; hem C faktörünün maksimum olmasına hem de alt tabakaların yetersiz polimerize olmasına ve kavite duvarlarında/kasplarda aşırı polimerizasyon büzülme stresi ile mikrosızıntı/boşluk oluşmasına yol açarak ısırma sırasında postoperatif ağrıya neden olur. Çeldiriciler: - A) İnkremental teknik büzülme stresini ve ağrı riskini azaltır. - B) Adezivin iyi polimerize edilmesi bağlantıyı güçlendirir, büzülme ağrısı yapmaz. - C) Soft-start curing (başlangıçta düşük, sonra yüksek ışık gücü) pre-jel fazını uzatarak polimerizasyon büzülme streslerini düşürür. - D) Prepolimerize dolduruculu kompozitlerde büzülme oranı ve stresi daha düşüktür.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Geleneksel kompozit restorasyonlar için aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Polimerizasyon büzülmesi restorasyon sonrasında ağrıya yol açabilir.",
+      "B": "Polimerizasyon büzülme stresini azaltmak için inkremental teknik önerilir.",
+      "C": "Prepolimerize doldurucuların kullanılması ve inorganik doldurucu miktarının artırılması polimerizasyon büzülme streslerini azaltabilir.",
+      "D": "Soft-start ışıklama tekniğinin seçilmesi polimerizasyon büzülme streslerini azaltabilir.",
+      "E": "Kompozitin tek tabaka halinde kalın olarak uygulanması, polimerizasyon büzülme streslerinin azalmasına yardımcı olur."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Geleneksel kompozitlerin kaviteye tek tabaka halinde kalın olarak uygulanması polimerizasyon büzülme streslerini azaltmaz, tam tersine bağlanan yüzey oranını (C faktörünü) ve büzülen kütleyi artırarak büzülme streslerinin maksimuma çıkmasına ve yetersiz polimerizasyona neden olur. Çeldiriciler: Polimerizasyon büzülmesinin postoperatif ısırma ağrısına yol açabilmesi (A) ve bu stresi azaltmak için inkremental teknik (B), yüksek doldurucu/prepolimerize doldurucu (C) ve soft-start ışıklama tekniği (D) kullanılması doğru bilgilerdir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "İnkremental teknikle ilgili aşağıda verilen önermelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kompozit ortalama 2 mm'lik tabakalar halinde kaviteye uygulanır ve polimerize edilir.",
+      "B": "İnkremental teknikte kompozit tabakalarının birbirine bağlanabilmesi için oksijen inhibisyon tabakasının kontamine olmamasına özen gösterilmelidir.",
+      "C": "Işıkla sertleşen kompozitler inkremental teknikle uygulanırken her tabaka için ayrı ayrı renk seçimi yapılabilir.",
+      "D": "İnkremental teknikte meydana gelen polimerizasyon büzülme stresleri, kompozitin tek tabaka halinde kaviteye uygulanmasına göre daha yüksektir.",
+      "E": "İnkremental tekniğin kullanımıyla daha iyi polimerize olmuş kompozit kütleleri elde edilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İnkremental (tabakalama) tekniğin temel kullanım amacı C faktörünü düşürerek polimerizasyon büzülme streslerini azaltmaktır; dolayısıyla inkremental teknikte oluşan büzülme stresleri tek tabaka (bulk) uygulamasına göre daha yüksek değil, çok daha düşüktür. Çeldiriciler: - A ve E) Işığın penetrasyon derinliği sınırlı olduğundan kompozit en fazla 2 mm'lik tabakalar halinde uygulanır ve böylece her tabakanın tam polimerize olması sağlanır. - B) Tabakalar arasındaki kimyasal bağlantıyı sağlayan oksijen inhibisyon tabakasının su, kan veya tükürükle kontamine olmaması şarttır. - C) Estetik restorasyonlarda dentin, gövde ve mine tabakaları için ayrı renk ve translüsenside kompozit tabakaları uygulanabilir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Bakterilerin restorasyon yüzeyine tutunması engellenir. II. Oksijen inhibisyon tabakası ortadan kaldırılır. III. Nanofil kompozitler hibrit kompozitlere göre daha az parlatılabilir. Bir kompozit rezin restorasyona yapılacak bitirme ve parlatma işlemleriyle ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kompozit restorasyonlarda bitirme ve polisaj (parlatma) işlemleriyle en üstteki yapışkan oksijen inhibisyon tabakası uzaklaştırılır ve pürüzsüz bir yüzey elde edilerek plak/bakteri tutunması ile renklenme engellenir. Öncüllerin Analizi: - I. Öncül (Doğru): Pürüzsüzleştirilen ve parlatılan yüzeylere bakteri ve plak tutunması engellenir/azaltılır. - II. Öncül (Doğru): En üst tabakada bulunan, tam polimerize olmamış yapışkan ve kolay renklenen oksijen inhibisyon tabakası polisajla ortadan kaldırılır. - III. Öncül (Yanlış): Nanofil (nanodolduruculu) kompozitler çok küçük (0,005-0,01 µm) partikül boyutları sayesinde hibrit kompozitlere göre daha az değil, çok daha iyi parlatılabilir ve parlaklığını uzun süre korur. Çeldiriciler: A ve B şıkları doğru öncüllerden birini eksik bıraktığı için; C ve E şıkları ise yanlış olan III. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kliniğe başvuran 24 yaşında kadın hastanın yapılan klinik ve radyolojik muayenesi sonucunda 16 numaralı dişinin mezial ve oklüzal bölgesinde çürük lezyonları tespit edilmiştir. Hastanın lezyonu anestezi altında temizlenmiş ve 16 numaralı dişine hibrit kompozit kullanılarak restorasyon yapılmıştır. Yapılan restorasyonda kompozit uygulama basamaklarından cilalama prosedürü göz ardı edilmiştir. Verilen bilgilere göre, bu hastada karşılaşılabilecek sorunlar ve olası durumlar değerlendirildiğinde aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Bakteriler restorasyon yüzeyine kolayca tutunur.",
+      "B": "Yüzeyde halen oksijen inhibisyon tabakası mevcuttur.",
+      "C": "Kompozit restorasyon kolayca renklenir.",
+      "D": "Nanofil yerine mikrofil kompozit tercih edilmesi sonucunda cilalanabilirlik artmıştır.",
+      "E": "Cilalanmış kompozite oranla, yüzey özellikleri daha kısa zamanda bozulma gösterir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Vaka sorusunda hastaya nanofil veya mikrofil kompozit değil, \"hibrit kompozit\" uygulandığı ve cilalama işleminin hiç yapılmadığı belirtilmiştir; ayrıca nanofil kompozitler en yüksek cilalanabilirlik ve aşınma direncine sahipken cilalama işlemi göz ardı edildiğinde zaten parlatma gerçekleşmez. Çeldiriciler: Cilalama (polisaj) yapılmadığında yüzeyde yapışkan oksijen inhibisyon tabakası kalır (B), pürüzlü ve reaktif yüzeye bakteriler kolayca tutunur (A), restorasyon çok hızlı renklenir (C) ve yüzey özellikleri kısa sürede bozulur (E).",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Yapılan restorasyonlarda iyi bir bitirme işleminin gerçekleştirilebilmesi amacıyla tungsten karbid frezlerin bıçak sayısı ne kadar olmalıdır?",
+    "options": {
+      "A": "8-10 bıçak arası",
+      "B": "10-20 bıçak arası",
+      "C": "12-40 bıçak arası",
+      "D": "40-60 bıçak arası",
+      "E": "60-80 bıçak arası"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Tungsten karbid frezlerde bıçak sayısı frezin kullanım amacını belirler; diş kesimi ve kavite açma amacıyla 6-10 bıçaklı frezler kullanılırken, kompozit restorasyonlarda kaba bitirme, konturlama, çiziklerin düzeltilmesi ve iyi bir bitirme (finishing) işlemi için 12 ile 40 arası (12-40 bıçak arası) bıçağa sahip karbid bitirme frezleri kullanılır. Çeldiriciler: - A) 8-10 bıçaklı frezler bitirme için değil, kavite preparasyonu (kesim) için kullanılır. - B, D ve E) Tam bitirme aralığını (12-40 bıçak; maksimum 30-40 bıçak) doğru yansıtmamaktadır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "İyi bir izolasyon sağlandığı ve herhangi bir kontaminasyon olmadığı takdirde, kaviteye ilk yerleştirilen kompozit rezin tabakası polimerize edildikten sonra, üzerine yerleştirilen ikinci kompozit rezin tabakası ile aralarında oluşan bağlantı aşağıdakilerden hangisiyle esas olarak sağlanmaktadır?",
+    "options": {
+      "A": "Yüzeyde bulunan silan bağlayıcı ajan ile kimyasal bağlantı sağlanmaktadır.",
+      "B": "Yüzeyde bulunan adeziv bağlayıcı ajan ile kimyasal bağlantı sağlanmaktadır.",
+      "C": "Yüzeyde bulunan girinti çıkıntılar ile mikromekanik bağlantı sağlanmaktadır.",
+      "D": "Yüzeyde bulunan kamforokinon ile fotokimyasal bağlantı sağlanmaktadır.",
+      "E": "Yüzeyde bulunan oksijen inhibisyon tabakası ile kimyasal bağlantı sağlanmaktadır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kompozit rezin polimerize edildiğinde en üst yüzeyi havadaki oksijenle temas ettiği için polimerizasyonu tam tamamlanmamış, bağlanmaya istekli serbest radikaller ve reaksiyona girmemiş metakrilat çift bağları içeren yapışkan bir \"oksijen inhibisyon tabakası\" oluşur. İnkremental teknikte ilk tabakanın üzerine yerleştirilen ikinci kompozit tabakası, bu oksijen inhibisyon tabakasındaki açık karbon uçlarıyla kovalent (kimyasal) bağ kurarak birleşir. Çeldiriciler: - A) Silan, kompozit içindeki organik matriks ile inorganik doldurucuyu (veya porselen tamirinde porselen ile rezini) bağlar; taze kompozit tabakaları arasında kullanılmaz. - B) Kontaminasyon olmadığı sürece kompozit tabakaları arasına tekrar adeziv/bonding sürülmez. - C) İki taze kompozit tabakası arasındaki esas bağlantı mikromekanik değil, oksijen inhibisyon tabakası aracılığıyla oluşan kovalent kimyasal bağlantıdır. - D) Kamforokinon bağlayıcı değil, ışıkla aktive olan başlatıcıdır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Oksijen inhibisyon tabakası inkremental teknikte kompozit yerleştirilmesi esnasında tabakalar arasında kimyasal bağlantıyı sağlar. II. Restorasyonun bitiminde yüzeyde kalan oksijen inhibisyon tabakası uzaklaştırılmalıdır. III. Oksijen inhibisyon tabakasını uzaklaştırmak için gliserin jel kullanılabilir. Oksijen inhibisyon tabakasıyla ilgili yukarıda verilen öncüllerden hangisi/hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Oksijen inhibisyon tabakasının ara tabakalardaki bağlayıcı rolünü ve son tabakada uzaklaştırılma yöntemlerini belirten her üç öncül de doğrudur. Öncüllerin Analizi: - I. Öncül (Doğru): İnkremental teknikte kompozit tabakalarının birbirine kovalent kimyasal bağlanmasını sağlar. - II. Öncül (Doğru): Restorasyon bittiğinde en üstte kalan oksijen inhibisyon tabakası uzaklaştırılmazsa plak tutulumuna, aşınmaya ve hızlı renklenmeye yol açar; bu nedenle polisajla kaldırılmalıdır. - III. Öncül (Doğru): Son kompozit tabakasının üzerine suda çözünen gliserin jel sürülerek havayla (oksijenle) teması kesilip yeniden ışık uygulanırsa en üstteki tabaka da tam polimerize olur ve oksijen inhibisyon tabakası ortadan kaldırılır. Çeldiriciler: A, B, C ve D şıkları doğru olan öncüllerin bir kısmını eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Tabakalama tekniği ile yapılan bir kompozit uygulamasında tabakaların nem ile kontaminasyonu söz konusu ise klinik olarak yapılması gereken uygulama aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Frezle kontamine olan tabaka uzaklaştırılır, yeniden asit-primer ve bond uygulanır",
+      "B": "Dual - cure kompozit uygulanarak polimerizasyon büzülmesi kontrol edilmelidir.",
+      "C": "Doğrudan primer uygulaması yapılarak yüzey düzenlemesi yapılmalıdır.",
+      "D": "Nemli bağlanma yeteneği olan bir bonding ile adezyon yapılmalıdır.",
+      "E": "Hava sıkılarak nem uzaklaştırılmalı ve adezyona uygun hale getirilmelidir."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Tabakalama (inkremental) tekniği sırasında polimerize edilmiş kompozit tabakasının üzerindeki oksijen inhibisyon tabakası su, tükürük veya kan ile kontamine olursa, açık karbon uçları organik/inorganik içeriklerle kapanır ve bağlanma yeteneğini kaybeder. Yüzeyin sadece kurutulması veya doğrudan bond sürülmesi yeterli olmaz; kontamine olan yüzey tabakası frezle aşındırılarak uzaklaştırılmalı, ardından yüzey temizlenip yeniden asit, primer ve bond uygulanarak işleme devam edilmelidir. Çeldiriciler: B, C, D ve E şıklarındaki uygulamalar kontamine olmuş ve reaktif uçlarını kaybetmiş oksijen inhibisyon tabakasını yenileyemediği için tabakalar arası bağlanma başarısızlığıyla sonuçlanır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit rezin restorasyonlarda görülen polimerizasyon büzülmesini aşağıdakilerden hangisi etkilemez?",
+    "options": {
+      "A": "Kompozit rezinin doldurucu oranı",
+      "B": "Kullanılan adeziv sistemin tipi",
+      "C": "Polimerizasyon yöntemi",
+      "D": "Kavitenin şekli",
+      "E": "Kompozit rezinin kaviteye yerleştirilme yöntemi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kompozit rezin restorasyonlarda kullanılan adeziv sistemin tipi (total-etch veya self-etch olması) sadece diş ile kompozit arasındaki bağlanmayı sağlar; kompozit materyalinin kendi iç yapısında meydana gelen polimerizasyon büzülmesi miktarını etkilemez (yalnızca kalın uygulanan dolduruculu adezivler stres kırıcı elastik tabaka görevi görebilir). Çeldiriciler: - A) Doldurucu oranı arttıkça organik matriks azaldığı için polimerizasyon büzülmesi azalır. - C) Polimerizasyon yöntemi (kullanılan ışık cihazının gücü, soft-start veya pulse-delay tekniği) büzülme streslerini doğrudan etkiler. - D) Kavitenin şekli (bağlanan yüzey / serbest yüzey oranı yani C faktörü) büzülme stresini etkiler. - E) Kompozitin kaviteye yerleştirilme yöntemi (tek kütle/bulk veya inkremental/tabakalama) büzülme streslerini etkiler.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Polimerizasyon süresinin kısalması II. İnorganik doldurucu miktarının artması III. Adeziv uygulanan yüzey sayısının artması Yukarıda verilenlerden hangisi/hangileri kompozit rezinlerde meydana gelen polimerizasyon büzülmesinin azalmasına neden olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kompozit rezinlerde inorganik doldurucu miktarının artması, büzülmeden sorumlu olan organik rezin matriks oranını azalttığı için polimerizasyon büzülmesinin azalmasına neden olur. Öncüllerin Analizi: - I. Öncül (Azaltmaz): Yüksek güçlü cihazlarla polimerizasyon süresinin kısalması pre-jel fazını kısaltarak büzülme streslerini artırır. - II. Öncül (Azaltır): İnorganik doldurucu miktarının artması polimerizasyon büzülmesini azaltır. - III. Öncül (Azaltmaz): Adeziv uygulanan (bağlanan) yüzey sayısının artması C faktörünü yükselterek büzülme stresini artırır. Çeldiriciler: A, C, D ve E şıkları büzülme stresini artıran I ve III. öncülleri içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Soft-start ışık tekniğinin kullanılması II. Tabakalı kompozit yerleştirme III. Rubber-dam ile izolasyon Yukarıdakilerden hangisi/hangileri konfigürasyon faktörün (C-faktör) azaltılmasına yardımcı olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Polimerizasyon büzülme streslerini ve efektif C faktörü etkisini azaltmak için her seferinde daha az duvarı birbirine bağlayan tabakalı (inkremental) kompozit yerleştirme tekniği ve pre-jel fazında serbest yüzeyden akışa izin veren soft-start ışık tekniği kullanılır. Öncüllerin Analizi: - I ve II. Öncüller (Doğru): Soft-start ışık tekniği ve tabakalı (inkremental) kompozit yerleştirme polimerizasyon büzülme streslerini ve C faktörünün olumsuz etkisini azaltır. - III. Öncül (Yanlış): Rubber-dam ile izolasyon nem kontrolü sağlayarak adeziv bağlanmayı korur ancak kavitenin konfigürasyon faktörünü (C-faktörünü) veya büzülme stresini azaltmaz. Çeldiriciler: A şıkkı II. öncülü eksik bıraktığı için; C, D ve E şıkları ise C faktörüyle ilgisi olmayan III. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Polimerizasyon büzülmesi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Polimerizasyon büzülmesi kompozit rezinlerin klinik başarısını etkiler.",
+      "B": "Polimerizasyon büzülmesi mine marjininde kırıklara yol açabilir.",
+      "C": "Polimerizasyon büzülmesi tedavi sonrasında postoperatif hassasiyete yol açabilir.",
+      "D": "Polimerizasyon büzülmesi rekürrent çürük oluşumuna neden olabilir.",
+      "E": "Polimerizasyon büzülmesini kompozit ve diş dokusu arasına yüksek viskositeli bir rezin yerleştirilmesi azaltır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Polimerizasyon büzülme streslerini azaltmak için uygulanan kapalı sandviç veya stres kırıcı liner tekniğinde, kompozit ile diş dokusu (kavite tabanı) arasına yüksek viskositeli değil, \"düşük viskositeli (elastisite modülü düşük, esnek)\" bir materyal (akışkan kompozit, geleneksel CİS veya RMCİS) yerleştirilir. Çeldiriciler: - A) Polimerizasyon büzülmesi bağlanma arayüzünü zorlayarak restorasyonun klinik başarısını ve ömrünü doğrudan etkiler. - B) Büzülme sırasında oluşan çekme kuvvetleri özellikle desteksiz veya ince mine marjinlerinde çatlak ve kırıklara yol açabilir. - C ve D) Restorasyonun kavite duvarlarından ayrılmasıyla oluşan mikroboşluklar ve mikrosızıntı, postoperatif hassasiyete ve zamanla sekonder (rekürrent) çürük oluşumuna neden olur.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kapalı sandviç tekniği ile ilgili aşağıdakilerden hangisi söylenemez?",
+    "options": {
+      "A": "Polimerizasyon büzülmesini azaltmak amacıyla kullanılabilir.",
+      "B": "C faktörü düşürmek amacıyla kullanılabilir.",
+      "C": "Akışkan kompozit tercih edilebilir.",
+      "D": "Rezin modifiye cam iyonomer siman tercih edilebilir.",
+      "E": "Polimerizasyon büzülmesini kompozit ve diş dokusu arasına yüksek viskositeli bir rezin yerleştirilmesi azaltır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kapalı sandviç tekniğinde kavite tabanına stres kırıcı olarak yüksek viskositeli bir rezin değil; viskozitesi ve elastisite modülü düşük olan bir materyal (akışkan kompozit, geleneksel CİS veya rezin modifiye CİS) ince bir katman halinde yerleştirilir ve üzeri kompozitle kapatılır. Çeldiriciler: Kapalı sandviç tekniğinin polimerizasyon büzülme stresini azaltmak (A) ve C faktörünü düşürmek (B) amacıyla kullanılması ve bu teknikte akışkan kompozit (C) veya RMCİS (D) tercih edilebilmesi doğrudur.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Geleneksel cam iyonomer siman II. Rezin modifiye cam iyonomer siman III. Akışkan kompozit Kapalı sandviç tekniğinde öncüllerde bulunan materyallerden hangisi/hangileri tercih edilebilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Polimerizasyon büzülme streslerini azaltmak amacıyla uygulanan kapalı sandviç tekniğinde kavite tabanına ilk basamak olarak geleneksel cam iyonomer siman, rezin modifiye cam iyonomer siman veya düşük viskositeli akışkan kompozit konularak üzerine kondanse edilebilir kompozit rezinle devam edilir. Öncüllerin Analizi: - I, II ve III. Öncüller (Doğru): Her üç materyal de düşük elastisite modülü ve stres absorbe edici özellikleriyle kapalı sandviç tekniğinde kaide/liner katmanı olarak tercih edilebilir. Çeldiriciler: A, B, C ve D şıkları kullanılabilir materyallerden birini veya birkaçını dışarıda bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Soft-start polimerizasyon ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Rezin yüzeyine aralıklı ve uzun sürelerle uygulanan polimerizasyonu ifade eder.",
+      "B": "Kompozit rezin içinde stres oluşumunu artıran bir polimerizasyon yöntemidir.",
+      "C": "Bu polimerizasyon yönteminin klinik olarak uygulanması kompozit rezin materyalin sertliğinin azalmasına neden olur.",
+      "D": "Kompozit rezin materyalin yapısında oluşan polimerizasyon büzülmesini azaltan bir yöntemdir.",
+      "E": "Klinik olarak restorasyon kenarlarına adaptasyonun azalmasına neden olur."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Soft-start polimerizasyon tekniğinde ışık şiddeti önce düşük yoğunlukta başlar, ardından ara vermeksizin giderek artarak yüksek güçle tamamlanır. Başlangıçtaki düşük ışık gücü polimerizasyon hızını yavaşlatıp pre-jel safhasını uzatarak rezin moleküllerinin serbest yüzeylerden akmasına (stres relaksasyonuna) izin verir; böylece polimerizasyon büzülmesini ve büzülme streslerini azaltan etkili bir yöntemdir. Çeldiriciler: - A) Soft-start tekniğinde ışık aralıklı verilmez (aralıklı verilen teknik pulse-delay tekniğidir), ara vermeden düşük güçten yüksek güce doğru artırılır. - B ve E) Stres oluşumunu artırmaz, aksine büzülme streslerini azalttığı için diş-restorasyon kenar adaptasyonunu korur ve artırır. - C) Son aşamada tam güçle yeterli toplam enerji verildiği için materyalin nihai sertliğinde ve dönüşüm derecesinde azalmaya neden olmaz.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Soft start ışık tekniği II. Pulsed delay ışık tekniği III. Aynı güçte ışık tekniği Yukarıdaki öncüllerden hangisi/ hangileri ışığın düşük güçte başlayıp ara vermeksizin devam etmesinin ardından yüksek ışık gücüyle polimerizasyonun sonlanmasını tanımlar?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Işık şiddetinin düşük yoğunlukta başlayıp cihaz ara vermeksizin giderek artış göstererek yüksek ışık gücüyle sonlandığı polimerizasyon yöntemi \"Soft start ışık tekniği\"dir. Öncüllerin Analizi: - I. Öncül (Doğru): Soft start tekniğinde ışık düşük güçte başlar, ara vermeden yüksek güce çıkarak tamamlanır. - II. Öncül (Yanlış): Pulsed delay (aralıklı/gecikmeli) tekniğinde ışık kısa bir süre düşük güçte uygulanır, ardından ışık tamamen kapatılarak bir süre beklenir (ara verilir) ve sonrasında yüksek güçte ışık uygulanarak sonlanır. - III. Öncül (Yanlış): Aynı güçte (sabit/konvansiyonel) ışık tekniğinde ışık baştan sona belirli bir sabit değerde başlar ve biter. Çeldiriciler: B, C, D ve E şıkları aralıklı olan pulsed delay (II) veya sabit güçlü (III) teknikleri içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "[Görsel: İki grafik; A grafiğinde mW/cm² ışık gücü düşük seviyede başlayıp ara vermeden basamaklı/kademeli olarak yüksek güce çıkıyor; B grafiğinde ışık sabit bir güçte başlayıp sabit şekilde bitiyor] Yukarıda verilen görsellerde bulunan polimerizasyon teknikleri şıklardan hangisinde doğru şekilde eşleştirilmiştir?",
+    "options": {
+      "A": "A: Pulsed delay — B: Aynı güçte ışık tekniği",
+      "B": "A: Pulsed delay — B: Soft start",
+      "C": "A: Aynı güçte ışık tekniği — B: Pulsed delay",
+      "D": "A: Aynı güçte ışık tekniği — B: Soft start",
+      "E": "A: Soft start — B: Pulsed delay"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): A grafiğinde ışık şiddeti düşük yoğunlukta başlayıp ardından yüksek güce çıktığı için \"Soft start\" tekniğini göstermektedir (B grafiği ise sabit güçte veya gecikmeli tekniği temsil etmek üzere şıklarda A: Soft start eşleştirmesi yalnızca E şıkkında yer almaktadır). Çeldiriciler: A, B, C ve D şıkları A grafiğinde açıkça görülen düşük güçten yüksek güce geçişi (Soft start tekniğini) yanlış isimlendirdiği için hatalıdır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Posterior dişlerde kompozit dolgu maddesi kullanımı için aşağıdakilerden hangisi kontrendikedir?",
+    "options": {
+      "A": "Mine dokusu ile sınırlı küçük-orta boy lezyonlar",
+      "B": "Premolar ve birinci molar dişlerin estetik restorasyonları",
+      "C": "Geriye kalan zayıf diş yapısını güçlendirmek üzere kullanılan bazı büyük restorasyonlar",
+      "D": "Ağır oklüzal streslerin varlığı",
+      "E": "Kuron altyapısı olarak kullanılan bazı restorasyonlar"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kompozit rezinlerin en büyük dezavantajlarından biri ağır oklüzal streslere ve parafonksiyonel kuvvetlere karşı aşınma/kırılma dirençlerinin yetersiz olmasıdır. Bu nedenle kapanış bozukluğuna veya bruksizme bağlı \"ağır oklüzal streslerin varlığı\" (veya tüm oklüzal kontakların sadece kompozit üzerinde kalması, tam izole edilemeyen alanlar, kök yüzeyine taşan subgingival kaviteler ve kötü oral hijyen) kompozit restorasyonlar için kontrendikedir. Çeldiriciler: - A) Kenarları minede olan küçük ve orta boyutlu lezyonlar posterior kompozitlerin en ideal endikasyonudur. - B) Estetiğin ön planda olduğu premolar ve birinci molar restorasyonlarında kullanılırlar. - C ve E) Adeziv bağlanma sayesinde kalan zayıf diş dokularını desteklemek amacıyla ve tam seramik/metal-seramik kuronlar için core (altyapı) materyali olarak kullanılırlar.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozit dolgu maddelerinin uygulama alanları ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kırılmış kronların faset tamirinde kullanılabilirler",
+      "B": "Tüm oklüzal kontakların kompozit üzerinde olduğu durumlarda kullanılabilirler",
+      "C": "Oral hijyeni iyi olmayan hastalarda kullanılmamalıdır",
+      "D": "Restorasyon kök yüzeyine taştığıda kullanımı kontrendikedir",
+      "E": "Tetrasiklin ve florozis renklenmelerinin tedavilerinde kullanılabilir"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dişin tüm sentrik oklüzal kontaklarının sadece kompozit restorasyon üzerinde olduğu durumlarda kompozit hızla aşınacağı veya kırılacağı için kullanımı kontrendikedir; kullanılabilir ifadesi yanlıştır. Çeldiriciler: - A ve E) Kompozitler kırılmış kronların faset tamirinde, diastema kapatmada ve tetrasiklin/florozis renklenmelerinin direkt/indirekt veneerlerle maskelenmesinde kullanılır. - C ve D) Oral hijyeni iyi olmayan yüksek çürük riskli hastalarda ve kavite sınırının dişeti altına/kök yüzeyine taştığı (izolasyonun ve mine adezyonunun sağlanamadığı) durumlarda kompozit kullanımı kontrendikedir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kliniğe dişlerinde bulunan lezyonlar ve hassasiyet sebebiyle başvuran 45 yaşındaki kadın hastanın yapılan klinik ve radyolojik muayenesi sonucunda; hastanın 46 numaralı dişinde pit ve fissür bölgesinde lokalize ICDAS 6 seviyesinde, 47 numaralı dişin ise mezial kontakt bölgesinde ICDAS 2 şeklinde gözlemlenen lezyonlar bulunmaktadır. Aynı zamanda hastadan alınan anamneze göre sabah uyandığında çenedede ağrı oluşmakla beraber özellikle anterior dişlerde karşıt ark dişlerinin şekliyle uyumlu aşınmalar gözlemlenmiştir. Buna göre bu hasta için aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hastada bruksizme bağlı aşınmalar mevcuttur",
+      "B": "47 numara R2 seviyesinde lezyon mine ile sınırlı dentine ilerlemeyen lezyondur",
+      "C": "46 numaralı dişe direkt kompozit rezin restorasyon uygulanabilir",
+      "D": "47 numaralı dişte minimal invaziv tedavi olarak rezin infiltrasyon uygulanabilir",
+      "E": "46 numaralı dişte indirekt restorasyonlar tercih edilebilir"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hastada sabah çene ağrısı ve uyumlu aşınmalar bulunması bruksizm (ağır oklüzal stres) varlığını göstermektedir; ayrıca 46 numaralı dişteki ICDAS 6 lezyonu dentinin açığa çıktığı ve diş kuronunun yarısından fazlasını kapsayan çok geniş bir kavitasyondur. Hem ağır oklüzal stres (bruksizm) hem de aşırı madde kaybı nedeniyle 46 numaralı dişe direkt kompozit rezin restorasyon uygulanması kontrendikedir (indirekt onley/kron restorasyonları tercih edilmelidir). Çeldiriciler: - A) Sabah çene ağrısı ve karşıt dişlerle uyumlu patolojik atrizyonlar bruksizm göstergesidir. - B ve D) 47 numaralı dişteki ICDAS 2 (veya radyografik R2) başlangıç lezyonu kavitasyonsuz ve mine ile sınırlı olduğundan minimal invaziv tedavi olarak rezin infiltrasyon uygulanabilir. - E) Geniş madde kaybı (ICDAS 6) ve bruksizm bulunan 46 numaralı dişte tüberkülleri koruyan indirekt restorasyonlar (onley/overlay/kron) tercih edilmelidir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Aşağıdaki kompozit rezinlerden hangisinin fazla miktarda strese dayanıklı olmaması nedeniyle sınıf IV kavitelerin restorasyonları amacıyla tek başlarına kullanılması önerilmemektedir?",
+    "options": {
+      "A": "Hibrit",
+      "B": "Mikrofil",
+      "C": "Mikrohibrit",
+      "D": "Nanofil",
+      "E": "Nanohibrit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Mikrofil kompozitler çok küçük (0,01-0,1 µm) koloidal silika partikülleri içerdiği için mükemmel parlatılabilirliğe ve estetiğe sahiptir; ancak yüzey alanı çok geniş olan bu küçük partiküller matrikse fazla miktarda katılamadığı için inorganik doldurucu oranları düşüktür (%35-50). Doldurucu oranının az olması nedeniyle çekme/kırılma dayanımları düşüktür ve yüksek kesme/ısırma stresine maruz kalan Sınıf IV (kesici köşe) kavitelerin restorasyonunda tek başlarına kullanılması önerilmez (yalnızca hibrit kompozitlerin üzerinde en dışta estetik veneer katmanı olarak kullanılabilirler). Çeldiriciler: Hibrit (A), Mikrohibrit (C), Nanofil (D) ve Nanohibrit (E) kompozitlerin inorganik doldurucu oranları yüksek olduğu için mekanik dayanıklılıkları fazladır ve Sınıf IV restorasyonlarda tek başlarına güvenle kullanılırlar.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Mikrofil II. Nanofil III. Nanohibrit Yukarıda verilen kompozitlerden hangisi/hangilerinin sınıf IV restorasyonlarda dayanıklılık açısından kullanımı uygundur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Yüksek ısırma kuvvetlerine maruz kalan Sınıf IV kavitelerde hem yüksek mekanik dayanıklılığa hem de iyi cilalanabilirliğe sahip olan nanofil ve nanohibrit kompozitlerin kullanımı uygunken, düşük doldurucu oranlı mikrofil kompozitlerin tek başına kullanımı uygun değildir. Öncüllerin Analizi: - I. Öncül (Uygun değildir): Mikrofil kompozitlerin doldurucu oranı ve kırılma direnci düşük olduğundan Sınıf IV kavitelerde dayanıklılık açısından yetersizdir. - II ve III. Öncüller (Uygundur): Nanofil ve nanohibrit kompozitlerde nanoboyutlu partiküller ve nanokümeler sayesinde doldurucu oranı çok yüksektir; bu nedenle hem yüksek mekanik dayanım hem de üstün polisaj sağlarlar. Çeldiriciler: A, B, C ve E şıkları strese dayanıksız olan mikrofil kompoziti (I) içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozitlerde doldurucu partikül büyüklüğüne göre yapılan sınıflamada; mikrofil dolduruculu kompozitlerdeki partikül büyüklüğü kaç mikrometredir?",
+    "options": {
+      "A": "1- 10 mikrometre",
+      "B": "0.1-1 mikrometre",
+      "C": "0.01- 0.1 mikrometre",
+      "D": "0.04- 1 mikrometre",
+      "E": "0.005- 0.01 mikrometre"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Doldurucu partikül büyüklüğüne göre yapılan kompozit sınıflamasında mikrofil kompozitlerin partikül büyüklüğü 0,01 - 0,1 mikrometre (ortalama 0,04 µm) aralığındadır. Çeldiriciler: - A) 1 - 10 mikrometre: Midifil (küçük partiküllü) kompozitlerin partikül boyutudur (Megafil: 50-100 µm, Makrofil: 10-100 µm). - B) 0,1 - 1 mikrometre: Minifil kompozitlerin partikül boyutudur. - D) 0,04 - 1 mikrometre: Hibrit kompozitlerin (mikrofil ve minifil karışımı) partikül boyutudur. - E) 0,005 - 0,01 mikrometre (5-10 nm): Nanofil kompozitlerin partikül boyutudur.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozitlerde polimerizasyon başlatıcısı olarak kullanılan kamforokinonun, ışığı çoğunlukla absorbe ettiği dalga boyu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "274 nm",
+      "B": "374 nm",
+      "C": "474 nm",
+      "D": "574 nm",
+      "E": "674 nm"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Işıkla sertleşen kompozitlerin çoğunda fotoinisiyatör (polimerizasyon başlatıcısı) olarak kullanılan kamforokinon, görünür mavi ışık spektrumunda yer alan 470-474 nm (468-474 nm) civarındaki dalga boyuna sahip fotonları maksimum düzeyde absorbe ederek aktive olur. Çeldiriciler: - A ve B) 274 nm ve 374 nm ultraviyole (UV) / yakın UV bölgesi olup kamforokinonun tepe absorbsiyon dalga boyu değildir (Lucirin TPO 385-420 nm, İvocerin 410 nm'de absorbe eder). - D ve E) 574 nm (sarı-yeşil) ve 674 nm (kırmızı) dalga boyları kamforokinonu aktive etmez.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Kamferokinon II. TPO III. İvocerin Klinikte bulunan ışık cihazı 415nm dalga boyunda ışık çıkışı sağlıyorsa, kompozit rezin kullanılarak yapılacak olan bir restorasyonda yukarıdaki başlatıcı tiplerinden hangisini / hangilerini içeren kompozit kullanımı önerilmez?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kamforokinon aktive olmak için 470-474 nm dalga boyunda mavi ışığa ihtiyaç duyar; sadece 415 nm (mor ışık) dalga boyunda çıkış veren bir cihaz kamforokinonu aktive edemeyeceği için kamforokinon içeren kompozit kullanımı önerilmez. Öncüllerin Analizi: - I. Öncül (Önerilmez): Kamforokinon 470-474 nm dalga boyunda aktive olur, 415 nm ile polimerize olmaz. - II. Öncül (Kullanılabilir): Lucirin TPO 420 nm altında (385-420 nm aralığında) polimerize olduğu için 415 nm ışıkla aktive olabilir. - III. Öncül (Kullanılabilir): İvocerin 400-430 nm (en iyi 410 nm) arasında polimerize olduğu için 415 nm ışıkla ideal şekilde aktive olur. Çeldiriciler: B, C, D ve E şıkları 415 nm'de aktive olabilen TPO (II) ve İvocerin'i (III) önerilmez olarak kabul ettiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Siloran II. BisEMA III. Tiyolen Yukarıda verilenlerden ajanlardan hangisi/hangilerinin kompozit yapısına katılması polimerizasyon streslerini azaltıcı etki gösterir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II, III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kompozit rezinlerin organik matriksinde büzülme ve stresleri azaltmak amacıyla katyonik halka açılımıyla polimerize olan Siloran, yüksek molekül ağırlıklı ve hidrofobik Bis-EMA ve basamaklı büyüme reaksiyonu gösteren Tiyolen (Thiol-ene) monomer sistemlerinin katılması polimerizasyon büzülme streslerini azaltıcı etki gösterir. Öncüllerin Analizi: - I. Öncül (Doğru): Siloran halka açılma reaksiyonuyla polimerize olarak hacimsel büzülmeyi (%1'in altına) ve stresi azaltır. - II. Öncül (Doğru): Bis-EMA ilavesi viskoziteyi ve çift bağ yoğunluğunu dengeleyerek polimerizasyon büzülme streslerini azaltır. - III. Öncül (Doğru): Tiyolen (Thiol-ene) sistemleri jel noktasını geciktirerek polimerizasyon büzülmesini ve stresini azaltıcı etki gösterir. Çeldiriciler: A, B, C ve D şıkları stresi azaltan bu üç monomer sisteminden birini veya birkaçını eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi sarıya yakın rengi ve ortam ışığına maruz kaldığında bozunması nedeniyle anterior kompozitlerde kullanılması estetik problem oluşturabilen foto-başlatıcıdır?",
+    "options": {
+      "A": "İvocerin",
+      "B": "Fenil Propandion (PPD)",
+      "C": "Kamforokinon (CQ)",
+      "D": "Lucirin TPO",
+      "E": "Benzol peroksit (BPO)"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kamforokinon (CQ), fotoinisiyatör ajanlar arasında en koyu \"kanarya sarısı\" renge sahip olan başlatıcıdır; reaksiyona girmeyen kamforokinon ve ko-inisiyatörü olan tersiyer aminlerin zamanla okside olmasıyla özellikle açık renkli (bleach/translusent) anterior kompozitlerde sarımsı renk değişimi ve estetik problem oluşturur. Çeldiriciler: - A, B ve D) İvocerin (orta/açık sarı), Fenil Propandion (PPD) ve özellikle en açık renkte/renksiz ve translüsent olan Lucirin TPO, kamforokinonun yarattığı sararma problemini önlemek amacıyla açık renkli estetik anterior kompozitlerde kullanılan alternatif fotoinisiyatörlerdir. - E) Benzoil peroksit (BPO) foto-başlatıcı değildir, otopolimerizan kompozitlerin kimyasal başlatıcısıdır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER",
+    "flag_reason": "2024 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Aşağıdakilerden en koyu renge sahip foto-başlatıcıdır?",
+    "options": {
+      "A": "İvocerin",
+      "B": "Fenil Propandion (PPD)",
+      "C": "Kamforokinon (CQ)",
+      "D": "Lucirin TPO",
+      "E": "Benzol peroksit (BPO)"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Işıkla sertleşen kompozitlerde kullanılan foto-başlatıcı ajanlar renk koyuluklarına göre kıyaslandığında; en koyu sarı renge sahip olan Kamforokinon (CQ), orta koyulukta olan İvocerin, en açık renkte ve translüsent olan ise Lucirin TPO'dur. Çeldiriciler: İvocerin, PPD ve Lucirin TPO kamforokinondan daha açık renklidir; Benzoil peroksit ise kimyasal başlatıcıdır.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "I. Kamferokinon II. Lucirin TPO III. İvocerin Yukarıdaki öncüllerde bulunan fotoinisiyatör ajanların renklerinin koyudan açığa doğru sıralaması hangi seçenekte doğru olarak verilmiştir?",
+    "options": {
+      "A": "I > II > III",
+      "B": "I > III > II",
+      "C": "II > I > III",
+      "D": "III > I > II",
+      "E": "III > II > I"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Fotoinisiyatör ajanların renklerinin en koyudan en açığa doğru sıralaması: Kamforokinon (I - en koyu sarı) > İvocerin (III - orta koyulukta sarı) > Lucirin TPO (II - en açık/translüsent) şeklindedir. Öncüllerin Analizi: - 1. En koyu: I. Kamferokinon - 2. Orta koyulukta: III. İvocerin - 3. En açık: II. Lucirin TPO Çeldiriciler: A, C, D ve E şıkları fotoinisiyatörlerin renk koyuluk sıralamasını yanlış vermektedir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Aşağıdaki monomer tiplerinden hangisi, polimerizasyon reaksiyonu sırasında gösterdiği \"halka açılımlı polimerizasyon\" sayesinde, büzülme oranını azaltması amacıyla geliştirilmiştir?",
+    "options": {
+      "A": "Bisfenol glisidin metakrilat (Bis-GMA)",
+      "B": "Üretan dimetakrilat (UDMA)",
+      "C": "Trietilen glikol dimetakrilat (TEG-DMA)",
+      "D": "Metil metakrilat (MMA)",
+      "E": "Siloran"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Siloran monomerleri (hidrofobik siloksan omurgası ve sikloalifatik oksiran halkalarının birleşimi), geleneksel metakrilatların serbest radikal zincir polimerizasyonu yerine \"katyonik halka açılma polimerizasyonu\" ile sertleşir. Oksiran halkalarının açılması sırasında meydana gelen hacimsel genişleme, kimyasal bağ oluşumu sırasındaki yaklaşmayı kompanse ederek polimerizasyon büzülme oranını (%1-1,4 civarına) ve büzülme stresini en aza indirir. Çeldiriciler: Bis-GMA (A), UDMA (B), TEGDMA (C) ve MMA (D) doğrusal/çapraz metakrilat monomerleri olup serbest radikal ilave polimerizasyonuyla sertleşirler ve halka açılımı göstermezler.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Kompozitlerde polimerizasyon büzülmesinin azalması için hidrofobik monomerlerin eklenmesi ile üretilmiş olan kompozitler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Siloranlar",
+      "B": "Ormoserler",
+      "C": "Poliasit modifiye kompozitler",
+      "D": "İyon salabilen kompozitler",
+      "E": "Heterojen kompozitler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Polimerizasyon büzülmesinin önüne geçebilmek ve su emilimini azaltmak amacıyla silikon bazlı hidrofobik siloksan ve halka açılımı yapan oksiran monomerlerinin birleştirilmesiyle üretilmiş olan düşük büzülmeli kompozitler \"Siloranlar\"dır. Çeldiriciler: - B) Ormoserler, organik olarak modifiye edilmiş seramik (polisiloksan) ağlara sahip materyallerdir. - C ve D) Poliasit modifiye kompozitler (kompomerler) ve iyon salabilen kompozitler (giomerler) flor salınımı amacıyla geliştirilmiş hidrofilik karakterli materyallerdir. - E) Heterojen kompozitler prepolimerize doldurucu içeren mikrofil kompozitlerdir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  },
+  {
+    "question": "Çok fonksiyonlu üretan ile tioeter oligo metaklatalkoksi silanın inorganik kopolimerlerinin oluşturduğu, aşınma dirençleri çok yüksek, $SiO_2$ üzerine inşa edilmiş bir inorganik iskelete sahip olan restoratif materyal aşağıda verilenlerden hangisidir?",
+    "options": {
+      "A": "CER-MET",
+      "B": "Siloran",
+      "C": "Giomer",
+      "D": "Miracle-mix",
+      "E": "Ormoser"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Ormoserler (Organically Modified Ceramics - Organik olarak modifiye edilmiş seramikler); çok fonksiyonlu üretan ve tioeter oligo-metakrilat-alkoksi-silanın inorganik-organik kopolimerlerinden oluşan, $SiO_2$ (silika/poliseskioksan) üzerine inşa edilmiş bir inorganik seramik iskelet ağı ile organik polimerlerin esnekliğini bir araya getiren, aşınma direnci çok yüksek, biyouyumlu ve polimerizasyon büzülmesi düşük restoratif materyallerdir. Çeldiriciler: - A) CER-MET, cam iyonomer siman tozuna gümüş-palladyum (Ag-Pd) sinterlenerek elde edilen seramik-metal karışımıdır. - B) Siloran, siloksan ve oksiran içeren halka açılımlı kompozittir. - C) Giomer, önceden reaksiyona girmiş cam iyonomer (PRG) doldurucuların kompozit/kompomer matriksine eklenmesiyle üretilen flor salabilen materyaldir. - D) Miracle-mix, geleneksel cam iyonomer siman tozuna amalgam alaşım tozu karıştırılmasıyla elde edilen materyaldir.",
+    "lesson": "Restoratif",
+    "unit": "9 KOMPOZİT REZİNLER"
+  }
+]

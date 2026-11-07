@@ -146,6 +146,7 @@ def _normalize_one(raw: dict) -> dict:
         "explanation": clean_expl,
         "lesson": (str(raw.get("lesson") or raw.get("ders") or "").strip() or None),
         "unit": (str(raw.get("unit") or raw.get("ünite") or raw.get("unite") or "").strip() or None),
+        "flag_reason": (str(raw.get("flag_reason") or "").strip() or None),
     }
 
 
@@ -199,17 +200,20 @@ def _load_md(path: str) -> list:
         if not section.strip() or "**Soru Metni:**" not in section:
             continue
 
-        q_match = re.search(r"\*\*Soru Metni:\*\*\s*\n(.*?)\n\s*\n", section, re.DOTALL)
+        q_match = re.search(r"\*\*Soru Metni:\*\*\s*(.*?)(?=\n\s*[-*]?\s*A[).]\s)", section, re.DOTALL)
         question_text = q_match.group(1).strip() if q_match else ""
 
         options = {}
-        for opt_char, opt_text in re.findall(r"^\s*[-*]?\s*([A-E])[\)\.]\s*(.+)$", section, re.MULTILINE):
+        option_section = re.split(r"\*\*Doğru Cevap:\*\*", section, maxsplit=1)[0]
+        for opt_char, opt_text in re.findall(r"^\s*[-*]?\s*([A-E])[\)\.]\s*(.+)$", option_section, re.MULTILINE):
             options[opt_char] = opt_text.strip()
 
         ca_match = re.search(r"\*\*Doğru Cevap:\*\*\s*([A-E])", section)
         correct_answer = ca_match.group(1) if ca_match else ""
 
-        expl_match = re.search(r"\*\*Soru Açıklaması:\*\*\s*\n(.*?)(?=\n---|\Z)", section, re.DOTALL)
+        expl_match = re.search(r"\*\*Soru Açıklaması:\*\*\s*(.*?)(?=\n---|\Z)", section, re.DOTALL)
+        if not expl_match and ca_match:
+            expl_match = re.search(r"\*\*Soru Metni:\*\*\s*(.*?)(?=\n---|\Z)", section[ca_match.end():], re.DOTALL)
         explanation = expl_match.group(1).strip() if expl_match else ""
 
         questions.append(
@@ -342,7 +346,8 @@ def main() -> int:
     parser.add_argument("--lesson", help="Ders adı (verilirse dosyadaki değeri ezer)")
     parser.add_argument("--unit", help="Ünite adı (verilirse dosyadaki değeri ezer)")
     parser.add_argument("--deneme", action="store_true", help="Soruları ünitesiz Denemeler havuzuna ekle")
-    parser.add_argument("--include-rejected", action="store_true", help="Deneme sorularında kalite elemesini atla; biçim ve embedding zorunludur")
+    parser.add_argument("--cikmis", action="store_true", help="Çıkmış soruları yalnızca biçimsel doğrulamayla ve çift embedding ile ekle")
+    parser.add_argument("--include-rejected", action="store_true", help="Kullanıcının açıkça istediği sorular için kalite elemesini atla; biçim ve embedding zorunludur")
     parser.add_argument("--dry-run", action="store_true", help="Yalnız doğrula + rapor; Supabase'e yazma")
     parser.add_argument("--audit", action="store_true", help="Bitince smart_audit_pipeline.py --lesson çalıştır")
     parser.add_argument("--high-yield", action="store_true", help="Soruları high_yield bayrağıyla ekle (Ölüm maçından kaçınır)")
@@ -353,8 +358,18 @@ def main() -> int:
     parser.add_argument("--list-units", action="store_true", help="Kayıtlı ders ve ünite kataloğunu yazdır")
     args = parser.parse_args()
 
-    if args.include_rejected and (not args.deneme or args.skip_existing):
-        parser.error("--include-rejected yalnızca --deneme ile ve --skip-existing olmadan kullanılabilir")
+    if args.cikmis:
+        if args.deneme or args.include_rejected or args.fast or args.audit or args.skip_existing or args.quality_flag or args.high_yield:
+            parser.error("--cikmis diğer özel aktarım, audit ve kalite seçenekleriyle birlikte kullanılamaz")
+        if not args.lesson or not args.unit or args.unit not in _load_canonical_units().get(args.lesson, []):
+            parser.error("--cikmis için kanonik --lesson ve --unit gereklidir")
+
+    if args.include_rejected and (args.skip_existing or args.fast or args.audit or args.quality_flag or args.high_yield):
+        parser.error("--include-rejected; --skip-existing, --fast, --audit veya kalite bayrağıyla kullanılamaz")
+
+    if args.include_rejected and not args.deneme:
+        if not args.lesson or not args.unit or args.unit not in _load_canonical_units().get(args.lesson, []):
+            parser.error("--include-rejected için kanonik --lesson ve --unit gereklidir")
 
     if args.deneme:
         if not args.lesson or args.unit or args.fast or args.audit or args.quality_flag or args.high_yield:
@@ -417,7 +432,7 @@ def main() -> int:
         )
         return 1
 
-    if args.include_rejected:
+    if args.include_rejected or args.cikmis:
         format_errors = _fast_format_errors(questions)
         if format_errors:
             for error in format_errors:
@@ -428,7 +443,7 @@ def main() -> int:
             print("   🔎 DRY-RUN: Supabase'e yazma yapılmadı.")
             return 0
         checkpoint = shared.save_checkpoint(questions, args.lesson, args.unit)
-        if not shared._write_to_supabase(questions, args.lesson, args.unit, None):
+        if not shared._write_to_supabase(questions, args.lesson, args.unit, 'cikmis' if args.cikmis else None):
             print(f"❌ Aktarım tamamlanamadı. Checkpoint: {checkpoint}")
             return 1
         if checkpoint:

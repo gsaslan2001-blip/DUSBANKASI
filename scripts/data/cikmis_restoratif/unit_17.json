@@ -1,0 +1,296 @@
+[
+  {
+    "question": "Aşağıdaki lazerlerden hangisinin kompozit polimerizasyonunda kullanılması en olasıdır?",
+    "options": {
+      "A": "CO₂ lazer",
+      "B": "Argon lazer",
+      "C": "Er:YAG lazer",
+      "D": "Er,Cr:YSGG lazer",
+      "E": "Nd:YAG lazer"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Argon lazerler 488-514 nm dalga boyunda mavi-yeşil görünür ışık ürettikleri için kamforokinon içeren ışıkla sertleşen rezin kompozitlerin polimerizasyonunda kullanılır. Çeldiriciler: - A) CO₂ lazer yumuşak doku cerrahisi ve dentin hassasiyetinde kullanılır, rezin polimerizasyonu yapmaz. - C ve D) Er:YAG ve Er,Cr:YSGG lazerler sert doku kavite preparasyonu ve dentin hassasiyetinde kullanılır. - E) Nd:YAG lazer yumuşak doku işlemleri ve dentin hassasiyeti tedavisinde kullanılır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "I. Dalga boyu 488 - 500 nm arasında polimerize olabilen rezin kompozitler üzerinde etkilidirler. II. Polimerizasyonun gerçekleşmesi sırasında pre-jel safhasının daha kısa sürmesine neden oldukları için daha yüksek polimerizasyon büzülmesi stresi oluştururlar. III. Rezin kompozitleri polimerize etme süreleri halojen ışık kaynaklarına göre daha uzundur. Yukarıdaki ifadelerden hangileri kompozit rezinleri polimerize etmek amacıyla kullanılan plazma ark ve argon- iyon lazerlerin ortak özellikleri arasında yer alır?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Plazma ark (PAC) ve argon-iyon lazer ışık cihazları çok yüksek ışık gücüne sahip olup 488-500 nm (kamforokinon aktivasyon aralığı) dalga boyunda polimerize olan kompozitlerde etkilidir ve çok hızlı polimerizasyon sağlayıp pre-jel safhasını kısalttıkları için yüksek polimerizasyon büzülme stresi oluştururlar. Öncüllerin Analizi: - I. Öncül (Doğru): Her iki cihaz da dalga boyu 488-500 nm civarında (kamforokinon bazlı) polimerize olabilen rezin kompozitler üzerinde etkilidir. - II. Öncül (Doğru): Yüksek ışık şiddeti nedeniyle polimerizasyon çok hızlı gerçekleşir, rezinin akarak stresi tolere ettiği pre-jel safhası çok kısa sürer ve yüksek büzülme stresi oluşur. - III. Öncül (Yanlış): Polimerizasyon süreleri halojen (QTH) ışık kaynaklarına (30-60 sn) göre daha uzun değil, çok daha kısadır (Plazma ark: 3-8 sn, Argon lazer: 10 sn). Çeldiriciler: A, C, D ve E şıkları yanlış olan III. öncülü içerdiği için hatalıdır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Restoratif materyal polimerizasyonunda kullanılan plazma ark ve argon lazer cihazların özelliklerinin karşılaştırılmasında verilen bilgilerden hangisi yanlış bir bilgi içermektedir?",
+    "options": {
+      "A": "Argon lazer: 488-514nm dalga boyu — Plazma ark: 390-510 nm dalga boyu",
+      "B": "Argon lazer: 10 sn polimerizasyon — Plazma ark: 3-8sn polimerizasyon",
+      "C": "Argon lazer: Polimerizasyon stresi düşük — Plazma ark: Polimerizasyon stresi yüksek",
+      "D": "Argon lazer: Yüksek ısı oluşturmaz — Plazma ark: Yüksek ısı oluşturur",
+      "E": "Argon lazer: Uzun ömürlü — Plazma ark: Uzun ömürlü"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hem argon lazerler hem de plazma ark cihazları çok güçlü ışık üreterek rezin kompozitleri çok kısa sürede (3-10 sn) hızla polimerize ederler; bu hızlı polimerizasyon pre-jel safhasını kısalttığı için her iki cihazda da polimerizasyon büzülme stresi yüksektir. Argon lazerde polimerizasyon stresinin düşük olduğu bilgisi yanlıştır. Çeldiriciler: - A) Argon lazer 488-514 nm dar spektrumlu, plazma ark ise 390-510 nm geniş spektrumlu dalga boyuna sahiptir. - B) Polimerizasyon süresi argon lazerde ortalama 10 sn, plazma arkta ise 3-8 sn'dir. - D) Argon lazerde kızılötesi ışık dalgaları hemen hemen hiç olmadığı için yüksek ısı oluşturmazken, plazma ark cihazları çok yüksek ısı üretir. - E) Her iki cihaz da halojen lambalara kıyasla uzun ömürlüdür.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Kompozitlerde polimerizasyon başlatıcı olarak kullanılan İvocerin ajanının ışığı en iyi absorbe ettiği dalga boyu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "274 nm",
+      "B": "374 nm",
+      "C": "385 nm",
+      "D": "410 nm",
+      "E": "530 nm"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kompozit rezinlerde açık renkli/estetik restorasyonlar için geliştirilen germanyum bazlı fotoinisiyatör İvocerin, 400-430 nm (410-430 nm) dalga boyu aralığında aktive olur ve ışığı en iyi 410 nm dalga boyunda absorbe eder. Çeldiriciler: - A ve B) 274 nm (UV aralığı) ve 374 nm güncel dental fotoinisiyatörlerin optimal tepe noktası değildir. - C) 385 nm (420 nm altında), Lucirin TPO fotoinisiyatörünün ışığı en iyi absorbe ettiği dalga boyudur. - E) Kamforokinon ise 470-474 nm dalga boyunda maksimum absorbsiyon gösterir; 530 nm hiçbir başlatıcı için uygun değildir.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "I. Lazer floresans II. Quartz Tungsten Halojen III. LED IV. Argon lazer Yukarıdaki ışık yayma özelliği olan cihazlardan hangileri kompozit restorasyonların polimerizasyonunda kullanılır?",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "I ve III",
+      "C": "I ve II",
+      "D": "I, III ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kompozit rezinlerin polimerizasyonunda kullanılan ışık cihazları; Ultraviyole (terk edilmiştir), Quartz Tungsten Halojen (QTH), LED (Light Emitting Diode), Plazma ark (PAC) ve Argon lazer cihazlarıdır. Lazer floresans ise polimerizasyonda değil, çürük teşhisinde kullanılır. Öncüllerin Analizi: - I. Öncül (Yanlış): Lazer floresans yöntemi (Diagnodent, 655 nm), başlangıç çürük lezyonlarının erken dönemde teşhisi için kullanılır; polimerizasyon yapmaz. - II, III ve IV. Öncüller (Doğru): QTH, LED ve Argon lazer cihazları kompozit restorasyonların polimerizasyonunda kullanılır. Çeldiriciler: A şıkkı II ve III'ü eksik bıraktığı için; B, C ve D şıkları ise çürük teşhis cihazı olan I. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Işık yayma özelliği bulunan aşağıdaki cihazlardan hangisi rezin materyallerin polimerizasyonunda kullanılmaz?",
+    "options": {
+      "A": "LED",
+      "B": "Plazma ark",
+      "C": "Argon lazer",
+      "D": "Lazer floresans",
+      "E": "Quartz tungsten halojen"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Lazer floresans cihazı (Diagnodent), 655 nm kırmızı lazer ışığı yayarak bakteriyel porfirinlerin floresansını ölçen bir ileri çürük teşhis cihazıdır; rezin materyallerin polimerizasyonunda kullanılmaz. Çeldiriciler: LED, Plazma ark, Argon lazer ve Quartz tungsten halojen (QTH) cihazları rezin esaslı materyallerin polimerizasyonunda kullanılan ışık kaynaklarıdır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Aşağıda verilen polimerizasyonda kullanılan ışık cihazı – ürettikleri ışığın dalga boyu eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "LED – 390-430 nm",
+      "B": "Argon – 390-510 nm",
+      "C": "QTH – 400-500 nm",
+      "D": "Plazma ark – 390-510nm",
+      "E": "1. jenerasyon LED – 468-470 nm"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Argon lazerler geniş bir spektrumda değil, yalnızca 488-514 nm dalga boyu aralığında ışık üretirler; 390-510 nm dalga boyu aralığı plazma ark cihazlarına aittir. Çeldiriciler: - A ve E) 1. jenerasyon LED cihazları 468-470 nm dar dalga boyunda ışık üretirken, 3. nesil polywave LED cihazları hem 390-430 nm hem de 440-550 nm dalga boyunda ışık üretebilir. - C) QTH cihazları 380-520 nm ışık üretir ve filtrelenme sonrası 400-500 nm dalga boyunda ışık verir. - D) Plazma ark cihazları 390-510 nm dalga boyu arasında ışık üretir.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kullanılan görünür ışık cihazları için yanlıştır?",
+    "options": {
+      "A": "Halojen lamba 380-520 nanometre dalga boyunda çalışır.",
+      "B": "Plazma ark ışık cihazları 3-8 saniyede polimerizasyon yapar.",
+      "C": "Plazma-ark cihazlar polimerizasyonu olumsuz etkiler.",
+      "D": "Led ışık cihazları halojen lambalara göre daha uzun ömürlüdür.",
+      "E": "Ultraviyole ışık cihazları en çok kullanılan ışık cihazlarıdır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İlk kez 1972 yılında kullanılan ultraviyole (UV) ışık cihazları, görünür ışık cihazları arasında yer almaz; ayrıca penetrasyon (polimerizasyon) derinliğinin çok düşük olması ve hem hastada hem hekimde kornea (katarakt) ve cilt hasarı oluşturma riski nedeniyle kullanımı tamamen terk edilmiştir. Günümüzde en çok kullanılan ışık cihazları LED cihazlarıdır. Çeldiriciler: - A) Halojen (QTH) lambalar 380-520 nm dalga boyunda ışık üretir (filtre ile 400-500 nm aralığına indirgenir). - B ve C) Plazma ark cihazları yüksek güçleriyle 3-8 saniyede çok hızlı polimerizasyon yapar; ancak bu aşırı hızlı reaksiyon yüksek büzülme stresleri ve kısa zincirler oluşturarak polimerizasyon kalitesini olumsuz etkiler. - D) LED ışık cihazları ısınmadığı, güç kaybı yaşamadığı ve yarı iletken diyot içerdiği için halojen lambalara göre çok daha uzun ömürlüdür.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Penetrasyon derinliği sınırlı olan, aynı zamanda zamanla hasta ve hekim için zararlı olabileceği düşüncesiyle kullanımı terk edilen ışık cihazı aşağıda verilenlerden hangisidir?",
+    "options": {
+      "A": "Plazma ark ışık cihazı",
+      "B": "Quartz tungsten halojen ışık cihazı",
+      "C": "Argon lazer ışık cihazı",
+      "D": "LED ışık cihazı",
+      "E": "Ultraviyole ışık cihazı"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Cilt ve korneada biyolojik hasar oluşturma riski ve ışığın penetrasyon derinliğinin sınırlı olması nedeniyle tam polimerizasyon sağlayamaması yüzünden kullanımı terk edilen cihaz ultraviyole (UV) ışık cihazıdır. Çeldiriciler: Plazma ark, QTH, Argon lazer ve LED cihazları görünür mavi ışık spektrumunda çalışan ve UV radyasyon zararı taşımayan cihazlardır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "I. Plazma ark ışık cihazı II. Quartz tungsten halojen ışık cihazı III. Argon lazer ışık cihazı IV. LED ışık cihazı Dişindeki hassasiyet sebebiyle kliniğe başvuran hastanın yapılan klinik ve radyolojik muayenesi sonucunda 26 numarasında derin dentin çürüğü tespit edilen hastaya lokal anestezi altında, kompozit rezin restorasyon yapmak amacıyla preparasyon yapılmaya başlanmıştır. Preparasyon sonucunda kavite tabanı ve pulpa arası mesafe çok az kaldığına göre; kompozit rezinin polimerizasyonunda yukarıda verilen ışık cihazlarından hangisi/hangileri tercih edilmemelidir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I, II ve III",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Pulpaya olan mesafe çok azaldığında dentin dokusunun termal yalıtkanlığı yetersiz kalır; bu nedenle yüksek ısı üreterek pulpal nekroz riski yaratan Plazma ark ve Quartz tungsten halojen (QTH) ışık cihazları derin kavitelerde tercih edilmemelidir. Öncüllerin Analizi: - I. Öncül (Tercih edilmemeli): Plazma ark ışık kaynakları oldukça yüksek ısı oluşturur ve derin kavitede pulpaya zarar verir. - II. Öncül (Tercih edilmemeli): Quartz tungsten halojen (QTH) cihazları görünür ışığın yanı sıra kızılötesi ışık da üretir, filtre bozulursa veya uzun süreli uygulamada pulpa içindeki ısıyı artırır. - III. Öncül (Tercih edilebilir): Argon lazerlerde kızılötesi ışık dalgaları hemen hemen hiç olmadığı için pulpa ve oral dokularda ısı artışı en aza indirilmiştir. - IV. Öncül (Tercih edilebilir): LED ışık cihazları kızılötesi ışık üretmez, \"soğuk ışık\" olarak bilinir ve polimerizasyon sırasında ısı oluşturmaz. Çeldiriciler: A şıkkı en çok ısı üreten plazma arkı (I) dışarıda bıraktığı için; C, D ve E şıkları ise ısı üretmeyen Argon lazer (III) veya LED (IV) cihazlarını içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Rezin esaslı restoratif materyallerin polimerizasyonunda kullanılan ışık cihazlarından hangisi ışık kaynağı olarak xenon gazı kullanılır?",
+    "options": {
+      "A": "Quartz tungsten halojen ışık cihazları",
+      "B": "Plazma ark ışık cihazları",
+      "C": "Argon-iyon lazer ışık cihazları",
+      "D": "Ultraviyole ışık cihazları",
+      "E": "LED ışık cihazları"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Plazma ark (PAC) ışık cihazlarında ışık kaynağı olarak yüksek basınçlı \"xenon ark lambası (xenon gazı)\" kullanılır; iki elektrot arasındaki xenon gazının iyonize olmasıyla çok yüksek yoğunluklu ışık üretilir. Çeldiriciler: - A) Quartz tungsten halojen (QTH) cihazlarında iyot/brom gazı içeren kuvars ampul ve tungsten filamanlı halojen lamba kullanılır. - C) Argon-iyon lazerlerde aktif ortam olarak argon gazı kullanılır. - D) Ultraviyole ışık cihazlarında cıva buharlı lambalar kullanılır. - E) LED cihazlarında gaz veya filaman bulunmaz; galyum nitrür ve indiyum galyum nitrür yarı iletken kristaller kullanılır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Rezin esaslı restoratif materyallerin polimerizasyonunda kullanılan ışık cihazlarından hangisinde polimerizasyon büzülmesi en fazladır?",
+    "options": {
+      "A": "Quartz tungsten halojen ışık cihazları",
+      "B": "Plazma ark ışık cihazları",
+      "C": "Argon-iyon lazer ışık cihazları",
+      "D": "Ultraviyole ışık cihazları",
+      "E": "LED ışık cihazları"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Plazma ark ışık cihazları en yüksek ışık gücüne (2000 mW/cm²) ve en kısa polimerizasyon süresine (3-8 sn) sahip olan cihazlardır; bu aşırı hızlı polimerizasyon yüzünden pre-jel fazı çok kısa sürer ve kompozitlerde en yüksek düzeyde polimerizasyon büzülme stresi meydana gelir. Çeldiriciler: QTH, Argon lazer, UV ve LED cihazlarının ışık yoğunluğu ve polimerizasyon hızı plazma ark kadar ekstrem olmadığı için oluşturdukları ani büzülme stresi plazma arktan daha düşüktür.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Rezin esaslı restoratif materyallerin polimerizasyonunda kullanılan ışık cihazlarından hangisinde ışık kaynağı olarak halojen lamba kullanılır?",
+    "options": {
+      "A": "QTH ışık cihazları",
+      "B": "Plazma ark ışık cihazları",
+      "C": "Argon-iyon lazer ışık cihazları",
+      "D": "Ultraviyole ışık cihazları",
+      "E": "LED ışık cihazları"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): QTH (Quartz Tungsten Halojen) ışık cihazlarında ışık kaynağı olarak tungsten filamanlı halojen lamba kullanılır. Çeldiriciler: Plazma arkta xenon gazı, argon lazerde argon gazı, UV cihazlarda cıva buharlı lamba, LED cihazlarda ise yarı iletken diyotlar kullanılır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Aşağıdaki ışık kaynaklarından hangisi, kompozit polimerizasyonunu en kısa sürede gerçekleştirir?",
+    "options": {
+      "A": "Ultraviyole",
+      "B": "Quartz Tungsten Halojen",
+      "C": "Light Emitting Diode",
+      "D": "Floresan",
+      "E": "Plazma ark"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Polimerizasyon için gereken enerji \"Joule = saniye x watt\" denklemiyle hesaplanır; ışık cihazının gücü (watt) arttıkça gereken süre azalır. Plazma ark cihazları en yüksek ışık gücüne (2000 mW/cm²) sahip olduğu için kompozit polimerizasyonunu en kısa sürede (3-8 saniye) gerçekleştiren cihazdır. Çeldiriciler: - A) Ultraviyole cihazları yavaş ve yetersiz polimerizasyon yapar, artık kullanılmamaktadır. - B) Quartz Tungsten Halojen (QTH) cihazları 30-60 saniyede polimerizasyon yapar. - C) LED cihazları ortalama 10-20 saniyede polimerizasyon yapar. - D) Floresan polimerizasyon cihazı değildir.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "En yüksek düzeyde polimerizasyon büzülme streslerine neden olan ışık cihazı aşağıda verilenlerden hangisidir?",
+    "options": {
+      "A": "Ultraviyole",
+      "B": "Quartz Tungsten Halojen",
+      "C": "Light Emitting Diode",
+      "D": "Floresan",
+      "E": "Plazma ark"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): En yüksek ışık gücüne sahip olan Plazma ark cihazları, 3-8 saniye gibi çok kısa bir sürede hızlı polimerizasyon gerçekleştirdiği için materyal içerisinde en yüksek düzeyde polimerizasyon büzülme streslerine neden olur. Çeldiriciler: UV, QTH ve LED cihazlarında polimerizasyon süresi daha uzun olduğu için stresin dağılmasına daha fazla imkan tanınır, Floresan ise polimerizasyon cihazı değildir.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "I. Polywave LED – 390-430 ile 440-550 nm II. Argon – 488-514 nm III. QTH – 400-500 nm IV. Plazma ark – 390-510nm V. 1. jenerasyon LED – 468-470 nm Yukarıda verilen polimerizasyonda kullanılan ışık cihazı – ürettikleri ışığın dalga boyu eşleştirmelerinden hangisi/ hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "III ve V",
+      "C": "II, III ve V",
+      "D": "III, IV ve V",
+      "E": "I, II, III, IV ve V"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Polimerizasyonda kullanılan tüm ışık cihazlarının ürettikleri ve filtreledikleri dalga boyu aralıkları beş öncülde de eksiksiz ve doğru olarak eşleştirilmiştir. Öncüllerin Analizi: - I. Öncül (Doğru): 3. nesil Polywave LED cihazları hem TPO/İvocerin (390-430 nm) hem de kamforokinon (440-550 nm) için çift tepe noktalı ışık üretir. - II. Öncül (Doğru): Argon lazerler 488-514 nm dalga boyunda ışık üretir. - III. Öncül (Doğru): QTH cihazları filtrelenme sonrası 400-500 nm dalga boyunda ışık verir. - IV. Öncül (Doğru): Plazma ark cihazları 390-510 nm dalga boyu aralığında geniş spektrumlu ışık üretir. - V. Öncül (Doğru): 1. jenerasyon LED cihazları 468-470 nm dar dalga boyunda ışık üretir. Çeldiriciler: A, B, C ve D şıkları doğru eşleştirmelerin bir kısmını dışarıda bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Restoratif diş hekimliğinde lazer kullanımıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Lokal anestezi gereksinimini azaltır.",
+      "B": "Yüzeyde smear tabakası oluşturmaz.",
+      "C": "Seçici çürük kaldırma özelliği nedeniyle minimal invaziv diş hekimliği konseptine uygundur.",
+      "D": "Oluşturduğu düzgün kavite sınırları nedeniyle indirekt kavite preparasyonlarında tercih edilmelidir.",
+      "E": "Direkt pulpa kuafajı tedavisinde dekontaminasyon ve koagülasyon için kullanılabilir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Lazerle yapılan kavite preparasyonlarında pürüzlü, düzensiz ve mikro-kraterli yüzeyler oluşur; belirgin iç/dış kenar açıları, paralel duvarlar ve düzgün kavite sınırları oluşturulması çok zordur. Bu nedenle hassas giriş yolu ve net bitim sınırı gerektiren indirekt (inley/onley/kron) kavite preparasyonlarında lazerler yetersizdir ve tercih edilmez. Çeldiriciler: - A) Lazerler titreşim ve mekanik basınç oluşturmadığı için kavite açılırken lokal anestezi gereksinimini azaltır veya ortadan kaldırır. - B) Dokuyu termomekanik ablasyonla (mikropatlamalarla) uzaklaştırdığı için yüzeyde smear tabakası oluşturmaz. - C) Su içeriği yüksek olan çürük dokuyu sağlam dokuya göre seçici olarak uzaklaştırabildiği için minimal invaziv konsepte uygundur. - E) Direkt pulpa kuafajında ekspoz yüzeyinin sterilizasyonu (dekontaminasyon) ve kanama kontrolü (koagülasyon) amacıyla güvenle kullanılabilir.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Aşağıdaki seçeneklerden hangisi minimal invaziv kavite hazırlanmasında kullanılan alternatif tekniklerden değildir?",
+    "options": {
+      "A": "Air abrazyon",
+      "B": "Lazer",
+      "C": "Normal boyutlu frez",
+      "D": "Sonik osilasyon sistemi",
+      "E": "Kemomekanik çürük uzaklaştırma"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Normal boyutlu döner alet frezleri geleneksel (konvansiyonel) kavite preparasyonunda kullanılır ve sağlam diş dokusundan da fazla miktarda madde kaybına yol açtığı için minimal invaziv alternatif kavite hazırlama teknikleri arasında yer almaz. Çeldiriciler: Air abrazyon (kinetik kavite preparasyonu), Hidrokinetik sistemler (Lazerler), Sonik ve ultrasonik osilasyon sistemleri, Kemomekanik çürük uzaklaştırma (Carisolv) ve Atravmatik Restoratif Tedavi (ART) minimal invaziv kavite hazırlama teknikleridir.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Lazerler yumuşak veya sert dokularda fototermal etkiler meydana getirir. Buna göre aşağıda verilen sıcaklık derecelerinden hangisinde dokuda inorganik yapıların eriyerek rekristalizasyona uğradığı gözlemlenebilir?",
+    "options": {
+      "A": "50",
+      "B": "150",
+      "C": "250",
+      "D": "350",
+      "E": "450"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lazerlerin dokuda oluşturduğu fototermal etkiler sıcaklığa göre değişir; 100 °C'nin altında protein denatürasyonu, koagülasyon ve büzüşme, 100 °C'nin üzerinde suyun buharlaşması ve mikropatlamalar (ablasyon), 400 °C'nin üzerinde organik yapının karbonizasyonu, 400 - 1400 °C aralığında ise sert dokudaki inorganik yapıların (hidroksiapatit kristallerinin) eriyerek rekristalizasyona uğraması (ve dentin tübüllerinin tıkanması) gerçekleşir. Seçeneklerde 400-1400 °C aralığına giren değer 450 °C'dir. Çeldiriciler: 50 °C protein denatürasyonuna, 150 °C, 250 °C ve 350 °C ise suyun buharlaşması ve doku ablasyonuna/dehidratasyonuna karşılık gelir; inorganik kristallerin erimesi için 400 °C'nin üzerine çıkılması gerekir.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "I. Kanama kontrolünün yapılması II. Diş çürüğünün teşhisi ve kaviteden uzaklaştırılması III. Dentin aşırı hassasiyetinin giderilmesi IV. Diş beyazlatma ürünlerinin aktivasyonu Lazer sistemleri yukarıdaki durumlardan hangilerinde kullanılabilir?",
+    "options": {
+      "A": "II ve IV",
+      "B": "I, II ve III",
+      "C": "I, II, III ve IV",
+      "D": "I ve III",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Restoratif diş hekimliğinde farklı dalga boylarındaki lazer sistemleri verilen dört klinik durumun tamamında kullanılmaktadır. Öncüllerin Analizi: - I. Öncül (Doğru): Yumuşak doku cerrahisinde ve direkt pulpa kuafajında kesme ve koagülasyon (kanama kontrolü) amacıyla (CO₂, Ho:YAG, Nd:YAG, Argon lazerler) kullanılır. - II. Öncül (Doğru): Başlangıç çürüklerinin teşhisinde (Diagnodent lazer floresans) ve çürüğün kaviteden uzaklaştırılması / kavite preparasyonunda (Er:YAG, Er,Cr:YSGG, Ho:YAG, CO₂, Nd:YAG) kullanılır. - III. Öncül (Doğru): Dentin aşırı hassasiyetinin tedavisinde sinir uyarılabilirliğini azaltmak (GaAlAs, HeNe) veya tübülleri eritip tıkamak (Nd:YAG, CO₂, Er:YAG) amacıyla kullanılır. - IV. Öncül (Doğru): Ofis tipi diş beyazlatma işlemlerinde ağartma jellerinin aktivasyonu amacıyla (Diode lazer vb.) kullanılır. Çeldiriciler: A, B, D ve E şıkları lazerlerin kullanım alanlarından birini veya birkaçını eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  },
+  {
+    "question": "Aşağıdaki durumlardan hangisi lazerlerin diş hekimliğindeki kullanım alanlarından değildir?",
+    "options": {
+      "A": "Kanama kontrolünün yapılması",
+      "B": "Diş çürüğünün teşhisi ve kaviteden uzaklaştırılması",
+      "C": "Ağrı eşiğinin düşürülmesi",
+      "D": "Dentin aşırı hassasiyetinin giderilmesi",
+      "E": "Diş beyazlatma ürünlerinin aktivasyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Lazerler diş hekimliğinde ağrı eşiğini düşürmek için değil, tam tersine sinir liflerinin depolarizasyonunu baskılayarak \"ağrı eşiğini yükseltmek (sinir uyarılabilirliğini zorlaştırmak)\" ve böylece analjezi / hassasiyet giderimi sağlamak amacıyla kullanılır. Ağrı eşiğinin düşürülmesi hastanın çok daha kolay ağrı duyması (hiperaljezi) anlamına gelir. Çeldiriciler: Kanama kontrolü (koagülasyon), çürük teşhisi ve temizlenmesi, dentin aşırı hassasiyetinin giderilmesi ve beyazlatma ajanlarının aktivasyonu lazerlerin temel kullanım alanlarıdır.",
+    "lesson": "Restoratif",
+    "unit": "17 RESTORATİF DİŞ HEKİMLİĞİNDE KULLANILAN ALETLER VE EKİPMANLAR"
+  }
+]

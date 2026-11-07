@@ -1,0 +1,325 @@
+[
+  {
+    "question": "Aşırı dentin hassasiyetiyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Ozmotik uyaranlara bağlı olarak gelişebilir.",
+      "B": "Keskin ve rahatsız edici bir ağrıdır.",
+      "C": "Kimyasal erozyon sonucunda ortaya çıkabilir.",
+      "D": "Mekanik abrazyon veya oklüzal streslerle ortaya çıkabilir.",
+      "E": "Etken ortadan kalktığında devam eder."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dentin aşırı hassasiyeti; açığa çıkmış dentinde termal, kimyasal, ozmotik veya dokunsal uyaranlara karşı gelişen kısa süreli ve keskin bir ağrıdır. Uyaran (etken) ortadan kalktıktan hemen sonra ağrı kesilir; etken kalktığında devam eden ağrı geri dönüşümsüz pulpitisi düşündürür. Çeldiriciler: - A) Tatlı/tuzlu gıdalar gibi ozmotik uyaranlar dentin sıvısını dışarı doğru çekerek hassasiyet oluşturabilir. - B) Özellikle soğuk uyaranlarda sıvının dışarı doğru ani akışıyla oluşan negatif basınç, kısa süreli, keskin ve şiddetli bir ağrıya neden olur. - C ve D) Kimyasal erozyon, mekanik abrazyon veya oklüzal stresler (abfraksiyon) mine veya sement kaybına yol açarak dentin tübüllerini ağız ortamına açar ve hassasiyete neden olur.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Dentin hassasiyet mekanizması ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Geçerli olan teori hidrodinamik teoridir.",
+      "B": "Hassasiyetin oluşabilmesi için dentin lenfinin oral kaviteyle bağlantıda olması gerekir.",
+      "C": "Etken ortadan kalktığında hassasiyet belli bir süre daha devam eder.",
+      "D": "Sıvı akışı pulpadan dışarı doğru olduğunda keskin bir ağrı hissedilir.",
+      "E": "Soğuk sıcağa oranla daha şiddetli ağrıya sebep olur."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dentin hassasiyetinde uyaran (etken) ortadan kalktığında dentin sıvısının hareketi durur ve ağrı anında kesilir; belli bir süre daha devam etmez. Çeldiriciler: - A) Dentin hassasiyetini açıklamada en çok kabul gören görüş Brännström'ün hidrodinamik teorisidir. - B) Hassasiyet oluşumu için mine veya sement kaybıyla dentin tübüllerinin açılarak dentin lenfinin oral kaviteyle bağlantıya geçmesi şarttır. - D) Soğuk, hava veya ozmotik uyaranlarla sıvı akışı pulpadan dışarı doğru ani şekilde gerçekleştiğinde keskin bir ağrı oluşur (sıcakta ise sıvı içeri doğru hareket eder ve daha geç, künt bir ağrı oluşur). - E) Soğuk uyaranlar dışarı doğru ani sıvı akışı ve negatif basınç yarattığından sıcak uyaranlara oranla daha şiddetli ve keskin ağrıya sebep olur.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Kliniğe 34 yaşında kadın hasta diş hassasiyeti şikayetiyle başvurmuştur. Yapılan klinik muayene sonucunda periodontal sağlığın yerinde olduğu ve hiçbir çürük lezyonunun bulunmadığı tespit edilmiştir. Buna göre bu hastada gözlemlenen hassasiyetin sebebi aşağıdaki durumlardan hangisi olabilir?",
+    "options": {
+      "A": "Mine pistonları",
+      "B": "Mine tuğları",
+      "C": "Mine-sement bileşiminin olmayışı",
+      "D": "Retzius çizgileri",
+      "E": "Mine spindle yapısı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dişlerin yaklaşık %10'unda servikal bölgede mine ve sement birbiriyle birleşmez ve arada dentin dokusu açıkta kalır; periodontal olarak sağlıklı ve çürüksüz dişlerde görülen bu anatomik açıklık (mine-sement bileşiminin olmayışı) doğrudan dentin hassasiyeti sebebidir. (Ayrıca çürüksüz dişlerde yüzeyde sonlanan mine lamelleri de hassasiyet yapabilir). Çeldiriciler: - A ve E) Mine pistonları (mine spindle/iği), mine-dentin sınırında yer alan odontoblast uzantılarıdır; sağlam dişte ağız ortamına açılmazlar, yalnızca minede yapılan kavite preparasyonları sırasında hassasiyete neden olabilirler. - B) Mine tuğları mine-dentin sınırında yer alır ve dış yüzeye ulaşmadığı için sağlam dişte hassasiyet yapmaz. - D) Retzius çizgileri minenin büyüme çizgileridir, hassasiyet oluşturmaz.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, dentin hassasiyeti tedavisinde kullanılmaz?",
+    "options": {
+      "A": "Potasyum okzalat",
+      "B": "Gluteraldehit",
+      "C": "Sodyum perborat",
+      "D": "Kalsiyum fosfat",
+      "E": "Potasyum nitrat"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Sodyum perborat (ve hidrojen peroksit), dentin hassasiyeti giderici bir ajan olmayıp devital dişlerin beyazlatılmasında (walking bleach tekniğinde) kullanılan bir ağartma ajanıdır. Çeldiriciler: - A) Potasyum okzalat, hem potasyum iyonlarıyla sinir uyarısını baskılar hem de okzalat tuzlarıyla dentin tübüllerini tıkayarak hassasiyet tedavisinde kullanılır. - B) Gluteraldehit, dentin sıvısındaki proteinleri çökelterek tübülleri tıkayan hassasiyet giderici bir ajandır. - D) Kalsiyum fosfat bileşikleri, dentin tübüllerinde mineral çökelmesi sağlayarak tübülleri tıkar. - E) Potasyum nitrat, pulpal sinirlerin uyarılabilirliğini (depolarizasyonunu) engelleyerek sinir iletimini baskılayan en yaygın hassasiyet giderici ajandır.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıdaki şıklarda verilen dentin hassasiyet giderici ajan ve etki mekanizması ile ilgili bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Ga-Al-As lazerler pulpada sinir uyarılabilirliğinin düşürür.",
+      "B": "Nd-YAG lazerler tübül tıkayıcı etki gösterir.",
+      "C": "Florür vernikleri CaF₂ kristalleri oluşturarak tübülleri tıkar.",
+      "D": "Nanohidroksiapatit içeren diş macunları tübüllerde kristal oluşturur.",
+      "E": "Hidrojen peroksit kanallarda protein çökelmesini sağlayarak tübülleri tıkar."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Hidrojen peroksit kanallarda protein çökelmesi sağlayan bir hassasiyet giderici ajan değildir; diş beyazlatma (ağartma) ajanıdır ve aksine yan etki olarak diş hassasiyetine yol açabilir. Kanallarda protein çökelmesi sağlayan ajanlar gluteraldehit, gümüş nitrat, çinko klorit ve stronsiyum klorit gibi ajanlardır. Çeldiriciler: - A) Düşük güçteki (low-output) Ga-Al-As ve He-Ne lazerler sinir uyarılabilirliğini düşürerek hassasiyeti azaltır. - B) Orta güçteki (middle-output) Nd:YAG, CO₂ ve Erbiyum lazerler dentin tübüllerini eritip tıkayarak veya dentin lenfini kısmen buharlaştırarak etki gösterir. - C) Florür vernikleri kalsiyum florür (CaF₂) çökeltileri oluşturarak dentin tübüllerinin çapını daraltır ve tıkar. - D) Nanohidroksiapatit ve biyoaktif cam içeren ürünler tübüllerde mineral kristalleri çökelterek tübülleri tıkar.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "[Görsel: Üst sol santral kesici dişinde belirgin grimsi-kahverengi içsel renklenme bulunan hastanın ağız içi fotoğrafı] Yirmi yedi yaşında kadın hasta, dişindeki renk değişikliği sebebiyle kliniğe başvurmuştur. Travma hikayesi bulunan hastanın klinik görünümü aşağıdaki gibidir. Buna göre bu hastaya uygulanacak olan tedavi ve işlem basamakları için aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "İlk olarak dişe kanal tedavisi yapılmalıdır",
+      "B": "Walking bleaching tekniği ile tedavi edilmelidir",
+      "C": "Sodyum perborat, hidrojen peroksit kombinasyonu kullanılmalıdır",
+      "D": "Güta perka, mine sement sınırının 1-2 mm altında kesilmelidir",
+      "E": "Servikal rezorpsiyonu önlemek adına 2 hafta pulpa odasında kalsiyum hidroksit bekletilmelidir"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Devital beyazlatmada (walking bleach tekniğinde) sodyum perboratın hidrojen peroksit ile karıştırılarak kullanılması eksternal servikal kök rezorpsiyonu riskini ciddi ölçüde artırdığı için önerilmez; sodyum perborat distile su, serum fizyolojik veya anestezik solüsyonla karıştırılarak uygulanmalıdır. Çeldiriciler: - A) Travmaya bağlı nekroz ve renklenme gelişmiş devital dişte ağartma öncesi ilk olarak ideal bir kök kanal tedavisi yapılmalıdır. - B) Devital diş beyazlatmasında en güvenli yöntem klinik dışında da devam eden walking bleaching tekniğidir. - D) Ağartma ajanının kök kanalına ve periodontal dokulara sızmasını önlemek için güta perka mine-sement sınırının 1-2 mm altına kadar indirilir ve üzeri cam iyonomer siman gibi bir kaide ile örtülür. - E) Ağartma işlemi tamamlandıktan sonra ortamın asidik pH'sını nötralize etmek ve eksternal servikal rezorpsiyonu önlemek amacıyla pulpa odasında 2 hafta kalsiyum hidroksit bekletilir.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Dentin hassasiyetinin giderilmesi için aşağıdakilerden hangisinin diş macunu içeriğine eklenmesi en az olasıdır?",
+    "options": {
+      "A": "Stronsiyum",
+      "B": "Potasyum",
+      "C": "Palladyum",
+      "D": "Oksalat",
+      "E": "Florür"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Palladyum, metal destekli seramik (PFM) restorasyonların altyapılarında kullanılan değerli bir geçiş metalidir; dentin hassasiyeti tedavisinde hiçbir yeri yoktur ve diş macunu içeriğine eklenmesi söz konusu değildir. Çeldiriciler: - A) Stronsiyum tuzları (stronsiyum klorür, stronsiyum asetat) dentin tübüllerini çökelme yoluyla tıkayarak hassasiyeti giderir. - B) Potasyum tuzları (potasyum nitrat) sinir uyarılarının iletimini baskılayarak hassasiyeti azaltır. - D) Oksalat tuzları dentin tübüllerinde kalsiyum okzalat kristalleri çökelterek tübülleri tıkar. - E) Florür bileşikleri CaF₂ çökeltileriyle tübülleri tıkar ve remineralizasyonu destekler.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Dentin hassasiyeti bulunan bir hastanın tedavisi için ilk basamak olarak hassasiyet giderici macun öneriliyor. Aşağıda verilen ajanlardan hangisinin bu hastanın kullanacağı macun içerisinde bulunması en az olasıdır?",
+    "options": {
+      "A": "Stronsiyum",
+      "B": "Potasyum",
+      "C": "Palladyum",
+      "D": "Oksalat",
+      "E": "Florür"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Palladyum protetik diş hekimliğinde döküm metal alaşımlarına korozyon direnci ve termal stabilite sağlamak amacıyla eklenen değerli bir metaldir; hassasiyet giderici diş macunlarında bulunmaz. Çeldiriciler: A, B, D ve E şıklarındaki stronsiyum, potasyum, oksalat ve florür bileşikleri hassasiyet giderici diş macunlarında tübül tıkayıcı veya sinir duyarsızlaştırıcı olarak yaygın şekilde kullanılır.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıdaki lazerlerden hangisinin dentin hassasiyetinin tedavisinde kullanılması en az olasıdır?",
+    "options": {
+      "A": "CO₂ lazer",
+      "B": "Argon lazer",
+      "C": "Er:YAG lazer",
+      "D": "Er,Cr:YSGG lazer",
+      "E": "Nd:YAG lazer"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Argon lazerler (488-514 nm), restoratif diş hekimliğinde rezin kompozitlerin polimerizasyonu ve yumuşak doku koagülasyonu amacıyla kullanılır; dentin hassasiyetinin tedavisinde kullanılmaz. Çeldiriciler: - A ve E) CO₂ ve Nd:YAG lazerler (orta güçteki lazerler), dentin tübüllerini eritip tıkayarak dentin hassasiyeti tedavisinde kullanılır. - C ve D) Er:YAG ve Er,Cr:YSGG (Erbiyum) lazerler, dentin lenfini kısmen buharlaştırarak ve tübülleri tıkayarak dentin hassasiyeti tedavisinde kullanılır (ayrıca düşük güçteki GaAlAs ve HeNe lazerler de sinir uyarılabilirliğini zorlaştırarak kullanılır).",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıdaki lazerlerden hangisinin dentin hassasiyetinin tedavisinde kullanılması en az olasıdır?",
+    "options": {
+      "A": "CO₂ lazer",
+      "B": "Ho:YAG lazer",
+      "C": "Er:YAG lazer",
+      "D": "Er,Cr:YSGG lazer",
+      "E": "Nd:YAG lazer"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Ho:YAG (Holmiyum:YAG) lazer kavite preparasyonu ve cerrahi işlemlerde kullanılabilen bir lazer olup, dentin hassasiyeti tedavisinde kullanılan lazerler (GaAlAs, HeNe, Nd:YAG, Er:YAG, Er,Cr:YSGG, CO₂) arasında yer almaz. Çeldiriciler: A, C, D ve E şıklarındaki CO₂, Er:YAG, Er,Cr:YSGG ve Nd:YAG lazerler dentin tübüllerini eritme veya tübül sıvısını buharlaştırma mekanizmalarıyla dentin hassasiyeti tedavisinde kullanılır.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Diş macunlarının içerisinde bulunan hassasiyet giderici ajan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Triklosan",
+      "B": "Stronsiyum klorit",
+      "C": "Sodyum lauril sülfat",
+      "D": "Kalsiyum karbonat",
+      "E": "Hidrojen selüloz"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Stronsiyum klorit, proteinleri çökelterek ve dentin tübüllerinde stronsiyum fosfat kristalleri oluşturup tübülleri tıkayarak etki gösteren, diş macunlarına eklenen bir hassasiyet giderici ajandır. Çeldiriciler: - A) Triklosan, diş macunlarında plak ve gingivitisi önlemek için kullanılan non-iyonik antimikrobiyal (antibakteriyel) ajandır. - C) Sodyum lauril sülfat (SLS), diş macunlarında köpürmeyi ve yüzey gerilimini düşürmeyi sağlayan deterjan (yüzey aktif) ajandır. - D) Kalsiyum karbonat, mekanik plak temizliği sağlayan aşındırıcı (abraziv) ajandır. - E) Hidrojen selüloz (karboksimetil selüloz), diş macununun faz ayrışmasını önleyen kıvam verici (bağlayıcı) ajandır.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Diş macunlarının içerisinde bulunan bileşen ve etki mekanizması kıyaslandığında aşağıdaki eşleştirmelerden hangisi doğrudur?",
+    "options": {
+      "A": "Triklosan — Kıvam verici",
+      "B": "Stronsiyum klorit — Hassasiyet giderici",
+      "C": "Sodyum lauril sülfat — Antibakteriyel",
+      "D": "Kalsiyum karbonat — Deterjan",
+      "E": "Hidrojen selüloz — Aşındırıcı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Diş macunlarının içeriğinde yer alan stronsiyum klorit, dentin tübüllerini tıkayarak etki gösteren hassasiyet giderici bir bileşendir. Çeldiriciler: - A) Triklosan kıvam verici değil, antimikrobiyal/antibakteriyel ajandır. - C) Sodyum lauril sülfat ana görevi itibarıyla deterjan (köpürtücü yüzey aktif madde) bileşenidir. - D) Kalsiyum karbonat deterjan değil, aşındırıcı (abraziv) bileşendir. - E) Hidrojen selüloz aşındırıcı değil, kıvam verici (nemlendirici/bağlayıcı) bileşendir.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Dentin hassasiyetinin tedavisiyle ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "I. Aşama tedavi süresi 2-6 hafta kadardır",
+      "B": "Gümüş nitrat II. aşama tedavilerde en sık kullanılan ajandır",
+      "C": "İyonoforez yönteminde rubber dam uygulaması tedavi başarısını olumsuz etkiler",
+      "D": "Defekt pulpaya yakınsa restoratif tedavi tercih edilir",
+      "E": "Kalsiyum okzalat tübülleri tıkayarak hassasiyeti giderir"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Gümüş nitrat protein çökeltici bir ajan olmasına rağmen, pulpa ve dişetine zarar verme (irritasyon) riski ve diş dokularında kalıcı siyah renklenmeye neden olması sebebiyle kullanımı terk edilmiştir; II. aşama tedavilerde en sık kullanılan ajan değildir. Çeldiriciler: - A) I. aşama tedavide hastanın evde uyguladığı duyarlılık giderici diş macunları (potasyum nitrat, arjinin, kalay florür vb.) 2-6 hafta süreyle kullanılır. - C) İyonoforez yöntemi düşük amperli elektrik akımıyla florür iyonlarının dokuya iletilmesine dayandığından, yalıtkan olan rubber dam uygulaması elektrik iletkenliğini engelleyerek tedavinin başarısız olmasına yol açar. - D) III. aşama (invaziv) tedavilerde, defekt pulpaya yakınsa veya dişin yapısal bütünlüğünü bozacak kadar derinse restoratif tedavi tercih edilir. - E) Kalsiyum okzalat ve potasyum okzalat, II. aşama non-invaziv klinik tedavilerde dentin tübüllerini tıkayarak hassasiyeti giderir.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Dentin aşırı hassasiyeti tedavisinde kullanılan aşağıdaki ajanlardan hangisi sinir desensitizasyonu yaparak etki eder?",
+    "options": {
+      "A": "Gluteraldehit",
+      "B": "Potasyum nitrat",
+      "C": "Potasyum okzalat",
+      "D": "Arjinin",
+      "E": "Florür"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Potasyum nitrat (ve galyum nitrat), dentin tübüllerinden pulpaya difüze olarak hücre dışı potasyum konsantrasyonunu artırır ve pulpal sinir liflerinin depolarizasyonunu (uyarılmasını) engelleyerek doğrudan sinir desensitizasyonu yoluyla etki eder. Çeldiriciler: - A) Gluteraldehit, dentin tübüllerindeki proteinleri çökelterek tübül tıkayıcı olarak etki eder. - C) Potasyum okzalat, kalsiyum okzalat kristalleri oluşturarak temel olarak tübül tıkanması yoluyla etki gösteren iyon/tuz grubundadır. - D) Arjinin, kalsiyum karbonat ile birlikte dentin tübüllerini tıkayarak etki eder. - E) Florür, kalsiyum florür çökeltileri oluşturarak dentin tübüllerini tıkar.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ",
+    "flag_reason": "2020 DUS Orijinal"
+  },
+  {
+    "question": "I. Gluteraldehit – protein çökelmesi II. Potasyum nitrat – protein çökelmesi III. Potasyum okzalat – antiinflamatuar IV. Arjinin – protein çökelmesi Yukarıda verilen dentin hassasiyet tedavisinde kullanılan ajan ve etkinlik eşleştirmelerinden hangisi/hangileri yanlış bilgi içermektedir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "II ve III",
+      "C": "I, II ve IV",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Hassasiyet giderici ajanlar tablosuna göre gluteraldehit ve arjinin protein çökelticiler grubunda yer alırken, potasyum nitratın protein çökeltici ve potasyum okzalatın antiinflamatuar olarak eşleştirilmesi yanlıştır. Öncüllerin Analizi: - I. Öncül (Doğru): Gluteraldehit, dentin sıvısındaki serum albümini ve proteinleri koagüle ederek (protein çökelmesi) tübülleri tıkar. - II. Öncül (Yanlış): Potasyum nitrat protein çökelmesi yapmaz; sinir uyarımını (iletimini) önleyen ajandır. - III. Öncül (Yanlış): Potasyum okzalat antiinflamatuar değildir (antiinflamatuar olanlar kortikosteroidlerdir); tübüllerde kristal çökelten iyon/tuz grubundadır. - IV. Öncül (Doğru): Arjinin, gluteraldehit ve gümüş nitrat ile birlikte protein çökelticiler ve tübül tıkayıcılar sınıfında yer alır. Çeldiriciler: A şıkkı yanlış olan III. öncülü dışarıda bıraktığı için; C, D ve E şıkları ise doğru kabul edilen I ve IV. öncülleri yanlışlar arasına aldığı için hatalıdır.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi, dentin hassasiyet tedavisinde kullanılan ajanların etki mekanizmaları arasında yer almamaktadır?",
+    "options": {
+      "A": "Tübül içerisinde çökelti oluşturmak",
+      "B": "Açığa çıkmış dentin yüzeyini örtmek",
+      "C": "Peritübüler dentin alanını azaltmak",
+      "D": "Tübül ağızlarının tıkanmasını sağlamak",
+      "E": "Tübülleri rezinle tıkamak"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dentin hassasiyeti tedavisinde peritübüler dentin alanını azaltmak değil, tam tersine mineralizasyonu teşvik ederek peritübüler dentin alanını artırıp dentin tübül çaplarının daralmasını ve tıkanmasını sağlamak amaçlanır. Çeldiriciler: - A) Florürler, okzalatlar ve kalsiyum fosfatlar tübül içerisinde mineral veya protein çökeltisi oluşturarak sıvı akışını engeller. - B) Vernikler, adezivler, cam iyonomerler ve kompozitler açığa çıkmış dentin yüzeyini örterek hassasiyeti giderir. - D) Smear yapıcı sistemler ve tübül tıkayıcı ajanlar tübül ağızlarının tıkanmasını sağlar. - E) Adeziv rezinler ve sealantlar dentin tübüllerini plastik rezin taglarla doyurup tıkayarak etki eder.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Kırk beş yaşındaki kadın hasta, sol alt premolar-molar bölgesindeki kompozit restorasyonların estetik görüntüsünden rahatsız olduğu için yenilenmesi talebiyle kliniğe başvuruyor. Hastanın anamnezinden aynı bölgede önceden dentin aşırı duyarlılığı şikâyeti olduğu ve tedavi amacıyla o bölgeye florür uygulandığı öğreniliyor. Aşağıdakilerden hangisinin uygulanmış olması bu hastada oluşan renklenmenin en olası nedenidir?",
+    "options": {
+      "A": "Sodyum florür",
+      "B": "Sodyum silika florür",
+      "C": "Stanöz florür",
+      "D": "Sodyum monoflorofosfat",
+      "E": "Potasyum klorür"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kalay florür (stannöz florür - SnF₂), dentin tübüllerini tıkayarak güçlü hassasiyet giderici ve çürük durdurucu etki gösterir; ancak içerdiği kalay iyonlarının ağız ortamında okside olup sülfürlerle reaksiyona girmesi sonucunda diş dokularında ve restorasyon kenarlarında koyu kahverengi-siyah renklenmelere yol açar. (Renklenmeye neden olan başlıca ajanlar: Gümüş nitrat, Gümüş diamin florür ve Kalay/Stannöz florürdür). Çeldiriciler: A, B, D ve E şıklarındaki sodyum florür, sodyum silika florür, sodyum monoflorofosfat ve potasyum klorür dişlerde veya restorasyonlarda renklenmeye neden olmaz.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıdaki dentin hassasiyeti giderici ajanlardan hangisinin dişlerde renklenmeye yol açması en olasıdır?",
+    "options": {
+      "A": "Sodyum florür",
+      "B": "Sodyum silika florür",
+      "C": "Stanöz florür",
+      "D": "Sodyum monoflorofosfat",
+      "E": "Potasyum klorür"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Stannöz florür (kalay florür), içeriğindeki kalay iyonu nedeniyle demineralize diş dokularında ve kompozit marjinlerinde koyu renkli-siyah boyanmalara neden olur. Çeldiriciler: Sodyum florür, sodyum silika florür, sodyum monoflorofosfat ve potasyum klorür renksiz ve stabil bileşikler olup dişlerde renklenme yapmaz.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Dentin hassasiyetini tedavi etmek amacıyla kullanılan ürünlerde aranılan özellikler aşağıdaki seçeneklerden hangisinde yanlış verilmiştir?",
+    "options": {
+      "A": "Remineralizasyonu teşvik edici özelliği olmalıdır",
+      "B": "Demineralize edici özelliği olmamalıdır",
+      "C": "Dentin lenfinin hareketliliğinden dolayı etkisi yavaş olmalıdır",
+      "D": "Dişlerde renklenme yapmamalıdır",
+      "E": "Dişin sağlığını korumalıdır"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İdeal bir dentin hassasiyeti giderici ajanın etkisi yavaş olmamalı; hastanın akut ağrı şikayetini gidermek için hızlı etki etmeli, etkisi uzun süreli/daimi olmalı ve uygulama sırasında ağrısız olmalıdır. Çeldiriciler: - A ve B) İdeal bir ajan remineralizasyonu teşvik etmeli ve diş dokularını demineralize etmemelidir. - D) Estetik sorun yaratmamak için dişlerde renklenmeye neden olmamalıdır. - E) Pulpayı irrite etmemeli, pulpa bütünlüğünü tehlikeye atmamalı ve dişin sağlığını korumalıdır.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıdaki lazer türlerinden hangisi sinir uyarılabilirliğinin zorlaştırılması amacıyla kullanılabilir?",
+    "options": {
+      "A": "Er:YAG lazer",
+      "B": "Nd:YAG lazer",
+      "C": "Argon lazer",
+      "D": "CO₂ lazer",
+      "E": "GaAlAs lazer"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dentin hassasiyetinin tedavisinde düşük güçlü (low-output) lazerler olan GaAlAs (Galyum-Alüminyum-Arsenid) ve HeNe (Helyum-Neon) lazerler, pulpal sinir liflerinin Na⁺/K⁺ pompasını etkileyip depolarizasyonu baskılayarak \"sinir uyarılabilirliğinin zorlaştırılması\" amacıyla kullanılır. Çeldiriciler: - A) Er:YAG lazer, dentin lenfinin kısmen buharlaştırılması yoluyla hassasiyet gideriminde ve kavite preparasyonunda kullanılır. - B ve D) Nd:YAG ve CO₂ lazerler (orta güçlü lazerler), dentin tübüllerinin eritilip kapatılması yoluyla hassasiyet gideriminde kullanılır. - C) Argon lazer, rezin polimerizasyonu ve yumuşak doku koagülasyonunda kullanılır.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "I. Çatlak diş sendromu II. Palatogingival oluk ve diğer mine invaginatusları III. Uygun olmayan restorasyonlarda oluşan mikrosızıntı Dentin hassasiyetinin ağrısı yukarıdaki durumlardan hangileri ile karışabilir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I ve III",
+      "D": "Yalnız III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dentin aşırı hassasiyeti tanısı bir dışlama (ekartasyon) tanısıdır; hidrodinamik mekanizmayla kısa süreli keskin ağrıya yol açabilen çatlak diş sendromu, palatogingival oluk/dens invaginatus gibi anatomik anomaliler ve kusurlu restorasyonlardaki mikrosızıntı/sekonder çürük durumlarının tamamı dentin hassasiyeti ağrısı ile karışabilir ve teşhis öncesinde mutlaka ayırt edilmelidir. Öncüllerin Analizi: - I. Öncül (Doğru): Çatlak diş sendromunda da hidrodinamik teoriye bağlı soğuk hassasiyeti ve ani keskin ağrı oluştuğu için dentin hassasiyetiyle karışabilir (ısırma/geri tepme ağrısıyla ayırt edilir). - II. Öncül (Doğru): Özellikle üst lateral dişlerde görülen palatogingival oluk ve mine invajinasyonları (dens in dente) dentin tübüllerini ağız ortamına ve периоdontale açarak hassasiyet ağrısıyla karışabilir. - III. Öncül (Doğru): Polimerizasyon büzülmesi veya marjinal kırık nedeniyle uygun olmayan restorasyonlarda oluşan mikrosızıntı ve sekonder çürükler dentin hassasiyetiyle karışabilir. Çeldiriciler: A, B, C ve D şıkları ayırıcı tanıda yer alan bu üç durumdan birini veya birkaçını eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi dentin hassasiyetinin ağrısı ile karışabilen klinik durumlar arasında yer almaz?",
+    "options": {
+      "A": "Çatlak diş sendromu",
+      "B": "Palatogingival oluk ve diğer mine invaginatusları",
+      "C": "Sekonder çürük",
+      "D": "Yüksek polimerizasyon büzülme stresleri sonucunda restorasyonların marjinlerden ayrılması",
+      "E": "Uygun örtücülüğün sağlandığı restorasyonlar"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dentin tübüllerinin hermetik olarak kapatıldığı ve \"uygun örtücülüğün (sealing) sağlandığı restorasyonlar\" dentin lenfi hareketini tamamen durdurarak hassasiyeti ortadan kaldırır; dolayısıyla ağrı oluşturmaz ve dentin hassasiyetiyle karışmaz. Çeldiriciler: Çatlak diş sendromu (A), palatogingival oluk ve invajinasyonlar (B), sekonder çürük (C) ve büzülme stresiyle restorasyonun marjinlerden ayrılması/mikrosızıntı (D) dentin sıvısı hareketine yol açarak dentin hassasiyeti ağrısıyla karışabilen klinik durumlardır.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  },
+  {
+    "question": "Kliniğe dental hassasiyet şikayetiyle gelen 27 yaşındaki kadın hastada yapılan klinik muayene sonucunda herhangi bir lezyona rastlanmamıştır. Hastanın sağ ve sol bölgesinde alınan bitewing radyografilerde; 25 numaralı dişin meziyali ve 47 numaralı dişin distal bölgesinde çürük lezyonu tespit edilmiştir. Buna göre bu hastanın lezyonlarının büyüklüğü aşağıda verilen değerlerden hangisi olabilir?",
+    "options": {
+      "A": "100 mikrometre",
+      "B": "200 mikrometre",
+      "C": "300 mikrometre",
+      "D": "400 mikrometre",
+      "E": "500 mikrometre"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Bir arayüz çürük lezyonunun radyografide (bitewing filmde) radyolüsent bulgu vererek tespit edilebilmesi için lezyonun en az \"500 mikrometre (0,5 mm)\" büyüklüğünde/derinliğinde olması gerekir. Hastanın lezyonları bitewing radyografide tespit edilebildiğine göre büyüklükleri en az 500 mikrometredir. Çeldiriciler: 100, 200, 300 ve 400 mikrometre derinliğindeki sığ lezyonlar X-ışını absorbsiyonunda yeterli fark oluşturamadığı için bitewing radyografide izlenemez.",
+    "lesson": "Restoratif",
+    "unit": "3 DENTİN HASSASİYETİ VE TEDAVİSİ"
+  }
+]

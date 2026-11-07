@@ -1,0 +1,44 @@
+[
+  {
+    "question": "Aşağıda verilenlerden hangisi rubber-damın endodontik uygulamasının avantajlarından biri değildir?",
+    "options": {
+      "A": "Hastayı koruması",
+      "B": "Klinisyeni koruması",
+      "C": "Çalışma boyunun tespitini kolaylaştırması",
+      "D": "Kök kanalının kontaminasyonunu engellemesi",
+      "E": "Çalışma alanının görünebilirliğini artırması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Rubber-dam (lastik örtü) kullanımı çalışma boyunun tespitini kolaylaştırmaz; aksine ağızda lastik örtü, metal/plastik klemp ve çerçeve bulunması periapikal röntgen filminin veya sensörün ağız içine doğru konumlandırılmasını ve radyografik çalışma boyu tespitini zorlaştırır (dezavantajıdır). Çeldiriciler: A) Kanal aletlerinin, frezlerin, postların yutulmasını/aspire edilmesini ve sodyum hipoklorit gibi kostik irrigasyon solüsyonlarının boğaza kaçmasını önleyerek hastayı korur. B) Tükürük, kan ve enfeksiyöz aerosol sıçramasına karşı fiziksel bariyer oluşturarak çapraz enfeksiyon riskini azaltır ve klinisyeni/asistanı korur. D) Kök kanal sistemini tükürük ve oral bakterilerden tamamen izole ederek kontaminasyonu engeller ve aseptik çalışma ortamı sağlar. E) Dudak, yanak, dil ve diş etini ekarte ederek, aynanın buğulanmasını önleyerek ve kuru bir saha yaratarak çalışma alanının görünebilirliğini artırır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 3 - İZOLASYON"
+  },
+  {
+    "question": "I. Alet aspirasyonunu önlemek\nII. Radyograf alınmasını kolaylaştırmak\nIII. Çapraz enfeksiyonu önlemek\nYukarıda verilenlerden hangisi veya hangileri lastik örtü kullanımının amaçlarındandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Endodontik tedavide lastik örtü (rubber-dam) kullanımı hasta güvenliği, asepsi ve enfeksiyon kontrolü açısından zorunlu bir standarttır. Öncüllerin Analizi: I. Kanal eğeleri, frezler ve irrigasyon solüsyonlarının hasta tarafından yutulmasını veya solunum yoluna aspire edilmesini önlemek temel amaçlarındandır (Doğru). II. Lastik örtü, klemp ve çerçeve varlığı ağız içi film/sensör yerleştirilmesini kısıtladığından radyograf alınmasını kolaylaştırmaz, aksine zorlaştırır (Yanlış). III. Hasta ağzından yayılan kan, tükürük ve mikrobiyal aerosolü engelleyerek hekim ve yardımcı personel için çapraz enfeksiyonu önlemek temel amaçlarındandır (Doğru). Çeldiriciler: A) III. öncül de temel amaçlardandır. B) II. öncül rubber-damın dezavantajıdır. D) II. öncül yanlıştır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 3 - İZOLASYON"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi rubber-dam parçalarından değildir?",
+    "options": {
+      "A": "Klemp",
+      "B": "Çerçeve",
+      "C": "Lastik örtü",
+      "D": "Film-holder",
+      "E": "Forseps"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Film-holder (film tutucu), periapikal radyografi çekimi sırasında röntgen filmini veya dijital sensörü dişin uzun aksına paralel şekilde sabitlemeye yarayan radyografik bir aparattır; rubber-dam (lastik örtü) sisteminin parçalarından biri değildir. Rubber-dam setinin 5 temel parçası; lastik örtü, zımba (delici/punch), klemp, klemp forsepsi (klemp pensi) ve çerçevedir (frame). Çeldiriciler: A) Klemp, dişin kole bölgesine tutunarak lastik örtüyü diş üzerinde sabitleyen metal veya plastik parçadır. B) Çerçeve (frame), lastik örtüyü ağız dışında gergin şekilde tutarak görüş sağlayan U veya O şeklindeki aparattır. C) Lastik örtü, ilgili dişi ağız ortamından izole eden lateks veya lateks içermeyen elastik tabakadır. E) Forseps (klemp pensi), klempin kanatlarını açarak dişe yerleştirilmesini ve çıkarılmasını sağlayan el aletidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 3 - İZOLASYON"
+  }
+]

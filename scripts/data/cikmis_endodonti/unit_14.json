@@ -1,0 +1,129 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi guta perkanın kanaldan uzaklaştırılmasında kullanılan yardımcı unsurlardan biri değildir?",
+    "options": {
+      "A": "Kimyasal çözücüler",
+      "B": "Masseran seti",
+      "C": "Isı uygulaması",
+      "D": "Ultrasonik aletler",
+      "E": "Döner enstrümanlar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): \"Masseran (Masserann) seti\", içi boş trepan frezler ve sıkıştırıcı tüplerden oluşan rijit bir sistem olup kök kanallarından \"kırık metal aletlerin, gümüş konların ve metal postların\" çıkarılmasında kullanılır; plastik/polimerik bir dolgu maddesi olan gütaperkanın kanaldan uzaklaştırılmasında kullanılmaz. Çeldiriciler: A) Kloroform, ksilen, ökaliptol, halotan, terebentin ve portakal yağı gibi kimyasal çözücüler gütaperkayı eritip yumuşatarak uzaklaştırılmasını sağlar. C) System B, Touch'n Heat veya ısıtılmış pluggerlar ile yapılan ısı uygulaması gütaperkayı yumuşatarak koronal ve orta üçlüden hızla çıkarılmasını sağlar. D) Ultrasonik aletler ürettikleri titreşim ve sürtünme ısısıyla gütaperkayı plastikleştirip kanaldan uzaklaştırmada kullanılır. E) NiTi döner retreatment eğeleri (ProTaper Retreatment, Mtwo R vb.) ve Gates-Glidden/Peeso frezler gütaperkayı mekanik olarak parçalamak ve çıkarmak için kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 14 - TEKRARLAYAN KÖK KANAL TEDAVİSİ",
+    "flag_reason": "2013 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "I. Masseran seti\nII. Sistem B\nIII. Ksilen\nIV. Lazer\nYukarıda verilenlerden hangisi veya hangileri gutta-perkanın kanaldan uzaklaştırılmasında kullanılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "III ve IV",
+      "D": "II, III ve IV",
+      "E": "I, II ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök kanal tedavisinin yenilenmesi (retreatment) sırasında eski gütaperka dolgusunun sökülmesinde mekanik, termal (ısısal), kimyasal, ultrasonik ve lazer yöntemleri kullanılır. Öncüllerin Analizi: I. Masserann seti gütaperka sökümünde değil, kırık metal alet ve metal postların çıkarılmasında kullanılan trepan frezli bir settir (Yanlış). II. Sistem B (System B), ısı ile aktive edilen bir plugger cihazıdır ve kanaldaki gütaperkayı eriterek uzaklaştırmada kullanılır (Doğru). III. Ksilen (ksilol), gütaperkayı kimyasal olarak çözüp yumuşatarak uzaklaştırmada kullanılan organik bir çözücüdür (Doğru). IV. Lazerler (Nd:YAG, Er:YAG vb.), fototermal etkiyle gütaperkayı ısıtıp alfa fazına geçirerek kanaldan uzaklaştırılmasında kullanılır (Doğru). Çeldiriciler: A) Masserann seti kırık alet çıkarma setidir. B) I. öncül yanlıştır. C) II. öncül de kullanılır. E) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 14 - TEKRARLAYAN KÖK KANAL TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi gutta perkayı kimyasal olarak çözmez?",
+    "options": {
+      "A": "Kloroform",
+      "B": "Terebentin",
+      "C": "Ökaliptol",
+      "D": "Povidon iyodin",
+      "E": "Halotan"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): \"Povidon iyodin\", iyodofor esaslı sulu bir antiseptik/dezenfektan solüsyonudur; organik bir hidrokarbon/eter çözücüsü olmadığı için gütaperkayı kimyasal olarak kesinlikle çözmez. Çeldiriciler: A) Kloroform, gütaperkayı en hızlı ve en etkili çözen organik çözücüdür (ancak potansiyel kanserojen/hepatotoksik olduğu için kontrollü kullanılır). B) Saflaştırılmış terebentin (rektifiye terebentin yağı), gütaperkayı çözen organik çözücülerdendir. C) Ökaliptol, kloroforma göre daha yavaş etki eden (ısıtıldığında etkisi artan) ancak biyouyumlu ve güvenli olan bitkisel kökenli gütaperka çözücüsüdür. E) Halotan, uçucu bir inhalasyon anesteziği olup gütaperkayı etkili şekilde çözen kimyasal çözücülerdendir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 14 - TEKRARLAYAN KÖK KANAL TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıdaki kimyasallardan hangisi gütaperkanın yumuşatılmasında tercih edilmez?",
+    "options": {
+      "A": "Ökaliptol",
+      "B": "Ksilen",
+      "C": "Portakal yağı",
+      "D": "Halotan",
+      "E": "Maleik asit"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Maleik asit\", kalsiyum iyonlarıyla şelasyon yaparak inorganik smear tabakasını uzaklaştırmada kullanılan organik bir asittir; kauçuk polimeri yapısındaki gütaperka üzerinde hiçbir çözücü veya yumuşatıcı etkisi yoktur ve retreatment sırasında gütaperka yumuşatılmasında tercih edilmez. Çeldiriciler: A) Ökaliptol, retreatment işlemlerinde yaygın kullanılan gütaperka çözücüsüdür. B) Ksilen (ksilol), aromatik bir hidrokarbon olup gütaperkayı etkili şekilde yumuşatır ve çözer. C) Portakal yağı (orange oil), biyouyumlu ve hoş kokulu doğal bir esansiyel yağ olup gütaperka ve ÇOÖ patlarını yumuşatmada kullanılır. D) Halotan, gütaperkayı kimyasal olarak yumuşatıp çözen organik bir ajandır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 14 - TEKRARLAYAN KÖK KANAL TEDAVİSİ"
+  },
+  {
+    "question": "I. Maleik asit\nII. Halotan\nIII. Ksilen\nIV. Portakal yağı\nV. Ökaliptol\nYukarıda verilenlerden hangisi veya hangileri smear tabakasının uzaklaştırılmasında kullanılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "II, III ve IV",
+      "D": "II, III ve V",
+      "E": "III ve V"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Smear tabakasının inorganik kısmını demineralize ederek uzaklaştıran ajanlar organik asitler ve şelatörler iken, gütaperkayı eriten ajanlar organik çözücülerdir. Öncüllerin Analizi: I. Maleik asit (%5-7), kalsiyum bağlayan bir şelatör ve organik asit olup kök kanalından \"smear tabakasının uzaklaştırılmasında\" kullanılır (Doğru). II. Halotan, gütaperka çözücüsüdür, smear tabakasına etki etmez (Yanlış). III. Ksilen, gütaperka çözücüsüdür, smear tabakasını kaldırmaz (Yanlış). IV. Portakal yağı, gütaperka çözücüsüdür, smear tabakasını kaldırmaz (Yanlış). V. Ökaliptol, gütaperka çözücüsüdür, smear tabakasını kaldırmaz (Yanlış). Çeldiriciler: B) Halotan gütaperka çözücüsüdür. C) II, III ve IV gütaperka çözücüleridir. D) II, III ve V gütaperka çözücüleridir. E) III ve V gütaperka çözücüleridir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 14 - TEKRARLAYAN KÖK KANAL TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi veya hangileri gutta perkanın kanaldan uzaklaştırılmasında kullanılmaz?",
+    "options": {
+      "A": "H tipi eğeler",
+      "B": "System B",
+      "C": "Kloroform",
+      "D": "Ultrasonikler",
+      "E": "Obtura"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Obtura (Obtura II / III)\", gütaperkayı kanal dışında ısıtarak kanül aracılığıyla boş kök kanalının içerisine enjekte etmeye (kanalı doldurmaya) yarayan termoplastik bir obturasyon tabancasıdır; kanaldaki eski gütaperkanın uzaklaştırılmasında (sökülmesinde) kullanılmaz. Çeldiriciler: A) H tipi (Hedström) eğeler, pozitif rake açılı keskin bıçaklarıyla yumuşatılmış gütaperka kitlesine takılıp çekilerek uzaklaştırılmasında kullanılır. B) System B, kanal içine giren ısıtıcılı plugger ucuyla eski gütaperkayı eritip uzaklaştırmada kullanılır. C) Kloroform, gütaperkayı kimyasal olarak eritip uzaklaştırmada kullanılan en güçlü çözücüdür. D) Ultrasonikler, titreşim ve ısı üreterek gütaperkayı yumuşatıp uzaklaştırmada kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 14 - TEKRARLAYAN KÖK KANAL TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi eski kanal dolgusunu uzaklaştırmak için kullanılmaz?",
+    "options": {
+      "A": "Döner şekillendirme sistemleri",
+      "B": "El tipi kök kanal eğeleri",
+      "C": "Isıtılmış enstrümanlar",
+      "D": "Kimyasal çözücüler",
+      "E": "Metilen mavisi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Metilen mavisi\" (%1'lik solüsyon), dişlerdeki kırık/çatlak hatlarını, pulpa odası tabanındaki kalsifiye kanal ağızlarını veya apikal rezeksiyon yüzeyindeki isthmusları boyayarak görünür kılmak için kullanılan tanısal bir boya maddesidir; eski kök kanal dolgusunu uzaklaştırmak (retreatment) için kullanılmaz. Çeldiriciler: A) Döner şekillendirme ve retreatment sistemleri eski gütaperkayı mekanik olarak boşaltmak için kullanılır. B) El tipi kök kanal eğeleri (K-tipi, H-tipi ve C-tipi eğeler) kanal dolgusunu delip çekerek uzaklaştırmak için kullanılır. C) Isıtılmış enstrümanlar (System B, Touch'n Heat, sıcak pluggerlar) gütaperkayı termal olarak eritip çıkarmada kullanılır. D) Kimyasal çözücüler (kloroform, ökaliptol, ksilen vb.) gütaperkayı ve patı çözerek uzaklaştırmada kullanılır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 14 - TEKRARLAYAN KÖK KANAL TEDAVİSİ"
+  },
+  {
+    "question": "I. El ve döner eğeler\nII. Isıtılmış pluggerlar\nIII. Kloroform\nIV. Metilen mavisi\nYukarıda verilenlerden hangisi veya hangileri gutta perkanın kanaldan uzaklaştırılmasında kullanılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "III ve IV",
+      "E": "II ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Retreatment işlemlerinde gütaperkanın kanaldan uzaklaştırılması mekanik, termal ve kimyasal yöntemlerin kombinasyonuyla gerçekleştirilir. Öncüllerin Analizi: I. El eğeleri (K ve H tipi) ve NiTi döner eğeler gütaperkanın mekanik olarak çıkarılmasında kullanılır (Doğru). II. Isıtılmış pluggerlar (System B vb.) gütaperkanın ısıyla yumuşatılıp çıkarılmasında kullanılır (Doğru). III. Kloroform, gütaperkanın kimyasal olarak çözülüp uzaklaştırılmasında kullanılır (Doğru). IV. Metilen mavisi çatlak ve kanal ağzı tespitinde kullanılan bir boyadır, gütaperka sökümünde kullanılmaz (Yanlış). Çeldiriciler: A) II ve III. öncüller de kullanılır. B) III. öncül de kullanılır. D) IV. öncül kullanılmaz. E) IV. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 14 - TEKRARLAYAN KÖK KANAL TEDAVİSİ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi gutta-perka çözücü değildir?",
+    "options": {
+      "A": "Kloroform",
+      "B": "Eozin",
+      "C": "Ksilen",
+      "D": "Halotan",
+      "E": "Trebentin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): \"Eozin\", histopatolojik doku kesitlerinin boyanmasında (hematoksilen-eozin) veya çatlak/sızıntı tespitinde kullanılan kırmızı-pembe renkli asidik bir boya maddesidir; gütaperkayı çözme özelliği yoktur. Çeldiriciler: A) Kloroform en güçlü gütaperka çözücüsüdür. C) Ksilen (ksilol) etkili bir organik gütaperka çözücüsüdür. D) Halotan uçucu bir organik gütaperka çözücüsüdür. E) Terebentin (rektifiye terebentin yağı) geleneksel bir gütaperka çözücüsüdür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 14 - TEKRARLAYAN KÖK KANAL TEDAVİSİ"
+  }
+]

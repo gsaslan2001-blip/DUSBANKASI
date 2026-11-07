@@ -1,0 +1,129 @@
+[
+  {
+    "question": "İleri derecede böbrek yetmezliği olan ve gün aşırı hemodiyalize giren 50 yaşındaki bir hastaya akut apikal periodontitis tanısı konuluyor. Bu hastaya uygulanması gereken tedavi yaklaşımıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kanal tedavisi yapılmalıdır.",
+      "B": "En uygun müdahale zamanı hastanın diyalize girmediği günlerdir.",
+      "C": "Parasetamol nefrotoksik olmadığından her durumda kullanılabilir.",
+      "D": "Antibiyotik profilaksisi konsültasyon yapılarak düzenlenmelidir.",
+      "E": "Non-steroid antiinflamatuarlar nefrotoksiktir."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İleri derece kronik böbrek yetmezliği olan hastalarda hem NSAİİ'lerin hem de yüksek/kontrolsüz dozlarda parasetamolün (asetaminofen) nefrotoksik etkileri olabileceği, metabolitlerinin birikebileceği ve mutlaka nefrolog konsültasyonu ile doz aralığı ayarlanarak (veya diyalizle atılımı dikkate alınarak) dikkatli kullanılması gerektiği belirtilmektedir; \"nefrotoksik olmadığından her durumda koşulsuz kullanılabilir\" ifadesi yanlıştır. Çeldiriciler: A) Akut apikal periodontitisli dişte enfeksiyon odağını ortadan kaldırmak için kök kanal tedavisi yapılmalıdır. B) Diyaliz günü hastalar yorgundur ve kullanılan heparine bağlı aktif kanama eğilimi vardır; bu nedenle dental müdahaleler diyalizden bir sonraki gün (diyalize girilmeyen gün) yapılmalıdır. D) Hemodiyaliz şantı/kateteri bulunan ve immün sistemi baskılanmış hastalarda profilaksi ve ilaç dozları hastanın tıp doktoru ile konsülte edilerek düzenlenmelidir. E) Non-steroid antiinflamatuar ilaçlar (NSAİİ) renal prostaglandin sentezini inhibe ederek böbrek kan akımını düşürdükleri için belirgin derecede nefrotoksiktir ve bu hastalarda kaçınılmalıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 1 - GİRİŞ"
+  },
+  {
+    "question": "İleri derecede böbrek yetmezliği olan 50 yaşındaki hastanın 45 numaralı dişine akut apikal periodontitis teşhisi konmuştur. Hastaya diyalize girmediği gün kanal tedavisi yapılmıştır. Profilaktik antibiyotik uygulanmamıştır. Post operatif ağrı kontrolü için non steroidler yerine nefrotoksik olmadığı için parasetamol önerilmiştir. Bu vakaya yaklaşımla ilgili olarak verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kanal tedavisi yapılması",
+      "B": "Diyalize girilmeyen gün kanal tedavisi yapılması",
+      "C": "Profilaksi uygulanmaması",
+      "D": "Nonsteroid reçete edilmemesi",
+      "E": "Parasetamol reçete edilmesi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İleri derece böbrek yetmezliği olan ve hemodiyalize giren hastalarda vasküler erişim yolları (arteriyovenöz şant/kateter) enfeksiyona açıktır ve üremiye bağlı immün yetmezlik mevcuttur. Bu hastalarda olası bakteriyemi ve şant enfeksiyonu riskleri ile rehberlerdeki görüş ayrılıkları nedeniyle hastanın medikal doktoru ile konsültasyon yapılarak profilaksi değerlendirilmelidir; konsültasyonsuz doğrudan profilaksi uygulanmaması hatalı yaklaşımdır. Çeldiriciler: A) Akut apikal periodontitisin radikal tedavisi kök kanal tedavisidir. B) Heparin etkisinin geçmesi ve kanama riskinin azalması için tedavinin diyalizden sonraki gün (diyalize girilmeyen gün) yapılması doğrudur. D) NSAİİ grubu ilaçlar ağır nefrotoksik oldukları için reçete edilmemesi doğrudur. E) Postoperatif ağrı kontrolünde NSAİİ yerine doz ayarıyla parasetamol tercih edilmesi klinik yaklaşıma uygundur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 1 - GİRİŞ"
+  },
+  {
+    "question": "İleri evre böbrek yetmezliği olan bir hastada aşağıdakilerden hangisinin tedavisi için profilaksi gerekebilir?",
+    "options": {
+      "A": "Selülitle seyreden phoenix absesi",
+      "B": "Kronik apikal abse",
+      "C": "Akut pulpitis",
+      "D": "Akut apikal periodontitis",
+      "E": "Hiperplastik pulpitis"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Güncel Amerikan Kalp Birliği (AHA) ve ilgili klinik rehberlere göre, ileri evre böbrek yetmezliği olan hastalarda apse drenajı veya cerrahi insizyon gerektiren invaziv işlemler yapılmadıkça rutin endodontik işlemlerde profilaksi gerekmemektedir. Ancak \"selülitle seyreden phoenix apsesi\"nde enfeksiyon fasiyal boşluklara yayılmıştır ve cerrahi insizyon/drenaj yapılması zorunludur; bu invaziv cerrahi müdahale ve ciddi bakteriyemi riski nedeniyle antibiyotik profilaksisi/tedavisi gerekir. Çeldiriciler: B) Kronik apikal apse kanal tedavisi ile tedavi edilir, cerrahi insizyon gerektirmez. C) Akut pulpitis vital pulpa hastalığıdır, cerrahi drenaj gerekmez. D) Akut apikal periodontitiste şişlik ve cerrahi insizyon ihtiyacı yoktur. E) Hiperplastik pulpitis (pulpa polibi) vital bir tablodur, cerrahi apse drenajı içermez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 1 - GİRİŞ"
+  },
+  {
+    "question": "Kliniğe başvuran 6 aylık hamile hastaya artikain anestezisi yapılıyor. Hasta koltukta yatar pozisyona getiriliyor ve apeks locator kullanılarak ve radyograf alınmadan tedavisi yapılıyor. Bu vakaya yaklaşımla ilgili olarak hangisi yanlıştır?",
+    "options": {
+      "A": "Hastanın pozisyonu",
+      "B": "Hastanın 6. aylık hamile olması",
+      "C": "Kullanılan anestezik",
+      "D": "Apeks locator kullanılması",
+      "E": "Radyograf alınmaması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İkinci ve üçüncü trimesterdeki (6 aylık) hamile bir hastanın dental koltukta tam \"yatar (supin) pozisyona\" getirilmesi yanlıştır. Supin pozisyonda büyümüş uterus, vena cava inferior'a baskı yaparak kalbin sağ kulakçığına venöz dönüşü engeller; bunun sonucunda hipotansiyon, bradikardi, senkop ve fetal hipoksi ile karakterize \"supin hipotansif sendrom\" gelişir. Hastanın sağ kalçası altına 10-12 cm'lik bir yastık konularak hafif sola dönük yarı oturur pozisyon verilmelidir. Çeldiriciler: B) Hastanın 6 aylık hamile olması (2. trimesterin sonu) dental tedavilerin güvenle yapılabileceği dönemdir. C) Artikain (veya lidokain, prilokain) gebelikte güvenle kullanılabilen lokal anesteziklerdendir. D) Elektronik apeks bulucu (apeks locator) kullanımı fetüse zarar vermez ve radyografi ihtiyacını azalttığı için çok güvenli bir alternatiftir. E) Apeks bulucu ile çalışma boyu tespit edilerek gereksiz radyograf alınmaması gebelikte radyasyon maruziyetini önlemek açısından doğru bir yaklaşımdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 1 - GİRİŞ"
+  },
+  {
+    "question": "Akut pulpitis şikayetiyle acil kliniğine başvuran ve şiddetli ağrısı olan 6 aylık gebe hastaya uygulanacak olan acil dental tedavide hipotansif sendrom gelişmemesi için özellikle dikkat edilmesi gereken durum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hastanın pozisyonu",
+      "B": "Hastanın 6. aylık hamile olması",
+      "C": "Kullanılan anestezik",
+      "D": "Apeks locator kullanılması",
+      "E": "Radyograf alınmaması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Gebeliğin ilerleyen aylarında (6. ay ve sonrası) fetüs ve uterusun ağırlığı arttığı için hasta koltukta düz sırtüstü (supin) yatırıldığında vena cava inferior sıkışır ve \"supin hipotansif sendrom\" gelişir. Bunu önlemek için dikkat edilmesi gereken en kritik unsur \"hastanın pozisyonu\"dur; hasta sağ kalçası desteklenerek hafif sol yan pozisyonda (sol lateral dekübit eğimli) tedavi edilmelidir. Çeldiriciler: B) Gebelik ayı değiştirebilen bir klinik uygulama parametresi değildir. C) Lokal anestezik seçimi hipotansif sendromun mekanik vena cava basısıyla doğrudan ilişkili değildir. D) Apeks locator kullanımı çalışma boyu tespiti içindir, pozisyonel hipotansiyonla ilgisi yoktur. E) Radyograf alınmaması radyasyon güvenliğiyle ilgilidir, vena cava basısını etkilemez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 1 - GİRİŞ"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisinin hamile hastalarda kullanımı uygun değildir?",
+    "options": {
+      "A": "Lidocain",
+      "B": "Asiklovir",
+      "C": "Prednizon",
+      "D": "Nistatin",
+      "E": "Minosiklin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Minosiklin, tetrasiklin grubu bir antibiyotik olup FDA gebelik sınıflamasında \"D kategorisinde\" yer alır. Plasentayı geçerek fetüsün gelişmekte olan kemik ve dişlerinde kalsiyuma bağlanır; kemik büyümesini baskılar, mine hipoplazisine ve dişlerde kalıcı sarı-gri-kahverengi içsel renklenmeye (teratojenik etkiye) yol açtığı için hamilelerde kullanımı kesinlikle kontrendikedir. Çeldiriciler: A) Lidokain (prilokain ve etidokain ile birlikte) FDA B kategorisindedir ve gebelikte en güvenli lokal anesteziktir. B) Asiklovir, gebelikte viral enfeksiyonlarda güvenle kullanılabilen antiviral ajandır. C) Prednizon, gerektiğinde hamilelik ve emzirmede kullanılabilen kortikosteroiddir. D) Nistatin (ve flukonazol), gebelikte oral kandidiyazis tedavisinde kullanılabilen antifungal ilaçlardır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 1 - GİRİŞ"
+  },
+  {
+    "question": "Enfektif endokardit öyküsü olan ve kanal tedavisi planlanan erişkin bir hastada antibiyotik profilaksisi için aşağıdaki doz/zaman önerilerinden hangisi uygun değildir?",
+    "options": {
+      "A": "2000 mg Amoksisilin oral yoldan, işlemden 1 saat önce",
+      "B": "2000 mg Ampisilin İM veya İV, işlemden 30 dakika önce",
+      "C": "600 mg Klindamisin oral yoldan, işlemden 1 saat önce",
+      "D": "2000 mg Azitromisin oral yoldan, işlemden 1 saat önce",
+      "E": "2000 mg Sefaleksin oral yoldan, işlemden 1 saat önce"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Enfektif endokardit profilaksisi rehberlerine göre, penisilin alerjisi olan erişkin hastalarda makrolid grubu olan Azitromisin veya Klaritromisin kullanılacağı zaman önerilen standart tek doz 2000 mg değil, işlemden 1 saat önce oral yoldan \"500 mg\"dır. Çeldiriciler: A) Standart profilaksi rejimi erişkinlerde işlemden 1 saat önce oral yoldan 2 g (2000 mg) Amoksisilindir. B) Oral ilaç alamayan hastalarda işlemden 30 dakika önce İM veya İV yoldan 2 g (2000 mg) Ampisilin (veya 1 g Sefazolin/Seftriakson) uygulanır. C) Penisilin alerjisinde Klindamisin dozu işlemden 1 saat önce oral 600 mg'dır (Ancak 2021 AHA güncellemesiyle C. difficile koliti riski nedeniyle klindamisin profilaksi listesinden çıkarılmıştır; soru 2020 yılına ait olduğundan doz üzerinden sorgulanmıştır). E) Anafilaksi/anjiyoödem tipi olmayan penisilin alerjisinde işlemden 1 saat önce oral 2 g (2000 mg) Sefaleksin kullanımı uygundur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 1 - GİRİŞ",
+    "flag_reason": "2020 DUS Orijinal"
+  },
+  {
+    "question": "Enfektif endokardit riski olan durumlarda kanal tedavisi öncesi önerilen antibiyotik profilaksi rejimine göre, aşağıda verilen antibiyotik ve doz/zaman önerisi eşleşmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Amoksisilin: 2000 mg, oral, işlemden 1 sa önce",
+      "B": "Ampisilin: 2000 mg, İM veya İV, işlemden 30 dk önce",
+      "C": "Klindamisin: 600 mg, oral, işlemden 1 saat önce",
+      "D": "Azitromisin: 2000 mg, oral, işlemden 1 saat önce",
+      "E": "Sefaleksin: 2000 mg, oral, işlemden 1 saat önce"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Penisilin alerjisi olan erişkinlerde enfektif endokardit profilaksisi için kullanılan Azitromisin (veya Klaritromisin) dozu işlemden 1 saat önce oral yoldan 2000 mg değil, \"500 mg\" olmalıdır. Çeldiriciler: A) Standart oral profilakside Amoksisilin 2000 mg (2 g) işlemden 1 saat önce verilir. B) Parenteral profilakside Ampisilin 2000 mg (2 g) İM veya İV olarak işlemden 30 dakika önce uygulanır. C) Klindamisinin klasik profilaksi tablosundaki erişkin dozu işlemden 1 saat önce 600 mg'dır. E) Birinci kuşak sefalosporin olan Sefaleksin, penisilin alerjisinde (anafilaksi öyküsü yoksa) işlemden 1 saat önce 2000 mg (2 g) oral olarak verilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 1 - GİRİŞ"
+  },
+  {
+    "question": "I. Kalp kapağı transplantasyonu\nII. Geçirilmiş enfektif endokardit hikayesi\nIII. Romatizmal kalp hastalıkları\nYukarıda verilen hastalıklardan hangisinde kanal tedavisi öncesi antibiyotik profilaksisi önerilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Güncel Amerikan Kalp Birliği (AHA) rehberlerine göre antibiyotik profilaksisi yalnızca enfektif endokardit geliştiğinde en yüksek kötü prognoz riski taşıyan kardiyak durumlarda önerilmektedir. Öncüllerin Analizi: I. Yapay (prostetik) kalp kapağı taşıyanlar veya kalp transplantasyonu sonrası kapak patolojisi gelişen hastalar yüksek risk grubundadır ve profilaksi önerilir (Doğru). II. Daha önce geçirilmiş enfektif endokardit hikayesi olan hastalar yüksek nüks riski nedeniyle kesin profilaksi endikasyonu taşır (Doğru). III. Romatizmal kalp hastalıkları, mitral kapak prolapsusu, biküspid kapak ve kalsifiye aort stenozu gibi durumlar orta/düşük risk grubuna alınmış olup artık antibiyotik profilaksisi önerilmemektedir (Yanlış). Çeldiriciler: A) II. öncülde de profilaksi önerilir. B) I. öncülde de profilaksi önerilir. C) Romatizmal kalp hastalığında artık profilaksi önerilmez. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 1 - GİRİŞ"
+  }
+]

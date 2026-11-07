@@ -1,0 +1,593 @@
+[
+  {
+    "question": "Kökün apikal bölgesini gösteren bir şemada; kökün morfolojik en uç tepe noktası (I), kök kanalının kök yüzeyine açıldığı majör apikal foramen noktası (II) ve sement-dentin bileşimindeki en dar kanal bölgesi (III) ile işaretlenmiş alanlar aşağıdakilerin hangisinde sırasıyla verilmiştir?",
+    "options": {
+      "A": "Radyografik apeks – Anatomik apeks – Endodontik apeks",
+      "B": "Radyografik apeks – Endodontik apeks – Anatomik apeks",
+      "C": "Anatomik apeks – Kanalın radyografik sonlanımı – Endodontik apeks",
+      "D": "Anatomik apeks – Endodontik apeks – Kanalın radyografik sonlanımı",
+      "E": "Endodontik apeks – Anatomik apeks – Radyografik apeks"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kökün apikal anatomisinde üç kritik referans noktası bulunur: Kökün morfolojik olarak en uç tepe noktası olan I numaralı bölge \"anatomik apeks\"tir (radyografideki izdüşümüne radyografik apeks denir). Kök kanalının kök dış yüzeyine açıldığı majör apikal foramen noktası olan II numaralı bölge \"kanalın radyografik/radyolojik sonlanımı (radiologic terminus of the canal)\"dır. Sement-dentin bileşimi yakınında yer alan, kanalın en dar yeri olan (minör apikal çap / apikal konstrüksiyon) ve kök kanal tedavisinin sonlandırılması gereken III numaralı bölge ise \"endodontik apeks\"tir. Çeldiriciler: A) I numaralı en uç nokta anatomik apekstir, II numaralı nokta ise majör foramendir. B) II ve III numaralı bölgelerin tanımları yanlıştır. D) II ve III numaralı bölgelerin sırası ters verilmiştir. E) I numaralı en uç nokta endodontik apeks değil, anatomik apekstir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Kökün apikal bölgesini gösteren bir şemada; kökün en uç tepe noktası (I), majör apikal foramen (II) ve minör apikal daralım (III) olarak işaretlendiğine göre; kanalın radyografik sonlanımı, anatomik apeks ve endodontik apeks sırası ile aşağıdakilerden hangisi ile örtüşmektedir?",
+    "options": {
+      "A": "I, II, III",
+      "B": "I, III, II",
+      "C": "II, I, III",
+      "D": "II, III, I",
+      "E": "III, II, I"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İstenen sıralamaya göre; \"kanalın radyografik sonlanımı\" majör apikal foramene karşılık gelen II numaralı bölgeyi, \"anatomik apeks\" kökün morfolojik en uç noktası olan I numaralı bölgeyi, \"endodontik apeks\" ise kanal preparasyon ve dolgusunun bitirildiği en dar kısım olan minör apikal çapı yani III numaralı bölgeyi ifade eder. Öncüllerin Analizi: II. Kanalın radyografik sonlanımı (1. sırada). I. Anatomik apeks (2. sırada). III. Endodontik apeks (3. sırada). Çeldiriciler: A) I numaralı nokta anatomik apekstir, ilk sırada II yer almalıdır. B) Sıralama tamamen hatalıdır. D) Anatomik apeks (I) ikinci sırada yer almalıdır. E) İlk sırada III değil II yer almalıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "En geniş major apikal foramen aşağıdakilerden hangisinde görülür?",
+    "options": {
+      "A": "Mandibuler moların distal kökü",
+      "B": "Maksiller moların palatinal kökü",
+      "C": "Maksiller santral",
+      "D": "Maksiller premolar",
+      "E": "Mandibuler premolar"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İnsan daimi dişlerinde majör apikal foramenin çapı dişten dişe ve kökten köke farklılık gösterir; yapılan anatomik ölçümlerde ortalama olarak \"en geniş majör apikal foramen\" mandibular molar dişlerin distal kökünde (ve hemen ardından maksiller molarların palatinal kökünde) görülürken, en dar majör apikal foramen ise maksiller premolar dişlerde izlenir. Çeldiriciler: B) Maksiller moların palatinal kökü oldukça geniş bir foramene sahip olsa da mandibular moların distal kökünden sonra gelir. C) Maksiller santral dişin apikal forameni geniş olmakla birlikte mandibular molar distal kökü kadar büyük değildir. D) Maksiller premolarlar en geniş değil, tam aksine \"en dar\" majör apikal foramene sahip dişlerdir. E) Mandibuler premolarların apikal forameni orta büyüklüktedir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Vertucci sınıflamasına göre daimi dişlerde kaç çeşit kök kanal konfigürasyonuna rastlanabilir?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kök kanal anatomisinin sınıflandırılmasında en yaygın kullanılan sistem olan \"Vertucci sınıflaması\", pulpa odasından başlayan kanal sayısına, kök içerisindeki ayrılma/birleşme paternlerine ve apikal foramenden çıkan kanal sayısına göre kök kanal konfigürasyonlarını Tip I'den Tip VIII'e kadar toplam \"8 (sekiz)\" ayrı tipte sınıflandırır. Çeldiriciler: A) 5 tip, Vertucci'den daha dar kapsamlı eski sınıflamalara aittir. B) 6 tip eksiktir. C) 7 tip eksiktir. E) 9 tip Vertucci'nin orijinal sınıflamasında yer almaz (sonradan Sert ve Bayırlı gibi araştırmacılar tarafından ek tipler tanımlanmıştır).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Tek kök içinde birbirinden bağımsız üç kanal varlığını temsil eden kök kanal konfigürasyonu, Vertucci sınıflamasına göre kaçıncı tiptir?",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "7",
+      "D": "8",
+      "E": "9"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Vertucci sınıflamasında pulpa odası tabanından üç ayrı kanal ağzı (orifis) ile başlayıp kök boyunca birbirinden bağımsız üç ayrı kanal halinde ilerleyen ve apekste üç ayrı apikal foramen ile sonlanan (3-3) kök kanal konfigürasyonu \"Tip VIII (8. tip)\" olarak tanımlanır. Çeldiriciler: A) Tip V (5. tip), pulpa odasından tek başlayan kanalın apekse yakın ikiye ayrıldığı (1-2) tiptir. B) Tip VI (6. tip), pulpa odasından iki ayrı kanal olarak başlayıp kök ortasında birleşen ve apekste tekrar ikiye ayrılan (2-1-2) tiptir. C) Tip VII (7. tip), tek başlayıp ikiye ayrılan, tekrar birleşip apekste yeniden ikiye ayrılan (1-2-1-2) tiptir. E) Orijinal Vertucci sınıflamasında 9. tip bulunmamaktadır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Vertucci'ye göre aşağıda verilen kanal tiplerinden hangileri tamamen iki apeks ile sonlanır?",
+    "options": {
+      "A": "I, II, III",
+      "B": "III, IV, V",
+      "C": "IV, V, VI",
+      "D": "V, VI, VII, VIII",
+      "E": "VI, VII, VIII"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Vertucci sınıflamasındaki 8 tip, apikal foramende sonlanan kanal sayısına göre üç gruba ayrılır: İlk üç tip (Tip I, II, III) tek apikal foramenle, sonraki dört tip (Tip IV, V, VI, VII) iki ayrı apikal foramenle ve sonuncu tip (Tip VIII) üç ayrı apikal foramenle sonlanır. Dolayısıyla şıklar arasında tamamen iki apeks (iki apikal foramen) ile sonlanan grup \"IV, V, VI\"dır. Çeldiriciler: A) Tip I (1), Tip II (2-1) ve Tip III (1-2-1) apekste birleşerek tamamen \"tek\" apikal foramen ile sonlanır. B) Tip III (1-2-1) apekste tek foramenle sonlandığı için yanlıştır. D) Tip VIII apekste iki değil, \"üç\" ayrı apikal foramen ile sonlanır. E) Tip VIII üç apeks ile sonlandığı için yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Pulpa odasından iki ayrı kanal ağzı ile başlayıp kök boyunca hiç birleşmeden ilerleyen ve apekste iki ayrı apikal foramen ile sonlanan (2-2) maksiller 1. premolar dişin kök kanal sisteminin Vertucci sınıflamasına göre tipi nedir?",
+    "options": {
+      "A": "Tip II",
+      "B": "Tip III",
+      "C": "Tip IV",
+      "D": "Tip V",
+      "E": "Tip VI"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Pulpa odası tabanından birbirinden bağımsız iki ayrı kanal girişi (orifis) ile başlayan, kök boyunca birbirleriyle hiçbir iletişim kurmadan iki ayrı kanal olarak devam eden ve apekste iki ayrı apikal foramen ile sonlanan (2-2) kanal konfigürasyonu Vertucci sınıflamasına göre \"Tip IV\"tür. Çeldiriciler: A) Tip II (2-1), iki ayrı kanal olarak başlayıp apikalde birleşerek tek foramenle sonlanan tiptir. B) Tip III (1-2-1), tek kanal olarak başlayıp kök ortasında ikiye ayrılan ve apikalde tekrar birleşip tek foramenle sonlanan tiptir. D) Tip V (1-2), tek kanal olarak başlayıp apikal üçlüde iki ayrı kanala bölünen tiptir. E) Tip VI (2-1-2), iki kanal olarak başlayıp kök ortasında birleşen ve apikalde tekrar ikiye ayrılan tiptir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Tek kök içerisinde birbirinden bağımsız iki kanal bulunan bir kanal Vertucci'ye göre hangi tip bir kanaldır?",
+    "options": {
+      "A": "Tip II",
+      "B": "Tip III",
+      "C": "Tip IV",
+      "D": "Tip V",
+      "E": "Tip VI"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Tek bir kök içerisinde pulpa odasından apekse kadar birbirinden tamamen bağımsız olarak uzanan iki ayrı kanalın (2-2 konfigürasyonu) bulunduğu kanal tipi Vertucci sınıflamasına göre \"Tip IV\" olarak adlandırılır. Çeldiriciler: A) Tip II'de iki kanal apikalde birleşerek tek kanal olarak (2-1) sonlanır. B) Tip III'te tek kanal ikiye ayrılıp tekrar birleşir (1-2-1). D) Tip V'te kanal tek başlayıp sonradan ikiye ayrılır (1-2). E) Tip VI'da iki kanal kök içinde birleşip tekrar ikiye ayrılır (2-1-2).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Vertucci kanal sınıflamasının tüm çeşitlerinin görülebildiği diş aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Maksiller 1. premolar",
+      "B": "Maksiller 2. premolar",
+      "C": "Mandibuler 1. premolar",
+      "D": "Mandibuler 3. molar",
+      "E": "Maksiller 3. Molar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Vertucci tarafından yapılan klasik anatomik çalışmalarda, Tip I'den Tip VIII'e kadar tanımlanan 8 farklı kök kanal konfigürasyonunun tamamının (hepsinin) tek başına görülebildiği yegâne diş grubu \"maksiller 2. premolar\" dişlerdir. Çeldiriciler: A) Maksiller 1. premolarlarda çoğunlukla iki kök ve Tip IV kanal yapısı baskındır, tüm 8 tip bir arada görülmez. C) Mandibuler 1. premolarlarda çoğunlukla Tip I ve Tip V görülür, 8 tipin tamamına rastlanmaz. D) Mandibuler 3. molarlar atipik varyasyonlar gösterse de Vertucci'nin 8 tipinin tamamını sistematik olarak sergileyen klasik diş değildir. E) Maksiller 3. molarlar füzyone kökler ve düzensiz kanallar içerir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Vertucci sınıflamasına göre aşağıdakilerden hangisi apekste tek bir apikal foramen ile sonlanmaktadır?",
+    "options": {
+      "A": "Tip III",
+      "B": "Tip IV",
+      "C": "Tip V",
+      "D": "Tip VI",
+      "E": "Tip VII"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Vertucci sınıflamasında 1 ve 2 rakamlarının ardışık dizilimiyle ifade edilen tiplerden sadece ilk üçü (Tip I: 1, Tip II: 2-1 ve Tip III: 1-2-1) apekste \"tek bir apikal foramen\" ile sonlanmaktadır. Tip III'te pulpa odasından tek çıkan kanal kök içinde ikiye ayrılır ancak apikalde tekrar birleşerek tek bir foramenle dışarı açılır. Çeldiriciler: B) Tip IV (2-2), apekste iki ayrı apikal foramen ile sonlanır. C) Tip V (1-2), tek başlayıp apekste iki ayrı apikal foramen ile sonlanır. D) Tip VI (2-1-2), iki başlayıp birleşir ve apekste tekrar iki ayrı apikal foramen ile sonlanır. E) Tip VII (1-2-1-2), apekste iki ayrı apikal foramen ile sonlanır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Vertucci sınıflamasına göre aşağıdakilerden hangisi kök kanalında tek bir orifis ile başlamaktadır?",
+    "options": {
+      "A": "Tip II",
+      "B": "Tip III",
+      "C": "Tip IV",
+      "D": "Tip VI",
+      "E": "Tip VIII"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Vertucci sınıflamasında tek sayı olan tipler (Tip I, Tip III, Tip V ve Tip VII) pulpa odası tabanından \"tek bir kanal ağzı (orifis)\" ile başlarken; çift sayı olan tipler (Tip II, Tip IV, Tip VI) iki orifis ile, Tip VIII ise üç orifis ile başlar. Dolayısıyla seçenekler arasında tek bir orifis ile başlayan \"Tip III\"tür (1-2-1). Çeldiriciler: A) Tip II (2-1), pulpa odasından iki ayrı orifis ile başlar. C) Tip IV (2-2), iki ayrı orifis ile başlar. D) Tip VI (2-1-2), iki ayrı orifis ile başlar. E) Tip VIII (3-3), üç ayrı orifis ile başlar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Vertucci sınıflamasına göre üç ve üzeri diğer tüm konfigürasyonların yerleştirildiği kategori aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tip VIII",
+      "B": "Tip VII",
+      "C": "Tip VI",
+      "D": "Tip V",
+      "E": "Tip IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Vertucci sınıflamasında ilk yedi tip yalnızca 1 ve 2 kanal kombinasyonlarını içerirken, pulpa odasından başlayıp apikalden çıkan \"üç ve üzeri\" kanal sayısına sahip olan bütün kök kanal konfigürasyonları \"Tip VIII\" kategorisi altında sınıflandırılır. Çeldiriciler: B) Tip VII, 1-2-1-2 konfigürasyonunu temsil eder. C) Tip VI, 2-1-2 konfigürasyonunu temsil eder. D) Tip V, 1-2 konfigürasyonunu temsil eder. E) Tip IV, 2-2 konfigürasyonunu temsil eder.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kanal girişlerinin lokalizasyonunu kolaylaştırmak için kullanılan yöntemlerden değildir?",
+    "options": {
+      "A": "Pulpa odasındaki renk değişikliklerinin izlenmesi",
+      "B": "Sondlarla pulpa odası tabanının incelenmesi",
+      "C": "Operasyon mikroskobu ve büyütmelerinin kullanılması",
+      "D": "Kavitenin metilen mavisi gibi boyalarla boyanması",
+      "E": "Giriş kavitesinin dar açılması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Endodontik giriş kavitesinin gereğinden \"dar açılması\" görüş alanını ve aydınlatmayı kısıtlar, pulpa odası tavanı uzantılarının geride kalmasına neden olur ve özellikle ilave/kalsifiye kanal ağızlarının lokalizasyonunu kolaylaştırmaz, aksine ciddi şekilde zorlaştırır. Çeldiriciler: A) Pulpa odası tabanı kuron dentinine göre daha koyu (grimsi) renktedir ve gelişimsel koyu oluklar (developmental grooves) doğrudan kanal ağızlarında sonlanır (Renk değişimi ve oluk yasası). B) DG-16 veya JW-17 gibi keskin uçlu endodontik sondlarla pulpa tabanının yoklanması kalsifiye kanal girişlerinin bulunmasını sağlar. C) Operasyon mikroskobu ve looplar yüksek büyütme ve koaksiyel aydınlatma sağlayarak kanal tespitini büyük ölçüde kolaylaştırır. D) Pulpa odası tabanının %1 metilen mavisi ile boyanması, organik dokudan zengin kanal ağızlarını ve isthmusları boyayarak görünür kılar.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, girişi tespit edilemeyen bir kök kanalının girişini lokalize etmek için kullanılan yöntemlerden biri değildir?",
+    "options": {
+      "A": "Keskin sonlanan alev uçlu bir frezle pulpa odası tabanının kontrol edilmesi",
+      "B": "Keskin uçlu bir sond ile kanal ağzının tespit edilmesi",
+      "C": "Pulpa odasının %1 metilen mavisiyle boyanması",
+      "D": "Farklı açılı radyograflar ve konik ışınlı bilgisayarlı tomografi alınması",
+      "E": "Pulpa odasında NaOCl bekletilerek baloncuk oluşturulması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kalsifiye veya girişi bulunamayan kanalları ararken pulpa odası tabanında \"keskin sonlanan alev uçlu bir frez\" kullanılması kesinlikle kontrendikedir; bu işlem doğal anatomik rehber olukları yok eder ve çok yüksek oranda furkasyon veya kök perforasyonuna yol açar. Tabanda aşındırma gerektiğinde ultrasonik uçlar veya uzun şaftlı özel yuvarlak frezler (Mueller, LN frezleri) kontrollü olarak kullanılır. Çeldiriciler: B) DG-16 gibi keskin ve sert uçlu endodontik sondlarla tabanın yoklanması kanal ağızlarına takılarak lokalizasyonu sağlar. C) %1 metilen mavisi organik kalıntıları boyayarak kalsifiye kanal ağızlarını işaretler. D) Açılı radyografiler (SLOB kuralı) ve CBCT aksiyel kesitleri bulunamayan kanalların konumu hakkında kesin bilgi verir. E) Pulpa odasında sodyum hipoklorit (NaOCl) bekletildiğinde, kanal ağzındaki organik doku ile reaksiyona girerek ince oksijen kabarcıkları çıkarır; \"şampanya köpüğü testi\" denilen bu yöntem kanal ağzını doğrudan gösterir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU",
+    "flag_reason": "2017 DUS Orijinal"
+  },
+  {
+    "question": "I. Sodyum hipoklorit\nII. Hidrojen peroksit\nIII. Klorheksidin\nYukarıda verilenlerden hangisi veya hangileri şampanya köpüğü testinde kullanılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Şampanya köpüğü testi (champagne bubble test), kalsifiye kanal ağızlarını lokalize etmek amacıyla pulpa odasına oksidatif bir solüsyon konularak kanal girişindeki rezidüel organik dokuyla temas sonucu yüzeye çıkan gaz kabarcıklarının (köpürmenin) izlenmesi prensibine dayanır. Öncüllerin Analizi: I. Sodyum hipoklorit (NaOCl), güçlü oksidatif ve proteolitik etkisiyle kanal ağzındaki organik dokuyla reaksiyona girerek köpürme yapar ve bu testin ana ajanıdır (Doğru). II. Hidrojen peroksit (H2O2), doku katalazı ve organik kalıntılarla temas ettiğinde serbest oksijen gazı kabarcıkları çıkardığı için bu amaçla kullanılabilir (Doğru). III. Klorheksidin katyonik bir bisguaniddir; oksidatif veya doku çözücü özelliği olmadığı için gaz kabarcığı/köpürme oluşturmaz ve bu testte kullanılamaz (Yanlış). Çeldiriciler: A) II. öncül de oksidatif köpürme yapar. B) I. öncül testin esas ajanıdır. C) Klorheksidin köpürme yapmaz. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "I. Maksiller 2. premolar dişlerin tek kök, iki kanallı olma ihtimali; tek kök, tek kanallı olma ihtimalinden yüksektir.\nII. Mandibular 2. premolar dişler çoğunlukla tek kök, tek kanallıdır.\nIII. Mandibular lateral dişlerin tek kök, iki kanallı olma ihtimali; tek kök, tek kanallı olma ihtimalinden yüksektir.\nKök kanal anatomileri ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kök kanal anatomisinde her diş grubunun en yüksek olasılıkla sergilediği kök ve kanal sayıları klinik başarı için kritik öneme sahiptir. Öncüllerin Analizi: I. Maksiller 1. premolarlar çoğunlukla iki kanallı iken, \"maksiller 2. premolar\" dişlerin tek kök ve \"tek kanallı\" olma ihtimali (%55-60), iki kanallı olma ihtimalinden daha yüksektir (Yanlış). II. Mandibular 2. premolar dişler ezici çoğunlukla (%85-90+) tek kök ve tek kanallı morfolojiye sahiptir (Doğru). III. Mandibular lateral kesici dişlerde ikinci (lingual) kanal bulunma oranı yüksek (%40-45) olsa da, halen tek kök ve \"tek kanallı\" olma ihtimali (%55-60) iki kanallı olma ihtimalinden daha yüksektir (Yanlış). Çeldiriciler: A) I. öncül maksiller 1. premolar için geçerlidir, 2. premolarda tek kanal daha sıktır. C) III. öncülde tek kanal oranı hala %55-60 ile daha yüksektir. D) I. öncül yanlıştır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "I. Maksiller 1. premolar\nII. Maksiller 2. premolar\nIII. Mandibuler 2. premolar\nIV. Mandibuler lateral\nYukarıda verilenlerden hangisinin kök kanal anatomisinde tek kanallı olma ihtimali iki kanallı olma ihtimalinden yüksektir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "III ve IV",
+      "D": "I, II ve III",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Diş gruplarının kanal istatistiklerine bakıldığında, maksiller 1. premolar hariç diğer premolar ve kesici dişlerde tek kanal görülme oranı iki kanal görülme oranından daha yüksektir. Öncüllerin Analizi: I. Maksiller 1. premolar dişlerin yaklaşık %85-90'ı iki kanallıdır; tek kanallı olma ihtimali çok düşüktür (Yanlış). II. Maksiller 2. premolar dişlerin çoğunluğu tek kök ve tek kanallıdır (Doğru). III. Mandibuler 2. premolar dişlerin büyük çoğunluğu tek kök ve tek kanallıdır (Doğru). IV. Mandibuler lateral dişlerde %40-45 oranında iki kanal görülse de %55-60 oranla tek kanallı olma ihtimali daha yüksektir (Doğru). Çeldiriciler: A) I. öncül çoğunlukla iki kanallıdır. B) IV. öncül de doğru olduğu için eksiktir. C) II. öncül de doğru olduğu için eksiktir. D) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "I. Maksiller 1. molar dişlerin neredeyse tamamı 4 kanallıdır.\nII. Maksiller 2. moların 4 kanallı olma ihtimali maksiller 1. molardan daha düşüktür.\nIII. Maksiller 1. molarda meziobukkal kanalın tüberkül ilişkisi yoktur ancak distal kanalın vardır.\nMaksiller molarların kök kanal anatomileri ile ilgili olarak verilenlerden hangisi doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Maksiller molar dişler üç köklü olup meziobukkal kökün geniş bukkolingual yapısı nedeniyle sıklıkla ikinci bir meziobukkal kanal (MB2 / meziopalatinal kanal) barındırırlar. Öncüllerin Analizi: I. Mikroskobik ve anatomik çalışmalarda maksiller 1. molar dişlerin meziobukkal kökünde %90'ın üzerinde MB2 kanalı bulunduğu, dolayısıyla neredeyse tamamının 4 kanallı olduğu bildirilmiştir (Doğru). II. Maksiller 2. molar dişlerde köklerin yaklaşması/füzyonu daha sık olduğundan 4 kanallı olma ihtimali maksiller 1. molara göre daha düşüktür; ayrıca 3, 2 veya tek kanallı varyasyonları da mevcuttur (Doğru). III. Maksiller 1. molarda meziobukkal kanal ağzı doğrudan meziobukkal tüberkül tepesinin altında yer alır (doğrudan tüberkül ilişkisi vardır); distobukkal kanalın ise tüberkül tepesiyle doğrudan ilişkisi yoktur, daha merkeze/palatinale kaymıştır (Yanlış). Çeldiriciler: A) II. öncül de doğrudur. B) I. öncül de doğrudur. C) III. öncülde tüberkül ilişkisi tam tersi verilmiştir. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Aksesuar kanallarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Genellikle geniş kanallardır.",
+      "B": "Tek ve çok köklü dişlerde bulunabilir.",
+      "C": "Kollateral dolaşım kaynağı olarak görev yapma kapasiteleri sınırlıdır.",
+      "D": "Epitelyal kök kınında yer alan bir boşluktan kaynaklanabilir.",
+      "E": "Genellikle periapikal bölgedeki inatçı enfeksiyonlar ile ilişkilendirilir."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Aksesuar kanallar ana kök kanalından periodontal ligamente uzanan mikroskobik yan dallanmalar olup ana kanala kıyasla \"geniş değil, aksine çok küçük (mikroskobik/dar) çaplı\" oluşumlardır. Çeldiriciler: B) Hem tek köklü (kesici, kanin, premolar) hem de çok köklü (molar dişlerin apikal ve furkasyon bölgelerinde) dişlerde bulunabilirler. C) Çapları çok dar olduğu için içlerinden geçen kılcal damarlar pulpayı tek başına besleyip yaşatacak yeterli bir kollateral kan dolaşımı sağlayamaz. D) Odontogenez sırasında Hertwig epitelyal kök kınının (HEKK) zamanından önce kopması veya periodontal kan damarlarının kök kını içine hapsolması sonucunda oluşurlar. E) Mekanik eğelerle ulaşılamadıkları için özellikle apikal üçlüde (apikal deltada) barındırdıkları bakteriler nedeniyle inatçı periapikal enfeksiyonlarla doğrudan ilişkilendirilirler.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU",
+    "flag_reason": "2024 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Lateral kanalların görülme olasılığı aşağıdakilerden hangisinde en fazladır?",
+    "options": {
+      "A": "Maksiller santral",
+      "B": "Maksiller lateral",
+      "C": "Maksiller 2. Premolar",
+      "D": "Mandibular lateral",
+      "E": "Mandibular santral"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kökün orta üçlüsünde ana kanaldan periodontal ligamente dik veya eğik açıyla uzanan aksesuar kanallara \"lateral kanal\" adı verilir. Anatomik çalışmalarda lateral kanalların görülme sıklığı yaklaşık %59.5 gibi çok yüksek bir oranla en fazla \"maksiller 2. premolar\" dişlerde tespit edilmiştir. Çeldiriciler: A) Maksiller santral dişlerde aksesuar kanallar daha çok apikal üçlüde izlenir, sıklığı maksiller 2. premolardan düşüktür. B) Maksiller lateral dişlerde lateral kanal sıklığı maksiller 2. premolar kadar yüksek değildir. D) Mandibular lateral dişlerde lateral kanal görülme oranı daha düşüktür. E) Mandibular santral dişler lateral kanalın en sık görüldüğü diş grubu değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Kökün apikalinde bulunan ve aksesuar kanallar ile ana kanalın oluşturduğu kompleks yapıya verilen isim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Furkasyon kanalı",
+      "B": "Black aralığı",
+      "C": "Apikal delta",
+      "D": "Majör apikal çap",
+      "E": "Minör apikal çap"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kökün apikal üçlüsünde ana kök kanalının birden fazla küçük aksesuar kanala ayrılarak bir nehir deltası gibi dallanmasıyla oluşan çoklu çıkışlı karmaşık anatomik yapıya \"apikal delta\" (apikal ramifikasyon) adı verilir. Çeldiriciler: A) Furkasyon kanalı, çok köklü dişlerde pulpa odası tabanından bifurkasyon veya trifurkasyon bölgesindeki periodontal aralığa açılan aksesuar kanallardır. B) Black aralığı, minör apikal çap (apikal daralım) ile majör apikal foramen arasında kalan huni/lotus çiçeği şeklindeki üçgenimsi bölgedir. D) Majör apikal çap, kök kanalının kök dış yüzeyine açıldığı en geniş apikal foramen açıklığıdır. E) Minör apikal çap (apikal konstrüksiyon), sement-dentin bileşiminde yer alan ve kanalın en dar noktasını oluşturan bölgedir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Daimi maksiller birinci molar dişin oklüzal yüzeyi aşağıdaki şekillerden hangisine benzer?",
+    "options": {
+      "A": "Kare",
+      "B": "Romboid",
+      "C": "Dikdörtgen",
+      "D": "Üçgen",
+      "E": "Oval"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Daimi maksiller birinci molar dişin kuronuna oklüzal yüzeyden bakıldığında; meziobukkal ve distopalatinal açıları dar, meziopalatinal ve distobukkal açıları geniş olan bir paralelkenar yani \"romboid (eşkenar dörtgenimsi)\" şekle benzer. Bu dış kuron morfolojisine ve 4 kanal ağzının (MB1, MB2, DB, P) dizilimine uygun olarak endodontik giriş kavitesi de (özellikle MB2 kanalı dahil edildiğinde) romboid formda açılır. Çeldiriciler: A) Kare şekil maksiller moların açılı oklüzal sınırlarını yansıtmaz. C) Dikdörtgen şekil mandibular birinci molar dişlerin oklüzal yüzeyi ve distalde 2 kanal bulunduğunda açılan giriş kavitesi şeklidir. D) Üçgen şekil maksiller santral/kanin dişlerin veya sadece 3 kanallı düşünülen üst molarların eski klasik giriş formudur, kuronun oklüzal yüzeyi romboiddir. E) Oval şekil premolar dişlerin giriş kavitelerine benzer.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Daimi maksiller birinci molar dişin ideal endodontik giriş kavitesi hangi şekilde açılır?",
+    "options": {
+      "A": "Kare",
+      "B": "Romboid",
+      "C": "Dikdörtgen",
+      "D": "Üçgen",
+      "E": "Oval"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Daimi maksiller birinci molar dişlerin neredeyse tamamında meziobukkal kökte ikinci bir kanal (MB2 / meziopalatinal kanal) yer alır. Meziobukkal, meziopalatinal (MB2), distobukkal ve palatinal olmak üzere dört kanal ağzını da içine alacak şekilde hazırlanan güncel ve ideal endodontik giriş kavitesi şekli, dişin oklüzal dış sınırlarıyla uyumlu olan \"romboid\" (eşkenar dörtgenimsi) formdur. Çeldiriciler: A) Kare form kanal ağızlarının asimetrik dağılımına uymaz. C) Dikdörtgen (veya yamuk) form mandibular molar dişlerin dört kanallı giriş kavitesi formudur. D) Üçgen form yalnızca üç ana kanalı (MB1, DB, P) kapsar; MB2 kanalının bulunabilmesi için kavitenin meziale doğru genişletilerek romboid forma dönüştürülmesi gerekir. E) Oval form premolar dişlerin giriş kavitesi şeklidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "I. Lingual shoulder\nII. İnsizal kenar\nIII. Singulum\nYukarıda verilenlerden hangisi veya hangilerinin anterior dişlerin giriş kavitesi sırasında kaldırılması önerilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Anterior dişlerde endodontik giriş kavitesi açılırken kanal aletlerinin apikale engelsiz, düz bir hatla (straight-line access) ulaşabilmesi ve mevcutsa ikinci (lingual) kanalın bulunabilmesi için singulumun hemen altında kanal ağzını örten dentin çıkıntısı olan \"lingual shoulder\"ın (lingual omuz) mutlaka kaldırılması önerilir. Öncüllerin Analizi: I. Lingual shoulder, anterior dişlerin serviko-lingual kanal girişinde yer alan iç dentin çıkıntısıdır; aletlerin eğilmeden kanala girmesi ve mandibuler keserlerdeki lingual kanalın bulunması için kaldırılması şarttır (Doğru). II. İnsizal kenar kesme fonksiyonunu üstlenen ve estetiği sağlayan ana yapıdır; kaldırılması dişi zayıflatır, kırılmalara ve estetik kayba yol açar, kesinlikle korunmalıdır (Yanlış). III. Singulum anterior dişin servikal lingual direncini sağlayan dış anatomik tümsektir; giriş kavitesi singulumun üzerinden (koronalinden) açılır, singulumun tamamı kaldırılmaz, korunur (Yanlış). Çeldiriciler: B) İnsizal kenar mutlaka korunmalıdır. C) Singulum direnç açısından korunmalıdır. D) II. öncül yanlıştır. E) II ve III. öncüller korunması gereken yapılardır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Diş sürüp antagonisti ile kapanışa geldikten sonra semptomatik apikal lezyon ile karakterize olan ve sıklıkla premolarlarda görülen dental anomali hangisidir?",
+    "options": {
+      "A": "Radix endomolaris",
+      "B": "Taurodontizm",
+      "C": "C şekilli kanal",
+      "D": "Dens evaginatus",
+      "E": "Geminasyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Dens evaginatus, mine organının dışa doğru katlanması sonucu özellikle mandibular (ve maksiller) premolar dişlerin oklüzal yüzeyinde santral olukta ekstra bir tüberkül (tüberkül içine uzanan ince bir pulpa boynuzu ile birlikte) oluşması anomalisidir. Diş sürüp karşıt (antagonist) dişle oklüzal kapanışa geldiğinde oluşan prematür kontak ve çiğneme kuvvetleri bu ince tüberkülün kırılmasına/aşınmasına yol açar; çürük dahi olmadan pulpa boynuzu ağız ortamına açılır, pulpa nekroze olur ve henüz kök ucu açık olan genç dişte akut/semptomatik apikal lezyon gelişir. Çeldiriciler: A) Radix entomolaris alt molarların distolingualinde görülen ekstra bir köktür, oklüzal kapanışla pulpa nekrozu yapmaz. B) Taurodontizm molar dişlerde pulpa odasının apikale doğru genişlemesidir, kuron yüzeyinde oklüzal tüberkül anomalisi içermez. C) C şekilli kanal alt ikinci molarlarda görülen kök kanal birleşim anomalisidir. E) Geminasyon tek bir diş germinden iki kuron gelişmesi teşebbüsü olup genellikle kesici dişlerde görülür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Periapikal radyografide mandibular premolar bir dişin oklüzal yüzeyinden dışarı doğru uzanan ekstra bir tüberkül çıkıntısı, bu çıkıntının içine uzanan ince bir pulpa boynuzu ve kök ucunda geniş periapikal radyolusensi izlendiğine göre, bu dental anomali verilenlerden hangisidir?",
+    "options": {
+      "A": "Taurodontizm",
+      "B": "Dens evaginatus",
+      "C": "C-şeklinde kanal",
+      "D": "Radiks entomolaris",
+      "E": "Geminasyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Premolar bir dişin oklüzal yüzeyinde bukkal ve lingual tüberküller arasında dışarı doğru uzanan ekstra bir tüberkül (evajinasyon) bulunması ve bu tüberkülün oklüzal travmayla aşınıp kırılması sonucu çürüksüz dişte pulpa nekrozu ve periapikal lezyon gelişmesi \"dens evaginatus\" (ön dişlerdeki karşılığı talon tüberkülü) anomalisinin tipik radyografik ve klinik tablosudur. Çeldiriciler: A) Taurodontizmde pulpa odası apiko-oklüzal yönde uzamış ve furkasyon apeks yönüne kaymıştır. C) C-şeklinde kanal kök kanallarının yatay kesitte C harfi gibi birleşmesidir. D) Radiks entomolaris alt molar dişlerde distolingualde yer alan üçüncü (ekstra) köktür. E) Geminasyon kuronun ikiye bölünmeye çalıştığı geniş kuronlu diş anomalisidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Dens invaginatus en sık hangi dişlerde görülür?",
+    "options": {
+      "A": "Maksiller santral",
+      "B": "Maksiller lateral",
+      "C": "Mandibuler keser",
+      "D": "Mandibuler kanin",
+      "E": "Maksiller kanin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dens invaginatus (dens in dente / diş içinde diş), odontogenez sırasında kalsifikasyon tamamlanmadan önce mine organının dental papilla içerisine doğru katlanmasıyla (invajinasyonuyla) oluşan gelişimsel bir anomalidir ve ağızda açık ara en sık \"maksiller lateral kesici\" dişlerde (çoğunlukla singulum/foramen caecum bölgesinden başlayarak) görülür. Çeldiriciler: A) Maksiller santral kesiciler ikinci sıklıkta etkilenen dişlerdir, en sık görülen maksiller lateraldir. C) Mandibuler keserlerde dens invaginatus görülmesi oldukça nadirdir. D) Mandibuler kaninlerde çok nadir görülür. E) Maksiller kaninlerde görülme sıklığı üst laterallere göre çok düşüktür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi pulpal ve periodontal dokular arası bağlantı oluşumuna neden olabilen anatomik bir varyasyondur?",
+    "options": {
+      "A": "Dilaserasyon",
+      "B": "Taurodontizm",
+      "C": "Palatogingival oluk",
+      "D": "Dens in dente",
+      "E": "Dens evaginatus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Palatogingival oluk (radiküler lingual oluk), özellikle maksiller lateral ve santral kesici dişlerin palatinal yüzeyinde singulumdan başlayıp kök yüzeyine (hatta apikale kadar) uzanan gelişimsel bir çöküntüdür. İç mine epiteli ve Hertwig epitelyal kök kınının katlanmasıyla oluşan bu olukta bakteri plağı birikir, ataçman kaybı ve dar-derin bir periodontal cep gelişir; oluk tabanındaki ince dentin ve aksesuar kanallar yoluyla bakteriler pulpaya geçerek gerçek kombine \"endo-perio lezyonlarına\" (pulpal ve periodontal dokular arası patolojik bağlantıya) neden olur. Çeldiriciler: A) Dilaserasyon kuron veya kökteki sert açılanmadır, endo-perio geçiş yolu oluşturmaz. B) Taurodontizm pulpa odasının apikale genişlemesidir, kök dış yüzeyinde periodontal oluk oluşturmaz. D) Dens in dente (dens invaginatus) kuron içinden pulpaya (veya Tip III'te doğrudan periapikale) ulaşan içsel bir invajinasyondur, kök dış yüzeyinde periodontal cep taklidi yapan bir oluk değildir. E) Dens evaginatus oklüzal yüzeydeki ekstra tüberküldür, periodontal dokularla doğrudan bağlantı oluşturmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "35 yaşında erkek hasta maksiller sol santral dişinde renk değişikliği şikayeti ile başvurmuştur. Yapılan muayenesinde asemptomatik olduğu gözlenen dişin palatinalinde apikale kadar uzanan derin bir cep oluşumu izlenmiştir ve ilgili diş vitalite testlerine yanıt vermemiştir. Hastanın dişinde çürük veya eski bir restorasyon olmamakla beraber herhangi bir travma geçmişi olmadığı öğrenilmiştir. Verilen bu vakada aşağıdakilerden hangisi mevcut durumun sebebi olabilir?",
+    "options": {
+      "A": "Dilaserasyon",
+      "B": "Taurodontizm",
+      "C": "Palatogingival oluk",
+      "D": "Dens in dente",
+      "E": "Dens evaginatus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Çürüksüz ve travma öyküsü olmayan bir maksiller kesici dişte, palatinal yüzeyde apikale kadar uzanan izole derin periodontal cep varlığı ve bu cepteki bakterilerin aksesuar kanallar/dentin tübülleri yoluyla pulpayı enfekte edip nekroza (devitalite ve renk değişikliğine) uğratması \"palatogingival oluk\" anomalisinin klasik klinik tablosudur. Çeldiriciler: A) Dilaserasyon kök eğriliğidir, palatinalde derin periodontal cep ve pulpa nekrozu yapmaz. B) Taurodontizm molar dişlerde görülür, kesici dişte cep oluşturmaz. D) Dens in dente kuronal singulumdaki bir pit içinden başlar, kökün dış palatinal yüzeyinde boydan boya uzanan periodontal bir cep/oluk değildir. E) Dens evaginatus oklüzal/palatinal tüberkül çıkıntısıdır, kök boyunca uzanan derin periodontal cep oluşturmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "I. Derin periodontal cepler\nII. Vitalite testine pozitif cevap\nIII. Yetersiz kanal tedavisi\nAşağıda verilenlerden hangisi veya hangilerinin gerçek kombine endo-perio lezyonu olan vakalarında görülmesi beklenebilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Gerçek kombine endodontik-periodontal lezyonlar; pulpa kaynaklı apikal bir lezyon ile marjinalden başlayan bağımsız bir periodontal yıkımın kök yüzeyi boyunca ilerleyerek birleşmesi sonucunda oluşur. Öncüllerin Analizi: I. Periodontal hastalık komponenti nedeniyle kök yüzeyi boyunca apikale uzanan \"derin periodontal cepler\" görülmesi beklenir (Doğru). II. Gerçek kombine endo-perio lezyonunun oluşabilmesi için endodontik komponentin bulunması yani pulpanın mutlaka nekrotik (devital) olması veya dişin daha önce kanal tedavisi görmüş olması şarttır; bu nedenle vitalite testine pozitif cevap alınması beklenmez (Yanlış). III. Mevcut \"yetersiz bir kök kanal tedavisi\" endodontik enfeksiyonun devam etmesine ve periodontal lezyonla birleşerek gerçek kombine endo-perio lezyonu oluşmasına zemin hazırlar (Doğru). Çeldiriciler: A) III. öncül de görülür. B) Gerçek kombine lezyonda diş devitaldir. C) II. öncül yanlıştır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Dens invaginatus anomalisinin en sık gözlendiği diş aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Alt santral kesici diş",
+      "B": "Alt lateral kesici diş",
+      "C": "Üst santral kesici diş",
+      "D": "Üst lateral kesici diş",
+      "E": "Üst kanin diş"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Dens invaginatus (dens in dente), diş gelişimi esnasında mine organının dental papilla içine doğru katlanmasıyla oluşan gelişimsel bir anomali olup klinik ve radyografik olarak en sık \"üst (maksiller) lateral kesici diş\"lerde gözlenir. Çeldiriciler: A) Alt santral kesici dişlerde görülmesi çok nadirdir. B) Alt lateral kesici dişlerde çok nadir görülür. C) Üst santral kesici dişler üst laterallerden sonra ikinci sırada yer alır. E) Üst kanin dişlerde görülme sıklığı oldukça düşüktür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Gelişimsel dönemde mine organının dental papil içine invajinasyonu nedeniyle oluşan gelişimsel anomali en sık hangi dişlere görülür?",
+    "options": {
+      "A": "Alt santral kesici diş",
+      "B": "Alt lateral kesici diş",
+      "C": "Üst santral kesici diş",
+      "D": "Üst lateral kesici diş",
+      "E": "Üst kanin diş"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Odontogenez sırasında mine organının dental papilla içerisine doğru invajinasyonu (katlanması) sonucu oluşan anomali \"dens invaginatus (dens in dente)\" olarak adlandırılır ve en sık \"üst (maksiller) lateral kesici diş\"lerde görülür. Çeldiriciler: A) Alt santrallerde oldukça nadirdir. B) Alt laterallerde oldukça nadirdir. C) Üst santraller görülme sıklığında üst laterallerin gerisindedir. E) Üst kaninlerde nadir rastlanır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Mine kaplı invajinasyonun mine-sement birleşimini (servikal çizgiyi) aşarak kök içerisine doğru kör bir kese şeklinde uzandığı, pulpa ile ilişkili olabildiği ancak periodontal ligamente veya apikale açılmadığı dens invaginatus tablosu Oehlers sınıflamasına göre hangi tiptir?",
+    "options": {
+      "A": "Tip I",
+      "B": "Tip II",
+      "C": "Tip III",
+      "D": "Tip IV",
+      "E": "Tip V"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Oehlers sınıflamasına göre dens invaginatus, invajinasyonun kurondan apikale doğru uzanım derinliğine göre üç tipte sınıflandırılır. Mine kaplı invajinasyonun servikal çizgiyi (mine-sement birleşimini) geçerek kök içerisine doğru kör bir kese halinde uzandığı, pulpa odasına temas edebildiği fakat periodontal ligamentle yan veya apikal bir bağlantı kurmadığı form \"Oehlers Tip II\"dir. Çeldiriciler: A) Tip I, mine kaplı invajinasyonun yalnızca kuron içinde sınırlı kaldığı ve mine-sement birleşimini (servikal çizgiyi) geçmediği en hafif formdur. C) Tip III, invajinasyonun kök boyunca ilerleyerek pulpayla ilişki kurmadan ikinci bir foramen halinde periodontal ligamente (Tip IIIa: lateralden, Tip IIIb: apikalden) açıldığı en ağır formdur. D) Oehlers sınıflamasında Tip IV bulunmamaktadır. E) Oehlers sınıflamasında Tip V bulunmamaktadır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Radiks entomolaris ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Çok köklü dişlerde pulpa odasının apiko-oklüzal yönde genişlemesiyle karakterizedir.",
+      "B": "Oklüzal yüzde bukkal ve lingual kasp tepesi arasında bulunan ekstra bir kasptır.",
+      "C": "Alt 1. molar dişlerin disto-lingualinde görülebilen ilave kök formasyonuyla karakterizedir.",
+      "D": "Köklerin füzyonu sonucu oluşan kanal formasyonudur.",
+      "E": "Gelişim esnasında dental papillanın invajinasyonu sonucu oluşan şekil bozukluğudur."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Normalde iki köklü (mezial ve distal) olan mandibular molar dişlerde (özellikle alt 1. molarda) üçüncü bir ilave (fazladan) kök bulunabilir. Bu ilave kök eğer \"disto-lingual\" konumda yer alıyorsa \"radiks entomolaris\", mezio-bukkal konumda yer alıyorsa \"radiks paramolaris\" olarak adlandırılır. Çeldiriciler: A) Çok köklü dişlerde pulpa odasının apiko-oklüzal yönde genişlemesi ve furkasyonun apikale kayması \"taurodontizm\"in tanımıdır. B) Oklüzal yüzde bukkal ve lingual kasplar arasında bulunan ekstra kasp \"dens evaginatus\"un tanımıdır. D) Köklerin birleşmesi (füzyonu) ve epitelyal kök kınının birleşmemesi sonucu oluşan yapı \"C şekilli kanal\" veya füzyondur. E) Mine organı/dental papillanın invajinasyonu sonucu oluşan anomali \"dens invaginatus (dens in dente)\"dir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Alt 1. molar dişe kanal tedavisi yapan hekim disto-lingualde ilave bir kök olduğunu farketmiştir. Bu duruma verilen ad aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Taurodontizm",
+      "B": "Dens evaginatus",
+      "C": "Radiks entomolaris",
+      "D": "Füzyon",
+      "E": "Dens invaginatus"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Mandibular 1. molar dişlerin disto-lingual bölgesinde konumlanan ekstra (üçüncü) köke \"radiks entomolaris\" adı verilir (meziobukkalde yer alırsa radiks paramolaris denir). Çeldiriciler: A) Taurodontizm pulpa odasının apikale doğru genişlemesi ve köklerin kısalmasıdır. B) Dens evaginatus oklüzal yüzeyde ekstra tüberkül bulunmasıdır. D) Füzyon iki ayrı diş germinin dentin düzeyinde birleşerek tek bir büyük diş oluşturmasıdır. E) Dens invaginatus mine organının içeriye katlanmasıyla oluşan diş içinde diş anomalisidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi prematür kontaklara sebep olarak kronik okluzal travmaya yol açar?",
+    "options": {
+      "A": "Taurodontizm",
+      "B": "Dens evaginatus",
+      "C": "Radiks entomolaris",
+      "D": "Füzyon",
+      "E": "Dens invaginatus"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dens evaginatus, özellikle alt premolarların oklüzal yüzeyinde santral fossada yer alan ekstra bir tüberkül çıkıntısıdır. Diş sürdüğünde bu ekstra tüberkül karşıt dişle erken temasa (prematür kontağa) girerek kronik oklüzal travmaya, tüberkülün kırılmasına ve çürüksüz dişte pulpa nekrozuna yol açar. Çeldiriciler: A) Taurodontizm kök ve pulpa odası iç morfolojisiyle ilgilidir, oklüzal yüzeyde prematür kontak oluşturmaz. C) Radiks entomolaris alt molarların distolingualindeki ekstra köktür, oklüzyonu etkilemez. D) Füzyon iki diş germinin birleşmesidir, oklüzal tüberkül çıkıntısı anomalisi değildir. E) Dens invaginatus kuron içindeki içe katlanmadır, dışarıya doğru prematür kontak yapan bir çıkıntı oluşturmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Taurodontizm ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Alt 1. molar dişlerde görülen ilave bir distal köktür.",
+      "B": "Çok köklü dişlerde pulpa odasının apiko-oklüzal yönde genişlemesiyle karakterizedir.",
+      "C": "Köklerin füzyonu sonucu oluşan kanal formasyonudur.",
+      "D": "Gelişim esnasında dental papillanın invajinasyonu sonucu oluşur.",
+      "E": "Oklüzal yüzeyde bukkal ve lingual kasplar arasında bulunan ilave bir kasptır."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Taurodontizm (boğa dişi), Hertwig epitelyal kök kınının yatay yönde içeri katlanmasının gecikmesi veya başarısız olması sonucunda çok köklü (molar) dişlerde furkasyon bölgesinin apikale doğru yer değiştirmesi, köklerin kısalması, servikal daralımın kaybolması ve \"pulpa odasının apiko-oklüzal yönde aşırı genişlemesi/uzaması\" ile karakterize dental anomalidir. Çeldiriciler: A) Alt 1. molar dişlerde distolingualde görülen ilave kök \"radiks entomolaris\"tir. C) Köklerin füzyonu ve epitelyal kök kını anomalisiyle oluşan kanal yapısı \"C şekilli kanal\"dır. D) Gelişim esnasında mine organının dental papillaya invajinasyonu sonucu oluşan yapı \"dens invaginatus\"tur. E) Oklüzal yüzeyde kasplar arasında bulunan ilave kasp \"dens evaginatus\"tur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "I. Pulpa odasının hacmi apikookluzal olarak artmıştır.\nII. En sık molar dişlerde gözlenir.\nIII. Endodontik tedavi sonrası köprü ayağı olarak kullanılması önerilmez.\nIV. Pulpanın etkin şekilde uzaklaştırılması için ultrasonik irrigasyon avantajlıdır.\nYukarıda verilen özellikler hangi dental anomaliye aittir?",
+    "options": {
+      "A": "Radix entomolaris",
+      "B": "Taurodontizm",
+      "C": "Füzyon",
+      "D": "Dens invajinatus",
+      "E": "Dens evajinatus"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Verilen tüm klinik, anatomik ve protetik özellikler \"taurodontizm\" anomalisini tanımlamaktadır. Öncüllerin Analizi: I. Furkasyonun apikale kayması nedeniyle pulpa odasının hacmi ve yüksekliği apiko-oklüzal yönde belirgin şekilde artmıştır (Doğru). II. Çok köklü dişlerin furkasyon anomalisi olduğu için en sık molar dişlerde gözlenir (Doğru). III. Kök boyları çok kısa ve kök yüzey alanı az olduğu için periodontal ankrajları zayıftır; ayrıca furkasyon çok derinde olduğundan post yerleştirilmesi önerilmez ve köprü ayağı (abutment) olarak kullanılması uygun değildir (Doğru). IV. Çok derin ve hacimli olan pulpa odasındaki hacimli pulpa dokusunun tamamen çözülüp uzaklaştırılabilmesi için bol NaOCl ve ultrasonik irrigasyon aktivasyonu büyük avantaj sağlar (Doğru). Çeldiriciler: A) Radix entomolaris alt molardaki ekstra distolingual köktür. C) Füzyon iki diş germinin birleşmesidir. D) Dens invajinatus mine organının içe katlanmasıdır. E) Dens evajinatus oklüzal yüzeydeki ekstra tüberküldür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Aşağıdaki dişlerden hangisinde taurodontizm görülme olasılığı diğerlerine göre daha fazladır?",
+    "options": {
+      "A": "Üst santral diş",
+      "B": "Alt lateral diş",
+      "C": "Üst kanin diş",
+      "D": "Alt 2.premolar diş",
+      "E": "Alt 1.molar diş"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Taurodontizm, pulpa odasının apikale doğru uzayarak furkasyon seviyesinin kök ucuna yaklaşması anomalisi olup en sık çok köklü olan \"molar dişlerde\" (seçenekler arasındaki tek molar diş olan alt 1. molar dişte) görülür. Çeldiriciler: A) Üst santral diş tek köklüdür, furkasyon içermez. B) Alt lateral diş tek köklüdür. C) Üst kanin diş tek köklüdür. D) Alt 2. premolar diş genellikle tek köklüdür; taurodontizm esas olarak molar dişlerin anomalisidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "C şekilli kanal morfolojisi aşağıdaki diş gruplarının hangisinde daha sıklıkla gözlenir?",
+    "options": {
+      "A": "Üst premolar",
+      "B": "Alt premolar",
+      "C": "Üst molar",
+      "D": "Alt molar",
+      "E": "Alt kesici"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): C şekilli (C-shaped) kök kanal konfigürasyonu, Hertwig epitelyal kök kınının bukkal veya lingual yüzeyde birleşememesi ve köklerin konik/füzyone kalması sonucunda oluşur; klinik olarak açık ara en sık \"alt (mandibular) molar\" dişlerde (özellikle mandibular ikinci molarlarda) gözlenir. Çeldiriciler: A) Üst premolarlarda C kanal morfolojisi çok nadirdir. B) Alt birinci premolarlarda nadir varyasyon olarak görülebilse de en sık görüldüğü grup alt molarlardır. C) Üst molarlarda nadir görülür. E) Alt kesici dişlerde C şekilli kanal morfolojisi tipik değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU",
+    "flag_reason": "2024 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi C kanalların özelliklerinden bir tanesi değildir?",
+    "options": {
+      "A": "En sık alt 2. Molar dişlerde görülürler.",
+      "B": "Kök kanal tedavisinde ultrasonik gibi ileri aktivasyon yöntemleri kullanılmalıdır.",
+      "C": "Hertwig epitelyal kınının bukkal veya lingual yönde birleşememesi sonucu oluşur.",
+      "D": "Dolumunda sıcak yöntemler tercih edilebilir.",
+      "E": "Kök kanallarının tespitinde simetri kanunu uygulanabilir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): C şekilli kanallar pulpa odası tabanında şerit şeklinde (180 dereceden fazla uzanan bir ark veya noktalı virgül biçiminde) oldukça düzensiz ve asimetrik bir anatomi sergiler; bu nedenle normal molar dişlerde geçerli olan \"simetri kanununa\" (kanal ağızlarının meziodistal orta çizgiye eşit uzaklıkta olması kuralına) uymazlar. Çeldiriciler: A) C şekilli kanallar en sık mandibular 2. molar dişlerde görülür. B) Kanal ağızlarını birbirine bağlayan ince ve uzun isthmus (ağ) alanlarına mekanik eğeler ulaşamadığı için debridmanda ultrasonik irrigasyon aktivasyonu mutlaka kullanılmalıdır. C) Embriyolojik olarak Hertwig epitelyal kök kınının bukkal veya lingualde birleşememesi ve köklerin kaynaşması sonucu oluşur. D) Düzensiz ve şerit şeklindeki kanal boşluğunu üç boyutlu doldurabilmek için termoplastik (sıcak gutta-perka) dolum yöntemleri tercih edilir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  },
+  {
+    "question": "Yatay kök kesitinde, kesintisiz bir C harfi yerine bir ana C-şekilli kanal arkı ve ondan dentin duvarıyla ayrılmış ayrı bir kanal noktasının birlikte oluşturduğu \"noktalı virgül (;)\" görüntüsü, C kanal anatomisinin (Melton/Fan) sınıflamasına göre aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kategori 1",
+      "B": "Kategori 2",
+      "C": "Kategori 3",
+      "D": "Kategori 4",
+      "E": "Kategori 5"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): C şekilli kanalların yatay kesit sınıflamasına (Melton / Fan modifikasyonu) göre; kanal lümeninin kesintisiz olmayıp bir ana C-şekilli ark ve ayrı bir yuvarlak/oval kanaldan oluşarak \"noktalı virgül (;)\" şeklini aldığı (aradaki dentin açısının >60° olduğu) konfigürasyon \"Kategori 2 (C2)\" olarak tanımlanır. Çeldiriciler: A) Kategori 1 (C1), herhangi bir ayrılma veya bölünme olmaksızın tek ve kesintisiz bir \"C\" harfi şeklindeki kanaldır. C) Kategori 3 (C3), birbirinden tamamen ayrılmış iki veya üç ayrı bağımsız kanalın bulunduğu (aradaki açının <60° olduğu) tiptir. D) Kategori 4 (C4), kesitte (genellikle apikalde) sadece tek bir yuvarlak veya oval kanalın bulunduğu tiptir. E) Kategori 5 (C5), genellikle en apikal uçta izlenen ve hiçbir kanal lümeninin görülmediği tiptir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 2 - KÖK KANAL ANATOMİSİ ve GİRİŞ KAVİTESİ PREPARASYONU"
+  }
+]

@@ -1,0 +1,1861 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi sistemik hastalık oluşturan dimorfik mantarlardan biri değildir?",
+    "options": {
+      "A": "Blastomyces dermatitidis",
+      "B": "Histoplasma capsulatum",
+      "C": "Coccidioides immitis",
+      "D": "Paracoccidioides brasiliensis",
+      "E": "Rhizopus oryzae"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Rhizopus oryzae, Mucorales takımında yer alan, dimorfik özellik göstermeyen (sadece septasız/nadiren septalı küf formunda bulunan) fırsatçı bir mantardır ve özellikle diyabetik ketoasidoz gibi metabolik asidozlu hastalarda rinoserebral mukormikoza neden olur. Çeldiriciler: A) Blastomyces dermatitidis, oda sıcaklığında (25°C) küf, vücut sıcaklığında (37°C) geniş tabanlı tomurcuklanan maya formunda bulunan termal dimorfik bir sistemik (primer) mikoz etkenidir. B) Histoplasma capsulatum, doğada tüberküler makrokonidili küf, dokuda makrofaj içi oval maya formunda bulunan termal dimorfik bir sistemik mikoz etkenidir. C) Coccidioides immitis, doğada artrokonidili küf, dokuda içi endospor dolu sferül yapısında bulunan dimorfik bir sistemik mikoz etkenidir. D) Paracoccidioides brasiliensis, doğada küf, dokuda çoklu tomurcuklanan (kaptan/gemi dümeni görünümü) maya formunda bulunan termal dimorfik bir sistemik mikoz etkenidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2012 DUS Sonbahar"
+  },
+  {
+    "question": "Pozitif germ tüp ve klamidospor oluşturan mantar türleri aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Candida albicans – Candida dubliniensis",
+      "B": "Candida tropicalis – Candida krusei",
+      "C": "Cryptococcus neoformans – Candida parapsilosis",
+      "D": "Aspergillus terreus – Candida krusei",
+      "E": "Histoplasma capsulatum – Cryptococcus neoformans"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hem Candida albicans hem de Candida dubliniensis serumda 37°C'de 90-120 dakika inkübe edildiğinde germ tüp (çimlenme borusu) ve mısır unlu-Tween 80 agarda klamidospor oluşturur; ikisinin ayrımında C. albicans'ın 45°C'de üreyebilmesi, C. dubliniensis'in ise üreyememesi kullanılır. Çeldiriciler: B) Candida tropicalis ve Candida krusei'de germ tüp testi negatiftir ve tipik klamidospor oluşturmazlar. C) Cryptococcus neoformans kapsüllü bir mayadır, germ tüp ve psödohif oluşturmaz; Candida parapsilosis de germ tüp ve klamidospor negatiftir. D) Aspergillus terreus küf mantarıdır (aleuriokonidya oluşturur), Candida krusei ise germ tüp ve klamidospor oluşturmayan bir mayadır. E) Histoplasma capsulatum termal dimorfik bir mantardır, Cryptococcus neoformans ise kapsüllü mayadır; ikisi de germ tüp testi ile tanımlanan ajanlar değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2013 DUS İlkbahar"
+  },
+  {
+    "question": "Aşağıdaki mantarlardan hangisi, primer patojen değildir?",
+    "options": {
+      "A": "Blastomyces dermatitidis",
+      "B": "Coccidioides immitis",
+      "C": "Candida albicans",
+      "D": "Histoplasma capsulatum",
+      "E": "Paracoccidioides brasiliensis"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Candida albicans, normal insan mukozal florasında (ağız, gastrointestinal sistem, vajen) bulunan ve bağışıklık sisteminin baskılanması veya bariyer bütünlüğünün bozulması durumunda hastalık yapan fırsatçı (oportünist) bir mikoz etkenidir, primer (gerçek) patojen değildir. Çeldiriciler: A) Blastomyces dermatitidis, sağlıklı bireylerde de sistemik enfeksiyon oluşturabilen, termal dimorfizm gösteren primer patojen bir mantardır. B) Coccidioides immitis, artrokonidilerin inhalasyonu ile sağlıklı konakta da hastalık yapabilen primer patojen dimorfik bir mantardır. D) Histoplasma capsulatum, kuş ve yarasa dışkısı ile kontamine topraktaki sporların inhalasyonuyla bulaşan primer patojen dimorfik bir mantardır. E) Paracoccidioides brasiliensis, sağlıklı bireylerde sistemik mikoz yapabilen termal dimorfik primer patojen bir mantardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2013 DUS Sonbahar"
+  },
+  {
+    "question": "Aşağıdaki ilaçlardan hangisi, mantar enfeksiyonlarının tedavisinde kullanılır?",
+    "options": {
+      "A": "Penisilin",
+      "B": "Sefalotin",
+      "C": "Vankomisin",
+      "D": "Eritromisin",
+      "E": "Amfoterisin B"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Amfoterisin B, polien grubu bir antifungal ilaçtır; mantar hücre membranında bulunan ergosterole bağlanarak yapay porlar oluşturur, hücrenin sıvı-iyon dengesini bozarak fungisidal etkinlik gösterir. Çeldiriciler: A) Penisilin, bakterilerde transpeptidaz (PBP) enzimini inhibe ederek peptidoglikan hücre duvarı sentezini bozan beta-laktam grubu bir antibakteriyeldir. B) Sefalotin, birinci kuşak sefalosporin grubu bir antibakteriyel ilaçtır, mantarlara karşı etkisizdir. C) Vankomisin, Gram-pozitif bakterilerde D-alanil-D-alanin uçlarına bağlanarak hücre duvarı sentezini engelleyen glikopeptid grubu bir antibakteriyeldir. D) Eritromisin, bakterilerin 50S ribozomal alt birimine bağlanarak protein sentezini inhibe eden makrolid grubu bir antibakteriyeldir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2014 DUS Sonbahar"
+  },
+  {
+    "question": "Aşağıdaki mantar türlerinden hangisi, dimorfik üreme özelliği göstermez?",
+    "options": {
+      "A": "Histoplasma capsulatum",
+      "B": "Penicillium marneffei",
+      "C": "Candida albicans",
+      "D": "Blastomyces dermatitidis",
+      "E": "Candida glabrata"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Candida glabrata sadece küçük, tomurcuklanan maya hücreleri (blastospor) formunda bulunur; gerçek hif, psödohif veya germ tüp oluşturmaz ve dimorfik üreme özelliği göstermez. Çeldiriciler: A) Histoplasma capsulatum, 25°C'de küf, 37°C'de makrofaj içi maya formunda üreyen termal dimorfik bir mantardır. B) Penicillium (Talaromyces) marneffei, 25°C'de kırmızı pigmentli küf, 37°C'de enine bölmeli maya formunda üreyen termal dimorfik bir mantardır. C) Candida albicans, ortam koşullarına ve konak dokusuna göre hem tomurcuklanan maya hem de psödohif ve gerçek hif oluşturabilen polimorfik/dimorfik (maya-hif dimorfizmi) bir mantardır. D) Blastomyces dermatitidis, 25°C'de küf, 37°C'de geniş tabanlı tomurcuklanan maya formunda üreyen termal dimorfik bir mantardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2015 DUS"
+  },
+  {
+    "question": "Aşağıdaki fırsatçı mikozların hangisinde enfeksiyon esas olarak endojen yolla gelişir?",
+    "options": {
+      "A": "Kandidiyazis",
+      "B": "Aspergillozis",
+      "C": "Kriptokokkozis",
+      "D": "Mukormikozis",
+      "E": "Penisillozis"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kandidiyazis etkeni olan Candida türleri ağız, gastrointestinal sistem ve vajen florasının normal üyesi olduğundan, oluşturdukları enfeksiyonlar (kateter veya kontamine sıvı kaynaklı ekzojen bulaş istisnaları dışında) esas olarak endojen yolla meydana gelir. Çeldiriciler: B) Aspergillozis, doğada yaygın bulunan Aspergillus konidilerinin inhalasyonu ile ekzojen yoldan bulaşır. C) Kriptokokkozis, özellikle güvercin dışkısı ile kontamine topraktaki Cryptococcus maya hücrelerinin inhalasyonu ile ekzojen yoldan kazanılır. D) Mukormikozis, doğadaki sporangiosporların inhalasyonu veya travmatik inokülasyonu ile ekzojen yoldan gelişir. E) Penisillozis (Talaromikoz), doğadaki konidilerin solunum yoluyla alınması sonucu ekzojen olarak gelişir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2016 DUS"
+  },
+  {
+    "question": "Pamukçuk olarak da adlandırılan oral lezyonun en sık etkeni olan mantar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Candida albicans",
+      "B": "Candida lusitaniae",
+      "C": "Candida krusei",
+      "D": "Candida parapsilosis",
+      "E": "Candida glabrata"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Oral psödomembranöz kandidiyazis (pamukçuk) tablosundan en sık izole edilen ve ağız mukozası florasında en baskın bulunan etken Candida albicans'tır. Çeldiriciler: B) Candida lusitaniae, nadir görülen ve amfoterisin B'ye doğal/primer direnç gösterebilmesiyle bilinen bir Candida türüdür. C) Candida krusei, flukonazole intrinsik (doğal) dirençli olan ve daha çok nötropenik hastalarda fırsatçı enfeksiyon yapan bir türdür. D) Candida parapsilosis, özellikle damar içi kateter ve total parenteral nütrisyon (TPN) uygulanan hastalarda biyofilm ve fungemi etkeni olarak öne çıkar. E) Candida glabrata, yaşlılarda ve azol profilaksisi alanlarda sıklığı artan, psödohif yapmayan bir tür olup pamukçuğun birinci sıradaki etkeni değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2017 DUS"
+  },
+  {
+    "question": "Mantar hücre yapısıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Hif, maya mantarlarının en küçük birimini oluşturan yapıdır.",
+      "B": "Peptidoglikan, mantar hücre duvarının temel yapısını oluşturur.",
+      "C": "Mantar hücre membranı ergosterol içerir.",
+      "D": "Küf mantarlarında lipopeptid yapıda kapsül bulunur.",
+      "E": "Maya mantarlarında hücre duvarı bulunmaz."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Ökaryotik canlılar olan mantarların hücre zarında (membranında), memeli hücrelerindeki kolesterolden farklı olarak ana sterol yapısı ergosteroldür (Pneumocystis jirovecii hariç). Çeldiriciler: A) Hif, maya mantarlarının değil, küf (filamentöz) mantarlarının temel tübüler yapı birimidir; mayalar tek hücreli (blastospor) yapıdadır. B) Peptidoglikan (mürein) bakterilerin hücre duvarında bulunur; mantar hücre duvarı ise kitin, beta-glukan ve mannan polisakkaritlerinden oluşur. D) Mantarlarda kapsül sadece Cryptococcus neoformans (ve Rhodotorula) gibi bazı mayalarda bulunur ve yapısı lipopeptid değil polisakkarittir (glukuronoksilomannan). E) Hem küf hem de maya mantarlarında kitin, glukan ve mannandan oluşan sert bir hücre duvarı mevcuttur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2018 DUS"
+  },
+  {
+    "question": "Baş-boyun bölgesinde maküler tarzda, sınırları keskin, pullanan, kaşıntılı, hipopigmente lezyon olan 15 yaşındaki erkek hastadan alınan kazıntı örneğinin mikroskobisinde iri, kalın duvarlı, tomurcuklanan maya hücreleri ve güdük, kısa zincirler yapan, septalı hifler gözleniyor. Rutinde kullanılan mantar besi yerinde üreme olmuyor. Bu hastada en olası etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Malassezia furfur",
+      "B": "Trichosporon asahii",
+      "C": "Candida albicans",
+      "D": "Geotrichum candidum",
+      "E": "Blastoschizomyces capitatus"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Malassezia furfur (M. globosa kompleksi), yüzeyel bir mikoz olan Pityriasis (Tinea) versicolor etkenidir; lipitleri parçalayarak açığa çıkardığı azelaik asit ile tirozinaz enzimini inhibe edip melanin üretimini bozarak hipo/hiperpigmente maküler lezyonlara yol açar. Mikroskobide tomurcuklanan mayalar ve kısa kıvrık hiflerle \"köfte-spagetti\" görünümü verir; zorunlu lipofilik olduğu için zeytinyağı eklenmemiş rutin Sabouraud dekstroz agarda üremez. Çeldiriciler: B) Trichosporon asahii, beyaz piedra ve immünsüprese hastalarda sistemik enfeksiyon etkenidir; rutin besiyerinde ürer ve artrokonidiler oluşturur. C) Candida albicans, rutin besiyerlerinde kolaylıkla ürer ve mukoza/deride eritematöz veya psödomembranöz lezyonlar yapar. D) Geotrichum candidum, doğada yaygın bulunan, yalnız artrokonidi oluşturan ve rutin besiyerinde üreyen bir mantardır. E) Blastoschizomyces capitatus (Saprochaete capitata), rutin besiyerinde üreyebilen ve immünsüprese hastalarda fungemi yapan annelokonidi oluşturan bir mantardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2019 DUS"
+  },
+  {
+    "question": "Aşağıdaki aspergilloz etkenlerinden hangisinin tedavisinde amfoterisin B kullanılması en az uygundur?",
+    "options": {
+      "A": "Aspergillus fumigatus",
+      "B": "Aspergillus flavus",
+      "C": "Aspergillus niger",
+      "D": "Aspergillus terreus",
+      "E": "Aspergillus versicolor"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Aspergillus terreus, amfoterisin B'ye doğal (intrinsik) olarak dirençli olan Aspergillus türüdür; bu nedenle tedavisinde amfoterisin B kullanılmaz, ilk tercih olarak vorikonazol (alternatif olarak isavukonazol veya posakonazol) tercih edilmelidir. Çeldiriciler: A) Aspergillus fumigatus, invaziv aspergillozun en sık etkenidir ve ilk tercih vorikonazol olmakla birlikte amfoterisin B'ye duyarlıdır. B) Aspergillus flavus, aflatoksin üreten ve sinüzit/invaziv enfeksiyon yapabilen, amfoterisin B'ye intrinsik direnci olmayan bir türdür. C) Aspergillus niger, otomikozun en sık etkenidir ve amfoterisin B'ye doğal direnç göstermez. E) Aspergillus versicolor, amfoterisin B'ye doğal dirençli olarak sınıflandırılan klasik tür değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2020 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kese içinde oluşan eşeysiz mantar sporudur?",
+    "options": {
+      "A": "Zigospor",
+      "B": "Askospor",
+      "C": "Blastokonidium",
+      "D": "Sporangiyospor",
+      "E": "Klamidokonidium"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sporangiyospor (sporangiospor), Mucorales (Zygomycetes) grubu küf mantarlarında sporangiyofor adı verilen özel hiflerin ucundaki kese (sporangiyum) içerisinde endojen olarak oluşan eşeysiz (anamorf) mantar sporudur. Çeldiriciler: A) Zigospor, Zygomycetes sınıfı mantarların mayoz bölünme ile oluşturduğu eşeyli (teleomorf) spordur ve kese içinde oluşmaz. B) Askospor, Ascomycetes sınıfı mantarların askus adı verilen kese içinde oluşturduğu spor olmakla birlikte eşeysiz değil, eşeyli (teleomorf) bir spordur. C) Blastokonidium (blastospor), maya hücrelerinde tomurcuklanma ile kese dışında (ekzojen) oluşan eşeysiz spordur. E) Klamidokonidium (klamidospor), hif hücrelerinin duvarlarının kalınlaşması ve protoplazmasının yoğunlaşmasıyla oluşan dayanıklı, kese dışı eşeysiz spor yapısıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2021 DUS"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kapsüllü bir maya mantarıdır?",
+    "options": {
+      "A": "Cryptococcus neoformans",
+      "B": "Candida albicans",
+      "C": "Trichosporon asahii",
+      "D": "Geotrichum candidum",
+      "E": "Malassezia furfur"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Cryptococcus neoformans, glukuronoksilomannan yapısında geniş bir polisakkarit kapsüle sahip olan ve özellikle immünsüpresif (AIDS vb.) hastalarda fungal meningoensefalit oluşturan maya mantarıdır. Çeldiriciler: B) Candida albicans, kapsülsüz, tomurcuklanan ve psödohif/gerçek hif oluşturan bir maya mantarıdır. C) Trichosporon asahii, kapsülü olmayan, hem blastokonidi hem de artrokonidi oluşturan, üreaz pozitif bir mantardır. D) Geotrichum candidum, kapsülsüz, hiflerin parçalanmasıyla fıçı şeklinde artrokonidiler oluşturan küf benzeri bir mantardır. E) Malassezia furfur, kapsülsüz ve lipofilik özellikte bir maya mantarıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2022 DUS"
+  },
+  {
+    "question": "Aşağıdaki mantar türlerinden hangisi termal dimorfik olarak sınıflandırılır?",
+    "options": {
+      "A": "Fusarium chlamydosporum",
+      "B": "Talaromyces (Penicillium) marneffei",
+      "C": "Aspergillus nidulans",
+      "D": "Geotrichum candidum",
+      "E": "Trichosporon asahii"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Talaromyces (eski adıyla Penicillium) marneffei, 25°C'de besiyerinde suya yayılan kırmızı pigment üreten küf formunda, 37°C'de ve konak dokusunda (makrofaj içinde) ise ortadan enine septumla (fisyonla) bölünen maya formunda üreyen termal dimorfik bir mantardır. Çeldiriciler: A) Fusarium chlamydosporum, sadece hiyalen septalı hifler ve muz/kano şeklinde makrokonidiler oluşturan monomorfik bir küf mantarıdır. C) Aspergillus nidulans, 45 derece açıyla dallanan septalı hifler oluşturan monomorfik bir küf mantarıdır. D) Geotrichum candidum, termal dimorfizm göstermeyen, artrokonidi oluşturan bir mantardır. E) Trichosporon asahii, termal dimorfizm göstermeyen, artrokonidi ve blastokonidi oluşturan bir mantardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2023 DUS İlkbahar"
+  },
+  {
+    "question": "Flukonazole çok yüksek oranda dirençli olması yanında vorikonazol, amfoterisin B ve ekinokandinlere de dirençli olabilen, hastanelerde salgın yapma potansiyeli diğerlerine göre daha yüksek olan Candida türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Candida auris",
+      "B": "Candida albicans",
+      "C": "Candida krusei",
+      "D": "Candida tropicalis",
+      "E": "Candida glabrata"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Candida auris, flukonazol başta olmak üzere azollere, amfoterisin B'ye ve ekinokandinlere karşı çoklu ilaç direnci (pan-rezistans dahil) gösterebilen, hastane ortamında yüzeylerde uzun süre canlı kalarak yoğun bakım salgınlarına yol açan güncel ve tehlikeli bir Candida türüdür. Çeldiriciler: B) Candida albicans, antifungal ilaçların çoğuna (flukonazol, amfoterisin B, ekinokandinler) genellikle duyarlıdır. C) Candida krusei, flukonazole intrinsik dirençli olmakla birlikte vorikonazol, amfoterisin B ve ekinokandinlere genellikle duyarlıdır. D) Candida tropicalis, çoğunlukla azollere, amfoterisin B'ye ve ekinokandinlere duyarlı olan fırsatçı bir türdür. E) Candida glabrata, azollere karşı doza bağımlı duyarlılık veya kazanılmış direnç gösterebilse de C. auris düzeyinde amfoterisin B direnci ve hastane salgını potansiyeli taşımaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2023 DUS Sonbahar"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin dokuda psödohif oluşturması en olasıdır?",
+    "options": {
+      "A": "Histoplasma capsulatum",
+      "B": "Candida albicans",
+      "C": "Sporothrix schenckii",
+      "D": "Microsporum canis",
+      "E": "Cryptococcus neoformans"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Candida albicans (ve C. glabrata dışındaki diğer birçok Candida türü), tomurcuklanan yavru maya hücrelerinin ana hücreden kopmayıp uç uca eklenmesi ve boğumlanmasıyla karakterize sosis dizisi görünümündeki psödohif (yalancı hif) yapılarını dokuda ve kültürde karakteristik olarak oluşturur. Çeldiriciler: A) Histoplasma capsulatum, dokuda psödohif yapmaz; makrofajların içinde küçük oval maya hücreleri şeklinde görülür. C) Sporothrix schenckii, dokuda puro (sigara) şeklinde tomurcuklanan maya hücreleri oluşturur, psödohif yapmaz. D) Microsporum canis, bir dermatofittir (küf mantarıdır) ve keratinize dokularda psödohif değil, gerçek septalı hif ve artrokonidiler oluşturur. E) Cryptococcus neoformans, dokuda sadece kapsüllü, tomurcuklanan maya hücreleri halinde bulunur, psödohif oluşturmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2024 DUS İlkbahar"
+  },
+  {
+    "question": "Ekinokandin sınıfı antifungallerin aşağıdaki yapılardan hangisinin sentezini inhibe ederek antifungal etki göstermesi en olasıdır?",
+    "options": {
+      "A": "Galaktomannan",
+      "B": "Kitin",
+      "C": "Mannan",
+      "D": "1,3-beta glukan",
+      "E": "Melanin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Ekinokandinler (kaspofungin, mikafungin, anidulafungin, rezafungin), mantar hücre duvarının temel yapı taşlarından biri olan 1,3-beta-D-glukanı sentezleyen beta-(1,3)-D-glukan sentaz enzimini (FKS1 alt birimi) inhibe ederek hücre duvarı bütünlüğünü bozar. Çeldiriciler: A) Galaktomannan, özellikle Aspergillus hücre duvarında bulunan antijenik bir polisakkarittir ve ekinokandinlerin hedefi değildir. B) Kitin, mantar hücre duvarında bulunan N-asetilglukozamin polimeridir; sentezini ekinokandinler değil nikkomisin ve polioksinler inhibe eder. C) Mannan, maya hücre duvarının dış tabakasında yer alan glikoprotein/polisakkarit yapısıdır ve ekinokandinlerin hedefi değildir. E) Melanin, Cryptococcus neoformans ve dematisiyöz mantarların hücre duvarında bulunan, fagositoza direnç sağlayan bir pigmenttir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2024 DUS Sonbahar"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi küf mantarlarında bulunan morfolojik yapılardan biri değildir?",
+    "options": {
+      "A": "Yalancı hif",
+      "B": "Konidyum",
+      "C": "Septalı hif",
+      "D": "Septasız hif",
+      "E": "Miçelyum"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Yalancı hif (psödohif), küf mantarlarına ait bir yapı olmayıp, maya mantarlarının (özellikle Candida türlerinin) tomurcuklanma sonrasında yavru hücrelerin ana hücreden ayrılmayarak uzamasıyla oluşturduğu boğumlu dizilimlerdir. Çeldiriciler: B) Konidyum, Aspergillus, Penicillium ve dermatofitler gibi küf mantarlarında hiflerin ucunda veya yanlarında oluşan eşeysiz spor yapısıdır. C) Septalı hif, Aspergillus, Fusarium ve dermatofitler gibi küf mantarlarının enine bölmeler (septum) içeren tübüler uzantılarıdır. D) Septasız (koenositik) hif, Mucorales (Rhizopus, Mucor vb.) grubu küf mantarlarında görülen bölmesiz, geniş hif yapısıdır. E) Miçelyum, küf mantarlarındaki gerçek hiflerin bir araya gelerek oluşturduğu dallanmış ağ (koloni) yapısıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2025 DUS İlkbahar"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bir imidazol grubu antifungaldir?",
+    "options": {
+      "A": "Flukonazol",
+      "B": "İsavukonazol",
+      "C": "Ketokonazol",
+      "D": "Vorikonazol",
+      "E": "Posakonazol"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Azol grubu antifungaller yapılarındaki azol halkasındaki azot atomu sayısına göre ikiye ayrılır; ketokonazol (mikokonazol, klotrimazol, ekonazol, bifonazol, tiokonazol ile birlikte) halkasında iki azot atomu bulunduran bir imidazol türevidir. Çeldiriciler: A) Flukonazol, yapısında üç azotlu halka bulunduran sistemik etkili bir triazol grubu antifungaldir. B) İsavukonazol, invaziv aspergilloz ve mukormikoz tedavisinde kullanılan geniş spektrumlu bir triazol grubu antifungaldir. D) Vorikonazol, invaziv aspergillozda ilk tercih olan bir triazol grubu antifungaldir. E) Posakonazol, mukormikoz ve invaziv küf enfeksiyonlarında etkili olan bir triazol grubu antifungaldir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2025 DUS Sonbahar"
+  },
+  {
+    "question": "Özellikle güvercin dışkısı içeren toprakta bol miktarda bulunur ve solunum yolu ile bulaşır. Sağlıklı konakta hafif akciğer enfeksiyonuna yol açarken, bağışıklık sistemi baskılananlarda beyin ve meninksleri tutarak menenjite neden olabilir. Çin mürekkebi boyalı preparatlarda, polisakkarit yapıdaki kapsülü boyasız olarak gösterilebilir. Bu tabloda tanımlanan en olası mikolojik etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Cryptococcus neoformans",
+      "B": "Histoplasma capsulatum",
+      "C": "Coccidioides immitis",
+      "D": "Paracoccidioides brasiliensis",
+      "E": "Blastomyces dermatitidis"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Cryptococcus neoformans, güvercin dışkısı ile kontamine toprakta bol bulunan, inhalasyonla bulaşıp ilk olarak akciğeri tutan, immünsüprese konakta (özellikle AIDS) merkezi sinir sistemine yayılarak menenjite yol açan ve çini mürekkebi (negatif boyama) ile geniş polisakkarit kapsülü boyasız hale şeklinde gösterilebilen maya mantarıdır. Çeldiriciler: B) Histoplasma capsulatum, kuş ve yarasa dışkısı ile ilişkili olmakla birlikte kapsülü yoktur (adındaki \"capsulatum\" tarihsel bir yanılgıdır) ve makrofaj içi maya olarak görülür. C) Coccidioides immitis, kapsülsüz dimorfik bir mantardır ve dokuda içi endospor dolu sferül yapıları oluşturur. D) Paracoccidioides brasiliensis, kapsül oluşturmayan, dokuda gemi dümeni şeklinde çoklu tomurcuklanan mayalar oluşturan dimorfik bir mantardır. E) Blastomyces dermatitidis, kapsül oluşturmayan, dokuda geniş tabanlı tek tomurcuklanan maya hücreleri şeklinde görülen dimorfik bir mantardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2026 DUS İlkbahar"
+  },
+  {
+    "question": "Diş taşı temizliği için başvuran 35 yaşındaki erkek hastanın ağız muayenesinde yumuşak damak ve dil yüzeyinde beyaz, plak benzeri lezyonlar görülüyor. Lezyonlardan alınan materyalden yapılan Gram boyamada ovoid, tomurcuklanan hücreler saptanıyor. Besiyerinde üretilen koloniler serumda 90 dakika bekletildiğinde germ tüp testi pozitif tespit ediliyor. Aşağıdaki mikroorganizmalardan hangisinin bu hastadaki lezyonlardan sorumlu olması en olasıdır?",
+    "options": {
+      "A": "Candida albicans",
+      "B": "Candida glabrata",
+      "C": "Candida tropicalis",
+      "D": "Candida krusei",
+      "E": "Candida parapsilosis"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Oral mukozada beyaz plaklarla seyreden pamukçuk (oral kandidiyazis) tablosunun en sık etkeni olan, Gram boyamada tomurcuklanan oval maya hücreleri (Gram-pozitif görünür) veren ve insan/tavşan serumunda 37°C'de 90 dakika inkübasyonla germ tüp (çimlenme borusu) testi pozitifliği gösteren tür Candida albicans'tır. Çeldiriciler: B) Candida glabrata, sadece küçük blastosporlar oluşturur; psödohif, gerçek hif ve germ tüp oluşturmaz (germ tüp testi negatiftir). C) Candida tropicalis, psödohif oluşturabilir ancak gerçek germ tüp testi negatiftir (tabanında boğumlanma gösterir). D) Candida krusei, germ tüp testi negatif olan ve flukonazole doğal dirençli bir türdür. E) Candida parapsilosis, germ tüp testi negatif olan ve mısır unlu agarda dev hücreler/örümcek ağı görünümü oluşturan bir türdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar"
+  },
+  {
+    "question": "1. Mantarlarla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Ökaryotik yapıdadırlar.",
+      "B": "Tek hücreli veya çok hücreli olabilirler.",
+      "C": "Hücre duvarlarında şeker polimerleri içerirler.",
+      "D": "Hücre membranlarındaki ana sterol yapısı ergosteroldür.",
+      "E": "Sentetik besi yerlerinde üretilemezler."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Mantarlar zorunlu hücre içi parazit değildir (Pneumocystis jirovecii hariç rutin kültürde ürerler); Sabouraud dekstroz agar (SDA) gibi sentetik ve yarı-sentetik cansız besiyerlerinde kolaylıkla üretilebilirler. Çeldiriciler: A) Mantarlar çekirdek zarı, mitokondri ve endoplazmik retikulum içeren ökaryotik mikroorganizmalardır. B) Maya mantarları tek hücreli, küf mantarları ise çok hücreli (filamentöz) yapıda olabilir. C) Mantar hücre duvarı kitin (N-asetilglukozamin polimeri), beta-glukan (glukoz polimeri) ve mannan (mannoz polimeri) gibi polisakkaritlerden (şeker polimerlerinden) oluşur. D) Memelilerdeki kolesterolün aksine mantar hücre membranındaki temel sterol ergosteroldür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2017 EUS"
+  },
+  {
+    "question": "2. I. Trichophyton II. Aspergillus III. Microsporum IV. Epidermophyton Yukarıdakilerden hangileri dermatofitler arasında yer alan küf mantarı cinslerindendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "II ve IV",
+      "D": "I, II ve III",
+      "E": "I, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Keratinize dokuları (deri, saç, tırnak) tutarak dermatofitoz (tinea) oluşturan klasik dermatofit küf mantarları Trichophyton, Microsporum ve Epidermophyton cinslerinden oluşur. Çeldiriciler: A) Yalnız I eksiktir, Microsporum ve Epidermophyton da dermatofittir. B) Yalnız III eksiktir, Trichophyton ve Epidermophyton da dermatofittir. C) II numaralı Aspergillus bir dermatofit değildir. D) II numaralı Aspergillus dermatofit grubunda yer almaz, IV numaralı Epidermophyton ise dermatofittir. Öncüllerin analizi: I. Trichophyton: Deri, saç ve tırnağı tutabilen klasik bir dermatofit cinsidir (Doğru). II. Aspergillus: Doğada yaygın bulunan ve fırsatçı sistemik/yüzeyel enfeksiyonlar yapan hiyalen küf mantarıdır, dermatofit değildir (Yanlış). III. Microsporum: Deri ve saçı tutan (tırnağı tutmayan) klasik bir dermatofit cinsidir (Doğru). IV. Epidermophyton: Deri ve tırnağı tutan (saçı tutmayan) klasik bir dermatofit cinsidir (Doğru).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2018 EUS"
+  },
+  {
+    "question": "3. I. Glukan II. Kitin III. Mannan Yukarıdaki polisakkaritlerden hangileri mantar hücre duvarında bulunmaktadır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve III",
+      "C": "I ve III",
+      "D": "Yalnız II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Mantar hücre duvarı çok katmanlı sert bir yapı olup glukan (özellikle beta-1,3 ve beta-1,6-D-glukan), kitin ve mannan (mannoproteinler) polisakkaritlerinin tamamını içerir. Çeldiriciler: A) Yalnız I eksiktir, kitin ve mannan da hücre duvarının ana bileşenleridir. B) II ve III eksiktir, glukan tabakası hücre duvarının en önemli yapısal desteklerinden biridir. C) I ve III eksiktir, kitin hücre duvarının en iç tabakasında yapısal sertlik sağlar. D) Yalnız II eksiktir, glukan ve mannan da mevcuttur. Öncüllerin analizi: I. Glukan: Hücre duvarında bulunan ve ekinokandinlerin hedefi olan D-glukoz polimeridir (Doğru). II. Kitin: Hücre duvarına rijidite kazandıran N-asetilglukozamin polimeridir (Doğru). III. Mannan: Hücre duvarının en dış yüzeyinde yer alan, antijenik özellikteki mannoz polimeridir (Doğru).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2021 EUS"
+  },
+  {
+    "question": "4. Keratinize dokuda enfeksiyon oluşturmasına karşın, in vitro koşulda üreyebilmesi için lipide gereksinim duyan etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Trichophyton verrucosum",
+      "B": "Trichosporon beigelii",
+      "C": "Malassezia furfur",
+      "D": "Hortaea (Exophiala) werneckii",
+      "E": "Piedraia hortae"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Malassezia furfur, derinin en üst keratinize tabakası olan stratum corneum'u tutarak Tinea (Pityriasis) versicolor oluşturan, yağ asitlerini sentezleyemediği için zorunlu lipofilik olan ve in vitro kültürde üreyebilmek için besiyerine zeytinyağı (lipit) eklenmesine gereksinim duyan bir maya mantarıdır. Çeldiriciler: A) Trichophyton verrucosum, sığırlardan bulaşan zoofilik bir dermatofittir; üremek için tiamin ve inozitole ihtiyaç duyar ancak zorunlu lipofilik değildir. B) Trichosporon beigelii (T. asahii), beyaz piedra etkenidir ve standart besiyerlerinde lipit eklenmeden ürer. D) Hortaea (Exophiala) werneckii, avuç içi ve ayak tabanında tinea nigra etkeni olan dematisiyöz bir mantardır ve lipit gereksinimi yoktur. E) Piedraia hortae, kıl gövdesinde sert siyah nodüllerle seyreden siyah piedra etkenidir ve lipit gereksinimi yoktur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2010 TUS İlkbahar"
+  },
+  {
+    "question": "5. Aşağıdakilerden hangisi Candida türlerinin patojenite faktörlerinden biri değildir?",
+    "options": {
+      "A": "Dokulara tutunma yeteneği",
+      "B": "Hücre yüzeyi hidrofobisitesi",
+      "C": "Proteinaz enzimi yapımı",
+      "D": "Melanin yapımı",
+      "E": "Fenotip değişimi yeteneği"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Melanin pigmenti üretimi Candida türlerinin bir virülans faktörü değildir; melanin, Cryptococcus neoformans'ta fenol oksidaz (lakkaz) enzimi aracılığıyla üretilen ve mantarı fagositoz ile oksidatif stresten koruyan temel virülans faktörüdür (ayrıca dematisiyöz küflerde bulunur). Çeldiriciler: A) Dokulara tutunma (adherens/adezyon) yeteneği, ALS ailesi adezinler aracılığıyla epitel ve endotel hücrelerine bağlanmayı sağlayan önemli bir Candida virülans faktörüdür. B) Hücre yüzeyi hidrofobisitesi, konak hücrelerine ve plastik kateter yüzeylerine tutunmayı kolaylaştıran bir Candida virülans faktörüdür. C) Salgılanan aspartil proteinazlar (SAP) ve fosfolipazlar, konak doku bariyerlerini ve immünglobulinleri parçalayan önemli Candida virülans enzimleridir. E) Fenotip değişimi (phenotypic switching) ve maya-hif dimorfizmi, Candida'nın farklı mikroçevrelerde hayatta kalmasını ve bağışıklık yanıtından kaçmasını sağlayan virülans özellikleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2010 TUS İlkbahar"
+  },
+  {
+    "question": "6. Sistemik aspergilloza en sık neden olan etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aspergillus flavus",
+      "B": "Aspergillus niger",
+      "C": "Aspergillus fumigatus",
+      "D": "Aspergillus terreus",
+      "E": "Aspergillus nidulans"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Aspergillus fumigatus, konidilerinin küçük çaplı olması ve termotolerans özelliği sayesinde alveollere kadar kolayca ulaşabilen, hem alerjik bronkopulmoner aspergilloz hem de invaziv/sistemik aspergilloz tablolarından en sık izole edilen Aspergillus türüdür. Çeldiriciler: A) Aspergillus flavus, invaziv aspergillozun ikinci en sık etkenidir, özellikle paranazal sinüs enfeksiyonları ve aflatoksin üretimi ile öne çıkar. B) Aspergillus niger, kültürde siyah koloniler oluşturur ve dış kulak yolu enfeksiyonunun (otomikoz) en sık etkenidir. D) Aspergillus terreus, daha nadir bir invaziv aspergilloz etkeni olup amfoterisin B'ye doğal direnci ile bilinir. E) Aspergillus nidulans, özellikle kronik granülomatöz hastalığı olanlarda invaziv enfeksiyon ve ömikotik miçetoma yapabilen daha nadir bir türdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2010 TUS İlkbahar"
+  },
+  {
+    "question": "7. Ekinokandin grubu antifungal ilaçlar aşağıdaki mantar türlerinden hangisinin tedavisinde etkilidir?",
+    "options": {
+      "A": "Candida türleri",
+      "B": "Zygomycetes türleri",
+      "C": "Cryptococcus türleri",
+      "D": "Trichosporon türleri",
+      "E": "Fusarium türleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Ekinokandinler (kaspofungin, mikafungin, anidulafungin), 1,3-beta-D-glukan sentezini inhibe ederek Candida türlerine karşı fungisidal, Aspergillus türlerine karşı ise fungostatik etkinlik gösterir ve invaziv kandidiyazis tedavisinde ilk tercih ilaçlardandır. Çeldiriciler: B) Zygomycetes (Mucorales) türlerinin hücre duvarında 1,3-beta-D-glukan bulunmadığı veya çok az olduğu için ekinokandinler bu gruba karşı tamamen etkisizdir. C) Cryptococcus neoformans, ekinokandinlere karşı doğal (intrinsik) olarak dirençlidir. D) Trichosporon türleri, ekinokandinlere karşı doğal dirençlidir ve ekinokandin alan hastalarda fırsatçı (breakthrough) enfeksiyon yapabilir. E) Fusarium türleri, ekinokandinlere karşı doğal olarak dirençlidir; tedavisinde vorikonazol veya amfoterisin B kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2010 TUS İlkbahar"
+  },
+  {
+    "question": "8. Klinik aspergilloz olduğu düşünülen bir hastada aşağıdakilerden hangisi tanı koymada yarar sağlamaz?",
+    "options": {
+      "A": "Örnekten direkt mikroskopik inceleme yapılması",
+      "B": "Örnekten kültür yapılması",
+      "C": "Serumda mannan antijeni bakılması",
+      "D": "Serumda galaktomannan antijeni bakılması",
+      "E": "Serumda β-D glukan antijeni bakılması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Serumda mannan antijeni (ve anti-mannan antikoru) araştırılması Aspergillus tanısında değil, invaziv Candida enfeksiyonlarının tanısında kullanılan serolojik bir yöntemdir. Çeldiriciler: A) Klinik örnekten yapılan direkt mikroskobik incelemede 45 derecelik açıyla (dikotom) dallanan hiyalen septalı hiflerin görülmesi aspergilloz tanısında çok değerlidir. B) Klinik örneğin Sabouraud dekstroz agar veya Czapek-Dox agara ekilerek kültürünün yapılması kesin tür tanımlaması sağlar. D) Galaktomannan, Aspergillus hücre duvarının karakteristik polisakkarit antijeni olup serum ve bronkoalveolar lavaj (BAL) sıvısında saptanması invaziv aspergillozun erken tanısında kullanılır. E) 1,3-beta-D-glukan testi, Aspergillus dahil birçok invaziv mantar enfeksiyonunun (Cryptococcus ve Mucorales hariç) tanısında kullanılan pan-fungal bir antijen testidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2010 TUS Sonbahar"
+  },
+  {
+    "question": "9. Eşeyli üreme biçimi saptanamamış mantarlar hangi sınıfta yer alır?",
+    "options": {
+      "A": "Zygomycetes",
+      "B": "Ascomycetes",
+      "C": "Basidiomycetes",
+      "D": "Deuteromycetes",
+      "E": "Dermatofitler"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Eşeyli (seksüel/teleomorf) üreme evresi gösterilememiş veya henüz saptanamamış, yalnızca mitoz bölünme ile eşeysiz (aseksüel/anamorf) üreyen mantarlar geleneksel sınıflandırmada Deuteromycetes (Fungi imperfecti / kusurlu mantarlar) sınıfında yer alır. Çeldiriciler: A) Zygomycetes sınıfı mantarlarda eşeyli üreme vardır ve eşeyli sporları zigosporlardır. B) Ascomycetes sınıfı mantarlarda eşeyli üreme vardır ve askus kesesi içinde askospor oluştururlar. C) Basidiomycetes sınıfı mantarlarda eşeyli üreme vardır ve bazidyum üzerinde bazidiyospor oluştururlar. E) Dermatofitler, taksonomik bir mantar sınıfı değil, keratinize dokuları tutan küf mantarlarını (Trichophyton, Microsporum, Epidermophyton) tanımlayan klinik/ekolojik bir gruptur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2010 TUS Sonbahar"
+  },
+  {
+    "question": "10. Oral lezyonları olan nötropenik bir hastanın lezyonundan alınan sürüntü örneğinden bir maya mantarı izole ediliyor. Bu mayanın mısır unlu tween 80 besiyerindeki morfolojik görünümü incelendiğinde blastosporlar ve psödohif görülüyor. Bu hastadan izole edilen maya mantarı aşağıdakilerden hangisi olamaz?",
+    "options": {
+      "A": "Candida glabrata",
+      "B": "Candida parapsilosis",
+      "C": "Candida kefyr",
+      "D": "Candida guilliermondii",
+      "E": "Candida lusitaniae"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Candida glabrata (eski adıyla Torulopsis glabrata), mısır unlu-Tween 80 agar dahil hiçbir besiyerinde ve dokuda psödohif, gerçek hif veya klamidospor oluşturmaz; yalnızca küçük, tomurcuklanan blastosporlar halinde görülür. Çeldiriciler: B) Candida parapsilosis, mısır unlu agarda blastosporlar, kıvrımlı psödohifler ve karakteristik \"dev hücreler\" oluşturur. C) Candida kefyr, mısır unlu agarda blastospor ve uzun psödohifler oluşturabilen bir Candida türüdür. D) Candida guilliermondii, mısır unlu agarda ince, kısa psödohifler ve blastospor kümeleri oluşturur. E) Candida lusitaniae, mısır unlu agarda dallanan psödohifler ve blastosporlar oluşturabilir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2010 TUS Sonbahar"
+  },
+  {
+    "question": "11. Aşağıdakilerden hangisi fenol oksidaz aktivitesine sahiptir?",
+    "options": {
+      "A": "Candida albicans",
+      "B": "Candida tropicalis",
+      "C": "Cryptococcus neoformans",
+      "D": "Cryptococcus albidus",
+      "E": "Saccharomyces cerevisiae"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Cryptococcus neoformans, membranına bağlı fenol oksidaz (lakkaz) enzimi aktivitesine sahiptir; bu enzim katekolaminleri (örneğin L-DOPA'yı) okside ederek hücre duvarında biriken ve mantarı fagositozdan koruyan melanin pigmentini sentezler (Nijer tohumlu / bird seed agarda kahverengi-siyah koloni oluşturur). Çeldiriciler: A) Candida albicans'ta fenol oksidaz enzimi ve melanin üretimi bulunmaz. B) Candida tropicalis'te fenol oksidaz aktivitesi yoktur. D) Cryptococcus albidus, patojen olmayan/nadir fırsatçı bir kriptokok türü olup C. neoformans'tan fenol oksidaz negatifliği (melanin üretmemesi) ve 37°C'de zayıf üremesiyle ayrılır. E) Saccharomyces cerevisiae (ekmek/bira mayası), fenol oksidaz aktivitesine sahip değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2011 TUS İlkbahar"
+  },
+  {
+    "question": "12. Aşağıdaki Candida türlerinin hangisinde intrensek flukonazol direnci vardır?",
+    "options": {
+      "A": "C. parapsilosis",
+      "B": "C. albicans",
+      "C": "C. tropicalis",
+      "D": "C. krusei",
+      "E": "C. kefyr"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Candida krusei, hedef enzim olan 14-alfa-demetilazın (Erg11p) flukonazole karşı yapısal olarak düşük afinite göstermesi nedeniyle flukonazole intrinsik (doğal/primer) dirençlidir. Çeldiriciler: A) C. parapsilosis, flukonazole genellikle duyarlıdır (ekinokandin MİK değerleri diğer türlere göre biraz daha yüksek olabilir). B) C. albicans, intrinsik flukonazol direnci göstermez ve çoğunlukla flukonazole duyarlıdır. C) C. tropicalis, flukonazole doğal olarak duyarlı bir türdür. E) C. kefyr, flukonazole karşı intrinsik dirence sahip değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2011 TUS İlkbahar"
+  },
+  {
+    "question": "13. Aşağıdaki ilaçlardan hangisi mantar hücre duvarına etki ederek antifungal aktivite gösterir?",
+    "options": {
+      "A": "Terbinafin",
+      "B": "Nistatin",
+      "C": "Amfoterisin B",
+      "D": "Flusitozin",
+      "E": "Kaspofungin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kaspofungin, ekinokandin grubu bir antifungal ilaçtır ve mantar hücre duvarındaki 1,3-beta-D-glukan sentezini inhibe ederek doğrudan hücre duvarı üzerinden antifungal aktivite gösterir. Çeldiriciler: A) Terbinafin, allilamin grubu bir antifungaldir; skualen epoksidaz enzimini inhibe ederek hücre membranındaki ergosterol sentezini bozar. B) Nistatin, polien grubu bir antifungaldir; hücre membranındaki ergosterole bağlanarak membran geçirgenliğini bozar. C) Amfoterisin B, polien grubu bir antifungal olup hücre duvarına değil, hücre membranındaki ergosterole bağlanarak etki eder. D) Flusitozin (5-florositozin), mantar hücresi içinde 5-florourasile (5-FU) dönüşerek DNA ve RNA (nükleik asit) sentezini inhibe eden bir pirimidin analoğudur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2011 TUS İlkbahar"
+  },
+  {
+    "question": "14. Ketoasidoz atakları ile seyreden kontrolsüz diabetes mellituslu bir hasta antibiyotik tedavisine cevap vermeyen ateş ve kronik sinüzit yakınmalarıyla hastaneye başvuruyor. Bu hastada aşağıdakilerin hangisinden şüphelenilmelidir?",
+    "options": {
+      "A": "Histoplazmoz",
+      "B": "Aspergilloz",
+      "C": "Kriptokokkoz",
+      "D": "Zigomikoz",
+      "E": "Dermatofitoz"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Diyabetik ketoasidoz (DKA) gibi metabolik asidoz durumlarında serumda serbest demirin artması ve fagosit fonksiyonlarının bozulması, Mucorales (Zygomycetes) grubu mantarların (en sık Rhizopus arrhizus/oryzae) hızla çoğalarak paranazal sinüsler, orbita ve beyne yayılan akut, anjiyoinvaziv, nekrotik rinoserebral zigomikoz (mukormikoz) oluşturmasına zemin hazırlar. Çeldiriciler: A) Histoplazmoz, kuş/yarasa dışkısı inhalasyonuyla bulaşan ve esas olarak akciğer ile retiküloendotelyal sistemi tutan endemik bir mikozdur. B) Aspergilloz sinüzit yapabilir ancak diyabetik ketoasidoz tablosuyla klasik ve spesifik olarak özdeşleşen akut fulminan rinoserebral tablo zigomikozdur. C) Kriptokokkoz, özellikle T hücre yetmezliği (AIDS) olan hastalarda kronik meningoensefalit ve pnömoni etkenidir. E) Dermatofitoz, yalnızca deri, saç ve tırnak gibi yüzeyel keratinize dokularla sınırlı enfeksiyon oluşturur, invaziv sinüzit yapmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2011 TUS Sonbahar"
+  },
+  {
+    "question": "15. Aşağıdaki Candida türlerinden hangisi çoğunlukla flukonazol'e duyarlıdır?",
+    "options": {
+      "A": "C. albicans",
+      "B": "C. krusei",
+      "C": "C. glabrata",
+      "D": "C. norvegensis",
+      "E": "C. inconspicua"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Candida albicans izolatlarının büyük çoğunluğu flukonazol ve diğer azol grubu antifungallere karşı doğal olarak yüksek duyarlılığa sahiptir. Çeldiriciler: B) C. krusei, flukonazole karşı intrinsik (doğal/primer) dirençlidir. C) C. glabrata, dışa atım pompalarının (CgCDR) aşırı ekspresyonu nedeniyle flukonazole karşı sıklıkla azalmış duyarlılık veya kazanılmış direnç gösterir. D) C. norvegensis, C. krusei ile yakın ilişkili olup flukonazole karşı doğal direnç/azalmış duyarlılık gösteren nadir bir türdür. E) C. inconspicua, flukonazole karşı intrinsik olarak yüksek MİK değerlerine (direnç) sahip olan bir Candida türüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2011 TUS Sonbahar"
+  },
+  {
+    "question": "16. Menenjit tanısı ile izlenen bir hastanın beyin-omurilik sıvısı örneğinin mikroskobik incelemesinde kapsüllü maya hücreleri görülüyor. Bu bulguya yol açan etken aşağıdakilerden hangisi olabilir?",
+    "options": {
+      "A": "Coccidioides immitis",
+      "B": "Blastomyces dermatitidis",
+      "C": "Histoplasma capsulatum",
+      "D": "Candida albicans",
+      "E": "Cryptococcus neoformans"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Beyin-omurilik sıvısı (BOS) incelemesinde çini mürekkebi veya müsikarmin boyası ile gösterilebilen geniş polisakkarit kapsüllü tomurcuklanan maya hücreleri görülmesi, fungal menenjitin en sık etkeni olan Cryptococcus neoformans için patognomoniktir. Çeldiriciler: A) Coccidioides immitis, kapsülsüzdür ve dokuda maya hücresi değil sferül oluşturur. B) Blastomyces dermatitidis, kapsülsüzdür ve kalın duvarlı, geniş tabanlı tomurcuklanan maya oluşturur. C) Histoplasma capsulatum, ismine rağmen gerçek bir kapsüle sahip değildir ve makrofaj içi küçük maya hücreleri olarak görülür. D) Candida albicans, kapsülsüz bir mayadır ve dokuda blastospor ile psödohif/hif yapıları oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2011 TUS Sonbahar"
+  },
+  {
+    "question": "17. Yüzeyel deri enfeksiyonu etkeni olan aşağıdaki mantarlardan hangisinin lezyonu, zararsız ve asemptomatik olmasına karşın malign melanoma benzediğinden biyopsi yapılmasına neden olabilmektedir?",
+    "options": {
+      "A": "Hortaea (Exophiala) werneckii",
+      "B": "Malassezia furfur",
+      "C": "Piedraia hortae",
+      "D": "Trichosporon asahii",
+      "E": "Trichosporon beigelii"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hortaea (Exophiala) werneckii, melanin üreten dematisiyöz bir mantar olup özellikle avuç içi ve ayak tabanında keskin sınırlı, kahverengi-siyah maküler lezyonlarla karakterize yüzeyel bir mikoz olan \"tinea nigra\"ya neden olur; bu koyu pigmentli lezyonlar klinik olarak akral lentiginöz malign melanom ile karışabildiğinden gereksiz biyopsilere yol açabilir. Çeldiriciler: A dışındaki şıklardan B) Malassezia furfur, gövde ve boyunda sütlü kahverengi veya hipopigmente pullanan maküllerle seyreden tinea versicolor etkenidir. C) Piedraia hortae, deriyi değil saç kılı gövdesini tutarak siyah nodüller oluşturan siyah piedra etkenidir. D) Trichosporon asahii, kıl gövdesinde yumuşak beyaz-krem nodüller oluşturan beyaz piedra etkenidir. E) Trichosporon beigelii (eski adlandırma), beyaz piedra etkeni olup melanom benzeri siyah deri lezyonu yapmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2012 TUS İlkbahar"
+  },
+  {
+    "question": "18. Göz operasyonlarını takiben gelişen fırsatçı enfeksiyonlardan alınan klinik materyalde, dallanan septalı hifler olarak görülen ve kültüründe fusiform şeklinde çok hücreli makrokonidyalar oluşturan mantar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Scedosporium apiospermum",
+      "B": "Aspergillus niger",
+      "C": "Penicillium notatum",
+      "D": "Fusarium oxysporum",
+      "E": "Scopulariopsis brevicaulis"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Fusarium türleri (F. oxysporum, F. solani, F. moniliforme), göz travması, göz cerrahisi veya kontakt lens kullanımını takiben gelişen fungal keratitlerin önemli bir etkenidir; dokuda Aspergillus'a benzer şekilde 45 derece açıyla dallanan hiyalen septalı hifler yaparken, kültürde karakteristik olarak fusiform (muz, hilal veya kano şeklinde) çok hücreli (bölmeli) makrokonidyalar oluşturur. Çeldiriciler: A) Scedosporium apiospermum, septalı hifler ve tek hücreli oval/armut şeklinde konidiler oluşturur, muz şeklinde makrokonidisi yoktur. B) Aspergillus niger, vezikül etrafında dizili siyah ఫियाlid ve yuvarlak konidiler oluşturur, fusiform makrokonidi yapmaz. C) Penicillium notatum, fırça (penicillus) görünümünde konidyofor ve tek hücreli yuvarlak konidiler oluşturur. E) Scopulariopsis brevicaulis, genellikle ayak başparmağı tırnağında onikomikoz etkenidir ve limon şeklinde kaba yüzeyli konidiler oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2012 TUS İlkbahar"
+  },
+  {
+    "question": "19. Aşağıdaki mikroorganizmalardan hangisi normal insan florasında bulunmaz?",
+    "options": {
+      "A": "Acinetobacter",
+      "B": "Candida",
+      "C": "Corynebacterium",
+      "D": "Haemophilus",
+      "E": "Coccidioides"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Coccidioides (C. immitis, C. posadasii), normal insan florasında kesinlikle bulunmayan, yalnızca kurak/yarı-kurak bölgelerdeki toprakta bulunan ve artrokonidilerin inhalasyonu ile bulaşan primer patojen (sistemik/endemik) bir dimorfik mantardır; klinik örnekten izole edilmesi her zaman hastalık etkeni olduğunu gösterir. Çeldiriciler: A) Acinetobacter türleri, sağlıklı bireylerin deri ve bazen solunum/gastrointestinal sistem florasında kommensal olarak bulunabilir. B) Candida türleri, ağız, gastrointestinal sistem, vajen ve deri florasının normal üyesidir. C) Corynebacterium türleri (difteroiler; C. diphtheriae hariç), normal deri ve üst solunum yolu florasında yaygın olarak bulunur. D) Haemophilus türleri (özellikle kapsülsüz H. influenzae ve H. parainfluenzae), üst solunum yolu normal florasında bulunur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2012 TUS Sonbahar"
+  },
+  {
+    "question": "20. Özellikle Aspergillus türlerinin tanımlanmasında kullanılabilecek besiyeri aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sabouraud dekstroz agar",
+      "B": "Malt ekstrakt agar",
+      "C": "Czapek-Dox agar",
+      "D": "CHROMagar",
+      "E": "Cornmeal agar"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Czapek-Dox agar, tek karbon kaynağı olarak sükroz ve tek inorganik azot kaynağı olarak sodyum nitrat içeren sentetik bir besiyeri olup, özellikle Aspergillus (ve Penicillium) türlerinin koloni morfolojisi ve mikroskobik yapısına göre tür düzeyinde tanımlanmasında (referans besiyeri olarak) kullanılır. Çeldiriciler: A) Sabouraud dekstroz agar (SDA), mantarların ilk izolasyonu ve genel üretimi için kullanılan standart besiyeridir, Aspergillus tür ayrımı için spesifik değildir. B) Malt ekstrakt agar, maya ve küflerin genel izolasyonu ve sporulasyonu için kullanılır. D) CHROMagar, kromojenik substratlar sayesinde özellikle Candida türlerinin (C. albicans, C. tropicalis, C. krusei vb.) koloni rengine göre hızlı ayrımında kullanılır. E) Cornmeal (mısır unlu) agar, Candida albicans'ta klamidospor oluşumunu ve diğer Candida türlerinde psödohif/blastospor dizilimini incelemek için kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2012 TUS Sonbahar"
+  },
+  {
+    "question": "21. Laboratuvar tanısında agara yayılan kırmızı pigment oluşturduğu gözlenen dimorfik mantar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Penicillium marneffei",
+      "B": "Coccidioides immitis",
+      "C": "Paracoccidioides brasiliensis",
+      "D": "Histoplasma capsulatum",
+      "E": "Sporothrix schenckii"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Penicillium (güncel adıyla Talaromyces) marneffei, Penicillium cinsi içindeki tek termal dimorfik tür olup 25-30°C'de küf formunda ürerken besiyerine (agara) difüze olan karakteristik çözünür kırmızı bir pigment üretir; 37°C'de ise pigment üretmeyen maya formuna dönüşür. Çeldiriciler: B) Coccidioides immitis, beyaz-gri pamuksu küf kolonileri oluşturur, agara yayılan kırmızı pigment üretmez. C) Paracoccidioides brasiliensis, yavaş üreyen beyaz-krem küf kolonileri oluşturur, kırmızı pigment üretmez. D) Histoplasma capsulatum, beyaz-kahverengi pamuksu koloniler oluşturur, kırmızı pigment üretmez. E) Sporothrix schenckii, başlangıçta beyaz-krem olup zamanla kahverengi-siyaha dönen küf kolonileri oluşturur, agara yayılan kırmızı pigment yapmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2012 TUS Sonbahar"
+  },
+  {
+    "question": "22. Aşağıdaki mantar türlerinden hangisinin neden olduğu bir enfeksiyon kuşkusu durumunda klinik örnekler mutlaka klas II biyogüvenlik kabinlerinde incelenmeli ve işlenmelidir?",
+    "options": {
+      "A": "Aspergillus niger",
+      "B": "Rhizopus oryzae",
+      "C": "Cryptococcus neoformans",
+      "D": "Fusarium moniliforme",
+      "E": "Coccidioides immitis"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Coccidioides immitis, kültürde üretildiğinde çok kolay aerosolize olarak havaya karışabilen ve solunduğunda laboratuvar çalışanlarında ağır sistemik enfeksiyona yol açabilen fıçı şeklinde artrokonidiler oluşturur; bu yüksek bulaşıcılık riski nedeniyle klinik örnekler ve kültürler mutlaka en az Biyogüvenlik Kabini Sınıf II (ve BSL-3 laboratuvar koşulları) içerisinde işlenmelidir. Çeldiriciler: A) Aspergillus niger, doğada yaygın bulunan fırsatçı bir küf olup C. immitis düzeyinde laboratuvar kaynaklı primer enfeksiyon tehlikesi taşımaz. B) Rhizopus oryzae, fırsatçı bir Mucorales üyesidir ve sağlıklı laboratuvar personelinde yüksek bulaşıcılık riski oluşturmaz. C) Cryptococcus neoformans, kültürde kapsüllü maya formunda ürer, havaya karışan enfeksiyöz artrokonidi oluşturmaz. D) Fusarium moniliforme, fırsatçı bir küf mantarı olup C. immitis gibi yüksek laboratuvar biyogüvenlik düzeyi gerektirmez.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2012 TUS Sonbahar"
+  },
+  {
+    "question": "23. Klinik örneklerden en sık izole edilen Cryptococcus neoformans tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Serotip A",
+      "B": "Serotip B",
+      "C": "Serotip C",
+      "D": "Serotip D",
+      "E": "Serotip AD"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Cryptococcus türleri kapsül polisakkarit antijenlerine göre serotiplendirilir; dünya genelinde ve Türkiye'de klinik örneklerden (özellikle AIDS hastalarındaki kriptokokal menenjit olgularından) en sık izole edilen tip Serotip A'dır (Cryptococcus neoformans var. grubii). Çeldiriciler: B) Serotip B, okaliptüs ağaçları ile ilişkili olan ve immünkompetan bireylerde de enfeksiyon yapabilen Cryptococcus gattii'ye aittir. C) Serotip C, yine Cryptococcus gattii kompleksi içinde yer alan ve daha sınırlı coğrafi dağılım gösteren bir serotiptir. D) Serotip D (C. neoformans var. neoformans), Avrupa'nın bazı bölgelerinde görülse de küresel olarak Serotip A'dan çok daha az sıklıktadır. E) Serotip AD, Serotip A ve D'nin diploid/anöploid hibrit formu olup klinik örneklerde en sık izole edilen tip değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2012 TUS Sonbahar"
+  },
+  {
+    "question": "24. Aşağıdakilerden hangisi, Cryptococcus neoformans'ta patojeniteye katkıda bulunduğu düşünülen özelliklerden biri değildir?",
+    "options": {
+      "A": "37 °C'de üreyebilmesi",
+      "B": "Polisakkarit kapsül oluşturması",
+      "C": "Melanin üretmesi",
+      "D": "Fosfolipaz üretmesi",
+      "E": "Maya-hif dimorfizmi sergilemesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Maya-hif dimorfizmi (dokuda hem maya hem de psödohif/gerçek hif oluşturabilme), Candida albicans'ın temel virülans faktörlerinden biridir; Cryptococcus neoformans ise klinik örneklerde ve dokuda yalnızca kapsüllü maya formunda bulunur, maya-hif dimorfizmi sergilemez. Çeldiriciler: A) 37°C'de (insan vücut sıcaklığında) üreyebilme yeteneği, patojen C. neoformans'ı saprofit kriptokoklardan ayıran temel virülans özelliğidir. B) Glukuronoksilomannan yapısındaki polisakkarit kapsül, fagositozu önleyen, antijen sunumunu ve lökosit göçünü baskılayan en önemli virülans faktörüdür. C) Fenol oksidaz (lakkaz) enzimi ile üretilen melanin pigmenti, hücre duvarında birikerek mantarı makrofaj içi oksidatif yıkımdan korur. D) Fosfolipaz ve üreaz enzimlerinin üretimi, konak hücre membranlarını parçalayarak doku invazyonuna ve kan-beyin bariyerini geçmeye katkıda bulunur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2013 TUS İlkbahar"
+  },
+  {
+    "question": "25. Müsikarmin boyası aşağıdaki mantar türlerinin hangisinin boyanmasında ayırt edici olarak kullanılmaktadır?",
+    "options": {
+      "A": "Cryptococcus neoformans",
+      "B": "Aspergillus fumigatus",
+      "C": "Candida albicans",
+      "D": "Pneumocystis jiroveci",
+      "E": "Malassezia furfur"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Mayer'in müsikarmin (mucicarmine) boyası, doku kesitlerinde Cryptococcus neoformans'ın asidik mukopolisakkarit yapısındaki geniş kapsülünü parlak pembe-kırmızıya boyayarak diğer kapsülsüz mayalardan ayırt edilmesinde spesifik olarak kullanılır. Çeldiriciler: B) Aspergillus fumigatus kapsülsüz bir küf mantarıdır; dokuda Gomori metenamin gümüşleme (GMS) veya PAS ile boyanır. C) Candida albicans kapsülsüz olduğundan müsikarmin ile boyanmaz; Gram, PAS veya GMS ile gösterilir. D) Pneumocystis jirovecii kapsülsüzdür; kist duvarı GMS veya toluidin mavisi ile, trofozoitleri ise Giemsa ile boyanır. E) Malassezia furfur kapsülsüzdür; KOH, kalkoflor beyazı veya metilen mavisi ile incelenir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2013 TUS İlkbahar"
+  },
+  {
+    "question": "26. Candida türlerinin identifikasyonunda aşağıdakilerden hangisi kullanılmaz?",
+    "options": {
+      "A": "Karbonhidrat asimilasyon testi",
+      "B": "Peptid nükleik asit (PNA) – floresan in situ hibridizasyon (FISH) testi",
+      "C": "CHROMagar'da koloni morfolojisi incelenmesi",
+      "D": "Galaktomannan antijeninin araştırılması",
+      "E": "Germ tüp testi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Galaktomannan antijeni Candida türlerinde bulunmaz; Aspergillus hücre duvarının majör antijenik bileşenidir ve invaziv aspergilloz tanısında kullanılır (Candida tanısında ise mannan antijeni araştırılır). Çeldiriciler: A) Karbonhidrat asimilasyon ve fermantasyon testleri (API 20C AUX vb.), farklı şekerlerin kullanım profiline göre Candida türlerinin biyokimyasal identifikasyonunda klasik yöntemdir. B) PNA-FISH testi, pozitif kan kültürlerinden rRNA'yı hedefleyerek Candida türlerinin hızlı ve spesifik olarak tanımlanmasını sağlar. C) CHROMagar Candida besiyeri, türe özgü enzimlerle kromojenik substratların parçalanması sonucu oluşan farklı koloni renkleriyle (örneğin C. albicans yeşil, C. tropicalis metalik mavi) tür ayrımında kullanılır. E) Germ tüp testi, C. albicans ve C. dubliniensis'i diğer Candida türlerinden hızlıca ayırt etmek için kullanılan temel tarama testidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2013 TUS İlkbahar"
+  },
+  {
+    "question": "27. Santral venöz kateter aracılığı ile intravenöz lipid solüsyonları verilen kişilerde, kateter kaynaklı fungemiye neden olan ve üremek için besiyerlerinde lipid bulunmasına gereksinim duyan mantar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Trichosporon asahii",
+      "B": "Rhodotorula glutinis",
+      "C": "Cryptococcus neoformans",
+      "D": "Malassezia furfur",
+      "E": "Candida albicans"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Malassezia furfur, zorunlu lipofilik bir maya olduğundan besiyerinde üremek için uzun zincirli yağ asitlerine (zeytinyağı vb.) gereksinim duyar ve klinikte özellikle santral venöz kateterden lipit emülsiyonu içeren total parenteral nütrisyon (TPN) alan prematüre bebeklerde ve immünsüprese hastalarda kateter ilişkili fungemiye neden olur. Çeldiriciler: A) Trichosporon asahii fungemi yapabilir ancak üremek için lipide gereksinim duymaz. B) Rhodotorula glutinis, kateter ilişkili fungemi yapabilen kapsüllü ve kırmızı-turuncu karotenoid pigmentli bir mayadır ancak lipofilik değildir. C) Cryptococcus neoformans, lipit bağımlı olmayan kapsüllü bir mayadır. E) Candida albicans, kateter ilişkili fungeminin en sık etkenlerinden biri olsa da lipit bulunmayan standart besiyerlerinde kolaylıkla ürer.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2013 TUS Sonbahar"
+  },
+  {
+    "question": "28. Aşağıdakilerden hangisi, termal dimorfik mantar türlerinden biridir?",
+    "options": {
+      "A": "Cryptococcus neoformans",
+      "B": "Candida albicans",
+      "C": "Penicillium marneffei",
+      "D": "Aspergillus nidulans",
+      "E": "Trichosporon beigelii"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Penicillium (Talaromyces) marneffei, 25°C'de (oda sıcaklığında) küf formunda, 37°C'de (insan vücut sıcaklığında) ise maya formunda üreyen gerçek bir termal dimorfik mantardır (diğer termal dimorfikler: Histoplasma capsulatum, Blastomyces dermatitidis, Coccidioides immitis, Paracoccidioides brasiliensis, Sporothrix schenckii). Çeldiriciler: A) Cryptococcus neoformans, hem 25°C'de hem de 37°C'de sadece kapsüllü maya formunda ürer. B) Candida albicans, sıcaklığa bağlı klasik termal dimorfizm (25°C'de küf, 37°C'de maya) göstermez; aksine 37°C'de ve dokuda hem maya hem de hif/psödohif oluşturabilen polimorfik bir mayadır. D) Aspergillus nidulans, her sıcaklıkta sadece küf formunda bulunan monomorfik bir mantardır. E) Trichosporon beigelii, yüzeyel beyaz piedra ve fırsatçı enfeksiyon etkeni olup termal dimorfik değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2013 TUS Sonbahar"
+  },
+  {
+    "question": "29. Alilamin grubu antifungal ilaçlar aşağıdaki enzimlerden hangisinin inhibisyonu yoluyla etki gösterir?",
+    "options": {
+      "A": "Glukan sentaz",
+      "B": "Skualen epoksidaz",
+      "C": "Kitin sentaz",
+      "D": "Lanosterol demetilaz",
+      "E": "Sitokrom P450 14 alfa-demetilaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Allilamin grubu antifungal ilaçlar (terbinafin, naftifin), mantar hücre membranında ergosterol biyosentezinin erken basamaklarında skualenin lanosterole (skualen-2,3-epoksite) dönüşümünü katalizleyen skualen epoksidaz enzimini inhibe eder; sonuçta hücre içinde toksik düzeyde skualen birikerek fungisidal etki oluşur. Çeldiriciler: A) Glukan sentaz (1,3-beta-D-glukan sentaz), ekinokandin grubu antifungaller tarafından inhibe edilir. C) Kitin sentaz, nikkomisin ve polioksin grubu ilaçlar tarafından inhibe edilir. D) Lanosterol demetilaz ve E) Sitokrom P450 14-alfa-demetilaz aynı enzimi tanımlamakta olup allilaminler tarafından değil, azol grubu (imidazol ve triazol) antifungaller tarafından inhibe edilir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2013 TUS Sonbahar"
+  },
+  {
+    "question": "30. Aşağıdaki küf mantarlarından hangisinin konidyumları çok bulaşıcı olduğu için laboratuvarda biyogüvenlik düzeyi en az 3 olan ortamlarda çalışılmalıdır?",
+    "options": {
+      "A": "Coccidioides spp.",
+      "B": "Aspergillus spp.",
+      "C": "Candida spp.",
+      "D": "Saccharomyces spp.",
+      "E": "Fusarium spp."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Coccidioides türleri (C. immitis ve C. posadasii), kültür ortamında küf formunda ürerken tek bir tanesinin bile solunmasıyla enfeksiyon oluşturabilen aşırı bulaşıcı fıçı şeklinde artrokonidyumlar üretir; laboratuvar kaynaklı enfeksiyonların en önemli mantar etkeni olduğundan kültürleriyle çalışırken Biyogüvenlik Düzeyi 3 (BSL-3) koşulları sağlanmalıdır. Çeldiriciler: B) Aspergillus spp., fırsatçı küf mantarı olup BSL-2 koşullarında çalışılır. C) Candida spp., küf değil maya mantarıdır ve BSL-2 (veya BSL-1/2) düzeyinde çalışılır. D) Saccharomyces spp., küf değil maya mantarıdır ve biyogüvenlik açısından en düşük risk grubundadır (BSL-1). E) Fusarium spp., fırsatçı hiyalen küf mantarı olup BSL-3 gerektirmez.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2013 TUS Sonbahar"
+  },
+  {
+    "question": "31. Üç yıldır vajinal akıntı şikâyeti olan ve akıntıdan yapılan direkt mikroskobik incelemede maya hücreleri saptanan bir hastaya aralıklı olarak flukonazol tedavisi verilmiş ancak yanıt alınamamıştır. Antifungal duyarlılık profilleri göz önüne alındığında bu klinik tablodan sorumlu en olası etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Candida albicans",
+      "B": "Candida krusei",
+      "C": "Candida parapsilosis",
+      "D": "Candida lusitaniae",
+      "E": "Candida tropicalis"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Candida krusei, 14-alfa-demetilaz enziminin flukonazole düşük afinitesi nedeniyle flukonazole intrinsik (doğal/primer) olarak dirençlidir; bu nedenle tekrarlayan flukonazol tedavilerine yanıt vermeyen kronik/rekürren vulvovajinal kandidiyazis olgularında verilen seçenekler arasında en olası etkendir. Çeldiriciler: A) Candida albicans, vulvovajinal kandidiyazisin en sık etkeni olmakla birlikte flukonazole doğal olarak duyarlıdır. C) Candida parapsilosis, flukonazole doğal dirençli değildir. D) Candida lusitaniae, flukonazole değil amfoterisin B'ye karşı direnç gelişimi ile karakterizedir. E) Candida tropicalis, flukonazole karşı intrinsik dirence sahip değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2014 TUS İlkbahar"
+  },
+  {
+    "question": "32. Aşağıdakilerden hangisi, antimitotik etki yoluyla antifungal aktivite gösterir?",
+    "options": {
+      "A": "Polyenler",
+      "B": "Azoller",
+      "C": "Flusitozin",
+      "D": "Ekinokandinler",
+      "E": "Griseofulvin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Griseofulvin, dermatofit enfeksiyonlarının oral tedavisinde kullanılan, mantar hücresinde tübülin proteinlerine bağlanarak mikrotübül fonksiyonunu ve mitotik iğcik oluşumunu bozan, böylece mantar mitozunu (bölünmesini) metafaz evresinde durdurarak antimitotik etki gösteren fungostatik bir ilaçtır. Çeldiriciler: A) Polyenler (amfoterisin B, nistatin), hücre membranındaki ergosterole bağlanıp por açarak etki gösterir. B) Azoller, sitokrom P450 bağımlı 14-alfa-demetilaz enzimini bloke ederek ergosterol sentezini inhibe eder. C) Flusitozin, 5-FU'ya dönüşerek timidilat sentazı inhibe eder ve hatalı RNA/DNA sentezine yol açar (antimetabolit etki). D) Ekinokandinler, 1,3-beta-D-glukan sentazı inhibe ederek mantar hücre duvarı sentezini bozar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2014 TUS İlkbahar"
+  },
+  {
+    "question": "33. İnvaziv aspergilloz hastalarından en sık izole edilen tür aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aspergillus fumigatus",
+      "B": "Aspergillus flavus",
+      "C": "Aspergillus nidulans",
+      "D": "Aspergillus niger",
+      "E": "Aspergillus terreus"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İnvaziv aspergilloz (özellikle nötropenik, sitotoksik kemoterapi veya yüksek doz steroid alan hastalarda gelişen invaziv pulmoner aspergilloz) olgularından tüm dünyada en sık (%80-90 oranında) izole edilen tür Aspergillus fumigatus'tur. Çeldiriciler: B) Aspergillus flavus, invaziv aspergillozda ikinci sıklıkta görülür ve daha çok sinüzit ile aflatoksin üretimiyle ilişkilidir. C) Aspergillus nidulans, nadir bir invaziv etken olup kronik granülomatöz hastalıkta görülür. D) Aspergillus niger, invaziv enfeksiyondan ziyade yüzeyel dış kulak yolu enfeksiyonu (otomikoz) ve fungus topu etkenidir. E) Aspergillus terreus, daha az sıklıkta görülen ve amfoterisin B'ye doğal dirençli olan bir türdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2014 TUS İlkbahar"
+  },
+  {
+    "question": "34. Aşağıdaki klinik tablolardan hangisinin etkeni bir maya mantarıdır?",
+    "options": {
+      "A": "Pityriasis versicolor",
+      "B": "Dermatofitoz",
+      "C": "Siyah piedra",
+      "D": "Aspergilloz",
+      "E": "Mukormikoz"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Pityriasis (Tinea) versicolor tablosunun etkeni, normal insan deri florasında da bulunabilen lipofilik bir maya mantarı olan Malassezia furfur (ve M. globosa) kompleksidir. Çeldiriciler: B) Dermatofitoz etkenleri olan Trichophyton, Microsporum ve Epidermophyton türleri filamentöz küf mantarlarıdır. C) Siyah piedra etkeni olan Piedraia hortae, kıl gövdesinde askospor içeren nodüller oluşturan dematisiyöz bir küf mantarıdır. D) Aspergilloz etkeni olan Aspergillus türleri, septalı hifler oluşturan monomorfik küf mantarlarıdır. E) Mukormikoz etkeni olan Rhizopus, Mucor ve Lichtheimia (Absidia) türleri, septasız hifler oluşturan küf mantarlarıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2014 TUS İlkbahar"
+  },
+  {
+    "question": "35. Aşağıdaki mantar enfeksiyonlarından hangisinin tanısında (1→3)-β-D-glukan testi kullanılmaz?",
+    "options": {
+      "A": "Mukormikoz",
+      "B": "Kandidiyaz",
+      "C": "Aspergilloz",
+      "D": "Trikosporonoz",
+      "E": "Fusarium enfeksiyonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): (1→3)-β-D-glukan, birçok mantarın hücre duvarında bulunan ve invaziv mantar enfeksiyonlarının serolojik tanısında kullanılan bir polisakkarittir; ancak Mucorales (mukormikoz/zigomikoz etkenleri) ve Cryptococcus türlerinin (ayrıca Blastomyces dermatitidis'in maya formunun) hücre duvarında yeterli miktarda 1,3-beta-D-glukan bulunmadığından bu enfeksiyonlarda test negatif çıkar ve tanıda kullanılamaz. Çeldiriciler: B) İnvaziv kandidiyaz tanısında serumda 1,3-beta-D-glukan testi pozitif saptanır. C) İnvaziv aspergilloz tanısında galaktomannanın yanı sıra 1,3-beta-D-glukan testi de pozitif sonuç verir. D) İnvaziv trikosporonoz olgularında serumda 1,3-beta-D-glukan düzeyi yükselir. E) İnvaziv Fusarium enfeksiyonlarının (füsaryoz) tanısında 1,3-beta-D-glukan testi pozitiflik gösterir ve tanıya yardımcıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2014 TUS Sonbahar"
+  },
+  {
+    "question": "36. Aşağıdakilerden hangisi, otomikozun en sık görülen etkenidir?",
+    "options": {
+      "A": "Aspergillus niger",
+      "B": "Aspergillus nidulans",
+      "C": "Candida glabrata",
+      "D": "Candida famata",
+      "E": "Fusarium solani"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Dış kulak yolunun yüzeyel mantar enfeksiyonu olan otomikoz olgularından en sık izole edilen etken, kültürde ve dış kulak yolunda siyah pigmentli konidi başları oluşturan Aspergillus niger'dir (ikinci sıklıkta Candida albicans görülür). Çeldiriciler: B) Aspergillus nidulans, otomikozun klasik ve en sık etkeni değildir. C) Candida glabrata, dış kulak yolu enfeksiyonlarında nadir görülür. D) Candida famata, nadir görülen bir fırsatçı maya olup otomikozun ana etkeni değildir. E) Fusarium solani, otomikozdan ziyade korneal ülser (keratit) ve onikomikoz etkeni olarak öne çıkar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2014 TUS Sonbahar"
+  },
+  {
+    "question": "37. Kontrolsüz diyabeti olan bir hastanın yüzündeki nekrotik lezyondan hazırlanan mikroskobik preparatta düzensiz dallanma gösteren, nadiren septalanması olan geniş hifler görülmektedir. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mukormikoz",
+      "B": "Aspergilloz",
+      "C": "Fusaryoz",
+      "D": "Kromoblastomikoz",
+      "E": "Penisilloz"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kontrolsüz diyabet (diyabetik ketoasidoz) zemininde burun, sinüs, orbita ve yüzde siyah nekrotik eskarlarla seyreden ve doku mikroskobisinde geniş (10-20 µm), kurdele benzeri, septasız (veya çok nadir septalı) ve dik (90 derece) açıyla düzensiz dallanan hiflerin görüldüğü tablo rinoserebral mukormikozdur (zigomikoz). Çeldiriciler: B) Aspergillozda hifler daha dar, düzenli septalı ve 45 derecelik dar açıyla (dikotom) dallanma gösterir. C) Fusaryozda Aspergillus'a benzer şekilde düzenli septalı ve 45 derece açıyla dallanan hiyalen hifler görülür. D) Kromoblastomikoz, deri altı bir mikoz olup dokuda hif değil, kahverengi kalın duvarlı sklerotik (muriform/Medlar) cisimcikler görülür. E) Penisilloz (talaromikoz), dokuda makrofaj içinde enine septumla bölünen maya hücreleri ile karakterizedir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2014 TUS Sonbahar"
+  },
+  {
+    "question": "38. Aşağıdaki antifungallerden hangisi nükleik asit sentezini inhibe ederek etki gösterir?",
+    "options": {
+      "A": "Vorikonazol",
+      "B": "Amfoterisin B",
+      "C": "Terbinafin",
+      "D": "Flusitozin",
+      "E": "Kaspofungin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Flusitozin (5-florositozin), mantar hücresine sitozin permeaz ile girdikten sonra sitozin deaminaz enzimiyle 5-florourasile (5-FU) dönüştürülür; 5-FU ise hem timidilat sentazı inhibe ederek DNA sentezini bozar hem de hatalı nükleotid olarak RNA yapısına katılıp protein sentezini engelleyerek nükleik asit sentezi üzerinden etki gösterir. Çeldiriciler: A) Vorikonazol, 14-alfa-demetilaz enzimini inhibe ederek membran ergosterol sentezini bozar. B) Amfoterisin B, membran ergosterolüne bağlanıp por oluşturarak hücre geçirgenliğini bozar. C) Terbinafin, skualen epoksidazı inhibe ederek ergosterol sentezini engeller. E) Kaspofungin, 1,3-beta-D-glukan sentazı inhibe ederek hücre duvarı sentezini bozar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2015 TUS İlkbahar"
+  },
+  {
+    "question": "39. Aşağıdaki Candida türlerinden hangisine ait tüm suşlar flukonazole doğal dirençli olarak değerlendirilir?",
+    "options": {
+      "A": "Candida krusei",
+      "B": "Candida albicans",
+      "C": "Candida glabrata",
+      "D": "Candida tropicalis",
+      "E": "Candida parapsilosis"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Candida krusei suşlarının tamamı, hedef enzim olan 14-alfa-demetilazın yapısal farklılığı nedeniyle in vitro duyarlılık test sonucuna bakılmaksızın flukonazole doğal (intrinsik/primer) dirençli kabul edilir. Çeldiriciler: B) Candida albicans suşları flukonazole doğal olarak duyarlıdır. C) Candida glabrata suşlarında flukonazole karşı dışa atım pompalarına bağlı kazanılmış direnç veya doza bağımlı duyarlılık görülebilse de tüm suşları doğal dirençli değildir. D) Candida tropicalis suşları flukonazole doğal olarak duyarlıdır. E) Candida parapsilosis suşları flukonazole doğal olarak duyarlıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2015 TUS İlkbahar"
+  },
+  {
+    "question": "40. Bahçe işleri ve inek bakıcılığı yapan 50 yaşındaki erkek hastanın kollarındaki pullanma gösteren ve etrafı inflamasyonlu deri lezyonlarından alınan kazıntı örneğinde dermatofit gözlenmiştir. Bu hasta için en olası etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Microsporum canis",
+      "B": "Microsporum gallinae",
+      "C": "Trichophyton equinum",
+      "D": "Trichophyton verrucosum",
+      "E": "Trichophyton mentagrophytes var. Mentagrophytes"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sığır (inek) bakıcılarında ve çiftçilerde enfekte sığırlarla doğrudan temas sonucu bulaşan ve kollar, yüz veya saçlı deride şiddetli, püstüler, derin inflamatuar dermatofitoz lezyonlarına yol açan zoofilik dermatofit türü Trichophyton verrucosum'dur. Çeldiriciler: A) Microsporum canis, ineklerden değil kedi ve köpeklerden bulaşan zoofilik bir dermatofittir. B) Microsporum gallinae, kümes hayvanları (tavuk, hindi) ile ilişkili zoofilik bir dermatofittir. C) Trichophyton equinum, atlarla temas sonucu bulaşan zoofilik bir dermatofittir. E) Trichophyton mentagrophytes var. mentagrophytes, esas olarak kemirgenlerle (fare, kobay vb.) ilişkili zoofilik bir dermatofittir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2015 TUS İlkbahar"
+  },
+  {
+    "question": "41. Alilamin grubu antifungal ilaçlar hücrede ergosterol sentezini inhibe ettiklerinde, mantar hücresinde aşağıdaki maddelerden hangisi birikir?",
+    "options": {
+      "A": "Skualen",
+      "B": "Lanosterol",
+      "C": "Zimosterol",
+      "D": "Fekosterol",
+      "E": "Ergosterol"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Allilamin grubu antifungaller (terbinafin, naftifin), ergosterol sentez yolağında skualenin lanosterole dönüşümünü sağlayan skualen epoksidaz enzimini inhibe eder; bu enzimin bloke edilmesi sonucunda mantar hücresi içinde substrat olan skualen toksik düzeyde birikir ve hücre ölümüne (fungisidal etkiye) neden olur. Çeldiriciler: B) Lanosterol, skualen epoksidaz basamağından sonra oluşan ara üründür (azoller 14-alfa-demetilazı inhibe ettiğinde lanosterol ve 14-alfa-metilsteroller birikir). C) Zimosterol, lanosterolün demetilasyonu sonrasında oluşan daha ileri bir ara üründür, allilamin kullanımıyla birikmez. D) Fekosterol, ergosterol sentezinin son basamaklarındaki ara ürünlerden biridir ve bu basamakta birikmez. E) Ergosterol, yolağın son ürünü olup sentezi inhibe edildiği için miktarı birikmez, aksine azalır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2015 TUS Sonbahar"
+  },
+  {
+    "question": "42. Aşağıdaki Candida türlerinden hangisi, yalancı veya gerçek hif oluşturmadan sadece küçük maya hücreleri şeklinde görülür?",
+    "options": {
+      "A": "Candida glabrata",
+      "B": "Candida albicans",
+      "C": "Candida tropicalis",
+      "D": "Candida parapsilosis",
+      "E": "Candida krusei"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Candida glabrata, diğer patojen Candida türlerinden farklı olarak hiçbir koşulda yalancı hif (psödohif), gerçek hif, germ tüp veya klamidospor oluşturmaz; hem dokuda hem de kültürde yalnızca küçük (2-4 µm), oval, tomurcuklanan maya hücreleri (blastosporlar) şeklinde görülür. Çeldiriciler: B) Candida albicans, hem blastospor hem psödohif hem de gerçek hif ve klamidospor oluşturur. C) Candida tropicalis, bol miktarda dallanan psödohif ve blastospor oluşturur. D) Candida parapsilosis, kıvrımlı psödohifler ve dev hücreler oluşturur. E) Candida krusei, uzun, ağaç dallarına (çapraz kibrit çöplerine) benzeyen psödohifler ve uzamış blastosporlar oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2015 TUS Sonbahar"
+  },
+  {
+    "question": "43. Aşağıdaki dimorfik mantarlardan hangisinin dokudaki morfolojik formu maya hücresi yapısına sahip değildir?",
+    "options": {
+      "A": "Histoplasma capsulatum",
+      "B": "Coccidioides immitis",
+      "C": "Paracoccidioides brasiliensis",
+      "D": "Blastomyces dermatitidis",
+      "E": "Penicillium marneffei"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dimorfik mantarlar genel olarak oda sıcaklığında (25°C) küf, insan dokusunda (37°C) ise maya formunda bulunurken, Coccidioides immitis bu kuralın istisnasıdır; dokuda tomurcuklanan maya hücresi oluşturmaz, bunun yerine \"sferül\" adı verilen ve içi çok sayıda endosporla dolu olan büyük, kalın duvarlı kese yapıları oluşturur. Çeldiriciler: A) Histoplasma capsulatum, dokuda makrofajların içinde küçük oval maya hücreleri yapısındadır. C) Paracoccidioides brasiliensis, dokuda gemi dümeni şeklinde çoklu tomurcuklanan maya hücreleri yapısındadır. D) Blastomyces dermatitidis, dokuda kalın duvarlı, geniş tabanlı tomurcuklanan maya hücreleri yapısındadır. E) Penicillium (Talaromyces) marneffei, dokuda ortadan enine septumla (fisyonla) bölünen maya benzeri hücreler yapısındadır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2015 TUS Sonbahar"
+  },
+  {
+    "question": "44. Özofagus kanseriyle ilişkili mikotoksin aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fumonizinler",
+      "B": "Sitrinin",
+      "C": "Trikotekener",
+      "D": "Siklopiazonik asit",
+      "E": "Okrotoksin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Fumonizinler, özellikle mısır ve mısır ürünlerini kontamine eden Fusarium moniliforme (F. verticillioides) tarafından üretilen mikotoksinlerdir; sfingolipit metabolizmasını bozarlar ve insanlarda özofagus (yemek borusu) kanseri (atların lökoensefalomalazisi ile birlikte) gelişimiyle doğrudan ilişkilendirilmiştir. Çeldiriciler: B) Sitrinin, Penicillium ve Aspergillus türleri tarafından üretilen, sarı pirinç hastalığı ve nefropati (böbrek hasarı) ile ilişkili bir mikotoksindir. C) Trikotekenler (T-2 toksini vb.), Fusarium ve Stachybotrys türleri tarafından üretilen, protein sentezini inhibe ederek alimenter toksik aleuki (kemik iliği baskılanması, mukozal nekroz, kanama) yapan mikotoksinlerdir. D) Siklopiazonik asit, darı vb. tahıllarda Penicillium ve Aspergillus türlerince üretilen, uyku hali, titreme ve sersemlikle seyreden Kodua zehirlenmesi etkenidir. E) Okratoksin (Ochratoxin A), Aspergillus ve Penicillium türleri tarafından tahıllarda üretilen ve kronik interstisyel nefritle seyreden Balkan endemik nefropatisi ile ilişkili nefrotoksik bir mikotoksindir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2016 TUS İlkbahar"
+  },
+  {
+    "question": "45. Aşağıdaki mayalardan hangisi, içerdiği karotenoid pigment nedeniyle Sabouraud dekstroz agarda pembeden kırmızıya kadar değişebilen tonlarda renkli koloniler oluşturur?",
+    "options": {
+      "A": "Rhodotorula",
+      "B": "Exophiala",
+      "C": "Malassezia",
+      "D": "Trichosporon",
+      "E": "Saccharomyces"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Rhodotorula türleri (R. mucilaginosa, R. glutinis), kapsüllü olan ve sentezlediği karotenoid pigment nedeniyle Sabouraud dekstroz agarda karakteristik olarak mercan pembesi, somon veya kırmızı-turuncu renkte mukoid koloniler oluşturan fırsatçı maya mantarlarıdır. Çeldiriciler: B) Exophiala türleri, hücre duvarında melanin içeren dematisiyöz (esmer) mantarlar olup zeytin yeşili, koyu kahverengi veya siyah koloniler oluşturur. C) Malassezia türleri, lipitli besiyerlerinde krem-sarımsı renkte koloniler oluşturur. D) Trichosporon türleri, buruşuk yüzeyli, beyaz-krem renkte koloniler oluşturur. E) Saccharomyces türleri, düz, beyaz-krem renkte maya kolonileri oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2016 TUS İlkbahar"
+  },
+  {
+    "question": "46. Aşağıdaki mantarlardan hangisine bağlı gelişen enfeksiyonlarda sklerotik cisimcik gözlenmez?",
+    "options": {
+      "A": "Fonsecaea",
+      "B": "Cladosporium",
+      "C": "Phialophora",
+      "D": "Pseudallescheria",
+      "E": "Rhinocladiella"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sklerotik cisimcik (muriform hücre / Medlar cisimciği / bakır kuruş görünümü), deri altı mikozlarından kromoblastomikoz için patognomonik olan doku formudur; Pseudallescheria boydii (Scedosporium apiospermum) ise kromoblastomikoz etkeni olmayıp ömikotik miçetoma (ve fırsatçı enfeksiyon) etkenidir ve dokuda sklerotik cisimcik değil, beyaz-sarı granüller ve hiyalen septalı hifler oluşturur. Çeldiriciler: A) Fonsecaea (özellikle F. pedrosoi ve F. compacta), dünyada kromoblastomikozun en sık etkenidir ve dokuda sklerotik cisimcik oluşturur. B) Cladosporium (Cladophialophora carrionii), kromoblastomikoz etkeni olan dematisiyöz bir mantardır ve sklerotik cisimcik oluşturur. C) Phialophora verrucosa, kromoblastomikoz etkenidir ve dokuda sklerotik cisimcik oluşturur. E) Rhinocladiella aquaspersa, kromoblastomikoz etkenlerinden biridir ve dokuda sklerotik cisimcik oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2016 TUS İlkbahar"
+  },
+  {
+    "question": "47. Aşağıdakilerden hangisi kültürde üreyen bir küf mantarının mikroskobik incelemesi için tercih edilir?",
+    "options": {
+      "A": "Potasyum hidroksit",
+      "B": "Laktofenol pamuk mavisi",
+      "C": "Fontana-Masson",
+      "D": "Metenamin gümüşleme",
+      "E": "Giemsa"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Laktofenol pamuk mavisi (LPCB), kültürde üreyen küf mantarlarının hif ve spor morfolojisini incelemek için en sık tercih edilen boyadır; içindeki fenol mantarı öldürür, laktik asit mantar yapılarını korur, pamuk mavisi (anilin mavisi) ise hücre duvarındaki kitini maviye boyar. Çeldiriciler: A) Potasyum hidroksit (%10-20 KOH), kültürden yapılan incelemede değil, deri, saç ve tırnak gibi klinik örneklerdeki keratin dokusunu eriterek mantar elemanlarını görünür kılmak için kullanılır. C) Fontana-Masson boyası, doku kesitlerinde Cryptococcus neoformans ve dematisiyöz mantarların hücre duvarındaki melanin pigmentini göstermek için kullanılır. D) Gomori metenamin gümüşleme (GMS), doku kesitlerinde mantar duvarını siyaha boyayan histopatolojik bir boyadır (ve P. jirovecii kistlerini gösterir). E) Giemsa, kan ve kemik iliği yaymalarında hücre içi Histoplasma capsulatum mayalarını veya P. jirovecii trofozoitlerini göstermek için kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2016 TUS Sonbahar"
+  },
+  {
+    "question": "48. Aşağıdakilerden hangisi primer Cryptococcus enfeksiyonunun en sık geliştiği organdır?",
+    "options": {
+      "A": "Deri",
+      "B": "Beyin",
+      "C": "Göz",
+      "D": "Kemik",
+      "E": "Akciğer"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Cryptococcus neoformans ve C. gattii doğadan (güvercin dışkısıyla kontamine toprak veya okaliptüs ağaçlarından) bazidiyosporların veya kurutulmuş maya hücrelerinin solunması (inhalasyon) yoluyla bulaşır; bu nedenle mantarın vücutta yerleştiği ve primer enfeksiyonu oluşturduğu ilk ve en sık organ akciğerdir (daha sonra hematojen yayılımla beyin ve meninkslere ulaşır). Çeldiriciler: A) Deri tutulumu, genellikle primer değil, sistemik/dissemine kriptokokkozun hematojen yayılımı sonucu sekonder olarak gelişir. B) Beyin ve meninksler, klinik olarak en ağır ve semptomatik tablonun (meningoensefalit) görüldüğü yer olmakla birlikte akciğerdeki primer odaktan hematojen yayılımla sekonder olarak tutulur. C) Göz tutulumu (koryoretinit, optik nörit), dissemine enfeksiyon sırasında sekonder olarak ortaya çıkar. D) Kemik tutulumu, vakaların küçük bir kısmında hematojen yayılıma bağlı osteolitik lezyonlar şeklinde sekonder olarak görülür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2016 TUS Sonbahar"
+  },
+  {
+    "question": "49. Aşağıdakilerden hangisi Candida'ya ait virulans faktörlerinden biri değildir?",
+    "options": {
+      "A": "Melanin",
+      "B": "Adherans",
+      "C": "Maya-hif dönüşümü",
+      "D": "Proteinaz",
+      "E": "Yüzey hidrofobisitesi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Melanin üretimi Candida türlerinin bir virülans faktörü olmayıp, Cryptococcus neoformans (fenol oksidaz aracılığıyla) ve dematisiyöz küf mantarlarının fagositoza ve oksidatif yıkıma karşı kullandığı temel virülans faktörüdür. Çeldiriciler: B) Adherans (konak epitel ve endotel hücrelerine tutunma), Candida'nın kolonizasyon ve invazyon için kullandığı ilk ve en önemli virülans basamağıdır. C) Maya-hif dönüşümü (dimorfizm), maya formunun dolaşımla yayılmasını, hif/psödohif formunun ise dokuyu delerek invaze etmesini sağlayan virülans özelliğidir. D) Salgılanan aspartil proteinaz (SAP) ve fosfolipaz enzimleri, konak doku proteinlerini ve hücre zarlarını parçalayarak invazyonu kolaylaştırır. E) Hücre yüzeyi hidrofobisitesi, konak dokularına ve tıbbi cihaz/kateter yüzeylerine bağlanmayı artırarak biyofilm oluşumuna katkıda bulunur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2016 TUS Sonbahar"
+  },
+  {
+    "question": "50. Aşağıdaki mantarların hangisine bağlı gelişen sistemik enfeksiyonlarda, serumda mannan antijeni ve anti-mannan antikorunun birlikte varlığının araştırılması tanıya yardımcı olabilir?",
+    "options": {
+      "A": "Candida",
+      "B": "Aspergillus",
+      "C": "Cryptococcus",
+      "D": "Trichosporon",
+      "E": "Pneumocystis"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Mannan, Candida türlerinin hücre duvarının majör antijenik bileşenidir; invaziv kandidiyazis (ve kandidemi) tanısında tek başına antijen veya antikor testlerinin duyarlılığı düşük olabildiğinden, serumda mannan antijeni ve anti-mannan antikorunun ELISA ile birlikte araştırılması tanısal duyarlılık ve özgüllüğü önemli ölçüde artırır. Çeldiriciler: B) Aspergillus enfeksiyonlarının serolojik tanısında mannan değil, galaktomannan antijeni araştırılır. C) Cryptococcus enfeksiyonlarının tanısında BOS ve serumda kapsüler glukuronoksilomannan antijeni (kriptokokal antijen testi) araştırılır. D) Trichosporon enfeksiyonlarında mannan testi kullanılmaz (kriptokokal antijen testi ile çapraz reaksiyon verebilir ve 1,3-beta-D-glukan pozitiftir). E) Pneumocystis jirovecii enfeksiyonlarında tanı mikroskobi (GMS, Giemsa, DFA), PCR ve serumda 1,3-beta-D-glukan testi ile konur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2017 TUS İlkbahar"
+  },
+  {
+    "question": "51. Aşağıdakilerden hangisi amfoterisin B'nin mantar hücresi üzerindeki etki mekanizmasını açıklar?",
+    "options": {
+      "A": "Hücre duvar sentezinde rol oynayan β-1,3 glukoz sentezinin inhibisyonu",
+      "B": "Sterol sentezinde rol oynayan C-14 α-demetilaz enziminin inhibisyonu",
+      "C": "Nükleik asit sentezinin inhibisyonu",
+      "D": "Hücre duvarı sentezinde rol oynayan kitin sentezinin inhibisyonu",
+      "E": "Hücre membranında bulunan ergosterole bağlanma"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Amfoterisin B, makrolid yapıda polien grubu bir antifungaldir; mantar hücre membranında sentezi tamamlanmış olan ergosterole doğrudan bağlanarak membran üzerinde yapay porlar (kanallar) açar, hücre içi potasyum ve diğer küçük moleküllerin dışarı sızmasına yol açarak fungisidal etki gösterir. Çeldiriciler: A) Hücre duvarında β-1,3-glukan sentezinin inhibisyonu, ekinokandin grubu antifungallerin (kaspofungin vb.) etki mekanizmasıdır. B) Sterol sentezinde rol oynayan sitokrom P450 bağımlı C-14 α-demetilaz enziminin inhibisyonu, azol grubu antifungallerin etki mekanizmasıdır. C) Nükleik asit sentezinin inhibisyonu, пиrimidin analoğu olan flusitozinin (5-FC) etki mekanizmasıdır. D) Hücre duvarında kitin sentezinin inhibisyonu, nikkomisin ve polioksinlerin etki mekanizmasıdır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2017 TUS İlkbahar"
+  },
+  {
+    "question": "52. Aşağıdakilerden hangisinin düşük dozda sürekli tüketiminin karaciğer kanserine yol açması en olasıdır?",
+    "options": {
+      "A": "Aflatoksin",
+      "B": "Ergot alkaloidleri",
+      "C": "Sitreoviridin",
+      "D": "Sitrinin",
+      "E": "Trikotekan"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Aflatoksinler (özellikle Aflatoksin B1), uygunsuz koşullarda depolanan tahıl, mısır ve yer fıstığı üzerinde üreyen Aspergillus flavus ve Aspergillus parasiticus tarafından üretilen potent hepatotoksik ve karsinojenik mikotoksinlerdir; p53 tümör süpresör geninde spesifik nokta mutasyonuna (kodon 249'da G→T transversiyonu) yol açarak hepatosellüler karsinoma (karaciğer kanserine) neden olur. Çeldiriciler: B) Ergot alkaloidleri, çavdar ve tahıllarda üreyen Claviceps purpurea tarafından üretilir ve vazokonstriksiyon, ekstremite gangreni ve halüsinasyonlarla seyreden ergotizm (St. Anthony ateşi) tablosuna yol açar. C) Sitreoviridin, pirinçte üreyen Penicillium türlerince üretilir ve kardiyak beriberi tablosu ile ilişkilidir. D) Sitrinin, Penicillium ve Aspergillus türlerince üretilen ve nefropati (böbrek hasarı) ile sarı pirinç hastalığına yol açan bir toksindir. E) Trikotekenler, Fusarium ve Stachybotrys türlerince üretilen, alimenter toksik aleuki ve stakibotriyotoksikoz tablolarına neden olan mikotoksinlerdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2017 TUS İlkbahar"
+  },
+  {
+    "question": "53. Aşağıdakilerden hangisi Mucorales takımındaki mantarların oluşturabildiği tipik yapılardan biri değildir?",
+    "options": {
+      "A": "Stolon",
+      "B": "Sık septalı hif",
+      "C": "Kolumella",
+      "D": "Sporangiospor",
+      "E": "Rizoid"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Mucorales takımındaki mantarlar (Rhizopus, Mucor, Lichtheimia/Absidia vb.) mikroskobide geniş (10-20 µm), dik (90 derece) açıyla dallanan ve \"septasız\" (koenositik) veya çok nadir septalı hifler oluşturur; sık ve düzenli septalı hif yapısı Mucorales'te görülmez (Aspergillus, Fusarium ve dermatofitlerde görülür). Çeldiriciler: A) Stolon, Rhizopus ve Absidia gibi Mucorales üyelerinde besiyeri yüzeyine paralel uzanan ve düğüm noktalarını birbirine bağlayan yatay hif yapısıdır. C) Kolumella, sporangiyoforun ucundaki sporangiyum kesesinin tabanında bulunan kubbe/ampul şeklindeki destek yapısıdır. D) Sporangiospor, sporangiyum kesesi içinde endojen olarak üretilen eşeysiz Mucorales sporudur. E) Rizoid, stolonların besiyerine temas ettiği noktalardan çıkan ve cins ayrımında (örneğin Rhizopus'ta sporangiyoforun tam tabanında, Absidia'da internodal, Mucor'da ise yok) kullanılan kök benzeri yapılardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2017 TUS Sonbahar"
+  },
+  {
+    "question": "54. Aşağıdaki azollerden hangisi Mucorales takımındaki mantarların neden olduğu invaziv mikozların tedavisinde kullanılabilir?",
+    "options": {
+      "A": "Ketokonazol",
+      "B": "Flukonazol",
+      "C": "İtrakonazol",
+      "D": "Vorikonazol",
+      "E": "Posakonazol"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Mucorales takımındaki mantarların neden olduğu mukormikoz (zigomikoz) tedavisinde cerrahi debridman ile birlikte ilk medikal tercih lipozomal amfoterisin B'dir; azol grubu antifungaller arasında ise yalnızca posakonazol ve isavukonazol Mucorales türlerine karşı etkili olup tedavide (veya idame/kurtarma tedavisinde) kullanılabilir. Çeldiriciler: A) Ketokonazol, Mucorales türlerine karşı etkisiz olan bir imidazoldür. B) Flukonazol, küf mantarlarına ve Mucorales grubuna karşı tamamen etkisizdir. C) İtrakonazol, Aspergillus ve dimorfik mantarlara etkili olmakla birlikte mukormikoz tedavisinde klinik etkinliği yetersizdir/önerilmez. D) Vorikonazol, invaziv aspergillozda ilk tercih olmasına rağmen Mucorales grubuna karşı tamamen etkisizdir (hatta uzun süreli vorikonazol profilaksisi alan hastalarda fırsatçı mukormikoz gelişebilir).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2017 TUS Sonbahar"
+  },
+  {
+    "question": "55. Menenjit etkeni olan kapsüllü maya mantarı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Cryptococcus neoformans",
+      "B": "Histoplasma capsulatum",
+      "C": "Malassezia furfur",
+      "D": "Blastoschizomyces capitatus",
+      "E": "Trichosporon asahii"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Cryptococcus neoformans, polisakkarit yapıda geniş bir kapsüle sahip olan ve özellikle hücresel immün yetmezliği (AIDS vb.) bulunan hastalarda subakut/kronik fungal menenjit (meningoensefalit) oluşturan maya mantarıdır. Çeldiriciler: B) Histoplasma capsulatum, kapsülsüz bir termal dimorfik mantardır ve makrofaj içi maya olarak retiküloendotelyal sistemi tutar. C) Malassezia furfur, kapsülsüz, lipofilik bir maya olup yüzeyel tinea versicolor ve kateter ilişkili fungemi etkenidir. D) Blastoschizomyces capitatus (Saprochaete capitata), kapsülsüz olup nötropenik hastalarda fungemi yapan bir mantardır. E) Trichosporon asahii, kapsülsüz olup beyaz piedra ve immünsüprese hastalarda dissemine enfeksiyon etkenidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2017 TUS Sonbahar"
+  },
+  {
+    "question": "56. Galaktomannan antijen testi aşağıdakilerden hangisiyle gelişen invaziv enfeksiyonun erken tanısında yardımcıdır?",
+    "options": {
+      "A": "Aspergillus",
+      "B": "Candida",
+      "C": "Pneumocystis",
+      "D": "Mucor",
+      "E": "Trichosporon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Galaktomannan, Aspergillus türlerinin hücre duvarında bulunan ve mantarın dokuda aktif çoğalması sırasında kana ve vücut sıvılarına salınan polisakkarit bir antijen olup, serum ve bronkoalveolar lavaj (BAL) sıvısında ELISA ile saptanması invaziv aspergillozun erken tanısında oldukça değerlidir. Çeldiriciler: B) Candida enfeksiyonlarının tanısında galaktomannan değil, mannan antijeni ve anti-mannan antikoru araştırılır. C) Pneumocystis jirovecii enfeksiyonlarının tanısında galaktomannan negatif olup 1,3-beta-D-glukan testi pozitiflik gösterir. D) Mucor (mukormikoz) enfeksiyonlarında galaktomannan ve 1,3-beta-D-glukan testlerinin her ikisi de negatiftir; tanı kültür ve histopatoloji ile konur. E) Trichosporon enfeksiyonlarında galaktomannan testi kullanılmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2018 TUS İlkbahar"
+  },
+  {
+    "question": "57. Klasik mikolojik kültür yöntemleriyle üretilmesi güç olduğu için laboratuvar tanısında mikroskobik ve moleküler yöntemler kullanılan mantar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pneumocystis jirovecii",
+      "B": "Fusarium solani",
+      "C": "Candida famata",
+      "D": "Cryptococcus neoformans",
+      "E": "Trichosporon asahii"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Pneumocystis jirovecii, özellikle CD4+ T lenfosit sayısı 200/mm³'ün altına inmiş AIDS hastalarında atipik interstisyel pnömoniye yol açan atipik bir mantardır; in vitro cansız besiyerlerinde (klasik mikolojik kültürlerde) üretilemediği için tanısı BAL ve balgam örneklerinde mikroskobik boyamalar (kist duvarı için GMS ve kalkoflor beyazı, trofozoitler için Giemsa, her iki form için direkt immünfloresan antikor testi) ve PCR (moleküler yöntemler) ile konur. Çeldiriciler: B) Fusarium solani, klasik besiyerlerinde (SDA) ve kan kültürlerinde hızla üreyen bir küf mantarıdır. C) Candida famata, standart mantar besiyerlerinde kolaylıkla üreyen bir maya mantarıdır. D) Cryptococcus neoformans, sikloheksimid içermeyen Sabouraud dekstroz agarda ve kan kültürlerinde kolayca ürer. E) Trichosporon asahii, standart mikolojik besiyerlerinde 2-3 gün içinde buruşuk krem renkli koloniler oluşturarak ürer.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2018 TUS İlkbahar"
+  },
+  {
+    "question": "58. Diyabetik bir hastadan paranazal sinüs enfeksiyonu ön tanısıyla alınan biyopsi örneğinin mikolojik kültüründe, inkübasyonun birinci gününde bir küf üremesi saptanıyor. Koloninin ayrıntılı makroskobik incelemesinde, pamuk helva görünümünde olduğu, hem besiyerinin yüzeyini kapladığı hem de ekim plağının tüm yüksekliğini doldurarak kabarık özellikte ürediği gözleniyor. Mucorales takımı kolonileri ile uyumlu görünümde olduğu sonucuna varılıyor. Mikroskobik inceleme için kolondan laktofenol pamuk mavisi ile preparat hazırlanıyor. Bu bulgulara göre, incelemede görülmesi en olası yapılar aşağıdakilerin hangisinde verilmiştir?",
+    "options": {
+      "A": "Vezikül ve ucunda konidyumlar",
+      "B": "Sporangiyum ve içinde sporangiyosporlar",
+      "C": "Konidyofor ucunda müriform konidyumlar",
+      "D": "Askus içinde askosporlar",
+      "E": "Klestotekyum içinde sporlar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Diyabetik hastada paranazal sinüzit yapan ve kültürde 1-2 gün içinde petri plağının kapağına kadar tüm boşluğu dolduran (\"kapak kaldıran\" / pamuk helva görünümünde) hızlı üreyen küfler Mucorales takımına aittir; bu mantarların laktofenol pamuk mavisi ile yapılan mikroskobik incelemesinde septasız geniş hifler, sporangiyoforlar ve uçlarındaki keseler (sporangiyum) içinde bulunan eşeysiz sporlar (sporangiyosporlar) görülür. Çeldiriciler: A) Vezikül ve etrafında fiyalidlerle dizilmiş konidyumlar Mucorales'e değil, Aspergillus cinsine ait tipik mikroskobik yapıdır. C) Konidyofor ucunda enine ve boyuna bölmeli müriform (duvar benzeri) makrokonidyumlar Alternaria ve Ulocladium gibi dematisiyöz küflerde görülür. D) Askus içinde askosporlar, Ascomycetes sınıfı mantarların eşeyli üreme yapılarıdır. E) Kleistotesyum (klestotekyum) içinde sporlar, bazı Ascomycetes üyelerinde (örneğin Aspergillus'un eşeyli formlarında veya Pseudallescheria'da) görülen kapalı eşeyli meyve cisimcikleridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2018 TUS Sonbahar"
+  },
+  {
+    "question": "59. Aşağıdaki mantarlardan hangisinin rutin kan kültüründe üretilebilmesi diğerlerinden daha olasıdır?",
+    "options": {
+      "A": "Rhizopus oryzae",
+      "B": "Fusarium solani",
+      "C": "Aspergillus fumigatus",
+      "D": "Pneumocystis jirovecii",
+      "E": "Malassezia furfur"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İnvaziv küf enfeksiyonları arasında Fusarium türleri (F. solani, F. oxysporum, F. moniliforme), dokuda (adventisyel sporulasyon ile) kan dolaşımına kolayca karışan mikrokonidiler oluşturması sayesinde Aspergillus ve Mucorales'ten farklı olarak rutin kan kültürlerinde yüksek oranda (%50-70) pozitiflik verir ve hızla üretilebilir. Çeldiriciler: A) Rhizopus oryzae, belirgin anjiyoinvazyon yapmasına rağmen büyük hif parçaları nedeniyle rutin kan kültürlerinde neredeyse hiçbir zaman üremez. C) Aspergillus fumigatus, anjiyoinvaziv bir küf olmasına karşın rutin kan kültürlerinde üretilmesi son derece nadirdir. D) Pneumocystis jirovecii, ne kan kültüründe ne de diğer cansız besiyerlerinde üretilebilir. E) Malassezia furfur, zorunlu lipofilik olduğundan lipit (zeytinyağı/palmitik asit) eklenmemiş standart rutin kan kültürü şişelerinde üremez.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2018 TUS Sonbahar"
+  },
+  {
+    "question": "60. Alerjik sinüziti olan ve immünsupresif tedavi alan bir hastadan alınan sinüs aspirasyon materyalinin mikroskobik incelemesinde; hif, hifin ucundaki vezikülün çevresini tümüyle saran konidia ve Charcot-Leyden kristalleri görülüyor. Yapılan kültürde siyah koloniler şeklinde üreme saptanıyor. Bu hasta için en olası etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Rhizopus oryzae",
+      "B": "Absidia corymbifera",
+      "C": "Aspergillus niger",
+      "D": "Sporothrix schenckii",
+      "E": "Fonsecaea compacta"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Sinüs materyalinde eozinofilik yıkım ürünü olan Charcot-Leyden kristalleriyle birlikte septalı hif, konidyofor ucundaki vezikülün tüm çevresini (360 derece, biseriat olarak) saran konidiler ve kültürde karakteristik \"siyah\" (karabiber dökülmüş gibi) koloniler oluşturması Aspergillus niger için tipiktir. Çeldiriciler: A) Rhizopus oryzae ve B) Absidia corymbifera, vezikül ve ekzojen konidi oluşturmaz; kese (sporangiyum) içinde sporangiyospor ve septasız hif oluşturur. D) Sporothrix schenckii, gül bahçıvanı hastalığı (lenfokutanöz sporotrikoz) etkeni olan termal dimorfik bir mantardır, vezikül oluşturmaz. E) Fonsecaea compacta, deri altı kromoblastomikoz etkeni olan dematisiyöz bir mantardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2018 TUS Sonbahar"
+  },
+  {
+    "question": "61. Elli yaşındaki kadın hasta, ön kol dış yüzünde bir ay önce başlayıp genişleyen ağrısız bir lezyon nedeniyle başvuruyor. 2 cm büyüklüğündeki lezyonda ülser görünümü saptanıyor. Hastanın ateş yakınması bulunmuyor. Öyküsünden, bahçe düzenlemesi yaptığı ve gül yetiştirdiği öğrenilen hastanın fizik muayenesinde ek patoloji saptanmıyor. Tüm tetkikleri normal olan ve immünsupresyonu olmayan hastanın lezyonundan alınan örnekler için mikolojik kültür yapılıyor. Oda sıcaklığındaki kültürde üreyen küf kolonisinden hazırlanacak preparatın mikroskobik incelemesinde aşağıdakilerden hangisinin görülmesi en olasıdır?",
+    "options": {
+      "A": "Konidyofor ucunda papatya benzeri görünümde konidyum kümeleri",
+      "B": "Sporanjiyofor ucunda sporangiyospor",
+      "C": "Puro benzeri tomurcuklanan maya",
+      "D": "Kahverengi pigmentli muriform konidyumlar",
+      "E": "Sferül içinde çok sayıda spor"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Gül dikeni batması veya bahçe işleri sırasında oluşan travma sonrası ekstremitede ağrısız ülseronodüler lezyon ve lenfatik traktus boyunca yayılımla karakterize \"gül bahçıvanı hastalığı\"nın (sporotrikoz) etkeni termal dimorfik bir mantar olan Sporothrix schenckii'dir; bu mantarın oda sıcaklığındaki (25°C) küf kültüründe ince septalı hifler ve konidyoforların ucunda \"papatya yaprağı\" (buket) diziliminde oval/armut şeklinde konidyum kümeleri görülür. Çeldiriciler: B) Sporanjiyofor ucunda sporangiyospor, Mucorales grubu küflerin mikroskobik görünümüdür. C) Puro benzeri tomurcuklanan maya, Sporothrix schenckii'nin morfolojisi olmakla birlikte soruda sorulan \"oda sıcaklığındaki küf kültüründe\" değil, 37°C'deki kültürde ve konak dokusunda görülen maya formudur. D) Kahverengi pigmentli muriform yapılar kromoblastomikoz (dokuda sklerotik cisimcik) veya Alternaria (kültürde makrokonidi) ile ilişkilidir. E) Sferül içinde çok sayıda endospor, Coccidioides immitis'in dokudaki görünümüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2018 TUS Sonbahar"
+  },
+  {
+    "question": "62. Aşağıdakilerden hangisi Tinea nigra'nın etkenidir?",
+    "options": {
+      "A": "Malassezia furfur",
+      "B": "Microsporum cookei",
+      "C": "Hortaea werneckii",
+      "D": "Trichosporon beigelii",
+      "E": "Trichophyton rubrum"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Tinea nigra, özellikle avuç içi ve ayak tabanının stratum corneum tabakasında keskin sınırlı, inflamasyonsuz, kahverengi-siyah maküllerle seyreden yüzeyel bir mikoz olup etkeni halofilik (tuza dayanıklı) ve melanin üreten dematisiyöz bir mantar olan Hortaea (Exophiala) werneckii'dir. Çeldiriciler: A) Malassezia furfur, yüzeyel mikozlardan Pityriasis (Tinea) versicolor etkenidir. B) Microsporum cookei, toprakta bulunan jeofilik bir dermatofittir. D) Trichosporon beigelii (T. asahii), kıl gövdesini tutan yüzeyel mikozlardan beyaz piedra etkenidir. E) Trichophyton rubrum, dünyada tinea pedis ve onikomikozun en sık etkeni olan antropofilik dermatofittir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2018 TUS Sonbahar"
+  },
+  {
+    "question": "63. Aşağıdaki mantarlardan hangisi makrokonidyum oluşturan ancak mikrokonidyum oluşturmayan kütanöz mikoz etkenidir?",
+    "options": {
+      "A": "Microsporum canis",
+      "B": "Trichophyton rubrum",
+      "C": "Epidermophyton floccosum",
+      "D": "Microsporum gypseum",
+      "E": "Trichophyton tonsurans"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kütanöz mikoz (dermatofitoz) etkeni olan üç ana dermatofit cinsi arasında Epidermophyton (E. floccosum), kültürde yalnız ikili-üçlü kümeler halinde düzgün, ince duvarlı, raket veya lobut (muz hevengi) şeklinde makrokonidyumlar oluşturur, kesinlikle mikrokonidyum oluşturmaz (klinikte ise deri ve tırnağı tutar, saçı tutmaz). Çeldiriciler: A) Microsporum canis, bol miktarda kalın ve pürüzlü duvarlı mekik şeklinde makrokonidyum ve az sayıda mikrokonidyum oluşturur. B) Trichophyton rubrum, bol miktarda gözyaşı damlası şeklinde mikrokonidyum ve nadir sayıda ince, kalem/puro şeklinde makrokonidyum oluşturur. D) Microsporum gypseum, bol makrokonidyum yanında az sayıda mikrokonidyum da oluşturabilen jeofilik bir dermatofittir. E) Trichophyton tonsurans, bol miktarda balon/gözyaşı şeklinde mikrokonidyum ve nadir makrokonidyum oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2019 TUS İlkbahar"
+  },
+  {
+    "question": "64. Aşağıdaki boyalardan hangisi Cryptococcus neoformans'ın hücre duvarındaki melanin yapısını boyamada kullanılır?",
+    "options": {
+      "A": "Fontana-Masson",
+      "B": "Hematoksilen-eozin",
+      "C": "Periyodik asit-Schiff",
+      "D": "Gomori methenamine silver",
+      "E": "Laktofenol pamuk mavisi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Fontana-Masson gümüşleme boyası, doku kesitlerinde Cryptococcus neoformans'ın (özellikle kapsülü zayıf olan suşların tanımlanmasında) ve dematisiyöz mantarların hücre duvarında bulunan melanin pigmentini kahverengi-siyaha boyamak için spesifik olarak kullanılan histokimyasal boyadır. Çeldiriciler: B) Hematoksilen-eozin (H&E), rutin histopatolojik doku boyası olup mantar elemanlarını ve melanini spesifik olarak ayırt etmez. C) Periyodik asit-Schiff (PAS), mantar hücre duvarındaki polisakkaritleri (glikojen, mukopolisakkarit) parlak pembe-macenta rengine boyar. D) Gomori methenamine silver (GMS), mantar hücre duvarındaki polisakkaritleri oksitleyerek tüm mantarları genel olarak siyaha boyar, melanine özgü değildir. E) Laktofenol pamuk mavisi, kültürde üreyen küflerin hücre duvarındaki kitini maviye boyamak için kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2019 TUS İlkbahar"
+  },
+  {
+    "question": "65. Oluşturduğu enfeksiyonun mikrobiyolojik laboratuvar tanısında, aşağıdaki mantar cinslerinden hangisinin kendine özgü serolojik tanı testi yoktur?",
+    "options": {
+      "A": "Blastomyces",
+      "B": "Candida",
+      "C": "Mucor",
+      "D": "Aspergillus",
+      "E": "Histoplasma"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Mucor (ve genel olarak Mucorales takımı) enfeksiyonlarının (mukormikoz) laboratuvar tanısında rutinde kullanılan kendine özgü bir serolojik antijen veya antikor tanı testi yoktur (ayrıca 1,3-beta-D-glukan ve galaktomannan testleri de negatiftir); tanı doku biyopsisinin direkt mikroskobik/histopatolojik incelemesi ve kültür ile konur. Çeldiriciler: A) Blastomyces enfeksiyonlarında idrar/serum antijen testi, immünodifüzyon ve kompleman fiksasyon gibi serolojik testler kullanılır. B) Candida enfeksiyonlarında serumda mannan antijeni, anti-mannan antikoru ve 1,3-beta-D-glukan testleri kullanılır. D) Aspergillus enfeksiyonlarında serum ve BAL'da galaktomannan antijeni ve 1,3-beta-D-glukan ile alerjik/kronik formlarda Aspergillus-spesifik IgG/IgE antikor testleri kullanılır. E) Histoplasma enfeksiyonlarında idrar ve serumda polisakkarit antijen testi ile H ve M presipitin bantlarını gösteren immünodifüzyon ve kompleman fiksasyon antikor testleri kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2019 TUS İlkbahar"
+  },
+  {
+    "question": "66. Aşağıdaki yüzeyel enfeksiyonların hangisinde etken dermatofit türü bir küf mantarı değildir?",
+    "options": {
+      "A": "Tinea manuum",
+      "B": "Tinea versicolor",
+      "C": "Tinea corporis",
+      "D": "Tinea unguium",
+      "E": "Tinea barbae"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İsminde \"tinea\" kelimesi geçmesine rağmen Tinea (Pityriasis) versicolor bir dermatofitoz değildir; etkeni dermatofit cinsi bir küf mantarı olmayıp, derinin en üst tabakasında yerleşen lipofilik bir maya mantarı olan Malassezia furfur (M. globosa) kompleksidir (benzer şekilde Tinea nigra'nın etkeni de dermatofit değil Hortaea werneckii'dir). Çeldiriciler: A) Tinea manuum, el derisinin dermatofit küfleriyle (en sık T. rubrum) oluşan enfeksiyonudur. C) Tinea corporis, tüysüz/çıplak vücut derisinin dermatofitlerle oluşan halka şeklindeki (ringworm) enfeksiyonudur. D) Tinea unguium, tırnak plağının dermatofit küfleriyle oluşan enfeksiyonudur. E) Tinea barbae, erkeklerde sakal ve bıyık bölgesinin özellikle zoofilik dermatofitlerle (T. verrucosum, T. mentagrophytes) oluşan enfeksiyonudur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2019 TUS Sonbahar"
+  },
+  {
+    "question": "67. Aşağıdakilerden hangisi kromoblastomikoz etkenidir?",
+    "options": {
+      "A": "Sporothrix schenckii",
+      "B": "Aspergillus nidulans",
+      "C": "Fonsecaea pedrosoi",
+      "D": "Scedosporium apiospermum",
+      "E": "Madurella grisea"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kromoblastomikoz, travma sonucu deriden giren dematisiyöz (melaninli/esmer) mantarların oluşturduğu, karnabahar benzeri verrüköz lezyonlar ve dokuda sklerotik (muriform) cisimciklerle karakterize kronik bir deri altı mikozu olup dünyada en sık etkeni Fonsecaea pedrosoi'dir (diğer etkenler: Fonsecaea compacta, Phialophora verrucosa, Cladophialophora carrionii, Rhinocladiella aquaspersa). Çeldiriciler: A) Sporothrix schenckii, deri altı mikozlarından lenfokutanöz sporotrikoz (gül bahçıvanı hastalığı) etkenidir. B) Aspergillus nidulans, hiyalen bir küf olup fırsatçı aspergilloz ve nadir ömikotik miçetoma etkenidir. D) Scedosporium apiospermum (Pseudallescheria boydii), beyaz granüllü ömikotik miçetoma ve fırsatçı enfeksiyon etkenidir. E) Madurella grisea (ve M. mycetomatis), siyah granüllü ömikotik miçetoma (Maduromikoz) etkenidir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2019 TUS Sonbahar"
+  },
+  {
+    "question": "68. Tedavisinde sülfonamid grubu antibakteriyel ilaç kullanılan fırsatçı mantar enfeksiyonu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aspergilloz",
+      "B": "Kriptokokkoz",
+      "C": "Kandidoz",
+      "D": "Pnömosistoz",
+      "E": "Füsaryoz"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Pneumocystis jirovecii'nin neden olduğu pnömosistoz (Pneumocystis pnömonisi - PCP), etkenin hücre membranında ergosterol yerine kolesterol bulunması nedeniyle klasik antifungallere (amfoterisin B, azoller) yanıt vermez; hem profilaksisinde hem de tedavisinde ilk tercih ilaç, folik asit sentezini inhibe eden sülfonamid kombinasyonu olan trimetoprim-sülfametoksazoldür (TMP-SMX / ko-trimoksazol). Çeldiriciler: A) Aspergilloz tedavisinde vorikonazol, isavukonazol veya amfoterisin B kullanılır. B) Kriptokokkoz tedavisinde amfoterisin B + flusitozin kombinasyonu ve idamede flukonazol kullanılır. C) Kandidoz tedavisinde ekinokandinler, flukonazol veya amfoterisin B kullanılır. E) Füsaryoz tedavisinde vorikonazol veya lipozomal amfoterisin B kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2019 TUS Sonbahar"
+  },
+  {
+    "question": "69. Bir balgam örneğinin Gram boyama yöntemiyle yapılan mikroskopik incelemesinde blastokonidyum ve psödohif görülüyor. Bu örnekteki en olası mikroorganizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nocardia spp.",
+      "B": "Mycobacterium spp.",
+      "C": "Candida spp.",
+      "D": "Actinomycetes spp.",
+      "E": "Aspergillus spp."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Klinik örneklerin Gram boyamasında büyük, oval, Gram-pozitif boyanan tomurcuklanan maya hücreleri (blastokonidyum/blastospor) ve bunların uç uca eklenmesiyle oluşan boğumlu yalancı hiflerin (psödohif) birlikte görülmesi Candida türleri (C. glabrata hariç) için tipiktir. Çeldiriciler: A) Nocardia spp., Gram-pozitif, ince, dallanan filamentöz yapıda olan ve modifiye EZN ile kısmen aside dirençli boyanan aerobik bir bakteridir; blastokonidyum oluşturmaz. B) Mycobacterium spp., Gram ile iyi boyanmayan, EZN ile aside dirençli boyanan basillerdir. D) Actinomyces spp., Gram-pozitif dallanan filamentöz anaerobik bakterilerdir, maya veya psödohif yapmaz. E) Aspergillus spp., sadece gerçek septalı hif ve konidi oluşturan küf mantarıdır; blastokonidyum ve psödohif oluşturmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2020 TUS İlkbahar"
+  },
+  {
+    "question": "70. Yoğun bakım ünitesinde tedavi gören ve üriner kateteri olan bir hastanın idrar kültüründe mantar üremesi saptanıyor. Bu mantar için yapılan incelemeler sonucunda, artrokonidyum oluşturduğu ve üreaz aktivitesinin pozitif olduğu belirleniyor. Kesin tanımlama için diğer testlerine devam ediliyor. Bu bulgulara göre, bu hastadan izole edilen en olası mantar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Saprochaete capitata (Blastoschizomyces capitatus)",
+      "B": "Geotrichum candidum",
+      "C": "Trichosporon asahii",
+      "D": "Candida krusei",
+      "E": "Rhodotorula mucilaginosa"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Yoğun bakım hastalarında üriner ve damar içi kateterlerle ilişkili fırsatçı enfeksiyon yapabilen, mısır unlu agarda gerçek hiflerin yanı sıra hem fıçı şeklinde \"artrokonidyum\" hem de \"blastokonidyum\" oluşturan ve Basidiomycetes kökenli olduğu için \"üreaz testi pozitif\" olan mantar Trichosporon asahii'dir. Çeldiriciler: A) Saprochaete capitata ve B) Geotrichum candidum, artrokonidyum/annelokonidyum oluşturabilmelerine rağmen Ascomycetes kökenlidirler ve üreaz testleri negatiftir (bu özellik T. asahii'yi Geotrichum'dan ayıran en temel biyokimyasal testtir). D) Candida krusei, üreaz negatiftir ve artrokonidyum oluşturmaz (psödohif ve blastokonidyum yapar). E) Rhodotorula mucilaginosa, üreaz pozitif kapsüllü ve kırmızı pigmentli bir maya olmakla birlikte hif ve artrokonidyum oluşturmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2020 TUS İlkbahar"
+  },
+  {
+    "question": "71. Yirmi bir yaşındaki erkek hastanın muayenesinde; yaz tatili sonrasında fark ettiğini söylediği, göğüs bölgesinde ve sırtında hipopigmente maküler lezyonlar görülüyor, %10 KOH ile hazırlanan cilt kazıntısının mikroskopik incelemesinde maya hücreleri ve kısa, dallanmayan hifler saptanıyor. Bu tabloya yol açabilecek en olası etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Malassezia globosa",
+      "B": "Trichophyton rubrum",
+      "C": "Candida albicans",
+      "D": "Microsporum canis",
+      "E": "Epidermophyton floccosum"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Genç erişkinlerde özellikle güneş maruziyeti (yaz tatili) sonrasında sağlam derinin bronzlaşmasına karşın enfekte bölgelerin (azelaik asidin tirozinazı inhibe etmesi nedeniyle) renginin açılmasıyla göğüs ve sırtta belirginleşen hipopigmente maküler lezyonlar Pityriasis (Tinea) versicolor tablosudur; %10 KOH incelemesinde yuvarlak maya kümeleri ve kısa, kıvrık, dallanmayan hiflerle (\"köfte ve spagetti\" görünümü) karakterize olan en sık etken Malassezia globosa'dır (M. furfur kompleksi). Çeldiriciler: B) Trichophyton rubrum, KOH incelemesinde yalnızca dallanan septalı hifler ve artrosporlar gösterir, maya hücresi oluşturmaz. C) Candida albicans, kıvrım yerlerinde (intertrigo) parlak kırmızı, satellit püstüllü lezyonlar yapar. D) Microsporum canis ve E) Epidermophyton floccosum, dermatofit küfleridir; halkasal eritemli ve skuamlı tinea corporis lezyonları yaparlar ve dokuda maya formu bulundurmazlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2020 TUS İlkbahar"
+  },
+  {
+    "question": "72. Aşağıdakilerden hangisi, klinik örneklerde özellikle mantarlara ait yapıların mikroskobik olarak saptanması için kullanılan floresan boyadır?",
+    "options": {
+      "A": "Potasyum hidroksit",
+      "B": "Kalkoflor beyazı",
+      "C": "Çini mürekkebi",
+      "D": "Laktofenol pamuk mavisi",
+      "E": "Auramin-Rhodamin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kalkoflor beyazı (Calcofluor white), klinik örneklerdeki mantar hücre duvarında bulunan kitin ve selülozun beta-1,3 ve beta-1,4 glikozidik bağlarına spesifik olarak bağlanan ve floresan mikroskopta UV ışığı altında parlak elma yeşili veya mavi-beyaz floresans vererek mantar yapılarını yüksek duyarlılıkla gösteren floresan bir boyadır. Çeldiriciler: A) Potasyum hidroksit (KOH), floresan bir boya değil, keratini eriterek direkt ışık mikroskobunda inceleme sağlayan kimyasal bir çözeltidir. C) Çini mürekkebi, Cryptococcus kapsülünü karanlık zeminde boyasız olarak gösteren negatif bir ışık mikroskobu boyasıdır. D) Laktofenol pamuk mavisi, küf kültürlerini ışık mikroskobunda mavi renkte incelemek için kullanılan floresan olmayan bir boyadır. E) Auramin-Rhodamin, floresan bir boya olmakla birlikte mantarların değil, mikobakterilerin (aside dirençli basillerin) saptanmasında kullanılır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2020 TUS Sonbahar"
+  },
+  {
+    "question": "73. Aşağıdakilerden hangisi, Cryptococcus gattii'yi Cryptococcus neoformans'tan ayıran özelliklerden biri değildir?",
+    "options": {
+      "A": "Coğrafi dağılımının daha sınırlı olması",
+      "B": "Başlıca ekolojik kaynağının okaliptus ağaçları olması",
+      "C": "Polisakkarit yapıda geniş bir kapsülü olması",
+      "D": "Sıklıkla bağışıklık sistemi sağlam kişilerde enfeksiyon oluşturması",
+      "E": "Nörolojik sekel bırakma olasılığının daha yüksek olması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Glukuronoksilomannan yapısında geniş bir polisakkarit kapsüle sahip olmak C. gattii'yi C. neoformans'tan ayıran bir özellik değil, her iki türün de ortak ve temel virülans faktörüdür. Çeldiriciler: A) C. neoformans tüm dünyada yaygınken, C. gattii'nin coğrafi dağılımı (tropikal/subtropikal bölgeler ve Kuzey Amerika'nın Pasifik Kuzeybatı kıyıları) daha sınırlıdır. B) C. neoformans'ın ana rezervuarı güvercin dışkısıyla kontamine toprak iken, C. gattii'nin başlıca ekolojik kaynağı okaliptüs (ve diğer bazı tropikal) ağaçlarıdır. D) C. neoformans esas olarak hücresel immün yetmezliği (AIDS vb.) olanlarda fırsatçı enfeksiyon yaparken, C. gattii sıklıkla bağışıklık sistemi sağlam (immünkompetan) bireylerde enfeksiyon oluşturur. E) C. gattii enfeksiyonlarında mortalite daha düşük olmakla birlikte akciğer ve beyinde büyük granülomlar (kriptokokoma) ve hidrosefali oluşturma eğilimi nedeniyle ciddi nörolojik sekel bırakma olasılığı daha yüksektir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2020 TUS Sonbahar"
+  },
+  {
+    "question": "74. Aşağıdakilerden hangisi endemik mikoz etkenleri arasında yer alan gerçek patojen bir mantardır?",
+    "options": {
+      "A": "Pneumocystis jirovecii",
+      "B": "Cryptococcus neoformans",
+      "C": "Fusarium solani",
+      "D": "Histoplasma capsulatum",
+      "E": "Trichosporon asahii"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Histoplasma capsulatum, belirli coğrafi bölgelerde (özellikle Ohio ve Mississippi nehir vadileri vb.) endemik olarak bulunan, termal dimorfizm gösteren ve sağlıklı bireylerde de enfeksiyon oluşturabilen gerçek (primer) patojen bir sistemik mikoz etkenidir (diğerleri: Blastomyces dermatitidis, Coccidioides immitis/posadasii, Paracoccidioides brasiliensis, Talaromyces marneffei, Emergomyces pasteurianus). Çeldiriciler: A) Pneumocystis jirovecii, yalnızca ağır immünsüprese (AIDS vb.) konaklarda pnömoni yapan fırsatçı bir mantardır. B) Cryptococcus neoformans, tüm dünyada yaygın bulunan fırsatçı bir maya mantarıdır. C) Fusarium solani, doğada yaygın bulunan fırsatçı bir hiyalen küf mantarıdır. E) Trichosporon asahii, yüzeyel beyaz piedra ve immünsüprese hastalarda fırsatçı sistemik enfeksiyon yapan bir mantardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2020 TUS Sonbahar"
+  },
+  {
+    "question": "75. Aşağıdaki antifungal ilaçlardan hangisi, sitokrom P-450'ye bağlı 14-α-demetilaz enzimine bağlanarak lanosterolden ergosterol sentezini inhibe eder?",
+    "options": {
+      "A": "Amfoterisin B",
+      "B": "Kaspofungin",
+      "C": "İtrakonazol",
+      "D": "Flusitozin",
+      "E": "Griseofulvin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İtrakonazol (ve diğer tüm imidazol/triazol grubu antifungaller), mantar endoplazmik retikulumunda sitokrom P-450 bağımlı bir enzim olan 14-α-sterol demetilaza (Erg11p) bağlanarak lanosterolün ergosterole dönüşümünü inhibe eder ve membran yapısını bozar. Çeldiriciler: A) Amfoterisin B, ergosterol sentezini inhibe etmez; sentezlenmiş membran ergosterolüne doğrudan bağlanarak por oluşturur. B) Kaspofungin, 1,3-beta-D-glukan sentazı inhibe ederek hücre duvarı sentezini engeller. D) Flusitozin, 5-FU'ya dönüşerek DNA ve RNA sentezini inhibe eder. E) Griseofulvin, mikrotübüllere bağlanarak mitoz bölünmeyi (iğ ipliklerini) inhibe eder.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2021 TUS İlkbahar"
+  },
+  {
+    "question": "76. Tek bacakta, çok yavaş ilerlemiş olduğu belirtilen, verrüköz, karnabahar benzeri görünümde lezyonlar nedeniyle başvuran hastadan alınan biyopsinin mikroskopik incelemesinde, koyu kahverengi renkli, tomurcuklanma göstermeyen, büyük, kalın duvarlı, enine ve boyuna septumlu, yuvarlak, muriform hücreler görülüyor. Bu hastada biyopsi örneğinden yapılan kültürde üremesi en olası etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Candida albicans",
+      "B": "Aspergillus flavus",
+      "C": "Rhizopus arrhizus",
+      "D": "Fusarium solani",
+      "E": "Fonsecaea pedrosoi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Alt ekstremitede travma sonrası yıllar içinde yavaş ilerleyen verrüköz, karnabahar görünümlü deri altı lezyonları ve doku biyopsisinde koyu kahverengi (melaninli), kalın duvarlı, enine ve boyuna bölmeli (fisyonla bölünen, tomurcuklanmayan) \"muriform hücreler\" (sklerotik cisimcikler / Medlar cisimcikleri) görülmesi kromoblastomikoz için tanısaldır ve bu tablonun en sık etkeni Fonsecaea pedrosoi'dir. Çeldiriciler: A) Candida albicans, dokuda renksiz blastospor, psödohif ve gerçek hif oluşturur. B) Aspergillus flavus, dokuda 45 derece açıyla dallanan renksiz (hiyalen) septalı hifler oluşturur. C) Rhizopus arrhizus, dokuda geniş, septasız, dik açıyla dallanan hiyalen hifler oluşturur. D) Fusarium solani, dokuda hiyalen septalı hifler, kültürde ise muz şeklinde makrokonidiler oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2021 TUS İlkbahar"
+  },
+  {
+    "question": "77. Aşağıdakilerden hangisinin tinea unguium etkenleri arasında yer alması en az olasıdır?",
+    "options": {
+      "A": "Scytalidium dimidiatum",
+      "B": "Scopulariopsis brevicaulis",
+      "C": "Hortaea werneckii",
+      "D": "Trichophyton rubrum",
+      "E": "Epidermophyton floccosum"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hortaea (Exophiala) werneckii, yalnızca avuç içi ve ayak tabanındaki stratum corneum tabakasında kahverengi-siyah maküler lezyonlarla seyreden yüzeyel \"tinea nigra\" etkenidir; tırnak plağını tutmaz ve tinea unguium (veya onikomikoz) yapmaz. Çeldiriciler: A) Scytalidium dimidiatum (Neoscytalidium dimidiatum), dermatofit dışı küf kaynaklı onikomikoz (tırnak enfeksiyonu) etkenlerinden biridir. B) Scopulariopsis brevicaulis, özellikle ayak başparmağı tırnağını tutan dermatofit dışı onikomikozların en önemli küf etkenidir. D) Trichophyton rubrum, tinea unguium'un (dermatofit kaynaklı tırnak enfeksiyonunun) tüm dünyada açık ara en sık etkenidir. E) Epidermophyton floccosum, saçı tutmayan ancak deri ve tırnağı (tinea unguium) tutabilen klasik bir dermatofit türüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2021 TUS İlkbahar"
+  },
+  {
+    "question": "78. Sporanjiiyospor hangi mantar cinsi için karakteristik eşeysiz üreme yapısıdır?",
+    "options": {
+      "A": "Rhizopus",
+      "B": "Aspergillus",
+      "C": "Scedosporium",
+      "D": "Fusarium",
+      "E": "Penicillium"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Sporangiyospor (sporanjiiyospor), Mucorales takımında yer alan küf mantarlarında (Rhizopus, Mucor, Lichtheimia/Absidia, Rhizomucor vb.) sporangiyoforların ucundaki kese (sporangiyum) içerisinde oluşan karakteristik eşeysiz üreme sporudur. Çeldiriciler: B) Aspergillus, kese içinde spor yapmaz; vezikül üzerindeki fiyalidlerden dışarıya doğru (ekzojen) zincirler halinde konidi (konidyospor) oluşturur. C) Scedosporium, konidyoforların ucunda tek tek oluşan oval eşeysiz konidiler üretir. D) Fusarium, hiflerden dışarıya doğru oluşan muz şeklinde makrokonidiler ve küçük mikrokonidiler üretir. E) Penicillium, fırça görünümündeki fiyalidlerin ucunda zincirler halinde ekzojen konidiler üretir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2021 TUS Sonbahar"
+  },
+  {
+    "question": "79. Aşağıdakilerden hangisinin enfekte dokudan alınan biyopsi materyalindeki mikroskobik görünümünün, ana hücreye geniş bir boyunla bağlı ve kopmadan ana hücrenin büyüklüğüne ulaşabilen tomurcuk yapısı şeklinde olması en olasıdır?",
+    "options": {
+      "A": "Blastomyces dermatitidis",
+      "B": "Coccidioides immitis",
+      "C": "Histoplasma capsulatum",
+      "D": "Paracoccidioides brasiliensis",
+      "E": "Talaromyces (Penicillium) marneffei"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Enfekte doku biyopsisinde (37°C formunda) çift konturlu kalın bir hücre duvarına sahip olan ve ana hücreden tek bir \"geniş tabanlı\" (geniş boyunlu) tomurcuk vererek, bu yavru tomurcuğun ana hücreden ayrılmadan önce ana hücre boyutuna ulaştığı (8 rakamı görünümü) karakteristik mikroskobik yapı Blastomyces dermatitidis'e aittir. Çeldiriciler: B) Coccidioides immitis, dokuda tomurcuklanan maya yapmaz; içi endosporlarla dolu büyük sferüller oluşturur. C) Histoplasma capsulatum, dokuda makrofajların sitoplazması içinde küçük (2-4 µm), dar tabanlı tomurcuklanan oval mayalar halindedir. D) Paracoccidioides brasiliensis, dokuda büyük bir ana hücrenin etrafına dar boyunlarla tutunmuş çok sayıda küçük tomurcuktan oluşan \"gemi/kaptan dümeni\" (veya Mickey Mouse) görünümü verir. E) Talaromyces marneffei, dokuda tomurcuklanarak değil, ortadan enine bölme (transvers septum / fisyon) oluşturarak ikiye bölünen sosis/oval şekilli hücreler halindedir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2021 TUS Sonbahar"
+  },
+  {
+    "question": "80. Aşağıdakilerden hangisi Candida albicans'a ait bir virülans faktörü değildir?",
+    "options": {
+      "A": "37 °C'de üreme",
+      "B": "Gerçek hif oluşturabilme",
+      "C": "Proteaz",
+      "D": "Melanin",
+      "E": "Dokuya adherens"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Melanin pigmenti üretimi Candida albicans'ın bir virülans faktörü değildir; melanin, Cryptococcus neoformans (fenol oksidaz enzimiyle) ve dematisiyöz mantarların fagositoz ve oksidatif radikallerden korunmasını sağlayan virülans faktörüdür. Çeldiriciler: A) İnsan vücut sıcaklığı olan 37°C'de (ve 45°C'ye kadar) üreyebilme yeteneği patojenik yaşam için temel koşuldur. B) Gerçek hif ve psödohif oluşturabilme (maya-hif dimorfizmi), doku invazyonu ve makrofajlardan kaçışı sağlayan majör virülans faktörüdür. C) Salgılanan aspartil proteazlar (SAP) ve fosfolipazlar, konak bariyerlerini ve immünglobulinleri yıkan virülans enzimleridir. E) Dokuya adherens (adhezinlerle epitel ve endotele tutunma), enfeksiyonun başlaması ve biyofilm oluşumu için kritik virülans faktörüdür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2021 TUS Sonbahar"
+  },
+  {
+    "question": "81. Aşağıdaki mantar ve bu mantarın oluşturduğu invaziv enfeksiyonun tanısında kullanılan hızlı tanı testi eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Aspergillus – Galaktomannan testi",
+      "B": "Candida – Mannan testi",
+      "C": "Mucor – β-1-3 D-glukan testi",
+      "D": "Histoplasma – Polisakkarit antijen testi",
+      "E": "Cryptococcus – Glukuronoksilomannan testi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Mucor (ve genel olarak Mucorales takımı) ile Cryptococcus türlerinin hücre duvarında 1,3-beta-D-glukan bulunmadığı (veya çok az olduğu) için bu mantarların oluşturduğu invaziv enfeksiyonlarda serum β-1,3-D-glukan testi negatif sonuç verir ve tanıda kullanılamaz. Çeldiriciler: A) İnvaziv aspergilloz tanısında serum ve BAL sıvısında galaktomannan antijen testi kullanılır (Doğru eşleştirme). B) İnvaziv kandidiyazis tanısında serumda mannan antijeni (ve anti-mannan antikoru) testi kullanılır (Doğru eşleştirme). D) Dissemine histoplazmoz tanısında idrar ve serumda Histoplasma polisakkarit antijen testi en duyarlı hızlı tanı yöntemidir (Doğru eşleştirme). E) Kriptokokal menenjit ve dissemine enfeksiyon tanısında BOS ve serumda kapsüler glukuronoksilomannan antijenini saptayan lateks aglütinasyon veya lateral akım testleri kullanılır (Doğru eşleştirme).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2022 TUS İlkbahar"
+  },
+  {
+    "question": "82. Aşağıdaki mantarlardan hangisine bağlı gelişen sistemik enfeksiyonlarda dokuda sferül yapısı görülmesi en olasıdır?",
+    "options": {
+      "A": "Blastomyces dermatitidis",
+      "B": "Coccidioides immitis",
+      "C": "Paracoccidioides brasiliensis",
+      "D": "Histoplasma capsulatum",
+      "E": "Sporothrix schenckii"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Solunan artrokonidyumların akciğerlerde ve diğer dokularda 37°C'de büyüyerek oluşturduğu, kalın duvarlı ve içi çok sayıda \"endospor\" ile dolu kese görünümündeki \"sferül\" yapısı Coccidioides immitis (ve C. posadasii) için patognomoniktir. Çeldiriciler: A) Blastomyces dermatitidis, dokuda geniş tabanlı tomurcuklanan kalın duvarlı maya hücreleri oluşturur. C) Paracoccidioides brasiliensis, dokuda gemi dümeni şeklinde çoklu tomurcuklanan maya hücreleri oluşturur. D) Histoplasma capsulatum, dokuda makrofaj içinde yerleşmiş küçük oval maya hücreleri oluşturur. E) Sporothrix schenckii, dokuda puro (sigara) şeklinde maya hücreleri ve etrafında eozinofilik Splendore-Hoeppli materyali (asteroid cisim) oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2022 TUS İlkbahar"
+  },
+  {
+    "question": "83. Giemsa yöntemi ile boyanmış bir kemik iliği aspirasyon materyalinin mikroskopik incelemesinde makrofajlar içinde maya hücreleri görülüyor. Bu bulguya göre en olası etken mikroorganizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Aspergillus fumigatus",
+      "B": "Histoplasma capsulatum",
+      "C": "Scedosporium apiospermum",
+      "D": "Malassezia furfur",
+      "E": "Trichosporon asahii"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Histoplasma capsulatum, retiküloendotelyal sisteme (kemik iliği, karaciğer, dalak, lenf düğümleri) afinite gösteren hücre içi bir termal dimorfik mantardır; kemik iliği aspirasyonu veya periferik kan yaymasının Giemsa/Wright boyamasında mononükleer fagositlerin (makrofajların) sitoplazması içinde kümelenmiş küçük (2-4 µm), etrafında yalancı bir hale bulunan oval maya hücreleri şeklinde görülmesi dissemine histoplazmoz için tipiktir (benzer makrofaj içi görünümü Talaromyces marneffei de yapabilir). Çeldiriciler: A) Aspergillus fumigatus ve C) Scedosporium apiospermum, hücre dışı yerleşimli, septalı hifler oluşturan küf mantarlarıdır; dokuda maya formu oluşturmazlar. D) Malassezia furfur, stratum corneum'da veya kateter ilişkili fungemide hücre dışı olarak görülür. E) Trichosporon asahii, dokuda hücre dışı hif, artrokonidi ve blastokonidiler halinde görülür.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2022 TUS İlkbahar"
+  },
+  {
+    "question": "84. Aşağıdakilerden hangisi mantarlarda üremeden sorumlu olan yapıdır?",
+    "options": {
+      "A": "Kapsül",
+      "B": "Spor",
+      "C": "Septum",
+      "D": "Hücre duvarı",
+      "E": "Kitin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Bakteri endosporlarının yalnızca olumsuz çevre koşullarında hayatta kalmayı (direnişi) sağlamasına ve üreme işlevi olmamasına karşın, mantar sporları (hem eşeyli teleomorf sporlar hem de eşeysiz anamorf sporlar/konidiler) mantarların çoğalmasından (üremesinden), doğada yayılmasından ve konakta enfeksiyon oluşturmasından doğrudan sorumlu olan yapılardır. Çeldiriciler: A) Kapsül, bazı mayalarda (C. neoformans) bulunan ve fagositozu önleyen polisakkarit yapıdaki virülans faktörüdür. C) Septum, küf mantarlarında hifleri bölmelere ayıran ve porları aracılığıyla sitoplazmik geçişe izin veren enine duvar yapısıdır. D) Hücre duvarı, mantara şeklini veren ve ozmotik basınca karşı koruyan dış katmandır. E) Kitin, mantar hücre duvarının yapısal sertliğini sağlayan N-asetilglukozamin polimeridir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2022 TUS Sonbahar"
+  },
+  {
+    "question": "85. Deri lezyonları nedeniyle başvuran bir hastadan alınan deri kazıntısından yapılan mantar kültüründe üreyen mantarın Epidermophyton cinsinden olduğu düşünülüyor. Bu tanıyı desteklemesi en olası mikroskobik özellikler aşağıdakilerden hangisinde verilmiştir?",
+    "options": {
+      "A": "Makrokonidyumlar bulunmaz, küme yapmış gözyaşı şeklinde mikrokonidyumlar bulunur.",
+      "B": "Lobut şeklinde, düz ve ince duvarlı makrokonidyumlar bulunur, mikrokonidyumlar bulunmaz.",
+      "C": "Kalem şeklinde çok uzun makrokonidyumlar ve az sayıda yuvarlak mikrokonidyumlar bulunur.",
+      "D": "Kayık şeklinde, pürtüklü ve kalın duvarlı makrokonidyumlar ve lobut şeklinde mikrokonidyumlar bulunur.",
+      "E": "Sosis şeklinde makrokonidyumlar ve kısa saplarla hiflere bağlı olan mikrokonidyumlar bulunur."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Epidermophyton (E. floccosum) cinsini diğer dermatofitlerden ayıran en karakteristik mikroskobik özellik; hiflerin ucunda ikili veya üçlü kümeler (muz hevengi) halinde dizilmiş, lobut veya raket şeklinde, düz ve nispeten ince duvarlı, 2-5 bölmeli makrokonidyumların bulunması ve \"mikrokonidyumların kesinlikle bulunmaması\"dır. Çeldiriciler: A), C) ve E) şıklarında tanımlanan bol miktarda gözyaşı/yuvarlak mikrokonidyumlar ve nadir sayıda ince duvarlı kalem/puro/sosis şeklindeki makrokonidyumlar Trichophyton cinsine aittir. D) şıkkında tanımlanan kayık/mekik şeklinde, pürtüklü (dikenli) ve kalın duvarlı çok sayıda makrokonidyum ve az sayıda mikrokonidyum ise Microsporum cinsine aittir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2022 TUS Sonbahar"
+  },
+  {
+    "question": "86. Aşağıdakilerden hangisinin, in vitro etkinlik spektrumu göz önüne alındığında, Fusarium türlerine bağlı gelişen invaziv bir enfeksiyonun tedavisinde kullanılması en uygundur?",
+    "options": {
+      "A": "Kaspofungin",
+      "B": "Flukonazol",
+      "C": "Vorikonazol",
+      "D": "Flusitozin",
+      "E": "Anidulafungin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Fusarium türleri birçok antifungal ilaca (ekinokandinler, flukonazol, itrakonazol, flusitozin ve sıklıkla amfoterisin B'ye) karşı yüksek düzeyde intrinsik direnç gösteren fırsatçı küflerdir; invaziv füsaryoz tedavisinde in vitro ve klinik etkinliği en yüksek olan ve ilk tercih olarak kullanılan ajan vorikonazoldür (alternatif olarak lipozomal amfoterisin B veya posakonazol kullanılabilir). Çeldiriciler: A) Kaspofungin ve E) Anidulafungin, ekinokandin grubu ilaçlar olup Fusarium türlerine karşı doğal olarak tamamen etkisizdir. B) Flukonazol, küf mantarlarına ve Fusarium'a karşı tamamen etkisizdir. D) Flusitozin, Fusarium ve diğer hiyalen küflere karşı etkisizdir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2022 TUS Sonbahar"
+  },
+  {
+    "question": "87. HIV pozitif ve merkezi sinir sistemi belirti/bulguları olan anti-toxoplasma IgG antikoru pozitif bir hastanın manyetik rezonans görüntülemesinde tek bir lezyon saptanıyor. Ayırıcı tanı için BOS örneği alınıyor. Bu hastadan alınan BOS örneğinde aşağıdaki incelemelerden hangisinin yapılması en az gereklidir?",
+    "options": {
+      "A": "Toxoplasma gondii araştırılması için mikroskopi",
+      "B": "Toxoplasma gondii araştırılması için PCR",
+      "C": "Epstein-Barr Virus araştırılması için PCR",
+      "D": "JC Virus araştırılması için PCR",
+      "E": "Pneumocystis jirovecii araştırılması için PCR"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Pneumocystis jirovecii, solunum yoluyla bulaşan ve neredeyse münhasıran akciğerlerde interstisyel pnömoni (PCP) oluşturan bir etkendir; çok nadir ekstrapulmoner yayılım yapsa dahi HIV pozitif hastada merkezi sinir sisteminde kitle/lezyon yapan etkenler arasında yer almaz, bu nedenle BOS örneğinde P. jirovecii PCR bakılması en az gereklidir. Çeldiriciler: A) ve B) HIV/AIDS hastalarında beyinde yer kaplayan lezyonun (ensefalitin) en sık enfeksiyöz etkeni Toxoplasma gondii reaktivasyonudur; bu nedenle BOS'ta T. gondii mikroskobisi ve PCR incelemesi ayırıcı tanıda doğrudan yer alır. C) AIDS hastalarında beyinde tek odak lezyonunun en önemli ayırıcı tanısı primer santral sinir sistemi lenfoması olup bu tablo Epstein-Barr virüsü (EBV) ile doğrudan ilişkilidir; BOS'ta EBV PCR pozitifliği lenfoma tanısını güçlü şekilde destekler. D) JC polyomavirüs, AIDS hastalarında beyin beyaz cevherinde demiyelinizan lezyonlarla seyreden progresif multifokal lökoensefalopati (PML) etkenidir ve tanısı BOS'ta JCV PCR ile konur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2022 TUS Sonbahar"
+  },
+  {
+    "question": "88. Aşağıdaki mikroorganizmalardan hangisinin hücre zarında ergosterol bulunur?",
+    "options": {
+      "A": "Actinomyces israelii",
+      "B": "Streptococcus pyogenes",
+      "C": "Bacillus anthracis",
+      "D": "Aspergillus fumigatus",
+      "E": "Pneumocystis jiroveci"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Aspergillus fumigatus klasik bir ökaryotik küf mantarıdır ve hücre zarında (membranında) ana sterol yapısı olarak ergosterol bulundurur (bu sayede amfoterisin B ve vorikonazol gibi ergosterol hedefli ilaçlara duyarlıdır). Çeldiriciler: A) Actinomyces israelii, B) Streptococcus pyogenes ve C) Bacillus anthracis prokaryotik Gram-pozitif bakterilerdir; hücre membranlarında ergosterol veya kolesterol gibi steroller bulunmaz (bakterilerde yalnız Mycoplasma cinsi kolesterol içerir). E) Pneumocystis jirovecii, filogenetik olarak mantarlar aleminde sınıflandırılmasına rağmen önemli bir istisna olarak hücre membranında ergosterol bulundurmaz, bunun yerine memelilerdeki gibi \"kolesterol\" içerir (bu nedenle amfoterisin B ve azoller etkisizdir).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2023 TUS İlkbahar"
+  },
+  {
+    "question": "89. Hematolojik malignitesi olan ve ateş nedeniyle izlenen hastadan alınan kan kültüründen Sabouraud dekstroz agar besiyerinde yapılan pasajda, pamuğumsu, pembe-mor renkte bir küf mantarının ürediği görülüyor. Koloniden hazırlanan preparatın mikroskobik incelemesinde, kano şeklinde, 2-3 bölmeli makrokonidyumların varlığı dikkat çekiyor. Bu bulgulara göre, izole edilen mantar cinsi için en olası tanımlama aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fusarium spp.",
+      "B": "Penicillium spp.",
+      "C": "Paecilomyces spp.",
+      "D": "Aspergillus spp.",
+      "E": "Scopulariopsis spp."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hematolojik maligniteli nötropenik hastalarda dissemine enfeksiyon yapan, diğer küflerden farklı olarak rutin kan kültürlerinde yüksek oranda üreyebilen, Sabouraud dekstroz agarda pamuğumsu pembe-mor/eflatun koloniler ve mikroskobide karakteristik kano/muz/hilal (fusiform) şeklinde çok bölmeli makrokonidyumlar oluşturan mantar Fusarium cinsidir. Çeldiriciler: B) Penicillium spp., yeşil-mavi koloniler ve fırça şeklinde konidyofor ucunda yuvarlak konidiler oluşturur. C) Paecilomyces spp., Penicillium'a benzer ancak daha uzun ve ucu sivrilen fiyalidler ile oval konidiler oluşturur, kano şeklinde makrokonidisi yoktur. D) Aspergillus spp., kan kültüründe nadiren ürer ve vezikül etrafında yuvarlak konidiler oluşturur. E) Scopulariopsis spp., tarçın-kahverengi koloniler ve ucu kesik limon şeklinde kaba konidiler oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2023 TUS İlkbahar"
+  },
+  {
+    "question": "90. Boynunda ortası soluk, sirküler, kaşıntılı lezyonu olan 27 yaşındaki kadın hastadan deri kazıntısı örneği alınıyor ve laboratuvarda KOH ile incelendiğinde pigmentsiz, dallanan, septumlu hifler görülüyor. Bu tabloya yol açması en olası etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sporotrikoz",
+      "B": "Dermatofit",
+      "C": "Kromomikoz",
+      "D": "Blastomikoz",
+      "E": "Maduromikoz"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Deride ortası soluk (merkezden iyileşen), kenarları aktif, eritemli, skuamlı ve keskin sınırlı halka şeklinde (sirküler/annüler - tinea corporis) kaşıntılı lezyon oluşturan ve deri kazıntısının KOH incelemesinde hiyalen (pigmentsiz), dallanan, septalı hifler ve artrokonidiler görülen tablo dermatofitlerin (Trichophyton, Microsporum, Epidermophyton) oluşturduğu dermatofitozdur. Çeldiriciler: A) Sporotrikoz, lenfatik kanal boyunca dizilen ağrısız subkutan nodül ve ülserlerle seyreder ve dokuda puro şeklinde maya görülür. C) Kromomikoz (kromoblastomikoz), verrüköz lezyonlarla seyreder ve dokuda kahverengi pigmentli sklerotik cisimcikler görülür. D) Blastomikoz, sistemik bir mikoz olup deride verrüköz/ülseratif lezyonlar ve dokuda geniş tabanlı tomurcuklanan mayalar oluşturur. E) Maduromikoz (miçetoma), genellikle ayakta şişlik, sinüs ağızları ve granül akıntısıyla karakterize kronik subkutan enfeksiyondur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2023 TUS İlkbahar"
+  },
+  {
+    "question": "91. Candida albicans'ın ekinokandin grubu ilaçlara direnç geliştirmesinde rol oynayan en önemli mekanizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "14-alfa demetilaz enziminin aşırı salınımı",
+      "B": "CDR/MDR gen mutasyonu",
+      "C": "Urasil fosforibozil transferaz enziminde azalma",
+      "D": "fks1 geninde mutasyon",
+      "E": "Sitozin deaminaz aktivitesinde azalma"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Ekinokandin grubu antifungaller (kaspofungin, mikafungin, anidulafungin), mantar hücre duvarında 1,3-beta-D-glukan sentezini yapan glukan sentaz enzim kompleksinin katalitik alt birimini hedef alır; bu alt birimi kodlayan FKS1 (ve C. glabrata'da ayrıca FKS2) genlerinin \"hot-spot\" bölgelerinde meydana gelen nokta mutasyonları, ilacın hedef enzime afinitesini azaltarak ekinokandin direncine yol açan en temel mekanizmadır. Çeldiriciler: A) 14-alfa-demetilaz (ERG11) enziminin aşırı üretimi veya mutasyonu, ekinokandinlere değil azol grubu antifungallere direnç mekanizmasıdır. B) CDR (ATP-binding cassette) ve MDR (major facilitator superfamily) dışa atım (efluks) pompa genlerinin aşırı ekspresyonu, azol grubu ilaçlara direnç gelişiminden sorumludur (ekinokandinler bu pompaların substratı değildir). C) Urasil fosforibozil transferaz (FUR1) ve E) Sitozin deaminaz (FCY1) enzimlerindeki aktivite kaybı veya azalma, flusitozine (5-FC) karşı direnç gelişiminden sorumlu mekanizmalardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2023 TUS Sonbahar"
+  },
+  {
+    "question": "92. Üç ay önce bir seyahatinde 15 gün süre ile Hong Kong'ta bulunan HIV pozitif bir iş insanında, seyahatten döndükten sonra ateş, öksürük, yaygın lenfadenopati, akciğerde infiltratlar, anemi, trombositopeni ve molluscum contagiosum benzeri deri döküntüleri ortaya çıkıyor. Deri biyopsi örneğinin mikroskopik incelemesinde; ortasından tek, geniş bölme ile bölünen maya benzeri hücreler görülüyor. Bu hastadan alınan deri biyopsi örneğinin mikolojik kültüründe aşağıdakilerden hangisinin üremesi en olasıdır?",
+    "options": {
+      "A": "Blastomyces dermatitidis",
+      "B": "Paracoccidioides brasiliensis",
+      "C": "Histoplasma capsulatum",
+      "D": "Sporothrix schenckii",
+      "E": "Talaromyces marneffei"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Güneydoğu Asya ve Güney Çin'de (Hong Kong, Tayland, Vietnam vb.) endemik olan, özellikle ileri evre HIV/AIDS hastalarında ateş, lenfadenopati, hepatosplenomegali, sitopeni ve ortası göbekli \"Molluscum contagiosum benzeri\" papüler deri lezyonlarıyla dissemine enfeksiyon yapan ve dokuda tomurcuklanmak yerine ortasından tek bir enine bölmeyle (transvers septum / fisyonla) ikiye bölünen maya benzeri hücreler oluşturan termal dimorfik mantar Talaromyces (eski adıyla Penicillium) marneffei'dir. Çeldiriciler: A) Blastomyces dermatitidis, Kuzey Amerika'da endemiktir ve dokuda geniş tabanlı tomurcuklanan maya oluşturur. B) Paracoccidioides brasiliensis, Güney ve Orta Amerika'da endemiktir ve dokuda gemi dümeni şeklinde çoklu tomurcuklanan maya oluşturur. C) Histoplasma capsulatum, dokuda makrofaj içinde dar tabanlı tomurcuklanan küçük oval mayalar oluşturur, enine septumla bölünmez. D) Sporothrix schenckii, travma sonrası lenfokutanöz enfeksiyon yapar ve dokuda puro şeklinde tomurcuklanan maya oluşturur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2023 TUS Sonbahar"
+  },
+  {
+    "question": "93. İlk kez Japonya'da dış kulak yolundan izole edilmiş olan ve birçok antifungale karşı dirençli olmasından dolayı hastanelerde salgınlara yol açabilen ayrıca geniş alanlara yayılım göstererek tüm dünyayı tehdit etmeye başlayan mikolojik etken aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Candida albicans",
+      "B": "Aspergillus fumigatus",
+      "C": "Candida auris",
+      "D": "Cryptococcus neoformans",
+      "E": "Malassezia furfur"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İlk kez 2009 yılında Japonya'da bir hastanın dış kulak yolu (auris = kulak) akıntısından izole edilerek tanımlanan, flukonazol başta olmak üzere azoller, amfoterisin B ve ekinokandinlere karşı çoklu ilaç direnci gösterebilen, hastane yüzeylerinde ve hastaların derisinde kalıcı kolonizasyon yaparak yoğun bakım ünitelerinde ciddi nozokomiyal salgınlara yol açan etken Candida auris'tir. Çeldiriciler: A) Candida albicans, normal mukozal floranın parçası olup antifungal ilaçlara genellikle duyarlıdır. B) Aspergillus fumigatus, doğadan solunum yoluyla bulaşan bir küf mantarıdır, insandan insana hastane salgını yapmaz. D) Cryptococcus neoformans, güvercin dışkısıyla ilişkili kapsüllü bir mayadır, hastane içi temasla salgın oluşturmaz. E) Malassezia furfur, normal deri florasında bulunan lipofilik bir mayadır, çoklu ilaç dirençli küresel salgın etkeni değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2024 TUS İlkbahar"
+  },
+  {
+    "question": "94. Aşağıdaki mantar türlerinin hangisinde fenol oksidaz enzimi eşleştirildiği maddenin sentezinde görev alır?",
+    "options": {
+      "A": "Cryptococcus neoformans – Melanin",
+      "B": "Candida albicans – Biyofilm",
+      "C": "Aspergillus fumigatus – Toksin",
+      "D": "Cryptococcus gattii – Mukopolisakkarit",
+      "E": "Candida glabrata – Mannan"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Cryptococcus neoformans (ve C. gattii), hücre membranına bağlı bulunan fenol oksidaz (lakkaz) enzimi sayesinde özellikle merkezi sinir sisteminde bol bulunan katekolaminleri (dopamin, L-DOPA vb.) okside ederek hücre duvarında biriken ve mantarı fagositoz ile oksidatif hasardan koruyan melanin pigmentini sentezler. Çeldiriciler: B) Candida albicans'ta fenol oksidaz enzimi bulunmaz ve biyofilm sentezi ekzopolisakkarit matriks (glukan, mannan vb.) ile gerçekleşir. C) Aspergillus fumigatus'un gliotoksin vb. toksinlerinin sentezinde fenol oksidaz görev almaz. D) Cryptococcus gattii'de fenol oksidaz enzimi bulunmakla birlikte bu enzim mukopolisakkarit kapsülün değil, melanin pigmentinin sentezinden sorumludur. E) Candida glabrata'da fenol oksidaz bulunmaz ve mannan sentezinde glikoziltransferazlar görev alır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2024 TUS İlkbahar"
+  },
+  {
+    "question": "95. Aşağıdaki Aspergillus türlerinden hangisinde amfoterisin B'ye direnç ya da azalmış duyarlılık gözlenmesi en olasıdır?",
+    "options": {
+      "A": "Aspergillus fumigatus",
+      "B": "Aspergillus terreus",
+      "C": "Aspergillus versicolor",
+      "D": "Aspergillus niger",
+      "E": "Aspergillus oryzae"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Aspergillus terreus, membran ergosterol içeriğindeki farklılıklar ve yüksek katalaz üretimi nedeniyle amfoterisin B'ye karşı doğal (intrinsik) olarak dirençli olan veya azalmış duyarlılık gösteren Aspergillus türüdür; bu nedenle A. terreus enfeksiyonlarında amfoterisin B kullanılmaz, vorikonazol tercih edilir. Çeldiriciler: A) Aspergillus fumigatus, C) Aspergillus versicolor, D) Aspergillus niger ve E) Aspergillus oryzae türlerinde amfoterisin B'ye karşı karakteristik bir intrinsik (doğal) direnç söz konusu değildir.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2024 TUS Sonbahar"
+  },
+  {
+    "question": "96. Aşağıdaki mantar enfeksiyonlarının hangisinde etkenin solunum yoluyla bulaşması en az olasıdır?",
+    "options": {
+      "A": "Blastomikoz",
+      "B": "Histoplazmoz",
+      "C": "Koksidiyoidomikoz",
+      "D": "Kriptokokkoz",
+      "E": "Kromoblastomikoz"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kromoblastomikoz (Fonsecaea pedrosoi, Phialophora verrucosa, Cladophialophora carrionii vb.), solunum yoluyla değil, toprak ve bitkilerde bulunan dematisiyöz mantarların özellikle çıplak ayakla çalışan kişilerde diken batması veya deri travması (perkütan inokülasyon) yoluyla deri altına girmesi sonucu bulaşan bir subkutan mikozdur. Çeldiriciler: A) Blastomikoz, nemli topraktaki Blastomyces dermatitidis konidilerinin solunmasıyla (inhalasyonla) bulaşır. B) Histoplazmoz, kuş ve yarasa dışkısıyla kontamine topraktaki Histoplasma capsulatum mikrokonidilerinin solunmasıyla bulaşır. C) Koksidiyoidomikoz, kurak bölgelerdeki topraktan havaya karışan Coccidioides artrokonidilerinin solunmasıyla bulaşır. D) Kriptokokkoz, güvercin dışkısıyla kontamine topraktaki Cryptococcus maya hücrelerinin veya bazidiyosporların solunmasıyla bulaşır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2024 TUS Sonbahar"
+  },
+  {
+    "question": "97. Aşağıdakilerden hangisinde Candida albicans ve Candida dubliniensis için ortak olan özellikler birlikte verilmiştir?",
+    "options": {
+      "A": "Kapsül oluşturma ve germ tüp pozitifliği",
+      "B": "Germ tüp pozitifliği ve klamidospor oluşturma",
+      "C": "Tomurcuk oluşumu ve kapsül oluşturma",
+      "D": "Klamidospor oluşturma ve melanin üretimi",
+      "E": "Septum oluşturma ve bölünerek çoğalma"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Candida dubliniensis, fenotipik olarak Candida albicans'a çok benzeyen bir tür olup her iki mantar da serumda 37°C'de \"germ tüp (çimlenme borusu) testi pozitifliği\" gösterir ve mısır unlu-Tween 80 agarda kalın duvarlı \"klamidospor\" oluşturur; bu özellikleri ile diğer tüm Candida türlerinden ayrılırlar (ikisinin birbirinden ayrımında ise C. albicans'ın 42-45°C'de üreyebilmesi, C. dubliniensis'in ise üreyememesi kullanılır). Çeldiriciler: A) ve C) Hiçbir Candida türü kapsül oluşturmaz (kapsül Cryptococcus ve Rhodotorula'da bulunur). D) Candida türlerinde melanin üretimi önemli bir tanısal özellik değildir (melanin Cryptococcus neoformans'ta önemlidir). E) Ortadan enine septum oluşturarak ikiye bölünerek (fisyonla) çoğalma Candida'ların değil, Schizosaccharomyces ve Talaromyces marneffei'nin maya formunun özelliğidir; Candida'lar tomurcuklanarak çoğalır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2024 TUS Sonbahar"
+  },
+  {
+    "question": "98. Aşağıdaki bulaş kaynağı – etken mikroorganizma eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Kontamine su – Legionella pneumophila",
+      "B": "Kemirici idrarı – Hantavirus",
+      "C": "Keçi kılı – Bacillus anthracis",
+      "D": "Tavşan eti – Brucella melitensis",
+      "E": "Yarasa dışkısı – Histoplasma capsulatum"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tavşan eti (enfekte tavşanların yüzülmesi, parçalanması veya kene ısırığı) ile bulaşan zoonotik bakteri Brucella melitensis değil, tularemi etkeni olan Francisella tularensis'tir; Brucella melitensis ise enfekte koyun ve keçilerin pastörize edilmemiş süt ve süt ürünlerinin (taze peynir vb.) tüketilmesi veya hayvan çıkartılarıyla temas sonucu bulaşır. Çeldiriciler: A) Legionella pneumophila, klima sistemleri, soğutma kuleleri ve duş başlıklarındaki kontamine su aerosollerinin solunmasıyla bulaşır (Doğru eşleştirme). B) Hantavirus, enfekte kemiricilerin (fare vb.) idrar, dışkı ve tükürük aerosollerinin solunmasıyla bulaşır (Doğru eşleştirme). C) Bacillus anthracis, enfekte hayvanların (keçi kılı, koyun yünü, sığır derisi) sporlarla kontamine ürünleriyle temas sonucu şarbon oluşturur (Doğru eşleştirme). E) Histoplasma capsulatum, mağaralardaki yarasa dışkısı (guano) ve kümeslerdeki kuş dışkısıyla zenginleşmiş topraktaki sporların solunmasıyla bulaşır (Doğru eşleştirme).",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2024 TUS Sonbahar"
+  },
+  {
+    "question": "99. Tırnaklarında kalınlaşma ve renk değişikliği yakınmalarıyla başvuran hastanın tırnak örneğinin mikroskobik incelemesinde bölmeli hiyalen hifler görülüyor, kültürde bir dermatofit ürediği tespit ediliyor. Koloniden hazırlanan preparatın mikroskobik incelemesinde ise bol makrokonidyum görülmesine karşın mikrokonidyum görülmüyor. Aşağıdaki etken mikroorganizmalardan hangisinin bu tabloya neden olması en olasıdır?",
+    "options": {
+      "A": "Microsporum audouinii",
+      "B": "Epidermophyton floccosum",
+      "C": "Microsporum canis",
+      "D": "Trichophyton mentagrophytes species complex",
+      "E": "Trichophyton rubrum"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Tırnak enfeksiyonu (tinea unguium) yapabilen bir dermatofit olması ve kültür mikroskobisinde lobut/raket şeklinde bol makrokonidyum oluşturmasına karşın \"hiç mikrokonidyum oluşturmaması\", Epidermophyton floccosum için patognomoniktir. Çeldiriciler: A) Microsporum audouinii ve C) Microsporum canis, Microsporum cinsine ait olup klinik olarak tırnağı tutmazlar (sadece saç ve deriyi tutarlar); ayrıca M. audouinii kültürde genellikle ne makrokonidi ne de mikrokonidi oluşturur (bizarre hifler ve klamidospor yapar). D) Trichophyton mentagrophytes ve E) Trichophyton rubrum, tırnak enfeksiyonu yapabilmelerine rağmen kültürde bol miktarda mikrokonidyum ve çok az sayıda (nadir) makrokonidyum oluştururlar.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2025 TUS İlkbahar"
+  },
+  {
+    "question": "100. Hifal hücrenin fragmentasyonu sonucu oluşan konidyum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Blastokonidyum",
+      "B": "Artrokonidyum",
+      "C": "Mikrokonidyum",
+      "D": "Klamidokonidyum",
+      "E": "Makrokonidyum"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Artrokonidyum (artrospor), mevcut septalı hif hücrelerinin enine bölmelerinden (septumlarından) parçalanması/ayrılması (fragmentasyonu) sonucunda oluşan, fıçı veya dikdörtgen şeklindeki eşeysiz spor yapısıdır (Coccidioides immitis, Geotrichum candidum, Trichosporon asahii ve dermatofitlerde görülür). Çeldiriciler: A) Blastokonidyum (blastospor), ana maya hücresinden veya hifin çeşitli yerlerinden tomurcuklanma (budding) yoluyla oluşan eşeysiz spordur. C) Mikrokonidyum, özellikle dermatofitler ve Fusarium gibi küflerde hiflerin yanlarından oluşan tek hücreli küçük konidilerdir. D) Klamidokonidyum (klamidospor), hif üzerindeki bazı hücrelerin parçalanmadan duvarlarının kalınlaşması ve protoplazmasının yoğunlaşmasıyla oluşan dirençli eşeysiz yapılardır. E) Makrokonidyum, hiflerden tomurcuklanarak/fiyalidlerden oluşan çok hücreli, bölmeli büyük eşeysiz sporlardır.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2025 TUS İlkbahar"
+  },
+  {
+    "question": "101. Nefes darlığı şikâyetiyle başvuran 68 yaşındaki kadın hastanın öyküsünden 2 yıl önce Hodgkin lenfoma tanısı aldığı, kemoterapi ve radyoterapiye olumlu yanıt verdiği öğreniliyor. Klinik ve radyolojik bulgular sonucu atipik pnömoniden şüphelenilen bu hastadan bronkoalveolar lavaj sıvısından kültür ve solunum yolu patojenlerinin tespitine yönelik multipleks-polimeraz zincir reaksiyonu (PZR) testi isteniyor. Kültürde üreme olmuyor. Serum (1-3)-β-D-glukan düzeyi yüksek bulunan hastaya, multipleks-PZR test sonucuna göre yüksek doz trimetoprim-sulfametoksazol tedavisi başlanıyor. Aşağıdaki etkenlerden hangisinin bu hastadaki enfeksiyon tablosuna yol açması en olasıdır?",
+    "options": {
+      "A": "Aspergillus fumigatus",
+      "B": "Mycobacterium avium kompleks",
+      "C": "Pneumocystis jirovecii",
+      "D": "Chlamydophila pneumoniae",
+      "E": "Stenotrophomonas maltophilia"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hematolojik malignite (Hodgkin lenfoma) ve kemoterapi öyküsü olan immünsüprese hastada atipik pnömoni gelişmesi, etkenin rutin kültürde ürememesi, hücre duvarı yapısı nedeniyle serum (1-3)-β-D-glukan testinin yüksek pozitif saptanması, BAL sıvısında PZR ile tanı konulması ve tedavide ilk tercih olarak yüksek doz trimetoprim-sülfametoksazol (TMP-SMX) başlanması Pneumocystis jirovecii pnömonisi (PCP) için tüm yönleriyle tanısaldır. Çeldiriciler: A) Aspergillus fumigatus, serumda 1,3-beta-D-glukan yüksekliği yapabilse de rutin kültürlerde ürer ve tedavisinde TMP-SMX değil vorikonazol kullanılır. B) Mycobacterium avium kompleks, D) Chlamydophila pneumoniae ve E) Stenotrophomonas maltophilia, mantar değil bakteri olduklarından hücre duvarlarında 1,3-beta-D-glukan bulunmaz ve serum 1,3-beta-D-glukan düzeyini yükseltmezler.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2025 TUS Sonbahar"
+  },
+  {
+    "question": "102. Balkan endemik nefropatisine neden olan toksin ve bu toksini sentezleyen mantar eşleştirmesi aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Trikotekken – Fusarium spp.",
+      "B": "Sitrinin – Penicillium spp.",
+      "C": "Fumonisin – Fusarium moniliforme",
+      "D": "Okratoksin – Aspergillus spp.",
+      "E": "Sitreoviridin – Penicillium spp."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Balkan endemik nefropatisi, Tuna nehri havzasındaki ülkelerde görülen, kronik tübülointerstisyel nefrit, progresif böbrek yetmezliği ve üst üriner sistem tümörleri ile seyreden bir hastalık olup, tahıllarda üreyen Aspergillus (özellikle A. ochraceus) ve Penicillium (P. verrucosum) türlerinin sentezlediği nefrotoksik bir mikotoksin olan \"Okratoksin\" (Ochratoxin A) ile doğrudan ilişkilidir. Çeldiriciler: A) Trikoteken – Fusarium spp. eşleştirmesi, alimenter toksik aleuki tablosuna neden olur. B) Sitrinin – Penicillium spp. eşleştirmesi, sarı pirinç hastalığı ve nefropati yapar ancak Balkan endemik nefropatisinin spesifik etkeni okratoksindir. C) Fumonisin – Fusarium moniliforme eşleştirmesi, insanlarda özofagus kanserine neden olur. E) Sitreoviridin – Penicillium spp. eşleştirmesi, akut kardiyak beriberi tablosuna neden olur.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2025 TUS Sonbahar"
+  },
+  {
+    "question": "103. Bilinç bulanıklığı şikâyeti ile acil servise başvuran 62 yaşındaki kadın hastanın, periorbital selüliti olduğu görülüyor. Yapılan laboratuvar tetkiklerinde lökositoz, nötrofil hâkimiyeti ve kan şekeri 475 mg/dL olarak saptanıyor. Paranazal sinüs bilgisayarlı tomografi görüntülemesinde etmoid sinüslerde opasite gözlenmesi üzerine hastadan alınan sinonazal biyopsi örnekleri mikrobiyolojik inceleme için gönderiliyor. Örneklerin direkt mikroskopik incelemesinde, duvarları birbirine paralel olmayan, düzensiz, geniş, septasız hif yapıları gözleniyor ve hemen antifungal tedavi planlanıyor. Bu hastadaki tabloya yol açması en olası etkenin tedavisi için tercih edilmesi en uygun azol grubu antifungal aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ketokonazol",
+      "B": "İtrakonazol",
+      "C": "Flukonazol",
+      "D": "Vorikonazol",
+      "E": "Posakonazol"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kontrolsüz hiperglisemisi (475 mg/dL) olan hastada etmoid sinüzit, periorbital selülit ve bilinç bulanıklığı ile seyreden rinoserebral enfeksiyon ve sinonazal biyopside duvarları paralel olmayan, düzensiz, geniş, septasız hiflerin görülmesi \"mukormikoz\" (Mucorales enfeksiyonu) tanısını koydurur; mukormikozda cerrahi debridman ve amfoterisin B ilk tercih olup, azol grubu antifungaller arasında Mucorales'e karşı etkili olan ve tedavide kullanılabilen ajan posakonazoldür (diğeri şıklarda yer almayan isavukonazoldür). Çeldiriciler: A) Ketokonazol, B) İtrakonazol, C) Flukonazol ve D) Vorikonazol, Mucorales takımındaki küf mantarlarına karşı klinik olarak etkisizdir ve mukormikoz tedavisinde kullanılmaz.",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2026 TUS İlkbahar"
+  },
+  {
+    "question": "104. Uzun süredir diabetes mellitus tedavisi alan bir hastada menenjit-ensefalit bulguları saptanıyor. BOS incelemesinde maya hücreleri görülüyor fakat kapsül saptanmıyor. Serumdan yapılan lateks aglütinasyon testi (kriptokokkal antijen testi) pozitif raporlanıyor. Kültürde üreyen mayanın Cryptococcus olmadığı belirleniyor. Aşağıdakilerden hangisinin bu hastadaki tabloya neden olması en olasıdır?",
+    "options": {
+      "A": "Aspergilloz",
+      "B": "Kandidöz",
+      "C": "Feohifomikoz",
+      "D": "Trikosporonoz",
+      "E": "Zigomikoz"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Trichosporon türleri (T. asahii / T. beigelii), hücre duvarında Cryptococcus neoformans'ın kapsül polisakkariti olan glukuronoksilomannana (GXM) yapısal olarak çok benzeyen antijenik determinantlar bulundurur; bu nedenle invaziv trikosporonoz olgularında BOS'ta kapsülsüz maya/artrokonidi görülmesine ve kültürde Cryptococcus ürememesine rağmen serum/BOS kriptokokal lateks aglütinasyon antijen testi çapraz reaksiyon vererek yalancı pozitif saptanır. Çeldiriciler: A) Aspergilloz, C) Feohifomikoz ve E) Zigomikoz etkenleri küf mantarlarıdır; BOS'ta maya hücresi oluşturmazlar ve kriptokokal antijen testi ile çapraz reaksiyon vermezler. B) Kandidöz etkeni olan Candida türleri BOS'ta kapsülsüz maya hücresi olarak görülebilse de hücre duvarlarında glukuronoksilomannan benzeri antijen taşımadıklarından kriptokokal lateks aglütinasyon testinde çapraz reaksiyon (pozitiflik) oluşturmazlar. --- BÖLÜM 4 VİROLOJİ",
+    "lesson": "Mikrobiyoloji",
+    "unit": "Mantarlar",
+    "flag_reason": "2026 TUS İlkbahar"
+  }
+]

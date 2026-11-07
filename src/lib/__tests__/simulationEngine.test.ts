@@ -21,6 +21,7 @@ import {
   updatePastSimulationDetails,
   deletePastSimulation,
   computeAggregateSimulationStats,
+  compareTwoSimulations,
   SIM_MASTERED_KEY,
   SIM_RETRY_SCHEDULE_KEY,
 } from '../simulationEngine';
@@ -328,5 +329,97 @@ describe('simulationEngine', () => {
     // Silme kontrolü
     deletePastSimulation(rec.id);
     expect(getPastSimulations().length).toBe(0);
+  });
+
+  it('compareTwoSimulations iki denemeyi 14 branş bazında ve net farklarıyla karşılaştırır', () => {
+    const detailsA: AnswerDetail[] = [
+      { question: createMockQuestion('a1', 'Anatomi'), state: 'correct' },
+      { question: createMockQuestion('a2', 'Anatomi'), state: 'incorrect' },
+      { question: createMockQuestion('p1', 'Protez'), state: 'correct' },
+    ];
+    const detailsB: AnswerDetail[] = [
+      { question: createMockQuestion('a1', 'Anatomi'), state: 'correct' },
+      { question: createMockQuestion('a2', 'Anatomi'), state: 'correct' }, // Anatomi neti arttı
+      { question: createMockQuestion('p1', 'Protez'), state: 'incorrect' }, // Protez neti düştü
+    ];
+
+    const examA = savePastSimulation({
+      title: 'Simülasyon #1',
+      details: detailsA,
+      totalSeconds: 9000,
+      usedSeconds: 7000,
+    });
+    const examB = savePastSimulation({
+      title: 'Simülasyon #2',
+      details: detailsB,
+      totalSeconds: 9000,
+      usedSeconds: 6500,
+    });
+
+    const comparison = compareTwoSimulations(examA, examB);
+    expect(comparison.examA.id).toBe(examA.id);
+    expect(comparison.examB.id).toBe(examB.id);
+    expect(comparison.delta.usedMinutes).toBe(-9); // 108 dk - 117 dk = -9 dk
+
+    // 14 branş karşılaştırması
+    expect(comparison.branchComparisons.length).toBe(14);
+    const anatomiComp = comparison.branchComparisons.find(b => b.branch === 'Anatomi');
+    expect(anatomiComp).toBeDefined();
+    expect(anatomiComp?.status).toBe('improved');
+    expect(anatomiComp?.deltaNet).toBeGreaterThan(0);
+
+    const protezComp = comparison.branchComparisons.find(b => b.branch === 'Protez');
+    expect(protezComp).toBeDefined();
+    expect(protezComp?.status).toBe('declined');
+    expect(protezComp?.deltaNet).toBeLessThan(0);
+
+    expect(comparison.improvedBranchesCount).toBe(1);
+    expect(comparison.declinedBranchesCount).toBe(1);
+    expect(comparison.unchangedBranchesCount).toBe(12);
+  });
+
+  it('computeAggregateSimulationStats kronolojik deltaFromPrevious ve ADÇC 95 Net hedefini hesaplar', () => {
+    const details1: AnswerDetail[] = [
+      { question: createMockQuestion('a1', 'Anatomi'), state: 'correct' },
+      { question: createMockQuestion('a2', 'Anatomi'), state: 'incorrect' }, // 0.75 Net
+    ];
+    const details2: AnswerDetail[] = [
+      { question: createMockQuestion('a1', 'Anatomi'), state: 'correct' },
+      { question: createMockQuestion('a2', 'Anatomi'), state: 'correct' }, // 2.0 Net
+    ];
+
+    const sim1Raw = savePastSimulation({
+      title: 'Simülasyon #1',
+      details: details1,
+      totalSeconds: 9000,
+      usedSeconds: 7200,
+    });
+    const sim2Raw = savePastSimulation({
+      title: 'Simülasyon #2',
+      details: details2,
+      totalSeconds: 9000,
+      usedSeconds: 6600,
+    });
+
+    // Kronolojik sıra için net tarih farkı
+    const sim1 = { ...sim1Raw, date: '2026-11-01T10:00:00.000Z' };
+    const sim2 = { ...sim2Raw, date: '2026-11-02T10:00:00.000Z' };
+
+    const history = [sim2, sim1]; // En yeni başta
+    const agg = computeAggregateSimulationStats(history);
+
+    expect(agg.historyWithDeltas.length).toBe(2);
+    // sim2 en yeni, sim1 bir önceki -> deltaNet = 2.0 - 0.75 = 1.25
+    expect(agg.historyWithDeltas[0].id).toBe(sim2.id);
+    expect(agg.historyWithDeltas[0].deltaFromPrevious?.net).toBe(1.25);
+
+    // sim1 ilk deneme -> deltaFromPrevious null
+    expect(agg.historyWithDeltas[1].id).toBe(sim1.id);
+    expect(agg.historyWithDeltas[1].deltaFromPrevious).toBeNull();
+
+    // ADÇC 95 Net Hedef Açığı
+    expect(agg.adccTop10Gap.targetNet).toBe(95);
+    expect(agg.adccTop10Gap.currentNet).toBe(2.0);
+    expect(agg.adccTop10Gap.netGap).toBe(93.0);
   });
 });

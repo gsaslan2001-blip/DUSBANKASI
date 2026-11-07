@@ -2814,6 +2814,17 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                       timeSpent: d.timeSpent,
                     }));
                   saveBulkQuestionStats(answeredRecords);
+                  clearResumableSession().catch(() => {});
+                  SyncManager.flush().catch(() => {});
+
+                  // Kernel ve istatistik versiyonunu anında tazele (HUD, kokpit ve StatisticsView anında güncellensin)
+                  recomputeKernel({
+                    questions: rawQuestions,
+                    stats: loadAllStats(),
+                    activity: getRecentActivity(90),
+                    goals: useAppStore.getState().goals,
+                  });
+                  setStatsVersion(v => v + 1);
 
                   // DUS Simülasyon geçmişine eksiksiz kaydet
                   const saved = savePastSimulation({
@@ -2898,6 +2909,17 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                     timeSpent: d.timeSpent,
                   }));
                 saveBulkQuestionStats(answeredRecords);
+                  clearResumableSession().catch(() => {});
+                  SyncManager.flush().catch(() => {});
+
+                  // Kernel ve istatistik versiyonunu anında tazele (HUD, kokpit ve StatisticsView anında güncellensin)
+                  recomputeKernel({
+                    questions: rawQuestions,
+                    stats: loadAllStats(),
+                    activity: getRecentActivity(90),
+                    goals: useAppStore.getState().goals,
+                  });
+                  setStatsVersion(v => v + 1);
 
                 const saved = savePastSimulation({
                   details: details as SimAnswerDetail[],

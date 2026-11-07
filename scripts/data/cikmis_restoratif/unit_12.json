@@ -1,0 +1,114 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi, indirekt kompozit ve seramik restorasyonlardaki tamir işleminde kullanılmaz?",
+    "options": {
+      "A": "Mekanik pürüzlendirme",
+      "B": "Alüminyum oksit kumlama",
+      "C": "Hidroklorik asit",
+      "D": "Silanlar",
+      "E": "Hidroflorik asit"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İndirekt kompozit ve seramik restorasyonların simantasyon hazırlığında ve ağız içi/dışı tamir işlemlerinde yüzey pürüzlendirmesi için elmas frezlerle mekanik pürüzlendirme, alüminyum oksit ($Al_2O_3$) ile kumlama veya kimyasal olarak \"hidroflorik asit (HF)\" ve ardından kimyasal bağlanma için \"silan\" kullanılır. \"Hidroklorik asit (HCl)\" ise seramik veya kompoziti pürüzlendirmez; yalnızca mine mikroabrazyonunda ve rezin infiltrasyon (ICON) tekniğinde mine yüzeyinde kullanılır. Çeldiriciler: Mekanik pürüzlendirme (A), alüminyum oksitle kumlama (B), silan bağlayıcı ajanlar (D) ve hidroflorik asit (E) indirekt kompozit ve seramik restorasyonların simantasyon ve tamir prosedürlerinde kullanılan temel ajan ve yöntemlerdir.",
+    "lesson": "Restoratif",
+    "unit": "12 POSTERİOR İNDİREKT RESTORASYONLAR"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi indirekt kompozit rezin restorasyonun simantasyonu için yapılan uygulamalar arasında yer almaz?",
+    "options": {
+      "A": "Hidroflorik asit uygulaması",
+      "B": "Hidroklorik asit uygulaması",
+      "C": "Alüminyum oksitle kumlama yapılması",
+      "D": "Silan uygulaması",
+      "E": "Rezin siman uygulaması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İndirekt kompozit rezin restorasyonların simantasyon hazırlığında iç yüzeyi pürüzlendirmek için hidroflorik asit veya alüminyum oksitle kumlama, ardından silan ve rezin siman kullanılır; \"hidroklorik asit uygulaması\" ise indirekt simantasyonda yer almaz (mikroabrazyon ve rezin infiltrasyonda kullanılır). Çeldiriciler: Hidroflorik asit (A), alüminyum oksitle kumlama (C), silan uygulaması (D) ve rezin siman uygulaması (E) indirekt restorasyonların adeziv simantasyon basamaklarıdır.",
+    "lesson": "Restoratif",
+    "unit": "12 POSTERİOR İNDİREKT RESTORASYONLAR"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi indirekt kompozit rezin restorasyonun pürüzlendirilmesi için kullanılan asittir?",
+    "options": {
+      "A": "Hidroklorik asit",
+      "B": "Hidroflorik asit",
+      "C": "Maleik asit",
+      "D": "Sitrik asit",
+      "E": "Poliakrilik asit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İndirekt kompozit rezin ve cam seramik restorasyonların iç yüzeylerindeki cam/silika doldurucu fazını kimyasal olarak çözüp mikromekanik tutuculuk için pürüzlendirmede kullanılan asit \"hidroflorik asit (HF)\"tir. Çeldiriciler: Hidroklorik asit mikroabrazyonda, maleik asit ve poliakrilik asit dentin şartlandırmada, sitrik asit ise kök yüzeyi biyomodifikasyonunda kullanılır; cam/silika doldurucuları pürüzlendirme yetenekleri yoktur.",
+    "lesson": "Restoratif",
+    "unit": "12 POSTERİOR İNDİREKT RESTORASYONLAR"
+  },
+  {
+    "question": "İndirekt kompozit restorasyonların simantasyonu sırasında restorasyon iç yüzeyine silan uygulanmasının en olası nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kompozit rezin restorasyon içerisindeki doldurucuların rezin simanla reaksiyona girerek bağlanmanın sağlanması",
+      "B": "Kompozit rezin restorasyonun polimer yapısının aşındırılarak rezin siman ile bağlanma ara yüzeyinin arttırılması",
+      "C": "Kompozit rezin restorasyon yüzeyinin pürüzlendirilmesini sağlayarak rezin simanın bu girintilere bağlanmasının sağlanması",
+      "D": "Rezin simanın içerisindeki polimerizasyon başlatıcıların aktive edilmesi",
+      "E": "Rezin simanın içeriğinde bulunan doldurucuların yüzey enerjilerinin azaltılması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İndirekt kompozit restorasyonlarda polimerizasyon laboratuvarda yüksek oranda tamamlandığı için iç yüzeyde serbest metakrilat uçları çok azdır; kumlama ve hidroflorik asitle pürüzlendirme sonrası açığa çıkan inorganik cam/silika dolduruculara uygulanan bifonksiyonel \"silan\" ajanı, bir ucuyla indirekt kompozit içerisindeki inorganik dolduruculara (silanol gruplarına), diğer ucuyla da \"rezin simanın organik matriksine kimyasal olarak reaksiyona girerek bağlanmanın sağlanması\" amacıyla uygulanır. Çeldiriciler: - B ve C) Silan bir asit veya aşındırıcı değildir; polimer yapısını aşındırmaz ve yüzeyi pürüzlendirmez (pürüzlendirmeyi kumlama ve hidroflorik asit yapar). - D) Silan polimerizasyon başlatıcısı (aktivatör) değildir. - E) Silan yüzey enerjisini azaltmaz, aksine ıslanabilirliği ve kimyasal bağlanmayı artırır.",
+    "lesson": "Restoratif",
+    "unit": "12 POSTERİOR İNDİREKT RESTORASYONLAR"
+  },
+  {
+    "question": "İndirekt kompozit rezin restorasyonlarda kompozit rezin restorasyon içerisindeki doldurucuların rezin simanla reaksiyona girmesiyle bağlanmayı sağlayan uygulama aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Silan uygulaması",
+      "B": "Hidroflorik asit uygulaması",
+      "C": "Hidroklorik asit uygulaması",
+      "D": "Alüminyum oksit ile kumlama yapılması",
+      "E": "Cam iyonomer siman uygulaması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İndirekt kompozit (ve seramik) restorasyonların iç yüzeyindeki inorganik silika/cam doldurucu partiküllerinin organik rezin simanla kimyasal reaksiyona girerek kovalent bağlanmasını sağlayan uygulama \"silan uygulaması\"dır. Çeldiriciler: Hidroflorik asit ve alüminyum oksit ile kumlama yüzeyi mikromekanik olarak pürüzlendirir; hidroklorik asit mine lezyonlarında kullanılır; cam iyonomer siman ise rezin siman değildir.",
+    "lesson": "Restoratif",
+    "unit": "12 POSTERİOR İNDİREKT RESTORASYONLAR"
+  },
+  {
+    "question": "I. Hidroklorik asit II. Hidroflorik asit III. Silan Yukarıda verilen ajanlardan hangisi/hangileri indirekt restorasyonlarda kullanılmaz?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hidroklorik asit (I), indirekt restorasyonların simantasyon veya tamir prosedürlerinde kullanılmaz; hidroflorik asit (II) ve silan (III) ise indirekt restorasyonların iç yüzey hazırlığında kullanılan temel ajanlardır. Öncüllerin Analizi: - I. Öncül (Kullanılmaz): Hidroklorik asit rezin infiltrasyon ve mine mikroabrazyon tekniklerinde kullanılır; indirekt restorasyonlarda kullanılmaz. - II. Öncül (Kullanılır): Hidroflorik asit indirekt restorasyonun iç yüzeyini kimyasal olarak pürüzlendirmek için kullanılır. - III. Öncül (Kullanılır): Silan pürüzlendirilmiş indirekt restorasyon ile rezin siman arasında kimyasal bağ kurmak için kullanılır. Çeldiriciler: B, C, D ve E şıkları indirekt restorasyonlarda kullanılan hidroflorik asit (II) ve silanı (III) kullanılmaz olarak kabul ettiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "12 POSTERİOR İNDİREKT RESTORASYONLAR"
+  },
+  {
+    "question": "Seramik indirekt restorasyonların tamirinde seramik yüzeyine mekanik bağlanmayı artırmak amacıyla en yaygın olarak kullanılan asit aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fosforik asit",
+      "B": "Hidroklorik asit",
+      "C": "Hidroflorik asit",
+      "D": "Sitrik asit",
+      "E": "Propiyonik asit"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Feldspatik, lösit ve lityum disilikat gibi silika bazlı seramik indirekt restorasyonların simantasyonunda ve tamirinde, seramikteki cam matriks fazını seçici olarak çözüp bal peteği benzeri mikro-retantif gözenekler oluşturarak mekanik bağlanmayı artırmak amacıyla en yaygın kullanılan asit \"%4 - %9,5'lik hidroflorik asit (HF)\"tir. Çeldiriciler: Fosforik asit, hidroklorik asit, sitrik asit ve propiyonik asit seramik/porselen yüzeyindeki silika cam fazını çözüp pürüzlendirme gücüne sahip değildir (fosforik asit seramik yüzeyinde sadece tükürük kontaminasyonunu temizlemek için kullanılabilir, pürüzlendirme yapmaz).",
+    "lesson": "Restoratif",
+    "unit": "12 POSTERİOR İNDİREKT RESTORASYONLAR"
+  },
+  {
+    "question": "I. Hidroklorik asit II. Hidroflorik asit III. Silan IV. Mekanik pürüzlendirme V. Rezin siman kullanımı Yukarıdaki klinik uygulamalardan hangisi seramik ürünlerin simantasyonunda kullanılmayan bir uygulamadır?",
+    "options": {
+      "A": "I",
+      "B": "II",
+      "C": "III",
+      "D": "IV",
+      "E": "V"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Seramik ürünlerin simantasyonunda ve tamirinde mekanik pürüzlendirme (kumlama/elmas frez - IV), hidroflorik asit (II), silan (III) ve rezin siman (V) kullanılırken; \"hidroklorik asit (I)\" seramik simantasyonunda kullanılmaz. Öncüllerin Analizi: - I. Öncül (Kullanılmaz): Hidroklorik asit mine mikroabrazyonu ve rezin infiltrasyonda kullanılır. - II, III, IV ve V. Öncüller (Kullanılır): Hidroflorik asit, silan, mekanik pürüzlendirme ve rezin siman seramik simantasyonunun standart basamaklarıdır. Çeldiriciler: B, C, D ve E şıkları seramik simantasyonunda kullanılan doğru basamakları ifade etmektedir.",
+    "lesson": "Restoratif",
+    "unit": "12 POSTERİOR İNDİREKT RESTORASYONLAR"
+  }
+]

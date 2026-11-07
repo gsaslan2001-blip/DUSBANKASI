@@ -1,0 +1,790 @@
+[
+  {
+    "question": "Renk seçimi yapılırken, renklerin farklı algılanmasını sağlayan \"hue\" değerinin saptanmasında aşağıdaki renklerden hangisi kullanılmaz?",
+    "options": {
+      "A": "Mavi",
+      "B": "Sarı",
+      "C": "Beyaz",
+      "D": "Kırmızı",
+      "E": "Yeşil"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Munsell renk sisteminde \"Hue (ton)\", bir rengi diğerinden ayıran ana renk niteliğidir (kırmızı, sarı, yeşil, mavi, mor gibi dalga boylarıyla tanımlanan spektral renkler). \"Beyaz\" (ve siyah/gri) ise akromatik olup bir renk tonu (hue) olarak kabul edilmez; beyaz ve siyah, rengin açıklık/koyuluk oranını ifade eden \"parlaklık (value)\" skalasında yer alır. Çeldiriciler: Mavi (A), Sarı (B), Kırmızı (D) ve Yeşil (E) belirli dalga boylarına sahip ana renk tonları (hue) olup Munsell hue çemberinde yer alır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ",
+    "flag_reason": "2018 DUS Orijinal"
+  },
+  {
+    "question": "Munsell renk sistemine göre; dişin yapısında aşağıdaki renklerden hangisi diş hekiminin renk seçimi sırasında seçeceği rengin ton değerini etkilemez?",
+    "options": {
+      "A": "Sarı",
+      "B": "Beyaz",
+      "C": "Kırmızı",
+      "D": "Mavi",
+      "E": "Yeşil"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Munsell renk sisteminde beyaz bir renk tonu (hue) olarak kabul edilmediği için rengin ton (hue) değerini etkilemez; beyazlık ve siyahlık rengin \"value (parlaklık/değer)\" boyutunu belirler. Çeldiriciler: Sarı, kırmızı, mavi ve yeşil Munsell sisteminde \"hue (ton)\" boyutunu oluşturan ana spektral renklerdir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Anterior estetik kompozit restorasyon yapımında renk seçimi ile ilgili aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Rubber dam uygulamadan renk seçimi gerçekleştirilmelidir",
+      "B": "En iyi renk hastadan 25-30cm uzakta durularak seçilebilir",
+      "C": "Renk seçimi esnasında hekim göz yorulması yaşarsa gri renge bakarak gözlerini dinlendirmelidir",
+      "D": "Renk seçiminde mavi renge bakmak dişlerin daha gri renk algılanmasına sebep olur",
+      "E": "Renk seçim esnasında doğal ışık kaynaklarından yararlanılmalıdır"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Dişlerin temel rengi sarı-turuncu tonlarındadır; sarı-turuncu rengin tamamlayıcı (komplementer) rengi mavidir. Renk seçimi sırasında göz yorgunluğunu gidermek veya sarı-turuncu algı hassasiyetini artırmak için mavi veya nötr gri fona bakılır; mavi renge bakmak dişlerin daha gri algılanmasına sebep olmaz, aksine gözün sarı-turuncu tonları daha iyi ayırt etmesini sağlar (veya nötr griye bakarak göz dinlendirilir). Çeldiriciler: - A) Rubber dam uygulaması sonrası dişler kuruyarak (dehidrate olarak) olduğundan daha açık ve opak göründüğü için renk seçimi mutlaka rubber dam takılmadan önce, dişler nemliyken yapılmalıdır. - B) En iyi renk seçimi hastadan yaklaşık 25-30 cm (kol mesafesi) uzakta durularak ve 5-7 saniyeyi geçmeyecek sürede yapılır. - C) Göz yorulması yaşandığında nötr (mat) gri bir fona bakılarak göz dinlendirilir. - E) Metamerizmi önlemek için renk seçiminde öncelikle doğal gün ışığından yararlanılmalı ve farklı ışık kaynakları altında kontrol edilmelidir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "[Görsel: Üç boyutlu Munsell renk silindiri; merkezdeki dikey eksenden dış çepere doğru yatay olarak uzanan ok işareti] Yukarıdaki şekilde çizili Munsell renk sisteminde ok işareti ile gösterilen ve rengin gücünü/yoğunluğunu ifade eden renk terimi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hue",
+      "B": "Value",
+      "C": "Kroma",
+      "D": "Translüsensi",
+      "E": "Transparansi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Munsell renk silindirinde merkezdeki dikey eksenden dışarıya (çepere) doğru yatay okla gösterilen ve bir rengin doygunluğunu, saflığını veya gücünü/yoğunluğunu ifade eden renk terimi \"Kroma (Chroma)\"dır. Merkezden uzaklaştıkça kroma (doygunluk) artar. Çeldiriciler: - A) Hue (ton), silindirin çevresini dolanan dairesel eksende yer alan ana renk niteliğidir (kırmızı, sarı, mavi vb.). - B) Value (parlaklık/değer), silindirin merkezindeki dikey eksende aşağıdan (0: siyah) yukarıya (10: beyaz) doğru uzanan açıklık-koyuluk boyutudur. - D ve E) Translüsensi (yarı geçirgenlik) ve transparansi (şeffaflık) Munsell renk silindirinin üç temel boyutundan biri değildir, dişin optik ışık geçirme özellikleridir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "[Görsel: Üç boyutlu Munsell renk silindiri; merkezdeki dikey eksen boyunca aşağıdan yukarıya uzanan ok işareti] Yukarıdaki şekilde çizili Munsell renk sisteminde ok işareti ile gösterilen ve rengin parlaklığını ifade eden renk terimi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hue",
+      "B": "Value",
+      "C": "Kroma",
+      "D": "Translüsensi",
+      "E": "Transparansi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Munsell renk sisteminde merkezdeki dikey eksen boyunca gösterilen ve bir ton içerisindeki oransal açıklık veya koyuluk miktarını, yani rengin parlaklığını ifade eden terim \"Value (değer/parlaklık)\"dir. Renk seçiminde en önemli özellik olup değerlendirme sırası Parlaklık (Value) - Doygunluk (Chroma) - Ton (Hue) şeklindedir. Çeldiriciler: Hue dairesel eksende ana rengi, Kroma yatay eksende rengin doygunluğunu/yoğunluğunu, translüsensi ve transparansi ise ışık geçirgenliğini ifade eder.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Rengin algılanmasında kullanılan \"hue, value ve chroma\"nın ifade ettikleri anlam aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Hue: Rengin parlaklığı — Value: Rengin yoğunluğu — Chroma: Renk tonu",
+      "B": "Hue: Rengin parlaklığı — Value: Renk tonu — Chroma: Rengin yoğunluğu",
+      "C": "Hue: Rengin yoğunluğu — Value: Rengin parlaklığı — Chroma: Renk tonu",
+      "D": "Hue: Renk tonu — Value: Rengin yoğunluğu — Chroma: Rengin parlaklığı",
+      "E": "Hue: Renk tonu — Value: Rengin parlaklığı — Chroma: Rengin yoğunluğu"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Munsell renk sisteminin üç parametresinden Hue: ana renk tonunu (VITA Classical skalasında A, B, C, D harfleriyle gösterilir), Value: rengin parlaklığını / açıklık-koyuluk değerini, Chroma ise ana rengin doygunluğunu / yoğunluğunu (VITA skalasında 1, 2, 3, 4 rakamlarıyla gösterilir) ifade eder. Çeldiriciler: A, B, C ve D şıkları Hue, Value ve Chroma terimlerinin anlamlarını birbiriyle karıştırarak yanlış eşleştirmiştir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "I. Diş hekimliğinde en fazla kullanılan renk sistemi Munsell renk sistemidir. II. Görsel renk tespitinde renk skalalarından yararlanılabilir. III. Dijital fotoğraf makineleri renk tespitinde tercih edilmez. IV. Farklı aydınlatma koşullarında rengin değerlendirilmesi metamerizmi engelleyebilir. Diş hekimliğinde kullanılan renk sistemleri ve renk tespit yöntemleri ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "II ve IV",
+      "C": "Yalnız II",
+      "D": "Yalnız IV",
+      "E": "I ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kliniktaki görsel renk tespitinde renk skalalarından (shade guide) yararlanılması ve metamerizmi önlemek için rengin birden fazla aydınlatma koşulunda değerlendirilmesi doğrudur. Öncüllerin Analizi: - I. Öncül (Yanlış): Munsell renk sistemi teorik olarak birçok sistemin temelini oluştursa da diş hekimliği klinik pratiğinde en fazla kullanılan sistem Munsell değil, VITA Classical ve VITA 3D Master gibi renk skalası sistemleridir. - II. Öncül (Doğru): Görsel (subjektif) renk tespitinde en sık kullanılan yöntem VITA Classical, VITA 3D Master gibi renk skalaları ile karşılaştırmadır. - III. Öncül (Yanlış): Dijital fotoğraf makineleri ve dijital renk analiz cihazları (spektrofotometreler, kolorimetreler) daha objektif ve tekrarlanabilir sonuçlar verdiği için tercih edilmez değil, aksine giderek daha çok tercih edilmektedir. - IV. Öncül (Doğru): Metamerizmi (bir rengin farklı ışık kaynaklarında farklı algılanmasını) önlemek için renk seçiminin doğal ışık altında yapılması ve birden fazla aydınlatma koşulunda (gün ışığı, yapay ışık) değerlendirilmesi gerekir. Çeldiriciler: A ve E şıkları yanlış olan I ve III. öncülleri içerdiği için; C ve D şıkları ise doğru olan II ve IV. öncüllerden birini eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Diş hekimliğinde kullanılan renk sistemleri ve renk tespit yöntemleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Renk tespitinde dijital fotoğraf makinelerinden faydalanılabilir.",
+      "B": "Diş hekimliğinde en fazla kullanılan klinik renk sistemi Munsell renk sistemidir.",
+      "C": "Görsel renk tespitinde renk skalalarından yararlanılabilir.",
+      "D": "Doğal ışık kaynağı altında renk seçimi yapılmazsa metamerizm ortaya çıkabilir.",
+      "E": "Renk seçiminin ardından farklı aydınlatma koşullarında rengin değerlendirilmesi metamerizmi engelleyebilir."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Munsell renk sistemi teorik temel olarak alınsa da diş hekimliği kliniklerinde en yaygın kullanılan sistem Munsell değil, bu üç özelliği temel alarak geliştirilen VITA Classical ve VITA 3D Master gibi uygulamaya dönük skala sistemleridir. Çeldiriciler: Renk tespitinde dijital fotoğraf makinelerinden (A) ve görsel renk skalalarından (C) faydalanılması, doğal ışık altında seçim yapılmazsa metamerizm oluşabilmesi (D) ve farklı ışık kaynakları altında değerlendirme yapılarak metamerizmin engellenebilmesi (E) doğru ifadelerdir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi dijital fotoğraf makineleri ile renk tespiti yapılırken dikkat edilmesi gereken durumlardan biri değildir?",
+    "options": {
+      "A": "Beyaz ayarının doğru yapılması",
+      "B": "Polarize filtre kullanımı",
+      "C": "Aşırı parlak ışık kullanımı",
+      "D": "Standardize arka plan seçimi",
+      "E": "Kalibrasyon kartı kullanımı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dijital fotoğraf makineleriyle renk tespiti yapılırken \"aşırı parlak ışık kullanımı\" diş yüzeyinde yoğun yansımaları (parlamaları) artırır, yüzey detaylarını siler, renk doygunluğunu bozar ve yanlış bir renk algısına yol açar; bu nedenle aşırı parlak ışıktan kaçınılmalıdır. Çeldiriciler: - A) Beyaz ayarı (white balance), kamera sensörünün ışık kaynağını doğru yorumlayıp renklerin doğal görünmesini sağlar. - B) Polarize filtre, diş yüzeyindeki speküler ışık yansımalarını ortadan kaldırarak dişin gerçek iç renk tonlarını ve karakterizasyonlarını yakalamaya yardımcı olur. - D) Standardize (nötr gri/siyah) arka plan seçimi, renk algısını yanıltacak görsel uyaranları azaltır ve kontrastı optimize eder. - E) Kalibrasyon kartı (gri kart), fotoğrafın çekildiği ışık koşullarına göre renk doğruluğunu kontrol etmek için referans noktası sağlar.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Kısa dalga boylarındaki ışığı mavi renk olarak yansıtma, uzun dalga boylarındaki ışığı ise sarı/kırmızı renkte geçirme olarak tanımlanan optik özellik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Floresans",
+      "B": "Translüsensi",
+      "C": "Opalesans",
+      "D": "Opasite",
+      "E": "Transparansi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Opalesans, yarı saydam (translüsent) mine dokusunun içerisindeki hidroksiapatit kristallerinin ışığı saçması sonucunda, kısa dalga boylarındaki ışığı yansıtarak yansıyan ışıkta (özellikle genç dişlerin insizal kenarında) \"mavimsi\" görünmesi, uzun dalga boylarındaki ışığı ise geçirerek geçen ışıkta \"kehribar/sarı-kırmızı\" renkte görünmesi olarak tanımlanan optik özelliktir. Çeldiriciler: - A) Floresans, materyalin kısa dalga boylu (UV) ışığı emerek anında daha uzun dalga boylarında (mavimsi-beyaz görünür ışık olarak) geri yansıtmasıdır. - B) Translüsensi (yarı saydamlık), ışığın materyal içerisinden kısmen kırılarak ve saçılarak geçmesidir. - D) Opasite, materyalin ışığı tamamen emip/yansıtarak arkaya geçişini engellemesidir (translüsensinin zıttıdır). - E) Transparansi, materyalin ışığı saçmadan tamamen geçirmesi yani tam şeffaf olmasıdır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ",
+    "flag_reason": "2023 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Özellikle genç hastalarda minenin insizallerinde mavimsi yansıma şeklinde gözlenen optik özellik aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Floresans",
+      "B": "Translüsensi",
+      "C": "Opalesans",
+      "D": "Opasite",
+      "E": "Transparansi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Özellikle genç hastalarda henüz aşınmamış saf mine dokusundan oluşan insizal kenarlarda kısa dalga boylu ışığın yansıtılmasıyla izlenen mavimsi renk yansıması opalesans özelliğidir. Çeldiriciler: Floresans UV ışığın daha uzun dalga boyunda yayılması, translüsensi yarı geçirgenlik, opasite ışık geçirmeme, transparansi ise tam şeffaflıktır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Nesnenin ışık kaynağı tarafından uyarımı devam ederken alınan ışığın absorbe edilip başka bir dalga boyu olarak yansıtılmasına ne denir?",
+    "options": {
+      "A": "Fosforesans",
+      "B": "Floresans",
+      "C": "Saçılma",
+      "D": "Kırılma",
+      "E": "Yansıma"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Fotolüminesansın iki türünden biri olan \"floresans\" durumunda; nesnenin ışık kaynağı tarafından uyarımı devam ederken bir ışık kaynağından gelen enerji (fotonlar) absorbe edilir ve elektronlar temel enerji durumuna dönerken daha uzun bir dalga boyuyla görünür ışık fotonu olarak yayılır (uyarıcı ışık kaynağı kesildiğinde parlama anında durur). Çeldiriciler: - A) Fosforesans durumunda ise emilen enerji uyarıcı ışık kaynağı uzaklaştıktan (kesildikten) sonra da yavaşça serbest bırakılarak nesnenin belirli bir süre daha parlamaya devam etmesini sağlar. - C, D ve E) Saçılma, kırılma ve yansıma ışığın dalga boyunun/enerjisinin değiştirilerek yeniden emisyonunu (fotolüminesansı) ifade etmez.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Farklı ışık kaynakları sonucunda farklı renk algılanması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tiksotropik etki",
+      "B": "Refraksiyon",
+      "C": "Fluoresens",
+      "D": "Reflaksiyon",
+      "E": "Metamerizm"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Spektral dağılımları farklı olan iki cismin (örneğin doğal diş ve kompozit restorasyonun) belirli bir ışık kaynağı altında (örneğin klinik reflektör ışığında) aynı renkte algılanırken, farklı bir ışık kaynağı altında (örneğin doğal gün ışığı veya floresan ışıkta) birbirinden farklı renklerde algılanması olayına \"metamerizm\" denir. Çeldiriciler: - A) Tiksotropik etki, jel/akışkan materyallerin basınç veya titreşim uygulandığında viskozitesinin düşüp akıcılığının artmasıdır. - B) Refraksiyon, ışığın bir ortamdan kırılma indeksi farklı başka bir ortama geçerken yön değiştirmesidir (kırılma). - C) Fluoresens, kısa dalga boylu ışığın emilip daha uzun dalga boyunda yayılmasıdır. - D) Reflaksiyon, ışığın yüzeyden geri yansımasıdır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Renk seçiminin doğal ışık altında yapılmaması aşağıdaki klinik olumsuzluklardan hangisine neden olur?",
+    "options": {
+      "A": "Floresans",
+      "B": "Refraksiyon",
+      "C": "Saçılma",
+      "D": "Metamerizm",
+      "E": "Tiksotropik etki"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Renk seçimi doğal gün ışığı altında (veya farklı aydınlatma koşullarında kontrol edilerek) yapılmazsa, klinikte uyumlu görünen restorasyon rengi hasta dışarı çıktığında farklı ışık kaynakları altında dişten farklı bir renkte görünür; bu klinik uyumsuzluğa \"metamerizm\" adı verilir. Çeldiriciler: Floresans, refraksiyon ve saçılma optik ışık olayları, tiksotropik etki ise akışkanlık özelliğidir; yanlış aydınlatmada renk seçimi hatası değildir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Nesnenin rengi ile çevresi arasında algılanan farkın azalması durumuna verilen isim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Profanomoli",
+      "B": "Akrometopsi",
+      "C": "Kromatik asimilasyon",
+      "D": "Tritananomoli",
+      "E": "Metamerizm"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Nesnenin rengi çevresinin tamamlayıcı rengine doğru kayıp fark belirginleştiğinde buna \"eş zamanlı renk kontrastı\" denirken; bunun tam tersi meydana geldiğinde, yani nesnenin renginin çevre rengine yaklaşmasıyla nesnenin rengi ile çevresi arasında algılanan farkın azalması durumuna \"kromatik asimilasyon (yayılma etkisi)\" adı verilir. Çeldiriciler: - A) Protanomali (profanomoli), kırmızı renk algısının sorunlu olduğu kısmi renk körlüğüdür (Deuteranomali: yeşil renk algısı bozukluğu). - B) Akromatopsi, hiçbir rengin algılanamadığı tam renk körlüğüdür. - D) Tritanomali, mavi renk algısının sorunlu olduğu kısmi renk körlüğüdür. - E) Metamerizm, farklı ışık kaynakları altında cisimlerin farklı renkte görünmesidir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Dişlerde görülen renklenmelerden hangisi dış kaynaklı değildir?",
+    "options": {
+      "A": "Diş kolelerinde Nasmyth zarı varlığı",
+      "B": "Sigara içenlerde görülen nikotin lekelenmeleri",
+      "C": "Kromojenik mikroorganizmaların oluşturduğu lekelenmeler",
+      "D": "Kahve ve çay gibi içecekler yüzünden oluşan lekelenmeler",
+      "E": "Gelişim döneminde fazla alınan tetrasiklinler yüzünden oluşan renklenmeler"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Gelişim döneminde alınan tetrasiklinler yüzünden oluşan renklenmeler dış kaynaklı (ekstrinsik) değil, dişin sert dokularının yapısına katılan \"iç kaynaklı (intrinsik)\" renklenmelerdir. Çeldiriciler: Nasmyth zarı, sigara/nikotin, kromojenik bakteriler ve çay-kahve lekelenmeleri diş yüzeyine dışarıdan tutunan dış kaynaklı renklenmelerdir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıdaki etkenlerden hangisi dışsal kaynaklı renklenmeye neden olmaz?",
+    "options": {
+      "A": "Dişin gelişimi esnasında aşırı florür içeren içeceklerin tüketimi",
+      "B": "Mine yüzeyinde Nasmyth membran artıklarının kalması",
+      "C": "Kötü ağız hijyeni",
+      "D": "Renklendirici yiyecek ve içecek alışkanlıkları",
+      "E": "Periodontal problemler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Dişin gelişimi (amelogenezis/kalsifikasyon) esnasında içme suları veya içeceklerle aşırı miktarda sistemik florür alınması, ameloblast fonksiyonlarını ve mine matürasyonunu bozarak \"dental florozis\"e yol açar; florozis dışsal (ekstrinsik) değil, doğrudan mine yapısının içinde oluşan \"içsel (intrinsik)\" kaynaklı bir renklenmedir. Çeldiriciler: Mine yüzeyinde kalan Nasmyth zarı artıkları (B), kötü ağız hijyeni ve plak/diştaşı birikimi (C), çay, kahve, şarap gibi renklendirici diyet alışkanlıkları (D) ve dişeti kanaması/periodontal problemler (E) dişin dış yüzeyine tutunan dışsal (ekstrinsik) renklenme nedenleridir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ",
+    "flag_reason": "2022 DUS Orijinal"
+  },
+  {
+    "question": "I. Florozis II. Nasmyth zar artıkları III. Demir içerikli ilaç kullanımı Yukarıdaki durumlardan hangisi/hangileri dişlerde içsel renklenmeye neden olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Diş gelişimi esnasında aşırı flor alımına bağlı oluşan florozis içsel (intrinsik) renklenme nedeniyken; Nasmyth zarı artıkları ve demir içerikli ilaç/şurup kullanımı diş yüzeyinde biriken dışsal (ekstrinsik) renklenme nedenleridir. Öncüllerin Analizi: - I. Öncül (İçsel): Florozis, gelişim döneminde oluşan vital diş kaynaklı içsel (intrinsik) bir renklenmedir. - II. Öncül (Dışsal): Sürme sonrası diş kolelerinde kalan Nasmyth zarı artıkları bakteriler ve gıdalarla boyanarak siyahımsı dışsal renklenme yapar. - III. Öncül (Dışsal): Demir içerikli ilaçların (ve klorheksidinin) kullanımı diş yüzeyinde demir sülfit çökeltileriyle siyah renkli dışsal (ekstrinsik) lekelenmeye neden olur (içsel renklenme yapan ilaç tetrasiklindir). Çeldiriciler: B, C, D ve E şıkları dışsal renklenme etkenleri olan II veya III. öncülleri içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıdaki verilen renklenme nedenlerinden hangisinin tedavisinde en uygun yöntem walking bleaching tekniğidir?",
+    "options": {
+      "A": "Tetrasiklin renklenmeleri",
+      "B": "Gutta perka renklenmeleri",
+      "C": "Nasmyth zarı renklenmeleri",
+      "D": "Demir içerikli ilaçların neden olduğu renklenmeler",
+      "E": "Amalgam korozyon ürünlerinin neden olduğu renklenmeler"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Walking bleaching (devital koronal beyazlatma) tekniği, kanal tedavisi yapılmış \"devital dişlerde\" pulpa odası içine ağartma ajanı (sodyum perborat) yerleştirilerek uygulanan içsel beyazlatma yöntemidir. Kanal tedavisi sonrasında pulpa odasında bırakılan \"gutta perka\" ve kanal patı artıklarının neden olduğu renklenmeler devital diş renklenmesi olduğu için tedavisinde en uygun yöntem walking bleaching tekniğidir. Çeldiriciler: - A ve E) Tetrasiklin renklenmeleri ve amalgam korozyon ürünleri kaynaklı renklenmeler genellikle \"vital\" dişlerde görülen içsel renklenmelerdir (walking bleach uygulanmaz). - C ve D) Nasmyth zarı ve demir içerikli ilaç renklenmeleri dış kaynaklı (ekstrinsik) lekelenmeler olup polisajla giderilir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "I. Orta düzey florozis vakalarında beyaz nokta (White spot) lezyonlar ya da bantlaşmalar görülürken, şiddetli florozis vakalarında mine yüzeyinde çukurlaşmalar ve kahverengi renklenmeler görülür. II. Tetrasiklin dişlerde intrinsik renk değişikliğine neden olan bir faktördür. III. Amelogenezis imperfekta, dişlerde opak beyazdan kahverengiye kadar değişen renklenmeye neden olur. Dişlerdeki renklenmeler ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Florozis, tetrasiklin ve amelogenezis imperfektaya bağlı içsel diş renklenmelerinin klinik özelliklerini tanımlayan her üç öncül de doğrudur. Öncüllerin Analizi: - I. Öncül (Doğru): Thylstrup-Fejerskov (TF) florozis indeksine göre hafif/orta düzey vakalarda gelişimsel beyaz opak noktalar ve yatay çizgilenme/bantlaşmalar (TF 1-4) görülürken, şiddetli vakalarda (TF 5 ve üzeri) gözenekli minede posterüptif kırılmalarla çukurlaşmalar (pitting) ve sarımsı-kahverengi renklenmeler görülür. - II. Öncül (Doğru): Diş gelişimi sırasında alınan tetrasiklin, dentin ve minede kalsiyum ortofosfat kompleksine bağlanarak sarıdan koyu gri-maviye kadar değişen intrinsik (içsel) renklenmeye neden olur. - III. Öncül (Doğru): Genetik bir mine anomalisi olan amelogenezis imperfekta, tipine göre dişlerde opak tebeşirimsi beyazdan sarımsı-kahverengiye kadar değişen intrinsik renklenmelere yol açar. Çeldiriciler: A, B, C ve D şıkları doğru olan öncüllerden birini veya birkaçını eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Dişlerdeki renklenmeler ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Orta düzey florozis vakalarında beyaz nokta (White spot) lezyonları ya da bantlaşmalar görülebilir.",
+      "B": "Şiddetli florozis vakalarında mine yüzeyinde çukurlaşmalar ve kahverengi renklenmeler görülür.",
+      "C": "Tetrasiklin dişlerde intrinsik renk değişikliğine neden olan bir faktördür.",
+      "D": "Amelogenezis imperfekta, dişlerde opak beyazdan kahverengiye kadar değişen renklenmeye neden olur.",
+      "E": "Amelogenezis imperfekta ekstrinsik renk değişikliğine neden olan bir faktördür."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Amelogenezis imperfekta ameloblastlardaki genetik bozukluk sonucu mine matriks formasyonu veya mineralizasyonunun etkilendiği kalıtsal bir hastalıktır; bu nedenle dişlerde dış kaynaklı (ekstrinsik) değil, \"iç kaynaklı (intrinsik)\" renk değişikliğine neden olur. Çeldiriciler: Orta ve şiddetli florozis bulguları (A, B), tetrasiklinin intrinsik renklenme yapması (C) ve amelogenezis imperfektanın opak beyazdan kahverengiye değişen renklenme oluşturması (D) doğru ifadelerdir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıda verilen durumlardan hangisi iç kaynaklı bir renklenme nedeni değildir?",
+    "options": {
+      "A": "Demir ilacı kullanımı",
+      "B": "Tetrasiklin kullanımı",
+      "C": "Florozis",
+      "D": "Amelogenezis imperfekta",
+      "E": "Dentinogenezis imperfekta"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Demir içerikli ilaçların (şurupların) kullanımı dişin iç yapısına katılmaz; ağız ortamında hidrojen sülfür ile reaksiyona girerek dişlerin dış yüzeyinde (özellikle servikalde) siyah renkli \"dış kaynaklı (ekstrinsik)\" lekelenmeye neden olur. Çeldiriciler: Tetrasiklin kullanımı (B), florozis (C), amelogenezis imperfekta (D) ve dentinogenezis imperfekta (E) diş gelişimi sırasında sert dokuların yapısında meydana gelen iç kaynaklı (intrinsik) renklenme nedenleridir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Diş renklenmeleri ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Klorheksidin kullanımına bağlı renklenmeler yeşil renkte gözlenir.",
+      "B": "Florozis renklenmeleri opak, beyaz sarımsı veya kahverengi olarak izlenir.",
+      "C": "Dentinogenezis imperfektada beyaz opak renklenmeler görülür.",
+      "D": "Nasmyth zarı artıkları kırmızı olarak izlenir.",
+      "E": "Amelogenezis imperfektada gri renklenmeler görülür."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dental florozis renklenmeleri şiddetine göre hafif vakalarda tebeşirimsi opak beyaz noktalar/çizgiler, orta ve şiddetli vakalarda ise gözenekli minenin dışsal pigmentleri almasıyla sarımsı veya koyu kahverengi lekeler ve çukurlaşmalar olarak izlenir. Çeldiriciler: - A) Klorheksidin kullanımına bağlı dışsal renklenmeler yeşil değil, sarımsı-kahverengi veya siyah renkte gözlenir. - C ve E) Dentinogenezis imperfekta ve amelogenezis imperfektada genellikle sarımsı-kahverengi (veya kehribar/opalesan) renklenmeler görülür. - D) Nasmyth zarı artıkları kırmızı değil, bakteriyel ve gıda boyanmasıyla siyah/koyu kahverengi renkte izlenir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "I. Klorheksidin- kahverengi II. Florozis- opak, beyaz sarımsı veya kahverengi III. Amelogenezis imperfekta – gri Yukarıda verilen klinik durumlar ve renklenmelerle ilgili eşleştirmelerden hangisi/hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Klorheksidin kullanımında kahverengi dışsal renklenme, floroziste ise opak beyaz, sarımsı veya kahverengi içsel renklenme görülmesi doğrudur. Öncüllerin Analizi: - I. Öncül (Doğru): Klorheksidin kullanımı dişlerde ve dilde kahverengi renklenmeye yol açar. - II. Öncül (Doğru): Floroziste şiddetine göre opak beyaz, sarımsı veya kahverengi renklenmeler izlenir. - III. Öncül (Yanlış): Amelogenezis imperfektada gri değil, opak beyaz veya sarımsı-kahverengi renklenmeler görülür (mavi-gri renklenme ileri derece tetrasiklin renklenmesinde görülür). Çeldiriciler: A şıkkı II. öncülü eksik bıraktığı için; C, D ve E şıkları ise yanlış olan III. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi vital ağartma endikasyonlarından biridir?",
+    "options": {
+      "A": "Kromojen bakteri renklenmeler veya mantarların oluşturduğu renklenmeler",
+      "B": "Diş kolelerinde nasmyth zarı kalıntıları",
+      "C": "Kanal tedavili dişlerde pulpa odasında kalan materyal artıklarının oluşturduğu renklenmeler",
+      "D": "Florozise bağlı yüzeyel renklenmeler",
+      "E": "Amelogenezis imperfekta"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Vital ağartma (bleaching); canlı dişlerde yaşlanma, hafif/orta dereceli tetrasiklin ve \"florozise bağlı yüzeyel (sarı-kahverengi) içsel renklenmelerin\" giderilmesinde endikedir. Çeldiriciler: - A ve B) Kromojen bakteri/mantar lekeleri ve Nasmyth zarı kalıntıları dış kaynaklı (ekstrinsik) yüzeyel lekeler olup ağartma ile değil, mekanik polisaj/detertraj ile temizlenir. - C) Kanal tedavili dişlerde pulpa odasındaki materyal artıklarının oluşturduğu renklenme vital değil, \"devital ağartma (walking bleach)\" endikasyonudur. - E) Amelogenezis imperfektada ciddi mine kaybı ve yapısal defekt mevcut olduğu için ağartma kontrendikedir, protetik/restoratif tedavi yapılır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıdaki kimyasal ajanlardan hangisi, iç veya dış kaynaklı diş renklenmelerinin tedavisinde kullanılmaz?",
+    "options": {
+      "A": "Hidrojen peroksit",
+      "B": "Sodyum perborat",
+      "C": "Sodyum askorbat",
+      "D": "Karbomit peroksit",
+      "E": "Hidroklorik asit"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Sodyum askorbat bir beyazlatma (ağartma) veya leke çıkarma ajanı değildir; güçlü bir \"antioksidan\" tuz olup beyazlatma tedavisi tamamlandıktan sonra mine ve dentinde kalan ve adeziv bağlanmayı inhibe eden serbest oksijen radikallerini nötralize ederek \"beyazlatma sonrası kompozit bağlantısını artırmak\" amacıyla kullanılır. Çeldiriciler: - A ve D) Hidrojen peroksit (%15-40) ve karbamid peroksit (%10-35), vital ve devital diş beyazlatmasında kullanılan ana oksitleyici ağartma ajanlarıdır. - B) Sodyum perborat, devital dişlerin beyazlatılmasında (walking bleach) kullanılan ağartma ajanıdır. - E) Hidroklorik asit (%11-18 HCl), mine mikroabrazyon tekniğinde yüzeyel florozis ve demineralizasyon renklenmelerinin mekanik-kimyasal tedavisinde kullanılır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ",
+    "flag_reason": "2014 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi beyazlatma işlemlerinde, beyazlatma sonrası bağlantıyı arttırma amaçlı kullanılan ajandır?",
+    "options": {
+      "A": "Pyrozon",
+      "B": "Sodyum askorbat",
+      "C": "Sodyum perborat",
+      "D": "Karbopol",
+      "E": "Süperoksol"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Beyazlatma işlemi sonrasında diş dokusunda kalan serbest oksijen radikalleri rezinlerin polimerizasyonunu inhibe ederek adeziv bağlanmayı düşürür; 1-2 hafta beklemek yerine hemen restorasyon yapılacaksa serbest oksijeni nötralize edip bağlantıyı artırmak amacıyla antioksidan olan \"%10'luk sodyum askorbat\" kullanılır. Çeldiriciler: - A) Pyrozon, hidrojen peroksitin eter içindeki %25'lik çözeltisidir. - C) Sodyum perborat, walking bleach tekniğinde kullanılan devital ağartma ajanıdır. - D) Karbopol, ağartma jellerinin viskozitesini artırmak ve oksijen salınımını yavaşlatıp uzatmak için eklenen kıvam artırıcı полиmerdir. - E) Süperoksol, hidrojen peroksitin sudaki %30-35'lik çözeltisidir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Evde yapılan beyazlatma tedavisi için aşağıda verilen ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hazırlanan plak 0.75-1.5mm kalınlığında yumuşak vinil materyalden yapılmalıdır",
+      "B": "Plak serbest dişeti seviyesi hizasında olmalıdır",
+      "C": "Çift çeneye aynı anda beyazlatma işlemi uygulanmamalıdır",
+      "D": "Kullanılan karbamid peroksit %7 üre, %3 hidrojen peroksite dönüşür",
+      "E": "Hasta tarafından satın alınabilen striplerin de hekim kontrolünde kullanılması gerekir"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Ev tipi beyazlatmada (nightguard vital bleaching) hazırlanan yumuşak vinil plak, ağartma jelinin dişetine sızarak kimyasal yanık ve irritasyon oluşturmasını önlemek amacıyla dişeti ve yumuşak doku ile irtibatta olmamalı, \"serbest dişeti kenarının 1-2 mm koronalinde (dişeti sınırından uzakta)\" sonlanacak şekilde kesilmelidir; serbest dişeti seviyesi hizasında olması yanlıştır. Çeldiriciler: - A) Beyazlatma plağı 0,020-0,040 inç (0,75-1,5 mm) kalınlığında yumuşak vinil materyalden yapılır ve fasiyal yüzlere rezervuar (cep) hazırlanır. - C) Kapanış bozuklukları ve TME (eklem) problemlerini önlemek, ayrıca renk açılma farkını hastaya gösterebilmek için çift çeneye aynı anda beyazlatma uygulanmamalı, tek çene olarak sırayla yapılmalıdır. - D) Ev tipi beyazlatmada en sık kullanılan %10'luk karbamid peroksit yıkıldığında yaklaşık %7 üre ve %3-3,5 hidrojen peroksite dönüşerek etki gösterir. - E) Reçetesiz satılan (OTC) beyazlatma bantlarının/striplerinin de ilk renklenme muayenesi yapılarak hekim kontrolünde kullanılması önerilir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Üre ve hidrojen peroksitten oluşan beyazlatma ajanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sodyum askorbat",
+      "B": "Pyrozon",
+      "C": "Süperoksol",
+      "D": "Karbamid peroksit",
+      "E": "Sodyum perborat"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Karbamid peroksit ($CH_6N_2O_3$), su ve tükürükle temas ettiğinde hidrojen peroksit ve üreye (%10 karbamid peroksit -> ~%3,5 hidrojen peroksit + ~%6,5-7 üre) ayrışarak etki oluşturan beyazlatma ajanıdır. Çeldiriciler: - A) Sodyum askorbat antioksidan tuzdur, üre ve peroksit içermez. - B) Pyrozon, hidrojen peroksitin eterdeki %25'lik çözeltisidir. - C) Süperoksol, hidrojen peroksitin sudaki %35'lik çözeltisidir. - E) Sodyum perborat, suyla reaksiyona girdiğinde sodyum metaborat, hidrojen peroksit ve oksijene ayrışan toz ağartma ajanıdır; üre içermez.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıda verilen \"beyazlatmada kullanılan ajan – özellik\" eşleştirmelerinden hangisi doğrudur?",
+    "options": {
+      "A": "Pyrozon – Hidrojen peroksitin sudaki %35'lik çözeltisidir",
+      "B": "Sodyum askorbat – Ayrıştığında hidrojen peroksit ve oksijen açığa çıkar",
+      "C": "Sodyum perborat – Beyazlatma sonrası bağlantıyı arttırmak için kullanılır",
+      "D": "Karbamid peroksit – Ayrışınca %7 üre %3 hidrojen peroksit oluşur",
+      "E": "Süperoksol – Hidrojen peroksitin eterdeki %25'lik çözeltisidir"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): %10'luk karbamid peroksit ayrıştığında yaklaşık %7 üre ve %3 (3,35) hidrojen peroksit oluşturur. Çeldiriciler: - A ve E) Hidrojen peroksitin sudaki %35'lik çözeltisi \"Süperoksol\", eter içindeki %25'lik çözeltisi ise \"Pyrozon\"dur (A ve E şıklarında tam tersi verilmiştir). - B ve C) Ayrıştığında hidrojen peroksit ve oksijen açığa çıkaran ajan \"Sodyum perborat\", beyazlatma sonrası bağlantıyı artırmak için kullanılan antioksidan ajan ise \"Sodyum askorbat\"tır (B ve C şıklarında yerleri değiştirilmiştir).",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Beyazlatıcı ajanlara eklenen, beyazlatma etkisi bulunmayan, oksijen salınımını kontrol eden ajandır?",
+    "options": {
+      "A": "Süperoksol",
+      "B": "Pyrozon",
+      "C": "Karbopol",
+      "D": "Sodyum askorbat",
+      "E": "Sodyum perborat"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Karbopol (karboksipolimetilen), kendisinin doğrudan ağartıcı (beyazlatıcı) etkisi bulunmayan ancak ağartıcı jellerin içerisine fabrikasyon esnasında katılarak jelin viskozitesini ve dokuya tutunmasını artıran, aynı zamanda aktif peroksit yıkımını ve oksijen salınımını yavaşlatıp kontrol ederek etki süresini uzatan suda çözünür poliakrilik asit polimeridir. Çeldiriciler: Süperoksol, Pyrozon ve Sodyum perborat doğrudan aktif ağartıcı ajanlardır; Sodyum askorbat ise ağartma işlemi bittikten sonra kullanılan antioksidan ajandır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hem tükürükte hem de evde plakla uygulanan vital ağartma ajanlarının içerisinde bulunan bir bileşendir?",
+    "options": {
+      "A": "Peroksidaz",
+      "B": "Lipaz",
+      "C": "Katalaz",
+      "D": "Üre",
+      "E": "Amilaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Evde plakla uygulanan vital ağartma işlemlerinde en sık kullanılan ajan karbamid peroksittir ve karbamid peroksit hidrojen peroksit ile \"üre\"den oluşur. Üre, aynı zamanda doğal insan tükürüğünün organik bileşenlerinden biridir; her iki durumda da bakteriyel üreazlarla amonyağa parçalanarak ortam pH'sını alkali yöne çekip demineralizasyon riskini azaltır. Çeldiriciler: Peroksidaz (A), lipaz (B), katalaz (C) ve amilaz (E) tükürükte veya ağız ortamında bulunabilen enzimlerdir ancak hiçbirisi vital ağartma jellerinin içeriğinde yer almaz (hatta katalaz ve peroksidaz peroksiti parçaladığı için ağartma etkinliğini bozar).",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Ev tipi vital diş beyazlatma tedavisi gören bir hastada, uygulanan ajanların tükürükle reaksiyona girerek ortam pH'sını artırdığı görülmüştür. Bu etki aşağıdaki maddelerden hangisine bağlı olabilir?",
+    "options": {
+      "A": "Peroksidaz",
+      "B": "Lipaz",
+      "C": "Amilaz",
+      "D": "Üre",
+      "E": "Laktoperoksidaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Ev tipi vital beyazlatmada kullanılan karbamid peroksitin yıkımıyla açığa çıkan \"üre\", ağız ortamında üreaz enzimi aracılığıyla amonyak ve karbondioksite parçalanır; bazik amonyak ortam pH'sını yükselterek (alkali hale getirerek) asidik etkileri dengeler ve minenin demineralizasyon riskini azaltır. Çeldiriciler: Peroksidaz, lipaz, amilaz ve laktoperoksidaz tükürük enzimleri olup beyazlatma ajanından salınarak pH'yı yükselten maddeler değildir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Üre, tükürükte bulunan ve bazı beyazlatıcı ajanlarda da yer alan bir bileşendir. Bu maddenin beyazlatıcı ürünlerdeki temel rolü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Renk partiküllerini doğrudan oksitlemek",
+      "B": "pH'yı yükselterek ortamı alkali hale getirmek",
+      "C": "Diş yüzeyinde bariyer oluşturmak",
+      "D": "Renkli bileşikleri maskemek",
+      "E": "Diş yüzeyinde mikrofilm oluşturmak"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Karbamid peroksit yapısında yer alan ürenin beyazlatıcı ürünlerdeki temel rolü; amonyağa parçalanarak pH'yı yükseltip ortamı alkali hale getirmek, böylece asidik ortamın mine üzerindeki demineralizasyon etkisini önlemek ve beyazlatıcı maddenin daha stabil kalmasını sağlamaktır. Çeldiriciler: Renk partiküllerini (kromoforları) doğrudan oksitleyen aktif bileşen üre değil, hidrojen peroksittir (A); ürenin bariyer, maskeleme veya mikrofilm oluşturma (C, D, E) gibi bir görevi yoktur.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Ağartma tedavileri sırasında oluşabilecek hassasiyetin önlenebilmesi için aşağıdakilerden hangisi tercih edilmez?",
+    "options": {
+      "A": "Antiinflamatuvar ilaç kullanılması",
+      "B": "Ağartma tedavisi boyunca hassasiyet giderici diş macunları kullanılması",
+      "C": "Ağartıcı ajan kullanmadan önce dişlere potasyum nitrat uygulanması",
+      "D": "Ağartma yapılan dişlere lokal anestezi uygulanması",
+      "E": "Ağartma tedavisine başlamadan önce dişlere florid jel uygulanması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Vital ağartma (özellikle yüksek konsantrasyonlu ofis tipi beyazlatma) işlemleri sırasında hastalara kesinlikle \"lokal anestezi uygulanmaz\". Çünkü lokal anestezi hastanın ağrı hissini ortadan kaldırır; bu durumda ağartıcı ajanın dişeti bariyerinden sızarak yumuşak dokularda ciddi kimyasal yanık oluşturması veya aşırı ısıyla pulpada geri dönüşümsüz hasar gelişmesi hasta tarafından hissedilemez ve hekim tarafından fark edilemez. Çeldiriciler: İşlem öncesi/sonrası sistemik antiinflamatuvar ilaç kullanımı (A), tedavi boyunca hassasiyet giderici macun kullanımı (B) ve dişlere potasyum nitrat (C), florür veya ACP (E) uygulanması beyazlatma hassasiyetini önlemek ve gidermek için tercih edilen güvenli yöntemlerdir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Diş renginden estetik açıdan şikayetçi olan 27 yaşındaki kadın hasta beyazlatma tedavisi için kliniğe başvurmuştur. Yapılan muayene sonucunda herhangi bir çatlak veya yapısal defekt bulunmayan hastaya %35'lik hidrojen peroksit ile ofis tipi vital ağartma tedavisi planlanmıştır. Tedavi esnasında hassasiyet oluşumu bildirildiğine göre aşağıda verilen uygulamalardan hangisi hastaya önerilemez?",
+    "options": {
+      "A": "Tedavi boyunca hassasiyet giderici diş macunu kullanılması",
+      "B": "Dişlere flor jel uygulaması",
+      "C": "Antiinflamatuar ilaç kullanımı",
+      "D": "Ağartma öncesi lokal anestezi uygulaması",
+      "E": "Dişlere potasyum nitrat uygulaması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): %35'lik hidrojen peroksit gibi kostik ve güçlü bir ajanla yapılan ofis tipi vital beyazlatmada, olası bir yumuşak doku sızıntısını (kimyasal yanığı) ve aşırı pulpal irritasyonu erken fark edebilmek için hastanın ağrı refleksinin korunması şarttır; bu nedenle ağartma öncesi lokal anestezi uygulaması kesinlikle önerilmez. Çeldiriciler: Hassasiyet giderici diş macunu (A), topikal flor jel (B), antiinflamatuar ilaç (C) ve potasyum nitrat (E) uygulamaları beyazlatma hassasiyetinin yönetiminde önerilen doğru yaklaşımlardır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Kimyasal beyazlatma işleminde kullanılan ajanlar ve içerikleri için aşağıda verilen eşleştirmelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Karbopol — Ürünlerin oksijen salınımı etkiler",
+      "B": "Sodyum askorbat — Antioksidan özelliği vardır",
+      "C": "Potasyum nitrat — Hassasiyet giderme amacıyla yapıya katılır",
+      "D": "Pyrozon — Hidrojen peroksitin sudaki %25'lik çözeltisi",
+      "E": "Sodyum perborat — Ayrışarak oksijen ve hidrojen peroksit açığa çıkarır"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Pyrozon, hidrojen peroksitin sudaki değil, \"eter içindeki %25'lik çözeltisi\"dir (hidrojen peroksitin sudaki %30-35'lik çözeltisine Süperoksol adı verilir). Çeldiriciler: - A) Karbopol jellerin kıvamını artırır ve oksijen salınım hızını yavaşlatarak etkiler. - B) Sodyum askorbat antioksidan özelliğe sahiptir ve beyazlatma sonrası adeziv bağlantıyı yeniden kazandırmak için kullanılır. - C) Potasyum nitrat (florür ve ACP ile birlikte) hassasiyet giderme amacıyla beyazlatma ajanlarına katılır. - E) Sodyum perborat nem varlığında ayrışarak hidrojen peroksit ve serbest oksijen açığa çıkarır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Devital diş beyazlatma işleminin en ciddi komplikasyonu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "İnternal kök rezorpsiyonu",
+      "B": "Pulpa taşı oluşumu",
+      "C": "Mine hipoplazisi",
+      "D": "Eksternal kök rezorpsiyonu",
+      "E": "Beyaz nokta lezyonu"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Devital diş beyazlatma işlemlerinde (özellikle %30-35 hidrojen peroksit ve ısı kullanılan termokatalitik yöntemde ve servikal kaide yapılmadığında), düşük molekül ağırlıklı hidrojen peroksitin servikal dentin tübüllerinden periodontal ligamente difüze olarak ortamı asidikleştirmesi, simenti denatüre etmesi ve osteoklastik/odontoklastik aktiviteyi uyarması sonucunda gelişen en ciddi ve yıkıcı komplikasyon \"eksternal (servikal) kök rezorpsiyonu\"dur. Çeldiriciler: - A ve B) Devital (kanal tedavili) bir dişte vital pulpa dokusu bulunmadığı için internal kök rezorpsiyonu ve pulpa taşı oluşumu gerçekleşemez. - C) Mine hipoplazisi diş gelişimi sırasında oluşan konjenital/gelişimsel bir anomalidir. - E) Beyaz nokta lezyonu başlangıç mine çürüğüdür.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Devital beyazlatma tedavisi sonrası kaviteye uygulanan kalsiyum hidroksit ve steril serum karışımı için aşağıda verilen bilgilerden hangisi doğrudur?",
+    "options": {
+      "A": "Kavitede 1 hafta kalması yeterlidir",
+      "B": "Tedavi sonrası bağlantıyı arttırma amaçlı kullanılır",
+      "C": "Tedavi esnasında oluşan hassasiyeti azaltma amaçlı kullanılır",
+      "D": "Vital beyazlatma sonrası tercih edilir",
+      "E": "Oluşabilecek eksternal servikal rezorbsiyonları önleme amacıyla kullanılır"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Başarılı bir devital beyazlatma tedavisinin hemen ardından, peroksitlerin servikal dentinde oluşturduğu asidik pH'yı nötralize etmek, osteoklastik aktiviteyi inhibe etmek ve \"oluşabilecek eksternal servikal kök rezorpsiyonlarını önlemek\" amacıyla pulpa odası yıkanır ve kalsiyum hidroksit patı yerleştirilerek pulpa odasında 2 hafta boyunca bekletilir. Çeldiriciler: - A) Kavitede 1 hafta değil, 2 hafta boyunca bekletilir. - B) Bağlantıyı artırmak için kalsiyum hidroksit değil, antioksidan olan sodyum askorbat kullanılır (kalsiyum hidroksit aksine rezin bağlantısını bozar). - C ve D) Devital dişte pulpa olmadığı için dentin hassasiyeti olmaz ve bu işlem vital beyazlatmada değil, devital beyazlatmada pulpa odası içine uygulanır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Devital beyazlatmada, termokatalitik yöntemde aşağıda verilen ajanlardan hangisi kullanılır?",
+    "options": {
+      "A": "Karbamid peroksit",
+      "B": "Hidrojen peroksit",
+      "C": "Karbopol",
+      "D": "Potasyum nitrat",
+      "E": "Sodyum askorbat"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Ofiste yapılan devital beyazlatmalarda kullanılan \"termokatalitik yöntem\"de, pulpa odasına yüksek konsantrasyonlu (%30-35'lik sıvı/jel) \"hidrojen peroksit\" yerleştirilir ve ısıtılmış bir el aleti, ışık veya elektrikli ısı kaynağı ile ısı uygulaması yapılır (ancak yüksek eksternal servikal rezorpsiyon riski nedeniyle bu yöntem terk edilmiş, yerine suyla karıştırılan sodyum perboratlı walking bleach yöntemi geçmiştir). Çeldiriciler: Karbamid peroksit esas olarak ev tipi ve yumuşak ağartmalarda kullanılır; karbopol kıvam artırıcı, potasyum nitrat hassasiyet giderici, sodyum askorbat ise antioksidandır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin ofis tipi vital diş beyazlatma tedavisinin başarısını etkilemesi en az olasıdır?",
+    "options": {
+      "A": "Beyazlatma ajanındaki peroksit konsantrasyonu",
+      "B": "Beyazlatma ajanının pH'sı",
+      "C": "Beyazlatma ajanının dişle temas süresi",
+      "D": "Beyazlatma ajanının rengi",
+      "E": "Isı uygulanması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Ofis tipi beyazlatma ajanları klinikte uygulama sırasında görsel kontrolü kolaylaştırmak (diş yüzeyinde ve dişeti sınırında görülmesini sağlamak) ve ışık/lazer enerjisini absorbe etmek amacıyla ticari preparatlarda farklı renklerde (kırmızı, yeşil, mavi, sarı, şeffaf) üretilebilir; \"beyazlatma ajanının rengi\" kimyasal oksidasyon reaksiyonunu ve tedavinin ağartma başarısını doğrudan belirleyen bir faktör değildir. Çeldiriciler: Beyazlatma ajanının hidrojen peroksit konsantrasyonu (A), ajanın pH'sı (bazik pH'da radikaller daha hızlı oluşur ve demineralizasyon azalır - B), ajanın diş dokusuyla temas süresi ve uygulama sayısı (C) ile reaksiyonu hızlandıran ısı/ışık uygulanması (E) ağartma etkinliğini ve başarısını doğrudan belirleyen temel faktörlerdir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "I. Beyazlatma ajanındaki peroksit konsantrasyonu II. Beyazlatma ajanının pH'sı III. Beyazlatma ajanının dişle temas süresi IV. Beyazlatma ajanının rengi V. Isı uygulanması Yukarıdaki öncüllerden hangileri beyazlatma ajanlarının etkinliğini belirler?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve V",
+      "C": "I, II ve V",
+      "D": "I, II, III ve V",
+      "E": "II, III, IV ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Beyazlatma ajanlarının ağartma etkinliğini belirleyen faktörler; peroksit konsantrasyonu (I), ajanın pH'sı (II), dişle temas süresi (III) ve ısı uygulanmasıdır (V); ajanın ticari rengi (IV) ise etkinliği belirlemez. Öncüllerin Analizi: - I, II, III ve V. Öncüller (Etkinliği belirler): Peroksit konsantrasyonu, pH, temas süresi ve ısı uygulaması serbest radikal oluşum hızını ve penetrasyonunu artırarak etkinliği belirler. - IV. Öncül (Belirlemez): Beyazlatma ajanının rengi uygulama kolaylığı içindir, kimyasal ağartma etkinliğini belirlemez. Çeldiriciler: A, B ve C şıkları etkinliği belirleyen faktörleri eksik bıraktığı için; E şıkkı ise IV. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "%10-20 konsantrasyonda hasta tarafından evde, %35 ve üzeri konsantrasyonda hekim tarafından klinikte uygulanan beyazlatma ajanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Karbamid peroksit",
+      "B": "Süperoksol",
+      "C": "Pyrozon",
+      "D": "Sodyum perborat",
+      "E": "Sodyum askorbat"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Karbamid peroksit; %10-20 konsantrasyonlarda hasta tarafından özel bir plak içerisine konularak evde (home bleaching / nightguard vital bleaching), %35 ve daha üstü konsantrasyonlarda ise hekim kontrolünde klinikte (ofis tipi / bekleme odası beyazlatması) uygulanan beyazlatma ajanıdır. Çeldiriciler: - B ve C) Süperoksol (%35 sulu $H_2O_2$) ve Pyrozon (%25 eterli $H_2O_2$) yüksek yakıcı etkileri nedeniyle hasta tarafından evde plakla kullanılamaz, yalnızca klinikte kullanılır. - D) Sodyum perborat klinikte devital dişlerin pulpa odasına yerleştirilen toz ajandır. - E) Sodyum askorbat beyazlatma ajanı değil, antioksidandır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "I. Ağartma işlemleri sonucunda mine ve dentin yüzeyindeki oksijen konsantrasyonunun düşmesinin beklenmesi II. Ağartma yapılmış dişlerin renklerinin stabil hâle gelmesinin beklenmesi III. Diş etlerinin ağartma tedavisi öncesi durumlarına dönmesinin beklenmesi Vital ve devital ağartma işlemlerinden sonra adeziv restorasyonların 2 hafta süreyle ertelenmesinin nedenleri ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "Yalnız II",
+      "D": "II ve III",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Vital ve devital ağartma işlemlerinin hemen ardından daimi adeziv kompozit restorasyonların yapımının 1-2 hafta süreyle ertelenmesinin iki temel nedeni vardır: 1. Mine ve dentin gözeneklerinde biriken ve rezin polimerizasyonunu inhibe ederek bağlanma gücünü düşüren artık oksijen konsantrasyonunun dokudan uzaklaşmasını beklemek (I), 2. Ağartma bitiminden hemen sonra oluşan aşırı açılmanın bir miktar geriye dönerek (rebound) diş renginin stabil hale gelmesini beklemek ve doğru kompozit rengini seçebilmektir (II). Öncüllerin Analizi: - I. Öncül (Doğru): Dokudaki serbest oksijen radikalleri adeziv bağlanmayı olumsuz etkilediği için oksijen konsantrasyonunun düşmesi adına 1-2 hafta beklenir (veya sodyum askorbat uygulanır). - II. Öncül (Doğru): Ağartılmış dişlerin renginin stabil hale gelmesi (hidratasyon ve oksijenin uzaklaşmasıyla rengin oturması) yaklaşık iki hafta sürer. - III. Öncül (Yanlış): Ağartmada dişetleri bariyerle korunur; olası bir materyal sızmasıyla dişetlerinde oluşan beyazlama ise 2 hafta sürmez, birkaç saat içerisinde geri döner. Çeldiriciler: A ve C şıkları doğru öncüllerden birini eksik bıraktığı için; D ve E şıkları ise yanlış olan III. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Beyazlatma tedavisi ile ilgili aşağıdaki ifadelerden hangisi yanlış bilgi içermektedir?",
+    "options": {
+      "A": "Ağartma işlemleri sonucunda mine ve dentin yüzeyindeki oksijen konsantrasyonunun düşmesini takiben restorasyon yapılır",
+      "B": "Ağartma yapılmış dişlerin renklerinin stabil hâle gelmesi iki hafta sürebilir",
+      "C": "Diş etlerinin ağartma tedavisi öncesi durumlarına dönmesi için 7-10 gün arası beklemek gerekir",
+      "D": "Beyazlatma tedavisi sonrasında bağlantıyı arttırma amaçlı sodyum askorbat kullanılır",
+      "E": "Beyazlatma esnasında lokal anestezi yapılmamalıdır"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Beyazlatma sırasında dişetleri rubber-dam veya ışıkla sertleşen gingival bariyerle korunur; eğer dişetine bir miktar peroksit sızması olursa oluşan yüzeyel beyazlık (kimyasal yanık) birkaç saat içerisinde (veya birkaç günde) kendiliğinden geri döner, dişetlerinin normale dönmesi için restorasyon öncesi 7-10 gün beklemek gerekir ifadesi yanlıştır (bekleme nedeni oksijenin uzaklaşması ve diş renginin stabilleşmesidir). Çeldiriciler: Oksijen konsantrasyonunun düşmesini takiben restorasyon yapılması (A), renk stabilizasyonunun iki hafta sürmesi (B), bağlantıyı artırmak için sodyum askorbat kullanılması (D) ve beyazlatma esnasında lokal anestezi yapılmaması (E) doğru bilgilerdir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "On altı yaş erkek hasta kliniğe estetik amaçlı olarak başvurmuştur. Yapılan klinik muayenesinde oral mukoza bulguları normal olmakla birlikte çürük bulunmamaktadır. Anterior bölgede tüm yüzeylerde opak yapıyla birlikte 0.2 mm'yi geçmeyen siyah yuvarlak çukurcuklar vardır. Yukarıda bahsedilen hasta için en uygun estetik yaklaşım aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Makroabrazyon tekniği",
+      "B": "Vital bleaching",
+      "C": "Mikroabrazyon tekniği",
+      "D": "Devital bleaching",
+      "E": "Rezin infiltrant tekniği"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hastada tanımlanan klinik durum yüzeyel florozis lekelenmesi ve defektleridir. Derinliği 0,2-0,3 mm'yi geçmeyen yüzeyel mine renklenmeleri ve düzensizliklerinin tedavisinde tek başına kimyasal beyazlatma yetersiz kalır; minenin yüzeyel tabakasının %11-18'lik hidroklorik asit ve aşındırıcı (pomza veya silisyum karbür) içeren bir pat ve lastiklerle kontrollü olarak aşındırıldığı \"mikroabrazyon tekniği\" en uygun konservatif estetik yaklaşımdır. Çeldiriciler: - A) Makroabrazyon tekniği, 0,2-0,3 mm'yi aşan daha derin defektlerde 12 ve 30 bıçaklı karbid bitirme frezleri veya ince elmas frezlerle yapılan daha invaziv aşındırmadır. - B) Vital bleaching opak beyaz lekeleri ve çukurcukları tek başına ortadan kaldıramaz. - D) Devital bleaching kanal tedavili dişlerde uygulanır; hastanın dişleri vital ve çürüksüzdür. - E) Rezin infiltrant tekniği (ICON) kavitasyonsuz ve madde kaybı olmayan düz yüzey lezyonlarında uygulanır; çukurcuk (madde kaybı) olan durumlarda kontrendikedir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Diş renklenmelerinin tedavisinde uygulanan mikroabrazyon işleminde aşağıdakilerden hangisi kullanılır?",
+    "options": {
+      "A": "Ortofosforik asit",
+      "B": "Maleik asit",
+      "C": "Sitrik asit",
+      "D": "Hidroklorik asit",
+      "E": "Hidroflorik asit"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Mine mikroabrazyon tekniğinde minenin yüzeyel renklenmiş ve hipomineralize tabakasını (0,2-0,3 mm) uzaklaştırmak amacıyla %11 - %18 oranındaki \"hidroklorik asit (HCl)\" pomza veya silisyum karbür (silikon partikülleri) aşındırıcıları ile kombine edilerek kullanılır. Çeldiriciler: - A) Ortofosforik asit (%35-37), adeziv restorasyonlarda mine ve dentini pürüzlendirmek için kullanılır. - B) Maleik asit, eski nesil dentin conditioner (şartlandırıcı) asididir. - C) Sitrik asit, içeceklerde bulunan en eroziv organik asitlerden biridir ve kök yüzeyi şartlandırmada kullanılmıştır. - E) Hidroflorik asit (%4-9,5), ağız dışında porselen/seramik restorasyonların iç yüzeyini pürüzlendirmek için kullanılır; ağız içi dokulara uygulanması şiddetli kostik yanık yapar.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşındırma yöntemi ile yapılan beyazlatma tedavileri ile ilgili aşağıda verilenlerden hangisi yanlış bir bilgi içermektedir?",
+    "options": {
+      "A": "Mikroabrazyonda hidroklorik asitle pomza bir arada kullanılabilir",
+      "B": "Mikroabrazyonda %37 hidroklorik asitle silisyum karbür kullanılabilir",
+      "C": "Mikro ve makroabrazyon sonrasında flor uygulaması yapılır",
+      "D": "0.2-0.3 mm derinlikteki florozis vakalarında mikroabrazyon tekniği kullanılabilir",
+      "E": "Makroabrazyonda 30 bıçaklı frez kullanım sonrası lastik aşındırıcı kullanılmalıdır"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Mikroabrazyon tekniğinde pomza yerine daha sert olan silisyum karbür (silikon partikülleri) kullanıldığında abrazyon etkisi arttığı için hidroklorik asit konsantrasyonu %18'den \"%11 oranına\" düşürülmüştür; \"%37 hidroklorik asit\" gibi çok yüksek ve yakıcı bir konsantrasyon kullanılmaz (%37 oranı ortofosforik asit konsantrasyonudur). Çeldiriciler: - A) Klasik mikroabrazyonda %18 hidroklorik asit ile pomza bir arada kullanılır. - C) Hem mikroabrazyon hem de makroabrazyon sonrasında aşındırılan mine yüzeyinin remineralizasyonu için mutlaka topikal flor uygulaması yapılır. - D) Florozis lekelenmesi 0,2-0,3 mm derinlikte ise mikroabrazyon tekniği etkilidir. - E) Makroabrazyonda 12 bıçaklı karbid frez (veya ince grenli elmas frez) sonrası 30 bıçaklı kompozit bitirme frezi ile çizgilenmeler düzeltilir ve en son lastik aşındırıcılarla yüzey parlatılır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "I. Lastik aşındırıcılar II. 12 bıçaklı karbit frez III. 30 bıçaklı karbit frez Makro abrazyonla beyazlatma tedavisinde kullanılan frezler aşağıdakilerden hangisinde ilk kullanılandan son kullanılana doğru sıralanmıştır?",
+    "options": {
+      "A": "I – III – II",
+      "B": "II – I – III",
+      "C": "II – III – I",
+      "D": "III – I – II",
+      "E": "III – II – I"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Makroabrazyon tekniğinde kabadan inceye doğru uygulama sırası: İlk olarak renklenme ve yüzey defektini kaldırmak için 12 bıçaklı karbit bitirme frezi (veya ince grenli elmas bitirme frezi) kullanılır (II), ardından önceki frezden kaynaklanan çizgilenmeleri ve pürüzleri düzeltmek için 30 bıçaklı karbit bitirme frezi kullanılır (III) ve en sonunda diş yüzeyini tamamen pürüzsüzleştirip cilalamak için lastik aşındırıcılar uygulanır (I). Sıralama: II - III - I'dir. Öncüllerin Analizi: - 1. Adım: II. 12 bıçaklı karbit frez (defektin uzaklaştırılması) - 2. Adım: III. 30 bıçaklı karbit frez (çizgilenmelerin düzeltilmesi) - 3. Adım: I. Lastik aşındırıcılar (son polisaj ve parlatma) Çeldiriciler: A, B, D ve E şıkları kabadan inceye doğru olan bitirme ve polisaj sırasını yanlış vermektedir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıda verilen asitlerden hangisi hem rezin infiltrasyon hem de mikroabrazyon tekniğinde kullanılır?",
+    "options": {
+      "A": "Fosforik asit",
+      "B": "Hidroklorik asit",
+      "C": "Hidroflorik asit",
+      "D": "Sitrik asit",
+      "E": "Propiyonik asit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): \"Hidroklorik asit (HCl)\", hem başlangıç çürüklerinin tedavisinde uygulanan rezin infiltrasyon (ICON) tekniğinde hipermineralize yüzeyel mine tabakasını kaldırmak (%15 HCl jel olarak) hem de mine mikroabrazyon tekniğinde yüzeyel florozis renklenmelerini aşındırmak (%11-18 HCl + aşındırıcı pat olarak) amacıyla ortak olarak kullanılan güçlü inorganik asittir. Çeldiriciler: - A) Fosforik asit adeziv restorasyonlarda mine ve dentini pürüzlendirmek için kullanılır (ICON tekniğinde yüzeyel tabakayı yeterince açamadığı için HCl tercih edilir). - C) Hidroflorik asit porselen iç yüzeyini pürüzlendirmek için kullanılır. - D ve E) Sitrik ve propiyonik asit zayıf organik asitlerdir.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıdaki minimal invaziv tekniklerden hangisinde sodyum bikarbonat kullanılır?",
+    "options": {
+      "A": "Air polishing",
+      "B": "Air abrazyon",
+      "C": "Kemomekanik",
+      "D": "Lazer uygulaması",
+      "E": "Döner aletlerin kullanımı"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"Air polishing (hava-toz polisajı)\" işlemi, diş yüzeyindeki dışsal lekeleri ve plağı uzaklaştırmak amacıyla ve fissür örtücü öncesi fissür temizliğinde uygulanır; bu işlemde aşındırıcılığı düşük ve suda çözünür olan \"sodyum bikarbonat ($NaHCO_3$)\" (veya glisin/eritritol) tozu basınçlı hava ve su ile birlikte püskürtülerek kullanılır. Çeldiriciler: - B) Air abrazyon (kinetik kavite preparasyonu) işleminde diş sert dokularını kesmek ve yüzeyleri pürüzlendirmek amaçlandığı için aşındırıcılığı çok yüksek olan 20-50 µm boyutunda \"alüminyum oksit ($Al_2O_3$)\" tozu kullanılır. - C) Kemomekanik çürük uzaklaştırma tekniğinde (Carisolv) sodyum hipoklorit ve üç aminoasidin (lösin, lizin, glutamik asit) kombinasyonundan oluşan jel kullanılır. - D ve E) Lazer ve döner alet uygulamalarında sodyum bikarbonat tozu kullanılmaz.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Air polishing tekniğinde kullanılan ajan aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Sodyum bikarbonat",
+      "B": "Alüminyum oksit",
+      "C": "Hidroklorik asit",
+      "D": "Hidroflorik asit",
+      "E": "Fosforik asit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Diş yüzeyindeki renklenmeleri ve biyofilmi uzaklaştırmak amacıyla uygulanan air polishing tekniğinde \"sodyum bikarbonat\" tozu kullanılır. Çeldiriciler: Alüminyum oksit air abrazyon (kavite açma/pürüzlendirme) tekniğinde, hidroklorik asit mikroabrazyon ve rezin infiltrasyonda, hidroflorik asit seramik pürüzlendirmede, fosforik asit ise adeziv mine/dentin pürüzlendirmede kullanılır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Air polishing ve air abrazyon tekniklerinde kullanılan ajanlar aşağıdaki seçeneklerden hangisi doğru şekilde eşleştirilmiştir?",
+    "options": {
+      "A": "Air polishing: Alüminyum oksit — Air abrazyon: Sodyum bikarbonat",
+      "B": "Air polishing: Sodyum bikarbonat — Air abrazyon: Alüminyum oksit",
+      "C": "Air polishing: Hidroklorik asit — Air abrazyon: Hidroflorik asit",
+      "D": "Air polishing: Hidroflorik asit — Air abrazyon: Hidroklorik asit",
+      "E": "Air polishing: Fosforik asit — Air abrazyon: Sitrik asit"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Lekeleri ve plağı temizlemeyi amaçlayan \"Air polishing\" tekniğinde sodyum bikarbonat kullanılırken; sert dokuyu aşındırıp kavite açmayı ve yüzey pürüzlendirmeyi amaçlayan \"Air abrazyon\" tekniğinde alüminyum oksit tozu kullanılır. Çeldiriciler: A şıkkı iki tekniğin tozlarını ters eşleştirmiştir; C, D ve E şıkları ise toz yerine sıvı asitleri yazmıştır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Dişlerinde yaygın, bantlaşmalarla karakterize, koyu mavi ve gri renklenmeler bulunan bir hasta kliniğe başvuruyor. Bu hastanın dişlerindeki renklenmeye yönelik, teşhis ve tedavisiyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "İleri derecede tetrasiklin renklenmesi vardır, vital beyazlatmaya iyi cevap verir.",
+      "B": "Orta derecede tetrasiklin renklenmesi vardır, vital beyazlatmaya iyi cevap vermez.",
+      "C": "İleri derecede florozis vardır, vital beyazlatmaya iyi cevap verir.",
+      "D": "Hafif derecede tetrasiklin renklenmesi vardır, vital beyazlatmaya iyi cevap verir.",
+      "E": "İleri derecede tetrasiklin renklenmesi vardır, vital beyazlatmaya iyi cevap vermez."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tetrasiklin renklenmeleri klinik şiddetine göre sınıflandırıldığında; 1. derece (hafif: açık sarı/gri, bantlaşma yok), 2. derece (orta: daha koyu sarı/gri, bantlaşma yok), 3. ve 4. derece (ileri/şiddetli: yaygın yatay bantlaşmalarla karakterize koyu mavi-gri veya morumsu siyah renklenme) olarak ayrılır. Canlı dişlerde sarı veya turuncu iç kaynaklı renklenmeler (1. ve 2. derece) vital beyazlatmaya iyi cevap verirken; \"bantlaşmalarla karakterize koyu mavi ve gri renklenmeler ileri (3./4.) derecede tetrasiklin renklenmesidir\" ve vital beyazlatma tedavisine iyi cevap vermez (laminate veneer veya kuron restorasyonlarıyla maskelenmesi gerekir). Çeldiriciler: - A) İleri derece (koyu mavi-gri ve bantlı) tetrasiklin renklenmesi vital beyazlatmaya iyi cevap vermez. - B ve D) Koyu mavi-gri ve bantlı görünüm hafif veya orta derece değil, ileri derece tetrasiklin renklenmesidir. - C) Floroziste mavi-gri renklenme görülmez; opak beyaz, sarımsı veya kahverengi lekeler görülür.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "I. Kahverengi florozis renkleşmesi II. Opak florozis renkleşmesi III. Sarı- turuncu kaynaklı renkleşmeler IV. Mavi -gri renkleşmeler Yukarıda verilen renkleşme tiplerinden hangisi / hangileri kimyasal beyazlatma tedavisine iyi yanıt vermez?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve III",
+      "C": "II ve IV",
+      "D": "III ve IV",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Vital kimyasal beyazlatma tedavisine en iyi yanıtı sarı-turuncu iç kaynaklı renkleşmeler ve kahverengi florozis lekeleri verirken; \"opak beyaz florozis lekeleri (II)\" ve \"koyu mavi-gri tetrasiklin renkleşmeleri (IV)\" kimyasal beyazlatma tedavisine iyi yanıt vermez. Öncüllerin Analizi: - I ve III. Öncüller (İyi yanıt verir): Kahverengi florozis renkleşmeleri ve sarı-turuncu iç kaynaklı (yaşlanma, hafif tetrasiklin) renkleşmeler oksidasyonla kolayca açılır ve beyazlatmaya iyi yanıt verir. - II. Öncül (İyi yanıt vermez): Opak beyaz florozis lekeleri hipomineralize alanlar olduğundan ağartma ile tamamen tedavi edilemez (sadece komşu sağlam diş dokusunun rengi açılarak kontrast azaltılabilir veya mikroabrazyon/rezin infiltrasyon gerekir). - IV. Öncül (İyi yanıt vermez): Koyu mavi-gri renkleşmeler (ileri tetrasiklin, amalgam renklenmesi) kimyasal beyazlatmaya dirençlidir ve iyi yanıt vermez. Çeldiriciler: A, B, D ve E şıkları beyazlatmaya iyi yanıt veren I ve III. öncülleri yanıt vermez olarak kabul ettiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  },
+  {
+    "question": "Aşağıda verilen ajanlardan hangisi hidrojen peroksitin eter içerisindeki çözeltisidir?",
+    "options": {
+      "A": "Pyrozon",
+      "B": "Karbamid peroksit",
+      "C": "Karbopol",
+      "D": "Sodyum perborat",
+      "E": "Sodyum askorbat"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hidrojen peroksitin organik çözücü olan eter içerisindeki %25'lik çözeltisine \"Pyrozon\" adı verilir (hidrojen peroksitin sudaki %30-35'lik çözeltisine ise Süperoksol denir). Çeldiriciler: Karbamid peroksit üre ve hidrojen peroksit bileşiğidir; Karbopol kıvam artırıcı ve oksijen salınımını düzenleyici polimerdir; Sodyum perborat toz ağartıcıdır; Sodyum askorbat ise antioksidandır.",
+    "lesson": "Restoratif",
+    "unit": "13 DİŞ HEKİMLİĞİNDE RENK VE BEYAZLATMA TEDAVİLERİ"
+  }
+]

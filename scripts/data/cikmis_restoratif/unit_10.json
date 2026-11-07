@@ -1,0 +1,496 @@
+[
+  {
+    "question": "Yüksek bakırlı amalgamlarda korozyon olayının az görülmesinin en olası nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Gama 2 fazının olmaması",
+      "B": "Knoop sertlik değerlerinin çok düşük olması",
+      "C": "Boyutsal değişikliğinin çok yüksek olması",
+      "D": "Gama 1 fazının olması",
+      "E": "Karıştırma süresinin kısa olması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Geleneksel (düşük bakırlı) amalgamlarda mekanik olarak en zayıf ve elektrokimyasal korozyona en yatkın olan faz kalay-cıva bileşiği olan Gama 2 ($\\gamma_2$ - $Sn_{7-8}Hg$) fazıdır. Yüksek bakırlı amalgamlarda bakır oranı (%13 ve üzeri) artırılarak kalayın cıva yerine bakırla reaksiyona girip Eta ($\\eta$ - $Cu_6Sn_5$) fazını oluşturması sağlanır; böylece Gama 2 fazı ortadan kalkar (veya çok düşük düzeye iner) ve korozyon ile kenar kırılmaları büyük ölçüde önlenir. Çeldiriciler: - B) Yüksek bakırlı amalgamların sertlik değerleri düşük değildir, geleneksel amalgamlardan (78 HV) daha yüksektir (118 HV). - C) Boyutsal değişiklik, akıcılık (flow) ve creep değerleri yüksek değil, oldukça düşüktür. - D) Gama 1 ($Ag_2Hg_3$) fazı hem geleneksel hem de yüksek bakırlı amalgamlarda bulunan ana matrikstir; korozyonun azalmasının nedeni Gama 2 fazının olmamasıdır. - E) Karıştırma (tritürasyon) süresinin kısalığı korozyonu azaltmaz, yetersiz karıştırma poroziteyi ve korozyonu artırır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM",
+    "flag_reason": "2021 DUS Orijinal"
+  },
+  {
+    "question": "Yüksek bakırlı amalgamlarda aşağıda verilen amalgam fazlarından hangisinin oranının düşürülmesi sonucu korozyon miktarı azalır?",
+    "options": {
+      "A": "Ag-Cu",
+      "B": "$Sn_7Hg$",
+      "C": "$Ag_2Hg_3$",
+      "D": "$Cu_6Sn_5$",
+      "E": "$Ag_3Sn$"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Amalgamda korozyondan ve kenar kırılmalarından (merküroskobik ekspansiyon) sorumlu olan faz, kalay-cıva fazı olan Gama 2 ($Sn_{7-8}Hg$) fazıdır; yüksek bakırlı amalgamlarda $Sn_{7-8}Hg$ fazının ortadan kaldırılması/düşürülmesi sonucu korozyon miktarı azalır. Çeldiriciler: - A) Ag-Cu, yüksek bakırlı dispers faz alaşımlarına eklenen ötektik fazdır. - C) $Ag_2Hg_3$, cıva ile gümüşün oluşturduğu Gama 1 ($\\gamma_1$) matriks fazıdır. - D) $Cu_6Sn_5$, yüksek bakırlı amalgamlarda Gama 2 fazını elimine ederek oluşan Eta ($\\eta$) fazıdır. - E) $Ag_3Sn$, reaksiyona giren orijinal alaşım tozu olan Gama ($\\gamma$) fazıdır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Amalgamı oluşturan aşağıdaki bileşenlerden hangisi nem kontaminasyonu sonucunda oluşan gecikmiş genleşmeden esas olarak sorumludur?",
+    "options": {
+      "A": "Kalay",
+      "B": "Cıva",
+      "C": "Bakır",
+      "D": "Çinko",
+      "E": "Gümüş"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Amalgam alaşımında üretim sırasında metallerin oksidasyonunu önlemek (deoksidan) amacıyla %0,01-1 oranında bulunan \"Çinko (Zn)\", kondenzasyon ve sertleşme sırasında tükürük/nem ile kontamine olduğunda suyla reaksiyona girerek ($Zn + H_2O \\rightarrow ZnO + H_2$) çinko okside dönüşür ve içeride \"hidrojen gazı ($H_2$)\" açığa çıkarır. Bu hidrojen gazı basıncı işlemden 3-5 gün sonra amalgamın aşırı şekilde genleşmesine (gecikmiş genleşme / sekonder ekspansiyon) ve pulpal basınca bağlı şiddetli ağrıya neden olur. Çeldiriciler: - A) Kalay (Sn), genleşmeyi azaltır, sertleşmeyi uzatır ve cıvayla reaksiyonu kolaylaştırır. - B) Cıva (Hg), alaşım tozunu ıslatarak amalgamasyonu sağlar; fazlası merküroskobik ekspansiyona yol açar ancak nem kaynaklı gecikmiş genleşmeden sorumlu olan çinkodur. - C ve E) Bakır (Cu) ve Gümüş (Ag), dayanıklılığı, sertliği ve sertleşme esnasındaki normal genleşmeyi artırır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Amalgam alaşımlarda diğer elementlerin oksidasyonunu engelleyen ve gecikmiş ekspansiyona neden olan element aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Gümüş",
+      "B": "Kalay",
+      "C": "Bakır",
+      "D": "Demir",
+      "E": "Çinko"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Amalgam alaşımı içerisindeki diğer metallerin (gümüş, bakır, kalay) döküm sırasında okside olmasını önleyen (oksijen çöpçüsü) ve sertleşme öncesi nem kontaminasyonu varlığında hidrojen gazı açığa çıkararak gecikmiş ekspansiyona (genleşmeye) ve ağrıya neden olan element çinkodur. Çeldiriciler: Gümüş, kalay ve bakır amalgamın ana alaşım metalleri olup nemle hidrojen gazı üretmezler; demir ise amalgam içeriğinde bulunmaz.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Otuz beş yaşında erkek hasta kliniğe dört gün önce 46 numaralı dişine yaptırdığı amalgam dolguda ağrı şikayetiyle gelmiştir. Klinik inceleme sonucu amalgam dolgunun diş eti seviyesinin altında sonlandığı gözlemlenmiştir. Buna göre bu ağrıdan esas sorumlu olan amalgam bileşeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bakır",
+      "B": "Gümüş",
+      "C": "Kalay",
+      "D": "Çinko",
+      "E": "Demir"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Diş eti seviyesinin altında sonlanan kavitede nem/tükürük/kan izolasyonu tam sağlanamadığı için, çinkolu amalgamın nemle kontaminasyonu sonucunda çinko suyla reaksiyona girerek hidrojen gazı oluşturmuş ve işlemden 3-5 gün sonra ortaya çıkan \"gecikmiş genleşme ağrısına\" neden olmuştur. Çeldiriciler: Bakır, gümüş ve kalay nem kontaminasyonuna bağlı hidrojen gazı ve gecikmiş genleşme ağrısı oluşturmaz; demir amalgamda yer almaz.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Elli altı yaşında kadın hasta kliniğe sıcak soğuk hassasiyeti şikayetiyle başvurmuştur. Yapılan klinik ve radyolojik inceleme sonucunda 46numaralı dişinin mezial bölgesinde dentinde orta derinlikte ve dişeti altına uzanan bir çürük lezyonu tespit edilmiştir. Hastanın ilgili dişi %1 çinko içeren amalgam ile restore edildiğine göre erken dönemde hastada aşağıda verilen şikayetlerden hangisinin oluşması beklenir?",
+    "options": {
+      "A": "Marjinde kırık",
+      "B": "Kütlesel kırık",
+      "C": "Rezidüel çürük oluşumu",
+      "D": "Devitalizasyon",
+      "E": "Ağrı"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dişeti altına uzanan ve nem kontrolünün zor olduğu kavitede %1 çinko içeren amalgam kullanıldığında, nem kontaminasyonuyla çinkonun çinko okside dönüşmesi sırasında açığa çıkan hidrojen gazı amalgamı aşırı genleştirerek dentin tübülleri ve pulpada basınç oluşturur; bu da erken dönemde (birkaç gün içinde) şiddetli gecikmiş genleşme \"ağrısına\" yol açar. Çeldiriciler: Marjinde kırık, kütlesel kırık, rezidüel çürük ve devitalizasyon uzun dönemde gelişebilecek komplikasyonlardır; çinkolu amalgamın nem kontaminasyonunda erken dönemde beklenen tipik semptom gecikmiş genleşmeye bağlı ağrıdır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Amalgamın stres altındaki plastik deformasyonuna ne ad verilir?",
+    "options": {
+      "A": "Creep",
+      "B": "Flow",
+      "C": "Korozyon",
+      "D": "Genleşme",
+      "E": "Elastisite"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Sertleşmesini tamamlamış amalgam restorasyonların tekrarlayan veya devamlı bir oklüzal yük (stres) altında zamanla gösterdiği viskoelastik/plastik deformasyona (veya gerilme gevşemesine) \"creep\" adı verilir. Gama 2 fazı içeren geleneksel amalgamlarda creep değeri yüksektir ve marjinal kırılmalara yol açar. Çeldiriciler: - B) Flow (akıcılık), amalgam henüz tam sertleşmeden (sertleşmekte iken) maruz kaldığı statik yükler altındaki plastik deformasyonudur; sertleşmiş amalgamın zamanla stres altındaki deformasyonu ise creep'tir. - C) Korozyon, metallerin kimyasal veya elektrokimyasal reaksiyonla bozunmasıdır. - D) Genleşme (ekspansiyon), sertleşme veya korozyon sırasındaki hacimsel artıştır. - E) Elastisite, kuvvet kalktığında materyalin orijinal boyutuna geri dönebilme özelliğidir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM",
+    "flag_reason": "2017 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Amalgam restorasyonlarda görülen \"creep\" aşağıdaki seçeneklerden hangisinde doğru şekilde tanımlanmıştır?",
+    "options": {
+      "A": "Sn-Hg fazındaki Hg yer değiştirmesi ile oluşan deformasyondur",
+      "B": "Amalgam kondenzasyonu sonucunda oluşan deformasyondur",
+      "C": "Amalgamın zaman içerisinde stres altında gösterdiği plastik deformasyondur",
+      "D": "Artı ve eksi kutupların tükürük ile bir devre tamamlaması sonucunda oluşan deformasyondur",
+      "E": "Amalgamın derin işlenmesi sonucunda oluşan kırılganlıktır"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Creep, sertleşmiş amalgamın zaman içerisinde devamlı bir çiğneme yükü/stresi altında gösterdiği zamana bağlı plastik deformasyondur. Çeldiriciler: - A) Sn-Hg ($\\gamma_2$) fazındaki serbestleşen cıvanın tekrar Ag-Sn ($\\gamma$) fazıyla reaksiyona girerek kenarları yukarı kaldırması creep değil, \"merküroskobik ekspansiyon\"dur. - B) Kondenzasyon plastik deformasyon hatası değil, amalgamın kaviteye sıkıştırılması işlemidir. - D) Artı ve eksi kutupların tükürükle devre tamamlaması elektrokimyasal/galvanik korozyondur. - E) Derin işlenme sonucu oluşan durum k절rılganlık ve hücre korozyonudur.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Isısal genleşme katsayıları arasındaki uyumsuzluğa bağlı olarak diş ve amalgam arasında oluşan sıvı alışverişine ne ad verilir?",
+    "options": {
+      "A": "Merküroskobik ekspansiyon",
+      "B": "Creep",
+      "C": "Perkolasyon",
+      "D": "Gerilme gevşemesi",
+      "E": "Nanosızıntı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Restoratif materyal (amalgam veya kompozit) ile diş dokusunun doğrusal ısısal genleşme katsayıları arasındaki fark nedeniyle, ağız içi sıcaklık değişimlerinde (soğukta materyalin dişten daha fazla büzülerek arayüze sıvı dolması, sıcakta ise daha fazla genleşerek bu sıvının dışarı atılması) restorasyon kenarlarında meydana gelen bu tekrarlayan sıvı alışverişine \"perkolasyon\" denir. Çeldiriciler: - A) Merküroskobik ekspansiyon, Gama 2 fazının korozyonuyla açığa çıkan cıvanın neden olduğu kenar genleşmesidir. - B ve D) Creep (gerilme gevşemesi), stres altında zamanla oluşan plastik deformasyondur. - E) Nanosızıntı, adeziv restorasyonlarda hibrit tabaka içindeki nanometrik boşluklardaki dentin lenfi sızıntısıdır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Amalgam alaşımı bileşenlerinin sıvı cıva ile karışması işlemine verilen ad aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Amalgamasyon",
+      "B": "Triturasyon",
+      "C": "Oksidasyon",
+      "D": "Kondensasyon",
+      "E": "Ekspansiyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Amalgamın toz alaşım bileşenlerinin sıvı cıva ile mekanik olarak (amalgamatör cihazında veya havanda) karıştırılarak alaşım tozunun cıva ile ıslanmasının sağlanması işlemine \"tritürasyon (tritüasyon)\" adı verilir. Çeldiriciler: - A) Amalgamasyon, tritürasyon işlemiyle birlikte sıvı cıva ile toz alaşımın (ilk olarak kalayın) kimyasal olarak etkileşime girip sertleşme fazlarını oluşturduğu metalürjik reaksiyonun adıdır; mekanik karıştırma işleminin adı ise tritürasyondur. - C) Oksidasyon, metallerin oksijenle birleşerek oksit tabakası oluşturmasıdır. - D) Kondensasyon, karıştırılmış amalgam kütlesinin fulvarlarla kaviteye basınçla yerleştirilip sıkıştırılmasıdır. - E) Ekspansiyon, amalgamın hacimsel genleşmesidir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Aşağıda verilen önermelerden hangisi tritüasyonu tanımlar?",
+    "options": {
+      "A": "Cıva ile kalayın etkileşime girmesi sonucu başlayan reaksiyondur.",
+      "B": "Amalgam alaşımı bileşenlerinin sıvı cıva ile karışması işlemidir.",
+      "C": "Metallerin etrafında oksit tabakası meydana gelmesidir.",
+      "D": "Amalgam kütlesinin basınç uygulanarak kaviteye yerleştirilmesidir.",
+      "E": "Final yapıda bulunan gama 2 fazının gama fazıyla yeniden reaksiyona girmesi sonucu restorasyonda meydana gelen şişmedir."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Tritüasyon (tritürasyon), amalgam toz alaşımı bileşenlerinin amalgamatör cihazında sıvı cıva ile karıştırılarak oksit tabakasının kırılması ve alaşımın cıvayla ıslatılması işlemidir. Çeldiriciler: - A) Cıva ile kalayın etkileşime girmesiyle başlayan kimyasal reaksiyon \"amalgamasyon\"dur. - C) Metallerin etrafında oksit tabakası oluşması \"oksidasyon\"dur. - D) Amalgamın basınçla kaviteye yerleştirilmesi \"kondenzasyon\"dur. - E) Gama 2 fazından ayrılan cıvanın Gama fazıyla yeniden reaksiyona girerek kenarlarda şişme/genleşme yapması \"merküroskobik ekspansiyon\"dur.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Amalgamasyonun tamamlanmasının ardından final yapı içerisindeki gama 2 fazının, gama fazıyla yeniden tepkimeye girmesi sonucu meydana gelen olay aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Amalgamasyon",
+      "B": "Triturasyon",
+      "C": "Oksidasyon",
+      "D": "Kondensasyon",
+      "E": "Merküroskobik ekspansiyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Geleneksel (düşük bakırlı) amalgamlarda sertleşme tamamlandıktan sonra final yapıdaki Gama 2 ($Sn_{7-8}Hg$) fazının elektrokimyasal korozyona uğramasıyla serbestleşen cıvanın, reaksiyona girmemiş Gama ($Ag_3Sn$) partikülleriyle yeniden tepkimeye girerek yeni Gama 1 ve Gama 2 kristalleri oluşturması ve bunun sonucunda restorasyon kenarlarının kaviteden dışarı doğru genleşip yükselerek kırılması olayına \"merküroskobik ekspansiyon\" denir. Çeldiriciler: Amalgamasyon ilk sertleşme reaksiyonu, tritürasyon karıştırma işlemi, oksidasyon oksitlenme, kondensasyon ise kaviteye tepme işlemidir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, amalgam restorasyonların uzun süre kullanımını kısıtlayan etkenlerden biri değildir?",
+    "options": {
+      "A": "Restorasyonun kırılması",
+      "B": "Korozyon",
+      "C": "Aşınma",
+      "D": "Sekonder çürük",
+      "E": "Hassasiyet"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dental amalgamlar oklüzal çiğneme kuvvetlerine karşı mükemmel \"aşınma\" direncine sahip olup aşınma oranı mine dokusuna çok yakındır; bu nedenle aşınma, amalgam restorasyonların uzun süreli kullanımını kısıtlayan bir dezavantaj değil, aksine amalgamın tercih edilmesini sağlayan en önemli avantajlarından biridir. Çeldiriciler: Restorasyonun veya kenarlarının kırılması (A), aşırı elektrokimyasal korozyonla yapının bozulması (B), marjinal bozulmaya bağlı sekonder çürük gelişimi (D) ve termal iletkenliğe bağlı postoperatif hassasiyet (E) amalgam restorasyonların klinik başarısını ve kullanım süresini kısıtlayabilen dezavantajlardır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Amalgam restorasyonların uzun zamanlı kullanımlarında tercih edilmelerinin sebebi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kavite duvarlarına adezyon sağlamaları",
+      "B": "Aşınmaya karşı dirençli olmaları",
+      "C": "Yalıtıma gerek kalmadan kullanılabilmeleri",
+      "D": "Korozyona dirençleri",
+      "E": "Renk stabilitesinin olması ve kimyasal korozyona uğramamaları"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Amalgam restorasyonların arka grup dişlerde uzun süreli kullanımlarda yıllarca tercih edilmesinin başlıca sebebi çiğneme baskılarına ve \"aşınmaya karşı çok yüksek dirençli olmaları\" (ve zamanla korozyon ürünleriyle marjinal aralığı tıkamaları) özelliğidir. Çeldiriciler: - A) Amalgam diş dokularına kimyasal adezyon sağlamaz, makromekanik tutuculukla durur. - C) Isı ve elektriği çok iyi ilettiği için derin kavitelerde yalıtıma (kaideye) ihtiyaç duyar. - D ve E) Ağız ortamında zamanla kararma (tarnish / kimyasal korozyon) ve elektrokimyasal korozyona uğrarlar, renk stabiliteleri yoktur.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Yirmi yedi yaşında erkek hastanın 36 numaralı dişinde SİSTA 2.3 çürük lezyonu bulunmakta olup, bu defektin sınıf II klasik amalgam ile restorasyonu sonrasında ertesi gün perküsyon diş ağrısı ile kliniğe başvurmuştur. I. İatrojenik kavite hatası II. Pulpa koruyucu materyal seçimi ve uygulama hatası III. Kavite diş duvarlarında çürük kalması IV. Okluzal uyumlamada yapılan hatalar (yükseklik) Hastada oluşan bu erken dönem şikâyetlerinin en olası sebepleri yukarıda verilen durumlardan hangileri olabilir?",
+    "options": {
+      "A": "I – II – IV",
+      "B": "I – III – IV",
+      "C": "II – III – IV",
+      "D": "I – II – III",
+      "E": "I – II – III – IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Restorasyon yapıldıktan hemen ertesi gün ortaya çıkan \"erken dönem\" ağrı ve perküsyon hassasiyetinin nedenleri; preparasyon sırasındaki iatrojenik kavite hataları (aşırı ısınma, mikro-ekspoz vb.), pulpa koruyucu kaide/liner seçimi veya uygulama hatası ve özellikle perküsyon ağrısına doğrudan yol açan oklüzal uyumlama hatalarıdır (restorasyonun yüksek bırakılması / prematür kontak). Kavite duvarlarında çürük kalması ise geç dönem ağrı sebebidir. Öncüllerin Analizi: - I, II ve IV. Öncüller (Erken dönem ağrı sebebi): İatrojenik preparasyon hataları, kaide/yalıtım hataları ve oklüzal yükseklik (perküsyon ağrısı yapar) restorasyon sonrası ertesi gün gelişen erken dönem ağrı nedenleridir. - III. Öncül (Geç dönem ağrı sebebi): Kavite duvarlarında çürük kalması (rezidüel çürük) ve sekonder çürük oluşumu aylar sonra gelişen geç dönem ağrı nedenidir. Çeldiriciler: B, C, D ve E şıkları geç dönem ağrı nedeni olan III. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, amalgam restorasyonların avantajlarından biri değildir?",
+    "options": {
+      "A": "Oligodinamik etkiye sahip olması",
+      "B": "Yüksek basınca dayanıklı olması",
+      "C": "Kompozit restorasyonlardan daha ucuz olması",
+      "D": "Uzun dönem klinik araştırma sonuçlarının başarılı olması",
+      "E": "Kavite preparasyonunun daha kolay olması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Amalgam diş dokusuna adeziv olarak bağlanmadığı için kavite açılırken \"korumak için genişlet\" prensibi, 90 derece cavosurface açısı, en az 1,5-2 mm derinlik, kutu formu, ters koniklik ve retansiyon olukları gibi katı geometrik kurallar takip edilmelidir ve sağlam diş dokusundan fazla madde kaldırılır. Kompozitlerde ise sadece çürük dokunun kaldırıldığı konservatif kavite açılır; dolayısıyla amalgamın kavite preparasyonu kompozitten daha kolay değil, daha zor ve daha invazivdir. Çeldiriciler: - A) İçerdiği gümüş, bakır, cıva ve kalay gibi ağır metal iyonlarının salınımıyla bakteriler üzerinde antibakteriyel (oligodinamik) etkiye sahiptir. - B) Yüksek sıkışma/basınç kuvvetlerine ve aşınmaya karşı çok dayanıklıdır. - C) Maliyeti kompozit ve indirekt restorasyonlardan daha ucuzdur. - D) Korozyon ürünlerinin kenar sızıntısını tıkaması ve yüksek mekanik direnci sayesinde uzun dönem klinik başarısı yüksektir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Geleneksel amalgam kaviteleri ve kompozit rezin restorasyonlar için hazırlanan modifiye kavitelerin kıyaslamasına göre aşağıda verilenlerden hangisi yanlış bilgi içermektedir?",
+    "options": {
+      "A": "Amalgam: Uygulaması kolay — Kompozit: Uygulama aşamaları zor",
+      "B": "Amalgam: Kavite preparasyonu kolay — Kompozit: Preparasyon aşaması zor",
+      "C": "Amalgam: Cavosurface bizotajı yapılmaz — Kompozit: Yük almayan kalın minede bizotaj",
+      "D": "Amalgam: Lezyondan büyük kavite tasarımı — Kompozit: Lezyon genişliği kavite sınırını belirler",
+      "E": "Amalgam: Minenin sağlam dentinle desteklenmesi zorunlu — Kompozit: Bazı durumlarda desteksiz mine bırakılabilir"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Geleneksel amalgam kaviteleri belirli derinlik, genişlik, düz taban, dik duvarlar ve makromekanik retansiyon/rezistans formları gerektirdiği için kavite preparasyonu daha zor ve kurallıdır; kompozit rezinlerde ise sadece çürük lezyonunun temizlendiği konservatif kavite açıldığı için kavite preparasyonu çok daha kolaydır (ancak kompozitin izolasyon ve adeziv uygulama aşamaları amalgama göre daha zor ve teknik hassasiyet gerektirir). Çeldiriciler: - A) Amalgamın kaviteye yerleştirilmesi kolayken, kompozitin asit-primer-bond ve tabakalama uygulama aşamaları daha zordur ve teknik hassasiyet ister. - C) Amalgamda cavosurface bizotajı yapılmaz (90° bitirilir); kompozitte ise yük almayan mine kenarlarına bizotaj yapılabilir. - D) Amalgamda tutuculuk ve korunma için lezyondan büyük kavite açılırken, kompozitte kavite sınırlarını sadece çürüğün genişliği belirler. - E) Amalgamda tüm desteksiz mineler kaldırılmak zorundayken, kompozitte estetik bölgelerde adeziv destekle bazı desteksiz mineler bırakılabilir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "[Görsel: Üç farklı amalgam alaşım tozu partikül yapısı; X: Düzensiz çubuk/talaş şeklinde (torna kesim), Y: Tamamen yuvarlak küre şeklinde (küresel tip), Z: Hem küresel hem düzensiz partiküllerin bir arada olduğu (karışık/admix tip)] Yukarıda X, Y ve Z şekillerinde farklı amalgam çeşitlerinin yapısı gösterilmektedir. Buna göre aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kavite duvarları zayıflamış olan preparasyonlarda X'i kullanmak gerekir",
+      "B": "Y ile restorasyon yapımında büyük kondenzatörler kullanılmalıdır",
+      "C": "Sınıf II restorasyonlarda Z tipi kullanımı tercih edilir",
+      "D": "Derin kavitelerde liner kullanıldığı durumlarda Y tipi tercih edilir",
+      "E": "Kondenzasyon esnasındaki basınç X>Z>Y şeklindedi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Görselde X torna kesim (düzensiz), Y küresel (sferikal), Z ise karışık (admix) tip amalgam partiküllerini göstermektedir. Kondenzasyon esnasında uygulanması gereken basınç miktarı X (torna) > Z (karışık) > Y (küresel) şeklindedir. Kavite duvarları zayıflamış olan preparasyonlarda (veya derin kavitede kırılgan liner kullanıldığında) yüksek kondenzasyon basıncı gerektiren X (torna kesim) tipini kullanmak duvarları kıracaktır; bu durumlarda en az kondenzasyon basıncı gerektiren \"Y (küresel) tipi\" amalgam kullanılmalıdır. Çeldiriciler: - B ve D) Y (küresel) tip amalgamlar çok akıcı olduğu için küçük fulvarlar amalgamın içine gömülür; bu nedenle büyük çaplı kondenzatörler (fulvarlar) kullanılır ve düşük basınç gerektirdiği için liner kullanılan derin kavitelerde ve zayıf duvarlı kavitelerde tercih edilir. - C) Sınıf II restorasyonlarda yan diş ile sıkı bir aproksimal kontak oluşturabilmek için kondenzasyon direnci gösteren Z (karışık/admix) veya X (torna) tipi tercih edilir. - E) Partiküllerin birbiri üzerinden kayma direncine göre kondenzasyon basıncı ihtiyacı X (torna) > Z (karışık) > Y (küresel) şeklindedir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Amalgam restorasyonlardaki sülfitlerin korozyona uğrayarak yüzeyde siyah bir film tabakası oluşturması aşağıdakilerden hangisine örnektir?",
+    "options": {
+      "A": "Galvanik korozyon",
+      "B": "Elektrokimyasal korozyon",
+      "C": "Kimyasal korozyon",
+      "D": "Yoğunlaşmış hücre korozyonu",
+      "E": "Stres korozyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Amalgam yüzeyindeki gümüş ve kalayın ağız ortamındaki ve gıdalardaki kükürt (sülfür/sülfit) ve oksijenle doğrudan reaksiyona girerek yüzeyde siyah renkli bir Ag-Sn sülfit/oksit film tabakası oluşturması \"kimyasal korozyon\"a örnektir ve diğer adı \"tarnish (kirlenme/kararma)\" olarak geçer. Bu reaksiyon sadece yüzeyeldir, derinlere inmez ve estetik dışında amalgamın mekanik yapısını bozmaz. Çeldiriciler: Galvanik korozyon (A), yoğunlaşmış hücre (aralık) korozyonu (D) ve stres korozyonu (E), anot ve katot kutupları ile tükürük elektroliti arasında elektrik akımı oluşarak amalgamın iç yapısını bozan \"elektrokimyasal korozyon (B)\" alt tipleridir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Amalgam restorasyonlarda meydana gelen korozyonlarla ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "options": {
+      "A": "Stres korozyonunda stresli bölge anot, stressiz bölge katot gibi davranır",
+      "B": "Tek bir materyal içindeki farklı fazlara bağlı olarak lokal galvanik korozyon oluşur",
+      "C": "Elektrokimyasal korozyon ürünleri amalgamın sızdırmazlığını sağlar",
+      "D": "Non-gama II amalgamlarda korozyon ürünleri daha kısa zamanda oluşur",
+      "E": "Yüksek oranda gümüş içeren amalgamlarda yüzeyde oluşan siyah film tabakasına tarnish denir"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Korozyon ürünleri amalgamın kenar sızdırmazlığını (self-sealing) sağlar ve geleneksel amalgamlarda yaklaşık 6 haftada oluşur; ancak korozyona dirençli olan \"Non-gama II (yüksek bakırlı)\" amalgamlarda korozyon çok daha yavaş gerçekleştiği için bu korozyon ürünleri daha kısa zamanda değil, çok \"daha geç (uzun zamanda)\" gelişir. Çeldiriciler: - A) Stres korozyonunda oklüzal kuvvet altındaki stresli bölge anot (korozyona uğrayan), stressiz bölge ise katot gibi davranır. - B) Tek bir amalgam restorasyon içindeki farklı metalürjik fazlar ($\\gamma, \\gamma_1, \\gamma_2$) arasındaki potansiyel farkına bağlı olarak lokal galvanik (yapısal-selektif) korozyon oluşur. - C) Elektrokimyasal korozyon sonucu oluşan Sn-O ve Sn-O-Cl kristalleri diş-amalgam arayüzünü doldurarak sızdırmazlığı sağlar. - E) Yüzeyde oluşan siyah Ag-Sn sülfit film tabakasına tarnish (kimyasal korozyon) denir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Altmış yedi yaşında düşük çürük aktivitesine sahip kadın hasta, 25 yıl önce 46 numarasına yaptırdığı amalgam restorasyonda bulunan kırık sebebiyle kliniğe başvurmuştur. Yapılan incelemede, hastanın amalgam restorasyonunda kütlesel kırık tespit edilmiştir. Amalgamın yüksek bakır içerdiği bilinmektedir. Yukarıda verilen bilgiler ışığında bu hastanın 46 numarasındaki restorasyonda oluşan kırığın en olası sebebi aşağıdakilerden hangisi olabilir?",
+    "options": {
+      "A": "Kullanıma bağlı zaman içerisinde meydana gelen yorgunluk",
+      "B": "Elektrokimyasal korozyon",
+      "C": "Merküroskobik ekspansiyon",
+      "D": "Yetersiz kondenzasyon",
+      "E": "Restorasyonda oluşturulan keskin fissürler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Yüksek bakırlı (Non-Gama 2) amalgamlarda Gama 2 fazı bulunmadığı için elektrokimyasal korozyon ve merküroskobik ekspansiyon (kenar kırılması) çok düşüktür; ancak yüksek bakırlı amalgamların sıkışma direnci yüksek olmasına rağmen gerilme/çekme direnci düşüktür ve kırılgandır. 25 yıl gibi çok uzun bir süre ağızda hizmet vermiş yüksek bakırlı bir amalgamda oluşan kütlesel (hacimsel) kırığın en olası nedeni korozyon veya yapım hatası değil, uzun süreli fonksiyonel kullanıma ve tekrarlayan çiğneme kuvvetlerine bağlı gelişen \"yorulma/yorgunluk (fatigue)\" olgusudur. Çeldiriciler: - B ve C) Elektrokimyasal korozyon ve merküroskobik ekspansiyon Gama 2 fazı içeren geleneksel amalgamlarda görülür ve kütlesel kırıktan ziyade marjinal (kenar) kırıklara yol açar. - D) Yetersiz kondenzasyon 25 yıl sonra değil, erken dönemde başarısızlık ve hassasiyet oluşturur. - E) Keskin fissürler lokal hücre korozyonuna yol açar.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Elli yaşındaki erkek hasta, ağzını kapattığında bir dişinde elektrik çarpmasına benzer bir his ve ağızda metal tadı şikâyetiyle restoratif diş tedavisi kliniğine başvuruyor. Yapılan muayenede hastanın şikâyeti olan dişte MOD amalgam dolgu olduğu ve karşı çene okluzyondaki dişlerinde de altın köprü olduğu görülüyor. Bu hasta için en olası tanı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Korozyon",
+      "B": "Tarnish",
+      "C": "Galvanizm",
+      "D": "Metamerizm",
+      "E": "Kristalizasyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Ağız ortamında elektrokimyasal potansiyelleri birbirinden farklı iki metal restorasyonun (örneğin alt çenede amalgam dolgu ve karşıt çenede altın köprü) tükürük elektroliti aracılığıyla veya kapanışta birbirine temas etmesiyle aralarında elektrik akımı doğması, hastada ani elektrik çarpması hissi (galvanik şok) ve metalik tat oluşturması durumu \"galvanizm (galvanik akım / galvanik korozyon)\" olarak tanımlanır. (Daha soy olmayan amalgam anot olarak korozyona uğrarken, soy metal olan altın katot görevi görür). Çeldiriciler: - A) Korozyon metalin genel bozunma terimidir; iki farklı metal arasındaki elektrik çarpması ve metalik tat sendromunun spesifik adı galvanizmdir. - B) Tarnish yüzeyel kimyasal kararmadır, elektrik akımı oluşturmaz. - D) Metamerizm iki rengin farklı ışık kaynakları altında farklı algılanmasıdır. - E) Kristalizasyon mineral çökelmesi/katılaşma olgusudur.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM",
+    "flag_reason": "2025 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "Ağızda iki farklı metal bulunması sonucu ortaya çıkan korozyon türü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Yapısal selektif korozyon",
+      "B": "Kimyasal korozyon",
+      "C": "Galvanik korozyon",
+      "D": "Yoğunlaşmış hücre korozyonu",
+      "E": "Stres korozyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Ağız içerisinde iki farklı metal restorasyonun (örneğin amalgam ve altın) bulunması sonucunda aralarındaki elektriksel potansiyel farkı nedeniyle ortaya çıkan elektrokimyasal korozyon türü \"galvanik korozyon\"dur. Çeldiriciler: - A) Yapısal selektif (lokal galvanik) korozyon, iki ayrı metal restorasyon arasında değil, tek bir amalgam restorasyonun kendi içindeki farklı fazlar arasında oluşur. - B) Kimyasal korozyon (tarnish) yüzeyel sülfit kararmasıdır. - D) Yoğunlaşmış hücre korozyonu, plak veya aralık altındaki oksijen/hidrojen iyon farkıyla oluşur. - E) Stres korozyonu, mekanik yük altındaki bölgelerin anot gibi davranmasıyla oluşur.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Aşağıdaki korozyon türlerinden hangisi amalgamın yapısını bozmaz?",
+    "options": {
+      "A": "Yapısal selektif korozyon",
+      "B": "Kimyasal korozyon",
+      "C": "Galvanik korozyon",
+      "D": "Yoğunlaşmış hücre korozyonu",
+      "E": "Stres korozyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kimyasal korozyon (tarnish / kirlenme), amalgamın yalnızca en dış yüzeyinde (özellikle oklüzal yüzeyde) Ag-Sn sülfitlerinden oluşan siyah bir film tabakası meydana getirir; amalgamın derinliklerine inmediği için estetik görüntü haricinde amalgamın iç yapısını ve mekanik özelliklerini bozmaz. Çeldiriciler: Yapısal selektif korozyon (A), Galvanik korozyon (C), Yoğunlaşmış hücre korozyonu (D) ve Stres korozyonu (E), elektrokimyasal korozyon tipleri olup amalgamın tüm derinliklerinde görülür ve iç yapısını bozarak kırılganlığa yol açar.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Amalgamın bileşenlerinden hangisi antibakteriyel etki sağlamaz?",
+    "options": {
+      "A": "Bakır",
+      "B": "Gümüş",
+      "C": "Kurşun",
+      "D": "Civa",
+      "E": "Çinko"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Amalgam; yapısındaki bakır, gümüş, çinko, cıva ve kalay klorid (Sn-O-Cl, Sn-Cl) gibi metal iyonlarının salınımı (oligodinamik etki) sayesinde antibakteriyel etkiye sahiptir. \"Kurşun (Pb)\" (ve demir) ise sistemik toksisitesi nedeniyle dental amalgamın yapısında kesinlikle bulunmayan bir elementtir ve amalgamda antibakteriyel etki sağlamaz. Çeldiriciler: Bakır (A), Gümüş (B), Cıva (D) ve Çinko (E) dental amalgamın yapısında yer alan ve salınımlarıyla antibakteriyel (oligodinamik) etki gösteren bileşenlerdir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "I. Bakır II. Gümüş III. Çinko IV. Demir V. Klorid ürünleri Yukarıdaki öncüllerde bulunan metallerden hangileri amalgama antibakteriyel özellik kazandırır?",
+    "options": {
+      "A": "II ve III",
+      "B": "II, III ve IV",
+      "C": "I, II, III ve V",
+      "D": "I, II ve III",
+      "E": "Hepsi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dental amalgamın yapısında bulunan bakır, gümüş, çinko, cıva ve kalay klorid ürünleri (Sn-O-Cl, Sn-Cl) salınımlarıyla amalgama antibakteriyel özellik kazandırırken, demir amalgamın yapısında bulunmaz. Öncüllerin Analizi: - I, II, III ve V. Öncüller (Doğru): Bakır, gümüş, çinko ve klorid ürünleri amalgamda bulunan ve oligodinamik antibakteriyel etki sağlayan bileşenlerdir. - IV. Öncül (Yanlış): Demir (ve kurşun) dental amalgamın yapısında yer almaz. Çeldiriciler: A ve D şıkları V. öncülü eksik bıraktığı için; B ve E şıkları ise amalgamda bulunmayan demiri (IV) içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "[Görsel: Pulpa boynuzuna çok yakın, kalan dentin kalınlığı 0,5 mm olan derin bir kavite şeması] Yukarıdaki görselde bulunan kavitede kalan dentin kalınlığının 0,5 mm olduğu bildirilmektedir. Geleneksel amalgamla restore edilmesi planlanan bu diş için restoratif materyallerin uygulama sıralaması hangi seçenekte en doğru şekilde verilmiştir?",
+    "options": {
+      "A": "Liner +RMCİS+amalgam",
+      "B": "Kavite dezenfektanı + liner +RMCİS + kavite verniği + amalgam",
+      "C": "Çinko fosfat siman+amalgam",
+      "D": "Liner + çinkooksit öjenol +amalgam",
+      "E": "Kavite verniği+amalgam"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kalan dentin kalınlığının 0,5 mm olduğu çok derin bir geleneksel amalgam kavitesinde (indirekt kuafaj); önce dentin yüzeyleri bir \"kavite dezenfektanı\" (klorheksidin) ile temizlenir, ardından pulpaya en yakın derin noktaya tamir dentini yapımını uyarmak için kalsiyum hidroksit \"liner\" yerleştirilir, zayıf olan linerı kondenzasyon basıncından korumak ve termal yalıtım sağlamak için üzeri \"RMCİS (veya geleneksel CİS)\" kaide ile örtülür, sonrasında açıkta kalan dentin duvarlarındaki tübülleri kapatıp erken mikrosızıntıyı önlemek için \"kavite verniği (lakı)\" sürülür ve en son \"amalgam\" kondanse edilir. Çeldiriciler: - A) Kavite dezenfektanı ve geleneksel amalgam altında erken sızıntıyı önleyen kavite verniği basamaklarını içermemektedir. - C) Kalan dentin kalınlığı 0,5 mm iken doğrudan asidik çinko fosfat siman konulması pulpada şiddetli irritasyon ve nekroz yapar. - D ve E) Tek başına vernik yalıtım sağlamaz; ZOE ise kondenzasyon direnci açısından RMCİS kadar güçlü değildir ve vernik basamağı eksiktir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Zamanla antibakteriyel özelliğinin yanı sıra marjinal tıkama (seal) özelliği artan restoratif materyal hangisidir?",
+    "options": {
+      "A": "Cam iyonomer simanlar",
+      "B": "Cam karbomer restoratif materyal",
+      "C": "Nanokompozitler",
+      "D": "Dental amalgamlar",
+      "E": "Kompomerler"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Restoratif materyaller arasında ağızda zaman geçtikçe marjinal tıkama (self-sealing / kenar sızdırmazlığı) özelliği artan tek materyal \"dental amalgamlardır\". Amalgamda zamanla meydana gelen elektrokimyasal korozyon sonucunda oluşan Sn-O ve Sn-O-Cl (kalay oksit ve kalay oksiklorid) korozyon ürünleri, diş ile amalgam arasındaki mikroskobik arayüz boşluğunu doldurarak tübülleri ve kenar aralığını tıkar, aynı zamanda metal iyon salınımıyla antibakteriyel etki gösterir. Çeldiriciler: Cam iyonomer simanlar (A), cam karbomer (B), nanokompozitler (C) ve kompomerlerde (E) zamanla marjinal tıkama özelliği artmaz; aksine çözünme, aşınma veya hidrolitik bozunma nedeniyle zamanla marjinal uyumları azalabilir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Dental amalgam restorasyonlarda zamanla antibakteriyel özelliğin artmasının yanı sıra marjinal tıkama (seal) özelliğinde de artış gözlemlenmektedir. Buna göre amalgamda zamanla marjinal tıkama oluşmasına sebebiyet veren durum aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Creep",
+      "B": "Flow",
+      "C": "Kimyasal korozyon",
+      "D": "Elektrokimyasal korozyon",
+      "E": "Merküroskobik ekspansiyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Amalgam restorasyonlarda zamanla marjinal tıkama (self-sealing) ve sızdırmazlık oluşmasını sağlayan olay, \"elektrokimyasal korozyon\" sonucunda açığa çıkan çözünmez korozyon ürünlerinin (Sn-O, Sn-O-Cl kristalleri) diş-amalgam arayüzündeki mikroboşluklarda çökelerek bu aralığı doldurmasıdır. Çeldiriciler: - A, B ve E) Creep, flow ve merküroskobik ekspansiyon amalgam kenarlarının bozulmasına ve kırılmasına yol açarak sızıntıyı artırır. - C) Kimyasal korozyon (tarnish) yalnızca dış yüzeyde ince siyah bir film oluşturur, derin arayüz boşluğunu dolduran kristal ürünler üretmez.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "[Görsel: Molar dişteki eski bir amalgam restorasyonun kenarlarının (marjinlerinin) kaviteden yukarıya doğru yükselip taşmış ve kırılmış görüntüsü] Rutin kontrol amacıyla kliniğe başvuran 45 yaşındaki kadın hastanın 15 yıl önce yapılmış 16 numaralı dişindeki amalgam restorasyonun ağız içi fotoğrafı aşağıdaki gibidir. Buna göre ok ile belirtilen bölgedeki amalgamın diş-restorasyon arası marjin uyumunda yaşanan problemin en olası sebebi aşağıdakilerden hangisi olabilir?",
+    "options": {
+      "A": "Creep",
+      "B": "Flow",
+      "C": "Merküroskobik ekspansiyon",
+      "D": "Fatique",
+      "E": "Kimyasal korozyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Görselde ok ile işaretlenen bölgede amalgam restorasyonun marjinlerinin kavite duvarından yukarıya doğru yükseldiği, şiştiği ve desteksiz kalarak kenar uyumunun bozulduğu (ekstrüzyon) görülmektedir. Elektrokimyasal korozyon sonucu Gama 2 (Sn-Hg) fazından serbestleşen cıvanın tekrar Ag-Sn (Gama) partikülleriyle reaksiyona girerek kenarlarda tek yönlü genleşme ve marjinal yükselmeye/kırılmaya yol açtığı bu olay \"merküroskobik ekspansiyon\"dur. Çeldiriciler: - A ve B) Creep ve flow mekanik yük altında ezilme/akma deformasyonudur. - D) Fatigue (yorulma) tekrarlayan kuvvetlerle oluşan kütlesel kırılmadır. - E) Kimyasal korozyon sadece yüzeyel renk değişimidir (tarnish), kenar yükselmesi yapmaz.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi amalgamasyon sonucu oluşan gama-2 fazını belirtir?",
+    "options": {
+      "A": "Ag-Hg",
+      "B": "Sn-Hg",
+      "C": "Ag-Sn",
+      "D": "Sn-Zn",
+      "E": "Sn-Cu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Amalgamasyon reaksiyonu sonucunda oluşan fazlar: - Gama ($\\gamma$) fazı: $Ag_3Sn$ (reaksiyona girmemiş gümüş-kalay alaşım tozu) - Gama 1 ($\\gamma_1$) fazı: $Ag_2Hg_3$ (gümüş-cıva fazı) - Gama 2 ($\\gamma_2$) fazı: $Sn_{7-8}Hg$ (kalay-cıva fazı; en zayıf ve korozyona en yatkın fazdır). Dolayısıyla Gama-2 fazını belirten bileşik Sn-Hg'dir. Çeldiriciler: - A) Ag-Hg, Gama 1 ($\\gamma_1$) fazıdır. - C) Ag-Sn, Gama ($\\gamma$) fazıdır. - D) Sn-Zn diye bir amalgam fazı yoktur. - E) Sn-Cu ($Cu_6Sn_5$), yüksek bakırlı amalgamlarda oluşan Eta ($\\eta$) fazıdır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM",
+    "flag_reason": "2022 DUS Orijinal"
+  },
+  {
+    "question": "Amalgamın korozyona eğilimli fazı aşağıdakilerden hangisidir? (Ag: gümüş; Sn: kalay; Hg: Cıva; Cu: bakır)",
+    "options": {
+      "A": "$Ag_3Sn$",
+      "B": "$Ag_2Hg_3$",
+      "C": "$Sn_7Hg$",
+      "D": "$Cu_6Sn_5$",
+      "E": "AgCu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Amalgam yapısında mekanik direnci en düşük ve elektrokimyasal korozyona en eğilimli olan faz, kalay-cıva bileşiği olan Gama 2 ($Sn_{7-8}Hg$) fazıdır. Çeldiriciler: $Ag_3Sn$ (Gama), $Ag_2Hg_3$ (Gama 1), $Cu_6Sn_5$ (Eta) ve AgCu (ötektik faz) korozyona Gama 2 fazından çok daha dirençlidir.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "I. Gümüş II. Kalay III. Cıva Amalgamasyon reaksiyonunun hem gama 1 hem de gama 2 fazında yer alan metal/metaller aşağıdaki seçeneklerden hangisinde doğru olarak belirtilmiştir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Amalgamasyon reaksiyonunda oluşan Gama 1 fazı $Ag_2Hg_3$ (gümüş-cıva), Gama 2 fazı ise $Sn_{7-8}Hg$ (kalay-cıva) bileşiğidir; dolayısıyla her iki fazda da ortak olarak yer alan tek metal \"Cıva (Hg - III)\"dır. Öncüllerin Analizi: - I. Öncül (Yanlış): Gümüş (Ag) Gama ve Gama 1 fazında yer alır, Gama 2 fazında yer almaz. - II. Öncül (Yanlış): Kalay (Sn) Gama ve Gama 2 fazında yer alır, Gama 1 fazında yer almaz. - III. Öncül (Doğru): Cıva (Hg) hem Gama 1 ($Ag_2Hg_3$) hem de Gama 2 ($Sn_{7-8}Hg$) fazında yer alır. Çeldiriciler: A, C, D ve E şıkları yalnız bir fazda bulunan gümüş (I) veya kalayı (II) ortak metal olarak kabul ettiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi adeziv amalgam restorasyonların avantajları arasında yer almaz?",
+    "options": {
+      "A": "Postoperatif hassasiyeti azaltması",
+      "B": "Kalan diş dokularının kırılma dayanımlarını arttırması",
+      "C": "Marjinal sızıntıyı azaltması",
+      "D": "Sekonder çürük oluşma riskini azaltması",
+      "E": "Amalgamın klinik uygulanmasını kolaylaştırması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Amalgam restorasyonların altında amalgam bond (4-META vb. adeziv sistemler) kullanılması, fazladan asitleme, primer ve adeziv uygulama basamakları gerektirdiği ve henüz sertleşmemiş adeziv üzerine amalgam kondanse edilirken adezivin kavite kenarlarına taşarak matrikse yapışmasına yol açabildiği için amalgamın klinik uygulanmasını kolaylaştırmaz, aksine işlemi daha zor, hassas ve zaman alıcı hale getirir. Çeldiriciler: Amalgam bondlar dentin tübüllerini örterek postoperatif hassasiyeti azaltır (A), zayıf diş dokularına bağlanarak kalan diş dokularının kırılma dayanımını ve rezistans formunu artırır (B), erken dönemde oluşan marjinal mikrosızıntıyı (C) ve buna bağlı sekonder çürük riskini (D) azaltır (ancak amalgam materyalinin kendi iç kırılma dayanımını artırmaz ve uygulamayı kolaylaştırmaz).",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  },
+  {
+    "question": "I. Postoperatif hassasiyet riskini azaltır. II. Amalgamın klinik uygulamasının kolaylaştırır. III. Zayıf diş dokularının kaldığı, rezistans formuna ihtiyaç duyulan durumlarda tercih edilmemelidir. Amalgam bondlarla ilgili yukarıda verilen öncüllerden hangisi/hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Amalgam bondlar dentin tübüllerini kapatıp erken dönem mikrosızıntıyı önleyerek postoperatif hassasiyet riskini azaltır. Öncüllerin Analizi: - I. Öncül (Doğru): Dentini örtmesi ve erken mikrosızıntıyı azaltması sayesinde postoperatif duyarlılık riskini azaltır. - II. Öncül (Yanlış): Fazladan uygulama basamakları ve teknik hassasiyet gerektirdiği için klinik uygulamayı kolaylaştırmaz. - III. Öncül (Yanlış): Zayıf diş dokularının kaldığı ve ek retansiyon/rezistans formuna ihtiyaç duyulan durumlar amalgam bondların tercih edilmemesi gereken değil, tam tersine temel kullanım endikasyonu olan durumlardır. Çeldiriciler: B, C, D ve E şıkları yanlış olan II ve III. öncülleri içerdiği için hatalıdır.",
+    "lesson": "Restoratif",
+    "unit": "10 DENTAL AMALGAM"
+  }
+]

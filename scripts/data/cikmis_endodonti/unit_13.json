@@ -1,0 +1,410 @@
+[
+  {
+    "question": "Aşağıda verilenlerden hangisi internal rezorbsiyonda kök kanalının doldurulmasında kullanılabilen bir cihazdır?",
+    "options": {
+      "A": "Endo Sequence",
+      "B": "Self-Adjusting File Sistem",
+      "C": "K3",
+      "D": "RaCe",
+      "E": "Sistem B"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İnternal kök rezorpsiyonunda kanal içi düzensiz rezorbe sahayı üç boyutlu doldurmak için sıcak (termoplastik) gutta-perka teknikleri gerekir. \"Sistem B (System B)\", gutta-perkayı kanal içinde ısıtarak yumuşatan ve sıcak vertikal kompaksiyonla rezorpsiyon boşluklarının doldurulmasında kullanılan bir obturasyon cihazıdır. Çeldiriciler: A) Endo Sequence bir NiTi döner kanal şekillendirme eğesidir, dolum cihazı değildir. B) Self-Adjusting File (SAF) kafes yapılı bir kanal şekillendirme ve irrigasyon sistemidir. C) K3 bir NiTi döner kanal eğesi sistemidir. D) RaCe bir NiTi döner kanal şekillendirme sistemidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "I. Düzensiz alanların doldurulması sağlanır.\nII. Homojen kanal dolgusu oluşur.\nIII. Apikalden taşma riski minimaldir.\nYukarıda verilenlerden hangisi termoplastik kanal dolgu yöntemlerinin avantajlarındandır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Termoplastik kanal dolgu yöntemleri (sıcak vertikal kompaksiyon, enjeksiyon, kor taşıyıcılı sistemler vb.), gutta-perkanın ısıyla beta fazından akışkan alfa fazına geçirilerek kanala kompakte edilmesi prensibine dayanır. Öncüllerin Analizi: I. Isıyla yumuşatılıp akışkanlaşan gutta-perka; isthmus, internal rezorpsiyon kavitesi, fin ve lateral kanallar gibi tüm \"düzensiz alanların üç boyutlu doldurulmasını\" sağlar (Doğru). II. Katı konların aralarında boşluk kalabilen soğuk lateral kondenzasyona kıyasla, plastikleşmiş kütlenin kompaksiyonuyla yoğun ve \"homojen bir kanal dolgusu\" oluşur (Doğru). III. Termoplastik yöntemlerde gutta-perka akışkan olduğu ve vertikal basınçla itildiği için çalışma boyu kontrolü zordur; soğuk lateral kondenzasyona kıyasla \"apikalden taşma riski minimal değil, tam aksine en büyük dezavantajı olarak oldukça yüksektir\" (Yanlış). Çeldiriciler: A) II. öncül de önemli bir avantajdır. B) I. öncül en temel avantajdır. D) III. öncül avantaj değil, yöntemin en büyük dezavantajıdır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "I. Gütaperka\nII. Radyoopaklaştırıcı maddeler\nIII. Çinko oksit\nIV. Plastisize edici ajanlar\nGütaperka konunda bulunan materyallerin miktarlarının en çoktan en aza doğru sıralanışı aşağıdakilerden hangisinde verilmiştir?",
+    "options": {
+      "A": "III - I - II - IV",
+      "B": "I - III - II - IV",
+      "C": "I - II - III - IV",
+      "D": "III - IV - I - II",
+      "E": "II - IV - III - I"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Ticari olarak kullanılan endodontik gütaperka (gutta-percha) konlarının içeriği ağırlıkça/oransal olarak incelendiğinde, isminin aksine en büyük kısmını organik gütaperka değil, inorganik doldurucu olan çinko oksit oluşturur. Öncüllerin Analizi: III. Çinko oksit: \"%59 - 76\" oranıyla konun yapısında en fazla bulunan ana doldurucu ve sertlik verici maddedir (1. sırada). I. Gütaperka: \"%18 - 22\" oranıyla ikinci sırada yer alan doğal kauçuk/izopren polimeri matrikstir (2. sırada). II. Radyoopaklaştırıcı maddeler (baryum sülfat vb. ağır metal sülfatlar): \"%1 - 18\" (ortalama %10-15) oranıyla üçüncü sırada yer alır (3. sırada). IV. Plastisize edici ajanlar (balmumu, mumlar ve rezinler): \"%1 - 4\" oranıyla esneklik sağlayan ve en az miktarda bulunan bileşendir (4. sırada). Dolayısıyla en çoktan en aza sıralama \"III - I - II - IV\" şeklindedir. Çeldiriciler: B) Gütaperka (%20) çinko oksitten (%65+) daha fazla değildir. C) En fazla bulunan çinko oksit üçüncü sıraya konulmuştur. D) En az bulunan plastisize edici ajanlar ikinci sıraya konulmuştur. E) Sıralama tamamen yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU",
+    "flag_reason": "2020 DUS Orijinal"
+  },
+  {
+    "question": "I. Gütaperka\nII. Metal sülfat\nIII. Çinko oksit\nIV. Balmumu ve rezin\nGütaperka konunun içeriği en çoktan en aza doğru nasıl sıralanır?",
+    "options": {
+      "A": "Çinko oksit - gütaperka - metal sülfat - balmumu ve rezin",
+      "B": "Gütaperka - çinko oksit - metal sülfat - Balmumu ve rezin",
+      "C": "Güta-perka - metal sülfat - çinko oksit - balmumu ve rezin",
+      "D": "Balmumu ve rezin - çinko oksit - güta perka - metal sülfat",
+      "E": "Metal sülfat - balmumu ve rezin - gütaperka - çinko oksit"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Endodontik gütaperka konlarının kimyasal bileşimi en çoktan en aza doğru sırasıyla; %59-76 oranında \"çinko oksit\" (III), %18-22 oranında \"gütaperka\" (I), %1-18 oranında radyoopasite sağlayıcı \"metal sülfat (baryum sülfat)\" (II) ve %1-4 oranında plastisize edici \"balmumu ve rezin\" (IV) şeklindedir. Öncüllerin Analizi: III. Çinko oksit (En çok). I. Gütaperka (2. sırada). II. Metal sülfat (3. sırada). IV. Balmumu ve rezin (En az). Çeldiriciler: B) Çinko oksit oranı gütaperkadan yaklaşık 3 kat daha fazladır. C) Çinko oksit ilk sırada olmalıdır. D) En az bulunan balmumu ve rezin ilk sıraya yazılmıştır. E) Sıralama tamamen tersten ve hatalı verilmiştir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Beta fazındaki güta perkayı alfa fazına geçirmek isteyen bir hekim elindeki gutta perka konlarını en az kaç dereceye ısıtmalıdır?",
+    "options": {
+      "A": "40°",
+      "B": "46°",
+      "C": "56°",
+      "D": "70°",
+      "E": "88°"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Doğada alfa fazında bulunan gütaperka, ticari endodontik konlar halinde üretilirken ısıtılıp soğutularak oda sıcaklığında katı, esnek ve büzülmez olan \"beta (β) fazına\" dönüştürülür. Termoplastik dolum tekniklerinde bu katı beta fazındaki gütaperka konlarının yumuşak, yapışkan ve basınç altında akışkan olan \"alfa (α) fazına\" geçebilmesi için (42-49°C aralığında) ortalama en az \"46°C\" dereceye ısıtılması gerekir (53-59°C veya 65°C üzerinde ısıtılırsa amorf faza geçer). Çeldiriciler: A) 40°C vücut sıcaklığına yakın olup beta-alfa faz dönüşümü için gereken 42-49°C eşiğinin altındadır. C) 56°C (53-59°C aralığı), alfa fazındaki gütaperkanın eriyerek \"amorf faza\" geçtiği sıcaklıktır. D) 70°C amorf/erime fazının üzerindedir. E) 88°C çok yüksek bir sıcaklık olup alfa fazına geçişin minimum eşiği değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kök kanal dolgu materyallerinden gütaperka için doğrudur?",
+    "options": {
+      "A": "Beta formu plastik taşıyıcılı kor materyalini kaplamak için kullanılır.",
+      "B": "Zayıf bakteriostatik aktiviteye sahiptir.",
+      "C": "Isı iletme özelliği iyidir.",
+      "D": "Dentine adezyon yeteneği vardır.",
+      "E": "Serin ortamda saklamak kırılganlığını artırır."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Gütaperka konları, içeriğindeki yüksek orandaki (%59-76) çinko oksitten salınan çinko iyonları sayesinde \"zayıf bir bakteriostatik (antimikrobiyal) aktiviteye\" sahiptir. Çeldiriciler: A) Plastik taşıyıcılı kor sistemlerini (Thermafil vb.) kaplamak için katı olan beta formu değil, düşük ısıda akışkanlaşan ve yapışkan olan \"alfa formu\" kullanılır. C) Gütaperka doğal bir kauçuk polimeri olup termal ve elektriksel olarak yalıtkandır; ısı iletme özelliği iyi değil, \"oldukça düşüktür\" (bu nedenle sıcak vertikal kompaksiyonda ısıyı sadece 4-5 mm öteye iletebilir). D) Gütaperkanın dentin duvarlarına kimyasal veya mikromekanik hiçbir \"adezyon (bağlanma) yeteneği yoktur\"; bu yüzden mutlaka bir kök kanal patı (sealer) ile birlikte kullanılmalıdır. E) Gütaperkayı kırılganlaştıran şey ısı, ışık ve havayla temas sonucu gelişen oksidasyondur; \"serin ve karanlık ortamda saklamak\" kırılganlığını artırmaz, aksine oksidasyonu yavaşlatarak esnekliğini korur ve raf ömrünü uzatır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi kanal dolgu materyali olan gütaperka için yanlıştır?",
+    "options": {
+      "A": "Alfa fazı kor taşıyıcılı sistemlerde kullanılmaktadır.",
+      "B": "Güçlü bakteriostatik etki gösterir.",
+      "C": "Isı iletkenliği düşüktür.",
+      "D": "Dentin adezyonu yoktur.",
+      "E": "Uzun süre bekleyen gütaperka konları kırılganlaşır."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Gütaperka konlarının yapısında yüksek oranda çinko oksit bulunmasına rağmen, bu çinko oksit kauçuk polimer matriks içine hapsolmuş durumdadır; bu nedenle güçlü değil, yalnızca \"zayıf bir bakteriostatik etki\" gösterir. Çeldiriciler: A) Yapışkan ve akışkan karakterdeki alfa fazlı gütaperka, Thermafil gibi kor taşıyıcılı sistemlerde ve termoplastik enjeksiyon sistemlerinde kullanılır. C) Yalıtkan bir polimer olduğu için ısı iletkenliği düşüktür. D) Dentin duvarlarına hiçbir adezyon yeteneği yoktur, mutlaka kanal patı ile kullanılmalıdır. E) Hava, ışık ve ısıya maruz kalarak uzun süre bekleyen gütaperka konları okside olur, kristalleşir ve esnekliğini kaybederek kırılganlaşır (alkol veya öjenol ile kısmen rejuvene edilebilir).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi güta perkanın fazlarından değildir?",
+    "options": {
+      "A": "Alfa fazı",
+      "B": "Beta fazı",
+      "C": "Amorf faz",
+      "D": "Kristalize faz",
+      "E": "Rhombohedral faz"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Rhombohedral faz (R-fazı)\", bir polimer olan gütaperkanın fazlarından biri değildir; \"nikel-titanyum (NiTi) metal alaşımlarının\" östenit ve martensit fazları arasındaki geçişinde oluşan atomik kristal fazıdır. Çeldiriciler: A) Alfa fazı, gütaperkanın doğada bulunan ve beta fazının 46°C'ye ısıtılmasıyla oluşan yumuşak, akışkan ve yapışkan kristal fazıdır. B) Beta fazı, gütaperkanın oda sıcaklığında katı, esnek ve sıkıştırılamaz olan standart kon fazıdır. C) Amorf faz, alfa fazındaki gütaperkanın 53-65°C üzerinde ısıtılıp erimesiyle oluşan düzensiz fazdır. D) Kristalize faz, erimiş gütaperkanın soğutulma hızına göre yeniden alfa (çok yavaş soğutma) veya beta (normal soğutma) kristallerine dönüştüğü yarı-kristalin polimerik yapıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kanal doldurmada kullanılan \"solid core\" taşıyıcı bir sistemdir?",
+    "options": {
+      "A": "Sistem B",
+      "B": "Inject- R Fill",
+      "C": "Ultrafil",
+      "D": "ThermaFill",
+      "E": "Obtura"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): \"Thermafil (ThermaFill)\", merkezi bir katı kor taşıyıcının (başlangıçta paslanmaz çelik/titanyum, günümüzde özel plastik veya çapraz bağlı gütaperka - GuttaCore) dış yüzeyinin alfa fazlı gütaperka ile kaplandığı, özel fırınında (ThermaPrep) ısıtılarak tek hamlede kök kanalına yerleştirilen en bilinen \"solid core (katı kor) taşıyıcılı\" kanal dolum sistemidir (Diğer örnekleri: Soft-Core, Quick-Fill, SimpliFill, SuccessFil). Çeldiriciler: A) Sistem B, gütaperkayı kanal içinde ısıtarak devamlı ısı ile vertikal kompaksiyon yapan elektrikli ısıtıcı plugger cihazıdır. B) Inject-R Fill, kanal dışı ısıtılan gütaperkayı enjekte eden metal kanüllü bir sistemdir. C) Ultrafil, düşük sıcaklıkta (70°C) kanal dışında ısıtılan alfa fazlı gütaperkayı kanala enjekte eden termoplastik tabanca sistemidir. E) Obtura (Obtura II / III), yüksek sıcaklıkta (160-200°C) kanal dışında ısıtılan beta fazlı gütaperkayı kanala enjekte eden termoplastik enjeksiyon tabancasıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "I. ThermaFill\nII. QuickFill\nIII. BeeFill\nYukarıda verilenlerden hangisi veya hangileri sıcak vertikal kompaksiyon ile dolum tekniğinde kullanılan sistemlerdendir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Sıcak vertikal kompaksiyon (veya devamlı ısı ile kondenzasyon ve back-fill) tekniğinde kullanılan kombine cihazlar, bir uçta kanal içi ısıtıcılı plugger (down-pack) ve diğer uçta termoplastik gütaperka enjektörü (back-fill) barındırır. Öncüllerin Analizi: I. ThermaFill, sıcak vertikal kompaksiyon cihazı değil, fırında ısıtılan bir \"kor taşıyıcılı (solid core)\" sistemdir (Yanlış). II. QuickFill, mikromotora takılarak sürtünme ısısıyla çalışan titanyum \"kor taşıyıcılı\" bir sistemdir (Yanlış). III. \"BeeFill (BeeFill 2in1)\", üzerinde hem kanal içinde gütaperkayı ısıtıp kesen sıcak vertikal kompaksiyon plugger'ı (down-pack) hem de kanalın koronal kısmını dolduran termoplastik enjeksiyon tabancası (back-fill) bulunan bir sıcak vertikal kompaksiyon sistemidir (Doğru). Çeldiriciler: A) ThermaFill kor taşıyıcılı sistemdir. B) QuickFill kor taşıyıcılı sistemdir. D) I ve II kor taşıyıcılı sistemlerdir. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "I. Tip II\nII. Tip III\nIII. Tip IV\nKor taşıyıcılı sistemler Vertucci'nin yukarıda verilen hangi kanal tipinde kullanılır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kor taşıyıcılı sistemlerde (Thermafil vb.) plastik veya metal taşıyıcı çekirdek kanalın içerisine yerleştirilir ve kanalda kalır. Bu nedenle kanalın kök içerisinde \"çatallandığı (ikiye ayrıldığı) veya iki kanalın tek bir noktada birleştiği\" anatomilerde kullanılamaz; çünkü birinci kanala yerleştirilen katı kor taşıyıcı, birleşme veya çatallanma noktasını bloke ederek diğer kanalın apikalinin doldurulmasını imkansız hale getirir. Öncüllerin Analizi: I. Vertucci Tip II (2-1) konfigürasyonunda iki ayrı kanal apikalde birleştiği için bir kanala konulan taşıyıcı diğer kanalın yolunu kapatır; kullanılamaz (Yanlış). II. Vertucci Tip III (1-2-1) konfigürasyonunda kanal kök ortasında çatallanıp tekrar birleştiği için kor taşıyıcı her iki dalı dolduramaz; kullanılamaz (Yanlış). III. Vertucci Tip IV (2-2) konfigürasyonunda iki kanal pulpa odasından apekse kadar birbirinden tamamen bağımsız (birleşme veya çatallanma olmadan) uzandığı için kor taşıyıcılı sistemler rahatlıkla kullanılabilir (Ayrıca Tip I ve Tip VIII'de de kullanılabilir) (Doğru). Çeldiriciler: A) Tip II'de kanallar birleştiği için diğer kanal tıkanır. B) Tip III'te kanal çatallandığı için kullanılamaz. D) I. öncül yanlıştır. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Plastik kor taşıyıcılı kanal dolgu sistemleri aşağıdaki dişlerden hangisinde kontrendikedir?",
+    "options": {
+      "A": "Açık apeksli diş",
+      "B": "Post restorasyonu gerektiren diş",
+      "C": "Aşırı kök kurvatürlü diş",
+      "D": "İnce köklü diş",
+      "E": "Uzun kanallı diş"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Plastik kor taşıyıcılı kanal dolgu sistemleri (Thermafil vb.), taşıyıcı üzerindeki alfa fazlı gütaperkanın fırında ısıtılıp akışkan hale getirilerek apikale doğru basınçla taşınması prensibiyle çalışır. Apikal daralımı (stop noktası) bulunmayan \"açık apeksli (immatür) dişlerde\" hem akışkan gütaperka ve pat hem de taşıyıcının kendisi geniş apikal foramenden periapikal dokulara kontrolsüzce taşacağı için bu dişlerde kullanımı kesinlikle kontrendikedir (Açık apeksli dişlerde önce MTA/kalsiyum hidroksit ile apeksifikasyon yapılmalıdır). Çeldiriciler: B) Metal taşıyıcılı sistemlerde post boşluğu hazırlamak çok zorken, \"plastik\" kor taşıyıcılı sistemlerde özel ısıtıcı/kesici frezler (Prepi bur) ile plastik kor eritilerek post restorasyonu gereken dişlerde rahatlıkla kullanılabilir. C) Plastik taşıyıcılar oldukça esnek olduğu ve üzerindeki gütaperka akışkan olduğu için aşırı kök kurvatürlü (eğri) kanalların doldurulmasında büyük avantaj sağlar. D) Spreader basıncı (kama etkisi) gerektirmediği için ince köklü dişlerde kırık riski yaratmadan güvenle kullanılır. E) Uzun kanallı dişlerde çalışma boyuna ulaşmada ve homojen dolum sağlamada oldukça etkilidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "I. Mineral trioksit agregad ile apikal plug\nII. Kalsiyum hidroksit ile frank metodu\nIII. Plastik kor taşıyıcı sistemler\nYukarıda verilenlerden hangisi açık apeksli dişlerin endodontik tedavisinde uygulanabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Açık apeksli (kök gelişimi tamamlanmamış) ve nekrotik pulpalı dişlerde apikal daralım bulunmadığı için doğrudan standart veya termoplastik kanal dolgusu yapılamaz; önce kök ucunda sert bir bariyer oluşturulan \"apeksifikasyon\" (veya rejeneratif tedavi) uygulanmalıdır. Öncüllerin Analizi: I. Mineral trioksit agregat (MTA) veya Biodentine ile kök ucunda 3-5 mm'lik yapay bir \"apikal plug (tıkaç)\" oluşturulması güncel tek/iki seanslı apeksifikasyon yöntemidir ve uygulanabilir (Doğru). II. Kalsiyum hidroksitin kanalda 3-18 ay bekletilerek kök ucunda biyolojik kalsifiye bariyer oluşturulduğu \"Frank metodu\" klasik çok seanslı apeksifikasyon yöntemidir ve uygulanabilir (Doğru). III. Plastik kor taşıyıcılı sistemler akışkan gütaperka içerdiği için bariyer oluşturulmamış açık apeksli dişlerde periapikale taşma yapacağından doğrudan uygulanamaz (Yanlış). Çeldiriciler: A) II. öncül de klasik apeksifikasyon yöntemidir. B) I. öncül en güncel apeksifikasyon yöntemidir. D) III. öncül kontrendikedir. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "İnternal rezorpsiyonu olan dişlerin kanal dolumunda aşağıdakilerden hangisi kontrendikedir?",
+    "options": {
+      "A": "Kor taşıyıcılı dolgu sistemleri",
+      "B": "Mineral trioksit aggregad",
+      "C": "Termoplastik enjeksiyon",
+      "D": "Sıcak vertikal kompaksiyon",
+      "E": "Devamlı ısı ile kompaksiyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İnternal kök rezorpsiyonu olan dişlerde kanalın orta veya koronal kısmında balon şeklinde genişlemiş düzensiz bir defekt mevcuttur. \"Kor taşıyıcılı dolgu sistemlerinde (Thermafil vb.)\" ince taşıyıcı üzerindeki sınırlı miktardaki gütaperka dar kanal ağzından geçerken sıyrılır ve geniş rezorpsiyon boşluğunu dolduracak hacme/kompaksiyona ulaşamadığı için rezorbe sahada büyük boşluklar kalır; bu nedenle internal rezorpsiyonda kor taşıyıcılı sistemler kontrendikedir. Çeldiriciler: B) Özellikle perfore olmuş veya geniş internal rezorpsiyon kavitelerinin tamamı MTA (veya Biodentine) ile başarıyla doldurulabilir. C) Termoplastik enjeksiyon (Obtura vb.), akışkan gütaperkayı geniş rezorpsiyon boşluğuna doğrudan enjekte ederek tam uyum sağlar. D) Sıcak vertikal kompaksiyon (Schilder tekniği), yumuşatılan gütaperkanın pluggerlarla rezorpsiyon lakünlerine basılmasını sağlar. E) Devamlı ısı ile kompaksiyon (System B + back-fill) internal rezorpsiyon dolumunda ideal yöntemlerdendir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi rezin esaslı kanal dolgu maddesi değildir?",
+    "options": {
+      "A": "RoekoSeal",
+      "B": "Epiphany",
+      "C": "AH26",
+      "D": "Diaket",
+      "E": "EndoREZ"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"RoekoSeal\" (ve gütaperka tozu eklenmiş formu olan GuttaFlow), rezin esaslı bir pat değildir; polidimetilsiloksan içeren \"silikon esaslı\" bir kök kanal dolgu patıdır. Çeldiriciler: B) Epiphany (RealSeal), üretan dimetakrilat (UDMA) içeren dual-cure \"metakrilat rezin esaslı\" bir kanal dolgu patıdır. C) AH 26 (ve AH Plus), bisfenol-A diglisidil eter içeren \"epoksi rezin esaslı\" kök kanal dolgu patıdır. D) Diaket, vinil polimerleri ile ketokompleks oluşturan \"poliketon (polivinil) rezin esaslı\" bir kanal dolgu patıdır. E) EndoREZ, üretan dimetakrilat (UDMA) bazlı hidrofilik \"metakrilat rezin esaslı\" bir kanal dolgu patıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Kanal dolgu patları ve içerikleri ile ilgili verilen eşleştirmelerden hangisi doğrudur?",
+    "options": {
+      "A": "Pat: Gutta-Flow – İçerik: Silikon esaslı",
+      "B": "Pat: Epiphany – İçerik: Epoksi rezin esaslı",
+      "C": "Pat: AH26 – İçerik: Metakrilat rezin esaslı",
+      "D": "Pat: Diaket – İçerik: Kalsiyum silikat esaslı",
+      "E": "Pat: EndoREZ – İçerik: Poliketon rezin esaslı"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): \"Gutta-Flow\" (ve RoekoSeal), polidimetilsiloksan matriks içerisine ince öğütülmüş gütaperka partikülleri ve nano-gümüş eklenerek üretilmiş \"silikon esaslı\" bir kök kanal dolgu patıdır. Çeldiriciler: B) Epiphany epoksi rezin değil, \"metakrilat (UDMA) rezin esaslı\" bir pattır. C) AH 26 (ve AH Plus) metakrilat değil, \"epoksi rezin esaslı\" bir pattır. D) Diaket kalsiyum silikat değil, \"poliketon (polivinil) rezin esaslı\" bir pattır. E) EndoREZ poliketon değil, hidrofilik \"metakrilat (UDMA) rezin esaslı\" bir pattır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıda verilen kanal dolgu patlarından hangisi aynı zamanda retrograd dolgu ve perforasyon tamir materyali olarak kullanılabilir?",
+    "options": {
+      "A": "Silikon esaslı patları",
+      "B": "Epoksi rezin esaslı patlar",
+      "C": "Poliketon rezin esaslı patlar",
+      "D": "Kalsiyum hidroksit esaslı patlar",
+      "E": "Çinko oksit öjenol esaslı patlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): \"Poliketon (polivinil) rezin esaslı patların\" en bilinen örneği olan \"Diaket\", normal akışkan kıvamda karıştırıldığında kök kanal dolgu patı olarak kullanılırken; toz/likit oranı artırılarak yoğun (katı/macun) kıvamda hazırlandığında yüksek boyutsal stabilitesi ve sızdırmazlığı sayesinde \"retrograd dolgu ve kök perforasyonu tamir materyali\" olarak da kullanılabilmektedir (Ayrıca güncel kalsiyum silikat/biyoseramik esaslı materyaller de bu çift yönlü kullanıma sahiptir). Çeldiriciler: A) Silikon esaslı patlar (RoekoSeal, GuttaFlow) elastik ve yumuşak kaldığı için retrograd dolgu veya perforasyon tamirinde kullanılamaz. B) Epoksi rezin esaslı patlar (AH Plus) nemden etkilenir ve kanamalı cerrahi/perforasyon sahasında sertleşemez. D) Kalsiyum hidroksit esaslı patlar (Sealapex, Apexit) doku sıvılarında çözünüp rezorbe oldukları için perforasyon veya retrograd kavitede kullanılamaz. E) Geleneksel akışkan ÇOÖ kanal patları (Grossman, Tubli-Seal) çözünürlük ve öjenol irritasyonu nedeniyle bu amaçla kullanılmaz (yalnızca güçlendirilmiş katı siman formları olan IRM ve Super-EBA kullanılır).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "I. Hidrofilik özellikte olması\nII. Asidik pH'ya sahip olması\nIII. Kanal tedavisi tekrarı esnasında kanaldan uzaklaştırılmalarının zor olması\nKalsiyum silikat esaslı kanal dolgu patlarıyla ilgili yukarıdakilerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kalsiyum silikat (biyoseramik) esaslı kök kanal dolgu patları (EndoSequence BC Sealer, iRoot SP, BioRoot RCS, MTA Fillapex vb.), MTA teknolojisinden türetilmiş modern ve biyoaktif kanal patlarıdır. Öncüllerin Analizi: I. Yapılarındaki trikalsiyum ve dikalsiyum silikatların hidratasyonla sertleşebilmesi için dentin tübüllerindeki neme ihtiyaç duyarlar; yani \"hidrofilik özelliktedirler\" (Doğru). II. Sertleşme reaksiyonu sırasında bol miktarda kalsiyum hidroksit açığa çıkardıkları için asidik değil, tam aksine \"yüksek bazik (alkalen, pH >11-12) pH'ya\" sahiptirler ve bu sayede antibakteriyel/biyoaktif etki gösterirler (Yanlış). III. Sertleştiklerinde genleşerek çok sert, çözünmeyen taş benzeri bir yapıya ulaştıkları ve dentine hidroksiapatit aracılığıyla kimyasal bağlandıkları için kanal tedavisi tekrarı (retreatment) sırasında organik çözücülerle eritilmeleri ve \"kanaldan uzaklaştırılmaları oldukça zordur\" (Doğru). Çeldiriciler: A) III. öncül de doğrudur. B) II. öncül yanlıştır, bazik pH'lıdırlar. C) I. öncül de doğrudur. E) II. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıdaki kök kanal dolum patlarından hangisi \"çok pat az güta\" konsepti ile doldurulabilir?",
+    "options": {
+      "A": "Epoksi reçine patlar",
+      "B": "Cam iyonomer patlar",
+      "C": "Kalsiyum hidroksit patlar",
+      "D": "Kalsiyum silikat patlar",
+      "E": "Öjenol içerikli patlar"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Geleneksel kanal patlarının tamamı sertleşirken büzülme (polimerizasyon/sertleşme büzülmesi) gösterdiği ve doku sıvılarında çözündüğü için \"az pat (ince film tabakası) - çok gütaperka\" prensibiyle kullanılır. Ancak \"kalsiyum silikat (biyoseramik) esaslı patlar\" hidrofiliktir, doku sıvılarında çözünmez ve sertleşirken büzülmeyip aksine hafifçe (%0.2) \"genleşme\" gösterir; bu üstün boyutsal stabiliteleri sayesinde tek kon (single-cone) tekniğinde kanal şeklini alan kalın bir pat tabakası ve sadece retreatment yolu bırakmak için yerleştirilen tek bir gütaperka konu ile yani \"çok pat az güta\" konsepti ile güvenle doldurulabilirler. Çeldiriciler: A) Epoksi reçine patlar kalın tabaka halinde bırakılırsa polimerizasyon büzülmesi yapar. B) Cam iyonomer patlar büzülme ve kırılganlık gösterir. C) Kalsiyum hidroksit patlar yüksek çözünürlüğe sahiptir, kalın kullanılırsa eriyip boşluk bırakır. E) Öjenol içerikli patlar sertleşirken büzülür ve doku sıvılarında çözünür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kalsiyum silikat içerikli kanal patlarına radyoopasite vermesi amacıyla eklenmiştir?",
+    "options": {
+      "A": "Bizmut oksit",
+      "B": "Baryum sülfat",
+      "C": "Zirkonyum oksit",
+      "D": "Kurşun",
+      "E": "Gümüş"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Birinci nesil MTA'da radyoopasite verici olarak kullanılan bizmut oksitin dentin kollajeni ve sodyum hipoklorit ile reaksiyona girerek dişte ciddi grimsi-siyah renklenmeye yol açtığı anlaşılmıştır. Bu renklenme sorununu ortadan kaldırmak amacıyla yeni nesil \"kalsiyum silikat (biyoseramik) içerikli kök kanal patlarına\" (ve Biodentine gibi simanlara) radyoopasite verici ajan olarak renklenme yapmayan \"zirkonyum oksit\" (veya tantalyum oksit / kalsiyum tungstat) eklenmiştir. Çeldiriciler: A) Bizmut oksit geleneksel ProRoot MTA'nın radyoopasite ajanıdır, renklenme yaptığı için modern kalsiyum silikat patlarda yerini zirkonyum oksite bırakmıştır. B) Baryum sülfat esas olarak gütaperka konlarında ve bazı rezin patlarda kullanılır. D) Kurşun oksit toksisite ve renklenme nedeniyle modern patlarda kullanılmaz. E) Gümüş, eski tip AH 26 formülünde kullanılmış ancak siyah renklenme yaptığı için terk edilmiştir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "I. Daha iyi bir çalışma uzunluğu kontrolü sağlar.\nII. Kanal düzensizliklerinin ve aksesuar kanalların daha iyi doldurulmasını sağlar.\nIII. Apikalden obtürasyon materyali taşma ihtimali daha azdır.\nYukarıdakilerden hangileri lateral kondenzasyon yöntemiyle kıyaslandığında sıcak vertikal kompaksiyon tekniğinin avantajlarındandır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "Yalnız I",
+      "D": "Yalnız II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Soğuk lateral kondenzasyon (kompaksiyon) tekniği katı gütaperka konlarının spreader ile yanlara sıkıştırılmasına dayanırken, sıcak vertikal kompaksiyon (Schilder) tekniği gütaperkanın ısıyla plastikleştirilip pluggerlarla apikale doğru dikey sıkıştırılmasına dayanır. Öncüllerin Analizi: I. Katı konlarla uygulanan soğuk lateral kondenzasyon çok daha iyi bir çalışma uzunluğu (apikal sınır) kontrolü sağlar; sıcak vertikal kompaksiyonda ise akışkan gütaperka nedeniyle çalışma uzunluğu kontrolü daha zordur (Yanlış). II. Sıcak vertikal kompaksiyon tekniğinde ısıyla yumuşayıp akışkanlaşan gütaperka ve pat, dikey basınç altında isthmus, internal rezorpsiyon defektleri, \"kanal düzensizlikleri ve aksesuar/lateral kanalların çok daha iyi ve homojen doldurulmasını\" sağlar (Doğru). III. Sıcak vertikal kompaksiyonda akışkan materyale dikey kuvvet uygulandığı için apikalden obtürasyon materyali taşma ihtimali lateral kondenzasyona göre daha az değil, aksine \"daha fazladır\" (Yanlış). Çeldiriciler: A) I. öncül soğuk lateral kondenzasyonun avantajıdır. B) I ve III. öncüller soğuk lateral kondenzasyonun avantajlarıdır. C) I. öncül yanlıştır. E) I ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU",
+    "flag_reason": "2023 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "I. Daha iyi bir çalışma uzunluğu kontrolü sağlaması\nII. Kanal düzensizliklerinin ve aksesuar kanalların daha iyi doldurulmasını sağlaması\nIII. Apikalden obtürasyon materyali taşma ihtimalinin daha az olması\nAşağıda verilenlerden hangileri internal rezorpsiyonlu dişlerde sıcak vertikal kompaksiyonun lateral kondenzasyon yöntemine göre tercih edilmesinin sebebi veya sebeplerindendir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "Yalnız I",
+      "D": "Yalnız II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İnternal kök rezorpsiyonlu dişlerde kök kanalı içerisinde ampul şeklinde geniş ve düzensiz bir rezorpsiyon kavitesi mevcuttur. Bu dişlerde soğuk lateral kondenzasyon yerine sıcak vertikal kompaksiyonun tercih edilmesinin tek ve temel sebebi, ısıyla akışkanlaşan gütaperkanın bu düzensiz rezorpsiyon boşluklarına adapte olabilmesidir. Öncüllerin Analizi: I. Çalışma uzunluğu kontrolünün iyi olması sıcak vertikal kompaksiyonun değil, soğuk lateral kondenzasyonun özelliğidir (Yanlış). II. Sıcak vertikal kompaksiyonun \"kanal düzensizliklerinin (internal rezorpsiyon defektinin) ve aksesuar kanalların üç boyutlu olarak daha iyi doldurulmasını sağlaması\" bu vakalarda tercih edilmesinin esas sebebidir (Doğru). III. Apikalden materyal taşma ihtimalinin az olması soğuk lateral kondenzasyonun avantajıdır; sıcak vertikal teknikte taşma riski daha yüksektir (Yanlış). Çeldiriciler: A) I. öncül yanlıştır. B) I ve III. öncüller yanlıştır. C) I. öncül yanlıştır. E) I ve III. öncüller yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi veya hangileri rezin esaslı patların yapısını oluşturmaz?",
+    "options": {
+      "A": "Epoksi rezin",
+      "B": "Metakrilat rezin",
+      "C": "Poliketon rezin",
+      "D": "Polivinil rezin",
+      "E": "Polisitren rezin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Endodontide kullanılan polimer/rezin esaslı kök kanal dolgu patları kimyasal yapılarına göre üç alt gruba ayrılır: Epoksi rezinler (AH 26, AH Plus), Metakrilat rezinler (UDMA esaslı Epiphany, EndoREZ) ve Poliketon/Polivinil rezinler (Diaket). \"Polistiren (polisitren) rezin\" ise stiren monomerinden üretilen ve boru, plastik kap, otomotiv ve yalıtım endüstrisinde kullanılan aromatik bir hidrokarbon polimeridir; endodontik kanal dolgu patlarının yapısında yer almaz (yalnızca kloroformda çözülerek deneysel kloroperka/dentin adezivi çalışmalarında adı geçmiştir). Çeldiriciler: A) Epoksi rezin, AH 26 ve AH Plus patlarının ana yapısını oluşturur. B) Metakrilat rezin (UDMA, Bis-GMA), Epiphany, RealSeal ve EndoREZ patlarının yapısını oluşturur. C) Poliketon rezin, Diaket patının yapısını oluşturur. D) Polivinil rezin, poliketon rezin (Diaket) ile eş anlamlı olarak kullanılan polimerik yapıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "I. Doku sıvılarından etkilenmemelidir.\nII. Radyografide izlenebilmesi için radyolusent olmalıdır.\nIII. Periradiküler dokular için irritan olmamalıdır.\nIV. Kısa sürede sertleşmelidir.\nİdeal kök kanal dolgu patının sahip olması gereken özellikler ile ilgili yukarıdaki ifadelerden hangileri yanlıştır?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "II ve IV",
+      "D": "III ve IV",
+      "E": "I ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Grossman tarafından tanımlanan ideal kök kanal dolgu patı (sealer) kriterleri; biyouyumluluk, sızdırmazlık, çözünmezlik, radyoopasite ve klinik manipülasyon kolaylığı üzerine kuruludur. Öncüllerin Analizi: I. Sızdırmazlığın bozulmaması için sertleştikten sonra doku sıvılarında çözünmemeli ve doku sıvılarından etkilenmemelidir (Doğru). II. Kanal dolgusunun kalitesinin, boşlukların ve taşkınlıkların radyografide net olarak izlenebilmesi ve dentinden ayırt edilebilmesi için radyolusent değil, mutlaka \"radyoopak\" (en az 3 mm alüminyum eşdeğerinde) olmalıdır (Yanlış). III. Biyouyumlu olmalı ve periradiküler dokular için irritan/toksik olmamalıdır (Doğru). IV. Hekime kanalı doldurması ve gerekirse düzeltmeler yapabilmesi için yeterli çalışma süresi (working time) tanımalıdır; \"kısa sürede (çok hızlı) sertleşmesi\" klinik uygulamayı imkansızlaştıracağı için istenmeyen bir özelliktir (yavaş/uygun sürede sertleşmelidir) (Yanlış). Çeldiriciler: A) I. öncül doğrudur. B) III. öncül doğrudur. D) III. öncül doğrudur. E) I ve III. öncüller ideal patın doğru özellikleridir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ideal kök kanal patının özelliklerinden değildir?",
+    "options": {
+      "A": "Apikal sızdırmazlık sağlamalı.",
+      "B": "Belirli bir derecede radyoopak olmalı.",
+      "C": "Periradiküler dokulara biyouyumlu olmalı.",
+      "D": "Sertleşme süresi kısa olmalı.",
+      "E": "Dişte renklenme yapmamalı."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İdeal bir kök kanal dolgu patının \"sertleşme süresi kısa (çok hızlı) olmamalıdır\"; aksine çok kanallı dişlerin doldurulması, kompaksiyon işlemleri ve radyografik kontrol sonrası olası düzeltmelerin yapılabilmesi için hekime yeterli çalışma zamanı sunacak kadar uzun bir çalışma/sertleşme süresine sahip olmalıdır. Çeldiriciler: A) Gütaperka ve dentin duvarları arasındaki boşlukları doldurarak hermetik apikal ve lateral sızdırmazlık sağlamalıdır. B) Radyografide dentinden ve kemikten ayırt edilebilmesi için belirli bir derecede (en az 3 mm Al) radyoopak olmalıdır. C) Periradiküler dokularla temas ettiğinde inflamasyon yapmamalı, biyouyumlu ve iyi tolere edilebilir olmalıdır. E) Kuron ve kök dentininde estetiği bozacak renklenme yapmamalıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Kök kanal patlarının en düşük radyoopasite değeri aşağıdakilerden hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "<1mm Al",
+      "B": "<3mm Al",
+      "C": "<5mm Al",
+      "D": "<7mm Al",
+      "E": "<9 mm Al"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): ISO 6876 ve ANSI/ADA standartlarına göre, kök kanallarının doldurulmasında kullanılan kök kanal patlarının radyografide komşu dentin (yaklaşık 1 mm Al eşdeğeri) ve kortikal kemikten net şekilde ayırt edilebilmesi için sahip olması gereken en düşük (minimum) radyoopasite değeri \"3 mm alüminyum (Al)\" kalınlığına eşdeğer olmalıdır (3 mm Al'den düşük olmamalıdır). Çeldiriciler: A) 1 mm Al dentin dokusunun kendi radyoopasitesine eşittir, pat dentinden ayırt edilemez. C) 5 mm Al minimum sınırın üzerindedir. D) 7 mm Al standart minimum eşik değildir (bazı patlar 7-8 mm Al'ye ulaşsa da alt sınır 3 mm Al'dir). E) 9 mm Al minimum standart değer değildir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Kök kanal dolum yöntemlerinden geleneksel termomekanik kompaksiyon tekniğiyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Apikal taşkınlık riski vardır.",
+      "B": "Kanal içi düzensizliklere adapte olma yeteneği iyi değildir.",
+      "C": "Eğimli kanallarda kullanımı kolaydır.",
+      "D": "Isı kontrolü sağlamak kolaydır.",
+      "E": "Alet kırığı riski yoktur."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Geleneksel termomekanik kompaksiyon (McSpadden kompaktörü / Gutta-Condensor) tekniğinde, H-tipi eğenin bıçaklarının ters çevrilmiş haline benzeyen özel bir döner alet mikromotora takılarak kanal içindeki gütaperka konunun yanında yüksek hızda (8.000-15.000 rpm) döndürülür; oluşan sürtünme ısısıyla plastikleşen gütaperka aletin helezonlarıyla apikale doğru güçlü şekilde itilir. Bu kontrolsüz ileri itme kuvveti ve akışkanlaşma nedeniyle en büyük dezavantajlarından biri \"apikal taşkınlık (periapikale materyal taşması) riskinin yüksek olması\"dır. Çeldiriciler: B) Bir termoplastik teknik olduğu için ısıyla yumuşayan gütaperkanın kanal içi düzensizliklere adapte olma yeteneği oldukça iyidir. C) Kullanılan kompaktör aletleri rijittir ve yüksek hızda döndüğü için \"eğimli (kurvatürlü) kanallarda\" kullanımı kolay değil, çok zordur (kanal duvarına takılıp kırılır veya basamak yapar, sadece düz kanallarda kullanılır). D) Isı doğrudan yüksek hızlı mekanik sürtünmeyle oluştuğu için ısı kontrolü sağlamak imkansızdır; aşırı ısı periodontal ligamente zarar verebilir. E) Yüksek hızda dönen ters bıçaklı kompaktörlerin kanal duvarına saplanarak \"alet kırığı\" oluşturma riski çok yüksektir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi termomekanik kompaksiyon tekniğinin apeksi açık dişlerde kullanılmasının önerilmemesinin en önemli nedenidir?",
+    "options": {
+      "A": "Apikal taşkınlık riski olması",
+      "B": "Kanal içi düzensizliklere adapte olma yeteneği olmaması",
+      "C": "Eğimli kanallarda kullanımının zor olması",
+      "D": "Isı kontrolü sağlamanın zor olması",
+      "E": "Alet kırığı riski olması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Termomekanik kompaksiyon tekniğinde dönen kompaktör aleti sürtünme ısısıyla erittiği gütaperkayı mekanik olarak apikal yönde iter. Apikal daralımı (stop noktası) bulunmayan \"apeksi açık (immatür) dişlerde\" bu ileri doğru itilen akışkan kütle doğrudan periapikal dokulara taşacağı için, bu dişlerde önerilmemesinin en önemli nedeni \"yüksek apikal taşkınlık riski olması\"dır. Çeldiriciler: B) Tekniğin kanal içi düzensizliklere adaptasyonu iyidir. C) Eğimli kanallarda kullanım zorluğu tüm dişler için geçerli bir dezavantajdır, açık apekse özgü ana kısıtlama değildir. D) Isı kontrolü zorluğu periodontal hasarla ilgilidir, açık apeksteki birincil engel taşkınlıktır. E) Alet kırığı riski dar ve eğri kanallarla ilişkilidir, geniş olan açık apeksli dişlerdeki ana kontrendikasyon nedeni apikal taşmadır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisinde gutta perka kanal dışında ısıtılarak kanala uygulanır?",
+    "options": {
+      "A": "Sıcak vertikal kompaksiyon",
+      "B": "Devamlı ısıyla kompaksiyon",
+      "C": "Termomekanik kompaksiyon",
+      "D": "Termoplastik enjeksiyon",
+      "E": "Termohidrolik kompaksiyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Isı ile yumuşatılmış gütaperka dolgu yöntemleri, gütaperkanın \"kanal içinde ısıtıldığı\" ve \"kanal dışında ısıtıldığı\" yöntemler olarak ikiye ayrılır. \"Termoplastik enjeksiyon\" sistemlerinde (Obtura, Ultrafil, Calamus/BeeFill back-fill tabancaları) ve ayrıca katı kor taşıyıcılı sistemlerde (Thermafil) gütaperka \"kanal dışında\" özel tabanca veya fırın ünitesinde ısıtılarak plastikleştirilir ve ardından kanül aracılığıyla kök kanalına uygulanır. Çeldiriciler: A) Sıcak vertikal kompaksiyon (Schilder) tekniğinde katı gütaperka konları kanala yerleştirildikten sonra ısıtılmış taşıyıcılarla \"kanal içinde\" ısıtılır. B) Devamlı ısıyla kompaksiyon (System B) tekniğinde gütaperka elektrikli plugger ile \"kanal içinde\" ısıtılır. C) Termomekanik kompaksiyon (McSpadden) tekniğinde gütaperka dönen kompaktörün sürtünmesiyle \"kanal içinde\" ısıtılır. E) Termohidrolik kompaksiyon tekniğinde gütaperka ve biyoseramik pat \"kanal içinde\" ısıtılarak hidrodinamik basınçla uygulanır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 13 - KÖK KANAL DOLUMU"
+  }
+]

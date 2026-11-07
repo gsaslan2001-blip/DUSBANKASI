@@ -1,0 +1,328 @@
+[
+  {
+    "question": "I. Sarsılma\nII. İntrüziV lüksasyon\nIII. Ekstrüziv lüksasyon\nIV. Sublüksasyon\nVerilen lüksasyon yaralanmalarının şiddeti en azdan en şiddetliye doğru nasıl sıralanır?",
+    "options": {
+      "A": "I-IV-II-III",
+      "B": "III-I-IV-II",
+      "C": "I-IV-III-II",
+      "D": "IV-I-II-III",
+      "E": "IV-I-III-II"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Travmatik lüksasyon yaralanmalarının şiddeti ve prognozu; dişte mobilite artışı olup olmamasına, dişin soket içinde yer değiştirip (deplase olup) olmamasına ve periodontal ligament ile apikal damar-sinir paketinin ezilme derecesine göre sıralanır. Öncüllerin Analizi: I. Sarsılma (Konküzyon): Dişte yer değiştirme ve mobilite artışı yoktur, sadece perküsyon hassasiyeti vardır; en hafif yaralanmadır (1. sırada - en az şiddetli). IV. Sublüksasyon: Dişte yer değiştirme yoktur ancak PDL liflerindeki ödem/kısmi yırtılma nedeniyle mobilite artışı, perküsyon hassasiyeti ve sulkustan kanama vardır (2. sırada). III. Ekstrüziv lüksasyon: Diş soketinden koronal yönde kısmen dışarı doğru yer değiştirmiştir (uzamıştır) ve aşırı mobildir (3. sırada). II. İntrüziv lüksasyon (İntrüzyon): Diş aksiyel yönde alveol kemiği içerisine doğru gömülmüştür; hem PDL lifleri hem alveol soket duvarı hem de apikal damar-sinir paketi tamamen ezildiği için pulpa nekrozu ve ankiloz (replasman rezorpsiyonu) riski en yüksek olan, lüksasyonlar içerisindeki \"en şiddetli\" yaralanmadır (4. sırada - en şiddetli). Dolayısıyla en azdan en şiddetliye sıralama \"I - IV - III - II\" şeklindedir. Çeldiriciler: A) İntrüzyon (II), ekstrüzyondan (III) çok daha şiddetlidir; son sırada II yer almalıdır. B) Sıralama tamamen yanlıştır. D) Sarsılma (I), sublüksasyondan (IV) daha hafiftir. E) İlk sırada IV değil I yer almalıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA",
+    "flag_reason": "2015 DUS Orijinal"
+  },
+  {
+    "question": "Aşağıdaki dental travmatik yaralanmalardan hangisinde replasman rezorpsiyonu gelişme riski diğerlerine göre daha yüksektir?",
+    "options": {
+      "A": "Ekstrüzyon",
+      "B": "İntrüzyon",
+      "C": "Avülsiyon",
+      "D": "Lateral lüksasyon",
+      "E": "Sadme"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Replasman rezorpsiyonu (ankiloz), kök yüzeyini koruyan periodontal ligament (PDL) hücrelerinin ve presement tabakasının nekroze olarak kaybedilmesi (kök yüzeyinin %20'sinden fazlasında PDL kaybı olması) sonucunda alveol kemiğinin doğrudan kök dentiniyle kaynaşmasıdır. Diğer tüm lüksasyon yaralanmalarında (intrüzyon dahil) diş kendi alveol soketi içinde ve nemli fizyolojik ortamında kalırken; \"avülsiyon\"da diş soketinden tamamen dışarı fırlar, tüm PDL lifleri kopar ve ağız dışında geçen kuru kalma süresine bağlı olarak PDL hücreleri hızla nekroze olur. Bu nedenle avülsiyonda PDL hasarı maksimum düzeyde olup replasman rezorpsiyonu (ankiloz) gelişme riski diğer tüm yaralanmalardan daha yüksektir (Lüksasyonlar kendi içinde kıyaslandığında ise en yüksek risk intrüzyondadır). Çeldiriciler: A) Ekstrüzyonda diş soket içindedir, PDL kurumaz ve ankiloz riski düşüktür. B) İntrüzyonda ezilmeye bağlı ankiloz riski çok yüksek olsa da diş ağız dışına çıkıp kurumadığı için avülsiyonun gerisindedir. D) Lateral lüksasyonda ankiloz riski avülsiyona göre düşüktür. E) Sadme (konküzyon/sarsılma) en hafif yaralanmadır ve replasman rezorpsiyonu beklenmez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Travmatik yaralanma sonucu başvuran 30 yaşındaki hastanın sol santral dişinin sağ santrale göre palatinale doğru yer değiştirdiği ve bir miktar uzadığı ve dişetinde de kanama olduğu görülmüştür. Alveol kemik kırığı bulunmamaktadır. Bu hastanın dişi için en uygun teşhis verilenlerden hangisidir?",
+    "options": {
+      "A": "Konküzyon",
+      "B": "Sublüksasyon",
+      "C": "Ekstrüziv lüksasyon",
+      "D": "Lateral lüksasyon",
+      "E": "İntrüzyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Dişin kendi uzun aksı dışındaki bir yönde yani \"labial, palatinal (lingual), mezial veya distal yönde yer değiştirmesi\" (vakada kuronun palatinale, kök ucunun ise bukkal kortikal kemiği kırarak labiale doğru deplase olması ve bu açılanma nedeniyle biraz da uzamış görünmesi) \"lateral lüksasyon\" yaralanması olarak tanımlanır (Tedavisinde diş parmak basıncı veya davye ile repoze edilir ve kırılan alveol soket duvarı nedeniyle 4 hafta semirijit splintlenir). Çeldiriciler: A) Konküzyonda dişte yer değiştirme, mobilite ve diş eti kanaması yoktur. B) Sublüksasyonda diş eti kanaması ve mobilite vardır ancak dişte \"yer değiştirme\" yoktur. C) Ekstrüziv lüksasyonda diş sadece aksiyel (koronal) yönde soketten dışarı doğru uzar, palatinale/labiale yatma göstermez. E) İntrüzyonda diş alveol kemiği içine gömülür, kuron boyu kısalır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Horizontal kök kırıklarında splintleme tipi ve süresi ile ilgili güncel tedavi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tip: Rijit splintleme – Süre: 2-4 gün",
+      "B": "Tip: Rijit splintleme – Süre: 2-4 hafta",
+      "C": "Tip: Rijit splintleme – Süre: 2-4 ay",
+      "D": "Tip: Semirijit splintleme – Süre: 2-4 hafta",
+      "E": "Tip: Semirijit splintleme – Süre: 2-4 ay"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Güncel endodonti ve Uluslararası Dental Travmatoloji Derneği (IADT) rehberlerine göre, dental travmaların hiçbirinde artık rijit (sert) splintleme önerilmemektedir; çünkü rijit splintleme fizyolojik diş hareketini engelleyerek ankiloz (replasman rezorpsiyonu) ve pulpa nekrozu riskini artırır. Horizontal (intraalveolar) kök kırıklarında (özellikle orta ve apikal üçlü kırıklarında) koronal parça repoze edildikten sonra önerilen güncel tedavi \"2-4 hafta süreyle semirijit (esnek/fleksibl) splintleme\" yapılmasıdır (Yalnızca kırık hattı servikal üçlüde kret yakınına yerleşmişse semirijit splint süresi 4 aya kadar uzatılabilir). Çeldiriciler: A) Rijit splintleme kontrendikedir ve 2-4 gün çok kısadır. B) Rijit splintleme ankiloz riskini artırdığı için kullanılmaz. C) 2-4 ay rijit splintleme geçmişte terk edilmiş eski geleneksel yaklaşımdır. E) Standart (apikal/orta üçlü) horizontal kök kırıklarında güncel süre 2-4 ay değil, 2-4 haftadır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA",
+    "flag_reason": "2012 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisinde 2-4 hafta semirijit splintleme önerilir?",
+    "options": {
+      "A": "Sublüksasyon",
+      "B": "Lateral lüksasyon",
+      "C": "Ekstrüziv lüksasyon",
+      "D": "Horizontal kök kırığı",
+      "E": "Avülsiyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Travmatik dental yaralanmalarda önerilen semirijit (esnek) splintleme sürelerine bakıldığında; \"2-4 hafta\" olarak aralık belirtilen spesifik tablo \"horizontal kök kırığı\"dır (IADT'ye göre orta/apikal üçlüde 4 hafta, güncel endodonti kaynaklarında 2-4 hafta). Çeldiriciler: A) Sublüksasyonda normalde splintleme gerekmez; hasta konforu için istenirse en fazla 2 hafta yapılır. B) Lateral lüksasyonda beraberinde alveol soket duvarı kırığı olduğu için splintleme süresi doğrudan 4 haftadır (alveol kemik kırıklarında 4-8 hafta). C) Ekstrüziv lüksasyonda önerilen splintleme süresi 2 haftadır. E) Avülsiyonda (replantasyon sonrası) ankilozu önlemek için önerilen splintleme süresi 1-2 haftadır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Akut travmayı takiben kliniğe başvuran 17 yaşındaki erkek hastadan alınan periapikal radyografide kökün orta bölgesinde horizontal kırık hattı izlenmektedir. Kökün orta bölgesinde kırık hattı izlenen dişin repoze edilmesinin ardından IADT'nin (International Association of Dental Traumatology) önerdiği splint tipi ve splintleme süresi aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Rijit – 4 hafta",
+      "B": "Rijit – 8 hafta",
+      "C": "Semirijit – 4 hafta",
+      "D": "Semirijit – 8 hafta",
+      "E": "Semirijit – 12 hafta"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Uluslararası Dental Travmatoloji Derneği (IADT) rehberine göre; kökün \"orta veya apikal üçlüsünde\" meydana gelen horizontal kök kırıklarında, deplase olan koronal segment repoze edildikten sonra fizyolojik iyileşmeyi desteklemek üzere \"semirijit (fleksibl/pasif)\" bir splint ile \"4 hafta\" süreyle splintleme yapılması önerilmektedir (Kırık hattı servikal üçlüde olsaydı semirijit splint süresi 4 aya kadar uzatılırdı). Çeldiriciler: A) Rijit splintleme IADT rehberlerinde ankiloz riski nedeniyle önerilmemektedir. B) Hem rijit splint tipi hem de 8 hafta süresi yanlıştır. D) Orta üçlü kök kırığında süre 8 hafta değil 4 haftadır. E) 12 hafta (veya 4 ay) sadece servikal üçlüdeki horizontal kök kırıklarında stabilizasyon için uygulanır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Aşağıda verilen travmatik yaralanmalardan hangisinde IADT (International Association of Dental Traumatology) rehberine göre semirijit olarak 4 hafta splintleme önerilir?",
+    "options": {
+      "A": "Ekstrüziv lüksasyon",
+      "B": "Orta üçlü horizontal kök kırığı",
+      "C": "Servikal üçlü horizontal kök kırığı",
+      "D": "Vertikal kök kırığı",
+      "E": "Avülsiyon"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): IADT travma rehberine göre \"orta üçlü (ve apikal üçlü) horizontal kök kırığı\"nda (ve ayrıca lateral lüksasyon, intrüzyon ve alveol kırığında) önerilen splintleme protokolü \"4 hafta süreyle semirijit (esnek) splintleme\"dir. Çeldiriciler: A) Ekstrüziv lüksasyonda önerilen semirijit splintleme süresi 2 haftadır. C) Servikal üçlü horizontal kök kırığında koronal parçanın mobilitesi çok fazla olduğu için IADT rehberine göre semirijit splintleme süresi 4 hafta değil, \"4 ay\"dır. D) Vertikal kök kırığında splintleme yapılmaz, tedavisi dişin/kökün çekimidir. E) Avülsiyonda önerilen semirijit splintleme süresi 1-2 haftadır (en fazla 2 hafta).",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi horizontal kök kırıklarında prognozu olumlu etkiler?",
+    "options": {
+      "A": "Kök ucunun açık olması",
+      "B": "Periodontal cep varlığı",
+      "C": "Koronal parça mobilitesinin fazla olması",
+      "D": "Rijit splintleme",
+      "E": "Kırık hattının koronale yakın olması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Horizontal kök kırıklarında iyileşme prognozunu belirleyen en önemli faktörler; hastanın yaşı/kök gelişim düzeyi, koronal parçanın deplasman ve mobilite derecesi, kırık hattının konumu ve periodontal sulkusla olan ilişkisidir. Dişin \"kök ucunun açık (immatür) olması\", zengin kan dolaşımı ve yüksek kök hücre/revaskülarizasyon kapasitesi sayesinde kırık hattının kalsifiye sert dokuyla (kallüsle) iyileşme ve pulpanın canlı kalma şansını ciddi oranda artırarak prognozu \"olumlu\" etkiler. Çeldiriciler: B) Periodontal cep varlığı, kırık hattının ağız florası ve bakterilerle kontamine olmasına yol açarak granülasyon dokusu oluşumuna (iyileşmemeye) ve diş kaybına neden olur. C) Koronal parça mobilitesinin ve dislokasyonunun fazla olması damar-sinir paketinin koptuğunu gösterir ve iyileşmeyi bozar. D) Rijit splintleme fizyolojik hareketi engelleyerek ankiloz ve nekroz riskini artırır. E) Kırık hattının koronale (servikale) yakın olması hem koronal parçanın aşırı hareketli olmasına hem de gingival sulkustan bakteriyel kontaminasyona yol açtığı için en kötü prognoza sahiptir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Erişkinlerde aşağıdakilerin hangisinde kökte iltihabi rezorpsiyon görülmesi en az olasıdır?",
+    "options": {
+      "A": "Avülsiyon",
+      "B": "Lateral lüksasyon",
+      "C": "Ekstrüzyon",
+      "D": "Sublüksasyon",
+      "E": "İntrüzyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kökte dış iltihabi (eksternal inflamatuvar) kök rezorpsiyonu gelişebilmesi için iki temel şartın bir araya gelmesi gerekir: 1) Travma nedeniyle periodontal ligament (PDL) ve presement tabakasının hasar görmesi, 2) Apikal damar-sinir paketinin kopması sonucu pulpanın nekroze olup enfekte olması. Erişkinlerde yer değiştirmenin (deplasmanın) olduğu tüm şiddetli yaralanmalarda (avülsiyon, intrüzyon, lateral lüksasyon ve ekstrüzyon) hem ağır PDL hasarı hem de yüksek oranda pulpa nekrozu geliştiği için iltihabi rezorpsiyon riski yüksektir. Ancak dişin soket içinde hiç yer değiştirmediği \"sublüksasyon\" (ve konküzyon) yaralanmasında apikal damar paketi kopmaz ve PDL hasarı çok hafif olduğu için iltihabi rezorpsiyon görülmesi \"en az olasıdır\". Çeldiriciler: A) Avülsiyonda hem PDL tamamen hasarlanır hem de erişkinde pulpa %100 nekroze olur; iltihabi ve replasman rezorpsiyonu riski çok yüksektir. B) Lateral lüksasyonda kök ucu kemiği kırarak yer değiştirir, erişkinde pulpa nekrozu ve rezorpsiyon riski yüksektir. C) Ekstrüzyonda apikal paket gerilip koptuğu ve PDL yırtıldığı için rezorpsiyon riski sublüksasyondan yüksektir. E) İntrüzyonda diş kemiğe gömülerek PDL ve pulpa ezildiği için rezorpsiyon riski en üst düzeydedir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin prognozunun diğerlerinden daha kötü olması beklenir?",
+    "options": {
+      "A": "Konküzyon",
+      "B": "Sublüksasyon",
+      "C": "Ekstrüzyon",
+      "D": "Lateral lüksasyon",
+      "E": "İntrüzyon"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lüksasyon yaralanmaları arasında prognozu en kötü olan yaralanma \"intrüzyon (intrüziv lüksasyon)\"dur. Çünkü intrüzyonda diş aksiyel kuvvetle alveol kemiği içerisine doğru çakılır; bu sırada apikal damar-sinir paketi tamamen kopar (erişkinde %100 pulpa nekrozu gelişir), alveol soket kemiği parçalanır ve kök yüzeyindeki periodontal ligament hücreleri ile sement tabakası kemikle kök arasında ezilerek yok olur. Bunun sonucunda çok yüksek oranda eksternal inflamatuvar rezorpsiyon, replasman rezorpsiyonu (ankiloz) ve marjinal kemik kaybı gelişir. Çeldiriciler: A) Konküzyon en hafif yaralanma olup prognozu mükemmeldir. B) Sublüksasyonda yer değiştirme yoktur, prognozu çok iyidir. C) Ekstrüzyonda PDL lifleri ezilmez sadece gerilir/yırtılır, intrüzyona göre prognozu çok daha iyidir. D) Lateral lüksasyonda sadece kök ucunun ve kuronun dayandığı bölgelerde lokalize ezilme vardır, tüm kök yüzeyinin ezildiği intrüzyona göre prognozu daha iyidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "I. Konküzyon\nII. Lateral lüksasyon\nIII. İntrüzyon\nYukarıda verilen travmatik yaralanmalardan hangilerinin kapalı apeksli dişlerde meydana gelmesi durumunda kök kanal tedavisi endike olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kapalı apeksli (kök gelişimi tamamlanmış) erişkin dişlerde apikal foramen çok dar olduğu için, dişin soket içinde \"yer değiştirmesine (deplasmanına)\" neden olan travmalarda (lateral lüksasyon, ekstrüzyon, intrüzyon ve avülsiyon) apikal damar-sinir paketi kopar ve yeniden damarlanma (revaskülarizasyon) şansı olmadığı için pulpa nekrozu kaçınılmazdır; bu nedenle inflamatuvar kök rezorpsiyonunu önlemek amacıyla kısa sürede kök kanal tedavisi uygulanması gerekir. Öncüllerin Analizi: I. Konküzyon (sarsılma) yaralanmasında dişte hiçbir yer değiştirme ve mobilite yoktur; apikal damar paketi kopmadığı için pulpa genellikle canlı kalır (%95+), rutin kök kanal tedavisi endike değildir, sadece takip edilir (Yanlış). II. Lateral lüksasyonda diş yer değiştirdiği ve kök ucu kemik içinde deplase olduğu için apikal paket kopar; kapalı apeksli dişte kök kanal tedavisi endike olur (Doğru). III. İntrüzyonda diş kemiğe gömülerek apikal paket tamamen ezildiği için kapalı apeksli dişlerde %100 pulpa nekrozu gelişir ve hızla (2 hafta içinde) kök kanal tedavisi yapılması kesinlikle endikedir (Doğru). Çeldiriciler: A) Konküzyonda kanal tedavisi yapılmaz, takip edilir. B) III. öncülde kanal tedavisi kesinlikle zorunludur. C) I. öncül yanlıştır. E) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "I. Tükrük\nII. Serum\nIII. Su\nIV. Süt\nAvülsiyon sonrası dişin reimplante edilene kadar saklanmasında yukarıda verilen solüsyonların en çoktan en aza doğru tercih edilme sırası hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "I-II-III-IV",
+      "B": "II-IV-III-I",
+      "C": "IV-I-II-III",
+      "D": "IV-I-II-III (Süt - Tükrük - Serum - Su) / IV-II-I-III",
+      "E": "III-II-I-IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Avülse olmuş bir diş olay yerinde hemen reimplante edilemiyorsa, kök yüzeyindeki periodontal ligament (PDL) hücrelerinin kuruyup nekroze olmasını ve osmotik lizise uğramasını önlemek için uygun osmolalite ve pH'ya sahip bir taşıma ortamında saklanmalıdır (En ideal özel solüsyonlar Viaspan ve Hank'in Dengeli Tuz Solüsyonu - HBSS'dir). Verilen günlük/klinik sıvılar arasında PDL hücrelerini canlı tutma kapasitesine göre sıralama şu şekildedir: Öncüllerin Analizi: IV. Süt: Fizyolojik osmolalitesi, nötr pH'sı, besin/büyüme faktörü içeriği ve bakteri barındırmaması sayesinde PDL hücrelerinin %50'sini \"12 saat\" boyunca canlı tutabilir; ulaşılabilir olanlar içinde ilk sırada tercih edilir (1. sırada). I. Tükrük: Hastanın dil altı veya bukkal vestibülünde taşındığında PDL hücrelerini \"2-3 saat\" canlı tutabilir ancak düşük osmolalitesi (hipotonik yapısı) ve yoğun bakteri/enzim içeriği nedeniyle sütten sonra gelir (2. sırada). II. Serum (Serum fizyolojik): İzotonik ve steril olmasına rağmen hücreler için gerekli glikoz/metabolitleri içermediğinden kısa süreli koruma sağlar ve 3. sırada yer alır (3. sırada). III. Su (Musluk suyu): Aşırı hipotonik olduğu için PDL hücrelerinin içine hızla su girerek hücrelerin kısa sürede şişip patlamasına (lizise) ve ankiloz gelişimine yol açar; en son sırada (mecbur kalınmadıkça asla kullanılmaması gereken) yer alır (4. sırada). Dolayısıyla sıralama \"IV - I - II - III\" (Süt, tükrük, serum ve su) şeklindedir. Çeldiriciler: A) İlk sırada süt (IV) olmalıdır. B) İlk sırada süt (IV) olmalıdır. D) İki şıkta dizgi tekrarı olsa da standart anahtar C'dir. E) Su (III) en kötü ortamdır, ilk sırada olamaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA",
+    "flag_reason": "2014 DUS İlkbahar Orijinal"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi periodontal hücreleri en uzun süre canlı tutma becerisine sahiptir?",
+    "options": {
+      "A": "Tükrük",
+      "B": "Serum",
+      "C": "Su",
+      "D": "Süt",
+      "E": "Hank'ın dengelenmiş tuz solüsyonu"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Avülse dişlerin saklanmasında kullanılan taşıma ortamları içerisinde, hücre kültürü ortamı olarak geliştirilmiş olan \"Hank'ın dengelenmiş tuz solüsyonu (HBSS / Save-A-Tooth)\" (ve organ nakil solüsyonu olan Viaspan), fizyolojik pH (7.2) ve osmolalitesi (270-290 mOsm/kg) ile glikoz, kalsiyum, magnezyum ve fosfat içerikleri sayesinde periodontal ligament hücrelerini \"24 saatten uzun süre (24-48 saat)\" canlı ve mitotik olarak aktif tutma becerisine sahip en ideal solüsyondur. Çeldiriciler: A) Tükrük hipotonik ve kontamine olduğu için PDL hücrelerini ancak 2-3 saat canlı tutabilir. B) Serum fizyolojik hücre besini içermediği için sadece 2-3 saat canlı tutabilir. C) Su hipotonik olduğu için hücreleri dakikalar içinde lizise uğratarak öldürür. D) Süt ev/okul ortamında ulaşılabilen en iyi pratik sıvıdır ve hücreleri 6-12 saat canlı tutabilir, ancak özel kültür solüsyonu olan HBSS'nin gerisindedir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "2 saat önce avülse olan 30 yaşındaki hastanın sol santral dişi travma anında hasta yakını tarafından yerine konmuştur. Hastanın dişi yerinden çıkarılarak kök yüzeyi temizlenmiştir. Soket kürete edilmiş ve kanatılarak diş tekrar doğru aksında yerleştirilmiştir. Hastanın dişi şekil hafızalı nikel titanyum tel ile komşu dişlere splintlenerek 3-4 hafta sonra splint çıkarılarak kanal tedavisi yapılmıştır. Bu hastaya yapılan işlemlerden hangisi doğrudur?",
+    "options": {
+      "A": "Dişin soketten çıkarılması",
+      "B": "Soketin kürete edilmesi",
+      "C": "Kanal tedavisi yapılması",
+      "D": "Şekil hafızalı nikel titanyum ile splintleme",
+      "E": "3-4 hafta splintleme"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): 30 yaşındaki erişkin hastanın avülse olan dişinin kök ucu kapalıdır (matürdür). Kapalı apeksli avülse bir diş olay yerinde hemen yerine konulmuş olsa bile apikal damar-sinir paketi tamamen koptuğu için revaskülarizasyon (yeniden damarlanma) şansı yoktur ve pulpa %100 nekroze olur. Bu nedenle inflamatuvar kök rezorpsiyonunu önlemek amacıyla bu dişe \"kanal tedavisi yapılması\" (normalde replantasyondan 7-10 gün sonra splint çıkmadan başlanması gerekir) vakada uygulanan doğru işlemdir. Çeldiriciler: A) Avülsiyonda en iyi prognoz dişin olay yerinde hemen yerine konulmasıyla sağlanır; doğru pozisyonda yerine konulmuş bir dişin klinikte tekrar soketten çıkarılması yeni PDL travması yarattığı için yanlıştır. B) Soket duvarlarında kalan canlı PDL lifleri iyileşme için çok kıymetlidir; soketin kürete edilmesi bu canlı hücreleri yok ettiği ve ankilozu artırdığı için kesinlikle yanlıştır (pıhtı varsa sadece serum fizyolojikle yıkanır). D) Şekil hafızalı nikel-titanyum ortodontik teller diş üzerinde aktif ortodontik kuvvet uygular veya rijit davranarak kök rezorpsiyonunu ve ankilozu artırır; splint pasif ve esnek (0.4 mm paslanmaz çelik tel veya misina) olmalıdır. E) Avülsiyonda splintleme süresi 3-4 hafta değil, ankilozu önlemek için \"1-2 hafta\" olmalıdır; ayrıca kanal tedavisi splint çıkarıldıktan sonra (3-4. haftada) değil, 7-10. günde splint ağızdayken başlatılmalıdır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "I. Avülse olmuş dişin en kısa zaman içinde yerine reimplante edilmesi dişin prognozunu olumlu etkiler.\nII. Avülse olmuş ve kök ucu gelişimi tamamlanmış bir dişte, kanal tedavisine başlamak için en uygun zaman dişin reimplante edilmesinden bir ay sonradır.\nIII. Avülse olan bir diş reimplante edildikten sonra stabilitesinin sağlanması için rijid splintler tercih edilir.\nAvülsiyonla sonuçlanan travmatik yaralanmalar ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Avülsiyon yaralanmalarında tedavinin başarısını ve dişin ağızda kalma süresini belirleyen en kritik faktör, kök yüzeyindeki periodontal ligament (PDL) hücrelerinin canlılığının korunmasıdır. Öncüllerin Analizi: I. Avülse olmuş dişin ağız dışında kuru kalma süresi ne kadar kısa olursa PDL hücreleri o kadar canlı kalır; dişin en kısa zaman içinde (ideal olarak ilk 15-20 dakikada olay yerinde) reimplante edilmesi ankiloz ve rezorpsiyonu önleyerek prognozu doğrudan olumlu etkiler (Doğru). II. Kök ucu gelişimi tamamlanmış (kapalı apeksli) avülse bir dişte pulpa nekrozu kaçınılmazdır; kanal tedavisine başlamak için 1 ay beklenmesi çok hızlı gelişen eksternal inflamatuvar kök rezorpsiyonunun başlamasına yol açar. Kanal tedavisine replantasyondan \"7-10 gün sonra (1 hafta içinde, henüz splint çıkarılmadan)\" başlanmalıdır (Yanlış). III. Reimplantasyon sonrasında rijid (sert) splintler dişin fizyolojik mikro-hareketlerini engelleyerek replasman rezorpsiyonuna (ankiloza) yol açtığı için kesinlikle tercih edilmez; 1-2 hafta süreyle \"semirijid (fleksibl/esnek)\" splintler tercih edilir (Yanlış). Çeldiriciler: B) II. öncül yanlıştır, 7-10. günde başlanmalıdır. C) III. öncül yanlıştır, semirijit splint kullanılır. D) II. öncül yanlıştır. E) III. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi avülse dişin prognozunda önemsizdir?",
+    "options": {
+      "A": "Kazadan sonra geçen süre",
+      "B": "Dişin saklanma süresi",
+      "C": "Kök gelişim evresi",
+      "D": "Splintleme",
+      "E": "Dişin tipi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Avülsiyon yaralanmalarında periodontal ligament iyileşmesi ve pulpal revaskülarizasyon mekanizmaları tüm dişlerde aynı biyolojik kurallarla işlediği için avülse olan \"dişin tipi\" (santral, lateral, kanin veya premolar olması) prognoz açısından \"önemsizdir\". Çeldiriciler: A) Kazadan sonra replantasyona kadar geçen süre (özellikle kuru kalma süresi) PDL canlılığını belirleyen en önemli faktördür. B) Dişin hangi saklama ortamında ve ne kadar süre saklandığı prognozu doğrudan belirler. C) Dişin kök gelişim evresi (apeksin açık/immatür ya da kapalı/matür olması), dişin yeniden damarlanma (revaskülarizasyon) şansını belirlediği için çok önemlidir. D) Splintlemenin esnek (semirijit) yapılması ve süresinin 1-2 haftayı aşmaması ankilozu önlemek açısından çok önemlidir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Avülse dişin önerilen splint süresi verilenlerden hangisidir?",
+    "options": {
+      "A": "1-2 hafta",
+      "B": "2-4 hafta",
+      "C": "3-5 hafta",
+      "D": "2-4 ay",
+      "E": "4-6 ay"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Avülse olmuş ve tekrar soketine yerleştirilmiş (reimplante edilmiş) bir dişte, periodontal ligament liflerinin ilk organizasyonu için gereken süre ve ankiloz (replasman rezorpsiyonu) riskini en aza indiren güncel IADT önerisi, semirijit (fleksibl) bir materyal ile \"1-2 hafta (7-14 gün)\" splintleme yapılmasıdır (Beraberinde alveol kemik kırığı varsa bu süre 4-8 haftaya çıkarılır). Çeldiriciler: B) 2-4 hafta horizontal kök kırıklarında önerilen süredir. C) 3-5 hafta avülsiyon için gereksiz uzatılmış bir süredir ve ankiloz riskini artırır. D) 2-4 ay (4 ay) yalnızca servikal üçlü horizontal kök kırıklarında uygulanır. E) 4-6 ay ankilozla sonuçlanacak aşırı uzun bir süredir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Travmatik yaralanmayı takiben dişlerin uzun dönemde oklüzal seviyenin altında kalması (infraoklüzyon) durumunda aşağıdaki hasta gruplarının hangisi için dekoronasyon uygun bir tedavi yaklaşımıdır?",
+    "options": {
+      "A": "Sarsıntı (konküzyon) tablosu görülen erişkin hastalar",
+      "B": "Avülsiyon sonrası ankiloz tablosu görülen büyüme-gelişim çağındaki hastalar",
+      "C": "Sublüksasyon tablosu görülen büyüme-gelişim çağındaki hastalar",
+      "D": "Avülsiyon sonrası ankiloz tablosu görülen erişkin hastalar",
+      "E": "Sarsıntı (konküzyon) tablosu görülen büyüme-gelişim çağındaki hastalar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): \"Dekoronasyon\" (dişin kuronunun kemik kreti seviyesinin 2 mm altından kesilip çıkarılması ve kanal dolgusu boşaltılarak kökün kan pıhtısıyla kemik içinde bırakılması işlemi); ağır travma (\"avülsiyon\" veya intrüzyon) sonrasında \"ankiloz (replasman rezorpsiyonu)\" gelişen \"büyüme-gelişim çağındaki (adölesan/çocuk) hastalarda\" uygulanır. Çünkü büyüme çağındaki hastada komşu sağlıklı dişler ve alveol kemiği dikey olarak büyümeye devam ederken, kemikle kaynaşmış (ankiloze) olan diş olduğu yerde kalır, \"infraoklüzyona\" gömülür ve alveol kretinin gelişimini durdurarak ciddi estetik/kemik defekti yaratır. Dekoronasyon ile kök zamanla rezorbe olup yerini kemiğe bırakırken alveol kretinin dikey ve yatay hacmi korunmuş olur. Çeldiriciler: A) Sarsıntı (konküzyon) ankiloz ve infraoklüzyon yapmaz, ayrıca erişkinde büyüme bitmiştir. C) Sublüksasyon hafif bir yaralanma olup ankiloz ve infraoklüzyon oluşturmaz. D) Erişkin hastalarda çene ve yüz büyümesi tamamlandığı için diş ankiloze olsa bile komşu dişlere göre infraoklüzyonda kalmaz ve alveol kreti deformasyonu gelişmez; dekoronasyon gerekmez. E) Konküzyon yaralanmasında ankiloz beklenmez.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA",
+    "flag_reason": "2023 DUS Sonbahar Orijinal"
+  },
+  {
+    "question": "Travmatik yaralanmayı takiben dişlerin uzun dönemde oklüzal seviyenin altında kalması (infraoklüzyon) durumunda aşağıdaki hasta grubu ve yaş aralıklarından hangisi için dekoronasyon uygun bir tedavi yaklaşımıdır?",
+    "options": {
+      "A": "Durum: Sarsıntı (Konküzyon) – Yaş: Erişkin",
+      "B": "Durum: Avülsiyon – Yaş: Ergenlik",
+      "C": "Durum: Sublüksasyon – Yaş: Gelişim çağı",
+      "D": "Durum: Avülsiyon – Yaş: Erişkin",
+      "E": "Durum: Sarsıntı (konküzyon) – Yaş: Gelişim çağı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dekoronasyon endikasyonu için iki temel koşul; dişte ankiloz (replasman rezorpsiyonu) yaratan ağır bir travma olan \"Avülsiyon (veya intrüzyon)\" bulunması ve hastanın aktif çene/alveol büyümesinin devam ettiği \"Ergenlik (adölesan / büyüme-gelişim çağı)\" döneminde olmasıdır. Çeldiriciler: A) Sarsıntıda ankiloz olmaz ve erişkinde infraoklüzyon gelişmez. C) Sublüksasyonda PDL hasarı minimal olduğu için ankiloz ve infraoklüzyon gelişmez. D) Erişkinlerde kraniyofasiyal büyüme durduğu için avülsiyon sonrası ankiloz gelişse dahi belirgin infraoklüzyon oluşmaz. E) Sarsıntı (konküzyon) ankiloz oluşturmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Aşağıda verilen rezorpsiyonlardan hangisinde gelişim çağındaki çocuklarda infraokluzyon görülmesi beklenir?",
+    "options": {
+      "A": "İnternal inflamatuvar kök rezorpsiyonu",
+      "B": "Eksternal inflamatuvar kök rezorpsiyonu",
+      "C": "Eksternal yer değiştirme rezorpsiyonu",
+      "D": "Servikal kök rezorpsiyonu",
+      "E": "İnternal metaplastik kök rezorpsiyonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): \"Eksternal yer değiştirme (replasman) rezorpsiyonu\", diğer adıyla \"ankiloz\", periodontal ligamentin yok olması sonucu kök dentininin doğrudan alveol kemiği ile kaynaşması ve osteoklastlarca yıkılan kökün yerini kemik dokusunun almasıdır. Gelişim çağındaki çocuklarda ankiloze olan diş alveol kemiğine kilitlendiği için dikey sürmesini sürdüremez ve büyümeye devam eden komşu dişlerin gerisinde (aşağısında) kalarak \"infraoklüzyon\" tablosu oluşturur. Çeldiriciler: A) İnternal inflamatuvar rezorpsiyon kök kanalı içinde gerçekleşir, PDL sağlamdır ve infraoklüzyon yapmaz. B) Eksternal inflamatuvar rezorpsiyonda kök çevresinde kemik ve dentin yıkımı (radyolusensi ve mobilite) vardır, kemikle kaynaşma (ankiloz) olmadığı için infraoklüzyon görülmez. D) Servikal kök rezorpsiyonu kole bölgesinde gerçekleşen yıkımdır, infraoklüzyon oluşturmaz. E) İnternal metaplastik rezorpsiyon kök kanalı içindeki sert doku değişimidir, alveol kemiğiyle kaynaşma ve infraoklüzyon yapmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Aşağıdaki dentoalveolar yaralanmaların hangisinde labial ya da palatinal yönde dişte yer değiştirme vardır?",
+    "options": {
+      "A": "Lateral lüksasyon",
+      "B": "Sublüksasyon",
+      "C": "Ekstrusiv lüksasyon",
+      "D": "İntrüziv lüksasyon",
+      "E": "Konküzyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Dişin kendi uzun (aksiyel) ekseni dışındaki bir doğrultuda yani \"labial, palatinal (lingual), mezial veya distal yönde yer değiştirmesi\" (genellikle kuronun palatinale, kök ucunun ise bukkal alveol duvarını kırarak labiale doğru kilitlenmesi) ile karakterize yaralanma \"lateral lüksasyon\"dur. Çeldiriciler: B) Sublüksasyonda dişte mobilite artışı vardır ancak hiçbir yönde yer değiştirme yoktur. C) Ekstrüziv lüksasyonda diş aksiyel (koronal) yönde soketten dışarı doğru uzar. D) İntrüziv lüksasyonda diş aksiyel (apikal) yönde alveol kemiği içine doğru gömülür. E) Konküzyonda dişte ne mobilite artışı ne de yer değiştirme vardır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi travma sonrası lateral lüksasyonu en doğru şekilde tanımlar?",
+    "options": {
+      "A": "Yer değiştirmenin ve mobilitenin olmadığı periodontal yaralanma",
+      "B": "Yer değiştirmenin olmadığı, mobilitenin arttığı durum",
+      "C": "Koronale doğru yer değiştirme",
+      "D": "Labial ya da palatinal yönde yer değiştirme",
+      "E": "Alveol kemiğin içine doğru gömülme"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Travma sonrası dişin aksiyel yön dışında \"labial, palatinal (lingual) veya mezial/distal yönde yer değiştirmesi\" \"lateral lüksasyon\"u en doğru şekilde tanımlar. Çeldiriciler: A) Yer değiştirme ve mobilitenin olmadığı, sadece perküsyon hassasiyeti olan yaralanma \"konküzyon (sarsılma)\"dur. B) Yer değiştirmenin olmadığı ancak mobilitenin arttığı ve diş eti oluğundan kanama gelen durum \"sublüksasyon\"dur. C) Dişin soketten koronale doğru yer değiştirmesi (uzaması) \"ekstrüziv lüksasyon\"dur. E) Dişin alveol kemiğinin içine doğru gömülmesi \"intrüziv lüksasyon\"dur.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  },
+  {
+    "question": "Bisikletten düşme sonucu kliniğe getirilen 14 yaşındaki hastanın maksiller santral dişinin soketten bir miktar uzayıp linguale doğru yer değiştirdiği görülmüştür. Klinik ve radyolojik incelemede kuron ve kökün sağlam olduğu tespit edilmiştir. Bu diş için en uygun teşhis ve tedavi verilenlerden hangisidir?",
+    "options": {
+      "A": "Lateral lüksasyon – Kanal tedavisi",
+      "B": "Sublüksasyon – Parsiyel pulpotomi",
+      "C": "Konküzyon – Takip",
+      "D": "İntrüziv lüksasyon – Repozisyon ve takip",
+      "E": "Avülsiyon – Ekstraksiyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Maksiller santral dişin bir miktar uzayıp \"linguale (palatinale) doğru yer değiştirmesi\" doğrudan \"lateral lüksasyon\" tanısını koydurur. Hasta \"14 yaşında\" olduğu için üst santral dişin kök ucu gelişimi çoktan tamamlanmıştır (9-10 yaşında kapanır). Kapalı apeksli bir dişte lateral lüksasyon meydana geldiğinde apikal damar-sinir paketi koptuğu için pulpa nekrozu gelişir; bu nedenle diş repoze edilip 4 hafta semirijit splintlendiği gibi inflamatuvar rezorpsiyonu önlemek için \"kanal tedavisi\" yapılması en uygun yaklaşımdır. Çeldiriciler: B) Dişte yer değiştirme olduğu için sublüksasyon değildir ve kuron sağlam (ekspoz yok) olduğu için parsiyel pulpotomi yapılmaz. C) Diş yer değiştirdiği için konküzyon değildir. D) Diş kemiğe gömülmediği (aksine uzayıp linguale yattığı) için intrüziv lüksasyon değildir. E) Diş soketten tamamen çıkmadığı için avülsiyon değildir ve çekim yapılmaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 19 - TRAVMA"
+  }
+]

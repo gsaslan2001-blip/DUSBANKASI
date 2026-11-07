@@ -629,6 +629,14 @@ function shuffleArray<T>(arr: T[]): T[] {
 // DUS SİMÜLASYON GEÇMİŞİ & KÜMÜLATİF İSTATİSTİK MOTORU
 // ══════════════════════════════════════════════════════════════════════════════
 
+export interface SimulationPreviousDelta {
+  net: number;
+  temelNet: number;
+  klinikNet: number;
+  usedMinutes: number;
+  accuracy: number;
+}
+
 export interface PastSimulationRecord {
   id: string;
   title: string;
@@ -644,6 +652,7 @@ export interface PastSimulationRecord {
   klinikNet: number;
   details: AnswerDetail[];
   branchStats: BranchStat[];
+  deltaFromPrevious?: SimulationPreviousDelta | null;
 }
 
 export const SIM_HISTORY_KEY = 'dus_simulation_history';
@@ -797,6 +806,8 @@ export interface AggregateBranchSummary {
   totalIncorrect: number;
   totalBlank: number;
   avgNet: number;
+  latestNet: number;
+  diffFromAvg: number;
   accuracy: number;
   status: 'strong' | 'moderate' | 'weak';
 }
@@ -809,6 +820,61 @@ export interface SimulationTrendPoint {
   temelNet: number;
   klinikNet: number;
   accuracy: number;
+  deltaNetFromPrev: number | null;
+}
+
+export interface BranchComparisonItem {
+  branch: string;
+  category: 'temel' | 'klinik';
+  examANet: number;
+  examBNet: number;
+  deltaNet: number;
+  examAAccuracy: number;
+  examBAccuracy: number;
+  deltaAccuracy: number;
+  examACorrect: number;
+  examBCorrect: number;
+  examAIncorrect: number;
+  examBIncorrect: number;
+  status: 'improved' | 'declined' | 'unchanged';
+}
+
+export interface SimulationComparisonResult {
+  examA: PastSimulationRecord;
+  examB: PastSimulationRecord;
+  delta: {
+    net: number;
+    temelNet: number;
+    klinikNet: number;
+    accuracy: number;
+    correct: number;
+    incorrect: number;
+    blank: number;
+    usedMinutes: number;
+  };
+  branchComparisons: BranchComparisonItem[];
+  improvedBranchesCount: number;
+  declinedBranchesCount: number;
+  unchangedBranchesCount: number;
+}
+
+export interface AdccTop10Gap {
+  targetNet: number;
+  currentNet: number;
+  netGap: number;
+  temelTarget: number;
+  currentTemelNet: number;
+  temelGap: number;
+  klinikTarget: number;
+  currentKlinikNet: number;
+  klinikGap: number;
+  highYieldOpportunities: Array<{
+    branch: string;
+    category: 'temel' | 'klinik';
+    currentAccuracy: number;
+    currentNet: number;
+    potentialGain: number;
+  }>;
 }
 
 export interface SimulationAggregateStats {
@@ -823,11 +889,133 @@ export interface SimulationAggregateStats {
   branchSummary: AggregateBranchSummary[];
   strongestBranches: AggregateBranchSummary[];
   weakestBranches: AggregateBranchSummary[];
+  historyWithDeltas: PastSimulationRecord[];
+  adccTop10Gap: AdccTop10Gap;
+}
+
+/**
+ * Seçilen herhangi iki denemeyi (örn: Deneme A vs Deneme B) 14 branş bazında kıyaslar.
+ */
+export function compareTwoSimulations(
+  examA: PastSimulationRecord,
+  examB: PastSimulationRecord
+): SimulationComparisonResult {
+  const deltaNet = Math.round((examB.net - examA.net) * 100) / 100;
+  const deltaTemelNet = Math.round((examB.temelNet - examA.temelNet) * 100) / 100;
+  const deltaKlinikNet = Math.round((examB.klinikNet - examA.klinikNet) * 100) / 100;
+
+  const accA = (examA.correct + examA.incorrect) > 0 ? Math.round((examA.correct / (examA.correct + examA.incorrect)) * 100) : 0;
+  const accB = (examB.correct + examB.incorrect) > 0 ? Math.round((examB.correct / (examB.correct + examB.incorrect)) * 100) : 0;
+  const deltaAccuracy = accB - accA;
+
+  const usedMinsA = Math.round(examA.usedSeconds / 60);
+  const usedMinsB = Math.round(examB.usedSeconds / 60);
+
+  const delta = {
+    net: deltaNet,
+    temelNet: deltaTemelNet,
+    klinikNet: deltaKlinikNet,
+    accuracy: deltaAccuracy,
+    correct: examB.correct - examA.correct,
+    incorrect: examB.incorrect - examA.incorrect,
+    blank: examB.blank - examA.blank,
+    usedMinutes: usedMinsB - usedMinsA,
+  };
+
+  const branchMapA = new Map(examA.branchStats.map(b => [b.branch, b]));
+  const branchMapB = new Map(examB.branchStats.map(b => [b.branch, b]));
+
+  const branchOrder: string[] = [
+    'Anatomi',
+    'Fizyoloji - Histoloji',
+    'Biyokimya',
+    'Mikrobiyoloji',
+    'Patoloji',
+    'Farmakoloji',
+    'Restoratif',
+    'Protez',
+    'Cerrahi',
+    'Radyoloji',
+    'Periodontoloji',
+    'Ortodonti',
+    'Endodonti',
+    'Pedodonti',
+  ];
+
+  let improved = 0;
+  let declined = 0;
+  let unchanged = 0;
+
+  const branchComparisons: BranchComparisonItem[] = branchOrder.map(branch => {
+    const isTemel = ['Anatomi', 'Fizyoloji - Histoloji', 'Biyokimya', 'Mikrobiyoloji', 'Patoloji', 'Farmakoloji'].includes(branch);
+    const category: 'temel' | 'klinik' = isTemel ? 'temel' : 'klinik';
+
+    const bA = branchMapA.get(branch);
+    const bB = branchMapB.get(branch);
+
+    const examANet = bA ? bA.net : 0;
+    const examBNet = bB ? bB.net : 0;
+    const diffNet = Math.round((examBNet - examANet) * 100) / 100;
+
+    const examAAccuracy = bA ? bA.accuracy : 0;
+    const examBAccuracy = bB ? bB.accuracy : 0;
+    const diffAcc = examBAccuracy - examAAccuracy;
+
+    let status: 'improved' | 'declined' | 'unchanged' = 'unchanged';
+    if (diffNet > 0.01) {
+      status = 'improved';
+      improved++;
+    } else if (diffNet < -0.01) {
+      status = 'declined';
+      declined++;
+    } else {
+      unchanged++;
+    }
+
+    return {
+      branch,
+      category,
+      examANet,
+      examBNet,
+      deltaNet: diffNet,
+      examAAccuracy,
+      examBAccuracy,
+      deltaAccuracy: diffAcc,
+      examACorrect: bA ? bA.correct : 0,
+      examBCorrect: bB ? bB.correct : 0,
+      examAIncorrect: bA ? bA.incorrect : 0,
+      examBIncorrect: bB ? bB.incorrect : 0,
+      status,
+    };
+  });
+
+  return {
+    examA,
+    examB,
+    delta,
+    branchComparisons,
+    improvedBranchesCount: improved,
+    declinedBranchesCount: declined,
+    unchangedBranchesCount: unchanged,
+  };
 }
 
 export function computeAggregateSimulationStats(
   history: PastSimulationRecord[]
 ): SimulationAggregateStats {
+  const emptyAdccGap: AdccTop10Gap = {
+    targetNet: 95,
+    currentNet: 0,
+    netGap: 95,
+    temelTarget: 34,
+    currentTemelNet: 0,
+    temelGap: 34,
+    klinikTarget: 61,
+    currentKlinikNet: 0,
+    klinikGap: 61,
+    highYieldOpportunities: [],
+  };
+
   if (!history || history.length === 0) {
     return {
       totalSimulations: 0,
@@ -841,6 +1029,8 @@ export function computeAggregateSimulationStats(
       branchSummary: [],
       strongestBranches: [],
       weakestBranches: [],
+      historyWithDeltas: [],
+      adccTop10Gap: emptyAdccGap,
     };
   }
 
@@ -851,23 +1041,71 @@ export function computeAggregateSimulationStats(
   const usedSecondsSum = history.reduce((acc, r) => acc + r.usedSeconds, 0);
 
   const bestNet = Math.max(...history.map(r => r.net));
-  const latestNet = history[0]?.net ?? 0;
+  const latestExam = history[0];
+  const latestNet = latestExam?.net ?? 0;
   const avgNet = Math.round((totalNetSum / n) * 100) / 100;
   const avgTemelNet = Math.round((temelNetSum / n) * 100) / 100;
   const avgKlinikNet = Math.round((klinikNetSum / n) * 100) / 100;
   const avgUsedMinutes = Math.round(usedSecondsSum / (n * 60));
 
-  // Kronolojik sıralı trend (eskiden yeniye)
-  const sortedChrono = [...history].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
-  const netTrend: SimulationTrendPoint[] = sortedChrono.map(r => ({
-    id: r.id,
-    date: r.date,
-    title: r.title,
-    totalNet: r.net,
-    temelNet: r.temelNet,
-    klinikNet: r.klinikNet,
-    accuracy: r.correct + r.incorrect > 0 ? Math.round((r.correct / (r.correct + r.incorrect)) * 100) : 0,
-  }));
+  // Kronolojik sıralı trend (eskiden yeniye - eşitlik durumunda id ile stabil sırala)
+  const sortedChrono = [...history].sort((a, b) => {
+    const diff = new Date(a.date).getTime() - new Date(b.date).getTime();
+    if (diff !== 0) return diff;
+    return a.id.localeCompare(b.id);
+  });
+  
+  // Önceki denemeye göre delta hesaplanmış kronolojik liste
+  const netTrend: SimulationTrendPoint[] = sortedChrono.map((r, i) => {
+    let deltaNetFromPrev: number | null = null;
+    if (i > 0) {
+      deltaNetFromPrev = Math.round((r.net - sortedChrono[i - 1].net) * 100) / 100;
+    }
+    return {
+      id: r.id,
+      date: r.date,
+      title: r.title,
+      totalNet: r.net,
+      temelNet: r.temelNet,
+      klinikNet: r.klinikNet,
+      accuracy: r.correct + r.incorrect > 0 ? Math.round((r.correct / (r.correct + r.incorrect)) * 100) : 0,
+      deltaNetFromPrev,
+    };
+  });
+
+  // Orijinal history dizisine (yeniden eskiye) deltaFromPrevious eşlemesi
+  const deltaMap = new Map<string, SimulationTrendPoint['deltaNetFromPrev']>();
+  netTrend.forEach(pt => deltaMap.set(pt.id, pt.deltaNetFromPrev));
+
+  const historyWithDeltas: PastSimulationRecord[] = history.map((exam) => {
+    // Kronolojik olarak bir önceki denemeyi bul
+    const chronoIndex = sortedChrono.findIndex(c => c.id === exam.id);
+    if (chronoIndex > 0) {
+      const prevExam = sortedChrono[chronoIndex - 1];
+      const deltaNet = Math.round((exam.net - prevExam.net) * 100) / 100;
+      const deltaTemel = Math.round((exam.temelNet - prevExam.temelNet) * 100) / 100;
+      const deltaKlinik = Math.round((exam.klinikNet - prevExam.klinikNet) * 100) / 100;
+      const usedMinsCurrent = Math.round(exam.usedSeconds / 60);
+      const usedMinsPrev = Math.round(prevExam.usedSeconds / 60);
+      const accCurrent = exam.correct + exam.incorrect > 0 ? Math.round((exam.correct / (exam.correct + exam.incorrect)) * 100) : 0;
+      const accPrev = prevExam.correct + prevExam.incorrect > 0 ? Math.round((prevExam.correct / (prevExam.correct + prevExam.incorrect)) * 100) : 0;
+
+      return {
+        ...exam,
+        deltaFromPrevious: {
+          net: deltaNet,
+          temelNet: deltaTemel,
+          klinikNet: deltaKlinik,
+          usedMinutes: usedMinsCurrent - usedMinsPrev,
+          accuracy: accCurrent - accPrev,
+        },
+      };
+    }
+    return {
+      ...exam,
+      deltaFromPrevious: null,
+    };
+  });
 
   // 14 Branş bazında kümülatif toplama (Fizyoloji - Histoloji birleşik!)
   const branchMap = new Map<string, { category: 'temel' | 'klinik'; total: number; correct: number; incorrect: number; blank: number }>();
@@ -914,12 +1152,22 @@ export function computeAggregateSimulationStats(
     }
   }
 
+  // Son denemedeki branş netleri haritası
+  const latestBranchMap = new Map<string, number>();
+  if (latestExam) {
+    for (const bs of latestExam.branchStats) {
+      latestBranchMap.set(bs.branch, bs.net);
+    }
+  }
+
   const branchSummary: AggregateBranchSummary[] = [];
   for (const [branch, data] of branchMap) {
     const totalQuestions = data.total;
     const accuracy = (data.correct + data.incorrect) > 0 ? Math.round((data.correct / (data.correct + data.incorrect)) * 100) : 0;
     const totalNet = computeSimulationNet(data.correct, data.incorrect);
-    const avgNet = n > 0 ? Math.round((totalNet / n) * 100) / 100 : 0;
+    const branchAvgNet = n > 0 ? Math.round((totalNet / n) * 100) / 100 : 0;
+    const latestBranchNet = latestBranchMap.get(branch) ?? branchAvgNet;
+    const diffFromAvg = Math.round((latestBranchNet - branchAvgNet) * 100) / 100;
 
     let status: 'strong' | 'moderate' | 'weak' = 'moderate';
     if (accuracy >= 80) status = 'strong';
@@ -932,7 +1180,9 @@ export function computeAggregateSimulationStats(
       totalCorrect: data.correct,
       totalIncorrect: data.incorrect,
       totalBlank: data.blank,
-      avgNet,
+      avgNet: branchAvgNet,
+      latestNet: latestBranchNet,
+      diffFromAvg,
       accuracy,
       status,
     });
@@ -942,6 +1192,45 @@ export function computeAggregateSimulationStats(
   const sortedByAccuracy = [...branchSummary].filter(b => b.totalQuestions > 0).sort((a, b) => b.accuracy - a.accuracy);
   const strongestBranches = sortedByAccuracy.slice(0, 3);
   const weakestBranches = [...sortedByAccuracy].reverse().slice(0, 3);
+
+  // Ankara Üniversitesi ADÇC TOP 10 (95 Net) Hedef Açığı
+  const targetNet = 95;
+  const netGap = Math.max(0, Math.round((targetNet - latestNet) * 100) / 100);
+  const currentTemelNet = latestExam?.temelNet ?? avgTemelNet;
+  const currentKlinikNet = latestExam?.klinikNet ?? avgKlinikNet;
+  const temelGap = Math.max(0, Math.round((34 - currentTemelNet) * 100) / 100);
+  const klinikGap = Math.max(0, Math.round((61 - currentKlinikNet) * 100) / 100);
+
+  // En çok net kazanılabilecek branş fırsatları (düşük accuracy branşlar)
+  const highYieldOpportunities = branchSummary
+    .filter(b => b.totalQuestions > 0 && b.accuracy < 80)
+    .sort((a, b) => a.accuracy - b.accuracy)
+    .slice(0, 4)
+    .map(b => {
+      // Branş soru kotası (ör. Klinik 10 soru, Biyokimya 10 soru, Anatomi 6 soru)
+      const perExamCount = b.category === 'temel' ? (b.branch === 'Biyokimya' || b.branch === 'Fizyoloji - Histoloji' ? 10 : b.branch === 'Anatomi' || b.branch === 'Mikrobiyoloji' ? 6 : 4) : 10;
+      const potentialGain = Math.max(0, Math.round((perExamCount * 0.85 - b.latestNet) * 100) / 100);
+      return {
+        branch: b.branch,
+        category: b.category,
+        currentAccuracy: b.accuracy,
+        currentNet: b.latestNet,
+        potentialGain,
+      };
+    });
+
+  const adccTop10Gap: AdccTop10Gap = {
+    targetNet,
+    currentNet: latestNet,
+    netGap,
+    temelTarget: 34,
+    currentTemelNet,
+    temelGap,
+    klinikTarget: 61,
+    currentKlinikNet,
+    klinikGap,
+    highYieldOpportunities,
+  };
 
   return {
     totalSimulations: n,
@@ -955,5 +1244,7 @@ export function computeAggregateSimulationStats(
     branchSummary,
     strongestBranches,
     weakestBranches,
+    historyWithDeltas,
+    adccTop10Gap,
   };
 }

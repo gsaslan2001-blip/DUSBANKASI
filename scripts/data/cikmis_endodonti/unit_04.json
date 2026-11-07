@@ -1,0 +1,86 @@
+[
+  {
+    "question": "Dental anestezinin yoğunluk ve süresini aşağıdakilerden hangisi etkilemez?",
+    "options": {
+      "A": "Anestezik materyale hastanın bireysel reaksiyonu",
+      "B": "Anestezi yapılan dokunun durumu",
+      "C": "Anestezi yapılan bölgedeki anatomik varyasyonlar",
+      "D": "Enjektör iğnesinin çapı",
+      "E": "Yapılan anestezide kullanılan teknik"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Enjektör iğnesinin çapı (gauge değeri/kalınlığı), yalnızca iğnenin dokuya penetrasyonu esnasında hastanın hissedeceği ağrı veya rahatsızlık düzeyini ve aspirasyon kolaylığını etkileyebilir; enjekte edilen lokal anestezik solüsyonun farmakodinamiğini, anestezi derinliğini (yoğunluğunu) veya etki süresini kesinlikle etkilemez. Çeldiriciler: A) Hastanın genetik yapısı, reseptör duyarlılığı, anksiyete düzeyi, alkol veya madde/sigara alışkanlığı gibi bireysel faktörler anestezinin yoğunluk ve süresini doğrudan değiştirir. B) Anestezi yapılan dokuda akut inflamasyon/enfeksiyon bulunması doku pH'sını düşürür (asidoz); iyonize formda kalan anestezik molekül sinir membranını geçemediği için anestezi derinliği ve süresi azalır, ayrıca bölgedeki vazodilatasyon anesteziğin hızla sistemik dolaşıma karışmasına yol açar. C) Mylohyoid sinirden gelen aksesuar inervasyonlar, bifid mandibular kanal veya yoğun vaskülarizasyon gibi anatomik varyasyonlar anestezinin başarısını ve süresini etkiler. E) Uygulanan anestezi tekniği (infiltratif, rejyonel blok, intraligamenter veya intraosseöz teknik) aynı anestezik solüsyonun pulpal etki süresini ve derinliğini belirgin şekilde değiştirir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 4 - ENDODONTİDE LOKAL ANESTEZİ UYGULAMALARI"
+  },
+  {
+    "question": "Aşağıda verilenlerden hangisi anestezinin yoğunluğunu ve başarısını düşürmez?",
+    "options": {
+      "A": "Alkol bağımlılığı",
+      "B": "Bölgede akut apikal periodontitis varlığı",
+      "C": "Mandibuler dişlere uzanan mylohyoid sinir varlığı",
+      "D": "İnce uçlu enjektörle anestezi yapılması",
+      "E": "Mandibuler anterior dişlerde intraligamenter anestezi kullanımı"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İnce uçlu (örneğin 27G veya 30G) enjektör iğnesiyle anestezi yapılması yalnızca mukoza penetrasyonunu daha atravmatik hale getirir; solüsyon hedef anatomik bölgeye doğru miktarda iletildiği sürece iğne çapının ince olması anestezinin yoğunluğunu ve başarısını düşürmez. Çeldiriciler: A) Kronik alkol bağımlılığı karaciğer enzim indüksiyonu ve sinir membranı duyarlılığındaki değişimler nedeniyle lokal anestezinin başarısını ve yoğunluğunu düşürür. B) Akut apikal periodontitis varlığında dokudaki asidik pH (düşük pH) ve inflamatuar hiperemi anestezik ajanın sinir lifine geçişini engelleyerek anestezi başarısını düşürür. C) Mandibuler molar/premolar dişlere uzanan aksesuar mylohyoid sinir inervasyonu, standart inferior alveolar sinir bloğunun yetersiz kalmasına neden olur. E) Mandibuler anterior dişlerde intraligamenter anestezinin tek başına başarı oranı oldukça düşüktür.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 4 - ENDODONTİDE LOKAL ANESTEZİ UYGULAMALARI"
+  },
+  {
+    "question": "Ağrı eşiği düşük 19 yaşındaki bayan hastanın 36 numaralı dişine akut apikal periodontitis endikasyonu ile kanal tedavisi yapılacaktır. Post operatif dönemde hastanın ağrı kontrolü için işlem öncesi en uygun anestezik verilenlerden hangisidir?",
+    "options": {
+      "A": "Bupivacaine",
+      "B": "Procaine",
+      "C": "Articaine",
+      "D": "Lidocaine",
+      "E": "Mepivacaine"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Genç kadın hasta, düşük ağrı eşiği ve preoperatif olarak semptomatik bir tablo olan akut apikal periodontitis varlığı, işlem sonrası (postoperatif) şiddetli ağrı gelişme riskini en üst düzeye çıkaran faktörlerdir. Bu tür vakalarda postoperatif ağrı kontrolünü sağlamak ve santral sensitizasyonu önlemek amacıyla işlem öncesinde ya da bitiminde uzun etkili bir lokal anestezik olan \"Bupivacaine\" (yumuşak dokuda 5-9 saat, pulpada 90+ dakika etkili) tercih edilmelidir. Çeldiriciler: B) Procaine (Novokain), ester yapılı ve çok kısa etkili bir lokal anesteziktir; postoperatif uzun süreli analjezi sağlayamaz. C) Articaine, amid yapılı ve orta etki süreli (yaklaşık 60 dk pulpal etki) bir anesteziktir. D) Lidocaine, orta etki süreli bir amid anesteziğidir, bupivakain kadar uzun postoperatif analjezi sağlamaz. E) Mepivacaine, orta etki süreli bir amid anesteziği olup uzun süreli postoperatif ağrı kontrolünde bupivakainin yerini tutamaz.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 4 - ENDODONTİDE LOKAL ANESTEZİ UYGULAMALARI"
+  },
+  {
+    "question": "Pulpal anestezinin sağlanmasında kullanabilen intraligamenter enjeksiyon tekniği ile ilgili;\nI. Pulpal anestezik etki enjeksiyondan 10-15 dakika sonra başlar.\nII. Pulpal anestezik etki en az 45 dakika sürer.\nIII. Bir tür intraosseöz anestezi tekniğidir.\nifadelerinden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İntraligamenter (periodontal ligament içi) anestezi, endodontide genellikle başarısız rejyonel blokları desteklemek amacıyla uygulanan yardımcı bir anestezi yöntemidir. Öncüllerin Analizi: I. İntraligamenter anestezide solüsyon basınçla doğrudan kemik iliği boşluklarına geçtiği için pulpal anestezik etki 10-15 dakika sonra değil, \"hemen\" (30 saniye içinde) başlar, beklenmesi gerekmez (Yanlış). II. İntraligamenter anestezinin pulpal etki süresi oldukça kısadır; primer enjeksiyon olarak 10-15 dakika, destek anestezisi olarak ise ortalama 20-23 dakika pulpal anestezi sağlar, en az 45 dakika sürmez (Yanlış). III. İğne periodontal aralığa yerleştirilse de yüksek basınçla verilen solüsyon kribriform plakadaki (lamina dura) perforasyonlardan geçerek doğrudan alveol kemiğinin medüller boşluklarına yayılır; bu nedenle mekanizma olarak bir tür \"intraosseöz\" anestezi tekniğidir (Doğru). Çeldiriciler: A) I. öncül yanlıştır, etkisi anında başlar. B) II. öncül yanlıştır, etki süresi 10-23 dakikadır. D) I ve II. öncüller yanlıştır. E) I. öncül yanlıştır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 4 - ENDODONTİDE LOKAL ANESTEZİ UYGULAMALARI"
+  },
+  {
+    "question": "İntraligamenter anestezi ile ilgili olarak aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Etkisi hemen başlar.",
+      "B": "İntraosseöz bir anestezidir.",
+      "C": "Pulpada 45 dakika anestezi sağlar.",
+      "D": "Anterior dişlerde başarısı düşüktür.",
+      "E": "Vazokonstriktörlü solüsyonlar başarısını artırır."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İntraligamenter anestezinin pulpal anestezi süresi oldukça sınırlıdır; primer teknik olarak kullanıldığında 10-15 dakika, mandibuler blok sonrası destek anestezisi olarak kullanıldığında ise ortalama 23 dakika pulpal anestezi sağlar. Pulpada 45 dakika anestezi sağladığı ifadesi yanlıştır. Çeldiriciler: A) Anestezik solüsyon basınç altında hızla apikale ulaştığı için etkisi hemen (saniyeler içinde) başlar. B) Solüsyon sadece PDL boyunca akmaz, alveol soket duvarındaki kortikal fenestrasyonlardan spongioz kemiğe geçtiği için bir tür intraosseöz anestezidir. D) Kortikal kemik yapısı ve kök morfolojisi nedeniyle mandibuler anterior dişlerde başarı oranı düşüktür. E) Vazokonstriktör (epinefrin) içeren solüsyonların kullanılması ilacın medüller kemikten sistemik dolaşıma hızlı yıkımını yavaşlatarak başarı oranını ve süresini belirgin şekilde artırır.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 4 - ENDODONTİDE LOKAL ANESTEZİ UYGULAMALARI"
+  },
+  {
+    "question": "İntraligamenter anestezinin destek anestezi olarak kullanıldığı durumlarda pulpal anestezi süresi yaklaşık olarak kaç dakikadır?",
+    "options": {
+      "A": "10 dk.",
+      "B": "18 dk.",
+      "C": "23 dk.",
+      "D": "35 dk.",
+      "E": "43 dk."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İntraligamenter anestezi primer enjeksiyon olarak tek başına uygulandığında mandibular posterior dişlerde %75 başarı ile 10-15 dakika pulpal anestezi sağlarken, başarısız bir inferior alveolar sinir bloğuna \"destek (ek) anestezi\" olarak uygulandığında yaklaşık olarak ortalama \"23 dakika\" derin pulpal anestezi sağlamaktadır. Çeldiriciler: A) 10-15 dakika, destek anestezisi olarak değil primer enjeksiyon olarak kullanıldığındaki süredir. B) 18 dakika klinik çalışmalarda bildirilen standart ortalama değer değildir. D) 35 dakika intraligamenter tekniğin ulaşabildiği sürenin üzerindedir. E) 43 dakika (veya 60 dk) direkt intraosseöz (kortikal kemik delinerek yapılan) anestezi sistemlerinde görülen süredir.",
+    "lesson": "Endodonti",
+    "unit": "Ünite 4 - ENDODONTİDE LOKAL ANESTEZİ UYGULAMALARI"
+  }
+]

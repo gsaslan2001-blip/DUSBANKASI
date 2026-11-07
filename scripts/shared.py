@@ -437,6 +437,9 @@ def _write_to_supabase(questions, lesson_name, unit_name, quality_flag=None):
             row["explanation_embedding"] = expl_embeddings[i]
         # DAİMA quality_flag değerini açıkça gönder (None ise JSON null olarak gider ve Supabase DB varsayılanı olan 'high_quality'yi ezer)
         row["quality_flag"] = quality_flag
+        if quality_flag == 'cikmis':
+            # PostgREST toplu yazımda tüm nesnelerin anahtarları aynı olmalıdır.
+            row['flag_reason'] = q.get('flag_reason') or ''
         rows.append(row)
 
     # ── Chunked yazma (HTTP 500 engelleyici) + geçici hata retry ──

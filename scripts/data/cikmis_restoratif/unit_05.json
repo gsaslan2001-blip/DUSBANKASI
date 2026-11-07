@@ -1,0 +1,534 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi tükürüğün organik bileşenlerinden biri değildir?",
+    "options": {
+      "A": "Laktoferrin",
+      "B": "Peroksidaz",
+      "C": "Asetil sistein",
+      "D": "Lizozim",
+      "E": "Statherin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): N-asetil sistein, sistein aminoasidinin asetillenmiş bir türevi olup insan vücudunda doğrudan sentezlenmez, dışarıdan mukolitik ilaç veya takviye olarak alınır; dolayısıyla doğal tükürüğün organik bileşenleri arasında yer almaz (tükürükte doğal olarak bulunan sistein içerikli protein sistatindir). Çeldiriciler: - A ve E) Laktoferrin ve statherin, tükürüğün doğal organik bileşenlerinden olan protein/peptitlerdir. - B ve D) Peroksidaz (laktoperoksidaz) ve lizozim, tükürüğün organik bileşenlerinden olan antibakteriyel enzimlerdir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "I. Laktoferrin II. Asetil sistein III. Statherin IV. Peroksidaz Yukarıdaki öncüllerden hangileri tükürüğün organik bileşenlerindendir?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I, II ve III",
+      "D": "I, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Laktoferrin, statherin ve peroksidaz tükürüğün doğal organik bileşenleriyken, asetil sistein tükürükte doğal olarak bulunmaz. Öncüllerin Analizi: - I. Öncül (Doğru): Laktoferrin, seröz hücrelerden salgılanan demir bağlayıcı organik bir glikoproteindir. - II. Öncül (Yanlış): N-asetil sistein dışarıdan ilaç olarak alınan sentetik bir türevdir, tükürükte bulunmaz. - III. Öncül (Doğru): Statherin, kalsiyum ve fosfatı stabilize eden organik bir tükürük peptididir. - IV. Öncül (Doğru): Peroksidaz, tükürükte bulunan antibakteriyel organik bir enzimdir. Çeldiriciler: A, C ve E şıkları tükürükte bulunmayan asetil sisteini (II) içerdiği için; B şıkkı ise I. öncülü eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Tükürüğün antibakteriyel özellikte, virüslerin konak hücrelere giriş yeteneklerini inhibe ederek etki gösteren bileşeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Tiyosiyanat",
+      "B": "Laktoferrin",
+      "C": "Lizozim",
+      "D": "Peroksidaz",
+      "E": "Sistatin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Sistatinler (sistein içeren proteinler), bakteriyel proteazları ve nötrofil proteazları inhibe ederek antibakteriyel etki gösterirler; ayrıca prolinden zengin proteinlerle birlikte virüslerin konak hücrelere giriş yeteneklerini inhibe ederler. Çeldiriciler: - A) Tiyosiyanat, peroksidaz sisteminin kofaktörü olan inorganik bir tükürük bileşenidir. - B) Laktoferrin, demir ve bakırı bağlayarak bakterileri esansiyel besinden mahrum bırakan glikoproteindir. - C) Lizozim, bakteri hücre duvarındaki peptidoglikan tabakasının beta(1-4) bağlarını parçalayan enzimdir. - D) Peroksidaz, hidrojen peroksit ve tiyosiyanat varlığında hipotiyosiyanat üreterek bakteri metabolizmasını bozan enzimdir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tükürüğün antibakteriyel aktivitesinden sorumlu değildir?",
+    "options": {
+      "A": "Lizozim",
+      "B": "Laktoferrin",
+      "C": "Histatin",
+      "D": "Statherin",
+      "E": "Peroksidaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Statherin, tükürük içerisindeki kalsiyum ve fosfat iyonlarını bağlayıp spontan çökelmelerini önleyerek tükürüğün süpersatüre (aşırı doygun) bir çözelti olarak kalmasını sağlayan ve remineralizasyon/demineralizasyon dengesini koruyan proteindir; doğrudan antibakteriyel aktiviteden sorumlu değildir. Çeldiriciler: - A) Lizozim, bakteri hücre duvarındaki N-asetil müramik asit ile N-asetil glukozamin arasındaki bağları yıkarak bakterisid etki gösterir. - B) Laktoferrin, demir bağlayarak bakteriyostatik ve bakterisid etki gösterir. - C) Histatin, histidinden zengin bir peptit olup antibakteriyel ve özellikle çok güçlü antifungal etkiye sahiptir. - E) Peroksidaz, bakteri hücre duvarına zarar veren ve metabolizmalarını bozan antimikrobiyal bir enzimdir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tükürüğün doygun bir çözelti olmasından sorumludur?",
+    "options": {
+      "A": "Lizozim",
+      "B": "Laktoferrin",
+      "C": "Histatin",
+      "D": "Statherin",
+      "E": "Peroksidaz"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Statherin (prolinden zengin proteinlerle birlikte), tükürükteki yüksek kalsiyum ve fosfat iyonlarını bağlayıp stabilize ederek spontan çökelmelerini engeller ve tükürüğün hidroksiapatite göre süpersatüre (doygun) bir çözelti olmasını sağlar. Çeldiriciler: Lizozim, laktoferrin, histatin ve peroksidaz tükürüğün antimikrobiyal savunma bileşenleridir; kalsiyum-fosfat doygunluğunu sağlama görevleri yoktur.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin tükürük içerisindeki antifungal etkisi en baskındır?",
+    "options": {
+      "A": "Lizozim",
+      "B": "Tiyosiyanat",
+      "C": "Histatin",
+      "D": "Statherin",
+      "E": "Peroksidaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Histatinler, histidinden zengin tükürük peptitleri olup hem antibakteriyel hem de geniş antifungal etkilere sahiptir; özellikle Candida albicans'a karşı tükürük içerisindeki antifungal etkisi en güçlü olan komponenttir. Çeldiriciler: Lizozim ve peroksidaz ağırlıklı olarak antibakteriyel enzimlerdir, tiyosiyanat inorganik iyon, statherin ise kalsiyum-fosfat dengeleyici proteindir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tükürüğün antibakteriyel etkiye sahip olup, enzim yapısında olmayan proteinlerindendir?",
+    "options": {
+      "A": "Amilaz",
+      "B": "Laktoferrin",
+      "C": "Lipaz",
+      "D": "Laktoperoksidaz",
+      "E": "Lizozim"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Laktoferrin, seröz hücrelerden salgılanan, demir ve bakırı bağlayarak bakteriyostatik, bakterisid, fungisit ve antiviral etki gösteren bir glikoproteindir; enzim yapısında değildir ve enzim aktivitesi bulunmaz. Çeldiriciler: - A ve C) Alfa-amilaz (pityalin) ve lingual lipaz, enzim yapısında olan sindirim bileşenleridir; antibakteriyel protein değillerdir. - D ve E) Laktoperoksidaz ve lizozim, antibakteriyel etkiye sahiptir ancak her ikisi de enzim yapısındadır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "I. Lipaz II. Laktoferrin III. Amilaz Yukarıdaki tükürük bileşenlerinden hangisinin/hangilerinin antibakteriyel etkisi bulunur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Verilen bileşenler arasında yalnızca laktoferrin antibakteriyel etkiye sahiptir; lipaz ve amilaz ise sindirim enzimleridir. Öncüllerin Analizi: - I. Öncül (Yanlış): Dil altı bezlerinden salgılanan lingual lipaz, trigliseridlerin sindiriminde görev alan bir sindirim enzimidir; antibakteriyel etkisi yoktur. - II. Öncül (Doğru): Laktoferrin, demir bağlayarak ve bakteri hücre duvarına tutunarak güçlü antibakteriyel etki gösterir. - III. Öncül (Yanlış): Parotisten salgılanan alfa-amilaz, nişasta gibi polisakkaritleri maltoz ve dekstrine parçalayan bir sindirim enzimidir; antibakteriyel etkisi yoktur. Çeldiriciler: A, C, D ve E şıkları sindirim enzimleri olan lipaz (I) ve amilazı (III) antibakteriyel olarak kabul ettiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "I. Lipaz II. Laktoferrin III. Amilaz IV. Laktoperoksidaz V. Lizozim Yukarıdaki tükürük bileşenlerinden hangileri besinlerin sindiriminde rol oynar?",
+    "options": {
+      "A": "I ve III",
+      "B": "I, II ve III",
+      "C": "II, IV ve V",
+      "D": "I, III, IV ve V",
+      "E": "I, II, III, IV ve V"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Tükürük içerisindeki sindirim enzimleri karbonhidratları parçalayan alfa-amilaz (pityalin) ve yağları parçalayan lingual lipazdır. Öncüllerin Analizi: - I. Öncül (Doğru): Lingual lipaz yağların (özellikle bebeklerde süt yağlarının) sindiriminde rol oynar. - II. Öncül (Yanlış): Laktoferrin antimikrobiyal bir glikoproteindir, sindirimde rol oynamaz. - III. Öncül (Doğru): Alfa-amilaz karbonhidratlardaki alfa(1-4) glikozid bağlarını parçalayarak sindirimde rol oynar. - IV ve V. Öncüller (Yanlış): Laktoperoksidaz ve lizozim antimikrobiyal savunma enzimleridir, besin sindiriminde görev almazlar. Çeldiriciler: B, C, D ve E şıkları antimikrobiyal protein ve enzimleri (II, IV, V) sindirim bileşeni olarak kabul ettiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tükürükte bulunmaz?",
+    "options": {
+      "A": "Lipid",
+      "B": "Üre",
+      "C": "Protein",
+      "D": "IgE",
+      "E": "Statherin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tükürükte bulunan immünglobülinler IgA (en fazla bulunan, sekretuar IgA), IgG ve IgM'dir; IgE ise normal tükürükte bulunmaz, dişeti oluğu sıvısında (dişeti cebinde) bulunur. Çeldiriciler: - A) Tükürükte kolesterol, serbest yağ asitleri ve fosfolipitler gibi lipidler bulunur. - B) Tükürükte bakteriyel üreazlarla parçalanıp amonyak oluşturarak pH'yı yükselten üre bulunur. - C ve E) Müsin, statherin, histatin, laktoferrin ve enzimler gibi çeşitli protein ve peptitler tükürüğün temel organik bileşenleridir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "I. Ig A II. Ig G III. Ig M IV. Ig E Yukarıdaki öncüllerde verilen İmmunglobülin (Ig) tiplerinden hangisi/hangileri tükürükte bulunmaz?",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "II ve III",
+      "C": "II ve IV",
+      "D": "II, III ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Tükürükte antimikrobiyal savunmada görev alan IgA, IgG ve IgM bulunurken, IgE tükürükte yer almaz (dişeti cebinde bulunur). Öncüllerin Analizi: - I, II ve III. Öncüller (Tükürükte bulunur): Sekretuar IgA başta olmak üzere IgG ve IgM tükürüğün organik antimikrobiyal bileşenlerindendir. - IV. Öncül (Tükürükte bulunmaz): IgE tükürükte bulunmaz, dişeti oluğu sıvısında rastlanır. Çeldiriciler: B, C, D ve E şıkları tükürükte bulunan IgA, IgG ve IgM'yi bulunmaz olarak sınıflandırdığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tükürüğün inorganik bileşenlerinden değildir?",
+    "options": {
+      "A": "Bikarbonat",
+      "B": "Tiyosiyanat",
+      "C": "Kalsiyum",
+      "D": "Klor",
+      "E": "Laktoperoksidaz"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Laktoperoksidaz, tükürüğün inorganik değil, organik bileşenleri arasında yer alan antibakteriyel bir enzimdir. Çeldiriciler: Bikarbonat, tiyosiyanat, kalsiyum ve klor (fosfat, flor, hidrojen, sodyum ve potasyum ile birlikte) tükürüğün inorganik bileşenleridir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Uyarılmamış tükürükte etkili olan tamponlama mekanizması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fosfat",
+      "B": "Protein",
+      "C": "Karbonik asit/bikarbonat",
+      "D": "Karbonat",
+      "E": "Sitrat"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Uyarılmamış (istirahat halindeki) tükürükte bikarbonat konsantrasyonu düşük olduğu için, pH 6,8-7,2 (nötral pH) aralığında en etkin tamponlama mekanizması fosfat tampon sistemidir. Çeldiriciler: - B) Protein tampon sistemi (sialin, arjinin, lizin) kritik pH değerinin altında ve lokal plak-diş yüzeyinde etkilidir. - C ve D) Karbonik asit/bikarbonat tampon sistemi, tükürük uyarıldığında parotis bezinden yoğun bikarbonat salgılanmasıyla devreye girer ve uyarılmış tükürükte (pH 5,5-6,5 aralığında) en güçlü tampon sistemidir. - E) Sitrat tükürükte ana bir tampon sistemi değildir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Nötral pH'a sahip tükürükte etkili olan tamponlama mekanizması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fosfat",
+      "B": "Protein",
+      "C": "Karbonik asit/bikarbonat",
+      "D": "Karbonat",
+      "E": "Sitrat"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Tükürükteki tampon sistemlerinin etkin olduğu pH aralıkları incelendiğinde, nötral pH'da (pH 6,8-7,2) ve uyarılmamış tükürükte en etkin olan mekanizma fosfat tampon sistemidir. Çeldiriciler: Bikarbonat tampon sistemi pH 5,5-6,5 aralığında (uyarılmış tükürükte), protein tampon sistemi ise kritik pH değerinin altında (plak-diş arayüzünde) etkindir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "I. Sialin II. Lizin III. Arjinin Yukarıdaki tetrapeptitlerden hangisi/hangileri tükürüğün tamponlama kapasitesinde rol alır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tükürüğün protein tamponlamasında görevli ana tetrapeptit olan sialin (glisin-glisin-lizin-arjinin) ve yapısındaki lizin ile arjinin, bakteriler tarafından metabolize edilerek amonyak ve poliaminler gibi alkalen yan ürünlerin oluşmasına ve düşen plak pH'sının yükselmesine katkıda bulunur. Öncüllerin Analizi: - I, II ve III. Öncüller (Doğru): Sialin başta olmak üzere lizin ve arjinin (SAL kodlamasıyla), plak bakterilerince parçalanarak bazik ürünler (özellikle amonyak) oluşturur ve Stephan eğrisinde pH'nın nötral düzeylere dönüş süresini kısaltır. Çeldiriciler: A, B, C ve D şıkları tamponlamada görev alan peptit/aminoasitlerden bir kısmını eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Tükürükte bulunan aşağıdaki organik komponentlerden hangisi, kalsiyum fosfatın spontan çökelmesini engeller?",
+    "options": {
+      "A": "Laktoferrin",
+      "B": "Aglütinin",
+      "C": "Statherin",
+      "D": "Peroksidaz",
+      "E": "Amilaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Statherin, tükürükteki kalsiyum ve fosfat iyonlarını bağlayarak tükürük bezlerinde ve diş yüzeylerinde kalsiyum fosfat tuzlarının spontan çökelmesini (diştaşı oluşumunu) engelleyen, tükürüğü doygun (süpersatüre) halde tutarak demineralizasyonu önleyen organik peptittir. Çeldiriciler: - A) Laktoferrin demir bağlayarak antibakteriyel etki gösterir. - B) Aglütininler bakterilerin kümeleşmesini (presipitasyonunu) sağlayarak tükürükle yutulup uzaklaştırılmasını kolaylaştırır. - D) Peroksidaz bakteri metabolizmasını bozan antimikrobiyal enzimdir. - E) Amilaz nişastayı parçalayan sindirim enzimidir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Minede demineralizasyonun engellenmesinde tükürükte bulunan hangi bileşen önemli rol oynar?",
+    "options": {
+      "A": "Statherin",
+      "B": "Lizozim",
+      "C": "Sialin",
+      "D": "Histatin",
+      "E": "Laktoferrin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Statherin, tükürükte kalsiyum ve fosfatın tutulmasını sağlayarak tükürüğü hidroksiapatite göre aşırı doygun (süpersatüre) hale getirir; böylece mineden tükürüğe iyon geçişini (demineralizasyonu) doğrudan engelleyip remineralizasyonu destekler. Çeldiriciler: - B, D ve E) Lizozim, histatin ve laktoferrin antimikrobiyal ve antifungal protein/enzimlerdir. - C) Sialin, plak pH'sını yükselten tamponlayıcı bir tetrapeptittir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Tükürük yapısı ve içeriğinde bulunan moleküllerle ilgili aşağıda verilen ifadelerden hangisi yanlış bilgi içermektedir?",
+    "options": {
+      "A": "Haptokorrin vitamin B'ye bağlanır ve antibakteriyel özellik gösterir.",
+      "B": "Fosfat tamponlama sistemi minenin incelmesine sebep olabilir.",
+      "C": "Statherin, A.viskosus'un dişe bağlanmasını sağlar.",
+      "D": "Sistatinler, virüslerin konak hücreye girişini engeller.",
+      "E": "Tükürük akışının artmasıyla bikarbonat salınımı azalır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tükürük akış hızının artmasıyla (uyarılmış tükürükte) parotis bezinden bikarbonat salınımı azalmaz, tam tersine önemli ölçüde artar ve bikarbonat tamponlama sistemi en güçlü tampon olarak devreye girer. Çeldiriciler: - A) Haptokorrin serbest B12 vitaminine bağlanarak bakterilerin B12 vitaminini kullanmasını engeller ve antibakteriyel özellik sergiler. - B) Tükürük içindeki fosfat miktarı asidi nötralize etmeye yetersiz kalırsa, fosfat kaynağı olarak dişin hidroksiapatiti kullanılır ve bu durum minenin incelmesiyle sonuçlanabilir. - C) Statherin pelikıl yapısına katıldığında Actinomyces viscosus, S. mutans, S. sanguinis ve S. gordonii gibi erken kolonize olan bakterilerin dişe tutunması için yapışma noktası görevi görebilir. - D) Sistatinler proteazları inhibe eder ve virüslerin konak hücrelere giriş yeteneklerini engeller.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdaki tükürük proteinlerinden hangisi lubrikasyonda etkilidir?",
+    "options": {
+      "A": "Histatin",
+      "B": "Laktoferrin",
+      "C": "Müsin",
+      "D": "Peroksidaz",
+      "E": "Sistatin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Müsinler (yüksek ve düşük molekül ağırlıklı glikoproteinler), tükürüğe viskozite ve kayganlık kazandırarak ağız içi dokuların korunması, lubrikasyon (kayganlaştırma), fonasyon ve oral klirenste temel rol oynar. Çeldiriciler: - A) Histatin, antifungal ve antibakteriyel etkili peptittir. - B) Laktoferrin, demir bağlayan antimikrobiyal proteindir. - D) Peroksidaz, antimikrobiyal enzimdir. - E) Sistatin, proteaz inhibitörü olan antimikrobiyal/antiviral proteindir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdaki tükürük proteinlerinden hangisi fonasyona yardımcıdır?",
+    "options": {
+      "A": "Histatin",
+      "B": "Laktoferrin",
+      "C": "Müsin",
+      "D": "Peroksidaz",
+      "E": "Sistatin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Müsin, su ile birlikte oral mukozayı nemlendirip kayganlaştırarak (lubrikasyon) yumuşak dokuların birbiri ve dişler üzerinde rahat hareket etmesini sağlar ve böylece konuşmaya (fonasyona) ve yutmaya doğrudan yardımcı olur. Çeldiriciler: Histatin, laktoferrin, peroksidaz ve sistatin tükürüğün antimikrobiyal savunma proteinleridir; fonasyon ve lubrikasyonda görev almazlar.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tükürüğün yapısında bulunmaz?",
+    "options": {
+      "A": "Protein",
+      "B": "Üre",
+      "C": "Kalsiyum",
+      "D": "Elektrolit",
+      "E": "Kazein"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kazein, doğal insan tükürüğünün yapısında bulunan bir protein olmayıp sütte bulunan temel fosfoproteindir (diş hekimliğinde sütten elde edilen kazein fosfopeptit - CPP formunda remineralizasyon ajanlarına eklenir). Çeldiriciler: - A ve B) Proteinler (müsin, statherin, histatin, enzimler vb.) ve üre tükürüğün doğal organik bileşenleridir. - C ve D) Kalsiyum ve çeşitli elektrolitler (sodyum, potasyum, klor, bikarbonat, fosfat, flor) tükürüğün doğal inorganik bileşenleridir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tükürüğün yapısında bulunmayıp diyetle tükürüğe giren süt proteinidir?",
+    "options": {
+      "A": "Protein",
+      "B": "Üre",
+      "C": "Kalsiyum",
+      "D": "Elektrolit",
+      "E": "Kazein"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kazein, tükürük bezlerinden salgılanmayan ancak süt ve süt ürünlerinin tüketimiyle veya CPP-ACP preparatlarıyla ağız ortamına giren süt proteinidir (bu nedenle CPP-ACP ürünleri süt alerjisi olan hastalarda kontrendikedir). Çeldiriciler: Proteinler, üre, kalsiyum ve elektrolitler tükürük bezlerinden doğal olarak salgılanan fizyolojik tükürük bileşenleridir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "I. Protein II. Üre III. Kalsiyum IV. Laktoperoksidaz Tükürük yapısında bulunan yukarıdaki bileşenlerden hangisi/hangileri tamponlamada görev almaktadır?",
+    "options": {
+      "A": "I, II ve IV",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "II ve III",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Tükürüğün tamponlama fonksiyonunda bikarbonat ve fosfat sistemlerinin yanı sıra amfoterik protein sistemleri (sialin, arjinin vb.), üre ve kalsiyum gibi inorganik iyonlar görev alır. Öncüllerin Analizi: - I. Öncül (Doğru): Tükürük proteinleri ve peptitleri (özellikle kritik pH altında ve plak içinde) tamponlamada görev alır. - II. Öncül (Doğru): Üre, bakteriyel üreazlarla amonyağa parçalanarak plak asidini tamponlar. - III. Öncül (Doğru): Kalsiyum (fosfat ve bikarbonat gibi iyonlarla birlikte) asit-baz ve demineralizasyon dengesinde tamponlayıcı iyon olarak görev alır. - IV. Öncül (Yanlış): Laktoperoksidaz tamponlamada değil, antimikrobiyal savunmada görev alan bir enzimdir. Çeldiriciler: A şıkkı IV. öncülü içerdiği için; B, D ve E şıkları ise tamponlamada görevli bileşenleri eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıda verilen tükürük bileşeni ve fonksiyonu eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Histatin – Antibakteriyel etki",
+      "B": "Fosfat – Tamponlama",
+      "C": "Laktoperoksidaz – Antibakteriyel etki",
+      "D": "Bikarbonat – Antimikrobiyal etki",
+      "E": "Musin – Kayganlık sağlama"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Bikarbonat, tükürüğün antimikrobiyal etkili bir bileşeni değildir; fosfat ve kalsiyum ile birlikte tükürüğün asit tamponlama mekanizmasında görev alan en önemli inorganik tampon bileşenidir. Çeldiriciler: - A ve C) Histatin ve laktoperoksidaz (lizozim, laktoferrin, sistatin, müsin ve immünglobülinlerle birlikte) tükürüğün antibakteriyel/antimikrobiyal etkili bileşenleridir. - B) Fosfat, özellikle uyarılmamış tükürükte tamponlama görevini üstlenir. - E) Müsin, su ve prolinden zengin glikoproteinlerle birlikte koruma, kayganlık sağlama (lubrikasyon), oral klirens ve fonasyonda görev alır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "I. Histatin II. Bikarbonat III. Laktoperoksidaz IV. Gustin Yukarıda verilen tükürük içeriğindeki yapılardan hangileri yaptıkları görev bakımından aynı grupta yer alır?",
+    "options": {
+      "A": "I – II",
+      "B": "I – III",
+      "C": "II – III",
+      "D": "I – III – IV",
+      "E": "I – II – IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Histatin ve laktoperoksidaz, tükürüğün antimikrobiyal (antibakteriyel) savunma mekanizmasında görev alan bileşenler oldukları için aynı fonksiyonel grupta yer alır. Öncüllerin Analizi: - I. Öncül (Antimikrobiyal): Histatin, antibakteriyel ve antifungal etkiye sahip bir peptittir. - II. Öncül (Tamponlama): Bikarbonat, asit tamponlamasında görev alır. - III. Öncül (Antimikrobiyal): Laktoperoksidaz, antibakteriyel etkiye sahip bir enzimdir. - IV. Öncül (Tat): Gustin (karbonik anhidraz VI), çinko içeren bir protein olup su ile birlikte tat tomurcuklarının gelişimi ve tat (tad) duyusunda görev alır. Çeldiriciler: A, C, D ve E şıkları farklı görev gruplarında yer alan bikarbonat (II) veya gustini (IV) eşleştirmeye dahil ettiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "I. Uyarılmış Tükürük.......bikarbonat II. Uyarılmamış tükürük.......fosfat III. Lokal bölge etkili.......protein Yukarıdaki öncüller değerlendirildiğinde tamponlama sistemleriyle ilgili eşleştirmelerden hangisi doğrudur?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I-II",
+      "C": "I-III",
+      "D": "II-III",
+      "E": "I-II-III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tükürükteki üç tamponlama sisteminin etkin olduğu koşullar ve bölgeler her üç öncülde de doğru eşleştirilmiştir. Öncüllerin Analizi: - I. Öncül (Doğru): Uyarılmış tükürükte meydana gelen tamponlama süreci parotisten yoğun şekilde salgılanan bikarbonat sistemi ile gerçekleşir. - II. Öncül (Doğru): Uyarılmamış (istirahat) tükürüğünde görevli ana sistem fosfat tampon sistemidir. - III. Öncül (Doğru): Protein tamponlaması (sialin, arjinin, lizin) tüm tükürükte düşük konsantrasyonlu olsa da plak ve diş yüzeyinde lokal çevresel etkiye sahiptir. Çeldiriciler: A, B, C ve D şıkları doğru eşleştirmelerden birini veya birkaçını eksik bıraktığı için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdaki ilaç gruplarından hangisinin kullanımında tükürük akışının azalması en az olasıdır?",
+    "options": {
+      "A": "Antihistaminik",
+      "B": "Antipsikotik",
+      "C": "Antihipertansif",
+      "D": "Diüretik",
+      "E": "Antiinflamatuar"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Non-steroid veya steroid antiinflamatuar ilaçlar ağız kuruluğuna (hiposalivasyon/kserostomi) neden olan ilaç grupları arasında yer almaz; tükürük akış hızında azalmaya sebep olmaları en az olasıdır. Çeldiriciler: - A) Antihistaminikler (klorfeniramin, setirizin, loratadin vb.) antikolinerjik etkileriyle tükürük akışını azaltır. - B) Antipsikotikler (klorpromazin, klozapin, olanzapin vb.) ve trisiklik antidepresanlar güçlü antikolinerjik etkiyle ağız kuruluğu yapar. - C) Antihipertansif ajanlar (metoprolol, terazosin vb.) sempatomimetik/otonom etkilerle tükürük akışını azaltır. - D) Diüretikler (furosemid, tiazidler vb.) vücuttan sıvı kaybı ve dehidratasyon yoluyla tükürük akışını azaltır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "I. Diüretikler II. Antipsikotikler III. Antihipertansifler IV. Antihistaminikler V. Antiinflamatuarlar Yukarıda verilen ilaç gruplarından hangilerinin kullanımında tükürük akışının azalması en olasıdır?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve V",
+      "C": "I, II ve V",
+      "D": "I, II, III ve IV",
+      "E": "II, III, IV ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Diüretikler, antipsikotikler, antihipertansifler ve antihistaminikler yan etki olarak tükürük akış hızını azaltıp ağız kuruluğuna (kserostomi) yol açarken, antiinflamatuarlar ağız kuruluğu yapmaz. Öncüllerin Analizi: - I, II, III ve IV. Öncüller (Tükürük akışını azaltır): Diüretikler dehidratasyonla, antipsikotikler ve antihistaminikler antikolinerjik etkiyle, antihipertansifler ise sempatomimetik/otonom mekanizmalarla tükürük akışını azaltır. - V. Öncül (Azaltmaz): Antiinflamatuar ilaçlar tükürük akış hızında azalmaya neden olmaz. Çeldiriciler: A şıkkı III ve IV'ü eksik bıraktığı için; B, C ve E şıkları ise ağız kuruluğu yapmayan V. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıda verilen tükürük akış hızı değerlerinden hangisi ağız kuruluğu göstergesidir?",
+    "options": {
+      "A": "Uyarılmamış: <0,5 ml/dk — Uyarılmış: <1,5 ml/dk",
+      "B": "Uyarılmamış: <0,7 ml/dk — Uyarılmış: <1 ml/dk",
+      "C": "Uyarılmamış: <0,5 ml/dk — Uyarılmış: <0,7 ml/dk",
+      "D": "Uyarılmamış: <0,1 ml/dk — Uyarılmış: <0,7 ml/dk",
+      "E": "Uyarılmamış: <0,1 ml/dk — Uyarılmış: <1 ml/dk"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Yetişkin bir bireyde ağız kuruluğu (hiposalivasyon/kserostomi) teşhisi koyabilmek için kritik eşik değerler; uyarılmamış tükürük akış hızının 0,1 ml/dk'dan az (<0,1 ml/dk), uyarılmış tükürük akış hızının ise 0,7 ml/dk'dan az (<0,7 ml/dk) olmasıdır. Çeldiriciler: - A) 0,3-0,5 ml/dk uyarılmamış ve 1,5 ml/dk uyarılmış değerler sağlıklı bireylerdeki normal ortalama tükürük akış hızlarıdır. - B, C ve E) Uyarılmamış (<0,1 ml/dk) ve uyarılmış (<0,7 ml/dk) hiposalivasyon kriterlerini yanlış eşleştirmektedir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Yetişkin bir bireyde, ortalama uyarılmamış tükürük akış hızı miktarı aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "0,1-0,2 ml/dk",
+      "B": "0,3-0,5 ml/dk",
+      "C": "0,6-0,7 ml/dk",
+      "D": "0,8-0,9 ml/dk",
+      "E": "1-2 ml/dk"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Sağlıklı yetişkin bir bireyde istirahat halinde (uyarılmamış) ortalama tükürük akış hızı dakikada 0,3-0,5 ml (0,3-0,5 ml/dk) olarak kabul edilir. Çeldiriciler: - A) 0,1 ml/dk ve altı değerler uyarılmamış tükürükte şiddetli ağız kuruluğu (hiposalivasyon) sınırını ifade eder. - C ve D) 0,6-0,9 ml/dk değerleri uyarılmamış tükürük ortalamasının üzerindedir (0,7 ml/dk uyarılmış tükürükte hiposalivasyon eşiğidir). - E) 1-2 ml/dk (ortalama 1,5 ml/dk) sağlıklı bireylerde uyarılmış tükürük akış hızıdır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Periodontal ligamentteki mekanoreseptörlerin aktive olması durumunda sağlıklı bir bireyde tükürük akış hızı ortalama ne kadar olur?",
+    "options": {
+      "A": "0.1 ml/dk",
+      "B": "0.3 ml/dk",
+      "C": "0.5 ml/dk",
+      "D": "0.7 ml/dk",
+      "E": "1.5 ml/dk"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Periodontal ligamentteki mekanoreseptörlerin çiğneme ile aktive olması (veya tat tomurcuklarındaki kemoreseptörlerin uyarılması) tükürük akışının uyarılması anlamına gelir; sağlıklı bir bireyde uyarılmış tükürük akış hızı ortalama 1,5 ml/dk civarındadır. Çeldiriciler: - A) 0,1 ml/dk uyarılmamış tükürükte hiposalivasyon sınır değeridir. - B ve C) 0,3-0,5 ml/dk uyarılmamış (istirahat) tükürük akış hızıdır. - D) 0,7 ml/dk uyarılmış tükürükte hiposalivasyon (ağız kuruluğu) sınır değeridir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ağız kuruluğu nedenlerinden değildir?",
+    "options": {
+      "A": "Akut nekrotizan ülseratif gingivitis",
+      "B": "Baş-boyun radyoterapi kemoterapi almış olmak",
+      "C": "Antihistaminik antidepresan ilaç kullanımı",
+      "D": "Beslenme yetersizliği",
+      "E": "Skleroderma, sarkoidoz hastalıklarında"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Akut nekrotizan ülseratif gingivitis (ANUG), ağız kuruluğuna (kserostomi) neden olmaz; aksine artmış, yoğun kıvamlı (metalik tat ve kötü kokulu) salya (hipersalivasyon/sialore) ile karakterize akut periodontal bir enfeksiyondur. Çeldiriciler: - B) Baş-boyun radyoterapisi ve kemoterapi tükürük bezi asinüslerini tahrip ederek şiddetli ağız kuruluğu yapar. - C) Antihistaminik, antidepresan, antipsikotik, antihipertansif ve diüretik ilaçlar en sık görülen ağız kuruluğu nedenleridir. - D) Beslenme yetersizliği, dehidratasyon ve azalmış çiğneme fonksiyonu tükürük akışında azalmaya neden olur. - E) Sjögren sendromu, skleroderma (progresif sistemik sklerozis), sarkoidoz, SLE ve romatoid artrit gibi sistemik/otoimmün hastalıklar tükürük bezlerini tutarak ağız kuruluğu yapar.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "I. Skleroderma II. Antidepresan kullanımı III. Akut nekrotizan ülseratif gingivitis Yukarıdaki durumlardan hangisi/hangileri ağız kuruluğuna neden olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Skleroderma ve antidepresan ilaç kullanımı ağız kuruluğuna neden olurken, ANUG artmış tükürük salgısıyla karakterizedir. Öncüllerin Analizi: - I. Öncül (Doğru): Kollajen doku hastalığı olan skleroderma (progresif sistemik sklerozis) tükürük bezi fibrozisiyle ağız kuruluğuna yol açar. - II. Öncül (Doğru): Antidepresan ilaçlar antikolinerjik etkileriyle tükürük akışını azaltır. - III. Öncül (Yanlış): ANUG ağız kuruluğu yapmaz, artmış kıvamlı salya ile karakterizedir. Çeldiriciler: A şıkkı II. öncülü eksik bıraktığı için; C, D ve E şıkları ise III. öncülü içerdiği için yanlıştır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Yutma ve konuşmada güçlük, protezlerinin kullanımında yanma hissi ve tat alamama şikayetiyle kliniğe başvuran 65 yaşındaki kadın hastaya yapılan klinik muayene sonucunda hastanın yüksek DMFT indeksine sahip olduğu tespit edilmiştir. Buna göre bu hasta ile ilgili aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hastada astım rahatsızlığı olabilir",
+      "B": "Hastanın uyarılmış tükürük salgısı 0.7ml/dk'nın altındadır",
+      "C": "Hasta xylitol içeren pastiller kullanmalıdır",
+      "D": "Alkollü gargara kullanımı kısıtlanmalıdır",
+      "E": "Hastaya uzun süreli antimikrobiyal ajan kullandırılmalıdır"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Şiddetli ağız kuruluğu (kserostomi/hiposalivasyon) bulguları gösteren bu hastada antimikrobiyal protein/ajan içeren ürünlerin kullanımı kişiye göre belirlenmeli ve oral floradaki ekolojik dengeyi bozup dirençli suşlar ile mantar enfeksiyonlarına yol açmaması için \"uzun süreli olmamak kaydıyla\" kısa periyotlarla planlanmalıdır; uzun süreli antimikrobiyal ajan kullandırılması yanlıştır. Çeldiriciler: - A) Astım hastalarında kullanılan inhaler ilaçlar ağız kuruluğuna ve yüksek DMFT indeksine neden olabilir. - B) Ağız kuruluğu (kserostomi) teşhisi konulan hastada uyarılmış tükürük akışı 0,7 ml/dk'nın (uyarılmamış ise 0,1 ml/dk'nın) altındadır. - C) Tükürük akışını uyarmak ve çürüğü önlemek için ksilitol/sorbitol içeren şekersiz sakız ve pastiller önerilir. - D) Mukoza kuruluğunu ve irritasyonunu artıracağı için alkollü gargaralar ve sodyum lauril sülfat (SLS) içerikli macunların kullanımından kaçınılmalıdır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Hiposalivasyonda uyarılmamış tükürük miktarı, dakikada kaç ml'den az olmalıdır?",
+    "options": {
+      "A": "0,01",
+      "B": "0,10",
+      "C": "0,25",
+      "D": "0,35",
+      "E": "0,70"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Yetişkin bir bireyde hiposalivasyon (ağız kuruluğu / kserostomi) tanısı konulabilmesi için uyarılmamış tükürük akış hızının dakikada 0,10 ml'den (<0,1 ml/dk) az olması gerekir. Çeldiriciler: - C ve D) 0,25-0,35 ml/dk değerleri normal uyarılmamış tükürük akış hızı (0,3-0,5 ml/dk) sınırlarına yakındır. - E) 0,70 ml/dk değeri uyarılmamış tükürük için değil, uyarılmış tükürük için hiposalivasyon eşik değeridir (<0,7 ml/dk).",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Aşağıdaki uyarılmamış tükürük akış hızı değerlerinin hangisi yetişkin bir birey için \"şiddetli\" tükürük azlığını ifade eder?",
+    "options": {
+      "A": "<0,1 ml/dakika",
+      "B": "<0,3 ml/dakika",
+      "C": "<0,5 ml/dakika",
+      "D": "<0,7 ml/dakika",
+      "E": "<1 ml/dakika"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Yetişkin bir bireyde her iki cinsiyette de uyarılmamış tükürük akış hızının dakikada 0,1 ml'nin altında (<0,1 ml/dakika) olması şiddetli tükürük azlığını (hiposalivasyon/kserostomi) ifade eder. Çeldiriciler: - B ve C) 0,3-0,5 ml/dakika sağlıklı bireylerdeki normal uyarılmamış tükürük akış hızıdır. - D) <0,7 ml/dakika (kadınlarda <0,5 ml/dk, erkeklerde <0,7 ml/dk) uyarılmış tükürük için hiposalivasyon eşiğidir. - E) <1 ml/dakika uyarılmış tükürükte düşük-normal aralıktadır.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Kliniğe başvuran 54 yaşındaki bayan hasta mevcut hareketli protezlerini kullanamamaktan yakınmaktadır. Yapılan klinik muayenede bukkal mukozada kuruluk, dilde çatlaklar mantar enfeksiyonları ve yüksek DMFT indeksi tespit edilmiştir. Bu hastada için aşağıda verilenlerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hastada Sjögren sendromu mevcut olabilir",
+      "B": "Hipertansiyon hastası olabilir",
+      "C": "Kolinerjik ilaç kullanımı mevcut olabilir",
+      "D": "Uyarılmış tükürük salgısı 0.7 ml/dk'dan azdır",
+      "E": "Hastaya doktor kontrolünde yüksek florürlü diş macunu önerilmelidir"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hastadaki klinik bulgular (protez kullanamama, mukoza kuruluğu, dilde çatlaklar, kandidiyazis, yüksek DMFT) şiddetli ağız kuruluğunu (kserostomi) göstermektedir. Kolinerjik (parasempatomimetik) ilaçlar (örneğin pilokarpin, sevimelin) ağız kuruluğu yapmaz, tam tersine tükürük salgısını artırarak hipersalivasyona neden olur ve ağız kuruluğunun tedavisinde kullanılır; ağız kuruluğu yapan ilaçlar \"antikolinerjik\" ilaçlardır. Çeldiriciler: - A ve B) Sjögren sendromu ve hipertansiyon (veya antihipertansif ilaç kullanımı) ağız kuruluğunun başlıca sistemik nedenlerindendir. - D) Kserostomili hastada uyarılmış tükürük salgısı 0,7 ml/dk'dan, uyarılmamış tükürük salgısı ise 0,1 ml/dk'dan azdır. - E) Ağız kuruluğu olan hastalar yüksek çürük risk grubunda yer aldığından doktor kontrolünde yüksek doz florürlü (2800-5000 ppm F) diş macunu kullanımı önerilir.",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  },
+  {
+    "question": "Xerostomia teşhisi için kritik tükürük akış hızı değerleri aşağıdaki seçeneklerden hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "Uyarılmış tükürük akış hızı: <0,8-1,1 ml/dk — Uyarılmamış tükürük akış hızı: <0,5-0,7 ml/dk",
+      "B": "Uyarılmış tükürük akış hızı: <0,8-1,1 ml/dk — Uyarılmamış tükürük akış hızı: <0,3-0,5 ml/dk",
+      "C": "Uyarılmış tükürük akış hızı: <0,5-0,7 ml/dk — Uyarılmamış tükürük akış hızı: <0,3-0,5 ml/dk",
+      "D": "Uyarılmış tükürük akış hızı: <0,5-0,7 ml/dk — Uyarılmamış tükürük akış hızı: <0,2-0,3 ml/dk",
+      "E": "Uyarılmış tükürük akış hızı: <0,5-0,7 ml/dk — Uyarılmamış tükürük akış hızı: <0,1 ml/dk"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Xerostomia (ağız kuruluğu) teşhisinde kritik tükürük akış hızları; uyarılmış tükürükte kadınlarda <0,5 ml/dk ve erkeklerde <0,7 ml/dk (<0,5-0,7 ml/dk), uyarılmamış tükürükte ise her iki cinsiyette de <0,1 ml/dk'dır. Çeldiriciler: A, B, C ve D şıkları uyarılmış ve uyarılmamış kritik hiposalivasyon sınır değerlerini yanlış vermektedir (0,3-0,5 ml/dk normal uyarılmamış akış hızıdır).",
+    "lesson": "Restoratif",
+    "unit": "5 TÜKÜRÜK HİSTOLOJİSİ FİZYOLOJİSİ VE BİYOKİMYASI"
+  }
+]
