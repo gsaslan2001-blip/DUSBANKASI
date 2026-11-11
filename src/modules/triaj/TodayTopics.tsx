@@ -3,7 +3,7 @@ import type { TriajTask } from './types';
 import { preparationForStage } from './domain/questionTasks';
 
 const stageLabel: Record<TriajTask['stage'], string> = {
-  T0_SAMPLING: 'T+0', T3_MAIN: 'T+3', T14_VERIFICATION: 'T+14',
+  T0_SAMPLING: 'İlk tekrar', T3_MAIN: 'T+3', T14_VERIFICATION: 'T+14',
   SATURDAY_REPAIR: 'Cumartesi onarımı', ERROR_VERIFICATION: 'Deneme yanlışı doğrulaması',
   BRANCH_EXAM: 'Branş denemesi',
 };
@@ -73,6 +73,7 @@ export function TodayTopics({ tasks, today, resumeId, onStart, onOpen, onManual,
               onClick={() => onStart({ ...task, preparationDone: isDone })}>
               {resumeId === task.id ? 'Devam et' : 'Başlat'}
             </button>
+          : task.ruleVersion === 'first-review-v2' ? <button type="button" className="rounded-lg border px-3 py-2 font-semibold" onClick={() => onManual(task.id)}>İlk tekrarı aç</button>
           : task.availableCount === undefined ? <span role="status">Sorular hazırlanıyor</span>
           : <div className="text-sm">
               {task.availableCount} uygun soru · {task.questionCount - task.availableCount} eksik{' '}

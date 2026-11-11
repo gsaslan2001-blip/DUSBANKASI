@@ -3,6 +3,7 @@ import type { ReactNode } from 'react';
 import { supabase } from '../../lib/supabase';
 import { getTodayString } from './domain/triage';
 import { summarizeTasks } from './domain/questionTasks';
+import { rollForwardOverdueRepairs } from './domain/state';
 import type { TriajSnapshot } from './persistence/triajRepository';
 import type { TriajState, TriajTaskSummary } from './types';
 
@@ -59,9 +60,12 @@ export function TriajProvider({ userId, children }: { userId?: string; children:
 
   const accept = useCallback((value: TriajSnapshot) => {
     if (!active.current) return;
-    latest.current = value;
-    setSnapshot(value);
-    setSummary(summarizeTasks(value.state));
+    // Vadesi geçmiş Cumartesi onarımlarını her okumada bir kez ilerlet;
+    // aksi hâlde `currentTaskDate` hesabı ile kalıcı `dueDate` ayrışır.
+    const normalized = { ...value, state: rollForwardOverdueRepairs(value.state) };
+    latest.current = normalized;
+    setSnapshot(normalized);
+    setSummary(summarizeTasks(normalized.state));
     setSummaryError(null);
   }, []);
 
@@ -162,6 +166,8 @@ export function TriajProvider({ userId, children }: { userId?: string; children:
       } catch (error) {
         if (active.current) {
           setError(message(error));
+          // TriajVersionMismatch yeniden denemeyle düzelmez; TriajConflict değildir,
+          // bu yüzden döngü onu yukarı fırlatır ve burada 'error' durumuna düşer.
           setStatus(error instanceof repository.TriajConflict ? 'conflict' : 'error');
         }
         throw error;

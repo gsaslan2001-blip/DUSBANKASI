@@ -16,7 +16,7 @@ const kindLabels: Record<TriajImportRecord['kind'], string> = {
   questionLog: 'Soru günlüğü', taxonomy: 'Taksonomi', ankiSnapshot: 'Anki', parameters: 'Ayar',
   focus: 'Odak', reviewDecision: 'Tekrar kararı',
 };
-type BackupPreview = { legacy: LegacyImportPreview } | { native: TriajState };
+type BackupPreview = { legacy: LegacyImportPreview } | { native: TriajState; archiveVersion: number };
 
 function downloadJson(data: string, fileName: string) {
   const url = URL.createObjectURL(new Blob([data], { type: 'application/json' }));
@@ -106,8 +106,10 @@ export function BackupDialog({ onClose }: { onClose: () => void }) {
     try {
       if (file.size > 25 * 1024 * 1024) throw new Error('Dosya 25 MB sınırını aşıyor.');
       const input: unknown = JSON.parse(await file.text());
-      if (input && typeof input === 'object' && 'version' in input && input.version === 1 && 'payload' in input) {
-        setPreview({ native: triajStateSchema.parse(input.payload) });
+      if (input && typeof input === 'object' && 'version' in input && [1, 2].includes(Number(input.version)) && 'payload' in input) {
+        // Yedek zarfı sürümü ile DB schema_version ayrı uzaylardır; sessiz yükseltme yapmıyoruz.
+        const archiveVersion = Number(input.version);
+        setPreview({ native: triajStateSchema.parse(input.payload), archiveVersion });
       } else {
         setPreview({ legacy: previewLegacyImport(input, state) });
       }
@@ -123,8 +125,11 @@ export function BackupDialog({ onClose }: { onClose: () => void }) {
     const saved = 'native' in preview ? await replaceState(preview.native) :
       await save(current => applyLegacyImport(current, preview.legacy));
     if (saved) {
+      const upgraded = 'native' in preview && preview.archiveVersion < 2;
       setPreview(null);
-      setMessage('Aktarım kaydedildi.');
+      setMessage(upgraded
+        ? 'Aktarım kaydedildi. v1 yedeği korunarak plan v2 olarak damgalandı.'
+        : 'Aktarım kaydedildi.');
     }
   }
 

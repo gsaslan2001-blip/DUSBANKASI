@@ -13,8 +13,8 @@ export type BucketType = 'GREEN' | 'YELLOW' | 'RED' | 'NONE';
 export type PriorityLevel = 'P1_CRITICAL' | 'P2_HIGH' | 'P3_MEDIUM' | 'P4_LOW';
 
 export type TestStage =
-  | 'T0_SAMPLING'        // T+0 günü: 10 soruluk adımlı örnekleme
-  | 'T3_MAIN'            // T+3 günü: Kalan 40 soru esas geri çağırma (Triyaj Belirleyici)
+  | 'T0_SAMPLING'        // İlk tekrar: konu çalışması + en az 20 soru, tek oturum (kova atamaz)
+  | 'T3_MAIN'            // T+3 günü: ayrı 40 soru esas geri çağırma (Triyaj Belirleyici)
   | 'T14_VERIFICATION'   // Sarı Kova T+14: 20-25 soru doğrulama testi
   | 'SATURDAY_REPAIR'    // Kırmızı Kova Cumartesi: 30 soru onarım testi
   | 'ERROR_VERIFICATION'
@@ -85,6 +85,8 @@ export interface TopicUnit {
 export type AuditValidationStatus = 'Geçerli' | 'Girişi kontrol et / Mükerrer';
 
 export interface TriageRecord {
+  ruleVersion?: 'first-review-v2';
+  source?: 'bank' | 'manual';
   taskId?: string;
   questionIds?: string[];
   answers?: import('../../types/app').CompactAnswer[];
@@ -128,7 +130,7 @@ export interface DailyGoal {
   targetQuestions: number;
   completedQuestions: number;
   block1Done: boolean;              // Blok 1: Anki & Mikro-Bellek (45 dk)
-  block2Done: boolean;              // Blok 2: Yeni Konu Edinimi & T+0 (Boş Kağıt + 10 Soru)
+  block2Done: boolean;              // Blok 2: Yeni Konu Edinimi & İlk Tekrar (Boş Kağıt + en az 20 Soru)
   block3Done: boolean;              // Blok 3: T+3 Gecikmeli Geri Çağırma (40 Soru) & Kova Triyajı
   block4Done: boolean;              // Blok 4: Branş Denemesi & Anında Anki Kaydı
   checklist: DailyGoalItem[];
@@ -356,6 +358,7 @@ export interface SystemParameters {
 }
 
 export interface TriajTask {
+  ruleVersion?: 'first-review-v2';
   id: string;
   topicId: string;
   lesson: string;
@@ -363,7 +366,7 @@ export interface TriajTask {
   stage: TestStage;
   dueDate: string;
   questionCount: number;
-  status: 'open' | 'completed';
+  status: 'open' | 'completed' | 'cancelled';
   questionIds?: string[];
   availableCount?: number;
   setId?: string;

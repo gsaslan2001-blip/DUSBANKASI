@@ -1,5 +1,4 @@
 import { useCallback, useState } from 'react';
-import type { ReactNode } from 'react';
 import type { TriajTask } from './types';
 import type { ThemeName } from '../../theme';
 import './triaj.css';
@@ -11,6 +10,7 @@ import { SubjectDatabaseView } from './components/SubjectDatabaseView';
 import { KovaTriageReportView } from './components/KovaTriageReportView';
 import { NotificationCalendarView } from './components/NotificationCalendarView';
 import { ExamAndErrorAnalyticsView } from './components/ExamAndErrorAnalyticsView';
+import { subjectForTopic } from './domain/catalog';
 import { DeepSeekModal } from './components/DeepSeekModal';
 import { SystemParametersModal, GirisRehberiModal } from './components/SystemModals';
 import { X, Bell, CheckCircle2 } from './components/icons';
@@ -30,7 +30,6 @@ interface TriajModuleProps {
   onBack: () => void;
   onStartTask: (task: TriajTask) => Promise<void>;
   theme?: ThemeName;
-  recommendations?: ReactNode;
   initialTab?: ActiveTab | 'calendar';
   initialTaskId?: string;
   onStartSimulation?: () => void;
@@ -39,7 +38,7 @@ interface TriajModuleProps {
 }
 
 type ContentProps = Omit<TriajModuleProps, 'userId' | 'onStartTask' | 'theme'>;
-function TriajContent({ onBack, recommendations, initialTab, initialTaskId, onStartSimulation, simulationErrors, onFavoriteQuestion }: ContentProps) {
+function TriajContent({ onBack, initialTab, initialTaskId, onStartSimulation, simulationErrors, onFavoriteQuestion }: ContentProps) {
   const [activeTab, setActiveTab] = useState<ActiveTab>(initialTab === 'calendar' ? 'notifications' : initialTab ?? 'planner');
   const [isNotificationDrawerOpen, setIsNotificationDrawerOpen] = useState(false);
   const [isDeepSeekModalOpen, setIsDeepSeekModalOpen] = useState(false);
@@ -66,7 +65,7 @@ function TriajContent({ onBack, recommendations, initialTab, initialTaskId, onSt
 
       {/* Ana Gövde */}
       <div className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
-        {activeTab === 'planner' && <><DailyPlannerView onStartSimulation={onStartSimulation} />{recommendations}</>}
+        {activeTab === 'planner' && <DailyPlannerView onStartSimulation={onStartSimulation} />}
         {activeTab === 'subjects' && <SubjectDatabaseView />}
         {activeTab === 'notifications' && <NotificationCalendarView initialTaskId={initialTaskId} />}
         {activeTab === 'analytics' && <ExamAndErrorAnalyticsView simulationErrors={simulationErrors} onFavoriteQuestion={onFavoriteQuestion} />}
@@ -104,7 +103,7 @@ function TriajContent({ onBack, recommendations, initialTab, initialTaskId, onSt
               ) : (
                 notifications.map(n => {
                   const targetTopic = topics.find(t => t.id === n.topicId);
-                  const sub = targetTopic ? subjects.find(s => s.id === targetTopic.subjectId) : null;
+                  const sub = targetTopic ? subjectForTopic(subjects, targetTopic.subjectId) ?? null : null;
 
                   return (
                     <div

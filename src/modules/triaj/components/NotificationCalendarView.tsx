@@ -16,7 +16,7 @@ type CalendarTab = typeof tabs[number];
 export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: string }) {
   const {
     topics, tasks, subjects, triageLogs, todayStr, systemParams, reschedule, addTopic, saving,
-    soundEnabled, toggleSound, browserNotificationsEnabled, requestBrowserNotificationPermission,
+    soundEnabled, toggleSound, browserNotificationsEnabled, requestBrowserNotificationPermission, error,
   } = useTriajView();
   const [month, setMonth] = useState(todayStr.slice(0, 7));
   const [selectedDate, setSelectedDate] = useState(todayStr);
@@ -66,11 +66,12 @@ export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: st
       <ul className="space-y-2">
         {list.map(task => {
           const completed = task.status === 'completed';
+          const cancelled = task.status === 'cancelled';
           const date = displayDate(task);
           return (
             <li
               key={task.id}
-              draggable={!completed}
+              draggable={!completed && !cancelled}
               onDragStart={event => {
                 event.dataTransfer.setData('text/plain', task.id);
                 setDraggedTask(task.id);
@@ -79,7 +80,7 @@ export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: st
               className="flex flex-wrap items-center justify-between gap-3 rounded-lg border border-slate-200 bg-slate-50 p-3"
             >
               <div className="flex items-start gap-2">
-                {!completed && <GripVertical className="mt-1 size-4 text-slate-500" aria-hidden="true" />}
+                {!completed && !cancelled && <GripVertical className="mt-1 size-4 text-slate-500" aria-hidden="true" />}
                 <div>
                   <p className="text-sm font-semibold text-slate-900">{task.unit}</p>
                   <p className="text-xs text-slate-600">{task.lesson} · {stageLabels[task.stage]} · {task.questionCount} soru</p>
@@ -87,12 +88,13 @@ export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: st
                     {date}{date < todayStr && !completed ? ` · ${getDaysDiff(date, todayStr)} gün gecikti` : ''}{completed ? ' · Tamamlandı' : ''}
                   </p>
                   {completed && <p className="mt-1 text-xs font-semibold text-emerald-700">Tamamlandı</p>}
+                  {cancelled && <p className="mt-1 text-xs font-semibold">İptal edildi · Geçmiş korunuyor</p>}
                   {!!task.previousDueDates?.length && (
                     <p className="text-xs text-slate-500">Önceki tarihler {task.previousDueDates.join(', ')}</p>
                   )}
                 </div>
               </div>
-              {!completed && (
+              {!completed && !cancelled && (
                 <div className="flex flex-wrap items-center gap-2">
                   <input
                     type="date"
@@ -142,10 +144,13 @@ export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: st
           <div className="mb-4 flex items-center justify-between gap-2">
             <button type="button" onClick={() => stepMonth(-1)} aria-label="Önceki ay" className="rounded-lg border border-slate-200 p-2"><ChevronLeft className="size-4" /></button>
             <h3 className="font-bold">{monthFormat.format(monthStart)}</h3>
+            <button type="button" onClick={() => { setMonth(todayStr.slice(0, 7)); setSelectedDate(todayStr); }} className="rounded-lg border border-slate-200 px-2 py-1 text-xs">Bugün</button>
             <button type="button" onClick={() => stepMonth(1)} aria-label="Sonraki ay" className="rounded-lg border border-slate-200 p-2"><ChevronRight className="size-4" /></button>
           </div>
-          <div className="grid grid-cols-7 gap-1 sm:gap-2">
+          <div className="grid grid-cols-7 mb-2">
             {weekDays.map(day => <span key={day} className="text-center text-xs text-slate-500">{day}</span>)}
+          </div>
+          <div className="triaj-calendar-grid">
             {days.map(date => {
               const open = (tasksByDate.get(date) ?? []).filter(task => task.status === 'open').length;
               const density = getCalendarHeatmapStyle(open);
@@ -162,23 +167,28 @@ export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: st
                   aria-current={date === todayStr ? 'date' : undefined}
                   aria-label={`${date}, ${open} açık görev`}
                   style={open ? { backgroundColor: density.bgHex, color: '#172033' } : undefined}
-                  className={`min-h-11 rounded-lg border px-1 text-xs sm:text-sm ${date === selectedDate ? 'border-indigo-500 ring-1 ring-indigo-500' : 'border-slate-200'} ${date.startsWith(month) ? 'text-slate-800' : 'text-slate-500'}`}>
-                  <span>{Number(date.slice(-2))}</span>
-                  {open > 0 && <span className="ml-0.5 text-[10px] font-bold sm:ml-1">·{open}</span>}
+                  className={`triaj-calendar-day p-2 text-xs sm:text-sm ${date === selectedDate ? 'ring-2 ring-inset ring-indigo-500' : ''} ${date.startsWith(month) ? 'text-slate-800' : 'text-slate-500'}`}>
+                  <span className="block font-semibold">{Number(date.slice(-2))}</span>
+                  {open > 0 && <span className="mt-2 block text-[10px] font-bold">{open} görev</span>}
+                  {(tasksByDate.get(date) ?? []).filter(task => task.status === 'open').slice(0, 2).map(task =>
+                    <span key={task.id} className="mt-1 hidden truncate text-[10px] sm:block" title={`${task.lesson} · ${task.unit} · ${stageLabels[task.stage]}`}>
+                      {stageLabels[task.stage]} · {task.unit}
+                    </span>)}
+                  {open > 2 && <span className="block text-[10px]">+{open - 2}</span>}
                 </button>
               );
             })}
           </div>
           <div className="mt-5 border-t border-slate-200 pt-4">
             <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
-              <h3 className="font-bold">{selectedDate} görevleri ({selectedTasks.length})</h3>
+              <h3 className="font-bold">{selectedDate} görevleri ({selectedTasks.filter(task => task.status === 'open').length} açık · {selectedTasks.length} toplam)</h3>
               <button
                 type="button"
                 onClick={() => setShowAddForm(prev => !prev)}
                 className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-colors shadow-2xs"
               >
                 <Plus className="w-3.5 h-3.5" />
-                <span>{showAddForm ? 'Formu Kapat' : 'Bu Güne Ders / Ünite Başlat (T+0)'}</span>
+                <span>{showAddForm ? 'Formu Kapat' : 'Bu Güne İlk Tekrar Planla'}</span>
               </button>
             </div>
 
@@ -256,6 +266,7 @@ export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: st
                 <div>
                   <input
                     type="text"
+                    aria-label="Çalışma / yama notu"
                     value={planNotes}
                     onChange={e => setPlanNotes(e.target.value)}
                     placeholder="Opsiyonel çalışma / yama notu..."
@@ -279,6 +290,7 @@ export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: st
                     {saving ? 'Kaydediliyor...' : 'Takvime Ekle (T+0 Planla)'}
                   </button>
                 </div>
+                {error && <p role="alert" className="text-sm text-rose-700">{error}</p>}
               </form>
             )}
             {renderTasks(selectedTasks)}

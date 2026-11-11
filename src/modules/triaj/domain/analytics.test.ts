@@ -13,6 +13,11 @@ import {
 import { CanonicalBranchCode, TopicUnit, TriageRecord } from '../types';
 
 describe('Excel-to-App Mimari Kılavuzu Hesaplama Motoru Testleri', () => {
+  it('ölçülmüş saniyeleri korur, boş girişte soru veya süre icat etmez', () => {
+    assert.equal(calculateQuestionLogMetrics(1, 0, 0, 0.5).speedSecondsPerQuestion, 30);
+    assert.equal(calculateQuestionLogMetrics(0, 0, 0, 0).totalQuestions, 0);
+    assert.equal(calculateQuestionLogMetrics(10, 0, 0, 0).paceVerdict, 'Süre girilmedi');
+  });
   it('SWSPS Bilişsel Ceza Skoru: Çeldirici hatası ve düşük FSRS kalıcılığı daha yüksek ceza puanı üretir', () => {
     const highRiskScore = calculateSWSPS({
       errorType: 'Çeldirici', // 1.4

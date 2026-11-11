@@ -6,7 +6,8 @@
  * - Sekme 12: Anki_FSRS_Takip (%95.8 Kalıcılık, Kart Olgunluk Dağılımı & 16 Branş Kart Tablosu)
  */
 
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
+import { useModalA11y } from '../../../hooks/useModalA11y';
 import { CANONICAL_UNITS } from '../../../config/canonicalUnits';
 import type { SimulationErrorChoice } from '../TriajModule';
 import { unitKey } from '../domain/catalog';
@@ -55,7 +56,7 @@ export const ExamAndErrorAnalyticsView: React.FC<{
   onFavoriteQuestion?: (id: string) => void;
 }> = ({ simulationErrors = [], onFavoriteQuestion }) => {
   const {
-    mockExams,
+    mockExams: storedExams,
     addMockExam,
     deleteMockExam,
     semanticErrors,
@@ -74,11 +75,23 @@ export const ExamAndErrorAnalyticsView: React.FC<{
     systemParams,
     todayStr
   } = useTriajView();
+  const mockExams = useMemo(() => [...storedExams].sort((a, b) => a.date.localeCompare(b.date) || a.id.localeCompare(b.id)), [storedExams]);
+  const submitting = useRef(false);
+  const [busy, setBusy] = useState(false);
+  async function submitOnce(operation: () => Promise<void>) {
+    if (submitting.current || saving) return;
+    submitting.current = true;
+    setBusy(true);
+    try { await operation(); }
+    finally { submitting.current = false; setBusy(false); }
+  }
 
   const [activeSubTab, setActiveSubTab] = useState<AnalyticsTab>(simulationErrors.length ? 'SWSPS_ERRORS' : 'MOCK_EXAMS');
 
   // --- 1. DENEME_ANALIZ STATE ---
   const [isNewExamOpen, setIsNewExamOpen] = useState(false);
+  const closeExam = useCallback(() => { if (!submitting.current) setIsNewExamOpen(false); }, []);
+  const examDialog = useModalA11y(closeExam, isNewExamOpen);
   const [examDate, setExamDate] = useState(todayStr);
   const [examInstitution, setExamInstitution] = useState('');
   const [editingExamId, setEditingExamId] = useState<string>();
@@ -181,9 +194,11 @@ export const ExamAndErrorAnalyticsView: React.FC<{
       return value === undefined ? [] : [[branch.code, value] as const];
     });
     if (entries.length < CANONICAL_16_BRANCHES.length) return;
-    if (await addMockExam(examDate, examInstitution, Object.fromEntries(entries) as Record<CanonicalBranchCode, number>, examNotes, editingExamId)) {
-      setIsNewExamOpen(false);
-    }
+    await submitOnce(async () => {
+      if (await addMockExam(examDate, examInstitution, Object.fromEntries(entries) as Record<CanonicalBranchCode, number>, examNotes, editingExamId)) {
+        setIsNewExamOpen(false);
+      }
+    });
   };
 
   const chooseWrong = (id: string) => {
@@ -206,6 +221,7 @@ export const ExamAndErrorAnalyticsView: React.FC<{
     e.preventDefault();
     if (!errSummary.trim() || (protocolType >= 4 && (!errorLesson || !errorUnit))) return;
     const chosenExam = chosenError ? mockExams.find(item => item.id === chosenError.examId || item.simulationId === chosenError.examId) : undefined;
+    await submitOnce(async () => {
     const saved = await addSemanticError({
       date: errorDate, source: errSource, branchCode: errBranchCode, semanticCode: errSemanticCode,
       subtopic: errSubtopic || errorUnit || errSummary, questionSummary: errSummary, errorType: errType,
@@ -220,12 +236,14 @@ export const ExamAndErrorAnalyticsView: React.FC<{
     setErrDistractor('');
     setErrCloze('');
     setErrorQuestionId('');
+    });
   };
 
   // Yeni Soru Çözüm Oturumu Kaydet
-  const handleCreateQuestionLog = (e: React.FormEvent) => {
+  const handleCreateQuestionLog = async (e: React.FormEvent) => {
     e.preventDefault();
-    addQuestionLog({
+    await submitOnce(async () => {
+    const saved = await addQuestionLog({
       date: todayStr,
       sourceBook: logSourceBook,
       branchCode: logBranchCode,
@@ -237,7 +255,8 @@ export const ExamAndErrorAnalyticsView: React.FC<{
       durationMinutes: logDurationMinutes,
       notes: logNotes
     });
-    setLogNotes('');
+    if (saved) setLogNotes('');
+    });
   };
 
   // 16 Branş Spider/Radar SVG Nokta Hesaplayıcısı
@@ -810,7 +829,7 @@ export const ExamAndErrorAnalyticsView: React.FC<{
           {/* Yeni 16 Branş Deneme Giriş Modalı */}
           {isNewExamOpen && (
             <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 backdrop-blur-xs p-4 overflow-y-auto">
-              <div className="bg-white rounded-xl shadow-2xl border border-slate-200 max-w-3xl w-full p-6 space-y-4 my-8">
+              <div ref={examDialog} role="dialog" aria-modal="true" aria-label="Deneme sonucu" tabIndex={-1} className="bg-white rounded-xl shadow-2xl border border-slate-200 max-w-3xl w-full p-6 space-y-4 my-8">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-3">
                   <div>
                     <h3 className="text-base font-bold text-slate-900">
@@ -830,6 +849,8 @@ export const ExamAndErrorAnalyticsView: React.FC<{
                       </label>
                       <input
                         type="date"
+                        aria-label="Sınav Tarihi"
+                        max={todayStr}
                         value={examDate}
                         onChange={e => setExamDate(e.target.value)}
                         className="w-full px-3 py-2 bg-yellow-50 border border-yellow-400 rounded-lg text-xs font-mono"
@@ -842,6 +863,7 @@ export const ExamAndErrorAnalyticsView: React.FC<{
                       </label>
                       <input
                         type="text"
+                        aria-label="Kurum / Deneme Adı"
                         value={examInstitution}
                         onChange={e => setExamInstitution(e.target.value)}
                         className="w-full px-3 py-2 bg-yellow-50 border border-yellow-400 rounded-lg text-xs"
@@ -899,13 +921,15 @@ export const ExamAndErrorAnalyticsView: React.FC<{
                   <div className="flex items-center justify-end gap-2 pt-3 border-t border-slate-100">
                     <button
                       type="button"
-                      onClick={() => setIsNewExamOpen(false)}
+                      onClick={closeExam}
+                      disabled={busy || saving}
                       className="px-4 py-2 border border-slate-300 rounded-lg text-xs font-semibold text-slate-700"
                     >
                       İptal
                     </button>
                     <button
                       type="submit"
+                      disabled={busy || saving}
                       className="px-5 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-lg text-xs font-semibold"
                     >
                       {saving ? 'Kaydediliyor…' : 'Denemeyi Kaydet'}
@@ -1055,6 +1079,7 @@ export const ExamAndErrorAnalyticsView: React.FC<{
                     <label className="block font-semibold text-slate-700 mb-1">Kaynak</label>
                     <input
                       type="text"
+                      aria-label="Kaynak"
                       value={errSource}
                       onChange={e => setErrSource(e.target.value)}
                       className="w-full px-2.5 py-1.5 bg-yellow-50 border border-yellow-400 rounded-lg"
@@ -1104,6 +1129,7 @@ export const ExamAndErrorAnalyticsView: React.FC<{
 
                 <button
                   type="submit"
+                  disabled={busy || saving}
                   className="w-full py-2 bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-lg transition-colors"
                 >
                   Hata Teşhisini &amp; SWSPS Puanını Kaydet
@@ -1453,9 +1479,10 @@ export const ExamAndErrorAnalyticsView: React.FC<{
                     <label className="block font-semibold text-slate-700 mb-1">Süre (dk)</label>
                     <input
                       type="number"
-                      min={1}
+                      min={0}
+                      step="any"
                       value={logDurationMinutes}
-                      onChange={e => setLogDurationMinutes(parseInt(e.target.value, 10) || 1)}
+                      onChange={e => setLogDurationMinutes(Number(e.target.value))}
                       className="w-full px-2 py-1.5 bg-yellow-100 border border-yellow-400 rounded font-mono font-bold text-center"
                     />
                   </div>
@@ -1480,6 +1507,7 @@ export const ExamAndErrorAnalyticsView: React.FC<{
 
                 <button
                   type="submit"
+                  disabled={busy || saving || logCorrect + logWrong + logEmpty === 0}
                   className="w-full py-2 bg-slate-900 hover:bg-slate-800 text-white font-semibold rounded-lg"
                 >
                   Soru Çözüm Oturumunu Kaydet

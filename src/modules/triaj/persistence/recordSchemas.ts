@@ -17,9 +17,9 @@ const score = z.object({
 });
 
 export const topicSchema = z.object({
-  id, subjectId: id, unitNumber: count, title: text, subtopics: z.array(text), currentBucket: bucket, priority,
+  id, subjectId: id, unitNumber: count.min(1), title: text, subtopics: z.array(text), currentBucket: bucket, priority,
   status: z.enum(['NOT_STARTED', 'T0_DONE', 'T3_PENDING', 'TRIAGED', 'DISCHARGED']),
-  topicCode: text.optional(), discharged: z.boolean(), createdAt: text, updatedAt: text,
+  topicCode: text.optional(), discharged: z.boolean(), createdAt: calendarDate, updatedAt: calendarDate,
   t0Date: calendarDate.optional(), t3DueDate: calendarDate.optional(), t14DueDate: calendarDate.optional(),
   saturdayRepairDate: calendarDate.optional(), lastStudiedDate: calendarDate.optional(), reviewCount: count.optional(),
   t0Score: score.optional(), t3Score: score.optional(), t14Score: score.optional(), repairScore: score.optional(),
@@ -27,22 +27,26 @@ export const topicSchema = z.object({
 });
 
 export const taskSchema = z.object({
+  ruleVersion: z.literal('first-review-v2').optional(),
   id, topicId: id, lesson: id, unit: id, stage, dueDate: calendarDate, questionCount: z.number().int().min(1).max(120),
-  status: z.enum(['open', 'completed']), questionIds: z.array(id).max(120).optional(),
+  status: z.enum(['open', 'completed', 'cancelled']), questionIds: z.array(id).max(120).optional(),
   availableCount: count.optional(), setId: id.optional(), errorId: id.optional(), preparationDone: z.boolean().optional(),
   completedDate: calendarDate.optional(), previousDueDates: z.array(calendarDate).optional(),
 }).refine(task => (!task.setId && !task.questionIds) ||
-  (!!task.setId && task.questionIds?.length === task.questionCount && new Set(task.questionIds).size === task.questionCount));
+  (!!task.setId && task.questionIds?.length === task.questionCount && new Set(task.questionIds).size === task.questionCount))
+  .refine(task => !(task.ruleVersion === 'first-review-v2' && task.stage === 'T0_SAMPLING') || task.questionCount >= 20,
+    'İlk tekrar en az 20 soru olmalıdır.');
 
 export const triageRecordSchema = score.extend({
-  id, topicId: id, subjectId: id, topicTitle: text, subjectName: text, stage, empty: count,
+  ruleVersion: z.literal('first-review-v2').optional(), source: z.enum(['bank', 'manual']).optional(),
+  id, topicId: id, subjectId: id, topicTitle: text, subjectName: text, stage, empty: count.default(0),
   resultingBucket: bucket, resultingPriority: priority, clinicalDiagnosis: text, recommendedAction: text,
-  recordCode: text.optional(), taskId: id.optional(), questionIds: z.array(id).optional(),
+  recordCode: text.optional(), taskId: id.optional(), questionIds: z.array(id).max(120).optional(),
   answers: z.array(z.object({
     questionId: id, state: z.enum(['correct', 'incorrect', 'blank']),
     selectedOptionKey: text.nullable().optional(), timeSpent: count.optional(),
   })).max(120).optional(),
-  recordedAt: z.iso.datetime().optional(), notes: text.optional(),
+  recordedAt: z.iso.datetime({ offset: true }).optional(), notes: text.optional(),
   validationStatus: z.enum(['Geçerli', 'Girişi kontrol et / Mükerrer']).optional(),
 });
 
@@ -54,7 +58,7 @@ export const dailyGoalSchema = z.object({
 
 export const mockExamSchema = z.object({
   id, date: calendarDate, institution: text, branchNets: z.record(branch, z.number()),
-  basicNet: z.number(), clinicalNet: z.number(), totalNet: z.number(), targetDiff: z.number(), accuracyPercent: z.number(),
+  basicNet: z.number().min(-10).max(40), clinicalNet: z.number().min(-20).max(80), totalNet: z.number().min(-30).max(120), targetDiff: z.number(), accuracyPercent: z.number(),
   adccStatus: z.enum(['ELİT', 'GELİŞİM']), notes: text.optional(),
   simulationId: id.optional(), missingBranches: z.array(branch).optional(), durationSeconds: count.optional(),
 });

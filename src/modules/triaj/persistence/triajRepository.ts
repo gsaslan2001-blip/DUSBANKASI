@@ -17,7 +17,7 @@ export const triajStateSchema = z.object({
   notificationReads: z.array(z.string()), imports: z.array(triajImportRecordSchema),
 });
 
-const SCHEMA_VERSION = 1;
+const SCHEMA_VERSION = 2;
 export interface TriajSnapshot {
   state: TriajState;
   revision: number;
@@ -29,12 +29,19 @@ export class TriajConflict extends Error {
   }
 }
 
+/** Sürüm uyuşmazlığı: yeniden denemek işe yaramaz, kullanıcı uygulamayı yenilemeli. */
+export class TriajVersionMismatch extends Error {
+  constructor() {
+    super('Plan farklı bir uygulama sürümüyle kaydedilmiş. Sayfayı yenileyip tekrar deneyin.');
+  }
+}
+
 export async function readTriajState(userId: string): Promise<TriajSnapshot> {
   const { data, error } = await supabase.from('triaj_state')
     .select('revision,schema_version,payload').eq('user_id', userId).maybeSingle();
   if (error) throw new Error(error.message);
   if (!data) return { state: emptyTriajState(), revision: 0 };
-  if (data.schema_version !== SCHEMA_VERSION) throw new Error('Bu plan sürümü desteklenmiyor.');
+  if (![1, SCHEMA_VERSION].includes(data.schema_version)) throw new Error('Bu plan sürümü desteklenmiyor. Uygulamayı yenileyin.');
   return { state: triajStateSchema.parse(data.payload), revision: data.revision };
 }
 
@@ -49,6 +56,7 @@ export async function writeTriajState(userId: string, revision: number, state: T
     const { data, error } = await supabase.from('triaj_state')
       .update(row).eq('user_id', userId).eq('revision', revision).select('revision').maybeSingle();
     if (error?.code === '40001') throw new TriajConflict();
+    if (error?.code === '55000') throw new TriajVersionMismatch();
     if (error) throw new Error(error.message);
     if (!data) throw new TriajConflict();
   }

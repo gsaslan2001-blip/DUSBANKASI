@@ -115,7 +115,7 @@ export function GirisRehberiModal({ onClose }: { onClose: () => void }) {
       <div className="space-y-4 text-sm leading-relaxed">
         <section>
           <h3 className="font-bold">Ünite Çalışması</h3>
-          <p>10 dk boş kâğıt çalışmasının ardından 10 soru çöz. Sıralı 50 kaynak sorusu varsa 5, 10, … 50. T+3’te konuyu okumadan kalan 40 soruyu çöz ve yanlış alt başlıklara 10–15 dk bak. 34+ doğru yeşil ve taburcu, 28–33 sarı, 0–27 kırmızı.</p>
+          <p>Konuyu çalış, boş kâğıtla aktif geri çağırma yap ve en az 20 soru çöz. Bu tek ilk tekrar oturumu kova atamaz. T+3’te konuyu okumadan ayrı 40 soruyu çöz ve yanlış alt başlıklara 10–15 dk bak. 34+ doğru yeşil ve taburcu, 28–33 sarı, 0–27 kırmızı.</p>
         </section>
         <section>
           <h3 className="font-bold">Doğrulama ve Onarım</h3>

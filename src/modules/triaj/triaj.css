@@ -30,15 +30,65 @@
   background-color: #272a3a;
 }
 
+/* Modal perdeleri: palet tersine çevrildiği için `bg-slate-900/60` açık gri olur.
+   Perde her zaman koyu kalsın (TriageModal zaten bg-black kullanıyor). */
+.triaj-module[data-triaj-theme]:not([data-triaj-theme="light"]) [class*="bg-slate-900/"] {
+  background-color: rgb(0 0 0 / 0.6);
+}
+
 .triaj-module[data-triaj-theme]:not([data-triaj-theme="light"]) .hover\:bg-slate-800:hover {
   background-color: #35394b;
+}
+
+/* Koyu kart (bg-slate-900) üzerindeki ikincil metin: `text-slate-300` paleti
+   ters çevrildiği için #454a5e'ye düşüp okunmaz oluyor. Açık tona sabitle. */
+.triaj-module[data-triaj-theme]:not([data-triaj-theme="light"]) :is(.bg-slate-900, [class*="bg-slate-900/"]) :is(.text-slate-300, .text-slate-400) {
+  color: #c7d0e2;
 }
 
 .triaj-module[data-triaj-theme]:not([data-triaj-theme="light"]) :is(.bg-amber-50, .bg-indigo-50, .bg-rose-50, .bg-yellow-50, .bg-yellow-100) {
   color-scheme: light;
 }
 
+/* Excel-style yellow fields keep dark text even when the parent palette is inverted. */
+.triaj-module[data-triaj-theme]:not([data-triaj-theme="light"]) :is(input, select, textarea)[class*="bg-yellow-"] {
+  color: #172033;
+  color-scheme: light;
+}
+
+.triaj-calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--color-slate-200);
+  border-radius: 12px;
+  background: var(--color-slate-200);
+}
+
+.triaj-calendar-day {
+  min-height: 92px;
+  background: var(--triaj-card, #fff);
+  text-align: left;
+  vertical-align: top;
+}
+
+@media (max-width: 640px) {
+  .triaj-calendar-day { min-height: 60px; }
+}
+
 .triaj-module :focus-visible {
   outline: 2px solid #6366f1;
   outline-offset: 2px;
+}
+
+/* Warm worksheet surfaces retain their light palette in every theme. */
+.triaj-module[data-triaj-theme]:not([data-triaj-theme="light"]) :is([class*="bg-yellow-"], .bg-amber-50, .bg-amber-100, .bg-amber-500) {
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+  --color-slate-950: #020617;
+  color: #172033;
+  color-scheme: light;
 }

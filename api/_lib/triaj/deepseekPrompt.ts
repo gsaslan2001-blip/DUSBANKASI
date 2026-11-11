@@ -1,11 +1,6 @@
 import { DEPLOY_DEEPSEEK_MODEL } from '../../../src/modules/triaj/domain/deepseek.js';
 import type { DeepSeekPromptInput, DeepSeekReasoningEffort, DeepSeekResult, DeployChatCompletionRequest } from '../../../src/modules/triaj/domain/deepseek.js';
-
-const SYSTEM_DOCTRINE_PROMPT = `Sen DUS 2027 (Diş Hekimliğinde Uzmanlık Sınavı) Bilişsel Kova Triyajı ve 80/20 Pareto Bellek Mimarisinin uzman klinik akademik motorusun.
-Yanıtlarında şu kurallara kesinlikle uy:
-1. Uzun ansiklopedik özetler yazma; doğrudan sınav kazandıran ayırıcı tanı eşiklerini, sayısal sınırları ve tuzakları maddeler halinde ver.
-2. Benzer kavramları (örn. Evre III vs Evre IV, Gama-1 vs Gama-2, Virüs-Reseptör) yan yana zıtlık/kıyas formatında göster.
-3. Anki kartı istendiğinde tek satırlık {{c1::...}} Cloze formatında ve gerekiyorsa fonolojik/absürt hafıza çivisi (Mnemonic) ile üret.`;
+import { SYSTEM_DOCTRINE_PROMPT } from '../../../src/modules/triaj/domain/deepseek.js';
 
 /**
  * Görev tipine ve ünite bilgilerine göre Deploy.com DeepSeek v4.1 Flash API istek gövdesini oluşturur.

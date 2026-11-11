@@ -6,7 +6,7 @@
 create table if not exists public.triaj_state (
   user_id uuid primary key references auth.users (id) on delete cascade,
   revision bigint not null default 1 check (revision > 0),
-  schema_version integer not null default 1 check (schema_version > 0),
+  schema_version integer not null default 2 check (schema_version > 0),
   payload jsonb not null check (
     jsonb_typeof(payload) = 'object'
     and jsonb_typeof(payload->'tasks') is not distinct from 'array'
@@ -33,12 +33,19 @@ create policy triaj_state_update on public.triaj_state for update to authenticat
   using ((select auth.uid()) = user_id)
   with check ((select auth.uid()) = user_id);
 
+-- v2 muhafızı: schema_version düşürmeyi AYRI SQLSTATE ile reddeder (55000).
+-- 40001 yalnız revizyon çakışması içindir; aksi hâlde istemci "başka cihaz yazdı"
+-- sanıp boşuna yeniden dener. Bu gövde supabase/migrations/20261111143000_triaj_first_review_v2.sql
+-- ile birebir aynı tutulmalıdır.
 create or replace function public.triaj_check_revision() returns trigger
   language plpgsql set search_path = ''
 as $$
 begin
   if new.revision <> old.revision + 1 then
     raise exception 'Invalid TRİAJ revision' using errcode = '40001';
+  end if;
+  if new.schema_version < old.schema_version then
+    raise exception 'TRİAJ client version is outdated; reload before saving' using errcode = '55000';
   end if;
   new.updated_at := now();
   return new;

@@ -6,14 +6,16 @@ import type { TriajState, TriajTask, TriajTaskSummary } from '../types';
 import { currentTaskDate } from './state';
 
 export function dueQuestionTasks(tasks: TriajTaskSummary[], today: string): TriajTaskSummary[] {
+  const priority = (task: TriajTask) => task.status === 'completed' ? 3 : task.stage === 'T0_SAMPLING' ? 2
+    : task.dueDate < today ? 0 : 1;
   return tasks.filter(task => task.status === 'completed'
-    ? task.completedDate === today : currentTaskDate(task, today) <= today)
-    .sort((a, b) => a.dueDate.localeCompare(b.dueDate));
+    ? task.completedDate === today : task.status === 'open' && currentTaskDate(task, today) <= today)
+    .sort((a, b) => priority(a) - priority(b) || a.dueDate.localeCompare(b.dueDate) || a.id.localeCompare(b.id));
 }
 
 export function preparationForStage(stage: TriajTask['stage']): string | undefined {
   switch (stage) {
-    case 'T0_SAMPLING': return '10 dakika boş kâğıt çalışması';
+    case 'T0_SAMPLING': return 'Konu çalışması ve boş kâğıtla aktif geri çağırma';
     case 'T14_VERIFICATION': return 'İşaretli alt başlıklara 5 dakika bakma';
     case 'SATURDAY_REPAIR': return '25 dakika aktif yeniden kurma';
   }

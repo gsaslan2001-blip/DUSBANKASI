@@ -9,7 +9,6 @@
 
 import type {
   CanonicalBranchCode,
-  CanonicalBranchSpec,
   CognitiveErrorType,
   DailyStudyQuestionLog,
   MockExamRecord,
@@ -19,25 +18,11 @@ import type {
   AuditValidationStatus
 } from '../types';
 import { getDaysDiff, getTodayString } from './triage';
+import { CANONICAL_16_BRANCHES } from '../data/branchSpecs';
 
-export const CANONICAL_16_BRANCHES: CanonicalBranchSpec[] = [
-  { code: 'B01', name: 'Anatomi', shortName: 'Anatomi', category: 'TEMEL_BILIMLER', questionCount: 6, targetAccuracyPercent: 88, targetNet: 5.3 },
-  { code: 'B02', name: 'Histoloji ve Embriyoloji', shortName: 'Histoloji', category: 'TEMEL_BILIMLER', questionCount: 4, targetAccuracyPercent: 90, targetNet: 3.6 },
-  { code: 'B03', name: 'Fizyoloji', shortName: 'Fizyoloji', category: 'TEMEL_BILIMLER', questionCount: 4, targetAccuracyPercent: 90, targetNet: 3.6 },
-  { code: 'B04', name: 'Tıbbi Biyokimya', shortName: 'Biyokimya', category: 'TEMEL_BILIMLER', questionCount: 6, targetAccuracyPercent: 86, targetNet: 5.2 },
-  { code: 'B05', name: 'Tıbbi Mikrobiyoloji', shortName: 'Mikrobiyoloji', category: 'TEMEL_BILIMLER', questionCount: 6, targetAccuracyPercent: 88, targetNet: 5.3 },
-  { code: 'B06', name: 'Tıbbi Patoloji', shortName: 'Patoloji', category: 'TEMEL_BILIMLER', questionCount: 4, targetAccuracyPercent: 90, targetNet: 3.6 },
-  { code: 'B07', name: 'Tıbbi Farmakoloji', shortName: 'Farmakoloji', category: 'TEMEL_BILIMLER', questionCount: 6, targetAccuracyPercent: 88, targetNet: 5.3 },
-  { code: 'B08', name: 'Tıbbi Biyoloji ve Genetik', shortName: 'Biyoloji', category: 'TEMEL_BILIMLER', questionCount: 4, targetAccuracyPercent: 92, targetNet: 3.7 },
-  { code: 'B09', name: 'Ağız, Diş ve Çene Cerrahisi', shortName: 'Çene Cerrahisi', category: 'KLINIK_BILIMLER', questionCount: 10, targetAccuracyPercent: 95, targetNet: 9.5 },
-  { code: 'B10', name: 'Ağız, Diş ve Çene Radyolojisi', shortName: 'Radyoloji', category: 'KLINIK_BILIMLER', questionCount: 10, targetAccuracyPercent: 92, targetNet: 9.2 },
-  { code: 'B11', name: 'Periodontoloji', shortName: 'Periodontoloji', category: 'KLINIK_BILIMLER', questionCount: 10, targetAccuracyPercent: 90, targetNet: 9.0 },
-  { code: 'B12', name: 'Ortodonti', shortName: 'Ortodonti', category: 'KLINIK_BILIMLER', questionCount: 10, targetAccuracyPercent: 88, targetNet: 8.8 },
-  { code: 'B13', name: 'Çocuk Diş Hekimliği (Pedodonti)', shortName: 'Pedodonti', category: 'KLINIK_BILIMLER', questionCount: 10, targetAccuracyPercent: 90, targetNet: 9.0 },
-  { code: 'B14', name: 'Endodonti', shortName: 'Endodonti', category: 'KLINIK_BILIMLER', questionCount: 10, targetAccuracyPercent: 92, targetNet: 9.2 },
-  { code: 'B15', name: 'Restoratif Diş Tedavisi', shortName: 'Restoratif', category: 'KLINIK_BILIMLER', questionCount: 10, targetAccuracyPercent: 90, targetNet: 9.0 },
-  { code: 'B16', name: 'Protetik Diş Tedavisi', shortName: 'Protetik', category: 'KLINIK_BILIMLER', questionCount: 10, targetAccuracyPercent: 88, targetNet: 8.8 }
-];
+// Tek kaynak: data/branchSpecs.ts. Buradan re-export edilir ki mevcut
+// `from '../domain/analytics'` importları çalışmaya devam etsin.
+export { CANONICAL_16_BRANCHES };
 
 export const DEFAULT_ERROR_WEIGHTS: Record<CognitiveErrorType, number> = {
   Bilgi: 1.0,
@@ -159,17 +144,17 @@ export function calculateQuestionLogMetrics(
   net: number;
   accuracyPercent: number;
   speedSecondsPerQuestion: number;
-  paceVerdict: 'ELİT HIZ (<50 sn)' | 'İDEAL TEMPO (50-60 sn)' | 'YAVAŞ (>60 sn)';
+  paceVerdict: 'ELİT HIZ (<50 sn)' | 'İDEAL TEMPO (50-60 sn)' | 'YAVAŞ (>60 sn)' | 'Süre girilmedi';
 } {
   const safeCorrect = Math.max(0, Math.round(correct));
   const safeWrong = Math.max(0, Math.round(wrong));
   const safeEmpty = Math.max(0, Math.round(empty));
-  const totalQuestions = Math.max(1, safeCorrect + safeWrong + safeEmpty);
-  const safeMinutes = Math.max(1, durationMinutes);
+  const totalQuestions = safeCorrect + safeWrong + safeEmpty;
+  const safeMinutes = Math.max(0, durationMinutes);
 
   const net = Number((safeCorrect - safeWrong * 0.25).toFixed(2));
-  const accuracyPercent = Number(((safeCorrect / totalQuestions) * 100).toFixed(1));
-  const speedSecondsPerQuestion = Number(((safeMinutes * 60) / totalQuestions).toFixed(1));
+  const accuracyPercent = totalQuestions ? Number(((safeCorrect / totalQuestions) * 100).toFixed(1)) : 0;
+  const speedSecondsPerQuestion = totalQuestions ? Number(((safeMinutes * 60) / totalQuestions).toFixed(1)) : 0;
 
   let paceVerdict: 'ELİT HIZ (<50 sn)' | 'İDEAL TEMPO (50-60 sn)' | 'YAVAŞ (>60 sn)' = 'İDEAL TEMPO (50-60 sn)';
   if (speedSecondsPerQuestion < 50) {
@@ -183,7 +168,7 @@ export function calculateQuestionLogMetrics(
     net,
     accuracyPercent,
     speedSecondsPerQuestion,
-    paceVerdict
+    paceVerdict: safeMinutes > 0 && totalQuestions > 0 ? paceVerdict : 'Süre girilmedi'
   };
 }
 
@@ -328,14 +313,17 @@ export function getCalendarHeatmapStyle(taskCount: number): {
 }
 
 /**
- * Bir ünitenin sıradaki hedef tarihini (T+3, T+14 veya Cumartesi Onarım) döndürür
+ * Bir ünitenin sıradaki hedef tarihini (planlanmış ilk tekrar, T+3, T+14 veya Cumartesi Onarım) döndürür.
+ * `plannedFirstReviewDate`: açık T0_SAMPLING görevinin vadesi. Planlanmış ama henüz
+ * başlanmamış ünitede topic üzerinde hiçbir tarih alanı yoktur; bu parametre
+ * verilmezse matris "hedef yok / gecikme 0" gösterir.
  */
-export function getTopicNextTargetDate(topic: TopicUnit): string | undefined {
+export function getTopicNextTargetDate(topic: TopicUnit, plannedFirstReviewDate?: string): string | undefined {
   if (topic.discharged || topic.currentBucket === 'GREEN') return undefined;
   if (topic.currentBucket === 'RED' && topic.saturdayRepairDate) return topic.saturdayRepairDate;
   if (topic.currentBucket === 'YELLOW' && topic.t14DueDate) return topic.t14DueDate;
-  if (topic.status === 'T0_DONE' && topic.t3DueDate) return topic.t3DueDate;
-  return topic.t3DueDate || topic.t14DueDate || topic.saturdayRepairDate;
+  if ((topic.status === 'T0_DONE' || topic.status === 'T3_PENDING') && topic.t3DueDate) return topic.t3DueDate;
+  return topic.t3DueDate || topic.t14DueDate || topic.saturdayRepairDate || plannedFirstReviewDate;
 }
 
 /**
@@ -346,9 +334,10 @@ export function getTopicNextTargetDate(topic: TopicUnit): string | undefined {
  */
 export function calculateTopicDelayDays(
   topic: TopicUnit,
-  todayStr: string = getTodayString()
+  todayStr: string = getTodayString(),
+  plannedFirstReviewDate?: string
 ): number {
-  const nextDate = getTopicNextTargetDate(topic);
+  const nextDate = getTopicNextTargetDate(topic, plannedFirstReviewDate);
   if (!nextDate) return 0;
   if (nextDate >= todayStr) return 0;
   return Math.max(0, getDaysDiff(nextDate, todayStr));

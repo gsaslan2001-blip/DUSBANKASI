@@ -1,3 +1,5 @@
+import { dueQuestionTasks } from '../domain/questionTasks';
+import { subjectForTopic } from '../domain/catalog';
 /**
  * Günlük Hedef Yönetimi, Canlı TickTick Pomodoro/Süre Ölçer Entegrasyonu ve 4 Katmanlı Bilişsel SOP Kokpiti
  * Doktrin: DUS 2027 4 Blok SOP Şablonu (PDF Madde 8.2) & ExcelMaster TickTick_Pomodoro Konsolidasyonu
@@ -10,7 +12,7 @@ import type { TriajTask } from '../types';
 import type { TickTickFocusSummary, FocusSegment, ConsolidatedFocusDay } from '../integrations/ticktick';
 import { connectTickTick, disconnectTickTick, getTickTickFocus } from '../integrations/ticktick';
 import { branchForQuestion } from '../domain/simulation';
-import { currentTaskDate, focusAverage } from '../domain/state';
+import { focusAverage } from '../domain/state';
 import { addDays, getDaysDiff } from '../domain/triage';
 import { stageLabels } from './TriajViewContext';
 import { TriageModal } from './TriageModal';
@@ -164,11 +166,7 @@ export const DailyPlannerView: React.FC<{ onStartSimulation?: () => void }> = ({
     }
   };
 
-  const dueTasks = tasks.filter(task => task.status === 'open' && currentTaskDate(task, todayStr) <= todayStr)
-    .sort((a, b) => {
-      const priority = (task: TriajTask) => task.stage === 'T3_MAIN' && task.dueDate < todayStr ? 0 : task.stage === 'T0_SAMPLING' ? 2 : 1;
-      return priority(a) - priority(b) || currentTaskDate(a, todayStr).localeCompare(currentTaskDate(b, todayStr));
-    });
+  const dueTasks = dueQuestionTasks(tasks, todayStr).filter(task => task.status === 'open');
   const delayed = dueTasks.filter(task => task.stage === 'T3_MAIN' && task.dueDate < todayStr);
   const calendarWeekday = new Date(`${todayStr}T00:00:00Z`).getUTCDay();
   const weekStart = addDays(todayStr, -((calendarWeekday + 6) % 7));
@@ -187,7 +185,7 @@ export const DailyPlannerView: React.FC<{ onStartSimulation?: () => void }> = ({
   const activeModalTopic = activeTask ? topics.find(topic => topic.id === activeTask.topicId) : undefined;
   const maintenanceIntervals = systemParams.maintenanceDays ?? { clinical: 7, volatile: 8, mechanism: 12 };
   const maintenance = subjects.flatMap(subject => {
-    const subjectTopics = topics.filter(topic => topic.subjectId === subject.id);
+    const subjectTopics = topics.filter(topic => subjectForTopic(subjects, topic.subjectId)?.id === subject.id);
     const groups = subject.name === 'Fizyoloji' ? [
       { label: 'Fizyoloji · Histoloji ve Embriyoloji', units: subjectTopics.filter(topic => topic.title.startsWith('Histoloji - ')), days: maintenanceIntervals.volatile },
       { label: 'Fizyoloji · Sistem fizyolojisi', units: subjectTopics.filter(topic => !topic.title.startsWith('Histoloji - ')), days: maintenanceIntervals.mechanism },
@@ -750,10 +748,10 @@ export const DailyPlannerView: React.FC<{ onStartSimulation?: () => void }> = ({
               <div className="grid grid-cols-3 gap-2 pt-1">
                 <div className="bg-white border border-slate-200/90 rounded-md p-2">
                   <div className="text-[10px] font-semibold text-slate-500 uppercase">
-                    T+0 Kalibrasyon
+                    İlk Tekrar
                   </div>
                   <div className="text-xs font-mono font-bold text-slate-800 mt-0.5">
-                    10 Soru / Ünite
+                    En az 20 Soru / Ünite
                   </div>
                 </div>
                 <div className="bg-white border border-slate-200/90 rounded-md p-2">
@@ -853,7 +851,7 @@ export const DailyPlannerView: React.FC<{ onStartSimulation?: () => void }> = ({
           <div className="mt-4 border-t border-slate-200 pt-3">
             <h4 className="text-sm font-semibold">Biten Derslerin Branş Bakımı</h4>
             <ul className="mt-1 space-y-1 text-sm text-slate-700">
-              {maintenance.map(item => <li key={item.label}>{item.label} · {item.date} · {item.days} günlük aralık · 30–40 soru{item.date <= todayStr ? ' · Vadesi geldi' : ''}</li>)}
+              {maintenance.map(item => <li key={item.label}>{item.label} · {item.date} · {item.days} günlük aralık{item.date <= todayStr ? ' · Vadesi geldi' : ''}</li>)}
             </ul>
           </div>
         )}
@@ -954,12 +952,13 @@ export const DailyPlannerView: React.FC<{ onStartSimulation?: () => void }> = ({
                   <span className="text-[11px] text-slate-500 font-medium">{clinicalMode ? '2,5 saat' : '4 saat · 09.45–13.45'}</span>
                 </div>
                 <h4 className="text-sm font-bold text-slate-900 mt-1">
-                  Yeni Konu Edinimi &amp; T+0 Kalibrasyonu
+                  Yeni Konu Edinimi &amp; İlk Tekrar
                 </h4>
                 <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                  Ana kitaptan derin kodlama (her 3 sayfada 90 sn özetle). Ünite biter bitmez: 10 dk{' '}
-                  <strong className="text-slate-800">Boş Kağıt (Blurting)</strong> + 1. Bankadan
-                  5&apos;in katları olan 10 soru çöz. Kalan 40 soruyu T+3 gününe bırak!
+                  Ana kitaptan derin kodlama (her 3 sayfada 90 sn özetle). Ünite biter bitmez 10 dk{' '}
+                  <strong className="text-slate-800">Boş Kağıt (Blurting)</strong> yap, ardından 1. Bankadan{' '}
+                  <strong className="text-slate-800">en az 20 soru</strong> çöz ve doğru, yanlış, boş sayılarını kaydet.
+                  Konuyu okumadan çözülecek ayrı 40 soruyu T+3 gününe bırak!
                 </p>
                 <div className="mt-2.5 pt-2 border-t border-slate-200 flex items-center justify-between">
                   <span className="text-[11px] text-slate-500 font-medium">Bugün çalıştığınız ünite:</span>
@@ -1013,7 +1012,7 @@ export const DailyPlannerView: React.FC<{ onStartSimulation?: () => void }> = ({
                 </h4>
                 <p className="text-xs text-slate-600 mt-1 leading-relaxed">
                   3 gün önce çalışılan konunun{' '}
-                  <strong className="text-slate-800">kalan 40 sorusu</strong> konu okunmadan
+                  <strong className="text-slate-800">ayrı 40 sorusu</strong> konu okunmadan
                   doğrudan çözülür. 40 sorudaki skora göre ünite{' '}
                   <span className="text-emerald-700 font-semibold">Yeşil (≥34)</span>,{' '}
                   <span className="text-amber-700 font-semibold">Sarı (28-33)</span> veya{' '}
@@ -1056,7 +1055,7 @@ export const DailyPlannerView: React.FC<{ onStartSimulation?: () => void }> = ({
                   Biten Derslerin Karma Denemesi &amp; Hata Kaydı
                 </h4>
                 <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                  Biten derslerden 30-40 soruluk karma test. Yanlış çıkan soruların 5 dk
+                  Biten derslerden karma branş testi. Yanlış çıkan soruların 5 dk
                   mikro-okumasını yap ve{' '}
                   <strong className="text-slate-800">Pazar gününe biriktirmeden</strong> 30 saniyede
                   tek satırlık Cloze zıtlık kuralını Anki&apos;ye gir!
@@ -1098,7 +1097,7 @@ export const DailyPlannerView: React.FC<{ onStartSimulation?: () => void }> = ({
             type="text"
             value={newChecklistText}
             onChange={e => setNewChecklistText(e.target.value)}
-            placeholder="Yeni günlük görev ekleyin (örn: Farmakoloji otonom sinir sistemi T+0 10 soru)..."
+            placeholder="Yeni günlük görev ekleyin (örn: Farmakoloji otonom sinir sistemi ilk tekrarda en az 20 soru)..."
             className="flex-1 px-3 py-2 bg-slate-50 border border-slate-300 rounded-lg text-xs text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-indigo-500 placeholder:text-slate-400"
           />
           <button
@@ -1222,6 +1221,7 @@ export const DailyPlannerView: React.FC<{ onStartSimulation?: () => void }> = ({
                 <label className="block text-xs font-semibold text-slate-700 mb-1">Çalışma Notu (Opsiyonel)</label>
                 <textarea
                   rows={2}
+                  aria-label="Çalışma notu (opsiyonel)"
                   value={plannerNotes}
                   onChange={e => setPlannerNotes(e.target.value)}
                   placeholder="Kritik odak veya tekrar notu..."

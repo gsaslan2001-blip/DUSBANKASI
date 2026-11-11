@@ -12,6 +12,7 @@ import type {
   KovaTriageReport,
   SubjectTriageSummary
 } from '../types.js';
+import { subjectForTopic } from './catalog';
 
 export interface TriageResult {
   bucket: BucketType;
@@ -298,7 +299,7 @@ export function generateNotifications(
     if (topic.discharged) continue;
 
     // T+3 Gecikmeli Test Günü Bildirimi
-    if (topic.status === 'T0_DONE' && topic.t3DueDate) {
+    if ((topic.status === 'T0_DONE' || topic.status === 'T3_PENDING') && topic.t3DueDate) {
       if (topic.t3DueDate <= todayStr) {
         const diff = getDaysDiff(topic.t3DueDate, todayStr);
         const overdueText = diff > 0 ? ` (${diff} gün gecikti!)` : ' (Bugün)';
@@ -308,7 +309,7 @@ export function generateNotifications(
           subjectId: topic.subjectId,
           type: 'T3_DUE',
           title: `T+3 Geri Çağırma Testi${overdueText}: ${topic.title}`,
-          message: 'Ünitenin kalan 40 sorusunu (1. Soru Bankası) ana konuyu tekrar okumadan doğrudan çözün ve Kova Triyajını tamamlayın.',
+          message: 'Ünitenin ayrı 40 sorusunu (1. Soru Bankası) ana konuyu tekrar okumadan doğrudan çözün ve Kova Triyajını tamamlayın.',
           dueDate: topic.t3DueDate,
           priority: 'P3_MEDIUM',
           bucket: 'NONE',
@@ -382,7 +383,7 @@ export function generateTriageReport(
       yellowCount++;
     } else if (topic.currentBucket === 'RED') {
       redCount++;
-    } else {
+    } else if (topic.status === 'T0_DONE' || topic.status === 'T3_PENDING') {
       pendingCount++;
     }
   }
@@ -391,12 +392,12 @@ export function generateTriageReport(
 
   // Ders Bazında Özetler
   const subjectSummaries: SubjectTriageSummary[] = subjects.map(sub => {
-    const subTopics = topics.filter(t => t.subjectId === sub.id);
+    const subTopics = topics.filter(t => subjectForTopic(subjects, t.subjectId)?.id === sub.id);
     const totalUnits = subTopics.length;
     const green = subTopics.filter(t => t.currentBucket === 'GREEN' || t.discharged).length;
     const yellow = subTopics.filter(t => t.currentBucket === 'YELLOW').length;
     const red = subTopics.filter(t => t.currentBucket === 'RED').length;
-    const pending = subTopics.filter(t => t.currentBucket === 'NONE').length;
+    const pending = subTopics.filter(t => t.currentBucket === 'NONE' && (t.status === 'T0_DONE' || t.status === 'T3_PENDING')).length;
     const discharged = subTopics.filter(t => t.discharged).length;
 
     // Neokortikal Depolama Gücü: Yeşil = 1.0, Sarı = 0.5, Kırmızı = 0.0, Henüz çalışılmamış = 0.0
@@ -444,7 +445,7 @@ export function generateTriageReport(
 
   // Kırmızı kova görevleri (Cumartesi onarımları)
   for (const t of topics.filter(t => t.currentBucket === 'RED' && !t.discharged)) {
-    const sub = subjects.find(s => s.id === t.subjectId);
+    const sub = subjectForTopic(subjects, t.subjectId);
     urgentTasks.push({
       id: `urgent-red-${t.id}`,
       topicId: t.id,
@@ -460,7 +461,7 @@ export function generateTriageReport(
 
   // Sarı kova görevleri (T+14 doğrulamaları)
   for (const t of topics.filter(t => t.currentBucket === 'YELLOW' && !t.discharged)) {
-    const sub = subjects.find(s => s.id === t.subjectId);
+    const sub = subjectForTopic(subjects, t.subjectId);
     urgentTasks.push({
       id: `urgent-yellow-${t.id}`,
       topicId: t.id,
@@ -475,18 +476,18 @@ export function generateTriageReport(
   }
 
   // T+3 Gecikmeli test bekleyenler
-  for (const t of topics.filter(t => t.status === 'T0_DONE' && t.t3DueDate && t.t3DueDate <= todayStr)) {
-    const sub = subjects.find(s => s.id === t.subjectId);
+  for (const t of topics.filter(t => (t.status === 'T0_DONE' || t.status === 'T3_PENDING') && t.t3DueDate && t.t3DueDate <= todayStr)) {
+    const sub = subjectForTopic(subjects, t.subjectId);
     urgentTasks.push({
       id: `urgent-t3-${t.id}`,
       topicId: t.id,
       topicTitle: t.title,
       subjectName: sub?.name || 'Ders',
       bucket: 'NONE',
-      priority: 'P3_MEDIUM',
+      priority: t.t3DueDate! < todayStr ? 'P1_CRITICAL' : 'P2_HIGH',
       actionType: 'T+3 Esas Geri Çağırma Testi',
       targetDate: t.t3DueDate || todayStr,
-      instruction: '1. Soru Bankasından kalan 40 soruyu sınav ciddiyetiyle çöz ve triyajı gerçekleştir.'
+      instruction: 'Konuyu yeniden okumadan 40 soruluk esas testi çöz ve triyajı gerçekleştir.'
     });
   }
 

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import type { FormEvent } from 'react';
 import { useModalA11y } from '../../../hooks/useModalA11y';
 import { currentTaskDate } from '../domain/state';
+import { subjectForTopic } from '../domain/catalog';
 import { evaluateSaturdayRepair, evaluateT14Verification, evaluateT3Triage } from '../domain/triage';
 import { requestDeepSeekCompletion } from '../integrations/deepseek';
 import type { TestStage, TopicUnit, TriajTask } from '../types';
@@ -16,17 +17,25 @@ interface TriageModalProps {
 }
 
 export function TriageModal({ topic, stage: initialStage, task: initialTask, onClose }: TriageModalProps) {
-  const { subjects, tasks, todayStr, onStartTask, save, saving, systemParams, recordManualResult } = useTriajView();
+  const { subjects, tasks, todayStr, onStartTask, save, saving, systemParams, recordManualResult, error: saveError } = useTriajView();
   const task = initialTask ? tasks.find(item => item.id === initialTask.id) : tasks.find(item =>
     item.topicId === topic.id && item.status === 'open' && !item.errorId && (!initialStage || item.stage === initialStage));
   const stage = task?.stage ?? initialStage ?? 'T0_SAMPLING';
-  const expected = task?.questionCount ?? 10;
+  const expected = task?.questionCount ?? 20;
+  const firstReview = !task || task.ruleVersion === 'first-review-v2';
+  const flexible = stage === 'T0_SAMPLING' && firstReview;
+  const [bankCount, setBankCount] = useState(String(task?.questionCount ?? 20));
   const [date, setDate] = useState(stage === 'SATURDAY_REPAIR' && task ? currentTaskDate(task, todayStr) : todayStr);
   const [correct, setCorrect] = useState('');
   const [wrong, setWrong] = useState('');
   const [empty, setEmpty] = useState('');
   const [notes, setNotes] = useState('');
+  const [prepDone, setPrepDone] = useState(Boolean(task?.preparationDone));
   const [showManual, setShowManual] = useState(!task);
+
+  useEffect(() => {
+    setPrepDone(Boolean(task?.preparationDone));
+  }, [task?.preparationDone]);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const request = useRef<AbortController | null>(null);
@@ -36,7 +45,7 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
 
   const counts = [correct, wrong, empty].map(Number);
   const total = counts.reduce((sum, count) => sum + count, 0);
-  const validTotal = stage === 'T14_VERIFICATION' ? total >= 20 && total <= 25 : total === expected;
+  const validTotal = flexible ? total >= 20 : stage === 'T14_VERIFICATION' ? total >= 20 && total <= 25 : total === expected;
   const valid = validTotal && [correct, wrong, empty].every(Boolean) && counts.every(value => Number.isInteger(value) && value >= 0);
   const preview = valid ? (
     stage === 'T3_MAIN' ? evaluateT3Triage(counts[0], total, date)
@@ -59,7 +68,7 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
     setBusy(true);
     setError('');
     try {
-      await onStartTask(task);
+      await onStartTask({ ...task, questionCount: flexible ? Number(bankCount) : task.questionCount });
       onClose();
     } catch (reason) {
       setError(reason instanceof Error ? reason.message : 'Soru oturumu başlatılamadı.');
@@ -75,7 +84,7 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
     setError('');
     setBusy(true);
     try {
-      const subject = subjects.find(item => item.id === topic.subjectId);
+      const subject = subjectForTopic(subjects, topic.subjectId);
       const result = await requestDeepSeekCompletion({
         taskType: 'TRIAGE_PATCH',
         subjectName: subject?.name,
@@ -97,7 +106,7 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
   }
 
   const preparation = stage === 'T0_SAMPLING'
-    ? '10 dakika boş kâğıt çalışması yap.'
+    ? 'Konuyu çalış ve kitabı kapatıp boş kâğıtla aktif geri çağırma yap.'
     : stage === 'SATURDAY_REPAIR' ? '25 dakika aktif yeniden kurma yap.'
     : stage === 'T14_VERIFICATION' ? 'İşaretli alt başlıklara 5 dakika bak.' : null;
   const available = task?.availableCount;
@@ -121,9 +130,10 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
                 <div className="rounded-lg bg-slate-100 p-3 text-sm">
                   {task ? (
                     <label className="flex items-center gap-2">
-                      <input type="checkbox" checked={Boolean(task.preparationDone)} disabled={saving}
+                      <input type="checkbox" checked={prepDone} disabled={saving}
                         onChange={event => {
                           const preparationDone = event.target.checked;
+                          setPrepDone(preparationDone);
                           void save(state => ({
                             ...state,
                             tasks: state.tasks.map(item => item.id === task.id ? { ...item, preparationDone } : item),
@@ -134,7 +144,12 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
                   ) : <p>{preparation}</p>}
                 </div>
               )}
-              {stage === 'T3_MAIN' && <p className="text-sm text-slate-600">Konuyu yeniden okumadan testi çöz. Sonrasında yanlış alt başlıklarına 10–15 dakika bak.</p>}
+              {flexible && <p className="text-sm text-slate-600">İlk tekrar: konu çalışması ve en az 20 soru tek oturumdur. Sonuç kova atamaz; fiili tarihten üç gün sonrasına 40 soruluk T+3 testi açar.</p>}
+              {stage === 'T0_SAMPLING' && !firstReview && <p className="text-sm text-amber-900">Eski 10 soruluk görev korunuyor. Yeni ilk tekrar düzenine geçmek için Dersler ekranında bu planı iptal edip yeniden planlayın.</p>}
+              {flexible && <label className="block text-sm font-semibold">Banka soru sayısı (20–120)
+                <input type="number" min={20} max={120} value={bankCount} disabled={Boolean(task?.setId)} onChange={event => setBankCount(event.target.value)} className="mt-1 block rounded-md border border-slate-300 bg-slate-50 p-2" />
+              </label>}
+              {stage === 'T3_MAIN' && <p className="text-sm text-slate-600">Konuyu yeniden okumadan testi çöz. Sonrasında yanlış alt başlıklarına 10–15 dakika bak. İlk tekrar dış kaynakta çözüldüyse soru kimlikleri bilinmediğinden tekrar etmeme garantisi verilemez.</p>}
               {stage === 'ERROR_VERIFICATION' && <p className="text-sm text-slate-600">13 veya daha fazla doğru hata dosyasını kapatır.</p>}
               {shortage && <p role="status" className="rounded-lg bg-amber-50 p-3 text-sm text-amber-900">{available} uygun soru var, {expected - available} soru eksik. Tam testi çözdüysen sonucu elle kaydedebilirsin.</p>}
               {task && (
@@ -155,12 +170,12 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
                     <input type="date" required value={date} max={todayStr} onChange={event => setDate(event.target.value)}
                       className="mt-1 block rounded-md border border-slate-300 bg-slate-50 p-2" />
                   </label>
-                  <p className="text-sm text-slate-600">Toplam {stage === 'T14_VERIFICATION' ? '20–25' : expected} olmalı. Kullanılmayan alanlara 0 yaz.</p>
+                  <p className="text-sm text-slate-600">Toplam {flexible ? 'en az 20' : stage === 'T14_VERIFICATION' ? '20–25' : expected} olmalı. Kullanılmayan alanlara 0 yaz.</p>
                   <div className="grid grid-cols-3 gap-2">
                     {([['Doğru', correct, setCorrect], ['Yanlış', wrong, setWrong], ['Boş', empty, setEmpty]] as const).map(([label, value, setValue]) => (
                       <label key={label} className="text-sm font-semibold">
                         {label}
-                        <input type="number" required min="0" max={stage === 'T14_VERIFICATION' ? 25 : expected} value={value}
+                        <input type="number" required min="0" max={flexible ? undefined : stage === 'T14_VERIFICATION' ? 25 : expected} value={value}
                           onChange={event => setValue(event.target.value)} className="mt-1 w-full rounded-md border border-slate-300 bg-slate-50 p-2" />
                       </label>
                     ))}
@@ -183,7 +198,7 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
                   </button>
                 </form>
               )}
-              {error && <p role="alert" className="text-sm text-rose-700">{error}</p>}
+              {(error || saveError) && <p role="alert" className="text-sm text-rose-700">{error || saveError}</p>}
               {stage === 'T14_VERIFICATION' && !showManual && <p className="text-xs text-slate-500">Plan kotası {task?.questionCount ?? systemParams.verificationQuestions ?? 20} soru.</p>}
             </>
           )}

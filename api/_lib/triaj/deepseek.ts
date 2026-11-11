@@ -82,6 +82,9 @@ export async function generateDeepSeek(
     if (response.status === 429) {
       throw new TriajApiError(429, 'PROVIDER_RATE_LIMIT', 'Yapay zekâ sağlayıcısı yoğun. Biraz sonra tekrar deneyin.');
     }
+    if (response.status === 401 || response.status === 403) {
+      throw new TriajApiError(502, 'PROVIDER_AUTH_FAILED', 'Yapay zekâ sağlayıcısı sunucu erişimini reddetti. Bağlantı yapılandırması kontrol edilmeli.');
+    }
     if (!response.ok) throw new Error('Provider request failed');
     const completion = completionResponse.parse(await response.json());
     const result = parseDeepSeekResponse(completion);

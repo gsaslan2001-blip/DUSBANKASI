@@ -17,6 +17,7 @@ import {
   getDelayHeatmapStyle,
   getTopicNextTargetDate
 } from '../domain/analytics';
+import { subjectForTopic } from '../domain/catalog';
 import {
   Search,
   Plus,
@@ -49,6 +50,7 @@ function normalizeTurkishText(str: string): string {
 
 export const SubjectDatabaseView: React.FC = () => {
   const { subjects, topics, addTopic, cancelPlannedT0, reschedule, tasks, todayStr, saving } = useTriajView();
+  const plannedTopicIds = useMemo(() => new Set(tasks.filter(task => task.status === 'open').map(task => task.topicId)), [tasks]);
 
   // View Mode Switcher
   const [viewMode, setViewMode] = useState<CurriculumViewMode>('SUBJECT_CARDS');
@@ -79,7 +81,7 @@ export const SubjectDatabaseView: React.FC = () => {
   const temelSubjectsCount = subjects.filter(s => s.category === 'TEMEL_BILIMLER').length;
   const klinikSubjectsCount = subjects.filter(s => s.category === 'KLINIK_BILIMLER').length;
   const temelUnitsCount = topics.filter(t => {
-    const s = subjects.find(sub => sub.id === t.subjectId);
+    const s = subjectForTopic(subjects, t.subjectId);
     return s?.category === 'TEMEL_BILIMLER';
   }).length;
   const klinikUnitsCount = topics.length - temelUnitsCount;
@@ -90,10 +92,10 @@ export const SubjectDatabaseView: React.FC = () => {
       if (categoryFilter !== 'ALL' && sub.category !== categoryFilter) return false;
       if (cognitiveFilter !== 'ALL' && sub.cognitiveGroup !== cognitiveFilter) return false;
 
-      const subTopics = topics.filter(t => t.subjectId === sub.id);
+      const subTopics = topics.filter(t => subjectForTopic(subjects, t.subjectId)?.id === sub.id);
       const matchingTopics = subTopics.filter(t => {
-        if (unitStatusFilter === 'ACTIVE_TRIAGE' && t.status === 'NOT_STARTED') return false;
-        if (unitStatusFilter === 'NOT_STARTED' && t.status !== 'NOT_STARTED') return false;
+        if (unitStatusFilter === 'ACTIVE_TRIAGE' && t.status === 'NOT_STARTED' && !plannedTopicIds.has(t.id)) return false;
+        if (unitStatusFilter === 'NOT_STARTED' && (t.status !== 'NOT_STARTED' || plannedTopicIds.has(t.id))) return false;
         if (searchQuery.trim()) {
           const q = normalizeTurkishText(searchQuery);
           return (
@@ -112,29 +114,29 @@ export const SubjectDatabaseView: React.FC = () => {
 
       return true;
     });
-  }, [subjects, topics, categoryFilter, cognitiveFilter, unitStatusFilter, searchQuery]);
+  }, [subjects, topics, categoryFilter, cognitiveFilter, unitStatusFilter, searchQuery, plannedTopicIds]);
 
   // Flat filtered topics for Tekrar_Plani table
   const filteredFlatTopics = useMemo(() => {
     return topics.filter(t => {
-      const sub = subjects.find(s => s.id === t.subjectId);
+      const sub = subjectForTopic(subjects, t.subjectId);
       if (!sub) return false;
       if (categoryFilter !== 'ALL' && sub.category !== categoryFilter) return false;
       if (cognitiveFilter !== 'ALL' && sub.cognitiveGroup !== cognitiveFilter) return false;
-      if (unitStatusFilter === 'ACTIVE_TRIAGE' && t.status === 'NOT_STARTED') return false;
-      if (unitStatusFilter === 'NOT_STARTED' && t.status !== 'NOT_STARTED') return false;
+      if (unitStatusFilter === 'ACTIVE_TRIAGE' && t.status === 'NOT_STARTED' && !plannedTopicIds.has(t.id)) return false;
+      if (unitStatusFilter === 'NOT_STARTED' && (t.status !== 'NOT_STARTED' || plannedTopicIds.has(t.id))) return false;
       if (searchQuery.trim()) {
-        const q = searchQuery.toLowerCase();
+        const q = normalizeTurkishText(searchQuery);
         return (
-          t.title.toLowerCase().includes(q) ||
-          sub.name.toLowerCase().includes(q) ||
-          sub.code.toLowerCase().includes(q) ||
-          (t.topicCode && t.topicCode.toLowerCase().includes(q))
+          normalizeTurkishText(t.title).includes(q) ||
+          normalizeTurkishText(sub.name).includes(q) ||
+          normalizeTurkishText(sub.code).includes(q) ||
+          (t.topicCode && normalizeTurkishText(t.topicCode).includes(q))
         );
       }
       return true;
     });
-  }, [topics, subjects, categoryFilter, cognitiveFilter, unitStatusFilter, searchQuery]);
+  }, [topics, subjects, categoryFilter, cognitiveFilter, unitStatusFilter, searchQuery, plannedTopicIds]);
 
   const handleCreateTopic = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -163,10 +165,10 @@ export const SubjectDatabaseView: React.FC = () => {
               UNITS.md · ExcelMaster Sekme 2 (Tekrar_Plani) &amp; Sekme 6 (Konu_Takip_Matrisi)
             </div>
             <h2 className="text-lg font-bold text-slate-900 mt-0.5">
-              14 Ders Bloğu (15 Temel DUS Dersi) &amp; {topics.length} Konsolide Ünite
+              {subjects.length} Ders Bloğu &amp; {topics.length} Konsolide Ünite
             </h2>
             <p className="text-xs text-slate-500 mt-0.5">
-              Temel Bilimler: {temelSubjectsCount} Blok ({temelUnitsCount} Ünite · 40 Soru · %33.33) &amp; Klinik Bilimler: {klinikSubjectsCount} Blok ({klinikUnitsCount} Ünite · 80 Soru · %66.67)
+              Temel Bilimler: {temelSubjectsCount} Blok ({temelUnitsCount} Ünite) &amp; Klinik Bilimler: {klinikSubjectsCount} Blok ({klinikUnitsCount} Ünite) · Toplam {subjects.reduce((sum, subject) => sum + subject.questionCount, 0)} Soru
             </p>
           </div>
 
@@ -190,7 +192,7 @@ export const SubjectDatabaseView: React.FC = () => {
               onClick={() => setViewMode('SUBJECT_CARDS')}
               className={`px-3 py-1.5 rounded-md text-xs font-semibold flex items-center gap-1.5 transition-all ${
                 viewMode === 'SUBJECT_CARDS'
-                  ? 'bg-slate-900 text-white shadow-2xs'
+                  ? 'bg-indigo-600 text-white shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
@@ -203,7 +205,7 @@ export const SubjectDatabaseView: React.FC = () => {
               onClick={() => setViewMode('TEKRAR_PLANI')}
               className={`px-3 py-1.5 rounded-md text-xs font-semibold flex items-center gap-1.5 transition-all ${
                 viewMode === 'TEKRAR_PLANI'
-                  ? 'bg-slate-900 text-white shadow-2xs'
+                  ? 'bg-indigo-600 text-white shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
@@ -216,7 +218,7 @@ export const SubjectDatabaseView: React.FC = () => {
               onClick={() => setViewMode('KONU_TAKIP_MATRISI')}
               className={`px-3 py-1.5 rounded-md text-xs font-semibold flex items-center gap-1.5 transition-all ${
                 viewMode === 'KONU_TAKIP_MATRISI'
-                  ? 'bg-slate-900 text-white shadow-2xs'
+                  ? 'bg-indigo-600 text-white shadow-2xs'
                   : 'text-slate-600 hover:text-slate-900'
               }`}
             >
@@ -324,12 +326,12 @@ export const SubjectDatabaseView: React.FC = () => {
         <div className="space-y-4">
           {filteredSubjects.map(sub => {
             const allSubTopics = topics
-              .filter(t => t.subjectId === sub.id)
+              .filter(t => subjectForTopic(subjects, t.subjectId)?.id === sub.id)
               .sort((a, b) => a.unitNumber - b.unitNumber);
 
             const visibleSubTopics = allSubTopics.filter(t => {
-              if (unitStatusFilter === 'ACTIVE_TRIAGE' && t.status === 'NOT_STARTED') return false;
-              if (unitStatusFilter === 'NOT_STARTED' && t.status !== 'NOT_STARTED') return false;
+              if (unitStatusFilter === 'ACTIVE_TRIAGE' && t.status === 'NOT_STARTED' && !plannedTopicIds.has(t.id)) return false;
+              if (unitStatusFilter === 'NOT_STARTED' && (t.status !== 'NOT_STARTED' || plannedTopicIds.has(t.id))) return false;
               if (searchQuery.trim()) {
                 const q = searchQuery.toLowerCase();
                 const subjectMatch =
@@ -362,7 +364,16 @@ export const SubjectDatabaseView: React.FC = () => {
                 className="bg-white rounded-xl border border-slate-200 overflow-hidden shadow-xs transition-shadow hover:shadow-sm"
               >
                 <div
+                  role="button"
+                  tabIndex={0}
+                  aria-expanded={isExpanded}
                   onClick={() => setExpandedSubjectId(isExpanded ? null : sub.id)}
+                  onKeyDown={event => {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                      event.preventDefault();
+                      setExpandedSubjectId(isExpanded ? null : sub.id);
+                    }
+                  }}
                   className="p-4 sm:p-5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 cursor-pointer hover:bg-slate-50/80 transition-colors select-none"
                 >
                   <div className="flex items-start sm:items-center gap-3.5">
@@ -441,6 +452,8 @@ export const SubjectDatabaseView: React.FC = () => {
 
                     <button
                       type="button"
+                      onClick={() => setExpandedSubjectId(isExpanded ? null : sub.id)}
+                      aria-expanded={isExpanded}
                       className="p-1.5 text-slate-400 hover:text-slate-700 rounded-lg hover:bg-slate-200 transition-colors"
                       aria-label={`${sub.name} Dersini ${isExpanded ? 'Daralt' : 'Genişlet'}`}
                     >
@@ -482,6 +495,7 @@ export const SubjectDatabaseView: React.FC = () => {
                           type="button"
                           onClick={() => {
                             setNewTopicSubjectId(sub.id);
+                            setNewTopicTitle('');
                             setIsAddTopicModalOpen(true);
                           }}
                           className="text-xs text-indigo-600 hover:text-indigo-800 font-semibold flex items-center gap-1"
@@ -641,10 +655,10 @@ export const SubjectDatabaseView: React.FC = () => {
               </thead>
               <tbody className="divide-y divide-slate-100 font-mono">
                 {filteredFlatTopics.map(topic => {
-                  const sub = subjects.find(s => s.id === topic.subjectId);
+                  const sub = subjectForTopic(subjects, topic.subjectId);
                   const t0Task = tasks.find(task => task.topicId === topic.id && task.stage === 'T0_SAMPLING' && task.status === 'open');
                   const t3Task = tasks.find(task => task.topicId === topic.id && task.stage === 'T3_MAIN' && task.status === 'open');
-                  const nextTarget = t0Task?.dueDate ?? getTopicNextTargetDate(topic);
+                  const nextTarget = t0Task?.dueDate ?? getTopicNextTargetDate(topic, t0Task?.dueDate);
                   const actionText =
                     topic.currentBucket === 'GREEN' || topic.discharged
                       ? 'TABURCU (Sadece Branş Denemesi)'
@@ -654,7 +668,7 @@ export const SubjectDatabaseView: React.FC = () => {
                       ? '[KIRMIZI KOVA] Cmt 25dk Onarım + 30 Soru'
                       : (topic.status === 'T0_DONE' || topic.status === 'T3_PENDING')
                       ? 'T+3 Gününde 40 Soru Çözülecek'
-                      : 'T+0 Konu + 10 Soru Bekleniyor';
+                      : 'T+0 Konu + en az 20 Soru Bekleniyor';
 
                   return (
                     <tr key={topic.id} className="hover:bg-slate-50/80 transition-colors">
@@ -759,7 +773,7 @@ export const SubjectDatabaseView: React.FC = () => {
               .filter(s => selectedMatrixSubjectId === 'ALL' || s.id === selectedMatrixSubjectId)
               .map(sub => {
                 const subTopics = topics
-                  .filter(t => t.subjectId === sub.id)
+                  .filter(t => subjectForTopic(subjects, t.subjectId)?.id === sub.id)
                   .sort((a, b) => a.unitNumber - b.unitNumber);
 
                 return (
@@ -793,9 +807,10 @@ export const SubjectDatabaseView: React.FC = () => {
                         </thead>
                         <tbody className="divide-y divide-slate-100 font-mono">
                           {subTopics.map(t => {
-                            const delayDays = calculateTopicDelayDays(t, todayStr);
+                            const plannedT0 = tasks.find(task => task.topicId === t.id && task.stage === 'T0_SAMPLING' && task.status === 'open')?.dueDate;
+                            const delayDays = calculateTopicDelayDays(t, todayStr, plannedT0);
                             const delayStyle = getDelayHeatmapStyle(delayDays);
-                            const nextDate = getTopicNextTargetDate(t);
+                            const nextDate = getTopicNextTargetDate(t, plannedT0);
 
                             return (
                               <tr key={t.id} className="hover:bg-slate-50">

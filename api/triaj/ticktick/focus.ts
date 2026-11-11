@@ -5,19 +5,10 @@ import { adminClient, json, requireUser, route, TriajApiError } from '../../_lib
 import { getTickTickConfig, openCredential } from '../../_lib/triaj/ticktick.js';
 
 export const handler = route('GET', async (request) => {
-  const directToken = process.env.TICKTICK_ACCESS_TOKEN?.trim();
-  const isDirectUsable = Boolean(directToken && directToken !== 'must-not-be-used');
-
-  let userId: string | null = null;
-  try {
-    userId = await requireUser(request);
-  } catch (authErr) {
-    if (!isDirectUsable) throw authErr;
-    userId = 'local-ticktick-user';
-  }
+  const userId = await requireUser(request);
 
   const config = getTickTickConfig();
-  if (!config && !isDirectUsable) {
+  if (!config) {
     return json({ connected: false, configured: false });
   }
 
@@ -31,16 +22,16 @@ export const handler = route('GET', async (request) => {
   const reconnect = () => json({ connected: false, configured: true, needsReconnect: true });
 
   let activeToken: string | null = null;
-  let connectionVersion = 'direct-v1';
+  let connectionVersion = '';
 
-  if (userId && userId !== 'local-ticktick-user') {
+  {
     const { data: connection, error } = await adminClient().from('triaj_ticktick_connections')
       .select('connection_version,credential_ciphertext,credential_expires_at')
       .eq('user_id', userId)
       .maybeSingle();
 
     if (error) {
-      if (!isDirectUsable) throw new TriajApiError(503, 'STORAGE_UNAVAILABLE', 'TickTick bağlantısı okunamadı.');
+      throw new TriajApiError(503, 'STORAGE_UNAVAILABLE', 'TickTick bağlantısı okunamadı.');
     } else if (connection?.credential_ciphertext && connection.connection_version && config) {
       if (connection.credential_expires_at && Date.parse(connection.credential_expires_at) <= Date.now()) {
         return reconnect();
@@ -56,19 +47,13 @@ export const handler = route('GET', async (request) => {
     }
   }
 
-  // Veritabanında connection yoksa ama ortamda doğrudan token varsa kullan
-  if (!activeToken && isDirectUsable) {
-    activeToken = directToken;
-    connectionVersion = 'env-token';
-  }
-
   if (!activeToken) {
     return json({ connected: false, configured: Boolean(config) });
   }
 
   try {
     const { records, syncedAt } = await fetchFocusRecords(
-      userId || 'direct-user', connectionVersion, activeToken, today, searchParams.get('refresh') === '1', request,
+      userId, connectionVersion, activeToken, today, searchParams.get('refresh') === '1', request,
     );
     return json(buildTickTickFocusSummary(records, today, date, syncedAt));
   } catch (error) {

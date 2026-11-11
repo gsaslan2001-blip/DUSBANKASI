@@ -6,6 +6,7 @@ import { useTriaj } from '../TriajProvider';
 import { CANONICAL_16_BRANCHES, INITIAL_TOPIC_TAXONOMY } from '../data/branchSpecs';
 import { CANONICAL_DUS_SUBJECTS } from '../data/subjectProtocols';
 import { calculateQuestionLogMetrics, calculateWorkbookSWSPS, evaluateMockExam } from '../domain/analytics';
+import { subjectForTopic } from '../domain/catalog';
 import { unitKey } from '../domain/catalog';
 import { emptyTriajState } from '../domain/defaults';
 import { addSemanticError, currentTaskDate, planUnit, recordTaskResult, rescheduleTask } from '../domain/state';
@@ -31,7 +32,7 @@ const unitCatalog = subjects.flatMap(subject => (CANONICAL_UNITS[subject.name] ?
 })));
 
 export const stageLabels: Record<TriajTask['stage'], string> = {
-  T0_SAMPLING: 'T+0',
+  T0_SAMPLING: 'İlk tekrar',
   T3_MAIN: 'T+3',
   T14_VERIFICATION: 'T+14',
   SATURDAY_REPAIR: 'Cumartesi onarımı',
@@ -140,7 +141,7 @@ function makeView(state: TriajState, save: Save, todayStr: string) {
     recordManualResult: (topic: TopicUnit, stage: TriajTask['stage'], result: {
       date: string; correct: number; wrong: number; empty: number; notes?: string;
     }, taskId?: string) => save(current => {
-      const subject = subjects.find(item => item.id === topic.subjectId);
+      const subject = subjectForTopic(subjects, topic.subjectId);
       const next = stage === 'T0_SAMPLING' && subject && !current.tasks.some(task => task.topicId === topic.id && task.status === 'open')
         ? planUnit(current, subject.name, topic.title, result.date) : current;
       const task = next.tasks.find(item => taskId ? item.id === taskId :
@@ -150,7 +151,8 @@ function makeView(state: TriajState, save: Save, todayStr: string) {
     }),
     cancelPlannedT0: (id: string) => save(current => ({
       ...current,
-      tasks: current.tasks.filter(item => item.topicId !== id || item.stage !== 'T0_SAMPLING' || item.status !== 'open'),
+      tasks: current.tasks.map(item => item.topicId === id && item.stage === 'T0_SAMPLING' && item.status === 'open'
+        ? { ...item, status: 'cancelled' as const } : item),
     })),
     reschedule: (taskId: string, date: string) => save(current => rescheduleTask(current, taskId, date)),
     updateDailyGoal: (edits: Partial<DailyGoal>) => updateGoal(goal => ({ ...goal, ...edits })),
@@ -207,7 +209,7 @@ function makeView(state: TriajState, save: Save, todayStr: string) {
           daysElapsed: 0,
         });
         const topic = input.topicId ? unitCatalog.find(item => item.id === input.topicId) : undefined;
-        const subject = topic ? subjects.find(item => item.id === topic.subjectId) : undefined;
+        const subject = topic ? subjectForTopic(subjects, topic.subjectId) : undefined;
         const withTopic = topic && subject && !current.topics.some(item => item.id === topic.id)
           ? { ...current, topics: [...current.topics, { ...topic, subjectId: subject.name }] } : current;
         return addSemanticError(withTopic, {
@@ -250,7 +252,7 @@ function makeView(state: TriajState, save: Save, todayStr: string) {
         ankiSnapshots: [...current.ankiSnapshots.filter(item => item.lastSyncDate !== snapshot.lastSyncDate), snapshot],
       };
     }),
-    exportDataJSON: () => JSON.stringify({ version: 1, payload: state }, null, 2),
+    exportDataJSON: () => JSON.stringify({ version: 2, payload: state }, null, 2),
     replaceState: (next: TriajState) => save(() => next),
     resetToInitialData: () => save(() => emptyTriajState()),
     save,
@@ -264,6 +266,7 @@ type ViewContext = ReturnType<typeof makeView> & {
   requestBrowserNotificationPermission: () => Promise<boolean>;
   onStartTask: (task: TriajTask) => Promise<void>;
   saving: boolean;
+  error: string | null;
 };
 
 const Context = createContext<ViewContext | null>(null);
@@ -316,7 +319,7 @@ export function TriajViewProvider({ children, onStartTask, onBack }: {
       {view ? (
         <Context.Provider value={{
           ...view, soundEnabled, browserNotificationsEnabled, requestBrowserNotificationPermission,
-          onStartTask, saving: status === 'saving',
+          onStartTask, saving: status === 'saving', error,
           toggleSound: () => {
             if (!soundEnabled) alertChime();
             setSoundEnabled(!soundEnabled);

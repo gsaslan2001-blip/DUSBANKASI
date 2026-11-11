@@ -103,7 +103,9 @@ function canonicalTopic(record: IncomingRecord, target: CanonicalUnitTarget): To
   const topic = topicSchema.parse({
     ...data, id: unitKey(lesson, unit), subjectId: lesson, title: unit, unitNumber: canonicalUnitNumber(lesson, unit),
   });
-  if (!validScore(topic.t0Score, 10) || !validScore(topic.t3Score, 40) ||
+  // Eski 10 soruluk kayıtlar korunur (kanonik kural: legacy kayıt dönüştürülmez),
+  // yeni ilk tekrar 20–120 arası olabildiği için bant geniş tutulur.
+  if (!validScore(topic.t0Score, 1, 120) || !validScore(topic.t3Score, 40) ||
       !validScore(topic.t14Score, 20, 25) || !validScore(topic.repairScore, 30)) {
     throw new Error('Kaynak test puanının sayıları protokol kotasına uymuyor.');
   }

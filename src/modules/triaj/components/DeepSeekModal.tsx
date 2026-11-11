@@ -7,6 +7,7 @@
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { useModalA11y } from '../../../hooks/useModalA11y';
 import { useTriajView } from './TriajViewContext';
+import { subjectForTopic } from '../domain/catalog';
 import {
   requestDeepSeekCompletion,
   type DeepSeekTaskType,
@@ -35,7 +36,7 @@ interface DeepSeekModalProps {
 
 export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
   onClose,
-  initialSubjectId = 'B14',
+  initialSubjectId,
   initialTopicId
 }) => {
   const { subjects, topics, updateTopic, saving } = useTriajView();
@@ -50,13 +51,14 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
     };
   }, []);
 
-  const [selectedSubjectId, setSelectedSubjectId] = useState<string>(initialSubjectId);
+  // Bağlam verilmezse ilk derse düş; sabit bir kod seçme.
+  const [selectedSubjectId, setSelectedSubjectId] = useState<string>(initialSubjectId ?? subjects[0]?.id ?? '');
   const subjectTopics = useMemo(
     () =>
       topics
-        .filter(t => t.subjectId === selectedSubjectId)
+        .filter(t => subjectForTopic(subjects, t.subjectId)?.id === selectedSubjectId)
         .sort((a, b) => a.unitNumber - b.unitNumber),
-    [topics, selectedSubjectId]
+    [topics, subjects, selectedSubjectId]
   );
 
   const [selectedTopicId, setSelectedTopicId] = useState<string>(

@@ -359,7 +359,7 @@ ${report.urgentTasks.map(t => `- [${t.priority}] ${t.subjectName} - ${t.topicTit
                                 ? 'bg-emerald-500'
                                 : sub.retentionRate >= 50
                                 ? 'bg-amber-500'
-                                : 'bg-slate-300'
+                                : 'bg-rose-500'
                             }`}
                             style={{ width: `${sub.retentionRate}%` }}
                           />
@@ -392,7 +392,7 @@ ${report.urgentTasks.map(t => `- [${t.priority}] ${t.subjectName} - ${t.topicTit
 
           <div className="bg-white p-3.5 rounded-lg border border-slate-200 space-y-1">
             <strong className="text-slate-900 block font-semibold">2. T+14 ve Cumartesi Disiplini</strong>
-            Sarı Kova 14 gün sonraya (T+14) 20 soruyla randevulanır. Kırmızı Kova hafta içi programı bozmaz, doğrudan Cumartesi Kova Onarım Bloğuna aktarılır.
+            Sarı Kova 14 gün sonraya (T+14) 20–25 soruyla randevulanır. Kırmızı Kova hafta içi programı bozmaz, doğrudan Cumartesi Kova Onarım Bloğuna aktarılır.
           </div>
 
           <div className="bg-white p-3.5 rounded-lg border border-slate-200 space-y-1">

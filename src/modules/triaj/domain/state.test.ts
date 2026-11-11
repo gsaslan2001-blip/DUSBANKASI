@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test, vi, beforeEach, afterEach } from 'vitest';
 import { emptyTriajState } from './defaults';
 import { addSemanticError, currentTaskDate, focusAverage, planUnit, recordTaskResult, rescheduleTask } from './state';
 import { addDays, evaluateSaturdayRepair, evaluateT14Verification, evaluateT3Triage, getTodayString } from './triage';
@@ -6,6 +6,9 @@ import { calculateWorkbookSWSPS } from './analytics';
 import { dueQuestionTasks, prepareQuestionTasks } from './questionTasks';
 import { branchForQuestion } from './simulation';
 import type { TriajState, TriajTask } from '../types';
+
+beforeEach(() => { vi.useFakeTimers(); vi.setSystemTime(new Date('2030-01-01T12:00:00Z')); });
+afterEach(() => vi.useRealTimers());
 
 const lesson = 'Anatomi';
 const unit = '1. Ünite - Kemikler';
@@ -68,11 +71,11 @@ describe('TRİAJ çalışma protokolü', () => {
     expect(checked.topics[0].discharged).toBe(true);
   });
   test('T+0 setini kaydeder, T+3’ten çıkarır ve tekrar teslimde ikinci sonuç üretmez', () => {
-    const pool = Array.from({ length: 50 }, (_, i) => ({ id: `q-${i}`, lesson, unit }));
+    const pool = Array.from({ length: 60 }, (_, i) => ({ id: `q-${i}`, lesson, unit }));
     const planned = planUnit(emptyTriajState(), lesson, unit, t0);
     const ready = prepareQuestionTasks(planned, dueQuestionTasks(planned.tasks, t0), pool, {}, t0);
     const task = active(ready);
-    const input = { date: t0, correct: 8, wrong: 1, empty: 1, questionIds: task.questionIds, setId: task.setId };
+    const input = { date: t0, correct: 18, wrong: 1, empty: 1, questionIds: task.questionIds, setId: task.setId };
     expect(prepareQuestionTasks(ready, [task], pool, {}, t0)).toBe(ready);
     expect(() => recordTaskResult(ready, task.id, { ...input, setId: 'wrong' })).toThrow();
     expect(() => recordTaskResult(ready, task.id, { ...input, empty: 0 })).toThrow();

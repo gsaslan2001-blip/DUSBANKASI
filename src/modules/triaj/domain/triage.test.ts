@@ -12,6 +12,17 @@ import {
 import type { DUSSubject, TopicUnit } from '../types';
 import { CANONICAL_UNITS } from '../../../config/canonicalUnits';
 
+test('T+3 bekleyen raporu başlanmamış konuları saymaz ve yeni durumun gecikmesini gösterir', () => {
+  const topic: TopicUnit = { id: 'test', subjectId: 'B01', unitNumber: 1, title: 'Test', subtopics: [],
+    status: 'NOT_STARTED', currentBucket: 'NONE', priority: 'P3_MEDIUM', discharged: false,
+    createdAt: '2026-11-01', updatedAt: '2026-11-01' };
+  assert.equal(generateTriageReport([], [topic], '2026-11-11').pendingTriage, 0);
+  const report = generateTriageReport([], [{ ...topic, status: 'T3_PENDING', t3DueDate: '2026-11-10' }], '2026-11-11');
+  assert.equal(report.pendingTriage, 1);
+  assert.equal(report.urgentTasks.length, 1);
+  assert.equal(report.urgentTasks[0].priority, 'P1_CRITICAL');
+});
+
 test('T+3 Triage correctly assigns GREEN bucket for >= 85% (34-40 correct)', () => {
   const result = evaluateT3Triage(35, 40, '2026-11-10');
   assert.equal(result.bucket, 'GREEN');

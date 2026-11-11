@@ -14,7 +14,8 @@ const scope = 'tasks:read';
 export const oauthLifetimeSeconds = 600;
 
 export function getTickTickConfig() {
-  const configuredOrigin = (process.env.TRIAJ_APP_ORIGIN?.trim() || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'https://dusbankasi.vercel.app')).replace(/\/$/, '');
+  // OAuth must use the explicitly registered callback origin, including previews.
+  const configuredOrigin = (process.env.TRIAJ_APP_ORIGIN?.trim() || '').replace(/\/$/, '');
   const clientId = process.env.TICKTICK_CLIENT_ID?.trim();
   const clientSecret = process.env.TICKTICK_CLIENT_SECRET?.trim();
   const encodedKey = process.env.TRIAJ_TOKEN_ENCRYPTION_KEY?.trim();

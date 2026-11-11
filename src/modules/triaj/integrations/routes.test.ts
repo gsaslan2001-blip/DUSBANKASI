@@ -3,11 +3,13 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { handler as deepseek } from '../../../../api/triaj/ai/deepseek';
 import { handler as aiStatus } from '../../../../api/triaj/ai/status';
+import { handler as legacyDeepseek } from '../../../../api/ai/deepseek';
+import { handler as legacyStatus } from '../../../../api/ai/status';
 import { handler as connect } from '../../../../api/triaj/ticktick/connect';
 import { handler as callback } from '../../../../api/triaj/ticktick/callback';
 import { handler as disconnect } from '../../../../api/triaj/ticktick/disconnect';
 import { handler as focus } from '../../../../api/triaj/ticktick/focus';
-import { openCredential, sealCredential } from '../../../../api/_lib/triaj/ticktick';
+import { getTickTickConfig, openCredential, sealCredential } from '../../../../api/_lib/triaj/ticktick';
 import { getTodayString } from '../domain/triage';
 
 const userA = 'aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa';
@@ -61,6 +63,24 @@ afterEach(() => {
 });
 
 describe('TRİAJ server routes', () => {
+  it('requires an explicitly registered OAuth origin rather than a deployment URL fallback', () => {
+    vi.stubEnv('TRIAJ_APP_ORIGIN', '');
+    vi.stubEnv('VERCEL_URL', 'preview.example');
+    expect(getTickTickConfig()).toBeNull();
+  });
+  it('protects legacy AI aliases with the same authentication and quota', async () => {
+    const network = mockNetwork(() => Response.json(false));
+    expect((await legacyStatus(request('ai/status', 'GET', undefined, ''))).status).toBe(401);
+    expect((await legacyDeepseek(request('ai/deepseek', 'POST', '{"taskType":"CUSTOM"}', ''))).status).toBe(401);
+    expect(network).not.toHaveBeenCalled();
+    expect((await legacyDeepseek(request('ai/deepseek', 'POST', '{"taskType":"CUSTOM"}'))).status).toBe(429);
+  });
+  it('never exposes the environment TickTick token to an unauthenticated request', async () => {
+    vi.stubEnv('TICKTICK_ACCESS_TOKEN', 'private-owner-token');
+    const network = mockNetwork(() => { throw new Error('Unexpected provider call'); });
+    expect((await focus(request('ticktick/focus', 'GET', undefined, ''))).status).toBe(401);
+    expect(network).not.toHaveBeenCalled();
+  });
   it('validates the authenticated session and returns only feature state', async () => {
     const network = mockNetwork(() => { throw new Error('Unexpected provider call'); });
     expect((await aiStatus(request('ai/status', 'GET', undefined, ''))).status).toBe(401);
@@ -124,6 +144,25 @@ describe('TRİAJ server routes', () => {
     response = await invoke();
     expect(response.status).toBe(502);
     expect(await response.text()).not.toContain('internal provider detail');
+    providerStatus = 401;
+    expect(await (await invoke()).json()).toMatchObject({ code: 'PROVIDER_AUTH_FAILED' });
+  });
+
+  it('distinguishes provider timeout without leaking network errors', async () => {
+    mockNetwork((url, init) => {
+      if (url.pathname.endsWith('/rpc/triaj_take_integration_quota')) return Response.json(true);
+      return new Promise((_resolve, reject) => {
+        init?.signal?.addEventListener('abort', () => reject(new Error('private network detail')), { once: true });
+      });
+    });
+    const controller = new AbortController();
+    const pending = deepseek(new Request(request('ai/deepseek', 'POST', '{"taskType":"CUSTOM"}'), { signal: controller.signal }));
+    // Auth and quota settle before the upstream call is cancelled.
+    await vi.waitFor(() => expect(vi.mocked(fetch).mock.calls.some(([url]) => String(url).includes('/chat/completions'))).toBe(true));
+    controller.abort();
+    const response = await pending;
+    expect(response.status).toBe(504);
+    expect(await response.json()).toMatchObject({ code: 'PROVIDER_TIMEOUT' });
   });
 
   it('binds OAuth to the configured origin, browser cookie and single-use state', async () => {

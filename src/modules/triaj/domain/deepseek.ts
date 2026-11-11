@@ -6,7 +6,7 @@
  */
 
 export type DeepSeekTaskType =
-  | 'TRIAGE_PATCH'   // T+3 veya Cumartesi Onarımı için 5-10 dk Nokta Atışı Yama & Çapraz Kıyas
+  | 'TRIAGE_PATCH'   // T+3 veya Cumartesi Onarımı için 10-15 dk Nokta Atışı Yama & Çapraz Kıyas
   | 'ANKI_CLOZE'     // 01-KRITIK-OTOPSI-VE-TABLO destesi için tek satırlık Cloze & Mnemonic
   | 'UNIT_BLURTING'  // T+0 Boş Kağıt (Blurting) kritik eşikler ve DUS soru tuzakları kontrol listesi
   | 'CUSTOM';        // Serbest DUS sorgusu
@@ -67,7 +67,8 @@ export const SYSTEM_DOCTRINE_PROMPT = `Sen DUS 2027 (Diş Hekimliğinde Uzmanlı
 Yanıtlarında şu kurallara kesinlikle uy:
 1. Uzun ansiklopedik özetler yazma; doğrudan sınav kazandıran ayırıcı tanı eşiklerini, sayısal sınırları ve tuzakları maddeler halinde ver.
 2. Benzer kavramları (örn. Evre III vs Evre IV, Gama-1 vs Gama-2, Virüs-Reseptör) yan yana zıtlık/kıyas formatında göster.
-3. Anki kartı istendiğinde tek satırlık {{c1::...}} Cloze formatında ve gerekiyorsa fonolojik/absürt hafıza çivisi (Mnemonic) ile üret.`;
+3. Anki kartı istendiğinde tek satırlık {{c1::...}} Cloze formatında ve gerekiyorsa fonolojik/absürt hafıza çivisi (Mnemonic) ile üret.
+4. İlk tekrar konu çalışması ve en az 20 soruluk tek oturumdur; bu sonuç kova belirlemez. Fiili tamamlanmadan üç gün sonra ayrı 40 soruluk T+3 testi kova kararını verir. 34+ doğru yeşil, 28–33 sarı, 0–27 kırmızıdır. Sarı için 14 gün sonra 20–25 soruluk doğrulama, kırmızı için Cumartesi 25 dakika aktif yeniden kurma ve 30 soru uygulanır. Eski 10+40 örnekleme kuralını yeni ilk tekrara önerme.`;
 
 /**
  * Görev tipine ve ünite bilgilerine göre Deploy.com DeepSeek v4.1 Flash API istek gövdesini oluşturur.
@@ -91,7 +92,7 @@ export function buildDeepSeekPayload(
         input.scoreSummary ? `Test Performansı: ${input.scoreSummary}` : '',
         input.userNotes ? `Öğrencinin Hata Notu: ${input.userNotes}` : '',
         '',
-        'Görev: Bu ünite için DUS sınavında en sık karıştırılan 3 kritik ayırıcı tanı farkını (Çapraz Kıyas) ve 5 dakikalık nokta atışı yama notunu çok net, kısa maddelerle hazırla.'
+        'Görev: Bu ünite için DUS sınavında en sık karıştırılan 3 kritik ayırıcı tanı farkını (Çapraz Kıyas) ve 10–15 dakikalık nokta atışı yama notunu çok net, kısa maddelerle hazırla.'
       ]
         .filter(Boolean)
         .join('\n');

@@ -13,7 +13,7 @@ function requireDate(date: string) {
 
 export function stageQuestionCount(stage: TestStage, state: TriajState): number {
   switch (stage) {
-    case 'T0_SAMPLING': return 10;
+    case 'T0_SAMPLING': return 20;
     case 'T3_MAIN': return 40;
     case 'T14_VERIFICATION': return state.parameters.verificationQuestions ?? 20;
     case 'SATURDAY_REPAIR': return 30;
@@ -31,6 +31,7 @@ function addTask(state: TriajState, topic: TopicUnit, stage: TestStage, date: st
     tasks: [...state.tasks, {
       id, topicId: topic.id, lesson: topic.subjectId, unit: topic.title, stage,
       dueDate: date, questionCount: stageQuestionCount(stage, state), status: 'open', errorId,
+      ...(stage === 'T0_SAMPLING' ? { ruleVersion: 'first-review-v2' as const } : {}),
     }],
   };
 }
@@ -41,16 +42,20 @@ export function planUnit(state: TriajState, lesson: string, unit: string, date: 
   const unitNumber = canonicalUnitNumber(lesson, unit);
   const existing = state.topics.find(topic => topic.id === id);
   const openT0Task = state.tasks.find(task => task.topicId === id && task.stage === 'T0_SAMPLING' && task.status === 'open');
-  if (openT0Task) {
-    return rescheduleTask(state, openT0Task.id, date);
-  }
+  // Aynı üniteye yeni tarih vermek yeni döngü açmaz; mevcut ilk tekrarı taşır.
+  // (v4.76 sözleşmesi: takvim, ders kartı ve planlayıcı aynı planlama eylemini kullanır.)
+  if (openT0Task) return rescheduleTask(state, openT0Task.id, date);
   if (existing && (existing.status !== 'NOT_STARTED' || state.tasks.some(task => task.topicId === id && task.status === 'open' && !task.errorId))) {
     throw new Error('Bu ünitenin çalışma döngüsü zaten kayıtlı.');
   }
+  // Spread sırası önemli: `...existing` önce gelir, hesaplanan alanlar sonra yazılır.
+  // Aksi hâlde katalogdaki yeni `unitNumber` atılır ve `discharged/currentBucket`
+  // gibi durum alanları yeniden planlamada sıfırlanmaz.
   const topic: TopicUnit = {
-    id, unitNumber, subjectId: lesson, title: unit, subtopics: [], status: 'NOT_STARTED',
-    currentBucket: 'NONE', priority: 'P3_MEDIUM', discharged: false, createdAt: date, ...existing,
-    t0Date: date,
+    ...existing,
+    id, unitNumber, subjectId: lesson, title: unit, subtopics: existing?.subtopics ?? [],
+    status: 'NOT_STARTED', currentBucket: 'NONE', priority: 'P3_MEDIUM', discharged: false,
+    createdAt: existing?.createdAt ?? date,
     clinicalNotes: notes ?? existing?.clinicalNotes, updatedAt: date,
   };
   return addTask({
@@ -88,10 +93,13 @@ export function recordTaskResult(state: TriajState, taskId: string, input: TaskR
   const task = state.tasks.find(item => item.id === taskId);
   if (!task) throw new Error('TRİAJ görevi bulunamadı.');
   if (task.status === 'completed') return state;
+  if (task.status !== 'open') throw new Error('İptal edilen göreve sonuç kaydedilemez.');
   const { date, correct, wrong, empty, questionIds } = input;
   requireDate(date);
+  if (date > getTodayString()) throw new Error('Fiili tamamlama tarihi gelecekte olamaz.');
   const total = correct + wrong + empty;
-  const allowedTotal = task.stage === 'T14_VERIFICATION' && !questionIds
+  const allowedTotal = task.ruleVersion === 'first-review-v2' && task.stage === 'T0_SAMPLING' && !questionIds
+    ? total >= 20 : task.stage === 'T14_VERIFICATION' && !questionIds
     ? total >= 20 && total <= 25 : total === task.questionCount;
   if (!allowedTotal || [correct, wrong, empty].some(value => !Number.isInteger(value) || value < 0)) {
     throw new Error('Doğru, yanlış ve boş sayıları tam test kotasını karşılamalı.');
@@ -166,7 +174,6 @@ export function recordTaskResult(state: TriajState, taskId: string, input: TaskR
   const updatedGoal = {
     ...currentGoal,
     completedQuestions: currentGoal.completedQuestions + total,
-    completedStudyMinutes: currentGoal.completedStudyMinutes + Math.max(15, Math.round(total * 1.5)),
     block2Done: currentGoal.block2Done || task.stage === 'T0_SAMPLING',
     block3Done: currentGoal.block3Done || task.stage === 'T3_MAIN' || task.stage === 'T14_VERIFICATION' || task.stage === 'SATURDAY_REPAIR' || task.stage === 'ERROR_VERIFICATION',
     block4Done: currentGoal.block4Done || task.stage === 'BRANCH_EXAM',
@@ -186,6 +193,7 @@ export function recordTaskResult(state: TriajState, taskId: string, input: TaskR
     triageHistory: [...state.triageHistory, {
       id: task.id, taskId: task.id, topicId: topic.id, subjectId: task.lesson, topicTitle: task.unit,
       subjectName: task.lesson, stage: task.stage, ...score, empty, questionIds, answers: input.answers,
+      ruleVersion: task.ruleVersion, source: questionIds ? 'bank' : 'manual',
       recordedAt: new Date().toISOString(), resultingBucket: updated.currentBucket, resultingPriority: updated.priority,
       clinicalDiagnosis: decision?.clinicalDiagnosis ?? '',
       recommendedAction: decision?.recommendedAction ?? (nextDate ? `Sonraki görev ${nextDate}` : ''),
@@ -213,6 +221,42 @@ export function rescheduleTask(state: TriajState, id: string, date: string): Tri
     topics: dateField && !task.errorId ? state.topics.map(topic => topic.id === task.topicId
       ? { ...topic, [dateField]: date } : topic) : state.topics,
   };
+}
+
+/**
+ * Vadesi geçmiş açık SATURDAY_REPAIR görevlerini en yakın Cumartesiye taşır.
+ * `currentTaskDate` bu ilerletmeyi yalnız hesap sırasında yapıyordu; kalıcı
+ * `dueDate` geçmişte kaldığı için takvim ile kayıt iki farklı tarih gösteriyordu.
+ * Okuma sonrası bir kez çağrılır; değişiklik yoksa aynı nesne döner.
+ */
+export function rollForwardOverdueRepairs(state: TriajState, today = getTodayString()): TriajState {
+  let changed = false;
+  const tasks = state.tasks.map(task => {
+    if (task.stage !== 'SATURDAY_REPAIR' || task.status !== 'open' || task.dueDate >= today) return task;
+    const next = getNextSaturday(today);
+    if (next === task.dueDate) return task;
+    changed = true;
+    return { ...task, dueDate: next, previousDueDates: [...(task.previousDueDates ?? []), task.dueDate] };
+  });
+  if (!changed) return state;
+  return {
+    ...state,
+    tasks,
+    topics: state.topics.map(topic => {
+      const repair = tasks.find(task => task.topicId === topic.id && task.stage === 'SATURDAY_REPAIR' && task.status === 'open' && !task.errorId);
+      return repair ? { ...topic, saturdayRepairDate: repair.dueDate } : topic;
+    }),
+  };
+}
+
+export function selectFirstReviewCount(state: TriajState, id: string, count: number): TriajState {
+  const task = state.tasks.find(item => item.id === id);
+  if (!task || task.status !== 'open') throw new Error('Açık görev bulunamadı.');
+  if (task.ruleVersion !== 'first-review-v2' || task.stage !== 'T0_SAMPLING') return state;
+  if (!Number.isInteger(count) || count < 20 || count > 120) throw new Error('Banka oturumunda 20–120 soru seçin. Elle sonuç girişinde üst sınır yoktur.');
+  if (task.setId && task.questionCount !== count) throw new Error('Başlatılmış oturumun soru sayısı değiştirilemez.');
+  return task.questionCount === count ? state : { ...state, tasks: state.tasks.map(item => item.id === id
+    ? { ...item, questionCount: count, availableCount: undefined } : item) };
 }
 
 export function currentTaskDate(task: TriajTask, today = getTodayString()): string {

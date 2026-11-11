@@ -25,8 +25,13 @@ export function transferSimulation(state: TriajState, source: {
   if (state.mockExams.some(exam => exam.simulationId === source.id)) return state;
   const nets = {} as Record<ExamBranchCode, number>;
   const counts = new Map<ExamBranchCode, number>();
-  for (const { question, state: answer } of source.details) {
-    const branch = branchForQuestion(question);
+  // Simülasyon kitapçığı 37–40 arasını Biyokimya dersinden üretir ama sınav
+  // modelinde bu dilim Tıbbi Biyoloji ve Genetik (B08) sayılır. Ders adından
+  // branş türetilemediği için dilimi sınav sırasına göre B08'e yaz.
+  const basicSection = source.details.length === 120 ? source.details.slice(0, 40) : [];
+  for (const [index, { question, state: answer }] of source.details.entries()) {
+    const inGeneticsSlice = basicSection.length > 0 && index >= 36 && index < 40;
+    const branch = inGeneticsSlice ? 'B08' : branchForQuestion(question);
     if (!branch) continue;
     counts.set(branch, (counts.get(branch) ?? 0) + 1);
     nets[branch] = (nets[branch] ?? 0) + (answer === 'correct' ? 1 : answer === 'incorrect' ? -0.25 : 0);
