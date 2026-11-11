@@ -91,3 +91,15 @@ python scripts/tools/smart_audit_pipeline.py --lesson "<DERS>" --unit "<ÜNİTE>
 
 - PowerShell konsolunda karmaşık inline `python -c "..."` komutları çalıştırmaktan kaçının; regex ve köşeli parantezler (`[a-e]`) PowerShell tırnak parser'ında bozulur.
 - Her zaman doğrudan CLI scriptlerini parametreleriyle (`--lesson`, `--unit`, `--dry-run`) çağırın.
+
+
+---
+
+## 🚀 6. ZORUNLU DEPLOY DOKTRİNİ (MUTLAK KURAL)
+
+> 🛑 **KÖKLÜ DEĞİŞİKLİKLERDE YALNIZCA YEREL BUILD/TEST ASLA YETERLİ DEĞİLDİR!**  
+> Sistem mimarisinde, UI bileşenlerinde, API rotalarında, harici entegrasyonlarda veya kullanıcı akışlarında köklü değişiklik yapıldığında:
+> 1. Yerel test ve derleme (`npm run test && npm run build`) tamamlanır.
+> 2. Gerekli tüm ortam değişkenleri prod platformuna (`npx vercel env add ... production`) aktarılır.
+> 3. Değişiklikler derhal git commit'e bağlanır.
+> 4. **Canlıya deploy edilir (`npx vercel --prod`)** ve canlı URL/rota doğrulanır. Kullanıcı canlı ortamda çalışan sonucu görmeden iş tamamlanmış sayılamaz.
