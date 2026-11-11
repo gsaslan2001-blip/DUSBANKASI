@@ -26,6 +26,17 @@ const ALLOWED_DEEPSEEK_BASE_URLS = [
   'https://api.deepseek.com/v1',
 ];
 
+/** Yapılandırma sorununu 'özellik kapalı' durumundan ayırmak için. */
+export type DeepSeekConfigProblem = 'MISSING_KEY' | 'UNTRUSTED_BASE_URL';
+
+export function diagnoseDeepSeekConfig(): DeepSeekConfigProblem | null {
+  const key = process.env.DEPLOY_API_KEY?.trim() || process.env.DEEPSEEK_API_KEY?.trim();
+  if (!key) return 'MISSING_KEY';
+  const rawBaseUrl = process.env.DEPLOY_BASE_URL?.trim();
+  const baseUrl = (rawBaseUrl || (process.env.DEEPSEEK_API_KEY && !process.env.DEPLOY_API_KEY ? 'https://api.deepseek.com' : DEPLOY_BASE_URL)).replace(/\/$/, '');
+  return ALLOWED_DEEPSEEK_BASE_URLS.includes(baseUrl) ? null : 'UNTRUSTED_BASE_URL';
+}
+
 export function getDeepSeekConfig() {
   const key = process.env.DEPLOY_API_KEY?.trim() || process.env.DEEPSEEK_API_KEY?.trim();
   const rawBaseUrl = process.env.DEPLOY_BASE_URL?.trim();

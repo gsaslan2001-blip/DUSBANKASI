@@ -90,7 +90,9 @@ describe('TRİAJ server routes', () => {
     expect(active.headers.get('Cache-Control')).toBe('no-store');
     expect(await active.json()).toEqual({ configured: true });
     vi.stubEnv('DEPLOY_BASE_URL', 'https://untrusted.example/api/v1');
-    expect(await (await aiStatus(request('ai/status'))).json()).toEqual({ configured: false });
+    // Yapılandırma hatası artık 'kapalı' ile aynı şeyi söylemiyor.
+    expect(await (await aiStatus(request('ai/status'))).json())
+      .toEqual({ configured: false, misconfigured: 'UNTRUSTED_BASE_URL' });
   });
 
   it('bounds input before quota and constructs server-side prompts and usage results', async () => {
@@ -231,6 +233,7 @@ describe('TRİAJ server routes', () => {
     let missingConnection = false;
     const windows: { from: string | null; to: string | null; type: string | null }[] = [];
     mockNetwork((url, init) => {
+      if (url.pathname.endsWith('/rpc/triaj_take_integration_quota')) return Response.json(true);
       if (url.hostname === 'api.ticktick.com') {
         const type = url.searchParams.get('type');
         windows.push({ from: url.searchParams.get('from'), to: url.searchParams.get('to'), type });

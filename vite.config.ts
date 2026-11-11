@@ -7,22 +7,12 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { existsSync } from 'node:fs'
 import { resolve } from 'node:path'
-import {
-  buildDeepSeekPayload,
-  parseDeepSeekResponse,
-  DEPLOY_BASE_URL,
-  DEPLOY_DEEPSEEK_MODEL
-} from './src/modules/triaj/domain/deepseek'
-
 function triajDevApiPlugin(): Plugin {
   return {
     name: 'triaj-dev-api',
     configureServer(server) {
       server.middlewares.use(async (req, res, next) => {
-        let urlStr = req.url || '';
-        if (urlStr.startsWith('/api/ticktick/')) {
-          urlStr = urlStr.replace('/api/ticktick/', '/api/triaj/ticktick/');
-        }
+        const urlStr = req.url || '';
         if (!urlStr.startsWith('/api/triaj/') && !urlStr.startsWith('/api/ai/')) {
           return next();
         }
@@ -31,88 +21,26 @@ function triajDevApiPlugin(): Plugin {
           const urlObj = new URL(urlStr, 'http://localhost:5173');
           const pathname = urlObj.pathname;
 
-          // 1. Deploy.com DeepSeek v4.1 Flash API Status Rotaları (DusTriaj ile birebir uyumlu)
-          if (pathname === '/api/ai/status' || pathname === '/api/triaj/ai/status') {
-            const deployApiKey = process.env.DEPLOY_API_KEY || process.env.DEEPSEEK_API_KEY || '';
-            const deployBaseUrl = (process.env.DEPLOY_BASE_URL || DEPLOY_BASE_URL).replace(/\/$/, '');
-            const deployModel = process.env.DEPLOY_MODEL || DEPLOY_DEEPSEEK_MODEL;
-
-            res.statusCode = 200;
-            res.setHeader('Content-Type', 'application/json');
-            res.end(JSON.stringify({
-              configured: Boolean(deployApiKey),
-              provider: 'deploy.com',
-              baseUrl: deployBaseUrl,
-              model: deployModel,
-            }));
-            return;
-          }
-
-          // 2. Deploy.com DeepSeek v4.1 Flash API Chat Completion Rotaları (DusTriaj server.ts ile birebir)
-          if (pathname === '/api/ai/deepseek' || pathname === '/api/triaj/ai/deepseek') {
-            const deployApiKey = process.env.DEPLOY_API_KEY || process.env.DEEPSEEK_API_KEY || '';
-            const deployBaseUrl = (process.env.DEPLOY_BASE_URL || DEPLOY_BASE_URL).replace(/\/$/, '');
-            const deployModel = process.env.DEPLOY_MODEL || DEPLOY_DEEPSEEK_MODEL;
-
-            if (!deployApiKey) {
-              res.statusCode = 503;
-              res.setHeader('Content-Type', 'application/json');
-              res.end(JSON.stringify({
-                error: 'DEPLOY_API_KEY yapılandırılmamış. .env.local dosyasını kontrol edin.'
-              }));
-              return;
-            }
-
-            // Body oku
-            const chunks: Buffer[] = [];
-            for await (const chunk of req) {
-              chunks.push(typeof chunk === 'string' ? Buffer.from(chunk) : chunk);
-            }
-            const rawBody = Buffer.concat(chunks).toString('utf-8');
-            const input = rawBody ? JSON.parse(rawBody) : {};
-
-            const payload = buildDeepSeekPayload(input);
-            payload.model = deployModel;
-
-            const apiRes = await fetch(`${deployBaseUrl}/chat/completions`, {
-              method: 'POST',
-              headers: {
-                Authorization: `Bearer ${deployApiKey}`,
-                'Content-Type': 'application/json',
-                Accept: 'application/json',
-              },
-              body: JSON.stringify(payload),
-            });
-
-            if (!apiRes.ok) {
-              const errText = await apiRes.text();
-              res.statusCode = 502;
-              res.setHeader('Content-Type', 'application/json');
-              res.end(JSON.stringify({
-                error: `Deploy.com API HTTP ${apiRes.status}: ${errText}`,
-              }));
-              return;
-            }
-
-            const rawJson = (await apiRes.json()) as Record<string, unknown>;
-            const parsed = parseDeepSeekResponse(rawJson);
-
-            res.statusCode = 200;
-            res.setHeader('Content-Type', 'application/json');
-            res.end(JSON.stringify(parsed));
-            return;
-          }
-
-          // 3. Diğer Serverless API Rotaları (api/triaj/...)
-          if (pathname.startsWith('/api/triaj/')) {
+          // Use the production handlers for both canonical paths and compatibility aliases.
+          if (/^\/api\/(?:triaj\/(?:ai\/(?:status|deepseek)|ticktick\/(?:connect|callback|disconnect|focus))|ai\/(?:status|deepseek))$/.test(pathname)) {
             const relPath = pathname.replace(/^\/api\//, '');
             const filePath = resolve(process.cwd(), 'api', `${relPath}.ts`);
             if (!existsSync(filePath)) return next();
 
             // Body oku (POST ise)
             const chunks: Buffer[] = [];
+            let size = 0;
             for await (const chunk of req) {
-              chunks.push(typeof chunk === 'string' ? Buffer.from(chunk) : chunk);
+              const buffer = typeof chunk === 'string' ? Buffer.from(chunk) : chunk;
+              size += buffer.length;
+              if (size > 32 * 1024) {
+                res.statusCode = 413;
+                res.setHeader('Content-Type', 'application/json');
+                res.setHeader('Cache-Control', 'no-store');
+                res.end(JSON.stringify({ code: 'INPUT_TOO_LARGE', error: 'İstek boyutu sınırı aşıldı.' }));
+                return;
+              }
+              chunks.push(buffer);
             }
             const bodyBuf = Buffer.concat(chunks);
             const body = ['GET', 'HEAD'].includes(req.method || '') ? undefined : bodyBuf;
@@ -130,8 +58,6 @@ function triajDevApiPlugin(): Plugin {
               method: req.method,
               headers,
               body,
-              // @ts-ignore
-              duplex: 'half',
             });
 
             const mod = await server.ssrLoadModule(filePath);
@@ -149,11 +75,11 @@ function triajDevApiPlugin(): Plugin {
           }
 
           return next();
-        } catch (err: any) {
-          console.error('[triaj dev-api error]', err);
-          res.statusCode = err?.status || 500;
+        } catch {
+          // Never log private request or provider details.
+          res.statusCode = 500;
           res.setHeader('Content-Type', 'application/json');
-          res.end(JSON.stringify({ error: err?.message || 'Internal dev API error' }));
+          res.end(JSON.stringify({ error: 'TRİAJ geliştirme sunucusu isteği tamamlayamadı.' }));
         }
       });
     },

@@ -1,7 +1,7 @@
 import { z } from 'zod';
 import { buildTickTickFocusSummary, shiftFocusDate, toTurkeyDateString } from '../../../src/modules/triaj/domain/focus.js';
 import { fetchFocusRecords } from '../../_lib/triaj/focus.js';
-import { adminClient, json, requireUser, route, TriajApiError } from '../../_lib/triaj/http.js';
+import { adminClient, json, requireUser, route, takeQuota, TriajApiError } from '../../_lib/triaj/http.js';
 import { getTickTickConfig, openCredential } from '../../_lib/triaj/ticktick.js';
 
 export const handler = route('GET', async (request) => {
@@ -11,6 +11,9 @@ export const handler = route('GET', async (request) => {
   if (!config) {
     return json({ connected: false, configured: false });
   }
+
+  // Çağrı başına 6 sağlayıcı isteği üretir; `?refresh=1` ile 5 sn'de bir tetiklenebilir.
+  await takeQuota(userId, 'ticktick-focus');
 
   const { searchParams } = new URL(request.url);
   const today = toTurkeyDateString(new Date());

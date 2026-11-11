@@ -49,8 +49,14 @@ export async function fetchFocusRecords(
           redirect: 'error',
           signal,
         });
-        if (response.status === 401 || response.status === 403) {
+        // 401 = token süresi doldu (yeniden bağlan çözer).
+        // 403 = kapsam yetersiz (yeniden bağlanmak çözmez) -> ayrı kod, döngü kurmasın.
+        if (response.status === 401) {
           throw new TriajApiError(409, 'TICKTICK_RECONNECT', 'TickTick yetkisini yeniden verin.');
+        }
+        if (response.status === 403) {
+          throw new TriajApiError(403, 'TICKTICK_FORBIDDEN',
+            'TickTick bağlantısı odak verisine erişemiyor. Uygulamayı yeniden bağlayın; sorun sürerse destek alın.');
         }
         if (response.status === 429) {
           throw new TriajApiError(429, 'PROVIDER_RATE_LIMIT', 'TickTick yoğun. Biraz sonra tekrar deneyin.');

@@ -93,7 +93,17 @@ export function parseAnkiSnapshot(raw: unknown, targetRetentionPercent = 90): An
 
 const ankiConnectUrl = 'http://127.0.0.1:8765';
 
+/** HTTPS sayfa, HTTP 127.0.0.1 isteğini karışık içerik olarak engeller.
+ *  Üretimde doğrudan bağlantı denemek yerine elle snapshot akışı sunulur. */
+export function canReachLocalAnki(): boolean {
+  if (typeof window === 'undefined') return false;
+  return window.location.protocol === 'https:' ? false : true;
+}
+
 export async function fetchLocalAnkiActivity(signal?: AbortSignal): Promise<{ reviews: number }> {
+  if (!canReachLocalAnki()) {
+    throw new Error('Tarayıcı HTTPS sayfadan Anki uygulamasına doğrudan bağlanamaz. Anki özetini elle girin veya yerel uygulamayı kullanın.');
+  }
   const requestSignal = signal ? AbortSignal.any([signal, AbortSignal.timeout(12_000)]) : AbortSignal.timeout(12_000);
   const invoke = async (action: 'requestPermission' | 'getNumCardsReviewedToday') => {
     const response = await fetch(ankiConnectUrl, {

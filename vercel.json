@@ -1,7 +1,15 @@
 {
   "framework": "vite",
   "functions": {
-    "api/explain.ts": { "maxDuration": 300 }
+    "api/explain.ts": { "maxDuration": 300 },
+    "api/triaj/ai/deepseek.ts": { "maxDuration": 60 },
+    "api/ai/deepseek.ts": { "maxDuration": 60 },
+    "api/triaj/ticktick/focus.ts": { "maxDuration": 60 },
+    "api/triaj/ticktick/callback.ts": { "maxDuration": 30 },
+    "api/triaj/ticktick/connect.ts": { "maxDuration": 30 },
+    "api/triaj/ticktick/disconnect.ts": { "maxDuration": 30 },
+    "api/triaj/ai/status.ts": { "maxDuration": 15 },
+    "api/ai/status.ts": { "maxDuration": 15 }
   },
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1" },

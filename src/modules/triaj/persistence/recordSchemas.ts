@@ -32,6 +32,8 @@ export const taskSchema = z.object({
   status: z.enum(['open', 'completed', 'cancelled']), questionIds: z.array(id).max(120).optional(),
   availableCount: count.optional(), setId: id.optional(), errorId: id.optional(), preparationDone: z.boolean().optional(),
   completedDate: calendarDate.optional(), previousDueDates: z.array(calendarDate).optional(),
+  // SQL `get_triaj_tasks` bu alanı enjekte eder; şemada yoksa yazma yolunda sessizce düşerdi.
+  excludedQuestionIds: z.array(id).optional(),
 }).refine(task => (!task.setId && !task.questionIds) ||
   (!!task.setId && task.questionIds?.length === task.questionCount && new Set(task.questionIds).size === task.questionCount))
   .refine(task => !(task.ruleVersion === 'first-review-v2' && task.stage === 'T0_SAMPLING') || task.questionCount >= 20,

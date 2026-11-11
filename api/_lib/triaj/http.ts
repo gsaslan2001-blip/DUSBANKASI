@@ -95,7 +95,10 @@ export async function boundedJson(request: Request, maxBytes: number): Promise<u
   }
 }
 
-export async function takeQuota(userId: string, feature: 'deepseek' | 'ticktick-connect') {
+/** SQL `triaj_take_integration_quota` ile aynı birleşim (subjectCodes benzeri tek kaynak). */
+export type TriajQuotaFeature = 'deepseek' | 'ticktick-connect' | 'ticktick-focus';
+
+export async function takeQuota(userId: string, feature: TriajQuotaFeature) {
   const { data, error } = await adminClient().rpc('triaj_take_integration_quota', {
     p_user_id: userId,
     p_feature: feature,
