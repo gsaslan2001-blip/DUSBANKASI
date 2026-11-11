@@ -47,7 +47,7 @@ function TriajContent({ onBack, initialTab, initialTaskId, onStartSimulation, si
   const [isBackupOpen, setIsBackupOpen] = useState(false);
   const closeNotifications = useCallback(() => setIsNotificationDrawerOpen(false), []);
   const drawer = useModalA11y(closeNotifications, isNotificationDrawerOpen);
-  const { notifications, topics, subjects, markAllNotificationsRead, markNotificationRead } = useTriajView();
+  const { notifications, topics, subjects, report, semanticErrors, triageLogs, dailyGoal, markAllNotificationsRead, markNotificationRead } = useTriajView();
 
   return (
     <div className="bg-[#f5f5f7] text-slate-900 font-sans flex flex-col">
@@ -62,6 +62,19 @@ function TriajContent({ onBack, initialTab, initialTaskId, onStartSimulation, si
         onOpenGuide={() => setIsGuideOpen(true)}
         onOpenBackup={() => setIsBackupOpen(true)}
       />
+
+      <div className="border-b border-zinc-200/80 bg-white/85 backdrop-blur-md">
+        <div className="mx-auto flex max-w-7xl flex-wrap items-center gap-2 px-3 py-1.5 text-[11px] text-zinc-600 sm:px-5 lg:px-6" aria-label="Canlı çalışma özeti">
+          <strong className="text-zinc-900">Canlı özet:</strong>
+          <button type="button" onClick={() => setActiveTab('notifications')} className="rounded-md border border-indigo-200 bg-indigo-50 px-2 py-0.5 text-indigo-800">Planlı görev: {notifications.length}</button>
+          {([['Yeşil', report.greenBucket], ['Sarı', report.yellowBucket], ['Kırmızı', report.redBucket]] as const).map(([label, count]) => <button key={label} type="button" onClick={() => setActiveTab('report')} className="rounded-md border border-zinc-200 bg-zinc-50 px-2 py-0.5">{label}: {count}</button>)}
+          <button type="button" onClick={() => setActiveTab('analytics')} className="rounded-md border border-zinc-200 px-2 py-0.5">SWSPS hata: {semanticErrors.length}</button>
+          <button type="button" onClick={() => setActiveTab('subjects')} className="px-1">Müfredat: {topics.length} ünite</button>
+          <button type="button" onClick={() => setActiveTab('notifications')} className="px-1">Denetim kaydı: {triageLogs.length}</button>
+          <button type="button" onClick={() => setActiveTab('report')} className="px-1">Depolama gücü: %{report.overallRetentionIndex}</button>
+          <button type="button" onClick={() => setActiveTab('planner')} className="px-1">Günlük soru: {dailyGoal.completedQuestions}/{dailyGoal.targetQuestions}</button>
+        </div>
+      </div>
 
       {/* Ana Gövde */}
       <div className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-5 lg:px-6 py-4">

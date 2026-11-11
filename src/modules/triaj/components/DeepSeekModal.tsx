@@ -39,7 +39,7 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
   initialSubjectId,
   initialTopicId
 }) => {
-  const { subjects, topics, updateTopic, saving } = useTriajView();
+  const { subjects, topics, updateTopic, saving, mockExams, semanticErrors, report, systemParams } = useTriajView();
   const dialog = useModalA11y(onClose);
   const request = useRef<AbortController | null>(null);
   const copyTimer = useRef<number | null>(null);
@@ -99,12 +99,21 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
     setResult(null);
 
     try {
+      const latestExam = [...mockExams].sort((a, b) => b.date.localeCompare(a.date))[0];
+      const examContext = latestExam
+        ? `Son deneme: ${latestExam.date}, ${latestExam.institution}, toplam ${latestExam.totalNet}, temel ${latestExam.basicNet}, klinik ${latestExam.clinicalNet}, hedef ${systemParams.targetTotalNet}. Kova: yeşil ${report.greenBucket}, sarı ${report.yellowBucket}, kırmızı ${report.redBucket}.`
+        : undefined;
+      const swspsContext = [...semanticErrors].sort((a, b) => b.swspsScore - a.swspsScore).slice(0, 3)
+        .map(error => `${error.branchName} / ${error.subtopic}: ${error.errorType}, SWSPS ${error.swspsScore}, ${error.questionSummary}`).join('\n').slice(0, 4000) || undefined;
       const response = await requestDeepSeekCompletion({
         taskType,
         subjectCode: selectedSubject?.code,
         subjectName: selectedSubject?.name,
         unitTitle: selectedTopic?.title,
         bucket: selectedTopic?.currentBucket,
+        scoreSummary: selectedTopic?.t3Score ? `${selectedTopic.t3Score.correct}/${selectedTopic.t3Score.total} (%${selectedTopic.t3Score.percentage})` : undefined,
+        examContext: taskType === 'MOCK_EXAM_STRATEGY' ? examContext?.slice(0, 4000) : undefined,
+        swspsContext: taskType === 'MOCK_EXAM_STRATEGY' || taskType === 'SWSPS_ERROR_AUTOPSY' ? swspsContext : undefined,
         userNotes: customNotes,
         customPrompt: taskType === 'CUSTOM' ? customNotes : undefined,
         reasoningEffort

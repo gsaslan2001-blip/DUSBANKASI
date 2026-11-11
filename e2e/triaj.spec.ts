@@ -100,6 +100,25 @@ function backend(initial: TriajState) {
   return { db, install };
 }
 
+test('takvimden yeniden planlama kayıtlı alt başlıkları korur', async ({ page, context }) => {
+  const initial = seededPlan();
+  initial.topics[0].subtopics = ['Korunacak alt başlık'];
+  const { db, install } = backend(initial);
+  await install(context);
+  await page.clock.setFixedTime(new Date('2026-11-11T12:00:00Z'));
+  await page.goto('/', { waitUntil: 'domcontentloaded' });
+  await page.getByRole('button', { name: /TRİAJ Günün planı ve tekrar takvimi/ }).click();
+  const triaj = page.getByRole('region', { name: 'TRİAJ', exact: true });
+  await triaj.getByRole('navigation', { name: 'TRİAJ sekmeleri' }).getByRole('button', { name: 'Takvim', exact: true }).click();
+  await triaj.getByRole('button', { name: 'Bu Güne İlk Tekrar Planla' }).click();
+  await triaj.getByLabel('Ders seçin').selectOption('B01');
+  await triaj.getByLabel('Kanonik ünite seçin').selectOption(units[0]);
+  await triaj.getByLabel('T+0 Başlangıç Tarihi').fill('2026-11-12');
+  await triaj.getByRole('button', { name: 'Takvime Ekle (T+0 Planla)' }).click();
+  await expect.poll(() => db.state.tasks.find(task => task.unit === units[0])?.dueDate).toBe('2026-11-12');
+  expect(db.state.topics.find(topic => topic.title === units[0])?.subtopics).toEqual(['Korunacak alt başlık']);
+});
+
 test('Bugünün Konusu aynı setle iki cihazda devam eder, hatalı teslimi yeniden dener ve takvimi eşitler', async ({ browser }) => {
   test.setTimeout(90_000);
   const { db, install } = backend(seededPlan());

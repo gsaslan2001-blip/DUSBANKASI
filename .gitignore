@@ -54,4 +54,5 @@ __pycache__/
 .vercel
 
 test-results/
+playwright-report/
 supabase/.temp/

@@ -38,11 +38,11 @@ describe('TickTick focus calculations', () => {
     const selected = buildTickTickFocusSummary(records, '2026-11-11', '2026-11-04');
     expect(today).toMatchObject({
       todayDate: '2026-11-11', activeDate: '2026-11-11', periodStart: '2026-08-14', periodEnd: '2026-11-11',
-      sevenDayStart: '2026-11-05', sevenDayAvgHours: 1.5, sevenDayTotalMinutes: 180,
+      sevenDayStart: '2026-11-05', sevenDayAvgHours: 0.43, sevenDayTotalMinutes: 180,
       activeDayStats: { totalMinutes: 0 },
     });
     expect(selected).toMatchObject({
-      todayDate: '2026-11-11', activeDate: '2026-11-04', sevenDayAvgHours: 1.5,
+      todayDate: '2026-11-11', activeDate: '2026-11-04', sevenDayAvgHours: 0.43,
       activeDayStats: { totalMinutes: 660 },
     });
   });

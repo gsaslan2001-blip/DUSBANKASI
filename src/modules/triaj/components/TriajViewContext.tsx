@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useMemo, useState } from 'react';
+import { createContext, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import type { ReactNode } from 'react';
 import { toast } from 'sonner';
 import { CANONICAL_UNITS } from '../../../config/canonicalUnits';
@@ -82,6 +82,10 @@ function makeView(state: TriajState, save: Save, todayStr: string) {
     const saved = progress.get(topic.id);
     return saved ? { ...saved, title: topic.title, subjectId: topic.subjectId, unitNumber: topic.unitNumber } : topic;
   });
+  const catalogIds = new Set(unitCatalog.map(topic => topic.id));
+  topics.push(...state.topics.filter(topic => !catalogIds.has(topic.id)).map(topic => ({
+    ...topic, subjectId: subjects.find(subject => subject.name === topic.subjectId)?.id ?? topic.subjectId,
+  })));
   const dailyGoal = state.dailyGoals[todayStr] ?? blankDailyGoal(todayStr);
   const ankiSnapshot = state.ankiSnapshots.at(-1) ?? blankAnkiSnapshot(todayStr, state.parameters.targetFsrsRetention);
   const topicTaxonomy = [...INITIAL_TOPIC_TAXONOMY.filter(entry => !state.topicTaxonomy.some(saved => saved.id === entry.id)), ...state.topicTaxonomy];
@@ -134,7 +138,7 @@ function makeView(state: TriajState, save: Save, todayStr: string) {
         const next = planUnit(current, subject.name, title, date, notes);
         return {
           ...next,
-          topics: next.topics.map(topic => topic.id === unitKey(subject.name, title) ? { ...topic, subtopics } : topic),
+          topics: next.topics.map(topic => topic.id === unitKey(subject.name, title) && subtopics.length > 0 ? { ...topic, subtopics } : topic),
         };
       });
     },
@@ -277,10 +281,11 @@ export function TriajViewProvider({ children, onStartTask, onBack }: {
   onBack: () => void;
 }) {
   const { state, status, error, refresh, update, today } = useTriaj();
-  useEffect(() => { void refresh(); }, [refresh]);
+  useEffect(() => { void refresh(); }, [refresh, today]);
   const [soundEnabled, setSoundEnabled] = useState(false);
   const [browserNotificationsEnabled, setBrowserNotificationsEnabled] =
     useState(() => typeof Notification !== 'undefined' && Notification.permission === 'granted');
+  const notifiedTasks = useRef(new Set<string>());
 
   const view = useMemo(() => {
     if (!state) return null;
@@ -295,6 +300,15 @@ export function TriajViewProvider({ children, onStartTask, onBack }: {
     };
     return makeView(state, save, today);
   }, [state, today, update]);
+
+  useEffect(() => {
+    if (!browserNotificationsEnabled || typeof Notification === 'undefined' || Notification.permission !== 'granted') return;
+    for (const notification of view?.notifications ?? []) {
+      if (notification.isRead || notifiedTasks.current.has(notification.id)) continue;
+      notifiedTasks.current.add(notification.id);
+      try { new Notification(notification.title, { body: notification.message, tag: `triaj-${notification.id}` }); } catch { /* Bildirim desteği tarayıcıya bağlıdır. */ }
+    }
+  }, [view, browserNotificationsEnabled]);
 
   const requestBrowserNotificationPermission = async () => {
     if (typeof Notification === 'undefined') {

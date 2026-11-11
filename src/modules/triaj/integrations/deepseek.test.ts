@@ -11,6 +11,12 @@ describe('authenticated AI client', () => {
     const input = deepSeekInput.parse({ taskType, userNotes: 'Örnek analiz bilgisi' });
     expect(buildDeepSeekPayload(input).messages[1].content).toContain('Örnek analiz bilgisi');
   });
+  it('includes real exam and error context in the requested analysis', () => {
+    const input = deepSeekInput.parse({ taskType: 'MOCK_EXAM_STRATEGY', examContext: 'Deneme neti: 80', swspsContext: 'Hata: anatomi' });
+    const prompt = buildDeepSeekPayload(input).messages[1].content;
+    expect(prompt).toContain('Deneme neti: 80');
+    expect(prompt).toContain('Hata: anatomi');
+  });
   it('sends the account token only to the canonical route', async () => {
     getSession.mockResolvedValue({ data: { session: { access_token: 'synthetic-token' } } });
     const network = vi.fn().mockResolvedValue(Response.json({ content: 'result' }));

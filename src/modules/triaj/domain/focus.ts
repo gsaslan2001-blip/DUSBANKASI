@@ -150,7 +150,7 @@ export function buildTickTickFocusSummary(
     activeDayStats: dailyLogs.find(({ date }) => date === requestedDate) ?? createEmptyFocusDay(requestedDate),
     sevenDayStart,
     sevenDayTotalMinutes,
-    sevenDayAvgHours: recent.length ? Number((sevenDayTotalMinutes / recent.length / 60).toFixed(2)) : 0,
+    sevenDayAvgHours: Number((sevenDayTotalMinutes / 7 / 60).toFixed(2)),
     periodStart,
     periodEnd: todayDate,
     totalTrackedDays: dailyLogs.length,

@@ -894,13 +894,13 @@ export const SubjectDatabaseView: React.FC = () => {
                 <label className="block text-xs font-semibold text-slate-700 mb-1">
                   Ünite / Konu Başlığı
                 </label>
-                <select value={newTopicTitle} onChange={e => setNewTopicTitle(e.target.value)} aria-label="Kanonik ünite" required
-                  className="w-full rounded-lg border border-slate-300 bg-slate-50 p-2 text-sm">
-                  <option value="">Ünite seç</option>
+                <input value={newTopicTitle} onChange={e => setNewTopicTitle(e.target.value)} aria-label="Ünite veya özel konu" required list="triaj-unit-options"
+                  className="w-full rounded-lg border border-slate-300 bg-slate-50 p-2 text-sm" placeholder="Ünite seçin veya özel konu yazın" />
+                <datalist id="triaj-unit-options">
                   {(CANONICAL_UNITS[subjects.find(item => item.id === newTopicSubjectId)?.name ?? ''] ?? []).map(title => (
-                    <option key={title} value={title}>{title}</option>
+                    <option key={title} value={title} />
                   ))}
-                </select>
+                </datalist>
               </div>
 
               <div>

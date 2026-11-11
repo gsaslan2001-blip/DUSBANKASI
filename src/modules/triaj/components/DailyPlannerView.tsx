@@ -114,7 +114,8 @@ export const DailyPlannerView: React.FC<{ onStartSimulation?: () => void }> = ({
       setTicktickConfigured(true);
       setTicktickSummary(data);
       setSelectedTickTickDate(data.activeDate);
-      if (forceRefresh && data.activeDate === todayStr && data.activeDayStats.sessionsCount > 0 && data.activeDayStats.totalMinutes !== state.focus[todayStr]) {
+      if (data.activeDate === todayStr && data.activeDayStats.sessionsCount > 0 &&
+          (data.activeDayStats.totalMinutes !== state.focus[todayStr] || data.activeDayStats.totalMinutes !== dailyGoal.completedStudyMinutes)) {
         await updateFocus(todayStr, data.activeDayStats.totalMinutes);
       }
     } catch (err) {

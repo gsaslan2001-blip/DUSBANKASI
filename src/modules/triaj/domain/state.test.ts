@@ -19,6 +19,25 @@ const complete = (state: TriajState, task: TriajTask, correct: number, date: str
   recordTaskResult(state, task.id, { date, correct, wrong: 0, empty: task.questionCount - correct });
 
 describe('TRİAJ çalışma protokolü', () => {
+  test('özel konu çalışma planına eklenip aynı kimlikle tekrar bulunur', () => {
+    const planned = planUnit(emptyTriajState(), lesson, 'Özel notlarım', t0);
+    expect(planned.topics[0].title).toBe('Özel notlarım');
+    expect(active(planned).unit).toBe('Özel notlarım');
+    expect(planUnit(planned, lesson, 'Özel notlarım', t3).tasks).toHaveLength(1);
+  });
+  test('silinen hata görevinin kimliği yeni hata için tekrar kullanılmaz', () => {
+    const base = planUnit(emptyTriajState(), lesson, unit, t0);
+    const topicId = base.topics[0].id;
+    const error = (id: string) => ({ id, date: t0, source: 'Deneme', branchCode: 'B01' as const, branchName: lesson,
+      semanticCode: '', subtopic: unit, questionSummary: id, errorType: 'Bilgi' as const,
+      distractorAnalysis: '', ankiClozeStatus: 'Bekliyor' as const, swspsScore: 1, protocolType: 4 as const, topicId });
+    const first = addSemanticError(base, error('a'));
+    const second = addSemanticError(first, error('b'));
+    const deleted = { ...second, semanticErrors: second.semanticErrors.filter(item => item.id !== 'a'), tasks: second.tasks.filter(item => item.errorId !== 'a') };
+    const third = addSemanticError(deleted, error('c'));
+    const ids = third.tasks.map(item => item.id);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
   test.each([[27, 'RED'], [28, 'YELLOW'], [33, 'YELLOW'], [34, 'GREEN']])('T+3 %i doğru → %s', (correct, expected) => {
     expect(evaluateT3Triage(correct, 40, t3).bucket).toBe(expected);
   });
@@ -112,7 +131,7 @@ describe('TRİAJ çalışma protokolü', () => {
   test('İstanbul gün sınırı ve yedi takvim günlük pozitif odak ortalaması', () => {
     expect(getTodayString(new Date('2026-11-10T20:59:59Z'))).toBe('2026-11-10');
     expect(getTodayString(new Date('2026-11-10T21:00:00Z'))).toBe(t0);
-    expect(focusAverage({ '2026-11-04': 200, '2026-11-05': 20, [t0]: 40, '2026-11-12': 100 }, t0)).toBe(30);
+    expect(focusAverage({ '2026-11-04': 200, '2026-11-05': 20, [t0]: 40, '2026-11-12': 100 }, t0)).toBeCloseTo(60 / 7);
   });
   test('workbook-v1 formülü ve R=1 oran/yüzde ayrımı', () => {
     const parameters = { weight: 1.3, repeatCount: 3, difficultyD: 8.5, daysElapsed: 2 };

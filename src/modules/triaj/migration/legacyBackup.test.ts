@@ -43,6 +43,21 @@ describe('legacy catalogue', () => {
 });
 
 describe('legacy transfer', () => {
+  it('imports a user-created topic without forcing it into the canonical catalogue', () => {
+    const source = topic('unit-b14-abcdefgh', 'B14', 'Kişisel tekrar notları');
+    const initial = emptyTriajState();
+    const state = applyLegacyImport(initial, previewLegacyImport(backup({ topics: [source] }), initial));
+    expect(state.topics).toMatchObject([{ subjectId: 'Periodontoloji', title: 'Kişisel tekrar notları' }]);
+    expect(state.tasks[0].stage).toBe('T3_MAIN');
+  });
+  it('retains an unstarted user-created topic in the imported plan', () => {
+    const source = topic('unit-b14-abcdefghi', 'B14', 'Özel çalışma konusu', { status: 'NOT_STARTED', t0Date: null });
+    const clean = { ...source } as Record<string, unknown>;
+    delete clean.t0Date;
+    const initial = emptyTriajState();
+    const state = applyLegacyImport(initial, previewLegacyImport(backup({ topics: [clean] }), initial));
+    expect(state.topics).toMatchObject([{ title: 'Özel çalışma konusu', status: 'NOT_STARTED' }]);
+  });
   it('preserves the third-bank instruction for a topic promoted from red', () => {
     const source = topic('unit-b14-05', 'B14', '5- PERİODONTİTİS', {
       status: 'TRIAGED', currentBucket: 'YELLOW', promotedFromRed: true,

@@ -10,6 +10,8 @@ export const deepSeekInput = z.strictObject({
   unitTitle: z.string().trim().max(300).optional(),
   bucket: z.string().trim().max(32).optional(),
   scoreSummary: z.string().trim().max(300).optional(),
+  examContext: z.string().trim().max(4000).optional(),
+  swspsContext: z.string().trim().max(4000).optional(),
   userNotes: z.string().trim().max(4000).optional(),
   customPrompt: z.string().trim().max(4000).optional(),
   reasoningEffort: z.enum(['none', 'low', 'high', 'max']).optional(),

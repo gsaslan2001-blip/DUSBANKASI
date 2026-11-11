@@ -27,6 +27,8 @@ export interface DeepSeekPromptInput {
   unitTitle?: string;
   bucket?: string;
   scoreSummary?: string;
+  examContext?: string;
+  swspsContext?: string;
   userNotes?: string;
   customPrompt?: string;
   reasoningEffort?: DeepSeekReasoningEffort;
@@ -101,11 +103,11 @@ export function buildDeepSeekPayload(
       break;
 
     case 'SWSPS_ERROR_AUTOPSY':
-      userContent = [`Ders: ${subjectLabel}`, `Ünite: ${unitLabel}`, `Hata bilgisi: ${input.userNotes || 'Belirtilmedi'}`, 'Görev: Yanlışın bilişsel nedenini, çeldirici tuzağını ve tekrarını önleyecek kısa aktif geri çağırma adımını analiz et.'].join('\n');
+      userContent = [`Ders: ${subjectLabel}`, `Ünite: ${unitLabel}`, `Hata bilgisi: ${input.userNotes || 'Belirtilmedi'}`, input.swspsContext || 'Kayıtlı hata verisi yok.', 'Görev: Yanlışın bilişsel nedenini, çeldirici tuzağını ve tekrarını önleyecek kısa aktif geri çağırma adımını analiz et.'].join('\n');
       break;
 
     case 'MOCK_EXAM_STRATEGY':
-      userContent = [`Deneme bağlamı: ${input.userNotes || 'Belirtilmedi'}`, 'Görev: Verilen deneme sonuçlarını değerlendir, öncelikli eksikleri ve bir sonraki çalışma dönemi için somut bir plan öner. Eksik verileri uydurma.'].join('\n');
+      userContent = [`Deneme bağlamı: ${input.userNotes || 'Belirtilmedi'}`, input.examContext || 'Kayıtlı deneme verisi yok.', input.swspsContext || 'Kayıtlı hata verisi yok.', 'Görev: Verilen deneme sonuçlarını değerlendir, öncelikli eksikleri ve bir sonraki çalışma dönemi için somut bir plan öner. Eksik verileri uydurma.'].join('\n');
       break;
 
     case 'ANKI_CLOZE':

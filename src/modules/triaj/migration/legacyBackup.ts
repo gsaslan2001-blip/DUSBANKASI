@@ -1,11 +1,12 @@
 import { z } from 'zod';
+import { CANONICAL_UNITS } from '../../../config/canonicalUnits';
 import type { AnkiFsrsSnapshot, ScoreDetail, TopicUnit, TriajState } from '../types';
 import { canonicalUnitNumber, isCanonicalUnit, unitKey } from '../domain/catalog';
 import { emptyTriajState } from '../domain/defaults';
 import { addSemanticError, rescheduleTask, restoreTopicTask } from '../domain/state';
 import { addDays, evaluateSaturdayRepair, evaluateT14Verification, evaluateT3Triage, getNextSaturday } from '../domain/triage';
 import {
-  legacyUnitMapping, normalizeLegacyLabel, selectLegacyUnit, type CanonicalUnitTarget,
+  legacyLesson, legacyUnitMapping, normalizeLegacyLabel, selectLegacyUnit, type CanonicalUnitTarget,
 } from '../data/legacyUnitMapping';
 import {
   ankiSnapshotSchema, calendarDate, dailyGoalSchema, mockExamSchema, parametersSchema, questionLogSchema,
@@ -89,6 +90,10 @@ function rawTarget(record: IncomingRecord): CanonicalUnitTarget | undefined {
   const title = stringValue(data.title ?? data.topicTitle);
   const mapping = legacyUnitMapping(subject, title, stringValue(data.topicId) || sourceId);
   const subtopics = Array.isArray(data.subtopics) ? data.subtopics.filter((item): item is string => typeof item === 'string') : [];
+  const lesson = legacyLesson(subject);
+  if (!mapping && record.source === 'dus-triaj' && lesson && title.trim() && /^unit-[a-z0-9+]+-[a-z0-9]{5,}$/i.test(sourceId)) {
+    return { lesson, unit: title.trim() };
+  }
   return selectLegacyUnit(mapping, subtopics);
 }
 
@@ -97,11 +102,12 @@ function validScore(score: ScoreDetail | undefined, minimum: number, maximum = m
     && score.correct + score.wrong + (score.empty ?? 0) === score.total);
 }
 
-function canonicalTopic(record: IncomingRecord, target: CanonicalUnitTarget): TopicUnit {
+function canonicalTopic(record: IncomingRecord, target: CanonicalUnitTarget, state: TriajState): TopicUnit {
   const { data } = record;
   const { lesson, unit } = target;
   const topic = topicSchema.parse({
-    ...data, id: unitKey(lesson, unit), subjectId: lesson, title: unit, unitNumber: canonicalUnitNumber(lesson, unit),
+    ...data, id: unitKey(lesson, unit), subjectId: lesson, title: unit, unitNumber: isCanonicalUnit(lesson, unit) ? canonicalUnitNumber(lesson, unit)
+      : Math.max(CANONICAL_UNITS[lesson].length, ...state.topics.filter(item => item.subjectId === lesson).map(item => item.unitNumber)) + 1,
   });
   // Eski 10 soruluk kayıtlar korunur (kanonik kural: legacy kayıt dönüştürülmez),
   // yeni ilk tekrar 20–120 arası olabildiği için bant geniş tutulur.
@@ -137,7 +143,7 @@ function canonicalTopic(record: IncomingRecord, target: CanonicalUnitTarget): To
 }
 
 function meaningfulTopic(data: ImportData): boolean {
-  return data.status !== 'NOT_STARTED' || Boolean(data.t0Date || data.clinicalNotes || data.t0Score || data.t3Score ||
+  return /^unit-[a-z0-9+]+-[a-z0-9]{5,}$/i.test(stringValue(data.id)) || data.status !== 'NOT_STARTED' || Boolean(data.t0Date || data.clinicalNotes || data.t0Score || data.t3Score ||
     data.t14Score || data.repairScore || [data.subtopics, data.mnemonics, data.criticalDifferences]
       .some((items) => Array.isArray(items) && items.length > 0));
 }
@@ -198,7 +204,7 @@ function applyRecord(state: TriajState, record: TriajImportRecord): TriajState {
   switch (kind) {
     case 'topic': {
       if (!target) throw new Error('Kanonik ünite seçilmeli.');
-      const topic = canonicalTopic(record, target);
+      const topic = canonicalTopic(record, target, state);
       if (state.topics.some((item) => item.id === topic.id)) throw new Error('Bu ünitede mevcut ilerleme var.');
       let updated = restoreTopicTask({ ...state, topics: [...state.topics, topic] }, topic);
       const due = dateValue(data.manualDueDate);

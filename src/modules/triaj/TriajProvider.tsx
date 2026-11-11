@@ -60,12 +60,9 @@ export function TriajProvider({ userId, children }: { userId?: string; children:
 
   const accept = useCallback((value: TriajSnapshot) => {
     if (!active.current) return;
-    // Vadesi geçmiş Cumartesi onarımlarını her okumada bir kez ilerlet;
-    // aksi hâlde `currentTaskDate` hesabı ile kalıcı `dueDate` ayrışır.
-    const normalized = { ...value, state: rollForwardOverdueRepairs(value.state) };
-    latest.current = normalized;
-    setSnapshot(normalized);
-    setSummary(summarizeTasks(normalized.state));
+    latest.current = value;
+    setSnapshot(value);
+    setSummary(summarizeTasks(value.state));
     setSummaryError(null);
   }, []);
 
@@ -124,8 +121,21 @@ export function TriajProvider({ userId, children }: { userId?: string; children:
       setStatus('loading');
       setError(null);
       try {
-        const { readTriajState } = await import('./persistence/triajRepository');
-        accept(await readTriajState(userId));
+        const repository = await import('./persistence/triajRepository');
+        let current = await repository.readTriajState(userId);
+        for (let attempt = 0; ; attempt++) {
+          const normalized = rollForwardOverdueRepairs(current.state);
+          if (normalized === current.state) break;
+          try {
+            current = await repository.writeTriajState(userId, current.revision, normalized);
+            break;
+          } catch (reason) {
+            if (!(reason instanceof repository.TriajConflict) || attempt >= 2) throw reason;
+            current = await repository.readTriajState(userId);
+          }
+        }
+        summaryRequest.current++;
+        accept(current);
         if (active.current) setStatus('ready');
       } catch (error) {
         if (active.current) {
@@ -148,7 +158,7 @@ export function TriajProvider({ userId, children }: { userId?: string; children:
         let current = latest.current ?? await repository.readTriajState(userId);
         for (let attempt = 0; ; attempt++) {
           if (!active.current) throw new Error('Oturum değişti.');
-          const next = change(current.state);
+          const next = change(rollForwardOverdueRepairs(current.state));
           try {
             const saved = next === current.state ? current
               : await repository.writeTriajState(userId, current.revision, next);

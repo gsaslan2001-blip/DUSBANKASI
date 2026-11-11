@@ -2,6 +2,7 @@ import type { ScoreDetail, SemanticErrorRecord, TestStage, TopicUnit, TriajState
 import type { CompactAnswer } from '../../../types/app';
 import { canonicalUnitNumber, isCanonicalUnit, unitKey } from './catalog';
 import { addDays, evaluateSaturdayRepair, evaluateT14Verification, evaluateT3Triage, getNextSaturday, getTodayString } from './triage';
+import { CANONICAL_UNITS } from '../../../config/canonicalUnits';
 
 export function isCalendarDate(date: string): boolean {
   return /^\d{4}-\d{2}-\d{2}$/.test(date) && addDays(date, 0) === date;
@@ -24,8 +25,7 @@ export function stageQuestionCount(stage: TestStage, state: TriajState): number 
 
 function addTask(state: TriajState, topic: TopicUnit, stage: TestStage, date: string, errorId?: string): TriajState {
   requireDate(date);
-  const sequence = state.tasks.filter(task => task.topicId === topic.id).length + 1;
-  const id = `${topic.id}/${sequence}/${stage}`;
+  const id = `${topic.id}/${crypto.randomUUID()}/${stage}`;
   return {
     ...state,
     tasks: [...state.tasks, {
@@ -39,8 +39,10 @@ function addTask(state: TriajState, topic: TopicUnit, stage: TestStage, date: st
 export function planUnit(state: TriajState, lesson: string, unit: string, date: string, notes?: string): TriajState {
   requireDate(date);
   const id = unitKey(lesson, unit);
-  const unitNumber = canonicalUnitNumber(lesson, unit);
   const existing = state.topics.find(topic => topic.id === id);
+  if (!Object.prototype.hasOwnProperty.call(CANONICAL_UNITS, lesson) || !unit.trim() || unit.length > 300) throw new Error('Geçerli bir ders ve konu başlığı girin.');
+  const unitNumber = isCanonicalUnit(lesson, unit) ? canonicalUnitNumber(lesson, unit)
+    : existing?.unitNumber ?? Math.max(CANONICAL_UNITS[lesson].length, ...state.topics.filter(topic => topic.subjectId === lesson).map(topic => topic.unitNumber)) + 1;
   const openT0Task = state.tasks.find(task => task.topicId === id && task.stage === 'T0_SAMPLING' && task.status === 'open');
   // Aynı üniteye yeni tarih vermek yeni döngü açmaz; mevcut ilk tekrarı taşır.
   // (v4.76 sözleşmesi: takvim, ders kartı ve planlayıcı aynı planlama eylemini kullanır.)
@@ -64,7 +66,7 @@ export function planUnit(state: TriajState, lesson: string, unit: string, date: 
 }
 
 export function restoreTopicTask(state: TriajState, topic: TopicUnit): TriajState {
-  if (topic.discharged || !isCanonicalUnit(topic.subjectId, topic.title) ||
+  if (topic.discharged || !Object.prototype.hasOwnProperty.call(CANONICAL_UNITS, topic.subjectId) ||
       state.tasks.some(task => task.topicId === topic.id && task.status === 'open' && !task.errorId)) return state;
   if (topic.currentBucket === 'RED' && topic.saturdayRepairDate) {
     return addTask(state, topic, 'SATURDAY_REPAIR', getNextSaturday(topic.saturdayRepairDate));
@@ -282,6 +284,6 @@ export function addSemanticError(state: TriajState, error: SemanticErrorRecord):
 export function focusAverage(focus: Record<string, number>, end = getTodayString()): number {
   const start = addDays(end, -6);
   const minutes = Object.entries(focus).filter(([date, value]) => date >= start && date <= end && value > 0);
-  return minutes.length ? minutes.reduce((total, [, value]) => total + value, 0) / minutes.length : 0;
+  return minutes.reduce((total, [, value]) => total + value, 0) / 7;
 }
 
