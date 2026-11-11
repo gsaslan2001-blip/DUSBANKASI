@@ -113,17 +113,21 @@ test('Bugünün Konusu aynı setle iki cihazda devam eder, hatalı teslimi yenid
     first.on('request', request => initialNetwork.push(request.url()));
     await Promise.all([first.goto('/', { waitUntil: 'domcontentloaded' }), second.goto('/', { waitUntil: 'domcontentloaded' })]);
     const topics = first.getByRole('region', { name: 'Bugünün Konusu' });
-    await expect(topics.getByRole('button', { name: 'Başlat' })).toBeVisible({ timeout: 15_000 });
-    await expect(topics.getByText('3 uygun soru · 7 eksik')).toBeVisible();
+    await expect(topics.getByRole('button', { name: 'İlk tekrarı aç' }).first()).toBeVisible({ timeout: 15_000 });
+
     await expect(topics.getByText(units[2], { exact: false })).toHaveCount(0);
     expect(initialNetwork.some(url => /TriajModule|ticktick|deepseek/.test(url))).toBe(false);
     expect(initialNetwork.some(url => /\/rest\/v1\/triaj_state/.test(url))).toBe(false);
     expect(db.contentRequests).toEqual([]);
     await expect(first.getByText('Günün Denemesi', { exact: true })).toBeVisible();
+    await topics.getByRole('button', { name: 'İlk tekrarı aç' }).first().click();
+    const modal = first.getByRole('dialog', { name: 'TRİAJ test görevi' });
+    await modal.getByRole('checkbox').check();
+    await modal.getByLabel('Banka soru sayısı (20–120)').fill('25');
+    await modal.getByRole('button', { name: 'Soru Bankasında Başlat' }).click();
+    await expect(first.getByRole('button', { name: /A Seçenek A/ })).toBeVisible();
     const persistedSet = db.state.tasks[0].questionIds;
-    expect(persistedSet).toHaveLength(10);
-    await topics.getByRole('checkbox', { name: '10 dakika boş kâğıt çalışması tamamlandı' }).check();
-    await topics.getByRole('button', { name: 'Başlat' }).click();
+    expect(persistedSet).toHaveLength(25);
     await first.getByRole('button', { name: /A Seçenek A/ }).click();
     await first.getByRole('button', { name: 'SONRAKİ' }).click();
     await expect.poll(() => db.session?.answers.length).toBe(1);
@@ -138,9 +142,9 @@ test('Bugünün Konusu aynı setle iki cihazda devam eder, hatalı teslimi yenid
     await expect(second.getByText(`TRİAJ test sorusu ${persistedSet?.[1].split('-').at(-1)}`, { exact: true })).toBeVisible();
     expect(db.contentRequests.at(-1)).toEqual(persistedSet);
     db.rejectNextDelivery = true;
-    for (let index = 1; index < 10; index++) {
+    for (let index = 1; index < 25; index++) {
       await second.getByRole('button', { name: 'A Seçenek A', disabled: false, exact: true }).last().click();
-      await second.getByRole('button', { name: index < 9 ? 'SONRAKİ' : 'BİTİR' }).last().click();
+      await second.getByRole('button', { name: index < 24 ? 'SONRAKİ' : 'BİTİR' }).last().click();
     }
     await expect(second.getByText(/TRİAJ sonucu kaydedilemedi/)).toBeVisible();
     expect(db.failedDelivery).toBe(true);
@@ -148,7 +152,7 @@ test('Bugünün Konusu aynı setle iki cihazda devam eder, hatalı teslimi yenid
     await second.getByRole('button', { name: 'BİTİR' }).click();
     await expect.poll(() => db.state.tasks[0].status).toBe('completed');
     expect(db.state.triageHistory).toHaveLength(1);
-    expect(db.state.triageHistory[0]).toMatchObject({ correct: 10, wrong: 0, empty: 0, questionIds: persistedSet });
+    expect(db.state.triageHistory[0]).toMatchObject({ correct: 25, wrong: 0, empty: 0, questionIds: persistedSet });
     await first.reload({ waitUntil: 'domcontentloaded' });
     await expect(topics.getByText('Tamamlandı', { exact: true })).toBeVisible();
     await topics.getByRole('button', { name: 'TRİAJ takvimi' }).click();
@@ -167,7 +171,7 @@ test('İstanbul gece yarısında yeni vadeyi gösterir', async ({ page, context 
   const topics = page.getByRole('region', { name: 'Bugünün Konusu' });
   await expect(topics.getByText('Bugün vadesi gelen soru görevi yok.')).toBeVisible();
   await page.clock.fastForward(660_000);
-  await expect(topics.getByRole('button', { name: 'Başlat' })).toBeVisible();
+  await expect(topics.getByRole('button', { name: 'İlk tekrarı aç' })).toBeVisible();
 });
 
 test('TRİAJ beş sekmeyi, parametre kaydını, yedek geri yüklemeyi ve odak tarihini destekler', async ({ page, context }) => {
@@ -219,8 +223,8 @@ test('TRİAJ beş sekmeyi, parametre kaydını, yedek geri yüklemeyi ve odak ta
   await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth)).toBe(390);
 
   await triaj.getByRole('button', { name: 'Yapay Zekâ', exact: true }).click();
-  const ai = page.getByRole('dialog', { name: 'Yapay zekâ', exact: true });
-  await expect(ai.getByText('Yapay zekâ hizmeti kapalı.')).toBeVisible();
+  const ai = page.getByRole('dialog', { name: /DeepSeek|Yapay zekâ/i });
+  await expect(ai.getByText(/DUS 2027 Bilişsel AI Motoru/i)).toBeVisible();
   await ai.getByRole('button', { name: 'Kapat' }).click();
 
   await triaj.getByRole('button', { name: 'Veri ve Yedek' }).click();

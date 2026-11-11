@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback, useMemo, useRef, lazy, Suspense, type
 import { TriajProvider, useTriaj } from './modules/triaj/TriajProvider';
 import { TodayTopics } from './modules/triaj/TodayTopics';
 import { dueQuestionTasks, preparationForStage, prepareQuestionTasks, taskQuestionIds } from './modules/triaj/domain/questionTasks';
-import { currentTaskDate, recordTaskResult } from './modules/triaj/domain/state';
+import { currentTaskDate, recordTaskResult, selectFirstReviewCount } from './modules/triaj/domain/state';
 import { getTodayString } from './modules/triaj/domain/triage';
 import type { TriajTask } from './modules/triaj/types';
 
@@ -51,7 +51,6 @@ const SimulationResultView = lazy(() => import('./components/SimulationResultVie
 
 const StatisticsView = lazy(() => import('./components/StatisticsView'));
 
-const DailyPlanView = lazy(() => import('./components/DailyPlanView'));
 const TriajModule = lazy(() => import('./modules/triaj/TriajModule'));
 
 const SourceBooksView = lazy(() => import('./components/SourceBooksView').then(m => ({ default: m.SourceBooksView })));
@@ -66,7 +65,7 @@ import { loadAvailablePool } from './lib/poolLoader';
 
 import { DUS_EXAM_DATE } from './lib/projections';
 
-import { buildSmartQueue, buildUnitQueue, buildExamPool } from './lib/adaptive';
+import { buildSmartQueue, buildExamPool } from './lib/adaptive';
 
 import {
 
@@ -1268,7 +1267,7 @@ function AppContent({ auth }: { auth: ReturnType<typeof useAuth> }) {
   const todayTriajTasks = useMemo(() => dueQuestionTasks(triajTasks, triajToday), [triajTasks, triajToday]);
   useEffect(() => {
     if (!user || loadStatus !== 'loaded' || appState !== 'select-lesson') return;
-    const pending = todayTriajTasks.filter(task => task.status === 'open' && !task.setId);
+    const pending = todayTriajTasks.filter(task => task.status === 'open' && !task.setId && task.ruleVersion !== 'first-review-v2');
     if (!pending.length) return;
     const stats = loadAllStats();
     const preparations = pending.flatMap(task => {
@@ -1302,7 +1301,7 @@ function AppContent({ auth }: { auth: ReturnType<typeof useAuth> }) {
     }
     setContentLoading(true);
     try {
-      const saved = await updateTriaj(state => prepareQuestionTasks(state, [task], normalQuestions, loadAllStats(), getTodayString()), true);
+      const saved = await updateTriaj(state => prepareQuestionTasks(selectFirstReviewCount(state, task.id, task.questionCount), [task], normalQuestions, loadAllStats(), getTodayString()), true);
       const current = saved.tasks.find(item => item.id === task.id);
       if (current?.status !== 'open') throw new Error('Bu görev tamamlanmış veya kaldırılmış.');
       if (!current.setId || !current.questionIds) {
@@ -3179,45 +3178,6 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                   examId: `simulation:${simResult.id}`, questionId: question.id,
                   lesson: question.lesson, unit: question.unit, question: question.question,
                 })) : undefined}
-              recommendations={<DailyPlanView
-
-              questions={questions.filter(q => !isDenemeBankQuestion(q))}
-
-              stats={loadAllStats()}
-
-              weakCount={getWeakQuestionIds().length}
-
-              activity={getRecentActivity(90)}
-
-              onStartWeakUnit={(lesson, unit) => {
-
-                setSelectedLesson(lesson);
-
-                setSelectedUnit(unit);
-
-                setUnitQuestions(buildUnitQueue(questions, lesson, unit, loadAllStats()));
-
-                setActiveExam(null);
-
-                setAppState('quiz');
-
-              }}
-
-              onStartSmartStudy={() => {
-
-                const queue = buildSmartQueue(questions.filter(q => !isDenemeBankQuestion(q)), loadAllStats(), { limit: 40 });
-
-                setExamQuestions(queue.questions);
-
-                setActiveExam({ variant: 'normal' });
-
-                setAppState('smart-study');
-
-              }}
-
-              theme={theme}
-
-              />}
             />
 
           ) : appState === 'smart-study' ? (
