@@ -44,27 +44,17 @@ export const CANONICAL_UNITS: Record<string, string[]> = {
   ],
 
   Biyokimya: [
-
-    'BÖLÜM 1 - KARBONHİDRATLAR',
-
-    'BÖLÜM 2 LİPİDLER',
-
-    'BÖLÜM 3 - METABOLİZMA',
-
-    'BÖLÜM 4 - AMİNOASİTLER',
-
-    'BÖLÜM 5 - PROTEİNLER',
-
-    '6 ENZİMLER VE KLİNİK',
-
-    '7 VİTAMİNLER',
-
-    'BÖLÜM 8 - HORMONLAR',
-
-    'BÖLÜM 9 - HÜCRE VE ORGANELLER',
-
-    'BÖLÜM 10 - GENETİK Nükleotidler ve Genom',
-
+    '1- KARBONHİDRATLAR',
+    '2- LİPİDLER',
+    '3- METABOLİZMA ENTEGRASYONU',
+    '4- NÜKLEİK ASİTLER',
+    '5- GENOM ORGANİZASYONU',
+    '6- AMİNO ASİTLER',
+    '7- PROTEİNLER',
+    '8- ENZİMLER VE KLİNİK BİYOKİMYA',
+    '9- HÜCRE VE ORGANELLER',
+    '10- VİTAMİNLER',
+    '11- HORMONLAR',
   ],
 
   Cerrahi: [

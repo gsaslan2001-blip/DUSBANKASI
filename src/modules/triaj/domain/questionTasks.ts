@@ -21,9 +21,17 @@ export function preparationForStage(stage: TriajTask['stage']): string | undefin
 
 export function taskQuestionIds(task: TriajTaskSummary, pool: QuestionSkeleton[], stats: StatsMap): string[] {
   const excluded = new Set(task.excludedQuestionIds);
-  const candidates = pool.filter(question =>
-    question.lesson === task.lesson && (task.stage === 'BRANCH_EXAM' || question.unit === task.unit) &&
-    isNormalQuestion(question) && !excluded.has(question.id));
+  const normLesson = (task.lesson || '').trim().toLocaleLowerCase('tr');
+  const normUnit = (task.unit || '').trim().toLocaleLowerCase('tr');
+
+  const candidates = pool.filter(question => {
+    const qLesson = (question.lesson || '').trim().toLocaleLowerCase('tr');
+    const qUnit = (question.unit || '').trim().toLocaleLowerCase('tr');
+    return qLesson === normLesson &&
+      (task.stage === 'BRANCH_EXAM' || qUnit === normUnit) &&
+      isNormalQuestion(question) && !excluded.has(question.id);
+  });
+
   return selectUnitQuestionIds(candidates, stats, { kind: 'count', count: task.questionCount });
 }
 

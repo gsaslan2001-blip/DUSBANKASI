@@ -64,6 +64,19 @@ function sourceId(code: string, index: number): string {
   return `unit-${code.toLowerCase().replace(/[^a-z0-9]/g, '')}-${String(index).padStart(2, '0')}`;
 }
 
+addReviewed('B04', [
+  [1, 'renamed', '1- Karbonhidratlar kanonik ünitesi.', '1- KARBONHİDRATLAR'],
+  [2, 'renamed', '2- Lipidler kanonik ünitesi.', '2- LİPİDLER'],
+  [3, 'renamed', '3- Metabolizma Entegrasyonu kanonik ünitesi.', '3- METABOLİZMA ENTEGRASYONU'],
+  [4, 'renamed', '6- Amino Asitler kanonik ünitesi.', '6- AMİNO ASİTLER'],
+  [5, 'renamed', '7- Proteinler kanonik ünitesi.', '7- PROTEİNLER'],
+  [6, 'renamed', '8- Enzimler ve Klinik Biyokimya kanonik ünitesi.', '8- ENZİMLER VE KLİNİK BİYOKİMYA'],
+  [7, 'renamed', '10- Vitaminler kanonik ünitesi.', '10- VİTAMİNLER'],
+  [8, 'renamed', '11- Hormonlar kanonik ünitesi.', '11- HORMONLAR'],
+  [9, 'renamed', '9- Hücre ve Organeller kanonik ünitesi.', '9- HÜCRE VE ORGANELLER'],
+  [10, 'split', 'Nükleik Asitler ve Genom Organizasyonu ünitelerine ayrılır.', '4- NÜKLEİK ASİTLER', '5- GENOM ORGANİZASYONU'],
+]);
+
 addReviewed('B10', [
   [1, 'renamed', 'Temel dental radyoloji kapsamı.', 'Ünite 1 - Diş Hekimliğinde Radyoloji'],
   [2, 'renamed', 'Radyasyonun biyolojik etkileri radyobiyoloji başlığında.', 'Ünite 3 - Radyobiyoloji'],

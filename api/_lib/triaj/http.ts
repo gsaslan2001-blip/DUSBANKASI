@@ -1,4 +1,10 @@
 import { createClient } from '@supabase/supabase-js';
+import dotenv from 'dotenv';
+
+if (!process.env.SUPABASE_SERVICE_ROLE_KEY) {
+  dotenv.config({ path: '.env.local' });
+  dotenv.config();
+}
 
 export class TriajApiError extends Error {
   constructor(readonly status: number, readonly code: string, message: string) {

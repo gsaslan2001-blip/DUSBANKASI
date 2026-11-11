@@ -1,13 +1,14 @@
 /**
  * Deploy.com DeepSeek v4.1 Flash (1017) Bilişsel DUS Motoru Modalı
  * Dokümantasyon: https://docs.deploy.com/deepseek-v4-1-flash-1017
+ * DusTriaj Referansı: C:\Users\FURKAN\Desktop\Projeler\DusTriaj\src\components\DeepSeekModal.tsx
  */
 
 import React, { useState, useMemo, useEffect, useRef } from 'react';
 import { useModalA11y } from '../../../hooks/useModalA11y';
 import { useTriajView } from './TriajViewContext';
 import {
-  getDeepSeekStatus, requestDeepSeekCompletion,
+  requestDeepSeekCompletion,
   type DeepSeekTaskType,
   type DeepSeekReasoningEffort,
   type DeepSeekResult,
@@ -41,20 +42,9 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
   const dialog = useModalA11y(onClose);
   const request = useRef<AbortController | null>(null);
   const copyTimer = useRef<number | null>(null);
-  const [status, setStatus] = useState<boolean | null>(null);
+
   useEffect(() => {
-    const controller = new AbortController();
-    getDeepSeekStatus(controller.signal).then(
-      response => setStatus(response.configured),
-      reason => {
-        if (!controller.signal.aborted) {
-          setStatus(false);
-          setError(reason instanceof Error ? reason.message : 'Hizmet durumu alınamadı.');
-        }
-      },
-    );
     return () => {
-      controller.abort();
       request.current?.abort();
       if (copyTimer.current !== null) window.clearTimeout(copyTimer.current);
     };
@@ -96,7 +86,8 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
 
   const handleGenerate = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!status || loading) return;
+    if (loading) return;
+
     const controller = new AbortController();
     request.current?.abort();
     request.current = controller;
@@ -119,9 +110,11 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
       setResultTopicId(selectedTopic?.id);
       setResult(response);
     } catch (err) {
-      if (!controller.signal.aborted) setError(
-        err instanceof Error ? err.message : 'DeepSeek v4.1 Flash API yanıtı alınamadı.'
-      );
+      if (!controller.signal.aborted) {
+        setError(
+          err instanceof Error ? err.message : 'DeepSeek v4.1 Flash API yanıtı alınamadı.'
+        );
+      }
     } finally {
       if (!controller.signal.aborted) setLoading(false);
     }
@@ -143,13 +136,22 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
   const handleSaveToUnit = async () => {
     if (!resultTopic || !result?.content || saving || savedToUnit) return;
     const prefix = resultTopic.clinicalNotes ? `${resultTopic.clinicalNotes}\n\n` : '';
-    if (await updateTopic(resultTopic.id, { clinicalNotes: `${prefix}${result.content}` })) setSavedToUnit(true);
+    if (await updateTopic(resultTopic.id, { clinicalNotes: `${prefix}[DeepSeek v4.1 Notu]: ${result.content}` })) {
+      setSavedToUnit(true);
+    }
   };
 
   return (
-    <div className="fixed inset-0 z-[70] grid place-items-center bg-black/65 p-4">
-      <div ref={dialog} role="dialog" aria-modal="true" aria-label="Yapay zekâ" tabIndex={-1} className="max-h-[calc(100dvh-2rem)] overflow-y-auto bg-white rounded-xl shadow-2xl border border-slate-200 max-w-2xl w-full">
-        {/* Başlık */}
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 backdrop-blur-xs p-4 overflow-y-auto">
+      <div
+        ref={dialog}
+        role="dialog"
+        aria-modal="true"
+        aria-label="DeepSeek v4.1 Bilişsel DUS Motoru"
+        tabIndex={-1}
+        className="bg-white rounded-xl shadow-2xl border border-slate-200 max-w-2xl w-full overflow-hidden my-8"
+      >
+        {/* Başlık — DusTriaj ile birebir */}
         <div className="px-6 py-4 bg-slate-900 text-white flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-lg bg-indigo-600/30 border border-indigo-400/40 flex items-center justify-center text-indigo-300">
@@ -158,7 +160,7 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
             <div>
               <div className="flex items-center gap-2">
                 <h2 className="text-sm font-bold tracking-tight">
-                  TRİAJ Yapay Zekâ
+                  DUS 2027 Bilişsel AI Motoru (Deploy.com API)
                 </h2>
                 <span className="px-2 py-0.5 rounded bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 font-mono text-[10px]">
                   {DEPLOY_DEEPSEEK_MODEL}
@@ -180,8 +182,6 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
           </button>
         </div>
 
-        {status === null && <p role="status" className="px-6 py-3 text-sm">Hizmet durumu sorgulanıyor…</p>}
-        {status === false && <p role="status" className="px-6 py-3 text-sm">Yapay zekâ hizmeti kapalı.</p>}
         <form onSubmit={handleGenerate} className="p-6 space-y-4">
           {/* Ders ve Ünite Seçimi */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -331,10 +331,12 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
           </div>
 
           <div className="flex items-center justify-between pt-1">
-            <span className="text-xs text-slate-500">Sağlayıcı Deploy.com</span>
+            <span className="text-[11px] text-slate-500 font-mono">
+              Endpoint: api-cdn.deploy.com/api/v1/chat/completions
+            </span>
             <button
               type="submit"
-              disabled={loading || status !== true}
+              disabled={loading}
               className="px-5 py-2 bg-indigo-600 hover:bg-indigo-700 text-white text-xs font-semibold rounded-lg flex items-center gap-2 shadow-xs transition-colors disabled:opacity-50"
             >
               {loading ? (
@@ -395,7 +397,7 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
                       type="button"
                       onClick={handleSaveToUnit}
                       disabled={saving || savedToUnit}
-                      className="px-2.5 py-1 bg-slate-900 hover:bg-slate-800 text-white rounded-md text-xs font-semibold flex items-center gap-1"
+                      className="px-2.5 py-1 bg-slate-900 hover:bg-slate-800 text-white rounded-md text-xs font-semibold flex items-center gap-1 disabled:opacity-50"
                     >
                       {savedToUnit ? (
                         <>
@@ -416,13 +418,6 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
               <div className="text-xs text-slate-800 whitespace-pre-wrap leading-relaxed max-h-64 overflow-y-auto font-sans">
                 {result.content}
               </div>
-              <p className="text-xs text-slate-600">Model {result.model}{resultTopic ? ` · Ünite ${resultTopic.title}` : ''}</p>
-              {result.reasoningContent && (
-                <details className="text-xs text-slate-600">
-                  <summary className="cursor-pointer">Modelin Analizi</summary>
-                  <p className="mt-2 whitespace-pre-wrap">{result.reasoningContent}</p>
-                </details>
-              )}
             </div>
           </div>
         )}

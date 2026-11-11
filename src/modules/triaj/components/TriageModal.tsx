@@ -3,7 +3,7 @@ import type { FormEvent } from 'react';
 import { useModalA11y } from '../../../hooks/useModalA11y';
 import { currentTaskDate } from '../domain/state';
 import { evaluateSaturdayRepair, evaluateT14Verification, evaluateT3Triage } from '../domain/triage';
-import { getDeepSeekStatus, requestDeepSeekCompletion } from '../integrations/deepseek';
+import { requestDeepSeekCompletion } from '../integrations/deepseek';
 import type { TestStage, TopicUnit, TriajTask } from '../types';
 import { Sparkles, X } from './icons';
 import { stageLabels, useTriajView } from './TriajViewContext';
@@ -29,7 +29,6 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
   const [showManual, setShowManual] = useState(!task);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
-  const [aiStatus, setAiStatus] = useState<boolean | null>(null);
   const request = useRef<AbortController | null>(null);
   const close = useCallback(() => { if (!busy && !saving) onClose(); }, [busy, onClose, saving]);
   const dialog = useModalA11y(close);
@@ -76,17 +75,22 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
     setError('');
     setBusy(true);
     try {
-      const { configured } = await getDeepSeekStatus(controller.signal);
-      setAiStatus(configured);
-      if (!configured) return;
       const subject = subjects.find(item => item.id === topic.subjectId);
       const result = await requestDeepSeekCompletion({
-        taskType: 'TRIAGE_PATCH', subjectName: subject?.name, unitTitle: topic.title,
-        scoreSummary: `${correct}/${total}`, userNotes: notes, reasoningEffort: 'none',
+        taskType: 'TRIAGE_PATCH',
+        subjectName: subject?.name,
+        unitTitle: topic.title,
+        scoreSummary: `${correct}/${total}`,
+        userNotes: notes,
+        reasoningEffort: 'none',
       }, controller.signal);
-      if (result.content) setNotes(value => [value, result.content].filter(Boolean).join('\n\n'));
+      if (result.content) {
+        setNotes(value => [value, result.content].filter(Boolean).join('\n\n'));
+      }
     } catch (reason) {
-      if (!controller.signal.aborted) setError(reason instanceof Error ? reason.message : 'Yapay zekâ hizmetine ulaşılamadı.');
+      if (!controller.signal.aborted) {
+        setError(reason instanceof Error ? reason.message : 'Yapay zekâ hizmetine ulaşılamadı.');
+      }
     } finally {
       if (!controller.signal.aborted) setBusy(false);
     }
@@ -171,11 +175,9 @@ export function TriageModal({ topic, stage: initialStage, task: initialTask, onC
                     <textarea value={notes} onChange={event => setNotes(event.target.value)} rows={3}
                       className="mt-1 w-full rounded-md border border-slate-300 bg-slate-50 p-2" />
                   </label>
-                  {aiStatus !== false ? (
-                    <button type="button" onClick={() => void generatePatch()} disabled={!valid || busy || saving} className="flex items-center gap-2 text-sm text-indigo-600 disabled:opacity-50">
-                      <Sparkles className="size-4" /> Yapay Zekâ ile Yama Önerisi
-                    </button>
-                  ) : <p className="text-sm text-slate-500">Yapay zekâ hizmeti kapalı.</p>}
+                  <button type="button" onClick={() => void generatePatch()} disabled={!valid || busy || saving} className="flex items-center gap-2 text-sm text-indigo-600 hover:text-indigo-700 disabled:opacity-50">
+                    <Sparkles className="size-4" /> Yapay Zekâ ile Yama Önerisi
+                  </button>
                   <button type="submit" disabled={!valid || busy || saving} className="rounded-lg bg-indigo-600 px-4 py-2 text-sm font-semibold text-white disabled:opacity-50">
                     {busy || saving ? 'Kaydediliyor…' : 'Sonucu Kaydet'}
                   </button>

@@ -32,11 +32,20 @@ import {
   Table,
   Tag,
   Layers,
+  Calendar,
   Grid
 } from './icons';
 
 type UnitStatusFilter = 'ALL' | 'ACTIVE_TRIAGE' | 'NOT_STARTED';
 type CurriculumViewMode = 'SUBJECT_CARDS' | 'TEKRAR_PLANI' | 'KONU_TAKIP_MATRISI';
+
+function normalizeTurkishText(str: string): string {
+  return (str || '')
+    .replace(/İ/g, 'i')
+    .replace(/I/g, 'ı')
+    .toLocaleLowerCase('tr')
+    .replace(/\u0307/g, '');
+}
 
 export const SubjectDatabaseView: React.FC = () => {
   const { subjects, topics, addTopic, cancelPlannedT0, reschedule, tasks, todayStr, saving } = useTriajView();
@@ -86,12 +95,12 @@ export const SubjectDatabaseView: React.FC = () => {
         if (unitStatusFilter === 'ACTIVE_TRIAGE' && t.status === 'NOT_STARTED') return false;
         if (unitStatusFilter === 'NOT_STARTED' && t.status !== 'NOT_STARTED') return false;
         if (searchQuery.trim()) {
-          const q = searchQuery.toLowerCase();
+          const q = normalizeTurkishText(searchQuery);
           return (
-            t.title.toLowerCase().includes(q) ||
-            sub.name.toLowerCase().includes(q) ||
-            sub.code.toLowerCase().includes(q) ||
-            (t.topicCode && t.topicCode.toLowerCase().includes(q))
+            normalizeTurkishText(t.title).includes(q) ||
+            normalizeTurkishText(sub.name).includes(q) ||
+            normalizeTurkishText(sub.code).includes(q) ||
+            (t.topicCode && normalizeTurkishText(t.topicCode).includes(q))
           );
         }
         return true;
@@ -488,6 +497,7 @@ export const SubjectDatabaseView: React.FC = () => {
                           const isYellow = topic.currentBucket === 'YELLOW';
                           const isRed = topic.currentBucket === 'RED';
                           const isPending = topic.currentBucket === 'NONE';
+                          const t0TaskForCard = tasks.find(task => task.topicId === topic.id && task.stage === 'T0_SAMPLING' && task.status === 'open');
 
                           return (
                             <div
@@ -523,7 +533,7 @@ export const SubjectDatabaseView: React.FC = () => {
                                     <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-slate-600 bg-slate-100 px-2 py-0.5 rounded border border-slate-200">
                                       <Clock className="w-3 h-3" />
                                       <span>
-                                        {(topic.status === 'T0_DONE' || topic.status === 'T3_PENDING') ? 'T+3 Testi Bekliyor' : 'Başlanmadı'}
+                                        {t0TaskForCard ? `T+0 Planlı: ${t0TaskForCard.dueDate}` : (topic.status === 'T0_DONE' || topic.status === 'T3_PENDING') ? 'T+3 Testi Bekliyor' : 'Başlanmadı'}
                                       </span>
                                     </span>
                                   )}
@@ -549,6 +559,21 @@ export const SubjectDatabaseView: React.FC = () => {
                               </div>
 
                               <div className="flex items-center gap-2 self-end md:self-auto shrink-0">
+                                {topic.status === 'NOT_STARTED' && !t0TaskForCard && (
+                                  <button
+                                    type="button"
+                                    onClick={() => {
+                                      setNewTopicSubjectId(sub.id);
+                                      setNewTopicTitle(topic.title);
+                                      setNewTopicDate(todayStr);
+                                      setIsAddTopicModalOpen(true);
+                                    }}
+                                    className="px-2.5 py-1.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 text-xs font-semibold rounded-lg flex items-center gap-1 transition-colors"
+                                  >
+                                    <Calendar className="w-3.5 h-3.5" />
+                                    <span>T+0 Planla</span>
+                                  </button>
+                                )}
                                 <button
                                   type="button"
                                   onClick={() => setActiveTestTopic(topic)}
@@ -642,8 +667,8 @@ export const SubjectDatabaseView: React.FC = () => {
                         <input
                           type="date"
                           aria-label={`${topic.title} T+0 plan tarihi`}
-                          value={topic.t0Date || t0Task?.dueDate || ''}
-                          disabled={Boolean(topic.t0Date) || saving}
+                          value={t0Task?.dueDate || topic.t0Date || ''}
+                          disabled={saving || (topic.status !== 'NOT_STARTED' && !t0Task)}
                           onChange={e => {
                             if (!e.target.value || !sub) return;
                             if (t0Task) void reschedule(t0Task.id, e.target.value);
@@ -876,16 +901,31 @@ export const SubjectDatabaseView: React.FC = () => {
                 />
               </div>
 
-              <label className="block text-sm">
-                T+0 tarihi
-                <input type="date" required value={newTopicDate} onChange={e => setNewTopicDate(e.target.value)}
-                  className="mt-1 block rounded-md border border-slate-300 bg-slate-50 p-2" />
-              </label>
-              <label className="block text-sm">
-                Çalışma notu
-                <textarea rows={2} value={newTopicNotes} onChange={e => setNewTopicNotes(e.target.value)}
-                  className="mt-1 w-full rounded-md border border-slate-300 bg-slate-50 p-2" />
-              </label>
+              <div>
+                <label className="block text-xs font-semibold text-slate-700 mb-1">
+                  T+0 Başlangıç Tarihi
+                </label>
+                <input
+                  type="date"
+                  required
+                  aria-label="T+0 Başlangıç Tarihi"
+                  value={newTopicDate}
+                  onChange={e => setNewTopicDate(e.target.value)}
+                  className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded-lg text-xs font-mono text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-indigo-500"
+                />
+              </div>
+              <div>
+                <label className="block text-xs font-semibold text-slate-700 mb-1">
+                  Çalışma / Yama Notu (Opsiyonel)
+                </label>
+                <textarea
+                  rows={2}
+                  value={newTopicNotes}
+                  onChange={e => setNewTopicNotes(e.target.value)}
+                  placeholder="Kritik odak noktaları, kaçıncı tekrar olduğu vb..."
+                  className="w-full px-3 py-2 bg-slate-50 border border-slate-300 rounded-lg text-xs text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-indigo-500"
+                />
+              </div>
               <div className="flex items-center justify-end gap-3 pt-3 border-t border-slate-100">
                 <button
                   type="button"

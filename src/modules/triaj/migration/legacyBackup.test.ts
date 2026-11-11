@@ -22,7 +22,7 @@ describe('legacy catalogue', () => {
   it('accounts for all legacy source IDs and uses exact canonical target labels', () => {
     expect(LEGACY_UNIT_MAPPING).toHaveLength(227);
     expect(new Set(LEGACY_UNIT_MAPPING.map(({ sourceId }) => sourceId)).size).toBe(227);
-    expect(LEGACY_UNIT_MAPPING.filter(({ relation }) => relation === 'exact')).toHaveLength(148);
+    expect(LEGACY_UNIT_MAPPING.filter(({ relation }) => relation === 'exact')).toHaveLength(138);
     for (const mapping of LEGACY_UNIT_MAPPING) {
       for (const { lesson, unit } of mapping.targets) expect(isCanonicalUnit(lesson, unit)).toBe(true);
     }

@@ -1460,6 +1460,25 @@ function AppContent({ auth }: { auth: ReturnType<typeof useAuth> }) {
           const question = content.get(questionId);
           return question ? [{ question, ...answer }] : [];
         }) ?? [];
+        // TRİAJ & DUSBANKASI Bütünleşik Genel İstatistik Entegrasyonu
+        const answeredRecords = details.map(d => ({
+          questionId: d.question.id,
+          isCorrect: d.state === 'correct',
+          selectedOption: d.selectedOptionKey ?? null,
+          lesson: d.question.lesson,
+          timeSpent: d.timeSpent,
+        }));
+        saveBulkQuestionStats(answeredRecords);
+
+        // Kernel ve kokpit sayaçlarını anında tazele
+        recomputeKernel({
+          questions: rawQuestions,
+          stats: loadAllStats(),
+          activity: getRecentActivity(90),
+          goals: useAppStore.getState().goals,
+        });
+        setStatsVersion(v => v + 1);
+        SyncManager.flush().catch(() => {});
         setQuizStats({
           correct: result.correct, incorrect: result.wrong, blank: result.empty, total: result.total, details,
         });

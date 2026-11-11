@@ -18,12 +18,25 @@ export const deepSeekInput = z.strictObject({
   cachePreference: z.number().int().min(1).max(20).optional(),
 });
 
+const ALLOWED_DEEPSEEK_BASE_URLS = [
+  DEPLOY_BASE_URL,
+  'https://api.deploy.com/v1',
+  'https://api-cdn.deploy.com/api/v1',
+  'https://api.deepseek.com',
+  'https://api.deepseek.com/v1',
+];
+
 export function getDeepSeekConfig() {
-  const key = process.env.DEPLOY_API_KEY?.trim();
-  const model = process.env.DEPLOY_MODEL?.trim() || DEPLOY_DEEPSEEK_MODEL;
-  const baseUrl = (process.env.DEPLOY_BASE_URL?.trim() || DEPLOY_BASE_URL).replace(/\/$/, '');
-  if (!key || baseUrl !== DEPLOY_BASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY) return null;
-  return { key, model, endpoint: `${baseUrl}/chat/completions` };
+  const key = process.env.DEPLOY_API_KEY?.trim() || process.env.DEEPSEEK_API_KEY?.trim();
+  const rawBaseUrl = process.env.DEPLOY_BASE_URL?.trim();
+  const baseUrl = (rawBaseUrl || (process.env.DEEPSEEK_API_KEY && !process.env.DEPLOY_API_KEY ? 'https://api.deepseek.com' : DEPLOY_BASE_URL)).replace(/\/$/, '');
+  if (!key || !ALLOWED_DEEPSEEK_BASE_URLS.includes(baseUrl)) return null;
+
+  const isDeploy = baseUrl === DEPLOY_BASE_URL || baseUrl.includes('deploy.com');
+  const defaultModel = isDeploy ? DEPLOY_DEEPSEEK_MODEL : (process.env.DEEPSEEK_MODEL?.trim() || 'deepseek-chat');
+  const model = process.env.DEPLOY_MODEL?.trim() || defaultModel;
+
+  return { key, model, endpoint: `${baseUrl}/chat/completions`, isDeploy };
 }
 
 const completionResponse = z.looseObject({
@@ -40,7 +53,19 @@ export async function generateDeepSeek(
   config: NonNullable<ReturnType<typeof getDeepSeekConfig>>,
   request: Request,
 ) {
-  const payload = { ...buildDeepSeekPayload(input), model: config.model };
+  const basePayload = buildDeepSeekPayload(input);
+  const payload = config.isDeploy
+    ? { ...basePayload, model: config.model }
+    : {
+        model: config.model,
+        messages: basePayload.messages,
+        temperature: basePayload.temperature,
+        max_tokens: basePayload.max_completion_tokens,
+        stream: false,
+        ...(config.model.includes('reasoner') && input.reasoningEffort && input.reasoningEffort !== 'none'
+          ? { reasoning_effort: input.reasoningEffort }
+          : {}),
+      };
   const signal = upstreamSignal(request, 25_000);
   try {
     const response = await fetch(config.endpoint, {

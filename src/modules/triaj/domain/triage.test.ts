@@ -212,7 +212,7 @@ test('generateTriageReport calculates accurate metrics and overall retention ind
   assert.ok(report.overallRetentionIndex > 0);
 });
 
-test('TRİAJ catalog uses the bank labels including all 260 units', () => {
-  assert.equal(Object.values(CANONICAL_UNITS).flat().length, 260);
+test('TRİAJ catalog uses the bank labels including all 261 units', () => {
+  assert.equal(Object.values(CANONICAL_UNITS).flat().length, 261);
 });
 

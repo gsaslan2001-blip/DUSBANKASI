@@ -40,12 +40,17 @@ export function planUnit(state: TriajState, lesson: string, unit: string, date: 
   const id = unitKey(lesson, unit);
   const unitNumber = canonicalUnitNumber(lesson, unit);
   const existing = state.topics.find(topic => topic.id === id);
+  const openT0Task = state.tasks.find(task => task.topicId === id && task.stage === 'T0_SAMPLING' && task.status === 'open');
+  if (openT0Task) {
+    return rescheduleTask(state, openT0Task.id, date);
+  }
   if (existing && (existing.status !== 'NOT_STARTED' || state.tasks.some(task => task.topicId === id && task.status === 'open' && !task.errorId))) {
     throw new Error('Bu ünitenin çalışma döngüsü zaten kayıtlı.');
   }
   const topic: TopicUnit = {
     id, unitNumber, subjectId: lesson, title: unit, subtopics: [], status: 'NOT_STARTED',
     currentBucket: 'NONE', priority: 'P3_MEDIUM', discharged: false, createdAt: date, ...existing,
+    t0Date: date,
     clinicalNotes: notes ?? existing?.clinicalNotes, updatedAt: date,
   };
   return addTask({
@@ -145,10 +150,36 @@ export function recordTaskResult(state: TriajState, taskId: string, input: TaskR
     if (task.stage === 'T14_VERIFICATION') updated.t14Score = score;
     if (task.stage === 'SATURDAY_REPAIR') updated.repairScore = score;
   }
+  const currentGoal = state.dailyGoals[date] ?? {
+    date,
+    targetStudyMinutes: 300,
+    completedStudyMinutes: 0,
+    targetQuestions: 80,
+    completedQuestions: 0,
+    block1Done: false,
+    block2Done: false,
+    block3Done: false,
+    block4Done: false,
+    checklist: [],
+    notes: '',
+  };
+  const updatedGoal = {
+    ...currentGoal,
+    completedQuestions: currentGoal.completedQuestions + total,
+    completedStudyMinutes: currentGoal.completedStudyMinutes + Math.max(15, Math.round(total * 1.5)),
+    block2Done: currentGoal.block2Done || task.stage === 'T0_SAMPLING',
+    block3Done: currentGoal.block3Done || task.stage === 'T3_MAIN' || task.stage === 'T14_VERIFICATION' || task.stage === 'SATURDAY_REPAIR' || task.stage === 'ERROR_VERIFICATION',
+    block4Done: currentGoal.block4Done || task.stage === 'BRANCH_EXAM',
+  };
+
   const next: TriajState = {
     ...state,
     topics: state.topics.map(item => item.id === topic.id ? updated : item),
     tasks: state.tasks.map(item => item.id === task.id ? { ...item, status: 'completed', completedDate: date } : item),
+    dailyGoals: {
+      ...state.dailyGoals,
+      [date]: updatedGoal,
+    },
     semanticErrors: errorStatus
       ? state.semanticErrors.map(error => error.id === task.errorId ? { ...error, verificationStatus: errorStatus } : error)
       : state.semanticErrors,

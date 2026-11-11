@@ -1,9 +1,10 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useState, useEffect } from 'react';
+import { CANONICAL_UNITS } from '../../../config/canonicalUnits';
 import { getCalendarHeatmapStyle } from '../domain/analytics';
 import { currentTaskDate } from '../domain/state';
 import { addDays, getDaysDiff } from '../domain/triage';
 import type { TriajTask } from '../types';
-import { Calendar, ChevronLeft, ChevronRight, GripVertical, History, Volume2, VolumeX } from './icons';
+import { Calendar, ChevronLeft, ChevronRight, GripVertical, History, Plus, Volume2, VolumeX } from './icons';
 import { TriageModal } from './TriageModal';
 import { stageLabels, useTriajView } from './TriajViewContext';
 
@@ -14,7 +15,7 @@ type CalendarTab = typeof tabs[number];
 
 export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: string }) {
   const {
-    topics, tasks, triageLogs, todayStr, systemParams, reschedule,
+    topics, tasks, subjects, triageLogs, todayStr, systemParams, reschedule, addTopic, saving,
     soundEnabled, toggleSound, browserNotificationsEnabled, requestBrowserNotificationPermission,
   } = useTriajView();
   const [month, setMonth] = useState(todayStr.slice(0, 7));
@@ -23,6 +24,17 @@ export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: st
   const [activeTask, setActiveTask] = useState<TriajTask | null>(() =>
     tasks.find(task => task.id === initialTaskId) ?? null);
   const [draggedTask, setDraggedTask] = useState<string | null>(null);
+
+  // Takvimden hızlı ders / ünite planlama formu state'i
+  const [showAddForm, setShowAddForm] = useState(false);
+  const [planSubjectId, setPlanSubjectId] = useState<string>('B01');
+  const [planUnitTitle, setPlanUnitTitle] = useState<string>('');
+  const [planNotes, setPlanNotes] = useState<string>('');
+  const [planTargetDate, setPlanTargetDate] = useState<string>(todayStr);
+
+  useEffect(() => {
+    setPlanTargetDate(selectedDate);
+  }, [selectedDate]);
 
   const displayDate = (task: TriajTask) =>
     task.status === 'completed' ? task.completedDate ?? task.dueDate : currentTaskDate(task, todayStr);
@@ -158,7 +170,117 @@ export function NotificationCalendarView({ initialTaskId }: { initialTaskId?: st
             })}
           </div>
           <div className="mt-5 border-t border-slate-200 pt-4">
-            <h3 className="mb-2 font-bold">{selectedDate} görevleri</h3>
+            <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <h3 className="font-bold">{selectedDate} görevleri ({selectedTasks.length})</h3>
+              <button
+                type="button"
+                onClick={() => setShowAddForm(prev => !prev)}
+                className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-colors shadow-2xs"
+              >
+                <Plus className="w-3.5 h-3.5" />
+                <span>{showAddForm ? 'Formu Kapat' : 'Bu Güne Ders / Ünite Başlat (T+0)'}</span>
+              </button>
+            </div>
+
+            {showAddForm && (
+              <form
+                onSubmit={async e => {
+                  e.preventDefault();
+                  if (!planUnitTitle || !planSubjectId || !planTargetDate) return;
+                  const ok = await addTopic(planSubjectId, planUnitTitle, [], planTargetDate, planNotes);
+                  if (ok) {
+                    setPlanUnitTitle('');
+                    setPlanNotes('');
+                    setShowAddForm(false);
+                    setSelectedDate(planTargetDate);
+                  }
+                }}
+                className="mb-4 p-4 rounded-xl border border-indigo-200 bg-indigo-50/50 space-y-3"
+              >
+                <div className="text-xs font-bold text-indigo-900 flex items-center gap-1.5">
+                  <Plus className="w-4 h-4 text-indigo-600" />
+                  <span>{planTargetDate} Tarihine Ders / Ünite Planla (T+0 Başlangıcı)</span>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+                  <div>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">Ders Bloğu</label>
+                    <select
+                      value={planSubjectId}
+                      aria-label="Ders seçin"
+                      onChange={e => {
+                        setPlanSubjectId(e.target.value);
+                        setPlanUnitTitle('');
+                      }}
+                      className="w-full px-2.5 py-1.5 bg-white border border-slate-300 rounded-lg text-xs font-medium text-slate-800"
+                    >
+                      {subjects.map(s => (
+                        <option key={s.id} value={s.id}>
+                          [{s.code}] {s.name}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">Kanonik Ünite</label>
+                    <select
+                      value={planUnitTitle}
+                      aria-label="Kanonik ünite seçin"
+                      required
+                      onChange={e => setPlanUnitTitle(e.target.value)}
+                      className="w-full px-2.5 py-1.5 bg-white border border-slate-300 rounded-lg text-xs text-slate-800"
+                    >
+                      <option value="">Ünite seçin...</option>
+                      {(CANONICAL_UNITS[subjects.find(s => s.id === planSubjectId)?.name ?? ''] ?? []).map(title => (
+                        <option key={title} value={title}>
+                          {title}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <div>
+                    <label className="block text-xs font-semibold text-slate-700 mb-1">T+0 Başlangıç Tarihi</label>
+                    <input
+                      type="date"
+                      required
+                      aria-label="T+0 Başlangıç Tarihi"
+                      value={planTargetDate}
+                      onChange={e => setPlanTargetDate(e.target.value)}
+                      className="w-full px-2.5 py-1.5 bg-white border border-slate-300 rounded-lg text-xs font-mono text-slate-800"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <input
+                    type="text"
+                    value={planNotes}
+                    onChange={e => setPlanNotes(e.target.value)}
+                    placeholder="Opsiyonel çalışma / yama notu..."
+                    className="w-full px-3 py-1.5 bg-white border border-slate-300 rounded-lg text-xs text-slate-800"
+                  />
+                </div>
+
+                <div className="flex justify-end gap-2 pt-1">
+                  <button
+                    type="button"
+                    onClick={() => setShowAddForm(false)}
+                    className="px-3 py-1.5 border border-slate-300 rounded-lg text-xs text-slate-700 hover:bg-slate-100"
+                  >
+                    Vazgeç
+                  </button>
+                  <button
+                    type="submit"
+                    disabled={saving || !planUnitTitle}
+                    className="px-4 py-1.5 bg-indigo-600 hover:bg-indigo-700 disabled:opacity-50 text-white rounded-lg text-xs font-semibold"
+                  >
+                    {saving ? 'Kaydediliyor...' : 'Takvime Ekle (T+0 Planla)'}
+                  </button>
+                </div>
+              </form>
+            )}
             {renderTasks(selectedTasks)}
           </div>
         </section>

@@ -73,6 +73,78 @@ def _resolve_unit_smart(lesson: str, requested_unit: str) -> str:
 
     # 1. Önceden onaylanmış eşleme kuralları
     mappings = {
+        "Biyokimya": {
+            "1. unite": "1- KARBONHİDRATLAR",
+            "1.ünite": "1- KARBONHİDRATLAR",
+            "1- karbonhidratlar": "1- KARBONHİDRATLAR",
+            "karbonhidratlar": "1- KARBONHİDRATLAR",
+            "bolum 1 - karbonhidratlar": "1- KARBONHİDRATLAR",
+
+            "2. unite": "2- LİPİDLER",
+            "2.ünite": "2- LİPİDLER",
+            "2- lipidler": "2- LİPİDLER",
+            "lipidler": "2- LİPİDLER",
+            "lipitler": "2- LİPİDLER",
+            "bolum 2 lipidler": "2- LİPİDLER",
+
+            "3. unite": "3- METABOLİZMA ENTEGRASYONU",
+            "3.ünite": "3- METABOLİZMA ENTEGRASYONU",
+            "3- metabolizma entegrasyonu": "3- METABOLİZMA ENTEGRASYONU",
+            "metabolizma entegrasyonu": "3- METABOLİZMA ENTEGRASYONU",
+            "metabolizma": "3- METABOLİZMA ENTEGRASYONU",
+            "bolum 3 - metabolizma": "3- METABOLİZMA ENTEGRASYONU",
+
+            "4. unite": "4- NÜKLEİK ASİTLER",
+            "4.ünite": "4- NÜKLEİK ASİTLER",
+            "4- nukleik asitler": "4- NÜKLEİK ASİTLER",
+            "nukleik asitler": "4- NÜKLEİK ASİTLER",
+
+            "5. unite": "5- GENOM ORGANİZASYONU",
+            "5.ünite": "5- GENOM ORGANİZASYONU",
+            "5- genom organizasyonu": "5- GENOM ORGANİZASYONU",
+            "genom organizasyonu": "5- GENOM ORGANİZASYONU",
+            "genom": "5- GENOM ORGANİZASYONU",
+            "genetik nukleotidler ve genom": "5- GENOM ORGANİZASYONU",
+            "bolum 10 - genetik nukleotidler ve genom": "5- GENOM ORGANİZASYONU",
+
+            "6. unite": "6- AMİNO ASİTLER",
+            "6.ünite": "6- AMİNO ASİTLER",
+            "6- amino asitler": "6- AMİNO ASİTLER",
+            "amino asitler": "6- AMİNO ASİTLER",
+            "aminoasitler": "6- AMİNO ASİTLER",
+            "bolum 4 - aminoasitler": "6- AMİNO ASİTLER",
+
+            "7. unite": "7- PROTEİNLER",
+            "7.ünite": "7- PROTEİNLER",
+            "7- proteinler": "7- PROTEİNLER",
+            "proteinler": "7- PROTEİNLER",
+            "bolum 5 - proteinler": "7- PROTEİNLER",
+
+            "8. unite": "8- ENZİMLER VE KLİNİK BİYOKİMYA",
+            "8.ünite": "8- ENZİMLER VE KLİNİK BİYOKİMYA",
+            "8- enzimler ve klinik biyokimya": "8- ENZİMLER VE KLİNİK BİYOKİMYA",
+            "enzimler ve klinik biyokimya": "8- ENZİMLER VE KLİNİK BİYOKİMYA",
+            "enzimler": "8- ENZİMLER VE KLİNİK BİYOKİMYA",
+            "6 enzimler ve klinik": "8- ENZİMLER VE KLİNİK BİYOKİMYA",
+
+            "9. unite": "9- HÜCRE VE ORGANELLER",
+            "9.ünite": "9- HÜCRE VE ORGANELLER",
+            "9- hucre ve organeller": "9- HÜCRE VE ORGANELLER",
+            "hucre ve organeller": "9- HÜCRE VE ORGANELLER",
+            "bolum 9 - hucre ve organeller": "9- HÜCRE VE ORGANELLER",
+
+            "10. unite": "10- VİTAMİNLER",
+            "10.ünite": "10- VİTAMİNLER",
+            "10- vitaminler": "10- VİTAMİNLER",
+            "vitaminler": "10- VİTAMİNLER",
+            "7 vitaminler": "10- VİTAMİNLER",
+
+            "11. unite": "11- HORMONLAR",
+            "11.ünite": "11- HORMONLAR",
+            "11- hormonlar": "11- HORMONLAR",
+            "hormonlar": "11- HORMONLAR",
+            "bolum 8 - hormonlar": "11- HORMONLAR",
+        },
         "Ortodonti": {
             "buyume ve gelisim": "Ünite 1 - BÜYÜME ve GELİŞİM",
             "dental yapilarin gelisimi": "Ünite 2 - DENTAL YAPILARIN GELİŞİMİ",
@@ -160,7 +232,12 @@ def _resolve_unit_smart(lesson: str, requested_unit: str) -> str:
     }
 
     lesson_maps = mappings.get(lesson, {})
+    # 1a. Tam esleme onceligi
     for k, v in lesson_maps.items():
+        if fold(k) == f_raw:
+            return v
+    # 1b. Uzun anahtar oncelikli alt-dize eslemesi (orn. '11. unite' once, '1. unite' sonra)
+    for k, v in sorted(lesson_maps.items(), key=lambda x: len(x[0]), reverse=True):
         if fold(k) in f_raw:
             return v
 
@@ -325,10 +402,20 @@ def _load_md(path: str) -> list:
     # Soru bloklarını ayır (--- veya Soru \d+ ile başlama)
     sections = re.split(r"\n---+|\n(?=(?:###\s*)?Soru\s+\d+[\s:.\-–—]+)", content)
     questions = []
+    current_unit = None
     for section in sections:
         sec_clean = section.strip()
         if not sec_clean:
             continue
+
+        # Ünite/bölüm ayırıcı başlığı algıla (Ör: 1. ünite, 2. ünite, Ünite 1, Bölüm 1)
+        u_header = re.search(r"^(?:###\s*)?(\d+)\s*\.?\s*ünite", sec_clean, re.IGNORECASE)
+        if not u_header:
+            u_header = re.search(r"^(?:###\s*)?(?:ünite|bölüm)\s*(\d+)", sec_clean, re.IGNORECASE)
+        if u_header and len(sec_clean.splitlines()) <= 3 and len(sec_clean) < 100:
+            current_unit = sec_clean.splitlines()[0].strip()
+            if not re.search(r"(?:\*\*Soru Metni:\*\*|\*\*Soru Metni\*\*|Soru Metni)", sec_clean, re.IGNORECASE):
+                continue
         
         # Soru kökü var mı kontrol et
         has_stem = bool(re.search(r"(?:\*\*Soru Metni:\*\*|\*\*Soru Metni\*\*|Soru Metni)", sec_clean, re.IGNORECASE))
@@ -343,6 +430,8 @@ def _load_md(path: str) -> list:
             # Eğer başlık sadece 'Soru Metni' ile bitiyorsa veya boşsa None
             if u_cand and not re.match(r"^Soru\s+Metni", u_cand, re.IGNORECASE):
                 unit_label = u_cand
+
+        unit_label = unit_label or current_unit
 
         q_match = re.search(r"(?:\*\*Soru Metni:\*\*|\*\*Soru Metni\*\*|Soru Metni:?)\s*(.*?)(?=\n\s*[-*]?\s*A[).]\s)", sec_clean, re.DOTALL | re.IGNORECASE)
         question_text = q_match.group(1).strip() if q_match else ""
