@@ -31,7 +31,13 @@ export function useTriaj(): TriajContextValue {
 }
 
 function message(error: unknown): string {
-  return error instanceof Error ? error.message : 'TRİAJ planına erişilemedi.';
+  if (error instanceof Error) {
+    if (error.message.includes('triaj_state') || error.message.includes('schema cache')) {
+      return 'TRİAJ veritabanı kurulumu (migration) bekleniyor. Supabase SQL Editor üzerinden deploy_triaj.sql betiği çalıştırılmalıdır.';
+    }
+    return error.message;
+  }
+  return 'TRİAJ planına erişilemedi.';
 }
 
 export function TriajProvider({ userId, children }: { userId?: string; children: ReactNode }) {
