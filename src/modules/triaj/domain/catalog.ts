@@ -1,4 +1,4 @@
-import { CANONICAL_UNITS } from '../../../config/canonicalUnits';
+import { CANONICAL_UNITS } from '../../../config/canonicalUnits.js';
 
 export function unitKey(lesson: string, unit: string): string {
   return `v1/${encodeURIComponent(lesson)}/${encodeURIComponent(unit)}`;

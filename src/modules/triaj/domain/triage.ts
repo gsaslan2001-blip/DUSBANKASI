@@ -12,7 +12,7 @@ import type {
   KovaTriageReport,
   SubjectTriageSummary
 } from '../types.js';
-import { subjectForTopic } from './catalog';
+import { subjectForTopic } from './catalog.js';
 
 export interface TriageResult {
   bucket: BucketType;

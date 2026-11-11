@@ -12,7 +12,7 @@
 
 
 
-import { compareByCurriculumOrder } from './curriculum';
+import { compareByCurriculumOrder } from './curriculum.js';
 
 
 
