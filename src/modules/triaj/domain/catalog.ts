@@ -5,7 +5,7 @@ export function unitKey(lesson: string, unit: string): string {
 }
 
 export function isCanonicalUnit(lesson: string, unit: string): boolean {
-  return Object.hasOwn(CANONICAL_UNITS, lesson) && CANONICAL_UNITS[lesson].includes(unit);
+  return Object.prototype.hasOwnProperty.call(CANONICAL_UNITS, lesson) && CANONICAL_UNITS[lesson].includes(unit);
 }
 
 export function canonicalUnitNumber(lesson: string, unit: string): number {
