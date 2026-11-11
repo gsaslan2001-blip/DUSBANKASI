@@ -1,0 +1,44 @@
+/* DusTriaj's light palette follows the parent theme within the module only. */
+.triaj-module[data-triaj-theme="dark"],
+.triaj-module[data-triaj-theme="oled"] {
+  color-scheme: dark;
+  --triaj-card: #161823;
+  --color-slate-50: #1b1e2a;
+  --color-slate-100: #12141d;
+  --color-slate-200: #323646;
+  --color-slate-300: #454a5e;
+  --color-slate-400: #9ba4b8;
+  --color-slate-500: #a5aec2;
+  --color-slate-600: #b9c2d4;
+  --color-slate-700: #cad3e3;
+  --color-slate-800: #dbe3f0;
+  --color-slate-900: #e9edf6;
+  --color-slate-950: #f6f8fc;
+}
+
+.triaj-module[data-triaj-theme="oled"] {
+  --triaj-card: #101116;
+  --color-slate-50: #14151b;
+  --color-slate-100: #07080a;
+}
+
+.triaj-module[data-triaj-theme]:not([data-triaj-theme="light"]) .bg-white {
+  background-color: var(--triaj-card);
+}
+
+.triaj-module[data-triaj-theme]:not([data-triaj-theme="light"]) .bg-slate-900 {
+  background-color: #272a3a;
+}
+
+.triaj-module[data-triaj-theme]:not([data-triaj-theme="light"]) .hover\:bg-slate-800:hover {
+  background-color: #35394b;
+}
+
+.triaj-module[data-triaj-theme]:not([data-triaj-theme="light"]) :is(.bg-amber-50, .bg-indigo-50, .bg-rose-50, .bg-yellow-50, .bg-yellow-100) {
+  color-scheme: light;
+}
+
+.triaj-module :focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}

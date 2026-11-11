@@ -1,0 +1,626 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi maksimal inspirasyonu takiben yapılan zorlu ekspirasyonla çıkarılan hava volümünü tanımlar?",
+    "options": {
+      "A": "İnspirasyon kapasitesi + Soluk volümü",
+      "B": "İnspirasyon yedek volümü + Fonksiyonel rezidüel kapasite",
+      "C": "Total akciğer kapasitesi",
+      "D": "Ekspirasyon yedek volümü + Soluk volümü",
+      "E": "İnspirasyon kapasitesi + Ekspirasyon yedek volümü"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Maksimal bir inspirasyonun ardından yapılan maksimal (zorlu) ekspirasyonla akciğerlerden çıkarılabilen en fazla hava hacmine **vital kapasite (VC)** veya zorlu yapıldığında **zorlu vital kapasite (FVC)** adı verilir. Vital kapasite üç temel akciğer hacminin toplamından oluşur: $\\text{VC} = \\text{Soluk Volümü (TV)} + \\text{İnspirasyon Yedek Volümü (IRV)} + \\text{Ekspirasyon Yedek Volümü (ERV)}$. Sakin ekspirasyon sonundan itibaren yapılan maksimal inspirasyon hacmi olan **inspirasyon kapasitesi ($\\text{IC} = \\text{TV} + \\text{IRV}$)** denklemde yerine konulduğunda, vital kapasite **$\\text{İnspirasyon Kapasitesi (IC)} + \\text{Ekspirasyon Yedek Volümü (ERV)}$** toplamına eşit olur.\n**Çeldiriciler:**\n- **A) İnspirasyon kapasitesi + Soluk volümü:** İnspirasyon kapasitesi ($\\text{TV} + \\text{IRV}$) zaten soluk volümünü (tidal volümü) kendi içinde barındırır; üzerine tekrar soluk volümü eklenmesi fizyolojik bir kapasite tanımlamaz ve ekspirasyon yedek volümünü dışarıda bırakır.\n- **B) İnspirasyon yedek volümü + Fonksiyonel rezidüel kapasite:** Fonksiyonel rezidüel kapasite ($\\text{FRC} = \\text{ERV} + \\text{RV}$) rezidüel volümü içerir ve soluk volümünü (TV) içermez; bu toplam zorlu ekspirasyonla çıkarılan havayı tanımlamaz.\n- **C) Total akciğer kapasitesi:** Maksimal inspirasyon sonunda akciğerlerde bulunan toplam hava hacmidir ($\\text{TLC} = \\text{VC} + \\text{RV}$); zorlu ekspirasyonla bile akciğerlerden çıkarılamayan **rezidüel volümü (RV)** içerdiği için dışarı atılan havayı tanımlamaz.\n- **D) Ekspirasyon yedek volümü + Soluk volümü:** Bu toplamda **inspirasyon yedek volümü (IRV)** eksiktir; maksimal inspirasyon sonrası çıkarılan havayı değil, yalnızca normal sakin inspirasyon sonrası zorlu ekspirasyonla çıkarılan havayı ifade eder.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki arteryal değişikliklerden hangisi medüller (santral) kemoreseptörler aracılığıyla hiperventilasyona neden olur?",
+    "options": {
+      "A": "$pO_2$ düşmesi",
+      "B": "pH azalması",
+      "C": "$pCO_2$ artışı",
+      "D": "$K^+$ konsantrasyonu artışı",
+      "E": "$pCO$ artışı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Medulla oblongatanın ventrolateral yüzeyinde yerleşmiş olan **santral (medüller) kemoreseptörler**, beyin-omurilik sıvısı (BOS) ve beyin interstisyel sıvısındaki hidrojen iyonu ($\\text{H}^+$) konsantrasyonu artışına (pH düşüşüne) duyarlıdır. Kan-beyin bariyeri kandaki serbest $\\text{H}^+$ ve $\\text{HCO}_3^-$ iyonlarına karşı neredeyse geçirimsizdir; buna karşılık yağda çözünürlüğü yüksek olan **karbondioksit ($\\text{CO}_2$)** kan-beyin bariyerini kolayca ve hızla geçer. Arteriyel kanda **$pCO_2$ artışı (hiperkapni)** olduğunda $\\text{CO}_2$ hızla BOS'a difüze olur, karbonik anhidraz aracılığıyla $\\text{CO}_2 + \\text{H}_2\\text{O} \\leftrightarrow \\text{H}_2\\text{CO}_3 \\leftrightarrow \\text{H}^+ + \\text{HCO}_3^-$ reaksiyonuyla BOS'ta $\\text{H}^+$ konsantrasyonunu artırır (pH'ı düşürür) ve santral kemoreseptörleri doğrudan uyararak güçlü **hiperventilasyona** neden olur.\n**Çeldiriciler:**\n- **A) $pO_2$ düşmesi:** Santral kemoreseptörler arteriyel $pO_2$ düşüşüne (hipoksemiye) doğrudan duyarlı değildir (hatta ağır hipoksi santral nöronları baskılar); hipoksemi ventilasyonu **periferik kemoreseptörler** (karotis ve aort cisimcikleri) aracılığıyla artırır.\n- **B) pH azalması:** Metabolik asidozda arteriyel kandaki $\\text{H}^+$ iyonları (pH azalması) kan-beyin bariyerini kolayca geçemediği için santral kemoreseptörleri doğrudan ve hızlı şekilde uyaramaz; metabolik asidoza erken ventilatuvar yanıt esas olarak periferik kemoreseptörler üzerinden gerçekleşir.\n- **D) $K^+$ konsantrasyonu artışı:** Ağır egzersizde görülen arteriyel hiperkalemi santral kemoreseptörleri değil, karotis cisimciğindeki periferik kemoreseptörleri uyarabilir.\n- **E) $pCO$ artışı:** Karbonmonoksit (CO) zehirlenmesinde hemoglobinin oksijen taşıma kapasitesi düşer ancak arteriyel $pO_2$ ve $pCO_2$ normal kaldığı için ne periferik ne de santral kemoreseptörler uyarılır ve hiperventilasyon görülmez.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi bronş duvarı düz kaslarında dilatasyona yol açan mediatördür?",
+    "options": {
+      "A": "Asetilkolin",
+      "B": "Histamin",
+      "C": "Vazoaktif intestinal polipeptid (VIP)",
+      "D": "Adenozin",
+      "E": "Lökotrienler"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** **Vazoaktif intestinal polipeptid (VIP)**, solunum yollarındaki non-adrenerjik non-kolinerjik (NANC) inhibitör parasempatik sinir liflerinden salınan bir nöropeptid mediatördür. Bronş ve bronşiyol düz kas hücrelerindeki $G_s$ kenetli reseptörlerine bağlanarak adenilat siklazı aktive eder, hücre içi cAMP düzeyini artırır ve nitrik oksit ($\\text{NO}$) ile birlikte güçlü **bronkodilatasyona (bronş düz kaslarında gevşemeye)** yol açar. (Bronkodilatasyon yapan diğer başlıca mediatörler adrenalin/$\\beta_2$-adrenerjik agonistler, $\\text{NO}$ ve prostaglandin $E_2$'dir).\n**Çeldiriciler:**\n- **A) Asetilkolin:** Vagus siniri (parasempatik) uçlarından salınır; bronş düz kasındaki **$M_3$ muskarinik** reseptörleri ($G_q - IP_3/\\text{Ca}^{2+}$ yolağı ile) uyararak güçlü **bronkokonstriksiyon** ve mukus sekresyonu artışına yol açar.\n- **B) Histamin:** Mast hücreleri ve bazofillerden salınır; bronş düz kasındaki **$H_1$ reseptörleri** üzerinden özellikle alerjik/astmatik reaksiyonlarda **bronkokonstriksiyon** ve mukozal ödem yapar.\n- **D) Adenozin:** Mast hücre degranülasyonunu tetikleyerek ve $A_1/A_{2B}$ reseptörleri aracılığıyla özellikle astımlı bireylerde belirgin **bronkokonstriksiyon** oluşturur (bu nedenle adenozin reseptör antagonisti olan teofilin bronkodilatatör olarak kullanılır).\n- **E) Lökotrienler:** Araşidonik asitten 5-lipoksijenaz yoluyla sentezlenen sisteinil lökotrienler (**$LTC_4, LTD_4, LTE_4$** / anafilaksinin yavaş etkili maddesi [SRS-A]), bilinen en güçlü **bronkokonstriktör** mediatörler arasındadır.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Fonksiyonel rezidüel kapasiteyi aşağıdakilerden hangisi tanımlar?",
+    "options": {
+      "A": "Normal ekspirasyonun sonunda akciğerlerde kalan hava miktarı",
+      "B": "Zorlu ekspirasyondan sonra akciğerlerde kalan hava miktarı",
+      "C": "Normal inspirasyondan sonra akciğerlerde bulunan hava miktarı",
+      "D": "Derin inspirasyondan sonra akciğerlerde bulunan hava miktarı",
+      "E": "Normal soluk hacminden ölü boşluk havasının çıkarılmasıyla bulunan hava miktarı"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** **Fonksiyonel rezidüel kapasite (FRC)**, sakin (normal/pasif) bir ekspirasyonun bitiminde akciğerlerde kalan hava hacmidir ve sağlıklı bir yetişkinde yaklaşık $2200-2400\\text{ mL}$'dir. Formül olarak **ekspirasyon yedek volümü (ERV)** ile **rezidüel volümün (RV)** toplamına eşittir ($\\text{FRC} = \\text{ERV} + \\text{RV}$). Bu noktada akciğerlerin içe doğru elastik büzülme kuvveti ile göğüs duvarının dışa doğru genişleme kuvveti birbirine eşit ve zıt yönlüdür (solunum sisteminin dinlenim denge noktasıdır).\n**Çeldiriciler:**\n- **B) Zorlu ekspirasyondan sonra akciğerlerde kalan hava miktarı:** Fonksiyonel rezidüel kapasiteyi değil, **rezidüel volümü (RV)** ($\\approx 1200\\text{ mL}$) tanımlar.\n- **C) Normal inspirasyondan sonra akciğerlerde bulunan hava miktarı:** $\\text{FRC} + \\text{Tidal Volüm (TV)}$ toplamına karşılık gelir; FRC'den bir soluk hacmi kadar daha fazladır.\n- **D) Derin inspirasyondan sonra akciğerlerde bulunan hava miktarı:** Maksimal inspirasyon sonunda akciğerlerdeki tüm havayı, yani **total akciğer kapasitesini (TLC)** ($\\approx 5800-6000\\text{ mL}$) tanımlar.\n- **E) Normal soluk hacminden ölü boşluk havasının çıkarılmasıyla bulunan hava miktarı:** Bir solukta gaz alışverişine katılan **alveolar ventilasyon hacmini** ($\\text{V}_A = \\text{TV} - \\text{V}_D \\approx 500 - 150 = 350\\text{ mL}$) tanımlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karbonik anhidraz enzimi aşağıdaki reaksiyonlardan hangisini katalizler?",
+    "options": {
+      "A": "$CO_2 + Hb > HbCO_2$",
+      "B": "$Hb + O_2 > HbO_2$",
+      "C": "$H^+ + Hb > H^+Hb$",
+      "D": "$H_2CO_3 > HCO_3^- + H^+$",
+      "E": "$CO_2 + H_2O > H_2CO_3$"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Eritrositlerin içinde (ve böbrek tübül hücreleri, mide pariyetal hücreleri, pankreas duktal hücrelerinde) yüksek konsantrasyonda bulunan çinko ($\\text{Zn}^{2+}$) bağımlı **karbonik anhidraz** enzimi, karbondioksitin ($\\text{CO}_2$) su ($\\text{H}_2\\text{O}$) ile birleşerek **karbonik asit ($\\text{H}_2\\text{CO}_3$)** oluşturması ve akciğerlerde bunun tersi olan $\\text{H}_2\\text{CO}_3$'ün tekrar $\\text{CO}_2$ ve $\\text{H}_2\\text{O}$'ya ayrışması reaksiyonunu ($\\text{CO}_2 + \\text{H}_2\\text{O} \\leftrightarrow \\text{H}_2\\text{CO}_3$) çift yönlü olarak katalizler ve reaksiyon hızını yaklaşık 5000 kat artırır. *(Not: Bazı kaynaklarda basım hatası olarak A harfi yazılmış olsa da, karbonik anhidrazın katalizlediği kimyasal reaksiyon tartışmasız olarak E şıkkındaki $\\text{CO}_2$ hidratasyonu reaksiyonudur).*\n**Çeldiriciler:**\n- **A) $CO_2 + Hb > HbCO_2$:** Karbondioksitin hemoglobin globin zincirlerinin terminal amino ($-\\text{NH}_2$) gruplarına bağlanarak **karbaminohemoglobin** oluşturması reaksiyonudur; bu reaksiyon **non-enzimatiktir** (herhangi bir enzim tarafından katalizlenmez).\n- **B) $Hb + O_2 > HbO_2$:** Hemoglobinin hem grubundaki $\\text{Fe}^{2+}$ atomuna oksijenin tersinir bağlanması (oksijenasyon) olayıdır; enzimatik bir kataliz gerektirmeden parsiyel oksijen basıncına bağlı olarak kendiliğinden gerçekleşir.\n- **C) $H^+ + Hb > H^+Hb$:** Karbonik asidin ayrışmasıyla açığa çıkan hidrojen iyonlarının deoksihemoglobinin histidin amino asitlerindeki imidazol halkaları tarafından tamponlanması reaksiyonudur; enzimatik değildir.\n- **D) $H_2CO_3 > HCO_3^- + H^+$:** Oluşan karbonik asidin bikarbonat ve hidrojen iyonlarına iyonize olması (disosiyasyonu) reaksiyonudur; bu basamak sulu ortamda enzim gerektirmeden anlık ve kendiliğinden (spontan) gerçekleşir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yüzme takımı seçmeleri için sağlık kontrolünden geçen 18 yaşındaki erkek sporcunun solunum fonksiyon testinde, $ZVK_1$ ($FEV_1$) değeri en az yüzde (%) kaç olmalıdır?",
+    "options": {
+      "A": "50",
+      "B": "60",
+      "C": "70",
+      "D": "80",
+      "E": "90"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Solunum fonksiyon testlerinde (spirometride) zorlu vital kapasite manevrasının ilk 1 saniyesinde çıkarılan hava hacmine **1. saniye zorlu ekspiratuvar volüm ($FEV_1$ veya $ZVK_1$)** adı verilir. Sağlıklı genç bir yetişkinde zorlu vital kapasitenin en az **%80'i** ilk 1 saniye içinde dışarı atılır (yani $FEV_1 / FVC$ oranı –*Tiffeneau indeksi*– normalde $\\ge \\%75-80$ düzeyindedir; ayrıca ölçülen $FEV_1$ değerinin yaş, cinsiyet ve boya göre beklenen [predicted] değerin en az **%80'i** olması normal alt sınır olarak kabul edilir). Astım ve KOAH gibi obstrüktif akciğer hastalıklarında hava yolu direnci arttığı için bu oran %70–80'in altına düşer.\n**Çeldiriciler:**\n- **A) 50:** Orta-ağır derecede hava yolu obstrüksiyonunu (örneğin orta-ağır KOAH veya astım atağını) gösteren patolojik derecede düşük bir değerdir.\n- **B) 60:** Belirgin obstrüktif ventilasyon bozukluğunu ifade eden düşük bir yüzdedir.\n- **C) 70:** GOLD kriterlerine göre KOAH tanısında kullanılan patolojik eşik sınırdır ($FEV_1/FVC < \\%70$ obstrüksiyon lehinedir); genç sağlıklı bir sporcuda beklenen normal değer %80 ve üzeridir.\n- **E) 90:** Sağlıklı bireylerde görülebilse de klinik fizyolojide normal kabul edilmek için aranan minimum (\"en az\") eşik değer %90 değil %80'dir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kan-hava bariyerinde bulunmaz?",
+    "options": {
+      "A": "Surfaktan",
+      "B": "Endotel hücresi",
+      "C": "Bazal lamina",
+      "D": "Tip I alveolar hücre",
+      "E": "Tip II alveolar hücre"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Alveol boşluğundaki hava ile pulmoner kapiller içindeki kan arasında gaz alışverişinin ($\\text{O}_2$ ve $\\text{CO}_2$ difüzyonunun) gerçekleştiği çok ince ($0.2 - 0.5\\text{ }\\mu\\text{m}$) yapıya **kan-hava bariyeri (solunum membranı)** adı verilir. Bu bariyerin en ince ve fonksiyonel kısmında alveol yüzeyinin %95'ini döşeyen yassı **Tip I alveolar epitel hücresi** yer alır. **Tip II alveolar hücreler (Tip II pnömositler)** ise kübik şekilli, kalın sitoplazmalı salgı ve kök hücreleridir; alveol yüzeyinin yalnızca %5'ini kaplarlar ve gaz difüzyonunun yapıldığı ince kan-hava bariyerinin yapısında yer almazlar.\n**Çeldiriciler:**\n- **A) Surfaktan:** Alveol iç yüzeyini kaplayan sıvı tabakasının üzerinde yer alır ve oksijenin alveol boşluğundan kana geçerken ilk katettiği tabaka olarak kan-hava bariyerinin fonksiyonel bir bileşenidir.\n- **B) Endotel hücresi:** Pulmoner kapiller duvarını oluşturan kesintisiz (penceresiz) yassı endotel hücresidir; kan-hava bariyerinin kana bakan katmanını oluşturur.\n- **C) Bazal lamina:** Tip I alveolar epitel hücresinin bazal laminası ile kapiller endotel hücresinin bazal laminasının kaynaşmasıyla (füzyonuyla) oluşan ortak bazal laminadır; kan-hava bariyerinin orta katmanını oluşturur.\n- **D) Tip I alveolar hücre (Tip I pnömosit):** Gaz difüzyonuna olanak sağlayacak şekilde aşırı incelmiş ($\\approx 25\\text{ nm}$) yassı sitoplazmasıyla kan-hava bariyerinin hücresel epitel katmanını oluşturur.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Akciğer hacminin belirleyicisi olan transpulmoner basıncı, aşağıdaki basınçlardan hangilerinin farkı belirler?",
+    "options": {
+      "A": "İntraplevral basınç – atmosfer basıncı",
+      "B": "Alveol basıncı – atmosfer basıncı",
+      "C": "Ağız içi basınç – intraplevral basınç",
+      "D": "Alveol basıncı – intraplevral basınç",
+      "E": "Alveol basıncı – ağız içi basınç"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** **Transpulmoner basınç ($P_{tp}$)**, akciğerlerin içindeki **alveol basıncı ($P_{alv}$)** ile akciğerlerin dış yüzeyini saran plevral boşluktaki **intraplevral basınç ($P_{ip}$)** arasındaki basınç farkıdır ($P_{tp} = P_{alv} - P_{ip}$). Akciğer duvarı boyunca etki eden transmural basınç olan transpulmoner basınç, akciğerlerin kollabe olmasını önleyen, alveolleri açık tutan ve inspirasyonda akciğerlerin genişleme derecesini (akciğer hacmini) doğrudan belirleyen basınçtır (aynı zamanda akciğerlerin elastik geri çekilme [*recoil*] basıncının bir ölçüsüdür).\n**Çeldiriciler:**\n- **A) İntraplevral basınç – atmosfer basıncı:** Göğüs duvarı boyunca etki eden **transtorasik (trans-göğüs duvarı) basıncı** ($P_{w} = P_{ip} - P_{atm}$) tanımlar; sadece akciğeri değil göğüs kafesinin elastik özelliklerini belirler.\n- **B) Alveol basıncı – atmosfer basıncı:** Tüm solunum sistemi (akciğer + göğüs duvarı) boyunca etki eden **transrespiratuvar basıncı** ve hava yollarındaki hava akışını sağlayan basınç gradiyentini tanımlar.\n- **C) Ağız içi basınç – intraplevral basınç:** Dinamik solunum sırasında hava yolu direnci nedeniyle alveol basıncını doğrudan yansıtmaz.\n- **E) Alveol basıncı – ağız içi basınç:** Üst ve alt iletici hava yolları boyunca havanın akmasını sağlayan **trans-hava yolu (transairway) basınç farkını** belirler.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Basit sulu bir spirometre ile (sadece atmosfer havası solutularak) yapılan statik ventilasyon testi ile aşağıdakilerden hangisi ölçülebilir?",
+    "options": {
+      "A": "Rezidüel hacim",
+      "B": "İnspirasyon kapasitesi",
+      "C": "Total akciğer kapasitesi",
+      "D": "Fonksiyonel rezidüel kapasite",
+      "E": "Ölü boşluk hacmi"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Basit sulu spirometre yalnızca akciğerlere girip çıkan hava hacimlerini doğrudan ölçebilir. **İnspirasyon kapasitesi (IC)**, normal sakin bir ekspirasyon sonundan başlayarak yapılan maksimal inspirasyonla akciğerlere alınan hava hacmidir ve **Soluk Hacmi (TV) + İnspirasyon Yedek Hacmi (IRV)** toplamından oluşur ($\\text{IC} = \\text{TV} + \\text{IRV}$). İçerisinde akciğerlerden dışarı çıkarılamayan rezidüel hacim (RV) yer almadığı için basit spirometre ile doğrudan ölçülebilir (ayrıca TV, IRV, ERV ve Vital Kapasite [VC] de basit spirometre ile ölçülebilir).\n**Çeldiriciler:**\n- **A) Rezidüel hacim (RV):** En derin (zorlu) ekspirasyondan sonra bile akciğerlerde kalan ve dışarı çıkarılamayan hava hacmidir; spirometreye girmediği için basit spirometre ile **ölçülemez** (helyum dilüsyon yöntemi, nitrojen yıkama testi veya tüm vücut pletismografisi ile ölçülür).\n- **C) Total akciğer kapasitesi (TLC):** $\\text{TLC} = \\text{VC} + \\text{RV}$ olduğu için bileşenleri arasında rezidüel hacim (RV) bulunur; bu nedenle basit spirometre ile ölçülemez.\n- **D) Fonksiyonel rezidüel kapasite (FRC):** $\\text{FRC} = \\text{ERV} + \\text{RV}$ olduğu için içerisinde rezidüel hacim (RV) barındırır ve basit spirometre ile ölçülemez.\n- **E) Ölü boşluk hacmi:** Gaz alışverişine katılmayan iletici hava yolları (anatomik ölü boşluk) ve perfüze olmayan alveollerin hacmidir; basit spirometre ile değil, tek nefes nitrojen testi (**Fowler yöntemi**) veya **Bohr denklemi** ile ölçülür.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Fizyolojik şartlarda, sistemik arterlerde parsiyel karbondioksit basıncı ($PCO_2$) kaçtır?",
+    "options": {
+      "A": "30",
+      "B": "40",
+      "C": "45",
+      "D": "60",
+      "E": "95"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sağlıklı bir bireyde normal fizyolojik şartlarda alveol havasındaki parsiyel karbondioksit basıncı ($P_ACO_2$) yaklaşık $40\\text{ mmHg}$'dir. Karbondioksitin solunum membranından difüzyon katsayısı çok yüksek (oksijenin yaklaşık 20 katı) olduğu için pulmoner kapiller kan alveol havasıyla tam dengeye ulaşır ve **sistemik arteriyel kanda parsiyel karbondioksit basıncı ($P_aCO_2$) $40\\text{ mmHg}$** (normal referans aralığı $35-45\\text{ mmHg}$) olur.\n**Çeldiriciler:**\n- **A) 30:** Hiperventilasyon sonucunda karbondioksitin akciğerlerden aşırı atılmasıyla oluşan **hipokapni** (ve respiratuvar alkaloz) durumundaki arteriyel $P_aCO_2$ değeridir.\n- **C) 45:** Sistemik arter kanının değil, dokulardan sağ kalbe ve pulmoner artere dönen **karışık venöz kanın** normal parsiyel karbondioksit basıncı ($P_vCO_2 \\approx 45-46\\text{ mmHg}$) değeridir.\n- **D) 60:** Alveolar hipoventilasyon veya ağır KOAH gibi durumlarda görülen patolojik **hiperkapni** (ve respiratuvar asidoz) değeridir.\n- **E) 95:** Sistemik arteriyel kandaki karbondioksit basıncı değil, normal **parsiyel oksijen basıncı ($P_aO_2 \\approx 95-100\\text{ mmHg}$)** değeridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Alveolar hasarlanma sonrasında aşağıdaki hücre yapılarından hangisi onarım sürecinde görev alır?",
+    "options": {
+      "A": "Tip-1 alveolar hücre",
+      "B": "Tip-2 alveolar hücre",
+      "C": "Bazal hücre",
+      "D": "Makrofaj hücre",
+      "E": "Fırçamsı hücre"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Alveol epitelinde bulunan kübik şekilli **Tip-2 alveolar hücreler (Tip-2 pnömositler / septal hücreler)** iki temel göreve sahiptir: Birincisi pulmoner **sürfaktan** sentezleyip lameller cisimciklerle salgılamak, ikincisi ise alveol epitelinin **kök (progenitör/rejeneratif) hücresi** olarak görev yapmaktır. Toksik gazlar veya enfeksiyonlar nedeniyle alveol hasarlandığında ve ince Tip-1 hücreler yıkıldığında, Tip-2 alveolar hücreler **mitozla çoğalır (prolifere olur)** ve hem yeni Tip-2 hücrelerine hem de farklılaşarak **Tip-1 alveolar hücrelere** dönüşüp alveol duvarını onarırlar.\n**Çeldiriciler:**\n- **A) Tip-1 alveolar hücre:** Gaz alışverişi için ileri derecede farklılaşmış ve incelmiş yassı epitel hücreleridir; **mitoz bölünme yetenekleri yoktur**, hasarlandıklarında kendilerini yenileyemezler ve Tip-2 hücrelerden köken alırlar.\n- **C) Bazal hücre:** Trakea ve bronşları döşeyen yalancı çok katlı silli prizmatik solunum epitelinin kök hücresidir; ancak alveol duvarında bazal hücre bulunmaz (terminal ve respiratuvar bronşiyol düzeyinde ise kök hücre görevini Clara [Club] hücreleri üstlenir).\n- **D) Makrofaj hücre (Toz hücresi):** Monosit kökenli fagositik savunma hücresidir; alveol lümenindeki partikülleri ve hücresel artıkları temizler ancak epitel hücresine dönüşerek alveol duvarını rejenere edemez.\n- **E) Fırçamsı hücre (Brush cell):** Solunum yollarında ve nadir olarak alveollerde bulunan, apikal yüzeyinde küt mikrovilluslar ve bazalinde sinir sonlanmaları içeren **kemoreseptör (duyusal)** hücredir; onarım/kök hücre görevi yoktur.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karbondioksitin kanda taşınmasında aşağıdakilerden hangisi akciğerde gerçekleşmektedir?",
+    "options": {
+      "A": "$HCO_3^-$'ün $H^+$ ile birleşip $H_2CO_3$ oluşturması",
+      "B": "$HCO_3^-$'ün eritrosit dışına taşınması",
+      "C": "$CO_2$'nin su ile birleşip $H_2CO_3$ oluşturması",
+      "D": "$Cl^-$'un eritrosit içerisine girmesi",
+      "E": "$CO_2$'nin hemoglobine bağlanması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dokulardan üretilen $\\text{CO}_2$'nin yaklaşık %70'i kan plazmasında bikarbonat iyonu ($\\text{HCO}_3^-$) şeklinde taşınır. Kan **akciğer kapillerlerine** ulaştığında; hemoglobinin oksijenlenmesiyle (**Haldane etkisi**) hemoglobinden $\\text{H}^+$ iyonları serbestleşir ve plazmadaki $\\text{HCO}_3^-$ iyonları Band 3 (AE1) proteini aracılığıyla eritrosit içine geri girer (buna karşılık $\\text{Cl}^-$ eritrosit dışına çıkar: **ters klor kayması**). Eritrosit içinde **$\\text{HCO}_3^-$ iyonları $\\text{H}^+$ ile birleşerek karbonik asit ($\\text{H}_2\\text{CO}_3$) oluşturur**; ardından karbonik anhidraz enzimi $\\text{H}_2\\text{CO}_3$'ü hızla $\\text{CO}_2$ ve $\\text{H}_2\\text{O}$'ya ayırır ve oluşan $\\text{CO}_2$ difüzyonla alveol boşluğuna geçerek solunumla dışarı atılır.\n**Çeldiriciler:**\n- **B) $HCO_3^-$'ün eritrosit dışına taşınması:** Akciğerde değil, **periferik dokularda** gerçekleşir; dokularda eritrosit içinde oluşan $\\text{HCO}_3^-$ plazmaya çıkarken $\\text{Cl}^-$ eritrosit içine girer.\n- **C) $CO_2$'nin su ile birleşip $H_2CO_3$ oluşturması:** Akciğerde değil, yüksek $PCO_2$ nedeniyle $\\text{CO}_2$'nin eritrosit içine girdiği **periferik doku kapillerlerinde** gerçekleşir (akciğerde bu reaksiyonun tam tersi, yani $\\text{H}_2\\text{CO}_3 \\rightarrow \\text{CO}_2 + \\text{H}_2\\text{O}$ yıkımı gerçekleşir).\n- **D) $Cl^-$'un eritrosit içerisine girmesi:** Akciğerde değil, **periferik doku kapillerlerinde** (Hamburger fenomeni / klasik klor kayması olarak) gerçekleşir; akciğerlerde ise $\\text{Cl}^-$ eritrosit dışına çıkar.\n- **E) $CO_2$'nin hemoglobine bağlanması:** Akciğerde değil, $PCO_2$'nin yüksek ve $PO_2$'nin düşük olduğu **periferik dokularda** gerçekleşir (karbaminohemoglobin oluşumu); akciğerlerde ise yüksek $PO_2$ etkisiyle (Haldane etkisi) $\\text{CO}_2$ hemoglobinden ayrılır.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sağlıklı bir yetişkinde, sakin solunumda bir seferde alınan ya da verilen hava hacmi yaklaşık olarak kaç mililitredir?",
+    "options": {
+      "A": "150",
+      "B": "350",
+      "C": "500",
+      "D": "1200",
+      "E": "3000"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Dinlenim halinde, normal sakin solunum (öpne) sırasında her bir inspirasyonda akciğerlere alınan veya her bir ekspirasyonda dışarı verilen hava hacmine **soluk hacmi (tidal volüm, TV)** adı verilir ve sağlıklı genç bir yetişkinde yaklaşık olarak **$500\\text{ mL}$**'dir.\n**Çeldiriciler:**\n- **A) 150:** Sakin soluk hacmini değil, iletici hava yollarında (burun, farinks, trakea, bronş ve terminal bronşiyollere kadar) kalan ve gaz alışverişine katılmayan **anatomik ölü boşluk hacmini** ($\\approx 150\\text{ mL}$) ifade eder.\n- **B) 350:** Bir sakin solukta ($500\\text{ mL}$) anatomik ölü boşluk ($150\\text{ mL}$) çıkarıldıktan sonra alveollere ulaşarak gaz değişimine katılan **alveolar ventilasyon hacmini** ($500 - 150 = 350\\text{ mL}$) ifade eder.\n- **D) 1200:** Zorlu ekspirasyonla çıkarılabilen **ekspirasyon yedek hacmi (ERV)** ($\\approx 1100-1200\\text{ mL}$) veya zorlu ekspirasyon sonrası akciğerde kalan **rezidüel hacim (RV)** ($\\approx 1200\\text{ mL}$) değeridir.\n- **E) 3000:** Normal sakin bir inspirasyonun üzerine zorlu bir inspirasyonla alınabilen maksimum ilave hava hacmi olan **inspirasyon yedek hacmini (IRV)** ($\\approx 3000\\text{ mL}$) ifade eder.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi basit spirometrik yöntemle ölçülebilir?",
+    "options": {
+      "A": "İnspirasyon kapasitesi",
+      "B": "Rezidüel hacim",
+      "C": "Ekspirasyon yedek hacmi ve rezidüel hacim toplamı",
+      "D": "Fonksiyonel rezidüel kapasite",
+      "E": "Toplam akciğer kapasitesi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Basit spirometre yalnızca ağızdan solunum yollarına giren ve çıkan hava hacimlerini ölçebilir; akciğerlerden hiçbir şekilde dışarı atılamayan **rezidüel hacmi (RV)** ve rezidüel hacmi içinde barındıran kapasiteleri ölçemez. **İnspirasyon kapasitesi (IC)**, soluk hacmi (TV) ile inspirasyon yedek hacminin (IRV) toplamıdır ($\\text{IC} = \\text{TV} + \\text{IRV}$); içerisinde rezidüel hacim bulunmadığı için basit spirometrik yöntemle doğrudan ölçülebilir.\n**Çeldiriciler:**\n- **B) Rezidüel hacim (RV):** Maksimal ekspirasyondan sonra akciğerlerde kalan hava hacmi olduğu için spirometreye çıkamaz ve basit spirometre ile ölçülemez.\n- **C) Ekspirasyon yedek hacmi ve rezidüel hacim toplamı:** Bu toplam ($\\text{ERV} + \\text{RV}$) tanım olarak fonksiyonel rezidüel kapasiteye (FRC) eşittir; rezidüel hacmi içerdiği için basit spirometre ile ölçülemez.\n- **D) Fonksiyonel rezidüel kapasite (FRC):** Sakin ekspirasyon sonunda akciğerde kalan havadır ($\\text{ERV} + \\text{RV}$); RV içerdiğinden yalnız helyum dilüsyonu, nitrojen yıkama veya vücut pletismografisi ile ölçülebilir.\n- **E) Toplam akciğer kapasitesi (TLC):** Maksimal inspirasyon sonunda akciğerdeki tüm havadır ($\\text{VC} + \\text{RV}$); RV içerdiğinden basit spirometre ile ölçülemez.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, trakeaya ait histolojik yapılardan biri değildir?",
+    "options": {
+      "A": "Lenfoid doku",
+      "B": "Hiyalin kıkırdak",
+      "C": "Kalın bazal membran",
+      "D": "Elastik membran",
+      "E": "Bowman bezleri"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** **Bowman bezleri (olfaktör bezler)**, trakeada değil, burun boşluğunun üst kısmındaki **koku mukozasının (olfaktör mukoza)** lamina propriasında yer alan dallı tübüloalveolar **seröz** bezlerdir. Salgıladıkları sulu seröz salgı ve kokuyu bağlayan proteinler (OBP), koku silyalarını yıkayarak yeni koku moleküllerinin algılanmasını sağlar. Trakea submukozasında ise Bowman bezleri değil, serömüköz trakeal bezler bulunur.\n**Çeldiriciler:**\n- **A) Lenfoid doku:** Trakeanın lamina propriasında ve submukozasında mukozayla ilişkili lenfoid doku (**MALT / BALT**) kapsamındaki diffüz lenfositler ve lenfoid nodüller yer alır.\n- **B) Hiyalin kıkırdak:** Trakea duvarında lümenin kapanmasını önleyen, üst üste dizilmiş 16–20 adet **C-harfi (at nalı) şeklinde hiyalin kıkırdak halkalar** bulunur (arka uçları düz kas yapısındaki *m. trachealis* ile birleşir).\n- **C) Kalın bazal membran:** Trakeayı döşeyen yalancı çok katlı silli prizmatik solunum epitelinin altında ışık mikroskobunda bile çok net seçilebilen, tipik olarak **oldukça kalın bir bazal membran** yer alır.\n- **D) Elastik membran:** Trakeada lamina propria ile submukoza sınırında longitudinal uzanan yoğun elastik liflerden oluşmuş belirgin bir **elastik lamina (elastik membran)** bulunur.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Deniz seviyesinde yaşayan, hemoglobin düzeyi 15 g/dL olan erişkin sağlıklı bir erkeğin arteriyel kan parsiyel oksijen basıncı düzeyinin kaç mmHg olması beklenir?",
+    "options": {
+      "A": "159",
+      "B": "149",
+      "C": "120",
+      "D": "104",
+      "E": "95"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Deniz seviyesinde ($P_{atm} = 760\\text{ mmHg}$) kuru atmosfer havasında $PO_2 \\approx 159\\text{ mmHg}$, nemlendirilmiş trakeal havada $PO_2 \\approx 149\\text{ mmHg}$ ve alveol havasında $P_AO_2 \\approx 104\\text{ mmHg}$'dir. Pulmoner kapillerlerden geçen kan alveol havasıyla dengelenerek yaklaşık $104\\text{ mmHg}$ $PO_2$ değerine ulaşır; ancak bronşiyal dolaşımdan gelen venöz kanın pulmoner venlere dökülmesi ve koroner venöz kanın (Thebesian venleri) doğrudan sol kalp boşluklarına açılmasıyla oluşan **fizyolojik şant (%1–2)** ile hafif ventilasyon/perfüzyon ($V/Q$) uyumsuzluğu nedeniyle, sistemik **arteriyel kanda parsiyel oksijen basıncı ($P_aO_2$) yaklaşık $95\\text{ mmHg}$** (normal aralığı $80-100\\text{ mmHg}$) düzeyine düşer.\n**Çeldiriciler:**\n- **A) 159:** Deniz seviyesindeki kuru atmosfer havasının parsiyel oksijen basıncıdır ($760\\text{ mmHg} \\times \\%20.93 \\approx 159\\text{ mmHg}$).\n- **B) 149:** Solunum yollarına giren havanın $37^\\circ\\text{C}$'de su buharı ile tam doyurulması ($P_{H_2O} = 47\\text{ mmHg}$) sonucunda oluşan **nemlendirilmiş trakeal havanın** parsiyel oksijen basıncıdır ($(760 - 47) \\times 0.2093 \\approx 149\\text{ mmHg}$).\n- **C) 120:** Normal sakin solunumda fizyolojik bir kompartmanı temsil etmez (yalnızca şiddetli hiperventilasyonda alveoler $PO_2$'nin yükselebileceği değerdir).\n- **D) 104:** Sistemik arteriyel kanın değil, **alveol havasının** ve pulmoner kapillerin son ucundaki kanın normal parsiyel oksijen basıncı ($P_AO_2 \\approx 104\\text{ mmHg}$) değeridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Normal tidal hacimle soluyan sağlıklı bir yetişkinde, ekspirasyon sonunda intraplevral basınç ortalama kaç $cmH_2O$'dur?",
+    "options": {
+      "A": "$-7,5$",
+      "B": "$-5$",
+      "C": "$-2,5$",
+      "D": "$-1$",
+      "E": "$0$"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Akciğerlerin içe doğru elastik büzülme eğilimi, göğüs kafesinin dışa doğru genişleme eğilimi ve plevral boşluğun lenfatik damarlar tarafından sürekli emilmesi (drenajı) nedeniyle **intraplevral basınç** normal sakin solunumun tüm evrelerinde atmosfer basıncına göre **negatiftir**. Sağlıklı bir yetişkinde sakin inspirasyon başlamadan hemen önce, yani **normal ekspirasyon sonunda (FRC düzeyinde)** intraplevral basınç ortalama **$-5\\text{ cmH}_2\\text{O}$** (yaklaşık $-4\\text{ mmHg}$) değerindedir.\n**Çeldiriciler:**\n- **A) $-7,5$:** Ekspirasyon sonundaki değil, normal sakin bir **inspirasyonun sonunda** göğüs kafesinin genişlemesiyle oluşan ortalama intraplevral basınç değeridir ($-5$'ten $-7,5\\text{ cmH}_2\\text{O}$'ya düşer).\n- **C) $-2,5$:** Normal ekspirasyon sonu intraplevral basınç için fizyolojik ortalamanın üzerinde (daha az negatif) bir değerdir.\n- **D) $-1$:** İntraplevral basıncı değil, sakin **inspirasyonun ortasında alveol içi (intrapulmoner) basıncın** düştüğü ortalama değeri ($-1\\text{ cmH}_2\\text{O}$) ifade eder.\n- **E) $0$:** İntraplevral basıncın atmosfer basıncına eşitlenmesi ($0\\text{ cmH}_2\\text{O}$ olması) yalnızca göğüs duvarı veya akciğer bütünlüğünün bozulup plevral boşluğa hava girdiği patolojik **pnömotoraks** durumunda görülür (soluk başında ve sonunda $0\\text{ cmH}_2\\text{O}$ olan basınç intraplevral basınç değil **alveol basıncıdır**).",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Akciğerlerde bulunan sürfaktan maddelerle ilgili aşağıdaki ifadelerden hangileri doğrudur?\nI. Suyun yüzey gerilimini düşürürler.\nII. Eksikliğinde akciğerlerin kompliyansı artar.\nIII. Alveoler epitel hücrelerinden salgılanırlar.",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Pulmoner sürfaktan; başlıca fosfolipidlerden (**dipalmitoilfosfatidilkolin [DPPC] / lesitin**), sürfaktan apoproteinlerinden (SP-A, SP-B, SP-C, SP-D) ve kalsiyum iyonlarından oluşan yüzey aktif bir maddedir. Alveol iç yüzeyini döşeyen sıvı tabakasında su molekülleri arasındaki çekim kuvvetini azaltarak **yüzey gerilimini düşürür (I)** ve alveoler epitelde yer alan kübik **Tip II alveoler epitel hücreleri (Tip II pnömositler) tarafından sentezlenip salgılanır (III)**.\n**Öncüllerin Analizi:**\n- **I. Suyun yüzey gerilimini düşürürler:** Doğrudur. Amfipatik yapılı DPPC molekülleri hava-su arayüzüne yerleşerek suyun yüzey gerilimini saf suya göre 2 ila 10 kat düşürür ve alveollerin ekspirasyonda kollabe olmasını (sönmesini) engeller.\n- **II. Eksikliğinde akciğerlerin kompliyansı artar:** Yanlıştır. Sürfaktan normalde yüzey gerilimini düşürerek akciğerlerin genişleyebilirliğini (**kompliyansını**) artırır ve solunum işini azaltır. Sürfaktan **eksikliğinde** (örneğin prematüre bebeklerdeki *Yenidoğanın Respiratuvar Distres Sendromu / Hyalin Membran Hastalığı*) yüzey gerilimi çok yükselir, akciğerler sertleşir ve **akciğerlerin kompliyansı azalır (artmaz)**.\n- **III. Alveoler epitel hücrelerinden salgılanırlar:** Doğrudur. Alveol epitelinin bir parçası olan Tip II alveoler epitel hücrelerindeki lameller cisimciklerden ekzositoz yoluyla salgılanır.\n**Çeldiriciler:**\n- **A) Yalnız I:** III. öncül de doğru olduğu için eksiktir.\n- **B) Yalnız II:** II. öncül yanlış olduğu için elenir.\n- **C) Yalnız III:** I. öncül de doğru olduğu için eksiktir.\n- **E) II ve III:** II. öncül yanlış olduğu için elenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Silli yalancı çok katlı prizmatik solunum epitelinin yapısında aşağıdaki hücrelerden hangisi bulunmaz?",
+    "options": {
+      "A": "Küçük granüllü hücreler",
+      "B": "Goblet hücreleri",
+      "C": "Paneth hücreleri",
+      "D": "Fırçamsı kenarlı hücreler",
+      "E": "Bazal hücreler"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** İletici solunum yollarının büyük kısmını (nazal kavite, nazofarinks, larinks, trakea ve bronşlar) döşeyen **yalancı çok katlı silli prizmatik (psödostratifiye kinosilyalı kolumnar) solunum epiteli** klasik olarak **5 temel hücre tipinden** oluşur: Silli prizmatik hücreler, Goblet (kadeh) hücreleri, fırçamsı (brush) hücreler, küçük granüllü (Kulchitsky / nöroendokrin) hücreler ve bazal hücreler. **Paneth hücreleri** ise solunum epitelinde bulunmaz; **ince bağırsaklardaki Lieberkühn kriptalarının** tabanında yerleşmiş olan, sitoplazmalarında büyük eozinofilik zimojen granüller taşıyan ve **lizozim, $\\alpha$-defensinler (kriptidin) ile TNF-$\\alpha$** salgılayarak bağırsak florasını düzenleyen doğal bağışıklık hücreleridir.\n**Çeldiriciler:**\n- **A) Küçük granüllü hücreler (Kulchitsky hücreleri):** Solunum epitelinin bazalinde yerleşik bulunan, difüz nöroendokrin sistem (DNES / APUD) üyesi olan ve katekolamin, serotonin, kalsitonin ve bombesin (GRP) salgılayan hücrelerdir (küçük hücreli akciğer karsinomunun köken aldığı hücrelerdir).\n- **B) Goblet (kadeh) hücreleri:** Solunum epitelinde silli hücrelerin arasında yer alan, müzinojen granülleriyle **mukus** salgılayarak solunan havadaki partikülleri tutan tek hücreli bezlerdir.\n- **D) Fırçamsı kenarlı hücreler (Brush cells):** Apikal yüzeylerinde küt mikrovilluslar ve bazal yüzlerinde trigeminal/vagal afferent sinir sonlanmaları bulunan kemoreseptör (duyusal) solunum epiteli hücreleridir.\n- **E) Bazal hücreler:** Bazal membran üzerine oturan ancak lümene ulaşmayan küçük piramidal hücrelerdir; solunum epitelindeki diğer hücre tiplerine dönüşebilen **kök (rejeneratif) hücrelerdir**.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anemisi olmayan erişkin bir kişide arteriyel parsiyel $O_2$ basıncı ($PaO_2$) 95 mmHg ölçülüyor. Normal fiziksel şartlarda parmak pulse oksimetre ile ölçülen oksihemoglobin satürasyonu (%) kaç olmalıdır?",
+    "options": {
+      "A": "70",
+      "B": "77",
+      "C": "85",
+      "D": "90",
+      "E": "97"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Oksihemoglobin disosiyasyon eğrisinin üst plato fazı nedeniyle, normal vücut sıcaklığı ($37^\\circ\\text{C}$) ve normal arteriyel pH ($7.40$) koşullarında arteriyel parsiyel oksijen basıncı (**$P_aO_2$**) **$95\\text{ mmHg}$** olduğunda, arteriyel kandaki hemoglobinin oksijenle doygunluk oranı (**oksihemoglobin satürasyonu, $S_aO_2$ / $SpO_2$**) yaklaşık olarak **%97**'dir ($\\%95-98$ aralığındadır).\n**Çeldiriciler:**\n- **A) 70:** Arteriyel kanın değil, dokulardan sağ kalbe dönen **karışık venöz kanın** ($P_vO_2 \\approx 40\\text{ mmHg}$) altında, yaklaşık $P_vO_2 \\approx 35-38\\text{ mmHg}$ düzeyine karşılık gelen çok düşük bir satürasyon değeridir.\n- **B) 77:** Normal karışık venöz kanın ($P_vO_2 = 40\\text{ mmHg}$) oksihemoglobin satürasyonuna (**%75**) yakın bir değerdir; arteriyel kanda ağır hipoksemiyi gösterir.\n- **C) 85:** $P_aO_2$'nin yaklaşık $50-55\\text{ mmHg}$'ye düştüğü orta-ağır hipoksemi durumunu yansıtır.\n- **D) 90:** Oksihemoglobin disosiyasyon eğrisinin dikleşmeye başladığı kritik sınır olup **$P_aO_2 \\approx 60\\text{ mmHg}$** değerine karşılık gelir ($95\\text{ mmHg}$ için çok düşüktür).",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi oksihemoglobin satürasyon eğrisinde hemoglobin P50 değerinin azalmasına neden olur?",
+    "options": {
+      "A": "$PCO_2$'nin artması",
+      "B": "pH'nin azalması",
+      "C": "Sıcaklığın artması",
+      "D": "2,3-difosfogliserat konsantrasyonunun artması",
+      "E": "Hemoglobin tipinin fetal hemoglobin olması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** **$P_{50}$ değeri**, hemoglobinin %50 oranında oksijenle doyması için gereken parsiyel oksijen basıncıdır (normal erişkin HbA için yaklaşık $26-27\\text{ mmHg}$'dir). **$P_{50}$ değerinin azalması**, hemoglobinin daha düşük oksijen basınçlarında bile %50 doygunluğa ulaşabilmesi, yani **hemoglobinin oksijene olan afinitesinin (ilgisinin) artması** ve oksihemoglobin disosiyasyon eğrisinin **sola kayması** anlamına gelir. **Fetal hemoglobin (HbF, $\\alpha_2\\gamma_2$)**, $\\beta$ zincirleri yerine $\\gamma$ zincirleri içerdiği için negatif yüklü 2,3-difosfogliseratı (2,3-DPG) erişkin hemoglobini (HbA) kadar güçlü bağlayamaz; bunun sonucunda HbF'nin oksijene afinitesi daha yüksektir (anne kanından oksijeni çekebilmek için), eğri **sola kayar** ve **$P_{50}$ değeri azalır** ($\\approx 19\\text{ mmHg}$).\n**Çeldiriciler:**\n- **A) $PCO_2$'nin artması:** Bohr etkisiyle hemoglobinin oksijene afinitesini azaltır, oksihemoglobin eğrisini **sağa kaydırır** ve $P_{50}$ değerini **artırır**.\n- **B) pH'nin azalması (Asidoz):** $\\text{H}^+$ iyonu artışı Bohr etkisiyle deoksihemoglobini stabilize ederek oksijen afinitesini azaltır, eğriyi **sağa kaydırır** ve $P_{50}$ değerini **artırır**.\n- **C) Sıcaklığın artması:** Egzersiz veya ateşte olduğu gibi sıcaklık artışı hemoglobinin oksijene bağlanmasını zayıflatarak afiniteyi azaltır, eğriyi **sağa kaydırır** ve $P_{50}$ değerini **artırır**.\n- **D) 2,3-difosfogliserat konsantrasyonunun artması:** 2,3-DPG deoksihemoglobinin $\\beta$ zincirlerine bağlanarak oksijen afinitesini azaltır, dokulara oksijen bırakılmasını kolaylaştırır, eğriyi **sağa kaydırır** ve $P_{50}$ değerini **artırır**.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Akciğerde alveol kesesinin kollabe olmasını engelleyen surfaktan aşağıdaki hücrelerin hangisi tarafından salgılanır?",
+    "options": {
+      "A": "Tip I alveoler hücre",
+      "B": "Tip II alveoler hücre",
+      "C": "Alveoler makrofaj",
+      "D": "Alveoler dendritik hücre",
+      "E": "Silyalı hücre"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Alveol duvarında yer alan kübik şekilli, apikal yüzeyinde mikrovilluslar bulunan ve sitoplazmasında çok sayıda **lameller cisimcik (lamellar body)** barındıran **Tip II alveoler hücreler (Tip II pnömositler / büyük alveoler hücreler / septal hücreler)**, yüzey gerilimini düşürerek alveollerin kollabe olmasını (atelektaziyi) engelleyen fosfolipid-protein kompleksi olan **sürfaktanı** sentezler ve ekzositozla alveol lümenine salgılar (sürfaktan sentezi intrauterin yaklaşık 24–26. haftalarda başlar ve 35. haftada yeterli olgunluğa ulaşır).\n**Çeldiriciler:**\n- **A) Tip I alveoler hücre:** Alveol yüzeyinin %95'ini kaplayan çok ince yassı epitel hücreleridir; sürfaktan salgılamazlar, kan-hava bariyerini oluşturarak gaz difüzyonunu sağlarlar.\n- **C) Alveoler makrofaj (Toz hücresi):** Alveol lümeninde ve interalveoler septumda bulunan monosit kökenli fagositik savunma hücresidir; solunan yabancı partikülleri fagosite eder ve ayrıca fazla/kullanılmış sürfaktanı temizler (ancak sürfaktan sentezlemez).\n- **D) Alveoler dendritik hücre:** Akciğer dokusunda antijen yakalayıp lenf düğümlerinde T lenfositlerine sunan immün sistem hücresidir.\n- **E) Silyalı hücre:** İletici hava yollarında (bronşiyollere kadar) mukosiliyer klirensi sağlayan epitel hücresidir; alveol keselerinde silyalı hücre bulunmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hem inspiratuvar hem de ekspiratuvar nöron somalarını içeren solunum merkezi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Dorsal solunum merkezi",
+      "B": "Ventral solunum merkezi",
+      "C": "Apnostik merkez",
+      "D": "Pnömotaksik merkez",
+      "E": "Kemotaksik merkez"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Medulla oblongatanın her iki yanında (nukleus ambiguus ve nukleus retroambiguus içinde) yer alan **ventral solunum grubu (ventral solunum merkezi)**, yapısı içinde **hem inspiratuvar hem de ekspiratuvar nöron somalarını** barındırır. Normal sakin solunumda (inspirasyon aktif, ekspirasyon pasif olduğu için) ventral solunum merkezi nöronları neredeyse tamamen inaktiftir; ancak ağır egzersiz gibi **zorlu solunum** ve artırılmış ventilasyon gerektiğinde devreye girerek özellikle yardımcı (aksesuar) inspirasyon kaslarına ve aktif ekspirasyon sağlayan karın/internal interkostal kaslara güçlü sinyaller gönderir. (Ayrıca ventral gruptaki *Pre-Bötzinger kompleksi* solunumun temel pacemaker ritmini oluşturur).\n**Çeldiriciler:**\n- **A) Dorsal solunum merkezi (Dorsal solunum grubu):** Medullanın dorsalinde, nukleus traktus solitarius (NTS) içinde yer alır; neredeyse tamamen **inspiratuvar nöronlardan** oluşur ve diyaframı uyaran rampa sinyaliyle normal sakin solunumun temel inspirasyon ritmini kontrol eder.\n- **C) Apnostik merkez:** Alt ponsta yer alır; medulladaki dorsal solunum grubuna uyarıcı sinyaller göndererek inspirasyonun derinliğini ve süresini uzatmaya çalışır (pnömotaksik merkez tarafından frenlenir).\n- **D) Pnömotaksik merkez:** Üst ponsta (nukleus parabrachialis ve Kölliker-Fuse çekirdeğinde) yer alır; inspiratuvar rampa sinyalinin \"kapanma noktasını\" kontrol ederek inspirasyon süresini kısaltır ve **solunum frekansını (hızını) artırır**.\n- **E) Kemotaksik merkez:** Beyin sapındaki solunum kontrol merkezlerinden biri değildir (kemotaksi lökositlerin kimyasal uyarana göçüdür; medullada ise santral kemoreseptör alanı bulunur).",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Alveolar evre\nII. Terminal kese evresi\nIII. Kanaliküler evre\nIV. Psödoglandüler evre\nAkciğer gelişimindeki basamaklar, aşağıdakilerin hangisinde doğru sırada verilmiştir?",
+    "options": {
+      "A": "IV – I – III – II",
+      "B": "IV – I – II – III",
+      "C": "III – II – IV – I",
+      "D": "III – I – II – IV",
+      "E": "IV – III – II – I"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Embriyonik dönemin (4–7. haftalar) ardından fetal akciğer gelişimi histolojik ve morfolojik özelliklerine göre kronolojik olarak şu dört evrede gerçekleşir: **Psödoglandüler evre (IV) $\\rightarrow$ Kanaliküler evre (III) $\\rightarrow$ Terminal kese (sakküler) evresi (II) $\\rightarrow$ Alveolar evre (I)**. Dolayısıyla doğru sıralama **IV – III – II – I** şeklindedir.\n**Öncüllerin Analizi:**\n- **IV. Psödoglandüler evre (5–16. haftalar):** İlk evredir; akciğer histolojik olarak ekzokrin bir salgı bezine benzer. Hava iletim yolları **terminal bronşiyollere kadar** dallanır ancak respiratuvar bronşiyoller ve alveoller henüz oluşmadığı için bu evrede doğan fetüs yaşayamaz.\n- **III. Kanaliküler evre (16–26. haftalar):** İkinci evredir; terminal bronşiyoller **respiratuvar bronşiyollere** ve alveolar duktuslara dallanır, akciğer dokusu yoğun şekilde damarlanır (vaskülarizasyon artar) ve evrenin sonuna doğru Tip I ve Tip II pnömositler farklılaşarak **sürfaktan sentezi başlar**.\n- **II. Terminal kese (sakküler) evresi (26. hafta – doğum):** Üçüncü evredir; hava yollarının uçlarında çok sayıda **terminal keseler (primitif alveoller)** gelişir, kapillerler bu keselerle yakın temas kurarak kan-hava bariyerini oluşturur ve sürfaktan üretimi hızlanır.\n- **I. Alveolar evre (32–36. hafta – doğum sonrası 8 yaş):** Son evredir; terminal keselerin sekonder septalarla bölünmesiyle olgun **kesin alveoller** oluşur (olgun alveollerin %90'ından fazlası doğumdan sonra çocukluk döneminde gelişir).\n**Çeldiriciler:**\n- **A) IV – I – III – II:** En son gerçekleşen alveolar evrenin (I) ikinci sıraya konulması nedeniyle yanlıştır.\n- **B) IV – I – II – III:** Alveolar (I), terminal kese (II) ve kanaliküler (III) evrelerin sırası hatalıdır.\n- **C) III – II – IV – I:** İlk evre olan psödoglandüler evrenin (IV) üçüncü sıraya yazılması nedeniyle yanlıştır.\n- **D) III – I – II – IV:** Kronolojik sıralamaya tamamen aykırıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sağlıklı bir bireyde, transpulmoner basınçla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Akciğerlerin transmural basıncıdır.",
+      "B": "Alveol basıncı ile intraplevral basıncın farkına eşittir.",
+      "C": "İstirahat solunumunda her zaman pozitiftir.",
+      "D": "İnspirasyon boyunca azalır, ekspirasyonda artar.",
+      "E": "Akciğerlerin \"elastic recoil\" basıncını belirler."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Transpulmoner basınç formülü $P_{tp} = P_{alv} - P_{ip}$ şeklindedir. Normal sakin ekspirasyon sonunda ($P_{alv} = 0$, $P_{ip} = -5\\text{ cmH}_2\\text{O}$) transpulmoner basınç $0 - (-5) = +5\\text{ cmH}_2\\text{O}$'dur. **İnspirasyon boyunca** diyafram kasılıp göğüs kafesi genişledikçe intraplevral basınç ($P_{ip}$) daha negatif hale gelir (örneğin $-7.5\\text{ cmH}_2\\text{O}$'ya iner); dolayısıyla inspirasyon sonunda ($P_{alv} = 0$, $P_{ip} = -7.5\\text{ cmH}_2\\text{O}$) transpulmoner basınç $0 - (-7.5) = +7.5\\text{ cmH}_2\\text{O}$ olur. Yani transpulmoner basınç **inspirasyon boyunca artar (akciğerleri genişletir), ekspirasyonda ise tekrar $+5\\text{ cmH}_2\\text{O}$'ya doğru azalır**. D şıkkında bunun tam tersi söylendiği için yanlıştır.\n**Çeldiriciler:**\n- **A) Akciğerlerin transmural basıncıdır:** Doğrudur; akciğer duvarının iç yüzeyi (alveol) ile dış yüzeyi (plevra boşluğu) arasındaki fark olduğu için akciğerlerin transmural (duvar aşırı) basıncıdır.\n- **B) Alveol basıncı ile intraplevral basıncın farkına eşittir:** Doğrudur; matematiksel tanımı $P_{tp} = P_{alv} - P_{ip}$'dir.\n- **C) İstirahat solunumunda her zaman pozitiftir:** Doğrudur; normal istirahat solunumunda intraplevral basınç ($P_{ip}$) alveol basıncından ($P_{alv}$) her zaman daha negatif olduğu için $P_{alv} - P_{ip}$ farkı daima pozitiftir ($+5$ ile $+7.5\\text{ cmH}_2\\text{O}$ arasında değişir) ve akciğerleri açık tutar.\n- **E) Akciğerlerin \"elastic recoil\" basıncını belirler:** Doğrudur; statik koşullarda akciğerleri belirli bir hacimde açık tutmak için gereken transpulmoner basınç, akciğerlerin o hacimdeki içe doğru elastik geri çekilme (*recoil*) basıncına büyüklük olarak tam eşittir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Alveol sıvısının yüzey gerilimi\nII. Akciğerlerin kompliyansı\nIII. Alveol stabilizasyonu\nIV. Solunum işi\nSürfaktan yeterli miktarda üretilmediğinde yukarıdakilerden hangileri azalır?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "I ve III",
+      "E": "II ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Pulmoner sürfaktan normalde alveol yüzey gerilimini düşürerek akciğerlerin kolayca genişlemesini (yüksek kompliyans) ve farklı çaplardaki alveollerin kollabe olmadan bir arada açık kalmasını (alveol stabilizasyonu) sağlar. Sürfaktan yeterli miktarda üretilmediğinde (örneğin prematüre bebeklerde) yüzey gerilimi aşırı yükselir; buna bağlı olarak **akciğerlerin kompliyansı (genişleyebilirliği) azalır (II)** ve küçük alveoller kollabe olarak büyük alveollere boşaldığı için **alveol stabilizasyonu azalır (III)**.\n**Öncüllerin Analizi:**\n- **I. Alveol sıvısının yüzey gerilimi:** Yanlıştır. Sürfaktan yüzey gerilimini düşüren maddedir; sürfaktan eksikliğinde alveol sıvısının yüzey gerilimi azalmaz, tam tersine çok belirgin şekilde **artar**.\n- **II. Akciğerlerin kompliyansı:** Doğrudur. Yüzey geriliminin artması akciğerleri sertleştirir ve genişlemeye karşı direnci artırır; böylece akciğer kompliyansı ($\\Delta V / \\Delta P$) **azalır**.\n- **III. Alveol stabilizasyonu:** Doğrudur. Laplace yasasına ($P = \\frac{2T}{r}$) göre sürfaktan olmadığında yüzey gerilimi ($T$) sabit ve yüksek kalır; yarıçapı ($r$) küçük olan alveollerdeki kollaps basıncı ($P$) daha büyük olacağı için küçük alveoller söner (atelektazi gelişir) ve **alveol stabilizasyonu azalır**.\n- **IV. Solunum işi:** Yanlıştır. Sürfaktan eksikliğinde sertleşmiş (düşük kompliyanslı) ve sönmeye eğilimli akciğerleri her nefeste yeniden şişirebilmek için solunum kaslarının harcaması gereken enerji, yani **solunum işi (work of breathing) azalmaz, belirgin şekilde artar**.\n**Çeldiriciler:**\n- **A) I ve II:** I. öncül (yüzey gerilimi) arttığı için yanlıştır.\n- **B) I ve IV:** Hem I. öncül hem de IV. öncül sürfaktan eksikliğinde artar.\n- **D) I ve III:** I. öncül arttığı için yanlıştır.\n- **E) II ve IV:** IV. öncül (solunum işi) arttığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hipoksemi aşağıdakilerden hangisini doğrudan etkileyerek hiperventilasyona neden olur?",
+    "options": {
+      "A": "Frenik sinir",
+      "B": "Akciğer gerim reseptörleri",
+      "C": "Karotisteki ve aortadaki kemoreseptörler",
+      "D": "Medüller kemoreseptörler",
+      "E": "J reseptörleri"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Arteriyel kandaki parsiyel oksijen basıncının ($P_aO_2$) düşmesi olarak tanımlanan **hipoksemi** (özellikle $P_aO_2 < 60\\text{ mmHg}$ olduğunda), yalnızca bifurkasyo karotikumda yer alan **karotis cisimcikleri (glomus caroticum)** ve arkus aortada yer alan **aortik cisimciklerdeki (glomus aorticum)** **periferik kemoreseptörleri** (Tip I glomus hücrelerini) doğrudan uyarır. Karotis cisimciğinden glossofaringeal sinir (CN IX, Hering siniri) ve aortik cisimcikten vagus siniri (CN X) ile medulla oblongatadaki dorsal solunum grubuna taşınan bu uyarılar solunum merkezini aktive ederek **hiperventilasyona** neden olur.\n**Çeldiriciler:**\n- **A) Frenik sinir:** C3–C5 spinal segmentlerden çıkan ve diyaframı innerve eden motor sinirdir; kandaki oksijen düşüklüğünü doğrudan algılayan bir kemoreseptör değildir.\n- **B) Akciğer gerim reseptörleri:** Bronş ve bronşiyollerin düz kas tabakasında yer alan mekanoreseptörlerdir; hipoksemiye değil akciğerin aşırı şişmesine (gerilmesine) duyarlıdırlar ve Hering-Breuer refleksini başlatırlar.\n- **D) Medüller (santral) kemoreseptörler:** Ventrolateral medullada yer alan santral kemoreseptörler $\\text{CO}_2$ ve BOS $\\text{H}^+$ artışına duyarlıdır; hipoksemiye ($P_aO_2$ düşüşüne) doğrudan duyarlı değildirler (hatta doğrudan hipoksi medüller nöronları deprese eder).\n- **E) J (jukstakapiller) reseptörleri:** Alveol duvarında pulmoner kapillerlere yakın interstisyumda bulunan vagal C lifi uçlarıdır; pulmoner konjesyon, pulmoner ödem ve kapiller dolgunluk artışıyla uyarılarak hızlı ve yüzeyel solunuma (dispne/takipne) yol açarlar, arteriyel hipokseminin birincil sensörü değildirler.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Basit sulu spirometre ile aşağıdaki akciğer volümlerinden hangisi ölçülemez?",
+    "options": {
+      "A": "Total akciğer kapasitesi",
+      "B": "Vital kapasite",
+      "C": "Ekspiratuvar yedek hacim",
+      "D": "İnspiratuvar kapasite",
+      "E": "Tidal volüm"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Basit sulu spirometre yalnızca solunum yollarından dışarı çıkarılabilen ve içeri alınabilen hava hacimlerini ölçebilir. En derin ekspirasyondan sonra dahi akciğerlerde kalan **rezidüel volüm (RV)** spirometreye giremediği için ölçülemez; dolayısıyla yapısında rezidüel volümü barındıran **Fonksiyonel Rezidüel Kapasite ($\\text{FRC} = \\text{ERV} + \\text{RV}$)** ve **Total Akciğer Kapasitesi ($\\text{TLC} = \\text{VC} + \\text{RV}$)** de basit sulu spirometre ile **ölçülemez**.\n**Çeldiriciler:**\n- **B) Vital kapasite (VC):** $\\text{VC} = \\text{IRV} + \\text{TV} + \\text{ERV}$ toplamından oluşur; içinde rezidüel volüm bulunmadığı için basit spirometre ile doğrudan ölçülebilir.\n- **C) Ekspiratuvar yedek hacim (ERV):** Normal ekspirasyon sonundan itibaren zorlu ekspirasyonla dışarı atılabilen hava hacmidir ve basit spirometre ile doğrudan ölçülür.\n- **D) İnspiratuvar kapasite (IC):** $\\text{IC} = \\text{TV} + \\text{IRV}$ toplamından oluşur; rezidüel volüm içermediği için basit spirometre ile doğrudan ölçülür.\n- **E) Tidal volüm (TV):** Normal sakin solunumda alınıp verilen soluk hacmidir ($\\approx 500\\text{ mL}$) ve basit spirometre ile doğrudan ölçülür.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Normal solunumdaki akciğerlerin inspirasyon ve ekspirasyonu sırasında oluşan ve atmosferden hava giriş-çıkışını sağlayan basınç değişimleri ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "İnspirasyon oluşması için intraplevral basınç istirahattaki değerine göre daha negatif olur.",
+      "B": "İnspirasyon oluşması için intraplevral basınç atmosferik basınca eşit olmalıdır.",
+      "C": "Ekspirasyon oluşması için alveoler basınç atmosferik basınçtan pozitife doğru artar ve intraplevral basınç farkı daha negatif olur.",
+      "D": "Ekspirasyon oluşması için alveoler basınç pozitiften atmosferik basınç değerine doğru düşerken intraplevral basınç değişmez.",
+      "E": "Transpulmoner basınç olarak tanımlanan alveol basıncı ile visseral-parietal plevra arası basınç farkı artışında akciğer volümü azalır."
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Normal sakin **inspirasyonun** başlaması için temel inspirasyon kası olan diyafram (ve eksternal interkostal kaslar) kasılır ve göğüs boşluğunun hacmi genişler. Göğüs kafesinin genişlemesiyle parietal plevra dışa doğru çekilir ve istirahatte (ekspirasyon sonunda) yaklaşık $-5\\text{ cmH}_2\\text{O}$ olan **intraplevral basınç, inspirasyon sırasında daha negatif bir değere (yaklaşık $-7.5\\text{ cmH}_2\\text{O}$'ya) düşer**. Bu durum transpulmoner basıncı artırarak alveolleri genişletir, alveol içi basıncı atmosfer basıncının altına ($\\approx -1\\text{ cmH}_2\\text{O}$) düşürür ve atmosferden akciğerlere hava girişini sağlar.\n**Çeldiriciler:**\n- **B) İnspirasyon oluşması için intraplevral basınç atmosferik basınca eşit olmalıdır:** Yanlıştır; intraplevral basıncın atmosferik basınca eşitlenmesi ($0\\text{ cmH}_2\\text{O}$ olması) pnömotoraks demektir ve akciğerin genişlemesine değil, elastik yapısıyla kollabe olmasına (büzülmesine) yol açar.\n- **C) Ekspirasyon oluşması için alveoler basınç atmosferik basınçtan pozitife doğru artar ve intraplevral basınç farkı daha negatif olur:** İlk kısım doğrudur (alveol basıncı $+1\\text{ cmH}_2\\text{O}$'ya çıkar), ancak ikinci kısım yanlıştır; ekspirasyonda göğüs kafesi küçülürken intraplevral basınç daha negatif olmaz, tam tersine $-7.5\\text{ cmH}_2\\text{O}$'dan tekrar $-5\\text{ cmH}_2\\text{O}$'ya doğru **daha az negatif** hale gelir.\n- **D) Ekspirasyon oluşması için alveoler basınç pozitiften atmosferik basınç değerine doğru düşerken intraplevral basınç değişmez:** Yanlıştır; ekspirasyon boyunca akciğer hacmi azaldıkça intraplevral basınç sabit kalmaz, $-7.5\\text{ cmH}_2\\text{O}$'dan $-5\\text{ cmH}_2\\text{O}$'ya doğru değişir.\n- **E) Transpulmoner basınç olarak tanımlanan alveol basıncı ile visseral-parietal plevra arası basınç farkı artışında akciğer volümü azalır:** Yanlıştır; transpulmoner basınç ($P_{alv} - P_{ip}$) akciğeri genişleten basınçtır ve bu fark arttığında akciğer volümü azalmaz, **artar**.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Deniz seviyesinde yaşayan 28 yaşındaki bir kadın kısa sürede 3000 m yüksekliğe çıkıyor. Aşağıdakilerden hangisi akut uyum yanıtlarından biri değildir?",
+    "options": {
+      "A": "Aortik ark ve karotik bifurkasyondaki periferik kemoreseptörler hipoksi ile uyarılır.",
+      "B": "Arteriyel hipokapni meydana gelir.",
+      "C": "Solunumsal alkaloz meydana gelir.",
+      "D": "Kandaki karbondioksit santral kemoreseptörleri ve solunum merkezini uyarır.",
+      "E": "Dakika ventilasyon hacmi artar."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Yüksek irtifaya ($3000\\text{ m}$) çıkıldığında barometrik basınç düştüğü için solunan havadaki ve alveoldeki parsiyel oksijen basıncı düşer (**hipobarik hipoksi**). Gelişen hipoksemi periferik kemoreseptörleri uyararak hiperventilasyon başlatır. Ancak hiperventilasyon sonucunda akciğerlerden fazla miktarda $\\text{CO}_2$ atılır ve kandaki **$P_aCO_2$ düzeyi düşer (hipokapni)**, BOS ve kan pH'ı yükselir (alkaloz). Dolayısıyla akut yüksek irtifa uyumunda kandaki karbondioksit artıp santral kemoreseptörleri uyarmaz; tam tersine **azalan $\\text{CO}_2$ (hipokapni) ve BOS alkalozu santral kemoreseptörlerin aktivitesini azaltır** ve akut dönemde hipoksemik hiperventilasyon yanıtını kısmen frenler.\n**Çeldiriciler:**\n- **A) Aortik ark ve karotik bifurkasyondaki periferik kemoreseptörler hipoksi ile uyarılır:** Doğrudur; $3000\\text{ m}$ irtifada alveoler ve arteriyel $PO_2$ yaklaşık $60\\text{ mmHg}$ düzeyine düştüğü için karotis ve aortik cisimciklerdeki periferik kemoreseptörler doğrudan uyarılır.\n- **B) Arteriyel hipokapni meydana gelir:** Doğrudur; hipokseminin tetiklediği hiperventilasyon sonucunda alveoler ve arteriyel $PCO_2$ ($40\\text{ mmHg}$'nin altına) düşer ve arteriyel hipokapni gelişir.\n- **C) Solunumsal alkaloz meydana gelir:** Doğrudur; hiperventilasyona bağlı olarak arteriyel $P_aCO_2$'nin düşmesi karbonik asit/bikarbonat dengesini bozarak kan pH'ını yükseltir ve akut solunumsal (respiratuvar) alkaloza yol açar.\n- **E) Dakika ventilasyon hacmi artar:** Doğrudur; periferik kemoreseptörlerden gelen uyarılarla hem solunum derinliği hem de solunum frekansı artarak dakika ventilasyon hacmi yükselir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karotid ve aortik cisimciklerde bulunan glomus hücrelerinin hipoksiye karşı oluşturduğu yanıtta aşağıdakilerden hangisi etkilidir?",
+    "options": {
+      "A": "Na–H değiştiricisinin aktivasyonu",
+      "B": "K kanallarının inaktivasyonu",
+      "C": "Na kanallarının aktivasyonu",
+      "D": "Ca kanallarının inaktivasyonu",
+      "E": "Cl kanallarının aktivasyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Karotid ve aortik cisimciklerdeki kemoreseptör biriminin oksijen duyarlı esas parankim hücreleri **Tip I glomus hücreleridir** (Tip II sustentaküler hücreler ise glia benzeri destek hücreleridir). Arteriyel $P_aO_2$ düştüğünde (hipokside), glomus hücrelerinin membranında bulunan **$\\text{O}_2$-duyarlı potasyum ($\\text{K}^+$) kanalları kapanır (inaktive olur)**. Hücre dışına $\\text{K}^+$ çıkışı azaldığı için glomus hücresi **depolarize olur**; bu depolarizasyon **voltaj kapılı L-tipi kalsiyum ($\\text{Ca}^{2+}$) kanallarını açar**, hücre içine $\\text{Ca}^{2+}$ girer ve veziküllerden nörotransmitter (başta ATP, asetilkolin ve dopamin) salınarak CN IX ve CN X afferent sinir uçlarında aksiyon potansiyeli başlatılır.\n**Çeldiriciler:**\n- **A) Na–H değiştiricisinin aktivasyonu:** Hipokside glomus hücresinin birincil sinyal iletim mekanizması değildir.\n- **C) Na kanallarının aktivasyonu:** Glomus hücresinde hipoksiye bağlı ilk reseptör potansiyeli (depolarizasyon) $\\text{Na}^+$ kanallarının açılmasıyla değil, $\\text{O}_2$-duyarlı sızıntı/voltaj $\\text{K}^+$ kanallarının kapanmasıyla gerçekleşir.\n- **D) Ca kanallarının inaktivasyonu:** Yanlıştır; depolarizasyon sonrasında nörotransmitter ekzositozu için voltaj bağımlı L-tipi $\\text{Ca}^{2+}$ kanalları inaktive olmaz, tam tersine **aktive olur (açılır)**.\n- **E) Cl kanallarının aktivasyonu:** Klor kanallarının açılması hücre içine negatif iyon girişine (hiperpolarizasyona) yol açacağından glomus hücresini uyarmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Göğüs duvarının dışa doğru, akciğerlerin içe doğru elastik geri çekilme (recoil) güçleri eşit ve zıt olduğunda akciğerlerdeki hava hacmi hangisine eşittir?",
+    "options": {
+      "A": "Vital kapasite",
+      "B": "Rezidüel hacim",
+      "C": "Fonksiyonel rezidüel kapasite (FRC)",
+      "D": "İnspiratuvar yedek hacim (IRV)",
+      "E": "Ekspiratuvar yedek hacim (ERV)"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Solunum kaslarının tamamen gevşemiş olduğu **normal sakin (pasif) bir ekspirasyonun sonunda**, akciğerlerin elastik lifleri ve alveol yüzey gerilimi nedeniyle **içe doğru büzülme (recoil) kuvveti** ile göğüs kafesinin (toraks duvarının) **dışa doğru yaylanma (genişleme) kuvveti** büyüklük olarak birbirine tam **eşit ve zıt yönlüdür**. Solunum sisteminin bu mekanik dinlenim denge noktasında akciğerlerde bulunan hava hacmine **fonksiyonel rezidüel kapasite (FRC)** ($\\text{ERV} + \\text{RV} \\approx 2400\\text{ mL}$) adı verilir.\n**Çeldiriciler:**\n- **A) Vital kapasite:** Maksimal inspirasyon sonrası maksimal ekspirasyonla çıkarılan toplam hava hacmidir; statik bir denge hacmi değildir.\n- **B) Rezidüel hacim:** Zorlu ekspirasyon sonunda akciğerlerde kalan hacimdir; bu noktada göğüs duvarının dışa doğru genişleme kuvveti akciğerin içe çekme kuvvetinden çok daha büyüktür.\n- **D) İnspiratuvar yedek hacim (IRV):** Normal sakin inspirasyonun üzerine alınabilen ilave hacimdir; TLC'ye yaklaşıldığında hem akciğer hem de göğüs duvarı içe doğru çekilme eğilimindedir.\n- **E) Ekspiratuvar yedek hacim (ERV):** FRC denge noktasından itibaren zorlu ekspirasyon kaslarının (karın ve internal interkostal kaslar) aktif çalışmasıyla dışarı atılabilen hava hacmidir; tek başına akciğerde kalan denge hacmini ifade etmez.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Solunum yollarına ait aşağıdaki yapıların hangisinin duvarında hiyalin kıkırdak bulunur?",
+    "options": {
+      "A": "Bronş",
+      "B": "İntraalveoler septum",
+      "C": "Terminal bronşiyol",
+      "D": "Respiratuvar bronşiyol",
+      "E": "Duktus alveolaris"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Solunum yollarında **hiyalin kıkırdak**; larinksin temel kıkırdaklarında (tiroid, krikoid, aritenoidlerin tabanı), **trakeada** (C-şekilli halkalar halinde) ve **bronşlarda** (ekstrapulmoner ana bronşlarda halkalar, intrapulmoner bronşlarda ise düzensiz kıkırdak plakları/adacıkları halinde) bulunur. Hava yolları dallanıp çapı $1\\text{ mm}$'nin altına indiğinde (**bronşiyol** düzeyine geçildiğinde) duvarlarındaki kıkırdak plaklar, goblet hücreleri ve submukozal bezler tamamen kaybolur. Dolayısıyla şıklarda verilen yapılardan yalnızca **bronş** duvarında hiyalin kıkırdak bulunur.\n**Çeldiriciler:**\n- **B) İntraalveoler septum:** Komşu iki alveolü birbirinden ayıran çok ince duvar yapısıdır; kıkırdak içermez, kapiller ağ, ince kollajen (Tip III) ve elastik lifler içerir.\n- **C) Terminal bronşiyol:** İletici solunum yollarının son bölümüdür; duvarında **hiç kıkırdak bulunmaz**, lümen açıklığı düz kas tabakası (Reisseissen kası) ve çevre akciğer parankiminin radyal elastik çekimi ile korunur.\n- **D) Respiratuvar bronşiyol:** Gaz alışverişinin başladığı ilk solunum yolu segmentidir; duvarında kıkırdak bulunmaz, kübik silyalı epitel ve Clara (Club) hücreleri ile yer yer alveol kesecikleri içerir.\n- **E) Duktus alveolaris:** Duvarı tamamen alveol ağızlarıyla çevrili olan, düz kas halkaları ve elastik/retiküler lifler içeren ancak kesinlikle kıkırdak bulundurmayan distal solunum yolu yapısıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Alveoler basınç atmosferik basıncın altına düşer.\nII. İntraplevral basıncın negatifliği artar.\nIII. Transpulmoner basınç artar.\nİnspirasyon sırasında görülen basınç değişimleri ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve III",
+      "B": "I ve II",
+      "C": "I, II ve III",
+      "D": "Yalnız I",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** İnspirasyon sırasında diyafram ve eksternal interkostal kasların kasılmasıyla toraks boşluğu genişler. Bunun sonucunda sırasıyla **intraplevral basıncın negatifliği artar (II)**, alveolleri genişleten **transpulmoner basınç artar (III)** ve genişleyen alveollerin içindeki **alveoler basınç atmosferik basıncın altına düşerek (I)** dış ortamdan akciğerlere hava akışını sağlar. Dolayısıyla her üç ifade de doğrudur.\n**Öncüllerin Analizi:**\n- **I. Alveoler basınç atmosferik basıncın altına düşer:** Doğrudur. İnspirasyon başında $0\\text{ cmH}_2\\text{O}$ (atmosfer basıncına eşit) olan alveol basıncı, alveollerin genişlemesiyle Boyle yasası gereği yaklaşık **$-1\\text{ cmH}_2\\text{O}$**'ya düşer ve hava içeri doldukça inspirasyon sonunda tekrar $0\\text{ cmH}_2\\text{O}$'ya döner.\n- **II. İntraplevral basıncın negatifliği artar:** Doğrudur. Toraks kafesinin genişlemesiyle plevral yapraklar arasındaki basınç $-5\\text{ cmH}_2\\text{O}$'dan yaklaşık **$-7.5\\text{ cmH}_2\\text{O}$**'ya iner (negatifliği artar).\n- **III. Transpulmoner basınç artar:** Doğrudur. Transpulmoner basınç $P_{tp} = P_{alv} - P_{ip}$ olduğundan, intraplevral basıncın daha negatif hale gelmesiyle $+5\\text{ cmH}_2\\text{O}$'dan **$+7.5\\text{ cmH}_2\\text{O}$**'ya yükselir ve akciğerlerin genişlemesini sağlar.\n**Çeldiriciler:**\n- **A) I ve III:** II. öncül de doğru olduğu için eksiktir.\n- **B) I ve II:** III. öncül de doğru olduğu için eksiktir.\n- **D) Yalnız I:** II ve III. öncüller de doğru olduğu için eksiktir.\n- **E) Yalnız III:** I ve II. öncüller de doğru olduğu için eksiktir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Santral kemosensitif alan ponsta lokalizedir.\nII. Santral kemosensitif alanın stimülasyonunda kanda O2 azalması etkilidir.\nIII. Santral kemosensitif alanın stimülasyonunda kanda CO2 artışı etkilidir.\nSolunumun kontrolünde rol oynayan santral kemosensitif alan ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "Yalnız II",
+      "D": "Yalnız III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Solunumun kimyasal kontrolünde en büyük paya sahip olan **santral kemosensitif alan**, medulla oblongatanın ventrolateral yüzeyinde (retrotrapezoid çekirdek komşuluğunda) yer alır. Bu alandaki nöronlar doğrudan beyin-omurilik sıvısı (BOS) ve beyin dokusu sıvısındaki $\\text{H}^+$ iyonu konsantrasyonu artışına duyarlıdır. **Kanda $\\text{CO}_2$ artışı (III)** olduğunda $\\text{CO}_2$ kan-beyin bariyerini hızla geçerek BOS'ta $\\text{H}_2\\text{CO}_3 \\rightarrow \\text{H}^+ + \\text{HCO}_3^-$ reaksiyonuyla $\\text{H}^+$ düzeyini artırır ve santral kemosensitif alanı güçlü şekilde uyarır.\n**Öncüllerin Analizi:**\n- **I. Santral kemosensitif alan ponsta lokalizedir:** Yanlıştır. Santral kemosensitif alan ponsta değil, **medulla oblongatanın** bilateral ventral/ventrolateral yüzeyinde lokalizedir (ponsta pnömotaksik ve apnöstik merkezler bulunur).\n- **II. Santral kemosensitif alanın stimülasyonunda kanda O2 azalması etkilidir:** Yanlıştır. Santral kemoreseptörler arteriyel kandaki $\\text{O}_2$ azalmasına (hipoksemiye) duyarlı değildir; $\\text{O}_2$ azalması **periferik kemoreseptörleri** (karotis ve aortik cisimcikleri) uyarır.\n- **III. Santral kemosensitif alanın stimülasyonunda kanda CO2 artışı etkilidir:** Doğrudur. Kandaki $\\text{CO}_2$ kan-beyin bariyerini serbestçe geçip BOS pH'ını düşürerek santral kemosensitif alanı uyaran en güçlü fizyolojik faktördür.\n**Çeldiriciler:**\n- **A) I ve II:** Her iki öncül de yanlış olduğu için elenir.\n- **B) II ve III:** II. öncül yanlış olduğu için elenir.\n- **C) Yalnız II:** II. öncül yanlış olduğu için elenir.\n- **E) I, II ve III:** I ve II. öncüller yanlış olduğu için elenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Parotis bezi kanseri nedeniyle glossofaringeal siniri hasar görmüş bir hastada aşağıdaki reseptörlerin hangisinden başlayan solunum refleksinin bozulması en olasıdır?",
+    "options": {
+      "A": "Karotid cisim kemoreseptör",
+      "B": "Aortik kemoreseptör",
+      "C": "İrritan reseptörler",
+      "D": "J reseptör",
+      "E": "Gerim reseptörleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Ana karotid arterin çatallanma (bifurkasyon) bölgesinde yer alan **karotid cisim (glomus caroticum) kemoreseptörleri** (ve karotid sinüs baroreseptörleri), arteriyel kandaki $P_aO_2$ düşüşünü, $P_aCO_2$ artışını ve pH azalmasını algılar. Karotid cisimden çıkan duyusal (afferent) sinir lifleri (Hering siniri / karotid sinüs siniri), **9. kraniyal sinir olan glossofaringeal sinir (CN IX)** içerisine katılarak medulla oblongatadaki nukleus traktus solitarius'a (NTS) ulaşır. Dolayısıyla glossofaringeal sinir hasarında **karotid cisim kemoreseptörlerinden** başlayan solunum refleksi bozulur.\n**Çeldiriciler:**\n- **B) Aortik kemoreseptör:** Arkus aorta üzerinde bulunan aortik cisimciklerin afferent duyusal lifleri glossofaringeal sinir (CN IX) ile değil, **10. kraniyal sinir olan vagus siniri (CN X)** ile beyin sapına taşınır.\n- **C) İrritan reseptörler:** Trakea ve büyük bronşların epitel hücreleri arasında bulunan ve toz, duman, soğuk hava, histamin gibi uyaranlarla öksürük ve bronkokonstriksiyon başlatan hızlı adapte olan reseptörlerdir; afferentleri **vagus siniri (CN X)** ile taşınır.\n- **D) J (jukstakapiller) reseptör:** Alveol duvarında pulmoner kapiller komşuluğunda yer alan C lifi uçlarıdır; afferentleri **vagus siniri (CN X)** ile taşınır.\n- **E) Gerim reseptörleri:** Bronş ve bronşiyol düz kaslarında yer alan ve Hering-Breuer refleksini başlatan yavaş adapte olan mekanoreseptörlerdir; afferentleri **vagus siniri (CN X)** ile taşınır.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. pH\nII. PCO2\nIII. 2,3-difosfogliserat\nYukarıdakilerden hangilerinin kanda artışı oksijen-hemoglobin disosiyasyon eğrisini sağa kaydırır?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "Yalnız II",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Oksijen-hemoglobin disosiyasyon eğrisinin **sağa kayması**, hemoglobinin oksijene olan afinitesinin azalması ($P_{50}$ değerinin artması) ve aktif dokulara oksijenin daha kolay bırakılması demektir. Eğriyi sağa kaydıran temel faktörler; **kanda $PCO_2$ artışı (II)**, **2,3-difosfogliserat (2,3-DPG) artışı (III)**, sıcaklık artışı ve hidrojen iyonu ($\\text{H}^+$) artışı (yani **pH azalması / asidoz**) olarak özetlenir. Dolayısıyla kanda **artışı** eğriyi sağa kaydıranlar **II ve III**'tür.\n**Öncüllerin Analizi:**\n- **I. pH:** Yanlıştır. Kanda **pH'ın artışı** ($\\text{H}^+$ iyonu konsantrasyonunun azalması, yani **alkaloz**) hemoglobinin oksijene afinitesini artırarak oksijen-hemoglobin disosiyasyon eğrisini sağa değil, **sola kaydırır** (eğriyi sağa kaydıran durum pH'ın azalmasıdır).\n- **II. PCO2:** Doğrudur. Kanda $PCO_2$ artışı (hiperkapni), hem karbaminohemoglobin oluşumu hem de hücre içi $\\text{H}^+$ üretimi üzerinden (**Bohr etkisi**) hemoglobinin oksijene afinitesini azaltır ve eğriyi **sağa kaydırır**.\n- **III. 2,3-difosfogliserat:** Doğrudur. Eritrositlerde glikoliz ara ürünü olan 2,3-DPG'nin artışı (kronik hipoksi, yüksek irtifa, anemi durumlarında), deoksihemoglobinin $\\beta$ zincirlerini çapraz bağlayarak T (gergin/düşük afiniteli) formunu stabilize eder ve eğriyi **sağa kaydırır**.\n**Çeldiriciler:**\n- **A) I, II ve III:** pH artışı (I) eğriyi sola kaydırdığı için yanlıştır.\n- **B) I ve II:** I. öncül yanlış, III. öncül eksik olduğu için elenir.\n- **D) Yalnız II:** III. öncül (2,3-DPG artışı) de eğriyi sağa kaydırdığı için eksiktir.\n- **E) Yalnız III:** II. öncül ($PCO_2$ artışı) de eğriyi sağa kaydırdığı için eksiktir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin kanda artışı oksijen-hemoglobin disosiyasyon eğrisini sola kaydırır?",
+    "options": {
+      "A": "Hidrojen iyon konsantrasyonu",
+      "B": "Sıcaklık",
+      "C": "CO2 miktarı",
+      "D": "2,3-difosfogliserat konsantrasyonu",
+      "E": "Fetal hemoglobin konsantrasyonu"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Oksijen-hemoglobin disosiyasyon eğrisinin **sola kayması**, hemoglobinin oksijene olan ilgisinin (afinitesinin) artması ($P_{50}$ değerinin düşmesi) ve oksijenin hemoglobine daha sıkı bağlanması anlamına gelir. **Fetal hemoglobin (HbF, $\\alpha_2\\gamma_2$)** konsantrasyonunun kanda artışı, $\\gamma$ globin zincirlerinin 2,3-difosfogliserata (2,3-DPG) bağlanamaması nedeniyle hemoglobinin oksijen afinitesini yükseltir ve disosiyasyon eğrisini **sola kaydırır** (eğriyi sola kaydıran diğer durumlar pH artışı [alkaloz], sıcaklık düşüşü [hipotermi], $PCO_2$ azalması, 2,3-DPG azalması ve karbonmonoksit [karboksihemoglobin] varlığıdır).\n**Çeldiriciler:**\n- **A) Hidrojen iyon konsantrasyonu:** Kanda $\\text{H}^+$ iyonu artışı (pH düşüşü / asidoz) Bohr etkisiyle hemoglobinin oksijene afinitesini azaltır ve eğriyi **sağa kaydırır**.\n- **B) Sıcaklık:** Kanda ve dokularda sıcaklığın artması (hipertermi, egzersiz) oksijenin hemoglobinden ayrılmasını kolaylaştırarak eğriyi **sağa kaydırır**.\n- **C) CO2 miktarı:** Kanda $\\text{CO}_2$ miktarının artması Bohr etkisiyle oksijen afinitesini düşürür ve eğriyi **sağa kaydırır**.\n- **D) 2,3-difosfogliserat konsantrasyonu:** Eritrosit içi 2,3-DPG konsantrasyonunun artması deoksihemoglobini stabilize ederek oksijen afinitesini azaltır ve eğriyi **sağa kaydırır**.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Alveol yüzey gerimi azalması\nII. Akciğer kompliyansı azalması\nIII. Küçük alveollerin kollabe olması\nSürfaktan eksikliği olan bir hastada yukarıdakilerden hangilerinin görülmesi beklenir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "Yalnız I",
+      "E": "Yalnız III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Tip II pnömositlerden salgılanan sürfaktan, alveol içi hava-sıvı arayüzündeki yüzey gerilimini düşürerek akciğerlerin genişlemesini kolaylaştırır ve alveolleri açık tutar. Sürfaktan eksikliği olan bir hastada (örneğin yenidoğanın respiratuvar distres sendromunda) alveol yüzey gerilimi aşırı artar; buna bağlı olarak **akciğer kompliyansı (esnekliği/genişleyebilirliği) azalır (II)** ve Laplace yasası gereği iç basıncı daha yüksek olan **küçük alveoller kollabe olur (III)** (atelektazi gelişir).\n**Öncüllerin Analizi:**\n- **I. Alveol yüzey gerimi azalması:** Yanlıştır. Sürfaktan yüzey gerilimini azaltan maddedir; sürfaktan eksikliğinde alveol yüzey gerimi azalmaz, tam tersine belirgin şekilde **artar**.\n- **II. Akciğer kompliyansı azalması:** Doğrudur. Artan alveol yüzey gerilimi akciğerlerin genişlemeye karşı direncini artırır (akciğerleri sertleştirir) ve **akciğer kompliyansını azaltır**.\n- **III. Küçük alveollerin kollabe olması:** Doğrudur. Laplace yasasına ($P = \\frac{2T}{r}$) göre yarıçapı ($r$) küçük olan alveollerde, sürfaktan yokluğunda yüzey gerilimi ($T$) düşürülemediği için kollaps basıncı ($P$) çok yükselir ve **küçük alveoller kollabe olur (söner)**.\n**Çeldiriciler:**\n- **A) I ve II:** I. öncül yanlış olduğu için elenir.\n- **B) I ve III:** I. öncül yanlış olduğu için elenir.\n- **D) Yalnız I:** I. öncül yanlış olduğu için elenir.\n- **E) Yalnız III:** II. öncül (akciğer kompliyansı azalması) de görüldüğü için eksiktir.",
+    "lesson": "Fizyoloji",
+    "unit": "Solunum Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

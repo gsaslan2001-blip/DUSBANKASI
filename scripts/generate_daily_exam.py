@@ -35,7 +35,7 @@ from config import SUPABASE_URL, SUPABASE_KEY
 
 MAIN_LESSONS = [
     'Anatomi', 'Biyokimya', 'Cerrahi', 'Endodonti',
-    'Fizyoloji', 'Histoloji', 'Mikrobiyoloji', 'Ortodonti',
+    'Fizyoloji', 'Mikrobiyoloji', 'Ortodonti',
     'Patoloji', 'Pedodonti', 'Periodontoloji', 'Protez',
     'Radyoloji', 'Restoratif'
 ]
@@ -44,11 +44,11 @@ EXCLUDED_LESSONS = {'çıkmış sorular', 'pedodonti cikmis', 'yanlışlarım', 
 
 WEEKLY_PLAN = {
     1: ['Periodontoloji', 'Fizyoloji', 'Endodonti', 'Anatomi'],
-    2: ['Protez', 'Histoloji', 'Biyokimya', 'Ortodonti'],
+    2: ['Protez', 'Fizyoloji', 'Biyokimya', 'Ortodonti'],
     3: ['Patoloji', 'Radyoloji', 'Cerrahi', 'Pedodonti'],
     4: ['Mikrobiyoloji', 'Restoratif', 'Endodonti', 'Periodontoloji'],
     5: ['Protez', 'Pedodonti', 'Ortodonti', 'Fizyoloji'],
-    6: ['Radyoloji', 'Patoloji', 'Histoloji', 'Anatomi'],
+    6: ['Radyoloji', 'Patoloji', 'Fizyoloji', 'Anatomi'],
 }
 
 DEFAULT_USER_ID = "cb5a05b8-a353-4701-b987-5df0404c7b0f"

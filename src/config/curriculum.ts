@@ -16,7 +16,7 @@
 
 export const CURRICULUM_ORDER: readonly string[] = [
   // Temel bilimler
-  'Histoloji', 'Fizyoloji', 'Biyokimya', 'Mikrobiyoloji', 'Patoloji', 'Farmakoloji',
+  'Fizyoloji', 'Biyokimya', 'Mikrobiyoloji', 'Patoloji', 'Farmakoloji',
   // Klinik dersler
   'Protez', 'Restoratif', 'Endodonti', 'Ortodonti', 'Periodontoloji', 'Cerrahi', 'Pedodonti', 'Radyoloji',
 ];

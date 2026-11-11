@@ -1,0 +1,562 @@
+[
+  {
+    "question": "İskelet kasında aktin ve miyozin filamentlerini bir arada tutan esnek protein molekülü aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Titin",
+      "B": "Distroglikan",
+      "C": "Sarkoglikan",
+      "D": "Laminin",
+      "E": "Distrofin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Titin (konnektin), insan vücudundaki en büyük (dev) protein moleküllerinden biridir ve çizgili kas sarkomerinde Z çizgisinden M çizgisine kadar uzanır. Kalın filaman olan miyozini Z çizgisine bağlayarak sarkomerin tam merkezinde (A bandında) hizalı tutar; aynı zamanda moleküler bir \"yay\" gibi davranarak sarkomere pasif elastikiyet kazandırır, kasın aşırı gerilmesini önler ve kasılma/gerilme sonrasında sarkomerin dinlenim boyuna geri dönmesini sağlar.\nÇeldiriciler:\n- B) Distroglikan ($\\alpha$ ve $\\beta$-distroglikan); sarkomer içi bir protein değil, kas hücre zarında (sarkolemmada) yerleşen ve hücre içindeki distrofini hücre dışındaki bazal laminaya (laminine) bağlayan transmembran glikoprotein kompleksidir.\n- C) Sarkoglikan; sarkolemmada distroglikan kompleksini güçlendiren transmembran protein grubudur (genetik defektleri Limb-Girdle musküler distrofilere yol açar).\n- D) Laminin (özellikle laminin-2 / merozin); kas lifini dıştan saran eksternal (bazal) laminanın temel ekstraselüler matriks glikoproteinidir.\n- E) Distrofin; sarkolemma altında yer alan ve F-aktin filamanlarını (ince filamanları) sarkolemmadaki distroglikan-sarkoglikan kompleksine bağlayarak kasılma sırasında hücre zarını yırtılmaya karşı koruyan proteindir (defektinde Duchenne ve Becker musküler distrofi gelişir).",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi rigor mortisin nedenidir?",
+    "options": {
+      "A": "Litik enzim aktivitesinde artış",
+      "B": "ATP'nin tükenmesi",
+      "C": "Hücre içi $\\text{Ca}^{+2}$ konsantrasyonunun azalması",
+      "D": "SERCA'nın aşırı çalışması",
+      "E": "Asetilkolinin sinaptik aralıkta azalması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İskelet kası kasılma döngüsünde (çapraz köprü döngüsü), güç vuruşunu (power stroke) tamamlayan miyozin başının aktin filamanından ayrılabilmesi için miyozin başına yeni bir \"ATP molekülünün bağlanması\" şarttır. Ölümden birkaç saat sonra hücresel solunum durduğu için kas hücrelerinde \"ATP tamamen tükenir\". Yeni ATP bağlanamadığı için miyozin başları aktinden ayrılamaz (aktin-miyozin kompleksi kilitli kalır); ayrıca ATP yokluğunda SERCA pompası çalışamadığı için sarkoplazmik retikulumdan sitozole sızan $\\text{Ca}^{2+}$ geri pompalanamaz. Bunun sonucunda tüm vücut kaslarında \"rigor mortis (ölüm katılığı)\" adı verilen sertleşme gelişir.\nÇeldiriciler:\n- A) Lizozomal otolitik (litik) enzimlerin aktivitesindeki artış rigor mortisin nedeni değil; ölümden 15-25 saat sonra kas proteinlerini parçalayarak rigor mortisin çözülmesine (gevşemesine) neden olan süreçtir.\n- C) Ölüm sonrasında hücre içi $\\text{Ca}^{2+}$ konsantrasyonu azalmaz; tam aksine aktif pompalar durduğu için SR'den ve hücre dışından sızan $\\text{Ca}^{2+}$ sitozolde aşırı artar.\n- D) SERCA ($\\text{Ca}^{2+}\\text{-ATPaz}$) pompası ATP bağımlı olduğu için ölüm sonrasında aşırı çalışamaz, ATP tükendiği için tamamen durur.\n- E) Sinaptik aralıkta asetilkolinin azalması kasın uyarılamamasına ve gevşek (flask) kalmasına yol açar; rigor mortis ise sinirsel uyarıdan bağımsız olarak doğrudan kas hücresi içindeki ATP tükenmesiyle oluşur.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, düz kasın yapısında bulunmaz?",
+    "options": {
+      "A": "Aktin",
+      "B": "Miyozin",
+      "C": "Troponin",
+      "D": "Kalmodulin",
+      "E": "Yoğun cisimler"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Çizgili kaslarda (iskelet kası ve kalp kası) kasılmanın kalsiyum bağımlı kontrolü ince filaman üzerindeki \"Troponin\" (Troponin C, I, T) kompleksi üzerinden gerçekleşirken, \"düz kas hücrelerinde Troponin kompleksi kesinlikle bulunmaz\". Düz kasta troponin yerine sitoplazmada kalsiyum bağlayan \"kalmodulin\" proteini (ve ince filamanla ilişkili kaldesmon ile kalponin düzenleyici proteinleri) yer alır; kasılma ince filaman üzerinden değil, kalın filaman (miyozin hafif zincir fosforilasyonu) üzerinden düzenlenir.\nÇeldiriciler:\n- A) Aktin; düz kasta yoğun cisimlere (dense bodies) tutunan ve tropomiyozin ile birlikte ince filamanları oluşturan temel kontraktil proteindir (düz kasta çizgili kasa göre aktin/miyozin oranı çok daha yüksektir).\n- B) Miyozin (Tip II); düz kasta kalın filamanları oluşturan ve yan polarite (side-polar) dizilimi sayesinde kasın çok daha fazla kısalabilmesini sağlayan motor proteindir.\n- D) Kalmodulin; düz kasta hücre içine giren $4\\text{ Ca}^{2+}$ iyonunu bağlayarak miyozin hafif zincir kinaz (MLCK) enzimini aktive eden temel kalsiyum bağlayıcı proteindir.\n- E) Yoğun cisimler (dense bodies); düz kas sitoplazmasında ve sarkolemma altında (dense plaques) bulunan, alfa-aktinin içeren ve çizgili kastaki \"Z çizgilerinin (disklerinin)\" fonksiyonel karşılığı olan yapılardır; aktin ve desmin/vimentin ara filamanları buraya tutunur.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, iskelet kasında nikotinik asetilkolin reseptörlerine bağlanır?",
+    "options": {
+      "A": "Botulinum toksini",
+      "B": "Fizostigmin",
+      "C": "Kürar",
+      "D": "Atropin",
+      "E": "Muskarin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kürar (ve türevi olan d-tübokürarin, roküronyum, veküronyum, panküronyum gibi non-depolarizan nöromüsküler blokörler), iskelet kası nöromüsküler kavşağında (motor son plakta) postsinaptik sarkolemma üzerindeki \"nikotinik ($\\text{N}_\\text{M}$ tipi) asetilkolin reseptörlerine\" yarışmalı (kompetitif) ve geri dönüşümlü olarak bağlanan bir antagonisttir. Asetilkolinin kendi reseptörüne bağlanmasını engelleyerek son plak potansiyeli oluşumunu durdurur ve iskelet kasında gevşek (flask) felç yapar.\nÇeldiriciler:\n- A) Botulinum toksini; postsinaptik nikotinik reseptöre bağlanmaz, presinaptik motor sinir ucunda SNARE proteinlerini (sinaptobrevin, SNAP-25, sintaksin) parçalayarak veziküllerden asetilkolin ekzositozunu (salınımını) engeller.\n- B) Fizostigmin (ve neostigmin, pridostigmin); reseptöre değil, sinaptik aralıktaki \"asetilkolinesteraz (AChE)\" enzimine bağlanarak onu inhibe eder ve sinaptik aralıkta asetilkolin miktarını artırır (kürarın etkisini geri döndürmek için antidot olarak kullanılır).\n- D) Atropin; iskelet kasındaki nikotinik reseptörlere değil, otonom efektör organlardaki (kalp, düz kas, salgı bezleri) \"muskarinik\" asetilkolin reseptörlerine bağlanan yarışmalı bir antagonisttir.\n- E) Muskarin; zehirli mantarlardan elde edilen bir alkaloid olup nikotinik reseptörlere değil, yalnızca \"muskarinik\" asetilkolin reseptörlerine bağlanan bir agonisttir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İris kaslarının embriyolojik orijini aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nöroektoderm",
+      "B": "Splanknik mezoderm",
+      "C": "İntermediyer mezoderm",
+      "D": "Ektomezenkim",
+      "E": "Somatik mezoderm"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Vücuttaki kas dokularının (iskelet, kalp ve düz kasların) neredeyse tamamı embriyolojik olarak \"mezoderm\" tabakasından gelişir. Ancak bu kuralın çok önemli istisnaları vardır: Gözde pupilla çapını ayarlayan \"iris kasları (m. sphincter pupillae ve m. dilatator pupillae)\", optik kadehin (diensefalon uzantısının) ön kenarındaki \"nöroektoderm\"den köken alır (ter bezleri, meme ve tükrük bezlerindeki miyoepitelyal hücreler ise yüzey ektoderminden köken alır).\nÇeldiriciler:\n- B) Splanknik mezoderm; kalp kasının (miyokardın) tamamını ve gastrointestinal sistem ile solunum yollarındaki visseral düz kasları oluşturur.\n- C) İntermediyer mezoderm; kas dokularını değil, ürogenital sistemi (böbrekler, üreterler ve gonadların stroması) oluşturur.\n- D) Ektomezenkim (nöral krest); gözde irisin stromasını ve siliyer kası (m. ciliaris) oluşturur, ancak irisin sfinkter ve dilatatör düz kasları doğrudan optik kadeh nöroektoderminden gelişir.\n- E) Somatik (ve paraksiyel/somitik) mezoderm; gövde ve ekstremitelerin çizgili iskelet kaslarını ve damar duvarı düz kaslarının bir kısmını oluşturur.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Düz kaslarda kasılmanın sonlandırılmasında aşağıdaki enzimlerden hangisi rol oynar?",
+    "options": {
+      "A": "Miyozin kinaz",
+      "B": "Miyozin hafif-zincir kinaz",
+      "C": "Miyozin fosfataz",
+      "D": "ATPaz",
+      "E": "Hafif zincir ATPaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Düz kasta kasılma; hücre içine giren $\\text{Ca}^{2+}$'un kalmoduline bağlanması ve oluşan $\\text{Ca}^{2+}$-kalmodulin kompleksinin \"Miyozin Hafif Zincir Kinaz (MLCK)\" enzimini aktive ederek miyozinin düzenleyici hafif zincirini fosforile etmesiyle başlar. Kasılmanın sonlandırılması (düz kasın gevşemesi) ise hücre içi $\\text{Ca}^{2+}$ düzeyi düştüğünde devreye giren \"Miyozin Fosfataz (Miyozin Hafif Zincir Fosfataz - MLCP)\" enziminin, miyozin hafif zincirindeki bu fosfat grubunu koparması (defosforilasyon) ile gerçekleşir. Nitrik oksit (cGMP/PKG yoluyla) ve Beta-2 agonistler (cAMP/PKA yoluyla) miyozin fosfataz aktivitesini artırarak düz kası gevşetirler.\nÇeldiriciler:\n- A) Miyozin kinaz; genel bir adlandırma olup fosforilasyon yaptığı için gevşemeyi değil kasılmayı tetikler.\n- B) Miyozin hafif-zincir kinaz (MLCK); kasılmanın sonlandırılmasında (gevşemede) değil, tam aksine miyozini fosforile ederek düz kas \"kasılmasının başlatılmasında\" görev alan anahtar enzimdir.\n- D) ATPaz; miyozin başındaki aktinle aktive olan ATPaz, çapraz köprü döngüsü sırasında enerji sağlamak için ATP'yi hidrolize eder, kasılmayı sonlandıran düzenleyici enzim değildir.\n- E) Hafif zincir ATPaz; fizyolojik terminolojide yer almayan çeldirici bir ifadedir; ATPaz aktivitesi miyozinin hafif zincirinde değil, globüler baş (ağır zincir) kısmındadır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi motor son plak potansiyellerinden sorumludur?",
+    "options": {
+      "A": "$\\text{Na}$-$\\text{K ATPaz}$ kanalları",
+      "B": "Voltaja bağlı $\\text{Na}$ kanalları",
+      "C": "Voltaja bağlı $\\text{Ca}$ kanalları",
+      "D": "$\\text{K}$ sızma kanalları",
+      "E": "Nikotinik reseptörler"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İskelet kası nöromüsküler kavşağında presinaptik motor sinir ucundan salınan asetilkolin (ACh), kas zarının özelleşmiş bölgesi olan motor son plaktaki \"Nikotinik ($\\text{N}_\\text{M}$ tipi) asetilkolin reseptörlerine\" bağlanır. Bu reseptörler aslında ligand (asetilkolin) kapılı non-spesifik katyon kanallarıdır. Kanal açıldığında elektrokimyasal gradiyent farkı çok büyük olduğu için hücre içine yoğun miktarda $\\text{Na}^+$ girer (az miktarda $\\text{K}^+$ çıkar); bu net pozitif yük girişinin motor son plakta oluşturduğu lokal depolarizasyona \"Motor Son Plak Potansiyeli (EPP)\" denir.\nÇeldiriciler:\n- A) $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$; bir kanal değil aktif taşıma pompasıdır, dinlenim zar potansiyelinin ve iyon gradiyentlerinin korunmasından sorumludur.\n- B) Voltaja bağlı $\\text{Na}^+$ kanalları; motor son plak potansiyelini (EPP) oluşturmaz; oluşan EPP eşik değere ulaştığında komşu sarkolemmadaki voltaja bağlı $\\text{Na}^+$ kanalları açılarak \"kas aksiyon potansiyelini\" başlatır ve T-tübülleri boyunca yayar.\n- C) Voltaja bağlı $\\text{Ca}^{2+}$ kanalları; presinaptik akson terminalinde açılarak asetilkolin veziküllerinin ekzositozunu sağlar (veya T-tübüllerde DHP reseptörü olarak görev yapar), postsinaptik EPP'yi doğrudan oluşturmaz.\n- D) $\\text{K}^+$ sızma kanalları; kas hücresinin dinlenim zar potansiyelinin (yaklaşık $-90\\text{ mV}$) oluşmasından sorumludur.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki sinir liflerinden hangisi, kas boyunun ani uzaması ile oluşan uyarıyı merkezi sinir sistemine taşır?",
+    "options": {
+      "A": "Ia",
+      "B": "Ib",
+      "C": "II",
+      "D": "III",
+      "E": "IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İskelet kasının içinde paralel yerleşmiş olan \"kas iğciği (muscle spindle)\", kasın boyunu (uzunluğunu) ve boyundaki değişim hızını algılayan proprioseptördür. Kas iğciğinin merkezindeki (ekvator bölgesindeki) çekirdek torbası ve çekirdek zinciri liflerini spiral şekilde saran primer (anulospiral) duyusal sonlanmalar, \"Grup Ia (A-alfa)\" afferent sinir lifleridir. Grup Ia lifleri vücuttaki en kalın ve iletim hızı en yüksek ($70-120\\text{ m/sn}$) duyusal liflerdir; özellikle kas boyunun \"ani (dinamik) uzaması\" ve gerilme hızı ile oluşan uyarıyı hızla medulla spinalise taşıyarak monosinaptik gerim (derin tendon) refleksini başlatırlar.\nÇeldiriciler:\n- B) Grup Ib lifleri; kas iğciğinden değil, tendonlarda yer alan \"Golgi tendon organından\" köken alır ve kasın boyunu değil, kas \"gerilimini (kuvvetini)\" merkezi sinir sistemine taşır.\n- C) Grup II (sekonder / çiçek demeti) lifleri; kas iğciğinin sadece statik çekirdek zinciri (ve statik torba) liflerinden köken alır; kasın ani uzama hızını (dinamik yanıtı) değil, yalnız sabit/sürekli (statik) kas boyunu taşır.\n- D) Grup III (A-delta) lifleri; ince miyelinli lifler olup kasta derin basınç, kaba dokunma ve hızlı/keskin ağrı ile soğuk duyusunu taşır.\n- E) Grup IV (C) lifleri; miyelinsiz ve en yavaş lifler olup yavaş/künt/yakıcı ağrı ve sıcak duyusunu taşır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Miyastenia gravis hastalığında oluşan otoantikorlar, aşağıdaki moleküllerden hangisinin reseptörünü tahrip eder?",
+    "options": {
+      "A": "Noradrenalin",
+      "B": "Anjiyotensin",
+      "C": "Vazopressin",
+      "D": "Asetilkolin",
+      "E": "Serotonin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Miyastenia gravis, iskelet kası nöromüsküler kavşağında (motor son plakta) postsinaptik sarkolemma üzerinde bulunan \"nikotinik asetilkolin (ACh) reseptörlerine\" (veya daha nadiren reseptör kümelenmesini sağlayan MuSK/LRP4 proteinlerine) karşı gelişen IgG tipi otoantikorların yol açtığı otoimmün bir hastalıktır. Otoantikorlar asetilkolin reseptörlerini bloke eder, endositozla yıkımını hızlandırır ve kompleman aracılı postsinaptik zar hasarı yapar. Sonuçta gün içinde ve tekrarlayan hareketlerle artan, dinlenmekle düzelen kas güçsüzlüğü ve çabuk yorulma (diplopi, ptozis, bulber güçsüzlük) gelişir; tedavisinde asetilkolinesteraz inhibitörleri (pridostigmin) kullanılır. (Not: Presinaptik voltaj bağımlı kalsiyum kanallarına karşı otoantikor gelişen ve hareket ettikçe kas gücünün arttığı hastalık ise Lambert-Eaton miyastenik sendromudur).\nÇeldiriciler:\n- A) Noradrenalin; sempatik sinir sisteminin postgangliyonik nörotransmitteridir, iskelet kası motor son plağında görev almaz.\n- B) Anjiyotensin; renin-anjiyotensin sisteminin vasküler düz kas ($\\text{AT}_1$) ve adrenal korteks üzerinde etkili peptid hormonudur.\n- C) Vazopressin (ADH); böbrek toplayıcı kanalları ($\\text{V}_2$) ve damar düz kası ($\\text{V}_1$) üzerinde etkili nörohipofiz hormonudur.\n- E) Serotonin (5-HT); merkezi sinir sistemi, trombositler ve gastrointestinal sistem enterokromaffin hücrelerinde görev alan monoamin nörotransmitterdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki reflekslerden hangisi monosinaptiktir?",
+    "options": {
+      "A": "Gerim refleksi",
+      "B": "Geri çekme refleksi",
+      "C": "Golgi tendon refleksi",
+      "D": "Çapraz ekstansör refleksi",
+      "E": "Kitle refleksi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İnsan vücudundaki \"tek gerçek monosinaptik refleks\", kas iğciğinden başlayan \"Gerim (gerilme / miyotatik / derin tendon) refleksi\"dir (örneğin patella ve aşil tendon refleksleri). Bu reflekste kasa vurulduğunda veya kas aniden uzadığında uyarılan kas iğciğinden çıkan Grup Ia afferent duyu nöronu, medulla spinalise arka kökten girer ve araya hiçbir ara nöron (internöron) girmeksizin ön boynuzdaki alfa motor nöronla \"tek bir sinaps (monosinaptik)\" yaparak aynı kasın (agonist kasın) kasılmasını sağlar.\nÇeldiriciler:\n- B) Geri çekme (fleksör / nosiseptif) refleksi; ağrılı uyarandan ekstremiteyi uzaklaştıran, omurilikte birden fazla ara nöron içeren \"polisinaptik\" bir reflekstir.\n- C) Golgi tendon refleksi (ters gerim / otojenik inhibisyon refleksi); aşırı gerilen tendondaki Golgi tendon organından çıkan Grup Ib liflerinin omurilikte \"inhibitör bir ara nöronla (glisinerjik)\" sinaps yapıp alfa motor nöronu inhibe ettiği \"disinaptik (iki sinapslı)\" bir reflekstir.\n- D) Çapraz ekstansör refleksi; ağrılı uyaranla bir bacak fleksiyona çekilirken karşı bacağın vücudu taşımak için ekstansiyona geldiği, çok sayıda komissüral ara nöron içeren \"polisinaptik\" bir reflekstir.\n- E) Kitle refleksi; omurilik kesisi sonrası spinal şoktan çıkan hastalarda küçük bir duyusal uyaranla tüm otonom ve motor yolların yaygın ateşlendiği polisinaptik patolojik bir reflekstir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İskelet kasında kalsiyumun sarkoplazmaya alınmasını sağlayan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Alfa adrenerjik reseptör",
+      "B": "SERCA proteini",
+      "C": "Nikotinik asetilkolin reseptörü",
+      "D": "Riyanodin reseptörü",
+      "E": "Muskarinik asetilkolin reseptörü"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İskelet kasında uyarılma-kasılma eşleşmesi (excitation-contraction coupling) sırasında, T-tübülleri boyunca yayılan aksiyon potansiyeli T-tübül zarındaki voltaj sensörü olan dihidropiridin (DHP) reseptörlerinde konformasyonel değişiklik yaratır. DHP reseptörü, kendisine fiziksel (mekanik) olarak bağlı olan ve sarkoplazmik retikulumun (SR) terminal sisterna membranında yer alan \"Riyanodin reseptörünü (RyR1)\" bir tıpa gibi çekerek açar. Riyanodin reseptörü aslında bir $\\text{Ca}^{2+}$ salınım kanalıdır; açıldığında SR lümeninde depolanmış olan kalsiyum ($\\text{Ca}^{2+}$) hızla sitoplazmaya (sarkoplazmaya) boşalır ve Troponin C'ye bağlanarak kasılmayı başlatır. (Riyanodin reseptörü mutasyonları anesteziklerle tetiklenen Malign Hipertermiye yol açar).\nÇeldiriciler:\n- A) Alfa-1 adrenerjik reseptör; iskelet kasında değil, damar düz kaslarında $\\text{G}_\\text{q}$-$\\text{IP}_3$ yolağı üzerinden kasılmayı sağlar.\n- B) SERCA (Sarkoplazmik/Endoplazmik Retikulum $\\text{Ca}^{2+}\\text{-ATPaz}$) proteini; kalsiyumu sarkoplazmaya salmaz, tam tersine gevşeme sırasında sarkoplazmadaki kalsiyumu ATP harcayarak sarkoplazmik retikulum içine geri pompalar.\n- C) Nikotinik asetilkolin reseptörü; motor son plakta hücre içine $\\text{Na}^+$ girişini sağlayarak lokal depolarizasyon (son plak potansiyeli) oluşturur.\n- E) Muskarinik asetilkolin reseptörü; otonom sinir sisteminin uyardığı düz kas, kalp kası ve bezlerde bulunur, çizgili iskelet kasında yer almaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Golgi tendon organının gerimindeki artış sonucu oluşan bilginin merkeze taşınmasını sağlayan lif tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ia",
+      "B": "Ib",
+      "C": "II",
+      "D": "III",
+      "E": "IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İskelet kası liflerinin tendonla birleştiği yerde kas liflerine \"seri\" olarak bağlanmış kapsüllü bir proprioseptör olan \"Golgi tendon organı\", kasın boyunu değil, kas kasıldığında veya pasif olarak aşırı gerildiğinde tendonda oluşan \"gerimi (gerilimi / kuvveti)\" algılar. Golgi tendon organındaki gerim artışı bilgisini medulla spinalise taşıyan afferent sinir lifi, kalın miyelinli ve hızlı iletimli olan \"Grup Ib\" duyusal lifleridir. Grup Ib lifleri omurilikte inhibitör ara nöronları uyararak ilgili kası gevşetir (ters gerim refleksi) ve kasın/tendonun aşırı yüklenerek kopmasını önler.\nÇeldiriciler:\n- A) Grup Ia lifleri; Golgi tendon organından değil, kas iğciğinin primer sonlanmalarından çıkar ve kasın uzama miktarını ve hızını taşır.\n- C) Grup II lifleri; kas iğciğinin sekonder sonlanmalarından çıkar (statik kas boyunu taşır) ve derideki dokunma/basınç reseptörlerinden (Meissner, Pacini, Merkel, Ruffini) bilgi taşır.\n- D) Grup III (A-delta) lifleri; hızlı/keskin ağrı, soğuk ve kaba dokunma duyularını taşır.\n- E) Grup IV (C) lifleri; miyelinsiz lifler olup yavaş/kronik ağrı, sıcak ve kaşıntı duyularını taşır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Düz kas hücrelerindeki dens plaklarda ince ve intermediyer filamanları sarkolemmaya bağlayan protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kalmodulin",
+      "B": "Alfa-aktinin",
+      "C": "Kaldesmon",
+      "D": "Kalponin",
+      "E": "Troponin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Düz kas hücrelerinde çizgili kaslardaki gibi Z çizgileri (Z diskleri) yoktur; bunun yerine sitoplazmada dağılmış \"yoğun cisimler (dense bodies)\" ve hücre zarının (sarkolemmanın) iç yüzüne tutunmuş \"yoğun plaklar (dense plaques)\" bulunur. Çizgili kastaki Z çizgilerinin homoloğu olan bu yoğun cisim ve plakların ana yapısal bağlayıcı proteini \"Alfa-aktinin ($\\alpha$-actinin)\"dir. Alfa-aktinin, hem kontraktil ince filamanları (aktin) hem de yapısal intermediyer (ara) filamanları (desmin ve vimentin) yoğun plaklar üzerinden sarkolemmaya bağlayarak kasılma kuvvetinin hücre zarına ve komşu hücrelere iletilmesini sağlar.\nÇeldiriciler:\n- A) Kalmodulin; sitozolde kalsiyum bağlayarak miyozin hafif zincir kinazı (MLCK) aktive eden düzenleyici proteindir, dens plaklarda filaman bağlamaz.\n- C) Kaldesmon; düz kasta ince filaman (aktin-tropomiyozin) üzerinde yer alan ve düşük $\\text{Ca}^{2+}$'da miyozin ATPaz aktivitesini inhibe eden düzenleyici proteindir.\n- D) Kalponin; kaldesmon gibi düz kas ince filamanlarına bağlanarak aktin-miyozin etkileşimini düzenleyen (inhibe eden) bir diğer proteindir.\n- E) Troponin; yalnızca çizgili kaslarda (iskelet ve kalp kasında) bulunur, düz kas hücrelerinde kesinlikle yer almaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki iyon kanallarından hangisi düz kas hücresinde aksiyon potansiyeli oluşumundan öncelikle sorumludur?",
+    "options": {
+      "A": "Ligand kapılı $\\text{Na}^+$",
+      "B": "Voltaja duyarlı $\\text{Na}^+$",
+      "C": "$\\text{K}^+$ sızdıranlar",
+      "D": "Ligand kapılı $\\text{Ca}^{2+}$",
+      "E": "Voltaja duyarlı $\\text{Ca}^{2+}$"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Sinir hücrelerinde ve çizgili iskelet kası liflerinde aksiyon potansiyelinin hızlı depolarizasyon (yükseliş) fazından voltaja duyarlı hızlı $\\text{Na}^+$ kanalları sorumluyken, düz kas hücrelerinin sarkolemmasında voltaja duyarlı $\\text{Na}^+$ kanalı çok azdır. Bunun yerine düz kas zarında çok fazla sayıda \"voltaja duyarlı (L-tipi / yavaş) $\\text{Ca}^{2+}$ kanalı\" bulunur. Dolayısıyla düz kasta (ve kalbin SA/AV düğüm hücrelerinde) aksiyon potansiyeli oluşumundan (depolarizasyondan) öncelikle hücre dışından içeriye doğru gerçekleşen \"voltaja duyarlı $\\text{Ca}^{2+}$ kanalı\" akımı sorumludur; içeri giren bu kalsiyum aynı zamanda doğrudan kasılmayı da başlatır.\nÇeldiriciler:\n- A) Ligand kapılı $\\text{Na}^+$ kanalları; lokal zar potansiyeli değişiklikleri (kavşak potansiyelleri) oluşturabilir ancak aksiyon potansiyelinin rejeneratif yükseliş fazından voltaja duyarlı $\\text{Ca}^{2+}$ kanalları sorumludur.\n- B) Voltaja duyarlı $\\text{Na}^+$ kanalları; nöron, iskelet kası ve ventrikül çalışma miyokardında aksiyon potansiyeli depolarizasyonundan sorumludur; düz kasta katkısı minimaldir.\n- C) $\\text{K}^+$ sızdıran kanallar; aksiyon potansiyeli oluşumundan değil, dinlenim zar potansiyelinin (düz kasta yaklaşık $-50$ ile $-60\\text{ mV}$) oluşmasından sorumludur.\n- D) Ligand kapılı $\\text{Ca}^{2+}$ kanalları; hormon veya nörotransmitterlerle uyarıldığında aksiyon potansiyeli olmaksızın (farmakomekanik eşleşme ile) hücre içine kalsiyum girişine katkıda bulunur; ancak \"aksiyon potansiyeli oluşumu\" voltaj bağımlı bir süreç olduğu için doğrudan voltaja duyarlı $\\text{Ca}^{2+}$ kanallarıyla gerçekleşir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi iskelet kası hücrelerinde bulunmaz?",
+    "options": {
+      "A": "Troponin",
+      "B": "Nebulin",
+      "C": "Alfa interneksin",
+      "D": "Alfa aktinin",
+      "E": "Desmin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Alfa-interneksin ($\\alpha$-internexin), kas dokusunda bulunan bir protein değildir; merkezi sinir sistemindeki gelişmekte olan ve olgun \"nöronların\" aksonlarında nörofilament üçlüsüyle (NF-L, NF-M, NF-H) birlikte hücre iskeletini oluşturan nörona özgü (Tip IV) bir ara filaman proteinidir. İskelet kası hücrelerinde bulunmaz.\nÇeldiriciler:\n- A) Troponin (TnC, TnI, TnT); iskelet kası ince filamanlarında tropomiyozin boyunca düzenli aralıklarla yerleşen ve $\\text{Ca}^{2+}$ bağlayarak kasılmayı başlatan düzenleyici protein kompleksidir.\n- B) Nebulin; iskelet kasında Z çizgisinden başlayıp F-aktin filamanı boyunca uzanan, aktin filamanının uzunluğunu sabitleyen (\"moleküler cetvel\" görevi gören) esnek olmayan büyük sarkomer proteinidir.\n- D) Alfa-aktinin; iskelet kasında Z çizgisinde (diskinde) yerleşerek ince filamanları (aktinleri) birbirine çapraz bağlayan ve Z çizgisine demirleyen proteindir.\n- E) Desmin; iskelet kasının kendine özgü ara (intermediyer) filaman proteinidir; komşu miyofibrillerin Z disklerini birbirine ve sarkolemmaya bağlayarak sarkomerlerin aynı hizada kalmasını sağlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki kas proteinlerinden hangisi hem düz kasların hem de hızlı tip iskelet kaslarının kasılmasında rol oynar?",
+    "options": {
+      "A": "Miyozin hafif zincir kinaz",
+      "B": "Troponin",
+      "C": "Kalmodulin",
+      "D": "Fosfolamban",
+      "E": "Aktin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Aktin (ve miyozin), vücuttaki tüm kas tiplerinin (hızlı/yavaş iskelet kası, kalp kası ve tek/çok üniteli düz kas) kasılmasında ortak olarak görev alan en temel kontraktil proteindir. Hem düz kasta hem de hızlı tip iskelet kasında ince filamanların ana omurgasını \"aktin\" oluşturur ve kalın filaman olan miyozin başlarının aktin üzerindeki aktif bölgelere bağlanıp kaymasıyla (çapraz köprü döngüsü) kasılma gerçekleşir.\nÇeldiriciler:\n- A) Miyozin hafif zincir kinaz (MLCK); düz kasta kasılmayı başlatan temel enzimdir; iskelet kasında ise kasılma troponin-tropomiyozin sistemiyle başladığı için MLCK temel başlatıcı değildir (sadece kasılma kuvvetini modüle eder).\n- B) Troponin; hızlı ve yavaş tip iskelet kasları ile kalp kasında bulunur, ancak düz kaslarda kesinlikle bulunmaz.\n- C) Kalmodulin; düz kasta $\\text{Ca}^{2+}$ bağlayarak kasılmayı başlatan ana proteindir; iskelet kasında ise kasılmayı başlatan kalsiyum bağlayıcı protein kalmodulin değil, Troponin C'dir.\n- D) Fosfolamban; esas olarak kalp kasında (ve yavaş iskelet/düz kasta) sarkoplazmik retikulumdaki SERCA pompasını inhibe eden, sempatik uyarıyla (PKA ile) fosforile olduğunda ise bu inhibisyonu kaldırarak SERCA'yı hızlandıran (pozitif luzitropik etki yapan) düzenleyici proteindir; hızlı tip (Tip II) iskelet kaslarında ekspresyonu yoktur.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Motor nöronu aracılığıyla kası tetanize edecek frekansta uyarı göndermek\nII. Kas lifleriyle sinaps yapan daha fazla sayıda motor nöronu uyarmak\nIII. Egzersiz sırasında motor nörondan salgılanan asetilkolinin miktarını arttırmak\n\nSağlıklı bir bireyde, biseps kasının oluşturduğu gücü artırmak için aşağıdakilerden hangilerini uygulamak etkili olur?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İskelet kasında kasılma kuvvetinin (gücünün) artırılması fizyolojik olarak \"sumasyon (birikim)\" adı verilen iki temel mekanizma ile sağlanır:\n1) **Frekans sumasyonu (Temporal sumasyon) ve Tetanizasyon (I):** Motor nörondan gönderilen uyarı sıklığı (frekansı) artırıldığında, kas lifi gevşemeye fırsat bulamadan yeni kasılmalar üst üste biner, sitoplazmada $\\text{Ca}^{2+}$ birikir ve kasılma gücü maksimuma (tetaniye) ulaşır.\n2) **Multipl lif sumasyonu (Motor ünite katılımı / Uzaysal sumasyon) (II):** Merkezi sinir sistemi önce küçük, ardından giderek daha büyük motor nöronları (Henneman boyut ilkesi) devreye sokarak aynı anda kasılan motor ünite ve kas lifi sayısını artırır.\nÖncüllerin Analizi:\n- I. Motor nöronu aracılığıyla kası tetanize edecek frekansta uyarı göndermek: Frekans sumasyonu yoluyla tek bir motor ünitenin ürettiği kuvveti 3-4 katına kadar artırır (Doğru).\n- II. Kas lifleriyle sinaps yapan daha fazla sayıda motor nöronu uyarmak: Aktif motor ünite sayısını (recruitment) artırarak tüm kasın ürettiği toplam gücü doğrudan artırır (Doğru).\n- III. Egzersiz sırasında motor nörondan salgılanan asetilkolinin miktarını arttırmak: Sağlıklı bir bireyde nöromüsküler kavşakta zaten yüksek bir \"güvenlik faktörü\" vardır; yani motor nörondan gelen her bir aksiyon potansiyeli, kas lifinde eşik değerin çok üzerinde asetilkolin salgılatarak %100 olasılıkla bir kas aksiyon potansiyeli başlatır (\"ya hep ya hiç\" yasası). Dolayısıyla tek bir uyarıda salınan asetilkolin miktarını daha da artırmak, oluşan kas aksiyon potansiyelinin genliğini veya kasılma gücünü artırmaz (Yanlış).\nÇeldiriciler:\n- A) Yalnız III seçeneği, nöromüsküler kavşağın \"ya hep ya hiç\" ve güvenlik faktörü ilkesine aykırı olduğu için yanlıştır.\n- C) I. öncül doğru, ancak III. öncül yanlış olduğu için hatalıdır.\n- D) II. öncül doğru, ancak III. öncül yanlış olduğu için hatalıdır.\n- E) III. öncülü içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ölüm katılığına (rigor mortis) yol açan temel fizyopatolojik mekanizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nöromüsküler kavşaklarda uyarıların sonlandırılamaması",
+      "B": "Depolarizasyonun kas lifi boyunca ilerleyememesi",
+      "C": "Kalsiyumun sarkoplazmik retikuluma geri alınamaması",
+      "D": "Troponin C'ye yeterli kalsiyum bağlanamaması",
+      "E": "Aktin-miyozin çapraz köprüsünün ayrılamaması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İskelet kası kasılmasında miyozin başı aktine bağlanıp ADP ve $\\text{P}_\\text{i}$'yi salarak güç vuruşunu (kasılmayı) yaptıktan sonra, aktin ile miyozin arasında çok sıkı ve kararlı bir \"rigor kompleksi\" oluşur. Bu çapraz köprünün çözülüp miyozin başının aktinden ayrılabilmesi için miyozin başına mutlaka yeni bir ATP molekülünün bağlanması gerekir. Ölümden sonra hücre içi ATP üretimi durup mevcut ATP tükendiğinde, miyozin başlarına bağlanacak ATP bulunamaz ve \"aktin-miyozin çapraz köprüleri birbirinden ayrılamaz\". Ölüm katılığına (rigor mortis) doğrudan yol açan temel mekanizma budur.\nÇeldiriciler:\n- A) Nöromüsküler kavşakta uyarıların sonlandırılamaması (örneğin organofosfat zehirlenmesinde ACh birikimi) canlı bireyde fasikülasyon ve spastik felç yapar; rigor mortis sinirsel uyarıdan bağımsızdır.\n- B) Depolarizasyonun kas lifi boyunca ilerleyememesi kasın hiç kasılamamasına (gevşek felce) yol açar, katılık yapmaz.\n- C) Kalsiyumun sarkoplazmik retikuluma geri alınamaması rigor mortis sürecine katkıda bulunan ikincil bir faktördür, ancak çapraz köprülerin kilitli kalmasının (sertliğin) en temel ve doğrudan mekanizması miyozin başının ATP yokluğunda aktinden ayrılamamasıdır (E şıkkı).\n- D) Troponin C'ye yeterli kalsiyum bağlanamaması durumunda tropomiyozin aktif bölgeleri kapatır ve kas gevşek kalır, rigor oluşmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi iskelet kası miyozinini Z çizgisine bağlayan ve aynı zamanda sarkomere esneklik vererek yapıyı koruyan iskelet proteinidir?",
+    "options": {
+      "A": "Titin",
+      "B": "Alfa aktinin",
+      "C": "Tropomiyozin",
+      "D": "Tropomodulin",
+      "E": "CapZ"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Titin, çizgili kas sarkomerinde Z çizgisinden M çizgisine kadar uzanan dev (molekül ağırlığı $\\sim 3.000\\text{ kDa}$) ve katlanmış polipeptit bölgeleri sayesinde çok esnek bir yapısal proteindir. Bir ucuyla kalın filaman olan \"miyozini Z çizgisine bağlayarak\" sarkomerin ortasında dengede tutarken, diğer yandan bir yay gibi esneyerek sarkomere pasif gerilim ve esneklik kazandırır; sarkomerin aşırı gerilerek dağılmasını önler.\nÇeldiriciler:\n- B) Alfa-aktinin; miyozini değil, ince filaman olan \"aktinleri\" Z çizgisine bağlayan ve esneklikten ziyade sabit ankraj sağlayan proteindir.\n- C) Tropomiyozin; F-aktin çift sarmalının oluğuna yerleşen ve dinlenim halinde aktin üzerindeki miyozin bağlanma bölgelerini kapatan ince filaman proteinidir.\n- D) Tropomodulin; ince filamanın (aktinin) sarkomerin ortasına (M çizgisine) bakan eksi (-) ucuna bağlanarak aktin filamanının boyunun uzamasını veya kısalmasını önleyen şapka proteinidir.\n- E) CapZ; ince filamanın (aktinin) artı (+) ucunu Z çizgisine bağlayan ve polimerizasyonu/depolimerizasyonu engelleyen başlık proteinidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İskelet kasının kasılması sırasında hücre içi ATP ihtiyacı aşağıdaki tepkimelerden hangisinin diğerlerine göre daha önce devreye girmesiyle sağlanır?",
+    "options": {
+      "A": "Kreatin fosfattan ATP sentezi",
+      "B": "Anaerobik yoldan ATP sentezi",
+      "C": "Aerobik yoldan ATP sentezi",
+      "D": "Serbest yağ asitlerinden ATP sentezi",
+      "E": "Proteinlerden ATP sentezi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İskelet kasında mevcut serbest ATP deposu kasılmayı yalnızca ilk 1-2 saniye sürdürebilir. Kasılma başladığında tükenen ATP'yi saniyeler içinde ve \"en hızlı (diğer tüm yollardan daha önce)\" yenileyen enerji sistemi **Fosfajen sistemi (ATP-Kreatin Fosfat sistemi)**'dir. Sitoplazmadaki yüksek enerjili fosfat bağlarına sahip Kreatin Fosfat (fosfokreatin), \"kreatin kinaz (kreatin fosfokinaz)\" enzimi aracılığıyla tek basamaklı çok hızlı bir reaksiyonla fosfat grubunu ADP'ye aktararak anında ATP sentezler (bu sistem maksimum egzersizi ilk 8-10 saniye boyunca destekler).\nÇeldiriciler:\n- B) Anaerobik yoldan (glikojen-laktik asit sistemi / glikoliz) ATP sentezi; fosfajen sisteminden sonra \"ikinci sırada\" devreye girer ve 1-2 dakikalık yoğun egzersizlerde (örneğin 400 m koşu) ana enerji kaynağı olur.\n- C) Aerobik yoldan (mitokondriyal oksidatif fosforilasyon) ATP sentezi; oksijen taşınması ve çok basamaklı reaksiyonlar gerektirdiği için \"en geç\" devreye girer, ancak uzun süreli egzersizlerde (maraton gibi) saatlerce sürdürülebilen en verimli yoldur.\n- D) Serbest yağ asitlerinden (beta-oksidasyon ile) ATP sentezi; aerobik metabolizmanın bir parçası olup özellikle uzamış egzersizlerde ve dinlenimde kullanılan yavaş bir yoldur.\n- E) Proteinlerden (aminoasit oksidasyonu ile) ATP sentezi; fizyolojik egzersizde en son ve en az tercih edilen enerji kaynağıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İskelet kası sinir-kas kavşağı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Nikotinik kolinerjik reseptörlerin uyarılması sadece $\\text{Na}$ geçirgenliğini artırır.",
+      "B": "Bir son plak potansiyeli kasta aksiyon potansiyeli oluşturabilir.",
+      "C": "Asetilkolin esteraz sadece presinaptik membranda bulunur.",
+      "D": "Organofosfatlar asetilkolinin hızlı parçalanmasına yol açar.",
+      "E": "Kürar asetilkolin esterazın aktivitesini artırır."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Merkezi sinir sistemindeki sinapslarda tek bir eksitatör postsinaptik potansiyel (EPSP) genellikle sadece $0,5-1\\text{ mV}$'luk bir depolarizasyon yapar ve aksiyon potansiyeli oluşturmak için onlarca EPSP'nin sumasyonu gerekir. Buna karşılık, iskelet kası sinir-kas (nöromüsküler) kavşağı \"bire bir (1:1)\" çalışan çok yüksek güvenlik faktörüne sahip bir sinapstır: Motor nörondan gelen tek bir uyarıda yaklaşık 125 vezikülden yüz binlerce asetilkolin molekülü salınır ve oluşan \"tek bir motor son plak potansiyeli (EPP)\" zarı yaklaşık $40-50\\text{ mV}$ depolarize ederek eşik değerin çok üzerine çıkarır ve kas lifinde tek başına bir aksiyon potansiyeli oluşturabilir.\nÇeldiriciler:\n- A) Nikotinik kolinerjik ($\\text{N}_\\text{M}$) reseptörler sadece $\\text{Na}^+$'a özgü değildir; hem $\\text{Na}^+$ hem de $\\text{K}^+$ (ve az miktarda $\\text{Ca}^{2+}$) geçirgenliğini artıran non-spesifik katyon kanallarıdır ($\\text{Na}^+$ için elektrokimyasal itici güç çok daha büyük olduğundan net $\\text{Na}^+$ girişi baskındır).\n- C) Asetilkolinesteraz (AChE) enzimi sadece presinaptik membranda değil, esas olarak sinaptik aralıktaki bazal laminada ve postsinaptik kavşak kıvrımlarının yüzeyinde yoğun olarak bulunur.\n- D) Organofosfatlar (tarım ilaçları ve sinir gazları), asetilkolinesteraz enzimini geri dönüşümsüz (irreversibl) olarak inhibe eder; dolayısıyla asetilkolinin hızlı parçalanmasına değil, parçalanamayıp sinaptik aralıkta aşırı birikmesine (kolinerjik krize) yol açar.\n- E) Kürar (d-tübokürarin), asetilkolinesteraz enzimi üzerinde etkili değildir; postsinaptik nikotinik reseptörleri bloke eden yarışmalı bir reseptör antagonistidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İskelet kasında aşağıdaki basamaklardan hangisinin oluşumu ATP'nin ilgili moleküle bağlanması ile gerçekleşir?",
+    "options": {
+      "A": "Sarkoplazmik retikulumdan sarkoplazmaya $\\text{Ca}$ çıkışı",
+      "B": "Troponin C'nin $\\text{Ca}$ ile bağlanması",
+      "C": "Aktinin aktif bölgelerinin açılması",
+      "D": "Troponin I'nın aktin ile bağlanması",
+      "E": "Miyozin başının aktinden ayrılması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Çapraz köprü döngüsünde güç vuruşunu tamamlayan miyozin başı, nükleotidsiz halde aktine sıkıca bağlıdır (rigor durumu). Bu aşamada \"ATP molekülünün miyozin başındaki ATP bağlanma bölgesine doğrudan bağlanması\" (henüz hidrolize olmadan, sadece bağlanması), miyozin başının aktine olan afinitesini anında düşürür ve **miyozin başının aktinden ayrılmasını** sağlar. Hemen ardından miyozin başındaki ATPaz enzimi bu ATP'yi $\\text{ADP} + \\text{P}_\\text{i}$'ye hidrolize ederek miyozin başını tekrar dik konuma (\"kurulmuş horoz\" pozisyonuna) getirir.\nÇeldiriciler:\n- A) Sarkoplazmik retikulumdan sarkoplazmaya $\\text{Ca}^{2+}$ çıkışı; ATP bağlanmasıyla değil, dihidropiridin reseptörünün riyanodin kanalını mekanik olarak açmasıyla konsantrasyon gradiyenti yönünde pasif olarak gerçekleşir (ATP, kalsiyumun SERCA ile SR'ye geri alınmasında harcanır).\n- B) Troponin C'nin $\\text{Ca}^{2+}$ ile bağlanması; sitozolde artan kalsiyum konsantrasyonuna bağlı doğrudan iyonik bağlanmadır, ATP bağlanması gerektirmez.\n- C) Aktinin aktif bölgelerinin açılması; $\\text{Ca}^{2+}$ bağlayan Troponin C'nin konformasyon değiştirerek tropomiyozini oluktan çekmesiyle gerçekleşir, ATP gerektirmez.\n- D) Troponin I'nın aktin ile bağlanması; dinlenim halinde (düşük $\\text{Ca}^{2+}$ ortamında) kasılmayı inhibe eden doğal durumdur, ATP bağlanmasıyla oluşmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi düz kasta kasılma işlevinde görev alan bir yapıdır?",
+    "options": {
+      "A": "Sarkomer",
+      "B": "Kaveola",
+      "C": "Fasya adherens",
+      "D": "T tübülleri",
+      "E": "Diskus interkalaris"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Düz kas hücrelerinde çizgili kaslarda bulunan transvers (T) tübül sistemi yoktur. Bunun yerine düz kas hücre zarında (sarkolemmada) hücre içine doğru küçük cep veya kesecik şeklinde çökmüş çok sayıda zar invajinasyonu olan **\"Kaveolalar (Caveolae)\"** bulunur. Kaveolalar, sarkoplazmik retikulum sarnıçlarına çok yakın yerleşir ve bol miktarda voltaj kapılı $\\text{Ca}^{2+}$ kanalı barındırır; bu sayede çizgili kastaki T-tübüllerinin ilkel/fonksiyonel karşılığı (rudimenter analogu) olarak görev yaparak uyarının hücre içine iletilmesini ve kalsiyum girişini sağlarlar.\nÇeldiriciler:\n- A) Sarkomer; iki Z çizgisi arasında kalan, aktin ve miyozinin düzenli dizildiği en küçük kasılma birimidir; yalnızca çizgili kaslarda (iskelet ve kalp kası) bulunur, düz kasta sarkomer ve enine çizgilenme yoktur.\n- C) Fasya adherens; kalp kası hücrelerini uç uca bağlayan interkalar disklerin transvers kısmında yer alan ve aktin filamanlarının tutunduğu bağlantı yapısıdır.\n- D) T tübülleri; yalnızca iskelet kasında (A-I bandı sınırında) ve kalp kasında (Z çizgisi hizasında) bulunan derin sarkolemma tübülleridir; düz kasta bulunmaz.\n- E) Diskus interkalaris; yalnızca kalp kası (miyokard) hücrelerini birbirine bağlayan basamak tarzındaki özel bağlantı kompleksidir (desmozom, fasya adherens ve gap junction içerir).",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İskelet kası sarkolemmasında bulunan transvers tübüllerin görevi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hücre dışı sıvıdaki kalsiyum iyonlarının hücreye girişini sağlamak",
+      "B": "Kas hücresine sodyum iyonlarının girişini sağlamak",
+      "C": "Aksiyon potansiyelinin dihidropiridin reseptörlerine ulaşmasını sağlamak",
+      "D": "Asetilkolinin geri emilimini sağlamak",
+      "E": "Hücre içinde kalsiyum iyonlarını depolamak"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İskelet kası lifleri oldukça kalın ($10-100\\ \\mu\\text{m}$ çapında) olduğu için, sadece yüzey zarında yayılan bir aksiyon potansiyeli kasın merkezindeki miyofibrilleri eşzamanlı olarak uyaramaz. Sarkolemmanın kas lifinin derinliklerine doğru dik olarak yaptığı borucuk şeklindeki uzantılar olan \"Transvers tübüller (T-tübülleri)\", yüzeyde başlayan **aksiyon potansiyelini hızla kas lifinin en derin noktalarına ve T-tübül zarında yerleşmiş olan voltaj sensörü \"dihidropiridin (DHP) reseptörlerine\" ulaştırmakla** görevlidir. DHP reseptörleri de SR üzerindeki riyanodin kanallarını mekanik olarak açarak tüm miyofibrillerin aynı anda kasılmasını sağlar.\nÇeldiriciler:\n- A) Hücre dışı sıvıdaki $\\text{Ca}^{2+}$ iyonlarının hücreye girişi kalp kasında ve düz kasta önemlidir; ancak iskelet kasında DHP reseptörü bir kanal olarak dışarıdan $\\text{Ca}^{2+}$ sokmak yerine, doğrudan mekanik kenetlenmeyle SR'deki riyanodin kanalını açar (iskelet kası hücre dışı $\\text{Ca}^{2+}$ olmadan da kasılabilir).\n- B) Kas hücresine $\\text{Na}^+$ girişi motor son plakta nikotinik reseptörlerle ve sarkolemmadaki voltaj kapılı $\\text{Na}^+$ kanallarıyla aksiyon potansiyelini oluşturmak içindir; T-tübülünün özel yapısal varlık nedeni bu oluşan aksiyon potansiyelini derinlerdeki DHP reseptörlerine iletmektir.\n- D) Sinaptik aralıkta asetilkolin geri emilmez; asetilkolinesteraz ile kolin ve asetata parçalanır ve presinaptik sinir ucuna sadece \"kolin\" geri alınır.\n- E) Hücre içinde kalsiyum iyonlarını depolamak T-tübüllerinin (içi ekstraselüler sıvı ile doludur) değil, \"sarkoplazmik retikulumun (terminal sisternaların)\" görevidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi düz kas dokusunda bulunmaz?",
+    "options": {
+      "A": "Kaveol",
+      "B": "Yoğun cisimcik",
+      "C": "Aktin",
+      "D": "Troponin",
+      "E": "Eksternal lamina"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Düz kas hücrelerinde ince filamanlar aktin ve tropomiyozin (ayrıca kaldesmon ve kalponin) içerir; ancak çizgili kaslarda (iskelet ve kalp kası) kasılmayı düzenleyen **\"Troponin\" kompleksi düz kas dokusunda kesinlikle bulunmaz**. Düz kasta kalsiyum Troponin C'ye değil, sitozolik bir protein olan \"kalmodulin\"e bağlanır.\nÇeldiriciler:\n- A) Kaveol (kaveola); düz kas hücre zarında T-tübüllerinin yerini tutan ve kalsiyum girişinde rol oynayan veziküler zar çöküntüleridir.\n- B) Yoğun cisimcik (dense body); düz kas sitoplazmasında çizgili kastaki Z çizgilerinin karşılığı olan, alfa-aktinin içeren ve aktin ile ara filamanların tutunduğu yapılardır.\n- C) Aktin; düz kasta miyozin ile etkileşerek kasılmayı gerçekleştiren temel ince filaman proteinidir.\n- E) Eksternal lamina; her bir düz kas hücresini dıştan çepeçevre saran, Tip IV kollajen ve lamininden oluşan bazal lamina benzeri kılıftır (sadece gap junction bölgelerinde kesintiye uğrar).",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gama motor nöronun innerve ettiği yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ekstrafüzial iskelet kası lifleri",
+      "B": "İntrafüzial iskelet kası lifleri",
+      "C": "Tek üniteli düz kas lifleri",
+      "D": "Çok üniteli düz kas lifleri",
+      "E": "Renshaw hücreleri"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Medulla spinalis ön boynuzunda iki tip somatik motor nöron bulunur:\n1) **Alfa ($\\alpha$) motor nöronlar (A$\\alpha$ lifleri):** Kasın asıl kasılma gücünü üreten büyük \"ekstrafüzial iskelet kası liflerini\" innerve eder.\n2) **Gama ($\\gamma$) motor nöronlar (A$\\gamma$ lifleri):** Kas iğciğinin kapsülü içinde yer alan özelleşmiş küçük kas lifleri olan **\"intrafüzial iskelet kası liflerinin\"** (çekirdek torbası ve çekirdek zinciri liflerinin) kasılabilen uç (polar) kısımlarını innerve eder. Gama motor nöronlar, ekstrfüzial kas kısalırken kas iğciğinin orta (duyusal) kısmını gergin tutarak kas iğciğinin duyarlılığını korur (alfa-gama koaktivasyonu).\nÇeldiriciler:\n- A) Ekstrafüzial iskelet kası lifleri; gama motor nöronlar tarafından değil, kalın miyelinli \"alfa motor nöronlar\" tarafından innerve edilir.\n- C) Tek üniteli (visseral) düz kas lifleri; somatik motor nöronlarla (alfa/gama) değil, \"otonom sinir sistemi\"nin postgangliyonik otonom lifleriyle (varikozitelerle) innerve edilir.\n- D) Çok üniteli düz kas lifleri (iris, piloerektör kaslar); otonom sinir sistemi lifleri tarafından innerve edilir.\n- E) Renshaw hücreleri; medulla spinalis ön boynuzunda bulunan ve \"alfa motor nöronların\" akson kollateralleri tarafından uyarılan (asetilkolin ile), ardından aynı alfa motor nöronu glisin salgılayarak inhibe eden (rekürren/lateral inhibisyon) inhibitör ara nöronlardır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi iskelet kası sarkoplazmik retikulum lümeninde $\\text{Ca}$ bağlayan proteindir?",
+    "options": {
+      "A": "Troponin",
+      "B": "Kalsekestrin",
+      "C": "Dihidropiridin",
+      "D": "Riyanodin",
+      "E": "İnozitol trifosfat"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İskelet ve kalp kasında sarkoplazmik retikulumun (SR) terminal sisterna lümeni içinde yüksek miktarda bulunan ve düşük afiniteyle ancak çok yüksek kapasiteyle (her bir molekülü 40-50 adet $\\text{Ca}^{2+}$ iyonu bağlayabilir) kalsiyum depolayan asidik protein **\"Kalsekestrin (Calsequestrin)\"**dir. Kalsekestrin, SR içine pompalanan $\\text{Ca}^{2+}$ iyonlarını bağlayarak SR lümenindeki serbest $\\text{Ca}^{2+}$ konsantrasyonunu düşürür; böylece SERCA pompasının karşılaştığı konsantrasyon gradiyentini azaltarak SR içinde devasa miktarda kalsiyumun kolayca depolanmasını sağlar.\nÇeldiriciler:\n- A) Troponin (Troponin C); SR lümeninde değil, sitoplazmadaki (sarkoplazmadaki) ince filamanlar üzerinde yer alır ve kasılma sırasında sitozole salınan $\\text{Ca}^{2+}$'u bağlar.\n- C) Dihidropiridin (DHP) reseptörü; T-tübül membranında yer alan voltaj duyarlı L-tipi kalsiyum kanalı (voltaj sensörü) proteinidir.\n- D) Riyanodin reseptörü; SR membranında yerleşen ve kalsiyumun SR'den sitoplazmaya çıkışını sağlayan dev kalsiyum salınım kanalıdır.\n- E) İnozitol trifosfat ($\\text{IP}_3$); protein değil, fosfolipaz C tarafından üretilen ve düz kas/endokrin hücrelerde ER'den kalsiyum salınımını sağlayan ikincil haberci moleküldür.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İskelet kası hücresinde ATP tükenirse çapraz köprü döngüsü hangi aşamada kalır?",
+    "options": {
+      "A": "Aktin üzerindeki miyozin bağlama bölgesi, tropomiyozin ile örtülü kalır.",
+      "B": "Miyozin başı, aktindeki bağlanma bölgesinde bağlı kalır.",
+      "C": "Miyozin başı, bükülerek kürek çekme hareketini yapamadan ayrılır.",
+      "D": "Miyozin başı enerjilenir; ancak aktine bağlanamaz.",
+      "E": "Hücre içi $\\text{Ca}$ düzeyi düşük kalır."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Çapraz köprü döngüsünde miyozin başı aktine bağlanıp güç vuruşunu (kürek çekme hareketini) yaptıktan ve ADP ile $\\text{P}_\\text{i}$ ayrıldıktan sonra, miyozin başının aktin üzerindeki bağlanma bölgesinden kopup ayrılabilmesi için miyozin başına yeni bir ATP molekülünün bağlanması gerekir. Kas hücresinde ATP tamamen tükenirse (örneğin ölüm sonrasında / rigor mortis durumunda veya ağır iskemik kontraktürde), miyozin başı aktinden kopamaz ve **\"miyozin başı, aktindeki bağlanma bölgesinde sıkıca bağlı (kilitli) kalır\"**.\nÇeldiriciler:\n- A) ATP tükendiğinde SERCA pompası da çalışamadığı için sitozolde $\\text{Ca}^{2+}$ yüksek kalır; $\\text{Ca}^{2+}$ Troponin C'ye bağlandığı için tropomiyozin çekilmiştir ve bağlanma bölgeleri örtülü değil açıktır.\n- C) Miyozin başının aktinden ayrılması için ATP gerektiği için, ATP yokluğunda miyozin başı aktinden kesinlikle ayrılamaz.\n- D) Miyozin başının enerjilenmesi (kurulması) ATP'nin hidroliziyle olur; ATP tükendiğinde miyozin başı enerjilenemez ve aktinden ayrılamadığı için bağlı kalır.\n- E) ATP tükendiğinde $\\text{Ca}^{2+}\\text{-ATPaz}$ (SERCA) pompaları durduğu için kalsiyum SR'ye geri pompalanamaz ve hücre içi $\\text{Ca}^{2+}$ düzeyi düşük değil, çok yüksek kalır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I) Kalsiyum, hem sarkoplazmik retikulum hem de ekstraselüler sıvıdan sitoplazma içerisine geçer.\nII) Kasılma, aksiyon potansiyeli oluşmadan da gerçekleşebilir.\nIII) Kalsiyum–kalmodulin kompleksi, miyozin hafif zincir kinazı aktive eder.\n\nÇok üniteli düz kaslarla ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve III",
+      "B": "I ve II",
+      "C": "II ve III",
+      "D": "I, II ve III",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Çok üniteli (multi-ünit) düz kaslar (iris kasları, siliyer kas, piloerektör kaslar ve büyük damar düz kasları) birbirlerinden bağımsız ayrı liflerden oluşur ve aralarında gap junction (sinsityal yapı) bulunmaz; ancak hücre içi kasılma mekanizması açısından düz kasların tüm temel biyokimyasal özelliklerini taşırlar. Dolayısıyla verilen her üç ifade de çok üniteli düz kaslar için doğrudur.\nÖncüllerin Analizi:\n- I) Kalsiyum, hem sarkoplazmik retikulum hem de ekstraselüler sıvıdan sitoplazma içerisine geçer: Düz kaslarda SR az gelişmiştir; bu nedenle kasılma için gereken $\\text{Ca}^{2+}$'un büyük kısmı ekstraselüler sıvıdan (kaveolalardaki kanallardan) ve bir kısmı da SR'den ($\\text{IP}_3$ kapılı kanallarla) sitoplazmaya girer (Doğru).\n- II) Kasılma, aksiyon potansiyeli oluşmadan da gerçekleşebilir: Özellikle çok üniteli düz kaslar (iris ve piloerektör kaslar gibi) boyutları çok küçük olduğu için normalde aksiyon potansiyeli oluşturmadan, otonom sinir uçlarından salınan nörotransmitterlerin (ACh veya noradrenalin) oluşturduğu lokal depolarizasyonla (kavşak potansiyeli) veya $\\text{IP}_3$ aracılı farmakomekanik eşleşme ile doğrudan kasılabilirler (Doğru).\n- III) Kalsiyum–kalmodulin kompleksi, miyozin hafif zincir kinazı aktive eder: Tüm düz kaslarda (hem tek üniteli hem çok üniteli) troponin yoktur; sitoplazmaya giren $\\text{Ca}^{2+}$ kalmoduline bağlanır ve bu kompleks miyozin hafif zincir kinazı (MLCK) aktive ederek miyozini fosforile eder ve kasılmayı başlatır (Doğru).\nÇeldiriciler:\n- A) II. öncül özellikle çok üniteli düz kasların en karakteristik elektrofizyolojik özelliği olduğu için bu şık eksiktir.\n- B) III. öncül tüm düz kasların temel kasılma mekanizması olduğu için dışarıda bırakılamaz.\n- C) I. öncül düz kaslarda kalsiyum kaynağını doğru ifade ettiği için bu şık eksiktir.\n- E) II. ve III. öncüller de doğru olduğu için Yalnız I seçeneği eksiktir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir motor sinir tarafından uyarılan sinir-kas kavşağında aşağıdakilerden hangisi görülmez?",
+    "options": {
+      "A": "Presinaptik membranda voltaj kapılı $\\text{Ca}$ kanallarının açılması",
+      "B": "Presinaptik hücrede SNARE proteinlerinin asetilkolin veziküllerini akson membranına bağlanması",
+      "C": "Asetilkolinin postsinaptik membranda bulunan muskarinik reseptörlerine bağlanması",
+      "D": "Postsinaptik hücre membranında voltaj kapılı $\\text{Na}$ kanallarının açılması",
+      "E": "Postsinaptik membranda oluşan aksiyon potansiyelinin transvers tübül boyunca kas liflerine yayılması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Somatik bir motor sinir tarafından uyarılan çizgili iskelet kası sinir-kas (nöromüsküler) kavşağında, postsinaptik kas membranında (motor son plakta) muskarinik reseptör bulunmaz; burada yalnızca iyonotropik **\"nikotinik ($\\text{N}_\\text{M}$ tipi) asetilkolin reseptörleri\"** yer alır. Muskarinik reseptörler ($\\text{M}_1-\\text{M}_5$), somatik motor sinir-iskelet kası kavşağında değil, otonom (parasempatik) sinir sisteminin uyardığı kalp kası, düz kas ve ekzokrin bez hücrelerinde bulunur.\nÇeldiriciler:\n- A) Motor nöron akson ucuna ulaşan aksiyon potansiyeli, presinaptik membrandaki \"voltaj kapılı (P/Q tipi) $\\text{Ca}^{2+}$ kanallarını\" açarak akson ucuna kalsiyum girişini sağlar (Görülür).\n- B) Hücre içine giren $\\text{Ca}^{2+}$ sinaptotagmine bağlanır ve \"SNARE proteinleri\" (v-SNARE: sinaptobrevin; t-SNARE: sintaksin ve SNAP-25) asetilkolin veziküllerini presinaptik akson membranıyla kaynaştırarak ekzositozu gerçekleştirir (Görülür).\n- D) Nikotinik reseptörlerin açılmasıyla oluşan son plak potansiyeli eşik değeri aştığında, komşu postsinaptik sarkolemmadaki \"voltaj kapılı $\\text{Na}^+$ kanalları\" açılarak kas aksiyon potansiyelini başlatır (Görülür).\n- E) Sarkolemmada oluşan bu aksiyon potansiyeli, \"transvers (T) tübüller\" boyunca kas lifinin derinliklerine yayılarak DHP reseptörlerini uyarır (Görülür).",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tip 1 iskelet kası liflerinin özelliklerinden biridir?",
+    "options": {
+      "A": "ATP üretiminde temel kaynak glikolizdir.",
+      "B": "Miyozin ATPaz aktivitesi yüksektir.",
+      "C": "Çabuk yorulurlar.",
+      "D": "Miyoglobin miktarı düşüktür.",
+      "E": "Mitokondri sayısı fazladır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tip 1 (yavaş kasılan / yavaş oksidatif / kırmızı) iskelet kası lifleri; postürün (duruşun) korunması ve maraton koşusu gibi uzun süreli, dayanıklılık gerektiren aktiviteler için özelleşmiş liflerdir. Enerji (ATP) ihtiyaçlarını temel olarak \"aerobik (oksidatif) fosforilasyon\" yoluyla karşıladıkları için sitoplazmalarında **\"mitokondri sayısı çok fazladır\"**, kapiller damar ağları çok yoğundur ve oksijen depolayan \"miyoglobin\" proteinini bol miktarda içerirler (bu yüzden kırmızı renkte görünürler ve yorulmaya karşı çok dirençlidirler).\nÇeldiriciler:\n- A) ATP üretiminde temel kaynağın anaerobik glikoliz olması (bol glikojen ve glikolitik enzim içermesi), Tip 1 liflerin değil, \"Tip 2b (Tip 2x / hızlı glikolitik / beyaz)\" kas liflerinin özelliğidir.\n- B) Miyozin ATPaz aktivitesinin ve çapraz köprü döngü hızının yüksek olması; hızlı kasılan \"Tip 2 (hızlı)\" liflerin özelliğidir; Tip 1 liflerde miyozin ATPaz aktivitesi düşüktür ve yavaş kasılırlar.\n- C) Çabuk yorulma özelliği anaerobik çalışan Tip 2b (beyaz) liflere aittir; Tip 1 lifler oksidatif kapasiteleri yüksek olduğu için çok geç/zor yorulurlar.\n- D) Miyoglobin miktarının düşük olması beyaz renkli Tip 2b liflerin özelliğidir; Tip 1 (kırmızı) liflerde miyoglobin miktarı çok yüksektir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki kas türlerinden hangisinde tetani görülmez?",
+    "options": {
+      "A": "Tip I iskelet kası",
+      "B": "Kalp kası",
+      "C": "Tip IIb iskelet kası",
+      "D": "Çok üniteli düz kas",
+      "E": "Tip IIa iskelet kası"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Tetani (tetanik kasılma), bir kas lifinin gevşemesine fırsat kalmadan ardışık yüksek frekanslı uyarılarla kasılmaların üst üste binmesi (sumasyonu) ve kasın sürekli kasılı kalmasıdır. **\"Kalp kasında (miyokardda) fizyolojik olarak tetani kesinlikle görülmez\"**. Bunun nedeni, kalp kası aksiyon potansiyelinde L-tipi yavaş $\\text{Ca}^{2+}$ kanallarının açık kalmasıyla oluşan uzun \"plato fazı (Evre 2)\" nedeniyle aksiyon potansiyelinin ve \"mutlak refrakter dönemin\" ($200-300\\text{ ms}$) neredeyse kalp kasının mekanik kasılma (sistol) süresi kadar uzun olmasıdır. Kalp kası gevşemeye başlamadan yeni bir aksiyon potansiyeli oluşturulamaz; bu özellik kalbin bir pompa olarak kanla dolabilmesi (diyastol yapabilmesi) için hayati bir koruma mekanizmasıdır.\nÇeldiriciler:\n- A) Tip I (yavaş) iskelet kası; aksiyon potansiyeli ve refrakter dönemi çok kısa ($1-2\\text{ ms}$) olduğu için daha düşük uyarı frekanslarında bile kolayca sumasyona ve tetaniye girer.\n- C) Tip IIb (hızlı glikolitik) iskelet kası; çok kısa refrakter döneme sahiptir ve yüksek frekanslı motor nöron uyarılarıyla güçlü tetanik kasılma gösterir.\n- D) Çok üniteli düz kas (ve tek üniteli düz kas); gevşeme süreleri çok yavaş olduğu için ardışık uyarılarla sumasyon ve tetanik tonus oluşturabilirler.\n- E) Tip IIa (hızlı oksidatif-glikolitik) iskelet kası; diğer tüm iskelet kası lifleri gibi kısa refrakter dönemi sayesinde tetanize olabilir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki ifadelerden hangisi düz kas kasılmasında rol alan ikincil habercilerden cAMP'nin artışının doğurduğu sonuçlardan biridir?",
+    "options": {
+      "A": "Miyozin hafif zincir kinazın kalsiyum-kalmodulin'e ilgisi artar.",
+      "B": "Sitoplazmadaki kalsiyum konsantrasyonu artar.",
+      "C": "Miyozin fosfataz aktivitesi artar.",
+      "D": "Protein kinaz A'nın fosforilasyonu azalır.",
+      "E": "ATP duyarlı potasyum kapıları üzerinden depolarizasyona yol açar."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Düz kas hücrelerinde (örneğin bronş ve damar düz kaslarında) $\\beta_2$-adrenerjik reseptörlerin uyarılması $\\text{G}_\\text{s}$ proteini üzerinden adenilil siklazı aktive ederek hücre içi **cAMP** düzeyini artırır ve Protein Kinaz A'yı (PKA) aktifleştirir. Düz kasta cAMP ve PKA artışı \"gevşeme\" (bronkodilatasyon, vazodilatasyon) yapar. Bu gevşeme şu mekanizmalarla gerçekleşir:\n1) PKA, **\"Miyozin Fosfataz (MLCP) aktivitesini artırır\"** (miyozin hafif zincirinden fosfat koparılır ve kas gevşer),\n2) PKA, Miyozin Hafif Zincir Kinazı (MLCK) fosforile ederek MLCK'nın $\\text{Ca}^{2+}$-kalmoduline olan ilgisini *azaltır* (inaktive eder),\n3) SERCA ve zar $\\text{Ca}^{2+}$ pompalarını uyararak sitoplazmadaki $\\text{Ca}^{2+}$ konsantrasyonunu *düşürür* ve $\\text{K}^+$ kanallarını açarak zarı *hiperpolarize* eder. Dolayısıyla doğru sonuç miyozin fosfataz aktivitesinin artmasıdır.\nÇeldiriciler:\n- A) cAMP/PKA artışı ile fosforile olan miyozin hafif zincir kinazın (MLCK) kalsiyum-kalmoduline olan ilgisi artmaz, tam aksine belirgin şekilde *azalır* ve kasılma baskılanır.\n- B) cAMP artışı kalsiyumun SR içine (SERCA ile) ve hücre dışına pompalanmasını hızlandırarak sitoplazmadaki kalsiyum konsantrasyonunu artırmaz, *azaltır*.\n- D) cAMP artışı Protein Kinaz A'yı (PKA) aktive ettiği için PKA aracılı hedef protein fosforilasyonu azalmaz, *artar*.\n- E) Potasyum ($\\text{K}^+$) kapılarının açılması hücre dışına $\\text{K}^+$ çıkışına ve depolarizasyona değil, \"hiperpolarizasyona\" (ve gevşemeye) yol açar.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki özelliklerden hangisi düz kasa özgüdür?",
+    "options": {
+      "A": "Kontraktil proteinlerden yapılmış olması",
+      "B": "Hücre içi kalsiyum artışı",
+      "C": "Dinlenim potansiyeli",
+      "D": "Stres gevşeme",
+      "E": "Miyozinin fosforlanması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): **\"Stres gevşeme (Stress-relaxation / Plastiklik)\"** ve \"ters stres gevşeme\", özellikle içi boş organların (mesane, mide, bağırsak, uterus) duvarında bulunan tek üniteli (visseral) **düz kaslara özgü** çok önemli bir mekanik özelliktir. Örneğin mesane idrarla dolup duvarındaki düz kas gerildiğinde, başlangıçta kas gerimi ve organ içi basınç artar; ancak organ yeni hacminde sabit tutulursa saniyeler/dakikalar içinde düz kas lifleri yeniden organize olarak gevşer (\"stres gevşeme\") ve hacim artmış olmasına rağmen lümen içi basınç tekrar eski düşük seviyesine iner. Bu sayede mesane veya mide dolarken iç basınç hemen yükselmez.\nÇeldiriciler:\n- A) Kontraktil proteinlerden (aktin ve miyozin) yapılmış olmak sadece düz kasa değil; iskelet kası, kalp kası ve düz kasın tamamına ait ortak özelliktir.\n- B) Kasılmanın hücre içi (sitozolik) kalsiyum ($\\text{Ca}^{2+}$) artışı ile tetiklenmesi, vücuttaki her üç kas tipinin de ortak temel özelliğidir.\n- C) Dinlenim zar potansiyeline sahip olmak; tüm kas hücreleri, nöronlar ve diğer tüm canlı hücreler için ortak bir elektrofizyolojik özelliktir.\n- E) Miyozinin hafif zincirinin fosforlanması düz kasta kasılmayı başlatan ana mekanizma olmakla birlikte, çizgili kaslarda da (iskelet ve kalp kasında) miyozin düzenleyici hafif zinciri MLCK tarafından fosforile edilerek kasılma kuvvetini modüle edebilir (post-tetanik potensiyalizasyon); buna karşılık fizyolojide \"düz kasa özgü\" klasik mekanik fenomen stres gevşemedir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İskelet kası kasılmasında rol alan iyon kanalları:\nI. Ryanodin reseptörü\nII. Dihidropiridin reseptörü\nIII. Voltaj kapılı $\\text{Na}$ kanalı\nIV. Ligand kapılı $\\text{Na}$ kanalı\n\nAsetilkolinin sinaptik aralığa salınmasını takiben bu kanallar hangi sıra ile uyarılır?",
+    "options": {
+      "A": "II, I, III, IV",
+      "B": "IV, II, III, I",
+      "C": "I, II, IV, III",
+      "D": "IV, III, II, I",
+      "E": "II, III, IV, I"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İskelet kası nöromüsküler kavşağında presinaptik sinir ucundan sinaptik aralığa asetilkolin (ACh) salınmasını takiben uyarılma-kasılma eşleşmesinde iyon kanallarının ve reseptörlerin uyarılma sırası adım adım şu şekildedir:\n1) **IV. Ligand kapılı $\\text{Na}^+$ kanalı (Nikotinik ACh reseptörü):** Salınan asetilkolin ilk olarak motor son plaktaki nikotinik reseptörlere (ligand kapılı katyon/$\\text{Na}^+$ kanallarına) bağlanır ve hücre içine $\\text{Na}^+$ girerek son plak potansiyelini (EPP) oluşturur.\n2) **III. Voltaj kapılı $\\text{Na}^+$ kanalı:** Son plak potansiyeli eşik değere ulaşınca komşu sarkolemmadaki voltaj kapılı $\\text{Na}^+$ kanalları açılır ve oluşan kas aksiyon potansiyeli sarkolemma ve T-tübülleri boyunca hızla yayılır.\n3) **II. Dihidropiridin (DHP) reseptörü:** T-tübüllerine inen aksiyon potansiyeli (voltaj değişimi), T-tübül membranındaki voltaj sensörü olan dihidropiridin reseptörlerini (voltaj kapılı L-tipi $\\text{Ca}^{2+}$ kanallarını) uyarır.\n4) **I. Ryanodin reseptörü (RyR1):** Aktifleşen DHP reseptörü, kendisine mekanik olarak kenetli olan sarkoplazmik retikulum membranındaki riyanodin reseptörünü ($\\text{Ca}^{2+}$ salınım kanalını) açar ve SR'den sitoplazmaya $\\text{Ca}^{2+}$ boşalarak kasılma başlar.\nDolayısıyla doğru kronolojik sıralama **IV – III – II – I** şeklindedir.\nÖncüllerin Analizi:\n- IV (Ligand kapılı $\\text{Na}$ kanalı): Asetilkolini doğrudan bağlayan ilk reseptör/kanaldır (1. sıra).\n- III (Voltaj kapılı $\\text{Na}$ kanalı): Lokal depolarizasyonu tüm kas zarına ve T-tübüllerine yayan aksiyon potansiyeli kanalıdır (2. sıra).\n- II (Dihidropiridin reseptörü): T-tübülündeki aksiyon potansiyelini algılayan voltaj sensörüdür (3. sıra).\n- I (Ryanodin reseptörü): En son açılarak SR'den kalsiyumu sitoplazmaya salan kanaldır (4. sıra).\nÇeldiriciler:\n- A) Henüz motor son plak uyarılmadan (IV) T-tübülündeki dihidropiridin reseptörünün (II) ilk sırada uyarılması imkansızdır.\n- B) Motor son plaktaki lokal potansiyel, voltaj kapılı $\\text{Na}$ kanallarıyla (III) aksiyon potansiyeline dönüşüp T-tübülüne yayılmadan dihidropiridin reseptörüne (II) ulaşamaz; II ve III'ün yeri yanlıştır.\n- C) Ryanodin reseptörü (I) sürecin ilk değil en son basamağıdır.\n- E) Süreç dihidropiridin reseptörü (II) ile değil, asetilkolinin bağlandığı ligand kapılı $\\text{Na}$ kanalı (IV) ile başlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Kas Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

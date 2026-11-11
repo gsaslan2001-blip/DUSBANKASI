@@ -1,0 +1,1378 @@
+[
+  {
+    "question": "Pepsinojen, aşağıdakilerden hangisinin etkisiyle aktif pepsin şekline dönüşür?",
+    "options": {
+      "A": "HCl",
+      "B": "Gastrin",
+      "C": "Mukus",
+      "D": "Tripsin",
+      "E": "Amilaz"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Mide esas (şef/peptik) hücrelerinden inaktif bir zimojen (proenzim) olarak salgılanan pepsinojen, mide lümeninde paryetal hücreler tarafından salgılanan hidroklorik asit (HCl) ile karşılaştığında düşük pH ortamında (özellikle pH 1.8–3.5 aralığında) yapısal değişikliğe uğrayarak aktif bir endopeptidaz olan pepsine dönüşür; oluşan aktif pepsin de otokatalitik olarak diğer pepsinojen moleküllerini aktifleştirir. Çeldiriciler: B) Gastrin, antrum G hücrelerinden salgılanan bir hormondur; paryetal hücrelerden HCl salınımını ve şef hücrelerden pepsinojen sentez/salınımını uyarır ancak lümende pepsinojeni doğrudan pepsine dönüştürmez. C) Mukus, yüzey ve boyun mukus hücrelerinden salgılanarak mide mukozasını asit ve proteolitik sindirime karşı koruyan glikoprotein yapılı bariyerdir; zimojen aktivasyonu yapmaz. D) Tripsin, ince bağırsak lümeninde (duodenumda) enterokinaz ile aktifleşen ve diğer pankreatik zimojenleri (kimotripsinojen, proelastaz, prokarboksipeptidaz) aktifleştiren alkalen pH enzimidir; midede pepsinojen aktivasyonunda görev almaz. E) Amilaz, tükürük bezleri ve pankreastan salgılanan, nişasta ve glikojendeki alfa-1,4 glikozidik bağları parçalayan karbonhidrat sindirim enzimidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Gingiva\nII. Diş\nIII. Sert damak\nIV. Burunda koku bölgesi\nYukarıdaki yapılardan hangileri keratinize çok katlı yassı epitelle örtülüdür?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Oral kavitede çiğneme (mastikatör) mukozasını oluşturan diş eti (gingiva) ve sert damak, mekanik sürtünme ve çiğneme kuvvetlerine karşı dayanıklılık sağlamak amacıyla keratinize (veya parakeratinize) çok katlı yassı epitel ile döşelidir. Öncüllerin Analizi: I. Gingiva (Doğru): Çiğneme mukozasının bir parçasıdır ve keratinize/parakeratinize çok katlı yassı epitel ile örtülüdür. II. Diş (Yanlış): Sürmüş bir dişin ağız boşluğunda görünen kuron kısmı hücresel bir epitel dokusuyla değil, vücudun en sert ve asellüler mineralize dokusu olan mine (enamel) ile örtülüdür; diş sürmesi sırasında mine üzerindeki azalmış mine epiteli dejenere olarak kaybolur. III. Sert damak (Doğru): Çiğneme mukozası kapsamında yer alır ve keratinize/parakeratinize çok katlı yassı epitel ile döşelidir. IV. Burunda koku bölgesi (Yanlış): Regio olfactoria (koku mukozası), silyalı bipolar koku nöronları, destek (sustentaküler) ve bazal hücreler içeren yalancı çok katlı (psödostratifiye) prizmatik epitel yapısındadır; keratinize değildir. Çeldiriciler: A, C ve D şıkları epitel örtüsü bulunmayan diş (II) öncülünü içerdiği için yanlıştır. E şıkkı ise psödostratifiye epitel içeren burun koku bölgesini (IV) içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mine tabakasını aşağıdakilerden hangisi yapar?",
+    "options": {
+      "A": "Ameloblast",
+      "B": "Sementoblast",
+      "C": "Odontoblast",
+      "D": "Osteoblast",
+      "E": "Kondroblast"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Diş gelişimi sırasında oral ektoderm kökenli mine organının iç mine (iç dental) epitelinden farklanan prizmatik hücreler olan ameloblastlar, mine matriks proteinlerini (amelogenin, ameloblastin, enamelin, tuftelin) sentezleyip salgılayarak ve mineralizasyonu düzenleyerek mine (enamel) tabakasını oluşturur. Çeldiriciler: B) Sementoblast, ektomezenflim (nöral krest) kökenli dental keseden (dental folikül) farklanarak diş kökünü örten sement (cementum) dokusunu üretir. C) Odontoblast, nöral krest kökenli dental papilladan farklanarak predentin ve dentin tabakasını sentezler. D) Osteoblast, mezenkimal kök hücrelerden ve dental keseden farklanarak kemik matriksini (osteoid) ve alveol kemiğini oluşturur. E) Kondroblast, mezenkimal hücrelerden farklanarak kıkırdak matriksini (kondroitin sülfat, tip II kollajen) sentezleyen hücredir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Parotis bezi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Dallı tubuloalveoler yapıdadır.",
+      "B": "Salgısı amilaz açısından zengindir.",
+      "C": "Salgısı tükürüğün %70'ini oluşturur.",
+      "D": "Salgısının antimikrobiyal özelliği vardır.",
+      "E": "İyi huylu tükürük bezi tümörlerinin en sık görüldüğü bezdir."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Parotis bezi en büyük majör tükürük bezi olmasına rağmen, uyarılmamış (istirahat) koşullarında toplam günlük tükürük salgısının yalnızca yaklaşık %20–25'ini üretir; tükürüğün yaklaşık %65–70'lik en büyük kısmını submandibular bez salgılar (parotis salgısının payı ancak çiğneme ve tat uyarısıyla %50 civarına yükselir). Çeldiriciler: A) Parotis bezi histomorfolojik olarak bileşik (dallı) tubuloasiner/tubuloalveoler ekzokrin bir bezdir (Doğru). B) Tamamen seröz asinüslerden oluştuğu için salgısı suludur ve nişastayı parçalayan alfa-amilaz (pityalin) enzimi açısından oldukça zengindir (Doğru). D) Seröz asiner hücrelerinden ve kanal epitelinden salgılanan lizozim, laktoferrin, peroksidaz, histatin, sistatin ve sekretuvar IgA sayesinde güçlü antimikrobiyal etkinlik gösterir (Doğru). E) Başta pleomorfik adenom (benign mikst tümör) ve Warthin tümörü olmak üzere iyi huylu tükürük bezi tümörlerinin en sık yerleştiği bez parotis bezidir (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki ince bağırsak hücrelerinden hangisi, mikrobiyal floranın düzenlenmesinde görev alan antimikrobiyal peptidleri üretir?",
+    "options": {
+      "A": "Paneth hücreleri",
+      "B": "Enteroendokrin hücreler",
+      "C": "Goblet hücreleri",
+      "D": "M hücreleri",
+      "E": "Absorptif hücreler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İnce bağırsakta (özellikle jejunum ve ileumda) Lieberkühn kriptalarının tabanında piramidal şekilli gruplar halinde yerleşen Paneth hücreleri, apikal sitoplazmalarındaki büyük eozinofilik salgı granüllerinde alfa-defensinler (kriptidinler), lizozim, sekretuvar fosfolipaz A2 ve TNF-alfa bulundurur; bu antimikrobiyal peptidleri lümene salgılayarak bakteri hücre duvarlarını parçalar, bağırsak mikrobiyal florasını düzenler ve komşu bağırsak kök hücrelerini korur. Çeldiriciler: B) Enteroendokrin hücreler, bazal granüllerinde bulunan sekretin, kolesistokinin (CCK), GIP ve motilin gibi peptid hormonları lamina propriadaki kapillerlere (kana) veya parakrin yolla çevreye salgılar. C) Goblet (kadeh) hücreleri, müsin (MUC2) glikoproteinleri salgılayarak mukozal yüzeyde kayganlaştırıcı ve koruyucu mukus tabakası oluşturur. D) M (mikrokatlantı/microfold) hücreleri, Peyer plaklarını örten folikül ilişkili epitelde bulunur; lümendeki antijenleri endositoz/transsitoz ile bazolateral ceplerindeki lenfosit ve dendritik hücrelere sunar. E) Absorptif hücreler (enterositler), apikal mikrovillusları (fırçamsı kenar) üzerindeki enzimlerle terminal sindirimi gerçekleştirir ve su, elektrolit ile besin monomerlerini emer.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "A vitamini metabolizmasıyla ilişkili olan ve sirozda fibrozis gelişiminde rol oynayan hücre hangisidir?",
+    "options": {
+      "A": "Kupffer hücresi",
+      "B": "Hepatosit",
+      "C": "Sinüzoidal endotel hücresi",
+      "D": "İto hücresi",
+      "E": "Fibrosit"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Karaciğerde sinüzoid endoteli ile hepatositler arasındaki perisinüzoidal aralıkta (Disse aralığında) yerleşen mezenkimal kökenli İto hücreleri (hepatik stellat hücreler / lipositler), fizyolojik koşullarda sitoplazmik lipid damlacıkları içinde retinoid (A vitamini) esterlerini depolar; kronik karaciğer hasarında ise lipid damlacıklarını kaybederek miyofibroblast benzeri hücrelere dönüşür ve aşırı miktarda Tip I ve Tip III kollajen ile ekstrasellüler matriks sentezleyerek karaciğer fibrozisi ve siroz gelişiminde temel rol oynar. Çeldiriciler: A) Kupffer hücreleri, sinüzoid lümeninde endotel duvarına tutunmuş olarak bulunan mononükleer fagositik sistem kökenli yerleşik makrofajlardır; yaşlı eritrositleri, bakterileri ve partikülleri fagosite eder. B) Hepatositler, karaciğerin parankimal epitel hücreleridir; safra üretimi, plazma proteinlerinin sentezi, glikojen depolanması ve ksenobiyotik detoksifikasyonunu yürütür. C) Sinüzoidal endotel hücreleri, bazal laminası kesintili olan ve diyaframsız geniş pencereler (fenestralar) içeren özelleşmiş endotel hücreleridir; kan plazmasının Disse aralığına geçişini sağlar. E) Fibrositler, bağ dokusunda kollajen sentez kapasitesi düşük, inaktif (dinlenme halindeki) bağ dokusu hücreleridir; karaciğerde A vitamini depolayan özgül hücre değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ince bağırsakta besinlerin emilmesi için yüzey artışı sağlayan yapılardan biri değildir?",
+    "options": {
+      "A": "Sirküler plikalar",
+      "B": "Villuslar",
+      "C": "İntestinal bezler",
+      "D": "Mikrovilluslar",
+      "E": "Miyenterik pleksuslar"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Miyenterik pleksus (Auerbach pleksusu), sindirim kanalı duvarında muskularis eksterna tabakasının iç sirküler ve dış longitudinal düz kas katmanları arasında yer alan enterik sinir sistemi ağıdır; görevi gastrointestinal peristaltizmi ve düz kas motilitesini düzenlemek olup, lüminal emilim yüzey alanını artırmakla hiçbir yapısal ilişkisi yoktur. Çeldiriciler: A) Sirküler plikalar (Kerckring valfler), mukoza ve submukoza tabakalarının lümene doğru yaptığı kalıcı yarım ay şeklindeki katlantılardır; ince bağırsak yüzey alanını yaklaşık 3 kat artırır. B) Villuslar, lamina propria ve epitelden oluşan, mukozanın lümene doğru yaptığı parmaksı çıkıntılardır; emilim yüzey alanını yaklaşık 10 kat artırır. C) İntestinal bezler (Lieberkühn kriptaları), villusların tabanından lamina propria içerisine doğru uzanan tübüler bez invajinasyonlarıdır; mukozal epitel yüzeyinin sürekliliğini, yenilenmesini ve sekresyon/emilim mukozal alanını destekler. D) Mikrovilluslar, enterositlerin apikal membranında bulunan aktin filament destekli sitoplazmik uzantılardır (fırçamsı/çizgili kenar); yüzey alanını yaklaşık 20 kat artırarak en büyük yüzey artışını sağlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi mide paryetal hücre membranlarından, HCl salgılanması sırasında gerçekleşen iyon taşıma mekanizmalarından biri değildir?",
+    "options": {
+      "A": "Luminal membrandan lümene potasyum iyonunun pasif geçişi",
+      "B": "Luminal membrandan hücre içine potasyum iyonunun aktif geçişi",
+      "C": "Bazal membrandan hücre içine klor iyonu difüzyonu",
+      "D": "Bazal membrandan ekstraselüler aralığa bikarbonat iyonunun pasif geçişi",
+      "E": "Bazal membrandan ekstraselüler aralığa potasyum iyonunun aktif geçişi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Paryetal hücrenin bazolateral membranında bulunan Na⁺/K⁺-ATPaz pompası, ATP harcayarak sodyum (Na⁺) iyonlarını hücre dışına (ekstrasellüler aralığa) atarken, potasyum (K⁺) iyonlarını ekstrasellüler aralıktan hücre içine doğru aktif olarak taşır; bazal membrandan ekstrasellüler aralığa K⁺ iyonunun aktif geçişi (dışarı pompalanması) şeklinde bir taşıma mekanizması yoktur (bazolateralde K⁺ ancak pasif kanallardan çıkabilir). Çeldiriciler: A) Luminal (apikal/kanaliküler) membrandaki K⁺ kanalları aracılığıyla K⁺ iyonları konsantrasyon gradyanı yönünde hücre içinden lümene pasif olarak sızar (K⁺ geri dönüşümü) (Doğru). B) Luminal membranda yer alan H⁺/K⁺-ATPaz (proton pompası), ATP hidrolizi ile H⁺ iyonunu lümene pompalarken K⁺ iyonunu lümenden hücre içine aktif olarak geri alır (Doğru). C) Bazolateral membrandaki Cl⁻/HCO₃⁻ antiporteri (anyon değiştirici) aracılığıyla, hücre içinde karbonik anhidraz ile oluşan HCO₃⁻ dışarı çıkarken Cl⁻ iyonu elektrokimyasal gradyanla hücre içine taşınır (Doğru). D) Karbonik asidin ayrışmasıyla hücre içinde biriken HCO₃⁻ iyonları, bazolateral membrandaki Cl⁻/HCO₃⁻ değiştiricisi üzerinden konsantrasyon farkıyla ekstrasellüler sıvıya (kana) geçerek \"alkalen med (alkaline tide)\" olayını oluşturur (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, oral bakterilerin ortadan kaldırılmasına katkıda bulunur?",
+    "options": {
+      "A": "Amilaz",
+      "B": "Bikarbonat",
+      "C": "Lizozim",
+      "D": "Müsin",
+      "E": "Kallikrein"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Tükürük bezlerinin seröz asiner hücrelerinden ve duktal epitelinden salgılanan lizozim (muramidaz), bakterilerin hücre duvarındaki peptidoglikan tabakasında bulunan N-asetilmuramik asit ile N-asetilglukozamin arasındaki beta-1,4 glikozidik bağları hidrolize ederek bakteri hücre duvarını parçalar ve ozmotik lizis yoluyla oral bakterilerin doğrudan ortadan kaldırılmasını sağlar. Çeldiriciler: A) Amilaz (alfa-amilaz/pityalin), polisakkaritlerdeki alfa-1,4 glikozidik bağları parçalayarak nişasta sindirimini başlatan enzimdir; bakterisidal etkisi yoktur. B) Bikarbonat, çizgili kanal hücrelerinden salgılanarak ağız içi pH'ı tamponlar ve asidik ortamda mine demineralizasyonunu önler; doğrudan bakteri parçalayıcı ajan değildir. C) Müsin, muköz asinüslerden salgılanan glikoprotein yapılı maddedir; besinlerin kayganlaştırılmasını ve mukoza yüzeyinin mekanik korunmasını sağlar. E) Kallikrein, tükürük bezi hücrelerinden interstisyel sıvıya ve tükürüğe salınan bir serin proteazdır; plazma kininojenini bradikinine dönüştürerek vazodilatasyon yapar ve bezin kan akımını artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karaciğerde A vitamini depolayan yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sinüzoidal endotel hücreler",
+      "B": "Santral ven endoteli",
+      "C": "Kupffer hücreleri",
+      "D": "İto hücreleri",
+      "E": "Hepatositler"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Karaciğerde perisinüzoidal Disse aralığında yerleşen İto hücreleri (hepatik stellat hücreler / perisinüzoidal lipositler), vücuttaki toplam A vitamini (retinol) rezervlerinin büyük çoğunluğunu sitoplazmik lipid damlacıkları içerisinde retinil esterleri (özellikle retinil palmitat) formunda depolayan özgül hücrelerdir. Çeldiriciler: A) Sinüzoidal endotel hücreleri, pencereli (fenestralı) yapılarıyla kan plazması ve şilomikron kalıntılarının Disse aralığına geçişine aracılık eder; A vitamini depolamaz. B) Santral ven endoteli, klasik karaciğer lobülünün merkezinde yer alan ve sinüzoidal kanı sublobüler venlere drene eden damarın iç döşeyici epitelidir. C) Kupffer hücreleri, sinüzoid lümeninde yer alan ve yaşlı eritrositleri yıkıp hemosiderin/demir biriktirebilen fagositik makrofajlardır; A vitamini deposu değildir. E) Hepatositler, şilomikron kalıntılarıyla gelen retinil esterlerini ilk olarak endositozla alıp retinol bağlayıcı protein (RBP) sentezlese de, karaciğerde A vitaminini uzun süreli ve esas olarak depolayan yapı İto hücreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gastrik sekresyonunun stimülasyonuna neden olan histamin, bu etkisini aşağıdaki reseptörlerden hangisi aracılığıyla yapar?",
+    "options": {
+      "A": "H₂",
+      "B": "H₃",
+      "C": "M₃",
+      "D": "CCK-B",
+      "E": "H₁A"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Mide oksintik mukozasındaki enterokromafin benzeri (ECL) hücrelerden parakrin yolla salgılanan histamin, paryetal hücrelerin bazolateral membranında bulunan Gs proteini kenetli H₂ (histamin tip 2) reseptörlerine bağlanır; bu bağlanma adenilat siklazı aktive ederek hücre içi cAMP düzeyini ve protein kinaz A (PKA) aktivitesini artırır, sonuçta H⁺/K⁺-ATPaz içeren tübüloveziküllerin kanaliküler membrana kaynaşmasıyla güçlü HCl sekresyonu gerçekleşir. Çeldiriciler: B) H₃ reseptörleri, ağırlıklı olarak merkezi ve periferik sinir sisteminde presinaptik uçlarda bulunan Gi kenetli otoreseptör/heteroreseptörlerdir; nörotransmitter salınımını inhibe eder. C) M₃ reseptörleri, paryetal hücre membranında bulunan Gq proteini kenetli muskarinik reseptörler olup histaminin değil, vagal parasempatik liflerden salınan asetilkolinin bağlandığı reseptördür. D) CCK-B (CCK₂) reseptörleri, paryetal ve ECL hücrelerinde bulunan Gq kenetli reseptörler olup gastrin hormonunun bağlandığı reseptördür. E) H₁ reseptörleri, Gq proteini kenetli olup bronş ve gastrointestinal düz kas kasılması, endotel geçirgenliği artışı ve alerjik reaksiyonlarda rol oynar; gastrik asit salgısını uyarmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kalın bağırsakta aşağıdaki hücrelerden hangisi bulunmaz?",
+    "options": {
+      "A": "Paneth hücreleri",
+      "B": "Goblet hücreleri",
+      "C": "Farklılaşmamış hücreler",
+      "D": "Enteroendokrin hücreler",
+      "E": "Absorbtif hücreler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Paneth hücreleri normal histolojik koşullarda ince bağırsak (duodenum, jejunum ve özellikle ileum) Lieberkühn kriptalarının tabanında yer alır; sağlıklı kalın bağırsak (kolon ve rektum) mukozasındaki Lieberkühn kriptalarında Paneth hücreleri bulunmaz (ancak ülseratif kolit veya Crohn hastalığı gibi kronik inflamatuvar süreçlerde \"Paneth hücre metaplazisi\" olarak görülebilir). Çeldiriciler: B) Goblet hücreleri, kalın bağırsak epitelinde en yoğun bulunan hücre tipidir; dışkının kayganlaştırılması için bol mukus salgılar ve kolonda distale gidildikçe sayıları artar. C) Farklılaşmamış (kök/progenitör) hücreler, kalın bağırsak Lieberkühn kriptalarının alt üçte birlik taban kısmında bulunur ve mitozla bölünerek yüzey ve kript epitelini sürekli yeniler. D) Enteroendokrin hücreler, kalın bağırsak kriptalarında dağınık olarak yer alır (örneğin peptid YY ve GLP-1 salgılayan L hücreleri ile serotonin salgılayan enterokromafin hücreler). E) Absorbtif hücreler (kolonositler), kalın bağırsak yüzey epitelinde bulunan, su ve elektrolit (özellikle Na⁺ ve Cl⁻) emilimini gerçekleştiren prizmatik epitel hücreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Açlıkta ve yemek aralarında miyoelektrik kompleksin uyarılmasına bağlı gastrointestinal düz kaslarda kasılma oluşturan hangisidir?",
+    "options": {
+      "A": "Gastrin",
+      "B": "Kolesistokinin",
+      "C": "Motilin",
+      "D": "Sekretin",
+      "E": "Somatostatin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Duodenum ve proksimal jejunum mukozasındaki Mo (M) hücrelerinden açlık (interdigestif) döneminde yaklaşık her 90–120 dakikada bir döngüsel olarak salgılanan 22 amino asitlik peptid hormon motilin, mide antrumu ve ince bağırsak düz kaslarındaki motilin reseptörlerini ve enterik nöronları uyararak göç eden miyoelektrik (motor) kompleksi (MMC - Faz III kasılmalarını) başlatır; bu peristaltik dalgalar sindirilmemiş besin artıkları, dökülmüş epitel hücreleri ve bakterileri kolona doğru süpürür (\"bağırsakların temizlikçisi\") ve yemek yenmesiyle baskılanır. Çeldiriciler: A) Gastrin, besin alımıyla (özellikle protein yıkım ürünleri ve mide gerilmesiyle) G hücrelerinden salgılanır; mide asit sekresyonunu ve sindirim dönemi mide motilitesini artırır. B) Kolesistokinin (CCK), toklukta yağ ve proteinlerin duodenuma geçişiyle I hücrelerinden salgılanır; safra kesesini kasar ancak mide boşalmasını yavaşlatır. D) Sekretin, duodenuma geçen asidik kimus uyarısıyla S hücrelerinden salgılanır; pankreastan bikarbonat salgısını artırır ve gastrointestinal motiliteyi baskılar. E) Somatostatin, D hücrelerinden salgılanarak hem gastrointestinal hormonların salınımını hem de sindirim kanalı motilitesini genel olarak inhibe eder.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Mukozal katlantılar\nII. Tek katlı prizmatik epiteliyum\nIII. Apikal mikrovillus\nIV. Muskularis mukoza\nAşağıdakilerden hangileri safra kesesinin histolojik yapısında bulunur?",
+    "options": {
+      "A": "I, IV",
+      "B": "II, IV",
+      "C": "I, II ve III",
+      "D": "I, II ve IV",
+      "E": "II, III, IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Safra kesesi duvarı histolojik olarak mukoza (epitel ve lamina propria), düzensiz düz kas demetlerinden oluşan muskularis eksterna ve dışta adventisya/seroza tabakalarından meydana gelir; safra kesesi duvarında muskularis mukoza ve submukoza tabakaları kesinlikle bulunmaz. Öncüllerin Analizi: I. Mukozal katlantılar (Doğru): Safra kesesi özellikle boş veya az dolu olduğunda mukozası oldukça derin ve dallanmış bol kıvrımlar (mukozal katlantılar/plikalar) oluşturur; hatta bu katlantıların bazıları lamina propria ve kas tabakası içine doğru derinleşerek Rokitansky-Aschoff sinüslerini yapar. II. Tek katlı prizmatik epiteliyum (Doğru): Safra kesesinin lümen yüzeyi bazal nükleuslu, yüksek boylu tek katlı prizmatik epitel hücreleri (kolanjiyositler) ile döşelidir. III. Apikal mikrovillus (Doğru): Safra kesesi epitel hücrelerinin apikal yüzeyinde, safradan su ve elektrolit (Na⁺, Cl⁻, HCO₃⁻) geri emilimini sağlayarak safrayı 5–10 kat konsantre etmeye yarayan çok sayıda iyi gelişmiş mikrovillus bulunur. IV. Muskularis mukoza (Yanlış): Safra kesesinde muskularis mukoza ve submukoza tabakaları yoktur; lamina propria doğrudan muskularis eksterna tabakası üzerine oturur. Çeldiriciler: A, B, D ve E şıkları safra kesesinde bulunmayan muskularis mukoza (IV) öncülünü içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Glukozun ince bağırsak fırçamsı yüzeyinden taşınmasını sağlayan protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "GLUT-5",
+      "B": "SGLT-2",
+      "C": "GLUT-3",
+      "D": "SGLT-1",
+      "E": "GLUT-2"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İnce bağırsak enterositlerinin apikal (lüminal/fırçamsı kenar) membranında bulunan sodyum-bağımlı glukoz taşıyıcısı 1 (SGLT-1), bazolateral membrandaki Na⁺/K⁺-ATPaz pompasının oluşturduğu hücre içi düşük sodyum gradyanını kullanarak 2 Na⁺ iyonu ile birlikte 1 glukoz (veya galaktoz) molekülünü sekonder aktif taşıma (simport/kotransport) yoluyla lümenden enterosit içine taşır. Çeldiriciler: A) GLUT-5, enterositlerin apikal (fırçamsı kenar) membranında yer alır ancak glukozu değil, fruktozu kolaylaştırılmış difüzyonla hücre içine taşır. B) SGLT-2, ince bağırsakta değil, böbrek proksimal tübülünün S1 segmentinin apikal membranında bulunur ve filtre edilen glukozun %90'ının geri emilimini sağlar. C) GLUT-3, glukoza afinitesi çok yüksek (düşük Km değerli) olan ve başlıca nöronlar ile plasentada bulunan kolaylaştırılmış difüzyon taşıyıcısıdır. E) GLUT-2, enterositlerin bazolateral membranında yer alır ve apikalden hücre içine alınan glukoz, galaktoz ve fruktozun kolaylaştırılmış difüzyonla interstisyel sıvıya ve portal kana geçişini sağlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ektopik salgılanması sonucunda aşırı diyare, gastrik asit sekresyonu ve peptik ülser gelişimine yol açan hormon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sekretin",
+      "B": "Somatostatin",
+      "C": "Nörotensin",
+      "D": "Gastrin",
+      "E": "Kolesistokinin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Pankreas veya duodenum duvarında yerleşen nöroendokrin bir tümör (gastrinoma) tarafından aşırı ve kontrolsüz (ektopik) miktarda gastrin salgılanması Zollinger-Ellison sendromuna yol açar; gastrin paryetal hücre kütlesini (trofik etki) ve HCl salgısını aşırı artırarak dirençli/multipl peptik ülserlere neden olurken, duodenum lümenine geçen aşırı asit yükü pankreatik lipazı inaktive ederek, safra asitlerini çöktürerek ve bağırsak mukozasına hasar vererek şiddetli sulu diyare ve steatore oluşturur. Çeldiriciler: A) Sekretin, gastrik asit sekresyonunu inhibe eder ve pankreastan bikarbonat salgısını artırarak duodenumu asitten korur; ülser yapmaz. B) Somatostatin, aşırı salgılandığında (somatostatinoma) asit sekresyonunu, pankreas enzimlerini ve safra kesesi kasılmasını baskılayarak aklorhidri, diyabet ve safra taşına yol açar. C) Nörotensin, ileumdan salgılanan, mide asit sekresyonunu ve mide boşalmasını inhibe eden bir nöropeptiddir. E) Kolesistokinin, safra kesesi kasılması ve pankreas enzim salgısını uyarır; gastrin reseptörlerine zayıf afinitesi olsa da fizyolojik olarak mide boşalmasını ve asit salgısını sınırlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Minenin özellikleriyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Ameloblast hücreleri tarafından oluşturulur.",
+      "B": "Yarı saydam özelliktedir.",
+      "C": "Sert dokudur.",
+      "D": "İnorganik materyal içerir.",
+      "E": "Endoderm kökenlidir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Mine (enamel) dokusu endoderm kökenli değildir; embriyonik dönemde stomodeumu (ilkel ağız boşluğunu) döşeyen oral yüzey ektoderminden gelişen mine organının iç mine epitelinden (ameloblastlardan) köken alır. Çeldiriciler: A) Mine matriksi, amelogenezis sürecinde ameloblast hücreleri tarafından sentezlenir ve mineralize edilir (Doğru). B) Mine tabakası yarı saydam (translüsent) yapıdadır; bu nedenle dişin sarımsı-beyaz rengi alttaki dentin tabakasının renginin yarı saydam mineden yansımasıyla ortaya çıkar (Doğru). C) Mine, insan vücudundaki en sert ve aşınmaya en dirençli mineralize dokudur (Doğru). D) Ağırlıkça yaklaşık %96–98 oranında kalsiyum hidroksiapatit kristallerinden oluşan çok yüksek inorganik materyal içeriğine sahiptir (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, mide asit sekresyonunu azaltır?",
+    "options": {
+      "A": "Gastrin",
+      "B": "Histamin",
+      "C": "Asetilkolin",
+      "D": "Midenin gerilmesi",
+      "E": "Somatostatin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Mide lümeninde pH 3'ün altına düştüğünde (asidite arttığında) antrum ve korpustaki D hücrelerinden salgılanan somatostatin, Gi proteini kenetli reseptörleri üzerinden hem paryetal hücrelerde adenilat siklazı inhibe ederek doğrudan asit üretimini baskılar hem de G hücrelerinden gastrin ve ECL hücrelerinden histamin salınımını inhibe ederek dolaylı yoldan mide asit sekresyonunu güçlü biçimde azaltır. Çeldiriciler: A) Gastrin, G hücrelerinden salgılanır; CCK-B reseptörleri üzerinden ECL hücrelerinden histamin salınımını ve doğrudan paryetal hücreleri uyararak asit salgısını artırır. B) Histamin, ECL hücrelerinden salgılanır ve paryetal hücrelerdeki H₂ reseptörlerini (Gs-cAMP yolu) uyararak asit sekresyonunu en güçlü şekilde artırır. C) Asetilkolin, vagus siniri ve enterik nöronlardan salınır; paryetal hücredeki M₃ reseptörlerini (Gq-IP₃/Ca²⁺ yolu) uyararak asit salgısını artırır. D) Midenin besinlerle gerilmesi, hem uzun vagovagal refleksleri hem de kısa lokal enterik refleksleri tetikleyerek asetilkolin ve gastrin salınımı üzerinden asit sekresyonunu artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Safra kanalikülleri ile safra duktusu arasında bağlantı sağlayan anatomik yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hering kanalı",
+      "B": "Disse aralığı",
+      "C": "Mall boşluğu",
+      "D": "Sinüzoid",
+      "E": "İto hücresi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Komşu hepatositlerin apikal membranları arasında oluşan duvarı bulunmayan safra kanaliküllerinden gelen safra, klasik karaciğer lobülünün periferinde hem hepatositler hem de kübik kolanjiyositler tarafından döşeli kısa geçiş kanalları olan Hering kanallarına (kolanjiyollere) dökülür; Hering kanalları da portal alandaki interlobüler safra duktuslarına açılarak kanaliküller ile safra duktusları arasındaki anatomik bağlantıyı ve hepatik kök/progenitör (oval) hücre nişini oluşturur. Çeldiriciler: B) Disse aralığı (perisinüzoidal aralık), sinüzoid endoteli ile hepatositlerin bazolateral yüzleri arasında bulunan, kan plazmasının hepatositlerle madde alışverişi yaptığı boşluktur; safra yolu değildir. C) Mall boşluğu (periportal aralık), portal alan stroması ile en dıştaki hepatositlerin oluşturduğu sınırlayıcı plak (limiting plate) arasındaki lenfatik sıvı toplama aralığıdır. D) Sinüzoid, portal ven ve hepatik arter kanını santral vene taşıyan pencereli kapiller damardır. E) İto hücresi, Disse aralığında yerleşen ve A vitamini depolayan perisinüzoidal stellat hücredir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin intestinal lümenden emilimi doğrudan veya dolaylı olarak sodyuma bağımlı değildir?",
+    "options": {
+      "A": "Fruktoz",
+      "B": "Galaktoz",
+      "C": "Glukoz",
+      "D": "Primer safra asitleri",
+      "E": "Nötral amino asitler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Bir monosakkarit olan fruktozun ince bağırsak lümeninden enterosit içine geçişi, apikal membranda bulunan GLUT-5 taşıyıcısı aracılığıyla konsantrasyon gradyanı yönünde kolaylaştırılmış difüzyonla gerçekleşir; bu taşıma sürecinde enerji (ATP) harcanmaz ve sodyum (Na⁺) iyonu gradyanına doğrudan veya dolaylı bağımlılık yoktur. Çeldiriciler: B) Galaktoz ve C) Glukoz, enterosit apikal membranındaki SGLT-1 (sodyum-glukoz kotransporter 1) proteini ile Na⁺ gradyanına bağımlı sekonder aktif taşıma yoluyla emilir. D) Primer ve konjuge safra asitleri, terminal ileumda enterosit apikal membranındaki ASBT (apikal sodyum-bağımlı safra asidi taşıyıcısı) aracılığıyla Na⁺ ile kotransport edilerek enterohepatik dolaşıma geri kazanılır. E) Nötral amino asitler, enterosit fırçamsı kenarında bulunan B⁰AT1 gibi sodyum-bağımlı amino asit kotransporter sistemleri ile Na⁺ gradyanı kullanılarak hücre içine alınır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde özofagustan kardiyaya geçişteki epitel değişimi doğru olarak verilmiştir?",
+    "options": {
+      "A": "Çok katlı keratinleşmiş yassı epitel > tek katlı prizmatik sekretuvar epitel",
+      "B": "Çok katlı keratinleşmemiş yassı epitel > tek katlı prizmatik sekretuvar epitel",
+      "C": "Çok katlı keratinleşmemiş yassı epitel > çok katlı sekretuvar epitel",
+      "D": "Tek katlı kübik epitel > çok katlı keratinleşmiş yassı epitel",
+      "E": "Çok katlı değişici epitel > tek katlı yassı epitel"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İnsanda özofagus lümeni, yutulan besin bolusunun oluşturduğu mekanik sürtünmeye direnç sağlayan çok katlı yassı keratinleşmemiş (non-keratinize) epitel ile döşelidir; gastroözofageal bileşkede (Z çizgisinde) bu epitel aniden (keskin bir sınırla) mide kardiyasını döşeyen ve asit/pepsine karşı koruyucu mukus salgılayan tek katlı prizmatik (kolumnar) sekretuvar epitele dönüşür. Çeldiriciler: A) İnsanda özofagus epiteli keratinleşmiş (keratinize) değildir (keratinize özofagus epiteli kemirgenlerde ve otçul hayvanlarda görülür). C) Mide kardiya epiteli çok katlı değil, tek katlı prizmatik mukus-sekretuvar epiteldir. D) Özofagusta tek katlı kübik epitel, kardiyada ise çok katlı keratinleşmiş yassı epitel bulunmaz. E) Çok katlı değişici epitel (ürotelyum) üriner sistem yollarına (pelvis renalis, üreter, mesane) özgüdür; gastrointestinal kanalda yer almaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi gastrik motiliteyi azaltarak veya pilor sfinkterini kasararak mide boşalmasını azaltan hormonlardan biri değildir?",
+    "options": {
+      "A": "Peptid YY",
+      "B": "Kolesistokinin",
+      "C": "Sekretin",
+      "D": "Glukoz bağımlı insülinotropik polipeptid",
+      "E": "Motilin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Motilin, mide boşalmasını yavaşlatan bir enterogastron değildir; açlık döneminde (yemek aralarında) duodenum ve jejunumdan salgılanarak mide ve ince bağırsak düz kas kasılmalarını (migratuvar motor kompleksi - MMC) güçlü şekilde uyaran ve lüminal içeriğin distale ilerlemesini hızlandıran prokinetik bir hormondur. Çeldiriciler: A) Peptid YY (PYY), distal ileum ve kolondaki L hücrelerinden özellikle yağlı kimus varlığında salgılanır ve \"ileal fren (ileal brake)\" mekanizmasıyla mide motilitesini ve boşalmasını güçlü biçimde inhibe eder. B) Kolesistokinin (CCK), duodenuma geçen yağ asitleri ve amino asitlere yanıt olarak I hücrelerinden salgılanır; pilor sfinkterini kasarak ve antrum kasılmalarını azaltarak mide boşalmasını en güçlü yavaşlatan fizyolojik hormondur. C) Sekretin, duodenuma geçen asidik kimus uyarısıyla S hücrelerinden salgılanır; pilor tonusunu artırıp mide motilitesini baskılayarak mide boşalmasını yavaşlatır. D) Glukoz bağımlı insülinotropik polipeptid (GIP / gastrik inhibitör peptid), duodenum ve jejunum K hücrelerinden salgılanır; inkretin etkisinin yanı sıra yüksek düzeylerde mide motilitesini ve boşalmasını azaltır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki yapılardan hangisi orta bağırsaktan gelişmez?",
+    "options": {
+      "A": "Mide",
+      "B": "Jejunum",
+      "C": "İleum",
+      "D": "Apendiks",
+      "E": "Çekum"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Embriyonik dönemde mide, orta bağırsaktan (midgut) değil, çölyak arter tarafından beslenen ön bağırsaktan (foregut) gelişir (4. haftada ön bağırsağın fuziform bir genişlemesi olarak belirir ve longitudinal ile anteroposterior eksenlerde rotasyon yaparak son şeklini alır). Çeldiriciler: B) Jejunum, C) İleum, D) Apendiks ve E) Çekum, süperior mezenterik arter tarafından beslenen orta bağırsaktan (midgut) gelişen yapılardır (orta bağırsak; safra kanalının açıldığı ampulla Vateri'nin hemen distalindeki duodenum kısmından başlayarak jejunum, ileum, çekum, apendiks, çıkan kolon ve transvers kolonun proksimal 2/3'lük kısmını oluşturur).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mide paryetal hücrelerinden salgılanan ve B12 vitamini emilimiyle ilişkili olan madde aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Motilin",
+      "B": "Pepsinojen",
+      "C": "Mukus",
+      "D": "İntrinsik faktör",
+      "E": "Gastrin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Mide oksintik bezlerindeki paryetal (oksintik) hücreler tarafından HCl ile birlikte salgılanan glikoprotein yapılı intrinsik faktör (Castle'ın intrinsik faktörü), duodenumda R proteinlerinden (haptokorrin) ayrılan B12 vitaminine (kobalamin) bağlanarak onu pankreatik proteazlardan korur ve terminal ileum enterositlerinin apikal membranındaki kubilin reseptörlerine bağlanarak B12 vitamininin reseptör aracılı endositozla emilmesini sağlar (paryetal hücrelerin salgıladığı yaşamsal/vazgeçilmez tek maddedir). Çeldiriciler: A) Motilin, ince bağırsak Mo hücrelerinden salgılanan ve açlık kasılmalarını (MMC) başlatan peptid hormondur. B) Pepsinojen, mide esas (şef) hücrelerinden salgılanan proteolitik proenzimdir. C) Mukus, yüzey ve boyun mukus hücrelerinden salgılanan mukozal koruyucu glikoproteindir. E) Gastrin, antrum G hücrelerinden kana salgılanan ve asit üretimini uyaran hormondur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin eksikliğinde akalazya hastalığı ortaya çıkar?",
+    "options": {
+      "A": "Kalsitonin gen ilişkili peptid",
+      "B": "P maddesi",
+      "C": "Vazoaktif intestinal peptid",
+      "D": "Glukagon benzeri peptid-1",
+      "E": "Asetilkolin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Akalazya, alt özofagus sfinkterinin (LES) yutma sırasında gevşeyememesi ve özofagus gövdesinde aperistaltizm ile karakterize bir motilite bozukluğudur; temel patofizyolojisi özofagus duvarındaki miyenterik (Auerbach) pleksusta bulunan ve düz kas gevşemesini sağlayan inhibitör nöronların (başlıca vazoaktif intestinal peptid [VIP] ve nitrik oksit [NO] salgılayan nöronların) dejenerasyonu ve kaybıdır. Çeldiriciler: A) Kalsitonin gen ilişkili peptid (CGRP), duyu nöronlarından salınan, mukozal kan akımını artıran ve nosisepsiyonda rol alan bir nöropeptiddir. B) P maddesi (Substance P) ve E) Asetilkolin, enterik sinir sisteminde düz kas kasılmasını (eksitasyonu) sağlayan uyarıcı nörotransmitterlerdir; akalazyada bu uyarıcı yolaklar sağlam kaldığı için alt özofagus sfinkteri tonusu yüksek (hipertonik) kalır. D) Glukagon benzeri peptid-1 (GLP-1), bağırsak L hücrelerinden salgılanan ve glukoza bağımlı insülin salınımını artıran bir inkretin hormondur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Sentroasiner hücreler\nII. Hepatositler\nIII. Kupffer hücreleri\nIV. Endotel hücreleri\nYukarıdakilerden hangileri karaciğer sinüzoid duvarında bulunur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Karaciğerdeki vasküler sinüzoidlerin duvarı esas olarak pencereli (fenestralı) sinüzoidal endotel hücreleri ve bu duvarın lümen yüzeyine tutunmuş şekilde yerleşen yerleşik makrofajlar olan Kupffer hücreleri tarafından oluşturulur. Öncüllerin Analizi: I. Sentroasiner hücreler (Yanlış): Karaciğerde bulunmaz; ekzokrin pankreas asinüslerinin merkezinde yer alan ve interkalar duktusun başlangıcını oluşturan bikarbonat salgılayıcı kübik/yassı hücrelerdir. II. Hepatositler (Yanlış): Karaciğerin parankim kordonlarını (Remak kordonlarını) oluşturur ve sinüzoid duvarının dış tarafında, Disse aralığının öbür yüzünde yer alır; doğrudan vasküler sinüzoid duvarını döşeyen hücre değildir. III. Kupffer hücreleri (Doğru): Sinüzoid duvarının lüminal yüzünde endotel hücrelerine tutunmuş veya aralarına uzantılarını sokmuş olarak bulunan sinüzoidal makrofajlardır. IV. Endotel hücreleri (Doğru): Sinüzoid duvarını döşeyen, diyaframsız fenestralara ve kesintili bazal laminaya sahip özelleşmiş vasküler endotel hücreleridir. Çeldiriciler: A ve B şıkları pankreasa özgü sentroasiner hücreleri (I) içerdiği için; C ve D şıkları ise sinüzoid duvarında değil Disse aralığının dışında kordonlar halinde dizilen hepatositleri (II) içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Asetilkolin\nII. Histamin\nIII. Gastrin\nIV. Somatostatin\nYukarıdakilerden hangileri hücre içi serbest kalsiyum konsantrasyonunu fosfolipaz C aracılı bir mekanizma ile değiştirerek paryetal hücrelerden asit sekresyonunu uyarır?",
+    "options": {
+      "A": "Yalnız IV",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Paryetal hücrelerden gastrik asit (HCl) sekresyonunu uyaran üç temel etkenden asetilkolin ve gastrin, Gq proteini kenetli reseptörlerine bağlanarak membran fosfolipaz C (PLC) enzimini aktive eder ve oluşan inozitol trifosfat (IP₃) ile endoplazmik retikulumdan sitoplazmaya Ca²⁺ salınımını artırarak asit sekresyonunu uyarır. Öncüllerin Analizi: I. Asetilkolin (Doğru): Vagal sinir uçlarından salınır, paryetal hücredeki M₃ muskarinik reseptörüne (Gq kenetli) bağlanır, PLC -> IP₃/DAG yolunu çalıştırarak hücre içi Ca²⁺ artışıyla asit salgısını uyarır. II. Histamin (Yanlış): Asit sekresyonunu uyarır ancak bu etkisini PLC-Ca²⁺ yoluyla değil, H₂ reseptörü (Gs kenetli) üzerinden adenilat siklazı aktive ederek hücre içi cAMP düzeyini artırmak suretiyle gerçekleştirir. III. Gastrin (Doğru): Paryetal hücredeki CCK-B (CCK₂) reseptörüne (Gq kenetli) bağlanır ve PLC -> IP₃/DAG -> hücre içi serbest Ca²⁺ artışı mekanizmasıyla asit sekresyonunu uyarır. IV. Somatostatin (Yanlış): Asit sekresyonunu uyarmaz, aksine SST₂ reseptörü (Gi kenetli) üzerinden adenilat siklazı ve cAMP oluşumunu baskılayarak asit sekresyonunu inhibe eder. Çeldiriciler: A ve D şıkları inhibitör olan somatostatini (IV) içerdiği için; C ve E şıkları ise cAMP yolunu kullanan histamini (II) içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Periodontal ligament aşağıdakilerden hangisinden köken alır?",
+    "options": {
+      "A": "Dental kese",
+      "B": "Dental papilla",
+      "C": "Sementoblast",
+      "D": "Odontoblastik proses",
+      "E": "Predentin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Diş kökündeki sement dokusunu alveol kemiğine bağlayan ve dişi soket içinde asılı tutan özelleşmiş sıkı bağ dokusu olan periodontal ligament, embriyolojik olarak nöral krest (ektomezenflim) kökenli dental keseden (dental folikül / dental sac) köken alır (dental kese; sement, periodontal ligament ve alveol kemiğini oluşturur). Çeldiriciler: B) Dental papilla, ektomezenflim kökenli olup odontoblastları (dentini) ve diş pulpasını oluşturur. C) Sementoblast, dental keseden farklanarak sement matriksini sentezleyen hücredir; periodontal ligamentin embriyolojik kökeni değildir. D) Odontoblastik proses (Tomes lifi), odontoblastların dentin tübülleri içerisine uzanan sitoplazmik uzantılarıdır. E) Predentin, odontoblastlar tarafından yeni salgılanmış, henüz mineralize olmamış organik dentin matriksidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dişin histolojik yapısıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Taç kısmı mineyle örtülüdür.",
+      "B": "Odontoblastlar predentin matriksi salgılar.",
+      "C": "Ameloblastlar minenin matriksini üretirler.",
+      "D": "Dentin kemikten daha serttir.",
+      "E": "Mine daha çok kemiğe benzer olup odontoblast uzantılarını içerir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Mine dokusu kemiğe benzemez ve odontoblast uzantılarını içermez (tamamen asellülerdir ve uzantı barındırmaz); organik matriks yapısı (Tip I kollajen) ve mineralizasyon oranı (%70 hidroksiapatit) bakımından kemiğe benzeyen ve tübülleri içerisinde odontoblastların sitoplazmik uzantılarını (Tomes liflerini) barındıran diş dokusu dentindir. Çeldiriciler: A) Dişin ağız boşluğunda görünen anatomik taç (kuron) kısmı mine tabakasıyla, kök kısmı ise sement ile örtülüdür (Doğru). B) Pulpa periferinde dizilen odontoblastlar, mineralize olmadan önceki organik dentin matriksi olan predentini salgılar (Doğru). C) Ektoderm kökenli ameloblastlar, mine matriks proteinlerini sentezleyip salgılar (Doğru). D) Diş dokularının mineralizasyon ve sertlik sıralaması Mine (%96) > Dentin (%70) > Sement/Kemik (%65) şeklindedir; dolayısıyla dentin kemikten daha serttir (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tükürüğün içeriğinde bulunan ve vazodilatör etkisiyle tükürük salgılanmasını artıran madde aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Müsin",
+      "B": "Ürik asit",
+      "C": "Tiyosiyanat",
+      "D": "Kallikrein",
+      "E": "Lizozim"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Parasempatik uyarıyla tükürük bezi asiner ve çizgili kanal hücrelerinden salgılanan proteolitik bir enzim olan kallikrein, tükürük bezi interstisyel sıvısındaki plazma alfa-2 globulini olan yüksek molekül ağırlıklı kininojeni parçalayarak güçlü bir vazodilatör peptid olan bradikinini oluşturur; bradikinin de tükürük bezi damarlarını genişleterek lokal kan akımını ve buna bağlı olarak tükürük sekresyon hızını artırır. Çeldiriciler: A) Müsin, tükürüğe viskozite kazandıran ve mukozayı kayganlaştıran glikoproteindir. B) Ürik asit, tükürükte serbest oksijen radikallerini temizleyen antioksidan bir bileşendir. C) Tiyosiyanat, tükürük peroksidaz (laktoperoksidaz) enzimi tarafından hidrojen peroksit varlığında hipotirosiyanata dönüştürülerek bakteriyostatik/bakterisidal etki gösteren antimikrobiyal iyondur. E) Lizozim, bakteri hücre duvarındaki peptidoglikanı parçalayan antibakteriyel enzimdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. EP3 prostaglandin reseptörü\nII. M3 muskarinik reseptör\nIII. CCKB/CCK2 (Kolesistokinin B/Kolesistokinin 2) reseptörü\nMide pariyetal hücrelerinde bulunan yukarıdaki reseptörlerden hangilerinin uyarılması midede asit salgısını artırır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Mide paryetal hücrelerinde asit (HCl) sekresyonunu uyaran fizyolojik reseptörler M₃ muskarinik reseptör (asetilkolin için), CCK-B/CCK₂ reseptörü (gastrin için) ve H₂ reseptörü (histamin için) iken, EP₃ prostaglandin reseptörünün uyarılması asit salgısını azaltır. Öncüllerin Analizi: I. EP3 prostaglandin reseptörü (Yanlış): Prostaglandin E₂ (PGE₂) ve PGI₂'nin paryetal hücre üzerinde bağlandığı EP₃ reseptörü Gi proteini ile kenetlidir; uyarılması adenilat siklazı inhibe ederek hücre içi cAMP düzeyini düşürür ve asit salgısını baskılar (mukozal koruyucu etki). II. M3 muskarinik reseptör (Doğru): Vagal parasempatik liflerden salınan asetilkolinin bağlandığı Gq proteini kenetli reseptördür; PLC -> IP₃/Ca²⁺ yoluyla midede asit salgısını artırır. III. CCKB/CCK2 reseptörü (Doğru): Gastrin hormonunun paryetal hücre (ve ECL hücresi) üzerinde bağlandığı Gq proteini kenetli reseptördür; hücre içi serbest Ca²⁺ düzeyini artırarak asit salgısını uyarır. Çeldiriciler: A, C ve D şıkları asit sekresyonunu inhibe eden EP₃ prostaglandin reseptörünü (I) içerdiği için; B şıkkı ise asit salgısını artıran CCK-B/CCK₂ reseptörünü (III) dışarıda bıraktığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karaciğerde Disse aralığında biriken fazla sıvı aşağıdakilerden hangisiyle lenfatik dolaşıma katılır?",
+    "options": {
+      "A": "Mall aralığı",
+      "B": "Stellat hücreler",
+      "C": "Sinüzoid",
+      "D": "Safra kanalikülleri",
+      "E": "Vena centralis çevresi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Karaciğer sinüzoidlerinden fenestralar yoluyla perisinüzoidal Disse aralığına süzülen kan plazmasının (proteinden zengin interstisyel sıvının) fazlası, hepatosit kordonları boyunca lobülün periferine doğru ilerleyerek portal alan bağ dokusu ile en dıştaki hepatosit tabakası (sınırlayıcı plak) arasında yer alan periportal Mall aralığına (Mall boşluğuna) dökülür ve buradan portal alandaki kör uçlu başlangıç lenf kapillerlerine alınarak lenfatik dolaşıma katılır. Çeldiriciler: B) Stellat hücreler (İto hücreleri), Disse aralığında bulunan ve A vitamini depolayan hücrelerdir; lenfatik drenaj yolu değildir. C) Sinüzoid, portal ven ve hepatik arter kanının aktığı kapiller damardır; lenf sıvısının toplandığı lenfatik kanal değildir. D) Safra kanalikülleri, hepatositler tarafından üretilen safrayı Hering kanallarına taşıyan apikal oluklardır; safranın yönü ile lenf akışı birbirinden tamamen ayrıdır. E) Vena centralis çevresi, sinüzoidal venöz kanın lobül merkezinde toplandığı bölgedir; lenfatik kapillerler lobül merkezinde değil, periferdeki portal alanda (Mall aralığı komşuluğunda) başlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karaciğer yetmezliği olan erişkin bir erkekte aşağıdakilerden hangisinin plazma konsantrasyonunda artış olması en olasıdır?",
+    "options": {
+      "A": "Glukoz",
+      "B": "Fibrinojen",
+      "C": "Östrojen",
+      "D": "25-hidroksikolekalsiferol",
+      "E": "Protrombin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Karaciğer steroid hormonların (özellikle östrojenlerin) inaktivasyonu, glukuronid/sülfat konjugasyonu ve safra yoluyla atılımından sorumlu ana organ olduğu için, karaciğer yetmezliği gelişen erişkin bir erkekte östrojen yıkımı bozulur ve periferik dokularda androjenlerin östrojene aromatizasyonu da artarak plazma serbest östrojen konsantrasyonu yükselir (bu durum jinekomasti, testiküler atrofi, palmar eritem ve spider anjiyoma gibi bulgulara yol açar). Çeldiriciler: A) Ağır karaciğer yetmezliğinde hepatik glikojen depoları tükenir ve glukoneogenez kapasitesi bozulduğu için hiperglisemi değil, açlık hipoglisemisi (plazma glukozunda azalma) görülür. B) Fibrinojen (Faktör I) ve E) Protrombin (Faktör II), yalnızca hepatositlerde sentezlenen pıhtılaşma faktörleridir; karaciğer yetmezliğinde sentezleri azaldığı için plazma düzeyleri düşer ve kanama diyatezi gelişir. D) Kolekalsiferolün (D₃ vitamini) 25-hidroksikolekalsiferole dönüşümü karaciğerdeki mikrozomal 25-hidroksilaz enzimiyle gerçekleşir; karaciğer yetmezliğinde bu hidroksilasyon bozulduğu için plazma düzeyi azalır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Papilla sirkumvallata'yı saran epitel tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çok katlı yassı epitel",
+      "B": "Tek katlı yassı epitel",
+      "C": "Yalancı çok katlı prizmatik epitel",
+      "D": "Çok katlı kübik epitel",
+      "E": "Çok katlı değişici epitel"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Dilin dorsal yüzeyinde sulkus terminalisin hemen önünde V şeklinde dizilen 8–12 adet en büyük papilla olan papilla sirkumvallata (vallat papilla), dilin diğer dorsal papillaları gibi çok katlı yassı (non-keratinize veya hafif parakeratinize) epitel ile örtülüdür ve yan duvarlarındaki bu çok katlı yassı epitel içerisinde çok sayıda tat tomurcuğu barındırır. Çeldiriciler: B) Tek katlı yassı epitel; damar endoteli, seröz zarlar (mezotel) ve akciğer alveollerinde bulunur, ağız mukozasında yer almaz. C) Yalancı çok katlı prizmatik epitel, solunum yolları ve epididimis gibi yapılarda görülür. D) Çok katlı kübik epitel, ter bezleri ve büyük tükürük bezlerinin boşaltım kanallarında bulunur. E) Çok katlı değişici epitel (ürotelyum), mesane ve üreter gibi idrar yollarına özgüdür.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi orta bağırsak (midgut) bölümünün gelişim sürecinde rol almaz?",
+    "options": {
+      "A": "Fizyolojik umbilikal fıtıklaşma",
+      "B": "Orta bağırsak \"loop\"larının rotasyonu",
+      "C": "İntestinal \"loop\"ların geri çekilmesi",
+      "D": "Bağırsakların karın arka duvarına sabitlenmesi",
+      "E": "Omental bursa'nın oluşumu"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Omental bursa (küçük periton boşluğu / bursa omentalis), orta bağırsak (midgut) gelişimiyle ilişkili değildir; ön bağırsaktan (foregut) gelişen midenin embriyonik 4–8. haftalarda kendi eksenleri etrafında yaptığı 90 derecelik rotasyon ve dorsal mezogastriumun sola doğru uzaması sonucunda midenin arkasında oluşan periton boşluğudur. Çeldiriciler: A) Fizyolojik umbilikal fıtıklaşma, 6. haftada orta bağırsak halkasının hızlı uzaması ve karaciğer ile mezonefrozun karın boşluğunda çok yer kaplaması nedeniyle orta bağırsağın göbek kordonu içine herniasyonudur (Doğru). B) Orta bağırsak halkaları, süperior mezenterik arter ekseni etrafında saat yönünün tersine toplam 270 derecelik rotasyon (90° herniasyon sırasında, 180° karın içine dönerken) gerçekleştirir (Doğru). C) 10. haftada karın boşluğunun genişlemesiyle fıtıklaşmış intestinal halkalar karın içine geri çekilir (ilk olarak proksimal jejunum, en son çekum tomurcuğu döner) (Doğru). D) Döndükten sonra çıkan kolon (orta bağırsak türevi) ve inen kolonun mezenterleri karın arka duvarı peritonu ile kaynaşarak bu bölümler sekonder retroperitoneal olarak sabitlenir (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. P maddesi\nII. Asetilkolin\nIII. Vazoaktif intestinal peptid\nGastrointestinal peristaltik hareketin anal yönde düz kas gevşemesini sağlayan bileşeni yukarıdakilerden hangileri aracılığıyla oluşur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Bağırsak lümeninin besin bolusu ile gerilmesiyle tetiklenen peristaltik reflekste (\"bağırsak yasası\"), bolusun gerisindeki (oral yöndeki) segmentte sirküler düz kaslar kasılırken, bolusun ilerisindeki (anal/aboral yöndeki) alıcı segmentte sirküler düz kaslar gevşer; bu anal yöndeki gevşeme miyenterik pleksustaki inhibitör motor nöronlardan salınan vazoaktif intestinal peptid (VIP) ve nitrik oksit (NO) aracılığıyla sağlanır. Öncüllerin Analizi: I. P maddesi (Yanlış): Bolusun oral (proksimal) tarafında yer alan uyarıcı enterik motor nöronlardan salınır ve sirküler düz kasların kasılmasını sağlar. II. Asetilkolin (Yanlış): P maddesi ile birlikte oral yönde kasılmayı (eksitasyonu) sağlayan ana uyarıcı nörotransmitterdir; anal yönde gevşeme yapmaz. III. Vazoaktif intestinal peptid (Doğru): İnhibitör miyenterik nöronlardan salınarak anal (distal) yöndeki sirküler düz kaslarda hücre içi cAMP artışıyla gevşeme (reseptif relaksasyon) oluşturur ve bolusun ileriye doğru hareket etmesine olanak tanır. Çeldiriciler: A, B, D ve E şıkları oral yönde düz kas kasılması oluşturan P maddesi (I) ve/veya asetilkolin (II) öncüllerini içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gastrointestinal sistemde gerçekleşen olaylar ve bu olayların gerçekleştiği hücrelerle ilgili aşağıdaki eşleştirmelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Gastrin sekresyonu – Gastrik antrum pilorik bez hücreleri",
+      "B": "Demir absorbsiyonu – İntestinal Cajal hücreleri",
+      "C": "Safra tuzu reabsorpsiyonu – İleum epitel hücreleri",
+      "D": "H sekresyonu – Gastrik paryetal hücreler",
+      "E": "İntrinsik faktör sekresyonu – Gastrik paryetal hücreler"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İnterstisyel Cajal hücreleri, düz kas tabakaları arasında yerleşen ve yavaş dalga potansiyellerini üreterek gastrointestinal motilitenin \"pacemaker (kalp pili)\" görevini üstlenen mezenkimal kökenli hücrelerdir; besin veya demir emilimiyle hiçbir ilgisi yoktur (diyetle alınan demirin absorbsiyonu duodenum ve proksimal jejunumdaki absorptif epitel hücreleri olan enterositlerin apikal membranındaki DMT-1 taşıyıcısı aracılığıyla gerçekleşir). Çeldiriciler: A) Gastrin hormonu, mide antrumundaki pilorik bezlerde yer alan enteroendokrin G hücrelerinden salgılanır (Doğru). C) Safra tuzlarının %95'i, terminal ileumdaki absorptif epitel hücreleri (enterositler) tarafından ASBT taşıyıcısı ile geri emilerek enterohepatik dolaşıma katılır (Doğru). D) Mide asidini oluşturan hidrojen (H⁺) iyonları, oksintik bezlerdeki gastrik paryetal hücrelerin apikal H⁺/K⁺-ATPaz pompasıyla salgılanır (Doğru). E) B12 vitamini emilimi için gerekli olan intrinsik faktör, insan midesinde gastrik paryetal hücreler tarafından salgılanır (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tükürük bezlerinin hangi bölümünde sodyum iyonu geri emilerek tükürük hipotonik hâle gelir?",
+    "options": {
+      "A": "Asinus",
+      "B": "İnterkalar kanal",
+      "C": "Çizgili kanal",
+      "D": "İnterlobular kanal",
+      "E": "İnterlobar kanal"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Tükürük bezi asinüslerinde üretilen primer tükürük plazma ile izotoniktir; bu sıvı intralobüler bir kanal olan çizgili (striyate) kanaldan geçerken bazolateral membrandaki bol mitokondri ve Na⁺/K⁺-ATPaz pompaları sayesinde lümenden aktif olarak Na⁺ (ve pasif olarak Cl⁻) geri emilir, lümene daha az miktarda K⁺ ve HCO₃⁻ salgılanır ve çizgili kanal epiteli suya geçirgen olmadığı için lümende su kalarak sekonder tükürük hipotonik hâle gelir. Çeldiriciler: A) Asinüslerde sentezlenen primer salgı elektrolit bileşimi açısından plazmaya çok benzer ve izotoniktir; burada hipotonikleşme gerçekleşmez. B) İnterkalar (boyun) kanal, asinüslerden hemen sonra gelen tek katlı kübik epitel döşeli kısa kanaldır; az miktarda bikarbonat ve lizozim/laktoferrin katkısı yapar ancak ana sodyum geri emilim yeri değildir. D) İnterlobular kanal ve E) İnterlobar kanal, bağ dokusu bölmeleri içinde yer alan daha büyük boşaltım kanalları olup esas olarak oluşan tükürüğün ağız boşluğuna iletilmesinde görev alır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Mide boşalması\nII. Pankreatik HCO₃⁻ salgısı\nIII. Pankreatik enzim salgısı\nIV. Safra kesesinin kasılması\nYukarıdakilerden hangileri kolesistokinin (CCK) ile baskılanır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "Yalnız III",
+      "D": "II, III ve IV",
+      "E": "Yalnız IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Duodenum ve jejunum mukozasındaki I hücrelerinden yağ asitleri ve amino asitlerin lümene geçişiyle salgılanan kolesistokinin (CCK), ince bağırsakta sindirim ve emilim için yeterli süre kazanmak amacıyla mide korpus/antrum motilitesini azaltıp pilor sfinkterini kasarak mide boşalmasını fizyolojik olarak baskılar. Öncüllerin Analizi: I. Mide boşalması (Doğru): CCK, vagovagal refleksler ve doğrudan pilor sfinkteri üzerindeki kasıcı etkisiyle mide boşalmasını yavaşlatır ve baskılar. II. Pankreatik HCO₃⁻ salgısı (Yanlış): CCK pankreatik bikarbonat salgısını baskılamaz; aksine sekretinin pankreas duktus hücreleri üzerindeki HCO₃⁻ salgılatıcı etkisini potansiyalize eder (güçlendirir). III. Pankreatik enzim salgısı (Yanlış): CCK, pankreas asiner hücrelerindeki CCK-A (CCK₁) reseptörlerini Gq-IP₃/Ca²⁺ yoluyla uyararak zimojen granüllerinin ekzositozunu ve pankreatik sindirim enzimi salgısını en güçlü şekilde artırır. IV. Safra kesesinin kasılması (Yanlış): CCK, adını da aldığı üzere safra kesesi düz kaslarını güçlü bir şekilde kasar ve aynı anda Oddi sfinkterini gevşeterek safranın duodenuma akışını sağlar. Çeldiriciler: B, C, D ve E şıkları CCK tarafından uyarılan/desteklenen pankreatik salgıları (II, III) veya safra kesesi kasılmasını (IV) içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Bağırsak lümeninde yağların emülsifikasyonu\nII. Miçel formasyonu\nIII. Şilomikron formasyonu\nIV. Pankreatik lipazın etkisi\nYağların sindirim ve emilimi ile ilgili olayların meydana geliş sırası hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "IV – I – II – III",
+      "B": "IV – I – III – II",
+      "C": "I – IV – II – III",
+      "D": "I – II – IV – III",
+      "E": "I – III – II – IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Diyetle alınan hidrofobik lipidlerin (trigliseridlerin) sindirimi ve emilimi; önce safra tuzlarıyla mekanik/kimyasal emülsifikasyon, ardından yüzey alanı artmış damlacıklara pankreatik lipazın etki etmesi, oluşan yıkım ürünlerinin safra tuzlarıyla miçeller içine alınarak fırçamsı kenara taşınması ve enterosit içinde yeniden sentezlenen trigliseridlerin şilomikronlar halinde lenfe verilmesi sırasıyla gerçekleşir (I – IV – II – III). Öncüllerin Analizi: I. Bağırsak lümeninde yağların emülsifikasyonu (1. Basamak): Duodenumda safra tuzları ve lesitin (fosfatidilkolin) amfipatik özellikleriyle büyük yağ damlalarının yüzey gerilimini düşürerek onları küçük emülsiyon damlacıklarına böler ve enzimler için yüzey alanını artırır. IV. Pankreatik lipazın etkisi (2. Basamak): Kolipaz yardımıyla emülsiyon damlacıklarına tutunan pankreatik lipaz, trigliseridleri serbest yağ asitleri ve 2-monogliseridlere hidrolize eder. II. Miçel formasyonu (3. Basamak): Açığa çıkan serbest yağ asitleri, 2-monogliseridler, kolesterol ve yağda eriyen vitaminler, safra tuzlarının hidrofobik iç kısmına yerleşerek suda çözünebilen küçük küresel \"miçelleri\" oluşturur ve enterosit apikal yüzeyindeki durgun su tabakasını geçer. III. Şilomikron formasyonu (4. Basamak): Enterosit içine difüzyonla giren yağ asitleri ve monogliseridler düz endoplazmik retikulumda yeniden trigliseridlere esterleştirilir, apolipoprotein B-48 ile birleştirilerek şilomikronlar oluşturulur ve ekzositozla santral lakteale (lenfe) verilir. Çeldiriciler: A ve B şıkları emülsifikasyondan önce lipaz etkisini başlattığı için; D şıkkı lipazla sindirim gerçekleşmeden miçel oluşturduğu için; E şıkkı ise enterosit içi son basamak olan şilomikron oluşumunu ikinci sıraya koyduğu için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki yapılardan hangisi endoderm kökenli ilkel bağırsak kanalından gelişmez?",
+    "options": {
+      "A": "Hepatositler",
+      "B": "Dalak parankimi",
+      "C": "Pankreas seröz asinüsleri",
+      "D": "Tiroid bezi",
+      "E": "Akciğer alveolleri"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dalak, anatomik olarak ön bağırsak (mide) komşuluğunda yer almasına ve çölyak trunkustan beslenmesine rağmen endoderm kökenli ilkel bağırsak kanalından gelişmez; embriyonik 5. haftada dorsal mezogastriumun iki yaprağı arasındaki splanknik mezoderm (mezenflim) hücrelerinin yoğunlaşması ve proliferasyonu ile tamamen mezodermden gelişen lenfoid bir organdır. Çeldiriciler: A) Hepatositler ve safra yolları epiteli, ön bağırsağın distal kısmının endoderminden çıkan hepatik divertikülden (karaciğer tomurcuğundan) gelişir. C) Pankreasın ekzokrin seröz asinüsleri ve endokrin Langerhans adacıkları, ön bağırsak (duodenum) endoderminden çıkan dorsal ve ventral pankreas tomurcuklarından gelişir. D) Tiroid bezi folikül epiteli, faringeal bağırsak (ön bağırsak) tabanında dil kökündeki foramen çekum bölgesinde endodermin kalınlaşmasıyla gelişir. E) Akciğer alveolleri ve tüm alt solunum yolları epiteli, ön bağırsağın ventral duvarından gelişen respiratuvar divertikül (akciğer tomurcuğu) endoderminden köken alır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Pankreas ile parotis bezi histolojik olarak karşılaştırıldığında, aşağıdakilerden hangisi sadece pankreasa özgü bir yapıdır?",
+    "options": {
+      "A": "Seröz asinus",
+      "B": "Duktus interkalaris",
+      "C": "Duktus interlobularis",
+      "D": "Sentroasiner hücre",
+      "E": "Miyoepitelyal hücre"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Ekzokrin pankreas ile parotis bezi histolojik kesitlerde birbirine çok benzeyen pür seröz bezler olmakla birlikte, interkalar duktusun asinus lümeninin tam merkezinden başlaması nedeniyle asinus ortasında soluk boyanan çekirdekleriyle görülen sentroasiner hücreler yalnızca pankreasta bulunur ve parotis bezinden ayırt edilmesini sağlayan patognomonik histolojik özelliktir (ayrıca pankreasta çizgili kanal ve miyoepitelyal hücre bulunmazken Langerhans adacıkları bulunur). Çeldiriciler: A) Seröz asinus, her iki bezin de parankimini oluşturan piramidal şekilli protein/enzim sentezleyici salgı birimleridir. B) Duktus interkalaris (boyun kanalı) ve C) Duktus interlobularis, hem pankreasta hem de parotis bezinde bulunan boşaltım kanalı segmentleridir. E) Miyoepitelyal hücreler, pankreasta bulunmaz; aksine parotis bezinde (ve diğer tükürük bezlerinde) asinüsleri ve interkalar kanalları dıştan sararak salgının boşaltılmasına yardım eden kontraktil hücrelerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karın ağrısı ve midede yanma şikâyetleriyle başvuran 55 yaşındaki erkek hastanın üst gastrointestinal sistem endoskopik incelemesinde mide mukozasında keskin sınırlı, oval (zımba deliği gibi) mukozal kayıp ve hemoraji odakları görülüyor. Bu hastada midenin asitph salgılanmasını baskılamak için aşağıdakilerden hangisi öncelikli olarak yapılmalıdır?",
+    "options": {
+      "A": "Vazoaktif intestinal peptid (VIP) yolağının inhibe edilmesi",
+      "B": "Histamin yolağının aktiflenmesi",
+      "C": "Sekretin yolağının inhibe edilmesi",
+      "D": "Na-K pompasının aktive edilmesi",
+      "E": "H-K pompasının inhibe edilmesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Endoskopik bulguları tipik peptik ülser ile uyumlu olan bu hastada mide asit (HCl) sekresyonunu en güçlü ve öncelikli biçimde baskılamak için, paryetal hücrenin apikal (kanaliküler) membranında yer alan ve hangi uyaranla (histamin, gastrin, asetilkolin) tetiklenirse tetiklensin H⁺ iyonunun lümene pompalandığı ortak son basamak olan H⁺/K⁺-ATPaz (proton) pompasının inhibe edilmesi gerekir. Çeldiriciler: A) Vazoaktif intestinal peptid (VIP), pankreatik ve intestinal su/bikarbonat salgısını artıran ve düz kasları gevşeten bir mediyatördür; inhibisyonu mide asidini baskılamaz. B) Histamin yolağının (H₂ reseptörlerinin) aktiflenmesi asit salgısını azaltmaz, aksine cAMP artışı üzerinden asit sekresyonunu şiddetlendirerek ülseri ağırlaştırır. C) Sekretin fizyolojik olarak mide asit salgısını inhibe eden ve duodenumu bikarbonatla koruyan bir hormondur; sekretin yolağının inhibe edilmesi asit baskılanması sağlamaz, aksine koruyucu mekanizmayı bozar. D) Bazolateral Na⁺/K⁺-ATPaz pompasının aktive edilmesi hücresel iyon dengesini ve dolaylı olarak paryetal hücre fonksiyonunu destekler; asit salgısını baskılamaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi parotis bezinde bulunan yapılardan biri değildir?",
+    "options": {
+      "A": "Bağ dokusu kapsül",
+      "B": "Seröz asinus",
+      "C": "Seröz yarımay",
+      "D": "Boyun (interkale) kanal",
+      "E": "Çizgili (striyate) kanal"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Seröz yarımaylar (Gianuzzi / von Ebner yarımayları), hem muköz hem seröz hücreler içeren mikst tükürük bezlerinde (submandibular ve sublingual bezlerde) muköz tübüloasinüslerin kör uçlarını şapka gibi dıştan saran seröz hücre gruplarıdır; parotis bezi tamamen pür seröz asinüslerden oluştuğu ve hiç muköz asinus içermediği için parotis bezinde seröz yarımay yapısı bulunmaz. Çeldiriciler: A) Parotis bezi, dıştan kalın ve iyi gelişmiş bir sıkı bağ dokusu kapsülü ile sarılıdır; bu kapsülden ayrılan septalar bezi lob ve lobüllere ayırır. B) Parotis bezinin tüm salgı son kısımları piramidal hücrelerden oluşan pür seröz asinüslerdir. D) Boyun (interkale) kanallar ve E) Çizgili (striyate) kanallar, parotis bezinde oldukça uzun, belirgin ve çok iyi gelişmiş olarak bulunan intralobüler kanal bölümleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Safra kesesinin düz kaslarında kasılma ve Oddi sfinkterinde gevşemede tetikleyici rolü olan hormon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Histamin",
+      "B": "Motilin",
+      "C": "Noradrenalin",
+      "D": "Kolesistokinin",
+      "E": "Sekretin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Yağ ve protein sindirim ürünlerinin duodenuma geçmesiyle ince bağırsak I hücrelerinden salgılanan kolesistokinin (CCK), safra kesesi duvarındaki düz kas hücrelerinde bulunan CCK-A reseptörlerini doğrudan (ve vagal kolinerjik yolaklarla) uyararak safra kesesini kasar, eş zamanlı olarak koledok kanalının duodenuma açıldığı yerdeki Oddi sfinkteri üzerindeki inhibitör (VIP ve NO salgılayan) nöronları uyararak sfinkteri gevşetir ve konsantre safranın duodenuma akışını sağlar. Çeldiriciler: A) Histamin, mide ECL hücrelerinden salınarak paryetal hücrelerden HCl sekresyonunu uyarır. B) Motilin, açlık döneminde mide ve ince bağırsakta göç eden motor kompleksi (MMC) başlatır. C) Noradrenalin, sempatik sinir sisteminin nörotransmitteri olup gastrointestinal kanal ve safra kesesi düz kas kasılmasını inhibe ederken sfinkterlerin kasılmasına neden olur. E) Sekretin, safra kanalı epitel hücrelerinden (kolanjiyositlerden) ve pankreas duktuslarından bikarbonat ve su zengin sıvı salgılanmasını (kolerezis) uyarır ancak safra kesesini kasma etkisi yoktur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karaciğer parankiminde hepatik kök hücreler nerede bulunur?",
+    "options": {
+      "A": "Disse aralığı",
+      "B": "Remak kordonu",
+      "C": "Mall aralığı",
+      "D": "Hering kanalı",
+      "E": "Safra kanalikülü"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Karaciğerde ağır parankim hasarı veya hepatosit proliferasyonunun baskılandığı durumlarda aktive olarak hem hepatositlere hem de safra kanalı epitel hücrelerine (kolanjiyositlere) farklanabilen çift potansiyelli (bipotent) hepatik kök/progenitör hücreler (oval hücreler), safra kanaliküllerini interlobüler safra kanallarına bağlayan Hering kanallarında yerleşmiştir. Çeldiriciler: A) Disse aralığı, sinüzoid endoteli ile hepatositler arasındaki perisinüzoidal boşluktur; burada A vitamini depolayan İto hücreleri bulunur. B) Remak kordonu, karaciğer lobülünde santral venden perifere doğru ışınsal olarak dizilen olgun hepatosit plaklarıdır. C) Mall aralığı, portal alanın periferinde lenf sıvısının ilk toplandığı periportal aralıktır. E) Safra kanalikülü, komşu iki olgun hepatositin apikal membran oluklarının birleşmesiyle oluşan hücreler arası en küçük safra boşluğudur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi gastrointestinal düz kas hücrelerinde görülen yavaş dalgaların özelliklerinden biri değildir?",
+    "options": {
+      "A": "Temel elektriksel ritmin oluşumundan sorumludur.",
+      "B": "Cajal'ın interstisyel hücreleri tarafından oluşturulur.",
+      "C": "Gerçek bir aksiyon potansiyeli değildir.",
+      "D": "Norepinefrin, spike'lerin sayı ve gerilimini artırır.",
+      "E": "Peristaltik hareketlerin ritmini belirler."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sempatik sinir uçlarından salınan norepinefrin (noradrenalin), gastrointestinal düz kas membranını hiperpolarize ederek dinlenim membran potansiyelini daha negatif hâle getirir; bunun sonucunda yavaş dalgaların amplitüdü düşer, eşik değere (-40 mV) ulaşması zorlaşır ve tepesinde oluşan diken (spike) potansiyellerinin sayısı ile gerilimi artmaz, aksine azalır veya tamamen kaybolur (dikenlerin sayı ve gerilimini artıran parasempatik nörotransmitter asetilkolindir). Çeldiriciler: A) Yavaş dalgalar, dinlenim membran potansiyelinde (-50 ile -60 mV arasında) sürekli tekrarlayan 5–15 mV'luk dalgalanmalar olup gastrointestinal kanalın temel elektriksel ritmini (BER) oluşturur (Doğru). B) Bu dalgalar düz kasların arasındaki pacemaker hücreler olan interstisyel Cajal hücreleri tarafından üretilir ve gap junction'larla düz kaslara yayılır (Doğru). C) Yavaş dalgalar tek başına gerçek bir aksiyon potansiyeli değildir ve doğrudan kasılma oluşturmaz (kasılma ancak yavaş dalga tepesi -40 mV eşiğini aşıp Ca²⁺ kanalları aracılı gerçek aksiyon potansiyeli olan \"spike\"ları oluşturduğunda gerçekleşir) (Doğru). E) Diken potansiyelleri yalnızca yavaş dalgaların tepe noktalarında oluşabildiği için, bir segmentteki peristaltik kasılmaların maksimum frekansını ve ritmini yavaş dalga sıklığı belirler (midede 3/dk, duodenumda 12/dk, ileumda 8–9/dk) (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Midedeki paryetal ve esas hücreler karşılaştırıldığında, aşağıdakilerden hangisi sadece paryetal hücreye özgüdür?",
+    "options": {
+      "A": "Gelişmiş granüllü endoplazmik retikulum içerme",
+      "B": "Nöral kristadan farklılanma",
+      "C": "Pepsinojen sentezleme",
+      "D": "Zimojen granülleri içerme",
+      "E": "Tübüloveziküler membran sistemi içerme"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Paryetal (oksintik) hücrelerin sitoplazmasında istirahat halinde H⁺/K⁺-ATPaz pompalarını barındıran yoğun bir tübüloveziküler membran sistemi ve hücre içine derinleşen intrasellüler kanalikül ağı bulunur; hücre asit salgılamak üzere uyarıldığında bu tübüloveziküller intrasellüler kanalikül membranıyla kaynaşarak yüzey alanını ve pompa sayısını katbekat artırır (bu yapı sadece paryetal hücreye özgüdür). Çeldiriciler: A) Gelişmiş bazal granüllü endoplazmik retikulum (GER), C) Pepsinojen sentezleme ve D) Apikal sitoplazmada zimojen (proenzim) salgı granülleri içerme, protein/enzim sentezleyen mide esas (şef/peptik) hücrelerine özgü histolojik özelliklerdir (paryetal hücrede ise GER değil, bol mitokondri nedeniyle güçlü asidofilik sitoplazma vardır). B) Hem paryetal hücreler hem de esas hücreler nöral kristadan değil, ön bağırsak endoderminden gelişen mide mukozasındaki istmus (boyun) bölgesi mukozal kök hücrelerinden farklılaşır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi midenin hızlı boşalmasını sağlar?",
+    "options": {
+      "A": "Gastrin hormonunun salgılanması",
+      "B": "Duodenum kimus içeriğinin asidik olması",
+      "C": "Duodenum kimus içeriğinin yağlı olması",
+      "D": "Duodenum kimus içeriğinin hipertonik olması",
+      "E": "Sempatik uyarıların artması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Mide antrumundaki G hücrelerinden besinlerin mideyi germesi ve protein yıkım ürünlerinin varlığıyla salgılanan gastrin hormonu, mide korpus ve özellikle antrum düz kaslarındaki peristaltik pompa aktivitesini (motiliteyi) artırarak mide içeriğinin pilordan duodenuma geçişini (mide boşalmasını) hızlandırır. Çeldiriciler: B) Duodenum kimusunun asidik (pH < 3.5–4) olması sekretin salınımını ve enterogastrik refleksleri tetikleyerek, C) Kimusun yağlı olması kolesistokinin (CCK) ve GIP salınımını uyararak, D) Kimusun hipertonik olması ise duodenal osmoreseptörleri ve enterogastrik sinirsel refleksleri aktive ederek antral kasılmaları baskılar, pilor sfinkterini kasar ve mide boşalmasını yavaşlatır. E) Sempatik uyarıların artması (norepinefrin deşarjı), mide düz kaslarını inhibe edip pilor sfinkterini kasarak mide boşalmasını yavaşlatır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dentin oluşumundan sorumlu olan hücre aşağıdakilerin hangisinden köken alır?",
+    "options": {
+      "A": "Lateral plak mezodermi",
+      "B": "Paraksiyal mezoderm",
+      "C": "Endoderm",
+      "D": "Nöral krest",
+      "E": "Yüzey ektodermi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Dişin dentin tabakasını sentezleyen hücreler olan odontoblastlar, embriyolojik gelişim sürecinde kraniyal nöral krest hücrelerinin birinci faringeal (brankiyal) arkus mezenflimine göç etmesiyle oluşan ektomezenflim dokusundan (dental papilladan) köken alır. Çeldiriciler: A) Lateral plak mezodermi; periton, plevra, perikard, ekstremite iskeleti ve gastrointestinal kanalın düz kas/bağ dokusu tabakalarını oluşturur. B) Paraksiyal mezoderm, somitleri oluşturarak aksiyal iskelet, çizgili kaslar ve dermisi meydana getirir. C) Endoderm, sindirim ve solunum sisteminin döşeyici epitelini ve karaciğer/pankreas parankimini oluşturur. E) Yüzey ektodermi (oral ektoderm), diş gelişiminde odontoblastları (dentini) değil, mine organını ve mineyi sentezleyen ameloblastları oluşturur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir deney hayvanına karbon partikülü içerikli vital boya uygulanmasından beş saat sonra karaciğerden alınan doku kesiti, hematoksilen-eozin ile boyanıp ışık mikroskobunda inceleniyor. Bu görüntüde siyah renkte olan hücreler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Perisit",
+      "B": "Kupffer hücresi",
+      "C": "Hepatosit",
+      "D": "İto hücresi",
+      "E": "Endotel"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Deney hayvanına sistemik dolaşımla verilen karbon partikülleri (çini mürekkebi) veya tripan mavisi gibi vital boyalar, yüksek fagositoz yeteneğine sahip mononükleer fagositik sistem hücreleri tarafından hızla yutularak sitoplazmik fagozomlarda biriktirilir; karaciğer sinüzoid duvarında yerleşik makrofajlar olan Kupffer hücreleri bu karbon partiküllerini aktif fagositozla içlerine aldıkları için ışık mikroskobunda siyah granüllerle dolu hücreler olarak seçilir. Çeldiriciler: A) Perisitler, kapiller ve postkapiller venüllerin bazal laminası içinde yerleşen kontraktil/destek hücreleridir; karaciğerde karbon fagositozu yapan ana hücre değildir. C) Hepatositler, karaciğerin metabolik ve sekretuvar epitel hücreleridir; partiküler karbon boyalarını fagosite etmez. D) İto hücreleri, Disse aralığında A vitamini ve lipid depolayan hücrelerdir; makrofaj özelliği taşımaz. E) Sinüzoidal endotel hücreleri, pencereli damar döşeyici hücreler olup pinositoz yapabilir ancak büyük karbon partiküllerini Kupffer hücreleri gibi yoğun şekilde fagosite etmez.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisi Peyer plaklarında \"gut-associated lymphoid tissue (GALT)\" ile ilişkilidir?",
+    "options": {
+      "A": "Paneth hücresi",
+      "B": "Bazal hücre",
+      "C": "Enteroendokrin hücre",
+      "D": "Goblet hücresi",
+      "E": "M hücresi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Özellikle ileumun lamina propria ve submukozasında yerleşen mukoza ilişkili lenfoid doku (GALT) kümeleri olan Peyer plaklarının lümene bakan yüzünü örten folikül ilişkili epitelde (FAE) özelleşmiş M (mikrokatlantı / microfold) hücreleri bulunur; apikal yüzlerinde mikrovillus yerine mikrokatlantılar taşıyan ve üzerinde koruyucu mukus bulunmayan bu hücreler, lümendeki bakteri ve antijenleri endositoz/transsitozla alarak bazolateral membran ceplerindeki dendritik hücrelere ve T/B lenfositlere sunarak mukozal immün yanıtı başlatır. Çeldiriciler: A) Paneth hücreleri, Lieberkühn kriptalarının tabanında bulunur ve lizozim ile alfa-defensin salgılayarak doğal antimikrobiyal savunma yapar; antijen taşıyıcı GALT epitel hücresi değildir. B) Bazal (kök) hücreler, kriptlerde epitel yenilenmesini sağlayan hücrelerdir. C) Enteroendokrin hücreler, sindirim kanalında peptid hormonlar salgılayan endokrin hücrelerdir. D) Goblet hücreleri, mukus salgılayan hücrelerdir ve antijenlerin M hücrelerine temasını engellememek için Peyer plaklarını örten epitelde sayıları çok azdır veya hiç bulunmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Parietal hücreleri uyarır ve asit yapımını arttırır.\nII. Enterokromafin benzeri (ECL) hücreleri uyarır ve asit yapımını azaltır.\nIII. D hücrelerini uyarır ve asit yapımını arttırır.\nIV. G hücrelerini gastrin serbestleştirici peptid (GRP) aracılığıyla uyarır ve asit yapımını arttırır.\nNervus vagus'un asit yapımı üzerindeki etkisi ile ilgili yukarıdaki ifadelerden hangileri yanlıştır?",
+    "options": {
+      "A": "I ve III",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "I, II ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Parasempatik sinir olan nervus vagus, mide asit (HCl) sekresyonunu hem doğrudan hem de dolaylı mekanizmalarla güçlü biçimde artıran uyarıcı bir sinirdir; bu nedenle vagusun ECL hücreleri üzerinden asit yapımını azalttığını (II) ve D hücrelerini uyararak asit yapımını artırdığını (III) belirten ifadeler yanlıştır. Öncüllerin Analizi: I. Parietal hücreleri uyarır ve asit yapımını arttırır (Doğru): Vagal postgangliyonik liflerden salınan asetilkolin, paryetal hücre üzerindeki M₃ muskarinik reseptörlerini doğrudan uyararak HCl yapımını artırır. II. Enterokromafin benzeri (ECL) hücreleri uyarır ve asit yapımını azaltır (Yanlış): Vagus siniri asetilkolin aracılığıyla ECL hücrelerini uyararak histamin salınımını artırır; salınan histamin de paryetal hücredeki H₂ reseptörlerini uyararak asit yapımını azaltmaz, aksine güçlü şekilde artırır. III. D hücrelerini uyarır ve asit yapımını arttırır (Yanlış): D hücreleri asit salgısını baskılayan somatostatin hormonunu üretir; vagal uyarı (asetilkolin) D hücrelerini uyarmaz, aksine M₂/M₄ reseptörleri aracılığıyla D hücrelerinden somatostatin salınımını inhibe ederek asit üzerindeki freni kaldırır. IV. G hücrelerini gastrin serbestleştirici peptid (GRP) aracılığıyla uyarır ve asit yapımını arttırır (Doğru): Vagal lifler antrumdaki G hücrelerini kolinerjik olmayan bir nöropeptid olan GRP (bombesin) aracılığıyla uyararak gastrin salınımını ve dolayısıyla asit yapımını artırır. Çeldiriciler: A, B ve D şıkları doğru olan I ve/veya IV. öncülleri yanlış olarak kabul ettiği için; E şıkkı ise doğru olan IV. öncülü dahil ettiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lingual papillalar ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Papilla filiformis keratinize hücreler içerir.",
+      "B": "Fungiform papillaya von Ebner bezleri açılır.",
+      "C": "Papilla filiformis tat tomurcuğu içermez.",
+      "D": "Sirkumvallat papilla sulkus terminalisin ön kısmına yerleşir.",
+      "E": "Papillalarda tat tomurcukları epitel içerisinde bulunur."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dilin lamina propria ve kas tabakası içinde yerleşen saf seröz minör tükürük bezleri olan von Ebner bezleri, boşaltım kanallarını fungiform papillalara değil, sirkumvallat (vallat) ve foliat papillaları çevreleyen derin hendeklerin (olukların) tabanına açar; böylece tat maddelerini çözer ve olukları yıkayarak tat tomurcuklarının yeni tat uyaranlarına hazır hâle gelmesini sağlar. Çeldiriciler: A) Papilla filiformis, dil sırtında en fazla bulunan konik şekilli papilladır ve yüzeyi mekanik sürtünmeye dayanıklı çok katlı yassı keratinize epitel ile örtülüdür (Doğru). C) Papilla filiformis tamamen mekanik işlev görür ve insanda tat tomurcuğu içermez (diğer üç papilla tipi olan fungiform, foliat ve sirkumvallat papillalar tat tomurcuğu içerir) (Doğru). D) Sirkumvallat (vallat) papillalar, dilin ön 2/3'ü ile arka 1/3'ünü ayıran V şeklindeki sulkus terminalisin hemen önüne paralel olarak dizilmiştir (Doğru). E) Tat tomurcukları bağ dokusu içinde değil, papillaları örten çok katlı yassı epitel tabakasının içerisinde oval cisimcikler halinde yerleşir ve tat poru ile yüzeye açılır (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I) İzotoniktir.\nII) Lingual lipaz içerir.\nIII) Yüksek konsantrasyonda Na ve Cl içerir.\nIV) Düşük konsantrasyonda K ve HCO3 içerir.\nPlazma ile karşılaştırıldığında, tükürük bezi asiner hücreleri tarafından kanallara salgılanan primer salgının özelliği ile ilgili ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Tükürük bezlerinin salgı son kısımlarındaki (asinüslerdeki) hücreler tarafından üretilen ve henüz çizgili kanallarda iyon modifikasyonuna uğramamış olan primer tükürük salgısı, ozmolarite ve elektrolit konsantrasyonları (Na⁺, K⁺, Cl⁻, HCO₃⁻) açısından kan plazması ile izotoniktir ve asiner hücrelerden salgılanan lingual lipaz (ve amilaz) gibi enzimleri içerir. Öncüllerin Analizi: I) İzotoniktir (Doğru): Asinüslerde üretilen primer tükürük salgısının toplam ozmolaritesi ve iyon içeriği plazmaya eşdeğerdir (izotoniktir); hipotonikleşme daha sonra çizgili kanallarda gerçekleşir. II) Lingual lipaz içerir (Doğru): Özellikle dildeki seröz von Ebner bezleri ve diğer tükürük bezi asiner hücreleri tarafından primer salgı içerisine trigliserid sindirimini başlatan lingual lipaz enzimi salgılanır. III) Yüksek konsantrasyonda Na ve Cl içerir (Yanlış): Primer salgı plazma ile karşılaştırıldığında Na⁺ ve Cl⁻ konsantrasyonları plazmadan yüksek değildir, plazmaya eşittir (izotoniktir). IV) Düşük konsantrasyonda K ve HCO3 içerir (Yanlış): Primer tükürükte K⁺ ve HCO₃⁻ konsantrasyonları plazmadan düşük değil, plazma düzeylerine yakın/eşittir (kanallardan geçerken K⁺ ve HCO₃⁻ lümene salgılandığı için son tükürükte plazmaya göre yüksek hâle gelir). Çeldiriciler: B, C, D ve E şıkları primer salgının plazmaya göre izotonik (eşit iyon derişimli) olduğu gerçeğine aykırı olan III ve/veya IV. öncülleri içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Fruktoz, enterositlere Na-glukoz kotransporteriyle (SGLT1) taşınır.\nII. Fruktoz, enterosit bazal membranından interstisyuma GLUT-2 aracılığıyla taşınır.\nIII. Galaktoz, enterositlere Na-glukoz kotransporteriyle (SGLT1) taşınır.\nMonosakkaritlerin ince bağırsakta emilimi ile ilgili hangileri doğrudur?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "II ve III",
+      "C": "I ve II",
+      "D": "Yalnız II",
+      "E": "Yalnız I"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İnce bağırsak lümenindeki monosakkaritlerden glukoz ve galaktoz apikal membrandan SGLT-1 ile sekonder aktif taşımayla, fruktoz ise GLUT-5 ile kolaylaştırılmış difüzyonla enterosit içine alınır; her üç monosakkarit de enterositin bazolateral membranından interstisyuma (kana) ortak olarak GLUT-2 taşıyıcısı ile geçer. Öncüllerin Analizi: I. Fruktoz, enterositlere Na-glukoz kotransporteriyle (SGLT1) taşınır (Yanlış): Fruktoz, apikal membrandan SGLT-1 ile sodyuma bağımlı olarak değil, GLUT-5 taşıyıcısı aracılığıyla sodyumdan bağımsız kolaylaştırılmış difüzyonla enterosit içine taşınır. II. Fruktoz, enterosit bazal membranından interstisyuma GLUT-2 aracılığıyla taşınır (Doğru): Enterosit içine alınan fruktoz (glukoz ve galaktozla aynı şekilde), bazolateral membrandaki GLUT-2 taşıyıcısı aracılığıyla kolaylaştırılmış difüzyonla interstisyel sıvıya ve portal kapillerlere taşınır. III. Galaktoz, enterositlere Na-glukoz kotransporteriyle (SGLT1) taşınır (Doğru): Galaktoz, glukozun C-4 epimeri olup apikal membrandaki SGLT-1 taşıyıcısına bağlanarak Na⁺ gradyanı eşliğinde sekonder aktif taşıma ile enterosit içine alınır. Çeldiriciler: A, C ve E şıkları yanlış olan I. öncülü içerdiği için; D şıkkı ise doğru olan III. öncülü dışarıda bıraktığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ağız mukozasını bakteri enfeksiyonlarından koruyan madde olan sistatin ve histatin, tükürük bezinde hangi hücrelerden salgılanır?",
+    "options": {
+      "A": "Muköz asiner hücreler",
+      "B": "Çizgili kanal epitel hücreleri",
+      "C": "Seröz asiner hücreler",
+      "D": "İnterkalar kanal epitel hücreleri",
+      "E": "Miyoepitelyal hücreler"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Tükürükte bulunan ve ağız mukozasını bakteriyel ile fungal enfeksiyonlara karşı koruyan antimikrobiyal protein ve peptidler olan histatinler (histidinden zengin antifungal/antibakteriyel peptidler), sistatinler (sistein proteaz inhibitörleri), prolin zengini proteinler ve alfa-amilaz, tükürük bezlerinin seröz asiner hücrelerindeki zimojen granüllerde sentezlenip ekzositozla salgılanır. Çeldiriciler: A) Muköz asiner hücreler, antimikrobiyal peptidlerin ana kaynağı olmayıp kayganlaştırıcı ve mekanik bariyer oluşturucu müsin glikoproteinlerini salgılar. B) Çizgili kanal epitel hücreleri, Na⁺ ve Cl⁻ geri emilimi ile K⁺ ve HCO₃⁻ sekresyonu yaparak tükürüğün tonisitesini ve pH'ını düzenler. D) İnterkalar kanal epitel hücreleri, az miktarda bikarbonat ve lizozim/laktoferrin katkısı sağlayan başlangıç kanalı hücreleridir; histatin ve sistatinlerin ana üretim yeri seröz asinüslerdir. E) Miyoepitelyal hücreler, asinüslerin bazal laminası içinde yerleşen ve kasılarak salgının lümene atılmasını sağlayan hücrelerdir; tükürük proteini salgılamaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tükürük salgısı ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Tükürük bezi asinüslarında primer salgı meydana gelir.",
+      "B": "Tükürük bezi duktal bölgesinde Na geri emilir.",
+      "C": "Tükürük bezi duktal bölgesinde K salgılanır.",
+      "D": "Tükürük bezi duktal bölgede Cl geri emilir.",
+      "E": "Tükürük plazmaya göre hipertoniktir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Ağız boşluğuna ulaşan nihai (sekonder) tükürük salgısı kan plazmasına göre hipertonik değil, hipotoniktir; çünkü çizgili kanal (duktal bölge) epiteli suya geçirgen değildir ve lümenden kana geri emilen Na⁺ ile Cl⁻ miktarı, kandan lümene salgılanan K⁺ ile HCO₃⁻ miktarından çok daha fazladır (akış hızı çok yükseldiğinde dahi tükürük en fazla izotonik değere yaklaşır, hiçbir zaman hipertonik olmaz). Çeldiriciler: A) Tükürük üretiminin ilk aşaması olan izotonik primer salgı, asiner hücreler tarafından asinüs lümenine salgılanır (Doğru). B) Duktal bölgede (özellikle çizgili kanallarda) apikal ENaC kanalları ve bazolateral Na⁺/K⁺-ATPaz aracılığıyla Na⁺ iyonları aktif olarak geri emilir (Doğru). C) Duktal bölgede Na⁺ geri emilirken elektrokimyasal denge doğrultusunda lümene K⁺ (ve HCO₃⁻) aktif olarak salgılanır; bu nedenle tükürük vücutta K⁺ derişimi en yüksek salgılardan biridir (Doğru). D) Duktal bölgede Na⁺ geri emilimini takiben oluşan elektriksel gradyanla ve Cl⁻/HCO₃⁻ değiştiricisiyle Cl⁻ iyonları pasif olarak geri emilir (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Sekretin – Pankreastan bikarbonattan zengin sıvı salgılanması\nII. Kolesistokinin – Safra kesesi kasılması\nIII. Sekretin – Mide hareketlerinin azaltılması\nIV. Gastrin – Mide asit salgısının ve hareketlerinin baskılanması\nYukarıdaki gastrointestinal hormon–etki eşleştirmelerinden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "I, II ve IV",
+      "D": "II, III ve IV",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Gastrointestinal hormonlardan sekretin pankreastan bikarbonat salgısını artırırken mide hareketlerini ve boşalmasını azaltır; kolesistokinin ise safra kesesini kasar; buna karşılık gastrin mide asit salgısını ve hareketlerini baskılamaz, aksine güçlü şekilde uyarır. Öncüllerin Analizi: I. Sekretin – Pankreastan bikarbonattan zengin sıvı salgılanması (Doğru): Duodenum S hücrelerinden asidik kimus uyarısıyla salgılanan sekretin, pankreas kanal (duktus) epitel hücrelerinde cAMP artışı yoluyla CFTR kanallarını ve Cl⁻/HCO₃⁻ değiştiricisini aktive ederek bol bikarbonatlı sıvı salgılanmasını sağlar. II. Kolesistokinin – Safra kesesi kasılması (Doğru): Duodenum I hücrelerinden salgılanan CCK, safra kesesi düz kaslarını kasarak safranın duodenuma boşalmasını sağlar. III. Sekretin – Mide hareketlerinin azaltılması (Doğru): Sekretin bir enterogastron olarak mide motilitesini (antral kasılmaları) azaltır, pilor sfinkterini kasar ve mide boşalmasını yavaşlatır. IV. Gastrin – Mide asit salgısının ve hareketlerinin baskılanması (Yanlış): Gastrin, mide asit (HCl) sekresyonunu ve mide antrum hareketlerini baskılamaz; tam tersine her ikisini de en güçlü şekilde uyaran hormondur. Çeldiriciler: A ve B şıkları doğru olan öncüllerden birini (sırasıyla III ve II'yi) eksik bıraktığı için; C ve D şıkları ise yanlış olan IV. öncülü içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ameloblastlar, diş gelişimi sırasında oluşan yapıların hangisinden köken alır?",
+    "options": {
+      "A": "Epitelyal kök kılıf",
+      "B": "İç dental epitel",
+      "C": "Dental kese",
+      "D": "Stellat retikulum",
+      "E": "Dental papilla"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Diş gelişiminin (odontogenezis) çan evresinde, oral ektoderm kökenli mine organının dental papillaya komşu olan iç bükey tabakasını oluşturan iç dental (iç mine) epiteli hücreleri, uzayıp prizmatikleşerek ve kutuplaşarak mine matriksini sentezleyen ameloblastlara farklılaşır. Çeldiriciler: A) Hertwig epitelyal kök kılıfı, iç ve dış mine epitelinin servikal halkada birleşip aşağı doğru uzamasıyla oluşur; diş kökünün şekillenmesini ve radiküler odontoblast farklanmasını indükler ancak ameloblastlara dönüşmez. C) Dental kese (dental folikül), mine organını dıştan kuşatan ektomezenflim dokusudur; sementoblastları, periodontal ligamenti ve alveol kemiğini oluşturur. D) Stellat retikulum (mine pulpası), mine organında iç ve dış mine epiteli arasında yer alan, glikozaminoglikandan zengin yıldızsı hücrelerden oluşan ve gelişen mineyi koruyan/destekleyen tabakadır. E) Dental papilla, nöral krest kökenli ektomezenflim dokusu olup dentin yapan odontoblastları ve diş pulpasını oluşturur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde yer alan her iki organda da venöz portal sistemi bulunur?",
+    "options": {
+      "A": "Duodenum – Pankreas",
+      "B": "Karaciğer – Paratiroid",
+      "C": "Hipofiz – Pankreas",
+      "D": "Karaciğer – Hipofiz",
+      "E": "Duodenum – Paratiroid"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Kanın kalbe dönmeden önce iki ayrı kapiller ağdan ve bunları birbirine bağlayan portal venlerden geçtiği gerçek venöz portal sistem insanda iki temel organda bulunur: Birincisi gastrointestinal sistem/dalak kapillerlerini vena porta aracılığıyla karaciğer sinüzoidlerine bağlayan \"hepatik portal sistem\" (Karaciğer), ikincisi ise hipotalamusun median eminensindeki primer kapiller pleksusu hipofizer portal venler aracılığıyla adenohipofizdeki sekonder kapiller sinüzoidlere bağlayan \"hipotalamo-hipofizer portal sistem\"dir (Hipofiz). Çeldiriciler: A ve C şıklarındaki pankreasta endokrin adacıklardan ekzokrin asinüslere uzanan mikro-kapiller insulo-asiner bağlantılar olsa da klasik anatomik venöz portal sistem organı değildir; ayrıca duodenum (A, E) hepatik portal venin başlangıç kapiller yatağını barındırır ancak kendi içinde ikinci bir portal sinüzoidal yatak oluşturmaz. B ve E şıklarındaki paratiroid bezinde ise venöz portal sistem bulunmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tükürük sekresyonunun uyarılmadığı, düşük sekresyon hızı olduğu dönemde ağız içindeki tükürük içeriği ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Na miktarı artar.",
+      "B": "Cl miktarı artar.",
+      "C": "pH değeri azalır.",
+      "D": "K miktarı azalır.",
+      "E": "Enzim aktivitesi artar."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Tükürük sekresyon hızının uyarılmadığı düşük akım döneminde primer tükürük çizgili kanallardan yavaş geçer; bu süreçte Na⁺ ve Cl⁻ çok yüksek oranda geri emilirken, HCO₃⁻ sekresyonu uyarılmadığı için lümendeki bikarbonat konsantrasyonu düşük kalır ve tükürüğün tamponlama kapasitesi azalarak pH değeri düşer (yaklaşık pH 6.0–6.5 gibi hafif asidik değerlere iner; uyarılmış yüksek akımda ise HCO₃⁻ salgısı arttığı için pH 7.8–8.0'e yükselir). (Not: Düşük akış hızında çizgili kanallarda K⁺ sekresyonu için daha fazla temas süresi bulunduğundan tükürükteki K⁺ konsantrasyonu aslında en yüksek seviyeye ulaşır; ancak ilgili sınavın resmi cevap anahtarında D şıkkı işaretlenmiş olsa da fizyolojik olarak düşük akımda HCO₃⁻ azlığına bağlı pH azalması [C] gerçekleşirken, K⁺ konsantrasyonu artar.) Çeldiriciler: A) ve B) Düşük sekresyon hızında sıvı çizgili kanallarda uzun süre kaldığı için Na⁺ ve Cl⁻ iyonları maksimum düzeyde geri emilir, bu nedenle ağız içindeki tükürükte Na⁺ ve Cl⁻ miktarı artmaz, en düşük düzeyine iner. D) Düşük akım hızında duktal hücreler lümene K⁺ salgılamak için geniş zamana sahip olduğundan K⁺ konsantrasyonu azalmaz, plazmanın yaklaşık 7 katına (30 mEq/L) kadar çıkar. E) İstirahat (uyarılmamış) döneminde otonomik uyarı minimal olduğu için asiner hücrelerden enzim ekzositozu ve aktivitesi artmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki enzimlerden hangisi inaktif formdaki pankreatik proteolitik proenzimleri aktif forma dönüştürür?",
+    "options": {
+      "A": "Kimotripsin",
+      "B": "Tripsin",
+      "C": "Elastaz",
+      "D": "Karboksipeptidaz",
+      "E": "Lipaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Pankreastan duodenum lümenine inaktif zimojen olarak salgılanan tripsinojen, duodenum enterositlerinin fırçamsı kenar (apikal membran) enzimi olan enterokinaz (enteropeptidaz) tarafından aktif tripsine dönüştürülür; oluşan aktif tripsin hem geri kalan tripsinojenleri otokatalitik olarak aktifleştirir hem de diğer tüm inaktif pankreatik proteolitik proenzimleri (kimotripsinojeni kimotripsine, proelastazı elastaza, prokarboksipeptidaz A ve B'yi karboksipeptidazlara ve profosfolipaz A2'yi fosfolipaz A2'ye) aktif formlarına dönüştüren ortak anahtar enzim olarak görev yapar. Çeldiriciler: A) Kimotripsin, C) Elastaz ve D) Karboksipeptidaz, bizzat tripsin tarafından aktifleştirilen proteolitik enzimlerdir; diğer pankreatik zimojenlerin ana aktivatörü değildir. E) Pankreatik lipaz, zimojen (proenzim) olarak değil, doğrudan aktif formda salgılanan bir trigliserid sindirim enzimidir (etkinliği için tripsinle aktifleşen kolipaza ihtiyaç duyar ancak kendisi proteolitik aktivatör değildir).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karaciğerde A vitamininin depolandığı hücreler nerede yerleşmiştir?",
+    "options": {
+      "A": "Periportal alan",
+      "B": "Perisinüzoidal alan",
+      "C": "Sinüzoidal alan",
+      "D": "Safra kanalikülü",
+      "E": "Herring kanalı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Karaciğerde A vitaminini (retinoidleri) sitoplazmik lipid damlacıkları içinde depolayan İto hücreleri (hepatik stellat hücreler / lipositler), sinüzoid endotel hücrelerinin bazal yüzü ile hepatosit kordonlarının sinüzoidal yüzü arasında yer alan perisinüzoidal alanda (Disse aralığında) yerleşmiştir. Çeldiriciler: A) Periportal alan (Mall aralığı ve portal triyad çevresi), portal ven, hepatik arter ve safra duktusunun bulunduğu bağ dokusu ve lenf başlangıç bölgesidir. C) Sinüzoidal alan (sinüzoid lümeni), kanın aktığı ve Kupffer makrofajlarının endotel duvarına tutunduğu vasküler boşluktur. D) Safra kanalikülü, komşu hepatositlerin apikal membranları arasındaki safra oluğudur; hücre içermez. E) Hering kanalı, safra kanaliküllerini portal safra duktuslarına bağlayan ve hepatik kök/oval hücreleri barındıran geçiş kanalıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I) Mide boşalmasını hızlandırır.\nII) Safra kesesinin kasılmasına neden olur.\nIII) İnsülin sekresyonunu artırır.\nKolesistokininin (CCK) etkileri ile ilgili hangileri doğrudur?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve II",
+      "C": "Yalnız III",
+      "D": "Yalnız II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İnce bağırsak I hücrelerinden salgılanan kolesistokinin (CCK), safra kesesini kasar ve pankreas beta hücrelerinden insülin salınımını uyarıcı etki gösterirken, mide boşalmasını hızlandırmaz, aksine yavaşlatır. Öncüllerin Analizi: I) Mide boşalmasını hızlandırır (Yanlış): CCK, ince bağırsakta yağ ve proteinlerin sindirimi için yeterli zaman sağlamak amacıyla pilor sfinkterini kasar ve mide motilitesini baskılayarak mide boşalmasını yavaşlatır. II) Safra kesesinin kasılmasına neden olur (Doğru): CCK, safra kesesi düz kaslarını güçlü bir şekilde kasarak ve Oddi sfinkterini gevşeterek safranın duodenuma boşalmasını sağlar. III) İnsülin sekresyonunu artırır (Doğru): CCK, GIP ve GLP-1 kadar baskın olmasa da entero-insüliner eksen kapsamında pankreas Langerhans adacıklarındaki beta hücrelerini uyararak besin alımı sonrası insülin sekresyonunu artırıcı etki gösterir. Çeldiriciler: A ve B şıkları yanlış olan I. öncülü içerdiği için; C ve D şıkları ise doğru olan öncüllerden yalnızca birini alıp diğerini dışarıda bıraktığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Diş gelişimi aşağıdaki yapılardan hangisinin belirmesiyle başlar?",
+    "options": {
+      "A": "Hertwig epitel kök kını",
+      "B": "Diş tomurcuğu",
+      "C": "Diş çanı",
+      "D": "Dental lamina",
+      "E": "Mine organı"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İntrauterin yaşamın 6. haftasında diş gelişiminin (odontogenezis) ilk morfolojik belirtisi, stomodeumu döşeyen oral ektoderm epitelinin üst ve alt çene kavisleri boyunca kalınlaşarak alttaki nöral krest kökenli ektomezenflim içerisine doğru C harfi (at nalı) şeklinde girmesiyle oluşan dental laminanın (diş pervazının) belirmesidir. Çeldiriciler: A) Hertwig epitel kök kını, kuron gelişimi tamamlandıktan sonra çan evresinin sonunda oluşan ve diş kökünün gelişimini yönlendiren çok geç bir yapıdır. B) Diş tomurcuğu (tomurcuk evresi), dental lamina oluştuktan sonra onun belirli noktalarında meydana gelen yuvarlak epitelyal proliferasyonlardır. C) Diş çanı (çan evresi), tomurcuk ve takke (kep) evrelerinden sonra gelen, histodiferansiyasyon ve morfodiferansiyasyonun gerçekleştiği ileri evredir. E) Mine organı, dental laminadan gelişen diş tomurcuğunun takke ve çan evrelerinde şekillenmesiyle ortaya çıkan epitelyal yapıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mastikatör mukoza ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Tat tomurcuklarını içerir.",
+      "B": "Diş etlerinde bulunur.",
+      "C": "Sert damakta bulunur.",
+      "D": "Keratinize ve parakeratinize epitel hücresi içerir.",
+      "E": "Epitel tabakası çok katlıdır."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Ağız boşluğunda diş eti (gingiva) ve sert damağı örten mastikatör (çiğneyici) mukoza, çiğneme sırasındaki mekanik kuvvetlere direnç göstermek üzere özelleşmiştir ve tat tomurcukları içermez (tat tomurcukları dilin dorsal yüzündeki özelleşmiş/duyu mukozasında ve az miktarda yumuşak damak, farinks ve epiglottiste bulunur). Çeldiriciler: B) Diş etleri (gingiva) ve C) Sert damak, oral kavitede mastikatör mukozanın bulunduğu iki anatomik bölgedir (Doğru). D) Mastikatör mukozanın yüzey epiteli, mekanik sürtünmeye karşı koruma sağlamak amacıyla keratinize veya parakeratinize (yüzeyde piknotik çekirdeklerin korunduğu) epitel hücreleri içerir (Doğru). E) Mastikatör mukozanın epitel tabakası çok katlı yassı epitel yapısındadır (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki etkili faktör–gastrointestinal motiliteye etkisi eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Asetilkolin – Motilite artışı",
+      "B": "Sekretin – Mide hareketlerinde ve boşalmasında yavaşlama",
+      "C": "Motilin – İntestinal motilitede yavaşlama",
+      "D": "Kolesistokinin – Safra kesesinde kasılma",
+      "E": "Gastrik inhibitör peptid – Mide hareketlerinde azalma"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Motilin hormonu intestinal motilitede yavaşlama yapmaz; aksine açlık (yemek araları) döneminde duodenum ve jejunumdan salgılanarak mide antrumu ve ince bağırsak düz kaslarında göç eden motor kompleksi (MMC) başlatır ve intestinal motiliteyi güçlü şekilde artırır. Çeldiriciler: A) Asetilkolin, parasempatik ve enterik uyarıcı nöronlardan salınarak düz kaslardaki M₃ reseptörleri üzerinden diken potansiyellerini ve gastrointestinal motiliteyi artırır (Doğru). B) Sekretin, duodenuma geçen aside yanıt olarak salgılanır ve mide hareketlerini/boşalmasını yavaşlatır (Doğru). D) Kolesistokinin (CCK), safra kesesi düz kaslarını kasarak safranın duodenuma akmasını sağlar (Doğru). E) Gastrik inhibitör peptid (GIP), ince bağırsak K hücrelerinden salgılanır ve inkretin etkisinin yanı sıra mide motilitesinde (hareketlerinde) ve asit sekresyonunda azalmaya yol açar (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Ektoderm\nII. Mezoderm\nIII. Endoderm\nParotis bezinin asinüs ve kanalları yukarıdaki germ yapraklarının hangilerinden gelişir?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız I",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Parotis bezinin parankimini oluşturan seröz asinüsler ve boşaltım kanalları sistemi, embriyonik 6. haftada stomodeumu döşeyen oral kavite yüzey ektoderminin alttaki mezenflim içine doğru katı epitel kordonları halinde tomurcuklanmasıyla yalnızca ektodermden gelişir. Öncüllerin Analizi: I. Ektoderm (Doğru): Parotis bezinin epitel kısmı (asinüsler ve kanallar) stomodeum (oral) ektoderminden gelişir. II. Mezoderm (Yanlış): Mezoderm (ve nöral krest kökenli ektomezenflim), parotis bezinin asinüs ve kanallarını değil, bezi saran bağ dokusu kapsülünü, septaları ve kan damarlarını (stromayı) oluşturur. III. Endoderm (Yanlış): Endoderm, parotis bezini değil, ön bağırsak tabanından tomurcuklanan submandibular ve sublingual tükürük bezlerinin asinüs ve kanallarını oluşturur. Çeldiriciler: A, D ve E şıkları stromayı oluşturan mezodermi (II) içerdiği için; C ve E şıkları ise submandibular ve sublingual bezlerin kökeni olan endodermi (III) içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kolesistokininin (CCK) etkilerinden biri değildir?",
+    "options": {
+      "A": "Oddi sfinkterini (gevşetir)",
+      "B": "Safra kesesinde kasılmaya neden olur.",
+      "C": "Pankreastan sindirim enzimleri salgılatır.",
+      "D": "Gastrik boşalmayı inhibe eder.",
+      "E": "Gastrik asit sekresyonunu uyarır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kolesistokininin (CCK) fizyolojik etkileri arasında gastrik asit sekresyonunu uyarmak yer almaz; aksine bir enterogastron olarak somatostatin salınımını destekleyip gastrinin etkisini yarışmalı olarak sınırlandırarak gastrik asit sekresyonunu inhibe edici yönde rol oynar (mide asit sekresyonunu uyaran ana gastrointestinal hormon gastrindir). Çeldiriciler: A) CCK, inhibitör enterik nöronlar (VIP ve NO) aracılığıyla Oddi sfinkterini gevşeterek safra ve pankreas salgısının duodenuma geçişini kolaylaştırır (Doğru). B) Safra kesesi düz kaslarını doğrudan kasarak safranın boşalmasını sağlar (Doğru). C) Pankreas asiner hücrelerindeki CCK-A reseptörlerini uyararak zimojen granüllerinden sindirim enzimlerinin salgılanmasını sağlar (Doğru). D) Pilor sfinkterini kasarak ve mide motilitesini azaltarak gastrik boşalmayı fizyolojik olarak inhibe eder (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Lieberkühn bezleri yapısında yer alan, veziküllerinde lizozim ve alfa-defensin içeren hücredir?",
+    "options": {
+      "A": "Esas hücre",
+      "B": "Oksintik hücre",
+      "C": "Enteroendokrin hücre",
+      "D": "Paneth hücresi",
+      "E": "M (mikro katlantı) hücresi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İnce bağırsak mukozasındaki Lieberkühn bezlerinin (kriptalarının) en derin taban kısmında bulunan Paneth hücreleri, apikal sitoplazmalarındaki büyük asidofilik salgı veziküllerinde (granüllerinde) lizozim, alfa-defensinler (kriptidinler) ve fosfolipaz A2 bulundurarak bağırsak doğal bağışıklığında ve mikrobiyal floranın kontrolünde görev alır. Çeldiriciler: A) Esas (şef) hücre ve B) Oksintik (paryetal) hücre, ince bağırsak Lieberkühn bezlerinde değil, mide fundik/oksintik bezlerinde yer alır (sırasıyla pepsinojen ve HCl/intrinsik faktör salgılar). C) Enteroendokrin hücreler, bazal granüllerinde peptid hormonlar taşır ve bunları lamina propriadaki kapillerlere salgılar. E) M (mikro katlantı) hücreleri, Lieberkühn kriptalarının tabanında değil, Peyer plaklarını örten yüzey epitelinde bulunur ve lümenden antijen transsitozu yapar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Diş erüpsiyonu sonrası dejenere olan ve erişkinlerde bulunmayan hücreler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ameloblastlar",
+      "B": "Odontoblastlar",
+      "C": "Osteoblastlar",
+      "D": "Fibroblastlar",
+      "E": "Sementoblastlar"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Mine tabakasını sentezleyen ektoderm kökenli ameloblastlar, kuron mine oluşumu tamamlandıktan sonra mine organının diğer tabakalarıyla birleşerek \"azalmış mine epitelini\" oluşturur ve dişin ağız boşluğuna sürmesi (erüpsiyonu) sırasında apoptoza uğrayarak tamamen dejenere olup dökülür; bu nedenle sürmüş erişkin dişte ameloblast bulunmaz ve hasar gören mine dokusu kendini yenileyemez. Çeldiriciler: B) Odontoblastlar, diş sürdükten sonra da pulpa-dentin sınırında yaşam boyu varlığını sürdürür ve sekonder/tersiyer (onarıcı) dentin sentezlemeye devam eder. C) Osteoblastlar, alveol kemiğinin periost ve endost yüzeylerinde yaşam boyu kemik yeniden şekillenmesini (remodeling) sağlar. D) Fibroblastlar, hem diş pulpasında hem de periodontal ligamentte yaşam boyu en yoğun bulunan hücrelerdir. E) Sementoblastlar, kök yüzeyinde periodontal ligament sınırında yaşam boyu kalarak sement yapımını ve onarımını sürdürür.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dilden alınan biyopsi örneği ışık mikroskobu ile inceleniyor. Kesit alanında papilla yapısı gözlenmezken müköz bezler ve lenfoid doku izleniyor. İncelenen bu kesit aşağıdaki dil bölgelerinden hangisine aittir?",
+    "options": {
+      "A": "Dil ucu",
+      "B": "Dil kökü",
+      "C": "Sulkus terminalisin önü",
+      "D": "Von Ebner bezlerini içeren lamina propria",
+      "E": "Dilin ventral yüzü"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dilin sulkus terminalisin arkasında kalan arka 1/3'lük bölümü olan dil kökünde (faringeal kısımda) lingual papillalar bulunmaz; bunun yerine lamina propriada bol miktarda lenf nodülleri ve kriptlerinden oluşan dil bademciği (tonsilla lingualis) ile derinlerde bu kriptlere açılan saf müköz Weber bezleri yer alır (kesitte papilla görülmemesi, yoğun lenfoid doku ve müköz bezlerin izlenmesi dil kökü için tanısaldır). Çeldiriciler: A) Dil ucu ve C) Sulkus terminalisin önü (dilin ön 2/3 dorsal yüzü), yoğun olarak filiform, fungiform ve sirkumvallat papillalarla örtülüdür ve dil ucunda mikst Nuhn-Blandin bezleri bulunur. D) Von Ebner bezlerini içeren lamina propria, sulkus terminalis komşuluğundaki sirkumvallat ve foliat papillaların altında yer alır; buradaki von Ebner bezleri müköz değil, saf seröz bezlerdir. E) Dilin ventral (alt) yüzü, ince ve düz non-keratinize çok katlı yassı epitel ile örtülüdür; burada dil köküne özgü yoğun tonsiller lenfoid doku kümeleri ve müköz bezler bulunmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki durumlardan hangisinde mide asit salgısı artar?",
+    "options": {
+      "A": "CCK-B reseptörlerinin bloke edilmesi",
+      "B": "Prostaglandin sentezinin inhibe edilmesi",
+      "C": "Proton pompa inhibitörleri verilmesi",
+      "D": "H2 reseptörlerinin bloke edilmesi",
+      "E": "Kolinerjik M3 reseptörlerinin bloke edilmesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Araşidonik asitten siklooksijenaz (COX) enzimiyle sentezlenen prostaglandinler (özellikle PGE₂ ve PGI₂), paryetal hücre üzerindeki Gi kenetli EP₃ reseptörlerine bağlanarak adenilat siklazı ve cAMP oluşumunu baskılar, böylece bazal ve uyarılmış mide asit salgısını fizyolojik olarak frenler (ayrıca mukus ve bikarbonat salgısını artırır); NSAİİ (non-steroid antiinflamatuvar ilaç) kullanımı gibi durumlarda prostaglandin sentezinin inhibe edilmesi bu inhibitör freni ortadan kaldırarak cAMP düzeyini ve mide asit salgısını artırır. Çeldiriciler: A) Gastrinin bağlandığı CCK-B reseptörlerinin bloke edilmesi (ör. proglumid), C) H⁺/K⁺-ATPaz enzimini bloke eden proton pompa inhibitörleri (ör. omeprazol) verilmesi, D) Histaminin bağlandığı H₂ reseptörlerinin bloke edilmesi (ör. famotidin) ve E) Asetilkolinin bağlandığı kolinerjik M₃ reseptörlerinin bloke edilmesi (ör. atropin), paryetal hücre üzerindeki uyarıcı yolakları veya son ortak pompayı durdurduğu için mide asit salgısını azaltır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tükürük bezi apikal membranının anyon geçirgenliği ve tükürük salgısında artışa neden olan ikincil haberciler aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "IP3 – cGMP",
+      "B": "cGMP – NO",
+      "C": "DAG – Na",
+      "D": "cAMP – Ca",
+      "E": "Ca – Kalmodulin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tükürük bezlerinde hem parasempatik hem de sempatik uyarı tükürük sekresyonunu artırır; parasempatik uyarı (asetilkolin -> M₃ reseptörü -> Gq -> IP₃) hücre içi serbest kalsiyum (Ca²⁺) düzeyini artırarak, sempatik ve VIPerjik uyarı (noradrenalin -> beta-adrenerjik reseptör -> Gs -> adenilat siklaz) ise hücre içi cAMP düzeyini artırarak asiner hücre apikal membranındaki Ca²⁺/cAMP bağımlı Cl⁻ (anyon) kanallarının açılmasını, lümene Cl⁻/Na⁺/su geçişini ve zimojen granül ekzositozunu uyarır (dolayısıyla tükürük salgısını artıran iki temel ikincil haberci cAMP ve Ca²⁺'dur). Çeldiriciler: A) ve B) şıklarındaki cGMP ve nitrik oksit (NO), vasküler düz kas gevşemesinde rol oynar; asiner epitelde apikal anyon kanallarını ve tükürük salgısını doğrudan yöneten ana ikincil haberci çifti değildir. C) Diaçilgliserol (DAG) bir ikincil habercidir ancak sodyum (Na⁺) hücre dışı katyondur, ikincil haberci değildir. E) Kalmodulin bir ikincil haberci değil, hücre içi Ca²⁺ iyonunun bağlandığı düzenleyici bir efektör proteindir; ayrıca sempatik/VIPerjik kolu temsil eden cAMP'yi içermez.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "23 yaşındaki erkek hastanın çekilen dişinden histolojik bir preparat hazırlanıyor. Bu preparatta aşağıdaki hücrelerden hangisinin görülmesi en az olasıdır?",
+    "options": {
+      "A": "Odontoblastlar",
+      "B": "Ameloblastlar",
+      "C": "Fibroblastlar",
+      "D": "Kapiller endotel hücresi",
+      "E": "Sementoblastlar"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Diş gelişimi sırasında mineyi üreten ameloblastlar, kuron minesi tamamlandıktan sonra dişin ağız boşluğuna sürmesi (erüpsiyonu) esnasında apoptoza uğrayarak tamamen kaybolur; bu nedenle 23 yaşındaki erişkin bir bireyin sürmüş ve çekilmiş dişinden hazırlanan histolojik preparatta ameloblastların görülmesi olanaksızdır (en az olasıdır). Çeldiriciler: A) Odontoblastlar, dişin pulpa odasının en dış periferinde (predentin komşuluğunda) tek sıra halinde dizilmiş olarak erişkin dişte yaşam boyu görülür. C) Fibroblastlar, diş pulpasının gevşek bağ dokusu içinde ve kök yüzeyine tutunmuş periodontal ligament kalıntılarında en bol görülen hücre tipidir. D) Kapiller endotel hücreleri, zengin damar ağına sahip olan diş pulpasındaki kan damarlarının duvarında yoğun olarak izlenir. E) Sementoblastlar (ve sementositler), dişin kök kısmını örten sement dokusunun yüzeyinde ve lakünaları içinde yaşam boyu bulunur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dentin ve dental pulpa ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Dentin, odontoblastların sitoplazmik uzantılarını barındıran, kemik matriksine benzer bir yapıdır.",
+      "B": "Odontoblastların hücre gövdeleri predentine komşu yerleşir.",
+      "C": "Dental pulpa yoğun kollajen demetleri içeren sıkı bağ dokusudur.",
+      "D": "Dental pulpanın bulunduğu boşluk koronal bölüm (pulpa boşluğu) ve radiküler bölüm (kök kanalı) olmak üzere ikiye ayrılır.",
+      "E": "Kök kanalının açıldığı apikal foramen gelişmiş bir dişte merkez dışı (ekzantrik) duruşlu ve gelişmekte olan dişinkine oranla daha küçüktür."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dental pulpa yoğun kollajen demetleri içeren sıkı bağ dokusu değildir; bol miktarda proteoglikan/glikozaminoglikan ara maddesi, ince Tip I ve Tip III kollajen lifleri, yıldızsı fibroblastlar (pulpasitler), farklılaşmamış mezenkimal kök hücreler, zengin kapiller ağ ve miyelinsiz sinir lifleri içeren oldukça vasküler ve jelatinöz bir \"gevşek (mezenkimal/mukoid benzeri) bağ dokusu\"dur (diş çevresinde yoğun kollajen demetleri içeren sıkı bağ dokusu periodontal ligamenttir). Çeldiriciler: A) Dentin, %70 hidroksiapatit ve %20 Tip I kollajen içeriğiyle kemik matriksine benzer; ancak kemikten farklı olarak hücre gövdeleri matriks içinde bulunmaz, sadece dentin tübülleri içinde odontoblastların sitoplazmik uzantılarını (Tomes liflerini) barındırır (Doğru). B) Odontoblastların prizmatik hücre gövdeleri pulpanın en dış sınırında, yeni salgıladıkları mineralize olmamış predentin tabakasına komşu olarak tek sıra halinde dizilir (Doğru). D) Pulpa kavitesi anatomik olarak taç kısmındaki geniş koronal bölüm (pulpa odası) ve kök kısmındaki dar radiküler bölüm (kök kanalı) olmak üzere iki kısımdan oluşur (Doğru). E) Gelişmekte olan dişte apikal foramen geniş ve kök ucunun tam merkezindeyken, diş gelişimi tamamlanıp apikalde sement ve sekonder dentin biriktikçe apikal foramen daralır (küçülür) ve anatomik apeksin yan tarafına (ekzantrik/merkez dışı konuma) kayar (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Submukoza\nII. Dış kas\nIII. Mukoza\nIV. Adventisya\nÖzofagusun torakal boşluk içerisinde yer alan parçasına ait histolojik tabakalarının lümene en yakın tabakadan başlayarak sıralanışı hangisidir?",
+    "options": {
+      "A": "IV-III-I-II",
+      "B": "IV-I-III-II",
+      "C": "III-IV-I-II",
+      "D": "I-III-II-IV",
+      "E": "III-I-II-IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tüm sindirim kanalı tüpünde olduğu gibi özofagusun torakal (göğüs boşluğu) parçasında da histolojik tabakalar lümenden (içten) dışa doğru sırasıyla; Mukoza (III) -> Submukoza (I) -> Muskularis eksterna / Dış kas (II) -> Adventisya (IV) şeklinde dizilir (III – I – II – IV). Öncüllerin Analizi: III. Mukoza (1. Tabaka - Lümene en yakın): Lümene bakan çok katlı yassı non-keratinize epitel, lamina propria ve longitudinal düz kaslı muskularis mukozadan oluşur. I. Submukoza (2. Tabaka): Mukozanın hemen altında yer alan, özofageal müköz bezleri ve Meissner submukozal sinir pleksusunu içeren gevşek/düzensiz sıkı bağ dokusu tabakasıdır. II. Dış kas / Muskularis eksterna (3. Tabaka): İçte sirküler, dışta longitudinal kas katmanlarından ve aralarındaki Auerbach miyenterik pleksusundan oluşur (özofagusun üst 1/3'ünde çizgili, orta 1/3'ünde mikst, alt 1/3'ünde düz kas yapısındadır). IV. Adventisya (4. Tabaka - En dış): Özofagusun torakal parçası periton boşluğu dışında (mediastinumda) yer aldığı için mezotel örtüsü (seroza) içermez; çevre yapılara gevşek bağ dokusundan oluşan adventisya ile tutunur (sadece diyafram altındaki 1–2 cm'lik abdominal parçası seroza ile örtülüdür). Çeldiriciler: A ve B şıkları en dıştaki adventisya (IV) ile başladığı için; C şıkkı mukozadan hemen sonra en dıştaki adventisyayı (IV) getirdiği için; D şıkkı ise mukozadan önce submukozayı (I) lümene en yakın tabaka olarak aldığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Diş etinden alınan biyopsi örneği ışık mikroskobu ile incelendiğinde epitel dokusunun stratum lucidum tabakasını içermediği ve üst yüzeyinde piknotik çekirdek içeren hücreler barındırdığı görülüyor. Bu epitel doku aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Çok katlı yassı keratinize epitel",
+      "B": "Çok katlı prizmatik epitel",
+      "C": "Değişici epitel",
+      "D": "Çok katlı yassı parakeratinize epitel",
+      "E": "Yalancı çok katlı prizmatik epitel"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Diş eti (gingiva) ve sert damak gibi çiğneme mukozası bölgelerinde sıkça görülen çok katlı yassı parakeratinize epitelde, yüzeyel (korneum) tabakadaki hücreler sitoplazmalarında keratin filamentleri biriktirmelerine rağmen çekirdeklerini tamamen kaybetmez ve en üst yüzey tabakasında büzüşmüş, koyu boyanan (piknotik) çekirdekler barındırmaya devam eder; ayrıca derinin kalın epidermisinden farklı olarak bu epitelde stratum lucidum tabakası bulunmaz. Çeldiriciler: A) Çok katlı yassı keratinize (ortokeratinize) epitelde, en üst yüzeydeki stratum korneum hücreleri çekirdeklerini ve organellerini tamamen kaybetmiş cansız keratin pulları halindedir; yüzeyde piknotik çekirdek içermez. B) Çok katlı prizmatik epitel, konjunktiva ve büyük bez duktuslarında bulunur; diş etinde yer almaz. C) Değişici epitel (ürotelyum), mesane ve üreterde bulunan, yüzeyinde kubbe şekilli şemsiye hücreleri taşıyan epiteldir. E) Yalancı çok katlı prizmatik epitel, solunum yollarını döşeyen ve tüm hücrelerinin bazal laminaya oturduğu epitel tipidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tükürük bezinden protein sekresyonunun artmasına neden olur?",
+    "options": {
+      "A": "cAMP",
+      "B": "cGMP",
+      "C": "IP3",
+      "D": "Diaçilgliserol",
+      "E": "Protein kinaz C"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Tükürük bezlerinde asiner hücrelerden zimojen granüllerinin ekzositozu ve amilaz/müsin gibi protein sekresyonunun artması esas olarak sempatik sinir sisteminin uyarılmasıyla gerçekleşir; sempatik uçlardan salınan noradrenalin asiner hücrelerdeki beta-adrenerjik (özellikle beta-1) reseptörlere bağlanarak Gs proteini üzerinden adenilat siklazı aktive eder ve hücre içi cAMP düzeyini artırır, artan cAMP de protein kinaz A (PKA) aracılığıyla granül ekzositozunu tetikleyerek proteinden ve enzimden zengin tükürük salgılanmasını sağlar. Çeldiriciler: B) cGMP, nitrik oksit ve natriüretik peptidlerin ikincil habercisi olup tükürük bezi protein sekresyonunun ana mediyatörü değildir. C) İnozitol trifosfat (IP₃), D) Diaçilgliserol (DAG) ve E) Protein kinaz C (PKC), parasempatik (asetilkolin -> M₃ -> Gq -> PLC) yolağın bileşenleridir; bu yolak hücre içi Ca²⁺ artışı üzerinden esas olarak yüksek hacimli, bol sulu ve elektrolitten zengin (seröz sıvı ağırlıklı) tükürük sekresyonunu uyarır, birim hacimdeki protein/enzim ekzositozunun birincil anahtar uyaranı cAMP-PKA yolağıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Duodenumun submukoza tabakasında aşağıdaki yapılardan hangisi bulunur?",
+    "options": {
+      "A": "Auerbach pleksusu",
+      "B": "Lieberkühn kriptleri",
+      "C": "Peyer plakları",
+      "D": "Brunner bezleri",
+      "E": "Paneth hücreleri"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Duodenumun submukoza tabakasında, tüm ince bağırsak segmentleri içinde yalnızca duodenuma özgü (ayırt ettirici) olan dallı tübüloalveoler yapılı müköz Brunner bezleri (duodenal bezler) bulunur; bu bezler muskularis mukozayı delerek Lieberkühn kriptalarının tabanına açılır ve salgıladıkları pH 8.1–9.3 değerindeki alkalen (bikarbonattan zengin) mukus ile mideden gelen asidik kimusu nötralize ederek duodenum mukozasını korur ve pankreatik enzimler için optimum pH sağlar (sindirim kanalında submukozada bez bulunan iki organ özofagus ve duodenumdur). Çeldiriciler: A) Auerbach (miyenterik) pleksusu, submukozada değil, muskularis eksterna tabakasının iç sirküler ve dış longitudinal kas katmanları arasında yer alır (submukozada Meissner pleksusu bulunur). B) Lieberkühn kriptleri (intestinal bezler), submukoza tabakasında değil, mukoza tabakasının lamina propriası içinde yerleşir. C) Peyer plakları, duodenuma değil, ileumun (mezenterik karşıtı duvarının) lamina propria ve submukozasına özgü kümelenmiş lenf folikülleridir. E) Paneth hücreleri, submukozada değil, mukozadaki Lieberkühn kriptlerinin tabanında yer alan epitel hücreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Tek katlı prizmatik epitel\nII. Lamina propriya\nIII. Muscularis mukoza\nIV. Tunika submukoza\nYukarıdakilerden hangileri histolojik olarak safra kesesi duvarında bulunmaz?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Safra kesesi duvarı histolojik olarak genel gastrointestinal kanal planından farklılık gösterir; lümenden dışa doğru tek katlı prizmatik epitel ve lamina propriadan oluşan mukoza, düzensiz düz kas demetlerinden oluşan muskularis eksterna ve dışta adventisya/seroza katmanlarını içerirken, safra kesesi duvarında muskularis mukoza (III) ve tunika submukoza (IV) tabakaları bulunmaz. Öncüllerin Analizi: I. Tek katlı prizmatik epitel (Bulunur): Safra kesesi lümenini döşeyen, safradan su ve elektrolit emerek konsantrasyon yapan mikrovilluslu kolanjiyosit epitelidir. II. Lamina propriya (Bulunur): Epitelin hemen altında yer alan, zengin fenestralı kapiller ağ ve gevşek bağ dokusu içeren mukoza katmanıdır. III. Muscularis mukoza (Bulunmaz): Safra kesesi mukozasında muskularis mukoza tabakası yoktur. IV. Tunika submukoza (Bulunmaz): Safra kesesinde submukoza tabakası yoktur; lamina propria hiçbir ara sınır olmaksızın doğrudan muskularis eksterna (dış düz kas) tabakasına temas eder. Çeldiriciler: A, B, C ve D şıkları safra kesesi mukozasını oluşturan tek katlı prizmatik epitel (I) ve/veya lamina propriya (II) öncüllerini \"bulunmaz\" olarak kabul ettiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Büyük bir doğal afetten etkilenen bölgede yaşayan bireylerde kolera vakaları görülüyor. Bu hastalarda şiddetli ishal ve buna bağlı sıvı-elektrolit kaybı tespit ediliyor. Bu klinik tabloyu açıklayabilecek en olası neden aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bağırsak lümenine doğru potasyum sekresyonunun artması",
+      "B": "Bağırsak epitel hücrelerinin sitoplazmasında cAMP düzeyinin artması",
+      "C": "Bağırsak epitel hücrelerinin luminal yüzeyindeki klor kanallarının kapanması",
+      "D": "Bağırsak lümeninden sodyum absorbsiyonunun artması",
+      "E": "Bağırsak epitel hücrelerinin bazolateral yüzeyindeki akuaporin ifadesinin artması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Vibrio cholerae bakterisinin salgıladığı kolera toksini (enterotoksin), B alt birimiyle ince bağırsak kript enterositlerinin apikal membranındaki GM1 gangliyozid reseptörlerine bağlanır ve hücre içine giren A alt birimi, Gs proteininin alfa alt birimini ADP-ribozilasyona uğratarak GTPaz aktivitesini kalıcı olarak inhibe eder; sürekli aktif kalan Gs proteini adenilat siklazı uyararak sitoplazmada cAMP düzeyini aşırı artırır, yükselen cAMP de protein kinaz A aracılığıyla apikal CFTR klor kanallarını sürekli açık tutarak lümene aşırı Cl⁻ (ve beraberinde Na⁺ ile ozmotik olarak litrelerce su) sekresyonuna, yani sekretuvar ishale (\"pirinç yıkantı suyu\" diyareye) yol açar. Çeldiriciler: A) Kolerada ana patofizyolojik başlangıç olayı potasyum sekresyonu değil, cAMP bağımlı aktif klor (Cl⁻) sekresyonudur (potasyum kaybı lümendeki negatif elektrik yükü ve aldosteron yanıtıyla ikincil olarak gelişir). C) Apikal yüzeydeki CFTR klor kanalları kapanmaz; tam tersine cAMP artışıyla sürekli açık kalır (klor kanallarının kapanması/bozukluğu kistik fibroziste görülür ve kabızlık/mekonyum ileusu yapar). D) Bağırsak lümeninden sodyum absorbsiyonu artmaz, aksine yükselen cAMP villus enterositlerindeki Na⁺/H⁺ değiştiricisini (NHE3) inhibe ederek NaCl emilimini azaltır (ancak SGLT-1 sağlam kaldığı için oral rehidratasyon sıvısı işe yarar). E) Suyun lümene geçişi bazolateral akuaporin ifadesi artışıyla değil, lümene salgılanan Cl⁻ ve Na⁺ iyonlarının oluşturduğu yüksek ozmotik gradyanla parasellüler ve transsellüler yoldan gerçekleşir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi yutma sırasında alt özofagus sfinkterini gevşetir?",
+    "options": {
+      "A": "Kolesistokinin",
+      "B": "Sekretin",
+      "C": "Vazoaktif intestinal peptid",
+      "D": "Motilin",
+      "E": "Ghrelin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Yutma sırasında özofagusta ilerleyen primer peristaltik dalga alt özofagus sfinkterine (LES) ulaşmadan hemen önce, vagus siniri aracılığıyla özofagus miyenterik (Auerbach) pleksusundaki inhibitör (NANC - non-adrenerjik non-kolinerjik) motor nöronlar uyarılır; bu nöronlardan salınan vazoaktif intestinal peptid (VIP) ve nitrik oksit (NO), sfinkter düz kas hücrelerinde cAMP ve cGMP düzeylerini artırarak alt özofagus sfinkterini gevşetir ve besin bolusunun mideye geçişini sağlar. Çeldiriciler: A) Kolesistokinin, yağlı besinlerle duodenumdan salgılanan, safra kesesini kasıp Oddi sfinkterini gevşeten hormondur; yutma refleksi sırasındaki nörojenik LES gevşemesinin mediyatörü değildir. B) Sekretin, duodenuma geçen asitle salgılanıp pankreastan bikarbonat salgılatan hormondur. D) Motilin, açlıkta mide ve ince bağırsakta göç eden motor kompleksi başlatır ve alt özofagus sfinkteri tonusunu gevşetmez, aksine artırır. E) Ghrelin, açlıkta mide fundusundan salgılanarak hipotalamusta iştahı (NPY/AgRP nöronlarını) ve büyüme hormonu salınımını uyaran oreksijenik hormondur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi parasempatik sinir sisteminin uyarımına bağlı olarak tükürük bezi salgı aktivitesinde meydana gelen değişikliklerden biridir?",
+    "options": {
+      "A": "Tükürük su içeriğinde azalma",
+      "B": "Tükürük bezi kan damarlarında vazodilatasyon",
+      "C": "Duktal hücre transport aktivitesinde azalma",
+      "D": "İyonik içerikte azalma",
+      "E": "Tükürük organik içerik artışı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Parasempatik sinir sisteminin (n. facialis [VII] ve n. glossopharyngeus [IX]) uyarılması, tükürük bezlerinde hem doğrudan sinir uçlarından salınan asetilkolin (endotelde NO salınımıyla) ve vazoaktif intestinal peptid (VIP) aracılığıyla hem de uyarılan bez hücrelerinden interstisyuma salınan kallikrein enziminin plazma kininojeninden güçlü vazodilatör bradikinin oluşturmasıyla tükürük bezi kan damarlarında belirgin vazodilatasyon yapar; böylece artan kan akımı bol sulu tükürük üretimi için gerekli sıvıyı sağlar. Çeldiriciler: A) Parasempatik uyarı asiner hücrelerde M₃ reseptörleri (IP₃/Ca²⁺ yolu) üzerinden su ve elektrolit sekresyonunu güçlü şekilde uyardığı için tükürük su içeriğinde azalma değil, büyük bir artış meydana gelir. C) Parasempatik uyarı duktal epitel hücrelerinin bazolateral ve apikal iyon taşıma (transport) aktivitesini ve bikarbonat sekresyonunu azaltmaz, artırır. D) Parasempatik uyarıyla akış hızı çok arttığı için çizgili kanallarda Na⁺ ve Cl⁻ geri emilimine zaman kalmaz, ayrıca HCO₃⁻ sekresyonu artar; sonuçta tükürüğün toplam iyonik içeriği ve tonisitesi azalmaz, artar (izotonikliğe yaklaşır). E) Tükürükte organik madde (müsin ve amilaz gibi protein) içeriğinin yoğun, hacmin ise düşük ve koyu/visköz olması parasempatik değil, sempatik (beta-adrenerjik / cAMP) uyarının tipik özelliğidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi mide epitelinde bulunan hücre tiplerinden biri değildir?",
+    "options": {
+      "A": "Boyun mukus hücreleri",
+      "B": "Paryetal hücreler",
+      "C": "Esas hücreler",
+      "D": "Yüzey mukus hücreleri",
+      "E": "Paneth hücreleri"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Paneth hücreleri normal sağlıklı mide epitelinde ve gastrik bezlerde bulunmayan bir hücre tipidir; ince bağırsak (duodenum, jejunum ve ileum) Lieberkühn kriptalarının tabanında yerleşen ve lizozim ile alfa-defensin salgılayan ince bağırsağa özgü hücrelerdir (mide epitelinde ancak kronik atrofik gastrit zemininde gelişen \"komplet tip intestinal metaplazi\" gibi patolojik durumlarda görülebilir). Çeldiriciler: A) Boyun mukus hücreleri, gastrik bezlerin boyun (istmus/serviks) bölgesinde yer alan ve çözünür (asidik) mukus salgılayan mide epitel hücreleridir. B) Paryetal (oksintik) hücreler, mide korpus ve fundusundaki oksintik bezlerde bulunan, HCl ve intrinsik faktör salgılayan hücrelerdir. C) Esas (şef/peptik/zimogenik) hücreler, oksintik bezlerin taban kısmında bulunan ve pepsinojen ile gastrik lipaz salgılayan hücrelerdir. D) Yüzey mukus (foveolar) hücreleri, tüm mide lümen yüzeyini ve gastrik çukurcukları (foveola gastrica) döşeyen, mideyi asit ve pepsinden koruyan çözünmez (nötral) mukus ve bikarbonat salgılayan tek katlı prizmatik epitel hücreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sindirim Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

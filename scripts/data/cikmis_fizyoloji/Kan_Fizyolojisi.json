@@ -1,0 +1,786 @@
+[
+  {
+    "question": "Eritrositlerde, oksijeni bağlayarak taşınmasında görev alan molekül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Ankrin",
+      "B": "Spektrin",
+      "C": "Aglütinojen",
+      "D": "2,3-difosfogliserat",
+      "E": "Hemoglobin"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Eritrositlerin sitoplazmasını dolduran ve hücrenin kuru ağırlığının yaklaşık üçte birini oluşturan **hemoglobin (Hb)**, dört adet globin polipeptid zinciri ve her bir zincire bağlı demir ($\\text{Fe}^{2+}$) içeren dört adet **hem** prostetik grubundan oluşan tetramerik bir proteindir. Akciğer kapillerlerinde yüksek parsiyel oksijen basıncında $\\text{Fe}^{2+}$ atomları aracılığıyla oksijeni tersinir (reverzibl) olarak bağlar ve dokulara taşır.\n**Çeldiriciler:**\n- **A) Ankrin:** Eritrosit hücre iskeletinde yer alan periferik bir membran proteinidir; spektrin-aktin ağını integral bir protein olan Band 3'e bağlayarak eritrositin bikonkav disk şeklini ve membran bütünlüğünü korur (eksikliğinde herediter sferositoz gelişir).\n- **B) Spektrin:** Eritrosit membranının iç yüzeyinde yer alan en temel hücre iskeleti (periferik) proteinidir; eritrosite esneklik, şekil dayanıklılığı ve dar kapillerlerden geçebilme yeteneği kazandırır.\n- **C) Aglütinojen:** Eritrosit membranının dış yüzeyindeki glikolipid ve glikoproteinlerde (örneğin glikoforin A) yer alan, ABO ve Rh gibi kan gruplarını belirleyen yüzey antijenleridir.\n- **D) 2,3-difosfogliserat (2,3-DPG / 2,3-BPG):** Eritrositlerde glikolizin yan ürünü (Rapoport-Luebering şantı) olarak sentezlenen bir organik fosfattır; oksijeni doğrudan bağlamaz, deoksihemoglobinin $\\beta$ zincirlerine bağlanarak hemoglobinin oksijene afinitesini azaltır ve dokulara oksijen bırakılmasını kolaylaştırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dolaşımdaki monositlerin bağ dokusuna geçerek burada farklılaşması ile oluşan ve fagositik aktiviteye sahip bağ dokusu hücresi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fibroblast",
+      "B": "Mast hücresi",
+      "C": "Makrofaj",
+      "D": "Plazma hücresi",
+      "E": "Bazofil"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kemik iliğinde üretilip kan dolaşımına verilen **monositler**, kanda 1–3 gün dolaştıktan sonra kapiller ve postkapiller venüllerden diapedez ile bağ dokusuna ve çeşitli organlara geçerek **makrofajlara (bağ dokusunda histiyositlere)** farklılaşırlar. Mononükleer fagositik sistemin temel elemanı olan makrofajlar; lizozomlarından zengin sitoplazmalarıyla güçlü **fagositoz** (bakteri, yabancı cisim ve yaşlı/apoptotik hücre yıkımı) yapar, sitokin salgılar ve MHC sınıf II molekülleriyle yardımcı T lenfositlerine **antijen sunarlar**.\n**Çeldiriciler:**\n- **A) Fibroblast:** Monosit kökenli değil, doğrudan mezenkimal kök hücreden gelişen bağ dokusunun esas yerleşik hücresidir; kollajen, retiküler ve elastik lifler ile zemin maddesini sentezler.\n- **B) Mast hücresi:** Kemik iliğindeki hematopoetik öncüllerden köken alır ancak monositlerden gelişmez; sitoplazmasında heparin ve histamin içeren bazofilik granüller barındırır, IgE aracılı tip I aşırı duyarlılık (alerji ve anafilaksi) reaksiyonlarında rol oynar.\n- **D) Plazma hücresi:** Monositlerin değil, antijenle uyarılmış **B lenfositlerin** farklılaşmasıyla oluşur; temel görevi fagositoz değil, humoral bağışıklık için özgül antikor (immünoglobulin) sentezleyip salgılamaktır.\n- **E) Bazofil:** Bağ dokusuna geçip farklılaşmış bir hücre değil, doğrudan kan dolaşımında bulunan en düşük orandaki (%0.5–1) granülosit (lökosit) tipidir; histamin ve heparin içerir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Nötrofillerin, damar endotel hücreleri arasından süzülerek doku içine geçişlerine ne ad verilir?",
+    "options": {
+      "A": "Ameboid hareket",
+      "B": "Diapedez",
+      "C": "Kemotaksi",
+      "D": "Marjinasyon",
+      "E": "Fagositoz"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Akut inflamasyon sırasında nötrofillerin (ve diğer lökositlerin) postkapiller venüllerde endotel hücrelerine sıkıca yapıştıktan (adezyon) sonra, psödopodlar (yalancı ayaklar) uzatarak endotel hücreleri arasındaki bağlantı aralıklarından (PECAM-1 / CD31 etkileşimiyle) şekil değiştirip süzülerek damar dışına (interstisyel bağ dokusuna) çıkması olayına **diapedez (transmigrasyon / ekstravazasyon)** adı verilir.\n**Çeldiriciler:**\n- **A) Ameboid hareket:** Diapedez ile damar dışına çıkmış olan lökositlerin, hücre iskeletindeki aktin-miyozin etkileşimi ve yalancı ayak (psödopod) oluşumu sayesinde doku aralıklarında sürünerek ilerlemesidir.\n- **C) Kemotaksi:** Lökositlerin dokuda bakteriyel ürünler (fMLP), kompleman komponenti **C5a**, **lökotrien $B_4$ ($LTB_4$)** ve **IL-8 (CXCL8)** gibi kimyasal çekici (kemoatraktan) maddelerin konsantrasyon gradiyentine doğru yönelerek göç etmesidir.\n- **D) Marjinasyon:** İnflamasyon bölgesinde vazodilatasyon ve kan akımının yavaşlaması (staz) sonucunda lökositlerin damarın merkezindeki laminer akımdan ayrılarak endotel yüzeyine (damar duvarı kenarına) doğru yanaşmasıdır.\n- **E) Fagositoz:** Nötrofil ve makrofajların hedef mikroorganizmayı veya partikülü hücre içine alarak fagozom ve fagolizozom oluşturup parçalaması (yutması) işlemidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yüksek endotelli venüllerin görevi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Antikoagülan üretimi",
+      "B": "Isı kaybının önlenmesi",
+      "C": "Vasküler tonus düzenleyicilerin üretimi",
+      "D": "Damar duvarının drenajı",
+      "E": "Lenfositlerin lenfatik dokuya girişi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** **Yüksek endotelli venüller (HEV)**, alışılmış yassı endotel hücrelerinden farklı olarak kübik veya prizmatik (yüksek) endotel hücreleriyle döşeli özelleşmiş postkapiller venüllerdir. Lenf düğümlerinin parakorteksinde, tonsillalarda, Peyer plaklarında ve apendiks gibi mukozayla ilişkili lenfoid dokularda (MALT) bulunurlar (dalak ve timusta bulunmazlar). Endotel yüzeylerinde taşıdıkları özel adresin/adezyon molekülleri (lenfosit üzerindeki L-selektin / CD62L'yi tanıyan ligandlar) sayesinde **kanda dolaşan T ve B lenfositlerin kan dolaşımından doğrudan lenfatik doku parankimine geçişini (homing / giriş)** sağlarlar.\n**Çeldiriciler:**\n- **A) Antikoagülan üretimi:** Genel vasküler endotelin (trombomodulin, heparan sülfat, $\\text{PGI}_2$, $\\text{NO}$) işlevidir; yüksek endotelli venüllerin özelleşmiş spesifik görevi değildir.\n- **B) Isı kaybının önlenmesi:** Derideki arteriyovenöz anastomozların (glomus cisimcikleri) ve kutanöz venöz pleksusların termoregülasyon görevidir.\n- **C) Vasküler tonus düzenleyicilerin üretimi:** Arteriyol ve genel damar endotelinin ($\\text{NO}$, endotelin-1) işlevidir.\n- **D) Damar duvarının drenajı:** Büyük arter ve venlerin tunika adventisya ve media tabakalarını besleyen ve drene eden *vasa vasorum* yapılarının görevidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, kanın damar sistemi içinde pıhtılaşmasını önleyen endotel yüzey faktörlerinden biridir?",
+    "options": {
+      "A": "Trombin",
+      "B": "Antitrombin III",
+      "C": "Protein C",
+      "D": "Trombomodulin",
+      "E": "Heparin"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sağlam vasküler endotel yüzeyi, damar içinde pıhtılaşmayı önleyen doğal antikoagülan özelliklere sahiptir. Bunlar; endotel yüzeyinin düzgünlüğü, negatif yüklü glikokaliks tabakası ve tüm endotel hücre membranlarına yerleşik integral bir yüzey proteini olan **trombomodulindir**. Trombomodulin, dolaşımdaki serbest trombini bağlayarak onun fibrinojeni fibrine çevirme (prokoagülan) yeteneğini ortadan kaldırır; aynı zamanda trombomodulin-trombin kompleksi plazmadaki **Protein C'yi aktive ederek** (Protein S kofaktörlüğünde Faktör Va ve VIIIa'yı yıkarak) güçlü bir antikoagülan etki oluşturur.\n**Çeldiriciler:**\n- **A) Trombin (Faktör IIa):** Antikoagülan bir endotel yüzey faktörü değil, pıhtılaşma kaskadının merkezinde yer alan ve fibrinojeni fibrine dönüştüren temel **prokoagülan** serin proteaz enzimidir.\n- **B) Antitrombin III:** Endotel yüzeyine yerleşik bir membran proteini değil, karaciğerde sentezlenip kan plazmasında serbest dolaşan bir $\\alpha_2$-globulin (serpin) molekülüdür; başta trombin (Faktör IIa) ve Faktör Xa olmak üzere Faktör IXa, XIa ve XIIa'yı inhibe eder.\n- **C) Protein C:** Endotel membran proteini değil, karaciğerde K vitaminine bağımlı olarak sentezlenen ve plazmada zimojen (inaktif) halde dolaşan bir plazma proteinidir; endotel yüzeyindeki trombomodulin-trombin kompleksi tarafından aktive edilir.\n- **E) Heparin:** Esas olarak bağ dokusundaki **mast hücreleri** ve kandaki **bazofiller** tarafından sentezlenip salgılanan sülfatlanmış bir glikozaminoglikandır; antitrombin III'ün etkinliğini 1000 katına kadar artırır (endotel yüzeyinde ise heparin benzeri heparan sülfat proteoglikanları bulunur).",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Eritropoiezde proeritroblasttan eritrosite doğru olgunlaşan hücre ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Sitoplazmada serbest ribozom sayısı artar.",
+      "B": "Hücre çekirdeği hiperkromatikten ökromatiğe değişir.",
+      "C": "Hücrenin ve nukleusun boyutu artar.",
+      "D": "Hücrenin sitoplazması bazofil değil asidofil boyanır.",
+      "E": "Olgunlaştığında mitoz bölünmeye devam eder."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Eritropoiez sürecinde hücreler sırasıyla **proeritroblast $\\rightarrow$ bazofilik eritroblast $\\rightarrow$ polikromatofilik eritroblast $\\rightarrow$ ortokromatofilik eritroblast (normoblast) $\\rightarrow$ retikülosit $\\rightarrow$ olgun eritrosit** basamaklarından geçer. Erken evrelerde (bazofilik eritroblast) sitoplazmada bol miktarda serbest poliribozom bulunduğu için hücre bazofilik (mavi-mor) boyanır. Hücre olgunlaştıkça ribozom sayısı azalır, buna karşılık sitoplazmada sentezlenen ve biriken **hemoglobin (Hb)** miktarı hızla artar. Hemoglobin bazik bir protein olduğu için asidik boyalarla (eozin) boyanır; dolayısıyla olgunlaşan hücrenin sitoplazması **bazofilikten asidofilik (pembe/kırmızı) boyanmaya** doğru değişir. *(Not: Bazı eski cevap anahtarlarında dizgi hatasıyla B harfi yer alsa da, ÖSYM resmi anahtarında ve histolojik olarak doğru ifade kesinlikle D seçeneğidir).*\n**Çeldiriciler:**\n- **A) Sitoplazmada serbest ribozom sayısı artar:** Yanlıştır; proeritroblast ve bazofilik eritroblasttan olgun eritrosite doğru gidildikçe serbest ribozom ve poliribozom sayısı giderek **azalır** ve olgun eritrositte tamamen kaybolur.\n- **B) Hücre çekirdeği hiperkromatikten ökromatiğe değişir:** Yanlıştır; değişim tam tersi yöndedir. Genç proeritroblast çekirdeği aktif transkripsiyon yaptığı için gevşek ve açık renkli (**ökromatik**) iken, hücre olgunlaştıkça kromatin yoğunlaşır, koyulaşır (**hiperkromatik / piknotik** hale gelir) ve ortokromatofilik eritroblast evresinin sonunda hücre dışına atılır.\n- **C) Hücrenin ve nukleusun boyutu artar:** Yanlıştır; eritropoiez ilerledikçe hem hücrenin toplam çapı ($15-20\\text{ }\\mu\\text{m}$'den $7.5\\text{ }\\mu\\text{m}$'ye) hem de nükleusun boyutu giderek **küçülür**.\n- **E) Olgunlaştığında mitoz bölünmeye devam eder:** Yanlıştır; mitoz bölünme yeteneği sadece polikromatofilik eritroblast evresine kadar devam eder; ortokromatofilik eritroblast, retikülosit ve çekirdeksiz olgun eritrosit **mitoz bölünme geçiremez**.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisi, kemik iliğinden köken almaz?",
+    "options": {
+      "A": "Osteoklast",
+      "B": "Lenfosit",
+      "C": "Kupffer hücresi",
+      "D": "Mikroglia hücresi",
+      "E": "Ependim hücresi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Merkezi sinir sisteminde bulunan nöroglia hücrelerinden astrositler, oligodendrositler ve **ependim hücreleri** embriyolojik olarak **nöroektodermden (nöral tüp epitelinden)** köken alırlar; kemik iliğindeki hematopoetik kök hücrelerden gelişmezler. Ependim hücreleri beyin ventriküllerini ve omuriliğin santral kanalını döşeyen, beyin-omurilik sıvısının (BOS) üretimi ve hareketinde görev alan kübik-prizmatik epitel benzeri glial hücrelerdir.\n**Çeldiriciler:**\n- **A) Osteoklast:** Kemik dokusunda yıkım (rezorpsiyon) yapan çok çekirdekli dev hücrelerdir; kemik iliğindeki hematopoetik kök hücrelerden gelişen granülosit-makrofaj öncüllerinin (monositlerin) kaynaşmasıyla oluşur.\n- **B) Lenfosit:** Kemik iliğindeki pluripotent hematopoetik kök hücreden gelişen ortak lenfoid öncül (CLP) hücrelerinden köken alır (B lenfositler kemik iliğinde, T lenfositler timusta olgunlaşır).\n- **C) Kupffer hücresi:** Karaciğer sinüzoidlerinin duvarında yerleşik bulunan makrofajlardır; mezodermal/hematopoetik kökenlidir ve mononükleer fagositik sistemin parçasıdır.\n- **D) Mikroglia hücresi:** Merkezi sinir sistemindeki diğer glial hücrelerin (astrosit, oligodendrosit, ependim) aksine nöroektodermden değil, mezodermal hematopoetik öncüllerden (mononükleer fagositik sistemden) köken alan yerleşik fagositik savunma hücreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Makrofaja dönüşerek CD4+ T lenfositine antijen sunan lökosit aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Doğal öldürücü lenfosit",
+      "B": "Bazofil",
+      "C": "Nötrofil",
+      "D": "Eozinofil",
+      "E": "Monosit"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Kandaki agranüler lökositlerden biri olan **monositler**, kan dolaşımından dokulara geçerek **makrofajlara** dönüşürler. Makrofajlar (dendritik hücreler ve B lenfositlerle birlikte) **profesyonel antijen sunan hücreler (APC)** grubunda yer alır; fagosite ettikleri ekzojen antijenleri lizozomal enzimlerle işleyerek yüzeylerindeki **MHC sınıf II** molekülleri aracılığıyla yardımcı T lenfositlerine (**$\\text{CD4}^+$ T lenfositlerine**) sunarlar.\n**Çeldiriciler:**\n- **A) Doğal öldürücü (NK) lenfosit:** Doğal (innate) bağışıklığın sitotoksik lenfositidir; makrofaja dönüşmez, MHC sınıf I ekspresyonu azalmış virüsle enfekte hücreleri ve tümör hücrelerini perforin ve granzim salgılayarak doğrudan öldürür.\n- **B) Bazofil:** Alerjik reaksiyonlarda rol alan granülosittir; makrofaja dönüşmez ve profesyonel antijen sunucu hücre değildir.\n- **C) Nötrofil:** Akut bakteriyel inflamasyonda ilk olay yerine giden ve fagositoz yapan polimorfonükleer granülosittir; makrofaja dönüşmez ve klasik profesyonel APC değildir.\n- **D) Eozinofil:** Paraziter enfeksiyonlarda (helmintlere karşı) ve alerjik reaksiyonların kontrolünde görev alan granülosittir; makrofaja dönüşmez.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi mononükleer fagositler sisteme ait hücrelerden değildir?",
+    "options": {
+      "A": "Osteoklast",
+      "B": "Kupffer hücresi",
+      "C": "Monosit",
+      "D": "Mast hücresi",
+      "E": "Mikroglia"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** **Mononükleer fagositik sistem (retiküloendotelyal sistem)**, kemik iliğindeki monoblast/promonosit öncüllerinden gelişen kandaki monositleri ve bunların çeşitli dokularda farklılaşmasıyla oluşan yüksek fagositik yetenekli doku makrofajlarını kapsar. **Mast hücresi** ise kemik iliğindeki hematopoetik kök hücreden (CD34+ öncülden) köken alsa da monosit-makrofaj serisine ait değildir; bağ dokusunda yerleşik bulunan, bazofilik granüllerinde histamin, heparin, triptaz ve lökotrienler taşıyan ve IgE aracılı alerjik/anafilaktik yanıtlarda görev alan ayrı bir hücre tipidir.\n**Çeldiriciler:**\n- **A) Osteoklast:** Kemik dokusundaki monosit/makrofaj kökenli, çok çekirdekli fagositik/rezorptif hücredir ve mononükleer fagositik sisteme dahildir.\n- **B) Kupffer hücresi:** Karaciğer sinüzoidlerinde yer alan mononükleer fagositik sistem hücresidir (karaciğer makrofajı).\n- **C) Monosit:** Mononükleer fagositik sistemin kan dolaşımındaki öncül hücresidir.\n- **E) Mikroglia:** Merkezi sinir sisteminde (beyin ve omurilikte) yer alan mononükleer fagositik sistem hücresidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sağlıklı bir yetişkinin kanında, aşağıdaki lökosit tiplerinden hangisinin yüzdesi en fazladır?",
+    "options": {
+      "A": "Nötrofil",
+      "B": "Lenfosit",
+      "C": "Monosit",
+      "D": "Eozinofil",
+      "E": "Bazofil"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sağlıklı bir yetişkinin periferik kan yaymasında (lökosit formülünde) lökositlerin bulunma yüzdeleri çoktan aza doğru sırasıyla şöyledir: **Nötrofil (%55–70)** > **Lenfosit (%20–35)** > **Monosit (%3–8)** > **Eozinofil (%1–4)** > **Bazofil (%0.5–1)**. Dolayısıyla kanda yüzdesi ve sayısı en fazla olan lökosit tipi **nötrofildir** (polimorfonükleer lökosit).\n**Çeldiriciler:**\n- **B) Lenfosit:** Yaklaşık %20–35 oranıyla kanda nötrofillerden sonra **ikinci** en sık bulunan lökosit tipidir.\n- **C) Monosit:** Yaklaşık %3–8 oranıyla kanda **üçüncü** sırada yer alan agranüler lökosittir (periferik kanın çap olarak en büyük lökositidir).\n- **D) Eozinofil:** Yaklaşık %1–4 oranıyla kanda **dördüncü** sırada bulunur; alerjik ve paraziter hastalıklarda sayısı artar.\n- **E) Bazofil:** Yaklaşık %0.5–1 oranıyla sağlıklı yetişkin kanında yüzdesi **en az** olan lökosit tipidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Özel granülleri içinde kristalloid yapılar içeren lökosit aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lenfosit",
+      "B": "Monosit",
+      "C": "Nötrofil",
+      "D": "Eozinofil",
+      "E": "Bazofil"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** **Eozinofiller**, iki loblu çekirdeğe ve eozin boyasıyla parlak kırmızı-turuncu boyanan iri spesifik (sekonder) granüllere sahip granülositlerdir. Elektron mikroskobunda eozinofillerin spesifik granüllerinin merkezinde, granülün uzun eksenine paralel yerleşmiş yoğun, elektron-dens bir **kristalloid gövde (internum)** ve onu çevreleyen daha az yoğun bir matriks (**eksternum**) görülür. Bu karakteristik kristalloid çekirdek yapısı ağırlıklı olarak parazitlere karşı sitotoksik olan **Major Basic Protein (MBP)** içerir (ayrıca granüllerde eozinofil katyonik protein, eozinofil peroksidaz ve eozinofil kaynaklı nörotoksin bulunur).\n**Çeldiriciler:**\n- **A) Lenfosit:** Agranülosit grubundadır; sitoplazmasında yalnızca az sayıda non-spesifik azurofilik granül (lizozom) bulunur, kristalloid içeren özel granülü yoktur.\n- **B) Monosit:** Agranülosit grubundadır; sitoplazmasında bol lizozom (azurofilik granül) yer alır ancak spesifik granül veya kristalloid yapı içermez.\n- **C) Nötrofil:** Hem azurofilik (primer) hem de spesifik (sekonder) granüller içerir; ancak spesifik granülleri kollajenaz, laktoferrin ve lizozim içerip amorf yapıdadır, elektron mikroskobunda kristalloid gövde barındırmaz.\n- **E) Bazofil:** İri bazofilik spesifik granülleri histamin ve heparin içerir, çekirdeği örter (S-şekilli çekirdek) ancak eozinofildeki gibi tipik kristalloid internum yapısı göstermez.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, fibrinolitik sistemin aktif maddesinin yapımını/oluşumunu sağlar?",
+    "options": {
+      "A": "Kumadin",
+      "B": "Heparin",
+      "C": "Hageman faktör",
+      "D": "von Willebrand faktörü",
+      "E": "Doku plazminojen aktivatörü"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Damar yaralanması onarıldıktan sonra oluşan fibrin pıhtısının eritilmesini sağlayan sisteme **fibrinolitik sistem** denir ve bu sistemin **aktif maddesi (enzimi) plazmindir (fibrinolizindir)**. Plazmin, karaciğerde sentezlenip plazmada inaktif bir zimojen olarak bulunan **plazminojenin** peptid bağlarının kesilmesiyle oluşur. Fizyolojik koşullarda plazminojeni aktif **plazmine** dönüştüren en temel madde, hasarlı veya uyarılmış vasküler endotel hücrelerinden salgılanan **doku plazminojen aktivatörüdür (t-PA)** (ayrıca böbrek kaynaklı ürokinaz tipi plazminojen aktivatörü [u-PA] da aynı işi yapar).\n**Çeldiriciler:**\n- **A) Kumadin (Varfarin):** Fibrinolitik sistemi doğrudan aktive etmez; karaciğerde K vitamini epoksit redüktaz enzimini inhibe ederek Faktör II, VII, IX, X (ve Protein C, S) sentezini engelleyen oral bir **antikoagülandır**.\n- **B) Heparin:** Plazminojeni plazmine çevirmez; antitrombin III'ü aktive ederek Faktör IIa (trombin) ve Faktör Xa başta olmak üzere pıhtılaşma faktörlerini inhibe eden bir **antikoagülandır**.\n- **C) Hageman faktör (Faktör XII):** İntrinsik pıhtılaşma yolunu ve kallikrein-kinin sistemini başlatan pıhtılaşma faktörüdür (kallikrein üzerinden plazminojene dolaylı ve zayıf bir katkısı olsa da plazmin oluşumunu sağlayan esas fizyolojik aktivatör t-PA'dır).\n- **D) von Willebrand faktörü (vWF):** Endotel hücreleri (Weibel-Palade cisimcikleri) ve megakaryositler/trombositler tarafından sentezlenir; trombositlerin GpIb/IX reseptörü ile subendotelyal kollajene **adezyonunu** sağlar ve plazmada Faktör VIII'i taşır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi aplastik anemi gelişimine neden olmaz?",
+    "options": {
+      "A": "Eritropoietin yokluğu",
+      "B": "Kemoterapi",
+      "C": "Yüksek doz radyoterapi",
+      "D": "İnsektisitler",
+      "E": "Lupus Eritematozus"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** **Aplastik anemi**, kemik iliğindeki multipotent hematopoetik kök hücrelerin hasar görmesi veya baskılanması sonucunda kemik iliğinin hiposellüler (yağlı ilik) hale gelmesi ve periferik kanda her üç hücre serisinin de azalması (**pansitopeni**: anemi + lökopeni/nötropeni + trombositopeni) tablosudur. **Eritropoietin (EPO) yokluğu** (örneğin kronik böbrek yetmezliğinde) sadece eritroid öncül hücrelerin uyarılmasını azaltarak **normokrom normositer anemiye** (veya saf eritroid aplaziye) yol açar; kemik iliğindeki kök hücreleri harap etmez, lökosit ve trombosit üretimini bozmaz ve hiposellüler aplastik anemi gelişimine neden olmaz.\n**Çeldiriciler:**\n- **B) Kemoterapi:** Sitotoksik ve alkilleyici antineoplastik ilaçlar hızla bölünen hematopoetik kök hücrelerin DNA sentezini bozarak doza bağımlı kemik iliği baskılanmasına ve aplastik anemiye neden olur.\n- **C) Yüksek doz radyoterapi:** İyonlaştırıcı radyasyon serbest radikaller oluşturarak ve DNA kırıklarına yol açarak kemik iliği kök hücrelerini tahrip eder ve aplastik anemiye yol açar.\n- **D) İnsektisitler:** Organoklorlu/organofosfatlı böcek ilaçları (örneğin DDT, lindan) ve benzen gibi endüstriyel kimyasallar kemik iliğine doğrudan миyelotoksik etki göstererek aplastik anemi gelişimine neden olur.\n- **E) Lupus Eritematozus (SLE):** Sistemik lupus eritematozus gibi otoimmün hastalıklarda otoreaktif T lenfositlerin ve otoantikorların hematopoetik kök hücrelere saldırması sonucunda sekonder aplastik anemi gelişebilir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Granülopoez sırasında spesifik granüllerin ilk ortaya çıktığı aşama aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Miyelosit",
+      "B": "Miyeloblast",
+      "C": "Promiyelosit",
+      "D": "Metamiyelosit",
+      "E": "Band hücresi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kemik iliğinde granülositlerin (nötrofil, eozinofil, bazofil) gelişim süreci olan granülopoez sırasıyla **miyeloblast $\\rightarrow$ promiyelosit $\\rightarrow$ miyelosit $\\rightarrow$ metamiyelosit $\\rightarrow$ band (çomak) hücresi $\\rightarrow$ olgun granülosit** aşamalarından oluşur. Hücrenin nötrofil, eozinofil veya bazofil olacağını belirleyen **spesifik (sekonder) granüller**, Golgi kompleksinde ilk kez **miyelosit** aşamasında sentezlenmeye başlar ve ortaya çıkar (bu yüzden ilk kez bu aşamada hücreler nötrofilik miyelosit, eozinofilik miyelosit ve bazofilik miyelosit olarak ayırt edilebilir).\n**Çeldiriciler:**\n- **B) Miyeloblast:** Granülopoezin ilk tanınabilir öncül hücresidir; büyük ökromatik çekirdeği ve belirgin nükleolleri vardır, sitoplazmasında **hiç granül bulunmaz** (ne azurofilik ne de spesifik granül içerir).\n- **C) Promiyelosit:** Spesifik (sekonder) granüllerin değil, miyeloperoksidaz ve lizozomal enzimler içeren **azurofilik (primer / non-spesifik) granüllerin** ilk kez ortaya çıktığı aşamadır.\n- **D) Metamiyelosit:** Böbrek veya fasulye şeklinde çentikli çekirdeğe sahip olan, artık **mitoz bölünme yeteneğini kaybetmiş** ve sitoplazmasında bol spesifik granül bulunduran daha ileri bir olgunlaşma aşamasıdır.\n- **E) Band hücresi (Çomak):** Olgun granülositten hemen önceki aşamadır; çekirdeği at nalı veya kıvrık çubuk şeklindedir, henüz loblarına ayrılmamıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hassal korpusküllerini aşağıdaki hücrelerden hangisi oluşturur?",
+    "options": {
+      "A": "Lenfosit",
+      "B": "Endotel hücresi",
+      "C": "Makrofaj",
+      "D": "Timosit",
+      "E": "Timus epitel hücresi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Primer bir lenfoid organ olan timusun stroması bağ dokusu liflerinden (kollajen/retiküler liflerden) değil, 3. faringeal cep endoderminden köken alan **timus epitel hücrelerinden (epitelyoretiküler hücreler)** oluşur. Timusun **medulla** bölgesinde bulunan ve timus için tanısal (patognomonik) histolojik yapılar olan **Hassal korpuskülleri (timik korpusküller)**, birbirinin etrafına soğan zarı gibi konsantrik (eş merkezli) olarak sarılmış, yassılaşmış ve dejenere olarak keratohyalin granülleri ile sitokeratin filamanları biriktirmiş **Tip VI timus epitel hücreleri (epitelyoretiküler hücreler)** tarafından oluşturulur. Bu yapılar T lenfosit olgunlaşmasını ve regülatuvar T hücresi gelişimini düzenleyen sitokinler (örneğin TSLP) üretir.\n**Çeldiriciler:**\n- **A) Lenfosit:** Timus parankimini dolduran T lenfositler stromayı veya Hassal korpusküllerini oluşturmazlar.\n- **B) Endotel hücresi:** Timustaki kan damarlarının iç yüzeyini döşer ve korteksteki kan-timus bariyerinin yapısına katılır; Hassal korpuskülü oluşturmaz.\n- **C) Makrofaj:** Timus korteksi ve medullasında negatif seçilim sonucu apoptoza uğrayan T lenfositleri fagosite eder; Hassal korpuskülü yapısına katılmaz.\n- **D) Timosit:** Timus içinde gelişmekte ve olgunlaşmakta olan öncül T lenfositlerine verilen isimdir; epitel kökenli Hassal korpusküllerini oluşturmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yardımcı T hücrelere antijen sunan hücre aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nötrofiller",
+      "B": "Sitotoksik T hücreleri",
+      "C": "Plazma hücreleri",
+      "D": "Doğal öldürücü (NK) hücreler",
+      "E": "Makrofajlar"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Yardımcı T lenfositleri (**$\\text{CD4}^+$ T hücreleri**), T hücre reseptörleri (TCR) aracılığıyla yalnızca **MHC sınıf II** moleküllerine bağlı olarak sunulan ekzojen peptid antijenlerini tanıyabilirler. MHC sınıf II moleküllerini yüzeylerinde eksprese ederek $\\text{CD4}^+$ yardımcı T hücrelerine antijen sunabilen hücreler **profesyonel antijen sunan hücrelerdir (APC)**; bunlar **dendritik hücreler**, **makrofajlar** ve **B lenfositlerdir**. Şıklarda bu üç hücre grubundan yalnızca **makrofajlar** yer almaktadır.\n**Çeldiriciler:**\n- **A) Nötrofiller:** Akut inflamasyonun fagositik hücreleridir; MHC sınıf II eksprese ederek $\\text{CD4}^+$ T hücrelerini aktive eden profesyonel antijen sunucu hücreler değildirler.\n- **B) Sitotoksik T hücreleri ($\\text{CD8}^+$):** Antijen sunan hücre değil, çekirdekli hücrelerin yüzeyindeki MHC sınıf I molekülleriyle sunulan endojen (viral/tümöral) antijenleri tanıyan efektör T lenfositleridir.\n- **C) Plazma hücreleri:** B lenfositlerin terminal olarak farklılaşmış ve antikor salgılayan şeklidir; B lenfositler profesyonel APC iken, plazma hücrelerine dönüştüklerinde yüzey MHC sınıf II ekspresyonlarını ve antijen sunma yeteneklerini büyük ölçüde kaybederler.\n- **D) Doğal öldürücü (NK) hücreler:** Doğal bağışıklığın sitotoksik lenfositleridir; T hücrelerine antijen sunmazlar, hedef hücreleri doğrudan lizise uğratırlar ve IFN-$\\gamma$ salgılarlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki vitaminlerden hangisi, eritrositlerin olgunlaşmasında gereklidir?",
+    "options": {
+      "A": "B6 vitamini",
+      "B": "B12 vitamini",
+      "C": "C vitamini",
+      "D": "D vitamini",
+      "E": "E vitamini"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kemik iliğinde hızla çoğalan eritroid öncül hücrelerin (eritroblastların) normal nükleer olgunlaşması ve hücre bölünmesi için kesintisiz **DNA sentezi** (özellikle timidilat / dTMP sentezi) şarttır. **B12 vitamini (kobalamin)** ve **folik asit (B9 vitamini)**, DNA için gerekli olan timidin trifosfatın sentezinde kofaktör olarak görev yapar. B12 vitamini (veya intrinsik faktör) eksikliğinde sitoplazmik hemoglobin sentezi ve hücre büyümesi normal devam ederken çekirdek DNA sentezi ve bölünmesi geri kalır (nükleositoplazmik asenkroni); bunun sonucunda kemik iliğinde dev öncüller (**megaloblastlar**) ve periferik kanda büyük, frajil ve oval eritrositlerle (**makrositoz**) karakterize **megaloblastik anemi** gelişir.\n**Çeldiriciler:**\n- **A) B6 vitamini (Piridoksal fosfat):** DNA sentezinde ve nükleer olgunlaşmada değil, hem sentezinin ilk basamağını katalizleyen **$\\delta$-aminolevülinik asit (ALA) sentaz** enziminin kofaktörü olarak hemoglobin sentezinde görev alır (eksikliğinde mikrositer hipokrom veya sideroblastik anemi görülür).\n- **C) C vitamini (Askorbik asit):** İnce bağırsak lümeninde ferrik demiri ($\\text{Fe}^{3+}$) ferro demire ($\\text{Fe}^{2+}$) indirgeyerek demir emilimini kolaylaştırır (ve tetrahidrofolatın indirgenmiş formda korunmasına yardımcı olur), ancak doğrudan birincil olgunlaşma faktörü B12 ve folattır.\n- **D) D vitamini:** Bağırsaklardan kalsiyum ve fosfat emilimini ve kemik mineralizasyonunu düzenleyen steroid yapılı vitamindir.\n- **E) E vitamini (Tokoferol):** Yağda çözünen güçlü bir antioksidandır; eritrosit membranındaki çoklu doymamış yağ asitlerini serbest radikal peroksidasyonuna karşı koruyarak hemolizi önler, eritropoietik olgunlaşma faktörü değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Epidermisteki mononükleer fagositik sistem hücresi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Histiyosit",
+      "B": "Kupffer hücresi",
+      "C": "Osteoklast",
+      "D": "Langerhans hücresi",
+      "E": "Mikroglia"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Çok katlı yassı keratinleşmiş epitel olan **epidermisin** özellikle **stratum spinozum** tabakasında yerleşik olarak bulunan, mononükleer fagositik sistem / kemik iliği kökenli yıldızsı (dendritik) antijen sunan hücre **Langerhans hücresidir**. Sitoplazmalarında elektron mikroskobunda tenis raketi şeklinde görülen karakteristik **Birbeck granülleri** (ve CD1a/langerin belirteçleri) bulunur. Deriden giren antijenleri yakalayıp işleyerek bölgesel lenf düğümlerine göç eder ve T lenfositlerine sunarlar.\n**Çeldiriciler:**\n- **A) Histiyosit:** Epidermiste değil, derinin **dermis** tabakasında ve genel gevşek/sıkı bağ dokularında yerleşik bulunan doku makrofajıdır.\n- **B) Kupffer hücresi:** Karaciğer sinüzoidlerinde yerleşik bulunan mononükleer fagositik sistem hücresidir.\n- **C) Osteoklast:** Kemik dokusunda (Howship lakünalarında) bulunan çok çekirdekli mononükleer fagositik sistem hücresidir.\n- **E) Mikroglia:** Merkezi sinir sistemi dokusunda (beyin ve omurilik) bulunan mononükleer fagositik sistem hücresidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dalak sinüzoidleri arasına yayılan, başlıca plazma hücreleri, makrofajlar ve kan hücrelerinden oluşan yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Medüller sinüs",
+      "B": "Billroth kordonları",
+      "C": "Medüller kord",
+      "D": "Trabekül",
+      "E": "Periarteriolar lenfatik kılıf"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Dalak parankimi beyaz pulpa ve kırmızı pulpa olmak üzere iki kısımdan oluşur. **Kırmızı pulpa** ise venöz **dalak sinüzoidleri** ve bu sinüzoidlerin arasında uzanan hücresel kordonlar olan **dalak kordonlarından (Billroth kordonları)** meydana gelir. Billroth kordonları; retiküler hücreler ve retiküler liflerden oluşan süngerimsi bir ağ içerisinde bol miktarda **makrofaj**, **plazma hücresi**, lenfosit, eritrosit, trombosit ve granülosit içerir. Yaşlanmış ve esnekliğini kaybetmiş eritrositler Billroth kordonlarından sinüzoidlere geçerken makrofajlar tarafından tanınarak fagosite edilir (hemokateresis).\n**Çeldiriciler:**\n- **A) Medüller sinüs:** Dalakta değil, **lenf düğümünün** medulla bölgesinde bulunan ve lenf sıvısını efferent lenfatik damarlara taşıyan geniş lenfatik kanallardır.\n- **C) Medüller kord:** Dalakta değil, **lenf düğümünün** medullasında bulunan ve B lenfositler, plazma hücreleri ile makrofajlardan oluşan lenfoid doku kordonlarıdır (dalakta korteks-medulla ayrımı yoktur).\n- **D) Trabekül:** Dalağın fibromusküler kapsülünden parankim içine uzanan, içinde trabeküler arter ve venleri taşıyan sıkı bağ dokusu bölmeleridir.\n- **E) Periarteriolar lenfatik kılıf (PALS):** Kırmızı pulpada değil, dalağın **beyaz pulpasında** santral arterin etrafını saran ve yoğun olarak **T lenfositlerden** oluşan lenfoid kılıftır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Periarteriolar lenfatik kılıf (PALS) aşağıdaki yapılardan hangisinde gözlenir?",
+    "options": {
+      "A": "Dalak beyaz pulpa",
+      "B": "Dalak kırmızı pulpa",
+      "C": "Lenf düğümü iç korteks",
+      "D": "Lenf düğümü dış korteks",
+      "E": "Timus medulla"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dalak trabeküllerinden çıkan arteriyoller parankime girdiklerinde **santral arter (arteriyol)** adını alırlar ve etrafları yoğun bir **T lenfosit** tabakasıyla sarılır. Santral arterin etrafını çepeçevre saran bu silindirik T hücresi bölgesine **periarteriolar lenfatik kılıf (PALS)** adı verilir. PALS ve ona komşu olan B lenfositlerden zengin lenf folikülleri (Malpighi cisimcikleri) birlikte **dalağın beyaz pulpasını** oluştururlar. Dolayısıyla PALS dalak beyaz pulpasına özgü karakteristik bir yapıdır.\n**Çeldiriciler:**\n- **B) Dalak kırmızı pulpa:** Beyaz pulpadaki PALS'ı değil, venöz dalak sinüzoidlerini ve aralarındaki Billroth kordonlarını (kırmızı pulpa kordonlarını) içerir.\n- **C) Lenf düğümü iç korteks (Parakorteks):** Lenf düğümünde T lenfositlerin yerleştiği timus bağımlı bölgedir ve yüksek endotelli venüller (HEV) içerir; ancak santral arter etrafında PALS yapısı oluşturmaz.\n- **D) Lenf düğümü dış korteks:** B lenfositlerden oluşan primer ve sekonder lenfoid foliküllerin (nodüllerin) bulunduğu bölgedir.\n- **E) Timus medulla:** Olgunlaşmış tek pozitif ($\\text{CD4}^+$ veya $\\text{CD8}^+$) T lenfositleri ve tipik olarak Hassal korpusküllerini içerir; PALS içermez.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aktive faktör V ve faktör VIII'in inaktifleşmesinde rol oynayan intravasküler antikoagülan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Protein C",
+      "B": "Doku faktör yolak inhibitörü (TFPI)",
+      "C": "Antitrombin III",
+      "D": "Plazmin",
+      "E": "Heparin"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Karaciğerde K vitaminine bağımlı olarak sentezlenen bir plazma zimojeni olan **Protein C**, vasküler endotel hücre membranındaki **trombomodulin** proteinine bağlanmış olan trombin (Faktör IIa) tarafından kesilerek **Aktive Protein C (APC)** formuna dönüştürülür. Aktive Protein C, endotel ve karaciğerde sentezlenen kofaktörü **Protein S** ile birlikte çalışarak koagülasyon kaskadının iki temel hızlandırıcı kofaktörü olan **aktive Faktör V (Faktör Va)** ve **aktive Faktör VIII'i (Faktör VIIIa)** proteolitik olarak parçalayıp inaktive eder; böylece trombin üretimini durdurur.\n**Çeldiriciler:**\n- **B) Doku faktör yolak inhibitörü (TFPI):** Endotel hücreleri tarafından sentezlenen fizyolojik bir antikoagülandır; ancak Faktör Va ve VIIIa'yı değil, ekstrensek yolu başlatan **Doku Faktörü (Faktör III) – Faktör VIIa – Faktör Xa** kompleksini bağlayarak inhibe eder.\n- **C) Antitrombin III:** Karaciğerde sentezlenen bir serpin (serin proteaz inhibitörü) olup kofaktör olan Faktör Va ve VIIIa'yı değil, serin proteaz yapısındaki aktif enzimleri (başta **trombin [Faktör IIa]** ve **Faktör Xa** olmak üzere Faktör IXa, XIa, XIIa'yı) inhibe eder.\n- **D) Plazmin:** Pıhtılaşma faktörlerini özgül olarak düzenleyen birincil antikoagülan değil, oluşmuş **fibrin pıhtısını** (ve fibrinojeni) parçalayarak D-dimer ve fibrin yıkım ürünlerine dönüştüren temel **fibrinolitik** enzimdir.\n- **E) Heparin:** Mast hücreleri ve bazofillerden salgılanan sülfatlı bir glikozaminoglikandır; doğrudan Faktör Va ve VIIIa'yı parçalamaz, **antitrombin III**'e bağlanarak onun trombin ve Faktör Xa üzerindeki inhibitör etkisini yaklaşık 1000 kat güçlendirir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sağlıklı bir erişkinde eritrosit üretimi aşağıdakilerden hangisinde en fazladır?",
+    "options": {
+      "A": "Dalak",
+      "B": "Tibia",
+      "C": "Sternum",
+      "D": "Femur",
+      "E": "Karaciğer"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Doğumdan sonra eritrosit üretimi (eritropoiez) münhasıran kemik iliğinde gerçekleşir. Çocukluk döneminde tüm kemiklerin iliği hematopoetik olarak aktif (kırmızı kemik iliği) iken, 20 yaşından sonra erişkinde uzun kemiklerin diyafizleri yağ dokusuyla dolarak hematopoetik olarak inaktif **sarı kemik iliğine** dönüşür. Sağlıklı bir erişkinde eritrosit üretimi en fazla **aksiyel iskeletteki yassı ve düzensiz kemiklerin** süngerimsi (spongiyoz) kısımlarında yer alan kırmızı kemik iliğinde gerçekleşir; bu kemikler sırasıyla **vertebralar (omurlar), pelvis (iliak kemik), sternum (göğüs kemiği), kostalar (kaburgalar), kafa kemikleri** ile femur ve humerusun yalnızca en proksimal epifiz uçlarıdır. Dolayısıyla şıklarda verilen yapılar arasında erişkinde eritrosit üretiminin en fazla olduğu yer **sternumdur**.\n**Çeldiriciler:**\n- **A) Dalak:** Fetal hayatın ikinci trimesterinde (3–5. aylar arasında) karaciğerle birlikte eritrosit üretimine katılır; ancak sağlıklı bir erişkinde eritrosit üretim yeri değil, yaşlanmış eritrositlerin **yıkım (hemokateresis)** yeridir (yalnızca miyelofibrozis gibi ağır patolojilerde ekstramedüller hematopoiez yapabilir).\n- **B) Tibia:** Uzun bir ekstremite kemiği olduğu için sağlıklı bir erişkinde iliği tamamen yağlı **sarı kemik iliğine** dönüşmüştür ve artık eritrosit üretimi yapmaz.\n- **D) Femur:** Uzun kemik olduğu için erişkinde diyafizinin tamamı sarı kemik iliğiyle doludur; yalnızca üst proksimal ucunda az miktarda üretim devam eder ve toplam payı sternum ve vertebralara göre çok daha düşüktür.\n- **E) Karaciğer:** Fetal dönemin 2. trimesterinde (6. haftadan doğuma kadar) ana hematopoetik organdır; ancak doğumdan sonra sağlıklı erişkinde eritrosit üretimi yapmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki faktörlerden hangisi, kan pıhtılaşması sırasında protrombinden trombin oluşan basamakta rol oynamaz?",
+    "options": {
+      "A": "Kalsiyum iyonu",
+      "B": "Aktive faktör V",
+      "C": "Aktive faktör X",
+      "D": "Aktive faktör XII",
+      "E": "Trombosit fosfolipidleri"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Pıhtılaşma kaskadının ortak yolunda inaktif bir zimojen olan **protrombinin (Faktör II)** aktif serin proteaz olan **trombine (Faktör IIa)** dönüştürülmesi basamağı **protrombinaz kompleksi (protrombin aktivatörü)** tarafından gerçekleştirilir. Protrombinaz kompleksi dört temel bileşenden oluşur: **Aktive Faktör X (Faktör Xa)** (proteolitik enzim), **Aktive Faktör V (Faktör Va)** (reaksiyonu binlerce kat hızlandıran kofaktör), **Kalsiyum iyonları ($\\text{Ca}^{2+}$, Faktör IV)** ve aktive olmuş **trombositlerin negatif yüklü membran fosfolipidleri (fosfatidilserin / PF3)**. **Aktive Faktör XII (Faktör XIIa / Hageman faktörü)** ise ortak yoldaki bu basamakta yer almaz; damar içi kollajen veya negatif yüklü yüzeylerle temas sonucu **intrinsik pıhtılaşma yolunun en başında** (Faktör XI'i aktive ederek) görev alır.\n**Çeldiriciler:**\n- **A) Kalsiyum iyonu (Faktör IV):** Faktör Xa ve protrombinin gama-karboksiglutamat (Gla) uçlarının trombosit membran fosfolipidlerine tutunmasını sağlayan zorunlu köprü iyonudur.\n- **B) Aktive faktör V (Proakselerin):** Protrombinaz kompleksinin zorunlu protein kofaktörüdür; yokluğunda Faktör Xa'nın protrombini trombine çevirme hızı fizyolojik olarak yetersiz kalır.\n- **C) Aktive faktör X (Stuart-Prower faktörü):** Protrombini peptid bağlarından keserek doğrudan trombine dönüştüren serin proteaz enzimidir.\n- **E) Trombosit fosfolipidleri:** Protrombinaz kompleksinin üzerinde toplandığı ve reaksiyonun gerçekleştiği negatif yüklü katalitik yüzeydir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Plasentada bulunan makrofaj hücresi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kupffer hücresi",
+      "B": "Langerhans hücresi",
+      "C": "Dendritik hücre",
+      "D": "Alveolar makrofaj",
+      "E": "Hofbauer hücresi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Mononükleer fagositik sistem üyeleri yerleşik bulundukları dokulara göre özel isimler alırlar. **Plasentanın** fetal kısmında, özellikle **koryonik villusların mezenkimal stromasında** bulunan, fetal kökenli, bol vakuollü ve fagositik aktiviteye sahip yerleşik doku makrofajlarına **Hofbauer hücreleri** adı verilir. Bu hücreler anne-fetüs bariyerinde enfeksiyonlara karşı savunmada, villus stromasının yeniden şekillenmesinde ve anjiyogenezde görev alırlar.\n**Çeldiriciler:**\n- **A) Kupffer hücresi:** Plasentada değil, **karaciğerin** sinüzoidal kapiller duvarında bulunan yerleşik makrofaj hücresidir.\n- **B) Langerhans hücresi:** Derinin **epidermis** tabakasında (ve oral/vajinal çok katlı yassı epitelde) bulunan antijen sunucu makrofaj/dendritik hücredir.\n- **C) Dendritik hücre:** Lenfoid organlar ve interstisyel dokularda bulunan genel profesyonel antijen sunucu hücre grubudur; plasenta stromasının spesifik makrofaj adı değildir.\n- **D) Alveolar makrofaj (Toz hücresi / Dust cell):** **Akciğer** alveollerinde ve interalveolar septumda bulunan yerleşik makrofaj hücresidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sınıf II majör histokompatibilite kompleksi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "DNA üzerinde özel bir bölgedir",
+      "B": "İnsanlar arasında çok değişkenlik gösteren proteinlerdir",
+      "C": "Antijen taşıyıcı proteinlerdendir",
+      "D": "Her hücrede bulunan yüzey proteinleridir",
+      "E": "İnsanda HLA olarak isimlendirilirler"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** **MHC sınıf II** molekülleri vücuttaki her hücrede bulunmaz; normal fizyolojik koşullarda yalnızca **profesyonel antijen sunan hücrelerin (APC)** (**dendritik hücreler, monosit/makrofajlar, B lenfositler**), timus epitel hücrelerinin ve aktive olmuş T lenfositlerin hücre membranında eksprese edilirler. Vücuttaki tüm çekirdekli hücrelerde (ve trombositlerde) bulunan doku uygunluk molekülü ise MHC sınıf II değil, **MHC sınıf I**'dir (olgun eritrositlerde ise ne MHC I ne de MHC II bulunur). *(Not: Bazı basılı kaynaklarda dizgi hatası olarak cevap anahtarına B harfi yazılmış olsa da, kaynağın kendi açıklama metninde de açıkça belirtildiği üzere yanlış olan ifade kesinlikle D şıkkıdır).*\n**Çeldiriciler:**\n- **A) DNA üzerinde özel bir bölgedir:** Doğrudur; MHC sınıf II proteinlerini kodlayan genler insanda 6. kromozomun kısa kolu (6p21.3) üzerindeki büyük MHC gen kompleksinin **HLA-DP, HLA-DQ ve HLA-DR** bölgelerinde yer alır.\n- **B) İnsanlar arasında çok değişkenlik gösteren proteinlerdir:** Doğrudur; MHC genleri insan genomundaki **en polimorfik (en çok allelik çeşitlilik gösteren)** genlerdir ve bu sayede doku nakillerinde bireyler arası doku uyuşmazlığının temel nedenini oluştururlar.\n- **C) Antijen taşıyıcı proteinlerdendir:** Doğrudur; fagositoz veya endositozla hücre içine alınıp lizozomda işlenen ekzojen peptid antijenlerini bağlayarak hücre yüzeyine taşıyan ve $\\text{CD4}^+$ yardımcı T lenfositlerine sunan proteinlerdir.\n- **E) İnsanda HLA olarak isimlendirilirler:** Doğrudur; ilk kez lökosit yüzeyinde tanımlandıkları için insanlardaki majör histokompatibilite kompleksi molekülleri **İnsan Lökosit Antijenleri (HLA - Human Leukocyte Antigens)** olarak adlandırılır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Damar yaralanması durumunda doku faktörüne bağlanarak faktör X'u aktive eden ve ekstrensek pıhtılaşma yolunda işlevi olan protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Faktör XII",
+      "B": "Faktör XI",
+      "C": "Faktör IX",
+      "D": "Faktör VIII",
+      "E": "Faktör VII"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Damar duvarı yaralandığında subendotelyal dokularda ve düz kas/fibroblast membranlarında bulunan **Doku Faktörü (Faktör III / Doku tromboplastini)** kanla temas eder. Karaciğerde K vitaminine bağımlı olarak sentezlenen bir plazma proteini olan **Faktör VII (Prokonvertin)**, doku faktörüne bağlanarak aktif enzim formu olan **Faktör VIIa**'ya dönüşür. Oluşan **Doku Faktörü – Faktör VIIa – $\\text{Ca}^{2+}$ kompleksi**, **ekstrensek pıhtılaşma yolunu** oluşturur ve ortak yolun ilk elemanı olan **Faktör X'u doğrudan aktive ederek (Faktör Xa'ya çevirerek)** pıhtılaşmayı hızla başlatır.\n**Çeldiriciler:**\n- **A) Faktör XII (Hageman faktörü):** Ekstrensek yolda değil, subendotelyal kollajenle temas sonucu **intrinsik pıhtılaşma yolunun** ilk basamağında görev alır.\n- **B) Faktör XI (Plazma tromboplastin öncülü):** İntrinsik yolda Faktör XIIa tarafından aktive edilir ve Faktör IX'u aktive eder; ekstrensek yolda yer almaz.\n- **C) Faktör IX (Christmas faktörü):** İntrinsik yolda yer alır (eksikliğinde Hemofili B görülür); Faktör VIIIa ile birlikte intrinsik tenaz kompleksini oluşturarak Faktör X'u aktive eder.\n- **D) Faktör VIII (Antihemofilik faktör A):** İntrinsik pıhtılaşma yolunda Faktör IXa'nın kofaktörü olarak görev yapar (eksikliğinde Hemofili A görülür); doku faktörüne bağlanmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hemostazın ilk basamağıdır?",
+    "options": {
+      "A": "Primer trombosit tıkacı oluşumu",
+      "B": "Sekonder trombosit tıkacı oluşumu",
+      "C": "Ekstrensek pıhtılaşma yolağının aktive olması",
+      "D": "İntrensek pıhtılaşma yolağının aktive olması",
+      "E": "Damar spazmı oluşması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Bir kan damarı kesildiğinde veya yaralandığında kan kaybını önlemek üzere gerçekleşen fizyolojik **hemostaz** süreci kronolojik olarak şu sırayla işler:\n1. **Damar spazmı (Vasküler vazokonstriksiyon)** (İlk basamak)\n2. **Primer hemostaz:** Trombositlerin adezyonu, aktivasyonu ve agregasyonu ile gevşek **primer (geçici) trombosit tıkacının** oluşumu\n3. **Sekonder hemostaz:** Pıhtılaşma (koagülasyon) kaskadının devreye girerek **fibrin ağının** (kalıcı pıhtının) oluşturulması\n4. Pıhtı retraksiyonu, doku onarımı ve **fibrinoliz** ile pıhtının eritilmesi.\nDolayısıyla damar yaralanmasından hemen sonra saniyeler içinde yerel miyojenik spazm, hasarlı dokudan ve trombositlerden salınan otokoidler (tromboksan $A_2$, serotonin, endotelin-1) ve sinirsel (nosiseptif) reflekslerle gelişen **damar spazmı oluşması** hemostazın ilk basamağıdır.\n**Çeldiriciler:**\n- **A) Primer trombosit tıkacı oluşumu:** Vasküler spazmdan sonra gerçekleşen **ikinci** ana basamaktır (primer hemostaz).\n- **B) Sekonder trombosit tıkacı oluşumu:** Primer tıkacın fibrin lifleriyle sağlamlaştırıldığı daha sonraki aşamadır.\n- **C) Ekstrensek pıhtılaşma yolağının aktive olması:** Primer hemostazı takip eden **üçüncü** ana aşamanın (sekonder hemostaz / koagülasyon kaskadının) bir parçasıdır.\n- **D) İntrensek pıhtılaşma yolağının aktive olması:** Sekonder hemostaz (koagülasyon) aşamasında yer alır; ilk basamak değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Granülopoezde primer granüllerin sentezlenmeye başladığı hücre aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Miyeloblast",
+      "B": "Promiyelosit",
+      "C": "Miyelosit",
+      "D": "Metamiyelosit",
+      "E": "Retikülosit"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kemik iliğindeki granülopoez sürecinde ilk öncül olan miyeloblastın sitoplazmasında hiçbir granül bulunmaz. Miyeloblastın bölünüp farklılaşmasıyla oluşan ikinci basamak hücre olan **promiyelositte**, Golgi kompleksinden ilk kez lizozomal karakterdeki **primer (azurofilik / non-spesifik) granüller** sentezlenmeye başlar ve sitoplazmada birikir. Bu primer granüller **miyeloperoksidaz (MPO)**, asit hidrolazlar, elastaz, katepsin G, lizozim ve defensinler içerir.\n**Çeldiriciler:**\n- **A) Miyeloblast:** Granülopoezin ilk hücresidir; bazofilik sitoplazmasında henüz primer veya sekonder **hiçbir granül sentezlenmemiştir**.\n- **C) Miyelosit:** Primer granüllerin değil, hücrenin nötrofil, eozinofil veya bazofil yönünde farklılaştığını gösteren **sekonder (spesifik) granüllerin** ilk kez sentezlenmeye başladığı hücredir.\n- **D) Metamiyelosit:** Bölünme yeteneğini kaybetmiş, hem primer hem de bol miktarda sekonder granülü zaten sitoplazmasında bulunduran daha olgun bir evredir.\n- **E) Retikülosit:** Granülopoez (lökosit) serisine ait bir hücre değildir; **eritropoiez** (kırmızı kan hücresi) serisinde çekirdeğini atmış genç eritrosit evresidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi endotel hücreleri tarafından salgılanan ve koagülasyonu önlemeye yardımcı olan faktörlerden biri değildir?",
+    "options": {
+      "A": "Prostasilkin",
+      "B": "Nitrik oksit",
+      "C": "Antitrombin III",
+      "D": "Trombomodulin",
+      "E": "von Willebrand faktör"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** **von Willebrand faktörü (vWF)**, endotel hücrelerinde sentezlenip **Weibel-Palade cisimciklerinde** (ve megakaryosit/trombosit $\\alpha$-granüllerinde) depolanan büyük multimerik bir glikoproteindir. Ancak vWF koagülasyonu önleyen (antitrombotik) bir faktör değil, tam tersine damar hasarında trombositlerin GpIb-IX-V reseptörüyle subendotelyal kollajene **adezyonunu sağlayan** ve plazmada **Faktör VIII'i taşıyarak** yıkımdan koruyan güçlü bir **prohemostatik / prokoagülan** faktördür.\n**Çeldiriciler:**\n- **A) Prostasiklin ($PGI_2$):** Sağlam endotel hücrelerinde araşidonik asitten siklooksijenaz ve prostasiklin sentaz ile sentezlenir; cAMP düzeyini artırarak vazodilatasyon yapar ve trombosit agregasyonunu güçlü şekilde inhibe eder.\n- **B) Nitrik oksit ($\\text{NO}$):** Endotel hücrelerinde eNOS tarafından sentezlenir; cGMP düzeyini artırarak hem vazodilatasyon yapar hem de trombositlerin adezyon ve agregasyonunu önler.\n- **C) Antitrombin III:** Esas olarak karaciğerde sentezlense de vasküler endotel hücreleri tarafından da sentezlenip endotel yüzeyindeki heparan sülfat proteoglikanlarına bağlanarak Faktör IIa (trombin) ve Faktör Xa'yı inhibe eder, koagülasyonu önler.\n- **D) Trombomodulin:** Endotel hücreleri tarafından sentezlenen integral bir yüzey proteinidir; trombini bağlayarak Protein C'yi aktive eder ve koagülasyonu baskılar.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Erişkinde eritropoetinin en çok sentezlendiği yer aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kalp",
+      "B": "Böbrekler",
+      "C": "Kemik iliği",
+      "D": "Dalak",
+      "E": "Akciğer"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** **Eritropoetin (EPO)**, doku hipoksisine (renal $PO_2$ düşüşüne) yanıt olarak hipoksi ile indüklenebilir faktör (HIF-1) aracılığıyla sentezlenen ve kemik iliğinde eritrosit üretimini (eritropoiezi) uyaran glikoprotein yapılı bir hormondur. Sağlıklı bir **erişkinde** dolaşımdaki eritropoetinin yaklaşık **%85–90'ı böbreklerde** (renal korteksteki peritübüler kapillerlerin çevresinde yer alan fibroblast benzeri **peritübüler interstisyel hücreler** tarafından) sentezlenir. Geriye kalan %10–15'lik küçük kısım ise karaciğerde (hepatositler ve Ito hücrelerinde) üretilir (fetal dönemde ise ana üretim yeri karaciğerdir). Bu nedenle kronik böbrek yetmezliği olan hastalarda EPO eksikliğine bağlı derin anemi gelişir.\n**Çeldiriciler:**\n- **A) Kalp:** ANP ve BNP gibi natriüretik peptidleri sentezler; eritropoetin sentez yeri değildir.\n- **C) Kemik iliği:** Eritropoetinin sentezlendiği organ değil, böbreklerden salgılanan eritropoetinin etki ettiği **hedef dokudur** (kemik iliğindeki CFU-E ve proeritroblastlar üzerindeki JAK2/STAT5 kenetli EPO reseptörlerini uyarır).\n- **D) Dalak:** Yaşlı eritrositlerin yıkım yeridir ve lenfoid bir organdır; eritropoetin sentezlemez.\n- **E) Akciğer:** Kanın oksijenlenmesini ve anjiyotensin I'in anjiyotensin II'ye dönüşümünü (ACE ile) sağlar; eritropoetin sentez yeri değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ateş oluşumuna neden olan ve endojen pirojen olarak adlandırılan interlökin (IL) tipidir?",
+    "options": {
+      "A": "IL-1",
+      "B": "IL-3",
+      "C": "IL-5",
+      "D": "IL-7",
+      "E": "IL-9"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Bakteriyel lipopolisakkaritler (ekzojen pirojenler) veya inflamatuvar uyaranlarla aktive olan makrofajlar, monositler ve dendritik hücreler tarafından salgılanan **İnterlökin-1 ($\\text{IL-1}\\alpha$ ve $\\text{IL-1}\\beta$)** (ve beraberinde **$\\text{IL-6}$** ile **$\\text{TNF-}\\alpha$**), en temel **endojen pirojen** sitokindir. $\\text{IL-1}$, kan dolaşımıyla hipotalamusun preoptik alanındaki *organum vasculosum laminae terminalis* (OVLT) vasküler endoteline ulaşarak siklooksijenaz-2 (COX-2) enzimini indükler ve **prostaglandin $E_2$ ($\\text{PGE}_2$)** sentezini artırır. $\\text{PGE}_2$ ise anterior hipotalamustaki termoregülasyon merkezinin cAMP düzeyini artırıp ısı ayar noktasını (set-point) yükselterek **ateş** oluşumuna neden olur.\n**Çeldiriciler:**\n- **B) IL-3:** Aktive T lenfositlerden salgılanan \"multi-CSF\" (çoklu koloni uyarıcı faktör) olup kemik iliğinde erken миyeloid ve eritroid kök hücrelerin çoğalmasını uyarır; endojen pirojen değildir.\n- **C) IL-5:** Yardımcı T2 ($T_H2$) lenfositleri ve ILC2 hücrelerinden salgılanır; kemik iliğinde **eozinofillerin** üretimini, farklılaşmasını ve aktivasyonunu (ve IgA sentezini) uyarır.\n- **D) IL-7:** Kemik iliği ve timus stromal hücreleri tarafından salgılanır; erken **B ve T lenfosit** öncüllerinin sağkalımı ve gelişimi için zorunlu sitokindir.\n- **E) IL-9:** Yardımcı T hücrelerinden ($T_H9$ ve $T_H2$) salgılanır; mast hücrelerinin büyümesini ve mukus üretimini destekler, birincil endojen pirojen değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin yapısında yüksek endotelli venül bulunmaz?",
+    "options": {
+      "A": "Lenf nodu",
+      "B": "Tonsilla",
+      "C": "Timus",
+      "D": "Apendiks",
+      "E": "Peyer plakları"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** **Yüksek endotelli venüller (HEV)**, kanda dolaşan naif T ve B lenfositlerin kan dolaşımından doğrudan sekonder lenfoid organların parankimine geçişini (diapedezini) sağlayan kübik/prizmatik endotelli özel postkapiller venüllerdir. Bu yapılar sekonder lenfoid dokular olan lenf nodlarında, tonsillalarda, Peyer plaklarında ve apendikste bulunur. Buna karşılık primer (santral) bir lenfoid organ olan **timusta** (ve kanı filtreleyen sekonder lenfoid organ olan **dalakta**) **yüksek endotelli venül (HEV) bulunmaz**.\n**Çeldiriciler:**\n- **A) Lenf nodu:** Timus bağımlı T hücresi bölgesi olan **parakorteks (derin korteks)** tabakasında karakteristik olarak çok sayıda yüksek endotelli venül içerir.\n- **B) Tonsilla:** Waldeyer halkasını oluşturan mukozayla ilişkili lenfoid doku (MALT) üyesidir ve lenfosit girişi için parafoliküler T hücresi alanlarında yüksek endotelli venüller bulundurur.\n- **D) Apendiks:** Kalın bağırsakta yer alan GALT (bağırsakla ilişkili lenfoid doku) yapısıdır ve submukozal lenfoid dokusunda yüksek endotelli venüller içerir.\n- **E) Peyer plakları:** İleumun (ince bağırsağın) lamina propria ve submukozasında yer alan GALT yapılarıdır; lenf folikülleri arasındaki bölgelerde yüksek endotelli venüller barındırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi trombosit tıkacı oluşumunu önleyici etki gösterir?",
+    "options": {
+      "A": "Serotonin",
+      "B": "Prostaglandin I2",
+      "C": "von Willebrand faktör",
+      "D": "Adenozin difosfat",
+      "E": "Tromboxan A2"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sağlam vasküler endotel hücrelerinde araşidonik asitten siklooksijenaz (COX) ve prostasiklin sentaz enzimleri aracılığıyla sentezlenen **Prostaglandin $I_2$ ($\\text{PGI}_2$ / Prostasiklin)**, nitrik oksit ($\\text{NO}$) ile birlikte fizyolojik koşullarda **trombosit tıkacı oluşumunu (trombosit aktivasyonunu ve agregasyonunu) önleyen** en güçlü endotel kaynaklı maddedir. $\\text{PGI}_2$, trombosit membranındaki $G_s$ kenetli prostasiklin (IP) reseptörlerine bağlanarak adenilat siklazı uyarır, hücre içi **cAMP** düzeyini artırır ve sitoplazmik kalsiyumu düşürerek trombositlerin sağlam damar duvarına yapışmasını ve kümeleşmesini engeller (aynı zamanda güçlü bir vazodilatatördür).\n**Çeldiriciler:**\n- **A) Serotonin (5-HT):** Aktive olan trombositlerin yoğun (delta) granüllerinden salınır; hasarlı damarda vazokonstriksiyon yapar ve trombosit agregasyonunu kolaylaştırarak trombosit tıkacı oluşumunu destekler.\n- **C) von Willebrand faktör (vWF):** Endotel ve trombositlerden salınır; subendotelyal kollajen ile trombosit GpIb/IX reseptörü arasında köprü kurarak trombosit **adezyonunu** ve tıkaç oluşumunu başlatır.\n- **D) Adenozin difosfat (ADP):** Aktive trombositlerin yoğun (delta) granüllerinden salınır; diğer trombositler üzerindeki $P2Y_{12}$ ve $P2Y_1$ reseptörlerini uyararak GpIIb/IIIa reseptörlerini aktifleştirir ve **trombosit agregasyonunu** (tıkaç büyümesini) güçlü şekilde uyarır.\n- **E) Tromboksan A2 ($TXA_2$):** Aktive trombositlerde COX-1 ve tromboksan sentaz ile araşidonik asitten üretilir; prostasiklinin tam zıttı etki göstererek güçlü **vazokonstriksiyon** ve **trombosit agregasyonu** yapar, trombosit tıkacı oluşumunu hızlandırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki pıhtılaşma faktörlerinden hangisinin üretimi için K vitamini gerekli değildir?",
+    "options": {
+      "A": "Protrombin",
+      "B": "Faktör VII",
+      "C": "Faktör VIII",
+      "D": "Faktör IX",
+      "E": "Faktör X"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Karaciğerde sentezlenen ve fonksiyonel olarak aktif hale gelebilmeleri için glutamik asit (Glu) kalıntılarının **K vitaminine** bağımlı $\\gamma$-glutamil karboksilaz enzimi ile $\\gamma$-karboksiglutamata (Gla) dönüştürülmesi gereken pıhtılaşma faktörleri klasik olarak **\"1972\" (Faktör X, IX, VII, II)** kısaltmasıyla bilinir: **Protrombin (Faktör II), Faktör VII, Faktör IX ve Faktör X** (ayrıca antikoagülan olan **Protein C ve Protein S**). **Faktör VIII (Antihemofilik faktör A)** ise karaciğer sinüzoidal endotel hücreleri ve vasküler endotel hücrelerinde sentezlenen bir kofaktör glikoproteindir; sentezi ve aktivitesi için **K vitamini gerekli değildir**.\n**Çeldiriciler:**\n- **A) Protrombin (Faktör II):** Karaciğerde K vitaminine bağımlı olarak sentezlenen temel pıhtılaşma zimojenidir.\n- **B) Faktör VII:** Ekstrensek yolda görev alan, yarı ömrü en kısa olan ve üretimi için K vitamini gereken pıhtılaşma faktörüdür.\n- **D) Faktör IX:** İntrinsik yolda görev alan ve karaciğerde üretimi için K vitamini gerekli olan serin proteaz zimojenidir.\n- **E) Faktör X:** Ortak yolda protrombinaz kompleksini oluşturan ve üretimi için K vitamini gerekli olan pıhtılaşma faktörüdür.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi K vitaminine bağımlı bir faktör değildir?",
+    "options": {
+      "A": "Faktör II",
+      "B": "Faktör VII",
+      "C": "Faktör X",
+      "D": "Faktör IX",
+      "E": "Faktör IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Pıhtılaşma adlandırma sisteminde **Faktör IV**, protein yapılı bir zimojen değil, serbest **kalsiyum iyonudur ($\\text{Ca}^{2+}$)**. İnorganik bir divalan katyon olan kalsiyum iyonu karaciğerde sentezlenmez ve K vitaminine bağımlı bir faktör değildir (buna karşılık K vitaminine bağımlı olarak karboksillenen Faktör II, VII, IX ve X'un negatif yüklü trombosit fosfolipid yüzeylerine bağlanmasında köprü görevi görür).\n**Çeldiriciler:**\n- **A) Faktör II (Protrombin):** Karaciğerde K vitaminine bağımlı $\\gamma$-karboksilasyon ile üretilen pıhtılaşma faktörüdür.\n- **B) Faktör VII (Prokonvertin):** Karaciğerde K vitaminine bağımlı olarak sentezlenen ekstrensek yol faktörüdür.\n- **C) Faktör X (Stuart-Prower faktörü):** Karaciğerde K vitaminine bağımlı olarak sentezlenen ortak yol faktörüdür.\n- **D) Faktör IX (Christmas faktörü):** Karaciğerde K vitaminine bağımlı olarak sentezlenen intrinsik yol faktörüdür.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Eritrosit sayısı\nII. Trombosit sayısı\nIII. Hematokrit değeri\nIV. Hemoglobin değeri\nYukarıdaki kan parametrelerinden hangilerinin normal değer aralığı cinsiyete göre değişiklik göstermez?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız III",
+      "C": "I ve III",
+      "D": "I, II ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sağlıklı yetişkinlerde **trombosit (platelet) sayısının** normal referans aralığı mikrolitrede ($\\text{mm}^3$'te) **$150.000 - 400.000$** ($150 - 400 \\times 10^9/\\text{L}$) olup kadın ve erkeklerde aynı kabul edilir; **cinsiyete göre anlamlı bir fizyolojik değişiklik göstermez (II)**. Buna karşılık eritrosit kütlesiyle doğrudan ilişkili olan eritrosit sayısı, hematokrit ve hemoglobin değerleri erkeklerde androjenlerin (testosteronun) böbrekten eritropoetin sentezini ve kemik iliği eritropoiezini uyarıcı etkisi, kadınlarda ise menstrual kan kayıpları ve östrojen etkisi nedeniyle erkeklerde kadınlara göre belirgin şekilde daha yüksektir.\n**Öncüllerin Analizi:**\n- **I. Eritrosit sayısı:** Cinsiyete göre değişir. Yetişkin erkeklerde ortalama $5.2\\text{ milyon/mm}^3$ ($4.7 - 6.1$), kadınlarda ise ortalama $4.7\\text{ milyon/mm}^3$ ($4.2 - 5.4$) düzeyindedir.\n- **II. Trombosit sayısı:** Cinsiyete göre değişiklik göstermez; her iki cinsiyette de normal aralığı $150.000 - 400.000/\\text{mm}^3$ olarak kullanılır.\n- **III. Hematokrit değeri:** Cinsiyete göre değişir. Kanın şekilli elemanlarının (eritrositlerin) toplam kan hacmine oranı olan hematokrit, yetişkin erkeklerde ortalama **%45 (%40–52)**, kadınlarda ise ortalama **%40 (%36–46)** düzeyindedir.\n- **IV. Hemoglobin değeri:** Cinsiyete göre değişir. Yetişkin erkeklerde normal hemoglobin düzeyi **$14 - 18\\text{ g/dL}$** (ortalama $15-16\\text{ g/dL}$), kadınlarda ise **$12 - 16\\text{ g/dL}$** (ortalama $13.5-14\\text{ g/dL}$) aralığındadır.\n**Çeldiriciler:**\n- **B) Yalnız III:** Hematokrit değeri erkeklerde kadınlardan daha yüksektir.\n- **C) I ve III:** Hem eritrosit sayısı hem de hematokrit değeri cinsiyete göre farklılık gösterir.\n- **D) I, II ve IV:** I ve IV. öncüller cinsiyete göre değiştiği için yanlıştır.\n- **E) II, III ve IV:** III ve IV. öncüller cinsiyete göre değiştiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "\"Major basic protein\" (MBP) ile birlikte antiparazitik etki gösteren molekül ve salgılandığı kan hücresi hangisidir?",
+    "options": {
+      "A": "Katepsinler – Eozinofil",
+      "B": "Lökotrienler – Bazofil",
+      "C": "Eozinofil katyonik protein – Eozinofil",
+      "D": "Metalloproteinazlar – Nötrofil",
+      "E": "Miyeloperoksidaz – Nötrofil"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Helmint (parazit) enfeksiyonlarına karşı savunmada başrol oynayan **eozinofiller**, IgE veya IgG ile kaplanmış parazitlerin yüzeyine bağlanarak spesifik (sekonder) granüllerinin içeriğini parazit üzerine boşaltırlar (antikora bağımlı hücresel sitotoksisite). Eozinofil spesifik granüllerinin kristalloid merkezinde yer alan **Major Basic Protein (MBP)** ile birlikte granül matriksinde bulunan **Eozinofil Katyonik Protein (ECP)**, **Eozinofil Peroksidaz (EPO)** ve **Eozinofil Kaynaklı Nörotoksin (EDN)**, parazitlerin dış tegüment/membranlarında porlar açarak güçlü **antiparazitik (larvasidal/sitotoksik)** etki gösterir.\n**Çeldiriciler:**\n- **A) Katepsinler – Eozinofil:** Katepsin G gibi serin proteazlar esas olarak nötrofillerin ve monositlerin azurofilik (primer) granüllerinde bulunan antibakteriyel lizozomal enzimlerdir; eozinofilin karakteristik antiparazitik spesifik granül proteini değildir.\n- **B) Lökotrienler – Bazofil:** Lökotrienler ($LTC_4, LTD_4, LTE_4$) membran fosfolipidlerinden sentezlenen vazoaktif ve bronkokonstriktör lipid mediatörlerdir; MBP ile birlikte granülden salınan doğrudan sitotoksik antiparazitik protein değildir.\n- **D) Metalloproteinazlar – Nötrofil:** Nötrofil spesifik ve tersiyer granüllerinde bulunan jelatinaz/kollajenaz enzimleridir; ekstrasellüler matriksi yıkarak nötrofilin dokuda göç etmesini kolaylaştırırlar, MBP içermezler.\n- **E) Miyeloperoksidaz – Nötrofil:** Nötrofillerin azurofilik (primer) granüllerinde bulunur ve hidrojen peroksitten hipokloröz asit ($\\text{HOCl}$) üreterek bakterileri öldürür; MBP eozinofile özgüdür.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yüksek endotelli venüller aşağıdaki organlardan hangisinin parakorteks (derin korteks) tabakasında bulunur?",
+    "options": {
+      "A": "Dalak",
+      "B": "Timus",
+      "C": "Lenf düğümü",
+      "D": "Böbrek",
+      "E": "Duodenum"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** **Lenf düğümü (lenf nodu)** histolojik olarak dıştan içe doğru kapsül, dış korteks (B lenfosit folikülleri), **parakorteks (derin/iç korteks)** ve medulla bölgelerinden oluşur. Timusa bağımlı bölge olan ve yoğun olarak **T lenfositler** ile interdijitasyon yapan dendritik hücreleri barındıran **parakorteks** tabakası, kanda dolaşan T ve B lenfositlerin lenf düğümü parankimine girmesini sağlayan kübik endotelli **yüksek endotelli venüllerin (HEV)** karakteristik olarak yerleştiği yerdir.\n**Çeldiriciler:**\n- **A) Dalak:** Dalakta korteks, parakorteks ve medulla tabakalanması yoktur (beyaz pulpa ve kırmızı pulpadan oluşur) ve dalak yapısında yüksek endotelli venül (HEV) **bulunmaz**.\n- **B) Timus:** Timus lobüllerinde korteks ve medulla bulunur ancak \"parakorteks\" tabakası yoktur; ayrıca primer lenfoid organ olan timusta yüksek endotelli venül (HEV) **bulunmaz**.\n- **D) Böbrek:** Korteks ve medulladan oluşan üriner sistem organıdır; parakorteks tabakası ve lenfoid yüksek endotelli venülleri yoktur.\n- **E) Duodenum:** Sindirim kanalı organıdır; submukozasında Brunner bezleri yer alır, parakorteks tabakası bulundurmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki lökositlerin hangisinden heparin salgılanır?",
+    "options": {
+      "A": "Nötrofil",
+      "B": "Monosit",
+      "C": "Bazofil",
+      "D": "Eozinofil",
+      "E": "Lenfosit"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Periferik kandaki lökositlerin en az kısmını (%0.5–1) oluşturan **bazofiller** (ve bağ dokusundaki fonksiyonel benzerleri olan **mast hücreleri**), sitoplazmalarında çekirdeği örten iri, metakromatik ve bazofilik boyanan spesifik granüller içerirler. Bu bazofilik granüller yüksek oranda negatif yüklü, sülfatlanmış bir glikozaminoglikan olan **heparin** (antikoagülan) ve vazodilatasyon/damar geçirgenliği artışı yapan **histamin** (ayrıca heparan sülfat, kondroitin sülfat ve proteazlar) içerir. Hücre yüzeyindeki yüksek afiniteli IgE reseptörleri ($Fc\\varepsilon RI$) antijenle çapraz bağlandığında bazofiller degranüle olarak kana **heparin** ve histamin salgılarlar.\n**Çeldiriciler:**\n- **A) Nötrofil:** Granüllerinde miyeloperoksidaz, lizozim, defensinler, laktoferrin ve kollajenaz bulunur; heparin salgılamaz.\n- **B) Monosit:** Agranüler lökosittir; lizozomal enzimler ve sitokinler ($\\text{IL-1, IL-6, TNF-}\\alpha$) salgılar, heparin içermez.\n- **D) Eozinofil:** Granüllerinde Major Basic Protein (MBP), eozinofil katyonik protein (ECP), arilsülfataz ve histaminaz bulunur; heparin salgılamaz.\n- **E) Lenfosit:** Agranüler lökosittir; antikorlar (B hücresi), sitokinler (T hücresi) veya perforin/granzimler (sitotoksik T ve NK hücresi) salgılar, heparin üretmez.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Protein C antikoagülan etkisini aşağıdaki pıhtılaşma faktörlerinden hangisini inaktive ederek göstermektedir?",
+    "options": {
+      "A": "Faktör VII ve Faktör X",
+      "B": "Faktör V ve Faktör VIII",
+      "C": "Faktör VII ve Faktör IX",
+      "D": "Faktör V ve Faktör X",
+      "E": "Faktör VII ve Faktör X"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Karaciğerde K vitaminine bağımlı olarak sentezlenen doğal antikoagülan **Protein C**, endotel yüzeyindeki trombomodulin-trombin kompleksi ile aktive edildikten sonra (**Aktive Protein C [APC]**), kofaktörü **Protein S** varlığında koagülasyon kaskadının iki temel non-enzimatik kofaktörü olan **aktive Faktör V (Faktör Va)** ve **aktive Faktör VIII'i (Faktör VIIIa)** özgül olarak kesip parçalayarak **inaktive eder**. Faktör VIIIa'nın yıkılması intrinsik tenaz kompleksini, Faktör Va'nın yıkılması ise ortak yoldaki protrombinaz kompleksini durdurarak aşırı pıhtı oluşumunu engeller.\n**Çeldiriciler:**\n- **A) Faktör VII ve Faktör X:** Doku faktörü – Faktör VIIa – Faktör Xa kompleksi Protein C tarafından değil, endotel kaynaklı **Doku Faktörü Yolak İnhibitörü (TFPI)** tarafından inhibe edilir.\n- **C) Faktör VII ve Faktör IX:** Karaciğerde K vitaminine bağımlı olarak sentezlenen enzimlerdir; Aktive Protein C'nin proteolitik hedefleri değildirler.\n- **D) Faktör V ve Faktör X:** Protein C Faktör Va'yı inaktive eder ancak serin proteaz olan Faktör Xa'yı inaktive eden esas molekül **Antitrombin III** (ve TFPI)'dür.\n- **E) Faktör VII ve Faktör X:** Aktive Protein C'nin hedef kofaktörleri Faktör VII ve X değil, Faktör V ve VIII'dir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Timus\nII. Lenf düğümü\nIII. Dalak\nYukarıdakilerden hangilerinin afferent lenfatik damarları vardır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Vücuttaki tüm lenfoid organlar arasında lenf damarları boyunca yerleşmiş olan, hem organın konveks yüzeyinden kapsülü delerek giren **afferent (getirici) lenfatik damarlara** hem de hilustan çıkan **efferent (götürücü) lenfatik damarlara** sahip olan ve bu sayede **lenf sıvısını filtreleyen tek organ lenf düğümüdür (II)**.\n**Öncüllerin Analizi:**\n- **I. Timus:** Yanlıştır. Primer bir lenfoid organ olan timusun **afferent lenfatik damarı yoktur** (lenf düğümü gibi lenf süzmez); yalnızca kapsül ve trabeküllerindeki kan damarlarına eşlik ederek organı terk eden birkaç **efferent lenfatik damarı** vardır.\n- **II. Lenf düğümü:** Doğrudur. Konveks yüzeyinden giren çok sayıda **afferent lenfatik damarı** vardır; lenf sıvısı subkapsüler, trabeküler ve medüller sinüslerden süzüldükten sonra hilustaki efferent lenfatik damarla organı terk eder.\n- **III. Dalak:** Yanlıştır. Dalak lenf sıvısını değil **kanı** filtreleyen bir lenfoid organdır; parankimine lenf getiren **afferent lenfatik damarı yoktur** (yalnızca beyaz pulpa ve trabeküllerden başlayıp hilustan çıkan efferent lenfatik damarları vardır).\n**Çeldiriciler:**\n- **A) Yalnız I:** Timusun afferent lenfatik damarı yoktur.\n- **C) Yalnız III:** Dalağın afferent lenfatik damarı yoktur.\n- **D) I ve II:** I. öncül yanlış olduğu için elenir.\n- **E) II ve III:** III. öncül yanlış olduğu için elenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tromboksan A2 ve ADP'nin eksikliğinde hemostazla ilgili aşağıdakilerden hangisi görülür?",
+    "options": {
+      "A": "Protrombinin trombine dönüşümü yavaşlar.",
+      "B": "Trombin üretimi artar.",
+      "C": "Hızlı bir şekilde trombosit tıkacı oluşur.",
+      "D": "Trombosit üretimi azalır.",
+      "E": "Yeterli trombosit aktivasyonu gerçekleşmez."
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Damar yaralanmasında subendotelyal kollajene tutunan (adezyon yapan) ilk trombositler aktive olarak yoğun granüllerinden **ADP (adenozin difosfat)** salgılar ve membran araşidonik asidinden COX-1 enzimiyle **Tromboksan $A_2$ ($\\text{TXA}_2$)** sentezler. Salınan **ADP ve $\\text{TXA}_2$**, pozitif geri bildirimle dolaşımdan geçen diğer trombositlerin yüzey reseptörlerini ($P2Y_{12}$ ve TP reseptörlerini) uyararak onları **aktive eder**, yüzeylerindeki **GpIIb/IIIa** fibrinojen reseptörlerinin konformasyonel olarak açılmasını sağlar ve trombositlerin birbirine bağlanarak (**agregasyon**) primer trombosit tıkacını büyütmesini tetikler. Dolayısıyla $\\text{TXA}_2$ ve ADP'nin eksikliğinde (veya aspirin + klopidogrel kullanımı durumunda) **yeterli trombosit aktivasyonu ve agregasyonu gerçekleşmez**, kanama zamanı uzar.\n**Çeldiriciler:**\n- **A) Protrombinin trombine dönüşümü yavaşlar:** Bu basamak koagülasyon kaskadındaki protrombinaz kompleksinin (Faktör Xa, Va, $\\text{Ca}^{2+}$, PF3) görevidir; ADP ve $\\text{TXA}_2$'nin birincil rolü koagülasyon kaskadı değil primer hemostazdaki trombosit aktivasyonu ve agregasyonudur.\n- **B) Trombin üretimi artar:** Trombosit aktivasyonu bozulduğunda trombin üretimi artmaz.\n- **C) Hızlı bir şekilde trombosit tıkacı oluşur:** Tam tersine, en önemli iki agregasyon/aktivasyon agonisti olan ADP ve $\\text{TXA}_2$ eksikliğinde trombosit tıkacı oluşumu ciddi şekilde bozulur ve yavaşlar.\n- **D) Trombosit üretimi azalır:** Kemik iliğinde megakaryositlerden trombosit üretimini (trombopoiezi) düzenleyen faktör ADP veya $\\text{TXA}_2$ değil, karaciğer ve böbrekten salgılanan **trombopoietin (TPO)** hormonudur.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Proeritroblast ile başlayan eritropoiezde, sürecin ara basamaklarındaki eritroblast tipleri şöyledir:\nI. Polikromatofilik eritroblast\nII. Bazofilik eritroblast\nIII. Ortokromatofilik eritroblast\nBu hücrelerin gelişim sıralaması hangisinde doğru verilmiştir?",
+    "options": {
+      "A": "I, II, III",
+      "B": "I, III, II",
+      "C": "II, I, III",
+      "D": "II, III, I",
+      "E": "III, I, II"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kemik iliğinde eritropoietin (EPO) etkisiyle **proeritroblasttan** başlayan eritrosit olgunlaşma süreci (eritropoiez), sitoplazmadaki ribozom (bazofilik) ve hemoglobin (asidofilik/pembe) oranlarının değişimine göre sırasıyla şu basamakları izler: **Proeritroblast $\\rightarrow$ Bazofilik eritroblast (II) $\\rightarrow$ Polikromatofilik eritroblast (I) $\\rightarrow$ Ortokromatofilik eritroblast / Normoblast (III) $\\rightarrow$ Retikülosit $\\rightarrow$ Olgun eritrosit**. Dolayısıyla verilen ara basamakların doğru gelişim sıralaması **II, I, III** şeklindedir.\n**Öncüllerin Analizi:**\n- **II. Bazofilik eritroblast:** Proeritroblasttan hemen sonra gelen ilk ara basamaktır; sitoplazmasında hemoglobin sentezini gerçekleştirecek çok yoğun serbest poliribozomlar bulunduğu için kuvvetli bazofilik (mavi) boyanır.\n- **I. Polikromatofilik eritroblast:** Bazofilik eritroblasttan sonra gelen ikinci ara basamaktır; sitoplazmada hem bazofilik boyanan ribozomlar hem de asidofilik boyanan yeni sentezlenmiş hemoglobin bir arada bulunduğu için gri-leylak/alacalı (polikromatofilik) boyanır (eritropoiezde **mitoz bölünme geçirebilen son hücre** basamağıdır).\n- **III. Ortokromatofilik eritroblast (Normoblast):** Polikromatofilik eritroblasttan sonra gelen üçüncü ara basamaktır; ribozomlar büyük ölçüde azalmış ve sitoplazma hemoglobinle dolduğu için olgun eritrosit gibi homojen asidofilik (pembe) boyanır, bu evrenin sonunda küçük ve piknotik hale gelen çekirdek hücre dışına atılır.\n**Çeldiriciler:**\n- **A) I, II, III:** Bazofilik eritroblast (II), polikromatofilik eritroblasttan (I) önce gelir.\n- **B) I, III, II:** Gelişim sırası tamamen karıştırılmıştır; bazofilik eritroblast en sonda değil en baştadır.\n- **D) II, III, I:** Polikromatofilik eritroblast (I), ortokromatofilik eritroblasttan (III) önce gelir.\n- **E) III, I, II:** Doğru kronolojik sıralamanın tam tersidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dalakta T lenfositlerin başlıca lokalizasyonu aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Santral arter çevresi",
+      "B": "Germinal merkez",
+      "C": "Trabekül çevresi",
+      "D": "Penissillar arteriyol çevresi",
+      "E": "Marjinal sinüs bölgesi"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Dalak parankiminde beyaz pulpa içerisine giren **santral arterin (santral arteriyolün)** hemen etrafı, yoğun olarak **T lenfositlerden** (başlıca $\\text{CD4}^+$ yardımcı T hücrelerinden) oluşan silindirik bir lenfoid kılıfla çepeçevre sarılmıştır. **Periarteriolar lenfatik kılıf (PALS)** adı verilen bu **santral arter çevresi** bölge, dalaktaki timus bağımlı (T hücresi) alandır ve T lenfositlerin dalaktaki başlıca lokalizasyonudur.\n**Çeldiriciler:**\n- **B) Germinal merkez:** Dalak beyaz pulpasındaki sekonder lenf foliküllerinin (Malpighi cisimciklerinin) merkezidir; T lenfositlerin değil, antijenle uyarılmış ve hızla çoğalan **B lenfositlerin (sentroblast/sentrositlerin)** ve foliküler dendritik hücrelerin başlıca lokalizasyonudur.\n- **C) Trabekül çevresi:** Kapsülden parankime uzanan sıkı bağ dokusu bölmelerinin çevresidir; T lenfositlerin özgül yerleşim alanı değildir.\n- **D) Penissillar arteriyol çevresi:** Santral arterin beyaz pulpayı terk edip kırmızı pulpaya girdikten sonra verdiği fırça benzeri düz arteriyol dallarıdır; etraflarında PALS bulunmaz.\n- **E) Marjinal sinüs bölgesi:** Beyaz pulpa ile kırmızı pulpa arasındaki sınırda (marjinal zonda) yer alan, kandan antijenlerin ilk yakalandığı, makrofajlar ve özel marjinal zon **B lenfositlerinden** zengin bölgedir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki lenfoid organların hangisinde lenf folikülü bulunmaz?",
+    "options": {
+      "A": "Dalak",
+      "B": "Tonsilla palatina",
+      "C": "Timus",
+      "D": "Mukoza ile ilişkili lenfoid doku",
+      "E": "Lenf düğümü"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** **Lenf folikülleri (lenfoid nodüller)**, retiküler lif ağı içerisinde başlıca **B lenfositlerin** kümelenmesiyle oluşan (antijen uyarısıyla ortasında germinal merkez gelişen) küresel yapılar olup sekonder (periferik) lenfoid organların karakteristik özelliğidir. **Timus** ise yalnızca **T lenfositlerin** geliştiği ve olgunlaştığı **primer (santral) bir lenfoid organdır**; stroması retiküler liflerden değil epitelyoretiküler hücrelerden oluşur ve normal histolojik yapısında B lenfositlerden oluşan **lenf folikülü (ve germinal merkez) kesinlikle bulunmaz** (yalnızca *myasthenia gravis* gibi otoimmün timik hiperplazi patolojilerinde anormal olarak görülebilir).\n**Çeldiriciler:**\n- **A) Dalak:** Beyaz pulpasında PALS'a bitişik olarak yerleşmiş, B lenfositlerden oluşan çok sayıda lenf folikülü (Malpighi cisimcikleri) içerir.\n- **B) Tonsilla palatina:** Çok katlı yassı epitelin oluşturduğu kriptaların hemen altında dizilmiş çok sayıda sekonder lenf folikülü içerir.\n- **D) Mukoza ile ilişkili lenfoid doku (MALT):** Peyer plakları ve apendiks başta olmak üzere sindirim, solunum ve ürogenital mukoza altında yoğun lenf folikülleri bulundurur.\n- **E) Lenf düğümü:** Dış (yüzeyel) korteks bölgesinde kapsülün hemen altında dizilmiş çok sayıda primer ve sekonder lenf folikülü içerir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki durumlardan hangisi plazmadaki Protein C'yi aktif hâle getirerek, aktive Faktör V ve VIII'in inaktivasyonuna neden olur?",
+    "options": {
+      "A": "Trombinin trombomoduline bağlanması",
+      "B": "Tromboksan A2'nin trombositleri inaktive etmesi",
+      "C": "Doku plazminojen aktivatörünün plazminojeni aktifleştirmesi",
+      "D": "Faktör I'in Faktör XIII'e bağlanması",
+      "E": "Antitrombin III'ün heparine bağlanması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Sağlam endotel hücrelerinin yüzeyinde bulunan integral bir membran glikoproteini olan **trombomodulin**, dolaşımdaki serbest **trombini (Faktör IIa)** yüksek afiniteyle bağlar. **Trombinin trombomoduline bağlanması**, trombinin substrat özgüllüğünü tamamen değiştirir: Trombin artık fibrinojeni fibrine çeviremez ve trombositleri aktive edemez; bunun yerine endotel yüzeyindeki EPCR (endotelyal protein C reseptörü) tarafından sunulan plazma **Protein C'sini keserek Aktive Protein C (APC)** hâline getirir. Aktive Protein C de (Protein S ile birlikte) **aktive Faktör V (Va) ve aktive Faktör VIII'i (VIIIa) parçalayarak inaktive eder**.\n**Çeldiriciler:**\n- **B) Tromboksan A2'nin trombositleri inaktive etmesi:** İfade tamamen yanlıştır; Tromboksan $A_2$ trombositleri inaktive etmez, tam tersine güçlü şekilde **aktive eder** ve Protein C sistemiyle ilişkili değildir.\n- **C) Doku plazminojen aktivatörünün plazminojeni aktifleştirmesi:** Protein C'yi değil, fibrinolitik sistemin enzimi olan **plazmini** aktifleştirerek fibrin pıhtısının yıkılmasını sağlar.\n- **D) Faktör I'in Faktör XIII'e bağlanması:** Faktör I (fibrinojen) trombinle fibrine dönüştükten sonra Faktör XIIIa (fibrin stabilize edici faktör) tarafından çapraz bağlanarak sağlam pıhtı oluşturulur; antikoagülan Protein C aktivasyonu değildir.\n- **E) Antitrombin III'ün heparine bağlanması:** Protein C'yi aktive etmez; Antitrombin III'ün konformasyonunu değiştirerek Faktör IIa (trombin) ve Faktör Xa'yı doğrudan inhibe etmesini hızlandırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi doku uygunluk kompleksi II (MHC sınıf II) molekülünü içermez?",
+    "options": {
+      "A": "Kupffer hücresi",
+      "B": "Langerhans hücresi",
+      "C": "Makrofaj",
+      "D": "Platelet",
+      "E": "Dendritik hücre"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** **MHC sınıf II** molekülleri yalnızca $\\text{CD4}^+$ yardımcı T lenfositlerine ekzojen antijen sunan **profesyonel antijen sunucu hücrelerin (APC)** (dendritik hücreler, monosit/makrofaj ailesi hücreleri ve B lenfositler) yüzeyinde bulunur. Kemik iliğindeki dev megakaryositlerin sitoplazmik uzantılarının kopmasıyla oluşan çekirdeksiz hücre parçacıkları olan **plateletler (trombositler)** ise yüzeylerinde MHC sınıf I (HLA-A, B, C) molekülleri taşırlar ancak profesyonel antijen sunucu hücre olmadıkları için **MHC sınıf II molekülü içermezler**.\n**Çeldiriciler:**\n- **A) Kupffer hücresi:** Karaciğerin yerleşik makrofajıdır; profesyonel antijen sunucu hücre (APC) olduğu için yüzeyinde MHC sınıf II molekülü içerir.\n- **B) Langerhans hücresi:** Epidermisin antijen sunucu dendritik hücresidir; yüksek düzeyde MHC sınıf II molekülü eksprese eder.\n- **C) Makrofaj:** Mononükleer fagositik sistemin temel profesyonel antijen sunucu hücresidir ve MHC sınıf II molekülü içerir.\n- **E) Dendritik hücre:** Bağışıklık sisteminin en güçlü profesyonel antijen sunucu hücresidir; yapısal olarak yoğun MHC sınıf II molekülü içerir.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi miyeloperoksidaz enzimini yüksek oranda içerir?",
+    "options": {
+      "A": "Nötrofil",
+      "B": "Mast hücresi",
+      "C": "Endotel hücresi",
+      "D": "Sitotoksik T lenfosit",
+      "E": "B lenfosit"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** **Miyeloperoksidaz (MPO)**, özellikle **nötrofillerin** (polimorfonükleer lökositlerin) **azurofilik (primer) granüllerinde** çok yüksek oranda bulunan (nötrofil kuru ağırlığının %5'ini oluşturan ve irine yeşilimsi rengini veren) hem (demir) içeren lizozomal bir enzimdir. Fagositoz sırasında gerçekleşen \"solunum patlaması\" (oksijen bağımlı öldürme) sürecinde NADPH oksidaz ile üretilen hidrojen peroksiti ($\\text{H}_2\\text{O}_2$) ve klorür iyonunu ($\\text{Cl}^-$) kullanarak bakteriler için son derece öldürücü bir oksidan olan **hipokloröz asit ($\\text{HOCl}$ / çamaşır suyu etken maddesi)** sentezler.\n**Çeldiriciler:**\n- **B) Mast hücresi:** Bazofilik granüllerinde histamin, heparin, triptaz ve kimaz içerir; miyeloperoksidaz enzimini yüksek oranda içermez.\n- **C) Endotel hücresi:** Damar iç yüzeyini döşeyen yassı epitel hücresidir; Weibel-Palade cisimciklerinde vWF ve P-selektin içerir, fagositik miyeloperoksidaz granülleri bulundurmaz.\n- **D) Sitotoksik T lenfosit:** Hedef hücrede apoptoz oluşturan **perforin ve granzim** granülleri içerir; miyeloperoksidaz içermez.\n- **E) B lenfosit:** Humoral bağışıklıkta antikor (immünoglobulin) üreten lenfoid hücredir; miyeloid seriye ait miyeloperoksidaz enzimini içermez.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kandan dokuya geçerek doku makrofajlarına dönüşen lökosit aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Nötrofil",
+      "B": "Eozinofil",
+      "C": "Bazofil",
+      "D": "Monosit",
+      "E": "Lenfosit"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Kemik iliğinde monoblast ve promonosit öncüllerinden gelişerek periferik kana verilen **monositler**, kan dolaşımındaki en büyük lökositlerdir ve mononükleer fagositik sistemin dolaşımdaki öncül hücrelerini oluştururlar. Kanda yaklaşık 1–3 gün kaldıktan sonra kapiller ve postkapiller venül duvarından diapedezle dokulara geçerek **doku makrofajlarına** (bağ dokusunda *histiyosit*, karaciğerde *Kupffer hücresi*, akciğerde *alveolar makrofaj / toz hücresi*, merkezi sinir sisteminde *mikroglia*, kemikte *osteoklast*, deride *Langerhans hücresi*, plasentada *Hofbauer hücresi*) dönüşürler.\n**Çeldiriciler:**\n- **A) Nötrofil:** Terminal olarak farklılaşmış polimorfonükleer granülosittir; dokuya geçtikten sonra fagositoz yapar ve birkaç gün içinde apoptoza uğrayarak ölür, makrofaja dönüşmez.\n- **B) Eozinofil:** Paraziter ve alerjik reaksiyonlarda görev alan granülosittir; dokuya geçince makrofaja dönüşmez.\n- **C) Bazofil:** Kanda dolaşan ve histamin/heparin içeren granülosittir; doku makrofajına dönüşmez.\n- **E) Lenfosit:** Özgül (adaptif) bağışıklık hücresidir; B lenfositler dokuda makrofaja değil antikor salgılayan **plazma hücrelerine** dönüşür.",
+    "lesson": "Fizyoloji",
+    "unit": "Kan Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

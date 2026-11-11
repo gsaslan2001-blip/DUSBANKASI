@@ -1,0 +1,786 @@
+[
+  {
+    "question": "Kalpte refrakter periyodun en uzun sürdüğü lokalizasyon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Atrium miyokardı",
+      "B": "Atrioventriküler düğüm",
+      "C": "Ventrikül miyokardı",
+      "D": "His hüzmesi",
+      "E": "Sinüs düğümü"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Ventrikül miyokardı (ve onunla ilişkili Purkinje-ventrikül sistemi), kalpte aksiyon potansiyeli süresinin ve özellikle Faz 2 (plato) evresinin en belirgin olduğu bölgedir. Faz 2'de yavaş L-tipi kalsiyum kanallarının uzun süre açık kalması ve voltaj bağımlı hızlı sodyum kanallarının inaktivasyon kapılarının repolarizasyon tamamlanana kadar kapalı kalması, etkin (mutlak) refrakter periyodun çok uzun sürmesini sağlar. Bu uzun refrakter periyot sayesinde ventrikül kasında uyarıların birleşmesi (sumasyon) ve tetani oluşumu fizyolojik olarak engellenir.\n**Çeldiriciler:**\n- **A) Atrium miyokardı:** Atriyum kası hücrelerinde de hızlı yanıtlı aksiyon potansiyeli ve plato evresi görülür; ancak L-tipi kalsiyum akımı süresi daha kısa ve repolarize edici potasyum akımları (özellikle $I_{Kur}$) daha belirgin olduğundan aksiyon potansiyeli süresi ve refrakter periyodu ventrikül miyokardına göre oldukça kısadır.\n- **B) Atrioventriküler düğüm:** AV düğümde iletim hızı kalbin en yavaş olduğu yerdir ve kalsiyum kanallarının inaktivasyonundan kaynaklanan rölatif/fonksiyonel bir refrakterlik söz konusudur; ancak mutlak aksiyon potansiyeli süresi ve plato fazı uzunluğu açısından ventrikül miyokardı kadar uzun bir refrakter periyoda sahip değildir.\n- **D) His hüzmesi:** İleti sisteminin ventriküler başlangıç kısmını oluşturan His hüzmesi hızlı iletim özelliğine sahiptir; aksiyon potansiyeli süresi ve refrakter periyodu distal Purkinje-ventrikül kası bileşkesi ve ventrikül miyokardı kadar uzun değildir.\n- **E) Sinüs düğümü:** Sinüs (SA) düğümü yavaş yanıtlı pacemaker hücrelerinden oluşur, belirgin bir Faz 2 platosu yoktur ve aksiyon potansiyeli ile refrakter periyot süresi ventrikül miyokardına kıyasla daha kısadır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki arterlerden hangisi 1. aortik arkustan gelişir?",
+    "options": {
+      "A": "Hiyoid arter",
+      "B": "Stapedial arter",
+      "C": "Maksiller arter",
+      "D": "Primitif pulmoner arter",
+      "E": "İnternal karotid arter"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Embriyolojik dönemde faringeal (aortik) arkus arterlerinden 1. aortik arkus büyük oranda gerileyerek kaybolur; ancak geriye kalan kalıntısı erişkindeki maksiller arteri (ve kısmen eksternal karotid arterin bir bölümünü) oluşturur.\n**Çeldiriciler:**\n- **A) Hiyoid arter:** 1. aortik arkustan değil, 2. faringeal (aortik) arkustan gelişen vasküler yapılardan biridir.\n- **B) Stapedial arter:** Hiyoid arter ile birlikte 2. faringeal (aortik) arkustan köken alır.\n- **D) Primitif pulmoner arter:** 6. faringeal (pulmoner) aortik arkusun sağ ve sol proksimal kısımlarından gelişir (sol 6. arkusun distal kısmı ise duktus arteriyozusu oluşturur).\n- **E) İnternal karotid arter:** 3. faringeal (aortik) arkusun distal kısmından (ve dorsal aortanın kraniyal uzantısından) gelişir; 3. arkusun proksimal kısmı ise ana (kommon) karotid arteri oluşturur.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin vazokonstriktör etkisi vardır?",
+    "options": {
+      "A": "Substans P",
+      "B": "Vazoaktif intestinal peptid",
+      "C": "Endotelin-1",
+      "D": "Atriyal natriüretik peptid",
+      "E": "Nitrik oksit"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Endotelin-1, vasküler endotel hücrelerinden salgılanan ve bilinen en güçlü endojen vazokonstriktör maddelerden biridir. Damar düz kas hücreleri üzerindeki $ET_A$ (ve kısmen $ET_B$) reseptörlerine bağlanarak $G_q$ proteini aracılığıyla fosfolipaz C'yi aktive eder, hücre içi $IP_3$ ve kalsiyum düzeyini artırarak güçlü ve uzun süreli vazokonstriksiyon oluşturur.\n**Çeldiriciler:**\n- **A) Substans P:** Duyusal sinir uçlarından ve inflamatuvar süreçlerde salınan bir nöropeptiddir; endotel bağımlı mekanizmalarla vazodilatasyon yapar ve kapiller damar geçirgenliğini (permabilitesini) artırır.\n- **B) Vazoaktif intestinal peptid (VIP):** Özellikle gastrointestinal sistem ve solunum yollarında $G_s$-cAMP yolağı üzerinden düz kas gevşemesi ve belirgin vazodilatasyon oluşturan bir nöropeptiddir.\n- **D) Atriyal natriüretik peptid (ANP):** Atriyumların gerilmesiyle salgılanır, membran bağımlı guanilat siklazı aktive ederek hücre içi cGMP düzeyini artırır ve damar düz kaslarında vazodilatasyon yapar.\n- **E) Nitrik oksit (NO):** Endotel hücrelerinde nitrik oksit sentaz (eNOS) tarafından L-argininden sentezlenir; düz kas hücresine difüze olarak çözünür guanilat siklazı uyarır ve cGMP artışı üzerinden güçlü vazodilatasyon sağlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki damarlardan hangisinin dilatasyonu ile toplam periferik akım direnci en fazla azalır?",
+    "options": {
+      "A": "Arterler",
+      "B": "Venler",
+      "C": "Venüller",
+      "D": "Arteriyoller",
+      "E": "Kapillerler"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sistemik dolaşımda toplam periferik direncin (TPR) en büyük kısmından (%50'den fazlasından) sorumlu olan damar segmenti \"direnç (rezistans) damarları\" olarak adlandırılan arteriyollerdir. Arteriyollerin lümen çapları dar, duvarlarındaki düz kas tabakası (tunika media) ise oldukça kalındır. Poiseuille yasasına göre akım direnci damar yarıçapının dördüncü kuvveti ile ters orantılı ($R \\propto 1/r^4$) olduğundan, arteriyollerin dilatasyonu toplam periferik akım direncini en fazla azaltır.\n**Çeldiriciler:**\n- **A) Arterler:** Aorta ve büyük-orta çaplı arterler geniş lümenli ve yüksek elastikiyetli iletim/kompliyans (Windkessel) damarlarıdır; toplam periferik dirence katkıları düşüktür.\n- **B) Venler:** Vücuttaki kan hacminin en büyük kısmını (%60-65) barındıran düşük basınçlı ve yüksek kompliyanslı \"kapasitans (depo) damarları\"dır; toplam periferik direnç üzerindeki etkileri minimaldir.\n- **C) Venüller:** Kapiller yataktan gelen kanı toplayan ince duvarlı damarlardır; düz kas tabakaları zayıf olduğundan toplam periferik direncin ana belirleyicisi değildirler.\n- **E) Kapillerler:** Tek katlı endotel ve bazal laminadan oluşurlar, duvarlarında düz kas hücresi bulunmaz; bu nedenle aktif vazodilatasyon/vazokonstriksiyon yaparak direnç değiştiremezler ve çok sayıda paralel dizildikleri için toplam dirençleri arteriyollerden düşüktür.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kapiller ve postkapiller venüllerin etrafını saran hücre aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fibroblast",
+      "B": "Miyofibroblast",
+      "C": "Perisit",
+      "D": "Adiposit",
+      "E": "Histiyosit"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Perisitler (Rouget hücreleri), sürekli ve fenestralı kapillerlerin yanı sıra postkapiller venüllerin endotel hücrelerini dıştan saran, endotel ile aynı bazal laminayı paylaşan mezenkimal kökenli hücrelerdir. İçerdikleri aktin ve miyozin filamanları sayesinde kasılabilme özelliğine sahiptirler; mikrovasküler kan akımının düzenlenmesi, damar duvarı stabilitesi, geçirgenlik kontrolü, doku onarımı ve anjiyogenezde görev alırlar.\n**Çeldiriciler:**\n- **A) Fibroblast:** Bağ dokusunun temel hücresidir; kollajen, elastik lifler ve ekstrasellüler matriks sentezler ancak kapiller bazal laminası içinde endoteli saran özgül mural hücre değildir.\n- **B) Miyofibroblast:** Yara iyileşmesi ve doku kontraksiyonunda görev alan, fibroblast ve düz kas hücresi özellikleri taşıyan bağ dokusu hücresidir.\n- **D) Adiposit:** Yağ dokusunu oluşturan ve trigliserid depolayan hücredir; damar bazal laminasını saran perivasküler kontraktil hücre değildir.\n- **E) Histiyosit:** Bağ dokusunda yerleşik olarak bulunan, monosit kökenli fagositik makrofaj hücresidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Atriyum baroreseptörlerinin uyarılması ile oluşan hacim refleksinde aşağıdakilerden hangisi görülür?",
+    "options": {
+      "A": "Renal sempatik deşarjın azalması",
+      "B": "Anjiyotensin II sekresyonunun artması",
+      "C": "Aldosteron sekresyonunun artması",
+      "D": "Vazopressin sekresyonunun artması",
+      "E": "Atrial natriüretik peptid sekresyonunun azalması"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Venöz dönüşün ve kan hacminin artmasıyla atriyum duvarındaki düşük basınçlı gerim reseptörleri (volüm reseptörleri) uyarılır. Oluşan hacim refleksi, fazla sıvının böbreklerden atılmasını (diürez ve natriürez) sağlayacak yönde çalışır. Bu kapsamda hipotalamus ve medulla oblongata üzerinden özellikle renal sempatik sinir aktivitesi (deşarjı) azaltılır; böylece afferent arteriyollerde vazodilatasyon oluşur, glomerüler filtrasyon hızı artar ve tübüler sodyum/su geri emilimi azalır.\n**Çeldiriciler:**\n- **B) Anjiyotensin II sekresyonunun artması:** Renal sempatik deşarjın azalması ve ANP artışı böbrekten renin salınımını baskılar; dolayısıyla anjiyotensin II sekresyonu artmaz, azalır.\n- **C) Aldosteron sekresyonunun artması:** Renin-anjiyotensin sisteminin baskılanması ve artan ANP'nin adrenal korteks üzerindeki doğrudan inhibitör etkisi nedeniyle aldosteron sekresyonu artmaz, azalır.\n- **D) Vazopressin sekresyonunun artması:** Atriyum gerim reseptörlerinden vagus siniri aracılığıyla hipotalamusa giden uyarılar supraoptik ve paraventriküler çekirdekleri inhibe ederek vazopressin (ADH) sekresyonunu azaltır, su atılımını artırır.\n- **E) Atrial natriüretik peptid sekresyonunun azalması:** Atriyum miyositlerinin gerilmesi ANP sekresyonunu azaltmaz, tam tersine doğrudan uyararak artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kalpteki Purkinje lifleri ile ilgili olarak aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kalbin ileti sisteminde yer alırlar.",
+      "B": "Özelleşmiş endotel hücreleridir.",
+      "C": "Subendokardiyal yerleşimlidirler.",
+      "D": "Sitoplazmalarındaki glikojen içeriği nedeniyle rutin histolojik boyamada açık renk boyanırlar.",
+      "E": "Atrioventriküler düğümden itibaren interventriküler septumda uzanırlar."
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Purkinje lifleri endotel hücresi değil, elektriksel iletiyi hızla taşımak üzere özelleşmiş (modifiye) kalp kası hücreleridir (kardiyomiyositlerdir). Çevrelerindeki çalışma miyokardı hücrelerinden daha büyük olan bu hücreler bol glikojen, daha az miyofibril ve çok sayıda gap junction (konneksin-40 ve konneksin-43) içerirler.\n**Çeldiriciler:**\n- **A) Kalbin ileti sisteminde yer alırlar:** Kalbin elektriksel ileti sisteminin terminal dallarını oluştururlar ve uyarıyı ventrikül miyokardına en hızlı şekilde (yaklaşık 1.5–4 m/sn) iletirler.\n- **C) Subendokardiyal yerleşimlidirler:** Endokardın hemen altındaki gevşek bağ dokusu tabakası olan subendokardiyum içinde seyrederler.\n- **D) Sitoplazmalarındaki glikojen içeriği nedeniyle rutin histolojik boyamada açık renk boyanırlar:** Sitoplazmalarında miyofibriller periferde az miktarda bulunur, merkezde ise yoğun glikojen birikimi vardır; glikojen rutin hematoksilen-eozin (H&E) hazırlama aşamalarında eridiği için hücreler geniş ve soluk/açık renkli görünür.\n- **E) Atrioventriküler düğümden itibaren interventriküler septumda uzanırlar:** AV düğümden sonra His demeti ve sağ-sol dallar halinde interventriküler septum boyunca subendokardiyal olarak uzanan ileti sisteminin devamını oluştururlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sistolik kan basıncı 124 mmHg, diyastolik kan basıncı 70 mmHg olarak ölçülen bir bireyde ortalama arteriyel kan basıncı kaç mmHg'dir?",
+    "options": {
+      "A": "54",
+      "B": "88",
+      "C": "97",
+      "D": "103",
+      "E": "110"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kalp döngüsünün normal dinlenim hızlarında yaklaşık üçte biri sistol, üçte ikisi diyastol evresinde geçer. Bu nedenle ortalama arteriyel kan basıncı (OAB), sistolik ve diyastolik basınçların aritmetik ortalaması değil, diyastolik basınca daha yakın ağırlıklı bir ortalamadır. Formülü: $\\text{OAB} = \\text{Diyastolik Basınç} + \\frac{1}{3}(\\text{Sistolik Basınç} - \\text{Diyastolik Basınç})$ veya $\\text{OAB} = \\frac{\\text{Sistolik Basınç} + 2 \\times \\text{Diyastolik Basınç}}{3}$ şeklindedir. Verilen değerler yerine konulduğunda: $\\text{Nabız Basıncı} = 124 - 70 = 54\\text{ mmHg}$; $\\text{OAB} = 70 + \\frac{54}{3} = 70 + 18 = 88\\text{ mmHg}$ (veya $\\frac{124 + 140}{3} = \\frac{264}{3} = 88\\text{ mmHg}$) bulunur.\n**Çeldiriciler:**\n- **A) 54:** Sistolik ve diyastolik basınçlar arasındaki farkı ($124 - 70 = 54\\text{ mmHg}$), yani ortalama arter basıncını değil nabız basıncını ifade eder.\n- **C) 97:** Sistol ve diyastol sürelerinin eşit olduğu varsayılarak yapılan hatalı basit aritmetik ortalama ($\\frac{124 + 70}{2} = 97\\text{ mmHg}$) sonucudur.\n- **D) 103:** Sistolik basınca 2 kat ağırlık verilerek yapılan ters/hatalı hesaplama ($\\frac{2 \\times 124 + 70}{3} \\approx 106$) yaklaşımıdır.\n- **E) 110:** Fizyolojik formülle uyuşmayan, sistolik basınca aşırı yakın hatalı bir değerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Duktus arteriyozusun köken aldığı yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "3. aortik arkus",
+      "B": "4. aortik arkus sağ kısmı",
+      "C": "4. aortik arkus sol kısmı",
+      "D": "6. aortik arkus sağ kısmı",
+      "E": "6. aortik arkus sol kısmı"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Embriyolojik dönemde 6. faringeal (aortik) arkus \"pulmoner arkus\" olarak da bilinir. Sol 6. aortik arkusun proksimal kısmından sol pulmoner arter gelişirken, distal kısmı dorsal aorta ile bağlantısını koruyarak fetal dolaşımda pulmoner trunkus ile aortayı birbirine bağlayan şant olan duktus arteriyozusu oluşturur (doğumdan sonra kapanarak ligamentum arteriyozuma dönüşür).\n**Çeldiriciler:**\n- **A) 3. aortik arkus:** Sağ ve sol ana (kommon) karotid arterler ile internal karotid arterlerin proksimal kısımlarını oluşturur.\n- **B) 4. aortik arkus sağ kısmı:** Sağ subklavyen arterin proksimal segmentini oluşturur.\n- **C) 4. aortik arkus sol kısmı:** Erişkindeki arkus aortanın ana bölümünü (sol ana karotid arter ile sol subklavyen arter arasındaki kısmı) oluşturur.\n- **D) 6. aortik arkus sağ kısmı:** Proksimal bölümünden sağ pulmoner arter gelişir, distal bölümü ise embriyolojik dönemde dejenere olarak tamamen kaybolur.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yandaki aksiyon potansiyeli grafiği (stabil bir dinlenim membran potansiyeli göstermeyip yaklaşık -60/-65 mV'tan yavaşça yükselerek -40 mV eşik değerinde ateşlenen ve plato içermeyen ritmik dalgalar), aşağıdakilerden hangisine aittir?",
+    "options": {
+      "A": "İskelet kası hücreleri",
+      "B": "Kalp sinüs nodu lifi hücreleri",
+      "C": "Uterus düz kası hücreleri",
+      "D": "Beyin bazal çekirdek hücreleri",
+      "E": "Baroreseptör hücreleri"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Grafikte sabit bir dinlenim membran potansiyeli bulunmamakta, membran potansiyeli her döngüde yaklaşık $-60\\text{ mV}$ civarından başlayarak kendiliğinden yavaşça depolarize olmakta (Faz 4 pacemaker potansiyeli / prepotansiyel) ve $-40\\text{ mV}$ eşik değerine ulaştığında Faz 0 yükselişi gerçekleşmektedir. Ayrıca Faz 2 platosu yoktur ve Faz 3 ile hızla repolarize olmaktadır. Bu aksiyon potansiyeli profili kalbin sinoatrial (sinüs) düğümündeki yavaş yanıtlı pacemaker hücreleri için tipiktir. Faz 4'teki spontan depolarizasyondan hiperpolarizasyonla aktive olan \"funny\" ($I_f$) sodyum kanalları ve T-tipi kalsiyum kanalları, Faz 0 depolarizasyonundan ise L-tipi kalsiyum kanalları sorumludur.\n**Çeldiriciler:**\n- **A) İskelet kası hücreleri:** Yaklaşık $-90\\text{ mV}$ düzeyinde sabit ve gerçek bir dinlenim membran potansiyeline sahiptir; sinirsel uyarı olmadan spontan depolarizasyon göstermez ve aksiyon potansiyeli çok kısa (2-5 msn) sürer.\n- **C) Uterus düz kası hücreleri:** Gebelik dönemine ve hormonal etkilere bağlı uyarılabilirlik gösterir; kalp sinüs düğümü gibi saniyede bir düzenli tekrarlayan tipik $-60\\text{ mV}$ / $-40\\text{ mV}$ eşikli kardiyak nodal pacemaker grafiği sergilemez.\n- **D) Beyin bazal çekirdek hücreleri:** Nöronal aksiyon potansiyelleri voltaj kapılı hızlı sodyum kanallarına dayanır, milisaniyeler içinde gerçekleşen çok hızlı diken (spike) potansiyelleridir.\n- **E) Baroreseptör hücreleri:** Mekanik gerime yanıt olarak reseptör (jeneratör) potansiyeli ve buna bağlı değişen frekanslarda nöronal aksiyon potansiyelleri üretirler; spontan kardiyak pacemaker profili göstermezler.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kan basıncındaki artışa bağlı baroreseptörlerin uyarılması durumunda oluşan refleks yanıtta aşağıdakilerden hangisi görülmez?",
+    "options": {
+      "A": "Arteriyollerde vazodilatasyon",
+      "B": "Venlerde vazodilatasyon",
+      "C": "Vazokonstriktör merkezin inhibisyonu",
+      "D": "Kalp debisinde artış",
+      "E": "Kalbin kasılma gücünde azalma"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Arteriyel kan basıncı yükseldiğinde karotis sinüsü (CN IX ile) ve arkus aortadaki (CN X ile) baroreseptörlerin gerimi ve ateşleme frekansı artar. Bu sinyaller medulla oblongatadaki nukleus traktus solitarius'a (NTS) ulaşır. NTS, rostral ventrolateral medulladaki vazokonstriktör merkezi inhibe ederken, kardiyoinhibitör merkezi (nukleus ambiguus / vagal çekirdek) uyarır. Sonuçta sempatik tonus azalır ve parasempatik (vagal) tonus artar. Kalp hızı (kronotropi) ve kasılma gücü (inotropi) azaldığı, ayrıca venöz dönüş düştüğü için kalp debisi artmaz; tam tersine azalarak kan basıncını normale düşürür.\n**Çeldiriciler:**\n- **A) Arteriyollerde vazodilatasyon:** Sempatik vazokonstriktör tonusun baskılanması sonucunda arteriyol düz kasları gevşer (vazodilatasyon) ve toplam periferik direnç düşer.\n- **B) Venlerde vazodilatasyon:** Sempatik venokonstriktör tonusun azalmasıyla venler genişler (venodilatasyon), kan venöz sistemde göllenir ve kalbe venöz dönüş azalır.\n- **C) Vazokonstriktör merkezin inhibisyonu:** NTS'den çıkan internöronlar medulladaki sempatik vazokonstriktör merkezi doğrudan inhibe eder.\n- **E) Kalbin kasılma gücünde azalma:** Ventrikül miyokardına giden sempatik ($\\beta_1$-adrenerjik) uyarıların azalması sonucunda kalbin kasılma gücü (negatif inotropik etki) azalır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Total periferik direnç\nII. Ventrikül atım hacmi\nIII. Arteriyal kompliyans\nYukarıdaki faktörlerden hangilerinin artması nabız basıncını yükseltir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Nabız basıncı, sistolik kan basıncı ile diyastolik kan basıncı arasındaki farktır ($\\text{Nabız Basıncı} = \\text{Sistolik KB} - \\text{Diyastolik KB}$). Nabız basıncını belirleyen iki temel fizyolojik parametre sol ventrikül atım hacmi (stroke volume) ve arteriyel ağacın kompliyansıdır (esnekliğidir). Форmül olarak yaklaşık $\\text{Nabız Basıncı} \\approx \\frac{\\text{Atım Hacmi}}{\\text{Arteriyel Kompliyans}}$ şeklinde ifade edilir. Dolayısıyla yalnız ventrikül atım hacminin (II) artması nabız basıncını doğrudan yükseltir.\n**Öncüllerin Analizi:**\n- **I. Total periferik direnç:** Tek başına total periferik direncin artması aorttan perifere kan kaçışını yavaşlatarak özellikle diyastolik kan basıncını (ve ortalama arter basıncını) artırır; atım hacmi ve kompliyans sabitken nabız basıncını yükselten temel faktör değildir.\n- **II. Ventrikül atım hacmi:** Her sistolde aortaya fırlatılan kan hacmi (atım hacmi) arttığında, arteriyel sistemde sistol sırasında oluşan basınç artışı daha büyük olur ve nabız basıncı yükselir.\n- **III. Arteriyal kompliyans:** Nabız basıncı arteriyel kompliyans ile ters orantılıdır. Arteriyel kompliyansın artması (damarların daha kolay genişleyebilmesi) atım hacmini daha az basınç değişimiyle barındırmayı sağlar ve nabız basıncını düşürür (tersine yaşlılıkta arteriyoskleroz nedeniyle kompliyans azaldığında nabız basıncı artar).\n**Çeldiriciler:**\n- **A) Yalnız I:** Total periferik direnç artışı esas olarak diyastolik basıncı artırır, nabız basıncını yükseltmez.\n- **C) Yalnız III:** Arteriyel kompliyansın artması nabız basıncını yükseltmez, tam tersine azaltır.\n- **D) I ve II:** I. öncül nabız basıncını yükselten bir faktör olmadığı için yanlıştır.\n- **E) II ve III:** III. öncül nabız basıncını azalttığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki yapıların hangisinde pencereli (fenestralı) kapiller bulunmaz?",
+    "options": {
+      "A": "İnce bağırsak",
+      "B": "Hipofiz",
+      "C": "Sürrenal bez",
+      "D": "Böbrek",
+      "E": "Akciğer"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Akciğerlerde alveolleri çevreleyen kapillerler pencereli (fenestralı) değil, **kesintisiz (sürekli/devamlı)** kapiller tipindedir. Kan-hava bariyerinin bir parçasını oluşturan bu kapillerlerde endotel hücreleri birbirine sıkı bağlantılarla (zonula occludens) bağlanmıştır ve bazal lamina kesintisizdir; böylece alveol boşluğuna sıvı sızması önlenirken $O_2$ ve $CO_2$ gibi gazların difüzyonu sorunsuz gerçekleşir. (Kesintisiz kapillerler akciğer dışında kas dokusu, bağ dokusu, ekzokrin bezler ve merkezi sinir sisteminde de bulunur).\n**Çeldiriciler:**\n- **A) İnce bağırsak:** Mukozadaki intestinal villuslarda emilen besinlerin ve sıvının hızla kana geçebilmesi için diyaframlı pencereli (fenestralı) kapillerler bulunur.\n- **B) Hipofiz:** Endokrin bir bez olduğu için sentezlenen hormonların dolaşıma hızlı geçişini sağlayan pencereli (fenestralı) kapillerler içerir.\n- **C) Sürrenal bez:** Endokrin bez yapısında olduğundan hormon sekresyonuna uygun pencereli (fenestralı) ve sinüzoidal kapiller ağa sahiptir.\n- **D) Böbrek:** Peritübüler kapillerlerde diyaframlı fenestralı kapillerler, böbrek glomerüllerinde ise yüksek filtrasyon hızına uyum sağlamış **diyaframsız** pencereli (fenestralı) kapillerler bulunur.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Nodal kardiyak kas hücrelerinin özellikleriyle ilgili,\nI. Atriyal kardiyak kas hücrelerinden büyüktür.\nII. Diskus interkalarisler yok denecek kadar azdır.\nIII. Çok sayıda miyofibril içerirler.\nifadelerinden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Sinoatrial (SA) ve atrioventriküler (AV) düğümleri oluşturan nodal kardiyak kas hücreleri, kasılma işlevinden ziyade uyarı üretme (pacemaker) ve iletme işlevi için özelleşmişlerdir. Bu hücreler arasında mekanik kuvvet aktarımını sağlayan tipik basamaklı **diskus interkalaris** yapıları yok denecek kadar azdır veya gelişmemiştir; hücreler birbirine daha küçük desmozomlar ve gap junction'lar ile bağlanır.\n**Öncüllerin Analizi:**\n- **I. Atriyal kardiyak kas hücrelerinden büyüktür:** Yanlıştır. Nodal hücreler (SA ve AV düğüm hücreleri), hem atriyal hem de ventriküler çalışma miyokardı hücrelerinden boyut olarak daha küçüktür (Purkinje lifleri ise ventrikül miyositlerinden daha büyüktür).\n- **II. Diskus interkalarisler yok denecek kadar azdır:** Doğrudur. Nodal hücreler güçlü mekanik kasılma yapmadıkları için aralarında tipik diskus interkalaris organizasyonu görülmez.\n- **III. Çok sayıda miyofibril içerirler:** Yanlıştır. Nodal hücrelerin sitoplazmalarında kontraktil miyofibril miktarı oldukça azdır ve düzensiz yerleşimlidir.\n**Çeldiriciler:**\n- **A) Yalnız I:** Nodal hücreler atriyal miyositlerden daha küçüktür.\n- **C) Yalnız III:** Nodal hücreler miyofibril açısından fakirdir.\n- **D) I ve II:** I. öncül yanlış olduğu için elenir.\n- **E) I, II ve III:** I ve III. öncüller yanlış olduğu için elenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Deri\nII. Beyincik\nIII. İnce bağırsak\nYukarıdaki organların hangileri lenfatik kapiller içermez?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Merkezi sinir sistemi parankimi (beyin, beyincik ve omurilik), klasik anlamda endotelle döşeli gerçek lenfatik kapiller içermez (bunun yerine perivasküler glimfatik sistem ve meningeal dural lenfatikler işlev görür). Ayrıca epidermis, kornea, lens, kıkırdak, kemik iliği ve iç kulak gibi dokularda da lenfatik kapiller bulunmaz.\n**Öncüllerin Analizi:**\n- **I. Deri:** Epidermis avaskülerdir ancak derinin bağ dokusu tabakası olan **dermis** ve hipodermis çok zengin bir lenfatik kapiller ağı içerir. Dolayısıyla bir organ olarak deri lenfatik kapiller içerir.\n- **II. Beyincik:** Merkezi sinir sisteminin bir parçası olduğu için parankiminde lenfatik kapiller bulunmaz.\n- **III. İnce bağırsak:** Mukoza ve submukozada yoğun lenfatik kapillerler bulunur; özellikle her bir intestinal villusun merkezinde şilomikronların (yağların) emilimini sağlayan ve **lakteal** adı verilen merkezi lenfatik kapiller yer alır.\n**Çeldiriciler:**\n- **A) Yalnız I:** Deri (dermis tabakası) zengin lenfatik kapiller içerir.\n- **C) Yalnız III:** İnce bağırsak villuslarında lakteal adı verilen lenfatik kapillerler bulunur.\n- **D) I ve II:** I. öncüldeki deri lenfatik kapiller içerdiği için yanlıştır.\n- **E) II ve III:** III. öncüldeki ince bağırsak lenfatik kapiller içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sağlıklı bir erişkinde sistemik ve pulmoner arterlerin aşağıdaki parametrelerinden hangisi, her iki tür arter için eşit değere sahiptir?",
+    "options": {
+      "A": "Sistolik kan basıncı",
+      "B": "Diyastolik kan basıncı",
+      "C": "Ortalama kan basıncı",
+      "D": "Parsiyel karbon dioksit basıncı",
+      "E": "Kalp debisi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Sağlıklı bir erişkinde sistemik dolaşım (sol kalp -> aort) ile pulmoner dolaşım (sağ kalp -> pulmoner arter) birbirine **seri** olarak bağlanmıştır. İntrakardiyak bir şant olmadığı sürece, sağ ventrikülün dakikada pulmoner artere pompaladığı kan hacmi ile sol ventrikülün dakikada aortaya pompaladığı kan hacmi, yani **kalp debisi** (yaklaşık 5 L/dk) birbirine eşittir.\n**Çeldiriciler:**\n- **A) Sistolik kan basıncı:** Sistemik arterde (aort) sistolik basınç yaklaşık $120\\text{ mmHg}$ iken, pulmoner arterde yaklaşık $25\\text{ mmHg}$'dir.\n- **B) Diyastolik kan basıncı:** Sistemik arterde diyastolik basınç yaklaşık $80\\text{ mmHg}$ iken, pulmoner arterde yaklaşık $8\\text{ mmHg}$'dir.\n- **C) Ortalama kan basıncı:** Sistemik dolaşımda ortalama arteriyel basınç yaklaşık $93-100\\text{ mmHg}$ iken, düşük dirençli pulmoner dolaşımda ortalama pulmoner arter basıncı yaklaşık $15\\text{ mmHg}$'dir.\n- **D) Parsiyel karbon dioksit basıncı:** Sistemik arterler oksijenlenmiş kan taşıdığı için $P_{a}CO_2 \\approx 40\\text{ mmHg}$ iken, pulmoner arterler dokulardan dönen karışık venöz kanı taşıdığı için $P_{v}CO_2 \\approx 45-46\\text{ mmHg}$'dir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kapiller hidrostatik basıncın artması\nII. Plazma kolloid ozmotik basıncının azalması\nIII. İnterstisyel kolloid ozmotik basıncının artması\nIV. Kılcal damar geçirgenliğinin artması\nYukarıdaki faktörlerden hangileri, lenf damarları normal işleyen bir kişide lenf akımının artmasına neden olur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve IV",
+      "C": "II ve III",
+      "D": "I, II ve IV",
+      "E": "I, II, III ve IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Starling kuvvetleri dengesine göre kapiller lümeninden interstisyel aralığa net sıvı filtrasyonunu artıran ve interstisyel sıvı hacmini/basıncını yükselten her faktör, lenf damarları sağlam olan bir bireyde **lenf akımını artırır**. Net filtrasyon basıncı formülü: $P_{\\text{net}} = K_f \\times [(P_c - P_{if}) - (\\pi_p - \\pi_{if})]$ şeklindedir. Öncüllerde verilen dört durumun tamamı kapillerden dokuya sıvı çıkışını (filtrasyonu) artırdığı için lenf akımını hızlandırır.\n**Öncüllerin Analizi:**\n- **I. Kapiller hidrostatik basıncın ($P_c$) artması:** Suyun kapiller dışına itilmesini sağlayan temel kuvveti artırarak interstisyel sıvı oluşumunu ve lenf akımını artırır.\n- **II. Plazma kolloid ozmotik basıncının ($\\pi_p$) azalması:** Sıvıyı damar içinde tutan ve geri emilimi sağlayan onkotik gücü azaltır; net filtrasyon ve dolayısıyla lenf akımı artar.\n- **III. İnterstisyel kolloid ozmotik basıncının ($\\pi_{if}$) artması:** Doku aralığındaki proteinlerin suyu kapillerden dışarı çekme gücünü artırarak filtrasyonu ve lenf akımını yükseltir.\n- **IV. Kılcal damar geçirgenliğinin ($K_f$) artması:** Kapiller porlardan interstisyuma sıvı ve protein geçişini kolaylaştırır; hem filtrasyon katsayısını hem de $\\pi_{if}$'i artırarak lenf akımını belirgin şekilde artırır.\n**Çeldiriciler:**\n- **A) Yalnız I:** II, III ve IV. öncüller de net filtrasyonu ve lenf akımını artırdığı için eksiktir.\n- **B) I ve IV:** II ve III. öncüller de onkotik basınç dengesini filtrasyon lehine bozarak lenf akımını artırır.\n- **C) II ve III:** I ve IV. öncüller de hidrostatik basınç ve permeabilite üzerinden lenf akımını artırır.\n- **D) I, II ve IV:** III. öncül de dokuya sıvı çekerek lenf akımını artırdığı için eksiktir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Normal koşullarda, sağlıklı bir kişide sistemik dolaşımda sol ventrikülden sağ atriuma doğru kan akışı sırasında, kan basıncındaki düşüşün en belirgin olarak gerçekleştiği damarlar hangisidir?",
+    "options": {
+      "A": "Aorta ve büyük arterler",
+      "B": "Arteriyoller",
+      "C": "Kapillerler",
+      "D": "Venüller",
+      "E": "Venler"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Ohm yasasının hidrodinamik karşılığına ($\\Delta P = Q \\times R$) göre, bir damar segmentindeki basınç düşüşü ($\\Delta P$), o segmentin akım direnci ($R$) ile doğru orantılıdır. Sistemik dolaşımda en yüksek dirence sahip olan damarlar **arteriyoller** (rezistans damarları) olduğu için, kan basıncındaki en keskin ve en belirgin düşüş arteriyollerde gerçekleşir (ortalama basınç arteriyol girişinde yaklaşık $85-90\\text{ mmHg}$ iken, kapiller ucuna gelindiğinde $30-35\\text{ mmHg}$'ye düşer).\n**Çeldiriciler:**\n- **A) Aorta ve büyük arterler:** Geniş çaplı ve düşük dirençli damarlar olduklarından bu segmentte ortalama kan basıncı neredeyse hiç düşmez ($100\\text{ mmHg}$'den yaklaşık $90-95\\text{ mmHg}$'ye geriler).\n- **C) Kapillerler:** Tek bir kapillerin çapı çok küçük olsa da milyonlarca kapiller birbirine paralel bağlandığı için toplam dirençleri ve basınç düşüşü ($35\\text{ mmHg}$'den $15\\text{ mmHg}$'ye) arteriyollerdeki kadar büyük değildir.\n- **D) Venüller:** Düşük dirençli toplayıcı damarlardır; basınç sadece birkaç mmHg ($15\\text{ mmHg}$'den $10\\text{ mmHg}$'ye) düşer.\n- **E) Venler:** Geniş lümenli kapasitans damarlarıdır; basınç venüllerden sağ atriyuma kadar çok küçük bir farkla ($10\\text{ mmHg}$'den $0-2\\text{ mmHg}$'ye) azalır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Oksijen\nII. Hidrojen iyonu\nIII. Laktat\nYukarıdakilerden hangilerinin konsantrasyonunun yerel olarak artışı, o bölgedeki damar düz kaslarında gevşemeye (vazodilatasyona) yol açar?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dokularda metabolik aktivite arttığında yerel kan akımını artırmak (aktif hiperemi) amacıyla açığa çıkan metabolitler sistemik arteriyollerde doğrudan vazodilatasyon yapar. Bu vazodilatatör metabolitler arasında **hidrojen iyonu ($H^+$) artışı (pH düşüşü / asidoz)**, **laktat artışı**, karbondioksit ($CO_2$) artışı, adenozin artışı ve potasyum ($K^+$) iyonu artışı yer alır. Dolayısıyla II ve III. öncüllerin yerel artışı vazodilatasyona yol açar.\n**Öncüllerin Analizi:**\n- **I. Oksijen:** Sistemik dolaşımda yerel oksijen konsantrasyonunun **azalması (hipoksi)** vazodilatasyon yaparken, oksijen konsantrasyonunun **artışı** metabolik vazodilatatör uyarıyı ortadan kaldırarak damar düz kaslarında kasılmaya (**vazokonstriksiyona**) yol açar.\n- **II. Hidrojen iyonu:** Lokal $H^+$ konsantrasyonunun artması (asidoz), damar düz kas hücrelerinde voltaj kapılı kalsiyum kanallarını inhibe edip $K_{ATP}$ kanallarını açarak gevşemeye (vazodilatasyona) neden olur.\n- **III. Laktat:** Anaerobik glikoliz ve artmış metabolizma ürünü olan laktatın lokal artışı, doku kanlanmasını artırmak üzere arteriyol düz kaslarında vazodilatasyon oluşturur.\n**Çeldiriciler:**\n- **A) Yalnız I:** Sistemik dokularda lokal oksijen artışı vazodilatasyon değil vazokonstriksiyon yapar.\n- **B) Yalnız II:** Laktat artışı (III) da lokal vazodilatasyon yaptığı için eksiktir.\n- **C) Yalnız III:** Hidrojen iyonu artışı (II) da lokal vazodilatasyon yaptığı için eksiktir.\n- **D) I ve II:** I. öncül yanlış olduğu için elenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ekstrasellüler ödeme neden olan durumlardan biri değildir?",
+    "options": {
+      "A": "Kapiller hidrostatik basıncın artması",
+      "B": "Kapiller geçirgenliğin artması",
+      "C": "Plazma onkotik basıncının artması",
+      "D": "Venöz pompanın yetersizliği",
+      "E": "Arteriyoler direncin azalması"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** İlgili sınavın resmi anahtarında doğru cevap **E (Arteriyoler direncin azalması)** olarak kabul edilmiş ve ekstrasellüler ödemin dört klasik temel mekanizması (kapiller hidrostatik basınç artışı, plazma onkotik basınç azalması, kapiller geçirgenlik artışı ve lenfatik drenaj bozukluğu) dışında bırakılmıştır. *(Not: Fizyolojik açıdan bakıldığında arteriyoler direncin azalması yani arteriyoler vazodilatasyon kapiller yatağa daha fazla basınç yansıtarak kapiller hidrostatik basıncı artırabilir; buna karşılık C şıkkındaki **plazma onkotik basıncının artması** sıvıyı damar içine çekerek ödemi önleyen bir durumdur ve ödem oluşması için plazma onkotik basıncının azalması gerekir).*\n**Çeldiriciler:**\n- **A) Kapiller hidrostatik basıncın artması:** Kalp yetmezliği, böbrek yetmezliği veya venöz obstrüksiyon gibi durumlarda kapiller hidrostatik basınç artarak interstisyel aralığa sıvı filtrasyonunu artırır ve ekstrasellüler ödeme neden olur.\n- **B) Kapiller geçirgenliğin artması:** İnflamasyon, sepsis, yanık, histamin ve bradikinin salınımı gibi durumlarda kapiller endotel bütünlüğü bozulur; sıvı ve proteinler interstisyuma sızarak ödeme yol açar.\n- **C) Plazma onkotik basıncının artması:** Plazma proteinlerinin (özellikle albüminin) nefrotik sendrom, karaciğer sirozu veya malnütrisyon nedeniyle **azalması** onkotik basıncı düşürerek ödeme yol açar; plazma onkotik basıncının artması ise sıvıyı intravasküler alanda tutar.\n- **D) Venöz pompanın yetersizliği:** İskelet kası pompasının çalışmaması (uzun süre hareketsiz ayakta durma, paralizi) veya venöz kapak yetmezliği alt ekstremite venlerinde kanın göllenmesine, venöz ve kapiller hidrostatik basıncın artmasına ve ödeme neden olur.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin artması kan basıncını düşürür?",
+    "options": {
+      "A": "Anjiyotensin II",
+      "B": "Endotelin I",
+      "C": "Aldosteron",
+      "D": "Atrial natriüretik peptit",
+      "E": "Antidiüretik hormon"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Atriyal natriüretik peptit (ANP), hipervolemi ve atriyal gerilme yanıtı olarak atriyum miyositlerinden salgılanan ve kan basıncını düşüren bir hormondur. ANP; guanilat siklaz / cGMP yolağı üzerinden damar düz kaslarında doğrudan vazodilatasyon yapar (periferik direnci düşürür), glomerüler filtrasyon hızını artırıp toplayıcı kanallardan sodyum ve su geri emilimini inhibe ederek natriürez ve diürez sağlar (kan hacmini azaltır) ve ayrıca renin, aldosteron ve ADH salınımını baskılar.\n**Çeldiriciler:**\n- **A) Anjiyotensin II:** $AT_1$ reseptörleri üzerinden güçlü arteriyoler vazokonstriksiyon yaparak periferik direnci artırır, ayrıca proksimal tübülden tuz/su emilimini ve aldosteron/ADH salınımını uyararak kan basıncını yükseltir.\n- **B) Endotelin I:** Endotel kaynaklı en güçlü vazokonstriktör peptiddir; toplam periferik direnci artırarak kan basıncını yükseltir.\n- **C) Aldosteron:** Böbrek distal tübül ve toplayıcı kanallarında esas hücrelerden $Na^+$ ve su geri emilimini artırarak ekstrasellüler sıvı ve kan hacmini genişletir, kan basıncını yükseltir.\n- **E) Antidiüretik hormon (ADH / Vazopressin):** Böbreklerde $V_2$ reseptörleri ile su tutulumunu artırarak kan hacmini korur, yüksek konsantrasyonlarda ise damar düz kasındaki $V_1$ reseptörleri üzerinden vazokonstriksiyon yaparak kan basıncını artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kapiller hidrostatik basınçta azalma\nII. Glomerüler filtrasyon hızında azalma\nIII. Miyokart kasılma sayısında azalma\nHipovolemik şokun erken evresindeki bir hastada, yukarıdaki fizyolojik olaylardan hangilerinin gerçekleşmesi beklenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Hipovolemik şokun erken (kompanse) evresinde azalan kan hacmi ve düşen arteriyel basınç baroreseptör refleksini tetikler, güçlü bir sempatik deşarj oluşur. Hem kan hacminin azalması hem de sempatik prekapiller arteriyoler vazokonstriksiyon sonucunda **kapiller hidrostatik basınç azalır (I)** (böylece interstisyel sıvı damar içine çekilir / oto-transfüzyon). Aynı zamanda renal afferent ve efferent arteriyollerdeki sempatik vazokonstriksiyon ve düşen renal perfüzyon basıncı nedeniyle **glomerüler filtrasyon hızı (GFH) azalır (II)**.\n**Öncüllerin Analizi:**\n- **I. Kapiller hidrostatik basınçta azalma:** Doğrudur. Hipovolemi ve refleks sempatik arteriyoler vazokonstriksiyon kapiller yatağa geçen kan akımını ve kapiller hidrostatik basıncı düşürür.\n- **II. Glomerüler filtrasyon hızında azalma:** Doğrudur. Düşük kan hacmi ve böbrek damarlarındaki güçlü sempatik vazokonstriksiyon renal kan akımını ve glomerüler filtrasyon hızını azaltarak idrar çıkışını (oligüri) sınırlar.\n- **III. Miyokart kasılma sayısında azalma:** Yanlıştır. Hipovolemik şokun erken evresinde baroreseptör refleksi ile sempatik aktivite artar ve vagal tonus baskılanır; bu nedenle kalp atım hızı (miyokart kasılma sayısı) azalmaz, tam tersine belirgin şekilde **artar (taşikardi)**.\n**Çeldiriciler:**\n- **A) Yalnız I:** II. öncül (GFH azalması) de gerçekleştiği için eksiktir.\n- **B) Yalnız II:** I. öncül (kapiller hidrostatik basınç azalması) da gerçekleştiği için eksiktir.\n- **C) Yalnız III:** Hipovolemik şokta bradikardi değil refleks taşikardi görülür.\n- **E) II ve III:** III. öncül yanlış olduğu için elenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kalp kaslarında diskus interkalarisin sadece longitudinal (lateral) kısmında bulunur?",
+    "options": {
+      "A": "Desmozom",
+      "B": "Gap junction",
+      "C": "Fascia adherens",
+      "D": "Zonula occludens",
+      "E": "Zonula adherens"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kardiyomiyositleri birbirine bağlayan basamak şeklindeki **diskus interkalaris** (interkale disk) yapıları, miyofibrillere dik uzanan **transvers (enine)** kısım ve miyofibrillere paralel uzanan **longitudinal (boyuna/lateral)** kısım olmak üzere iki bölümden oluşur. İyonların ($\\text{Na}^+, \\text{K}^+, \\text{Ca}^{2+}$) hücreden hücreye doğrudan geçişini sağlayarak kalp kasının fonksiyonel bir sinsityum gibi çalışmasını sağlayan **gap junction (neksus)** bağlantıları, kasılma sırasında mekanik gerilmeye maruz kalmamak için diskus interkalarisin **sadece longitudinal (lateral)** kısmında yoğunlaşmıştır.\n**Çeldiriciler:**\n- **A) Desmozom (Makula adherens):** Hücreleri birbirine kenetleyerek kasılma sırasında ayrılmalarını önleyen ve ara filamanlara (desmin) tutunan mekanik bağlantılardır; başlıca transvers kısımda (ve kısmen her iki kısımda) bulunur, sadece longitudinal kısma özgü değildir.\n- **C) Fascia adherens:** Diskus interkalarisin **transvers (enine)** kısmında yer alan en temel yapıdır; sarkomerlerin Z çizgisi yerine geçerek ince (aktin) filamanların hücre membranına tutunmasını sağlar ve kasılma kuvvetini iletir.\n- **D) Zonula occludens:** Epitel ve endotel hücrelerinde parasellüler geçişi kapatan sıkı bağlantı (tight junction) yapısıdır; diskus interkalarisin tipik bir bileşeni değildir.\n- **E) Zonula adherens:** Epitel dokularında hücreyi kuşak gibi saran tutunma bağlantısıdır; kalp kasındaki karşılığı şerit/yama tarzındaki fascia adherens olup transvers kısımda yer alır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İstirahat hâlindeki aç bir insanda kalp kasının kullandığı temel enerji kaynağı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Yağ asitleri",
+      "B": "Glukoz",
+      "C": "Laktat",
+      "D": "Kreatin fosfat",
+      "E": "Amino asitler"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Kalp kası tamamen aerobik (oksidatif) metabolizma ile çalışan ve mitokondriden çok zengin bir dokudur. İstirahat hâlindeki ve özellikle açlık durumundaki bir insanda (insülin düzeyi düşük, lipoliz aktif iken), kalp kası ihtiyaç duyduğu ATP enerjisinin büyük çoğunluğunu (**yaklaşık %60-70'ini**) **serbest yağ asitlerinin** $\\beta$-oksidasyonundan karşılar.\n**Çeldiriciler:**\n- **B) Glukoz:** Tokluk durumunda (yüksek karbonhidratlı yemek sonrası insülin arttığında) ve şiddetli hipoksi/iskemi hallerinde kalbin glukoz kullanımı artsa da, istirahat ve açlıkta temel enerji kaynağı yağ asitleridir.\n- **C) Laktat:** Ağır egzersiz sırasında iskelet kaslarından kana bol miktarda laktat salındığında kalp kası laktatı piruvata çevirerek önemli bir enerji kaynağı olarak kullanır; ancak istirahat ve açlıkta ana yakıt değildir.\n- **D) Kreatin fosfat:** Hücre içinde yüksek enerjili fosfat bağını geçici olarak depolayan ve ATP'yi anlık yenileyen bir enerji tamponudur; dışarıdan alınıp oksidasyona sokulan birincil metabolik yakıt substratı değildir.\n- **E) Amino asitler:** Kalp kasının enerji üretiminde amino asitlerin ve keton cisimlerinin payı oldukça düşüktür.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Toplam periferik direnç\nII. Diyastol sonu ventrikül hacmi\nIII. Arteriovenöz oksijen konsantrasyonu farkı\nOrta şiddette yürüyüş egzersizi yapan sağlıklı bir kişide 1 saat sonunda, yukarıdaki kardiyovasküler değişkenlerin hangilerinde dinlenmeye göre azalma görülür?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Orta şiddetteki dinamik (aerobik) bir egzersiz sırasında (örneğin tempolu yürüyüş), çalışan geniş iskelet kası gruplarında biriken lokal metabolitlerin ($\\text{CO}_2, \\text{H}^+, \\text{K}^+$, adenozin, laktat) etkisiyle çok güçlü bir metabolik **vazodilatasyon** meydana gelir. İç organlarda sempatik vazokonstriksiyon olsa bile, iskelet kaslarındaki bu yaygın vazodilatasyon baskın gelir ve sistemik dolaşımda **toplam periferik direnç (I) dinlenmeye göre belirgin şekilde azalır**.\n**Öncüllerin Analizi:**\n- **I. Toplam periferik direnç:** Doğrudur. Aktif iskelet kaslarındaki arteriyoler vazodilatasyon nedeniyle toplam periferik direnç azalır.\n- **II. Diyastol sonu ventrikül hacmi (EDV):** Yanlıştır. Orta şiddette egzersizde iskelet kası pompası, solunum pompası ve sempatik venokonstriksiyon sayesinde kalbe venöz dönüş artar; bu durum ventrikül diyastol sonu hacmini artırır (veya en azından azaltmaz).\n- **III. Arteriovenöz oksijen konsantrasyonu farkı ($a-v\\text{ }O_2$ farkı):** Yanlıştır. Egzersiz yapan kaslar kandan çok daha fazla oksijen çeker ve venöz kandaki oksijen içeriği düşer; bu nedenle arteriovenöz oksijen farkı azalmaz, 2-3 kat **artar**.\n**Çeldiriciler:**\n- **B) Yalnız III:** Arteriovenöz oksijen farkı egzersizde azalmaz, dokuların $O_2$ kullanımı arttığı için yükselir.\n- **C) I ve II:** Diyastol sonu hacim (II) venöz dönüş artışına bağlı olarak arttığı için yanlıştır.\n- **D) I ve III:** III. öncül arttığı için yanlıştır.\n- **E) II ve III:** Her iki öncül de egzersizde azalmadığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücreler arası bağlantı birimlerinden hangisi diskus interkalaris'in yapısında bulunur?",
+    "options": {
+      "A": "Zonula occludens",
+      "B": "Zonula adherens",
+      "C": "Fascia adherens",
+      "D": "Hemidesmozom",
+      "E": "İnterdigitasyon"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kalp kası hücrelerini (kardiyomiyositleri) uç uca bağlayan **diskus interkalaris** yapısında üç temel bağlantı birimi yer alır: **Fascia adherens** (transvers kısımda bulunur, sarkomerlerin aktin filamanlarının tutunma yeridir), **desmozom / makula adherens** (ara filamanları bağlayarak hücrelerin ayrılmasını önler) ve **gap junction / neksus** (longitudinal kısımda bulunur, elektriksel iletiyi sağlar). Dolayısıyla şıklarda yer alan **fascia adherens** diskus interkalarisin karakteristik bileşenidir.\n**Çeldiriciler:**\n- **A) Zonula occludens:** Epitel hücrelerinin apikal kısımlarını çepeçevre sararak hücreler arası boşluğu kapatan sıkı bağlantı (tight junction) birimi olup diskus interkalariste bulunmaz.\n- **B) Zonula adherens:** Epitel hücrelerinde apikal-lateral yüzeyi kuşak (kemer) şeklinde tam tur saran aktin bağlantılı tutunma birimidir; kalp kasında kuşak şeklinde değil, şerit/yama şeklinde olan **fascia adherens** bulunur.\n- **D) Hemidesmozom:** Epitel hücrelerinin bazal yüzeyini altındaki bazal laminaya bağlayan (integrin aracılı) yapıdır; iki kalp kası hücresi arasındaki diskus interkalariste yer almaz.\n- **E) İnterdigitasyon:** Komşu epitel hücrelerinin yan zarlarının birbirine parmak gibi girinti-çıkıntı yapmasıdır; özelleşmiş bir diskus interkalaris bağlantı kompleksi değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sağlıklı ancak düzenli ve sık aralıklarla egzersiz yapmayan bir insan için, şiddeti giderek artan bir egzersizde maksimal oksijen tüketimini ($VO_2max$) belirleyen temel faktör aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Akciğer vital kapasitesi",
+      "B": "Kaslardaki miyoglobin miktarı",
+      "C": "Kasların mitokondri içeriği",
+      "D": "Kandaki hemoglobin miktarı",
+      "E": "Kalbin debisi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Fick prensibine göre dokuların maksimal oksijen tüketimi: $VO_2max = \\text{Maksimal Kalp Debisi} \\times \\text{Maksimal }(a - v)O_2\\text{ farkı}$ denklemiyle ifade edilir. Sağlıklı bir bireyde şiddetli egzersiz sırasında bile akciğerlerin difüzyon ve ventilasyon kapasitesi arteriyel kanı tam olarak oksijenlendirmeye yeterlidir; bu nedenle egzersiz performansını ve $VO_2max$'ı sınırlayan en temel basamak dokulara oksijenin pompalanma hızı, yani **maksimal kalp debisidir (kardiyak output)**.\n**Çeldiriciler:**\n- **A) Akciğer vital kapasitesi:** Sağlıklı bireylerde maksimal egzersizde dahi pulmoner ventilasyon rezervi tükenmez ve arteriyel $P_aO_2$ düşmez; akciğer kapasitesi normal şartlarda $VO_2max$'ı kısıtlayan temel faktör değildir.\n- **B) Kaslardaki miyoglobin miktarı:** Kas içi oksijen taşınmasına ve depolanmasına yardımcı olur, dayanıklılık antrenmanlarıyla artar ancak antrenmansız sağlıklı bireyde $VO_2max$'ın ana belirleyicisi kalp debisidir.\n- **C) Kasların mitokondri içeriği:** Kasların aerobik kapasitesini ve laktat eşiğini etkileyen periferik bir faktördür; ancak santral oksijen sunumu (kalp debisi) birincil sınırlayıcı faktördür.\n- **D) Kandaki hemoglobin miktarı:** Kanın oksijen taşıma kapasitesini belirler; patolojik anemi veya doping durumlarında $VO_2max$'ı değiştirse de, normal fizyolojik koşullarda egzersiz sırasında dinamik olarak tavan yapan ve hız kısıtlayıcı olan temel faktör kalp debisidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kalp debisi: 5250 mL/dakika\nKalp hızı: 75 atım/dakika\nDiyastol sonu hacim: 145 mL\nYukarıda verilen bilgilere göre bu kişinin sistol sonu hacmi kaç mL'dir?",
+    "options": {
+      "A": "60",
+      "B": "65",
+      "C": "70",
+      "D": "75",
+      "E": "80"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Sorunun çözümü iki temel kardiyovasküler formüle dayanır:\n1. $\\text{Kalp Debisi} = \\text{Kalp Hızı} \\times \\text{Atım Hacmi (Stroke Volume)}$\nBuradan atım hacmi hesaplanır: $\\text{Atım Hacmi} = \\frac{5250\\text{ mL/dk}}{75\\text{ atım/dk}} = 70\\text{ mL/atım}$.\n2. $\\text{Atım Hacmi} = \\text{Diyastol Sonu Hacim (EDV)} - \\text{Sistol Sonu Hacim (ESV)}$\nVerilen değerler yerine konulduğunda: $70\\text{ mL} = 145\\text{ mL} - \\text{Sistol Sonu Hacim} \\Rightarrow \\text{Sistol Sonu Hacim} = 145 - 70 = 75\\text{ mL}$ olarak bulunur.\n**Çeldiriciler:**\n- **A) 60:** Atım hacminin hatalı olarak $85\\text{ mL}$ hesaplanması durumunda elde edilen yanlış değerdir.\n- **B) 65:** Atım hacminin hatalı olarak $80\\text{ mL}$ alınmasıyla ($145 - 80 = 65$) bulunan yanlış değerdir.\n- **C) 70:** Sistol sonu hacmi değil, yapılan ilk işlem sonucunda bulunan **atım hacmi (stroke volume)** değeridir ($5250 / 75 = 70\\text{ mL}$); en güçlü çeldiricidir.\n- **E) 80:** Atım hacminin hatalı olarak $65\\text{ mL}$ alınmasıyla ($145 - 65 = 80$) bulunan yanlış değerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi renin salgısını artıran durumlardan biri değildir?",
+    "options": {
+      "A": "Dolaşımda katekolaminlerin artışı",
+      "B": "Kalp yetmezliği",
+      "C": "Hemoraji",
+      "D": "Vazopressin artışı",
+      "E": "Siroz"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Böbrekte afferent arteriyol duvarındaki jukstaglomerüler (JG) hücrelerden renin salgılanması; renal perfüzyon basıncının düşmesi, makula densaya ulaşan $\\text{NaCl}$ miktarının azalması ve sempatik $\\beta_1$-adrenerjik uyarı ile artırılır. **Vazopressin (ADH) artışı** ise renin salgısını artırmaz; tam tersine hem JG hücreleri üzerindeki doğrudan etkisiyle (hücre içi kalsiyum artışı JG hücrelerinde renin salınımını inhibe eder) hem de su tutulumu ve kan basıncını yükseltici etkisiyle renin salınımını **baskılar (azaltır)**. (Benzer şekilde Anjiyotensin II ve ANP de renin salınımını inhibe eder).\n**Çeldiriciler:**\n- **A) Dolaşımda katekolaminlerin artışı:** Adrenalin ve noradrenalin, jukstaglomerüler hücreler üzerindeki **$\\beta_1$-adrenerjik** reseptörleri ($G_s$-cAMP yolağı ile) uyararak renin salgısını doğrudan artırır.\n- **B) Kalp yetmezliği:** Kalp debisinin düşmesine bağlı olarak efektif arteriyel kan hacmi ve renal perfüzyon basıncı azalır, sempatik sistem aktive olur ve renin salgısı belirgin şekilde artar.\n- **C) Hemoraji:** Kan kaybı hipovolemi ve hipotansiyona yol açarak hem intrarenal baroreseptörleri, hem makula densayı hem de renal sempatik sinirleri uyarır ve renin salgısını artırır.\n- **E) Siroz:** Hipoalbüminemi nedeniyle sıvının periton boşluğuna (asit) ve interstisyuma kaçması sonucunda intravasküler efektif arteriyel hacim ve böbrek perfüzyonu düşer; bu durum sekonder hiperaldosteronizm ile birlikte renin salgısını artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Antidiüretik hormon hangi reseptör ve ikincil haberci üzerinden damar düz kaslarında kasılmaya neden olur?",
+    "options": {
+      "A": "V1B reseptörü – Siklik adenozin monofosfat",
+      "B": "V1A reseptörü – İnozitol trifosfat, kalsiyum",
+      "C": "V2 reseptörü – Diaçilgliserol",
+      "D": "V2 reseptörü – Siklik adenozin monofosfat",
+      "E": "V1B reseptörü – İnozitol trifosfat, kalsiyum"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Antidiüretik hormon (ADH / Arginin vazopressin), damar düz kas hücrelerinin membranında bulunan **$V_{1A}$ ($V_1$) reseptörlerine** bağlanarak vazokonstriksiyon (kasılma) oluşturur. $V_{1A}$ reseptörü **$G_q$** proteini ile kenetlidir; aktivasyonu sonucunda fosfolipaz C (PLC) enzimi uyarılır, membran fosfolipidlerinden ($PIP_2$) **inozitol trifosfat ($IP_3$)** ve diaçilgliserol (DAG) sentezlenir. $IP_3$, sarkoplazmik retikulumdan sitoplazmaya **kalsiyum ($Ca^{2+}$)** salınımını tetikleyerek damar düz kasının kasılmasını sağlar.\n**Çeldiriciler:**\n- **A) V1B reseptörü – Siklik adenozin monofosfat:** $V_{1B}$ ($V_3$) reseptörü damar düz kasında değil ön hipofizde bulunur ve cAMP değil $IP_3/Ca^{2+}$ yolağını kullanır.\n- **C) V2 reseptörü – Diaçilgliserol:** $V_2$ reseptörü damar düz kasında kasılma yapmaz; böbrek toplayıcı kanallarında bulunur ve $G_s$-cAMP yolağı üzerinden etki gösterir.\n- **D) V2 reseptörü – Siklik adenozin monofosfat:** Bu eşleştirme ADH'nin böbrek toplayıcı kanallarındaki esas hücrelerde akuaporin-2 (AQP2) kanallarını apikal membrana yerleştirerek **su geri emilimini** sağladığı mekanizmadır; damar düz kası kasılmasından sorumlu değildir.\n- **E) V1B reseptörü – İnozitol trifosfat, kalsiyum:** $V_{1B}$ ($V_3$) reseptörü $G_q - IP_3/Ca^{2+}$ yolağını kullansa da damar düz kasında değil, ön hipofizdeki kortikotrop hücrelerde yer alır ve CRH'nin etkisini güçlendirerek ACTH salınımını uyarır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, atrial kalp kası hücresini iskelet kası hücresinden ayıran bir özelliktir?",
+    "options": {
+      "A": "Sarkoplazmik retikuluma sahip olması",
+      "B": "Mitokondriden zengin olması",
+      "C": "Salgı granülleri içermesi",
+      "D": "Glikojen granülleri içermesi",
+      "E": "T tübülüsüne sahip olması"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Atriyal kalp kası hücreleri (özellikle sağ atriyum miyositleri), kasılma işlevlerinin yanı sıra endokrin bir hücre gibi davranarak çekirdeklerinin etrafında (Golgi kompleksi komşuluğunda) yoğun zarla çevrili **sekretuvar salgı granülleri (atriyal granüller)** içerirler. Bu granüllerde kan hacmi ve basıncını düşüren polipeptid yapılı bir hormon olan **atriyal natriüretik peptit (ANP)** depolanır ve atriyum gerildiğinde ekzositozla kana salgılanır. İskelet kası hücrelerinde bu şekilde endokrin salgı granülleri bulunmaz.\n**Çeldiriciler:**\n- **A) Sarkoplazmik retikuluma sahip olması:** Hem atriyal kalp kası hücreleri hem de iskelet kası hücreleri hücre içi kalsiyum depolayan sarkoplazmik retikuluma sahiptir (hatta iskelet kasında çok daha iyi gelişmiştir).\n- **B) Mitokondriden zengin olması:** Kalp kası hücreleri gibi kırmızı (Tip I, yavaş oksidatif) iskelet kası lifleri de mitokondriden oldukça zengindir; bu özellik tek başına ayırt edici değildir.\n- **D) Glikojen granülleri içermesi:** Hem kalp kası hücrelerinin hem de iskelet kası hücrelerinin sarkoplazmasında enerji deposu olarak glikojen granülleri (glikozomlar) bulunur.\n- **E) T tübülüsüne sahip olması:** İskelet kası hücrelerinde A-I bandı sınırında çok gelişmiş T tübülleri (triad yapısı) bulunurken, kalp kasında Z çizgisi hizasında T tübülleri (diad yapısı) bulunur; hatta atriyal miyositlerde T tübül sistemi ventrikül ve iskelet kasına göre daha az gelişmiştir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ventrikül kasında beta adrenerjik reseptör aktivasyonu aşağıdakilerin hangisinde artışa neden olmaz?",
+    "options": {
+      "A": "Hücre içi cAMP düzeyi",
+      "B": "Sarkoplazmik retikulumdan $Ca^{2+}$ serbestleşmesi",
+      "C": "Kontraksiyon süresi",
+      "D": "İnotropi",
+      "E": "Gevşeme hızı"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Ventrikül miyokardında sempatik uyarıyla **$\\beta_1$-adrenerjik reseptörlerin** aktivasyonu, kalbin hem daha güçlü kasılmasını (pozitif inotropi) hem de **daha hızlı kasılıp daha hızlı gevşemesini** (pozitif lusitropi) sağlar. Bunun nedeni, protein kinaz A'nın (PKA) fosfolambanı fosforilleyerek SERCA pompasını hızlandırması ve troponin I'yı fosforilleyerek kalsiyumun troponin C'den daha hızlı ayrılmasını sağlamasıdır. Sonuç olarak tek bir sarsı kasılmasının **kontraksiyon süresi artmaz (uzamaz), tam tersine kısalır**; böylece yüksek kalp hızlarında diyastolik doluş için yeterli zaman kalır.\n**Çeldiriciler:**\n- **A) Hücre içi cAMP düzeyi:** $\\beta_1$-adrenerjik reseptör $G_s$ proteini ile kenetlidir; adenilat siklazı aktive ederek hücre içi ATP'den cAMP sentezini artırır.\n- **B) Sarkoplazmik retikulumdan $Ca^{2+}$ serbestleşmesi:** cAMP ile aktifleşen PKA, hem hücre zarındaki L-tipi $Ca^{2+}$ kanallarını hem de sarkoplazmik retikulumdaki riyanodin reseptörlerini (RyR2) fosforilleyerek sistolde SR'den sitoplazmaya salınan $Ca^{2+}$ miktarını artırır.\n- **D) İnotropi:** Hücre içine giren ve SR'den serbestleşen $Ca^{2+}$ miktarının artması aktin-miyozin çapraz köprü oluşumunu güçlendirerek kalbin kasılma gücünü (inotropiyi) artırır.\n- **E) Gevşeme hızı:** PKA aracılığıyla fosfolambanın fosforillenmesi, onun SERCA2a pompası üzerindeki inhibisyonunu kaldırır; kalsiyum hızla SR içine geri pompalanır ve miyokardın gevşeme hızı (lusitropi) artar.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kalp kası kontraktilitesi değerlendirilirken kullanılan \"ön yük (preload)\" teriminin kalp döngüsünde ilişkili olduğu durum hangisidir?",
+    "options": {
+      "A": "Atım hacmi",
+      "B": "Sistolik aort basıncı",
+      "C": "Diyastolik aort basıncı",
+      "D": "Ventrikül sistol sonu hacmi",
+      "E": "Ventrikül diyastol sonu hacmi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** **Ön yük (preload)**, ventrikül kası kasılmaya başlamadan (sistol öncesi) hemen önce miyokard liflerinin maruz kaldığı gerilme derecesini (sarkomerlerin başlangıç uzunluğunu) ifade eder. Frank-Starling yasasının temelini oluşturan bu kavram, kalp döngüsünde doluşun tamamlandığı andaki **ventrikül diyastol sonu hacmi (EDV)** veya diyastol sonu basıncı ile doğrudan ilişkilidir ve klinik/fizyolojik pratikte ventrikül diyastol sonu hacmi ile temsil edilir.\n**Çeldiriciler:**\n- **A) Atım hacmi:** Ön yükün kendisi değil, ön yük, art yük ve kontraktilitenin etkileşimi sonucunda bir sistolde ventrikülden fırlatılan kan miktarıdır (çıktıdır).\n- **B) Sistolik aort basıncı:** Sol ventrikülün kanı fırlatırken yenmek zorunda olduğu dirençle, yani ön yükle değil **art yük (afterload)** ile ilişkilidir.\n- **C) Diyastolik aort basıncı:** Aort kapağının açılması için sol ventrikülün aşması gereken basıncı belirlediği için sol ventrikülün **art yükünün (afterload)** önemli bir göstergesidir.\n- **D) Ventrikül sistol sonu hacmi:** Ejeksiyon tamamlandıktan sonra ventrikülde kalan kan hacmidir; kasılma öncesi ön yükü değil, kontraktilite ve art yük sonrası kalan hacmi yansıtır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kalp ritminin atrioventriküler düğüm veya Purkinje liflerinden daha çok sinoatrial düğümdeki hücrelerin oluşturduğu aksiyon potansiyelleri (AP) ile kontrol edilmesinin temel nedeni aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sinoatrial düğüm kaynaklı AP voltaj değeri, diğer düğümlere göre daha yüksektir.",
+      "B": "Sinoatrial düğümün AP iletme hızı, diğer düğümlere göre daha yüksektir.",
+      "C": "Sinoatrial düğüm kaynaklı AP frekansı, diğer düğümlere göre daha yüksektir.",
+      "D": "Sinoatrial düğümde AP üreten hücreler, diğer düğümlere göre sayıca daha fazladır.",
+      "E": "Sinoatrial düğümde AP ileten yolların sayısı, diğer düğümlere göre daha fazladır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kalpte spontan aksiyon potansiyeli üretebilen (otomatisite özelliğine sahip) birden fazla odak vardır: Sinoatrial (SA) düğüm dakikada **60–100**, atrioventriküler (AV) düğüm dakikada **40–60**, His-Purkinje sistemi ise dakikada **15–40** aksiyon potansiyeli üretir. SA düğüm hücrelerinde Faz 4 spontan diyastolik depolarizasyon eğimi en dik olduğu için **aksiyon potansiyeli üretme frekansı diğer odaklara göre daha yüksektir**. SA düğümünden çıkan uyarılar, AV düğüm ve Purkinje liflerine onlar kendi eşik potansiyellerine ulaşmadan önce varır ve onları uyararak sıfırlar (\"overdrive suppression\" / aşırı sürüş baskılaması); böylece kalbin normal pacemaker'ı SA düğümü olur.\n**Çeldiriciler:**\n- **A) Sinoatrial düğüm kaynaklı AP voltaj değeri, diğer düğümlere göre daha yüksektir:** Yanlıştır; SA düğüm yavaş yanıtlı aksiyon potansiyeli üretir ve genliği (voltaj değeri) hızlı yanıtlı Purkinje liflerinin aksiyon potansiyeli genliğinden daha düşüktür.\n- **B) Sinoatrial düğümün AP iletme hızı, diğer düğümlere göre daha yüksektir:** Yanlıştır; SA ve AV düğümde iletim hızı çok yavaştır ($0.05\\text{ m/sn}$), en hızlı iletim Purkinje liflerindedir ($1.5-4\\text{ m/sn}$).\n- **D) Sinoatrial düğümde AP üreten hücreler, diğer düğümlere göre sayıca daha fazladır:** Kalp ritmini belirleyen faktör hücre sayısı değil, Faz 4 depolarizasyon hızı ve ateşleme frekansıdır (Purkinje ağı çok daha geniş bir alana yayılmıştır).\n- **E) Sinoatrial düğümde AP ileten yolların sayısı, diğer düğümlere göre daha fazladır:** İleti yollarının sayısı pacemaker üstünlüğünü belirleyen fizyolojik mekanizma değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kan basıncını etkileyecek şiddette akut kan kaybı olan bir kişide aşağıdakilerden hangisinin görülmesi beklenmez?",
+    "options": {
+      "A": "Kanda aldosteron düzeyi yükselmiştir.",
+      "B": "Glomerüler filtrasyon hızı azalmıştır.",
+      "C": "Kanda atrial natriüretik peptid düzeyi yükselmiştir.",
+      "D": "Hücre dışı sıvı hacmi azalmıştır.",
+      "E": "Vazopressin salgılanması artmıştır."
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Atriyal natriüretik peptid (ANP), kan hacminin arttığı (hipervolemi) ve atriyum duvarlarının gerildiği durumlarda salgılanarak böbreklerden tuz ve su atılımını artıran bir hormondur. Akut şiddetli kan kaybında (hemoraji) ise venöz dönüş, sağ ve sol atriyum doluş basınçları ve atriyal gerilim **azalır**; bu nedenle kanda ANP düzeyinin yükselmesi beklenmez, tam tersine ANP salınımı **baskılanır (azalır)**.\n**Çeldiriciler:**\n- **A) Kanda aldosteron düzeyi yükselmiştir:** Kan kaybına bağlı renal perfüzyon düşüşü ve sempatik aktivasyon renin-anjiyotensin-aldosteron sistemini (RAAS) uyarır; yükselen aldosteron böbreklerden $Na^+$ ve su tutulumunu artırarak hacmi korumaya çalışır.\n- **B) Glomerüler filtrasyon hızı azalmıştır:** Hipotansiyon ve renal arteriyollerdeki güçlü sempatik/anjiyotensin II aracılı vazokonstriksiyon nedeniyle böbrek kan akımı ve glomerüler filtrasyon hızı (GFH) azalır.\n- **D) Hücre dışı sıvı hacmi azalmıştır:** Kan plazması hücre dışı sıvı (ekstrasellüler sıvı) kompartmanının bir parçasıdır; akut kan kaybı doğrudan damar içi (plazma) hacmini ve dolayısıyla toplam hücre dışı sıvı hacmini azaltır.\n- **E) Vazopressin salgılanması artmıştır:** Hipovolemi ve hipotansiyon, hem atriyal hacim reseptörleri hem de arteriyel baroreseptörler aracılığıyla hipotalamusu uyararak arka hipofizden vazopressin (ADH) salgılanmasını güçlü şekilde artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kalbin ileti sisteminde uyarı iletiminin en yavaş olduğu yer neresidir?",
+    "options": {
+      "A": "İnternodal yol",
+      "B": "Atrioventriküler düğüm",
+      "C": "His demetinin sol dalı",
+      "D": "His demetinin sağ dalı",
+      "E": "Purkinje lifleri"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kalbin ileti sisteminde uyarı iletim hızının en yavaş olduğu yer **atrioventriküler (AV) düğümdür** (iletim hızı yaklaşık $0.02 - 0.05\\text{ m/sn}$). AV düğüm hücrelerinin çaplarının küçük olması, dinlenim membran potansiyellerinin daha az negatif olması, Faz 0 depolarizasyonunun hızlı $\\text{Na}^+$ kanalları yerine yavaş L-tipi $\\text{Ca}^{2+}$ kanalları ile gerçekleşmesi ve hücreler arasındaki **gap junction (neksus) sayısının az olması** (yüksek iç direnç) yaklaşık $0.1\\text{ saniyelik}$ fizyolojik **AV düğüm gecikmesine** neden olur. Bu gecikme sayesinde ventriküller kasılmadan önce atriyumlar kasılarak kanı ventriküllere tamamen boşaltabilir.\n**Çeldiriciler:**\n- **A) İnternodal yol:** SA düğüm ile AV düğüm arasında yer alan ön (Bachmann), orta (Wenckebach) ve arka (Thorel) internodal yollarda iletim hızı yaklaşık $1\\text{ m/sn}$ olup AV düğümden çok daha hızlıdır.\n- **C) His demetinin sol dalı:** Hızlı iletim sisteminin bir parçasıdır ve uyarıyı yaklaşık $1 - 2\\text{ m/sn}$ hızla ventrikül septumuna iletir.\n- **D) His demetinin sağ dalı:** Sol dal gibi hızlı yanıtlı ileti liflerinden oluşur ve uyarıyı sağ ventriküle hızla taşır.\n- **E) Purkinje lifleri:** Kalpte uyarı iletim hızının en yavaş değil, **en hızlı** olduğu yerdir ($1.5 - 4\\text{ m/sn}$); geniş hücre çapları ve çok sayıdaki gap junction yapıları sayesinde ventriküllerin senkronize kasılmasını sağlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hafif tempolu koşma gibi aerobik egzersizlerde kalp damar sisteminde aşağıdakilerden hangisinde artış görülmez?",
+    "options": {
+      "A": "Sistolik arteriyel kan basıncı",
+      "B": "Toplam periferik direnç",
+      "C": "Kalp debisi",
+      "D": "Diyastol sonu hacim",
+      "E": "Arterio-venöz oksijen farkı"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Hafif tempolu koşma gibi dinamik (aerobik/izotonik) egzersizlerde çalışan aktif iskelet kaslarında biriken lokal vazodilatatör metabolitler ($\\text{CO}_2$, $\\text{H}^+$, adenozin, $\\text{K}^+$, laktat, $\\text{NO}$) ve iskelet kası damarlarındaki $\\beta_2$-adrenerjik reseptörlerin uyarılması sonucunda çok belirgin bir **arteriyoler vazodilatasyon** gelişir. Bu geniş çaplı vazodilatasyon nedeniyle **toplam periferik dirençte (TPR) artış görülmez, tam tersine belirgin bir düşüş (azalma) meydana gelir**.\n**Çeldiriciler:**\n- **A) Sistolik arteriyel kan basıncı:** Sempatik aktivasyonla kalp debisi ve atım hacmi önemli ölçüde arttığı için sistolik arteriyel kan basıncı yükselir (diyastolik basınç ise TPR düşüşü nedeniyle değişmez veya hafif azalır).\n- **C) Kalp debisi:** Hem kalp atım hızının (kronotropi) hem de atım hacminin (inotropi + venöz dönüş) artmasıyla kalp debisi dinlenime göre birkaç kat artar.\n- **D) Diyastol sonu hacim:** İskelet kası pompası, solunum pompası ve sempatik venokonstriksiyonun venöz dönüşü artırması sonucunda ventrikül diyastol sonu hacmi (ön yük) artar.\n- **E) Arterio-venöz oksijen farkı:** Çalışan kasların mitokondrilerinde oksijen kullanımı arttığı ve oksihemoglobin disosiyasyon eğrisi sağa kaydığı için dokular kandan daha fazla oksijen çeker ve arterio-venöz oksijen farkı artar.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin arteriyel kan basıncında artışa neden olması en az olasıdır?",
+    "options": {
+      "A": "Aort kompliyansının artması",
+      "B": "Kalp debisinin artması",
+      "C": "Atım hacminin artması",
+      "D": "Venöz vazokonstriksiyon",
+      "E": "Arteriyoler vazokonstriksiyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "**Doğru (A):** Arteriyel kan basıncı temel olarak kalp debisi ve toplam periferik direncin çarpımıyla ($\\text{KB} = \\text{Kalp Debisi} \\times \\text{TPR}$) belirlenir, sistolik tepe basıncı ise aort kompliyansı ile ters orantılıdır. **Aort kompliyansının (esnekliğinin/genişleyebilirliğinin) artması**, sistolde sol ventrikülden fırlatılan kan hacminin aort duvarı tarafından daha kolay \"yastıklanmasını\" sağlar; bu durum sistolik kan basıncını ve nabız basıncını **azaltır**, arteriyel kan basıncında artışa neden olmaz (kan basıncını artıran durum yaşlanmayla gelişen arteriyosklerozda olduğu gibi aort kompliyansının **azalmasıdır**).\n**Çeldiriciler:**\n- **B) Kalp debisinin artması:** Birim zamanda arteriyel sisteme pompalanan kan hacmini doğrudan artırdığı için ortalama ve sistolik arteriyel kan basıncını yükseltir.\n- **C) Atım hacminin artması:** Her sistolde aortaya fırlatılan kan miktarını ve kalp debisini artırarak özellikle sistolik kan basıncını ve ortalama arter basıncını yükseltir.\n- **D) Venöz vazokonstriksiyon:** Kapasitans damarları olan venlerin kasılması venöz kompliyansı azaltır, kalbe venöz dönüşü, ön yükü (Frank-Starling mekanizmasıyla atım hacmini) ve kalp debisini artırarak arteriyel kan basıncını yükseltir.\n- **E) Arteriyoler vazokonstriksiyon:** Direnç damarlarının daralması toplam periferik direnci (TPR) doğrudan artırarak arteriyel kan basıncını (özellikle diyastolik ve ortalama basıncı) yükseltir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Subendokardiyum\nII. Subendotelyum\nIII. Subepikardiyum\nKoroner arterler yukarıdaki kalp tabakalarının hangilerinde yer alır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Kalp duvarı içten dışa doğru endokard, miyokard ve epikard (visseral perikard) olmak üzere üç ana tabakadan oluşur. Kalbi besleyen ana **koroner arterler** ve kardiak venler, kalbin en dış tabakası olan epikardın mezotel örtüsünün hemen altındaki gevşek bağ ve yağ dokusu tabakasında, yani **subepikardiyumda (III)** yer alır ve buradan miyokard içine dallar gönderir.\n**Öncüllerin Analizi:**\n- **I. Subendokardiyum:** Yanlıştır. Endokardın hemen altında yer alan subendokardiyal tabaka, büyük koroner arterlerin değil, kalbin elektriksel ileti sistemine ait **Purkinje liflerinin** bulunduğu tabakadır.\n- **II. Subendotelyum:** Yanlıştır. Endotel tabakasının hemen altındaki ince bazal lamina ve kollajen/elastik lif içeren bağ dokusu katmanıdır; büyük koroner arterlerin yerleşim yeri değildir.\n- **III. Subepikardiyum:** Doğrudur. Epikardın altındaki adipoz dokudan zengin bağ dokusu katmanı olup koroner arterlerin, kardiyak venlerin ve otonom sinir pleksuslarının yerleştiği tabakadır.\n**Çeldiriciler:**\n- **A) Yalnız I:** Subendokardiyumda koroner arterler değil Purkinje lifleri bulunur.\n- **B) Yalnız II:** Subendotelyum endotelin hemen altındaki mikroskobik bazal bağ dokusudur.\n- **D) I ve II:** Her iki öncül de koroner arterlerin yerleştiği tabaka değildir.\n- **E) II ve III:** II. öncül yanlış olduğu için elenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kanama nedeni ile ilerleyici olmayan (kompanse) şok tablosuyla getirilen hastada aşağıdaki bulgulardan hangisi gözlenmez?",
+    "options": {
+      "A": "Deride vazokonstriksiyon ve solukluk",
+      "B": "Antidiüretik hormon düzeyinde azalma",
+      "C": "Taşikardi",
+      "D": "Renin salgısında artma",
+      "E": "Plazma glukokortikoid düzeyinde artma"
+    },
+    "correctAnswer": "B",
+    "explanation": "**Doğru (B):** Kanamaya bağlı kompanse hipovolemik şok tablosunda vücut kan hacmini ve arteriyel kan basıncını korumak için tüm nörohumoral kompanzasyon mekanizmalarını devreye sokar. Atriyal hacim reseptörlerinin ve arteriyel baroreseptörlerin geriminin azalması hipotalamusu güçlü şekilde uyararak arka hipofizden **antidiüretik hormon (ADH / vazopressin) salınımını belirgin derecede artırır** (hem böbrekten su tutmak hem de $V_1$ reseptörleriyle vazokonstriksiyon yapmak için). Dolayısıyla ADH düzeyinde azalma gözlenmez.\n**Çeldiriciler:**\n- **A) Deride vazokonstriksiyon ve solukluk:** Sempatik sinir sisteminin aktivasyonu ve katekolamin deşarjı, kanı beyin ve kalp gibi hayati organlara yönlendirmek için deri ve сплаnknik damarlarda güçlü $\\alpha_1$-adrenerjik vazokonstriksiyon yapar; bu da derinin soluk ve soğuk olmasına yol açar.\n- **C) Taşikardi:** Baroreseptör refleksi ile sempatik tonusun artması ve vagal tonusun kalkması SA düğümünü uyararak kalp hızını artırır (refleks taşikardi).\n- **D) Renin salgısında artma:** Renal perfüzyon basıncının düşmesi ve renal sempatik $\\beta_1$ aktivasyonu jukstaglomerüler hücrelerden renin salgısını artırarak RAAS'ı aktive eder.\n- **E) Plazma glukokortikoid düzeyinde artma:** Akut kanama ve hipovolemi güçlü bir fizyolojik stres uyaranıdır; hipotalamo-hipofizer-adrenal (HPA) aksı aktive ederek ACTH ve plazma glukokortikoid (kortizol) düzeylerini artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kan basıncının düzenlenmesiyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Arteriyel kan basıncı arttığı zaman baroreseptörlerden kaynaklanan uyarıların frekansı artar.",
+      "B": "Arteriyel kan basıncı düştüğü zaman kemoreseptörlerden kaynaklanan uyarıların frekansı artar.",
+      "C": "Atriyal natriüretik peptid vazodilatör etkilidir.",
+      "D": "Anjiyotensin II'nin vazokonstriktör etkisinin en güçlü olduğu vasküler bölge venlerdir.",
+      "E": "Anjiyotensin II hem direkt etkiyle hem de aldosteron sekresyonunu uyararak böbreklerden sodyum geri emilimini artırır."
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Anjiyotensin II çok güçlü bir vazokonstriktör hormondur; ancak bu vazokonstriktör etkisinin en güçlü ve en belirgin olduğu vasküler bölge venler değil, **arteriyollerdir** (direnç damarları). Anjiyotensin II sistemik arteriyolleri güçlü şekilde daraltarak toplam periferik direnci ve arteriyel kan basıncını yükseltirken, venler üzerindeki doğrudan konstriktör etkisi nispeten zayıftır.\n**Çeldiriciler:**\n- **A) Arteriyel kan basıncı arttığı zaman baroreseptörlerden kaynaklanan uyarıların frekansı artar:** Doğrudur; basınç artışı karotis sinüsü ve arkus aortadaki gerim reseptörlerini gererek CN IX ve CN X üzerinden medullaya giden aksiyon potansiyeli frekansını artırır.\n- **B) Arteriyel kan basıncı düştüğü zaman kemoreseptörlerden kaynaklanan uyarıların frekansı artar:** Doğrudur; ortalama arter basıncı özellikle $80\\text{ mmHg}$'nin altına düştüğünde karotis ve aortik cisimciklerin kanlanması bozulur (lokal hipoksi, hiperkapni ve asidoz oluşur) ve kemoreseptör ateşleme frekansı artarak vazomotor merkezi uyarır.\n- **C) Atriyal natriüretik peptid vazodilatör etkilidir:** Doğrudur; ANP guanilat siklaz / cGMP yolağı üzerinden damar düz kaslarını gevşeterek vazodilatasyon yapar.\n- **E) Anjiyotensin II hem direkt etkiyle hem de aldosteron sekresyonunu uyararak böbreklerden sodyum geri emilimini artırır:** Doğrudur; Anjiyotensin II böbrek proksimal tübül hücrelerindeki $AT_1$ reseptörleri üzerinden doğrudan ($\\text{Na}^+/\\text{H}^+$ değiştokuşçusunu uyararak), distal tübül ve toplayıcı kanallarda ise adrenal korteksten aldosteron salınımını uyararak dolaylı yoldan sodyum ve su geri emilimini artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin santral venöz basınçta yükselmeye yol açması en az olasıdır?",
+    "options": {
+      "A": "Kalp yetmezliği",
+      "B": "Ikınma",
+      "C": "Negatif basınçla soluma",
+      "D": "Kan hacminin artması",
+      "E": "Arteriollerde gevşeme"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Santral venöz basınç (CVP), sağ atriyuma açılan büyük torasik venlerdeki (vena kava süperior/inferior) ve sağ atriyumdaki kan basıncını ifade eder. **Negatif basınçla soluma** (normal derin inspirasyon veya negatif basınçlı ventilasyon), intratorasik (plevral) basıncı daha negatif hale getirir; bu durum göğüs boşluğu içindeki sağ atriyum ve büyük venlerin genişlemesine yol açarak lümen içi **santral venöz basıncı düşürür (azaltır)**. Dolayısıyla CVP'de yükselmeye yol açması en az olası durum negatif basınçla solumadır.\n**Çeldiriciler:**\n- **A) Kalp yetmezliği:** Sağ kalp (veya biventriküler) yetmezliğinde kalbin kendisine gelen kanı ileriye pompalama gücü bozulur; kan sağ atriyumda ve büyük venlerde birikerek santral venöz basıncı belirgin şekilde yükseltir.\n- **B) Ikınma (Valsalva manevrası):** Kapalı glottise karşı zorlu ekspirasyon (ıkınma) yapıldığında intratorasik basınç keskin bir şekilde pozitifleşir; bu basınç büyük torasik venlere ve sağ atriyuma dıştan yansıyarak ölçülen santral venöz basıncı yükseltir.\n- **D) Kan hacminin artması:** Hipervolemi ortalama sistemik doluş basıncını ve kalbe venöz dönüşü artırarak santral venöz basıncı yükseltir.\n- **E) Arteriollerde gevşeme:** Yaygın arteriyoler vazodilatasyon, arteriyel sistemden kapiller ve venöz sisteme kan geçişini kolaylaştırarak venöz dönüşü ve santral venöz basıncı artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kalp debisi\nII. Kalp kası hücrelerinde Na-K ATPaz aktivitesi\nIII. Diyastolik kan basıncı\nTiroid hormonları (T3, T4) kardiyovasküler sistemde yukarıdakilerden hangilerini artırır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "I ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Tiroid hormonları ($T_3$ ve $T_4$), kardiyomiyositlerde $\\beta_1$-adrenerjik reseptörlerin sayısını ve katekolaminlere duyarlılığını, miyozin ağır zincir alfa ($\\alpha$-MHC) sentezini ve SERCA2a ekspresyonunu artırarak kalp hızını (kronotropi) ve kasılma gücünü (inotropi) yükseltir; böylece **kalp debisini (I) artırır**. Aynı zamanda bazal metabolizma hızını yükseltmek üzere kalp kası dahil pek çok dokuda hücre zarındaki **$\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ pompasının gen ekspresyonunu ve aktivitesini (II) artırır**.\n**Öncüllerin Analizi:**\n- **I. Kalp debisi:** Doğrudur. Pozitif inotropik ve pozitif kronotropik etkiler ile artan doku kan akımı ihtiyacı sonucunda kalp debisi belirgin şekilde artar.\n- **II. Kalp kası hücrelerinde Na-K ATPaz aktivitesi:** Doğrudur. Tiroid hormonları kardiyomiyositlerde $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ sentezini ve aktivitesini doğrudan artırır.\n- **III. Diyastolik kan basıncı:** Yanlıştır. Tiroid hormonları dokularda metabolizmayı ve ısı üretimini artırdığı için periferik damarlarda yaygın vazodilatasyon gelişir ve toplam periferik direnç (TPR) düşer. TPR'deki bu düşüş nedeniyle **diyastolik kan basıncı artmaz, tam tersine azalır** (sistolik basınç arttığı ve diyastolik basınç düştüğü için hipertiroidide nabız basıncı genişler).\n**Çeldiriciler:**\n- **A) Yalnız I:** II. öncül ($\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ aktivitesi) de arttığı için eksiktir.\n- **B) Yalnız III:** Diyastolik kan basıncı periferik vazodilatasyon nedeniyle azalır.\n- **D) II ve III:** III. öncül yanlış olduğu için elenir.\n- **E) I ve III:** III. öncül yanlış olduğu için elenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sistemik dolaşım için, aşağıdaki faktörlerden hangisinin lokal olarak artışı dokulardaki kan akımını artırmaz?",
+    "options": {
+      "A": "Karbondioksit",
+      "B": "Potasyum",
+      "C": "Adenozin",
+      "D": "Nitrik oksit",
+      "E": "Kalsiyum"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Dokularda lokal **kalsiyum ($\\text{Ca}^{2+}$) iyonu konsantrasyonunun artışı**, damar düz kas hücrelerinin içerisine $\\text{Ca}^{2+}$ girişini artırarak kalmodulin ve miyozin hafif zincir kinaz (MLCK) aktivasyonu üzerinden düz kas kasılmasına, yani **vazokonstriksiyona** neden olur. Vazokonstriksiyon ise damar çapını daraltarak o bölgedeki doku kan akımını **azaltır (artırmaz)**.\n**Çeldiriciler:**\n- **A) Karbondioksit:** Metabolik aktivite sonucu lokal $\\text{CO}_2$ artışı (özellikle beyin ve iskelet kasında) pH'ı düşürerek arteriyol düz kaslarını gevşetir (vazodilatasyon) ve doku kan akımını artırır.\n- **B) Potasyum:** Aksiyon potansiyelleri sırasında hücre dışına çıkan $\\text{K}^+$ iyonlarının interstisyel sıvıda hafif-orta derecede artışı, damar düz kasında $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ pompasını ve içe doğrultucu $\\text{K}^+$ kanallarını uyararak hiperpolarizasyon ve vazodilatasyon yapar, kan akımını artırır.\n- **C) Adenozin:** ATP yıkımı sonucu oluşan adenozin (özellikle kalp koroner dolaşımında ve iskelet kasında) çok güçlü bir lokal metabolik vazodilatatördür; kan akımını belirgin şekilde artırır.\n- **E) Nitrik oksit:** Endotel hücrelerinden salınan nitrik oksit (NO), cGMP yolağı üzerinden damar düz kaslarını gevşeterek vazodilatasyon yapar ve lokal kan akımını artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi periferik dolaşımdan kalbe venöz dönüş üzerinde inhibe edici etki gösterir?",
+    "options": {
+      "A": "İskelet kaslarının yürüme gibi aktiviteler esnasında ritmik kasılması",
+      "B": "İnspirasyonda torakal venöz basıncın düşmesi",
+      "C": "İnspirasyonda diyaframın aşağı-abdomene doğru hareketi",
+      "D": "Kalbin ejeksiyon safhasında damar sistemine kan pompalaması",
+      "E": "Sağ atrium basıncının yükselmesi"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Periferik venöz sistemden kalbe doğru olan **venöz dönüşü** belirleyen temel itici güç, ortalama sistemik doluş basıncı ($P_{msf} \\approx 7\\text{ mmHg}$) ile **sağ atriyum basıncı (RAP)** arasındaki basınç farkıdır ($\\text{Venöz Dönüş} = \\frac{P_{msf} - \\text{RAP}}{\\text{Venöz Direnç}}$). **Sağ atriyum basıncının yükselmesi**, bu basınç gradiyentini küçülterek venöz kanın kalbe dönüşüne karşı geriye doğru bir direnç/engel oluşturur ve venöz dönüşü **inhibe eder (azaltır)**.\n**Çeldiriciler:**\n- **A) İskelet kaslarının yürüme gibi aktiviteler esnasında ritmik kasılması:** \"İskelet kası pompası\" mekanizmasıyla tek yönlü venöz kapakların da yardımıyla alt ekstremite venlerini sıkıştırarak kanı kalbe doğru iter ve venöz dönüşü artırır.\n- **B) İnspirasyonda torakal venöz basıncın düşmesi:** \"Solunum pompası\" mekanizmasıyla göğüs içi basıncı düşürerek periferik venlerden toraksa doğru vakum/emme etkisi yaratır ve venöz dönüşü artırır.\n- **C) İnspirasyonda diyaframın aşağı-abdomene doğru hareketi:** Karın içi basıncı artırarak abdominal venleri sıkıştırır (alt ekstremite ven kapakları geriye kaçışı önler) ve kanın toraksa, yani kalbe doğru akışını hızlandırarak venöz dönüşü artırır.\n- **D) Kalbin ejeksiyon safhasında damar sistemine kan pompalaması:** Kalbin pompaladığı kan sistemik dolaşımda hidrostatik basınç farkını (*vis a tergo* / arkadan iten güç) oluşturur ve atriyoventriküler kapak düzleminin sistolde aşağı çekilmesiyle atriyal emme sağlayarak venöz dönüşü destekler.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aerobik orta şiddetteki egzersiz sırasında kişinin kalp ve dolaşım sisteminde oluşan aşağıdaki değişikliklerden hangisinde artış olması en az olasıdır?",
+    "options": {
+      "A": "Ön yük",
+      "B": "Kalp atım hacmi",
+      "C": "Kalp kasılma gücü",
+      "D": "Kalp atım hızı",
+      "E": "Toplam periferik direnç"
+    },
+    "correctAnswer": "E",
+    "explanation": "**Doğru (E):** Aerobik orta şiddetteki egzersizde çalışan iskelet kaslarının artan oksijen ve besin ihtiyacını karşılamak üzere kas içindeki arteriyollerde lokal metabolik faktörlerin ($\\text{CO}_2$, $\\text{H}^+$, adenozin, laktat, $\\text{K}^+$) etkisiyle güçlü bir vazodilatasyon meydana gelir. İskelet kası yatağı çok geniş olduğu için buradaki direnç düşüşü tüm dolaşıma yansır ve **toplam periferik dirençte (TPR) artış olmaz, aksine azalma görülür**.\n**Çeldiriciler:**\n- **A) Ön yük:** Kas pompası, solunum pompası ve sempatik venokonstriksiyonun etkisiyle kalbe venöz dönüş ve ventrikül diyastol sonu hacmi (ön yük) artar.\n- **B) Kalp atım hacmi:** Hem ön yükün artması (Frank-Starling yasası) hem de sempatik uyarıyla miyokard kontraktilitesinin artması sonucunda kalp atım hacmi (stroke volume) artar.\n- **C) Kalp kasılma gücü:** Ventrikül miyokardındaki $\\beta_1$-adrenerjik reseptörlerin sempatik sinirler ve katekolaminlerle uyarılması sonucunda kalbin kasılma gücü (pozitif inotropi) artar.\n- **D) Kalp atım hızı:** Parasempatik (vagal) tonusun çekilmesi ve SA düğümüne olan sempatik ($\\beta_1$) uyarının artmasıyla kalp atım hızı (pozitif kronotropi) belirgin şekilde artar.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki reflekslerden hangisinin kardiyopulmoner kemosensitif reseptörler aracılığı ile serebral korteksteki özgün bölgelerin tetiklenmesi sonucu bradikardi, hipotansiyon ve apneye yol açması en olasıdır?",
+    "options": {
+      "A": "Hering-Breuer refleksi",
+      "B": "Valsalva refleksi",
+      "C": "Bainbridge refleksi",
+      "D": "Bezold-Jarisch refleksi",
+      "E": "Cushing refleksi"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** **Bezold-Jarisch refleksi**, özellikle sol ventrikülün inferoposterior duvarında yer alan miyelinsiz C lifi uçlarının (mekanosensitif ve kapsaisin, serotonin, veratridin, bradikinin veya miyokard iskemisi/reperfüzyon ürünlerine duyarlı kemosensitif reseptörlerin) uyarılmasıyla başlar. Vagus siniri (CN X) içindeki afferent liflerle beyin sapına (NTS) ve santral otonomik merkezlere taşınan bu uyarılar, güçlü bir vagal deşarj ve sempatik inhibisyon oluşturarak klasik üçlü yanıt olan **şiddetli bradikardi, vazodilatasyona bağlı hipotansiyon ve apne (solunum durması)** tablosuna yol açar.\n**Çeldiriciler:**\n- **A) Hering-Breuer refleksi:** Akciğerlerin aşırı şişmesi durumunda bronş ve bronşiyol düz kaslarındaki gerim reseptörlerinin vagus siniri aracılığıyla inspirasyonu sonlandırması refleksidir; kalp kaynaklı bradikardi-hipotansiyon-apne triadı değildir.\n- **B) Valsalva refleksi:** Kapalı glottise karşı zorlu ekspirasyon sırasında intratorasik basınç değişimlerine bağlı olarak gelişen dört evreli hemodinamik baroreseptör yanıtıdır.\n- **C) Bainbridge refleksi:** Sağ atriyuma venöz dönüşün ve atriyal hacmin artmasıyla atriyal gerim reseptörlerinin uyarılması sonucu gelişen refleks **taşikardi** (kalp hızı artışı) yanıtıdır.\n- **E) Cushing refleksi:** Kafa içi basıncın (İKB) aşırı artması sonucu beyin sapının iskemik kalmasıyla tetiklenen ve **hipertansiyon, bradikardi, düzensiz solunum** üçlüsüyle karakterize santral iskemik yanıttır (hipotansiyon değil şiddetli hipertansiyon görülür).",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kanama nedeniyle sistolik kan basıncı 80 mmHg değerine düşen hastada aşağıdakilerden hangisi kardiyovasküler kompanzasyon mekanizmaları içinde yer almaz?",
+    "options": {
+      "A": "Tübüler Na geri emiliminde artış",
+      "B": "Renin salgısında artış",
+      "C": "Baroreseptör aktivitesinde artış",
+      "D": "Anjiyotensin II oluşumunda artış",
+      "E": "Vazomotor merkez uyarılımında artış"
+    },
+    "correctAnswer": "C",
+    "explanation": "**Doğru (C):** Karotis sinüsü ve arkus aortada yer alan arteriyel baroreseptörler damar duvarının gerilmesine duyarlıdır. Kanama nedeniyle sistolik kan basıncı $80\\text{ mmHg}$'ye düştüğünde damar duvarındaki gerim azalır; buna bağlı olarak **baroreseptörlerin aktivitesi (ateşleme frekansı) artmaz, tam tersine belirgin şekilde azalır**. Baroreseptörlerden NTS'ye giden inhibitör sinyallerin azalması, medulladaki vazomotor merkezi baskıdan kurtararak sempatik sistemin aktive olmasını sağlar.\n**Çeldiriciler:**\n- **A) Tübüler Na geri emiliminde artış:** Aktive olan sempatik sinir sistemi, anjiyotensin II ve aldosteronun etkisiyle böbrek tübüllerinden $\\text{Na}^+$ (ve beraberinde su) geri emilimi artırılarak kan hacmi korunmaya çalışılır.\n- **B) Renin salgısında artış:** Hipotansiyona bağlı renal perfüzyon basıncı düşüşü ve renal sempatik $\\beta_1$ uyarısı jukstaglomerüler hücrelerden renin salgısını artırır.\n- **D) Anjiyotensin II oluşumunda artış:** Artan renin aktivitesi sonucunda anjiyotensinojenden anjiyotensin I ve ACE enzimi aracılığıyla güçlü bir vazokonstriktör olan anjiyotensin II oluşumu artar.\n- **E) Vazomotor merkez uyarılımında artış:** Baroreseptörlerin vazomotor merkez üzerindeki tonik inhibisyonunun kalkması ve periferik kemoreseptörlerin hipoksiyle uyarılması sonucunda medulladaki vazomotor merkezin uyarılımı ve sempatik çıkışı artar.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki ödeme sebep olan durum ve mekanizma eşleştirmelerinden hangisi yanlıştır?",
+    "options": {
+      "A": "Karaciğer yetmezliği nedeni ile albümin miktarında azalma – Kanın onkotik basıncında azalma",
+      "B": "Böbrek hastalığına bağlı proteinüri – Kanın onkotik basıncında azalma",
+      "C": "Kapiller geçirgenliğinde artma – İnterstisyel alanın onkotik basıncında artma",
+      "D": "Lenf damarının parazit ile tıkanması – İnterstisyel alanın hidrostatik basıncında azalma",
+      "E": "Kalp yetmezliği – Kanın hidrostatik basıncında artma"
+    },
+    "correctAnswer": "D",
+    "explanation": "**Doğru (D):** Lenf damarlarının *Wuchereria bancrofti* gibi parazitlerle (filaryazis) tıkanması lenfatik drenajı bozar. İnterstisyel aralıktan lenf yoluyla uzaklaştırılamayan proteinler ve sıvı doku aralığında birikir (lenfödem). Bu birikim sonucunda interstisyel alanın hem kolloid ozmotik (onkotik) basıncı hem de sıvı hacmiyle birlikte **interstisyel hidrostatik basıncı artar (azalmaz)**. Dolayısıyla \"interstisyel alanın hidrostatik basıncında azalma\" ifadesi yanlıştır.\n**Çeldiriciler:**\n- **A) Karaciğer yetmezliği nedeni ile albümin miktarında azalma – Kanın onkotik basıncında azalma:** Doğrudur; plazma onkotik basıncının en önemli belirleyicisi olan albümin karaciğerde sentezlenir, siroz/karaciğer yetmezliğinde hipoalbüminemi gelişir ve kanın onkotik basıncı azalarak ödeme yol açar.\n- **B) Böbrek hastalığına bağlı proteinüri – Kanın onkotik basıncında azalma:** Doğrudur; nefrotik sendrom gibi glomerüler hastalıklarda idrarla aşırı protein (albümin) kaybı kanın kolloid ozmotik basıncını düşürerek yaygın ödeme neden olur.\n- **C) Kapiller geçirgenliğinde artma – İnterstisyel alanın onkotik basıncında artma:** Doğrudur; inflamasyon, yanık veya alerjik reaksiyonlarda kapiller permeabilitenin artması plazma proteinlerinin interstisyel aralığa sızmasına yol açar, bu da interstisyel onkotik basıncı artırarak suyu dokuya çeker.\n- **E) Kalp yetmezliği – Kanın hidrostatik basıncında artma:** Doğrudur; kalp yetmezliğinde venöz dönüşün bozulması ve su/tuz tutulumu venöz basıncı ve geriye doğru yansıyarak kapiller içi kanın hidrostatik basıncını artırır, filtrasyonu hızlandırarak ödeme yol açar.",
+    "lesson": "Fizyoloji",
+    "unit": "Dolaşım Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

@@ -545,7 +545,7 @@ def clean_explanation_meta(text: str) -> str:
 # sınavda kaynak olmadan tek başına sorulabilir biçimde bağımsız olmalı. Gerçek DUS
 # (2024+2025) sorularında yanlış-pozitif vermez (test edildi).
 _SOURCE_LEAK_RE = re.compile(
-    r"(?i)(kaynak\s*metn|metne g[öo]re|metinde\b|metinden\b|verilen bilgi|"
+    r"(?i)(kaynak\s*metn|metne g[öo]re|metinde\b|metinden\b|(?:metinde|kaynakta)\s+verilen bilgi|"
     r"bu kaynak|yukar[ıi]daki metin|tabloda belirtil|şekilde belirtil|paragrafa g[öo]re)"
 )
 

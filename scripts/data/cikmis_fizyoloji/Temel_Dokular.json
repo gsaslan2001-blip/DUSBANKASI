@@ -1,0 +1,914 @@
+[
+  {
+    "question": "Aşağıdaki hücre ara filamanlarından hangisi epitel hücrelerinin hücre iskeletine özgüdür?",
+    "options": {
+      "A": "Vimentin",
+      "B": "Desmin",
+      "C": "Keratin",
+      "D": "Miyozin",
+      "E": "Glial fibriller asidik protein"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Ara (intermediyer) filamanlar yaklaşık 10 nm çapında, hücreye ve dokuya mekanik dayanıklılık sağlayan, dokuya özgü dağılım gösteren hücre iskeleti elemanlarıdır. Keratin (sitokeratin), tüm epitel hücrelerinin (hem örtü hem de bez epiteli) ve saç, tırnak gibi epidermal eklerin hücre iskeletine özgü ara filaman proteinidir; desmozom ve hemidesmozom bağlantılarına tutunarak epitel bütünlüğünü korur. Patolojide epitel kökenli tümörlerin (karsinomların) immünohistokimyasal tanısında temel belirteç olarak kullanılır.\nÇeldiriciler:\n- A) Vimentin; fibroblast, kondrosit, osteoblast, endotel hücresi ve makrofaj gibi mezenkimal (bağ dokusu) kökenli hücrelere özgü ara filamandır (sarkomların belirtecidir).\n- B) Desmin; tüm kas dokusu tiplerine (iskelet kası, kalp kası ve düz kas; sadece damar düz kası hariç) özgü ara filamandır ve Z disklerini birbirine bağlar.\n- D) Miyozin; bir ara filaman değil, mikrofilaman (aktin) ile etkileşerek ATP hidrolizi yapan ve kas kasılması ile hücre içi taşınmada görev alan bir motor proteindir.\n- E) Glial fibriller asidik protein (GFAP); merkezi sinir sistemindeki astrositlere (ve daha az oranda Schwann hücrelerine) özgü ara filamandır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde tip II kollajen bulunur?",
+    "options": {
+      "A": "Dermis",
+      "B": "Tendon",
+      "C": "Kemik",
+      "D": "Bazal lamina",
+      "E": "Hiyalin kıkırdak"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tip II kollajen, kıkırdak dokusunun (özellikle hiyalin kıkırdak ve elastik kıkırdak) ekstraselüler matriksinde bulunan en temel fibriler kollajen tipidir. Ayrıca gözün vitreus cisminde (humor vitreus) ve intervertebral diskin nükleus pulpozus kısmında da yer alır. Hiyalin kıkırdak matriksindeki proteoglikan agregatları (agrekan) ile etkileşerek dokunun basınca karşı direnç göstermesini sağlar.\nÇeldiriciler:\n- A) Dermis (özellikle retiküler dermis); çekme kuvvetlerine karşı yüksek direnç sağlayan kalın Tip I kollajen demetlerinden (ve daha az oranda Tip III kollajenden) oluşur.\n- B) Tendon; kasları kemiğe bağlayan sıkı düzenli bağ dokusu yapısında olup neredeyse tamamen paralel dizilimli Tip I kollajen liflerinden meydana gelir.\n- C) Kemik; organik matriksinin (osteoid) yaklaşık %90'ı Tip I kollajen liflerinden oluşur.\n- D) Bazal lamina; fibril oluşturmayan, ağ (sheet) yapısında olan Tip IV kollajen içerir (bazal laminayı alttaki bağ dokusuna bağlayan tutturucu fibriller ise Tip VII kollajendir).",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki yapılardan hangisi hiyalin kıkırdak içerir?",
+    "options": {
+      "A": "İntervertebral disk",
+      "B": "Dış kulak yolu",
+      "C": "Kulak kepçesi",
+      "D": "Epiglottis",
+      "E": "Trakea"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Hiyalin kıkırdak insan vücudunda en yaygın bulunan kıkırdak tipidir. Solunum yollarında burun kıkırdakları, larinksin tiroid, krikoid ve aritenoid (vokal çıkıntı hariç) kıkırdakları ile trakea (C-şeklindeki kıkırdak halkalar) ve bronş duvarlarında lümenin kapanmasını önlemek amacıyla hiyalin kıkırdak bulunur. Ayrıca eklem yüzlerinde, kostal kıkırdaklarda, epifiz büyüme plaklarında ve fetal iskelette de hiyalin kıkırdak yer alır.\nÇeldiriciler:\n- A) İntervertebral disk (annulus fibrosus); omurlar arasında yüksek basınca ve çekmeye dayanıklı, perikondriyumu olmayan ve Tip I kollajen içeren fibröz kıkırdak (fibrokıkırdak) yapısındadır.\n- B) Dış kulak yolu; bükülebilirlik ve esneklik sağlayan yoğun elastik lif ağına sahip elastik kıkırdak içerir.\n- C) Kulak kepçesi (aurikula / pinna); şeklini koruyup bükülebilmesini sağlayan elastik kıkırdak yapısındadır.\n- D) Epiglottis; yutkunma sırasında larinks girişini kapatan ve tekrar eski konumuna dönen elastik kıkırdak yapısındadır (larinksin kuneiform ve kornikulat kıkırdakları da elastik kıkırdaktır).",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bütün hücreleri bazal lamina ile temasta olup bir kısım hücrelerin yüzeye ulaşamadığı epitel tipi hangisidir?",
+    "options": {
+      "A": "Çok katlı yassı epitel",
+      "B": "Yalancı çok katlı epitel",
+      "C": "Çok katlı değişken epitel",
+      "D": "Tek katlı prizmatik epitel",
+      "E": "Çok katlı prizmatik epitel"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Yalancı çok katlı (psödostratifiye) epitelde, epitel tabakasını oluşturan tüm hücreler (uzun prizmatik hücreler, goblet hücreleri ve kısa bazal/kök hücreler) alttaki bazal lamina üzerine oturur; bu nedenle gerçekte tek katlı bir epiteldir. Ancak kısa bazal hücreler apikal yüzeye (lümene) ulaşamaz ve hücrelerin çekirdekleri farklı seviyelerde dizildiği için ışık mikroskobunda çok katlıymış gibi görünür. Solunum yolları (trakea, bronşlar) ve erkek genital kanalları (epididimis, duktus deferens) bu epitelin en tipik bulunduğu yerlerdir.\nÇeldiriciler:\n- A) Çok katlı yassı epitelde (epidermis, oral mukoza, özofagus, vajina) yalnızca en alttaki stratum basale hücreleri bazal lamina ile temas halindedir; üst katmanlardaki hücreler bazal laminaya değmez.\n- C) Çok katlı değişken epitel (transizyonel epitel / ürotelyum); idrar yollarına (kaliksler, üreter, mesane) özgü gerçek çok katlı bir epiteldir ve üstteki şemsiye (kubbe) hücreleri bazal laminaya oturmaz.\n- D) Tek katlı prizmatik epitelde (mide, ince ve kalın bağırsak, safra kesesi) tüm hücreler hem bazal laminaya oturur hem de apikal yüzeye (lümene) ulaşır.\n- E) Çok katlı prizmatik epitelde (büyük salgı bezlerinin ana boşaltım kanalları, konjonktiva) yalnızca bazal sıradaki hücreler bazal lamina ile temas eder, yüzeydeki prizmatik hücreler bazal laminaya ulaşmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki reseptörlerden hangisi diğerlerinden daha hızlı adapte olur?",
+    "options": {
+      "A": "Kas iğciği reseptörü",
+      "B": "Paccini reseptörü",
+      "C": "Arteryal baroreseptörler",
+      "D": "İggo kubbe reseptörü",
+      "E": "Ağrı reseptörleri"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Duyusal reseptörler uyarana adaptasyon hızlarına göre \"fazik (hızlı adapte olan)\" ve \"tonik (yavaş adapte olan)\" olarak ikiye ayrılır. Pacini (Vater-Pacini) cisimciği, derinin derin dermis ve hipodermis tabakalarında bulunan, soğan zarı gibi konsantrik lamellerle çevrili kapsüllü bir mekanoreseptördür; yüksek frekanslı titreşim (vibrasyon) ve ani derin basınç değişimlerini algılar. Uyaran uygulandığında saniyenin yüzde birkaçında adapte olarak ateşlemeyi keser; vücuttaki en hızlı adapte olan (en fazik) reseptördür.\nÇeldiriciler:\n- A) Kas iğciği reseptörü; kasın uzunluğunu ve gerilme durumunu merkezi sinir sistemine sürekli bildirmek zorunda olan, yavaş adapte olan (tonik) bir proprioseptördür.\n- C) Arteryal baroreseptörler (karotis sinüsü ve aort arkı); kan basıncını sürekli izleyen yavaş adapte olan (tonik) reseptörlerdir (tam adaptasyonları 1-2 gün sürer).\n- D) İggo kubbe reseptörü (Merkel disklerinden oluşan grup); epidermiste sürekli dokunma ve iki nokta ayrımını algılayan, yavaş adapte olan (tonik) mekanoreseptördür.\n- E) Ağrı reseptörleri (nosiseptörler); dokuyu hasardan korumak amacıyla uyaran devam ettiği sürece neredeyse hiç adapte olmayan (adapte olsaydı doku hasarı fark edilmezdi) tonik serbest sinir uçlarıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi apokrin tipte salgılama yapar?",
+    "options": {
+      "A": "Parotis bez",
+      "B": "Sublingual bez",
+      "C": "Meme bezi",
+      "D": "Pankreas",
+      "E": "Sebasöz bezler"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Laktasyon dönemindeki meme bezinin alveol hücreleri iki farklı mekanizma ile salgı yapar: Süt proteinleri (kazein vb.) ekzositozla (merokrin yolla) salgılanırken, süt içerisindeki \"lipit (yağ) damlacıkları\" hücrenin apikal sitoplazmasının ve hücre zarının bir kısmıyla birlikte boğumlanıp koparak \"apokrin salgılama\" yoluyla lümene verilir. Ayrıca koltuk altı/kasık bölgelerindeki apokrin ter bezleri, dış kulak yolundaki serüminöz bezler ve göz kapağındaki Moll bezleri de apokrin salgılama yapar.\nÇeldiriciler:\n- A) Parotis bezi; tamamen seröz asiner yapıda bir tükrük bezi olup zimojen granüllerini sitoplazma kaybı olmaksızın ekzositozla (merokrin/ekrin tipte) salgılar.\n- B) Sublingual bez; müköz ağırlıklı mikst bir tükrük bezi olup salgısını merokrin (ekzositoz) mekanizmayla boşaltır.\n- D) Pankreasın ekzokrin asiner hücreleri; sindirim enzimlerini merokrin (ekzositoz) yolla lümene salgılar.\n- E) Sebasöz (yağ) bezleri ve göz kapağındaki Meibomian bezleri; salgı maddesiyle dolan hücrenin apoptoza gidip tamamen parçalanarak tüm hücre içeriğinin salgı olarak atıldığı \"holokrin tipte\" salgılama yapar.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Fibröz kıkırdak aşağıdaki yapıların hangisinde bulunur?",
+    "options": {
+      "A": "Fetal iskelet",
+      "B": "Trakea",
+      "C": "Epiglottis",
+      "D": "İntervertebral disk",
+      "E": "Dış kulak yolu"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Fibröz kıkırdak (fibrokıkırdak), sıkı bağ dokusu ile hiyalin kıkırdak arasında geçiş özelliği gösteren, yoğun Tip I kollajen demetleri (ve kondrositlerin çevresinde az miktarda Tip II kollajen) içeren ve etrafında perikondriyum bulunmayan en dayanıklı kıkırdak tipidir. Vücutta orta hatta ve büyük çekme/basınç kuvvetlerine maruz kalan bölgelerde; özellikle intervertebral disklerde (annulus fibrosus), simfizis pubiste, temporomandibular ve diz eklemlerinin artiküler disk/menisküslerinde ve tendonların kemiğe yapışma yerlerinde bulunur.\nÇeldiriciler:\n- A) Fetal iskelet; enkondral kemikleşmeye model teşkil eden hiyalin kıkırdak yapısındadır.\n- B) Trakea; hava yolunu açık tutan C-şeklinde hiyalin kıkırdak halkalar içerir.\n- C) Epiglottis; bol elastik lif içeren ve perikondriyumu bulunan elastik kıkırdak yapısındadır.\n- E) Dış kulak yolu; kulak kepçesi ve östaki borusu ile birlikte elastik kıkırdak içerir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gözde, humor aqueous aşağıdakilerden hangisinden salınır?",
+    "options": {
+      "A": "Kornea",
+      "B": "İris",
+      "C": "Siliyer cisim epiteli",
+      "D": "Lens",
+      "E": "Retina"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Gözün ön ve arka kamaralarını dolduran, avasküler olan kornea ve lensin beslenmesini sağlayan ve göz içi basıncını (intraoküler basınç) oluşturan humor aqueous (aköz hümör / göz içi sıvısı); siliyer cismin (corpus ciliare) uzantıları olan siliyer prosesleri örten iki katlı epitelin \"non-pigmente (pigmentsiz) iç epitel tabakası\" tarafından aktif sekresyon ($\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ ve karbonik anhidraz aracılığıyla) ve ultrafiltrasyon ile arka kamaraya salgılanır. Buradan pupilla aracılığıyla ön kamaraya geçer ve iridokorneal açıdaki trabeküler ağ ile Schlemm kanalından venöz dolaşıma drene olur.\nÇeldiriciler:\n- A) Kornea; gözün en öndeki saydam ve en yüksek kırıcılığa sahip avasküler tabakasıdır; humor aqueous üretmez, aksine iç yüzündeki endotel tabakası bu sıvıdan beslenir.\n- B) İris; ortasında pupilla açıklığı bulunan, sfinkter ve dilatatör kaslarıyla göze giren ışık miktarını ayarlayan damarlı (uvea) tabakadır.\n- D) Lens (mercek); siliyer cisimden uzanan zonula lifleriyle asılı duran, akomodasyonu (uyumu) sağlayan avasküler ve saydam yapıdır; humor aqueous tarafından beslenir.\n- E) Retina; gözün en içteki fotoreseptör (koni ve basil) ve nöronal katmanlarını içeren, ışığı elektriksel sinyale dönüştüren sinirsel tabakadır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, derinin epidermisinde mekanoreseptör hücre olarak görev alır?",
+    "options": {
+      "A": "Keratinositler",
+      "B": "Langerhans hücreleri",
+      "C": "Merkel hücreleri",
+      "D": "Melanositler",
+      "E": "Fibroblastlar"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Merkel hücreleri, özellikle parmak uçları ve dudaklar gibi dokunma duyusunun çok hassas olduğu kalın derinin epidermisinin en alt tabakasında (stratum basale) yerleşmiş, komşu keratinositlere desmozomlarla bağlanan nöroendokrin karakterli epitel hücreleridir. Bazal yüzlerinde miyelinli bir duyusal sinir lifinin genişlemiş sonlanması (Merkel diski) ile sinaps benzeri temas kurarlar; hafif dokunma, sürekli basınç ve iki nokta ayrımı duyularını algılayan yavaş adapte olan (tonik) mekanoreseptör hücrelerdir.\nÇeldiriciler:\n- A) Keratinositler; epidermisin yaklaşık %85-90'ını oluşturan, keratin ara filamanları ve su geçirmez lipid bariyer üreterek derinin mekanik ve kimyasal koruyucu örtüsünü yapan temel hücrelerdir.\n- B) Langerhans hücreleri; kemik iliği (monosit) kökenli olup özellikle stratum spinosumda yerleşen, sitoplazmalarında raket şeklinde \"Birbeck granülleri\" içeren antijen sunucu (immünolojik) dendritik hücrelerdir.\n- D) Melanositler; nöral krest kökenli olup stratum basalede yerleşen, tirozin aminoasidinden melanin pigmenti sentezleyip uzantılarıyla keratinositlere aktaran (sitokrin salgı) ve UV ışınlarına karşı DNA'yı koruyan hücrelerdir.\n- E) Fibroblastlar; epidermiste bulunmazlar, alttaki bağ dokusu tabakası olan dermiste yer alırlar ve kollajen, elastik lifler ile ekstraselüler matriksi sentezlerler.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bağ dokusu lif ve proteinlerini üreten hücreler aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fibroblastlar",
+      "B": "Adipositler",
+      "C": "Makrofajlar",
+      "D": "Mast hücreleri",
+      "E": "Plazma hücreleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Fibroblastlar, bağ dokusunun en yaygın bulunan esas (yerleşik) hücresidir. İyi gelişmiş granüllü endoplazmik retikulum ve Golgi aygıtına sahip olan bu mezenkimal kökenli hücreler; bağ dokusunun tüm ekstraselüler matriks bileşenlerini, yani fibriler proteinleri (kollajen, retiküler ve elastik lifler) ve temel maddeyi (proteoglikanlar, glikozaminoglikanlar/hiyalüronik asit ve fibronektin gibi multiadeziv glikoproteinler) sentezleyip salgılarlar.\nÇeldiriciler:\n- B) Adipositler (yağ hücreleri); bağ dokusunda trigliserit (nötral yağ) depolayan, ısı izolasyonu sağlayan ve leptin/adiponektin gibi hormonlar üreten hücrelerdir.\n- C) Makrofajlar (histiyositler); kandaki monositlerden köken alan, fagositoz yapan, doku yıkım ürünlerini temizleyen ve T lenfositlere antijen sunan bağışıklık hücreleridir.\n- D) Mast hücreleri; kemik iliği kökenli olup yüzeylerinde yüksek afiniteli IgE ($\\text{Fc}\\varepsilon\\text{RI}$) reseptörleri taşıyan, granüllerinde histamin, heparin ve triptaz barındırarak tip I aşırı duyarlılık (alerji/anafilaksi) reaksiyonlarını başlatan hücrelerdir.\n- E) Plazma hücreleri; uyarılmış B lenfositlerin farklılaşmasıyla oluşan, hümoral bağışıklık için spesifik antikor (immünoglobulin) üreten hücrelerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hiyalin kıkırdağın hücreler arası maddesinde aşağıdakilerden hangisi bulunmaz?",
+    "options": {
+      "A": "Tip II kollajen",
+      "B": "Kondroitin sülfat",
+      "C": "Kondronektin",
+      "D": "Kılcal damarlar",
+      "E": "Hiyalüronik asit"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tüm kıkırdak dokuları (hiyalin, elastik ve fibröz kıkırdak) tamamen avaskülerdir; yani hücreler arası matrikslerinde kan damarları (kılcal damarlar), lenfatik damarlar ve sinir lifleri bulunmaz. Hiyalin kıkırdak içindeki kondrositlerin beslenmesi ve oksijenlenmesi, kıkırdağı dıştan saran vasküler bağ dokusu kılıfı olan perikondriyumdaki (eklem kıkırdağında ise sinoviyal sıvıdaki) maddelerin jel kıvamındaki matriksten difüzyonu ile sağlanır.\nÇeldiriciler:\n- A) Tip II kollajen; hiyalin kıkırdak ekstraselüler matriksinin kuru ağırlığının yaklaşık %40'ını oluşturan en temel fibriler proteindir.\n- B) Kondroitin sülfat; keratan sülfat ile birlikte agrekan proteoglikan monomerlerinin yapısına katılan ve matrikse bazofilik/metakromatik boyanma ile su tutma özelliği kazandıran sülfatlı glikozaminoglikandır.\n- C) Kondronektin; kıkırdak matriksinde bulunan ve kondrositlerin yüzeyindeki integrinlerin Tip II kollajen ve proteoglikanlara tutunmasını sağlayan multiadeziv glikoproteindir.\n- E) Hiyalüronik asit (hiyalüronan); yüzlerce agrekan proteoglikan monomerinin bağlantı proteinleri aracılığıyla üzerine bağlanarak devasa proteoglikan agregatlarını oluşturduğu sülfatsız glikozaminoglikan omurgasıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Epitelde lümenden dokulara serbest madde geçişini engelleyen hücreler arası bağlantı ünitesi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Gap junction",
+      "B": "Hemidesmozom",
+      "C": "Desmozom",
+      "D": "Sıkı bağlantı",
+      "E": "Ara bağlantı"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sıkı bağlantılar (tight junction / zonula occludens), polarize epitel hücrelerinin en apikal (lümene en yakın) kısımlarında hücreyi bir kemer (kuşak) gibi çepeçevre saran ve komşu iki hücrenin dış zar yapraklarını birbirine kaynaştıran bağlantılardır. Yapılarında bulunan \"okludin (occludin)\" ve \"klaudin (claudin)\" transmembran proteinleri (sitoplazmada ZO-1, ZO-2, ZO-3 aracılığıyla aktin filamanlarına bağlanırlar), hücreler arası (paraselüler) aralığı mühürleyerek lümenden dokulara su ve suda çözünen maddelerin serbest geçişini engeller ve kan-beyin, kan-testis, bağırsak-lümen gibi fizyolojik epitel bariyerlerini oluşturur.\nÇeldiriciler:\n- A) Gap junction (neksus / oluklu bağlantı); komşu hücreler arasında konnekson kanalları aracılığıyla iyon ve küçük moleküllerin (cAMP, $\\text{Ca}^{2+}$, ATP) doğrudan sitoplazmadan sitoplazmaya geçişini sağlayan iletişim bağlantısıdır.\n- B) Hemidesmozom; epitel hücresinin bazal zarını integrinler aracılığıyla alttaki bazal laminaya bağlayan tutunma plağıdır, paraselüler bariyer oluşturmaz.\n- C) Desmozom (macula adherens); komşu iki hücreyi kadherin ailesinden desmoglein ve desmokolin proteinleri ve sitoplazmik keratin ara filamanları aracılığıyla noktasal olarak birbirine perçinleyen mekanik dayanıklılık bağlantısıdır.\n- E) Ara bağlantı (zonula adherens); sıkı bağlantının hemen altında yer alan, E-kadherin ve katenin kompleksleri aracılığıyla komşu hücrelerin aktin iskeletlerini birbirine bağlayan mekanik tutunma kuşağıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücreler arası bağlantıların hangisinde integrin proteinleri rol alır?",
+    "options": {
+      "A": "Macula adherens",
+      "B": "Hemidesmosom",
+      "C": "Zonula adherens",
+      "D": "Zonula occludens",
+      "E": "Gap junction (Nexus)"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İntegrinler, hücre-hücre bağlantılarından ziyade \"hücre-ekstraselüler matriks\" bağlantılarında (hemidesmozom ve fokal adezyonlarda) görev alan heterodimerik ($\\alpha$ ve $\\beta$ alt birimli) transmembran adezyon reseptörleridir. Epitel hücrelerinin bazal yüzünde bulunan hemidesmozomlarda, transmembran proteini olan $\\alpha_6\\beta_4$ integrin (ve BP180 / Tip XVII kollajen), hücre içinde plektin ve erbin plak proteinleri aracılığıyla keratin ara filamanlarına bağlanırken, hücre dışında bazal laminanın laminin ve Tip IV kollajen moleküllerine tutunur.\nÇeldiriciler:\n- A) Macula adherens (desmozom); hücre-hücre bağlantısıdır ve transmembran adezyon proteini olarak integrin değil, kadherin ailesinden desmoglein ve desmokolin içerir.\n- C) Zonula adherens; hücre-hücre tutunma kuşağıdır ve kalsiyum bağımlı E-kadherin (epitelyal kadherin) proteinleri görev alır.\n- D) Zonula occludens (sıkı bağlantı); hücreler arası aralığı kapatan okludin, klaudin ve JAM (junctional adhesion molecule) transmembran proteinlerini içerir.\n- E) Gap junction (neksus); 6 adet konneksin (connexin) alt biriminin birleşmesiyle oluşan konnekson kanallarını içerir, integrin bulundurmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Birleşik asiner yapıda seröz bir bez ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Çok hücrelidir.",
+      "B": "Ekzokrin salgılama yapar.",
+      "C": "Salgısı protein yapılıdır.",
+      "D": "Salgı hücreleri, hematoksilen-eosin ile yoğun boyanırlar.",
+      "E": "Salgı hücrelerinin çekirdekleri yassılaşmış ve bazaldedir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Seröz bez asinüslerini (örneğin parotis bezi ve ekzokrin pankreas) oluşturan piramidal şekilli seröz hücrelerin çekirdekleri yassılaşmış değil, \"yuvarlak veya oval\" şekillidir ve hücrenin bazal üçte birlik kısmına yakın yerleşir. Çekirdeğin yassılaşmış olması ve hücrenin en bazal sınırına doğru itilmiş olması, sitoplazması yoğun müsin (mukus) damlacıklarıyla dolup şişen \"müköz salgı hücrelerinin\" karakteristik histolojik özelliğidir.\nÇeldiriciler:\n- A) Birleşik asiner bezler, dallanmış boşaltım kanalları ve çok sayıda salgı son kısmından (asinüsten) oluşan çok hücreli büyük bezlerdir (Doğru ifade).\n- B) Ürettikleri salgıyı dallanmış kanallar sistemi aracılığıyla bir lümene veya vücut boşluğuna (örneğin ağız boşluğu veya duodenuma) boşalttıkları için ekzokrin bezdirler (Doğru ifade).\n- C) Seröz hücrelerin salgısı sulu ve enzim/protein (amilaz, tripsinojen, lipaz vb.) açısından zengindir (Doğru ifade).\n- D) Seröz hücreler yoğun protein sentezi yaptıkları için bazal kısımlarında bol granüllü ER (bazofilik/mor boyanma) ve apikal kısımlarında bol zimojen granülü (eozinofilik/pembe boyanma) içerir; bu nedenle H&E ile koyu ve yoğun boyanırlar (müköz hücreler ise mukus eridiği için soluk/köpüksü görünür) (Doğru ifade).",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Farklılaşmış hücrelerin tümünün çekirdeğinde bulunan intermediyer filaman aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sitokeratin",
+      "B": "Vimentin",
+      "C": "Lamin",
+      "D": "Nestin",
+      "E": "Desmin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Ara (intermediyer) filamanların büyük çoğunluğu sitoplazmada bulunur ve sadece belirli bir doku tipine özgüdür; ancak Tip V ara filamanlar olan nükleer laminler (Lamin A, B ve C), doku tipinden bağımsız olarak çekirdekli (nükleuslu) tüm farklılaşmış ökaryotik hücrelerin çekirdeğinde ortak olarak bulunur. Çekirdek iç zarının hemen altında ağsı bir \"nükleer lamina\" tabakası oluşturarak çekirdek zarfına yapısal destek verir ve kromatin organizasyonunu düzenler (mitoz başında CDK1 tarafından fosforile edilince çözülürler).\nÇeldiriciler:\n- A) Sitokeratin; çekirdekte değil sitoplazmada bulunur ve yalnızca epitel hücrelerine özgüdür.\n- B) Vimentin; sitoplazmik bir ara filaman olup yalnızca mezenkimal (bağ dokusu) kökenli hücrelerde bulunur.\n- D) Nestin; farklılaşmış hücrelerin çekirdeğinde değil, embriyonik nöral kök/progenitör hücrelerin sitoplazmasında bulunan Tip VI ara filamandır.\n- E) Desmin; yalnızca kas hücrelerinin sitoplazmasında bulunan dokuya özgü ara filamandır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lamin-A proteini aşağıdakilerden hangisinin yapısında bulunur?",
+    "options": {
+      "A": "Hücre membranı",
+      "B": "Çekirdek membranı",
+      "C": "Granüllü endoplazmik retikulum",
+      "D": "Peroksizom",
+      "E": "Mitokondri"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Lamin-A (Lamin B ve C ile birlikte), çekirdek membranının (nükleer zarfın) iç zarının nükleoplazmaya bakan yüzünü döşeyen fibriler bir ağ olan nükleer laminanın temel yapısal ara filaman proteinidir. Çekirdek membranının şeklini ve mekanik stabilitesini korur, nükleer por komplekslerini sabitler ve interfaz kromatininin çekirdek zarına tutunmasını sağlar. (Lamin A genindeki LMNA mutasyonları, çekirdek zarı deformitesi ve erken yaşlanma ile seyreden Hutchinson-Gilford Progeria sendromuna neden olur).\nÇeldiriciler:\n- A) Hücre membranı (plazmalemma); iç yüzünde lamin değil, spektrin ve aktin bazlı membran iskeleti proteinlerini barındırır.\n- C) Granüllü endoplazmik retikulum; çekirdek dış zarıyla devamlılık gösterse de nükleer lamina ve Lamin-A içermez.\n- D) Peroksizom; sitoplazmada yer alan ve katalaz/oksidaz enzimleri içeren tek zarlı organeldir, yapısında lamin bulunmaz.\n- E) Mitokondri; iç ve dış membrana sahip ATP üretim organelidir, ara filaman veya lamin içermez.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mikrovillusun yapısındaki aktin filamanlarını birbirine bağlayan protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fimbrin",
+      "B": "Spektrin",
+      "C": "Cap Z",
+      "D": "Miyozin I",
+      "E": "Gelsolin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Mikrovillusun merkezinde boyuna uzanan 20-30 adet paralel F-aktin mikrofilamanını birbirine enine (çapraz) bağlayarak sıkı ve dik duran bir demet haline getiren temel aktin demetleyici proteinler \"fimbrin\" (plastin), \"villin\", \"fascin\" ve \"espin\"dir.\nÇeldiriciler:\n- B) Spektrin; mikrovillusun içinde değil, mikrovillusların tabanındaki terminal ağda (terminal web) ve eritrosit gibi hücrelerin zarının hemen altındaki kortikal hücre iskeletinde yer alan tetramerik proteindir.\n- C) Cap Z; çizgili kas sarkomerlerinde F-aktin filamanlarının artı (+) uçlarını Z çizgisine bağlayan ve filamanın uzamasını/kısalmasını önleyen şapka (başlık) proteinidir.\n- D) Miyozin I; aktin filamanlarını birbirine değil, en dıştaki aktin demetini mikrovillusun plazma membranına bağlayan proteindir.\n- E) Gelsolin; hücre içi kalsiyum ($\\text{Ca}^{2+}$) arttığında aktin filamanlarını keserek (fragmantasyon) sitoplazmayı jel halinden sol (akışkan) haline dönüştüren proteindir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi holokrin salgılama yapar?",
+    "options": {
+      "A": "Ter bezleri",
+      "B": "Tükürük bezleri",
+      "C": "Derinin sebase bezleri",
+      "D": "Memenin laktasyon bezleri",
+      "E": "Pankreasın asiner bezleri"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Holokrin salgılamada, salgı üreten hücre olgunlaşırken sitoplazmasında bol miktarda salgı ürünü (lipit) biriktirir; ardından hücre çekirdeği büzüşüp parçalanır (piknoz/karyoreksis), hücre programlı olarak ölür ve parçalanan hücrenin tamamı içerdiği salgıyla birlikte lümene atılır. Deride kıl foliküllerine açılan sebase bezler (yağ bezleri; sebum üretir) ve göz kapağındaki tarsal Meibomian bezleri holokrin salgılamanın klasik örnekleridir. Kaybedilen hücreler bezin bazalindeki kök hücrelerin mitozuyla sürekli yenilenir.\nÇeldiriciler:\n- A) Ekrin ter bezleri merokrin (ekzositoz), koltuk altındaki apokrin ter bezleri ise apokrin tipte salgılama yapar; holokrin değillerdir.\n- B) Tükürük bezleri (parotis, submandibular ve sublingual); hem seröz hem de müköz salgılarını hücre bütünlüğü bozulmadan merokrin (ekzositoz) yolla salgılarlar.\n- D) Memenin laktasyon bezleri; süt lipitlerini apokrin (apikal sitoplazma kopması), süt proteinlerini ise merokrin (ekzositoz) yolla salgılar.\n- E) Pankreasın asiner bezleri; zimojen granüllerini merokrin (ekzositoz) yolla pankreas kanalına boşaltır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi osteoklastlar tarafından salgılanır?",
+    "options": {
+      "A": "Osteoprotegerin",
+      "B": "Katepsin K",
+      "C": "Osteokalsin",
+      "D": "Osteoid",
+      "E": "Kemik sialoprotein"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Kemik yıkımından (rezorpsiyonundan) sorumlu çok çekirdekli dev hücreler olan osteoklastlar, kemiğe tutundukları \"kıvrımlı kenar (ruffled border)\" altındaki Howship lakünasına önce $\\text{H}^+\\text{-ATPaz}$ pompasıyla asit ($\\text{HCl}$) salgılayarak inorganik hidroksiapatit kristallerini çözerler. Hemen ardından organik kemik matriksini (Tip I kollajeni) parçalamak üzere lizozomal bir sistein proteaz olan \"Katepsin K\" (Cathepsin K), tartarat-dirençli asit fosfataz (TRAP) ve matriks metalloproteinaz-9 (MMP-9) enzimlerini salgılarlar.\nÇeldiriciler:\n- A) Osteoprotegerin (OPG); osteoklastlar tarafından değil, osteoblastlar ve stromal hücreler tarafından salgılanan, RANKL'a bağlanarak osteoklast oluşumunu ve kemik yıkımını engelleyen \"tuzak reseptör\"dür.\n- C) Osteokalsin; K vitaminine bağımlı olarak osteoblastlar tarafından sentezlenen ve kemik mineralizasyonunda (kalsiyum bağlanmasında) görev alan non-kollajenöz matriks proteinidir.\n- D) Osteoid; osteoblastlar tarafından yeni sentezlenmiş, henüz kalsifiye olmamış organik kemik matriksidir (başlıca Tip I kollajen ve proteoglikanlardan oluşur).\n- E) Kemik sialoprotein; osteoblastlar tarafından salgılanan ve osteoblastların kemik matriksine tutunmasını ve hidroksiapatit çekirdeklenmesini sağlayan glikoproteindir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Cilt dokusunda hücreyi mekanik strese karşı koruyan, hücre-hücre bağlantısı sağlayan ve intermediyer filamanları sitoplazmik plağa tutunan bağlantı kompleksi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Desmozom",
+      "B": "Hemidesmozom",
+      "C": "Gap junction",
+      "D": "Zonula occludens",
+      "E": "Bazal membran"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Desmozom (macula adherens), sürtünme ve çekme gibi mekanik strese yoğun maruz kalan dokularda (özellikle epidermiste/cilt dokusunda stratum spinosum tabakasında ve kalp kasında) komşu iki hücreyi birbirine noktasal olarak çok güçlü şekilde bağlayan \"hücre-hücre\" bağlantı kompleksidir. Hücreler arası aralıkta kadherin ailesinden desmoglein ve desmokolin proteinleri birbirine kenetlenirken, hücre içinde desmoplakin ve plakoglobin içeren yoğun sitoplazmik plağa \"intermediyer (ara) filamanlar\" (epidermiste keratin, kalp kasında desmin) saç tokası gibi tutunup geri döner. (Desmogleinlere karşı otoantikor gelişmesi cildin büllöz hastalığı olan Pemfigus vulgaris'e yol açar).\nÇeldiriciler:\n- B) Hemidesmozom; ara filamanların (keratinin) tutunduğu bir plak içerse de, hücre-hücre bağlantısı değil, epitel hücresini alttaki bazal laminaya bağlayan \"hücre-matriks\" bağlantısıdır.\n- C) Gap junction (neksus); mekanik stres bağlantısı değil, hücreler arası iyon geçişini sağlayan iletişim kanalıdır ve hücre iskeleti filamanlarına tutunmaz.\n- D) Zonula occludens (sıkı bağlantı); paraselüler geçişi kapatan apikal bariyer bağlantısıdır ve ara filamanlarla değil, ZO proteinleri üzerinden aktin mikrofilamanlarıyla ilişkilidir.\n- E) Bazal membran; bir bağlantı kompleksi değil, epitelin üzerine oturduğu Tip IV kollajen ve lamininden zengin hücre dışı matriks tabakasıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi epidermisin histolojik incelemesinde ağırlıklı olarak kalın deride görülür?",
+    "options": {
+      "A": "Stratum lucidum",
+      "B": "Stratum spinosum",
+      "C": "Stratum granulosum",
+      "D": "Stratum basale",
+      "E": "Stratum corneum"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Deri histolojik olarak epidermis kalınlığına göre \"ince deri\" (4 tabakalı) ve \"kalın deri\" (5 tabakalı; el içi ve ayak tabanı gibi kılsız bölgeler) olarak ikiye ayrılır. Stratum granulosum ile stratum corneum arasında yer alan, çekirdek ve organellerini kaybetmiş, içleri eleidin (olgunlaşmamış keratin) filamanlarıyla dolu, eozinofilik ve yarı saydam (ışığı kıran) ince bir tabaka olan \"Stratum lucidum\", yalnızca kalın deride belirgin olarak görülür; ince deride bulunmaz.\nÇeldiriciler:\n- B) Stratum spinosum (dikensi tabaka); desmozom bağlantılarının ve Langerhans hücrelerinin yoğun olduğu, hem ince hem de kalın deride bulunan temel epidermis tabakasıdır.\n- C) Stratum granulosum; bazofilik keratohiyalin granülleri ve su geçirmez lipid bariyer oluşturan lameller (Odland) cisimcikleri içeren, hem ince hem de kalın deride bulunan tabakadır.\n- D) Stratum basale (stratum germinativum); bazal membran üzerinde yer alan, mitotik kök hücreleri, melanositleri ve Merkel hücrelerini barındıran, tüm deri tiplerinde bulunan en alt tabakadır.\n- E) Stratum corneum; en dışta yer alan ölü, yassı ve keratinize hücrelerden (korneositlerden) oluşan, kalın deride çok daha kalın olmakla birlikte hem ince hem de kalın deride bulunan tabakadır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, kemik dokusunda alkalen fosfataz salgılayan hücrelerden biridir?",
+    "options": {
+      "A": "Osteoklast",
+      "B": "Osteoblast",
+      "C": "Periosteal hücre",
+      "D": "Osteosit",
+      "E": "Endosteal hücre"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Osteoblastlar, mezenkimal kök hücrelerden farklılaşan ve kemiğin hem organik matriksini (osteoid: Tip I kollajen, osteokalsin, osteonektin) sentezleyen hem de bu matriksin kalsifikasyonunu (mineralizasyonunu) gerçekleştiren kemik yapım hücreleridir. Aktif osteoblastlar hücre zarlarında ve salgıladıkları matriks veziküllerinde yüksek miktarda \"Alkalen Fosfataz (ALP)\" enzimi bulundururlar. ALP, mineralizasyon inhibitörü olan pirofosfatı parçalayıp lokal inorganik fosfat ($\\text{PO}_4^{3-}$) konsantrasyonunu artırarak kalsiyum fosfat (hidroksiapatit) kristallerinin çökmesini sağlar; bu nedenle serum kemik spesifik ALP düzeyi osteoblastik kemik yapımının en önemli klinik belirtecidir.\nÇeldiriciler:\n- A) Osteoklast; kemik yapımında değil kemik yıkımında görev alır ve alkalen fosfataz yerine \"asit fosfataz\" (TRAP: tartarat-dirençli asit fosfataz) ve Katepsin K salgılar.\n- C) Periosteal hücre (osteoprogenitör hücre); periosteumun iç tabakasında bulunan dinlenim halindeki öncül kök hücredir, osteoblasta farklılaşmadan aktif matriks/ALP salgısı yapmaz.\n- D) Osteosit; kendi sentezlediği kalsifiye matriks içindeki lakünalarda hapsolmuş olgun, metabolik aktivitesi yavaşlamış kemik hücresidir; mekanosensör olarak görev yapar ve sklerostin salgılar.\n- E) Endosteal hücre (kemik yüzey/lining hücresi); kemik yapımı olmayan inaktif yüzeyleri tek katlı yassı şekilde örten, dinlenim halindeki hücredir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi osteoklastın özelliklerinden biri değildir?",
+    "options": {
+      "A": "Büyük hacimli, mitokondriden zengin hücrelerdir.",
+      "B": "Genellikle birden fazla çekirdekleri vardır.",
+      "C": "Osteonektin glikoproteinini salgılar.",
+      "D": "Howship lakünalarında oturur.",
+      "E": "Kemik iliği hematopoietik progenitör hücrelerinden köken alır."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Osteonektin, kollajen lifleri ile hidroksiapatit kristalleri arasında köprü kurarak kemik mineralizasyonunu başlatan bir glikoproteindir ve kemik yıkım hücresi olan osteoklastlar tarafından değil, kemik yapım hücresi olan \"osteoblastlar\" tarafından sentezlenip salgılanır.\nÇeldiriciler:\n- A) Osteoklastlar $20-100\\ \\mu\\text{m}$ çapında çok büyük hacimli hücrelerdir ve rezorpsiyon lakünasına sürekli $\\text{H}^+$ pompalamak (ATP harcamak) zorunda oldukları için sitoplazmaları mitokondriden çok zengindir (asidofilik boyanır) (Doğru özellik).\n- B) Çok sayıda mononükleer öncül hücrenin birleşmesiyle (füzyonuyla) oluştukları için sitoplazmalarında 5 ila 50 arasında değişen sayıda çoklu çekirdek (multinükleer yapı) bulunur (Doğru özellik).\n- D) Aktif osteoklastlar, kemik yüzeyinde enzimatik olarak oydukları sığ çöküntüler olan \"Howship lakünaları\" (rezorpsiyon koyları) içine otururlar (Doğru özellik).\n- E) Osteoblastlar mezenkimal kök hücre kökenli iken, osteoklastlar kemik iliğindeki hematopoietik kök hücrelerden gelişen \"monosit-makrofaj (CFU-GM)\" progenitör hattından köken alırlar (Doğru özellik).",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Temporomandibular eklem artiküler diski – Fibröz\nII. Epiglottis – Hiyalin\nIII. Kulak kepçesi – Elastik\n\nYukarıda verilen anatomik oluşumlar ve bunların içerdiği kıkırdak doku tipi eşleştirmelerinden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız II",
+      "B": "Yalnız III",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Temporomandibular eklem (TME) diski yoğun çiğneme kuvvetlerine direnç gösteren fibröz kıkırdak yapısındadır (I doğru); kulak kepçesi ise bükülebilir elastik kıkırdak içerir (III doğru). Epiglottis hiyalin değil elastik kıkırdak içerdiği için II. öncül yanlıştır.\nÖncüllerin Analizi:\n- I. Temporomandibular eklem artiküler diski – Fibröz: TME, vücuttaki diğer sinoviyal eklemlerden (hiyalin kıkırdak içerirler) farklı olarak hem eklem yüzlerinde hem de eklem içi artiküler diskinde Tip I kollajence zengin fibröz kıkırdak (fibrokıkırdak) barındırır (Doğru).\n- II. Epiglottis – Hiyalin: Epiglottis, yutkunma sırasında sürekli bükülüp eski haline dönmesi gerektiği için hiyalin kıkırdak değil, elastik kıkırdak içerir (Yanlış).\n- III. Kulak kepçesi – Elastik: Aurikula (kulak kepçesi), dış kulak yolu ve östaki borusu ile birlikte tipik olarak elastik kıkırdak yapısındadır (Doğru).\nÇeldiriciler:\n- A) Yalnız II seçeneği, epiglottisi hiyalin kıkırdak olarak yanlış eşleştirdiği için hatalıdır.\n- B) Yalnız III seçeneği doğru bir eşleştirme içerse de, doğru olan I. öncülü dışarıda bıraktığı için eksiktir.\n- C) I. öncül doğru, ancak II. öncül (epiglottis) yanlış olduğu için bu seçenek hatalıdır.\n- E) II. öncül yanlış olduğu için tüm öncülleri içeren bu seçenek hatalıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ağız epitelinde hücre bölünmesinin en yoğun olduğu tabaka aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Stratum intermedium",
+      "B": "Stratum granulosum",
+      "C": "Stratum corneum",
+      "D": "Stratum basale",
+      "E": "Stratum spinosum"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Ağız mukozasını döşeyen çok katlı yassı epitelin (ister çiğneme mukozası gibi keratinize/parakeratinize, ister örtü mukozası gibi non-keratinize olsun) bazal lamina üzerine oturan en alt tabakası olan \"Stratum basale\", mitotik aktivitesi en yüksek olan epitelyal kök/progenitör hücreleri barındırır. Bu tabakaya hücre bölünmesinin (mitozun) ve epitel yenilenmesinin merkezi olması nedeniyle \"stratum germinativum\" (doğurucu tabaka) adı da verilir.\nÇeldiriciler:\n- A) Stratum intermedium; non-keratinize ağız mukozasında stratum spinosumun üzerinde yer alan, hücrelerin yassılaşmaya başladığı ve glikojen biriktirdiği ara tabakadır; mitoz görülmez.\n- B) Stratum granulosum; keratinize ağız mukozasında (sert damak, diş eti) keratohiyalin granüllerinin bulunduğu, hücrelerin apoptoz/kornifikasyon sürecine girdiği ve mitozun olmadığı üst tabakadır.\n- C) Stratum corneum; en yüzeyde yer alan, çekirdeklerini ve bölünme yeteneklerini tamamen kaybetmiş keratin dolu ölü hücrelerden oluşan tabakadır.\n- E) Stratum spinosum; bazal tabakanın hemen üzerinde yer alır, alt sıralarında sınırlı sayıda bölünme görülebilse de mitozun en yoğun olduğu asıl kök hücre tabakası stratum basaledir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hematoksilen-eozin ile boyanmış bir doku kesitinin mikroskopik görüntüsü verilmiştir. Bu görüntüye ait doku aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hiyalin kıkırdak",
+      "B": "Çok katlı yassı epitel",
+      "C": "Gevşek bağ doku",
+      "D": "Kompakt kemik",
+      "E": "Spongioz kemik"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hiyalin kıkırdağın hematoksilen-eozin ile boyanmış karakteristik mikroskopik görüntüsünde; homojen, camsı (hiyalin) ve bazofilik boyanan bir ekstraselüler matriks (Tip II kollajen fibrilleri matriksteki proteoglikanlarla aynı kırılma indisine sahip olduğu için ayrı lifler halinde seçilemez) içinde, \"laküna\" adı verilen boşluklara yerleşmiş yuvarlak kondrositler izlenir. Bu kondrositlerin tek bir öncül hücrenin mitozuyla oluşup küme halinde (2-8 hücreli) bir arada bulunmasıyla oluşan \"izojen gruplar\" ve çevrelerindeki koyu bazofilik teritoryal matriks, hiyalin kıkırdak için tanı koydurucudur.\nÇeldiriciler:\n- B) Çok katlı yassı epitel; hücreler arası matriksin neredeyse hiç olmadığı, hücrelerin birbirine sıkıca kenetlenerek serbest bir yüzeyi örttüğü avasküler doku görüntüsü verir.\n- C) Gevşek bağ doku; düzensiz dağılmış pembe kollajen lifleri, bol vasküler yapılar ve dağınık fibroblast, makrofaj, mast hücrelerinden oluşur; laküna ve izojen grup içermez.\n- D) Kompakt kemik; ortasında Havers kanalı bulunan ve konsantrik kemik lamellerinden oluşan silindirik osteon (Havers sistemi) yapıları ve kanaliküllerle birbirine bağlı küçük yassı osteosit lakünaları ile karakterizedir.\n- E) Spongioz (süngerimsi) kemik; aralarında kemik iliği boşlukları (yağ hücreleri ve hematopoietik hücreler) bulunan anastomozlaşan kemik trabeküllerinden (spiküllerinden) oluşur.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hâlsizlik şikâyeti olan 25 yaşındaki hasta, düşüp femur başını kırıyor. Radyolojik incelemede kemik yapısının kalınlaştığı ve kemik iliği kavitesinin normale kıyasla daraldığı tespit ediliyor. Bu hastada aşağıdaki hücrelerin hangisinde işlev bozukluğu olması en olasıdır?",
+    "options": {
+      "A": "Osteoklast",
+      "B": "Osteosit",
+      "C": "Osteoprogenitör hücre",
+      "D": "Kondroblast",
+      "E": "Kondroklast"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Klinik tabloda tarif edilen durum \"Osteopetrozis\" (mermer kemik hastalığı / Albers-Schönberg hastalığı) olup temel patofizyolojisi kemik yıkımından (rezorpsiyonundan) sorumlu olan \"osteoklastların\" işlev bozukluğudur (sıklıkla karbonik anhidraz II veya $\\text{H}^+\\text{-ATPaz}$ proton pompası/ClC-7 klor kanalı mutasyonları). Osteoklastlar kemik yıkımı ve yeniden şekillenmeyi (remodeling) yapamadığı için osteoblastların ürettiği kemik birikir; kemik korteksi aşırı kalınlaşır, radyolojide yoğun (sklerotik) görünür ancak iç mimarisi bozuk olduğu için tebeşir gibi kırılgan hale gelir (patolojik femur kırığı). Ayrıca kalınlaşan kemik, kemik iliği kavitesini daraltıp yok ettiği için hematopoez bozulur ve pansitopeni/anemi (hâlsizlik) gelişir.\nÇeldiriciler:\n- B) Osteosit işlev bozukluğu kemik mekanotransdüksiyonunu etkiler ancak kemik iliği kavitesini tıkayacak düzeyde yaygın rezorpsiyon kaybı (osteopetrozis) yapmaz.\n- C) Osteoprogenitör hücre veya osteoblast işlev bozukluğu; kemik yapımının azalmasına (osteopeni/osteoporoz) ve kemik korteksinin incelmesine yol açar.\n- D) Kondroblast işlev bozukluğu; kıkırdak matriks sentezini ve uzun kemiklerin boyuna uzamasını bozar (akondroplazi benzeri cücelik tabloları).\n- E) Kondroklast; gelişmekte olan enkondral kemikleşmede kalsifiye kıkırdağı yıkan hücredir; erişkin kemikte kortikal kalınlaşma ve medüller kavite daralmasından doğrudan osteoklast sorumludur.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki epitel bağlantı komplekslerinden hangisinin hücre iskeleti komponenti yoktur?",
+    "options": {
+      "A": "Zonula occludens",
+      "B": "Zonula adherens",
+      "C": "Desmozom",
+      "D": "Fokal adezyon",
+      "E": "Gap junction"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Gap junction (neksus / oluklu bağlantı), komşu iki hücrenin plazma membranlarında yer alan konnekson (6 adet konneksin proteininden oluşan) yarım kanallarının uç uca kenetlenmesiyle oluşan hidrofilik iyon ve küçük molekül kanalıdır. Temel görevi mekanik tutunma değil elektriksel ve metabolik iletişim olduğu için, hücre içindeki aktin mikrofilamanları veya ara filamanlar gibi herhangi bir hücre iskeleti elemanıyla doğrudan bağlantı kurmaz (hücre iskeleti komponenti yoktur).\nÇeldiriciler:\n- A) Zonula occludens (sıkı bağlantı); okludin ve klaudin proteinleri, sitoplazmik ZO-1, ZO-2, ZO-3 proteinleri aracılığıyla \"aktin mikrofilamanlarına\" bağlanır.\n- B) Zonula adherens; E-kadherin molekülleri, katenin, vinkülin ve alfa-aktinin aracılığıyla hücre içindeki \"aktin mikrofilamanlarına\" tutunur.\n- C) Desmozom (macula adherens); desmoglein ve desmokolinler, desmoplakin ve plakoglobin içeren sitoplazmik plak üzerinden \"ara filamanlara (keratin/desmin)\" bağlanır.\n- D) Fokal adezyon; hücreyi ekstraselüler matrikse (fibronektine) bağlayan integrinlerin, hücre içinde talin, vinkülin ve паksillin aracılığıyla \"aktin mikrofilamanlarına (stres liflerine)\" tutunduğu bağlantıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mitral kapak yetersizliği olan 17 yaşında ve 1,95 m boyundaki erkek hastanın fizik muayenesinde, göğüs kafesinde hafif içe çöküklük ve araknodaktili izleniyor. Genetik test sonucunda fibrilin gen defekti saptanıyor. Bu hastada aşağıdaki bağ doku tiplerinden hangisinin yapısı bozulmuştur?",
+    "options": {
+      "A": "Elastik bağ dokusu",
+      "B": "Hiyalin kıkırdak dokusu",
+      "C": "Müköz bağ dokusu",
+      "D": "Kahverengi yağ dokusu",
+      "E": "Retiküler bağ dokusu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Uzun boy, örümcek parmaklılık (araknodaktili), göğüs kafesi deformitesi (pektus ekskavatum), lens dislokasyonu ve mitral kapak prolapsusu/yetmezliği ile aort anevrizması bulguları; 15. kromozomdaki \"Fibrillin-1 (FBN1)\" gen mutasyonu sonucu gelişen otozomal dominant \"Marfan sendromu\" için tipiktir. Fibrillin-1 glikoproteini, elastik liflerin çevresindeki mikrofibriler çatıyı (iskeleti) oluşturur ve amorf elastin proteininin düzgün birikmesini sağlar. Bu nedenle fibrillin defektinde başta aort duvarı, kalp kapakları, lensi asan zonula lifleri ve periosteumda bulunan \"elastik bağ dokusu\"nun yapısı bozulur.\nÇeldiriciler:\n- B) Hiyalin kıkırdak dokusu; Tip II kollajen ve agrekan içerir, fibrillin defektinden birincil olarak etkilenen doku değildir (Tip II kollajen defektleri akondrogenezis/Stickler sendromu yapar).\n- C) Müköz (mükoz) bağ dokusu; göbek kordonundaki Wharton jölesinde ve diş pulpasında bulunan, hiyalüronik asitten zengin embriyonik bağ dokusudur.\n- D) Kahverengi yağ dokusu; yenidoğanlarda ısı üretiminden (termogenez) sorumlu multiloküler yağ dokusudur.\n- E) Retiküler bağ dokusu; lenfoid organlar (dalak, lenf düğümü) ve kemik iliğinin çatısını oluşturan Tip III kollajen (retiküler lif) ağından ibarettir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Epidermis\nII. Kıl follikülü\nIII. Yağ bezi\nIV. Ekrin ter bezi\n\nDeride yer alan yukarıdaki yapılardan hangileri melanosit içerir?",
+    "options": {
+      "A": "I ve II",
+      "B": "I ve III",
+      "C": "II ve III",
+      "D": "II ve IV",
+      "E": "I, III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Nöral krest kökenli pigment üreten hücreler olan melanositler, deride iki temel anatomik yerleşimde bulunur: Birincisi derinin rengini veren ve UV korumasını sağlayan \"epidermisin stratum basale tabakası\" (I), ikincisi ise kılın (saçın) rengini veren \"kıl follikülünün bulbus (matriks) kısmı\"dır (II). Sebase yağ bezlerinde ve ekrin ter bezlerinde fizyolojik olarak melanosit bulunmaz.\nÖncüllerin Analizi:\n- I. Epidermis: Stratum basale tabakasında her 4-10 bazal keratinosite karşılık 1 melanosit bulunur ve epidermal melanin ünitesini oluşturur (Doğru).\n- II. Kıl follikülü: Kıl kökündeki dermal papillanın üzerindeki germinal matriks hücreleri arasında aktif melanositler bulunur ve üretilen melanini gelişen kıl korteksine aktarırlar (yaşla bu melanositlerin kaybı saç beyazlamasına neden olur) (Doğru).\n- III. Yağ bezi (Sebase bez): Holokrin yolla sebum (lipit) üreten bezlerdir, yapılarında melanosit bulunmaz (Yanlış).\n- IV. Ekrin ter bezi: Dermiste yerleşmiş, berrak/koyu salgı hücreleri ve miyoepitelyal hücrelerden oluşan basit tübüler kıvrımlı bezlerdir; melanosit içermezler (Yanlış).\nÇeldiriciler:\n- B) Epidermis (I) melanosit içerir ancak yağ bezi (III) içermez.\n- C) Kıl follikülü (II) melanosit içerir ancak yağ bezi (III) içermez.\n- D) Kıl follikülü (II) melanosit içerir ancak ekrin ter bezi (IV) içermez.\n- E) Yağ bezi (III) ve ekrin ter bezi (IV) melanosit içermediği için bu seçenek yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Temporomandibuler eklemin hangi bölümünde makrofaj benzeri fagositik hücreler bulunur?",
+    "options": {
+      "A": "Fibröz disk",
+      "B": "Eklem kıkırdağı",
+      "C": "Sinoviyal membran",
+      "D": "Eklem kapsülü",
+      "E": "Temporomandibular ligament"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Temporomandibular eklem dahil tüm sinoviyal eklemlerde, eklem kapsülünün iç yüzünü (eklem kıkırdağı ve disk yüzeyleri hariç) döşeyen \"sinoviyal membran\"ın (intima tabakası) yapısında bazal lamina üzerine oturmayan iki tip özel hücre (sinoviyosit) bulunur:\n1) **Tip A sinoviyositler (Makrofaj benzeri hücreler):** Kemik iliği (monosit) kökenlidirler, fagositoz yetenekleri çok gelişmiştir; eklem boşluğundaki ve sinoviyal sıvıdaki doku döküntülerini, aşınma partiküllerini ve yabancı maddeleri fagosite ederek temizlerler.\n2) **Tip B sinoviyositler (Fibroblast benzeri hücreler):** Mezenkimal kökenlidirler, sinoviyal sıvının kayganlaştırıcı bileşenleri olan hiyalüronik asit ve lubrisini (PRG4) sentezlerler.\nÇeldiriciler:\n- A) Fibröz disk; avasküler yoğun fibröz kıkırdak yapısında olup fibroblastlar ve kondrosit benzeri hücreler içerir, makrofaj benzeri sinoviyosit bulundurmaz.\n- B) Eklem kıkırdağı; avaskülerdir ve lakünalar içinde yalnızca kondrositleri (TME'de yüzeyde fibröz bağ doku hücrelerini) barındırır.\n- D) Eklem kapsülü (dış fibröz tabaka); sıkı bağ dokusu yapısında olup temel hücresi fibroblasttır.\n- E) Temporomandibular ligament; eklemi dıştan destekleyen sıkı düzenli bağ dokusu şerididir ve paralel kollajen demetleri arasında sıkışmış fibroblastlar (tendinositler) içerir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi nöral krest kökenlidir?",
+    "options": {
+      "A": "Parafolliküler hücre",
+      "B": "Pitüisit",
+      "C": "Pinealosit",
+      "D": "Glomerüler hücre",
+      "E": "Oksifil hücre"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Tiroid bezinde folikül bazal laminası içinde veya foliküller arası alanda yerleşen ve kalsitonin hormonu salgılayan \"parafolliküler hücreler (C hücreleri)\", embriyolojik olarak nöral krest hücrelerinin 4. faringeal (brankiyal) kese endodermiyle kaynaşan \"ultimobrankiyal cisim\" içine göç etmesiyle gelişir; dolayısıyla nöral krest (ektomezenkim) kökenlidirler.\nÇeldiriciler:\n- B) Pitüisit; nörohipofizde (arka hipofiz) hipotalamo-hipofizer aksonları destekleyen astroglia benzeri glia hücresidir ve \"nöroektoderm\" (infundibulum) kökenlidir.\n- C) Pinealosit; epifiz (pineal) bezinde melatonin salgılayan parankim hücresidir ve diensefalon tavanındaki \"nöroektoderm\"den köken alır.\n- D) Glomerüler hücre; adrenal korteksin zona glomerulosa hücreleri \"mezoderm\" (sölom epiteli), böbrek glomerül hücreleri ise \"intermediyer mezoderm\" kökenlidir.\n- E) Oksifil hücre; paratiroid bezinde bulunan bol mitokondrili asidofilik hücredir ve esas hücrelerle birlikte 3. ve 4. faringeal keselerin \"endoderm\"inden köken alır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin yapısında perikondriyum içermeyen hiyalin kıkırdak bulunur?",
+    "options": {
+      "A": "Kulak kepçesi",
+      "B": "Trakea",
+      "C": "Eklem kıkırdağı",
+      "D": "İntervertebral disk",
+      "E": "Epiglottis"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hiyalin kıkırdak normalde dıştan vasküler ve besleyici bir bağ dokusu kılıfı olan perikondriyum ile sarılıdır. Ancak bu kuralın iki önemli istisnası vardır: \"Eklem (artiküler) kıkırdakları\" ve \"epifiz büyüme plakları\" hiyalin kıkırdak yapısında olmalarına rağmen perikondriyum içermezler. Hareketli sinoviyal eklemlerin yüzlerini örten eklem kıkırdağında sürtünmeyi önlemek için yüzeyde perikondriyum bulunmaz; buradaki kondrositler doğrudan eklem boşluğundaki sinoviyal sıvıdan difüzyonla beslenirler (bu nedenle hasarlandığında perikondriyum kaynaklı rejenerasyon yapamazlar).\nÇeldiriciler:\n- A) Kulak kepçesi; hiyalin kıkırdak değil elastik kıkırdak yapısındadır ve etrafında perikondriyum bulunur.\n- B) Trakea; hiyalin kıkırdak halkalar içerir ancak bu halkaların etrafında belirgin bir perikondriyum tabakası mevcuttur.\n- D) İntervertebral disk; perikondriyum içermez ancak hiyalin kıkırdak değil, \"fibröz kıkırdak (fibrokıkırdak)\" yapısındadır.\n- E) Epiglottis; hiyalin kıkırdak değil elastik kıkırdak yapısındadır ve perikondriyum ile çevrilidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tüm hücrelerin bazal membran üzerine oturduğu epitel dokusu tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Değişici epitel",
+      "B": "Yalancı çok katlı epitel",
+      "C": "Keratinize çok katlı yassı epitel",
+      "D": "Çok katlı prizmatik epitel",
+      "E": "Çok katlı kübik epitel"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Yalancı çok katlı (psödostratifiye) epitelde, çekirdekler farklı seviyelerde dizildiği için kesitlerde çok katlı gibi görünse de, epitel tabakasını oluşturan hücrelerin tamamı bazal membran (bazal lamina) üzerine oturur; sadece kısa bazal hücreler apikal lümene ulaşamaz. Diğer seçeneklerin tamamı gerçek çok katlı (stratifiye) epitellerdir ve bu epitellerde yalnızca en alt sıradaki (bazal) hücreler bazal membrana oturur, üst katmandaki hücrelerin bazal membranla hiçbir teması yoktur.\nÇeldiriciler:\n- A) Değişici epitel (transizyonel epitel / ürotelyum); 3-6 kat hücreden oluşan gerçek çok katlı bir epiteldir, yüzeydeki şemsiye hücreleri ve ara tabaka hücreleri bazal membrana oturmaz.\n- C) Keratinize çok katlı yassı epitel (epidermis); sadece en alttaki stratum basale hücreleri bazal membrana oturur; spinosum, granulosum, lucidum ve corneum tabakaları bazal membrana değmez.\n- D) Çok katlı prizmatik epitel; iki veya daha fazla hücre katmanından oluşur, üstteki prizmatik hücreler bazal membrana temas etmez.\n- E) Çok katlı kübik epitel (ter bezi kanalları); genellikle iki sıra kübik hücreden oluşur ve üst sıradaki hücreler bazal membrana oturmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin yapısında Ekaderin-katenin kompleksi bulunur?",
+    "options": {
+      "A": "Zonula okludens",
+      "B": "Zonula adherens",
+      "C": "Hemidesmozom",
+      "D": "Fokal adezyon",
+      "E": "Gap junction"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Zonula adherens (ara bağlantı / tutunma kuşağı), epitel hücrelerinde sıkı bağlantının (zonula okludens) hemen altında hücreyi kuşak gibi saran hücre-hücre bağlantısıdır. Bu bağlantının transmembran adezyon molekülü kalsiyum ($\\text{Ca}^{2+}$) bağımlı \"E-kadherin (epitelyal kadherin)\"dir. E-kadherinler hücreler arası aralıkta homofilik olarak birbirine bağlanırken, hücre içindeki sitoplazmik kuyrukları \"katenin ($\\alpha$-katenin, $\\beta$-katenin, p120-katenin)\" proteinleri ile \"E-kadherin-katenin kompleksi\"ni oluşturur ve bu kompleks vinkülin/alfa-aktinin aracılığıyla hücrenin aktin mikrofilaman iskeletine tutunur. (E-kadherin kaybı kanser hücrelerinin epitelden kopup metastaz yapmasında kritik rol oynar).\nÇeldiriciler:\n- A) Zonula okludens; E-kadherin-katenin değil, okludin ve klaudin transmembran proteinleri ile ZO-1/2/3 adaptör proteinlerini içerir.\n- C) Hemidesmozom; hücreyi bazal laminaya bağlayan integrin ($\\alpha_6\\beta_4$) ve plektin/BP230 plak proteinlerini içerir.\n- D) Fokal adezyon; hücreyi ekstraselüler matrikse bağlayan integrin, talin, vinkülin, паksillin ve fokal adezyon kinaz (FAK) proteinlerini içerir.\n- E) Gap junction; hücreler arası kanal oluşturan konneksin/konnekson proteinlerinden meydana gelir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki epitel dokularından hangisinde, farklılaşmamış prekürsör olan ve \"bazal hücre\" olarak adlandırılan hücre tipi bulunmaz?",
+    "options": {
+      "A": "Olfaktor mukoza epiteli",
+      "B": "Kornea epiteli",
+      "C": "Ürotelyum",
+      "D": "Trakea epiteli",
+      "E": "Böbrek toplayıcı tübül epiteli"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): \"Bazal hücre\" adı verilen, bazal lamina üzerinde yerleşmiş küçük, farklılaşmamış prekürsör (kök) hücre tabakası; çok katlı (stratifiye) epitellerin ve yalancı çok katlı (psödostratifiye) epitellerin karakteristik bileşenidir. Böbrek toplayıcı tübül (ve kanalı) epiteli ise \"tek katlı kübik/prizmatik epitel\" yapısındadır; yalnızca lümene ulaşan esas (principal) hücreler (ADH ve aldosteron hedefi) ile interkale (ara) hücrelerden (asit-baz dengesi) oluşur, altında ayrı bir \"bazal hücre\" tabakası bulunmaz.\nÇeldiriciler:\n- A) Olfaktor (koku) mukoza epiteli; yalancı çok katlı epitel yapısında olup olfaktor reseptör nöronları, destek hücreleri ve bu nöronları yaşam boyu yenileyen \"bazal (kök) hücreler\"den oluşur.\n- B) Kornea epiteli; çok katlı yassı non-keratinize epiteldir ve en alt sırasında sürekli bölünerek kornea yüzeyini yenileyen bazal hücreler (ve limbal kök hücreler) yer alır.\n- C) Ürotelyum (transizyonel epitel); bazal lamina üzerine oturan tek sıralı küçük kübik \"bazal hücreler\", ortada armut/raket şekilli ara hücreler ve yüzeyde şemsiye hücrelerinden oluşur.\n- D) Trakea epiteli (solunum epiteli); yalancı çok katlı silyalı prizmatik epiteldir ve bazal laminaya oturup lümene ulaşamayan kısa piramidal \"bazal (kök) hücreler\" içerir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi diş etinde tutunma epiteli (junctional epithelium) ile diş yüzeyinin bağlantı bileşkesidir?",
+    "options": {
+      "A": "Zonula adherens",
+      "B": "Gap junction (neksus)",
+      "C": "Fokal adezyon",
+      "D": "Zonula okludens",
+      "E": "Hemidesmozom"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Diş eti (gingiva) oluğunun tabanında yer alan ve diş etini dişin sert dokusuna (mine veya sement yüzeyine) bağlayarak periodontal dokuları ağız boşluğundaki bakterilerden koruyan \"birleşim / tutunma epiteli (junctional epithelium)\", diş yüzeyine özel bir epitelyal ataşman ile tutunur. Tutunma epitelinin en yüzeyel hücreleri, diş yüzeyine komşu bir \"internal bazal lamina\" salgılar ve bu bazal laminaya (dolayısıyla diş yüzeyine) çok sayıda \"hemidesmozom\" ($\\alpha_6\\beta_4$ integrin ve laminin-332 aracılığıyla) ile sıkıca bağlanır.\nÇeldiriciler:\n- A) Zonula adherens; hücreyi diş yüzeyine veya bazal laminaya değil, iki epitel hücresini birbirine bağlayan kadherin temelli hücre-hücre bağlantısıdır.\n- B) Gap junction (neksus); komşu hücreler arasında sitoplazmik iyon geçişini sağlayan iletişim kanalıdır, diş yüzeyine tutunmada rol almaz.\n- C) Fokal adezyon; ağırlıklı olarak hareketli hücrelerin (örneğin fibroblastların) göç sırasında ekstraselüler matrikse geçici tutunmasında rol oynar; tutunma epitelinin diş yüzeyine kalıcı yapısal bağlantısı hemidesmozomdur.\n- D) Zonula okludens; epitel hücrelerinin apikalinde hücreler arası aralığı mühürleyen sıkı bağlantıdır, bazal lamina/diş yüzeyi bağlantısı yapmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I- Hipertrofi bölgesi\nII- Kalsifikasyon bölgesi\nIII- Proliferasyon bölgesi\nIV- Rezorpsiyon bölgesi\n\nEpifiz büyüme plağında bölgeler epifizden diyafize doğru hangi sırayla dizilir?",
+    "options": {
+      "A": "III-I-IV-II",
+      "B": "II-III-I-IV",
+      "C": "I-III-II-IV",
+      "D": "IV-III-I-II",
+      "E": "III-I-II-IV"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Uzun kemiklerin boyuna uzamasını sağlayan enkondral kemikleşme sürecinde, epifiz büyüme plağındaki histolojik bölgeler (zonlar) epifizden diyafize (kemik gövdesine) doğru sırasıyla şu şekilde dizilir:\n1) Rezerv (dinlenim) kıkırdak zonu (epifize en yakın; soruda öncüller arasında verilmemiştir),\n2) **III- Proliferasyon (çoğalma) bölgesi:** Kondrositlerin hızla mitoz bölünmeler geçirerek üst üste bozuk para dizileri (sütunlar) oluşturduğu bölge,\n3) **I- Hipertrofi (büyüme) bölgesi:** Bölünmeyi durduran kondrositlerin sitoplazmalarında glikojen ve lipit biriktirerek şiştiği, VEGF ve Tip X kollajen salgıladığı bölge,\n4) **II- Kalsifikasyon (kireçlenme) bölgesi:** Matriksin hidroksiapatit ile kalsifiye olduğu ve difüzyon bozulduğu için kondrositlerin apoptozla öldüğü bölge,\n5) **IV- Rezorpsiyon (ossifikasyon / kemikleşme) bölgesi:** Diyafize en yakın bölgedir; medüller kaviteden kapiller damarların, kondroklastların ve osteoprogenitör/osteoblast hücrelerinin girerek kalsifiye kıkırdak üzerine yeni kemik dokusu (primer spongioza) sentezlediği bölgedir. Dolayısıyla doğru sıralama III - I - II - IV şeklindedir.\nÖncüllerin Analizi:\n- III (Proliferasyon): Kondrositlerin çoğalması kemikleşmenin ilk aktif adımıdır ve epifize en yakın (rezerv zondan hemen sonra) yer alır (1. sırada).\n- I (Hipertrofi): Çoğalan kondrositler hemen alt tabakada büyüyüp şişerler (2. sırada).\n- II (Kalsifikasyon): Hipertrofik kondrositlerin arasındaki kıkırdak matriksi kireçlenir ve hücreler ölür (3. sırada).\n- IV (Rezorpsiyon/Ossifikasyon): Kireçlenmiş kıkırdak yıkılıp yerine diyafiz sınırında gerçek kemik dokusu yapılır (4. sırada).\nÇeldiriciler:\n- A) Kalsifikasyon (II) gerçekleşmeden rezorpsiyon/ossifikasyon (IV) olamayacağı için IV ve II'nin yeri yanlıştır.\n- B) Kalsifikasyonun (II) en başta (epifize en yakın) yer alması imkansızdır; kıkırdak henüz çoğalmadan kireçlenemez.\n- C) Kondrositler çoğalmadan (III) hipertrofiye (I) uğrayamayacağı için I ve III'ün sırası yanlıştır.\n- D) Rezorpsiyon bölgesi (IV) epifize en yakın değil, tam aksine diyafize en yakın (en son) bölgedir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kemikte, osteoprogenitör hücrelerin aşağıdakilerin hangisine yerleşmesi en olasıdır?",
+    "options": {
+      "A": "Lakuna",
+      "B": "Konsentrik lameller",
+      "C": "Sirkumferansiyel lameller",
+      "D": "İnterstisyel lameller",
+      "E": "Periosteum"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Osteoprogenitör hücreler, mezenkimal kök hücrelerden türeyen ve kemik büyümesi veya kırık iyileşmesi sırasında mitozla çoğalarak kemik yapım hücresi olan \"osteoblastlara\" farklılaşan öncül (prekürsör) kök hücrelerdir. Bu hücreler kemikte kalsifiye matriks içinde değil, kemiğin dış ve iç yüzeylerini örten zarlarda; yani kemiği dıştan saran \"periosteumun iç (osteojenik/kambiyum) tabakasında\", kemiğin iç boşluklarını döşeyen \"endosteumda\" ve Havers/Volkmann kanallarının iç yüzeyinde yerleşirler.\nÇeldiriciler:\n- A) Lakuna; kalsifiye kemik matriksi içindeki küçük boşluklardır ve burada osteoprogenitör hücreler değil, bölünme yeteneğini kaybetmiş olgun kemik hücreleri olan \"osteositler\" yerleşir.\n- B) Konsentrik lameller; Havers kanalının etrafında iç içe halkalar halinde dizilmiş kalsifiye Tip I kollajen tabakalarıdır (osteonun matriks kısmıdır).\n- C) Sirkumferansiyel (dış ve iç dairesel) lameller; kompakt kemiğin en dış (periosteum altı) ve en iç (endosteum altı) çevresini saran kalsifiye matriks katmanlarıdır.\n- D) İnterstisyel (ara) lameller; kompakt kemikte osteonların (Havers sistemlerinin) arasında kalan, eski ve kısmen yıkılmış osteonlara ait kalsifiye matriks kalıntılarıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Büyük yuvarlak ($50–150\\ \\mu\\text{m}$) hücrelerdir.\nII. Bol miktarda, iyi gelişmiş kristaları olan mitokondriler içerirler.\nIII. Yassı, periferal yerleşimli nükleusları vardır.\nIV. Isı üretimini regüle eden termogenin proteini içerirler.\nV. Büyük, tek, membransız lipid damlası içerirler.\n\nYukarıdakilerden hangileri beyaz yağ dokusunun özelliklerindendir?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve IV",
+      "C": "II, III ve IV",
+      "D": "I, III ve V",
+      "E": "II, III, IV ve V"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Erişkin insan vücudundaki yağ dokusunun neredeyse tamamını oluşturan beyaz (sarı) yağ dokusu, enerji depolanması, mekanik yastıklama, ısı izolasyonu ve endokrin (leptin) salgı görevlerini üstlenen \"uniloküler\" yağ hücrelerinden oluşur. Bu hücreler oldukça büyüktür (I), sitoplazmalarının tamamına yakınını kaplayan tek ve büyük bir membransız lipit damlası içerirler (V) ve bu damla çekirdeği yassılaştırarak hücrenin en periferine iter (\"taşlı yüzük\" görünümü) (III). II. ve IV. öncüller ise kahverengi yağ dokusuna aittir.\nÖncüllerin Analizi:\n- I. Büyük yuvarlak ($50–150\\ \\mu\\text{m}$) hücrelerdir: Beyaz yağ dokusu hücreleri (uniloküler adipositler) tek başına iken küresel/yuvarlak, dokuda sıkıştığında poligonal olan çok büyük hücrelerdir (Doğru).\n- II. Bol miktarda, iyi gelişmiş kristaları olan mitokondriler içerirler: Bu özellik, içerdiği sitokromlardan dolayı dokuya kahverengi rengini veren \"kahverengi (multiloküler) yağ dokusu\"na aittir (Yanlış).\n- III. Yassı, periferal yerleşimli nükleusları vardır: Beyaz yağ hücresindeki tek büyük yağ damlası, çekirdeği ve ince sitoplazma şeridini hücre zarının kenarına sıkıştırıp yassılaştırır (kahverengi yağ hücresinde çekirdek yuvarlak ve merkezi/eksantriktir, yassılaşmamıştır) (Doğru).\n- IV. Isı üretimini regüle eden termogenin proteini içerirler: Termogenin (UCP-1: eşleşme bozucu protein-1), mitokondri iç zarında ATP sentezlemeden doğrudan ısı üreten (titremesiz termogenez) bir proton kanalıdır ve yalnızca \"kahverengi yağ dokusu\"nda bulunur (Yanlış).\n- V. Büyük, tek, membransız lipid damlası içerirler: Beyaz yağ dokusuna \"uniloküler\" adını veren en temel özelliktir (kahverengi yağ dokusu ise çok sayıda küçük yağ damlacığı içerdiği için multilokülerdir) (Doğru).\nÇeldiriciler:\n- A) I. öncül doğru olmakla birlikte, II. öncül kahverengi yağ dokusuna aittir.\n- B) Hem II. hem de IV. öncül tamamen kahverengi (multiloküler) yağ dokusunun özellikleridir.\n- C) II. ve IV. öncüller kahverengi yağ dokusuna ait olduğu için yanlıştır.\n- E) II. ve IV. öncülleri içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Fibröz kıkırdakta aşağıdaki yapılardan hangisi bulunmaz?",
+    "options": {
+      "A": "İzogen grup",
+      "B": "Fibroblast",
+      "C": "Kondrosit",
+      "D": "Perikondriyum",
+      "E": "Kollajen fibriller"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Fibröz kıkırdak (fibrokıkırdak), intervertebral diskler, simfizis pubis ve menisküslerde bulunan, sıkı bağ dokusu ile hiyalin kıkırdak arasında geçiş özelliği taşıyan bir dokudur. Hiyalin (eklem kıkırdağı hariç) ve elastik kıkırdaktan farklı olarak, fibröz kıkırdağın etrafında onu saran \"perikondriyum\" tabakası kesinlikle bulunmaz.\nÇeldiriciler:\n- A) İzogen grup; fibröz kıkırdakta kondrositler kalın kollajen demetleri arasında tek tek veya uzunlamasına tek sıra halinde dizilmiş \"izogen gruplar\" şeklinde bulunur.\n- B) Fibroblast; fibröz kıkırdak sıkı bağ dokusu ile iç içe geçtiği ve yoğun Tip I kollajen içerdiği için matrikste kondrositlerin yanı sıra fibroblastlar da yer alır.\n- C) Kondrosit; dar lakünalar içinde yerleşmiş ve çevrelerine az miktarda Tip II kollajen ve proteoglikan salgılayan kıkırdak hücreleridir.\n- E) Kollajen fibriller; fibröz kıkırdak matriksi, çekme kuvvetlerinin yönüne paralel dizilmiş çok yoğun Tip I (ve laküna çevresinde Tip II) kollajen fibril demetlerinden oluşur.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Epifiz büyüme plağında, epifize en uzak alan aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Rezorpsiyon (ossifikasyon) alanı",
+      "B": "Kalsifiye kıkırdak alanı",
+      "C": "Hipertrofi alanı",
+      "D": "Proliferasyon alanı",
+      "E": "Rezerv kıkırdak alanı"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Uzun kemiklerin epifiz büyüme plağındaki zonlar epifizden diyafize doğru sırasıyla: 1) Rezerv (dinlenim) kıkırdak alanı, 2) Proliferasyon alanı, 3) Hipertrofi alanı, 4) Kalsifiye kıkırdak alanı ve 5) Rezorpsiyon (ossifikasyon / kemikleşme) alanı şeklinde dizilir. Dolayısıyla epifize en yakın olan alan Rezerv kıkırdak alanı iken; epifize en uzak (diyafiz kemik iliği kavitesine en yakın / en alt sınırda) olan alan, kireçlenmiş kıkırdağın yıkılıp yerine osteoblastlarca yeni kemik trabeküllerinin yapıldığı \"Rezorpsiyon (ossifikasyon) alanı\"dır.\nÇeldiriciler:\n- B) Kalsifiye kıkırdak alanı; epifize en uzak ikinci alandır, hemen altında diyafize komşu rezorpsiyon (ossifikasyon) alanı yer alır.\n- C) Hipertrofi alanı; epifiz plağının orta kesiminde, proliferasyon ile kalsifikasyon alanları arasında bulunur.\n- D) Proliferasyon alanı; rezerv kıkırdağın hemen altında, epifize oldukça yakın yerleşimli ikinci bölgedir.\n- E) Rezerv (dinlenim) kıkırdak alanı; epifiz kemikleşme merkezine doğrudan komşu olan, yani epifize \"en yakın\" (diyafize en uzak) alandır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kahverengi yağ dokusuna ilişkin aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Hücrelerde yassılaşmamış çekirdek bulunur.",
+      "B": "Hücre sitoplazmasında çok sayıda yağ damlacığı bulunur.",
+      "C": "Kemik iliğinde yerleşim gösterir.",
+      "D": "Beyaz yağ dokusu hücrelerine göre daha küçük hücrelerden oluşur.",
+      "E": "Hücrelerde mitokondri iç zarında termogenin bulunur."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kahverengi (multiloküler) yağ dokusu, fetüs ve yenidoğanlarda vücut ağırlığının yaklaşık %2-5'ini oluşturur (erişkinlerde ise azalarak sadece boyun/supraklavikular, interskapular, paravertebral, mediastinal ve perirenal bölgelerde kalır); ancak \"kemik iliğinde\" yerleşim göstermez. Kemik iliğinde (özellikle yaşla birlikte kırmızı kemik iliğinin yerini alan sarı kemik iliğinde) bulunan yağ dokusu, enerji depolayan \"beyaz (sarı / uniloküler) yağ dokusu\"dur.\nÇeldiriciler:\n- A) Kahverengi yağ hücrelerinde tek büyük bir yağ damlası olmadığı için çekirdek perifere itilip yassılaşmaz; yuvarlak/oval şekilli ve merkezi veya hafif eksantrik yerleşimlidir (Doğru ifade).\n- B) Sitoplazmalarında tek bir damla yerine farklı boyutlarda çok sayıda küçük lipit damlacığı bulunduğu için \"multiloküler yağ dokusu\" olarak adlandırılır (Doğru ifade).\n- D) Kahverengi yağ dokusu hücreleri, devasa boyutlara ($50-150\\ \\mu\\text{m}$) ulaşan beyaz yağ dokusu hücrelerine kıyasla belirgin şekilde daha küçük ve poligonal hücrelerdir (Doğru ifade).\n- E) Mitokondrilerinin iç zarında elektron taşıma zinciri ile ATP sentezini birbirinden ayıran \"termogenin (UCP-1)\" proteini bulunur; bu sayede proton gradiyenti ATP yerine doğrudan ısı enerjisine dönüştürülür (Doğru ifade).",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde hücreyi çevreleyen eksternal lamina tabakası bulunur?",
+    "options": {
+      "A": "Langerhans hücresi",
+      "B": "Plazma hücresi",
+      "C": "Paneth hücresi",
+      "D": "Mast hücresi",
+      "E": "Schwann hücresi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Epitel dokularının bazal yüzünün altında yer alan Tip IV kollajen, laminin, entaktin/nidogen ve perlekandan oluşan özel ekstraselüler matriks tabakasına \"bazal lamina\" denir. Epitel hücresi olmadığı halde, bazı tekil hücreleri dıştan çepeçevre bir kılıf gibi tamamen saran bazal lamina benzeri yapıya ise \"eksternal lamina (dış lamina)\" adı verilir. İnsan vücudunda kendi eksternal laminası ile çevrili olan üç klasik hücre grubu şunlardır: 1) Kas hücreleri (iskelet, kalp ve düz kas), 2) Yağ hücreleri (adipositler) ve 3) Periferik sinir sistemindeki \"Schwann hücreleri\". Schwann hücresini saran bu eksternal lamina, periferik sinir kesilerinden sonra aksonun doğru hedefe doğru yeniden uzamasında (rejenerasyonda) kılavuz tüp görevi görür.\nÇeldiriciler:\n- A) Langerhans hücresi; epidermiste (stratum spinosumda) bulunan antijen sunucu hücredir, etrafında eksternal lamina bulunmaz.\n- B) Plazma hücresi; gevşek bağ dokusunda serbest bulunan antikor sentezleyici hücredir, eksternal lamina ile çevrili değildir.\n- C) Paneth hücresi; ince bağırsak Lieberkühn kriptalarının tabanında yer alan bir epitel hücresidir; çepeçevre eksternal lamina ile sarılı değildir, bazal yüzüyle ortak epitelyal \"bazal lamina\" üzerine oturur.\n- D) Mast hücresi; bağ dokusunda damarların çevresinde serbest yerleşen granüllü hücredir, eksternal lamina içermez.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hücreler arasında bağlantı sağlayan geçit bağlantıları (gap junction) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Sadece moleküler boyut esaslı seçicilik gösteren protein kanallarıdır.",
+      "B": "Kalpte geçit bağlantı sayısı fazla ise uyarı hızlıdır.",
+      "C": "Geçit bağlantıları hücrede daha az enerji harcanmasını sağlar.",
+      "D": "Geçit bağlantıları iskelet kası ve eritrositlerde bulunmaz.",
+      "E": "Kalsiyum düzeyinin azalması ve artmış hücre içi pH geçit bağlantıları kapatır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Geçit bağlantıları (gap junction / neksus), hücre hasarı, iskemi veya ölüm durumunda sağlam komşu hücreleri korumak (toksik maddelerin geçişini ve sağlam hücrenin depolarize olup ölmesini önlemek) amacıyla kapanma özelliğine sahiptir. Hücre hasarlandığında ve ATP tükendiğinde hücre içine aşırı $\\text{Ca}^{2+}$ dolar ve anaerobik glikoliz nedeniyle laktik asit birikerek hücre içi pH düşer (asidoz). Dolayısıyla geçit bağlantılarını kapatan faktörler; hücre içi kalsiyum ($\\text{Ca}^{2+}$) düzeyinin azalması değil \"artması\" ve hücre içi pH'nın artması (alkaloz) değil \"azalmasıdır (asidoz)\".\nÇeldiriciler:\n- A) Konnekson kanalları yaklaşık $1,5-2\\text{ nm}$ çapında olup spesifik bir reseptör seçiciliği göstermez; molekül ağırlığı $\\sim 1000\\text{ Dalton}$'un (1 kDa) altında olan tüm iyonların, suyun, ATP, cAMP ve $\\text{IP}_3$'ün boyut esaslı olarak geçmesine izin verir (Doğru ifade).\n- B) Kalp kasında interkalar disklerdeki (özellikle Purkinje liflerinde) gap junction sayısı ne kadar fazlaysa, hücreden hücreye iç direnç o kadar düşer ve aksiyon potansiyeli (uyarı) o kadar hızlı yayılır (Doğru ifade).\n- C) Komşu hücreler arasında metabolitlerin, ATP'nin ve ikincil habercilerin aktif taşıma pompalarına veya ekzositoz/endositoza gerek kalmadan doğrudan difüzyonla paylaşılmasını sağlayarak enerji tasarrufu sağlar (Doğru ifade).\n- D) Olgun iskelet kası lifleri zaten embriyonik dönemde miyoblastların kaynaşmasıyla oluşmuş çok çekirdekli dev birer sinsityum olduğu ve her lif ayrı bir motor sinirle uyarıldığı için gap junction içermez; tek başına dolaşan eritrositlerde ve spermatozoalarda da gap junction bulunmaz (Doğru ifade).",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kemikleşme sürecinde epifiz plağının hangi zonundaki hücrelerin sitoplazmalarında glikojen granülleri birikir?",
+    "options": {
+      "A": "Rezerv kıkırdak zonu",
+      "B": "Proliferasyon zonu",
+      "C": "Hipertrofi zonu",
+      "D": "Kalsifikasyon zonu",
+      "E": "Rezorpsiyon zonu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Enkondral kemikleşme sırasında epifiz büyüme plağının proliferasyon zonunda hızla çoğalan kondrositler, bir alt tabaka olan \"Hipertrofi zonu\"na geçtiklerinde mitoz bölünmeyi durdururlar. Bu zondaki kondrositler metabolik olarak çok aktiftir; sitoplazmalarında büyük miktarda \"glikojen granülleri\", lipit damlacıkları ve su biriktirerek hacimce 5-10 kat büyür ve şişerler (hipertrofiye uğrarlar). Bu büyüyen hücreler aralarındaki kıkırdak matriksini ince bölmeler (septalar) haline gelene kadar sıkıştırır, damarlanmayı uyaran VEGF ve matriks kalsifikasyonunu başlatan alkalen fosfataz/Tip X kollajen salgılarlar.\nÇeldiriciler:\n- A) Rezerv (dinlenim) kıkırdak zonu; küçük, metabolik olarak sakin ve glikojen birikimi olmayan dinlenim halindeki kondrositleri içerir.\n- B) Proliferasyon zonu; kondrositlerin hızla mitoz bölünmeler geçirip sütunlar oluşturduğu bölgedir; hücreler enerjiyi bölünmeye harcar, henüz şişip yoğun glikojen biriktirmemiştir.\n- D) Kalsifikasyon zonu; matriksin kireçlenmesiyle besin difüzyonunun kesildiği ve hipertrofik kondrositlerin apoptoza giderek öldüğü ve sitoplazmalarının boşaldığı bölgedir.\n- E) Rezorpsiyon (ossifikasyon) zonu; ölü kondrosit lakünalarının kondroklastlarca açıldığı ve osteoblastların yeni kemik dokusu (osteoid) sentezlediği bölgedir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gevşek bağ dokusunda bulunan, oval görünümlü, granüllü endoplazmik retikulum yoğunluğu nedeniyle bazofilik boyanan, çekirdeği eksantrik yerleşimli ve at arabası tekerleği görünümünde olan hücre antikor üretiminden sorumludur. Temel özellikleri verilmiş olan bağ dokusu hücresi aşağıdakilerden hangisinden köken alır?",
+    "options": {
+      "A": "Megakaryosit",
+      "B": "T lenfosit",
+      "C": "B lenfosit",
+      "D": "Monosit",
+      "E": "Eozinofil"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Soruda tüm karakteristik histolojik özellikleri (oval şekil, yoğun antikor/protein sentezi nedeniyle sitoplazmada bol granüllü ER ve buna bağlı güçlü bazofili, çekirdeğin yanında soluk boyanan belirgin Golgi bölgesi/negatif Golgi imajı, eksantrik çekirdek ve ökromatin-heterokromatin dizilimi nedeniyle \"at arabası tekerleği / saat kadranı\" görünümü) tarif edilen hücre \"Plazma hücresi (Plazmosit)\"dir. Plazma hücreleri, antijenle karşılaşıp uyarılan \"B lenfositlerin\" bağ dokusunda farklılaşmasıyla (matürasyonuyla) oluşur ve hümoral bağışıklığın temel elemanı olan antikorları (immünoglobulinleri) üretir.\nÇeldiriciler:\n- A) Megakaryosit; kemik iliğinde bulunan dev hücredir ve sitoplazmik parçalanmasıyla kan pulcukları (trombositler/plateletler) oluşur.\n- B) T lenfosit; hücresel bağışıklıktan sorumludur, uyarıldığında plazma hücresine dönüşmez (yardımcı, sitotoksik ve bellek T hücrelerine farklılaşır).\n- D) Monosit; kandan dokulara geçtiğinde plazma hücresine değil, fagositoz yapan doku makrofajlarına (histiyositlere), Kupffer hücrelerine ve osteoklastlara dönüşür.\n- E) Eozinofil; paraziter enfeksiyonlarda ve alerjik reaksiyonlarda rol oynayan iki loblu çekirdeğe ve asidofilik granüllere sahip granülosittir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisinde ara filamanlardan olan laminler bulunmaz?",
+    "options": {
+      "A": "Osteosit",
+      "B": "Keratinosit",
+      "C": "Eritrosit",
+      "D": "Fibroblast",
+      "E": "Makrofaj"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Nükleer laminler (Lamin A, B, C), çekirdek zarının iç yüzünü döşeyen nükleer laminayı oluşturan ara filaman proteinleridir ve yalnızca \"çekirdekli (nükleuslu)\" hücrelerde bulunurlar. Olgun memeli eritrositleri (alyuvarlar), kemik iliğindeki olgunlaşma (eritropoez) sürecinde retikülosit aşamasına geçerken çekirdeklerini dışarı atarlar; dolayısıyla olgun eritrositlerde çekirdek ve çekirdek zarı bulunmadığı için nükleer lamin proteinleri de bulunmaz (eritrosit zar iskeletini spektrin ve aktin oluşturur).\nÇeldiriciler:\n- A) Osteosit; kemik lakünalarında yerleşen çekirdekli olgun kemik hücresidir ve çekirdek zarında lamin bulunur.\n- B) Keratinosit; epidermisin çekirdekli temel hücresidir (sadece en üstteki ölü korneum tabakası hariç) ve çekirdeğinde lamin, sitoplazmasında keratin ara filamanı içerir.\n- D) Fibroblast; bağ dokusunun aktif, büyük ökromatik çekirdekli hücresidir ve çekirdeğinde lamin, sitoplazmasında vimentin içerir.\n- E) Makrofaj; böbrek/at nalı şeklinde çekirdeğe sahip fagositik hücredir ve çekirdek zarında lamin bulunur.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hiyalin kıkırdak ara maddesinde bulunmaz?",
+    "options": {
+      "A": "Agrekan",
+      "B": "Hiyalüronik asit",
+      "C": "Keratan sülfat",
+      "D": "Kondroitin sülfat",
+      "E": "Kristallin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kristallin ($\\alpha, \\beta, \\gamma$-kristallin), kıkırdak dokusunun ekstraselüler matriksinde bulunan bir molekül değildir; gözün merceğini (lens) oluşturan uzamış lens lifi hücrelerinin sitoplazmasını dolduran, merceğe saydamlık ve yüksek ışık kırma indisi kazandıran suda çözünür yapısal proteindir.\nÇeldiriciler:\n- A) Agrekan; hiyalin kıkırdak ara maddesinde (matriksinde) en bol bulunan, bir merkez (kor) proteini ve buna bağlı yüzlerce GAG zincirinden oluşan temel kıkırdak proteoglikanıdır.\n- B) Hiyalüronik asit; hiyalin kıkırdak matriksinde agrekan monomerlerinin bağlantı proteinleriyle üzerine dizilerek dev proteoglikan agregatlarını oluşturduğu uzun, sülfatsız glikozaminoglikan zinciridir.\n- C) Keratan sülfat; agrekan proteoglikanının kor proteinine kovalent olarak bağlanan, negatif yüklü sülfatlı bir glikozaminoglikandır.\n- D) Kondroitin sülfat (kondroitin-4-sülfat ve kondroitin-6-sülfat); hiyalin kıkırdak matriksindeki agrekanın yapısında en yoğun bulunan, su tutarak kıkırdağa turgor ve basınca dayanıklılık sağlayan sülfatlı glikozaminoglikandır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Mast hücresinde depolanmayıp uyarı sonrasında sentezlenerek salınan molekül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Histamin",
+      "B": "Triptaz",
+      "C": "Heparin",
+      "D": "Eozinofil kemotaktik faktör",
+      "E": "Lökotrien C"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Mast hücrelerinin salgıladığı kimyasal mediyatörler iki ana gruba ayrılır: \"Primer (granüllerde önceden sentezlenip depolanmış olanlar)\" ve \"Sekonder (granüllerde depolanmayıp hücre uyarıldıktan sonra yeni sentezlenenler)\". Lökotrienler ($\\text{LTC}_4, \\text{LTD}_4, \\text{LTE}_4$; yavaş reaksiyon veren anafilaksi maddesi) ve prostaglandinler (özellikle $\\text{PGD}_2$), mast hücresi granüllerinde hazır depolanmazlar; mast hücresi IgE-antijen ile uyarıldığında hücre zarındaki fosfolipitlerden Fosfolipaz $\\text{A}_2$ aracılığıyla açığa çıkan araşidonik asitten (lipoksijenaz ve siklooksijenaz yolaklarıyla) \"uyarı sonrasında yeniden (de novo) sentezlenerek\" salınırlar.\nÇeldiriciler:\n- A) Histamin; histidin aminoasidinin dekarboksilasyonuyla oluşan, mast hücresi granüllerinde önceden depolanıp uyarı anında saniyeler içinde salınan (vazodilatasyon, kapiller permeabilite artışı ve bronkokonstriksiyon yapan) en önemli primer mediyatördür.\n- B) Triptaz (ve kimaz); mast hücresi granüllerinde hazır depolanan nötral serin proteaz enzimidir (anafilaksi tanısında serum triptaz düzeyi ölçülür).\n- C) Heparin (ve kondroitin sülfat); mast hücresi granüllerinde histamin ve proteazları bağlayan asidik matriks olarak önceden depolanan ve granüllere metakromazi özelliği kazandıran sülfatlı glikozaminoglikandır.\n- D) Eozinofil kemotaktik faktör (ECF) ve nötrofil kemotaktik faktör (NCF); klasik histoloji ve fizyoloji kaynaklarında mast hücresi granüllerinde önceden depolanan (preformed) primer mediyatörler grubunda yer alır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Beyaz yağ dokusu ile karşılaştırıldığında aşağıdakilerden hangisi kahverengi yağ dokusu için yanlıştır?",
+    "options": {
+      "A": "Titremeye bağlı olmaksızın ısı oluşturur.",
+      "B": "Sempatik sinir sistemi ile uyarılır.",
+      "C": "Daha çok mitokondri içerir.",
+      "D": "Eşleşme bozucu protein (UCP) 1 ile etkileşir.",
+      "E": "Sadece yenidoğanlarda bulunur."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kahverengi (multiloküler) yağ dokusu fetüs ve yenidoğanlarda hipotermiyi önlemek amacıyla çok daha yaygın ve bol miktarda bulunmakla birlikte, \"sadece yenidoğanlarda bulunur\" ifadesi yanlıştır. PET-BT görüntüleme çalışmalarıyla kesin olarak gösterildiği üzere, sağlıklı erişkin insanlarda da özellikle boyun, supraklavikular, paravertebral, mediastinal ve perirenal bölgelerde metabolik olarak aktif kahverengi yağ dokusu adacıkları varlığını sürdürür (hatta soğuğa maruziyetle miktarı ve aktivitesi artar).\nÇeldiriciler:\n- A) Kas kasılmasına (titremeye) gerek kalmadan, doğrudan yağ asidi oksidasyonu ile ısı ürettiği için bu sürece \"titremesiz termogenez (non-shivering thermogenesis)\" denir (Doğru ifade).\n- B) Soğuk maruziyetinde sempatik sinir uçlarından salınan noradrenalin, kahverengi yağ hücrelerindeki $\\beta_3$-adrenerjik reseptörleri uyararak lipolizi ve ısı üretimini başlatır (Doğru ifade).\n- C) Beyaz yağ dokusuna kıyasla sitoplazmasında çok daha fazla sayıda, büyük ve demir içeren sitokromlardan zengin mitokondri içerir (dokuya kahverengi rengini bu mitokondriler ve zengin kapiller ağ verir) (Doğru ifade).\n- D) Mitokondri iç zarında bulunan eşleşme bozucu protein-1 (UCP-1 / termogenin) sayesinde protonlar ATP sentaz yerine bu kanaldan matrikse döner ve enerji ısı olarak açığa çıkar (Doğru ifade).",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisinde ara filaman olan lamin proteini bulunmaz?",
+    "options": {
+      "A": "Platelet",
+      "B": "Hepatosit",
+      "C": "Lenfosit",
+      "D": "Osteosit",
+      "E": "Nötrofil"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Nükleer lamin proteinleri (Lamin A, B, C), çekirdek zarının iç yüzünü döşeyen nükleer laminayı oluşturur ve yalnızca çekirdeği (nükleusu) bulunan hücrelerde yer alır. Plateletler (trombositler / kan pulcukları) gerçek birer hücre değil, kemik iliğindeki dev megakaryositlerin sitoplazmik uzantılarından koparak kana geçen $2-4\\ \\mu\\text{m}$ çapında \"çekirdeksiz (anükleer)\" sitoplazma parçacıklarıdır. Çekirdekleri ve çekirdek zarları olmadığı için yapılarında lamin proteini bulunmaz.\nÇeldiriciler:\n- B) Hepatosit (karaciğer parankim hücresi); bir veya bazen iki adet yuvarlak ökromatik çekirdeğe sahip bir hücredir ve çekirdek zarında lamin bulunur.\n- C) Lenfosit; sitoplazmanın büyük kısmını dolduran koyu, yuvarlak bir çekirdeğe sahip beyaz kan hücresidir ve çekirdek zarında lamin içerir.\n- D) Osteosit; kemik dokusunun lakünalar içinde yaşayan çekirdekli olgun hücresidir ve lamin içerir.\n- E) Nötrofil; 3-5 loblu (polimorfonükleer) çekirdeğe sahip granülosittir; çekirdek zarında lamin proteinleri (özellikle çekirdeğin loblu olmasını sağlayan Lamin B reseptörü ve düşük Lamin A/C oranı) bulunur.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hematoksilen-eozin ile boyanmış bir doku kesitini inceleyen araştırmacı, bu kesitte Havers kanallarının olduğunu tespit ediyor. Bu bilgiye göre araştırmacının incelemekte olduğu destek doku çeşidi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hiyalin kıkırdak",
+      "B": "Kompakt kemik",
+      "C": "Elastik kıkırdak",
+      "D": "Spongioz kemik",
+      "E": "Fibröz kıkırdak"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Havers kanalları (ve bunları birbirine dik/eğik olarak bağlayan Volkmann kanalları), kan damarları ve sinir liflerini barındıran ve etrafında 4-20 sıra konsantrik kemik lamelinin dizilmesiyle \"Osteon (Havers sistemi)\" adı verilen yapısal silindirik birimleri oluşturan kanallardır. İyi gelişmiş Havers sistemlerinin (osteonların) ve Havers kanallarının varlığı, uzun kemiklerin diyafizini ve yassı kemiklerin dış/iç tabulalarını oluşturan olgun (lameller) \"Kompakt (kortikal / sıkı) kemik\" dokusu için tanı koydurucudur.\nÇeldiriciler:\n- A) Hiyalin kıkırdak; tamamen avaskülerdir, Havers kanalı veya damar içermez.\n- C) Elastik kıkırdak; avaskülerdir ve elastik lif ağından oluşur, Havers kanalı bulunmaz.\n- D) Spongioz (süngerimsi / trabeküler) kemik; ince kemik trabeküllerinden (spiküllerinden) ve aralarındaki kemik iliği boşluklarından oluşur. Trabeküller ince olduğu için içlerindeki osteositler doğrudan kemik iliği sinüzoidlerinden difüzyonla beslenir; bu nedenle spongioz kemikte genel olarak Havers kanalları (osteonlar) bulunmaz.\n- E) Fibröz kıkırdak; avaskülerdir, yoğun Tip I kollajen demetleri içerir ve Havers kanalı bulundurmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "48 yaşındaki ilkokul öğretmeninde sesini çok kullanmasına bağlı olarak larinkste benign reaktif polip saptanıyor. Bu hastada etkilenen en olası epitel doku tipi hangisidir?",
+    "options": {
+      "A": "Tek katlı prizmatik epitel",
+      "B": "Çok katlı yassı epitel",
+      "C": "Tek katlı kübik epitel",
+      "D": "Çok katlı kübik epitel",
+      "E": "Tek katlı yassı epitel"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Larinks mukozasının büyük bölümü solunum epiteli olan yalancı çok katlı silyalı prizmatik epitel ile döşelidir. Ancak sesin oluştuğu ve fonasyon sırasında birbirine çarparak sürekli mekanik sürtünmeye ve hava akımı travmasına maruz kalan \"gerçek ses telleri (vokal kordlar / plica vocalis)\" ile epiglottisin ön/üst yüzü, aşınmaya karşı dayanıklı olan \"non-keratinize çok katlı yassı epitel\" ile örtülüdür. Öğretmen ve şarkıcı gibi sesini aşırı kullanan kişilerde gelişen vokal kord polipleri ve şarkıcı nodülleri (Reinke boşluğunda ödem ve stromal değişiklikler), tam olarak bu çok katlı yassı epitel ile döşeli gerçek vokal kord bölgesinde ortaya çıkar.\nÇeldiriciler:\n- A) Tek katlı prizmatik epitel; mide, ince ve kalın bağırsak ile safra kesesini döşer, larinkste bulunmaz.\n- C) Tek katlı kübik epitel; böbrek tübülleri, tiroid folikülleri ve over yüzeyini örter, vokal kordlarda bulunmaz.\n- D) Çok katlı kübik epitel; ter bezlerinin ve diğer ekzokrin bezlerin boşaltım kanallarında bulunur.\n- E) Tek katlı yassı epitel; akciğer alveollerinde, kan damarlarının iç yüzünde (endotel) ve seröz zarlarda (mezotel) bulunur; mekanik sürtünmeye en dayanıksız epiteldir.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Epitel hücresi bazalinde bulunan bağlantı birimi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Desmozom",
+      "B": "Oluklu bağlantı (gap junction)",
+      "C": "Hemidesmozom",
+      "D": "Zonula adherens",
+      "E": "Zonula okludens"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Polarize epitel hücrelerinde bağlantı birimleri hücre zarındaki konumlarına göre özelleşmiştir: Yan (lateral) yüzlerde komşu hücreleri birbirine bağlayan bağlantılar yer alırken, hücrenin \"bazal yüzünde (tabanında)\" epitel hücresini alttaki bazal laminaya (ekstraselüler matrikse) kenetleyen \"Hemidesmozom\" (ve fokal adezyon) bağlantıları bulunur. Hemidesmozomlar, bazal membrandaki laminin ve Tip IV kollajene $\\alpha_6\\beta_4$ integrinlerle bağlanarak epitelin bağ dokusundan ayrılmasını önler (otoimmün hasarında Büllöz pemfigoid gelişir).\nÇeldiriciler:\n- A) Desmozom (macula adherens); epitel hücresinin bazalinde değil, lateral (yan) yüzlerinde komşu iki epitel hücresini birbirine bağlar.\n- B) Oluklu bağlantı (gap junction / neksus); epitel hücrelerinin lateral yüzlerinde yerleşerek komşu hücreler arası iyon geçişini sağlar.\n- D) Zonula adherens; epitel hücrelerinin apiko-lateral sınırında (zonula okludensin hemen altında) komşu hücreleri birbirine bağlayan kuşak bağlantısıdır.\n- E) Zonula okludens (sıkı bağlantı); epitel hücrelerinin bazalinde değil, en \"apikal\" sınırında yer alarak lümene komşu paraselüler aralığı kapatır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bez epitelinin histolojik özellikleri ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Pankreasın ekzokrin kısmında yalnızca seröz asinüsler bulunur.",
+      "B": "Müköz asinüslerin Periyodik asit-Schiff (PAS) reaksiyonu (+)'tir.",
+      "C": "Sublingual bezde müköz asinüs sayısı seröz asinüse göre daha fazladır.",
+      "D": "Seröz asinüslerde çekirdek yassılaşmış ve bazal kompartmana doğru yer değiştirmiştir.",
+      "E": "Goblet hücreleri tek hücreli ekzokrin bez epiteline örnektir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Salgı asinüslerinde çekirdeğin yassılaşmış olması ve hücrenin en bazal zarına doğru itilip sıkışmış olması, sitoplazması yoğun müsin (mukus) granülleriyle dolu olan \"müköz asinüs hücrelerinin\" özelliğidir. Protein/enzim salgılayan \"seröz asinüslerde\" ise çekirdek yassılaşmamıştır; karakteristik olarak \"yuvarlak veya oval\" şekillidir ve bazale yakın (ancak tabana yapışık değil) yerleşim gösterir.\nÇeldiriciler:\n- A) Pankreasın ekzokrin kısmı (parotis tükrük bezi ve lakrimal bez gibi) pür (saf) seröz bir bezdir; yapısında müköz hücre bulunmaz, yalnızca sindirim enzimleri üreten seröz asinüsler (ve merkezlerinde sentroasiner hücreler) yer alır (Doğru ifade).\n- B) Müköz asinüslerin salgıladığı müsin (mukus), yoğun glikolize olmuş glikoprotein (karbonhidrat) yapısında olduğu için Periyodik asit-Schiff (PAS) boyamasıyla kuvvetli pozitif (magenta renkli) reaksiyon verir (Doğru ifade).\n- C) Büyük tükrük bezlerinden parotis pür seröz, submandibular bez seröz ağırlıklı mikst, sublingual (dil altı) bez ise \"müköz ağırlıklı mikst\" bir bezdir; dolayısıyla sublingual bezde müköz asinüs sayısı serözlerden (seröz yarımaylardan) çok daha fazladır (Doğru ifade).\n- E) Solunum ve bağırsak epitelinde bulunan Goblet (kaliks) hücreleri, müsin salgılayan tek hücreli ekzokrin bezin insan vücudundaki en klasik örneğidir (Doğru ifade).",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Stratum spinosum\nII. Stratum lucidum\nIII. Stratum granulosum\n\nYukarıdakilerden hangileri yanakların iç kısmını döşeyen nonkeratinize mukoza epitelinde yer alır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Yanakların iç kısmını (bukkal mukoza), dudak iç yüzünü, ağız tabanını, dilin ventral yüzünü ve yumuşak damağı döşeyen \"non-keratinize çok katlı yassı mukoza epiteli\"nde keratinizasyon gerçekleşmediği için yalnızca şu tabakalar bulunur: 1) Stratum basale, 2) **Stratum spinosum** (I), 3) Stratum intermedium ve 4) Stratum superficiale (yüzeyel tabaka; hücreler canlıdır ve çekirdeklerini korur). Keratinizasyonla ilişkili olan Stratum granulosum ve sadece kalın deride görülen Stratum lucidum (ve Stratum corneum) non-keratinize yanak mukozasında bulunmaz.\nÖncüllerin Analizi:\n- I. Stratum spinosum: Hem keratinize (deri, sert damak, diş eti) hem de non-keratinize (yanak mukozası, özofagus, vajina) çok katlı yassı epitellerin tamamında ortak olarak bulunan dikensi ara tabakadır (Doğru).\n- II. Stratum lucidum: Yalnızca el içi ve ayak tabanı gibi \"kalın derinin\" keratinize epidermisinde bulunan şeffaf tabakadır; ağız mukozasının hiçbir yerinde (hatta keratinize çiğneme mukozasında bile) bulunmaz (Yanlış).\n- III. Stratum granulosum: Keratin öncülü olan keratohiyalin granüllerini içeren tabaka olup sadece keratinize çok katlı yassı epitellerde bulunur; non-keratinize yanak mukozasında yer almaz (Yanlış).\nÇeldiriciler:\n- B) Stratum lucidum (II) sadece kalın deriye özgüdür, yanak mukozasında bulunmaz.\n- C) Stratum granulosum (III) keratinize epitellere özgüdür, non-keratinize yanak mukozasında bulunmaz.\n- D) I. öncül doğru olmakla birlikte, III. öncül (stratum granulosum) non-keratinize epitelde bulunmadığı için yanlıştır.\n- E) Hem II. hem de III. öncül non-keratinize yanak mukozasında bulunmayan tabakalardır.",
+    "lesson": "Fizyoloji",
+    "unit": "Temel Dokular",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

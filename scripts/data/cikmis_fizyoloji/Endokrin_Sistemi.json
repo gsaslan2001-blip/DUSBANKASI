@@ -1,0 +1,850 @@
+[
+  {
+    "question": "Hipertiroidizmde aşağıdakilerden hangisi görülmez?",
+    "options": {
+      "A": "Oksijen kullanımında artma",
+      "B": "İskelet kasında protein katabolizmasında artma",
+      "C": "Lipid yıkımında azalma",
+      "D": "Plazma kolesterolünde azalma",
+      "E": "Vitamin gereksiniminde artma"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hipertiroidizmde tiroid hormonlarının (T₃ ve T₄) fazlalığı tüm dokularda katabolik süreçleri ve enerji tüketimini hızlandırdığı için yağ dokusunda hormona duyarlı lipaz aktivitesini ve katekolamin duyarlılığını artırarak lipolizi (lipid yıkımını) azaltmaz, aksine belirgin şekilde artırır; bunun sonucunda plazma serbest yağ asidi düzeyleri yükselir ve yağ depoları hızla erir. Çeldiriciler: A) Tiroid hormonları mitokondri sayı ve aktivitesini, oksidatif enzimleri ve hücre membranlarındaki Na⁺/K⁺-ATPaz pompasını uyararak bazal metabolizma hızını ve dokuların oksijen kullanımını artırır (kalorijenik etki) (Görülür). B) Fizyolojik düzeyde protein sentezini destekleyen tiroid hormonları, hipertiroidizmdeki yüksek konsantrasyonlarda net protein yıkımını (katabolizmasını) artırarak özellikle proksimal iskelet kaslarında erime ve güçsüzlüğe (tirotoksik miyopati) yol açar (Görülür). D) Tiroid hormonları hepatosit yüzeyinde LDL reseptör ekspresyonunu artırarak kolesterolün kandan karaciğere alımını ve safra asitlerine dönüştürülerek dışkıyla atılımını hızlandırdığı için plazma toplam kolesterol, LDL ve trigliserid düzeylerinde azalma görülür (Görülür). E) Metabolik yolakların ve koenzim olarak görev yapan vitaminlerin (özellikle suda eriyen B grubu vitaminler ve C vitamini) kullanım hızı arttığı için hipertiroidizmde günlük vitamin gereksiniminde artma meydana gelir (Görülür).",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki glukoz taşıyıcı proteinlerden hangisi kas dokusunda insüline bağımlı olarak çalışır?",
+    "options": {
+      "A": "GLUT1",
+      "B": "GLUT2",
+      "C": "GLUT3",
+      "D": "GLUT4",
+      "E": "GLUT5"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İskelet kası, kalp kası ve yağ (adipoz) dokusunda bulunan glukoz taşıyıcı 4 (GLUT-4), istirahat (açlık) halinde hücre içi sitoplazmik veziküllerde depolanır; toklukta insülinin kendi tirozin kinaz reseptörüne bağlanmasıyla aktive olan PI3K/Akt sinyal yolağı (veya iskelet kasında egzersiz/kasılma ile aktive olan AMPK yolağı) bu veziküllerin hücre membranına translokasyonunu (göçünü) sağlayarak kas ve yağ dokusuna insüline bağımlı glukoz girişini gerçekleştirir. Çeldiriciler: A) GLUT-1, eritrositler, kan-beyin bariyeri endoteli, plasenta ve böbrekte bulunan, insülinden bağımsız bazal glukoz alımını sağlayan taşıyıcıdır. B) GLUT-2, karaciğer, pankreas beta hücreleri (glukoz sensörü), ince bağırsak ve böbrek proksimal tübül bazolateral membranında yer alan, yüksek Km değerli (düşük afiniteli, yüksek kapasiteli) ve insülinden bağımsız taşıyıcıdır. C) GLUT-3, nöronlar ve plasentada bulunan, glukoza afinitesi çok yüksek (düşük Km değerli) ve insülinden bağımsız çalışan taşıyıcıdır. E) GLUT-5, ince bağırsak enterositlerinin apikal membranında ve spermatozoalarda bulunan, glukoz yerine fruktoz taşıyan insülinden bağımsız taşıyıcıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, pankreastan insülin hormonunun salgılanmasında artışa neden olmaz?",
+    "options": {
+      "A": "Açlık",
+      "B": "Gastrik inhibitör peptid",
+      "C": "Parasempatik aktivite",
+      "D": "Plazma aminoasit düzeyi artışı",
+      "E": "Büyüme hormonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Açlık durumunda kan glukoz konsantrasyonu düşer (70–80 mg/dL altına yaklaşır); pankreas beta hücrelerine GLUT-2 ile giren glukoz miktarı azaldığı için hücre içi ATP/ADP oranı düşer, ATP-duyarlı potasyum (K-ATP) kanalları açık kalarak hücre hiperpolarize olur ve voltaj kapılı Ca²⁺ kanalları açılmadığı için insülin salgılanması artmaz, aksine bazal seviyeye kadar baskılanır. Çeldiriciler: B) Gastrik inhibitör peptid (GIP / glukoz bağımlı insülinotropik polipeptid), oral glukoz ve yağ alımında ince bağırsak K hücrelerinden salgılanan bir inkretin hormondur ve beta hücrelerinde cAMP artışıyla insülin salgısını güçlü biçimde artırır. C) Parasempatik (vagal) aktivite, beta hücrelerindeki M₃ muskarinik reseptörlerini asetilkolin aracılığıyla (Gq -> IP₃/Ca²⁺ yoluyla) uyararak özellikle sindirimin sefalik ve gastrik fazlarında insülin salınımını artırır. D) Plazmada amino asit düzeyinin (özellikle arjinin ve lösinin) artması, beta hücrelerinde katyonik depolarizasyon ve TCA döngüsü üzerinden ATP üretimiyle insülin salgısını doğrudan uyarır. E) Büyüme hormonu (ve kortizol), periferik dokularda glukoz alımını azaltıp insülin direnci ve hiperglisemi oluşturarak pankreas beta hücrelerini dolaylı yoldan daha fazla insülin salgılamaya (hiperinsülinemiye) sevk eder.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hipotalamo-hipofizer traktus'un oksitosin ve vazopressin granüllerini içeren genişlemiş akson sonlanmaları (Herring cisimcikleri) aşağıdakilerden hangisinde yer alır?",
+    "options": {
+      "A": "Pars distalis",
+      "B": "Pars tuberalis",
+      "C": "Pars nervosa",
+      "D": "Pars intermedia",
+      "E": "İnfundibulum"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hipotalamusun supraoptik ve paraventriküler çekirdeklerindeki magnosellüler nöron gövdelerinde sentezlenen vazopressin (ADH) ve oksitosin hormonları, taşıyıcı proteinleri olan nörofizinlerle (sırasıyla nörofizin II ve I) birlikte hipotalamo-hipofizer traktus aksonları boyunca taşınarak arka hipofizin (nörohipofizin) esas kısmını oluşturan pars nervosa'daki akson terminallerine ulaşır; hormon-nörofizin granüllerinin bu akson uçlarında birikmesiyle oluşan bazofilik/eozinofilik aksonal şişkinlikler olan Herring cisimcikleri pars nervosa'da yer alır. Çeldiriciler: A) Pars distalis (ön lob), B) Pars tuberalis ve D) Pars intermedia, oral ektodermden (Rathke kesesinden) gelişen ön hipofizin (adenohipofizin) bölümleridir; nörosekretuvar akson uçları ve Herring cisimcikleri içermezler. E) İnfundibulum (nörohipofizer sap), hipotalamusu pars nervosa'ya bağlayan taşıyıcı akson demetlerinin geçiş yoludur; akson sonlanmalarının ve pencereli kapiller ağın bulunduğu esas depolanma/salınım bölgesi pars nervosa'dır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi insülinin salgısını baskılar?",
+    "options": {
+      "A": "Leptin",
+      "B": "Gastrik inhibitör peptid (GIP)",
+      "C": "Kortizol",
+      "D": "Gastrin",
+      "E": "Asetilkolin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Beyaz yağ (adipoz) dokusundan enerji depoları dolduğunda salgılanan bir adipokin olan leptin, hipotalamusta tokluk merkezini uyarmasının yanı sıra pankreas Langerhans adacıklarındaki beta hücrelerinde bulunan leptin reseptörlerine (Ob-Rb) bağlanarak JAK-STAT ve fosfodiesteraz 3B aktivasyonu üzerinden hücre içi cAMP düzeyini düşürür ve ATP-duyarlı K⁺ kanallarını açarak membran hiperpolarizasyonu yoluyla insülin sekresyonunu doğrudan baskılar (\"adipo-insüliner eksen\" negatif geri bildirimi). Çeldiriciler: B) Gastrik inhibitör peptid (GIP), ince bağırsak K hücrelerinden salgılanan bir inkretin olup glukoza bağımlı insülin salgısını güçlü şekilde uyarır. C) Kortizol, glukoneogenezi artırıp periferik insülin direnci ve hiperglisemi oluşturarak beta hücrelerinden insülin salınımını dolaylı olarak artırır. D) Gastrin, entero-insüliner eksenin bir parçası olarak besin alımı sonrası insülin salınımını hafifçe destekler. E) Asetilkolin, vagal parasempatik sinir uçlarından salınarak beta hücrelerindeki M₃ reseptörleri aracılığıyla insülin salgısını artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde pozitif geri besleme kontrol mekanizması rol oynar?",
+    "options": {
+      "A": "Vücut sıcaklığının düzenlenmesi",
+      "B": "Kandaki karbondioksit düzeyinin düzenlenmesi",
+      "C": "Kandaki glukoz konsantrasyonunun düzenlenmesi",
+      "D": "Kan basıncının düzenlenmesi",
+      "E": "Kanamanın durdurulması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kanamanın durdurulması (hemostaz ve kan pıhtılaşması), fizyolojik pozitif geri besleme (positive feedback) mekanizmasının en klasik örneklerinden biridir; damar duvarı yırtıldığında hasarlı bölgeye yapışan ilk trombositler ADP ve tromboksan A₂ salgılayarak daha fazla trombositin aynı yere kümelenmesini tetikler, eş zamanlı olarak başlayan pıhtılaşma kaskadında oluşan az miktardaki trombin (Faktör IIa) Faktör V, VIII, XI ve trombositleri aktive ederek kendi üretimini patlayıcı bir döngüyle hızlandırır ve damar deliği tıkanıncaya kadar süreci şiddetlendirir. (Not: İlgili sınav basımında sehven D yazılmış olsa da fizyolojik olarak kanamanın durdurulması [E] pozitif geri besleme, baroreseptörlerle kan basıncının düzenlenmesi [D] ise negatif geri beslemedir.) Çeldiriciler: A) Vücut sıcaklığının hipotalamik termoregülasyonla sabit tutulması (sıcaklık artınca terleme/vazodilatasyon, düşünce titreme/vazokonstriksiyon), B) Arteriyel karbondioksit (PCO₂) artınca kemoreseptör uyarısıyla ventilasyonun artırılarak PCO₂'nin düşürülmesi, C) Kan glukozu yükselince insülin salınımıyla düşürülmesi ve D) Kan basıncı yükselince karotis/aortik baroreseptör refleksiyle kalp hızı ve damar direncinin azaltılarak basıncın normale döndürülmesi, değişimi başlangıç değerine geri çeviren tipik negatif geri besleme mekanizmalarıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Glukokortikoidler aşağıdaki kan hücrelerinden hangisinin periferik kandaki sayısını artırır?",
+    "options": {
+      "A": "Bazofil",
+      "B": "Lenfosit",
+      "C": "Nötrofil",
+      "D": "Eozinofil",
+      "E": "Trombosit"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Glukokortikoidler (kortizol ve sentetik steroidler), damar endoteli ve nötrofiller üzerindeki L-selektin ile ICAM-1 gibi adezyon moleküllerinin ekspresyonunu azaltarak damar duvarına tutunmuş (marjinal havuzdaki) nötrofillerin dolaşımdaki kan akımına geçmesini (demarginasyon) sağlar, nötrofillerin damar dışına (dokulara) göçünü engeller, kemik iliğinden olgun nötrofil salınımını hızlandırır ve nötrofil apoptozunu geciktirerek periferik kanda belirgin nötrofili (nötrofil sayısında artış) oluşturur (ayrıca hafif eritrosit ve trombosit artışı da yapabildiği için sınavda çift cevaptan iptal edilmiş olmakla birlikte en belirgin ve klasik etki nötrofilidir). Çeldiriciler: A) Bazofil, B) Lenfosit (özellikle T lenfositler) ve D) Eozinofil sayıları glukokortikoid etkisiyle periferik kanda artmaz, aksine bu hücrelerin dolaşımdan lenfoid dokulara/kemik iliğine yeniden dağılımı (redistribüsyonu) ve apoptozlarının uyarılması sonucunda belirgin bazopeni, lenfopeni ve eozinopeni gelişir. E) Trombosit sayısı glukokortikoidlerle hafif artış gösterebilse de lökosit serisi içinde demarginasyon mekanizmasıyla en dramatik artış nötrofillerde görülür.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi büyüme hormonunun kemik ve kıkırdak büyümesi üzerindeki etkisine aracılık eder?",
+    "options": {
+      "A": "Somatostatin",
+      "B": "Glukagon",
+      "C": "L-dopa",
+      "D": "İnsülin benzeri büyüme faktörü-II",
+      "E": "İnsülin benzeri büyüme faktörü-I"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Ön hipofizden salgılanan büyüme hormonu (GH / somatotropin), uzun kemiklerin epifiz plaklarındaki kıkırdak büyümesi (kondrogenezis) ve doğrusal boy uzaması üzerindeki indirekt (dolaylı) anabolik etkilerini esas olarak karaciğerden (ve lokal olarak kondrositlerden) JAK2-STAT5 yolağıyla sentezini uyardığı insülin benzeri büyüme faktörü-I (IGF-I / somatomedin C) aracılığıyla gerçekleştirir. Çeldiriciler: A) Somatostatin, hipotalamusun periventriküler çekirdeğinden salgılanan ve ön hipofizden büyüme hormonu salınımını baskılayan (inhibe eden) hormondur. B) Glukagon, pankreas alfa hücrelerinden salgılanan ve karaciğerde glikojenoliz/glukoneogenezi uyaran hiperglisemik hormondur. C) L-dopa, katekolamin sentezinde dopaminin öncülü olup hipotalamustan GHRH salınımını uyararak GH sekresyon testlerinde kullanılan bir ajandır; GH'nin periferik doku aracısı değildir. D) İnsülin benzeri büyüme faktörü-II (IGF-II), GH'den büyük ölçüde bağımsız olarak çalışan ve esas olarak intrauterin (fetal) dönemdeki büyümeden sorumlu olan faktördür; doğum sonrası GH aracılı kemik büyümesinin ana mediyatörü IGF-I'dir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Epifizdeki Pinealosit hücreler\nII. Tiroiddeki Parafoliküler hücreler\nIII. Paratiroiddeki Oksifil hücreler\nIV. Adenohipofizdeki Bazofil hücreler\nYukarıdaki hücrelerden hangilerinin endokrin fonksiyonu yoktur?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "Yalnız IV",
+      "C": "I ve II",
+      "D": "II ve III",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Paratiroid bezinde esas (şef) hücrelerin yanı sıra puberteye doğru beliren ve yaşla birlikte sayısı artan, sitoplazmaları çok sayıda asidofilik mitokondri ile dolu olduğu için pembe (eozinofilik) boyanan büyük poligonal oksifil hücrelerin bilinen aktif bir endokrin hormon salgısı (endokrin fonksiyonu) yoktur (paratiroid hormonunu [PTH] salgılayan hücreler esas hücrelerdir). Öncüllerin Analizi: I. Epifizdeki Pinealosit hücreler (Endokrin fonksiyonu vardır): Beyindeki epifiz (pineal) bezinin parankim hücreleri olup triptofandan karanlıkta sirkadiyen ritmi düzenleyen melatonin hormonunu sentezleyip kana salgılar. II. Tiroiddeki Parafoliküler hücreler (Endokrin fonksiyonu vardır): Nöral krest (ultimobrankiyal cisim) kökenli C hücreleri olup hiperkalsemiye yanıt olarak kan kalsiyumunu düşüren kalsitonin hormonunu salgılar. III. Paratiroiddeki Oksifil hücreler (Endokrin fonksiyonu yoktur): Sekresyon granülleri ve gelişmiş GER/Golgi içermezler; bilinen bir hormon salgısı yoktur (inaktif/yaşlanmış esas hücre türevleri olduğu düşünülür). IV. Adenohipofizdeki Bazofil hücreler (Endokrin fonksiyonu vardır): Ön hipofizdeki kromofil hücre grubundan olup FSH, LH (gonadotroplar), TSH (tirotroplar) ve ACTH (kortikotroplar) hormonlarını salgılayan aktif endokrin hücrelerdir. Çeldiriciler: B, C, D ve E şıkları aktif hormon salgılayan pinealosit (I), parafoliküler C hücresi (II) veya adenohipofiz bazofil hücrelerini (IV) endokrin fonksiyonu yokmuş gibi kabul ettiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "1,25-dihidroksikolekalsiferolün (kalsitriol) kandaki derişimini kontrol eden temel hormon ve kontrolün gerçekleştiği organ hangisidir?",
+    "options": {
+      "A": "Kalsitonin – Karaciğer",
+      "B": "Parathormon – Böbrek",
+      "C": "Kalsitonin – Deri",
+      "D": "Parathormon – Kemik",
+      "E": "Kalsitonin – Bağırsak"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): D vitamininin biyolojik olarak en aktif formu olan 1,25-dihidroksikolekalsiferolün (kalsitriol) kandaki derişimini belirleyen hız kısıtlayıcı ve sıkı kontrol edilen basamak, karaciğerde oluşan 25-hidroksikolekalsiferolün böbrek proksimal tübül hücrelerinin mitokondrilerinde bulunan 1-alfa hidroksilaz enzimi tarafından hidroksillenmesidir; bu enzimin sentezini ve aktivitesini (dolayısıyla kalsitriolün kan düzeyini) kontrol eden temel uyarıcı hormon parathormondur (PTH) ve bu kontrol böbrekte gerçekleşir. Çeldiriciler: A) Karaciğerde gerçekleşen 25-hidroksilasyon basamağı fizyolojik olarak hormonlarla sıkı kontrol edilmez, substrat miktarına bağlıdır; ayrıca kalsitonin ana düzenleyici değildir. C) Deride 7-dehidrokolesterolün kolekalsiferole (D₃) dönüşümü hormonla değil, ultraviyole-B (UVB) ışınlarıyla gerçekleşir. D) Kemik ve E) Bağırsak, oluşan aktif kalsitriolün ve PTH'nin kalsiyum/fosfat dengesini sağlamak üzere etki ettiği hedef organlardır; kalsitriol sentezinin kontrol edildiği üretim organı değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Nörohipofizde bulunan glia hücresi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Astrositler",
+      "B": "Ependim hücresi",
+      "C": "Pitüisitler",
+      "D": "Schwann hücresi",
+      "E": "Müller hücresi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Diensefalon tabanının (nöroektodermin) aşağı doğru uzamasıyla gelişen nörohipofizde (pars nervosa ve infundibulumda), hipotalamustan gelen miyelinsiz hipotalamo-hipofizer traktus aksonlarını ve Herring cisimciklerini saran, destekleyen, GFAP (glial fibriller asidik protein) pozitif olan ve uzantılarıyla hormonların pencereli kapillerlere geçişini düzenleyen özelleşmiş astrosit benzeri glia hücrelerine pitüisit (pituicyte) adı verilir. Çeldiriciler: A) Astrositler, merkezi sinir sisteminin genelinde (beyin ve omurilikte) bulunan ve kan-beyin bariyerine katılan yıldızsı glia hücreleridir; nörohipofize özgü glia hücresi pitüisittir. B) Ependim hücreleri, beyin ventriküllerini ve omuriliğin santral kanalını döşeyen, beyin-omurilik sıvısı (BOS) dolaşımına katılan kübik/prizmatik glia hücreleridir. D) Schwann hücreleri, nöral krest kökenli olup periferik sinir sistemindeki aksonların miyelin kılıfını oluşturan glia hücreleridir. E) Müller hücreleri, gözün retina tabakasında dış ve iç sınırlayıcı membranlar arasında uzanan retinaya özgü radyal glia (destek) hücreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, pozitif geri bildirime örnektir?",
+    "options": {
+      "A": "Egzersiz sırasında solunum hızının artması",
+      "B": "Kan basıncı düşünce kalp hızının artması",
+      "C": "Vücut sıcaklığı düşünce titremenin başlaması",
+      "D": "Doğum sırasında oksitosinin uterusu kasması",
+      "E": "REM uykusunda vücut sıcaklığının artması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Doğum eylemi (partürisyon) sırasında fetüs başının serviksi (rahim ağzını) germesiyle başlayan nöroendokrin refleks (Ferguson refleksi) klasik bir pozitif geri bildirim (positive feedback) döngüsüdür; servikal gerilme duyusal sinirlerle hipotalamusa iletilerek arka hipofizden oksitosin salınımını artırır, oksitosin uterus miyometriyumunu daha güçlü kasar, kasılma fetüs başını servikse daha çok bastırarak gerilmeyi artırır ve bebek doğup uyaran tamamen ortadan kalkıncaya kadar oksitosin salınımı ile kasılma şiddeti birbirini artırarak devam eder. Çeldiriciler: A) Egzersiz sırasında metabolik O₂ tüketimi ve CO₂ üretimine yanıt olarak solunum hızının artması, kan gazlarını normal sınırlarda tutmaya yönelik negatif geri bildirim ve ileri besleme (feed-forward) kontrolüdür. B) Kan basıncı düşünce baroreseptör deşarjının azalmasıyla sempatik sistemin devreye girip kalp hızını artırarak kan basıncını tekrar yükseltmesi negatif geri bildirimdir. C) Vücut sıcaklığı düşünce hipotalamusun iskelet kaslarında titremeyi başlatarak ısı üretmesi ve sıcaklığı normale yükseltmesi negatif geri bildirimdir. E) REM uykusunda hipotalamik termoregülasyon yanıtlarının geçici olarak baskılanması (poikilotermi eğilimi) bir pozitif geri bildirim mekanizması değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hipofiz ön lobunda aşağıdaki hücre tiplerinden hangisi en çok görülür?",
+    "options": {
+      "A": "Laktotrop",
+      "B": "Kortikotrop",
+      "C": "Somatotrop",
+      "D": "Tirotrop",
+      "E": "Gonadotrop"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hipofiz ön lobunda (adenohipofiz / pars distalis) hormon salgılayan kromofil hücreler arasında büyüme hormonu (GH / somatotropin) sentezleyen asidofilik karakterli somatotrop hücreler, ön hipofizdeki toplam endokrin hücre popülasyonunun yaklaşık %50'sini oluşturarak en yüksek oranda bulunan hücre tipidir. Çeldiriciler: A) Prolaktin salgılayan asidofilik laktotrop (mammotrop) hücreler, ön hipofiz hücrelerinin yaklaşık %15–20'sini oluşturur (ancak gebelik ve emzirme döneminde östrojen etkisiyle hipertrofi ve hiperplaziye uğrayarak geçici olarak artar). B) ACTH ve POMC türevlerini salgılayan bazofilik kortikotrop hücreler yaklaşık %15–20 oranında bulunur. D) TSH salgılayan bazofilik tirotrop hücreler yaklaşık %5 oranıyla ön hipofizde en az bulunan kromofil hücre tipidir. E) FSH ve LH salgılayan bazofilik gonadotrop hücreler ön hipofiz hücrelerinin yaklaşık %10'unu oluşturur.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hipertiroidili hastaların tedavisinde sıklıkla Beta-adrenerjik blokörlerin yer alması, aşağıdaki tiroid hormonu etkilerinden hangisinin belirginleşmesi sonucudur?",
+    "options": {
+      "A": "Bazal metabolizma hızının yükselmesi",
+      "B": "Na⁺-K⁺ pompasının tam kapasite çalışması",
+      "C": "Dokuların katekolaminlere duyarlılığının artması",
+      "D": "Kalorijenik etki sonucu nabız hızının artması",
+      "E": "Solunum frekansının artmasıyla hiperventilasyon oluşması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Tiroid hormonları (T₃ ve T₄), kalp kası ve diğer hedef dokularda gen transkripsiyonunu uyararak hücre yüzeyindeki beta-adrenerjik reseptörlerin sayısını, yoğunluğunu ve Gs proteini/adenilat siklaz ikincil haberci sistemine kenetlenme etkinliğini artırır; bu \"permisif (izin verici)\" etki sonucunda plazma adrenalin ve noradrenalin düzeyleri normal olsa bile dokuların katekolaminlere duyarlılığı aşırı artar ve taşikardi, çarpıntı, tremor, terleme, anksiyete ve göz kapağı retraksiyonu gibi sempatomimetik bulgular ortaya çıkar (propranolol gibi beta-blokörler bu artmış katekolamin duyarlılığını bloke etmek için kullanılır). Çeldiriciler: A) Bazal metabolizma hızının yükselmesi ve B) Na⁺/K⁺-ATPaz pompasının aktivasyonu tiroid hormonlarının doğrudan nükleer reseptörler ve mitokondriler üzerindeki etkisidir; beta-blokörlerin ana hedefi değildir. D) Taşikardinin beta-blokörlerle hızla düzeltilebilmesinin temel nedeni salt kalorijenik etki değil, miyokarddaki beta-1 adrenerjik reseptör sayısının ve katekolamin duyarlılığının artmış olmasıdır. E) Hiperventilasyon, artmış CO₂ üretimine ikincil gelişen solunumsal bir yanıttır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sperm ve jejunumda bulunan ve esas fonksiyonu fruktoz taşıyıcılığı olan protein aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "GLUT-1",
+      "B": "SGLT-2",
+      "C": "GLUT-5",
+      "D": "GLUT-6",
+      "E": "GLUT-7"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Glukoz taşıyıcı ailesinin bir üyesi olmasına rağmen glukoza afinitesi olmayan ve özgül olarak fruktozu kolaylaştırılmış difüzyonla taşıyan protein GLUT-5'tir; ince bağırsakta (özellikle jejunumda) enterositlerin apikal (fırçamsı kenar) membranında diyetle alınan fruktozun emilimini sağlarken, veziküla seminalis salgısındaki fruktozu ana enerji kaynağı olarak kullanan olgun spermatozoaların (sperm hücrelerinin) kuyruk ve baş membranında da yoğun olarak bulunur. Çeldiriciler: A) GLUT-1, eritrosit ve kan-beyin bariyerinde bazal glukoz taşınmasını sağlar. B) SGLT-2, böbrek proksimal tübülünde sodyuma bağımlı glukoz geri emilimini yapar. D) GLUT-6, dalak, lökositler ve beyinde bulunan düşük afiniteli bir heksoz taşıyıcısıdır. E) GLUT-7, ince bağırsak ve kolonda hem glukoz hem fruktoza afinitesi olan (veya eski adlandırmada karaciğer endoplazmik retikulumunda tanımlanan) minör taşıyıcıdır; sperm ve jejunumun klasik ana fruktoz taşıyıcısı GLUT-5'tir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki proopiomelanokortin (POMC) kökenli maddelerden hangisi, aynı zamanda opioid bir peptiddir?",
+    "options": {
+      "A": "Alfa melanosit uyarıcı hormon",
+      "B": "Beta endorfin",
+      "C": "Beta lipotropin",
+      "D": "Beta melanosit uyarıcı hormon",
+      "E": "Adrenokortikotropik hormon"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Ön hipofizdeki kortikotrop hücrelerde ve hipotalamusun arkuat çekirdeğinde sentezlenen büyük öncül polipeptid proopiomelanokortin (POMC), prohormon konvertaz enzimleriyle parçalandığında ACTH, MSH (alfa, beta, gama) ve beta-lipotropin oluşur; beta-lipotropinin karboksil ucunun parçalanmasıyla açığa çıkan 31 amino asitlik beta-endorfin, merkezi ve periferik sinir sistemindeki mü ($\\mu$) ve delta ($\\delta$) opioid reseptörlerine yüksek afiniteyle bağlanarak güçlü analjezik (ağrı kesici) ve öforizan etki gösteren endojen bir opioid peptiddir. Çeldiriciler: A) Alfa-MSH ve D) Beta-MSH, melanokortin reseptörlerine (MC1R ve MC4R) bağlanarak deride melanin pigmentasyonunu ve hipotalamusta iştah baskılanmasını sağlar; opioid reseptör aktivitesi yoktur. C) Beta-lipotropin, POMC'nin parçalanmasıyla oluşan ve lipolizi hafif uyaran ara öncül polipeptiddir; kendisi doğrudan aktif opioid peptid olmayıp beta-endorfinin prohormonudur. E) Adrenokortikotropik hormon (ACTH), adrenal korteksteki MC2 reseptörlerine bağlanarak kortizol sentezini uyarır; opioid peptid değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Böbrek üstü bezi korteksinin dıştan içe tabakalanma sırası aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Zona reticularis – Zona fasciculata – Zona glomerulosa",
+      "B": "Zona glomerulosa – Zona reticularis – Zona fasciculata",
+      "C": "Zona fasciculata – Zona glomerulosa – Zona reticularis",
+      "D": "Zona glomerulosa – Zona fasciculata – Zona reticularis",
+      "E": "Zona fasciculata – Zona reticularis – Zona glomerulosa"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Mezoderm kökenli böbrek üstü bezi (adrenal/suprarenal) korteksi, bağ dokusu kapsülünün hemen altından başlayarak adrenal medullaya doğru (dıştan içe) sırasıyla; Zona glomerulosa -> Zona fasciculata -> Zona reticularis (\"GFR\" kısaltmasıyla) olmak üzere üç histolojik ve fonksiyonel tabakadan oluşur:1) En dışta kapsül altındaki Zona glomerulosa (%15); yuvarlak/ark benzeri hücre kümelerinden oluşur ve anjiyotensin II ile K⁺ kontrolünde mineralokortikoid (aldosteron) salgılar. 2) Ortada en geniş tabaka olan Zona fasciculata (%75–80); sinüzoidler boyunca ışınsal uzanan bir-iki hücre kalınlığında düz kordonlardan (spongiyositlerden) oluşur ve ACTH kontrolünde glukokortikoid (kortizol) salgılar. 3) En içte medullaya komşu Zona reticularis (%5–10); birbiriyle anastomoz yapan düzensiz hücre ağlarından oluşur ve ACTH kontrolünde adrenal androjenleri (DHEA ve androstenedion) salgılar. Çeldiriciler: A şıkkı tabakaları içten dışa doğru sıraladığı için; B, C ve E şıkları ise kapsül altındaki zona glomerulosa ile ortadaki zona fasciculata ve en içteki zona reticularis dizilimini karıştırdığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Antidiüretik hormon\nII. Prolaktin\nIII. Oksitosin\nIV. Glial fibriller asidik protein\nYukarıdakilerden hangileri için uygulanacak immünohistokimyasal boyama, hipofizin pars nervosa'sında pozitif sonuç verir?",
+    "options": {
+      "A": "I ve IV",
+      "B": "II ve IV",
+      "C": "I, II ve III",
+      "D": "I, III ve IV",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Nörohipofizin esas bölümünü oluşturan pars nervosa, hipotalamustan gelen akson uçlarında (Herring cisimciklerinde) depolanan antidiüretik hormon (ADH) ve oksitosin ile bu aksonları destekleyen astrosit benzeri glia hücreleri olan pitüisitleri içerir; dolayısıyla ADH (I), oksitosin (III) ve pitüisitlerin ara filamenti olan glial fibriller asidik protein (GFAP) (IV) için yapılan immünohistokimyasal boyamalar pars nervosa'da pozitif sonuç verir. Öncüllerin Analizi: I. Antidiüretik hormon (Pozitif): Supraoptik çekirdekten gelen aksonlarla pars nervosa'ya taşınır ve buradaki Herring cisimciklerinde depolandığı için immünohistokimyasal olarak pozitif boyanır. II. Prolaktin (Negatif): Nörohipofizde (pars nervosa'da) bulunmaz; adenohipofizin (pars distalis'in) asidofilik laktotrop hücrelerinde sentezlenip salgılanan bir ön hipofiz hormonudur. III. Oksitosin (Pozitif): Paraventriküler çekirdekten gelen aksonlarla pars nervosa'ya taşınır ve burada depolandığı için pozitif boyanır. IV. Glial fibriller asidik protein (GFAP) (Pozitif): Pars nervosa'nın yerleşik nöroglial destek hücreleri olan pitüisitlerin sitoplazmasında GFAP ara filamentleri bulunduğu için pozitif boyanır. Çeldiriciler: A şıkkı oksitosini (III) eksik bıraktığı için; B, C ve E şıkları ise pars nervosa'da bulunmayan ön hipofiz hormonu prolaktini (II) içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi sirkadiyen ritimle değişiklik göstermez?",
+    "options": {
+      "A": "Plazma büyüme hormonu konsantrasyonu",
+      "B": "Plazma insülin konsantrasyonu",
+      "C": "Plazma kortizol konsantrasyonu",
+      "D": "Vücut sıcaklığı",
+      "E": "Plazma melatonin konsantrasyonu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Plazma insülin konsantrasyonu, hipotalamusun suprakiazmatik çekirdeği tarafından yönetilen 24 saatlik endojen bir sirkadiyen (diürnal) ritme göre değil, gün içerisindeki besin alımı (öğünler) ve kan glukoz düzeyindeki anlık değişimlere (toklukta yükselme, açlıkta düşme) doğrudan bağımlı olarak dalgalanır. Çeldiriciler: A) Plazma büyüme hormonu (GH) konsantrasyonu belirgin bir sirkadiyen/uyku ilişkili ritim gösterir ve en büyük salınım piki gece derin yavaş dalga uykusunun (NREM Evre 3) ilk saatlerinde gerçekleşir. C) Plazma kortizol konsantrasyonu, ACTH ritmine paralel güçlü bir sirkadiyen ritim gösterir; sabah uyanmadan hemen önce ve erken saatlerde (06:00–08:00) en yüksek (pik) düzeye ulaşırken, gece yarısı (24:00) en düşük (nadir) seviyeye iner. D) Vücut sıcaklığı, suprakiazmatik çekirdek kontrolünde sirkadiyen ritim gösterir; sabah erken saatlerde (04:00–06:00) en düşük, öğleden sonra/akşamüstü (16:00–18:00) en yüksek düzeydedir. E) Plazma melatonin konsantrasyonu, retinadan gelen ışık bilgisine göre epifiz bezinden karanlıkta salgılanarak gece 02:00–04:00 arasında pik yapan ve gündüz ışığında baskılanan en tipik sirkadiyen ritimli hormondur.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tiroid hormonlarının etkilerinden biri değildir?",
+    "options": {
+      "A": "Gastrointestinal motilitede artma",
+      "B": "Bazal metabolizma hızında artma",
+      "C": "Kan serbest yağ asidi düzeyinde azalma",
+      "D": "Kan diastolik basıncında azalma",
+      "E": "Kalp atım sayısında artma"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Tiroid hormonları (T₃ ve T₄), yağ dokusunda katekolaminlere duyarlılığı ve lipolizi (trigliserid yıkımını) güçlü bir şekilde uyardığı için yağ asitlerinin yağ dokusundan kana mobilizasyonunu hızlandırır; bunun sonucunda plazma kolesterol ve trigliserid düzeyleri azalırken, kan serbest yağ asidi düzeyi azalmaz, aksine belirgin şekilde artar (artan serbest yağ asitleri dokularda beta-oksidasyonla enerji üretiminde kullanılır). Çeldiriciler: A) Tiroid hormonları sindirim kanalı salgılarını ve düz kas hareketlerini (motilitesini) artırır; bu nedenle hipertiroidizmde sık dışkılama/ishal, hipotiroidizmde ise kabızlık görülür (Doğru). B) Mitokondriyal oksidatif fosforilasyonu ve Na⁺/K⁺-ATPaz aktivitesini artırarak bazal metabolizma hızını yükseltir (Doğru). D) Dokularda artan metabolizma ve ısı üretimi periferik arteriyollerde vazodilatasyona ve sistemik vasküler dirençte düşmeye yol açtığı için kan diyastolik basıncında azalma (sistolik basınçta ise kalp debisi artışıyla yükselme ve dolayısıyla nabız basıncında genişleme) meydana gelir (Doğru). E) Sinoatriyal düğümde pacemaker akımlarını ve beta-1 adrenerjik reseptör sayısını artırarak kalp atım sayısında artma (pozitif kronotrop etki / taşikardi) oluşturur (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Lizozomal membranların stabilize olması\nII. İnsülin salgısının dolaylı olarak artması\nIII. Karaciğerde protein depolarının azalması\nHerhangi bir stres durumunda, glukokortikoidler yukarıdaki etkilerden hangilerine neden olabilir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Stres durumunda adrenal korteksten yüksek miktarda salgılanan glukokortikoidler (kortizol), lizozomal membranları stabilize ederek antiinflamatuvar etki gösterir ve kan şekerini yükselterek dolaylı yoldan insülin salgısını artırır; ancak karaciğerde protein depolarını azaltmaz, tam tersine karaciğerde protein sentezini artırır. Öncüllerin Analizi: I. Lizozomal membranların stabilize olması (Doğru): Kortizolün en önemli antiinflamatuvar mekanizmalarından biri hücre içi lizozom membranlarını sağlamlaştırarak (stabilize ederek) proteolitik enzimlerin ve inflamatuvar mediyatörlerin hücre dışına salınmasını ve doku hasarını önlemesidir. II. İnsülin salgısının dolaylı olarak artması (Doğru): Kortizol karaciğerde glukoneogenezi artırır ve kas/yağ dokusunda GLUT-4 aracılı glukoz alımını azaltarak hiperglisemi (adrenal diyabet) oluşturur; yükselen kan glukozu da pankreas beta hücrelerini uyararak insülin salgısının dolaylı olarak artmasına yol açar. III. Karaciğerde protein depolarının azalması (Yanlış): Kortizol karaciğer dışı dokularda (özellikle iskelet kası ve lenfoid dokuda) protein yıkımını artırıp protein depolarını azaltırken, kaslardan mobilize होकर gelen bu amino asitleri kullanarak karaciğerde hem glukoneogenez enzimlerinin hem de akut faz/plazma proteinlerinin sentezini ve karaciğer protein depolarını artırır. Çeldiriciler: A ve B şıkları doğru olan öncüllerden birini (sırasıyla II ve I'i) eksik bıraktığı için; C ve E şıkları ise yanlış olan III. öncülü içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisinin yokluğunda, potasyum tutulumu ve sodyum atılımı en yüksek oranda artar?",
+    "options": {
+      "A": "Aldosteron",
+      "B": "Kortizol",
+      "C": "Prednizon",
+      "D": "Androstenedion",
+      "E": "Progesteron"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Adrenal korteksin zona glomerulosa tabakasından salgılanan ve vücuttaki mineralokortikoid aktivitenin %90'ından fazlasını sağlayan temel hormon aldosterondur; böbrek distal tübülü ve toplayıcı kanallarındaki esas (principal) hücrelerde apikal ENaC sodyum kanallarını, ROMK potasyum kanallarını ve bazolateral Na⁺/K⁺-ATPaz pompasını uyararak Na⁺ (ve su) geri emilimini sağlarken K⁺ (ve H⁺) iyonlarının idrarla atılımını gerçekleştirir. Dolayısıyla aldosteron yokluğunda (ör. Addison hastalığında veya hipoaldosteronizmde) idrarla aşırı sodyum ve su kaybı (hiponatremi, hipovolemi, şok) ile kanda yaşamı tehdit eden potasyum tutulumu (hiperkalemi ve metabolik asidoz) en yüksek oranda ortaya çıkar. Çeldiriciler: B) Kortizol ve C) Sentetik glukokortikoid olan prednizon, zayıf mineralokortikoid aktiviteye sahiptir (ayrıca böbrekte 11-beta-HSD2 enzimi kortizolü inaktif kortizona dönüştürerek mineralokortikoid reseptörünü korur). D) Androstenedion, zayıf bir adrenal androjendir. E) Progesteron, korpus luteum ve plasentadan salgılanan steroid hormon olup mineralokortikoid reseptörlerinde kısmi antagonist (natriüretik) etki gösterir; yokluğunda sodyum atılımı artmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin insülin salgısının azalmasına neden olması en olasıdır?",
+    "options": {
+      "A": "Kanda artmış serbest yağ asidi düzeyi",
+      "B": "Glukagon benzeri peptid-1",
+      "C": "Kortizol",
+      "D": "Obezite",
+      "E": "Leptin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Adipoz dokudan salgılanan leptin hormonu, enerji depoları yeterli düzeye ulaştığında pankreas beta hücreleri üzerindeki özgül reseptörlerine (Ob-Rb) bağlanarak hücre içi cAMP düzeyini azaltır ve ATP-duyarlı K⁺ kanallarını aktive ederek membran hiperpolarizasyonu yoluyla insülin salgısını doğrudan baskılar (azaltır). Çeldiriciler: A) Kanda artmış serbest yağ asidi ve ketoasit düzeyi (akut/fizyolojik olarak beta hücrelerindeki GPR40 reseptörleri ve metabolik yolaklarla, kronik olarak ise insülin direnciyle) insülin salınımını uyarır. B) Glukagon benzeri peptid-1 (GLP-1), ileum ve kolondaki L hücrelerinden salgılanan en güçlü inkretin hormondur ve glukoza bağımlı insülin salgısını artırır. C) Kortizol ve D) Obezite, periferik dokularda (kas, yağ, karaciğer) belirgin insülin direnci ve hiperglisemi eğilimi yaratarak pankreas beta hücrelerinden kompansatuvar olarak aşırı insülin salgılanmasına (bazal ve postprandiyal hiperinsülinemiye) neden olur.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tiroid hormon senteziyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "İyodid, tiroid epitel hücresine sodyum-iyodid simportu ile alınır.",
+      "B": "İyodid, folikül lümenine pendrin transporteriyle geçer.",
+      "C": "Diyette iyodid miktarı azaldığında tiroid folikül hücresinin kandan iyodid alımı artar.",
+      "D": "TSH, sodyum-iyodid simportunun gen ekspresyonunu artırır.",
+      "E": "İyodid, folikül hücre sitoplazmasında hızla okside olur."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tiroid folikül hücresine alınan iyodid (I⁻) iyonunun aktif iyota (I⁰ veya I⁺) okside olması (oksidasyon) ve tiroglobulin üzerindeki tirozin kalıntılarına bağlanması (organifikasyon) folikül hücresinin sitoplazmasında gerçekleşmez; sitoplazmada serbest iyot sitotoksik olacağından bu reaksiyon folikül hücresinin apikal membranının dış yüzünde, yani apikal membran–kolloid (folikül lümeni) sınırında yerleşik tiroid peroksidaz (TPO) enzimi ve H₂O₂ varlığında hücre dışında (lümen tarafında) gerçekleşir. Çeldiriciler: A) Kandan iyodid yakalanması (trapping), folikül hücresinin bazolateral membranındaki sodyum-iyodid simportörü (NIS) aracılığıyla 2 Na⁺ ile 1 I⁻ iyonunun sekonder aktif taşınmasıyla gerçekleşir (Doğru). B) Hücre içine alınan iyodid, apikal membranda bulunan bir klor-iyodid zıt taşıyıcısı (anyon değiştirici) olan pendrin proteini aracılığıyla folikül lümenine (kolloide) geçirilir (Doğru). C) Diyette iyot azaldığında tiroid içi organik iyot düşer ve artan TSH uyarısıyla folikül hücresinin kandan iyodid yakalama kapasitesi (NIS aktivitesi) kompansatuvar olarak artar (Doğru). D) Ön hipofizden salgılanan TSH, folikül hücresinde cAMP yolağı üzerinden NIS gen ekspresyonunu ve membrana yerleşimini güçlü şekilde artırır (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Glukoz moleküllerinin hücre içine aktarılmasında işlev gören glukoz taşıyıcı-4 (GLUT 4) aşağıdakilerden hangisi tarafından aktive edilir?",
+    "options": {
+      "A": "Glukagon",
+      "B": "İnsülin",
+      "C": "Adrenalin",
+      "D": "Noradrenalin",
+      "E": "Somatostatin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İskelet kası, kalp kası ve adipoz (yağ) dokusu hücrelerinde sitoplazmik veziküller içinde inaktif/rezerv halde bekleyen GLUT-4 taşıyıcıları, pankreas beta hücrelerinden salgılanan insülin hormonunun hedef hücre membranındaki tirozin kinaz reseptörüne bağlanarak IRS-1 -> PI3K -> Akt (protein kinaz B) sinyal kaskadını çalıştırmasıyla hücre membranına taşınır (translokasyon) ve aktive edilerek glukozun hızla hücre içine alınmasını sağlar. Çeldiriciler: A) Glukagon, esas olarak karaciğerde etki gösterir (karaciğerde GLUT-4 değil, insülinden bağımsız GLUT-2 bulunur) ve glikojenoliz/glukoneogenezle kana glukoz verilmesini sağlar. C) Adrenalin ve D) Noradrenalin, kontrinsüliner (insülin karşıtı) hormonlar olup beta-adrenerjik reseptörler üzerinden iskelet kasında ve yağ dokusunda insülin aracılı GLUT-4 translokasyonunu ve glukoz alımını inhibe ederek kan şekerini yükseltir. E) Somatostatin, pankreastan insülin ve glukagon salınımını baskılayan parakrin/endokrin inhibitör hormondur; GLUT-4'ü aktive etmez.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yağ dokusunda üretilen ve besin alımını azaltan hormon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Proopiomelanokortin",
+      "B": "Leptin",
+      "C": "Ghrelin",
+      "D": "Kolesistokinin",
+      "E": "İnsülin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Beyaz yağ (adipoz) dokusundaki adipositler tarafından vücut yağ kitlesiyle doğru orantılı olarak ob (lep) geninden sentezlenip salgılanan 16 kDa ağırlığındaki peptid hormon leptin, kan-beyin bariyerini geçerek hipotalamusun arkuat çekirdeğindeki iştah açıcı (oreksijenik) NPY/AgRP nöronlarını inhibe ederken, iştah kesici (anoreksijenik) POMC/CART nöronlarını (alfa-MSH üzerinden) uyararak besin alımını (iştahı) azaltır ve sempatik sinir sistemi aracılığıyla enerji tüketimini (termogenezi) artırır. Çeldiriciler: A) Proopiomelanokortin (POMC), yağ dokusunda değil hipotalamus ve ön hipofizde üretilen, alfa-MSH'nin öncülü olan polipeptiddir. C) Ghrelin, yağ dokusundan değil açlıkta mide fundusundaki X/A benzeri hücrelerden salgılanır ve besin alımını azaltmaz, aksine NPY/AgRP nöronlarını uyararak iştahı güçlü şekilde artırır. D) Kolesistokinin (CCK), tokluk sinyali oluşturarak besin alımını azaltır ancak yağ dokusunda değil, ince bağırsak (duodenum/jejunum) I hücrelerinde üretilir. E) İnsülin, hipotalamusta anoreksijenik etki gösterir ancak yağ dokusunda değil, pankreas Langerhans adacıklarındaki beta hücrelerinde üretilir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi insülin salgılanmasını inhibe eder?",
+    "options": {
+      "A": "Muskarinik reseptörün uyarılması",
+      "B": "Vücut ağırlığı ve yağ oranının artması",
+      "C": "Glukagon benzeri peptid-1 (GLP-1) salgılanması",
+      "D": "Plazma kortizol düzeyinin artması",
+      "E": "Alfa2-adrenerjik reseptörün uyarılması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Sempatik sinir sisteminin aktivasyonu sırasında salınan noradrenalin ve adrenalin, pankreas beta hücrelerinin membranında bulunan Gi proteini kenetli alfa-2 ($\\alpha_2$) adrenerjik reseptörleri uyararak adenilat siklazı inhibe eder, hücre içi cAMP düzeyini düşürür ve K⁺ kanallarını açıp voltaj kapılı Ca²⁺ kanallarını kapatarak insülin salgılanmasını güçlü bir şekilde inhibe eder (sempatik sistemin beta-2 reseptörleri üzerinden hafif uyarıcı etkisi olsa da pankreas beta hücrelerinde alfa-2 adrenerjik reseptör aracılı inhibisyon baskındır). Çeldiriciler: A) Beta hücrelerindeki M₃ muskarinik reseptörlerin parasempatik asetilkolinle uyarılması Gq-IP₃/Ca²⁺ yoluyla insülin salgılanmasını artırır. B) Vücut ağırlığı ve yağ oranının artması (obezite) ile D) Plazma kortizol düzeyinin artması, periferik insülin direnci ve hiperglisemi oluşturarak beta hücrelerinden insülin salgılanmasını artırır (hiperinsülinemi yapar). C) Glukagon benzeri peptid-1 (GLP-1) salgılanması, beta hücrelerinde Gs-cAMP yolağını aktive ederek glukoza bağımlı insülin salınımını en güçlü şekilde uyarır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Glukagonun karaciğerdeki glikojen depolarına etki ederek kan şekeri düzeyini arttırmasındaki sinyal akışın doğru sıralaması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Glikojen fosforilaz – cAMP – protein kinaz A – Gs",
+      "B": "cAMP – Gs – protein kinaz A – glikojen fosforilaz",
+      "C": "Gs – cAMP – protein kinaz A – glikojen fosforilaz",
+      "D": "Glikojen fosforilaz – protein kinaz A – Gs – cAMP",
+      "E": "Gs – protein kinaz A – cAMP – glikojen fosforilaz"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Pankreas alfa hücrelerinden salgılanan glukagon, hepatosit membranındaki 7 transmembran sarmallı reseptörüne bağlandığında sırasıyla;1) Reseptörle kenetli uyarıcı G proteini olan **Gs** aktive olur, 2) Gs-alfa alt birimi adenilat siklaz enzimini uyararak ATP'den ikincil haberci **cAMP** sentezini artırır, 3) Artan cAMP, düzenleyici alt birimlerine bağlanarak **protein kinaz A (PKA)** enzimini aktifleştirir, 4) Aktif PKA, fosforilaz kinazı fosforilleyip aktifleştirir ve o da hız kısıtlayıcı enzim olan **glikojen fosforilaz** b'yi aktif a formuna dönüştürerek glikojen yıkımını (glikojenolizi) başlatır ve kan şekerini yükseltir (Gs – cAMP – protein kinaz A – glikojen fosforilaz). Çeldiriciler: A ve D şıkları en son efektör enzim olan glikojen fosforilazı en başa koyduğu için; B şıkkı ikincil haberci cAMP'yi onu ürettiren Gs proteininden önceye koyduğu için; E şıkkı ise protein kinaz A'yı onu aktifleştiren cAMP'den önceye yerleştirdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi glukozun eritrositlere girişine aracılık eden hücre zarı proteinidir?",
+    "options": {
+      "A": "GLUT 1",
+      "B": "GLUT 2",
+      "C": "SGLT 1",
+      "D": "SGLT 2",
+      "E": "SGLT 3"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Olgun eritrositler (alyuvarlar) mitokondri içermedikleri için enerji (ATP) üretiminde tamamen anaerobik glikolize ve dolayısıyla kandan sürekli glukoz alımına bağımlıdır; eritrosit membranında glukozun konsantrasyon gradyanı yönünde, insülinden bağımsız ve yüksek afiniteyle (Km ~ 1–2 mM) kolaylaştırılmış difüzyonla hücre içine girişine aracılık eden taşıyıcı protein GLUT-1'dir (eritrosit membran proteinlerinin yaklaşık %5'ini oluşturur). Çeldiriciler: B) GLUT-2, karaciğer, pankreas beta hücreleri ve bağırsak/böbrek bazolateral membranında bulunan düşük afiniteli taşıyıcıdır. C) SGLT-1, ince bağırsak ve böbrek proksimal tübülünün S3 segmentinde, D) SGLT-2 ise böbrek proksimal tübülünün S1 segmentinde sodyum gradyanıyla sekonder aktif glukoz taşıyan kotransporterlerdir; eritrositte bulunmazlar. E) SGLT-3, kolinerjik nöronlarda ve iskelet kasında glukoz taşıyıcısından ziyade glukoza duyarlı sodyum kanalı (glukoz sensörü) olarak işlev görür.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "1,25-dihidroksikolekalsiferol (kalsitriol) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Böbreklerde geçici reseptör potansiyeli katyon kanalı V5 (TRPV5) ekspresyonunu artırır.",
+      "B": "Kalbindin D ekspresyonunu artırır.",
+      "C": "Parathormon gen ekspresyonunu artırır.",
+      "D": "Kalsiyuma duyarlı reseptörlerin (CASR) gen ekspresyonunu artırır.",
+      "E": "Osteoid oluşumunu ve mineralizasyonunu regüle eder."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Aktif D vitamini olan 1,25-dihidroksikolekalsiferol (kalsitriol), paratiroid bezindeki esas hücrelerde bulunan nükleer D vitamini reseptörlerine (VDR) bağlanarak parathormon (PTH) gen transkripsiyonunu ve esas hücre proliferasyonunu artırmaz; tam tersine negatif geri bildirim (negative feedback) mekanizmasıyla PTH gen ekspresyonunu ve sentezini doğrudan baskılar (bu nedenle kronik böbrek yetmezliğinde kalsitriol eksikliğine bağlı sekonder hiperparatiroidizm gelişir ve tedavisinde kalsitriol analogları kullanılır). Çeldiriciler: A) Kalsitriol, böbrek distal tübül hücrelerinin apikal membranındaki kalsiyum kanalı TRPV5'in ekspresyonunu artırarak idrardan kalsiyum geri emilimini destekler (Doğru). B) Hem ince bağırsak enterositlerinde (TRPV6 kanalıyla birlikte kalbindin-D9k) hem de böbrek tübüllerinde (kalbindin-D28k) hücre içi kalsiyum bağlayıcı protein olan kalbindin-D sentezini artırarak kalsiyum emilimini hızlandırır (Doğru). D) Paratiroid bezi ve böbrekte kalsiyuma duyarlı reseptörlerin (CaSR) gen ekspresyonunu artırarak paratiroid bezinin plazma kalsiyumuna duyarlılığını yükseltir ve PTH baskılanmasına katkıda bulunur (Doğru). E) Bağırsaktan Ca²⁺ ve PO₄³⁻ emilimini sağlayarak ekstrasellüler sıvıda kalsiyum-fosfat çarpımını korur ve osteoblastlar üzerindeki etkileriyle osteoid oluşumunu ve kemik mineralizasyonunu regüle eder (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Büyüme hormonunun reseptörlerine bağlı bulunan ve reseptör zincirlerinin birbirine yaklaşmasıyla tetiklenen enzim aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Protein kinaz C",
+      "B": "Janus kinaz",
+      "C": "Guanilat siklaz",
+      "D": "Fosfodiesteraz",
+      "E": "MAP kinaz"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Büyüme hormonu (GH) reseptörü (tıpkı prolaktin, eritropoietin, leptin ve sitokin reseptörleri gibi) intrinsik enzimatik aktivitesi olmayan Tip I sitokin reseptör süperailesindendir; GH molekülü hücre yüzeyindeki iki reseptör zincirine bağlanıp dimerizasyon (zincirlerin birbirine yaklaşmasını) sağladığında, reseptörün sitoplazmik kuyruğuna kovalent olmayan bağla tutunmuş halde bulunan tirozin kinaz enzimi **Janus kinaz 2 (JAK2)** karşılıklı çapraz fosforilasyonla tetiklenir (aktive olur) ve STAT (özellikle STAT5) transkripsiyon faktörlerini fosforilleyerek IGF-1 ve diğer hedef genlerin ekspresyonunu başlatır. Çeldiriciler: A) Protein kinaz C, Gq proteini ve fosfolipaz C aracılı yolaklarda diaçilgliserol (DAG) ve Ca²⁺ ile aktive olan serin/treonin kinazdır. C) Guanilat siklaz, atriyal natriüretik peptid (ANP) ve nitrik oksit (NO) tarafından aktive edilerek GTP'den cGMP üreten enzimdir. D) Fosfodiesteraz, cAMP ve cGMP'yi 5'-AMP ve 5'-GMP'ye yıkarak ikincil haberci sinyalini sonlandıran enzimdir. E) MAP kinaz, büyüme faktörleri ve insülin sinyalizasyonunun daha alt basamaklarında yer alan serin/treonin kinaz kaskadıdır; GH reseptör zincirlerine doğrudan bağlı bulunan başlatıcı enzim JAK2'dir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kırk beş yaşındaki sağlıklı bir kişi hafta sonu dağda yürürken ayağı kayarak düşüyor ve kimsenin ulaşamayacağı bir yerde mahsur kalıyor. Yaklaşık 48 saat yemek yemeden yaşam mücadelesi veriyor. Köylüler tarafından bulunan hastanın acil servise nakli sağlanıyor. Bu hastanın acil servise girdiği andaki fizyolojik durumu ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Kortizol düzeyi yükselmiştir.",
+      "B": "Keton cisimleri artmaya başlamıştır.",
+      "C": "Lipogenez baskılanmıştır.",
+      "D": "Proteoliz başlamıştır.",
+      "E": "İnsülin/glukagon oranı artmıştır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Yaklaşık 48 saatlik uzamış açlık (ve travma/stres) durumunda kan glukoz düzeyini koruyabilmek amacıyla pankreas beta hücrelerinden insülin salınımı en düşük (bazal) seviyeye inerken, alfa hücrelerinden glukagon salınımı belirgin şekilde yükselir; dolayısıyla bu hastada plazma insülin/glukagon oranı artmamıştır, tam tersine keskin bir şekilde azalmıştır (düşük insülin/glukagon oranı katabolik/glukoneogenik açlık metabolizmasının ana yöneticisidir). Çeldiriciler: A) Hem 48 saatlik açlık/hipoglisemi eğilimi hem de mahsur kalma ve travmanın yarattığı fiziksel/psikolojik stres HPA eksenini uyararak kortizol düzeyini yükseltmiştir (Doğru). B) Karaciğer glikojen depoları ilk 18–24 saatte tükendiği için 48. saatte yağ dokusundan mobilize olan yağ asitlerinin karaciğerde beta-oksidasyonu hızlanmış ve beyin ile kaslara alternatif yakıt sağlamak üzere ketogenez (keton cisimleri sentezi) artmaya başlamıştır (Doğru). C) İnsülinin azalması ve glukagon/adrenalin artışı asetil-KoA karboksilaz enzimini fosforilleyerek inaktive ettiği için yağ asidi ve trigliserid sentezi (lipogenez) tamamen baskılanmıştır (Doğru). D) Beyin ve eritrositlerin zorunlu glukoz ihtiyacını glukoneogenezle karşılamak amacıyla kortizol etkisiyle iskelet kaslarında protein yıkımı (proteoliz) başlamış ve karaciğere alanin/glutamin akışı artmıştır (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tip II diabetes mellitus tedavisinde beta hücrelerinden insülin salgısını arttırmak amacıyla kullanılan K kanal blokörlerinin etkisini açıklayan mekanizma aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hücre içi ATP derişimini azaltması",
+      "B": "Voltaja duyarlı Ca kapılarını açacak koşulları sağlaması",
+      "C": "Hücre içine glukoz girişini arttırması",
+      "D": "Protein kinaz C'yi aktive etmesi",
+      "E": "Hücre içi inozitol trifosfat derişimini arttırması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Tip II diyabet tedavisinde kullanılan sülfonilüreler ve meglitinidler (glinidler) gibi ATP-duyarlı potasyum ($K_{ATP}$) kanal blokörleri (sekretagoglar), pankreas beta hücre membranındaki $K_{ATP}$ kanallarının SUR1 (sülfonilüre reseptörü 1) alt birimine bağlanarak bu kanalları kapatır; hücre dışına $K^+$ çıkışı engellendiği için hücre membranı depolarize olur ve bu depolarizasyon **voltaja duyarlı (L-tipi) $Ca^{2+}$ kanallarının (kapılarının) açılmasını sağlayacak elektriksel koşulları oluşturur**, sonuçta hücre içine giren $Ca^{2+}$ iyonları insülin granüllerinin ekzositozunu tetikler. Çeldiriciler: A) Bu ilaçlar hücre içi ATP derişimini azaltmaz (ATP azalması kanalları açarak insülin salınımını durdurur); ATP'den bağımsız olarak doğrudan kanal proteinine bağlanıp kapatırlar. C) İlaçlar GLUT-2 üzerinden hücre içine glukoz girişini artırmaz, glukoz metabolizmasının altındaki kanal basamağına doğrudan etki eder. D) Protein kinaz C aktivasyonu ve E) İnozitol trifosfat ($IP_3$) artışı, asetilkolinin M₃ reseptörü üzerinden çalıştırdığı Gq-PLC yolağına aittir; $K^+$ kanal blokörlerinin etki mekanizması değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi büyüme hormonunun metabolik etkilerinden değildir?",
+    "options": {
+      "A": "Hücre içine amino asit transportunu hızlandırmak",
+      "B": "Enerji için yağ asitlerinin kullanımını arttırmak",
+      "C": "İskelet kasına glukoz girişini arttırmak",
+      "D": "Fazla salgılandığında karaciğerde asetoasetik asit yapımını arttırmak",
+      "E": "DNA'nın transkripsiyon hızını ve RNA miktarını arttırmak"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Büyüme hormonu (GH), karbonhidrat metabolizması üzerinde \"anti-insüliner (diyabetojenik)\" etki gösterir; iskelet kası ve yağ dokusunda insülin reseptör sonrası sinyalizasyonunu ve GLUT-4 aracılı glukoz alımını azaltarak **iskelet kasına glukoz girişini artırmaz, aksine baskılar** (böylece kan glukozunu beyin için korur ve karaciğerde glukoz çıkışını artırır). Çeldiriciler: A) Protein metabolizması üzerinde güçlü anabolik etki göstererek özellikle kas ve kıkırdak hücrelerinin membranından içeriye amino asit transportunu hızlandırır (Doğru). B) Yağ dokusunda hormona duyarlı lipazı aktive ederek serbest yağ asitlerinin mobilizasyonunu ve dokularda enerji üretimi için glukoz yerine yağ asitlerinin kullanımını (beta-oksidasyonu) artırır (Doğru). D) Fazla salgılandığında (ör. akromegalide) aşırı lipoliz sonucu karaciğere gelen yoğun serbest yağ asidi akışı asetil-KoA birikimine ve karaciğerde asetoasetik asit / beta-hidroksibütirik asit (keton cisimleri) yapımının artmasına (ketojenik etkiye) yol açar (Doğru). E) Hücre çekirdeğinde DNA'nın transkripsiyon hızını ve ribozomal/mesajcı/taşıyıcı RNA miktarını artırarak ribozomlarda protein sentezini hızlandırır ve protein yıkımını azaltır (Doğru).",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kan glukozunun artışı pankreasın Langerhans adacıkları beta hücrelerinden insülin ekzositozunu tetikler. Bu mekanizma sırasında beta hücrelerinde inhibisyona uğrayan membran proteini aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Voltaj-kapılı Na kanalı",
+      "B": "Na/Ca antiporteri",
+      "C": "Voltaj-kapılı Ca kanalı",
+      "D": "ATP duyarlı K kanalı",
+      "E": "Na/K ATPaz pompası"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Toklukta kan glukozu yükseldiğinde glukoz GLUT-2 taşıyıcısı ile pankreas beta hücresine girer, glukokinaz enzimiyle fosforillenir ve glikoliz/krebs döngüsü/oksidatif fosforilasyon sonucunda hücre içi ATP üretimi (ve ATP/ADP oranı) artar; yükselen hücre içi ATP, membran potansiyelini dinlenimde negatif tutan **ATP-duyarlı potasyum ($K_{ATP}$) kanalına** (Kir6.2 alt birimine) bağlanarak bu kanalı **inhibe eder (kapatır)**, böylece $K^+$ çıkışı durur, hücre depolarize olur, voltaj kapılı $Ca^{2+}$ kanalları açılır ve hücreye giren $Ca^{2+}$ insülin ekzositozunu tetikler. Çeldiriciler: A) Pankreas beta hücrelerinde depolarizasyonun ve insülin salınımının ana başlatıcısı voltaj-kapılı $Na^+$ kanalının inhibisyonu değildir. B) $Na^+/Ca^{2+}$ antiporteri ve E) $Na^+/K^+$ ATPaz pompası, hücrenin bazal iyon dengesini ve aksiyon sonrası toparlanmasını sağlayan taşıyıcılardır; glukozla inhibe edilerek ekzositozu başlatan sensör kanal değildir. C) Voltaj-kapılı $Ca^{2+}$ kanalı bu süreçte inhibisyona uğramaz; tam tersine $K_{ATP}$ kanalının kapanmasıyla oluşan depolarizasyon sonucunda aktive olarak (açılarak) hücre içine $Ca^{2+}$ girişini sağlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki endokrin organların hangisinde salgı hücre dışında depolanır?",
+    "options": {
+      "A": "Paratiroid",
+      "B": "Tiroid",
+      "C": "Adenohipofiz",
+      "D": "Adrenal bez",
+      "E": "Epifiz"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Vücuttaki tüm endokrin bezler arasında hormonunu hücre dışında (ekstrasellüler alanda) ve vücudun yaklaşık 2–3 aylık ihtiyacını karşılayacak kadar büyük miktarda depolayan tek istisnai endokrin organ **tiroid bezidir**; tiroid folikül epitel hücreleri sentezledikleri T₃ ve T₄ hormonlarını büyük bir glikoprotein olan tiroglobulin molekülüne bağlı halde folikül lümenindeki hücre dışı **kolloid** sıvısı içerisinde depolar. Çeldiriciler: A) Paratiroid bezi, C) Adenohipofiz ve D) Adrenal medulla gibi peptid/protein veya katekolamin salgılayan bezler hormonlarını hücre dışında değil, **hücre içinde (sitoplazmik salgı granüllerinde/veziküllerde)** depolar; D) Adrenal korteks gibi steroid salgılayan bezler ve E) Epifiz bezi ise hormonlarını (kortizol/aldosteron ve melatonin) lipofilik yapıları nedeniyle depolamadan sentezledikleri anda difüzyonla kana verir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ön hipofiz hormonlarından biri değildir?",
+    "options": {
+      "A": "Tiroid stimüle edici hormon",
+      "B": "Luteinize edici hormon",
+      "C": "Folikül stimüle edici hormon",
+      "D": "Adrenokortikotropik hormon",
+      "E": "Oksitosin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Oksitosin bir ön hipofiz (adenohipofiz) hormonu değildir; hipotalamusun paraventriküler (ve kısmen supraoptik) çekirdeğindeki magnosellüler nöronlarda sentezlenen ve aksonal taşımayla arka hipofize (nörohipofize / pars nervosa'ya) getirilip burada depolanarak kana salgılanan bir nörohipofiz hormonudur. Çeldiriciler: A) Tiroid stimüle edici hormon (TSH - tirotrop hücrelerden), B) Luteinize edici hormon (LH - gonadotrop hücrelerden), C) Folikül stimüle edici hormon (FSH - gonadotrop hücrelerden) ve D) Adrenokortikotropik hormon (ACTH - kortikotrop hücrelerden), büyüme hormonu (GH) ve prolaktin (PRL) ile birlikte bizzat ön hipofiz (adenohipofiz) epitel hücrelerinde sentezlenip salgılanan altı klasik ön hipofiz hormonudur.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi nörohipofiz tarafından salgılanır?",
+    "options": {
+      "A": "Büyüme hormonu",
+      "B": "Prolaktin",
+      "C": "Oksitosin",
+      "D": "Folikül stimülan hormon",
+      "E": "Adrenokortikotropik hormon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Arka hipofiz (nörohipofiz / pars nervosa), hipotalamusun paraventriküler ve supraoptik çekirdeklerinde sentezlenip hipotalamo-hipofizer traktus aksonlarıyla taşınan iki peptid hormonu depolar ve nöroendokrin reflekslere yanıt olarak sistemik dolaşıma salgılar: Bunlar meme miyoepitelyal hücrelerini ve uterus miyometriyumunu kasan **oksitosin** ile böbrekten su geri emilimini sağlayan ve damarları kasan **antidiüretik hormondur (ADH / vazopressin)**. Çeldiriciler: A) Büyüme hormonu (GH - somatotroplardan), B) Prolaktin (laktotroplardan), D) Folikül stimülan hormon (FSH - gonadotroplardan) ve E) Adrenokortikotropik hormon (ACTH - kortikotroplardan), nörohipofiz tarafından değil, ön hipofiz (adenohipofiz) tarafından sentezlenip salgılanan hormonlardır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hipotalamo-hipofizer bağlantıda meydana gelen hasarlanma sonrası aşağıdaki hormonlardan hangisinin kandaki düzeyinin artması beklenir?",
+    "options": {
+      "A": "TSH",
+      "B": "LH",
+      "C": "Prolaktin",
+      "D": "FSH",
+      "E": "ACTH"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hipotalamus ön hipofiz hormonlarının neredeyse tamamını uyarıcı (releasing) hormonlarla kontrol ederken, tek istisna olarak ön hipofizdeki laktotrop hücrelerden salgılanan **prolaktin (PRL)** hormonunu arkuat çekirdekten (tuberoinfundibular yoldan) hipofizer portal sisteme salgıladığı **dopamin** (prolaktin inhibe edici hormon - PIH) aracılığıyla sürekli (tonik olarak) baskı altında tutar; bu nedenle hipofiz sapı (infundibulum) kesisi, travma veya bası yapan tümörler sonucunda hipotalamo-hipofizer bağlantı hasarlandığında dopamin ön hipofize ulaşamaz, laktotroplar üzerindeki tonik D₂ reseptör inhibisyonu ortadan kalkar (\"sap etkisi / stalk effect\") ve kandaki prolaktin düzeyi artar. Çeldiriciler: A) TSH (TRH ulaşamadığı için), B) LH ve D) FSH (GnRH ulaşamadığı için) ve E) ACTH (CRH ulaşamadığı için), hipotalamik uyarıcı hormonlarını kaybettikleri için hipotalamo-hipofizer sap hasarı sonrasında kandaki düzeyleri artmaz, aksine belirgin şekilde azalır (panhipopitüitarizm gelişir).",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisinin endokrin bezde depo şekli yoktur ve aktif formda sentezlenip salgılanır?",
+    "options": {
+      "A": "Progesteron",
+      "B": "Paratiroid hormon",
+      "C": "İnsülin",
+      "D": "Büyüme hormonu",
+      "E": "Adrenalin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kolesterolden sentezlenen steroid yapılı hormonlar (kortizol, aldosteron, östrojen, testosteron ve **progesteron**) yüksek derecede lipofilik (yağda çözünür) moleküller oldukları için lipid çift tabakalı vezikül veya hücre membranları içinde hapsedilerek depolanamazlar; endokrin bezde (over korpus luteumu, plasenta ve adrenal kortekste) yalnızca öncül kolesterol esterleri depolanır, uyarı geldiğinde progesteron enzimatik olarak aktif formda sentezlenir ve sentezlendiği anda basit difüzyonla hücre zarından geçerek kana salgılanır. Çeldiriciler: B) Paratiroid hormon (PTH), C) İnsülin ve D) Büyüme hormonu (GH), ribozomlarda preprohormon/prohormon olarak sentezlenen hidrofilik peptid/protein hormonlar olup Golgi aygıtında paketlenerek sitoplazmik salgı granüllerinde depolanır ve ekzositozla salgılanır. E) Adrenalin, tirozin amino asidinden sentezlenen hidrofilik bir katekolamin olup adrenal medulladaki kromaffin hücrelerin sitoplazmik veziküllerinde (kromogranin proteinleri ve ATP ile birlikte) depolanır ve ekzositozla salgılanır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki faktörlerden hangisi büyüme hormonu (GH) sekresyonunun azalmasına yol açar?",
+    "options": {
+      "A": "Ghrelin",
+      "B": "Hiperglisemi",
+      "C": "Egzersiz",
+      "D": "Yüksek plazma arjinin düzeyi",
+      "E": "REM uykusu"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Büyüme hormonu (GH) kan şekerini yükselten kontrinsüliner (diyabetojenik) bir hormon olduğu için, kan glukoz düzeyinin yükselmesi (**hiperglisemi**) hipotalamustan somatostatin salınımını uyararak ve GHRH salınımını baskılayarak ön hipofizden GH sekresyonunun azalmasına yol açar (bu fizyolojik mekanizma nedeniyle akromegali tanısında \"oral glukoz tolerans testi [OGTT] ile GH baskılanma testi\" altın standart tanı yöntemi olarak kullanılır; sağlıklı kişide glukoz verilince GH < 1 ng/mL'ye baskılanır). (Not: REM uykusu da GH salınımını azaltan bir faktördür; GH derin yavaş dalga uykusu olan NREM Evre 3'te artarken REM uykusunda azalır, ancak klinik ve fizyolojik olarak en klasik baskılayıcı faktör hiperglisemidir.) Çeldiriciler: A) Ghrelin (büyüme hormonu salgılatıcı reseptörün [GHS-R] endojen ligandı olarak), C) Fiziksel egzersiz (ve akut stres/travma/açlık/hipoglisemi) ve D) Yüksek plazma arjinin (amino asit) düzeyi (hipotalamustan somatostatin salınımını inhibe ederek), ön hipofizden büyüme hormonu sekresyonunu güçlü şekilde artıran faktörlerdir. E) Uyku genel olarak (özellikle NREM derin uyku evresi) GH salınımının en güçlü fizyolojik uyaranlarından biri olarak kabul edilir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi fosfolipaz C ikincil haberci sistemi üzerinden etkisini gösterir?",
+    "options": {
+      "A": "Oksitosin",
+      "B": "Glukagon",
+      "C": "Kalsitonin",
+      "D": "Prolaktin",
+      "E": "Büyüme hormonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Arka hipofizden salgılanan **oksitosin**, hedef dokuları olan uterus miyometriyum düz kas hücrelerinde ve meme bezindeki miyoepitelyal hücrelerde bulunan Gq/11 proteini kenetli oksitosin reseptörlerine (OTR) bağlanır; aktifleşen Gq proteini membran **fosfolipaz C (PLC)** enzimini uyararak PIP₂'yi inozitol trifosfat ($IP_3$) ve diaçilgliserole (DAG) parçalar, $IP_3$ sarkoplazmik retikulumdan sitoplazmaya $Ca^{2+}$ salınımını sağlayarak kalmodulin-miyozin hafif zincir kinaz (MLCK) aktivasyonuyla düz kas kasılmasını gerçekleştirir (fosfolipaz C kullanan diğer klasik hormonlar: GnRH, TRH, GHRH, Anjiyotensin II [AT₁], ADH [V₁] ve alfa-1 adrenerjik agonistlerdir). Çeldiriciler: B) Glukagon ve C) Kalsitonin, hedef hücre membranlarında Gs proteini kenetli reseptörlerine bağlanarak adenilat siklaz – cAMP – protein kinaz A ikincil haberci sistemi üzerinden etki gösterir. D) Prolaktin ve E) Büyüme hormonu, Tip I sitokin reseptör ailesine ait reseptörlerine bağlanarak sitoplazmik tirozin kinaz olan JAK2 – STAT sinyal yolağı üzerinden etkilerini gösterir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tiroid hormonunun etkisine bağlı olarak artmaz?",
+    "options": {
+      "A": "Glukoneogenez",
+      "B": "Na/K ATPaz aktivitesi",
+      "C": "Plazma serbest yağ asidi konsantrasyonu",
+      "D": "Plazma kolesterol konsantrasyonu",
+      "E": "Oksijen tüketimi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tiroid hormonları (T₃ ve T₄), karaciğer hücrelerinde düşük dansiteli lipoprotein (LDL) reseptörlerinin gen ekspresyonunu artırarak plazmadaki kolesterolün karaciğer tarafından hızla temizlenmesini ve kolesterolün 7-alfa hidroksilaz enzimiyle safra asitlerine dönüştürülüp dışkıyla atılmasını hızlandırır; bu nedenle tiroid hormonu etkisine bağlı olarak plazma kolesterol konsantrasyonu artmaz, aksine belirgin şekilde azalır (plazma kolesterol artışı tiroid hormonu eksikliği olan hipotiroidizmde görülür). Çeldiriciler: A) Tiroid hormonları karaciğerde glukoneogenik enzimlerin sentezini ve substrat akışını uyararak glukoneogenezi (ve glikojenolizi) artırır (Artar). B) Pek çok dokuda hücre zarındaki Na⁺/K⁺-ATPaz pompasının sentezini ve aktivitesini artırır (Artar). C) Yağ dokusunda lipolizi hızlandırarak plazma serbest yağ asidi konsantrasyonunu artırır (Artar). E) Mitokondri sayısını, krista yüzeyini ve oksidatif fosforilasyon hızını yükselterek (beyin, retina, dalak ve testis hariç) dokuların oksijen tüketimini artırır (Artar).",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi vücut yağ kitlesinin artışına verilen yanıtlardan biri olamaz?",
+    "options": {
+      "A": "Leptin salınımında artma",
+      "B": "AGRP (aguti ilişkili protein) salınımında artma",
+      "C": "CART (kokain amfetamin ilişkili transkript) salınımında artma",
+      "D": "Alfa MSH (melanosit stimüle edici hormon) salınımında artma",
+      "E": "Gıda alımında azalma"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Hipotalamusun arkuat çekirdeğinde nöropeptid Y (NPY) ile birlikte sentezlenen **AgRP (aguti ilişkili protein)**, paraventriküler çekirdekteki MC4 reseptörlerinin endojen antagonisti olarak çalışan güçlü bir **oreksijenik (iştah açıcı)** peptiddir; vücut yağ kitlesi arttığında yağ dokusundan yükselen leptin hormonu NPY/AgRP nöronlarını inhibe ettiği için AgRP salınımında artma olamaz, aksine AgRP salınımı baskılanır (AgRP salınımı açlıkta ve yağ kitlesi azaldığında artar). Çeldiriciler: A) Vücut yağ kitlesi arttığında adipositlerden kana leptin salınımı doğru orantılı olarak artar (Doğru yanıt). C) Artan leptin arkuat çekirdekteki anoreksijenik nöronları uyararak CART (kokain ve amfetaminle düzenlenen transkript) ve POMC sentezini artırır (Doğru yanıt). D) Uyarılan POMC nöronlarından prohormonun parçalanmasıyla oluşan alfa-MSH salınımı artar ve MC4 reseptörlerini aktive eder (Doğru yanıt). E) Alfa-MSH ve CART artışı ile NPY ve AgRP baskılanmasının net sonucu olarak hipotalamik tokluk merkezi uyarılır, gıda alımında (iştahta) azalma ve enerji harcanmasında artış meydana gelir (Doğru yanıt).",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi peptid yapıda bir hormonun özelliğidir?",
+    "options": {
+      "A": "Reseptörü hücre içindedir.",
+      "B": "Plazmada taşıyıcı proteine bağlanarak taşınır.",
+      "C": "Uyarı geldikten sonra sentezlenir, vezikülde depolanamaz.",
+      "D": "G proteinleri ve ikincil haberciler aracılığı ile sinyal iletir.",
+      "E": "Oral yolla uygulanırlar."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Peptid ve protein yapılı hormonlar (ör. PTH, ACTH, TSH, glukagon, ADH, oksitosin, insülin) suda çözünen (hidrofilik) ve lipofobik moleküller oldukları için hedef hücrenin fosfolipid çift tabakalı zarını doğrudan geçemezler; bu nedenle hücre zarının dış yüzeyindeki transmembran reseptörlerine bağlanırlar ve çoğunlukla **G proteinleri (Gs, Gi, Gq) ile ikincil haberciler (cAMP, $IP_3$, DAG, $Ca^{2+}$)** veya tirozin kinaz/JAK-STAT yolakları aracılığıyla hücre içine sinyal iletirler. Çeldiriciler: A) Reseptörün hücre içinde (sitoplazmada veya çekirdekte) bulunması, hücre zarını kolayca geçebilen lipofilik steroid hormonların ve tiroid hormonlarının özelliğidir. B) Peptid hormonlar hidrofilik oldukları için kan plazmasında (IGF'ler ve GH gibi birkaç istisna dışında) taşıyıcı proteinlere bağlanmadan serbest halde çözünerek taşınırlar; taşıyıcı proteine bağlanma lipofilik steroid ve tiroid hormonlarının özelliğidir. C) Peptid hormonlar uyarı gelmeden önce ribozomlarda sentezlenip Golgi'de paketlenerek salgı veziküllerinde/granüllerinde depolanır; vezikülde depolanamayıp uyarı gelince sentezlenme steroid hormonların özelliğidir. E) Peptid ve protein yapılı hormonlar (desmopressin gibi modifiye analoglar hariç) oral yolla alındıklarında mide ve bağırsaktaki proteolitik enzimler (pepsin, tripsin, kimotripsin) tarafından amino asitlere parçalanıp inaktive oldukları için oral yolla uygulanamazlar, parenteral (enjeksiyon) yolla verilirler.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İyodun tiroid epitel hücresinin apikal membranından folikül lümenine iletilmesinden hangisi sorumludur?",
+    "options": {
+      "A": "TRH",
+      "B": "TSH",
+      "C": "Sodyum–iyodid ortak taşıyıcısı (NIS)",
+      "D": "Klorid–iyodid zıt taşıyıcısı (Pendrin)",
+      "E": "Tiroglobulin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tiroid folikül epitel hücresine bazolateral membrandan alınan iyodid ($I^-$) iyonunun, hücrenin karşı kutbundaki **apikal membrandan** folikül lümenine (kolloid boşluğuna) geçirilmesinden sorumlu olan membran taşıyıcı proteini, SLC26A4 geninin kodladığı bir **klorid–iyodid ($Cl^-/I^-$) zıt taşıyıcısı (anyon değiştirici) olan Pendrin**'dir (bu proteindeki genetik mutasyonlar konjenital sensörinöral işitme kaybı ve guatr ile karakterize Pendred sendromuna yol açar). Çeldiriciler: A) TRH, hipotalamustan salgılanıp ön hipofizden TSH salınımını uyaran tripeptid hormondur. B) TSH, ön hipofizden salgılanarak tiroid hormon sentezinin tüm basamaklarını uyaran hormondur; apikal membran taşıyıcı proteini değildir. C) Sodyum–iyodid ortak taşıyıcısı (NIS), apikal membranda değil, **bazolateral membranda** yer alır ve iyodidin kandan folikül hücresi içine alınmasından (trapping) sorumludur. E) Tiroglobulin, folikül hücresinde sentezlenip ekzositozla lümene verilen ve üzerinde tiroid hormonlarının sentezlendiği/depolandığı büyük glikoprotein çatısıdır; membran iyon taşıyıcısı değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi vazopressin (ADH) hormonunun sekresyonunu azaltır?",
+    "options": {
+      "A": "Kan glikoz düzeyinin artması",
+      "B": "Plazma osmolaritesinin artması",
+      "C": "Kan basıncının artması",
+      "D": "Şok tablosu",
+      "E": "Kan hacminin azalması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Arteriyel **kan basıncının artması** (veya kan hacminin yükselmesi), aortik ark, karotis sinüsü ve kardiyopulmoner düşük basınç bölgelerindeki gerilme duyarlı baroreseptörleri uyarır; bu reseptörlerden IX. (glossofaringeus) ve X. (vagus) kraniyal sinirler aracılığıyla beyin sapındaki nukleus traktus solitarius üzerinden hipotalamusun supraoptik ve paraventriküler çekirdeklerine giden inhibitör (GABAerjik) sinyaller artarak arka hipofizden **vazopressin (ADH) sekresyonunu azaltır** ve su diürezini başlatır. Çeldiriciler: A) Kan glukoz düzeyinin kontrolsüz artması (ör. diyabetik ketoasidoz veya hiperosmolar durumda) ekstrasellüler sıvı efektif ozmolaritesini artırıp hücre dışına su çekerek ve ozmotik diürezle hipovolemi yaratarak ADH salınımını artırır. B) Plazma ozmolaritesinin artması (%1'lik artış bile), hipotalamustaki OVLT ve SFO osmoreseptörlerini büzerek ADH sekresyonunu en hassas şekilde artıran fizyolojik uyarandır. D) Dolaşımsal şok tablosu ve E) Kan hacminin azalması (%10–15'lik hipovolemi), baroreseptörler üzerindeki tonik inhibisyonu kaldırarak ADH sekresyonunu en güçlü (maksimum) düzeyde artıran uyaranlardır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tiroid hormonlarının metabolik hızda artışa yol açan etkilerinden biri değildir?",
+    "options": {
+      "A": "Mitokondri sayısında artış",
+      "B": "Mukopolisakkarit sentezinde artış",
+      "C": "Uncoupling protein sentezinde artış",
+      "D": "Beta adrenerjik reseptör sayısında artış",
+      "E": "Na/K ATPaz pompasının aktivitesinde artış"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Deri altı bağ dokusunda ve diğer dokularda hiyalüronik asit ile kondroitin sülfat gibi **mukopolisakkaritlerin (glikozaminoglikanların) birikimi ve sentezinde artış**, tiroid hormonlarının metabolik hızı artıran bir etkisi değildir; tam tersine tiroid hormonu eksikliğinde (hipotiroidizmde) mukopolisakkaritlerin yıkımının yavaşlaması ve TSH artışıyla fibroblastlardan sentezinin uyarılması sonucu interstisyel sıvıda su tutarak gode bırakmayan **\"miksödem\"** tablosunu oluşturan patolojik bir bulgudur (tiroid hormonları fizyolojik olarak biriken mukopolisakkaritlerin yıkımını ve temizlenmesini sağlar). Çeldiriciler: A) Hücrelerde mitokondri sayısını, büyüklüğünü ve krista yüzey alanını artırarak ATP ve ısı üretimini hızlandırır (Metabolik hızı artırır). C) Kahverengi yağ dokusu ve iskelet kasında mitokondri iç zarındaki eşleşmeyi bozucu proteinlerin (uncoupling protein - UCP / termogenin) sentezini artırarak proton gradyanının ATP yerine ısıya dönüşmesini sağlar (Metabolik hızı artırır). D) Dokularda beta-adrenerjik reseptör sayısını artırarak katekolaminlerin kalorijenik ve lipolitik etkilerini güçlendirir (Metabolik hızı artırır). E) Hücre membranlarında Na⁺/K⁺-ATPaz pompasının sayısını ve aktivitesini artırarak ATP hidrolizini ve oksijen tüketimini yükseltir (Metabolik hızı artırır).",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Pankreas beta hücrelerinde insülin salgılanmasını indüklemek üzere hücre içine glukoz girişi temel olarak aşağıdaki glukoz taşıyıcı moleküllerden hangisi aracılığıyla gerçekleşir?",
+    "options": {
+      "A": "GLUT 1",
+      "B": "GLUT 2",
+      "C": "GLUT 3",
+      "D": "GLUT 4",
+      "E": "GLUT 6"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Pankreas Langerhans adacıklarındaki beta hücrelerinin membranında, glukoza afinitesi düşük ($K_m \\approx 15-20\\text{ mM}$) ancak taşıma kapasitesi yüksek olan ve insülinden bağımsız çalışan **GLUT-2** taşıyıcısı bulunur; yüksek $K_m$ değeri sayesinde glukozun beta hücresi içine giriş hızı fizyolojik kan glukoz konsantrasyonundaki artışlarla birebir doğru orantılı olarak değişir ve böylece GLUT-2 (glukokinaz enzimiyle birlikte) pankreas beta hücresinin **\"glukoz sensörü\"** olarak görev yaparak insülin salgılanmasını indükler. Çeldiriciler: A) GLUT-1 ve C) GLUT-3, düşük $K_m$ değerine (çok yüksek afiniteye) sahip taşıyıcılar olup normal açlık kan şekerinde bile tam doygunlukta çalıştıkları için kan şekeri artışlarını algılayan bir sensör olarak görev yapamazlar (insan beta hücrelerinde bazal GLUT-1 ekspresyonu bulunsa da fizyolojik sınav standardında ve klasik beta hücresi mekanizmasında temel glukoz sensör taşıyıcısı GLUT-2'dir). D) GLUT-4, insülin salgılayan beta hücresinde değil, insülinin hedef dokuları olan iskelet kası, kalp kası ve yağ dokusunda bulunan insüline bağımlı taşıyıcıdır. E) GLUT-6, lökosit ve dalakta bulunan taşıyıcıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Stres karşısında katekolaminlerin sentezini sağlayan kromaffin hücreler adrenal bezin hangi bölgesinde bulunur?",
+    "options": {
+      "A": "Zona fasikülata",
+      "B": "Zona retikülaris",
+      "C": "Zona glomerüloza",
+      "D": "Medulla",
+      "E": "Subkapsüler bölge"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Akut stres (\"savaş ya da kaç\") yanıtında pregangliyonik sempatik sinir liflerinden salınan asetilkolin uyarısıyla kana katekolaminleri (%80 adrenalin ve %20 noradrenalin) sentezleyip salgılayan, nöral krest kökenli modifiye postgangliyonik sempatik nöronlar olan **kromaffin hücreler** (potasyum dikromat tuzlarıyla kahverengi boyandıkları için bu adı alırlar), adrenal (böbrek üstü) bezin en iç merkez kısmını oluşturan **medulla** bölgesinde bulunur. Çeldiriciler: A) Zona fasikülata (kortizol salgılayan orta tabaka), B) Zona retikülaris (adrenal androjen salgılayan iç korteks tabakası), C) Zona glomerüloza (aldosteron salgılayan dış korteks tabakası) ve E) Subkapsüler bölge, mezoderm kökenli adrenal korteksin bölümleridir; bu bölgelerdeki hücreler kromaffin hücre değil, kolesterolden steroid hormon sentezleyen epiteloid hücrelerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Aldosteron reseptörleri sitoplazmadadır.\nII. Oksitosin reseptörü hücre membranındadır.\nIII. Triiyodotironin (T3) reseptörü hücre çekirdeğindedir.\nIV. Epinefrin reseptörleri sitoplazmadadır.\nHormonların reseptörlerinin hücredeki yerleşimi ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I, II, III ve IV",
+      "B": "II ve IV",
+      "C": "III ve IV",
+      "D": "I, II ve III",
+      "E": "II, III ve IV"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Hormon reseptörlerinin hücresel yerleşimi hormonun çözünürlük (lipofilik veya hidrofilik) özelliğine göre belirlenir: Lipofilik aldosteronun reseptörü sitoplazmada, lipofilik T₃ hormonunun reseptörü hücre çekirdeğinde, hidrofilik peptid olan oksitosinin reseptörü ise hücre membranındadır; buna karşılık hidrofilik bir katekolamin olan epinefrinin reseptörleri sitoplazmada değil, hücre membranında yer alır. Öncüllerin Analizi: I. Aldosteron reseptörleri sitoplazmadadır (Doğru): Steroid yapılı bir mineralokortikoid olan aldosteron hücre zarını geçerek sitoplazmada ısı şok proteinlerine (HSP) bağlı halde bekleyen mineralokortikoid reseptörüne (MR) bağlanır ve hormon-reseptör kompleksi daha sonra çekirdeğe geçer. II. Oksitosin reseptörü hücre membranındadır (Doğru): Dokuz amino asitlik hidrofilik bir peptid hormon olan oksitosin hücre zarını geçemez; hedef hücre membranındaki Gq proteini kenetli yüzey reseptörüne bağlanır. III. Triiyodotironin (T3) reseptörü hücre çekirdeğindedir (Doğru): Lipofilik karakterli tiroid hormonu T₃, taşıyıcılarla (MCT8) hücre ve çekirdek içine girerek doğrudan kromatin üzerindeki DNA yanıt elemanlarına (TRE) bağlı halde bulunan nükleer (çekirdek içi) tiroid hormonu reseptörüne (TR) bağlanır. IV. Epinefrin reseptörleri sitoplazmadadır (Yanlış): Tirozin türevi bir katekolamin olan epinefrin (adrenalin) suda çözünür (hidrofiliktir) ve hücre içine giremez; reseptörleri (alfa ve beta adrenerjik reseptörler) sitoplazmada değil, hücre membranında bulunan G proteini kenetli reseptörlerdir. Çeldiriciler: A, B, C ve E şıkları epinefrin reseptörlerini sitoplazmada kabul eden yanlış IV. öncülü içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Açlıkta mideden salgılanan, oreksijenik etkisi olan ve büyüme hormonu salgısını uyaran hormon aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Guanilin",
+      "B": "Ghrelin",
+      "C": "Bombesin",
+      "D": "Leptin",
+      "E": "Oreksin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Açlık döneminde mide boşken özellikle mide fundus ve korpus mukozasındaki enteroendokrin X/A benzeri (P/D1) hücrelerden salgılanan 28 amino asitlik açillenmiş peptid hormon **ghrelin** (\"Growth Hormone Release Inducing\" kelimelerinden türetilmiştir), bir yandan hipotalamusun arkuat çekirdeğindeki NPY/AgRP nöronlarını uyararak güçlü **oreksijenik (iştah açıcı)** etki gösterirken, diğer yandan hem hipotalamustan GHRH salınımını artırarak hem de ön hipofizdeki somatotrop hücrelerde bulunan büyüme hormonu salgılatıcı reseptör (GHS-R1a) üzerinden doğrudan etki ederek **büyüme hormonu (GH) salgısını güçlü biçimde uyarır** (yemek yenmesiyle kan düzeyi hızla düşer). Çeldiriciler: A) Guanilin, bağırsak goblet ve epitel hücrelerinden salgılanan, guanilat siklaz-C ve cGMP üzerinden lümene klor ve su sekresyonunu düzenleyen lokal bir peptiddir. C) Bombesin (memelilerdeki karşılığı gastrin serbestleştirici peptid - GRP), vagal sinir uçlarından salınarak antrum G hücrelerinden gastrin salınımını uyarır ve merkezi olarak tokluk (anoreksijenik) etkisi gösterir. D) Leptin, mideden değil yağ dokusundan toklukta salgılanır ve oreksijenik değil, anoreksijenik (iştah kesici) etki gösterir. E) Oreksin (hipokretin), iştahı ve uyanıklığı artırır ancak mideden değil, lateral hipotalamustaki nöronlardan sentezlenip salgılanan bir nöropeptiddir.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Kalsitonin, serum kalsiyum düzeyini kemik rezorpsiyonunu inhibe ederek düşürür.\nII. 1,25-dihidroksikolekalsiferol, ince bağırsaktan kalsiyum absorpsiyonunu reseptör potansiyelli katyon kanalı yani TRPV ve kalbindin-D ekspresyonunu uyararak artırır.\nIII. Parathormon, 1alfa-hidroksilaz enzim aktivitesini artırarak vitamin D'nin aktif formunun oluşumunu artırır.\nKalsiyum homeostazı ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kalsiyum homeostazını düzenleyen üç temel hormondan kalsitonin osteoklastları baskılayarak kan kalsiyumunu düşürürken, aktif D vitamini (kalsitriol) bağırsakta TRPV6 ve kalbindin-D sentezini artırarak kalsiyum emilimini sağlar, parathormon ise böbrekte 1-alfa hidroksilaz enzimini uyararak aktif D vitamini sentezini artırır; dolayısıyla her üç ifade de doğrudur. Öncüllerin Analizi: I. Kalsitonin, serum kalsiyum düzeyini kemik rezorpsiyonunu inhibe ederek düşürür (Doğru): Tiroid bezinin parafoliküler C hücrelerinden hiperkalsemiye yanıt olarak salgılanan kalsitonin, kemikteki osteoklastların üzerindeki özgül reseptörlerine bağlanarak osteoklastların fırçamsı kenarlarını ve kemik yıkım (rezorpsiyon) aktivitesini hızla inhibe eder; böylece kemikten kana kalsiyum geçişini durdurarak serum kalsiyumunu düşürür. II. 1,25-dihidroksikolekalsiferol, ince bağırsaktan kalsiyum absorpsiyonunu reseptör potansiyelli katyon kanalı yani TRPV ve kalbindin-D ekspresyonunu uyararak artırır (Doğru): Aktif D vitamini (kalsitriol), duodenum ve jejunum enterositlerindeki nükleer VDR reseptörüne bağlanarak apikal membrandan kalsiyum girişini sağlayan TRPV6 kanalının, sitoplazmada kalsiyumu bağlayıp taşıyan kalbindin-D9k proteininin ve bazolateralden kana pompalayan PMCA1b/NCX1 taşıyıcılarının gen ekspresyonunu artırarak bağırsaktan kalsiyum emilimini yükseltir. III. Parathormon, 1alfa-hidroksilaz enzim aktivitesini artırarak vitamin D'nin aktif formunun oluşumunu artırır (Doğru): Hipokalsemiye yanıt olarak paratiroid bezinden salgılanan PTH, böbrek proksimal tübül hücrelerinde cAMP aracılı mekanizmayla mitokondriyal 1-alfa hidroksilaz (CYP27B1) enzim sentezini ve aktivitesini uyararak 25(OH)D₃'ün aktif 1,25(OH)₂D₃'e (kalsitriole) dönüşümünü artırır. Çeldiriciler: A, B, C ve D şıkları doğru olan üç öncülden en az birini dışarıda bıraktığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Endokrin Sistemi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

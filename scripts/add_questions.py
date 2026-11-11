@@ -57,6 +57,136 @@ _OPTION_KEYS = ("A", "B", "C", "D", "E")
 _CATALOG_PATH = os.path.join(_SCRIPT_DIR, "canonical_units.json")
 
 
+def _resolve_unit_smart(lesson: str, requested_unit: str) -> str:
+    """Kullanıcı veya dosya tarafından verilen üniteyi kanonik üniteye dönüştürür."""
+    if not requested_unit or not requested_unit.strip():
+        return requested_unit
+
+    raw = requested_unit.strip()
+    def fold(v):
+        return "".join(
+            c for c in unicodedata.normalize("NFKD", v.casefold())
+            if not unicodedata.combining(c)
+        )
+
+    f_raw = fold(raw)
+
+    # 1. Önceden onaylanmış eşleme kuralları
+    mappings = {
+        "Ortodonti": {
+            "buyume ve gelisim": "Ünite 1 - BÜYÜME ve GELİŞİM",
+            "dental yapilarin gelisimi": "Ünite 2 - DENTAL YAPILARIN GELİŞİMİ",
+            "ortodontik tedavi biyolojisi": "Ünite 3 - ORTODONTİK TEDAVİNİN BİYOLOJİSİ",
+            "ankraj": "Ünite 4 - ANKRAJ",
+            "ortodontide teshis": "Ünite 5 - ORTODONTİK TEŞHİS",
+            "maturasyon analizi": "Ünite 6 - MATURASYON ANALİZİ",
+            "malokluzyonlar": "Ünite 7 - DENTAL MALOKLÜZYONLAR",
+            "ortodontik tedaviler": "Ünite 8 - ORTODONTİK TEDAVİLER",
+            "surme rehberligi": "Ünite 9 - SÜRME REHBERLİĞİ (GUIDANCE ERUPTION)",
+            "ortodontik tedavi apareyleri": "Ünite 10 - ORTODONTİK TEDAVİ APAREYLERİ",
+            "ekstraoral apareyler": "Ünite 11 - EKSTRAORAL APAREYLER",
+            "ortodontik tedavi planlamasi": "Ünite 12 - ORTODONTİK TEDAVİ PLANLAMASI",
+            "dudak ve damak yariklari": "Ünite 16 - DUDAK VE DAMAK YARIKLARI",
+            "ortognatik cerrahi": "Ünite 17 - ORTOGNATİK CERRAHİ ILE ORTODONTİK TEDAVİ",
+            "ortodontik tedavi komplikasyonlari": "Ünite 18 - ORTODONTİK TEDAVİ KOMPLİKASYONLARI",
+            "ortodontik materyaller": "Ünite 19 - ORTODONTİK MATERYALLER",
+            "retansiyon": "Ünite 20 - RETANSİYON – RELAPS",
+        },
+        "Mikrobiyoloji": {
+            "temel mikrobiyoloji": "1 Temel Mikrobiyoloji",
+            "genel mikrobiyoloji": "1 Temel Mikrobiyoloji",
+            "immunoloji": "2 İmmunoloji",
+            "bakteriyoloji": "3 Bakteriler",
+            "bakteri": "3 Bakteriler",
+            "viroloji": "4 virüsler",
+            "virus": "4 virüsler",
+            "mikoloji": "Mantarlar",
+            "mantar": "Mantarlar",
+            "parazitoloji": "Parazitoloji",
+        },
+        "Cerrahi": {
+            "temel prensipler": "1 CERRAHİYE GİRİŞ",
+            "dentoalveoler cerrahi": "3 DİŞ ÇEKİMİ",
+            "artroskopi": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+            "tme cerrahisi": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+            "ddy": "15 DUDAK - DAMAK YARIĞI",
+            "travma": "12 MAKSİLLOFASİAL TRAVMA",
+            "implantoloji": "11 İMPLANT CERRAHİSİ",
+            "kist tumor": "6 KİST ve TÜMÖR CERRAHİSİ",
+            "sendrom": "14 KRANİOFASİAL DEFORMİTE ve SENDROMLAR",
+            "anestezi": "2 ANESTEZİ",
+            "gomulu disler": "4 GÖMÜLÜ DİŞLER",
+            "periapikal cerrahi": "5 PERİAPİKAL CERRAHİ",
+            "preprotetik cerrahi": "10 PREPROTETİK CERRAHİ",
+            "enfeksiyon": "7 ENFEKSİYON",
+            "ortognatik cerrahi": "13 ORTOGNATİK CERRAHİ",
+            "orofasiyal agri ve temporomandibuler eklem": "17 OROFASİYAL AĞRI TEMPOROMANDİBULER EKLEM",
+        },
+        "Pedodonti": {
+            "dental erozyon": "5. Ünite",
+            "genc surekli dislerde endodontik tedaviler": "7. Ünite",
+            "vital endodontik tedaviler": "7. Ünite",
+            "curuk riski ve curuk aktivitesi": "8. Ünite",
+            "curuk riski ve tayin yontemleri": "8. Ünite",
+            "pedodontide muayene ve tedavi planlamasi": "23. Ünite",
+            "cocuk dis hekimliginde muayene": "23. Ünite",
+            "oral patoloji": "16 ÇOCUKLUK DÖNEMİ HASTALIKLARININ AĞIZ İÇİ BELİRTİLERİ",
+            "koruyucu ve oyeliyici ortodonti": "13 ÇOCUKLARDA KAPANIŞ İLİŞKİLERİ ve OKLUZAL REHBERLİK",
+            "koruyucu ve onleyici ortodonti": "13 ÇOCUKLARDA KAPANIŞ İLİŞKİLERİ ve OKLUZAL REHBERLİK",
+            "koruyucu dis hekimligi": "11 ÇÜRÜK PROFİLAKSİSİNDE FLORİDLER",
+            "sut dislerinde restoratif tedaviler": "28 ANTERİOR VE POSTERİOR SÜT DİŞLERİNİN RESTORASYONLARI",
+            "sut dislerinde cekim": "29 SÜT DİŞLERİ ÇEKİM ENDİKASYONLARI VE KONTRENDİKASYONLARI",
+            "okluzyonun gelismesi": "13 ÇOCUKLARDA KAPANIŞ İLİŞKİLERİ ve OKLUZAL REHBERLİK",
+            "okluzal rehberlik": "13 ÇOCUKLARDA KAPANIŞ İLİŞKİLERİ ve OKLUZAL REHBERLİK",
+            "sut dislerinin pulpal hastaliklari": "6 SÜT DİŞİ PULPA HASTALIKLARININ TEDAVİSİNDEKİ AMAÇ",
+            "sut dislerinin ozellikleri": "24 SÜT DİŞLERİNİN MORFOLOJİK VE HİSTOLOJİK ÖZELLİKLERİ",
+            "kronik/sistemik hastaliklari": "17 ÇOCUKLARDA SİSTEMİK HASTALIKLAR VE AĞIZ İÇİ BULGULARI",
+            "ozel bakim gerektiren": "20 ENGELLİ ÇOCUKLARDA SINIFLAMA VE TEDAVİ YAKLAŞIMLARI",
+            "enfeksiyon hastaliklarin agiz ici bulgulari": "16 ÇOCUKLUK DÖNEMİ HASTALIKLARININ AĞIZ İÇİ BELİRTİLERİ",
+            "dis embrilojisi ve surmesi": "1 DİŞLERİN OLUŞUM DÖNEMLERİ",
+            "dis embriyolojisi": "1 DİŞLERİN OLUŞUM DÖNEMLERİ",
+            "sut ve daimi diserin olusum ve surme": "2 DİŞ SÜRME EVRELERİ",
+            "sut ve surekli dislerin surmesi": "2 DİŞ SÜRME EVRELERİ",
+            "dis gelisim anomalileri": "3 DİŞLERİN GELİŞİM ANOMALİLERİ",
+            "sut dislerinde curuk": "4 SÜT DENTİSYONDA ÇÜRÜK",
+            "sut dentisyonda curuk": "4 SÜT DENTİSYONDA ÇÜRÜK",
+            "kavite prensipleri": "26 SÜT DİŞLERİNDE KAVİTE HAZIRLAMA VE BLACK PRENSİPLERİ",
+            "periodontal hastaliklar": "15 ÇOCUKLARDA PERİODONSİYUM VE GİNGİVAL HASTALIKLAR",
+            "travmatik dental yaralanmalar": "14 DİŞ YARALANMALARI VE TRAVMA",
+            "destek doku yaralanmalari": "14 DİŞ YARALANMALARI VE TRAVMA",
+            "recete yazimi": "18 ÇOCUK DİŞ HEKİMLİĞİNDE İLAÇ KULLANIMI VE ANTİBİYOTİKLER",
+            "ilac kullanimi": "18 ÇOCUK DİŞ HEKİMLİĞİNDE İLAÇ KULLANIMI VE ANTİBİYOTİKLER",
+        }
+    }
+
+    lesson_maps = mappings.get(lesson, {})
+    for k, v in lesson_maps.items():
+        if fold(k) in f_raw:
+            return v
+
+    catalog = _load_canonical_units()
+    units = catalog.get(lesson, [])
+    # 2. Exact match
+    exact = next((u for u in units if fold(u) == f_raw), None)
+    if exact:
+        return exact
+
+    # 3. Strip numbers and check
+    u_stripped = re.sub(r"^\d+[\s\.\-]+", "", raw).strip()
+    f_stripped = fold(u_stripped)
+    for u in units:
+        cu_stripped = fold(re.sub(r"^\d+[\s\.\-]+", "", u).strip())
+        if cu_stripped and (cu_stripped in f_stripped or f_stripped in cu_stripped):
+            return u
+
+    # 4. Partial substring
+    candidates = [u for u in units if f_stripped in fold(u) or fold(u) in f_stripped]
+    if len(candidates) == 1:
+        return candidates[0]
+
+    return raw
+
+
 def _load_canonical_units():
     with open(_CATALOG_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -176,44 +306,59 @@ def _load_csv(path: str) -> list:
 
 
 def _load_md(path: str) -> list:
-    """Markdown soru-cevap formatını ayrıştırır.
+    """Markdown / TXT soru-cevap formatını ayrıştırır.
 
-    Beklenen blok formatı (manual_upload_md mantığının sağlamlaştırılmış hâli):
-        ### Soru N
-        **Soru Metni:**
-        <metin>
+    Desteklenen blok formatı:
+        Soru N - [ÜNİTE ADI]
+        **Soru Metni:** <metin> (veya Soru Metni: <metin>)
 
         - A) ...
         - B) ...
         ...
-        **Doğru Cevap:** A
-        **Soru Açıklaması:**
-        <açıklama>
+        **Doğru Cevap:** A (veya Doğru Cevap: A)
+        **Soru Açıklaması:** <açıklama> (veya Soru Açıklaması: <açıklama>)
         ---
     """
     with open(path, "r", encoding="utf-8") as f:
         content = f.read()
 
-    sections = re.split(r"\n---+|\n###\s*Soru\s*\d+", content)
+    # Soru bloklarını ayır (--- veya Soru \d+ ile başlama)
+    sections = re.split(r"\n---+|\n(?=(?:###\s*)?Soru\s+\d+[\s:.\-–—]+)", content)
     questions = []
     for section in sections:
-        if not section.strip() or "**Soru Metni:**" not in section:
+        sec_clean = section.strip()
+        if not sec_clean:
+            continue
+        
+        # Soru kökü var mı kontrol et
+        has_stem = bool(re.search(r"(?:\*\*Soru Metni:\*\*|\*\*Soru Metni\*\*|Soru Metni)", sec_clean, re.IGNORECASE))
+        if not has_stem:
             continue
 
-        q_match = re.search(r"\*\*Soru Metni:\*\*\s*(.*?)(?=\n\s*[-*]?\s*A[).]\s)", section, re.DOTALL)
+        # Başlıktan üniteyi çıkar (Ör: Soru 1 - MALOKLÜZYONLAR)
+        u_match = re.search(r"^(?:###\s*)?Soru\s+\d+[\s:.\-–—]+([^\r\n]*)", sec_clean, re.IGNORECASE)
+        unit_label = None
+        if u_match:
+            u_cand = u_match.group(1).replace("**", "").strip()
+            # Eğer başlık sadece 'Soru Metni' ile bitiyorsa veya boşsa None
+            if u_cand and not re.match(r"^Soru\s+Metni", u_cand, re.IGNORECASE):
+                unit_label = u_cand
+
+        q_match = re.search(r"(?:\*\*Soru Metni:\*\*|\*\*Soru Metni\*\*|Soru Metni:?)\s*(.*?)(?=\n\s*[-*]?\s*A[).]\s)", sec_clean, re.DOTALL | re.IGNORECASE)
         question_text = q_match.group(1).strip() if q_match else ""
 
         options = {}
-        option_section = re.split(r"\*\*Doğru Cevap:\*\*", section, maxsplit=1)[0]
+        opt_split = re.split(r"(?:\*\*Doğru Cevap:\*\*|\*\*Doğru Cevap\*\*|Doğru Cevap:?)", sec_clean, maxsplit=1, flags=re.IGNORECASE)
+        option_section = opt_split[0]
         for opt_char, opt_text in re.findall(r"^\s*[-*]?\s*([A-E])[\)\.]\s*(.+)$", option_section, re.MULTILINE):
             options[opt_char] = opt_text.strip()
 
-        ca_match = re.search(r"\*\*Doğru Cevap:\*\*\s*([A-E])", section)
+        ca_match = re.search(r"(?:\*\*Doğru Cevap:\*\*|\*\*Doğru Cevap\*\*|Doğru Cevap:?)\s*([A-E])", sec_clean, re.IGNORECASE)
         correct_answer = ca_match.group(1) if ca_match else ""
 
-        expl_match = re.search(r"\*\*Soru Açıklaması:\*\*\s*(.*?)(?=\n---|\Z)", section, re.DOTALL)
+        expl_match = re.search(r"(?:\*\*Soru Açıklaması:\*\*|\*\*Soru Açıklaması\*\*|Soru Açıklaması:?)\s*(.*?)(?=\n---|\Z)", sec_clean, re.DOTALL | re.IGNORECASE)
         if not expl_match and ca_match:
-            expl_match = re.search(r"\*\*Soru Metni:\*\*\s*(.*?)(?=\n---|\Z)", section[ca_match.end():], re.DOTALL)
+            expl_match = re.search(r"(?:\*\*Soru Metni:\*\*|Soru Metni:?)\s*(.*?)(?=\n---|\Z)", sec_clean[ca_match.end():], re.DOTALL | re.IGNORECASE)
         explanation = expl_match.group(1).strip() if expl_match else ""
 
         questions.append(
@@ -223,6 +368,7 @@ def _load_md(path: str) -> list:
                     "options": options,
                     "correctAnswer": correct_answer,
                     "explanation": explanation,
+                    "unit": unit_label,
                 }
             )
         )
@@ -410,6 +556,8 @@ def main() -> int:
             q["lesson"] = args.lesson
         if args.unit:
             q["unit"] = args.unit
+        elif q.get("unit") and q.get("lesson"):
+            q["unit"] = _resolve_unit_smart(q["lesson"], q["unit"])
 
     if args.fast:
         if not args.lesson or not args.unit:

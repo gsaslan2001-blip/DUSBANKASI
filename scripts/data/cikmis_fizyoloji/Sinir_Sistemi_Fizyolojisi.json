@@ -1,0 +1,1426 @@
+[
+  {
+    "question": "Serebrum, primer beyin veziküllerinin hangisinden gelişir?",
+    "options": {
+      "A": "Telensefalon",
+      "B": "Diensefalon",
+      "C": "Metensefalon",
+      "D": "Miyelensefalon",
+      "E": "Rombensefalon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Serebrum (büyük beyin hemisferleri, serebral korteks, bazal gangliyonlar, hipokampüs ve olfaktör bulbus), ön beyin vezikülü olan prosensefalonun iki sekonder vezikülünden biri olan telensefalondan gelişir ve içindeki boşluklar lateral ventrikülleri oluşturur. Çeldiriciler: B şıkkındaki diensefalon, prosensefalondan gelişen diğer sekonder veziküldür ve talamus, hipotalamus, epitalamus, subtalamus, retina ve 3. ventrikülü oluşturur. C şıkkındaki metensefalon, arka beyin (rombensefalon) kökenli sekonder veziküldür ve pons ile serebellumu oluşturur. D şıkkındaki miyelensefalon, rombensefalondan gelişen diğer sekonder veziküldür ve medulla oblongatayı (bulbus) oluşturur. E şıkkındaki rombensefalon, arka beyni oluşturan primer beyin vezikülü olup metensefalon ve miyelensefalona ayrılır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki reseptörlerden hangisi bir iyon kanalıdır?",
+    "options": {
+      "A": "GABA-B reseptörü",
+      "B": "NMDA-glutamat reseptörü",
+      "C": "M1-kolinerjik reseptör",
+      "D": "D1-dopaminerjik reseptör",
+      "E": "B2-adrenerjik reseptör"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): NMDA (N-metil-D-aspartat) glutamat reseptörü, AMPA ve kainat reseptörleri ile birlikte iyonotropik (ligand kapılı iyon kanalı) bir reseptördür; glutamat ve ko-agonist glisin bağlandığında ve voltaj bağımlı Mg²⁺ bloğu kalktığında açılarak hücre içerisine Na⁺ ve Ca²⁺ girişine, hücre dışına K⁺ çıkışına aracılık eder. Çeldiriciler: A şıkkındaki GABA-B reseptörü, Gi proteini kenetli (metabotropik) bir reseptör olup adenilat siklazı inhibe eder ve K⁺ kanallarını açar (iyonotropik olan Cl⁻ kanalı GABA-A reseptörüdür). C şıkkındaki M1-kolinerjik reseptör, Gq proteini kenetli metabotropik bir reseptör olup fosfolipaz C (IP3/DAG) yolağını aktive eder. D şıkkındaki D1-dopaminerjik reseptör ve E şıkkındaki Beta-2 adrenerjik reseptör ise Gs proteini kenetli metabotropik reseptörler olup adenilat siklazı uyararak hücre içi cAMP düzeyini artırırlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "REM uykusunda aşağıdakilerden hangisi gözlenmez?",
+    "options": {
+      "A": "EEG'de düşük voltajlı, hızlı aktivite",
+      "B": "Hızlı göz hareketleri",
+      "C": "Kas tonusunda azalma",
+      "D": "Beyin oksijen kullanımında azalma",
+      "E": "Aktif rüya görme"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): REM (Rapid Eye Movement) uykusu \"paradoksal uyku\" olarak bilinir; bu evrede kolinerjik nöronların deşarjıyla serebral kortikal aktivite, beyin kan akımı, beyin metabolizması ve beyin oksijen kullanımı azalmaz, aksine uyanıklık seviyesine yakın veya daha yüksek düzeye çıkar. Çeldiriciler: A şıkkı gözlenir; REM uykusunda EEG'de uyanıklığa benzeyen düşük voltajlı (amplitüdlü), hızlı ve desenkronize beta benzeri dalgalar kaydedilir. B şıkkı gözlenir; evreye adını veren sakkadik hızlı göz hareketleri karakteristiktir. C şıkkı gözlenir; beyin sapından omuriliğe inen glisinerjik/GABAerjik inhibitör yollarla solunum ve ekstraoküler göz kasları hariç tüm iskelet kaslarında belirgin atoni (kas tonusunda azalma) ve tendon reflekslerinde kayıp oluşur. E şıkkı gözlenir; uyandırıldığında hatırlanan canlı ve aktif rüyalar REM evresinde görülür.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi kan-beyin bariyerinde rol alır?",
+    "options": {
+      "A": "Astrosit",
+      "B": "Oligodendrosit",
+      "C": "Mikroglia",
+      "D": "Ependimal hücre",
+      "E": "Schwann hücresi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kan-beyin bariyerinin esas anatomik temelini serebral kapiller endotel hücreleri arasındaki sıkı bağlantılar (tight junctions / zonula occludens) ve kesintisiz bazal lamina oluşturur; astrositlerin damar duvarını saran son ayakçıkları (perivasküler end-feet) ise salgıladıkları parakrin faktörlerle endotel hücrelerindeki bu sıkı bağlantıların indüklenmesini, korunmasını ve bariyer fonksiyonunun sürdürülmesini sağlar. Çeldiriciler: B şıkkındaki oligodendrositler, merkezi sinir sistemindeki aksonların çevresinde miyelin kılıfını oluşturur. C şıkkındaki mikroglialar, mezoderm (monosit-makrofaj) kökenli olup merkezi sinir sisteminin fagositik savunma hücreleridir. D şıkkındaki ependimal hücreler, beyin ventriküllerini ve spinal kanalın iç yüzeyini döşeyerek koroid pleksusta BOS üretimine katılır. E şıkkındaki Schwann hücreleri ise merkezi sinir sisteminde bulunmaz, periferik sinir sisteminde miyelin kılıfını yapar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi iştahı artıran bir peptiddir?",
+    "options": {
+      "A": "Nöropeptid Y",
+      "B": "Serotonin",
+      "C": "Leptin",
+      "D": "Kortikotropin releasing hormon",
+      "E": "Norepinefrin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hipotalamusun arkuat çekirdeğindeki nöronlardan salgılanan Nöropeptid Y (NPY), AgRP (agouti-ilişkili peptit), oreksin A/B, MCH ve mide kaynaklı ghrelin ile birlikte besin alımını uyaran en güçlü oreksijenik (iştah artırıcı) peptittir. Çeldiriciler: B şıkkındaki serotonin ve E şıkkındaki norepinefrin, peptid yapılı olmayıp biyojenik amin yapılı nörotransmitterlerdir ve hipotalamusta tokluk merkezini etkileyerek anoreksijenik (iştah azaltıcı) etki gösterirler. C şıkkındaki leptin, yağ dokusundan salgılanan bir peptid hormon olup arkuat çekirdekte NPY/AgRP nöronlarını baskılayıp POMC/CART nöronlarını uyararak iştahı azaltır ve enerji tüketimini artırır. D şıkkındaki kortikotropin salgılatıcı hormon (CRH), hipotalamustan salgılanan anoreksijenik etkili bir peptiddir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki sinir tiplerinden hangisi lokal anesteziklerden en fazla etkilenir?",
+    "options": {
+      "A": "A alfa",
+      "B": "A beta",
+      "C": "A gama",
+      "D": "B",
+      "E": "C"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lokal anestezikler voltaj kapılı sodyum kanallarını bloke ederek aksiyon potansiyeli iletimini durdurur; genel kural olarak sinir lifinin çapı ne kadar küçükse ve miyelinsizse lokal anesteziklere duyarlılığı o kadar yüksektir. Seçenekler arasında en küçük çaplı ve miyelinsiz olan C lifleri (yavaş ağrı, ısı ve otonom postgangliyonik lifler) lokal anesteziklerden en erken ve en fazla etkilenen lif grubudur. Çeldiriciler: A şıkkındaki A alfa lifleri (iskelet kası motor ve propriyosepsiyon lifleri), en kalın çaplı ve yoğun miyelinli lifler olup lokal anesteziklere en dirençli (basınca ise en duyarlı) liflerdir. B şıkkındaki A beta (dokunma-basınç) ve C şıkkındaki A gama (kas iğciği motor) lifleri orta-kalın çaplı miyelinli lifler olup C liflerine göre daha geç bloke olurlar. D şıkkındaki B lifleri (otonom pregangliyonik ince miyelinli lifler) hipoksiye en duyarlı liflerdir ve lokal anestezik duyarlılıkları A liflerinden fazla, miyelinsiz C liflerinden ise farklıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Duyusal uyarılar beyin korteksinin aşağıdaki tabakalarından hangisinde sonlanır?",
+    "options": {
+      "A": "I. tabaka",
+      "B": "II. tabaka",
+      "C": "III. tabaka",
+      "D": "IV. tabaka",
+      "E": "V. tabaka"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Talamusun spesifik duyu çekirdeklerinden (örneğin VPL, VPM, LGN, MGN) çıkan talamokortikal duyusal afferent lifler, serebral korteksin IV. tabakasında (iç granüler tabaka / lamina granularis interna) yer alan dikensi yıldız (stellat) hücreler üzerinde sonlanır; bu nedenle primer duyusal kortekste IV. tabaka çok gelişmiştir. Çeldiriciler: A şıkkındaki I. tabaka (moleküler tabaka), alt tabakalardaki nöronların apikal dendritlerini ve yatay aksonları içerir. B şıkkındaki II. tabaka (dış granüler tabaka) ve C şıkkındaki III. tabaka (dış piramidal tabaka), korteksin aynı veya karşı hemisferdeki diğer bölgeleriyle bağlantı kuran asosiyasyon ve komissüral (korpus kallozum) liflerin köken aldığı ve sonlandığı tabakalardır. E şıkkındaki V. tabaka (iç piramidal tabaka), büyük Betz piramidal hücrelerini içerir ve bazal gangliyonlar, beyin sapı ve omuriliğe inen motor projeksiyon (kortikospinal, kortikobulber) liflerinin çıktığı ana motor çıkış tabakasıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi parasempatik bir etki değildir?",
+    "options": {
+      "A": "Tükürük bezlerinden amilaz salgısının artması",
+      "B": "Kalp ritminin yavaşlaması",
+      "C": "Sindirim kanalı peristaltizminin hızlanması",
+      "D": "Safra kesesinin kasılması",
+      "E": "İdrar çıkışının azalması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Parasempatik sinir sistemi miksiyon (işeme) refleksini sağlayan sistemdir; mesane duvarındaki detrusor kasını (M3 reseptörleri aracılığıyla) kasar ve internal üretral sfinkteri gevşeterek idrar çıkışını artırır. İdrar çıkışının azalması (üriner retansiyon/depolama) detrusoru gevşetip (Beta-2/Beta-3) internal sfinkteri kasan (Alfa-1) sempatik sistemin etkisidir. Çeldiriciler: A şıkkı parasempatik etkidir; parasempatik uyarı tükürük bezlerinden bol, sulu ve amilaz içeren salgı üretimini artırır. B şıkkı parasempatik etkidir; vagus siniri sinoatriyal düğümde M2 reseptörleri üzerinden kalp hızını yavaşlatır (negatif kronotropi). C şıkkı parasempatik etkidir; sindirim kanalında miyenterik pleksusu uyararak peristaltizmi hızlandırır ve sfinkterleri gevşetir. D şıkkı parasempatik etkidir; safra kesesi duvarındaki düz kasları kasarak safranın duodenuma boşalmasını sağlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi sinir-kas kavşağında asetilkolinesterazı geri dönüşümlü inhibe ederek daha güçlü kasılma yanıtı sağladığı için miyastenia gravis gibi nöromüsküler hastalıkların tedavisinde kullanılır?",
+    "options": {
+      "A": "Kürar",
+      "B": "Botulinum toksin",
+      "C": "Neostigmin",
+      "D": "Organofosfatlar",
+      "E": "Atropin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Miyastenia gravis, nöromüsküler kavşakta postsinaptik nikotinik asetilkolin reseptörlerine karşı gelişen otoantikorlar sonucu kas güçsüzlüğü ile seyreden bir hastalıktır. Neostigmin (ve piridostigmin), asetilkolinesteraz enzimini geri dönüşümlü (reverzibl) olarak inhibe ederek sinaptik aralıktaki asetilkolin yıkımını önler, asetilkolin miktarını artırır ve sağlam kalan nikotinik reseptörlerin uyarılmasını sağlayarak kas kasılma gücünü artırır. Çeldiriciler: A şıkkındaki kürar (tubokürarin), postsinaptik nikotinik reseptörlerin yarışmalı (kompetitif) antagonistidir ve kas gevşemesi/felci yapar. B şıkkındaki botulinum toksini, presinaptik uçta SNARE proteinlerini parçalayarak asetilkolin veziküllerinin ekzositozunu engeller ve flask paralizi yapar. D şıkkındaki organofosfatlar, asetilkolinesteraz enzimini geri dönüşümsüz (irreverzibl) olarak inhibe eden toksik insektisit/sinir gazlarıdır, tedavide kullanılmaz. E şıkkındaki atropin, muskarinik asetilkolin reseptörlerinin antagonistidir, iskelet kasındaki nikotinik reseptörlere etki etmez.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yutma sırasında alt özofageal sfinkterin (AÖS) yeteri kadar gevşeyememesine ne ad verilir?",
+    "options": {
+      "A": "Akalazya",
+      "B": "Kserostomi",
+      "C": "Afaji",
+      "D": "Reflü",
+      "E": "Spru"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Akalazya (\"gevşeyememe\"), özofagusun alt ucundaki miyenterik (Auerbach) pleksusta yer alan ve nitrik oksit (NO) ile vazoaktif intestinal peptit (VIP) salgılayan inhibitör nöronların kaybı sonucunda yutma sırasında alt özofageal sfinkterin (AÖS) gevşeyememesi ve özofagus gövdesinde peristaltizmin kaybolması (aperistaltizm) ile karakterize motilite bozukluğudur. Çeldiriciler: B şıkkındaki kserostomi, tükürük salgısının azalması veya yokluğu sonucu oluşan ağız kuruluğudur. C şıkkındaki afaji, yutma yeteneğinin tamamen kaybolması durumudur. D şıkkındaki gastroözofageal reflü, alt özofageal sfinkter tonusunun azalması veya uygunsuz gevşemesi sonucu mide asidinin özofagusa geri kaçmasıdır (akalazyanın tam tersi mekanizma). E şıkkındaki spru (çölyak hastalığı / tropikal spru), ince bağırsak mukozasında villus atrofisi ile seyreden bir malabsorpsiyon tablosudur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kemik iliğinden gelişen glia hücresi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Protoplazmik astrosit",
+      "B": "Oligodendroglia",
+      "C": "Mikroglia",
+      "D": "Ependim hücresi",
+      "E": "Satellit hücresi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Diğer tüm glia hücreleri ektoderm (nöroektoderm veya nöral krista) kökenli iken, mikroglia hücreleri mezoderm kökenlidir; kemik iliğindeki hematopoietik kök hücrelerden gelişen monosit öncüllerinin embriyonal dönemde kan yoluyla merkezi sinir sistemine göç etmesiyle oluşurlar ve beyin dokusunun yerleşik makrofajları olarak fagositoz ve antijen sunumu yaparlar. Çeldiriciler: A şıkkındaki protoplazmik astrosit, B şıkkındaki oligodendroglia ve D şıkkındaki ependim hücresi merkezi sinir sisteminin makrogliya hücreleri olup nöroektodermden (nöral tüpten) gelişirler. E şıkkındaki satellit (uydu) hücresi ise periferik sinir sisteminin gangliyonlarında nöron gövdelerini çevreleyen glia hücresi olup nöral kristadan gelişir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "\"Long term\" potansiyasyon (LTP), hipokampusta hangi formda olabilir?",
+    "options": {
+      "A": "Dopaminerjik – D2 bağımlı",
+      "B": "Glutaminerjik – NMDA bağımlı",
+      "C": "Glutaminerjik – Kainat bağımlı",
+      "D": "Kolinerjik – M2 bağımlı",
+      "E": "Adrenerjik – Alfa2 bağımlı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Hipokampusta öğrenme ve bellek oluşumunun hücresel temeli olan uzun süreli potansiyasyon (Long-Term Potentiation - LTP), presinaptik uçtan salınan glutamatın postsinaptik membrandaki AMPA ve NMDA reseptörlerini uyarmasıyla gerçekleşir. Önce AMPA reseptörlerinden Na⁺ girişiyle postsinaptik membran depolarize olur, bu depolarizasyon NMDA reseptör kanalını tıkayan Mg²⁺ iyonunu uzaklaştırır ve NMDA kanalından hücre içine yoğun Ca²⁺ girişi olur; artan Ca²⁺, CaMKII enzimini aktive ederek membrana yeni AMPA reseptörlerinin eklenmesini ve sinaptik bağlantının uzun süreli güçlenmesini sağlar. Çeldiriciler: A şıkkındaki D2, D şıkkındaki M2 ve E şıkkındaki Alfa-2 reseptörleri Gi proteini kenetli inhibitör metabotropik reseptörler olup LTP'nin temel başlatıcısı değildirler. C şıkkındaki kainat reseptörü iyonotropik bir glutamat reseptörü olmakla birlikte, hipokampustaki klasik Ca²⁺ bağımlı LTP mekanizması kainat değil, voltaj bağımlı Mg²⁺ bloğuna sahip olan NMDA reseptörü bağımlıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Agonist kasları inhibe ederek istemli harekette hedefin aşılmasını önleyen sinyal aşağıdaki serebellar hücrelerin hangisinden çıkar?",
+    "options": {
+      "A": "Purkinje hücreleri",
+      "B": "Sepet hücreleri",
+      "C": "Stellate hücreler",
+      "D": "Golgi hücreleri",
+      "E": "Oligodendrositler"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Purkinje hücreleri, serebellar korteksin tek çıkış (projeksiyon) nöronlarıdır; aksonları serebellar korteksten çıkarak derin serebellar çekirdeklere (dentat, emboliform, globoz, fastigial) ve vestibüler çekirdeklere ulaşır. GABA salgılayan inhibitör nöronlar olan Purkinje hücreleri, derin serebellar çekirdeklerin eksitatör çıkışını dizginleyerek (frenleyerek) istemli hareketin sonunda agonist kas aktivitesini durdurur ve hareketin hedefi aşmasını (dismetri/hipermetri) önler. Çeldiriciler: B şıkkındaki sepet (basket) hücreleri, C şıkkındaki stellate (yıldız) hücreler ve D şıkkındaki Golgi hücreleri serebellar korteks dışına akson göndermeyen, yalnızca korteks içinde lokal inhibisyon yapan GABAerjik ara nöronlardır (internöronlardır). E şıkkındaki oligodendrositler ise nöron değil, miyelin yapan glia hücreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İnsanda stres durumunda aşağıdakilerden hangisi artmaz?",
+    "options": {
+      "A": "Ortalama arteryal basınç",
+      "B": "Bağırsak peristaltizmi",
+      "C": "Kan glikoz düzeyi",
+      "D": "Metabolik hız",
+      "E": "Kan kortizol düzeyi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Stres durumunda (\"savaş ya da kaç\" yanıtı) sempatik sinir sistemi ve hipotalamus-hipofiz-adrenal (HPA) aksı aktive olurken parasempatik sistem baskılanır; sempatik aktivasyon (Alfa-2 ve Beta-2 reseptörleri üzerinden) gastrointestinal sistem düz kaslarını gevşetir, enterik sinir sisteminden asetilkolin salınımını inhibe eder ve bağırsak peristaltizmini artırmaz, aksine belirgin şekilde azaltır. Çeldiriciler: A şıkkındaki ortalama arteryal basınç, sempatik vazokonstriksiyon (Alfa-1) ve kalp debisi artışıyla (Beta-1) yükselir. C şıkkındaki kan glikoz düzeyi, katekolaminlerin ve kortizolün uyardığı glikojenoliz ve glukoneogenez ile artar. D şıkkındaki metabolik hız, adrenalin ve tiroid hormonlarının hücresel oksidasyonu hızlandırmasıyla artar. E şıkkındaki kan kortizol düzeyi, stresle tetiklenen CRH-ACTH aksının adrenal korteksi uyarmasıyla artar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Propriyoseptif duyuda, Golgi tendon organından kaynaklanan uyarılar merkezî sinir sistemine aşağıdaki lif tiplerinden hangisiyle iletilir?",
+    "options": {
+      "A": "A alfa",
+      "B": "A gama",
+      "C": "A delta",
+      "D": "B",
+      "E": "C"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kas kirişlerinde (tendonlarda) yer alan ve kas gerilimini (gerginliğini) algılayan Golgi tendon organından çıkan duyusal afferent lifler Grup Ib lifleridir; Erlanger-Gasser sınıflamasında hem kas iğciği primer afferentleri (Grup Ia) hem de Golgi tendon organı afferentleri (Grup Ib) en kalın çaplı ve en hızlı iletim yapan miyelinli lif grubu olan A alfa (Aα) lifleri içinde yer alır. Çeldiriciler: B şıkkındaki A gama lifleri duyusal afferent değil, kas iğciğinin intrafuzal liflerini kasan motor efferent liflerdir. C şıkkındaki A delta lifleri (Grup III), keskin/hızlı ağrı ve soğuk duyusunu taşıyan ince miyelinli liflerdir. D şıkkındaki B lifleri otonom pregangliyonik efferent liflerdir. E şıkkındaki C lifleri (Grup IV) ise yavaş/künt ağrı ve sıcaklık taşıyan miyelinsiz liflerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangileri, medulla spinaliste ağrı iletiminden sorumlu transmitterlerdir?",
+    "options": {
+      "A": "Asetilkolin – Glisin",
+      "B": "Glisin – GABA",
+      "C": "Glutamat – P maddesi",
+      "D": "P maddesi – Enkefalin",
+      "E": "Glutamat – Serotonin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Periferden ağrı duyusunu taşıyan primer afferent nosiseptörlerin (A delta ve C liflerinin) santral uzantıları medulla spinalisin arka boynuzunda (substantia gelatinosa ve diğer laminalarda) ikinci sıra nöronlarla sinaps yapar; bu sinapslarda hızlı, keskin ve lokalize ağrının iletiminden sorumlu temel eksitatör nörotransmitter glutamat iken, yavaş, kronik ve künt ağrının iletiminden sorumlu nöropeptit P maddesidir (Substance P). Çeldiriciler: A ve B şıklarındaki glisin ve GABA, omurilik ve beyin sapında ağrı iletimini sağlayan değil, postsinaptik hiperpolarizasyon ile ağrıyı baskılayan inhibitör nörotransmitterlerdir; asetilkolin ise motor nöron ve otonom gangliyon transmitteridir. D şıkkındaki enkefalin ve E şıkkındaki serotonin, ağrıyı ileten değil, beyin sapından omurilik arka boynuzuna inen analjezik (ağrı kesici) yolakta ağrı iletimini baskılayan inhibitör mediyatörlerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi embriyoda rostral nöroporusun kapanmasıyla oluşan 3 primer beyin vezikülünden biridir?",
+    "options": {
+      "A": "Mezensefalon",
+      "B": "Metensefalon",
+      "C": "Telensefalon",
+      "D": "Diensefalon",
+      "E": "Myelensefalon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Gelişimin 4. haftasında rostral (kraniyal) nöroporusun kapanmasıyla nöral tüpün kraniyal ucunda 3 adet primer beyin vezikülü oluşur: Prosensefalon (ön beyin), Mezensefalon (orta beyin) ve Rombensefalon (arka beyin). Seçenekler arasında yer alan tek primer beyin vezikülü mezensefalondur (diğer adı orta beyin olup 5. haftada bölünmeden tek sekonder vezikül olarak devam eder). Çeldiriciler: B şıkkındaki metensefalon ve E şıkkındaki miyelensefalon primer vezikül olmayıp, 5. haftada rombensefalonun ikiye bölünmesiyle oluşan sekonder beyin vezikülleridir. C şıkkındaki telensefalon ve D şıkkındaki diensefalon ise 5. haftada prosensefalonun ikiye bölünmesiyle oluşan sekonder beyin vezikülleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, aksonun yapısında bulunmaz?",
+    "options": {
+      "A": "Mikrotübül",
+      "B": "Nörofilament",
+      "C": "Mitokondri",
+      "D": "Poliribozom",
+      "E": "Vezikül"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Nöronlarda protein sentezinden sorumlu olan granüllü endoplazmik retikulum (Nissl cisimcikleri) ve serbest poliribozomlar hücre gövdesinde (soma/perikaryon) ve dendritlerde bol miktarda bulunurken, akson tepeciğinden (akson hillock) itibaren akson sitoplazmasında (aksoplazmada) bulunmazlar; bu nedenle akson kendi protein sentezini yapamaz ve ihtiyaç duyduğu proteinler somadan aksonal taşıma ile gönderilir. Çeldiriciler: A şıkkındaki mikrotübüller (kinezin ve dinein motor proteinleri ile hızlı aksonal taşımayı sağlayan raylar), B şıkkındaki nörofilamentler (aksonun çapını ve yapısal dayanıklılığını koruyan ara filamentler), C şıkkındaki mitokondriler (iyon pompaları ve aksonal taşıma için ATP üreten organeller) ve E şıkkındaki sinaptik veziküller aksoplazmada bol miktarda bulunur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisi beyincikte yer alır?",
+    "options": {
+      "A": "Piramidal nöron",
+      "B": "Purkinje hücresi",
+      "C": "Paneth hücresi",
+      "D": "Merkel hücresi",
+      "E": "Paryetal hücre"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Purkinje hücresi, beyincik (serebellum) korteksinin orta tabakasında (Purkinje tabakasında) tek sıra halinde dizilen, moleküler tabakaya uzanan çok geniş yelpaze şeklinde dendrit ağacına sahip olan ve serebellar korteksin tek çıkış nöronu olarak görev yapan GABAerjik nörondur. Çeldiriciler: A şıkkındaki piramidal nöronlar beyincikte değil, beyin (serebral) korteksinin özellikle III. ve V. tabakalarında ve hipokampusta yer alan eksitatör projeksiyon nöronlarıdır. C şıkkındaki Paneth hücreleri ince bağırsaklarda Lieberkühn kriptalarının tabanında yer alan ve lizozim/defensin salgılayan hücrelerdir. D şıkkındaki Merkel hücreleri deri epidermisinin bazal tabakasında bulunan mekanoreseptör (dokunma) hücreleridir. E şıkkındaki paryetal (oksintik) hücreler ise mide bezlerinde bulunan ve hidroklorik asit (HCl) ile intrinsik faktör salgılayan hücrelerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki bölgelerden hangisi, aynı anda iki noktadan gelen uyarıları farklı olarak ayırt etmede en hassastır?",
+    "options": {
+      "A": "Sırt",
+      "B": "Omuz",
+      "C": "Ön kol",
+      "D": "Göğüs",
+      "E": "Parmak ucu"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İki nokta ayrımı (diskriminasyonu) hassasiyeti, derideki birim alana düşen mekanoreseptör (özellikle Meissner ve Merkel reseptörleri) yoğunluğunun fazlalığı, bu reseptörlerin reseptif (algılama) alanlarının küçüklüğü ve primer somatosensoriyel korteksteki (homunkulustaki) temsil alanının büyüklüğü ile doğru orantılıdır. İnsan vücudunda dudaklar ve dil ucu ile birlikte parmak uçları en küçük reseptif alana ve en yoğun mekanoreseptör dağılımına sahip olduğu için iki nokta ayrım eşiği en düşük (yaklaşık 1–2 mm), yani ayırt etmede en hassas bölgedir. Çeldiriciler: A şıkkındaki sırt, B şıkkındaki omuz, C şıkkındaki ön kol ve D şıkkındaki göğüs bölgelerinde mekanoreseptör yoğunluğu düşüktür ve bir duyusal nöron çok geniş bir deri alanından (büyük reseptif alan) uyarı alır; özellikle sırt bölgesinde iki nokta ayrım eşiği 40–70 mm'ye kadar çıkarak hassasiyet en düşük seviyeye iner.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aksiyon potansiyeli iletiminde \"sıçrayıcı iletim\" aşağıdaki sinir lifi tiplerinin hangisinde gözlenmez?",
+    "options": {
+      "A": "A alfa",
+      "B": "A beta",
+      "C": "A gama",
+      "D": "A delta",
+      "E": "C"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Sıçrayıcı iletim (saltatorik iletim), miyelin kılıfı bulunan sinir liflerinde aksiyon potansiyelinin yüksek dirençli miyelinli internodal bölgeleri atlayarak yalnızca voltaj kapılı sodyum kanallarının yoğunlaştığı miyelinsiz Ranvier boğumlarında oluşmasıyla gerçekleşen hızlı ve enerji tasarruflu iletim şeklidir. C tipi sinir lifleri miyelinsiz olduğu için Ranvier boğumu içermezler; bu nedenle C liflerinde sıçrayıcı iletim gözlenmez, aksiyon potansiyeli akson membranı boyunca kesintisiz (sürekli) ve yavaş olarak yayılır. Çeldiriciler: A şıkkındaki A alfa, B şıkkındaki A beta, C şıkkındaki A gama ve D şıkkındaki A delta liflerinin tamamı miyelin kılıfına sahip olan sinir lifleridir ve hepsinde Ranvier boğumları arasında sıçrayıcı iletim gözlenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Schmidt-Lanterman yarıkları aşağıdaki yapılardan hangisinde bulunur?",
+    "options": {
+      "A": "Hücreler arası sıvı",
+      "B": "Schwann hücrelerinin sitoplazması",
+      "C": "Satellit hücrelerinin sitoplazması",
+      "D": "Aksoplazma",
+      "E": "Nükleoplazma"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Periferik sinir sisteminde Schwann hücreleri akson çevresine katmanlar halinde sarılarak miyelin kılıfını oluştururken sitoplazmasını dışa doğru iter; ancak miyelin lamelleri arasında oblik/huni şeklinde küçük sitoplazma adacıkları ve kanalcıkları kalır. Schwann hücresinin sitoplazma kalıntılarından oluşan ve miyelinin iç katmanlarının beslenmesini sağlayan bu yapılara Schmidt-Lanterman yarıkları (insisuraları) denir (merkezi sinir sisteminde oligodendrositlerin yaptığı miyelinde bu yarıklar bulunmaz). Çeldiriciler: A şıkkındaki hücreler arası sıvı, C şıkkındaki gangliyonlarda bulunan miyelinsiz satellit hücrelerinin sitoplazması, D şıkkındaki nöronun akson sitoplazması (aksoplazma) ve E şıkkındaki çekirdek sıvısı (nükleoplazma) miyelin lamelleri arasındaki bu sitoplazmik yarıkları içermez.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Omurilikte hızlı ağrı iletiminde görev alan nörotransmitter aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "P maddesi",
+      "B": "Glutamat",
+      "C": "Serotonin",
+      "D": "Proenkefalin",
+      "E": "Asetilkolin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İnce miyelinli A delta lifleri tarafından taşınan keskin, batıcı ve iyi lokalize edilen \"hızlı ağrı\" (ilk ağrı) duyusu, omurilik arka boynuzunda (lamina I ve V) ikinci sıra nöronlara glutamat nörotransmitteri aracılığıyla aktarılır; glutamat milisaniyeler içinde iyonotropik AMPA/NMDA reseptörlerini açarak hızlı sinaptik yanıt oluşturur. Çeldiriciler: A şıkkındaki P maddesi (Substance P), miyelinsiz C lifleri tarafından taşınan yanıcı, sızlayıcı ve geç başlayan \"yavaş ağrı\" (ikinci ağrı) iletiminde görev alan nöropeptittir. C şıkkındaki serotonin ve D şıkkındaki proenkefalin (enkefalin öncülü), ağrıyı ileten değil, beyin sapından omuriliğe inen endojen analjezik sistemde ağrı iletimini baskılayan mediyatörlerdir. E şıkkındaki asetilkolin ise somatik motor ve otonomik sinapsların nörotransmitteridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki nörotransmitterlerden hangisi, REM uykusunun oluşmasından sorumludur?",
+    "options": {
+      "A": "GABA",
+      "B": "Asetilkolin",
+      "C": "Adrenalin",
+      "D": "Glutamat",
+      "E": "Glisin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): REM uykusunun başlatılması ve sürdürülmesinden beyin sapındaki (pons ve mezensefalon sınırındaki pedünkülopontin ve laterodorsal tegmental çekirdeklerdeki) kolinerjik (\"REM-on\") nöronlardan salgılanan asetilkolin sorumludur; asetilkolin talamokortikal yolları aktive ederek REM uykusundaki desenkronize EEG dalgalarını ve ponto-genikülo-oksipital (PGO) dikenlerini oluşturur. Çeldiriciler: A şıkkındaki GABA ve E şıkkındaki glisin, genel inhibitör nörotransmitterlerdir; GABA non-REM uykusunun başlatılmasında (ventrolateral preoptik çekirdekte), glisin ise REM uykusu sırasında omurilik motor nöronlarını inhibe ederek kas atonisi oluşturulmasında görev alır ancak REM uykusunu başlatan ana mediyatör değildir. C şıkkındaki adrenalin (ve lokus seruleustan salınan noradrenalin ile rafe çekirdeklerinden salınan serotonin) \"REM-off\" nörotransmitterler olup REM uykusu sırasında deşarjları en düşük seviyeye iner. D şıkkındaki glutamat ise genel uyanıklık (ARAS) eksitatörüdür.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki olayların hangisinde nikotinik asetilkolin reseptörleri sorumludur?",
+    "options": {
+      "A": "Mide boşalmasının gecikmesi",
+      "B": "Sinoatrial düğümden çıkan uyarı sayısının azalması",
+      "C": "Çizgili kas zarında depolarizasyonun başlaması",
+      "D": "Bağırsak peristaltizminin başlaması",
+      "E": "Midriyazis oluşumu"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Nikotinik asetilkolin reseptörleri ligand kapılı katyon (Na⁺/K⁺) kanalları olup vücutta başlıca iki yerde bulunur: otonom gangliyonlardaki postgangliyonik nöron gövdelerinde (Nn tipi) ve nöromüsküler kavşakta çizgili (iskelet) kasının motor son plağında (Nm tipi). Somatik motor nörondan salınan asetilkolin, çizgili kas zarındaki Nm tipi nikotinik reseptörlere bağlanarak Na⁺ girişini ve son plak potansiyelini (depolarizasyonu) başlatır. Çeldiriciler: A şıkkındaki mide boşalmasının gecikmesi sempatik sistemin adrenerjik reseptörleri (veya enterik hormonlar) aracılığıyla gerçekleşir. B şıkkındaki sinoatrial düğümden çıkan uyarı sayısının azalması (bradikardi), kalpteki M2 tipi muskarinik reseptörler aracılığıyla olur. D şıkkındaki bağırsak peristaltizminin başlaması, düz kaslardaki M3 tipi muskarinik reseptörler aracılığıyla olur. E şıkkındaki midriyazis (pupil genişlemesi) ise iris radyal kasındaki Alfa-1 adrenerjik reseptörlerin sempatik uyarılmasıyla gerçekleşir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir nöronun dinlenim zar potansiyelinin oluşmasında en fazla katkı sağlayan iyon hangisidir?",
+    "options": {
+      "A": "Sodyum",
+      "B": "Kalsiyum",
+      "C": "Potasyum",
+      "D": "Klor",
+      "E": "Magnezyum"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Bir hücrenin dinlenim zar potansiyelini belirleyen en temel faktör, hücre zarının dinlenim halinde hangi iyona karşı en yüksek geçirgenliğe (iletkenliğe) sahip olduğudur. İstirahat halindeki nöron zarında sürekli açık olan potasyum sızıntı kanalları nedeniyle zarın potasyum (K⁺) geçirgenliği diğer tüm iyonlardan yaklaşık 50–100 kat daha fazladır; bu nedenle K⁺ iyonları konsantrasyon gradyanı boyunca dışarı sızarak hücre içini negatif yapar ve dinlenim zar potansiyelini (-70 mV) kendi denge potansiyeline (-90 mV) yaklaştırır. Çeldiriciler: A şıkkındaki sodyum ve B şıkkındaki kalsiyum iyonlarına karşı dinlenim zarının geçirgenliği çok düşüktür; bu iyonlar esas olarak aksiyon potansiyelinin depolarizasyon evresinde rol alır. D şıkkındaki klor iyonu çoğunlukla pasif olarak elektrokimyasal dengeye uyar. E şıkkındaki magnezyum ise hücre içi enzimatik kofaktör ve NMDA kanal blokörü olarak işlev görür.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir nöronda aksiyon potansiyelini başlatan iyon akışıyla ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Sodyum iyonlarının hücre içine girişiyle başlar.",
+      "B": "Sodyum iyonlarının hücre dışına çıkışıyla başlar.",
+      "C": "Potasyum iyonlarının hücre içine girişiyle başlar.",
+      "D": "Potasyum iyonlarının hücre dışına çıkışıyla başlar.",
+      "E": "Klor iyonlarının hücre içine girişiyle başlar."
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Nöron membran potansiyeli eşik değere (yaklaşık -55 mV) ulaştığında voltaj kapılı sodyum (Na⁺) kanallarının aktivasyon kapıları hızla açılır; hem elektriksel hem de konsantrasyon gradyanının etkisiyle ekstraselüler ortamda yoğun olan Na⁺ iyonları hızla hücre içine girer ve membran potansiyelini pozitif değerlere (+35 mV) taşıyarak aksiyon potansiyelinin yükselen kolunu (depolarizasyonu) başlatır. Çeldiriciler: B şıkkındaki sodyumun dışarı çıkışı ve C şıkkındaki potasyumun içeri girişi, elektrokimyasal gradyanın tersi yönünde olup Na⁺/K⁺-ATPaz pompasının aktif taşıma yönüdür, aksiyon potansiyelini başlatmaz. D şıkkındaki potasyum iyonlarının voltaj kapılı K⁺ kanallarıyla hücre dışına çıkışı aksiyon potansiyelini başlatmaz, aksine depolarizasyonu sonlandırıp repolarizasyonu (ve hiperpolarizasyonu) oluşturur. E şıkkındaki klor iyonlarının hücre içine girişi ise membranı hiperpolarize ederek (IPSP) aksiyon potansiyeli oluşumunu baskılar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi anterolateral sensöryal yolla taşınır?",
+    "options": {
+      "A": "Titreşen telefonu tutunca oluşan duyu",
+      "B": "Eldeki cismin sert ve köşeli olma bilgisi",
+      "C": "Deride gezinen böceğin varlığının duyusu",
+      "D": "El daldırıldığında suyun soğuk olması duyusu",
+      "E": "Eklemlerin pozisyon duyusu"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Anterolateral sistem (spinotalamik yol), omuriliğin arka boynuzunda sinaps yaptıktan sonra ön beyaz komissürde karşı tarafa geçerek yükselen yoldur ve ağrı, sıcaklık (ısı: sıcak ve soğuk), kaba dokunma, gıdıklanma, kaşınma ve cinsel duyuları taşır; dolayısıyla suyun soğuk olması duyusu (sıcaklık duyusu) lateral spinotalamik yolla taşınır. Çeldiriciler: A şıkkındaki vibrasyon (titreşim) duyusu, B şıkkındaki stereognozis ve iki nokta ayrımı (cismin sert ve köşeli olma bilgisi), C şıkkındaki hassas/ince dokunma (epikritik dokunma) duyusu ve E şıkkındaki eklemlerin bilinçli pozisyon duyusu (propriyosepsiyon) anterolateral yolla değil, omurilikte çapraz yapmadan yükselip bulbus düzeyinde (nukleus grasilis ve kuneatusta) çapraz yapan dorsal kolon-medial lemniskal sistem ile taşınır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Glutamaterjik nörotransmisyonda glutamatın sinaptik etkisini sonlandıran başlıca durum hangisidir?",
+    "options": {
+      "A": "Metabotropik reseptörüne bağlanma",
+      "B": "Nöronlarda NMDA reseptörüne bağlanma",
+      "C": "Gliada AMPA reseptörüne bağlanma",
+      "D": "Gliada kainate reseptörüne bağlanma",
+      "E": "Na⁺ bağımlı glutamat taşıyıcılarıyla gliaya taşınma"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Merkezi sinir sisteminin ana eksitatör nörotransmitteri olan glutamatı sinaptik aralıkta parçalayan bir enzim yoktur; glutamatın sinaptik etkisinin sonlandırılması ve aşırı uyarıma bağlı eksitotoksisitenin önlenmesi, başlıca sinapsı çevreleyen astrositlerin (ve kısmen presinaptik nöronun) membranında bulunan yüksek afiniteli, Na⁺ bağımlı eksitatör amino asit taşıyıcıları (EAAT) aracılığıyla glutamatın geri alınması (reuptake) ile gerçekleşir. Astrosit içine alınan glutamat, glutamin sentetaz enzimi ile glutamine dönüştürülerek tekrar nörona verilir. Çeldiriciler: A şıkkındaki metabotropik reseptöre, B şıkkındaki NMDA reseptörüne, C şıkkındaki AMPA reseptörüne ve D şıkkındaki kainat reseptörüne bağlanma işlemleri glutamatın sinaptik aralıktan temizlenme mekanizması değil, sinyal oluşturma (aktivasyon) mekanizmalarıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sempatik preganglionik akson uçlarından salgılanan nörotransmitter madde, postganglionik nöronlar üzerindeki reseptörlerden hangisini uyarır?",
+    "options": {
+      "A": "Alfa1-adrenerjik",
+      "B": "Alfa2-adrenerjik",
+      "C": "Beta1-adrenerjik",
+      "D": "Muskarinik kolinerjik",
+      "E": "Nikotinik kolinerjik"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Otonom sinir sisteminde hem sempatik hem de parasempatik tüm pregangliyonik nöronların akson uçlarından gangliyon içerisindeki sinapslara asetilkolin (ACh) salgılanır; bu asetilkolin, postgangliyonik nöronların hücre gövdesinde ve dendritlerinde bulunan nöronal tip nikotinik kolinerjik (Nn) reseptörleri uyararak hızlı eksitatör postsinaptik potansiyel (EPSP) oluşturur. Çeldiriciler: A şıkkındaki Alfa-1, B şıkkındaki Alfa-2 ve C şıkkındaki Beta-1 adrenerjik reseptörler otonom gangliyonlarda pregangliyonik ACh tarafından uyarılan ana reseptörler olmayıp, sempatik postgangliyonik nöronlardan salınan noradrenalinin hedef organlar (damar, kalp vb.) üzerinde uyardığı reseptörlerdir. D şıkkındaki muskarinik kolinerjik reseptörler ise esas olarak parasempatik postgangliyonik liflerin (ve sempatik kolinerjik ekrin ter bezi liflerinin) hedef organlarda uyardığı reseptörlerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. CO₂\nII. Glutamat\nIII. Serotonin\nYukarıdaki etkenlerden hangileri ağrı duyusunun merkezi sinir sistemine iletilmesinde rol alır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "I ve II",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Periferik nosiseptörlerden gelen ağrı uyarılarının medulla spinalis arka boynuzundaki sinapslardan geçerek merkezi sinir sisteminin üst merkezlerine (talamus ve kortekse) primer olarak iletilmesinde görev alan temel eksitatör nörotransmitter glutamattır (P maddesi ve CGRP ile birlikte). Öncüllerin Analizi: I. öncül yanlıştır; karbondioksit (CO₂) solunum merkezini uyaran ve serebral vazodilatasyon yapan metabolik bir gazdır, ağrı yollarında sinaptik nörotransmitter olarak görev almaz. II. öncül doğrudur; glutamat primer afferent ağrı liflerinin (özellikle A delta ve C liflerinin) omurilik arka boynuzunda ikinci sıra spinotalamik nöronları uyarmasında kullanılan ana nörotransmitterdir. III. öncül yanlıştır; serotonin (5-HT) ağrı duyusunun üst merkezlere iletilmesinde değil, beyin sapındaki nucleus raphe magnus'tan omurilik arka boynuzuna inen endojen analjezik (ağrı baskılayıcı) yolda enkefalinerjik ara nöronları uyararak ağrı iletiminin inhibisyonunda (modülasyonunda) rol alır. Çeldiriciler: A, C, D ve E şıkları ağrı iletiminde primer afferent transmitter olmayan CO₂ ve/veya inen inhibitör yolak mediyatörü olan serotonini içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Akson hasarlanmasından sonra sinir hücre gövdesinin şişmesi ve organellerinin özelliklerinin yeniden düzenlenmesine ne ad verilir?",
+    "options": {
+      "A": "Kromatolizis",
+      "B": "Retrograd transnöronal dejenerasyon",
+      "C": "Anterograd transnöronal dejenerasyon",
+      "D": "Wallerian dejenerasyonu",
+      "E": "Miyelin dejenerasyonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Bir nöronun aksonu kesildiğinde veya hasarlandığında (aksotomi), hasar yerinin proksimalinde kalan nöron gövdesinde (somada) onarım için protein sentezini artırmaya yönelik karakteristik morfolojik değişiklikler meydana gelir: hücre gövdesi su alarak şişer ve yuvarlaklaşır, çekirdek merkezden perifere (eksantrik konuma) kayar ve granüllü endoplazmik retikulum kümeleri olan bazofilik Nissl cisimcikleri dağılarak sitoplazma soluklaşır; bu reaksiyona kromatolizis (santral kromatolizis) adı verilir. Çeldiriciler: B şıkkındaki retrograd transnöronal dejenerasyon ve C şıkkındaki anterograd transnöronal dejenerasyon, hasarlanan nöronun kendisinde değil, onunla sinaps yapan bir önceki veya bir sonraki sağlam nöronda meydana gelen dejenerasyondur. D şıkkındaki Wallerian dejenerasyonu, aksonun kesilen noktasının distalinde (hücre gövdesinden kopan uç kısmında) hem aksonun hem de miyelin kılıfının parçalanıp makrofajlarca fagosite edilmesidir. E şıkkındaki miyelin dejenerasyonu ise akson sağlam kalırken yalnızca miyelin kılıfının yıkılmasıdır (demiyelinizasyon).",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, sıklıkla desenkronize uyku evresi olarak isimlendirilen evredir?",
+    "options": {
+      "A": "REM",
+      "B": "nREM 1. evre",
+      "C": "nREM 2. evre",
+      "D": "nREM 3. evre",
+      "E": "nREM 4. evre"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): REM (Rapid Eye Movement) uykusu sırasında kişide derin bir kas atonisi ve yüksek uyandırılma eşiği bulunmasına rağmen, talamokortikal kolinerjik aktivasyon nedeniyle EEG'de yüksek voltajlı senkronize yavaş dalgalar yerine uyanıklık durumuna çok benzeyen düşük voltajlı, yüksek frekanslı ve düzensiz (desenkronize) beta benzeri dalgalar görülür; bu nedenle REM uykusu \"desenkronize uyku\" veya \"paradoksal uyku\" olarak adlandırılır. Çeldiriciler: B şıkkındaki nREM 1. evre (alfa dalgalarının kaybolup teta dalgalarının başladığı hafif uyku), C şıkkındaki nREM 2. evre (uyku iğcikleri ve K komplekslerinin görüldüğü evre) ile D ve E şıklarındaki nREM 3. ve 4. evreler (yüksek amplitüdlü, düşük frekanslı senkronize delta dalgalarının hakim olduğu derin yavaş dalga uykusu) nöronların eşzamanlı ateşleme yaptığı \"senkronize uyku\" (yavaş dalga uykusu) evreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki beyin bölgelerinden hangisi insanda sirkadiyen ritim ve uyku-uyanıklık döngüsünün düzenlenmesinde rol alır?",
+    "options": {
+      "A": "Hypophysis",
+      "B": "Nucleus subthalamicus",
+      "C": "Nucleus suprachiasmaticus",
+      "D": "Nucleus accumbens",
+      "E": "Nucleus ruber"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hipotalamusun anterior bölgesinde optik kiyazmanın hemen üzerinde yer alan nucleus suprachiasmaticus (suprakiyazmatik çekirdek - SCN), memelilerde sirkadiyen ritmin ve uyku-uyanıklık döngüsünün ana biyolojik saati (pacemaker) olarak görev yapar. Retinadaki melanopsin içeren intrinsik fotosensitif gangliyon hücrelerinden retinotalamik yol ile doğrudan ortam ışığı bilgisini alır ve epifiz bezinden (pineal bez) melatonin salgılanmasını, vücut sıcaklığı ve kortizol döngüsünü senkronize eder. Çeldiriciler: A şıkkındaki hipofiz bezi endokrin hormonların salgılandığı bezdir, sirkadiyen saat merkezi değildir. B şıkkındaki nucleus subthalamicus, bazal gangliyonların indirekt yolağında yer alan ve hareketlerin inhibisyonunu düzenleyen motor çekirdektir (hasarında hemiballismus görülür). D şıkkındaki nucleus accumbens, ventral striatumda yer alan ödül, haz ve bağımlılık merkezidir. E şıkkındaki nucleus ruber (kırmızı çekirdek), mezensefalonda yer alan ve rubrospinal yol ile fleksör kas tonusunu düzenleyen motor çekirdektir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir nörondaki aksiyon potansiyeli oluşumuyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Eşik değere ulaşıldığında \"ya hep ya hiç\" yasasına uyar.",
+      "B": "Eşik değere ulaşıldığında voltaj kapılı Na kanalları açılır.",
+      "C": "Repolarizasyonda hücre içine K girişi vardır.",
+      "D": "Voltaj kapılı Na kanalları, voltaj kapılı K kanallarından daha önce açılır.",
+      "E": "Aksiyon potansiyeli sonrası Na/K ATPaz gradyentlerin yeniden kurulmasına katkı sağlar."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Aksiyon potansiyelinin repolarizasyon evresinde voltaj kapılı Na⁺ kanalları inaktive olurken yavaş açılan voltaj kapılı K⁺ kanalları açılır; potasyum (K⁺) iyonu hücre içinde çok yoğun olduğu için repolarizasyonda hücre içine K⁺ girişi olmaz, aksine K⁺ iyonlarının hızla hücre dışına çıkışı gerçekleşir ve pozitif yük kaybıyla membran potansiyeli tekrar negatif dinlenim değerine döner. Çeldiriciler: A şıkkı doğrudur; uyaran eşik değere ulaştığında aksiyon potansiyeli sabit ve maksimum genlikte oluşur (\"ya hep ya hiç\" yasası). B şıkkı doğrudur; eşik değerde voltaj kapılı Na⁺ kanallarının aktivasyon kapıları açılarak depolarizasyonu başlatır. D şıkkı doğrudur; voltaj kapılı Na⁺ kanalları çok hızlı kinetiğe sahip olduğundan depolarizasyon başında hemen açılırken, voltaj kapılı K⁺ kanalları gecikmeli (repolarizasyon başında) açılır. E şıkkı doğrudur; aksiyon potansiyelleri boyunca içeri giren Na⁺ ve dışarı çıkan K⁺ iyonlarının konsantrasyon gradyanlarını uzun vadede Na⁺/K⁺-ATPaz pompası yeniden kurar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bir deney modeli için sıçanlarda sinaptotagmine karşı bir antikor geliştiriliyor. Bu antikor sıçanlara verildiğinde aşağıdaki sinaptik işlevlerden hangisinin bozulması beklenir?",
+    "options": {
+      "A": "Nörotransmitter sentezi",
+      "B": "Sinaptik veziküllere nörotransmitter depolanması",
+      "C": "Nörotransmitter veziküllerinin membran yapısının oluşması",
+      "D": "Presinaptik nörona kalsiyum iyonu girişinin gerçekleşmesi",
+      "E": "Sinaptik vezikülün sinaptik aralığa boşalması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Sinaptotagmin, presinaptik akson terminalindeki sinaptik veziküllerin membranında yer alan ve kalsiyum (Ca²⁺) sensörü olarak görev yapan integral bir proteindir. Aksiyon potansiyeli presinaptik uca ulaşıp voltaj kapılı Ca²⁺ kanallarından içeri Ca²⁺ girdiğinde, Ca²⁺ iyonları sinaptotagmine bağlanır; aktifleşen sinaptotagmin, veziküldeki v-SNARE (sinaptobrevin) ile presinaptik membrandaki t-SNARE (sintaksin ve SNAP-25) proteinlerinin kenetlenmesini tetikleyerek vezikülün membranla kaynaşmasını (füzyonunu) ve nörotransmitterin ekzositozla sinaptik aralığa boşalmasını sağlar. Dolayısıyla sinaptotagmin antikorla bloke edilirse vezikülün sinaptik aralığa boşalması (ekzositoz) bozulur. Çeldiriciler: A şıkkındaki nörotransmitter sentezi sitoplazmik ve veziküler enzimlerle, B şıkkındaki veziküle depolanma veziküler taşıyıcı proteinlerle (proton pompası bağımlı antiporterlarla), C şıkkındaki vezikül membran oluşumu Golgi ve endositoz mekanizmalarıyla, D şıkkındaki Ca²⁺ girişi ise sinaptotagminden önceki basamak olan voltaj kapılı Ca²⁺ kanallarıyla gerçekleşir ve sinaptotagmin blokajından etkilenmez.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hipofizin aşağıdaki bölgelerinden hangisi diensefalonun taban bölümünden gelişir?",
+    "options": {
+      "A": "Pars intermedia",
+      "B": "Rathke kesesi",
+      "C": "İnfundibulum",
+      "D": "Pars tuberalis",
+      "E": "Pars distalis"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hipofiz bezi iki farklı embriyolojik taslaktan gelişir; arka hipofiz (nörohipofiz), diensefalonun (ön beyin) tabanındaki nöroektodermin aşağıya doğru yaptığı infundibular çıkıntıdan gelişir ve bu yapı erişkinde infundibulum (hipofiz sapı), median eminens ve pars nervosa'yı oluşturur. Çeldiriciler: B şıkkındaki Rathke kesesi, diensefalondan değil, ilkel ağız boşluğu (stomodeum) tavanındaki oral ektodermin yukarı doğru yaptığı keseleşmedir. A şıkkındaki pars intermedia, D şıkkındaki pars tuberalis ve E şıkkındaki pars distalis ise Rathke kesesinden gelişen ve ön hipofizi (adenohipofizi) oluşturan üç anatomik bölümdür.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Santral sinir sisteminde bulunmayan glia hücresi hangisidir?",
+    "options": {
+      "A": "Ependim hücresi",
+      "B": "Astrosit",
+      "C": "Satelit hücresi",
+      "D": "Oligodendrosit",
+      "E": "Mikroglia hücresi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Satelit (uydu) hücreleri santral sinir sisteminde bulunmaz; nöral kristadan gelişen ve periferik sinir sisteminin duyu (arka kök) ile otonomik gangliyonlarında bulunan nöron gövdelerini tek katlı kübik bir örtü gibi çevreleyerek nöronun mikroçevresini, iyon dengesini ve metabolik desteğini sağlayan periferik glia hücreleridir (santral sinir sistemindeki astrositlerin periferik gangliyonlardaki karşılığıdır). Çeldiriciler: A şıkkındaki ependim hücresi (ventrikülleri döşer), B şıkkındaki astrosit (kan-beyin bariyeri ve metabolik destek sağlar), D şıkkındaki oligodendrosit (santral miyelin kılıfını yapar) ve E şıkkındaki mikroglia hücresi (fagositoz yapar) tamamen santral sinir sisteminde (beyin ve omurilikte) yer alan glia hücreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi veziküllerin içindeki nörotransmitterlerin presinaptik nörondan sinaptik aralığa ekzositoz aşamalarında rol oynamaz?",
+    "options": {
+      "A": "Sinaptotagmin",
+      "B": "Sinaptobrevin",
+      "C": "Sintaksin",
+      "D": "SNAP-25",
+      "E": "Dihidropiridin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Dihidropiridin (DHP) reseptörü, nöronlardaki sinaptik vezikül ekzositozunda görev alan bir protein olmayıp, iskelet ve kalp kası hücrelerinin T-tübül membranında yer alan voltaj duyarlı L-tipi kalsiyum kanalıdır (iskelet kasında sarkoplazmik retikulumdaki riyanodin reseptörü ile mekanik eşleşme yaparak kas kasılmasını başlatır). Çeldiriciler: A şıkkındaki sinaptotagmin, sinaptik vezikül membranında bulunan ve presinaptik uca giren Ca²⁺ iyonlarını bağlayarak ekzositozu tetikleyen Ca²⁺ sensörüdür. B şıkkındaki sinaptobrevin (VAMP), vezikül membranında bulunan v-SNARE proteinidir. C şıkkındaki sintaksin ve D şıkkındaki SNAP-25 ise presinaptik hücre membranında bulunan t-SNARE proteinleridir; bu SNARE kompleksi vezikülün presinaptik membranla kaynaşıp nörotransmitterin ekzositozla salınmasını doğrudan gerçekleştirir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Nörotransmitter, postsinaptik nörondaki reseptörüne bağlanarak etki gösterir.\nII. Sinaptotagmin ve SNARE proteinleri veziküllerin hücre zarıyla füzyonuna neden olur ve nörotransmitterler sinaptik aralığa boşalır.\nIII. Presinaptik akson sonlanmasında depolarizasyon, voltaj bağımlı kalsiyum kanallarının açılmasına ve hücre içi kalsiyum konsantrasyonunun artmasına yol açar.\nIV. Sinaptik aralıktaki nörotransmitter uzaklaştırılır.\nAksiyon potansiyelinin presinaptik uca ulaşması ve sinaptik iletimin başlaması sırasında gelişen olayların doğru sıralaması aşağıdakilerin hangisinde verilmiştir?",
+    "options": {
+      "A": "II – IV – III – I",
+      "B": "III – I – IV – II",
+      "C": "III – II – I – IV",
+      "D": "II – III – I – IV",
+      "E": "I – III – II – IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kimyasal sinaptik iletim kesintisiz ve ardışık bir fizyolojik sırayla gerçekleşir; önce presinaptik uca ulaşan aksiyon potansiyeli Ca²⁺ girişini sağlar (III), ardından Ca²⁺ aracılı vezikül ekzositozu olur (II), salınan nörotransmitter postsinaptik reseptörü uyarır (I) ve son olarak nörotransmitter sinaptik aralıktan temizlenir (IV). Öncüllerin Analizi: İlk basamak III. öncüldür; aksiyon potansiyeli presinaptik akson terminalini depolarize ettiğinde voltaj bağımlı Ca²⁺ kanalları açılır ve hücre içine Ca²⁺ girer. İkinci basamak II. öncüldür; hücre içine giren Ca²⁺ iyonları sinaptotagmine bağlanır ve SNARE proteinleri aracılığıyla veziküllerin presinaptik membranla füzyonunu sağlayarak nörotransmitterin ekzositozla sinaptik aralığa boşalmasına yol açar. Üçüncü basamak I. öncüldür; sinaptik aralığa difüze olan nörotransmitter, postsinaptik membrandaki özgül reseptörüne bağlanarak iyon kanallarını açar veya ikinci haberci sistemini başlatır. Dördüncü ve son basamak IV. öncüldür; sinyalin sonlandırılması için nörotransmitter geri alım (reuptake), enzimatik yıkım veya difüzyon ile sinaptik aralıktan uzaklaştırılır. Çeldiriciler: A ve D şıkları Ca²⁺ girişi olmadan vezikül füzyonunu başa aldığı için, B şıkkı ekzositoz olmadan reseptör bağlanmasını öne aldığı için, E şıkkı ise postsinaptik etkiyi ilk sıraya koyduğu için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Astrositlerle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Nöronlara substrat desteği sağlarlar.",
+      "B": "Kan-beyin bariyerinin oluşumuna katkıda bulunurlar.",
+      "C": "Potasyum iyonuna geçirgenlikleri yüksektir.",
+      "D": "Glutamattan glutamin sentezi yaparlar.",
+      "E": "Anaerobik metabolik yolakları nöronlara göre daha zayıftır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Astrositlerin anaerobik metabolik (glikolitik) yolakları nöronlara göre zayıf değil, aksine çok daha güçlü ve aktiftir; astrositler kandan aldıkları glukozu anaerobik glikoliz ile laktata dönüştürür ve \"astrosit-nöron laktat mekiği\" aracılığıyla bu laktatı oksidatif fosforilasyonda enerji substratı olarak kullanmaları için nöronlara verirler. Çeldiriciler: A şıkkı doğrudur; astrositler glikojen depolar ve nöronlara laktat gibi enerji substratı desteği sağlar. B şıkkı doğrudur; astrositlerin perivasküler son ayakçıkları kapiller endotel hücrelerindeki sıkı bağlantıları indükleyerek kan-beyin bariyerine katkıda bulunur. C şıkkı doğrudur; astrosit membranlarında bol miktarda Kir4.1 potasyum kanalı bulunur, bu sayede ekstraselüler aralıktaki fazla K⁺ iyonlarını içeri alarak \"potasyum tamponlaması\" yaparlar. D şıkkı doğrudur; sinaptik aralıktan geri aldıkları glutamatı, sadece astrositlerde bulunan glutamin sentetaz enzimi ile glutamine dönüştürürler.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gama-aminobütirik asit (GABA), GABA-A reseptörlerine bağlandıktan sonra aşağıdakilerden hangisi gerçekleşir?",
+    "options": {
+      "A": "Gq üzerinden fosfolipaz C aktivitesi artar.",
+      "B": "Klorun hücre içine girişi artar.",
+      "C": "Gs üzerinden adenilat siklaz aktivitesi artar.",
+      "D": "Sodyum ve kalsiyumun hücre içine girişi artar.",
+      "E": "Guanilat siklaz üzerinden cGMP üretimi artar."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Beyindeki ana inhibitör nörotransmitter olan GABA'nın iki temel reseptörü vardır; bunlardan GABA-A reseptörü pentamerik yapıda, ligand kapılı bir klor (Cl⁻) iyon kanalıdır (iyonotropik reseptördür). GABA, GABA-A reseptörüne bağlandığında kanal açılır ve ekstraselüler aralıkta yoğun olan negatif yüklü Cl⁻ iyonlarının hücre içine girişi artar; bu durum postsinaptik membranı hiperpolarize ederek inhibitör postsinaptik potansiyel (IPSP) oluşturur ve nöronun uyarılabilirliğini azaltır. Çeldiriciler: A şıkkındaki Gq/fosfolipaz C aktivasyonu ve C şıkkındaki Gs/adenilat siklaz aktivasyonu metabotropik reseptör yolaklarıdır; üstelik metabotropik olan GABA-B reseptörü de Gs veya Gq ile değil, Gi proteini ile kenetlidir (cAMP'yi azaltır ve K⁺ çıkışını artırır). D şıkkındaki Na⁺ ve Ca²⁺ girişinin artması GABA-A'nın değil, eksitatör NMDA glutamat reseptörünün etkisidir. E şıkkındaki guanilat siklaz/cGMP artışı ise nitrik oksit (NO) ve natriüretik peptitlerin etki mekanizmasıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Periferik nöronlarda nörotransmitterlerin akson terminaline taşınması\nII. Akson terminalinden retrograd vezikül taşınması\nIII. Nöron hücre iskeletinin yapısı\nBir fare deney modelinde, aksonal dineine karşı oluşturulan antikorlar farelere verildiğinde yukarıdakilerden hangilerinin bozulması beklenir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Aksonal taşıma mikrotübül rayları üzerinde ATP harcayan iki farklı motor protein tarafından gerçekleştirilir: kinezin hücre gövdesinden akson terminaline doğru (anterograd, mikrotübülün - ucundan + ucuna) taşımayı yaparken, sitoplazmik (aksonal) dinein akson terminalinden hücre gövdesine doğru (retrograd, + uçtan - uca) taşımayı yapar; bu nedenle dineine karşı antikor verildiğinde yalnızca akson terminalinden somaya doğru gerçekleşen retrograd vezikül taşınması bozulur. Öncüllerin Analizi: I. öncül bozulmaz; nörotransmitter veziküllerinin ve sentez enzimlerinin somadan akson terminaline (anterograd) taşınması dinein ile değil, kinezin motor proteini ile gerçekleşir. II. öncül bozulur; akson terminalinden hücre gövdesine geri dönen kullanılmış membran veziküllerinin, nörotrofik faktörlerin (NGF) ve bazı virüs/toksinlerin (kuduz, tetanoz) retrograd taşınması doğrudan aksonal dinein tarafından yürütülür. III. öncül bozulmaz; nöron hücre iskeletinin yapısını mikrotübüller (tübülin), nörofilamentler ve mikrofilamentler (aktin) oluşturur, dinein yapısal bir iskelet elemanı değil kargo taşıyıcı motor proteindir. Çeldiriciler: A, C, D ve E şıkları anterograd taşımayı (I) ve/veya hücre iskeleti yapısını (III) içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin oreksijenik etkisi yoktur?",
+    "options": {
+      "A": "Kortizol",
+      "B": "Melanin konsantre edici hormon",
+      "C": "Alfa-melanosit stimüle edici hormon",
+      "D": "Nöropeptid Y",
+      "E": "Galanin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hipotalamusun arkuat çekirdeğindeki POMC (pro-opiomelanokortin) nöronları leptin ve insülin tarafından uyarıldığında POMC öncül proteininden alfa-melanosit stimüle edici hormon (alfa-MSH) sentezlenir; alfa-MSH paraventriküler çekirdekteki MC3R ve MC4R (melanokortin) reseptörlerine bağlanarak tokluk hissi oluşturur, besin alımını baskılar ve enerji harcamasını artırır. Dolayısıyla alfa-MSH'nin oreksijenik (iştah artırıcı) etkisi yoktur, güçlü bir anoreksijenik (iştah kesici) peptittir. Çeldiriciler: A şıkkındaki kortizol (glukokortikoidler), B şıkkındaki lateral hipotalamustan salgılanan melanin konsantre edici hormon (MCH), D şıkkındaki arkuat çekirdekten salgılanan nöropeptid Y (NPY) ve E şıkkındaki özellikle yağlı besin alımını uyaran galanin, besin alımını ve iştahı artıran oreksijenik etkili maddelerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Santral sinir sisteminde en yaygın olarak bulunan eksitatör nörotransmitter aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Serotonin",
+      "B": "Adrenalin",
+      "C": "Glisin",
+      "D": "Glutamat",
+      "E": "Asetil kolin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Glutamat, beyin ve omurilikteki (santral sinir sistemindeki) eksitatör sinapsların yaklaşık %80–90'ında kullanılan ve en yaygın olarak bulunan temel eksitatör nörotransmitterdir; iyonotropik (AMPA, NMDA, kainat) ve metabotropik (mGluR) reseptörleri üzerinden hızlı ve yavaş sinaptik uyarılmayı sağlar. Çeldiriciler: A şıkkındaki serotonin ve B şıkkındaki adrenalin (ve noradrenalin), beyin sapındaki sınırlı sayıdaki çekirdekten (rafe çekirdekleri ve lokus seruleus) salgılanan biyojenik amin yapılı nöromodülatörlerdir. C şıkkındaki glisin eksitatör değil, özellikle medulla spinalis ve beyin sapında görev yapan temel inhibitör nörotransmitterdir. E şıkkındaki asetilkolin periferik sinir sisteminde (nöromüsküler kavşak ve otonom gangliyonlarda) ana transmitter iken, santral sinir sisteminde daha sınırlı projeksiyonlarda (bazal ön beyin, striatum, beyin sapı) görev alır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Anjiyotensin II aşağıdaki beyin bölgelerinin hangisinde yer alan reseptörlerine bağlanarak susamayı tetikler?",
+    "options": {
+      "A": "Hipotalamik arkuat çekirdek",
+      "B": "Lokus seruleus",
+      "C": "Hipotalamik paraventriküler çekirdek",
+      "D": "Rafe çekirdekleri",
+      "E": "Subfornikal organ"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Peptit yapılı bir hormon olan anjiyotensin II kan-beyin bariyerini geçemez; ancak üçüncü ventrikül çevresinde yer alan ve pencereli (fenestralı) kapillerlere sahip olduğu için kan-beyin bariyeri bulunmayan sirkumventriküler organlara doğrudan ulaşabilir. Anjiyotensin II, bu sirkumventriküler organlardan özellikle subfornikal organ (SFO) ve OVLT (organum vasculosum laminae terminalis) üzerindeki AT1 reseptörlerine bağlanarak hipotalamusun susama merkezini uyarır ve su içme davranışını (dipsogenik etki) ile ADH salınımını tetikler. Çeldiriciler: A şıkkındaki arkuat çekirdek besin alımı ve ön hipofiz hormonlarının kontrolünde, B şıkkındaki lokus seruleus noradrenerjik dikkat ve uyanıklıkta, C şıkkındaki paraventriküler çekirdek ADH ve oksitosin sentezinde (SFO'dan uyarı alır), D şıkkındaki rafe çekirdekleri ise serotonerjik uyku ve ağrı modülasyonunda görev alır ve kan-beyin bariyerinin arkasında yer alırlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "\"Kan-sinir bariyeri\" olarak bilinen yapıda periferik sinire ait bileşenlerin hangisi yer alır?",
+    "options": {
+      "A": "Endonöriyum",
+      "B": "Perinöriyum",
+      "C": "Epinöriyum",
+      "D": "Schmidt-Lanterman yarıkları",
+      "E": "Ranvier düğümü"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Periferik sinirlerde sinir lifi demetlerini (fasiküllerini) dıştan kuşatan perinöriyum tabakası, birbirlerine sıkı bağlantılarla (tight junctions / zonula occludens) bağlanmış yassı epiteloid (miyofibroblast benzeri) hücre katmanlarından oluşur. Perinöriyumun bu sıkı bağlantılı hücreleri, endonöriyum içindeki sıkı bağlantılı kapiller endoteli ile birlikte \"kan-sinir bariyerini\" oluşturarak sinir fasikülü içindeki aksonları kandaki toksik maddelerden ve iyon dalgalanmalarından izole eder. Çeldiriciler: A şıkkındaki endonöriyum, her bir tekil sinir lifini (Schwann hücresi dışını) saran gevşek retiküler bağ dokusudur. C şıkkındaki epinöriyum, tüm periferik siniri en dıştan saran ve büyük kan damarlarını taşıyan sıkı düzensiz bağ dokusu kılıfı olup bariyer özelliği göstermez. D şıkkındaki Schmidt-Lanterman yarıkları miyelin içindeki Schwann sitoplazması kanallarıdır. E şıkkındaki Ranvier düğümü ise iki miyelin segmenti arasındaki çıplak akson bölgesidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi besin alımını azaltıp enerji tüketimini artıran bir faktördür?",
+    "options": {
+      "A": "Aguti ilişkili protein (AGRP)",
+      "B": "Nöropeptit Y (NPY)",
+      "C": "Ghrelin",
+      "D": "Melanin yoğunlaştırıcı hormon (MCH)",
+      "E": "Kokain ve amfetamin düzenleyici transkript (CART)"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Hipotalamusun arkuat çekirdeğinde leptin ve insülin tarafından aktive edilen nöron grubu POMC (pro-opiomelanokortin) ve CART (kokain ve amfetamin düzenleyici transkript) peptitlerini birlikte sentezler; CART ve alfa-MSH anoreksijenik (iştah azaltıcı) etki göstererek besin alımını baskılar ve sempatik sinir sistemi aktivitesini artırarak bazal metabolizma hızını ve enerji tüketimini artırır. Çeldiriciler: A şıkkındaki AgRP (MC4 reseptörlerinin doğal antagonisti), B şıkkındaki NPY, C şıkkındaki açlıkta mide fundusundan salgılanan ghrelin ve D şıkkındaki lateral hipotalamustan salgılanan MCH (melanin yoğunlaştırıcı hormon), tam tersine besin alımını güçlü şekilde artıran (oreksijenik) ve enerji tüketimini azaltan faktörlerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisi santral sinir sisteminde bulunmaz?",
+    "options": {
+      "A": "Mikroglia",
+      "B": "Protoplazmik astrosit",
+      "C": "Fibröz astrosit",
+      "D": "Oligodendrosit",
+      "E": "Schwann hücresi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Schwann hücresi nöral krista kökenli olup yalnızca periferik sinir sisteminde (kraniyal ve spinal sinirlerde) bulunur; her bir Schwann hücresi tek bir aksonun tek bir internodal segmentini sararak periferik miyelin kılıfını oluşturur ve akson rejenerasyonunda görev alır. Çeldiriciler: A şıkkındaki mikroglia (santral sinir sisteminin fagositik hücresi), B şıkkındaki protoplazmik astrosit (özellikle beyin ve omuriliğin gri cevherinde bulunan astrosit tipi), C şıkkındaki fibröz astrosit (özellikle beyaz cevherde bulunan ve GFAP'tan zengin astrosit tipi) ve D şıkkındaki oligodendrosit (santral sinir sisteminde birden fazla aksonu miyelinleyen hücre) santral sinir sisteminin yerleşik glia hücreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki nörotransmitterlerden hangisi postsinaptik membrandaki klor (Cl) iyon kanalları üzerinden etki gösterir?",
+    "options": {
+      "A": "Asetilkolin",
+      "B": "Glisin",
+      "C": "Glutamat",
+      "D": "Norepinefrin",
+      "E": "Seratonin"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Özellikle medulla spinalis ve beyin sapında ana inhibitör nörotransmitter olan glisin (Renshaw hücrelerinden motor nöronlara yapılan rekürren inhibisyonda olduğu gibi), postsinaptik membrandaki iyonotropik glisin reseptörüne bağlanır; glisin reseptörü GABA-A reseptörü gibi ligand kapılı bir klor (Cl⁻) kanalıdır ve açıldığında hücre içine Cl⁻ girişine neden olarak hiperpolarizasyon (IPSP) oluşturur (striknin bu reseptörün antagonistidir). Çeldiriciler: A şıkkındaki asetilkolin, nikotinik reseptörlerde Na⁺/K⁺ katyon kanalı üzerinden, muskarinik reseptörlerde ise G proteini üzerinden etki gösterir. C şıkkındaki glutamat, iyonotropik reseptörlerinde Na⁺ ve Ca²⁺ katyon kanallarını açarak depolarizasyon yapar. D şıkkındaki norepinefrin tamamen metabotropik (G proteini kenetli) adrenerjik reseptörler üzerinden etki eder. E şıkkındaki serotonin (5-HT), 5-HT3 alt tipi (Na⁺/K⁺ katyon kanalı) hariç tamamen G proteini kenetli reseptörler üzerinden etki gösterir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hipotalamusta vücut sıcaklığı regülasyonundan sorumlu olan bölge aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Perifornikal nükleus",
+      "B": "Preoptik alan",
+      "C": "Supraoptik nükleus",
+      "D": "Dorsomedial nükleus",
+      "E": "Mamiller cisimcik"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Hipotalamusun en ön kısmında yer alan preoptik alan (anterior hipotalamus ile birlikte), sıcağa ve soğuğa duyarlı santral termoreseptör nöronları içerir ve vücut sıcaklığının ayar noktasını (set-point) belirleyen \"termostat\" merkezi olarak görev yapar. Özellikle anterior/preoptik alan vücut sıcaklığı yükseldiğinde terleme ve kutanöz vazodilatasyon ile ısı kaybını sağlar (posterior hipotalamus ise soğukta titreme ve vazokonstriksiyon ile ısı üretimini/korunmasını yönetir). Çeldiriciler: A şıkkındaki perifornikal nükleus açlık ve öfke/hiddet reaksiyonları ile, C şıkkındaki supraoptik nükleus antidiüretik hormon (ADH/vazopressin) sentezi ve su dengesi ile, D şıkkındaki dorsomedial nükleus gastrointestinal sistem uyarılması ve davranışsal entegrasyon ile, E şıkkındaki mamiller cisimcik ise Papez halkası içinde epizodik bellek süreçleri ile ilişkilidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Serebellumda yer alan Purkinje hücresi hangi tip bir nörondur?",
+    "options": {
+      "A": "Apolar",
+      "B": "Bipolar",
+      "C": "Unipolar",
+      "D": "Multipolar",
+      "E": "Psödounipolar"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Nöronlar hücre gövdesinden çıkan uzantı (akson ve dendrit) sayılarına göre sınıflandırıldığında, tek bir aksona ve hücre gövdesinden çıkan çok sayıda dendrite (Purkinje hücresinde olduğu gibi son derece dallanmış devasa bir dendrit ağacına) sahip olan nöronlar multipolar nöron olarak adlandırılır; serebellumdaki Purkinje hücreleri, serebral korteksteki piramidal nöronlar ve omurilik ön boynuz motor nöronları tipik multipolar nöronlardır. Çeldiriciler: A şıkkındaki apolar nöronlar uzantısı olmayan erken embriyonik nöroblastlardır. B şıkkındaki bipolar nöronlar bir akson ve bir dendrite sahip olup yalnızca özel duyu organlarında (retina, olfaktör mukoza, vestibüler ve koklear gangliyonlarda) bulunur. C şıkkındaki gerçek unipolar nöronlar omurgasızlarda görülür. E şıkkındaki psödounipolar nöronlar ise hücre gövdesinden tek bir uzantı çıkıp T şeklinde periferik ve santral dallara ayrılan nöronlar olup spinal arka kök gangliyonlarında ve kraniyal duyu gangliyonlarında yer alır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Beyin gelişimi sırasında ponsun geliştiği sekonder vezikül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Telensefalon",
+      "B": "Diensefalon",
+      "C": "Metensefalon",
+      "D": "Mezensefalon",
+      "E": "Miyelensefalon"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Embriyonel gelişimin 5. haftasında arka beyin vezikülü olan rombensefalon, kraniyalde metensefalon ve kaudalde miyelensefalon olmak üzere iki sekonder veziküle ayrılır; metensefalonun ventral kısmından pons, dorsal kısmından (rombik dudaklardan) ise serebellum gelişir. Çeldiriciler: A şıkkındaki telensefalon ön beyinden (prosensefalondan) gelişir ve serebral hemisferleri oluşturur. B şıkkındaki diensefalon prosensefalondan gelişir ve talamus ile hipotalamusu oluşturur. D şıkkındaki mezensefalon orta beyin vezikülüdür ve erişkindeki mezensefalonu (tektum ve serebral pedünkülleri) oluşturur. E şıkkındaki miyelensefalon ise rombensefalonun kaudal sekonder vezikülü olup medulla oblongatayı (bulbusu) oluşturur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sempatik stimülasyonun hangi etkilerine hem alfa hem beta reseptörler aracılık eder?",
+    "options": {
+      "A": "Yağ dokusu – Lipoliz",
+      "B": "Kalp – Pozitif kronotropik etki",
+      "C": "Böbrek – Renin sekresyonunda artış",
+      "D": "Bronşiyal kas – Gevşeme",
+      "E": "Deri – Vazokonstriksiyon"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Yağ dokusundaki adipositlerin membranında hem Beta (Beta-1, Beta-2 ve özellikle Beta-3) adrenerjik reseptörler hem de Alfa-2 adrenerjik reseptörler birlikte bulunur ve lipoliz sürecini karşılıklı olarak düzenlerler: Beta reseptörleri Gs proteini üzerinden adenilat siklazı ve cAMP'yi artırıp hormon duyarlı lipazı aktive ederek lipolizi uyarırken, Alfa-2 reseptörleri Gi proteini üzerinden cAMP'yi azaltarak lipolizi inhibe eder. Çeldiriciler: B şıkkındaki kalpte pozitif kronotropik etkiye (kalp hızı artışına) yalnızca Beta-1 (ve kısmen Beta-2) reseptörler aracılık eder. C şıkkındaki böbrek jukstaglomerüler hücrelerinden renin sekresyonunda artışa yalnızca Beta-1 reseptörler aracılık eder. D şıkkındaki bronşiyal düz kaslarda gevşemeye (bronkodilatasyona) yalnızca Beta-2 reseptörler aracılık eder. E şıkkındaki deri damarlarında vazokonstriksiyona ise yalnızca Alfa-1 (ve kısmen Alfa-2) reseptörler aracılık eder.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki duyu modalitelerinden hangisinin dorsal kolon-medial lemniskal yol ile beyne iletimi en fazladır?",
+    "options": {
+      "A": "Künt ağrı",
+      "B": "Sıcaklık",
+      "C": "Vibrasyon",
+      "D": "Gıdıklanma",
+      "E": "Kaşınma"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dorsal kolon-medial lemniskal sistem (fasciculus gracilis ve fasciculus cuneatus), kalın miyelinli A alfa ve A beta liflerinden oluşur ve yüksek uzaysal-zamansal çözünürlük gerektiren vibrasyon (titreşim) duyusu, bilinçli propriyosepsiyon (eklem-kas pozisyon duyusu), iki nokta ayrımı ve ince/hassas (epikritik) dokunma duyularını beyne taşır. Çeldiriciler: A şıkkındaki künt ağrı, B şıkkındaki sıcaklık (ısı), D şıkkındaki gıdıklanma ve E şıkkındaki kaşınma duyularının tamamı ince miyelinli A delta ve miyelinsiz C lifleriyle alınan ve omurilikte çapraz yaparak karşı tarafta anterolateral sistem (spinotalamik yol) ile taşınan duyu modaliteleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki durumlardan hangisinde sinir aksiyon potansiyeli, kas aksiyon potansiyeline dönüşemez?",
+    "options": {
+      "A": "Ortamda kürar bulunması",
+      "B": "SNARE kompleksinin varlığı",
+      "C": "Ortamda kalsiyum iyonunun varlığı",
+      "D": "Ortamda sodyum iyonunun varlığı",
+      "E": "Ortamda asetilkolin esteraz enzimi aktivitesinin baskılanması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kürar (tubokürarin), iskelet kasının motor son plağında bulunan nikotinik asetilkolin reseptörlerinin yarışmalı (kompetitif) ve non-depolarizan antagonistidir; ortamda kürar bulunduğunda motor nörondan salınan asetilkolin nikotinik reseptörlere bağlanamaz, son plak potansiyeli eşik değere ulaşamaz ve sinir aksiyon potansiyeli kas aksiyon potansiyeline dönüşemeyerek gevşek (flask) felç oluşur. Çeldiriciler: B şıkkındaki SNARE kompleksinin varlığı ve C şıkkındaki ortamda kalsiyum iyonunun varlığı, asetilkolin veziküllerinin presinaptik uçtan ekzositozla salınması için zorunlu olan normal fizyolojik şartlardır. D şıkkındaki ortamda sodyum iyonunun varlığı, nikotinik kanaldan ve voltaj kapılı Na⁺ kanallarından içeri girerek kas membranını depolarize etmek için gereklidir. E şıkkındaki asetilkolinesteraz enziminin baskılanması (örneğin neostigmin ile) sinaptik aralıktaki asetilkolini artırarak kas aksiyon potansiyeli oluşumunu engellemez, aksine kolaylaştırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki somatik duyulardan hangisi anterolateral sistemle kortekse taşınır?",
+    "options": {
+      "A": "Yüksek derecede kesinlikle lokalizasyona sahip dokunma duyusu",
+      "B": "Şiddetinin çok hassas derecelerde belirlendiği basınç duyusu",
+      "C": "Titreşim duyusu",
+      "D": "Eklemlerden gelen pozisyon duyuları",
+      "E": "Ağrı duyusu"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Anterolateral sistem (anterior ve lateral spinotalamik yollar), omurilik arka boynuzunda sinaps yapıp ön beyaz komissürde karşı tarafa geçerek talamusa yükselen yoldur ve temel olarak ağrı duyusu, ısı (sıcaklık) duyusu, kaba dokunma/basınç, kaşınma ve gıdıklanma duyularını taşır. Çeldiriciler: A şıkkındaki yüksek derecede kesin lokalizasyona sahip ince (epikritik) dokunma duyusu, B şıkkındaki şiddet derecelerinin hassas olarak ayırt edildiği basınç duyusu, C şıkkındaki titreşim (vibrasyon) duyusu ve D şıkkındaki eklemlerden gelen bilinçli pozisyon (propriyosepsiyon) duyularının tamamı anterolateral sistemle değil, dorsal kolon-medial lemniskal sistem ile taşınır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisi hipofiz bezinin arka lobunda (nörohipofiz) bulunur?",
+    "options": {
+      "A": "Pinealosit",
+      "B": "Pitüisit",
+      "C": "Kromofob hücre",
+      "D": "Oksifil hücre",
+      "E": "Folliküler hücre"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Hipofiz bezinin arka lobu (nörohipofiz / pars nervosa) salgı yapan epitel hücreleri içermez; hipotalamusun supraoptik ve paraventriküler çekirdeklerinden inen miyelinsiz akson sonlanmalarından (Herring cisimcikleri) ve bu aksonları destekleyen, astrosit benzeri özelleşmiş nöroglia hücreleri olan pitüisitlerden oluşur. Çeldiriciler: A şıkkındaki pinealositler hipofizde değil, epifiz bezinde (pineal bezde) bulunur ve melatonin salgılar. C şıkkındaki kromofob hücreler, ön hipofizde (adenohipofiz / pars distalis) bulunan ve boya almayan granülsüz/az granüllü endokrin hücrelerdir. D şıkkındaki oksifil hücreler, paratiroid bezinde esas hücrelerle birlikte bulunan bol mitokondrili asidofilik hücrelerdir. E şıkkındaki folliküler hücreler ise tiroid bezinde (veya ön hipofizdeki follikülostellat hücreler olarak) yer alır, nörohipofizde bulunmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Olfaktör epitelde bulunan nöronlar hangi tiptir?",
+    "options": {
+      "A": "Psödounipolar",
+      "B": "İnternöron",
+      "C": "Motor",
+      "D": "Multipolar",
+      "E": "Bipolar"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Burun boşluğunun üst kısmındaki olfaktör (koku) mukozasında yer alan olfaktör reseptör nöronları, morfolojik olarak bipolar nöron tipindedir; hücre gövdesinin apikal kutbundan mukus içine uzanan ve koku reseptörlerini taşıyan silyalı tek bir dendrit çıkarken, bazal kutbundan etmoid kemiğin kribriform plağını delip olfaktör bulbusa giden miyelinsiz tek bir akson çıkar (ayrıca bazal kök hücrelerden yaşam boyu yenilenebilen nadir nöronlardır). Çeldiriciler: A şıkkındaki psödounipolar nöronlar genel somatik duyuları taşıyan spinal arka kök ve trigeminal gangliyon nöronlarıdır. B şıkkındaki internöronlar merkezi sinir sistemi içindeki ara nöronlardır (örneğin olfaktör bulbustaki periglomerüler ve granül hücreler). C şıkkındaki motor nöronlar kas ve bezleri uyaran multipolar efferent nöronlardır. D şıkkındaki multipolar nöronlar ise çok sayıda dendriti olan nöronlardır (olfaktör bulbustaki mitral ve püsküllü hücreler multipolardır, ancak olfaktör epiteldeki reseptör nöronlar bipolardır).",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Myastenia gravis hastalığı ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Sinir-kas kavşağında presinaptik voltaj kapılı kalsiyum kanallarına karşı antikor olması",
+      "B": "Sinir-kas kavşağında presinaptik nörotransmiter salgılanmasını engelleyen nörotoksin olması",
+      "C": "Çizgili kasta distrofin proteininin bulunmaması",
+      "D": "Bazal gangliyonlarda dopaminerjik nöron ve reseptörlerinin kaybı",
+      "E": "Sinir-kas kavşağında postsinaptik asetilkolin reseptörlerine karşı antikor olması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Miyastenia gravis, nöromüsküler kavşakta çizgili kasın motor son plağında (postsinaptik membranda) yer alan nikotinik asetilkolin reseptörlerine (veya MuSK proteinine) karşı otoantikorların geliştiği otoimmün bir hastalıktır; tekrarlayan hareketlerle artan ve dinlenmekle düzelen kas güçsüzlüğü (özellikle pitozis ve diplopi) ile karakterizedir. Çeldiriciler: A şıkkındaki presinaptik voltaj kapılı kalsiyum kanallarına karşı otoantikor gelişmesi Miyastenia gravis değil, Lambert-Eaton miyastenik sendromudur (hareket ettikçe Ca²⁺ birikimiyle kas gücü artar). B şıkkındaki presinaptik nörotransmitter (ACh) salınımını SNARE proteinlerini parçalayarak engelleyen nörotoksin tablosu botulizmdir. C şıkkındaki çizgili kasta distrofin proteininin genetik yokluğu Duchenne müsküler distrofisidir. D şıkkındaki bazal gangliyonlarda (substantia nigra pars compacta'da) dopaminerjik nöron kaybı ise Parkinson hastalığıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisinin hipofizden salgılandığı bölgenin embriyonik kökeni diğerlerinden farklıdır?",
+    "options": {
+      "A": "Somatotropin (büyüme hormonu)",
+      "B": "Prolaktin",
+      "C": "Tirotropin (tiroid stimüle edici hormon)",
+      "D": "Oksitosin",
+      "E": "Folikül stimüle edici hormon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Oksitosin (ve antidiüretik hormon/ADH), hipotalamusun paraventriküler ve supraoptik çekirdeklerinde sentezlenip aksonlarla hipofizin arka lobuna (nörohipofize) taşınarak buradan kana salgılanır; nörohipofiz embriyolojik olarak diensefalon tabanından, yani nöroektodermden gelişir. Çeldiriciler: A şıkkındaki somatotropin (GH), B şıkkındaki prolaktin (PRL), C şıkkındaki tirotropin (TSH) ve E şıkkındaki folikül stimüle edici hormon (FSH), hipofizin ön lobundan (adenohipofizden) sentezlenip salgılanan hormonlardır; adenohipofiz ise nöroektodermden değil, ilkel ağız tavanındaki oral (yüzey) ektodermin oluşturduğu Rathke kesesinden gelişir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, ağrı lifleri üzerine presinaptik veya lateral inhibisyonlar yapan santral analjezik sistem aktivasyonu ile ilişkili değildir?",
+    "options": {
+      "A": "Periventriküler nukleus ve periakuaduktal gri cevherdeki enkefalinerjik nöronlar",
+      "B": "Ponsta rafe magnus çekirdeğindeki serotonerjik nöronlar",
+      "C": "Spinal kord arka boynuzundaki enkefalinerjik nöronlar",
+      "D": "Spinal kord arka boynuzundaki presinaptik ve postsinaptik inhibisyonlar yapan GABAerjik nöronlar",
+      "E": "Spinal kord arka boynuzundaki kalsitonin gen ilişkili peptit salgılayan nöronlar"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kalsitonin gen ilişkili peptit (CGRP), ağrıyı baskılayan santral analjezik sistemin bir elemanı değildir; aksine periferden ağrı duyusunu taşıyan primer afferent nosiseptörlerden (C ve A delta liflerinden) P maddesi ve glutamat ile birlikte salgılanan, ağrı iletimini kolaylaştıran (pro-nosiseptif) ve nörojenik inflamasyonda güçlü vazodilatasyon yapan eksitatör bir nöropeptittir. Çeldiriciler: Santral (inen) analjezik sistem üç ana basamakta ağrıyı baskılar: A şıkkındaki mezensefalondaki periakuaduktal gri cevher (PAG) ve periventriküler çekirdekteki enkefalinerjik nöronlar sistemi başlatır; bu nöronlar B şıkkındaki pons/bulbus sınırında yer alan nucleus raphe magnus'taki serotonerjik nöronları (ve lokus seruleustaki noradrenerjik nöronları) uyarır; buradan omurilik arka boynuzuna inen lifler ise C şıkkındaki lokal enkefalinerjik ara nöronları ve D şıkkındaki GABAerjik/glisinerjik inhibitör ara nöronları aktive ederek ağrı liflerinde presinaptik Ca²⁺ girişini (P maddesi salınımını) engeller ve postsinaptik nöronu hiperpolarize eder.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki reseptörlerden hangisinin uyarılması pozitif kronotropik etkiye neden olur?",
+    "options": {
+      "A": "Alfa 1",
+      "B": "Beta 1",
+      "C": "Beta 2",
+      "D": "Muskarinik",
+      "E": "Nikotinik"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Pozitif kronotropik etki, kalp atım hızının artması demektir; sempatik sinir uçlarından salınan noradrenalin ve adrenal medulladan salınan adrenalin, sinoatriyal (SA) düğüm hücrelerindeki Beta-1 adrenerjik reseptörleri uyarır. Gs proteini üzerinden artan cAMP, komik (\"funny\", If) Na⁺ kanallarının ve T/L-tipi Ca²⁺ kanallarının açılmasını hızlandırarak diyastolik depolarizasyon (prepotansiyel) eğimini dikleştirir ve kalp hızını artırır. Çeldiriciler: A şıkkındaki Alfa-1 reseptörler kalpte hız artışından ziyade damar düz kaslarında vazokonstriksiyondan sorumludur. C şıkkındaki Beta-2 reseptörler esas olarak bronş ve iskelet kası damarlarında gevşeme yapar (kalpte birincil pacemaker reseptörü Beta-1'dir). D şıkkındaki muskarinik (M2) reseptörlerin parasempatik uyarılması K⁺ kanallarını (IKACh) açıp cAMP'yi düşürerek negatif kronotropik etki (bradikardi) yapar. E şıkkındaki nikotinik reseptörler ise kalp kasında değil otonom gangliyonlarda ve çizgili kasta bulunur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Konuşulanı ve yazılı bir ifadeyi anlayamayan bir kişide aşağıdaki beyin merkezlerinden hangisi zarar görmüştür?",
+    "options": {
+      "A": "Limbik asosiyasyon alanı",
+      "B": "Wernicke alanı",
+      "C": "Broca alanı",
+      "D": "Angular gyrus",
+      "E": "Prefrontal asosiyasyon alanı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Dominant (genellikle sol) hemisferde superior temporal girusun arka kısmında (Brodmann 22. alan) yer alan Wernicke alanı, işitsel ve görsel dil bilgilerinin anlamlandırıldığı duyusal konuşma merkezidir. Wernicke alanının hasarında (Wernicke afazisi / reseptif afazi) kişi hem konuşulan sözlü dili hem de yazılı ifadeleri anlayamaz; konuşması akıcıdır ancak anlamsız kelimelerle (neolojizm, kelime salatası) doludur. Çeldiriciler: A şıkkındaki limbik asosiyasyon alanı duygusal davranışlar, motivasyon ve bellek süreçleriyle ilgilidir. C şıkkındaki Broca alanı (inferior frontal girus, Brodmann 44–45) konuşmanın motor üretim merkezidir; hasarında kişi söyleneni ve yazılanı anlar ancak kelimeleri çıkaramaz (motor/ekspresif afazi). D şıkkındaki angular girus görsel-işitsel entegrasyon merkezi olup izole hasarında konuşulanı anlamadan ziyade okuma-yazma bozukluğu (aleksi/agrafi) ön plandadır. E şıkkındaki prefrontal asosiyasyon alanı ise karar verme, planlama ve kişilik özelliklerini yönetir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hipotalamusun görevlerinden değildir?",
+    "options": {
+      "A": "Bazal metabolizma hızını ayarlamak",
+      "B": "Termoregülasyon",
+      "C": "İştahı düzenlemek",
+      "D": "Biyolojik saati ayarlamak",
+      "E": "Solunum merkezini uyarmak"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Solunumun temel ritminin oluşturulması ve solunum kaslarının periyodik olarak uyarılması hipotalamusun değil, beyin sapında yer alan medulla oblongata (bulbus: dorsal ve ventral solunum grupları, pre-Bötzinger kompleksi) ve ponsun (pnömotaksik ve apnöstik merkezler) görevidir. Çeldiriciler: A şıkkındaki bazal metabolizma hızını ayarlamak, hipotalamusun TRH salgılayarak hipofiz-tiroid aksını ve otonom sistemi yönetmesiyle gerçekleşir. B şıkkındaki termoregülasyon, preoptik/anterior (ısı kaybı) ve posterior (ısı üretimi) hipotalamik çekirdekler tarafından yürütülür. C şıkkındaki iştahı düzenlemek, arkuat, lateral (açlık) ve ventromedial (tokluk) hipotalamik çekirdeklerin görevidir. D şıkkındaki biyolojik saati (sirkadiyen ritmi) ayarlamak ise hipotalamusun suprakiyazmatik çekirdeğinin (SCN) görevidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Trafik kazası sonrası bacak kesisine bağlı kanaması olan bir hasta hızla acil servise getiriliyor. Bu hastada acile getirilinceye kadar geçen sürede aşağıdaki fizyolojik yanıtlardan hangisinin görülmesi en az olasıdır?",
+    "options": {
+      "A": "Renal kan akımında azalma",
+      "B": "Arteriyollerde vazokonstriksiyon",
+      "C": "Baroreseptörlerin devreye girmesi sonucu kardiyak kontraktilitede artma",
+      "D": "Venöz dilatasyon",
+      "E": "Plazmada anjiyotensin II miktarında artma"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Akut kanamaya bağlı hipovolemi ve arteriyel kan basıncı düşüşünde baroreseptör refleks aracılığıyla güçlü bir sempatik deşarj başlar; sempatik aktivasyon venlerin duvarındaki düz kaslarda bulunan Alfa-1 adrenerjik reseptörleri uyararak venöz dilatasyon değil, aksine güçlü bir venokonstriksiyon oluşturur. Venokonstriksiyon sayesinde venöz kapasitans (depo) yatağındaki kan dolaşıma katılır, kalbe venöz dönüş ve kalp debisi korunmaya çalışılır. Çeldiriciler: A şıkkı görülür; kanı beyin ve kalp gibi hayati organlara yönlendirmek için böbrek damarlarında sempatik ve anjiyotensin II aracılı vazokonstriksiyon gelişir ve renal kan akımı azalır. B şıkkı görülür; total periferik direnci ve kan basıncını artırmak için sistemik arteriyollerde Alfa-1 aracılı vazokonstriksiyon olur. C şıkkı görülür; baroreseptör refleksle artan sempatik uyarı kalpte Beta-1 reseptörler üzerinden kalp hızını ve miyokard kontraktilitesini artırır. E şıkkı görülür; renal perfüzyon düşüşü ve sempatik Beta-1 uyarısı renin-anjiyotensin-aldosteron sistemini (RAAS) aktive ederek plazma anjiyotensin II düzeyini artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Beyin tümörü çıkarıldıktan sonra hastanın vücut sıcaklığının otokontrolünü kaybettiği görülüyor. Bu patofizyolojide en temel rol oynayan bölge hangisidir?",
+    "options": {
+      "A": "Preoptik alan",
+      "B": "Paraventriküler çekirdek",
+      "C": "Supraoptik çekirdek",
+      "D": "Ventromedial çekirdek",
+      "E": "Arkuat çekirdek"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hipotalamusun anterior kısmında yer alan preoptik alan, sıcaklığa duyarlı nöronları barındıran ve vücut sıcaklığının termoregülasyonunu (otokontrolünü) sağlayan ana termostat merkezidir; kraniyofarinjiyom veya hipofiz/hipotalamus komşuluğundaki beyin tümörlerinin cerrahisi sırasında preoptik alanın hasarlanması santral termoregülasyon kaybına ve nörojenik hipertermiye yol açar. Çeldiriciler: B şıkkındaki paraventriküler çekirdek oksitosin, ADH ve CRH/TRH sentezi ile otonomik entegrasyonda görev alır. C şıkkındaki supraoptik çekirdek ADH (vazopressin) sentezler ve hasarında diabetes insipidus gelişir. D şıkkındaki ventromedial çekirdek tokluk merkezi olup hasarında hiperfaji ve hipotalamik obezite gelişir. E şıkkındaki arkuat çekirdek ise NPY/AgRP ve POMC/CART nöronlarıyla iştah kontrolünde ve dopamin (PIF)/GHRH ile ön hipofiz kontrolünde rol alır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Sodyum\nII. Potasyum\nIII. Klor\nIV. Kalsiyum\nPostsinaptik hücre zarında yer alan yukarıdaki iyon kanallarından hangilerinin açılması hücrenin uyarılabilirliğini azaltır?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "III ve IV",
+      "D": "I ve IV",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Postsinaptik bir nöronun uyarılabilirliğinin azalması, membran potansiyelinin eşik değerden uzaklaşarak daha negatif hale gelmesi (hiperpolarizasyon / inhibitör postsinaptik potansiyel - IPSP) ile gerçekleşir; bu durum hücre dışına pozitif yüklü potasyum (K⁺) çıkışı veya hücre içine negatif yüklü klor (Cl⁻) girişi ile sağlanır. Öncüllerin Analizi: I. öncül uyarılabilirliği artırır; sodyum (Na⁺) kanallarının açılması hücre içine pozitif yük girişine ve depolarizasyona (EPSP) yol açarak nöronu eşik değere yaklaştırır. II. öncül uyarılabilirliği azaltır; potasyum (K⁺) kanallarının açılması hücre içindeki K⁺ iyonlarının dışarı çıkmasına neden olarak membranı hiperpolarize eder (IPSP). III. öncül uyarılabilirliği azaltır; klor (Cl⁻) kanallarının açılması ekstraselüler aralıktaki negatif Cl⁻ iyonlarının hücre içine girmesine neden olarak membranı hiperpolarize eder (IPSP). IV. öncül uyarılabilirliği artırır; kalsiyum (Ca²⁺) kanallarının açılması hücre içine pozitif divalan katyon girişine ve depolarizasyona (EPSP) neden olur. Çeldiriciler: A, C, D ve E şıkları depolarizan (uyarılabilirliği artıran) Na⁺ ve/veya Ca²⁺ kanallarını içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki reseptörlerden hangisinin sinyali, bağlantıyı sağlayan sinir lifinin ileti özelliğine bağlı olarak diğerlerine göre en yavaş hızda iletilir?",
+    "options": {
+      "A": "Kas iğciği reseptörü",
+      "B": "Golgi tendon organı reseptörü",
+      "C": "Kıl dibi reseptörü",
+      "D": "Sıcaklık reseptörü",
+      "E": "Meissner cisimciği"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Bir sinir lifinde iletim hızı, lifin çapı ve miyelin kalınlığı ile doğru orantılıdır. Sıcaklık reseptörlerinden (özellikle sıcak reseptörlerinden) çıkan sinyaller miyelinsiz ve en ince çaplı olan C tipi (Grup IV) sinir lifleriyle (soğuk duyusu ise ince miyelinli A delta ve C lifleriyle) taşındığı için iletim hızı (0.5–2 m/sn) seçeneklerdeki mekanoreseptörlere göre en yavaştır. Çeldiriciler: A şıkkındaki kas iğciği reseptörü (Grup Ia ve II; A alfa ve A beta lifleri) ve B şıkkındaki Golgi tendon organı reseptörü (Grup Ib; A alfa lifleri) vücuttaki en kalın miyelinli liflerle taşınır ve iletim hızları en yüksektir (70–120 m/sn). C şıkkındaki kıl dibi (folikülü) reseptörü ve E şıkkındaki Meissner cisimciği ise dokunma ve titreşim algılayan kutanöz mekanoreseptörler olup orta-kalın miyelinli A beta (Grup II) lifleriyle hızlı (30–70 m/sn) iletilirler.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Normal bir bireyde omurilik sıvısı (BOS) yapımının büyük bölümü aşağıdakilerden hangisinde gerçekleşir?",
+    "options": {
+      "A": "Koroid pleksuslar",
+      "B": "Ventriküllerin ependimal yüzeyleri",
+      "C": "Akuaduktus Sylvius",
+      "D": "Sisterna magna",
+      "E": "Araknoid villi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Serebrospinal sıvı (BOS) üretiminin büyük bölümü (yaklaşık %70–80'i), lateral ventriküller, 3. ventrikül ve 4. ventrikül içinde yer alan koroid pleksuslarda (özelleşmiş ependim hücreleri ve pencereli kapiller yumaklarından oluşan yapılarda) aktif sekresyon ve ultrafiltrasyon yoluyla gerçekleşir. Çeldiriciler: B şıkkındaki ventriküllerin koroid pleksus dışındaki ependimal yüzeyleri ve beyin interstisyel sıvısı, BOS üretimine yalnızca küçük bir oranda (%20–30) katkı sağlar, büyük bölümü burada üretilmez. C şıkkındaki Akuaduktus Sylvius (serebral akuadukt), BOS üretim yeri değil, 3. ventrikül ile 4. ventrikül arasında BOS geçişini sağlayan dar kanaldır. D şıkkındaki sisterna magna, 4. ventrikülden çıkan BOS'un subaraknoid aralıkta toplandığı geniş sarnıçtır. E şıkkındaki araknoid villiler (granülasyonlar) ise BOS'un üretildiği yer değil, dural venöz sinüslere (özellikle superior sagittal sinüse) geri emildiği (absorbe edildiği) yapılardır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Medulla spinalis beyaz cevheri nöral tüpün hangi tabakasından köken alır?",
+    "options": {
+      "A": "Ependimal tabaka",
+      "B": "Manto tabakası",
+      "C": "Marjinal tabaka",
+      "D": "Alar plak",
+      "E": "Bazal plak"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Gelişmekte olan nöral tüpün duvarı içten dışa doğru üç konsantrik tabakaya ayrılır: en içte ventriküler (ependimal) tabaka, ortada nöroblast gövdelerini içeren manto tabakası ve en dışta manto tabakasındaki nöronlardan çıkan akson uzantılarını içeren marjinal tabaka. Marjinal tabakadaki bu aksonların oligodendrositler tarafından miyelinlenmesiyle beyaz görünüm kazanılır ve medulla spinalisin dış kısmındaki beyaz cevher (substantia alba) marjinal tabakadan gelişir. Çeldiriciler: A şıkkındaki ependimal (nöroepitelyal) tabaka, bölünerek nöron ve glia öncüllerini ürettikten sonra canalis centralis'i döşeyen ependim hücrelerine dönüşür. B şıkkındaki manto tabakası, nöron gövdelerini barındırdığı için medulla spinalisin iç kısmındaki kelebek şeklindeki gri cevheri (substantia grisea) oluşturur. D şıkkındaki alar plak (arka/duyusal boynuz taslağı) ve E şıkkındaki bazal plak (ön/motor boynuz taslağı) ise manto tabakasının (gri cevherin) fonksiyonel bölümleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Merkezi sinir sisteminde ekstraselüler ortamdaki glutamatı alarak olası eksitotoksisiteyi engelleyen glial hücre hangisidir?",
+    "options": {
+      "A": "Mikroglia",
+      "B": "Oligodendrosit",
+      "C": "Ependim hücreleri",
+      "D": "Astrosit",
+      "E": "Schwann hücreleri"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sinaptik aralıkta glutamatın aşırı birikmesi postsinaptik NMDA reseptörlerinin aşırı uyarılmasına ve nöron içine kontrolsüz Ca²⁺ girişine bağlı nöron ölümüne (eksitotoksisiteye) yol açar. Sinapsları saran astrosit uzantıları, membranlarındaki EAAT (eksitatör amino asit taşıyıcı) proteinleri ile ekstraselüler ortamdaki fazla glutamatı hızla hücre içine alır ve glutamin sentetaz enzimiyle toksik olmayan glutamine dönüştürerek eksitotoksisiteyi engeller. Çeldiriciler: A şıkkındaki mikroglialar fagositoz ve immün yanıttan, B şıkkındaki oligodendrositler merkezi sinir sistemi miyelinizasyonundan, C şıkkındaki ependim hücreleri ise ventrikül yüzeyini döşemekten ve BOS dolaşımından sorumludur. E şıkkındaki Schwann hücreleri merkezi sinir sisteminde bulunmaz, periferik sinir sisteminde miyelin yapar.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Sempatik pregangliyonik lifler gangliyonik sinapslarında asetilkolin salgılar.\nII. Sempatik postgangliyonik lifler nöroefektör kavşaklardaki sinapsların büyük çoğunluğunda noradrenalin salgılar.\nIII. Adrenal medullanın aktive olmasında noradrenalin ve adrenerjik reseptörler rol oynar.\nSempatik sinir sistemi ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I ve II",
+      "B": "II ve III",
+      "C": "I, II ve III",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Sempatik sinir sisteminde pregangliyonik nöronlar kolinerjik (asetilkolin salgılayan), postgangliyonik nöronlar ise (ekrin ter bezleri hariç) adrenerjik (noradrenalin salgılayan) karakterdedir; adrenal medulla ise doğrudan pregangliyonik kolinerjik liflerle uyarılır. Öncüllerin Analizi: I. öncül doğrudur; tüm otonomik (hem sempatik hem parasempatik) pregangliyonik sinir lifleri otonom gangliyonlardaki sinapslarına asetilkolin salgılar ve postgangliyonik nöron üzerindeki nikotinik (Nn) reseptörleri uyarır. II. öncül doğrudur; sempatik postgangliyonik lifler hedef organlarla (kalp, damarlar, bronşlar vb.) yaptıkları nöroefektör kavşakların büyük çoğunluğunda noradrenalin salgılar (istisna olarak ekrin ter bezlerinde asetilkolin salgılarlar). III. öncül yanlıştır; adrenal medulladaki kromafin hücreler embriyolojik olarak modifiye sempatik postgangliyonik nöronlardır ve kendilerine doğrudan ulaşan sempatik pregangliyonik liflerden salınan asetilkolinin nikotinik (Nn) reseptörleri uyarmasıyla aktive olurlar (noradrenalin ve adrenerjik reseptörlerle değil). Çeldiriciler: B ve C şıkları yanlış olan III. öncülü içerdiği için, D ve E şıkları ise doğru olan iki öncülden birini eksik bıraktığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde gangliyon hücreleri bipolar özelliktedir?",
+    "options": {
+      "A": "Arka kök gangliyonu",
+      "B": "Sempatik gangliyon",
+      "C": "Parasempatik gangliyon",
+      "D": "Vestibulokohlear gangliyon",
+      "E": "Meissner pleksusu"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İç kulakta işitme ve denge duyusunu taşıyan 8. kraniyal sinire (n. vestibulocochlearis) ait vestibüler gangliyon (Scarpa gangliyonu) ve kohlear gangliyon (Corti'nin spiral gangliyonu) içindeki birinci sıra duyu nöronları embriyonik bipolar nöron özelliğini yaşam boyu korur; bu hücrelerin bir kutbundan tüy hücrelerine giden periferik uzantı (dendrit), diğer kutbundan beyin sapına giden santral uzantı (akson) çıkar. Çeldiriciler: A şıkkındaki arka kök (spinal) gangliyonunda yer alan somatik duyu nöronları bipolar değil, psödounipolar özelliktedir. B şıkkındaki sempatik gangliyon, C şıkkındaki parasempatik gangliyon ve E şıkkındaki enterik sinir sistemine ait submukoza yerleşimli Meissner pleksusunda bulunan otonomik gangliyon nöronlarının tamamı ise multipolar nöron özelliğindedir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Duyu gangliyonu ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Nöronları multipolardır.",
+      "B": "Kemik iliği kökenli satellit hücresi içerir.",
+      "C": "Bağ dokusundan kapsülle çevrilidir.",
+      "D": "Piamater ile çevrilidir.",
+      "E": "Gangliyon içerisindeki nöronlar Schwann hücreleriyle çevrilidir."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Periferik sinir sisteminde yer alan duyu gangliyonları (spinal arka kök gangliyonları ve kraniyal sinir duyu gangliyonları), en dıştan periferik sinirin epinöriyum ve perinöriyum tabakalarıyla devamlılık gösteren sıkı bir bağ dokusu kapsülü ile çevrilidir. Çeldiriciler: A şıkkı yanlıştır; genel somatik duyu gangliyonlarının nöronları multipolar değil, psödounipolar (vestibulokohlear gangliyonda ise bipolar) tiptedir; multipolar nöronlar otonom gangliyonlarda bulunur. B şıkkı yanlıştır; gangliyondaki satellit hücreleri kemik iliği (mezoderm) kökenli değil, nöral krista kökenlidir (kemik iliği kökenli olan mikroglialardır). D şıkkı yanlıştır; pia mater merkezi sinir sistemini sarar, periferik gangliyonlar bağ dokusu kapsülü ile sarılıdır. E şıkkı yanlıştır; gangliyon içerisindeki nöron gövdelerini (somaları) Schwann hücreleri değil, satellit (uydu) hücreleri çevreler (Schwann hücreleri yalnızca akson uzantılarını sarar).",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki kemiklerden hangisi nöral krista kökenlidir?",
+    "options": {
+      "A": "Sternum",
+      "B": "Kosta",
+      "C": "Oksipital kemik",
+      "D": "Paryetal kemik",
+      "E": "Maksilla"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kraniyal nöral krista hücreleri baş ve yüz bölgesine göç ederek ektomezenşimi oluşturur ve yüz iskeletini (visserokranyumu) oluşturan kemiklerin tamamı (maksilla, mandibula, zigomatik, nazal, lakrimal, palatin kemikler ve frontal ile sfenoid kemiklerin bir kısmı) nöral kristadan gelişir; dolayısıyla maksilla nöral krista kökenlidir. Çeldiriciler: A şıkkındaki sternum, lateral plak mezoderminin somatik (parietal) yaprağından gelişir. B şıkkındaki kostalar (kaburgalar), paraksiyal mezodermden gelişen somitlerin sklerotom bölümünden köken alır. C şıkkındaki oksipital kemik ve D şıkkındaki paryetal kemik ise kafatası kubbesi ve tabanının arka kısmını (nörokranyumu) oluşturan kemikler olup nöral kristadan değil, paraksiyal mezodermden (oksipital sklerotomlar ve somitomerlerden) gelişir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Voltaj kapılı sodyum kanalı\nII. Mekanik kapılı potasyum kanalı\nIII. Ligand kapılı kalsiyum kanalı\nLokal anestezikler, yukarıdaki iyon kanallarından hangilerini bloke ederek etki gösterir?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "I ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Lidokain, bupivakain ve artikain gibi lokal anestezikler, sinir akson membranından non-iyonize (lipofilik) formda hücre içine geçtikten sonra iyonize (katyonik) forma dönüşerek voltaj kapılı sodyum (Na⁺) kanallarına sitoplazmik (iç) yüzlerinden bağlanır ve bu kanalları inaktif durumda bloke eder; böylece Na⁺ girişini ve aksiyon potansiyelinin oluşup yayılmasını engeller. Öncüllerin Analizi: I. öncül doğrudur; lokal anesteziklerin birincil ve spesifik hedefi akson membranındaki voltaj kapılı sodyum kanallarıdır. II. öncül yanlıştır; mekanik kapılı potasyum kanalları lokal anesteziklerin etki mekanizmasında yer almaz. III. öncül yanlıştır; ligand kapılı kalsiyum kanalları lokal anestezikler tarafından bloke edilen hedef kanallar değildir. Çeldiriciler: B, C, D ve E şıkları lokal anesteziklerin hedefi olmayan mekanik kapılı potasyum ve/veya ligand kapılı kalsiyum kanallarını içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hipotalamusta sirkadiyen ritim düzenleyici çekirdek aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Paraventriküler çekirdek",
+      "B": "Supraoptik çekirdek",
+      "C": "Arkuat çekirdek",
+      "D": "Suprakiyazmatik çekirdek",
+      "E": "Dorsomedial çekirdek"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Hipotalamusun suprakiyazmatik çekirdeği (SCN), retinadan gelen retinotalamik liflerle aydınlık-karanlık döngüsü bilgisini alan, kendi içsel saat genlerine (CLOCK, BMAL1, PER, CRY) sahip olan ve epifiz bezinden melatonin salınımını, uyku-uyanıklık döngüsünü ve hormonal ritimleri yöneten ana sirkadiyen ritim (biyolojik saat) düzenleyici çekirdektir. Çeldiriciler: A şıkkındaki paraventriküler çekirdek oksitosin, ADH ve stres yanıtını yöneten CRH sentezinden; B şıkkındaki supraoptik çekirdek plazma ozmolaritesine yanıt olarak ADH (vazopressin) sentezinden; C şıkkındaki arkuat çekirdek iştah ve ön hipofiz hormonlarının düzenlenmesinden; E şıkkındaki dorsomedial çekirdek ise gastrointestinal uyarılma ve davranışsal yanıtlardan sorumludur.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Görme alanının solunu ve vücudunun sol tarafını ihmal eden (neglect) bir hastada, aşağıdaki beyin yapılarından hangisinin hasarı en olasıdır?",
+    "options": {
+      "A": "Sağ inferior frontal lob",
+      "B": "Sol oksipital lob",
+      "C": "Sol anterior temporal lob",
+      "D": "Sağ parietal lob",
+      "E": "Sağ oksipital lob"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Hemispasyal ihmal (neglect) sendromu, kişinin duyu organları ve primer duyu yolları sağlam olmasına rağmen uzayın ve kendi vücudunun bir yarısından gelen uyaranların farkında olmaması ve o tarafı yok saymasıdır. Uzaysal dikkatin yönlendirilmesinde sağ (non-dominant) posterior parietal korteks hem sağ hem sol yarı alanı kontrol ederken, sol parietal korteks yalnızca sağ alanı kontrol eder; bu nedenle sağ parietal lob hasarında sol tarafı kompanse edecek merkez kalmaz ve hasta görme alanının solunu ve vücudunun sol yarısını ihmal eder (örneğin yüzünün sadece sağ yarısını tıraş eder, tabağın solundaki yemeği yemez). Çeldiriciler: A şıkkındaki inferior frontal lob ve C şıkkındaki anterior temporal lob lezyonları uzaysal ihmal sendromunun klasik merkezi değildir. B şıkkındaki sol oksipital lob hasarı sağ homonim hemianopsi, E şıkkındaki sağ oksipital lob hasarı ise sol homonim hemianopsi (görme alanı kaybı) yapar ancak hasta sol vücut yarısını yok saymaz (ihmal etmez) ve başını çevirerek görme alanı kaybını telafi etmeye çalışır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi nöron somasında oluşan dereceli potansiyelin elektrotonik iletimle daha uzak mesafelere yayılmasına neden olur?",
+    "options": {
+      "A": "Hücre membranının elektriksel direncinde azalma",
+      "B": "Akson çapının azalması",
+      "C": "Aksoplazma direncinde azalma",
+      "D": "Membran direnci/sitoplazma direnci oranının düşük olması",
+      "E": "Hücre membranının iyon geçirgenliğinin artması"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Nöron somasında veya dendritlerde oluşan dereceli (lokal) potansiyellerin akson tepeciğine doğru pasif (elektrotonik) yayılım mesafesi, kablo teorisindeki uzunluk sabiti ($\\lambda = \\sqrt{R_m / R_i}$) ile belirlenir; burada $R_m$ membran direncini (zardan dışarı yük kaçışına karşı direnci), $R_i$ ise iç sitoplazma/aksoplazma direncini ifade eder. Aksoplazma (iç) direncinin ($R_i$) azalması, elektrik akımının hücre içinde boyuna (longitudinal) yönde çok daha rahat akmasını sağlayarak uzunluk sabitini ($\\lambda$) büyütür ve dereceli potansiyelin sönümlenmeden daha uzak mesafelere yayılmasına neden olur. Çeldiriciler: A şıkkındaki hücre membranının elektriksel direncinde ($R_m$) azalma ve E şıkkındaki membran iyon geçirgenliğinin artması aynı anlama gelir; zardan dışarıya iyon kaçışını artırarak sinyalin hızla sönümlenmesine yol açar. B şıkkındaki çapın azalması iç direnci ($R_i$) artırarak yayılım mesafesini kısaltır. D şıkkındaki $R_m / R_i$ oranının düşük olması ise uzunluk sabitini küçülterek iletim mesafesini azaltır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin artışı insanda tokluk hissi oluşturur?",
+    "options": {
+      "A": "Ghrelin",
+      "B": "Nöropeptit Y",
+      "C": "Oreksin A",
+      "D": "Kortizol",
+      "E": "Kolesistokinin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kolesistokinin (CCK), besin (özellikle yağ ve protein yıkım ürünleri) duodenuma geçtiğinde ince bağırsak mukozasındaki I hücrelerinden salgılanan bir peptit hormondur; safra kesesini kasmasının ve pankreas enzim salgısını uyarmasının yanı sıra mide boşalmasını yavaşlatır ve vagus sinirinin duyusal lifleri aracılığıyla beyin sapındaki nucleus tractus solitarius ve hipotalamusu uyararak güçlü bir tokluk hissi (anoreksijenik etki) oluşturur ve öğünün sonlandırılmasını sağlar. Çeldiriciler: A şıkkındaki ghrelin açlıkta mideden salgılanan \"açlık hormonu\" olup, B şıkkındaki arkuat çekirdek kaynaklı Nöropeptit Y, C şıkkındaki lateral hipotalamus kaynaklı Oreksin A ve D şıkkındaki adrenal korteks kaynaklı kortizol ile birlikte tokluk değil, açlık hissi ve besin alımı artışı (oreksijenik etki) oluşturan faktörlerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki nörotransmitter reseptörlerinden hangisi metabotropik reseptör grubunda yer alır?",
+    "options": {
+      "A": "Sinir-kas kavşağı kolinerjik reseptör",
+      "B": "Glisin reseptörü",
+      "C": "Glutamat AMPA reseptörü",
+      "D": "Glutamat kainik asit reseptörü",
+      "E": "GABAB reseptörü"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Metabotropik reseptörler kendi yapısında iyon kanalı barındırmayan, 7 transmembran geçişli ve G proteinleri ile kenetli olarak ikinci haberci sistemleri üzerinden etki gösteren reseptörlerdir; GABA-B reseptörü Gi proteini ile kenetli metabotropik bir reseptör olup adenilat siklazı inhibe eder, presinaptik Ca²⁺ kanallarını kapatır ve postsinaptik K⁺ kanallarını açarak yavaş ve uzun süreli inhibisyon oluşturur. Çeldiriciler: A şıkkındaki sinir-kas kavşağı kolinerjik reseptörü (Nm tipi nikotinik reseptör; Na⁺/K⁺ kanalı), B şıkkındaki glisin reseptörü (Cl⁻ kanalı), C şıkkındaki glutamat AMPA reseptörü (Na⁺/K⁺ kanalı) ve D şıkkındaki glutamat kainik asit (kainat) reseptörü (Na⁺/K⁺ kanalı) doğrudan ligand kapılı iyon kanalı yapısında olan iyonotropik reseptörlerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sempatik sinir sisteminin aktive olmasıyla efektör organ ve dokularda oluşan etkiler ve reseptör türleri ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Kalp hızında artış, alfa-2 reseptörleri aracılığıyla gerçekleşir.",
+      "B": "Piloerektör kaslarda kasılma, beta-1 reseptörleri aracılığıyla gerçekleşir.",
+      "C": "Avuç içi ve ayak tabanında terleme, beta-1 reseptörleri aracılığıyla gerçekleşir.",
+      "D": "Mesane detrusor kasında gevşeme, beta-2 reseptörü aracılığıyla gerçekleşir.",
+      "E": "Bronşlarda bronkodilatasyon, alfa-2 reseptörü aracılığıyla gerçekleşir."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sempatik sinir sistemi aktivasyonu idrarın mesanede depolanmasını sağlar; bu amaçla mesane duvarındaki detrusor düz kasında bulunan Beta-2 (ve Beta-3) adrenerjik reseptörleri uyararak detrusor kasında gevşeme oluşturur, aynı zamanda trigon ve internal üretral sfinkterdeki Alfa-1 reseptörleri uyararak sfinkteri kasar. Çeldiriciler: A şıkkı yanlıştır; kalp hızında artış (pozitif kronotropi) Alfa-2 değil, Beta-1 adrenerjik reseptörler aracılığıyla gerçekleşir. B şıkkı yanlıştır; derideki piloerektör (arrector pili) düz kaslarda kasılma (tüylerin diken diken olması) Beta-1 değil, Alfa-1 adrenerjik reseptörler aracılığıyla gerçekleşir. C şıkkı yanlıştır; genel ekrin terleme sempatik kolinerjik (M3 muskarinik) liflerle, avuç içi ve ayak tabanındaki emosyonel/adrenerjik terleme ise Alfa-1 reseptörler aracılığıyla gerçekleşir, Beta-1 ile olmaz. E şıkkı yanlıştır; bronş düz kaslarında gevşeme (bronkodilatasyon) Alfa-2 değil, Beta-2 adrenerjik reseptörler aracılığıyla gerçekleşir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Na\nII. Cl\nIII. Ca\nIV. K\nYukarıdaki iyonlardan hangilerinin geçirgenliğinin artması tipik bir nöronda postsinaptik inhibitör potansiyel (IPSP) oluşumuna neden olur?",
+    "options": {
+      "A": "I ve II",
+      "B": "III ve IV",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "II ve III"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tipik bir nöronda inhibitör postsinaptik potansiyel (IPSP), postsinaptik membranın hiperpolarize olması (dinlenim potansiyeli olan -70 mV'den daha negatif değerlere inmesi) veya eşik değerin altında stabilize edilmesiyle oluşur; bu durum membran geçirgenliği arttığında elektrokimyasal gradyanı doğrultusunda hücre içine negatif iyon (Cl⁻) girmesi veya hücre dışına pozitif iyon (K⁺) çıkmasıyla meydana gelir. Öncüllerin Analizi: I. öncül yanlıştır; sodyum (Na⁺) geçirgenliğinin artması hücre içine pozitif yük girişine ve depolarizasyona (EPSP) neden olur. II. öncül doğrudur; klor (Cl⁻) geçirgenliğinin artması (örneğin GABA-A veya glisin reseptörü açılmasıyla) hücre içine negatif yüklü Cl⁻ girişine ve IPSP oluşumuna yol açar. III. öncül yanlıştır; kalsiyum (Ca²⁺) geçirgenliğinin artması hücre içine pozitif yük girişine ve depolarizasyona (EPSP) neden olur. IV. öncül doğrudur; potasyum (K⁺) geçirgenliğinin artması (örneğin GABA-B veya M2 reseptörü açılmasıyla) hücre içindeki pozitif yüklü K⁺ iyonlarının dışarı çıkmasına ve membran potansiyelinin -90 mV'ye yaklaşarak IPSP oluşmasına neden olur. Çeldiriciler: A, B, C ve E şıkları depolarizan (EPSP oluşturan) Na⁺ ve/veya Ca²⁺ iyonlarını içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi ghrelin hormonuna ait bir özellik değildir?",
+    "options": {
+      "A": "Plazma ghrelin düzeyi açlık sırasında artarken tokluk durumunda azalır.",
+      "B": "Esas olarak midedeki endokrin hücrelerden salgılanır.",
+      "C": "Hipotalamik arkuat nükleusta bulunan oreksijenik etkili nöropeptit Y nöronlarını uyarır.",
+      "D": "Büyüme hormonu salgısını artırır.",
+      "E": "Fizyolojik etkilerinde enzim bağlantılı membran reseptörleri rol alır."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Ghrelin hormonunun spesifik reseptörü olan büyüme hormonu salgılatıcı reseptör (GHS-R1a), enzim bağlantılı (tirozin kinaz vb.) bir membran reseptörü değildir; 7 transmembran sarmallı, Gq/11 proteini ile kenetli bir reseptördür (GPCR) ve fosfolipaz C / IP3 / Ca²⁺ yolağı üzerinden etki gösterir (enzim bağlantılı JAK-STAT reseptörü kullanan hormon leptindir). Çeldiriciler: A şıkkı doğrudur; ghrelin \"açlık hormonu\" olup öğünlerden hemen önce (açlıkta) plazma düzeyi pik yapar, besin alımından sonra (toklukta) hızla düşer. B şıkkı doğrudur; esas olarak mide fundusu ve korpusundaki oksintik bezlerde yer alan endokrin X/A-benzeri (P/D1) hücrelerden salgılanır. C şıkkı doğrudur; hipotalamusun arkuat çekirdeğindeki NPY/AgRP nöronlarını uyararak güçlü bir oreksijenik (iştah artırıcı) etki gösterir. D şıkkı doğrudur; ön hipofizdeki somatotrop hücreler üzerinde bulunan GHS-R1a reseptörlerini doğrudan uyararak (ve GHRH ile sinerjistik çalışarak) büyüme hormonu (GH) salgısını güçlü şekilde artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sempatik sinir sistemi aktivasyonu olan bir kişiyle ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Gastrointestinal sistemde sfinkterler alfa2 reseptörler aracılığı ile kasılır.",
+      "B": "Kalbin ventriküllerinin kasılması beta1 reseptörleri aracılığı ile azalır.",
+      "C": "Mesanenin sfinkterleri alfa1 reseptörleri aracılığı ile kasılır.",
+      "D": "Ter bezleri beta2 reseptörleri aracılığı ile daha fazla salgı yapar.",
+      "E": "Yağ dokusunda alfa1 reseptörleri aracılığı ile artmış lipoliz gerçekleşir."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Sempatik sinir sistemi aktivasyonu sırasında miksiyon (işeme) baskılanır ve idrar mesanede tutulur; bu süreçte mesane boynundaki trigon ve internal üretral sfinkter düz kaslarında bulunan Alfa-1 adrenerjik reseptörler Gq proteini üzerinden uyarılarak sfinkterin kasılmasını sağlar (detrusor kası ise Beta-2 ve Beta-3 reseptörleriyle gevşetilir). Çeldiriciler: A şıkkı yanlıştır; gastrointestinal sistemdeki sfinkterlerin sempatik uyarıyla kasılması Alfa-2 değil, Alfa-1 adrenerjik reseptörler aracılığıyla gerçekleşir. B şıkkı yanlıştır; kalbin ventrikül miyokardının kasılma gücü (inotropi) Beta-1 reseptörlerinin uyarılmasıyla azalmaz, aksine hücre içi cAMP ve Ca²⁺ artışıyla güçlü şekilde artar (pozitif inotropi). D şıkkı yanlıştır; ekrin ter bezleri sempatik kolinerjik liflerden salınan asetilkolinin M3 muskarinik reseptörleri (adrenerjik terlemede ise Alfa-1 reseptörleri) uyarmasıyla salgı yapar, Beta-2 ile değil. E şıkkı yanlıştır; yağ dokusunda sempatik aktivasyonla artmış lipoliz Alfa-1 değil, Beta-3 (ve Beta-1/Beta-2) adrenerjik reseptörler aracılığıyla gerçekleşir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerin hangisinde sempatik ve parasempatik sinir sistemi birbirine zıt etki göstermez?",
+    "options": {
+      "A": "Gözde pupilla açıklığı",
+      "B": "Atriyal sinüs düğümü",
+      "C": "Gastrointestinal kanal motilitesi",
+      "D": "Tükürük salgısı",
+      "E": "Detrusor kasının kasılması"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Tükürük bezlerinde hem sempatik hem de parasempatik sinir sistemi uyarısı tükürük salgısını artırıcı (stimülatör) yönde etki gösterir, yani birbirine zıt (antagonist) çalışmazlar; yalnızca salgının niteliği farklıdır: parasempatik uyarı (M3 reseptörleriyle) bol miktarda, sulu (seröz) ve elektrolitten zengin tükürük salgılanmasını sağlarken, sempatik uyarı (Beta ve Alfa-1 reseptörleriyle) daha az hacimli ancak müsin ve enzimden (amilazdan) zengin, koyu kıvamlı (visköz/müköz) tükürük salgılanmasını uyarır. Çeldiriciler: A şıkkındaki pupilla açıklığında sempatik sistem (radyal kasta Alfa-1 ile) midriyazis yaparken, parasempatik sistem (sfinkter kasta M3 ile) miyozis yapar (zıt etki). B şıkkındaki sinoatriyal düğümde sempatik sistem kalp hızını artırırken (Beta-1), parasempatik sistem azaltır (M2) (zıt etki). C şıkkındaki gastrointestinal kanal motilitesini sempatik sistem azaltırken, parasempatik sistem artırır (zıt etki). E şıkkındaki mesane detrusor kasını sempatik sistem gevşetirken (Beta-2/Beta-3), parasempatik sistem kasar (M3) (zıt etki).",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Künt ağrı duyusu aşağıdaki sinir lifi tiplerinden hangisiyle merkezi sinir sistemine taşınmaktadır?",
+    "options": {
+      "A": "A-delta tipi",
+      "B": "A-beta tipi",
+      "C": "A-gama tipi",
+      "D": "B tipi",
+      "E": "C tipi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Geç başlayan, yanıcı, sızlayıcı, sınırları tam lokalize edilemeyen ve uzun süren \"künt ağrı\" (ikinci ağrı / yavaş ağrı) duyusu, polimodal nosiseptörlerden başlayarak en ince çaplı (0.4–1.2 µm) ve miyelinsiz olan C tipi (Grup IV) sinir lifleriyle düşük hızda (0.5–2 m/sn) medulla spinalis arka boynuzuna taşınır. Çeldiriciler: A şıkkındaki ince miyelinli A-delta (Grup III) lifleri künt ağrıyı değil, uyarandan hemen sonra başlayan, batıcı ve iyi lokalize edilen \"keskin/hızlı ağrı\" (ilk ağrı) ve soğuk duyusunu taşır. B şıkkındaki kalın miyelinli A-beta (Grup II) lifleri dokunma, basınç ve titreşim duyularını taşır. C şıkkındaki A-gama lifleri duyusal değil, kas iğciğinin intrafuzal liflerini uyaran motor efferent liflerdir. D şıkkındaki B tipi lifler ise ince miyelinli otonomik pregangliyonik efferent liflerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki iyon kanallarından hangisinin açılması uyarılmış bir sinir hücresinde, zirve uyarı potansiyelinden dinlenim zar potansiyeline tekrar dönüş yani repolarizasyon hızını belirler?",
+    "options": {
+      "A": "Voltaj kapılı potasyum kanalı",
+      "B": "Voltaj kapılı sodyum kanalı",
+      "C": "Voltaj kapılı kalsiyum kanalı",
+      "D": "Voltaj kapılı klor kanalı",
+      "E": "Hiperpolarizasyonla aktive olan katyon kanalı"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Uyarılmış bir sinir hücresinde aksiyon potansiyeli zirve (+35 mV) değerine ulaştığında voltaj kapılı Na⁺ kanalları inaktive olurken, depolarizasyonla gecikmeli olarak tetiklenen voltaj kapılı potasyum (K⁺) kanalları açılır. Voltaj kapılı K⁺ kanallarının açılmasıyla hücre içindeki K⁺ iyonları hızla hücre dışına çıkar ve pozitif yük kaybı membran potansiyelini tekrar negatif dinlenim değerine (-70 mV) indirir; dolayısıyla repolarizasyon sürecini ve hızını esas olarak voltaj kapılı potasyum kanallarının açılması belirler (tetraetilamonyum bu kanalları bloke ederek repolarizasyonu yavaşlatır). Çeldiriciler: B şıkkındaki voltaj kapılı sodyum kanallarının açılması repolarizasyonu değil, aksiyon potansiyelinin yükselen kolu olan depolarizasyon hızını belirler. C şıkkındaki voltaj kapılı kalsiyum kanallarının açılması hücre içine Ca²⁺ girişine (kalp kasında plato fazına, akson ucunda vezikül ekzositozuna) yol açar. D şıkkındaki klor kanalları aksiyon potansiyeli repolarizasyonunun ana belirleyicisi değildir. E şıkkındaki hiperpolarizasyonla aktive olan katyon (HCN / \"funny\") kanalları ise repolarizasyonu değil, ritmik ateşleyen hücrelerde hiperpolarizasyon sonrasında spontan depolarizasyonu (pacemaker potansiyelini) başlatır.",
+    "lesson": "Fizyoloji",
+    "unit": "Sinir Sistemi Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

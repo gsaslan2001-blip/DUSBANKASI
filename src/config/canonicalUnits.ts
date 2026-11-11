@@ -182,6 +182,7 @@ export const CANONICAL_UNITS: Record<string, string[]> = {
   Fizyoloji: [
 
     'Hücre Fizyolojisi',
+    'Temel Dokular',
 
     'Kan Fizyolojisi',
 
@@ -202,42 +203,22 @@ export const CANONICAL_UNITS: Record<string, string[]> = {
     'Kas Fizyolojisi',
 
     'Duyu Organları',
-
-  ],
-
-  Histoloji: [
-
-    'Hücre',
-
-    'Epitel Doku',
-
-    'Yağ ve Kıkırdak',
-
-    'Kas',
-
-    'Kan',
-
-    'Sinir',
-
-    'Dolaşım Sistemi',
-
-    'İmmün Sistem ve Hematopoetik Organlar',
-
-    'Solunum Sistemi',
-
-    'Sindirim Sistemi',
-
-    'Endokrin Sistem',
-
-    'Genital Sistem',
-
-    'Deri ve Ekleri',
-
-    'Göz ve Kulak',
-
-    'Merkezi Sinir Sistemi (MSS)',
-
-    'Genel Embriyoloji',
+    'Histoloji - Hücre',
+    'Histoloji - Epitel Doku',
+    'Histoloji - Yağ ve Kıkırdak',
+    'Histoloji - Kas',
+    'Histoloji - Kan',
+    'Histoloji - Sinir',
+    'Histoloji - Dolaşım Sistemi',
+    'Histoloji - İmmün Sistem ve Hematopoetik Organlar',
+    'Histoloji - Solunum Sistemi',
+    'Histoloji - Sindirim Sistemi',
+    'Histoloji - Endokrin Sistem',
+    'Histoloji - Genital Sistem',
+    'Histoloji - Deri ve Ekleri',
+    'Histoloji - Göz ve Kulak',
+    'Histoloji - Merkezi Sinir Sistemi (MSS)',
+    'Histoloji - Genel Embriyoloji',
 
   ],
 

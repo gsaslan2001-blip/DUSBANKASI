@@ -20,6 +20,7 @@ export type QuizHeaderProps = {
   questionLesson?: string;
   questionUnit?: string;
   onFinishEarly: (answers: AnswerDetail[]) => void;
+  finishEarlyLabel?: string;
   onExportPDF?: (qs: Question[], label: string) => void;
   onEditQuestion: (q: Question) => void;
   onReportQuestion: (q: Question) => void;
@@ -35,6 +36,7 @@ export const QuizHeader = memo(function QuizHeader({
   timedSeconds, remainingSeconds, difficulty, question, questions, answers,
   questionLesson, questionUnit,
   onFinishEarly, onExportPDF, onEditQuestion, onReportQuestion, onDeleteQuestion,
+  finishEarlyLabel = 'BİTİR',
   theme,
 }: QuizHeaderProps) {
   const lessonLabel = mode === 'exam' ? questionLesson : undefined;
@@ -113,7 +115,7 @@ export const QuizHeader = memo(function QuizHeader({
           size="sm"
           className="bg-red-500/10 text-red-400 border border-red-500/15 hover:bg-red-500/20 h-6 px-2 text-[10px]"
         >
-          BİTİR
+          {finishEarlyLabel}
         </Button>
 
         {/* Doğrudan dışarı taşınan SİL butonu */}

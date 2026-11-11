@@ -1,0 +1,498 @@
+[
+  {
+    "question": "Aşağıdakilerden hangisi böbreklerden renin salgılanmasını artıran faktörlerden biri değildir?",
+    "options": {
+      "A": "Hiponatremi",
+      "B": "Hipertansiyon",
+      "C": "Dehidratasyon",
+      "D": "Kalp yetmezliği",
+      "E": "Diüretik kullanılması"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Sistemik arteriyel kan basıncının yükselmesi (**hipertansiyon**), böbrek afferent arteriyol duvarındaki intrarenal baroreseptörlerin (jukstaglomerüler granüler hücrelerin) gerilmesini artırır ve ayrıca glomerüler filtrasyonu artırıp makula densaya ulaşan NaCl yükünü yükselttiği için böbreklerden renin salgılanmasını artırmaz, tam tersine negatif geri bildirimle **renin salgılanmasını baskılar** (\"basınç natriürezi ve diürezi\" mekanizmasına katkıda bulunur). Çeldiriciler: A) Hiponatremi (ve düşük tuz alımı), distal tübül başlangıcındaki makula densa hücrelerine ulaşan NaCl miktarını azaltarak prostaglandin E₂/I₂ aracılığıyla jukstaglomerüler hücrelerden renin salgısını artırır. C) Dehidratasyon, ekstrasellüler sıvı hacmini ve renal perfüzyon basıncını düşürerek hem intrarenal baroreseptörler hem de sempatik aktivasyon üzerinden renin salgısını artırır. D) Kalp yetmezliği, toplam vücut sıvısı artsa bile \"efektif arteriyel kan hacmini\" ve böbrek perfüzyon basıncını düşürdüğü ve sempatik sinir sistemini (beta-1 adrenerjik reseptörleri) uyardığı için renin salgısını artırır. E) Diüretik kullanılması, hacim kaybı (hipovolemi) oluşturarak ve makula densadaki NKCC2 taşıyıcısını bloke edip düşük NaCl sinyali yaratarak renin salgılanmasını güçlü şekilde artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Böbrek proksimal tübül hücrelerine aminoasitlerin alınmasında sekonder aktif taşıma için gerekli iyon gradiyentini aşağıdakilerden hangisi sağlar?",
+    "options": {
+      "A": "Na-K pompa aktivitesi",
+      "B": "Hücre içi aminoasit yoğunluğunun azalması",
+      "C": "Hücre içine glukoz ve fruktoz difüzyonu",
+      "D": "Hücreden bikarbonat atılması",
+      "E": "Hücreden potasyum sızması"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Böbrek proksimal tübül epitel hücrelerinin apikal (fırçamsı kenar) membranından lümendeki amino asitlerin (ve glukoz, fosfat, laktat gibi maddelerin) hücre içine alınması sodyum-bağımlı kotransport (sekonder aktif taşıma) ile gerçekleşir; bu taşıma için zorunlu olan hücre içi düşük sodyum ($Na^+$) konsantrasyonunu ve içeriye doğru yönelik elektrokimyasal $Na^+$ gradiyentini, tübül hücresinin **bazolateral membranında yer alan ve ATP harcayarak 3 $Na^+$ iyonunu hücre dışına (interstisyuma) pompalarken 2 $K^+$ iyonunu hücre içine alan $Na^+/K^+$-ATPaz pompasının (Na-K pompa) aktivitesi** sağlar. Çeldiriciler: B) Hücre içi amino asit yoğunluğu lümene göre daha yüksektir; amino asitler konsantrasyon farkına karşı (yokuş yukarı) sodyum gradiyenti gücüyle taşınır, yalnız başına amino asit azalması sekonder aktif taşımanın iyon gradiyenti kaynağı değildir. C) Glukoz apikalden difüzyonla değil, aynı $Na^+$ gradiyentini kullanan SGLT-2/SGLT-1 ile yarışmalı olarak girer; fruktoz difüzyonu ise iyon gradiyenti oluşturmaz. D) Bazolateralden bikarbonat çıkışı asit-baz dengesiyle ilgilidir, apikal amino asit taşınmasının itici gücü değildir. E) Hücreden potasyum sızması dinlenim membran potansiyeline katkıda bulunsa da primer enerji harcayarak $Na^+$ gradiyentini kuran ve sürdüren motor $Na^+/K^+$-ATPaz pompasıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, böbrekte korteks ile medulla arasındaki sınırda bulunur?",
+    "options": {
+      "A": "Afferent arteriol",
+      "B": "Vasa rekta",
+      "C": "Arkuat arter",
+      "D": "İnterlobüler arter",
+      "E": "İnterlobar arter"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Böbrek parankiminde renal arterin dallanmasıyla oluşan damar ağında, renal piramitlerin (medullanın) yanlarından yukarı çıkan interlobar arterler **korteks ile medulla arasındaki sınıra (kortikomedüller bileşkeye)** ulaştıklarında 90 derecelik açıyla kıvrılarak renal piramitlerin tabanına paralel bir yay çizer; korteks ile medulla arasındaki sınırda uzanan bu yay şeklindeki arterlere **arkuat arter (a. arcuata)** adı verilir. Çeldiriciler: A) Afferent arteriol, interlobüler arterlerden ayrılarak Bowman kapsülüne giren ve tamamen böbrek korteksi içerisinde yer alan mikro-damardır. B) Vasa rekta, jukstamedüller nefronların efferent arteriollerinden kaynaklanıp Henle kulplarına paralel olarak derin renal medulla içerisine doğru inen ve çıkan düz kapiller damarlardır. D) İnterlobüler arter (kortikal radyal arter), arkuat arterlerden dik açıyla ayrılarak korteks içerisine (kapsüle doğru) ilerleyen damarlardır. E) İnterlobar arter, segmental arterlerden ayrılıp renal piramitler arasındaki Bertin kolonları (columna renalis) içinden kortikomedüller sınıra doğru yükselen damarlardır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aldosteron hormonunun böbrekler üzerindeki etki mekanizması aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Proksimal tübüllerde sodyum emilimini artırma",
+      "B": "Erken distal tübüllerin bazolateral membranında Na⁺-Cl⁻ ortak taşınmasını artırma",
+      "C": "Distal tübül ve toplayıcı kanallarda potasyum emilimini artırma",
+      "D": "Toplayıcı kanal esas hücrelerinin apikal membranında sodyum kanal sayısını artırma",
+      "E": "Henle kulbunun inen ve çıkan kolunda Na⁺,K⁺-ATPaz enzimini artırarak sodyum emilimini arttırma"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Adrenal korteksin zona glomerulosa tabakasından salgılanan aldosteron, böbrekte geç distal tübül ve kortikal **toplayıcı kanalın esas (principal) hücrelerindeki** sitoplazmik mineralokortikoid reseptörlerine bağlanarak çekirdekte gen transkripsiyonunu uyarır; sentezlenen SGK1 (serum ve glukokortikoidle düzenlenen kinaz 1) proteini aracılığıyla **esas hücrelerin apikal membranındaki epitelyal sodyum kanallarının (ENaC) yıkımını önleyip membran yüzeyindeki kanal sayısını ve açık kalma süresini artırır**, ayrıca bazolateral $Na^+/K^+$-ATPaz ile apikal ROMK potasyum kanallarını artırarak $Na^+$ geri emilimini ve $K^+$ sekresyonunu sağlar. Çeldiriciler: A) Proksimal tübüller aldosteronun hedef yeri değildir (proksimal tübülde $Na^+$ emilimini artıran ana hormon anjiyotensin II ve sempatik noradrenalindir). B) Erken distal kıvrıntılı tübülde bulunan tiyazid duyarlı $Na^+-Cl^-$ kotransporteri (NCC) bazolateral membranda değil, apikal membranda yer alır. C) Aldosteron distal tübül ve toplayıcı kanallarda potasyum ($K^+$) emilimini artırmaz; tam tersine lümene $K^+$ sekresyonunu (atılımını) artırır. E) Henle kulbunun inen ince kolunda aktif $Na^+$ taşınması ve $Na^+/K^+$-ATPaz aktivitesi yoktur; aldosteronun etki yeri Henle kulbu değil, geç distal nefron ve toplayıcı kanallardır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kompanse olmamış bir metabolik alkaloz olayında, kan değerlerindeki değişiklikler aşağıdakilerin hangisinde doğru olarak verilmiştir?",
+    "options": {
+      "A": "pH, HCO₃⁻ ve PCO₂ artmıştır.",
+      "B": "pH azalmış, HCO₃⁻ yükselmiş, PCO₂ normaldir.",
+      "C": "pH yükselmiş, HCO₃⁻ ve PCO₂ azalmıştır.",
+      "D": "pH ve HCO₃⁻ yükselmiş, PCO₂ normaldir.",
+      "E": "pH, HCO₃⁻ ve PCO₂ azalmıştır."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Metabolik alkaloz (ör. şiddetli kusma ile mide HCl kaybı veya diüretik kullanımı), ekstrasellüler sıvıda birincil olarak bikarbonat (**$HCO_3^-$**) konsantrasyonunun yükselmesi (> 26–28 mEq/L) ve buna bağlı olarak kan **pH** değerinin artması (> 7.45) ile karakterize asit-baz bozukluğudur; tablo **\"kompanse olmamış\"** olarak tanımlandığı için akciğerlerin hipoventilasyon yaparak karbondioksit tutma (solunumsal kompansasyon) yanıtı henüz devreye girmemiştir ve bu nedenle arteriyel **$PCO_2$ değeri normal sınırlar içinde (40 mmHg civarında)** kalmıştır. Çeldiriciler: A) pH ve $HCO_3^-$ ile birlikte $PCO_2$'nin de artmış olması, kompanse olmamış değil, solunumsal olarak \"kısmen kompanse edilmiş\" metabolik alkalozu gösterir. B) Alkalozda kan pH değeri azalmaz, yükselir (pH azalması ve $HCO_3^-$ yükselmesi ancak ağır respiratuvar asidozda $PCO_2$ çok yüksekken görülür). C) pH yükselmiş iken $HCO_3^-$ ve $PCO_2$'nin azalmış olması metabolik alkalozu değil, kısmen kompanse edilmiş respiratuvar alkalozu (hiperventilasyonu) gösterir. E) pH, $HCO_3^-$ ve $PCO_2$'nin üçünün birden azalmış olması, solunumsal kompansasyonun devreye girdiği metabolik asidoz tablosudur.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi, intestinal epitel hücrelerinin Na absorpsiyonundan öncelikle sorumludur?",
+    "options": {
+      "A": "Kortizol",
+      "B": "Vazopressin",
+      "C": "Tiroksin",
+      "D": "Aldosteron",
+      "E": "Parathormon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Adrenal korteksten salgılanan temel mineralokortikoid hormon olan **aldosteron**, böbrek toplayıcı kanallarındaki etkisine birebir benzer şekilde sindirim kanalında (özellikle **kolon/kalın bağırsak epitel hücrelerinde**), ter bezleri ve tükürük bezi kanallarında apikal ENaC sodyum kanallarını ve bazolateral $Na^+/K^+$-ATPaz pompasını uyararak intestinal lümenden sodyum ($Na^+$) ve beraberinde klor ($Cl^-$) ile su absorpsiyonunu (ve lümene $K^+$ ile $HCO_3^-$ sekresyonunu) öncelikle sağlayan hormondur (aldosteron yokluğunda dışkıyla tuz ve su kaybı sonucu diyare ve dehidratasyon gelişir). Çeldiriciler: A) Kortizol, yüksek konsantrasyonlarda zayıf mineralokortikoid etki gösterebilse de fizyolojik koşullarda intestinal $Na^+$ emiliminin birincil düzenleyicisi aldosterondur. B) Vazopressin (ADH), esas olarak böbrek toplayıcı kanallarında V₂ reseptörleri ve akuaporin-2 kanalları üzerinden serbest su geri emilimini sağlar. C) Tiroksin ($T_4$), bazal metabolizma hızını ve genel gastrointestinal motiliteyi düzenler. E) Parathormon, aktif D vitamini (kalsitriol) sentezi üzerinden ince bağırsaktan sodyum değil, kalsiyum ($Ca^{2+}$) ve fosfat emilimini dolaylı olarak artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Normal fizyolojik koşullarda, böbrek medüller interstisyum osmolaritesini artırarak, idrarı konsantre etme yeteneğine en fazla katkıda bulunan molekül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sodyum",
+      "B": "Üre",
+      "C": "Glukoz",
+      "D": "Klor",
+      "E": "Magnezyum"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İdrarın maksimum düzeyde (1200–1400 mOsm/L'ye kadar) konsantre edilebilmesi için gerekli olan hiperozmotik renal medulla interstisyumu iki ana solüt tarafından oluşturulur: Dış medullada Henle kulbunun çıkan kalın kolundaki NKCC2 taşıyıcısıyla taşınan NaCl hakimken, idrarın nihai konsantrasyonunun yapıldığı **iç medulla (papilla) interstisyumundaki yüksek ozmolariteye (%40–50 oranında, yaklaşık 500–600 mOsm/L ile) tek başına en büyük katkıyı sağlayan molekül üredir**; ADH varlığında iç medüller toplayıcı kanaldaki UT-A1/UT-A3 taşıyıcılarından interstisyuma geçen ve Henle'nin ince kolundaki UT-A2 ile yeniden dolaşıma (\"üre geri dönüşümü / urea recycling\") giren üre, iç medullanın hipertonisitesini ve idrar konsantrasyon yeteneğini doğrudan belirler (protein kısıtlı diyette üre oluşumu azaldığı için idrarı konsantre etme yeteneği bozulur). Çeldiriciler: A) Sodyum ve D) Klor, birlikte NaCl tuzunu oluşturarak özellikle dış medullada karşı akım çoğaltıcı sistemin temelini kurar ancak tekil molekül olarak iç medüller interstisyum ozmolaritesine ve maksimum konsantrasyon kapasitesine üre kadar yüksek bireysel katkı sağlamaz. C) Glukoz, fizyolojik koşullarda proksimal tübülün ilk yarısında %100 geri emildiği için medüller interstisyum ozmolaritesine katkıda bulunmaz. E) Magnezyum, ekstrasellüler sıvıda çok düşük konsantrasyonda bulunan iki değerlikli katyondur; medüller hiperozmolaritede belirleyici rolü yoktur.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Glomerüler kılcal damar hidrostatik basıncının artması\nII. Bowman kapsülü hidrostatik basıncının artması\nIII. Glomerüler kılcal damar kolloid ozmotik basıncının artması\nYukarıdaki değişimlerden hangileri glomerüler filtrasyon hızını artırır?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve II",
+      "E": "II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Glomerüler filtrasyon hızı ($GFR = K_f \\times \\text{Net Filtrasyon Basıncı}$), Starling kuvvetleri dengesine göre glomerül kapillerinden Bowman boşluğuna sıvı çıkışını destekleyen ve buna karşı koyan basınçlar tarafından belirlenir; bu kuvvetler içinde **yalnızca glomerüler kılcal damar hidrostatik basıncının ($P_G \\approx 60\\text{ mmHg}$) artması** net filtrasyon basıncını ve GFR'yi artırır. Öncüllerin Analizi: I. Glomerüler kılcal damar hidrostatik basıncının artması (GFR'yi artırır): Kapiller içindeki kanın damar duvarına yaptığı mekanik basınç olup sıvıyı Bowman boşluğuna doğru iten temel kuvvettir; afferent arteriol genişlemesi veya efferent arteriol daralması ile bu basınç arttığında GFR yükselir. II. Bowman kapsülü hidrostatik basıncının artması (GFR'yi azaltır): Bowman boşluğundaki sıvının kapillere doğru geri uyguladığı basınçtır ($\\approx 18\\text{ mmHg}$) ve filtrasyona karşı koyar; üreter taşı veya prostat hiperplazisi gibi idrar yolu tıkanıklıklarında bu basınç artar ve GFR'yi düşürür. III. Glomerüler kılcal damar kolloid ozmotik basıncının artması (GFR'yi azaltır): Kapiller içindeki plazma proteinlerinin (albüminin) suyu damar içinde tutan çekim kuvvetidir ($\\approx 32\\text{ mmHg}$) ve filtrasyona karşı koyar; plazma protein derişimi arttığında GFR azalır. Çeldiriciler: B, C, D ve E şıkları filtrasyona karşı koyarak GFR'yi azaltan Bowman kapsülü hidrostatik basıncı (II) ve/veya glomerüler kapiller kolloid ozmotik basıncı (III) artışını içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, böbrekten renin salgılanması üzerinde diğerlerinden farklı yönde etki gösterir?",
+    "options": {
+      "A": "Renal arter stenozu",
+      "B": "Renal sempatik sinir aktivite artışı",
+      "C": "Hipovolemi",
+      "D": "Hipernatremi",
+      "E": "Hipotansiyon"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Plazma sodyum konsantrasyonunun ve ozmolaritesinin yükselmesi (**hipernatremi**), ekstrasellüler sıvı hacmini genişleterek ve makula densa hücrelerine ulaşan filtrelenmiş sodyum klorür (NaCl) yükünü artırarak jukstaglomerüler hücrelerden **renin salgılanmasını azaltır (baskılar)**; diğer dört şıktaki durumların tamamı ise renin salgılanmasını artıran uyaranlardır. Çeldiriciler: A) Renal arter stenozu (darlığı), sistemik kan basıncı normal veya yüksek olsa bile darlığın gerisindeki böbrek perfüzyon basıncını ve afferent arteriyol gerilmesini düşürerek renin salgısını güçlü şekilde artırır (renovasküler hipertansiyon nedeni). B) Renal sempatik sinir aktivite artışı, jukstaglomerüler granüler hücreler üzerindeki beta-1 ($\\beta_1$) adrenerjik reseptörleri doğrudan (cAMP yoluyla) uyararak renin salgısını artırır. C) Hipovolemi (kanama, dehidratasyon) ve E) Sistemik hipotansiyon, hem afferent arteriyoldeki baroreseptör gerilmesini azaltarak hem makula densaya gelen NaCl akımını düşürerek hem de kardiyovasküler baroreseptör refleksle sempatik aktiviteyi artırarak renin salgılanmasını artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Makula densa hücreleri aşağıdakilerin hangisinde bulunur?",
+    "options": {
+      "A": "Proksimal tübül",
+      "B": "Toplayıcı kanal",
+      "C": "Distal tübül",
+      "D": "Henle'nin inen ince parçası",
+      "E": "Henle'nin çıkan ince parçası"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Jukstaglomerüler aparatın tübüler bileşenini oluşturan **makula densa** hücreleri, Henle kulbunun çıkan kalın kolunun sonlanıp **distal tübülün (distal kıvrıntılı tübülün)** başladığı geçiş noktasında, tübülün kendi glomerülünün vasküler kutbuna (afferent ve efferent arteriyollerin arasına) temas ettiği duvarda yan yana sıkışık dizilmiş yüksek prizmatik ve koyu çekirdekli özelleşmiş epitel hücreleri olarak **distal tübülde** bulunur; apikal NKCC2 taşıyıcılarıyla tübül sıvısındaki NaCl konsantrasyonunu algılayarak tübüloglomerüler geri bildirimi (TGF) ve renin salınımını yönetir. Çeldiriciler: A) Proksimal tübül, Bowman kapsülünden hemen sonra başlayan fırçamsı kenarlı tübüldür; makula densa içermez. B) Toplayıcı kanal, nefronların açıldığı ve ADH/aldosteron etkisinin görüldüğü son bölümdür. D) Henle'nin inen ince parçası ve E) Henle'nin çıkan ince parçası, renal medullada yer alan ve tek katlı yassı epitel ile döşeli olan segmentlerdir; korteksteki glomerül komşuluğunda yer alan makula densayı barındırmazlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Jukstaglomerüler aygıtın yapısına katılan jukstaglomerüler hücreler aşağıdakilerin hangisinde yerleşmiştir?",
+    "options": {
+      "A": "Distal kıvrıntılı tübül",
+      "B": "Böbrek cisimciği paryetal yaprağı",
+      "C": "Böbrek cisimciği visseral yaprağı",
+      "D": "Afferent arteriol",
+      "E": "Glomerüler mezangial matriks"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Jukstaglomerüler aygıtın (aparatın) vasküler bileşenini oluşturan ve sitoplazmalarındaki salgı granüllerinde proteolitik enzim **renini** sentezleyip depolayan **jukstaglomerüler (granüler) hücreler**, glomerüle kan getiren **afferent arteriolün** (ve çok az oranda efferent arteriolün) tunika media tabakasındaki düz kas hücrelerinin modifiye olup epiteloid/endokrin özellik kazanmasıyla oluşmuştur ve afferent arteriol duvarında yerleşmiştir. Çeldiriciler: A) Distal kıvrıntılı tübül duvarında jukstaglomerüler granüler hücreler değil, aparatın NaCl sensörü olan epitel kökenli makula densa hücreleri yerleşmiştir. B) Böbrek cisimciği (Bowman kapsülü) paryetal yaprağı, kapsülü dıştan sınırlayan tek katlı yassı epiteldir. C) Böbrek cisimciği visseral yaprağı, glomerül kapillerlerini dıştan saran ayaksı uzantılı (pediselli) podosit hücrelerinden oluşur. E) Glomerüler mezangial matriks, kapiller yumaklar arasındaki intraglomerüler mezangial hücrelerin ürettiği destek matriksidir (jukstaglomerüler aparata vasküler kutuptaki ekstraglomerüler mezangial [Lacis/Polkissen] hücreler katılır, ancak renin salgılayan asıl jukstaglomerüler hücreler afferent arteriol duvarındadır).",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Erişkin bir insanda hipoksi durumunda, hematopoietik kök hücreleri uyararak kemik iliğinde eritrosit üretimini artıran maddenin en fazla salgılandığı organ hangisidir?",
+    "options": {
+      "A": "Mide",
+      "B": "Böbrek",
+      "C": "Karaciğer",
+      "D": "Akciğer",
+      "E": "Pankreas"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Doku hipoksisi (anemi, yüksek irtifa, akciğer/kalp hastalıkları) durumunda hipoksi ile indüklenen faktör (HIF-1) aracılığıyla sentezlenip kana salgılanan ve kemik iliğindeki eritroid progenitör hücreleri (CFU-E) uyararak eritrosit üretimini (eritropoezi) artıran glikoprotein hormon **eritropoietin (EPO)**'dir; erişkin bir insanda dolaşımdaki eritropoietinin **yaklaşık %85–90'lık en büyük kısmı böbreklerde** (özellikle iç korteks ve dış medulladaki peritübüler kapiller çevresinde yer alan fibroblast benzeri peritübüler interstisyel hücreler tarafından) salgılanır (bu nedenle kronik böbrek yetmezliğinde EPO eksikliğine bağlı normokrom normositer anemi gelişir). Çeldiriciler: A) Mide, B12 vitamini emilimi için intrinsik faktör ve demir emilimi için HCl salgılar ancak eritropoietin üretmez. C) Karaciğer (hepatositler ve İto hücreleri), intrauterin (fetal) dönemde eritropoietinin ana üretim yeridir; ancak doğumdan sonra ve erişkinde EPO üretiminin yalnızca %10–15'ini karşılar, böbrek yetmezliğinde kaybı kompanse edemez. D) Akciğer, kanın oksijenlenmesini sağlar ancak hipoksi sensörü ve EPO üretim organı değildir. E) Pankreas, sindirim enzimleri ve adacık hormonları üretir; eritropoez hormonu salgılamaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Bikarbonat\nII. Glukoz\nIII. Sodyum\nYukarıdakilerden hangilerinin tübüler konsantrasyonu, böbrekte geri emilim nedeniyle tübüler sıvıdaki toplam miktarları azalmakla birlikte, proksimal tübül boyunca değişmez?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "II ve III"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Proksimal tübül boyunca filtrelenen suyun ve sodyumun yaklaşık %65'i geri emildiği için tübüler sıvıdaki toplam sodyum miktarı belirgin şekilde azalır; ancak proksimal tübül epiteli suya yüksek derecede geçirgen (akuaporin-1 zengin) olduğu için geri emilen her sodyum iyonuyla birlikte tamamen eşit oranda (izoozmotik olarak) su da geri emilir ve bu nedenle **proksimal tübül boyunca tübüler sıvıdaki sodyum ($Na^+$) konsantrasyonu (ve toplam ozmolarite) değişmez**, plazma konsantrasyonuna (~140 mEq/L, tübül/plazma oranı = 1.0) eşit kalır. Öncüllerin Analizi: I. Bikarbonat (Azalır): Proksimal tübülün erken segmentlerinde bikarbonat ($HCO_3^-$), karbonik anhidraz aracılığıyla suya göre çok daha hızlı (%80–85 oranında) geri emildiği için proksimal tübül boyunca tübüler konsantrasyonu belirgin şekilde azalır (buna karşılık $Cl^-$ konsantrasyonu hafif yükselir). II. Glukoz (Azalır): Glukoz (ve amino asitler) proksimal tübülün ilk yarısında SGLT-2 ve SGLT-1 ile suya göre çok daha hızlı ve neredeyse %100 oranında geri emildiği için tübüler sıvıdaki konsantrasyonu hızla sıfıra doğru düşer. III. Sodyum (Değişmez): Sodyum ve su proksimal tübül boyunca birebir aynı oranda (%65) geri emildiği için tübül içindeki toplam sodyum miktarı azalsa da sodyumun konsantrasyonu (birim hacimdeki miktarı) proksimal tübül boyunca sabit kalır. Çeldiriciler: A, B, D ve E şıkları proksimal tübülde suya göre çok daha hızlı emilerek konsantrasyonları hızla düşen bikarbonat (I) ve/veya glukozu (II) içerdiği için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi böbrekten su ve NaCl geri emilimini azaltır?",
+    "options": {
+      "A": "Aldosteron",
+      "B": "Atriyal natriüretik peptid",
+      "C": "Antidiüretik hormon",
+      "D": "Anjiyotensin II",
+      "E": "Sempatik uyarı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Ekstrasellüler sıvı hacmi ve kan basıncı arttığında kalp atriyumlarındaki miyositlerin gerilmesiyle salgılanan **atriyal natriüretik peptid (ANP)**, böbreklerde afferent arteriyolü genişletip efferent arteriyolü daraltarak GFR'yi artırır, medüller toplayıcı kanal hücrelerinde guanilat siklaz/cGMP yoluyla apikal ENaC sodyum kanallarını doğrudan kapatır ve ayrıca jukstaglomerüler hücrelerden renin, adrenal korteksten aldosteron ve arka hipofizden ADH salınımını inhibe ederek **böbrekten su ve NaCl geri emilimini azaltır** (güçlü natriürez ve diürez yaparak kan hacmini düşürür). Çeldiriciler: A) Aldosteron, distal tübül ve toplayıcı kanallarda ENaC ve $Na^+/K^+$-ATPaz'ı uyararak NaCl ve su geri emilimini artırır. C) Antidiüretik hormon (ADH), toplayıcı kanallarda akuaporin-2 kanallarını membrana yerleştirerek su geri emilimini ve çıkan kalın kolda NKCC2'yi uyararak NaCl emilimini artırır. D) Anjiyotensin II, özellikle proksimal tübülde NHE3 ($Na^+/H^+$ değiştiricisi) üzerinden doğrudan ve aldosteron/ADH salınımını uyararak dolaylı yoldan NaCl ve su geri emilimini güçlü şekilde artırır. E) Sempatik uyarı, hem tübül epitelindeki alfa-1 reseptörlerle doğrudan NaCl geri emilimini artırır hem de renin-anjiyotensin-aldosteron sistemini aktive ederek su ve tuz tutulumunu artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Macula densa'ya gelen NaCl miktarı azaldığında, aşağıdakilerden hangisi gerçekleşir?",
+    "options": {
+      "A": "Afferent arteriyol daralır, renin salgısı artar.",
+      "B": "Afferent arteriyol genişler, renin salgısı artar.",
+      "C": "Afferent arteriyol daralır, renin salgısı azalır.",
+      "D": "Efferent arteriyol genişler, renin salgısı artar.",
+      "E": "Efferent arteriyol daralır, renin salgısı azalır."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Sistemik kan basıncı ve GFR düştüğünde distal tübül başlangıcındaki **makula densa** hücrelerine ulaşan NaCl miktarı azalır; makula densa hücreleri içine NKCC2 ile giren NaCl azalınca tübüloglomerüler geri bildirim (TGF) mekanizması devreye girer ve iki temel telafi edici yanıt oluşur:1) Makula densadan vazokonstriktör adenozin/ATP salınımı azalırken nitrik oksit (NO) ve prostaglandin ($PGE_2, PGI_2$) salınımı artar, bu da **afferent arteriyolü genişleterek (vazodilatasyon)** glomerüle gelen kan akımını ve düşmüş olan GFR'yi normale yükseltir; 2) Salınan $PGE_2$ ve $PGI_2$ komşu jukstaglomerüler granüler hücreleri uyararak **renin salgısını artırır** (oluşan anjiyotensin II de efferent arteriyolü daraltarak GFR'yi destekler). Çeldiriciler: A ve C şıkları afferent arteriyolün daraldığını belirttiği için (afferent daralma makula densaya NaCl gelişi arttığında oluşur) yanlıştır; ayrıca C ve E şıkları renin salgısının azaldığını söylediği için yanlıştır. D şıkkında ise efferent arteriyolün genişlediği belirtilmiştir; oysa artan renin ve oluşan anjiyotensin II efferent arteriyolü genişletmez, AT₁ reseptörleri üzerinden daraltır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Böbrekte filtrasyon bariyerini oluşturan yapılar aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Endotel – Glomerüler bazal membran – Podosit",
+      "B": "Mezangial matriks – Glomerüler bazal membran – Podosit",
+      "C": "Endotel – Glomerüler bazal membran – Mezangial matriks",
+      "D": "Paryetal tabaka bazal membranı – Paryetal epitel hücreleri – Podosit",
+      "E": "Paryetal tabaka – Podosit – Glomerüler bazal membran"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Böbrek cisimciğinde (Malpighi cisimciğinde) glomerül kapilleri içindeki kandan Bowman boşluğuna geçen ultrafiltratın katettiği **glomerüler filtrasyon bariyeri (membranı)** içten dışa doğru üç temel anatomik katmandan oluşur:1) Diyaframsız geniş pencerelere (70–100 nm çapında fenestralara) ve negatif yüklü glikokalikse sahip **pencereli kapiller endoteli**, 2) Endotel ile podositlerin bazal laminalarının kaynaşmasıyla oluşan, Tip IV kollajen (fiziksel elek) ve negatif yüklü heparan sülfat proteoglikanları (elektriksel yük bariyeri) içeren üç katmanlı (lamina rara interna, lamina densa, lamina rara eksterna) **glomerüler bazal membran (GBM)** ve 3) Bowman kapsülünün visseral yaprağını oluşturan **podositlerin** kapilleri saran ayaksı çıkıntıları (pediselleri) ve aralarındaki nefrin proteini içeren filtrasyon yarık diyaframları (**Endotel – Glomerüler bazal membran – Podosit**). Çeldiriciler: B ve C şıklarındaki mezangial matriks, kapiller halkaların arasında destek sağlayan yapıdır; kanın süzüldüğü serbest kapiller duvarındaki filtrasyon bariyeri katmanı değildir. D ve E şıklarındaki Bowman kapsülünün paryetal tabakası (ve onun bazal membranı), Bowman boşluğunu dıştan çevreleyen kapsül duvarıdır; filtrasyon bariyerine katılan yaprak paryetal değil, visseral yapraktır (podositlerdir).",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hücre içine potasyum girişine yol açarak ekstraselüler serum potasyum konsantrasyonunun azalmasına neden olur?",
+    "options": {
+      "A": "Yoğun egzersiz",
+      "B": "Addison hastalığı",
+      "C": "Metabolik alkaloz",
+      "D": "İnsülin eksikliği",
+      "E": "Yaygın hücre yıkımı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): **Metabolik alkalozda** ekstrasellüler sıvıda (kanda) hidrojen ($H^+$) iyonu konsantrasyonu azalmıştır; ekstrasellüler pH'ı tamponlamak amacıyla hücre içindeki $H^+$ iyonları hücre dışına (kana) çıkarken, elektronötraliteyi korumak üzere ekstrasellüler sıvıdaki potasyum ($K^+$) iyonları $H^+/K^+$ değişimiyle ve alkalozun uyardığı $Na^+/K^+$-ATPaz aktivitesiyle **hücre içine girer**, bunun sonucunda serum potasyum konsantrasyonu azalarak **hipokalemi** gelişir (hücre içine $K^+$ sokarak hipokalemi yapan diğer klasik etkenler: insülin fazlalığı, beta-2 adrenerjik agonistler ve aldosteron fazlalığıdır). Çeldiriciler: A) Yoğun ve ağır egzersizde kasılan iskelet kaslarından aksiyon potansiyeli repolarizasyonları sırasında ekstrasellüler sıvıya bol miktarda $K^+$ çıkar ve serum potasyumu yükselir (hiperkalemi). B) Addison hastalığında (primer adrenal yetmezlik) aldosteron eksikliği nedeniyle hem hücre içine $K^+$ girişi hem de böbrekten $K^+$ atılımı bozularak hiperkalemi gelişir. D) İnsülin eksikliğinde (ör. diyabetik ketoasidozda) $Na^+/K^+$-ATPaz aktivitesi azaldığı ve hiperosmolarite geliştiği için $K^+$ hücre dışına çıkar ve hiperkalemi oluşur. E) Yaygın hücre yıkımı (rabdomiyoliz, ağır yanık, hemoliz, tümör lizis sendromu), hücre içi ana katyon olan (~140–150 mEq/L) potasyumun doğrudan kana dökülmesiyle ağır hiperkalemiye yol açar.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ürenin nefronda yeniden dolaşımını sağlayarak hiperozmotik renal medulla oluşumuna katkıda bulunan UT-A2 kanalları, nefronun aşağıdaki bölümlerinin hangisinde diğerlerinden daha fazla bulunur?",
+    "options": {
+      "A": "Henlenin inen ince kolu",
+      "B": "Distal tübül",
+      "C": "Kortikal toplayıcı kanal",
+      "D": "Medüller toplayıcı kanal",
+      "E": "Henlenin çıkan kalın kolu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İç medüller toplayıcı kanaldan (UT-A1 ve UT-A3 taşıyıcıları aracılığıyla) derin medulla interstisyumuna geçen ürenin, vasa rekta kanıyla yıkanıp gitmesini önlemek ve \"üre geri dönüşümünü (urea recycling)\" tamamlayarak yeniden nefron lümenine girmesini sağlamak üzere işlev gören kolaylaştırılmış üre taşıyıcısı **UT-A2**, spesifik olarak **Henle kulbunun ince kollarında (özellikle inen ince kolun alt medüller segmentinde)** yoğun olarak bulunur ve ADH tarafından cAMP yoluyla uyarılır. Çeldiriciler: B) Distal tübül, C) Kortikal toplayıcı kanal ve E) Henle'nin çıkan kalın kolu segmentleri üreye neredeyse tamamen geçirimsizdir ve UT-A2 taşıyıcısı içermez (bu sayede üre tübül içinde hapsedilerek iç medüller toplayıcı kanala kadar yüksek konsantrasyonda ulaştırılır). D) İç medüller toplayıcı kanalda ürenin lümenden interstisyuma geçişini sağlayan taşıyıcılar UT-A2 değil, apikal **UT-A1** ve bazolateral **UT-A3** taşıyıcılarıdır (eritrositlerde ve vasa rektada ise UT-B bulunur).",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sağlıklı bir insanda böbrek glomerüllerinden serbestçe filtre olduktan sonra tamamı tübüllerden geri emilen ve idrarla hiç atılmayan madde aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Kreatinin",
+      "B": "Sodyum",
+      "C": "Organik asit",
+      "D": "Glukoz",
+      "E": "Kalsiyum"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sağlıklı bir insanda (plazma glukoz düzeyi böbrek eşik değeri olan ~180–200 mg/dL'nin altında iken) **glukoz**, glomerül kapillerlerinden Bowman boşluğuna serbestçe filtre olduktan sonra proksimal kıvrıntılı tübülün apikal membranındaki SGLT-2 (erken S1 segmentinde %90) ve SGLT-1 (geç S3 segmentinde %10) kotransporterleri aracılığıyla **%100 oranında (tamamı) geri emilir**; tübüllere sekrete edilmez ve normal idrarda hiç bulunmaz (klirensi sıfırdır). Çeldiriciler: A) Kreatinin, glomerüllerden serbestçe filtre olduktan sonra tübüllerden hiç geri emilmez (hatta proksimal tübülden %10–15 oranında sekrete edilir) ve tamamı idrarla atılır. B) Sodyum ve E) Kalsiyum, glomerüllerden filtre olduktan sonra tübüller boyunca ~%99 oranında geri emilir ancak vücut elektrolit dengesini korumak üzere yaklaşık %1'lik kısmı normal olarak idrarla atılır. C) Organik asitler (para-aminohippürik asit [PAH], ürik asit, ketoasitler, penisilin vb.), filtre olmalarının yanı sıra proksimal tübülden aktif olarak lümene sekrete edilerek idrarla hızla atılır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi atrial natriüretik peptidin (ANP) renal fizyolojik etkilerindendir?",
+    "options": {
+      "A": "Afferent arteriollerde vazodilatasyon",
+      "B": "Glomerüler filtrasyon hızının azalması",
+      "C": "Proksimal tübüllerde Na-H değiştiricisinin aktivasyonu",
+      "D": "Distal tübüllerde Na-Cl taşıyıcısının aktivasyonu",
+      "E": "Toplayıcı kanallarda Na kanallarının aktivasyonu"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hipervolemi durumunda kalp atriyumlarından salgılanan **atriyal natriüretik peptid (ANP)**, böbrek damarlarında guanilat siklaz/cGMP artışı üzerinden **afferent arteriollerde belirgin vazodilatasyon (genişleme)** yaparken efferent arteriolleri hafifçe daraltır ve intraglomerüler mezangial hücreleri gevşeterek filtrasyon yüzey alanını ($K_f$) büyütür; bu etkilerin sonucunda glomerüler kapiller hidrostatik basınç ve GFR artarak idrarla su ve sodyum atılımı hızlanır. Çeldiriciler: B) ANP glomerüler filtrasyon hızını (GFR'yi) azaltmaz; afferent arteriyolü genişletip $K_f$'yi artırarak GFR'yi belirgin şekilde artırır. C) Proksimal tübüllerde $Na^+-H^+$ değiştiricisini (NHE3), D) Distal tübüllerde $Na^+-Cl^-$ ortak taşıyıcısını (NCC) ve E) Toplayıcı kanallarda apikal $Na^+$ kanallarını (ENaC) aktive etmez; tam tersine cGMP bağımlı mekanizmalarla ve renin-anjiyotensin-aldosteron sistemini baskılayarak tüm bu sodyum taşıyıcılarını **inhibe eder** ve natriürez oluşturur.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki maddelerden hangisinin klirensi renal plazma akım hızının ölçülmesinde kullanılmaktadır?",
+    "options": {
+      "A": "Üre",
+      "B": "Kreatinin",
+      "C": "İnülin",
+      "D": "Para-aminohippürik asit (PAH)",
+      "E": "Radyoaktif iotalamat"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Bir maddenin klirensinin **renal plazma akım hızını (RPF)** ölçebilmesi için o maddenin böbrekten tek bir geçişinde hem glomerüler filtrasyonla hem de peritübüler kapillerlerden tübül lümenine aktif sekresyonla kandan tamamen (%90 ve üzerinde) temizlenmesi gerekir; ekzojen bir organik asit olan **para-aminohippürik asit (PAH)** düşük plazma konsantrasyonlarında glomerülden serbestçe filtre olur ve kalan kısmı proksimal tübülden organik anyon taşıyıcılarıyla neredeyse tamamen (%90 ekstraksiyon oranıyla) sekrete edilip geri emilmediği için **PAH klirensi efektif renal plazma akım hızının (ERPF) ölçülmesinde altın standart olarak kullanılır**. Çeldiriciler: A) Üre, filtre olduktan sonra tübüllerden yaklaşık %40–50 oranında pasif olarak geri emildiği için klirensi GFR'den de RPF'den de düşüktür. B) Kreatinin (endojen), C) İnülin (altın standart ekzojen fruktan polisakkariti) ve E) Radyoaktif iotalamat, glomerüllerden serbestçe filtre olup tübüllerden geri emilmeyen ve (kreatinindeki az miktarda sekresyon hariç) sekrete edilmeyen maddeler oldukları için renal plazma akım hızının değil, **glomerüler filtrasyon hızının (GFR)** ölçülmesinde kullanılırlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Glomerülden serbestçe filtre olan bir maddenin geri emilime uğramadığı ve ayrıca peritübüler kapillerden renal tübüllere sekrete edildiği saptanmıştır. Bu madde aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Sodyum",
+      "B": "Üre",
+      "C": "Organik asit",
+      "D": "Glukoz",
+      "E": "Klor"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Glomerüllerden serbestçe filtre olan, tübüllerden geri emilime uğramayan ve buna ek olarak peritübüler kapiller kandaki kısmı da proksimal tübül hücreleri tarafından aktif olarak tübül lümenine **sekrete edilen** (dolayısıyla klirensi GFR'den büyük olan ve idrarla hızla temizlenen) maddeler, başta para-aminohippürik asit (PAH), penisilin, salisilatlar ve çeşitli ilaç metabolitleri olmak üzere **organik asitlerdir (organik anyonlardır)**. Çeldiriciler: A) Sodyum ve E) Klor, glomerülden serbestçe filtre olduktan sonra tübüller boyunca %99'dan fazla geri emilir ve tübüllere sekrete edilmez (klirensleri çok düşüktür). B) Üre, serbestçe filtre olduktan sonra proksimal ve medüller toplayıcı kanallardan önemli oranda (~%50) geri emilir. D) Glukoz, serbestçe filtre olduktan sonra proksimal tübülden %100 oranında geri emilir ve hiç sekrete edilmez (klirensi sıfırdır).",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisinin hücre içi sinyal iletimindeki temel etki mekanizması, membrandaki reseptörüne bağlanarak hücre içi guanilil siklaz-cGMP ikinci haberci yolağını aktive etmektir?",
+    "options": {
+      "A": "Atrial natriüretik peptid",
+      "B": "Adrenalin",
+      "C": "Anjiyotensin II",
+      "D": "Antidiüretik hormon",
+      "E": "Asetilkolin"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): **Atriyal natriüretik peptid (ANP)** (ve beyin natriüretik peptidi - BNP), hedef hücrelerinin (damar düz kası, böbrek glomerül ve toplayıcı kanal hücreleri, adrenal zona glomerulosa) hücre zarında bulunan tek transmembran geçişli **natriüretik peptid reseptörü-A (NPR-A)**'ya bağlanır; bu reseptörün hücre içi (sitoplazmik) kısmında intrinsik **membrana bağlı (partiküllü) guanilil siklaz** enzim aktivitesi bulunur ve hormon bağlandığında doğrudan GTP'den **cGMP** sentezleyerek protein kinaz G (PKG) aktivasyonuyla vazodilatasyon ve natriürez oluşturur. Çeldiriciler: B) Adrenalin, G proteini kenetli alfa-1 ($Gq \\rightarrow IP_3/Ca^{2+}$), alfa-2 ($Gi \\rightarrow \\downarrow cAMP$) ve beta ($Gs \\rightarrow \\uparrow cAMP$) adrenerjik reseptörler üzerinden etki gösterir. C) Anjiyotensin II, temel etkilerini Gq proteini kenetli AT₁ reseptörü üzerinden fosfolipaz C – $IP_3$/DAG – $Ca^{2+}$ yolağıyla gösterir. D) Antidiüretik hormon (ADH), damarlarda V₁ reseptörüyle $Gq \\rightarrow IP_3/Ca^{2+}$ yolağını, böbrek toplayıcı kanallarında ise V₂ reseptörüyle $Gs \\rightarrow \\text{adenilat siklaz} \\rightarrow cAMP$ yolağını aktive eder. E) Asetilkolin, muskarinik reseptörlerinde G proteinlerini ($M_{1,3,5} \\rightarrow Gq \\rightarrow IP_3/Ca^{2+}$; $M_{2,4} \\rightarrow Gi \\rightarrow \\downarrow cAMP$), nikotinik reseptörlerinde ise iyon kanallarını kullanır (damar endotelinde $M_3 \\rightarrow Ca^{2+}$ ile oluşturduğu NO komşu düz kasta çözünür guanilil siklazı uyarsa da kendi membran reseptörü guanilil siklaz değildir).",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Böbrek biyopsisi elektron mikroskop görüntüsünde, podositlerin ayaksı çıkıntıları (pediseller) arasındaki dar boşlukları köprü gibi kapatan ince yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Bazal membranın lamina densası",
+      "B": "Kapiller endotelinin fenestraları",
+      "C": "Pediselleri",
+      "D": "Slit diyaframı",
+      "E": "Bazal membran lamina rara internas"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Transmisyon elektron mikroskobunda (TEM) glomerüler filtrasyon bariyeri incelendiğinde, glomerül bazal membranının dış yüzüne oturan podositlerin parmaksı/ayaksı uzantıları olan pedisellerin (ayakçıkların) yan yana dizildiği ve aralarında 25–40 nm genişliğinde filtrasyon yarıkları (slit pores) bıraktığı görülür; komşu iki pediselin arasındaki bu dar yarıkları fermuar veya ince bir köprü çizgisi gibi boydan boya kapatan, nefrin ve podosin gibi proteinlerden oluşan seçici geçirgen zara **slit diyaframı (filtrasyon yarık diyaframı)** adı verilir (nefrin gen mutasyonu konjenital Fin tipi nefrotik sendroma yol açar). Çeldiriciler: A) Bazal membranın lamina densası, endotel ile podositler arasında kesintisiz koyu bir şerit halinde uzanan orta bazal membran tabakasıdır; pediseller arası yarıkta yer almaz. B) Kapiller endotelinin fenestraları, bazal membranın iç (lümen) yüzündeki endotel hücrelerinde bulunan diyaframsız pencerelerdir. C) Pediseller, podositlerin bazal membrana oturan parmaksı/topuz şeklindeki sitoplazmik çıkıntılarının kendisidir; aralarındaki boşluğu kapatan ince zar slit diyaframıdır. E) Lamina rara interna, bazal membranın kapiller endoteline komşu olan iç açık renkli tabakasıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi konsantre idrar oluşumuna katkıda bulunmaz?",
+    "options": {
+      "A": "Medüller toplayıcı kanallarda ADH varlığında su geri emilimi",
+      "B": "Henle kulbu çıkan kalın kolun suyu geçirmemesi",
+      "C": "Henle kulbu çıkan kalın koldan solütlerin medüller interstisyuma taşınması",
+      "D": "İç medulla toplayıcı kanallarında medüller interstisyuma ürenin difüzyonu",
+      "E": "Kortikal tübüller içine potasyum sekresyonu"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Kortikal toplayıcı tübüllerin esas hücrelerinden aldosteron kontrolünde lümene **potasyum ($K^+$) sekresyonu** yapılması, ekstrasellüler sıvının potasyum dengesini (normokalemiyi) korumaya yönelik bir mekanizmadır; medüller interstisyumun hiperozmolaritesinin oluşturulmasına veya toplayıcı kanallardan suyun geri çekilerek **konsantre idrar oluşturulmasına hiçbir katkıda bulunmaz**. Çeldiriciler: A) Medüller toplayıcı kanallarda ADH varlığında apikal membrana akuaporin-2 kanallarının yerleşmesi, suyun hiperozmotik medulla interstisyumuna hızla geri emilerek idrarın konsantre olmasını sağlayan son ve zorunlu basamaktır (Katkıda bulunur). B) Henle kulbu çıkan kalın kolunun suya geçirimsiz olması ve C) Aynı segmentteki NKCC2 taşıyıcısıyla $Na^+, K^+, 2Cl^-$ solütlerinin susuz olarak medüller interstisyuma pompalanması, \"karşı akım çoğaltıcı (countercurrent multiplier)\" mekanizmanın temelini oluşturarak medullayı hiperozmotik yapar (Katkıda bulunur). D) İç medulla toplayıcı kanallarında ADH etkisiyle aktifleşen UT-A1/UT-A3 taşıyıcılarından ürenin iç medulla interstisyumuna difüzyonu, medüller ozmolaritenin ~%50'sini oluşturarak maksimum idrar konsantrasyonunu sağlar (Katkıda bulunur).",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Metabolik asidozda aşağıdakilerden hangisinin görülmesi beklenmez?",
+    "options": {
+      "A": "Kanda azalmış bikarbonat",
+      "B": "Solunum hızının azalması",
+      "C": "Bikarbonat atılımında azalma",
+      "D": "Artmış amonyum atılımı",
+      "E": "Artmış hidrojen iyonu atılımı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Metabolik asidozda kanda artan hidrojen ($H^+$) iyonları ve düşen pH, karotis ve aortik cisimciklerdeki periferik kemoreseptörleri (ve beyin sapındaki santral kemoreseptörleri) güçlü biçimde uyararak solunumsal kompansasyonu devreye sokar; bunun sonucunda **solunum hızı ve derinliği azalmaz, tam tersine belirgin şekilde artar (hiperventilasyon / Kussmaul solunumu)** ve akciğerlerden $CO_2$ atılarak arteriyel $PCO_2$ düşürülür ve pH normale yaklaştırılır. Çeldiriciler: A) Metabolik asidozun birincil (primer) tanımı ve başlangıç bozukluğu kanda bikarbonat ($HCO_3^-$) konsantrasyonunun (< 22 mEq/L) ve pH'ın (< 7.35) azalmış olmasıdır (Beklenir). C) Böbrekler metabolik asidozu kompanse etmek için filtrelenen tüm bikarbonatı proksimal ve distal tübüllerden %100'e yakın geri emer, böylece idrarla bikarbonat atılımında azalma görülür (Beklenir). D) Proksimal tübülde glutamin metabolizması hızlanarak yeni bikarbonat üretilirken idrarla amonyum ($NH_4^+$) atılımı (en büyük asit atılım kapasitesi) belirgin şekilde artar (Beklenir). E) Toplayıcı kanallardaki alfa-interkale hücrelerde apikal $H^+$-ATPaz ve $H^+/K^+$-ATPaz pompalarıyla idrara serbest ve titre edilebilir hidrojen ($H^+$) iyonu atılımı artar ve idrar asidikleşir (Beklenir).",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Böbrekte su geri emilimi ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "options": {
+      "A": "Filtrata geçen suyun en büyük kısmı distal tübüllerde ozmotik etki ile geri emilir.",
+      "B": "Henle kulbunun inen kolu suya geçirgen değildir, su emilimi olmaz.",
+      "C": "Henle kulbunun çıkan kolu sodyum, potasyum ve klora geçirgen değildir, elektrolit emilimi olmaz.",
+      "D": "Toplayıcı kanallarda su antidiüretik hormon kontrolünde geri emilir.",
+      "E": "Su, proksimal tübüllerde aldosteron etkisi ile sodyum emilimine eşlik eder."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Böbrekte geç distal tübül ve **toplayıcı kanallar** normalde (ADH yokluğunda) suya geçirimsizdir; ancak arka hipofizden **antidiüretik hormon (ADH / vazopressin)** salgılandığında, esas hücrelerin bazolateral V₂ reseptörleri (Gs-cAMP-PKA yoluyla) uyarılarak sitoplazmik veziküllerdeki **akuaporin-2 (AQP2)** su kanalları apikal membrana yerleştirilir ve böylece suyun (~%9–10 oranında, ihtiyaca göre ayarlanabilir/fakültatif olarak) ADH kontrolünde geri emilimi sağlanır. Çeldiriciler: A) Glomerülden filtrata geçen suyun en büyük kısmı (~%65'i) distal tübüllerde değil, **proksimal tübüllerde** akuaporin-1 kanalları aracılığıyla zorunlu (obligatorik) ve izoozmotik olarak geri emilir. B) Henle kulbunun inen ince kolu akuaporin-1 kanalları sayesinde **suya son derece geçirgendir** ve filtrelenen suyun yaklaşık %15'i burada medüller hipertonisite etkisiyle geri emilir (solütlere ise geçirimsizdir). C) Henle kulbunun çıkan kalın kolu suya geçirimsizdir ancak apikal **NKCC2 taşıyıcısı sayesinde sodyum, potasyum ve klora geçirgendir** ve filtrelenen elektrolitlerin yaklaşık %25'i burada aktif olarak geri emilir (\"dilüe edici segment\"). E) Proksimal tübüllerde su sodyum emilimine eşlik eder ancak proksimal tübüldeki bu sodyum ve su emilimi **aldosteron kontrolünde değildir** (aldosteron geç distal tübül ve toplayıcı kanallarda etkilidir).",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi glomerüler filtrasyon hızını Kf (kapiller filtrasyon katsayısı) sabitini değiştirerek etkiler?",
+    "options": {
+      "A": "Kan basıncının düşmesi",
+      "B": "Üreter taşı",
+      "C": "Diabetes mellitus",
+      "D": "Karaciğer sirozu",
+      "E": "Sempatik aktivite"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Glomerüler kapiller filtrasyon katsayısı ($K_f$), filtrasyon bariyerinin hidrolik geçirgenliği (su iletkenliği) ile efektif filtrasyon yüzey alanının çarpımına eşittir; kronik **diabetes mellitus** (ve kronik hipertansiyon/glomerülonefrit) sürecinde glomerül kapillerlerinde gelişen mikroanjiyopati, glomerüler bazal membran kalınlaşması, mezangial matriks genişlemesi ve ileri evrede Kimmelstiel-Wilson nodüler glomerülosklerozu doğrudan filtrasyon yüzey alanını ve geçirgenliğini bozarak **$K_f$ sabitini düşürmek suretiyle GFR'yi azaltır** (erken evre diyabette de hiperglisemi ve mezangial değişiklikler üzerinden $K_f$ ve hemodinamik değişimler görülür). Çeldiriciler: A) Kan basıncının düşmesi, doğrudan glomerüler kapiller hidrostatik basıncını ($P_G$) düşürerek GFR'yi azaltır. B) Üreter taşı, idrar akışını tıkayıp geriye doğru hidronefroz yaratarak **Bowman kapsülü hidrostatik basıncını ($P_B$)** artırmak suretiyle GFR'yi azaltır. D) Karaciğer sirozu, hipoalbüminemi yaparak **glomerüler kapiller kolloid ozmotik basıncını ($\\pi_G$)** değiştirir (veya hepatorenal sendromda renal vazokonstriksiyonla $P_G$'yi düşürür). E) Sempatik aktivite, temel ve birincil olarak afferent ve efferent arteriyolleri alfa-1 reseptörlerle daraltıp renal kan akımını ve **glomerüler hidrostatik basıncı ($P_G$)** düşürerek GFR'yi azaltır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sağlıklı bir insanda yüksek tuz içerikli bir yemekten sonra aşağıdakilerden hangisinin görülmesi en az olasıdır?",
+    "options": {
+      "A": "Artan plazma ANP düzeyi",
+      "B": "Azalan renin sekresyonu",
+      "C": "Azalan Na geri emilimi",
+      "D": "Hipokalemi",
+      "E": "Artan kan basıncı"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Sağlıklı bir insanda yüksek tuz (NaCl) içerikli bir yemekten sonra ekstrasellüler sıvı hacmi ve makula densaya ulaşan NaCl yükü artar; bunun sonucunda renin-anjiyotensin-**aldosteron** sistemi (RAAS) güçlü bir şekilde **baskılanır**. Aldosteron düzeyi düştüğü için kortikal toplayıcı kanallardan idrara potasyum ($K^+$) sekresyonu (atılımı) artmaz, aksine azalır veya distal akım hızı artışıyla dengelenerek serum potasyumu korunur; dolayısıyla sağlıklı bireyde yüksek tuz alımı sonrası **hipokalemi görülmesi en az olasıdır** (yüksek tuz alımıyla hipokalemi gelişmesi ancak aldosteronun baskılanamadığı primer hiperaldosteronizm [Conn sendromu] hastalarında görülür). Çeldiriciler: A) Tuz alımı sonrası artan plazma ozmolaritesi ve su tutulumuyla ekstrasellüler hacim genişler, atriyumlar gerilir ve **artan plazma ANP düzeyi** görülür (Olasıdır). B) Artan kan hacmi/basıncı ve makula densaya ulaşan yüksek NaCl yükü jukstaglomerüler hücreleri inhibe ederek **azalan renin sekresyonuna** yol açar (Olasıdır). C) Artan ANP ve azalan anjiyotensin II/aldosteron etkisiyle fazla tuzu idrarla atmak üzere böbrek tübüllerinden **azalan $Na^+$ geri emilimi** (natriürez) gerçekleşir (Olasıdır). E) Ekstrasellüler sıvı ve plazma hacmindeki akut genişleme kalp debisini artırarak geçici/hafif **artan kan basıncı** eğilimi oluşturur (Olasıdır).",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Henle kulbunun inen kolunda pasif su geri emilimi olur.\nII. Henle kulbunun çıkan kolu suya geçirgen değildir.\nIII. Henle kulbunun çıkan kolunda aktif Cl geri emilimi, pasif Na geri emilimi olur.\nHenle kulbunun fonksiyonel özellikleri ile ilgili yukarıdaki ifadelerden hangileri doğrudur?",
+    "options": {
+      "A": "I, II ve III",
+      "B": "I ve III",
+      "C": "I ve II",
+      "D": "Yalnız I",
+      "E": "Yalnız II"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Henle kulbunun inen ince kolu suya yüksek derecede geçirgen olup pasif su geri emilimi gerçekleştirirken, çıkan kolu (özellikle çıkan kalın kol) suya geçirimsizdir ve burada sodyum ile klor bazolateral $Na^+/K^+$-ATPaz ve apikal NKCC2 taşıyıcısı ile aktif/sekonder aktif olarak birlikte emilir; dolayısıyla I ve II. ifadeler doğrudur. Öncüllerin Analizi: I. Henle kulbunun inen kolunda pasif su geri emilimi olur (Doğru): Henle kulbunun inen ince kolu akuaporin-1 kanalları bakımından zengindir ve solütlere geçirimsizdir; tübül sıvısı hiperozmotik renal medullaya doğru inerken ozmotik gradyan etkisiyle suyun yaklaşık %15'i pasif olarak medüller interstisyuma geri emilir ve tübül sıvısı hipertonikleşir. II. Henle kulbunun çıkan kolu suya geçirgen değildir (Doğru): Henle kulbunun çıkan ince ve özellikle çıkan kalın kolunda akuaporin su kanalları bulunmaz, sıkı bağlantıları suya geçirimsizdir; bu nedenle burada sadece tuz emilip su lümende kaldığı için tübül sıvısı hipotonikleşir (\"dilüe edici segment\"). III. Henle kulbunun çıkan kolunda aktif Cl geri emilimi, pasif Na geri emilimi olur (Yanlış): Henle kulbunun çıkan kalın kolunda itici güç bazolateral membrandaki **$Na^+/K^+$-ATPaz pompasının yaptığı primer aktif $Na^+$ taşınmasıdır**; oluşan hücre içi düşük $Na^+$ gradyanı sayesinde apikal membrandaki NKCC2 ($Na^+-K^+-2Cl^-$) kotransporteri ile hem $Na^+$ hem $Cl^-$ (ve $K^+$) sekonder aktif olarak hücre içine alınır (ayrıca $Na^+$'un sadece bir kısmı lümendeki pozitif yük nedeniyle parasellüler pasif emilir; bu nedenle \"$Na^+$ pasif, $Cl^-$ aktif emilir\" şeklindeki eski ve hatalı genelleme yanlıştır). Çeldiriciler: A ve B şıkları yanlış olan III. öncülü içerdiği için; D ve E şıkları ise doğru olan iki öncülden birini eksik bıraktığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi vazopressin (ADH) salgısını artıran faktörlerden biridir?",
+    "options": {
+      "A": "Alkol alımı",
+      "B": "Kan basıncının artışı",
+      "C": "Mide bulantısı ve kusma",
+      "D": "Plazma osmolaritesinin azalması",
+      "E": "Ekstrasellüler sıvı hacminin artışı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): **Mide bulantısı ve kusma**, kemoreseptör tetikleme bölgesi (area postrema) ve beyin sapındaki kusma merkezinden hipotalamusun supraoptik ve paraventriküler çekirdeklerine giden doğrudan nöral uyarılar aracılığıyla arka hipofizden **vazopressin (ADH) salgısını en güçlü ve en hızlı şekilde (bazal düzeyin 100–1000 katına kadar) artıran** ozmotik-dışı uyaranlardan biridir (kusma sonrası gelişecek sıvı kaybına karşı vücudun önceden su tutmasını sağlayan koruyucu bir reflekstir; ağrı, stres, hipoksi ve nikotin/morfin de ADH'yi artırır). Çeldiriciler: A) Alkol (etanol) alımı, hipotalamik magnosellüler nöronlarda voltaj kapılı kalsiyum kanallarını inhibe edip GABAerjik inhibisyonu artırarak ADH salgısını güçlü biçimde baskılar (alkol alımı sonrası görülen poliüri ve dehidratasyonun temel nedenidir). B) Kan basıncının artışı ve E) Ekstrasellüler sıvı (kan) hacminin artışı, arteriyel ve atriyal baroreseptörleri gererek vagal/glossofaringeal aferentler üzerinden ADH salgısını baskılar. D) Plazma osmolaritesinin azalması (hipoozmolarite), hipotalamik osmoreseptörlerin şişmesine (hiperpolarizasyonuna) yol açarak ADH salgısını tamamen durdurur.",
+    "lesson": "Fizyoloji",
+    "unit": "Böbrek Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

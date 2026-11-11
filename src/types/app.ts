@@ -1,4 +1,5 @@
 import type { Question } from '../data';
+import type { TestStage } from '../modules/triaj/types';
 
 export type AppState =
   | 'select-lesson'
@@ -43,6 +44,9 @@ export type ActiveSessionInfo = {
   currentIndex: number;
   mode: 'quiz' | 'exam';
   dailyExamId?: string;
+  triajTaskId?: string;
+  triajSetId?: string;
+  triajStage?: TestStage;
   remainingSeconds?: number;
   simTotalSeconds?: number;
 };
@@ -60,6 +64,9 @@ export type CompactSessionInfo = {
   currentIndex: number;
   mode: 'quiz' | 'exam';
   dailyExamId?: string;
+  triajTaskId?: string;
+  triajSetId?: string;
+  triajStage?: TestStage;
   remainingSeconds?: number;
   simTotalSeconds?: number;
 };

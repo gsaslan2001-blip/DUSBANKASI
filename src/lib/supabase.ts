@@ -554,10 +554,13 @@ export async function loadSessionFromCloud(
   return data?.session_data ?? null;
 }
 
-export async function deleteSessionFromCloud(deviceId: string, userId?: string): Promise<void> {
+export async function deleteSessionFromCloud(
+  deviceId: string, userId?: string, task?: { id: string; setId: string },
+): Promise<void> {
   // Authenticated: user_id ile sil (cihaz bağımsız — tek satır garanti)
   // Anonim: device_id ile sil
   const query = supabase.from('active_sessions').delete();
+  if (task) query.eq('session_data->>triajTaskId', task.id).eq('session_data->>triajSetId', task.setId);
   const { error } = userId
     ? await query.eq('user_id', userId)
     : await query.eq('device_id', deviceId);

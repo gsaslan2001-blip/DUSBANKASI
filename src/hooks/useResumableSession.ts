@@ -7,7 +7,7 @@ import type { Question } from '../data';
 export type UseResumableSessionResult = {
   resumeSessionData: ActiveSessionInfo | null;
   isSessionLoading: boolean;
-  clearResumableSession: () => Promise<void>;
+  clearResumableSession: (task?: { id: string; setId: string }) => Promise<void>;
   saveResumableSession: (session: ActiveSessionInfo) => Promise<void>;
   sessionSaveError: string | null;
 };
@@ -24,6 +24,9 @@ export function toCompact(session: ActiveSessionInfo): CompactSessionInfo {
     currentIndex: session.currentIndex,
     mode: session.mode,
     dailyExamId: session.dailyExamId,
+    triajTaskId: session.triajTaskId,
+    triajSetId: session.triajSetId,
+    triajStage: session.triajStage,
     remainingSeconds: session.remainingSeconds,
     simTotalSeconds: session.simTotalSeconds,
   };
@@ -38,6 +41,7 @@ export function fromCompact(compact: CompactSessionInfo, questionPool: Question[
     questions.push(q);
   }
   if (questions.length === 0) return null;
+  if (compact.triajTaskId && questions.length !== compact.questionIds.length) return null;
 
   const answers = compact.answers
     .map(a => {
@@ -55,6 +59,9 @@ export function fromCompact(compact: CompactSessionInfo, questionPool: Question[
     currentIndex: Math.max(0, idx),
     mode: compact.mode,
     dailyExamId: compact.dailyExamId,
+    triajTaskId: compact.triajTaskId,
+    triajSetId: compact.triajSetId,
+    triajStage: compact.triajStage,
     remainingSeconds: compact.remainingSeconds,
     simTotalSeconds: compact.simTotalSeconds,
   };
@@ -74,7 +81,8 @@ export function isValidCompact(s: CompactSessionInfo): boolean {
   if (typeof s.currentIndex !== 'number') return false;
   if (s.mode !== 'quiz' && s.mode !== 'exam') return false;
   // Tüm sorular bitmişse session geçersiz (temizlenmeli)
-  if (s.answers.length >= s.questionIds.length) return false;
+  if (s.answers.length > s.questionIds.length || (!s.triajTaskId && s.answers.length === s.questionIds.length)) return false;
+  if (s.triajTaskId && !s.triajSetId) return false;
   // currentIndex sınır içinde olmalı
   if (s.currentIndex < 0 || s.currentIndex >= s.questionIds.length) return false;
   return true;
@@ -99,6 +107,7 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
   const saveTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pendingSessionRef = useRef<ActiveSessionInfo | null>(null);
   const accessTokenRef = useRef<string | null>(null);
+  const cloudWrite = useRef<Promise<unknown>>(Promise.resolve());
 
   const loadResumableSession = useCallback(async (uid?: string | null, pool?: Question[]) => {
     setIsSessionLoading(true);
@@ -125,7 +134,7 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
           return;
         }
         const session = fromCompact(cloud, available);
-        if (!session || session.answers.length >= session.questions.length) {
+        if (!session || (!session.triajTaskId && session.answers.length >= session.questions.length)) {
           await deleteSessionFromCloud(deviceId, uid ?? undefined).catch(() => {});
           setResumeSessionData(null);
         } else {
@@ -170,7 +179,9 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
 
     try {
       const compact = toCompact(session);
-      await saveSessionToCloud(getDeviceId(), compact, userId ?? undefined);
+      const write = cloudWrite.current.then(() => saveSessionToCloud(getDeviceId(), compact, userId ?? undefined));
+      cloudWrite.current = write.catch(() => {});
+      await write;
       setSessionSaveError(null);
     } catch (err) {
       // PostgrestError instanceof Error değil — düzgün serialize et
@@ -190,27 +201,35 @@ export function useResumableSession(userId?: string | null, questionPool?: Quest
     }
   }, [userId]);
 
-  const clearResumableSession = useCallback(async () => {
-    pendingSessionRef.current = null;
-    if (saveTimerRef.current) {
-      clearTimeout(saveTimerRef.current);
-      saveTimerRef.current = null;
+  const clearResumableSession = useCallback(async (task?: { id: string; setId: string }) => {
+    const matches = (session: ActiveSessionInfo | null) => !task ||
+      (session?.triajTaskId === task.id && session?.triajSetId === task.setId);
+    if (matches(pendingSessionRef.current)) {
+      pendingSessionRef.current = null;
+      if (saveTimerRef.current) {
+        clearTimeout(saveTimerRef.current);
+        saveTimerRef.current = null;
+      }
     }
     try {
-      await deleteSessionFromCloud(getDeviceId(), userId ?? undefined);
+      const write = cloudWrite.current.then(() => deleteSessionFromCloud(getDeviceId(), userId ?? undefined, task));
+      cloudWrite.current = write.catch(() => {});
+      await write;
     } catch {
       // ignore
     }
-    setResumeSessionData(null);
+    setResumeSessionData(session => matches(session) ? null : session);
     setSessionSaveError(null);
   }, [userId]);
 
   const saveResumableSession = useCallback(async (session: ActiveSessionInfo) => {
-    if (session.answers.length >= session.questions.length) {
+    if (!session.triajTaskId && session.answers.length >= session.questions.length) {
       setResumeSessionData(null);
       pendingSessionRef.current = null;
       try {
-        await deleteSessionFromCloud(getDeviceId(), userId ?? undefined);
+        const write = cloudWrite.current.then(() => deleteSessionFromCloud(getDeviceId(), userId ?? undefined));
+        cloudWrite.current = write.catch(() => {});
+        await write;
       } catch {
         // ignore
       }

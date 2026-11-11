@@ -70,8 +70,8 @@ describe('simulationEngine', () => {
 
     // Birebir branş adetleri
     expect(temelQuotas.find(q => q.key === 'Anatomi')?.count).toBe(6);
-    expect(temelQuotas.find(q => q.key === 'Histoloji')?.count).toBe(4);
-    expect(temelQuotas.find(q => q.key === 'Fizyoloji')?.count).toBe(6);
+    expect(temelQuotas.find(q => q.key === 'Histoloji')).toBeUndefined();
+    expect(temelQuotas.find(q => q.key === 'Fizyoloji')?.count).toBe(10);
     expect(temelQuotas.find(q => q.key === 'Biyokimya')?.count).toBe(10);
     expect(temelQuotas.find(q => q.key === 'Mikrobiyoloji')?.count).toBe(6);
     expect(temelQuotas.find(q => q.key === 'Patoloji')?.count).toBe(4);
@@ -90,7 +90,7 @@ describe('simulationEngine', () => {
     expect(resolveCanonicalLesson('Protetik Diş Tedavisi')).toBe('Protez');
     expect(resolveCanonicalLesson('Çocuk Diş Hekimliği')).toBe('Pedodonti');
     expect(resolveCanonicalLesson('Pedodonti Cikmis')).toBe('Pedodonti');
-    expect(resolveCanonicalLesson('Histoloji ve Embriyoloji')).toBe('Histoloji');
+    expect(resolveCanonicalLesson('Histoloji ve Embriyoloji')).toBe('Fizyoloji');
   });
 
   it('Doğru yapılan soruları mastered havuzuna ekler ve okur', () => {
@@ -144,10 +144,8 @@ describe('simulationEngine', () => {
     // DUS 2020 Orijinal Kitapçık Sıralaması Birebir Kontrolü:
     // 1-6: Anatomi (6)
     expect(pool.slice(0, 6).every(q => q.lesson === 'Anatomi')).toBe(true);
-    // 7-10: Histoloji (4)
-    expect(pool.slice(6, 10).every(q => q.lesson === 'Histoloji')).toBe(true);
-    // 11-16: Fizyoloji (6)
-    expect(pool.slice(10, 16).every(q => q.lesson === 'Fizyoloji')).toBe(true);
+    // 7-16: birleşik Fizyoloji, Histoloji ve Embriyoloji havuzu
+    expect(pool.slice(6, 16).every(q => q.lesson === 'Fizyoloji')).toBe(true);
     // 17-22: Biyokimya 1. Blok (6)
     expect(pool.slice(16, 22).every(q => q.lesson === 'Biyokimya')).toBe(true);
     // 23-28: Mikrobiyoloji (6)

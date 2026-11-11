@@ -10,10 +10,10 @@ import {
 } from '../../config/canonicalUnits';
 
 describe('Çıkmış Modu — Kanonik Müfredat ve Eşleme Testleri', () => {
-  it('Kanonik dersler listesi tüm 14 ana dersi içerir', () => {
+  it('Kanonik dersler listesi birleşik Fizyoloji dahil ana dersleri içerir', () => {
     const requiredLessons = [
       'Anatomi', 'Biyokimya', 'Cerrahi', 'Endodonti', 'Fizyoloji',
-      'Histoloji', 'Mikrobiyoloji', 'Ortodonti', 'Patoloji',
+      'Mikrobiyoloji', 'Ortodonti', 'Patoloji',
       'Pedodonti', 'Periodontoloji', 'Protez', 'Radyoloji', 'Restoratif'
     ];
     for (const lesson of requiredLessons) {
@@ -21,6 +21,8 @@ describe('Çıkmış Modu — Kanonik Müfredat ve Eşleme Testleri', () => {
       expect(CANONICAL_UNITS[lesson]).toBeDefined();
       expect(CANONICAL_UNITS[lesson].length).toBeGreaterThan(0);
     }
+    expect(CANONICAL_LESSONS).not.toContain('Histoloji');
+    expect(CANONICAL_UNITS.Fizyoloji).toContain('Histoloji - Epitel Doku');
   });
 
   it('isCikmisQuestion quality_flag veya ders adına göre doğru filtreler', () => {

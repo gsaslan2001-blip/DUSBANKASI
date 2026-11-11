@@ -1,0 +1,706 @@
+[
+  {
+    "question": "Proteinlerin sentez sonrası modifikasyonlarının gerçekleştiği organeller aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Golgi – Hücre zarı",
+      "B": "Çekirdek – Lizozom",
+      "C": "Endoplazmik retikulum – Golgi",
+      "D": "Golgi – Mitokondri",
+      "E": "Mitokondri – Lizozom"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Proteinlerin sentez sonrası (post-translasyonel) temel modifikasyonları olan doğru katlanma, disülfit bağlarının oluşturulması ve başlangıç (N-bağlı) glikozilasyon işlemleri granüllü endoplazmik retikulumda (GER) gerçekleşir. Sentezlenen bu proteinlerin ileri düzenlenmesi (O-bağlı glikozilasyon, mannoz-6-fosfat eklenmesi gibi), sınıflandırılması ve hedeflerine gönderilmek üzere veziküller halinde paketlenmesi ise Golgi aygıtında yapılır.\nÇeldiriciler:\n- A) Golgi aygıtı ileri modifikasyon ve paketlemede görev alırken, hücre zarı seçici geçirgen bariyer ve sinyal iletimi görevi görür; post-translasyonel modifikasyon yeri değildir.\n- B) Çekirdek DNA replikasyonu ve transkripsiyonun (RNA sentezi) gerçekleştiği yerdir; lizozom ise asidik hidrolazlarıyla hücre içi sindirimden sorumludur.\n- D) Golgi aygıtı modifikasyon yapar ancak mitokondri oksidatif fosforilasyon ile hücresel ATP üretiminden sorumlu organeldir.\n- E) Mitokondri enerji üretimi, lizozom ise makromoleküllerin ve yaşlanmış organellerin yıkımı (sindirim) ile ilişkilidir; ikisi de proteinlerin post-translasyonel modifikasyon merkezi değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, ekstraselüler sıvıda en fazla bulunan iyondur?",
+    "options": {
+      "A": "$\\text{Na}^+$",
+      "B": "$\\text{K}^+$",
+      "C": "$\\text{Ca}^{2+}$",
+      "D": "$\\text{Mg}^{2+}$",
+      "E": "$\\text{Cl}^-$"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Vücut sıvı kompartmanlarında ekstraselüler sıvının (hücre dışı sıvı) en yüksek konsantrasyona sahip başlıca katyonu ve en bol bulunan iyonu sodyumdur ($\\text{Na}^+$, yaklaşık 140-142 mEq/L). Ekstraselüler sıvı osmolalitesinin ve hacminin en temel belirleyicisidir.\nÇeldiriciler:\n- B) $\\text{K}^+$ (Potasyum), ekstraselüler sıvıda çok düşük (yaklaşık 4 mEq/L) düzeyde bulunurken, intraselüler (hücre içi) sıvıda en fazla bulunan katyondur (yaklaşık 140 mEq/L).\n- C) $\\text{Ca}^{2+}$ (Kalsiyum), ekstraselüler sıvıda düşük konsantrasyonda (yaklaşık 2.4 mEq/L) bulunur; temel özelliği hücre dışı/hücre içi konsantrasyon oranının (yaklaşık 10.000 kat) en yüksek olduğu iyon olmasıdır.\n- D) $\\text{Mg}^{2+}$ (Magnezyum), hücre içi sıvıda potasyumdan sonra en çok bulunan ikinci katyondur; ekstraselüler sıvıdaki miktarı oldukça düşüktür.\n- E) $\\text{Cl}^-$ (Klor), ekstraselüler sıvıda en fazla bulunan anyondur (yaklaşık 103 mEq/L), ancak toplam konsantrasyon açısından sodyumun ($\\text{Na}^+$) gerisindedir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hormonlardan hangisi, G protein aracılı olmayan hücre içi sinyal iletimi mekanizmalarıyla hedef hücreye etki eder?",
+    "options": {
+      "A": "Vazopressin",
+      "B": "Anjiyotensin II",
+      "C": "Tiroid stimüle edici hormon",
+      "D": "Glukagon",
+      "E": "Leptin"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Yağ dokusundan salgılanan leptin, sitokin reseptör ailesine ait bir membran reseptörüne bağlanır ve G proteini kullanmaksızın sitoplazmik tirozin kinaz olan JAK-STAT (Janus kinaz - Sinyal dönüştürücü ve transkripsiyon aktivatörü) yolağı üzerinden hücre içi sinyal iletimi gerçekleştirir. Aynı yolak büyüme hormonu (GH), prolaktin, eritropoietin (EPO) ve sitokinler tarafından da kullanılır.\nÇeldiriciler:\n- A) Vazopressin (ADH), G proteini kenetli reseptörler üzerinden etki gösterir; $\\text{V}_1$ reseptörleri $\\text{G}_\\text{q}$ ($\\text{IP}_3$/DAG-$\\text{Ca}^{2+}$), $\\text{V}_2$ reseptörleri ise $\\text{G}_\\text{s}$ (adenilat siklaz-cAMP) yolağını aktive eder.\n- B) Anjiyotensin II, temel fizyolojik etkilerini $\\text{AT}_1$ reseptörü aracılığıyla $\\text{G}_\\text{q}$ proteinini ve fosfolipaz C ($\\text{IP}_3$/DAG) yolağını aktive ederek gösterir.\n- C) Tiroid stimüle edici hormon (TSH), hedef folikül hücrelerinde $\\text{G}_\\text{s}$ proteini kenetli reseptörüne bağlanarak adenilat siklaz-cAMP ikincil haberci sistemini çalıştırır.\n- D) Glukagon, hepatosit membranında $\\text{G}_\\text{s}$ proteini ile eşleşmiş reseptörünü uyararak hücre içi cAMP düzeyini ve protein kinaz A aktivitesini artırır.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki taşınma örneklerinden hangisinde, doğrudan veya dolaylı olarak enerji kullanılmaz?",
+    "options": {
+      "A": "Paryetal hücreden lümene $\\text{HCl}$ salınımı",
+      "B": "Fruktozun bağırsak lümeninden intestinal hücreye girmesi",
+      "C": "Kalsiyumun sarkoplazmik retikuluma taşınması",
+      "D": "Distal tübül hücresinden lümene hidrojen sekresyonu",
+      "E": "Sinir hücresinde sodyumun ekstraselüler ortama geçmesi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Fruktozun ince bağırsak lümeninden enterosit (intestinal epitel hücresi) içerisine alınması, apikal membranda yer alan GLUT-5 taşıyıcı proteini aracılığıyla konsantrasyon gradiyenti yönünde gerçekleşen kolaylaştırılmış difüzyondur. Bu taşıma pasif bir süreçtir; doğrudan (ATP hidrolizi) veya dolaylı ($\\text{Na}^+$ gradiyenti) olarak metabolik enerji gerektirmez.\nÇeldiriciler:\n- A) Paryetal hücreden mide lümenine $\\text{H}^+$ salınımı, apikal membrandaki $\\text{H}^+/\\text{K}^+\\text{-ATPaz}$ (proton pompası) ile gerçekleşen primer aktif taşıma örneğidir ve doğrudan ATP harcanır.\n- C) Kalsiyumun sitoplazmadan sarkoplazmik retikulum lümenine geri pompalanması, SERCA ($\\text{Ca}^{2+}\\text{-ATPaz}$) pompası ile yapılan primer aktif taşımadır ve doğrudan ATP kullanır.\n- D) Böbrek distal tübül ve toplayıcı kanallarında lümene hidrojen ($\\text{H}^+$) sekresyonu, lümene karşı $\\text{H}^+\\text{-ATPaz}$ ve $\\text{H}^+/\\text{K}^+\\text{-ATPaz}$ (primer aktif) veya proksimal/distal bölgelerde $\\text{Na}^+/\\text{H}^+$ antiportu (sekonder aktif) ile gerçekleşir; her iki durumda da enerji kullanılır.\n- E) Sinir hücresinde hücre içindeki sodyumun ($\\text{Na}^+$) konsantrasyon ve elektriksel gradiyente zıt yönde ekstraselüler ortama atılması, $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ pompası ile gerçekleşen primer aktif bir süreçtir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Sinir hücrelerinin sitoplazmasında görülen ve Nissl cisimciği olarak adlandırılan yapı aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Mitokondri",
+      "B": "Lizozom",
+      "C": "Granüllü endoplazmik retikulum",
+      "D": "Nükleus",
+      "E": "Golgi cisimciği"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Nissl cisimcikleri, nöronların hücre gövdesinde (soma/perikaryon) ve dendritlerin başlangıç kısımlarında bazofilik (hematoksilen veya kreziI viyole ile koyu boyanan) granüller halinde izlenen, yoğun granüllü endoplazmik retikulum (GER) sisternaları ve serbest poliribozom kümeleridir. Nöronlarda nörotransmitter enzimleri ve yapısal proteinlerin sentezinin çok yüksek olduğunu gösterir; akson tepeciği (akson hillock) ve akson boyunca bulunmazlar.\nÇeldiriciler:\n- A) Mitokondri, nöronun hem gövdesinde hem de akson terminallerinde bolca bulunan ve ATP sentezleyen organeldir; bazofilik Nissl cisimciklerini oluşturmaz.\n- B) Lizozom, hücre içi sindirimden sorumlu asidik veziküllerdir; yaşlanan nöronlarda sindirilemeyen atıkların birikmesiyle lipofuskin (yaşlılık pigmenti) granüllerini oluştururlar.\n- D) Nükleus (çekirdek), nöron gövdesinin merkezinde yer alan, yoğun transkripsiyon nedeniyle tipik olarak ökromatik (açık renkli) görünen ve belirgin çekirdekçiğe (baykuş gözü görünümü) sahip yapıdır.\n- E) Golgi cisimciği, GER'de sentezlenen proteinlerin paketlendiği ve aksonal transport için veziküllere ayrıldığı organeldir; bazofilik rRNA içermediği için Nissl cisimciği olarak görülmez.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "2 L %2,9 $\\text{NaCl}$ solüsyonunun intravenöz uygulanmasıyla osmotik denge sağlandıktan sonra aşağıdakilerden hangisi gerçekleşir?",
+    "options": {
+      "A": "Toplam vücut sıvı hacmi azalır.",
+      "B": "Hücre içi sıvı hacmi artarken, hücre dışı azalır.",
+      "C": "Hücre içi sıvı hacmi azalırken, hücre dışı artar.",
+      "D": "Hücre içi sıvı hacmi değişmezken, hücre dışı artar.",
+      "E": "Hücre içi ve dışı hacimler eşit oranda artar."
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): %0,9 $\\text{NaCl}$ izotonik iken, %2,9 $\\text{NaCl}$ solüsyonu belirgin şekilde hipertoniktir. İntravenöz olarak hipertonik $\\text{NaCl}$ verildiğinde, $\\text{Na}^+$ iyonları hücre dışı sıvıda (ECF) kaldığı için önce ekstraselüler sıvı osmolalitesi hızla artar. Osmotik dengeyi sağlamak amacıyla su, osmolalitesi daha düşük olan intraselüler sıvıdan (ICF) ekstraselüler sıvıya (ECF) doğru geçiş yapar. Sonuçta hücre içi sıvı hacmi azalırken (hücreler büzüşür), hücre dışı sıvı hacmi hem verilen 2 litrelik sıvı hem de hücre içinden çekilen su nedeniyle belirgin şekilde artar.\nÇeldiriciler:\n- A) Vücuda dışarıdan 2 litre sıvı eklendiği için toplam vücut sıvı hacmi azalmaz, tam aksine verilen hacim kadar artar.\n- B) Hücre içi sıvı hacminin artıp hücre dışının azalması hipertonik sıvı verilmesinde değil, tuz kaybı (hipoosmotik dehidratasyon) gibi ekstraselüler osmolalitenin düştüğü durumlarda suyun hücre içine kaçmasıyla görülür.\n- D) Hücre içi sıvı hacminin değişmeyip sadece hücre dışı sıvı hacminin artması, osmotik su kaymasına yol açmayan izotonik (%0,9 $\\text{NaCl}$) sıvı infüzyonunda görülür.\n- E) Verilen hipertonik tuz solüsyonundaki $\\text{NaCl}$ hücre zarından serbestçe geçemediği ve ECF'de kaldığı için, su hücre içinden dışarı çekilir; her iki kompartmanın eşit oranda artması mümkün değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki iyonlardan hangisinin, hücre dışı sıvıdaki konsantrasyonunun hücre içi sıvıdaki konsantrasyonuna oranı en fazladır?",
+    "options": {
+      "A": "$\\text{Na}^+$",
+      "B": "$\\text{K}^+$",
+      "C": "$\\text{Ca}^{2+}$",
+      "D": "$\\text{Mg}^{2+}$",
+      "E": "$\\text{Cl}^-$"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Ekstraselüler sıvı / intraselüler sıvı konsantrasyon oranı (gradiyenti) en büyük olan iyon kalsiyumdur ($\\text{Ca}^{2+}$). Ekstraselüler sıvıda serbest $\\text{Ca}^{2+}$ konsantrasyonu yaklaşık $1 - 2\\text{ mM}$ ($10^{-3}\\text{ M}$) düzeyindeyken, istirahat halindeki hücre içi (sitozolik) serbest $\\text{Ca}^{2+}$ konsantrasyonu yaklaşık $100\\text{ nM}$ ($10^{-7}\\text{ M}$) civarındadır. Bu yaklaşık 10.000 katlık devasa fark, hücre zarındaki ve endoplazmik retikulumdaki $\\text{Ca}^{2+}\\text{-ATPaz}$ pompaları ile korunur ve kalsiyumun hücre içi ikincil haberci olarak hızla görev yapabilmesini sağlar.\nÇeldiriciler:\n- A) $\\text{Na}^+$ ekstraselüler sıvıda en yüksek miktarda bulunan katyondur (ECF: $\\sim 140\\text{ mEq/L}$, ICF: $\\sim 14\\text{ mEq/L}$), ancak hücre dışı/hücre içi oranı yaklaşık 10 kattır ve kalsiyumun oranından çok düşüktür.\n- B) $\\text{K}^+$ intraselüler sıvının ana katyonudur (ICF: $\\sim 140\\text{ mEq/L}$, ECF: $\\sim 4\\text{ mEq/L}$); dolayısıyla hücre dışı/hücre içi oranı 1'den küçüktür ($\\sim 1/35$).\n- D) $\\text{Mg}^{2+}$ hücre içinde hücre dışına göre daha yüksek konsantrasyonda bulunan bir katyondur; bu nedenle hücre dışı/hücre içi oranı 1'in altındadır.\n- E) $\\text{Cl}^-$ ekstraselüler sıvıda yaklaşık $103\\text{ mEq/L}$, hücre içinde ise $4\\text{ mEq/L}$ civarında bulunur; oranı ($\\sim 25\\text{ kat}$) kalsiyumun binlerce katlık oranının çok gerisindedir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karaciğerde toksik maddelerin temizlenmesini sağlayan, ilaç detoksifikasyonundan sorumlu karaciğer hücre organeli hangisidir?",
+    "options": {
+      "A": "Granülsüz endoplazmik retikulum",
+      "B": "Granüllü endoplazmik retikulum",
+      "C": "Golgi",
+      "D": "Ribozom",
+      "E": "Mitokondri"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hepatositlerde (karaciğer hücrelerinde) ilaçların, alkolün, barbitüratların ve diğer lipofilik ksenobiyotiklerin hidroksilasyon ve oksidasyon yoluyla suda çözünür hale getirilerek detoksifiye edilmesi, granülsüz (düz) endoplazmik retikulum (DER) membranında yer alan Sitokrom P450 (CYP) monooksijenaz enzim sistemi tarafından gerçekleştirilir. Ayrıca DER; steroid hormon sentezi, fosfolipit/kolesterol sentezi, glikojenoliz (glukoz-6-fosfataz içerir) ve kaslarda kalsiyum depolanmasında (sarkoplazmik retikulum) görev alır.\nÇeldiriciler:\n- B) Granüllü endoplazmik retikulum (GER), üzerinde ribozomlar taşır ve salgı proteinleri, lizozomal enzimler ile integral membran proteinlerinin sentezinden ve başlangıç glikozilasyonundan sorumludur.\n- C) Golgi aygıtı, proteinlerin ileri post-translasyonel modifikasyonunu, sınıflandırılmasını ve salgı veziküllerine paketlenmesini sağlar.\n- D) Ribozom, mRNA kalıbını kullanarak aminoasitlerden polipeptit zinciri sentezleyen (translasyon) zarsız organeldir.\n- E) Mitokondri, sitrik asit döngüsü, yağ asidi beta-oksidasyonu ve oksidatif fosforilasyon yoluyla hücresel enerji (ATP) üretim merkezidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Yanlış katlanmış (denatüre) veya anormal polipeptidlerin hücre içerisinde yıkıldığı hücre içi organel aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Granülsüz endoplazmik retikulum",
+      "B": "Lizozom",
+      "C": "Proteozom",
+      "D": "Golgi cismi",
+      "E": "Peroksizom"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hücre içerisinde yanlış katlanmış, denatüre olmuş, hasarlı veya ömrünü tamamlamış endojen sitozolik proteinler, önce kovalent olarak \"ubikuitin\" (ubiquitin) adlı küçük bir polipeptit ile işaretlenir. Ubikuitinlenmiş bu proteinler, sitoplazmada ve çekirdekte bulunan zarsız, fıçı şeklindeki \"proteozom\" (proteazom) kompleksleri tarafından tanınır ve ATP harcanarak küçük peptitlere parçalanır.\nÇeldiriciler:\n- A) Granülsüz endoplazmik retikulum; lipit/steroid sentezi, kalsiyum depolanması ve ilaç detoksifikasyonunda görev alır, polipeptit yıkım yeri değildir.\n- B) Lizozom; ubikuitin-proteozom sisteminden farklı olarak ATP bağımlı olmayan asidik hidrolazlar içerir ve ağırlıklı olarak endositoz/fagositozla hücre dışından alınan maddeleri ve otofaji ile yaşlanmış organelleri parçalar.\n- D) Golgi cismi; proteinlerin yıkımında değil, glikozilasyon, sülfatasyon ve hedeflerine yönlendirilmek üzere paketlenmesinde rol oynar.\n- E) Peroksizom; çok uzun zincirli yağ asitlerinin beta-oksidasyonu, plazmalojen sentezi ve katalaz enzimi ile hidrojen peroksit ($\\text{H}_2\\text{O}_2$) detoksifikasyonunu gerçekleştirir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, lipidlerin hem tespitini hem de boyanmasını sağlar?",
+    "options": {
+      "A": "Gümüşleme",
+      "B": "Carnoy",
+      "C": "Osmium tetroksid",
+      "D": "Nötral formalin",
+      "E": "Hematoksilen-eozin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Rutin histolojik doku takibinde kullanılan alkol ve ksilen gibi organik çözücüler lipitleri eriterek dokudan uzaklaştırır. Osmium tetroksid ($\\text{OsO}_4$), doymamış yağ asitlerindeki çift bağlarla çapraz bağlanarak lipitleri (özellikle miyelin kılıfı ve yağ damlacıklarını) hem çözünmeye karşı stabilize eder (fiksasyon/tespit sağlar) hem de indirgenerek dokuyu siyah renge boyar. Özellikle elektron mikroskobisinde ikincil fiksatif ve kontrast maddesi olarak yaygın kullanılır.\nÇeldiriciler:\n- A) Gümüşleme; retiküler lifleri (Tip III kollajen), Golgi aygıtını ve nörofibrilleri siyah/kahverengi göstermek için kullanılan bir boyama yöntemidir, lipit fiksatifi değildir.\n- B) Carnoy; etanol, kloroform ve glasiyel asetik asit içeren, glikojen ve nükleik asit tespiti için ideal olan ancak içeriğindeki kloroform ve alkol nedeniyle lipitleri hızla eriten bir fiksatiftir.\n- D) Nötral formalin; proteinler arasında çapraz bağlar kurarak rutin doku tespitinde en sık kullanılan fiksatiftir, ancak lipitleri ne boyar ne de organik çözücülerde erimekten tam olarak korur.\n- E) Hematoksilen-eozin; rutin histolojik boyamadır ve doku takibi sırasında lipitler eridiği için yağ hücreleri bu boyamada boyanmamış boşluklar (\"taşlı yüzük\" görünümü) şeklinde izlenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hücre organellerinin kendi lizozomu tarafından parçalanması olayına ne ad verilir?",
+    "options": {
+      "A": "Detoksifikasyon",
+      "B": "Pinositoz",
+      "C": "Otofaji",
+      "D": "Ekzositoz",
+      "E": "Fagositoz"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hücrenin kendi yaşlanmış, hasar görmüş veya işlevini yitirmiş organellerini (örneğin mitokondri, ER) ve sitoplazmik protein komplekslerini çift katlı bir membranla (genellikle ER kaynaklı) sararak \"otofagozom\" oluşturması ve bu yapının lizozomla birleşerek (\"otofagolizozom\") kendi lizozomal hidrolazları tarafından sindirilmesi sürecine otofaji (öz sindirim) denir. Hücre yenilenmesi ve açlık durumlarında hayatta kalma için kritik bir mekanizmadır.\nÇeldiriciler:\n- A) Detoksifikasyon; ilaç ve toksinlerin düz endoplazmik retikulum (Sitokrom P450) ve peroksizom (katalaz) enzimleriyle zararsız hale getirilmesi sürecidir.\n- B) Pinositoz (\"hücresel içme\"); hücre dışı sıvının ve içinde çözünmüş küçük moleküllerin hücre zarı invajinasyonlarıyla küçük veziküller halinde hücre içine alınmasıdır.\n- D) Ekzositoz; hücre içi salgı veziküllerinin kalsiyum bağımlı olarak hücre zarı ile kaynaşıp (SNARE proteinleri aracılığıyla) içeriklerini hücre dışına boşaltmasıdır.\n- E) Fagositoz (\"hücresel yeme\"); bakteri, ölü hücre veya büyük partiküllerin hücre dışından psödopodlar (yalancı ayaklar) aracılığıyla fagozom içine alınarak lizozomla parçalanmasıdır.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Bağ dokusundaki kollajen lifleri göstermek için kullanılan boyama aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Hematoksilen-eozin",
+      "B": "Ozmiyum tetroksit",
+      "C": "Sudan siyahı",
+      "D": "Weigert",
+      "E": "Masson trikrom"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Bağ dokusundaki kollajen lifleri kas ve epitel dokusundan ayırt ederek belirgin şekilde göstermek için kullanılan klasik özel histolojik boyama Masson trikromdur. Bu üçlü boyama yönteminde çekirdekler siyah/koyu kahverengi, kas ve sitoplazma kırmızı, kollajen lifleri ise kullanılan boya varyantına (anilin mavisi veya ışık yeşili) bağlı olarak belirgin mavi veya yeşil renkte boyanır. (Mallory trikrom ve Van Gieson da kollajen boyamada kullanılır).\nÇeldiriciler:\n- A) Hematoksilen-eozin; rutin genel doku boyasıdır, kollajen liflerini eozin ile pembe boyar ancak kas ve sitoplazmadan spesifik olarak ayırt ettirmez.\n- B) Ozmiyum tetroksit; doymamış lipitleri ve miyelin kılıfı siyah renkte tespit edip boyayan maddedir.\n- C) Sudan siyahı (Sudan Black) ve Oil Red O; dondurma kesitlerinde erimeden korunan lipit damlacıklarını ve miyelini boyamak için kullanılır.\n- D) Weigert (rezorsin-fuksin), Verhoeff ve Orsein boyaları; kollajen liflerini değil, bağ dokusundaki ve damar duvarındaki elastik lifleri spesifik olarak boyamak için kullanılır.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi hücrede reseptör aracılı endositozda rol almaz?",
+    "options": {
+      "A": "Kargo reseptör",
+      "B": "Örtülü çukurlar",
+      "C": "Veziküle özgü membran proteini",
+      "D": "Adaptin",
+      "E": "Klatrin"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Veziküle özgü membran proteini (v-SNARE / sinaptobrevin), hücre içine madde alınmasında (reseptör aracılı endositoz) değil, hücre içindeki taşıyıcı/salgı veziküllerinin hedef membran (t-SNARE / sintaksin, SNAP-25) ile tanışıp kaynaşmasında (membran füzyonu ve ekzositoz aşamalarında) görev alır. Reseptör aracılı endositoz (örneğin LDL, transferrin, B12 vitamini alımı) klatrin kaplı çukurlar üzerinden yürür.\nÇeldiriciler:\n- A) Kargo reseptör; hücre dışındaki spesifik ligandı (kargoyu) bağlayarak endositoz sürecini başlatan transmembran reseptörüdür.\n- B) Örtülü çukurlar (coated pits); hücre zarında kargo reseptörlerinin toplandığı ve sitoplazmik yüzeyi klatrin ile kaplanarak içeri doğru çöken özel zar bölgeleridir.\n- D) Adaptin; kargo reseptörünün sitoplazmik kuyruğunu tanıyan ve onu klatrin moleküllerine bağlayan aracı (adaptör) proteindir.\n- E) Klatrin; örtülü çukurların sitoplazmik yüzünde kafes (sepet) benzeri bir yapı oluşturarak zarın vezikül şeklinde tomurcuklanmasını sağlayan temel kaplama proteinidir (vezikülü zardan koparan GTPaz ise dinamindir).",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki madde geçişlerinin hangisinde metabolik enerji kullanılır?",
+    "options": {
+      "A": "Aksiyon potansiyeli sırasında hücre içine sodyum girişi",
+      "B": "İskelet kasında sarkoplazmik retikuluma kalsiyum girişi",
+      "C": "İşitme reseptörlerinde tüycüklerin hareketiyle hücreye potasyum girişi",
+      "D": "Fruktozun lümenden bağırsak epiteline girişi",
+      "E": "Presinaptik nörondan salınan nitrik oksitin postsinaptik nörona girişi"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): İskelet kasının gevşemesi sırasında sitoplazmadaki kalsiyum ($\\text{Ca}^{2+}$) iyonlarının düşük konsantrasyondan çok daha yüksek konsantrasyona sahip olan sarkoplazmik retikulum (SR) lümenine geri pompalanması, SR membranındaki SERCA ($\\text{Ca}^{2+}\\text{-ATPaz}$) pompası tarafından gerçekleştirilir. Bu işlem konsantrasyon gradiyentine karşı yapılan primer aktif bir taşımadır ve doğrudan metabolik enerji (ATP hidrolizi) kullanılır.\nÇeldiriciler:\n- A) Aksiyon potansiyelinin depolarizasyon fazında hücre içine $\\text{Na}^+$ girişi, voltaj kapılı $\\text{Na}^+$ kanallarının açılmasıyla elektrokimyasal gradiyent yönünde gerçekleşen basit difüzyondur; enerji harcanmaz.\n- C) İç kulaktaki Corti organında tüy hücrelerinin stereosilyalarının eğilmesiyle mekanik kapılı katyon kanallarından hücre içine endolenften $\\text{K}^+$ girişi, elektrokimyasal gradiyent yönünde pasif difüzyonla olur.\n- D) Fruktozun bağırsak lümeninden enterosit içine alınması, GLUT-5 taşıyıcısı ile gerçekleşen kolaylaştırılmış difüzyondur ve enerji gerektirmez.\n- E) Nitrik oksit (NO), lipofilik (yağda çözünen) bir gaz olduğu için hiçbir taşıyıcıya veya enerjiye ihtiyaç duymadan hücre zarının fosfolipit tabakasından doğrudan basit difüzyonla geçer.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Ortam sıcaklığı\nII. Zar kalınlığı\nIII. Molekülün yağda çözünürlüğü\nIV. Molekülün yarıçapı\n\nFizyolojik sınırlar içinde olmak koşuluyla yukarıdakilerden hangilerinin artması, bir molekülün hücre zarından difüzyon hızını artırır?",
+    "options": {
+      "A": "Yalnız III",
+      "B": "I ve II",
+      "C": "I ve III",
+      "D": "II ve IV",
+      "E": "III ve IV"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Fick'in difüzyon yasasına ve Stokes-Einstein denklemine göre bir molekülün biyolojik membranlardan net difüzyon hızı; konsantrasyon farkı, membran yüzey alanı, ortam sıcaklığı ve molekülün yağda çözünürlüğü (lipofilitesi) ile doğru orantılıdır. Buna karşılık membran kalınlığı ve molekülün yarıçapı (molekül ağırlığı) ile ters orantılıdır. Dolayısıyla I. ve III. öncüllerin artması difüzyon hızını artırır.\nÖncüllerin Analizi:\n- I. Ortam sıcaklığı: Fizyolojik sınırlar içinde (proteinleri denatüre etmediği sürece) sıcaklığın artması moleküllerin termal kinetik enerjisini ve hareketliliğini artırarak difüzyon hızını artırır (Doğru).\n- II. Zar kalınlığı: Difüzyon mesafesini uzattığı için zar kalınlığının artması difüzyon hızını azaltır (Yanlış).\n- III. Molekülün yağda çözünürlüğü: Hücre zarının merkezi hidrofobik fosfolipit kuyruklarından oluştuğu için molekülün lipofilitesinin (yağ/su partisyon katsayısının) artması zardan geçiş hızını doğrudan artırır (Doğru).\n- IV. Molekülün yarıçapı: Molekül büyüdükçe sürtünme direnci artar ve difüzyon katsayısı düşer; bu nedenle yarıçapın artması difüzyon hızını azaltır (Yanlış).\nÇeldiriciler:\n- A) Yalnız III seçeneği doğru bir faktörü içermekle birlikte, difüzyon hızını artıran ortam sıcaklığını (I) dışarıda bıraktığı için eksiktir.\n- B) Zar kalınlığının (II) artması difüzyon yolunu uzatarak geçiş hızını düşürür.\n- D) Hem zar kalınlığının (II) hem de molekül yarıçapının (IV) artması difüzyon hızını azaltan faktörlerdir.\n- E) Molekülün yağda çözünürlüğü (III) difüzyonu hızlandırırken, molekül yarıçapının (IV) artması difüzyonu yavaşlatır.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki boyalardan hangisi DNA'yı işaretler?",
+    "options": {
+      "A": "Verhoeff",
+      "B": "Mallory trichrom",
+      "C": "Eozin",
+      "D": "Feulgen",
+      "E": "Asit fosfataz"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Feulgen reaksiyonu, hücre çekirdeğindeki DNA'yı spesifik ve stokiyometrik (miktarla orantılı) olarak boyayan histokimyasal bir yöntemdir. Bu yöntemde kesitler önce hafif hidroklorik asit ($\\text{HCl}$) hidrolizine tabi tutularak DNA'daki deoksiriboz şekerinden pürin bazları koparılır ve serbest aldehit grupları açığa çıkarılır. Ardından renksiz Schiff reaktifi bu aldehit gruplarıyla reaksiyona girerek DNA'yı (kromatini) parlak kırmızı-mor (magenta) renkte boyar. RNA'da riboz şekeri bulunduğu için bu hafif asit hidroliziyle aldehit oluşturmaz ve Feulgen ile boyanmaz.\nÇeldiriciler:\n- A) Verhoeff boyası; DNA'yı değil, bağ dokusundaki ve arter duvarlarındaki elastik lifleri siyah renkte boyamak için kullanılır.\n- B) Mallory trichrom; bağ dokusundaki kollajen liflerini mavi renkte belirginleştiren üçlü boyama yöntemidir.\n- C) Eozin; asidik karakterde bir boya olup sitoplazmik bazik proteinleri, mitokondrileri ve kollajen liflerini pembe-kırmızıya boyar; asidik olan DNA'yı boyamaz (DNA bazik boya olan hematoksilen ile boyanır).\n- E) Asit fosfataz; bir boya değil, lizozomların belirteci olan ve enzim histokimyası yöntemleriyle lizozomal aktiviteyi göstermek için kullanılan bir hidrolitik enzimdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hücre siklusunun düzenlenmesinde rol oynayan ve p53'e bağlanan nükleostemin proteini aşağıdakilerin hangisinde bulunur?",
+    "options": {
+      "A": "Çekirdek membranı",
+      "B": "Çekirdekçik",
+      "C": "Mitokondri",
+      "D": "Fagozom",
+      "E": "Lizozom"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Nükleostemin, özellikle embriyonik kök hücrelerde, nöral kök hücrelerde ve çeşitli kanser hücrelerinde yüksek oranda bulunan, çekirdekçikte (nükleolus) lokalize bir GTP-bağlayıcı proteindir. Tümör süpresör protein olan p53'e bağlanarak hücre döngüsünün (siklusunun) ilerlemesini düzenler, kök hücrelerin kendi kendini yenileme kapasitesini korur ve farklılaşmamış halde kalmalarını sağlar. Hücre farklılaştıkça nükleostemin düzeyi azalır ve hücre bölünmesi durur.\nÇeldiriciler:\n- A) Çekirdek membranı; nükleer por komplekslerini ve iç yüzünde lamin ara filamanlarını barındırır, nükleosteminin yerleşim yeri değildir.\n- C) Mitokondri; sitoplazmada yer alan, kendine ait halkasal DNA'sı bulunan ve oksidatif fosforilasyon ile ATP üreten organeldir.\n- D) Fagozom; fagositoz yoluyla hücre içine alınan katı partikülleri içeren sitoplazmik veziküldür.\n- E) Lizozom; asidik hidrolaz enzimleri içeren ve hücre içi sindirimi gerçekleştiren sitoplazmik organeldir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kaspaz-1 enzimi aracılığıyla gerçekleşen hücre ölümü şekli aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Apoptoz",
+      "B": "Mikrotofaji",
+      "C": "Paraptozis",
+      "D": "Piroptozis",
+      "E": "Entozis"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Piroptozis, hücre içi patojenlere (bakteri, virüs) veya tehlike sinyallerine yanıt olarak gelişen, inflamatuvar karakterli programlı bir hücre ölümü şeklidir. Süreç, hücre içi NLRP3 gibi inflamazom komplekslerinin kaspaz-1 (ve bazı durumlarda kaspaz-4/5/11) enzimini aktive etmesiyle başlar. Aktif kaspaz-1, hem pro-IL-1$\\beta$ ve pro-IL-18 sitokinlerini aktif formlarına dönüştürür (ateş ve şiddetli inflamasyon yapar) hem de Gasdermin D proteinini keserek hücre zarında porlar açar; hücre şişer, zar bütünlüğü bozulur ve hücre patlayarak ölür.\nÇeldiriciler:\n- A) Apoptoz; kaspaz-1 ile değil, başlatıcı kaspazlar (kaspaz-8, -9, -10) ve efektör/infazcı kaspazlar (kaspaz-3, -6, -7) aracılığıyla gerçekleşen, hücrenin büzüştüğü, zar bütünlüğünün korunduğu ve inflamasyonun görülmediği programlı hücre ölümüdür.\n- B) Mikrotofaji (mikrootofaji); sitozolik bileşenlerin doğrudan lizozom zarının içeri doğru çökmesiyle lizozom lümenine alınıp sindirildiği bir otofaji alt tipidir.\n- C) Paraptozis; kaspaz aktivasyonu veya DNA fragmentasyonu olmaksızın, endoplazmik retikulum ve mitokondrilerin aşırı şişmesiyle (sitoplazmik vakuolizasyon) karakterize alternatif bir hücre ölümü şeklidir.\n- E) Entozis; canlı bir epitel hücresinin komşu bir başka canlı hücrenin içine girmesi (\"hücre içi yamyamlık\" / cell-in-cell) ve orada lizozomal enzimlerle (kaspazdan bağımsız olarak) parçalanması sürecidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi Golgi cisimciğinden endoplazmik retikuluma vezikül transportunda görev alır?",
+    "options": {
+      "A": "Troponin I",
+      "B": "Glikokaliks",
+      "C": "Lamin A",
+      "D": "Coatomer I",
+      "E": "Fagozom"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Hücre içi veziküler taşımada, cis-Golgi ağından granüllü endoplazmik retikuluma (GER) doğru gerçekleşen geriye dönük (retrograd) taşımada görev alan vezikül kaplama proteini Coatomer I (COPI) kompleksidir. Bu taşıma, ER'ye ait olup yanlışlıkla Golgi'ye kaçan proteinlerin (KDEL dizisi taşıyanlar) geri kazanılmasını sağlar. (Tam tersi yönde, yani ER'den Golgi'ye doğru olan ileri/anterograd taşımada ise COPII kaplı veziküller görev alır).\nÇeldiriciler:\n- A) Troponin I; çizgili kaslarda (iskelet ve kalp kası) ince filamanlar üzerinde yer alan ve istirahat halinde aktin-miyozin etkileşimini inhibe eden düzenleyici bir sarkomer proteinidir.\n- B) Glikokaliks; hücre zarının yalnızca dış (ekstraselüler) yüzünde bulunan glikolipit, glikoprotein ve proteoglikanların karbonhidrat zincirlerinden oluşan, hücre tanınmasında görevli örtü tabakasıdır.\n- C) Lamin A; çekirdek zarının iç yüzünü döşeyen nükleer laminayı oluşturan ve çekirdeğe yapısal destek sağlayan bir ara filaman proteinidir.\n- E) Fagozom; hücre dışındaki büyük partiküllerin fagositozla hücre içine alınmasıyla oluşan zarlı keseciktir, ER-Golgi arası trafiğe katılmaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Karaciğer hücresinde periyodik asit-Schiff (PAS) boyasıyla aşağıdakilerden hangisi gösterilir?",
+    "options": {
+      "A": "Kromatin",
+      "B": "Yağ birikimi",
+      "C": "Glikojen",
+      "D": "Safra asidi",
+      "E": "Protein"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Periyodik asit-Schiff (PAS) reaksiyonu, dokulardaki karbonhidratça zengin makromolekülleri (polisakkaritler, glikojen, nötral mukopolisakkaritler/müsin, glikoproteinler ve bazal membran) parlak magenta (kırmızı-mor) renkte boyamak için kullanılır. Karaciğer hücrelerinde (hepatositlerde) bol miktarda depolanan dallı glikoz polimeri olan glikojen, PAS boyası ile kuvvetli pozitif reaksiyon verir (diastaz/amilaz enzimi uygulandığında glikojen sindirildiği için bu boyanma kaybolur; buna d-PAS negatif denir).\nÇeldiriciler:\n- A) Kromatin (DNA ve histonlar); hematoksilen veya DNA'ya özgü Feulgen reaksiyonu ile boyanır.\n- B) Yağ birikimi; dondurma kesitlerinde Sudan Black, Sudan III/IV, Oil Red O veya ozmiyum tetroksit ile gösterilir.\n- D) Safra asidi; steroid yapılı amfipatik moleküllerdir, PAS reaksiyonu ile gösterilmezler.\n- E) Saf proteinler; karbonhidrat yan zinciri (glikoprotein yapısı) taşımadıkları sürece PAS ile boyanmazlar, eozin gibi asidik boyalarla gösterilirler.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Ökaryotik hücre zarında sodyum-potasyum pompasının ($\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$), ouabain veya dijital glikozitlerle inhibe edilmesi durumunda hücrede aşağıdaki değişikliklerden hangisinin görülmesi en az olasıdır?",
+    "options": {
+      "A": "Hücre içinde $\\text{Na}$ artar.",
+      "B": "Hücre içinde $\\text{K}$ birikir.",
+      "C": "Hücre içi sıvı hacmi artar.",
+      "D": "Hücrede aktif transport mekanizmaları etkilenir.",
+      "E": "Kalp kası hücrelerinde $\\text{Ca}^{2+}$ birikir."
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ pompası normalde her döngüde 1 ATP harcayarak hücre dışına $3\\text{ Na}^+$ atar ve hücre içine $2\\text{ K}^+$ alır. Pompa ouabain veya digoksin gibi kardiyak glikozitlerle inhibe edildiğinde, hücre dışından içeriye $\\text{K}^+$ pompalanamaz ve hücre içindeki $\\text{K}^+$ sızma kanallarından dışarı kaçmaya devam eder. Dolayısıyla hücre içinde $\\text{K}^+$ birikmez, tam aksine hücre içi $\\text{K}^+$ konsantrasyonu azalır (ekstraselüler sıvıda ise hiperkalemi eğilimi oluşur).\nÇeldiriciler:\n- A) Pompa inhibe olduğunda hücre içine sızan $\\text{Na}^+$ dışarı atılamadığı için hücre içinde $\\text{Na}^+$ iyonları birikir ve konsantrasyonu artar.\n- C) Hücre içinde biriken $\\text{Na}^+$ iyonları hücre içi osmolaliteyi artırır; osmotik olarak hücre içine su çekilir ve hücre içi sıvı hacmi artar (hücre şişer).\n- D) Hücre içi $\\text{Na}^+$ artışı, hücre dışı ile hücre içi arasındaki $\\text{Na}^+$ elektrokimyasal gradiyentini bozar; bu gradiyente bağımlı olarak çalışan tüm sekonder aktif transport mekanizmaları (SGLT, $\\text{Na}^+/\\text{H}^+$ ve $\\text{Na}^+/\\text{Ca}^{2+}$ değiştiricileri) olumsuz etkilenir.\n- E) Kalp kası hücrelerinde hücre içi $\\text{Na}^+$ artınca, $\\text{Na}^+$ gradiyentiyle çalışan sarkolemmal $\\text{Na}^+/\\text{Ca}^{2+}$ antiportunun (NCX) hücre dışına $\\text{Ca}^{2+}$ atma hızı yavaşlar (hatta tersine döner); sonuçta hücre içinde ve sarkoplazmik retikulumda $\\text{Ca}^{2+}$ birikir ve kalbin kasılma gücü (pozitif inotropik etki) artar.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücre tiplerinin hangisinde daha fazla miktarda lizozom bulunması en olasıdır?",
+    "options": {
+      "A": "Nötrofil",
+      "B": "Epitel hücresi",
+      "C": "Nöron",
+      "D": "Eritrosit",
+      "E": "Pankreatik asiner hücre"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Lizozomlar, fagositoz ve hücre içi sindirim kapasitesi yüksek olan profesyonel fagositik bağışıklık hücrelerinde (makrofajlar ve nötrofiller) en bol miktarda bulunur. Nötrofillerin sitoplazmasındaki primer (azurofilik) granüller, miyeloperoksidaz, lizozim, defensinler ve çok sayıda asidik hidrolaz içeren özelleşmiş lizozomlardır; fagosite edilen bakterilerin fagolizozom içinde parçalanmasını sağlarlar.\nÇeldiriciler:\n- B) Epitel hücreleri; bariyer, emilim ve salgı görevleri yaparlar, profesyonel fagosit olmadıkları için nötrofiller kadar yoğun lizozom içermezler.\n- C) Nöronlar; protein sentezi için yoğun granüllü ER (Nissl cisimcikleri) ve enerji için bol mitokondri içerirler, lizozom sayıları fagositlere göre düşüktür.\n- D) Olgun memeli eritrositleri; çekirdeklerini, mitokondrilerini, ribozomlarını ve lizozom dahil tüm zarlı organellerini kaybetmiş hücrelerdir.\n- E) Pankreatik asiner hücreler; sindirim proenzimlerini içeren çok sayıda \"zimojen (salgı) granülü\" ve yoğun GER barındırırlar; bu granüller hücre dışına ekzositozla atılmak üzere üretilir, hücre içi sindirim yapan lizozom değillerdir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki proteinlerden hangisi sitoplazmada bulunan serbest ribozomlar tarafından sentezlenmez?",
+    "options": {
+      "A": "Nükleer protein",
+      "B": "Salgı proteini",
+      "C": "Sitoplazmik protein",
+      "D": "Peroksizomal protein",
+      "E": "Mitokondriyal protein"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Hücre dışına ekzositozla gönderilecek olan salgı proteinleri (hormonlar, sindirim enzimleri, ekstraselüler matriks proteinleri), integral hücre zarı proteinleri ve lizozomal enzimler; N-uçlarında taşıdıkları sinyal peptidi sayesinde sinyal tanıma partikülü (SRP) tarafından tanınarak granüllü endoplazmik retikulum (GER) membranına bağlı ribozomlar tarafından sentezlenir ve ER lümenine aktarılırlar. Sitoplazmadaki serbest ribozomlar tarafından sentezlenmezler.\nÇeldiriciler:\n- A) Nükleer proteinler (histonlar, transkripsiyon faktörleri, DNA/RNA polimerazlar); sitoplazmadaki serbest ribozomlarda sentezlenir ve nükleer lokalizasyon sinyali (NLS) aracılığıyla nükleer porlardan çekirdek içine taşınırlar.\n- C) Sitoplazmik (sitozolik) proteinler (glikoliz enzimleri, aktin, tübülin, hemoglobin); tamamen serbest ribozomlarda sentezlenip sitozolde kalırlar.\n- D) Peroksizomal proteinler (katalaz ve oksidazlar); kendi DNA'sı olmayan peroksizomlara gönderilmek üzere sitoplazmadaki serbest ribozomlarda sentezlenir ve post-translasyonel olarak organel içine alınırlar.\n- E) Mitokondriyal proteinlerin büyük çoğunluğu; nükleer DNA tarafından kodlanıp sitoplazmadaki serbest ribozomlarda sentezlenir ve translokaz kompleksleri (TOM/TIM) aracılığıyla mitokondri içine taşınır (az bir kısmı ise mitokondrinin kendi ribozomlarında sentezlenir).",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi mikrovillus yapısında yer almaz?",
+    "options": {
+      "A": "Fimbrin",
+      "B": "Aktin",
+      "C": "Miyozin-I",
+      "D": "Tübülin",
+      "E": "Villin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Mikrovilluslar, özellikle ince bağırsak enterositleri ve böbrek proksimal tübül epitelinde emilim yüzey alanını artıran, hücre iskeleti olarak mikrofilaman (aktin) temelli parmak benzeri sitoplazmik uzantılardır. Tübülin ise mikrofilamanların değil, mikrotübüllerin yapı taşı olan globüler proteindir; mikrovillus veya stereosilya yapısında yer almaz, hareketli silya (kinosilya) ve kamçı (flagellum) içindeki $9+2$ aksonem yapısında bulunur.\nÇeldiriciler:\n- A) Fimbrin (ve fascin, espin); mikrovillusun merkezindeki paralel F-aktin filamanlarını birbirine çapraz bağlayarak sıkı demetler haline getiren proteindir.\n- B) Aktin; mikrovillusun iç iskelet çekirdeğini oluşturan ve terminal ağa (terminal web) uzanan temel mikrofilaman proteinidir.\n- C) Miyozin-I; mikrovillusun içindeki aktin filaman demetini yanlardan çevreleyen plazma membranına bağlayan motor/bağlayıcı proteindir.\n- E) Villin; mikrovillus içindeki aktin demetlerini birbirine bağlayan ve özellikle mikrovillusun en tepe (apikal uç) kısmını şapka gibi örten aktin bağlayıcı proteindir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi silyumun yapısına katılmasının yanı sıra hücre içi vezikül transportunda da rol oynar?",
+    "options": {
+      "A": "Perlekan",
+      "B": "Nörofilament",
+      "C": "Vimentin",
+      "D": "Tübülin",
+      "E": "Lamin"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Alfa ve beta-tübülin heterodimerlerinin polimerizasyonu ile oluşan mikrotübüller, bir yandan silyum (kinosilya) ve kamçının (flagellum) merkezindeki hareketli $9+2$ aksonem iskeletini ve bazal cismi ($9\\times 3$) oluştururken; diğer yandan sitoplazma içinde motor proteinler olan kinezin (anterograd taşıma) ve dinein (retrograd taşıma) için birer \"ray sistemi\" görevi görerek hücre içi vezikül ve organel transportunu, ayrıca mitozda kromozomların ayrılmasını sağlarlar.\nÇeldiriciler:\n- A) Perlekan; hücre iskeleti elemanı değil, bazal laminanın yapısında yer alan ve filtrasyon bariyerine negatif yük kazandıran bir heparan sülfat proteoglikanıdır.\n- B) Nörofilament; nöronların akson ve dendritlerine yapısal sağlamlık ve çap kazandıran, dokuya özgü bir ara filaman (intermediyer filaman) tipidir.\n- C) Vimentin; fibroblast, endotel ve kondrosit gibi mezenkimal kökenli hücrelerde bulunan ve mekanik destek sağlayan ara filaman proteinidir.\n- E) Lamin; çekirdek zarının iç yüzünde yer alan nükleer laminayı oluşturan ara filaman proteinidir; silyum yapısında veya vezikül taşınmasında görev almaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki faktörlerden hangisi potasyumun intrasellüler sıvıdan ekstrasellüler sıvıya geçmesine neden olur?",
+    "options": {
+      "A": "Beta adrenerjik uyarı",
+      "B": "Yoğun egzersiz",
+      "C": "İnsülin",
+      "D": "Metabolik asidoz",
+      "E": "Aldosteron"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Metabolik asidoz (özellikle mineral asidoz) durumunda ekstraselüler sıvıda artan hidrojen ($\\text{H}^+$) iyonları tamponlanmak üzere hücre içine girerken, hücre içi elektronötraliteyi korumak amacıyla intraselüler sıvıdaki potasyum ($\\text{K}^+$) iyonları hücre dışına (ekstraselüler sıvıya) çıkar ve hiperkalemi gelişir. Ayrıca düşük pH, $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ pompasını da baskılayarak $\\text{K}^+$'un hücre dışına kaymasını belirginleştirir. (Not: Yoğun egzersizde de kaslardan $\\text{K}^+$ çıkışı görülebilmekle birlikte, sınavın resmi cevap anahtarında temel patofizyolojik mekanizma olarak Metabolik asidoz doğru kabul edilmiştir; egzersiz seçeneği çeldirici olarak kurgulanmıştır).\nÇeldiriciler:\n- A) Beta-2 adrenerjik uyarı (adrenalin, salbutamol); hücre zarındaki $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ pompasının aktivitesini cAMP üzerinden artırarak $\\text{K}^+$'un ekstraselüler sıvıdan intraselüler sıvıya girmesine (hipokalemiye) neden olur.\n- B) Yoğun egzersiz; iskelet kası aksiyon potansiyellerinin repolarizasyon fazında kas hücresinden interstisyuma $\\text{K}^+$ çıkışı yapabilse de, eşzamanlı artan katekolamin (Beta-2) deşarjı $\\text{K}^+$'u tekrar hücre içine sokma yönünde çalışır; klasik asit-baz tamponlama kayması D şıkkındadır.\n- C) İnsülin; başta iskelet kası ve karaciğer olmak üzere hücre zarındaki $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ pompasını doğrudan uyararak $\\text{K}^+$'u hücre içine sokan en önemli fizyolojik hormondur (hiperkalemi tedavisinde glukoz-insülin infüzyonu bu nedenle kullanılır).\n- E) Aldosteron; böbrek toplayıcı kanallarında $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ ve ENaC kanallarını uyararak hem idrarla $\\text{K}^+$ atılımını artırır hem de potasyumun hücre içine girişini destekler.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hücre siklusunun hangi fazında siklin D'nin aktivasyonu, Rb proteininin fosforilasyonunu uyarır?",
+    "options": {
+      "A": "M fazı",
+      "B": "Geç G2 fazı",
+      "C": "Erken G1 fazı",
+      "D": "Geç G1 fazı",
+      "E": "Erken S fazı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Hücre döngüsünde büyüme faktörleri (mitojenler) tarafından uyarılan hücrede, erken $\\text{G}_1$ fazında Siklin D sentezlenir ve partnerleri olan CDK4 ve CDK6 (siklin bağımlı kinaz 4/6) ile aktif kompleks oluşturur. Siklin D-CDK4/6 kompleksi, tümör süpresör bir protein olan Retinoblastom (Rb) proteinini fosforile etmeye (hipofosforilasyon) başlar. Ardından geç $\\text{G}_1$'de Siklin E-CDK2 devreye girerek Rb'yi hiperfosforile hale getirir; inaktifleşen Rb proteini E2F transkripsiyon faktörünü serbest bırakır ve hücre $\\text{G}_1$/S kontrol noktasını geçerek DNA sentezine (S fazına) girer.\nÇeldiriciler:\n- A) M (Mitoz) fazı; Siklin D'nin değil, Siklin B-CDK1 (MPF: Maturasyon/Mitoz destekleyici faktör) kompleksinin aktif olduğu, nükleer laminlerin fosforile edilip çekirdek zarının eridiği ve kromozomların ayrıldığı evredir.\n- B) Geç $\\text{G}_2$ fazı; DNA replikasyonunun tamamlanıp hücrenin mitoza hazırlandığı ve $\\text{G}_2$/M geçişinde Siklin A-CDK1 ile Siklin B-CDK1'in rol aldığı fazdır.\n- D) Geç $\\text{G}_1$ fazı; Siklin D-CDK4/6 tarafından başlatılan Rb fosforilasyonunun, Siklin E-CDK2 kompleksi tarafından tamamlandığı ($\\text{G}_1$/S geçişi) aşamadır; ilk uyarı erken $\\text{G}_1$'de başlar.\n- E) Erken S (Sentez) fazı; Rb'nin çoktan inaktifleşip E2F'nin serbest kaldığı ve Siklin A-CDK2 aktivasyonu ile DNA replikasyonunun başladığı evredir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hücre membranında bulunan G proteinleriyle ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Heterotrimerik G proteini, alfa alt birimine GTP bağlanması ile aktive olur.",
+      "B": "Fosfolipaz C, $\\text{G}_\\text{q}$ aracılı iletide rol oynayan enzimlerdendir.",
+      "C": "$\\text{G}_\\text{s}$ aracılığı ile adenilil siklazın aktive olması, hücre içinde cAMP'nin artışı ile sonuçlanır.",
+      "D": "$\\text{G}_\\text{i}$ aracılığı ile aktive olan inozitol trifosfat, endoplazmik retikulumdan $\\text{Ca}^{+2}$ salıverilmesini sağlar.",
+      "E": "Hücre içinde cAMP artışı, proteinkinaz A'yı aktive ederek hedef proteinleri fosforile eder."
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): İnozitol trifosfat ($\\text{IP}_3$), $\\text{G}_\\text{i}$ proteini aracılığıyla değil, $\\text{G}_\\text{q}$ proteini tarafından aktive edilen Fosfolipaz C (PLC) enziminin membran fosfolipiti olan $\\text{PIP}_2$'yi parçalamasıyla ($\\text{IP}_3$ ve DAG olarak) oluşur ve endoplazmik retikulumdan sitozole $\\text{Ca}^{2+}$ salınımını sağlar. $\\text{G}_\\text{i}$ (inhibitör G proteini) ise adenilil siklaz enzimini inhibe ederek hücre içi cAMP düzeyini düşürür (örneğin $\\alpha_2$ adrenerjik ve $\\text{M}_2$ muskarinik reseptörler).\nÇeldiriciler:\n- A) Heterotrimerik G proteinleri ($\\alpha, \\beta, \\gamma$ alt birimleri) istirahatte $\\alpha$ alt birimine GDP bağlı haldedir; reseptör uyarılınca GDP ayrılır, yerine GTP bağlanır ve $\\alpha$-GTP kompleksi ayrılarak aktifleşir (Doğru ifade).\n- B) $\\text{G}_\\text{q}$ proteini ($\\alpha_1, \\text{M}_1, \\text{M}_3, \\text{H}_1, \\text{V}_1, \\text{AT}_1$ reseptörleri), hücre zarındaki Fosfolipaz C enzimini aktive ederek $\\text{IP}_3$ ve diaçilgliserol (DAG) ikincil habercilerini üretir (Doğru ifade).\n- C) $\\text{G}_\\text{s}$ (stimülatör G proteini; $\\beta_1, \\beta_2, \\text{V}_2$, glukagon, TSH, ACTH reseptörleri), adenilil siklazı uyararak ATP'den cAMP sentezini artırır (Doğru ifade).\n- E) Artan hücre içi cAMP, cAMP bağımlı bir serin/treonin kinaz olan Protein Kinaz A'yı (PKA) aktive eder; PKA da hedef enzimleri ve CREB transkripsiyon faktörünü fosforile eder (Doğru ifade).",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "I. Karbonik asit tampon sistemi\nII. Hemoglobin tampon sistemi\nIII. $\\text{H}_2\\text{PO}_4$ tampon sistemi\n\nYukarıdaki sistemlerden hangileri hücreler arası alanın (interstisyel sıvı) tamponlanmasında rol oynar?",
+    "options": {
+      "A": "Yalnız I",
+      "B": "Yalnız II",
+      "C": "Yalnız III",
+      "D": "I ve III",
+      "E": "I, II ve III"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Ekstraselüler sıvının (hem kan plazması hem de hücreler arası interstisyel sıvı) en önemli ve niceliksel olarak en güçlü kimyasal tampon sistemi bikarbonat / karbonik asit ($\\text{HCO}_3^- / \\text{H}_2\\text{CO}_3$) tampon sistemidir. İnterstisyel sıvıda eritrosit (dolayısıyla hemoglobin) bulunmaz ve protein ile fosfat konsantrasyonları çok düşük olduğu için bu sıvının tamponlanması neredeyse tamamen karbonik asit-bikarbonat sistemi tarafından yürütülür.\nÖncüllerin Analizi:\n- I. Karbonik asit tampon sistemi: İnterstisyel sıvı ve plazmayı kapsayan tüm ekstraselüler sıvı kompartmanının temel tampon sistemidir; bileşenleri ($\\text{CO}_2$ ve $\\text{HCO}_3^-$) akciğerler ve böbrekler tarafından sıkıca düzenlenir (Doğru).\n- II. Hemoglobin tampon sistemi: Sadece kan içindeki eritrositlerin sitoplazmasında yer alır; kapiller duvardan interstisyel sıvıya geçemediği için hücreler arası alanda rol oynamaz (Yanlış).\n- III. $\\text{H}_2\\text{PO}_4$ (Fosfat) tampon sistemi: Ekstraselüler sıvıdaki konsantrasyonu bikarbonata göre çok düşüktür; esas olarak fosfatın yoğun olduğu intraselüler (hücre içi) sıvıda ve böbrek tübül lümeninde (idrarın tamponlanmasında) önemli rol oynar (Yanlış).\nÇeldiriciler:\n- B) Hemoglobin (II) yalnızca eritrosit içi (intravasküler) bir tampondur, interstisyel alanda bulunmaz.\n- C) Fosfat tampon sistemi (III) hücre içi sıvının ve renal tübüler sıvının ana tamponudur, interstisyel sıvıda etkinliği ihmal edilebilir düzeydedir.\n- D) I. öncül doğru olmakla birlikte, III. öncül (fosfat sistemi) interstisyel sıvının değil hücre içi ve idrarın tamponlanmasında etkindir.\n- E) II. ve III. öncüller interstisyel sıvı tamponlanmasında etkin rol oynamadığı için yanlıştır.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hücre içerisinde yanlış katlanmış veya istenmeyen proteinleri işaretleyerek proteazomlar tarafından tanınmasını sağlayan molekül aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "t-SNARE",
+      "B": "Atg-8",
+      "C": "mTOR",
+      "D": "Ubikuitin",
+      "E": "Kaspaz-8"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Ubikuitin (ubiquitin), ökaryotik hücrelerde yanlış katlanmış, hasar görmüş veya yarı ömrünü tamamlamış sitozolik proteinlerin lizin aminoasidi kalıntılarına E1 (aktive edici), E2 (konjuge edici) ve E3 (ubikuitin ligaz) enzimleri aracılığıyla ATP bağımlı olarak bağlanan 76 aminoasitlik küçük bir düzenleyici proteindir (\"ölüm öpücüğü\"). Poliubikuitin zinciriyle etiketlenen bu hedef proteinler, 26S proteazom kompleksi tarafından tanınarak sitoplazmada peptitlerine parçalanır.\nÇeldiriciler:\n- A) t-SNARE (hedef SNARE; örn. sintaksin); vezikül üzerindeki v-SNARE ile etkileşerek salgı veziküllerinin hedef hücre zarına tutunmasını ve membran füzyonunu (ekzositozu) sağlayan proteindir.\n- B) Atg-8 (memelilerdeki homoloğu LC3); proteazomal yıkımda değil, otofaji sürecinde otofagozom membranının oluşumunda ve uzamasında görev alan temel otofaji proteinidir.\n- C) mTOR; hücrenin besin ve enerji durumunu algılayarak protein sentezini ve hücre büyümesini uyaran, aktif olduğunda ise otofajiyi baskılayan bir serin/treonin kinazdır.\n- E) Kaspaz-8; ölüm reseptörleri (Fas, TNF reseptörü) üzerinden tetiklenen ekstrensek (dışsal) apoptoz yolağının başlatıcı kaspaz enzimidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki reseptör tiplerinden hangisi, adenil siklaz–cAMP ikincil haberci sistemini kullanarak hücre içinde yanıt oluşturur?",
+    "options": {
+      "A": "G proteinle eşleşen reseptör",
+      "B": "Tirozin kinaz reseptör",
+      "C": "Janus kinaz reseptör",
+      "D": "Ligand kapılı iyon kanalları",
+      "E": "Sitoplazmik reseptör"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Hücre zarını 7 kez geçen (heptikahelikal/serpentin) G proteini ile eşleşen reseptörler (GPCR), hücre içi ikincil haberci sistemlerini kullanan klasik reseptör ailesidir. Bu reseptörler uyarıldığında, eşleştikleri $\\text{G}_\\text{s}$ proteini adenilil siklaz enzimini aktive ederek ATP'den cAMP sentezini artırırken, $\\text{G}_\\text{i}$ proteini adenilil siklazı inhibe ederek cAMP düzeyini azaltır; cAMP de Protein Kinaz A'yı düzenleyerek hücresel yanıtı oluşturur.\nÇeldiriciler:\n- B) Tirozin kinaz reseptörleri (insülin, IGF-1, EGF, PDGF, VEGF reseptörleri); intrensek tirozin kinaz aktivitesine sahiptir ve cAMP yerine RAS-MAPK ve PI3K-Akt/PKB sinyal yolaklarını kullanırlar.\n- C) Janus kinaz (JAK) ilişkili sitokin reseptörleri (GH, prolaktin, EPO, leptin, sitokinler); ikincil haberci olarak cAMP kullanmaz, sitoplazmik JAK kinazları aktive ederek STAT transkripsiyon faktörlerini fosforile ederler.\n- D) Ligand kapılı iyon kanalları (iyonotropik reseptörler; örn. nikotinik ACh, $\\text{GABA}_\\text{A}$, glisin, AMPA/NMDA reseptörleri); ikincil haberci kullanmaksızın doğrudan kanalın açılması ve iyon ($\\text{Na}^+, \\text{Cl}^-, \\text{Ca}^{2+}$) akışı ile hızlı sinaptik yanıt oluştururlar.\n- E) Sitoplazmik ve nükleer reseptörler (steroid hormonlar, tiroid hormonları, D vitamini, retinoik asit); lipofilik ligandlarıyla bağlandıktan sonra doğrudan çekirdekte DNA üzerindeki hormon yanıt elemanlarına (HRE) bağlanarak gen transkripsiyonunu düzenlerler.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki hücrelerden hangisi konstitütif tip salgılama yapar?",
+    "options": {
+      "A": "Enteroendokrin hücre",
+      "B": "Goblet hücresi",
+      "C": "Parotis asiner hücresi",
+      "D": "Plazma hücresi",
+      "E": "Mast hücresi"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Hücrelerde ekzositozla salgılama \"regüle (düzenlenen)\" ve \"konstitütif (sürekli)\" olmak üzere iki tiptir. Konstitütif salgılamada sentezlenen ürün Golgi'den çıktıktan sonra sitoplazmada salgı granüllerinde depolanmaz ve dışarıdan özel bir sinyal (hormonal/sinirsel uyarı veya $\\text{Ca}^{2+}$ artışı) beklenmeksizin sürekli olarak hücre dışına salgılanır. B lenfositlerden farklılaşan plazma hücrelerinin sürekli antikor (immünoglobulin) salgılaması ve fibroblastların ekstraselüler matriks (kollajen) salgılaması konstitütif salgılamanın en klasik örnekleridir.\nÇeldiriciler:\n- A) Enteroendokrin hücreler; gastrin, kolesistokinin, sekretin gibi peptit hormonlarını bazal granüllerinde depolar ve yalnızca lümen içi besin/asit uyarısı geldiğinde (regüle salgılama ile) kana verirler.\n- B) Goblet hücreleri; müsin (mukus) öncüllerini apikal teka kısmındaki salgı granüllerinde depolar ve asetilkolin veya lokal irritasyon uyarısıyla lümene boşaltırlar (regüle salgılama).\n- C) Parotis asiner hücreleri; amilazca zengin seröz zimojen granüllerini apikal sitoplazmada depolar ve otonom sinir sistemi uyarısıyla (regüle salgılama) salgılarlar.\n- E) Mast hücreleri; histamin, heparin ve triptaz gibi mediyatörlerini sitoplazmik granüllerinde önceden depolanmış halde tutar ve IgE aracılı antijen bağlanmasıyla degranüle olurlar (regüle salgılama).",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Nöronlarda, ökromatik çekirdeğin yanı sıra sitoplazmada yoğun Nissl cisimciklerinin bulunması aşağıdakilerden hangisiyle en iyi açıklanır?",
+    "options": {
+      "A": "Fosfolipid sentezinin yüksek miktarda olması",
+      "B": "Hücre içi sindirimin yüksek miktarda olması",
+      "C": "Protein sentezinin yüksek miktarda olması",
+      "D": "Karbonhidrat metabolizmasının yüksek miktarda olması",
+      "E": "Elektriksel aktivitenin gerçekleşmesi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Çekirdekteki kromatinin gevşek paketlenmiş ve açık renkli olması (ökromatin), DNA'dan mRNA sentezinin (transkripsiyonun) çok aktif olduğunu gösterir. Sitoplazmadaki yoğun Nissl cisimcikleri ise granüllü endoplazmik retikulum (GER) ve serbest poliribozom kümeleridir (translasyon merkezi). Bir hücrede geniş ökromatik çekirdek, belirgin nükleolus (rRNA sentezi) ve bol Nissl cisimciğinin bir arada bulunması, o nöronun sürekli ve yüksek miktarda protein (nörotransmitter enzimleri, iyon kanalları, hücre iskeleti proteinleri) sentezlediğini doğrudan kanıtlar.\nÇeldiriciler:\n- A) Fosfolipid ve steroid sentezinin yüksek olması; granüllü ER (Nissl cisimciği) ile değil, granülsüz (düz) endoplazmik retikulumun (DER) yoğunluğu ile açıklanır.\n- B) Hücre içi sindirimin yüksek olması; nörofibril veya Nissl cisimcikleri ile değil, sitoplazmada bol miktarda lizozom ve fagolizozom bulunmasıyla (örneğin makrofajlarda) açıklanır.\n- D) Karbonhidrat metabolizmasının (glikojen sentezi ve yıkımı) yüksek olması; düz endoplazmik retikulum ve sitozolik glikojen granüllerinin (örneğin hepatositlerde) bolluğu ile ilişkilidir.\n- E) Elektriksel aktivitenin (aksiyon potansiyeli üretimi ve iletimi) gerçekleşmesi; hücre zarındaki voltaj kapılı $\\text{Na}^+/\\text{K}^+$ kanalları, $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ pompası ve aksonun miyelin kılıfı ile doğrudan ilişkilidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Hücre zarı yapısına katılan aşağıdaki moleküllerden hangisi zarın akışkanlığını kontrol eder?",
+    "options": {
+      "A": "Kolesterol",
+      "B": "Periferik proteinler",
+      "C": "Sfingolipidler",
+      "D": "Fosfolipidler",
+      "E": "Karbonhidratlar"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Kolesterol, ökaryotik hücre zarında fosfolipit moleküllerinin arasına yerleşerek membran akışkanlığını çift yönlü olarak dengeleyen bir \"akışkanlık tamponu\" (stabilizatör) görevi görür. Yüksek sıcaklıklarda fosfolipit yağ asidi kuyruklarının aşırı hareketini kısıtlayarak zarın fazla akışkanlaşmasını (erimesini) engeller; düşük sıcaklıklarda ise yağ asidi zincirlerinin birbirine çok sıkı paketlenmesini önleyerek zarın donmasını (katılaşmasını) engeller ve akışkanlığı korur.\nÇeldiriciler:\n- B) Periferik proteinler; zarın iç veya dış yüzeyine zayıf elektrostatik bağlarla tutunan, hücre iskeleti bağlantısı veya ikincil haberci süreçlerinde görev alan proteinlerdir; zarın hidrofobik iç tabakasının akışkanlığını düzenlemezler.\n- C) Sfingolipidler; özellikle miyelin kılıfta ve hücre zarının lipid salları (lipid rafts) bölgelerinde bulunan yapısal lipitlerdir, akışkanlık tamponu değillerdir.\n- D) Fosfolipidler; hücre zarının temel çift katmanlı (bilayer) çatısını oluştururlar ve içerdikleri doymamış yağ asidi (çift bağ) oranına göre zara bazal bir akışkanlık kazandırırlar, ancak bu akışkanlığı sıcaklık değişimlerine karşı kontrol edip tamponlayan düzenleyici molekül kolesteroldür.\n- E) Karbonhidratlar; zarın dış yüzeyinde glikolipit ve glikoproteinlerin parçası olarak glikokaliksi oluştururlar ve hücreler arası tanınmada rol oynarlar.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi $\\text{Na}/\\text{K ATPaz}$ pompasının özelliklerinden değildir?",
+    "options": {
+      "A": "Aktif taşıma yapar.",
+      "B": "Elektrogenik bir pompadır.",
+      "C": "Hücre içi $\\text{Na}$ yoğunluğunu düşük tutmaya çalışır.",
+      "D": "Ouabain ile inhibe edilebilir.",
+      "E": "Sekonder aktif transporta örnektir."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$ pompası, kendi yapısında intrensek ATPaz aktivitesi bulunduran ve iyonları konsantrasyon gradiyentlerine zıt yönde taşımak için doğrudan ATP'yi hidrolize ederek enerji harcayan bir pompadır. Bu nedenle sekonder aktif transport değil, \"primer (birincil) aktif transport\" örneğidir. Sekonder aktif transport (örneğin SGLT-1), $\\text{Na}^+/\\text{K}^+\\text{-ATPaz}$'ın oluşturduğu sodyum gradiyentini dolaylı olarak kullanan taşıma şeklidir.\nÇeldiriciler:\n- A) Hem $\\text{Na}^+$ hem de $\\text{K}^+$ iyonlarını düşük konsantrasyonda oldukları taraftan yüksek konsantrasyonda oldukları tarafa doğru, enerji (ATP) harcayarak taşıdığı için aktif taşıma yapar (Doğru özellik).\n- B) Her döngüde hücre dışına 3 pozitif yük ($3\\text{ Na}^+$) atıp hücre içine 2 pozitif yük ($2\\text{ K}^+$) aldığı için hücre dışına net $+1$ yük taşır ve hücre içinde negatiflik yaratan elektrogenik bir pompadır (Doğru özellik).\n- C) Sitoplazmaya sızan $\\text{Na}^+$ iyonlarını sürekli ekstraselüler sıvıya pompalayarak hücre içi $\\text{Na}^+$ yoğunluğunu düşük ($\\sim 14\\text{ mEq/L}$) ve hücre hacmini sabit tutar (Doğru özellik).\n- D) Ouabain ve digoksin gibi kardiyak glikozitler, pompanın ekstraselüler $\\text{K}^+$ bağlanma bölgesine bağlanarak pompayı spesifik olarak inhibe eder (Doğru özellik).",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki yapılardan hangisi membran ile çevrili değildir?",
+    "options": {
+      "A": "Golgi kompleksi",
+      "B": "Lizozom",
+      "C": "Peroksizom",
+      "D": "Proteozom",
+      "E": "Salgı vezikülü"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Proteozom (proteazom), ubikuitin ile işaretlenmiş hasarlı veya yanlış katlanmış proteinleri ATP harcayarak parçalayan, 20S çekirdek ve 19S düzenleyici alt birimlerden oluşan fıçı şeklinde büyük bir multiprotein enzim kompleksidir. Etrafında fosfolipit çift katmanlı bir zar (membran) bulunmaz. Hücredeki membransız yapılar; proteozom, ribozom, sentrozom (sentriyoller), nükleolus ve hücre iskeleti elemanlarıdır.\nÇeldiriciler:\n- A) Golgi kompleksi; üst üste dizilmiş tek katlı membranla çevrili yassı keseciklerden (sisternalardan) oluşan zarlı bir organeldir.\n- B) Lizozom; asidik hidrolazların sitoplazmaya sızıp hücreyi sindirmesini önleyen, lizo-bifosfatidik asitçe zengin özel bir tek katlı membranla çevrili organeldir.\n- C) Peroksizom; oksidatif enzimleri ve katalazı barındıran, tek katlı fosfolipit membranla çevrili küresel bir organeldir.\n- E) Salgı vezikülü; Golgi aygıtından tomurcuklanarak ayrılan ve ekzositozla hücre zarına kaynaşacak olan tek katlı membranla çevrili keseciktir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki iyonlardan hangisine karşı hücre zarı geçirgenliğinin artması ile hiperpolarizasyon en fazla gerçekleşir?",
+    "options": {
+      "A": "$\\text{Na}$",
+      "B": "$\\text{K}$",
+      "C": "$\\text{Cl}$",
+      "D": "$\\text{Ca}$",
+      "E": "$\\text{Mg}$"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Bir iyonun hücre zarındaki geçirgenliği (iletkenliği) arttığında, zar potansiyeli o iyonun Nernst denge potansiyeline doğru yaklaşır. Dinlenim zar potansiyelinden (nöronlarda yaklaşık $-70\\text{ mV}$) daha negatif bir denge potansiyeline sahip olan ve hücreyi en güçlü şekilde hiperpolarize edebilen iyon potasyumdur ($\\text{K}^+$ Nernst denge potansiyeli yaklaşık $-90\\text{ mV}$ ile $-94\\text{ mV}$ arasındadır). $\\text{K}^+$ kanalları açılıp geçirgenliği arttığında, hücre içindeki $\\text{K}^+$ dışarı çıkar ve zar potansiyelini $-90\\text{ mV}$'a doğru çekerek en belirgin hiperpolarizasyonu oluşturur.\nÇeldiriciler:\n- A) $\\text{Na}^+$ iyonunun Nernst denge potansiyeli yaklaşık $+60\\text{ mV}$'tur; geçirgenliğinin artması hücre içine $\\text{Na}^+$ girişine ve hiperpolarizasyona değil, güçlü depolarizasyona yol açar.\n- C) $\\text{Cl}^-$ iyonunun denge potansiyeli (yaklaşık $-70\\text{ mV}$) dinlenim zar potansiyeline çok yakındır; bu nedenle $\\text{Cl}^-$ geçirgenliğinin artması genellikle zarı dinlenim potansiyelinde stabilize eder veya potasyuma kıyasla çok daha hafif bir hiperpolarizasyon yapar.\n- D) $\\text{Ca}^{2+}$ iyonunun denge potansiyeli çok pozitiftir (yaklaşık $+120\\text{ mV}$); geçirgenliğinin artması hücre içine $\\text{Ca}^{2+}$ girişine ve belirgin depolarizasyona neden olur.\n- E) $\\text{Mg}^{2+}$ katyonu fizyolojik koşullarda zar potansiyelinde hiperpolarizasyon oluşturan temel bir iletkenlik akımına sahip değildir; aksine NMDA kanallarında voltaj bağımlı blokaj gibi düzenleyici roller üstlenir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki mikroskop tiplerinden hangisi, üç boyutlu görüntü sunarak incelenen dokunun yüzey özellikleri hakkında daha fazla bilgi verir?",
+    "options": {
+      "A": "Konvansiyonel ışık mikroskobu",
+      "B": "Taramalı elektron mikroskobu",
+      "C": "Geçirimli elektron mikroskobu",
+      "D": "Faz kontrast mikroskobu",
+      "E": "Polarize mikroskop"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Taramalı elektron mikroskobunda (SEM - Scanning Electron Microscope), incelenecek doku veya hücrenin yüzeyi altın-paladyum gibi ağır bir metalle ince bir tabaka halinde kaplanır ve gönderilen elektron demeti örnekten geçmek yerine yüzeyini tarar. Yüzeyden yansıyan (ikincil ve geri saçılan) elektronlar dedektörlerce toplanarak incelenen yapının dış yüzey topografisini çok yüksek çözünürlükle ve üç boyutlu (3D) derinlik algısıyla görüntüler.\nÇeldiriciler:\n- A) Konvansiyonel (aydınlık alan) ışık mikroskobu; boyanmış ince doku kesitlerinden görünür ışık geçirerek yaklaşık $0,2\\ \\mu\\text{m}$ çözünürlükle iki boyutlu (2D) genel morfolojik görüntü sağlar.\n- C) Geçirimli elektron mikroskobu (TEM - Transmission Electron Microscope); çok ince doku kesitlerinin içinden elektron demeti geçirerek hücre içi organellerin iç yapısını (ultrastrüktürünü) en yüksek çözünürlükle ancak iki boyutlu (2D) kesit olarak gösterir.\n- D) Faz kontrast mikroskobu; boyanmamış canlı hücreleri ve kültür ortamındaki dokuları, hücre içi yapıların kırılma indisi farklarını faz ve parlaklık farkına dönüştürerek iki boyutlu incelemeye yarar.\n- E) Polarize mikroskop; çizgili kas sarkomerleri, tip I kollajen lifleri, kemik lamelleri ve amiloid birikimi gibi ışığı çift kıran (birefringent/anizotropik) kristal veya düzenli fibriler yapıları göstermek için kullanılır.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki organellerden hangisi antioksidan enzimler içerir?",
+    "options": {
+      "A": "Lizozom",
+      "B": "Ribozom",
+      "C": "Peroksizim",
+      "D": "Mitokondri",
+      "E": "Golgi aygıtı"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Peroksizomlar, çok uzun zincirli yağ asitlerinin beta-oksidasyonu ve D-aminoasit/ürat oksidasyonu sırasında moleküler oksijeni kullanarak serbest radikal öncülü olan hidrojen peroksit ($\\text{H}_2\\text{O}_2$) üreten oksidaz enzimleri içerir. Aynı zamanda peroksizomlar, oluşan bu toksik hidrojen peroksiti su ($\\text{H}_2\\text{O}$) ve oksijene ($\\text{O}_2$) parçalayarak hücreyi oksidatif hasardan koruyan en önemli antioksidan enzimlerden biri olan \"katalaz\" (ve peroksidaz/süperoksit dismutaz) enzimini yüksek miktarda barındıran temel antioksidan organeldir.\nÇeldiriciler:\n- A) Lizozom; antioksidan enzimler yerine optimum pH'sı $\\sim 5,0$ olan asit fosfataz, proteaz, nükleaz ve lipaz gibi yaklaşık 50 çeşit asidik hidrolaz (sindirim enzimi) içerir.\n- B) Ribozom; rRNA ve proteinlerden oluşan, peptidil transferaz aktivitesiyle protein sentezi (translasyon) yapan zarsız organeldir.\n- D) Mitokondri; elektron taşıma zincirinde yan ürün olarak reaktif oksijen türlerinin (ROS) en çok üretildiği yerdir ve kendini korumak için Mn-SOD/glutatyon peroksidaz bulundursa da, histoloji ve fizyolojide katalaz içeriğiyle tanımlanan spesifik peroksit detoksifikasyon organeli peroksizomdur.\n- E) Golgi aygıtı; glikoziltransferazlar ve sülfotransferazlar gibi post-translasyonel protein modifikasyon enzimlerini içerir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki organel çiftlerinden hangileri lizozomu oluşturur?",
+    "options": {
+      "A": "Düz endoplazmik retikulum – Golgi kompleksi",
+      "B": "Düz endoplazmik retikulum – Granüllü endoplazmik retikulum",
+      "C": "Düz endoplazmik retikulum – Mitokondri",
+      "D": "Granüllü endoplazmik retikulum – Mitokondri",
+      "E": "Granüllü endoplazmik retikulum – Golgi kompleksi"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Lizozomların biyogenezi, granüllü endoplazmik retikulum (GER) ve Golgi kompleksinin ortak çalışmasıyla gerçekleşir. Lizozomal asidik hidrolaz enzimleri ve lizozomal membran proteinleri önce GER üzerindeki ribozomlarda sentezlenir ve N-bağlı glikozilasyona uğrar. Ardından COPII vezikülleriyle cis-Golgi'ye taşınır; burada lizozomal enzimlere spesifik bir etiket olan \"mannoz-6-fosfat (M6P)\" eklenir. Trans-Golgi ağındaki M6P reseptörlerine bağlanan bu enzimler, klatrin kaplı veziküller halinde tomurcuklanarak geç endozom/primer lizozomları oluşturur.\nÇeldiriciler:\n- A) Düz endoplazmik retikulum üzerinde ribozom bulunmadığı için lizozomal hidrolaz enzimlerini (proteinleri) sentezleyemez.\n- B) Granüllü ER enzimleri sentezler ancak mannoz-6-fosfat etiketlemesini ve lizozomal vezikül paketlemesini yapan organel düz ER değil, Golgi kompleksidir.\n- C) Ne düz endoplazmik retikulum (lipit sentezi/detoksifikasyon) ne de mitokondri (ATP üretimi) lizozom oluşumunda görev alır.\n- D) Granüllü ER lizozomal enzimlerin ilk sentez yeridir, ancak mitokondri bu enzimlerin işlenmesi veya lizozom olarak tomurcuklanmasında rol oynamaz.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi tek hücreli ekzokrin salgı bezidir?",
+    "options": {
+      "A": "Leydig hücresi",
+      "B": "Tiroid C hücresi",
+      "C": "Goblet hücresi",
+      "D": "Sertoli hücresi",
+      "E": "Mikrofold hücresi"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Ekzokrin bezler salgılarını kana değil, bir kanal aracılığıyla veya doğrudan epitel yüzeyine/lümene bırakan bezlerdir. İnsan vücudundaki \"tek hücreli ekzokrin bez\"in en klasik ve tek tipik örneği Goblet (kaliks) hücresidir. Solunum yollarının yalancı çok katlı silyalı epitelinde ve bağırsakların tek katlı prizmatik epitelinde tek başına serpiştirilmiş halde bulunur; ürettiği müsin (mukus) granüllerini apikal yüzünden doğrudan lümene ekzositozla boşaltır. (Not: Basılı kaynakta cevap anahtarı harfi sehven A olarak yazılmış olsa da, bilimsel olarak ve soru açıklamasında da açıkça belirtildiği üzere doğru seçenek C şıkkındaki Goblet hücresidir).\nÇeldiriciler:\n- A) Leydig hücresi; testis interstisyumunda yer alan ve ürettiği testosteron hormonunu doğrudan kana (kapillerlere) veren endokrin karakterli bir hücredir.\n- B) Tiroid C (parafoliküler) hücresi; nöral krest kökenli olup ürettiği kalsitonin hormonunu kana salgılayan endokrin bir hücredir.\n- D) Sertoli hücresi; seminifer tübüllerde spermatogenik hücreleri destekleyen, kan-testis bariyerini oluşturan ve İnhibin B ile Anti-Müllerian Hormon (AMH) gibi endokrin/parakrin faktörler üreten destek hücresidir; tek hücreli mukus bezi değildir.\n- E) Mikrofold (M) hücresi; ince bağırsak Peyer plaklarının üzerindeki epitelde bulunan, lümendeki antijenleri endositozla alıp bazolateraldeki lenfosit ve dendritik hücrelere sunan özelleşmiş antijen taşıyıcı epitel hücresidir, salgı bezi değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki organların hangisinin epitelinde yüzey farklılaşması olarak stereosilya bulunur?",
+    "options": {
+      "A": "Trakea",
+      "B": "Tuba uterina",
+      "C": "Özofagus",
+      "D": "Epididimis",
+      "E": "Duodenum"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Stereosilyalar, isimlerine rağmen gerçek silya (kinosilya) değillerdir; iç iskeletlerinde mikrotübül yerine \"aktin mikrofilamanları\" (fimbrin ve ezrin ile bağlanmış) barındıran, çok uzun, dallanabilen ve pasif (hareketsiz) olan özelleşmiş mikrovilluslardır. İnsan vücudunda yalnızca erkek genital kanalında (epididimis ve duktus deferens'in proksimal kısmındaki yalancı çok katlı epitelde; sıvı emilimi ve sperm olgunlaşması için) ve iç kulaktaki duyu (tüy) hücrelerinde (mekanotransdüksiyon için) bulunurlar.\nÇeldiriciler:\n- A) Trakea; mukusu farinkse doğru süpüren, mikrotübül ($9+2$) yapılı ve aktif hareketli gerçek silyalar (kinosilya) içeren yalancı çok katlı silyalı prizmatik epitel ile döşelidir.\n- B) Tuba uterina (Fallop tüpü); oositi uterusa doğru taşıyan hareketli kinosilyalara sahip tek katlı prizmatik epitel içerir.\n- C) Özofagus; mekanik sürtünmeye karşı koruma sağlayan non-keratinize çok katlı yassı epitel ile döşelidir, apikal stereosilya içermez.\n- E) Duodenum (ince bağırsak); emilim yüzeyini artıran ve ışık mikroskobunda \"çizgili kenar (striated border)\" olarak görünen klasik kısa mikrovilluslara sahip tek katlı prizmatik epitel ile döşelidir.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinde hem silya hem mikrovillus bulunur?",
+    "options": {
+      "A": "Mide pariyetal hücresi",
+      "B": "Böbrek proksimal tübül epiteli",
+      "C": "Enterosit",
+      "D": "Dil tat tomurcuğu",
+      "E": "Ependimal hücre"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Beyin ventriküllerini ve medulla spinalis'in santral kanalını döşeyen tek katlı kübik/prizmatik nöroglia hücreleri olan ependimal (ependim) hücrelerin apikal yüzeylerinde hem beyin omurilik sıvısının (BOS) hareketini ve dolaşımını sağlayan hareketli \"silyalar (kinosilya)\" hem de BOS emilimi ve modifikasyonunda görev alan \"mikrovilluslar\" birlikte bulunur.\nÇeldiriciler:\n- A) Mide pariyetal (oksintik) hücresi; $\\text{HCl}$ ve intrinsik faktör salgılar, aktifleştiğinde apikal yüzünde mikrovilluslarla döşeli hücre içi kanaliküller (intraselüler kanalikül) oluşur ancak silya içermez.\n- B) Böbrek proksimal tübül epiteli; yoğun geri emilim için \"fırçamsı kenar (brush border)\" oluşturan çok sık mikrovilluslara sahiptir (ve tek tük primer/hareketsiz mekanosensör silyum taşıyabilir), ancak klasik hareketli silya + mikrovillus birlikteliğinin tipik örneği ependim hücresidir.\n- C) Enterosit; ince bağırsakta emilim yapan, apikal yüzünde düzenli mikrovilluslar (çizgili kenar) bulunan ancak silya içermeyen hücredir.\n- D) Dil tat tomurcuğundaki nöroepitelyal (tat) hücreleri; tat poruna uzanan ve \"tat kılları\" olarak adlandırılan uzun mikrovilluslara sahiptir, gerçek silya içermezler.",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi suyun fizyolojik olarak görevlerinden biri değildir?",
+    "options": {
+      "A": "Toksinlerin uzaklaştırılması",
+      "B": "Hücrelere besinlerin taşınması",
+      "C": "Vücut sıcaklığının ayarlanması",
+      "D": "Kan basıncının düzenlenmesi",
+      "E": "Asit ve baz dengesinin korunması"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Vücutta asit-baz dengesinin (pH homeostazının) korunması doğrudan suyun bir görevi değil; kimyasal tampon sistemlerinin (bikarbonat, fosfat, hemoglobin ve plazma proteinleri), akciğerlerin ($\\text{CO}_2$ atılımı ile solunumsal kontrol) ve böbreklerin ($\\text{H}^+$ sekresyonu ve $\\text{HCO}_3^-$ sentezi/geri emilimi ile metabolik kontrol) görevidir. Su bu reaksiyonların gerçekleştiği çözücü ortamdır ancak tek başına pH değişimlerini tamponlayarak asit-baz dengesini koruma işlevi görmez.\nÇeldiriciler:\n- A) Su, böbreklerden idrar oluşumu ve terleme yoluyla metabolik atıkların (üre, kreatinin) ve suda çözünen toksinlerin vücuttan uzaklaştırılmasını sağlar (Doğru görev).\n- B) Kan plazmasının (%90-92'si su) ve interstisyel sıvının ana çözücüsü olarak glukoz, aminoasitler, vitaminler ve mineraller gibi besinlerin hücrelere taşınmasını sağlar (Doğru görev).\n- C) Suyun özgül ısı kapasitesinin ve buharlaşma ısısının çok yüksek olması sayesinde, metabolik ısının dokulardan dağıtılması ve terin buharlaşmasıyla vücut sıcaklığının dar sınırlar içinde ayarlanmasını sağlar (Doğru görev).\n- D) Ekstraselüler sıvı ve kan (plazma) hacminin en büyük bileşeni olduğu için, damar içi dolumu (venöz dönüş ve kalp debisini) belirleyerek kan basıncının düzenlenmesinde doğrudan rol oynar (Doğru görev).",
+    "lesson": "Fizyoloji",
+    "unit": "Hücre Fizyolojisi",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

@@ -6,8 +6,7 @@
  * - Soru Dağılımı:
  *     Temel Bilimler (1-40):
  *       - Anatomi: 6 soru
- *       - Histoloji: 4 soru (Fizyo ile toplam 10)
- *       - Fizyoloji: 6 soru (Histo ile toplam 10)
+ *       - Fizyoloji, Histoloji ve Embriyoloji: 10 soru
  *       - Biyokimya: 10 soru
  *       - Mikrobiyoloji: 6 soru
  *       - Patoloji: 4 soru
@@ -38,8 +37,7 @@ export interface SubjectQuota {
 export const DUS_SUBJECT_QUOTAS: readonly SubjectQuota[] = [
   // ── Temel Bilimler (40 Soru) ──
   { key: 'Anatomi', name: 'Anatomi', aliases: ['anatomi'], count: 6, category: 'temel', displayOrder: 1 },
-  { key: 'Histoloji', name: 'Histoloji', aliases: ['histoloji', 'histoloji ve embriyoloji', 'embriyoloji'], count: 4, category: 'temel', displayOrder: 2 },
-  { key: 'Fizyoloji', name: 'Fizyoloji', aliases: ['fizyoloji'], count: 6, category: 'temel', displayOrder: 3 },
+  { key: 'Fizyoloji', name: 'Fizyoloji', aliases: ['fizyoloji', 'histoloji', 'histoloji ve embriyoloji', 'embriyoloji'], count: 10, category: 'temel', displayOrder: 2 },
   { key: 'Biyokimya', name: 'Biyokimya', aliases: ['biyokimya', 'tıbbi biyokimya'], count: 10, category: 'temel', displayOrder: 4 },
   { key: 'Mikrobiyoloji', name: 'Mikrobiyoloji', aliases: ['mikrobiyoloji', 'tıbbi mikrobiyoloji'], count: 6, category: 'temel', displayOrder: 5 },
   { key: 'Patoloji', name: 'Patoloji', aliases: ['patoloji', 'tıbbi patoloji'], count: 4, category: 'temel', displayOrder: 6 },
@@ -322,31 +320,12 @@ export function buildDusSimulationPool(
   }
 
   // 2. ADIM: Her branşın kotasını hariç tutulmamış (eligible) sorulardan doldur
-  // Fizyoloji ve Histoloji esnek paylaşımı (toplam 10)
-  const histoTarget = 4;
-  const physioTarget = 6;
-  const histoAvailable = (lessonBuckets.get('Histoloji') || []).filter(q => !usedIdSet.has(q.id));
-  const physioAvailable = (lessonBuckets.get('Fizyoloji') || []).filter(q => !usedIdSet.has(q.id));
-
-  let actualHistoQuota = histoTarget;
-  let actualPhysioQuota = physioTarget;
-
-  if (histoAvailable.length < histoTarget) {
-    actualHistoQuota = histoAvailable.length;
-    actualPhysioQuota = Math.min(10 - actualHistoQuota, physioAvailable.length);
-  } else if (physioAvailable.length < physioTarget) {
-    actualPhysioQuota = physioAvailable.length;
-    actualHistoQuota = Math.min(10 - actualPhysioQuota, histoAvailable.length);
-  }
-
   for (const quota of DUS_SUBJECT_QUOTAS) {
     const l = quota.key;
     if (!selectedBySubject.has(l)) selectedBySubject.set(l, []);
     const selected = selectedBySubject.get(l)!;
 
-    let targetCount = quota.count;
-    if (l === 'Histoloji') targetCount = actualHistoQuota;
-    if (l === 'Fizyoloji') targetCount = actualPhysioQuota;
+    const targetCount = quota.count;
 
     const needed = targetCount - selected.length;
     if (needed <= 0) continue;
@@ -381,8 +360,7 @@ export function buildDusSimulationPool(
   // DUS 2020 Orijinal Kitapçık Dağılımı:
   // Temel Bilimler (1 - 40):
   //   1-6: Anatomi (6 soru)
-  //   7-10: Histoloji ve Embriyoloji (4 soru)
-  //   11-16: Fizyoloji (6 soru)
+  //   7-16: Fizyoloji, Histoloji ve Embriyoloji (10 soru)
   //   17-22: Biyokimya (1. Kısım: 6 soru)
   //   23-28: Mikrobiyoloji (6 soru)
   //   29-32: Patoloji (4 soru)
@@ -399,7 +377,6 @@ export function buildDusSimulationPool(
   //   111-120: Pedodonti (10 soru)
 
   const anatomi = shuffleArray(selectedBySubject.get('Anatomi') || []);
-  const histoloji = shuffleArray(selectedBySubject.get('Histoloji') || []);
   const fizyoloji = shuffleArray(selectedBySubject.get('Fizyoloji') || []);
   const biyokimya = shuffleArray(selectedBySubject.get('Biyokimya') || []);
   const mikrobiyoloji = shuffleArray(selectedBySubject.get('Mikrobiyoloji') || []);
@@ -422,9 +399,7 @@ export function buildDusSimulationPool(
   const finalOrderedQuestions: Question[] = [
     // 1-6: Anatomi (6)
     ...anatomi,
-    // 7-10: Histoloji (4)
-    ...histoloji,
-    // 11-16: Fizyoloji (6)
+    // 7-16: Fizyoloji, Histoloji ve Embriyoloji (10)
     ...fizyoloji,
     // 17-22: Biyokimya (6)
     ...biyokimyaBlok1,

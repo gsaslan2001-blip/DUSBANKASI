@@ -1,5 +1,11 @@
 import { StudyScopeModal } from './components/StudyScopeModal';
-import { useState, useEffect, useCallback, useMemo, lazy, Suspense } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef, lazy, Suspense, type ReactNode } from 'react';
+import { TriajProvider, useTriaj } from './modules/triaj/TriajProvider';
+import { TodayTopics } from './modules/triaj/TodayTopics';
+import { dueQuestionTasks, preparationForStage, prepareQuestionTasks, taskQuestionIds } from './modules/triaj/domain/questionTasks';
+import { currentTaskDate, recordTaskResult } from './modules/triaj/domain/state';
+import { getTodayString } from './modules/triaj/domain/triage';
+import type { TriajTask } from './modules/triaj/types';
 
 import { importQuestions, fetchQuestionsByIds, deleteQuestionsInLesson, deleteQuestionsInUnit, renameLesson, renameUnit, loadTodaysDailyExam, markDailyExamCompleted, saveExamAnswers, uploadQuestionImage, deleteQuestionImage, rowToQuestion, type DailyExamRow } from './lib/supabase';
 
@@ -46,6 +52,7 @@ const SimulationResultView = lazy(() => import('./components/SimulationResultVie
 const StatisticsView = lazy(() => import('./components/StatisticsView'));
 
 const DailyPlanView = lazy(() => import('./components/DailyPlanView'));
+const TriajModule = lazy(() => import('./modules/triaj/TriajModule'));
 
 const SourceBooksView = lazy(() => import('./components/SourceBooksView').then(m => ({ default: m.SourceBooksView })));
 
@@ -298,6 +305,13 @@ function CountdownWidget() {
 /* --- MAIN APP --- */
 
 export default function App() {
+  const auth = useAuth();
+  return <TriajProvider key={auth.user?.id ?? 'guest'} userId={auth.user?.id}>
+    <AppContent auth={auth} />
+  </TriajProvider>;
+}
+
+function AppContent({ auth }: { auth: ReturnType<typeof useAuth> }) {
 
   const isPreviewMode = typeof window !== 'undefined' && window.location.search.includes('preview=sim');
 
@@ -323,11 +337,21 @@ export default function App() {
 
   // T11: 6 mod bayrağı tek activeExam nesnesine indirgendi
 
-  type ExamVariant = 'normal' | 'favorites' | 'daily' | 'simulation' | 'retry' | 'weak';
+  type ExamVariant = 'normal' | 'favorites' | 'daily' | 'simulation' | 'retry' | 'weak' | 'triaj';
 
-  type ActiveExam = { variant: ExamVariant; dailyExamId?: string; simTotalSeconds?: number } | null;
+  type ActiveExam = { variant: ExamVariant; dailyExamId?: string; simTotalSeconds?: number; triajTask?: TriajTask } | null;
 
   const [activeExam, setActiveExam] = useState<ActiveExam>(null);
+  const [triajSaving, setTriajSaving] = useState(false);
+  const [triajSubmitError, setTriajSubmitError] = useState<string | null>(null);
+  const [triajInitialTab, setTriajInitialTab] = useState<'calendar' | 'analytics'>();
+  const [triajInitialTaskId, setTriajInitialTaskId] = useState<string>();
+  const [triajFromSimulation, setTriajFromSimulation] = useState(false);
+  const triajSubmission = useRef<Promise<void> | null>(null);
+  const {
+    tasks: triajTasks, today: triajToday, summaryError: triajSummaryError, update: updateTriaj,
+    refreshSummary: refreshTriajSummary, prepareSummary: prepareTriajSummary,
+  } = useTriaj();
 
   // Deneme başlamadan önce seçilen filtre (select-deneme-amount ekranında gerekli)
 
@@ -345,6 +369,7 @@ export default function App() {
     setQuestions,
 
     loading,
+    loadStatus,
 
     loadError,
 
@@ -387,7 +412,7 @@ export default function App() {
 
   // useAuth önce — useResumableSession'a userId geçmek için
 
-  const { user, signOut } = useAuth();
+  const { user, signOut } = auth;
 
 
 
@@ -783,6 +808,15 @@ export default function App() {
   const handleResumeSession = async () => {
 
     if (!resumeSessionData) return;
+    if (resumeSessionData.triajTaskId) {
+      const task = triajTasks.find(task => task.id === resumeSessionData.triajTaskId);
+      if (!task || task.status !== 'open' || task.setId !== resumeSessionData.triajSetId) {
+        showAlert('TRİAJ görevi şu anda devam etmeye uygun değil.', 'TRİAJ');
+        return;
+      }
+      await handleStartTriajTask(task).catch(error => showAlert(errMsg(error), 'TRİAJ'));
+      return;
+    }
 
     try {
 
@@ -1231,6 +1265,61 @@ export default function App() {
     [questions]
 
   );
+  const todayTriajTasks = useMemo(() => dueQuestionTasks(triajTasks, triajToday), [triajTasks, triajToday]);
+  useEffect(() => {
+    if (!user || loadStatus !== 'loaded' || appState !== 'select-lesson') return;
+    const pending = todayTriajTasks.filter(task => task.status === 'open' && !task.setId);
+    if (!pending.length) return;
+    const stats = loadAllStats();
+    const preparations = pending.flatMap(task => {
+      const ids = taskQuestionIds(task, normalQuestions, stats);
+      return ids.length === task.availableCount && ids.length < task.questionCount ? [] : [[task.id, ids] as const];
+    });
+    if (preparations.length) void prepareTriajSummary(triajToday, Object.fromEntries(preparations)).catch(() => {});
+  }, [user, loadStatus, appState, todayTriajTasks, normalQuestions, triajToday, prepareTriajSummary]);
+
+  const openTriaj = (tab?: 'calendar' | 'analytics', taskId?: string) => {
+    setTriajInitialTab(tab);
+    setTriajInitialTaskId(taskId);
+    setTriajFromSimulation(false);
+    if (user) setAppState('daily-plan');
+    else setShowAuth(true);
+  };
+
+  const syncSimulationToTriaj = async (result: {
+    id: string; date: string; details: SimAnswerDetail[]; usedSeconds: number;
+  }) => {
+    const { transferSimulation } = await import('./modules/triaj/domain/simulation');
+    return updateTriaj(state => transferSimulation(state, {
+      ...result, date: getTodayString(new Date(result.date)),
+    }), true);
+  };
+
+  const handleStartTriajTask = async (task: TriajTask) => {
+    if (!user || task.status !== 'open' || currentTaskDate(task, getTodayString()) > getTodayString()) return;
+    if (preparationForStage(task.stage) && !task.preparationDone && resumeSessionData?.triajTaskId !== task.id) {
+      throw new Error('Sorulara başlamadan önce hazırlık adımını tamamlayın.');
+    }
+    setContentLoading(true);
+    try {
+      const saved = await updateTriaj(state => prepareQuestionTasks(state, [task], normalQuestions, loadAllStats(), getTodayString()), true);
+      const current = saved.tasks.find(item => item.id === task.id);
+      if (current?.status !== 'open') throw new Error('Bu görev tamamlanmış veya kaldırılmış.');
+      if (!current.setId || !current.questionIds) {
+        throw new Error(`${current.availableCount ?? 0} / ${current.questionCount} uygun soru var. Takvimden manuel sonuç girebilirsiniz.`);
+      }
+      const rows = await fetchQuestionsByIds(current.questionIds);
+      const ordered = new Map(rows.map(row => [row.id, rowToCurrentQuestion(row)]));
+      const full = current.questionIds.flatMap(id => ordered.get(id) ?? []);
+      if (full.length !== current.questionCount) throw new Error('Kayıtlı soru setinde eksik soru var. Takvimden manuel sonuç girebilirsiniz.');
+      setExamQuestions(full);
+      setActiveExam({ variant: 'triaj', triajTask: current });
+      setTriajSubmitError(null);
+      setAppState('quiz');
+    } finally {
+      setContentLoading(false);
+    }
+  };
 
   const questionLessons = normalQuestions.filter((q) => !EXCLUDED_LESSONS.has(q.lesson)).map((q) => q.lesson);
 
@@ -1343,6 +1432,48 @@ export default function App() {
 
 
   const handleComplete = async (answers: AnswerDetail[]) => {
+    const triajTask = activeExam?.triajTask;
+    if (triajTask) {
+      if (triajSubmission.current) return triajSubmission.current;
+      const byId = new Map(answers.map(answer => [answer.question.id, answer]));
+      const ordered = triajTask.questionIds?.flatMap(id => byId.get(id) ?? []) ?? [];
+      if (ordered.length !== triajTask.questionCount || byId.size !== triajTask.questionCount) {
+        setTriajSubmitError('Görevi teslim etmek için tüm soruları yanıtlayın veya boş geçin.');
+        return;
+      }
+      setTriajSaving(true);
+      setTriajSubmitError(null);
+      const resultDate = getTodayString();
+      const operation = updateTriaj(state => recordTaskResult(state, triajTask.id, {
+        date: resultDate,
+        correct: ordered.filter(answer => answer.state === 'correct').length,
+        wrong: ordered.filter(answer => answer.state === 'incorrect').length,
+        empty: ordered.filter(answer => answer.state === 'blank').length,
+        questionIds: ordered.map(answer => answer.question.id),
+        answers: ordered.map(({ question, ...answer }) => ({ questionId: question.id, ...answer })),
+        setId: triajTask.setId,
+      }), true).then(saved => {
+        const result = saved.triageHistory.find(record => record.taskId === triajTask.id);
+        if (!result) throw new Error('Göreve ait sonuç bulunamadı.');
+        const content = new Map(examQuestions.map(question => [question.id, question]));
+        const details = result.answers?.flatMap(({ questionId, ...answer }) => {
+          const question = content.get(questionId);
+          return question ? [{ question, ...answer }] : [];
+        }) ?? [];
+        setQuizStats({
+          correct: result.correct, incorrect: result.wrong, blank: result.empty, total: result.total, details,
+        });
+        if (triajTask.setId) void clearResumableSession({ id: triajTask.id, setId: triajTask.setId });
+        setAppState('result');
+      }).catch(error => {
+        setTriajSubmitError(`TRİAJ sonucu kaydedilemedi. Bitir düğmesiyle yeniden deneyin. ${errMsg(error)}`);
+      }).finally(() => {
+        setTriajSaving(false);
+        triajSubmission.current = null;
+      });
+      triajSubmission.current = operation;
+      return operation;
+    }
     const correct = answers.filter(a => a.state === 'correct').length;
     const incorrect = answers.filter(a => a.state === 'incorrect').length;
     const blank = answers.filter(a => a.state === 'blank').length;
@@ -1385,6 +1516,7 @@ export default function App() {
   };
 
   const handleReturnToHome = () => {
+    void refreshTriajSummary();
 
     SyncManager.flush().catch(() => {});
 
@@ -2479,6 +2611,18 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               onToggleFavorite={handleToggleFavorite}
               onEditQuestion={(q) => setEditingQuestion(q)}
               onDeleteQuestion={handleDeleteSimulationQuestion}
+              onImportTriaj={!isPreviewMode && simResult.id && simResult.date ? () => {
+                if (!user) { setShowAuth(true); return; }
+                const result = simResult;
+                const { id, date } = result;
+                if (!id || !date) return;
+                void syncSimulationToTriaj({ ...result, id, date }).then(() => {
+                    setTriajInitialTab('analytics');
+                    setTriajInitialTaskId(undefined);
+                    setTriajFromSimulation(true);
+                    setAppState('daily-plan');
+                  }).catch(error => showAlert(errMsg(error), 'TRİAJ'));
+              } : undefined}
               onRetryIncorrect={() => {
                 const incorrectQs = simResult.details
                   .filter(d => d.state === 'incorrect')
@@ -2537,7 +2681,24 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
               onSimulationClick={handleSimulationClick}
 
-              onDailyPlanClick={() => setAppState('daily-plan')}
+              onDailyPlanClick={() => openTriaj()}
+              triajTodayCard={user && <TodayTopics
+                tasks={todayTriajTasks}
+                today={triajToday}
+                resumeId={resumeSessionData?.triajTaskId}
+                onStart={task => {
+                  void handleStartTriajTask(task).catch(error => showAlert(errMsg(error), 'TRİAJ'));
+                }}
+                onOpen={() => openTriaj('calendar')}
+                onManual={taskId => openTriaj('calendar', taskId)}
+                onPrepare={(id, preparationDone) => {
+                  void updateTriaj(state => ({
+                    ...state, tasks: state.tasks.map(task => task.id === id && task.status === 'open'
+                      ? { ...task, preparationDone } : task),
+                  }), true).catch(error => showAlert(errMsg(error), 'TRİAJ'));
+                }}
+                error={triajSummaryError}
+              />}
 
               onDailyExamClick={handleDailyExamStart}
 
@@ -2832,6 +2993,9 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                     totalSeconds: total,
                     usedSeconds: usedSecs,
                   });
+                  if (user) void syncSimulationToTriaj(saved).catch(() => {
+                    toast.error("Deneme TRİAJ'a kaydedilemedi. Sonuç ekranından yeniden deneyin.");
+                  });
 
                   setSimResult({
                     id: saved.id,
@@ -2853,21 +3017,33 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               />
             ) : (
 
+            <>
+            {activeExam?.triajTask && (triajSaving || triajSubmitError) && (
+              <p role={triajSubmitError ? 'alert' : 'status'} className="mb-2 rounded-xl border p-3">
+                {triajSaving ? 'TRİAJ sonucu kaydediliyor…' : triajSubmitError}
+              </p>
+            )}
             <QuizView
 
               mode={activeExam !== null ? 'exam' : 'quiz'}
 
-              unit={activeExam !== null ? (activeExam.simTotalSeconds ? 'DUS Simülasyonu' : 'Deneme Sınavı') : selectedUnit}
+              unit={activeExam?.triajTask?.unit ?? (activeExam !== null ? (activeExam.simTotalSeconds ? 'DUS Simülasyonu' : 'Deneme Sınavı') : selectedUnit)}
 
               questions={activeQuestions}
 
-              initialSession={activeExam !== null ? resumeSessionData : null}
+              initialSession={activeExam?.triajTask
+                ? (resumeSessionData?.triajTaskId === activeExam.triajTask.id && resumeSessionData.triajSetId === activeExam.triajTask.setId
+                  ? resumeSessionData : null)
+                : (activeExam !== null && !resumeSessionData?.triajTaskId ? resumeSessionData : null)}
 
               onComplete={handleComplete}
 
               onDeleteQuestion={handleDeleteQuestion}
 
-              onFinishEarly={handleComplete}
+              onFinishEarly={activeExam?.triajTask ? () => {
+                if (!triajSaving) handleReturnToHome();
+              } : handleComplete}
+              finishEarlyLabel={activeExam?.triajTask ? 'Oturumdan Çık' : undefined}
 
               onToggleFavorite={handleToggleFavorite}
 
@@ -2879,7 +3055,11 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
               onSaveSession={(session: ActiveSessionInfo) => {
 
-                saveResumableSession(session);
+                const task = activeExam?.triajTask;
+                void saveResumableSession(task ? {
+                  ...session, currentIndex: Math.min(session.currentIndex, session.questions.length - 1),
+                  triajTaskId: task.id, triajSetId: task.setId, triajStage: task.stage,
+                } : session);
 
               }}
 
@@ -2926,6 +3106,9 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
                   totalSeconds: total,
                   usedSeconds: usedSecs,
                 });
+                if (user) void syncSimulationToTriaj(saved).catch(() => {
+                  toast.error("Deneme TRİAJ'a kaydedilemedi. Sonuç ekranından yeniden deneyin.");
+                });
 
                 setSimResult({
                   id: saved.id,
@@ -2948,17 +3131,36 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
               settings={settings}
 
               dailyExamId={activeExam?.variant === 'daily' ? activeExam.dailyExamId : undefined}
+              disableStats={activeExam?.variant === 'triaj'}
 
             />
+            </>
           )
 
           ) : appState === 'result' ? (
 
             <ResultView stats={quizStats} onRestart={handleReturnToHome} onRetryIncorrect={handleRetryIncorrect} onExportPDF={handleExportPDF} theme={theme} />
 
-          ) : appState === 'daily-plan' ? (
+          ) : appState === 'daily-plan' && user ? (
 
-            <DailyPlanView
+            <TriajModule
+              userId={user.id}
+              theme={settings.theme}
+              onBack={() => setAppState(triajFromSimulation ? 'simulation-result' : 'select-lesson')}
+              onStartTask={handleStartTriajTask}
+              onStartSimulation={handleSimulationClick}
+              initialTab={triajInitialTab}
+              initialTaskId={triajInitialTaskId}
+              onFavoriteQuestion={id => {
+                if (!questionSkeletonById.get(id)?.is_favorite) handleToggleFavorite(id);
+              }}
+              simulationErrors={triajFromSimulation && simResult ? simResult.details
+                .filter(detail => detail.state === 'incorrect')
+                .map(({ question }) => ({
+                  examId: `simulation:${simResult.id}`, questionId: question.id,
+                  lesson: question.lesson, unit: question.unit, question: question.question,
+                })) : undefined}
+              recommendations={<DailyPlanView
 
               questions={questions.filter(q => !isDenemeBankQuestion(q))}
 
@@ -2996,6 +3198,7 @@ ${chunks.map((chunk, ci) => renderQuestionPage(chunk, ci) + renderAnswerPage(chu
 
               theme={theme}
 
+              />}
             />
 
           ) : appState === 'smart-study' ? (
@@ -3182,7 +3385,7 @@ type DailyExamStatus = 'loading' | 'no-user' | 'not-ready' | { dayNumber: number
 
 
 
-function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onDenemeBankClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onAnalyticsClick, onCikmisClick, cikmisCount, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onDenemeBankClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onAnalyticsClick: () => void; onCikmisClick: () => void; cikmisCount: number; theme: Theme }) {
+function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelete, onRename, onDenemeClick, onDenemeBankClick, onFavoritesClick, hasResume, resumeInfo, onResumeClick, onResumeClear, favoritesCount, weakCount, onWeakClick, onSimulationClick, onDailyPlanClick, triajTodayCard, onDailyExamClick, dailyExamStatus, onSmartStudyClick, onAnalyticsClick, onCikmisClick, cikmisCount, theme }: { lessons: string[]; questions: Question[]; onSelect: (l: string) => void; totalQuestions: number; onDelete: (l: string, e: React.MouseEvent) => void; onRename: (l: string, e: React.MouseEvent) => void; onDenemeClick: () => void; onDenemeBankClick: () => void; onFavoritesClick: () => void; hasResume: boolean; resumeInfo: { answeredCount: number; totalCount: number; remaining: number } | null; onResumeClick: () => void; onResumeClear: () => void; favoritesCount: number; weakCount: number; onWeakClick: () => void; onSimulationClick: () => void; onDailyPlanClick: () => void; triajTodayCard?: ReactNode; onDailyExamClick: () => void; dailyExamStatus: DailyExamStatus; onSmartStudyClick: () => void; onAnalyticsClick: () => void; onCikmisClick: () => void; cikmisCount: number; theme: Theme }) {
 
   const _lessonStats = loadAllStats();
 
@@ -3227,7 +3430,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
 
             <div>
 
-              <h3 className="font-bold text-sm">Yarım Kalan Deneme</h3>
+              <h3 className="font-bold text-sm">Devam Eden Oturum</h3>
 
               <p className={`${theme.subtext} text-xs`}>
 
@@ -3253,6 +3456,8 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
 
 
 
+      {triajTodayCard && <div className="mb-6">{triajTodayCard}</div>}
+
       {totalQuestions > 0 && (
 
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 mb-10 stagger-children bento-grid">
@@ -3271,9 +3476,9 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
 
             <div className="text-sm font-bold opacity-60 mb-1 uppercase tracking-wider">Bugün</div>
 
-            <div className="text-3xl sm:text-4xl font-black text-orange-400 mb-1 tracking-tight">Günlük Plan</div>
+            <div className="text-3xl sm:text-4xl font-black text-orange-400 mb-1 tracking-tight">TRİAJ</div>
 
-            <div className={`${theme.subtext} text-xs mt-1`}>Zayıf konularınız ve müfredat ilerlemesi</div>
+            <div className={`${theme.subtext} text-xs mt-1`}>Günün planı ve tekrar takvimi</div>
 
           </Button>
 
@@ -3327,7 +3532,7 @@ function LessonSelection({ lessons, questions, onSelect, totalQuestions, onDelet
 
             </div>
 
-            <div className="text-sm font-bold opacity-60 mb-1 uppercase tracking-wider">Bugünün Konusu</div>
+            
 
             {dailyExamStatus === 'loading' && (
 
@@ -4260,8 +4465,7 @@ function SimulationSetup({ questions, onStart, onCancel, theme }: {
             <div className="text-2xl font-black font-mono text-white mb-2">40 Soru</div>
             <div className="text-[11px] text-white/70 space-y-0.5 leading-snug">
               <div>• 1-6: Anatomi (6)</div>
-              <div>• 7-10: Histoloji (4)</div>
-              <div>• 11-16: Fizyoloji (6)</div>
+              <div>• 7-16: Fizyoloji, Histoloji ve Embriyoloji (10)</div>
               <div>• 17-22: Biyokimya 1 (6)</div>
               <div>• 23-28: Mikrobiyoloji (6)</div>
               <div>• 29-32: Patoloji (4)</div>

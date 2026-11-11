@@ -65,6 +65,7 @@ interface SimulationResultViewProps {
   backButtonText?: string;
   onBack?: () => void;
   onGoToStats?: () => void;
+  onImportTriaj?: () => void;
   onEditQuestion?: (question: Question) => void;
   onDeleteQuestion?: (questionId: string) => void;
   theme: {
@@ -90,6 +91,7 @@ export default function SimulationResultView({
   backButtonText,
   onBack,
   onGoToStats,
+  onImportTriaj,
   onEditQuestion,
   onDeleteQuestion,
   theme,
@@ -853,6 +855,11 @@ export default function SimulationResultView({
           </div>
 
           <div className="flex items-center gap-2 sm:gap-3 w-full sm:w-auto flex-wrap sm:flex-nowrap justify-end">
+            {onImportTriaj && (
+              <Button onClick={onImportTriaj} variant="secondary" size="md">
+                TRİAJ'a Aktar
+              </Button>
+            )}
             {onBack && (
               <Button
                 onClick={onBack}

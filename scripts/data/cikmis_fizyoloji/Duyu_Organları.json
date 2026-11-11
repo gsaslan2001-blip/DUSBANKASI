@@ -1,0 +1,258 @@
+[
+  {
+    "question": "Aşağıdaki duyuların hangisinde uyarı, reseptörün hiperpolarizasyonu ile olur?",
+    "options": {
+      "A": "Görme",
+      "B": "Koku",
+      "C": "Dokunma",
+      "D": "İşitme",
+      "E": "Tat alma"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): İnsan vücudundaki duyusal reseptörler arasında uyaran geldiğinde depolarize olmak yerine hiperpolarize olarak uyarılan tek klasik reseptör grubu retinadaki fotoreseptörlerdir (çubuk/rod ve koni hücreleri). Karanlıkta fotoreseptörlerde yüksek olan cGMP düzeyi, cGMP-kapılı Na⁺ (ve Ca²⁺) kanallarını açık tutarak hücre içine sürekli katyon girişi (\"karanlık akımı\") ve depolarizasyon (-40 mV) ile sürekli glutamat salınımı sağlar. Göze ışık geldiğinde rodopsin/fotopsin aktifleşir, transdusin (Gt proteini) aracılığıyla cGMP fosfodiesteraz enzimi uyarılır, cGMP yıkılır ve cGMP-kapılı Na⁺ kanalları kapanır; hücre içine Na⁺ girişi dururken K⁺ çıkışı devam ettiği için fotoreseptör hiperpolarize (-70 mV) olur ve glutamat salınımı azalır. Çeldiriciler: B şıkkındaki koku duyusunda koku molekülleri Golf proteinini ve adenilat siklazı uyarır, artan cAMP katyon (Na⁺/Ca²⁺) kanallarını açarak olfaktör nöronu depolarize eder. C şıkkındaki dokunma duyusunda mekanik deformasyon mekanik kapılı Na⁺ kanallarını açarak reseptörü depolarize eder. D şıkkındaki işitme duyusunda stereosilyaların en uzuna doğru yatması mekanik kapılı K⁺ kanallarını açar ve endolenften hücre içine K⁺ girişiyle tüy hücresi depolarize olur. E şıkkındaki tat alma duyusunda (tuzlu, ekşi, tatlı, acı, umami) iyon kanalları veya GPCR-TRPM5 yolağı ile tat reseptör hücresi depolarize olur.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İç kulakta, endolenf aşağıdakilerin hangisinden salınır/üretilir?",
+    "options": {
+      "A": "Reissner membranı",
+      "B": "Kupula",
+      "C": "Spiral ganglion",
+      "D": "Otolitik membran",
+      "E": "Striya vaskülaris"
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): İç kulakta membranöz labirenti (kohlear kanalı / skala mediayı, utrikul, sakkul ve semisirküler kanalları) dolduran, hücre içi sıvısına benzer şekilde potasyumdan (K⁺) çok zengin ve sodyumdan (Na⁺) fakir olan endolenf sıvısı, kohlea kanalının (skala medianın) dış yan duvarında yer alan zengin damarlı epitel yapısı olan striya vaskülaris (ve vestibüler sistemdeki karanlık hücreler) tarafından üretilir ve iyonik bileşimi burada korunur. Çeldiriciler: A şıkkındaki Reissner membranı (vestibüler membran), skala vestibuli (perilenf) ile skala media (endolenf) arasındaki ince ayırıcı zardır. B şıkkındaki kupula, semisirküler kanalların ampullasında tüy hücrelerinin stereosilyalarını içine alan jelatinöz yapıdır ve açısal (rotasyonel) ivmelenmeyi algılar. C şıkkındaki spiral ganglion (Corti gangliyonu), kohleanın modiolusunda yer alan ve işitme yolunun birinci sıra bipolar duyu nöronlarını barındıran gangliyondur. D şıkkındaki otolitik membran, utrikul ve sakkuldeki makula üzerinde yer alan, kalsiyum karbonat kristalleri (otolit/otokoni) içeren ve doğrusal ivmelenme ile yerçekimini algılayan jelatinöz tabakadır.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Burun solunum mukozasında aşağıdakilerden hangisi bulunmaz?",
+    "options": {
+      "A": "Silyalı hücreler",
+      "B": "Goblet hücreler",
+      "C": "Bowman bezleri",
+      "D": "Kapillerler",
+      "E": "Serö-müköz bezler"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Bowman bezleri (olfaktör bezler), burun solunum (respiratuvar) mukozasında bulunmaz; yalnızca burun boşluğunun tavanında ve üst konkada yer alan olfaktör (koku) mukozasının lamina propriasında bulunan dallanmış tübüloalveolar seröz bezlerdir. Bowman bezlerinin salgıladığı sulu seröz salgı ve kokuyu bağlayan proteinler (OBP), koku moleküllerini çözerek olfaktör silyalardaki reseptörlere ulaştırır ve reseptör yüzeyini yıkayarak yeni kokuların algılanmasını sağlar. Çeldiriciler: Burun solunum mukozası yalancı çok katlı silyalı prizmatik (psödostratifiye) epitel ve altındaki lamina propriadan oluşur; epitel içinde A şıkkındaki silyalı prizmatik hücreler ve B şıkkındaki mukus salgılayan goblet (kadeh) hücreleri bol miktarda bulunur (olfaktör epitelde ise goblet hücresi yoktur). Lamina propriada ise solunan havayı ısıtan D şıkkındaki zengin kapiller ve venöz pleksuslar ile havayı nemlendiren E şıkkındaki mikst serö-müköz bezler yer alır.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tat tomurcuklarında sinyal iletimi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "options": {
+      "A": "Tuzlu tat duyusundan sorumlu kanal, amilorid duyarlı Na⁺ kanalıdır.",
+      "B": "Ekşi tat duyusunda K⁺ kanalının bloke edilmesi rol oynar.",
+      "C": "Umami tat duyusu, glutamat reseptörünün aktivasyonu ile gerçekleşir.",
+      "D": "Bazı acı tat uyaranları için \"gustducin\" bağımlı reseptörlerin aktivasyonu gerekir.",
+      "E": "Tatlı tat duyusundan sorumlu reseptörlerin aktivasyonu, Na⁺ kanalının açılmasına neden olur."
+    },
+    "correctAnswer": "E",
+    "explanation": "Doğru (E): Tatlı tat duyusu doğrudan amilorid duyarlı epitelyal Na⁺ kanallarının (ENaC) açılmasıyla değil, G proteini kenetli T1R2 ve T1R3 heterodimer reseptörlerinin aktivasyonuyla başlar; bu reseptörler gustdusin (G proteini) üzerinden fosfolipaz C-beta2'yi (PLCβ2) uyarır, artan IP3 endoplazmik retikulumdan Ca²⁺ salınımına yol açar ve hücre içi Ca²⁺ artışı TRPM5 katyon kanallarını aktive ederek depolarizasyon oluşturur. Doğrudan epitelyal Na⁺ kanalının açılması tatlı tadın değil, tuzlu tadın temel mekanizmasıdır. Çeldiriciler: A şıkkı doğrudur; tuzlu tat (NaCl), tat hücresinin apikal membranındaki amilorid duyarlı epitelyal Na⁺ kanallarından (ENaC) doğrudan Na⁺ girişi ve depolarizasyon ile algılanır. B şıkkı doğrudur; ekşi tat (asitler / H⁺ iyonları), apikal K⁺ kanallarını bloke ederek ve proton kanallarından (OTOP1) hücre içine H⁺ girişi sağlayarak tat hücresini depolarize eder. C şıkkı doğrudur; lezzetli/etli tat olan umami, monosodyum L-glutamatın metabotropik glutamat reseptörü (mGluR4) ile T1R1+T1R3 heterodimer reseptörlerini aktive etmesiyle algılanır. D şıkkı doğrudur; acı tat uyaranları G proteini (gustdusin) ile kenetli T2R reseptör ailesini aktive ederek PLC-IP3-Ca²⁺ yolağı üzerinden sinyal iletir.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Erişkinde, tat tomurcuğu bulunan yapılar aşağıdakilerin hangisinde birlikte verilmiştir?",
+    "options": {
+      "A": "Papilla foliata – Papilla filiformis",
+      "B": "Papilla filiformis – Papilla fungiformis",
+      "C": "Lingual tonsil – Papilla sirkumvallata",
+      "D": "Papilla sirkumvallata – Papilla fungiformis",
+      "E": "Papilla filiformis – Papilla sirkumvallata"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Dilin dorsal yüzeyindeki mukozada 4 tip papilla bulunur; bunlardan papilla sirkumvallata (sulkus terminalisin önünde V şeklinde dizilen, sayıca en az ama en büyük olan ve toplam tat tomurcuklarının yaklaşık yarısını barındıran papillalar), papilla fungiformis (dilin özellikle ön 2/3'ünde ve uç kısmında dağılmış mantar şeklindeki kırmızımsı papillalar) ve papilla foliata (dilin arka yan kenarlarında bulunan yapraksı papillalar) tat tomurcuğu içerir; dolayısıyla D şıkkındaki her iki yapı da tat tomurcuğu barındırır. Çeldiriciler: A, B ve E şıklarında yer alan papilla filiformis, dilin dorsal yüzeyinde sayıca en fazla bulunan, uçları konik ve yoğun keratinize olan papillalardır; hiçbir zaman tat tomurcuğu içermezler, yalnızca besinlerin mekanik olarak kavranması ve sürtünme ile dokunma duyusunda görev alırlar. C şıkkındaki lingual tonsil ise dilin arka 1/3 kök kısmında yer alan lenfoid doku kümesi olup tat papillası değildir.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisi, koku mukozasında bulunmaz?",
+    "options": {
+      "A": "Goblet hücresi",
+      "B": "Destek hücresi",
+      "C": "Bazal hücre",
+      "D": "Olfaktör hücre",
+      "E": "Bowman bezleri"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Goblet (kadeh) hücreleri visköz mukus salgılayan tek hücreli bezler olup burun solunum (respiratuvar) mukozasında ve alt solunum yollarında bol miktarda bulunurken, koku (olfaktör) mukozası epitelinde bulunmazlar; çünkü koyu kıvamlı goblet mukusu olfaktör silyaların üzerini kaplayarak koku moleküllerinin reseptörlere erişimini engelleyecektir (bunun yerine koku mukozası sulu seröz Bowman bezi salgısı ile yıkanır). Çeldiriciler: B şıkkındaki destek (sustentaküler) hücreleri, koku epitelinde bol mikrovilluslu prizmatik hücreler olup olfaktör nöronlara mekanik, metabolik ve iyonik destek sağlar, içerdikleri lipofuskin granülleriyle koku mukozasına sarı-kahverengi rengini verir. C şıkkındaki bazal hücreler, bazal lamina üzerine oturan kök hücreler olup ömrü 30–60 gün olan olfaktör nöronları ve destek hücrelerini sürekli yeniler. D şıkkındaki olfaktör hücreler, koku duyusunu alan bipolar duyu nöronlarıdır. E şıkkındaki Bowman bezleri ise koku mukozasının lamina propriasında yer alan seröz salgı bezleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Lezzetli tat olarak da bilinen umami tat hangi reseptörler üzerinden etki gösterir?",
+    "options": {
+      "A": "ENaC",
+      "B": "mGluR4",
+      "C": "SGLT-1",
+      "D": "HCN",
+      "E": "T2R"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Et, balık, peynir ve olgun domates gibi protein ve amino asitten (özellikle L-glutamattan ve 5'-ribonükleotidlerden) zengin besinlerin verdiği \"lezzetli/etli\" tat olan umami tat duyusu, tat tomurcuklarındaki reseptör hücrelerin apikal membranında yer alan metabotropik glutamat reseptörü 4 (mGluR4, tat-spesifik kesik formu) ve T1R1+T1R3 heterodimerik G proteini kenetli reseptörler üzerinden algılanır. Çeldiriciler: A şıkkındaki ENaC (epitelyal sodyum kanalı), amilorid duyarlı bir kanal olup tuzlu tadın algılanmasından ve böbrek toplayıcı kanallarında Na⁺ geri emiliminden sorumludur. C şıkkındaki SGLT-1 (sodyum-glukoz birlikte taşıyıcı 1), ince bağırsak enterositlerinin apikal membranında glukoz ve galaktozun Na⁺ ile sekonder aktif taşınarak emilmesini sağlar. D şıkkındaki HCN (hiperpolarizasyonla aktive olan siklik nükleotid kapılı) kanalları, kalp sinoatriyal düğümünde pacemaker (\"funny\") akımını oluşturur (ayrıca ekşi tatta yan rolü tartışılmıştır ancak umami reseptörü değildir). E şıkkındaki T2R reseptör ailesi ise acı (bitter) tadın algılanmasından sorumlu GPCR reseptörleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Tektorial membran, aşağıdaki iç kulak bölümlerinin hangisinde bulunur?",
+    "options": {
+      "A": "Utrikul",
+      "B": "Kohlea kanalı",
+      "C": "Sakkul",
+      "D": "Anterior yarım daire kanalı",
+      "E": "Lateral yarım daire kanalı"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Tektorial membran, iç kulakta işitme organı olan kohlea kanalının (skala media / duktus kohlearis) içinde, baziler membran üzerine yerleşmiş olan Corti organının bir parçasıdır. Spiral limbus üzerindeki interdental hücreler tarafından salgılanan glikoprotein yapılı, jelatinöz ve esnek bir örtü olan tektorial membran, iç ve dış tüy hücrelerinin stereosilyalarının üzerine uzanır; ses dalgalarıyla baziler membran titreştiğinde tüy hücrelerinin stereosilyaları tektorial membrana sürtünerek eğilir ve mekanik uyarı elektriksel işitme sinyaline dönüştürülür. Çeldiriciler: A şıkkındaki utrikul ve C şıkkındaki sakkul, vestibüler sistemin otolit organları olup tektorial membran içermezler; bunların tüy hücreleri üzerinde kalsiyum karbonat kristalleri (otokoni) taşıyan \"otolitik membran\" bulunur. D şıkkındaki anterior yarım daire kanalı ve E şıkkındaki lateral yarım daire kanalı ise açısal ivmelenmeyi algılayan semisirküler kanallar olup ampullalarındaki krista ampullaris üzerinde tektorial membran değil, \"kupula\" adı verilen jelatinöz yapı bulunur.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdaki retinal hücrelerden hangisi sinyalini elektrotonik ileti olarak iletmez?",
+    "options": {
+      "A": "Bipolar hücreler",
+      "B": "Horizontal hücreler",
+      "C": "Basil (çubuk) hücreleri",
+      "D": "Gangliyon hücreleri",
+      "E": "Koni hücreleri"
+    },
+    "correctAnswer": "D",
+    "explanation": "Doğru (D): Retinanın tek çıkış nöronları olan gangliyon hücreleri, aksonları birleşerek optik siniri (CN II) oluşturan ve görsel bilgiyi uzun bir mesafe boyunca talamusun korpus genikulatum laterale (LGN) çekirdeğine taşıyan hücrelerdir. Uzun mesafeli aksonal iletimde elektrotonik (dereceli) potansiyeller sönümleneceği için gangliyon hücreleri sinyallerini elektrotonik olarak değil, \"ya hep ya hiç\" yasasına uyan gerçek aksiyon potansiyelleri (spike deşarjları) üreterek iletirler. Çeldiriciler: A şıkkındaki bipolar hücreler, B şıkkındaki horizontal hücreler, C şıkkındaki basil (çubuk/rod) fotoreseptör hücreleri ve E şıkkındaki koni fotoreseptör hücrelerinin aksonları çok kısadır ve yalnızca retina tabakaları içinde komşu hücrelerle sinaps yaparlar; bu nedenle bu dört hücre tipi aksiyon potansiyeli oluşturmaz, sinyallerini yalnızca pasif, kademeli (graded) elektrotonik potansiyeller şeklinde iletirler (amakrin hücrelerin bir kısmı yerel spike üretebilse de sürekli aksiyon potansiyeli ileten esas hücre gangliyon hücresidir).",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Retinada bulunan ve astrosit ile benzer işlevsel özelliğe sahip olan hücre tipi aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Satellit hücresi",
+      "B": "Amakrin hücre",
+      "C": "Müller hücresi",
+      "D": "Schwann hücresi",
+      "E": "Horizontal hücre"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Müller hücreleri, retinanın en büyük ve en temel nöroglia (makrogliya) hücreleridir; iç sınırlayıcı membrandan dış sınırlayıcı membrana kadar tüm retina katmanları boyunca uzanan dev radyal hücrelerdir. Santral sinir sistemindeki astrositlerle birebir benzer işlevsel özelliklere sahiptirler: retinal nöronlara yapısal iskelet ve metabolik destek (laktat) sağlarlar, ekstraselüler aralıktaki fazla potasyum (K⁺) iyonlarını ve glutamat nörotransmitterini temizlerler, ayrıca retina kapillerlerini sararak iç kan-retina bariyerinin korunmasına katkıda bulunurlar. Çeldiriciler: A şıkkındaki satellit hücresi ve D şıkkındaki Schwann hücresi retinada bulunmaz, periferik sinir sisteminin glia hücreleridir. B şıkkındaki amakrin hücre (iç pleksiform tabakada bipolar ve gangliyon hücreleri arasında modülasyon yapar) ve E şıkkındaki horizontal hücre (dış pleksiform tabakada fotoreseptörler ile bipolar hücreler arasında lateral inhibisyon yapar) glia hücresi olmayıp retinanın ara nöronlarıdır (internöronlardır).",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Retinada bipolar hücreler kendilerine gelen uyarıyı hangi hücrelere iletirler?",
+    "options": {
+      "A": "Hem amakrin hem de horizontal hücrelere",
+      "B": "Hem amakrin hem de gangliyon hücrelerine",
+      "C": "Sadece horizontal hücrelere",
+      "D": "Sadece gangliyon hücrelerine",
+      "E": "Hem horizontal hem de gangliyon hücrelerine"
+    },
+    "correctAnswer": "B",
+    "explanation": "Doğru (B): Retinada dikey (vertikal) sinyal iletim hattı \"fotoreseptör (çubuk/koni) → bipolar hücre → gangliyon hücresi\" şeklindedir. İç nükleer tabakada gövdeleri bulunan bipolar hücreler, dış pleksiform tabakada fotoreseptörlerden (ve horizontal hücrelerden) aldıkları uyarıyı iç pleksiform tabakaya taşırlar; iç pleksiform tabakada ise akson terminalleri aracılığıyla uyarıyı hem doğrudan gangliyon hücrelerinin dendritlerine hem de bu kavşakta yan (lateral) modülasyon yapan amakrin hücrelere iletirler (özellikle çubuk bipolar hücreleri sinyali önce AII amakrin hücrelerine, oradan koni bipolar ve gangliyon hücrelerine aktarır). Çeldiriciler: A, C ve E şıklarında yer alan horizontal hücreler, iç pleksiform tabakada (bipolar hücrenin çıkış ucunda) değil, dış pleksiform tabakada (fotoreseptör-bipolar sinapsında, yani bipolar hücrenin giriş ucunda) yer alırlar ve fotoreseptörlerden uyarı alarak lateral inhibisyon yaparlar. D şıkkı ise bipolar hücrelerin iç pleksiform tabakada sinaps yaptığı diğer temel hedef olan amakrin hücreleri dışladığı için eksiktir.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Aşağıdakilerden hangisinin hasarında yüksek frekanslı seslere (>5.000 Hz) karşı işitme kaybı oluşma olasılığı daha yüksektir?",
+    "options": {
+      "A": "Reissner zarının orta kısmında",
+      "B": "Reissner zarının helikotrema'ya yakın kısmında",
+      "C": "Baziller zarın oval pencereye yakın kısmında",
+      "D": "Baziller zarın orta kısmında",
+      "E": "Baziller zarın helikotrema'ya yakın kısmında"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): İç kulakta kohlea boyunca uzanan ve üzerinde Corti organını taşıyan baziller zar (membrana basilaris), ses frekanslarının ayırt edilmesini (tonotopik organizasyonu) sağlar. Baziller zar kohleanın tabanında, yani stapesin oturduğu oval pencereye yakın başlangıç kısmında dar, kısa ve sert (gergin) yapıda iken, kohleanın tepesine (apeks / helikotrema) doğru gidildikçe genişler ve esnekliği (gevşekliği) artar. Bu mekanik özellik nedeniyle yüksek frekanslı (tiz, >5.000 Hz) sesler baziller zarın oval pencereye yakın taban (bazal) kısmını maksimum titreştirirken, düşük frekanslı (pes) sesler helikotremaya yakın apeks kısmını titreştirir; dolayısıyla baziller zarın oval pencereye yakın kısmının hasarında yüksek frekanslı seslere karşı işitme kaybı oluşur. Çeldiriciler: A ve B şıklarındaki Reissner zarı endolenf ile perilenfi ayıran ince bir zar olup frekans seçiciliği (tonotopik rezonans) yapmaz. D şıkkındaki baziller zarın orta kısmı orta frekanslı seslerin, E şıkkındaki baziller zarın helikotremaya (apekse) yakın kısmı ise düşük frekanslı (pes) seslerin algılanmasından sorumludur.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "İç kulakta endolenfin sentezlendiği yer aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Lamina spiralis",
+      "B": "Modiolus",
+      "C": "Stria vascularis",
+      "D": "Spiral limbus",
+      "E": "Membrana basilaris"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kohlea kanalını (skala mediayı) dolduran yüksek K⁺ (~150 mEq/L) ve düşük Na⁺ (~1 mEq/L) içerikli endolenf sıvısı, skala medianın dış duvarında (spiral ligament üzerinde) yer alan ve bazal, intermediyer ve marjinal hücrelerden oluşan üç katlı vasküler epitel dokusu olan stria vascularis tarafından sentezlenir ve lümene K⁺ salgılanarak +80 mV'lik endokohlear potansiyel burada oluşturulur. Çeldiriciler: A şıkkındaki lamina spiralis ossea, modiolustan kohlea kanalına doğru uzanan kemik raf yapısıdır. B şıkkındaki modiolus, kohleanın etrafına sarıldığı koni şeklindeki süngerimsi kemik eksendir ve içinde spiral gangliyonu barındırır. D şıkkındaki spiral limbus, lamina spiralis üzerinde yer alan ve tektorial membranın salgılandığı periostal bağ dokusu kalınlaşmasıdır. E şıkkındaki membrana basilaris (baziller zar) ise skala media ile skala timpaniyi birbirinden ayıran ve üzerinde Corti organını taşıyan fibröz zardır.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Dilden alınan bir kesite ait yukarıdaki mikroskopik görüntüde ok ile işaretli yapılar aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Fungiform papilla",
+      "B": "Dental papilla",
+      "C": "Filiform papilla",
+      "D": "Folyat papilla",
+      "E": "Sirkumvallat papilla"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Dilin dorsal yüzeyinden alınan histolojik kesitlerde yüzeyde en sık olarak dizilen, uçları ince, uzun ve sivri (konik) şekilli olan, çok katlı yassı epitelinin yüzeyinde belirgin eozinofilik keratin tabakası bulunan ve epitel duvarında hiç tat tomurcuğu içermeyen yapılar filiform papillalardır; bu papillalar besinlerin mekanik olarak dil yüzeyinde tutulmasını sağlar. Çeldiriciler: A şıkkındaki fungiform papillalar, filiform papillaların arasına tek tek serpiştirilmiş, üst kısmı geniş ve kubbemsi (mantar şeklinde), çok az keratinize veya non-keratinize olan ve üst yüzey epitelinde tat tomurcukları barındıran papillalardır. B şıkkındaki dental papilla, dilde bulunan bir mukoza papillası olmayıp diş gelişimi sırasında mine organının iç kısmında yer alan ve dentin (odontoblast) ile diş pulpasını oluşturan ektomezenşimal dokudur. D şıkkındaki folyat (foliat) papillalar, dilin arka yan kenarlarında birbirine paralel dikey mukoza katlantıları (yapraklar) şeklinde görülür ve yan duvarlarında bol tat tomurcuğu içerir. E şıkkındaki sirkumvallat papillalar ise derin bir oluk (hendek) ile çevrelenmiş çok büyük, yassı kubbeli papillalar olup oluğun tabanına seröz von Ebner bezleri açılır ve yan duvarlarında çok sayıda tat tomurcuğu bulunur.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Kan-retina bariyerini aşağıdakilerden hangisi oluşturur?",
+    "options": {
+      "A": "Çubuk ve koni hücreleri",
+      "B": "Bipolar nöronlar ve gangliyon hücreleri",
+      "C": "Retina pigment epiteli hücreleri",
+      "D": "Horizontal hücreler",
+      "E": "Müller hücreleri"
+    },
+    "correctAnswer": "C",
+    "explanation": "Doğru (C): Kan-retina bariyeri iç ve dış olmak üzere iki bileşenden oluşur; dış kan-retina bariyerini, Bruch membranı üzerine oturan tek katlı kübik/prizmatik retina pigment epiteli (RPE) hücrelerinin apikal-lateral yüzleri arasında bulunan sıkı bağlantılar (tight junctions / zonula occludens) oluşturur. Bu sıkı bağlantılar, koroid tabakasındaki oldukça geçirgen (pencereli) koryokapillaris damarlarından sızan sıvı ve makromoleküllerin nöral retinaya ve fotoreseptörlerin arasına geçmesini engeller (iç kan-retina bariyerini ise retina içi kapiller endotel hücrelerinin sıkı bağlantıları oluşturur). Çeldiriciler: A şıkkındaki çubuk ve koni hücreleri ışığı algılayan fotoreseptör nöronlardır (Müller hücreleriyle yaptıkları dış sınırlayıcı membran zonula adherens yapısındadır, gerçek sıkı bariyer değildir). B şıkkındaki bipolar ve gangliyon hücreleri ile D şıkkındaki horizontal hücreler sinyal ileten retinal nöronlardır. E şıkkındaki Müller hücreleri iç kan-retina bariyerindeki kapiller endotelini destekleyen glia hücreleri olmakla birlikte, şıklarda doğrudan sıkı bağlantılarıyla bariyer oluşturan asıl epitelyal tabaka C şıkkındaki retina pigment epiteli hücreleridir.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  },
+  {
+    "question": "Gözün retina tabakasında rod ve koni hücrelerinden dökülen membranöz disklerin fagositozundan esas sorumlu hücre aşağıdakilerden hangisidir?",
+    "options": {
+      "A": "Pigment epiteli hücresi",
+      "B": "Amakrin hücre",
+      "C": "Müller hücresi",
+      "D": "Horizontal hücre",
+      "E": "Ganglion hücresi"
+    },
+    "correctAnswer": "A",
+    "explanation": "Doğru (A): Retinanın en dış katmanını oluşturan retina pigment epiteli (RPE) hücrelerinin apikal yüzeylerinden çıkan uzun mikrovillus uzantıları, çubuk (rod) ve koni fotoreseptörlerinin dış segmentlerinin uç kısımlarını sarar. Fotoreseptörlerin dış segmentlerindeki fotopigment taşıyan membranöz diskler tabandan sürekli yenilenirken, uç kısımdaki yaşlanmış diskler sirkadiyen bir ritimle koparak dökülür; dökülen bu membranöz disklerin fagositozla yutulup lizozomal enzimlerle parçalanmasından (ve aynı zamanda all-trans-retinalin 11-cis-retinale dönüştürülmesi ile gelen fazla ışığın melanin ile soğurulmasından) esas sorumlu hücre pigment epiteli hücresidir. Çeldiriciler: B şıkkındaki amakrin hücre ve D şıkkındaki horizontal hücre retinada lateral sinyal modülasyonu yapan ara nöronlardır, fagositoz yapmazlar. C şıkkındaki Müller hücresi nöral retinanın yapısal ve metabolik destek glia hücresidir, fotoreseptör dış segment disklerinin günlük fizyolojik fagositozundan sorumlu değildir. E şıkkındaki ganglion hücresi ise aksonları optik siniri oluşturan projeksiyon nöronudur.",
+    "lesson": "Fizyoloji",
+    "unit": "Duyu Organları",
+    "flag_reason": "ÖSYM Çıkmış",
+    "quality_flag": "cikmis"
+  }
+]

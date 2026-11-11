@@ -29,6 +29,7 @@ export type QuizViewProps = {
   onComplete: (answers: AnswerDetail[]) => void;
   onDeleteQuestion: (id: string) => void;
   onFinishEarly: (answers: AnswerDetail[]) => void;
+  finishEarlyLabel?: string;
   onToggleFavorite: (id: string) => void;
   onEditQuestion: (q: Question) => void;
   onReportQuestion: (q: Question) => void;
@@ -51,7 +52,7 @@ export function QuizView({
   mode, unit, questions, initialSession,
   onComplete, onDeleteQuestion, onFinishEarly, onToggleFavorite,
   onEditQuestion, onReportQuestion, onSaveAIExplanation, onSaveSession, onExportPDF,
-  timedSeconds, onSimulationComplete, theme, settings, dailyExamId, disableStats,
+  timedSeconds, onSimulationComplete, theme, settings, dailyExamId, disableStats, finishEarlyLabel,
 }: QuizViewProps) {
   const [currentIndex, setCurrentIndex] = useState<number>(
     initialSession ? Math.min(initialSession.currentIndex, Math.max(questions.length - 1, 0)) : 0
@@ -265,6 +266,7 @@ export function QuizView({
         questionLesson={question.lesson}
         questionUnit={question.unit}
         onFinishEarly={handleFinishEarlyAdapter}
+        finishEarlyLabel={finishEarlyLabel}
         onExportPDF={onExportPDF}
         onEditQuestion={onEditQuestion}
         onReportQuestion={onReportQuestion}
