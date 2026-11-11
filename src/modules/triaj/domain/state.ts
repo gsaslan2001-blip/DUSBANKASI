@@ -153,6 +153,7 @@ export function recordTaskResult(state: TriajState, taskId: string, input: TaskR
       status: discharged ? 'DISCHARGED' : 'TRIAGED', t3DueDate: undefined,
       t14DueDate: nextStage === 'T14_VERIFICATION' ? nextDate : undefined,
       saturdayRepairDate: nextStage === 'SATURDAY_REPAIR' ? nextDate : undefined,
+      promotedFromRed: decision.bucket === 'YELLOW' && (task.stage === 'SATURDAY_REPAIR' || (task.stage === 'T14_VERIFICATION' && !!topic.promotedFromRed)),
     });
     if (task.stage === 'T3_MAIN') updated.t3Score = score;
     if (task.stage === 'T14_VERIFICATION') updated.t14Score = score;

@@ -52,6 +52,17 @@ describe('TRİAJ çalışma protokolü', () => {
     expect(() => rescheduleTask(red, active(red).id, '2026-11-16')).toThrow('Cumartesi');
     expect(currentTaskDate(active(red), '2026-11-15')).toBe('2026-11-21');
   });
+  test('başarılı onarımdan sonra üçüncü banka bilgisini sarı takip boyunca korur', () => {
+    const planned = planUnit(emptyTriajState(), lesson, unit, t0);
+    const sampled = complete(planned, active(planned), 9, t0);
+    const red = complete(sampled, active(sampled), 27, t3);
+    const repaired = complete(red, active(red), 24, t3);
+    expect(repaired.topics[0].promotedFromRed).toBe(true);
+    const yellow = complete(repaired, active(repaired), 14, '2026-11-28');
+    expect(yellow.topics[0].promotedFromRed).toBe(true);
+    const green = complete(yellow, active(yellow), 17, '2026-12-12');
+    expect(green.topics[0].promotedFromRed).toBe(false);
+  });
   test.each([[12, 'repair', true], [13, 'closed', false]])('15 soruluk hata doğrulamasında %i doğru', (score, status, repair) => {
     const planned = planUnit(emptyTriajState(), lesson, unit, t0);
     const sampled = complete(planned, active(planned), 10, t0);

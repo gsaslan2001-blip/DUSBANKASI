@@ -3,8 +3,8 @@ import { getDaysDiff } from '../domain/triage';
 import { useTriajView } from './TriajViewContext';
 
 const tabs = [
-  { id: 'planner', label: 'Günlük Plan', icon: Calendar },
-  { id: 'subjects', label: 'Dersler ve Üniteler', icon: Layers },
+  { id: 'planner', label: 'Komuta Merkezi', icon: Calendar },
+  { id: 'subjects', label: 'Müfredat', icon: Layers },
   { id: 'notifications', label: 'Takvim', icon: Calendar },
   { id: 'analytics', label: 'Deneme ve Hata Analizi', icon: BarChart3 },
   { id: 'report', label: 'Kova Raporu', icon: Layers },
@@ -36,16 +36,16 @@ export function TriajHeader({
   ];
 
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200 bg-white shadow-xs">
-      <div className="mx-auto max-w-7xl px-3 sm:px-6 lg:px-8">
-        <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 py-3">
+    <header className="sticky top-0 z-40 border-b border-white/10 bg-zinc-950/92 text-white backdrop-blur-xl">
+      <div className="mx-auto max-w-7xl px-3 sm:px-5 lg:px-6">
+        <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-2 py-2">
           <div className="flex min-w-0 items-center gap-3">
             <button type="button" onClick={onBack} aria-label="Soru Bankasına Dön" title="Soru Bankasına Dön"
-              className="rounded-lg border border-slate-200 p-2 hover:bg-slate-100"><ArrowLeft className="size-4" /></button>
+              className="rounded-lg border border-white/15 p-2 text-zinc-200 hover:bg-white/10"><ArrowLeft className="size-4" /></button>
             <div>
-              <h1 className="text-lg font-bold tracking-tight text-slate-900">TRİAJ</h1>
+              <h1 className="text-[15px] font-bold tracking-tight text-white">Triyaj <span className="rounded-md border border-white/10 bg-white/8 px-1.5 py-0.5 font-mono text-[10px] text-emerald-400">{daysLeft !== null && daysLeft >= 0 ? `${daysLeft}G · ` : ''}{systemParams.targetTotalNet} Net</span></h1>
               {daysLeft !== null && (
-                <p className="text-xs text-slate-600">{daysLeft < 0 ? 'Sınav tarihi geçti' : daysLeft === 0 ? 'Sınav günü' : `Sınava ${daysLeft} gün kaldı`}</p>
+                <p className="text-[10px] text-zinc-400">Bilişsel Kova &amp; Çalışma Sistemi</p>
               )}
             </div>
             {report.redBucket >= 3 && (
@@ -57,26 +57,26 @@ export function TriajHeader({
           <div className="flex flex-wrap items-center gap-1.5">
             {actions.map(({ label, icon: Icon, action }) => (
               <button key={label} type="button" onClick={action} aria-label={label} title={label}
-                className="inline-flex items-center gap-1.5 rounded-lg border border-slate-200 p-2 text-xs font-semibold text-slate-700 hover:bg-slate-100">
+                className="inline-flex items-center gap-1.5 rounded-lg border border-white/10 p-2 text-xs font-semibold text-zinc-300 hover:bg-white/10 hover:text-white">
                 <Icon className="size-4" />
                 <span className="hidden lg:inline">{label}</span>
               </button>
             ))}
             <button type="button" onClick={toggleSound} aria-pressed={soundEnabled} aria-label="Ses Ayarı"
-              className="rounded-lg border border-slate-200 p-2 text-slate-700 hover:bg-slate-100">
+              className="rounded-lg border border-white/10 p-2 text-zinc-300 hover:bg-white/10">
               {soundEnabled ? <Volume2 className="size-4" /> : <VolumeX className="size-4" />}
             </button>
             <button type="button" onClick={onOpenNotifications} aria-label={unread ? `Bildirimler, ${unread} okunmamış` : 'Bildirimler'}
-              className="flex items-center gap-1 rounded-lg border border-slate-200 p-2 text-slate-700 hover:bg-slate-100">
+              className="flex items-center gap-1 rounded-lg border border-white/10 p-2 text-zinc-300 hover:bg-white/10">
               <Bell className="size-4" />
               {unread > 0 && <span className="text-xs font-semibold text-rose-700">{unread}</span>}
             </button>
           </div>
         </div>
-        <nav aria-label="TRİAJ sekmeleri" className="flex items-center gap-1 overflow-x-auto border-t border-slate-100 py-2">
+        <nav aria-label="TRİAJ sekmeleri" className="flex items-center gap-1 overflow-x-auto border-t border-white/10 py-1.5">
           {tabs.map(({ id, label, icon: Icon }) => (
-            <button key={id} type="button" onClick={() => setActiveTab(id)} aria-current={activeTab === id ? 'page' : undefined}
-              className={`flex shrink-0 items-center gap-2 rounded-lg px-3 py-2 text-xs font-semibold ${activeTab === id ? 'bg-indigo-600 text-white' : 'text-slate-700 hover:bg-slate-100'}`}>
+            <button key={id} type="button" onClick={() => setActiveTab(id)} aria-label={id === 'subjects' ? 'Dersler ve Üniteler' : id === 'planner' ? 'Günlük Plan' : label} aria-current={activeTab === id ? 'page' : undefined}
+              className={`flex shrink-0 items-center gap-2 rounded-lg px-3 py-1.5 text-xs font-semibold ${activeTab === id ? 'bg-white text-zinc-950' : 'text-zinc-300 hover:bg-white/10 hover:text-white'}`}>
               <Icon className="size-4" /> {label}
             </button>
           ))}

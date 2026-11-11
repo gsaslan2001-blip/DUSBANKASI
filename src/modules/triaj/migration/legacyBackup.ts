@@ -175,6 +175,7 @@ function content(record: IncomingRecord, target?: CanonicalUnitTarget): string {
     return stableJson({
       subtopics: data.subtopics, clinicalNotes: data.clinicalNotes, mnemonics: data.mnemonics, criticalDifferences: data.criticalDifferences,
       t0Date: data.t0Date, t0Score: data.t0Score, t3Score: data.t3Score, t14Score: data.t14Score, repairScore: data.repairScore,
+      promotedFromRed: data.promotedFromRed,
       bucket: data.currentBucket, status: data.status, lastStudiedDate: data.lastStudiedDate,
     });
   }

@@ -281,6 +281,13 @@ export const DeepSeekModal: React.FC<DeepSeekModalProps> = ({
                 <div className="text-[10px] text-slate-500 mt-0.5">Boş Kağıt Kritik Eşikler</div>
               </button>
 
+              {([['SWSPS_ERROR_AUTOPSY', 'SWSPS Hata Otopsisi'], ['MOCK_EXAM_STRATEGY', 'Deneme Stratejisi']] as const).map(([mode, label]) => (
+                <button key={mode} type="button" onClick={() => setTaskType(mode)}
+                  className={`p-2.5 rounded-lg border text-left transition-all ${taskType === mode ? 'border-indigo-600 bg-indigo-50 text-indigo-950 font-semibold ring-1 ring-indigo-600' : 'border-slate-200 hover:border-slate-300 text-slate-700'}`}>
+                  {label}
+                </button>
+              ))}
+
               <button
                 type="button"
                 onClick={() => setTaskType('CUSTOM')}

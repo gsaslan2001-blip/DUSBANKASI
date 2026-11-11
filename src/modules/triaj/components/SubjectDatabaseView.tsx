@@ -663,7 +663,7 @@ export const SubjectDatabaseView: React.FC = () => {
                     topic.currentBucket === 'GREEN' || topic.discharged
                       ? 'TABURCU (Sadece Branş Denemesi)'
                       : topic.currentBucket === 'YELLOW'
-                      ? '[SARI KOVA] 2. Banka 1 Test (20 Soru)'
+                      ? `[SARI KOVA] ${topic.promotedFromRed ? '3.' : '2.'} Banka 1 Test (20–25 Soru)`
                       : topic.currentBucket === 'RED'
                       ? '[KIRMIZI KOVA] Cmt 25dk Onarım + 30 Soru'
                       : (topic.status === 'T0_DONE' || topic.status === 'T3_PENDING')

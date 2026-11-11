@@ -50,7 +50,7 @@ function TriajContent({ onBack, initialTab, initialTaskId, onStartSimulation, si
   const { notifications, topics, subjects, markAllNotificationsRead, markNotificationRead } = useTriajView();
 
   return (
-    <div className="bg-slate-100/70 text-slate-900 font-sans flex flex-col">
+    <div className="bg-[#f5f5f7] text-slate-900 font-sans flex flex-col">
       {/* Üst Navigasyon */}
       <TriajHeader
         onBack={onBack}
@@ -64,7 +64,7 @@ function TriajContent({ onBack, initialTab, initialTaskId, onStartSimulation, si
       />
 
       {/* Ana Gövde */}
-      <div className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <div className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-5 lg:px-6 py-4">
         {activeTab === 'planner' && <DailyPlannerView onStartSimulation={onStartSimulation} />}
         {activeTab === 'subjects' && <SubjectDatabaseView />}
         {activeTab === 'notifications' && <NotificationCalendarView initialTaskId={initialTaskId} />}

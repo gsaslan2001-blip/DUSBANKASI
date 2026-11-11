@@ -43,6 +43,17 @@ describe('legacy catalogue', () => {
 });
 
 describe('legacy transfer', () => {
+  it('preserves the third-bank instruction for a topic promoted from red', () => {
+    const source = topic('unit-b14-05', 'B14', '5- PERİODONTİTİS', {
+      status: 'TRIAGED', currentBucket: 'YELLOW', promotedFromRed: true,
+      lastStudiedDate: studyDay,
+      repairScore: { date: studyDay, correct: 24, wrong: 6, total: 30, percentage: 80 },
+    });
+    const initial = emptyTriajState();
+    const state = applyLegacyImport(initial, previewLegacyImport(backup({ topics: [source] }), initial));
+    expect(state.topics[0].promotedFromRed).toBe(true);
+    expect(state.tasks[0].stage).toBe('T14_VERIFICATION');
+  });
   it('preserves zero, regenerates T+14 from the actual result, and deduplicates repeated import', () => {
     const subject = topic('unit-b14-05', 'B14', '5- PERİODONTİTİS', {
       status: 'TRIAGED', currentBucket: 'YELLOW', t14DueDate: '2026-11-15',

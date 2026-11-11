@@ -23,6 +23,7 @@ export const topicSchema = z.object({
   t0Date: calendarDate.optional(), t3DueDate: calendarDate.optional(), t14DueDate: calendarDate.optional(),
   saturdayRepairDate: calendarDate.optional(), lastStudiedDate: calendarDate.optional(), reviewCount: count.optional(),
   t0Score: score.optional(), t3Score: score.optional(), t14Score: score.optional(), repairScore: score.optional(),
+  promotedFromRed: z.boolean().optional(),
   clinicalNotes: text.optional(), mnemonics: z.array(text).optional(), criticalDifferences: z.array(text).optional(),
 });
 

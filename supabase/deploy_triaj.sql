@@ -159,6 +159,9 @@ create table if not exists public.triaj_integration_quotas (
 );
 
 alter table public.triaj_integration_quotas enable row level security;
+alter table public.triaj_integration_quotas drop constraint if exists triaj_integration_quotas_feature_check;
+alter table public.triaj_integration_quotas add constraint triaj_integration_quotas_feature_check
+  check (feature in ('deepseek', 'ticktick-connect', 'ticktick-focus'));
 revoke all on public.triaj_integration_quotas from public, anon, authenticated;
 grant select, insert, update on public.triaj_integration_quotas to service_role;
 
@@ -170,14 +173,15 @@ set search_path = ''
 as $$
   with incremented as (
     insert into public.triaj_integration_quotas as quota (user_id, feature, quota_day, request_count)
-    values (p_user_id, p_feature, (current_timestamp at time zone 'Europe/Istanbul')::date, 1)
+    select p_user_id, p_feature, (current_timestamp at time zone 'Europe/Istanbul')::date, 1
+    where p_feature in ('deepseek', 'ticktick-connect', 'ticktick-focus')
     on conflict (user_id, feature) do update set
       quota_day = excluded.quota_day,
       request_count = case when quota.quota_day = excluded.quota_day
         then quota.request_count + 1 else 1 end
     where quota.quota_day < excluded.quota_day
       or (quota.quota_day = excluded.quota_day
-        and quota.request_count < case p_feature when 'deepseek' then 20 else 10 end)
+        and quota.request_count < case p_feature when 'deepseek' then 20 when 'ticktick-focus' then 60 else 10 end)
     returning 1
   )
   select exists (select from incremented)

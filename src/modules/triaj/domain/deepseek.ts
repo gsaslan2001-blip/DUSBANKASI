@@ -7,6 +7,8 @@
 
 export type DeepSeekTaskType =
   | 'TRIAGE_PATCH'   // T+3 veya Cumartesi Onarımı için 10-15 dk Nokta Atışı Yama & Çapraz Kıyas
+  | 'SWSPS_ERROR_AUTOPSY'
+  | 'MOCK_EXAM_STRATEGY'
   | 'ANKI_CLOZE'     // 01-KRITIK-OTOPSI-VE-TABLO destesi için tek satırlık Cloze & Mnemonic
   | 'UNIT_BLURTING'  // T+0 Boş Kağıt (Blurting) kritik eşikler ve DUS soru tuzakları kontrol listesi
   | 'CUSTOM';        // Serbest DUS sorgusu
@@ -96,6 +98,14 @@ export function buildDeepSeekPayload(
       ]
         .filter(Boolean)
         .join('\n');
+      break;
+
+    case 'SWSPS_ERROR_AUTOPSY':
+      userContent = [`Ders: ${subjectLabel}`, `Ünite: ${unitLabel}`, `Hata bilgisi: ${input.userNotes || 'Belirtilmedi'}`, 'Görev: Yanlışın bilişsel nedenini, çeldirici tuzağını ve tekrarını önleyecek kısa aktif geri çağırma adımını analiz et.'].join('\n');
+      break;
+
+    case 'MOCK_EXAM_STRATEGY':
+      userContent = [`Deneme bağlamı: ${input.userNotes || 'Belirtilmedi'}`, 'Görev: Verilen deneme sonuçlarını değerlendir, öncelikli eksikleri ve bir sonraki çalışma dönemi için somut bir plan öner. Eksik verileri uydurma.'].join('\n');
       break;
 
     case 'ANKI_CLOZE':

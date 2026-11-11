@@ -4,7 +4,7 @@ import { buildDeepSeekPayload, parseDeepSeekResponse } from './deepseekPrompt.js
 import { TriajApiError, upstreamSignal } from './http.js';
 
 export const deepSeekInput = z.strictObject({
-  taskType: z.enum(['TRIAGE_PATCH', 'ANKI_CLOZE', 'UNIT_BLURTING', 'CUSTOM']),
+  taskType: z.enum(['TRIAGE_PATCH', 'SWSPS_ERROR_AUTOPSY', 'MOCK_EXAM_STRATEGY', 'ANKI_CLOZE', 'UNIT_BLURTING', 'CUSTOM']),
   subjectName: z.string().trim().max(120).optional(),
   subjectCode: z.string().trim().max(32).optional(),
   unitTitle: z.string().trim().max(300).optional(),

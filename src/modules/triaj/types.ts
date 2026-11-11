@@ -74,6 +74,7 @@ export interface TopicUnit {
   t3Score?: ScoreDetail;
   t14Score?: ScoreDetail;
   repairScore?: ScoreDetail;
+  promotedFromRed?: boolean; // Cumartesi onarımından sarıya geçenlerde T+14 için üçüncü kaynak
   clinicalNotes?: string;        // Nokta atışı 5-10 dk yama notları
   mnemonics?: string[];          // Bilişsel kanca / hafıza çivileri
   criticalDifferences?: string[];// Çapraz kıyas / tuzaklar
